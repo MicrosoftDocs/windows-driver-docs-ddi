@@ -46,8 +46,8 @@ req.typenames: SCSI_ADDRESS, *PSCSI_ADDRESS
 ## -description
 
 
-The SCSI_ADDRESS structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560500">IOCTL_SCSI_GET_ADDRESS</a> request to retrieve the address information, such as the target ID (TID) and the logical unit number (LUN) of a particular SCSI target. 
-<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+The SCSI_ADDRESS structure is used in conjunction with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddscsi/ni-ntddscsi-ioctl_scsi_get_address">IOCTL_SCSI_GET_ADDRESS</a> request to retrieve the address information, such as the target ID (TID) and the logical unit number (LUN) of a particular SCSI target. 
+<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -struct-fields
 
@@ -83,7 +83,7 @@ Contains the logical unit number.
 
 
 
-Legacy class drivers issue the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560500">IOCTL_SCSI_GET_ADDRESS</a> request to the port driver to obtain the address of their devices. 
+Legacy class drivers issue the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddscsi/ni-ntddscsi-ioctl_scsi_get_address">IOCTL_SCSI_GET_ADDRESS</a> request to the port driver to obtain the address of their devices. 
 
 
 
@@ -93,7 +93,7 @@ Legacy class drivers issue the <a href="https://msdn.microsoft.com/library/windo
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560500">IOCTL_SCSI_GET_ADDRESS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddscsi/ni-ntddscsi-ioctl_scsi_get_address">IOCTL_SCSI_GET_ADDRESS</a>
  
 
  

@@ -123,7 +123,7 @@ Pointer to a caller-allocated variable that receives the address of a system-all
 This return value means one of the following:
 <ul>
 <li>
-<b>FltGetDestinationFileNameInformation</b> cannot get file name information if the <b>TopLevelIrp</b> field of the current thread is not <b>NULL</b>, because the resulting file system recursion could cause deadlocks or stack overflows. (For more information about this issue, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff548405" data-linktype="external">IoGetTopLevelIrp</a>.)
+<b>FltGetDestinationFileNameInformation</b> cannot get file name information if the <b>TopLevelIrp</b> field of the current thread is not <b>NULL</b>, because the resulting file system recursion could cause deadlocks or stack overflows. (For more information about this issue, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-iogettoplevelirp" data-linktype="external">IoGetTopLevelIrp</a>.)
 </li>
 <li>
 FLT_FILE_NAME_SHORT was specified for the name format flag in the <i>NameOptions</i> parameter.

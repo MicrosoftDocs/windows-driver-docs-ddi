@@ -108,7 +108,7 @@ The set of reported states is constrained by the capability of the slot hardware
 
 
 
-<a href="https://msdn.microsoft.com/F45D253E-E7D7-4600-AF8C-6D4EB096030D">WWAN_SLOT_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_slot_info">WWAN_SLOT_INFO</a>
  
 
  

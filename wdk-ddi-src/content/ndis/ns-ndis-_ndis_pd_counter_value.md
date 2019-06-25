@@ -56,15 +56,15 @@ This structure is used to hold a counter value for a queue or filter counter.
 
 ### -field ReceiveQueue
 
-See <a href="https://msdn.microsoft.com/library/windows/hardware/dn931848">NDIS_PD_RECEIVE_QUEUE_COUNTER</a>.
+See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_pd_receive_queue_counter">NDIS_PD_RECEIVE_QUEUE_COUNTER</a>.
 
 
 ### -field TransmitQueue
 
-See <a href="https://msdn.microsoft.com/library/windows/hardware/dn931849">NDIS_PD_TRANSMIT_QUEUE_COUNTER</a>.
+See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_pd_transmit_queue_counter">NDIS_PD_TRANSMIT_QUEUE_COUNTER</a>.
 
 
 ### -field Filter
 
-See <a href="https://msdn.microsoft.com/library/windows/hardware/dn931839">NDIS_PD_FILTER_COUNTER</a>.
+See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_pd_filter_counter">NDIS_PD_FILTER_COUNTER</a>.
 

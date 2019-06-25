@@ -62,7 +62,7 @@ req.typenames:
 This function does not return a value.
 
 <h2><a id="ddk_oemdisabledriver_gg"></a><a id="DDK_OEMDISABLEDRIVER_GG"></a></h2>
-This function is obsolete for Windows XP and later. It is supported only for earlier plug-ins. Use <a href="https://msdn.microsoft.com/library/windows/hardware/ff553207">IPrintOemPS::DisableDriver</a> (Pscript) or <a href="https://msdn.microsoft.com/library/windows/hardware/ff554232">IPrintOemUni::DisableDriver</a> (Unidrv).
+This function is obsolete for Windows XP and later. It is supported only for earlier plug-ins. Use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintoemps-disabledriver">IPrintOemPS::DisableDriver</a> (Pscript) or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintoemuni-disabledriver">IPrintOemUni::DisableDriver</a> (Unidrv).
 
 
 

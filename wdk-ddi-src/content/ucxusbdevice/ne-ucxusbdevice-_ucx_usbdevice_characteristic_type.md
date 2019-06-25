@@ -64,11 +64,11 @@ The type of characteristic of the device.
 
 
 
-<a href="https://msdn.microsoft.com/EE8568F6-3D88-477E-9F0D-044D014EBCF3">EVT_UCX_USBDEVICE_GET_CHARACTERISTIC</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucxusbdevice/nc-ucxusbdevice-evt_ucx_usbdevice_get_characteristic">EVT_UCX_USBDEVICE_GET_CHARACTERISTIC</a>
 
 
 
-<a href="https://msdn.microsoft.com/31BF5607-51EA-4FBF-A754-872FBD45915D">UCX_USBDEVICE_CHARACTERISTIC</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucxusbdevice/ns-ucxusbdevice-_ucx_usbdevice_characteristic">UCX_USBDEVICE_CHARACTERISTIC</a>
  
 
  

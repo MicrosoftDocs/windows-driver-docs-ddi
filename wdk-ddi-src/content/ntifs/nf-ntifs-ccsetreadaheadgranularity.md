@@ -91,7 +91,7 @@ After <a href="https://msdn.microsoft.com/library/windows/hardware/ff539135">CcI
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539191">CcReadAhead</a>
+<a href="https://docs.microsoft.com/previous-versions/ff539191(v=vs.85)">CcReadAhead</a>
 
 
 

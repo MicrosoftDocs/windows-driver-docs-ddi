@@ -77,9 +77,9 @@ If the spin lock is successfully deleted, <b>VideoPortDeleteSpinLock</b> returns
 
 
 
-A miniport driver uses this function to delete a spin lock that was previously created in a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff570289">VideoPortCreateSpinLock</a>.
+A miniport driver uses this function to delete a spin lock that was previously created in a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportcreatespinlock">VideoPortCreateSpinLock</a>.
 
-This routine cannot be called from an ISR or from a <a href="https://msdn.microsoft.com/library/windows/hardware/ff570372">VideoPortSynchronizeExecution</a> callback requested where the <i>Priority</i> parameter is set to either <b>VpMediumPriority</b> or <b>VpHighPriority</b>.
+This routine cannot be called from an ISR or from a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportsynchronizeexecution">VideoPortSynchronizeExecution</a> callback requested where the <i>Priority</i> parameter is set to either <b>VpMediumPriority</b> or <b>VpHighPriority</b>.
 
 
 
@@ -89,11 +89,11 @@ This routine cannot be called from an ISR or from a <a href="https://msdn.micros
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570289">VideoPortCreateSpinLock</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportcreatespinlock">VideoPortCreateSpinLock</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570372">VideoPortSynchronizeExecution</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportsynchronizeexecution">VideoPortSynchronizeExecution</a>
  
 
  

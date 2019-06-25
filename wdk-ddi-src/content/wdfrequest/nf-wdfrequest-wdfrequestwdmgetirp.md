@@ -49,7 +49,7 @@ req.typenames:
 
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
-The <b>WdfRequestWdmGetIrp</b> method returns the WDM <a href="https://msdn.microsoft.com/library/windows/hardware/ff550694">IRP</a> structure that is associated with a specified framework request object.
+The <b>WdfRequestWdmGetIrp</b> method returns the WDM <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_irp">IRP</a> structure that is associated with a specified framework request object.
 
 
 ## -parameters
@@ -66,7 +66,7 @@ A handle to a framework request object.
 
 
 
-<b>WdfRequestWdmGetIrp</b> returns a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550694">IRP</a> structure.
+<b>WdfRequestWdmGetIrp</b> returns a pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_irp">IRP</a> structure.
 
 A bug check occurs if the driver supplies an invalid object handle.
 
@@ -79,12 +79,12 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 The driver must not access a request's IRP structure after <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/completing-i-o-requests">completing the I/O request</a>.
 
-For more information about <b>WdfRequestWdmGetIrp</b>, see <a href="https://msdn.microsoft.com/a686ea00-6987-480a-a4ce-892e1efbed87">Obtaining Information About an I/O Request</a>.
+For more information about <b>WdfRequestWdmGetIrp</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/obtaining-information-about-an-i-o-request">Obtaining Information About an I/O Request</a>.
 
 
 #### Examples
 
-The following code example is part of an <a href="https://msdn.microsoft.com/3e3c4c53-e557-4bd1-8b7d-be59dde4b9ce">EvtIoDeviceControl</a> callback function that obtains the WDM IRP that is associated with an I/O request and then calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff549266">IoGetNextIrpStackLocation</a> to obtain the next-lower driver's I/O stack location.
+The following code example is part of an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfio/nc-wdfio-evt_wdf_io_queue_io_device_control">EvtIoDeviceControl</a> callback function that obtains the WDM IRP that is associated with an I/O request and then calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iogetnextirpstacklocation">IoGetNextIrpStackLocation</a> to obtain the next-lower driver's I/O stack location.
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -119,7 +119,7 @@ MyEvtIoDeviceControl(
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549969">WdfRequestGetParameters</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfrequest/nf-wdfrequest-wdfrequestgetparameters">WdfRequestGetParameters</a>
  
 
  

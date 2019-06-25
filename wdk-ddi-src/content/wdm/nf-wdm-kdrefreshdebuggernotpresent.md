@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <b>KdRefreshDebuggerNotPresent</b> macro refreshes the value of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548125">KD_DEBUGGER_NOT_PRESENT</a> global kernel variable.
+The <b>KdRefreshDebuggerNotPresent</b> macro refreshes the value of the <a href="https://docs.microsoft.com/previous-versions/ff548125(v=vs.85)">KD_DEBUGGER_NOT_PRESENT</a> global kernel variable.
 
 
 ## -parameters
@@ -107,15 +107,15 @@ else
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541860">Determining if a Debugger is Attached</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/determining-if-a-debugger-is-attached">Determining if a Debugger is Attached</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548118">KD_DEBUGGER_ENABLED</a>
+<a href="https://docs.microsoft.com/previous-versions/ff548118(v=vs.85)">KD_DEBUGGER_ENABLED</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548125">KD_DEBUGGER_NOT_PRESENT</a>
+<a href="https://docs.microsoft.com/previous-versions/ff548125(v=vs.85)">KD_DEBUGGER_NOT_PRESENT</a>
  
 
  

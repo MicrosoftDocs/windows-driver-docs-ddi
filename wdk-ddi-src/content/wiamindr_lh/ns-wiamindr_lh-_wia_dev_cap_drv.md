@@ -113,7 +113,7 @@ Specifies a string containing the name of the icon for this capability. The icon
 
 
 
-The WIA service calls the minidriver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff543977">IWiaMiniDrv::drvGetCapabilities</a> function to fill in the members of a WIA_DEV_CAP_DRV structure.
+The WIA service calls the minidriver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvgetcapabilities">IWiaMiniDrv::drvGetCapabilities</a> function to fill in the members of a WIA_DEV_CAP_DRV structure.
 
 When a driver is enumerating event handlers, the only valid value is WIA_IS_DEFAULT_HANDLER; which indicates that the currently registered handler should be used.
 
@@ -125,11 +125,11 @@ When a driver is enumerating event handlers, the only valid value is WIA_IS_DEFA
 
 
 
-<a href="https://msdn.microsoft.com/639eff56-655d-4b6a-95f0-daa1daf62fae">Driver Capabilities</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/image/driver-capabilities">Driver Capabilities</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543977">IWiaMiniDrv::drvGetCapabilities</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvgetcapabilities">IWiaMiniDrv::drvGetCapabilities</a>
  
 
  

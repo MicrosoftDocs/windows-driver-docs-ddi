@@ -69,7 +69,7 @@ Specifies a count.
 
 **ResourceBarrier** [in]
 
-A pointer to a resource barrier as a <a href="https://msdn.microsoft.com/ED597BB0-F9ED-4311-9E2F-06AEA2755B37">D3D12DDIARG_RESOURCE_BARRIER_0022</a> structure. 
+A pointer to a resource barrier as a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d12umddi/ns-d3d12umddi-d3d12ddiarg_resource_barrier_0022">D3D12DDIARG_RESOURCE_BARRIER_0022</a> structure. 
 
 
 
@@ -97,7 +97,7 @@ Access this callback function by using a command list functions structure, such 
 
 
 
-<a href="https://msdn.microsoft.com/ED597BB0-F9ED-4311-9E2F-06AEA2755B37">D3D12DDIARG_RESOURCE_BARRIER_0022</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d12umddi/ns-d3d12umddi-d3d12ddiarg_resource_barrier_0022">D3D12DDIARG_RESOURCE_BARRIER_0022</a>
  
 
  

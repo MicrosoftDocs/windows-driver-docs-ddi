@@ -46,7 +46,7 @@ req.typenames: TOKEN_TYPE
 ## -description
 
 
-The <b>FsRtlTruncateMcb</b> routine is obsolete, but is exported to support existing driver binaries. Use <a href="https://msdn.microsoft.com/library/windows/hardware/ff547303">FsRtlTruncateLargeMcb</a> instead.
+The <b>FsRtlTruncateMcb</b> routine is obsolete, but is exported to support existing driver binaries. Use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtltruncatelargemcb">FsRtlTruncateLargeMcb</a> instead.
 
 
 ## -parameters

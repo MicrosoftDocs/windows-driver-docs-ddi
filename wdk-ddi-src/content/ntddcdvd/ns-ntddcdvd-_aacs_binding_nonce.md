@@ -68,7 +68,7 @@ A message authentication code (MAC) that clients can use to verify that the bind
 
 
 
-Clients retrieve the binding nonce with an <a href="https://msdn.microsoft.com/library/windows/hardware/ff559262">IOCTL_AACS_READ_BINDING_NONCE</a> request or an <a href="https://msdn.microsoft.com/library/windows/hardware/ff559248">IOCTL_AACS_GENERATE_BINDING_NONCE</a> request.
+Clients retrieve the binding nonce with an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdvd/ni-ntddcdvd-ioctl_aacs_read_binding_nonce">IOCTL_AACS_READ_BINDING_NONCE</a> request or an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdvd/ni-ntddcdvd-ioctl_aacs_generate_binding_nonce">IOCTL_AACS_GENERATE_BINDING_NONCE</a> request.
 
 
 
@@ -78,11 +78,11 @@ Clients retrieve the binding nonce with an <a href="https://msdn.microsoft.com/l
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559248">IOCTL_AACS_GENERATE_BINDING_NONCE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdvd/ni-ntddcdvd-ioctl_aacs_generate_binding_nonce">IOCTL_AACS_GENERATE_BINDING_NONCE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559262">IOCTL_AACS_READ_BINDING_NONCE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdvd/ni-ntddcdvd-ioctl_aacs_read_binding_nonce">IOCTL_AACS_READ_BINDING_NONCE</a>
  
 
  

@@ -61,7 +61,7 @@ The
 An NDIS_HANDLE to a block of driver-allocated context information that identifies the provider.
      The provider supplied this information in the 
      <b>ProviderContext</b> member of the 
-     <a href="https://msdn.microsoft.com/45001da1-5fe3-4383-8da7-31e3ee115c1f">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_shared_memory_provider_characteristics">
      NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS</a> structure.
 
 
@@ -70,7 +70,7 @@ An NDIS_HANDLE to a block of driver-allocated context information that identifie
 A handle for a context area that identifies the shared memory block. This is the handle that the
      shared memory provider supplied at the 
      <i>pSharedMemoryProviderContext</i> parameter of the 
-     <a href="https://msdn.microsoft.com/d85b4f28-707b-4525-afd8-83e1ceb2674e">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-allocate_shared_memory_handler">
      NetAllocateSharedMemory</a> function.
 
 
@@ -89,11 +89,11 @@ None
 
 NDIS calls the 
     <i>NetFreeSharedMemory</i> function of a shared memory provider when a driver calls the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff562601">NdisFreeSharedMemory</a> function.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisfreesharedmemory">NdisFreeSharedMemory</a> function.
 
 The shared memory provider specified the entry point (FREE_SHARED_MEMORY_HANDLER) for 
     <i>NetFreeSharedMemory</i> in the 
-    <a href="https://msdn.microsoft.com/45001da1-5fe3-4383-8da7-31e3ee115c1f">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_shared_memory_provider_characteristics">
     NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS</a> structure.
 
 
@@ -104,16 +104,16 @@ The shared memory provider specified the entry point (FREE_SHARED_MEMORY_HANDLER
 
 
 
-<a href="https://msdn.microsoft.com/45001da1-5fe3-4383-8da7-31e3ee115c1f">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_shared_memory_provider_characteristics">
    NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562601">NdisFreeSharedMemory</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisfreesharedmemory">NdisFreeSharedMemory</a>
 
 
 
-<a href="https://msdn.microsoft.com/d85b4f28-707b-4525-afd8-83e1ceb2674e">NetAllocateSharedMemory</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-allocate_shared_memory_handler">NetAllocateSharedMemory</a>
  
 
  

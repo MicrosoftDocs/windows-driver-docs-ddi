@@ -102,7 +102,7 @@ sizeof(NDIS_WWAN_SYS_CAPS_INFO)
  
 
 For more information about these members, see 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field uStatus
@@ -174,7 +174,7 @@ The operation failed because the device does not support this OID.
 
 ### -field SysCapsInfo
 
-A formatted <a href="https://msdn.microsoft.com/EBD9D4CA-E032-4BB3-A802-D2D7A39E9A42">WWAN_SYS_CAPS_INFO</a> structure that represents the overall modem system capability.
+A formatted <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_sys_caps_info">WWAN_SYS_CAPS_INFO</a> structure that represents the overall modem system capability.
 
 
 ## -see-also
@@ -182,19 +182,19 @@ A formatted <a href="https://msdn.microsoft.com/EBD9D4CA-E032-4BB3-A802-D2D7A39E
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/653A35EC-29BB-458D-B33C-41EF6EF47A6E">NDIS_STATUS_WWAN_SYS_CAPS_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-wwan-sys-caps">NDIS_STATUS_WWAN_SYS_CAPS_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/D158432A-A715-4ABB-969C-F8F80D2DB845">OID_WWAN_SYS_CAPS_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-sys-caps">OID_WWAN_SYS_CAPS_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/EBD9D4CA-E032-4BB3-A802-D2D7A39E9A42">WWAN_SYS_CAPS_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_sys_caps_info">WWAN_SYS_CAPS_INFO</a>
  
 
  

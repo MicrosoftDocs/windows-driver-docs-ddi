@@ -53,7 +53,7 @@ Unregisters the client driver with the Policy Manager.
 [In] The handle that the client driver received in a previous call to [**UsbPm_Register**](nf-usbpmapi-usbpm_register.md).
 
 ## -returns
-Returns STATUS_SUCCESS if the operation succeeds. Otherwise, returns an appropriate [NTSTATUS](https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505) value.
+Returns STATUS_SUCCESS if the operation succeeds. Otherwise, returns an appropriate [NTSTATUS](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values) value.
 
 ## -remarks
 [**UsbPm_Deregister**] does not return until all outstanding calls to the client driver's callback functions are returned. After **UsbPm_Deregister** returns, Policy Manager no longer invokes callback functions on the same handle.

@@ -56,7 +56,7 @@ The <b>WIA_PATCH_CODE_INFO</b> structure stores information for one decoded patc
 
 ### -field Type
 
-The patch code type. One of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh706269">WIA_IPS_SUPPORTED_PATCH_CODE_TYPES</a> values.
+The patch code type. One of the <a href="https://docs.microsoft.com/windows-hardware/drivers/image/wia-ips-supported-patch-code-types">WIA_IPS_SUPPORTED_PATCH_CODE_TYPES</a> values.
 
 
 #### - Page

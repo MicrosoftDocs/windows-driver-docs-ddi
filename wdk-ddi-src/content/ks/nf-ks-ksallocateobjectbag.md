@@ -47,7 +47,7 @@ req.typenames:
 ## -description
 
 
-The<b> KsAllocateObjectBag</b> function creates an object bag and associates it with a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561681">KSDEVICE</a>.
+The<b> KsAllocateObjectBag</b> function creates an object bag and associates it with a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksdevice">KSDEVICE</a>.
 
 
 ## -parameters
@@ -57,7 +57,7 @@ The<b> KsAllocateObjectBag</b> function creates an object bag and associates it 
 
 ### -param Device [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561681">KSDEVICE</a> representing the device object associated with the newly created object bag.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksdevice">KSDEVICE</a> representing the device object associated with the newly created object bag.
 
 
 ### -param ObjectBag [out]
@@ -78,9 +78,9 @@ Returns STATUS_SUCCESS if a new object bag is created. If a new object bag is no
 
 
 
-An allocated object bag is not deleted automatically. The minidriver calling <b>KsAllocateObjectBag</b> is responsible for deletion of the object bag. The easiest way to do this is by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff562562">KsFreeObjectBag</a>. Alternatively, if the minidriver has the addresses of the items in the bag, the minidriver can delete them individually by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff566798">KsRemoveItemFromObjectBag</a>.
+An allocated object bag is not deleted automatically. The minidriver calling <b>KsAllocateObjectBag</b> is responsible for deletion of the object bag. The easiest way to do this is by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksfreeobjectbag">KsFreeObjectBag</a>. Alternatively, if the minidriver has the addresses of the items in the bag, the minidriver can delete them individually by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksremoveitemfromobjectbag">KsRemoveItemFromObjectBag</a>.
 
-For more information, see <a href="https://msdn.microsoft.com/b7ee5756-1c79-4ead-9999-d13be9a0d3d9">Object Bags</a>.
+For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/object-bags">Object Bags</a>.
 
 
 
@@ -90,23 +90,23 @@ For more information, see <a href="https://msdn.microsoft.com/b7ee5756-1c79-4ead
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560941">KsAddItemToObjectBag</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksadditemtoobjectbag">KsAddItemToObjectBag</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561031">KsCopyObjectBagItems</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-kscopyobjectbagitems">KsCopyObjectBagItems</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561695">KsDiscard</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksdiscard">KsDiscard</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562562">KsFreeObjectBag</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksfreeobjectbag">KsFreeObjectBag</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566798">KsRemoveItemFromObjectBag</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksremoveitemfromobjectbag">KsRemoveItemFromObjectBag</a>
  
 
  

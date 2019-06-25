@@ -92,12 +92,12 @@ The SMS message format that should be used for the unsolicited indication of new
 
 
 
-<a href="https://msdn.microsoft.com/aa191c47-4b3b-464a-8a12-db673fca0f20">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndiswwan/ns-ndiswwan-_ndis_wwan_set_sms_configuration">
    NDIS_WWAN_SET_SMS_CONFIGURATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571247">WWAN_SMS_FORMAT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ne-wwan-_wwan_sms_format">WWAN_SMS_FORMAT</a>
  
 
  

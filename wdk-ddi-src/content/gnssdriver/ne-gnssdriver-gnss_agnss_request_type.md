@@ -46,7 +46,7 @@ req.typenames: GNSS_AGNSS_REQUEST_TYPE
 ## -description
 
 
-This enumeration indicates the type of AGNSS injection request represented by the <a href="https://msdn.microsoft.com/library/windows/hardware/dn925096">GNSS_AGNSS_REQUEST_PARAM</a> structure.
+This enumeration indicates the type of AGNSS injection request represented by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/gnssdriver/ns-gnssdriver-gnss_agnss_request_param">GNSS_AGNSS_REQUEST_PARAM</a> structure.
 
 
 ## -enum-fields

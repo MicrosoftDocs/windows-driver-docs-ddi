@@ -108,7 +108,7 @@ The negotiated speed to the device. The possible values are as follows:
 
 
 
-<a href="https://msdn.microsoft.com/5473C6AC-284C-41B1-AA67-75696BE96C24">Device Driver Interface (DDI) Changes in Windows 7</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ieee/device-driver-interface--ddi--changes-in-windows-7">Device Driver Interface (DDI) Changes in Windows 7</a>
  
 
  

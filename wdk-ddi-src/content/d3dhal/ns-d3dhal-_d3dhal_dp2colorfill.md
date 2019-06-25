@@ -50,7 +50,7 @@ req.typenames: D3DHAL_DP2COLORFILL
    DirectX 9.0 and later versions only.
    
 
-D3DHAL_DP2COLORFILL is used for color-fill operations when <a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a> responds to the D3DDP2OP_COLORFILL command token.
+D3DHAL_DP2COLORFILL is used for color-fill operations when <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a> responds to the D3DDP2OP_COLORFILL command token.
 
 
 ## -struct-fields
@@ -79,7 +79,7 @@ Specifies a D3DCOLOR for the color type.
 
 Because DirectX 9.0 and later drivers are required to support the D3DDP2OP_COLORFILL command token, they are not required to expose a capability bit that indicates such support. 
 
-Display drivers must convert input color values for the ARGB and YUV classes of color formats. For color-fill operations, input color values are specified in the <b>Color</b> member. For more information, see <a href="https://msdn.microsoft.com/53ce6be1-14e1-4ee8-ba29-f198dcdacdaa">Handling Color Values for Pixel Formats</a>.
+Display drivers must convert input color values for the ARGB and YUV classes of color formats. For color-fill operations, input color values are specified in the <b>Color</b> member. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/handling-color-values-for-pixel-formats">Handling Color Values for Pixel Formats</a>.
 
 When the runtime calls a driver's <b>DdBlt</b> function to perform a color-fill operation, the runtime converts the D3DCOLOR value to an explicit pixel value if the runtime supports the format of that D3DCOLOR value. If the runtime does not support the format, the D3DCOLOR value is passed directly to the driver. 
 
@@ -97,11 +97,11 @@ D3DDP2OP_COLORFILL
 
 
 
-<a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a>
 
 
 
-<a href="https://msdn.microsoft.com/28e0c827-33f1-4b83-9f20-bbb66bc0e14a">DdBlt</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_surfcb_blt">DdBlt</a>
  
 
  

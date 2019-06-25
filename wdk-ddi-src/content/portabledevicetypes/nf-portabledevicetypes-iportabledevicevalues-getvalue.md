@@ -123,15 +123,15 @@ When the VARTYPE for <i>pValue</i> is VT_VECTOR or VT_UI1, retrieving a <b>NULL<
 
 
 
-<a href="https://msdn.microsoft.com/4a97301a-12cc-442f-a080-446ec9e1e245">IPortableDeviceValues Interface</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portabledevicetypes/nn-portabledevicetypes-iportabledevicevalues">IPortableDeviceValues Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/aaa6cfd7-ac55-49b5-b077-98e42367ce0e">IPortableDeviceValues::RemoveValue</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portabledevicetypes/nf-portabledevicetypes-iportabledevicevalues-removevalue">IPortableDeviceValues::RemoveValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/43670b44-7554-4cef-9b8d-aa66c16edf13">IPortableDeviceValues::SetValue</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portabledevicetypes/nf-portabledevicetypes-iportabledevicevalues-setvalue">IPortableDeviceValues::SetValue</a>
  
 
  

@@ -64,14 +64,14 @@ Specifies the final status of the client's request to modify the QoS on this VC,
 
 Specifies the handle to the VC, obtained from the per-VC state designated by the 
      <i>CallMgrVcContext</i> passed in to the MCM driver's 
-     <a href="https://msdn.microsoft.com/24523677-9f5a-4109-8484-95883a4d1bbf">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cm_modify_qos_call">
      ProtocolCmModifyCallQoS</a> function for this request.
 
 
 ### -param _P_
 
 Pointer to a structure of type 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a> specifying a QoS
+     <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff545384(v=vs.85)">CO_CALL_PARAMETERS</a> specifying a QoS
      acceptable to the MCM driver if 
      <i>Status</i> is set to NDIS_STATUS_SUCCESS.
 
@@ -82,7 +82,7 @@ Pointer to a structure of type
 
 A call to 
     <b>NdisMCmModifyCallQoSComplete</b> causes NDIS to call the client's 
-    <a href="https://msdn.microsoft.com/0d925862-49af-4579-b877-c9a033e73be0">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cl_modify_call_qos_complete">
     ProtocolClModifyCallQoSComplete</a> function.
 
 The MCM driver should call 
@@ -109,28 +109,28 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff545384(v=vs.85)">CO_CALL_PARAMETERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561636">NdisClModifyCallQoS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisclmodifycallqos">NdisClModifyCallQoS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561679">NdisCmModifyCallQosComplete</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndiscmmodifycallqoscomplete">NdisCmModifyCallQosComplete</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562792">NdisMCmActivateVc</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismcmactivatevc">NdisMCmActivateVc</a>
 
 
 
-<a href="https://msdn.microsoft.com/0d925862-49af-4579-b877-c9a033e73be0">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cl_modify_call_qos_complete">
    ProtocolClModifyCallQoSComplete</a>
 
 
 
-<a href="https://msdn.microsoft.com/24523677-9f5a-4109-8484-95883a4d1bbf">ProtocolCmModifyCallQoS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cm_modify_qos_call">ProtocolCmModifyCallQoS</a>
  
 
  

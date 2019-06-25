@@ -87,7 +87,7 @@ The DMA operations on the queue are stopped because the queue is being freed, an
      DMA Stopped state when the miniport driver receives an 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-free-queue">
      OID_RECEIVE_FILTER_FREE_QUEUE</a> OID request, stops the DMA operations for the queue, and issues an 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff567214">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_receive_queue_state">
      NDIS_STATUS_RECEIVE_QUEUE_STATE</a> status indication.
 
 
@@ -103,8 +103,8 @@ The maximum value for this enumeration. This value might change in future versio
 
 The <b>
        NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE</b> enumeration is used in the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff567214">NDIS_RECEIVE_QUEUE_STATE</a> and 
-    <a href="https://msdn.microsoft.com/7cdc45d4-e8aa-437a-b6fc-8b8c0dc17585">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_receive_queue_state">NDIS_RECEIVE_QUEUE_STATE</a> and 
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_receive_queue_info">
     NDIS_RECEIVE_QUEUE_INFO</a> structures.
 
 
@@ -115,15 +115,15 @@ The <b>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567204">NDIS_RECEIVE_QUEUE_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_receive_queue_info">NDIS_RECEIVE_QUEUE_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567214">NDIS_RECEIVE_QUEUE_STATE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_receive_queue_state">NDIS_RECEIVE_QUEUE_STATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567214">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_receive_queue_state">
    NDIS_STATUS_RECEIVE_QUEUE_STATE</a>
 
 

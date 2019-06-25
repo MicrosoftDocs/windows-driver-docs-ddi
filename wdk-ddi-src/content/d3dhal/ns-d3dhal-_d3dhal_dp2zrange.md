@@ -46,7 +46,7 @@ req.typenames: D3DHAL_DP2ZRANGE
 ## -description
 
 
-The D3DHAL_DP2ZRANGE structure specifies z-range minimum and maximum in <a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a>.
+The D3DHAL_DP2ZRANGE structure specifies z-range minimum and maximum in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a>.
 
 
 ## -struct-fields
@@ -56,12 +56,12 @@ The D3DHAL_DP2ZRANGE structure specifies z-range minimum and maximum in <a href=
 
 ### -field dvMinZ
 
-Specifies the minimum z value for the Mvs matrix described in the <a href="https://msdn.microsoft.com/b45aa56e-2d8c-412a-b581-a1e2002d4fac">Hardware Transform and Lighting</a> section of the design guide.
+Specifies the minimum z value for the Mvs matrix described in the <a href="https://docs.microsoft.com/windows-hardware/drivers/display/hardware-transform-and-lighting">Hardware Transform and Lighting</a> section of the design guide.
 
 
 ### -field dvMaxZ
 
-Specifies the maximum z value for the Mvs matrix described in the <a href="https://msdn.microsoft.com/b45aa56e-2d8c-412a-b581-a1e2002d4fac">Hardware Transform and Lighting</a> section of the design guide.
+Specifies the maximum z value for the Mvs matrix described in the <a href="https://docs.microsoft.com/windows-hardware/drivers/display/hardware-transform-and-lighting">Hardware Transform and Lighting</a> section of the design guide.
 
 
 ## -see-also
@@ -69,7 +69,7 @@ Specifies the maximum z value for the Mvs matrix described in the <a href="https
 
 
 
-<a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a>
  
 
  

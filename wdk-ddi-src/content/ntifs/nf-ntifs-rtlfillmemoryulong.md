@@ -84,7 +84,7 @@ None
 
 If the block of memory at <i>Destination</i> is nonpaged, the caller can be running at any IRQL. Otherwise, callers of <b>RtlFillMemoryUlong</b> must be running at IRQL < DISPATCH_LEVEL. 
 
-For more information about managing buffered data and initializing driver-allocated buffers, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540656">Buffered Data and Buffer Initialization</a>. 
+For more information about managing buffered data and initializing driver-allocated buffers, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">Buffered Data and Buffer Initialization</a>. 
 
 
 
@@ -94,15 +94,15 @@ For more information about managing buffered data and initializing driver-alloca
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561870">RtlFillMemory</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlfillmemory">RtlFillMemory</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552267">RtlFillMemoryUlonglong</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-rtlfillmemoryulonglong">RtlFillMemoryUlonglong</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563610">RtlZeroMemory</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlzeromemory">RtlZeroMemory</a>
  
 
  

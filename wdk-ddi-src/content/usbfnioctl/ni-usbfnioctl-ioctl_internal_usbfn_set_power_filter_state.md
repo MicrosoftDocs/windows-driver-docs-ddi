@@ -58,12 +58,12 @@ Do not use.
 
 ### -input-buffer
 
-The input buffer contains a <a href="https://msdn.microsoft.com/library/windows/hardware/mt188005">USBFN_POWER_FILTER_STATE</a> structure that specifies the device state.
+The input buffer contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbfnioctl/ns-usbfnioctl-_usbfn_power_filter_state">USBFN_POWER_FILTER_STATE</a> structure that specifies the device state.
 
 
 ### -input-buffer-length
 
-The size of a <a href="https://msdn.microsoft.com/library/windows/hardware/mt188005">USBFN_POWER_FILTER_STATE</a> structure.
+The size of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbfnioctl/ns-usbfnioctl-_usbfn_power_filter_state">USBFN_POWER_FILTER_STATE</a> structure.
 
 
 ### -output-buffer

@@ -108,7 +108,7 @@ Used to force the ACTIVITY_STATE enum to a 32-bit data type (a DWORD).
 
 
 
-For more information about the sensor data fields that use this enumeration, see <a href="https://msdn.microsoft.com/library/windows/hardware/dn957013">Activity detection sensor data fields</a>.
+For more information about the sensor data fields that use this enumeration, see <a href="https://docs.microsoft.com/windows-hardware/drivers/sensors/activity-detection-sensor-data-fields">Activity detection sensor data fields</a>.
 
 
 
@@ -118,7 +118,7 @@ For more information about the sensor data fields that use this enumeration, see
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn957013">Activity detection sensor data fields</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/sensors/activity-detection-sensor-data-fields">Activity detection sensor data fields</a>
  
 
  

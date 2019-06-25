@@ -46,7 +46,7 @@ req.typenames: TAPE_ERASE, *PTAPE_ERASE
 ## -description
 
 
-The TAPE_ERASE structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560615">IOCTL_TAPE_ERASE</a> request to erase the current tape partition.
+The TAPE_ERASE structure is used in conjunction with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddtape/ni-ntddtape-ioctl_tape_erase">IOCTL_TAPE_ERASE</a> request to erase the current tape partition.
 
 
 ## -struct-fields
@@ -69,7 +69,7 @@ Indicates that the target device should return status immediately, when set to <
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560615">IOCTL_TAPE_ERASE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddtape/ni-ntddtape-ioctl_tape_erase">IOCTL_TAPE_ERASE</a>
  
 
  

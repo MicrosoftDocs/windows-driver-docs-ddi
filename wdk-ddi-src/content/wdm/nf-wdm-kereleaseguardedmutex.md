@@ -47,7 +47,7 @@ ms.custom: RS5
 ## -description
 
 
-The <b>KeReleaseGuardedMutex</b> routine releases a guarded mutex acquired with <a href="https://msdn.microsoft.com/library/windows/hardware/ff551892">KeAcquireGuardedMutex</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff553307">KeTryToAcquireGuardedMutex</a>.
+The <b>KeReleaseGuardedMutex</b> routine releases a guarded mutex acquired with <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff551892(v=vs.85)">KeAcquireGuardedMutex</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff553307">KeTryToAcquireGuardedMutex</a>.
 
 
 ## -parameters
@@ -57,7 +57,7 @@ The <b>KeReleaseGuardedMutex</b> routine releases a guarded mutex acquired with 
 
 ### -param Mutex [in, out]
 
-Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554235">KGUARDED_MUTEX</a> structure for the guarded mutex.
+Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">KGUARDED_MUTEX</a> structure for the guarded mutex.
 
 
 ## -returns
@@ -75,7 +75,7 @@ None
 
 <b>KeReleaseGuardedMutex</b> implicitly exits the guarded region entered by <b>KeAcquireGuardedMutex</b> and <b>KeTryToAcquireGuardedMutex</b>.
 
-For more information about guarded mutexes, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff545716">Fast Mutexes and Guarded Mutexes</a>. 
+For more information about guarded mutexes, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/fast-mutexes-and-guarded-mutexes">Fast Mutexes and Guarded Mutexes</a>. 
 
 
 
@@ -85,7 +85,7 @@ For more information about guarded mutexes, see <a href="https://msdn.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551892">KeAcquireGuardedMutex</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff551892(v=vs.85)">KeAcquireGuardedMutex</a>
  
 
  

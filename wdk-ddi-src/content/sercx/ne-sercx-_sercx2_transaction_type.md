@@ -78,7 +78,7 @@ Use the custom data-transfer mechanism to perform the I/O transaction.
 
 
 
-The <a href="https://msdn.microsoft.com/CB4551F4-8B22-4595-8091-CB84671DC60C">EvtSerCx2SelectNextReceiveTransactionType</a> and <a href="https://msdn.microsoft.com/EE46CB43-18BA-4FD7-A60D-07DB1760B8E7">EvtSerCx2SelectNextTransmitTransactionType</a> event callback functions return <b>SERCX2_TRANSACTION_TYPE</b> enumeration values.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sercx/nc-sercx-evt_sercx2_select_next_receive_transaction_type">EvtSerCx2SelectNextReceiveTransactionType</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sercx/nc-sercx-evt_sercx2_select_next_transmit_transaction_type">EvtSerCx2SelectNextTransmitTransactionType</a> event callback functions return <b>SERCX2_TRANSACTION_TYPE</b> enumeration values.
 
 
 
@@ -88,11 +88,11 @@ The <a href="https://msdn.microsoft.com/CB4551F4-8B22-4595-8091-CB84671DC60C">Ev
 
 
 
-<a href="https://msdn.microsoft.com/CB4551F4-8B22-4595-8091-CB84671DC60C">EvtSerCx2SelectNextReceiveTransactionType</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sercx/nc-sercx-evt_sercx2_select_next_receive_transaction_type">EvtSerCx2SelectNextReceiveTransactionType</a>
 
 
 
-<a href="https://msdn.microsoft.com/EE46CB43-18BA-4FD7-A60D-07DB1760B8E7">EvtSerCx2SelectNextTransmitTransactionType</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sercx/nc-sercx-evt_sercx2_select_next_transmit_transaction_type">EvtSerCx2SelectNextTransmitTransactionType</a>
  
 
  

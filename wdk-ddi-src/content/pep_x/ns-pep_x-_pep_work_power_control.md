@@ -46,7 +46,7 @@ req.typenames: PEP_WORK_POWER_CONTROL, *PPEP_WORK_POWER_CONTROL
 ## -description
 
 
-The <b>PEP_WORK_POWER_CONTROL</b> structure contains the parameters for a <a href="https://msdn.microsoft.com/10A30691-CDF9-4B62-B6E8-790CA52C0E91">power control request</a> that the platform extension plug-in (PEP) sends directly to a processor driver.
+The <b>PEP_WORK_POWER_CONTROL</b> structure contains the parameters for a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">power control request</a> that the platform extension plug-in (PEP) sends directly to a processor driver.
 
 
 ## -struct-fields
@@ -56,12 +56,12 @@ The <b>PEP_WORK_POWER_CONTROL</b> structure contains the parameters for a <a hre
 
 ### -field DeviceHandle
 
-A POHANDLE value that identifies the processor. The PEP received this handle in a previous <a href="https://msdn.microsoft.com/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a> notification.
+A POHANDLE value that identifies the processor. The PEP received this handle in a previous <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/ns-pepfx-_pep_register_crashdump_device">PEP_DPM_REGISTER_DEVICE</a> notification.
 
 
 ### -field PowerControlCode
 
-[in] A pointer to a <a href="https://msdn.microsoft.com/library/windows/desktop/aa373931(v=vs.85).aspx">GUID</a> value that specifies the power control operation to perform.
+[in] A pointer to a <a href="https://docs.microsoft.com/previous-versions/aa373931(v=vs.80)">GUID</a> value that specifies the power control operation to perform.
 
 
 ### -field RequestContext
@@ -93,9 +93,9 @@ A pointer to a PEP-defined context value. The PEP might use this value to unique
 
 
 
-The <b>PowerControl</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186864">PEP_WORK_INFORMATION</a> structure is a pointer to a <b>PEP_WORK_POWER_CONTROL</b> structure.
+The <b>PowerControl</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/ns-pepfx-_pep_work_information">PEP_WORK_INFORMATION</a> structure is a pointer to a <b>PEP_WORK_POWER_CONTROL</b> structure.
 
-The PEP issues a power control request from a worker thread. The Windows <a href="https://msdn.microsoft.com/B08F8ABF-FD43-434C-A345-337FBB799D9B">power management framework</a> (PoFx) forwards this request by calling the processor driver's <a href="https://msdn.microsoft.com/library/windows/hardware/hh439564">PowerControlCallback</a> routine, if the driver implements this routine.
+The PEP issues a power control request from a worker thread. The Windows <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">power management framework</a> (PoFx) forwards this request by calling the processor driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-po_fx_power_control_callback">PowerControlCallback</a> routine, if the driver implements this routine.
 
 
 
@@ -105,23 +105,23 @@ The PEP issues a power control request from a worker thread. The Windows <a href
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/desktop/aa373931(v=vs.85).aspx">GUID</a>
+<a href="https://docs.microsoft.com/previous-versions/aa373931(v=vs.80)">GUID</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/ns-pepfx-_pep_register_crashdump_device">PEP_DPM_REGISTER_DEVICE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt186864">PEP_WORK_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/ns-pepfx-_pep_work_information">PEP_WORK_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439521">PoFxRegisterDevice</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-pofxregisterdevice">PoFxRegisterDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439564">PowerControlCallback</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-po_fx_power_control_callback">PowerControlCallback</a>
  
 
  

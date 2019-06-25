@@ -46,7 +46,7 @@ req.typenames: TRANSACTION_BASIC_INFORMATION, *PTRANSACTION_BASIC_INFORMATION
 ## -description
 
 
-The <b>TRANSACTION_BASIC_INFORMATION</b> structure contains information about a <a href="https://msdn.microsoft.com/124105bd-70be-49b1-8ea4-af6ba1f3cf16">transaction object</a>.
+The <b>TRANSACTION_BASIC_INFORMATION</b> structure contains information about a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/transaction-objects">transaction object</a>.
 
 
 ## -struct-fields
@@ -56,24 +56,24 @@ The <b>TRANSACTION_BASIC_INFORMATION</b> structure contains information about a 
 
 ### -field TransactionId
 
-A GUID that KTM has assigned to the transaction object. This value is also known as the transaction's <a href="https://msdn.microsoft.com/927a417b-35f5-49b8-85f3-7e6b1f5c0225">unit of work (UOW) identifier</a>.
+A GUID that KTM has assigned to the transaction object. This value is also known as the transaction's <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ktm-objects">unit of work (UOW) identifier</a>.
 
 
 ### -field State
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff564849">TRANSACTION_STATE</a>-typed value that specifies the transaction's current state.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_transaction_state">TRANSACTION_STATE</a>-typed value that specifies the transaction's current state.
 
 
 ### -field Outcome
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff564835">TRANSACTION_OUTCOME</a>-typed value that specifies the transaction's outcome (result).
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_transaction_outcome">TRANSACTION_OUTCOME</a>-typed value that specifies the transaction's outcome (result).
 
 
 ## -remarks
 
 
 
-The <b>TRANSACTION_BASIC_INFORMATION</b> structure is used with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567057">ZwQueryInformationTransaction</a> routine. This routine fills in the structure's members.
+The <b>TRANSACTION_BASIC_INFORMATION</b> structure is used with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ntqueryinformationtransaction">ZwQueryInformationTransaction</a> routine. This routine fills in the structure's members.
 
 
 
@@ -83,23 +83,23 @@ The <b>TRANSACTION_BASIC_INFORMATION</b> structure is used with the <a href="htt
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564800">TRANSACTION_INFORMATION_CLASS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_transaction_information_class">TRANSACTION_INFORMATION_CLASS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564835">TRANSACTION_OUTCOME</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_transaction_outcome">TRANSACTION_OUTCOME</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564849">TRANSACTION_STATE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_transaction_state">TRANSACTION_STATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564679">TmGetTransactionId</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-tmgettransactionid">TmGetTransactionId</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567057">ZwQueryInformationTransaction</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ntqueryinformationtransaction">ZwQueryInformationTransaction</a>
  
 
  

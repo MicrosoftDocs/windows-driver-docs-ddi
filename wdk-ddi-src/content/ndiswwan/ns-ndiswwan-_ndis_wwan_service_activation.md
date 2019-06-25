@@ -103,13 +103,13 @@ sizeof(NDIS_WWAN_SERVICE_ACTIVATION)
  
 
 For more information about these members, see 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field ServiceActivation
 
 A 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571232">WWAN_SERVICE_ACTIVATION</a> structure
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_service_activation">WWAN_SERVICE_ACTIVATION</a> structure
      that represents the service activation state of the device.
 
 
@@ -118,11 +118,11 @@ A
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571232">WWAN_SERVICE_ACTIVATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_service_activation">WWAN_SERVICE_ACTIVATION</a>
  
 
  

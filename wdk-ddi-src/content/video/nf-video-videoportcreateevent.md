@@ -94,7 +94,7 @@ When a notification event is set to the signaled state, all threads that were wa
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570292">VideoPortDeleteEvent</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportdeleteevent">VideoPortDeleteEvent</a>
  
 
  

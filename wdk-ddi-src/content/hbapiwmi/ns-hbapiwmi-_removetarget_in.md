@@ -46,7 +46,7 @@ req.typenames: RemoveTarget_IN, *PRemoveTarget_IN
 ## -description
 
 
-The RemoveTarget_IN structure is used by a WMI client to deliver input parameter data to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564030">RemoveTarget</a> WMI method.
+The RemoveTarget_IN structure is used by a WMI client to deliver input parameter data to the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/removetarget">RemoveTarget</a> WMI method.
 
 
 ## -struct-fields
@@ -73,7 +73,7 @@ Indicates the scope of the target events to cease reporting. If this member is z
 
 
 
-The WMI tool suite generates a declaration of the RemoveTarget_IN structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562490">MSFC_EventControl WMI Class</a>.
+The WMI tool suite generates a declaration of the RemoveTarget_IN structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msfc-eventcontrol-wmi-class">MSFC_EventControl WMI Class</a>.
 
 
 
@@ -83,7 +83,7 @@ The WMI tool suite generates a declaration of the RemoveTarget_IN structure in <
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564030">RemoveTarget</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/removetarget">RemoveTarget</a>
  
 
  

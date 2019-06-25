@@ -46,7 +46,7 @@ req.typenames: KSPIN_PHYSICALCONNECTION, *PKSPIN_PHYSICALCONNECTION
 ## -description
 
 
-A structure of type KSPIN_PHYSICALCONNECTION is returned in response to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff565205">KSPROPERTY_PIN_PHYSICALCONNECTION</a> request.
+A structure of type KSPIN_PHYSICALCONNECTION is returned in response to a <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-pin-physicalconnection">KSPROPERTY_PIN_PHYSICALCONNECTION</a> request.
 
 
 ## -struct-fields
@@ -83,7 +83,7 @@ This structure is used with port class only.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565205">KSPROPERTY_PIN_PHYSICALCONNECTION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-pin-physicalconnection">KSPROPERTY_PIN_PHYSICALCONNECTION</a>
  
 
  

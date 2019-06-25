@@ -70,7 +70,7 @@ The data transfer direction is from the device to the host system.
 
 
 
-The <b>WDF_USB_BMREQUEST_DIRECTION</b> enumeration is used in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552568">WDF_USB_CONTROL_SETUP_PACKET</a> structure.
+The <b>WDF_USB_BMREQUEST_DIRECTION</b> enumeration is used in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfusb/ns-wdfusb-_wdf_usb_control_setup_packet">WDF_USB_CONTROL_SETUP_PACKET</a> structure.
 
 For more information about the data transfer direction for a USB control transfer, see the USB specification.
 
@@ -82,7 +82,7 @@ For more information about the data transfer direction for a USB control transfe
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552568">WDF_USB_CONTROL_SETUP_PACKET</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfusb/ns-wdfusb-_wdf_usb_control_setup_packet">WDF_USB_CONTROL_SETUP_PACKET</a>
  
 
  

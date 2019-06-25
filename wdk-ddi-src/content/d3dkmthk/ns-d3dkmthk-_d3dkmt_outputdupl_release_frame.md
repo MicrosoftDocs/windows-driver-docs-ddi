@@ -46,7 +46,7 @@ req.typenames: D3DKMT_OUTPUTDUPL_RELEASE_FRAME
 ## -description
 
 
-Defines the duplicated desktop image that is to be released in a call to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439438">D3DKMTOutputDuplReleaseFrame</a> function.
+Defines the duplicated desktop image that is to be released in a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/nf-d3dkmthk-d3dkmtoutputduplreleaseframe">D3DKMTOutputDuplReleaseFrame</a> function.
 
 
 ## -struct-fields
@@ -76,7 +76,7 @@ Defines the duplicated desktop image that is to be released in a call to the <a 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439438">D3DKMTOutputDuplReleaseFrame</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/nf-d3dkmthk-d3dkmtoutputduplreleaseframe">D3DKMTOutputDuplReleaseFrame</a>
  
 
  

@@ -296,7 +296,7 @@ For internal use only. Must be NULL.
 
 ### -field fpRefreshPrinterChangeNotification
 
-(Optional. Can be NULL.) Pointer to the provider's [RefreshPrinterChangeNotification](https://msdn.microsoft.com/library/windows/hardware/ff561930) function.
+(Optional. Can be NULL.) Pointer to the provider's [RefreshPrinterChangeNotification](https://docs.microsoft.com/previous-versions/ff561930(v=vs.85)) function.
 
 ### -field fpOpenPrinterEx
 
@@ -480,7 +480,7 @@ Function pointers are listed in the order they are specified within the PRINTPRO
 
 [InitializePrintProvidor](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-initializeprintprovidor)
 
-[RefreshPrinterChangeNotification](https://msdn.microsoft.com/library/windows/hardware/ff561930)
+[RefreshPrinterChangeNotification](https://docs.microsoft.com/previous-versions/ff561930(v=vs.85))
 
 [SendRecvBidiData](href="https://msdn.microsoft.com/library/windows/hardware/ff562068)
 

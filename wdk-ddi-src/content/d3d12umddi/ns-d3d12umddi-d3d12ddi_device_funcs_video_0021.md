@@ -149,7 +149,7 @@ A function that trims processor allocations.
 
 
 
-<a href="https://msdn.microsoft.com/87B4873E-DD44-47E9-8E6A-5BA91218188F">D3D12DDI_DEVICE_FUNCS_CORE_0010</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d12umddi/ns-d3d12umddi-d3d12ddi_device_funcs_core_0010">D3D12DDI_DEVICE_FUNCS_CORE_0010</a>
  
 
  

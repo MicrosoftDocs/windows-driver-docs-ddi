@@ -56,7 +56,7 @@ The D3DKMT_DESTROYSYNCHRONIZATIONOBJECT structure contains the handle to a synch
 
 ### -field hSyncObject
 
-[in] A D3DKMT_HANDLE data type that represents the kernel-mode handle that the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546869">D3DKMTCreateSynchronizationObject</a> function returns and that identifies the kernel-mode synchronization object to destroy. 
+[in] A D3DKMT_HANDLE data type that represents the kernel-mode handle that the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/nf-d3dkmthk-d3dkmtcreatesynchronizationobject">D3DKMTCreateSynchronizationObject</a> function returns and that identifies the kernel-mode synchronization object to destroy. 
 
 
 ## -see-also
@@ -64,11 +64,11 @@ The D3DKMT_DESTROYSYNCHRONIZATIONOBJECT structure contains the handle to a synch
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546869">D3DKMTCreateSynchronizationObject</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/nf-d3dkmthk-d3dkmtcreatesynchronizationobject">D3DKMTCreateSynchronizationObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546935">D3DKMTDestroySynchronizationObject</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/nf-d3dkmthk-d3dkmtdestroysynchronizationobject">D3DKMTDestroySynchronizationObject</a>
  
 
  

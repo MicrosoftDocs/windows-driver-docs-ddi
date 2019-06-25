@@ -80,9 +80,9 @@ The routine that this prototype declares returns <b>TRUE</b> if the bus is succe
 
 The initialization routine for both SCSI and StorPort miniport drivers are declared using this prototype.
 
-For more information about the SCSI miniport driver's bus reset routine see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557318">HwScsiResetBus</a>.
+For more information about the SCSI miniport driver's bus reset routine see <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff557318(v=vs.85)">HwScsiResetBus</a>.
 
-For more information about the bus reset routine that is used with the StorPort driver's miniport driver routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557415">HwStorResetBus</a>.
+For more information about the bus reset routine that is used with the StorPort driver's miniport driver routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_reset_bus">HwStorResetBus</a>.
 
 
 
@@ -92,11 +92,11 @@ For more information about the bus reset routine that is used with the StorPort 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557318">HwScsiResetBus</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff557318(v=vs.85)">HwScsiResetBus</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557415">HwStorResetBus</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_reset_bus">HwStorResetBus</a>
  
 
  

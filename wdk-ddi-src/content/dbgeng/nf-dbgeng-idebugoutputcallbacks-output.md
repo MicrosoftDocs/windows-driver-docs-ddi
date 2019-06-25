@@ -56,7 +56,7 @@ The <b>Output</b> callback method is called by the engine to send output from th
 
 ### -param Mask [in]
 
-Specifies the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541518">DEBUG_OUTPUT_XXX</a> bit flags that indicate the nature of the output.
+Specifies the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-output-xxx">DEBUG_OUTPUT_XXX</a> bit flags that indicate the nature of the output.
 
 
 ### -param Text [in]
@@ -79,7 +79,7 @@ The return value is ignored by the engine unless it indicates a remote procedure
 
 The engine calls this method only if the supplied value of <i>Mask</i> is allowed by the client's output control.
 
-For more information about debugger engine output, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff550971">Input and Output</a>.
+For more information about debugger engine output, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/input-and-output">Input and Output</a>.
 
 
 

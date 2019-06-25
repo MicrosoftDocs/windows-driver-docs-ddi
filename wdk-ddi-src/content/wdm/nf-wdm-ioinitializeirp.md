@@ -84,7 +84,7 @@ None
 
 Drivers use <b>IoInitializeIrp</b> to initialize IRPs the driver allocated as raw memory. Do not use <b>IoInitializeIrp</b> to initialize an IRP allocated by <b>IoAllocateIrp</b>. <b>IoAllocateIrp</b> automatically initializes the members of the IRP.
 
-Drivers can use <b>IoInitializeIrp</b> to reinitialize an IRP for reuse only under certain circumstances. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff561107">Reusing IRPs</a> for details.
+Drivers can use <b>IoInitializeIrp</b> to reinitialize an IRP for reuse only under certain circumstances. See <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/reusing-irps">Reusing IRPs</a> for details.
 
 If the driver associates an MDL with the IRP it allocated, the driver is responsible for releasing the MDL when the IRP is completed.
 
@@ -98,39 +98,39 @@ An intermediate or highest-level driver also can call <b>IoBuildDeviceIoControlR
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550694">IRP</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_irp">IRP</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548257">IoAllocateIrp</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ioallocateirp">IoAllocateIrp</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548263">IoAllocateMdl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ioallocatemdl">IoAllocateMdl</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548324">IoBuildPartialMdl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iobuildpartialmdl">IoBuildPartialMdl</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh454223">IoFreeIrp</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/storport-iofreeirp">IoFreeIrp</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549126">IoFreeMdl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iofreemdl">IoFreeMdl</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549661">IoReuseIrp</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ioreuseirp">IoReuseIrp</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550321">IoSetNextIrpStackLocation</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iosetnextirpstacklocation">IoSetNextIrpStackLocation</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550349">IoSizeOfIrp</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-iosizeofirp">IoSizeOfIrp</a>
  
 
  

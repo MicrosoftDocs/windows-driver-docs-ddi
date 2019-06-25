@@ -46,7 +46,7 @@ req.typenames: KSAUDIO_MIXLEVEL, *PKSAUDIO_MIXLEVEL
 ## -description
 
 
-The KSAUDIO_MIXLEVEL structure specifies the mixing level of an input-output path in a supermixer node (<a href="https://msdn.microsoft.com/library/windows/hardware/ff537198">KSNODETYPE_SUPERMIX</a>).
+The KSAUDIO_MIXLEVEL structure specifies the mixing level of an input-output path in a supermixer node (<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksnodetype-supermix">KSNODETYPE_SUPERMIX</a>).
 
 
 ## -struct-fields
@@ -70,7 +70,7 @@ Specifies the mix level that is applied to the input channel as it flows into th
 
 A KSAUDIO_MIXLEVEL structure specifies the volume level of a particular data path from one input channel of a supermixer node to an output channel of the same node. An array of these structures is needed to specify the volume levels for all the input-output paths through a supermixer node.
 
-To specify the mixing levels of all paths through a supermixer node with <i>m</i> input channels and <i>n</i> output channels requires a mix-level table consisting of an <i>m</i> x <i>n</i> array of KSAUDIO_MIXLEVEL structures. This table is used to set or get the data value for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537292">KSPROPERTY_AUDIO_MIX_LEVEL_TABLE</a> property.
+To specify the mixing levels of all paths through a supermixer node with <i>m</i> input channels and <i>n</i> output channels requires a mix-level table consisting of an <i>m</i> x <i>n</i> array of KSAUDIO_MIXLEVEL structures. This table is used to set or get the data value for the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-audio-mix-level-table">KSPROPERTY_AUDIO_MIX_LEVEL_TABLE</a> property.
 
 The mix-level value in the <b>Level</b> member uses the following scale:
 
@@ -92,15 +92,15 @@ This scale has a resolution of 1/65536 decibel.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537198">KSNODETYPE_SUPERMIX</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksnodetype-supermix">KSNODETYPE_SUPERMIX</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537291">KSPROPERTY_AUDIO_MIX_LEVEL_CAPS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-audio-mix-level-caps">KSPROPERTY_AUDIO_MIX_LEVEL_CAPS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537292">KSPROPERTY_AUDIO_MIX_LEVEL_TABLE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-audio-mix-level-table">KSPROPERTY_AUDIO_MIX_LEVEL_TABLE</a>
  
 
  

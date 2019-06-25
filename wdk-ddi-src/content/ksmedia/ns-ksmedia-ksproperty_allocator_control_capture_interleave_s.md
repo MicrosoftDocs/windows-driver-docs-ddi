@@ -64,11 +64,11 @@ Indicates whether interleaved capture is possible. Any nonzero value indicates t
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564271">KSPROPERTY_ALLOCATOR_CONTROL_CAPTURE_INTERLEAVE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-allocator-control-capture-interleave">KSPROPERTY_ALLOCATOR_CONTROL_CAPTURE_INTERLEAVE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567792">PROPSETID_ALLOCATOR_CONTROL</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/propsetid-allocator-control">PROPSETID_ALLOCATOR_CONTROL</a>
  
 
  

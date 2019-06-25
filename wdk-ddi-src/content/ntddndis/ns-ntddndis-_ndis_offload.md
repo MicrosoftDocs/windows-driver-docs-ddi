@@ -57,13 +57,13 @@ The NDIS_OFFLOAD structure specifies several computational <a href="https://docs
 ### -field Header
 
 The 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
      <b>NDIS_OFFLOAD</b> structure. Set the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to NDIS_OBJECT_TYPE_OFFLOAD.
      
 
-Set the <b>Revision</b> and <b>Size</b> members of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure as follows:<ul>
+Set the <b>Revision</b> and <b>Size</b> members of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure as follows:<ul>
 <li>For NDIS 6.70 and later drivers:<ul>
 <li>Set <b>Revision</b> to NDIS_OFFLOAD_REVISION_5 (NDIS 6.70).</li>
 <li>Set <b>Size</b> to NDIS_SIZEOF_NDIS_OFFLOAD_REVISION_5.</li>
@@ -94,28 +94,28 @@ Set the <b>Revision</b> and <b>Size</b> members of the <a href="https://msdn.mic
 ### -field Checksum
 
 Checksum offload information in an 
-     <a href="https://msdn.microsoft.com/bf5369c5-8656-41a4-a23f-79e40a60d111">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_tcp_ip_checksum_offload">
      NDIS_TCP_IP_CHECKSUM_OFFLOAD</a> structure.
 
 
 ### -field LsoV1
 
 Large send offload version 1 (LSOV1) information in an 
-     <a href="https://msdn.microsoft.com/3e26b6ae-15e1-41d5-b00d-3e09c1534413">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_tcp_large_send_offload_v1">
      NDIS_TCP_LARGE_SEND_OFFLOAD_V1</a> structure.
 
 
 ### -field IPsecV1
 
 Internet protocol security (IPsec) offload information in an 
-     <a href="https://msdn.microsoft.com/8ec0a052-2327-41e5-a9fa-83bcac9566f7">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_ipsec_offload_v1">
      NDIS_IPSEC_OFFLOAD_V1</a> structure.
 
 
 ### -field LsoV2
 
 Large send offload version 2 (LSOV2) offload information in an 
-     <a href="https://msdn.microsoft.com/e53e5771-a3ca-4867-a0ac-65adb66e574c">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_tcp_large_send_offload_v2">
      NDIS_TCP_LARGE_SEND_OFFLOAD_V2</a> structure.
 
 
@@ -157,19 +157,19 @@ The network adapter supports IPsecV2 and UDP checksums.
 ### -field IPsecV2
 
 Internet protocol security (IPsec) offload version 2 information in an 
-      <a href="https://msdn.microsoft.com/library/windows/hardware/ff565808">NDIS_IPSEC_OFFLOAD_V2</a> structure.
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_ipsec_offload_v2">NDIS_IPSEC_OFFLOAD_V2</a> structure.
 
 
 ### -field Rsc
 
 
-<a href="https://msdn.microsoft.com/9CB2AB1C-924C-4A19-B1E7-70C8C5C05B46">Receive Segment Coalescing (RSC)</a> offload information in    an <a href="https://msdn.microsoft.com/library/windows/hardware/hh439827">NDIS_TCP_RECV_SEG_COALESCE_OFFLOAD</a> structure.
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/receive-segment-coalescing--rsc-">Receive Segment Coalescing (RSC)</a> offload information in    an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_tcp_recv_seg_coalesce_offload">NDIS_TCP_RECV_SEG_COALESCE_OFFLOAD</a> structure.
 
 
 ### -field EncapsulatedPacketTaskOffloadGre
 
 
-[Network Virtualization using Generic Routing Encapsulation (NVGRE) Task Offload](https://docs.microsoft.com/windows-hardware/drivers/network/network-virtualization-using-generic-routing-encapsulation--nvgre--task-offload) information in an <a href="https://msdn.microsoft.com/library/windows/hardware/jj991956">NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD</a> structure. This member should only be set by miniport drivers that support task offloads for NVGRE-formatted packets.<div class="alert"><b>Note</b>  This member is available only in NDIS 6.30 and later. </div>
+[Network Virtualization using Generic Routing Encapsulation (NVGRE) Task Offload](https://docs.microsoft.com/windows-hardware/drivers/network/network-virtualization-using-generic-routing-encapsulation--nvgre--task-offload) information in an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_encapsulated_packet_task_offload">NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD</a> structure. This member should only be set by miniport drivers that support task offloads for NVGRE-formatted packets.<div class="alert"><b>Note</b>  This member is available only in NDIS 6.30 and later. </div>
 <div> </div>
 
 
@@ -200,11 +200,11 @@ The enabled encapsulation types for encapsulated packet task offload.
 
 
 The <b>NDIS_OFFLOAD</b> structure is used in the following places:<ul>
-<li>The <b>DefaultOffloadConfiguration</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565930">NDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES</a> structure</li>
-<li>The <b>DefaultOffloadConfiguration</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564832">NDIS_BIND_PARAMETERS</a> structure</li>
-<li>The <b>DefaultOffloadConfiguration</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565481">NDIS_FILTER_ATTACH_PARAMETERS</a> structure</li>
-<li>The <b>InformationBuffer</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a> structure (which is used in the <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-offload-current-config">OID_TCP_OFFLOAD_CURRENT_CONFIG</a> OID request)</li>
-<li>The <b>StatusBuffer</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567424">NDIS_STATUS_TASK_OFFLOAD_CURRENT_CONFIG</a> status indication</li>
+<li>The <b>DefaultOffloadConfiguration</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_miniport_adapter_offload_attributes">NDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES</a> structure</li>
+<li>The <b>DefaultOffloadConfiguration</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_bind_parameters">NDIS_BIND_PARAMETERS</a> structure</li>
+<li>The <b>DefaultOffloadConfiguration</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_filter_attach_parameters">NDIS_FILTER_ATTACH_PARAMETERS</a> structure</li>
+<li>The <b>InformationBuffer</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structure (which is used in the <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-offload-current-config">OID_TCP_OFFLOAD_CURRENT_CONFIG</a> OID request)</li>
+<li>The <b>StatusBuffer</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-task-offload-current-config">NDIS_STATUS_TASK_OFFLOAD_CURRENT_CONFIG</a> status indication</li>
 </ul>
 
 
@@ -216,67 +216,67 @@ The <b>NDIS_OFFLOAD</b> structure is used in the following places:<ul>
 
 
 
-<a href="https://msdn.microsoft.com/043A09F9-7D5D-4401-9645-19FDBD614659">Determining the RSC Capabilities of a Network Adapter</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/determining-the-rsc-capabilities-of-a-network-adapter">Determining the RSC Capabilities of a Network Adapter</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564832">NDIS_BIND_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_bind_parameters">NDIS_BIND_PARAMETERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565481">NDIS_FILTER_ATTACH_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_filter_attach_parameters">NDIS_FILTER_ATTACH_PARAMETERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565796">NDIS_IPSEC_OFFLOAD_V1</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_ipsec_offload_v1">NDIS_IPSEC_OFFLOAD_V1</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565808">NDIS_IPSEC_OFFLOAD_V2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_ipsec_offload_v2">NDIS_IPSEC_OFFLOAD_V2</a>
 
 
 
-<a href="https://msdn.microsoft.com/9ce875fc-ed3f-43e9-bfbc-081f02cb1999">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_miniport_adapter_offload_attributes">
    NDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567373">NDIS_STATUS_INDICATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_status_indication">NDIS_STATUS_INDICATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567424">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-task-offload-current-config">
    NDIS_STATUS_TASK_OFFLOAD_CURRENT_CONFIG</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567878">NDIS_TCP_IP_CHECKSUM_OFFLOAD</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_tcp_ip_checksum_offload">NDIS_TCP_IP_CHECKSUM_OFFLOAD</a>
 
 
 
-<a href="https://msdn.microsoft.com/3e26b6ae-15e1-41d5-b00d-3e09c1534413">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_tcp_large_send_offload_v1">
    NDIS_TCP_LARGE_SEND_OFFLOAD_V1</a>
 
 
 
-<a href="https://msdn.microsoft.com/e53e5771-a3ca-4867-a0ac-65adb66e574c">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_tcp_large_send_offload_v2">
    NDIS_TCP_LARGE_SEND_OFFLOAD_V2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj991956">Network Virtualization using Generic Routing Encapsulation (NVGRE) Task Offload</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_encapsulated_packet_task_offload">Network Virtualization using Generic Routing Encapsulation (NVGRE) Task Offload</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569762">OID_OFFLOAD_ENCAPSULATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-offload-encapsulation">OID_OFFLOAD_ENCAPSULATION</a>
 
 
 

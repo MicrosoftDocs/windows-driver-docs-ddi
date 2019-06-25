@@ -56,12 +56,12 @@ The VAL structure is used by the microdriver and WIA Flatbed driver to pass info
 
 ### -field lVal
 
-Specifies a command value to return to the WIA Flatbed driver. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff552714">WIA Microdriver Commands</a> for a list of available commands for this parameter.
+Specifies a command value to return to the WIA Flatbed driver. See <a href="https://docs.microsoft.com/windows-hardware/drivers/image/wia-microdriver-commands">WIA Microdriver Commands</a> for a list of available commands for this parameter.
 
 
 ### -field dblVal
 
-Specifies a command value to return to the WIA Flatbed driver. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff552714">WIA Microdriver Commands</a> for a list of available commands for this parameter.
+Specifies a command value to return to the WIA Flatbed driver. See <a href="https://docs.microsoft.com/windows-hardware/drivers/image/wia-microdriver-commands">WIA Microdriver Commands</a> for a list of available commands for this parameter.
 
 
 ### -field pGuid
@@ -71,7 +71,7 @@ Points to the GUID of the pressed button. If no button was pressed, this member 
 
 ### -field pScanInfo
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547361">SCANINFO</a> structure.
+Points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamicro/ns-wiamicro-_scaninfo">SCANINFO</a> structure.
 
 
 ### -field handle
@@ -96,5 +96,5 @@ Reserved. Do not use.
 
 ### -field szVal
 
-Specifies the device name in ASCII form. If needed for interrupt checking, the microdriver can use this name to pass to <a href="https://msdn.microsoft.com/80a96083-4de9-4422-9705-b8ad2b6cbd1b">CreateFile</a> (described in the Microsoft Windows SDK documentation) in order to obtain a file handle to the device.
+Specifies the device name in ASCII form. If needed for interrupt checking, the microdriver can use this name to pass to <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> (described in the Microsoft Windows SDK documentation) in order to obtain a file handle to the device.
 

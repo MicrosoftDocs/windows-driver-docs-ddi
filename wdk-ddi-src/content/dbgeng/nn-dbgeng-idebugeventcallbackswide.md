@@ -50,7 +50,7 @@ req.typenames:
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugEventCallbacksWide</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDebugEventCallbacksWide</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugEventCallbacksWide</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDebugEventCallbacksWide</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -65,7 +65,7 @@ The <b>IDebugEventCallbacksWide</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ee9b9b6c-c76e-4979-9f23-c411fe1b002a">Breakpoint</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugeventcallbackswide-breakpoint">Breakpoint</a>
 </td>
 <td align="left" width="63%">
  This method is called by the engine when the target issues a breakpoint exception.
@@ -74,7 +74,7 @@ The <b>IDebugEventCallbacksWide</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ffb5925a-6bbd-41f5-b8b8-e8c7189d57ac">ChangeDebuggeeState</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugeventcallbackswide-changedebuggeestate">ChangeDebuggeeState</a>
 </td>
 <td align="left" width="63%">
 This method is called by the engine when it makes or detects changes to the target.
@@ -83,7 +83,7 @@ This method is called by the engine when it makes or detects changes to the targ
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/14205476-3f58-4105-99a7-a3baa2eba033">ChangeEngineState</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugeventcallbackswide-changeenginestate">ChangeEngineState</a>
 </td>
 <td align="left" width="63%">
 This method is called by the engine when its state has changed.
@@ -92,7 +92,7 @@ This method is called by the engine when its state has changed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ea331612-5c48-4320-a658-101c3d93e7be">ChangeSymbolState</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugeventcallbackswide-changesymbolstate">ChangeSymbolState</a>
 </td>
 <td align="left" width="63%">
 This method is called by the engine when the symbol state changes.
@@ -101,7 +101,7 @@ This method is called by the engine when the symbol state changes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539321">CreateProcess</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient5-createprocess">CreateProcess</a>
 </td>
 <td align="left" width="63%">
 This method is called by the engine when a create-process debugging event occurs in the target.
@@ -110,7 +110,7 @@ This method is called by the engine when a create-process debugging event occurs
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d845777c-1bc9-4ab3-9bfc-211f2231971e">CreateThread</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugeventcallbackswide-createthread">CreateThread</a>
 </td>
 <td align="left" width="63%">
 This method is called by the engine when a create-thread debugging event occurs in the target.
@@ -119,7 +119,7 @@ This method is called by the engine when a create-thread debugging event occurs 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/02f5bec1-f2d2-4b72-bd9e-b30315c334da">Exception</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugeventcallbackswide-exception">Exception</a>
 </td>
 <td align="left" width="63%">
 This method is called by the engine when an exception debugging event occurs in the target.
@@ -128,7 +128,7 @@ This method is called by the engine when an exception debugging event occurs in 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bc104b84-4f0a-420d-8c2c-14b33cc6ca04">ExitProcess</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugeventcallbackswide-exitprocess">ExitProcess</a>
 </td>
 <td align="left" width="63%">
 This method is called by the engine when an exit-process debugging event occurs in the target.
@@ -137,7 +137,7 @@ This method is called by the engine when an exit-process debugging event occurs 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/77933fa9-ff30-45cf-894d-83a425802e25">ExitThread</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugeventcallbackswide-exitthread">ExitThread</a>
 </td>
 <td align="left" width="63%">
 This method is called by the engine when an exit-thread debugging event occurs in the target.
@@ -146,7 +146,7 @@ This method is called by the engine when an exit-thread debugging event occurs i
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b1e62ae3-4a3d-42db-b7fe-87d1a7e0b438">GetInterestMask</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugeventcallbackswide-getinterestmask">GetInterestMask</a>
 </td>
 <td align="left" width="63%">
 This method is called to determine which events the <b>IDebugEventCallbacksWide</b> object is interested in.
@@ -155,7 +155,7 @@ This method is called to determine which events the <b>IDebugEventCallbacksWide<
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/03a76d41-3af1-48a9-832a-1c255a8b0cc4">LoadModule</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugeventcallbackswide-loadmodule">LoadModule</a>
 </td>
 <td align="left" width="63%">
 This method is called by the engine when a module-load debugging event occurs in the target.
@@ -164,7 +164,7 @@ This method is called by the engine when a module-load debugging event occurs in
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cc3ed4ef-5e2d-4865-8d6f-b140d6b5d7af">SessionStatus</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugeventcallbackswide-sessionstatus">SessionStatus</a>
 </td>
 <td align="left" width="63%">
 This method is called by the engine when a change occurs in the debugger session.
@@ -173,7 +173,7 @@ This method is called by the engine when a change occurs in the debugger session
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/938eacb5-7939-43ed-a854-046708fc9c79">SystemError</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugeventcallbackswide-systemerror">SystemError</a>
 </td>
 <td align="left" width="63%">
 This method is called by the engine when a system error occurs in the target.
@@ -182,7 +182,7 @@ This method is called by the engine when a system error occurs in the target.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/05f3fa93-389e-4ecc-b7c0-71f43691232f">UnloadModule</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugeventcallbackswide-unloadmodule">UnloadModule</a>
 </td>
 <td align="left" width="63%">
 This method is called by the engine when a module-unload debugging event occurs in the target.

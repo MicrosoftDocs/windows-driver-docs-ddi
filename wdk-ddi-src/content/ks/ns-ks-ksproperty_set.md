@@ -66,7 +66,7 @@ Specifies the size of the array pointed to by the <b>PropertyItem</b> member.
 
 ### -field PropertyItem
 
-Points to the beginning of an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff565176">KSPROPERTY_ITEM</a> structures that describe how the driver or pin supports each property in the set.
+Points to the beginning of an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksproperty_item">KSPROPERTY_ITEM</a> structures that describe how the driver or pin supports each property in the set.
 
 
 ### -field FastIoCount
@@ -76,14 +76,14 @@ Reserved for system use.
 
 ### -field FastIoTable
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff562521">KSFASTPROPERTY_ITEM</a> structure. This member is reserved for system use.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksfastproperty_item">KSFASTPROPERTY_ITEM</a> structure. This member is reserved for system use.
 
 
 ## -remarks
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/a385929e-1934-4d88-aaf9-ff1ddbfd30f7">KS Properties</a>.
+For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ks-properties">KS Properties</a>.
 
 
 
@@ -93,7 +93,7 @@ For more information, see <a href="https://msdn.microsoft.com/a385929e-1934-4d88
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565176">KSPROPERTY_ITEM</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksproperty_item">KSPROPERTY_ITEM</a>
  
 
  

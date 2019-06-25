@@ -68,7 +68,7 @@ Pointer to a buffer that contains the binary data.
 
 
 
-The BINARY_CONTAINER structure is used in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff545177">BIDI_DATA</a> structure when the bidi data consists of binary data, as opposed to integer, float, or string data.
+The BINARY_CONTAINER structure is used in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winspool/ns-winspool-_bidi_data">BIDI_DATA</a> structure when the bidi data consists of binary data, as opposed to integer, float, or string data.
 
 
 
@@ -78,7 +78,7 @@ The BINARY_CONTAINER structure is used in a <a href="https://msdn.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545177">BIDI_DATA</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winspool/ns-winspool-_bidi_data">BIDI_DATA</a>
  
 
  

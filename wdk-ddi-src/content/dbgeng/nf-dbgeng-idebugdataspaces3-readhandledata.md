@@ -78,7 +78,7 @@ DEBUG_HANDLE_DATA_TYPE_BASIC
 <td>
 Returns basic information about the system object.
 
-In this case, the argument <i>Buffer</i> can be considered to have type <a href="https://msdn.microsoft.com/c1ad22b9-9733-417a-96ae-bc5920462f4f">PDEBUG_HANDLE_DATA_BASIC</a>.
+In this case, the argument <i>Buffer</i> can be considered to have type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/ns-dbgeng-_debug_handle_data_basic">PDEBUG_HANDLE_DATA_BASIC</a>.
 
 </td>
 </tr>
@@ -112,7 +112,7 @@ DEBUG_HANDLE_DATA_TYPE_HANDLE_COUNT
 
 </td>
 <td>
-Returns the number of handles held by the object.  This is similar to the field <a href="https://msdn.microsoft.com/library/windows/hardware/ff541500">DEBUG_HANDLE_DATA_BASIC</a>.<b>HandleCount</b>.
+Returns the number of handles held by the object.  This is similar to the field <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/ns-dbgeng-_debug_handle_data_basic">DEBUG_HANDLE_DATA_BASIC</a>.<b>HandleCount</b>.
 
 In this case, the argument <i>Buffer</i> can be considered to have type PULONG.
 
@@ -186,7 +186,7 @@ The method was successful.
 </table>
  
 
-This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+This method can also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 
 
@@ -209,15 +209,15 @@ Handles
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550531">IDebugDataSpaces2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugdataspaces2">IDebugDataSpaces2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550537">IDebugDataSpaces3</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugdataspaces3">IDebugDataSpaces3</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550546">IDebugDataSpaces4</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugdataspaces4">IDebugDataSpaces4</a>
  
 
  

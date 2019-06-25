@@ -47,7 +47,7 @@ req.typenames:
 ## -description
 
 
-The  <b>USBD_CreateConfigurationRequest</b> routine has been deprecated. Use <a href="https://msdn.microsoft.com/library/windows/hardware/ff539029">USBD_CreateConfigurationRequestEx</a> instead.
+The  <b>USBD_CreateConfigurationRequest</b> routine has been deprecated. Use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbdlib/nf-usbdlib-usbd_createconfigurationrequestex">USBD_CreateConfigurationRequestEx</a> instead.
 
 
 ## -parameters
@@ -57,19 +57,19 @@ The  <b>USBD_CreateConfigurationRequest</b> routine has been deprecated. Use <a 
 
 ### -param ConfigurationDescriptor [in]
 
-Pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff539241">USB_CONFIGURATION_DESCRIPTOR</a> structure that contains the configuration descriptor for the configuration to be selected.
+Pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbspec/ns-usbspec-_usb_configuration_descriptor">USB_CONFIGURATION_DESCRIPTOR</a> structure that contains the configuration descriptor for the configuration to be selected.
 
 
 ### -param Siz [in, out]
 
-Size of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff538923">URB</a> structure.
+Size of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usb/ns-usb-_urb">URB</a> structure.
 
 
 ## -returns
 
 
 
-<b>USBD_CreateConfigurationRequest</b> allocates a <a href="https://msdn.microsoft.com/library/windows/hardware/ff538923">URB</a> structure, formats it for the URB_FUNCTION_SELECT_CONFIGURATION request (select-configuration request), and returns a pointer to the <b>URB</b>. 
+<b>USBD_CreateConfigurationRequest</b> allocates a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usb/ns-usb-_urb">URB</a> structure, formats it for the URB_FUNCTION_SELECT_CONFIGURATION request (select-configuration request), and returns a pointer to the <b>URB</b>. 
 
 
 
@@ -83,7 +83,7 @@ Size of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff53892
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539029">USBD_CreateConfigurationRequestEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbdlib/nf-usbdlib-usbd_createconfigurationrequestex">USBD_CreateConfigurationRequestEx</a>
  
 
  

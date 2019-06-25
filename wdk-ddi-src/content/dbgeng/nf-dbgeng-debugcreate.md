@@ -56,7 +56,7 @@ The <b>DebugCreate</b> function creates a new client object and returns an inter
 
 ### -param InterfaceId [in]
 
-Specifies the interface identifier (IID) of the desired debugger engine client interface.  This is the type of the interface that will be returned in <i>Interface</i>. For information about the interface identifier, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff560088">Using Client Objects</a>.
+Specifies the interface identifier (IID) of the desired debugger engine client interface.  This is the type of the interface that will be returned in <i>Interface</i>. For information about the interface identifier, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/using-client-objects">Using Client Objects</a>.
 
 
 ### -param Interface [out]
@@ -68,7 +68,7 @@ Receives an interface pointer for the new client.  The type of this interface is
 
 
 
-This method may also return other error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+This method may also return other error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 <table>
 <tr>
@@ -119,7 +119,7 @@ As with <b>IUnknown::QueryInterface</b>, when the returned interface is no longe
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539140">Client Objects</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/client-objects">Client Objects</a>
  
 
  

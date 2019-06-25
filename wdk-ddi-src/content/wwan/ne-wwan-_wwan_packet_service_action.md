@@ -69,7 +69,7 @@ Packet-detach from the registered provider.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567921">NDIS_WWAN_SET_PACKET_SERVICE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndiswwan/ns-ndiswwan-_ndis_wwan_set_packet_service">NDIS_WWAN_SET_PACKET_SERVICE</a>
  
 
  

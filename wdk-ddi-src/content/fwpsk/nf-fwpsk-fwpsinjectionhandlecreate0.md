@@ -51,8 +51,8 @@ The
   <b>FwpsInjectionHandleCreate0</b> function creates a handle that can be used by 
   <a href="https://docs.microsoft.com/windows-hardware/drivers/network/packet-injection-functions">packet injection functions</a> to inject
   packet or stream data into the TCP/IP network stack and by the 
-  <a href="https://msdn.microsoft.com/library/windows/hardware/ff551202">FwpsQueryPacketInjectionState0</a> function to query the packet injection state.
-<div class="alert"><b>Note</b>  <b>FwpsInjectionHandleCreate0</b> is a specific version of <b>FwpsInjectionHandleCreate</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
+  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsquerypacketinjectionstate0">FwpsQueryPacketInjectionState0</a> function to query the packet injection state.
+<div class="alert"><b>Note</b>  <b>FwpsInjectionHandleCreate0</b> is a specific version of <b>FwpsInjectionHandleCreate</b>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
 ## -parameters
 
@@ -103,7 +103,7 @@ A flag value set by a callout driver to indicate the type of data to be injected
 #### FWPS_INJECTION_TYPE_FORWARD
 
 Packet data will be injected by calling the 
-       <a href="https://msdn.microsoft.com/b7cb70c6-c672-4a29-983c-c73767af72ea">
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsinjectforwardasync0">
        FwpsInjectForwardAsync0</a> function.
 
 
@@ -111,9 +111,9 @@ Packet data will be injected by calling the
 #### FWPS_INJECTION_TYPE_NETWORK
 
 Network data will be injected by calling either the 
-       <a href="https://msdn.microsoft.com/c34b2be1-fe1c-4a99-ac9c-ddd40b97d8d0">
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsinjectnetworkreceiveasync0">
        FwpsInjectNetworkReceiveAsync0</a> function or the 
-       <a href="https://msdn.microsoft.com/9cc76bf7-a744-46f9-89d5-5277744221e5">
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsinjectnetworksendasync0">
        FwpsInjectNetworkSendAsync0</a> function.
 
 
@@ -121,7 +121,7 @@ Network data will be injected by calling either the
 #### FWPS_INJECTION_TYPE_STREAM
 
 Stream data will be injected by calling the 
-       <a href="https://msdn.microsoft.com/d72c3067-21df-40ee-a898-100fcdc5eaca">
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsstreaminjectasync0">
        FwpsStreamInjectAsync0</a> function.
 
 
@@ -129,9 +129,9 @@ Stream data will be injected by calling the
 #### FWPS_INJECTION_TYPE_TRANSPORT
 
 Transport data will be injected by calling either the 
-       <a href="https://msdn.microsoft.com/0809a013-9977-44fc-b800-576b4fd983e8">
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsinjecttransportreceiveasync0">
        FwpsInjectTransportReceiveAsync0</a> function or the 
-       <a href="https://msdn.microsoft.com/1298a825-16c4-49ab-b038-19247975ea46">
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsinjecttransportsendasync0">
        FwpsInjectTransportSendAsync0</a> function.
 
  To create an injection handle to be used by multiple injection functions, combine the
@@ -175,7 +175,7 @@ The injection handle was successfully created.
 </td>
 <td width="60%">
 The TCP/IP network stack is not ready. A callout driver should call the 
-       <a href="https://msdn.microsoft.com/library/windows/hardware/ff551180">FwpsInjectionHandleCreate0</a> function again at a later time to create an injection handle.
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsinjectionhandlecreate0">FwpsInjectionHandleCreate0</a> function again at a later time to create an injection handle.
 
 </td>
 </tr>
@@ -206,11 +206,11 @@ A callout driver calls the
     passes the created handle to the 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/packet-injection-functions">packet injection
     functions</a> and 
-    <a href="https://msdn.microsoft.com/785d99a5-a8c9-4763-bdd4-e26f604f6be7">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsquerypacketinjectionstate0">
     FwpsQueryPacketInjectionState0</a>.
 
 After a callout driver has finished using an injection handle, it must call the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff551181">FwpsInjectionHandleDestroy0</a> function to destroy the handle. If pending injections have not yet
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsinjectionhandledestroy0">FwpsInjectionHandleDestroy0</a> function to destroy the handle. If pending injections have not yet
     completed, this function will wait for their completion before returning.
 
 When injections are being made to the network layer and both IPv4 and IPv6 address families are being
@@ -227,11 +227,11 @@ When injections are being made to the network layer and both IPv4 and IPv6 addre
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551181">FwpsInjectionHandleDestroy0</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsinjectionhandledestroy0">FwpsInjectionHandleDestroy0</a>
 
 
 
-<a href="https://msdn.microsoft.com/785d99a5-a8c9-4763-bdd4-e26f604f6be7">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsquerypacketinjectionstate0">
    FwpsQueryPacketInjectionState0</a>
 
 

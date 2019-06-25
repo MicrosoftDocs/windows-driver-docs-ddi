@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <b>wiasCreateDrvItem </b>function creates an <a href="https://msdn.microsoft.com/library/windows/hardware/ff543896">IWiaDrvItem Interface</a> object.
+The <b>wiasCreateDrvItem </b>function creates an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nn-wiamindr_lh-iwiadrvitem">IWiaDrvItem Interface</a> object.
 
 
 ## -parameters
@@ -71,7 +71,7 @@ Specifies a string that contains the item name with path information.
 
 ### -param pIMiniDrv [in, out]
 
-Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545027">IWiaMiniDrv Interface</a> of the current minidriver.
+Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nn-wiamindr_lh-iwiaminidrv">IWiaMiniDrv Interface</a> of the current minidriver.
 
 
 ### -param cbDevSpecContext
@@ -86,7 +86,7 @@ Pointer to a memory location that receives the address of the device specific co
 
 ### -param ppIWiaDrvItem [out]
 
-Pointer to a memory location that receives the address of an <a href="https://msdn.microsoft.com/library/windows/hardware/ff543896">IWiaDrvItem Interface</a> for the newly created <b>IWiaDrvItem</b> object.
+Pointer to a memory location that receives the address of an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nn-wiamindr_lh-iwiadrvitem">IWiaDrvItem Interface</a> for the newly created <b>IWiaDrvItem</b> object.
 
 
 ## -returns
@@ -102,7 +102,7 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 
 
-This function creates and initializes an <a href="https://msdn.microsoft.com/1be2265b-7ae8-4935-9559-588b885526d4">IWiaDrvItem COM Interface</a> object with the specified name and attributes. It also creates a context for the <b>IWiaDrvItem</b> object. Minidrivers typically use this function to build a tree of device items.
+This function creates and initializes an <a href="https://docs.microsoft.com/windows-hardware/drivers/image/iwiadrvitem-com-interface">IWiaDrvItem COM Interface</a> object with the specified name and attributes. It also creates a context for the <b>IWiaDrvItem</b> object. Minidrivers typically use this function to build a tree of device items.
 
 
 
@@ -112,7 +112,7 @@ This function creates and initializes an <a href="https://msdn.microsoft.com/1be
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549156">wiasCreateChildAppItem</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiascreatechildappitem">wiasCreateChildAppItem</a>
  
 
  

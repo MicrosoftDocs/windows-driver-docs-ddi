@@ -57,17 +57,17 @@ The <b>PcInitializeAdapterDriver</b> function binds an adapter driver to the Por
 
 ### -param DriverObject [in]
 
-Pointer to the driver object, which is a system structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff544174">DRIVER_OBJECT</a>. This pointer is passed as a parameter to the adapter's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> function.
+Pointer to the driver object, which is a system structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_driver_object">DRIVER_OBJECT</a>. This pointer is passed as a parameter to the adapter's <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> function.
 
 
 ### -param RegistryPathName [in]
 
-Specifies the registry path name that is to be passed as a parameter to the adapter's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> function.
+Specifies the registry path name that is to be passed as a parameter to the adapter's <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> function.
 
 
 ### -param AddDevice [in]
 
-Pointer to the adapter's <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a> function. This is a pointer of type PDRIVER_ADD_DEVICE, which is defined in ntddk.h to be:
+Pointer to the adapter's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-driver_add_device">AddDevice</a> function. This is a pointer of type PDRIVER_ADD_DEVICE, which is defined in ntddk.h to be:
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -97,7 +97,7 @@ Pointer to the adapter's <a href="https://msdn.microsoft.com/library/windows/har
 
 
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a> handler supplied in the call to this function should call <a href="https://msdn.microsoft.com/library/windows/hardware/dn892360">PcAddAdapterDevice</a>. For more information, see <a href="https://msdn.microsoft.com/bf88b9de-f4c4-4f9c-9355-603789b9ad3d">Startup Sequence</a>.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-driver_add_device">AddDevice</a> handler supplied in the call to this function should call <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/audio-pcaddadapterdevice">PcAddAdapterDevice</a>. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/startup-sequence">Startup Sequence</a>.
 
 The <b>PcInitializeAdapterDriver</b> function loads pointers to handlers for the following IRPs into the driver object:
 
@@ -149,7 +149,7 @@ IRP_MJ_WRITE
 </ul>
 PortCls uses its own internal handlers for the CREATE, PNP, POWER, and SYSTEM_CONTROL IRPs above. It uses the default KS handlers for the other seven IRPs.
 
-An adapter driver that overwrites one or more of the pointers above with a pointer to its own IRP handler can call <a href="https://msdn.microsoft.com/library/windows/hardware/ff537691">PcDispatchIrp</a> from within its handler routine in order to forward the IRP to PortCls. For a code example, see the SB16 sample audio driver in the Microsoft Windows Driver Kit (WDK).
+An adapter driver that overwrites one or more of the pointers above with a pointer to its own IRP handler can call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-pcdispatchirp">PcDispatchIrp</a> from within its handler routine in order to forward the IRP to PortCls. For a code example, see the SB16 sample audio driver in the Microsoft Windows Driver Kit (WDK).
 
 
 
@@ -159,23 +159,23 @@ An adapter driver that overwrites one or more of the pointers above with a point
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-driver_add_device">AddDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544174">DRIVER_OBJECT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_driver_object">DRIVER_OBJECT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn892360">PcAddAdapterDevice</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/audio-pcaddadapterdevice">PcAddAdapterDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537691">PcDispatchIrp</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-pcdispatchirp">PcDispatchIrp</a>
  
 
  

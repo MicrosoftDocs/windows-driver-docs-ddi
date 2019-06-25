@@ -71,27 +71,27 @@ The ID that uniquely identifies the NI request. It is used later by the NI respo
 
 ### -field RequestType
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/dn925194">GNSS_NI_REQUEST_TYPE</a> enumeration value that specifies the request type.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/gnssdriver/ne-gnssdriver-gnss_ni_request_type">GNSS_NI_REQUEST_TYPE</a> enumeration value that specifies the request type.
 
 
 ### -field NotificationType
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/dn925185">GNSS_NI_NOTIFICATION_TYPE</a> enumeration value that specifies the notification type.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/gnssdriver/ne-gnssdriver-gnss_ni_notification_type">GNSS_NI_NOTIFICATION_TYPE</a> enumeration value that specifies the notification type.
 
 
 ### -field RequestPlaneType
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/dn925188">GNSS_NI_PLANE_TYPE</a> enumeration value that specifies the plane type.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/gnssdriver/ne-gnssdriver-gnss_ni_plane_type">GNSS_NI_PLANE_TYPE</a> enumeration value that specifies the plane type.
 
 
 ### -field SuplNiInfo
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/dn925231">GNSS_SUPL_NI_INFO</a> structure that contains the SUPL NI information.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/gnssdriver/ns-gnssdriver-gnss_supl_ni_info">GNSS_SUPL_NI_INFO</a> structure that contains the SUPL NI information.
 
 
 ### -field CpNiInfo
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/dn925101">GNSS_CP_NI_INFO</a> structure that contains CP NI information.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/gnssdriver/ns-gnssdriver-gnss_cp_ni_info">GNSS_CP_NI_INFO</a> structure that contains CP NI information.
 
 
 ### -field V2UplNiInfo

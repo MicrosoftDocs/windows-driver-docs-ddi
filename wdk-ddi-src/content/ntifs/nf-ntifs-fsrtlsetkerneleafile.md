@@ -64,7 +64,7 @@ A pointer to a <b>FileObject</b> to send the QueryEA request to.
 
 ### -param EaBuffer [in]
 
-A pointer to a caller-supplied, <a href="https://msdn.microsoft.com/library/windows/hardware/ff545793">FILE_FULL_EA_INFORMATION</a>-structured input buffer that contains the extended attribute values to be set
+A pointer to a caller-supplied, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_file_full_ea_information">FILE_FULL_EA_INFORMATION</a>-structured input buffer that contains the extended attribute values to be set
 
 
 ### -param Length [in]

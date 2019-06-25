@@ -56,12 +56,12 @@ Defines the actions that the Universal Serial Bus (USB) function stack takes whe
 
 ### -field UsbfnPortDetected
 
-The USB function stack uses the returned port type to determine charging current and notify the Charging Aggregation Driver (CAD) of the power source change.  If the detected port type is <b>UsbFnStandardDownstreamPort</b> or <b>UsbfnChargingDownstreamPort</b>, the USB function stack will attempt to connect to the host (see <a href="https://msdn.microsoft.com/library/windows/hardware/mt188004">USBFN_PORT_TYPE</a> for more information).
+The USB function stack uses the returned port type to determine charging current and notify the Charging Aggregation Driver (CAD) of the power source change.  If the detected port type is <b>UsbFnStandardDownstreamPort</b> or <b>UsbfnChargingDownstreamPort</b>, the USB function stack will attempt to connect to the host (see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbfnbase/ne-usbfnbase-_usbfn_port_type">USBFN_PORT_TYPE</a> for more information).
 
 
 ### -field UsbfnPortDetectedNoCad
 
-The USB function stack does not notify the CAD of the power source change.  If the detected port type is <b>UsbFnStandardDownstreamPort</b> or <b>UsbfnChargingDownstreamPort</b>, the USB function stack attempts to connect to the host (see <a href="https://msdn.microsoft.com/library/windows/hardware/mt188004">USBFN_PORT_TYPE</a> for more information).
+The USB function stack does not notify the CAD of the power source change.  If the detected port type is <b>UsbFnStandardDownstreamPort</b> or <b>UsbfnChargingDownstreamPort</b>, the USB function stack attempts to connect to the host (see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbfnbase/ne-usbfnbase-_usbfn_port_type">USBFN_PORT_TYPE</a> for more information).
 
 
 ### -field UsbfnProceedWithAttach
@@ -76,7 +76,7 @@ The USB function stack discontinues further port detection operations and does n
 
 ### -field UsbfnDetectProprietaryCharger
 
-The USB function stack calls the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187981">UFX_PROPRIETARY_CHARGER_DETECT</a> event callback function implemented by the USB lower filter driver, to perform proprietary charger detection.
+The USB function stack calls the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ufxproprietarycharger/nc-ufxproprietarycharger-ufx_proprietary_charger_detect">UFX_PROPRIETARY_CHARGER_DETECT</a> event callback function implemented by the USB lower filter driver, to perform proprietary charger detection.
 
 
 ### -field UsbfnHwBasedChargerDetection
@@ -89,7 +89,7 @@ The USB function stack calls the <a href="https://msdn.microsoft.com/library/win
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt187995">USBFN_GET_ATTACH_ACTION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbfnattach/nc-usbfnattach-usbfn_get_attach_action">USBFN_GET_ATTACH_ACTION</a>
  
 
  

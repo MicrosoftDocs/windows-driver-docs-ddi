@@ -56,7 +56,7 @@ The MSiSCSI_InitiatorInstanceFailureEvent structure is used to report an event w
 
 ### -field FailureType
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff561533">ISCSI_INITIATOR_FAILURE_TYPE_QUALIFIERS</a> value that indicates why the initiator instance failed.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/iscsi-initiator-failure-type-qualifiers">ISCSI_INITIATOR_FAILURE_TYPE_QUALIFIERS</a> value that indicates why the initiator instance failed.
 
 
 ### -field RemoteNodeName
@@ -78,11 +78,11 @@ We recommend that you implement this class.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561533">ISCSI_INITIATOR_FAILURE_TYPE_QUALIFIERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/iscsi-initiator-failure-type-qualifiers">ISCSI_INITIATOR_FAILURE_TYPE_QUALIFIERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563032">MSiSCSI_InitiatorInstanceFailureEvent WMI Class</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msiscsi-initiatorinstancefailureevent-wmi-class">MSiSCSI_InitiatorInstanceFailureEvent WMI Class</a>
  
 
  

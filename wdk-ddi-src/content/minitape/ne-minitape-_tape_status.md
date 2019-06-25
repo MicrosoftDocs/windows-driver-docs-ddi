@@ -56,12 +56,12 @@ The TAPE_STATUS enumeration provides a list of the status codes that the tape cl
 
 ### -field TAPE_STATUS_SEND_SRB_AND_CALLBACK
 
-Directs the tape class driver to send the SRB to the device. A tape miniclass routine usually returns this status after filling in the SRB passed by the tape class driver. If the operation is successful, the class driver increments a counter called a "call number" and calls the miniclass routine again. If the SRB fails, the class driver might call the miniclass routine again. For more information about how and when tape miniclass drivers should report this status value, see <a href="https://msdn.microsoft.com/de6edfc6-9b4b-4866-8fdb-1047b43163de">Processing Tape Device Control Requests</a>. 
+Directs the tape class driver to send the SRB to the device. A tape miniclass routine usually returns this status after filling in the SRB passed by the tape class driver. If the operation is successful, the class driver increments a counter called a "call number" and calls the miniclass routine again. If the SRB fails, the class driver might call the miniclass routine again. For more information about how and when tape miniclass drivers should report this status value, see <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/processing-tape-device-control-requests">Processing Tape Device Control Requests</a>. 
 
 
 ### -field TAPE_STATUS_CALLBACK
 
-Directs the tape class driver to increment the call number counter without sending an SRB to the device. For more information about how tape miniclass drivers should make use of this status value, see <a href="https://msdn.microsoft.com/de6edfc6-9b4b-4866-8fdb-1047b43163de">Processing Tape Device Control Requests</a>. 
+Directs the tape class driver to increment the call number counter without sending an SRB to the device. For more information about how tape miniclass drivers should make use of this status value, see <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/processing-tape-device-control-requests">Processing Tape Device Control Requests</a>. 
 
 
 ### -field TAPE_STATUS_CHECK_TEST_UNIT_READY
@@ -214,7 +214,7 @@ Indicates that the media currently in the drive is a cleaner cartridge.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560625">IOCTL_TAPE_GET_STATUS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddtape/ni-ntddtape-ioctl_tape_get_status">IOCTL_TAPE_GET_STATUS</a>
  
 
  

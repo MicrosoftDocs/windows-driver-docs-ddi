@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <b>KeAttachProcess</b> routine is exported to support existing driver binaries and is obsolete. Use <a href="https://msdn.microsoft.com/library/windows/hardware/ff549659">KeStackAttachProcess</a> instead.
+The <b>KeAttachProcess</b> routine is exported to support existing driver binaries and is obsolete. Use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-kestackattachprocess">KeStackAttachProcess</a> instead.
 
 
 ## -parameters

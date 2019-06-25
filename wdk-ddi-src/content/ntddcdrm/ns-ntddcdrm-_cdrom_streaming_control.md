@@ -46,7 +46,7 @@ req.typenames: CDROM_STREAMING_CONTROL, *PCDROM_STREAMING_CONTROL
 ## -description
 
 
-The <b>CDROM_STREAMING_CONTROL</b> structure is used as an input parameter to the <a href="https://msdn.microsoft.com/library/windows/hardware/gg441241">IOCTL_CDROM_ENABLE_STREAMING</a> IOCTL.
+The <b>CDROM_STREAMING_CONTROL</b> structure is used as an input parameter to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_enable_streaming">IOCTL_CDROM_ENABLE_STREAMING</a> IOCTL.
 
 
 ## -struct-fields
@@ -56,7 +56,7 @@ The <b>CDROM_STREAMING_CONTROL</b> structure is used as an input parameter to th
 
 ### -field RequestType
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/gg441244">STREAMING_CONTROL_REQUEST_TYPE</a>   enumeration specifies the type of request.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdrm/ne-ntddcdrm-_streaming_control_request_type">STREAMING_CONTROL_REQUEST_TYPE</a>   enumeration specifies the type of request.
 
 
 ## -see-also
@@ -64,11 +64,11 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/gg441244">STREA
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/gg441241">IOCTL_CDROM_ENABLE_STREAMING</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_enable_streaming">IOCTL_CDROM_ENABLE_STREAMING</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/gg441244">STREAMING_CONTROL_REQUEST_TYPE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdrm/ne-ntddcdrm-_streaming_control_request_type">STREAMING_CONTROL_REQUEST_TYPE</a>
  
 
  

@@ -83,11 +83,11 @@ An NDIS driver might call the
     <b>NdisSystemActiveProcessorCount</b> function during initialization before it allocates resources.
 
 <b>NdisSystemActiveProcessorCount</b> is similar to the 
-    <a href="https://msdn.microsoft.com/4369ad33-ba4a-45db-9a41-e77d6c55da53">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kequeryactiveprocessorcount">
     KeQueryActiveProcessorCount</a> function.
 
 <div class="alert"><b>Note</b>  NDIS drivers should not use 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff564579">NdisSystemProcessorCount</a> to
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndissystemprocessorcount">NdisSystemProcessorCount</a> to
     retrieve the number of currently active processors,</div>
 <div> </div>
 <div class="alert"><b>Note</b>  <b>NdisSystemActiveProcessorCount</b> might not map processors to the bits in the returned 
@@ -101,7 +101,7 @@ The value that
 
 The Windows Server 2008 Enterprise operating system and the Windows Server 2008 Datacenter operating
     system support 
-    <a href="https://msdn.microsoft.com/1b6a1dc5-ec32-4bb9-acaf-14db284b4a0e">dynamic hardware
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/dynamic-hardware-partitioning-architecture">dynamic hardware
     partitioning</a>. As part of dynamic hardware partitioning, Windows Server 2008 supports hot-add
     operations for CPUs at runtime. In a hot-add CPU environment, the number of processors might not remain
     constant during runtime.
@@ -118,15 +118,15 @@ The Windows Server 2008 Enterprise operating system and the Windows Server 2008 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552985">KeQueryActiveProcessorCount</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kequeryactiveprocessorcount">KeQueryActiveProcessorCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562685">NdisGroupActiveProcessorCount</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisgroupactiveprocessorcount">NdisGroupActiveProcessorCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564579">NdisSystemProcessorCount</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndissystemprocessorcount">NdisSystemProcessorCount</a>
  
 
  

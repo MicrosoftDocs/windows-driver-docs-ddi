@@ -46,7 +46,7 @@ req.typenames: FEATURE_HEADER, *PFEATURE_HEADER
 ## -description
 
 
-The FEATURE_HEADER structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559334">IOCTL_CDROM_GET_CONFIGURATION</a> request to report header information for both feature and profile descriptors.
+The FEATURE_HEADER structure is used in conjunction with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_get_configuration">IOCTL_CDROM_GET_CONFIGURATION</a> request to report header information for both feature and profile descriptors.
 
 
 ## -struct-fields
@@ -56,7 +56,7 @@ The FEATURE_HEADER structure is used in conjunction with the <a href="https://ms
 
 ### -field FeatureCode
 
-Contains a value between zero and 0xffff that indicates a feature. The <a href="https://msdn.microsoft.com/library/windows/hardware/ff553850">FEATURE_NUMBER</a> enumeration provides a list of currently supported feature numbers. <b>FeatureCode</b>[0] contains the most significant byte of the feature number. <b>FeatureCode</b>[1] contains the least significant byte. 
+Contains a value between zero and 0xffff that indicates a feature. The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddmmc/ne-ntddmmc-_feature_number">FEATURE_NUMBER</a> enumeration provides a list of currently supported feature numbers. <b>FeatureCode</b>[0] contains the most significant byte of the feature number. <b>FeatureCode</b>[1] contains the least significant byte. 
 
 
 ### -field Current
@@ -89,15 +89,15 @@ Indicates the number of bytes of feature information that follow this header. Th
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553850">FEATURE_NUMBER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddmmc/ne-ntddmmc-_feature_number">FEATURE_NUMBER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554980">GET_CONFIGURATION_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddmmc/ns-ntddmmc-_get_configuration_header">GET_CONFIGURATION_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559334">IOCTL_CDROM_GET_CONFIGURATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_get_configuration">IOCTL_CDROM_GET_CONFIGURATION</a>
  
 
  

@@ -46,7 +46,7 @@ req.typenames: GetEventBuffer_OUT, *PGetEventBuffer_OUT
 ## -description
 
 
-The GetEventBuffer_OUT structure is used to report the output parameter data of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553935">GetEventBuffer</a> WMI method to the WMI client.
+The GetEventBuffer_OUT structure is used to report the output parameter data of the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/geteventbuffer">GetEventBuffer</a> WMI method to the WMI client.
 
 
 ## -struct-fields
@@ -56,26 +56,26 @@ The GetEventBuffer_OUT structure is used to report the output parameter data of 
 
 ### -field HBAStatus
 
-Contains a value associated with the WMI class qualifier <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a> that indicates the result of an HBA query operation. 
+Contains a value associated with the WMI class qualifier <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/hba-status">HBA_STATUS</a> that indicates the result of an HBA query operation. 
 
 
 ### -field EventCount
 
-Indicates the number of events in <b>Events</b> that were retrieved by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553935">GetEventBuffer</a> WMI method.
+Indicates the number of events in <b>Events</b> that were retrieved by the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/geteventbuffer">GetEventBuffer</a> WMI method.
 
 
 ### -field Events
 
-Contains an array of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff562480">MSFC_EventBuffer</a> that contains the next events in the HBA's event queue.
+Contains an array of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hbapiwmi/ns-hbapiwmi-_msfc_eventbuffer">MSFC_EventBuffer</a> that contains the next events in the HBA's event queue.
 
 
 ## -remarks
 
 
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff553935">GetEventBuffer</a> method retrieves the next events in the HBA's event queue. 
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/geteventbuffer">GetEventBuffer</a> method retrieves the next events in the HBA's event queue. 
 
-The WMI tool suite generates a declaration of the GetEventBuffer_OUT structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562506">MSFC_HBAAdapterMethods WMI Class</a>.
+The WMI tool suite generates a declaration of the GetEventBuffer_OUT structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msfc-hbaadaptermethods-wmi-class">MSFC_HBAAdapterMethods WMI Class</a>.
 
 
 
@@ -85,7 +85,7 @@ The WMI tool suite generates a declaration of the GetEventBuffer_OUT structure i
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553935">GetEventBuffer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/geteventbuffer">GetEventBuffer</a>
  
 
  

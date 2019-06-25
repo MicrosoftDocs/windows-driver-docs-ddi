@@ -79,7 +79,7 @@ Specifies whether the sample clock is to be reset to zero with this reference ti
 
 Because the master time and sample time might be driven by different crystals, they can drift apart. The port driver periodically calls this method to give the miniport driver an opportunity to synchronize its sample clock to the master clock.
 
-Parameter <i>fStart</i> is <b>TRUE</b> during the first call to <code>SyncToMaster</code> after the stream enters the KSSTATE_RUN state (see <a href="https://msdn.microsoft.com/library/windows/hardware/ff566856">KSSTATE</a>). Otherwise, <i>fStart</i> is <b>FALSE</b>.
+Parameter <i>fStart</i> is <b>TRUE</b> during the first call to <code>SyncToMaster</code> after the stream enters the KSSTATE_RUN state (see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ne-ks-ksstate">KSSTATE</a>). Otherwise, <i>fStart</i> is <b>FALSE</b>.
 
 
 
@@ -89,11 +89,11 @@ Parameter <i>fStart</i> is <b>TRUE</b> during the first call to <code>SyncToMast
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537011">ISynthSinkDMus</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dmusicks/nn-dmusicks-isynthsinkdmus">ISynthSinkDMus</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566856">KSSTATE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ne-ks-ksstate">KSSTATE</a>
  
 
  

@@ -66,7 +66,7 @@ A handle to a context block that is associated with a display adapter.
 
 ### -param pSubmitCommand [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn906825">DXGKARG_SUBMITCOMMANDVIRTUAL</a> structure that describes operation.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_submitcommandvirtual">DXGKARG_SUBMITCOMMANDVIRTUAL</a> structure that describes operation.
 
 
 ## -returns
@@ -74,7 +74,7 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn90
 | **Value** | **Description** | 
 |:--|:--|
 | STATUS_SUCCESS | The submitted command is well-formed. | 
-| STATUS_INVALID_PARAMETER | The DMA or private data is determined to be malformed. In this case, the OS will put the calling device in an error state and all subsequent calls on it will fail. The *SubmissionFenceId* value passed to this call will be considered completed after all previous packets on the hardware finished and at that point the driver notion of the last completed fence ID should be updated to this value. <br/>**Note:** This behavior is different from [DxgkDdiSubmitCommand](https://msdn.microsoft.com/de1925ab-e444-4cf6-acd9-8fdab26afcec)  call where no error is allowed to be returned due to the ability to validate the data in a prior [DxgkDdiRender](https://msdn.microsoft.com/fd634768-5e1e-4f40-82fd-5ef69148c3d7)  call. |
+| STATUS_INVALID_PARAMETER | The DMA or private data is determined to be malformed. In this case, the OS will put the calling device in an error state and all subsequent calls on it will fail. The *SubmissionFenceId* value passed to this call will be considered completed after all previous packets on the hardware finished and at that point the driver notion of the last completed fence ID should be updated to this value. <br/>**Note:** This behavior is different from [DxgkDdiSubmitCommand](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_submitcommand)  call where no error is allowed to be returned due to the ability to validate the data in a prior [DxgkDdiRender](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_render)  call. |
 
 
 All other return values will lead to the OS <i>bugcheck</i>.
@@ -84,15 +84,15 @@ All other return values will lead to the OS <i>bugcheck</i>.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn906825">DXGKARG_SUBMITCOMMANDVIRTUAL</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_submitcommandvirtual">DXGKARG_SUBMITCOMMANDVIRTUAL</a>
 
 
 
-<a href="https://msdn.microsoft.com/fd634768-5e1e-4f40-82fd-5ef69148c3d7">DxgkDdiRender</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_render">DxgkDdiRender</a>
 
 
 
-<a href="https://msdn.microsoft.com/de1925ab-e444-4cf6-acd9-8fdab26afcec">DxgkDdiSubmitCommand</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_submitcommand">DxgkDdiSubmitCommand</a>
  
 
  

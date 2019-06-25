@@ -69,7 +69,7 @@ Contains the number of logical blocks per second.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559336">IOCTL_CDROM_GET_CONTROL</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_get_control">IOCTL_CDROM_GET_CONTROL</a>
  
 
  

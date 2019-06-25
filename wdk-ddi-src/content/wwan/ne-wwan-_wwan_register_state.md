@@ -119,7 +119,7 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571231">WWAN_REGISTRATION_STATE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_registration_state">WWAN_REGISTRATION_STATE</a>
  
 
  

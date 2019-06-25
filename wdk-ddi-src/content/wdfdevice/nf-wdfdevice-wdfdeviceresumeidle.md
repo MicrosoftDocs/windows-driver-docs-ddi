@@ -75,9 +75,9 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
-Every call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff546921">WdfDeviceStopIdle</a> must eventually be followed by a call to <b>WdfDeviceResumeIdle</b>, or else the device will never return to a low-power state if it again becomes idle.
+Every call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nf-wdfdevice-wdfdevicestopidle">WdfDeviceStopIdle</a> must eventually be followed by a call to <b>WdfDeviceResumeIdle</b>, or else the device will never return to a low-power state if it again becomes idle.
 
-Calling <a href="https://msdn.microsoft.com/library/windows/hardware/dn932459">WdfDeviceResumeIdleWithTag</a> instead of <b>WdfDeviceResumeIdle</b> provides additional information (tag value, line number, and file name) that you can view in Microsoft debuggers.
+Calling <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdfdeviceresumeidlewithtag">WdfDeviceResumeIdleWithTag</a> instead of <b>WdfDeviceResumeIdle</b> provides additional information (tag value, line number, and file name) that you can view in Microsoft debuggers.
 
 
 #### Examples
@@ -102,19 +102,19 @@ The following code example informs the framework that the specified device is no
 
 
 
-<a href="https://msdn.microsoft.com/25F4EEBB-4733-498C-8704-8E015F81FE06">Debugging Power Reference Leaks in WDF</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/debugging-power-reference-leaks-in-wdf">Debugging Power Reference Leaks in WDF</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn932459">WdfDeviceResumeIdleWithTag</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdfdeviceresumeidlewithtag">WdfDeviceResumeIdleWithTag</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546921">WdfDeviceStopIdle</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nf-wdfdevice-wdfdevicestopidle">WdfDeviceStopIdle</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn932460">WdfDeviceStopIdleWithTag</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdfdevicestopidlewithtag">WdfDeviceStopIdleWithTag</a>
  
 
  

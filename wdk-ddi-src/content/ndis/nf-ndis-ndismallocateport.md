@@ -60,13 +60,13 @@ The
 
 The miniport adapter handle that NDIS passed to the 
      <i>MiniportAdapterHandle</i> parameter of the 
-     <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_initialize">
      MiniportInitializeEx</a> function.
 
 ### -param PortCharacteristics [in, out]
 
 A pointer to an 
-     <a href="https://msdn.microsoft.com/fd602dd6-c216-413a-a4da-292739774937">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_port_characteristics">
      NDIS_PORT_CHARACTERISTICS</a> structure that defines the characteristics of the port.
 
 ## -returns
@@ -142,20 +142,20 @@ The
 
 After the miniport driver activates the port, NDIS generates a PnP notification for the overlying
     drivers. If an overlying driver or user-mode application issues the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff569583">OID_GEN_ENUMERATE_PORTS</a> OID to
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-enumerate-ports">OID_GEN_ENUMERATE_PORTS</a> OID to
     enumerate a miniport adapter's ports, NDIS does not include non-active allocated ports in the list of the
     ports.
 
 When 
     <b>NdisMAllocatePort</b> successfully returns, the 
     <b>PortNumber</b> member of the 
-    <a href="https://msdn.microsoft.com/fd602dd6-c216-413a-a4da-292739774937">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_port_characteristics">
     NDIS_PORT_CHARACTERISTICS</a> structure that the 
     <i>PortCharacteristics</i> parameter specifies is set to the port number that NDIS assigned to the
     port.
 
 After a port is no longer required, the miniport driver should call the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff563588">NdisMFreePort</a> function to free the port.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismfreeport">NdisMFreePort</a> function to free the port.
 
 
 
@@ -165,23 +165,23 @@ After a port is no longer required, the miniport driver should call the
 
 
 
-<a href="https://msdn.microsoft.com/39c77921-5841-40f5-90ba-0fba89b3b55e">Allocating an NDIS Port</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/allocating-an-ndis-port">Allocating an NDIS Port</a>
 
 
 
-<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566791">NDIS_PORT_CHARACTERISTICS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_port_characteristics">NDIS_PORT_CHARACTERISTICS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563588">NdisMFreePort</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismfreeport">NdisMFreePort</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569583">OID_GEN_ENUMERATE_PORTS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-enumerate-ports">OID_GEN_ENUMERATE_PORTS</a>
  
 
  

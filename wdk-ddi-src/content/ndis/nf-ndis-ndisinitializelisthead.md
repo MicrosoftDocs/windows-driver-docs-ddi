@@ -66,9 +66,9 @@ A pointer to driver-allocated nonpaged storage for the head of the interlocked q
 
 
 <b>NdisInitializeListHead</b> can be called from a 
-    <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> function or
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> function or
     from a protocol driver's 
-    <a href="https://msdn.microsoft.com/library/gg156036.aspx">DriverEntry</a> routine
+    <a href="https://docs.microsoft.com/previous-versions/windows/embedded/gg156036(v=winembedded.80)">DriverEntry</a> routine
     if the driver queues requests internally. However, miniport drivers seldom set up internal queues because
     the NDIS library serializes requests and packets sent to miniport drivers.
 
@@ -80,7 +80,7 @@ Any NDIS driver that maintains an internal queue is responsible for synchronizin
 
 For an interlocked queue, the driver also must provide nonpaged storage for a spin lock. It must
     initialize the spin lock with the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561617">NdisAllocateSpinLock</a> function before
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisallocatespinlock">NdisAllocateSpinLock</a> function before
     passing a pointer to that spin lock to any of the 
     <b>NdisInterlocked<i>Xxx</i>List</b> functions.
 
@@ -94,30 +94,30 @@ Callers of <b>NdisInitializeListHead</b> can be running at any IRQL. If <b>NdisI
 
 
 
-<a href="https://msdn.microsoft.com/library/gg156036.aspx">DriverEntry of NDIS Protocol
+<a href="https://docs.microsoft.com/previous-versions/windows/embedded/gg156036(v=winembedded.80)">DriverEntry of NDIS Protocol
    Drivers</a>
 
 
 
-<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561617">NdisAllocateSpinLock</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisallocatespinlock">NdisAllocateSpinLock</a>
 
 
 
-<a href="https://msdn.microsoft.com/c6221ce9-682c-453b-b036-f4219c9540da">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisinterlockedinsertheadlist">
    NdisInterlockedInsertHeadList</a>
 
 
 
-<a href="https://msdn.microsoft.com/cc455bb1-3574-4dfb-9462-f2c67632132b">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisinterlockedinserttaillist">
    NdisInterlockedInsertTailList</a>
 
 
 
-<a href="https://msdn.microsoft.com/85cbc158-7132-4666-8161-a78251a62e4d">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisinterlockedremoveheadlist">
    NdisInterlockedRemoveHeadList</a>
  
 

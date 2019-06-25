@@ -61,7 +61,7 @@ The volume manager supports this IOCTL as described for all types of basic and d
 
 ### -input-buffer
 
-Caller inserts the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568023">VOLUME_PHYSICAL_OFFSET</a> structure, containing the physical offset and physical disk number, at the beginning of the buffer, at <b>Irp->AssociatedIrp.SystemBuffer</b>. 
+Caller inserts the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddvol/ns-ntddvol-_volume_physical_offset">VOLUME_PHYSICAL_OFFSET</a> structure, containing the physical offset and physical disk number, at the beginning of the buffer, at <b>Irp->AssociatedIrp.SystemBuffer</b>. 
 
 
 ### -input-buffer-length
@@ -72,7 +72,7 @@ Caller inserts the <a href="https://msdn.microsoft.com/library/windows/hardware/
 
 ### -output-buffer
 
-The volume manager returns the logical offset in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568018">VOLUME_LOGICAL_OFFSET</a> structure at the beginning of the buffer, at <b>Irp->AssociatedIrp.SystemBuffer</b>. 
+The volume manager returns the logical offset in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddvol/ns-ntddvol-_volume_logical_offset">VOLUME_LOGICAL_OFFSET</a> structure at the beginning of the buffer, at <b>Irp->AssociatedIrp.SystemBuffer</b>. 
 
 
 ### -output-buffer-length
@@ -113,19 +113,19 @@ If the given physical disk number and physical offset do not belong to the volum
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561425">IOCTL_VOLUME_LOGICAL_TO_PHYSICAL</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddvol/ni-ntddvol-ioctl_volume_logical_to_physical">IOCTL_VOLUME_LOGICAL_TO_PHYSICAL</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568018">VOLUME_LOGICAL_OFFSET</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddvol/ns-ntddvol-_volume_logical_offset">VOLUME_LOGICAL_OFFSET</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568023">VOLUME_PHYSICAL_OFFSET</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddvol/ns-ntddvol-_volume_physical_offset">VOLUME_PHYSICAL_OFFSET</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568024">VOLUME_PHYSICAL_OFFSETS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddvol/ns-ntddvol-_volume_physical_offsets">VOLUME_PHYSICAL_OFFSETS</a>
  
 
  

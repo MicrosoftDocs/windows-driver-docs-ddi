@@ -207,7 +207,7 @@ Specifies the number of bytes contained in the transfer.
 
 ### -param pTranCtx [in]
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff545250">MINIDRV_TRANSFER_CONTEXT</a> structure containing the data transfer values.
+Points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/ns-wiamindr_lh-_minidrv_transfer_context">MINIDRV_TRANSFER_CONTEXT</a> structure containing the data transfer values.
 
 
 ### -param lReserved [in]
@@ -240,11 +240,11 @@ IT_MSG_FILE_PREVIEW_DATA_HEADER  is for out-of-band-data. This allows the applic
 
 
 
-<a href="https://msdn.microsoft.com/cf2460c5-325f-43c3-a1fe-5b6982234194">IWiaMiniDrvCallBack</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nn-wiamindr_lh-iwiaminidrvcallback">IWiaMiniDrvCallBack</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545250">MINIDRV_TRANSFER_CONTEXT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/ns-wiamindr_lh-_minidrv_transfer_context">MINIDRV_TRANSFER_CONTEXT</a>
  
 
  

@@ -56,7 +56,7 @@ The <code>IPrintOemUni::FilterGraphics</code> method can be used with Unidrv-sup
 
 ### -param pdevobj
 
-Caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547573">DEVOBJ</a> structure.
+Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/ns-printoem-_devobj">DEVOBJ</a> structure.
 
 
 ### -param pBuf
@@ -125,13 +125,13 @@ The method is not implemented.
 
 The <code>IPrintOemUni::FilterGraphics</code> method is used to modify scan line data before it is sent to the print spooler. The method is responsible for sending the data it receives to the spooler.
 
-The <code>IPrintOemUni::FilterGraphics</code> method is optional. If a rendering plug-in implements this method, the plug-in's <a href="https://msdn.microsoft.com/library/windows/hardware/ff554253">IPrintOemUni::GetImplementedMethod</a> method must return S_OK when it receives "FilterGraphics" as input.
+The <code>IPrintOemUni::FilterGraphics</code> method is optional. If a rendering plug-in implements this method, the plug-in's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintoemuni-getimplementedmethod">IPrintOemUni::GetImplementedMethod</a> method must return S_OK when it receives "FilterGraphics" as input.
 
 If the <code>IPrintOemUni::FilterGraphics</code> method is implemented, Unidrv does not spool printer data. Instead, Unidrv calls this method each time a buffer of image data is ready to be spooled. Note that when this method is implemented, Unidrv also does not compress printer data, as it normally does. If you intend to make use of Unidrv compression, you should not implement this method. Also, you should modify <b>IPrintOemUni::GetImplementedMethod</b> so that it returns S_FALSE when it is passed the string "FilterGraphics".
 
-The method can perform final postprocessing of image data, such as removing adjacent dots or any other data stream filtering operation that Unidrv does not provide. It must then spool the data by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553138">IPrintOemDriverUni::DrvWriteSpoolBuf</a> method.
+The method can perform final postprocessing of image data, such as removing adjacent dots or any other data stream filtering operation that Unidrv does not provide. It must then spool the data by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintoemdriveruni-drvwritespoolbuf">IPrintOemDriverUni::DrvWriteSpoolBuf</a> method.
 
-<code>IPrintOemUni::FilterGraphics</code> method is called by Unidrv's <a href="https://msdn.microsoft.com/library/windows/hardware/ff556281">DrvSendPage</a> function. If you want to implement <code>IPrintOemUni::FilterGraphics</code>, you must not completely override Unidrv's <b>DrvSendPage</b> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff556250">DrvNextBand</a> functions. 
+<code>IPrintOemUni::FilterGraphics</code> method is called by Unidrv's <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvsendpage">DrvSendPage</a> function. If you want to implement <code>IPrintOemUni::FilterGraphics</code>, you must not completely override Unidrv's <b>DrvSendPage</b> or <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvnextband">DrvNextBand</a> functions. 
 
 Before Unidrv's <b>DrvSendPage</b> function calls the plug-in's <code>IPrintOemUni::FilterGraphics</code> implementation, <b>DrvSendPage</b>.
 
@@ -157,9 +157,9 @@ If the plug-in has implemented <code>IPrintOemUni::FilterGraphics,</code> Unidrv
 
 The <code>IPrintOemUni::FilterGraphics</code> method allows a rendering plug-in to modify scan line data and send it to the spooler. If you implement this function, Unidrv will not spool your data. Instead, <code>IPrintOemUni::FilterGraphics</code> will be called every time a buffer of data is ready to be spooled and sent to the printer.
 
-You can use <code>IPrintOemUni::FilterGraphics</code>  to implement a special compression method or to perform bit manipulation on the data stream that is sent to the printer or both. In any situation, the driver's built-in compression code is not used. <code>IPrintOemUni::FilterGraphics</code> is presented with a block of data and is required to output this data by using the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548662">DrvWriteSpoolBuf</a> function. The core driver (Unidrv) will perform no further processing of the raster data after calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff557725">OEMFilterGraphics</a>. 
+You can use <code>IPrintOemUni::FilterGraphics</code>  to implement a special compression method or to perform bit manipulation on the data stream that is sent to the printer or both. In any situation, the driver's built-in compression code is not used. <code>IPrintOemUni::FilterGraphics</code> is presented with a block of data and is required to output this data by using the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/nc-printoem-pfn_drvwritespoolbuf">DrvWriteSpoolBuf</a> function. The core driver (Unidrv) will perform no further processing of the raster data after calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/nf-printoem-oemfiltergraphics">OEMFilterGraphics</a>. 
 
-When you implement the <code>IPrintOemUni::FilterGraphics</code> method in your plug-in, it will be used for sending the raster data directly to the printer. The number of scan lines in a block is specified through the *<b>PinsPerPhysPass</b> attribute that is associated with the <a href="https://msdn.microsoft.com/f04cd119-38c7-465c-b4fd-d657aa5bfacd">Resolution feature</a> This attribute is optional, and if you do not specify it, it is set to 1 (like it is for most of the inkjet and page printers). Otherwise, *<b>PinsPerPhysPass</b> should be a multiple of 8. In <code>IPrintOemUni::FilterGraphics</code>, the <i>pBuf</i> parameter points to the buffer that contains the scan line raster data that you will manipulate if necessary (for example, for compression) and finally send out. The <i>dwLen</i> parameter is the length of the buffer that <i>pBuf</i> points to.  
+When you implement the <code>IPrintOemUni::FilterGraphics</code> method in your plug-in, it will be used for sending the raster data directly to the printer. The number of scan lines in a block is specified through the *<b>PinsPerPhysPass</b> attribute that is associated with the <a href="https://docs.microsoft.com/windows-hardware/drivers/print/option-attributes-for-the-resolution-feature">Resolution feature</a> This attribute is optional, and if you do not specify it, it is set to 1 (like it is for most of the inkjet and page printers). Otherwise, *<b>PinsPerPhysPass</b> should be a multiple of 8. In <code>IPrintOemUni::FilterGraphics</code>, the <i>pBuf</i> parameter points to the buffer that contains the scan line raster data that you will manipulate if necessary (for example, for compression) and finally send out. The <i>dwLen</i> parameter is the length of the buffer that <i>pBuf</i> points to.  
 
 The following list describes several common scenarios for implementing <code>IPrintOemUni::FilterGraphics</code>:
 
@@ -173,13 +173,13 @@ Bit manipulation of the incoming raster data before sending it out to the printe
 
 </li>
 </ol>
-<code>IPrintOemUni::FilterGraphics</code> finally sends all of the data to the printer by using the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548662">DrvWriteSpoolBuf</a> function. The core driver (Unidrv) does not do any more processing on the data that <code>IPrintOemUni::FilterGraphics</code> sends out. If the plug-in is performing special compression or bit manipulation, the plug-in must allocate the buffers that are necessary for the special compression or bit manipulation. If the plug-in does not allocate its own buffers and if the compressed data is smaller than the source, the output will overwrite the source buffer.
+<code>IPrintOemUni::FilterGraphics</code> finally sends all of the data to the printer by using the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/nc-printoem-pfn_drvwritespoolbuf">DrvWriteSpoolBuf</a> function. The core driver (Unidrv) does not do any more processing on the data that <code>IPrintOemUni::FilterGraphics</code> sends out. If the plug-in is performing special compression or bit manipulation, the plug-in must allocate the buffers that are necessary for the special compression or bit manipulation. If the plug-in does not allocate its own buffers and if the compressed data is smaller than the source, the output will overwrite the source buffer.
 
 The <code>IPrintOemUni::FilterGraphics</code> method gives you access to the scan line data itself and gives you the ability to post-process the raster data.
 
 <div class="alert"><b>Note</b>    The number of scan lines is equal to the height of the image. For example, a 1 bit per pixel (bpp) thickness of each scan line is equal to the  width of 1 pixel, so the number of scan lines is equal to the height of the image.</div>
 <div> </div>
-For more information about customizing Unidrv's rendering operations, see <a href="https://msdn.microsoft.com/aff39531-ca40-4985-b458-c6217f8a2e5c">Unidrv-Specific Customized Rendering</a>.
+For more information about customizing Unidrv's rendering operations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/unidrv-specific-customized-rendering">Unidrv-Specific Customized Rendering</a>.
 
 
 
@@ -189,35 +189,35 @@ For more information about customizing Unidrv's rendering operations, see <a hre
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556250">DrvNextBand</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvnextband">DrvNextBand</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556281">DrvSendPage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvsendpage">DrvSendPage</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548662">DrvWriteSpoolBuf</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/nc-printoem-pfn_drvwritespoolbuf">DrvWriteSpoolBuf</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553138">IPrintOemDriverUni::DrvWriteSpoolBuf</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintoemdriveruni-drvwritespoolbuf">IPrintOemDriverUni::DrvWriteSpoolBuf</a>
 
 
 
-<a href="https://msdn.microsoft.com/097366a0-2ded-435c-9b63-2b736b716032">IPrintOemUni</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nn-prcomoem-iprintoemuni">IPrintOemUni</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554253">IPrintOemUni::GetImplementedMethod</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintoemuni-getimplementedmethod">IPrintOemUni::GetImplementedMethod</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554261">IPrintOemUni::ImageProcessing</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintoemuni-imageprocessing">IPrintOemUni::ImageProcessing</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557725">OEMFilterGraphics</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/nf-printoem-oemfiltergraphics">OEMFilterGraphics</a>
  
 
  

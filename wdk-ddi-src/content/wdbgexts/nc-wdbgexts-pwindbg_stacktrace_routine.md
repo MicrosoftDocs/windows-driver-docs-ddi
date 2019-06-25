@@ -102,7 +102,7 @@ For a WdbgExts extension, include Wdbgexts.h. For
 
 a DbgEng extension, include Wdbgexts.h before 
 
-Dbgeng.h. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff561480">Writing DbgEng Extension Code</a> for 
+Dbgeng.h. See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/writing-dbgeng-extension-code">Writing DbgEng Extension Code</a> for 
 
 details.
 

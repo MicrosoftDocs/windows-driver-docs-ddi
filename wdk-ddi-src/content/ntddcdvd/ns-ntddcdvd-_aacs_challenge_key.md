@@ -68,7 +68,7 @@ The signature that the client uses to verify that the ECC point is valid for the
 
 
 
-Clients retrieve the Advanced Access Content System (AACS) challenge key with an <a href="https://msdn.microsoft.com/library/windows/hardware/ff559256">IOCTL_AACS_GET_CHALLENGE_KEY</a> request. Clients send an AACS challenge key to the logical unit in an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550114">AACS_SEND_CHALLENGE_KEY</a> structure with an <a href="https://msdn.microsoft.com/library/windows/hardware/ff559302">IOCTL_AACS_SEND_CHALLENGE_KEY</a>. 
+Clients retrieve the Advanced Access Content System (AACS) challenge key with an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdvd/ni-ntddcdvd-ioctl_aacs_get_challenge_key">IOCTL_AACS_GET_CHALLENGE_KEY</a> request. Clients send an AACS challenge key to the logical unit in an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdvd/ns-ntddcdvd-_aacs_send_challenge_key">AACS_SEND_CHALLENGE_KEY</a> structure with an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdvd/ni-ntddcdvd-ioctl_aacs_send_challenge_key">IOCTL_AACS_SEND_CHALLENGE_KEY</a>. 
 
 
 
@@ -78,15 +78,15 @@ Clients retrieve the Advanced Access Content System (AACS) challenge key with an
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550114">AACS_SEND_CHALLENGE_KEY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdvd/ns-ntddcdvd-_aacs_send_challenge_key">AACS_SEND_CHALLENGE_KEY</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559256">IOCTL_AACS_GET_CHALLENGE_KEY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdvd/ni-ntddcdvd-ioctl_aacs_get_challenge_key">IOCTL_AACS_GET_CHALLENGE_KEY</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559302">IOCTL_AACS_SEND_CHALLENGE_KEY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdvd/ni-ntddcdvd-ioctl_aacs_send_challenge_key">IOCTL_AACS_SEND_CHALLENGE_KEY</a>
  
 
  

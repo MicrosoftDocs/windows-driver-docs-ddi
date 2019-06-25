@@ -49,7 +49,7 @@ req.typenames:
 
 A filter drivers calls the
   <b>NdisFDeregisterFilterDriver</b> function to release resources that it previously allocated with the 
-  <a href="https://msdn.microsoft.com/14381de2-36d9-4ec8-9d4e-7af3e6d8ecf3">
+  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisfregisterfilterdriver">
   NdisFRegisterFilterDriver</a> function.
 
 
@@ -80,7 +80,7 @@ None
 
 A filter driver must call 
     <b>NdisFDeregisterFilterDriver</b> from its 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff549936">FilterDriverUnload</a> routine.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/unloading-a-filter-driver">FilterDriverUnload</a> routine.
 
 
 
@@ -90,11 +90,11 @@ A filter driver must call
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549936">FilterDriverUnload</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/unloading-a-filter-driver">FilterDriverUnload</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562608">NdisFRegisterFilterDriver</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisfregisterfilterdriver">NdisFRegisterFilterDriver</a>
  
 
  

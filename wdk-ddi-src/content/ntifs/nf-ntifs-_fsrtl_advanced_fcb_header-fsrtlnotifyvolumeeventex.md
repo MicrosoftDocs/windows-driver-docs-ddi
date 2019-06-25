@@ -57,17 +57,17 @@ The <b>FsRtlNotifyVolumeEventEx</b> routine notifies any registered applications
 
 ### -param FileObject [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff545834">FILE_OBJECT</a> that specifies a volume.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_file_object">FILE_OBJECT</a> that specifies a volume.
 
 
 ### -param EventCode [in]
 
-An event code for the event that is occurring. For a table of event codes, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff547060">FsRtlNotifyVolumeEvent</a>.
+An event code for the event that is occurring. For a table of event codes, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyvolumeevent">FsRtlNotifyVolumeEvent</a>.
 
 
 ### -param Event [in]
 
-A pointer to the initialized custom notification structure (<a href="https://msdn.microsoft.com/library/windows/hardware/ff564596">TARGET_DEVICE_CUSTOM_NOTIFICATION</a>) to use. 
+A pointer to the initialized custom notification structure (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_target_device_custom_notification">TARGET_DEVICE_CUSTOM_NOTIFICATION</a>) to use. 
 
 
 ## -returns
@@ -97,19 +97,19 @@ Returns STATUS_SUCCESS on success or another relevant NTSTATUS value, such as ST
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547060">FsRtlNotifyVolumeEvent</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyvolumeevent">FsRtlNotifyVolumeEvent</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549526">IoRegisterPlugPlayNotification</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ioregisterplugplaynotification">IoRegisterPlugPlayNotification</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550398">IoUnregisterPlugPlayNotification</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iounregisterplugplaynotification">IoUnregisterPlugPlayNotification</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564596">TARGET_DEVICE_CUSTOM_NOTIFICATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_target_device_custom_notification">TARGET_DEVICE_CUSTOM_NOTIFICATION</a>
  
 
  

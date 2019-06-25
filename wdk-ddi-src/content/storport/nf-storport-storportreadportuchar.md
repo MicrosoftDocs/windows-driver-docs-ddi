@@ -66,7 +66,7 @@ Pointer to the address from which to read.
 
 
 
-For more information, see the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564715">ScsiPortReadPortBufferUchar</a> routine. For a buffered version of this routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff567468">StorPortReadPortBufferUchar</a>. 
+For more information, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/srb/nf-srb-scsiportreadportbufferuchar">ScsiPortReadPortBufferUchar</a> routine. For a buffered version of this routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportreadportbufferuchar">StorPortReadPortBufferUchar</a>. 
 
 
 
@@ -76,11 +76,11 @@ For more information, see the <a href="https://msdn.microsoft.com/library/window
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564715">ScsiPortReadPortBufferUchar</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/srb/nf-srb-scsiportreadportbufferuchar">ScsiPortReadPortBufferUchar</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567468">StorPortReadPortBufferUchar</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportreadportbufferuchar">StorPortReadPortBufferUchar</a>
  
 
  

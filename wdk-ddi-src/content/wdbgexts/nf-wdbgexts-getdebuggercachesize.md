@@ -72,7 +72,7 @@ If the function succeeds, the return value is <b>TRUE</b>; otherwise, it is <b>F
 
 
 
-The size of the cache can be set and retrieved by using the <a href="https://msdn.microsoft.com/638cb2e6-b333-4311-967c-d86c2e93b4ec">.cache</a> command.
+The size of the cache can be set and retrieved by using the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/-cache--set-cache-size-">.cache</a> command.
 
 Each target process has its own cache.  The returned size is the size of the cache for the current target.
 
@@ -84,7 +84,7 @@ Each target process has its own cache.  The returned size is the size of the cac
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562180">.cache (Set Cache Size)</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/-cache--set-cache-size-">.cache (Set Cache Size)</a>
  
 
  

@@ -61,7 +61,7 @@ A handle to a UCX object that represents the root hub.
 
 ### -param Request [in]
 
-A structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/mt188031">ROOTHUB_INFO</a>.
+A structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucxroothub/ns-ucxroothub-_roothub_info">ROOTHUB_INFO</a>.
 
 
 ## -returns
@@ -77,10 +77,10 @@ This callback function does not return a value.
 
 
 
-The UCX client driver registers this callback function with the USB host controller extension (UCX) by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/mt188048">UcxRootHubCreate</a>
+The UCX client driver registers this callback function with the USB host controller extension (UCX) by calling the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/mt188048(v=vs.85)">UcxRootHubCreate</a>
  method.
 
-The <a href="https://msdn.microsoft.com/634398E9-7AAA-424C-8C81-287F70CE3578">_ROOTHUB_INFO</a> structure contains the number of USB 2.0 and USB 3.0 ports supported by the root hub.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucxroothub/ns-ucxroothub-_roothub_info">_ROOTHUB_INFO</a> structure contains the number of USB 2.0 and USB 3.0 ports supported by the root hub.
 
 After UCX calls  the <i>EVT_UCX_ROOTHUB_GET_INFO</i> function, the number of ports exposed by the root hub is guaranteed to remain the same. Note that these are virtual ports, not physical ports.  Each physical USB connector is represented by one or more 
 ports of different speed on the root hub.
@@ -151,7 +151,7 @@ RootHub_EvtRootHubGetInfo:
 
 
 
-<a href="https://msdn.microsoft.com/634398E9-7AAA-424C-8C81-287F70CE3578">_ROOTHUB_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucxroothub/ns-ucxroothub-_roothub_info">_ROOTHUB_INFO</a>
  
 
  

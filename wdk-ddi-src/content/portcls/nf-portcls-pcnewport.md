@@ -47,7 +47,7 @@ req.typenames:
 ## -description
 
 
-The <b>PcNewPort</b> function creates a new system-supplied port-driver object, whose interface (derived from base class <a href="https://msdn.microsoft.com/library/windows/hardware/ff536842">IPort</a>) is specified by a class ID.
+The <b>PcNewPort</b> function creates a new system-supplied port-driver object, whose interface (derived from base class <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iport">IPort</a>) is specified by a class ID.
 
 
 ## -parameters
@@ -57,7 +57,7 @@ The <b>PcNewPort</b> function creates a new system-supplied port-driver object, 
 
 ### -param OutPort [out]
 
-Output pointer for the port-driver object created by this function. This parameter points to a caller-allocated pointer variable into which the function outputs the pointer to the newly created <a href="https://msdn.microsoft.com/library/windows/hardware/ff536842">IPort</a> object. This object has the port interface that is specified by the <i>ClassId</i> parameter. Specify a valid, non-NULL pointer value for this parameter.
+Output pointer for the port-driver object created by this function. This parameter points to a caller-allocated pointer variable into which the function outputs the pointer to the newly created <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iport">IPort</a> object. This object has the port interface that is specified by the <i>ClassId</i> parameter. Specify a valid, non-NULL pointer value for this parameter.
 
 
 ### -param ClassID [in]
@@ -92,7 +92,7 @@ The <i>ClassId</i> parameter can be set to one of the GUIDs in the following tab
 </td>
 <td>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536879">IPortDMus</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dmusicks/nn-dmusicks-iportdmus">IPortDMus</a>
 
 
 </td>
@@ -104,7 +104,7 @@ The <i>ClassId</i> parameter can be set to one of the GUIDs in the following tab
 </td>
 <td>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536891">IPortMidi</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iportmidi">IPortMidi</a>
 
 
 </td>
@@ -116,7 +116,7 @@ The <i>ClassId</i> parameter can be set to one of the GUIDs in the following tab
 </td>
 <td>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536896">IPortTopology</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iporttopology">IPortTopology</a>
 
 
 </td>
@@ -128,7 +128,7 @@ The <i>ClassId</i> parameter can be set to one of the GUIDs in the following tab
 </td>
 <td>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536899">IPortWaveCyclic</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iportwavecyclic">IPortWaveCyclic</a>
 
 
 </td>
@@ -140,7 +140,7 @@ The <i>ClassId</i> parameter can be set to one of the GUIDs in the following tab
 </td>
 <td>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536905">IPortWavePci</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff536905(v=vs.85)">IPortWavePci</a>
 
 
 </td>
@@ -152,7 +152,7 @@ The <i>ClassId</i> parameter can be set to one of the GUIDs in the following tab
 </td>
 <td>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536920">IPortWaveRT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iportwavert">IPortWaveRT</a>
 
 
 </td>
@@ -164,9 +164,9 @@ The <i>ClassId</i> parameter can be set to one of the GUIDs in the following tab
 
 In Microsoft Windows XP and later, the MIDI and DirectMusic port drivers share the same internal software implementation. This means that the <b>CLSID_PortMidi</b> GUID is equivalent to <b>CLSID_PortDMus</b>.
 
-For more information about creating port and miniport drivers for subdevices, see <a href="https://msdn.microsoft.com/e4ba1209-adc6-48c3-9633-247e9e3849bc">Subdevice Creation</a>.
+For more information about creating port and miniport drivers for subdevices, see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/subdevice-creation">Subdevice Creation</a>.
 
-The <i>OutPort</i> parameter follows the <a href="https://msdn.microsoft.com/e6b19110-37e2-4d23-a528-6393c12ab650">reference-counting conventions for COM objects</a>. 
+The <i>OutPort</i> parameter follows the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/reference-counting-conventions-for-com-objects">reference-counting conventions for COM objects</a>. 
 
 
 
@@ -176,31 +176,31 @@ The <i>OutPort</i> parameter follows the <a href="https://msdn.microsoft.com/e6b
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536842">IPort</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iport">IPort</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536879">IPortDMus</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dmusicks/nn-dmusicks-iportdmus">IPortDMus</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536891">IPortMidi</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iportmidi">IPortMidi</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536896">IPortTopology</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iporttopology">IPortTopology</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536899">IPortWaveCyclic</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iportwavecyclic">IPortWaveCyclic</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536905">IPortWavePci</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff536905(v=vs.85)">IPortWavePci</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536920">IPortWaveRT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iportwavert">IPortWaveRT</a>
  
 
  

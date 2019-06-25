@@ -69,7 +69,7 @@ Specifies the count of serialized properties to follow.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565224">KSPROPERTY_SERIAL</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksproperty_serial">KSPROPERTY_SERIAL</a>
  
 
  

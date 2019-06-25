@@ -47,7 +47,7 @@ req.typenames:
 ## -description
 
 
-The <b>PcCreateContentMixed</b> function computes the DRM content rights for a composite stream containing mixed content from some number of KS audio streams. Note that this function call is identical in operation to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536348">DrmCreateContentMixed</a> function, and its parameter definitions and return value are also identical.
+The <b>PcCreateContentMixed</b> function computes the DRM content rights for a composite stream containing mixed content from some number of KS audio streams. Note that this function call is identical in operation to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/drmk/nf-drmk-drmcreatecontentmixed">DrmCreateContentMixed</a> function, and its parameter definitions and return value are also identical.
 
 
 ## -parameters
@@ -57,7 +57,7 @@ The <b>PcCreateContentMixed</b> function computes the DRM content rights for a c
 
 ### -param paContentId [in]
 
-Pointer to an array of DRM content IDs. Each array element is of type ULONG and contains a content ID that represents a protected KS audio stream. If <i>cContentId</i> is zero, <i>paContentID</i> can be <b>NULL</b>. A content ID of zero is a special value that represents an audio stream with default DRM content rights (see <a href="https://msdn.microsoft.com/library/windows/hardware/ff536254">DEFINE_DRMRIGHTS_DEFAULT</a>).
+Pointer to an array of DRM content IDs. Each array element is of type ULONG and contains a content ID that represents a protected KS audio stream. If <i>cContentId</i> is zero, <i>paContentID</i> can be <b>NULL</b>. A content ID of zero is a special value that represents an audio stream with default DRM content rights (see <a href="https://docs.microsoft.com/previous-versions/ff536254(v=vs.85)">DEFINE_DRMRIGHTS_DEFAULT</a>).
 
 
 ### -param cContentId [in]
@@ -74,7 +74,7 @@ Output pointer for the composite content ID. This parameter points to a caller-a
 
 
 
-See return value definition in <a href="https://msdn.microsoft.com/library/windows/hardware/ff536348">DrmCreateContentMixed</a>.
+See return value definition in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/drmk/nf-drmk-drmcreatecontentmixed">DrmCreateContentMixed</a>.
 
 
 
@@ -83,7 +83,7 @@ See return value definition in <a href="https://msdn.microsoft.com/library/windo
 
 
 
-For more information, see the comments in <a href="https://msdn.microsoft.com/library/windows/hardware/ff536348">DrmCreateContentMixed</a>.
+For more information, see the comments in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/drmk/nf-drmk-drmcreatecontentmixed">DrmCreateContentMixed</a>.
 
 
 
@@ -93,7 +93,7 @@ For more information, see the comments in <a href="https://msdn.microsoft.com/li
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536348">DrmCreateContentMixed</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/drmk/nf-drmk-drmcreatecontentmixed">DrmCreateContentMixed</a>
  
 
  

@@ -48,7 +48,7 @@ req.typenames: NDIS_CO_CLIENT_OPTIONAL_HANDLERS, *PNDIS_CO_CLIENT_OPTIONAL_HANDL
 
 The NDIS_CO_CLIENT_OPTIONAL_HANDLERS structure specifies entry points for CoNDIS client 
   <i>ProtocolXxx</i> functions for the protocol driver that passes this structure to the 
-  <a href="https://msdn.microsoft.com/97649f4f-942a-47fc-a541-6f160c8b4eb4">
+  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndissetoptionalhandlers">
   NdisSetOptionalHandlers</a> function.
 
 
@@ -60,7 +60,7 @@ The NDIS_CO_CLIENT_OPTIONAL_HANDLERS structure specifies entry points for CoNDIS
 ### -field Header
 
 The 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
      protocol driver CoNDIS characteristics structure (NDIS_CO_CLIENT_OPTIONAL_HANDLERS). The driver sets the    
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to NDIS_OBJECT_TYPE_CO_CLIENT_OPTIONAL_HANDLERS, the 
@@ -76,47 +76,47 @@ Reserved for NDIS.
 ### -field ClCreateVcHandler
 
 The entry point of the caller's 
-     <a href="https://msdn.microsoft.com/b086dd24-74f5-474a-8684-09bf92ac731b">ProtocolCoCreateVc</a> function.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_co_create_vc">ProtocolCoCreateVc</a> function.
 
 
 ### -field ClDeleteVcHandler
 
 The entry point of the caller's 
-     <a href="https://msdn.microsoft.com/d761270f-bf77-441e-834c-9ac7fb3d350f">ProtocolCoDeleteVc</a> function.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_co_delete_vc">ProtocolCoDeleteVc</a> function.
 
 
 ### -field ClOidRequestHandler
 
 The entry point of the caller's 
-     <a href="https://msdn.microsoft.com/8247396f-8781-45da-aba1-a31a2a26a46f">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_co_oid_request">
      ProtocolCoOidRequest</a> function.
 
 
 ### -field ClOidRequestCompleteHandler
 
 The entry point of the caller's 
-     <a href="https://msdn.microsoft.com/16883c64-3cc6-4f50-8be7-7c58c422a717">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_co_oid_request_complete">
      ProtocolCoOidRequestComplete</a> function.
 
 
 ### -field ClOpenAfCompleteHandlerEx
 
 The entry point of the caller's 
-     <a href="https://msdn.microsoft.com/03ddbbfd-8fe8-44b6-8d3e-12a7bf6f8f6b">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cl_open_af_complete_ex">
      ProtocolClOpenAfCompleteEx</a> function.
 
 
 ### -field ClCloseAfCompleteHandler
 
 The entry point of the caller's 
-     <a href="https://msdn.microsoft.com/7597e124-34e4-4326-98b3-c65dbe90ae6f">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cl_close_af_complete">
      ProtocolClCloseAfComplete</a> function.
 
 
 ### -field ClRegisterSapCompleteHandler
 
 The entry point of the caller's 
-     <a href="https://msdn.microsoft.com/b0a2a224-3353-4f20-b14f-ed5d633a6ead">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cl_register_sap_complete">
      ProtocolClRegisterSapComplete</a> function. A client uses this function to accept incoming calls from
      remote machines.
 
@@ -124,14 +124,14 @@ The entry point of the caller's
 ### -field ClDeregisterSapCompleteHandler
 
 The entry point of the caller's 
-     <a href="https://msdn.microsoft.com/93f8f74a-8ad4-42ea-83cf-ddfcd7f55ce6">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cl_deregister_sap_complete">
      ProtocolClDeregisterSapComplete</a> function.
 
 
 ### -field ClMakeCallCompleteHandler
 
 The entry point of the caller's 
-     <a href="https://msdn.microsoft.com/6bb69f78-8dab-46a7-84fb-7bc17e894535">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cl_make_call_complete">
      ProtocolClMakeCallComplete</a> function. A client uses this function to make outgoing calls to remote
      machines.
 
@@ -139,7 +139,7 @@ The entry point of the caller's
 ### -field ClModifyCallQoSCompleteHandler
 
 The entry point of the caller's 
-     <a href="https://msdn.microsoft.com/0d925862-49af-4579-b877-c9a033e73be0">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cl_modify_call_qos_complete">
      ProtocolClModifyCallQoSComplete</a> function. A client uses this function to dynamically make changes
      in the quality of service (QoS) on an established virtual connection (VC) or to negotiate with the call
      manager to establish the QoS when the client sets up an incoming call.
@@ -148,14 +148,14 @@ The entry point of the caller's
 ### -field ClCloseCallCompleteHandler
 
 The entry point of the caller's 
-     <a href="https://msdn.microsoft.com/a7ba1ab2-04c9-45b5-a184-e1ad1448561a">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cl_close_call_complete">
      ProtocolClCloseCallComplete</a> function.
 
 
 ### -field ClAddPartyCompleteHandler
 
 The entry point of the caller's 
-     <a href="https://msdn.microsoft.com/ea3ebbe9-fd94-44b8-8801-639d099c5158">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cl_add_party_complete">
      ProtocolClAddPartyComplete</a> function. A client uses this function to establish point-to-multipoint
      VCs for outgoing calls to remote machines.
 
@@ -163,14 +163,14 @@ The entry point of the caller's
 ### -field ClDropPartyCompleteHandler
 
 The entry point of the caller's 
-     <a href="https://msdn.microsoft.com/c916f379-393c-41d7-ab30-2f3181c3ada6">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cl_drop_party_complete">
      ProtocolClDropPartyComplete</a> function.
 
 
 ### -field ClIncomingCallHandler
 
 The entry point of the caller's 
-     <a href="https://msdn.microsoft.com/8a5922ac-b22b-444e-9ea0-3bb56e71ef33">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cl_incoming_call">
      ProtocolClIncomingCall</a> function. A client uses this function to accept incoming calls from remote
      machines.
 
@@ -178,7 +178,7 @@ The entry point of the caller's
 ### -field ClIncomingCallQoSChangeHandler
 
 The entry point of the caller's 
-     <a href="https://msdn.microsoft.com/ca9953f4-35db-4acb-b0ea-887156b4f6ee">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cl_incoming_call_qos_change">
      ProtocolClIncomingCallQoSChange</a> function. A client uses this function to accept incoming calls
      from remote machines on which the sending client can dynamically change the QoS.
 
@@ -186,21 +186,21 @@ The entry point of the caller's
 ### -field ClIncomingCloseCallHandler
 
 The entry point of the caller's 
-     <a href="https://msdn.microsoft.com/01c7d887-eb54-47c3-98f0-bc567b60fb4b">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cl_incoming_close_call">
      ProtocolClIncomingCloseCall</a> function.
 
 
 ### -field ClIncomingDropPartyHandler
 
 The entry point of the caller's 
-     <a href="https://msdn.microsoft.com/3815ca4b-f4bc-4de9-a28a-5d3ee20bcdd8">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cl_incoming_drop_party">
      ProtocolClIncomingDropParty</a> function.
 
 
 ### -field ClCallConnectedHandler
 
 The entry point of the caller's 
-     <a href="https://msdn.microsoft.com/675b2066-6a65-47cf-bde7-3c843f97c960">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cl_call_connected">
      ProtocolClCallConnected</a> function. A client uses this function to accept incoming calls from remote
      machines.
 
@@ -208,7 +208,7 @@ The entry point of the caller's
 ### -field ClNotifyCloseAfHandler
 
 The entry point of the caller's 
-     <a href="https://msdn.microsoft.com/0f595daa-9822-4ca6-8f25-e6f82030d4ea">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cl_notify_close_af">
      ProtocolClNotifyCloseAf</a> function.
 
 
@@ -218,12 +218,12 @@ The entry point of the caller's
 
 To specify entry points as a CoNDIS client, a protocol driver initializes an
     NDIS_CO_CLIENT_OPTIONAL_HANDLERS structure and passes it to the 
-    <a href="https://msdn.microsoft.com/97649f4f-942a-47fc-a541-6f160c8b4eb4">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndissetoptionalhandlers">
     NdisSetOptionalHandlers</a> function.
 
 The client calls 
     <b>NdisSetOptionalHandlers</b> from the 
-    <a href="https://msdn.microsoft.com/342e23ad-d38b-4100-949a-220b8fbdcf6e">ProtocolSetOptions</a> function. The
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-set_options">ProtocolSetOptions</a> function. The
     client must set every 
     <b>Cl</b><i>Xxx</i> member in the NDIS_CO_CLIENT_OPTIONAL_HANDLERS structure to a caller-supplied 
     <i>ProtocolXxx</i> function, even if the call manager does not support incoming calls, outgoing calls, or
@@ -239,96 +239,96 @@ The client calls
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564550">NdisSetOptionalHandlers</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndissetoptionalhandlers">NdisSetOptionalHandlers</a>
 
 
 
-<a href="https://msdn.microsoft.com/ea3ebbe9-fd94-44b8-8801-639d099c5158">ProtocolClAddPartyComplete</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cl_add_party_complete">ProtocolClAddPartyComplete</a>
 
 
 
-<a href="https://msdn.microsoft.com/675b2066-6a65-47cf-bde7-3c843f97c960">ProtocolClCallConnected</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cl_call_connected">ProtocolClCallConnected</a>
 
 
 
-<a href="https://msdn.microsoft.com/7597e124-34e4-4326-98b3-c65dbe90ae6f">ProtocolClCloseAfComplete</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cl_close_af_complete">ProtocolClCloseAfComplete</a>
 
 
 
-<a href="https://msdn.microsoft.com/a7ba1ab2-04c9-45b5-a184-e1ad1448561a">ProtocolClCloseCallComplete</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cl_close_call_complete">ProtocolClCloseCallComplete</a>
 
 
 
-<a href="https://msdn.microsoft.com/93f8f74a-8ad4-42ea-83cf-ddfcd7f55ce6">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cl_deregister_sap_complete">
    ProtocolClDeregisterSapComplete</a>
 
 
 
-<a href="https://msdn.microsoft.com/c916f379-393c-41d7-ab30-2f3181c3ada6">ProtocolClDropPartyComplete</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cl_drop_party_complete">ProtocolClDropPartyComplete</a>
 
 
 
-<a href="https://msdn.microsoft.com/8a5922ac-b22b-444e-9ea0-3bb56e71ef33">ProtocolClIncomingCall</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cl_incoming_call">ProtocolClIncomingCall</a>
 
 
 
-<a href="https://msdn.microsoft.com/ca9953f4-35db-4acb-b0ea-887156b4f6ee">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cl_incoming_call_qos_change">
    ProtocolClIncomingCallQoSChange</a>
 
 
 
-<a href="https://msdn.microsoft.com/01c7d887-eb54-47c3-98f0-bc567b60fb4b">ProtocolClIncomingCloseCall</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cl_incoming_close_call">ProtocolClIncomingCloseCall</a>
 
 
 
-<a href="https://msdn.microsoft.com/3815ca4b-f4bc-4de9-a28a-5d3ee20bcdd8">ProtocolClIncomingDropParty</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cl_incoming_drop_party">ProtocolClIncomingDropParty</a>
 
 
 
-<a href="https://msdn.microsoft.com/6bb69f78-8dab-46a7-84fb-7bc17e894535">ProtocolClMakeCallComplete</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cl_make_call_complete">ProtocolClMakeCallComplete</a>
 
 
 
-<a href="https://msdn.microsoft.com/0d925862-49af-4579-b877-c9a033e73be0">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cl_modify_call_qos_complete">
    ProtocolClModifyCallQoSComplete</a>
 
 
 
-<a href="https://msdn.microsoft.com/03ddbbfd-8fe8-44b6-8d3e-12a7bf6f8f6b">ProtocolClOpenAfCompleteEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cl_open_af_complete_ex">ProtocolClOpenAfCompleteEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/b0a2a224-3353-4f20-b14f-ed5d633a6ead">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cl_register_sap_complete">
    ProtocolClRegisterSapComplete</a>
 
 
 
-<a href="https://msdn.microsoft.com/272d99da-ef08-4ebd-90e7-74e99410b3f5">ProtocolCoAfRegisterNotify</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_co_af_register_notify">ProtocolCoAfRegisterNotify</a>
 
 
 
-<a href="https://msdn.microsoft.com/b086dd24-74f5-474a-8684-09bf92ac731b">ProtocolCoCreateVc</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_co_create_vc">ProtocolCoCreateVc</a>
 
 
 
-<a href="https://msdn.microsoft.com/d761270f-bf77-441e-834c-9ac7fb3d350f">ProtocolCoDeleteVc</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_co_delete_vc">ProtocolCoDeleteVc</a>
 
 
 
-<a href="https://msdn.microsoft.com/8247396f-8781-45da-aba1-a31a2a26a46f">ProtocolCoOidRequest</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_co_oid_request">ProtocolCoOidRequest</a>
 
 
 
-<a href="https://msdn.microsoft.com/16883c64-3cc6-4f50-8be7-7c58c422a717">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_co_oid_request_complete">
    ProtocolCoOidRequestComplete</a>
 
 
 
-<a href="https://msdn.microsoft.com/342e23ad-d38b-4100-949a-220b8fbdcf6e">ProtocolSetOptions</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-set_options">ProtocolSetOptions</a>
  
 
  

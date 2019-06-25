@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <b>FltIsOperationSynchronous</b> routine determines whether a given callback data structure (<a href="https://msdn.microsoft.com/library/windows/hardware/ff544620">FLT_CALLBACK_DATA</a>) represents a synchronous or asynchronous I/O operation. 
+The <b>FltIsOperationSynchronous</b> routine determines whether a given callback data structure (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>) represents a synchronous or asynchronous I/O operation. 
 
 
 ## -parameters
@@ -56,7 +56,7 @@ The <b>FltIsOperationSynchronous</b> routine determines whether a given callback
 
 ### -param CallbackData [in]
 
-Pointer to the callback data structure for the operation (<a href="https://msdn.microsoft.com/library/windows/hardware/ff544620">FLT_CALLBACK_DATA</a>). 
+Pointer to the callback data structure for the operation (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>). 
 
 
 ## -returns
@@ -72,11 +72,11 @@ Pointer to the callback data structure for the operation (<a href="https://msdn.
 
 
 
-<b>FltIsOperationSynchronous</b> determines whether a given callback data structure (<a href="https://msdn.microsoft.com/library/windows/hardware/ff544620">FLT_CALLBACK_DATA</a>) represents a synchronous or asynchronous I/O operation, according to the following conditions: 
+<b>FltIsOperationSynchronous</b> determines whether a given callback data structure (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>) represents a synchronous or asynchronous I/O operation, according to the following conditions: 
 
 <ul>
 <li>
-If the operation is not an IRP-based I/O operation, the operation is synchronous. To determine whether an operation is IRP-based, use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544654">FLT_IS_IRP_OPERATION</a> macro. 
+If the operation is not an IRP-based I/O operation, the operation is synchronous. To determine whether an operation is IRP-based, use the <a href="https://docs.microsoft.com/previous-versions/ff544654(v=vs.85)">FLT_IS_IRP_OPERATION</a> macro. 
 
 </li>
 <li>
@@ -102,7 +102,7 @@ If none of the above conditions is true, the operation is asynchronous.
 </ul>
 <div class="alert"><b>Note</b>  <b>FltIsOperationSynchronous</b>  also returns <b>TRUE</b> if the callback data structure represents an IRP_MJ_DEVICE_CONTROL, IRP_MJ_INTERNAL_DEVICE_CONTROL, or IRP_MJ_FILE_SYSTEM_CONTROL operation with an I/O control code (IOCTL) or file system control code (FSCTL) that was defined with METHOD_BUFFERED, even if the file object was opened for asynchronous I/O. Such a request is likely to be made synchronous by the file system, but this is not necessarily true in all cases. </div>
 <div> </div>
-<div class="alert"><b>Note</b>    When <b>FltIsOperationSynchronous</b> returns <b>TRUE</b>, this does not indicate that the I/O operation is synchronized. That is, the <b>TRUE</b> value does not indicate that a minifilter driver returned FLT_PREOP_SYNCHRONIZE in the preoperation callback (<a href="https://msdn.microsoft.com/library/windows/hardware/ff551107">PFLT_POST_OPERATION_CALLBACK</a>) routine for this operation. Instead, <b>FltIsOperationSynchronous</b> returns <b>TRUE</b> to indicate that the I/O operation is synchronous from the I/O manager's perspective. </div>
+<div class="alert"><b>Note</b>    When <b>FltIsOperationSynchronous</b> returns <b>TRUE</b>, this does not indicate that the I/O operation is synchronized. That is, the <b>TRUE</b> value does not indicate that a minifilter driver returned FLT_PREOP_SYNCHRONIZE in the preoperation callback (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nc-fltkernel-pflt_post_operation_callback">PFLT_POST_OPERATION_CALLBACK</a>) routine for this operation. Instead, <b>FltIsOperationSynchronous</b> returns <b>TRUE</b> to indicate that the I/O operation is synchronous from the I/O manager's perspective. </div>
 <div> </div>
 <b>FltIsOperationSynchronous</b> can be called for all classes of operations: fast I/O, file system filter (FSFilter) callbacks, and IRP-based operations. 
 
@@ -114,23 +114,23 @@ If none of the above conditions is true, the operation is asynchronous.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544620">FLT_CALLBACK_DATA</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544645">FLT_IS_FASTIO_OPERATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">FLT_IS_FASTIO_OPERATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544648">FLT_IS_FS_FILTER_OPERATION</a>
+<a href="https://docs.microsoft.com/previous-versions/ff544648(v=vs.85)">FLT_IS_FS_FILTER_OPERATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544654">FLT_IS_IRP_OPERATION</a>
+<a href="https://docs.microsoft.com/previous-versions/ff544654(v=vs.85)">FLT_IS_IRP_OPERATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548443">IoIsOperationSynchronous</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-ioisoperationsynchronous">IoIsOperationSynchronous</a>
  
 
  

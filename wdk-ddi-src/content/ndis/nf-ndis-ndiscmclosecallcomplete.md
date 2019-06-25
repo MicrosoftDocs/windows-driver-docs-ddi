@@ -66,10 +66,10 @@ Specifies the final status of the client's request that the CM close the connect
 
 Specifies the handle to the VC for the call. This handle was supplied by NDIS when the VC was
      originally created, whether by the call manager or client, with 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff561696">NdisCoCreateVc</a>. More recently, the call
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndiscocreatevc">NdisCoCreateVc</a>. More recently, the call
      manager obtained this handle from its per-VC state designated by the 
      <i>CallMgrVcContext</i> passed as an input parameter to its 
-     <a href="https://msdn.microsoft.com/b5307e1b-3905-4e43-a0b0-0068ba18ef0d">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cm_close_call">
      ProtocolCmCloseCall</a> function.
 
 
@@ -100,7 +100,7 @@ If a stand-alone call manager's
     <b>NdisCmCloseCallComplete</b> subsequently to notify the client and NDIS that its attempt to break the
     connection has completed, whether successfully or with an error. A call to 
     <b>NdisCmCloseCallComplete</b> causes NDIS to call the client's 
-    <a href="https://msdn.microsoft.com/a7ba1ab2-04c9-45b5-a184-e1ad1448561a">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cl_close_call_complete">
     ProtocolClCloseCallComplete</a> function.
 
 If it passes NDIS_STATUS_SUCCESS as the 
@@ -108,10 +108,10 @@ If it passes NDIS_STATUS_SUCCESS as the
     <i>NdisVcHandle</i> (and 
     <i>NdisPartyHandle</i>, if any) unusable for transfers over the network as soon as it calls 
     <b>NdisCmCloseCallComplete</b>. If the call manager originally created the VC, it should call 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561698">NdisCoDeleteVc</a> with the same 
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndiscodeletevc">NdisCoDeleteVc</a> with the same 
     <i>NdisVcHandle</i> that it just passed to 
     <b>NdisCmCloseCallComplete</b>. If the client created this VC, the call manager can expect a call to its 
-    <a href="https://msdn.microsoft.com/d761270f-bf77-441e-834c-9ac7fb3d350f">ProtocolCoDeleteVc</a> function with the    
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_co_delete_vc">ProtocolCoDeleteVc</a> function with the    
     <i>ProtocolVcContext</i>, where it has the same 
     <i>NdisVcHandle</i>, as an input parameter.
 
@@ -128,23 +128,23 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561627">NdisClCloseCall</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisclclosecall">NdisClCloseCall</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561698">NdisCoDeleteVc</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndiscodeletevc">NdisCoDeleteVc</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562803">NdisMCmCloseCallComplete</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismcmclosecallcomplete">NdisMCmCloseCallComplete</a>
 
 
 
-<a href="https://msdn.microsoft.com/a7ba1ab2-04c9-45b5-a184-e1ad1448561a">ProtocolClCloseCallComplete</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cl_close_call_complete">ProtocolClCloseCallComplete</a>
 
 
 
-<a href="https://msdn.microsoft.com/d761270f-bf77-441e-834c-9ac7fb3d350f">ProtocolCoDeleteVc</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_co_delete_vc">ProtocolCoDeleteVc</a>
  
 
  

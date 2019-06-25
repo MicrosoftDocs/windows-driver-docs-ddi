@@ -81,7 +81,7 @@ The number of enumeration values in NDIS_MSIX_TABLE_OPERATION.
 
 
 The NDIS_MSIX_TABLE_OPERATION enumeration is used in the 
-    <a href="https://msdn.microsoft.com/52c3238f-4d3a-4241-95bf-630e57e8a6e1">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_msix_config_parameters">
     NDIS_MSIX_CONFIG_PARAMETERS</a> structure.
 
 
@@ -92,7 +92,7 @@ The NDIS_MSIX_TABLE_OPERATION enumeration is used in the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566486">NDIS_MSIX_CONFIG_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_msix_config_parameters">NDIS_MSIX_CONFIG_PARAMETERS</a>
  
 
  

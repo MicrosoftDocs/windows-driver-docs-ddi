@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The<b> KsGateInitializeAnd</b> function initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/ff562566">KSGATE</a> structure as an AND gate and attaches it to the OR gate specified by <i>NextOrGate</i>.
+The<b> KsGateInitializeAnd</b> function initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksgate">KSGATE</a> structure as an AND gate and attaches it to the OR gate specified by <i>NextOrGate</i>.
 
 
 ## -parameters
@@ -77,9 +77,9 @@ None
 
 
 
-The next gate (following <i>AndGate</i>) must be an OR gate, whether it is specified in this call or later. For more information, see <a href="https://msdn.microsoft.com/c5592f92-a432-44e3-afe0-60fcf917a443">Flow Control Gates in AVStream</a>.
+The next gate (following <i>AndGate</i>) must be an OR gate, whether it is specified in this call or later. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/flow-control-gates-in-avstream">Flow Control Gates in AVStream</a>.
 
-<b>KsGateInitializeAnd</b> is an inline call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff562573">KsGateInitialize</a>.
+<b>KsGateInitializeAnd</b> is an inline call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksgateinitialize">KsGateInitialize</a>.
 
 
 
@@ -89,23 +89,23 @@ The next gate (following <i>AndGate</i>) must be an OR gate, whether it is speci
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562566">KSGATE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksgate">KSGATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562573">KsGateInitialize</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksgateinitialize">KsGateInitialize</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562576">KsGateInitializeOr</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksgateinitializeor">KsGateInitializeOr</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562586">KsGateTerminateAnd</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksgateterminateand">KsGateTerminateAnd</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562588">KsGateTerminateOr</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksgateterminateor">KsGateTerminateOr</a>
  
 
  

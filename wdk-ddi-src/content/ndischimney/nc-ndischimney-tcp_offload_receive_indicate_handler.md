@@ -62,41 +62,41 @@ NDIS calls a protocol driver's or intermediate driver's
 ### -param OffloadContext [in]
 
 A pointer to the protocol or intermediate driver's 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566705">NDIS_OFFLOAD_HANDLE</a> structure for the
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/ns-ndischimney-_ndis_offload_handle">NDIS_OFFLOAD_HANDLE</a> structure for the
      TCP connection on which the indication is being made. The protocol or intermediate driver supplied this
      pointer as an input parameter to the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff562743">NdisInitiateOffload</a> function when
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/nf-ndischimney-ndisinitiateoffload">NdisInitiateOffload</a> function when
      offloading the connection.
 
 
 ### -param NetBufferList [in]
 
 A pointer to a 
-      <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure. Each 
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure. Each 
       <b>NET_BUFFER_LIST</b> structure
       describes a list of 
-      <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structures. Each 
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures. Each 
       <b>NET_BUFFER</b> structure in the list maps to a
       chain of 
-      <a href="https://msdn.microsoft.com/71524333-dd5d-4f0b-8dd3-034ea926bc93">memory descriptor lists (MDLs)</a>. The MDLs contain the
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_mdl">memory descriptor lists (MDLs)</a>. The MDLs contain the
       received data. The MDLs are locked so that they remain resident, but they are not mapped into system
       memory.
 
 The 
-      <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure
       specified by 
       <i>NetBufferList</i> must be a stand-alone structure and cannot be the first
       structure in a linked list of 
       <b>NET_BUFFER_LIST</b> structures.
       Offload targets can work around this limitation by chaining as many MDLs as necessary to the same 
-      <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> in an offload receive
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> in an offload receive
       indication.
 
 
 ### -param Status [in]
 
 An intermediate driver should propagate this status when calling 
-     <a href="https://msdn.microsoft.com/a45dede9-6559-4207-a49f-d9627054433a">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/nc-ndischimney-ndis_tcp_offload_receive_indicate">
      NdisTcpOffloadReceiveHandler</a>.
 
 
@@ -165,7 +165,7 @@ The client application consumed a subset of the indicated receive data. The amou
 
 
 To propagate the indication to the overlying driver or host stack, the intermediate driver calls the 
-    <a href="https://msdn.microsoft.com/a45dede9-6559-4207-a49f-d9627054433a">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/nc-ndischimney-ndis_tcp_offload_receive_indicate">
     NdisTcpOffloadReceiveHandler</a> function. The intermediate driver passes the following parameters to
     the 
     <b>NdisTcpOffloadReceiveHandler</b> function:
@@ -200,31 +200,31 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554414">MDL</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_mdl">MDL</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566705">NDIS_OFFLOAD_HANDLE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/ns-ndischimney-_ndis_offload_handle">NDIS_OFFLOAD_HANDLE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562743">NdisInitiateOffload</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/nf-ndischimney-ndisinitiateoffload">NdisInitiateOffload</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563706">NdisOffloadTcpReceiveReturn</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/nf-ndischimney-ndisoffloadtcpreceivereturn">NdisOffloadTcpReceiveReturn</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564606">NdisTcpOffloadReceiveHandler</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/nc-ndischimney-ndis_tcp_offload_receive_indicate">NdisTcpOffloadReceiveHandler</a>
  
 
  

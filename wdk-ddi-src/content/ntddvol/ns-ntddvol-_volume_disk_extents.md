@@ -46,7 +46,7 @@ req.typenames: VOLUME_DISK_EXTENTS, *PVOLUME_DISK_EXTENTS
 ## -description
 
 
-The VOLUME_DISK_EXTENTS structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560644">IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS</a> request to retrieve information about all the extents on a given volume.
+The VOLUME_DISK_EXTENTS structure is used in conjunction with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddvol/ni-ntddvol-ioctl_volume_get_volume_disk_extents">IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS</a> request to retrieve information about all the extents on a given volume.
 
 
 ## -struct-fields
@@ -69,11 +69,11 @@ Indicates the number of extents that comprise the volume, which can span multipl
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552606">DISK_EXTENT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddvol/ns-ntddvol-_disk_extent">DISK_EXTENT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560644">IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddvol/ni-ntddvol-ioctl_volume_get_volume_disk_extents">IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS</a>
 
 
 

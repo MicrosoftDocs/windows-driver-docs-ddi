@@ -74,7 +74,7 @@ The D3DDDIARG_MULTIPLYTRANSFORM structure describes how to modify the current tr
 
 
 
-The Microsoft Direct3D runtime uses D3DDDIARG_MULTIPLYTRANSFORM in a call to the user-mode display driver's <a href="https://msdn.microsoft.com/69d94062-5655-4d49-a116-7fa7e2b51a91">MultiplyTransform</a> function to inform the driver about modifications to the various transformation matrices.
+The Microsoft Direct3D runtime uses D3DDDIARG_MULTIPLYTRANSFORM in a call to the user-mode display driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_multiplytransform">MultiplyTransform</a> function to inform the driver about modifications to the various transformation matrices.
 
 
 
@@ -84,7 +84,7 @@ The Microsoft Direct3D runtime uses D3DDDIARG_MULTIPLYTRANSFORM in a call to the
 
 
 
-<a href="https://msdn.microsoft.com/69d94062-5655-4d49-a116-7fa7e2b51a91">MultiplyTransform</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_multiplytransform">MultiplyTransform</a>
  
 
  

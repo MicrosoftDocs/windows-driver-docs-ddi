@@ -61,11 +61,11 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265396">IPrintJob</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprintjob">IPrintJob</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265435">PrintJobStatus</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/ne-printerextension-tagprintjobstatus">PrintJobStatus</a>
  
 
  

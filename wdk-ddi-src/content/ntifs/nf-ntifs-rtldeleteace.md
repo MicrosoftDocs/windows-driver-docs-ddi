@@ -108,11 +108,11 @@ STATUS_INVALID_PARAMETER is an error code.
 
 
 
-For information about calculating the size of an ACL, see the Remarks section of the reference entry for <a href="https://msdn.microsoft.com/library/windows/hardware/ff552151">RtlCreateAcl</a>. 
+For information about calculating the size of an ACL, see the Remarks section of the reference entry for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-rtlcreateacl">RtlCreateAcl</a>. 
 
-To add an ACE to an ACL, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff552101">RtlAddAce</a>. 
+To add an ACE to an ACL, use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-rtladdace">RtlAddAce</a>. 
 
-To obtain a pointer to an ACE in an ACL, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff552288">RtlGetAce</a>. 
+To obtain a pointer to an ACE in an ACL, use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-rtlgetace">RtlGetAce</a>. 
 
 For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK. 
 
@@ -124,23 +124,23 @@ For more information about security and access control, see the documentation on
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/ace">ACE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538866">ACL</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_acl">ACL</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552101">RtlAddAce</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-rtladdace">RtlAddAce</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552151">RtlCreateAcl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-rtlcreateacl">RtlCreateAcl</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552288">RtlGetAce</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-rtlgetace">RtlGetAce</a>
  
 
  

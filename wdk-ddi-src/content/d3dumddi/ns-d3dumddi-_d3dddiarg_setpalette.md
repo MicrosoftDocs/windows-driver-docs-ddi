@@ -79,7 +79,7 @@ The D3DDDIARG_SETPALETTE structure describes how to associate a palette with a t
 
 
 
-The user-mode display driver's <a href="https://msdn.microsoft.com/5d1c8c2d-7886-4876-b48e-1e6b252ae8f7">SetPalette</a> function associates the palette that is specified by the <b>PaletteHandle</b> member with the surface that is specified by the <b>hResource</b> member and uses the <b>PaletteFlags</b> member to specify the characteristics of the palette.
+The user-mode display driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_setpalette">SetPalette</a> function associates the palette that is specified by the <b>PaletteHandle</b> member with the surface that is specified by the <b>hResource</b> member and uses the <b>PaletteFlags</b> member to specify the characteristics of the palette.
 
 
 
@@ -89,7 +89,7 @@ The user-mode display driver's <a href="https://msdn.microsoft.com/5d1c8c2d-7886
 
 
 
-<a href="https://msdn.microsoft.com/5d1c8c2d-7886-4876-b48e-1e6b252ae8f7">SetPalette</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_setpalette">SetPalette</a>
  
 
  

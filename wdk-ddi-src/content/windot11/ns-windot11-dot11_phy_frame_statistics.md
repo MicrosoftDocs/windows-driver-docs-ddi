@@ -48,7 +48,7 @@ product:
 ## -description
 
 
-<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_PHY_FRAME_STATISTICS structure records statistical counters for the IEEE physical (PHY)
+<div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_PHY_FRAME_STATISTICS structure records statistical counters for the IEEE physical (PHY)
   layer of the 802.11 station.
 
 
@@ -102,8 +102,8 @@ The number of MSDU packets and MMPDU frames that the 802.11 station failed to tr
      exceeding the retry limits defined by the 802.11 IEEE
      <b>dot11ShortRetryLimit</b> or
      <b>dot11LongRetryLimit</b> MIB counters. For more information about these MIB counters, see
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569415">OID_DOT11_SHORT_RETRY_LIMIT</a> or
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569380">OID_DOT11_LONG_RETRY_LIMIT</a>.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-short-retry-limit">OID_DOT11_SHORT_RETRY_LIMIT</a> or
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-long-retry-limit">OID_DOT11_LONG_RETRY_LIMIT</a>.
 
 
 ### -field ullRetryCount
@@ -206,7 +206,7 @@ Unicast MSDU packets or MMPDU frames with a destination MAC address that matches
 Multicast or broadcast MSDU packets or MMPDU frames with a destination MAC address that matches an
        entry in the multicast address list of the 802.11 station. For more information about the multicast
        address list, see
-       <a href="https://msdn.microsoft.com/library/windows/hardware/ff569388">OID_DOT11_MULTICAST_LIST</a>.
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-multicast-list">OID_DOT11_MULTICAST_LIST</a>.
 
 </li>
 </ul>
@@ -252,7 +252,7 @@ Unicast MPDU frames with a destination MAC address that matches the 802.11 stati
 Multicast or broadcast MPDU frames with a destination MAC address that matches an entry in the
        multicast address list of the 802.11 station. For more information about the multicast address list,
        see
-       <a href="https://msdn.microsoft.com/library/windows/hardware/ff569388">OID_DOT11_MULTICAST_LIST</a>.
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-multicast-list">OID_DOT11_MULTICAST_LIST</a>.
 
 </li>
 </ul>
@@ -293,7 +293,7 @@ The members of this structure are used to record PHY-level statistics for:
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569420">OID_DOT11_STATISTICS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-statistics">OID_DOT11_STATISTICS</a>
 
 
 
@@ -301,7 +301,7 @@ The members of this structure are used to record PHY-level statistics for:
 
 
 
-<a href="https://msdn.microsoft.com/e6bd2abf-faa2-463f-91df-a15924afae96">Native 802.11 Statistics</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/native-802-11-statistics">Native 802.11 Statistics</a>
 
 
 

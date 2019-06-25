@@ -57,7 +57,7 @@ The <b>ClfsCreateLogFile</b> routine creates or opens a CLFS stream. If necessar
 
 ### -param pplfoLog [out]
 
-A pointer to a variable that receives a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff554316">LOG_FILE_OBJECT</a> structure that represents an open instance of the stream.
+A pointer to a variable that receives a pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_file_object">LOG_FILE_OBJECT</a> structure that represents an open instance of the stream.
 
 
 ### -param puszLogFileName [in]
@@ -91,7 +91,7 @@ The following list gives some examples of valid names.
 
 ### -param fDesiredAccess [in]
 
-An <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> that supplies the type of access the client will have (by using the pointer returned in <i>pplfoLog</i>) to the stream. If this parameter is zero, clients can query the stream for its attributes, but cannot read from or write to the stream. This parameter can be zero or any combination of the following flags:
+An <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> that supplies the type of access the client will have (by using the pointer returned in <i>pplfoLog</i>) to the stream. If this parameter is zero, clients can query the stream for its attributes, but cannot read from or write to the stream. This parameter can be zero or any combination of the following flags:
 
 <table>
 <tr>
@@ -177,7 +177,7 @@ Subsequent requests to open the stream with write access will succeed.
 
 ### -param psdLogFile [in, optional]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a> structure that supplies security attributes for the stream. This parameter can be <b>NULL</b>. 
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a> structure that supplies security attributes for the stream. This parameter can be <b>NULL</b>. 
 
 
 ### -param fCreateDisposition [in]
@@ -309,7 +309,7 @@ CLFS_FLAG_NON_REENTRANT_FILTER
 
 </td>
 <td>
-The creating component is a file system filter driver that sends all of its CLFS I/O to a specified level below itself on the filter stack. This option allows a filter driver to create a CLFS log without seeing its own logging I/O. The caller passes the non-<b>NULL</b> target device object in the <i>pvContext</i> parameter with <i>cbContext</i> set to the appropriate size. CLFS uses the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548289">IoCreateFileSpecifyDeviceObjectHint</a> routine to create containers at a targeted level in the I/O filter stack specified by the device object.
+The creating component is a file system filter driver that sends all of its CLFS I/O to a specified level below itself on the filter stack. This option allows a filter driver to create a CLFS log without seeing its own logging I/O. The caller passes the non-<b>NULL</b> target device object in the <i>pvContext</i> parameter with <i>cbContext</i> set to the appropriate size. CLFS uses the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-iocreatefilespecifydeviceobjecthint">IoCreateFileSpecifyDeviceObjectHint</a> routine to create containers at a targeted level in the I/O filter stack specified by the device object.
 
 </td>
 </tr>
@@ -364,7 +364,7 @@ When you create a CLFS stream, it is backed by an underlying physical CLFS log. 
 
 A physical CLFS log name does not include the .blf extension.
 
-For an explanation of CLFS concepts and terminology, see <a href="https://msdn.microsoft.com/a9685648-b08c-48ca-b020-e683068f2ea2">Common Log File System</a>. 
+For an explanation of CLFS concepts and terminology, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-common-log-file-system">Common Log File System</a>. 
 
 
 
@@ -374,19 +374,19 @@ For an explanation of CLFS concepts and terminology, see <a href="https://msdn.m
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540787">ClfsCloseAndResetLogFile</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-clfscloseandresetlogfile">ClfsCloseAndResetLogFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540789">ClfsCloseLogFileObject</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-clfscloselogfileobject">ClfsCloseLogFileObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541529">ClfsDeleteLogByPointer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-clfsdeletelogbypointer">ClfsDeleteLogByPointer</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541539">ClfsDeleteLogFile</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-clfsdeletelogfile">ClfsDeleteLogFile</a>
  
 
  

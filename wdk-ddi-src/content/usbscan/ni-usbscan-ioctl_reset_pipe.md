@@ -59,7 +59,7 @@ Resets the specified USB transfer pipe that is associated with the specified dev
 
 ### -input-buffer
 
-Pointer to a location that contains a value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff546159">PIPE_TYPE</a>.
+Pointer to a location that contains a value of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbscan/ne-usbscan-pipe_type">PIPE_TYPE</a>.
 
 
 ### -input-buffer-length
@@ -97,7 +97,7 @@ Zero.
 
 ### -status-block
 
-<b>Irp->IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> code. 
+<b>Irp->IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> code. 
 
 
 ## -remarks
@@ -107,7 +107,7 @@ Zero.
 <h3><a id="ddk_ioctl_reset_pipe_si"></a><a id="DDK_IOCTL_RESET_PIPE_SI"></a>DeviceIoControl Parameters</h3>
 
 
-When the <b>DeviceloControl</b> function is called with the IOCTL_RESET_PIPE I/O control code, the caller must specify one of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546159">PIPE_TYPE</a>-typed values as the function's <i>lpInBuffer</i> parameter. This value indicates on which of the transfer pipes (interrupt, bulk IN, bulk OUT) the operation should be performed. For more information, see <a href="https://msdn.microsoft.com/f9216d3c-4930-4c26-8eac-6ee500b038e0">Accessing Kernel-Mode Drivers for Still Image Devices</a>.
+When the <b>DeviceloControl</b> function is called with the IOCTL_RESET_PIPE I/O control code, the caller must specify one of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbscan/ne-usbscan-pipe_type">PIPE_TYPE</a>-typed values as the function's <i>lpInBuffer</i> parameter. This value indicates on which of the transfer pipes (interrupt, bulk IN, bulk OUT) the operation should be performed. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/image/accessing-kernel-mode-drivers-for-still-image-devices">Accessing Kernel-Mode Drivers for Still Image Devices</a>.
 
 
 

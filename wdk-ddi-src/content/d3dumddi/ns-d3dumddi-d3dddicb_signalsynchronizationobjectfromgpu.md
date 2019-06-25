@@ -46,7 +46,7 @@ req.typenames: D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMGPU
 ## -description
 
 
-<b>D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMGPU</b> is used with <a href="https://msdn.microsoft.com/46F23D7A-5C7A-4BCC-A575-5D47F590B07C">pfnSignalSynchronizationObjectFromGpuCb</a> to signal a monitored fence.
+<b>D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMGPU</b> is used with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_signalsynchronizationobjectfromgpucb">pfnSignalSynchronizationObjectFromGpuCb</a> to signal a monitored fence.
 
 
 ## -struct-fields
@@ -85,7 +85,7 @@ This member is reserved and should be set to zero.
 
 
 
-<a href="https://msdn.microsoft.com/46F23D7A-5C7A-4BCC-A575-5D47F590B07C">pfnSignalSynchronizationObjectFromGpuCb</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_signalsynchronizationobjectfromgpucb">pfnSignalSynchronizationObjectFromGpuCb</a>
  
 
  

@@ -121,7 +121,7 @@ The higher-level driver, in its own I/O handling, can only complete certain I/O 
 
 </li>
 <li>
-The higher-level driver already tried and failed to allocate a new MDL to transfer a data fragment from an incomplete I/O request. (If the driver succeeds in allocating a new MDL, it must use that MDL and <a href="https://msdn.microsoft.com/library/windows/hardware/ff548324">IoBuildPartialMdl</a> to perform the I/O request instead of <b>MmAdvanceMdl</b>.)
+The higher-level driver already tried and failed to allocate a new MDL to transfer a data fragment from an incomplete I/O request. (If the driver succeeds in allocating a new MDL, it must use that MDL and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iobuildpartialmdl">IoBuildPartialMdl</a> to perform the I/O request instead of <b>MmAdvanceMdl</b>.)
 
 </li>
 <li>
@@ -139,7 +139,7 @@ Drivers that do not satisfy these conditions must instead use the <b>IoBuildPart
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548324">IoBuildPartialMdl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iobuildpartialmdl">IoBuildPartialMdl</a>
  
 
  

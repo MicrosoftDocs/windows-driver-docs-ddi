@@ -106,27 +106,27 @@ Interlocked operations cannot be used on non-cached memory.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545352">ExInterlockedCompareExchange64</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-exinterlockedcompareexchange64">ExInterlockedCompareExchange64</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547863">InterlockedCompareExchangePointer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-interlockedcompareexchangepointer">InterlockedCompareExchangePointer</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547871">InterlockedDecrement</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-interlockeddecrement">InterlockedDecrement</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547892">InterlockedExchange</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-interlockedexchange">InterlockedExchange</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547904">InterlockedExchangePointer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-interlockedexchangepointer">InterlockedExchangePointer</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547910">InterlockedIncrement</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-interlockedincrement">InterlockedIncrement</a>
  
 
  

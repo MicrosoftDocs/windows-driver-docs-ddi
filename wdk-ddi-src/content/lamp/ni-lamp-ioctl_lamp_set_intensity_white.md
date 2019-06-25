@@ -67,12 +67,12 @@ The <b>IOCTL_LAMP_SET_INTENSITY_WHITE</b>
 
 ### -input-buffer
 
-<code>Irp->AssociatedIrp.SystemBuffer</code> points to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn937006">LAMP_INTENSITY_WHITE</a> structure.
+<code>Irp->AssociatedIrp.SystemBuffer</code> points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/lamp/ns-lamp-lamp_intensity_white">LAMP_INTENSITY_WHITE</a> structure.
 
 
 ### -input-buffer-length
 
-Length of a <a href="https://msdn.microsoft.com/library/windows/hardware/dn937006">LAMP_INTENSITY_WHITE</a> structure.
+Length of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/lamp/ns-lamp-lamp_intensity_white">LAMP_INTENSITY_WHITE</a> structure.
 
 
 ### -output-buffer

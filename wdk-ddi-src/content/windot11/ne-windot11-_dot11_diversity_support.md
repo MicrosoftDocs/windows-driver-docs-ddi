@@ -48,7 +48,7 @@ product:
 ## -description
 
 
-<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div>
+<div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div>
 
 The DOT11_DIVERSITY_SUPPORT enumeration specifies the type of antenna diversity supported by a PHY on
   the 802.11 station.
@@ -82,7 +82,7 @@ An uninitialized or unknown diversity support type.
 The PHY supports antenna diversity that is performed over the fixed list of antennas defined in
      the
      <b>dot11DiversitySelectionRx</b> MIB object. For more information about this MIB object, see
-     <a href="https://msdn.microsoft.com/library/ee483634.aspx">
+     <a href="https://docs.microsoft.com/previous-versions/windows/embedded/ee483634(v=winembedded.80)">
      OID_DOT11_DIVERSITY_SELECTION_RX</a>.
 
 
@@ -100,7 +100,7 @@ The PHY supports antenna diversity and the dynamic control of diversity. The PHY
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/ee483634.aspx">
+<a href="https://docs.microsoft.com/previous-versions/windows/embedded/ee483634(v=winembedded.80)">
    OID_DOT11_DIVERSITY_SELECTION_RX</a>
 
 

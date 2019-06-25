@@ -58,7 +58,7 @@ The
 ### -param Socket [in]
 
 A pointer to a 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571182">WSK_SOCKET</a> structure that specifies the socket
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/ns-wsk-_wsk_socket">WSK_SOCKET</a> structure that specifies the socket
      object for the socket on which the control operation is being performed.
 
 
@@ -97,7 +97,7 @@ If the
      <b>WskGetOption</b>, the 
      <i>ControlCode</i> parameter specifies the particular socket option whose value is being set or
      retrieved. For more information about socket options that are supported by the WSK subsystem, see 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571186">WSK Socket Options</a>. The underlying
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wsk-socket-options">WSK Socket Options</a>. The underlying
      network protocol might support additional socket options.
      
 
@@ -193,7 +193,7 @@ If the
      <i>Irp</i> parameter is required, is optional, or must be <b>NULL</b> depending on the particular socket option
      that is being set or retrieved. For more information about the requirements for the 
      <i>Irp</i> parameter for each of the supported socket options, see 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571186">WSK Socket Options</a>.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wsk-socket-options">WSK Socket Options</a>.
 
 If the 
      <i>RequestType</i> parameter is set to 
@@ -260,7 +260,7 @@ The WSK subsystem could not complete the control operation immediately. This val
        only when a WSK application is disabling an event callback function on a socket when there are
        currently in-progress calls to that event callback function and when the 
        <i>Irp</i> parameter is <b>NULL</b>. For more information about disabling event callback functions, see 
-       <a href="https://msdn.microsoft.com/library/windows/hardware/ff570834">SO_WSK_EVENT_CALLBACK</a>.
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/network/so-wsk-event-callback">SO_WSK_EVENT_CALLBACK</a>.
 
 </td>
 </tr>
@@ -273,7 +273,7 @@ The WSK subsystem could not complete the control operation immediately. This val
 <td width="60%">
 The socket is no longer functional. The IRP will be completed with failure status. The WSK
        application must call the 
-       <a href="https://msdn.microsoft.com/library/windows/hardware/ff571124">WskCloseSocket</a> function to close the
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_close_socket">WskCloseSocket</a> function to close the
        socket as soon as possible.
 
 </td>
@@ -303,7 +303,7 @@ If a WSK application specifies
     <b>WskSetOption</b> or 
     <b>WskGetOption</b> in the 
     <i>RequestType</i> parameter, see 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff571186">WSK Socket Options</a> for more information
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wsk-socket-options">WSK Socket Options</a> for more information
     about how the input and output buffers are used for each socket option.
 
 If a WSK application specifies 
@@ -326,8 +326,8 @@ Callers of the
     <b>WskControlSocket</b> function must be running at IRQL <= DISPATCH_LEVEL except when the 
     <i>RequestType</i> parameter is set to 
     <b>WskIoctl</b> and the 
-    <i>ControlCode</i> parameter is set to <a href="https://msdn.microsoft.com/library/windows/hardware/ff570815">SIO_ADDRESS_LIST_QUERY</a>, 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff570814">SIO_ADDRESS_LIST_CHANGE</a>, or <a href="https://msdn.microsoft.com/bf380ddf-8171-4ef4-be47-94c7a6aabf0a">SIO_ADDRESS_LIST_SORT</a>. In this
+    <i>ControlCode</i> parameter is set to <a href="https://docs.microsoft.com/windows-hardware/drivers/network/sio-address-list-query">SIO_ADDRESS_LIST_QUERY</a>, 
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/sio-address-list-change">SIO_ADDRESS_LIST_CHANGE</a>, or <a href="https://docs.microsoft.com/windows/desktop/WinSock/using-sio-address-list-sort">SIO_ADDRESS_LIST_SORT</a>. In this
     situation, callers must be running at IRQL = PASSIVE_LEVEL.
 
 
@@ -342,33 +342,33 @@ Callers of the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571186">WSK Socket Options</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/wsk-socket-options">WSK Socket Options</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571171">WSK_PROVIDER_BASIC_DISPATCH</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/ns-wsk-_wsk_provider_basic_dispatch">WSK_PROVIDER_BASIC_DISPATCH</a>
 
 
 
-<a href="https://msdn.microsoft.com/70a86809-07f2-4723-9e50-4dbdd31ff900">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/ns-wsk-_wsk_provider_connection_dispatch">
    WSK_PROVIDER_CONNECTION_DISPATCH</a>
 
 
 
-<a href="https://msdn.microsoft.com/fa8d3395-b800-4e5c-af03-b21520f69158">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/ns-wsk-_wsk_provider_datagram_dispatch">
    WSK_PROVIDER_DATAGRAM_DISPATCH</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571176">WSK_PROVIDER_LISTEN_DISPATCH</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/ns-wsk-_wsk_provider_listen_dispatch">WSK_PROVIDER_LISTEN_DISPATCH</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571124">WskCloseSocket</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_close_socket">WskCloseSocket</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571149">WskSocket</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_socket">WskSocket</a>
  
 
  

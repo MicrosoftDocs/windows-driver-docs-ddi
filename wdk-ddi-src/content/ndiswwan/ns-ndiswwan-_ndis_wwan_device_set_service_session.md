@@ -102,7 +102,7 @@ sizeof(NDIS_WWAN_SET_DEVICE_SERVICE_SESSION)
  
 
 For more information about these members, see 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field Session
@@ -115,7 +115,7 @@ The requested session state set operation.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh831873">WWAN_DEVICE_SERVICE_SESSION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_device_service_session">WWAN_DEVICE_SERVICE_SESSION</a>
  
 
  

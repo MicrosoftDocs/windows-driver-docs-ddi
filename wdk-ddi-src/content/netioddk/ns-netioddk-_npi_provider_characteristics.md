@@ -68,21 +68,21 @@ The size, in bytes, of the NPI_PROVIDER_CHARACTERISTICS structure.
 ### -field ProviderAttachClient
 
 A pointer to the provider module's 
-     <a href="https://msdn.microsoft.com/6c8e6cf1-0528-4da2-acc1-81ec9dbc23c3">ProviderAttachClient</a> callback
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netioddk/nc-netioddk-npi_provider_attach_client_fn">ProviderAttachClient</a> callback
      function.
 
 
 ### -field ProviderDetachClient
 
 A pointer to the provider module's 
-     <a href="https://msdn.microsoft.com/0f29bf89-856c-4019-a966-3e666a7fc78d">ProviderDetachClient</a> callback
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netioddk/nc-netioddk-npi_provider_detach_client_fn">ProviderDetachClient</a> callback
      function.
 
 
 ### -field ProviderCleanupBindingContext
 
 A pointer to the provider module's 
-     <a href="https://msdn.microsoft.com/0af476f6-0113-4aeb-b7d6-8e0e64a89bd0">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netioddk/nc-netioddk-npi_provider_cleanup_binding_context_fn">
      ProviderCleanupBindingContext</a> callback function. If the provider module does not dynamically
      allocate the memory for its binding context and no other cleanup of its binding context is required,
      then the provider module does not need to implement a 
@@ -95,7 +95,7 @@ A pointer to the provider module's
 ### -field ProviderRegistrationInstance
 
 An 
-     <a href="https://msdn.microsoft.com/a368f9d9-a7e0-4b35-ba14-b0919f74029d">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netioddk/ns-netioddk-_npi_registration_instance">
      NPI_REGISTRATION_INSTANCE</a> structure that specifies the identity of the provider module and the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/network-programming-interface">NPI</a> for which it is
      registering.
@@ -106,7 +106,7 @@ An
 
 
 A provider module passes a pointer to an NPI_PROVIDER_CHARACTERISTICS structure to the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568784">NmrRegisterProvider</a> function when it
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netioddk/nf-netioddk-nmrregisterprovider">NmrRegisterProvider</a> function when it
     registers itself with the NMR.
 
 A provider module must make sure that this structure remains valid and resident in memory as long as
@@ -120,24 +120,24 @@ A provider module must make sure that this structure remains valid and resident 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568815">NPI_REGISTRATION_INSTANCE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netioddk/ns-netioddk-_npi_registration_instance">NPI_REGISTRATION_INSTANCE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568784">NmrRegisterProvider</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netioddk/nf-netioddk-nmrregisterprovider">NmrRegisterProvider</a>
 
 
 
-<a href="https://msdn.microsoft.com/6c8e6cf1-0528-4da2-acc1-81ec9dbc23c3">ProviderAttachClient</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netioddk/nc-netioddk-npi_provider_attach_client_fn">ProviderAttachClient</a>
 
 
 
-<a href="https://msdn.microsoft.com/0af476f6-0113-4aeb-b7d6-8e0e64a89bd0">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netioddk/nc-netioddk-npi_provider_cleanup_binding_context_fn">
    ProviderCleanupBindingContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/0f29bf89-856c-4019-a966-3e666a7fc78d">ProviderDetachClient</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netioddk/nc-netioddk-npi_provider_detach_client_fn">ProviderDetachClient</a>
  
 
  

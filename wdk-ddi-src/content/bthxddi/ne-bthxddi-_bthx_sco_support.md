@@ -73,9 +73,9 @@ SCO data does not pass through the HCI layer but through a sideband mechanism li
 
 
 
-Upon starting, the Bluetooth stack will query the transport driver for its capabilities by sending the <a href="https://msdn.microsoft.com/library/windows/hardware/hh450883">IOCTL_BTHX_QUERY_CAPABILITIES</a> IOCTL.
+Upon starting, the Bluetooth stack will query the transport driver for its capabilities by sending the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthxddi/ni-bthxddi-ioctl_bthx_query_capabilities">IOCTL_BTHX_QUERY_CAPABILITIES</a> IOCTL.
 
-The output buffer of this IOCTL is defined by the <a href="https://msdn.microsoft.com/library/windows/hardware/hh450833">BTHX_CAPABILITIES</a> structure which contains the 
+The output buffer of this IOCTL is defined by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthxddi/ns-bthxddi-_bthx_capabilities">BTHX_CAPABILITIES</a> structure which contains the 
 BTHX_SCO_SUPPORT structure.
 
 The transport driver must specify <b>ScoSupportHCIBypass</b>.

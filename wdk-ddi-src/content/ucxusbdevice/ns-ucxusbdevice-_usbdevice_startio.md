@@ -56,7 +56,7 @@ Contains a handle for the Universal Serial Bus (USB) hub or device on which to s
 
 ### -field Header
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/mt188075">USBDEVICE_MGMT_HEADER</a> structure that contains  the handle for the USB hub or device.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucxusbdevice/ns-ucxusbdevice-_usbdevice_mgmt_header">USBDEVICE_MGMT_HEADER</a> structure that contains  the handle for the USB hub or device.
 
 
 ## -see-also
@@ -64,11 +64,11 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/mt188075">USBDEVI
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt188069">USBDEVICE_ABORTIO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucxusbdevice/ns-ucxusbdevice-_usbdevice_abortio">USBDEVICE_ABORTIO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt188076">USBDEVICE_PURGEIO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucxusbdevice/ns-ucxusbdevice-_usbdevice_purgeio">USBDEVICE_PURGEIO</a>
  
 
  

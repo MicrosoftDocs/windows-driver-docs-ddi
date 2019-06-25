@@ -46,7 +46,7 @@ req.typenames: DXGKARG_QUERYENGINESTATUS
 ## -description
 
 
-Used in a call to the <a href="https://msdn.microsoft.com/87c99fcb-d25a-41b1-a1f3-9cf9ab7b141e">DxgkDdiQueryEngineStatus</a> function to specify a node within an active physical adapter (engine) that is to be queried for its progress.
+Used in a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_queryenginestatus">DxgkDdiQueryEngineStatus</a> function to specify a node within an active physical adapter (engine) that is to be queried for its progress.
 
 
 ## -struct-fields
@@ -56,7 +56,7 @@ Used in a call to the <a href="https://msdn.microsoft.com/87c99fcb-d25a-41b1-a1f
 
 ### -field NodeOrdinal
 
-[in] An index of a node within the physical adapter defined by   the <b>EngineOrdinal</b> member that is being queried in a call to <a href="https://msdn.microsoft.com/87c99fcb-d25a-41b1-a1f3-9cf9ab7b141e">DxgkDdiQueryEngineStatus</a>.
+[in] An index of a node within the physical adapter defined by   the <b>EngineOrdinal</b> member that is being queried in a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_queryenginestatus">DxgkDdiQueryEngineStatus</a>.
 
 
 ### -field EngineOrdinal
@@ -66,14 +66,14 @@ Used in a call to the <a href="https://msdn.microsoft.com/87c99fcb-d25a-41b1-a1f
 
 ### -field EngineStatus
 
-[out] The progress, of type <a href="https://msdn.microsoft.com/library/windows/hardware/hh464023">DXGK_ENGINESTATUS</a>, of the node and physical adapter that are specified by the <b>NodeOrdinal</b> and <b>EngineOrdinal</b> members.
+[out] The progress, of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgk_enginestatus">DXGK_ENGINESTATUS</a>, of the node and physical adapter that are specified by the <b>NodeOrdinal</b> and <b>EngineOrdinal</b> members.
 
 
 ## -remarks
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/5BC4F94C-2B45-44E2-8BBF-B455BB864A29">TDR changes in Windows 8</a>.
+For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/tdr-changes-in-windows-8">TDR changes in Windows 8</a>.
 
 
 
@@ -83,11 +83,11 @@ For more information, see <a href="https://msdn.microsoft.com/5BC4F94C-2B45-44E2
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh464023">DXGK_ENGINESTATUS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgk_enginestatus">DXGK_ENGINESTATUS</a>
 
 
 
-<a href="https://msdn.microsoft.com/87c99fcb-d25a-41b1-a1f3-9cf9ab7b141e">DxgkDdiQueryEngineStatus</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_queryenginestatus">DxgkDdiQueryEngineStatus</a>
  
 
  

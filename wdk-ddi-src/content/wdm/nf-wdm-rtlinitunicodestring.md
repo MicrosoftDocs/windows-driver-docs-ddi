@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-For more information, see  the <a href="https://msdn.microsoft.com/79DEDC5B-2A9B-4493-9CB3-7290BEBBD291">WdmlibRtlInitUnicodeStringEx</a> function.
+For more information, see  the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdmsec/nf-wdmsec-wdmlibrtlinitunicodestringex">WdmlibRtlInitUnicodeStringEx</a> function.
 
 
 ## -parameters
@@ -56,19 +56,19 @@ For more information, see  the <a href="https://msdn.microsoft.com/79DEDC5B-2A9B
 
 ### -param DestinationString [out]
 
-For more information, see  the <a href="https://msdn.microsoft.com/79DEDC5B-2A9B-4493-9CB3-7290BEBBD291">WdmlibRtlInitUnicodeStringEx</a> function.
+For more information, see  the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdmsec/nf-wdmsec-wdmlibrtlinitunicodestringex">WdmlibRtlInitUnicodeStringEx</a> function.
 
 
 ### -param SourceString [in, optional]
 
-For more information, see  the <a href="https://msdn.microsoft.com/79DEDC5B-2A9B-4493-9CB3-7290BEBBD291">WdmlibRtlInitUnicodeStringEx</a> function.
+For more information, see  the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdmsec/nf-wdmsec-wdmlibrtlinitunicodestringex">WdmlibRtlInitUnicodeStringEx</a> function.
 
 
 ## -returns
 
 
 
-For more information, see  the <a href="https://msdn.microsoft.com/79DEDC5B-2A9B-4493-9CB3-7290BEBBD291">WdmlibRtlInitUnicodeStringEx</a> function.
+For more information, see  the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdmsec/nf-wdmsec-wdmlibrtlinitunicodestringex">WdmlibRtlInitUnicodeStringEx</a> function.
 
 
 
@@ -93,7 +93,7 @@ UNICODE_STRING RTL_CONSTANT_STRING(
 
 <b>RTL_CONSTANT_STRING</b> returns either a string structure or Unicode string structure.
 
-The <b>RTL_CONSTANT_STRING</b> macro replaces the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561918">RtlInitAnsiString</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff561929">RtlInitString</a>, and <b>RtlInitUnicodeString</b> routines when passing a constant string.
+The <b>RTL_CONSTANT_STRING</b> macro replaces the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlinitansistring">RtlInitAnsiString</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlinitstring">RtlInitString</a>, and <b>RtlInitUnicodeString</b> routines when passing a constant string.
 
 You can use <b>RTL_CONSTANT_STRING</b> to initialize global variables.
 
@@ -105,11 +105,11 @@ You can use <b>RTL_CONSTANT_STRING</b> to initialize global variables.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562954">RtlUnicodeStringInit</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntstrsafe/nf-ntstrsafe-rtlunicodestringinit">RtlUnicodeStringInit</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562958">RtlUnicodeStringInitEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntstrsafe/nf-ntstrsafe-rtlunicodestringinitex">RtlUnicodeStringInitEx</a>
 
 
 
@@ -117,7 +117,7 @@ You can use <b>RTL_CONSTANT_STRING</b> to initialize global variables.
 
 
 
-<a href="https://msdn.microsoft.com/79DEDC5B-2A9B-4493-9CB3-7290BEBBD291">WdmlibRtlInitUnicodeStringEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdmsec/nf-wdmsec-wdmlibrtlinitunicodestringex">WdmlibRtlInitUnicodeStringEx</a>
  
 
  

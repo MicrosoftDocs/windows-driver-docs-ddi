@@ -71,11 +71,11 @@ None
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536994">IServiceGroup</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iservicegroup">IServiceGroup</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537006">IServiceSink</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iservicesink">IServiceSink</a>
  
 
  

@@ -51,7 +51,7 @@ req.typenames:
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBidiAsyncNotifyChannel</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IBidiAsyncNotifyChannel</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBidiAsyncNotifyChannel</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBidiAsyncNotifyChannel</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -66,43 +66,43 @@ The <b>IBidiAsyncNotifyChannel</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/D2A8A131-E839-40E2-8897-DA74F7BA0FA8">AsyncCloseChannel</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prnasntp/nf-prnasntp-ibidiasyncnotifychannel-asyncclosechannel">AsyncCloseChannel</a>
 </td>
 <td align="left" width="63%"></td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/F30A1DEA-2B54-417A-AFE7-289655C815E2">AsyncGetNotificationSendResponse</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prnasntp/nf-prnasntp-ibidiasyncnotifychannel-asyncgetnotificationsendresponse">AsyncGetNotificationSendResponse</a>
 </td>
 <td align="left" width="63%"></td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/30BAA8DD-6FC6-45CD-9EA2-244133865551">CloseChannel</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prnasntp/nf-prnasntp-ibidiasyncnotifychannel-closechannel">CloseChannel</a>
 </td>
 <td align="left" width="63%"></td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8A652E64-3DB4-4BBA-A02C-FA8B218AA08F">CreateNotificationChannel</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prnasntp/nf-prnasntp-ibidiasyncnotifychannel-createnotificationchannel">CreateNotificationChannel</a>
 </td>
 <td align="left" width="63%"></td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/EB0F515D-A2FF-4744-ABC8-8FFD9DD08F24">GetChannelNotificationType</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prnasntp/nf-prnasntp-ibidiasyncnotifychannel-getchannelnotificationtype">GetChannelNotificationType</a>
 </td>
 <td align="left" width="63%"></td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/DE84073F-8D87-4C72-B820-4CBCF1B9DF2F">GetPrintName</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prnasntp/nf-prnasntp-ibidiasyncnotifychannel-getprintname">GetPrintName</a>
 </td>
 <td align="left" width="63%"></td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/FADB79BD-0404-4116-9EE8-AE7C063DBF26">SendNotification</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prnasntp/nf-prnasntp-ibidiasyncnotifychannel-sendnotification">SendNotification</a>
 </td>
 <td align="left" width="63%"></td>
 </tr>

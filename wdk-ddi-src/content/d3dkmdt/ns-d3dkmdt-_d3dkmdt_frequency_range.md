@@ -78,7 +78,7 @@ The maximum horizontal refresh rate, in Hz, supported by the monitor.
 
 
 
-The <b>RangeLimits</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546103">D3DKMDT_MONITOR_FREQUENCY_RANGE</a> structure is a D3DKMDT_FREQUENCY_RANGE structure.
+The <b>RangeLimits</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmdt/ns-d3dkmdt-_d3dkmdt_monitor_frequency_range">D3DKMDT_MONITOR_FREQUENCY_RANGE</a> structure is a D3DKMDT_FREQUENCY_RANGE structure.
 
 
 
@@ -88,7 +88,7 @@ The <b>RangeLimits</b> member of the <a href="https://msdn.microsoft.com/library
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568430">Monitor Frequency Range Set Interface</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">Monitor Frequency Range Set Interface</a>
  
 
  

@@ -116,7 +116,7 @@ The sensors class extension writes a set of properties for each sensor when Sens
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn957027">Enumeration properties</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/sensors/enumeration-properties">Enumeration properties</a>
 
 
 

@@ -59,11 +59,11 @@ IOCTL_BTHX_WRITE_HCI is used to write Bluetooth ACL Data and Commands to the tra
 
 ### -input-buffer
 
-Profile drivers should use KMDF and its <a href="https://msdn.microsoft.com/library/windows/hardware/ff550015">WdfRequestRetrieveInputMemory</a> method to retrieve input parameters.  For example, to get the input buffer:
+Profile drivers should use KMDF and its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfrequest/nf-wdfrequest-wdfrequestretrieveinputmemory">WdfRequestRetrieveInputMemory</a> method to retrieve input parameters.  For example, to get the input buffer:
 
 <code>Status = WdfRequestRetrieveInputMemory(_Request, &ReqInMemory);</code>
 
-The buffer describes a <a href="https://msdn.microsoft.com/library/windows/hardware/hh450835">BTHX_HCI_READ_WRITE_CONTEXT</a> structure that specifies the type of write and the data associated with the write. 
+The buffer describes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthxddi/ns-bthxddi-_bthx_hci_read_write_context">BTHX_HCI_READ_WRITE_CONTEXT</a> structure that specifies the type of write and the data associated with the write. 
 
 Refer to the WDK Bluetooth samples for more information.
 
@@ -75,7 +75,7 @@ The length of the buffer is the size of the <b>BTHX_HCI_READ_WRITE_CONTEXT</b> s
 
 ### -output-buffer
 
-Profile drivers should use KMDF and its <a href="https://msdn.microsoft.com/library/windows/hardware/ff550019">WdfRequestRetrieveOutputMemory</a> method to retrieve input parameters.  For example, to get the output buffer:
+Profile drivers should use KMDF and its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfrequest/nf-wdfrequest-wdfrequestretrieveoutputmemory">WdfRequestRetrieveOutputMemory</a> method to retrieve input parameters.  For example, to get the output buffer:
 
 <code>Status = WdfRequestRetrieveOutputMemory(_Request, &ReqOutMemory);</code>
 

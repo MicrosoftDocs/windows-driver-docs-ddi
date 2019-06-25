@@ -82,7 +82,7 @@ Callers of
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564532">NdisRetrieveUlong</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisretrieveulong">NdisRetrieveUlong</a>
  
 
  

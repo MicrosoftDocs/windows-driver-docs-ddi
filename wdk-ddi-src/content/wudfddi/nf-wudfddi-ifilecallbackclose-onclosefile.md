@@ -58,7 +58,7 @@ The <b>OnCloseFile</b> method is called when the last reference count on a file 
 
 ### -param pWdfFileObject [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558912">IWDFFile</a> interface for the file object that is associated with the device. 
+A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nn-wudfddi-iwdffile">IWDFFile</a> interface for the file object that is associated with the device. 
 
 
 ## -returns
@@ -74,9 +74,9 @@ None
 
 
 
-A driver registers the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554907">IFileCallbackClose</a> interface when the driver calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a> method to create a device object. 
+A driver registers the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nn-wudfddi-ifilecallbackclose">IFileCallbackClose</a> interface when the driver calls the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfdriver-createdevice">IWDFDriver::CreateDevice</a> method to create a device object. 
 
-For information about when the framework calls <b>OnCloseFile</b>, see <a href="https://msdn.microsoft.com/f81ae0ed-a29c-476e-9b16-ff554eef1de9">Driver-Created Versus Application-Created File Objects</a>.
+For information about when the framework calls <b>OnCloseFile</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/driver-created-versus-application-created-file-objects">Driver-Created Versus Application-Created File Objects</a>.
 
 
 
@@ -86,15 +86,15 @@ For information about when the framework calls <b>OnCloseFile</b>, see <a href="
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554907">IFileCallbackClose</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nn-wudfddi-ifilecallbackclose">IFileCallbackClose</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfdriver-createdevice">IWDFDriver::CreateDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558912">IWDFFile</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nn-wudfddi-iwdffile">IWDFFile</a>
  
 
  

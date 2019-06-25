@@ -53,7 +53,7 @@ The routine <b>RtlFillNonVolatileMemory</b> fills the non-volatile destination b
 
 ### -param NvToken
 
-A pointer to an opaque structure that has more information about the non-volatile memory region which <a href="https://msdn.microsoft.com/A9E866D4-C47F-4926-A838-EDB739CF1185">RtlGetNonVolatileToken</a> had returned.
+A pointer to an opaque structure that has more information about the non-volatile memory region which <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-rtlgetnonvolatiletoken">RtlGetNonVolatileToken</a> had returned.
 
 ### -param NvDestination
 

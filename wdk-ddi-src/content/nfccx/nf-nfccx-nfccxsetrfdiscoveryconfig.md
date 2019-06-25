@@ -61,7 +61,7 @@ A handle to a framework device object.
 
 ### -param Config
 
-A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/dn905561">NFC_CX_RF_DISCOVERY_CONFIG</a> structure.
+A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/nfccx/ns-nfccx-_nfc_cx_rf_discovery_config">NFC_CX_RF_DISCOVERY_CONFIG</a> structure.
 
 
 ## -returns
@@ -78,7 +78,7 @@ If the operation succeeds, the function returns STATUS_SUCCESS.
 
 
 
-<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
 
 
 

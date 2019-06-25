@@ -60,7 +60,7 @@ The <b>IoGetFileObjectGenericMapping</b> routine returns information about the m
 
 
 
-<b>IoGetFileObjectGenericMapping</b> returns a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546526">GENERIC_MAPPING</a> structure that describes the mapping between each generic access right and the implied set of specific access rights.
+<b>IoGetFileObjectGenericMapping</b> returns a pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_generic_mapping">GENERIC_MAPPING</a> structure that describes the mapping between each generic access right and the implied set of specific access rights.
 
 
 
@@ -70,19 +70,19 @@ The <b>IoGetFileObjectGenericMapping</b> routine returns information about the m
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546526">GENERIC_MAPPING</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_generic_mapping">GENERIC_MAPPING</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548341">IoCheckShareAccess</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iocheckshareaccess">IoCheckShareAccess</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550324">IoSetShareAccess</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iosetshareaccess">IoSetShareAccess</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566424">ZwCreateFile</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-ntcreatefile">ZwCreateFile</a>
  
 
  

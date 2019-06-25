@@ -46,7 +46,7 @@ req.typenames: D3D11_1DDIARG_VIDEODECODEREXTENSION
 ## -description
 
 
-Specifies driver-specific data for the extended Microsoft DirectX Video Acceleration (DXVA) decoding function that is provided by a call to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451699">VideoDecoderExtension</a> function.
+Specifies driver-specific data for the extended Microsoft DirectX Video Acceleration (DXVA) decoding function that is provided by a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_videodecoderextension">VideoDecoderExtension</a> function.
 
 
 ## -struct-fields
@@ -103,7 +103,7 @@ The exact meaning of each structure member depends on the value of <b>Function</
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451699">VideoDecoderExtension</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_videodecoderextension">VideoDecoderExtension</a>
  
 
  

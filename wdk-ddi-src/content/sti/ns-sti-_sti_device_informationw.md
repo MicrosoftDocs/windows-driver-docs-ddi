@@ -46,7 +46,7 @@ req.typenames: STI_DEVICE_INFORMATIONW, *PSTI_DEVICE_INFORMATIONW
 ## -description
 
 
-The STI_DEVICE_INFORMATION structure is used as an output parameter for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543784">IStillImage::GetDeviceList</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff543782">IStillImage::GetDeviceInfo</a> functions. It is used as an input parameter for <a href="https://msdn.microsoft.com/library/windows/hardware/ff543803">IStillImage::SetupDeviceParameters</a>.
+The STI_DEVICE_INFORMATION structure is used as an output parameter for the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff543784(v=vs.85)">IStillImage::GetDeviceList</a> and <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff543782(v=vs.85)">IStillImage::GetDeviceInfo</a> functions. It is used as an input parameter for <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff543803(v=vs.85)">IStillImage::SetupDeviceParameters</a>.
 
 
 ## -struct-fields
@@ -61,7 +61,7 @@ Caller-supplied size, in bytes, of the STI_DEVICE_INFORMATION structure.
 
 ### -field DeviceType
 
-An <a href="https://msdn.microsoft.com/library/windows/hardware/ff548376">STI_DEVICE_TYPE</a>-typed value identifying the still image device type. 
+An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sti/ne-sti-_sti_device_mj_type">STI_DEVICE_TYPE</a>-typed value identifying the still image device type. 
 
 
 ### -field szDeviceInternalName
@@ -71,7 +71,7 @@ Character array containing the device's internal name string. The string can hav
 
 ### -field DeviceCapabilities
 
-Structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff548380">STI_DEV_CAPS</a>.
+Structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sti/ns-sti-_sti_dev_caps">STI_DEV_CAPS</a>.
 
 
 ### -field dwHardwareConfiguration
@@ -91,12 +91,12 @@ STI_HW_CONFIG_UNKNOWN
 
 ### -field pszVendorDescription
 
-Pointer to a vendor identification string, obtained from the <a href="https://msdn.microsoft.com/c5128d0a-d581-4461-8eb9-5680b6b6ef38">INF Manufacturer Section</a> of the device's INF file.
+Pointer to a vendor identification string, obtained from the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/inf-manufacturer-section">INF Manufacturer Section</a> of the device's INF file.
 
 
 ### -field pszDeviceDescription
 
-Pointer to a device description string, obtained from the <a href="https://msdn.microsoft.com/b870e8fb-21b4-439b-b858-c45bf9be2ec1">INF Models Section</a> of the device's INF file.
+Pointer to a device description string, obtained from the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/inf-models-section">INF Models Section</a> of the device's INF file.
 
 
 ### -field pszPortName

@@ -57,7 +57,7 @@ This function is not supported.
 
 ### -param packetContext
 
-The <b>vSwitchPacketContext</b> value in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552397">FWPS_INCOMING_METADATA_VALUES0</a> structure that is passed to callouts during virtual switch transport layer classifies (the <b>FWPS_L2_METADATA_FIELD_VSWITCH_SOURCE_PORT_ID</b> bit will be set in the  <b>currentL2MetadataValues</b> member). 
+The <b>vSwitchPacketContext</b> value in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/ns-fwpsk-fwps_incoming_metadata_values0_">FWPS_INCOMING_METADATA_VALUES0</a> structure that is passed to callouts during virtual switch transport layer classifies (the <b>FWPS_L2_METADATA_FIELD_VSWITCH_SOURCE_PORT_ID</b> bit will be set in the  <b>currentL2MetadataValues</b> member). 
 
 
 ## -returns
@@ -74,7 +74,7 @@ None.
 
 
 
-    The  <b>FwpsReferencevSwitchPacketContext0</b> function processes the <b>vSwitchPacketContext</b> member  in  the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552397">FWPS_INCOMING_METADATA_VALUES0</a> structure.
+    The  <b>FwpsReferencevSwitchPacketContext0</b> function processes the <b>vSwitchPacketContext</b> member  in  the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/ns-fwpsk-fwps_incoming_metadata_values0_">FWPS_INCOMING_METADATA_VALUES0</a> structure.
 
 
   
@@ -88,11 +88,11 @@ None.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552397">FWPS_INCOMING_METADATA_VALUES0</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/ns-fwpsk-fwps_incoming_metadata_values0_">FWPS_INCOMING_METADATA_VALUES0</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh698266">FwpsDereferencevSwitchPacketContext0</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsdereferencevswitchpacketcontext0">FwpsDereferencevSwitchPacketContext0</a>
  
 
  

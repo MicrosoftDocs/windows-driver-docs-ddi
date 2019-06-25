@@ -46,7 +46,7 @@ req.typenames: VOLUME_CONTROL, *PVOLUME_CONTROL
 ## -description
 
 
-The VOLUME_CONTROL structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559350">IOCTL_CDROM_GET_VOLUME</a> request to retrieve volume values for up to four audio ports.
+The VOLUME_CONTROL structure is used in conjunction with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_get_volume">IOCTL_CDROM_GET_VOLUME</a> request to retrieve volume values for up to four audio ports.
 
 
 ## -struct-fields
@@ -64,7 +64,7 @@ Pointer to an array of volume values, one for each of the ports, with a maximum 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559350">IOCTL_CDROM_GET_VOLUME</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_get_volume">IOCTL_CDROM_GET_VOLUME</a>
  
 
  

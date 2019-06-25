@@ -72,7 +72,7 @@ An open-ended array of
 
 
 The 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff536683">IOCTL_BTH_GET_DEVICE_INFO</a> call's
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthioctl/ni-bthioctl-ioctl_bth_get_device_info">IOCTL_BTH_GET_DEVICE_INFO</a> call's
     output buffer contains the list of all cached, previously discovered remote devices.
 
 The 
@@ -92,7 +92,7 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536683">IOCTL_BTH_GET_DEVICE_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthioctl/ni-bthioctl-ioctl_bth_get_device_info">IOCTL_BTH_GET_DEVICE_INFO</a>
  
 
  

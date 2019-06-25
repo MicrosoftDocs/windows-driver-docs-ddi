@@ -81,7 +81,7 @@ The <b>PEP_PPM_QUERY_COORDINATED_DEPENDENCY</b> structure describes dependencies
 
 ### -field Options
 
-[out] A list of <a href="https://msdn.microsoft.com/library/windows/hardware/mt186706">PEP_COORDINATED_DEPENDENCY_OPTION</a> structures describing dependency options, one of which must be satisfied for this coordinated state to be entered.
+[out] A list of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/ns-pepfx-_pep_coordinated_dependency_option">PEP_COORDINATED_DEPENDENCY_OPTION</a> structures describing dependency options, one of which must be satisfied for this coordinated state to be entered.
 
 
 ## -see-also
@@ -89,11 +89,11 @@ The <b>PEP_PPM_QUERY_COORDINATED_DEPENDENCY</b> structure describes dependencies
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt186706">PEP_COORDINATED_DEPENDENCY_OPTION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/ns-pepfx-_pep_coordinated_dependency_option">PEP_COORDINATED_DEPENDENCY_OPTION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt186775">PEP_NOTIFY_PPM_QUERY_COORDINATED_DEPENDENCY notification</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">PEP_NOTIFY_PPM_QUERY_COORDINATED_DEPENDENCY notification</a>
  
 
  

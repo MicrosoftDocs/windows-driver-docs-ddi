@@ -47,7 +47,7 @@ ms.custom: RS5
 ## -description
 
 
-The <b>FsRtlOplockBreakToNone</b> routine is obsolete, but is exported to support existing driver binaries. Use <a href="https://msdn.microsoft.com/library/windows/hardware/ff547108">FsRtlOplockBreakToNoneEx</a> instead.
+The <b>FsRtlOplockBreakToNone</b> routine is obsolete, but is exported to support existing driver binaries. Use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtloplockbreaktononeex">FsRtlOplockBreakToNoneEx</a> instead.
 
 
 ## -parameters

@@ -59,12 +59,12 @@ Returns information about a DVD disc, such as a layer descriptor, copyright info
 
 ### -input-buffer
 
-The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff553738">DVD_READ_STRUCTURE</a> structure that indicates the session ID and type of information to return. 
+The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdvd/ns-ntddcdvd-dvd_read_structure">DVD_READ_STRUCTURE</a> structure that indicates the session ID and type of information to return. 
 
 
 ### -input-buffer-length
 
-Length of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff553738">DVD_READ_STRUCTURE</a>.
+Length of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdvd/ns-ntddcdvd-dvd_read_structure">DVD_READ_STRUCTURE</a>.
 
 
 ### -output-buffer
@@ -74,7 +74,7 @@ The driver returns the disc information in the buffer at <b>Irp->AssociatedIrp.S
 
 ### -output-buffer-length
 
-<b>Parameters.DeviceIoControl.OutputBufferLength</b> in the I/O stack location indicates the size, in bytes, of the buffer, which must be >= <b>sizeof(</b><i>Descriptor</i><b>)</b> where <i>Descriptor</i> is <a href="https://msdn.microsoft.com/library/windows/hardware/ff553733">DVD_LAYER_DESCRIPTOR</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff553715">DVD_COPYRIGHT_DESCRIPTOR</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff553724">DVD_DISK_KEY_DESCRIPTOR</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff553713">DVD_BCA_DESCRIPTOR</a>, or <a href="https://msdn.microsoft.com/library/windows/hardware/ff553736">DVD_MANUFACTURER_DESCRIPTOR</a>.
+<b>Parameters.DeviceIoControl.OutputBufferLength</b> in the I/O stack location indicates the size, in bytes, of the buffer, which must be >= <b>sizeof(</b><i>Descriptor</i><b>)</b> where <i>Descriptor</i> is <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdvd/ns-ntddcdvd-_dvd_layer_descriptor">DVD_LAYER_DESCRIPTOR</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdvd/ns-ntddcdvd-_dvd_copyright_descriptor">DVD_COPYRIGHT_DESCRIPTOR</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdvd/ns-ntddcdvd-_dvd_disk_key_descriptor">DVD_DISK_KEY_DESCRIPTOR</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdvd/ns-ntddcdvd-_dvd_bca_descriptor">DVD_BCA_DESCRIPTOR</a>, or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdvd/ns-ntddcdvd-_dvd_manufacturer_descriptor">DVD_MANUFACTURER_DESCRIPTOR</a>.
 
 
 ### -in-out-buffer
@@ -105,27 +105,27 @@ The <b>Information</b> field is set to the number of bytes transferred. The <b>S
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553713">DVD_BCA_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdvd/ns-ntddcdvd-_dvd_bca_descriptor">DVD_BCA_DESCRIPTOR</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553715">DVD_COPYRIGHT_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdvd/ns-ntddcdvd-_dvd_copyright_descriptor">DVD_COPYRIGHT_DESCRIPTOR</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553724">DVD_DISK_KEY_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdvd/ns-ntddcdvd-_dvd_disk_key_descriptor">DVD_DISK_KEY_DESCRIPTOR</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553733">DVD_LAYER_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdvd/ns-ntddcdvd-_dvd_layer_descriptor">DVD_LAYER_DESCRIPTOR</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553736">DVD_MANUFACTURER_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdvd/ns-ntddcdvd-_dvd_manufacturer_descriptor">DVD_MANUFACTURER_DESCRIPTOR</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553738">DVD_READ_STRUCTURE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdvd/ns-ntddcdvd-dvd_read_structure">DVD_READ_STRUCTURE</a>
  
 
  

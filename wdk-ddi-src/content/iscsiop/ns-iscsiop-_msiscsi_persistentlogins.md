@@ -66,7 +66,7 @@ Reserved for Microsoft use only.
 
 ### -field PersistentLogins
 
-A variable length array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff561553">ISCSI_Persistent_Login</a> structures, each of which contains information that is associated with a particular persistent logon session that the initiator maintains.
+A variable length array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/iscsiop/ns-iscsiop-_iscsi_persistent_login">ISCSI_Persistent_Login</a> structures, each of which contains information that is associated with a particular persistent logon session that the initiator maintains.
 
 
 ## -remarks
@@ -83,15 +83,15 @@ Miniport drivers that manage iSCSI initiators automatically establish persistent
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561553">ISCSI_Persistent_Login</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/iscsiop/ns-iscsiop-_iscsi_persistent_login">ISCSI_Persistent_Login</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561556">ISCSI_Persistent_Login WMI Class</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/iscsi-persistent-login-wmi-class">ISCSI_Persistent_Login WMI Class</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563096">MSiSCSI_PersistentLogins WMI Class</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msiscsi-persistentlogins-wmi-class">MSiSCSI_PersistentLogins WMI Class</a>
  
 
  

@@ -56,7 +56,7 @@ The D3DDDIARG_CREATEVERTEXSHADERDECL structure specifies a shader handle to asso
 
 ### -field NumVertexElements
 
-[in] The number of vertex elements in the array that is passed to the <i>pVertexElements</i> parameter in a call to the user-mode display driver's <a href="https://msdn.microsoft.com/00c53e81-93db-46b8-b65c-c8d62059452a">CreateVertexShaderDecl</a> function.
+[in] The number of vertex elements in the array that is passed to the <i>pVertexElements</i> parameter in a call to the user-mode display driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_createvertexshaderdecl">CreateVertexShaderDecl</a> function.
 
 
 ### -field ShaderHandle
@@ -70,7 +70,7 @@ The D3DDDIARG_CREATEVERTEXSHADERDECL structure specifies a shader handle to asso
 
 The handle value in the <b>ShaderHandle</b> member is guaranteed to be nonzero. 
 
-For more information about programming shader assemblers, see <a href="https://msdn.microsoft.com/c858766c-b414-4971-b4d9-23ec94aca8ea">Processing Shader Codes</a>.
+For more information about programming shader assemblers, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/processing-shader-codes">Processing Shader Codes</a>.
 
 
 
@@ -80,7 +80,7 @@ For more information about programming shader assemblers, see <a href="https://m
 
 
 
-<a href="https://msdn.microsoft.com/00c53e81-93db-46b8-b65c-c8d62059452a">CreateVertexShaderDecl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_createvertexshaderdecl">CreateVertexShaderDecl</a>
  
 
  

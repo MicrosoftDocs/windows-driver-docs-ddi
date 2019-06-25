@@ -96,14 +96,14 @@ Pointer to a routine that decrements the number of references to this interface.
 
 ### -field ReadWriteMitigatedRegister
 
-Pointer to the driver's implementation of the <a href="https://msdn.microsoft.com/7cd45484-0fee-4b8e-aa35-4142883c146e">READ_WRITE_MITIGATED_REGISTER</a> callback function.
+Pointer to the driver's implementation of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pcivirt/nc-pcivirt-read_write_mitigated_register">READ_WRITE_MITIGATED_REGISTER</a> callback function.
 
 
 ## -remarks
 
 This callback function is implemented by the physical function (PF) driver. This function reads and writes mitigated address spaces, in the form required by GUID_MITIGABLE_DEVICE_INTERFACE.
 
-The PF driver registers its implementation by setting the <b>ReadVfConfig</b> member of the <a href="https://msdn.microsoft.com/c71add7d-9920-4b2f-a46a-4a09a94f3900">SRIOV_DEVICE_INTERFACE_STANDARD</a>, configuring a <a href="..\wdfqueryinterface\ns-wdfqueryinterface-_wdf_query_interface_config.md">WDF_QUERY_INTERFACE_CONFIG</a> structure, and calling <a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdfdeviceaddqueryinterface.md">WdfDeviceAddQueryInterface</a>.
+The PF driver registers its implementation by setting the <b>ReadVfConfig</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pcivirt/ns-pcivirt-_sriov_device_interface_standard">SRIOV_DEVICE_INTERFACE_STANDARD</a>, configuring a <a href="..\wdfqueryinterface\ns-wdfqueryinterface-_wdf_query_interface_config.md">WDF_QUERY_INTERFACE_CONFIG</a> structure, and calling <a href="..\wdfqueryinterface\nf-wdfqueryinterface-wdfdeviceaddqueryinterface.md">WdfDeviceAddQueryInterface</a>.
 
 
 

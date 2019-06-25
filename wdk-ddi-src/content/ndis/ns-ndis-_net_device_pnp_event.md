@@ -58,7 +58,7 @@ The <b>NET_DEVICE_PNP_EVENT</b> structure defines device plug and play (PnP) eve
 ### -field Header
 
 The 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
      <b>NET_DEVICE_PNP_EVENT</b> structure. NDIS sets the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to <b>NDIS_OBJECT_TYPE_DEFAULT</b>, the 
@@ -84,7 +84,7 @@ An event code that describes the PnP event as one of the following:
 #### NdisDevicePnPEventSurpriseRemoved
 
 The network interface card (NIC) has been unexpectedly removed from the
-       computer. For more information, see <a href="https://msdn.microsoft.com/afd94749-8f2a-4cce-a646-1f616a845a0e">Handling the Surprise Removal of a NIC</a>.
+       computer. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/handling-the-surprise-removal-of-a-nic">Handling the Surprise Removal of a NIC</a>.
 
 
 
@@ -138,9 +138,9 @@ Reserved for NDIS.
 
 To provide a device PnP event notification, NDIS passes a pointer to a <b>NET_DEVICE_PNP_EVENT</b> structure
     to the 
-    <a href="https://msdn.microsoft.com/e41240c0-17be-42ef-a72c-c5311115cf64">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_device_pnp_event_notify">
     MiniportDevicePnPEventNotify</a> or 
-    <a href="https://msdn.microsoft.com/dea4ab30-ba1d-4c9c-9f00-e48cc3cc0b46">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_device_pnp_event_notify">
     FilterDevicePnPEventNotify</a> function.
 
 
@@ -151,16 +151,16 @@ To provide a device PnP event notification, NDIS passes a pointer to a <b>NET_DE
 
 
 
-<a href="https://msdn.microsoft.com/dea4ab30-ba1d-4c9c-9f00-e48cc3cc0b46">FilterDevicePnPEventNotify</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_device_pnp_event_notify">FilterDevicePnPEventNotify</a>
 
 
 
-<a href="https://msdn.microsoft.com/e41240c0-17be-42ef-a72c-c5311115cf64">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_device_pnp_event_notify">
    MiniportDevicePnPEventNotify</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
  
 
  

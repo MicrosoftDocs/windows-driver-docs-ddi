@@ -86,7 +86,7 @@ Returns STATUS_SUCCESS if the operation succeeds, or an appropriate NTSTATUS err
 
 The
 channel may be further initialized using the VMBus channel initialization routines before
-it is enabled by using the  <a href="https://msdn.microsoft.com/A0256B3F-C35C-45AB-A825-0A82189F08DC">VmbChannelEnable</a> function. The channel must be freed by using the <a href="https://msdn.microsoft.com/E079527D-1687-4A12-B86E-96C89CE458CE">VmbChannelCleanup</a> function.
+it is enabled by using the  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelenable">VmbChannelEnable</a> function. The channel must be freed by using the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelcleanup">VmbChannelCleanup</a> function.
 
 > [!IMPORTANT]
 > This function is called through the VMBus Kernel Mode Client Library (KMCL) interface, provided by the Vmbkmcl.sys bus driver. This is a client function accessed from the [**KMCL_CLIENT_INTERFACE_V1**](ns-vmbuskernelmodeclientlibapi-_kmcl_client_interface_v1.md) structure. 
@@ -95,8 +95,8 @@ it is enabled by using the  <a href="https://msdn.microsoft.com/A0256B3F-C35C-45
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/E079527D-1687-4A12-B86E-96C89CE458CE">VmbChannelCleanup</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelcleanup">VmbChannelCleanup</a>
 
 
 
-<a href="https://msdn.microsoft.com/A0256B3F-C35C-45AB-A825-0A82189F08DC">VmbChannelEnable</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelenable">VmbChannelEnable</a>

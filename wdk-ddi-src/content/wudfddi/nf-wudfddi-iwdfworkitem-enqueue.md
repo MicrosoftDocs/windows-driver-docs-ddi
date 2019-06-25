@@ -73,11 +73,11 @@ This method does not return a value.
 
 
 
-If your driver reuses its work-item objects, the driver can call <b>Enqueue</b> again for the same work item before a worker thread has removed the work item from the queue and called the driver’s <a href="https://msdn.microsoft.com/4CCA1F5E-C92E-4D8D-A8C0-B8E9A0F29703">OnWorkItem</a> callback function.
+If your driver reuses its work-item objects, the driver can call <b>Enqueue</b> again for the same work item before a worker thread has removed the work item from the queue and called the driver’s <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfworkitem/nc-wudfworkitem-wudf_workitem_function">OnWorkItem</a> callback function.
 
- However, UMDF won't add the work item to the queue if it is already there. Therefore, your <a href="https://msdn.microsoft.com/4CCA1F5E-C92E-4D8D-A8C0-B8E9A0F29703">OnWorkItem</a> callback function must process all queued work each time that it is called.
+ However, UMDF won't add the work item to the queue if it is already there. Therefore, your <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfworkitem/nc-wudfworkitem-wudf_workitem_function">OnWorkItem</a> callback function must process all queued work each time that it is called.
 
-For more information, see <a href="https://msdn.microsoft.com/4617A33F-9026-45FF-9CC2-7215423E6D35">Using Work Items</a>.
+For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-workitems">Using Work Items</a>.
 
 
 
@@ -87,11 +87,11 @@ For more information, see <a href="https://msdn.microsoft.com/4617A33F-9026-45FF
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406734">IWDFWorkItem</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nn-wudfddi-iwdfworkitem">IWDFWorkItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/4CCA1F5E-C92E-4D8D-A8C0-B8E9A0F29703">OnWorkItem</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfworkitem/nc-wudfworkitem-wudf_workitem_function">OnWorkItem</a>
  
 
  

@@ -68,7 +68,7 @@ Datatype: size_t. The number of bytes to fill with zeros.
 
 
 
-To zero out a memory buffer to erase security-sensitive data, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff562768">RtlSecureZeroMemory</a> instead.
+To zero out a memory buffer to erase security-sensitive data, use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlsecurezeromemory">RtlSecureZeroMemory</a> instead.
 
 Callers of <b>RtlZeroMemory</b> can be running at any IRQL if the destination memory block is in nonpaged system memory. Otherwise, the caller must be running at IRQL <= APC_LEVEL.
 
@@ -80,11 +80,11 @@ Callers of <b>RtlZeroMemory</b> can be running at any IRQL if the destination me
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561870">RtlFillMemory</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlfillmemory">RtlFillMemory</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562768">RtlSecureZeroMemory</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlsecurezeromemory">RtlSecureZeroMemory</a>
  
 
  

@@ -56,7 +56,7 @@ This structure contains the header information for ROI ISP controls.
 
 ### -field Size
 
-The sum of this structure size, all <a href="https://msdn.microsoft.com/library/windows/hardware/dn925171">KSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL</a> structures, and all KSCAMERA_EXTENDEDPROP_ROI_RECTINFO structures that follow
+The sum of this structure size, all <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-tagkscamera_extendedprop_roi_ispcontrol">KSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL</a> structures, and all KSCAMERA_EXTENDEDPROP_ROI_RECTINFO structures that follow
 
 
 ### -field ControlCount

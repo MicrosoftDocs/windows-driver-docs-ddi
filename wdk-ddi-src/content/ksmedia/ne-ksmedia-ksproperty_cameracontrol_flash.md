@@ -56,7 +56,7 @@ Used to specify camera flash control.
 
 ### -field KSPROPERTY_CAMERACONTROL_FLASH_PROPERTY_ID
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/jj156041">KSPROPERTY_CAMERACONTROL_FLASH_PROPERTY</a> property is used to specify flash control.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-cameracontrol-flash-property">KSPROPERTY_CAMERACONTROL_FLASH_PROPERTY</a> property is used to specify flash control.
 
 
 ## -see-also
@@ -64,7 +64,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/jj156041">KSPRO
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj156041">KSPROPERTY_CAMERACONTROL_FLASH_PROPERTY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-cameracontrol-flash-property">KSPROPERTY_CAMERACONTROL_FLASH_PROPERTY</a>
  
 
  

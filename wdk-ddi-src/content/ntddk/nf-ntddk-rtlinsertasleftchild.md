@@ -105,27 +105,27 @@ Callers of <b>RtlInsertAsLeftChild</b> must be running at IRQL <= DISPATCH_LEVEL
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553010">RtlInitializeSplayLinks</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-rtlinitializesplaylinks">RtlInitializeSplayLinks</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553022">RtlInsertAsRightChild</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-rtlinsertasrightchild">RtlInsertAsRightChild</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553072">RtlIsRoot</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-rtlisroot">RtlIsRoot</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553080">RtlLeftChild</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-rtlleftchild">RtlLeftChild</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553165">RtlParent</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-rtlparent">RtlParent</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553226">RtlSplay</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-rtlsplay">RtlSplay</a>
  
 
  

@@ -84,11 +84,11 @@ None
 
 A filter driver can cancel the send requests that it originates or pass on the cancellation requests
     from overlying drivers. To cancel a send request from an overlying driver, NDIS calls the filter drivers 
-    <a href="https://msdn.microsoft.com/55979b0d-61a6-43da-8fa5-11159b1a48d1">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_cancel_send_net_buffer_lists">
     FilterCancelSendNetBufferLists</a> function.
 
 A filter driver can call the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff567299">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-set-net-buffer-list-cancel-id">
     NDIS_SET_NET_BUFFER_LIST_CANCEL_ID</a> macro to mark NET_BUFFER_LIST structures that it originates and
     passes down to lower-level drivers for transmission. The NDIS_SET_NET_BUFFER_LIST_CANCEL_ID macro marks
     the specified packet with a cancellation identifier.
@@ -97,7 +97,7 @@ A filter driver can call the
     specified cancellation identifier.
 
 NDIS returns canceled send data that the filter driver originated to the 
-    <a href="https://msdn.microsoft.com/1a3a1e80-29f1-4f19-b3c7-9a8b189f18c4">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_send_net_buffer_lists_complete">
     FilterSendNetBufferListsComplete</a> function. The completion status of canceled requests is
     NDIS_STATUS_SEND_ABORTED.
 
@@ -113,22 +113,22 @@ NDIS returns canceled send data that the filter driver originated to the
 
 
 
-<a href="https://msdn.microsoft.com/55979b0d-61a6-43da-8fa5-11159b1a48d1">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_cancel_send_net_buffer_lists">
    FilterCancelSendNetBufferLists</a>
 
 
 
-<a href="https://msdn.microsoft.com/1a3a1e80-29f1-4f19-b3c7-9a8b189f18c4">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_send_net_buffer_lists_complete">
    FilterSendNetBufferListsComplete</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567299">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-set-net-buffer-list-cancel-id">
    NDIS_SET_NET_BUFFER_LIST_CANCEL_ID</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
  
 
  

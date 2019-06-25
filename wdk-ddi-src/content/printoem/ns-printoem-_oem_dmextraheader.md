@@ -46,7 +46,7 @@ req.typenames: OEM_DMEXTRAHEADER, *POEM_DMEXTRAHEADER
 ## -description
 
 
-The OEM_DMEXTRAHEADER structure must be used to define the first members of a set of private <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a> structure members.
+The OEM_DMEXTRAHEADER structure must be used to define the first members of a set of private <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodew">DEVMODEW</a> structure members.
 
 
 ## -struct-fields
@@ -61,7 +61,7 @@ Total size, in bytes, of the added private DEVMODEW structure members, including
 
 ### -field dwSignature
 
-Unique signature value that the plug-in also returns when its <a href="https://msdn.microsoft.com/library/windows/hardware/ff554178">IPrintOemUI::GetInfo</a> method receives the OEMGI_GETSIGNATURE flag.
+Unique signature value that the plug-in also returns when its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintoemui-getinfo">IPrintOemUI::GetInfo</a> method receives the OEMGI_GETSIGNATURE flag.
 
 
 ### -field dwVersion
@@ -73,7 +73,7 @@ Version number of the user interface plug-in that is defining the private DEVMOD
 
 
 
-For more information about adding DEVMODEW structure members, see <a href="https://msdn.microsoft.com/7ce698f5-14c7-484d-be3d-b41c690b9576">Providing DEVMODE Structure Additions</a>. 
+For more information about adding DEVMODEW structure members, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/providing-devmode-structure-additions">Providing DEVMODE Structure Additions</a>. 
 
 
 

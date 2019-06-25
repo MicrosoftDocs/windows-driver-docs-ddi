@@ -56,7 +56,7 @@ DISK_SIGNATURE contains the disk signature information for a disk's partition ta
 
 ### -field PartitionStyle
 
-Specifies the type of partition.  See <a href="https://msdn.microsoft.com/library/windows/hardware/ff563773">PARTITION_STYLE</a> for a description of the possible values.
+Specifies the type of partition.  See <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff563773(v=vs.85)">PARTITION_STYLE</a> for a description of the possible values.
 
 
 ### -field Mbr
@@ -77,7 +77,7 @@ Specifies the checksum for the master boot record. The <b>Mbr</b> member of the 
 
 ### -field Gpt.DiskId
 
-Specifies the GUID that uniquely identifies the disk. The <b>Gpt</b> member of the union is used to specify the disk signature data for a disk that is formatted with a GUID Partition Table (GPT) format partition table. The GUID data type is described on the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565392">Using GUIDs in Drivers</a> reference page. This member is valid when <b>PartitionStyle</b> is PARTITION_STYLE_GPT. 
+Specifies the GUID that uniquely identifies the disk. The <b>Gpt</b> member of the union is used to specify the disk signature data for a disk that is formatted with a GUID Partition Table (GPT) format partition table. The GUID data type is described on the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-guids-in-drivers">Using GUIDs in Drivers</a> reference page. This member is valid when <b>PartitionStyle</b> is PARTITION_STYLE_GPT. 
 
 
 ## -see-also
@@ -85,7 +85,7 @@ Specifies the GUID that uniquely identifies the disk. The <b>Gpt</b> member of t
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561447">IoReadDiskSignature</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-ioreaddisksignature">IoReadDiskSignature</a>
  
 
  

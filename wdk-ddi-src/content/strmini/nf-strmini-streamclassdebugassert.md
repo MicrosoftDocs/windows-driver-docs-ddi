@@ -88,7 +88,7 @@ None
 
 
 
-When running a checked version of the class driver, asserts are recognized, and result in a debug message and breakpoint. When running a free version of the class driver, asserts are ignored. For more information, see <a href="https://msdn.microsoft.com/544b922b-58e4-4cbb-a76c-d8e13ae17e55">Stream Class Debugging</a>.
+When running a checked version of the class driver, asserts are recognized, and result in a debug message and breakpoint. When running a free version of the class driver, asserts are ignored. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/stream-class-debugging">Stream Class Debugging</a>.
 
 
 
@@ -98,11 +98,11 @@ When running a checked version of the class driver, asserts are recognized, and 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543626">DbgBreakPoint</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-dbgbreakpoint">DbgBreakPoint</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568235">StreamClassDebugPrint</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/strmini/nf-strmini-streamclassdebugprint">StreamClassDebugPrint</a>
  
 
  

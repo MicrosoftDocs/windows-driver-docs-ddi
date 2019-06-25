@@ -69,7 +69,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The lifetime of <a href="https://msdn.microsoft.com/library/windows/hardware/hh406311">IWDTFAction2</a> interface 
+The lifetime of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nn-wdtf-iwdtfaction2">IWDTFAction2</a> interface 
 instances are tied to their creator. If you clear all items from a collection, the items are
 not destroyed.
 
@@ -81,7 +81,7 @@ not destroyed.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406331">IWDTFActions2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">IWDTFActions2</a>
  
 
  

@@ -83,7 +83,7 @@ This routine is required.
 
 The changer class driver checks the output buffer length in the I/O stack location before calling <b>ChangerGetProductData</b>. If output buffer length is smaller than <b>sizeof</b>(CHANGER_PRODUCT_DATA) then the changer class driver returns with a value of STATUS_INFO_LENGTH_MISMATCH
 
-<b>ChangerGetProductData</b> fills in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551475">CHANGER_PRODUCT_DATA</a> structure at <i>Irp</i><b>->AssociatedIrp.SystemBuffer</b> before returning to the changer class driver. If the miniclass driver cached inquiry data in the changer's device extension before returning from <b>ChangerInitialize</b>, all members except <b>DeviceType</b> can be filled in from this data. 
+<b>ChangerGetProductData</b> fills in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddchgr/ns-ntddchgr-_changer_product_data">CHANGER_PRODUCT_DATA</a> structure at <i>Irp</i><b>->AssociatedIrp.SystemBuffer</b> before returning to the changer class driver. If the miniclass driver cached inquiry data in the changer's device extension before returning from <b>ChangerInitialize</b>, all members except <b>DeviceType</b> can be filled in from this data. 
 
 
 
@@ -93,11 +93,11 @@ The changer class driver checks the output buffer length in the I/O stack locati
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551475">CHANGER_PRODUCT_DATA</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddchgr/ns-ntddchgr-_changer_product_data">CHANGER_PRODUCT_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551431">ChangerInitialize</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/mcd/nf-mcd-changerinitialize">ChangerInitialize</a>
  
 
  

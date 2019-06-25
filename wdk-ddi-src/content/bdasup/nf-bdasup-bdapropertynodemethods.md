@@ -62,7 +62,7 @@ The <b>BdaPropertyNodeMethods</b> function retrieves a list of methods that a no
 
 ### -param pKSProperty [in]
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a> structure that describes the property and request type of the property request.
+Points to a <a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> structure that describes the property and request type of the property request.
 
 
 ### -param pguidProperty [out, optional]
@@ -72,7 +72,7 @@ Points to an array that receives the list of GUIDs for the methods supported by 
 
 #### - Irp [in]
 
-Points to the IRP for the request to retrieve the list of methods for a node. The BDA minidriver receives this IRP with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564328">KSPROPERTY_BDA_NODE_METHODS</a> request.
+Points to the IRP for the request to retrieve the list of methods for a node. The BDA minidriver receives this IRP with the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-bda-node-methods">KSPROPERTY_BDA_NODE_METHODS</a> request.
 
 
 ## -returns
@@ -88,7 +88,7 @@ Returns STATUS_SUCCESS or an appropriate error code.
 
 
 
-A BDA minidriver calls the <b>BdaPropertyNodeMethods</b> function to retrieve the list of methods for a node after the minidriver receives a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564328">KSPROPERTY_BDA_NODE_METHODS</a> request of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566561">KSPROPSETID_BdaTopology</a> property set from the network provider. Most BDA minidrivers can define dispatch and filter-automation tables so that those minidrivers dispatch the <b>BdaPropertyNodeMethods</b> function directly, without intercepting this request using an internal get-handler (<a href="https://msdn.microsoft.com/library/windows/hardware/ff567177">KStrGetPropertyHandler</a>). See <a href="https://msdn.microsoft.com/1c0dace6-b618-4705-bf5d-65457d14c072">Defining Automation Tables</a> and <a href="https://msdn.microsoft.com/fdac317e-d4fc-47c9-87d3-bec597f758f5">Determining BDA Device Topology</a> for more information. 
+A BDA minidriver calls the <b>BdaPropertyNodeMethods</b> function to retrieve the list of methods for a node after the minidriver receives a <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-bda-node-methods">KSPROPERTY_BDA_NODE_METHODS</a> request of the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/kspropsetid-bdatopology">KSPROPSETID_BdaTopology</a> property set from the network provider. Most BDA minidrivers can define dispatch and filter-automation tables so that those minidrivers dispatch the <b>BdaPropertyNodeMethods</b> function directly, without intercepting this request using an internal get-handler (<a href="https://docs.microsoft.com/previous-versions/ff567177(v=vs.85)">KStrGetPropertyHandler</a>). See <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/defining-automation-tables">Defining Automation Tables</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/determining-bda-device-topology">Determining BDA Device Topology</a> for more information. 
 
 
 
@@ -98,15 +98,15 @@ A BDA minidriver calls the <b>BdaPropertyNodeMethods</b> function to retrieve th
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
+<a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564328">KSPROPERTY_BDA_NODE_METHODS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-bda-node-methods">KSPROPERTY_BDA_NODE_METHODS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566561">KSPROPSETID_BdaTopology</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/kspropsetid-bdatopology">KSPROPSETID_BdaTopology</a>
  
 
  

@@ -47,7 +47,7 @@ req.typenames:
 ## -description
 
 
-The <b>PcGetContentRights</b> function retrieves the DRM content rights assigned to a DRM content ID. Note that this function call is identical in operation to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536354">DrmGetContentRights</a> function, and its parameter definitions and return value are also identical.
+The <b>PcGetContentRights</b> function retrieves the DRM content rights assigned to a DRM content ID. Note that this function call is identical in operation to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/drmk/nf-drmk-drmgetcontentrights">DrmGetContentRights</a> function, and its parameter definitions and return value are also identical.
 
 
 ## -parameters
@@ -62,14 +62,14 @@ Specifies the DRM content ID. This parameter identifies a KS audio stream.
 
 ### -param DrmRights [out]
 
-Specifies the DRM content rights that are assigned to the stream that is identified by <i>ContentId</i>. This parameter is a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff536355">DRMRIGHTS</a> structure.
+Specifies the DRM content rights that are assigned to the stream that is identified by <i>ContentId</i>. This parameter is a pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/drmk/ns-drmk-tagdrmrights">DRMRIGHTS</a> structure.
 
 
 ## -returns
 
 
 
-See return value definition in <a href="https://msdn.microsoft.com/library/windows/hardware/ff536354">DrmGetContentRights</a>.
+See return value definition in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/drmk/nf-drmk-drmgetcontentrights">DrmGetContentRights</a>.
 
 
 
@@ -78,7 +78,7 @@ See return value definition in <a href="https://msdn.microsoft.com/library/windo
 
 
 
-For more information, see the comments in <a href="https://msdn.microsoft.com/library/windows/hardware/ff536354">DrmGetContentRights</a>.
+For more information, see the comments in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/drmk/nf-drmk-drmgetcontentrights">DrmGetContentRights</a>.
 
 
 
@@ -88,7 +88,7 @@ For more information, see the comments in <a href="https://msdn.microsoft.com/li
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536354">DrmGetContentRights</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/drmk/nf-drmk-drmgetcontentrights">DrmGetContentRights</a>
  
 
  

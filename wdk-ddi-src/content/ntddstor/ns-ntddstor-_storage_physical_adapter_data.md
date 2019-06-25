@@ -61,17 +61,17 @@ The hardware ID of the storage adapter.
 
 ### -field HealthStatus
 
-Indicates the health status of a storage adapter, of type <a href="https://msdn.microsoft.com/library/windows/hardware/mt653957">STORAGE_COMPONENT_HEALTH_STATUS</a>.
+Indicates the health status of a storage adapter, of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ne-ntddstor-_storage_component_health_status">STORAGE_COMPONENT_HEALTH_STATUS</a>.
 
 
 ### -field CommandProtocol
 
-Specifies the storage command protocols that are used between software and hardware, of type <a href="https://msdn.microsoft.com/library/windows/hardware/dn931818">STORAGE_PROTOCOL_TYPE</a>.
+Specifies the storage command protocols that are used between software and hardware, of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ne-ntddstor-_storage_protocol_type">STORAGE_PROTOCOL_TYPE</a>.
 
 
 ### -field SpecVersion
 
-Indicates the specification of the storage adapter, of type <a href="https://msdn.microsoft.com/library/windows/hardware/mt653963">STORAGE_SPEC_VERSION</a>.
+Indicates the specification of the storage adapter, of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor-_storage_spec_version">STORAGE_SPEC_VERSION</a>.
 
 
 ### -field Vendor

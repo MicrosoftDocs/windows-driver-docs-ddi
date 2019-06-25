@@ -85,7 +85,7 @@ This routine does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/4c6e5064-83b4-4d3c-ab08-041070128f3c">URB_GET_CURRENT_FRAME_NUMBER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usb/ns-usb-_urb_get_current_frame_number">URB_GET_CURRENT_FRAME_NUMBER</a>
 
 
 

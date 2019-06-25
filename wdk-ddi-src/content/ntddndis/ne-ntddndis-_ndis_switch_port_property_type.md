@@ -61,34 +61,34 @@ The port property type is not defined.
 
 ### -field NdisSwitchPortPropertyTypeCustom
 
-This value specifies a custom port property that is defined  by an independent software vendor (ISV). Custom port properties are defined by using the  <a href="https://msdn.microsoft.com/library/windows/hardware/hh598230">NDIS_SWITCH_PORT_PROPERTY_CUSTOM</a> structure.
+This value specifies a custom port property that is defined  by an independent software vendor (ISV). Custom port properties are defined by using the  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_switch_port_property_custom">NDIS_SWITCH_PORT_PROPERTY_CUSTOM</a> structure.
 
 
 ### -field NdisSwitchPortPropertyTypeSecurity
 
-This value specifies a security port property. Security port properties are defined by using the  <a href="https://msdn.microsoft.com/library/windows/hardware/hh598241">NDIS_SWITCH_PORT_PROPERTY_SECURITY</a> structure.
+This value specifies a security port property. Security port properties are defined by using the  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_switch_port_property_security">NDIS_SWITCH_PORT_PROPERTY_SECURITY</a> structure.
 
 
 ### -field NdisSwitchPortPropertyTypeVlan
 
-This value specifies a virtual local area network (VLAN) port property. VLAN port properties are defined by using the  <a href="https://msdn.microsoft.com/library/windows/hardware/hh598243">NDIS_SWITCH_PORT_PROPERTY_VLAN</a> structure.
+This value specifies a virtual local area network (VLAN) port property. VLAN port properties are defined by using the  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_switch_port_property_vlan">NDIS_SWITCH_PORT_PROPERTY_VLAN</a> structure.
 
 
 ### -field NdisSwitchPortPropertyTypeProfile
 
-This value specifies a profile port property. Profile port properties are defined by using the  <a href="https://msdn.microsoft.com/library/windows/hardware/hh598240">NDIS_SWITCH_PORT_PROPERTY_PROFILE</a> structure.
+This value specifies a profile port property. Profile port properties are defined by using the  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_switch_port_property_profile">NDIS_SWITCH_PORT_PROPERTY_PROFILE</a> structure.
 
 
 ### -field NdisSwitchPortPropertyTypeIsolation
 
-This value specifies an isolation port property. Isolation port properties are defined by using the  <a href="https://msdn.microsoft.com/library/windows/hardware/dn383687">NDIS_SWITCH_PORT_PROPERTY_ISOLATION</a> structure.<div class="alert"><b>Note</b>  This value is supported in NDIS 6.40 and later.</div>
+This value specifies an isolation port property. Isolation port properties are defined by using the  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_switch_port_property_isolation">NDIS_SWITCH_PORT_PROPERTY_ISOLATION</a> structure.<div class="alert"><b>Note</b>  This value is supported in NDIS 6.40 and later.</div>
 <div> </div>
 
 
 
 ### -field NdisSwitchPortPropertyTypeRoutingDomain
 
-This value specifies a routing domain port property. Routing domain port properties are defined by using the  <a href="https://msdn.microsoft.com/library/windows/hardware/dn383688">NDIS_SWITCH_PORT_PROPERTY_ROUTING_DOMAIN</a> structure.<div class="alert"><b>Note</b>  This value is supported in NDIS 6.40 and later.</div>
+This value specifies a routing domain port property. Routing domain port properties are defined by using the  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_switch_port_property_routing_domain">NDIS_SWITCH_PORT_PROPERTY_ROUTING_DOMAIN</a> structure.<div class="alert"><b>Note</b>  This value is supported in NDIS 6.40 and later.</div>
 <div> </div>
 
 
@@ -111,30 +111,30 @@ The <b>PropertyType</b> member of the following structures is an <b>NDIS_SWITCH_
 <ul>
 <li>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598232">NDIS_SWITCH_PORT_PROPERTY_DELETE_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_switch_port_property_delete_parameters">NDIS_SWITCH_PORT_PROPERTY_DELETE_PARAMETERS</a>
 
 
 </li>
 <li>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598227">NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_switch_port_feature_status_parameters">NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS</a>
 
 
 </li>
 <li>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598236">NDIS_SWITCH_PORT_PROPERTY_ENUM_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_switch_port_property_enum_parameters">NDIS_SWITCH_PORT_PROPERTY_ENUM_PARAMETERS</a>
 
 
 </li>
 <li>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598238">NDIS_SWITCH_PORT_PROPERTY_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_switch_port_property_parameters">NDIS_SWITCH_PORT_PROPERTY_PARAMETERS</a>
 
 
 </li>
 </ul>
-For more information about extensible switch port policies, see <a href="https://msdn.microsoft.com/8AB85E48-EF37-4D42-873B-34D4835AF22E">Hyper-V Extensible Switch Policies</a>.
+For more information about extensible switch port policies, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/hyper-v-extensible-switch-policies">Hyper-V Extensible Switch Policies</a>.
 
 
 
@@ -150,35 +150,35 @@ For more information about extensible switch port policies, see <a href="https:/
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598227">NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_switch_port_feature_status_parameters">NDIS_SWITCH_PORT_FEATURE_STATUS_PARAMETERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598230">NDIS_SWITCH_PORT_PROPERTY_CUSTOM</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_switch_port_property_custom">NDIS_SWITCH_PORT_PROPERTY_CUSTOM</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598232">NDIS_SWITCH_PORT_PROPERTY_DELETE_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_switch_port_property_delete_parameters">NDIS_SWITCH_PORT_PROPERTY_DELETE_PARAMETERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598236">NDIS_SWITCH_PORT_PROPERTY_ENUM_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_switch_port_property_enum_parameters">NDIS_SWITCH_PORT_PROPERTY_ENUM_PARAMETERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598238">NDIS_SWITCH_PORT_PROPERTY_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_switch_port_property_parameters">NDIS_SWITCH_PORT_PROPERTY_PARAMETERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598240">NDIS_SWITCH_PORT_PROPERTY_PROFILE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_switch_port_property_profile">NDIS_SWITCH_PORT_PROPERTY_PROFILE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598241">NDIS_SWITCH_PORT_PROPERTY_SECURITY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_switch_port_property_security">NDIS_SWITCH_PORT_PROPERTY_SECURITY</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598243">NDIS_SWITCH_PORT_PROPERTY_VLAN</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_switch_port_property_vlan">NDIS_SWITCH_PORT_PROPERTY_VLAN</a>
  
 
  

@@ -173,7 +173,7 @@ It is optional that you implement this class.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563077">MSiSCSI_MMIPSECStats WMI Class</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msiscsi-mmipsecstats-wmi-class">MSiSCSI_MMIPSECStats WMI Class</a>
  
 
  

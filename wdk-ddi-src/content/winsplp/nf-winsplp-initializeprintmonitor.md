@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <b>InitializePrintMonitor</b> function is obsolete and is supported only for compatibility purposes. New print monitors should implement <a href="https://msdn.microsoft.com/library/windows/hardware/ff551605">InitializePrintMonitor2</a> so that they can be used with print server clusters.
+The <b>InitializePrintMonitor</b> function is obsolete and is supported only for compatibility purposes. New print monitors should implement <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-initializeprintmonitor2">InitializePrintMonitor2</a> so that they can be used with print server clusters.
 
 A print monitor's <b>InitializePrintMonitor</b> function initializes a print monitor.
 
@@ -65,7 +65,7 @@ Caller-supplied pointer to a string identifying a registry path that the print m
 
 
 
-If the operation succeeds, the function should return a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff557533">MONITOREX</a> structure. Otherwise the function should call SetLastError (described in the Microsoft Windows SDK documentation) to set an error code, and return <b>NULL</b>.
+If the operation succeeds, the function should return a pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/ns-winsplp-_monitorex">MONITOREX</a> structure. Otherwise the function should call SetLastError (described in the Microsoft Windows SDK documentation) to set an error code, and return <b>NULL</b>.
 
 
 
@@ -74,7 +74,7 @@ If the operation succeeds, the function should return a pointer to a <a href="ht
 
 
 
-The <b>InitializePrintMonitor</b> function must be exported by <a href="https://msdn.microsoft.com/26ba1c22-390a-4187-b67a-3f3497964f8e">language monitors</a> and by port monitor server DLLs. The function is called immediately after the monitor DLL is loaded, and is not called again until the DLL is reloaded. Its purposes are to allow the monitor to initialize itself, and to provide the spooler with pointers to internal monitor functions. Function pointers are contained in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542552">MONITOR</a> structure, which is referenced through the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557533">MONITOREX</a> function.
+The <b>InitializePrintMonitor</b> function must be exported by <a href="https://docs.microsoft.com/windows-hardware/drivers/print/language-monitors">language monitors</a> and by port monitor server DLLs. The function is called immediately after the monitor DLL is loaded, and is not called again until the DLL is reloaded. Its purposes are to allow the monitor to initialize itself, and to provide the spooler with pointers to internal monitor functions. Function pointers are contained in a <a href="https://docs.microsoft.com/previous-versions/windows/hardware/modem/ff542552(v=vs.85)">MONITOR</a> structure, which is referenced through the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/ns-winsplp-_monitorex">MONITOREX</a> function.
 
 The <i>pRegistryRoot</i> parameter supplies a pointer a string representing the path to a <i>MonitorName</i> registry key, where <i>MonitorName</i> is the monitor name that was specified when the spooler's <b>AddMonitor</b> function was called to add the monitor. The monitor can use this key to store monitor-specific value names and values. When the spooler's <b>DeleteMonitor</b> function is called, the spooler deletes the <i>MonitorName</i> key and all values stored underneath it. (The <b>AddMonitor</b> and <b>DeleteMonitor</b> functions are described in the Windows SDK documentation.)
 
@@ -86,11 +86,11 @@ The <i>pRegistryRoot</i> parameter supplies a pointer a string representing the 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551608">InitializePrintMonitorUI</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-initializeprintmonitorui">InitializePrintMonitorUI</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557533">MONITOREX</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/ns-winsplp-_monitorex">MONITOREX</a>
  
 
  

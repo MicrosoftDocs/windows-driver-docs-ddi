@@ -46,7 +46,7 @@ req.typenames: PCW_CALLBACK_TYPE, *PPCW_CALLBACK_TYPE
 ## -description
 
 
-The <b>PCW_CALLBACK_TYPE</b> enumeration defines the notification type to send to the registered provider of the counter set. A provider passes a pointer to this enumeration as a parameter to the <a href="https://msdn.microsoft.com/5058fc17-1016-45bc-a6ea-5e2458824e7b">PcwCallback</a> function. 
+The <b>PCW_CALLBACK_TYPE</b> enumeration defines the notification type to send to the registered provider of the counter set. A provider passes a pointer to this enumeration as a parameter to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pcw_callback">PcwCallback</a> function. 
 
 
 ## -enum-fields
@@ -79,7 +79,7 @@ The provider is asked to collect data from an instance of the counter set.
 
 
 
-<a href="https://msdn.microsoft.com/5058fc17-1016-45bc-a6ea-5e2458824e7b">PcwCallback</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pcw_callback">PcwCallback</a>
  
 
  

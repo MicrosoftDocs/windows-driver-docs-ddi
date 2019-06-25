@@ -56,7 +56,7 @@ The <b>IoGetContainerInformation</b> routine provides information about the curr
 
 ### -param InformationClass [in]
 
-Specifies the class of events for which the caller (driver) requests information. Set this parameter to the following <a href="https://msdn.microsoft.com/library/windows/hardware/ff550548">IO_CONTAINER_INFORMATION_CLASS</a> enumeration value:
+Specifies the class of events for which the caller (driver) requests information. Set this parameter to the following <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_io_container_information_class">IO_CONTAINER_INFORMATION_CLASS</a> enumeration value:
 
 <ul>
 <li>
@@ -69,12 +69,12 @@ For more information, see the following Remarks section.
 
 ### -param ContainerObject [in, optional]
 
-A pointer to an opaque, system object supplied by the I/O manager. For <i>InformationClass</i> = <b>IoSessionStateInformation</b>, set this parameter to the <i>SessionObject</i> parameter value that is provided by the I/O manager during the call to the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff550626">IO_SESSION_NOTIFICATION_FUNCTION</a> function. 
+A pointer to an opaque, system object supplied by the I/O manager. For <i>InformationClass</i> = <b>IoSessionStateInformation</b>, set this parameter to the <i>SessionObject</i> parameter value that is provided by the I/O manager during the call to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-io_session_notification_function">IO_SESSION_NOTIFICATION_FUNCTION</a> function. 
 
 
 ### -param Buffer [in, out]
 
-A pointer to a caller-allocated buffer into which this routine writes the state information for the event class specified by <i>InformationClass</i>. For <i>InformationClass</i> = <b>IoSessionStateInformation</b>, the routine writes an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550636">IO_SESSION_STATE_INFORMATION</a> structure to the buffer. The buffer must be large enough to contain this structure. 
+A pointer to a caller-allocated buffer into which this routine writes the state information for the event class specified by <i>InformationClass</i>. For <i>InformationClass</i> = <b>IoSessionStateInformation</b>, the routine writes an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_io_session_state_information">IO_SESSION_STATE_INFORMATION</a> structure to the buffer. The buffer must be large enough to contain this structure. 
 
 
 ### -param BufferLength [in]
@@ -100,7 +100,7 @@ The size, in bytes, of the buffer pointed to by <i>Buffer</i>. For <i>Informatio
 </dl>
 </td>
 <td width="60%">
-Parameter <i>InformationClass</i> is not a valid <a href="https://msdn.microsoft.com/library/windows/hardware/ff550548">IO_CONTAINER_INFORMATION_CLASS</a> enumeration constant.
+Parameter <i>InformationClass</i> is not a valid <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_io_container_information_class">IO_CONTAINER_INFORMATION_CLASS</a> enumeration constant.
 
 </td>
 </tr>
@@ -146,15 +146,15 @@ This routine can potentially support queries for a variety of information classe
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550548">IO_CONTAINER_INFORMATION_CLASS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_io_container_information_class">IO_CONTAINER_INFORMATION_CLASS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550554">IO_CONTAINER_NOTIFICATION_CLASS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_io_container_notification_class">IO_CONTAINER_NOTIFICATION_CLASS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550636">IO_SESSION_STATE_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_io_session_state_information">IO_SESSION_STATE_INFORMATION</a>
  
 
  

@@ -49,7 +49,7 @@ req.typenames:
 The 
   <b>WskConnectEx</b> function connects a connection-oriented or stream socket to a remote transport address.
 
-<b>WskConnectEx</b> is similar to <a href="https://msdn.microsoft.com/library/windows/hardware/ff571125">WskConnect</a>
+<b>WskConnectEx</b> is similar to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_connect">WskConnect</a>
   except that it can also optionally send a buffer of data during or after connection synchronization.
 
 
@@ -61,20 +61,20 @@ The
 ### -param Socket [in]
 
 A pointer to a 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571182">WSK_SOCKET</a> structure that specifies the socket
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/ns-wsk-_wsk_socket">WSK_SOCKET</a> structure that specifies the socket
      object for the socket that is being connected to a remote transport address.
 
 
 ### -param RemoteAddress [in]
 
 A pointer to a structure that specifies the remote transport address to which to connect the
-     socket. This pointer must be a pointer to the specific <a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">SOCKADDR</a> structure type that corresponds to the
+     socket. This pointer must be a pointer to the specific <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-sockaddr">SOCKADDR</a> structure type that corresponds to the
      address family that the WSK application specified when it created the socket.
 
 
 ### -param Buffer [in, optional]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff571153">WSK_BUF</a> structure, which contains the data to send during or after connection synchronization. The maximum allowed size in bytes is 65,535.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/ns-wsk-_wsk_buf">WSK_BUF</a> structure, which contains the data to send during or after connection synchronization. The maximum allowed size in bytes is 65,535.
 
 
 ### -param Flags
@@ -137,7 +137,7 @@ The WSK subsystem could not connect the socket immediately. The WSK subsystem wi
 <td width="60%">
 The socket is no longer functional. The IRP will be completed with failure status. The WSK
        application must call the 
-       <a href="https://msdn.microsoft.com/library/windows/hardware/ff571124">WskCloseSocket</a> function to close the
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_close_socket">WskCloseSocket</a> function to close the
        socket as soon as possible.
 
 </td>
@@ -187,10 +187,10 @@ An error occurred. The IRP will be completed with failure status.
 
 A WSK application can create, bind, and connect a connection-oriented socket in a single function call
     by calling the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff571150">WskSocketConnect</a> function rather than
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_socket_connect">WskSocketConnect</a> function rather than
     calling the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff571149">WskSocket</a> function, the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff571121">WskBind</a> function, and then the 
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_socket">WskSocket</a> function, the 
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_bind">WskBind</a> function, and then the 
     <b>WskConnectEx</b> function. We recommend calling the 
     <b>WskSocketConnect</b> function unless the WSK application needs to set a socket option or issue an I/O
     control operation before binding or connecting the socket.
@@ -198,13 +198,13 @@ A WSK application can create, bind, and connect a connection-oriented socket in 
 A WSK application can call the 
     <b>WskConnectEx</b> function only on a connection-oriented or stream socket that the application previously bound to a
     local transport address by calling the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff571121">WskBind</a> function.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_bind">WskBind</a> function.
 
 For stream sockets, once <b>WskConnectEx</b> is successfully called on a stream socket, the socket is committed to a connection-oriented flow and may no longer call listening socket functions.
 
-If the <i>Buffer</i> parameter is used, the caller can free the MDL in its <a href="https://msdn.microsoft.com/library/windows/hardware/ff571153">WSK_BUF</a> structure as soon as the connect request is complete.
+If the <i>Buffer</i> parameter is used, the caller can free the MDL in its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/ns-wsk-_wsk_buf">WSK_BUF</a> structure as soon as the connect request is complete.
 
-Before calling <b>WskConnectEx</b> with a provided send buffer, if the WSK application sets the <b>TCP_FASTOPEN</b> option on a WSK socket via the <a href="https://msdn.microsoft.com/library/windows/hardware/ff571127">WskControlSocket</a> function the system will optionally send some or all of the data in a SYN packet. For more information, see the <b>TCP Fastopen</b> option in <a href="https://msdn.microsoft.com/2a10498d-0a0b-4a2d-941e-9aa45a1a4428">IPPROTO_TCP Socket Options</a>.
+Before calling <b>WskConnectEx</b> with a provided send buffer, if the WSK application sets the <b>TCP_FASTOPEN</b> option on a WSK socket via the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_control_socket">WskControlSocket</a> function the system will optionally send some or all of the data in a SYN packet. For more information, see the <b>TCP Fastopen</b> option in <a href="https://docs.microsoft.com/windows/desktop/WinSock/ipproto-tcp-socket-options">IPPROTO_TCP Socket Options</a>.
 
 
 
@@ -214,49 +214,49 @@ Before calling <b>WskConnectEx</b> with a provided send buffer, if the WSK appli
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">SOCKADDR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-sockaddr">SOCKADDR</a>
 
 
 
-<a href="https://msdn.microsoft.com/70a86809-07f2-4723-9e50-4dbdd31ff900">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/ns-wsk-_wsk_provider_connection_dispatch">
    WSK_PROVIDER_CONNECTION_DISPATCH</a>
 
 
 
-<a href="https://msdn.microsoft.com/A10B901E-9987-40E9-976B-4CD9455E0AEE">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/ns-wsk-_wsk_provider_stream_dispatch">
    WSK_PROVIDER_STREAM_DISPATCH</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571182">WSK_SOCKET</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/ns-wsk-_wsk_socket">WSK_SOCKET</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571121">WskBind</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_bind">WskBind</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571124">WskCloseSocket</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_close_socket">WskCloseSocket</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571127">WskControlSocket</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_control_socket">WskControlSocket</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571129">WskDisconnect</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_disconnect">WskDisconnect</a>
 
 
 
-<a href="https://msdn.microsoft.com/bf12d7b3-080e-46d9-b276-76d42068e7c6">WskDisconnectEvent</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_disconnect_event">WskDisconnectEvent</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571149">WskSocket</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_socket">WskSocket</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571150">WskSocketConnect</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_socket_connect">WskSocketConnect</a>
  
 
  

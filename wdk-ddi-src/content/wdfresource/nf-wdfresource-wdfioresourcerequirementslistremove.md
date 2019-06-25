@@ -49,7 +49,7 @@ req.typenames:
 
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
-The <b>WdfIoResourceRequirementsListRemove</b> method removes a <a href="https://msdn.microsoft.com/c7a6997b-34f9-4dd9-b384-2321a8b5ce54">logical configuration</a> from a resource requirements list.
+The <b>WdfIoResourceRequirementsListRemove</b> method removes a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a> from a resource requirements list.
 
 
 ## -parameters
@@ -123,7 +123,7 @@ Example_EvtDeviceFilterRemoveResourceRequirements(
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548575">WdfIoResourceRequirementsListRemoveByIoResList</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfresource/nf-wdfresource-wdfioresourcerequirementslistremovebyioreslist">WdfIoResourceRequirementsListRemoveByIoResList</a>
  
 
  

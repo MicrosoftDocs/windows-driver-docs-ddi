@@ -56,7 +56,7 @@ A <i>Halt</i> callback routine transitions the processor to an idle state.
 
 ### -param Context [in, out, optional]
 
-A pointer to a PEP-defined processor-halt context. This pointer is the <i>Context</i> parameter value that the PEP previously passed to the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186879">ProcessorHalt</a> routine.
+A pointer to a PEP-defined processor-halt context. This pointer is the <i>Context</i> parameter value that the PEP previously passed to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/nc-pepfx-pofxcallbackprocessorhalt">ProcessorHalt</a> routine.
 
 
 ## -returns
@@ -72,7 +72,7 @@ A <i>Halt</i> callback routine may or may not return. If this routine does retur
 
 
 
-This routine is implemented by the platform extension plug-in (PEP) and is called by the Windows <a href="https://msdn.microsoft.com/B08F8ABF-FD43-434C-A345-337FBB799D9B">power management framework</a> (PoFx). The <a href="https://msdn.microsoft.com/library/windows/hardware/mt186879">ProcessorHalt</a> routine accepts a pointer to a <i>Halt</i> callback routine as a parameter.
+This routine is implemented by the platform extension plug-in (PEP) and is called by the Windows <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">power management framework</a> (PoFx). The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/nc-pepfx-pofxcallbackprocessorhalt">ProcessorHalt</a> routine accepts a pointer to a <i>Halt</i> callback routine as a parameter.
 
 The PEP's <i>Halt</i> routine is called at the same IRQL at which the PEP called <b>ProcessorHalt</b>.
 
@@ -84,11 +84,11 @@ The PEP's <i>Halt</i> routine is called at the same IRQL at which the PEP called
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt186708">PEP_CRASHDUMP_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/ns-pepfx-_pep_crashdump_information">PEP_CRASHDUMP_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt186879">ProcessorHalt</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/nc-pepfx-pofxcallbackprocessorhalt">ProcessorHalt</a>
  
 
  

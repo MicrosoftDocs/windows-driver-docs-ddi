@@ -71,12 +71,12 @@ The D3DDDIARG_TEXBLT structure describes parameters for a texture bit-block tran
 
 ### -field DstPoint
 
-[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a> structure that describes the destination point where the source texture is copied.
+[in] A <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagpoint">POINT</a> structure that describes the destination point where the source texture is copied.
 
 
 ### -field SrcRect
 
-[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that describes the source texture to copy to the destination point.
+[in] A <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a> structure that describes the source texture to copy to the destination point.
 
 
 ## -see-also
@@ -84,15 +84,15 @@ The D3DDDIARG_TEXBLT structure describes parameters for a texture bit-block tran
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagpoint">POINT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a>
 
 
 
-<a href="https://msdn.microsoft.com/1ddfd822-7a43-4976-a153-ba862d6dfd82">TexBlt</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_texblt">TexBlt</a>
  
 
  

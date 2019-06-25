@@ -56,37 +56,37 @@ The DXVA_ExtendedFormat structure describes the extended format of the video fra
 
 ### -field SampleFormat
 
-Specifies how a video frame is sampled. The 8 bits are defined by one of the enumerators in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564045">DXVA_SampleFormat</a> enumeration type.
+Specifies how a video frame is sampled. The 8 bits are defined by one of the enumerators in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ne-dxva-_dxva_sampleformat">DXVA_SampleFormat</a> enumeration type.
 
 
 ### -field VideoChromaSubsampling
 
-Specifies the chroma encoding scheme for Y'Cb'Cr' data. The 4 bits are defined by an ORed combination of the enumerators in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564067">DXVA_VideoChromaSubsampling</a> enumeration type. 
+Specifies the chroma encoding scheme for Y'Cb'Cr' data. The 4 bits are defined by an ORed combination of the enumerators in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ne-dxva-_dxva_videochromasubsampling">DXVA_VideoChromaSubsampling</a> enumeration type. 
 
 
 ### -field NominalRange
 
-Specifies whether sample data includes headroom (values beyond 1.0 white) and toeroom (superblacks below the reference 0.0 black). The 3 bits are defined by one of the enumerators in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564006">DXVA_NominalRange</a> enumeration type. 
+Specifies whether sample data includes headroom (values beyond 1.0 white) and toeroom (superblacks below the reference 0.0 black). The 3 bits are defined by one of the enumerators in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ne-dxva-_dxva_nominalrange">DXVA_NominalRange</a> enumeration type. 
 
 
 ### -field VideoTransferMatrix
 
-Specifies the conversion matrix from Y'Cb'Cr' to (studio) R'G'B'. The 3 bits are defined by one of the enumerators in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564108">DXVA_VideoTransferMatrix</a> enumeration type. 
+Specifies the conversion matrix from Y'Cb'Cr' to (studio) R'G'B'. The 3 bits are defined by one of the enumerators in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ne-dxva-_dxva_videotransfermatrix">DXVA_VideoTransferMatrix</a> enumeration type. 
 
 
 ### -field VideoLighting
 
-Specifies lighting conditions for viewing video. The 4 bits are defined by one of the enumerators in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564071">DXVA_VideoLighting</a> enumeration type. 
+Specifies lighting conditions for viewing video. The 4 bits are defined by one of the enumerators in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ne-dxva-_dxva_videolighting">DXVA_VideoLighting</a> enumeration type. 
 
 
 ### -field VideoPrimaries
 
-Specifies color primaries, which state which RGB basis functions are used. The 5 bits are defined by one of the enumerators in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564073">DXVA_VideoPrimaries</a> enumeration type. 
+Specifies color primaries, which state which RGB basis functions are used. The 5 bits are defined by one of the enumerators in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ne-dxva-_dxva_videoprimaries">DXVA_VideoPrimaries</a> enumeration type. 
 
 
 ### -field VideoTransferFunction
 
-Specifies the conversion function from R'G'B' to RGB. The 5 bits are defined by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564105">DXVA_VideoTransferFunction</a> enumeration type. 
+Specifies the conversion function from R'G'B' to RGB. The 5 bits are defined by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ne-dxva-_dxva_videotransferfunction">DXVA_VideoTransferFunction</a> enumeration type. 
 
 
 ## -see-also
@@ -94,31 +94,31 @@ Specifies the conversion function from R'G'B' to RGB. The 5 bits are defined by 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564006">DXVA_NominalRange</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ne-dxva-_dxva_nominalrange">DXVA_NominalRange</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564045">DXVA_SampleFormat</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ne-dxva-_dxva_sampleformat">DXVA_SampleFormat</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564067">DXVA_VideoChromaSubsampling</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ne-dxva-_dxva_videochromasubsampling">DXVA_VideoChromaSubsampling</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564071">DXVA_VideoLighting</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ne-dxva-_dxva_videolighting">DXVA_VideoLighting</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564073">DXVA_VideoPrimaries</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ne-dxva-_dxva_videoprimaries">DXVA_VideoPrimaries</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564105">DXVA_VideoTransferFunction</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ne-dxva-_dxva_videotransferfunction">DXVA_VideoTransferFunction</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564108">DXVA_VideoTransferMatrix</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ne-dxva-_dxva_videotransfermatrix">DXVA_VideoTransferMatrix</a>
  
 
  

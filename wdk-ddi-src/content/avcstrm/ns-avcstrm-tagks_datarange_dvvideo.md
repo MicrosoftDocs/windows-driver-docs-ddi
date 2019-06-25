@@ -69,11 +69,11 @@ Specifies the digital video information, for example, sound tracks and video inf
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559517">DVINFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/avcstrm/ns-avcstrm-_dvinfo">DVINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a>
+<a href="https://docs.microsoft.com/previous-versions/ff561658(v=vs.85)">KSDATARANGE</a>
  
 
  

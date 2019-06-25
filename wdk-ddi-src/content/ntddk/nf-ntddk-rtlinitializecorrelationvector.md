@@ -59,7 +59,7 @@ req.typenames:
 
 ### -param CorrelationVector [in, out]
 
-A pointer to a  <a href="https://msdn.microsoft.com/35c1799f-2012-42b0-95e6-6902c818a094">CORRELATION_VECTOR</a> structure that represents the correlation vector to be initialized.
+A pointer to a  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-correlation_vector">CORRELATION_VECTOR</a> structure that represents the correlation vector to be initialized.
 
 
 ### -param Version [in]
@@ -123,7 +123,7 @@ The supplied GUID is null.
 
 
 
-<a href="https://msdn.microsoft.com/35c1799f-2012-42b0-95e6-6902c818a094">CORRELATION_VECTOR</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-correlation_vector">CORRELATION_VECTOR</a>
  
 
  

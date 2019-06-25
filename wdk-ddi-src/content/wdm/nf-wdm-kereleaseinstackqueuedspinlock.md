@@ -47,7 +47,7 @@ req.typenames:
 ## -description
 
 
-The <b>KeReleaseInStackQueuedSpinLock</b> routine releases a queued spin lock acquired by <a href="https://msdn.microsoft.com/library/windows/hardware/ff551899">KeAcquireInStackQueuedSpinLock</a>.
+The <b>KeReleaseInStackQueuedSpinLock</b> routine releases a queued spin lock acquired by <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff551899(v=vs.85)">KeAcquireInStackQueuedSpinLock</a>.
 
 
 ## -parameters
@@ -57,7 +57,7 @@ The <b>KeReleaseInStackQueuedSpinLock</b> routine releases a queued spin lock ac
 
 ### -param LockHandle [in]
 
-Specifies the queued spin lock handle initialized by the call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff551899">KeAcquireInStackQueuedSpinLock</a> that acquired the lock.
+Specifies the queued spin lock handle initialized by the call to <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff551899(v=vs.85)">KeAcquireInStackQueuedSpinLock</a> that acquired the lock.
 
 
 ## -returns
@@ -75,7 +75,7 @@ None
 
 This routine restores the original IRQL that the operating system saved at the beginning of the <b>KeAcquireInStackQueuedSpinLock</b> call.
 
-For more information about queued spin locks, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff559970">Queued Spin Locks</a>.
+For more information about queued spin locks, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/queued-spin-locks">Queued Spin Locks</a>.
 
 Use Hal.lib on 32-bit versions of Windows and Ntoskrnl.lib on 64-bit versions of Windows.
 
@@ -87,11 +87,11 @@ Use Hal.lib on 32-bit versions of Windows and Ntoskrnl.lib on 64-bit versions of
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554247">KLOCK_QUEUE_HANDLE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">KLOCK_QUEUE_HANDLE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551899">KeAcquireInStackQueuedSpinLock</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff551899(v=vs.85)">KeAcquireInStackQueuedSpinLock</a>
  
 
  

@@ -72,7 +72,7 @@ Returns STATUS_SUCCESS if the request is handled. Otherwise returns an appropria
 
 
 
-Minidrivers access this method through the <b>DereferenceDeviceObject</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557584">BUS_INTERFACE_REFERENCE</a> structure.
+Minidrivers access this method through the <b>DereferenceDeviceObject</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-bus_interface_reference">BUS_INTERFACE_REFERENCE</a> structure.
 
 When the PDO's reference count is 0, it becomes eligible for removal. Note that this condition does not guarantee removal.
 

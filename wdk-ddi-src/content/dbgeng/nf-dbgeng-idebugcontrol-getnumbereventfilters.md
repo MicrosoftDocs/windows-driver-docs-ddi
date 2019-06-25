@@ -48,7 +48,7 @@ req.typenames:
 ## -description
 
 
-The <b>GetNumberEventFilters</b> method returns the number of <a href="https://msdn.microsoft.com/library/windows/hardware/ff543071">event filters</a> currently used by the engine.
+The <b>GetNumberEventFilters</b> method returns the number of <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/event-filters">event filters</a> currently used by the engine.
 
 
 ## -parameters
@@ -58,12 +58,12 @@ The <b>GetNumberEventFilters</b> method returns the number of <a href="https://m
 
 ### -param SpecificEvents [out]
 
-Receives the number of <a href="https://msdn.microsoft.com/library/windows/hardware/ff543067">events</a> that can be controlled using the specific event filters.  These events are enumerated using some of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541490">DEBUG_FILTER_XXX</a> constants.
+Receives the number of <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/events">events</a> that can be controlled using the specific event filters.  These events are enumerated using some of the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-filter-xxx">DEBUG_FILTER_XXX</a> constants.
 
 
 ### -param SpecificExceptions [out]
 
-Receives the number of <a href="https://msdn.microsoft.com/0dd010e7-3e10-422a-adcb-8fe7df9e29ab">exceptions</a> that can be controlled using the specific exception filters.  The first specific exception filter is the default exception filter.  The exceptions controlled by the other specific exception filters will always have their own filter and will not inherit their behavior from the default specific exception filter.  These exception filters are identified by their exception code.  See <a href="https://msdn.microsoft.com/library/windows/hardware/ff558784">Specific Exceptions</a> for a list of the specific exception filters.
+Receives the number of <a href="https://docs.microsoft.com/windows-hardware/drivers/">exceptions</a> that can be controlled using the specific exception filters.  The first specific exception filter is the default exception filter.  The exceptions controlled by the other specific exception filters will always have their own filter and will not inherit their behavior from the default specific exception filter.  These exception filters are identified by their exception code.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/specific-exceptions">Specific Exceptions</a> for a list of the specific exception filters.
 
 
 ### -param ArbitraryExceptions [out]
@@ -75,7 +75,7 @@ Receives the number of arbitrary exception filters currently used by the engine.
 
 
 
-This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 <table>
 <tr>
@@ -103,7 +103,7 @@ The method was successful.
 
 
 
-For more information about event filters, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff543071">Event Filters</a>.
+For more information about event filters, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/event-filters">Event Filters</a>.
 
 
 

@@ -88,7 +88,7 @@ For more information about how this structure is defined, see the discussion of 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554939">GetFCPStatistics</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/getfcpstatistics">GetFCPStatistics</a>
  
 
  

@@ -46,7 +46,7 @@ req.typenames: GetFcpPersistentBinding_IN, *PGetFcpPersistentBinding_IN
 ## -description
 
 
-The GetFcpPersistentBinding_IN structure is used to pass input parameter data to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553966">GetFcpPersistentBinding</a> WMI method 
+The GetFcpPersistentBinding_IN structure is used to pass input parameter data to the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/getfcppersistentbinding">GetFcpPersistentBinding</a> WMI method 
 
 
 ## -struct-fields
@@ -56,14 +56,14 @@ The GetFcpPersistentBinding_IN structure is used to pass input parameter data to
 
 ### -field InEntryCount
 
-Indicates the number of binding entries that will fit in the buffer that the WMI client provides when it calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553966">GetFcpPersistentBinding</a> WMI method.
+Indicates the number of binding entries that will fit in the buffer that the WMI client provides when it calls the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/getfcppersistentbinding">GetFcpPersistentBinding</a> WMI method.
 
 
 ## -remarks
 
 
 
-The WMI tool suite generates a declaration of the GetFcpPersistentBinding_IN structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562509">MSFC_HBAFCPInfo WMI Class</a>.
+The WMI tool suite generates a declaration of the GetFcpPersistentBinding_IN structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msfc-hbafcpinfo-wmi-class">MSFC_HBAFCPInfo WMI Class</a>.
 
 
 
@@ -73,11 +73,11 @@ The WMI tool suite generates a declaration of the GetFcpPersistentBinding_IN str
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553966">GetFcpPersistentBinding</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/getfcppersistentbinding">GetFcpPersistentBinding</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562509">MSFC_HBAFCPInfo WMI Class</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msfc-hbafcpinfo-wmi-class">MSFC_HBAFCPInfo WMI Class</a>
  
 
  

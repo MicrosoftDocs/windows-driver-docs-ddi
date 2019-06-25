@@ -56,29 +56,29 @@ A software device enumerator exports this interface to allow drivers to referenc
 
 ### -field Interface
 
-Specifies the exported <a href="https://msdn.microsoft.com/library/windows/hardware/dn895657">INTERFACE</a>.
+Specifies the exported <a href="https://docs.microsoft.com/windows-hardware/customize/desktop/unattend/microsoft-windows-netbt-interfaces-interface">INTERFACE</a>.
 
 
 ### -field ReferenceDeviceObject
 
-Pointer to a driver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff567198">KStrReferenceDeviceObject</a> routine.
+Pointer to a driver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nc-ks-pfnreferencedeviceobject">KStrReferenceDeviceObject</a> routine.
 
 
 ### -field DereferenceDeviceObject
 
-Pointer to a driver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff567170">KStrDereferenceDeviceObject</a> routine.
+Pointer to a driver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nc-ks-pfndereferencedeviceobject">KStrDereferenceDeviceObject</a> routine.
 
 
 ### -field QueryReferenceString
 
-Pointer to a driver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff567193">KStrQueryReferenceString</a> routine.
+Pointer to a driver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nc-ks-pfnqueryreferencestring">KStrQueryReferenceString</a> routine.
 
 
 ## -remarks
 
 
 
-A driver obtains a BUS_INTERFACE_REFERENCE interface by creating and sending an IRP_MJ_PNP request that specifies an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551687">IRP_MN_QUERY_INTERFACE</a> minor function code. To do this, the driver should:
+A driver obtains a BUS_INTERFACE_REFERENCE interface by creating and sending an IRP_MJ_PNP request that specifies an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-interface">IRP_MN_QUERY_INTERFACE</a> minor function code. To do this, the driver should:
 
 <ul>
 <li>

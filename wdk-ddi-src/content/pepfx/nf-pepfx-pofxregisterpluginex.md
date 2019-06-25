@@ -47,7 +47,7 @@ req.typenames:
 ## -description
 
 
-The <b>PoFxRegisterPluginEx</b> routine registers a platform extension plug-in (PEP) with the Windows <a href="https://msdn.microsoft.com/B08F8ABF-FD43-434C-A345-337FBB799D9B">power management framework</a> (PoFx).
+The <b>PoFxRegisterPluginEx</b> routine registers a platform extension plug-in (PEP) with the Windows <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">power management framework</a> (PoFx).
 
 
 ## -parameters
@@ -57,7 +57,7 @@ The <b>PoFxRegisterPluginEx</b> routine registers a platform extension plug-in (
 
 ### -param PepInformation [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/mt186745">PEP_INFORMATION</a> structure that contains pointers to one or more callback routines that are implemented by the PEP. These routines handle notifications that are sent to the PEP by PoFx.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/ns-pepfx-_pep_information">PEP_INFORMATION</a> structure that contains pointers to one or more callback routines that are implemented by the PEP. These routines handle notifications that are sent to the PEP by PoFx.
 
 
 ### -param Flags [in]
@@ -79,7 +79,7 @@ A set of flag bits for configuring the PEP interface. Set this member to zero or
 
 ### -param KernelInformation [in, out]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/mt629114">PEP_KERNEL_INFORMATION</a> structure.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pep_x/ns-pep_x-_pep_kernel_information_struct_v1">PEP_KERNEL_INFORMATION</a> structure.
 
 
 ## -returns
@@ -140,7 +140,7 @@ A PEP calls this routine to register itself with PoFx.
 
 A PEP cannot unregister, and cannot register twice. If the PEP must be serviced, the operating system must restart.
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/mt186873">PoFxRegisterPlugin</a> routine is similar to <b>PoFxRegisterPluginEx</b>, except that it does not take a <i>Flags</i> parameter.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/nf-pepfx-pofxregisterplugin">PoFxRegisterPlugin</a> routine is similar to <b>PoFxRegisterPluginEx</b>, except that it does not take a <i>Flags</i> parameter.
 
 The PEP must call <b>PoFxRegisterPluginEx</b> at IRQL = PASSIVE_LEVEL.
 
@@ -152,15 +152,15 @@ The PEP must call <b>PoFxRegisterPluginEx</b> at IRQL = PASSIVE_LEVEL.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt186745">PEP_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/ns-pepfx-_pep_information">PEP_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt629114">PEP_KERNEL_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pep_x/ns-pep_x-_pep_kernel_information_struct_v1">PEP_KERNEL_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt186873">PoFxRegisterPlugin</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/nf-pepfx-pofxregisterplugin">PoFxRegisterPlugin</a>
  
 
  

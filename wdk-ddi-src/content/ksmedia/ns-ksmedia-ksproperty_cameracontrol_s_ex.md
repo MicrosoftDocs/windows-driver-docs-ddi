@@ -46,7 +46,7 @@ req.typenames: KSPROPERTY_CAMERACONTROL_S_EX, *PKSPROPERTY_CAMERACONTROL_S_EX
 ## -description
 
 
-Specifies a camera control operation, including setting the flash, the image pin control properties, the region of interest in the image, or video stabilization. This structure describes filter-based properties in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567802">PROPSETID_VIDCAP_CAMERACONTROL</a> property set.
+Specifies a camera control operation, including setting the flash, the image pin control properties, the region of interest in the image, or video stabilization. This structure describes filter-based properties in the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/propsetid-vidcap-cameracontrol">PROPSETID_VIDCAP_CAMERACONTROL</a> property set.
 
 Supported starting with Windows 8.
 
@@ -58,7 +58,7 @@ Supported starting with Windows 8.
 
 ### -field Property
 
-Specifies an initialized <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
+Specifies an initialized <a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
 
 
 ### -field Value
@@ -106,7 +106,7 @@ Indicates whether the driver should perform the camera control operation asynchr
 
 This flag must be set only if either <b>KSPROPERTY_CAMERACONTROL_FLAGS_MANUAL</b> or <b>KSPROPERTY_CAMERACONTROL_FLAGS_AUTO</b> are set.
 
-If this flag value and the <b>KSPROPERTY_CAMERACONTROL_FLAGS_AUTO</b> flag value are both set, the driver should initiate a worker thread to start one requested control operation and should reject all other requests for the same operation until it has completed the first one. After the operation has successfully completed, the driver should trigger the <a href="https://msdn.microsoft.com/library/windows/hardware/jj714740">KSEVENTSETID_CameraAsyncControl</a> event.
+If this flag value and the <b>KSPROPERTY_CAMERACONTROL_FLAGS_AUTO</b> flag value are both set, the driver should initiate a worker thread to start one requested control operation and should reject all other requests for the same operation until it has completed the first one. After the operation has successfully completed, the driver should trigger the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/kseventsetid-cameraasynccontrol">KSEVENTSETID_CameraAsyncControl</a> event.
 
 </td>
 </tr>
@@ -120,22 +120,22 @@ If set, indicates that when the application submits a query, the driver should r
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj151590">KSPROPERTY_CAMERACONTROL_FLASH_S</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-ksproperty_cameracontrol_flash_s">KSPROPERTY_CAMERACONTROL_FLASH_S</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj553707">KSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY_S</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-ksproperty_cameracontrol_image_pin_capability_s">KSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY_S</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj151592">KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-ksproperty_cameracontrol_region_of_interest_s">KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj151594">KSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_S</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-ksproperty_cameracontrol_videostabilization_mode_s">KSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_S</a>
 </li>
 </ul>
 
 ### -field FocusRect
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that specifies the rectangular region in which the device should set the focus. This structure is available only to Windows desktop applications.
+A <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a> structure that specifies the rectangular region in which the device should set the focus. This structure is available only to Windows desktop applications.
 
 
 ## -remarks
@@ -152,27 +152,27 @@ When a requested camera focus operation is completed or is canceled, the driver 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj151587">KSEVENT_CAMERACONTROL</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ne-ksmedia-ksevent_cameracontrol">KSEVENT_CAMERACONTROL</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
+<a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj151590">KSPROPERTY_CAMERACONTROL_FLASH_S</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-ksproperty_cameracontrol_flash_s">KSPROPERTY_CAMERACONTROL_FLASH_S</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj151592">KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-ksproperty_cameracontrol_region_of_interest_s">KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj151594">KSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_S</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-ksproperty_cameracontrol_videostabilization_mode_s">KSPROPERTY_CAMERACONTROL_VIDEOSTABILIZATION_MODE_S</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a>
  
 
  

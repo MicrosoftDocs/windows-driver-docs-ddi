@@ -56,7 +56,7 @@ The KSPROPERTY_TUNER_STATUS_S structure describes the progress of a tuning opera
 
 ### -field Property
 
-Specifies an initialized <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a> structure that describes the property set, property ID, and request type. 
+Specifies an initialized <a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> structure that describes the property set, property ID, and request type. 
 
 
 ### -field CurrentFrequency
@@ -179,7 +179,7 @@ Indicates if the minidriver is presently busy with the process of tuning. This m
 
 
 
-For more information about the <b>PLLOffset</b> and <b>SignalStrength</b> members see <a href="https://msdn.microsoft.com/ae97d5f7-82de-4d6e-9835-ff4c7427f333">PCI based TV capture</a>. If your tuner device supports radio tuning, see <a href="https://msdn.microsoft.com/36e3ca98-cb1b-46cc-809a-8c9ad08a53c8">Video Capture Devices with Radio Tuners</a>.
+For more information about the <b>PLLOffset</b> and <b>SignalStrength</b> members see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/pci-based-tv-capture">PCI based TV capture</a>. If your tuner device supports radio tuning, see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/video-capture-devices-with-radio-tuners">Video Capture Devices with Radio Tuners</a>.
 
 
 
@@ -189,15 +189,15 @@ For more information about the <b>PLLOffset</b> and <b>SignalStrength</b> member
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
+<a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565921">KSPROPERTY_TUNER_STATUS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-tuner-status">KSPROPERTY_TUNER_STATUS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567800">PROPSETID_TUNER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/propsetid-tuner">PROPSETID_TUNER</a>
  
 
  

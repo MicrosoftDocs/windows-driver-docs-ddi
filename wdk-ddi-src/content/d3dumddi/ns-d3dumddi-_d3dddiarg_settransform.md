@@ -75,7 +75,7 @@ The D3DDDIARG_SETTRANSFORM structure describes how to set up a transform.
 
 
 
-The Microsoft Direct3D runtime uses D3DDDIARG_SETTRANSFORM in a call to the user-mode display driver <a href="https://msdn.microsoft.com/0e989ea4-3693-4c0b-86a5-96b865a0193f">SetTransform</a> function to inform the driver about various hardware transformation and lighting matrices. 
+The Microsoft Direct3D runtime uses D3DDDIARG_SETTRANSFORM in a call to the user-mode display driver <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_settransform">SetTransform</a> function to inform the driver about various hardware transformation and lighting matrices. 
 
 
 
@@ -85,7 +85,7 @@ The Microsoft Direct3D runtime uses D3DDDIARG_SETTRANSFORM in a call to the user
 
 
 
-<a href="https://msdn.microsoft.com/0e989ea4-3693-4c0b-86a5-96b865a0193f">SetTransform</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_settransform">SetTransform</a>
  
 
  

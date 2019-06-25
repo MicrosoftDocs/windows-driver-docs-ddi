@@ -77,7 +77,7 @@ If the operation succeeds, the method returns S_OK. Otherwise, it returns one of
 
 
 
-An application (or the application's installer) must call <b>IStillImage::RegisterLaunchApplication</b> so the still image event monitor will know of its existence. Users associate <a href="https://msdn.microsoft.com/5f9be89c-8442-4894-b2f6-a4d3558464bf">Still Image Device Events</a> with registered applications by using Control Panel's property sheet interface. After a user has associated a device event with the application, the event monitor will start the application when the event occurs.
+An application (or the application's installer) must call <b>IStillImage::RegisterLaunchApplication</b> so the still image event monitor will know of its existence. Users associate <a href="https://docs.microsoft.com/windows-hardware/drivers/image/still-image-device-events">Still Image Device Events</a> with registered applications by using Control Panel's property sheet interface. After a user has associated a device event with the application, the event monitor will start the application when the event occurs.
 
 The method writes the application's load path in the registry. Therefore, the method should be called each time the application runs, because the user might have moved the file and <b>GetModuleFileName</b> always returns the current file location.
 
@@ -107,9 +107,9 @@ You can include command arguments in the application's command line. When starti
 </table>
  
 
-The application can obtain the values specified for these arguments by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff543790">IStillImage::GetSTILaunchInformation</a>.
+The application can obtain the values specified for these arguments by calling <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff543790(v=vs.85)">IStillImage::GetSTILaunchInformation</a>.
 
-Before calling <b>IStillImage::RegisterLaunchApplication</b>, clients of the <b>IStillImage</b> COM interface must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff543804">IStillImage::StiCreateInstance</a> to obtain an <b>IStillImage</b> interface pointer.
+Before calling <b>IStillImage::RegisterLaunchApplication</b>, clients of the <b>IStillImage</b> COM interface must call <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff543804(v=vs.85)">IStillImage::StiCreateInstance</a> to obtain an <b>IStillImage</b> interface pointer.
 
 
 

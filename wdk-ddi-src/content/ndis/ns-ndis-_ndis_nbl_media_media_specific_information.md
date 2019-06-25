@@ -48,7 +48,7 @@ req.typenames: NDIS_NBL_MEDIA_SPECIFIC_INFORMATION, *PNDIS_NBL_MEDIA_SPECIFIC_IN
 
 The NDIS_NBL_MEDIA_SPECIFIC_INFORMATION structure specifies media-specific data that is associated
   with a 
-  <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure.
+  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
 
 
 ## -struct-fields
@@ -84,18 +84,18 @@ Any driver in an NDIS driver stack can allocate and manage media-specific inform
     media-specific information is in a linked list of NDIS_NBL_MEDIA_SPECIFIC_INFORMATION structures that
     contain driver-allocated and driver-defined data. Structures in the list contain any media-specific
     out-of-band (OOB) data that accompanies the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structures associated with a 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures associated with a 
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
 
 If a protocol driver allocated the OOB data, it configured the data for a send operation. If a
     miniport driver allocated the data, it configured the data for a receive indication.
 
 To access NDIS_NBL_MEDIA_SPECIFIC_INFORMATION structures in a linked list, use the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff566503">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-nbl-add-media-specific-info">
     NDIS_NBL_ADD_MEDIA_SPECIFIC_INFO</a>, 
-    <a href="https://msdn.microsoft.com/library/gg159261.aspx">
+    <a href="https://docs.microsoft.com/previous-versions/windows/embedded/gg159261(v=winembedded.80)">
     NDIS_NBL_GET_MEDIA_SPECIFIC_INFO</a>, and 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff566520">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-nbl-remove-media-specific-info">
     NDIS_NBL_REMOVE_MEDIA_SPECIFIC_INFO</a> macros.
 
 
@@ -106,30 +106,30 @@ To access NDIS_NBL_MEDIA_SPECIFIC_INFORMATION structures in a linked list, use t
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566503">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-nbl-add-media-specific-info">
    NDIS_NBL_ADD_MEDIA_SPECIFIC_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/gg159261.aspx">
+<a href="https://docs.microsoft.com/previous-versions/windows/embedded/gg159261(v=winembedded.80)">
    NDIS_NBL_GET_MEDIA_SPECIFIC_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566518">NDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_nbl_media_specific_information_ex">NDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566520">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-nbl-remove-media-specific-info">
    NDIS_NBL_REMOVE_MEDIA_SPECIFIC_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
  
 
  

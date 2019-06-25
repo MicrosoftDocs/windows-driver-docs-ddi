@@ -46,7 +46,7 @@ req.typenames: D3DKMT_WORKINGSETINFO
 ## -description
 
 
-The D3DKMT_WORKINGSETINFO structure describes information about the graphics adapter's working set that the OpenGL installable client driver (ICD) obtains by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547100">D3DKMTQueryAdapterInfo</a> function.
+The D3DKMT_WORKINGSETINFO structure describes information about the graphics adapter's working set that the OpenGL installable client driver (ICD) obtains by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/nf-d3dkmthk-d3dkmtqueryadapterinfo">D3DKMTQueryAdapterInfo</a> function.
 
 
 ## -struct-fields
@@ -56,7 +56,7 @@ The D3DKMT_WORKINGSETINFO structure describes information about the graphics ada
 
 ### -field Flags
 
-[out] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff548448">D3DKMT_WORKINGSETFLAGS</a> structure that indicates, in bit-field flags, working-set properties.
+[out] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_workingsetflags">D3DKMT_WORKINGSETFLAGS</a> structure that indicates, in bit-field flags, working-set properties.
 
 
 ### -field MinimumWorkingSetPercentile
@@ -74,15 +74,15 @@ The D3DKMT_WORKINGSETINFO structure describes information about the graphics ada
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547100">D3DKMTQueryAdapterInfo</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/nf-d3dkmthk-d3dkmtqueryadapterinfo">D3DKMTQueryAdapterInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548203">D3DKMT_QUERYADAPTERINFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_queryadapterinfo">D3DKMT_QUERYADAPTERINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548448">D3DKMT_WORKINGSETFLAGS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_workingsetflags">D3DKMT_WORKINGSETFLAGS</a>
  
 
  

@@ -96,7 +96,7 @@ Specifies the Diagnostic data buffer.
 
 
 
-<a href="https://msdn.microsoft.com/BAC83B5C-4F14-430D-9CEF-46812FC4DFED">STORAGE_DIAGNOSTIC_REQUEST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor-_storage_diagnostic_request">STORAGE_DIAGNOSTIC_REQUEST</a>
  
 
  

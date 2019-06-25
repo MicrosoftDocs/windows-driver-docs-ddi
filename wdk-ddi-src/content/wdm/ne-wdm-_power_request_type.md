@@ -78,9 +78,9 @@ Not used by drivers. For more information, see Remarks.
 
 
 
-This enumeration is used by the kernel-mode <a href="https://msdn.microsoft.com/library/windows/hardware/ff559658">PoClearPowerRequest</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff559762">PoSetPowerRequest</a> routines. Drivers that call these routines must specify the <b>PowerRequestSystemRequired</b> enumeration value.
+This enumeration is used by the kernel-mode <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-poclearpowerrequest">PoClearPowerRequest</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-posetpowerrequest">PoSetPowerRequest</a> routines. Drivers that call these routines must specify the <b>PowerRequestSystemRequired</b> enumeration value.
 
-The other three enumeration values—<b>PowerRequestDisplayRequired</b>, <b>PowerRequestAwayModeRequired</b>, and <b>PowerRequestExecutionRequired</b>—are not used by drivers. Applications specify these power request types in calls to the <a href="https://msdn.microsoft.com/85249de8-5832-4f25-bbd9-3576cfd1caa0">PowerSetRequest</a> and <a href="https://msdn.microsoft.com/794248b1-5aa8-495e-aca6-1a1f35dc9c7f">PowerClearRequest</a> functions.
+The other three enumeration values—<b>PowerRequestDisplayRequired</b>, <b>PowerRequestAwayModeRequired</b>, and <b>PowerRequestExecutionRequired</b>—are not used by drivers. Applications specify these power request types in calls to the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-powersetrequest">PowerSetRequest</a> and <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-powerclearrequest">PowerClearRequest</a> functions.
 
 A <b>PowerRequestDisplayRequired</b> power request has the following effects:
 
@@ -98,7 +98,7 @@ The session will not be automatically locked after a period of user inactivity. 
 
 </li>
 </ul>
-While a <b>PowerRequestAwayModeRequired</b> power request is in effect, if the user tries to put the computer into sleep mode (for example, by clicking <b>Start</b> and then clicking <b>Sleep</b>), the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559829">power manager</a> turns off audio and video so that the computer appears to be in sleep mode, but the computer continues to run.
+While a <b>PowerRequestAwayModeRequired</b> power request is in effect, if the user tries to put the computer into sleep mode (for example, by clicking <b>Start</b> and then clicking <b>Sleep</b>), the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/power-manager">power manager</a> turns off audio and video so that the computer appears to be in sleep mode, but the computer continues to run.
 
 While a <b>PowerRequestExecutionRequired</b> power request is in effect, the calling process continues to run instead of being suspended or terminated by process lifetime management (PLM) mechanisms. When and how long the process is allowed to run depends on the operating system and power policy settings. This type of power request is supported starting with Windows 8.
 
@@ -110,19 +110,19 @@ While a <b>PowerRequestExecutionRequired</b> power request is in effect, the cal
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559658">PoClearPowerRequest</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-poclearpowerrequest">PoClearPowerRequest</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559762">PoSetPowerRequest</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-posetpowerrequest">PoSetPowerRequest</a>
 
 
 
-<a href="https://msdn.microsoft.com/794248b1-5aa8-495e-aca6-1a1f35dc9c7f">PowerClearRequest</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-powerclearrequest">PowerClearRequest</a>
 
 
 
-<a href="https://msdn.microsoft.com/85249de8-5832-4f25-bbd9-3576cfd1caa0">PowerSetRequest</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-powersetrequest">PowerSetRequest</a>
  
 
  

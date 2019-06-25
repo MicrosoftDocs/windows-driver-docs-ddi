@@ -56,7 +56,7 @@ The D3DDDIARG_GETCAPTUREALLOCATIONHANDLE structure describes the parameters for 
 
 ### -field hResource
 
-[in] A handle to the capture resource that <a href="https://msdn.microsoft.com/fb12a12b-6fb7-46d4-aa71-4c88d34d6ff9">GetCaptureAllocationHandle</a> retrieves the allocation handle for.
+[in] A handle to the capture resource that <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_getcaptureallocationhandle">GetCaptureAllocationHandle</a> retrieves the allocation handle for.
 
 
 ### -field hAllocation
@@ -69,7 +69,7 @@ The D3DDDIARG_GETCAPTUREALLOCATIONHANDLE structure describes the parameters for 
 
 
 
-<a href="https://msdn.microsoft.com/fb12a12b-6fb7-46d4-aa71-4c88d34d6ff9">GetCaptureAllocationHandle</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_getcaptureallocationhandle">GetCaptureAllocationHandle</a>
  
 
  

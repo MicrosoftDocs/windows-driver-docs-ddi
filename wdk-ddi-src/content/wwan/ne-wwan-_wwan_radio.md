@@ -70,11 +70,11 @@ The radio power is turned on.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567925">NDIS_WWAN_SET_RADIO_STATE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndiswwan/ns-ndiswwan-_ndis_wwan_set_radio_state">NDIS_WWAN_SET_RADIO_STATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571225">WWAN_RADIO_STATE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_radio_state">WWAN_RADIO_STATE</a>
  
 
  

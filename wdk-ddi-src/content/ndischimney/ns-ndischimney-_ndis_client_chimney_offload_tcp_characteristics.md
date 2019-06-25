@@ -61,7 +61,7 @@ The NDIS_CLIENT_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS structure specifies a protoc
 
 The header of the NDIS_CLIENT_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS structure. The header is
      formatted as an 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure. The
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure. The
      NDIS_OBJECT_HEADER structure contains the revision number of the
      NDIS_CLIENT_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS structure and the size of the
      NDIS_CLIENT_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS structure, including the header, in bytes. The 
@@ -82,42 +82,42 @@ The chimney offload type. The only allowable value is
 ### -field TcpOffloadSendCompleteHandler
 
 The entry point of the driver's 
-     <a href="https://msdn.microsoft.com/6f9c7964-e475-421c-99d6-f4fc31a26f02">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/nc-ndischimney-tcp_offload_send_complete_handler">
      ProtocolTcpOffloadSendComplete</a> function.
 
 
 ### -field TcpOffloadReceiveCompleteHandler
 
 The entry point of the driver's 
-     <a href="https://msdn.microsoft.com/78201512-6b70-4b4b-9016-0f42fed41ac6">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/nc-ndischimney-tcp_offload_recv_complete_handler">
      ProtocolTcpOffloadReceiveComplete</a> function.
 
 
 ### -field TcpOffloadDisconnectCompleteHandler
 
 The entry point of the driver's 
-     <a href="https://msdn.microsoft.com/56244148-638f-4d93-82a6-2cced9744046">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/nc-ndischimney-tcp_offload_disconnect_complete_handler">
      ProtocolTcpOffloadDisconnectComplete</a> function.
 
 
 ### -field TcpOffloadForwardCompleteHandler
 
 The entry point of the driver's 
-     <a href="https://msdn.microsoft.com/02a11841-d98a-4c74-8922-458826e2911e">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/nc-ndischimney-tcp_offload_forward_complete_handler">
      ProtocolTcpOffloadForwardComplete</a> function.
 
 
 ### -field TcpOffloadEventHandler
 
 The entry point of the driver's 
-     <a href="https://msdn.microsoft.com/b64c0f9e-aa3d-43c5-bdf5-c40cae3929e3">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/nc-ndischimney-tcp_offload_event_handler">
      ProtocolTcpOffloadEvent</a> function.
 
 
 ### -field TcpOffloadReceiveIndicateHandler
 
 The entry point of the driver's 
-     <a href="https://msdn.microsoft.com/8a400515-3619-4fe9-8e08-638859442ea3">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/nc-ndischimney-tcp_offload_receive_indicate_handler">
      ProtocolTcpOffloadReceiveIndicate</a> function.
 
 
@@ -126,9 +126,9 @@ The entry point of the driver's
 
 
 To register its TCP chimney offload entry points, a protocol or intermediate driver calls the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff564550">NdisSetOptionalHandlers</a> function
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndissetoptionalhandlers">NdisSetOptionalHandlers</a> function
     in the context of the 
-    <a href="https://msdn.microsoft.com/342e23ad-d38b-4100-949a-220b8fbdcf6e">ProtocolSetOptions</a> function. To the 
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-set_options">ProtocolSetOptions</a> function. To the 
     <b>NdisSetOptionalHandlers</b> function, the protocol or intermediate driver passes a pointer to the
     NDIS_CLIENT_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS structure.
 
@@ -140,38 +140,38 @@ To register its TCP chimney offload entry points, a protocol or intermediate dri
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564550">NdisSetOptionalHandlers</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndissetoptionalhandlers">NdisSetOptionalHandlers</a>
 
 
 
-<a href="https://msdn.microsoft.com/342e23ad-d38b-4100-949a-220b8fbdcf6e">ProtocolSetOptions</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-set_options">ProtocolSetOptions</a>
 
 
 
-<a href="https://msdn.microsoft.com/56244148-638f-4d93-82a6-2cced9744046">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/nc-ndischimney-tcp_offload_disconnect_complete_handler">
    ProtocolTcpOffloadDisconnectComplete</a>
 
 
 
-<a href="https://msdn.microsoft.com/b64c0f9e-aa3d-43c5-bdf5-c40cae3929e3">ProtocolTcpOffloadEvent</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/nc-ndischimney-tcp_offload_event_handler">ProtocolTcpOffloadEvent</a>
 
 
 
-<a href="https://msdn.microsoft.com/78201512-6b70-4b4b-9016-0f42fed41ac6">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/nc-ndischimney-tcp_offload_recv_complete_handler">
    ProtocolTcpOffloadReceiveComplete</a>
 
 
 
-<a href="https://msdn.microsoft.com/8a400515-3619-4fe9-8e08-638859442ea3">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/nc-ndischimney-tcp_offload_receive_indicate_handler">
    ProtocolTcpOffloadReceiveIndicate</a>
 
 
 
-<a href="https://msdn.microsoft.com/6f9c7964-e475-421c-99d6-f4fc31a26f02">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/nc-ndischimney-tcp_offload_send_complete_handler">
    ProtocolTcpOffloadSendComplete</a>
  
 

@@ -75,7 +75,7 @@ The <b>KsAllocateDefaultClock</b> function returns STATUS_SUCCESS if successful,
 
 The internal DefaultClock.ReferenceCount element is initialized to one by the <b>KsAllocateDefaultClock</b> function. The element is incremented and decremented as each notification DPC is queued and completed. When the structure is to be freed, the element is used to determine if the owner of the clock should free the structure or if a pending DPC should free it asynchronously.
 
-When the clock is no longer needed, the driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff562559">KsFreeDefaultClock</a> to release any resources allocated for use with the clock.
+When the clock is no longer needed, the driver must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksfreedefaultclock">KsFreeDefaultClock</a> to release any resources allocated for use with the clock.
 
 
 
@@ -85,11 +85,11 @@ When the clock is no longer needed, the driver must call <a href="https://msdn.m
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560955">KsAllocateDefaultClockEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksallocatedefaultclockex">KsAllocateDefaultClockEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562559">KsFreeDefaultClock</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksfreedefaultclock">KsFreeDefaultClock</a>
  
 
  

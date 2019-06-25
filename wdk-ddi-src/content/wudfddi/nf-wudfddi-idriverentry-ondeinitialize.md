@@ -58,7 +58,7 @@ The <b>OnDeinitialize</b> method performs any operations that are necessary befo
 
 ### -param pWdfDriver [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558893">IWDFDriver</a> interface for the driver object that represents the driver that the system unloads.
+A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nn-wudfddi-iwdfdriver">IWDFDriver</a> interface for the driver object that represents the driver that the system unloads.
 
 
 ## -returns
@@ -74,7 +74,7 @@ None
 
 
 
-The framework creates a new driver object for each driver that is loaded in the driver host process. When a driver is about to be unloaded from the host process, the framework calls <b>OnDeinitialize</b> to notify the driver of the departure and passes the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558893">IWDFDriver</a> interface in the call. The system unloads the driver after <b>OnDeinitialize</b> returns. 
+The framework creates a new driver object for each driver that is loaded in the driver host process. When a driver is about to be unloaded from the host process, the framework calls <b>OnDeinitialize</b> to notify the driver of the departure and passes the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nn-wudfddi-iwdfdriver">IWDFDriver</a> interface in the call. The system unloads the driver after <b>OnDeinitialize</b> returns. 
 
 
 
@@ -84,11 +84,11 @@ The framework creates a new driver object for each driver that is loaded in the 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554885">IDriverEntry</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nn-wudfddi-idriverentry">IDriverEntry</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558893">IWDFDriver</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nn-wudfddi-iwdfdriver">IWDFDriver</a>
  
 
  

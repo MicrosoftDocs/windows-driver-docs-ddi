@@ -56,7 +56,7 @@ The WWAN_DEVICE_SLOT_MAPPING_INFO structure represents the executor-to-slot mapp
 
 ### -field SlotMapListHeader
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571208">WWAN_LIST_HEADER</a> has a new structure, <b>WwanStructSlotIndex</b>, which represents the slot index the <i>i-th</i> executor is mapped to (where 0 <= i <= (Number of mappings -1)).
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_list_header">WWAN_LIST_HEADER</a> has a new structure, <b>WwanStructSlotIndex</b>, which represents the slot index the <i>i-th</i> executor is mapped to (where 0 <= i <= (Number of mappings -1)).
 
 
 ## -see-also
@@ -64,19 +64,19 @@ The WWAN_DEVICE_SLOT_MAPPING_INFO structure represents the executor-to-slot mapp
 
 
 
-<a href="https://msdn.microsoft.com/7825C20E-FB56-420D-B516-1ADA0C7C382E">NDIS_STATUS_WWAN_DEVICE_SLOT_MAPPING_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-wwan-device-slot-mappings">NDIS_STATUS_WWAN_DEVICE_SLOT_MAPPING_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/18437B56-B84C-499B-8D4F-F65B5B8221A6">NDIS_WWAN_DEVICE_SLOT_MAPPING_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndiswwan/ns-ndiswwan-_ndis_wwan_device_slot_mapping_info">NDIS_WWAN_DEVICE_SLOT_MAPPING_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/5DAE5A36-1A2B-46DF-8CF1-FAC8B98460A8">NDIS_WWAN_SET_DEVICE_SLOT_MAPPING_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndiswwan/ns-ndiswwan-_ndis_wwan_set_device_slot_mapping_info">NDIS_WWAN_SET_DEVICE_SLOT_MAPPING_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/54AF3447-7918-49CE-945A-DC8DC1E78CBF">OID_WWAN_DEVICE_SLOT_MAPPING_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-device-slot-mappings">OID_WWAN_DEVICE_SLOT_MAPPING_INFO</a>
  
 
  

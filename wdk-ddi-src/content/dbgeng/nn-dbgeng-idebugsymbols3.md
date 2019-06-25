@@ -60,7 +60,7 @@ req.typenames:
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugSymbols3</b> interface inherits from <a href="https://msdn.microsoft.com/library/windows/hardware/ff550864">IDebugSymbols2</a>. <b>IDebugSymbols3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugSymbols3</b> interface inherits from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugsymbols2">IDebugSymbols2</a>. <b>IDebugSymbols3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>IDebugSymbols3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537937">AddSyntheticModule</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols3-addsyntheticmodule">AddSyntheticModule</a>
 </td>
 <td align="left" width="63%">
 Adds a synthetic module to the module list the debugger maintains for the current process.
@@ -84,7 +84,7 @@ Adds a synthetic module to the module list the debugger maintains for the curren
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537940">AddSyntheticModuleWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols3-addsyntheticmodulewide">AddSyntheticModuleWide</a>
 </td>
 <td align="left" width="63%">
 Adds a synthetic module to the module list the debugger maintains for the current process.
@@ -93,7 +93,7 @@ Adds a synthetic module to the module list the debugger maintains for the curren
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537943">AddSyntheticSymbol</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols3-addsyntheticsymbol">AddSyntheticSymbol</a>
 </td>
 <td align="left" width="63%">
 Adds a synthetic symbol to a module in the current process. (ANSI version)
@@ -102,7 +102,7 @@ Adds a synthetic symbol to a module in the current process. (ANSI version)
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537946">AddSyntheticSymbolWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols3-addsyntheticsymbolwide">AddSyntheticSymbolWide</a>
 </td>
 <td align="left" width="63%">
 Adds a synthetic symbol to a module in the current process.
@@ -112,7 +112,7 @@ Adds a synthetic symbol to a module in the current process.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538094">AppendImagePathWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols3-appendimagepathwide">AppendImagePathWide</a>
 </td>
 <td align="left" width="63%">
 Appends directories to the executable image path.
@@ -121,7 +121,7 @@ Appends directories to the executable image path.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538107">AppendSourcePathWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols3-appendsourcepathwide">AppendSourcePathWide</a>
 </td>
 <td align="left" width="63%">
 Appends directories to the source path.
@@ -130,7 +130,7 @@ Appends directories to the source path.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538113">AppendSymbolPathWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols3-appendsymbolpathwide">AppendSymbolPathWide</a>
 </td>
 <td align="left" width="63%">
 Appends directories to the symbol path.
@@ -139,7 +139,7 @@ Appends directories to the symbol path.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540096">CreateSymbolGroup2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols3-createsymbolgroup2">CreateSymbolGroup2</a>
 </td>
 <td align="left" width="63%">
 Creates a new symbol group.
@@ -148,7 +148,7 @@ Creates a new symbol group.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545445">FindSourceFileWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols3-findsourcefilewide">FindSourceFileWide</a>
 </td>
 <td align="left" width="63%">
 Searches the source path for a specified source file.
@@ -157,7 +157,7 @@ Searches the source path for a specified source file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545723">GetConstantNameWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols3-getconstantnamewide">GetConstantNameWide</a>
 </td>
 <td align="left" width="63%">
 Returns the name of the specified constant.
@@ -166,7 +166,7 @@ Returns the name of the specified constant.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545862">GetCurrentScopeFrameIndex</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols3-getcurrentscopeframeindex">GetCurrentScopeFrameIndex</a>
 </td>
 <td align="left" width="63%">
 Returns the index of the current stack frame in the call stack.
@@ -175,7 +175,7 @@ Returns the index of the current stack frame in the call stack.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546753">GetFieldNameWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols3-getfieldnamewide">GetFieldNameWide</a>
 </td>
 <td align="left" width="63%">
 Returns the name of a field within a structure.
@@ -184,7 +184,7 @@ Returns the name of a field within a structure.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546767">GetFieldOffsetWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols3-getfieldoffsetwide">GetFieldOffsetWide</a>
 </td>
 <td align="left" width="63%">
 Returns the offset of a field from the base address of an instance of a type.
@@ -193,7 +193,7 @@ Returns the offset of a field from the base address of an instance of a type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546771">GetFieldTypeAndOffset</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols3-getfieldtypeandoffset">GetFieldTypeAndOffset</a>
 </td>
 <td align="left" width="63%">
 Returns the type of a field and its offset within a container. (ANSI version)
@@ -202,7 +202,7 @@ Returns the type of a field and its offset within a container. (ANSI version)
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546775">GetFieldTypeAndOffsetWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols3-getfieldtypeandoffsetwide">GetFieldTypeAndOffsetWide</a>
 </td>
 <td align="left" width="63%">
 Returns the type of a field and its offset within a container. (Unicode version)
@@ -211,7 +211,7 @@ Returns the type of a field and its offset within a container. (Unicode version)
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546817">GetFunctionEntryByOffset</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols3-getfunctionentrybyoffset">GetFunctionEntryByOffset</a>
 </td>
 <td align="left" width="63%">
 Returns the function entry information for a function.
@@ -220,7 +220,7 @@ Returns the function entry information for a function.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546857">GetImagePathWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols3-getimagepathwide">GetImagePathWide</a>
 </td>
 <td align="left" width="63%">
 Returns the executable image path.
@@ -229,7 +229,7 @@ Returns the executable image path.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547008">GetLineByOffsetWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols3-getlinebyoffsetwide">GetLineByOffsetWide</a>
 </td>
 <td align="left" width="63%">
 Returns the source filename and the line number within the source file of an instruction in the target.
@@ -238,7 +238,7 @@ Returns the source filename and the line number within the source file of an ins
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547102">GetModuleByModuleName2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols3-getmodulebymodulename2">GetModuleByModuleName2</a>
 </td>
 <td align="left" width="63%">
 Searches through the process's modules for one with the specified name.
@@ -247,7 +247,7 @@ Searches through the process's modules for one with the specified name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547116">GetModuleByModuleName2Wide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols3-getmodulebymodulename2wide">GetModuleByModuleName2Wide</a>
 </td>
 <td align="left" width="63%">
 Searches through the process's modules for one with the specified name.
@@ -256,7 +256,7 @@ Searches through the process's modules for one with the specified name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547126">GetModuleByModuleNameWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols3-getmodulebymodulenamewide">GetModuleByModuleNameWide</a>
 </td>
 <td align="left" width="63%">
 Searches through the target's modules for one with the specified name.
@@ -265,7 +265,7 @@ Searches through the target's modules for one with the specified name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547138">GetModuleByOffset2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols3-getmodulebyoffset2">GetModuleByOffset2</a>
 </td>
 <td align="left" width="63%">
 Searches through the process's modules for one whose memory allocation includes the specified location.
@@ -274,7 +274,7 @@ Searches through the process's modules for one whose memory allocation includes 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547154">GetModuleNameStringWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols3-getmodulenamestringwide">GetModuleNameStringWide</a>
 </td>
 <td align="left" width="63%">
 Returns the name of the specified module.
@@ -283,7 +283,7 @@ Returns the name of the specified module.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547177">GetModuleVersionInformationWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols3-getmoduleversioninformationwide">GetModuleVersionInformationWide</a>
 </td>
 <td align="left" width="63%">
 Returns version information for the specified module.
@@ -292,7 +292,7 @@ Returns version information for the specified module.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547186">GetNameByOffsetWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols3-getnamebyoffsetwide">GetNameByOffsetWide</a>
 </td>
 <td align="left" width="63%">
 Returns the name of the symbol at the specified location in the target's virtual address space.
@@ -301,7 +301,7 @@ Returns the name of the symbol at the specified location in the target's virtual
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547837">GetNearNameByOffsetWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols3-getnearnamebyoffsetwide">GetNearNameByOffsetWide</a>
 </td>
 <td align="left" width="63%">
 Returns the name of a symbol that is located near the specified location.
@@ -310,7 +310,7 @@ Returns the name of a symbol that is located near the specified location.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547859">GetNextSymbolMatchWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols3-getnextsymbolmatchwide">GetNextSymbolMatchWide</a>
 </td>
 <td align="left" width="63%">
 Returns the next symbol found in a symbol search.
@@ -319,7 +319,7 @@ Returns the next symbol found in a symbol search.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548026">GetOffsetByLineWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols3-getoffsetbylinewide">GetOffsetByLineWide</a>
 </td>
 <td align="left" width="63%">
 Returns the location of the instruction that corresponds to a specified line in the source code.
@@ -328,7 +328,7 @@ Returns the location of the instruction that corresponds to a specified line in 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548042">GetOffsetByNameWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols3-getoffsetbynamewide">GetOffsetByNameWide</a>
 </td>
 <td align="left" width="63%">
 Returns the location of a symbol identified by name.
@@ -338,7 +338,7 @@ Returns the location of a symbol identified by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548287">GetScopeSymbolGroup2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols3-getscopesymbolgroup2">GetScopeSymbolGroup2</a>
 </td>
 <td align="left" width="63%">
 Returns a symbol group containing the symbols in the current target's scope.
@@ -347,7 +347,7 @@ Returns a symbol group containing the symbols in the current target's scope.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548305">GetSourceEntriesByLine</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols3-getsourceentriesbyline">GetSourceEntriesByLine</a>
 </td>
 <td align="left" width="63%">
 Queries symbol information and returns locations in the target's memory that correspond to lines in a source file. (ANSI version)
@@ -356,7 +356,7 @@ Queries symbol information and returns locations in the target's memory that cor
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548312">GetSourceEntriesByLineWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols3-getsourceentriesbylinewide">GetSourceEntriesByLineWide</a>
 </td>
 <td align="left" width="63%">
 Queries symbol information and returns locations in the target's memory that correspond to lines in a source file. (Unicode version)
@@ -400,7 +400,7 @@ Queries symbol information and returns locations in the target's memory that cor
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548346">GetSourceFileLineOffsetsWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols3-getsourcefilelineoffsetswide">GetSourceFileLineOffsetsWide</a>
 </td>
 <td align="left" width="63%">
 Maps each line in a source file to a location in the target's memory.
@@ -409,7 +409,7 @@ Maps each line in a source file to a location in the target's memory.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548375">GetSourcePathElementWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols3-getsourcepathelementwide">GetSourcePathElementWide</a>
 </td>
 <td align="left" width="63%">
 Returns an element from the source path.
@@ -418,7 +418,7 @@ Returns an element from the source path.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548381">GetSourcePathWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols3-getsourcepathwide">GetSourcePathWide</a>
 </td>
 <td align="left" width="63%">
 Returns the source path.
@@ -427,7 +427,7 @@ Returns the source path.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548458">GetSymbolEntriesByName</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols3-getsymbolentriesbyname">GetSymbolEntriesByName</a>
 </td>
 <td align="left" width="63%">
 Returns the symbols whose names match a given pattern. (ANSI version)
@@ -436,7 +436,7 @@ Returns the symbols whose names match a given pattern. (ANSI version)
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548463">GetSymbolEntriesByNameWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols3-getsymbolentriesbynamewide">GetSymbolEntriesByNameWide</a>
 </td>
 <td align="left" width="63%">
 Returns the symbols whose names match a given pattern.
@@ -446,7 +446,7 @@ Returns the symbols whose names match a given pattern.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548476">GetSymbolEntriesByOffset</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols3-getsymbolentriesbyoffset">GetSymbolEntriesByOffset</a>
 </td>
 <td align="left" width="63%">
 Returns the symbols which are located at a specified address.
@@ -469,7 +469,7 @@ Returns the symbols which are located at a specified address.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548484">GetSymbolEntryInformation</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols3-getsymbolentryinformation">GetSymbolEntryInformation</a>
 </td>
 <td align="left" width="63%">
 Returns the symbol entry information for a symbol.
@@ -485,7 +485,7 @@ Returns the symbol entry information for a symbol.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548491">GetSymbolEntryString</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols3-getsymbolentrystring">GetSymbolEntryString</a>
 </td>
 <td align="left" width="63%">
 Returns string information for the specified symbol. (ANSI version)
@@ -494,7 +494,7 @@ Returns string information for the specified symbol. (ANSI version)
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548496">GetSymbolEntryStringWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols3-getsymbolentrystringwide">GetSymbolEntryStringWide</a>
 </td>
 <td align="left" width="63%">
 Returns string information for the specified symbol.
@@ -504,7 +504,7 @@ Returns string information for the specified symbol.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549119">GetSymbolModuleWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols3-getsymbolmodulewide">GetSymbolModuleWide</a>
 </td>
 <td align="left" width="63%">
 Returns the base address of module which contains the specified symbol.
@@ -513,7 +513,7 @@ Returns the base address of module which contains the specified symbol.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549161">GetSymbolPathWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols3-getsymbolpathwide">GetSymbolPathWide</a>
 </td>
 <td align="left" width="63%">
 Returns the symbol path.
@@ -522,7 +522,7 @@ Returns the symbol path.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549182">GetSymbolTypeIdWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols3-getsymboltypeidwide">GetSymbolTypeIdWide</a>
 </td>
 <td align="left" width="63%">
 Returns the type ID and module of the specified symbol.
@@ -531,7 +531,7 @@ Returns the type ID and module of the specified symbol.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549387">GetTypeIdWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols3-gettypeidwide">GetTypeIdWide</a>
 </td>
 <td align="left" width="63%">
 Looks up the specified type and return its type ID.
@@ -540,7 +540,7 @@ Looks up the specified type and return its type ID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549419">GetTypeNameWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols3-gettypenamewide">GetTypeNameWide</a>
 </td>
 <td align="left" width="63%">
 Returns the name of the type symbol specified by its type ID and module.
@@ -556,7 +556,7 @@ Returns the name of the type symbol specified by its type ID and module.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553258">OutputSymbolByOffset</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols3-outputsymbolbyoffset">OutputSymbolByOffset</a>
 </td>
 <td align="left" width="63%">
 Looks up a symbol by address and prints the symbol name and other symbol information to the debugger console.
@@ -565,7 +565,7 @@ Looks up a symbol by address and prints the symbol name and other symbol informa
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554384">ReloadWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols3-reloadwide">ReloadWide</a>
 </td>
 <td align="left" width="63%">
 Deletes the engine's symbol information for the specified module and reload these symbols as needed.
@@ -574,7 +574,7 @@ Deletes the engine's symbol information for the specified module and reload thes
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554536">RemoveSyntheticModule</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols3-removesyntheticmodule">RemoveSyntheticModule</a>
 </td>
 <td align="left" width="63%">
 Removes a synthetic module from the module list the debugger maintains for the current process.
@@ -583,7 +583,7 @@ Removes a synthetic module from the module list the debugger maintains for the c
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554542">RemoveSyntheticSymbol</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols3-removesyntheticsymbol">RemoveSyntheticSymbol</a>
 </td>
 <td align="left" width="63%">
 Removes a synthetic symbol from a module in the current process.
@@ -592,7 +592,7 @@ Removes a synthetic symbol from a module in the current process.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556710">SetImagePathWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols3-setimagepathwide">SetImagePathWide</a>
 </td>
 <td align="left" width="63%">
 Sets the executable image path.
@@ -601,7 +601,7 @@ Sets the executable image path.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556774">SetScopeFrameByIndex</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols3-setscopeframebyindex">SetScopeFrameByIndex</a>
 </td>
 <td align="left" width="63%">
 Sets the current scope to the scope of one of the frames on the call stack.
@@ -617,7 +617,7 @@ Sets the current scope to the scope of one of the frames on the call stack.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556778">SetScopeFromStoredEvent</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols3-setscopefromstoredevent">SetScopeFromStoredEvent</a>
 </td>
 <td align="left" width="63%">
 Sets the current scope to the scope of the stored event.
@@ -626,7 +626,7 @@ Sets the current scope to the scope of the stored event.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556788">SetSourcePathWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols3-setsourcepathwide">SetSourcePathWide</a>
 </td>
 <td align="left" width="63%">
 Sets the source path.
@@ -635,7 +635,7 @@ Sets the source path.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556804">SetSymbolPathWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols3-setsymbolpathwide">SetSymbolPathWide</a>
 </td>
 <td align="left" width="63%">
 Sets the symbol path.
@@ -644,7 +644,7 @@ Sets the symbol path.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558816">StartSymbolMatchWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols3-startsymbolmatchwide">StartSymbolMatchWide</a>
 </td>
 <td align="left" width="63%">
 Initializes a search for symbols whose names match a given pattern.
@@ -659,11 +659,11 @@ Initializes a search for symbols whose names match a given pattern.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550856">IDebugSymbols</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugsymbols">IDebugSymbols</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550864">IDebugSymbols2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugsymbols2">IDebugSymbols2</a>
  
 
  

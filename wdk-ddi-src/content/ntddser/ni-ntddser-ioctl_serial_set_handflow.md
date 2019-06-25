@@ -48,9 +48,9 @@ req.typenames:
 
 The <b>IOCTL_SERIAL_SET_HANDFLOW</b> request sets the configuration of handshake flow control. The serial controller driver  verifies the specified handshake flow control information.
 
-To obtain handshake flow control information, a client can use an <a href="https://msdn.microsoft.com/library/windows/hardware/ff546574">IOCTL_SERIAL_GET_HANDFLOW</a> request.
+To obtain handshake flow control information, a client can use an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddser/ni-ntddser-ioctl_serial_get_handflow">IOCTL_SERIAL_GET_HANDFLOW</a> request.
 
-For more information about settings for handshake flow control, see <a href="https://msdn.microsoft.com/library/windows/hardware/jj680685">SERIAL_HANDFLOW</a>.
+For more information about settings for handshake flow control, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddser/ns-ntddser-_serial_handflow">SERIAL_HANDFLOW</a>.
 
 
 ## -ioctlparameters
@@ -108,11 +108,11 @@ The <b>Status</b> member is set to one of the <a href="https://docs.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546574">IOCTL_SERIAL_GET_HANDFLOW</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddser/ni-ntddser-ioctl_serial_get_handflow">IOCTL_SERIAL_GET_HANDFLOW</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj680685">SERIAL_HANDFLOW</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddser/ns-ntddser-_serial_handflow">SERIAL_HANDFLOW</a>
  
 
  

@@ -57,14 +57,14 @@ The HID source driver calls this method to start the virtual HID device.
 
 ### -param VhfHandle [in]
 
-A handle to a virtual HID device that your HID source driver received in the previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/dn925036">VhfCreate</a>.
+A handle to a virtual HID device that your HID source driver received in the previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vhf/nf-vhf-vhfcreate">VhfCreate</a>.
 
 
 ## -returns
 
 
 
-If the <b>VhfStart</b> call succeeds, the method returns STATUS_SUCCESS. Otherwise an appropriate <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS </a> value.
+If the <b>VhfStart</b> call succeeds, the method returns STATUS_SUCCESS. Otherwise an appropriate <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS </a> value.
 
 
 

@@ -46,7 +46,7 @@ req.typenames: INTERNAL_I8042_START_INFORMATION, *PINTERNAL_I8042_START_INFORMAT
 ## -description
 
 
-INTERNAL_I8042_START_INFORMATION specifies the <a href="https://msdn.microsoft.com/5a140cc0-ecc5-46ff-be3f-3c92f0f67dca">interrupt object</a> that an optional, vendor-supplied, upper-level filter device driver can use to synchronize its operation with an I8042prt ISR. 
+INTERNAL_I8042_START_INFORMATION specifies the <a href="https://docs.microsoft.com/windows-hardware/drivers/">interrupt object</a> that an optional, vendor-supplied, upper-level filter device driver can use to synchronize its operation with an I8042prt ISR. 
 
 
 ## -struct-fields
@@ -73,7 +73,7 @@ Reserved for future use.
 
 
 
-This structure is used with <a href="https://msdn.microsoft.com/library/windows/hardware/ff541257">IOCTL_INTERNAL_I8042_KEYBOARD_START_INFORMATION</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff541265">IOCTL_INTERNAL_I8042_MOUSE_START_INFORMATION</a> requests.
+This structure is used with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdd8042/ni-ntdd8042-ioctl_internal_i8042_keyboard_start_information">IOCTL_INTERNAL_I8042_KEYBOARD_START_INFORMATION</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdd8042/ni-ntdd8042-ioctl_internal_i8042_mouse_start_information">IOCTL_INTERNAL_I8042_MOUSE_START_INFORMATION</a> requests.
 
 
 
@@ -83,11 +83,11 @@ This structure is used with <a href="https://msdn.microsoft.com/library/windows/
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541257">IOCTL_INTERNAL_I8042_KEYBOARD_START_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdd8042/ni-ntdd8042-ioctl_internal_i8042_keyboard_start_information">IOCTL_INTERNAL_I8042_KEYBOARD_START_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541265">IOCTL_INTERNAL_I8042_MOUSE_START_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdd8042/ni-ntdd8042-ioctl_internal_i8042_mouse_start_information">IOCTL_INTERNAL_I8042_MOUSE_START_INFORMATION</a>
  
 
  

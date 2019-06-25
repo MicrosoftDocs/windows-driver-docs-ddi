@@ -105,7 +105,7 @@ Specifies that the allocated memory will be initialized to zero. Otherwise, the 
 
 ### -param Size [in]
 
-Number of bytes to be allocated. If the heap, specified by the <i>HeapHandle</i> parameter, is a nongrowable heap, <i>Size</i> must be less than or equal to the heap's virtual memory threshold. (For more information, see the <b>VirtualMemoryThreshold</b> member of the <i>Parameters</i> parameter to <a href="https://msdn.microsoft.com/library/windows/hardware/ff552159">RtlCreateHeap</a>.) 
+Number of bytes to be allocated. If the heap, specified by the <i>HeapHandle</i> parameter, is a nongrowable heap, <i>Size</i> must be less than or equal to the heap's virtual memory threshold. (For more information, see the <b>VirtualMemoryThreshold</b> member of the <i>Parameters</i> parameter to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-rtlcreateheap">RtlCreateHeap</a>.) 
 
 
 ## -returns
@@ -184,7 +184,7 @@ The process has multiple threads, and the application provides its own mechanism
 
 </li>
 </ul>
-<div class="alert"><b>Note</b>    To guard against an access violation, use structured exception handling to protect any code that writes to or reads from a heap. For more information about structured exception handling with memory accesses, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff546823">Handling Exceptions</a>. </div>
+<div class="alert"><b>Note</b>    To guard against an access violation, use structured exception handling to protect any code that writes to or reads from a heap. For more information about structured exception handling with memory accesses, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/handling-exceptions">Handling Exceptions</a>. </div>
 <div> </div>
 
 
@@ -194,15 +194,15 @@ The process has multiple threads, and the application provides its own mechanism
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552159">RtlCreateHeap</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-rtlcreateheap">RtlCreateHeap</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552233">RtlDestroyHeap</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-rtldestroyheap">RtlDestroyHeap</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552276">RtlFreeHeap</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-rtlfreeheap">RtlFreeHeap</a>
  
 
  

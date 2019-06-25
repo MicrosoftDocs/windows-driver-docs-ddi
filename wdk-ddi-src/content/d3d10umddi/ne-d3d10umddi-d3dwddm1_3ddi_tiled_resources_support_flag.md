@@ -76,7 +76,7 @@ If this flag is set, the Direct3D runtime assumes that the support level of the 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn475744">D3DWDDM1_3DDI_D3D11_OPTIONS_DATA1</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ns-d3d10umddi-d3dwddm1_3ddi_d3d11_options_data1">D3DWDDM1_3DDI_D3D11_OPTIONS_DATA1</a>
  
 
  

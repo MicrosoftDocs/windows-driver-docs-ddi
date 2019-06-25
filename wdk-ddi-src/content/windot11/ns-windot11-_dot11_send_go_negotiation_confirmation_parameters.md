@@ -48,7 +48,7 @@ product:
 ## -description
 
 
-<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The confirmation parameters for a Group Owner (GO) negotiation response indication are specified in a <b>DOT11_SEND_GO_NEGOTIATION_CONFIRMATION_PARAMETERS</b> structure. This structure is sent with an <a href="https://msdn.microsoft.com/library/windows/hardware/hh451803">OID_DOT11_WFD_SEND_GO_NEGOTIATION_CONFIRMATION</a> request to the miniport.
+<div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The confirmation parameters for a Group Owner (GO) negotiation response indication are specified in a <b>DOT11_SEND_GO_NEGOTIATION_CONFIRMATION_PARAMETERS</b> structure. This structure is sent with an <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-wfd-send-go-negotiation-confirmation">OID_DOT11_WFD_SEND_GO_NEGOTIATION_CONFIRMATION</a> request to the miniport.
 
 
 ## -syntax
@@ -113,12 +113,12 @@ The dialog token received from the GO negotiation response packet. This dialog t
 
 ### -field ResponseContext
 
-Miniport context data included in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439791">NDIS_STATUS_DOT11_WFD_RECEIVED_GO_NEGOTIATION_RESPONSE</a> indication.
+Miniport context data included in the <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-dot11-wfd-received-go-negotiation-response">NDIS_STATUS_DOT11_WFD_RECEIVED_GO_NEGOTIATION_RESPONSE</a> indication.
 
 
 ### -field uSendTimeout
 
-The maximum time, in milliseconds, allowed to send the GO negotiation response. If the timeout expires before the miniport has successfully transmitted the GO negotiation confirmation, it should indicate the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451706">NDIS_STATUS_DOT11_WFD_GO_NEGOTIATION_CONFIRMATION_SEND_COMPLETE</a> with a failure status.
+The maximum time, in milliseconds, allowed to send the GO negotiation response. If the timeout expires before the miniport has successfully transmitted the GO negotiation confirmation, it should indicate the <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-dot11-wfd-go-negotiation-confirmation-send-complete">NDIS_STATUS_DOT11_WFD_GO_NEGOTIATION_CONFIRMATION_SEND_COMPLETE</a> with a failure status.
 
 
 ### -field Status
@@ -153,15 +153,15 @@ The length, in bytes, of the array of IEs provided at <b>uIEsOffset</b>.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439791">NDIS_STATUS_DOT11_WFD_RECEIVED_GO_NEGOTIATION_RESPONSE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-dot11-wfd-received-go-negotiation-response">NDIS_STATUS_DOT11_WFD_RECEIVED_GO_NEGOTIATION_RESPONSE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451803">OID_DOT11_WFD_SEND_GO_NEGOTIATION_CONFIRMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-wfd-send-go-negotiation-confirmation">OID_DOT11_WFD_SEND_GO_NEGOTIATION_CONFIRMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451706">NDIS_STATUS_DOT11_WFD_GO_NEGOTIATION_CONFIRMATION_SEND_COMPLETE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-dot11-wfd-go-negotiation-confirmation-send-complete">NDIS_STATUS_DOT11_WFD_GO_NEGOTIATION_CONFIRMATION_SEND_COMPLETE</a>
 
 
 

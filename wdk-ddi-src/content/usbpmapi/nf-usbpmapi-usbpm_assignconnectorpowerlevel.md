@@ -61,7 +61,7 @@ Attempts a PD contract renegotiation with the specified voltage/current/power va
 Specifying 0 as the voltage/current/power value for a connector in power sink role  causes the connector to stop charging.
 
 ## -returns
-Returns STATUS_SUCCESS if the operation succeeds. Otherwise, returns an appropriate [NTSTATUS](https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505) value.
+Returns STATUS_SUCCESS if the operation succeeds. Otherwise, returns an appropriate [NTSTATUS](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values) value.
 
 ## -remarks
 

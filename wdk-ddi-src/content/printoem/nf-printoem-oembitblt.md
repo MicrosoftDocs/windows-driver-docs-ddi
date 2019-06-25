@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <code>OEMBitBlt</code> function provides general bit-block transfer capabilities between <a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">device-managed surfaces</a>, between GDI-managed standard-format bitmaps, or between a device-managed surface and a GDI-managed standard-format bitmap.
+The <code>OEMBitBlt</code> function provides general bit-block transfer capabilities between <a href="https://docs.microsoft.com/windows-hardware/drivers/">device-managed surfaces</a>, between GDI-managed standard-format bitmaps, or between a device-managed surface and a GDI-managed standard-format bitmap.
 
 
 ## -parameters

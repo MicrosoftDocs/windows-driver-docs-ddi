@@ -46,7 +46,7 @@ req.typenames: STI_DIAG, *LPSTI_DIAG
 ## -description
 
 
-The STI_DIAG structure is used as a parameter to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543736">IStiDevice::Diagnostic</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff543814">IStiUSD::Diagnostic</a> methods.
+The STI_DIAG structure is used as a parameter to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sti/nf-sti-istidevice-diagnostic">IStiDevice::Diagnostic</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/stiusd/nf-stiusd-istiusd-diagnostic">IStiUSD::Diagnostic</a> methods.
 
 
 ## -struct-fields
@@ -76,5 +76,5 @@ Reserved for future use.
 
 ### -field sErrorInfo
 
-Structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff548396">STI_ERROR_INFO</a>.
+Structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sti/ns-sti-_error_infow">STI_ERROR_INFO</a>.
 

@@ -48,7 +48,7 @@ req.typenames:
 
 User-mode applications use this IOCTL to retrieve a protocol value that identifies the card as either an SD card or an MMC card. For a description of this command, see the <i>Secure Digital I/O (SDIO)</i> specification.
 
-To perform this operation, call the <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> function (described in the Microsoft Windows SDK documentation) using the following parameters.
+To perform this operation, call the <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function (described in the Microsoft Windows SDK documentation) using the following parameters.
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -94,7 +94,7 @@ Not used with this IOCTL. Caller should pass in a value of 0.
 </dd>
 <dt><a id="lpOutBuffer"></a><a id="lpoutbuffer"></a><a id="LPOUTBUFFER"></a><i>lpOutBuffer</i></dt>
 <dd>
-Pointer to a <a href="https://msdn.microsoft.com/14a8b20a-801a-4510-8e65-0ede7b5aa372">SFFDISK_QUERY_DEVICE_PROTOCOL_DATA</a> structure in a user-supplied buffer that contains the results data. The <b>ProtocolGUID</b> member of the SFFDISK_QUERY_DEVICE_PROTOCOL_DATA structure contains a GUID that identifies the card as either an SD card or an MMC card. If the operation fails and <b>GetLastError</b> returns the error code STATUS_BUFFER_TOO_SMALL, the output buffer was not large enough to hold the results data. 
+Pointer to a <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff538140(v=vs.85)">SFFDISK_QUERY_DEVICE_PROTOCOL_DATA</a> structure in a user-supplied buffer that contains the results data. The <b>ProtocolGUID</b> member of the SFFDISK_QUERY_DEVICE_PROTOCOL_DATA structure contains a GUID that identifies the card as either an SD card or an MMC card. If the operation fails and <b>GetLastError</b> returns the error code STATUS_BUFFER_TOO_SMALL, the output buffer was not large enough to hold the results data. 
 
 </dd>
 <dt><a id="nOutBufferSize"></a><a id="noutbuffersize"></a><a id="NOUTBUFFERSIZE"></a><i>nOutBufferSize</i></dt>
@@ -117,9 +117,9 @@ If this is an overlapped operation, you can retrieve the number of bytes returne
 <dd>
 Pointer to an OVERLAPPED structure, as described in the Windows SDK documentation. 
 
-If the caller opened the device with the FILE_FLAG_OVERLAPPED flag, <i>lpOverlapped</i> must point to a valid OVERLAPPED structure. In this case, the system executes <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> as an overlapped, asynchronous operation. If the caller opened the device with the FILE_FLAG_OVERLAPPED flag, and <i>lpOverlapped</i> is <b>NULL</b>, the function fails in unpredictable ways.
+If the caller opened the device with the FILE_FLAG_OVERLAPPED flag, <i>lpOverlapped</i> must point to a valid OVERLAPPED structure. In this case, the system executes <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> as an overlapped, asynchronous operation. If the caller opened the device with the FILE_FLAG_OVERLAPPED flag, and <i>lpOverlapped</i> is <b>NULL</b>, the function fails in unpredictable ways.
 
-If the caller opened the device without specifying the FILE_FLAG_OVERLAPPED flag, the system ignores the value in <i>lpOverlapped</i>, and the <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> function does not return until the operation has been completed, or until an error occurs.
+If the caller opened the device without specifying the FILE_FLAG_OVERLAPPED flag, the system ignores the value in <i>lpOverlapped</i>, and the <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function does not return until the operation has been completed, or until an error occurs.
 
 </dd>
 </dl>
@@ -161,7 +161,7 @@ TBD
 
 ### -status-block
 
-If the operation succeeds, <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> returns a nonzero value.
+If the operation succeeds, <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> returns a nonzero value.
 
-If the operation fails, <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> returns zero. To get extended error information, call <b>GetLastError</b>.
+If the operation fails, <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> returns zero. To get extended error information, call <b>GetLastError</b>.
 

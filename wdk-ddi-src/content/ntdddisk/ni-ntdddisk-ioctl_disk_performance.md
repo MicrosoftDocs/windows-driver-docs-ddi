@@ -69,7 +69,7 @@ None.
 
 ### -output-buffer
 
-The driver returns the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552633">DISK_PERFORMANCE</a> data in the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>.
+The driver returns the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdddisk/ns-ntdddisk-_disk_performance">DISK_PERFORMANCE</a> data in the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>.
 
 
 ### -output-buffer-length
@@ -105,7 +105,7 @@ The <b>Information</b> field is set to <b>sizeof</b>(DISK_PERFORMANCE) when the 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560393">IOCTL_DISK_PERFORMANCE_OFF</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdddisk/ni-ntdddisk-ioctl_disk_performance_off">IOCTL_DISK_PERFORMANCE_OFF</a>
  
 
  

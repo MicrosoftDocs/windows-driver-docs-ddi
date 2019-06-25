@@ -63,7 +63,7 @@ Specifies an array of 16 YUV color values.
 
 
 
-The KSPROPERTY_SPPAL structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565151">KSPROPERTY_DVDSUBPIC_PALETTE</a> property.
+The KSPROPERTY_SPPAL structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-dvdsubpic-palette">KSPROPERTY_DVDSUBPIC_PALETTE</a> property.
 
 
 
@@ -73,7 +73,7 @@ The KSPROPERTY_SPPAL structure is used by the <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565151">KSPROPERTY_DVDSUBPIC_PALETTE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-dvdsubpic-palette">KSPROPERTY_DVDSUBPIC_PALETTE</a>
  
 
  

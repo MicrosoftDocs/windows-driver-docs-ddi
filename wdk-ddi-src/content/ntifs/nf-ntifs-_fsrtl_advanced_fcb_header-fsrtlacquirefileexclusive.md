@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <b>FsRtlAcquireFileExclusive</b> routine is reserved for system use. Do not use this routine in your driver. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff547172">FsRtlRegisterFileSystemFilterCallbacks</a>.
+The <b>FsRtlAcquireFileExclusive</b> routine is reserved for system use. Do not use this routine in your driver. See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-fsrtlregisterfilesystemfiltercallbacks">FsRtlRegisterFileSystemFilterCallbacks</a>.
 
 
 ## -parameters

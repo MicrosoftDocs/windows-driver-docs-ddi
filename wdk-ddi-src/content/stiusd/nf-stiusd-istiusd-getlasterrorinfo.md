@@ -56,7 +56,7 @@ A still image minidriver's <b>IStiUSD::GetLastErrorInfo</b> method returns infor
 
 ### -param pLastErrorInfo
 
-Caller-supplied pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff548396">STI_ERROR_INFO</a> structure to receive error information.
+Caller-supplied pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sti/ns-sti-_error_infow">STI_ERROR_INFO</a> structure to receive error information.
 
 
 ## -returns
@@ -72,7 +72,7 @@ If the operation succeeds, the method should return S_OK. Otherwise, it should r
 
 
 
-The method should fill in the received <a href="https://msdn.microsoft.com/library/windows/hardware/ff548396">STI_ERROR_INFO</a> structure.
+The method should fill in the received <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sti/ns-sti-_error_infow">STI_ERROR_INFO</a> structure.
 
 
 
@@ -82,11 +82,11 @@ The method should fill in the received <a href="https://msdn.microsoft.com/libra
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543749">IStiDevice::GetLastErrorInfo</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sti/nf-sti-istidevice-getlasterrorinfo">IStiDevice::GetLastErrorInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/62740263-5bbb-48e1-be3d-9ee9cb37d6b9">IStiUSD</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_image/index">IStiUSD</a>
  
 
  

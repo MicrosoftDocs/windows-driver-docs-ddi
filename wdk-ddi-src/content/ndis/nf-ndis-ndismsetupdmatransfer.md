@@ -78,7 +78,7 @@ An attempt to set up the DMA controller for the transfer has failed, either beca
 ### -param _H
 
 The DMA handle returned by the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff563646">NdisMRegisterDmaChannel</a> function
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismregisterdmachannel">NdisMRegisterDmaChannel</a> function
      during initialization.
 
 ### -param _B
@@ -129,7 +129,7 @@ The caller must supply a buffer descriptor that specifies the host range into wh
     be transferred from the NIC when 
     <i>WriteToDevice</i> is <b>FALSE</b>. Otherwise, the buffer descriptor at 
     <i>Buffer</i> was chained to a packet descriptor input to the miniport driver's 
-    <a href="https://msdn.microsoft.com/0bd5966d-66a6-4548-8c84-7cedced2cf40">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_send_net_buffer_lists">
     MiniportSendNetBufferLists</a> function.
 
 To improve performance for small transmit requests, such as a send request of less than 256 bytes in
@@ -142,7 +142,7 @@ On return from
     driver then programs the NIC for the transfer operation.
 
 When the transfer is complete, the miniport driver must call the 
-    <a href="https://msdn.microsoft.com/12a8062a-6d4b-4757-a076-56aeb5e4e48c">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismcompletedmatransfer">
     NdisMCompleteDmaTransfer</a> function.
 
 
@@ -153,15 +153,15 @@ When the transfer is complete, the miniport driver must call the
 
 
 
-<a href="https://msdn.microsoft.com/0bd5966d-66a6-4548-8c84-7cedced2cf40">MiniportSendNetBufferLists</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_send_net_buffer_lists">MiniportSendNetBufferLists</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563564">NdisMCompleteDmaTransfer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismcompletedmatransfer">NdisMCompleteDmaTransfer</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563646">NdisMRegisterDmaChannel</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismregisterdmachannel">NdisMRegisterDmaChannel</a>
  
 
  

@@ -90,7 +90,7 @@ A pointer to the buffer that contains the WinUsb power policy.
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/e1b31df0-d383-43a3-bf9f-8874689cbf58">SetPowerPolicy</a> successfully set the WinUsb power policy. 
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nf-wudfusb-iwdfusbtargetdevice-setpowerpolicy">SetPowerPolicy</a> successfully set the WinUsb power policy. 
 
 </td>
 </tr>
@@ -102,7 +102,7 @@ A pointer to the buffer that contains the WinUsb power policy.
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/e1b31df0-d383-43a3-bf9f-8874689cbf58">SetPowerPolicy</a> encountered an allocation failure.
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nf-wudfusb-iwdfusbtargetdevice-setpowerpolicy">SetPowerPolicy</a> encountered an allocation failure.
 
 </td>
 </tr>
@@ -129,9 +129,9 @@ This value corresponds to the error code that the WinUsb API returned.
 
 Power policy controls the power management that WinUsb for the device performs.
 
-For information about valid policy types and values that a UMDF driver can pass for the <i>PolicyType</i> and <i>Value</i> parameters, see the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540309">WinUsb_SetPowerPolicy</a> function.
+For information about valid policy types and values that a UMDF driver can pass for the <i>PolicyType</i> and <i>Value</i> parameters, see the <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_setpowerpolicy">WinUsb_SetPowerPolicy</a> function.
 
-For more information about the power behavior of WinUSB, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff728834">WinUSB Power Management</a>.
+For more information about the power behavior of WinUSB, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">WinUSB Power Management</a>.
 
 The <b>SetPowerPolicy</b> method generates a UMDF request and synchronously sends the request to the I/O target.
 
@@ -143,15 +143,15 @@ The <b>SetPowerPolicy</b> method generates a UMDF request and synchronously send
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560362">IWDFUsbTargetDevice</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nn-wudfusb-iwdfusbtargetdevice">IWDFUsbTargetDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560379">IWDFUsbTargetDevice::RetrievePowerPolicy</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nf-wudfusb-iwdfusbtargetdevice-retrievepowerpolicy">IWDFUsbTargetDevice::RetrievePowerPolicy</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540309">WinUsb_SetPowerPolicy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_setpowerpolicy">WinUsb_SetPowerPolicy</a>
  
 
  

@@ -77,7 +77,7 @@ The <b>Abort</b> method aborts all pending transfers on a USB pipe.
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/f756988d-8b21-4c2e-8c85-68f4eaa2c4f9">Abort</a> successfully aborted all pending transfers. 
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nf-wudfusb-iwdfusbtargetpipe-abort">Abort</a> successfully aborted all pending transfers. 
 
 </td>
 </tr>
@@ -89,7 +89,7 @@ The <b>Abort</b> method aborts all pending transfers on a USB pipe.
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/f756988d-8b21-4c2e-8c85-68f4eaa2c4f9">Abort</a> encountered an allocation failure.
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nf-wudfusb-iwdfusbtargetpipe-abort">Abort</a> encountered an allocation failure.
 
 </td>
 </tr>
@@ -116,7 +116,7 @@ This value corresponds to the error code that the WinUsb API returned.
 
 The <b>Abort</b> method generates a UMDF request and synchronously sends the request to the I/O target.
 
-For more information about how <b>Abort</b> works, see the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540202">WinUsb_AbortPipe</a> function.
+For more information about how <b>Abort</b> works, see the <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_abortpipe">WinUsb_AbortPipe</a> function.
 
 
 
@@ -126,11 +126,11 @@ For more information about how <b>Abort</b> works, see the <a href="https://msdn
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560391">IWDFUsbTargetPipe</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nn-wudfusb-iwdfusbtargetpipe">IWDFUsbTargetPipe</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540202">WinUsb_AbortPipe</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_abortpipe">WinUsb_AbortPipe</a>
  
 
  

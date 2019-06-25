@@ -46,7 +46,7 @@ req.typenames: AddRADIUSServer_IN, *PAddRADIUSServer_IN
 ## -description
 
 
-The AddRADIUSServer_IN structure holds the input data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550133">AddRADIUSServer</a> method, which is used to add a new RADIUS server entry to existing list.
+The AddRADIUSServer_IN structure holds the input data for the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/addradiusserver">AddRADIUSServer</a> method, which is used to add a new RADIUS server entry to existing list.
 
 
 ## -struct-fields
@@ -56,7 +56,7 @@ The AddRADIUSServer_IN structure holds the input data for the <a href="https://m
 
 ### -field RADIUSIPAddress
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff561536">ISCSI_IP_Address</a> structure that contains an IP version-independent address of the RADIUS server.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/iscsidef/ns-iscsidef-_iscsi_ip_address">ISCSI_IP_Address</a> structure that contains an IP version-independent address of the RADIUS server.
 
 
 ## -remarks
@@ -73,19 +73,19 @@ It is optional that you implement this method.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550133">AddRADIUSServer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/addradiusserver">AddRADIUSServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550135">AddRADIUSServer_OUT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/iscsiop/ns-iscsiop-_addradiusserver_out">AddRADIUSServer_OUT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561536">ISCSI_IP_Address</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/iscsidef/ns-iscsidef-_iscsi_ip_address">ISCSI_IP_Address</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563091">MSiSCSI_Operations WMI Class</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msiscsi-operations-wmi-class">MSiSCSI_Operations WMI Class</a>
  
 
  

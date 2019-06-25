@@ -48,7 +48,7 @@ req.typenames:
 
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
-The <b>StorPortInitializeListHead</b> routine initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/mt790432">STOR_LIST_ENTRY</a> structure that represents the head of a doubly linked list.
+The <b>StorPortInitializeListHead</b> routine initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/ns-storport-_stor_list_entry">STOR_LIST_ENTRY</a> structure that represents the head of a doubly linked list.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ A pointer to the hardware device extension for the host bus adapter (HBA).
 
 ### -param ListHead [out]
 
-Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/mt790432">STOR_LIST_ENTRY</a> structure that represents the head of the list.
+Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/ns-storport-_stor_list_entry">STOR_LIST_ENTRY</a> structure that represents the head of the list.
 
 
 ## -returns
@@ -80,19 +80,19 @@ This routine does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547799">InitializeListHead</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-initializelisthead">InitializeListHead</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt790428">StorPortInterlockedInsertHeadList</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportinterlockedinsertheadlist">StorPortInterlockedInsertHeadList</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt790429">StorPortInterlockedInsertTailList</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportinterlockedinserttaillist">StorPortInterlockedInsertTailList</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt790430">StorPortInterlockedRemoveHeadList</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportinterlockedremoveheadlist">StorPortInterlockedRemoveHeadList</a>
  
 
  

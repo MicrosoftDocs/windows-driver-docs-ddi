@@ -108,11 +108,11 @@ The address data specific to an address type.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451521">STOR_ADDR_BTL8</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/scsi/ns-scsi-_stor_addr_btl8">STOR_ADDR_BTL8</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj206452">StorPortSetUnitAttributes</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportsetunitattributes">StorPortSetUnitAttributes</a>
  
 
  

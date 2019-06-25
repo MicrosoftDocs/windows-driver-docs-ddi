@@ -108,7 +108,7 @@ device = WdfIoQueueGetDevice(WdfRequestGetIoQueue(Request));</pre>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549968">WdfRequestGetIoQueue</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfrequest/nf-wdfrequest-wdfrequestgetioqueue">WdfRequestGetIoQueue</a>
  
 
  

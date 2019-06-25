@@ -285,7 +285,7 @@ Reserved for internal use by AVStream. Minidrivers should not manipulate this me
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/3eaa1d65-8417-4a07-b358-823394baec9b">KS Events</a>.
+For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ks-events">KS Events</a>.
 
 
 
@@ -295,27 +295,27 @@ For more information, see <a href="https://msdn.microsoft.com/3eaa1d65-8417-4a07
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551882">KDPC</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">KDPC</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561744">KSEVENT</a>
+<a href="https://docs.microsoft.com/previous-versions/ff561744(v=vs.85)">KSEVENT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562678">KsIncrementCountedWorker</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksincrementcountedworker">KsIncrementCountedWorker</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566775">KsRegisterWorker</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksregisterworker">KsRegisterWorker</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557304">WORK_QUEUE_ITEM</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_work_queue_item">WORK_QUEUE_ITEM</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566382">WORK_QUEUE_TYPE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_work_queue_type">WORK_QUEUE_TYPE</a>
  
 
  

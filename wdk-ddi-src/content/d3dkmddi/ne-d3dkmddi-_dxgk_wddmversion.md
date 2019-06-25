@@ -75,7 +75,7 @@ Reserved for system use.
 
 
 <div class="alert"><b>Note</b>  If a driver does not support Windows 7 features (DXGKDDI_INTERFACE_VERSION < DXGKDDI_INTERFACE_VERSION_WIN7), and you want to compile the driver
-with the Windows 7 WDK (Version 7600), set the <b>WDDMVersion</b> member of the  <a href="https://msdn.microsoft.com/library/windows/hardware/ff561062">DXGK_DRIVERCAPS</a> structure to DXGKDDI_WDDMv1.</div>
+with the Windows 7 WDK (Version 7600), set the <b>WDDMVersion</b> member of the  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgk_drivercaps">DXGK_DRIVERCAPS</a> structure to DXGKDDI_WDDMv1.</div>
 <div> </div>
 
 
@@ -127,7 +127,7 @@ Windows Display Driver Model for Windows 10, version 1809.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570556">VidPn Interface</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">VidPn Interface</a>
  
 
  

@@ -80,9 +80,9 @@ The start I/O routine returns <b>TRUE</b> to acknowledge receipt of the SCSI req
 
 The start routine for both SCSI and StorPort miniport drivers are declared using this prototype.
 
-For more information about the SCSI miniport driver's start I/O routine see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557323">HwScsiStartIo</a>.
+For more information about the SCSI miniport driver's start I/O routine see <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff557323(v=vs.85)">HwScsiStartIo</a>.
 
-For more information about the miniport driver's start I/O routine that is used with the StorPort driver see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557423">HwStorStartIo</a>.
+For more information about the miniport driver's start I/O routine that is used with the StorPort driver see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_startio">HwStorStartIo</a>.
 
 
 
@@ -92,11 +92,11 @@ For more information about the miniport driver's start I/O routine that is used 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557323">HwScsiStartIo</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff557323(v=vs.85)">HwScsiStartIo</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557423">HwStorStartIo</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_startio">HwStorStartIo</a>
  
 
  

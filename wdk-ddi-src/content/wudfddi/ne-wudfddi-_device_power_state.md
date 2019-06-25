@@ -48,7 +48,7 @@ req.typenames: DEVICE_POWER_STATE, *PDEVICE_POWER_STATE
 
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
-The <b>DEVICE_POWER_STATE</b> enumeration identifies the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543162">device power states</a> that a device can enter.
+The <b>DEVICE_POWER_STATE</b> enumeration identifies the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/device-power-states">device power states</a> that a device can enter.
 
 
 ## -enum-fields
@@ -68,7 +68,7 @@ The device's working (D0) state. This is the device's highest power state.
 
 ### -field PowerDeviceD1
 
-The device's D1 <a href="https://msdn.microsoft.com/f594a63f-10ce-439d-abe3-d342555d98f0">sleeping state</a>.
+The device's D1 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/device-sleeping-states">sleeping state</a>.
 
 
 ### -field PowerDeviceD2
@@ -90,7 +90,7 @@ For system use only.
 
 
 
-The <b>DEVICE_POWER_STATE</b> enumeration is used as input to <a href="https://msdn.microsoft.com/library/windows/hardware/ff556920">IWDFDevice2::AssignS0IdleSettings</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff556923">IWDFDevice2::AssignSxWakeSettings</a>.
+The <b>DEVICE_POWER_STATE</b> enumeration is used as input to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfdevice2-assigns0idlesettings">IWDFDevice2::AssignS0IdleSettings</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfdevice2-assignsxwakesettings">IWDFDevice2::AssignSxWakeSettings</a>.
 
 
 
@@ -100,11 +100,11 @@ The <b>DEVICE_POWER_STATE</b> enumeration is used as input to <a href="https://m
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556920">IWDFDevice2::AssignS0IdleSettings</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfdevice2-assigns0idlesettings">IWDFDevice2::AssignS0IdleSettings</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556923">IWDFDevice2::AssignSxWakeSettings</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfdevice2-assignsxwakesettings">IWDFDevice2::AssignSxWakeSettings</a>
  
 
  

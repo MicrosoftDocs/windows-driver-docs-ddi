@@ -58,7 +58,7 @@ req.typenames:
 
 ### -param MonitorObject [in]
 
-This is the OS context handle for this monitor returned by the <a href="https://msdn.microsoft.com/library/windows/hardware/mt761920">IddCxMonitorArrival</a> call
+This is the OS context handle for this monitor returned by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/iddcx/nf-iddcx-iddcxmonitorarrival">IddCxMonitorArrival</a> call
 
 
 ### -param pInArgs [in]
@@ -76,7 +76,7 @@ Output arguments of the function
 
 
 
-(NTSTATUS) The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method may return an appropriate <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> error code.
+(NTSTATUS) The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method may return an appropriate <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> error code.
                     
 
 

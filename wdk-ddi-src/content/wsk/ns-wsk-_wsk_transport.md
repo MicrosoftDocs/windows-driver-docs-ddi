@@ -86,21 +86,21 @@ Supports unreliable connectionless datagram communication.
 Supports raw access to the transport protocol.
 
 For more information about the socket types that are supported for each supported address family, see     
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571151">WSK Address Families</a>.
+     <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/mt808757(v=vs.85)">WSK Address Families</a>.
 
 
 ### -field Protocol
 
 The protocol that is supported by the transport. For more information about the protocols that are
      supported for each supported address family, see 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571151">WSK Address Families</a>.
+     <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/mt808757(v=vs.85)">WSK Address Families</a>.
 
 
 ### -field AddressFamily
 
 The address family that is supported by the transport. For more information about supported
      address families, see 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571151">WSK Address Families</a>.
+     <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/mt808757(v=vs.85)">WSK Address Families</a>.
 
 
 ### -field ProviderId
@@ -113,13 +113,13 @@ The identifier of the transport provider that implements the transport.
 
 
 A WSK application passes a pointer to an array of WSK_TRANSPORT structures to the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff571126">WskControlClient</a> function when specifying
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_control_client">WskControlClient</a> function when specifying
     the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff571195">WSK_TRANSPORT_LIST_QUERY</a> control
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wsk-transport-list-query">WSK_TRANSPORT_LIST_QUERY</a> control
     code. The WSK subsystem fills in the array with the list of available transports that can be used for
     socket communication. When a WSK application calls the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff571149">WskSocket</a> or 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff571150">WskSocketConnect</a> function to create a new
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_socket">WskSocket</a> or 
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_socket_connect">WskSocketConnect</a> function to create a new
     socket, it can pass the values contained in the 
     <b>AddressFamily</b>, 
     <b>SocketType</b>, and 
@@ -141,15 +141,15 @@ A single transport provider can support multiple combinations of values for the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571126">WskControlClient</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_control_client">WskControlClient</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571149">WskSocket</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_socket">WskSocket</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571150">WskSocketConnect</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_socket_connect">WskSocketConnect</a>
  
 
  

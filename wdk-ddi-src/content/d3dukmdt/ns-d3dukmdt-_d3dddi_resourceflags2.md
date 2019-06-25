@@ -46,7 +46,7 @@ req.typenames: D3DDDI_RESOURCEFLAGS2
 ## -description
 
 
-Identifies the type of resource to create in a call to the driver's <a href="https://msdn.microsoft.com/a8326707-cffc-4a20-ad3d-c7862661f513">CreateResource2</a> function.
+Identifies the type of resource to create in a call to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_createresource2">CreateResource2</a> function.
 
 
 ## -struct-fields
@@ -58,7 +58,7 @@ Identifies the type of resource to create in a call to the driver's <a href="htt
 
 If set, indicates that the resource can be used as a capture buffer and/or a video encoder input resource.
 
-If this member is set, the driver must set  either the <b>FORMATOP_CAPTURE</b> or <b>FORMATOP_VIDEO_ENCODER</b> flag values, or both, in the <b>Operations</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566438">FORMATOP</a> structure.
+If this member is set, the driver must set  either the <b>FORMATOP_CAPTURE</b> or <b>FORMATOP_VIDEO_ENCODER</b> flag values, or both, in the <b>Operations</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_formatop">FORMATOP</a> structure.
 
 Setting this member is equivalent to setting the first bit of the 32-bit <b>Value</b> member (0x00000001).
 
@@ -103,11 +103,11 @@ A 32-bit value that identifies the type of resource to create.
 
 
 
-<a href="https://msdn.microsoft.com/a8326707-cffc-4a20-ad3d-c7862661f513">CreateResource2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_createresource2">CreateResource2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566438">FORMATOP</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_formatop">FORMATOP</a>
  
 
  

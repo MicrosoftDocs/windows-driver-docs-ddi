@@ -46,7 +46,7 @@ req.typenames: LBA_FILTER_TABLE, *PLBA_FILTER_TABLE
 ## -description
 
 
-The <b>LBA_FILTER_TABLE</b> structure contains the LBA ranges whose access is controlled by a silo driver. The LBA filter entries in the table define bands on a storage device that are managed by a silo driver.  A silo drivers send the LBA filter table to the enhanced storage class driver in an <a href="https://msdn.microsoft.com/library/windows/hardware/hh406723">IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE</a> request.
+The <b>LBA_FILTER_TABLE</b> structure contains the LBA ranges whose access is controlled by a silo driver. The LBA filter entries in the table define bands on a storage device that are managed by a silo driver.  A silo drivers send the LBA filter table to the enhanced storage class driver in an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ehstorioctl/ni-ehstorioctl-ioctl_ehstor_driver_update_lba_filter_table">IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE</a> request.
 
 
 ## -struct-fields
@@ -107,7 +107,7 @@ The offset of the LBA filter table from the beginning of this structure. This wi
 
 LBA ranges not included in any filter table entries are considered part of the global band for the device. These ranges are managed independently by the Enhanced Storage Class driver. Access for these ranges is determined by the settings in <i>GlobalReadLock</i> and <i>GlobalWriteLock</i>.
 
-Following the <b>LBA_FILTER_TABLE</b> structure is an array of 0 or more <a href="https://msdn.microsoft.com/library/windows/hardware/hh463962">LBA_FILTER_TABLE_ENTRY</a> structures. Each <b>LBA_FILTER_TABLE_ENTRY</b> defines an individual band whose access is controlled by the silo driver through the direction of band management requests forwarded by the Enhanced Storage Class driver. <b>LBA_FILTER_TABLE_ENTRY</b> structures can occur in any order, however, an LBA range in  a table entry must not overlap with an LBA range from another table entry. 
+Following the <b>LBA_FILTER_TABLE</b> structure is an array of 0 or more <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ehstorioctl/ns-ehstorioctl-_lba_filter_table_entry">LBA_FILTER_TABLE_ENTRY</a> structures. Each <b>LBA_FILTER_TABLE_ENTRY</b> defines an individual band whose access is controlled by the silo driver through the direction of band management requests forwarded by the Enhanced Storage Class driver. <b>LBA_FILTER_TABLE_ENTRY</b> structures can occur in any order, however, an LBA range in  a table entry must not overlap with an LBA range from another table entry. 
 
 
 
@@ -117,11 +117,11 @@ Following the <b>LBA_FILTER_TABLE</b> structure is an array of 0 or more <a href
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406723">IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ehstorioctl/ni-ehstorioctl-ioctl_ehstor_driver_update_lba_filter_table">IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh463962">LBA_FILTER_TABLE_ENTRY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ehstorioctl/ns-ehstorioctl-_lba_filter_table_entry">LBA_FILTER_TABLE_ENTRY</a>
  
 
  

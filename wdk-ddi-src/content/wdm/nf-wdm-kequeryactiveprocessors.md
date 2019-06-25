@@ -73,19 +73,19 @@ Callers cannot assume that <b>KeQueryActiveProcessors</b> maps processors to bit
 
 Callers must also be aware that the value returned by <b>KeQueryActiveProcessors</b> can change during runtime on versions of Windows that support hot-add CPU functionality.
 
-Windows 7 and later versions of Windows support processor groups. Drivers that are designed to handle information about processor groups should use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553007">KeQueryGroupAffinity</a> routine, which specifies a processor group, instead of <b>KeQueryActiveProcessors</b>, which does not. However, the implementation of <b>KeQueryActiveProcessors</b> in Windows 7 and later versions of Windows provides compatibility for drivers that were written for earlier versions of Windows, which do not support processor groups. In this implementation, <b>KeQueryActiveProcessors</b> returns an affinity mask that specifies the set of active logical processors in group 0.
+Windows 7 and later versions of Windows support processor groups. Drivers that are designed to handle information about processor groups should use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-kequerygroupaffinity">KeQueryGroupAffinity</a> routine, which specifies a processor group, instead of <b>KeQueryActiveProcessors</b>, which does not. However, the implementation of <b>KeQueryActiveProcessors</b> in Windows 7 and later versions of Windows provides compatibility for drivers that were written for earlier versions of Windows, which do not support processor groups. In this implementation, <b>KeQueryActiveProcessors</b> returns an affinity mask that specifies the set of active logical processors in group 0.
 
 In Windows Vista and later versions of Windows, this routine can be called at any IRQL. However, in Windows Server 2003 and earlier versions of Windows, this routine must be called at IRQL <= APC_LEVEL.
 
 The <b>KeNumberProcessors</b> kernel variable is obsolete in Windows Vista with Service Pack 1 (SP1), Windows Server 2008, and later versions of Windows. <b>KeNumberProcessors</b> does not appear in WDK headers for WDK releases starting with Windows Vista SP1; however, the variable is still exported from the kernel, so drivers built for earlier platforms will not break
 
-Windows Server 2008 includes support for <a href="https://msdn.microsoft.com/1b6a1dc5-ec32-4bb9-acaf-14db284b4a0e">Dynamic Hardware Partitioning</a> (DHP) in the Windows Datacenter and Enterprise Edition SKUs. As part of DHP, Windows Server 2008 supports hot adding CPUs at runtime. In a hot-add CPU environment, the number of processors may not remain constant during runtime.
+Windows Server 2008 includes support for <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/dynamic-hardware-partitioning-architecture">Dynamic Hardware Partitioning</a> (DHP) in the Windows Datacenter and Enterprise Edition SKUs. As part of DHP, Windows Server 2008 supports hot adding CPUs at runtime. In a hot-add CPU environment, the number of processors may not remain constant during runtime.
 
 Accordingly, in Windows Server 2008, code that can determine the number of processors must use <b>KeQueryActiveProcessors</b> instead of direct references to the kernel variable, <b>KeNumberProcessors</b>.
 
 Review any code that currently references <b>KeNumberProcessors</b> to make sure that it accommodates changes to CPU count in hot-add CPU environments.
 
-You can use the <a href="https://msdn.microsoft.com/397283e6-0691-4e55-9507-483bb311b524">PNPCPU</a> tool to simulate hot adding a CPU for testing purposes.
+You can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/pnpcpu">PNPCPU</a> tool to simulate hot adding a CPU for testing purposes.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -115,11 +115,11 @@ Starting with Windows XP, <b>KeNumberProcessors</b> is an 8-bit integer value t
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552985">KeQueryActiveProcessorCount</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kequeryactiveprocessorcount">KeQueryActiveProcessorCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553007">KeQueryGroupAffinity</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-kequerygroupaffinity">KeQueryGroupAffinity</a>
  
 
  

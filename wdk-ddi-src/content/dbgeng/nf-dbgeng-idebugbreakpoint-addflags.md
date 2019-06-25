@@ -47,7 +47,7 @@ req.typenames:
 ## -description
 
 
-The <b>AddFlags</b> method adds flags to a <a href="https://msdn.microsoft.com/5ba110fc-1a12-4cbd-adc9-ef9441e257cb">breakpoint</a>.
+The <b>AddFlags</b> method adds flags to a <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/b">breakpoint</a>.
 
 
 ## -parameters
@@ -57,7 +57,7 @@ The <b>AddFlags</b> method adds flags to a <a href="https://msdn.microsoft.com/5
 
 ### -param Flags [in]
 
-Additional flags to add to the breakpoint.  <i>Flags</i> is a bit field that is combined together with the existing flags by using a bitwise OR.  For more information about the flag bit field and an explanation of each flag, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff539284">Controlling Breakpoint Flags and Parameters</a>.  You cannot modify the DEBUG_BREAKPOINT_DEFERRED flag in the <a href="https://msdn.microsoft.com/1e32bd40-8c77-4c6b-913c-6ec26707ed36">engine</a>. This bit in <i>Flags</i> must always be zero.
+Additional flags to add to the breakpoint.  <i>Flags</i> is a bit field that is combined together with the existing flags by using a bitwise OR.  For more information about the flag bit field and an explanation of each flag, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/controlling-breakpoint-flags-and-parameters">Controlling Breakpoint Flags and Parameters</a>.  You cannot modify the DEBUG_BREAKPOINT_DEFERRED flag in the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/e">engine</a>. This bit in <i>Flags</i> must always be zero.
 
 
 ## -returns
@@ -83,7 +83,7 @@ The method was successful.
 </table>
  
 
-This method can also return error values.  For more information, see <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a>.
+This method can also return error values.  For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a>.
 
 
 
@@ -92,7 +92,7 @@ This method can also return error values.  For more information, see <a href="ht
 
 
 
-For more information about breakpoint properties, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff539284">Controlling Breakpoint Flags and Parameters</a>.
+For more information about breakpoint properties, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/controlling-breakpoint-flags-and-parameters">Controlling Breakpoint Flags and Parameters</a>.
 
 
 

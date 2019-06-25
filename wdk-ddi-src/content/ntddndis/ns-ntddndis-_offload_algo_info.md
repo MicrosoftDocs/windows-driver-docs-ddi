@@ -116,12 +116,12 @@ Specifies the SHA 1 algorithm.
 
 The length, in bytes, of the key for the algorithm. The key is contained in the buffer at 
      <b>KeyMat</b>Â¸ which is the variable-length array specified in the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569056">OFFLOAD_IPSEC_ADD_SA</a> structure.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_offload_ipsec_add_sa">OFFLOAD_IPSEC_ADD_SA</a> structure.
      
 
 If only an integrity algorithm (
      <b>IntegrityAlgo</b>) is specified in the 
-     <a href="https://msdn.microsoft.com/2c392a13-4db4-4b22-aacf-4450eb1e191c">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_offload_security_association">
      OFFLOAD_SECURITY_ASSOCIATION</a> structure, 
      <b>algoKeylen</b> indicates the length of the key for the integrity algorithm,
      starting from the beginning of the buffer at 
@@ -143,7 +143,7 @@ If both an integrity and a confidentiality algorithm (
 The number of transformation rounds that the encryption algorithm performs.
 
 <div class="alert"><b>Note</b>  This member is only used for 
-      <a href="https://msdn.microsoft.com/1cf6306c-bb1d-40f6-a0e3-59c14a60a8ff">IPsec Offload Version 1</a>.</div>
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ipsec-offload-version-1">IPsec Offload Version 1</a>.</div>
 <div> </div>
 
 ## -remarks
@@ -154,7 +154,7 @@ The OFFLOAD_ALGO_INFO structure specifies algorithm information in the
     <b>IntegrityAlgo</b>, 
     <b>ConfAlgo</b>, and 
     <b>Reserved</b> members of the 
-    <a href="https://msdn.microsoft.com/2c392a13-4db4-4b22-aacf-4450eb1e191c">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_offload_security_association">
     OFFLOAD_SECURITY_ASSOCIATION</a> structure.
 
 
@@ -165,11 +165,11 @@ The OFFLOAD_ALGO_INFO structure specifies algorithm information in the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569056">OFFLOAD_IPSEC_ADD_SA</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_offload_ipsec_add_sa">OFFLOAD_IPSEC_ADD_SA</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569061">OFFLOAD_SECURITY_ASSOCIATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_offload_security_association">OFFLOAD_SECURITY_ASSOCIATION</a>
  
 
  

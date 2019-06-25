@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <b>MmUnmapReservedMapping</b> routine unmaps a memory buffer that was mapped by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554640">MmMapLockedPagesWithReservedMapping</a> routine. 
+The <b>MmUnmapReservedMapping</b> routine unmaps a memory buffer that was mapped by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-mmmaplockedpageswithreservedmapping">MmMapLockedPagesWithReservedMapping</a> routine. 
 
 
 ## -parameters
@@ -56,12 +56,12 @@ The <b>MmUnmapReservedMapping</b> routine unmaps a memory buffer that was mapped
 
 ### -param BaseAddress [in]
 
-Pointer to the beginning of the reserved virtual memory range. This must be an address returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff554640">MmMapLockedPagesWithReservedMapping</a>. 
+Pointer to the beginning of the reserved virtual memory range. This must be an address returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-mmmaplockedpageswithreservedmapping">MmMapLockedPagesWithReservedMapping</a>. 
 
 
 ### -param PoolTag [in]
 
-Specifies the pool tag for the reserved memory buffer. This must be identical to the value specified in the <i>PoolTag</i> parameter of the call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff554475">MmAllocateMappingAddress</a> that initially reserved the buffer.
+Specifies the pool tag for the reserved memory buffer. This must be identical to the value specified in the <i>PoolTag</i> parameter of the call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-mmallocatemappingaddress">MmAllocateMappingAddress</a> that initially reserved the buffer.
 
 
 ### -param MemoryDescriptorList [in]
@@ -83,15 +83,15 @@ None
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554475">MmAllocateMappingAddress</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-mmallocatemappingaddress">MmAllocateMappingAddress</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554512">MmFreeMappingAddress</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-mmfreemappingaddress">MmFreeMappingAddress</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554640">MmMapLockedPagesWithReservedMapping</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-mmmaplockedpageswithreservedmapping">MmMapLockedPagesWithReservedMapping</a>
  
 
  

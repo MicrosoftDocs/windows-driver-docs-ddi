@@ -109,7 +109,7 @@ The operation completed successfully.
 
 
 
-Use of this API is uncommon because all silo monitors are assigned a storage slot when calling the <a href="https://msdn.microsoft.com/library/windows/hardware/mt735079">PsRegisterSiloMonitor</a> routine.  That slot can be retrieved with the <a href="https://msdn.microsoft.com/library/windows/hardware/mt735072">PsGetSiloMonitorContextSlot</a> routine and used by a driver for its context operations.
+Use of this API is uncommon because all silo monitors are assigned a storage slot when calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-psregistersilomonitor">PsRegisterSiloMonitor</a> routine.  That slot can be retrieved with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-psgetsilomonitorcontextslot">PsGetSiloMonitorContextSlot</a> routine and used by a driver for its context operations.
 
 
 
@@ -119,7 +119,7 @@ Use of this API is uncommon because all silo monitors are assigned a storage slo
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt735061">PsFreeSiloContextSlot</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-psfreesilocontextslot">PsFreeSiloContextSlot</a>
  
 
  

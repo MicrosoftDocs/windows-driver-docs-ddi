@@ -69,11 +69,11 @@ Specifies the details of the analog video stream.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a>
+<a href="https://docs.microsoft.com/previous-versions/ff561658(v=vs.85)">KSDATARANGE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567295">KS_ANALOGVIDEOINFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-tagks_analogvideoinfo">KS_ANALOGVIDEOINFO</a>
  
 
  

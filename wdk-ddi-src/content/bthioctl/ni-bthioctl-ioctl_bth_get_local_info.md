@@ -62,29 +62,29 @@ The IOCTL_BTH_GET_LOCAL_INFO request returns information about the local Bluetoo
 
 The 
       <b>AssociatedIrp.SystemBuffer</b> member points to a buffer for a 
-      <a href="https://msdn.microsoft.com/library/windows/hardware/ff536644">BTH_LOCAL_RADIO_INFO</a> structure.
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthioctl/ns-bthioctl-_bth_local_radio_info">BTH_LOCAL_RADIO_INFO</a> structure.
 
 
 ### -input-buffer-length
 
 The length of a 
-      <a href="https://msdn.microsoft.com/library/windows/hardware/ff536644">BTH_LOCAL_RADIO_INFO</a> structure.
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthioctl/ns-bthioctl-_bth_local_radio_info">BTH_LOCAL_RADIO_INFO</a> structure.
 
 
 ### -output-buffer
 
 The 
       <b>AssociatedIrp.SystemBuffer</b> member points to a buffer that holds a 
-      <a href="https://msdn.microsoft.com/library/windows/hardware/ff536644">BTH_LOCAL_RADIO_INFO</a> structure. The
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthioctl/ns-bthioctl-_bth_local_radio_info">BTH_LOCAL_RADIO_INFO</a> structure. The
       buffer contains information about the local radio, including a 
       <a href="https://go.microsoft.com/fwlink/p/?linkid=50713">BTH_DEVICE_INFO</a> structure and a 
-      <a href="https://msdn.microsoft.com/library/windows/hardware/ff536646">BTH_RADIO_INFO</a> structure.
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthioctl/ns-bthioctl-_bth_radio_info">BTH_RADIO_INFO</a> structure.
 
 
 ### -output-buffer-length
 
 The length of a 
-      <a href="https://msdn.microsoft.com/library/windows/hardware/ff536644">BTH_LOCAL_RADIO_INFO</a> structure.
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthioctl/ns-bthioctl-_bth_local_radio_info">BTH_LOCAL_RADIO_INFO</a> structure.
 
 
 ### -in-out-buffer
@@ -124,11 +124,11 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536644">BTH_LOCAL_RADIO_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthioctl/ns-bthioctl-_bth_local_radio_info">BTH_LOCAL_RADIO_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536646">BTH_RADIO_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthioctl/ns-bthioctl-_bth_radio_info">BTH_RADIO_INFO</a>
  
 
  

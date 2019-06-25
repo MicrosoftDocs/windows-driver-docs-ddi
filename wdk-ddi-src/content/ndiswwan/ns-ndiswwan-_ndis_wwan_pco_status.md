@@ -102,7 +102,7 @@ sizeof(NDIS_WWAN_PCO_STATUS)
  
 
 For more information about these members, see 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field uStatus
@@ -222,7 +222,7 @@ The PCO value failed due to a read failure.
 
 ### -field PcoValue
 
-A formatted <a href="https://msdn.microsoft.com/45A499CE-2C9A-4070-BEF8-880E7673FA8E">WWAN_PCO_VALUE</a> structure, which contains the PCO information payload from the network as defined in the 3GPP TS24.008 spec.
+A formatted <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_pco_value">WWAN_PCO_VALUE</a> structure, which contains the PCO information payload from the network as defined in the 3GPP TS24.008 spec.
 
 
 ## -see-also
@@ -232,7 +232,7 @@ A formatted <a href="https://msdn.microsoft.com/45A499CE-2C9A-4070-BEF8-880E7673
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-protocol-configuration-options-pco-operations">MB Protocol Configuration Options (PCO) operations</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
@@ -244,7 +244,7 @@ A formatted <a href="https://msdn.microsoft.com/45A499CE-2C9A-4070-BEF8-880E7673
 
 
 
-<a href="https://msdn.microsoft.com/45A499CE-2C9A-4070-BEF8-880E7673FA8E">WWAN_PCO_VALUE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_pco_value">WWAN_PCO_VALUE</a>
  
 
  

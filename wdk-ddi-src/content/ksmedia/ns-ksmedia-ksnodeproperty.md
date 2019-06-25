@@ -56,7 +56,7 @@ The KSNODEPROPERTY structure specifies a node and a property of that node.
 
 ### -field Property
 
-Specifies the property to get or set. This member is a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>.
+Specifies the property to get or set. This member is a structure of type <a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>.
 
 
 ### -field NodeId
@@ -73,9 +73,9 @@ Reserved for internal use by operating system. Do not use.
 
 
 
-This structure is identical to <a href="https://msdn.microsoft.com/library/windows/hardware/ff566720">KSP_NODE</a>.
+This structure is identical to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksp_node">KSP_NODE</a>.
 
-See the discussion of the KSNODEPROPERTY structure in <a href="https://msdn.microsoft.com/dcfd139c-fca3-4068-8324-aa2c952dbc1f">Audio Property Requests</a>.
+See the discussion of the KSNODEPROPERTY structure in <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/audio-property-requests">Audio Property Requests</a>.
 
 
 
@@ -85,11 +85,11 @@ See the discussion of the KSNODEPROPERTY structure in <a href="https://msdn.micr
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
+<a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566720">KSP_NODE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksp_node">KSP_NODE</a>
  
 
  

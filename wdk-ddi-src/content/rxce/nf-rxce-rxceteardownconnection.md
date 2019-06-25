@@ -112,7 +112,7 @@ When <b>RxCeTearDownConnection</b> is successful, the data members in the RXCE_C
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553417">RxCeBuildConnection</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/rxce/nf-rxce-rxcebuildconnection">RxCeBuildConnection</a>
  
 
  

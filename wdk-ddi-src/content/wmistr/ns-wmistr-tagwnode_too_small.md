@@ -56,7 +56,7 @@ The <b>WNODE_TOO_SMALL</b> structure indicates the size of the buffer needed to 
 
 ### -field WnodeHeader
 
-Is a <a href="https://msdn.microsoft.com/library/windows/hardware/ff566375">WNODE_HEADER</a> structure that contains information common to all <b>WNODE_<i>XXX</i></b> structures, such as the buffer size, the GUID that represents a data block associated with a request, and flags that provide information about the <b>WNODE_<i>XXX</i></b> data being passed or returned.
+Is a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wmistr/ns-wmistr-_wnode_header">WNODE_HEADER</a> structure that contains information common to all <b>WNODE_<i>XXX</i></b> structures, such as the buffer size, the GUID that represents a data block associated with a request, and flags that provide information about the <b>WNODE_<i>XXX</i></b> data being passed or returned.
 
 
 ### -field SizeNeeded
@@ -78,7 +78,7 @@ When the buffer for a WMI request is too small to receive all of the data to be 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566375">WNODE_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wmistr/ns-wmistr-_wnode_header">WNODE_HEADER</a>
  
 
  

@@ -46,7 +46,7 @@ req.typenames: D3DDDICB_CREATECONTEXTVIRTUAL
 ## -description
 
 
-<b>D3DDDICB_CREATECONTEXTVIRTUAL</b> is used with <a href="https://msdn.microsoft.com/7787FEDF-E18C-4120-A073-A13933856F57">pfnCreateContextVirtualCb</a> to create contexts that support virtual addressing.
+<b>D3DDDICB_CREATECONTEXTVIRTUAL</b> is used with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_createcontextvirtualcb">pfnCreateContextVirtualCb</a> to create contexts that support virtual addressing.
 
 
 ## -struct-fields
@@ -66,7 +66,7 @@ req.typenames: D3DDDICB_CREATECONTEXTVIRTUAL
 
 ### -field Flags
 
-[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff544502">D3DDDI_CREATECONTEXTFLAGS</a> structure that indicates, in bit-field flags, how to create the context. 
+[in] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dukmdt/ns-d3dukmdt-_d3dddi_createcontextflags">D3DDDI_CREATECONTEXTFLAGS</a> structure that indicates, in bit-field flags, how to create the context. 
 
 
 ### -field pPrivateDriverData
@@ -81,7 +81,7 @@ req.typenames: D3DDDICB_CREATECONTEXTVIRTUAL
 
 ### -field hContext
 
-[out] A handle to the context that the <a href="https://msdn.microsoft.com/7787FEDF-E18C-4120-A073-A13933856F57">pfnCreateContextVirtualCb</a> function creates. 
+[out] A handle to the context that the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_createcontextvirtualcb">pfnCreateContextVirtualCb</a> function creates. 
 
 
 ## -see-also
@@ -89,11 +89,11 @@ req.typenames: D3DDDICB_CREATECONTEXTVIRTUAL
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544502">D3DDDI_CREATECONTEXTFLAGS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dukmdt/ns-d3dukmdt-_d3dddi_createcontextflags">D3DDDI_CREATECONTEXTFLAGS</a>
 
 
 
-<a href="https://msdn.microsoft.com/7787FEDF-E18C-4120-A073-A13933856F57">pfnCreateContextVirtualCb</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_createcontextvirtualcb">pfnCreateContextVirtualCb</a>
  
 
  

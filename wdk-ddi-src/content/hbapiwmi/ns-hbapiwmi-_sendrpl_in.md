@@ -46,7 +46,7 @@ req.typenames: SendRPL_IN, *PSendRPL_IN
 ## -description
 
 
-The SendRPL_IN structure is used to deliver input parameter data to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565488">SendRPL</a> WMI method.
+The SendRPL_IN structure is used to deliver input parameter data to the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/sendrpl">SendRPL</a> WMI method.
 
 
 ## -struct-fields
@@ -78,7 +78,7 @@ Contains the port index of the first port in the list of ports of type FC_Port t
 
 
 
-The WMI tool suite generates a declaration of the SendRPL_IN structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562506">MSFC_HBAAdapterMethods WMI Class</a>.
+The WMI tool suite generates a declaration of the SendRPL_IN structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msfc-hbaadaptermethods-wmi-class">MSFC_HBAAdapterMethods WMI Class</a>.
 
 
 
@@ -88,7 +88,7 @@ The WMI tool suite generates a declaration of the SendRPL_IN structure in <i>Hba
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565488">SendRPL</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/sendrpl">SendRPL</a>
  
 
  

@@ -74,7 +74,7 @@ The <b>KsQueryObjectAccessMask</b> function returns an access mask.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560972">KsAllocateObjectHeader</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksallocateobjectheader">KsAllocateObjectHeader</a>
  
 
  

@@ -60,7 +60,7 @@ The
 ### -param WskRegistration [in]
 
 A pointer to the memory location initialized by 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571143">WskRegister</a> that identifies a WSK
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nf-wsk-wskregister">WskRegister</a> that identifies a WSK
      application's registration instance.
 
 
@@ -134,11 +134,11 @@ WSK clients can use this function to determine the WSK NPI versions supported by
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571172">WSK_PROVIDER_CHARACTERISTICS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/ns-wsk-_wsk_provider_characteristics">WSK_PROVIDER_CHARACTERISTICS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571178">WSK_REGISTRATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/ns-wsk-_wsk_registration">WSK_REGISTRATION</a>
  
 
  

@@ -64,7 +64,7 @@ A pointer to the context for the WSK application's binding to the WSK subsystem.
 ### -field Dispatch
 
 A pointer to a constant 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571159">WSK_CLIENT_DISPATCH</a> structure.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/ns-wsk-_wsk_client_dispatch">WSK_CLIENT_DISPATCH</a> structure.
 
 
 ## -remarks
@@ -83,7 +83,7 @@ For more information about attaching a WSK application to the WSK subsystem, see
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571159">WSK_CLIENT_DISPATCH</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/ns-wsk-_wsk_client_dispatch">WSK_CLIENT_DISPATCH</a>
  
 
  

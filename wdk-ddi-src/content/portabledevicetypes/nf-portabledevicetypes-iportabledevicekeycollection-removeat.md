@@ -117,7 +117,7 @@ You must specify a zero-based index.
 
 
 
-<a href="https://msdn.microsoft.com/50ce4946-18a7-4b63-ba5a-c5684dd0b79c">IPortableDeviceKeyCollection Interface</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portabledevicetypes/nn-portabledevicetypes-iportabledevicekeycollection">IPortableDeviceKeyCollection Interface</a>
  
 
  

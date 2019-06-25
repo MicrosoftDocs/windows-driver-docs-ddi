@@ -56,7 +56,7 @@ The SYSAUDIO_CREATE_VIRTUAL_SOURCE structure is used to create a mixer-line virt
 
 ### -field Property
 
-Specifies the property. This parameter is a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>.
+Specifies the property. This parameter is a structure of type <a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>.
 
 
 ### -field PinCategory
@@ -73,7 +73,7 @@ Specifies a name for the created pin. If the <i>PinCategory</i> parameter unique
 
 
 
-This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537417">KSPROPERTY_SYSAUDIO_CREATE_VIRTUAL_SOURCE</a> property.
+This structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-sysaudio-create-virtual-source">KSPROPERTY_SYSAUDIO_CREATE_VIRTUAL_SOURCE</a> property.
 
 
 
@@ -83,11 +83,11 @@ This structure is used by the <a href="https://msdn.microsoft.com/library/window
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
+<a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537417">KSPROPERTY_SYSAUDIO_CREATE_VIRTUAL_SOURCE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-sysaudio-create-virtual-source">KSPROPERTY_SYSAUDIO_CREATE_VIRTUAL_SOURCE</a>
  
 
  

@@ -56,7 +56,7 @@ The KSAC3_DOWNMIX structure specifies whether the program channels in an AC-3-en
 
 ### -field fDownMix
 
-Specifies whether to downmix. If <b>TRUE</b>, downmixing to fewer channels is enabled. The number of output channels depends on the number of speakers present (as specified by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537250">KSPROPERTY_AUDIO_CHANNEL_CONFIG</a> property). If <b>FALSE</b>, input and output channels are mapped to speakers on a one-to-one basis. In other words, input channel 0 is mapped to output channel 0, input channel 1 is mapped to output channel 1, and so on, up to the number of encoded channels or speakers, whichever is smaller.
+Specifies whether to downmix. If <b>TRUE</b>, downmixing to fewer channels is enabled. The number of output channels depends on the number of speakers present (as specified by the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-audio-channel-config">KSPROPERTY_AUDIO_CHANNEL_CONFIG</a> property). If <b>FALSE</b>, input and output channels are mapped to speakers on a one-to-one basis. In other words, input channel 0 is mapped to output channel 0, input channel 1 is mapped to output channel 1, and so on, up to the number of encoded channels or speakers, whichever is smaller.
 
 
 ### -field fDolbySurround
@@ -68,9 +68,9 @@ Specifies how the output channels are encoded. If <b>TRUE</b>, the output channe
 
 
 
-This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537218">KSPROPERTY_AC3_DOWNMIX</a> property.
+This structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-ac3-downmix">KSPROPERTY_AC3_DOWNMIX</a> property.
 
-For information about the mapping of output channels to speakers, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff537250">KSPROPERTY_AUDIO_CHANNEL_CONFIG</a>.
+For information about the mapping of output channels to speakers, see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-audio-channel-config">KSPROPERTY_AUDIO_CHANNEL_CONFIG</a>.
 
 
 
@@ -80,11 +80,11 @@ For information about the mapping of output channels to speakers, see <a href="h
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537218">KSPROPERTY_AC3_DOWNMIX</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-ac3-downmix">KSPROPERTY_AC3_DOWNMIX</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537250">KSPROPERTY_AUDIO_CHANNEL_CONFIG</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-audio-channel-config">KSPROPERTY_AUDIO_CHANNEL_CONFIG</a>
  
 
  

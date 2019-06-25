@@ -197,7 +197,7 @@ A minifilter driver calls **FltCheckOplockEx** to synchronize an IRP-based I/O o
 
   * IRP_MJ_WRITE
 
-The I/O operation must be an IRP-based I/O operation. To determine whether a given callback data structure represents an IRP-based I/O operation, use the [FLT_IS_IRP_OPERATION](https://msdn.microsoft.com/library/windows/hardware/ff544654) macro.
+The I/O operation must be an IRP-based I/O operation. To determine whether a given callback data structure represents an IRP-based I/O operation, use the [FLT_IS_IRP_OPERATION](https://docs.microsoft.com/previous-versions/ff544654(v=vs.85)) macro.
 
 Minifilters must not call **FltCheckOplockEx** again within the callback specified in *WaitCompletionRoutine*. Doing so can result in a deadlock condition if the oplock package calls the completion callback before **FltCheckOplockEx** returns.
 
@@ -207,7 +207,7 @@ For more information about opportunistic locks, see the Microsoft Windows SDK do
 
 [FLT_CALLBACK_DATA](ns-fltkernel-_flt_callback_data.md)
 
-[FLT_IS_IRP_OPERATION](https://msdn.microsoft.com/library/windows/hardware/ff544654)
+[FLT_IS_IRP_OPERATION](https://docs.microsoft.com/previous-versions/ff544654(v=vs.85))
 
 [FltInitializeOplock](nf-fltkernel-fltinitializeoplock.md)
 

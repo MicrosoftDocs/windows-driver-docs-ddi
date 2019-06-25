@@ -51,7 +51,7 @@ The <code>IXpsPartIterator</code> interface is an iterator for XPS parts.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsPartIterator</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IXpsPartIterator</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IXpsPartIterator</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IXpsPartIterator</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -66,7 +66,7 @@ The <b>IXpsPartIterator</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556339">IXpsPartIterator::Current</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/filterpipeline/nf-filterpipeline-ixpspartiterator-current">IXpsPartIterator::Current</a>
 </td>
 <td align="left" width="63%">
 The <code>Current</code> method provides the current URI and part.
@@ -75,7 +75,7 @@ The <code>Current</code> method provides the current URI and part.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556342">IXpsPartIterator::IsDone</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/filterpipeline/nf-filterpipeline-ixpspartiterator-isdone">IXpsPartIterator::IsDone</a>
 </td>
 <td align="left" width="63%">
 The <code>IsDone</code> method determines whether the iterator has finished  the iteration.
@@ -84,7 +84,7 @@ The <code>IsDone</code> method determines whether the iterator has finished  the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556346">IXpsPartIterator::Next</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/filterpipeline/nf-filterpipeline-ixpspartiterator-next">IXpsPartIterator::Next</a>
 </td>
 <td align="left" width="63%">
 The <code>Next</code> method advances the iterator to the next part.
@@ -93,7 +93,7 @@ The <code>Next</code> method advances the iterator to the next part.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556348">IXpsPartIterator::Reset</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/filterpipeline/nf-filterpipeline-ixpspartiterator-reset">IXpsPartIterator::Reset</a>
 </td>
 <td align="left" width="63%">
 The <code>Reset</code> method sets the iterator to the first element.

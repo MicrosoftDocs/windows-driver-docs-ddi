@@ -46,7 +46,7 @@ req.typenames: ENUM_PDO_ENTRY, *PENUM_PDO_ENTRY
 ## -description
 
 
-This structure describes a single entry in a result set of Physical Device Objects (PDOs) that are enumerated with <a href="https://msdn.microsoft.com/library/windows/hardware/hh451409">IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS</a>.
+This structure describes a single entry in a result set of Physical Device Objects (PDOs) that are enumerated with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ehstorioctl/ni-ehstorioctl-ioctl_ehstor_device_enumerate_pdos">IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS</a>.
 
 
 ## -struct-fields
@@ -96,7 +96,7 @@ The string contained in this member is the device instance path in a form suitab
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451409">IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ehstorioctl/ni-ehstorioctl-ioctl_ehstor_device_enumerate_pdos">IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS</a>
  
 
  

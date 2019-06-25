@@ -51,7 +51,7 @@ The
   EVT_POS_CX_DEVICE_REMOTE_CLAIM callback is called when the device is transitioning from
 unclaimed to claimed and allows the driver to do additional work. This callback is typically only used with network connected devices that require additional logic for handling ownership transitions.
 
-<i>EVT_POS_CX_DEVICE_REMOTE_CLAIM</i> and <a href="https://msdn.microsoft.com/library/windows/hardware/mt593117">EVT_POS_CX_DEVICE_REMOTE_RELEASE</a> add support for remote devices that handle their own claim
+<i>EVT_POS_CX_DEVICE_REMOTE_CLAIM</i> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/poscx/nc-poscx-evt_pos_cx_device_remote_release">EVT_POS_CX_DEVICE_REMOTE_RELEASE</a> add support for remote devices that handle their own claim
 semantics.
 
 
@@ -86,7 +86,7 @@ If the driver is unable to complete the remote claim transaction, it should retu
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt593117">EVT_POS_CX_DEVICE_REMOTE_RELEASE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/poscx/nc-poscx-evt_pos_cx_device_remote_release">EVT_POS_CX_DEVICE_REMOTE_RELEASE</a>
  
 
  

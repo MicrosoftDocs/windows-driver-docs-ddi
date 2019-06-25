@@ -79,7 +79,7 @@ The maximum value for this enumeration. This value might change in future versio
 
 
 
-<a href="https://msdn.microsoft.com/33711459-70C8-43D2-974D-B90EC0DD8ED6">WWAN_SET_UICC_RESET</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_set_uicc_reset">WWAN_SET_UICC_RESET</a>
  
 
  

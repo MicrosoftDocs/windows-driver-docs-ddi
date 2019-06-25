@@ -51,7 +51,7 @@ IPortClsRuntimePower is the interface that the port class driver (PortCls)  uses
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortClsRuntimePower</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IPortClsRuntimePower</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortClsRuntimePower</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPortClsRuntimePower</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -66,7 +66,7 @@ The <b>IPortClsRuntimePower</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265126">RegisterPowerControlCallback</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iportclsruntimepower-registerpowercontrolcallback">RegisterPowerControlCallback</a>
 </td>
 <td align="left" width="63%">
 The port class driver (PortCls) uses the <code>RegisterPowerControlCallback</code>  method to register a power control callback.
@@ -75,7 +75,7 @@ The port class driver (PortCls) uses the <code>RegisterPowerControlCallback</cod
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265127">SendPowerControl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iportclsruntimepower-sendpowercontrol">SendPowerControl</a>
 </td>
 <td align="left" width="63%">
 The port class driver (PortCls) uses the <code>SendPowerControl</code>  method to send power control codes to the audio adapter.
@@ -84,7 +84,7 @@ The port class driver (PortCls) uses the <code>SendPowerControl</code>  method t
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265128">UnregisterPowerControlCallback</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iportclsruntimepower-unregisterpowercontrolcallback">UnregisterPowerControlCallback</a>
 </td>
 <td align="left" width="63%">
 The port class driver (PortCls) uses the <code>UnregisterPowerControlCallback</code>  method to unregister a power control callback.

@@ -75,9 +75,9 @@ If the interrupt handler routine determines that its HBA generated the interrupt
 
 The interrupt handler routine for both SCSI and StorPort miniport drivers are declared using this prototype.
 
-For more information about the SCSI miniport driver's interrupt handler routine see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557312">HwScsiInterrupt</a>.
+For more information about the SCSI miniport driver's interrupt handler routine see <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff557312(v=vs.85)">HwScsiInterrupt</a>.
 
-For more information about the miniport driver's interrupt handler routine that is used with the StorPort driver see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557403">HwStorInterrupt</a>.
+For more information about the miniport driver's interrupt handler routine that is used with the StorPort driver see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_interrupt">HwStorInterrupt</a>.
 
 
 
@@ -87,11 +87,11 @@ For more information about the miniport driver's interrupt handler routine that 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557312">HwScsiInterrupt</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff557312(v=vs.85)">HwScsiInterrupt</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557403">HwStorInterrupt</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_interrupt">HwStorInterrupt</a>
  
 
  

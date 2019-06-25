@@ -77,7 +77,7 @@ If the function succeeds, the return value is <b>TRUE</b>; otherwise, it is <b>F
 
 
 
-For a WdbgExts extension, include wdbgexts.h. For a DbgEng extension, include wdbgexts.h before dbgeng.h. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff561480">Writing DbgEng Extension Code</a> for details.
+For a WdbgExts extension, include wdbgexts.h. For a DbgEng extension, include wdbgexts.h before dbgeng.h. See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/writing-dbgeng-extension-code">Writing DbgEng Extension Code</a> for details.
 
 
 
@@ -87,7 +87,7 @@ For a WdbgExts extension, include wdbgexts.h. For a DbgEng extension, include wd
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554318">ReadPointer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdbgexts/nf-wdbgexts-readpointer">ReadPointer</a>
  
 
  

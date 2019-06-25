@@ -82,7 +82,7 @@ In user-mode debugging, the TEB for the current thread is returned.  In kernel-m
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548122">GetPebAddress</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdbgexts/nf-wdbgexts-getpebaddress">GetPebAddress</a>
  
 
  

@@ -56,7 +56,7 @@ The <b>RtlValidSecurityDescriptor</b> routine checks a given security descriptor
 
 ### -param SecurityDescriptor [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a> to be checked.
+Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a> to be checked.
 
 
 ## -returns
@@ -72,7 +72,7 @@ Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff56
 
 
 
-The routine checks the validity of an absolute-format security descriptor. To check the validity of a self-relative security descriptor, use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563019">RtlValidRelativeSecurityDescriptor</a> routine instead.
+The routine checks the validity of an absolute-format security descriptor. To check the validity of a self-relative security descriptor, use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlvalidrelativesecuritydescriptor">RtlValidRelativeSecurityDescriptor</a> routine instead.
 
 
 
@@ -82,23 +82,23 @@ The routine checks the validity of an absolute-format security descriptor. To ch
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561827">RtlCreateSecurityDescriptor</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlcreatesecuritydescriptor">RtlCreateSecurityDescriptor</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562025">RtlLengthSecurityDescriptor</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtllengthsecuritydescriptor">RtlLengthSecurityDescriptor</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562781">RtlSetDaclSecurityDescriptor</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlsetdaclsecuritydescriptor">RtlSetDaclSecurityDescriptor</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563019">RtlValidRelativeSecurityDescriptor</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlvalidrelativesecuritydescriptor">RtlValidRelativeSecurityDescriptor</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a>
  
 
  

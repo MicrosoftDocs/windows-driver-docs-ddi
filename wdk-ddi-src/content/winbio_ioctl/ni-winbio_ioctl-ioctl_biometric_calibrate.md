@@ -66,12 +66,12 @@ None.
 
 ### -output-buffer
 
-The <b>AssociatedIrp</b>.<b>SystemBuffer</b> member points to a buffer that contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff536465">WINBIO_CALIBRATION_INFO</a> structure.
+The <b>AssociatedIrp</b>.<b>SystemBuffer</b> member points to a buffer that contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winbio_ioctl/ns-winbio_ioctl-_winbio_calibration_info">WINBIO_CALIBRATION_INFO</a> structure.
 
 
 ### -output-buffer-length
 
-Length of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff536465">WINBIO_CALIBRATION_INFO</a> structure. 
+Length of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winbio_ioctl/ns-winbio_ioctl-_winbio_calibration_info">WINBIO_CALIBRATION_INFO</a> structure. 
 
 The vendor-supplied driver can optionally return a DWORD-sized buffer that specifies the buffer size necessary for the requested operation.
 

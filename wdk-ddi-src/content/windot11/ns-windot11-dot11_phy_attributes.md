@@ -48,7 +48,7 @@ product:
 ## -description
 
 
-<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div>
+<div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div>
 
 <p>The DOT11_PHY_ATTRIBUTES structure defines the physical and operating attributes of a PHY on the
   802.11 station.</p>
@@ -140,7 +140,7 @@ A Boolean value that specifies the software power state of the PHY. If <b>TRUE</
       state is enabled. If <b>FALSE</b>, the software power state is disabled.
 
 For more information about the PHY's software power state, see
-      <a href="https://msdn.microsoft.com/library/windows/hardware/ff569392">OID_DOT11_NIC_POWER_STATE</a>.
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-nic-power-state">OID_DOT11_NIC_POWER_STATE</a>.
 
 <div class="alert"><b>Note</b>  Whenever the PHY's software power state changes, the miniport driver must make an
       <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-dot11-phy-state-changed">
@@ -159,7 +159,7 @@ This member is not applicable to the Extensible Access Point (ExtAP) operation m
 
 The maximum length, in bytes, of a media access control (MAC) protocol data unit (MPDU) frame that
       the PHY can transmit or receive. For more information, see
-      <a href="https://msdn.microsoft.com/library/windows/hardware/ff569387">OID_DOT11_MPDU_MAX_LENGTH</a>.
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-mpdu-max-length">OID_DOT11_MPDU_MAX_LENGTH</a>.
 
 <div class="alert"><b>Note</b>  Whenever the PHY's software power state changes, the miniport driver must make an
       NDIS_STATUS_DOT11_MPDU_MAX_LENGTH_CHANGED media-specific status indication.</div>
@@ -281,7 +281,7 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569392">OID_DOT11_NIC_POWER_STATE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-nic-power-state">OID_DOT11_NIC_POWER_STATE</a>
 
 
 

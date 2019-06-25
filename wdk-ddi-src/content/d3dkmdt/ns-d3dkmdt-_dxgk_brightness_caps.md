@@ -46,7 +46,7 @@ req.typenames: DXGK_BRIGHTNESS_CAPS
 ## -description
 
 
-Identifies brightness control capabilities of an integrated display panel that the display miniport driver provides through a call to its <a href="https://msdn.microsoft.com/3418dd2b-63cb-411f-9bae-390148885907">DxgkDdiGetBrightnessCaps</a> function. Used by Windows Display Driver Model (WDDM) 1.2 and later display miniport drivers.
+Identifies brightness control capabilities of an integrated display panel that the display miniport driver provides through a call to its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgk_brightness_get_caps">DxgkDdiGetBrightnessCaps</a> function. Used by Windows Display Driver Model (WDDM) 1.2 and later display miniport drivers.
 
 
 ## -struct-fields
@@ -88,7 +88,7 @@ Setting this member is equivalent to setting the remaining 30 bits (0xFFFFFFFC) 
 
 
 
-Do not assume that the <b>SmoothBrightness</b> members of <a href="https://msdn.microsoft.com/library/windows/hardware/jj128361">DXGK_BRIGHTNESS_STATE</a> and <b>DXGK_BRIGHTNESS_CAPS</b> are the same. <b>DXGK_BRIGHTNESS_STATE</b>.<b>SmoothBrightness</b> is used to enable  smooth brightness control on an integrated display panel. <b>DXGK_BRIGHTNESS_CAPS</b>.<b>SmoothBrightness</b> is used to query smooth brightness control capabilities of the integrated display panel.
+Do not assume that the <b>SmoothBrightness</b> members of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmdt/ns-d3dkmdt-_dxgk_brightness_state">DXGK_BRIGHTNESS_STATE</a> and <b>DXGK_BRIGHTNESS_CAPS</b> are the same. <b>DXGK_BRIGHTNESS_STATE</b>.<b>SmoothBrightness</b> is used to enable  smooth brightness control on an integrated display panel. <b>DXGK_BRIGHTNESS_CAPS</b>.<b>SmoothBrightness</b> is used to query smooth brightness control capabilities of the integrated display panel.
 
 
 
@@ -98,11 +98,11 @@ Do not assume that the <b>SmoothBrightness</b> members of <a href="https://msdn.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj128361">DXGK_BRIGHTNESS_STATE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmdt/ns-d3dkmdt-_dxgk_brightness_state">DXGK_BRIGHTNESS_STATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/3418dd2b-63cb-411f-9bae-390148885907">DxgkDdiGetBrightnessCaps</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgk_brightness_get_caps">DxgkDdiGetBrightnessCaps</a>
  
 
  

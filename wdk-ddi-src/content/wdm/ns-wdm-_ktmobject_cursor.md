@@ -46,7 +46,7 @@ req.typenames: KTMOBJECT_CURSOR, *PKTMOBJECT_CURSOR
 ## -description
 
 
-The <b>KTMOBJECT_CURSOR</b> structure receives enumeration information about KTM objects when a component calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff566450">ZwEnumerateTransactionObject</a>. 
+The <b>KTMOBJECT_CURSOR</b> structure receives enumeration information about KTM objects when a component calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ntenumeratetransactionobject">ZwEnumerateTransactionObject</a>. 
 
 
 ## -struct-fields
@@ -83,7 +83,7 @@ The <b>KTMOBJECT_CURSOR</b> structure is used at the beginning of buffers that c
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566450">ZwEnumerateTransactionObject</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ntenumeratetransactionobject">ZwEnumerateTransactionObject</a>
  
 
  

@@ -46,7 +46,7 @@ req.typenames: D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMGPU
 ## -description
 
 
-<b>D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMGPU</b> is used with <a href="https://msdn.microsoft.com/49023D25-D57E-418F-AD10-133377B90493">pfnWaitForSynchronizationObjectFromGpuCb</a> to wait for a monitored fence to reach a certain value.
+<b>D3DDDICB_WAITFORSYNCHRONIZATIONOBJECTFROMGPU</b> is used with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_waitforsynchronizationobjectfromgpucb">pfnWaitForSynchronizationObjectFromGpuCb</a> to wait for a monitored fence to reach a certain value.
 
 
 ## -struct-fields
@@ -89,7 +89,7 @@ This member is reserved and should be set to zero.
 
 
 
-<a href="https://msdn.microsoft.com/49023D25-D57E-418F-AD10-133377B90493">pfnWaitForSynchronizationObjectFromGpuCb</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_waitforsynchronizationobjectfromgpucb">pfnWaitForSynchronizationObjectFromGpuCb</a>
  
 
  

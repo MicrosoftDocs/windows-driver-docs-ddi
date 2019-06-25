@@ -56,7 +56,7 @@ Kernel streaming clients use the KSP_PIN structure to specify the property and p
 
 ### -field Property
 
-Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a> structure.
+Specifies a <a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> structure.
 
 
 ### -field PinId
@@ -99,7 +99,7 @@ The client is aware of attributes and handles attribute ranges.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
+<a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
  
 
  

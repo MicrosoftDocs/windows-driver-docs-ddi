@@ -50,7 +50,7 @@ req.typenames:
 The 
   <b>FwpsFlowAssociateContext0</b> function associates a callout driver-defined context with a data
   flow.
-<div class="alert"><b>Note</b>  <b>FwpsFlowAssociateContext0</b> is a specific version of <b>FwpsFlowAssociateContext</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
+<div class="alert"><b>Note</b>  <b>FwpsFlowAssociateContext0</b> is a specific version of <b>FwpsFlowAssociateContext</b>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
 ## -parameters
 
@@ -62,14 +62,14 @@ The
 A run-time identifier that specifies the data flow with which to associate the context. The
      run-time identifier for a data flow is provided to a callout driver through the
      FWPS_METADATA_FIELD_FLOW_HANDLE metadata value that was passed to the callout driver's 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> callout function.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_netvista/">classifyFn</a> callout function.
 
 
 ### -param layerId [in]
 
 The run-time identifier for the filtering layer with which the context is being associated. The context will be associated only with the specified filtering layer. For
      more information, see 
-     <a href="https://msdn.microsoft.com/library/windows/desktop/aa366492">Run-time Filtering Layer
+     <a href="https://docs.microsoft.com/windows/desktop/FWP/management-filtering-layer-identifiers-">Run-time Filtering Layer
      Identifiers</a>.
 
 
@@ -77,8 +77,8 @@ The run-time identifier for the filtering layer with which the context is being 
 
 The run-time identifier for the callout in the filter engine. This identifier was returned when
      the callout driver called the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff551140">FwpsCalloutRegister0</a>, 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff551143">FwpsCalloutRegister1</a>, or  <a href="https://msdn.microsoft.com/library/windows/hardware/hh439576">FwpsCalloutRegister2</a> function to
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpscalloutregister0">FwpsCalloutRegister0</a>, 
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpscalloutregister1">FwpsCalloutRegister1</a>, or  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpscalloutregister2">FwpsCalloutRegister2</a> function to
      register the callout with the filter engine.
 
 
@@ -118,7 +118,7 @@ The context was successfully associated with the data flow.
 </dl>
 </td>
 <td width="60%">
-Either the <i>flowContext</i> parameter is <b>NULL</b> or the callout specified by the <i>calloutID</i> parameter does not have a <a href="https://msdn.microsoft.com/65449a23-da5d-4884-b98e-030461eb019a">flowDeleteFn</a> registered.
+Either the <i>flowContext</i> parameter is <b>NULL</b> or the callout specified by the <i>calloutID</i> parameter does not have a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_flow_delete_notify_fn0">flowDeleteFn</a> registered.
 
 </td>
 </tr>
@@ -131,9 +131,9 @@ Either the <i>flowContext</i> parameter is <b>NULL</b> or the callout specified 
 <td width="60%">
 A context is already associated with the data flow. In this case, a callout driver should first
        call the 
-       <a href="https://msdn.microsoft.com/library/windows/hardware/ff551169">FwpsFlowRemoveContext0</a> function
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsflowremovecontext0">FwpsFlowRemoveContext0</a> function
        to remove the existing context and then call the 
-       <a href="https://msdn.microsoft.com/library/windows/hardware/ff551165">FwpsFlowAssociateContext0</a> function again to associate the new context with the data flow.
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsflowassociatecontext0">FwpsFlowAssociateContext0</a> function again to associate the new context with the data flow.
 
 </td>
 </tr>
@@ -162,12 +162,12 @@ When filtering a data flow, a callout driver can call the
     <b>FwpsFlowAssociateContext0</b> function to associate a context with the data flow. It can then use this
     context to preserve any driver-specific data or state information between calls by the filter engine to a
     callout's 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> callout function for that data
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_netvista/">classifyFn</a> callout function for that data
     flow.
 
 There must be a callout in the filter engine at the layer identified by the 
     <i>layerId</i> parameter that has registered a 
-    <a href="https://msdn.microsoft.com/65449a23-da5d-4884-b98e-030461eb019a">flowDeleteFn</a> callout function. Otherwise,
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_flow_delete_notify_fn0">flowDeleteFn</a> callout function. Otherwise,
     the call to the 
     <b>FwpsFlowAssociateContext0</b> function will return STATUS_INVALID_PARAMETER. The filter engine calls that 
     <i>flowDeleteFn</i> callout function when the flow is terminated so that the callout driver can clean up
@@ -179,7 +179,7 @@ The <b>FwpsFlowAssociateContext0</b> function associates a single context with a
 
 You can associate multiple contexts with a flow. However, each context must be associated with a different callout. The new callout can be at the same layer as the previous one or at a different layer.
 
-For more information and sample code, see <a href="https://msdn.microsoft.com/75f5838e-626d-4a59-810e-fec9a40640ed">Associating Context with a Data Flow</a>
+For more information and sample code, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/associating-context-with-a-data-flow">Associating Context with a Data Flow</a>
 and the <a href="https://go.microsoft.com/fwlink/p/?LinkId=618934">Windows Filtering Platform Sample</a>.
 
 
@@ -190,23 +190,23 @@ and the <a href="https://go.microsoft.com/fwlink/p/?LinkId=618934">Windows Filte
 
 
 
-<a href="https://msdn.microsoft.com/75f5838e-626d-4a59-810e-fec9a40640ed">Associating Context with a Data Flow</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/associating-context-with-a-data-flow">Associating Context with a Data Flow</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551140">FwpsCalloutRegister0</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpscalloutregister0">FwpsCalloutRegister0</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551143">FwpsCalloutRegister1</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpscalloutregister1">FwpsCalloutRegister1</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439576">FwpsCalloutRegister2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpscalloutregister2">FwpsCalloutRegister2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551169">FwpsFlowRemoveContext0</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsflowremovecontext0">FwpsFlowRemoveContext0</a>
 
 
 
@@ -214,11 +214,11 @@ and the <a href="https://go.microsoft.com/fwlink/p/?LinkId=618934">Windows Filte
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_netvista/">classifyFn</a>
 
 
 
-<a href="https://msdn.microsoft.com/65449a23-da5d-4884-b98e-030461eb019a">flowDeleteFn</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_flow_delete_notify_fn0">flowDeleteFn</a>
  
 
  

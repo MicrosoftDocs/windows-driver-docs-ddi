@@ -46,8 +46,8 @@ req.typenames: EXT_TDOP
 ## -description
 
 
-The EXT_TDOP enumeration is used in the <b>Operation</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545306">EXT_TYPED_DATA</a> structure to specify which suboperation the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541547">DEBUG_REQUEST_EXT_TYPED_DATA_ANSI</a>
-<a href="https://msdn.microsoft.com/efb3c93c-5405-418b-a063-afa8e5e9e59a"> Request</a> operation will perform.
+The EXT_TDOP enumeration is used in the <b>Operation</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdbgexts/ns-wdbgexts-_ext_typed_data">EXT_TYPED_DATA</a> structure to specify which suboperation the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-request-ext-typed-data-ansi">DEBUG_REQUEST_EXT_TYPED_DATA_ANSI</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugadvanced3-request"> Request</a> operation will perform.
 
 
 ## -enum-fields
@@ -161,15 +161,15 @@ Does not specify an operation. Instead, it represents the number of suboperation
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541547">DEBUG_REQUEST_EXT_TYPED_DATA_ANSI</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-request-ext-typed-data-ansi">DEBUG_REQUEST_EXT_TYPED_DATA_ANSI</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545306">EXT_TYPED_DATA</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdbgexts/ns-wdbgexts-_ext_typed_data">EXT_TYPED_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554564">Request</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugadvanced3-request">Request</a>
  
 
  

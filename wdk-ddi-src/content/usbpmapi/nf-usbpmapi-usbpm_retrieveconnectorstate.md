@@ -59,7 +59,7 @@ Retrieves the current state of a connector. Unlike connector properties, state i
 [Out] A pointer to a driver-provided [**USBPM_CONNECTOR_STATE**](ns-usbpmapi-_usbpm_connector_state.md) structure that receives the connector state. Initialize the structure by calling  [**USBPM_CONNECTOR_STATE_INIT**](nf-usbpmapi-usbpm_connector_state_init.md).
 
 ## -returns
-Returns STATUS_SUCCESS if the operation succeeds. Otherwise, returns an appropriate [NTSTATUS](https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505) value.
+Returns STATUS_SUCCESS if the operation succeeds. Otherwise, returns an appropriate [NTSTATUS](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values) value.
 
 ## -remarks
 

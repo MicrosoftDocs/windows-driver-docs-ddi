@@ -57,11 +57,11 @@ The STOR_DPC structure is an opaque structure that represents a DPC object. Do n
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567110">StorPortInitializeDpc</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportinitializedpc">StorPortInitializeDpc</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567116">StorPortIssueDpc</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportissuedpc">StorPortIssueDpc</a>
  
 
  

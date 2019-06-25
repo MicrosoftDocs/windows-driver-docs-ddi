@@ -88,7 +88,7 @@ The maximum value for this enumeration. This value might change in future versio
 
 
 
-For more information about Hyper-V parent and child partitions, see <a href="https://msdn.microsoft.com/467996B2-9319-47F9-BAEB-5AC1F20B6E01">Virtualized Networking Concepts and Terms</a>.
+For more information about Hyper-V parent and child partitions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/virtualized-networking-concepts-and-terms">Virtualized Networking Concepts and Terms</a>.
 
 
 
@@ -98,7 +98,7 @@ For more information about Hyper-V parent and child partitions, see <a href="htt
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565708">NDIS_HYPERVISOR_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_hypervisor_info">NDIS_HYPERVISOR_INFO</a>
  
 
  

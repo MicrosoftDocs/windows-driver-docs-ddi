@@ -138,9 +138,9 @@ Matches zero or more characters until encountering and matching the final . in t
 </table>
  
 
-Pattern matching is case sensitive. To perform a case-insensitive match, the caller must use a routine such as <a href="https://msdn.microsoft.com/library/windows/hardware/ff563013">RtlUpperString</a> to convert the pattern and input strings to uppercase before calling <b>FsRtlIsDbcsInExpression</b>.
+Pattern matching is case sensitive. To perform a case-insensitive match, the caller must use a routine such as <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-rtlupperstring">RtlUpperString</a> to convert the pattern and input strings to uppercase before calling <b>FsRtlIsDbcsInExpression</b>.
 
-For information about other string-handling routines, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563884">Strings</a>. 
+For information about other string-handling routines, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">Strings</a>. 
 
 
 
@@ -150,15 +150,15 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540605">ANSI_STRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_string">ANSI_STRING</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546850">FsRtlIsNameInExpression</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlisnameinexpression">FsRtlIsNameInExpression</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563013">RtlUpperString</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-rtlupperstring">RtlUpperString</a>
  
 
  

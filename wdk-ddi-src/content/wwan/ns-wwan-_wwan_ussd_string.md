@@ -96,11 +96,11 @@ For USSD notifications, the miniport driver or MB device must encode the USSD st
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh464136">WWAN_USSD_EVENT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_ussd_event">WWAN_USSD_EVENT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh464138">WWAN_USSD_REQUEST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_ussd_request">WWAN_USSD_REQUEST</a>
  
 
  

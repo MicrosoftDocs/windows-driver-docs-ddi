@@ -56,7 +56,7 @@ The <b>ExInitializeFastMutex</b> routine initializes a fast mutex variable, used
 
 ### -param FastMutex [out]
 
-A pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff545715">FAST_MUTEX</a> structure, which represents the fast mutex, in the nonpaged memory pool. The allocation must be 4-byte aligned on 32-bit platforms, and 8-byte aligned on 64-bit platforms.
+A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">FAST_MUTEX</a> structure, which represents the fast mutex, in the nonpaged memory pool. The allocation must be 4-byte aligned on 32-bit platforms, and 8-byte aligned on 64-bit platforms.
 
 
 ## -returns
@@ -78,7 +78,7 @@ Although the caller supplies the storage for the given fast mutex, the <b>FAST_M
 
 For better performance, use the <b>Ex<i>Xxx</i>FastMutex</b> routines instead of the <b>Ke<i>Xxx</i>Mutex</b> routines. However, a fast mutex cannot be acquired recursively, as a kernel mutex can. 
 
-For more information about fast mutexes, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff545716">Fast Mutexes and Guarded Mutexes</a>.
+For more information about fast mutexes, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/fast-mutexes-and-guarded-mutexes">Fast Mutexes and Guarded Mutexes</a>.
 
 
 
@@ -88,31 +88,31 @@ For more information about fast mutexes, see <a href="https://msdn.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544337">ExAcquireFastMutex</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff544337(v=vs.85)">ExAcquireFastMutex</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544340">ExAcquireFastMutexUnsafe</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff544340(v=vs.85)">ExAcquireFastMutexUnsafe</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545549">ExReleaseFastMutex</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff545549(v=vs.85)">ExReleaseFastMutex</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545567">ExReleaseFastMutexUnsafe</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff545567(v=vs.85)">ExReleaseFastMutexUnsafe</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545647">ExTryToAcquireFastMutex</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff545647(v=vs.85)">ExTryToAcquireFastMutex</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545715">FAST_MUTEX</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">FAST_MUTEX</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552147">KeInitializeMutex</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-keinitializemutex">KeInitializeMutex</a>
  
 
  

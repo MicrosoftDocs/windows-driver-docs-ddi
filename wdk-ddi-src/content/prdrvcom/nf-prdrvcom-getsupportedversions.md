@@ -91,7 +91,7 @@ A pointer to a variable that receives the address of the first element of an arr
 
 The plug-in is responsible for allocating the array memory that is pointed to by the <i>ppVersions</i> parameter. The plug-in should allocate this memory by using the <b>CoTaskMemAlloc</b> function (described in the Microsoft Windows SDK documentation), but the plug-in is not responsible for freeing this memory.
 
-Because <code>IPrintTicketProvider::GetSupportedVersions</code> can be called before the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554354">IPrintTicketProvider::BindPrinter</a> method is called, the OEM plug-in provider must check version support based on the handle that is passed in the <i>hPrinter</i> parameter. As a result, the OEM plug-in provider should not close the printer handle that is associated with <i>hPrinter</i>.
+Because <code>IPrintTicketProvider::GetSupportedVersions</code> can be called before the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff554354(v=vs.85)">IPrintTicketProvider::BindPrinter</a> method is called, the OEM plug-in provider must check version support based on the handle that is passed in the <i>hPrinter</i> parameter. As a result, the OEM plug-in provider should not close the printer handle that is associated with <i>hPrinter</i>.
 
 
 
@@ -101,11 +101,11 @@ Because <code>IPrintTicketProvider::GetSupportedVersions</code> can be called be
 
 
 
-<a href="https://msdn.microsoft.com/4eb3c193-377b-4e51-a97b-50c6fdaa1b08">IPrintTicketProvider</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff554375(v=vs.85)">IPrintTicketProvider</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554354">IPrintTicketProvider::BindPrinter</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff554354(v=vs.85)">IPrintTicketProvider::BindPrinter</a>
  
 
  

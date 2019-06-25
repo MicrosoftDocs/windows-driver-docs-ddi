@@ -113,15 +113,15 @@ The data buffer containing <i>ProviderId</i>.
 
 
 
-<a href="https://msdn.microsoft.com/66460B28-C2B4-4F05-A133-31A753AF9489">WWAN_BASE_STATIONS_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_base_stations_info">WWAN_BASE_STATIONS_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/5959B7A7-147D-4F20-82CC-EC1DEAAE3494">WWAN_LTE_MRL</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_lte_mrl">WWAN_LTE_MRL</a>
 
 
 
-<a href="https://msdn.microsoft.com/49C3D862-EB78-4C44-A7B7-CE15E79EB021">WWAN_LTE_MRL_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_lte_mrl_info">WWAN_LTE_MRL_INFO</a>
  
 
  

@@ -48,7 +48,7 @@ req.typenames: WSK_TDI_MAP, *PWSK_TDI_MAP
 
 The WSK_TDI_MAP structure specifies a mapping between a particular address family, socket type, and
   protocol to the device name of a 
-  <a href="https://msdn.microsoft.com/3878053c-388a-4bbc-a30e-feb16eda2f99">TDI</a> transport.
+  <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff565094(v=vs.85)">TDI</a> transport.
 
 
 ## -struct-fields
@@ -76,7 +76,7 @@ The transport protocol.
 ### -field TdiDeviceName
 
 A pointer to a null-terminated wide character string that contains the device name for the 
-     <a href="https://msdn.microsoft.com/7c432f72-4de6-40a8-884c-26e13926e550">TDI</a> transport that supports the combination of
+     <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff565091(v=vs.85)">TDI</a> transport that supports the combination of
      address family, socket type, and protocol specified by the 
      <b>AddressFamily</b>, 
      <b>SocketType</b>, and 
@@ -89,18 +89,18 @@ A pointer to a null-terminated wide character string that contains the device na
 
 The 
     <b>Map</b> member of the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff571192">WSK_TDI_MAP_INFO</a> structure points to an
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/ns-wsk-_wsk_tdi_map_info">WSK_TDI_MAP_INFO</a> structure points to an
     array of WSK_TDI_MAP structures, each of which contains a mapping between a particular address family,
     socket type, and protocol to the device name of a 
-    <a href="https://msdn.microsoft.com/3878053c-388a-4bbc-a30e-feb16eda2f99">TDI</a> transport.
+    <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff565094(v=vs.85)">TDI</a> transport.
 
 For more information about using TDI transports, see 
-    <a href="https://msdn.microsoft.com/58fb5e62-e15d-4f15-8eb3-3e302ea08c4f">Using TDI Transports</a>.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/using-tdi-transports">Using TDI Transports</a>.
 
 <div class="alert"><b>Note</b>  TDI will not be supported in Microsoft Windows versions after Windows Vista. Use 
-    <a href="https://msdn.microsoft.com/b9d88e59-3c4b-4804-8dd9-02c275927a1e">Windows Filtering
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_netvista/">Windows Filtering
     Platform</a> or 
-    <a href="https://msdn.microsoft.com/90264a3d-f002-4205-8e15-9060644117a3">Winsock Kernel</a> instead.</div>
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_netvista/">Winsock Kernel</a> instead.</div>
 <div> </div>
 
 
@@ -110,7 +110,7 @@ For more information about using TDI transports, see
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571192">WSK_TDI_MAP_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/ns-wsk-_wsk_tdi_map_info">WSK_TDI_MAP_INFO</a>
  
 
  

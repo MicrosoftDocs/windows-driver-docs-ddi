@@ -56,7 +56,7 @@ The <b>IoWMIQueryAllDataMultiple</b> routine returns all WMI data blocks that im
 
 ### -param DataBlockObjectList [in]
 
-Pointer to an array of pointers to WMI data block objects. The caller opens a data block object for each WMI class with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550453">IoWMIOpenBlock</a> routine. Each object must be opened with the WMIGUID_QUERY access right.
+Pointer to an array of pointers to WMI data block objects. The caller opens a data block object for each WMI class with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iowmiopenblock">IoWMIOpenBlock</a> routine. Each object must be opened with the WMIGUID_QUERY access right.
 
 
 ### -param ObjectCount [in]
@@ -71,7 +71,7 @@ Pointer to a memory location that specifies the size of the buffer passed in the
 
 ### -param OutBuffer [out, optional]
 
-Pointer to the buffer where the routine returns the WMI data. The routine returns a sequence of variable-sized <a href="https://msdn.microsoft.com/library/windows/hardware/ff566372">WNODE_ALL_DATA</a> structures, one for each set of returned data blocks. The <b>WnodeHeader.Linkage</b> member of each <b>WNODE_ALL_DATA</b> structure contains the offset from the beginning of the current <b>WNODE_ALL_DATA</b> to the beginning of the next <b>WNODE_ALL_DATA</b>. The final block in the chain has <b>WnodeHeader.Linkage</b> set to zero. <i>OutBuffer</i> must point to a buffer allocated from nonpaged pool. 
+Pointer to the buffer where the routine returns the WMI data. The routine returns a sequence of variable-sized <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wmistr/ns-wmistr-tagwnode_all_data">WNODE_ALL_DATA</a> structures, one for each set of returned data blocks. The <b>WnodeHeader.Linkage</b> member of each <b>WNODE_ALL_DATA</b> structure contains the offset from the beginning of the current <b>WNODE_ALL_DATA</b> to the beginning of the next <b>WNODE_ALL_DATA</b>. The final block in the chain has <b>WnodeHeader.Linkage</b> set to zero. <i>OutBuffer</i> must point to a buffer allocated from nonpaged pool. 
 
 
 ## -returns
@@ -117,11 +117,11 @@ The buffer passed by the caller in the <i>OutBuffer</i> parameter is too small. 
 
 
 
-<b>IoWMIQueryAllDataMultiple</b> determines which drivers support the specified WMI classes, and issues an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551650">IRP_MN_QUERY_ALL_DATA</a> request to every such driver. 
+<b>IoWMIQueryAllDataMultiple</b> determines which drivers support the specified WMI classes, and issues an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-all-data">IRP_MN_QUERY_ALL_DATA</a> request to every such driver. 
 
 If no drivers implement any of the specified WMI classes, the routine returns STATUS_SUCCESS It also returns a value of zero in the memory location pointed to by the <i>InOutBufferSize</i> parameter.
 
-To query a single WMI class, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff550463">IoWMIQueryAllData</a>. 
+To query a single WMI class, use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iowmiqueryalldata">IoWMIQueryAllData</a>. 
 
 
 
@@ -131,15 +131,15 @@ To query a single WMI class, use <a href="https://msdn.microsoft.com/library/win
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551650">IRP_MN_QUERY_ALL_DATA</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-all-data">IRP_MN_QUERY_ALL_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550453">IoWMIOpenBlock</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iowmiopenblock">IoWMIOpenBlock</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550463">IoWMIQueryAllData</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iowmiqueryalldata">IoWMIQueryAllData</a>
  
 
  

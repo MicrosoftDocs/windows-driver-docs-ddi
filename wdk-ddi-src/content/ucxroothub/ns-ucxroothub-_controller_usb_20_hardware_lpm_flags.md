@@ -89,7 +89,7 @@ Indicates Best Effort Service latency (BESL) latency support.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt188027">ROOTHUB_20PORT_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucxroothub/ns-ucxroothub-_roothub_20port_info">ROOTHUB_20PORT_INFO</a>
  
 
  

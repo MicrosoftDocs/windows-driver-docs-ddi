@@ -63,7 +63,7 @@ A handle that identifies the adapter.
 
 ### -param pSetTargetContentTypeArg [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/BD849954-97CC-4314-B375-22829B0CEE86">DXGKARG_SETTARGETCONTENTTYPE</a> structure that provides the target to be modified and the new type of content being displayed on it.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_settargetcontenttype">DXGKARG_SETTARGETCONTENTTYPE</a> structure that provides the target to be modified and the new type of content being displayed on it.
 
 
 ## -returns

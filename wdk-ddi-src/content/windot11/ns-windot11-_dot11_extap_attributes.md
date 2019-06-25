@@ -48,7 +48,7 @@ product:
 ## -description
 
 
-<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_EXTAP_ATTRIBUTES structure defines the physical and operating attributes of the miniport
+<div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_EXTAP_ATTRIBUTES structure defines the physical and operating attributes of the miniport
   driver and 802.11 station when it operates in Extensible Access Point (ExtAP) mode.
 
 
@@ -122,7 +122,7 @@ The maximum number of service set identifiers (SSIDs) supported by the 802.11 st
 
 
 The SSID list that the 802.11 station uses for scanning is specified when
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569413">OID_DOT11_SCAN_REQUEST</a> is
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-scan-request">OID_DOT11_SCAN_REQUEST</a> is
      set.
 
 
@@ -156,7 +156,7 @@ The maximum number of associations that the 802.11 station can support simultane
 
 
 If the NIC supports any authentication and cipher algorithms that require
-     <a href="https://msdn.microsoft.com/eed9effd-5c63-44ac-ab02-446f767feaea">key-Mapping keys</a>, it must support at least
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/key-mapping-keys">key-Mapping keys</a>, it must support at least
      the number of entries in its key-mapping key table.
 
 
@@ -338,7 +338,7 @@ A pointer to an array of authentication and cipher algorithms supported by the 8
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569413">OID_DOT11_SCAN_REQUEST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-scan-request">OID_DOT11_SCAN_REQUEST</a>
 
 
 

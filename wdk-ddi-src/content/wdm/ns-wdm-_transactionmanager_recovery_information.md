@@ -46,7 +46,7 @@ req.typenames: TRANSACTIONMANAGER_RECOVERY_INFORMATION, *PTRANSACTIONMANAGER_REC
 ## -description
 
 
-The TRANSACTIONMANAGER_RECOVERY_INFORMATION structure contains information about a <a href="https://msdn.microsoft.com/af53cda4-e2ab-47df-9311-a4da2a2ee08d">transaction manager object</a>.
+The TRANSACTIONMANAGER_RECOVERY_INFORMATION structure contains information about a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/transaction-manager-objects">transaction manager object</a>.
 
 
 ## -struct-fields
@@ -56,14 +56,14 @@ The TRANSACTIONMANAGER_RECOVERY_INFORMATION structure contains information about
 
 ### -field LastRecoveredLsn
 
-The last <a href="https://msdn.microsoft.com/4637fa0c-2f19-4f0c-bf13-f4ccac2e7284">log sequence number</a> of the last log record that KTM obtained from <a href="https://msdn.microsoft.com/a9685648-b08c-48ca-b020-e683068f2ea2">CLFS</a> during the most recent recovery operation.
+The last <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/clfs-log-sequence-numbers">log sequence number</a> of the last log record that KTM obtained from <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-common-log-file-system">CLFS</a> during the most recent recovery operation.
 
 
 ## -remarks
 
 
 
-The TRANSACTIONMANAGER_RECOVERY_INFORMATION structure is used with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567058">ZwQueryInformationTransactionManager</a> routine.
+The TRANSACTIONMANAGER_RECOVERY_INFORMATION structure is used with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ntqueryinformationtransactionmanager">ZwQueryInformationTransactionManager</a> routine.
 
 
 
@@ -73,11 +73,11 @@ The TRANSACTIONMANAGER_RECOVERY_INFORMATION structure is used with the <a href="
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564762">TRANSACTIONMANAGER_INFORMATION_CLASS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_transactionmanager_information_class">TRANSACTIONMANAGER_INFORMATION_CLASS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567058">ZwQueryInformationTransactionManager</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ntqueryinformationtransactionmanager">ZwQueryInformationTransactionManager</a>
  
 
  

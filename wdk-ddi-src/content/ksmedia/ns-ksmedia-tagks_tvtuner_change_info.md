@@ -94,7 +94,7 @@ Specifies the country code in use. This corresponds to the International Telecom
 
 ### -field dwAnalogVideoStandard
 
-Specifies the current analog video standard. This member should be set to a value from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567297">KS_AnalogVideoStandard</a> enumeration.
+Specifies the current analog video standard. This member should be set to a value from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ne-ksmedia-ks_analogvideostandard">KS_AnalogVideoStandard</a> enumeration.
 
 
 ### -field dwChannel
@@ -116,7 +116,7 @@ A packet containing a KS_TVTUNER_CHANGE_INFO structure normally originates at a 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567297">KS_AnalogVideoStandard</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ne-ksmedia-ks_analogvideostandard">KS_AnalogVideoStandard</a>
  
 
  

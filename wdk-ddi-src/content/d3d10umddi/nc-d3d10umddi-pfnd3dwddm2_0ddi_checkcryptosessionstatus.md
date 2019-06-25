@@ -56,17 +56,17 @@ req.typenames:
 
 ### -param hDevice [in]
 
-A handle to the display device (graphics context). The Direct3D runtime passed the user-mode driver this handle as the <b>hDevice</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff542931">D3DDDIARG_CREATEDEVICE</a> structure at device creation.
+A handle to the display device (graphics context). The Direct3D runtime passed the user-mode driver this handle as the <b>hDevice</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_createdevice">D3DDDIARG_CREATEDEVICE</a> structure at device creation.
 
 
 ### -param hCryptoSession [in]
 
-A handle to the cryptographic session object that was created through a call to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451619">CreateCryptoSession</a>DDI.
+A handle to the cryptographic session object that was created through a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession">CreateCryptoSession</a>DDI.
 
 
 ### -param *pStatus [in, out]
 
-Receives a status as a value of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn894606">D3DWDDM2_0DDI_CRYPTO_SESSION_STATUS</a> enumeration.
+Receives a status as a value of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ne-d3d10umddi-d3dwddm2_0ddi_crypto_session_status">D3DWDDM2_0DDI_CRYPTO_SESSION_STATUS</a> enumeration.
 
 
 ## -returns
@@ -92,15 +92,15 @@ The application may call this DDI after receiving a hardware content protection 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451619">CreateCryptoSession</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession">CreateCryptoSession</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542931">D3DDDIARG_CREATEDEVICE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_createdevice">D3DDDIARG_CREATEDEVICE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn894606">D3DWDDM2_0DDI_CRYPTO_SESSION_STATUS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ne-d3d10umddi-d3dwddm2_0ddi_crypto_session_status">D3DWDDM2_0DDI_CRYPTO_SESSION_STATUS</a>
  
 
  

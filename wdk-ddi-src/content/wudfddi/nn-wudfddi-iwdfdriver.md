@@ -53,7 +53,7 @@ The <b>IWDFDriver</b> interface exposes the framework driver object that represe
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFDriver</b> interface inherits from <a href="https://msdn.microsoft.com/library/windows/hardware/ff560200">IWDFObject</a>. <b>IWDFDriver</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFDriver</b> interface inherits from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nn-wudfddi-iwdfobject">IWDFObject</a>. <b>IWDFDriver</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -68,55 +68,55 @@ The <b>IWDFDriver</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfdriver-createdevice">IWDFDriver::CreateDevice</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/df921271-b708-43bf-a250-048b7f638cac">CreateDevice</a> method configures and creates a new framework device object.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfdriver-createdevice">CreateDevice</a> method configures and creates a new framework device object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558902">IWDFDriver::CreatePreallocatedWdfMemory</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfdriver-createpreallocatedwdfmemory">IWDFDriver::CreatePreallocatedWdfMemory</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/9c24f42b-0f1d-4b93-99af-f4a5069b5223">CreatePreallocatedWdfMemory</a> method creates a <a href="https://msdn.microsoft.com/b5f7bb8b-115a-4536-9857-b7229ae2ec99">framework memory object</a> for the specified buffer.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfdriver-createpreallocatedwdfmemory">CreatePreallocatedWdfMemory</a> method creates a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/framework-memory-object">framework memory object</a> for the specified buffer.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558905">IWDFDriver::CreateWdfMemory</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfdriver-createwdfmemory">IWDFDriver::CreateWdfMemory</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/2ea754db-3bed-48d9-825f-7ee7b5e169b7">CreateWdfMemory</a> method creates a <a href="https://msdn.microsoft.com/b5f7bb8b-115a-4536-9857-b7229ae2ec99">framework memory object</a> and allocates, for the memory object, a data buffer of the specified nonzero size.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfdriver-createwdfmemory">CreateWdfMemory</a> method creates a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/framework-memory-object">framework memory object</a> and allocates, for the memory object, a data buffer of the specified nonzero size.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558906">IWDFDriver::CreateWdfObject</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfdriver-createwdfobject">IWDFDriver::CreateWdfObject</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/9dda353d-7c39-4c3c-b9e2-38946d6cc086">CreateWdfObject</a> method creates a custom (or user) WDF object from a parent WDF object.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfdriver-createwdfobject">CreateWdfObject</a> method creates a custom (or user) WDF object from a parent WDF object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558909">IWDFDriver::IsVersionAvailable</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfdriver-isversionavailable">IWDFDriver::IsVersionAvailable</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/9048a568-3369-44eb-8fa8-361ce968a253">IsVersionAvailable</a> method determines whether the specified version of the framework is available.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfdriver-isversionavailable">IsVersionAvailable</a> method determines whether the specified version of the framework is available.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558911">IWDFDriver::RetrieveVersionString</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfdriver-retrieveversionstring">IWDFDriver::RetrieveVersionString</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/2fa320df-bafd-42f4-a0a1-14151c39d68a">RetrieveVersionString</a> method retrieves the version of the framework.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfdriver-retrieveversionstring">RetrieveVersionString</a> method retrieves the version of the framework.
 
 </td>
 </tr>

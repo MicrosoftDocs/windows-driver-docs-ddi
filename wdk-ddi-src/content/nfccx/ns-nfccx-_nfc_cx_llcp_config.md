@@ -46,7 +46,7 @@ req.typenames: NFC_CX_LLCP_CONFIG, *PNFC_CX_LLCP_CONFIG
 ## -description
 
 
-The NFC_CX_LLCP_CONFIG structure is an input parameter to <a href="https://msdn.microsoft.com/8208F61E-DFD9-4AA8-B225-BEB35F80F621">NfcCxSetLlcpConfig.</a>
+The NFC_CX_LLCP_CONFIG structure is an input parameter to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/nfccx/nf-nfccx-nfccxsetllcpconfig">NfcCxSetLlcpConfig.</a>
 
 
 
@@ -80,7 +80,7 @@ The receive window size per LLCP spec. Default value is 5.
 
 
 
-<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
 
 
 

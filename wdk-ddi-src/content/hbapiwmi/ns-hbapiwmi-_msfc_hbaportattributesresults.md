@@ -46,7 +46,7 @@ req.typenames: MSFC_HBAPortAttributesResults, *PMSFC_HBAPortAttributesResults
 ## -description
 
 
-The  structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553925">GetDiscoveredPortAttributes</a> WMI method to report the attributes for a specified remote fibre channel port.
+The  structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/getdiscoveredportattributes">GetDiscoveredPortAttributes</a> WMI method to report the attributes for a specified remote fibre channel port.
 
 
 ## -struct-fields
@@ -398,7 +398,7 @@ Indicates the number of ports that are visible to <b>PortWWN</b>. For a more det
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553925">GetDiscoveredPortAttributes</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/getdiscoveredportattributes">GetDiscoveredPortAttributes</a>
  
 
  

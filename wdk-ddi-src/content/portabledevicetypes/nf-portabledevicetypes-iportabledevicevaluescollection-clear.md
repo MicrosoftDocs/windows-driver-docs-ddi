@@ -102,7 +102,7 @@ The method releases all memory that is allocated for the items in the collection
 
 
 
-<a href="https://msdn.microsoft.com/f6115732-00d2-48db-9087-6e33a769ca4b">IPortableDeviceValuesCollection Interface</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portabledevicetypes/nn-portabledevicetypes-iportabledevicevaluescollection">IPortableDeviceValuesCollection Interface</a>
  
 
  

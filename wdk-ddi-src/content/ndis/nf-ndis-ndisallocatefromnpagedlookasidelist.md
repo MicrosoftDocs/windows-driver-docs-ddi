@@ -60,7 +60,7 @@ The
 
 A pointer to the head of the lookaside list from which the entry will be allocated. The caller
      already initialized the list head with the 
-     <a href="https://msdn.microsoft.com/d240f2cc-18a6-4c2d-889f-e25a9486d5fe">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisinitializenpagedlookasidelist">
      NdisInitializeNPagedLookasideList</a> function.
 
 
@@ -74,7 +74,7 @@ If the lookaside list is not empty,
     <b>NdisAllocateFromNPagedLookasideList</b> either calls the 
     <i>Allocate</i> function, specified in the 
     <i>Allocate</i> parameter of the 
-    <a href="https://msdn.microsoft.com/d240f2cc-18a6-4c2d-889f-e25a9486d5fe">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisinitializenpagedlookasidelist">
     NdisInitializeNPagedLookasideList</a> function, that the caller specified at list initialization, if
     any, or it allocates an entry on behalf of the caller. 
     <b>NdisAllocateFromNPagedLookasideList</b> returns <b>NULL</b> if the caller-supplied 
@@ -87,7 +87,7 @@ All entries that are allocated from a nonpaged lookaside list are of a fixed siz
     demand. For example, any connection-oriented NDIS driver might allocate the VC context areas that it
     needs from a lookaside list as VCs are created and release each such entry back to the lookaside list
     with the 
-    <a href="https://msdn.microsoft.com/2405a405-177a-420a-9628-a340e0d0acb3">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisfreetonpagedlookasidelist">
     NdisFreeToNPagedLookasideList</a> function as each VC is torn down.
 
 
@@ -98,17 +98,17 @@ All entries that are allocated from a nonpaged lookaside list are of a fixed siz
 
 
 
-<a href="https://msdn.microsoft.com/0622d3db-8d28-4c15-a3d8-1092487b8096">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisdeletenpagedlookasidelist">
    NdisDeleteNPagedLookasideList</a>
 
 
 
-<a href="https://msdn.microsoft.com/2405a405-177a-420a-9628-a340e0d0acb3">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisfreetonpagedlookasidelist">
    NdisFreeToNPagedLookasideList</a>
 
 
 
-<a href="https://msdn.microsoft.com/d240f2cc-18a6-4c2d-889f-e25a9486d5fe">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisinitializenpagedlookasidelist">
    NdisInitializeNPagedLookasideList</a>
  
 

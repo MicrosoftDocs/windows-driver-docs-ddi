@@ -58,7 +58,7 @@ The <b>NDIS_RESTART_GENERAL_ATTRIBUTES</b> structure defines the general restart
 ### -field Header
 
 The 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
      <b>NDIS_RESTART_GENERAL_ATTRIBUTES</b> structure. NDIS sets the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to <b>NDIS_OBJECT_TYPE_RESTART_GENERIC_ATTRIBUTES</b>. 
@@ -96,31 +96,31 @@ NDIS sets the
 ### -field MtuSize
 
 The maximum transfer unit (MTU) size. For more information, see 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569598">OID_GEN_MAXIMUM_FRAME_SIZE</a>.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-maximum-frame-size">OID_GEN_MAXIMUM_FRAME_SIZE</a>.
 
 
 ### -field MaxXmitLinkSpeed
 
 The maximum transmit link speed of the adapter in bits per second. For more information, see 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569602">OID_GEN_MAX_LINK_SPEED</a>.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-max-link-speed">OID_GEN_MAX_LINK_SPEED</a>.
 
 
 ### -field MaxRcvLinkSpeed
 
 The maximum receive link speed of the adapter in bits per second. For more information, see 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569602">OID_GEN_MAX_LINK_SPEED</a>.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-max-link-speed">OID_GEN_MAX_LINK_SPEED</a>.
 
 
 ### -field LookaheadSize
 
 The lookahead size for the miniport adapter. For more information, see 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569574">OID_GEN_CURRENT_LOOKAHEAD</a>.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-current-lookahead">OID_GEN_CURRENT_LOOKAHEAD</a>.
 
 
 ### -field MacOptions
 
 The medium access control (MAC) options for the miniport adapter. For more information, see 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569597">OID_GEN_MAC_OPTIONS</a>.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-mac-options">OID_GEN_MAC_OPTIONS</a>.
 
 
 ### -field SupportedPacketFilters
@@ -142,7 +142,7 @@ The maximum multicast address list size for the miniport adapter. For more infor
 The receive side scaling (RSS) capabilities of the NIC. If the miniport adapter does not support
      the RSS feature, NDIS sets 
      <b>RecvScaleCapabilities</b> to a pointer to an 
-     <a href="https://msdn.microsoft.com/dabd8f65-1aa5-4d45-9c0a-4539efd762c6">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_receive_scale_capabilities">
      NDIS_RECEIVE_SCALE_CAPABILITIES</a> structure that is filled with zeros. For more information about
      RSS, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-receive-scale-capabilities">
@@ -152,7 +152,7 @@ The receive side scaling (RSS) capabilities of the NIC. If the miniport adapter 
 ### -field AccessType
 
 A 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568739">NET_IF_ACCESS_TYPE</a> NDIS network interface
+     <a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ne-ifdef-_net_if_access_type">NET_IF_ACCESS_TYPE</a> NDIS network interface
      access type.
 
 
@@ -164,7 +164,7 @@ Reserved.
 ### -field ConnectionType
 
 A 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568741">NET_IF_CONNECTION_TYPE</a> NDIS network
+     <a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ne-ifdef-_net_if_connection_type">NET_IF_CONNECTION_TYPE</a> NDIS network
      interface connection type.
 
 
@@ -172,7 +172,7 @@ A
 
 The supported statistics. For more information, see the 
      <b>SupportedStatistics</b> member of the 
-     <a href="https://msdn.microsoft.com/5423d073-02a5-468b-b91e-713ac67a5253">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_miniport_adapter_general_attributes">
      NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES</a> structure.
 
 
@@ -189,7 +189,7 @@ The required context backfill size, in bytes, of the driver.
 ### -field SupportedOidList
 
 A list of OIDs that the miniport driver supports. For more information, see 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569642">OID_GEN_SUPPORTED_LIST</a>.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-supported-list">OID_GEN_SUPPORTED_LIST</a>.
 
 
 ### -field SupportedOidListLength
@@ -212,12 +212,12 @@ A ULONG value for the maximum size, in bytes, of the lookahead size requirement 
 
 NDIS passes an NDIS_RESTART_GENERAL_ATTRIBUTES structure to drivers during restart operations. For
     example, when NDIS calls a miniport driver's 
-    <a href="https://msdn.microsoft.com/31a18040-2c66-4074-9ace-dd604b4bfe22">MiniportRestart</a> function, NDIS passes a
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_restart">MiniportRestart</a> function, NDIS passes a
     pointer to an 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff567255">NDIS_RESTART_ATTRIBUTES</a> structure to
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_restart_attributes">NDIS_RESTART_ATTRIBUTES</a> structure to
     the miniport driver in the 
     <b>RestartAttributes</b> member of the 
-    <a href="https://msdn.microsoft.com/4e005245-ed98-47fd-aaae-421940edf2dc">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_miniport_restart_parameters">
     NDIS_MINIPORT_RESTART_PARAMETERS</a> structure.
 
 If the 
@@ -234,42 +234,42 @@ If the
 
 
 
-<a href="https://msdn.microsoft.com/31a18040-2c66-4074-9ace-dd604b4bfe22">MiniportRestart</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_restart">MiniportRestart</a>
 
 
 
-<a href="https://msdn.microsoft.com/5423d073-02a5-468b-b91e-713ac67a5253">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_miniport_adapter_general_attributes">
    NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES</a>
 
 
 
-<a href="https://msdn.microsoft.com/4e005245-ed98-47fd-aaae-421940edf2dc">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_miniport_restart_parameters">
    NDIS_MINIPORT_RESTART_PARAMETERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/dabd8f65-1aa5-4d45-9c0a-4539efd762c6">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_receive_scale_capabilities">
    NDIS_RECEIVE_SCALE_CAPABILITIES</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567255">NDIS_RESTART_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_restart_attributes">NDIS_RESTART_ATTRIBUTES</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568739">NET_IF_ACCESS_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ne-ifdef-_net_if_access_type">NET_IF_ACCESS_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568741">NET_IF_CONNECTION_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ne-ifdef-_net_if_connection_type">NET_IF_CONNECTION_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568742">NET_IF_DIRECTION_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ne-ifdef-_net_if_direction_type">NET_IF_DIRECTION_TYPE</a>
 
 
 
@@ -277,19 +277,19 @@ If the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569574">OID_GEN_CURRENT_LOOKAHEAD</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-current-lookahead">OID_GEN_CURRENT_LOOKAHEAD</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569597">OID_GEN_MAC_OPTIONS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-mac-options">OID_GEN_MAC_OPTIONS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569598">OID_GEN_MAXIMUM_FRAME_SIZE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-maximum-frame-size">OID_GEN_MAXIMUM_FRAME_SIZE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569602">OID_GEN_MAX_LINK_SPEED</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-max-link-speed">OID_GEN_MAX_LINK_SPEED</a>
 
 
 
@@ -302,7 +302,7 @@ If the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569642">OID_GEN_SUPPORTED_LIST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-supported-list">OID_GEN_SUPPORTED_LIST</a>
 
 
 
@@ -311,7 +311,7 @@ If the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569774">OID_PNP_CAPABILITIES</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-pnp-capabilities">OID_PNP_CAPABILITIES</a>
  
 
  

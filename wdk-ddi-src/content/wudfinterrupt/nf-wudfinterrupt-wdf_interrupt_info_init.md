@@ -49,7 +49,7 @@ req.typenames:
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/hh464024">WDF_INTERRUPT_INFO_INIT</a> function initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/hh464020">WDF_INTERRUPT_INFO</a> structure.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfinterrupt/nf-wudfinterrupt-wdf_interrupt_info_init">WDF_INTERRUPT_INFO_INIT</a> function initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfinterrupt/ns-wudfinterrupt-_wdf_interrupt_info">WDF_INTERRUPT_INFO</a> structure.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/hh464024">WDF_I
 
 ### -param InterruptInfo
 
-<p>A pointer to a driver-allocated <a href="https://msdn.microsoft.com/library/Ff552351(v=VS.85).aspx"><b>WDF_INTERRUPT_INFO</b></a> structure.</p>
+<p>A pointer to a driver-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfinterrupt/ns-wdfinterrupt-_wdf_interrupt_info"><b>WDF_INTERRUPT_INFO</b></a> structure.</p>
 
 
 
@@ -77,14 +77,14 @@ None
 
 
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/hh464024">WDF_INTERRUPT_INFO_INIT</a> function zeros the specified <a href="https://msdn.microsoft.com/library/windows/hardware/hh464020">WDF_INTERRUPT_INFO</a> structure and sets the structure's <b>Size</b> member.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfinterrupt/nf-wudfinterrupt-wdf_interrupt_info_init">WDF_INTERRUPT_INFO_INIT</a> function zeros the specified <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfinterrupt/ns-wudfinterrupt-_wdf_interrupt_info">WDF_INTERRUPT_INFO</a> structure and sets the structure's <b>Size</b> member.
 
 For more information about handling interrupts in framework-based drivers, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/handling-hardware-interrupts">Handling Interrupts</a>.
 
 
 #### Examples
 
-For a code example that uses <a href="https://msdn.microsoft.com/library/windows/hardware/hh464024">WDF_INTERRUPT_INFO_INIT</a>, see <a href="https://msdn.microsoft.com/744D0FFE-6D3C-4AED-8935-63EE9B0AFA0F">IWDFInterrupt::GetInfo</a>.
+For a code example that uses <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfinterrupt/nf-wudfinterrupt-wdf_interrupt_info_init">WDF_INTERRUPT_INFO_INIT</a>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfinterrupt-getinfo">IWDFInterrupt::GetInfo</a>.
 
 <div class="code"></div>
 
@@ -95,11 +95,11 @@ For a code example that uses <a href="https://msdn.microsoft.com/library/windows
 
 
 
-<a href="https://msdn.microsoft.com/744D0FFE-6D3C-4AED-8935-63EE9B0AFA0F">IWDFInterrupt::GetInfo</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfinterrupt-getinfo">IWDFInterrupt::GetInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh464020">WDF_INTERRUPT_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfinterrupt/ns-wudfinterrupt-_wdf_interrupt_info">WDF_INTERRUPT_INFO</a>
  
 
  

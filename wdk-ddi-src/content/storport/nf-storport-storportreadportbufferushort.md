@@ -77,7 +77,7 @@ Number of data items to be read. Each data item has a size of <b>sizeof</b>(USHO
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff564721">ScsiPortReadPortBufferUshort</a>. For a nonbuffered version of this routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff567477">StorPortReadPortUshort</a>. 
+For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/srb/nf-srb-scsiportreadportbufferushort">ScsiPortReadPortBufferUshort</a>. For a nonbuffered version of this routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportreadportushort">StorPortReadPortUshort</a>. 
 
 
 
@@ -87,11 +87,11 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564721">ScsiPortReadPortBufferUshort</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/srb/nf-srb-scsiportreadportbufferushort">ScsiPortReadPortBufferUshort</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567477">StorPortReadPortUshort</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportreadportushort">StorPortReadPortUshort</a>
  
 
  

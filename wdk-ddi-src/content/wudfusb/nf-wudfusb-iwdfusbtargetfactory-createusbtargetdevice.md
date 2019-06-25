@@ -58,7 +58,7 @@ The <b>CreateUsbTargetDevice</b> method creates a USB device object that is also
 
 ### -param ppDevice [out]
 
-A pointer to a buffer that receives a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560362">IWDFUsbTargetDevice</a> interface for the USB target device object.
+A pointer to a buffer that receives a pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nn-wudfusb-iwdfusbtargetdevice">IWDFUsbTargetDevice</a> interface for the USB target device object.
 
 
 ## -returns
@@ -80,7 +80,7 @@ A pointer to a buffer that receives a pointer to the <a href="https://msdn.micro
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/c5aeb5f4-be62-4418-981c-1dd4acdccf07">CreateUsbTargetDevice</a> successfully created a USB device object that is also an I/O target. 
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nf-wudfusb-iwdfusbtargetfactory-createusbtargetdevice">CreateUsbTargetDevice</a> successfully created a USB device object that is also an I/O target. 
 
 </td>
 </tr>
@@ -92,7 +92,7 @@ A pointer to a buffer that receives a pointer to the <a href="https://msdn.micro
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/c5aeb5f4-be62-4418-981c-1dd4acdccf07">CreateUsbTargetDevice</a> encountered an allocation failure.
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nf-wudfusb-iwdfusbtargetfactory-createusbtargetdevice">CreateUsbTargetDevice</a> encountered an allocation failure.
 
 </td>
 </tr>
@@ -103,7 +103,7 @@ A pointer to a buffer that receives a pointer to the <a href="https://msdn.micro
 </dl>
 </td>
 <td width="60%">
-This value corresponds to the error code that the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540277">WinUsb_Initialize</a> function returned.
+This value corresponds to the error code that the <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a> function returned.
 
 </td>
 </tr>
@@ -117,18 +117,18 @@ This value corresponds to the error code that the <a href="https://msdn.microsof
 
 
 
-A UMDF driver should release the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560362">IWDFUsbTargetDevice</a> interface pointer that the <b>CreateUsbTargetDevice</b> method returns in the <i>ppDevice</i> parameter when the driver is done with the interface.
+A UMDF driver should release the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nn-wudfusb-iwdfusbtargetdevice">IWDFUsbTargetDevice</a> interface pointer that the <b>CreateUsbTargetDevice</b> method returns in the <i>ppDevice</i> parameter when the driver is done with the interface.
 
-If the file object that is associated with the created I/O target object is required, the driver should call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559243">IWDFIoTarget::GetTargetFile</a> method. For more information about this file object, see <a href="https://msdn.microsoft.com/44bbc4c7-632d-4d75-94b9-f65e4d480e90">File Creation by a USB I/O Target</a>.
+If the file object that is associated with the created I/O target object is required, the driver should call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfiotarget-gettargetfile">IWDFIoTarget::GetTargetFile</a> method. For more information about this file object, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/file-creation-by-a-usb-i-o-target">File Creation by a USB I/O Target</a>.
 
-<div class="alert"><b>Note</b>  <b>CreateUsbTargetDevice</b> inherits all of the methods of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559170">IWDFIoTarget</a> interface.</div>
+<div class="alert"><b>Note</b>  <b>CreateUsbTargetDevice</b> inherits all of the methods of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nn-wudfddi-iwdfiotarget">IWDFIoTarget</a> interface.</div>
 <div> </div>
 To use the newly created USB I/O target object in a device stack, the INF file that installs the UMDF driver must contain the <b>UmdfDispatcher</b> directive and set <b>UmdfDispatcher</b> to <b>WinUsb</b> (<code>UmdfDispatcher=WinUsb</code>) in the <b>DDInstall.WDF</b> section. <b>UmdfDispatcher</b> is required to inform the UMDF platform that it can allow access to the USB I/O target. For more information about <b>UmdfDispatcher</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/specifying-wdf-directives-in-inf-files">Specifying WDF Directives</a>.
 
 
 #### Examples
 
-The following code example shows how to create and use a USB device object in an implementation of the UMDF driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff556766">IPnpCallbackHardware::OnPrepareHardware</a> method.
+The following code example shows how to create and use a USB device object in an implementation of the UMDF driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-ipnpcallbackhardware-onpreparehardware">IPnpCallbackHardware::OnPrepareHardware</a> method.
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -225,23 +225,23 @@ CUmdfHidDevice::OnPrepareHardware(
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559170">IWDFIoTarget</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nn-wudfddi-iwdfiotarget">IWDFIoTarget</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559243">IWDFIoTarget::GetTargetFile</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfiotarget-gettargetfile">IWDFIoTarget::GetTargetFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560362">IWDFUsbTargetDevice</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nn-wudfusb-iwdfusbtargetdevice">IWDFUsbTargetDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560387">IWDFUsbTargetFactory</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nn-wudfusb-iwdfusbtargetfactory">IWDFUsbTargetFactory</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540277">WinUsb_Initialize</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_initialize">WinUsb_Initialize</a>
  
 
  

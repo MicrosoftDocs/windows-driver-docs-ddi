@@ -71,12 +71,12 @@ Indicates to a profile driver to release a reference to its device object and th
 
 Indicates to a server profile driver that a remote device is connecting to the PSM that the
      profile driver registered earlier. Profile drivers accept or reject this request by 
-     <a href="https://msdn.microsoft.com/53a692e7-9c71-4dca-9331-32ac97b94179">building and sending</a> a 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536616">
+     <a href="https://docs.microsoft.com/previous-versions/ff536657(v=vs.85)">building and sending</a> a 
+     <a href="https://docs.microsoft.com/previous-versions/ff536616(v=vs.85)">
      BRB_L2CA_OPEN_CHANNEL_RESPONSE</a> request. When this indication code is passed, the profile driver
      should use the parameters that are passed to it in the 
      <b>Connect</b> member of the 
-     <a href="https://msdn.microsoft.com/fc93ab8a-01d2-4827-8d89-06f09bf10456">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/ns-bthddi-_indication_parameters">
      INDICATION_PARAMETERS</a> structure.
 
 
@@ -117,7 +117,7 @@ Indicates to a registered profile driver that a packet has been received on the 
      this notification and keep a read BRB pending at all times. When this indication code is passed, the
      profile driver should use the parameters that are passed to it in the 
      <b>RecvPacket</b> member of the 
-     <a href="https://msdn.microsoft.com/fc93ab8a-01d2-4827-8d89-06f09bf10456">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/ns-bthddi-_indication_parameters">
      INDICATION_PARAMETERS</a> structure.
 
 
@@ -143,12 +143,12 @@ Indicates to a registered driver that the specified remote radio has been remove
 
 Indicates to a server profile driver that a low energy (LE) remote device is connecting to the PSM that the
      profile driver registered earlier. Profile drivers accept or reject this request by 
-     <a href="https://msdn.microsoft.com/53a692e7-9c71-4dca-9331-32ac97b94179">building and sending</a> a 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536616">
+     <a href="https://docs.microsoft.com/previous-versions/ff536657(v=vs.85)">building and sending</a> a 
+     <a href="https://docs.microsoft.com/previous-versions/ff536616(v=vs.85)">
      BRB_L2CA_OPEN_CHANNEL_RESPONSE</a> request. When this indication code is passed, the profile driver
      should use the parameters that are passed to it in the 
      <b>Connect</b> member of the 
-     <a href="https://msdn.microsoft.com/fc93ab8a-01d2-4827-8d89-06f09bf10456">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/ns-bthddi-_indication_parameters">
      INDICATION_PARAMETERS</a> structure. This value is present in Windows 8 and later versions of Windows.
 
 
@@ -157,7 +157,7 @@ Indicates to a server profile driver that a low energy (LE) remote device is con
 
 
 A value from this enumeration is passed to a profile driver's 
-    <a href="https://msdn.microsoft.com/d3ca900d-1dd6-49da-ae94-855de3fbd086">L2CAP Callback Function</a> to notify
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/nc-bthddi-pfnbthport_indication_callback">L2CAP Callback Function</a> to notify
     it of an event.
 
 
@@ -168,19 +168,19 @@ A value from this enumeration is passed to a profile driver's
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536618">BRB_L2CA_REGISTER_SERVER</a>
+<a href="https://docs.microsoft.com/previous-versions/ff536618(v=vs.85)">BRB_L2CA_REGISTER_SERVER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536680">INDICATION_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/ns-bthddi-_indication_parameters">INDICATION_PARAMETERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536751">IOCTL_INTERNAL_BTH_SUBMIT_BRB</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthioctl/ni-bthioctl-ioctl_internal_bth_submit_brb">IOCTL_INTERNAL_BTH_SUBMIT_BRB</a>
 
 
 
-<a href="https://msdn.microsoft.com/d3ca900d-1dd6-49da-ae94-855de3fbd086">L2CAP Callback Function</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/nc-bthddi-pfnbthport_indication_callback">L2CAP Callback Function</a>
  
 
  

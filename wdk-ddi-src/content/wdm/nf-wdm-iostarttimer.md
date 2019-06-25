@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <b>IoStartTimer</b> routine enables the timer associated with a given device object so the driver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff550381">IoTimer</a> routine is called once per second.
+The <b>IoStartTimer</b> routine enables the timer associated with a given device object so the driver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-io_timer_routine">IoTimer</a> routine is called once per second.
 
 
 ## -parameters
@@ -82,27 +82,27 @@ The driver must already have set up the IoTimer routine for the <i>DeviceObject<
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549344">IoInitializeTimer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ioinitializetimer">IoInitializeTimer</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550377">IoStopTimer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-iostoptimer">IoStopTimer</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550381">IoTimer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-io_timer_routine">IoTimer</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552130">KeInitializeDpc</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-keinitializedpc">KeInitializeDpc</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552168">KeInitializeTimer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-keinitializetimer">KeInitializeTimer</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553286">KeSetTimer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kesettimer">KeSetTimer</a>
  
 
  

@@ -92,7 +92,7 @@ The <b>KsDispatchSpecificProperty</b> function is intended for additional proces
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564263">KsPropertyHandler</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-kspropertyhandler">KsPropertyHandler</a>
  
 
  

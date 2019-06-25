@@ -46,7 +46,7 @@ req.typenames: ROOTHUB_INFO, *PROOTHUB_INFO
 ## -description
 
 
-Provides information about a USB root hub. This structure is passed by UCX in the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187836">EVT_UCX_ROOTHUB_GET_INFO</a> callback function.
+Provides information about a USB root hub. This structure is passed by UCX in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucxroothub/nc-ucxroothub-evt_ucx_roothub_get_info">EVT_UCX_ROOTHUB_GET_INFO</a> callback function.
 
 
 ## -struct-fields
@@ -61,7 +61,7 @@ The size in bytes of this structure.
 
 ### -field ControllerType
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/mt188016">CONTROLLER_TYPE</a> value that identifies the type of eXtensible Host Controller Interface (xHCI) which has the root hub.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucxroothub/ne-ucxroothub-_controller_type">CONTROLLER_TYPE</a> value that identifies the type of eXtensible Host Controller Interface (xHCI) which has the root hub.
 
 
 ### -field NumberOf20Ports
@@ -89,7 +89,7 @@ The exit latency for the slowest link for U2 transition.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt187836">EVT_UCX_ROOTHUB_GET_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucxroothub/nc-ucxroothub-evt_ucx_roothub_get_info">EVT_UCX_ROOTHUB_GET_INFO</a>
  
 
  

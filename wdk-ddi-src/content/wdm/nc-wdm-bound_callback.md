@@ -64,7 +64,7 @@ The <i>BoundCallback</i> routine is executed whenever the system issues a bounds
 
 
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/dn957854">BOUND_CALLBACK_STATUS</a> value that indicates how the bounds exception was processed by the callback function. 
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_bound_callback_status">BOUND_CALLBACK_STATUS</a> value that indicates how the bounds exception was processed by the callback function. 
 
 
 
@@ -75,7 +75,7 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/dn957854">BOUND_C
 
 Drivers can supply a <i>BoundCallback</i> that is called when the system issues a bounds exception.
 
-Use <a href="https://msdn.microsoft.com/library/windows/hardware/dn957856">KeRegisterBoundCallback</a> to register a <i>BoundCallback</i> routine. A driver can subsequently remove the callback by using the <a href="https://msdn.microsoft.com/library/windows/hardware/dn957855">KeDeregisterBoundCallback</a> routine. If the driver can be unloaded, it must remove any registered callbacks in its <a href="https://msdn.microsoft.com/library/windows/hardware/ff564886">Unload</a> routine.
+Use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-keregisterboundcallback">KeRegisterBoundCallback</a> to register a <i>BoundCallback</i> routine. A driver can subsequently remove the callback by using the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kederegisterboundcallback">KeDeregisterBoundCallback</a> routine. If the driver can be unloaded, it must remove any registered callbacks in its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-driver_unload">Unload</a> routine.
 
 
 
@@ -85,11 +85,11 @@ Use <a href="https://msdn.microsoft.com/library/windows/hardware/dn957856">KeReg
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn957855">KeDeregisterBoundCallback</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kederegisterboundcallback">KeDeregisterBoundCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn957856">KeRegisterBoundCallback</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-keregisterboundcallback">KeRegisterBoundCallback</a>
  
 
  

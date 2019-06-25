@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <code>IPrintOemPS2::GetPDEVAdjustment</code> method enables a plug-in to override specific <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">PDEV</a> settings.
+The <code>IPrintOemPS2::GetPDEVAdjustment</code> method enables a plug-in to override specific <a href="https://docs.microsoft.com/windows-hardware/drivers/">PDEV</a> settings.
 
 
 ## -parameters
@@ -56,7 +56,7 @@ The <code>IPrintOemPS2::GetPDEVAdjustment</code> method enables a plug-in to ove
 
 ### -param pdevobj
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547573">DEVOBJ</a> structure.
+Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/ns-printoem-_devobj">DEVOBJ</a> structure.
 
 
 ### -param dwAdjustType
@@ -74,7 +74,7 @@ PDEV_ADJUST_PAPER_MARGIN_TYPE
 
 </td>
 <td>
-Adjust the paper margin setting that is reported in the PDEV. See the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559791">PDEV_ADJUST_PAPER_MARGIN</a> structure.
+Adjust the paper margin setting that is reported in the PDEV. See the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/ns-printoem-_pdev_adjust_paper_margin">PDEV_ADJUST_PAPER_MARGIN</a> structure.
 
 </td>
 </tr>
@@ -84,7 +84,7 @@ PDEV_HOSTFONT_ENABLED_TYPE
 
 </td>
 <td>
-Enable or disable the Hostfont support feature. See the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559803">PDEV_HOSTFONT_ENABLED</a> structure.
+Enable or disable the Hostfont support feature. See the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/ns-printoem-_pdev_hostfont_enabled">PDEV_HOSTFONT_ENABLED</a> structure.
 
 </td>
 </tr>
@@ -94,7 +94,7 @@ PDEV_USE_TRUE_COLOR_TYPE
 
 </td>
 <td>
-Enable or disable color output for monochrome and color printers. See the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559806">PDEV_USE_TRUE_COLOR</a> structure.
+Enable or disable color output for monochrome and color printers. See the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/ns-printoem-_pdev_use_true_color">PDEV_USE_TRUE_COLOR</a> structure.
 
 </td>
 </tr>
@@ -142,19 +142,19 @@ Currently, the Pscript5 driver calls <code>IPrintOemPS2::GetPDEVAdjustment</code
 
 
 
-<a href="https://msdn.microsoft.com/f2fb4176-c366-4cf9-bc17-59cc0c69a32b">IPrintOemPS2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nn-prcomoem-iprintoemps2">IPrintOemPS2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559791">PDEV_ADJUST_PAPER_MARGIN</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/ns-printoem-_pdev_adjust_paper_margin">PDEV_ADJUST_PAPER_MARGIN</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559803">PDEV_HOSTFONT_ENABLED</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/ns-printoem-_pdev_hostfont_enabled">PDEV_HOSTFONT_ENABLED</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559806">PDEV_USE_TRUE_COLOR</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/ns-printoem-_pdev_use_true_color">PDEV_USE_TRUE_COLOR</a>
  
 
  

@@ -47,7 +47,7 @@ req.typenames:
 ## -description
 
 
-The <b>USBD_QueryUsbCapability</b> routine is called by a WDM client driver to determine whether the underlying USB driver stack and the host controller hardware support a specific capability. <b>Note for Windows Driver Framework (WDF) Drivers:  </b>If your client driver is a WDF-based driver, then you must call the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439434">WdfUsbTargetDeviceQueryUsbCapability</a> method instead of <b>USBD_QueryUsbCapability</b>.
+The <b>USBD_QueryUsbCapability</b> routine is called by a WDM client driver to determine whether the underlying USB driver stack and the host controller hardware support a specific capability. <b>Note for Windows Driver Framework (WDF) Drivers:  </b>If your client driver is a WDF-based driver, then you must call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfusb/nf-wdfusb-wdfusbtargetdevicequeryusbcapability">WdfUsbTargetDeviceQueryUsbCapability</a> method instead of <b>USBD_QueryUsbCapability</b>.
 
 
 
@@ -59,7 +59,7 @@ The <b>USBD_QueryUsbCapability</b> routine is called by a WDM client driver to d
 
 ### -param USBDHandle [in]
 
-USBD handle that is retrieved by the client driver in a previous call to  the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406241">USBD_CreateHandle</a> routine.
+USBD handle that is retrieved by the client driver in a previous call to  the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbdlib/nf-usbdlib-usbd_createhandle">USBD_CreateHandle</a> routine.
 
 
 ### -param CapabilityType [in]
@@ -168,9 +168,9 @@ The specified capability is not supported either by the host controller hardware
 
 Windows 8 includes a new USB driver stack to support USB 3.0 devices. The new USB driver stack provides several  new capabilities defined such as, stream support and chained MDLs that can be used by a client driver.
 
-A client driver can determine the version of the underlying USB driver stack by calling the <a href="https://msdn.microsoft.com/AEA5B6AA-8EEA-4D82-9991-1DE32BAE7DCE">IsInterfaceVersionSupported</a> routine. 
+A client driver can determine the version of the underlying USB driver stack by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbdlib/nf-usbdlib-usbd_isinterfaceversionsupported">IsInterfaceVersionSupported</a> routine. 
 
-The client driver can use the new capabilities <i>only if</i> the underlying USB driver stack <i>and</i> hardware support them.  For example, in order to send I/O requests to a particular stream associated with a bulk endpoint, the underlying USB driver stack, the endpoint, and the host controller hardware must support the static streams capability. The client driver <i>must not</i> call <a href="https://msdn.microsoft.com/AEA5B6AA-8EEA-4D82-9991-1DE32BAE7DCE">IsInterfaceVersionSupported</a>  and assume the capabilities of the driver stack. Instead, the client driver <i>must</i>  always call  <b>USBD_QueryUsbCapability</b> to determine whether the USB driver stack and hardware support a particular capability. 
+The client driver can use the new capabilities <i>only if</i> the underlying USB driver stack <i>and</i> hardware support them.  For example, in order to send I/O requests to a particular stream associated with a bulk endpoint, the underlying USB driver stack, the endpoint, and the host controller hardware must support the static streams capability. The client driver <i>must not</i> call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbdlib/nf-usbdlib-usbd_isinterfaceversionsupported">IsInterfaceVersionSupported</a>  and assume the capabilities of the driver stack. Instead, the client driver <i>must</i>  always call  <b>USBD_QueryUsbCapability</b> to determine whether the USB driver stack and hardware support a particular capability. 
 
 The following table describes the USB-specific capabilities that a client driver can query through a <b>USBD_QueryUsbCapability</b> call. 
 
@@ -182,7 +182,7 @@ The following table describes the USB-specific capabilities that a client driver
 <tr>
 <td>GUID_USB_CAPABILITY_CHAINED_MDLS</td>
 <td>
-If the USB driver stack supports chained MDLs, the client driver can provide the transfer data as a chain of MDLs  that reference segmented buffers in physical memory. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554414">MDL</a>. Chained MDLs preclude the need for allocating and copying memory to create virtually contiguous buffers and therefore make I/O transfers more efficient. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh450848">How to Send Chained MDLs</a>.
+If the USB driver stack supports chained MDLs, the client driver can provide the transfer data as a chain of MDLs  that reference segmented buffers in physical memory. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_mdl">MDL</a>. Chained MDLs preclude the need for allocating and copying memory to create virtually contiguous buffers and therefore make I/O transfers more efficient. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">How to Send Chained MDLs</a>.
 
 </td>
 </tr>
@@ -197,7 +197,7 @@ The output buffer value does not indicate the maximum number of streams supporte
 
 The USB driver stack  in Windows 8 supports up to 255 streams. 
 
-If static streams are supported, the client driver can send I/O requests to the first stream (also called the <i>default stream</i>) by using the pipe handle obtained through a select-configuration request. For other streams in the endpoint, the client driver must open those streams and obtain pipe handles for them in order to send I/O requests. For more information about opening streams, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh450846">How to Open and Close Static Streams in a USB Bulk Endpoint</a>.
+If static streams are supported, the client driver can send I/O requests to the first stream (also called the <i>default stream</i>) by using the pipe handle obtained through a select-configuration request. For other streams in the endpoint, the client driver must open those streams and obtain pipe handles for them in order to send I/O requests. For more information about opening streams, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">How to Open and Close Static Streams in a USB Bulk Endpoint</a>.
 
 </td>
 </tr>
@@ -210,7 +210,7 @@ The capability is intended to be used by a composite driver: the driver that is 
 
 If your driver replaces  Usbccgp.sys, the driver must be able to request remote wake-up and propagate the resume signal from the USB driver stack. Before implementing that logic, the driver must determine the USB driver stack's support for the function suspend capability by calling <b>USBD_QueryUsbCapability</b>. Usbccgp.sys in Windows 8 implements function suspend.
 
-For a code example and more information about function suspend, see <a href="https://msdn.microsoft.com/91F96D30-CD18-4DDC-BA5A-7BFFA8FBED9B">How to Implement Function Suspend in a Composite Driver</a>.
+For a code example and more information about function suspend, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">How to Implement Function Suspend in a Composite Driver</a>.
 
 </td>
 </tr>
@@ -219,7 +219,7 @@ For a code example and more information about function suspend, see <a href="htt
 <td>
 Determines whether the underlying USB driver stack supports selective suspend.
 
-For information about selective suspend, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540144">USB Selective Suspend</a>.
+For information about selective suspend, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">USB Selective Suspend</a>.
 
 </td>
 </tr>

@@ -62,7 +62,7 @@ The <b>GetNumInterfaces</b> method retrieves the number of USB interfaces for th
 
 
 
-<b>GetNumInterfaces</b> returns the number of <a href="https://msdn.microsoft.com/library/windows/hardware/ff560312">IWDFUsbInterface</a> interfaces for the USB device in the default configuration. The default configuration is identified by index zero.
+<b>GetNumInterfaces</b> returns the number of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nn-wudfusb-iwdfusbinterface">IWDFUsbInterface</a> interfaces for the USB device in the default configuration. The default configuration is identified by index zero.
 
 
 
@@ -96,11 +96,11 @@ The following code example retrieves the number of USB interfaces for the USB de
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560312">IWDFUsbInterface</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nn-wudfusb-iwdfusbinterface">IWDFUsbInterface</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560362">IWDFUsbTargetDevice</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nn-wudfusb-iwdfusbtargetdevice">IWDFUsbTargetDevice</a>
  
 
  

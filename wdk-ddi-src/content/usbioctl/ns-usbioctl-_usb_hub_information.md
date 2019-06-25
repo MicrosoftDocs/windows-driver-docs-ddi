@@ -56,7 +56,7 @@ The <b>USB_HUB_INFORMATION</b> structure contains information about a hub.
 
 ### -field HubDescriptor
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff539331">USB_HUB_DESCRIPTOR</a> structure that contains selected information from the hub descriptor.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbspec/ns-usbspec-_usb_hub_descriptor">USB_HUB_DESCRIPTOR</a> structure that contains selected information from the hub descriptor.
 
 
 ### -field HubIsBusPowered
@@ -69,15 +69,15 @@ A Boolean value that indicates whether the hub is bus-powered. <b>TRUE</b>, the 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">USB Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539331">USB_HUB_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbspec/ns-usbspec-_usb_hub_descriptor">USB_HUB_DESCRIPTOR</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540110">USB_NODE_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbioctl/ns-usbioctl-_usb_node_information">USB_NODE_INFORMATION</a>
  
 
  

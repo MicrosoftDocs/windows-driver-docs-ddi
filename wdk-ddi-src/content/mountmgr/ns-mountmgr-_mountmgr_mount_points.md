@@ -73,7 +73,7 @@ Contains an array of elements of type MOUNTMGR_MOUNT_POINT that contain informat
 
 
 
-For a discussion of the different between symbolic links, unique IDs, and nonpersistent device names, see <a href="https://msdn.microsoft.com/fb37f862-70d6-4514-b481-16f664346422">Supporting Mount Manager Requests in a Storage Class Driver</a>. 
+For a discussion of the different between symbolic links, unique IDs, and nonpersistent device names, see <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/supporting-mount-manager-requests-in-a-storage-class-driver">Supporting Mount Manager Requests in a Storage Class Driver</a>. 
 
 
 
@@ -83,7 +83,7 @@ For a discussion of the different between symbolic links, unique IDs, and nonper
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560474">IOCTL_MOUNTMGR_QUERY_POINTS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/mountmgr/ni-mountmgr-ioctl_mountmgr_query_points">IOCTL_MOUNTMGR_QUERY_POINTS</a>
  
 
  

@@ -93,7 +93,7 @@ Time figures stored in each member are dimensionless.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553005">KeQueryDpcWatchdogInformation</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kequerydpcwatchdoginformation">KeQueryDpcWatchdogInformation</a>
  
 
  

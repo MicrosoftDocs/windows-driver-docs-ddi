@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <b>SetThreadForOperation64</b> function sets the thread to use for the next <a href="https://msdn.microsoft.com/library/windows/hardware/ff558794">StackTrace</a> call.
+The <b>SetThreadForOperation64</b> function sets the thread to use for the next <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdbgexts/nc-wdbgexts-pwindbg_stacktrace_routine">StackTrace</a> call.
 
 
 ## -parameters
@@ -72,9 +72,9 @@ None
 
 
 
-If you are writing 32-bit code, you should use <a href="https://msdn.microsoft.com/library/windows/hardware/ff556830">SetThreadForOperation</a> instead. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff537780">32-Bit Pointers and 64-Bit Pointers</a> for details.
+If you are writing 32-bit code, you should use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdbgexts/nf-wdbgexts-setthreadforoperation">SetThreadForOperation</a> instead. See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/32-bit-pointers-and-64-bit-pointers">32-Bit Pointers and 64-Bit Pointers</a> for details.
 
-For a WdbgExts extension, include Wdbgexts.h. For a DbgEng extension, include Wdbgexts.h before Dbgeng.h. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff561480">Writing DbgEng Extension Code</a> for details.
+For a WdbgExts extension, include Wdbgexts.h. For a DbgEng extension, include Wdbgexts.h before Dbgeng.h. See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/writing-dbgeng-extension-code">Writing DbgEng Extension Code</a> for details.
 
 
 

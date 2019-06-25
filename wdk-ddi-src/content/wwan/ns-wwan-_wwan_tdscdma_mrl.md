@@ -61,7 +61,7 @@ The count of MRL entries following this member.
 
 ### -field TDSCDMAMrl
 
-The array of MRL records, each specified as a <a href="https://msdn.microsoft.com/4EA0AE24-E4B0-49E0-8C50-44F6890C5C52">WWAN_TDSCDMA_MRL_INFO</a> structure.
+The array of MRL records, each specified as a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_tdscdma_mrl_info">WWAN_TDSCDMA_MRL_INFO</a> structure.
 
 
 ## -see-also
@@ -73,15 +73,15 @@ The array of MRL records, each specified as a <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/66460B28-C2B4-4F05-A133-31A753AF9489">WWAN_BASE_STATIONS_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_base_stations_info">WWAN_BASE_STATIONS_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/4EA0AE24-E4B0-49E0-8C50-44F6890C5C52">WWAN_TDSCDMA_MRL_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_tdscdma_mrl_info">WWAN_TDSCDMA_MRL_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/5D0DD219-8D81-4F72-B327-119A45CC35B4">WWAN_TDSCDMA_SERVING_CELL_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_tdscdma_serving_cell_info">WWAN_TDSCDMA_SERVING_CELL_INFO</a>
  
 
  

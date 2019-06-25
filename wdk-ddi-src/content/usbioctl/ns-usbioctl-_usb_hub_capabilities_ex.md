@@ -46,7 +46,7 @@ req.typenames: USB_HUB_CAPABILITIES_EX, *PUSB_HUB_CAPABILITIES_EX
 ## -description
 
 
-The <b>USB_HUB_CAPABILITIES_EX</b> structure is used with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537312">IOCTL_USB_GET_HUB_CAPABILITIES</a> I/O control request to retrieve the capabilities of a particular USB hub.
+The <b>USB_HUB_CAPABILITIES_EX</b> structure is used with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbioctl/ni-usbioctl-ioctl_usb_get_hub_capabilities">IOCTL_USB_GET_HUB_CAPABILITIES</a> I/O control request to retrieve the capabilities of a particular USB hub.
 
 
 ## -struct-fields
@@ -56,7 +56,7 @@ The <b>USB_HUB_CAPABILITIES_EX</b> structure is used with the <a href="https://m
 
 ### -field CapabilityFlags
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff539330">USB_HUB_CAP_FLAGS</a> structure that reports the hub capabilities.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbioctl/ns-usbioctl-_usb_hub_cap_flags">USB_HUB_CAP_FLAGS</a> structure that reports the hub capabilities.
 
 
 ## -see-also
@@ -64,15 +64,15 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/ff539330">USB_HUB
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537312">IOCTL_USB_GET_HUB_CAPABILITIES</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbioctl/ni-usbioctl-ioctl_usb_get_hub_capabilities">IOCTL_USB_GET_HUB_CAPABILITIES</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">USB Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539330">USB_HUB_CAP_FLAGS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbioctl/ns-usbioctl-_usb_hub_cap_flags">USB_HUB_CAP_FLAGS</a>
  
 
  

@@ -46,7 +46,7 @@ req.typenames: OB_POST_OPERATION_PARAMETERS, *POB_POST_OPERATION_PARAMETERS
 ## -description
 
 
-The <b>OB_POST_OPERATION_PARAMETERS</b> union describes the operation-specific parameters for an <a href="https://msdn.microsoft.com/library/windows/hardware/ff557741">ObjectPostCallback</a> routine.
+The <b>OB_POST_OPERATION_PARAMETERS</b> union describes the operation-specific parameters for an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pob_post_operation_callback">ObjectPostCallback</a> routine.
 
 
 ## -struct-fields
@@ -56,12 +56,12 @@ The <b>OB_POST_OPERATION_PARAMETERS</b> union describes the operation-specific p
 
 ### -field CreateHandleInformation
 
-An <a href="https://msdn.microsoft.com/library/windows/hardware/ff558720">OB_POST_CREATE_HANDLE_INFORMATION</a> structure that contains information that is specific to a handle that is being opened.
+An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_ob_post_create_handle_information">OB_POST_CREATE_HANDLE_INFORMATION</a> structure that contains information that is specific to a handle that is being opened.
 
 
 ### -field DuplicateHandleInformation
 
-An <a href="https://msdn.microsoft.com/library/windows/hardware/ff558722">OB_POST_DUPLICATE_HANDLE_INFORMATION</a> structure that contains information that is specific to a handle that is being duplicated.
+An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_ob_post_duplicate_handle_information">OB_POST_DUPLICATE_HANDLE_INFORMATION</a> structure that contains information that is specific to a handle that is being duplicated.
 
 
 ## -see-also
@@ -69,15 +69,15 @@ An <a href="https://msdn.microsoft.com/library/windows/hardware/ff558722">OB_POS
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558720">OB_POST_CREATE_HANDLE_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_ob_post_create_handle_information">OB_POST_CREATE_HANDLE_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558722">OB_POST_DUPLICATE_HANDLE_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_ob_post_duplicate_handle_information">OB_POST_DUPLICATE_HANDLE_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557741">ObjectPostCallback</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pob_post_operation_callback">ObjectPostCallback</a>
  
 
  

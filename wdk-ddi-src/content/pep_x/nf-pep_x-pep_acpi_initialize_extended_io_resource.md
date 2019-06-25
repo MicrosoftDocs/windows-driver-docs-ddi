@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <b>PEP_ACPI_INITIALIZE_EXTENDED_IO_RESOURCE</b> function initializes a platform extension plug-in's (PEP) <a href="https://msdn.microsoft.com/library/windows/hardware/mt186670">PEP_ACPI_EXTENDED_ADDRESS</a> structure.
+The <b>PEP_ACPI_INITIALIZE_EXTENDED_IO_RESOURCE</b> function initializes a platform extension plug-in's (PEP) <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/ns-pepfx-_pep_acpi_extended_address">PEP_ACPI_EXTENDED_ADDRESS</a> structure.
 
 
 ## -parameters
@@ -56,7 +56,7 @@ The <b>PEP_ACPI_INITIALIZE_EXTENDED_IO_RESOURCE</b> function initializes a platf
 
 ### -param ResourceUsage [in]
 
-This parameter is copied into the <b>GeneralFlags</b> member of the initialized <a href="https://msdn.microsoft.com/library/windows/hardware/mt186670">PEP_ACPI_EXTENDED_ADDRESS</a> structure.
+This parameter is copied into the <b>GeneralFlags</b> member of the initialized <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/ns-pepfx-_pep_acpi_extended_address">PEP_ACPI_EXTENDED_ADDRESS</a> structure.
 
 
 ### -param Decode [in]
@@ -78,7 +78,7 @@ When set, indicates that the maximum address is fixed.
 
 ### -param ISARanges [in]
 
-This parameter is copied into the <b>TypeSpecificFlags</b> member of the initialized <a href="https://msdn.microsoft.com/library/windows/hardware/mt186670">PEP_ACPI_EXTENDED_ADDRESS</a> structure.
+This parameter is copied into the <b>TypeSpecificFlags</b> member of the initialized <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/ns-pepfx-_pep_acpi_extended_address">PEP_ACPI_EXTENDED_ADDRESS</a> structure.
 
 
 ### -param AddressGranularity [in]
@@ -129,7 +129,7 @@ When false, indicates that this is a dense translation. Otherwise, it is sparse.
 
 ### -param Resource [out]
 
-This is cast to *<a href="https://msdn.microsoft.com/library/windows/hardware/mt186670">PEP_ACPI_EXTENDED_ADDRESS</a>.
+This is cast to *<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/ns-pepfx-_pep_acpi_extended_address">PEP_ACPI_EXTENDED_ADDRESS</a>.
 
 
 ## -returns
@@ -146,7 +146,7 @@ This function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt186670">PEP_ACPI_EXTENDED_ADDRESS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/ns-pepfx-_pep_acpi_extended_address">PEP_ACPI_EXTENDED_ADDRESS</a>
  
 
  

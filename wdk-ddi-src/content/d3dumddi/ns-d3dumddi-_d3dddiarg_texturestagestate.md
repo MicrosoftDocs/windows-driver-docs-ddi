@@ -85,7 +85,7 @@ The following texture states are used exclusively by user-mode display drivers f
 
 
 
-<a href="https://msdn.microsoft.com/56b9d7bf-1036-4ad1-a0fb-4d7154b50b27">SetTextureStageState</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_settexturestagestate">SetTextureStageState</a>
  
 
  

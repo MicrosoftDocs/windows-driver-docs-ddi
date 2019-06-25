@@ -66,7 +66,7 @@ The <b>IWDTFDriverSetupSystemAction2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450950">ClearTriageLogs</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtfdriversetupsystemaction/nf-wdtfdriversetupsystemaction-iwdtfdriversetupsystemaction2-cleartriagelogs">ClearTriageLogs</a>
 </td>
 <td align="left" width="63%">
 Clears the system device setup triage logs.
@@ -75,7 +75,7 @@ Clears the system device setup triage logs.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450953">ImportDriverPackage</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtfdriversetupsystemaction/nf-wdtfdriversetupsystemaction-iwdtfdriversetupsystemaction2-importdriverpackage">ImportDriverPackage</a>
 </td>
 <td align="left" width="63%">
 Imports a driver packge to the system driver store.
@@ -84,7 +84,7 @@ Imports a driver packge to the system driver store.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406453">IsImported</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtfdriverpackageaction/nf-wdtfdriverpackageaction-iwdtfdriverpackageaction2-get_isimported">IsImported</a>
 </td>
 <td align="left" width="63%">
 Returns a value that indicates whether a package has already been imported.
@@ -93,7 +93,7 @@ Returns a value that indicates whether a package has already been imported.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450959">RemoveDriverPackage</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtfdriversetupsystemaction/nf-wdtfdriversetupsystemaction-iwdtfdriversetupsystemaction2-removedriverpackage">RemoveDriverPackage</a>
 </td>
 <td align="left" width="63%">
 Removes a driver package from the driver store.
@@ -102,7 +102,7 @@ Removes a driver package from the driver store.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450962">RescanAllDevices</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtfdriversetupsystemaction/nf-wdtfdriversetupsystemaction-iwdtfdriversetupsystemaction2-rescanalldevices">RescanAllDevices</a>
 </td>
 <td align="left" width="63%">
 Rescan all devices in the system.
@@ -111,7 +111,7 @@ Rescan all devices in the system.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450965">SnapTriageLogs</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtfdriversetupsystemaction/nf-wdtfdriversetupsystemaction-iwdtfdriversetupsystemaction2-snaptriagelogs">SnapTriageLogs</a>
 </td>
 <td align="left" width="63%">
 Copies the driver setup triage logs.
@@ -120,7 +120,7 @@ Copies the driver setup triage logs.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450967">WaitNoPendingInstallEvents</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtfdriversetupsystemaction/nf-wdtfdriversetupsystemaction-iwdtfdriversetupsystemaction2-waitnopendinginstallevents">WaitNoPendingInstallEvents</a>
 </td>
 <td align="left" width="63%">
 Waits until all device installations have completed.

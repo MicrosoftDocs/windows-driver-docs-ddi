@@ -56,12 +56,12 @@ Specifies event notifications that the driver generates to indicate that a devic
 
 ### -field KSEVENT_DEVICE_LOST
 
-A camera device has been removed from the system. See <a href="https://msdn.microsoft.com/library/windows/hardware/jj156039">KSEVENT_DEVICE_LOST</a>.
+A camera device has been removed from the system. See <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksevent-device-lost">KSEVENT_DEVICE_LOST</a>.
 
 
 ### -field KSEVENT_DEVICE_PREEMPTED
 
-A camera device has been preempted by a new Windows app. See <a href="https://msdn.microsoft.com/library/windows/hardware/jj156040">KSEVENT_DEVICE_PREEMPTED</a>.
+A camera device has been preempted by a new Windows app. See <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksevent-device-preempted">KSEVENT_DEVICE_PREEMPTED</a>.
 
 
 ### -field KSEVENT_DEVICE_THERMAL_HIGH
@@ -77,11 +77,11 @@ A camera device has been preempted by a new Windows app. See <a href="https://ms
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj156039">KSEVENT_DEVICE_LOST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksevent-device-lost">KSEVENT_DEVICE_LOST</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj156040">KSEVENT_DEVICE_PREEMPTED</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksevent-device-preempted">KSEVENT_DEVICE_PREEMPTED</a>
  
 
  

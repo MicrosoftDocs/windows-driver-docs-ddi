@@ -46,7 +46,7 @@ req.typenames: PosStatusUpdatedEventData
 ## -description
 
 
-This structure contains data passed to the <a href="https://msdn.microsoft.com/library/windows/hardware/dn790040">StatusUpdated</a> event.
+This structure contains data passed to the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/previsioning-framework/dn790040(v=vs.85)">StatusUpdated</a> event.
 
 
 ## -struct-fields
@@ -56,7 +56,7 @@ This structure contains data passed to the <a href="https://msdn.microsoft.com/l
 
 ### -field Header
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/dn772232">PosEventDataHeader</a> structure that contains information about the event that was raised and the amount of memory, in bytes, that this event data uses.
+A <a href="https://docs.microsoft.com/previous-versions/windows/hardware/previsioning-framework/dn772232(v=vs.85)">PosEventDataHeader</a> structure that contains information about the event that was raised and the amount of memory, in bytes, that this event data uses.
 
 
 ### -field Status

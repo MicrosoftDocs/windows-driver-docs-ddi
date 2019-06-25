@@ -57,12 +57,12 @@ The <b>ClfsSetLogFileInformation</b> routine sets metadata and state information
 
 ### -param plfoLog [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff554316">LOG_FILE_OBJECT</a> structure that represents a CLFS stream. The caller previously obtained this pointer by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff540792">ClfsCreateLogFile</a>.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_file_object">LOG_FILE_OBJECT</a> structure that represents a CLFS stream. The caller previously obtained this pointer by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-clfscreatelogfile">ClfsCreateLogFile</a>.
 
 
 ### -param eInformationClass [in]
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff541812">CLFS_LOG_INFORMATION_CLASS</a> value that specifies the class of information being set.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_cls_log_information_class">CLFS_LOG_INFORMATION_CLASS</a> value that specifies the class of information being set.
 
 
 ### -param pinfoBuffer [in]
@@ -81,7 +81,7 @@ A pointer to a buffer that supplies the log information. The structure of this b
 </td>
 <td>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541790">CLFS_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_cls_information">CLFS_INFORMATION</a>
 
 
 </td>
@@ -93,7 +93,7 @@ A pointer to a buffer that supplies the log information. The structure of this b
 </td>
 <td>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541790">CLFS_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_cls_information">CLFS_INFORMATION</a>
 
 
 </td>
@@ -105,7 +105,7 @@ A pointer to a buffer that supplies the log information. The structure of this b
 </td>
 <td>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541814">CLFS_LOG_NAME_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_clfs_log_name_information">CLFS_LOG_NAME_INFORMATION</a>
 
 
 </td>
@@ -117,7 +117,7 @@ A pointer to a buffer that supplies the log information. The structure of this b
 </td>
 <td>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541814">CLFS_LOG_NAME_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_clfs_log_name_information">CLFS_LOG_NAME_INFORMATION</a>
 
 
 </td>
@@ -129,7 +129,7 @@ A pointer to a buffer that supplies the log information. The structure of this b
 </td>
 <td>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541869">CLFS_STREAM_ID_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_clfs_stream_id_information">CLFS_STREAM_ID_INFORMATION</a>
 
 
 </td>
@@ -156,7 +156,7 @@ The size, in bytes, of the buffer pointed to by <i>pinfoBuffer</i>.
 
 
 
-For an explanation of CLFS concepts and terminology, see <a href="https://msdn.microsoft.com/a9685648-b08c-48ca-b020-e683068f2ea2">Common Log File System</a>.
+For an explanation of CLFS concepts and terminology, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-common-log-file-system">Common Log File System</a>.
 
 
 
@@ -166,27 +166,27 @@ For an explanation of CLFS concepts and terminology, see <a href="https://msdn.m
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541790">CLFS_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_cls_information">CLFS_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541812">CLFS_LOG_INFORMATION_CLASS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_cls_log_information_class">CLFS_LOG_INFORMATION_CLASS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541869">CLFS_STREAM_ID_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_clfs_stream_id_information">CLFS_STREAM_ID_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540792">ClfsCreateLogFile</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-clfscreatelogfile">ClfsCreateLogFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541679">ClfsQueryLogFileInformation</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-clfsquerylogfileinformation">ClfsQueryLogFileInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554316">LOG_FILE_OBJECT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_file_object">LOG_FILE_OBJECT</a>
  
 
  

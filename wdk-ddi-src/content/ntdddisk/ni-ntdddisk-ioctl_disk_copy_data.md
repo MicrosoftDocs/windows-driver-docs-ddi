@@ -59,7 +59,7 @@ This IOCTL_DISK_COPY_DATA IOCTL is used to copy data from one area of the disk t
 
 ### -input-buffer
 
-The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552597">DISK_COPY_DATA_PARAMETERS</a> data. <b>Parameters.DeviceIoControl.InputBufferLength</b> in the I/O stack location of the IRP indicates the size, in bytes, of the buffer.
+The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdddisk/ns-ntdddisk-_disk_copy_data_parameters">DISK_COPY_DATA_PARAMETERS</a> data. <b>Parameters.DeviceIoControl.InputBufferLength</b> in the I/O stack location of the IRP indicates the size, in bytes, of the buffer.
 
 
 ### -input-buffer-length
@@ -105,7 +105,7 @@ The <b>Status</b> field is set to STATUS_SUCCESS if the operation is successful.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552597">DISK_COPY_DATA_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdddisk/ns-ntdddisk-_disk_copy_data_parameters">DISK_COPY_DATA_PARAMETERS</a>
  
 
  

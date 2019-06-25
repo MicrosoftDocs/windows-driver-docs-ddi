@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <b>MmFreeMappingAddress</b> routine frees a range of virtual memory reserved by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554475">MmAllocateMappingAddress</a> routine. 
+The <b>MmFreeMappingAddress</b> routine frees a range of virtual memory reserved by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-mmallocatemappingaddress">MmAllocateMappingAddress</a> routine. 
 
 
 ## -parameters
@@ -56,12 +56,12 @@ The <b>MmFreeMappingAddress</b> routine frees a range of virtual memory reserved
 
 ### -param BaseAddress [in]
 
-Pointer to the beginning of the reserved memory buffer to free. This must be an address previously returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff554475">MmAllocateMappingAddress</a>.
+Pointer to the beginning of the reserved memory buffer to free. This must be an address previously returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-mmallocatemappingaddress">MmAllocateMappingAddress</a>.
 
 
 ### -param PoolTag [in]
 
-Specifies the pool tag for the reserved memory buffer. This must be identical to the value specified in the <i>PoolTag</i> parameter of the call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff554475">MmAllocateMappingAddress</a> that reserved the buffer. 
+Specifies the pool tag for the reserved memory buffer. This must be identical to the value specified in the <i>PoolTag</i> parameter of the call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-mmallocatemappingaddress">MmAllocateMappingAddress</a> that reserved the buffer. 
 
 
 ## -returns
@@ -77,7 +77,7 @@ None
 
 
 
-<b>MmFreeMappingAddress</b> frees a range of memory reserved by <a href="https://msdn.microsoft.com/library/windows/hardware/ff554475">MmAllocateMappingAddress</a>. If the memory range has already been mapped by <a href="https://msdn.microsoft.com/library/windows/hardware/ff554640">MmMapLockedPagesWithReservedMapping</a>, it must first be unmapped with <a href="https://msdn.microsoft.com/library/windows/hardware/ff556392">MmUnmapReservedMapping</a> before the memory range can be freed. 
+<b>MmFreeMappingAddress</b> frees a range of memory reserved by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-mmallocatemappingaddress">MmAllocateMappingAddress</a>. If the memory range has already been mapped by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-mmmaplockedpageswithreservedmapping">MmMapLockedPagesWithReservedMapping</a>, it must first be unmapped with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-mmunmapreservedmapping">MmUnmapReservedMapping</a> before the memory range can be freed. 
 
 
 
@@ -87,15 +87,15 @@ None
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554475">MmAllocateMappingAddress</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-mmallocatemappingaddress">MmAllocateMappingAddress</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554640">MmMapLockedPagesWithReservedMapping</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-mmmaplockedpageswithreservedmapping">MmMapLockedPagesWithReservedMapping</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556392">MmUnmapReservedMapping</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-mmunmapreservedmapping">MmUnmapReservedMapping</a>
  
 
  

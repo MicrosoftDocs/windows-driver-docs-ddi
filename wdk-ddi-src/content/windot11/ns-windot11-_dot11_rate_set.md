@@ -48,7 +48,7 @@ product:
 ## -description
 
 
-<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_RATE_SET structure defines the set of data rates that the 802.11 station supports.
+<div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_RATE_SET structure defines the set of data rates that the 802.11 station supports.
 
 
 ## -syntax
@@ -98,7 +98,7 @@ The values that are specified in the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569395">OID_DOT11_OPERATIONAL_RATE_SET</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-operational-rate-set">OID_DOT11_OPERATIONAL_RATE_SET</a>
 
 
 

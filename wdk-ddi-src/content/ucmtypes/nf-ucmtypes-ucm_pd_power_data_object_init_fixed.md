@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-Initializes a to the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187935">UCM_PD_POWER_DATA_OBJECT</a> for a Fixed Supply type Power Data Object.
+Initializes a to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucmtypes/ns-ucmtypes-_ucm_pd_power_data_object">UCM_PD_POWER_DATA_OBJECT</a> for a Fixed Supply type Power Data Object.
 
 
 ## -parameters
@@ -56,7 +56,7 @@ Initializes a to the <a href="https://msdn.microsoft.com/library/windows/hardwar
 
 ### -param Pdo [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/mt187935">UCM_PD_POWER_DATA_OBJECT</a> structure in which the <b>FixedSupplyPdo.FixedSupply</b> member is set to <b>UcmPdPdoTypeFixedSupply</b>.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucmtypes/ns-ucmtypes-_ucm_pd_power_data_object">UCM_PD_POWER_DATA_OBJECT</a> structure in which the <b>FixedSupplyPdo.FixedSupply</b> member is set to <b>UcmPdPdoTypeFixedSupply</b>.
 
 
 ## -returns
@@ -84,7 +84,7 @@ This function initializes the structure and sets Power Data Object as a Fixed Su
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt187935">UCM_PD_POWER_DATA_OBJECT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucmtypes/ns-ucmtypes-_ucm_pd_power_data_object">UCM_PD_POWER_DATA_OBJECT</a>
  
 
  

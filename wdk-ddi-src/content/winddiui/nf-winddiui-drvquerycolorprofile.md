@@ -61,7 +61,7 @@ Caller-supplied printer handle.
 
 ### -param pdevmode [in]
 
-Caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a> structure.
+Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodew">DEVMODEW</a> structure.
 
 
 ### -param ulQueryMode
@@ -153,9 +153,9 @@ If the operation succeeds, the function returns <b>TRUE</b>; otherwise, it retur
 
 
 
-A <a href="https://msdn.microsoft.com/2a8cf38f-8e27-4e08-9c0f-5d1a4cd854ac">printer interface DLL</a> can optionally provide a <b>DrvQueryColorProfile</b> function. If the function is provided, GDI calls it if ICM has been enabled for a print job. The function's purpose is to determine and specify an ICC profile that is appropriate for use with the print job.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/print/printer-interface-dll">printer interface DLL</a> can optionally provide a <b>DrvQueryColorProfile</b> function. If the function is provided, GDI calls it if ICM has been enabled for a print job. The function's purpose is to determine and specify an ICC profile that is appropriate for use with the print job.
 
-If a driver's printer interface DLL does not provide a <b>DrvQueryColorProfile</b> function, or if the function returns <b>FALSE</b>, GDI attempts to find a profile. For more information, see <a href="https://msdn.microsoft.com/828b53cd-452a-4c4d-bfbb-45ea674ef49a">Locating ICC Profiles</a>.
+If a driver's printer interface DLL does not provide a <b>DrvQueryColorProfile</b> function, or if the function returns <b>FALSE</b>, GDI attempts to find a profile. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/locating-icc-profiles">Locating ICC Profiles</a>.
 
 If the output buffer size specified by <i>pcbProfileData</i> is too small, the driver should overwrite the size value supplied by <i>pcbProfileData</i> with the required buffer size, call SetLastError(ERROR_INSUFFICIENT_BUFFER), and return <b>FALSE</b>.
 

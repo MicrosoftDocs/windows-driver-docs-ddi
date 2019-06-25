@@ -64,7 +64,7 @@ A handle to a framework device object.
 
 ### -param FileObject [in]
 
-A pointer to a WDM <a href="https://msdn.microsoft.com/library/windows/hardware/ff545834">FILE_OBJECT</a> structure.
+A pointer to a WDM <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_file_object">FILE_OBJECT</a> structure.
 
 
 ## -returns
@@ -82,7 +82,7 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
-For more information about framework file objects, see <a href="https://msdn.microsoft.com/93ec5dd7-8ef0-4cea-9253-ea5d7869d4b8">Framework File Objects</a>.
+For more information about framework file objects, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/framework-file-objects">Framework File Objects</a>.
 
 
 #### Examples
@@ -131,7 +131,7 @@ if(fileObject == NULL){
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549198">IoGetDeviceObjectPointer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iogetdeviceobjectpointer">IoGetDeviceObjectPointer</a>
  
 
  

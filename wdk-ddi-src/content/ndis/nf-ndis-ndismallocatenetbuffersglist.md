@@ -57,7 +57,7 @@ req.typenames:
 Bus-master miniport drivers call the 
   <b>NdisMAllocateNetBufferSGList</b> function to obtain a scatter/gather list for the network data that is
   associated with a 
-  <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structure.
+  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure.
 
 
 ## -parameters
@@ -69,7 +69,7 @@ Bus-master miniport drivers call the
 
 A handle to a context area that NDIS uses to manage a DMA resource. The caller obtained this
      handle by calling the 
-     <a href="https://msdn.microsoft.com/90ce64a2-9140-4b5f-88aa-b4f01a3d0c6f">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismregisterscattergatherdma">
      NdisMRegisterScatterGatherDma</a> function.
 
 
@@ -80,13 +80,13 @@ A pointer to a NET_BUFFER structure.
      associated with this NET_BUFFER structure. The scatter/gather list is generated from the data starting
      at the beginning of the MDL that is specified at the 
      <b>CurrentMdl</b> member of the associated 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568381">NET_BUFFER_DATA</a> structure.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_data">NET_BUFFER_DATA</a> structure.
 
 
 ### -param Context [in]
 
 A pointer to a context area that the caller created. HAL passes this pointer to 
-     <a href="https://msdn.microsoft.com/ddd5d14f-f886-40d0-9fc8-eeb37da63ebd">MiniportProcessSGList</a> after HAL
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_process_sg_list">MiniportProcessSGList</a> after HAL
      creates the scatter/gather list. The caller can use this context area for its own purposes.
 
 
@@ -163,17 +163,17 @@ If the
 
 An NDIS bus-master miniport driver calls 
     <b>NdisMAllocateNetBufferSGList</b> from its 
-    <a href="https://msdn.microsoft.com/0bd5966d-66a6-4548-8c84-7cedced2cf40">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_send_net_buffer_lists">
     MiniportSendNetBufferLists</a> function. The miniport driver calls 
     <b>NdisMAllocateNetBufferSGList</b> once for each 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structure for which it must obtain a
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure for which it must obtain a
     scatter/gather list.
 
 When a miniport driver calls 
     <b>NdisMAllocateNetBufferSGList</b>, NDIS calls HAL to build the scatter/gather list. After HAL builds
     the scatter/gather list, it calls the 
     <i>MiniportProcessSGList</i> function that the miniport driver registered by calling 
-    <a href="https://msdn.microsoft.com/90ce64a2-9140-4b5f-88aa-b4f01a3d0c6f">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismregisterscattergatherdma">
     NdisMRegisterScatterGatherDma</a>.
 
 HAL can call 
@@ -201,12 +201,12 @@ NDIS might allocate a buffer even if the miniport driver specifies a buffer in t
 To improve system performance, the scatter/gather list is generated from the network data starting at
     the beginning of the MDL that is specified at the 
     <b>CurrentMdl</b> member of the associated 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568381">NET_BUFFER_DATA</a> structure. The start of the
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_data">NET_BUFFER_DATA</a> structure. The start of the
     network data in the SG list is offset from the beginning of the SG list by the value specified in the 
     <b>CurrentMdlOffset</b> member of the associated NET_BUFFER_DATA structure.
 
 Miniport drivers must call the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff563586">NdisMFreeNetBufferSGList</a> function
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismfreenetbuffersglist">NdisMFreeNetBufferSGList</a> function
     to free a scatter/gather list.
 
 
@@ -215,29 +215,29 @@ Miniport drivers must call the
 ## -see-also
 
 
-<a href="https://msdn.microsoft.com/ddd5d14f-f886-40d0-9fc8-eeb37da63ebd">MiniportProcessSGList</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_process_sg_list">MiniportProcessSGList</a>
 
 
 
-<a href="https://msdn.microsoft.com/0bd5966d-66a6-4548-8c84-7cedced2cf40">MiniportSendNetBufferLists</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_send_net_buffer_lists">MiniportSendNetBufferLists</a>
 
 
 
-<a href="https://msdn.microsoft.com/70b8321b-7b21-4d11-a9c2-46b0caa26ce6">NDIS Scatter/Gather DMA</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-scatter-gather-dma">NDIS Scatter/Gather DMA</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568381">NET_BUFFER_DATA</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_data">NET_BUFFER_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563586">NdisMFreeNetBufferSGList</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismfreenetbuffersglist">NdisMFreeNetBufferSGList</a>
 
 
 
-<a href="https://msdn.microsoft.com/90ce64a2-9140-4b5f-88aa-b4f01a3d0c6f">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismregisterscattergatherdma">
    NdisMRegisterScatterGatherDma</a>

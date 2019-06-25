@@ -86,9 +86,9 @@ The play cursor specifies the buffer position of the sound sample that is curren
 
 </li>
 </ul>
-For more information about write cursors and play cursors, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff537091">KSAUDIO_POSITION</a>.
+For more information about write cursors and play cursors, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-ksaudio_position">KSAUDIO_POSITION</a>.
 
-For information about using <code>SetPreFetchOffset</code> to control a DirectSound stream's prefetch offset, see <a href="https://msdn.microsoft.com/92a0163f-29b1-4e15-88ab-67e1097d015e">Prefetch Offsets</a>.
+For information about using <code>SetPreFetchOffset</code> to control a DirectSound stream's prefetch offset, see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/prefetch-offsets">Prefetch Offsets</a>.
 
 
 
@@ -98,23 +98,23 @@ For information about using <code>SetPreFetchOffset</code> to control a DirectSo
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536727">IMiniportWavePciStream::GetPosition</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iminiportwavepcistream-getposition">IMiniportWavePciStream::GetPosition</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536909">IPortWavePciStream::GetMapping</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iportwavepcistream-getmapping">IPortWavePciStream::GetMapping</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536951">IPreFetchOffset</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iprefetchoffset">IPreFetchOffset</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537091">KSAUDIO_POSITION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-ksaudio_position">KSAUDIO_POSITION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537297">KSPROPERTY_AUDIO_POSITION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-audio-position">KSPROPERTY_AUDIO_POSITION</a>
  
 
  

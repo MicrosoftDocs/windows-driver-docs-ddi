@@ -40,7 +40,7 @@ More information here:
 
 [Everything you wanted to know about SR-IOV in Hyper-V. Part 1](https://blogs.technet.microsoft.com/jhoward/2012/03/12/everything-you-wanted-to-know-about-sr-iov-in-hyper-v-part-1/)
 
-[Discrete Device Assignment — Description and background](https://blogs.technet.microsoft.com/virtualization/2015/11/19/discrete-device-assignment-description-and-background/)
+[Discrete Device Assignment — Description and background](https://techcommunity.microsoft.com/t5/Virtualization/bg-p/Virtualization)
 
 To determine if a system supports device assignement, and if a particular PCI device will work for device assignment:
 

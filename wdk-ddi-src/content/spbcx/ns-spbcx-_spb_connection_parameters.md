@@ -46,7 +46,7 @@ req.typenames: SPB_CONNECTION_PARAMETERS, *PSPB_CONNECTION_PARAMETERS
 ## -description
 
 
-The <b>SPB_CONNECTION_PARAMETERS</b> structure contains the connection parameters for a target device on a <a href="https://msdn.microsoft.com/2c660e14-5b27-4610-a328-735b07ed0773">simple peripheral bus</a>.
+The <b>SPB_CONNECTION_PARAMETERS</b> structure contains the connection parameters for a target device on a <a href="https://docs.microsoft.com/previous-versions/hh450903(v=vs.85)">simple peripheral bus</a>.
 
 
 ## -struct-fields
@@ -56,12 +56,12 @@ The <b>SPB_CONNECTION_PARAMETERS</b> structure contains the connection parameter
 
 ### -field Size
 
-The size, in bytes, of this structure. The <a href="https://msdn.microsoft.com/library/windows/hardware/hh450926">SpbTargetGetConnectionParameters</a> method uses the <b>Size</b> value to determine which version of this structure is being used. Use the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406205">SPB_CONNECTION_PARAMETERS_INIT</a> function to initialize this member. For more information, see the following Remarks section.
+The size, in bytes, of this structure. The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/spbcx/nf-spbcx-spbtargetgetconnectionparameters">SpbTargetGetConnectionParameters</a> method uses the <b>Size</b> value to determine which version of this structure is being used. Use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/spbcx/nf-spbcx-spb_connection_parameters_init">SPB_CONNECTION_PARAMETERS_INIT</a> function to initialize this member. For more information, see the following Remarks section.
 
 
 ### -field ConnectionTag
 
-A pointer to the connection tag for this target. The connection tag is an opaque string that contains a connection ID that identifies the connection of the target device to the bus. For more information, see <a href="https://msdn.microsoft.com/234B5858-5930-40AD-BE4C-4A774A809D10">Connection IDs for SPB-Connected Peripheral Devices</a>.
+A pointer to the connection tag for this target. The connection tag is an opaque string that contains a connection ID that identifies the connection of the target device to the bus. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/spb/connection-ids-for-spb-connected-peripheral-devices">Connection IDs for SPB-Connected Peripheral Devices</a>.
 
 
 ### -field ConnectionParameters
@@ -82,11 +82,11 @@ For example, the connection settings for a device on an I2C bus include the foll
 <li>The number of address bits to use to access the target device.</li>
 <li>The bus clock frequency to use to access the target device.</li>
 </ul>
-The <b>ConnectionParameters</b> member of the <b>SPB_CONNECTION_PARAMETERS</b> structure is a pointer to a buffer that contains the connection settings for a target device on the bus. For a code example that uses the <b>ConnectionParameters</b> member to get these connection parameters, see <a href="https://msdn.microsoft.com/B614993A-0EA9-4B91-A336-80EEF9BE3E69">How to Get the Connection Settings for a Device</a>.
+The <b>ConnectionParameters</b> member of the <b>SPB_CONNECTION_PARAMETERS</b> structure is a pointer to a buffer that contains the connection settings for a target device on the bus. For a code example that uses the <b>ConnectionParameters</b> member to get these connection parameters, see <a href="https://docs.microsoft.com/windows-hardware/drivers/spb/how-to-get-the-connection-settings-for-a-device">How to Get the Connection Settings for a Device</a>.
 
-Call the <a href="https://msdn.microsoft.com/library/windows/hardware/hh450926">SpbTargetGetConnectionParameters</a> method to get the connection parameters for an SPBTARGET handle that represents the target device. This method writes the connection parameters to a caller-supplied <b>SPB_CONNECTION_PARAMETERS</b> structure. Before passing this structure to <b>SpbTargetGetConnectionParameters</b>, initialize the structure by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406205">SPB_CONNECTION_PARAMETERS_INIT</a> function.
+Call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/spbcx/nf-spbcx-spbtargetgetconnectionparameters">SpbTargetGetConnectionParameters</a> method to get the connection parameters for an SPBTARGET handle that represents the target device. This method writes the connection parameters to a caller-supplied <b>SPB_CONNECTION_PARAMETERS</b> structure. Before passing this structure to <b>SpbTargetGetConnectionParameters</b>, initialize the structure by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/spbcx/nf-spbcx-spb_connection_parameters_init">SPB_CONNECTION_PARAMETERS_INIT</a> function.
 
-To open a connection on behalf of a client (peripheral driver), the SPB framework extension (SpbCx) calls your SPB controller driver's <a href="https://msdn.microsoft.com/D90DD169-A989-4D08-B1B8-BDE7EC9B7A82">EvtSpbTargetConnect</a> callback function. To close the connection, SpbCx calls the SPB controller driver's <a href="https://msdn.microsoft.com/02756C35-E76C-42C0-80FA-359CADE224A1">EvtSpbTargetDisconnect</a> callback function. An SPB controller driver typically calls <b>SpbTargetGetConnectionParameters</b> from the driver's <i>EvtSpbTargetConnect</i> function.
+To open a connection on behalf of a client (peripheral driver), the SPB framework extension (SpbCx) calls your SPB controller driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/spbcx/nc-spbcx-evt_spb_target_connect">EvtSpbTargetConnect</a> callback function. To close the connection, SpbCx calls the SPB controller driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/spbcx/nc-spbcx-evt_spb_target_disconnect">EvtSpbTargetDisconnect</a> callback function. An SPB controller driver typically calls <b>SpbTargetGetConnectionParameters</b> from the driver's <i>EvtSpbTargetConnect</i> function.
 
 
 
@@ -96,23 +96,23 @@ To open a connection on behalf of a client (peripheral driver), the SPB framewor
 
 
 
-<a href="https://msdn.microsoft.com/D90DD169-A989-4D08-B1B8-BDE7EC9B7A82">EvtSpbTargetConnect</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/spbcx/nc-spbcx-evt_spb_target_connect">EvtSpbTargetConnect</a>
 
 
 
-<a href="https://msdn.microsoft.com/02756C35-E76C-42C0-80FA-359CADE224A1">EvtSpbTargetDisconnect</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/spbcx/nc-spbcx-evt_spb_target_disconnect">EvtSpbTargetDisconnect</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj938063">RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/reshub/ns-reshub-_rh_query_connection_properties_output_buffer">RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406205">SPB_CONNECTION_PARAMETERS_INIT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/spbcx/nf-spbcx-spb_connection_parameters_init">SPB_CONNECTION_PARAMETERS_INIT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450926">SpbTargetGetConnectionParameters</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/spbcx/nf-spbcx-spbtargetgetconnectionparameters">SpbTargetGetConnectionParameters</a>
  
 
  

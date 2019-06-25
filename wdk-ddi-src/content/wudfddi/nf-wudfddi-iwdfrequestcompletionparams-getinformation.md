@@ -72,7 +72,7 @@ The <b>GetInformation</b> method retrieves information that is associated with t
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560292">IWDFRequestCompletionParams</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nn-wudfddi-iwdfrequestcompletionparams">IWDFRequestCompletionParams</a>
  
 
  

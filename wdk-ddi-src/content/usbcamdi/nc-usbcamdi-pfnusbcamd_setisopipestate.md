@@ -162,7 +162,7 @@ Using this function does not enable you to change the alternate setting within t
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568605">USBCAMD_INTERFACE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbcamdi/ns-usbcamdi-usbcamd_interface">USBCAMD_INTERFACE</a>
  
 
  

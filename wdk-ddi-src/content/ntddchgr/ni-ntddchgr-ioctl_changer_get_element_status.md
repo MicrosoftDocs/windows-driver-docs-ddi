@@ -49,7 +49,7 @@ req.typenames:
 
 Returns the status of all elements or the status of a specified number of elements of a particular type. 
 
-For a description of the possible element types, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff551457">CHANGER_ELEMENT</a>.
+For a description of the possible element types, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddchgr/ns-ntddchgr-_changer_element">CHANGER_ELEMENT</a>.
 
 
 
@@ -61,7 +61,7 @@ For a description of the possible element types, see <a href="https://msdn.micro
 
 ### -input-buffer
 
-The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551477">CHANGER_READ_ELEMENT_STATUS</a> data that indicates the element type and the number of elements for which to return status.
+The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddchgr/ns-ntddchgr-_changer_read_element_status">CHANGER_READ_ELEMENT_STATUS</a> data that indicates the element type and the number of elements for which to return status.
 
 If the caller sets the <b>VolumeTagInfo</b> member of CHANGER_READ_ELEMENT_STATUS to <b>TRUE</b>, the element status that is returned will include volume tag information. 
 
@@ -73,7 +73,7 @@ If the caller sets the <b>VolumeTagInfo</b> member of CHANGER_READ_ELEMENT_STATU
 
 ### -output-buffer
 
-The changer miniclass driver returns the changer element status data in the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>. Some elements of type <b>ChangerDrive</b> return product information data. If the device provides product information, the miniclass driver will report the element status data in a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff551462">CHANGER_ELEMENT_STATUS_EX</a>. The miniclass driver sets ELEMENT_STATUS_PRODUCT_DATA in the <b>Flags</b> member of the structure to indicate that it contains product information data. For elements of all types other than <b>ChangerDrive</b>, the driver reports element status data in a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff551461">CHANGER_ELEMENT_STATUS</a>. 
+The changer miniclass driver returns the changer element status data in the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>. Some elements of type <b>ChangerDrive</b> return product information data. If the device provides product information, the miniclass driver will report the element status data in a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddchgr/ns-ntddchgr-_changer_element_status_ex">CHANGER_ELEMENT_STATUS_EX</a>. The miniclass driver sets ELEMENT_STATUS_PRODUCT_DATA in the <b>Flags</b> member of the structure to indicate that it contains product information data. For elements of all types other than <b>ChangerDrive</b>, the driver reports element status data in a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddchgr/ns-ntddchgr-_changer_element_status">CHANGER_ELEMENT_STATUS</a>. 
 
 
 ### -output-buffer-length
@@ -109,19 +109,19 @@ The <b>Information</b> field is set to the number of bytes returned. The <b>Stat
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551457">CHANGER_ELEMENT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddchgr/ns-ntddchgr-_changer_element">CHANGER_ELEMENT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551461">CHANGER_ELEMENT_STATUS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddchgr/ns-ntddchgr-_changer_element_status">CHANGER_ELEMENT_STATUS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551462">CHANGER_ELEMENT_STATUS_EX</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddchgr/ns-ntddchgr-_changer_element_status_ex">CHANGER_ELEMENT_STATUS_EX</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551424">ChangerGetElementStatus</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/mcd/nf-mcd-changergetelementstatus">ChangerGetElementStatus</a>
  
 
  

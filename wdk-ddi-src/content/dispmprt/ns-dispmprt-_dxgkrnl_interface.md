@@ -262,7 +262,7 @@ Supported starting with Windows 8.
 
 ### -field DxgkCbAcquirePostDisplayOwnership
 
-A pointer to the display port driver's <a href="https://msdn.microsoft.com/6454adb3-c958-467b-acbc-b8937b98cd57">DxgkCbAcquirePostDisplayOwnership</a> function.
+A pointer to the display port driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkcb_acquire_post_display_ownership">DxgkCbAcquirePostDisplayOwnership</a> function.
 
 Supported starting with Windows 8.
 
@@ -461,7 +461,7 @@ Supported starting with WDDM 2.6.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560940">Dxgkrnl Interface</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">Dxgkrnl Interface</a>
 
 
 
@@ -469,7 +469,7 @@ Supported starting with WDDM 2.6.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556157">DriverEntry of Display Miniport Driver</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/display/driverentry-of-display-miniport-driver">DriverEntry of Display Miniport Driver</a>
 
 
 

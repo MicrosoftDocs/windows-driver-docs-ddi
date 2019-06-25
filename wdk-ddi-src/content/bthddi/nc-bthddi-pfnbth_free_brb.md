@@ -77,7 +77,7 @@ None.
 Profile drivers obtain a pointer to the 
     <i>BthFreeBrb</i> function when they query the Bluetooth driver stack for an instance of the
     BTHDDI_PROFILE_DRIVER_INTERFACE driver interface. See 
-    <a href="https://msdn.microsoft.com/56db29cd-26ab-4262-9b9f-40d46372ffe9">Querying for Bluetooth
+    <a href="https://docs.microsoft.com/previous-versions/ff536769(v=vs.85)">Querying for Bluetooth
     Interfaces</a> for more information about querying the Bluetooth driver stack.
 
 

@@ -61,7 +61,7 @@ The
 
 A handle used by the NMR to represent the binding between the client module and the provider
      module. The NMR passes this handle to the client module when it calls the client module's 
-     <a href="https://msdn.microsoft.com/8f8abdb1-d018-4404-a80a-74017c324a0f">ClientAttachProvider</a> callback
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netioddk/nc-netioddk-npi_client_attach_provider_fn">ClientAttachProvider</a> callback
      function.
 
 
@@ -81,12 +81,12 @@ None
 A client module calls the 
     <b>NmrClientDetachProviderComplete</b> function when it asynchronously completes detaching from a provider
     module after returning STATUS_PENDING from its 
-    <a href="https://msdn.microsoft.com/a684136a-e2f2-4f82-9e9a-166b40bd7536">ClientDetachProvider</a> callback
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netioddk/nc-netioddk-npi_client_detach_provider_fn">ClientDetachProvider</a> callback
     function.
 
 A client module should not call the 
     <b>NmrClientDetachProviderComplete</b> function if it returns STATUS_SUCCESS from its 
-    <a href="https://msdn.microsoft.com/a684136a-e2f2-4f82-9e9a-166b40bd7536">ClientDetachProvider</a> callback
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netioddk/nc-netioddk-npi_client_detach_provider_fn">ClientDetachProvider</a> callback
     function.
 
 
@@ -97,11 +97,11 @@ A client module should not call the
 
 
 
-<a href="https://msdn.microsoft.com/8f8abdb1-d018-4404-a80a-74017c324a0f">ClientAttachProvider</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netioddk/nc-netioddk-npi_client_attach_provider_fn">ClientAttachProvider</a>
 
 
 
-<a href="https://msdn.microsoft.com/a684136a-e2f2-4f82-9e9a-166b40bd7536">ClientDetachProvider</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netioddk/nc-netioddk-npi_client_detach_provider_fn">ClientDetachProvider</a>
  
 
  

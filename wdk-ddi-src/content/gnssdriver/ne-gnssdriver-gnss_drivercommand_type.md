@@ -44,7 +44,7 @@ req.typenames: GNSS_DRIVERCOMMAND_TYPE
 
 ## -description
 
-This enumeration indicates the type of driver command or configuration for the GNSS driver provided in the <a href="https://msdn.microsoft.com/library/windows/hardware/dn925107">GNSS_DRIVERCOMMAND_PARAM</a> structure.
+This enumeration indicates the type of driver command or configuration for the GNSS driver provided in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/gnssdriver/ns-gnssdriver-gnss_drivercommand_param">GNSS_DRIVERCOMMAND_PARAM</a> structure.
 
 ## -enum-fields
 
@@ -185,7 +185,7 @@ This command should only be called when there is no active fix session. This com
 
 ### -field GNSS_ClearAgnssData
 
-This command clears the AGNSS assistance data from the GNSS engine. This is used mainly for testing purpose to ensure that the driver requests for assistance data when a fix is requested. The associated command data contains the specific <a href="https://msdn.microsoft.com/library/windows/hardware/dn925097">GNSS_AGNSS_REQUEST_TYPE</a> enumeration to indicate the specific data element to be cleared:
+This command clears the AGNSS assistance data from the GNSS engine. This is used mainly for testing purpose to ensure that the driver requests for assistance data when a fix is requested. The associated command data contains the specific <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/gnssdriver/ne-gnssdriver-gnss_agnss_request_type">GNSS_AGNSS_REQUEST_TYPE</a> enumeration to indicate the specific data element to be cleared:
 
 <ul>
 <li>
@@ -205,7 +205,7 @@ It is highly recommended that this command is supported for test purposes even i
 
 ### -field GNSS_SetSuplVersion
 
-This command sets the SUPL version that the mobile operator wants supported. The command data contains a value of <a href="https://msdn.microsoft.com/library/windows/hardware/dn925233">GNSS_SUPL_VERSION</a> structure which includes both the major and the minor SUPL versions indicated by the mobile operator. The SUPL client should use the SUPL version as specifies in the OMA SUPL standards, summarizing:
+This command sets the SUPL version that the mobile operator wants supported. The command data contains a value of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/gnssdriver/ns-gnssdriver-gnss_supl_version">GNSS_SUPL_VERSION</a> structure which includes both the major and the minor SUPL versions indicated by the mobile operator. The SUPL client should use the SUPL version as specifies in the OMA SUPL standards, summarizing:
 
 <ul>
 <li>
@@ -222,7 +222,7 @@ For SET initiated SUPL sessions, the initial SUPL message from the SET carries t
 
 This command sets the status for NMEA logging.
 
-This command causes the GNSS driver to start/stop providing the data fix information via NMEA strings. The GNSS driver must continue providing fixes in the <a href="https://msdn.microsoft.com/library/windows/hardware/dn925139">GNSS_FIXDATA</a> structure. The parameter is a <b>DWORD</b> with the following values:
+This command causes the GNSS driver to start/stop providing the data fix information via NMEA strings. The GNSS driver must continue providing fixes in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/gnssdriver/ns-gnssdriver-gnss_fixdata">GNSS_FIXDATA</a> structure. The parameter is a <b>DWORD</b> with the following values:
 
 ```cpp
 #define GNSS_NMEALOGGING_NONE         0x00

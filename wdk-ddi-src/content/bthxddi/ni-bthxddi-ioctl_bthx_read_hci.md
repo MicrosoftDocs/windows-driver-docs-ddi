@@ -56,7 +56,7 @@ IOCTL_BTHX_READ_HCI is used to read Bluetooth ACL Data and Events from the trans
 
 ### -input-buffer
 
-Profile drivers should use KMDF and its <a href="https://msdn.microsoft.com/library/windows/hardware/ff550015">WdfRequestRetrieveInputMemory</a> method to retrieve input parameters.  For example, to get the output buffer:
+Profile drivers should use KMDF and its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfrequest/nf-wdfrequest-wdfrequestretrieveinputmemory">WdfRequestRetrieveInputMemory</a> method to retrieve input parameters.  For example, to get the output buffer:
 
 <code>Status = WdfRequestRetrieveInputMemory(_Request, &ReqInMemory);</code>
 
@@ -70,7 +70,7 @@ The buffer describes a UCHAR that represents the type of read. The length of the
 
 ### -output-buffer
 
-Profile drivers should use KMDF and its <a href="https://msdn.microsoft.com/library/windows/hardware/ff550019">WdfRequestRetrieveOutputMemory</a> method to retrieve input parameters.  For example, to get the output buffer:
+Profile drivers should use KMDF and its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfrequest/nf-wdfrequest-wdfrequestretrieveoutputmemory">WdfRequestRetrieveOutputMemory</a> method to retrieve input parameters.  For example, to get the output buffer:
 
 <code>Status = WdfRequestRetrieveOutputMemory(_Request, &ReqOutMemory);</code>
 
@@ -80,7 +80,7 @@ For more information, see the WDK Bluetooth samples.
 ### -output-buffer-length
 
 The 
-       <b>AssociatedIrp.SystemBuffer</b> member points to a buffer that holds a <a href="https://msdn.microsoft.com/library/windows/hardware/hh450835">BTHX_HCI_READ_WRITE_CONTEXT</a> structure and additional data associated with the read. The  buffer must be large enough to hold the largest event or ACL Data packet, depending on its packet type.
+       <b>AssociatedIrp.SystemBuffer</b> member points to a buffer that holds a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthxddi/ns-bthxddi-_bthx_hci_read_write_context">BTHX_HCI_READ_WRITE_CONTEXT</a> structure and additional data associated with the read. The  buffer must be large enough to hold the largest event or ACL Data packet, depending on its packet type.
 
 For an event packet, it is FIELD_OFFSET(BTHX_HCI_READ_WRITE_CONTEXT, Data) +257 where 257 is the sum of a 2-byte event header and 255-byte event data.
 

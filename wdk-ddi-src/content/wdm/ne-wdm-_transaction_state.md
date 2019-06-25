@@ -61,7 +61,7 @@ The transaction's state is neither in doubt nor committed.
 
 ### -field TransactionStateIndoubt
 
-The transaction's state is in doubt (that is, KTM cannot determine whether the transaction should be committed or rolled back). A transaction that has been prepared enters the "in doubt" state if its <a href="https://msdn.microsoft.com/6f6bf61a-fe53-47b5-9559-f76334969af8">superior transaction manager</a> becomes unavailable.
+The transaction's state is in doubt (that is, KTM cannot determine whether the transaction should be committed or rolled back). A transaction that has been prepared enters the "in doubt" state if its <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/creating-a-superior-transaction-manager">superior transaction manager</a> becomes unavailable.
 
 
 ### -field TransactionStateCommittedNotify
@@ -73,7 +73,7 @@ The transaction has been committed. Commit notifications might (or might not) ha
 
 
 
-The <b>TRANSACTION_STATE</b> enumeration is used in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564781">TRANSACTION_BASIC_INFORMATION</a> structure.
+The <b>TRANSACTION_STATE</b> enumeration is used in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_transaction_basic_information">TRANSACTION_BASIC_INFORMATION</a> structure.
 
 
 
@@ -83,7 +83,7 @@ The <b>TRANSACTION_STATE</b> enumeration is used in the <a href="https://msdn.mi
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564781">TRANSACTION_BASIC_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_transaction_basic_information">TRANSACTION_BASIC_INFORMATION</a>
  
 
  

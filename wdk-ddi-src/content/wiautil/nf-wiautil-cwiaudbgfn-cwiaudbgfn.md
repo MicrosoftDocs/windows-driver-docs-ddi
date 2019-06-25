@@ -73,11 +73,11 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/4be4007c-5f04-48f2-b88c-c2d71f6e8b7b">CWiauDbgFn</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff540345(v=vs.85)">CWiauDbgFn</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540356">CWiauDbgFn::~CWiauDbgFn</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-cwiaudbgfn-~cwiaudbgfn">CWiauDbgFn::~CWiauDbgFn</a>
  
 
  

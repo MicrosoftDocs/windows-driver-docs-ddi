@@ -61,7 +61,7 @@ The total size of this structure, in bytes.
 
 ### -field Type
 
-The barcode type. One of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh706268">WIA_IPS_SUPPORTED_BARCODE_TYPES</a> values.
+The barcode type. One of the <a href="https://docs.microsoft.com/windows-hardware/drivers/image/wia-ips-supported-barcode-types">WIA_IPS_SUPPORTED_BARCODE_TYPES</a> values.
 
 
 ### -field Page

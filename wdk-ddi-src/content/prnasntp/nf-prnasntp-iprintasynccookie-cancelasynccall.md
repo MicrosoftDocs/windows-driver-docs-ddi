@@ -73,7 +73,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/CF323800-F4C3-4CDB-B4EC-13359E262BF3">IPrintAsyncCookie</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prnasntp/nn-prnasntp-iprintasynccookie">IPrintAsyncCookie</a>
  
 
  

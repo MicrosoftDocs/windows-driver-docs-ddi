@@ -47,7 +47,7 @@ ms.custom: RS5
 ## -description
 
 
-The <b>KeReleaseGuardedMutexUnsafe</b> routine releases a guarded mutex acquired by <a href="https://msdn.microsoft.com/library/windows/hardware/ff551894">KeAcquireGuardedMutexUnsafe</a>.
+The <b>KeReleaseGuardedMutexUnsafe</b> routine releases a guarded mutex acquired by <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff551894(v=vs.85)">KeAcquireGuardedMutexUnsafe</a>.
 
 
 ## -parameters
@@ -57,7 +57,7 @@ The <b>KeReleaseGuardedMutexUnsafe</b> routine releases a guarded mutex acquired
 
 ### -param FastMutex [in, out]
 
-Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554235">KGUARDED_MUTEX</a> structure for the guarded mutex.
+Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">KGUARDED_MUTEX</a> structure for the guarded mutex.
 
 
 ## -returns
@@ -73,7 +73,7 @@ None
 
 
 
-For more information about guarded mutexes, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff545716">Fast Mutexes and Guarded Mutexes</a>.
+For more information about guarded mutexes, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/fast-mutexes-and-guarded-mutexes">Fast Mutexes and Guarded Mutexes</a>.
 
 
 
@@ -83,7 +83,7 @@ For more information about guarded mutexes, see <a href="https://msdn.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551894">KeAcquireGuardedMutexUnsafe</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff551894(v=vs.85)">KeAcquireGuardedMutexUnsafe</a>
  
 
  

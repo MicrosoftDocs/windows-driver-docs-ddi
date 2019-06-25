@@ -56,7 +56,7 @@ The <code>MiniportWriteEtwEvent</code> method is used by an audio miniport drive
 
 ### -param miniportEventType [in]
 
-An <a href="https://msdn.microsoft.com/library/windows/hardware/dn302036">EPcMiniportEngineEvent</a> enumerated value that provides additional error information for reporting glitching errors.
+An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/ne-portcls-epcminiportengineevent">EPcMiniportEngineEvent</a> enumerated value that provides additional error information for reporting glitching errors.
 
 
 ### -param pvData1 [in]
@@ -93,11 +93,11 @@ Data parameter.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn302036">EPcMiniportEngineEvent</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/ne-portcls-epcminiportengineevent">EPcMiniportEngineEvent</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265123">IPortClsEtwHelper</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iportclsetwhelper">IPortClsEtwHelper</a>
  
 
  

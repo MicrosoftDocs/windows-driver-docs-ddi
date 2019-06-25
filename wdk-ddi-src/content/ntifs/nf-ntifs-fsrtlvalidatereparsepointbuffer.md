@@ -118,7 +118,7 @@ The buffer has an invalid reparse tag.
 
 
 
-For more information about reparse points, see <a href="https://msdn.microsoft.com/6aae70d9-c934-4759-bb26-728b0ac025d1">Reparse Points in a File System Filter Driver</a>.
+For more information about reparse points, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/reparse-points-in-a-file-system-filter-driver">Reparse Points in a File System Filter Driver</a>.
 
 Reparse tags contain several bits that cannot be set except by system components. For more information, see <a href="https://go.microsoft.com/fwlink/p/?linkid=179582">Reparse Point Tags</a>.
 
@@ -130,11 +130,11 @@ Reparse tags contain several bits that cannot be set except by system components
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552012">REPARSE_DATA_BUFFER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_reparse_data_buffer">REPARSE_DATA_BUFFER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552014">REPARSE_GUID_DATA_BUFFER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_reparse_guid_data_buffer">REPARSE_GUID_DATA_BUFFER</a>
  
 
  

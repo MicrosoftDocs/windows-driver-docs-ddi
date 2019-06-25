@@ -56,7 +56,7 @@ The <b>NDIS_SWITCH_NIC_STATUS_INDICATION</b> structure specifies the information
 
 ### -field Header
 
-The type, revision, and size of the <b>NDIS_SWITCH_NIC_STATUS_INDICATION</b> structure. This member is formatted as an <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure.
+The type, revision, and size of the <b>NDIS_SWITCH_NIC_STATUS_INDICATION</b> structure. This member is formatted as an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure.
 
 The <b>Type</b> member of <b>Header</b> must be set to NDIS_OBJECT_TYPE_DEFAULT. To specify the version of the <b>NDIS_SWITCH_NIC_STATUS_INDICATION</b> structure, the <b>Revision</b> member of <b>Header</b> must be set to the following value: 
 
@@ -108,14 +108,14 @@ An NDIS_SWITCH_NIC_INDEX value that specifies the index of the destination netwo
 
 ### -field StatusIndication
 
-A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff567373">NDIS_STATUS_INDICATION</a> structure. This structure contains the data for the NDIS status indication originally issued by the source network adapter as specified by the <b>SourcePortId</b> and <b>SourceNicIndex</b> members.
+A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_status_indication">NDIS_STATUS_INDICATION</a> structure. This structure contains the data for the NDIS status indication originally issued by the source network adapter as specified by the <b>SourcePortId</b> and <b>SourceNicIndex</b> members.
 
 
 ## -remarks
 
 
 
-The <b>NDIS_SWITCH_NIC_STATUS_INDICATION</b> structure is used in NDIS status indications of <a href="https://msdn.microsoft.com/library/windows/hardware/hh598205">NDIS_STATUS_SWITCH_NIC_STATUS</a>.
+The <b>NDIS_SWITCH_NIC_STATUS_INDICATION</b> structure is used in NDIS status indications of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-switch-nic-status">NDIS_STATUS_SWITCH_NIC_STATUS</a>.
 
 An extension can forward or originate status indications from any underlying physical adapter that is connected to the extensible switch <a href="https://docs.microsoft.com/windows-hardware/drivers/network/external-network-adapters">external network adapter</a>. Typically, the extension issues these status indications in order to change the advertised hardware offload capabilities of the underlying physical adapter. 
 
@@ -135,7 +135,7 @@ Single root I/O virtualization (SR-IOV).
 
 </li>
 </ul>
-For guidelines on how to issue NDIS status indications from underlying physical adapters, see <a href="https://msdn.microsoft.com/ECA336FD-3E07-47D8-9006-6FE9CC1BEC2F">Managing NDIS Status Indications from Physical Network Adapters</a>.
+For guidelines on how to issue NDIS status indications from underlying physical adapters, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/managing-ndis-status-indications-from-physical-network-adapters">Managing NDIS Status Indications from Physical Network Adapters</a>.
 
 
 
@@ -149,15 +149,15 @@ For guidelines on how to issue NDIS status indications from underlying physical 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567373">NDIS_STATUS_INDICATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_status_indication">NDIS_STATUS_INDICATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598217">NDIS_SWITCH_NIC_STATUS_INDICATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_switch_nic_status_indication">NDIS_SWITCH_NIC_STATUS_INDICATION</a>
  
 
  

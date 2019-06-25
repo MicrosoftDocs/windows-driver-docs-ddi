@@ -94,7 +94,7 @@ A call to <b>GetBytes</b> will throw an exception, if the specified property is 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh973217">IPrinterScriptablePropertyBag</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprinterscriptablepropertybag">IPrinterScriptablePropertyBag</a>
  
 
  

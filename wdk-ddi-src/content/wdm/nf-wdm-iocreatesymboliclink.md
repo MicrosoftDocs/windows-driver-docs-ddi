@@ -77,9 +77,9 @@ Pointer to a buffered Unicode string that is the name of the driver-created devi
 
 
 
-WDM drivers do not name device objects and therefore should not use this routine. Instead, a WDM driver should call <a href="https://msdn.microsoft.com/library/windows/hardware/ff549506">IoRegisterDeviceInterface</a> to set up a symbolic link. 
+WDM drivers do not name device objects and therefore should not use this routine. Instead, a WDM driver should call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ioregisterdeviceinterface">IoRegisterDeviceInterface</a> to set up a symbolic link. 
 
-For more information about when to use <b>IoCreateSymbolicLink</b>, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff556420">Named Device Objects</a>. 
+For more information about when to use <b>IoCreateSymbolicLink</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/named-device-objects">Named Device Objects</a>. 
 
 
 
@@ -89,19 +89,19 @@ For more information about when to use <b>IoCreateSymbolicLink</b>, see <a href=
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548282">IoAssignArcName</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-ioassignarcname">IoAssignArcName</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549050">IoCreateUnprotectedSymbolicLink</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iocreateunprotectedsymboliclink">IoCreateUnprotectedSymbolicLink</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549085">IoDeleteSymbolicLink</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iodeletesymboliclink">IoDeleteSymbolicLink</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549506">IoRegisterDeviceInterface</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ioregisterdeviceinterface">IoRegisterDeviceInterface</a>
  
 
  

@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <b>OutputWide</b>  method formats a string and send the result to <a href="https://msdn.microsoft.com/7a23ee09-0314-400a-8152-eef49a225427">output callbacks</a> that have been registered with the engine's clients.
+The <b>OutputWide</b>  method formats a string and send the result to <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/using-input-and-output">output callbacks</a> that have been registered with the engine's clients.
 
 
 ## -parameters
@@ -56,7 +56,7 @@ The <b>OutputWide</b>  method formats a string and send the result to <a href="h
 
 ### -param Mask [in]
 
-Specifies the output-type bit field.  See <a href="https://msdn.microsoft.com/library/windows/hardware/ff541518">DEBUG_OUTPUT_XXX</a> for possible values.
+Specifies the output-type bit field.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-output-xxx">DEBUG_OUTPUT_XXX</a> for possible values.
 
 
 ### -param Format [in]
@@ -254,7 +254,7 @@ Specifies additional parameters that contain values to be inserted into the outp
 
 
 
-This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 <table>
 <tr>
@@ -292,7 +292,7 @@ When generating very large output strings, it is possible to reach the limits of
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564716">.printf</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/-printf">.printf</a>
 
 
 
@@ -300,15 +300,15 @@ When generating very large output strings, it is possible to reach the limits of
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550526">IDebugControl4</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugcontrol4">IDebugControl4</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553280">OutputVaList</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-outputvalist">OutputVaList</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542750">dprintf</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdbgexts/nc-wdbgexts-pwindbg_output_routine">dprintf</a>
  
 
  

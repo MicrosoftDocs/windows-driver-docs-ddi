@@ -49,7 +49,7 @@ req.typenames:
 
 The 
   <b>FwpmCalloutAdd0</b> function adds a callout to the filter engine.
-<div class="alert"><b>Note</b>  <b>FwpmCalloutAdd0</b> is a specific version of <b>FwpmCalloutAdd</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
+<div class="alert"><b>Note</b>  <b>FwpmCalloutAdd0</b> is a specific version of <b>FwpmCalloutAdd</b>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
 ## -parameters
 
@@ -59,20 +59,20 @@ The
 ### -param engineHandle [in]
 
 A handle for an open session to the filter engine. A callout driver calls the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff550075">FwpmEngineOpen0</a> function to open a
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpmk/nf-fwpmk-fwpmengineopen0">FwpmEngineOpen0</a> function to open a
      session to the filter engine.
 
 
 ### -param callout [in]
 
 A pointer to a constant 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff550076">FWPM_CALLOUT0</a> structure that contains the
+     <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550076(v=vs.85)">FWPM_CALLOUT0</a> structure that contains the
      data that is required to add the callout to the filter engine.
 
 
 ### -param sd [in, optional]
 
-A pointer to a constant <a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a> structure that describes the security descriptor for
+A pointer to a constant <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a> structure that describes the security descriptor for
      the callout that is being added to the filter engine. This parameter is optional and can be <b>NULL</b>.
 
 
@@ -82,7 +82,7 @@ A pointer to a UINT32-typed variable that receives a run-time identifier that id
      callout in the filter engine. This is the same identifier that is returned when a callout driver
      registers the callout driver's callout functions with the filter engine. The callout driver passes this
      identifier to the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff550069">FwpmCalloutDeleteById0</a> function
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpmk/nf-fwpmk-fwpmcalloutdeletebyid0">FwpmCalloutDeleteById0</a> function
      when removing the callout from the filter engine. This parameter is optional and can be <b>NULL</b>.
 
 
@@ -119,7 +119,7 @@ The callout was successfully added to the filter engine.
 The callout could not be added to the filter engine. A callout already exists in the filter
        engine with an identifier identical to the GUID specified in the 
        <b>calloutKey</b> member of the 
-       <a href="https://msdn.microsoft.com/library/windows/hardware/ff550076">FWPM_CALLOUT0</a> structure pointed to by the 
+       <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550076(v=vs.85)">FWPM_CALLOUT0</a> structure pointed to by the 
        <i>callout</i> parameter.
 
 </td>
@@ -165,23 +165,23 @@ A callout and filters that specify the callout for the filter's action can be ad
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550076">FWPM_CALLOUT0</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550076(v=vs.85)">FWPM_CALLOUT0</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550069">FwpmCalloutDeleteById0</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpmk/nf-fwpmk-fwpmcalloutdeletebyid0">FwpmCalloutDeleteById0</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550071">FwpmCalloutDeleteByKey0</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpmk/nf-fwpmk-fwpmcalloutdeletebykey0">FwpmCalloutDeleteByKey0</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550075">FwpmEngineOpen0</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpmk/nf-fwpmk-fwpmengineopen0">FwpmEngineOpen0</a>
 
 
 
-<a href="https://msdn.microsoft.com/d9539403-7657-4e95-8791-309673d1207d">Types of Callouts</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/types-of-callouts">Types of Callouts</a>
  
 
  

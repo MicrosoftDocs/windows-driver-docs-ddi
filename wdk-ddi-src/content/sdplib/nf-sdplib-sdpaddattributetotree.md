@@ -75,9 +75,9 @@ The identifier of the attribute to attach.
 ### -param tag [in]
 
 Specifies a 4-byte 
-     <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">pool tag</a> that uniquely identifies the driver that does the memory
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/">pool tag</a> that uniquely identifies the driver that does the memory
      allocation. For more information about pool tags, see 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff544520">ExAllocatePoolWithTag</a>.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-exallocatepoolwithtag">ExAllocatePoolWithTag</a>.
 
 
 ## -returns
@@ -94,10 +94,10 @@ Possible return values include:
 
 
 Bluetooth profile drivers can obtain a pointer to this function through the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff536635">BTHDDI_SDP_NODE_INTERFACE</a>.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthsdpddi/ns-bthsdpddi-_bthddi_sdp_node_interface">BTHDDI_SDP_NODE_INTERFACE</a>.
 
 For more information about the tree structure, see 
-    <a href="https://msdn.microsoft.com/762cf68b-0082-4b9e-8f24-ff19ecf6f8bd">Converting SDP Records to a
+    <a href="https://docs.microsoft.com/previous-versions/ff536672(v=vs.85)">Converting SDP Records to a
     Tree Structure</a>.
 
 
@@ -108,7 +108,7 @@ For more information about the tree structure, see
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536635">BTHDDI_SDP_NODE_INTERFACE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthsdpddi/ns-bthsdpddi-_bthddi_sdp_node_interface">BTHDDI_SDP_NODE_INTERFACE</a>
  
 
  

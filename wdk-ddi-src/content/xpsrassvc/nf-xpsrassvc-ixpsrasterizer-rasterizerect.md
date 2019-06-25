@@ -76,12 +76,12 @@ The height, in pixels, of the output bitmap.
 
 ### -param notificationCallback [in, optional]
 
-Pointer to the <a href="https://msdn.microsoft.com/7616b5c7-a21f-4db1-923b-ebf2a039b5ec">IXpsRasterizerNotificationCallback</a> interface of a notification object that is implemented by the caller. This parameter is optional and can be <b>NULL</b> if the caller does not require notification callbacks.
+Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/xpsrassvc/nn-xpsrassvc-ixpsrasterizernotificationcallback">IXpsRasterizerNotificationCallback</a> interface of a notification object that is implemented by the caller. This parameter is optional and can be <b>NULL</b> if the caller does not require notification callbacks.
 
 
 ### -param bitmap [out, optional]
 
-Pointer to a location into which the method writes a pointer to the <a href="https://msdn.microsoft.com/library/windows/desktop/ee719675.aspx">IWICBitmap</a> interface of the newly created bitmap object. If the method fails, it writes <b>NULL</b> to this location and returns an error code.
+Pointer to a location into which the method writes a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmap">IWICBitmap</a> interface of the newly created bitmap object. If the method fails, it writes <b>NULL</b> to this location and returns an error code.
 
 
 ## -returns
@@ -129,11 +129,11 @@ Parameter <i>width</i> or <i>height</i> is less than or equal to 0.
 
 This method is supported in Windows 7 and later. It is not supported in versions of the Windows operating system before Windows 7.
 
-If successful, this method creates a Windows imaging component (WIC) bitmap object and passes to the caller a counted reference to the object's <a href="https://msdn.microsoft.com/library/windows/desktop/ee719675.aspx">IWICBitmap</a> interface. When the object is no longer needed, the caller is responsible for releasing the object by calling the <a href="https://go.microsoft.com/fwlink/p/?linkid=98433">Release</a> method on the object's <a href="https://msdn.microsoft.com/library/windows/desktop/ee719675.aspx">IWICBitmap</a> interface.
+If successful, this method creates a Windows imaging component (WIC) bitmap object and passes to the caller a counted reference to the object's <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmap">IWICBitmap</a> interface. When the object is no longer needed, the caller is responsible for releasing the object by calling the <a href="https://go.microsoft.com/fwlink/p/?linkid=98433">Release</a> method on the object's <a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmap">IWICBitmap</a> interface.
 
 The WIC bitmap created by this method has a 32-bit pixel format that contains 8-bit red, green, and blue channels and uses the standard RGB (sRGB) color space. In addition, the format contains an 8-bit alpha component. The color components in each pixel value are pre-multiplied by the alpha component. The pixel format is specified by the GUID value <b>GUID_WICPixelFormat32bppPBGRA</b>, which is defined in the header file Wincodec.h. For more information about this format, see <a href="https://go.microsoft.com/fwlink/p/?linkid=133874">Native Pixel Formats Overview</a>.
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff556350">IXpsRasterizationFactory::CreateRasterizer</a> method's <i>DPI</i> parameter specifies the resolution, in dots per inch, at which the bitmap is to be rendered. As described in the <a href="https://msdn.microsoft.com/library/windows/hardware/gg463431">XPS specification</a><u>, </u>the width and height of a fixed page in an XPS document are specified in 1/96-inch units. To determine the dimensions (in pixels) of the bitmap required to represent the entire fixed page, multiply the width and height by <i>DPI</i>/96.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/xpsrassvc/nf-xpsrassvc-ixpsrasterizationfactory-createrasterizer">IXpsRasterizationFactory::CreateRasterizer</a> method's <i>DPI</i> parameter specifies the resolution, in dots per inch, at which the bitmap is to be rendered. As described in the <a href="http://download.microsoft.com/download/1/6/a/16acc601-1b7a-42ad-8d4e-4f0aa156ec3e/XPS_1_0.exe">XPS specification</a><u>, </u>the width and height of a fixed page in an XPS document are specified in 1/96-inch units. To determine the dimensions (in pixels) of the bitmap required to represent the entire fixed page, multiply the width and height by <i>DPI</i>/96.
 
 To accommodate printers that require a fixed page to be rasterized as a series of horizontal or vertical bands, parameters <i>x</i>, <i>y</i>, <i>width</i>, and <i>height</i> specify a rectangular region of the fixed page that is to be rasterized. All four parameter values are specified in pixels. Parameters <i>x</i> and <i>y</i> are the coordinates of the top, left corner of the rectangular region; they are specified as pixel displacements from the coordinate origin (0, 0). Parameters <i>width</i> and <i>height</i> are the dimensions of the rectangular region.
 
@@ -151,7 +151,7 @@ For example, if <i>w</i>XPS and <i>h</i>XPS are the width and height of an XPS f
 <i>DPI</i>
 If the <i>notificationCallback</i> parameter is non-<b>NULL</b>, the <code>RasterizeRect</code> method takes a counted reference to the notification object's <b>IXpsRasterizerNotificationCallback</b> interface. It does so by calling the <b>AddRef</b> method on the interface before making any calls to the <b>IXpsRasterizerNotificationCallback::Continue</b> method. Before <code>RasterizeRect</code> returns, it releases the notification object by calling the <b>Release</b> method on the <b>IXpsRasterizerNotificationCallback</b> interface.
 
-As explained in the <a href="https://msdn.microsoft.com/library/windows/hardware/gg463431">XPS specification</a><u>,</u> the optional <b>BleedBox</b> attribute can specify a bleed box that extends outside the boundaries of a fixed page. To accommodate bleed boxes, the rectangle defined by the parameters <i>x</i>, <i>y</i>, <i>width</i>, and <i>height</i> can also extend beyond the boundaries of the fixed page. The method accepts any values, positive or negative, for <i>x</i> and <i>y</i>, and it accepts any positive, nonzero values for <i>width</i> and <i>height</i>. The rectangle specified by these parameters defines the clipping region for the rasterization operation. If the rectangle extends beyond the boundaries of the fixed page, the clipping region also extends beyond these boundaries.
+As explained in the <a href="http://download.microsoft.com/download/1/6/a/16acc601-1b7a-42ad-8d4e-4f0aa156ec3e/XPS_1_0.exe">XPS specification</a><u>,</u> the optional <b>BleedBox</b> attribute can specify a bleed box that extends outside the boundaries of a fixed page. To accommodate bleed boxes, the rectangle defined by the parameters <i>x</i>, <i>y</i>, <i>width</i>, and <i>height</i> can also extend beyond the boundaries of the fixed page. The method accepts any values, positive or negative, for <i>x</i> and <i>y</i>, and it accepts any positive, nonzero values for <i>width</i> and <i>height</i>. The rectangle specified by these parameters defines the clipping region for the rasterization operation. If the rectangle extends beyond the boundaries of the fixed page, the clipping region also extends beyond these boundaries.
 
 If the method fails and <i>bitmap</i> is non-<b>NULL</b>, the method sets *<i>bitmap</i> = <b>NULL</b>.
 
@@ -165,23 +165,23 @@ For a code example that calls the <code>RasterizeRect</code> method, see the XPS
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/desktop/ee719675.aspx">IWICBitmap</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wincodec/nn-wincodec-iwicbitmap">IWICBitmap</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556350">IXpsRasterizationFactory::CreateRasterizer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/xpsrassvc/nf-xpsrassvc-ixpsrasterizationfactory-createrasterizer">IXpsRasterizationFactory::CreateRasterizer</a>
 
 
 
-<a href="https://msdn.microsoft.com/1ef99120-2b3b-45aa-bcf7-16bcb9656089">IXpsRasterizer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/xpsrassvc/nn-xpsrassvc-ixpsrasterizer">IXpsRasterizer</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556366">IXpsRasterizer::SetMinimalLineWidth</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/xpsrassvc/nf-xpsrassvc-ixpsrasterizer-setminimallinewidth">IXpsRasterizer::SetMinimalLineWidth</a>
 
 
 
-<a href="https://msdn.microsoft.com/7616b5c7-a21f-4db1-923b-ebf2a039b5ec">IXpsRasterizerNotificationCallback</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/xpsrassvc/nn-xpsrassvc-ixpsrasterizernotificationcallback">IXpsRasterizerNotificationCallback</a>
  
 
  

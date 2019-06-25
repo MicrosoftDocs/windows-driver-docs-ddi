@@ -48,7 +48,7 @@ req.typenames:
 
 The <i>NdkControlCqInterruptModeration</i> (<i>NDK_FN_CONTROL_CQ_INTERRUPT_MODERATION</i>) function controls interrupt moderation on an NDK completion queue (CQ).
 
-For more information about interrupt moderation, see <a href="https://msdn.microsoft.com/291f9606-6379-4b78-b388-ba663f84b431">Interrupt Moderation</a>.
+For more information about interrupt moderation, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/interrupt-moderation">Interrupt Moderation</a>.
 
 
 ## -parameters
@@ -58,7 +58,7 @@ For more information about interrupt moderation, see <a href="https://msdn.micro
 
 ### -param *pNdkCq [in]
 
-A pointer to an NDK completion queue object (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439854">NDK_CQ</a>).
+A pointer to an NDK completion queue object (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/ns-ndkpi-_ndk_cq">NDK_CQ</a>).
 
 
 
@@ -118,7 +118,7 @@ The operation completed successfully.
 </td>
 <td width="60%">
 The NDK 
-provider does not support CQ interrupt moderation control with <a href="https://msdn.microsoft.com/library/windows/hardware/jj552973">NDK_FN_CONTROL_CQ_INTERRUPT_MODERATION</a>. A provider that sets the NDK_ADAPTER_FLAG_CQ_INTERRUPT_MODERATION_SUPPORT flag in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439851">NDK_ADAPTER_INFO</a> structure's <b>AdapterFlags</b> member must not return this status code.
+provider does not support CQ interrupt moderation control with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/nc-ndkpi-ndk_fn_control_cq_interrupt_moderation">NDK_FN_CONTROL_CQ_INTERRUPT_MODERATION</a>. A provider that sets the NDK_ADAPTER_FLAG_CQ_INTERRUPT_MODERATION_SUPPORT flag in the <a href="https://docs.microsoft.com/windows/desktop/api/ndkinfo/ns-ndkinfo-_ndk_adapter_info">NDK_ADAPTER_INFO</a> structure's <b>AdapterFlags</b> member must not return this status code.
 
 
 </td>
@@ -157,7 +157,7 @@ An error occurred.
 
 
 
-NDK consumers must not call <i>NDK_FN_CONTROL_CQ_INTERRUPT_MODERATION</i> unless the provider sets the NDK_ADAPTER_FLAG_CQ_INTERRUPT_MODERATION_SUPPORTED  flag in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439851">NDK_ADAPTER_INFO</a> structure's <b>AdapterFlags</b> member. For a provider that sets the NDK_ADAPTER_FLAG_CQ_INTERRUPT_MODERATION_SUPPORTED flag, the NDK consumer can call this function at any point after a CQ is created. The default behavior for a CQ is no interrupt moderation. The NDK consumer must not call this function on the same CQ concurrently.
+NDK consumers must not call <i>NDK_FN_CONTROL_CQ_INTERRUPT_MODERATION</i> unless the provider sets the NDK_ADAPTER_FLAG_CQ_INTERRUPT_MODERATION_SUPPORTED  flag in the <a href="https://docs.microsoft.com/windows/desktop/api/ndkinfo/ns-ndkinfo-_ndk_adapter_info">NDK_ADAPTER_INFO</a> structure's <b>AdapterFlags</b> member. For a provider that sets the NDK_ADAPTER_FLAG_CQ_INTERRUPT_MODERATION_SUPPORTED flag, the NDK consumer can call this function at any point after a CQ is created. The default behavior for a CQ is no interrupt moderation. The NDK consumer must not call this function on the same CQ concurrently.
 
 
 The NDK consumer must not specify a MAXULONG for <i>ModerationInterval</i> and MAXULONG or a value larger than the  number of completion entries that the CQ can hold  (<i>CqDepth</i>) for <i>ModerationCount</i> at the same time. Otherwise, the provider will return STATUS_INVALID_PARAMETER_MIX.
@@ -176,15 +176,15 @@ Providers that indicate support for interrupt moderation with the NDK_ADAPTER_FL
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439851">NDK_ADAPTER_INFO</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ndkinfo/ns-ndkinfo-_ndk_adapter_info">NDK_ADAPTER_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439854">NDK_CQ</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/ns-ndkpi-_ndk_cq">NDK_CQ</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439855">NDK_CQ_DISPATCH</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/ns-ndkpi-_ndk_cq_dispatch">NDK_CQ_DISPATCH</a>
  
 
  

@@ -83,7 +83,7 @@ Describes a valid rectangle for data cropping.
 
 
 
-This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567261">KS_AMVPDATAINFO</a> structure.
+This structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-tagks_amvpdatainfo">KS_AMVPDATAINFO</a> structure.
 
 
 
@@ -93,7 +93,7 @@ This structure is used by the <a href="https://msdn.microsoft.com/library/window
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567261">KS_AMVPDATAINFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-tagks_amvpdatainfo">KS_AMVPDATAINFO</a>
  
 
  

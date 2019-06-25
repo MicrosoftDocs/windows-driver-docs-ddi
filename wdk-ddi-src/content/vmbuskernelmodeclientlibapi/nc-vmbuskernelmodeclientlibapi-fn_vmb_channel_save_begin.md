@@ -75,8 +75,8 @@ Returns STATUS_SUCCESS if the operation succeeded, or an appropriate NTSTATUS er
 ## -remarks
 
 The
-caller next calls the <a href="https://msdn.microsoft.com/57266CAE-C069-4379-92FD-0F93FECC6EB5"> VmbChannelSaveContinue</a> function multiple times until
-all the state is saved, and then calls the <a href="https://msdn.microsoft.com/0E61AF98-DC71-4234-B337-71B2AF65D858">VmbChannelSaveEnd</a> function.
+caller next calls the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelsavecontinue"> VmbChannelSaveContinue</a> function multiple times until
+all the state is saved, and then calls the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelsaveend">VmbChannelSaveEnd</a> function.
 
 > [!IMPORTANT]
 > This function is called through the VMBus Kernel Mode Client Library (KMCL) interface, provided by the Vmbkmcl.sys bus driver. This is a server-only function accessed from the [**KMCL_SERVER_ONLY_METHODS**](ns-vmbuskernelmodeclientlibapi-_kmcl_server_only_methods.md) structure. 
@@ -85,8 +85,8 @@ all the state is saved, and then calls the <a href="https://msdn.microsoft.com/0
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/57266CAE-C069-4379-92FD-0F93FECC6EB5"> VmbChannelSaveContinue</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelsavecontinue"> VmbChannelSaveContinue</a>
 
 
 
-<a href="https://msdn.microsoft.com/0E61AF98-DC71-4234-B337-71B2AF65D858">VmbChannelSaveEnd</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelsaveend">VmbChannelSaveEnd</a>

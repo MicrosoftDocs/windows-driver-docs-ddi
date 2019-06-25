@@ -113,7 +113,7 @@ Reserved for internal use.
 
 
 
-Each type of CLFS management policy corresponds to a specific interpretation of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541842">CLFS_MGMT_POLICY</a> structure. The <b>PolicyType</b> member of the <b>CLFS_MGMT_POLICY</b> structure is a valid value of the <b>CLFS_MGMT_POLICY_TYPE</b> enumeration.
+Each type of CLFS management policy corresponds to a specific interpretation of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_clfs_mgmt_policy">CLFS_MGMT_POLICY</a> structure. The <b>PolicyType</b> member of the <b>CLFS_MGMT_POLICY</b> structure is a valid value of the <b>CLFS_MGMT_POLICY_TYPE</b> enumeration.
 
 
 
@@ -123,7 +123,7 @@ Each type of CLFS management policy corresponds to a specific interpretation of 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541842">CLFS_MGMT_POLICY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_clfs_mgmt_policy">CLFS_MGMT_POLICY</a>
  
 
  

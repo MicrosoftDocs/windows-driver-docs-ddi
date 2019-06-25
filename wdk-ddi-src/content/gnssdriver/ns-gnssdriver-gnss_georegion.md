@@ -67,13 +67,13 @@ Version number.
 ### -field GeoRegionType
 
 
-<a href="https://msdn.microsoft.com/736A1D63-A96E-4E29-ADFD-F441AC4757C6">GNSS_GEOREGIONTYP</a>E enumeration that defines the georegion type of a geofence.
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/gnssdriver/ne-gnssdriver-gnss_georegiontype">GNSS_GEOREGIONTYP</a>E enumeration that defines the georegion type of a geofence.
 
 
 ### -field Circle
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn925179">GNSS_GEOREGION_CIRCLE</a> structure that defines a circular geofence.
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/gnssdriver/ns-gnssdriver-gnss_georegion_circle">GNSS_GEOREGION_CIRCLE</a> structure that defines a circular geofence.
 
 
 ### -field Unused

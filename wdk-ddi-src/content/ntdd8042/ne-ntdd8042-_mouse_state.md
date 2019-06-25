@@ -88,7 +88,7 @@ Indicates that I8042prt is resetting the mouse.
 
 
 
-The MOUSE_STATE enumerator is used as input to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543252">PI8042_MOUSE_ISR</a> callback.
+The MOUSE_STATE enumerator is used as input to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdd8042/nc-ntdd8042-pi8042_mouse_isr">PI8042_MOUSE_ISR</a> callback.
 
 
 
@@ -98,11 +98,11 @@ The MOUSE_STATE enumerator is used as input to a <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/34d0a7e9-4a1e-43ba-a643-800ebaadc360">MouFilter_IsrHook</a>
+<a href="https://docs.microsoft.com/previous-versions/ff542379(v=vs.85)">MouFilter_IsrHook</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543252">PI8042_MOUSE_ISR</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdd8042/nc-ntdd8042-pi8042_mouse_isr">PI8042_MOUSE_ISR</a>
  
 
  

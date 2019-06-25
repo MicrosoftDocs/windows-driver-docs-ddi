@@ -97,7 +97,7 @@ For <u>subsequent</u> open requests to the <u>same</u> file stream, the file sys
 
 <div class="alert"><b>Warning</b>    File system filter drivers must treat the members of the <b>SECTION_OBJECT_POINTERS</b> structure as opaque because the underlying file system is responsible for the synchronization of the members and, therefore, could change their values at any time.</div>
 <div> </div>
-<div class="alert"><b>Note</b>    A file is composed of one or more streams, depending on the file system. For more information, see <a href="https://msdn.microsoft.com/baea4967-f0d6-4096-aac4-fd38c117b4c6">File Streams, Stream Contexts, and Per-Stream Contexts</a>.</div>
+<div class="alert"><b>Note</b>    A file is composed of one or more streams, depending on the file system. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/file-streams--stream-contexts--and-per-stream-contexts">File Streams, Stream Contexts, and Per-Stream Contexts</a>.</div>
 <div> </div>
 
 
@@ -111,11 +111,11 @@ For <u>subsequent</u> open requests to the <u>same</u> file stream, the file sys
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545834">FILE_OBJECT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_file_object">FILE_OBJECT</a>
 
 
 
@@ -123,19 +123,19 @@ For <u>subsequent</u> open requests to the <u>same</u> file stream, the file sys
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547334">FSRTL_ADVANCED_FCB_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_fsrtl_advanced_fcb_header">FSRTL_ADVANCED_FCB_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549198">IoGetDeviceObjectPointer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iogetdeviceobjectpointer">IoGetDeviceObjectPointer</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549808">MmFlushImageSection</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-mmflushimagesection">MmFlushImageSection</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557724">ObDereferenceObject</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-obdereferenceobject">ObDereferenceObject</a>
  
 
  

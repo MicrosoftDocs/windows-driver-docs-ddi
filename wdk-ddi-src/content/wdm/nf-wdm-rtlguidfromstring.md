@@ -79,7 +79,7 @@ If the conversion succeeds, <b>RtlGUIDFromString</b> returns STATUS_SUCCESS. Oth
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562871">RtlStringFromGUID</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlstringfromguid">RtlStringFromGUID</a>
  
 
  

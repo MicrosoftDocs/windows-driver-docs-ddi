@@ -69,7 +69,7 @@ The index number for the alternate USB interface setting.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt188001">USBFN_NOTIFICATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbfnbase/ns-usbfnbase-_usbfn_notification">USBFN_NOTIFICATION</a>
  
 
  

@@ -46,7 +46,7 @@ req.typenames: DEVICE_CAPABILITIES, PDEVICE_CAPABILITIES
 ## -description
 
 
-A <b>DEVICE_CAPABILITIES</b> structure describes PnP and power capabilities of a device. This structure is returned in response to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551664">IRP_MN_QUERY_CAPABILITIES</a> IRP.
+A <b>DEVICE_CAPABILITIES</b> structure describes PnP and power capabilities of a device. This structure is returned in response to an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-capabilities">IRP_MN_QUERY_CAPABILITIES</a> IRP.
 
 
 ## -struct-fields
@@ -112,7 +112,7 @@ Specifies whether Device Manager should suppress all installation dialog boxes; 
 
 ### -field RawDeviceOK
 
-Specifies whether the driver for the underlying bus can drive the device if there is no function driver (for example, SCSI devices in pass-through mode). This mode of operation is called <a href="https://msdn.microsoft.com/004698f5-cb0e-4995-a19c-7075aa226000">raw mode</a>.
+Specifies whether the driver for the underlying bus can drive the device if there is no function driver (for example, SCSI devices in pass-through mode). This mode of operation is called <a href="https://docs.microsoft.com/windows-hardware/drivers/">raw mode</a>.
 
 
 ### -field SurpriseRemovalOK
@@ -165,7 +165,7 @@ Reserved for future use.
 
 ### -field NoDisplayInUI
 
-Do not display the device in the user interface. If this bit is set, the device is <u>never</u> displayed in the user interface, even if the device is present but fails to start. Only bus drivers and associated bus filter drivers should set this bit. (Also see the <b>PNP_DEVICE_DONT_DISPLAY_IN_UI</b> flag in the [PNP_DEVICE_STATE](https://microsoft.com/windows-hardware/drivers/kernel/handling-an-irp-mn-surprise-removal-request#about-pnp_device_state) structure.)
+Do not display the device in the user interface. If this bit is set, the device is <u>never</u> displayed in the user interface, even if the device is present but fails to start. Only bus drivers and associated bus filter drivers should set this bit. (Also see the <b>PNP_DEVICE_DONT_DISPLAY_IN_UI</b> flag in the [PNP_DEVICE_STATE](https://www.microsoft.com/windows-hardware/drivers/kernel/handling-an-irp-mn-surprise-removal-request#about-pnp_device_state) structure.)
 
 
 ### -field Reserved1
@@ -301,7 +301,7 @@ Bus drivers set the appropriate values in this structure in response to an <b>IR
 
 Drivers that send an <b>IRP_MN_QUERY_CAPABILITIES</b> request must initialize the <b>Size</b>, <b>Version</b>, <b>Address</b>, and <b>UINumber</b> members of this structure before sending the IRP. 
 
-For more information about using the <b>DEVICE_CAPABILITIES</b> structure to describe a device's power capabilities, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff561058">Reporting Device Power Capabilities</a>.
+For more information about using the <b>DEVICE_CAPABILITIES</b> structure to describe a device's power capabilities, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/reporting-device-power-capabilities">Reporting Device Power Capabilities</a>.
 
 
 
@@ -311,11 +311,11 @@ For more information about using the <b>DEVICE_CAPABILITIES</b> structure to des
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551664">IRP_MN_QUERY_CAPABILITIES</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-capabilities">IRP_MN_QUERY_CAPABILITIES</a>
 
 
 
-[PNP_DEVICE_STATE](https://microsoft.com/windows-hardware/drivers/kernel/handling-an-irp-mn-surprise-removal-request#about-pnp_device_state)
+[PNP_DEVICE_STATE](https://www.microsoft.com/windows-hardware/drivers/kernel/handling-an-irp-mn-surprise-removal-request#about-pnp_device_state)
  
 
  

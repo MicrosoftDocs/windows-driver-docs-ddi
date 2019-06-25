@@ -96,7 +96,7 @@ If the quota return would exceed the quota for the process, <b>PsReturnPoolQuota
 
 Every successful call to <b>PsChargePoolQuota</b> must be matched by a subsequent call to <b>PsReturnPoolQuota</b>.
 
-For more information about memory management, see <a href="https://msdn.microsoft.com/e030a37c-26ab-4177-9980-4336928975e1">Memory Management</a>. 
+For more information about memory management, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/managing-memory-for-drivers">Memory Management</a>. 
 
 
 
@@ -106,7 +106,7 @@ For more information about memory management, see <a href="https://msdn.microsof
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551889">PsChargePoolQuota</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-pschargepoolquota">PsChargePoolQuota</a>
  
 
  

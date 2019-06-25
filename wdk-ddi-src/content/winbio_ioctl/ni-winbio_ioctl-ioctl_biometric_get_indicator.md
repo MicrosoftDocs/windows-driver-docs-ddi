@@ -66,7 +66,7 @@ None.
 
 ### -output-buffer
 
-The AssociatedIrp.SystemBuffer member points to a buffer that contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff536471">WINBIO_GET_INDICATOR</a> structure.
+The AssociatedIrp.SystemBuffer member points to a buffer that contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winbio_ioctl/ns-winbio_ioctl-_winbio_get_indicator">WINBIO_GET_INDICATOR</a> structure.
 
 
 ### -output-buffer-length

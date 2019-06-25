@@ -56,7 +56,7 @@ Metadata associated with a band is retrieved with an  <b> IOCTL_EHSTOR_BANDMGMT_
 
 ### -input-buffer
 
-The input buffer at <i>Irp->AssociatedIrp.SystemBuffer</i> must contain a <a href="https://msdn.microsoft.com/CE8160C5-8C64-4BA5-864E-EC634754E062"> GET_BAND_METADATA_PARAMETERS</a> structure. 
+The input buffer at <i>Irp->AssociatedIrp.SystemBuffer</i> must contain a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ehstorbandmgmt/ns-ehstorbandmgmt-_get_band_metadata_parameters"> GET_BAND_METADATA_PARAMETERS</a> structure. 
 
 
 ### -input-buffer-length
@@ -66,12 +66,12 @@ The input buffer at <i>Irp->AssociatedIrp.SystemBuffer</i> must contain a <a hre
 
 ### -output-buffer
 
-The output buffer at <i>Irp->AssociatedIrp.SystemBuffer</i> contains a byte array of band metadata specified by <a href="https://msdn.microsoft.com/library/windows/hardware/hh451205">GET_BAND_METADATA_PARAMETERS</a>.
+The output buffer at <i>Irp->AssociatedIrp.SystemBuffer</i> contains a byte array of band metadata specified by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ehstorbandmgmt/ns-ehstorbandmgmt-_get_band_metadata_parameters">GET_BAND_METADATA_PARAMETERS</a>.
 
 
 ### -output-buffer-length
 
-The length of a <a href="https://msdn.microsoft.com/library/windows/hardware/hh451205">GET_BAND_METADATA_PARAMETERS</a> structure.
+The length of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ehstorbandmgmt/ns-ehstorbandmgmt-_get_band_metadata_parameters">GET_BAND_METADATA_PARAMETERS</a> structure.
 
 
 ### -in-out-buffer
@@ -143,15 +143,15 @@ Authentication for this IOCTL is unnecessary and an authentication key is not in
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439557">BAND_LOCATION_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ehstorbandmgmt/ns-ehstorbandmgmt-_band_location_info">BAND_LOCATION_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439568">BAND_SECURITY_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ehstorbandmgmt/ns-ehstorbandmgmt-_band_security_info">BAND_SECURITY_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439624">CREATE_BAND_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ehstorbandmgmt/ns-ehstorbandmgmt-_create_band_parameters">CREATE_BAND_PARAMETERS</a>
  
 
  

@@ -70,7 +70,7 @@ A handle to the display device (graphics context).
 
 *pData* [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543400">D3DDDIARG_UPDATEOVERLAY</a> structure that describes how to reconfigure the overlay.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_updateoverlay">D3DDDIARG_UPDATEOVERLAY</a> structure that describes how to reconfigure the overlay.
 
 
 ## -returns
@@ -101,11 +101,11 @@ Overlays are independent from the resources that are displayed by using the over
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543400">D3DDDIARG_UPDATEOVERLAY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_updateoverlay">D3DDDIARG_UPDATEOVERLAY</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>
  
 
  

@@ -72,7 +72,7 @@ A binary message.
 
 
 
-This enumeration is used by the <a href="https://msdn.microsoft.com/f69f4446-2d7c-4f33-b90c-535de169a4ec">WPD_COMMAND_SMS_SEND Command</a>.
+This enumeration is used by the <a href="https://docs.microsoft.com/windows/desktop/wpd_sdk/wpd-command-sms-send-command">WPD_COMMAND_SMS_SEND Command</a>.
 
 
 
@@ -82,7 +82,7 @@ This enumeration is used by the <a href="https://msdn.microsoft.com/f69f4446-2d7
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597672">Structures and Enumeration Types</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff597672(v=vs.85)">Structures and Enumeration Types</a>
  
 
  

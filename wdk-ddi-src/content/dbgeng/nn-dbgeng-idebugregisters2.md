@@ -50,7 +50,7 @@ req.typenames:
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugRegisters2</b> interface inherits from <a href="https://msdn.microsoft.com/library/windows/hardware/ff550825">IDebugRegisters</a>. <b>IDebugRegisters2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugRegisters2</b> interface inherits from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugregisters">IDebugRegisters</a>. <b>IDebugRegisters2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -65,7 +65,7 @@ The <b>IDebugRegisters2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546578">GetDescriptionWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugregisters2-getdescriptionwide">GetDescriptionWide</a>
 </td>
 <td align="left" width="63%">
 Returns the description of a register.
@@ -74,7 +74,7 @@ Returns the description of a register.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546815">GetFrameOffset2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugregisters2-getframeoffset2">GetFrameOffset2</a>
 </td>
 <td align="left" width="63%">
 Returns the location of the stack frame for the current function.
@@ -83,7 +83,7 @@ Returns the location of the stack frame for the current function.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546889">GetIndexByNameWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugregisters2-getindexbynamewide">GetIndexByNameWide</a>
 </td>
 <td align="left" width="63%">
 Returns the index of the named register.
@@ -92,7 +92,7 @@ Returns the index of the named register.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546933">GetInstructionOffset2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugregisters2-getinstructionoffset2">GetInstructionOffset2</a>
 </td>
 <td align="left" width="63%">
 Returns the location of the current thread's current instruction.
@@ -101,7 +101,7 @@ Returns the location of the current thread's current instruction.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547957">GetNumberPseudoRegisters</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugregisters2-getnumberpseudoregisters">GetNumberPseudoRegisters</a>
 </td>
 <td align="left" width="63%">
 Returns the number of pseudo-registers that are maintained by the debugger engine.
@@ -110,7 +110,7 @@ Returns the number of pseudo-registers that are maintained by the debugger engin
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548189">GetPseudoDescription</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugregisters2-getpseudodescription">GetPseudoDescription</a>
 </td>
 <td align="left" width="63%">
 Returns a description of a pseudo-register, including its name and type. (ANSI version)
@@ -119,7 +119,7 @@ Returns a description of a pseudo-register, including its name and type. (ANSI v
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548194">GetPseudoDescriptionWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugregisters2-getpseudodescriptionwide">GetPseudoDescriptionWide</a>
 </td>
 <td align="left" width="63%">
 Returns a description of a pseudo-register, including its name and type. (Unicode version)
@@ -128,7 +128,7 @@ Returns a description of a pseudo-register, including its name and type. (Unicod
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548206">GetPseudoIndexByName</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugregisters2-getpseudoindexbyname">GetPseudoIndexByName</a>
 </td>
 <td align="left" width="63%">
 Returns the index of a pseudo-register. (ANSI version)
@@ -137,7 +137,7 @@ Returns the index of a pseudo-register. (ANSI version)
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548211">GetPseudoIndexByNameWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugregisters2-getpseudoindexbynamewide">GetPseudoIndexByNameWide</a>
 </td>
 <td align="left" width="63%">
 Returns the index of a pseudo-register. (Unicode version)
@@ -146,7 +146,7 @@ Returns the index of a pseudo-register. (Unicode version)
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548215">GetPseudoValues</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugregisters2-getpseudovalues">GetPseudoValues</a>
 </td>
 <td align="left" width="63%">
 Returns the values of a number of pseudo-registers.
@@ -155,7 +155,7 @@ Returns the values of a number of pseudo-registers.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548414">GetStackOffset2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugregisters2-getstackoffset2">GetStackOffset2</a>
 </td>
 <td align="left" width="63%">
 Returns the current thread's current stack location.
@@ -164,7 +164,7 @@ Returns the current thread's current stack location.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549487">GetValues2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugregisters2-getvalues2">GetValues2</a>
 </td>
 <td align="left" width="63%">
 Fetches the value of several of the target's registers.
@@ -173,7 +173,7 @@ Fetches the value of several of the target's registers.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553245">OutputRegisters2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugregisters2-outputregisters2">OutputRegisters2</a>
 </td>
 <td align="left" width="63%">
 Formats and outputs the target's registers.
@@ -182,7 +182,7 @@ Formats and outputs the target's registers.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556767">SetPseudoValues</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugregisters2-setpseudovalues">SetPseudoValues</a>
 </td>
 <td align="left" width="63%">
 Sets the value of several pseudo-registers.
@@ -191,7 +191,7 @@ Sets the value of several pseudo-registers.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556884">SetValues2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugregisters2-setvalues2">SetValues2</a>
 </td>
 <td align="left" width="63%">
 Sets the value of several of the target's registers.
@@ -206,7 +206,7 @@ Sets the value of several of the target's registers.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550825">IDebugRegisters</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugregisters">IDebugRegisters</a>
  
 
  

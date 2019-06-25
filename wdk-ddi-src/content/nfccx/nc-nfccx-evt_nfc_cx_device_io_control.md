@@ -76,7 +76,7 @@ The length, in bytes, of the request's input buffer, if an input buffer is avail
 
 ### -param IoControlCode [in]
 
-The driver-defined or system-defined I/O control code (<a href="https://msdn.microsoft.com/library/windows/hardware/ff551084">IOCTL</a>) that is associated with the request.
+The driver-defined or system-defined I/O control code (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdbgexts/nc-wdbgexts-pwindbg_ioctl_routine">IOCTL</a>) that is associated with the request.
 
 
 ## -returns
@@ -92,7 +92,7 @@ This callback function does not return a value.
 
 
 
-The client can complete the request either synchronously or asynchronously. The NFC CX will complete the request if a status code other than STATUS_PENDING is returned by the client. To prevent request double completion, the client should not complete the WDFREQUEST (that is, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff549945">WdfRequestComplete</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff549948">WdfRequestCompleteWithInformation</a>) if it returns STATUS_SUCCESS or a failure status code.
+The client can complete the request either synchronously or asynchronously. The NFC CX will complete the request if a status code other than STATUS_PENDING is returned by the client. To prevent request double completion, the client should not complete the WDFREQUEST (that is, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfrequest/nf-wdfrequest-wdfrequestcomplete">WdfRequestComplete</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfrequest/nf-wdfrequest-wdfrequestcompletewithinformation">WdfRequestCompleteWithInformation</a>) if it returns STATUS_SUCCESS or a failure status code.
 
 
 
@@ -102,7 +102,7 @@ The client can complete the request either synchronously or asynchronously. The 
 
 
 
-<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
 
 
 

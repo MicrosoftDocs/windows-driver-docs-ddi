@@ -64,12 +64,12 @@ req.typenames:
 This function does not return a value.
 
 <h2><a id="ddk_drvsplclose_gg"></a><a id="DDK_DRVSPLCLOSE_GG"></a></h2>
-The <b>DrvSplClose</b> function is obsolete, and is supported only so that user-mode rendering DLLs, optionally supplied with Windows NT 4.0 drivers, will execute under Windows 2000 and later. Use <a href="https://msdn.microsoft.com/library/windows/hardware/ff548544">DrvDocumentEvent</a> instead of this function.
+The <b>DrvSplClose</b> function is obsolete, and is supported only so that user-mode rendering DLLs, optionally supplied with Windows NT 4.0 drivers, will execute under Windows 2000 and later. Use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winddiui/nf-winddiui-drvdocumentevent">DrvDocumentEvent</a> instead of this function.
 
 The <b>DrvSplClose</b> function enables a user-mode rendering DLL to deallocate resources.
 
 <h3><a id="comments"></a><a id="COMMENTS"></a>Comments</h3>
-To supply user-mode image-rendering code for printers, see <a href="https://msdn.microsoft.com/1e63d01e-8cf2-488a-89e8-d4a3ff5cfe19">Choosing User Mode or Kernel Mode</a>.
+To supply user-mode image-rendering code for printers, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/choosing-user-mode-or-kernel-mode">Choosing User Mode or Kernel Mode</a>.
 
 
 

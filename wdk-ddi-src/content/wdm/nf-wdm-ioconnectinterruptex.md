@@ -47,7 +47,7 @@ req.typenames:
 ## -description
 
 
-For more information, see the <a href="https://msdn.microsoft.com/172598B1-C486-489F-98F0-382EB8139A08">WdmlibIoConnectInterruptEx</a> function.
+For more information, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/iointex/nf-iointex-wdmlibioconnectinterruptex">WdmlibIoConnectInterruptEx</a> function.
 
 <code>#define IoConnectInterruptEx WdmlibIoConnectInterruptEx</code>
 
@@ -59,14 +59,14 @@ For more information, see the <a href="https://msdn.microsoft.com/172598B1-C486-
 
 ### -param Parameters [in, out]
 
-For more information, see the <a href="https://msdn.microsoft.com/172598B1-C486-489F-98F0-382EB8139A08">WdmlibIoConnectInterruptEx</a> function.
+For more information, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/iointex/nf-iointex-wdmlibioconnectinterruptex">WdmlibIoConnectInterruptEx</a> function.
 
 
 ## -returns
 
 
 
-For more information, see the <a href="https://msdn.microsoft.com/172598B1-C486-489F-98F0-382EB8139A08">WdmlibIoConnectInterruptEx</a> function.
+For more information, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/iointex/nf-iointex-wdmlibioconnectinterruptex">WdmlibIoConnectInterruptEx</a> function.
 
 
 
@@ -76,7 +76,7 @@ For more information, see the <a href="https://msdn.microsoft.com/172598B1-C486-
 
 
 
-<a href="https://msdn.microsoft.com/172598B1-C486-489F-98F0-382EB8139A08">WdmlibIoConnectInterruptEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/iointex/nf-iointex-wdmlibioconnectinterruptex">WdmlibIoConnectInterruptEx</a>
  
 
  

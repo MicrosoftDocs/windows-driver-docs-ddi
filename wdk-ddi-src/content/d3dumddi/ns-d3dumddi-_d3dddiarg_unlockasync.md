@@ -66,7 +66,7 @@ The D3DDDIARG_UNLOCKASYNC structure describes a resource or a surface within the
 
 ### -field Flags
 
-[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff544676">D3DDDI_UNLOCKASYNCFLAGS</a> structure that indicates, in bit-field flags, how to unlock the resource.
+[in] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddi_unlockasyncflags">D3DDDI_UNLOCKASYNCFLAGS</a> structure that indicates, in bit-field flags, how to unlock the resource.
 
 
 ## -see-also
@@ -74,7 +74,7 @@ The D3DDDIARG_UNLOCKASYNC structure describes a resource or a surface within the
 
 
 
-<a href="https://msdn.microsoft.com/6af04c22-e559-4328-a20a-034b443fddc6">UnlockAsync</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_unlockasync">UnlockAsync</a>
  
 
  

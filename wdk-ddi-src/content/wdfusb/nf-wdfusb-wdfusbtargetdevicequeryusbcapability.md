@@ -90,7 +90,7 @@ Length, in bytes, of the buffer pointed to by <i>CapabilityBuffer</i>.
 ### -param CapabilityBuffer [out, optional]
 
 A pointer to a caller-allocated buffer to receive the requested USB capability. This parameter is optional. If 
-                       <i>CapabilityBufferLength</i> is zero, this parameter must be NULL. Similarly, if <i>CapabilityBufferLength</i> is nonzero, this parameter must be supplied. This parameter corresponds to the <i>OutputBuffer</i> parameter of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406230">USBD_QueryUsbCapability</a> routine.
+                       <i>CapabilityBufferLength</i> is zero, this parameter must be NULL. Similarly, if <i>CapabilityBufferLength</i> is nonzero, this parameter must be supplied. This parameter corresponds to the <i>OutputBuffer</i> parameter of the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/hh406230(v=vs.85)">USBD_QueryUsbCapability</a> routine.
 
 
 ### -param ResultLength [out, optional]
@@ -171,7 +171,7 @@ The specified capability is not supported by the host controller hardware.
 </table>
  
 
-This method also might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
+This method also might return other <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS values</a>.
 
 
 
@@ -180,9 +180,9 @@ This method also might return other <a href="https://msdn.microsoft.com/library/
 
 
 
-Before calling <b>WdfUsbTargetDeviceQueryUsbCapability</b>, the driver must call  <a href="https://msdn.microsoft.com/library/windows/hardware/hh439428">WdfUsbTargetDeviceCreateWithParameters</a> to register with the underlying USB driver stack.
+Before calling <b>WdfUsbTargetDeviceQueryUsbCapability</b>, the driver must call  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfusb/nf-wdfusb-wdfusbtargetdevicecreatewithparameters">WdfUsbTargetDeviceCreateWithParameters</a> to register with the underlying USB driver stack.
 
-<b>WdfUsbTargetDeviceQueryUsbCapability</b> must be called after the driver's <a href="https://msdn.microsoft.com/a3d4a983-8a75-44be-bd72-8673d89f9f87">EvtDevicePrepareHardware</a> callback function has been called. 
+<b>WdfUsbTargetDeviceQueryUsbCapability</b> must be called after the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nc-wdfdevice-evt_wdf_device_prepare_hardware">EvtDevicePrepareHardware</a> callback function has been called. 
 
 The following table describes the USB-specific capabilities that a KMDF-based USB client driver can query through a <b>WdfUsbTargetDeviceQueryUsbCapability</b> call. 
 
@@ -194,9 +194,9 @@ The following table describes the USB-specific capabilities that a KMDF-based US
 <tr>
 <td>GUID_USB_CAPABILITY_CHAINED_MDLS</td>
 <td>
-The new USB driver stack in Windows 8 is capable of accepting a chained MDL (see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554414">MDL</a>) from the a KMDF-based USB client driver.
+The new USB driver stack in Windows 8 is capable of accepting a chained MDL (see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_mdl">MDL</a>) from the a KMDF-based USB client driver.
 
- For more information about the chained MDLs capability in the USB driver stack, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh450848">How to Send Chained MDLs</a>.  
+ For more information about the chained MDLs capability in the USB driver stack, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">How to Send Chained MDLs</a>.  
 
 This GUID applies to KMDF drivers only.
 
@@ -208,7 +208,7 @@ This GUID applies to KMDF drivers only.
  Whereas USB 2.0 and earlier supports sending only a single data stream through a bulk endpoint, USB 3.0 permits sending and receiving multiple data streams through a bulk endpoint. 
 
 
-For more information about opening streams, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh450846">How to Open and Close Static Streams in a USB Bulk Endpoint</a>.
+For more information about opening streams, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">How to Open and Close Static Streams in a USB Bulk Endpoint</a>.
 
 This GUID applies to KMDF drivers only.
 
@@ -219,7 +219,7 @@ This GUID applies to KMDF drivers only.
 <td>
 The Universal Serial Bus (USB) 3.0 specification defines a new feature called function suspend. The feature enables an individual function of a composite device to enter a low-power state, independently of other functions. 
 
-For more information about function suspend, see <a href="https://msdn.microsoft.com/91F96D30-CD18-4DDC-BA5A-7BFFA8FBED9B">How to Implement Function Suspend in a Composite Driver</a>.
+For more information about function suspend, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">How to Implement Function Suspend in a Composite Driver</a>.
 
 This GUID applies to KMDF drivers only.
 
@@ -228,7 +228,7 @@ This GUID applies to KMDF drivers only.
 <tr>
 <td>GUID_USB_CAPABILITY_SELECTIVE_SUSPEND</td>
 <td>
-For information about selective suspend, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540144">USB Selective Suspend</a>.
+For information about selective suspend, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">USB Selective Suspend</a>.
 
 This GUID applies to KMDF drivers only.
 
@@ -263,11 +263,11 @@ This GUID applies to KMDF and UMDF drivers.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406230">USBD_QueryUsbCapability</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/hh406230(v=vs.85)">USBD_QueryUsbCapability</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550100">WdfUsbTargetDeviceRetrieveInformation</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfusb/nf-wdfusb-wdfusbtargetdeviceretrieveinformation">WdfUsbTargetDeviceRetrieveInformation</a>
  
 
  

@@ -73,7 +73,7 @@ A value that specifies that the frame format is interlaced with two fields. The 
 
 
 
-The <a href="https://msdn.microsoft.com/f697e0db-1db0-4a81-94d8-0ca079885480">FOURCC</a> format of the surface defines whether the interlaced fields are interleaved or not. For example, NV12 is an interlaced format with interleaved fields whereas NV24 is an interlaced format with non-interleaved fields.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/">FOURCC</a> format of the surface defines whether the interlaced fields are interleaved or not. For example, NV12 is an interlaced format with interleaved fields whereas NV24 is an interlaced format with non-interleaved fields.
 
 
 
@@ -83,7 +83,7 @@ The <a href="https://msdn.microsoft.com/f697e0db-1db0-4a81-94d8-0ca079885480">FO
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563081">DXVAHDDDI_STREAM_STATE_FRAME_FORMAT_DATA</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_dxvahdddi_stream_state_frame_format_data">DXVAHDDDI_STREAM_STATE_FRAME_FORMAT_DATA</a>
  
 
  

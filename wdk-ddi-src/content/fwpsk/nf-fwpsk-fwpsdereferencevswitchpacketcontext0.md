@@ -57,7 +57,7 @@ This function is not supported.
 
 ### -param packetContext
 
-The <b>vSwitchPacketContext</b> value in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552397">FWPS_INCOMING_METADATA_VALUES0</a> structure that is passed to callouts during virtual switch transport layer classifies (the FWPS_L2_METADATA_FIELD_VSWITCH_SOURCE_PORT_ID bit will be set in the <b>currentL2MetadataValues</b> member). 
+The <b>vSwitchPacketContext</b> value in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/ns-fwpsk-fwps_incoming_metadata_values0_">FWPS_INCOMING_METADATA_VALUES0</a> structure that is passed to callouts during virtual switch transport layer classifies (the FWPS_L2_METADATA_FIELD_VSWITCH_SOURCE_PORT_ID bit will be set in the <b>currentL2MetadataValues</b> member). 
 
 
 ## -returns
@@ -73,7 +73,7 @@ None.
 
 
 
-The <b>FwpsDereferencevSwitchPacketContext0</b> function releases a reference  that was acquired by the <a href="https://msdn.microsoft.com/library/windows/hardware/hh698268">FwpsReferencevSwitchPacketContext0</a> function.
+The <b>FwpsDereferencevSwitchPacketContext0</b> function releases a reference  that was acquired by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsreferencevswitchpacketcontext0">FwpsReferencevSwitchPacketContext0</a> function.
 
 
 
@@ -83,11 +83,11 @@ The <b>FwpsDereferencevSwitchPacketContext0</b> function releases a reference  t
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552397">FWPS_INCOMING_METADATA_VALUES0</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/ns-fwpsk-fwps_incoming_metadata_values0_">FWPS_INCOMING_METADATA_VALUES0</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh698268">FwpsReferencevSwitchPacketContext0</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsreferencevswitchpacketcontext0">FwpsReferencevSwitchPacketContext0</a>
  
 
  

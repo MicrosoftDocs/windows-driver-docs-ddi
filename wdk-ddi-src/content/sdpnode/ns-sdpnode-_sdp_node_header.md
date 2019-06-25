@@ -59,7 +59,7 @@ The SDP_NODE_HEADER structure holds information about an element in a tree-based
 
 A linked-list structure that is used to link peer SDP record nodes when this structure is part of
      an 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536848">SDP_NODE</a> structure. This member is used to link the
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sdpnode/ns-sdpnode-_sdp_node">SDP_NODE</a> structure. This member is used to link the
      first child of the node when the header is 
      <b>u.sequence</b> or 
      <b>u.alternative</b> part of the individual SDP_NODE structure.
@@ -68,7 +68,7 @@ A linked-list structure that is used to link peer SDP record nodes when this str
 ### -field Type
 
 The data type of the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536849">SDP_NODE_DATA</a> union held in the 
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sdpnode/ns-sdpnode-_sdp_node_data">SDP_NODE_DATA</a> union held in the 
      <b>u</b> member of the SDP_NODE structure.
 
 
@@ -88,13 +88,13 @@ Each SDP_NODE structure in the tree representation of an SDP record contains a S
 
 The header specifies the type of data. Driver developers can access links to peer SDP_NODE structures
     by calling the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff554296">LIST_ENTRY</a> structure of the header. By evaluating 
+    <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_list_entry">LIST_ENTRY</a> structure of the header. By evaluating 
     <code>Node.hdr.Link.Flink</code>and 
     <code>Node.hdr.Link.Blink</code>, drivers can obtain the addresses of peer
     nodes in the tree. Keep in mind that 
     <b>LIST_ENTRY</b> pointers contain the address of other LIST_ENTRY structures, and that the profile driver
     must use the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff542043">CONTAINING_RECORD</a> memory manager macro to
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer">CONTAINING_RECORD</a> memory manager macro to
     extract the address of the containing node record.
 
 
@@ -105,19 +105,19 @@ The header specifies the type of data. Driver developers can access links to pee
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542043">CONTAINING_RECORD</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer">CONTAINING_RECORD</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554296">LIST_ENTRY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_list_entry">LIST_ENTRY</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536848">SDP_NODE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sdpnode/ns-sdpnode-_sdp_node">SDP_NODE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536849">SDP_NODE_DATA</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sdpnode/ns-sdpnode-_sdp_node_data">SDP_NODE_DATA</a>
  
 
  

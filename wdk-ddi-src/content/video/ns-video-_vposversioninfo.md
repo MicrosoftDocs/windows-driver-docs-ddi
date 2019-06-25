@@ -90,7 +90,7 @@ Specifies the minor version number of the latest Service Pack installed on the o
 
 This structure is available in Windows XP and later.
 
-To obtain version information about the currently running operating system, a video miniport driver would call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff570318">VideoPortGetVersion</a> function, which fills in this structure.
+To obtain version information about the currently running operating system, a video miniport driver would call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportgetversion">VideoPortGetVersion</a> function, which fills in this structure.
 
 
 
@@ -100,7 +100,7 @@ To obtain version information about the currently running operating system, a vi
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570318">VideoPortGetVersion</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportgetversion">VideoPortGetVersion</a>
  
 
  

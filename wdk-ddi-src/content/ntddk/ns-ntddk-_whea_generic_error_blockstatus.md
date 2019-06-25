@@ -81,7 +81,7 @@ The generic error status block is reporting multiple correctable errors.
 
 ### -field DUMMYSTRUCTNAME.ErrorDataEntryCount
 
-The number of <a href="https://msdn.microsoft.com/library/windows/hardware/ff560529">WHEA_GENERIC_ERROR_DATA_ENTRY</a> structures that are contained in the generic error status block.
+The number of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_whea_generic_error_data_entry_v2">WHEA_GENERIC_ERROR_DATA_ENTRY</a> structures that are contained in the generic error status block.
 
 
 ### -field DUMMYSTRUCTNAME.Reserved
@@ -98,7 +98,7 @@ A ULONG representation of the contents of the WHEA_GENERIC_ERROR_BLOCKSTATUS uni
 
 
 
-A WHEA_GENERIC_ERROR_BLOCKSTATUS union is contained within the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560524">WHEA_GENERIC_ERROR</a> structure.
+A WHEA_GENERIC_ERROR_BLOCKSTATUS union is contained within the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_whea_generic_error">WHEA_GENERIC_ERROR</a> structure.
 
 
 
@@ -108,11 +108,11 @@ A WHEA_GENERIC_ERROR_BLOCKSTATUS union is contained within the <a href="https://
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560524">WHEA_GENERIC_ERROR</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_whea_generic_error">WHEA_GENERIC_ERROR</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560529">WHEA_GENERIC_ERROR_DATA_ENTRY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_whea_generic_error_data_entry_v2">WHEA_GENERIC_ERROR_DATA_ENTRY</a>
  
 
  

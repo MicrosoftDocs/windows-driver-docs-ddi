@@ -56,22 +56,22 @@ The DXGK_MONITORDESCRIPTORSET_INTERFACE structure contains pointers to functions
 
 ### -field pfnGetNumDescriptors
 
-A pointer to the <a href="https://msdn.microsoft.com/7bfcef0b-1371-4e3b-b5dc-c4c548625c8f">pfnGetNumDescriptors</a> function. 
+A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_monitordescriptorset_getnumdescriptors">pfnGetNumDescriptors</a> function. 
 
 
 ### -field pfnAcquireFirstDescriptorInfo
 
-A pointer to the <a href="https://msdn.microsoft.com/228f6947-a7e5-4b76-8224-fac6889fc77a">pfnAcquireFirstDescriptorInfo</a> function.
+A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_monitordescriptorset_acquirefirstdescriptorinfo">pfnAcquireFirstDescriptorInfo</a> function.
 
 
 ### -field pfnAcquireNextDescriptorInfo
 
-A pointer to the <a href="https://msdn.microsoft.com/34d048df-d4a1-4ef5-b917-791f35de9e3a">pfnAcquireNextDescriptorInfo</a> function. 
+A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_monitordescriptorset_acquirenextdescriptorinfo">pfnAcquireNextDescriptorInfo</a> function. 
 
 
 ### -field pfnReleaseDescriptorInfo
 
-A pointer to the <a href="https://msdn.microsoft.com/8debdd01-c4e4-4b7c-b4cd-c1143ea7ebaa">pfnReleaseDescriptorInfo</a> function. 
+A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_monitordescriptorset_releasedescriptorinfo">pfnReleaseDescriptorInfo</a> function. 
 
 
 ## -see-also
@@ -79,19 +79,19 @@ A pointer to the <a href="https://msdn.microsoft.com/8debdd01-c4e4-4b7c-b4cd-c11
 
 
 
-<a href="https://msdn.microsoft.com/228f6947-a7e5-4b76-8224-fac6889fc77a">pfnAcquireFirstDescriptorInfo</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_monitordescriptorset_acquirefirstdescriptorinfo">pfnAcquireFirstDescriptorInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/34d048df-d4a1-4ef5-b917-791f35de9e3a">pfnAcquireNextDescriptorInfo</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_monitordescriptorset_acquirenextdescriptorinfo">pfnAcquireNextDescriptorInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/7bfcef0b-1371-4e3b-b5dc-c4c548625c8f">pfnGetNumDescriptors</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_monitordescriptorset_getnumdescriptors">pfnGetNumDescriptors</a>
 
 
 
-<a href="https://msdn.microsoft.com/8debdd01-c4e4-4b7c-b4cd-c1143ea7ebaa">pfnReleaseDescriptorInfo</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_monitordescriptorset_releasedescriptorinfo">pfnReleaseDescriptorInfo</a>
  
 
  

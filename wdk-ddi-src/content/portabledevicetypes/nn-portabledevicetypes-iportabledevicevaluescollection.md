@@ -55,7 +55,7 @@ Holds a collection of indexed <b>IPortableDeviceValues</b> interfaces. This inte
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortableDeviceValuesCollection</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IPortableDeviceValuesCollection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortableDeviceValuesCollection</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPortableDeviceValuesCollection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IPortableDeviceValuesCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938485">Add</a>
+<a href="https://docs.microsoft.com/windows-hardware/test/wpt/add">Add</a>
 </td>
 <td align="left" width="63%">
 Adds an item to the collection.
@@ -79,7 +79,7 @@ Adds an item to the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406339">Clear</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">Clear</a>
 </td>
 <td align="left" width="63%">
 Deletes all items from the collection.
@@ -88,7 +88,7 @@ Deletes all items from the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406567">GetAt</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/radio/hh406567(v=vs.85)">GetAt</a>
 </td>
 <td align="left" width="63%">
 Retrieves an item from the collection by a zero-based index.
@@ -97,7 +97,7 @@ Retrieves an item from the collection by a zero-based index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597609">GetCount</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portabledevicetypes/nf-portabledevicetypes-iportabledevicevalues-getcount">GetCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of items in the collection.
@@ -112,7 +112,7 @@ Retrieves the number of items in the collection.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597553">Collection Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff597553(v=vs.85)">Collection Interfaces</a>
  
 
  

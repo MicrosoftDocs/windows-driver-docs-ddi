@@ -48,7 +48,7 @@ req.typenames:
 ## -description
 
 
-The <b>GetModuleParameters</b> method returns parameters for <a href="https://msdn.microsoft.com/library/windows/hardware/ff552231">modules</a> in the target.
+The <b>GetModuleParameters</b> method returns parameters for <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/modules">modules</a> in the target.
 
 
 ## -parameters
@@ -73,14 +73,14 @@ Specifies the index of the first module whose parameters are desired.  If <i>Bas
 
 ### -param Params [out]
 
-Receives the parameters.  The size of this array is the value of <i>Count</i>.  See <a href="https://msdn.microsoft.com/library/windows/hardware/ff541514">DEBUG_MODULE_PARAMETERS</a>.
+Receives the parameters.  The size of this array is the value of <i>Count</i>.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/ns-dbgeng-_debug_module_parameters">DEBUG_MODULE_PARAMETERS</a>.
 
 
 ## -returns
 
 
 
-This method may also return other error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+This method may also return other error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 <table>
 <tr>
@@ -119,9 +119,9 @@ When <i>Bases</i> is <b>NULL</b>, this value indicates that the target contains 
 
 
 
-In the cases when partial results are returned, the entries in the array <i>Params</i> corresponding to modules that could not be found have their <b>Base</b> field set to DEBUG_INVALID_OFFSET.  See <a href="https://msdn.microsoft.com/library/windows/hardware/ff541514">DEBUG_MODULE_PARAMETERS</a>.
+In the cases when partial results are returned, the entries in the array <i>Params</i> corresponding to modules that could not be found have their <b>Base</b> field set to DEBUG_INVALID_OFFSET.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/ns-dbgeng-_debug_module_parameters">DEBUG_MODULE_PARAMETERS</a>.
 
-For more information about modules, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552231">Modules</a>.
+For more information about modules, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/modules">Modules</a>.
 
 
 
@@ -131,19 +131,19 @@ For more information about modules, see <a href="https://msdn.microsoft.com/libr
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541514">DEBUG_MODULE_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/ns-dbgeng-_debug_module_parameters">DEBUG_MODULE_PARAMETERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550856">IDebugSymbols</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugsymbols">IDebugSymbols</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550864">IDebugSymbols2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugsymbols2">IDebugSymbols2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550870">IDebugSymbols3</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugsymbols3">IDebugSymbols3</a>
  
 
  

@@ -56,7 +56,7 @@ The <b>NDIS_NDK_STATISTICS_INFO</b> structure contains the NDK statistics.
 
 ### -field Header
 
-An <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure that describes this <b>NDIS_NDK_STATISTICS_INFO</b> structure. Set the members of the <b>NDIS_OBJECT_HEADER</b> structure as follows:
+An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure that describes this <b>NDIS_NDK_STATISTICS_INFO</b> structure. Set the members of the <b>NDIS_OBJECT_HEADER</b> structure as follows:
 
 <ul>
 <li>Set the <b>Type</b> member to <b>NDIS_OBJECT_TYPE_DEFAULT</b>.</li>
@@ -71,18 +71,18 @@ An <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_O
 
 ### -field CounterSet
 
-An <a href="https://msdn.microsoft.com/library/windows/hardware/hh451565">NDIS_NDK_PERFORMANCE_COUNTERS</a> structure that contains the NDK performance counters.
+An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_ndk_performance_counters">NDIS_NDK_PERFORMANCE_COUNTERS</a> structure that contains the NDK performance counters.
 
 
 ## -remarks
 
 
 
-The <b>NDIS_NDK_STATISTICS_INFO</b> structure is returned with the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451813">OID_NDK_STATISTICS</a> OID. The <b>InformationBuffer</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a> structure contains a pointer to this structure.
+The <b>NDIS_NDK_STATISTICS_INFO</b> structure is returned with the <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-ndk-statistics">OID_NDK_STATISTICS</a> OID. The <b>InformationBuffer</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structure contains a pointer to this structure.
 
 
 
-The NDK-capable miniport driver is required to fill in the <b>CounterSet</b> member, which is an <a href="https://msdn.microsoft.com/library/windows/hardware/hh451565">NDIS_NDK_PERFORMANCE_COUNTERS</a> structure.
+The NDK-capable miniport driver is required to fill in the <b>CounterSet</b> member, which is an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_ndk_performance_counters">NDIS_NDK_PERFORMANCE_COUNTERS</a> structure.
 
 
 
@@ -92,15 +92,15 @@ The NDK-capable miniport driver is required to fill in the <b>CounterSet</b> mem
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451565">NDIS_NDK_PERFORMANCE_COUNTERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_ndk_performance_counters">NDIS_NDK_PERFORMANCE_COUNTERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451813">OID_NDK_STATISTICS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-ndk-statistics">OID_NDK_STATISTICS</a>
  
 
  

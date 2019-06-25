@@ -58,7 +58,7 @@ The WSK_CLIENT_LISTEN_DISPATCH structure specifies a WSK application's dispatch 
 ### -field WskAcceptEvent
 
 A pointer to the WSK application's 
-     <a href="https://msdn.microsoft.com/672440f0-810a-4e68-82a5-d038770898c5">WskAcceptEvent</a> event callback function for
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_accept_event">WskAcceptEvent</a> event callback function for
      the socket. If the WSK application does not enable the 
      <i>WskAcceptEvent</i> event callback function for the socket, this pointer can be <b>NULL</b>.
 
@@ -66,7 +66,7 @@ A pointer to the WSK application's
 ### -field WskInspectEvent
 
 A pointer to the WSK application's 
-     <a href="https://msdn.microsoft.com/40f184ac-4ef3-485a-a529-71c1f2716427">WskInspectEvent</a> event callback function
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_inspect_event">WskInspectEvent</a> event callback function
      for the socket. If the WSK application does not enable conditional accept mode for the socket, this
      pointer can be <b>NULL</b>.
 
@@ -74,7 +74,7 @@ A pointer to the WSK application's
 ### -field WskAbortEvent
 
 A pointer to the WSK application's 
-     <a href="https://msdn.microsoft.com/50e0ef5d-0577-4b5c-b541-fc78079a953c">WskAbortEvent</a> event callback function for
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_abort_event">WskAbortEvent</a> event callback function for
      the socket. If the WSK application does not enable conditional accept mode for the socket, this pointer
      can be <b>NULL</b>.
 
@@ -85,7 +85,7 @@ A pointer to the WSK application's
 
 A WSK application passes a pointer to a WSK_CLIENT_LISTEN_DISPATCH structure to the WSK subsystem when
     the WSK application calls the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff571149">WskSocket</a> function to create a listening
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_socket">WskSocket</a> function to create a listening
     socket.
 
 
@@ -96,23 +96,23 @@ A WSK application passes a pointer to a WSK_CLIENT_LISTEN_DISPATCH structure to 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571176">WSK_PROVIDER_LISTEN_DISPATCH</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/ns-wsk-_wsk_provider_listen_dispatch">WSK_PROVIDER_LISTEN_DISPATCH</a>
 
 
 
-<a href="https://msdn.microsoft.com/50e0ef5d-0577-4b5c-b541-fc78079a953c">WskAbortEvent</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_abort_event">WskAbortEvent</a>
 
 
 
-<a href="https://msdn.microsoft.com/672440f0-810a-4e68-82a5-d038770898c5">WskAcceptEvent</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_accept_event">WskAcceptEvent</a>
 
 
 
-<a href="https://msdn.microsoft.com/40f184ac-4ef3-485a-a529-71c1f2716427">WskInspectEvent</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_inspect_event">WskInspectEvent</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571149">WskSocket</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_socket">WskSocket</a>
  
 
  

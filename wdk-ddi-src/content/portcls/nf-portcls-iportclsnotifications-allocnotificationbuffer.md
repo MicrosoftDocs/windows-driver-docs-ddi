@@ -49,7 +49,7 @@ req.typenames:
 
 Allocates a buffer of the specified size, in the specified memory pool, for use in sending notifications, to allow for communications between audio modules and UWP apps. 
 
-For more information about audio modules, see <a href="https://msdn.microsoft.com/windows/hardware/drivers/audio/implementing-audio-module-communication">Implementing Audio Module Discovery</a>. 
+For more information about audio modules, see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/implementing-audio-module-communication">Implementing Audio Module Discovery</a>. 
 
 
 ## -parameters
@@ -59,7 +59,7 @@ For more information about audio modules, see <a href="https://msdn.microsoft.co
 
 ### -param PoolType [in]
 
-Specifies the type of memory pool from which the object is to be allocated (see <a href="https://msdn.microsoft.com/library/windows/hardware/ff559707">POOL_TYPE</a>). The recommended values are NonPagedPoolNx or PagedPool. The memory pool type selection also depends on the IRQL level. If running at DISPATCH_LEVEL the memory must be non-paged.
+Specifies the type of memory pool from which the object is to be allocated (see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_pool_type">POOL_TYPE</a>). The recommended values are NonPagedPoolNx or PagedPool. The memory pool type selection also depends on the IRQL level. If running at DISPATCH_LEVEL the memory must be non-paged.
 
 
 ### -param NumberOfBytes [in]
@@ -69,7 +69,7 @@ Number of bytes to allocate.
 
 ### -param NotificationBuffer [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/EEE091E4-29D1-4C6F-B543-C54736660CCA">PCNOTIFICATION_BUFFER</a> which the method writes the address of the allocated notification.
+Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/ns-portcls-_pcnotification_buffer">PCNOTIFICATION_BUFFER</a> which the method writes the address of the allocated notification.
 
 
 ## -returns
@@ -105,7 +105,7 @@ Callers of <b>AllocNotificationBuffer</b> must be running at IRQL <= DISPATCH_LE
 
 
 
-<a href="https://msdn.microsoft.com/03F65E4E-C942-4748-8D3E-938A6AC51B2A">IPortClsNotifications</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iportclsnotifications">IPortClsNotifications</a>
  
 
  

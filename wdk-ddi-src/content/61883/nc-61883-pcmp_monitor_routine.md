@@ -56,7 +56,7 @@ This routine is called for plug monitoring.
 
 ### -param MonitorInfo [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff537050">CMP_MONITOR_INFO</a> structure containing the contents of the plug that was modified. 
+Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/61883/ns-61883-_cmp_monitor_info">CMP_MONITOR_INFO</a> structure containing the contents of the plug that was modified. 
 
 
 ## -returns
@@ -73,7 +73,7 @@ This callback does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537008">AV_61883_REQUEST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/61883/ns-61883-_av_61883_request">AV_61883_REQUEST</a>
  
 
  

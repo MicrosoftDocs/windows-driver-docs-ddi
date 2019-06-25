@@ -65,7 +65,7 @@ Retrieves an item from the collection by a zero-based index.
 
 ### -param ppValues [out]
 
-Address of a variable that receives a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff597597">IPortableDeviceValues</a> interface from the collection. The caller is responsible for calling <b>Release</b> on this interface when done with it.
+Address of a variable that receives a pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portabledevicetypes/nn-portabledevicetypes-iportabledevicevalues">IPortableDeviceValues</a> interface from the collection. The caller is responsible for calling <b>Release</b> on this interface when done with it.
 
 
 ## -returns
@@ -143,7 +143,7 @@ Any changes that are made to values in the retrieved interface will be made to t
 
 
 
-<a href="https://msdn.microsoft.com/f6115732-00d2-48db-9087-6e33a769ca4b">IPortableDeviceValuesCollection Interface</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portabledevicetypes/nn-portabledevicetypes-iportabledevicevaluescollection">IPortableDeviceValuesCollection Interface</a>
  
 
  

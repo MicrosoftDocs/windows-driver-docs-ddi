@@ -84,11 +84,11 @@ Member of the union in KSM_BDA_PIN_PAIR that contains the value that specifies t
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556544">BDA_PIN_PAIRING</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bdasup/ns-bdasup-_bda_pin_pairing">BDA_PIN_PAIRING</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563398">KSMETHOD</a>
+<a href="https://docs.microsoft.com/previous-versions/ff563398(v=vs.85)">KSMETHOD</a>
  
 
  

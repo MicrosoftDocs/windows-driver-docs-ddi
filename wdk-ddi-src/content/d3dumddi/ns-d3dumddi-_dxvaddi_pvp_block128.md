@@ -64,15 +64,15 @@ The DXVADDI_PVP_KEY128 structure contains a 128-bit key that the decode device u
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542987">D3DDDIARG_DECODEBEGINFRAME</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_decodebeginframe">D3DDDIARG_DECODEBEGINFRAME</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562925">DXVADDI_PVP_SETKEY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_dxvaddi_pvp_setkey">DXVADDI_PVP_SETKEY</a>
 
 
 
-<a href="https://msdn.microsoft.com/3e6153aa-7b21-429d-8908-1ff3a4d25e17">DecodeBeginFrame</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_decodebeginframe">DecodeBeginFrame</a>
  
 
  

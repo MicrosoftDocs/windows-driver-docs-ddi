@@ -72,7 +72,7 @@ Pointer to the thread to be checked.
 
 
 
-For more information about using system threads and managing synchronization within a nonarbitrary thread context, see <a href="https://msdn.microsoft.com/fbd8aadd-5a24-48c9-9865-80cc7dc97316">Driver Threads, Dispatcher Objects, and Resources</a>. 
+For more information about using system threads and managing synchronization within a nonarbitrary thread context, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">Driver Threads, Dispatcher Objects, and Resources</a>. 
 
 
 
@@ -82,11 +82,11 @@ For more information about using system threads and managing synchronization wit
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548455">IoIsSystemThread</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-ioissystemthread">IoIsSystemThread</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559936">PsGetCurrentThread</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-psgetcurrentthread">PsGetCurrentThread</a>
  
 
  

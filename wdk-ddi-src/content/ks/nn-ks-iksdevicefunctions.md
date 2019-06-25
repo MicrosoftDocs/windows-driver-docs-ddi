@@ -51,7 +51,7 @@ The IKsDeviceFunctions interface is a COM-style interface implemented on AVStrea
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsDeviceFunctions</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IKsDeviceFunctions</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsDeviceFunctions</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IKsDeviceFunctions</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -66,10 +66,10 @@ The <b>IKsDeviceFunctions</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e5dc54a6-e26a-455b-9990-92f5cfece923">RegisterAdapterObjectEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-iksdevicefunctions-registeradapterobjectex">RegisterAdapterObjectEx</a>
 </td>
 <td align="left" width="63%">
-Registers a DMA adapter object with AVStream. All drivers compiled for Win64 should use this method instead of <a href="https://msdn.microsoft.com/library/windows/hardware/ff561687">KsDeviceRegisterAdapterObject</a>.
+Registers a DMA adapter object with AVStream. All drivers compiled for Win64 should use this method instead of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksdeviceregisteradapterobject">KsDeviceRegisterAdapterObject</a>.
 
 </td>
 </tr>

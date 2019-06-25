@@ -66,7 +66,7 @@ Version number.
 
 ### -field CertAction
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/dn925225">GNSS_SUPL_CERT_ACTION</a> enumeration value that specifies the action to take on the certificate.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/gnssdriver/ne-gnssdriver-gnss_supl_cert_action">GNSS_SUPL_CERT_ACTION</a> enumeration value that specifies the action to take on the certificate.
 
 <table></table>
  

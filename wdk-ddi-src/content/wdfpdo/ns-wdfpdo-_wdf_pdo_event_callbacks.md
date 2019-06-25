@@ -63,46 +63,46 @@ The size, in bytes, of this structure.
 
 ### -field EvtDeviceResourcesQuery
 
-A pointer to the driver's <a href="https://msdn.microsoft.com/3210b28b-cbaa-4ad9-9ca8-3b5f03aee41e">EvtDeviceResourcesQuery</a> event callback function, or <b>NULL</b>.
+A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfpdo/nc-wdfpdo-evt_wdf_device_resources_query">EvtDeviceResourcesQuery</a> event callback function, or <b>NULL</b>.
 
 
 ### -field EvtDeviceResourceRequirementsQuery
 
-A pointer to the driver's <a href="https://msdn.microsoft.com/bacd7e7c-9f71-4dda-98ed-a8d813360943">EvtDeviceResourceRequirementsQuery</a> event callback function, or <b>NULL</b>.
+A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfpdo/nc-wdfpdo-evt_wdf_device_resource_requirements_query">EvtDeviceResourceRequirementsQuery</a> event callback function, or <b>NULL</b>.
 
 
 ### -field EvtDeviceEject
 
-A pointer to the driver's <a href="https://msdn.microsoft.com/fc3f3a15-9a79-4275-9ba4-b01ab8851390">EvtDeviceEject</a> event callback function, or <b>NULL</b>.
+A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfpdo/nc-wdfpdo-evt_wdf_device_eject">EvtDeviceEject</a> event callback function, or <b>NULL</b>.
 
 
 ### -field EvtDeviceSetLock
 
-A pointer to the driver's <a href="https://msdn.microsoft.com/2ac42710-9f44-4982-a0d9-c49048870aeb">EvtDeviceSetLock</a> event callback function, or <b>NULL</b>.
+A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfpdo/nc-wdfpdo-evt_wdf_device_set_lock">EvtDeviceSetLock</a> event callback function, or <b>NULL</b>.
 
 
 ### -field EvtDeviceEnableWakeAtBus
 
-A pointer to the driver's <a href="https://msdn.microsoft.com/902c9bdc-d83a-4bc2-802c-1aaba43c9e2e">EvtDeviceEnableWakeAtBus</a> event callback function, or <b>NULL</b>.
+A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfpdo/nc-wdfpdo-evt_wdf_device_enable_wake_at_bus">EvtDeviceEnableWakeAtBus</a> event callback function, or <b>NULL</b>.
 
 
 ### -field EvtDeviceDisableWakeAtBus
 
-A pointer to the driver's <a href="https://msdn.microsoft.com/91ae9694-5020-42ee-b882-a753e9bbe919">EvtDeviceDisableWakeAtBus</a> event callback function, or <b>NULL</b>.
+A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfpdo/nc-wdfpdo-evt_wdf_device_disable_wake_at_bus">EvtDeviceDisableWakeAtBus</a> event callback function, or <b>NULL</b>.
 
 
 ### -field EvtDeviceReportedMissing
 
-A pointer to the driver's <a href="https://msdn.microsoft.com/F64E2FFD-229F-4447-94C2-A5403E7893B7">EvtDeviceReportedMissing</a> event callback function, or <b>NULL</b>. The <b>EvtDeviceReportedMissing</b> member is available in version 1.11 and later versions of KMDF.
+A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfpdo/nc-wdfpdo-evt_wdf_device_reported_missing">EvtDeviceReportedMissing</a> event callback function, or <b>NULL</b>. The <b>EvtDeviceReportedMissing</b> member is available in version 1.11 and later versions of KMDF.
 
 
 ## -remarks
 
 
 
-The <b>WDF_PDO_EVENT_CALLBACKS</b> structure is used as input to <a href="https://msdn.microsoft.com/library/windows/hardware/ff548805">WdfPdoInitSetEventCallbacks</a>.
+The <b>WDF_PDO_EVENT_CALLBACKS</b> structure is used as input to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfpdo/nf-wdfpdo-wdfpdoinitseteventcallbacks">WdfPdoInitSetEventCallbacks</a>.
 
-Drivers must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff552413">WDF_PDO_EVENT_CALLBACKS_INIT</a> to initialize this structure.
+Drivers must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfpdo/nf-wdfpdo-wdf_pdo_event_callbacks_init">WDF_PDO_EVENT_CALLBACKS_INIT</a> to initialize this structure.
 
 
 
@@ -112,19 +112,19 @@ Drivers must call <a href="https://msdn.microsoft.com/library/windows/hardware/f
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551311">WDF_FDO_EVENT_CALLBACKS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdffdo/ns-wdffdo-_wdf_fdo_event_callbacks">WDF_FDO_EVENT_CALLBACKS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552413">WDF_PDO_EVENT_CALLBACKS_INIT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfpdo/nf-wdfpdo-wdf_pdo_event_callbacks_init">WDF_PDO_EVENT_CALLBACKS_INIT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547268">WdfFdoInitSetEventCallbacks</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdffdo/nf-wdffdo-wdffdoinitseteventcallbacks">WdfFdoInitSetEventCallbacks</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548805">WdfPdoInitSetEventCallbacks</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfpdo/nf-wdfpdo-wdfpdoinitseteventcallbacks">WdfPdoInitSetEventCallbacks</a>
  
 
  

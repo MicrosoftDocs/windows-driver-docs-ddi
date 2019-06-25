@@ -46,7 +46,7 @@ req.typenames: DXGK_PRESENTMULTIPLANEOVERLAYLIST
 ## -description
 
 
-Specifies an overlay plane to display in a call to the <a href="https://msdn.microsoft.com/1a46b129-1e78-44e6-a609-59eab206692b">DxgkDdiPresent</a> function.
+Specifies an overlay plane to display in a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_present">DxgkDdiPresent</a> function.
 
 
 ## -struct-fields
@@ -89,7 +89,7 @@ This member is reserved and should be set to zero.
 
 
 
-<a href="https://msdn.microsoft.com/1a46b129-1e78-44e6-a609-59eab206692b">DxgkDdiPresent</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_present">DxgkDdiPresent</a>
  
 
  

@@ -46,7 +46,7 @@ req.typenames: D3D10_1DDIARG_TEXCUBE_SHADERRESOURCEVIEW
 ## -description
 
 
-The D3D10_1DDIARG_TEXCUBE_SHADERRESOURCEVIEW structure describes cube textures that are used to create a shader resource view in a call to the <a href="https://msdn.microsoft.com/7a0a92d2-a5df-4bee-a950-8a89aeb3dbb8">CreateShaderResourceView(D3D10_1)</a> function. 
+The D3D10_1DDIARG_TEXCUBE_SHADERRESOURCEVIEW structure describes cube textures that are used to create a shader resource view in a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d10_1ddi_createshaderresourceview">CreateShaderResourceView(D3D10_1)</a> function. 
 
 
 ## -struct-fields
@@ -78,7 +78,7 @@ The D3D10_1DDIARG_TEXCUBE_SHADERRESOURCEVIEW structure describes cube textures t
 
 
 
-The value in the <b>First2DArrayFace</b> member added with 6 multiplied by the number in the <b>NumCubes</b> member must be less than or equal to the value in the <b>ArraySize</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541697">D3D10DDIARG_CREATERESOURCE</a> structure for the shader resource whose view is created in a call to the driver's <a href="https://msdn.microsoft.com/7a0a92d2-a5df-4bee-a950-8a89aeb3dbb8">CreateShaderResourceView(D3D10_1)</a> function. That is, the following calculation applies:
+The value in the <b>First2DArrayFace</b> member added with 6 multiplied by the number in the <b>NumCubes</b> member must be less than or equal to the value in the <b>ArraySize</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ns-d3d10umddi-d3d10ddiarg_createresource">D3D10DDIARG_CREATERESOURCE</a> structure for the shader resource whose view is created in a call to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d10_1ddi_createshaderresourceview">CreateShaderResourceView(D3D10_1)</a> function. That is, the following calculation applies:
 
 ```cpp
 ::First2DArrayFace + 6 * ::NumCubes <= Resource ::ArraySize
@@ -91,19 +91,19 @@ The value in the <b>First2DArrayFace</b> member added with 6 multiplied by the n
 
 
 
-<a href="https://msdn.microsoft.com/310adb3e-1af4-430e-ba50-bd145ffda361">CalcPrivateShaderResourceViewSize(D3D10_1)</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d10_1ddi_calcprivateshaderresourceviewsize">CalcPrivateShaderResourceViewSize(D3D10_1)</a>
 
 
 
-<a href="https://msdn.microsoft.com/7a0a92d2-a5df-4bee-a950-8a89aeb3dbb8">CreateShaderResourceView(D3D10_1)</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d10_1ddi_createshaderresourceview">CreateShaderResourceView(D3D10_1)</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541697">D3D10DDIARG_CREATERESOURCE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ns-d3d10umddi-d3d10ddiarg_createresource">D3D10DDIARG_CREATERESOURCE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541861">D3D10_1DDIARG_CREATESHADERRESOURCEVIEW</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ns-d3d10umddi-d3d10_1ddiarg_createshaderresourceview">D3D10_1DDIARG_CREATESHADERRESOURCEVIEW</a>
  
 
  

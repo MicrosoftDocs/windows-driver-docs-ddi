@@ -56,12 +56,12 @@ The <i>Cancel</i> routine cancels an I/O operation.
 
 ### -param *DeviceObject [in, out]
 
-Caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a> structure. This is the device object for the target device, previously created by the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a> routine.
+Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure. This is the device object for the target device, previously created by the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-driver_add_device">AddDevice</a> routine.
 
 
 ### -param *Irp [in, out]
 
-Caller-supplied pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550694">IRP</a> structure that describes the I/O operation to be canceled.
+Caller-supplied pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_irp">IRP</a> structure that describes the I/O operation to be canceled.
 
 
 ## -returns
@@ -77,34 +77,34 @@ None
 
 
 
-When a driver or other system component calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff548338">IoCancelIrp</a>, the I/O manager calls the IRP's <i>Cancel</i> routine, if one has been registered for the IRP.
+When a driver or other system component calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iocancelirp">IoCancelIrp</a>, the I/O manager calls the IRP's <i>Cancel</i> routine, if one has been registered for the IRP.
 
 To register a <i>Cancel</i> routine for an IRP, a driver can use either of the following two methods:
 
 <ol>
 <li>
-A driver that provides a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563858">StartIo</a> routine and uses the I/O manager-supplied device queue can specify a <i>Cancel</i> routine when calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff550370">IoStartPacket</a>.
+A driver that provides a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-driver_startio">StartIo</a> routine and uses the I/O manager-supplied device queue can specify a <i>Cancel</i> routine when calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-iostartpacket">IoStartPacket</a>.
 
 </li>
 <li>
-A driver that creates and manages supplemental device queues can register a <i>Cancel</i> routine by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff549674">IoSetCancelRoutine</a>.
+A driver that creates and manages supplemental device queues can register a <i>Cancel</i> routine by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iosetcancelroutine">IoSetCancelRoutine</a>.
 
 </li>
 </ol>
 Only one <i>Cancel</i> routine can be registered for an IRP at one time. 
 
-The I/O manager calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff548196">IoAcquireCancelSpinLock</a> before calling a driver's <i>Cancel</i> routine, so the <i>Cancel</i> routine must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff549550">IoReleaseCancelSpinLock</a> at some point. The routine should not hold the spin lock longer than necessary.
+The I/O manager calls <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff548196(v=vs.85)">IoAcquireCancelSpinLock</a> before calling a driver's <i>Cancel</i> routine, so the <i>Cancel</i> routine must call <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff549550(v=vs.85)">IoReleaseCancelSpinLock</a> at some point. The routine should not hold the spin lock longer than necessary.
 
 The <i>Cancel</i> routine executes in an arbitrary thread context at IRQL = DISPATCH_LEVEL until it calls <b>IoReleaseCancelSpinLock</b>, which changes the IRQL to a caller-supplied value. The driver should specify <b>Irp->CancelIrql</b> for this value.
 
-The <i>Cancel</i> routine must set the I/O status block's <b>Status</b> member to STATUS_CANCELLED, and set its <b>Information</b> member to zero. The routine must then complete the specified IRP by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff548343">IoCompleteRequest</a>.
+The <i>Cancel</i> routine must set the I/O status block's <b>Status</b> member to STATUS_CANCELLED, and set its <b>Information</b> member to zero. The routine must then complete the specified IRP by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iocompleterequest">IoCompleteRequest</a>.
 
-For detailed information about implementing a driver's <i>Cancel</i> routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540748">Canceling IRPs</a>.
+For detailed information about implementing a driver's <i>Cancel</i> routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/canceling-irps">Canceling IRPs</a>.
 
 
 #### Examples
 
-To define a <i>Cancel</i> callback routine, you must first provide a function declaration that identifies the type of callback routine you're defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
+To define a <i>Cancel</i> callback routine, you must first provide a function declaration that identifies the type of callback routine you're defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/code-analysis-for-drivers">Code Analysis for Drivers</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
 
 For example, to define a <i>Cancel</i> callback routine that is named <code>MyCancel</code>, use the DRIVER_CANCEL type as shown in this code example:
 
@@ -138,7 +138,7 @@ VOID
 </td>
 </tr>
 </table></span></div>
-The DRIVER_CANCEL function type is defined in the Wdm.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the DRIVER_CANCEL function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/3260b53e-82be-4dbc-8ac5-d0e52de77f9d">Declaring Functions by Using Function Role Types for WDM Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
+The DRIVER_CANCEL function type is defined in the Wdm.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the DRIVER_CANCEL function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-using-function-role-types-for-wdm-drivers">Declaring Functions by Using Function Role Types for WDM Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 <div class="code"></div>
 

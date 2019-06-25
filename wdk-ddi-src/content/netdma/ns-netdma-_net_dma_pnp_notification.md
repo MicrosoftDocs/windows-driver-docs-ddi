@@ -72,7 +72,7 @@ The size, in bytes, of the notification structure. This size does not include th
 ### -field NotificationCode
 
 A value that identifies the DMA provider event. This value must be one of the values from the 
-     <a href="https://msdn.microsoft.com/1c9c09ae-5b7a-4482-8f6b-1ad5ede5b3f5">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdma/ne-netdma-_net_dma_pnp_notification_code">
      NET_DMA_PNP_NOTIFICATION_CODE</a> enumeration.
 
 
@@ -97,7 +97,7 @@ The length, in bytes, of the notification-specific data at the
 
 
 To send a power management notification to the NetDMA interface, NetDMA provider drivers call the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568332">NetDmaPnPEventNotify</a> function and
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdma/nf-netdma-netdmapnpeventnotify">NetDmaPnPEventNotify</a> function and
     provide a pointer to a NET_DMA_PNP_NOTIFICATION structure at the 
     <i>PnPEvent</i> parameter.
 
@@ -109,11 +109,11 @@ To send a power management notification to the NetDMA interface, NetDMA provider
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568736">NET_DMA_PNP_NOTIFICATION_CODE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdma/ne-netdma-_net_dma_pnp_notification_code">NET_DMA_PNP_NOTIFICATION_CODE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568332">NetDmaPnPEventNotify</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdma/nf-netdma-netdmapnpeventnotify">NetDmaPnPEventNotify</a>
  
 
  

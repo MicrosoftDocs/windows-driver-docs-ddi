@@ -56,7 +56,7 @@ The DXVA_BlendCombination structure is sent by the host decoder to the accelerat
 
 ### -field wPictureSourceIndex
 
-Specifies the uncompressed surface index, as defined by the contents of the DWORD pointed to by the <b>lpInputData</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff550469">DD_BEGINMOCOMPFRAMEDATA</a> in a prior call to <a href="https://msdn.microsoft.com/0038aedc-2e4f-4d89-878f-7f6f751015cc">DdMoCompBeginFrame</a>, of the picture to be combined with the graphic. This value is 0xFFFF if back-end hardware alpha blending is in use (when the <b>bConfigBlendType</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff563126">DXVA_ConfigAlphaCombine</a> is 1).
+Specifies the uncompressed surface index, as defined by the contents of the DWORD pointed to by the <b>lpInputData</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_beginmocompframedata">DD_BEGINMOCOMPFRAMEDATA</a> in a prior call to <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_mocompcb_beginframe">DdMoCompBeginFrame</a>, of the picture to be combined with the graphic. This value is 0xFFFF if back-end hardware alpha blending is in use (when the <b>bConfigBlendType</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ns-dxva-_dxva_configalphacombine">DXVA_ConfigAlphaCombine</a> is 1).
 
 
 ### -field wBlendedDestinationIndex
@@ -68,7 +68,7 @@ This value cannot be equal to <b>wPictureSourceIndex</b> unless back-end hardwar
 
 ### -field PictureSourceRect16thPel
 
-Specifies the area of the source picture to be combined with the graphic image as a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure. Dimensions are specified in units of one-sixteenth of the distance between sample values of the luminance component. (In other words, the members in the RECT structure are fixed-point representations that have 28 bits before the binary point and 4 bits after the binary point.) This one-sixteenth sample accuracy allows <b>PictureSourceRect16thPel</b> to contain the same accuracy as the <i>frame_centre_horizontal_offset</i> and <i>frame_centre_vertical_offset</i> pan-scan variables in MPEG-2 video.
+Specifies the area of the source picture to be combined with the graphic image as a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a> structure. Dimensions are specified in units of one-sixteenth of the distance between sample values of the luminance component. (In other words, the members in the RECT structure are fixed-point representations that have 28 bits before the binary point and 4 bits after the binary point.) This one-sixteenth sample accuracy allows <b>PictureSourceRect16thPel</b> to contain the same accuracy as the <i>frame_centre_horizontal_offset</i> and <i>frame_centre_vertical_offset</i> pan-scan variables in MPEG-2 video.
 
 If the <b>bConfigPictureResizing</b> member of DXVA_ConfigAlphaCombine is zero, all dimensions in <b>PictureSourceRect16thPel</b> must be integer multiples of 16.
 
@@ -77,24 +77,24 @@ If the <b>bConfigPictureResizing</b> member of DXVA_ConfigAlphaCombine is zero, 
 
 Specifies the area of the destination picture as a RECT structure. This will contain the area defined for the source picture by <b>PictureSourceRect16thPel</b>.
 
-If the <b>bConfigPictureResizing</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff563126">DXVA_ConfigAlphaCombine</a> is zero, the area specified by <b>PictureDestinationRect</b> must have the same width and height as the area specified by <b>PictureSourceRect16thPel</b>. If <b>PictureDestinationRect</b> differs in size from <b>PictureSourceRect16thPel</b>, the resampling method to be applied is not specified, but must have a quality that is at least equivalent to that of bilinear resampling.
+If the <b>bConfigPictureResizing</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ns-dxva-_dxva_configalphacombine">DXVA_ConfigAlphaCombine</a> is zero, the area specified by <b>PictureDestinationRect</b> must have the same width and height as the area specified by <b>PictureSourceRect16thPel</b>. If <b>PictureDestinationRect</b> differs in size from <b>PictureSourceRect16thPel</b>, the resampling method to be applied is not specified, but must have a quality that is at least equivalent to that of bilinear resampling.
 
 
 ### -field GraphicSourceRect
 
-Specifies the area of the source graphic image as a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure. This area is combined with the part of the source picture specified by <b>PictureSourceRect16thPel</b> to create the alpha-blended picture.
+Specifies the area of the source graphic image as a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a> structure. This area is combined with the part of the source picture specified by <b>PictureSourceRect16thPel</b> to create the alpha-blended picture.
 
 
 ### -field GraphicDestinationRect
 
-Specifies the area of the destination graphic image as a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure.
+Specifies the area of the destination graphic image as a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a> structure.
 
 If the <b>bConfigGraphicResizing</b> member of DXVA_ConfigAlphaCombine is zero, the destination picture must have the same width and height as the area specified by <b>GraphicSourceRect</b>. If <b>GraphicDestinationRect</b> differs in size from <b>GraphicSourceRect</b>, the resampling method to be applied to the graphic image is not specified. However, the resampling method used should have a quality that is at least equivalent to a bilinear resampling of an AYUV surface that represents the blending information.
 
 
 ### -field wBlendDelay
 
-Specifies the number of milliseconds of delay prior to the blending combination going into effect. If back-end hardware blending is in use (for example, if the <b>bConfigBlendType</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff563126">DXVA_ConfigAlphaCombine</a> is 1), <b>wBlendDelay</b> contains the number of milliseconds of delay prior to the blending combination going into effect. If front-end blending is in use, this member has no meaning and must be zero.
+Specifies the number of milliseconds of delay prior to the blending combination going into effect. If back-end hardware blending is in use (for example, if the <b>bConfigBlendType</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ns-dxva-_dxva_configalphacombine">DXVA_ConfigAlphaCombine</a> is 1), <b>wBlendDelay</b> contains the number of milliseconds of delay prior to the blending combination going into effect. If front-end blending is in use, this member has no meaning and must be zero.
 
 
 ### -field bBlendOn
@@ -104,12 +104,12 @@ Specifies when a blending combination operation starts and stops. If back-end ha
 
 ### -field bWholePlaneAlpha
 
-Contains an opacity multiplier for the alpha channel of the graphic image. The value zero indicates that the graphic image is transparent (so that the graphic content has no effect on the resulting blended picture). The value 255 indicates that the graphic image uses its full sample opacity. If <b>bWholePlaneAlpha</b> is not equal to zero, the blend specified is to multiply the opacity of each location in the graphic content by (<b>bWholePlaneAlpha</b>+1)/256. For a zero value of <b>bWholePlaneAlpha</b>, the blend to use is the opacity specified in the graphic image without alteration. This must be equal to 255 if the <b>bConfigWholePlaneAlpha</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff563126">DXVA_ConfigAlphaCombine</a> is zero.
+Contains an opacity multiplier for the alpha channel of the graphic image. The value zero indicates that the graphic image is transparent (so that the graphic content has no effect on the resulting blended picture). The value 255 indicates that the graphic image uses its full sample opacity. If <b>bWholePlaneAlpha</b> is not equal to zero, the blend specified is to multiply the opacity of each location in the graphic content by (<b>bWholePlaneAlpha</b>+1)/256. For a zero value of <b>bWholePlaneAlpha</b>, the blend to use is the opacity specified in the graphic image without alteration. This must be equal to 255 if the <b>bConfigWholePlaneAlpha</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ns-dxva-_dxva_configalphacombine">DXVA_ConfigAlphaCombine</a> is zero.
 
 
 ### -field OutsideYUVcolor
 
-Indicates whether areas outside of the <b>PictureDestinationRect</b> use a constant color for blending. If so, this member specifies that color constant. The <b>OutsideYUVcolor</b> member is defined as a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563116">DXVA_AYUVsample2</a> structure. See the <b>Remarks</b> section for more information.
+Indicates whether areas outside of the <b>PictureDestinationRect</b> use a constant color for blending. If so, this member specifies that color constant. The <b>OutsideYUVcolor</b> member is defined as a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ns-dxva-_dxva_ayuvsample2">DXVA_AYUVsample2</a> structure. See the <b>Remarks</b> section for more information.
 
 
 ## -remarks
@@ -122,7 +122,7 @@ The following sections show the restrictions placed on the <b>left</b>, <b>right
 
 <h3><a id="ddk_dxva_blendcombination_gg"></a><a id="DDK_DXVA_BLENDCOMBINATION_GG"></a></h3>
 <h3><a id="RECT_Structure_Restrictions_for_PictureSourceRect16thPel"></a><a id="rect_structure_restrictions_for_picturesourcerect16thpel"></a><a id="RECT_STRUCTURE_RESTRICTIONS_FOR_PICTURESOURCERECT16THPEL"></a>RECT Structure Restrictions for PictureSourceRect16thPel</h3>
-The following restrictions apply to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> dimensions of <b>PictureSourceRect16thPel</b>:
+The following restrictions apply to the <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a> dimensions of <b>PictureSourceRect16thPel</b>:
 
 <ul>
 <li>
@@ -134,7 +134,7 @@ The following restrictions apply to the <a href="https://msdn.microsoft.com/libr
 
 </li>
 <li>
-If <b>right</b> is equal to <b>left</b> or <b>top</b> is equal to <b>bottom</b>, all the RECT members must have the value zero indicating that the source picture is not used. This case is allowed only if the <b>bConfigOnlyUsePicDestRectArea</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff563126">DXVA_ConfigAlphaCombine</a> is zero.
+If <b>right</b> is equal to <b>left</b> or <b>top</b> is equal to <b>bottom</b>, all the RECT members must have the value zero indicating that the source picture is not used. This case is allowed only if the <b>bConfigOnlyUsePicDestRectArea</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ns-dxva-_dxva_configalphacombine">DXVA_ConfigAlphaCombine</a> is zero.
 
 </li>
 <li>
@@ -163,7 +163,7 @@ For example, if <b>PictureSourceRect16thPel</b> is used to select an entire MPEG
 </li>
 </ul>
 <h3><a id="RECT_Structure_Restrictions_for_PictureDestinationRect"></a><a id="rect_structure_restrictions_for_picturedestinationrect"></a><a id="RECT_STRUCTURE_RESTRICTIONS_FOR_PICTUREDESTINATIONRECT"></a>RECT Structure Restrictions for PictureDestinationRect</h3>
-The following restrictions apply to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> dimensions for <b>PictureDestinationRect</b>:
+The following restrictions apply to the <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a> dimensions for <b>PictureDestinationRect</b>:
 
 <ul>
 <li>
@@ -175,7 +175,7 @@ The following restrictions apply to the <a href="https://msdn.microsoft.com/libr
 
 </li>
 <li>
-If <b>right</b> is equal to <b>left</b> or <b>top</b> is equal to <b>bottom</b> (only allowed if the <b>bConfigOnlyUsePicDestRectArea</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff563126">DXVA_ConfigAlphaCombine</a> is zero), all of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> members must have the value zero and <b>PictureSourceRect16thPel</b> must also specify all values having the value zero.
+If <b>right</b> is equal to <b>left</b> or <b>top</b> is equal to <b>bottom</b> (only allowed if the <b>bConfigOnlyUsePicDestRectArea</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ns-dxva-_dxva_configalphacombine">DXVA_ConfigAlphaCombine</a> is zero), all of the <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a> members must have the value zero and <b>PictureSourceRect16thPel</b> must also specify all values having the value zero.
 
 </li>
 <li>
@@ -188,7 +188,7 @@ If the <b>bConfigBlendType</b> member of DXVA_ConfigAlphaCombine is 1, <b>right<
 </li>
 </ul>
 <h3><a id="RECT_Structure_Restrictions_for_GraphicSourceRect"></a><a id="rect_structure_restrictions_for_graphicsourcerect"></a><a id="RECT_STRUCTURE_RESTRICTIONS_FOR_GRAPHICSOURCERECT"></a>RECT Structure Restrictions for GraphicSourceRect</h3>
-If alpha-blend data loading uses the <b>bConfigDataType</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff563129">DXVA_ConfigAlphaLoad</a> with a value of 2, the following restrictions apply to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> dimensions of <b>GraphicSourceRect</b>:
+If alpha-blend data loading uses the <b>bConfigDataType</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ns-dxva-_dxva_configalphaload">DXVA_ConfigAlphaLoad</a> with a value of 2, the following restrictions apply to the <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a> dimensions of <b>GraphicSourceRect</b>:
 
 <ul>
 <li>
@@ -225,13 +225,13 @@ If <b>right</b> is equal to <b>left</b> or <b>top</b> is equal to <b>bottom</b>,
 </li>
 </ul>
 <h3><a id="RECT_Structure_Restrictions_for_GraphicDestinationRect"></a><a id="rect_structure_restrictions_for_graphicdestinationrect"></a><a id="RECT_STRUCTURE_RESTRICTIONS_FOR_GRAPHICDESTINATIONRECT"></a>RECT Structure Restrictions for GraphicDestinationRect</h3>
-The following restrictions apply to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> dimensions of <b>GraphicDestinationRect</b>:
+The following restrictions apply to the <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a> dimensions of <b>GraphicDestinationRect</b>:
 
 <ul>
 <li><b>left</b> and <b>top</b> must be greater than or equal to zero, unless this requirement conflicts with the need to offset the graphic by eight samples. This is the case in the following scenarios:<ul>
-<li>Alpha-blend data loading uses the <b>bConfigDataType</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff563126">DXVA_ConfigAlphaCombine</a> with a value of 2 and the <b>bConfigGraphicResizing</b> member of DXVA_ConfigAlphaCombine with a value of zero.</li>
-<li>Operation is set for DVD 704-Wide Non-Pan-Scan (see <a href="https://msdn.microsoft.com/df335e5e-4f7c-440a-88ef-00f6e0f916e2">DVD 704-Wide Non-Pan-Scan Example</a>).</li>
-<li>Operation is set for DVD 352-wide (see <a href="https://msdn.microsoft.com/22047c8e-30e3-4204-9f7d-b8b97be668ae">DVD 352-Wide Example</a>).</li>
+<li>Alpha-blend data loading uses the <b>bConfigDataType</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ns-dxva-_dxva_configalphacombine">DXVA_ConfigAlphaCombine</a> with a value of 2 and the <b>bConfigGraphicResizing</b> member of DXVA_ConfigAlphaCombine with a value of zero.</li>
+<li>Operation is set for DVD 704-Wide Non-Pan-Scan (see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/dvd-704-wide-non-pan-scan-example">DVD 704-Wide Non-Pan-Scan Example</a>).</li>
+<li>Operation is set for DVD 352-wide (see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/dvd-352-wide-example">DVD 352-Wide Example</a>).</li>
 </ul>
 </li>
 <li>
@@ -239,7 +239,7 @@ The following restrictions apply to the <a href="https://msdn.microsoft.com/libr
 
 </li>
 <li>
-If the <b>bConfigBlendType</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff563126">DXVA_ConfigAlphaCombine</a> equals zero, <b>right</b> and <b>bottom</b> must not exceed the allocated width and height, respectively, of the uncompressed destination picture surface.
+If the <b>bConfigBlendType</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ns-dxva-_dxva_configalphacombine">DXVA_ConfigAlphaCombine</a> equals zero, <b>right</b> and <b>bottom</b> must not exceed the allocated width and height, respectively, of the uncompressed destination picture surface.
 
 </li>
 <li>
@@ -255,7 +255,7 @@ If alpha-blend data loading uses the <b>bConfigDataType</b> member of DXVA_Confi
 
 </li>
 <li>
-<b>left</b> must be equal to either the Start X-coordinate of the last preceding DVD SET_DAREA DCCMD or to that value minus 8. For more information, see <a href="https://msdn.microsoft.com/df335e5e-4f7c-440a-88ef-00f6e0f916e2">DVD 704-Wide Non-Pan-Scan Example</a> and <a href="https://msdn.microsoft.com/22047c8e-30e3-4204-9f7d-b8b97be668ae">DVD 352-Wide Example</a>.
+<b>left</b> must be equal to either the Start X-coordinate of the last preceding DVD SET_DAREA DCCMD or to that value minus 8. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/dvd-704-wide-non-pan-scan-example">DVD 704-Wide Non-Pan-Scan Example</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/display/dvd-352-wide-example">DVD 352-Wide Example</a>.
 
 </li>
 <li>
@@ -279,7 +279,7 @@ The value of <b>OutsideYUVcolor.bSampleAlpha8</b> must be 255 if the areas outsi
 </li>
 <li>The value of <b>OutsideYUVcolor.bSampleAlpha8</b> must be zero if either of the following two cases applies:<ul>
 <li>The areas outside of the <b>PictureDestinationRect</b> are unaffected by the blend.</li>
-<li>The areas outside of the <b>PictureDestinationRect</b> cannot be used (as indicated by the <b>bConfigStayInPicDestRectArea</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff563126">DXVA_ConfigAlphaCombine</a> having a value of 1).</li>
+<li>The areas outside of the <b>PictureDestinationRect</b> cannot be used (as indicated by the <b>bConfigStayInPicDestRectArea</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ns-dxva-_dxva_configalphacombine">DXVA_ConfigAlphaCombine</a> having a value of 1).</li>
 </ul>
 </li>
 </ul>
@@ -289,7 +289,7 @@ The value of <b>OutsideYUVcolor.bSampleAlpha8</b> must be zero if the <b>bConfig
 
 If <b>OutsideYUVcolor.bSampleAlpha8</b> is zero, the only area of the destination surface that is affected by the blend is the part within the <b>PictureDestinationRect</b>.
 
-If <b>OutsideYUVcolor.bSampleAlpha8</b> is 255, any area of the destination surface that is outside of <b>PictureDestinationRect</b> but within <b>GraphicDestinationRect</b>, is generated by blending the graphic with the color specified in the nonalpha members of <b>OutsideYUVcolor</b>. In this case, the entire allocated area of the destination surface that falls outside of both <b>PictureDestinationRect</b> and <b>GraphicDestinationRect</b> is set to the color specified in the nonalpha members of <b>OutsideYUVcolor</b>. If the <b>bConfigBlendType</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563126">DXVA_ConfigAlphaCombine</a> structure is 1, the <b>OutsideYUVcolor</b> members are set to indicate blending with black by specifying <b>bSampleAlpha8</b> = 255, <b>bY_Value</b> = 16, and <b>bCbValue</b> = <b>bCrValue</b> = 128.
+If <b>OutsideYUVcolor.bSampleAlpha8</b> is 255, any area of the destination surface that is outside of <b>PictureDestinationRect</b> but within <b>GraphicDestinationRect</b>, is generated by blending the graphic with the color specified in the nonalpha members of <b>OutsideYUVcolor</b>. In this case, the entire allocated area of the destination surface that falls outside of both <b>PictureDestinationRect</b> and <b>GraphicDestinationRect</b> is set to the color specified in the nonalpha members of <b>OutsideYUVcolor</b>. If the <b>bConfigBlendType</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ns-dxva-_dxva_configalphacombine">DXVA_ConfigAlphaCombine</a> structure is 1, the <b>OutsideYUVcolor</b> members are set to indicate blending with black by specifying <b>bSampleAlpha8</b> = 255, <b>bY_Value</b> = 16, and <b>bCbValue</b> = <b>bCrValue</b> = 128.
 
 When the <b>bConfigBlendType</b> member of the DXVA_ConfigAlphaCombine structure is 1  (back-end hardware blend), blending operations may differ somewhat from those described in this reference. Some resizing parameters used to map a video picture from a source picture to a destination picture size may be applied in a modified manner to map the graphic image to its proper location relative to the source picture. However, the blended result will be equivalent to the blended result obtained by the alpha-blend combination commands in this reference.
 
@@ -301,23 +301,23 @@ When the <b>bConfigBlendType</b> member of the DXVA_ConfigAlphaCombine structure
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550469">DD_BEGINMOCOMPFRAMEDATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_beginmocompframedata">DD_BEGINMOCOMPFRAMEDATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563116">DXVA_AYUVsample2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ns-dxva-_dxva_ayuvsample2">DXVA_AYUVsample2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563126">DXVA_ConfigAlphaCombine</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ns-dxva-_dxva_configalphacombine">DXVA_ConfigAlphaCombine</a>
 
 
 
-<a href="https://msdn.microsoft.com/0038aedc-2e4f-4d89-878f-7f6f751015cc">DdMoCompBeginFrame</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_mocompcb_beginframe">DdMoCompBeginFrame</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a>
  
 
  

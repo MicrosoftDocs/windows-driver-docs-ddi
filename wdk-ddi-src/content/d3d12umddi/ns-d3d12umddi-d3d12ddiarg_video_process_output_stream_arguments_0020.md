@@ -61,7 +61,7 @@ The output surfaces for the video process command.  If stereo output is enabled,
 
 ### -field AlphaFillMode
 
-The alpha fill mode for data that the video processor writes to the render target.  For more information, see <a href="https://msdn.microsoft.com/74F07876-5502-4B57-9128-624F6066AF5B">D3D12DDI_VIDEO_PROCESS_ALPHA_FILL_MODE</a> enumeration. 
+The alpha fill mode for data that the video processor writes to the render target.  For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d12umddi/ne-d3d12umddi-d3d12ddi_video_process_alpha_fill_mode_0020">D3D12DDI_VIDEO_PROCESS_ALPHA_FILL_MODE</a> enumeration. 
 
 
 ### -field AlphaFillModeSourceStreamIndex
@@ -93,7 +93,7 @@ If true, stereo output is enabled. If false, the video processor produces mono v
 
 ### -field ColorSpace
 
-The color space for the video processor output surface as a <a href="https://msdn.microsoft.com/E25C933F-0DB3-4BC4-9755-9361B2B9B9CB">DXGI_COLOR_SPACE_TYPE</a> value.
+The color space for the video processor output surface as a <a href="https://docs.microsoft.com/windows/desktop/api/dxgicommon/ne-dxgicommon-dxgi_color_space_type">DXGI_COLOR_SPACE_TYPE</a> value.
 
 
 ### -field TargetRectangle
@@ -106,11 +106,11 @@ The target rectangle, which is the area within the destination surface where the
 
 
 
-<a href="https://msdn.microsoft.com/74F07876-5502-4B57-9128-624F6066AF5B">D3D12DDI_VIDEO_PROCESS_ALPHA_FILL_MODE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d12umddi/ne-d3d12umddi-d3d12ddi_video_process_alpha_fill_mode_0020">D3D12DDI_VIDEO_PROCESS_ALPHA_FILL_MODE</a>
 
 
 
-<a href="https://msdn.microsoft.com/E25C933F-0DB3-4BC4-9755-9361B2B9B9CB">DXGI_COLOR_SPACE_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgicommon/ne-dxgicommon-dxgi_color_space_type">DXGI_COLOR_SPACE_TYPE</a>
 
 
 

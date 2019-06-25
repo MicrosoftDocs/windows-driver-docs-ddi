@@ -89,7 +89,7 @@ typedef CONST NPIID *PNPIID;</pre>
 ### -field ModuleId
 
 A pointer to an 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568813">NPI_MODULEID</a> structure that uniquely
+     <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff568813(v=vs.85)">NPI_MODULEID</a> structure that uniquely
      identifies the network module.
 
 
@@ -129,22 +129,22 @@ A pointer to a structure that specifies characteristics that are unique to the n
 
 
 An NPI_REGISTRATION_INSTANCE structure is a member of the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568812">NPI_CLIENT_CHARACTERISTICS</a> and 
-    <a href="https://msdn.microsoft.com/a83220e8-496c-4b83-b774-88ab1f017e8d">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netioddk/ns-netioddk-_npi_client_characteristics">NPI_CLIENT_CHARACTERISTICS</a> and 
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netioddk/ns-netioddk-_npi_provider_characteristics">
     NPI_PROVIDER_CHARACTERISTICS</a> structures. These structures are used for registering network modules
     with the NMR.
 
 When the NMR calls a cleint module's 
-    <a href="https://msdn.microsoft.com/8f8abdb1-d018-4404-a80a-74017c324a0f">ClientAttachProvider</a> callback
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netioddk/nc-netioddk-npi_client_attach_provider_fn">ClientAttachProvider</a> callback
     function, it passes a pointer to the NPI_REGISTRATION_INSTANCE structure for the provider module to which
     the client module can attach itself. Likewise, when the NMR calls a provider module's 
-    <a href="https://msdn.microsoft.com/6c8e6cf1-0528-4da2-acc1-81ec9dbc23c3">ProviderAttachClient</a> callback
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netioddk/nc-netioddk-npi_provider_attach_client_fn">ProviderAttachClient</a> callback
     function, it passes a pointer to the NPI_REGISTRATION_INSTANCE structure for the client module to which
     the provider module can attach itself.
 
 A network module must make sure that the memory for the NPIID pointed to by the 
     <b>NpiId</b> member, the memory for the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568813">NPI_MODULEID</a> structure pointed to by the 
+    <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff568813(v=vs.85)">NPI_MODULEID</a> structure pointed to by the 
     <b>ModuleId</b> member, and the memory for the 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/network-programming-interface">NPI</a>-specific characteristics
     structure pointed to by the 
@@ -159,23 +159,23 @@ A network module must make sure that the memory for the NPIID pointed to by the
 
 
 
-<a href="https://msdn.microsoft.com/8f8abdb1-d018-4404-a80a-74017c324a0f">ClientAttachProvider</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netioddk/nc-netioddk-npi_client_attach_provider_fn">ClientAttachProvider</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568812">NPI_CLIENT_CHARACTERISTICS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netioddk/ns-netioddk-_npi_client_characteristics">NPI_CLIENT_CHARACTERISTICS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568813">NPI_MODULEID</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff568813(v=vs.85)">NPI_MODULEID</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568814">NPI_PROVIDER_CHARACTERISTICS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netioddk/ns-netioddk-_npi_provider_characteristics">NPI_PROVIDER_CHARACTERISTICS</a>
 
 
 
-<a href="https://msdn.microsoft.com/6c8e6cf1-0528-4da2-acc1-81ec9dbc23c3">ProviderAttachClient</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netioddk/nc-netioddk-npi_provider_attach_client_fn">ProviderAttachClient</a>
  
 
  

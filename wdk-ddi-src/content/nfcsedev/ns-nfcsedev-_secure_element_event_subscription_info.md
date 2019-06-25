@@ -46,7 +46,7 @@ req.typenames: SECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO, *PSECURE_ELEMENT_EVENT_SU
 ## -description
 
 
-The SECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO structure is an input parameter to <a href="https://msdn.microsoft.com/library/windows/hardware/dn905514">IOCTL_NFCSE_SUBSCRIBE_FOR_EVENT</a>.
+The SECURE_ELEMENT_EVENT_SUBSCRIPTION_INFO structure is an input parameter to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/nfcsedev/ni-nfcsedev-ioctl_nfcse_subscribe_for_event">IOCTL_NFCSE_SUBSCRIBE_FOR_EVENT</a>.
 
 
 ## -struct-fields

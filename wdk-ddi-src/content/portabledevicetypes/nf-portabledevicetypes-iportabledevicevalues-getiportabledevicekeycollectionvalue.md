@@ -65,7 +65,7 @@ A <b>REFPROPERTYKEY</b> key that specifies the item to retrieve.
 
 ### -param ppValue [out]
 
-Pointer to the retrieved <a href="https://msdn.microsoft.com/library/windows/hardware/ff597583">IPortableDeviceKeyCollection</a> interface pointer. The caller is responsible for calling <b>Release</b> on the retrieved interface.
+Pointer to the retrieved <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portabledevicetypes/nn-portabledevicetypes-iportabledevicekeycollection">IPortableDeviceKeyCollection</a> interface pointer. The caller is responsible for calling <b>Release</b> on the retrieved interface.
 
 
 ## -returns
@@ -132,11 +132,11 @@ None.
 
 
 
-<a href="https://msdn.microsoft.com/4a97301a-12cc-442f-a080-446ec9e1e245">IPortableDeviceValues Interface</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portabledevicetypes/nn-portabledevicetypes-iportabledevicevalues">IPortableDeviceValues Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/b6a99ac0-3efd-4b58-bd90-3c7d172cd7ea">IPortableDeviceValues::SetIPortableDeviceKeyCollectionValue</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portabledevicetypes/nf-portabledevicetypes-iportabledevicevalues-setiportabledevicekeycollectionvalue">IPortableDeviceValues::SetIPortableDeviceKeyCollectionValue</a>
  
 
  

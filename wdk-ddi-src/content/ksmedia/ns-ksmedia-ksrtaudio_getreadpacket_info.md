@@ -79,7 +79,7 @@ Returns TRUE if there is more data ready immediately. The OS may optionally imme
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt786974">KSPROPERTY_RTAUDIO_GETREADPACKET</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-rtaudio-getreadpacket">KSPROPERTY_RTAUDIO_GETREADPACKET</a>
  
 
  

@@ -80,7 +80,7 @@ The setting to select on the USB interface.
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/c47b025b-1be9-4fdc-965a-a9a82a394177">SelectSetting</a> successfully selected the setting that the <i>SettingNumber</i> parameter specified. 
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nf-wudfusb-iwdfusbinterface-selectsetting">SelectSetting</a> successfully selected the setting that the <i>SettingNumber</i> parameter specified. 
 
 </td>
 </tr>
@@ -92,7 +92,7 @@ The setting to select on the USB interface.
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/c47b025b-1be9-4fdc-965a-a9a82a394177">SelectSetting</a> encountered an allocation failure.
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nf-wudfusb-iwdfusbinterface-selectsetting">SelectSetting</a> encountered an allocation failure.
 
 </td>
 </tr>
@@ -119,7 +119,7 @@ This value corresponds to the error code that the WinUsb API returned.
 
 The framework automatically selects configuration zero, its interface zero, and the alternate setting zero. To change the alternate setting, the driver can call <b>SelectSetting</b>.
 
-For more info <a href="https://msdn.microsoft.com/library/windows/hardware/ff539242">USB Configuration Descriptors</a>
+For more info <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">USB Configuration Descriptors</a>
 
 
 
@@ -135,7 +135,7 @@ hr = pIWDFUsbInterface->SelectSetting(SettingNumber);</code></pre>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560312">IWDFUsbInterface</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nn-wudfusb-iwdfusbinterface">IWDFUsbInterface</a>
  
 
  

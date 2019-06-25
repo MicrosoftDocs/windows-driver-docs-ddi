@@ -830,12 +830,12 @@ The PHASE instruction marks the transition between pixel shader version 1 and 2.
 
 ### -field D3DSIO_COMMENT
 
-Specifies the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539503">comment token</a>.
+Specifies the <a href="https://docs.microsoft.com/windows-hardware/drivers/display/comment-token">comment token</a>.
 
 
 ### -field D3DSIO_END
 
-Specifies the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564170">end token</a>.
+Specifies the <a href="https://docs.microsoft.com/windows-hardware/drivers/display/end-token">end token</a>.
 
 
 ### -field D3DSIO_FORCE_DWORD

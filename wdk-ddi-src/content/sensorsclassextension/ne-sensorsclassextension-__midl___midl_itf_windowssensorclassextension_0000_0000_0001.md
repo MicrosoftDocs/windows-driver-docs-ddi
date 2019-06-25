@@ -98,7 +98,7 @@ Reserved.
 
 
 
-This enumeration also defines values used for the <a href="https://msdn.microsoft.com/1BF1568D-A889-4158-9C6D-160D9B06F0DE">SENSOR_PROPERTY_STATE</a> property.
+This enumeration also defines values used for the <a href="https://docs.microsoft.com/windows-hardware/drivers/sensors/sensor-properties2">SENSOR_PROPERTY_STATE</a> property.
 
 
 
@@ -108,11 +108,11 @@ This enumeration also defines values used for the <a href="https://msdn.microsof
 
 
 
-<a href="https://msdn.microsoft.com/ae3bc846-df63-4186-9554-f4600e1f2066">ISensorClassExtension::PostStateChange</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sensorsclassextension/nf-sensorsclassextension-isensorclassextension-poststatechange">ISensorClassExtension::PostStateChange</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545610">ISensorDriver::OnGetProperties</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sensorsclassextension/nf-sensorsclassextension-isensordriver-ongetproperties">ISensorDriver::OnGetProperties</a>
  
 
  

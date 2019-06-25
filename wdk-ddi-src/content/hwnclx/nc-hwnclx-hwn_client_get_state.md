@@ -114,7 +114,7 @@ Pointer to a variable that indicates the number of bytes read by the function.
 
 
 
-Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> error code.
+Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> error code.
 
 
 
@@ -146,11 +146,11 @@ If <i>OutputBuffer</i> is not large enough to contain all of the settings reques
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn789335">Hardware notifications support</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/gpiobtn/hardware-notifications-support">Hardware notifications support</a>
 
 
 
-<a href="https://msdn.microsoft.com/405ff6db-9bc0-42f3-a740-49dd3967a8b3">Hardware notifications reference</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">Hardware notifications reference</a>
 
 
 

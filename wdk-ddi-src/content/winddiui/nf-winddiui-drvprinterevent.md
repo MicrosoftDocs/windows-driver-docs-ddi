@@ -84,7 +84,7 @@ PRINTER_EVENT_ATTRIBUTES_CHANGED
 
 </td>
 <td>
-The attribute bits for a printer have changed. In response to an application's call to the <b>SetPrinter</b> function (described in the Windows SDK documentation), the spooler calls the printer driver's <b>DrvPrinterEvent</b> function, passing the event code in the call. When this event code is used, the <i>lParam</i> parameter points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff560858">PRINTER_EVENT_ATTRIBUTES_INFO</a> structure that describes the old and the new attributes.
+The attribute bits for a printer have changed. In response to an application's call to the <b>SetPrinter</b> function (described in the Windows SDK documentation), the spooler calls the printer driver's <b>DrvPrinterEvent</b> function, passing the event code in the call. When this event code is used, the <i>lParam</i> parameter points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winddiui/ns-winddiui-_printer_event_attributes_info">PRINTER_EVENT_ATTRIBUTES_INFO</a> structure that describes the old and the new attributes.
 
 </td>
 </tr>
@@ -181,7 +181,7 @@ PRINTER_EVENT_FLAG_NO_UI
 
 </td>
 <td>
-If set, the function <b>mustnot</b> display a user interface. During the installation of a print processor, print monitor, or printer driver, the only way in which a user interface is permitted is through the use of the <b>VendorSetup</b> directive. See <a href="https://msdn.microsoft.com/897072bb-e481-4c8d-a2bf-57b19c69ac0e">Printer INF File Entries</a> and <a href="https://msdn.microsoft.com/888125e9-a057-4e86-9df8-0086cedb368d">Customized Printer Setup Operations</a> for more information.
+If set, the function <b>mustnot</b> display a user interface. During the installation of a print processor, print monitor, or printer driver, the only way in which a user interface is permitted is through the use of the <b>VendorSetup</b> directive. See <a href="https://docs.microsoft.com/windows-hardware/drivers/print/printer-inf-file-entries">Printer INF File Entries</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/print/customized-printer-setup-operations">Customized Printer Setup Operations</a> for more information.
 
 <div class="alert"><b>Important</b>  : Be aware that <b>VendorSetup</b> is now deprecated and should not be used by any <i>new</i> v3 or v4 drivers that you develop. This information about <b>VendorSetup</b> is provided for reference only, or for the maintenance of existing v3 drivers that already use this INF directive.</div>
 <div> </div>
@@ -209,7 +209,7 @@ If the operation succeeds, the function should return <b>TRUE</b>; otherwise, it
 
 
 
-All <a href="https://msdn.microsoft.com/2a8cf38f-8e27-4e08-9c0f-5d1a4cd854ac">printer interface DLLs</a> must provide a <b>DrvPrinterEvent</b> function, and the function must support the PRINTER_EVENT_INITIALIZE event code. Support for all other event codes is optional.
+All <a href="https://docs.microsoft.com/windows-hardware/drivers/print/printer-interface-dll">printer interface DLLs</a> must provide a <b>DrvPrinterEvent</b> function, and the function must support the PRINTER_EVENT_INITIALIZE event code. Support for all other event codes is optional.
 
 Registry settings stored when handling a PRINTER_EVENT_INITIALIZE event should be stored under the HKEY_LOCAL_MACHINE key by calling <b>SetPrinterData</b>. For the PRINTER_EVENT_INITIALIZE and PRINTER_EVENT_DELETE event codes, the spooler verifies that the caller has administrative privilege and calls <b>DrvPrinterEvent</b> while impersonating the caller.
 

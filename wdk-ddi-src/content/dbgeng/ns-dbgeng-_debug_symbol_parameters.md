@@ -76,7 +76,7 @@ The number of children of the symbol.  If this symbol has never been expanded wi
 
 ### -field Flags
 
-The symbol flags.  See <a href="https://msdn.microsoft.com/library/windows/hardware/ff541692">DEBUG_SYMBOL_XXX</a> for details.
+The symbol flags.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-symbol-xxx">DEBUG_SYMBOL_XXX</a> for details.
 
 
 ### -field Reserved

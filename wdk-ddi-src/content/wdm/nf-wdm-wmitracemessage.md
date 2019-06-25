@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <b>WmiTraceMessage</b> routine adds a message to the output log of a <a href="https://msdn.microsoft.com/dab776b3-bac9-4157-a530-6e48868ba900">WPP software tracing</a> session.
+The <b>WmiTraceMessage</b> routine adds a message to the output log of a <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/wpp-software-tracing">WPP software tracing</a> session.
 
 
 ## -parameters
@@ -144,7 +144,7 @@ An internal error occurred.
 
 
 
-A caller can use <b>WmiTraceMessage</b> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff566340">WmiTraceMessageVa</a> to add a message to the output log of a WPP software tracing session. <b>WmiTraceMessage</b> simplifies a caller's code by handling the variable list mechanism before calling <b>WmiTraceMessageVa</b>.
+A caller can use <b>WmiTraceMessage</b> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-wmitracemessageva">WmiTraceMessageVa</a> to add a message to the output log of a WPP software tracing session. <b>WmiTraceMessage</b> simplifies a caller's code by handling the variable list mechanism before calling <b>WmiTraceMessageVa</b>.
 
 A caller can set the following message flags:
 
@@ -228,23 +228,23 @@ All message buffers allocated to software tracing session are full.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550520">IoWmiWriteEvent</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iowmiwriteevent">IoWmiWriteEvent</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564750">TRACE_INFORMATION_CLASS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_trace_information_class">TRACE_INFORMATION_CLASS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565807">WmiFireEvent</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wmilib/nf-wmilib-wmifireevent">WmiFireEvent</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565820">WmiQueryTraceInformation</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-wmiquerytraceinformation">WmiQueryTraceInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566340">WmiTraceMessageVa</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-wmitracemessageva">WmiTraceMessageVa</a>
  
 
  

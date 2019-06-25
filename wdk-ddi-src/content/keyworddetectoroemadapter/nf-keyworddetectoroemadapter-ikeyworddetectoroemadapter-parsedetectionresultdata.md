@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <b>ParseDetectionResultData</b> method is called by the operating system after handling a keyword detection event and after retrieving the result data from <a href="https://msdn.microsoft.com/library/windows/hardware/dn932150">KSPROPERTY_SOUNDDETECTOR_MATCHRESULT</a>. The operating system passes the OEM-specific match result data to this method in order to get the results of a keyword detection.  The OEMDLL processes the results and returns information about the matched keyword, the language associated with the matched keyword, and the matched user (if any).
+The <b>ParseDetectionResultData</b> method is called by the operating system after handling a keyword detection event and after retrieving the result data from <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-sounddetector-matchresult">KSPROPERTY_SOUNDDETECTOR_MATCHRESULT</a>. The operating system passes the OEM-specific match result data to this method in order to get the results of a keyword detection.  The OEMDLL processes the results and returns information about the matched keyword, the language associated with the matched keyword, and the matched user (if any).
 
 
 ## -parameters
@@ -63,7 +63,7 @@ A pointer to <b>IStream</b> bound to model data for the arming pattern.
 
 ### -param Result [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/dn957513">SOUNDDETECTOR_PATTERNHEADER</a> from the DDI.
+A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-sounddetector_patternheader">SOUNDDETECTOR_PATTERNHEADER</a> from the DDI.
 
 
 
@@ -183,7 +183,7 @@ The hardware reset due to an internal fault.
 If the driver includes any portion of the spoken keyword in the burst keyword/command stream from its keyword detector pin, then the driver must return a valid value for <i>KeywordEndTime</i>. Otherwise the driver may optionally return 0.
 
 
-If the driver returns <i>KeywordStartTime</i> or <i>KeywordEndTime</i>, the returned values must be consistent with the time stamps returned from the driver’s <a href="https://msdn.microsoft.com/library/windows/hardware/dn946533">IMiniportWaveRTInputStream::GetReadPacket</a> routine.
+If the driver returns <i>KeywordStartTime</i> or <i>KeywordEndTime</i>, the returned values must be consistent with the time stamps returned from the driver’s <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iminiportwavertinputstream-getreadpacket">IMiniportWaveRTInputStream::GetReadPacket</a> routine.
 
 
 The driver may return valid values for <i>KeywordStartTime</i> and <i>KeywordEndTime</i> regardless of whether the driver includes any portion of the spoken keyword in the burst keyword/command stream.
@@ -199,27 +199,27 @@ If the caller receives <b>E_HW_RESET</b>, no keyword was detected by the hardwar
 
 
 
-<a href="https://msdn.microsoft.com/c4cb588d-9482-4f90-a92e-75b604540d5c">CoTaskMemAlloc</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a>
 
 
 
-<a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree">CoTaskMemFree</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn957504">IKeywordDetectorOemAdapter</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/keyworddetectoroemadapter/nn-keyworddetectoroemadapter-ikeyworddetectoroemadapter">IKeywordDetectorOemAdapter</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn946533">IMiniportWaveRTInputStream::GetReadPacket</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iminiportwavertinputstream-getreadpacket">IMiniportWaveRTInputStream::GetReadPacket</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn932150">KSPROPERTY_SOUNDDETECTOR_MATCHRESULT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-sounddetector-matchresult">KSPROPERTY_SOUNDDETECTOR_MATCHRESULT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn957513">SOUNDDETECTOR_PATTERNHEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-sounddetector_patternheader">SOUNDDETECTOR_PATTERNHEADER</a>
  
 
  

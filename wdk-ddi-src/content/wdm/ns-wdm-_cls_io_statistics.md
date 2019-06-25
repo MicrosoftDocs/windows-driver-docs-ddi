@@ -56,7 +56,7 @@ The <b>CLFS_IO_STATISTICS</b> structure holds I/O statistics data for a Common L
 
 ### -field hdrIoStats
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff541798">CLFS_IO_STATISTICS_HEADER</a> structure that holds header information for the set of statistics.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_cls_io_statistics_header">CLFS_IO_STATISTICS_HEADER</a> structure that holds header information for the set of statistics.
 
 
 ### -field cFlush
@@ -84,11 +84,11 @@ The number of bytes of metadata flushed.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541798">CLFS_IO_STATISTICS_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_cls_io_statistics_header">CLFS_IO_STATISTICS_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541557">ClfsGetIoStatistics</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-clfsgetiostatistics">ClfsGetIoStatistics</a>
  
 
  

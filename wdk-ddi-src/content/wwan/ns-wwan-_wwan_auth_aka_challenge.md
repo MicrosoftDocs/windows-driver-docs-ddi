@@ -80,7 +80,7 @@ The WWAN_AUTH_AKA_CHALLENGE structure represents an authentication challenge usi
 
 
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/hh464127">WWAN_AUTH_CHALLENGE</a> structure uses this structure.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_auth_challenge">WWAN_AUTH_CHALLENGE</a> structure uses this structure.
 
 
 
@@ -90,7 +90,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/hh464127">WWAN_
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh464127">WWAN_AUTH_CHALLENGE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_auth_challenge">WWAN_AUTH_CHALLENGE</a>
  
 
  

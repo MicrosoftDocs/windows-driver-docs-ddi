@@ -83,7 +83,7 @@ Specifies true 2.0 gamma--that is, L' = pow(L, 1/gamma) for L=0..1.
 
 Specifies true 2.2 gamma--that is, L' = pow(L, 1/gamma) for L=0..1. 
 
-The BT470-2 SysM primaries (that is, the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562951">DXVADDI_VIDEOPRIMARIES</a> enumeration type) use gamma 2.2.
+The BT470-2 SysM primaries (that is, the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ne-d3dumddi-_dxvaddi_videoprimaries">DXVADDI_VIDEOPRIMARIES</a> enumeration type) use gamma 2.2.
 
 
 ### -field DXVADDI_VideoTransFunc_709
@@ -114,7 +114,7 @@ Specifies true 2.8 gamma--that is, L' = pow(L, 1/gamma) for L=0..1.
 
 
 
-One of the values of DXVADDI_VIDEOTRANSFERFUNCTION can be specified in the <b>VideoTransferFunction</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562904">DXVADDI_EXTENDEDFORMAT</a> structure.
+One of the values of DXVADDI_VIDEOTRANSFERFUNCTION can be specified in the <b>VideoTransferFunction</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_dxvaddi_extendedformat">DXVADDI_EXTENDEDFORMAT</a> structure.
 
 DXVADDI_VIDEOTRANSFERFUNCTION corresponds to the gamma function of the data. Some transfer functions have corrections to account for 8-bit integer quantization effects.
 
@@ -132,11 +132,11 @@ The following constants can also be used for gamma function:
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562904">DXVADDI_EXTENDEDFORMAT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_dxvaddi_extendedformat">DXVADDI_EXTENDEDFORMAT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562951">DXVADDI_VIDEOPRIMARIES</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ne-d3dumddi-_dxvaddi_videoprimaries">DXVADDI_VIDEOPRIMARIES</a>
  
 
  

@@ -74,11 +74,11 @@ Array of PIDs that identify packets of program data.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564298">KSPROPERTY_BDA_CA_SET_PROGRAM_PIDS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-bda-ca-set-program-pids">KSPROPERTY_BDA_CA_SET_PROGRAM_PIDS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566536">KSPROPSETID_BdaCA</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/kspropsetid-bdaca">KSPROPSETID_BdaCA</a>
  
 
  

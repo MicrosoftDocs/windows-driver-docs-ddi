@@ -116,7 +116,7 @@ An invalid index number was specified.
 
 
 
-If a property indicates a value of type VT_UNKNOWN, the property will be one of the Windows Portable Devices interfaces (<a href="https://msdn.microsoft.com/library/windows/hardware/ff597583">IPortableDeviceKeyCollection</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff597589">IPortableDevicePropVariantCollection</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff597597">IPortableDeviceValues</a>, or <a href="https://msdn.microsoft.com/library/windows/hardware/ff597598">IPortableDeviceValuesCollection</a>). No other interfaces can be returned by Windows Portable Devices.
+If a property indicates a value of type VT_UNKNOWN, the property will be one of the Windows Portable Devices interfaces (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portabledevicetypes/nn-portabledevicetypes-iportabledevicekeycollection">IPortableDeviceKeyCollection</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portabledevicetypes/nn-portabledevicetypes-iportabledevicepropvariantcollection">IPortableDevicePropVariantCollection</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portabledevicetypes/nn-portabledevicetypes-iportabledevicevalues">IPortableDeviceValues</a>, or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portabledevicetypes/nn-portabledevicetypes-iportabledevicevaluescollection">IPortableDeviceValuesCollection</a>). No other interfaces can be returned by Windows Portable Devices.
 
 
 
@@ -126,11 +126,11 @@ If a property indicates a value of type VT_UNKNOWN, the property will be one of 
 
 
 
-<a href="https://msdn.microsoft.com/4a97301a-12cc-442f-a080-446ec9e1e245">IPortableDeviceValues Interface</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portabledevicetypes/nn-portabledevicetypes-iportabledevicevalues">IPortableDeviceValues Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/6c63adae-ab57-4826-aaa2-6953ab918ddd">IPortableDeviceValues::GetStringValue</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portabledevicetypes/nf-portabledevicetypes-iportabledevicevalues-getstringvalue">IPortableDeviceValues::GetStringValue</a>
  
 
  

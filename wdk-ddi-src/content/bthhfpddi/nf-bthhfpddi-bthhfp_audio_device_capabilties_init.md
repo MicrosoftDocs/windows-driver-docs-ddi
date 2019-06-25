@@ -44,13 +44,13 @@ req.typenames:
 
 ## -description
 
-The <b>BTHHFP_AUDIO_DEVICE_CAPABILTIES_INIT</b> method returns a pointer to an initialized <a href="https://msdn.microsoft.com/56c2bbb9-8fcd-43d4-9202-c8925575e44d">BTHHFP_AUDIO_DEVICE_CAPABILTIES</a> data structure. 
+The <b>BTHHFP_AUDIO_DEVICE_CAPABILTIES_INIT</b> method returns a pointer to an initialized <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthhfpddi/ns-bthhfpddi-_bthhfp_audio_device_capabilties">BTHHFP_AUDIO_DEVICE_CAPABILTIES</a> data structure. 
 
 ## -parameters
 
 ### -param caps [out]
 
-A pointer to an initialized <a href="https://msdn.microsoft.com/56c2bbb9-8fcd-43d4-9202-c8925575e44d">BTHHFP_AUDIO_DEVICE_CAPABILTIES</a> data structure.
+A pointer to an initialized <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthhfpddi/ns-bthhfpddi-_bthhfp_audio_device_capabilties">BTHHFP_AUDIO_DEVICE_CAPABILTIES</a> data structure.
 
 
 ## -returns

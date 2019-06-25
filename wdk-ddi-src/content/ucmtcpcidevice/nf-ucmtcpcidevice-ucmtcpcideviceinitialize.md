@@ -59,12 +59,12 @@ Initializes the USB Type-C Port Controller Interface framework extension (UcmTcp
 
 ### -param WdfDevice
 
-A handle to a framework device object that the client driver received in the previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff545926">WdfDeviceCreate</a>. 
+A handle to a framework device object that the client driver received in the previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nf-wdfdevice-wdfdevicecreate">WdfDeviceCreate</a>. 
 
 
 ### -param Config
 
-A pointer to a caller-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/mt805896">UCMTCPCI_DEVICE_CONFIG</a> structure that is initialized by calling <a href="https://msdn.microsoft.com/library/windows/hardware/mt805848">UCMTCPCI_DEVICE_CONFIG_INIT</a>. This value cannot be NULL.
+A pointer to a caller-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucmtcpcidevice/ns-ucmtcpcidevice-_ucmtcpci_device_config">UCMTCPCI_DEVICE_CONFIG</a> structure that is initialized by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucmtcpcidevice/nf-ucmtcpcidevice-ucmtcpci_device_config_init">UCMTCPCI_DEVICE_CONFIG_INIT</a>. This value cannot be NULL.
 
 
 ## -returns
@@ -72,7 +72,7 @@ A pointer to a caller-supplied <a href="https://msdn.microsoft.com/library/windo
 
 
 
-(NTSTATUS) The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method may return an appropriate <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> error code.
+(NTSTATUS) The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method may return an appropriate <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> error code.
                     
 
 <table>
@@ -87,7 +87,7 @@ A pointer to a caller-supplied <a href="https://msdn.microsoft.com/library/windo
 </dl>
 </td>
 <td width="60%">
-Invalid size for the structure pointed to by <i>Config</i>. Must be size of <a href="https://msdn.microsoft.com/library/windows/hardware/mt805896">UCMTCPCI_DEVICE_CONFIG</a>. 
+Invalid size for the structure pointed to by <i>Config</i>. Must be size of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucmtcpcidevice/ns-ucmtcpcidevice-_ucmtcpci_device_config">UCMTCPCI_DEVICE_CONFIG</a>. 
 
 </td>
 </tr>
@@ -98,7 +98,7 @@ Invalid size for the structure pointed to by <i>Config</i>. Must be size of <a h
 </dl>
 </td>
 <td width="60%">
-The Plug and Play state of the framework device object's is uninitialized. Call <a href="https://msdn.microsoft.com/library/windows/hardware/mt805841">UcmTcpciDeviceInitialize</a> within the driver's implementation of <a href="https://msdn.microsoft.com/library/windows/hardware/ff541693">EVT_WDF_DRIVER_DEVICE_ADD</a>.
+The Plug and Play state of the framework device object's is uninitialized. Call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucmtcpcidevice/nf-ucmtcpcidevice-ucmtcpcideviceinitialize">UcmTcpciDeviceInitialize</a> within the driver's implementation of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add">EVT_WDF_DRIVER_DEVICE_ADD</a>.
 
 </td>
 </tr>
@@ -112,7 +112,7 @@ The Plug and Play state of the framework device object's is uninitialized. Call 
 
 
 
-The client driver must call <b>UcmTcpciDeviceInitialize</b> within the driver's implementation of <a href="https://msdn.microsoft.com/library/windows/hardware/ff541693">EVT_WDF_DRIVER_DEVICE_ADD</a>. This method configures the framework device object and allocates resources required, registers for PnP events, and sets up I/O targets.
+The client driver must call <b>UcmTcpciDeviceInitialize</b> within the driver's implementation of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add">EVT_WDF_DRIVER_DEVICE_ADD</a>. This method configures the framework device object and allocates resources required, registers for PnP events, and sets up I/O targets.
 
 
 
@@ -122,7 +122,7 @@ The client driver must call <b>UcmTcpciDeviceInitialize</b> within the driver's 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545926">WdfDeviceCreate</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nf-wdfdevice-wdfdevicecreate">WdfDeviceCreate</a>
  
 
  

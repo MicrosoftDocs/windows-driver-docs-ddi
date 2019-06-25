@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <b>KeReleaseInStackQueuedSpinLockFromDpcLevel</b> routine releases a queued spin lock acquired by <a href="https://msdn.microsoft.com/library/windows/hardware/ff551908">KeAcquireInStackQueuedSpinLockAtDpcLevel</a>.
+The <b>KeReleaseInStackQueuedSpinLockFromDpcLevel</b> routine releases a queued spin lock acquired by <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff551908(v=vs.85)">KeAcquireInStackQueuedSpinLockAtDpcLevel</a>.
 
 
 ## -parameters
@@ -56,7 +56,7 @@ The <b>KeReleaseInStackQueuedSpinLockFromDpcLevel</b> routine releases a queued 
 
 ### -param LockHandle [in]
 
-Specifies the queued spin lock handle initialized by the call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff551908">KeAcquireInStackQueuedSpinLockAtDpcLevel</a> that acquired the lock.
+Specifies the queued spin lock handle initialized by the call to <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff551908(v=vs.85)">KeAcquireInStackQueuedSpinLockAtDpcLevel</a> that acquired the lock.
 
 
 ## -returns
@@ -72,7 +72,7 @@ None
 
 
 
-For more information about queued spin locks, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff559970">Queued Spin Locks</a>.
+For more information about queued spin locks, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/queued-spin-locks">Queued Spin Locks</a>.
 
 
 
@@ -82,11 +82,11 @@ For more information about queued spin locks, see <a href="https://msdn.microsof
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554247">KLOCK_QUEUE_HANDLE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">KLOCK_QUEUE_HANDLE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551908">KeAcquireInStackQueuedSpinLockAtDpcLevel</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff551908(v=vs.85)">KeAcquireInStackQueuedSpinLockAtDpcLevel</a>
  
 
  

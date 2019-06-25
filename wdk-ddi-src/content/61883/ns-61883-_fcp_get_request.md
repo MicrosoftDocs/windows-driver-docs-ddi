@@ -74,7 +74,7 @@ On completion, this field will contain the actual length of the request.
 
 ### -field Frame
 
-On input, a pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff537113">FCP_FRAME</a> structure to receive the FCP request. On output, the FCP frame written to the caller-allocated <b>FCP_FRAME</b> structure by the protocol driver.
+On input, a pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/61883/ns-61883-_fcp_frame">FCP_FRAME</a> structure to receive the FCP request. On output, the FCP frame written to the caller-allocated <b>FCP_FRAME</b> structure by the protocol driver.
 
 
 ## -see-also
@@ -82,7 +82,7 @@ On input, a pointer to a caller-allocated <a href="https://msdn.microsoft.com/li
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537008">AV_61883_REQUEST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/61883/ns-61883-_av_61883_request">AV_61883_REQUEST</a>
  
 
  

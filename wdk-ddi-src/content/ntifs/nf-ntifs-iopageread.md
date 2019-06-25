@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <b>IoPageRead</b> routine is reserved for system use. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff539038">CcCopyRead</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff539159">CcMdlRead</a>. 
+The <b>IoPageRead</b> routine is reserved for system use. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff539038">CcCopyRead</a> and <a href="https://docs.microsoft.com/previous-versions/ff539159(v=vs.85)">CcMdlRead</a>. 
 
 
 ## -parameters

@@ -56,7 +56,7 @@ The <b>D3DKMTSetDisplayPrivateDriverFormat</b> function changes the private-form
 
 *pData* [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548290">D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT</a> structure that describes how to format a video present source.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_setdisplayprivatedriverformat">D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT</a> structure that describes how to format a video present source.
 
 ## -returns
 
@@ -67,19 +67,19 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 | **STATUS_SUCCESS** | The video present source was successfully changed. |
 | **STATUS_DEVICE_REMOVED** | The graphics adapter was stopped or the display device was reset. |
 | **STATUS_INVALID_PARAMETER** | Parameters were validated and determined to be incorrect. |
-| **STATUS_GRAPHICS_NOT_EXCLUSIVE_MODE_OWNER** | Before the call to [D3DKMTSetDisplayPrivateDriverFormat](https://msdn.microsoft.com/library/windows/hardware/ff547171), the device did not acquire exclusive ownership of the view. Therefore, the device could not change the private-format attribute of the video present source. |
-| **STATUS_NOT_SUPPORTED** | The display miniport driver does not support the [DxgkDdiSetDisplayPrivateDriverFormat](https://msdn.microsoft.com/053fdf22-20c3-4b57-94f4-0613857abfa7) function. |
+| **STATUS_GRAPHICS_NOT_EXCLUSIVE_MODE_OWNER** | Before the call to [D3DKMTSetDisplayPrivateDriverFormat](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/nf-d3dkmthk-d3dkmtsetdisplayprivatedriverformat), the device did not acquire exclusive ownership of the view. Therefore, the device could not change the private-format attribute of the video present source. |
+| **STATUS_NOT_SUPPORTED** | The display miniport driver does not support the [DxgkDdiSetDisplayPrivateDriverFormat](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_setdisplayprivatedriverformat) function. |
 | **STATUS_UNSUCCESSFUL** | The display miniport driver could not change the private-format attribute of the view for the video present source. |
 
 This function might also return other NTSTATUS values.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548290">D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_setdisplayprivatedriverformat">D3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT</a>
 
 
 
-<a href="https://msdn.microsoft.com/053fdf22-20c3-4b57-94f4-0613857abfa7">DxgkDdiSetDisplayPrivateDriverFormat</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_setdisplayprivatedriverformat">DxgkDdiSetDisplayPrivateDriverFormat</a>
  
 
  

@@ -56,22 +56,22 @@ Queries the logical unit for the device's challenge key. The challenge key consi
 
 ### -input-buffer
 
-The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains a value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff553743">DVD_SESSION_ID</a> that specifies an Authentication Grant Identifier (AGID). The AGID identifies the secure session.
+The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains a value of type <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff553743(v=vs.85)">DVD_SESSION_ID</a> that specifies an Authentication Grant Identifier (AGID). The AGID identifies the secure session.
 
 
 ### -input-buffer-length
 
-Length of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff553743">DVD_SESSION_ID</a>.
+Length of a <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff553743(v=vs.85)">DVD_SESSION_ID</a>.
 
 
 ### -output-buffer
 
-The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains the drive challenge key with a format of <a href="https://msdn.microsoft.com/library/windows/hardware/ff550108">AACS_CHALLENGE_KEY</a>. 
+The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains the drive challenge key with a format of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdvd/ns-ntddcdvd-_aacs_challenge_key">AACS_CHALLENGE_KEY</a>. 
 
 
 ### -output-buffer-length
 
-Length of an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550108">AACS_CHALLENGE_KEY</a>.
+Length of an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdvd/ns-ntddcdvd-_aacs_challenge_key">AACS_CHALLENGE_KEY</a>.
 
 
 ### -in-out-buffer

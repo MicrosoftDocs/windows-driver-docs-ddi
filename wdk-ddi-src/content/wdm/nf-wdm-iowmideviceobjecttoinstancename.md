@@ -56,7 +56,7 @@ The <b>IoWMIDeviceObjectToInstanceName</b> routine determines the instance name 
 
 ### -param DataBlockObject [in]
 
-Pointer to a WMI data block object. The caller opens the data block object for the WMI class with <a href="https://msdn.microsoft.com/library/windows/hardware/ff550453">IoWMIOpenBlock</a>.
+Pointer to a WMI data block object. The caller opens the data block object for the WMI class with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iowmiopenblock">IoWMIOpenBlock</a>.
 
 
 ### -param DeviceObject [in]
@@ -113,15 +113,15 @@ The driver does not implement any instances of the WMI class specified by <i>Dat
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550443">IoWMIHandleToInstanceName</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iowmihandletoinstancename">IoWMIHandleToInstanceName</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550453">IoWMIOpenBlock</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iowmiopenblock">IoWMIOpenBlock</a>
  
 
  

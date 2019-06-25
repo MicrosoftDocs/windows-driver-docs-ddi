@@ -56,7 +56,7 @@ The <b>RTL_OSVERSIONINFOEXW</b> structure contains operating system version info
 
 ### -field dwOSVersionInfoSize
 
-The size, in bytes, of an <b>RTL_OSVERSIONINFOEXW</b> structure. This member must be set before the structure is used with <a href="https://msdn.microsoft.com/library/windows/hardware/ff561910">RtlGetVersion</a>.
+The size, in bytes, of an <b>RTL_OSVERSIONINFOEXW</b> structure. This member must be set before the structure is used with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlgetversion">RtlGetVersion</a>.
 
 
 ### -field dwMajorVersion
@@ -293,7 +293,7 @@ Reserved for future use.
 
 
 
-The information in this structure includes the major and minor version numbers, the build number, the platform identifier, the installed product suites, and the latest service pack that is installed on the system. This structure is used with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561910">RtlGetVersion</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff563026">RtlVerifyVersionInfo</a> routines.
+The information in this structure includes the major and minor version numbers, the build number, the platform identifier, the installed product suites, and the latest service pack that is installed on the system. This structure is used with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlgetversion">RtlGetVersion</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlverifyversioninfo">RtlVerifyVersionInfo</a> routines.
 
 Relying on version information is not always the best way to test whether a feature is available. For guidance, refer to the documentation for the feature you are interested in.
 
@@ -332,15 +332,15 @@ The following table summarizes the version information that is returned by suppo
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563624">RTL_OSVERSIONINFOW</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_osversioninfow">RTL_OSVERSIONINFOW</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561910">RtlGetVersion</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlgetversion">RtlGetVersion</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563026">RtlVerifyVersionInfo</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlverifyversioninfo">RtlVerifyVersionInfo</a>
  
 
  

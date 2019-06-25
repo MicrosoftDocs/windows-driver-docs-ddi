@@ -69,7 +69,7 @@ Indicates the USB host controller is software an xHCI controller.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt188031">ROOTHUB_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucxroothub/ns-ucxroothub-_roothub_info">ROOTHUB_INFO</a>
  
 
  

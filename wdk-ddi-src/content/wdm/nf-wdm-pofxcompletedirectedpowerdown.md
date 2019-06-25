@@ -51,7 +51,7 @@ A DFx (Directed [PoFx](https://docs.microsoft.com/windows-hardware/drivers/kerne
 
 ### -param Handle
 
-A POHANDLE value that represents the registration of the processor (as a device) with <a href="https://msdn.microsoft.com/B08F8ABF-FD43-434C-A345-337FBB799D9B">power management framework</a> (PoFx).
+A POHANDLE value that represents the registration of the processor (as a device) with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">power management framework</a> (PoFx).
 
 
 ## -returns

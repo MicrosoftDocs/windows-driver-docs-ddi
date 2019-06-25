@@ -74,7 +74,7 @@ The BTH_SDP_ATTRIBUTE_SEARCH_REQUEST structure contains information pertinent to
 ### -field recordHandle
 
 The record handle that is returned by the remote SDP server from a previous call to the 
-     <a href="https://msdn.microsoft.com/aea2aff2-5983-4583-9cc8-a45401ecdfb6">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthioctl/ni-bthioctl-ioctl_bth_sdp_service_search">
      IOCTL_BTH_SDP_SERVICE_SEARCH</a> IOCTL.
 
 
@@ -88,7 +88,7 @@ A variable-length array of structures of type
 #### - hConnection
 
 A handle to the remote SDP server that is returned by the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536688">IOCTL_BTH_SDP_CONNECT</a> IOCTL.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthioctl/ni-bthioctl-ioctl_bth_sdp_connect">IOCTL_BTH_SDP_CONNECT</a> IOCTL.
 
 
 ## -remarks
@@ -96,7 +96,7 @@ A handle to the remote SDP server that is returned by the
 
 
 This structure is passed as the input buffer to the 
-    <a href="https://msdn.microsoft.com/30daf70e-34d1-45f7-a69b-503e275b83af">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthioctl/ni-bthioctl-ioctl_bth_sdp_attribute_search">
     IOCTL_BTH_SDP_ATTRIBUTE_SEARCH</a> IOCTL.
 
 The Bluetooth driver stack determines the number of array items in the 
@@ -113,15 +113,15 @@ The Bluetooth driver stack determines the number of array items in the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536687">IOCTL_BTH_SDP_ATTRIBUTE_SEARCH</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthioctl/ni-bthioctl-ioctl_bth_sdp_attribute_search">IOCTL_BTH_SDP_ATTRIBUTE_SEARCH</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536688">IOCTL_BTH_SDP_CONNECT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthioctl/ni-bthioctl-ioctl_bth_sdp_connect">IOCTL_BTH_SDP_CONNECT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536692">IOCTL_BTH_SDP_SERVICE_SEARCH</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthioctl/ni-bthioctl-ioctl_bth_sdp_service_search">IOCTL_BTH_SDP_SERVICE_SEARCH</a>
 
 
 

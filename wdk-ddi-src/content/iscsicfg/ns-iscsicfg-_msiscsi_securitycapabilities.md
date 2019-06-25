@@ -76,14 +76,14 @@ The number of encryption types that the initiator supports.
 
 ### -field EncryptionAvailable
 
-A variable length array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff561528">ISCSI_ENCRYPTION_TYPES</a> structures, which indicate types of encryption that the initiator supports. 
+A variable length array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/iscsicfg/ne-iscsicfg-iscsi_encryption_types">ISCSI_ENCRYPTION_TYPES</a> structures, which indicate types of encryption that the initiator supports. 
 
 
 ## -remarks
 
 
 
-The WMI tool suite automatically generates a declaration of the MSiSCSI_SecurityCapabilities structure when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563131">MSiSCSI_SecurityCapabilities WMI Class</a> in <i>Config.mof</i>. 
+The WMI tool suite automatically generates a declaration of the MSiSCSI_SecurityCapabilities structure when it compiles the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msiscsi-securitycapabilities-wmi-class">MSiSCSI_SecurityCapabilities WMI Class</a> in <i>Config.mof</i>. 
 
 Initiators that support IPsec must implement the MSiSCSI_SecurityCapabilities class. 
 
@@ -97,11 +97,11 @@ Initiators must register the MSiSCSI_SecurityCapabilities class using the name o
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561528">ISCSI_ENCRYPTION_TYPES</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/iscsicfg/ne-iscsicfg-iscsi_encryption_types">ISCSI_ENCRYPTION_TYPES</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563131">MSiSCSI_SecurityCapabilities WMI Class</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msiscsi-securitycapabilities-wmi-class">MSiSCSI_SecurityCapabilities WMI Class</a>
  
 
  

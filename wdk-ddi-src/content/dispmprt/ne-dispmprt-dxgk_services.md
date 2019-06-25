@@ -46,7 +46,7 @@ req.typenames: DXGK_SERVICES
 ## -description
 
 
-The DXGK_SERVICES enumeration indicates the type of interface being requested by a call to the <a href="https://msdn.microsoft.com/0ce5df90-2019-4a92-97d6-0218acc8b1e8">DxgkCbQueryServices</a> function.
+The DXGK_SERVICES enumeration indicates the type of interface being requested by a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkcb_query_services">DxgkCbQueryServices</a> function.
 
 
 ## -enum-fields
@@ -56,22 +56,22 @@ The DXGK_SERVICES enumeration indicates the type of interface being requested by
 
 ### -field DxgkServicesAgp
 
-Indicates the <a href="https://msdn.microsoft.com/library/windows/hardware/ff538228">AGP Interface</a>.
+Indicates the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">AGP Interface</a>.
 
 
 ### -field DxgkServicesDebugReport
 
-Indicates the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551798">Debug Report interface</a>.
+Indicates the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">Debug Report interface</a>.
 
 
 ### -field DxgkServicesTimedOperation
 
-Indicates the <a href="https://msdn.microsoft.com/library/windows/hardware/ff570086">Timed Operation interface</a>.
+Indicates the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">Timed Operation interface</a>.
 
 
 ### -field DxgkServicesSPB
 
-Indicates the <a href="https://msdn.microsoft.com/D525A961-339D-414B-B40F-14AD9AEA51C5">Simple  Peripheral Bus (SPB) Interface</a>.
+Indicates the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">Simple  Peripheral Bus (SPB) Interface</a>.
 
 Supported starting with Windows 8.
 
@@ -85,7 +85,7 @@ Supported starting with Windows 8.
 
 ### -field DxgkServicesFirmwareTable
 
-Indicates the <a href="https://msdn.microsoft.com/library/windows/hardware/jj647606">System Firmware Table Interface</a>.
+Indicates the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/ns-dispmprt-_dxgk_firmware_table_interface">System Firmware Table Interface</a>.
 
 Supported starting with Windows 8.
 

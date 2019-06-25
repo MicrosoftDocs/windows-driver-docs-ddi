@@ -46,7 +46,7 @@ req.typenames: SECURE_ELEMENT_ENDPOINT_INFO, *PSECURE_ELEMENT_ENDPOINT_INFO
 ## -description
 
 
-SECURE_ELEMENT_ENDPOINT_INFO is a member of <a href="https://msdn.microsoft.com/library/windows/hardware/dn905622">SECURE_ELEMENT_ENDPOINT_LIST</a>.
+SECURE_ELEMENT_ENDPOINT_INFO is a member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/nfcsedev/ns-nfcsedev-_secure_element_endpoint_list">SECURE_ELEMENT_ENDPOINT_LIST</a>.
 
 
 ## -struct-fields

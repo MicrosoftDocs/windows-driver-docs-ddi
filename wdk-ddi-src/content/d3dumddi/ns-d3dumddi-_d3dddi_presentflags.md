@@ -100,11 +100,11 @@ A member in the union that is contained in D3DDDI_PRESENTFLAGS that can hold one
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543240">D3DDDIARG_PRESENT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_present">D3DDDIARG_PRESENT</a>
 
 
 
-<a href="https://msdn.microsoft.com/e90683b4-64b6-4018-96a5-b50118df3367">Present</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_present">Present</a>
  
 
  

@@ -138,11 +138,11 @@ If <i>hrStatus</i> is S_OK, the data transfer has resumed and no delay or error 
 
 
 
-<a href="https://msdn.microsoft.com/b441fbca-75fe-4b9d-a9d5-2ad5a4a55801">IWiaErrorHandler</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wia_lh/nn-wia_lh-iwiaerrorhandler">IWiaErrorHandler</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543904">IWiaErrorHandler::GetStatusDescription</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wia_lh/nf-wia_lh-iwiaerrorhandler-getstatusdescription">IWiaErrorHandler::GetStatusDescription</a>
  
 
  

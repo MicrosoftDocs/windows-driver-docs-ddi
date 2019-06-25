@@ -46,7 +46,7 @@ req.typenames: MESSAGEBOX_PARAMS, *PMESSAGEBOX_PARAMS
 ## -description
 
 
-The MESSAGEBOX_PARAMS structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562679">SplPromptUIInUsersSession</a> function to hold information about the appearance and behavior of a message box.
+The MESSAGEBOX_PARAMS structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-splpromptuiinuserssession">SplPromptUIInUsersSession</a> function to hold information about the appearance and behavior of a message box.
 
 
 ## -struct-fields
@@ -88,7 +88,7 @@ Specifies whether the <b>SplPromptUIInUsersSession</b> function should wait for 
 
 
 
-One member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562645">SHOWUIPARAMS</a> structure is a MESSAGEBOX_PARAMS structure.
+One member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/ns-winsplp-showuiparams">SHOWUIPARAMS</a> structure is a MESSAGEBOX_PARAMS structure.
 
 
 
@@ -98,11 +98,11 @@ One member of the <a href="https://msdn.microsoft.com/library/windows/hardware/f
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562645">SHOWUIPARAMS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/ns-winsplp-showuiparams">SHOWUIPARAMS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562679">SplPromptUIInUsersSession</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-splpromptuiinuserssession">SplPromptUIInUsersSession</a>
  
 
  

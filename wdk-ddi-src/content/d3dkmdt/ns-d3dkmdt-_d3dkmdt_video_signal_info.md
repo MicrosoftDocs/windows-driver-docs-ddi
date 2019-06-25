@@ -56,12 +56,12 @@ The D3DKMDT_VIDEO_SIGNAL_INFO structure contains information about a video signa
 
 ### -field VideoStandard
 
-A constant from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546632">D3DKMDT_VIDEO_SIGNAL_STANDARD</a> enumeration that indicates the video standard (if any) that defines the video signal.
+A constant from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmdt/ne-d3dkmdt-_d3dkmdt_video_signal_standard">D3DKMDT_VIDEO_SIGNAL_STANDARD</a> enumeration that indicates the video standard (if any) that defines the video signal.
 
 
 ### -field TotalSize
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff545977">D3DKMDT_2DREGION</a> structure that specifies the width and height (in pixels) of the entire video signal.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmdt/ns-d3dkmdt-_d3dkmdt_2dregion">D3DKMDT_2DREGION</a> structure that specifies the width and height (in pixels) of the entire video signal.
 
 
 ### -field ActiveSize
@@ -71,7 +71,7 @@ A D3DKMDT_2DREGION structure that specifies the width and height (in pixels) of 
 
 ### -field VSyncFreq
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff544641">D3DDDI_RATIONAL</a> structure that specifies the vertical refresh rate in Hz.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dukmdt/ns-d3dukmdt-_d3dddi_rational">D3DDDI_RATIONAL</a> structure that specifies the vertical refresh rate in Hz.
 
 
 ### -field HSyncFreq
@@ -91,7 +91,7 @@ Supported by WDDM 1.3 and later display miniport drivers running on Windows 8.1
 
 ### -field AdditionalSignalInfo.ScanLineOrdering
 
-A constant from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544682">D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING</a> enumeration that indicates the scanline ordering (for example, progressive or interlaced) of the video signal.
+A constant from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dukmdt/ne-d3dukmdt-_d3dddi_video_signal_scanline_ordering">D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING</a> enumeration that indicates the scanline ordering (for example, progressive or interlaced) of the video signal.
 
 Supported starting with Windows 8.1.
 
@@ -118,7 +118,7 @@ Supported starting with Windows 8.1.
 
 ### -field ScanLineOrdering
 
-A constant from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544682">D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING</a> enumeration that indicates the scanline ordering (for example, progressive or interlaced) of the video signal.
+A constant from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dukmdt/ne-d3dukmdt-_d3dddi_video_signal_scanline_ordering">D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING</a> enumeration that indicates the scanline ordering (for example, progressive or interlaced) of the video signal.
 
 
 ## -see-also
@@ -126,11 +126,11 @@ A constant from the <a href="https://msdn.microsoft.com/library/windows/hardware
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546617">D3DKMDT_VIDEO_PRESENT_TARGET</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmdt/ns-d3dkmdt-_d3dkmdt_video_present_target">D3DKMDT_VIDEO_PRESENT_TARGET</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546729">D3DKMDT_VIDPN_TARGET_MODE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmdt/ns-d3dkmdt-_d3dkmdt_vidpn_target_mode">D3DKMDT_VIDPN_TARGET_MODE</a>
  
 
  

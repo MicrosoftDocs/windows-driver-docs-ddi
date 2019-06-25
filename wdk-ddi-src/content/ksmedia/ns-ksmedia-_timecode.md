@@ -88,7 +88,7 @@ This structure is defined for the purpose of searching to a timecode based on an
 
 
 
-<a href="https://msdn.microsoft.com/f3ff3815-0f4f-4fcb-89bd-e77d8002813c">KSPROPERTY_EXTXPORT_RAW_AVC_CMD</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-raw-avc-cmd">KSPROPERTY_EXTXPORT_RAW_AVC_CMD</a>
  
 
  

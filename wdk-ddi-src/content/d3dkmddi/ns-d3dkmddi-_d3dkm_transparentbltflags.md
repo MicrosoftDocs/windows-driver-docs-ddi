@@ -74,7 +74,7 @@ Setting this member is equivalent to setting the first bit of the 32-bit <b>Valu
 
 
 
-For more information about how to use the members of this structure, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff561091">DXGK_GDIARG_TRANSPARENTBLT</a>.
+For more information about how to use the members of this structure, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgk_gdiarg_transparentblt">DXGK_GDIARG_TRANSPARENTBLT</a>.
 
 
 
@@ -84,7 +84,7 @@ For more information about how to use the members of this structure, see <a href
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561091">DXGK_GDIARG_TRANSPARENTBLT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgk_gdiarg_transparentblt">DXGK_GDIARG_TRANSPARENTBLT</a>
  
 
  

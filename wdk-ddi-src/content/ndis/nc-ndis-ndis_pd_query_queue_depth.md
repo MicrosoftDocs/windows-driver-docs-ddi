@@ -47,7 +47,7 @@ req.typenames:
 
 
 The PacketDirect (PD) platform calls a PD-capable miniport driver's 
-   <i>PDQueryQueueDepth</i> function to return the number of unprocessed <a href="https://msdn.microsoft.com/library/windows/hardware/dn931863">PD_BUFFER</a> structures that are posted to the <b>Queue</b>.<div class="alert"><b>Note</b>  You must declare the function by using the <b>NDIS_PD_QUERY_QUEUE_DEPTH</b> type. For more
+   <i>PDQueryQueueDepth</i> function to return the number of unprocessed <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_pd_buffer">PD_BUFFER</a> structures that are posted to the <b>Queue</b>.<div class="alert"><b>Note</b>  You must declare the function by using the <b>NDIS_PD_QUERY_QUEUE_DEPTH</b> type. For more
    information, see the following Examples section.</div>
 <div> </div>
 
@@ -65,7 +65,7 @@ A pointer to a transmit or receive queue.
 
 ### -param Depth [out]
 
-On a receive queue, this is the number of <a href="https://msdn.microsoft.com/library/windows/hardware/dn931863">PD_BUFFER</a> structures that are available for placing incoming packets into. For example, if 10 buffers were posted, and 3 of the 10 have already been fetched by the provider for placing incoming packets into, this value should be 7. On a transmit queue, this is the number of <b>PD_BUFFER</b> structures that the provider has not yet fetched from the queue for transmitting.
+On a receive queue, this is the number of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_pd_buffer">PD_BUFFER</a> structures that are available for placing incoming packets into. For example, if 10 buffers were posted, and 3 of the 10 have already been fetched by the provider for placing incoming packets into, this value should be 7. On a transmit queue, this is the number of <b>PD_BUFFER</b> structures that the provider has not yet fetched from the queue for transmitting.
 
 
 ## -returns
@@ -81,10 +81,10 @@ This callback function does not return a value.
 
 
 
-<div class="alert"><b>Note</b>  For IHV partners: The ability to monitor the queue depth is very important for clients to access congestion build-up and take precautionary action. An increasing queue depth for a transmit queue is a sign of increasing congestion on the outbound link. A decreasing queue depth for an RX queue is a sign of the client not being able to process incoming packets fast enough on the inbound link. Clients may need to monitor the queue depth status with frequently (For example, getting the queue depth for each post and operation, therefore the cost (in CPU cycles) of querying the queue depth must not be noticeable in comparison to the cost of a single <a href="https://msdn.microsoft.com/5EAAEEEC-740E-4F65-B13E-E174A0DF4546">PDPostAndDrainBufferList</a> call.</div>
+<div class="alert"><b>Note</b>  For IHV partners: The ability to monitor the queue depth is very important for clients to access congestion build-up and take precautionary action. An increasing queue depth for a transmit queue is a sign of increasing congestion on the outbound link. A decreasing queue depth for an RX queue is a sign of the client not being able to process incoming packets fast enough on the inbound link. Clients may need to monitor the queue depth status with frequently (For example, getting the queue depth for each post and operation, therefore the cost (in CPU cycles) of querying the queue depth must not be noticeable in comparison to the cost of a single <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-ndis_pd_post_and_drain_buffer_list">PDPostAndDrainBufferList</a> call.</div>
 <div> </div>
 <h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>
-To define a <i>PDQueryQueueDepth</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
+To define a <i>PDQueryQueueDepth</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/code-analysis-for-drivers">Code Analysis for Drivers</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
 
 For example, to define a <i>PDQueryQueueDepth</i> function that is named "MyPDQueryQueueDepth", use the <b>NDIS_PD_QUERY_QUEUE_DEPTH</b> type as shown in this code example:
 
@@ -116,7 +116,7 @@ VOID
 </td>
 </tr>
 </table></span></div>
-The <b>NDIS_PD_QUERY_QUEUE_DEPTH</b> function type is defined in the Ntddndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>NDIS_PD_QUERY_QUEUE_DEPTH</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/232c4272-0bf0-4a4e-9560-3bceeca8a3e3">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
+The <b>NDIS_PD_QUERY_QUEUE_DEPTH</b> function type is defined in the Ntddndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>NDIS_PD_QUERY_QUEUE_DEPTH</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
 For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
 

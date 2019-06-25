@@ -68,7 +68,7 @@ Specifies the NTSTATUS error.
 
 
 
-Streaming error notifications can be generated against the Quality Management sink, if assigned. The same method of proxying Quality Management complaints is used for forwarding error reports for DirectShow graphs. For more information, see <a href="https://msdn.microsoft.com/359e6e12-903f-4037-8f35-b090ce41f770">Quality Management</a>.
+Streaming error notifications can be generated against the Quality Management sink, if assigned. The same method of proxying Quality Management complaints is used for forwarding error reports for DirectShow graphs. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/quality-management">Quality Management</a>.
 
 
 
@@ -78,15 +78,15 @@ Streaming error notifications can be generated against the Quality Management si
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561671">KSDEGRADE</a>
+<a href="https://docs.microsoft.com/previous-versions/ff561671(v=vs.85)">KSDEGRADE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561673">KSDEGRADE_STANDARD</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ne-ks-ksdegrade_standard">KSDEGRADE_STANDARD</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565211">KSPROPERTY_QUALITY_ERROR</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-quality-error">KSPROPERTY_QUALITY_ERROR</a>
  
 
  

@@ -56,19 +56,19 @@ CONNECT_DATA specifies information that Kbdclass and Mouclass use to connect to 
 
 ### -field ClassDeviceObject
 
-Pointer to an upper-level class <a href="https://msdn.microsoft.com/f697e0db-1db0-4a81-94d8-0ca079885480">filter device object</a> (filter DO).
+Pointer to an upper-level class <a href="https://docs.microsoft.com/windows-hardware/drivers/">filter device object</a> (filter DO).
 
 
 ### -field ClassService
 
-Specifies the class service routine. See  <a href="https://msdn.microsoft.com/library/windows/hardware/ff542274">PSERVICE_CALLBACK_ROUTINE</a>.
+Specifies the class service routine. See  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/kbdmou/nc-kbdmou-pservice_callback_routine">PSERVICE_CALLBACK_ROUTINE</a>.
 
 
 ## -remarks
 
 
 
-The keyboard class driver uses this structure with an <a href="https://msdn.microsoft.com/library/windows/hardware/ff541273">IOCTL_INTERNAL_KEYBOARD_CONNECT</a> request; the mouse class driver uses <a href="https://msdn.microsoft.com/library/windows/hardware/ff541294">IOCTL_INTERNAL_MOUSE_CONNECT</a> .
+The keyboard class driver uses this structure with an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/kbdmou/ni-kbdmou-ioctl_internal_keyboard_connect">IOCTL_INTERNAL_KEYBOARD_CONNECT</a> request; the mouse class driver uses <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/kbdmou/ni-kbdmou-ioctl_internal_mouse_connect">IOCTL_INTERNAL_MOUSE_CONNECT</a> .
 
 
 

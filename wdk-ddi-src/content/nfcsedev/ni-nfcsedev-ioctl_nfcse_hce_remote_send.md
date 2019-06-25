@@ -58,7 +58,7 @@ Transmits response APDU from DeviceHost NFCEE to remote device. The caller must 
 
 ### -input-buffer
 
-Pointer to buffer containing <a href="https://msdn.microsoft.com/library/windows/hardware/dn905624">SECURE_ELEMENT_HCE_DATA_PACKET</a> structure.
+Pointer to buffer containing <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/nfcsedev/ns-nfcsedev-_secure_element_hce_data_packet">SECURE_ELEMENT_HCE_DATA_PACKET</a> structure.
 
 
 

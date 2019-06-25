@@ -58,7 +58,7 @@ The <b>BarcodeSymbologyAttributesData</b> structure contains the attribute infor
 
 The barcode symbology  to set or get attributes to or from.
 
-For more information, see the <a href="https://msdn.microsoft.com/library/windows/hardware/dn757474">BarcodeSymbology</a> enumeration topic.
+For more information, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pointofservicecommontypes/ne-pointofservicecommontypes-_barcodesymbology">BarcodeSymbology</a> enumeration topic.
 
 
 ### -field IsCheckDigitValidationSupported
@@ -93,7 +93,7 @@ For example, the API can be used to set to read barcodes of decode length betwee
 ### -field DecodeLengthType
 
  The decode length type, which can be set to support a range, two discrete values, or be set to any length.
- For more information, see the <a href="https://msdn.microsoft.com/155D1C71-7935-4512-8AA2-0EB167FCBF5E">BarcodeSymbologyDecodeLengthType</a>.
+ For more information, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pointofservicecommontypes/ne-pointofservicecommontypes-_barcodesymbologydecodelengthtype">BarcodeSymbologyDecodeLengthType</a>.
 
 
 ### -field DecodeLength1

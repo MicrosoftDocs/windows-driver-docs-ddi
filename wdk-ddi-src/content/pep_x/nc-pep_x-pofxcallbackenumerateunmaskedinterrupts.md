@@ -66,17 +66,17 @@ No flags are currently defined. Set this parameter to PEP_ENUMERATE_UNMASKED_INT
 
 ### -param Callback [in]
 
-A pointer to a caller-implemented <a href="https://msdn.microsoft.com/library/windows/hardware/mt186632">EnumerateInterruptSource</a> callback routine. This callback routine is called once for each interrupt source whose interrupt is unmasked. These callbacks occur synchronously before the <b>EnumerateUnmaskedInterrupts</b> routine returns.
+A pointer to a caller-implemented <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/nc-pepfx-ppo_enumerate_interrupt_source_callback">EnumerateInterruptSource</a> callback routine. This callback routine is called once for each interrupt source whose interrupt is unmasked. These callbacks occur synchronously before the <b>EnumerateUnmaskedInterrupts</b> routine returns.
 
 
 ### -param CallbackContext [in]
 
-A pointer to a callback context. This pointer is passed as a parameter to the <i>EnumerateInterruptSource</i> callback routine pointed to by the <i>Callback</i> parameter. The contents of the callback context are PEP-defined, and are opaque to the <a href="https://msdn.microsoft.com/B08F8ABF-FD43-434C-A345-337FBB799D9B">power management framework</a> (PoFx).
+A pointer to a callback context. This pointer is passed as a parameter to the <i>EnumerateInterruptSource</i> callback routine pointed to by the <i>Callback</i> parameter. The contents of the callback context are PEP-defined, and are opaque to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">power management framework</a> (PoFx).
 
 
 ### -param InterruptInformation [in, out]
 
-A pointer to a caller-allocated buffer whose size is at least <b>sizeof</b>(<a href="https://msdn.microsoft.com/library/windows/hardware/mt186857">PEP_UNMASKED_INTERRUPT_INFORMATION</a>) bytes. <b>EnumerateUnmaskedInterrupts</b> will use this buffer to transfer interrupt information to the PEP during calls to the PEP's <i>EnumerateInterruptSource</i> callback routine.
+A pointer to a caller-allocated buffer whose size is at least <b>sizeof</b>(<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/ns-pepfx-_pep_unmasked_interrupt_information">PEP_UNMASKED_INTERRUPT_INFORMATION</a>) bytes. <b>EnumerateUnmaskedInterrupts</b> will use this buffer to transfer interrupt information to the PEP during calls to the PEP's <i>EnumerateInterruptSource</i> callback routine.
 
 
 ## -returns
@@ -111,7 +111,7 @@ The <b>Size</b> or <b>Version</b> member of the <b>PEP_UNMASKED_INTERRUPT_INFORM
 
 
 
-This routine is implemented by PoFx and is called by the PEP. The <b>EnumerateUnmaskedInterrupts</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186747">PEP_KERNEL_INFORMATION_STRUCT_V3</a> structure is a pointer to an <b>EnumerateUnmaskedInterrupts</b> routine.
+This routine is implemented by PoFx and is called by the PEP. The <b>EnumerateUnmaskedInterrupts</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/ns-pepfx-_pep_kernel_information_struct_v3">PEP_KERNEL_INFORMATION_STRUCT_V3</a> structure is a pointer to an <b>EnumerateUnmaskedInterrupts</b> routine.
 
 Before the platform enters a system power state in which the interrupt controllers are power-gated, the PEP can call <b>EnumerateUnmaskedInterrupts</b> to get the information it needs to properly configure wake-up controllers for interrupts that are to remain unmasked.
 
@@ -125,15 +125,15 @@ The PEP can call this routine at IRQL <= HIGH_LEVEL.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt186632">EnumerateInterruptSource</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/nc-pepfx-ppo_enumerate_interrupt_source_callback">EnumerateInterruptSource</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt186747">PEP_KERNEL_INFORMATION_STRUCT_V3</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/ns-pepfx-_pep_kernel_information_struct_v3">PEP_KERNEL_INFORMATION_STRUCT_V3</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt186857">PEP_UNMASKED_INTERRUPT_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/ns-pepfx-_pep_unmasked_interrupt_information">PEP_UNMASKED_INTERRUPT_INFORMATION</a>
  
 
  

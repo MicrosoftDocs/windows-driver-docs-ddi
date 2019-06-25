@@ -66,12 +66,12 @@ The <i>SubmitIsoOutUrb</i> function submits a USB request block (URB) directly t
 
 #### - BusContext [in]
 
-Handle returned in the <i>BusContext</i> member of the  <a href="https://msdn.microsoft.com/library/windows/hardware/ff539210">USB_BUS_INTERFACE_USBDI_V0</a> structure by an IRP_MN_QUERY_INTERFACE request. 
+Handle returned in the <i>BusContext</i> member of the  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbbusif/ns-usbbusif-_usb_bus_interface_usbdi_v0">USB_BUS_INTERFACE_USBDI_V0</a> structure by an IRP_MN_QUERY_INTERFACE request. 
 
 
 #### - Urb [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff538923">URB</a> to be passed to the port driver. 
+Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usb/ns-usb-_urb">URB</a> to be passed to the port driver. 
 
 
 ## -returns

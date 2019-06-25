@@ -46,7 +46,7 @@ req.typenames: SetGenerationalGuid_IN, *PSetGenerationalGuid_IN
 ## -description
 
 
-The SetGenerationalGuid_IN structure holds the input data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565678">SetGenerationalGuid</a> method.
+The SetGenerationalGuid_IN structure holds the input data for the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/setgenerationalguid">SetGenerationalGuid</a> method.
 
 
 ## -struct-fields
@@ -73,11 +73,11 @@ You must implement this method.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565678">SetGenerationalGuid</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/setgenerationalguid">SetGenerationalGuid</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565687">SetGenerationalGuid_OUT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/iscsiop/ns-iscsiop-_setgenerationalguid_out">SetGenerationalGuid_OUT</a>
  
 
  

@@ -49,11 +49,11 @@ req.typenames:
 
 A callout driver calls 
   <b>FwpsCompleteClassify0</b> to asynchronously complete a pended classify request. The callout driver's 
-  <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> function must have previously
+  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_netvista/">classifyFn</a> function must have previously
   called 
-  <a href="https://msdn.microsoft.com/library/windows/hardware/ff551197">FwpsPendClassify0</a> to pend the classify
+  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpspendclassify0">FwpsPendClassify0</a> to pend the classify
   request.
-<div class="alert"><b>Note</b>  <b>FwpsCompleteClassify0</b> is a specific version of <b>FwpsCompleteClassify</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
+<div class="alert"><b>Note</b>  <b>FwpsCompleteClassify0</b> is a specific version of <b>FwpsCompleteClassify</b>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
 ## -parameters
 
@@ -64,7 +64,7 @@ A callout driver calls
 
 The classification handle that identifies the callout driver's processing at the current layer.
      This handle is obtained by calling 
-     <a href="https://msdn.microsoft.com/7348d937-6541-47a7-ae70-7d851d41bc1a">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsacquireclassifyhandle0">
      FwpsAcquireClassifyHandle0</a>.
 
 
@@ -78,9 +78,9 @@ The classification handle that identifies the callout driver's processing at the
 ### -param classifyOut [in, optional]
 
 A pointer to a deep copy of the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff551229">FWPS_CLASSIFY_OUT0</a> structure that was originally
+     <a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_classify_out0_">FWPS_CLASSIFY_OUT0</a> structure that was originally
      passed to the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> call when the classification was pended. When classifying asynchronously, the members
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_netvista/">classifyFn</a> call when the classification was pended. When classifying asynchronously, the members
      of this structure can be set the same way as they would be in the callout driver's 
      <i>classifyFn</i> function when classifying inline.
      
@@ -103,11 +103,11 @@ None.
 
 
 <b>FwpsCompleteClassify0</b> must be called after a callout driver has called 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff551197">FwpsPendClassify0</a> to remove the
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpspendclassify0">FwpsPendClassify0</a> to remove the
     classification from its pended state.
 
 After calling this function, 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff551208">FwpsReleaseClassifyHandle0</a> must
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsreleaseclassifyhandle0">FwpsReleaseClassifyHandle0</a> must
     be called to free the system resources associated with the classification handle.
 
 
@@ -118,23 +118,23 @@ After calling this function,
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551229">FWPS_CLASSIFY_OUT0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_classify_out0_">FWPS_CLASSIFY_OUT0</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550085">FwpsAcquireClassifyHandle0</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsacquireclassifyhandle0">FwpsAcquireClassifyHandle0</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551197">FwpsPendClassify0</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpspendclassify0">FwpsPendClassify0</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551208">FwpsReleaseClassifyHandle0</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsreleaseclassifyhandle0">FwpsReleaseClassifyHandle0</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_netvista/">classifyFn</a>
  
 
  

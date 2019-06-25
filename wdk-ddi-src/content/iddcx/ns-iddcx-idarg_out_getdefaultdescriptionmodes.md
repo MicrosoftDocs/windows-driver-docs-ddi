@@ -57,9 +57,9 @@ Gives information about the default description modes for the monitor, as well a
 ### -field DefaultMonitorModeBufferOutputCount
 
 
-                     [out] If the <a href="https://msdn.microsoft.com/library/windows/hardware/mt761894">IDARG_IN_PARSEMONITORDESCRIPTION</a> value <b>pDefaultMonitorModes</b> was NULL, then the driver should set this to the number of monitor modes the driver would generate for the specified monitor description.
+                     [out] If the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/iddcx/ns-iddcx-idarg_in_parsemonitordescription">IDARG_IN_PARSEMONITORDESCRIPTION</a> value <b>pDefaultMonitorModes</b> was NULL, then the driver should set this to the number of monitor modes the driver would generate for the specified monitor description.
 
- If the <a href="https://msdn.microsoft.com/library/windows/hardware/mt761894">IDARG_IN_PARSEMONITORDESCRIPTION</a> value <b>pDefaultMonitorModes</b> was non-NULL, then this is the count of the monitor modes that the driver copied to that buffer.
+ If the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/iddcx/ns-iddcx-idarg_in_parsemonitordescription">IDARG_IN_PARSEMONITORDESCRIPTION</a> value <b>pDefaultMonitorModes</b> was non-NULL, then this is the count of the monitor modes that the driver copied to that buffer.
                  
 
 
@@ -74,7 +74,7 @@ Gives information about the default description modes for the monitor, as well a
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt761894">IDARG_IN_PARSEMONITORDESCRIPTION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/iddcx/ns-iddcx-idarg_in_parsemonitordescription">IDARG_IN_PARSEMONITORDESCRIPTION</a>
  
 
  

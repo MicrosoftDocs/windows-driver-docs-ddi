@@ -48,7 +48,7 @@ product:
 ## -description
 
 
-<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_BSS_ENTRY structure defines an IEEE 802.11 Beacon or Response Frame that the 802.11 station
+<div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_BSS_ENTRY structure defines an IEEE 802.11 Beacon or Response Frame that the 802.11 station
   received during its last scan operation.
 
 
@@ -127,7 +127,7 @@ The received signal strength indicator (RSSI) value, in units of decibels refere
 
 The link quality value ranging from 0 through 100. A value of 100 specifies the highest link
      quality. For more information about determining the link quality, see
-     <a href="https://msdn.microsoft.com/a649114f-39d9-4cb1-9190-985dc7967268">Link Quality Operations</a>.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/link-quality-operations">Link Quality Operations</a>.
 
 
 ### -field bInRegDomain
@@ -141,7 +141,7 @@ This member specifies whether the AP or peer station is operating within the reg
 <li>
 If the 802.11 station does not support multiple regulatory domains, set the member to <b>TRUE</b>. For
        more information about multiple regulatory domains, see
-       <a href="https://msdn.microsoft.com/library/ms893670.aspx">
+       <a href="https://docs.microsoft.com/previous-versions/ms893670(v=msdn.10)">
        OID_DOT11_MULTI_DOMAIN_CAPABILITY_IMPLEMENTED</a>.
 
 </li>
@@ -231,7 +231,7 @@ When the 802.11 station performs a scan operation, the Native 802.11 miniport dr
 
 After the 802.11 station completes the scan operation, the miniport driver returns the list of the
     cached Beacon and Probe Response frames when queried by
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff569360">OID_DOT11_ENUM_BSS_LIST</a>. A separate
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-enum-bss-list">OID_DOT11_ENUM_BSS_LIST</a>. A separate
     DOT11_BSS_ENTRY structure is formatted for each Beacon and Probe Response frame.
 
 
@@ -251,7 +251,7 @@ After the 802.11 station completes the scan operation, the miniport driver retur
 
 
 
-<a href="https://msdn.microsoft.com/library/ms893670.aspx">
+<a href="https://docs.microsoft.com/previous-versions/ms893670(v=msdn.10)">
    OID_DOT11_MULTI_DOMAIN_CAPABILITY_IMPLEMENTED</a>
 
 
@@ -269,7 +269,7 @@ After the 802.11 station completes the scan operation, the miniport driver retur
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569360">OID_DOT11_ENUM_BSS_LIST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-enum-bss-list">OID_DOT11_ENUM_BSS_LIST</a>
 
 
 

@@ -46,9 +46,9 @@ req.typenames: D3DDDICB_LOCK2FLAGS
 ## -description
 
 
-<b>D3DDDICB_LOCK2FLAGS</b> is used by the <a href="https://msdn.microsoft.com/033FF321-2617-4AAF-8445-10800411F0B5">Lock2</a> kernel function to determine how an allocation is locked.
+<b>D3DDDICB_LOCK2FLAGS</b> is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/nf-d3dkmthk-d3dkmtlock2">Lock2</a> kernel function to determine how an allocation is locked.
    
-  Unlike <a href="https://msdn.microsoft.com/d64abd43-edf2-465a-8d99-8fdce1fcd25f">Lock</a>, which supported numerous flags, <a href="https://msdn.microsoft.com/033FF321-2617-4AAF-8445-10800411F0B5">Lock2</a> has none. The <b>Lock2</b> arguments allow flags to be specified using this structure, but currently it only has a reserved field to allow for capabilities to added in the future.
+  Unlike <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/nf-d3dkmthk-d3dkmtlock">Lock</a>, which supported numerous flags, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/nf-d3dkmthk-d3dkmtlock2">Lock2</a> has none. The <b>Lock2</b> arguments allow flags to be specified using this structure, but currently it only has a reserved field to allow for capabilities to added in the future.
 
 
 ## -struct-fields
@@ -71,11 +71,11 @@ This member must be zero.
 
 
 
-<a href="https://msdn.microsoft.com/d64abd43-edf2-465a-8d99-8fdce1fcd25f">Lock</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/nf-d3dkmthk-d3dkmtlock">Lock</a>
 
 
 
-<a href="https://msdn.microsoft.com/033FF321-2617-4AAF-8445-10800411F0B5">Lock2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/nf-d3dkmthk-d3dkmtlock2">Lock2</a>
  
 
  

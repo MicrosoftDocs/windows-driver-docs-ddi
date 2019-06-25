@@ -94,7 +94,7 @@ A pointer to the dump unload routine. This routine is called before the driver i
 
 ### -field DumpData
 
-The filter driver can pass a pointer to internal context data in this member. This pointer is passed back to the filter driver in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff553862">FILTER_EXTENSION</a> structure during each callback.
+The filter driver can pass a pointer to internal context data in this member. This pointer is passed back to the filter driver in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdddump/ns-ntdddump-_filter_extension">FILTER_EXTENSION</a> structure during each callback.
 
 
 ### -field MaxPagesPerWrite
@@ -161,27 +161,27 @@ If any of these members are not set, the dump filter driver will be marked as no
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552764">Dump_Finish</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdddump/nc-ntdddump-dump_finish">Dump_Finish</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439713">Dump_Read</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdddump/nc-ntdddump-dump_read">Dump_Read</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552767">Dump_Start</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdddump/nc-ntdddump-dump_start">Dump_Start</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552773">Dump_Unload</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdddump/nc-ntdddump-dump_unload">Dump_Unload</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553709">Dump_Write</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdddump/nc-ntdddump-dump_write">Dump_Write</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553862">FILTER_EXTENSION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdddump/ns-ntdddump-_filter_extension">FILTER_EXTENSION</a>
  
 
  

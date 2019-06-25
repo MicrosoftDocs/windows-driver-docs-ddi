@@ -64,7 +64,7 @@ The offloaded protocol is not specified.
 
 An IPv4 ARP protocol offload. The parameters for this protocol offload type are specified in the 
      <b>IPv4ARPParameters</b> member of the 
-     <a href="https://msdn.microsoft.com/1ae68e5c-f9ea-4454-b015-82e3af0f7ccd">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_pm_protocol_offload">
      NDIS_PM_PROTOCOL_OFFLOAD</a> structure.
 
 
@@ -72,14 +72,14 @@ An IPv4 ARP protocol offload. The parameters for this protocol offload type are 
 
 An IPv6 Neighbor Solicitation (NS) protocol offload. The parameters for this protocol offload type
      are specified in the 
-     <b>IPv6NSParameters</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566760">NDIS_PM_PROTOCOL_OFFLOAD</a> structure.
+     <b>IPv6NSParameters</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_pm_protocol_offload">NDIS_PM_PROTOCOL_OFFLOAD</a> structure.
 
 
 ### -field NdisPMProtocolOffload80211RSNRekey
 
 An IEEE 802.11i Robust Security Network (RSN) 4-way and 2-way handshake protocol offload. This
      protocol offload type is specified in the 
-     <b>Dot11RSNRekeyParameters</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566760">NDIS_PM_PROTOCOL_OFFLOAD</a> structure.
+     <b>Dot11RSNRekeyParameters</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_pm_protocol_offload">NDIS_PM_PROTOCOL_OFFLOAD</a> structure.
 
 
 ### -field NdisPMProtocolOffloadIdMaximum
@@ -94,7 +94,7 @@ The maximum value for this enumeration. This value might change in future versio
 
 The <b>NDIS_PM_PROTOCOL_OFFLOAD_TYPE</b> enumeration is used in the 
     <b>ProtocolOffloadType</b> member of the 
-    <a href="https://msdn.microsoft.com/1ae68e5c-f9ea-4454-b015-82e3af0f7ccd">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_pm_protocol_offload">
     NDIS_PM_PROTOCOL_OFFLOAD</a> structure.
 
 
@@ -105,7 +105,7 @@ The <b>NDIS_PM_PROTOCOL_OFFLOAD_TYPE</b> enumeration is used in the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566760">NDIS_PM_PROTOCOL_OFFLOAD</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_pm_protocol_offload">NDIS_PM_PROTOCOL_OFFLOAD</a>
  
 
  

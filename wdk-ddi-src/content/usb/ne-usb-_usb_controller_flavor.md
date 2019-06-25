@@ -196,7 +196,7 @@ Indicates an Intel Medfield host controller.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539256">USB_CONTROLLER_INFO_0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/usbuser/ns-usbuser-_usb_controller_info_0">USB_CONTROLLER_INFO_0</a>
  
 
  

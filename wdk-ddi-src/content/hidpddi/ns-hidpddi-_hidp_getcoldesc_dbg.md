@@ -47,7 +47,7 @@ req.typenames: HIDP_GETCOLDESC_DBG, *PHIDP_GETCOLDESC_DBG
 
 
 Contains the error code indicating the failure in parsing the report 
-                                      descriptor. This structure is used in the <a href="https://msdn.microsoft.com/library/windows/hardware/mt740164">HidP_GetCollectionDescription</a> call.
+                                      descriptor. This structure is used in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hidpddi/nf-hidpddi-hidp_getcollectiondescription">HidP_GetCollectionDescription</a> call.
 
 
 ## -struct-fields
@@ -78,7 +78,7 @@ Error-specific arguments. These are described as comments in the possible values
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt740164">HidP_GetCollectionDescription</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hidpddi/nf-hidpddi-hidp_getcollectiondescription">HidP_GetCollectionDescription</a>
  
 
  

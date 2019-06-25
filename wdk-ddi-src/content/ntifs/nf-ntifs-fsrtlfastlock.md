@@ -56,7 +56,7 @@ The <b>FsRtlFastLock</b> macro is used by file systems and filter drivers to req
 
 ### -param A1
 
-<p>Pointer to the FILE_LOCK structure for the file. This structure must have been initialized by a previous call to <a href="https://msdn.microsoft.com/library/Ff545640(v=VS.85).aspx"><b>FsRtlAllocateFileLock</b></a> or <a href="https://msdn.microsoft.com/library/Ff546122(v=VS.85).aspx"><b>FsRtlInitializeFileLock</b></a>.</p>
+<p>Pointer to the FILE_LOCK structure for the file. This structure must have been initialized by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock"><b>FsRtlAllocateFileLock</b></a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock"><b>FsRtlInitializeFileLock</b></a>.</p>
 
 
 ### -param A2
@@ -129,11 +129,11 @@ A return value of <b>TRUE</b> indicates that the IO_STATUS_BLOCK structure point
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545640">FsRtlAllocateFileLock</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock">FsRtlAllocateFileLock</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546122">FsRtlInitializeFileLock</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock">FsRtlInitializeFileLock</a>
  
 
  

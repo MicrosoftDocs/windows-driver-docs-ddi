@@ -46,7 +46,7 @@ req.typenames: WINBIO_CALIBRATION_INFO, *PWINBIO_CALIBRATION_INFO
 ## -description
 
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff536427">IOCTL_BIOMETRIC_CALIBRATE</a> IOCTL returns the WINBIO_CALIBRATION_INFO structure as output.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winbio_ioctl/ni-winbio_ioctl-ioctl_biometric_calibrate">IOCTL_BIOMETRIC_CALIBRATE</a> IOCTL returns the WINBIO_CALIBRATION_INFO structure as output.
 
 
 ## -struct-fields
@@ -71,5 +71,5 @@ The status detail of the I/O operation.  This is where WINBIO error and informat
 
 ### -field CalibrationData
 
-A structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff536469">WINBIO_DATA</a> that contains calibration data specific to this sensor.  This member is optional.
+A structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winbio_ioctl/ns-winbio_ioctl-_winbio_data">WINBIO_DATA</a> that contains calibration data specific to this sensor.  This member is optional.
 

@@ -69,7 +69,7 @@ None
 ### -output-buffer
 
 
-<a href="https://msdn.microsoft.com/AD5E6434-BBBF-44CB-8153-B8F4D4F75E94"> SECURE_ELEMENT_ROUTING_TABLE</a> containing all currently configured routing entries.
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/nfcsedev/ns-nfcsedev-_secure_element_routing_table"> SECURE_ELEMENT_ROUTING_TABLE</a> containing all currently configured routing entries.
 
 
 

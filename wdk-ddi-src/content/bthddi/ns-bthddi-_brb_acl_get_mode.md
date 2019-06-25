@@ -57,7 +57,7 @@ The _BRB_ACL_GET_MODE structure describes the ACL mode for the specified remote 
 ### -field Hdr
 
 A 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536612">BRB_HEADER</a> structure that contains information
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a> structure that contains information
      about the current BRB.
 
 
@@ -69,7 +69,7 @@ The address of the remote device.
 ### -field AclMode
 
 A value from the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536577">ACL_MODE</a> enumeration that specifies the ACL mode of
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/ne-bthddi-_acl_mode">ACL_MODE</a> enumeration that specifies the ACL mode of
      the remote device.
 
 
@@ -78,8 +78,8 @@ A value from the
 
 
 To get the current ACL connection state for a remote device, profile drivers should 
-    <a href="https://msdn.microsoft.com/53a692e7-9c71-4dca-9331-32ac97b94179">build and send</a> a 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff536609">BRB_ACL_GET_MODE</a> request.
+    <a href="https://docs.microsoft.com/previous-versions/ff536657(v=vs.85)">build and send</a> a 
+    <a href="https://docs.microsoft.com/previous-versions/ff536609(v=vs.85)">BRB_ACL_GET_MODE</a> request.
 
 
 
@@ -89,15 +89,15 @@ To get the current ACL connection state for a remote device, profile drivers sho
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536577">ACL_MODE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/ne-bthddi-_acl_mode">ACL_MODE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536609">BRB_ACL_GET_MODE</a>
+<a href="https://docs.microsoft.com/previous-versions/ff536609(v=vs.85)">BRB_ACL_GET_MODE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536612">BRB_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a>
  
 
  

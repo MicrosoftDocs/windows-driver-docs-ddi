@@ -103,7 +103,7 @@ Specifies the color/contrast of the highlight rectangle.
 
 
 
-The KSPROPERTY_SPHLI structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565150">KSPROPERTY_DVDSUBPIC_HLI</a> property.
+The KSPROPERTY_SPHLI structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-dvdsubpic-hli">KSPROPERTY_DVDSUBPIC_HLI</a> property.
 
 
 
@@ -113,7 +113,7 @@ The KSPROPERTY_SPHLI structure is used by the <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565150">KSPROPERTY_DVDSUBPIC_HLI</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-dvdsubpic-hli">KSPROPERTY_DVDSUBPIC_HLI</a>
  
 
  

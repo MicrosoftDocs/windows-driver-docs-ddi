@@ -73,7 +73,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/7A9AB25B-2B8B-4E8A-9E67-79C56181E5D9">IDebugOutputStream</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugoutputstream">IDebugOutputStream</a>
  
 
  

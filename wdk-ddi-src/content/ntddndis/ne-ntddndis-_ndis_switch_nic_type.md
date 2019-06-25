@@ -81,18 +81,18 @@ This value specifies an emulated network adapter that is exposed in a guest oper
 
 This value specifies a virtual network adapter that is exposed in the management operating system that runs in the Hyper-V parent partition. The internal network adapter provides access to an extensible switch for processes that run in the management operating system. This allows these processes to send or receive packets over the extensible switch.
 
-<div class="alert"><b>Note</b>  An extensible switch supports no more than one internal network adapter. For more information, see <a href="https://msdn.microsoft.com/4E4B0EC9-8E4C-47FC-B608-EC6D18367A79">Internal Network Adapters</a>.</div>
+<div class="alert"><b>Note</b>  An extensible switch supports no more than one internal network adapter. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/internal-network-adapters">Internal Network Adapters</a>.</div>
 <div> </div>
 
 ## -remarks
 
 
 
-The <b>NicType</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh598215">NDIS_SWITCH_NIC_PARAMETERS</a> structure is an <b>NDIS_SWITCH_NIC_TYPE</b> enumeration data type. 
+The <b>NicType</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_switch_nic_parameters">NDIS_SWITCH_NIC_PARAMETERS</a> structure is an <b>NDIS_SWITCH_NIC_TYPE</b> enumeration data type. 
 
 
 
-For more information on the types of network adapters that connect to extensible switch ports, see <a href="https://msdn.microsoft.com/30FBB908-74C1-480B-8DA7-B1334964BF53">Hyper-V Extensible Switch Network Adapters</a>.
+For more information on the types of network adapters that connect to extensible switch ports, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/hyper-v-extensible-switch-network-adapters">Hyper-V Extensible Switch Network Adapters</a>.
 
 
 
@@ -108,7 +108,7 @@ For more information on the types of network adapters that connect to extensible
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598215">NDIS_SWITCH_NIC_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_switch_nic_parameters">NDIS_SWITCH_NIC_PARAMETERS</a>
  
 
  

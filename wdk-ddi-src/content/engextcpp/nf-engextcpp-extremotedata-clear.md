@@ -53,11 +53,11 @@ The Clear method is a member of the <b>ExtRemoteData</b> class. The <b>ExtRemote
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554311">ReadPhysical2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugdataspaces4-readphysical2">ReadPhysical2</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544006">ExtRemoteData::ExtRemoteData</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-extremotedata-extremotedata">ExtRemoteData::ExtRemoteData</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544083">ExtRemoteData::Read</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-extremotedata-read">ExtRemoteData::Read</a>
 
 [ExtRemoteData](nl-engextcpp-extremotedata.md)
  

@@ -68,7 +68,7 @@ CASCADE_FORM
 
 </li>
 </ul>
-For more information, see the description of the <b>MaxFilterSize</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff537106">KSDS3D_HRTF_INIT_MSG</a>.
+For more information, see the description of the <b>MaxFilterSize</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-ksds3d_hrtf_init_msg">KSDS3D_HRTF_INIT_MSG</a>.
 
 
 ### -field CoeffFormat
@@ -100,9 +100,9 @@ Reserved. Set to zero.
 
 
 
-This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537353">KSPROPERTY_HRTF3D_FILTER_FORMAT</a> property.
+This structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-hrtf3d-filter-format">KSPROPERTY_HRTF3D_FILTER_FORMAT</a> property.
 
-For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff537482">KSPROPSETID_Hrtf3d</a>.
+For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/kspropsetid-hrtf3d">KSPROPSETID_Hrtf3d</a>.
 
 
 
@@ -112,11 +112,11 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537353">KSPROPERTY_HRTF3D_FILTER_FORMAT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-hrtf3d-filter-format">KSPROPERTY_HRTF3D_FILTER_FORMAT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537482">KSPROPSETID_Hrtf3d</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/kspropsetid-hrtf3d">KSPROPSETID_Hrtf3d</a>
  
 
  

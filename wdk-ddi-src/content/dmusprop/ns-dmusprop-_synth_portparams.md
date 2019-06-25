@@ -153,7 +153,7 @@ Specifies whether the port's channel groups are shared. When this member is <b>T
 
 
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff537405">KSPROPERTY_SYNTH_PORTPARAMETERS</a> get-property request uses the SYNTH_PORTPARAMS structure for both its property descriptor and its property value.
+A <a href="https://docs.microsoft.com/previous-versions/ff537405(v=vs.85)">KSPROPERTY_SYNTH_PORTPARAMETERS</a> get-property request uses the SYNTH_PORTPARAMS structure for both its property descriptor and its property value.
 
 
 
@@ -163,7 +163,7 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/ff537405">KSPROPE
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537405">KSPROPERTY_SYNTH_PORTPARAMETERS</a>
+<a href="https://docs.microsoft.com/previous-versions/ff537405(v=vs.85)">KSPROPERTY_SYNTH_PORTPARAMETERS</a>
  
 
  

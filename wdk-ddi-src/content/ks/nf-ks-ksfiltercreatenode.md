@@ -57,12 +57,12 @@ The<b> KsFilterCreateNode</b> function creates a new topology node on the specif
 
 ### -param Filter [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff562522">KSFILTER</a> structure on which to create a new topology node.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksfilter">KSFILTER</a> structure on which to create a new topology node.
 
 
 ### -param NodeDescriptor [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563473">KSNODE_DESCRIPTOR</a> structure that describes the new node.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksnode_descriptor">KSNODE_DESCRIPTOR</a> structure that describes the new node.
 
 
 ### -param NodeID [out]
@@ -83,7 +83,7 @@ A pointer to a ULONG where AVStream places the ID of the new node.
 
 
 
-Note that the filter control mutex must be held before calling this function. For more information, see <a href="https://msdn.microsoft.com/402795a0-e567-4e7e-a7d8-b2ce29ffb8fd">Filter Control Mutex in AVStream</a>.
+Note that the filter control mutex must be held before calling this function. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/filter-control-mutex-in-avstream">Filter Control Mutex in AVStream</a>.
 
 
 
@@ -93,7 +93,7 @@ Note that the filter control mutex must be held before calling this function. Fo
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562529">KsFilterCreatePinFactory</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksfiltercreatepinfactory">KsFilterCreatePinFactory</a>
  
 
  

@@ -61,7 +61,7 @@ The index number of the interface.
 
 ### -field Speed
 
-The operating bus speed indicated by <a href="https://msdn.microsoft.com/library/windows/hardware/mt187987">USBFN_BUS_SPEED</a>-typed flags.
+The operating bus speed indicated by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbfnbase/ne-usbfnbase-_usbfn_bus_speed">USBFN_BUS_SPEED</a>-typed flags.
 
 
 ### -field Size
@@ -79,7 +79,7 @@ Pointer to the first element in the array of that contains the interface descrip
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt187987">USBFN_BUS_SPEED</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbfnbase/ne-usbfnbase-_usbfn_bus_speed">USBFN_BUS_SPEED</a>
  
 
  

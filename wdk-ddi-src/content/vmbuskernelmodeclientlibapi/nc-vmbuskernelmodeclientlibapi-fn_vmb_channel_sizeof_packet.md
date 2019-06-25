@@ -44,7 +44,7 @@ ms.custom: RS5
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 The <b>VmbChannelSizeofPacket</b> function calculates the necessary size for buffers to be used with
-the <a href="https://msdn.microsoft.com/D5D8D994-0BB6-44FC-A696-F2E0264445C1">VmbPacketInitialize</a> function.
+the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbpacketinitialize">VmbPacketInitialize</a> function.
 
 ## -prototype
 
@@ -82,4 +82,4 @@ The necessary buffer size, in bytes.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/D5D8D994-0BB6-44FC-A696-F2E0264445C1">VmbPacketInitialize</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbpacketinitialize">VmbPacketInitialize</a>

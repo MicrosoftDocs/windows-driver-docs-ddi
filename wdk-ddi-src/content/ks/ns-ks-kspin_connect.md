@@ -46,7 +46,7 @@ req.typenames: KSPIN_CONNECT, *PKSPIN_CONNECT
 ## -description
 
 
-Clients use the KSPIN_CONNECT structure to describe the connection they request from a driver in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561652">KsCreatePin</a> call.
+Clients use the KSPIN_CONNECT structure to describe the connection they request from a driver in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-kscreatepin">KsCreatePin</a> call.
 
 
 ## -struct-fields
@@ -56,12 +56,12 @@ Clients use the KSPIN_CONNECT structure to describe the connection they request 
 
 ### -field Interface
 
-Specifies the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563537">KSPIN_INTERFACE</a> to use for this connection. 
+Specifies the <a href="https://docs.microsoft.com/previous-versions/ff563537(v=vs.85)">KSPIN_INTERFACE</a> to use for this connection. 
 
 
 ### -field Medium
 
-A structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff563538">KSPIN_MEDIUM</a> that specifies the medium to use for this connection. 
+A structure of type <a href="https://docs.microsoft.com/previous-versions/ff563538(v=vs.85)">KSPIN_MEDIUM</a> that specifies the medium to use for this connection. 
 
 
 ### -field PinId
@@ -76,7 +76,7 @@ Specifies what type of destination pin the create is intended for, and in the ca
 
 ### -field Priority
 
-A structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff564250">KSPRIORITY</a> that specifies the priority for the connection, usually KSPRIORITY_NORMAL. See the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565104">KSPROPERTY_CONNECTION_PRIORITY</a> property for details.
+A structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-kspriority">KSPRIORITY</a> that specifies the priority for the connection, usually KSPRIORITY_NORMAL. See the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-connection-priority">KSPROPERTY_CONNECTION_PRIORITY</a> property for details.
 
 
 ## -remarks
@@ -93,15 +93,15 @@ If the KSPIN_CONNECT.PinToHandle element is not <b>NULL</b>, IRP_MJ_CREATE instr
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563537">KSPIN_INTERFACE</a>
+<a href="https://docs.microsoft.com/previous-versions/ff563537(v=vs.85)">KSPIN_INTERFACE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565104">KSPROPERTY_CONNECTION_PRIORITY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-connection-priority">KSPROPERTY_CONNECTION_PRIORITY</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561652">KsCreatePin</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-kscreatepin">KsCreatePin</a>
  
 
  

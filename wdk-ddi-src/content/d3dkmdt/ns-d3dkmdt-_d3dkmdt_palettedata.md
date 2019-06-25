@@ -79,11 +79,11 @@ An unused portion of the display.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557655">DXGKARG_SETPALETTE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmdt/ns-d3dkmdt-_dxgkarg_setpalette">DXGKARG_SETPALETTE</a>
 
 
 
-<a href="https://msdn.microsoft.com/3a46bf84-df62-4247-b842-d5b131c96428">DxgkDdiSetPalette</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_setpalette">DxgkDdiSetPalette</a>
  
 
  

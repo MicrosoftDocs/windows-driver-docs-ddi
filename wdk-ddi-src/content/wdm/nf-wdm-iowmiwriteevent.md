@@ -56,7 +56,7 @@ The <b>IoWMIWriteEvent</b> routine delivers a given event to the user-mode WMI c
 
 ### -param WnodeEventItem [in, out]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff566373">WNODE_EVENT_ITEM</a> structure to be delivered to the user-mode WMI components that requested notification of the event. 
+Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wmistr/ns-wmistr-tagwnode_event_item">WNODE_EVENT_ITEM</a> structure to be delivered to the user-mode WMI components that requested notification of the event. 
 
 
 ## -returns
@@ -128,7 +128,7 @@ The WNODE_EVENT_ITEM structure that is allocated by the caller and passed in <i>
 
 Drivers should only call <b>IoWMIWriteEvent</b> for events that have been enabled for WMI. This ensures that there is an event consumer waiting for indication on that event.
 
-Callers of this routine must be running at IRQL <= APC_LEVEL, with one exception. When the <b>Flags</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566375">WNODE_HEADER</a> structure contains WNODE_FLAG_TRACED_GUID, <b>IoWMIWriteEvent</b> can be called at any IRQL. (The <b>WNODE_HEADER</b> structure is a member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566373">WNODE_EVENT_ITEM</a> structure that the <i>WnodeEventItem</i> parameter points to.)
+Callers of this routine must be running at IRQL <= APC_LEVEL, with one exception. When the <b>Flags</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wmistr/ns-wmistr-_wnode_header">WNODE_HEADER</a> structure contains WNODE_FLAG_TRACED_GUID, <b>IoWMIWriteEvent</b> can be called at any IRQL. (The <b>WNODE_HEADER</b> structure is a member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wmistr/ns-wmistr-tagwnode_event_item">WNODE_EVENT_ITEM</a> structure that the <i>WnodeEventItem</i> parameter points to.)
 
 
 
@@ -138,11 +138,11 @@ Callers of this routine must be running at IRQL <= APC_LEVEL, with one exception
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550433">IoWmiDeviceObjectToProviderId</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iowmideviceobjecttoproviderid">IoWmiDeviceObjectToProviderId</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566373">WNODE_EVENT_ITEM</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wmistr/ns-wmistr-tagwnode_event_item">WNODE_EVENT_ITEM</a>
  
 
  

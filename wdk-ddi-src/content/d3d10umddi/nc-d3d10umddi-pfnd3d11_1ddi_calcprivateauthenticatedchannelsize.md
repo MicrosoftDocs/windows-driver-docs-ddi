@@ -63,7 +63,7 @@ A handle to the display device (graphics context).
 
 ### -param *pCreateData [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406306">D3D11_1DDIARG_CREATEAUTHENTICATEDCHANNEL</a> structure that describes the authenticated channel.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ns-d3d10umddi-d3d11_1ddiarg_createauthenticatedchannel">D3D11_1DDIARG_CREATEAUTHENTICATEDCHANNEL</a> structure that describes the authenticated channel.
 
 
 ## -returns
@@ -89,7 +89,7 @@ This function is not expected to fail.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406306">D3D11_1DDIARG_CREATEAUTHENTICATEDCHANNEL</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ns-d3d10umddi-d3d11_1ddiarg_createauthenticatedchannel">D3D11_1DDIARG_CREATEAUTHENTICATEDCHANNEL</a>
  
 
  

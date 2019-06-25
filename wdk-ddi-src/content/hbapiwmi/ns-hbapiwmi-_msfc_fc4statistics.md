@@ -46,7 +46,7 @@ req.typenames: MSFC_FC4STATISTICS, *PMSFC_FC4STATISTICS
 ## -description
 
 
-The MSFC_FC4STATISTICS structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553949">GetFC4Statistics</a> WMI method to report traffic statistics on a port of type Nx_Port for the indicated FC-4 protocol.
+The MSFC_FC4STATISTICS structure is used in conjunction with the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/getfc4statistics">GetFC4Statistics</a> WMI method to report traffic statistics on a port of type Nx_Port for the indicated FC-4 protocol.
 
 
 ## -struct-fields
@@ -95,15 +95,15 @@ If an HBA does not support a specific statistic, it shall return the value of -1
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553949">GetFC4Statistics</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/getfc4statistics">GetFC4Statistics</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553958">GetFC4Statistics_IN</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hbapiwmi/ns-hbapiwmi-_getfc4statistics_in">GetFC4Statistics_IN</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553960">GetFC4Statistics_OUT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hbapiwmi/ns-hbapiwmi-_getfc4statistics_out">GetFC4Statistics_OUT</a>
  
 
  

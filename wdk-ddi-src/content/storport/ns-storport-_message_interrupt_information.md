@@ -56,7 +56,7 @@ The <b>MESSAGE_INTERRUPT_INFORMATION</b> structure describes a message signaled 
 
 ### -field MessageId
 
-An identifier identifies the MSI interrupt. A miniport driver can pass this value to <a href="https://msdn.microsoft.com/library/windows/hardware/ff567023">StorPortAcquireMSISpinLock</a> in the <i>MessageId</i> parameter to obtain a spin lock for synchronization purposes. 
+An identifier identifies the MSI interrupt. A miniport driver can pass this value to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportacquiremsispinlock">StorPortAcquireMSISpinLock</a> in the <i>MessageId</i> parameter to obtain a spin lock for synchronization purposes. 
 
 
 ### -field MessageData
@@ -81,14 +81,14 @@ The interrupt level associated with the message.
 
 ### -field InterruptMode
 
-A value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff554239">KINTERRUPT_MODE</a> that specifies the interrupt mode associated with the message.  
+A value of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_kinterrupt_mode">KINTERRUPT_MODE</a> that specifies the interrupt mode associated with the message.  
 
 
 ## -remarks
 
 
 
-Miniport drivers retrieve the MSI information in a <b>MESSAGE_INTERRUPT_INFORMATION</b> structure by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567090">StorPortGetMSIInfo</a> routine. 
+Miniport drivers retrieve the MSI information in a <b>MESSAGE_INTERRUPT_INFORMATION</b> structure by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportgetmsiinfo">StorPortGetMSIInfo</a> routine. 
 
 
 
@@ -98,7 +98,7 @@ Miniport drivers retrieve the MSI information in a <b>MESSAGE_INTERRUPT_INFORMAT
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567090">StorPortGetMSIInfo</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportgetmsiinfo">StorPortGetMSIInfo</a>
  
 
  

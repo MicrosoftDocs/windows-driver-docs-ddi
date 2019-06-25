@@ -85,7 +85,7 @@ The <b>Stride</b> value must be DWORD-aligned.
 
 
 
-<a href="https://msdn.microsoft.com/669dbabc-91fb-40f9-a034-11c3c2e70436">SetStreamSource</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_setstreamsource">SetStreamSource</a>
  
 
  

@@ -46,7 +46,7 @@ req.typenames: DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT
 ## -description
 
 
-Used in a call to the <a href="https://msdn.microsoft.com/8332DD64-B75E-40A4-9D98-3406187150F2">DxgkDdiCheckMultiPlaneOverlaySupport</a> function to check details on hardware support for multiplane overlays.
+Used in a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_checkmultiplaneoverlaysupport">DxgkDdiCheckMultiPlaneOverlaySupport</a> function to check details on hardware support for multiplane overlays.
 
 
 ## -struct-fields
@@ -61,7 +61,7 @@ The number of overlay planes that the hardware supports.
 
 ### -field pPlanes
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn305132">DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE</a> structure that specifies support attributes that the hardware provides for multiplane overlays.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgk_check_multiplane_overlay_support_plane">DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE</a> structure that specifies support attributes that the hardware provides for multiplane overlays.
 
 
 ### -field Supported
@@ -79,11 +79,11 @@ Specifies limitations on hardware support of multiplane overlays.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn305132">DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgk_check_multiplane_overlay_support_plane">DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE</a>
 
 
 
-<a href="https://msdn.microsoft.com/8332DD64-B75E-40A4-9D98-3406187150F2">DxgkDdiCheckMultiPlaneOverlaySupport</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_checkmultiplaneoverlaysupport">DxgkDdiCheckMultiPlaneOverlaySupport</a>
  
 
  

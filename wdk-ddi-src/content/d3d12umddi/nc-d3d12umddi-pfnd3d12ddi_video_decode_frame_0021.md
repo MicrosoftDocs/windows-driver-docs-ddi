@@ -71,7 +71,7 @@ The submission ID is a monotonically increasing integer value.  The value passed
 
 ### -param *pOutputStreamParameters
 
-The output surface and output parameters.  For more information, see the <a href="https://msdn.microsoft.com/4179447D-481F-4EC3-922C-4DFE3F5D768F">D3D12DDI_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS</a> structure. 
+The output surface and output parameters.  For more information, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d12umddi/ns-d3d12umddi-d3d12ddi_video_decode_output_stream_arguments_0021">D3D12DDI_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS</a> structure. 
 
 ### -param *pInputStreamParameters
 
@@ -97,7 +97,7 @@ This callback function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/4179447D-481F-4EC3-922C-4DFE3F5D768F">D3D12DDI_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d12umddi/ns-d3d12umddi-d3d12ddi_video_decode_output_stream_arguments_0021">D3D12DDI_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS</a>
 
 
 

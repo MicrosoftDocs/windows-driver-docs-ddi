@@ -61,7 +61,7 @@ The ID of the node that represents the audio device.
 
 ### -param pFormats [out]
 
-A structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff563441(v=vs.85).aspx">KSMULTIPLE_ITEM</a> that points to the array of audio data formats supported by the audio device.
+A structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksmultiple_item">KSMULTIPLE_ITEM</a> that points to the array of audio data formats supported by the audio device.
 
 
 ### -param ulBufferSize [in]
@@ -85,11 +85,11 @@ returns an appropriate error code.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn302040">IMiniportAudioEngineNode</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iminiportaudioenginenode">IMiniportAudioEngineNode</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563441(v=vs.85).aspx">KSMULTIPLE_ITEM</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksmultiple_item">KSMULTIPLE_ITEM</a>
  
 
  

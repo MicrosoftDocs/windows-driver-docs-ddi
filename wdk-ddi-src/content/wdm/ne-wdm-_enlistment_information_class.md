@@ -46,7 +46,7 @@ req.typenames: ENLISTMENT_INFORMATION_CLASS
 ## -description
 
 
-The <b>ENLISTMENT_INFORMATION_CLASS</b> enumeration identifies the type of information that the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567094">ZwSetInformationEnlistment</a> routine can set and that the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567051">ZwQueryInformationEnlistment</a> routine can retrieve for an <a href="https://msdn.microsoft.com/80e61475-4bb7-4eaa-b9f1-ff95eac9bc77">enlistment object</a>.
+The <b>ENLISTMENT_INFORMATION_CLASS</b> enumeration identifies the type of information that the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ntsetinformationenlistment">ZwSetInformationEnlistment</a> routine can set and that the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ntqueryinformationenlistment">ZwQueryInformationEnlistment</a> routine can retrieve for an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/enlistment-objects">enlistment object</a>.
 
 
 ## -enum-fields
@@ -56,12 +56,12 @@ The <b>ENLISTMENT_INFORMATION_CLASS</b> enumeration identifies the type of infor
 
 ### -field EnlistmentBasicInformation
 
-Information about an enlistment object is stored in an <a href="https://msdn.microsoft.com/library/windows/hardware/ff544254">ENLISTMENT_BASIC_INFORMATION</a> structure.
+Information about an enlistment object is stored in an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_enlistment_basic_information">ENLISTMENT_BASIC_INFORMATION</a> structure.
 
 
 ### -field EnlistmentRecoveryInformation
 
-A resource manager is setting or obtaining customized recovery information for an enlistment. To learn more about recovery information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff567094">ZwSetInformationEnlistment</a>.
+A resource manager is setting or obtaining customized recovery information for an enlistment. To learn more about recovery information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ntsetinformationenlistment">ZwSetInformationEnlistment</a>.
 
 
 ### -field EnlistmentCrmInformation
@@ -74,15 +74,15 @@ Information about an enlistment object is stored in an <b>ENLISTMENT_CRM_INFORMA
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544254">ENLISTMENT_BASIC_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_enlistment_basic_information">ENLISTMENT_BASIC_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567051">ZwQueryInformationEnlistment</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ntqueryinformationenlistment">ZwQueryInformationEnlistment</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567094">ZwSetInformationEnlistment</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ntsetinformationenlistment">ZwSetInformationEnlistment</a>
  
 
  

@@ -131,7 +131,7 @@ All calls to <b>RxFsdPostRequest</b> are queued to a worker thread to call the <
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554468">RxFsdDispatch</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/mrx/nf-mrx-rxfsddispatch">RxFsdDispatch</a>
  
 
  

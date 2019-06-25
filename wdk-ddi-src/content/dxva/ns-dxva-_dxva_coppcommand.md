@@ -91,7 +91,7 @@ DEFINE_GUID(DXVA_COPPSetSignaling,
 
 ### -field dwSequence
 
-Specifies a sequence number. For the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539642">COPPCommand</a> function to process the command, the value in <b>dwSequence</b> must match the 32-bit random starting status sequence number that was passed in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563150">DXVA_COPPSignature</a> structure to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540421">COPPSequenceStart</a> function.
+Specifies a sequence number. For the <a href="https://docs.microsoft.com/windows-hardware/drivers/display/coppcommand">COPPCommand</a> function to process the command, the value in <b>dwSequence</b> must match the 32-bit random starting status sequence number that was passed in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ns-dxva-_dxva_coppsignature">DXVA_COPPSignature</a> structure to the <a href="https://docs.microsoft.com/windows-hardware/drivers/display/coppsequencestart">COPPSequenceStart</a> function.
 
 
 ### -field cbSizeData
@@ -108,9 +108,9 @@ Specifies an array that comprises the command data.
 
 
 
-For a DXVA_COPPSetProtectionLevel command, the protection information is supplied in the first 16 bytes of the <b>CommandData</b> array (the protection type in the first 4 bytes, the protection level in the next 4 bytes, and possibly some extended information in the last 8 bytes). In the call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539642">COPPCommand</a> function, the <b>CommandData</b> array should be cast to a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563143">DXVA_COPPSetProtectionLevelCmdData</a> structure, which contains protection type, protection level, and extended information members. 
+For a DXVA_COPPSetProtectionLevel command, the protection information is supplied in the first 16 bytes of the <b>CommandData</b> array (the protection type in the first 4 bytes, the protection level in the next 4 bytes, and possibly some extended information in the last 8 bytes). In the call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/display/coppcommand">COPPCommand</a> function, the <b>CommandData</b> array should be cast to a pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ns-dxva-_dxva_coppsetprotectionlevelcmddata">DXVA_COPPSetProtectionLevelCmdData</a> structure, which contains protection type, protection level, and extended information members. 
 
-For a DXVA_COPPSetSignaling command, the signaling information is supplied by casting the <b>CommandData</b> array to a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563146">DXVA_COPPSetSignalingCmdData</a> structure. 
+For a DXVA_COPPSetSignaling command, the signaling information is supplied by casting the <b>CommandData</b> array to a pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ns-dxva-_dxva_coppsetsignalingcmddata">DXVA_COPPSetSignalingCmdData</a> structure. 
 
 
 
@@ -120,23 +120,23 @@ For a DXVA_COPPSetSignaling command, the signaling information is supplied by ca
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539642">COPPCommand</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/display/coppcommand">COPPCommand</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540421">COPPSequenceStart</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/display/coppsequencestart">COPPSequenceStart</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563143">DXVA_COPPSetProtectionLevelCmdData</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ns-dxva-_dxva_coppsetprotectionlevelcmddata">DXVA_COPPSetProtectionLevelCmdData</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563146">DXVA_COPPSetSignalingCmdData</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ns-dxva-_dxva_coppsetsignalingcmddata">DXVA_COPPSetSignalingCmdData</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563150">DXVA_COPPSignature</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ns-dxva-_dxva_coppsignature">DXVA_COPPSignature</a>
  
 
  

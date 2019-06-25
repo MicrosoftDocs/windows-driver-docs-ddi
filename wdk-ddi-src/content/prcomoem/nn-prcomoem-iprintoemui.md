@@ -51,7 +51,7 @@ This section describes the methods defined for the <b>IPrintOemUI</b> COM interf
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintOemUI</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IPrintOemUI</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintOemUI</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintOemUI</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -66,7 +66,7 @@ The <b>IPrintOemUI</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6218913c-d11c-4646-a292-5f8740097d58">CommonUIProp</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintoemui-commonuiprop">CommonUIProp</a>
 </td>
 <td align="left" width="63%">
 The <code>IPrintOemUI::CommonUIProp</code> method allows a user interface plug-in to modify an existing printer property sheet page.
@@ -75,7 +75,7 @@ The <code>IPrintOemUI::CommonUIProp</code> method allows a user interface plug-i
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a3d3e986-41ab-489a-a930-b10e9989553f">DeviceCapabilities</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintoemui-devicecapabilities">DeviceCapabilities</a>
 </td>
 <td align="left" width="63%">
 The <code>IPrintOemUI::DeviceCapabilities</code> method enables a user interface plug-in to specify customized device capabilities.
@@ -84,7 +84,7 @@ The <code>IPrintOemUI::DeviceCapabilities</code> method enables a user interface
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7d782f53-2409-416d-a3be-dad932c440a1">DevicePropertySheets</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintoemui-devicepropertysheets">DevicePropertySheets</a>
 </td>
 <td align="left" width="63%">
 The <code>IPrintOemUI::DevicePropertySheets</code> method allows a user interface plug-in to append a new page to a printer device's printer property sheet.
@@ -93,7 +93,7 @@ The <code>IPrintOemUI::DevicePropertySheets</code> method allows a user interfac
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/decc76c4-1973-41c5-9091-6dc5b9ccd30d">DevMode</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintoemui-devmode">DevMode</a>
 </td>
 <td align="left" width="63%">
 The <code>IPrintOemUI::DevMode</code> method, provided by user interface plug-ins, performs operations on the plug-in's private DEVMODEW members.
@@ -102,7 +102,7 @@ The <code>IPrintOemUI::DevMode</code> method, provided by user interface plug-in
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a8c7eb0d-792f-4a6c-af47-bb4558feb790">DocumentPropertySheets</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintoemui-documentpropertysheets">DocumentPropertySheets</a>
 </td>
 <td align="left" width="63%">
 The <code>IPrintOemUI::DocumentPropertySheets</code> method allows a user interface plug-in to append a new page to a printer device's document property sheet.
@@ -111,16 +111,16 @@ The <code>IPrintOemUI::DocumentPropertySheets</code> method allows a user interf
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/aacddaea-3a6f-4018-92ac-fe4aa2ddabd3">DriverEvent</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintoemui-driverevent">DriverEvent</a>
 </td>
 <td align="left" width="63%">
-The printer driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff548551">DrvDriverEvent</a> function calls a user interface plug-in's <code>IPrintOemUI::DriverEvent</code> method for additional processing of printer driver events.
+The printer driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winddiui/nf-winddiui-drvdriverevent">DrvDriverEvent</a> function calls a user interface plug-in's <code>IPrintOemUI::DriverEvent</code> method for additional processing of printer driver events.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6f63d48d-7c2f-4531-b6db-fd4fdcfbce27">FontInstallerDlgProc</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintoemui-fontinstallerdlgproc">FontInstallerDlgProc</a>
 </td>
 <td align="left" width="63%">
 A user interface plug-in's <code>IPrintOemUI::FontInstallerDlgProc</code> method replaces the Unidrv font installer's user interface.
@@ -129,7 +129,7 @@ A user interface plug-in's <code>IPrintOemUI::FontInstallerDlgProc</code> method
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451309">GetInfo</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfinterrupt-getinfo">GetInfo</a>
 </td>
 <td align="left" width="63%">
 A user interface plug-in's <code>IPrintOemUI::GetInfo</code> method returns identification information.
@@ -138,7 +138,7 @@ A user interface plug-in's <code>IPrintOemUI::GetInfo</code> method returns iden
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/214ea4d8-3bf9-4248-8bfa-7180635769be">PrinterEvent</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintoemui-printerevent">PrinterEvent</a>
 </td>
 <td align="left" width="63%">
 The <code>IPrintOemUI::PrinterEvent</code> method allows a user interface plug-in to process printer events.
@@ -147,7 +147,7 @@ The <code>IPrintOemUI::PrinterEvent</code> method allows a user interface plug-i
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4c2053ec-c6b3-4584-b689-dc887610c57e">PublishDriverInterface</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintoemui-publishdriverinterface">PublishDriverInterface</a>
 </td>
 <td align="left" width="63%">
 The <code>IPrintOemUI::PublishDriverInterface</code> method allows a user interface plug-in to obtain the Unidrv or Pscript5 driver's <b>IPrintOemDriverUI</b>, <b>IPrintCoreUI2</b>, <b>IPrintCoreHelperPS</b>, or <b>IPrintCoreHelperUni</b> interface.
@@ -156,7 +156,7 @@ The <code>IPrintOemUI::PublishDriverInterface</code> method allows a user interf
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ce1131f9-4b9c-4f20-afc9-514ccbc7ecf7">QueryColorProfile</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintoemui-querycolorprofile">QueryColorProfile</a>
 </td>
 <td align="left" width="63%">
 The <code>IPrintOemUI::QueryColorProfile</code> method allows a user interface plug-in to specify an ICC profile to use for color management.
@@ -165,16 +165,16 @@ The <code>IPrintOemUI::QueryColorProfile</code> method allows a user interface p
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5c501305-fa5f-4466-9a9a-83f072d904b3">UpdateExternalFonts</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintoemui-updateexternalfonts">UpdateExternalFonts</a>
 </td>
 <td align="left" width="63%">
-The <code>IPrintOemUI::UpdateExternalFonts</code> method allows a user interface plug-in to update a printer's <a href="https://msdn.microsoft.com/6e643703-ace1-4660-990c-3a9ca735829d">Unidrv Font Format Files</a> (.uff file).
+The <code>IPrintOemUI::UpdateExternalFonts</code> method allows a user interface plug-in to update a printer's <a href="https://docs.microsoft.com/windows-hardware/drivers/print/customized-font-management">Unidrv Font Format Files</a> (.uff file).
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/405f0000-c239-4f2c-83ad-5d35441a5df2">UpgradePrinter</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintoemui-upgradeprinter">UpgradePrinter</a>
 </td>
 <td align="left" width="63%">
 The <code>IPrintOemUI::UpgradePrinter</code> method allows a user interface plug-in to upgrade device option values that are stored in the registry.

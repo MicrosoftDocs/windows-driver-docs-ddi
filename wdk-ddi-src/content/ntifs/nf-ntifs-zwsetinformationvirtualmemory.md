@@ -56,7 +56,7 @@ The <b>ZwSetInformationVirtualMemory</b> routine performs an operation on a spec
 
 ### -param ProcessHandle [in]
 
-Specifies an open handle for the process in the context of which the operation is to be performed. This handle cannot be invalid. Use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556482">NtCurrentProcess</a> macro, defined in Ntddk.h, to specify the current process.
+Specifies an open handle for the process in the context of which the operation is to be performed. This handle cannot be invalid. Use the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer">NtCurrentProcess</a> macro, defined in Ntddk.h, to specify the current process.
 
 
 ### -param VmInformationClass [in]

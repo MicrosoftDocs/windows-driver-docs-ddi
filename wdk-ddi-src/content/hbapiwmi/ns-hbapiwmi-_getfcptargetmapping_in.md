@@ -46,7 +46,7 @@ req.typenames: GetFcpTargetMapping_IN, *PGetFcpTargetMapping_IN
 ## -description
 
 
-The GetFcpTargetMapping_IN structure is used to report the output parameter data of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554948">GetFcpTargetMapping</a> WMI method to the WMI client.
+The GetFcpTargetMapping_IN structure is used to report the output parameter data of the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/getfcptargetmapping">GetFcpTargetMapping</a> WMI method to the WMI client.
 
 
 ## -struct-fields
@@ -68,9 +68,9 @@ Indicates the total number of persistent bindings associated with the HBA.
 
 
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff554948">GetFcpTargetMapping</a> WMI method queries a WMI provider for mappings between the information that uniquely identifies a set of logical units for the operating system and the fibre channel protocol (FCP) identifiers for the logical units.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/getfcptargetmapping">GetFcpTargetMapping</a> WMI method queries a WMI provider for mappings between the information that uniquely identifies a set of logical units for the operating system and the fibre channel protocol (FCP) identifiers for the logical units.
 
-The WMI tool suite generates a declaration of the GetFcpTargetMapping_IN structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562509">MSFC_HBAFCPInfo WMI Class</a>.
+The WMI tool suite generates a declaration of the GetFcpTargetMapping_IN structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msfc-hbafcpinfo-wmi-class">MSFC_HBAFCPInfo WMI Class</a>.
 
 
 
@@ -80,11 +80,11 @@ The WMI tool suite generates a declaration of the GetFcpTargetMapping_IN structu
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554948">GetFcpTargetMapping</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/getfcptargetmapping">GetFcpTargetMapping</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562509">MSFC_HBAFCPInfo WMI Class</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msfc-hbafcpinfo-wmi-class">MSFC_HBAFCPInfo WMI Class</a>
  
 
  
