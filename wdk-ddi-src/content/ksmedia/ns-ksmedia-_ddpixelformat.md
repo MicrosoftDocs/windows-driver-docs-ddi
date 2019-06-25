@@ -52,7 +52,7 @@ The DDPIXELFORMAT structure describes the pixel format of a DirectDrawSurface ob
 
 Specifies the size in bytes of the DDPIXELFORMAT structure. The driver must initialize this member before the structure is used.
 
-**DirectX 9.0 and later versions only.** Specifies, on input, the version of the Microsoft DirectX runtime being used by the application. This member is set to DD_RUNTIME_VERSION, which is 0x00000900 for DirectX 9.0, in the **format** member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551569">DD_GETFORMATDATA</a> structure for a D3DGDI2_TYPE_GETFORMAT query.
+**DirectX 9.0 and later versions only.** Specifies, on input, the version of the Microsoft DirectX runtime being used by the application. This member is set to DD_RUNTIME_VERSION, which is 0x00000900 for DirectX 9.0, in the **format** member of the [DD_GETFORMATDATA](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dhal/ns-d3dhal-_dd_getformatdata) structure for a D3DGDI2_TYPE_GETFORMAT query.
 
 ### -field dwFlags
 
