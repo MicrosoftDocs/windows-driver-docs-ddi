@@ -56,7 +56,7 @@ The <i>KbCallbackSecondaryDumpData</i> routine provides data to the system to ap
 
 ### -param Reason [in]
 
-Specifies the reason for the call to the callback routine. This value can be one of the following as defined in  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_kbugcheck_callback_reason">KBUGCHECK_CALLBACK_REASON</a>
+Specifies the reason for the call to the callback routine. This value can be one of the following as defined in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_kbugcheck_callback_reason">KBUGCHECK_CALLBACK_REASON</a> enumeration.
 
 
 ### -param Record [in]
