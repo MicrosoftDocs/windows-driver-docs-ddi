@@ -97,7 +97,7 @@ A Subunit Address encoded according to Section 5.3.3 of the AV/C Digital Interfa
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560783">IOCTL_AVC_BUS_RESET</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/avc/ni-avc-ioctl_avc_bus_reset">IOCTL_AVC_BUS_RESET</a>
  
 
  

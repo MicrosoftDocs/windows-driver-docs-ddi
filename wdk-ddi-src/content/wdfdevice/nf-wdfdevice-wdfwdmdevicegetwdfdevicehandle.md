@@ -59,7 +59,7 @@ The <b>WdfWdmDeviceGetWdfDeviceHandle</b> method returns a handle to the framewo
 
 ### -param DeviceObject [in]
 
-A pointer to a WDM <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a> structure that the calling driver created.
+A pointer to a WDM <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure that the calling driver created.
 
 
 ## -returns
@@ -75,7 +75,7 @@ If the specified WDM device object is valid, <b>WdfWdmDeviceGetWdfDeviceHandle</
 
 
 
-The WDM DEVICE_OBJECT structure that the driver specifies for the <i>DeviceObject</i> parameter must represent a device object that the calling driver created. For example, the structure cannot represent any of the WDM device objects that the driver specified in a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff546802">WdfDeviceMiniportCreate</a>.
+The WDM DEVICE_OBJECT structure that the driver specifies for the <i>DeviceObject</i> parameter must represent a device object that the calling driver created. For example, the structure cannot represent any of the WDM device objects that the driver specified in a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfminiport/nf-wdfminiport-wdfdeviceminiportcreate">WdfDeviceMiniportCreate</a>.
 
 
 #### Examples
@@ -102,7 +102,7 @@ device = WdfWdmDeviceGetWdfDeviceHandle(pWdmDeviceObject);</pre>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546802">WdfDeviceMiniportCreate</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfminiport/nf-wdfminiport-wdfdeviceminiportcreate">WdfDeviceMiniportCreate</a>
  
 
  

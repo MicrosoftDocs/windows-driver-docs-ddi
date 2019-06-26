@@ -75,7 +75,7 @@ A handle to a framework request object.
 
 
 
-If your driver supports <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/supporting-kernel-mode-clients-in-umdf-drivers">kernel-mode clients</a>, it should call <b>WdfRequestIsFromUserModeDriver</b> only if <a href="https://msdn.microsoft.com/library/windows/hardware/ff549971">WdfRequestGetRequestorMode</a> returns <b>WdfUserMode</b>.
+If your driver supports <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/supporting-kernel-mode-clients-in-umdf-drivers">kernel-mode clients</a>, it should call <b>WdfRequestIsFromUserModeDriver</b> only if <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfrequest/nf-wdfrequest-wdfrequestgetrequestormode">WdfRequestGetRequestorMode</a> returns <b>WdfUserMode</b>.
 
 
 
@@ -85,7 +85,7 @@ If your driver supports <a href="https://docs.microsoft.com/windows-hardware/dri
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549971">WdfRequestGetRequestorMode</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfrequest/nf-wdfrequest-wdfrequestgetrequestormode">WdfRequestGetRequestorMode</a>
  
 
  

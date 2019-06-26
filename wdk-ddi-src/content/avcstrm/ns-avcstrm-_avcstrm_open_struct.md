@@ -90,11 +90,11 @@ This value can then be used in subsequent <i>avcstrm.sys</i> operations by placi
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554117">AVCSTRM_FORMAT_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/avcstrm/ns-avcstrm-_avcstrm_format_info">AVCSTRM_FORMAT_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554125">AVCSTRM_OPEN</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/avcstrm-open">AVCSTRM_OPEN</a>
  
 
  

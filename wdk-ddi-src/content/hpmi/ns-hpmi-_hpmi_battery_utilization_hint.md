@@ -67,8 +67,8 @@ Set to HPMI_BATTERY_UTILIZATION_HINT_VERSION_1.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/E056400C-A0FE-4740-945D-C529C8804DF3">HPMI_HINT_BOOL</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hpmi/ne-hpmi-_hpmi_hint_bool">HPMI_HINT_BOOL</a>
 
-<a href="https://msdn.microsoft.com/CE326F69-64A4-466E-8A02-5C08AFF8490C">IOCTL_HPMI_BATTERY_UTILIZATION_HINT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hpmi/ni-hpmi-ioctl_hpmi_battery_utilization_hint">IOCTL_HPMI_BATTERY_UTILIZATION_HINT</a>
 
-<a href="https://msdn.microsoft.com/35934D6C-3FB4-4AD4-AA50-BD3A7790269F">hpmi.h</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hpmi/index">hpmi.h</a>

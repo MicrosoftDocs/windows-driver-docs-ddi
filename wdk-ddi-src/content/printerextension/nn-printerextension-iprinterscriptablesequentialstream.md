@@ -51,7 +51,7 @@ The IPrinterScriptableSequentialStream interface is an ISequentialStream-like in
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrinterScriptableSequentialStream</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IPrinterScriptableSequentialStream</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrinterScriptableSequentialStream</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrinterScriptableSequentialStream</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -66,7 +66,7 @@ The <b>IPrinterScriptableSequentialStream</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439702">Read</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nf-printerextension-iprinterscriptablesequentialstream-read">Read</a>
 </td>
 <td align="left" width="63%">
 The Read method reads bytes from the stream and returns them as a JavaScript array.
@@ -75,7 +75,7 @@ The Read method reads bytes from the stream and returns them as a JavaScript arr
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439706">Write</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nf-printerextension-iprinterscriptablesequentialstream-write">Write</a>
 </td>
 <td align="left" width="63%">
 The Write method writes the provided JavaScript array to the stream and returns the number of bytes written.

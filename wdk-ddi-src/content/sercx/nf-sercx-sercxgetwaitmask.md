@@ -72,7 +72,7 @@ A WDFDEVICE handle to the framework device object that represents the serial con
 
 
 
-The serial controller driver calls <b>SerCxGetWaitMask</b> to obtain the wait mask to use for a pending wait operation. Typically, the controller driver calls this method from the <a href="https://msdn.microsoft.com/41F60807-5A00-4B0E-A57D-70D25C73F575">EvtSerCxWaitmask</a> callback function.
+The serial controller driver calls <b>SerCxGetWaitMask</b> to obtain the wait mask to use for a pending wait operation. Typically, the controller driver calls this method from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sercx/nc-sercx-evt_sercx_waitmask">EvtSerCxWaitmask</a> callback function.
 
 The wait mask indicates the types of events that can trigger completion of a wait operation. Each bit in the wait mask represents a particular type of event. A bit is set in the wait mask if the corresponding event will trigger completion of a wait operation. For more information about the meaning of the bits in the wait mask, see <a href="https://docs.microsoft.com/windows-hardware/drivers/serports/peripheral-drivers-for-devices-on-sercx2-managed-serial-ports">SERIAL_EV_XXX</a>.
 
@@ -84,11 +84,11 @@ The wait mask indicates the types of events that can trigger completion of a wai
 
 
 
-<a href="https://msdn.microsoft.com/41F60807-5A00-4B0E-A57D-70D25C73F575">EvtSerCxWaitmask</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sercx/nc-sercx-evt_sercx_waitmask">EvtSerCxWaitmask</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546805">IOCTL_SERIAL_WAIT_ON_MASK</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddser/ni-ntddser-ioctl_serial_wait_on_mask">IOCTL_SERIAL_WAIT_ON_MASK</a>
 
 
 

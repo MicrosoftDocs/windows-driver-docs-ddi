@@ -46,7 +46,7 @@ req.typenames: D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU
 ## -description
 
 
-<b>D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU</b> is used with <a href="https://msdn.microsoft.com/library/windows/hardware/dn906784">D3DKMTSignalSynchronizationObjectFromGpu</a> to signal a monitored fence.
+<b>D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU</b> is used with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/nf-d3dkmthk-d3dkmtsignalsynchronizationobjectfromgpu">D3DKMTSignalSynchronizationObjectFromGpu</a> to signal a monitored fence.
 
 
 ## -struct-fields
@@ -85,7 +85,7 @@ This member is reserved and should be set to zero.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn906784">D3DKMTSignalSynchronizationObjectFromGpu</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/nf-d3dkmthk-d3dkmtsignalsynchronizationobjectfromgpu">D3DKMTSignalSynchronizationObjectFromGpu</a>
  
 
  

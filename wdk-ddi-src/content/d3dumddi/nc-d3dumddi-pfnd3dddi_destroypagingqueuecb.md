@@ -70,7 +70,7 @@ A handle to the display device.
 
 *pData* [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn906321">D3DDDI_DESTROYPAGINGQUEUE</a> structure that describes the operation to perform.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dukmdt/ns-d3dukmdt-d3dddi_destroypagingqueue">D3DDDI_DESTROYPAGINGQUEUE</a> structure that describes the operation to perform.
 
 
 
@@ -88,7 +88,7 @@ If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.co
 
 
 
-In addition to <b>hPagingQueue</b>, this device driver interface (DDI) invalidates <b>hSyncObject</b> and <b>FenceValueCPUVirtualAddress</b> values returned from <a href="https://msdn.microsoft.com/99E4CFCF-7A0A-43A9-9E23-B7A9F9375690">pfnCreatePagingQueueCb</a>.
+In addition to <b>hPagingQueue</b>, this device driver interface (DDI) invalidates <b>hSyncObject</b> and <b>FenceValueCPUVirtualAddress</b> values returned from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_createpagingqueuecb">pfnCreatePagingQueueCb</a>.
 
 
 
@@ -98,11 +98,11 @@ In addition to <b>hPagingQueue</b>, this device driver interface (DDI) invalidat
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn906321">D3DDDI_DESTROYPAGINGQUEUE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dukmdt/ns-d3dukmdt-d3dddi_destroypagingqueue">D3DDDI_DESTROYPAGINGQUEUE</a>
 
 
 
-<a href="https://msdn.microsoft.com/99E4CFCF-7A0A-43A9-9E23-B7A9F9375690">pfnCreatePagingQueueCb</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_createpagingqueuecb">pfnCreatePagingQueueCb</a>
  
 
  

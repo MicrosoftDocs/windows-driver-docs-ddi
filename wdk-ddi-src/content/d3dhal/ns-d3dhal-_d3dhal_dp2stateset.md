@@ -61,7 +61,7 @@ Specifies the operation to perform. The value of this member can be one of the f
 | **Value** | **Meaning** | 
 |:--|:--|
 | D3DHAL_STATESETBEGIN | Specifies the beginning of the stateset referenced by dwParam. | 
-| D3DHAL_STATESETCAPTURE | Specifies that capture is to be done. When this flag is specified, the driver must capture a snapshot of the current state that matches the state block referenced by the handle passed in dwParam. That is, only the state that is specified in the state block is captured. See [Accelerated State Management](https://msdn.microsoft.com/276d3cdb-34bf-49e8-aae5-94315746c5ff)  for important details about state capture. | 
+| D3DHAL_STATESETCAPTURE | Specifies that capture is to be done. When this flag is specified, the driver must capture a snapshot of the current state that matches the state block referenced by the handle passed in dwParam. That is, only the state that is specified in the state block is captured. See [Accelerated State Management](https://docs.microsoft.com/windows-hardware/drivers/display/accelerated-state-management)  for important details about state capture. | 
 | D3DHAL_STATESETCREATE | DirectX 8.0 and later versions only.<br/>On receipt of this request the driver should create a state block of the type given in the field sbType. The information to record for each state block type is described below. | 
 | D3DHAL_STATESETDELETE | Specifies that the stateset referenced by dwParam should be deleted. | 
 | D3DHAL_STATESETEND | Specifies the end of the stateset referenced by dwParam. | 
@@ -77,7 +77,7 @@ Specifies the stateset handle that references the state block being manipulated 
 
 ### -field sbType
 
-Specifies the state block type. The driver should ignore this member unless it implements render state extensions, or implements support for <a href="https://msdn.microsoft.com/6ad3412c-fd80-41c0-9abc-117aacc5ddae">pure devices</a> (DirectX 8.0 and later versions only).
+Specifies the state block type. The driver should ignore this member unless it implements render state extensions, or implements support for <a href="https://docs.microsoft.com/windows-hardware/drivers/display/pure-devices">pure devices</a> (DirectX 8.0 and later versions only).
 
 If the driver implements extended render states, that is, render states beyond those the Direct3D runtime supplies, it can use <b>sbType</b> to determine what types of predefined render states are being used. From this information the driver can determine how to append the state block appropriately, to support its extensions. 
 
@@ -349,7 +349,7 @@ No predefined state group is specified.
 
 
 
-See <a href="https://msdn.microsoft.com/276d3cdb-34bf-49e8-aae5-94315746c5ff">Accelerated State Management</a> in the Graphics Design Guide for more information about the use of this structure in state block management.
+See <a href="https://docs.microsoft.com/windows-hardware/drivers/display/accelerated-state-management">Accelerated State Management</a> in the Graphics Design Guide for more information about the use of this structure in state block management.
 
 
 

@@ -50,12 +50,12 @@ req.typenames:
 
 The <b>IImpersonateCallback</b> interface contains a method that handles impersonation.
 
-A driver registers the <b>IImpersonateCallback</b> interface when the driver calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559136">IWDFIoRequest::Impersonate</a> method. 
+A driver registers the <b>IImpersonateCallback</b> interface when the driver calls the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfiorequest-impersonate">IWDFIoRequest::Impersonate</a> method. 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IImpersonateCallback</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IImpersonateCallback</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IImpersonateCallback</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IImpersonateCallback</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,10 +70,10 @@ The <b>IImpersonateCallback</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554916">IImpersonateCallback::OnImpersonate</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iimpersonatecallback-onimpersonate">IImpersonateCallback::OnImpersonate</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/6f06e89c-5298-4335-ab9a-ef69e635152c">OnImpersonate</a> method handles impersonation.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iimpersonatecallback-onimpersonate">OnImpersonate</a> method handles impersonation.
 
 </td>
 </tr>

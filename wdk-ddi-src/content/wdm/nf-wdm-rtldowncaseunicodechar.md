@@ -83,11 +83,11 @@ Ntoskrnl.lib supports the <b>RtlDowncaseUnicodeChar</b> routine in the WDK for W
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552237">RtlDowncaseUnicodeString</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-rtldowncaseunicodestring">RtlDowncaseUnicodeString</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563003">RtlUpcaseUnicodeChar</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlupcaseunicodechar">RtlUpcaseUnicodeChar</a>
  
 
  

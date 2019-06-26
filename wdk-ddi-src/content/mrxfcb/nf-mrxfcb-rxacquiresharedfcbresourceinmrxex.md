@@ -123,7 +123,7 @@ An FCB resource acquired with <b>RxAcquireSharedFcbResourceInMRxEx </b>should be
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553363">RxAcquireExclusiveFcbResourceInMRx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/mrxfcb/nf-mrxfcb-rxacquireexclusivefcbresourceinmrx">RxAcquireExclusiveFcbResourceInMRx</a>
 
 
 
@@ -131,11 +131,11 @@ An FCB resource acquired with <b>RxAcquireSharedFcbResourceInMRxEx </b>should be
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554694">RxReleaseFcbResourceForThreadInMRx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/mrxfcb/nf-mrxfcb-rxreleasefcbresourceforthreadinmrx">RxReleaseFcbResourceForThreadInMRx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554699">RxReleaseFcbResourceInMRx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/mrxfcb/nf-mrxfcb-rxreleasefcbresourceinmrx">RxReleaseFcbResourceInMRx</a>
  
 
  

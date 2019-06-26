@@ -46,7 +46,7 @@ req.typenames: PO_FX_PERF_STATE_CHANGE, *PPO_FX_PERF_STATE_CHANGE
 ## -description
 
 
-The <b>PO_FX_PERF_STATE_CHANGE</b> structure contains information about a change to a performance state that is being requested by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/dn939769">PoFxIssueComponentPerfStateChange</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/dn939772">PoFxIssueComponentPerfStateChangeMultiple</a> routine.
+The <b>PO_FX_PERF_STATE_CHANGE</b> structure contains information about a change to a performance state that is being requested by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-pofxissuecomponentperfstatechange">PoFxIssueComponentPerfStateChange</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-pofxissuecomponentperfstatechangemultiple">PoFxIssueComponentPerfStateChangeMultiple</a> routine.
 
 
 ## -struct-fields
@@ -61,19 +61,19 @@ The index of the performance state set that is being changed within the collecti
 
 ### -field StateIndex
 
-For sets that represent a discrete number of performance states (that is, where the <b>Type</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn939833">PO_FX_COMPONENT_PERF_SET</a> is <b>PoFxPerfStateTypeDiscrete</b>), this member is the index of the performance state to use for the new performance level.
+For sets that represent a discrete number of performance states (that is, where the <b>Type</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_po_fx_component_perf_set">PO_FX_COMPONENT_PERF_SET</a> is <b>PoFxPerfStateTypeDiscrete</b>), this member is the index of the performance state to use for the new performance level.
 
 
 ### -field StateValue
 
-For sets that represent a continuous distribution of performance states (that is, where the <b>Type</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn939833">PO_FX_COMPONENT_PERF_SET</a> is <b>PoFxPerfStateTypeRange</b>), this member is the value of the performance state to use for the new performance level.
+For sets that represent a continuous distribution of performance states (that is, where the <b>Type</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_po_fx_component_perf_set">PO_FX_COMPONENT_PERF_SET</a> is <b>PoFxPerfStateTypeRange</b>), this member is the value of the performance state to use for the new performance level.
 
 
 ## -remarks
 
 
 
-The <b>PO_FX_PERF_STATE_CHANGE</b> structure is used for the <i>PerfChange</i> parameter of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn939769">PoFxIssueComponentPerfStateChange</a> routine and the  <i>PerfChanges</i> parameter of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn939772">PoFxIssueComponentPerfStateChangeMultiple</a> routine. 
+The <b>PO_FX_PERF_STATE_CHANGE</b> structure is used for the <i>PerfChange</i> parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-pofxissuecomponentperfstatechange">PoFxIssueComponentPerfStateChange</a> routine and the  <i>PerfChanges</i> parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-pofxissuecomponentperfstatechangemultiple">PoFxIssueComponentPerfStateChangeMultiple</a> routine. 
 
 
 
@@ -83,15 +83,15 @@ The <b>PO_FX_PERF_STATE_CHANGE</b> structure is used for the <i>PerfChange</i> p
 
 
 
-<a href="https://msdn.microsoft.com/D5341D6D-7C71-43CB-9C70-7E939B32C33F">Device Performance State Management</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/component-level-performance-management">Device Performance State Management</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn939769">PoFxIssueComponentPerfStateChange</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-pofxissuecomponentperfstatechange">PoFxIssueComponentPerfStateChange</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn939772">PoFxIssueComponentPerfStateChangeMultiple</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-pofxissuecomponentperfstatechangemultiple">PoFxIssueComponentPerfStateChangeMultiple</a>
  
 
  

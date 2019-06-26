@@ -56,12 +56,12 @@ Describes the information, including output duplication options, needed to set o
 
 ### -field Version0
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff548317">D3DKMT_SETVIDPNSOURCEOWNER</a> structure that contains information needed to set or release the video present source.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_setvidpnsourceowner">D3DKMT_SETVIDPNSOURCEOWNER</a> structure that contains information needed to set or release the video present source.
 
 
 ### -field Flags
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/hh406671">D3DKMT_VIDPNSOURCEOWNER_FLAGS</a> structure that specifies output duplication options.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_vidpnsourceowner_flags">D3DKMT_VIDPNSOURCEOWNER_FLAGS</a> structure that specifies output duplication options.
 
 
 ## -see-also
@@ -69,11 +69,11 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/hh406671">D3DKMT_
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548317">D3DKMT_SETVIDPNSOURCEOWNER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_setvidpnsourceowner">D3DKMT_SETVIDPNSOURCEOWNER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406671">D3DKMT_VIDPNSOURCEOWNER_FLAGS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_vidpnsourceowner_flags">D3DKMT_VIDPNSOURCEOWNER_FLAGS</a>
  
 
  

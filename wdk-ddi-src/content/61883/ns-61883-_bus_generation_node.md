@@ -46,7 +46,7 @@ req.typenames: BUS_GENERATION_NODE, *PBUS_GENERATION_NODE
 ## -description
 
 
-The BUS_GENERATION_NODE structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536983">Av61883_GetUnitInfo</a> request to retrieve bus characteristics. 
+The BUS_GENERATION_NODE structure is used in conjunction with the <a href="https://docs.microsoft.com/previous-versions/ff536983(v=vs.85)">Av61883_GetUnitInfo</a> request to retrieve bus characteristics. 
 
 
 ## -struct-fields
@@ -74,7 +74,7 @@ The current node address of the device.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536983">Av61883_GetUnitInfo</a>
+<a href="https://docs.microsoft.com/previous-versions/ff536983(v=vs.85)">Av61883_GetUnitInfo</a>
  
 
  

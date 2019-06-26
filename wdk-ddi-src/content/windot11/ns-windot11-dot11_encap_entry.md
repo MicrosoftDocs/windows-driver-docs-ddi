@@ -48,7 +48,7 @@ product:
 ## -description
 
 
-<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_ENCAP_ENTRY structure defines an encapsulation type to be applied to the payload of an
+<div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_ENCAP_ENTRY structure defines an encapsulation type to be applied to the payload of an
   802.11 packet based on the packet's IEEE EtherType.
 
 
@@ -116,7 +116,7 @@ The miniport driver returns an encapsulation list when it makes an
     stations within an independent BSS network.</div>
 <div> </div>
 For more information about 802.11 packet payload encapsulation, see
-    <a href="https://technet.microsoft.com/library/cc757419">802.11 Payload Encapsulation</a>.
+    <a href="https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2003/cc757419(v=ws.10)">802.11 Payload Encapsulation</a>.
 
 
 

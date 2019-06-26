@@ -79,7 +79,7 @@ No address is specified.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561536">ISCSI_IP_Address</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/iscsidef/ns-iscsidef-_iscsi_ip_address">ISCSI_IP_Address</a>
  
 
  

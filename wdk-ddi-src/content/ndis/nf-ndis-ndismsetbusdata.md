@@ -60,14 +60,14 @@ NDIS drivers call the
 
 The miniport adapter handle that NDIS passed to the 
      <i>MiniportAdapterHandle</i> parameter of the 
-     <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_initialize">
      MiniportInitializeEx</a> function.
 
 ### -param WhichSpace [in]
 
 The type of bus data to be written. For further information, see the discussion of the 
      <i>WhichSpace</i> parameter on the reference page for 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff551727">IRP_MN_READ_CONFIG</a>.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-read-config">IRP_MN_READ_CONFIG</a>.
 
 
 ### -param Offset [in]
@@ -101,7 +101,7 @@ The length, in bytes, of the data to write.
 
 
 This function replaces the NDIS 5.1 
-    <a href="https://msdn.microsoft.com/6783ad54-3382-456b-a59e-3fc2b1f91cd6">
+    <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff554871(v=vs.85)">
     NdisWritePciSlotInformation</a> function.
 
 
@@ -114,15 +114,15 @@ This function replaces the NDIS 5.1
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551727">IRP_MN_READ_CONFIG</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-read-config">IRP_MN_READ_CONFIG</a>
 
 
 
-<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563591">NdisMGetBusData</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismgetbusdata">NdisMGetBusData</a>
  
 
  

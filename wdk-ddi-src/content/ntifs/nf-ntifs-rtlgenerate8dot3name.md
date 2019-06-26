@@ -115,7 +115,7 @@ Square brackets
 
 </li>
 </ul>
-For information about other string-handling routines, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563884">Strings</a>. 
+For information about other string-handling routines, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">Strings</a>. 
 
 
 
@@ -125,11 +125,11 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553060">RtlIsNameLegalDOS8Dot3</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-rtlisnamelegaldos8dot3">RtlIsNameLegalDOS8Dot3</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553076">RtlIsValidOemCharacter</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-rtlisvalidoemcharacter">RtlIsValidOemCharacter</a>
 
 
 

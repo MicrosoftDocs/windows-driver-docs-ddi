@@ -71,7 +71,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/AB1EFF6E-4FF5-413E-A4E4-3EEC47CDEBD4">IPartFont2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/filterpipeline/nn-filterpipeline-ipartfont2">IPartFont2</a>
  
 
  

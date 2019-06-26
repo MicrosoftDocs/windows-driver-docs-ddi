@@ -111,19 +111,19 @@ This example, which would be placed in a function named <i>SetBuffer</i>, causes
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549633">wiauDbgError</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-wiaudbgerror">wiauDbgError</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549637">wiauDbgErrorHr</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-wiaudbgerrorhr">wiauDbgErrorHr</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550161">wiauDbgTrace</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-wiaudbgtrace">wiauDbgTrace</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550163">wiauDbgWarning</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-wiaudbgwarning">wiauDbgWarning</a>
  
 
  

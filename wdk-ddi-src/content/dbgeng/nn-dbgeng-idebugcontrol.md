@@ -51,7 +51,7 @@ req.typenames:
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugControl</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDebugControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugControl</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDebugControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -66,7 +66,7 @@ The <b>IDebugControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537856">AddBreakpoint</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-addbreakpoint">AddBreakpoint</a>
 </td>
 <td align="left" width="63%">
 Creates a new breakpoint for the current target.
@@ -76,7 +76,7 @@ Creates a new breakpoint for the current target.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537884">AddEngineOptions</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-addengineoptions">AddEngineOptions</a>
 </td>
 <td align="left" width="63%">
  Turns on some of the debugger engine's options.
@@ -85,7 +85,7 @@ Creates a new breakpoint for the current target.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537892">AddExtension</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-addextension">AddExtension</a>
 </td>
 <td align="left" width="63%">
 Loads an extension library into the debugger engine.
@@ -95,7 +95,7 @@ Loads an extension library into the debugger engine.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538121">Assemble</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-assemble">Assemble</a>
 </td>
 <td align="left" width="63%">
 Assembles a single processor instruction. The assembled instruction is placed in the target's memory.
@@ -104,7 +104,7 @@ Assembles a single processor instruction. The assembled instruction is placed in
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539023">CallExtension</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-callextension">CallExtension</a>
 </td>
 <td align="left" width="63%">
 Calls a debugger extension.
@@ -113,7 +113,7 @@ Calls a debugger extension.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539148">CloseLogFile</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-closelogfile">CloseLogFile</a>
 </td>
 <td align="left" width="63%">
 Closes the currently-open log file.
@@ -122,7 +122,7 @@ Closes the currently-open log file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539158">CoerceValue</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-coercevalue">CoerceValue</a>
 </td>
 <td align="left" width="63%">
 Converts a value of one type into a value of another type.
@@ -132,7 +132,7 @@ Converts a value of one type into a value of another type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539162">CoerceValues</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-coercevalues">CoerceValues</a>
 </td>
 <td align="left" width="63%">
 Converts an array of values into an array of values of different types.
@@ -151,7 +151,7 @@ Formats a string and sends the result to output callbacks that were registered w
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539252">ControlledOutputVaList</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-controlledoutputvalist">ControlledOutputVaList</a>
 </td>
 <td align="left" width="63%">
 Formats a string and sends the result to output callbacks that were registered with some of the engine's clients.
@@ -161,7 +161,7 @@ Formats a string and sends the result to output callbacks that were registered w
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541948">Disassemble</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-disassemble">Disassemble</a>
 </td>
 <td align="left" width="63%">
 Disassembles a processor instruction in the target's memory.
@@ -171,7 +171,7 @@ Disassembles a processor instruction in the target's memory.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543046">Evaluate</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-evaluate">Evaluate</a>
 </td>
 <td align="left" width="63%">
 Evaluates an expression, returning the result.
@@ -180,7 +180,7 @@ Evaluates an expression, returning the result.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543208">Execute</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-execute">Execute</a>
 </td>
 <td align="left" width="63%">
 Executes the specified debugger commands.
@@ -190,7 +190,7 @@ Executes the specified debugger commands.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543215">ExecuteCommandFile</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-executecommandfile">ExecuteCommandFile</a>
 </td>
 <td align="left" width="63%">
 Opens the specified file and executes the debugger commands that are contained within.
@@ -200,7 +200,7 @@ Opens the specified file and executes the debugger commands that are contained w
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545572">GetActualProcessorType</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-getactualprocessortype">GetActualProcessorType</a>
 </td>
 <td align="left" width="63%">
 Returns the processor type of the physical processor of the computer that is running the target.
@@ -210,7 +210,7 @@ Returns the processor type of the physical processor of the computer that is run
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545617">GetBreakpointById</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-getbreakpointbyid">GetBreakpointById</a>
 </td>
 <td align="left" width="63%">
 Returns the breakpoint with the specified breakpoint ID.
@@ -220,7 +220,7 @@ Returns the breakpoint with the specified breakpoint ID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545639">GetBreakpointByIndex</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-getbreakpointbyindex">GetBreakpointByIndex</a>
 </td>
 <td align="left" width="63%">
 Returns the breakpoint located at the specified index.
@@ -230,7 +230,7 @@ Returns the breakpoint located at the specified index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545656">GetBreakpointParameters</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-getbreakpointparameters">GetBreakpointParameters</a>
 </td>
 <td align="left" width="63%">
 Returns the parameters of one or more breakpoints.
@@ -240,7 +240,7 @@ Returns the parameters of one or more breakpoints.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545670">GetCodeLevel</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-getcodelevel">GetCodeLevel</a>
 </td>
 <td align="left" width="63%">
 Returns the current code level and is mainly used when stepping through code.
@@ -250,7 +250,7 @@ Returns the current code level and is mainly used when stepping through code.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546559">GetDebuggeeType</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-getdebuggeetype">GetDebuggeeType</a>
 </td>
 <td align="left" width="63%">
 Describes the nature of the current target.
@@ -260,7 +260,7 @@ Describes the nature of the current target.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546581">GetDisassembleEffectiveOffset</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-getdisassembleeffectiveoffset">GetDisassembleEffectiveOffset</a>
 </td>
 <td align="left" width="63%">
 Returns the address of the last instruction disassembled using Disassemble.
@@ -270,7 +270,7 @@ Returns the address of the last instruction disassembled using Disassemble.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546595">GetEffectiveProcessorType</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-geteffectiveprocessortype">GetEffectiveProcessorType</a>
 </td>
 <td align="left" width="63%">
 Returns the effective processor type of the processor of the computer that is running the target.
@@ -280,7 +280,7 @@ Returns the effective processor type of the processor of the computer that is ru
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546598">GetEngineOptions</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-getengineoptions">GetEngineOptions</a>
 </td>
 <td align="left" width="63%">
 Returns the engine's options.
@@ -289,7 +289,7 @@ Returns the engine's options.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546611">GetEventFilterCommand</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-geteventfiltercommand">GetEventFilterCommand</a>
 </td>
 <td align="left" width="63%">
 Returns the debugger command that the engine will execute when a specified event occurs.
@@ -299,7 +299,7 @@ Returns the debugger command that the engine will execute when a specified event
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546618">GetEventFilterText</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-geteventfiltertext">GetEventFilterText</a>
 </td>
 <td align="left" width="63%">
 Returns a short description of an event for a specific filter.
@@ -309,7 +309,7 @@ Returns a short description of an event for a specific filter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546650">GetExceptionFilterParameters</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-getexceptionfilterparameters">GetExceptionFilterParameters</a>
 </td>
 <td align="left" width="63%">
 Returns the parameters for exception filters specified by exception codes or by index.
@@ -319,7 +319,7 @@ Returns the parameters for exception filters specified by exception codes or by 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546653">GetExceptionFilterSecondCommand</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-getexceptionfiltersecondcommand">GetExceptionFilterSecondCommand</a>
 </td>
 <td align="left" width="63%">
 Returns the command that will be executed by the debugger engine upon the second chance of a specified exception.
@@ -329,7 +329,7 @@ Returns the command that will be executed by the debugger engine upon the second
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546670">GetExecutingProcessorType</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-getexecutingprocessortype">GetExecutingProcessorType</a>
 </td>
 <td align="left" width="63%">
 Returns the executing processor type for the processor for which the last event occurred.
@@ -339,7 +339,7 @@ Returns the executing processor type for the processor for which the last event 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546675">GetExecutionStatus</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-getexecutionstatus">GetExecutionStatus</a>
 </td>
 <td align="left" width="63%">
 Returns information about the execution status of the debugger engine.
@@ -349,7 +349,7 @@ Returns information about the execution status of the debugger engine.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546717">GetExtensionByPath</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-getextensionbypath">GetExtensionByPath</a>
 </td>
 <td align="left" width="63%">
 Returns the handle for an already loaded extension library.
@@ -359,7 +359,7 @@ Returns the handle for an already loaded extension library.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546733">GetExtensionFunction</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-getextensionfunction">GetExtensionFunction</a>
 </td>
 <td align="left" width="63%">
 Returns a pointer to an extension function from an extension library.
@@ -369,7 +369,7 @@ Returns a pointer to an extension function from an extension library.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546944">GetInterrupt</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-getinterrupt">GetInterrupt</a>
 </td>
 <td align="left" width="63%">
 Checks whether a user interrupt was issued.
@@ -378,7 +378,7 @@ Checks whether a user interrupt was issued.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546955">GetInterruptTimeout</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-getinterrupttimeout">GetInterruptTimeout</a>
 </td>
 <td align="left" width="63%">
 Returns the number of seconds that the engine will wait when requesting a break into the debugger.
@@ -387,7 +387,7 @@ Returns the number of seconds that the engine will wait when requesting a break 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546982">GetLastEventInformation</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-getlasteventinformation">GetLastEventInformation</a>
 </td>
 <td align="left" width="63%">
 Returns information about the last event that occurred in a target.
@@ -397,7 +397,7 @@ Returns information about the last event that occurred in a target.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547016">GetLogFile</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-getlogfile">GetLogFile</a>
 </td>
 <td align="left" width="63%">
 Returns the name of the currently open log file.
@@ -406,7 +406,7 @@ Returns the name of the currently open log file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547066">GetLogMask</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-getlogmask">GetLogMask</a>
 </td>
 <td align="left" width="63%">
 Returns the output mask for the currently open log file.
@@ -419,7 +419,7 @@ HRESULT
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547197">GetNearInstruction</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-getnearinstruction">GetNearInstruction</a>
 </td>
 <td align="left" width="63%">
 Returns the location of a processor instruction relative to a given location.
@@ -429,7 +429,7 @@ Returns the location of a processor instruction relative to a given location.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547876">GetNotifyEventHandle</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-getnotifyeventhandle">GetNotifyEventHandle</a>
 </td>
 <td align="left" width="63%">
 Receives the handle of the event that will be signaled after the next exception in a target.
@@ -439,7 +439,7 @@ Receives the handle of the event that will be signaled after the next exception 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547880">GetNumberBreakpoints</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-getnumberbreakpoints">GetNumberBreakpoints</a>
 </td>
 <td align="left" width="63%">
 Returns the number of breakpoints for the current process.
@@ -449,7 +449,7 @@ Returns the number of breakpoints for the current process.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547899">GetNumberEventFilters</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-getnumbereventfilters">GetNumberEventFilters</a>
 </td>
 <td align="left" width="63%">
 Returns the number of event filters currently used by the engine.
@@ -459,7 +459,7 @@ Returns the number of event filters currently used by the engine.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547939">GetNumberPossibleExecutingProcessorTypes</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-getnumberpossibleexecutingprocessortypes">GetNumberPossibleExecutingProcessorTypes</a>
 </td>
 <td align="left" width="63%">
 Returns the number of processor types that are supported by the computer running the current target.
@@ -468,7 +468,7 @@ Returns the number of processor types that are supported by the computer running
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547950">GetNumberProcessors</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-getnumberprocessors">GetNumberProcessors</a>
 </td>
 <td align="left" width="63%">
 Returns the number of processors on the computer running the current target.
@@ -478,7 +478,7 @@ Returns the number of processors on the computer running the current target.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547966">GetNumberSupportedProcessorTypes</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-getnumbersupportedprocessortypes">GetNumberSupportedProcessorTypes</a>
 </td>
 <td align="left" width="63%">
 Returns the number of processor types supported by the engine.
@@ -488,7 +488,7 @@ Returns the number of processor types supported by the engine.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548086">GetPageSize</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-getpagesize">GetPageSize</a>
 </td>
 <td align="left" width="63%">
 Returns the page size for the effective processor mode.
@@ -497,7 +497,7 @@ Returns the page size for the effective processor mode.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548130">GetPossibleExecutingProcessorTypes</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-getpossibleexecutingprocessortypes">GetPossibleExecutingProcessorTypes</a>
 </td>
 <td align="left" width="63%">
 Returns the processor types that are supported by the computer running the current target.
@@ -507,7 +507,7 @@ Returns the processor types that are supported by the computer running the curre
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548169">GetProcessorTypeNames</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-getprocessortypenames">GetProcessorTypeNames</a>
 </td>
 <td align="left" width="63%">
 Returns the full name and abbreviated name of the specified processor type.
@@ -517,7 +517,7 @@ Returns the full name and abbreviated name of the specified processor type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548180">GetPromptText</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-getprompttext">GetPromptText</a>
 </td>
 <td align="left" width="63%">
 Returns the standard prompt text that will be prepended to the formatted output specified in the <b>OutputPrompt</b> and <b>OutputPromptVaList</b> methods.
@@ -526,7 +526,7 @@ Returns the standard prompt text that will be prepended to the formatted output 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548218">GetRadix</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-getradix">GetRadix</a>
 </td>
 <td align="left" width="63%">
 Returns the default radix (number base) used by the debugger engine when it evaluates and displays MASM expressions, and when it displays symbol information.
@@ -535,7 +535,7 @@ Returns the default radix (number base) used by the debugger engine when it eval
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548237">GetReturnOffset</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-getreturnoffset">GetReturnOffset</a>
 </td>
 <td align="left" width="63%">
  Returns the return address for the current function.
@@ -544,7 +544,7 @@ Returns the default radix (number base) used by the debugger engine when it eval
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548386">GetSpecificFilterArgument</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-getspecificfilterargument">GetSpecificFilterArgument</a>
 </td>
 <td align="left" width="63%">
 Returns the value of filter argument for thespecific filters that have an argument.
@@ -554,7 +554,7 @@ Returns the value of filter argument for thespecific filters that have an argume
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548398">GetSpecificFilterParameters</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-getspecificfilterparameters">GetSpecificFilterParameters</a>
 </td>
 <td align="left" width="63%">
 Returns the parameters for specific event filters.
@@ -564,7 +564,7 @@ Returns the parameters for specific event filters.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548425">GetStackTrace</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-getstacktrace">GetStackTrace</a>
 </td>
 <td align="left" width="63%">
 Returns the frames at the top of the specified call stack.
@@ -573,7 +573,7 @@ Returns the frames at the top of the specified call stack.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548438">GetSupportedProcessorTypes</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-getsupportedprocessortypes">GetSupportedProcessorTypes</a>
 </td>
 <td align="left" width="63%">
 Returns the processor types supported by the debugger engine. 
@@ -583,7 +583,7 @@ Returns the processor types supported by the debugger engine.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549215">GetSystemErrorControl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-getsystemerrorcontrol">GetSystemErrorControl</a>
 </td>
 <td align="left" width="63%">
 Returns the control values for handling system errors.
@@ -593,7 +593,7 @@ Returns the control values for handling system errors.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549234">GetSystemVersion</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-getsystemversion">GetSystemVersion</a>
 </td>
 <td align="left" width="63%">
 Returns information that identifies the operating system on the computer that is running the current target.
@@ -602,7 +602,7 @@ Returns information that identifies the operating system on the computer that is
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549270">GetTextMacro</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-gettextmacro">GetTextMacro</a>
 </td>
 <td align="left" width="63%">
 Returns the value of a fixed-name alias.
@@ -618,7 +618,7 @@ Returns the value of a fixed-name alias.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549510">GetWindbgExtensionApis64</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-getwindbgextensionapis64">GetWindbgExtensionApis64</a>
 </td>
 <td align="left" width="63%">
 returns a structure that facilitates using the WdbgExts API.
@@ -628,7 +628,7 @@ returns a structure that facilitates using the WdbgExts API.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550962">Input</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol-input">Input</a>
 </td>
 <td align="left" width="63%">
 Requests an input string from the debugger engine.
@@ -638,7 +638,7 @@ Requests an input string from the debugger engine.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551092">IsPointer64Bit</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-ispointer64bit">IsPointer64Bit</a>
 </td>
 <td align="left" width="63%">
 Determines if the effective processor uses 64-bit pointers.
@@ -647,7 +647,7 @@ Determines if the effective processor uses 64-bit pointers.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553154">OpenLogFile</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-openlogfile">OpenLogFile</a>
 </td>
 <td align="left" width="63%">
 Opens a log file that will receive output from the client objects.
@@ -665,7 +665,7 @@ Formats a string and sends the result to output callbacks that have been registe
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553206">OutputCurrentState</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-outputcurrentstate">OutputCurrentState</a>
 </td>
 <td align="left" width="63%">
 Prints the current state of the current target to the debugger console.
@@ -675,7 +675,7 @@ Prints the current state of the current target to the debugger console.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553211">OutputDisassembly</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-outputdisassembly">OutputDisassembly</a>
 </td>
 <td align="left" width="63%">
 Disassembles a processor instruction and sends the disassembly to the output callbacks.
@@ -685,7 +685,7 @@ Disassembles a processor instruction and sends the disassembly to the output cal
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553216">OutputDisassemblyLines</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-outputdisassemblylines">OutputDisassemblyLines</a>
 </td>
 <td align="left" width="63%">
 Disassembles several processor instructions and sends the resulting assembly instructions to the output callbacks.
@@ -704,7 +704,7 @@ Disassembles several processor instructions and sends the resulting assembly ins
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553231">OutputPromptVaList</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-outputpromptvalist">OutputPromptVaList</a>
 </td>
 <td align="left" width="63%">
 Formats and sends a user prompt to the output callback objects.
@@ -714,7 +714,7 @@ Formats and sends a user prompt to the output callback objects.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553252">OutputStackTrace</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-outputstacktrace">OutputStackTrace</a>
 </td>
 <td align="left" width="63%">
 Outputs either the supplied stack frame or the current stack frames.
@@ -724,7 +724,7 @@ Outputs either the supplied stack frame or the current stack frames.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553280">OutputVaList</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-outputvalist">OutputVaList</a>
 </td>
 <td align="left" width="63%">
  Formats a string and sends the result to the output callbacks that are registered with the engine's clients.
@@ -734,7 +734,7 @@ Outputs either the supplied stack frame or the current stack frames.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553288">OutputVersionInformation</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-outputversioninformation">OutputVersionInformation</a>
 </td>
 <td align="left" width="63%">
 Prints version information about the debugger engine to the debugger console.
@@ -744,7 +744,7 @@ Prints version information about the debugger engine to the debugger console.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553517">ReadBugCheckData</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-readbugcheckdata">ReadBugCheckData</a>
 </td>
 <td align="left" width="63%">
 Reads the kernel bug check code and related parameters.
@@ -754,7 +754,7 @@ Reads the kernel bug check code and related parameters.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554487">RemoveBreakpoint</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-removebreakpoint">RemoveBreakpoint</a>
 </td>
 <td align="left" width="63%">
 Removes a breakpoint.
@@ -764,7 +764,7 @@ Removes a breakpoint.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554491">RemoveEngineOptions</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-removeengineoptions">RemoveEngineOptions</a>
 </td>
 <td align="left" width="63%">
 Turns off some of the engine's options.
@@ -774,7 +774,7 @@ Turns off some of the engine's options.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554497">RemoveExtension</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-removeextension">RemoveExtension</a>
 </td>
 <td align="left" width="63%">
 Unloads an extension library.
@@ -783,17 +783,17 @@ Unloads an extension library.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554600">ReturnInput</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-returninput">ReturnInput</a>
 </td>
 <td align="left" width="63%">
-This method is used by <a href="https://msdn.microsoft.com/library/windows/hardware/ff550785">IDebugInputCallbacks</a> objects to send an input string to the engine following a request for input.
+This method is used by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebuginputcallbacks">IDebugInputCallbacks</a> objects to send an input string to the engine following a request for input.
 
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556629">SetCodeLevel</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-setcodelevel">SetCodeLevel</a>
 </td>
 <td align="left" width="63%">
 Sets the current code level and is mainly used when stepping through code.
@@ -803,7 +803,7 @@ Sets the current code level and is mainly used when stepping through code.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556657">SetEffectiveProcessorType</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-seteffectiveprocessortype">SetEffectiveProcessorType</a>
 </td>
 <td align="left" width="63%">
 Sets the effective processor type of the processor of the computer that is running the target.
@@ -813,7 +813,7 @@ Sets the effective processor type of the processor of the computer that is runni
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556670">SetEngineOptions</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-setengineoptions">SetEngineOptions</a>
 </td>
 <td align="left" width="63%">
 Changes the engine's options.
@@ -823,7 +823,7 @@ Changes the engine's options.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556678">SetEventFilterCommand</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-seteventfiltercommand">SetEventFilterCommand</a>
 </td>
 <td align="left" width="63%">
 Sets a debugger command for the engine to execute when a specified event occurs.
@@ -833,7 +833,7 @@ Sets a debugger command for the engine to execute when a specified event occurs.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556683">SetExceptionFilterParameters</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-setexceptionfilterparameters">SetExceptionFilterParameters</a>
 </td>
 <td align="left" width="63%">
 Changes the break status and handling status for some exception filters.
@@ -843,7 +843,7 @@ Changes the break status and handling status for some exception filters.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556687">SetExceptionFilterSecondCommand</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-setexceptionfiltersecondcommand">SetExceptionFilterSecondCommand</a>
 </td>
 <td align="left" width="63%">
 Sets the command that will be executed by the debugger engine on the second chance of a specified exception.
@@ -852,7 +852,7 @@ Sets the command that will be executed by the debugger engine on the second chan
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556693">SetExecutionStatus</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-setexecutionstatus">SetExecutionStatus</a>
 </td>
 <td align="left" width="63%">
 Requests that the debugger engine enter an executable state. Actual execution will not occur until the next time <b>WaitForEvent</b> is called.
@@ -862,7 +862,7 @@ Requests that the debugger engine enter an executable state. Actual execution wi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556722">SetInterrupt</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-setinterrupt">SetInterrupt</a>
 </td>
 <td align="left" width="63%">
 Registers a user interrupt or breaks into the debugger.
@@ -871,7 +871,7 @@ Registers a user interrupt or breaks into the debugger.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556725">SetInterruptTimeout</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-setinterrupttimeout">SetInterruptTimeout</a>
 </td>
 <td align="left" width="63%">
 Sets the number of seconds that the debugger engine should wait when requesting a break into the debugger.
@@ -880,7 +880,7 @@ Sets the number of seconds that the debugger engine should wait when requesting 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556734">SetLogMask</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-setlogmask">SetLogMask</a>
 </td>
 <td align="left" width="63%">
 Sets the output mask for the currently open log file.
@@ -890,7 +890,7 @@ Sets the output mask for the currently open log file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556739">SetNotifyEventHandle</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-setnotifyeventhandle">SetNotifyEventHandle</a>
 </td>
 <td align="left" width="63%">
 Sets the event that will be signaled after the next exception in a target.
@@ -900,7 +900,7 @@ Sets the event that will be signaled after the next exception in a target.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556770">SetRadix</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-setradix">SetRadix</a>
 </td>
 <td align="left" width="63%">
 Sets the default radix (number base) used by the debugger engine when it evaluates and displays MASM expressions, and when it displays symbol information.
@@ -909,7 +909,7 @@ Sets the default radix (number base) used by the debugger engine when it evaluat
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556791">SetSpecificFilterArgument</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-setspecificfilterargument">SetSpecificFilterArgument</a>
 </td>
 <td align="left" width="63%">
 Sets the value of filter argument for the specific filters that can have an argument.
@@ -919,7 +919,7 @@ Sets the value of filter argument for the specific filters that can have an argu
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556795">SetSpecificFilterParameters</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-setspecificfilterparameters">SetSpecificFilterParameters</a>
 </td>
 <td align="left" width="63%">
 Changes the break status and handling status for some specific event filters.
@@ -929,7 +929,7 @@ Changes the break status and handling status for some specific event filters.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556806">SetSystemErrorControl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-setsystemerrorcontrol">SetSystemErrorControl</a>
 </td>
 <td align="left" width="63%">
 Sets the control values for handling system errors.
@@ -938,7 +938,7 @@ Sets the control values for handling system errors.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556809">SetTextMacro</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-settextmacro">SetTextMacro</a>
 </td>
 <td align="left" width="63%">
 Sets the value of a fixed-name alias.
@@ -947,7 +947,7 @@ Sets the value of a fixed-name alias.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561229">WaitForEvent</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-waitforevent">WaitForEvent</a>
 </td>
 <td align="left" width="63%">
 Waits for an event that breaks into the debugger engine application.
@@ -963,15 +963,15 @@ Waits for an event that breaks into the debugger engine application.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550512">IDebugControl2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugcontrol2">IDebugControl2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550519">IDebugControl3</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugcontrol3">IDebugControl3</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550526">IDebugControl4</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugcontrol4">IDebugControl4</a>
  
 
  

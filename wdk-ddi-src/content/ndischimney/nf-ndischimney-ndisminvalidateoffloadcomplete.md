@@ -51,7 +51,7 @@ req.typenames:
 An offload target calls the 
   <b>NdisMInvalidateOffloadComplete</b> function to complete an invalidate offload operation that was
   initiated by a previous call to the 
-  <a href="https://msdn.microsoft.com/58226149-daea-40aa-afb6-13ce615434b3">
+  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/nc-ndischimney-w_invalidate_offload_handler">
   MiniportInvalidateOffload</a> function of the offload target.
 
 
@@ -63,17 +63,17 @@ An offload target calls the
 ### -param NdisMiniportHandle [in]
 
 The handle that the offload target obtained in a previous call to the 
-     <a href="https://msdn.microsoft.com/bed68aa8-499d-41fd-997b-a46316913cc8">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismregisterminiportdriver">
      NdisMRegisterMiniportDriver</a> function.
 
 
 ### -param OffloadBlockList [in]
 
 A pointer to an 
-     <a href="https://msdn.microsoft.com/ebc98e65-5d11-4c3d-aea1-dfad1434c093">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/ns-ndischimney-_ndis_miniport_offload_block_list">
      NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a> structure. The ofload target obtained this pointer as an input
      parameter to its 
-     <a href="https://msdn.microsoft.com/58226149-daea-40aa-afb6-13ce615434b3">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/nc-ndischimney-w_invalidate_offload_handler">
      MiniportInvalidateOffload</a> function.
 
 
@@ -120,16 +120,16 @@ The invalidate operation did not succeed. In this case, the offload target has s
 
 
 
-<a href="https://msdn.microsoft.com/58226149-daea-40aa-afb6-13ce615434b3">MiniportInvalidateOffload</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/nc-ndischimney-w_invalidate_offload_handler">MiniportInvalidateOffload</a>
 
 
 
-<a href="https://msdn.microsoft.com/ebc98e65-5d11-4c3d-aea1-dfad1434c093">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/ns-ndischimney-_ndis_miniport_offload_block_list">
    NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563654">NdisMRegisterMiniportDriver</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismregisterminiportdriver">NdisMRegisterMiniportDriver</a>
  
 
  

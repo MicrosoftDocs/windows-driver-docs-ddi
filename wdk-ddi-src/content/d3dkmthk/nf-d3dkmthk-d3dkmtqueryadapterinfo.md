@@ -65,7 +65,7 @@ Returns NTSTATUS.
 | **STATUS_SUCCESS** | Adapter information was successfully retrieved. | 
 | **STATUS_DEVICE_REMOVED** | The adapter was stopped. | 
 | **STATUS_INVALID_PARAMETER** | Parameters were validated and determined to be incorrect. | 
-| **STATUS_NO_MEMORY** | [D3DKMTQueryAdapterInfo](https://msdn.microsoft.com/library/windows/hardware/ff547100)  could not complete because of insufficient memory. | 
+| **STATUS_NO_MEMORY** | [D3DKMTQueryAdapterInfo](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/nf-d3dkmthk-d3dkmtqueryadapterinfo)  could not complete because of insufficient memory. | 
 
 This function might also return other NTSTATUS values.
 

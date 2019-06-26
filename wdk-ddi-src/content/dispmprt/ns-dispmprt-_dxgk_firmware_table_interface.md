@@ -137,7 +137,7 @@ The identifier of the firmware table provider to which the query is to be direct
 
 The identifier of the firmware table. This identifier is in little-endian format, so you must reverse the characters in the string. 
 
-For example, FACP is an ACPI provider, as described in the <b>Signature</b> member of the <b>DESCRIPTION_HEADER</b> structure in the [ACPI specification](https://www.uefi.org/specifications). Therefore, use 'PCAF' to specify the FACP table, as shown in the following example:
+For example, FACP is an ACPI provider, as described in the <b>Signature</b> member of the <b>DESCRIPTION_HEADER</b> structure in the [ACPI specification](https://uefi.org/specifications). Therefore, use 'PCAF' to specify the FACP table, as shown in the following example:
 
 ```cpp
 retVal = ReadSystemFirmwareTable('ACPI', 'PCAF', pBuffer, BUFSIZE);
@@ -205,7 +205,7 @@ For ACPI, if the system contains multiple tables with the same name, they are al
 
 #### Context
 
-A handle to a context block that is associated with a display adapter. The display miniport driver's <a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a> function previously provided this handle to the DirectX graphics kernel subsystem.
+A handle to a context block that is associated with a display adapter. The display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function previously provided this handle to the DirectX graphics kernel subsystem.
 
 
 
@@ -224,7 +224,7 @@ The identifier of the firmware table provider to which the query is to be direct
 
 The identifier of the firmware table. This identifier is in little-endian format, so you must reverse the characters in the string. 
 
-For example, FACP is an ACPI provider, as described in the <b>Signature</b> member of the <b>DESCRIPTION_HEADER</b> structure in the [ACPI specification](https://www.uefi.org/specifications). Therefore, use 'PCAF' to specify the FACP table, as shown in the following example:
+For example, FACP is an ACPI provider, as described in the <b>Signature</b> member of the <b>DESCRIPTION_HEADER</b> structure in the [ACPI specification](https://uefi.org/specifications). Therefore, use 'PCAF' to specify the FACP table, as shown in the following example:
 
 ```cpp
 retVal = ReadSystemFirmwareTable('ACPI', 'PCAF', pBuffer, BUFSIZE);
@@ -255,11 +255,11 @@ A pointer to a value that receives the minimum size of the  buffer pointed to by
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh802466">EnumSystemFirmwareTables</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/ns-dispmprt-_dxgk_firmware_table_interface">EnumSystemFirmwareTables</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh802471">ReadSystemFirmwareTable</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/ns-dispmprt-_dxgk_firmware_table_interface">ReadSystemFirmwareTable</a>
  
 
  

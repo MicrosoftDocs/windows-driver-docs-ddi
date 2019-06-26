@@ -105,7 +105,7 @@ The target is in a kernel and the breakpoint is a processor breakpoint.  Process
 </table>
  
 
-This method can also return other error values.  For more information, see <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a>.
+This method can also return other error values.  For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a>.
 
 
 
@@ -118,7 +118,7 @@ If you have set a thread for the breakpoint, the breakpoint can be triggered onl
 
 If you have set a thread, you can remove the setting by setting <i>Id</i> to DEBUG_ANY_ID.
 
-For more information about breakpoint properties, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff539284">Controlling Breakpoint Flags and Parameters</a>.
+For more information about breakpoint properties, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/controlling-breakpoint-flags-and-parameters">Controlling Breakpoint Flags and Parameters</a>.
 
 
 

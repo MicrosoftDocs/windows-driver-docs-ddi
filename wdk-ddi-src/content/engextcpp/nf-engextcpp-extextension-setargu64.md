@@ -56,7 +56,7 @@ The <b>SetArgU64</b> method sets a named expression argument for the current exp
 
 ### -param Name [in]
 
-Specifies the name of the argument.  The command-line description used in <a href="https://msdn.microsoft.com/library/windows/hardware/ff544514">EXT_COMMAND</a> must specify that the type of this argument is expression.
+Specifies the name of the argument.  The command-line description used in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-ext_command">EXT_COMMAND</a> must specify that the type of this argument is expression.
 
 
 ### -param Arg [in]
@@ -82,7 +82,7 @@ Specifies what happens if the argument is already set.  If <i>OnlyIfUnset</i> is
 
 
 
-For an overview of argument parsing in the EngExtCpp extensions framework, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff553340">Parsing Extension Arguments</a>.
+For an overview of argument parsing in the EngExtCpp extensions framework, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/parsing-extension-arguments">Parsing Extension Arguments</a>.
 
 This method should only be called during the execution of an extension command provided by this class.
 
@@ -94,7 +94,7 @@ This method should only be called during the execution of an extension command p
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544514">EXT_COMMAND</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-ext_command">EXT_COMMAND</a>
 
 
 

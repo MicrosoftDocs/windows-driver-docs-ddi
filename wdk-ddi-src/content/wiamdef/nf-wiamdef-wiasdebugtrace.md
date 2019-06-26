@@ -89,7 +89,7 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 
 
-The wiasDebugTrace function is not recommended for Windows XP and later. For Windows XP use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549600">WIAS_LTRACE</a> macro instead. For Windows Vista use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549619">WIAS_TRACE</a> macro instead.
+The wiasDebugTrace function is not recommended for Windows XP and later. For Windows XP use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wias_ltrace">WIAS_LTRACE</a> macro instead. For Windows Vista use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wias_trace">WIAS_TRACE</a> macro instead.
 
 To enable tracing in free builds, drivers must define the WIAS_DEBUG macro. Tracing is enabled by default in checked and debug builds of the operating system.
 
@@ -101,11 +101,11 @@ To enable tracing in free builds, drivers must define the WIAS_DEBUG macro. Trac
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549600">WIAS_LTRACE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wias_ltrace">WIAS_LTRACE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549619">WIAS_TRACE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wias_trace">WIAS_TRACE</a>
  
 
  

@@ -73,7 +73,7 @@ Indicates the y-origin of the video port surface.
 
 
 
-This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566509">KSPROPERTY_VPCONFIG_SURFACEPARAMS</a> property.
+This structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-vpconfig-surfaceparams">KSPROPERTY_VPCONFIG_SURFACEPARAMS</a> property.
 
 
 
@@ -83,7 +83,7 @@ This structure is used by the <a href="https://msdn.microsoft.com/library/window
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566509">KSPROPERTY_VPCONFIG_SURFACEPARAMS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-vpconfig-surfaceparams">KSPROPERTY_VPCONFIG_SURFACEPARAMS</a>
  
 
  

@@ -67,7 +67,7 @@ The <b>FsRtlIsAnsiCharacterWild</b> macro determines whether an ANSI character i
 
 
 
-For information about other string-handling routines, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563884">Strings</a>. 
+For information about other string-handling routines, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">Strings</a>. 
 
 
 
@@ -77,11 +77,11 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546731">FsRtlIsAnsiCharacterLegal</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-fsrtlisansicharacterlegal">FsRtlIsAnsiCharacterLegal</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546887">FsRtlIsUnicodeCharacterWild</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-fsrtlisunicodecharacterwild">FsRtlIsUnicodeCharacterWild</a>
  
 
  

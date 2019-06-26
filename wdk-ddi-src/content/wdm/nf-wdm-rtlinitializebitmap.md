@@ -57,7 +57,7 @@ The <b>RtlInitializeBitMap</b> routine initializes the header of a bitmap variab
 
 ### -param BitMapHeader [out]
 
-Pointer to an empty <a href="https://msdn.microsoft.com/library/windows/hardware/ff563614">RTL_BITMAP</a> structure. 
+Pointer to an empty <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">RTL_BITMAP</a> structure. 
 
 
 ### -param BitMapBuffer [in]
@@ -97,79 +97,79 @@ A driver can use a bitmap variable as an economical way to keep track of a set o
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563614">RTL_BITMAP</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">RTL_BITMAP</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561742">RtlAreBitsClear</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlarebitsclear">RtlAreBitsClear</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561745">RtlAreBitsSet</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlarebitsset">RtlAreBitsSet</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561751">RtlCheckBit</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlcheckbit">RtlCheckBit</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561755">RtlClearAllBits</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlclearallbits">RtlClearAllBits</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561763">RtlClearBits</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlclearbits">RtlClearBits</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561873">RtlFindClearBits</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlfindclearbits">RtlFindClearBits</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561874">RtlFindClearBitsAndSet</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlfindclearbitsandset">RtlFindClearBitsAndSet</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561875">RtlFindClearRuns</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlfindclearruns">RtlFindClearRuns</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561877">RtlFindFirstRunClear</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlfindfirstrunclear">RtlFindFirstRunClear</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561879">RtlFindLastBackwardRunClear</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlfindlastbackwardrunclear">RtlFindLastBackwardRunClear</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561881">RtlFindLongestRunClear</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlfindlongestrunclear">RtlFindLongestRunClear</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561885">RtlFindNextForwardRunClear</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlfindnextforwardrunclear">RtlFindNextForwardRunClear</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561890">RtlFindSetBits</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlfindsetbits">RtlFindSetBits</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561895">RtlFindSetBitsAndClear</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlfindsetbitsandclear">RtlFindSetBitsAndClear</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562034">RtlNumberOfClearBits</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlnumberofclearbits">RtlNumberOfClearBits</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562037">RtlNumberOfSetBits</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlnumberofsetbits">RtlNumberOfSetBits</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562770">RtlSetAllBits</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlsetallbits">RtlSetAllBits</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562775">RtlSetBits</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlsetbits">RtlSetBits</a>
  
 
  

@@ -70,7 +70,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/DF6A3FD2-22B4-452D-8D43-1EB25E2CEEA5">IPrintAsyncNotifyRegistration</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prnasntp/nn-prnasntp-iprintasyncnotifyregistration">IPrintAsyncNotifyRegistration</a>
  
 
  

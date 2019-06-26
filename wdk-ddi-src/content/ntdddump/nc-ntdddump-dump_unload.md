@@ -56,7 +56,7 @@ The <i>Dump_Unload</i> callback routine is called when the dump stack is unloade
 
 ### -param FilterExtension [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff553862">FILTER_EXTENSION</a> structure.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdddump/ns-ntdddump-_filter_extension">FILTER_EXTENSION</a> structure.
 
 
 ## -returns
@@ -73,7 +73,7 @@ If the routine succeeds, it must return STATUS_SUCCESS. Otherwise, it must retur
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553862">FILTER_EXTENSION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdddump/ns-ntdddump-_filter_extension">FILTER_EXTENSION</a>
  
 
  

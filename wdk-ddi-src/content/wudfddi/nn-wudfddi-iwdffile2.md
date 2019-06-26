@@ -53,7 +53,7 @@ Drivers obtain the <b>IWDFFile2</b> interface by calling <b>IWDFFile::QueryInter
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFFile2</b> interface inherits from <a href="https://msdn.microsoft.com/library/windows/hardware/ff558912">IWDFFile</a>. <b>IWDFFile2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFFile2</b> interface inherits from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nn-wudfddi-iwdffile">IWDFFile</a>. <b>IWDFFile2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -68,19 +68,19 @@ The <b>IWDFFile2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558917">IWDFFile2::GetRelatedFileObject</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdffile2-getrelatedfileobject">IWDFFile2::GetRelatedFileObject</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/0ac5c19a-b3ec-4f1e-a018-2c11cc18e58d">GetRelatedFileObject</a> method retrieves the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558912">IWDFFile</a> interface of a <i>related file object</i>, which is a file object that has a technology-specific relationship with another file object.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdffile2-getrelatedfileobject">GetRelatedFileObject</a> method retrieves the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nn-wudfddi-iwdffile">IWDFFile</a> interface of a <i>related file object</i>, which is a file object that has a technology-specific relationship with another file object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558920">IWDFFile2::RetrieveCountedFileName</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdffile2-retrievecountedfilename">IWDFFile2::RetrieveCountedFileName</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/0b3aa8d9-1947-4e5e-91d1-6f73ddb3908a">RetrieveCountedFileName</a> method retrieves the full counted file name for a file that is associated with a device. 
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdffile2-retrievecountedfilename">RetrieveCountedFileName</a> method retrieves the full counted file name for a file that is associated with a device. 
 
 </td>
 </tr>

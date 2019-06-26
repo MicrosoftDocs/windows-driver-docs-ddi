@@ -183,7 +183,7 @@ A <b>STORPORT_TELEMETRY_EVENT</b> structure describes the miniport telemetry dat
 
 
 
-<a href="https://msdn.microsoft.com/3B32F31C-3850-43D4-9C6E-40D35B8AF4D4">StorPortLogTelemetry</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportlogtelemetry">StorPortLogTelemetry</a>
  
 
  

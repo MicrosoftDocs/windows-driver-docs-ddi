@@ -62,7 +62,7 @@ The <b>BdaMethodCreatePin</b> function creates a pin factory.
 
 ### -param pKSMethod [in]
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563398">KSMETHOD</a> structure that describes the method and request type of a method request.
+Points to a <a href="https://docs.microsoft.com/previous-versions/ff563398(v=vs.85)">KSMETHOD</a> structure that describes the method and request type of a method request.
 
 
 ### -param pulPinFactoryID [out, optional]
@@ -72,7 +72,7 @@ Points to a variable that receives the identifier of the pin factory.
 
 #### - Irp [in]
 
-Points to the IRP for the request to create a pin factory. The BDA minidriver receives this IRP with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563411">KSMETHOD_BDA_CREATE_PIN_FACTORY</a> request.
+Points to the IRP for the request to create a pin factory. The BDA minidriver receives this IRP with the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksmethod-bda-create-pin-factory">KSMETHOD_BDA_CREATE_PIN_FACTORY</a> request.
 
 
 ## -returns
@@ -88,7 +88,7 @@ Returns STATUS_SUCCESS or an appropriate error code.
 
 
 
-A BDA minidriver calls the <b>BdaMethodCreatePin</b> function to create a pin factory after the minidriver receives a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563411">KSMETHOD_BDA_CREATE_PIN_FACTORY</a> request of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563404">KSMETHODSETID_BdaDeviceConfiguration</a> method set from the network provider. Most BDA minidrivers can define dispatch and filter-automation tables so that those minidrivers dispatch the <b>BdaMethodCreatePin</b> function directly, without intercepting this request using an internal method (<a href="https://msdn.microsoft.com/library/windows/hardware/ff567191">KStrMethodHandler</a>). See <a href="https://msdn.microsoft.com/1c0dace6-b618-4705-bf5d-65457d14c072">Defining Automation Tables</a> and <a href="https://msdn.microsoft.com/4af9efc3-8073-4111-9ad0-8b2fba4d1545">Configuring a BDA Filter</a> for more information. 
+A BDA minidriver calls the <b>BdaMethodCreatePin</b> function to create a pin factory after the minidriver receives a <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksmethod-bda-create-pin-factory">KSMETHOD_BDA_CREATE_PIN_FACTORY</a> request of the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksmethodsetid-bdadeviceconfiguration">KSMETHODSETID_BdaDeviceConfiguration</a> method set from the network provider. Most BDA minidrivers can define dispatch and filter-automation tables so that those minidrivers dispatch the <b>BdaMethodCreatePin</b> function directly, without intercepting this request using an internal method (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nc-ks-pfnkshandler">KStrMethodHandler</a>). See <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/defining-automation-tables">Defining Automation Tables</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/configuring-a-bda-filter">Configuring a BDA Filter</a> for more information. 
 
 If a BDA minidriver must create a pin without relying on the network provider, the BDA minidriver should call the <b>BdaCreatePin</b> function.
 
@@ -100,27 +100,27 @@ If a BDA minidriver must create a pin without relying on the network provider, t
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556445">BdaCreatePin</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bdasup/nf-bdasup-bdacreatepin">BdaCreatePin</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556474">BdaMethodDeletePin</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bdasup/nf-bdasup-bdamethoddeletepin">BdaMethodDeletePin</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563398">KSMETHOD</a>
+<a href="https://docs.microsoft.com/previous-versions/ff563398(v=vs.85)">KSMETHOD</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563404">KSMETHODSETID_BdaDeviceConfiguration</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksmethodsetid-bdadeviceconfiguration">KSMETHODSETID_BdaDeviceConfiguration</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563411">KSMETHOD_BDA_CREATE_PIN_FACTORY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksmethod-bda-create-pin-factory">KSMETHOD_BDA_CREATE_PIN_FACTORY</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567191">KStrMethodHandler</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nc-ks-pfnkshandler">KStrMethodHandler</a>
  
 
  

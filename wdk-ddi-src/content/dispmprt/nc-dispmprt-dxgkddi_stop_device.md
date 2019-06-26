@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <i>DxgkDdiStopDevice</i> function resets a display adapter and frees resources allocated during <a href="https://msdn.microsoft.com/ffacbb39-2581-4207-841d-28ce57fbc64d">DxgkDdiStartDevice</a>.
+The <i>DxgkDdiStopDevice</i> function resets a display adapter and frees resources allocated during <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a>.
 
 
 ## -parameters
@@ -56,7 +56,7 @@ The <i>DxgkDdiStopDevice</i> function resets a display adapter and frees resourc
 
 ### -param MiniportDeviceContext [in]
 
-A handle to a context block associated with a display adapter. The display miniport driver's <a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a> function previously provided this handle to the DirectX graphics kernel subsystem.
+A handle to a context block associated with a display adapter. The display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function previously provided this handle to the DirectX graphics kernel subsystem.
 
 
 ## -returns
@@ -72,7 +72,7 @@ A handle to a context block associated with a display adapter. The display minip
 
 
 
-For more information on how this function is used in Plug and Play (PnP) scenarios starting in Windows 8, see <a href="https://msdn.microsoft.com/A95DCFEA-BC1B-4A13-9850-13814725D53E">Plug and Play (PnP) in WDDM 1.2 and later</a>.
+For more information on how this function is used in Plug and Play (PnP) scenarios starting in Windows 8, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/plug-and-play--pnp--start-and-stop-cases">Plug and Play (PnP) in WDDM 1.2 and later</a>.
 
 The <i>DxgkDdiStopDevice</i> function should be made pageable.
 
@@ -84,7 +84,7 @@ The <i>DxgkDdiStopDevice</i> function should be made pageable.
 
 
 
-<a href="https://msdn.microsoft.com/ffacbb39-2581-4207-841d-28ce57fbc64d">DxgkDdiStartDevice</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a>
  
 
  

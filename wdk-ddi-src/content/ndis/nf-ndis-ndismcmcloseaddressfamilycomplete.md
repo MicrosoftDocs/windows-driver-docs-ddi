@@ -62,7 +62,7 @@ The caller sets this to NDIS_STATUS_SUCCESS.
 ### -param _H_
 
 Specifies the NDIS-supplied handle passed to the MCM driver's 
-     <a href="https://msdn.microsoft.com/7422c205-bc41-4121-b430-ff9e6b49dc2e">ProtocolCmOpenAf</a> function when this
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cm_open_af">ProtocolCmOpenAf</a> function when this
      client originally opened the address family.
 
 ## -remarks
@@ -71,16 +71,16 @@ Specifies the NDIS-supplied handle passed to the MCM driver's
 
 An MCM driver must call 
     <b>NdisMCmCloseAddressFamilyComplete</b> if its 
-    <a href="https://msdn.microsoft.com/a7a02813-62e4-49c5-abb6-a90f4e092b9f">ProtocolCmCloseAf</a> function previously
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cm_close_af">ProtocolCmCloseAf</a> function previously
     returned NDIS_STATUS_PENDING for the given 
     <i>NdisAfHandle</i> . The client, which initiated the pended close-AF operation with a call to 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561626">NdisClCloseAddressFamily</a>, cannot
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisclcloseaddressfamily">NdisClCloseAddressFamily</a>, cannot
     release the resources it allocated to track communications on the AF until the MCM driver's call to 
     <b>NdisMCmCloseAddressFamilyComplete</b>.
 
 A call to 
     <b>NdisMCmCloseAddressFamilyComplete</b> causes NDIS to call the client's 
-    <a href="https://msdn.microsoft.com/7597e124-34e4-4326-98b3-c65dbe90ae6f">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cl_close_af_complete">
     ProtocolClCloseAfComplete</a> function.
 
 The MCM driver cannot subsequently use the 
@@ -100,24 +100,24 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561626">NdisClCloseAddressFamily</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisclcloseaddressfamily">NdisClCloseAddressFamily</a>
 
 
 
-<a href="https://msdn.microsoft.com/1aeb2ca5-8c56-4a78-8cd5-a178efa9b014">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndiscmcloseaddressfamilycomplete">
    NdisCmCloseAddressFamilyComplete</a>
 
 
 
-<a href="https://msdn.microsoft.com/7597e124-34e4-4326-98b3-c65dbe90ae6f">ProtocolClCloseAfComplete</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cl_close_af_complete">ProtocolClCloseAfComplete</a>
 
 
 
-<a href="https://msdn.microsoft.com/a7a02813-62e4-49c5-abb6-a90f4e092b9f">ProtocolCmCloseAf</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cm_close_af">ProtocolCmCloseAf</a>
 
 
 
-<a href="https://msdn.microsoft.com/7422c205-bc41-4121-b430-ff9e6b49dc2e">ProtocolCmOpenAf</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cm_open_af">ProtocolCmOpenAf</a>
  
 
  

@@ -59,7 +59,7 @@ The
 
 A handle that identifies the interface provider's context area for the interface. The interface
      provider passed this handle to NDIS in a call to the 
-     <a href="https://msdn.microsoft.com/d0b0ada7-afb1-4cb7-ada6-7c5c7abe7d19">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisifregisterinterface">
      NdisIfRegisterInterface</a> function.
 
 
@@ -167,7 +167,7 @@ NDIS calls
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562715">NdisIfRegisterInterface</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisifregisterinterface">NdisIfRegisterInterface</a>
  
 
  

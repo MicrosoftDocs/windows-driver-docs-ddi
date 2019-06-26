@@ -46,7 +46,7 @@ req.typenames: NDIS_PORT_CHARACTERISTICS, *PNDIS_PORT_CHARACTERISTICS
 ## -description
 
 
-The <b>NDIS_PORT_CHARACTERISTICS</b> structure specifies the characteristics of an NDIS port. For more information about NDIS ports, see <a href="https://msdn.microsoft.com/e65f4af5-c527-4d6d-a38c-56da006b1ef7">NDIS Ports</a>.
+The <b>NDIS_PORT_CHARACTERISTICS</b> structure specifies the characteristics of an NDIS port. For more information about NDIS ports, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-ports">NDIS Ports</a>.
 
 
 ## -struct-fields
@@ -57,7 +57,7 @@ The <b>NDIS_PORT_CHARACTERISTICS</b> structure specifies the characteristics of 
 ### -field Header
 
 The 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
      <b>NDIS_PORT_CHARACTERISTICS</b> structure. Set the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to NDIS_OBJECT_TYPE_DEFAULT, the 
@@ -88,7 +88,7 @@ If the NDIS_PORT_CHAR_USE_DEFAULT_AUTH_SETTINGS flag is set, NDIS ignores authen
 
 ### -field Type
 
-The type of NDIS port. For more information, see <a href="https://msdn.microsoft.com/a77ceb1b-d4b9-4a42-aa5b-685295722fa3">Types of NDIS Ports</a>. This type can be one of the following values:
+The type of NDIS port. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/types-of-ndis-ports">Types of NDIS Ports</a>. This type can be one of the following values:
      
 
 
@@ -148,7 +148,7 @@ The receive link speed of the port, in bits per second. A value of -1 in this me
 ### -field Direction
 
 A 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568742">NET_IF_DIRECTION_TYPE</a> NDIS network
+     <a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ne-ifdef-_net_if_direction_type">NET_IF_DIRECTION_TYPE</a> NDIS network
      interface direction type.
 
 
@@ -289,19 +289,19 @@ The port is re-authorizing for receive operations.
 
 The <b>NDIS_PORT_CHARACTERISTICS</b> structure specifies the characteristics of an NDIS port. This structure
     appears in a list of port characteristics that are provided in the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff566786">NDIS_PORT_ARRAY</a> structure that is used with
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_port_array">NDIS_PORT_ARRAY</a> structure that is used with
     the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff569583">OID_GEN_ENUMERATE_PORTS</a> OID.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-enumerate-ports">OID_GEN_ENUMERATE_PORTS</a> OID.
 
 To allocate an NDIS port, a driver initializes an <b>NDIS_PORT_CHARACTERISTICS</b> structure and passes it to
     the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff562779">NdisMAllocatePort</a> function. When 
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismallocateport">NdisMAllocatePort</a> function. When 
     <b>NdisMAllocatePort</b> successfully returns, NDIS sets the 
     <b>PortNumber</b> member of <b>NDIS_PORT_CHARACTERISTICS</b> to the port number that NDIS assigned to the
     port.
 
 NDIS uses a linked list of ports in port activation Plug and Play (PnP) events. NDIS uses the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff566769">NDIS_PORT</a> structure to create a linked list of
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_port">NDIS_PORT</a> structure to create a linked list of
     ports, and each <b>NDIS_PORT</b> structure contains an <b>NDIS_PORT_CHARACTERISTICS</b> structure.
 
 
@@ -312,31 +312,31 @@ NDIS uses a linked list of ports in port activation Plug and Play (PnP) events. 
 
 
 
-<a href="https://msdn.microsoft.com/e65f4af5-c527-4d6d-a38c-56da006b1ef7">NDIS Ports</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-ports">NDIS Ports</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566769">NDIS_PORT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_port">NDIS_PORT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566786">NDIS_PORT_ARRAY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_port_array">NDIS_PORT_ARRAY</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568742">NET_IF_DIRECTION_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ne-ifdef-_net_if_direction_type">NET_IF_DIRECTION_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562779">NdisMAllocatePort</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismallocateport">NdisMAllocatePort</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569583">OID_GEN_ENUMERATE_PORTS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-enumerate-ports">OID_GEN_ENUMERATE_PORTS</a>
 
 
 
@@ -344,7 +344,7 @@ NDIS uses a linked list of ports in port activation Plug and Play (PnP) events. 
 
 
 
-<a href="https://msdn.microsoft.com/a77ceb1b-d4b9-4a42-aa5b-685295722fa3">Types of NDIS Ports</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/types-of-ndis-ports">Types of NDIS Ports</a>
  
 
  

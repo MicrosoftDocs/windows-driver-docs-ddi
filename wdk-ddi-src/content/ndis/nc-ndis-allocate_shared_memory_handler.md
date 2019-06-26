@@ -61,14 +61,14 @@ The
 An NDIS_HANDLE to a block of driver-allocated context information that identifies the provider.
      The provider supplied this information in the 
      <b>ProviderContext</b> member of the 
-     <a href="https://msdn.microsoft.com/45001da1-5fe3-4383-8da7-31e3ee115c1f">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_shared_memory_provider_characteristics">
      NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS</a> structure.
 
 
 ### -param SharedMemoryParameters [in]
 
 A pointer to an 
-     <a href="https://msdn.microsoft.com/286b08f6-179e-426e-ae65-b108529d049a">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_shared_memory_parameters">
      NDIS_SHARED_MEMORY_PARAMETERS</a> structure that defines the requested attributes for the shared
      memory.
 
@@ -146,12 +146,12 @@ The operation failed for unspecified reasons.
 
 NDIS calls the 
     <i>NetAllocateSharedMemory</i> function of a shared memory provider when a driver calls the 
-    <a href="https://msdn.microsoft.com/1e4919df-7897-44c3-876f-0f1acfe6d5af">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisallocatesharedmemory">
     NdisAllocateSharedMemory</a> function.
 
 The shared memory provider specified the entry point (ALLOCATE_SHARED_MEMORY_HANDLER) for 
     <i>NetAllocateSharedMemory</i> in the 
-    <a href="https://msdn.microsoft.com/45001da1-5fe3-4383-8da7-31e3ee115c1f">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_shared_memory_provider_characteristics">
     NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS</a> structure.
 
 
@@ -162,16 +162,16 @@ The shared memory provider specified the entry point (ALLOCATE_SHARED_MEMORY_HAN
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567303">NDIS_SHARED_MEMORY_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_shared_memory_parameters">NDIS_SHARED_MEMORY_PARAMETERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/45001da1-5fe3-4383-8da7-31e3ee115c1f">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_shared_memory_provider_characteristics">
    NDIS_SHARED_MEMORY_PROVIDER_CHARACTERISTICS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561616">NdisAllocateSharedMemory</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisallocatesharedmemory">NdisAllocateSharedMemory</a>
  
 
  

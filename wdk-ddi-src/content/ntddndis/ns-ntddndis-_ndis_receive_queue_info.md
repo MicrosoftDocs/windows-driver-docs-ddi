@@ -56,7 +56,7 @@ The <b>NDIS_RECEIVE_QUEUE_INFO</b> structure contains information about a receiv
 
 ### -field Header
 
-The type, revision, and size of the <b>NDIS_RECEIVE_QUEUE_INFO</b> structure. This member is formatted as an <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure.
+The type, revision, and size of the <b>NDIS_RECEIVE_QUEUE_INFO</b> structure. This member is formatted as an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure.
 
 The miniport driver must set the <b>Type</b> member of <b>Header</b> to NDIS_OBJECT_TYPE_DEFAULT. To specify the version of the <b>NDIS_RECEIVE_QUEUE_INFO</b> structure, the driver must set the <b>Revision</b> member of <b>Header</b> to one of the following values: 
 
@@ -86,7 +86,7 @@ A <b>ULONG</b> value that contains a bitwise <b>OR</b> of flags. This member is 
 
 ### -field QueueType
 
-An <a href="https://msdn.microsoft.com/library/windows/hardware/ff567217">NDIS_RECEIVE_QUEUE_TYPE</a> enumeration
+An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ne-ntddndis-_ndis_receive_queue_type">NDIS_RECEIVE_QUEUE_TYPE</a> enumeration
      value that specifies the type of the receive queue.
 
 
@@ -104,7 +104,7 @@ This member is reserved for NDIS.
 
 ### -field QueueState
 
-An <a href="https://msdn.microsoft.com/a8ae7b19-9dc8-4ccc-b71e-62ec0be1fa99">
+An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ne-ntddndis-_ndis_receive_queue_operational_state">
      NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE</a> enumeration value that specifies the operational state of the
      receive queue.
 
@@ -150,7 +150,7 @@ An <b>NDIS_QUEUE_NAME</b> value that contains the user-friendly description of t
 
 A ULONG value that specifies the number of receive filters that have been configured on the network adapter.
 
-<div class="alert"><b>Note</b>  Starting with NDIS 6.30, the miniport driver must maintain a counter for the current number of receive filters that are set on the network adapter. The driver must increment the counter each time a receive filter is set through an OID set request of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-set-filter">OID_RECEIVE_FILTER_SET_FILTER</a>.  The driver must also decrement the counter each time a receive filter is  cleared through an OID set request of <a href="https://msdn.microsoft.com/library/windows/hardware/ff569785">OID_RECEIVE_FILTER_CLEAR_FILTER</a>.</div>
+<div class="alert"><b>Note</b>  Starting with NDIS 6.30, the miniport driver must maintain a counter for the current number of receive filters that are set on the network adapter. The driver must increment the counter each time a receive filter is set through an OID set request of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-set-filter">OID_RECEIVE_FILTER_SET_FILTER</a>.  The driver must also decrement the counter each time a receive filter is  cleared through an OID set request of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-clear-filter">OID_RECEIVE_FILTER_CLEAR_FILTER</a>.</div>
 
 ### -field InterruptCoalescingDomainId
 
@@ -162,14 +162,14 @@ A ULONG value that is reserved for use by NDIS. This value is used for informati
 
 
 The <b>NDIS_RECEIVE_QUEUE_INFO</b> structure is used with the 
-    <a href="https://msdn.microsoft.com/6a026c2b-e2ed-41bf-9482-0fdc64b175f2">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_receive_queue_info_array">
     NDIS_RECEIVE_QUEUE_INFO_ARRAY</a> structure for the 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-enum-queues">
     OID_RECEIVE_FILTER_ENUM_QUEUES</a> OID that enumerates receive queues on a network adapter.
 
 With a successful return from the <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-enum-queues">
     OID_RECEIVE_FILTER_ENUM_QUEUES</a>, NDIS provides an
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff567205">NDIS_RECEIVE_QUEUE_INFO_ARRAY</a> structure that defines the properties of the receive queue array. Each
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_receive_queue_info_array">NDIS_RECEIVE_QUEUE_INFO_ARRAY</a> structure that defines the properties of the receive queue array. Each
     element in the array is an <b>NDIS_RECEIVE_QUEUE_INFO</b> structure.
 
 
@@ -180,24 +180,24 @@ With a successful return from the <a href="https://docs.microsoft.com/windows-ha
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567205">NDIS_RECEIVE_QUEUE_INFO_ARRAY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_receive_queue_info_array">NDIS_RECEIVE_QUEUE_INFO_ARRAY</a>
 
 
 
-<a href="https://msdn.microsoft.com/a8ae7b19-9dc8-4ccc-b71e-62ec0be1fa99">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ne-ntddndis-_ndis_receive_queue_operational_state">
    NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567217">NDIS_RECEIVE_QUEUE_TYPE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ne-ntddndis-_ndis_receive_queue_type">NDIS_RECEIVE_QUEUE_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569785">OID_RECEIVE_FILTER_CLEAR_FILTER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-clear-filter">OID_RECEIVE_FILTER_CLEAR_FILTER</a>
 
 
 

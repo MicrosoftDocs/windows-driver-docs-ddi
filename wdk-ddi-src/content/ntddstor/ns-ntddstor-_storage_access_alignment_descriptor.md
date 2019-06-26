@@ -46,7 +46,7 @@ req.typenames: STORAGE_ACCESS_ALIGNMENT_DESCRIPTOR, PSTORAGE_ACCESS_ALIGNMENT_DE
 ## -description
 
 
-The STORAGE_ACCESS_ALIGNMENT_DESCRIPTOR structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560590">IOCTL_STORAGE_QUERY_PROPERTY</a> request to retrieve the storage access alignment descriptor data for a device. 
+The STORAGE_ACCESS_ALIGNMENT_DESCRIPTOR structure is used in conjunction with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ni-ntddstor-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a> request to retrieve the storage access alignment descriptor data for a device. 
 
 
 ## -struct-fields
@@ -112,7 +112,7 @@ In this example, BytesOffsetForSectorAlignment = 3 * size_of_logical_sector.
 
 
 
-Storage class drivers issue a device-control request with the I/O control code  <a href="https://msdn.microsoft.com/library/windows/hardware/ff560590">IOCTL_STORAGE_QUERY_PROPERTY</a> to retrieve this structure, which contains access alignment information for data transfer operations. The structure can be retrieved either from the device object for the bus or from an FDO, which forwards the request to the underlying bus.
+Storage class drivers issue a device-control request with the I/O control code  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ni-ntddstor-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a> to retrieve this structure, which contains access alignment information for data transfer operations. The structure can be retrieved either from the device object for the bus or from an FDO, which forwards the request to the underlying bus.
 
 
 
@@ -122,7 +122,7 @@ Storage class drivers issue a device-control request with the I/O control code  
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560590">IOCTL_STORAGE_QUERY_PROPERTY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ni-ntddstor-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a>
  
 
  

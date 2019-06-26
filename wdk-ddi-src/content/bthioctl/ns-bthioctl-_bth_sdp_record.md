@@ -218,7 +218,7 @@ The size, in bytes, of the record.
 
 
 This structure is passed as the input buffer and output buffer of 
-    <a href="https://msdn.microsoft.com/774d1bda-2d9b-4ab4-97cf-b358471d8716">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthioctl/ni-bthioctl-ioctl_bth_sdp_submit_record_with_info">
     IOCTL_BTH_SDP_SUBMIT_RECORD_WITH_INFO</a>.
 
 
@@ -229,7 +229,7 @@ This structure is passed as the input buffer and output buffer of
 
 
 
-<a href="https://msdn.microsoft.com/774d1bda-2d9b-4ab4-97cf-b358471d8716">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthioctl/ni-bthioctl-ioctl_bth_sdp_submit_record_with_info">
    IOCTL_BTH_SDP_SUBMIT_RECORD_WITH_INFO</a>
  
 

@@ -46,7 +46,7 @@ req.typenames: D3DDDIARG_CHECKMULTIPLANEOVERLAYSUPPORT
 ## -description
 
 
-Used in a call to the <a href="https://msdn.microsoft.com/A439E695-D374-439A-8A69-6D4E247FF134">pfnCheckMultiPlaneOverlaySupport (D3D)</a> function to check details on hardware support for multiplane overlays.
+Used in a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_checkmultiplaneoverlaysupport">pfnCheckMultiPlaneOverlaySupport (D3D)</a> function to check details on hardware support for multiplane overlays.
 
 
 ## -struct-fields
@@ -66,7 +66,7 @@ Used in a call to the <a href="https://msdn.microsoft.com/A439E695-D374-439A-8A6
 
 ### -field pPlanes
 
-[out] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh780232">D3DDDI_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE_INFO</a> structure that specifies support attributes that the hardware provides for multiplane overlays.
+[out] A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/display/d3dddi-check-multiplane-overlay-support-plane-info">D3DDDI_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE_INFO</a> structure that specifies support attributes that the hardware provides for multiplane overlays.
 
 
 ### -field Supported
@@ -80,11 +80,11 @@ Used in a call to the <a href="https://msdn.microsoft.com/A439E695-D374-439A-8A6
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh780232">D3DDDI_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/display/d3dddi-check-multiplane-overlay-support-plane-info">D3DDDI_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/A439E695-D374-439A-8A69-6D4E247FF134">pfnCheckMultiPlaneOverlaySupport (D3D)</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_checkmultiplaneoverlaysupport">pfnCheckMultiPlaneOverlaySupport (D3D)</a>
  
 
  

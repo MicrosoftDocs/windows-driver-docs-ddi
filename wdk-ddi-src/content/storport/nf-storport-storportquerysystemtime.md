@@ -83,7 +83,7 @@ The system time returned in <i>CurrentTime</i> is the number of 100-nanosecond i
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564708">ScsiPortQuerySystemTime</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/srb/nf-srb-scsiportquerysystemtime">ScsiPortQuerySystemTime</a>
  
 
  

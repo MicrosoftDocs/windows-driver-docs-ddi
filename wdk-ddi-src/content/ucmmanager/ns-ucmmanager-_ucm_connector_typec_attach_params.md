@@ -71,19 +71,19 @@ Power sourcing capabilities of: the partner port when <b>PortPartnerType</b> is 
 
 ### -field ChargingState
 
-Optional. Charging state of the port indicated by one of the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187921">UCM_CHARGING_STATE</a>-typed flags. 
+Optional. Charging state of the port indicated by one of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucmtypes/ne-ucmtypes-_ucm_charging_state">UCM_CHARGING_STATE</a>-typed flags. 
 
 
 #### - PortPartnerType
 
-The type of partner attached to the connector, indicated by a <a href="https://msdn.microsoft.com/library/windows/hardware/mt187947">UCM_TYPEC_PARTNER</a> value.
+The type of partner attached to the connector, indicated by a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucmtypes/ne-ucmtypes-_ucm_typec_partner">UCM_TYPEC_PARTNER</a> value.
 
 
 ## -remarks
 
 
 
-Initialize this structure by calling <a href="https://msdn.microsoft.com/library/windows/hardware/mt187929">UCM_CONNECTOR_TYPEC_ATTACH_PARAMS_INIT</a>. An initialized <b>UCM_CONNECTOR_TYPEC_ATTACH_PARAMS</b> structure is an input parameter value to <a href="https://msdn.microsoft.com/library/windows/hardware/mt187915">UcmConnectorTypeCAttach</a> that is used by the client driver to notify UcmCx about the Attached state of the port.
+Initialize this structure by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucmmanager/nf-ucmmanager-ucm_connector_typec_attach_params_init">UCM_CONNECTOR_TYPEC_ATTACH_PARAMS_INIT</a>. An initialized <b>UCM_CONNECTOR_TYPEC_ATTACH_PARAMS</b> structure is an input parameter value to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucmmanager/nf-ucmmanager-ucmconnectortypecattach">UcmConnectorTypeCAttach</a> that is used by the client driver to notify UcmCx about the Attached state of the port.
 
 
 
@@ -93,7 +93,7 @@ Initialize this structure by calling <a href="https://msdn.microsoft.com/library
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt187915">UcmConnectorTypeCAttach</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucmmanager/nf-ucmmanager-ucmconnectortypecattach">UcmConnectorTypeCAttach</a>
  
 
  

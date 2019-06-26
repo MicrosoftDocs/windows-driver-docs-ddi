@@ -71,15 +71,15 @@ The <b>KeGetCurrentIrql</b> routine returns the current IRQL. For information ab
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551921">KeAcquireSpinLockAtDpcLevel</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-keacquirespinlockatdpclevel">KeAcquireSpinLockAtDpcLevel</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552968">KeLowerIrql</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kelowerirql">KeLowerIrql</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553079">KeRaiseIrql</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-keraiseirql">KeRaiseIrql</a>
 
 
  

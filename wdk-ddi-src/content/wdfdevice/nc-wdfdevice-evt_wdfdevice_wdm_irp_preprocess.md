@@ -63,7 +63,7 @@ A handle to a framework device object.
 
 ### -param Irp [in, out]
 
-A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550694">IRP</a> structure.
+A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_irp">IRP</a> structure.
 
 
 ## -returns
@@ -74,11 +74,11 @@ The <i>EvtDeviceWdmIrpPreprocess</i> callback function must:
 
 
 <ul>
-<li>Set the <b>IoStatus.Status</b> member of the IRP to STATUS_SUCCESS or another status value for which <a href="https://msdn.microsoft.com/fe823930-e3ff-4c95-a640-bb6470c95d1d">NT_SUCCESS</a>(status) equals <b>TRUE</b>, and return the same value (after calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff548343">IoCompleteRequest</a>), if the callback function successfully completes the received IRP.</li>
-<li>Set the <b>IoStatus.Status</b> member of the IRP to a status value for which <a href="https://msdn.microsoft.com/fe823930-e3ff-4c95-a640-bb6470c95d1d">NT_SUCCESS</a>(status) equals <b>FALSE</b>, and return the same value (after calling IoCompleteRequest), if the callback function detects an error. </li>
-<li>Return STATUS_PENDING, if the callback function calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff549422">IoMarkIrpPending</a>. 
+<li>Set the <b>IoStatus.Status</b> member of the IRP to STATUS_SUCCESS or another status value for which <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-ntstatus-values">NT_SUCCESS</a>(status) equals <b>TRUE</b>, and return the same value (after calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iocompleterequest">IoCompleteRequest</a>), if the callback function successfully completes the received IRP.</li>
+<li>Set the <b>IoStatus.Status</b> member of the IRP to a status value for which <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-ntstatus-values">NT_SUCCESS</a>(status) equals <b>FALSE</b>, and return the same value (after calling IoCompleteRequest), if the callback function detects an error. </li>
+<li>Return STATUS_PENDING, if the callback function calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iomarkirppending">IoMarkIrpPending</a>. 
 </li>
-<li>Return the value that the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546927">WdfDeviceWdmDispatchPreprocessedIrp</a> method returns, if the callback function calls that method. 
+<li>Return the value that the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nf-wdfdevice-wdfdevicewdmdispatchpreprocessedirp">WdfDeviceWdmDispatchPreprocessedIrp</a> method returns, if the callback function calls that method. 
 </li>
 </ul>
 
@@ -90,13 +90,13 @@ The <i>EvtDeviceWdmIrpPreprocess</i> callback function must:
 
 
 
-To register an <i>EvtDeviceWdmIrpPreprocess</i> callback function, your driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff546043">WdfDeviceInitAssignWdmIrpPreprocessCallback</a>. 
+To register an <i>EvtDeviceWdmIrpPreprocess</i> callback function, your driver must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nf-wdfdevice-wdfdeviceinitassignwdmirppreprocesscallback">WdfDeviceInitAssignWdmIrpPreprocessCallback</a>. 
 
 Your driver can use an <i>EvtDeviceWdmIrpPreprocess</i> callback function to do any, or all, of the following:
 
 <ul>
 <li>
- Handle an IRP that the framework does not support, by following the <a href="https://msdn.microsoft.com/5fb6d2b9-17ee-4e76-95e9-dd5a7d1e79de">WDM rules for handling IRPs</a>. 
+ Handle an IRP that the framework does not support, by following the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/handling-irps">WDM rules for handling IRPs</a>. 
 
 </li>
 <li>
@@ -108,18 +108,18 @@ Your driver can use an <i>EvtDeviceWdmIrpPreprocess</i> callback function to do 
 
 </li>
 </ul>
-For more information about how to implement an <i>EvtDeviceWdmIrpPreprocess</i> callback function, see <a href="https://msdn.microsoft.com/43e1df0c-c0d1-4d41-87de-9f8f5831fb19">Handling WDM IRPs Outside of the Framework</a>.
+For more information about how to implement an <i>EvtDeviceWdmIrpPreprocess</i> callback function, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/handling-wdm-irps-outside-of-the-framework">Handling WDM IRPs Outside of the Framework</a>.
 
-If you want the framework to subsequently handle the IRP as it would if the <i>EvtDeviceWdmIrpPreprocess</i> callback function had not been called, the callback function must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff546927">WdfDeviceWdmDispatchPreprocessedIrp</a> to return the IRP to the framework.
+If you want the framework to subsequently handle the IRP as it would if the <i>EvtDeviceWdmIrpPreprocess</i> callback function had not been called, the callback function must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nf-wdfdevice-wdfdevicewdmdispatchpreprocessedirp">WdfDeviceWdmDispatchPreprocessedIrp</a> to return the IRP to the framework.
 
-If your driver registers an <i>EvtDeviceWdmIrpPreprocess</i> callback function, the framework adds an additional <a href="https://msdn.microsoft.com/62c8ee00-c7cb-4aa1-90ab-b8bedbd818ee">I/O stack location</a> to IRPs that the callback function receives. The additional I/O stack location allows the callback function to set an <a href="https://msdn.microsoft.com/library/windows/hardware/ff548354">IoCompletion</a> routine before it calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff546927">WdfDeviceWdmDispatchPreprocessedIrp</a>.
+If your driver registers an <i>EvtDeviceWdmIrpPreprocess</i> callback function, the framework adds an additional <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/i-o-stack-locations">I/O stack location</a> to IRPs that the callback function receives. The additional I/O stack location allows the callback function to set an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-io_completion_routine">IoCompletion</a> routine before it calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nf-wdfdevice-wdfdevicewdmdispatchpreprocessedirp">WdfDeviceWdmDispatchPreprocessedIrp</a>.
 
-The <i>EvtDeviceWdmIrpPreprocess</i> callback function is called at the IRQL of the calling thread. The IRQL is determined by the type of IRP that the framework is passing to <i>EvtDeviceWdmIrpPreprocess</i>. For example, if the PnP manager sends <a href="https://msdn.microsoft.com/library/windows/hardware/ff551670">IRP_MN_QUERY_DEVICE_RELATIONS</a> at IRQL = PASSIVE_LEVEL, the framework calls <i>EvtDeviceWdmIrpPreprocess</i> at IRQL = PASSIVE_LEVEL.
+The <i>EvtDeviceWdmIrpPreprocess</i> callback function is called at the IRQL of the calling thread. The IRQL is determined by the type of IRP that the framework is passing to <i>EvtDeviceWdmIrpPreprocess</i>. For example, if the PnP manager sends <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-device-relations">IRP_MN_QUERY_DEVICE_RELATIONS</a> at IRQL = PASSIVE_LEVEL, the framework calls <i>EvtDeviceWdmIrpPreprocess</i> at IRQL = PASSIVE_LEVEL.
 
 
 #### Examples
 
-To define an <i>EvtDeviceWdmIrpPreprocess</i> callback function, you must first provide a function declaration that identifies the type of callback function you’re defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it’s a requirement for writing drivers for the Windows operating system.
+To define an <i>EvtDeviceWdmIrpPreprocess</i> callback function, you must first provide a function declaration that identifies the type of callback function you’re defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/code-analysis-for-drivers">Code Analysis for Drivers</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it’s a requirement for writing drivers for the Windows operating system.
 
 For example, to define an <i>EvtDeviceWdmIrpPreprocess</i> callback function that is named <i>MyDeviceWdmIrpPreprocess</i>, use the <b>EVT_WDFDEVICE_WDM_IRP_PREPROCESS</b> type as shown in this code example:
 
@@ -151,7 +151,7 @@ NTSTATUS
 </td>
 </tr>
 </table></span></div>
-The <b>EVT_WDFDEVICE_WDM_IRP_PREPROCESS</b> function type is defined in the Wdfdevice.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>EVT_WDFDEVICE_WDM_IRP_PREPROCESS</b> function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/73a408ba-0219-4fde-8dad-ca330e4e67c3">Declaring Functions by Using Function Role Types for KMDF Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://msdn.microsoft.com/library/c0aa268d-6fa3-4ced-a8c6-f7652b152e61">Annotating Function Behavior</a>.
+The <b>EVT_WDFDEVICE_WDM_IRP_PREPROCESS</b> function type is defined in the Wdfdevice.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>EVT_WDFDEVICE_WDM_IRP_PREPROCESS</b> function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-kmdf-drivers">Declaring Functions by Using Function Role Types for KMDF Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://docs.microsoft.com/visualstudio/code-quality/annotating-function-behavior?view=vs-2015">Annotating Function Behavior</a>.
 
 
 
@@ -161,11 +161,11 @@ The <b>EVT_WDFDEVICE_WDM_IRP_PREPROCESS</b> function type is defined in the Wdfd
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546043">WdfDeviceInitAssignWdmIrpPreprocessCallback</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nf-wdfdevice-wdfdeviceinitassignwdmirppreprocesscallback">WdfDeviceInitAssignWdmIrpPreprocessCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546927">WdfDeviceWdmDispatchPreprocessedIrp</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nf-wdfdevice-wdfdevicewdmdispatchpreprocessedirp">WdfDeviceWdmDispatchPreprocessedIrp</a>
  
 
  

@@ -104,7 +104,7 @@ The maximum value for this enumeration. This value might change in future versio
 
 
 The NDIS_MAC_HEADER_FIELD enumeration is used in the 
-    <a href="https://msdn.microsoft.com/3d387fe9-a7cc-4034-b31e-ba1359db2ae1">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_receive_filter_field_parameters">
     NDIS_RECEIVE_FILTER_FIELD_PARAMETERS</a> structure.
 
 
@@ -115,7 +115,7 @@ The NDIS_MAC_HEADER_FIELD enumeration is used in the
 
 
 
-<a href="https://msdn.microsoft.com/3d387fe9-a7cc-4034-b31e-ba1359db2ae1">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_receive_filter_field_parameters">
    NDIS_RECEIVE_FILTER_FIELD_PARAMETERS</a>
  
 

@@ -79,11 +79,11 @@ Specifies that the phone call is disabled. This constant is set by the audio dri
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt169884">KSTELEPHONY_CALLINFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-_tagkstelephony_callinfo">KSTELEPHONY_CALLINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt169898">TELEPHONY_PROVIDERCHANGEOP</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ne-ksmedia-telephony_providerchangeop">TELEPHONY_PROVIDERCHANGEOP</a>
  
 
  

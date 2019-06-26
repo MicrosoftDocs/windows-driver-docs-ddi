@@ -47,7 +47,7 @@ req.typenames:
 ## -description
 
 
-Frees the value that is retrieved using <a href="https://msdn.microsoft.com/library/windows/hardware/mt299059">GetJobNamedPropertyValue</a> function. 
+Frees the value that is retrieved using <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winspool/nf-winspool-getjobnamedpropertyvalue">GetJobNamedPropertyValue</a> function. 
 
 
 
@@ -58,7 +58,7 @@ Frees the value that is retrieved using <a href="https://msdn.microsoft.com/libr
 
 ### -param pValue [in, out]
 
-Pointer to <b>PrintPropertyValue</b> structure that is returned from <a href="https://msdn.microsoft.com/library/windows/hardware/mt299059">GetJobNamedPropertyValue</a>. 
+Pointer to <b>PrintPropertyValue</b> structure that is returned from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winspool/nf-winspool-getjobnamedpropertyvalue">GetJobNamedPropertyValue</a>. 
 
 
 

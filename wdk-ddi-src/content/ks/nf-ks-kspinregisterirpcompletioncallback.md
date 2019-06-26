@@ -57,12 +57,12 @@ The <b>KsPinRegisterIrpCompletionCallback</b> function registers a minidriver-de
 
 ### -param Pin [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563483">KSPIN</a> structure for which to register a completion callback.
+A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_kspin">KSPIN</a> structure for which to register a completion callback.
 
 
 ### -param IrpCompletion [in]
 
-This parameter supplies the address of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff556340">AVStrMiniPinIrpCompletion</a> routine to be called when an IRP completes its traversal of the circuit and is about to be recycled or retired.
+This parameter supplies the address of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nc-ks-pfnkspinirpcompletion">AVStrMiniPinIrpCompletion</a> routine to be called when an IRP completes its traversal of the circuit and is about to be recycled or retired.
 
 
 ## -returns
@@ -78,13 +78,13 @@ None
 
 
 
-<b>KsPinRegisterIrpCompletionCallback </b>must be called at IRQL=PASSIVE_LEVEL before the pin goes into KSSTATE_ACQUIRE. For more information about pin states, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff566856">KSSTATE</a>.
+<b>KsPinRegisterIrpCompletionCallback </b>must be called at IRQL=PASSIVE_LEVEL before the pin goes into KSSTATE_ACQUIRE. For more information about pin states, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ne-ks-ksstate">KSSTATE</a>.
 
-This function is frequently called from the pin creation dispatch. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff563535">KSPIN_DISPATCH</a>.
+This function is frequently called from the pin creation dispatch. See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_kspin_dispatch">KSPIN_DISPATCH</a>.
 
-<b>KsPinRegisterIrpCompletionCallback</b> is only useful on IRP source pins, and is typically used on data source pins. For a data source pin, the callback is made once the IRP is completed back to the pin and is about to be recycled. For a data sink pin, however, the callback is not tied directly to IRP completion. AVStream still makes the callback when the IRP returns for recycling. This return does not occur until that IRP has passed through all the queues that need to use the data that it contains. For information about IRP source/sink pins versus data source/sink pins, see the <b>DataFlow</b> and <b>Communication</b> members of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563533">KSPIN_DESCRIPTOR</a> structure.
+<b>KsPinRegisterIrpCompletionCallback</b> is only useful on IRP source pins, and is typically used on data source pins. For a data source pin, the callback is made once the IRP is completed back to the pin and is about to be recycled. For a data sink pin, however, the callback is not tied directly to IRP completion. AVStream still makes the callback when the IRP returns for recycling. This return does not occur until that IRP has passed through all the queues that need to use the data that it contains. For information about IRP source/sink pins versus data source/sink pins, see the <b>DataFlow</b> and <b>Communication</b> members of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-kspin_descriptor">KSPIN_DESCRIPTOR</a> structure.
 
-<b>KsPinRegisterIrpCompletionCallback</b> differs significantly from <a href="https://msdn.microsoft.com/library/windows/hardware/ff563522">KsPinRegisterFrameReturnCallback</a> in that this routine does not place the pin in any new mode; it simply registers a callback routine.
+<b>KsPinRegisterIrpCompletionCallback</b> differs significantly from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-kspinregisterframereturncallback">KsPinRegisterFrameReturnCallback</a> in that this routine does not place the pin in any new mode; it simply registers a callback routine.
 
 
 
@@ -94,27 +94,27 @@ This function is frequently called from the pin creation dispatch. See <a href="
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556334">AVStrMiniPinCreate</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nc-ks-pfnkspinirp">AVStrMiniPinCreate</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556340">AVStrMiniPinIrpCompletion</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nc-ks-pfnkspinirpcompletion">AVStrMiniPinIrpCompletion</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563483">KSPIN</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_kspin">KSPIN</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563535">KSPIN_DISPATCH</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_kspin_dispatch">KSPIN_DISPATCH</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566856">KSSTATE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ne-ks-ksstate">KSSTATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563522">KsPinRegisterFrameReturnCallback</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-kspinregisterframereturncallback">KsPinRegisterFrameReturnCallback</a>
  
 
  

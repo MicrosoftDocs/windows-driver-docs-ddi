@@ -53,7 +53,7 @@ req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 
 The <b>IOCTL_INTERNAL_DISCONNECT_IDLE</b> request disconnects the IEEE 1284 operating modes that are set for a parallel device. The system-supplied bus driver for parallel ports sets the default operating mode to IEEE 1284-compatible.
 
-For more information, see <a href="https://msdn.microsoft.com/2ff53ed0-dbb7-4c8f-b6e4-5f7d20124a7c">Setting and Clearing a Communication Mode for a Parallel Device</a>.
+For more information, see <a href="https://docs.microsoft.com/previous-versions/ff544797(v=vs.85)">Setting and Clearing a Communication Mode for a Parallel Device</a>.
 
 
 ## -ioctlparameters

@@ -67,7 +67,7 @@ A handle to the display adapter.
 
 ### -param pSetPageTable [in]
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/dn906824">DXGKARG_SETROOTPAGETABLE</a> structure that describes the operation.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_setrootpagetable">DXGKARG_SETROOTPAGETABLE</a> structure that describes the operation.
 
 
 ## -returns
@@ -84,7 +84,7 @@ This callback function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn906824">DXGKARG_SETROOTPAGETABLE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_setrootpagetable">DXGKARG_SETROOTPAGETABLE</a>
  
 
  

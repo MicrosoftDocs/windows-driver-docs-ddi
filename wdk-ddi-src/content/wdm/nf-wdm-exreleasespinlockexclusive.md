@@ -47,7 +47,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>ExReleaseSpinLockExclusive</b> routine releases a <a href="https://msdn.microsoft.com/a37c0db4-ff9c-4958-a9f4-62b671458d03">spin lock</a> that the caller previously acquired for exclusive access, and restores the IRQL to its original value.
+The <b>ExReleaseSpinLockExclusive</b> routine releases a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/introduction-to-spin-locks">spin lock</a> that the caller previously acquired for exclusive access, and restores the IRQL to its original value.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ The <b>ExReleaseSpinLockExclusive</b> routine releases a <a href="https://msdn.m
 
 ### -param OldIrql [in]
 
-The interrupt request level (IRQL) to restore. Set this parameter to the KIRQL value that was returned by the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451007">ExAcquireSpinLockExclusive</a> call that acquired the spin lock.
+The interrupt request level (IRQL) to restore. Set this parameter to the KIRQL value that was returned by the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/hh451007(v=vs.85)">ExAcquireSpinLockExclusive</a> call that acquired the spin lock.
 
 
 ## -returns
@@ -82,7 +82,7 @@ This routine must be called only for a spin lock that is owned by the caller.
 
 On entry to this routine, the caller must be running at IRQL = DISPATCH_LEVEL. Before exiting, <b>ExReleaseSpinLockExclusive</b> restores the IRQL to the value specified by the <i>OldIrql</i> parameter.
 
-The caller should hold the spin lock only briefly before releasing it. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff548114">Introduction to Spin Locks</a>.
+The caller should hold the spin lock only briefly before releasing it. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/introduction-to-spin-locks">Introduction to Spin Locks</a>.
 
 
 
@@ -92,7 +92,7 @@ The caller should hold the spin lock only briefly before releasing it. For more 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451007">ExAcquireSpinLockExclusive</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/hh451007(v=vs.85)">ExAcquireSpinLockExclusive</a>
  
 
  

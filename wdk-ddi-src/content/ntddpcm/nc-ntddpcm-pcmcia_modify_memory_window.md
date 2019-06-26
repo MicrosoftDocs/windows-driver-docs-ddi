@@ -136,11 +136,11 @@ Callers of this routine must be running at IRQL <= DISPATCH_LEVEL. To maintain o
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537609">PCMCIA_IS_WRITE_PROTECTED</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddpcm/nc-ntddpcm-pcmcia_is_write_protected">PCMCIA_IS_WRITE_PROTECTED</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537611">PCMCIA_SET_VPP</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddpcm/nc-ntddpcm-pcmcia_set_vpp">PCMCIA_SET_VPP</a>
  
 
  

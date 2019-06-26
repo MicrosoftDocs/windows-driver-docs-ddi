@@ -92,7 +92,7 @@ The node identifier of the processor. This is the number of the NUMA node to whi
 
 The node distance of the processor. If the handle at the 
      <i>NdisHandle</i> parameter that the caller passed to the 
-     <a href="https://msdn.microsoft.com/9af21f56-d93d-4130-888c-c7009dc2854d">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisgetprocessorinformationex">
      NdisGetProcessorInformationEx</a> function is not <b>NULL</b> and is a miniport adapter handle, this member
      contains the distance of the corresponding NIC from this processor's NUMA node. Otherwise, this member
      is zero for miniport drivers or USHORT_MAX (0xffff) for other drivers.
@@ -103,7 +103,7 @@ The node distance of the processor. If the handle at the
 
 
 The NDIS_PROCESSOR_INFO_EX structure is used in the 
-    <a href="https://msdn.microsoft.com/ba3c6641-98bc-4c44-9889-7583c4cf61f0">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_system_processor_info_ex">
     NDIS_SYSTEM_PROCESSOR_INFO_EX</a> structure.
 
 
@@ -114,15 +114,15 @@ The NDIS_PROCESSOR_INFO_EX structure is used in the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566808">NDIS_PROCESSOR_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_processor_info">NDIS_PROCESSOR_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567872">NDIS_SYSTEM_PROCESSOR_INFO_EX</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_system_processor_info_ex">NDIS_SYSTEM_PROCESSOR_INFO_EX</a>
 
 
 
-<a href="https://msdn.microsoft.com/9af21f56-d93d-4130-888c-c7009dc2854d">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisgetprocessorinformationex">
    NdisGetProcessorInformationEx</a>
  
 

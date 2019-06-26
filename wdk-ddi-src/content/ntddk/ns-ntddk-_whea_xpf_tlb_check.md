@@ -145,14 +145,14 @@ This member contains valid data only if the <b>UncorrectedValid</b> bit is set.
 
 ### -field DUMMYSTRUCTNAME.PreciseIP
 
-A single bit that indicates that the instruction pointer that is specified in the <b>InstructionPointer</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560661">WHEA_XPF_PROCINFO</a> structure that contains this WHEA_XPF_TLB_CHECK union is directly associated with the error.
+A single bit that indicates that the instruction pointer that is specified in the <b>InstructionPointer</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_whea_xpf_procinfo">WHEA_XPF_PROCINFO</a> structure that contains this WHEA_XPF_TLB_CHECK union is directly associated with the error.
 
 This member contains valid data only if the <b>PreciseIPValid</b> bit is set.
 
 
 ### -field DUMMYSTRUCTNAME.RestartableIP
 
-A single bit that indicates that program execution can be restarted reliably at the instruction pointer that is specified in the <b>InstructionPointer</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560661">WHEA_XPF_PROCINFO</a> union that contains this WHEA_XPF_TLB_CHECK structure.
+A single bit that indicates that program execution can be restarted reliably at the instruction pointer that is specified in the <b>InstructionPointer</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_whea_xpf_procinfo">WHEA_XPF_PROCINFO</a> union that contains this WHEA_XPF_TLB_CHECK structure.
 
 This member contains valid data only if the <b>RestartableIPValid</b> bit is set.
 
@@ -228,7 +228,7 @@ A processor instruction transaction.
 
 
 
-If the <b>CheckInfoId</b> member of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff560661">WHEA_XPF_PROCINFO</a> structure contains WHEA_TLBCHECK_GUID, the <b>CheckInfo</b> member of the WHEA_XPF_PROCINFO structure contains a WHEA_XPF_TLB_CHECK union.
+If the <b>CheckInfoId</b> member of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_whea_xpf_procinfo">WHEA_XPF_PROCINFO</a> structure contains WHEA_TLBCHECK_GUID, the <b>CheckInfo</b> member of the WHEA_XPF_PROCINFO structure contains a WHEA_XPF_TLB_CHECK union.
 
 
 
@@ -238,7 +238,7 @@ If the <b>CheckInfoId</b> member of a <a href="https://msdn.microsoft.com/librar
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560661">WHEA_XPF_PROCINFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_whea_xpf_procinfo">WHEA_XPF_PROCINFO</a>
  
 
  

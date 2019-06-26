@@ -57,7 +57,7 @@ The<b> KsGetNodeIdFromIrp </b>function returns the node ID of the node to which 
 
 ### -param Irp [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550694">IRP</a> structure for which to determine the associated node ID. This IRP must have been sent to a file object corresponding to a filter, pin, or node.
+A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_irp">IRP</a> structure for which to determine the associated node ID. This IRP must have been sent to a file object corresponding to a filter, pin, or node.
 
 
 ## -returns
@@ -74,19 +74,19 @@ A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550694">IRP</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_irp">IRP</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560934">KsAddIrpToCancelableQueue</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksaddirptocancelablequeue">KsAddIrpToCancelableQueue</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561709">KsDispatchIrp</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksdispatchirp">KsDispatchIrp</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562557">KsForwardIrp</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksforwardirp">KsForwardIrp</a>
  
 
  

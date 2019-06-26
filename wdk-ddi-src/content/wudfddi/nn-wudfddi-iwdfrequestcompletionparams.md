@@ -53,7 +53,7 @@ The <b>IWDFRequestCompletionParams</b> interface exposes methods that drivers ca
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFRequestCompletionParams</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWDFRequestCompletionParams</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFRequestCompletionParams</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWDFRequestCompletionParams</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -68,28 +68,28 @@ The <b>IWDFRequestCompletionParams</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560296">IWDFRequestCompletionParams::GetCompletedRequestType</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfrequestcompletionparams-getcompletedrequesttype">IWDFRequestCompletionParams::GetCompletedRequestType</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/1977828d-61bb-4649-bfa6-e5e82775258e">GetCompletedRequestType</a> method retrieves the type of operation that the request to be completed contains.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfrequestcompletionparams-getcompletedrequesttype">GetCompletedRequestType</a> method retrieves the type of operation that the request to be completed contains.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560301">IWDFRequestCompletionParams::GetCompletionStatus</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfrequestcompletionparams-getcompletionstatus">IWDFRequestCompletionParams::GetCompletionStatus</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/8959fc25-2477-485a-aa40-10d6228cb476">GetCompletionStatus</a> method retrieves the completion status of an I/O request.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfrequestcompletionparams-getcompletionstatus">GetCompletionStatus</a> method retrieves the completion status of an I/O request.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560305">IWDFRequestCompletionParams::GetInformation</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfrequestcompletionparams-getinformation">IWDFRequestCompletionParams::GetInformation</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/6dd47575-0da3-4038-81aa-ac955c00f08d">GetInformation</a> method retrieves information that is associated with the completion of an I/O request.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfrequestcompletionparams-getinformation">GetInformation</a> method retrieves information that is associated with the completion of an I/O request.
 
 </td>
 </tr>

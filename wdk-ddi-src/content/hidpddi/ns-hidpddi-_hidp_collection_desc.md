@@ -46,7 +46,7 @@ req.typenames: HIDP_COLLECTION_DESC, *PHIDP_COLLECTION_DESC
 ## -description
 
 
-Contains the information of a top-level-collection. This structure is used in the <a href="https://msdn.microsoft.com/library/windows/hardware/mt740164">HidP_GetCollectionDescription</a> call.
+Contains the information of a top-level-collection. This structure is used in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hidpddi/nf-hidpddi-hidp_getcollectiondescription">HidP_GetCollectionDescription</a> call.
 
 
 ## -struct-fields
@@ -96,7 +96,7 @@ The length of the preparsed data pointed to by <i>PreparsedData</i>.
 
 ### -field PreparsedData
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a> structure that contains a top-level collection's preparsed data.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hidsdi/nf-hidsdi-hidd_getpreparseddata">_HIDP_PREPARSED_DATA</a> structure that contains a top-level collection's preparsed data.
 
 
 ## -see-also
@@ -104,7 +104,7 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff53
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt740164">HidP_GetCollectionDescription</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hidpddi/nf-hidpddi-hidp_getcollectiondescription">HidP_GetCollectionDescription</a>
  
 
  

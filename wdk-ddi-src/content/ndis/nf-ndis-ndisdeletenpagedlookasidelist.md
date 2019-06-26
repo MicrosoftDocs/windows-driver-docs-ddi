@@ -71,7 +71,7 @@ After freeing any remaining entries in the given lookaside list,
 However, 
     <b>NdisDeleteNPagedLookasideList</b> does not free the list head, for which the caller originally
     allocated the memory. An NDIS driver is responsible for calling the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff562577">NdisFreeMemory</a> function to release any
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisfreememory">NdisFreeMemory</a> function to release any
     memory that it allocated.
 
 
@@ -82,17 +82,17 @@ However,
 
 
 
-<a href="https://msdn.microsoft.com/df690a05-359d-44f0-b063-4fc21d6c4d76">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisallocatefromnpagedlookasidelist">
    NdisAllocateFromNPagedLookasideList</a>
 
 
 
-<a href="https://msdn.microsoft.com/2405a405-177a-420a-9628-a340e0d0acb3">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisfreetonpagedlookasidelist">
    NdisFreeToNPagedLookasideList</a>
 
 
 
-<a href="https://msdn.microsoft.com/d240f2cc-18a6-4c2d-889f-e25a9486d5fe">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisinitializenpagedlookasidelist">
    NdisInitializeNPagedLookasideList</a>
  
 

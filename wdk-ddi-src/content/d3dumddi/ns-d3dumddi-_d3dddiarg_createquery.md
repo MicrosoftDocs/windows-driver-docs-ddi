@@ -60,7 +60,7 @@ The D3DDDIARG_CREATEQUERY structure identifies a query to create.
 
 ### -field hQuery
 
-[out] A handle to the query. The user-mode display driver's <a href="https://msdn.microsoft.com/ac63b77b-2704-4d5b-bf1d-9d85e8a1e336">CreateQuery</a> function returns this handle to the Microsoft Direct3D runtime. 
+[out] A handle to the query. The user-mode display driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_createquery">CreateQuery</a> function returns this handle to the Microsoft Direct3D runtime. 
 
 
 ## -remarks
@@ -71,15 +71,15 @@ The Direct3D runtime uses the handle that is specified by the <b>hQuery</b> memb
 
 <ul>
 <li>
-The <a href="https://msdn.microsoft.com/e31b2b6a-3721-472a-8044-6516a8419ad3">IssueQuery</a> function to process a query.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_issuequery">IssueQuery</a> function to process a query.
 
 </li>
 <li>
-The <a href="https://msdn.microsoft.com/64daec14-8e16-4df3-bb0c-27760223b86c">GetQueryData</a> function to retrieve information about the query.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_getquerydata">GetQueryData</a> function to retrieve information about the query.
 
 </li>
 <li>
-The <a href="https://msdn.microsoft.com/c4cef278-1771-4903-a5cf-85674463aff8">DestroyQuery</a> function to destroy the handle.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_destroyquery">DestroyQuery</a> function to destroy the handle.
 
 </li>
 </ul>
@@ -91,19 +91,19 @@ The <a href="https://msdn.microsoft.com/c4cef278-1771-4903-a5cf-85674463aff8">De
 
 
 
-<a href="https://msdn.microsoft.com/ac63b77b-2704-4d5b-bf1d-9d85e8a1e336">CreateQuery</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_createquery">CreateQuery</a>
 
 
 
-<a href="https://msdn.microsoft.com/c4cef278-1771-4903-a5cf-85674463aff8">DestroyQuery</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_destroyquery">DestroyQuery</a>
 
 
 
-<a href="https://msdn.microsoft.com/64daec14-8e16-4df3-bb0c-27760223b86c">GetQueryData</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_getquerydata">GetQueryData</a>
 
 
 
-<a href="https://msdn.microsoft.com/e31b2b6a-3721-472a-8044-6516a8419ad3">IssueQuery</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_issuequery">IssueQuery</a>
  
 
  

@@ -90,7 +90,7 @@ For information about other string-handling routines, see the string manipulatio
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561903">RtlFreeUnicodeString</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlfreeunicodestring">RtlFreeUnicodeString</a>
 
 
 

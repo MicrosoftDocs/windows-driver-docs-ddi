@@ -86,9 +86,9 @@ The size, in bytes, of the minimum transfer unit. The number of bytes specified 
 
 
 
-The <b>V1</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh450993">DMA_ADAPTER_INFO</a> structure is a structure of type <b>DMA_ADAPTER_INFO_V1</b>.
+The <b>V1</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_dma_adapter_info">DMA_ADAPTER_INFO</a> structure is a structure of type <b>DMA_ADAPTER_INFO_V1</b>.
 
-A driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/hh451121">GetDmaAdapterInfo</a> to obtain information about the hardware capabilities of a system DMA channel. <b>GetDmaAdapterInfo</b> writes this information into the <b>V1</b> member of a caller-supplied <b>DMA_ADAPTER_INFO</b> structure.
+A driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pget_dma_adapter_info">GetDmaAdapterInfo</a> to obtain information about the hardware capabilities of a system DMA channel. <b>GetDmaAdapterInfo</b> writes this information into the <b>V1</b> member of a caller-supplied <b>DMA_ADAPTER_INFO</b> structure.
 
 
 
@@ -98,11 +98,11 @@ A driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/hh45
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450993">DMA_ADAPTER_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_dma_adapter_info">DMA_ADAPTER_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451121">GetDmaAdapterInfo</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pget_dma_adapter_info">GetDmaAdapterInfo</a>
  
 
  

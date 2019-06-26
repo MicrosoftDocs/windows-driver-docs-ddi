@@ -47,7 +47,7 @@ req.typenames:
 ## -description
 
 
-The <b>GetValue</b> method gets the value of one of the target's <a href="https://msdn.microsoft.com/library/windows/hardware/ff554369">registers</a>.
+The <b>GetValue</b> method gets the value of one of the target's <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/registers">registers</a>.
 
 
 ## -parameters
@@ -62,14 +62,14 @@ Specifies the index of the register whose value is requested.
 
 ### -param Value [out]
 
-Receives the value of the register.  See <a href="https://msdn.microsoft.com/library/windows/hardware/ff541719">DEBUG_VALUE</a> for a description of this parameter type.
+Receives the value of the register.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/ns-dbgeng-_debug_value">DEBUG_VALUE</a> for a description of this parameter type.
 
 
 ## -returns
 
 
 
-This list does not contain all the errors that might occur.  For a list of possible errors, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff549771">HRESULT Values</a>.
+This list does not contain all the errors that might occur.  For a list of possible errors, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">HRESULT Values</a>.
 
 <table>
 <tr>
@@ -119,9 +119,9 @@ The value of Register is greater than the number of registers on the target mach
 
 
 
-To receive the values of multiple registers, use the  <a href="https://msdn.microsoft.com/library/windows/hardware/ff549480">GetValues</a> method instead.
+To receive the values of multiple registers, use the  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugregisters2-getvalues">GetValues</a> method instead.
 
-For an overview of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550825">IDebugRegisters</a> interface and other register-related methods, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554369">Registers</a>.
+For an overview of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugregisters">IDebugRegisters</a> interface and other register-related methods, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/registers">Registers</a>.
 
 
 
@@ -131,19 +131,19 @@ For an overview of the <a href="https://msdn.microsoft.com/library/windows/hardw
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549480">GetValues</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugregisters2-getvalues">GetValues</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549487">GetValues2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugregisters2-getvalues2">GetValues2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550825">IDebugRegisters</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugregisters">IDebugRegisters</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550835">IDebugRegisters2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugregisters2">IDebugRegisters2</a>
  
 
  

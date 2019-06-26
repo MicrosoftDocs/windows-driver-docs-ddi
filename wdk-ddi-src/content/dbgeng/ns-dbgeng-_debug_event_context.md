@@ -79,7 +79,7 @@ The frame engine ID of the event.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541478">DEBUG_EVENT_XXX</a>
+<a href="https://docs.microsoft.com/previous-versions/ff541478(v=vs.85)">DEBUG_EVENT_XXX</a>
  
 
  

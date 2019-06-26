@@ -76,9 +76,9 @@ The maximum value for this enumeration. This value might change in future versio
 
 The NDIS_RECEIVE_QUEUE_TYPE enumeration is used in the 
     <b>QueueType</b> member of the 
-    <a href="https://msdn.microsoft.com/fba87554-766d-45e2-8257-584ee78dd873">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_receive_queue_parameters">
     NDIS_RECEIVE_QUEUE_PARAMETERS</a> and 
-    <a href="https://msdn.microsoft.com/7cdc45d4-e8aa-437a-b6fc-8b8c0dc17585">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_receive_queue_info">
     NDIS_RECEIVE_QUEUE_INFO</a> structures.
 
 
@@ -89,11 +89,11 @@ The NDIS_RECEIVE_QUEUE_TYPE enumeration is used in the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567204">NDIS_RECEIVE_QUEUE_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_receive_queue_info">NDIS_RECEIVE_QUEUE_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567211">NDIS_RECEIVE_QUEUE_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_receive_queue_parameters">NDIS_RECEIVE_QUEUE_PARAMETERS</a>
  
 
  

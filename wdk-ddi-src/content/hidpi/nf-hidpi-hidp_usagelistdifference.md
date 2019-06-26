@@ -47,7 +47,7 @@ req.typenames:
 ## -description
 
 
-The <b>HidP_UsageListDifference</b> routine returns the differences between two arrays of <a href="https://msdn.microsoft.com/84fed314-3554-4291-b51c-734d874a4bab">HID usages</a>.
+The <b>HidP_UsageListDifference</b> routine returns the differences between two arrays of <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-usages">HID usages</a>.
 
 
 ## -parameters
@@ -93,13 +93,13 @@ Specifies the length, in array elements, of the buffers provided at <i>CurrentUs
 
 
 
-A user-mode application or kernel-mode driver can use this routine to compare two usage lists, for example, to determine the change in button state between two usage lists returned by two <a href="https://msdn.microsoft.com/library/windows/hardware/ff539708">HidP_GetButtons</a> calls.
+A user-mode application or kernel-mode driver can use this routine to compare two usage lists, for example, to determine the change in button state between two usage lists returned by two <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hdpi-h-macros">HidP_GetButtons</a> calls.
 
 If the input usage lists have different lengths, an application or driver should set <i>UsageListLength</i> to the length of the larger list.
 
 The routine interprets a zero usage in an input usage list as a delimiter that ends the list. Any usages after a zero in a list are not processed. Unused usages in an output list are set to zero.
 
-For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db-8cff-9fac30209952">HID Collections</a>. 
+For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-collections">HID Collections</a>. 
 
 
 
@@ -109,7 +109,7 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539824">HidP_UsageAndPageListDifference</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff539824(v=vs.85)">HidP_UsageAndPageListDifference</a>
  
 
  

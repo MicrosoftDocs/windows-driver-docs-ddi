@@ -196,11 +196,11 @@ In addition to looking up SIDs for local accounts, local domain accounts, and ex
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_sid">SID</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556744">SID_NAME_USE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ne-ntifs-_sid_name_use">SID_NAME_USE</a>
 
 
 

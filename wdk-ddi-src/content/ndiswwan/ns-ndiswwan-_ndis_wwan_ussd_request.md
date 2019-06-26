@@ -101,13 +101,13 @@ sizeof(NDIS_WWAN_USSD_REQUEST)
  
 
 For more information about these members, see 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field UssdRequest
 
 A formatted 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/hh464138">WWAN_USSD_REQUEST</a> object that represents a USSD request.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_ussd_request">WWAN_USSD_REQUEST</a> object that represents a USSD request.
 
 
 ## -see-also
@@ -115,7 +115,7 @@ A formatted
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh464138">WWAN_USSD_REQUEST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_ussd_request">WWAN_USSD_REQUEST</a>
  
 
  

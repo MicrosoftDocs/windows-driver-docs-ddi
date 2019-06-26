@@ -61,7 +61,7 @@ A value that specifies to fill the output with opaque alpha channel data.
 
 ### -field DXVAHDDDI_ALPHA_FILL_MODE_BACKGROUND
 
-A value that specifies to fill the output with the alpha channel data of the background. For more information about background color, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff562993">DXVAHDDDI_BLT_STATE_BACKGROUND_COLOR_DATA</a>. 
+A value that specifies to fill the output with the alpha channel data of the background. For more information about background color, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_dxvahdddi_blt_state_background_color_data">DXVAHDDDI_BLT_STATE_BACKGROUND_COLOR_DATA</a>. 
 
 
 ### -field DXVAHDDDI_ALPHA_FILL_MODE_DESTINATION
@@ -71,7 +71,7 @@ A value that specifies to keep the alpha channel data unchanged on the target ou
 
 ### -field DXVAHDDDI_ALPHA_FILL_MODE_SOURCE_STREAM
 
-A value that specifies to fill the output with the alpha channel data of the destination rectangle in which the source rectangle of the specified input stream is scaled. For more information about the conditions for this value, see the Remarks section of <a href="https://msdn.microsoft.com/library/windows/hardware/ff562985">DXVAHDDDI_BLT_STATE_ALPHA_FILL_DATA</a>. 
+A value that specifies to fill the output with the alpha channel data of the destination rectangle in which the source rectangle of the specified input stream is scaled. For more information about the conditions for this value, see the Remarks section of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_dxvahdddi_blt_state_alpha_fill_data">DXVAHDDDI_BLT_STATE_ALPHA_FILL_DATA</a>. 
 
 
 ## -see-also
@@ -79,11 +79,11 @@ A value that specifies to fill the output with the alpha channel data of the des
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562985">DXVAHDDDI_BLT_STATE_ALPHA_FILL_DATA</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_dxvahdddi_blt_state_alpha_fill_data">DXVAHDDDI_BLT_STATE_ALPHA_FILL_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562993">DXVAHDDDI_BLT_STATE_BACKGROUND_COLOR_DATA</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_dxvahdddi_blt_state_background_color_data">DXVAHDDDI_BLT_STATE_BACKGROUND_COLOR_DATA</a>
  
 
  

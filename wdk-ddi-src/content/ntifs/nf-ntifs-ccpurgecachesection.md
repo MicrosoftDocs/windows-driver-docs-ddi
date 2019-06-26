@@ -115,7 +115,7 @@ Before calling <b>CcPurgeCacheSection</b>, the caller must acquire the file excl
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539143">CcIsFileCached</a>
+<a href="https://docs.microsoft.com/previous-versions/ff539143(v=vs.85)">CcIsFileCached</a>
 
 
 
@@ -123,7 +123,7 @@ Before calling <b>CcPurgeCacheSection</b>, the caller must acquire the file excl
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549808">MmFlushImageSection</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-mmflushimagesection">MmFlushImageSection</a>
  
 
  

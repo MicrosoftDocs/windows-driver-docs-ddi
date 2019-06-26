@@ -81,7 +81,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/48C5F80F-64AB-415A-AAF5-8B06505B02BF">IPrintAsyncNewChannelCookie</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prnasntp/nn-prnasntp-iprintasyncnewchannelcookie">IPrintAsyncNewChannelCookie</a>
  
 
  

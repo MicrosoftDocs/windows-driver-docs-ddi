@@ -58,7 +58,7 @@ The <b>OutputCurrentState</b> method prints the current state of the current tar
 
 ### -param OutputControl [in]
 
-Specifies which clients to send the output to.  For possible values see <a href="https://msdn.microsoft.com/library/windows/hardware/ff541517">DEBUG_OUTCTL_XXX</a>.
+Specifies which clients to send the output to.  For possible values see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-outctl-xxx">DEBUG_OUTCTL_XXX</a>.
 
 
 ### -param Flags [in]
@@ -120,7 +120,7 @@ Alternatively, <i>Flags</i> can be set to DEBUG_CURRENT_DEFAULT.  This value inc
 
 
 
-This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 <table>
 <tr>
@@ -152,7 +152,7 @@ Setting the flags contained in <i>Flags</i> merely allows the information to be 
 
 This is the same status information that is printed when breaking into the debugger.
 
-For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558860">Target Information</a>.
+For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/target-information">Target Information</a>.
 
 
 

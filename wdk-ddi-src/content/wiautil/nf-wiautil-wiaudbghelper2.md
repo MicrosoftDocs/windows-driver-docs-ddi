@@ -114,27 +114,27 @@ The <b>wiauDbgHelper2</b> function enables those using it to write <b>printf</b>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549627">wiauDbgDump</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-wiaudbgdump">wiauDbgDump</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549633">wiauDbgError</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-wiaudbgerror">wiauDbgError</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549637">wiauDbgErrorHr</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-wiaudbgerrorhr">wiauDbgErrorHr</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549649">wiauDbgHelper</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-wiaudbghelper">wiauDbgHelper</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550161">wiauDbgTrace</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-wiaudbgtrace">wiauDbgTrace</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550163">wiauDbgWarning</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-wiaudbgwarning">wiauDbgWarning</a>
  
 
  

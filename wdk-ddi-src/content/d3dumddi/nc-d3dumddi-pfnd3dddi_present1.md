@@ -63,7 +63,7 @@ A handle to the display device (graphics context).
 
 *pPresentData* [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn457997">D3DDDIARG_PRESENT1</a> structure that describes how to display to the destination surface. 
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_present1">D3DDDIARG_PRESENT1</a> structure that describes how to display to the destination surface. 
 
 
 ## -returns
@@ -78,7 +78,7 @@ Returns <b>S_OK</b> or an appropriate error result if the function does not comp
 
 
 
-The user-mode display driver must submit all partially built render data (command buffers) by calling the <a href="https://msdn.microsoft.com/f242162e-6237-469c-b178-5a51dcf69e32">pfnRenderCb</a>  function. The driver must make only  a single call to <b>pfnRenderCb</b>.
+The user-mode display driver must submit all partially built render data (command buffers) by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_rendercb">pfnRenderCb</a>  function. The driver must make only  a single call to <b>pfnRenderCb</b>.
 
 
 
@@ -88,11 +88,11 @@ The user-mode display driver must submit all partially built render data (comman
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn457997">D3DDDIARG_PRESENT1</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_present1">D3DDDIARG_PRESENT1</a>
 
 
 
-<a href="https://msdn.microsoft.com/f242162e-6237-469c-b178-5a51dcf69e32">pfnRenderCb</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_rendercb">pfnRenderCb</a>
  
 
  

@@ -91,11 +91,11 @@ None
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560958">KsAllocateDeviceHeader</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksallocatedeviceheader">KsAllocateDeviceHeader</a>
 
 
 
-<a href="https://msdn.microsoft.com/0b8f23a5-af8a-4b99-8f17-092076523914">KsRecalculateStackDepth</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksrecalculatestackdepth">KsRecalculateStackDepth</a>
  
 
  

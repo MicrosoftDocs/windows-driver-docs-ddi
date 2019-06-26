@@ -59,142 +59,142 @@ The size, in bytes, of this <b>DMA_OPERATIONS</b> structure.
 
 ### -field PutDmaAdapter
 
-A pointer to a system-defined routine to free a <a href="https://msdn.microsoft.com/library/windows/hardware/ff544062">DMA_ADAPTER</a> structure. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff559965">PutDmaAdapter</a>.
+A pointer to a system-defined routine to free a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_dma_adapter">DMA_ADAPTER</a> structure. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pput_dma_adapter">PutDmaAdapter</a>.
 
 
 ### -field AllocateCommonBuffer
 
-A pointer to a system-defined routine to allocate a physically contiguous DMA buffer. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540575">AllocateCommonBuffer</a>.
+A pointer to a system-defined routine to allocate a physically contiguous DMA buffer. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pallocate_common_buffer">AllocateCommonBuffer</a>.
 
 
 ### -field FreeCommonBuffer
 
-A pointer to a system-defined routine to free a physically contiguous DMA buffer previously allocated by <b>AllocateCommonBuffer</b>. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff546511">FreeCommonBuffer</a>.
+A pointer to a system-defined routine to free a physically contiguous DMA buffer previously allocated by <b>AllocateCommonBuffer</b>. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pfree_common_buffer">FreeCommonBuffer</a>.
 
 
 ### -field AllocateAdapterChannel
 
-A pointer to a system-defined routine to allocate a channel for DMA operations. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540573">AllocateAdapterChannel</a>.
+A pointer to a system-defined routine to allocate a channel for DMA operations. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pallocate_adapter_channel">AllocateAdapterChannel</a>.
 
 
 ### -field FlushAdapterBuffers
 
-A pointer to a system-defined routine to flush data from the system or bus-master adapter's internal cache after a DMA operation. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff545917">FlushAdapterBuffers</a>.
+A pointer to a system-defined routine to flush data from the system or bus-master adapter's internal cache after a DMA operation. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pflush_adapter_buffers">FlushAdapterBuffers</a>.
 
 
 ### -field FreeAdapterChannel
 
-A pointer to a system-defined routine to free a channel previously allocated for DMA operations by <b>AllocateAdapterChannel</b>. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff546507">FreeAdapterChannel</a>.
+A pointer to a system-defined routine to free a channel previously allocated for DMA operations by <b>AllocateAdapterChannel</b>. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pfree_adapter_channel">FreeAdapterChannel</a>.
 
 
 ### -field FreeMapRegisters
 
-A pointer to a system-defined routine to free map registers allocated for DMA operations. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff546513">FreeMapRegisters</a>.
+A pointer to a system-defined routine to free map registers allocated for DMA operations. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pfree_map_registers">FreeMapRegisters</a>.
 
 
 ### -field MapTransfer
 
-A pointer to a system-defined routine to begin a DMA operation. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554402">MapTransfer</a>.
+A pointer to a system-defined routine to begin a DMA operation. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pmap_transfer">MapTransfer</a>.
 
 
 ### -field GetDmaAlignment
 
-A pointer to a system-defined routine to obtain the DMA alignment requirements of the controller. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff546530">GetDmaAlignment</a>.
+A pointer to a system-defined routine to obtain the DMA alignment requirements of the controller. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pget_dma_alignment">GetDmaAlignment</a>.
 
 
 ### -field ReadDmaCounter
 
-A pointer to a system-defined routine to obtain the current transfer count for a DMA operation. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff560782">ReadDmaCounter</a>.
+A pointer to a system-defined routine to obtain the current transfer count for a DMA operation. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pread_dma_counter">ReadDmaCounter</a>.
 
 
 ### -field GetScatterGatherList
 
-A pointer to a system-defined routine that allocates map registers and creates a scatter/gather list for DMA. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff546531">GetScatterGatherList</a>.
+A pointer to a system-defined routine that allocates map registers and creates a scatter/gather list for DMA. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pget_scatter_gather_list">GetScatterGatherList</a>.
 
 
 ### -field PutScatterGatherList
 
-A pointer to a system-defined routine that frees map registers and a scatter/gather list after a DMA operation is complete. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff559967">PutScatterGatherList</a>.
+A pointer to a system-defined routine that frees map registers and a scatter/gather list after a DMA operation is complete. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pput_scatter_gather_list">PutScatterGatherList</a>.
 
 
 ### -field CalculateScatterGatherList
 
-A pointer to a system-defined routine that determines the buffer size needed to hold the scatter/gather list that describes an I/O data  buffer. This member is available only in versions 2 and later of <b>DMA_OPERATIONS</b>. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540716">CalculateScatterGatherList</a>.
+A pointer to a system-defined routine that determines the buffer size needed to hold the scatter/gather list that describes an I/O data  buffer. This member is available only in versions 2 and later of <b>DMA_OPERATIONS</b>. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pcalculate_scatter_gather_list_size">CalculateScatterGatherList</a>.
 
 
 ### -field BuildScatterGatherList
 
-A pointer to a system-defined routine that allocates map registers and creates a scatter/gather list for DMA in a driver-supplied buffer. This member is available only in versions 2 and later of <b>DMA_OPERATIONS</b>. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540689">BuildScatterGatherList</a>.
+A pointer to a system-defined routine that allocates map registers and creates a scatter/gather list for DMA in a driver-supplied buffer. This member is available only in versions 2 and later of <b>DMA_OPERATIONS</b>. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pbuild_scatter_gather_list">BuildScatterGatherList</a>.
 
 
 ### -field BuildMdlFromScatterGatherList
 
-A pointer to a system-defined routine that builds an MDL corresponding to a scatter/gather list. This member is available only in versions 2 and later of <b>DMA_OPERATIONS</b>. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540686">BuildMdlFromScatterGatherList</a>.
+A pointer to a system-defined routine that builds an MDL corresponding to a scatter/gather list. This member is available only in versions 2 and later of <b>DMA_OPERATIONS</b>. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pbuild_mdl_from_scatter_gather_list">BuildMdlFromScatterGatherList</a>.
 
 
 ### -field GetDmaAdapterInfo
 
-A pointer to a system-defined routine that describes the capabilities of a bus-master DMA device or a system DMA controller. <b>GetDmaAdapterInfo</b> is available only in version 3 of <b>DMA_OPERATIONS</b>. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh451121">GetDmaAdapterInfo</a>.
+A pointer to a system-defined routine that describes the capabilities of a bus-master DMA device or a system DMA controller. <b>GetDmaAdapterInfo</b> is available only in version 3 of <b>DMA_OPERATIONS</b>. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pget_dma_adapter_info">GetDmaAdapterInfo</a>.
 
 
 ### -field GetDmaTransferInfo
 
-A pointer to a system-defined routine that describes the allocation requirements for a scatter/gather list. This routine replaces <a href="https://msdn.microsoft.com/library/windows/hardware/ff540716">CalculateScatterGatherList</a>. <b>GetDmaTransferInfo</b> is available only in version 3 of <b>DMA_OPERATIONS</b>. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh451125">GetDmaTransferInfo</a>.
+A pointer to a system-defined routine that describes the allocation requirements for a scatter/gather list. This routine replaces <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pcalculate_scatter_gather_list_size">CalculateScatterGatherList</a>. <b>GetDmaTransferInfo</b> is available only in version 3 of <b>DMA_OPERATIONS</b>. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pget_dma_transfer_info">GetDmaTransferInfo</a>.
 
 
 ### -field InitializeDmaTransferContext
 
-A pointer to a system-defined routine that initializes an opaque DMA transfer context. The operating system stores the internal status of a DMA transfer in this context. <b>InitializeDmaTransferContext</b> is available only in version 3 of <b>DMA_OPERATIONS</b>. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh451191">InitializeDmaTransferContext</a>.
+A pointer to a system-defined routine that initializes an opaque DMA transfer context. The operating system stores the internal status of a DMA transfer in this context. <b>InitializeDmaTransferContext</b> is available only in version 3 of <b>DMA_OPERATIONS</b>. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pinitialize_dma_transfer_context">InitializeDmaTransferContext</a>.
 
 
 ### -field AllocateCommonBufferEx
 
-A pointer to a system-defined routine that allocates memory for a common buffer and maps this memory so that it can accessed both by the processor and by a DMA device. <b>AllocateCommonBufferEx</b> is available only in version 3 of <b>DMA_OPERATIONS</b>. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh406344">AllocateCommonBufferEx</a>.
+A pointer to a system-defined routine that allocates memory for a common buffer and maps this memory so that it can accessed both by the processor and by a DMA device. <b>AllocateCommonBufferEx</b> is available only in version 3 of <b>DMA_OPERATIONS</b>. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pallocate_common_buffer_ex">AllocateCommonBufferEx</a>.
 
 
 ### -field AllocateAdapterChannelEx
 
-A pointer to a system-defined routine that allocates the resources required for a DMA transfer and then calls the driver-supplied <i>AdapterControl</i> routine to initiate the DMA transfer. <b>AllocateAdapterChannelEx</b> is available only in version 3 of <b>DMA_OPERATIONS</b>. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh406340">AllocateAdapterChannelEx</a>.
+A pointer to a system-defined routine that allocates the resources required for a DMA transfer and then calls the driver-supplied <i>AdapterControl</i> routine to initiate the DMA transfer. <b>AllocateAdapterChannelEx</b> is available only in version 3 of <b>DMA_OPERATIONS</b>. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pallocate_adapter_channel_ex">AllocateAdapterChannelEx</a>.
 
 
 ### -field ConfigureAdapterChannel
 
-A pointer to a system-defined routine enables a custom function that is implemented by the DMA controller. <b>ConfigureAdapterChannel</b> is available only in version 3 of <b>DMA_OPERATIONS</b>. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh450939">ConfigureAdapterChannel</a>.
+A pointer to a system-defined routine enables a custom function that is implemented by the DMA controller. <b>ConfigureAdapterChannel</b> is available only in version 3 of <b>DMA_OPERATIONS</b>. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pconfigure_adapter_channel">ConfigureAdapterChannel</a>.
 
 
 ### -field CancelAdapterChannel
 
-A pointer to a system-defined routine that tries to cancel a pending request to allocate a DMA channel. <b>CancelAdapterChannel</b> is available only in version 3 of <b>DMA_OPERATIONS</b>. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh406374">CancelAdapterChannel</a>.
+A pointer to a system-defined routine that tries to cancel a pending request to allocate a DMA channel. <b>CancelAdapterChannel</b> is available only in version 3 of <b>DMA_OPERATIONS</b>. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pcancel_adapter_channel">CancelAdapterChannel</a>.
 
 
 ### -field MapTransferEx
 
-A pointer to a system-defined routine that sets up map registers to map the physical addresses in a scatter/gather list to the logical addresses that are required to do a DMA transfer. <b>MapTransferEx</b> is available only in version 3 of <b>DMA_OPERATIONS</b>. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh406521">MapTransferEx</a>.
+A pointer to a system-defined routine that sets up map registers to map the physical addresses in a scatter/gather list to the logical addresses that are required to do a DMA transfer. <b>MapTransferEx</b> is available only in version 3 of <b>DMA_OPERATIONS</b>. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pmap_transfer_ex">MapTransferEx</a>.
 
 
 ### -field GetScatterGatherListEx
 
-A pointer to a system-defined routine that   allocates resources required for a DMA transfer, builds a scatter/gather list, and then calls the driver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff540513">AdapterListControl</a> routine to initiate the DMA transfer. <b>GetScatterGatherListEx</b> is available only in version 3 of <b>DMA_OPERATIONS</b>. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh451134">GetScatterGatherListEx</a>. This routine is a wrapper of <b>AllocateAdapterChannelEx</b> and <b>MapTransferEx</b>.
+A pointer to a system-defined routine that   allocates resources required for a DMA transfer, builds a scatter/gather list, and then calls the driver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-driver_list_control">AdapterListControl</a> routine to initiate the DMA transfer. <b>GetScatterGatherListEx</b> is available only in version 3 of <b>DMA_OPERATIONS</b>. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pget_scatter_gather_list_ex">GetScatterGatherListEx</a>. This routine is a wrapper of <b>AllocateAdapterChannelEx</b> and <b>MapTransferEx</b>.
 
 
 ### -field BuildScatterGatherListEx
 
-A pointer to a system-defined routine that   builds a scatter/gather list in a caller-allocated buffer, and then calls the driver-supplied <i>AdapterListControl</i> routine to initiate the DMA transfer. <b>BuildScatterGatherListEx</b> is available only in version 3 of <b>DMA_OPERATIONS</b>. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh406371">BuildScatterGatherListEx</a>.
+A pointer to a system-defined routine that   builds a scatter/gather list in a caller-allocated buffer, and then calls the driver-supplied <i>AdapterListControl</i> routine to initiate the DMA transfer. <b>BuildScatterGatherListEx</b> is available only in version 3 of <b>DMA_OPERATIONS</b>. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pbuild_scatter_gather_list_ex">BuildScatterGatherListEx</a>.
 
 
 ### -field FlushAdapterBuffersEx
 
-A pointer to a system-defined routine that  flushes any data that remains in the system DMA controller's internal cache or in a bus-master adapter's internal cache at the end of a DMA transfer. For a device that uses a system DMA controller, this routine cancels the current DMA transfer on the controller if the transfer is not complete. <b>FlushAdapterBuffersEx</b> is available only in version 3 of <b>DMA_OPERATIONS</b>. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh451102">FlushAdapterBuffersEx</a>.
+A pointer to a system-defined routine that  flushes any data that remains in the system DMA controller's internal cache or in a bus-master adapter's internal cache at the end of a DMA transfer. For a device that uses a system DMA controller, this routine cancels the current DMA transfer on the controller if the transfer is not complete. <b>FlushAdapterBuffersEx</b> is available only in version 3 of <b>DMA_OPERATIONS</b>. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pflush_adapter_buffers_ex">FlushAdapterBuffersEx</a>.
 
 
 ### -field FreeAdapterObject
 
-A pointer to a system-defined routine that releases the specified adapter object after a driver has completed all DMA operations. <b>FreeAdapterObject</b> is available only in version 3 of <b>DMA_OPERATIONS</b>. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh451107">FreeAdapterObject</a>.
+A pointer to a system-defined routine that releases the specified adapter object after a driver has completed all DMA operations. <b>FreeAdapterObject</b> is available only in version 3 of <b>DMA_OPERATIONS</b>. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pfree_adapter_object">FreeAdapterObject</a>.
 
 
 ### -field CancelMappedTransfer
 
-A pointer to a system-defined routine that cancels a mapped transfer. <b>CancelMappedTransfer</b> is available only in version 3 of <b>DMA_OPERATIONS</b>. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh406377">CancelMappedTransfer</a>.
+A pointer to a system-defined routine that cancels a mapped transfer. <b>CancelMappedTransfer</b> is available only in version 3 of <b>DMA_OPERATIONS</b>. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pcancel_mapped_transfer">CancelMappedTransfer</a>.
 
 
 ### -field AllocateDomainCommonBuffer
@@ -228,7 +228,7 @@ A pointer to a [*PALLOCATE_COMMON_BUFFER_WITH_BOUNDS*](nc-wdm-pallocate_common_b
 
 
 
-All members of this structure, with the exception of <b>Size</b>, are pointers to functions that drivers use to perform DMA operations for their devices. Drivers obtain these pointers by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a> routine. The version of the <b>DMA_OPERATIONS</b> structure that this routine returns depends on the <b>Version</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543107">DEVICE_DESCRIPTION</a> structure that is passed to <b>IoGetDmaAdapter</b> as an input parameter. If <b>Version</b> is DEVICE_DESCRIPTION_VERSION or DEVICE_DESCRIPTION_VERSION1, version 1 of this structure is returned. If <b>Version</b> is DEVICE_DESCRIPTION_VERSION2, version 2 of this structure is returned. Version 2 of <b>DMA_OPERATIONS</b> is available starting with  Windows XP. If <b>Version</b> is DEVICE_DESCRIPTION_VERSION3, version 3 of this structure is returned. Version 3 of <b>DMA_OPERATIONS</b> is available starting with  Windows 8.
+All members of this structure, with the exception of <b>Size</b>, are pointers to functions that drivers use to perform DMA operations for their devices. Drivers obtain these pointers by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a> routine. The version of the <b>DMA_OPERATIONS</b> structure that this routine returns depends on the <b>Version</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_device_description">DEVICE_DESCRIPTION</a> structure that is passed to <b>IoGetDmaAdapter</b> as an input parameter. If <b>Version</b> is DEVICE_DESCRIPTION_VERSION or DEVICE_DESCRIPTION_VERSION1, version 1 of this structure is returned. If <b>Version</b> is DEVICE_DESCRIPTION_VERSION2, version 2 of this structure is returned. Version 2 of <b>DMA_OPERATIONS</b> is available starting with  Windows XP. If <b>Version</b> is DEVICE_DESCRIPTION_VERSION3, version 3 of this structure is returned. Version 3 of <b>DMA_OPERATIONS</b> is available starting with  Windows 8.
 
 
 
@@ -238,123 +238,123 @@ All members of this structure, with the exception of <b>Size</b>, are pointers t
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540573">AllocateAdapterChannel</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pallocate_adapter_channel">AllocateAdapterChannel</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406340">AllocateAdapterChannelEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pallocate_adapter_channel_ex">AllocateAdapterChannelEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540575">AllocateCommonBuffer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pallocate_common_buffer">AllocateCommonBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406344">AllocateCommonBufferEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pallocate_common_buffer_ex">AllocateCommonBufferEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540686">BuildMdlFromScatterGatherList</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pbuild_mdl_from_scatter_gather_list">BuildMdlFromScatterGatherList</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540689">BuildScatterGatherList</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pbuild_scatter_gather_list">BuildScatterGatherList</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406371">BuildScatterGatherListEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pbuild_scatter_gather_list_ex">BuildScatterGatherListEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540716">CalculateScatterGatherList</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pcalculate_scatter_gather_list_size">CalculateScatterGatherList</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406374">CancelAdapterChannel</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pcancel_adapter_channel">CancelAdapterChannel</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406377">CancelMappedTransfer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pcancel_mapped_transfer">CancelMappedTransfer</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450939">ConfigureAdapterChannel</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pconfigure_adapter_channel">ConfigureAdapterChannel</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543107">DEVICE_DESCRIPTION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_device_description">DEVICE_DESCRIPTION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545917">FlushAdapterBuffers</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pflush_adapter_buffers">FlushAdapterBuffers</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451102">FlushAdapterBuffersEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pflush_adapter_buffers_ex">FlushAdapterBuffersEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546507">FreeAdapterChannel</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pfree_adapter_channel">FreeAdapterChannel</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451107">FreeAdapterObject</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pfree_adapter_object">FreeAdapterObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546511">FreeCommonBuffer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pfree_common_buffer">FreeCommonBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546513">FreeMapRegisters</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pfree_map_registers">FreeMapRegisters</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451121">GetDmaAdapterInfo</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pget_dma_adapter_info">GetDmaAdapterInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546530">GetDmaAlignment</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pget_dma_alignment">GetDmaAlignment</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451125">GetDmaTransferInfo</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pget_dma_transfer_info">GetDmaTransferInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546531">GetScatterGatherList</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pget_scatter_gather_list">GetScatterGatherList</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451134">GetScatterGatherListEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pget_scatter_gather_list_ex">GetScatterGatherListEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451191">InitializeDmaTransferContext</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pinitialize_dma_transfer_context">InitializeDmaTransferContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554402">MapTransfer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pmap_transfer">MapTransfer</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406521">MapTransferEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pmap_transfer_ex">MapTransferEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559965">PutDmaAdapter</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pput_dma_adapter">PutDmaAdapter</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559967">PutScatterGatherList</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pput_scatter_gather_list">PutScatterGatherList</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560782">ReadDmaCounter</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pread_dma_counter">ReadDmaCounter</a>
  
 
  

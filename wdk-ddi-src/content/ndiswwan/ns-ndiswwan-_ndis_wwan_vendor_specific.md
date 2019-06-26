@@ -102,13 +102,13 @@ sizeof(NDIS_WWAN_VENDOR_SPECIFIC)
  
 
 For more information about these members, see 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field VendorSpecificData
 
 A formatted 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571255">WWAN_VENDOR_SPECIFIC</a> object that
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_vendor_specific">WWAN_VENDOR_SPECIFIC</a> object that
      represents vendor-specific data.
 
 
@@ -117,11 +117,11 @@ A formatted
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571255">WWAN_VENDOR_SPECIFIC</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_vendor_specific">WWAN_VENDOR_SPECIFIC</a>
  
 
  

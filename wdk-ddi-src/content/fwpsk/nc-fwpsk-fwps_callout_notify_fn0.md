@@ -49,7 +49,7 @@ req.typenames:
 The filter engine calls a callout's 
   <i>notifyFn0</i> callout function to notify the callout driver about events that are associated with the
   callout.
-<div class="alert"><b>Note</b>  <i>notifyFn0</i> is the specific version of <a href="https://msdn.microsoft.com/library/windows/hardware/ff568802">notifyFn</a> used in Windows Vista and later. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 8, <a href="https://msdn.microsoft.com/c70c987b-5b4c-4ddd-8eb8-8c3c40003ab3">notifyFn2</a> is available. For Windows 7, <a href="https://msdn.microsoft.com/3f377049-cc5f-427d-9b09-5e49e4b305c5">notifyFn1</a> is available.</div><div> </div>
+<div class="alert"><b>Note</b>  <i>notifyFn0</i> is the specific version of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_netvista/">notifyFn</a> used in Windows Vista and later. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 8, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_notify_fn2">notifyFn2</a> is available. For Windows 7, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_notify_fn1">notifyFn1</a> is available.</div><div> </div>
 
 ## -parameters
 
@@ -95,7 +95,7 @@ A pointer to the management identifier for the filter, as specified by the appli
 ### -param *filter [in]
 
 A pointer to an 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff552387">FWPS_FILTER0</a> structure. This structure
+     <a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter0_">FWPS_FILTER0</a> structure. This structure
      describes the filter that is being added to or deleted from the filter engine.
      
 
@@ -104,7 +104,7 @@ A callout's
      <b>Context</b> member of this structure to point to a callout driver-supplied context structure when the
      filter is added to the filter engine. This context structure is opaque to the filter engine, and can be
      used by the callout driver's 
-     <a href="https://msdn.microsoft.com/e8423c27-d3eb-4bef-a835-37fae0e2b68c">classifyFn0</a> callout function to preserve
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_classify_fn0">classifyFn0</a> callout function to preserve
      any driver-specific data or state information between calls by the filter engine to the callout driver's     
      <i>classifyFn0</i> callout function.
 
@@ -162,7 +162,7 @@ An error occurred. If the
 
 
 A callout driver registers a callout's callout functions with the filter engine by calling the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff551140">FwpsCalloutRegister0</a> function.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpscalloutregister0">FwpsCalloutRegister0</a> function.
 
 The filter engine calls a callout's 
     <i>notifyFn0</i> callout function to notify the callout driver about events that are associated with the
@@ -191,7 +191,7 @@ When a filter that specifies a callout for the filter's action is deleted from t
     <i>notifyFn0</i> callout function and passes FWP_CALLOUT_NOTIFY_DELETE_FILTER in the 
     <i>notifyType</i> parameter and <b>NULL</b> in the 
     <i>filterKey</i> parameter. For more information, see 
-    <a href="https://msdn.microsoft.com/d686989e-97f0-4095-b172-1c2ccf7a26e6">Processing Notify Callouts</a>.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/processing-notify-callouts">Processing Notify Callouts</a>.
 
 
 
@@ -201,31 +201,31 @@ When a filter that specifies a callout for the filter's action is deleted from t
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543875">Callout Driver Callout Functions</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_netvista/">Callout Driver Callout Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551224">FWPS_CALLOUT0</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/ns-fwpsk-fwps_callout0_">FWPS_CALLOUT0</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552387">FWPS_FILTER0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_filter0_">FWPS_FILTER0</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551140">FwpsCalloutRegister0</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpscalloutregister0">FwpsCalloutRegister0</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568802">notifyFn</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_netvista/">notifyFn</a>
 
 
 
-<a href="https://msdn.microsoft.com/3f377049-cc5f-427d-9b09-5e49e4b305c5">notifyFn1</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_notify_fn1">notifyFn1</a>
 
 
 
-<a href="https://msdn.microsoft.com/c70c987b-5b4c-4ddd-8eb8-8c3c40003ab3">notifyFn2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_notify_fn2">notifyFn2</a>
  
 
  

@@ -84,11 +84,11 @@ For more information about the SINGLE_LIST_ENTRY and LIST_ENTRY structures, see 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544114">ExtRemoteList</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nl-engextcpp-extremotelist">ExtRemoteList</a>
 
 
 
-<a href="https://msdn.microsoft.com/db670175-ad3b-4bed-b9ad-625494319256">ExtRemoteList::ExtRemoteList (ExtRemoteData)</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-extremotelist-extremotelist(extremotedata__ulong_bool)">ExtRemoteList::ExtRemoteList (ExtRemoteData)</a>
  
 
  

@@ -86,16 +86,16 @@ This function does not return a value.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/DEE6FBD6-4807-4216-9010-F59C9E08076B">EvtVmbPacketCompletionRoutine</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vmbuskernelmodeclientlibapi/nc-vmbuskernelmodeclientlibapi-evt_vmb_packet_completion_routine">EvtVmbPacketCompletionRoutine</a>
 
 
 
-<a href="https://msdn.microsoft.com/EBB981CB-0107-497A-B6E6-9271E22A8D5F">VmbPacketSend</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbpacketsend">VmbPacketSend</a>
 
 
 
-<a href="https://msdn.microsoft.com/C1B3FA0C-65B8-4CE1-B8F5-650DF54C9E1E">VmbPacketSendWithExternalMdl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbpacketsendwithexternalmdl">VmbPacketSendWithExternalMdl</a>
 
 
 
-<a href="https://msdn.microsoft.com/50AACCAB-EFEA-42B7-8A34-FE110C7CDEED">VmbPacketSendWithExternalPfns</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbpacketsendwithexternalpfns">VmbPacketSendWithExternalPfns</a>

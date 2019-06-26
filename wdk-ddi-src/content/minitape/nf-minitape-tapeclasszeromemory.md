@@ -88,7 +88,7 @@ A tape miniclass driver calls <b>TapeClassZeroMemory</b> to zero a buffer in a p
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552656">DriverEntry of Tape Miniclass Driver</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-tape-miniclass-driver">DriverEntry of Tape Miniclass Driver</a>
  
 
  

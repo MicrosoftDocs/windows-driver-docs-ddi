@@ -46,7 +46,7 @@ req.typenames: PCNOTIFICATION_BUFFER, *PPCNOTIFICATION_BUFFER
 ## -description
 
 
-The notification buffer used by <a href="https://msdn.microsoft.com/03F65E4E-C942-4748-8D3E-938A6AC51B2A">IPortClsNotifications</a>.
+The notification buffer used by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iportclsnotifications">IPortClsNotifications</a>.
 
 
 ## -struct-fields
@@ -56,7 +56,7 @@ The notification buffer used by <a href="https://msdn.microsoft.com/03F65E4E-C94
 
 ### -field NotificationBuffer
 
-The notification buffer used by <a href="https://msdn.microsoft.com/03F65E4E-C942-4748-8D3E-938A6AC51B2A">IPortClsNotifications</a>.
+The notification buffer used by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iportclsnotifications">IPortClsNotifications</a>.
 
 
 ## -see-also
@@ -64,7 +64,7 @@ The notification buffer used by <a href="https://msdn.microsoft.com/03F65E4E-C94
 
 
 
-<a href="https://msdn.microsoft.com/03F65E4E-C942-4748-8D3E-938A6AC51B2A">IPortClsNotifications</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iportclsnotifications">IPortClsNotifications</a>
  
 
  

@@ -56,7 +56,7 @@ The <code>SetState</code> method sets the new state of playback or recording for
 
 ### -param State [in]
 
-Specifies the new state for the stream. This parameter is a <a href="https://msdn.microsoft.com/library/windows/hardware/ff566856">KSSTATE</a> enumeration value. For more information, see the following Remarks section.
+Specifies the new state for the stream. This parameter is a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ne-ks-ksstate">KSSTATE</a> enumeration value. For more information, see the following Remarks section.
 
 
 ## -returns
@@ -72,7 +72,7 @@ Specifies the new state for the stream. This parameter is a <a href="https://msd
 
 
 
-For an audio filter graph, the four <a href="https://msdn.microsoft.com/library/windows/hardware/ff566856">KSSTATE</a> enumeration values are interpreted as follows:
+For an audio filter graph, the four <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ne-ks-ksstate">KSSTATE</a> enumeration values are interpreted as follows:
 
 <ul>
 <li>
@@ -114,7 +114,7 @@ RUN -> PAUSE -> ACQUIRE -> STOP
 
 </li>
 </ul>
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff536723">IMiniportWaveCyclic::NewStream</a> method sets the initial state of the stream to KSSTATE_STOP. 
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iminiportwavecyclic-newstream">IMiniportWaveCyclic::NewStream</a> method sets the initial state of the stream to KSSTATE_STOP. 
 
 
 
@@ -124,19 +124,19 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff536723">IMini
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536723">IMiniportWaveCyclic::NewStream</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iminiportwavecyclic-newstream">IMiniportWaveCyclic::NewStream</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536715">IMiniportWaveCyclicStream</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iminiportwavecyclicstream">IMiniportWaveCyclicStream</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565110">KSPROPERTY_CONNECTION_STATE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-connection-state">KSPROPERTY_CONNECTION_STATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566856">KSSTATE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ne-ks-ksstate">KSSTATE</a>
  
 
  

@@ -76,7 +76,7 @@ The endpoint's bus number.
 
 ### -field Slot
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff560595">WHEA_PCI_SLOT_NUMBER</a> structure that describes the logical PCI slot where the endpoint is located in the system.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_whea_pci_slot_number">WHEA_PCI_SLOT_NUMBER</a> structure that describes the logical PCI slot where the endpoint is located in the system.
 
 
 ### -field DeviceControl
@@ -170,7 +170,7 @@ The contents of the endpoint's Advanced Error Capabilities and Control register.
 
 
 
-A WHEA_AER_ENDPOINT_DESCRIPTOR structure is contained within the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560505">WHEA_ERROR_SOURCE_DESCRIPTOR</a> structure.
+A WHEA_AER_ENDPOINT_DESCRIPTOR structure is contained within the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_whea_error_source_descriptor">WHEA_ERROR_SOURCE_DESCRIPTOR</a> structure.
 
 
 
@@ -180,11 +180,11 @@ A WHEA_AER_ENDPOINT_DESCRIPTOR structure is contained within the <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560505">WHEA_ERROR_SOURCE_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_whea_error_source_descriptor">WHEA_ERROR_SOURCE_DESCRIPTOR</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560595">WHEA_PCI_SLOT_NUMBER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_whea_pci_slot_number">WHEA_PCI_SLOT_NUMBER</a>
  
 
  

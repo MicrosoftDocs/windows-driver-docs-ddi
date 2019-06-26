@@ -57,7 +57,7 @@ The <b>PcRequestNewPowerState</b> function is used to request a new power state 
 
 ### -param pDeviceObject [in]
 
-Pointer to the adapter's <a href="https://msdn.microsoft.com/f697e0db-1db0-4a81-94d8-0ca079885480">functional device object (FDO)</a>. This parameter must point to a system structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>.
+Pointer to the adapter's <a href="https://docs.microsoft.com/windows-hardware/drivers/">functional device object (FDO)</a>. This parameter must point to a system structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>.
 
 
 ### -param RequestedNewState [in]
@@ -132,7 +132,7 @@ A full hibernation state and the sleep state with the longest power-up latency
 
 The hardware can be accessed only in power state <b>PowerDeviceD0</b>. In any other state, the driver must cache any attempted hardware accesses and defer those accesses until the <b>PowerDeviceD0</b> state is restored.
 
-For more information, see <a href="https://msdn.microsoft.com/3d3d63af-5790-4760-9099-7116ed5a5446">Power Management for Audio Devices</a>.
+For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/power-management-for-audio-devices">Power Management for Audio Devices</a>.
 
 
 
@@ -142,7 +142,7 @@ For more information, see <a href="https://msdn.microsoft.com/3d3d63af-5790-4760
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>
  
 
  

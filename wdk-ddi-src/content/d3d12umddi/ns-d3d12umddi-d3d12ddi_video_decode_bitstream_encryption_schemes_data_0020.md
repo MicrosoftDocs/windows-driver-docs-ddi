@@ -71,7 +71,7 @@ The number of schemes to retrieve. The runtime ensures this value matches the va
 
 ### -field pEncryptionSchemes
 
-A pointer to a list of supported encryption schemes. The calling application allocates storage for the list before it calls the <a href="https://msdn.microsoft.com/2E986E37-30C7-45FE-BC8B-A6DD5670938F">CheckFeatureSupport</a> method.
+A pointer to a list of supported encryption schemes. The calling application allocates storage for the list before it calls the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-checkfeaturesupport">CheckFeatureSupport</a> method.
 
 
 ## -see-also
@@ -79,7 +79,7 @@ A pointer to a list of supported encryption schemes. The calling application all
 
 
 
-<a href="https://msdn.microsoft.com/2E986E37-30C7-45FE-BC8B-A6DD5670938F">CheckFeatureSupport</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-checkfeaturesupport">CheckFeatureSupport</a>
 
 
 

@@ -56,7 +56,7 @@ The KSPROPERTY_TUNER_MODE_S structure describes the mode of a TV or radio tuner 
 
 ### -field Property
 
-Specifies an initialized <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
+Specifies an initialized <a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
 
 
 ### -field Mode
@@ -127,15 +127,15 @@ Indicates that the tuner is capable of tuning (get) or should switch to tuning (
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
+<a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565862">KSPROPERTY_TUNER_MODE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-tuner-mode">KSPROPERTY_TUNER_MODE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567800">PROPSETID_TUNER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/propsetid-tuner">PROPSETID_TUNER</a>
  
 
  

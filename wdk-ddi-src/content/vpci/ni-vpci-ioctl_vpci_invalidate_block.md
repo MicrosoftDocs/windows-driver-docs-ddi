@@ -53,12 +53,12 @@ req.product: Windows 10 or later.
 
 
 
-The driver for a PCI Express (PCIe) virtual function (VF) issues the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439301">IOCTL_VPCI_INVALIDATE_BLOCK</a> IOCTL request in order to be notified of changes to data in one or more VF configuration blocks. The driver is notified of these changes when the IOCTL is completed. Once notified, the driver should assume that any data previously read from the  specified VF configuration blocks has become invalid. Therefore, the driver should update its cache by reading the configuration block data again.
+The driver for a PCI Express (PCIe) virtual function (VF) issues the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vpci/ni-vpci-ioctl_vpci_invalidate_block">IOCTL_VPCI_INVALIDATE_BLOCK</a> IOCTL request in order to be notified of changes to data in one or more VF configuration blocks. The driver is notified of these changes when the IOCTL is completed. Once notified, the driver should assume that any data previously read from the  specified VF configuration blocks has become invalid. Therefore, the driver should update its cache by reading the configuration block data again.
 
 The driver issues this IOCTL to the next-lower driver in the driver stack.
 
 
-<div class="alert"><b>Note</b>  This IOCTL request is issued by the driver of a PCIe  VF on a device that supports the single root I/O virtualization (SR-IOV) interface. </div><div> </div>When the driver issues the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439301">IOCTL_VPCI_INVALIDATE_BLOCK</a> IOCTL, the driver must follow these steps:
+<div class="alert"><b>Note</b>  This IOCTL request is issued by the driver of a PCIe  VF on a device that supports the single root I/O virtualization (SR-IOV) interface. </div><div> </div>When the driver issues the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vpci/ni-vpci-ioctl_vpci_invalidate_block">IOCTL_VPCI_INVALIDATE_BLOCK</a> IOCTL, the driver must follow these steps:
 <dl>
 <dd>
 <a href="https://docs.microsoft.com/">Preparing an I/O Request Packet Structure</a>
@@ -76,7 +76,7 @@ The driver issues this IOCTL to the next-lower driver in the driver stack.
 <a href="https://docs.microsoft.com/">IOCTL Request Completion Results</a>
 
 </dd>
-</dl>For more information about issuing IOCTLs between kernel-mode drivers, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff542894">Creating IOCTL Requests in Drivers</a>.
+</dl>For more information about issuing IOCTLs between kernel-mode drivers, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/creating-ioctl-requests-in-drivers">Creating IOCTL Requests in Drivers</a>.
 
 
 ## -ioctlparameters
@@ -156,7 +156,7 @@ For more information, see [XREF-LINK:NTSTATUS Values].
 
 
 <h3><a id="preparing_an_i_o_request_packet_structure"></a><a id="PREPARING_AN_I_O_REQUEST_PACKET_STRUCTURE"></a>Preparing an I/O Request Packet Structure</h3>
-The driver must first allocate or reuse an I/O request packet (<a href="..\wdm\ns-wdm-_irp.md">IRP</a>). You can use the <a href="..\wdm\nf-wdm-iobuilddeviceiocontrolrequest.md">IoBuildDeviceIoControlRequest</a> routine to specifically allocate an IOCTL IRP. You can also use general-purpose IRP creation and initialization routines, such as <a href="..\wdm\nf-wdm-ioallocateirp.md">IoAllocateIrp</a>, <a href="..\wdm\nf-wdm-ioreuseirp.md">IoReuseIrp</a>, or <a href="..\wdm\nf-wdm-ioinitializeirp.md">IoInitializeIrp</a>. For more information about IRP allocation, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff542899">Creating IRPs for Lower-Level Drivers</a>.
+The driver must first allocate or reuse an I/O request packet (<a href="..\wdm\ns-wdm-_irp.md">IRP</a>). You can use the <a href="..\wdm\nf-wdm-iobuilddeviceiocontrolrequest.md">IoBuildDeviceIoControlRequest</a> routine to specifically allocate an IOCTL IRP. You can also use general-purpose IRP creation and initialization routines, such as <a href="..\wdm\nf-wdm-ioallocateirp.md">IoAllocateIrp</a>, <a href="..\wdm\nf-wdm-ioreuseirp.md">IoReuseIrp</a>, or <a href="..\wdm\nf-wdm-ioinitializeirp.md">IoInitializeIrp</a>. For more information about IRP allocation, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/creating-irps-for-lower-level-drivers">Creating IRPs for Lower-Level Drivers</a>.
 
 The driver must then set the  members of the <a href="..\wdm\ns-wdm-_irp.md">IRP</a> structure as described in the following table.
 
@@ -176,7 +176,7 @@ The driver must then set the  members of the <a href="..\wdm\ns-wdm-_irp.md">IRP
 <tr>
 <td><b>UserEvent</b></td>
 <td>
-The address of the event object that was initialized in the call to the <a href="..\wdm\nf-wdm-keinitializeevent.md">KeInitializeEvent</a> routine.<div class="alert"><b>Note</b>  If asynchronous completion of the IOCTL request is not required, this member should be set to <b>NULL</b>. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff542894">Creating IOCTL Requests in Drivers</a>.</div>
+The address of the event object that was initialized in the call to the <a href="..\wdm\nf-wdm-keinitializeevent.md">KeInitializeEvent</a> routine.<div class="alert"><b>Note</b>  If asynchronous completion of the IOCTL request is not required, this member should be set to <b>NULL</b>. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/creating-ioctl-requests-in-drivers">Creating IOCTL Requests in Drivers</a>.</div>
 <div> </div>
 
 
@@ -210,7 +210,7 @@ The driver must then set the members in the <a href="..\wdm\ns-wdm-_io_stack_loc
 </td>
 <td>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550766">IRP_MJ_INTERNAL_DEVICE_CONTROL</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-internal-device-control">IRP_MJ_INTERNAL_DEVICE_CONTROL</a>
 
 
 </td>
@@ -222,7 +222,7 @@ The driver must then set the members in the <a href="..\wdm\ns-wdm-_io_stack_loc
 </td>
 <td>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439301">IOCTL_VPCI_INVALIDATE_BLOCK</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vpci/ni-vpci-ioctl_vpci_invalidate_block">IOCTL_VPCI_INVALIDATE_BLOCK</a>
 
 
 </td>
@@ -233,7 +233,7 @@ The driver must then set the members in the <a href="..\wdm\ns-wdm-_io_stack_loc
 
 </td>
 <td>
-A pointer to a <a href="..\vpci\ns-vpci-_vpci_invalidate_block_output.md">VPCI_INVALIDATE_BLOCK_OUTPUT</a> structure. The driver formats this structure with the parameters for the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439301">IOCTL_VPCI_INVALIDATE_BLOCK</a>
+A pointer to a <a href="..\vpci\ns-vpci-_vpci_invalidate_block_output.md">VPCI_INVALIDATE_BLOCK_OUTPUT</a> structure. The driver formats this structure with the parameters for the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vpci/ni-vpci-ioctl_vpci_invalidate_block">IOCTL_VPCI_INVALIDATE_BLOCK</a>
    I/O request.
 
 </td>
@@ -290,7 +290,7 @@ The address of the <a href="..\wdm\ns-wdm-_irp.md">IRP</a> that was previously a
 
 <h3><a id="ioctl_request_completion_results"></a><a id="IOCTL_REQUEST_COMPLETION_RESULTS"></a>IOCTL Request Completion Results</h3>
 
-      When the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439301">IOCTL_VPCI_INVALIDATE_BLOCK</a> IOCTL request is completed, the  members of the caller-allocated <a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure are set to  the values in the following table.
+      When the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vpci/ni-vpci-ioctl_vpci_invalidate_block">IOCTL_VPCI_INVALIDATE_BLOCK</a> IOCTL request is completed, the  members of the caller-allocated <a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure are set to  the values in the following table.
 
 <table>
 <tr>
@@ -314,7 +314,7 @@ Zero
 </table>
  
 
-When the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439301">IOCTL_VPCI_INVALIDATE_BLOCK</a> IOCTL is issued and completed, the VF driver is notified that the PF driver has changed (<i>invalidated</i>) data in one or more VF configuration blocks.
+When the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vpci/ni-vpci-ioctl_vpci_invalidate_block">IOCTL_VPCI_INVALIDATE_BLOCK</a> IOCTL is issued and completed, the VF driver is notified that the PF driver has changed (<i>invalidated</i>) data in one or more VF configuration blocks.
 
 <div class="alert"><b>Note</b>  The operating system reserves and manages the resources that are required for the successful completion of this IOCTL. </div>
 <div> </div>
@@ -334,11 +334,11 @@ This operating system runs within the Hyper-V parent partition.
 
 </li>
 </ul>
-Starting with NDIS 6.30, the VF miniport driver should not issue an <a href="https://msdn.microsoft.com/library/windows/hardware/hh439301">IOCTL_VPCI_INVALIDATE_BLOCK</a> request. Instead, the following steps are performed in order to handle notifications of invalidated VF configuration block data.
+Starting with NDIS 6.30, the VF miniport driver should not issue an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vpci/ni-vpci-ioctl_vpci_invalidate_block">IOCTL_VPCI_INVALIDATE_BLOCK</a> request. Instead, the following steps are performed in order to handle notifications of invalidated VF configuration block data.
 
 <ol>
 <li>
-In the guest OS, NDIS issues an <a href="https://msdn.microsoft.com/library/windows/hardware/hh439301">IOCTL_VPCI_INVALIDATE_BLOCK</a> request.
+In the guest OS, NDIS issues an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vpci/ni-vpci-ioctl_vpci_invalidate_block">IOCTL_VPCI_INVALIDATE_BLOCK</a> request.
 
 </li>
 <li>
@@ -362,17 +362,17 @@ The virtualization stack notifies the virtual PCI (VPCI) driver, which  runs in 
 <li>
 In the Guest OS, the following steps occur:<ol>
 <li>
-The VPCI driver saves the cached <i>BlockMask</i> parameter data in the <b>BlockMask</b> member of the <a href="..\vpci\ns-vpci-_vpci_invalidate_block_output.md">VPCI_INVALIDATE_BLOCK_OUTPUT</a> structure that is associated with the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439301">IOCTL_VPCI_INVALIDATE_BLOCK</a> request.
+The VPCI driver saves the cached <i>BlockMask</i> parameter data in the <b>BlockMask</b> member of the <a href="..\vpci\ns-vpci-_vpci_invalidate_block_output.md">VPCI_INVALIDATE_BLOCK_OUTPUT</a> structure that is associated with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vpci/ni-vpci-ioctl_vpci_invalidate_block">IOCTL_VPCI_INVALIDATE_BLOCK</a> request.
 
 </li>
 <li>
-The VPCI driver successfully completes  the  <a href="https://msdn.microsoft.com/library/windows/hardware/hh439301">IOCTL_VPCI_INVALIDATE_BLOCK</a> request. When this happens, NDIS issues an object identifier (OID) request of <a href="https://msdn.microsoft.com/library/windows/hardware/hh451903">OID_SRIOV_VF_INVALIDATE_CONFIG_BLOCK</a>  to the VF miniport driver. A pointer to an <a href="..\ntddndis\ns-ntddndis-_ndis_sriov_vf_invalidate_config_block_info.md">NDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO</a> structure is passed along in the OID request. This structure contains the cached <i>BlockMask</i> parameter data.
+The VPCI driver successfully completes  the  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vpci/ni-vpci-ioctl_vpci_invalidate_block">IOCTL_VPCI_INVALIDATE_BLOCK</a> request. When this happens, NDIS issues an object identifier (OID) request of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-sriov-vf-invalidate-config-block">OID_SRIOV_VF_INVALIDATE_CONFIG_BLOCK</a>  to the VF miniport driver. A pointer to an <a href="..\ntddndis\ns-ntddndis-_ndis_sriov_vf_invalidate_config_block_info.md">NDIS_SRIOV_VF_INVALIDATE_CONFIG_BLOCK_INFO</a> structure is passed along in the OID request. This structure contains the cached <i>BlockMask</i> parameter data.
 
-NDIS also issues another <a href="https://msdn.microsoft.com/library/windows/hardware/hh439301">IOCTL_VPCI_INVALIDATE_BLOCK</a> request to handle successive notifications of changes to VF configuration data.
+NDIS also issues another <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vpci/ni-vpci-ioctl_vpci_invalidate_block">IOCTL_VPCI_INVALIDATE_BLOCK</a> request to handle successive notifications of changes to VF configuration data.
 
 </li>
 <li>
-When the VF driver handles the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451903">OID_SRIOV_VF_INVALIDATE_CONFIG_BLOCK</a> request, it reads data from the specified VF configuration blocks.
+When the VF driver handles the <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-sriov-vf-invalidate-config-block">OID_SRIOV_VF_INVALIDATE_CONFIG_BLOCK</a> request, it reads data from the specified VF configuration blocks.
 
 </li>
 </ol>
@@ -399,11 +399,11 @@ When the VF driver handles the <a href="https://msdn.microsoft.com/library/windo
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550766">IRP_MJ_INTERNAL_DEVICE_CONTROL</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-internal-device-control">IRP_MJ_INTERNAL_DEVICE_CONTROL</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542894">Creating IOCTL Requests in Drivers</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/creating-ioctl-requests-in-drivers">Creating IOCTL Requests in Drivers</a>
 
 
 
@@ -419,7 +419,7 @@ When the VF driver handles the <a href="https://msdn.microsoft.com/library/windo
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451903">OID_SRIOV_VF_INVALIDATE_CONFIG_BLOCK</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-sriov-vf-invalidate-config-block">OID_SRIOV_VF_INVALIDATE_CONFIG_BLOCK</a>
 
 
 

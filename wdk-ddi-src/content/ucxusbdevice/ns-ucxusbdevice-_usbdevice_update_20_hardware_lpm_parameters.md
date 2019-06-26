@@ -46,7 +46,7 @@ req.typenames: USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS
 ## -description
 
 
-Contains parameters for a request to update USB 2.0 link power management (LPM). UCX passes this structure in the  <a href="https://msdn.microsoft.com/library/windows/hardware/mt187846">EVT_UCX_USBDEVICE_UPDATE</a> callback function.
+Contains parameters for a request to update USB 2.0 link power management (LPM). UCX passes this structure in the  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucxusbdevice/nc-ucxusbdevice-evt_ucx_usbdevice_update">EVT_UCX_USBDEVICE_UPDATE</a> callback function.
 
 
 ## -struct-fields
@@ -94,19 +94,19 @@ Do not use.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt188027">ROOTHUB_20PORT_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucxroothub/ns-ucxroothub-_roothub_20port_info">ROOTHUB_20PORT_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt188080">USBDEVICE_UPDATE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucxusbdevice/ns-ucxusbdevice-_usbdevice_update">USBDEVICE_UPDATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt188082">USBDEVICE_UPDATE_FAILURE_FLAGS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucxusbdevice/ns-ucxusbdevice-_usbdevice_update_failure_flags">USBDEVICE_UPDATE_FAILURE_FLAGS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt188083">USBDEVICE_UPDATE_FLAGS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucxusbdevice/ns-ucxusbdevice-_usbdevice_update_flags">USBDEVICE_UPDATE_FLAGS</a>
  
 
  

@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-Initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/mt187926">UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS</a> structure.
+Initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucmmanager/ns-ucmmanager-_ucm_connector_pd_conn_state_changed_params">UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS</a> structure.
 
 
 ## -parameters
@@ -56,12 +56,12 @@ Initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/mt187
 
 ### -param Params [out]
 
-Pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/mt187926">UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS</a> structure to initialize.
+Pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucmmanager/ns-ucmmanager-_ucm_connector_pd_conn_state_changed_params">UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS</a> structure to initialize.
 
 
 ### -param PdConnState [in]
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/mt187934">UCM_PD_CONN_STATE</a>-typed flag that indicates the connection state of the partner port.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucmtypes/ne-ucmtypes-_ucm_pd_conn_state">UCM_PD_CONN_STATE</a>-typed flag that indicates the connection state of the partner port.
 
 
 ## -returns
@@ -78,7 +78,7 @@ This function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt187911">UcmConnectorPdConnectionStateChanged</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucmmanager/nf-ucmmanager-ucmconnectorpdconnectionstatechanged">UcmConnectorPdConnectionStateChanged</a>
  
 
  

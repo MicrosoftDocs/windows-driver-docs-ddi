@@ -91,7 +91,7 @@ The D3DDDI_OVERLAYCOLORCONTROLS structure describes color-control settings for a
 
 ### -field Flags
 
-[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff544615">D3DDDI_OVERLAYCOLORCONTROLSFLAGS</a> structure that identifies color-control settings that the overlay hardware supports.
+[in] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddi_overlaycolorcontrolsflags">D3DDDI_OVERLAYCOLORCONTROLSFLAGS</a> structure that identifies color-control settings that the overlay hardware supports.
 
 
 ## -see-also
@@ -99,15 +99,15 @@ The D3DDDI_OVERLAYCOLORCONTROLS structure describes color-control settings for a
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543169">D3DDDIARG_GETOVERLAYCOLORCONTROLS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_getoverlaycolorcontrols">D3DDDIARG_GETOVERLAYCOLORCONTROLS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543323">D3DDDIARG_SETOVERLAYCOLORCONTROLS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_setoverlaycolorcontrols">D3DDDIARG_SETOVERLAYCOLORCONTROLS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544615">D3DDDI_OVERLAYCOLORCONTROLSFLAGS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddi_overlaycolorcontrolsflags">D3DDDI_OVERLAYCOLORCONTROLSFLAGS</a>
  
 
  

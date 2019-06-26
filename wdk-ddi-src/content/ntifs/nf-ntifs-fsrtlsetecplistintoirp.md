@@ -130,7 +130,7 @@ To retrieve an ECP list that is associated with a given IRP_MJ_CREATE operation,
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540148">ECP_LIST</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff540148(v=vs.85)">ECP_LIST</a>
 
 
 

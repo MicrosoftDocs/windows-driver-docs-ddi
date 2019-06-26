@@ -66,7 +66,7 @@ The D3DDDIARG_UNLOCK structure describes a resource or a surface within the reso
 
 ### -field Flags
 
-[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff544680">D3DDDI_UNLOCKFLAGS</a> structure that indicates, in bit-field flags, how to unlock the resource.
+[in] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddi_unlockflags">D3DDDI_UNLOCKFLAGS</a> structure that indicates, in bit-field flags, how to unlock the resource.
 
 
 ## -see-also
@@ -74,11 +74,11 @@ The D3DDDIARG_UNLOCK structure describes a resource or a surface within the reso
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544680">D3DDDI_UNLOCKFLAGS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddi_unlockflags">D3DDDI_UNLOCKFLAGS</a>
 
 
 
-<a href="https://msdn.microsoft.com/23cc9c64-99d4-4602-a1b0-234fe7fcc3da">Unlock</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_unlock">Unlock</a>
  
 
  

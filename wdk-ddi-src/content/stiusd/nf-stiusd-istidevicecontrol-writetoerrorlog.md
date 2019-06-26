@@ -88,11 +88,11 @@ If the operation succeeds, the method returns S_OK. Otherwise, it returns one of
 
 
 
-The still image error log file is named <i>sti_trace.log</i> and is located in the Windows directory. Control Panel allows a user to select which still image error types (informational, warning, or error) are written to the error log (see <a href="https://msdn.microsoft.com/cedc8afc-54c4-485e-989c-481fe30d899b">Nonmodifiable Registry Entries</a>).
+The still image error log file is named <i>sti_trace.log</i> and is located in the Windows directory. Control Panel allows a user to select which still image error types (informational, warning, or error) are written to the error log (see <a href="https://docs.microsoft.com/windows-hardware/drivers/image/registry-entries-for-still-image-devices">Nonmodifiable Registry Entries</a>).
 
 Error messages should be reserved for critical error conditions, such as device hardware failures. Informational messages can be used for your own debugging purposes. Logged messages aren't visible to users, but they might be used by a support engineer to help debug a user's problems.
 
-A still image minidriver receives an <b>IStiDeviceControl</b> interface pointer as input to its <a href="https://msdn.microsoft.com/library/windows/hardware/ff543824">IStiUSD::Initialize</a> method.
+A still image minidriver receives an <b>IStiDeviceControl</b> interface pointer as input to its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/stiusd/nf-stiusd-istiusd-initialize">IStiUSD::Initialize</a> method.
 
 
 

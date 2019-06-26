@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <b>UnregisterSubdevice</b> method deletes the registration of a subdevice that was previously registered by a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff537731">PcRegisterSubdevice</a>.
+The <b>UnregisterSubdevice</b> method deletes the registration of a subdevice that was previously registered by a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-pcregistersubdevice">PcRegisterSubdevice</a>.
 
 
 ## -parameters
@@ -56,12 +56,12 @@ The <b>UnregisterSubdevice</b> method deletes the registration of a subdevice th
 
 ### -param DeviceObject [in]
 
-Pointer to the device object for the adapter device. This parameter must point to a system structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>.
+Pointer to the device object for the adapter device. This parameter must point to a system structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>.
 
 
 ### -param Unknown [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536842">IPort</a> interface of the port driver object that is bound to the subdevice.
+Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iport">IPort</a> interface of the port driver object that is bound to the subdevice.
 
 
 ## -returns
@@ -77,7 +77,7 @@ Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff53
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/d8ebd6d9-37ed-4890-aae1-5ecf58f2e22a">Dynamic Audio Subdevices</a>.
+For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/dynamic-audio-subdevices">Dynamic Audio Subdevices</a>.
 
 
 
@@ -87,19 +87,19 @@ For more information, see <a href="https://msdn.microsoft.com/d8ebd6d9-37ed-4890
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536842">IPort</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iport">IPort</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537030">IUnregisterSubdevice</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iunregistersubdevice">IUnregisterSubdevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537731">PcRegisterSubdevice</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-pcregistersubdevice">PcRegisterSubdevice</a>
  
 
  

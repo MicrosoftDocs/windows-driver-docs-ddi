@@ -66,7 +66,7 @@ The D3DKMT_GETDISPLAYMODELIST structure describes a list of display modes.
 
 ### -field pModeList
 
-[out] An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff547942">D3DKMT_DISPLAYMODE</a> structures that represent the list of display modes.
+[out] An array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_displaymode">D3DKMT_DISPLAYMODE</a> structures that represent the list of display modes.
 
 
 ### -field ModeCount
@@ -79,11 +79,11 @@ The D3DKMT_GETDISPLAYMODELIST structure describes a list of display modes.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546967">D3DKMTGetDisplayModeList</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/nf-d3dkmthk-d3dkmtgetdisplaymodelist">D3DKMTGetDisplayModeList</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547942">D3DKMT_DISPLAYMODE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_displaymode">D3DKMT_DISPLAYMODE</a>
  
 
  

@@ -46,7 +46,7 @@ req.typenames: "*PINDICATION_PARAMETERS_ENHANCED, INDICATION_PARAMETERS_ENHANCED
 ## -description
 
 
-The INDICATION_PARAMETERS_ENHANCED structure is passed as the Parameters parameter to a profile driver's <a href="https://msdn.microsoft.com/1C08937A-2B0C-4A6C-ACDF-1A751BF0D6F6">enhanced L2CAP Callback Function</a>
+The INDICATION_PARAMETERS_ENHANCED structure is passed as the Parameters parameter to a profile driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/nc-bthddi-pfnbthport_indication_callback_enhanced">enhanced L2CAP Callback Function</a>
 
 
 
@@ -96,7 +96,7 @@ The structure that contains parameters for the
 ### -field Parameters.ConfigRequest.CurrentParams
 
 A 
-       <a href="https://msdn.microsoft.com/library/windows/hardware/hh450869">CHANNEL_CONFIG_PARAMETERS_ENHANCED</a> structure that contains the parameters for the current channel. This
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/ns-bthddi-_channel_config_parameters_enhanced">CHANNEL_CONFIG_PARAMETERS_ENHANCED</a> structure that contains the parameters for the current channel. This
        value is only valid if the channel was previously open and is now in the process of being configured.
        This member is used when the callback function specifies the 
        <i>IndicationRemoteConfigRequest</i> INDICATION_CODE value.
@@ -191,7 +191,7 @@ The structure that contains parameters for the
 ### -field Parameters.ConfigResponse.CurrentParams
 
 A 
-       <a href="https://msdn.microsoft.com/library/windows/hardware/hh450869">CHANNEL_CONFIG_PARAMETERS_ENHANCED</a> structure that contains the parameters for the current channel. This
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/ns-bthddi-_channel_config_parameters_enhanced">CHANNEL_CONFIG_PARAMETERS_ENHANCED</a> structure that contains the parameters for the current channel. This
        value is only valid if the channel was previously open and is now in the process of being configured.
        This member is used when the callback function specifies the 
        <i>IndicationRemoteConfigRequest</i> INDICATION_CODE value.
@@ -320,7 +320,7 @@ The structure that contains the parameters for the
 ### -field Parameters.Disconnect.Reason
 
 An 
-       <a href="https://msdn.microsoft.com/library/windows/hardware/ff536763">L2CAP_DISCONNECT_REASON</a> value that
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/ne-bthddi-_l2cap_disconnect_reason">L2CAP_DISCONNECT_REASON</a> value that
        indicates why the L2CAP connection to the remote device was terminated.
 
 

@@ -56,12 +56,12 @@ Describes the detected port type and attach action.
 
 ### -field PortType
 
-Detected port type defined by one of the <a href="https://msdn.microsoft.com/library/windows/hardware/mt188004">USBFN_PORT_TYPE</a>-typed values.
+Detected port type defined by one of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbfnbase/ne-usbfnbase-_usbfn_port_type">USBFN_PORT_TYPE</a>-typed values.
 
 
 ### -field AttachAction
 
-The operation that must be performed depending on the port type. This value is defined in the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187985">USBFN_ATTACH_ACTION</a> enumeration.
+The operation that must be performed depending on the port type. This value is defined in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbfnattach/ne-usbfnattach-_usbfn_attach_action">USBFN_ATTACH_ACTION</a> enumeration.
 
 
 ## -see-also
@@ -69,7 +69,7 @@ The operation that must be performed depending on the port type. This value is d
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt187995">USBFN_GET_ATTACH_ACTION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbfnattach/nc-usbfnattach-usbfn_get_attach_action">USBFN_GET_ATTACH_ACTION</a>
  
 
  

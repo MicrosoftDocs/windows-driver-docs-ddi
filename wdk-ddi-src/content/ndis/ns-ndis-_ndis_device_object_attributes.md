@@ -48,7 +48,7 @@ req.typenames: NDIS_DEVICE_OBJECT_ATTRIBUTES, *PNDIS_DEVICE_OBJECT_ATTRIBUTES
 
 The NDIS_DEVICE_OBJECT_ATTRIBUTES structure defines the attributes of a device that an NDIS filter or
   miniport driver can pass to the 
-  <a href="https://msdn.microsoft.com/library/windows/hardware/ff564518">NdisRegisterDeviceEx</a> function.
+  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisregisterdeviceex">NdisRegisterDeviceEx</a> function.
 
 
 ## -struct-fields
@@ -59,7 +59,7 @@ The NDIS_DEVICE_OBJECT_ATTRIBUTES structure defines the attributes of a device t
 ### -field Header
 
 The 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
      NDIS_DEVICE_OBJECT_ATTRIBUTES structure. Set the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to NDIS_OBJECT_TYPE_DEVICE_OBJECT_ATTRIBUTES, the 
@@ -139,7 +139,7 @@ A string representation for the default security settings of the device object. 
 
 The security setting is specified in a subset of Security Descriptor Definition Language (SDDL). A
      set of predefined constants (SDDL_DEVOBJ_<i>XXX</i>) is also provided. For more information, see 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff563688">Securing Device Objects</a>.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/securing-device-objects">Securing Device Objects</a>.
 
 
 ### -field DeviceClassGuid
@@ -152,7 +152,7 @@ Reserved for NDIS. Set this member to <b>NULL</b>.
 
 
 An NDIS filter or miniport driver can call the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff564518">NdisRegisterDeviceEx</a> function to
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisregisterdeviceex">NdisRegisterDeviceEx</a> function to
     register a device. To specify the device attributes, the driver allocates and initializes an
     NDIS_DEVICE_OBJECT_ATTRIBUTES structure and passes the structure to the 
     <i>DeviceObjectAttributes</i> parameter of 
@@ -166,11 +166,11 @@ An NDIS filter or miniport driver can call the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564518">NdisRegisterDeviceEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisregisterdeviceex">NdisRegisterDeviceEx</a>
 
 
 

@@ -89,7 +89,7 @@ Call <b>WdfRequestFormatRequestUsingCurrentType</b> to format the request object
 
 </li>
 <li>
-Call <a href="https://msdn.microsoft.com/library/windows/hardware/ff550027">WdfRequestSend</a> to send the request to the I/O target.
+Call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfrequest/nf-wdfrequest-wdfrequestsend">WdfRequestSend</a> to send the request to the I/O target.
 
 </li>
 </ol>
@@ -98,7 +98,7 @@ For more information about <b>WdfRequestFormatRequestUsingCurrentType</b>, see <
 
 #### Examples
 
-The following code example is an <a href="https://msdn.microsoft.com/0b834d01-5603-43e8-9b74-9292610cc06d">EvtIoDefault</a> callback function that forwards every I/O request that it receives, without modification, to the device's local I/O target.
+The following code example is an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfio/nc-wdfio-evt_wdf_io_queue_io_default">EvtIoDefault</a> callback function that forwards every I/O request that it receives, without modification, to the device's local I/O target.
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -156,11 +156,11 @@ MyEvtIoDefault(
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550027">WdfRequestSend</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfrequest/nf-wdfrequest-wdfrequestsend">WdfRequestSend</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550036">WdfRequestWdmFormatUsingStackLocation</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfrequest/nf-wdfrequest-wdfrequestwdmformatusingstacklocation">WdfRequestWdmFormatUsingStackLocation</a>
  
 
  

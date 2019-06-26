@@ -57,7 +57,7 @@ The<b> KsStreamPointerGetIrp </b>function returns the IRP associated with the fr
 
 ### -param StreamPointer [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567139">KSSTREAM_POINTER</a> structure that references the frame for which the associated IRP is returned.
+A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksstream_pointer">KSSTREAM_POINTER</a> structure that references the frame for which the associated IRP is returned.
 
 
 ### -param FirstFrameInIrp [out, optional]
@@ -89,7 +89,7 @@ A pointer to a caller-supplied BOOLEAN value set to <b>TRUE</b> if the frame ref
 
 <i>FirstFrameInIrp </i>and<i>/</i>or <i>LastFrameInIrp</i> must be non-<b>NULL</b> at call-time in order for AVStream to fill in these values.
 
-Also see <a href="https://msdn.microsoft.com/4bac68a0-34d2-431a-9ed9-8a42751a736f">Stream Pointers</a>.
+Also see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/stream-pointers">Stream Pointers</a>.
 
 
 
@@ -99,11 +99,11 @@ Also see <a href="https://msdn.microsoft.com/4bac68a0-34d2-431a-9ed9-8a42751a736
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567132">KsStreamPointerGetMdl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksstreampointergetmdl">KsStreamPointerGetMdl</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn892390">KsStreamPointerLock</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/ks-ksstreampointerlock">KsStreamPointerLock</a>
  
 
  

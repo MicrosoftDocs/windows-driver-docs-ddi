@@ -61,7 +61,7 @@ in Windows 8 and later.</div><div> </div>The
 
 A handle that identifies a DMA provider. The DMA provider driver received this handle from the
      NetDMA interface in a call to the 
-     <a href="https://msdn.microsoft.com/35d70d0b-c1b9-433f-941d-6cb61ddf0b62">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdma/nf-netdma-netdmaregisterprovider">
      NetDmaRegisterProvider</a> function.
 
 
@@ -81,18 +81,18 @@ None
 DMA provider drivers call the 
     <b>NetDmaDeregisterProvider</b> function to deregister a DMA provider that was previously registered by
     calling the 
-    <a href="https://msdn.microsoft.com/35d70d0b-c1b9-433f-941d-6cb61ddf0b62">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdma/nf-netdma-netdmaregisterprovider">
     NetDmaRegisterProvider</a> function.
 
 The DMA provider driver must call the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568335">NetDmaProviderStop</a> function before it
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdma/nf-netdma-netdmaproviderstop">NetDmaProviderStop</a> function before it
     deregisters a DMA provider. The DMA provider driver calls 
     <b>NetDmaProviderStop</b> to notify the NetDMA interface that a previously started DMA provider is no
     longer available.
 
 A DMA provider driver typically calls the 
     <b>NetDmaDeregisterProvider</b> function in the context of processing the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff551738">IRP_MN_REMOVE_DEVICE</a> IRP for the DMA
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-remove-device">IRP_MN_REMOVE_DEVICE</a> IRP for the DMA
     provider.
 
 Call 
@@ -106,15 +106,15 @@ Call
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551738">IRP_MN_REMOVE_DEVICE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-remove-device">IRP_MN_REMOVE_DEVICE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568335">NetDmaProviderStop</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdma/nf-netdma-netdmaproviderstop">NetDmaProviderStop</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568336">NetDmaRegisterProvider</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdma/nf-netdma-netdmaregisterprovider">NetDmaRegisterProvider</a>
  
 
  

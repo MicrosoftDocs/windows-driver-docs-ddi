@@ -82,7 +82,7 @@ Even if <b>MmIsAddressValid</b> returns <b>TRUE</b>, accessing the address can c
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554664">MmProbeAndLockPages</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-mmprobeandlockpages">MmProbeAndLockPages</a>
  
 
  

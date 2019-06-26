@@ -69,15 +69,15 @@ Specifies the number of buffers that follow this header.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563483">KSPIN</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_kspin">KSPIN</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
+<a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
 
 
 
-<a href="https://msdn.microsoft.com/23c020e8-b778-4784-9dc0-21920557e1c1">Kernel Streaming Property Sets</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/avstream-property-sets">Kernel Streaming Property Sets</a>
  
 
  

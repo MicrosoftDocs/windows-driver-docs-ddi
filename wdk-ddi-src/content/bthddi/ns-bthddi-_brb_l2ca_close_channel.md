@@ -57,7 +57,7 @@ The _BRB_L2CA_CLOSE_CHANNEL structure describes an open L2CAP channel to close.
 ### -field Hdr
 
 A 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536612">BRB_HEADER</a> structure that contains information
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a> structure that contains information
      about the current BRB.
 
 
@@ -69,8 +69,8 @@ The address of the remote device.
 ### -field ChannelHandle
 
 The L2CAP channel handle that was returned by Bluetooth driver stack in response to an earlier 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536615">BRB_L2CA_OPEN_CHANNEL</a> or 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536616">
+     <a href="https://docs.microsoft.com/previous-versions/ff536615(v=vs.85)">BRB_L2CA_OPEN_CHANNEL</a> or 
+     <a href="https://docs.microsoft.com/previous-versions/ff536616(v=vs.85)">
      BRB_L2CA_OPEN_CHANNEL_RESPONSE</a> request. This is the channel handle to close.
 
 
@@ -79,8 +79,8 @@ The L2CAP channel handle that was returned by Bluetooth driver stack in response
 
 
 To close a L2CAP channel, profile drivers should 
-    <a href="https://msdn.microsoft.com/53a692e7-9c71-4dca-9331-32ac97b94179">build and send</a> a 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff536614">BRB_L2CA_CLOSE_CHANNEL</a> request.
+    <a href="https://docs.microsoft.com/previous-versions/ff536657(v=vs.85)">build and send</a> a 
+    <a href="https://docs.microsoft.com/previous-versions/ff536614(v=vs.85)">BRB_L2CA_CLOSE_CHANNEL</a> request.
 
 A <b>BRB_L2CA_CLOSE_CHANNEL</b> request can be made for a channel that was initiated locally or remotely. If
     a profile driver has multiple L2CAP channels to a single remote device, it must close each one
@@ -94,19 +94,19 @@ A <b>BRB_L2CA_CLOSE_CHANNEL</b> request can be made for a channel that was initi
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536612">BRB_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536614">BRB_L2CA_CLOSE_CHANNEL</a>
+<a href="https://docs.microsoft.com/previous-versions/ff536614(v=vs.85)">BRB_L2CA_CLOSE_CHANNEL</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536615">BRB_L2CA_OPEN_CHANNEL</a>
+<a href="https://docs.microsoft.com/previous-versions/ff536615(v=vs.85)">BRB_L2CA_OPEN_CHANNEL</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536616">
+<a href="https://docs.microsoft.com/previous-versions/ff536616(v=vs.85)">
    BRB_L2CA_OPEN_CHANNEL_RESPONSE</a>
  
 

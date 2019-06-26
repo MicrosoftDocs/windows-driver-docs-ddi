@@ -56,17 +56,17 @@ The D3D10DDI_ADAPTERFUNCS structure contains functions that the user-mode displa
 
 ### -field pfnCalcPrivateDeviceSize
 
-A pointer to the driver's <a href="https://msdn.microsoft.com/8221a99a-1b46-48ba-8930-ac973e009eee">CalcPrivateDeviceSize</a> function that specifies the size of a memory block that the user-mode display driver requires from the Microsoft Direct3D runtime to store frequently-accessed data.
+A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_calcprivatedevicesize">CalcPrivateDeviceSize</a> function that specifies the size of a memory block that the user-mode display driver requires from the Microsoft Direct3D runtime to store frequently-accessed data.
 
 
 ### -field pfnCreateDevice
 
-A pointer to the driver's <a href="https://msdn.microsoft.com/c69eedb1-c975-412c-aa9f-cf64a702f937">CreateDevice(D3D10)</a> function that creates a representation of a display device that handles a collection of rendering state.
+A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_createdevice">CreateDevice(D3D10)</a> function that creates a representation of a display device that handles a collection of rendering state.
 
 
 ### -field pfnCloseAdapter
 
-A pointer to the driver's <a href="https://msdn.microsoft.com/bc7ccd91-becc-4596-a56a-562cfe9a18b9">CloseAdapter(D3D10)</a> function that releases resources for a graphics adapter object.
+A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_closeadapter">CloseAdapter(D3D10)</a> function that releases resources for a graphics adapter object.
 
 
 ## -see-also
@@ -74,23 +74,23 @@ A pointer to the driver's <a href="https://msdn.microsoft.com/bc7ccd91-becc-4596
 
 
 
-<a href="https://msdn.microsoft.com/8221a99a-1b46-48ba-8930-ac973e009eee">CalcPrivateDeviceSize</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_calcprivatedevicesize">CalcPrivateDeviceSize</a>
 
 
 
-<a href="https://msdn.microsoft.com/bc7ccd91-becc-4596-a56a-562cfe9a18b9">CloseAdapter(D3D10)</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_closeadapter">CloseAdapter(D3D10)</a>
 
 
 
-<a href="https://msdn.microsoft.com/c69eedb1-c975-412c-aa9f-cf64a702f937">CreateDevice(D3D10)</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_createdevice">CreateDevice(D3D10)</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541724">D3D10DDIARG_OPENADAPTER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ns-d3d10umddi-d3d10ddiarg_openadapter">D3D10DDIARG_OPENADAPTER</a>
 
 
 
-<a href="https://msdn.microsoft.com/50c10021-2bad-4e3c-99cc-24cf31fbc95d">OpenAdapter10</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_openadapter">OpenAdapter10</a>
  
 
  

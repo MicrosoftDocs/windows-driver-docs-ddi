@@ -64,19 +64,19 @@ The <b>ExtRemoteTypedList</b> class includes the following constructors and meth
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/f6e2d8e3-294d-45d8-8fc6-33af3a746244">SetTypeAndLink</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-extremotetypedlist-settypeandlink">SetTypeAndLink</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/3bf50952-7ac9-4c6b-9318-dd64748de9d2">GetTypedNodePtr</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-extremotetypedlist-gettypednodeptr">GetTypedNodePtr</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/f74090c9-4e15-4d6c-bb62-b8d5c56d5a1c">GetTypedNode</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-extremotetypedlist-gettypednode">GetTypedNode</a>
 
 
 </dd>
@@ -110,11 +110,11 @@ The type ID of the type relative to the module specified by <b>m_TypeModBase</b>
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/f74090c9-4e15-4d6c-bb62-b8d5c56d5a1c">GetTypedNode</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-extremotetypedlist-gettypednode">GetTypedNode</a>
 
-<a href="https://msdn.microsoft.com/3bf50952-7ac9-4c6b-9318-dd64748de9d2">GetTypedNodePtr</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-extremotetypedlist-gettypednodeptr">GetTypedNodePtr</a>
 
-<a href="https://msdn.microsoft.com/f6e2d8e3-294d-45d8-8fc6-33af3a746244">SetTypeAndLink</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-extremotetypedlist-settypeandlink">SetTypeAndLink</a>
 
 <a href="..\engextcpp\nl-engextcpp-extremotelist.md">ExtRemoteList</a>
 

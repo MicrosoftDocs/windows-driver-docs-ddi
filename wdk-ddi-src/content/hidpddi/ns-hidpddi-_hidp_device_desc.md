@@ -47,7 +47,7 @@ req.typenames: HIDP_DEVICE_DESC, *PHIDP_DEVICE_DESC
 
 
 Contains the device description block filled in
-                         collection descriptions as linked lists. This structure is used by <a href="https://msdn.microsoft.com/library/windows/hardware/mt740164">HidP_GetCollectionDescription</a>.
+                         collection descriptions as linked lists. This structure is used by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hidpddi/nf-hidpddi-hidp_getcollectiondescription">HidP_GetCollectionDescription</a>.
 
 
 ## -struct-fields
@@ -57,7 +57,7 @@ Contains the device description block filled in
 
 ### -field CollectionDesc
 
-An array of  <a href="https://msdn.microsoft.com/library/windows/hardware/mt740161">HIDP_COLLECTION_DESC</a> structure that contains the collection descriptors.
+An array of  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hidpddi/ns-hidpddi-_hidp_collection_desc">HIDP_COLLECTION_DESC</a> structure that contains the collection descriptors.
 
 
 ### -field CollectionDescLength
@@ -67,7 +67,7 @@ The number of elements in the array of the collection descriptors.
 
 ### -field ReportIDs
 
-An array of <a href="https://msdn.microsoft.com/library/windows/hardware/mt740165">HIDP_REPORT_IDS</a> structures report ID information for a report descriptor. 
+An array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hidpddi/ns-hidpddi-_hidp_report_ids">HIDP_REPORT_IDS</a> structures report ID information for a report descriptor. 
 
 
 ### -field ReportIDsLength
@@ -77,7 +77,7 @@ The number of elements in the length of the array of report IDs.
 
 ### -field Dbg
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/mt740163">HIDP_GETCOLDESC_DBG</a> structure that contains the error code indicating the failure in parsing the report 
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hidpddi/ns-hidpddi-_hidp_getcoldesc_dbg">HIDP_GETCOLDESC_DBG</a> structure that contains the error code indicating the failure in parsing the report 
                                       descriptor.
 
 
@@ -86,7 +86,7 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/mt740163">HIDP_GE
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt740164">HidP_GetCollectionDescription</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hidpddi/nf-hidpddi-hidp_getcollectiondescription">HidP_GetCollectionDescription</a>
  
 
  

@@ -56,7 +56,7 @@ Used by a display miniport driver to identify capabilities of a Miracast device.
 
 ### -field MaxChunkPrivateDriverDataSize
 
-The maximum size, in bytes, of the private data that the display miniport driver will pass when it reports a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561136">DXGK_INTERRUPT_TYPE</a> interrupt type of <b>DXGK_INTERRUPT_MICACAST_CHUNK_PROCESSING_COMPLETE</b>.
+The maximum size, in bytes, of the private data that the display miniport driver will pass when it reports a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ne-d3dkmddi-_dxgk_interrupt_type">DXGK_INTERRUPT_TYPE</a> interrupt type of <b>DXGK_INTERRUPT_MICACAST_CHUNK_PROCESSING_COMPLETE</b>.
 
 
 ### -field Flags
@@ -82,7 +82,7 @@ Holds a 32-bit value that identifies the capabilities of the Miracast device.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561136">DXGK_INTERRUPT_TYPE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ne-d3dkmddi-_dxgk_interrupt_type">DXGK_INTERRUPT_TYPE</a>
  
 
  

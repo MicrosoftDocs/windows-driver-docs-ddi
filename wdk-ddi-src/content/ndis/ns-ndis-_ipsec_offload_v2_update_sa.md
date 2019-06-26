@@ -61,7 +61,7 @@ The IPSEC_OFFLOAD_V2_UPDATE_SA structure updates information about security asso
 ### -field Header
 
 The 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
      IPSEC_OFFLOAD_V2_UPDATE_SA structure. Set the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to NDIS_OBJECT_TYPE_DEFAULT, the 
@@ -78,7 +78,7 @@ An NDIS handle that identifies the SA. The miniport driver provided this handle 
 ### -field Operation
 
 The IPsec operation for which the SA is to be used. The 
-     <a href="https://msdn.microsoft.com/bb26c8af-1564-4cf8-ab40-b50b4811466d">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ne-ndis-_ipsec_offload_v2_operation">
      IPSEC_OFFLOAD_V2_OPERATION</a> enumeration defines the supported operations.
 
 
@@ -111,11 +111,11 @@ The IPSEC_OFFLOAD_V2_UPDATE_SA structure specifies updates for a SA and a pointe
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556984">IPSEC_OFFLOAD_V2_OPERATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ne-ndis-_ipsec_offload_v2_operation">IPSEC_OFFLOAD_V2_OPERATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 

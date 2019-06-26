@@ -59,7 +59,7 @@ The <b>CWiauDbgFn</b> class is a helper class that is used for tracing function 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/13c136f9-079a-414e-a40b-1938899024a0">~CWiauDbgFn</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-cwiaudbgfn-~cwiaudbgfn">~CWiauDbgFn</a>
 </td>
 <td align="left" width="63%">
 The ~CWiauDbgFn destructor method is called when the function or method being traced by CWiauDbgFn is exited.
@@ -68,7 +68,7 @@ The ~CWiauDbgFn destructor method is called when the function or method being tr
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dbb367a7-d7e6-4081-9618-1c4e38cccd31">CWiauDbgFn</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-cwiaudbgfn-cwiaudbgfn">CWiauDbgFn</a>
 </td>
 <td align="left" width="63%">
 The CWiauDbgFn constructor method is used for tracing when a function or method is entered.
@@ -88,7 +88,7 @@ The <b>CWiauDbgFn</b> class has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/13c136f9-079a-414e-a40b-1938899024a0">~CWiauDbgFn</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-cwiaudbgfn-~cwiaudbgfn">~CWiauDbgFn</a>
 </td>
 <td align="left" width="63%">
 The ~CWiauDbgFn destructor method is called when the function or method being traced by CWiauDbgFn is exited.
@@ -97,7 +97,7 @@ The ~CWiauDbgFn destructor method is called when the function or method being tr
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dbb367a7-d7e6-4081-9618-1c4e38cccd31">CWiauDbgFn</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-cwiaudbgfn-cwiaudbgfn">CWiauDbgFn</a>
 </td>
 <td align="left" width="63%">
 The CWiauDbgFn constructor method is used for tracing when a function or method is entered.

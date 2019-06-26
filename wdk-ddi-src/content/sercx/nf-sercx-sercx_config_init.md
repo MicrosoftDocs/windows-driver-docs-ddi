@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <b>SERCX_CONFIG_INIT</b> function initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/hh439548">SERCX_CONFIG</a> structure.
+The <b>SERCX_CONFIG_INIT</b> function initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sercx/ns-sercx-_sercx_config">SERCX_CONFIG</a> structure.
 
 
 ## -parameters
@@ -73,7 +73,7 @@ None.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439548">SERCX_CONFIG</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sercx/ns-sercx-_sercx_config">SERCX_CONFIG</a>
  
 
  

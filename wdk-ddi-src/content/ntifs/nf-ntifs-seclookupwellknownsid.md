@@ -545,7 +545,7 @@ If the function cannot find the well known SID for the <i>SidType</i> specified,
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_sid">SID</a>
 
 
 

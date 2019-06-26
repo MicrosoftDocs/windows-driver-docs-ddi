@@ -78,7 +78,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/A1CC714A-CDD5-494F-8157-9D95DF738CBE">IPrintUnidiAsyncNotifyRegistration</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prnasntp/nn-prnasntp-iprintunidiasyncnotifyregistration">IPrintUnidiAsyncNotifyRegistration</a>
  
 
  

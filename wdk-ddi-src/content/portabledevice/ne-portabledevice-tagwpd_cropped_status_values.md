@@ -87,7 +87,7 @@ Indicates the cropped status of an image. This enumeration is used by the [**WPD
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597672">Structures and Enumeration Types</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff597672(v=vs.85)">Structures and Enumeration Types</a>
  
 
  

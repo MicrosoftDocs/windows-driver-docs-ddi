@@ -105,66 +105,66 @@ Reserved for system use.
 
 
 
-To initialize a generic table package, you allocate a buffer that is at least <b>sizeof(</b>RTL_GENERIC_TABLE<b>) </b>bytes in size to receive the initialized generic table structure from a call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552989">RtlInitializeGenericTable</a> routine. You can use the following routines to manipulate the table:
+To initialize a generic table package, you allocate a buffer that is at least <b>sizeof(</b>RTL_GENERIC_TABLE<b>) </b>bytes in size to receive the initialized generic table structure from a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-rtlinitializegenerictable">RtlInitializeGenericTable</a> routine. You can use the following routines to manipulate the table:
 
 <ul>
 <li>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552209">RtlDeleteElementGenericTable</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-rtldeleteelementgenerictable">RtlDeleteElementGenericTable</a>
 
 
 </li>
 <li>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552243">RtlEnumerateGenericTable</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-rtlenumerategenerictable">RtlEnumerateGenericTable</a>
 
 
 </li>
 <li>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552247">RtlEnumerateGenericTableWithoutSplaying</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-rtlenumerategenerictablewithoutsplaying">RtlEnumerateGenericTableWithoutSplaying</a>
 
 
 </li>
 <li>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552297">RtlGetElementGenericTable</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-rtlgetelementgenerictable">RtlGetElementGenericTable</a>
 
 
 </li>
 <li>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553024">RtlInsertElementGenericTable</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-rtlinsertelementgenerictable">RtlInsertElementGenericTable</a>
 
 
 </li>
 <li>
 
-<a href="https://msdn.microsoft.com/c7d346ab-6990-4636-bafd-2e448a937f3b">RtlInsertElementGenericTableFull</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-rtlinsertelementgenerictablefullavl">RtlInsertElementGenericTableFull</a>
 
 
 </li>
 <li>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553046">RtlIsGenericTableEmpty</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-rtlisgenerictableempty">RtlIsGenericTableEmpty</a>
 
 
 </li>
 <li>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553091">RtlLookupElementGenericTable</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-rtllookupelementgenerictable">RtlLookupElementGenericTable</a>
 
 
 </li>
 <li>
 
-<a href="https://msdn.microsoft.com/fddb2e23-ddb3-48bc-a94e-0ca9a8580b78">RtlLookupElementGenericTableFull</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-rtllookupelementgenerictablefullavl">RtlLookupElementGenericTableFull</a>
 
 
 </li>
 <li>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553134">RtlNumberGenericTableElements</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-rtlnumbergenerictableelements">RtlNumberGenericTableElements</a>
 
 
 </li>
@@ -177,47 +177,47 @@ To initialize a generic table package, you allocate a buffer that is at least <b
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552209">RtlDeleteElementGenericTable</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-rtldeleteelementgenerictable">RtlDeleteElementGenericTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552243">RtlEnumerateGenericTable</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-rtlenumerategenerictable">RtlEnumerateGenericTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552247">RtlEnumerateGenericTableWithoutSplaying</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-rtlenumerategenerictablewithoutsplaying">RtlEnumerateGenericTableWithoutSplaying</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552297">RtlGetElementGenericTable</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-rtlgetelementgenerictable">RtlGetElementGenericTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552989">RtlInitializeGenericTable</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-rtlinitializegenerictable">RtlInitializeGenericTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553024">RtlInsertElementGenericTable</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-rtlinsertelementgenerictable">RtlInsertElementGenericTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/c7d346ab-6990-4636-bafd-2e448a937f3b">RtlInsertElementGenericTableFull</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-rtlinsertelementgenerictablefullavl">RtlInsertElementGenericTableFull</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553046">RtlIsGenericTableEmpty</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-rtlisgenerictableempty">RtlIsGenericTableEmpty</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553091">RtlLookupElementGenericTable</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-rtllookupelementgenerictable">RtlLookupElementGenericTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/fddb2e23-ddb3-48bc-a94e-0ca9a8580b78">RtlLookupElementGenericTableFull</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-rtllookupelementgenerictablefullavl">RtlLookupElementGenericTableFull</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553134">RtlNumberGenericTableElements</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-rtlnumbergenerictableelements">RtlNumberGenericTableElements</a>
  
 
  

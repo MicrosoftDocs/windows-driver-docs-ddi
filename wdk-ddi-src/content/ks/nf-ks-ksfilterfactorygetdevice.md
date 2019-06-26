@@ -56,14 +56,14 @@ The<b> KsFilterFactoryGetDevice </b>function returns the AVStream device to whic
 
 ### -param FilterFactory [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff562530">KSFILTERFACTORY</a> structure for which to find the corresponding AVStream device.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksfilterfactory">KSFILTERFACTORY</a> structure for which to find the corresponding AVStream device.
 
 
 ## -returns
 
 
 
-Returns a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561681">KSDEVICE</a> structure representing the AVStream device to which <i>FilterFactory</i> belongs.
+Returns a pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksdevice">KSDEVICE</a> structure representing the AVStream device to which <i>FilterFactory</i> belongs.
 
 
 
@@ -72,9 +72,9 @@ Returns a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardw
 
 
 
-This call is an inline function call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff562615">KsGetDevice</a>.
+This call is an inline function call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksgetdevice">KsGetDevice</a>.
 
-For more information about the AVStream object hierarchy, see  <a href="https://msdn.microsoft.com/305039fe-0a00-4f3e-ae1a-61c50a2f2fb3">AVStream Overview</a>.
+For more information about the AVStream object hierarchy, see  <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/avstream-overview">AVStream Overview</a>.
 
 
 
@@ -84,15 +84,15 @@ For more information about the AVStream object hierarchy, see  <a href="https://
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561681">KSDEVICE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksdevice">KSDEVICE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562530">KSFILTERFACTORY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksfilterfactory">KSFILTERFACTORY</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562615">KsGetDevice</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksgetdevice">KsGetDevice</a>
  
 
  

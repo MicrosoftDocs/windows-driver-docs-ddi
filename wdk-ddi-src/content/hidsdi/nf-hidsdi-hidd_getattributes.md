@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <b>HidD_GetAttributes</b> routine returns the attributes of a specified <a href="https://msdn.microsoft.com/dcbee8e3-d03a-45c8-92e4-0897b9f55177">top-level collection</a>.
+The <b>HidD_GetAttributes</b> routine returns the attributes of a specified <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/top-level-collections">top-level collection</a>.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Specifies an open handle to a top-level collection.
 
 ### -param Attributes [out]
 
-Pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff538868">HIDD_ATTRIBUTES</a> structure that returns the attributes of the collection specified by <i>HidDeviceObject</i>.
+Pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hidsdi/ns-hidsdi-_hidd_attributes">HIDD_ATTRIBUTES</a> structure that returns the attributes of the collection specified by <i>HidDeviceObject</i>.
 
 
 ## -returns
@@ -77,9 +77,9 @@ Pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/window
 
 
 
-Only user-mode applications can call <b>HidD_GetAttributes</b>. Kernel-mode drivers can use <a href="https://msdn.microsoft.com/library/windows/hardware/ff541092">IOCTL_HID_GET_COLLECTION_INFORMATION</a>.
+Only user-mode applications can call <b>HidD_GetAttributes</b>. Kernel-mode drivers can use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hidclass/ni-hidclass-ioctl_hid_get_collection_information">IOCTL_HID_GET_COLLECTION_INFORMATION</a>.
 
-For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db-8cff-9fac30209952">HID Collections</a>.
+For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-collections">HID Collections</a>.
 
 
 
@@ -89,11 +89,11 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538868">HIDD_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hidsdi/ns-hidsdi-_hidd_attributes">HIDD_ATTRIBUTES</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541092">IOCTL_HID_GET_COLLECTION_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hidclass/ni-hidclass-ioctl_hid_get_collection_information">IOCTL_HID_GET_COLLECTION_INFORMATION</a>
  
 
  

@@ -68,11 +68,11 @@ Specifies the current write position as a byte offset.
 
 
 
-This structure is used to get and set the data value for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537297">KSPROPERTY_AUDIO_POSITION</a> property.
+This structure is used to get and set the data value for the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-audio-position">KSPROPERTY_AUDIO_POSITION</a> property.
 
-For a looped client buffer (with stream type <a href="https://msdn.microsoft.com/library/windows/hardware/ff563381">KSINTERFACE_STANDARD_LOOPED_STREAMING</a>), <b>PlayOffset</b> and <b>WriteOffset</b> are byte offsets into the client buffer. When either offset reaches the end of the buffer, it wraps around to the start of the buffer. Hence, neither offset ever exceeds the buffer size.
+For a looped client buffer (with stream type <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksinterface-standard-looped-streaming">KSINTERFACE_STANDARD_LOOPED_STREAMING</a>), <b>PlayOffset</b> and <b>WriteOffset</b> are byte offsets into the client buffer. When either offset reaches the end of the buffer, it wraps around to the start of the buffer. Hence, neither offset ever exceeds the buffer size.
 
-For a nonlooped client buffer (with stream type <a href="https://msdn.microsoft.com/library/windows/hardware/ff563384">KSINTERFACE_STANDARD_STREAMING</a>), <b>PlayOffset</b> and <b>WriteOffset</b> are not offsets into any one physical buffer that either your driver has allocated or a client has allocated. Instead, these offsets are stream-relative and can be thought of as offsets into an idealized buffer that contains the entire stream and is contiguous from beginning to end. Any internal offsets that point into the actual physical buffers that contain the data need to be maintained separately.
+For a nonlooped client buffer (with stream type <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksinterface-standard-streaming">KSINTERFACE_STANDARD_STREAMING</a>), <b>PlayOffset</b> and <b>WriteOffset</b> are not offsets into any one physical buffer that either your driver has allocated or a client has allocated. Instead, these offsets are stream-relative and can be thought of as offsets into an idealized buffer that contains the entire stream and is contiguous from beginning to end. Any internal offsets that point into the actual physical buffers that contain the data need to be maintained separately.
 
 During playback, the <b>PlayOffset</b> and <b>WriteOffset</b> values are interpreted as follows:
 
@@ -104,7 +104,7 @@ When an application submits another buffer to the device for capturing, the <b>W
 
 The space between <b>PlayOffset</b> and <b>WriteOffset</b> is considered off-limits to the client because it represents the portion of the client buffer that has already been sent to the driver and might still be in use by the driver.
 
-For more information, see <a href="https://msdn.microsoft.com/893fea84-9136-4107-96d2-8a4e2ab7bd2a">Audio Position Property</a>.
+For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/audio-position-property">Audio Position Property</a>.
 
 
 
@@ -114,15 +114,15 @@ For more information, see <a href="https://msdn.microsoft.com/893fea84-9136-4107
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563381">KSINTERFACE_STANDARD_LOOPED_STREAMING</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksinterface-standard-looped-streaming">KSINTERFACE_STANDARD_LOOPED_STREAMING</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563384">KSINTERFACE_STANDARD_STREAMING</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksinterface-standard-streaming">KSINTERFACE_STANDARD_STREAMING</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537297">KSPROPERTY_AUDIO_POSITION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-audio-position">KSPROPERTY_AUDIO_POSITION</a>
  
 
  

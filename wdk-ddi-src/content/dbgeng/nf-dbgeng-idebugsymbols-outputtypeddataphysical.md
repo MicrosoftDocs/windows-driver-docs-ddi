@@ -48,7 +48,7 @@ req.typenames:
 ## -description
 
 
-The <b>OutputTypedDataPhysical</b> method formats the contents of a variable in the target computer's physical memory, and then sends this to the <a href="https://msdn.microsoft.com/7a23ee09-0314-400a-8152-eef49a225427">output callbacks</a>.
+The <b>OutputTypedDataPhysical</b> method formats the contents of a variable in the target computer's physical memory, and then sends this to the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/using-input-and-output">output callbacks</a>.
 
 
 ## -parameters
@@ -58,7 +58,7 @@ The <b>OutputTypedDataPhysical</b> method formats the contents of a variable in 
 
 ### -param OutputControl [in]
 
-Specifies the output control used to determine which output callbacks can receive the output.  See <a href="https://msdn.microsoft.com/library/windows/hardware/ff541517">DEBUG_OUTCTL_XXX</a> for possible values.
+Specifies the output control used to determine which output callbacks can receive the output.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-outctl-xxx">DEBUG_OUTCTL_XXX</a> for possible values.
 
 
 ### -param Offset [in]
@@ -78,14 +78,14 @@ Specifies the type ID of the type of the variable.
 
 ### -param Flags [in]
 
-Specifies the bit-set containing the formatting options.  See <a href="https://msdn.microsoft.com/library/windows/hardware/ff541712">DEBUG_TYPEOPTS_XXX</a> for possible values.
+Specifies the bit-set containing the formatting options.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-typeopts-xxx">DEBUG_TYPEOPTS_XXX</a> for possible values.
 
 
 ## -returns
 
 
 
-This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 <table>
 <tr>
@@ -115,9 +115,9 @@ The method was successful.
 
 This method is only available in kernel mode debugging.
 
-The output produced by this method is the same as for the debugger command <b>DT</b>.  See <a href="https://msdn.microsoft.com/library/windows/hardware/ff542772">dt (Display Type)</a>.
+The output produced by this method is the same as for the debugger command <b>DT</b>.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/dt--display-type-">dt (Display Type)</a>.
 
-For more information about types, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558931">Types</a>.  For information about output, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff550971">Input and Output</a>.
+For more information about types, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/types">Types</a>.  For information about output, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/input-and-output">Input and Output</a>.
 
 
 

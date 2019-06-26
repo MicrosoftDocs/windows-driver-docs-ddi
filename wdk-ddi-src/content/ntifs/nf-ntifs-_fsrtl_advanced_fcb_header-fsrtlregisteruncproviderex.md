@@ -201,9 +201,9 @@ For network redirectors that conform to the Windows Vista redirector model, MUP 
 
 The device name specified in the <i>RedirDevName</i> parameter in the call to <b>FsRtlRegisterUncProviderEx</b> becomes a symbolic link to \device\Mup in the object manager namespace. Also, an open request of the device name, <i>RedirDevName</i>, will route itself to the actual network redirector device object pointed to by the <i>DeviceObject</i> parameter. 
 
-Network redirectors that call <b>FsRtlRegisterUncProviderEx</b> must not register themselves as a file system (network redirectors must not call <a href="https://msdn.microsoft.com/library/windows/hardware/ff548494">IoRegisterFileSystem</a>). Network mini-redirectors that use the Windows Vista RDBSS (dynamic or static linking) will not be registered as a file system.
+Network redirectors that call <b>FsRtlRegisterUncProviderEx</b> must not register themselves as a file system (network redirectors must not call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-ioregisterfilesystem">IoRegisterFileSystem</a>). Network mini-redirectors that use the Windows Vista RDBSS (dynamic or static linking) will not be registered as a file system.
 
-File objects on the remote file system stack owned by a network redirector that conforms to the Windows Vista redirector model resolve to MUP. So <a href="https://msdn.microsoft.com/library/windows/hardware/ff548365">IoGetDeviceAttachmentBaseRef</a> returns the device object for MUP, not the network redirector that owns the file object. However, the content of the file object is still owned by the network redirector. 
+File objects on the remote file system stack owned by a network redirector that conforms to the Windows Vista redirector model resolve to MUP. So <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-iogetdeviceattachmentbaseref">IoGetDeviceAttachmentBaseRef</a> returns the device object for MUP, not the network redirector that owns the file object. However, the content of the file object is still owned by the network redirector. 
 
 The ProviderOrder registry value determines the order in which MUP issues prefix resolution requests to individual network redirectors. This order can be changed dynamically without a reboot. This registry value is located under the following registry key: 
 
@@ -221,16 +221,16 @@ Only one network provider on a system can support mailslots. So the FSRTL_UNC_PR
 
 To deregister a UNC provider, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff545865">FsRtlDeregisterUncProvider</a> and pass the <i>MupHandle</i> parameter.
 
-If a driver registers as a local disk file system (by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff548397">IoCreateDevice</a> with the <i>DeviceType</i> parameter set to FILE_DEVICE_DISK_FILE_SYSTEM), the driver must not call <b>FsRtlRegisterUncProviderEx</b> to register as a UNC provider with MUP.
+If a driver registers as a local disk file system (by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iocreatedevice">IoCreateDevice</a> with the <i>DeviceType</i> parameter set to FILE_DEVICE_DISK_FILE_SYSTEM), the driver must not call <b>FsRtlRegisterUncProviderEx</b> to register as a UNC provider with MUP.
 
 For more information, see the following sections in the Design Guide:
 
 
-<a href="https://msdn.microsoft.com/07c4a498-10c7-41b2-aaeb-73cab946f392">Support for UNC Naming and MUP</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/support-for-unc-naming-and-mup">Support for UNC Naming and MUP</a>
 
 
 
-<a href="https://msdn.microsoft.com/8ca2f9bc-14f1-45d3-a397-f3e5459cf8ec">MUP Changes in Microsoft Windows Vista</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/mup-changes-in-microsoft-windows-vista">MUP Changes in Microsoft Windows Vista</a>
 
 
 
@@ -249,23 +249,23 @@ For more information, see the following sections in the Design Guide:
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547178">FsRtlRegisterUncProvider</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlregisteruncprovider">FsRtlRegisterUncProvider</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548320">IOCTL_REDIR_QUERY_PATH_EX</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ni-ntifs-ioctl_redir_query_path_ex">IOCTL_REDIR_QUERY_PATH_EX</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548397">IoCreateDevice</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iocreatedevice">IoCreateDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548365">IoGetDeviceAttachmentBaseRef</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-iogetdeviceattachmentbaseref">IoGetDeviceAttachmentBaseRef</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548494">IoRegisterFileSystem</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-ioregisterfilesystem">IoRegisterFileSystem</a>
  
 
  

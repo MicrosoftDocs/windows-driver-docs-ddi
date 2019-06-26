@@ -56,12 +56,12 @@ The <code>IPrintOemUni::ImageProcessing</code> method can be used with Unidrv-su
 
 ### -param pdevobj
 
-Caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547573">DEVOBJ</a> structure.
+Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/ns-printoem-_devobj">DEVOBJ</a> structure.
 
 
 ### -param pSrcBitmap
 
-Caller-supplied pointer to an input <a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">DIB</a>.
+Caller-supplied pointer to an input <a href="https://docs.microsoft.com/windows-hardware/drivers/">DIB</a>.
 
 
 ### -param pBitmapInfoHeader
@@ -73,7 +73,7 @@ Caller-supplied pointer to a BITMAPINFOHEADER structure that describes the bitma
 
 Caller-supplied pointer to a color table. This parameter is used only if the output format is eight bits per pixel. For more information, see the following Remarks section.
 
-When interpreting a bitmap, you must examine the color table. Unidrv can modify the colors in a bitmap, but it will also make corresponding adjustments in the color table, resulting in no net change. However, if you ignore color table changes, and examine only the bitmap, an image might not print properly. For an example, see the discussion of the <i>pPaletteEntry</i> parameter in <a href="https://msdn.microsoft.com/library/windows/hardware/ff567320">HT_Get8BPPMaskPalette</a>.
+When interpreting a bitmap, you must examine the color table. Unidrv can modify the colors in a bitmap, but it will also make corresponding adjustments in the color table, resulting in no net change. However, if you ignore color table changes, and examine only the bitmap, an image might not print properly. For an example, see the discussion of the <i>pPaletteEntry</i> parameter in <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-ht_get8bppmaskpalette">HT_Get8BPPMaskPalette</a>.
 
 
 ### -param dwCallbackID
@@ -83,7 +83,7 @@ Caller-supplied value assigned to the *<b>IPCallbackID</b> attribute of the curr
 
 ### -param pIPParams
 
-Caller-supplied pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551953">IPPARAMS</a> structure.
+Caller-supplied pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/ns-printoem-ipparams">IPPARAMS</a> structure.
 
 
 ### -param ppbResult [out]
@@ -152,9 +152,9 @@ The method is not implemented.
 
 
 
-The <code>IPrintOemUni::ImageProcessing</code> method is used to modify image bitmaps before they are sent to the print spooler. Its purpose is to provide customized support for color modes and halftoning methods not supported by Unidrv. A printer driver that sends a bitmap to the print spooler (as opposed to sending it back to Unidrv) must set the *DevBPP and *DevNumOfPlanes attributes to zero in the printer's <a href="https://msdn.microsoft.com/f67c673d-c6f0-49f0-850a-d8b00e99ddd4">GPD</a> file.
+The <code>IPrintOemUni::ImageProcessing</code> method is used to modify image bitmaps before they are sent to the print spooler. Its purpose is to provide customized support for color modes and halftoning methods not supported by Unidrv. A printer driver that sends a bitmap to the print spooler (as opposed to sending it back to Unidrv) must set the *DevBPP and *DevNumOfPlanes attributes to zero in the printer's <a href="https://docs.microsoft.com/windows-hardware/drivers/">GPD</a> file.
 
-If the method is implemented, and if the GPD file entry for the current color format contains an *<b>IPCallbackID</b> attribute, Unidrv calls the method each time a bitmap is available. The call is made after GDI renders the bitmap, which is then sent to the spooler. (For information about the *<b>IPCallbackID</b> attribute, see <a href="https://msdn.microsoft.com/e6f68a50-f044-406e-b92c-8449d126bceb">Option Attributes for the ColorMode Feature</a>.)
+If the method is implemented, and if the GPD file entry for the current color format contains an *<b>IPCallbackID</b> attribute, Unidrv calls the method each time a bitmap is available. The call is made after GDI renders the bitmap, which is then sent to the spooler. (For information about the *<b>IPCallbackID</b> attribute, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/option-attributes-for-the-colormode-feature">Option Attributes for the ColorMode Feature</a>.)
 
 If the current color mode, as specified by <i>dwCallbackID</i>, is one that Unidrv supports, then the <code>IPrintOemUni::ImageProcessing</code> method should perform halftoning operations on the received bitmap and return it to Unidrv for spooling. If the current color mode is one that Unidrv does not support, the method must perform halftoning operations and then spool the bitmap.
 
@@ -162,7 +162,7 @@ If the method is performing only halftoning operations, it must do the following
 
 <ul>
 <li>
-Perform halftoning operations on the data, as indicated by the <b>pHalftoneOption</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551953">IPPARAMS</a> structure.
+Perform halftoning operations on the data, as indicated by the <b>pHalftoneOption</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/ns-printoem-ipparams">IPPARAMS</a> structure.
 
 </li>
 <li>
@@ -170,7 +170,7 @@ Return the modified image data to Unidrv by placing it in a buffer and supplying
 
 </li>
 </ul>
-For more information about customizing halftoning operations in Unidrv, see <a href="https://msdn.microsoft.com/cc14ff92-743b-42ca-b70f-0df768762f01">Customized Halftoning</a>.
+For more information about customizing halftoning operations in Unidrv, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/customized-halftoning">Customized Halftoning</a>.
 
 To handle customized color formatting, the <code>IPrintOemUni::ImageProcessing</code> method must do the following:
 
@@ -180,25 +180,25 @@ Convert DIB data, described by the <i>pSrcBitmap</i> and <i>pBitmapInfoHeader</i
 
 </li>
 <li>
-Perform halftoning operations on the data, as indicated by the <b>pHalftoneOption</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551953">IPPARAMS</a> structure.
+Perform halftoning operations on the data, as indicated by the <b>pHalftoneOption</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/ns-printoem-ipparams">IPPARAMS</a> structure.
 
 </li>
 <li>
-Send the data to the print spooler by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553138">IPrintOemDriverUni::DrvWriteSpoolBuf</a> method.
+Send the data to the print spooler by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintoemdriveruni-drvwritespoolbuf">IPrintOemDriverUni::DrvWriteSpoolBuf</a> method.
 
 </li>
 <li>
-Modify the printer's cursor position by making appropriate calls to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553141">IPrintOemDriverUni::DrvXMoveTo</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff553144">IPrintOemDriverUni::DrvYMoveTo</a> methods.
+Modify the printer's cursor position by making appropriate calls to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintoemdriveruni-drvxmoveto">IPrintOemDriverUni::DrvXMoveTo</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintoemdriveruni-drvymoveto">IPrintOemDriverUni::DrvYMoveTo</a> methods.
 
 </li>
 </ul>
-For more information about customizing color formatting operations in Unidrv, see <a href="https://msdn.microsoft.com/309d33e8-6338-4c32-8e03-d6cbf3371e16">Customized Color Formats</a>.
+For more information about customizing color formatting operations in Unidrv, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/customized-color-formats">Customized Color Formats</a>.
 
 The <i>dwCallbackID</i> parameter indicates the type of color formatting, if any, that should be performed. Within the printer's GPD file, each *Option entry for the ColorMode feature describes a color format. If the format requires processing by the <code>IPrintOemUni::ImageProcessing</code> method, its *Option entry must contain an *<b>IPCallbackID</b> attribute. When Unidrv calls the <code>IPrintOemUni::ImageProcessing</code> method, it supplies the attribute value associated with the currently selected option for the ColorMode feature. This value is the <i>dwCallbackID</i> parameter's value.
 
-Whether the <code>IPrintOemUni::ImageProcessing</code> method is performing color formatting operations and spooling image data, or just performing halftoning operations and returning processed bitmaps to Unidrv, it should export an <a href="https://msdn.microsoft.com/library/windows/hardware/ff554264">IPrintOemUni::MemoryUsage</a> method if it allocates significant amounts of memory for destination bitmaps or other purposes. Otherwise, system performance might be degraded.
+Whether the <code>IPrintOemUni::ImageProcessing</code> method is performing color formatting operations and spooling image data, or just performing halftoning operations and returning processed bitmaps to Unidrv, it should export an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintoemuni-memoryusage">IPrintOemUni::MemoryUsage</a> method if it allocates significant amounts of memory for destination bitmaps or other purposes. Otherwise, system performance might be degraded.
 
-If the method is implemented, it is called for every raster region on the page. However, if a region is blank, the <b>bBlankBand</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551953">IPPARAMS</a> structure is set to <b>TRUE</b>, which indicates the block is blank and the data is invalid. Because a band can be broken up into alternating blocks of blank and nonblank regions to optimize performance, the block size does not always correspond to the band size.
+If the method is implemented, it is called for every raster region on the page. However, if a region is blank, the <b>bBlankBand</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/ns-printoem-ipparams">IPPARAMS</a> structure is set to <b>TRUE</b>, which indicates the block is blank and the data is invalid. Because a band can be broken up into alternating blocks of blank and nonblank regions to optimize performance, the block size does not always correspond to the band size.
 
 The source bitmap described by <i>pSrcBitmap</i> and <i>pBitmapInfoHeader</i> has the following characteristics:
 
@@ -208,7 +208,7 @@ DIB contents are top-down ordered and uncompressed.
 
 </li>
 <li>
-The data format is one that is listed in <a href="https://msdn.microsoft.com/4d0faba6-1994-474f-a5d3-e25cd2800cf7">Handling Color Formats</a>.
+The data format is one that is listed in <a href="https://docs.microsoft.com/windows-hardware/drivers/print/handling-color-formats">Handling Color Formats</a>.
 
 </li>
 <li>
@@ -216,7 +216,7 @@ If the format requires a color table, the table is pointed to by <i>pColorTable<
 
 </li>
 <li>
-Color data is in PRIMARY_ORDER_CBA format, as explained in the description of the <b>ulPrimaryOrder</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566484">GDIINFO</a> structure. In other words, if the color format is RGB or CMY, the least significant <i>n</i> bits must contain the blue or yellow value, the next <i>n</i> bits must contain the green or magenta value, and the next <i>n</i> bits must contain the red or cyan value. Unused bits are in the most significant position. If the format uses 4 bits per pixel, then <i>n</i> is 1. For 24 bits per pixel, <i>n</i> is 8, as shown in the following figure. For CYMK, the fourth group of <i>n</i> bits contains black.
+Color data is in PRIMARY_ORDER_CBA format, as explained in the description of the <b>ulPrimaryOrder</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_gdiinfo">GDIINFO</a> structure. In other words, if the color format is RGB or CMY, the least significant <i>n</i> bits must contain the blue or yellow value, the next <i>n</i> bits must contain the green or magenta value, and the next <i>n</i> bits must contain the red or cyan value. Unused bits are in the most significant position. If the format uses 4 bits per pixel, then <i>n</i> is 1. For 24 bits per pixel, <i>n</i> is 8, as shown in the following figure. For CYMK, the fourth group of <i>n</i> bits contains black.
 
 </li>
 </ul>
@@ -232,7 +232,7 @@ DIB contents must be top-down ordered and uncompressed.
 
 </li>
 <li>
-The data format must be one that is listed in <a href="https://msdn.microsoft.com/4d0faba6-1994-474f-a5d3-e25cd2800cf7">Handling Color Formats</a>, and it must be compatible with the *<b>DevBPP</b> and *<b>DevNumOfPlanes</b> attributes of the color format identified by <i>dwCallbackID</i>. (For information about these attributes, see <a href="https://msdn.microsoft.com/e6f68a50-f044-406e-b92c-8449d126bceb">Option Attributes for the ColorMode Feature</a>.)
+The data format must be one that is listed in <a href="https://docs.microsoft.com/windows-hardware/drivers/print/handling-color-formats">Handling Color Formats</a>, and it must be compatible with the *<b>DevBPP</b> and *<b>DevNumOfPlanes</b> attributes of the color format identified by <i>dwCallbackID</i>. (For information about these attributes, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/option-attributes-for-the-colormode-feature">Option Attributes for the ColorMode Feature</a>.)
 
 </li>
 <li>
@@ -248,7 +248,7 @@ The BITMAPINFOHEADER structure specified by <i>pBitmapInfoHeader</i> must descri
 
 </li>
 </ul>
-The <code>IPrintOemUni::ImageProcessing</code> method is optional. If a rendering plug-in implements this method, the plug-in's <a href="https://msdn.microsoft.com/library/windows/hardware/ff554253">IPrintOemUni::GetImplementedMethod</a> method must return S_OK when it receives "ImageProcessing" as input.
+The <code>IPrintOemUni::ImageProcessing</code> method is optional. If a rendering plug-in implements this method, the plug-in's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintoemuni-getimplementedmethod">IPrintOemUni::GetImplementedMethod</a> method must return S_OK when it receives "ImageProcessing" as input.
 
 
 
@@ -258,15 +258,15 @@ The <code>IPrintOemUni::ImageProcessing</code> method is optional. If a renderin
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567320">HT_Get8BPPMaskPalette</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-ht_get8bppmaskpalette">HT_Get8BPPMaskPalette</a>
 
 
 
-<a href="https://msdn.microsoft.com/097366a0-2ded-435c-9b63-2b736b716032">IPrintOemUni</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nn-prcomoem-iprintoemuni">IPrintOemUni</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554252">IPrintOemUni::FilterGraphics</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintoemuni-filtergraphics">IPrintOemUni::FilterGraphics</a>
  
 
  

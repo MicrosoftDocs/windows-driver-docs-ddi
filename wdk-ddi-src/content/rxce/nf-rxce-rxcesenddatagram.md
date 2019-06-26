@@ -145,15 +145,15 @@ Note that the synchronous <i>Option</i> is disregarded for sending datagrams bec
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554414">MDL</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_mdl">MDL</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553479">RxCeSend</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/rxce/nf-rxce-rxcesend">RxCeSend</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565085">TDI_CONNECTION_INFORMATION</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff565085(v=vs.85)">TDI_CONNECTION_INFORMATION</a>
  
 
  

@@ -59,12 +59,12 @@ The <b>WdfPdoInitAssignRawDevice</b> method indicates that the calling driver ca
 
 ### -param DeviceInit [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a> structure.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdfdevice_init">WDFDEVICE_INIT</a> structure.
 
 
 ### -param DeviceClassGuid [in]
 
-A pointer to a GUID that identifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552344">device setup class</a>.
+A pointer to a GUID that identifies a <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_devinfo_data">device setup class</a>.
 
 **Note**    You should always specify a custom class GUID. You should not specify an existing class GUID. If you specify an existing class GUID, other drivers that attempt to specify that existing class GUID might fail to install or might install with incorrect security settings.
 
@@ -84,11 +84,11 @@ If the operation succeeds, the method returns STATUS_SUCCESS. Otherwise it retur
 
 
 
-The driver must call <b>WdfPdoInitAssignRawDevice</b> before calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff545926">WdfDeviceCreate</a>. For more information about calling <b>WdfDeviceCreate</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/creating-a-framework-device-object">Creating a Framework Device Object</a>.
+The driver must call <b>WdfPdoInitAssignRawDevice</b> before calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nf-wdfdevice-wdfdevicecreate">WdfDeviceCreate</a>. For more information about calling <b>WdfDeviceCreate</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/creating-a-framework-device-object">Creating a Framework Device Object</a>.
 
-The registry can contain values that override the values that a driver specifies when it calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff546035">WdfDeviceInitAssignSDDLString</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff546090">WdfDeviceInitSetDeviceType</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff546074">WdfDeviceInitSetCharacteristics</a>, and <a href="https://msdn.microsoft.com/library/windows/hardware/ff546097">WdfDeviceInitSetExclusive</a>. The <b>WdfPdoInitAssignRawDevice</b> method's <i>DeviceClassGuid</i> parameter specifies a GUID that identifies the section of the registry that contains the override values. The <i>DeviceClassGuid</i> parameter only identifies a section of the registry and does not actually set the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552344">device setup class</a> for the device. The <a href="https://msdn.microsoft.com/53e30950-28a3-4ae3-a351-a917b02c84a5">INF Version section</a> in your device and driver's INF file sets the device setup class. Typically, the <i>DeviceClassGuid</i> parameter's GUID should match the GUID that the <b>INF Version section</b> specifies. 
+The registry can contain values that override the values that a driver specifies when it calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nf-wdfdevice-wdfdeviceinitassignsddlstring">WdfDeviceInitAssignSDDLString</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nf-wdfdevice-wdfdeviceinitsetdevicetype">WdfDeviceInitSetDeviceType</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nf-wdfdevice-wdfdeviceinitsetcharacteristics">WdfDeviceInitSetCharacteristics</a>, and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nf-wdfdevice-wdfdeviceinitsetexclusive">WdfDeviceInitSetExclusive</a>. The <b>WdfPdoInitAssignRawDevice</b> method's <i>DeviceClassGuid</i> parameter specifies a GUID that identifies the section of the registry that contains the override values. The <i>DeviceClassGuid</i> parameter only identifies a section of the registry and does not actually set the <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_devinfo_data">device setup class</a> for the device. The <a href="https://docs.microsoft.com/windows-hardware/drivers/install/inf-version-section">INF Version section</a> in your device and driver's INF file sets the device setup class. Typically, the <i>DeviceClassGuid</i> parameter's GUID should match the GUID that the <b>INF Version section</b> specifies. 
 
-For more information about using the registry, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563755">Setting Device Object Registry Properties After Installation</a>.
+For more information about using the registry, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/setting-device-object-registry-properties-after-installation">Setting Device Object Registry Properties After Installation</a>.
 
 
 #### Examples
@@ -121,19 +121,19 @@ status = WdfPdoInitAssignRawDevice(
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546035">WdfDeviceInitAssignSDDLString</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nf-wdfdevice-wdfdeviceinitassignsddlstring">WdfDeviceInitAssignSDDLString</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546074">WdfDeviceInitSetCharacteristics</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nf-wdfdevice-wdfdeviceinitsetcharacteristics">WdfDeviceInitSetCharacteristics</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546090">WdfDeviceInitSetDeviceType</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nf-wdfdevice-wdfdeviceinitsetdevicetype">WdfDeviceInitSetDeviceType</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546097">WdfDeviceInitSetExclusive</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nf-wdfdevice-wdfdeviceinitsetexclusive">WdfDeviceInitSetExclusive</a>
  
 
  

@@ -47,7 +47,7 @@ req.typenames:
 ## -description
 
 
-The <b>SetValues</b> method sets the value of several of the target's <a href="https://msdn.microsoft.com/library/windows/hardware/ff554369">registers</a>.
+The <b>SetValues</b> method sets the value of several of the target's <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/registers">registers</a>.
 
 
 ## -parameters
@@ -72,14 +72,14 @@ If <i>Indices</i> is <b>NULL</b>, the registers will be set consecutively starti
 
 ### -param Values [in]
 
-Specifies the array that contains values to which to set the registers.  The number of elements this array holds is <i>Count</i>.  See <a href="https://msdn.microsoft.com/library/windows/hardware/ff541719">DEBUG_VALUE</a> for a description of this parameter type.
+Specifies the array that contains values to which to set the registers.  The number of elements this array holds is <i>Count</i>.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/ns-dbgeng-_debug_value">DEBUG_VALUE</a> for a description of this parameter type.
 
 
 ## -returns
 
 
 
-This list does not contain all the errors that might occur.  For a list of possible errors, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff549771">HRESULT Values</a>.
+This list does not contain all the errors that might occur.  For a list of possible errors, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">HRESULT Values</a>.
 
 <table>
 <tr>
@@ -129,17 +129,17 @@ The value of the index of one or more of the registers is greater than the numbe
 
 
 
-The engine does its best to coerce the values in <i>Values</i> into the type of the registers; this coercion is the same as that performed by <a href="https://msdn.microsoft.com/library/windows/hardware/ff539158">CoerceValue</a>.  If the value is larger than what the register can hold, the least significant bits are dropped.  Floating-point and integer conversions will also be performed if necessary.  
+The engine does its best to coerce the values in <i>Values</i> into the type of the registers; this coercion is the same as that performed by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-coercevalue">CoerceValue</a>.  If the value is larger than what the register can hold, the least significant bits are dropped.  Floating-point and integer conversions will also be performed if necessary.  
 
 If the return value is not S_OK, some of the registers still might have been set.  
 
 When a subregister is altered, the register containing it is also altered.
 
-To set the value of only a single register, use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff597642">SetValue</a> method instead.
+To set the value of only a single register, use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portabledevicetypes/nf-portabledevicetypes-iportabledevicevalues-setvalue">SetValue</a> method instead.
 
-The method <a href="https://msdn.microsoft.com/library/windows/hardware/ff556884">SetValues2</a> performs the same task as this method but also allows the register source to be specified.
+The method <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugregisters2-setvalues2">SetValues2</a> performs the same task as this method but also allows the register source to be specified.
 
-For an overview of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550825">IDebugRegisters</a> interface and other register-related methods, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554369">Registers</a>.
+For an overview of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugregisters">IDebugRegisters</a> interface and other register-related methods, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/registers">Registers</a>.
 
 
 
@@ -149,19 +149,19 @@ For an overview of the <a href="https://msdn.microsoft.com/library/windows/hardw
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550825">IDebugRegisters</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugregisters">IDebugRegisters</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550835">IDebugRegisters2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugregisters2">IDebugRegisters2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597642">SetValue</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portabledevicetypes/nf-portabledevicetypes-iportabledevicevalues-setvalue">SetValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556884">SetValues2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugregisters2-setvalues2">SetValues2</a>
  
 
  

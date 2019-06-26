@@ -77,7 +77,7 @@ Pointer to the event object to be deleted.
 
 
 
-This function should not be used to delete a mapped user event. To delete a mapped user event, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff565434">EngUnmapEvent</a>. 
+This function should not be used to delete a mapped user event. To delete a mapped user event, use <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engunmapevent">EngUnmapEvent</a>. 
 
 
 
@@ -87,11 +87,11 @@ This function should not be used to delete a mapped user event. To delete a mapp
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565434">EngUnmapEvent</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-engunmapevent">EngUnmapEvent</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570287">VideoPortCreateEvent</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportcreateevent">VideoPortCreateEvent</a>
  
 
  

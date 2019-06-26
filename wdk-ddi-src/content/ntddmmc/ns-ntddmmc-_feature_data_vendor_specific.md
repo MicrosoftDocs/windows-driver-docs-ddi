@@ -56,7 +56,7 @@ The FEATURE_DATA_VENDOR_SPECIFIC structure holds information about a vendor-spec
 
 ### -field Header
 
-Contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff553848">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
+Contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddmmc/ns-ntddmmc-_feature_header">FEATURE_HEADER</a> structure with header information for this feature descriptor. 
 
 
 ### -field VendorSpecificData
@@ -78,11 +78,11 @@ You can use this structure to access the data of any feature structure as though
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553848">FEATURE_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddmmc/ns-ntddmmc-_feature_header">FEATURE_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553850">FEATURE_NUMBER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddmmc/ne-ntddmmc-_feature_number">FEATURE_NUMBER</a>
  
 
  

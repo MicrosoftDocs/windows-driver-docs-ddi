@@ -47,7 +47,7 @@ req.typenames: IDE_TASK_FILE, *PIDE_TASK_FILE
 
 
 The IDE_TASK_FILE structure contains the current and previous IDE task file.
-<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -struct-fields
 
@@ -56,12 +56,12 @@ The IDE_TASK_FILE structure contains the current and previous IDE task file.
 
 ### -field Current
 
-Contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff559011">IDEREGISTERS</a> that holds the current contents of the ATA task file registers.
+Contains a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/ns-irb-_ideregisters">IDEREGISTERS</a> that holds the current contents of the ATA task file registers.
 
 
 ### -field Previous
 
-Contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff559011">IDEREGISTERS</a> that holds the previous contents of the ATA task file registers in the case of a 48-bit LBA command.
+Contains a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/ns-irb-_ideregisters">IDEREGISTERS</a> that holds the previous contents of the ATA task file registers in the case of a 48-bit LBA command.
 
 
 ## -see-also
@@ -69,7 +69,7 @@ Contains a structure of type <a href="https://msdn.microsoft.com/library/windows
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559011">IDEREGISTERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/ns-irb-_ideregisters">IDEREGISTERS</a>
  
 
  

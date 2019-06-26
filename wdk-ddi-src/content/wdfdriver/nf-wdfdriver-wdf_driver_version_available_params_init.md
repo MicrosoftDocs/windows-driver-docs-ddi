@@ -48,7 +48,7 @@ req.typenames:
 
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
-The WDF_DRIVER_VERSION_AVAILABLE_PARAMS_INIT function initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551306">WDF_DRIVER_VERSION_AVAILABLE_PARAMS</a> structure.
+The WDF_DRIVER_VERSION_AVAILABLE_PARAMS_INIT function initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdriver/ns-wdfdriver-_wdf_driver_version_available_params">WDF_DRIVER_VERSION_AVAILABLE_PARAMS</a> structure.
 
 
 ## -parameters
@@ -58,7 +58,7 @@ The WDF_DRIVER_VERSION_AVAILABLE_PARAMS_INIT function initializes a <a href="htt
 
 ### -param Params [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551306">WDF_DRIVER_VERSION_AVAILABLE_PARAMS</a> structure.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdriver/ns-wdfdriver-_wdf_driver_version_available_params">WDF_DRIVER_VERSION_AVAILABLE_PARAMS</a> structure.
 
 
 ### -param MajorVersion [in]
@@ -84,12 +84,12 @@ None
 
 
 
-The WDF_DRIVER_VERSION_AVAILABLE_PARAMS_INIT function zeros the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551306">WDF_DRIVER_VERSION_AVAILABLE_PARAMS</a> structure that the <i>Params</i> parameter points to and sets the structure's <b>Size</b> member. Then, this function sets the structure's <b>MajorVersion</b> and <b>MinorVersion</b> members to the specified values.
+The WDF_DRIVER_VERSION_AVAILABLE_PARAMS_INIT function zeros the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdriver/ns-wdfdriver-_wdf_driver_version_available_params">WDF_DRIVER_VERSION_AVAILABLE_PARAMS</a> structure that the <i>Params</i> parameter points to and sets the structure's <b>Size</b> member. Then, this function sets the structure's <b>MajorVersion</b> and <b>MinorVersion</b> members to the specified values.
 
 
 #### Examples
 
-For a code example that uses WDF_DRIVER_VERSION_AVAILABLE_PARAMS_INIT, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff547190">WdfDriverIsVersionAvailable</a>.
+For a code example that uses WDF_DRIVER_VERSION_AVAILABLE_PARAMS_INIT, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdriver/nf-wdfdriver-wdfdriverisversionavailable">WdfDriverIsVersionAvailable</a>.
 
 <div class="code"></div>
 
@@ -100,7 +100,7 @@ For a code example that uses WDF_DRIVER_VERSION_AVAILABLE_PARAMS_INIT, see <a hr
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551306">WDF_DRIVER_VERSION_AVAILABLE_PARAMS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdriver/ns-wdfdriver-_wdf_driver_version_available_params">WDF_DRIVER_VERSION_AVAILABLE_PARAMS</a>
  
 
  

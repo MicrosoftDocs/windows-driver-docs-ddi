@@ -82,11 +82,11 @@ This routine does not release the ANSI string buffer passed to <b>RtlAnsiStringT
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561729">RtlAnsiStringToUnicodeString</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlansistringtounicodestring">RtlAnsiStringToUnicodeString</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563005">RtlUpcaseUnicodeString</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-rtlupcaseunicodestring">RtlUpcaseUnicodeString</a>
  
 
  

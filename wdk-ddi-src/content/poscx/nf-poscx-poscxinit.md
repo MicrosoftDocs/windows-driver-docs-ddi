@@ -64,7 +64,7 @@ A handle to a framework device object that represents the device.
 
 ### -param posCxAttrPtr [in]
 
-A pointer to a caller-allocated and initialized <a href="https://msdn.microsoft.com/library/windows/hardware/mt593140">POS_CX_ATTRIBUTES</a> structure. The structure should be initialized with <a href="https://msdn.microsoft.com/library/windows/hardware/mt593141">POS_CX_ATTRIBUTES_INIT</a>.
+A pointer to a caller-allocated and initialized <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/poscx/ns-poscx-_pos_cx_attributes">POS_CX_ATTRIBUTES</a> structure. The structure should be initialized with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/poscx/nf-poscx-pos_cx_attributes_init">POS_CX_ATTRIBUTES_INIT</a>.
 
 
 ## -returns
@@ -81,11 +81,11 @@ An appropriate NTSTATUS error code that indicates success or failure of the init
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt593140">POS_CX_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/poscx/ns-poscx-_pos_cx_attributes">POS_CX_ATTRIBUTES</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt593141">POS_CX_ATTRIBUTES_INIT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/poscx/nf-poscx-pos_cx_attributes_init">POS_CX_ATTRIBUTES_INIT</a>
  
 
  

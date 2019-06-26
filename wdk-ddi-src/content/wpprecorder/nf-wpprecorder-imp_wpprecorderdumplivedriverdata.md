@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/dn914612">WppRecorderDumpLiveDriverData</a> method gets the buffer associated with the specified Inflight Trace Recorder log.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wpprecorder/nf-wpprecorder-wpprecorderdumplivedriverdata">WppRecorderDumpLiveDriverData</a> method gets the buffer associated with the specified Inflight Trace Recorder log.
 
 
 ## -parameters
@@ -78,7 +78,7 @@ Pointer to the WPP controller GUID that identifies the driver data.
 
 
 
-Returns STATUS_SUCCESS if the operation succeeds. Otherwise, one of appropriate <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> values
+Returns STATUS_SUCCESS if the operation succeeds. Otherwise, one of appropriate <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> values
 
 
 

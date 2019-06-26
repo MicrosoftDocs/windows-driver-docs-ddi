@@ -68,7 +68,7 @@ A network port is connected to the network.
 
 
 
-The ISCSI_NIC_LINKSTATE enumeration is used with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563083">MSiSCSI_NICConfig WMI Class</a>.
+The ISCSI_NIC_LINKSTATE enumeration is used with the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msiscsi-nicconfig-wmi-class">MSiSCSI_NICConfig WMI Class</a>.
 
 
 
@@ -78,11 +78,11 @@ The ISCSI_NIC_LINKSTATE enumeration is used with the <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563079">MSiSCSI_NICConfig</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/iscsicfg/ns-iscsicfg-_msiscsi_nicconfig">MSiSCSI_NICConfig</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563083">MSiSCSI_NICConfig WMI Class</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msiscsi-nicconfig-wmi-class">MSiSCSI_NICConfig WMI Class</a>
  
 
  

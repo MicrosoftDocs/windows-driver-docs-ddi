@@ -48,9 +48,9 @@ req.typenames: FWPS_NET_BUFFER_LIST_EVENT_TYPE0
 
 The <b>FWPS_NET_BUFFER_LIST_EVENT_TYPE0</b> enumeration type specifies the possible status events that can
  cause the callout driver's 
- <a href="https://msdn.microsoft.com/ad603c9c-aa11-4c8b-9d19-be2938608f3d">
+ <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_net_buffer_list_notify_fn0">
  FWPS_NET_BUFFER_LIST_NOTIFY_FN0</a> function to be called.
-<div class="alert"><b>Note</b>  <b>FWPS_NET_BUFFER_LIST_EVENT_TYPE0</b> is a specific version of <b>FWPS_NET_BUFFER_LIST_EVENT_TYPE</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
+<div class="alert"><b>Note</b>  <b>FWPS_NET_BUFFER_LIST_EVENT_TYPE0</b> is a specific version of <b>FWPS_NET_BUFFER_LIST_EVENT_TYPE</b>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
 ## -enum-fields
 
@@ -59,7 +59,7 @@ The <b>FWPS_NET_BUFFER_LIST_EVENT_TYPE0</b> enumeration type specifies the possi
 
 ### -field FWPS_NET_BUFFER_LIST_ENTERED_NETIO
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure entered the TCP/IP stack. Packets enter the stack either from
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure entered the TCP/IP stack. Packets enter the stack either from
  the NDIS layer or as a result of a call to a WFP packet injection function.
 
 
@@ -71,7 +71,7 @@ The NET_BUFFER_LIST structure was cloned.
 ### -field FWPS_NET_BUFFER_LIST_CLONED_VIA_WFP_API
 
 The NET_BUFFER_LIST structure was cloned by a call to the 
- <a href="https://msdn.microsoft.com/library/windows/hardware/ff551134">FwpsAllocateCloneNetBufferList0</a> function.
+ <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsallocateclonenetbufferlist0">FwpsAllocateCloneNetBufferList0</a> function.
 
 
 ### -field FWPS_NET_BUFFER_LIST_DUPLICATED_BY_NETIO
@@ -112,7 +112,7 @@ Any
 </td>
 <td>
 Upon asynchronous context removal resulting from a call to the 
- <a href="https://msdn.microsoft.com/bd3aa1a2-3ff5-47e4-93f6-5cb2022ec630">
+ <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsnetbufferlistremovecontext0">
  FwpsNetBufferListRemoveContext0</a> function.
 
 </td>
@@ -206,22 +206,22 @@ The NET_BUFFER_LIST structure egress on the virtual switch is complete.
 
 
 
-<a href="https://msdn.microsoft.com/ad603c9c-aa11-4c8b-9d19-be2938608f3d">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_net_buffer_list_notify_fn0">
  FWPS_NET_BUFFER_LIST_NOTIFY_FN0</a>
 
 
 
-<a href="https://msdn.microsoft.com/72759748-fac6-45b9-9a81-ab71e6e7c3ef">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsallocateclonenetbufferlist0">
  FwpsAllocateCloneNetBufferList0</a>
 
 
 
-<a href="https://msdn.microsoft.com/bd3aa1a2-3ff5-47e4-93f6-5cb2022ec630">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsnetbufferlistremovecontext0">
  FwpsNetBufferListRemoveContext0</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
  
 
  

@@ -58,7 +58,7 @@ The _BRB_SCO_TRANSFER structure describes a buffer to read isochronous data from
 ### -field Hdr
 
 A 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536612">BRB_HEADER</a> structure that contains information
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a> structure that contains information
      about the current BRB.
 
 
@@ -70,8 +70,8 @@ The Bluetooth address of the remote device.
 ### -field ChannelHandle
 
 The SCO channel handle that was returned by Bluetooth driver stack in response to an earlier 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536626">BRB_SCO_OPEN_CHANNEL</a> or 
-     <a href="https://social.msdn.microsoft.com/Forums/0a9a4323-d046-4d27-9d22-4974dbab30a4/windows-bluetooth-sco-brbscoopenchannelresponse?forum=wdk">
+     <a href="https://docs.microsoft.com/previous-versions/ff536626(v=vs.85)">BRB_SCO_OPEN_CHANNEL</a> or 
+     <a href="https://social.msdn.microsoft.com/Forums/0a9a4323-d046-4d27-9d22-4974dbab30a4/home?forum=windows-bluetooth-sco-brbscoopenchannelresponse">
      BRB_SCO_OPEN_CHANNEL_RESPONSE</a> request.
 
 
@@ -145,8 +145,8 @@ A pointer to the MDL input buffer. This value should be <b>NULL</b> when the
 
 
 To read isochronous data from or write isochronous data to a SCO connection, profile drivers should 
-    <a href="https://msdn.microsoft.com/53a692e7-9c71-4dca-9331-32ac97b94179">build and send</a> a 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff536629">BRB_SCO_TRANSFER</a> request.
+    <a href="https://docs.microsoft.com/previous-versions/ff536657(v=vs.85)">build and send</a> a 
+    <a href="https://docs.microsoft.com/previous-versions/ff536629(v=vs.85)">BRB_SCO_TRANSFER</a> request.
 
 Each SCO connection is bidirectional, and can be read from and written to simultaneously.
 
@@ -170,19 +170,19 @@ If both
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536612">BRB_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536626">BRB_SCO_OPEN_CHANNEL</a>
+<a href="https://docs.microsoft.com/previous-versions/ff536626(v=vs.85)">BRB_SCO_OPEN_CHANNEL</a>
 
 
 
-<a href="https://social.msdn.microsoft.com/Forums/0a9a4323-d046-4d27-9d22-4974dbab30a4/windows-bluetooth-sco-brbscoopenchannelresponse?forum=wdk">BRB_SCO_OPEN_CHANNEL_RESPONSE</a>
+<a href="https://social.msdn.microsoft.com/Forums/0a9a4323-d046-4d27-9d22-4974dbab30a4/home?forum=windows-bluetooth-sco-brbscoopenchannelresponse">BRB_SCO_OPEN_CHANNEL_RESPONSE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536629">BRB_SCO_TRANSFER</a>
+<a href="https://docs.microsoft.com/previous-versions/ff536629(v=vs.85)">BRB_SCO_TRANSFER</a>
  
 
  

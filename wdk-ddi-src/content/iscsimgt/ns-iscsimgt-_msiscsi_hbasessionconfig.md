@@ -104,7 +104,7 @@ It is optional that you implement this class.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563022">MSiSCSI_HBASessionConfig WMI Class</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msiscsi-hbasessionconfig-wmi-class">MSiSCSI_HBASessionConfig WMI Class</a>
  
 
  

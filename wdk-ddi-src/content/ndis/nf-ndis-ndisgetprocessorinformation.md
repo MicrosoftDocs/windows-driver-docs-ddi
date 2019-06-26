@@ -60,7 +60,7 @@ The
 ### -param SystemProcessorInfo [in, out]
 
 A pointer to an 
-     <a href="https://msdn.microsoft.com/f59b9394-7742-423d-9a6e-3a429ccb0740">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_system_processor_info">
      NDIS_SYSTEM_PROCESSOR_INFO</a> structure that NDIS fills with the information about the CPU topology
      of the system and the RSS processor set.
 
@@ -116,7 +116,7 @@ NDIS drivers call the
 
 RSS-capable miniport drivers that support MSI-X call 
     <b>NdisGetProcessorInformation</b> in their 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff559452(d=robot)">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_pnp_irp">
     MiniportFilterResourceRequirements</a> function. Miniport drivers set the interrupt affinity of the
     allocated MSI-X messages to the RSS processors that are specified in the 
     <b>RssProcessors</b> member of the 
@@ -130,21 +130,21 @@ RSS-capable miniport drivers that support MSI-X call
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559452(d=robot)">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_pnp_irp">
    MiniportFilterResourceRequirements</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567871">NDIS_SYSTEM_PROCESSOR_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_system_processor_info">NDIS_SYSTEM_PROCESSOR_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/9af21f56-d93d-4130-888c-c7009dc2854d">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisgetprocessorinformationex">
    NdisGetProcessorInformationEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/0da022d5-7294-4780-bab8-119ff6385abf">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisgetrssprocessorinformation">
    NdisGetRssProcessorInformation</a>
  
 

@@ -50,7 +50,7 @@ req.typenames:
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugSystemObjects2</b> interface inherits from <a href="https://msdn.microsoft.com/library/windows/hardware/ff550875">IDebugSystemObjects</a>. <b>IDebugSystemObjects2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugSystemObjects2</b> interface inherits from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugsystemobjects">IDebugSystemObjects</a>. <b>IDebugSystemObjects2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -65,7 +65,7 @@ The <b>IDebugSystemObjects2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545857">GetCurrentProcessUpTime</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsystemobjects4-getcurrentprocessuptime">GetCurrentProcessUpTime</a>
 </td>
 <td align="left" width="63%">
 Returns the length of time the current process has been running.
@@ -74,7 +74,7 @@ Returns the length of time the current process has been running.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546865">GetImplicitProcessDataOffset</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsystemobjects4-getimplicitprocessdataoffset">GetImplicitProcessDataOffset</a>
 </td>
 <td align="left" width="63%">
 Returns the implicit process for the current target.
@@ -83,7 +83,7 @@ Returns the implicit process for the current target.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546871">GetImplicitThreadDataOffset</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsystemobjects4-getimplicitthreaddataoffset">GetImplicitThreadDataOffset</a>
 </td>
 <td align="left" width="63%">
 Returns the implicit thread for the current process.
@@ -93,7 +93,7 @@ Returns the implicit thread for the current process.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556713">SetImplicitProcessDataOffset</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsystemobjects4-setimplicitprocessdataoffset">SetImplicitProcessDataOffset</a>
 </td>
 <td align="left" width="63%">
 Sets the implicit process for the current target.
@@ -102,7 +102,7 @@ Sets the implicit process for the current target.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556716">SetImplicitThreadDataOffset</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsystemobjects4-setimplicitthreaddataoffset">SetImplicitThreadDataOffset</a>
 </td>
 <td align="left" width="63%">
 Sets the implicit thread for the current process.
@@ -117,15 +117,15 @@ Sets the implicit thread for the current process.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550875">IDebugSystemObjects</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugsystemobjects">IDebugSystemObjects</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550892">IDebugSystemObjects3</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugsystemobjects3">IDebugSystemObjects3</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550893">IDebugSystemObjects4</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugsystemobjects4">IDebugSystemObjects4</a>
  
 
  

@@ -76,7 +76,7 @@ The <b>KsGetDefaultClockTime</b> function returns the current clock time.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566827">KsSetDefaultClockTime</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-kssetdefaultclocktime">KsSetDefaultClockTime</a>
  
 
  

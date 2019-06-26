@@ -46,7 +46,7 @@ req.typenames: GNSS_FIXSESSIONTYPE
 ## -description
 
 
-This enumeration indicates the type of location fix needed by the GNSS adapter when it issues an <a href="https://msdn.microsoft.com/library/windows/hardware/dn917750">IOCTL_GNSS_START_FIXSESSION</a> control code. This enumeration is set within the <a href="https://msdn.microsoft.com/library/windows/hardware/dn925152">GNSS_FIXSESSION_PARAM</a> structure.
+This enumeration indicates the type of location fix needed by the GNSS adapter when it issues an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/gnssdriver/ni-gnssdriver-ioctl_gnss_start_fixsession">IOCTL_GNSS_START_FIXSESSION</a> control code. This enumeration is set within the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/gnssdriver/ns-gnssdriver-gnss_fixsession_param">GNSS_FIXSESSION_PARAM</a> structure.
 
 
 ## -enum-fields

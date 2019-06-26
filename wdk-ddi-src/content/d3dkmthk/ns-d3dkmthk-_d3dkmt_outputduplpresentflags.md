@@ -46,7 +46,7 @@ req.typenames: D3DKMT_OUTPUTDUPLPRESENTFLAGS
 ## -description
 
 
-Describes options for a <a href="https://msdn.microsoft.com/523FBFAD-5D78-4EE3-A3B7-8FD5BA39DC46">Desktop Duplication API</a> swapchain present operation.
+Describes options for a <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/desktop-dup-api">Desktop Duplication API</a> swapchain present operation.
 
 
 ## -struct-fields

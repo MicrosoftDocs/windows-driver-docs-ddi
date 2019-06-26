@@ -56,7 +56,7 @@ SET_PARTITION_INFORMATION is used with IOCTL_DISK_SET_PARTITION_INFO to change t
 
 ### -field PartitionType
 
-Indicates the partition type. IOCTL_DISK_SET_PARTITION_INFO uses this value to set the partition type. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff563751">PARTITION_INFORMATION</a> for a list of system-defined GPT partition types.
+Indicates the partition type. IOCTL_DISK_SET_PARTITION_INFO uses this value to set the partition type. See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdddisk/ns-ntdddisk-_partition_information">PARTITION_INFORMATION</a> for a list of system-defined GPT partition types.
 
 
 ## -remarks
@@ -73,23 +73,23 @@ The single byte unsigned value, <i>PartitionType</i>, contained in this structur
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560413">IOCTL_DISK_SET_PARTITION_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdddisk/ni-ntdddisk-ioctl_disk_set_partition_info">IOCTL_DISK_SET_PARTITION_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561452">IoReadPartitionTable</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-ioreadpartitiontable">IoReadPartitionTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566194">SET_PARTITION_INFORMATION_EX</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdddisk/ns-ntdddisk-_set_partition_information_ex">SET_PARTITION_INFORMATION_EX</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566196">SET_PARTITION_INFORMATION_GPT</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff566196(v=vs.85)">SET_PARTITION_INFORMATION_GPT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566198">SET_PARTITION_INFORMATION_MBR</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff566198(v=vs.85)">SET_PARTITION_INFORMATION_MBR</a>
  
 
  

@@ -86,7 +86,7 @@ The driver can refresh the session key without renegotiating the key.
 
 ### -field D3D11_1DDI_CONTENT_PROTECTION_CAPS_ENCRYPTED_READ_BACK
 
-The driver can read back encrypted data from a protected surface. For more information, see <a href="https://msdn.microsoft.com/ea6f1b8c-d65a-4d6d-a7ae-998374bf5bfb">EncryptionBlt(D3D11_1)</a>.
+The driver can read back encrypted data from a protected surface. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_encryptionblt">EncryptionBlt(D3D11_1)</a>.
 
 
 ### -field D3D11_1DDI_CONTENT_PROTECTION_CAPS_ENCRYPTED_READ_BACK_KEY
@@ -96,7 +96,7 @@ The driver requires a separate key to read encrypted data from a protected surfa
 
 ### -field D3D11_1DDI_CONTENT_PROTECTION_CAPS_SEQUENTIAL_CTR_IV
 
-If the encryption type is <b>D3D11_1DDI_CRYPTO_TYPE_AES128_CTR</b>, the application must use a sequential count in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406334">D3D11_1DDI_AES_CTR_IV</a> structure. For more information, see the Remarks for the <a href="https://msdn.microsoft.com/ea6f1b8c-d65a-4d6d-a7ae-998374bf5bfb">EncryptionBlt(D3D11_1)</a> function.
+If the encryption type is <b>D3D11_1DDI_CRYPTO_TYPE_AES128_CTR</b>, the application must use a sequential count in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_aes_ctr_iv">D3D11_1DDI_AES_CTR_IV</a> structure. For more information, see the Remarks for the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_encryptionblt">EncryptionBlt(D3D11_1)</a> function.
 
 
 ### -field D3D11_1DDI_CONTENT_PROTECTION_CAPS_ENCRYPT_SLICEDATA_ONLY
@@ -106,7 +106,7 @@ The driver supports encrypted slice data, but does not support any other encrypt
 
 ### -field D3D11_1DDI_CONTENT_PROTECTION_CAPS_DECRYPTION_BLT
 
-The driver supports calls to the <a href="https://msdn.microsoft.com/36aeb826-251e-404e-8ce3-6b2246ff07bc">DecryptionBlt(D3D11_1)</a> function.
+The driver supports calls to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_decryptionblt">DecryptionBlt(D3D11_1)</a> function.
 
 
 ### -field D3DWDDM2_0DDI_CONTENT_PROTECTION_CAPS_HARDWARE_PROTECT_UNCOMPRESSED
@@ -129,7 +129,7 @@ Supported starting with Windows 10.
 
 ### -field D3DWDDM2_0DDI_CONTENT_PROTECTION_CAPS_HARDWARE_PROTECTED_MEMORY_TRANSITION
 
-The hardware or driver can transition allocations between protected and unprotected states by calling <a href="https://msdn.microsoft.com/library/windows/hardware/dn906369">SetHardwareProtection</a>  without requiring the allocation to be re-created.
+The hardware or driver can transition allocations between protected and unprotected states by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3dwddm2_0ddi_sethardwareprotection">SetHardwareProtection</a>  without requiring the allocation to be re-created.
 
 Supported starting with Windows 10.
 
@@ -155,19 +155,19 @@ Supported starting with Windows 10.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406334">D3D11_1DDI_AES_CTR_IV</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_aes_ctr_iv">D3D11_1DDI_AES_CTR_IV</a>
 
 
 
-<a href="https://msdn.microsoft.com/36aeb826-251e-404e-8ce3-6b2246ff07bc">DecryptionBlt(D3D11_1)</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_decryptionblt">DecryptionBlt(D3D11_1)</a>
 
 
 
-<a href="https://msdn.microsoft.com/ea6f1b8c-d65a-4d6d-a7ae-998374bf5bfb">EncryptionBlt(D3D11_1)</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_encryptionblt">EncryptionBlt(D3D11_1)</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn906369">SetHardwareProtection</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3dwddm2_0ddi_sethardwareprotection">SetHardwareProtection</a>
  
 
  

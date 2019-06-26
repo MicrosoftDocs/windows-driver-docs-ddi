@@ -78,7 +78,7 @@ If the <i>Irp</i> parameter is <b>NULL</b>, and the caller is running in the con
 
 If the <i>Irp</i> parameter is not <b>NULL</b>, it must point to an IRP that was issued by the I/O manager on behalf of a user-mode process. <b>IoIs32bitProcess</b> cannot be used to check driver-allocated IRPs. Driver-allocated IRPs, as well as kernel-mode drivers, are assumed to be 64-bit-ready.
 
-For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff559923">Programming Issues for 64-Bit Drivers</a>.
+For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/programming-issues-for-64-bit-drivers">Programming Issues for 64-Bit Drivers</a>.
 
 
 

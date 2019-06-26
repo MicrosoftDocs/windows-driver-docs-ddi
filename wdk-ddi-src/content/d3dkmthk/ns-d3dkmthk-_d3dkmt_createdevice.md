@@ -66,50 +66,50 @@ The D3DKMT_CREATEDEVICE structure describes a kernel-mode device context.
 
 ### -field Flags
 
-[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff547828">D3DKMT_CREATEDEVICEFLAGS</a> structure that indicates, in bit-field flags, the type of device context to be created.
+[in] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_createdeviceflags">D3DKMT_CREATEDEVICEFLAGS</a> structure that indicates, in bit-field flags, the type of device context to be created.
 
 
 ### -field hDevice
 
-[out] A handle to the device context that the Microsoft DirectX graphics kernel subsystem (<i>Dxgkrnl.sys</i>) supplied and that is returned from the call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546836">D3DKMTCreateDevice</a> function.
+[out] A handle to the device context that the Microsoft DirectX graphics kernel subsystem (<i>Dxgkrnl.sys</i>) supplied and that is returned from the call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/nf-d3dkmthk-d3dkmtcreatedevice">D3DKMTCreateDevice</a> function.
 
 
 ### -field pCommandBuffer
 
-[out] A pointer to command buffer memory that the OpenGL ICD places commands into. The <a href="https://msdn.microsoft.com/library/windows/hardware/ff546836">D3DKMTCreateDevice</a> function returns this memory pointer.
+[out] A pointer to command buffer memory that the OpenGL ICD places commands into. The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/nf-d3dkmthk-d3dkmtcreatedevice">D3DKMTCreateDevice</a> function returns this memory pointer.
 
 
 ### -field CommandBufferSize
 
-[out] The size, in bytes, of the memory block that <b>pCommandBuffer</b> points to. The <a href="https://msdn.microsoft.com/library/windows/hardware/ff546836">D3DKMTCreateDevice</a> function returns this size value.
+[out] The size, in bytes, of the memory block that <b>pCommandBuffer</b> points to. The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/nf-d3dkmthk-d3dkmtcreatedevice">D3DKMTCreateDevice</a> function returns this size value.
 
 
 ### -field pAllocationList
 
-[out] An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff544375">D3DDDI_ALLOCATIONLIST</a> structures that the OpenGL ICD inserts referenced allocations in.
+[out] An array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dukmdt/ns-d3dukmdt-_d3dddi_allocationlist">D3DDDI_ALLOCATIONLIST</a> structures that the OpenGL ICD inserts referenced allocations in.
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff546836">D3DKMTCreateDevice</a> function returns this value. 
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/nf-d3dkmthk-d3dkmtcreatedevice">D3DKMTCreateDevice</a> function returns this value. 
 
 
 ### -field AllocationListSize
 
 [out] The number of elements in the array of allocations that is pointed to by <b>pAllocationList</b>. This quantity of allocations is available when submitting the command buffer that is pointed to by <b>pCommandBuffer</b> to the display miniport driver. 
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff546836">D3DKMTCreateDevice</a> function returns this value. 
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/nf-d3dkmthk-d3dkmtcreatedevice">D3DKMTCreateDevice</a> function returns this value. 
 
 
 ### -field pPatchLocationList
 
-[out] An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff544630">D3DDDI_PATCHLOCATIONLIST</a> structures that the OpenGL ICD inserts patching information in.
+[out] An array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dukmdt/ns-d3dukmdt-_d3dddi_patchlocationlist">D3DDDI_PATCHLOCATIONLIST</a> structures that the OpenGL ICD inserts patching information in.
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff546836">D3DKMTCreateDevice</a> function returns this value. 
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/nf-d3dkmthk-d3dkmtcreatedevice">D3DKMTCreateDevice</a> function returns this value. 
 
 
 ### -field PatchLocationListSize
 
 [out] The number of elements in the patch-location list that is pointed to by <b>pPatchLocationList</b>. This quantity of patch locations is available when submitting the command buffer that is pointed to by <b>pCommandBuffer</b> to the display miniport driver. 
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff546836">D3DKMTCreateDevice</a> function returns this value. 
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/nf-d3dkmthk-d3dkmtcreatedevice">D3DKMTCreateDevice</a> function returns this value. 
 
 
 ## -see-also
@@ -117,11 +117,11 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff546836">D3DKM
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546836">D3DKMTCreateDevice</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/nf-d3dkmthk-d3dkmtcreatedevice">D3DKMTCreateDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547828">D3DKMT_CREATEDEVICEFLAGS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_createdeviceflags">D3DKMT_CREATEDEVICEFLAGS</a>
  
 
  

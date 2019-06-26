@@ -66,7 +66,7 @@ The <b>IWDTFSimpleIOEx2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451151">Close</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtfinterfaces/nf-wdtfinterfaces-iwdtfsimpleioex2-close">Close</a>
 </td>
 <td align="left" width="63%">
 Closes the device.
@@ -75,7 +75,7 @@ Closes the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451153">Open</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtfinterfaces/nf-wdtfinterfaces-iwdtfsimpleioex2-open">Open</a>
 </td>
 <td align="left" width="63%">
 Opens the device.
@@ -84,7 +84,7 @@ Opens the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451155">PerformIO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtfinterfaces/nf-wdtfinterfaces-iwdtfsimpleioex2-performio">PerformIO</a>
 </td>
 <td align="left" width="63%">
 Performs a small amount of simple I/O to the device.
@@ -99,13 +99,13 @@ Performs a small amount of simple I/O to the device.
 
 
 The <b>IWDTFSimpleIOEx2</b> action interface acts on an instance of the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439367">IWDTFTarget2</a> interface that is retrieved by querying the 
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nn-wdtf-iwdtftarget2">IWDTFTarget2</a> interface that is retrieved by querying the 
 device depot. You can retrieve a target-specific implementation of an action interface by calling the 
-<a href="https://msdn.microsoft.com/dddd631e-7ccf-4554-9236-b567c5108fe2">IWDTFTarget2::GetInterface</a> method with the 
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nf-wdtf-iwdtftarget2-getinterface">IWDTFTarget2::GetInterface</a> method with the 
 desired WDTF <i>ProgID.</i>
 
 For an asynchronous interface for this same underlying functionality, 
-see <a href="https://msdn.microsoft.com/library/windows/hardware/hh451157">IWDTFSimpleIOStressAction2</a>. 
+see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtfinterfaces/nn-wdtfinterfaces-iwdtfsimpleiostressaction2">IWDTFSimpleIOStressAction2</a>. 
 
 The <b>IWDTFSimpleIOEx2</b> action interface is compatible with the following device 
 classes:
@@ -133,12 +133,12 @@ Storage volumes (class = Volume)
 </li>
 </ul>
 For more information about device classes, see 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552344">Device Setup Classes</a>.
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/ns-setupapi-_sp_devinfo_data">Device Setup Classes</a>.
 
 To learn more about the specifics of how the <b>IWDTFSimpleIOEx2</b> action 
 interface works, or to support additional device classes, try to implement a target-specific version 
 of it for your device class. For more information about how to implement such a version, see 
-<a href="https://msdn.microsoft.com/7e7660ec-1f17-4987-82c0-f62cca3a99b9">Windows Device Testing Framework 
+<a href="https://docs.microsoft.com/windows-hardware/drivers/wdtf/wdtf-overview">Windows Device Testing Framework 
 Design Guide</a>.
 
 <div class="alert"><b>Note</b>  The implementations of this interface are not thread-safe.</div>

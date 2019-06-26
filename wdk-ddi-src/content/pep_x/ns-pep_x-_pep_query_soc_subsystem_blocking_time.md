@@ -46,7 +46,7 @@ req.typenames: PEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME, *PPEP_QUERY_SOC_SUBSYSTEM_
 ## -description
 
 
-The <b>PEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME</b> structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186732">PEP_DPM_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME notification</a> to collect details about the blocking duration for a particular system on a chip (SoC) subsystem.
+The <b>PEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME</b> structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">PEP_DPM_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME notification</a> to collect details about the blocking duration for a particular system on a chip (SoC) subsystem.
 
 
 ## -struct-fields
@@ -71,7 +71,7 @@ The <b>PEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME</b> structure is used by the <a hre
 
 ### -field BlockingTime
 
-[out] The blocking time tallied for this subsystem in 100 nanosecond units since the previous <a href="https://msdn.microsoft.com/library/windows/hardware/mt186740">PEP_DPM_RESET_SOC_SUBSYSTEM_ACCOUNTING notification</a>.
+[out] The blocking time tallied for this subsystem in 100 nanosecond units since the previous <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">PEP_DPM_RESET_SOC_SUBSYSTEM_ACCOUNTING notification</a>.
 
 
 ### -field Flags
@@ -84,11 +84,11 @@ This member is reserved and should be set to zero.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt186732">PEP_DPM_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME notification</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">PEP_DPM_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME notification</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt186740">PEP_DPM_RESET_SOC_SUBSYSTEM_ACCOUNTING notification</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">PEP_DPM_RESET_SOC_SUBSYSTEM_ACCOUNTING notification</a>
  
 
  

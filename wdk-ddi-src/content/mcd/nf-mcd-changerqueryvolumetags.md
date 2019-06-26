@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-<b>ChangerQueryVolumeTags</b> handles the device-specific aspects of a device-control IRP with the IOCTL code of <a href="https://msdn.microsoft.com/library/windows/hardware/ff559417">IOCTL_CHANGER_QUERY_VOLUME_TAGS</a>. 
+<b>ChangerQueryVolumeTags</b> handles the device-specific aspects of a device-control IRP with the IOCTL code of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddchgr/ni-ntddchgr-ioctl_changer_query_volume_tags">IOCTL_CHANGER_QUERY_VOLUME_TAGS</a>. 
 
 
 ## -parameters
@@ -88,15 +88,15 @@ If the changer does not support retrieval of volume tag information, ChangerQuer
 
 This routine combines the functionality of two SCSI commands: SEND VOLUME TAGS and REQUEST VOLUME ELEMENT ADDRESS. This routine is required.
 
-<b>ChangerQueryVolumeTags</b> retrieves volume tag information for specified elements. It can also be used to define or clear volume tag information if the changer supports these operations. The CHANGER_VOLUME_IDENTIFICATION flag in the <b>Features0</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554979">GET_CHANGER_PARAMETERS</a> structure indicates whether the changer supports this functionality.
+<b>ChangerQueryVolumeTags</b> retrieves volume tag information for specified elements. It can also be used to define or clear volume tag information if the changer supports these operations. The CHANGER_VOLUME_IDENTIFICATION flag in the <b>Features0</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddchgr/ns-ntddchgr-_get_changer_parameters">GET_CHANGER_PARAMETERS</a> structure indicates whether the changer supports this functionality.
 
-The changer class driver checks the input and output buffer lengths in the I/O stack location before calling <b>ChangerQueryVolumeTags</b>. <i>Irp</i><b>->SystemBuffer</b> points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551479">CHANGER_SEND_VOLUME_TAG_INFORMATION</a> structure that indicates the elements, the operation to perform, and a template that specifies the volume ID to search for or to set. 
+The changer class driver checks the input and output buffer lengths in the I/O stack location before calling <b>ChangerQueryVolumeTags</b>. <i>Irp</i><b>->SystemBuffer</b> points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddchgr/ns-ntddchgr-_changer_send_volume_tag_information">CHANGER_SEND_VOLUME_TAG_INFORMATION</a> structure that indicates the elements, the operation to perform, and a template that specifies the volume ID to search for or to set. 
 
 <b>ChangerQueryVolumeTags</b> first checks the action code for unsupported operations, and returns STATUS_INVALID_DEVICE_REQUEST for those it does not support. Next, it builds an SRB with a CDB to indicate the device-specific address of the starting element and sends it to the system port driver, passing the volume ID template as a parameter. (For a SCSI changer, the miniclass driver uses the SCSI command SEND VOLUME TAG.)
 
 If the first SRB succeeds, <b>ChangerQueryVolumeTags</b> builds a second SRB with a CDB to transfer the results of the previous SRB. (For a SCSI changer, the miniclass driver uses the SCSI command REQUEST VOLUME ELEMENT ADDRESS.)
 
-<b>ChangerQueryVolumeTags</b> then fills in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563961">READ_ELEMENT_ADDRESS_INFO</a> structure at <i>Irp</i><b>->AssociatedIrp.SystemBuffer</b> that indicates the number of elements for which volume tag information was transferred, and the information for each element. 
+<b>ChangerQueryVolumeTags</b> then fills in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddchgr/ns-ntddchgr-_read_element_address_info">READ_ELEMENT_ADDRESS_INFO</a> structure at <i>Irp</i><b>->AssociatedIrp.SystemBuffer</b> that indicates the number of elements for which volume tag information was transferred, and the information for each element. 
 
 After filling in the system buffer, <b>ChangerQueryVolumeTags</b> sets the <b>Information</b> field in the I/O status block to the number of bytes written to the buffer before returning to the changer class driver.
 
@@ -108,27 +108,27 @@ After filling in the system buffer, <b>ChangerQueryVolumeTags</b> sets the <b>In
 
 
 
-<a href="https://msdn.microsoft.com/c9a47406-5dd2-4cda-b241-3a439406ac75">, GET_CHANGER_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddchgr/ns-ntddchgr-_get_changer_parameters">, GET_CHANGER_PARAMETERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551457">CHANGER_ELEMENT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddchgr/ns-ntddchgr-_changer_element">CHANGER_ELEMENT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551461">CHANGER_ELEMENT_STATUS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddchgr/ns-ntddchgr-_changer_element_status">CHANGER_ELEMENT_STATUS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551479">CHANGER_SEND_VOLUME_TAG_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddchgr/ns-ntddchgr-_changer_send_volume_tag_information">CHANGER_SEND_VOLUME_TAG_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551424">ChangerGetElementStatus</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/mcd/nf-mcd-changergetelementstatus">ChangerGetElementStatus</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563961">READ_ELEMENT_ADDRESS_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddchgr/ns-ntddchgr-_read_element_address_info">READ_ELEMENT_ADDRESS_INFO</a>
  
 
  

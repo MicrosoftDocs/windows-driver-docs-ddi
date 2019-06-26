@@ -66,7 +66,7 @@ Specifies the print job.
 
 ### -param pUIParams [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff562645">SHOWUIPARAMS</a> structure that contains values that determine the appearance and behavior of the message box.
+Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/ns-winsplp-showuiparams">SHOWUIPARAMS</a> structure that contains values that determine the appearance and behavior of the message box.
 
 
 ### -param pResponse [out]
@@ -99,11 +99,11 @@ If you plan to use this function in a driver intended to run under Windows 2000,
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562645">SHOWUIPARAMS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/ns-winsplp-showuiparams">SHOWUIPARAMS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562677">SplIsSessionZero</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-splissessionzero">SplIsSessionZero</a>
  
 
  

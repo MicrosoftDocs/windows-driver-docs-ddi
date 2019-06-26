@@ -49,7 +49,7 @@ req.typenames:
 
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
-The <b>WdfPdoInitAssignInstanceID</b> method updates the <a href="https://msdn.microsoft.com/093063a6-1855-4e36-9465-1eedaa3cd0f9">instance ID</a> for a child device.
+The <b>WdfPdoInitAssignInstanceID</b> method updates the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/instance-ids">instance ID</a> for a child device.
 
 
 ## -parameters
@@ -59,12 +59,12 @@ The <b>WdfPdoInitAssignInstanceID</b> method updates the <a href="https://msdn.m
 
 ### -param DeviceInit [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a> structure.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdfdevice_init">WDFDEVICE_INIT</a> structure.
 
 
 ### -param InstanceID [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains an <a href="https://msdn.microsoft.com/093063a6-1855-4e36-9465-1eedaa3cd0f9">instance ID</a> string. The driver can allocate the string's buffer from paged pool. 
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains an <a href="https://docs.microsoft.com/windows-hardware/drivers/install/instance-ids">instance ID</a> string. The driver can allocate the string's buffer from paged pool. 
 
 
 ## -returns
@@ -103,7 +103,7 @@ The driver could not allocate space to store the instance ID string.
 </table>
  
 
-The method might also return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
+The method might also return other <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS values</a>.
 
 
 
@@ -114,7 +114,7 @@ The method might also return other <a href="https://msdn.microsoft.com/library/w
 
 For more information about instance IDs, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-identification-strings">Device Identification Strings</a>.
 
-The driver must call <b>WdfPdoInitAssignInstanceID</b> before calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff545926">WdfDeviceCreate</a>. For more information about calling <b>WdfDeviceCreate</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/creating-a-framework-device-object">Creating a Framework Device Object</a>.
+The driver must call <b>WdfPdoInitAssignInstanceID</b> before calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nf-wdfdevice-wdfdevicecreate">WdfDeviceCreate</a>. For more information about calling <b>WdfDeviceCreate</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/creating-a-framework-device-object">Creating a Framework Device Object</a>.
 
 
 #### Examples
@@ -149,19 +149,19 @@ status = WdfPdoInitAssignInstanceID(
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561941">RtlIntegerToUnicodeString</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlintegertounicodestring">RtlIntegerToUnicodeString</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548776">WdfPdoInitAddCompatibleID</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfpdo/nf-wdfpdo-wdfpdoinitaddcompatibleid">WdfPdoInitAddCompatibleID</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548784">WdfPdoInitAddHardwareID</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfpdo/nf-wdfpdo-wdfpdoinitaddhardwareid">WdfPdoInitAddHardwareID</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548797">WdfPdoInitAssignDeviceID</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfpdo/nf-wdfpdo-wdfpdoinitassigndeviceid">WdfPdoInitAssignDeviceID</a>
  
 
  

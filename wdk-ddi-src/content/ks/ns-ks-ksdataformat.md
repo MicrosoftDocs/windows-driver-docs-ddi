@@ -61,7 +61,7 @@ Specifies the size, in bytes, of the KSDATAFORMAT structure. This must be at lea
 
 ### -field Flags
 
-Set Flags to KSDATAFORMAT_ATTRIBUTES (0x2) to indicate that the KSDATAFORMAT is followed in memory by a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563441">KSMULTIPLE_ITEM</a> of <a href="https://msdn.microsoft.com/library/windows/hardware/ff560987">KSATTRIBUTE</a> structures.
+Set Flags to KSDATAFORMAT_ATTRIBUTES (0x2) to indicate that the KSDATAFORMAT is followed in memory by a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksmultiple_item">KSMULTIPLE_ITEM</a> of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksattribute">KSATTRIBUTE</a> structures.
 
 
 ### -field SampleSize
@@ -118,7 +118,7 @@ Indicates that a file handle immediately follows KSDATAFORMAT in memory.
 
 At the minimum, a data format is specified by the <b>MajorFormat</b>, the <b>SubFormat</b>, and the <b>Specifier</b> members. A family of similar data formats can share the same values for <b>MajorFormat</b>, <b>SubFormat</b>, and <b>Specifier</b>. In that case, the specific data format is distinguished by additional data that follows the <b>Specifier</b> member in memory.
 
-For a list of <b>MajorFormat</b>, <b>SubFormat</b>, and <b>Specifier</b> combinations, see <a href="https://msdn.microsoft.com/dc2af282-4976-42d8-b07b-13b2a6dfb7d5">Stream Categories</a> and its subtopics.
+For a list of <b>MajorFormat</b>, <b>SubFormat</b>, and <b>Specifier</b> combinations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/stream-categories">Stream Categories</a> and its subtopics.
 
 
 
@@ -128,7 +128,7 @@ For a list of <b>MajorFormat</b>, <b>SubFormat</b>, and <b>Specifier</b> combina
 
 
 
-<a href="https://msdn.microsoft.com/dc2af282-4976-42d8-b07b-13b2a6dfb7d5">Stream Categories</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/stream-categories">Stream Categories</a>
  
 
  

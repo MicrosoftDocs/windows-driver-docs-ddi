@@ -125,7 +125,7 @@ Response 3 of 32 bit. This member represents a multi-byte value in little-endian
 
 The <b>n</b> member can be either <b>2</b> or <b>3</b>, according to RFC 4186. If it is set to <b>2</b>, use the <b>Sres1</b>/<b>Kc1</b> and <b>Sres2</b>/<b>Kc2</b> members. If it is set to <b>3</b>,use <b>Sres1</b>/<b>Kc1</b>, <b>Sres2</b>/<b>Kc2</b>, and <b>Sres3</b>/<b>Kc3</b> members.
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/hh464129">WWAN_AUTH_RESPONSE</a> structure uses this structure.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_auth_response">WWAN_AUTH_RESPONSE</a> structure uses this structure.
 
 
 
@@ -135,7 +135,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/hh464129">WWAN_
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh464129">WWAN_AUTH_RESPONSE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_auth_response">WWAN_AUTH_RESPONSE</a>
  
 
  

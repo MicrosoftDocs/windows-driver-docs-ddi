@@ -102,11 +102,11 @@ For example, if one engine supports the preemption of primitive level graphics r
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439329">D3DKMDT_GRAPHICS_PREEMPTION_GRANULARITY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmdt/ne-d3dkmdt-_d3dkmdt_graphics_preemption_granularity">D3DKMDT_GRAPHICS_PREEMPTION_GRANULARITY</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439334">D3DKMDT_PREEMPTION_CAPS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmdt/ns-d3dkmdt-_d3dkmdt_preemption_caps">D3DKMDT_PREEMPTION_CAPS</a>
  
 
  

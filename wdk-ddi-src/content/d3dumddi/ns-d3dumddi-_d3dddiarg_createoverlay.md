@@ -61,7 +61,7 @@ The D3DDDIARG_CREATEOVERLAY structure describes an overlay to create.
 
 ### -field OverlayInfo
 
-[in] A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544621">D3DDDI_OVERLAYINFO</a> structure that describes information about the overlay. 
+[in] A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddi_overlayinfo">D3DDDI_OVERLAYINFO</a> structure that describes information about the overlay. 
 
 
 ### -field hOverlay
@@ -74,11 +74,11 @@ The D3DDDIARG_CREATEOVERLAY structure describes an overlay to create.
 
 
 
-<a href="https://msdn.microsoft.com/761377ff-95a6-426b-8372-3f347870f9c4">CreateOverlay</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_createoverlay">CreateOverlay</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544621">D3DDDI_OVERLAYINFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddi_overlayinfo">D3DDDI_OVERLAYINFO</a>
  
 
  

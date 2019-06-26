@@ -154,7 +154,7 @@ Indicates that the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt805898">UCMTCPCI_PORT_CONTROLLER_ALERT_DATA</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucmtcpciportcontroller/ns-ucmtcpciportcontroller-_ucmtcpci_port_controller_alert_data">UCMTCPCI_PORT_CONTROLLER_ALERT_DATA</a>
  
 
  

@@ -74,7 +74,7 @@ Defines the group network virtualization information for a network buffer list (
 A member in the union that is contained in <b>NDIS_NET_BUFFER_LIST_VIRTUAL_SUBNET_INFO</b>. 
       <b>Value</b> contains a pointer value that is type-compatible with the 
       <b>NetBufferListInfo</b> member in the 
-      <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure. (See the <b>VirtualSubnetInfo</b> constant in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566569">NDIS_NET_BUFFER_LIST_INFO</a> enumeration.)
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure. (See the <b>VirtualSubnetInfo</b> constant in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ne-ndis-_ndis_net_buffer_list_info">NDIS_NET_BUFFER_LIST_INFO</a> enumeration.)
 
 
 #### - ( unnamed struct )
@@ -107,7 +107,7 @@ This member is reserved and should be set to zero.
 
 
 
-This structure is used in the <b>NetBufferListInfo</b> member in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure.
+This structure is used in the <b>NetBufferListInfo</b> member in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
 
 In NDIS 6.40 (Windows Server 2012 R2) and later, a <b>VirtualSubnetId</b> can be configured on a VM network adapter port as an external virtual subnet to support a third-party network virtualization solution. A Hyper-V extensible Switch forwarding extension may then modify the packet headers, as required, during forwarding. Packets that are being modified must be cloned, and their <b>ParentNetBufferList</b> pointers must be set to the original NBL.
 
@@ -119,31 +119,31 @@ In NDIS 6.40 (Windows Server 2012 R2) and later, a <b>VirtualSubnetId</b> can 
 
 
 
-<a href="https://msdn.microsoft.com/6BAE348D-B5BA-4B74-8D9B-79B146427D8C">Cloning Packet Traffic</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/cloning-or-duplicating-packet-traffic">Cloning Packet Traffic</a>
 
 
 
-<a href="https://msdn.microsoft.com/7ABBB3F3-66F5-4651-8A5A-94940F3FD82D">Forwarding Extensions</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/forwarding-extensions">Forwarding Extensions</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn383677">NDIS_ISOLATION_MODE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ne-ntddndis-_ndis_isolation_mode">NDIS_ISOLATION_MODE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566569">NDIS_NET_BUFFER_LIST_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ne-ndis-_ndis_net_buffer_list_info">NDIS_NET_BUFFER_LIST_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598210">NDIS_SWITCH_FORWARDING_DESTINATION_ARRAY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_switch_forwarding_destination_array">NDIS_SWITCH_FORWARDING_DESTINATION_ARRAY</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/78181C72-FBFD-4860-A664-C297997D780F">Overview of the Hyper-V Extensible Switch</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/overview-of-the-hyper-v-extensible-switch">Overview of the Hyper-V Extensible Switch</a>
  
 
  

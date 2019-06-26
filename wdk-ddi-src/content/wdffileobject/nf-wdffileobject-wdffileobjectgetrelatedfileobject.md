@@ -74,9 +74,9 @@ A handle to a framework file object.
 
 
 
-Use of related file objects is technology-specific. For example, <a href="https://msdn.microsoft.com/dcd28218-b3bf-4e5d-b1a7-6910103afb96">kernel streaming</a> uses related file objects to represent the parent filters of child pins.
+Use of related file objects is technology-specific. For example, <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/kernel-streaming">kernel streaming</a> uses related file objects to represent the parent filters of child pins.
 
-For more information about related file objects, see the <a href="https://msdn.microsoft.com/0ac5c19a-b3ec-4f1e-a018-2c11cc18e58d">GetRelatedFileObject</a> member of the kernel-mode <a href="https://msdn.microsoft.com/library/windows/hardware/ff545834">FILE_OBJECT</a> structure.
+For more information about related file objects, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdffile2-getrelatedfileobject">GetRelatedFileObject</a> member of the kernel-mode <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_file_object">FILE_OBJECT</a> structure.
 
 
 
@@ -86,7 +86,7 @@ For more information about related file objects, see the <a href="https://msdn.m
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547310">WdfFileObjectGetFileName</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdffileobject/nf-wdffileobject-wdffileobjectgetfilename">WdfFileObjectGetFileName</a>
  
 
  

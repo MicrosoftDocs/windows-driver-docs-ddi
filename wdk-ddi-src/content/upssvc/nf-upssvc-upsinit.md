@@ -146,7 +146,7 @@ Determining the initial state of the UPS unit
 
 </li>
 <li>
-Updating <a href="https://msdn.microsoft.com/d0d4ef8f-9df1-48a3-b0fc-cea4eb3cdf40">UPS registry entries</a>
+Updating <a href="https://docs.microsoft.com/windows-hardware/drivers/battery/ups-registry-entries">UPS registry entries</a>
 
 
 </li>
@@ -155,7 +155,7 @@ Beginning the monitoring of the UPS unit
 
 </li>
 </ul>
-If the <b>UPSInit</b> function returns a value other than UPS_INITOK, the UPS service immediately calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536314">UPSStop</a> function.
+If the <b>UPSInit</b> function returns a value other than UPS_INITOK, the UPS service immediately calls the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/upssvc/nf-upssvc-upsstop">UPSStop</a> function.
 
 
 
@@ -165,7 +165,7 @@ If the <b>UPSInit</b> function returns a value other than UPS_INITOK, the UPS se
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536314">UPSStop</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/upssvc/nf-upssvc-upsstop">UPSStop</a>
  
 
  

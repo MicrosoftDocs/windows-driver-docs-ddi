@@ -69,7 +69,7 @@ Specifies the new rate. This value is multiplied by 10000 (decimal).
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567288">KS_AM_RATE_SimpleRateChange</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ks-am-rate-simpleratechange">KS_AM_RATE_SimpleRateChange</a>
  
 
  

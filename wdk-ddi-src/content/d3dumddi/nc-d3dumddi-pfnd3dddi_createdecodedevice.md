@@ -63,7 +63,7 @@ A handle to the display device (graphics context).
 
 *pData* [in, out]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542927">D3DDDIARG_CREATEDECODEDEVICE</a> structure. On input, this structure contains information that the driver can use. On output, the driver specifies information in the structure that the Microsoft Direct3D runtime can use.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_createdecodedevice">D3DDDIARG_CREATEDECODEDEVICE</a> structure. On input, this structure contains information that the driver can use. On output, the driver specifies information in the structure that the Microsoft Direct3D runtime can use.
 
 
 ## -returns
@@ -75,15 +75,15 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 | **Return code** | **Description** | 
 |:--|:--|
 | **S_OK** | The DirectX VA decode device is successfully created. | 
-| **E_OUTOFMEMORY** | [CreateDecodeDevice](https://msdn.microsoft.com/4d9a062a-2fdf-4e55-a335-c03c5d5665ff)  could not allocate the required memory for it to complete. | 
+| **E_OUTOFMEMORY** | [CreateDecodeDevice](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_createdecodedevice)  could not allocate the required memory for it to complete. | 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542927">D3DDDIARG_CREATEDECODEDEVICE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_createdecodedevice">D3DDDIARG_CREATEDECODEDEVICE</a>
 
 
 
-<a href="https://msdn.microsoft.com/3685e58b-8d67-4b01-a8a0-8a794d653637">DestroyDecodeDevice</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_destroydecodedevice">DestroyDecodeDevice</a>
  
 
  

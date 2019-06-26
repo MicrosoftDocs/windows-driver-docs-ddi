@@ -51,7 +51,7 @@ This section describes the methods that are defined for the <code>IPrintCoreHelp
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintCoreHelperUni</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IPrintCoreHelperUni</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintCoreHelperUni</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintCoreHelperUni</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -66,7 +66,7 @@ The <b>IPrintCoreHelperUni</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/987c3721-d8a8-4aac-8f42-6eac9b5ccdc5">CreateDefaultGDLSnapshot</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintcorehelperuni-createdefaultgdlsnapshot">CreateDefaultGDLSnapshot</a>
 </td>
 <td align="left" width="63%">
 The <code>IPrintCoreHelperUni::CreateDefaultGDLSnapshot</code> method gets a GDL snapshot based on the driver default configuration.
@@ -75,7 +75,7 @@ The <code>IPrintCoreHelperUni::CreateDefaultGDLSnapshot</code> method gets a GDL
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3dd9c7f9-27d4-45d2-8692-4270818c1823">CreateGDLSnapshot</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintcorehelperuni-creategdlsnapshot">CreateGDLSnapshot</a>
 </td>
 <td align="left" width="63%">
 The <code>IPrintCoreHelperUni::CreateGDLSnapshot</code> method creates a GDL snapshot of the driver configuration file based on the current configuration. 
@@ -84,7 +84,7 @@ The <code>IPrintCoreHelperUni::CreateGDLSnapshot</code> method creates a GDL sna
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/801ad433-4d52-4947-93f5-a11521a4df18">CreateInstanceOfMSXMLObject</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintcorehelperuni-createinstanceofmsxmlobject">CreateInstanceOfMSXMLObject</a>
 </td>
 <td align="left" width="63%">
 The <code>IPrintCoreHelperUni::CreateInstanceOfMSXMLObject</code> method creates an instance of an MSXML object. 
@@ -93,7 +93,7 @@ The <code>IPrintCoreHelperUni::CreateInstanceOfMSXMLObject</code> method creates
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/362d858a-5087-4cd2-8778-e6564297bc8f">EnumConstrainedOptions</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintcorehelperuni-enumconstrainedoptions">EnumConstrainedOptions</a>
 </td>
 <td align="left" width="63%">
 The <code>IPrintCoreHelperUni::EnumConstrainedOptions</code> method provides a list of all of the options that are constrained in a particular feature, based on current settings.
@@ -102,7 +102,7 @@ The <code>IPrintCoreHelperUni::EnumConstrainedOptions</code> method provides a l
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ed21e52b-13a6-4a89-8bbc-9cbf72e3d9fd">EnumFeatures</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintcorehelperuni-enumfeatures">EnumFeatures</a>
 </td>
 <td align="left" width="63%">
 The <code>IPrintCoreHelperUni::EnumFeatures</code> method gets a list of all available features, including synthesized and core driver-implement features.
@@ -111,7 +111,7 @@ The <code>IPrintCoreHelperUni::EnumFeatures</code> method gets a list of all ava
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/07ed6417-1cdc-4a56-88c3-c2171c54e77c">EnumOptions</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintcorehelperuni-enumoptions">EnumOptions</a>
 </td>
 <td align="left" width="63%">
 The <code>IPrintCoreHelperUni::EnumOptions</code> method gets a list of available options for the given feature. 
@@ -120,7 +120,7 @@ The <code>IPrintCoreHelperUni::EnumOptions</code> method gets a list of availabl
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f11b3b85-d01b-4133-9279-bff0001e04f9">GetFontSubstitution</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintcorehelperuni-getfontsubstitution">GetFontSubstitution</a>
 </td>
 <td align="left" width="63%">
 The <code>IPrintCoreHelperUni::GetFontSubstitution</code> method indicates which device font, if any, is used as a substitution font for a specified TrueType font.
@@ -129,7 +129,7 @@ The <code>IPrintCoreHelperUni::GetFontSubstitution</code> method indicates which
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451273">GetOption</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nf-printerextension-iprintschemafeature-getoption">GetOption</a>
 </td>
 <td align="left" width="63%">
 The <code>IPrintCoreHelperUni::GetOption</code> method gets a specified option for a given feature.
@@ -138,7 +138,7 @@ The <code>IPrintCoreHelperUni::GetOption</code> method gets a specified option f
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/73afb4e9-23c7-473c-937f-045bf5e332f7">SetFontSubstitution</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintcorehelperuni-setfontsubstitution">SetFontSubstitution</a>
 </td>
 <td align="left" width="63%">
 The <code>IPrintCoreHelperUni::SetFontSubstitution</code> method specifies the device font to print in place of a given TrueType font. 
@@ -147,7 +147,7 @@ The <code>IPrintCoreHelperUni::SetFontSubstitution</code> method specifies the d
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f9dd7b32-7a87-427e-9efe-861301249add">SetOptions</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintcorehelperuni-setoptions">SetOptions</a>
 </td>
 <td align="left" width="63%">
 The <code>IPrintCoreHelperUni::SetOptions</code> method sets multiple feature-option pairs at the same time.
@@ -156,7 +156,7 @@ The <code>IPrintCoreHelperUni::SetOptions</code> method sets multiple feature-op
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/99cd35f3-ebae-4ef2-b6fa-96853b3639ee">WhyConstrained</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintcorehelperuni-whyconstrained">WhyConstrained</a>
 </td>
 <td align="left" width="63%">
 The <code>IPrintCoreHelperUni::WhyConstrained</code> method provides a list of options that constrain the specified feature-option pair in the current configuration. 

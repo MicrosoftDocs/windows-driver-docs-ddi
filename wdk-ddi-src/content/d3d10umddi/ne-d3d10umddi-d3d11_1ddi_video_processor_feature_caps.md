@@ -56,17 +56,17 @@ Defines features that a Microsoft Direct3D 11 video processor can support.
 
 ### -field D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_ALPHA_FILL
 
-The video processor can set alpha values on the output pixels. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh439778">VideoProcessorSetOutputAlphaFillMode</a>.
+The video processor can set alpha values on the output pixels. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorsetoutputalphafillmode">VideoProcessorSetOutputAlphaFillMode</a>.
 
 
 ### -field D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_CONSTRICTION
 
-The video processor can downsample the video output. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh439784">VideoProcessorSetOutputConstriction</a>.
+The video processor can downsample the video output. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorsetoutputconstriction">VideoProcessorSetOutputConstriction</a>.
 
 
 ### -field D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_LUMA_KEY
 
-The video processor can perform luma keying. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh439805">VideoProcessorSetStreamLumaKey</a>.
+The video processor can perform luma keying. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorsetstreamlumakey">VideoProcessorSetStreamLumaKey</a>.
 
 
 ### -field D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_ALPHA_PALETTE
@@ -90,7 +90,7 @@ The driver does not support the DXVA-HDDDI. If this capability flag is set, the 
 
 ### -field D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_STEREO
 
-The video processor can support 3-D stereo video. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh439817">VideoProcessorSetStreamStereoFormat</a>.
+The video processor can support 3-D stereo video. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorsetstreamstereoformat">VideoProcessorSetStreamStereoFormat</a>.
 
 
 ### -field D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_ROTATION
@@ -110,7 +110,7 @@ The video processor supports explicit aspect ratios for the source and destinati
 
 ### -field D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_MIRROR
 
-Indicates that the driver supports <a href="https://msdn.microsoft.com/library/windows/hardware/dn906383">VideoProcessorSetStreamMirror</a>.
+Indicates that the driver supports <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3dwddm2_0ddi_videoprocessorsetstreammirror">VideoProcessorSetStreamMirror</a>.
 
 Supported starting with Windows 10.
 
@@ -126,7 +126,7 @@ Indicates that the driver will properly convert the video data based on the spec
 
 ### -field D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_PIXEL_SHADER_USAGE
 
-Indicates that the hardware can benefit from a hint as to whether a shader might be used to read the output of  <a href="https://msdn.microsoft.com/library/windows/hardware/hh451703">VideoProcessorBlt</a>.  This should only be set by hardware that support multi-plane overlays.
+Indicates that the hardware can benefit from a hint as to whether a shader might be used to read the output of  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorblt">VideoProcessorBlt</a>.  This should only be set by hardware that support multi-plane overlays.
 
 Supported starting with Windows 10.
 
@@ -136,27 +136,27 @@ Supported starting with Windows 10.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451703">VideoProcessorBlt</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorblt">VideoProcessorBlt</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439778">VideoProcessorSetOutputAlphaFillMode</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorsetoutputalphafillmode">VideoProcessorSetOutputAlphaFillMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439784">VideoProcessorSetOutputConstriction</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorsetoutputconstriction">VideoProcessorSetOutputConstriction</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439805">VideoProcessorSetStreamLumaKey</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorsetstreamlumakey">VideoProcessorSetStreamLumaKey</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn906383">VideoProcessorSetStreamMirror</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3dwddm2_0ddi_videoprocessorsetstreammirror">VideoProcessorSetStreamMirror</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439817">VideoProcessorSetStreamStereoFormat</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorsetstreamstereoformat">VideoProcessorSetStreamStereoFormat</a>
  
 
  

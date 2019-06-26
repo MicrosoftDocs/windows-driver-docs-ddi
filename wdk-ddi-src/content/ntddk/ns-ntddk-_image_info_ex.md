@@ -46,7 +46,7 @@ req.typenames: IMAGE_INFO_EX, *PIMAGE_INFO_EX
 ## -description
 
 
-Extended version of the image information structure (see <a href="https://msdn.microsoft.com/library/windows/hardware/mt764083">IMAGE_INFO</a>).
+Extended version of the image information structure (see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_image_info">IMAGE_INFO</a>).
 
 
 ## -struct-fields
@@ -61,7 +61,7 @@ Specifies the size, in bytes, of the <b>IMAGE_INFO_EX</b> structure.
 
 ### -field ImageInfo
 
-An <a href="https://msdn.microsoft.com/library/windows/hardware/mt764083">IMAGE_INFO</a> structure that specifies image information.
+An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_image_info">IMAGE_INFO</a> structure that specifies image information.
 
 
 ### -field FileObject
@@ -83,15 +83,15 @@ If the <b>ExtendedInfoPresent</b> flag is set, the <b>IMAGE_INFO</b> structure i
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt764083">IMAGE_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_image_info">IMAGE_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt764088">PLOAD_IMAGE_NOTIFY_ROUTINE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nc-ntddk-pload_image_notify_routine">PLOAD_IMAGE_NOTIFY_ROUTINE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559957">PsSetLoadImageNotifyRoutine</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-pssetloadimagenotifyroutine">PsSetLoadImageNotifyRoutine</a>
  
 
  

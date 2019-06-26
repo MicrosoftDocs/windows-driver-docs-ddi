@@ -47,7 +47,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451131">GetResources</a> routine returns the resources that the PCI Express (PCIe) physical function (PF) requires in order to enable virtualization on a device that supports the single root I/O virtualization (SR-IOV) interface.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-get_virtual_device_resources">GetResources</a> routine returns the resources that the PCI Express (PCIe) physical function (PF) requires in order to enable virtualization on a device that supports the single root I/O virtualization (SR-IOV) interface.
 
 
 ## -prototype
@@ -71,7 +71,7 @@ VOID GetResources(
 
 ### -param Context [in, out]
 
-A pointer to interface-specific context information. The caller passes the value that is passed as the <b>Context</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406642">PCI_VIRTUALIZATION_INTERFACE</a> structure for the interface.
+A pointer to interface-specific context information. The caller passes the value that is passed as the <b>Context</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/hh406642(v=vs.85)">PCI_VIRTUALIZATION_INTERFACE</a> structure for the interface.
 
 
 ### -param CapturedBusNumbers [out]
@@ -130,14 +130,14 @@ Writes a value that is larger than the device’s bus number into the PCIe Subor
 
 
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451131">GetResources</a> routine is provided by the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451143">GUID_PCI_VIRTUALIZATION_INTERFACE</a> interface.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-get_virtual_device_resources">GetResources</a> routine is provided by the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451143">GUID_PCI_VIRTUALIZATION_INTERFACE</a> interface.
 
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406642">PCI_VIRTUALIZATION_INTERFACE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/hh406642(v=vs.85)">PCI_VIRTUALIZATION_INTERFACE</a>
 
 
 

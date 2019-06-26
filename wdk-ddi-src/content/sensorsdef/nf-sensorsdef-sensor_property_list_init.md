@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-This function initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/dn946699">SENSOR_PROPERTY_LIST</a> structure.
+This function initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sensorsdef/ns-sensorsdef-sensor_property_list">SENSOR_PROPERTY_LIST</a> structure.
 
 
 ## -parameters
@@ -78,7 +78,7 @@ This function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn946699">SENSOR_PROPERTY_LIST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sensorsdef/ns-sensorsdef-sensor_property_list">SENSOR_PROPERTY_LIST</a>
  
 
  

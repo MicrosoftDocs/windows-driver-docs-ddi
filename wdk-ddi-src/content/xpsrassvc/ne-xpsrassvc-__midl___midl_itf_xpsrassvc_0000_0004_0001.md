@@ -69,7 +69,7 @@ Use opaque white as clear color.
 
 
 
-<a href="https://msdn.microsoft.com/C31681A0-17C6-4255-9068-7486A2101AB7">IXpsRasterizationFactory2::CreateRasterizer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/xpsrassvc/nf-xpsrassvc-ixpsrasterizationfactory2-createrasterizer">IXpsRasterizationFactory2::CreateRasterizer</a>
  
 
  

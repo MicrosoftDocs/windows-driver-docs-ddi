@@ -127,7 +127,7 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-h
 
 
 
-<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/design-guide-smart-card">Smart card design guide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/nfc/design-guide-smart-card">Smart card design guide</a>
  
 
  

@@ -58,7 +58,7 @@ Two type of stream resources are supported: interrupts and driver-owned threads.
 
 ### -param PhysicalDeviceObject [in]
 
-Pointer to the device object. The device object is a system structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>.
+Pointer to the device object. The device object is a system structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>.
 
 
 ### -param ResourceSet [in]
@@ -68,13 +68,13 @@ PVOID - Reserved for future use, set to NULL. Only device-scoped resources are s
 
 ### -param ResourceDescriptor [in]
 
-PPCSTREAMRESOURCE_DESCRIPTOR - The resource to add. For more information see, <a href="https://msdn.microsoft.com/library/windows/hardware/mt298191">PCSTREAMRESOURCE_DESCRIPTOR</a>. 
+PPCSTREAMRESOURCE_DESCRIPTOR - The resource to add. For more information see, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/ns-portcls-_pcstreamresource_descriptor">PCSTREAMRESOURCE_DESCRIPTOR</a>. 
 
 
 
 ### -param ResourceHandle [out]
 
-PCSTREAMRESOURCE* - The location that will hold the resource handle. For more information, see <a href="https://msdn.microsoft.com/35A90B3C-27D7-4BBA-A754-098D191A3201">RemoveStreamResource</a>.  
+PCSTREAMRESOURCE* - The location that will hold the resource handle. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iportclsstreamresourcemanager-removestreamresource">RemoveStreamResource</a>.  
 
 
 ## -returns
@@ -99,19 +99,19 @@ Additional standard status codes may be returned.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt270106">IPortClsStreamResourceManager</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iportclsstreamresourcemanager">IPortClsStreamResourceManager</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt604862">IPortClsStreamResourceManager2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iportclsstreamresourcemanager2">IPortClsStreamResourceManager2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt298191">PCSTREAMRESOURCE_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/ns-portcls-_pcstreamresource_descriptor">PCSTREAMRESOURCE_DESCRIPTOR</a>
 
 
 
-<a href="https://msdn.microsoft.com/35A90B3C-27D7-4BBA-A754-098D191A3201">RemoveStreamResource</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iportclsstreamresourcemanager-removestreamresource">RemoveStreamResource</a>
  
 
  

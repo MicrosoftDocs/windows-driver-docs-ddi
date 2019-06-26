@@ -46,7 +46,7 @@ req.typenames: DXGK_RENDERKM_OPERATION
 ## -description
 
 
-The DXGK_RENDERKM_OPERATION enumeration indicates the type of GDI hardware-accelerated rendering operation to perform when the <a href="https://msdn.microsoft.com/5841934d-7e0a-4bb8-a7f8-17d8c0af351f">DxgkDdiRenderKm</a> function is called.
+The DXGK_RENDERKM_OPERATION enumeration indicates the type of GDI hardware-accelerated rendering operation to perform when the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_renderkm">DxgkDdiRenderKm</a> function is called.
 
 
 ## -enum-fields
@@ -76,7 +76,7 @@ Indicates a stretch blt.
 
 ### -field DXGK_GDIOP_ESCAPE
 
-Reserved for future use. The driver should skip this command when setting the value of the <b>CommandSize</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562026">DXGK_RENDERKM_COMMAND</a> structure.
+Reserved for future use. The driver should skip this command when setting the value of the <b>CommandSize</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgk_renderkm_command">DXGK_RENDERKM_COMMAND</a> structure.
 
 
 ### -field DXGK_GDIOP_TRANSPARENTBLT
@@ -94,11 +94,11 @@ Indicates a ClearType blend.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562026">DXGK_RENDERKM_COMMAND</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgk_renderkm_command">DXGK_RENDERKM_COMMAND</a>
 
 
 
-<a href="https://msdn.microsoft.com/5841934d-7e0a-4bb8-a7f8-17d8c0af351f">DxgkDdiRenderKm</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_renderkm">DxgkDdiRenderKm</a>
  
 
  

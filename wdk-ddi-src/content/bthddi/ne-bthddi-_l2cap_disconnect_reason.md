@@ -84,7 +84,7 @@ This value specifies for the profile driver that the local radio has been physic
 
 A value from this enumeration is used as the 
     <b>Reason</b> member of the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff536680">INDICATION_PARAMETERS</a> structure.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/ns-bthddi-_indication_parameters">INDICATION_PARAMETERS</a> structure.
 
 Hardware limitations may prevent the Bluetooth driver stack from distinguishing between 
     <b>RadioPoweredDown</b> and 
@@ -93,7 +93,7 @@ Hardware limitations may prevent the Bluetooth driver stack from distinguishing 
 Currently, 
     <i>HciDisconnect</i> and 
     <i>L2capDisconnectRequest</i> are the only values the Bluetooth driver stack passes to the 
-    <a href="https://msdn.microsoft.com/d3ca900d-1dd6-49da-ae94-855de3fbd086">L2CAP Callback Function</a>.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/nc-bthddi-pfnbthport_indication_callback">L2CAP Callback Function</a>.
 
 
 
@@ -103,7 +103,7 @@ Currently,
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536680">INDICATION_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/ns-bthddi-_indication_parameters">INDICATION_PARAMETERS</a>
  
 
  

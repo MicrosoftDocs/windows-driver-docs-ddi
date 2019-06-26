@@ -84,7 +84,7 @@ The D3DKMT_FLIPOVERLAY structure describes a new allocation to display for the o
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546949">D3DKMTFlipOverlay</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/nf-d3dkmthk-d3dkmtflipoverlay">D3DKMTFlipOverlay</a>
  
 
  

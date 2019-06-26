@@ -61,12 +61,12 @@ Size of this structure.
 
 ### -field CharacteristicType
 
-A <a href="https://msdn.microsoft.com/86FA72CC-C23F-40B9-9FDD-80C3B0D5EA73">UCX_USBDEVICE_CHARACTERISTIC_TYPE</a>-type value that indicates the type of device characteristic.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucxusbdevice/ne-ucxusbdevice-_ucx_usbdevice_characteristic_type">UCX_USBDEVICE_CHARACTERISTIC_TYPE</a>-type value that indicates the type of device characteristic.
 
 
 ### -field PathDelay
 
-A <a href="https://msdn.microsoft.com/135D6C04-3520-46C2-BC64-DF0119578E6F">UCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY</a>-typed value that indicates the path delay values for the endpoint.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucxusbdevice/ns-ucxusbdevice-_ucx_usbdevice_characteristic_path_delay">UCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY</a>-typed value that indicates the path delay values for the endpoint.
 
 
 ## -see-also
@@ -74,7 +74,7 @@ A <a href="https://msdn.microsoft.com/135D6C04-3520-46C2-BC64-DF0119578E6F">UCX_
 
 
 
-<a href="https://msdn.microsoft.com/EE8568F6-3D88-477E-9F0D-044D014EBCF3">EVT_UCX_USBDEVICE_GET_CHARACTERISTIC</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucxusbdevice/nc-ucxusbdevice-evt_ucx_usbdevice_get_characteristic">EVT_UCX_USBDEVICE_GET_CHARACTERISTIC</a>
  
 
  

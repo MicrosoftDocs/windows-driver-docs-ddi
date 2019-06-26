@@ -71,7 +71,7 @@ For the <b>PrintSchemaParameterDataType_NumericString</b> and <b>PrintSchemaPara
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn465890">IPrintSchemaParameterDefinition</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprintschemaparameterdefinition">IPrintSchemaParameterDefinition</a>
  
 
  

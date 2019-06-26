@@ -67,7 +67,7 @@ The <b>IWDTFNumbers2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938485">Add</a>
+<a href="https://docs.microsoft.com/windows-hardware/test/wpt/add">Add</a>
 </td>
 <td align="left" width="63%">
 Adds a single number to the collection.
@@ -76,7 +76,7 @@ Adds a single number to the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439492">Remove</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nf-wdtf-iwdtftargets2-remove">Remove</a>
 </td>
 <td align="left" width="63%">
 Removes a number from the collection.
@@ -94,7 +94,7 @@ Removes a number from the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439300">_NewEnum</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nf-wdtf-iwdtfstrings2-get__newenum">_NewEnum</a>
 
 
 </td>
@@ -111,7 +111,7 @@ loop structure implicitly uses.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/hh406342(v=vs.85)">Count</a>
 
 
 </td>
@@ -127,7 +127,7 @@ Gets the number of numbers in this collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">Item</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nf-wdtf-iwdtfnumbers2-get_item">Item</a>
 
 
 </td>

@@ -109,15 +109,15 @@ If a buffering state request can be processed immediately instead of being queue
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554751">RX_CONTEXT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/rxcontx/ns-rxcontx-_rx_context">RX_CONTEXT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554335">RxChangeBufferingState</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/rxprocs/nf-rxprocs-rxchangebufferingstate">RxChangeBufferingState</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554485">RxIndicateChangeOfBufferingState</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/rxprocs/nf-rxprocs-rxindicatechangeofbufferingstate">RxIndicateChangeOfBufferingState</a>
  
 
  

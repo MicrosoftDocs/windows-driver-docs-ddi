@@ -66,7 +66,7 @@ Receives the location in the target's virtual address space of the PEB of the cu
 
 
 
-This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 <table>
 <tr>
@@ -94,13 +94,13 @@ The method was successful.
 
 
 
-In user-mode debugging, this method provides the same information as <a href="https://msdn.microsoft.com/library/windows/hardware/ff545787">GetCurrentProcessDataOffset</a>.
+In user-mode debugging, this method provides the same information as <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsystemobjects4-getcurrentprocessdataoffset">GetCurrentProcessDataOffset</a>.
 
 In kernel-mode debugging, the location returned is that of the PEB structure for the system process in which the last event occurred.
 
-<div class="alert"><b>Note</b>    In kernel mode, the current process of the target is always the single virtual process the <a href="https://msdn.microsoft.com/fa52a1f0-9397-48a5-acbd-ce5347c0baef">debugger engine</a> created for the kernel.  However, because events may occur in different system processes, the PEB location returned by this method may change.</div>
+<div class="alert"><b>Note</b>    In kernel mode, the current process of the target is always the single virtual process the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/introduction">debugger engine</a> created for the kernel.  However, because events may occur in different system processes, the PEB location returned by this method may change.</div>
 <div> </div>
-For more information about processes, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558896">Threads and Processes</a>.
+For more information about processes, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/threads-and-processes">Threads and Processes</a>.
 
 
 

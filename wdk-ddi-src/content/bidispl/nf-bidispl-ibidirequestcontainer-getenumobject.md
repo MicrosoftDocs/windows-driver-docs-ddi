@@ -56,14 +56,14 @@ The <b>GetEnumObject</b> method enumerates the bidi requests in a list.
 
 ### -param ppenum [out]
 
-Pointer to the variable that receives a pointer to the <a href="https://msdn.microsoft.com/library/windows/desktop/ms683764">IEnumUnknown</a> interface that enumerates the bidi requests in the container.
+Pointer to the variable that receives a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumunknown">IEnumUnknown</a> interface that enumerates the bidi requests in the container.
 
 
 ## -returns
 
 
 
-The method returns one of the following values. For more information about COM error codes, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff544310">Error Handling</a>.
+The method returns one of the following values. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">Error Handling</a>.
 
 <table>
 <tr>
@@ -113,7 +113,7 @@ The <b>HRESULT</b> contains an error code corresponding to the last error.
 
 
 
-An application can call <a href="https://msdn.microsoft.com/library/windows/desktop/ms693367">IEnumUnknown::Next</a> to retrieve one or more <a href="https://msdn.microsoft.com/library/windows/hardware/dd144969">IBidiRequest</a> interfaces.
+An application can call <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ienumunknown-next">IEnumUnknown::Next</a> to retrieve one or more <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bidispl/nn-bidispl-ibidirequest">IBidiRequest</a> interfaces.
 
 
 
@@ -123,19 +123,19 @@ An application can call <a href="https://msdn.microsoft.com/library/windows/desk
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_print/index">Bidirectional Communication Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/print/bidirectional-communication-schema">Bidirectional Communication Schema</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dd144970">IBidiRequestContainer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bidispl/nn-bidispl-ibidirequestcontainer">IBidiRequestContainer</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/desktop/ms683764">IEnumUnknown</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-ienumunknown">IEnumUnknown</a>
  
 
  

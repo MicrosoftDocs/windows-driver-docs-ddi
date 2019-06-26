@@ -56,12 +56,12 @@ The <i>DxgkDdiSetPointerPosition</i> function sets the location and visibility s
 
 ### -param hAdapter [in]
 
-[in] A handle to a context block that is associated with a display adapter. The display miniport driver previously provided this handle to the Microsoft DirectX graphics kernel subsystem in the <i>MiniportDeviceContext</i> output parameter of the <a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a> function.
+[in] A handle to a context block that is associated with a display adapter. The display miniport driver previously provided this handle to the Microsoft DirectX graphics kernel subsystem in the <i>MiniportDeviceContext</i> output parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function.
 
 
 ### -param pSetPointerPosition [in]
 
-[in] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff557660">DXGKARG_SETPOINTERPOSITION</a> structure that describes where and how to display the mouse pointer.
+[in] A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_setpointerposition">DXGKARG_SETPOINTERPOSITION</a> structure that describes where and how to display the mouse pointer.
 
 
 ## -returns
@@ -77,11 +77,11 @@ The <i>DxgkDdiSetPointerPosition</i> function sets the location and visibility s
 
 
 
-The DirectX graphics kernel subsystem calls the display miniport driver's <i>DxgkDdiSetPointerPosition</i> function to set the location of the mouse pointer. The <i>DxgkDdiSetPointerPosition</i> function is called independently of all of the other display miniport driver functions. Therefore, a <i>DxgkDdiSetPointerPosition</i> thread can run simultaneously with another display miniport driver thread. However, the system ensures that <i>DxgkDdiSetPointerPosition</i> and <a href="https://msdn.microsoft.com/36b462f7-5bad-4716-8138-af00d20e945b">DxgkDdiSetPointerShape</a> threads cannot run simultaneously. 
+The DirectX graphics kernel subsystem calls the display miniport driver's <i>DxgkDdiSetPointerPosition</i> function to set the location of the mouse pointer. The <i>DxgkDdiSetPointerPosition</i> function is called independently of all of the other display miniport driver functions. Therefore, a <i>DxgkDdiSetPointerPosition</i> thread can run simultaneously with another display miniport driver thread. However, the system ensures that <i>DxgkDdiSetPointerPosition</i> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_setpointershape">DxgkDdiSetPointerShape</a> threads cannot run simultaneously. 
 
 If you run a <i>DxgkDdiSetPointerPosition</i> thread simultaneously with another display miniport driver thread, the display miniport driver should be able to program the mouse pointer hardware independently of other activities, such as operations that send a command buffer through direct memory access (DMA) to the graphics hardware, operations that program the graphics hardware by using memory-mapped I/O (MMIO), and so on.
 
-<i>DxgkDdiSetPointerPosition</i> can be called even if the video present network (VidPN) topology that is associated with the <b>VidPnSourceId</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557660">DXGKARG_SETPOINTERPOSITION</a> structure that the <i>pSetPointerPosition</i> parameter points to is disabled. In this case, the driver should return STATUS_SUCCESS but should make no changes to the state of the driver or hardware.
+<i>DxgkDdiSetPointerPosition</i> can be called even if the video present network (VidPN) topology that is associated with the <b>VidPnSourceId</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_setpointerposition">DXGKARG_SETPOINTERPOSITION</a> structure that the <i>pSetPointerPosition</i> parameter points to is disabled. In this case, the driver should return STATUS_SUCCESS but should make no changes to the state of the driver or hardware.
 
 <i>DxgkDdiSetPointerPosition</i> should be made pageable.
 
@@ -93,15 +93,15 @@ If you run a <i>DxgkDdiSetPointerPosition</i> thread simultaneously with another
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557660">DXGKARG_SETPOINTERPOSITION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_setpointerposition">DXGKARG_SETPOINTERPOSITION</a>
 
 
 
-<a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/36b462f7-5bad-4716-8138-af00d20e945b">DxgkDdiSetPointerShape</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_setpointershape">DxgkDdiSetPointerShape</a>
  
 
  

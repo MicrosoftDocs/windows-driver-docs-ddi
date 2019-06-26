@@ -53,7 +53,7 @@ To obtain the <b>IWDFDevice3</b> interface, drivers call <b>IWDFDevice::QueryInt
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFDevice3</b> interface inherits from <a href="https://msdn.microsoft.com/library/windows/hardware/ff556918">IWDFDevice2</a>. <b>IWDFDevice3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFDevice3</b> interface inherits from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nn-wudfddi-iwdfdevice2">IWDFDevice2</a>. <b>IWDFDevice3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -68,75 +68,75 @@ The <b>IWDFDevice3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451202">AssignS0IdleSettingsEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfdevice3-assigns0idlesettingsex">AssignS0IdleSettingsEx</a>
 </td>
 <td align="left" width="63%">
 The 
-  <a href="https://msdn.microsoft.com/library/windows/hardware/hh451202">AssignS0IdleSettingsEx</a> method provides driver-supplied information that the framework uses when a device is idle and the system is in its working (S0) state.
+  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfdevice3-assigns0idlesettingsex">AssignS0IdleSettingsEx</a> method provides driver-supplied information that the framework uses when a device is idle and the system is in its working (S0) state.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451208">CreateInterrupt</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfdevice3-createinterrupt">CreateInterrupt</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451208">CreateInterrupt</a> method creates a framework interrupt object.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfdevice3-createinterrupt">CreateInterrupt</a> method creates a framework interrupt object.
 
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451213">CreateWorkItem</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfdevice3-createworkitem">CreateWorkItem</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451213">CreateWorkItem</a> method creates a framework work-item object, which can subsequently be added to the framework’s work-item queue.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfdevice3-createworkitem">CreateWorkItem</a> method creates a framework work-item object, which can subsequently be added to the framework’s work-item queue.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451219">GetHardwareRegisterMappedAddress</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfdevice3-gethardwareregistermappedaddress">GetHardwareRegisterMappedAddress</a>
 </td>
 <td align="left" width="63%">
-A driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/hh451219">GetHardwareRegisterMappedAddress</a> to get the user-mode mapped address of the memory resource it earlier mapped using <a href="https://msdn.microsoft.com/library/windows/hardware/hh451225">MapIoSpace</a>.
+A driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfdevice3-gethardwareregistermappedaddress">GetHardwareRegisterMappedAddress</a> to get the user-mode mapped address of the memory resource it earlier mapped using <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfdevice3-mapiospace">MapIoSpace</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451225">MapIoSpace</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfdevice3-mapiospace">MapIoSpace</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451225">MapIoSpace</a> method maps the given physical address range to system address space and returns a pseudo base address. 
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfdevice3-mapiospace">MapIoSpace</a> method maps the given physical address range to system address space and returns a pseudo base address. 
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/19B472D0-D607-4874-ADB9-232C379B0DFD">ReadFromHardware</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfdevice3-readfromhardware">ReadFromHardware</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/19B472D0-D607-4874-ADB9-232C379B0DFD">ReadFromHardware</a> method is used internally by the framework. Do not use.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfdevice3-readfromhardware">ReadFromHardware</a> method is used internally by the framework. Do not use.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451237">UnmapIoSpace</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfdevice3-unmapiospace">UnmapIoSpace</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451237">UnmapIoSpace</a> method unmaps a specified range of physical addresses previously mapped by <a href="https://msdn.microsoft.com/library/windows/hardware/hh451225">MapIoSpace</a> method.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfdevice3-unmapiospace">UnmapIoSpace</a> method unmaps a specified range of physical addresses previously mapped by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfdevice3-mapiospace">MapIoSpace</a> method.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/55FBE72C-E74E-4116-9602-6D491592350F">WriteToHardware</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfdevice3-writetohardware">WriteToHardware</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/55FBE72C-E74E-4116-9602-6D491592350F">WriteToHardware</a> method is used internally by the framework. Do not use.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfdevice3-writetohardware">WriteToHardware</a> method is used internally by the framework. Do not use.
 
 </td>
 </tr>
@@ -148,7 +148,7 @@ The <a href="https://msdn.microsoft.com/55FBE72C-E74E-4116-9602-6D491592350F">Wr
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556918">IWDFDevice2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nn-wudfddi-iwdfdevice2">IWDFDevice2</a>
  
 
  

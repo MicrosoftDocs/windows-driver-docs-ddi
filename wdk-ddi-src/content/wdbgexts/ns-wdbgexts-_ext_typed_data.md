@@ -46,8 +46,8 @@ req.typenames: EXT_TYPED_DATA, *PEXT_TYPED_DATA
 ## -description
 
 
-The EXT_TYPED_DATA structure is passed to and returned from the <a href="https://msdn.microsoft.com/ac883bc8-3956-4bc3-a11e-b6e036305329">DEBUG_REQUEST_EXT_TYPED_DATA_ANSI </a>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554564">Request</a> operation. It contains the input and output parameters for the operation as well as specifying which particular suboperation to perform.
+The EXT_TYPED_DATA structure is passed to and returned from the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-request-ext-typed-data-ansi">DEBUG_REQUEST_EXT_TYPED_DATA_ANSI </a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugadvanced3-request">Request</a> operation. It contains the input and output parameters for the operation as well as specifying which particular suboperation to perform.
 
 
 ## -struct-fields
@@ -57,8 +57,8 @@ The EXT_TYPED_DATA structure is passed to and returned from the <a href="https:/
 
 ### -field Operation
 
-Specifies which suboperation the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541547">DEBUG_REQUEST_EXT_TYPED_DATA_ANSI</a>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554564">Request</a> operation should perform. The interpretation of some of the other members depends on <b>Operation</b>. For a list of possible suboperations, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff544529">EXT_TDOP</a>.
+Specifies which suboperation the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-request-ext-typed-data-ansi">DEBUG_REQUEST_EXT_TYPED_DATA_ANSI</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugadvanced3-request">Request</a> operation should perform. The interpretation of some of the other members depends on <b>Operation</b>. For a list of possible suboperations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdbgexts/ne-wdbgexts-_ext_tdop">EXT_TDOP</a>.
 
 
 ### -field Flags
@@ -116,14 +116,14 @@ The typed data is in physical memory, and this physical memory is write-combined
 
 ### -field InData
 
-Specifies typed data to be used as input to the operation. For details about this structure, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff541706">DEBUG_TYPED_DATA</a>.
+Specifies typed data to be used as input to the operation. For details about this structure, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdbgexts/ns-wdbgexts-_debug_typed_data">DEBUG_TYPED_DATA</a>.
 
 The interpretation of <b>InData</b> depends on the value of <b>Operation</b>.
 
 
 ### -field OutData
 
-Receives typed data as output from the operation. Any suboperation that returns typed data to <b>OutData</b> initially copies the contents of <b>InData</b> to <b>OutData</b>, then modifies <b>OutData</b> in place, so that the input parameters in <b>InData</b> are also present in <b>OutData</b>. For details about this structure, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff541706">DEBUG_TYPED_DATA</a>.
+Receives typed data as output from the operation. Any suboperation that returns typed data to <b>OutData</b> initially copies the contents of <b>InData</b> to <b>OutData</b>, then modifies <b>OutData</b> in place, so that the input parameters in <b>InData</b> are also present in <b>OutData</b>. For details about this structure, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdbgexts/ns-wdbgexts-_debug_typed_data">DEBUG_TYPED_DATA</a>.
 
 The interpretation of <b>OutData</b> depends on the value of <b>Operation</b>.
 
@@ -132,7 +132,7 @@ The interpretation of <b>OutData</b> depends on the value of <b>Operation</b>.
 
 Specifies the position of an ANSI string to be used as input to the operation. <b>InStrIndex</b> can be zero to indicate that the input parameters do not include an ANSI string.
 
-The position of the string is relative to the base address of this EXT_TYPED_DATA structure. The string must follow this structure, so <b>InStrIndex</b> must be greater than the size of this structure. The string is part of the input to the operation and <b>InStrIndex</b> must be smaller than <i>InBufferSize</i>, the size of the input buffer passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff554564">Request</a>.
+The position of the string is relative to the base address of this EXT_TYPED_DATA structure. The string must follow this structure, so <b>InStrIndex</b> must be greater than the size of this structure. The string is part of the input to the operation and <b>InStrIndex</b> must be smaller than <i>InBufferSize</i>, the size of the input buffer passed to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugadvanced3-request">Request</a>.
 
 The interpretation of the string depends on the value of <b>Operation</b>.
 
@@ -169,7 +169,7 @@ The interpretation of <b>Out64</b> depends on the value of <b>Operation</b>.
 
 Specifies the position to return an ANSI string as output from the operation. <b>StrBufferIndex</b> can be zero if no ANSI string is to be received from the operation.
 
-The position of the string is relative to the base address of the returned EXT_TYPED_DATA structure. The string must follow the structure, so <b>StrBufferIndex</b> must be greater than the size of this structure. The string is part of the output from the suboperation, and <b>StrBufferIndex</b> plus <b>StrBufferChars</b> must be smaller than <i>OutBufferSize</i>, the size of the output buffer passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff554564">Request</a>.
+The position of the string is relative to the base address of the returned EXT_TYPED_DATA structure. The string must follow the structure, so <b>StrBufferIndex</b> must be greater than the size of this structure. The string is part of the output from the suboperation, and <b>StrBufferIndex</b> plus <b>StrBufferChars</b> must be smaller than <i>OutBufferSize</i>, the size of the output buffer passed to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugadvanced3-request">Request</a>.
 
 The interpretation of the string depends on the value of <b>Operation</b>.
 
@@ -201,7 +201,7 @@ Set to zero,
 
 ### -field Status
 
-Receives the status code returned by the operation. This is the same value returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff554564">Request</a>.
+Receives the status code returned by the operation. This is the same value returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugadvanced3-request">Request</a>.
 
 
 ### -field Reserved
@@ -213,8 +213,8 @@ Set to zero.
 
 
 
-The members of this structure are used as the input and output parameters to the <a href="https://msdn.microsoft.com/ac883bc8-3956-4bc3-a11e-b6e036305329">DEBUG_REQUEST_EXT_TYPED_DATA_ANSI </a>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554564">Request</a> operation. The interpretation of most of the parameters depends on the particular suboperation being performed, as specified by the <b>Operation</b> member.
+The members of this structure are used as the input and output parameters to the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-request-ext-typed-data-ansi">DEBUG_REQUEST_EXT_TYPED_DATA_ANSI </a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugadvanced3-request">Request</a> operation. The interpretation of most of the parameters depends on the particular suboperation being performed, as specified by the <b>Operation</b> member.
 
 This structure can optionally specify additional data--using the members <b>InStrIndex</b> and <b>StrBufferIndex</b>--that is included with the structure. This additional data is specified relative to the address of the instance of this structure. When used with the DEBUG_REQUEST_EXT_TYPED_DATA_ANSI <b>Request</b> operation, the additional data is included in the <i>InBuffer</i> and <i>OutBuffer</i> (as appropriate) and should be included in the size of these two buffers.
 
@@ -226,19 +226,19 @@ This structure can optionally specify additional data--using the members <b>InSt
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541547">DEBUG_REQUEST_EXT_TYPED_DATA_ANSI</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-request-ext-typed-data-ansi">DEBUG_REQUEST_EXT_TYPED_DATA_ANSI</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541706">DEBUG_TYPED_DATA</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdbgexts/ns-wdbgexts-_debug_typed_data">DEBUG_TYPED_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544529">EXT_TDOP</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdbgexts/ne-wdbgexts-_ext_tdop">EXT_TDOP</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554564">Request</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugadvanced3-request">Request</a>
  
 
  

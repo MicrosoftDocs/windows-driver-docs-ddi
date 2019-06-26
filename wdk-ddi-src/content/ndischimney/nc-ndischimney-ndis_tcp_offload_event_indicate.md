@@ -63,7 +63,7 @@ An offload target calls the
 A handle that identifies the offloaded TCP connection on which the indication is being made. When
      the connection was offloaded, this handle was supplied in the 
      <b>NdisOffloadHandle</b> member of the 
-     <a href="https://msdn.microsoft.com/ebc98e65-5d11-4c3d-aea1-dfad1434c093">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/ns-ndischimney-_ndis_miniport_offload_block_list">
      NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a> structure that was associated with the connection state.
 
 
@@ -189,10 +189,10 @@ Call the
 <li>
 Complete all outstanding send requests and disconnect requests on the connection with
       NDIS_STATUS_REQUEST_ABORTED. The offload target writes this status value to the 
-      <b>Status</b> member of each <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure in the linked list that it passes to the 
-      <a href="https://msdn.microsoft.com/1689b6f9-88f3-456f-9a7c-c6b4e76cb336">
+      <b>Status</b> member of each <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure in the linked list that it passes to the 
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/nc-ndischimney-ndis_tcp_offload_send_complete">
       NdisTcpOffloadSendComplete</a> function or to the 
-      <a href="https://msdn.microsoft.com/e862d9fe-a60c-4397-95ce-62aa1ef17eae">
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/nc-ndischimney-ndis_tcp_offload_disconnect_complete">
       NdisTcpOffloadDisconnectComplete</a> function.
 
 </li>
@@ -205,7 +205,7 @@ The offload target specifies the reason for the termination request as a <b>TCP_
     the 
     <i>EventSpecificInformation</i> parameter that it passes to the 
     <b>NdisTcpOffloadEventHandler</b> function. In response, the host stack calls the 
-    <a href="https://msdn.microsoft.com/1b808e3c-2d64-44c9-88d3-0a0311e1dc99">MiniportTerminateOffload</a> function
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/nc-ndischimney-w_terminate_offload_handler">MiniportTerminateOffload</a> function
     of the offload target.
 
 The offload target can request the termination of only one TCP connection per call to 
@@ -410,7 +410,7 @@ CLOSE_WAIT--The local host might still be sending data.
 </ul>
 An offload target can request the termination of all TCP connections that have been offloaded to it.
     For more information, see 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff563619">NdisMOffloadEventIndicate</a>.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/nf-ndischimney-ndismoffloadeventindicate">NdisMOffloadEventIndicate</a>.
 
 <h3><a id="Indicating_a_Change_in_the_Send_Backlog_Size"></a><a id="indicating_a_change_in_the_send_backlog_size"></a><a id="INDICATING_A_CHANGE_IN_THE_SEND_BACKLOG_SIZE"></a>Indicating a Change in the Send Backlog Size</h3>
 The send backlog size can be a function of the round-trip time (RTT) for the connection, the interface
@@ -433,37 +433,37 @@ The offload target should implement a throttling mechanism to ensure that, if th
 
 
 
-<a href="https://msdn.microsoft.com/98b22b7f-8881-4029-9558-d5d94bb7878e">Indicating TCP Chimney-Specific Events</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/indicating-tcp-chimney-specific-events">Indicating TCP Chimney-Specific Events</a>
 
 
 
-<a href="https://msdn.microsoft.com/f430642b-01bf-4ed7-bfea-e8dd8d5a8208">MiniportInitiateOffload</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/nc-ndischimney-w_initiate_offload_handler">MiniportInitiateOffload</a>
 
 
 
-<a href="https://msdn.microsoft.com/1b808e3c-2d64-44c9-88d3-0a0311e1dc99">MiniportTerminateOffload</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/nc-ndischimney-w_terminate_offload_handler">MiniportTerminateOffload</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563619">NdisMOffloadEventIndicate</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/nf-ndischimney-ndismoffloadeventindicate">NdisMOffloadEventIndicate</a>
 
 
 
-<a href="https://msdn.microsoft.com/e862d9fe-a60c-4397-95ce-62aa1ef17eae">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/nc-ndischimney-ndis_tcp_offload_disconnect_complete">
    NdisTcpOffloadDisconnectComplete</a>
 
 
 
-<a href="https://msdn.microsoft.com/d5b1341b-cbe0-483c-9abb-b8706f2db2dd">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/nc-ndischimney-ndis_tcp_offload_receive_complete">
    NdisTcpOffloadReceiveComplete</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564609">NdisTcpOffloadSendComplete</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/nc-ndischimney-ndis_tcp_offload_send_complete">NdisTcpOffloadSendComplete</a>
 
 
 
-<a href="https://msdn.microsoft.com/b64c0f9e-aa3d-43c5-bdf5-c40cae3929e3">ProtocolTcpOffloadEvent</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/nc-ndischimney-tcp_offload_event_handler">ProtocolTcpOffloadEvent</a>
 
 
 

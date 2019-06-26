@@ -56,7 +56,7 @@ The <b>NDIS_RECEIVE_FILTER_MOVE_FILTER_PARAMETERS</b> structure specifies the pa
 
 ### -field Header
 
-The type, revision, and size of the <b>NDIS_RECEIVE_FILTER_MOVE_FILTER_PARAMETERS</b> structure. This member is formatted as an <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure.
+The type, revision, and size of the <b>NDIS_RECEIVE_FILTER_MOVE_FILTER_PARAMETERS</b> structure. This member is formatted as an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure.
 
 The miniport driver must set the <b>Type</b> member of <b>Header</b> to NDIS_OBJECT_TYPE_DEFAULT. To specify the version of the <b>NDIS_RECEIVE_FILTER_MOVE_FILTER_PARAMETERS</b> structure, the driver must set the <b>Revision</b> member of <b>Header</b> to the following value: 
 
@@ -102,7 +102,7 @@ An NDIS_NIC_SWITCH_VPORT_ID value that specifies the identifier of the VPort on 
 
 
 
-This structure is used in OID set requests of <a href="https://msdn.microsoft.com/library/windows/hardware/hh451845">OID_RECEIVE_FILTER_MOVE_FILTER</a>.
+This structure is used in OID set requests of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-move-filter">OID_RECEIVE_FILTER_MOVE_FILTER</a>.
 
 <div class="alert"><b>Note</b>  Starting with NDIS 6.30, the single root I/O virtualization (SR-IOV) interface allows receive filters to be set only  on the default receive queue on both default and nondefault VPorts. The <b>SourceQueueId</b> and <b>DestQueueId</b> members must always be set to NDIS_DEFAULT_RECEIVE_QUEUE_ID.</div>
 <div> </div>
@@ -118,11 +118,11 @@ This structure is used in OID set requests of <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451845">OID_RECEIVE_FILTER_MOVE_FILTER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-receive-filter-move-filter">OID_RECEIVE_FILTER_MOVE_FILTER</a>
  
 
  

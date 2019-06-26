@@ -65,7 +65,7 @@ A value, in units of milliseconds (mS), that specifies the interval during which
 
 The PMI_MEASUREMENT_CONFIGURATION structure specifies the current measurement parameters that the power meter uses when it monitors the power that is consumed by the system from a power supply. The <b>AverageInterval</b> member specifies the time interval over which the power meter averages the power measurement data it collects from a power supply.
 
-<div class="alert"><b>Note</b>  The <b>AverageInterval</b> member must have a value between the values of the <b>MinimumAverageInterval</b> and <b>MaximumAverageInterval</b> members of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543902">PMI_REPORTED_CAPABILITIES</a> structure. This structure is returned in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543859">PMI_CAPABILITIES</a> structure of an <a href="https://msdn.microsoft.com/library/windows/hardware/ff543837">IOCTL_PMI_GET_CAPABILITIES</a> I/O control (IOCTL) query request.</div>
+<div class="alert"><b>Note</b>  The <b>AverageInterval</b> member must have a value between the values of the <b>MinimumAverageInterval</b> and <b>MaximumAverageInterval</b> members of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pmi/ns-pmi-_pmi_reported_capabilities">PMI_REPORTED_CAPABILITIES</a> structure. This structure is returned in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pmi/ns-pmi-_pmi_capabilities">PMI_CAPABILITIES</a> structure of an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pmi/ni-pmi-ioctl_pmi_get_capabilities">IOCTL_PMI_GET_CAPABILITIES</a> I/O control (IOCTL) query request.</div>
 <div> </div>
 
 
@@ -75,15 +75,15 @@ The PMI_MEASUREMENT_CONFIGURATION structure specifies the current measurement pa
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543837">IOCTL_PMI_GET_CAPABILITIES</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pmi/ni-pmi-ioctl_pmi_get_capabilities">IOCTL_PMI_GET_CAPABILITIES</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543859">PMI_CAPABILITIES</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pmi/ns-pmi-_pmi_capabilities">PMI_CAPABILITIES</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543902">PMI_REPORTED_CAPABILITIES</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pmi/ns-pmi-_pmi_reported_capabilities">PMI_REPORTED_CAPABILITIES</a>
  
 
  

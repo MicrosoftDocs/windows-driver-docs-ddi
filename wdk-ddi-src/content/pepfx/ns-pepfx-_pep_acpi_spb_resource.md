@@ -56,12 +56,12 @@ The <b>PEP_ACPI_SPB_RESOURCE</b> structure describes an ACPI serial bus connecti
 
 ### -field Type
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/mt186693">PEP_ACPI_RESOURCE_TYPE</a> enumeration value describing this resource.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/ne-pepfx-_pep_acpi_resource_type">PEP_ACPI_RESOURCE_TYPE</a> enumeration value describing this resource.
 
 
 ### -field Flags
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/mt186692">PEP_ACPI_RESOURCE_FLAGS</a> structure that describes the capabilities of this ACPI resource.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/ns-pepfx-_pep_acpi_resource_flags">PEP_ACPI_RESOURCE_FLAGS</a> structure that describes the capabilities of this ACPI resource.
 
 
 ### -field TypeSpecificFlags

@@ -48,7 +48,7 @@ product:
 ## -description
 
 > [!IMPORTANT]
-> The [Native 802.11 Wireless LAN](https://msdn.microsoft.com/library/windows/hardware/ff560689) interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see [WLAN Universal Windows driver model](https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18).
+> The [Native 802.11 Wireless LAN](https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)) interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see [WLAN Universal Windows driver model](https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model).
 
 The DOT11_ASSOCIATION_COMPLETION_PARAMETERS structure specifies the results of the association operation performed by the 802.11 station with either an access point (AP) or peer station. The Native 802.11 miniport driver includes a DOT11_ASSOCIATION_COMPLETION_PARAMETERS structure when the miniport driver makes an [NDIS_STATUS_DOT11_ASSOCIATION_COMPLETION](https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-dot11-association-completion) status indication.
 
@@ -113,7 +113,7 @@ The media access control (MAC) address of the access point (AP) (for infrastruct
 
 ### -field uStatus
 
-The completion status of the association operation, as specified by a value defined for [DOT11_ASSOC_STATUS](https://msdn.microsoft.com/library/windows/hardware/ff547652).
+The completion status of the association operation, as specified by a value defined for [DOT11_ASSOC_STATUS](https://docs.microsoft.com/windows-hardware/drivers/network/dot11-assoc-status-status-codes).
 
 ### -field bReAssocReq
 
@@ -221,7 +221,7 @@ For more information about this MIB object, see [OID_DOT11_ACTIVE_PHY_LIST](http
 
 Entries in the active PHY list can be one of the following values:
 
-- A PHY ID that is specified by the ExtSTA **msDot11DesiredPhyList** MIB object. For more information about this MIB object, see [OID_DOT11_DESIRED_PHY_LIST](https://msdn.microsoft.com/library/windows/hardware/ff569144).
+- A PHY ID that is specified by the ExtSTA **msDot11DesiredPhyList** MIB object. For more information about this MIB object, see [OID_DOT11_DESIRED_PHY_LIST](https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-desired-phy-list).
 - DOT11_PHY_ID_ANY. The miniport driver can set an entry to this value if the **msDot11ActivePhyList** MIB object specifies all of the PHY IDs that are specified by the **msDot11DesiredPhyList** MIB object. An entry with the value of DOT11_PHY_ID_ANY must be the only entry in the active PHY list.
 
 The offset of the active PHY list is relative to the start of the buffer that contains the DOT11_ASSOCIATION_COMPLETION_PARAMETERS structure.
@@ -294,7 +294,7 @@ This offset is relative to the start of the buffer, which contains the DOT11_ASS
 
 The miniport driver formats each entry in this list as a [DOT11_ENCAP_ENTRY](../windot11/ns-windot11-dot11_encap_entry.md) structure.
 
-For more information about the EtherType encapsulation list, see [802.11 Payload Encapsulation](https://technet.microsoft.com/library/cc757419).
+For more information about the EtherType encapsulation list, see [802.11 Payload Encapsulation](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2003/cc757419(v=ws.10)).
 
 ### -field uEncapTableSize
 
@@ -320,7 +320,7 @@ The miniport driver must set the **uEncapTableOffset** and **uEncapTableSize** m
 
 For more information about the IEEE 802.11 **dot11DesiredBSSType** MIB object, see [OID_DOT11_DESIRED_BSS_TYPE](https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-desired-bss-type).
 
-For more information about the association operation, see [Association Operations](https://msdn.microsoft.com/04e97ea1-fe4b-471e-a7be-b5aa3ee88edc).
+For more information about the association operation, see [Association Operations](https://docs.microsoft.com/windows-hardware/drivers/network/association-operations).
 
 Management Frame Protection is negotiated when an access point (AP) and STA set the Management Frame Protection Capable (MFPC) field to 1 in their respective RSN IEs during the (re)association procedure (i.e. Beacon or Probe Response for AP and (re)association request for STA), and both parties confirm the Management Frame Protection Capable bit set to 1 in the 4-Way Handshake (Messages M2 and M3 of the 802.11i 4-way handshake).
 
@@ -328,7 +328,7 @@ Management Frame Protection is negotiated when an access point (AP) and STA set 
 
 [DOT11_ENCAP_ENTRY](../windot11/ns-windot11-dot11_encap_entry.md)
 
-[DOT11_ASSOC_STATUS](https://msdn.microsoft.com/library/windows/hardware/ff547652)
+[DOT11_ASSOC_STATUS](https://docs.microsoft.com/windows-hardware/drivers/network/dot11-assoc-status-status-codes)
 
 [NdisMIndicateStatusEx](../ndis/nf-ndis-ndismindicatestatusex.md)
 
@@ -340,7 +340,7 @@ Management Frame Protection is negotiated when an access point (AP) and STA set 
 
 [DOT11_MAC_ADDRESS](../windot11/ns-windot11-_dot11_mac_address.md)
 
-[OID_DOT11_DESIRED_PHY_LIST](https://msdn.microsoft.com/library/windows/hardware/ff569144)
+[OID_DOT11_DESIRED_PHY_LIST](https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-desired-phy-list)
 
 [OID_DOT11_DESIRED_BSS_TYPE](https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-desired-bss-type)
 

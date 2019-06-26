@@ -56,7 +56,7 @@ The KSDPC_ITEM structure is used to store information related to any internal DP
 
 ### -field Dpc
 
-Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551882">KDPC</a> structure that is queued to perform notifications that cannot occur at raised IRQL.
+Specifies a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">KDPC</a> structure that is queued to perform notifications that cannot occur at raised IRQL.
 
 
 ### -field ReferenceCount
@@ -83,7 +83,7 @@ KSDPC_ITEM uses a reference counting scheme to determine when to free the struct
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551882">KDPC</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">KDPC</a>
  
 
  

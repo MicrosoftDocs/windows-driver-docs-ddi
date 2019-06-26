@@ -46,7 +46,7 @@ req.typenames: REASSIGN_BLOCKS, *PREASSIGN_BLOCKS
 ## -description
 
 
-The <b>REASSIGN_BLOCKS</b> structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560398">IOCTL_DISK_REASSIGN_BLOCKS</a> request to instruct a disk device to reassign the block numbers of the indicated bad blocks to good blocks.
+The <b>REASSIGN_BLOCKS</b> structure is used in conjunction with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdddisk/ni-ntdddisk-ioctl_disk_reassign_blocks">IOCTL_DISK_REASSIGN_BLOCKS</a> request to instruct a disk device to reassign the block numbers of the indicated bad blocks to good blocks.
 
 
 ## -struct-fields
@@ -74,7 +74,7 @@ Contains an array of block numbers corresponding to damaged blocks. These number
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560398">IOCTL_DISK_REASSIGN_BLOCKS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdddisk/ni-ntdddisk-ioctl_disk_reassign_blocks">IOCTL_DISK_REASSIGN_BLOCKS</a>
  
 
  

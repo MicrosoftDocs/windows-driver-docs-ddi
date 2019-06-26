@@ -46,7 +46,7 @@ req.typenames: GetFC3MgmtInfo_OUT, *PGetFC3MgmtInfo_OUT
 ## -description
 
 
-The GetFC3MgmtInfo_OUT structure is used to report the output parameter data of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553939">GetFC3MgmtInfo</a> WMI method to the WMI client.
+The GetFC3MgmtInfo_OUT structure is used to report the output parameter data of the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/getfc3mgmtinfo">GetFC3MgmtInfo</a> WMI method to the WMI client.
 
 
 ## -struct-fields
@@ -56,21 +56,21 @@ The GetFC3MgmtInfo_OUT structure is used to report the output parameter data of 
 
 ### -field HBAStatus
 
-Contains a value associated with the WMI class qualifier <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a> that indicates the result of an HBA query operation. 
+Contains a value associated with the WMI class qualifier <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/hba-status">HBA_STATUS</a> that indicates the result of an HBA query operation. 
 
 
 ### -field MgmtInfo
 
-Contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff556032">HBAFC3MgmtInfo</a> that reports FC3 management information. 
+Contains a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hbapiwmi/ns-hbapiwmi-_hbafc3mgmtinfo">HBAFC3MgmtInfo</a> that reports FC3 management information. 
 
 
 ## -remarks
 
 
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff553939">GetFC3MgmtInfo</a> method reports fibre channel-3 management information.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/getfc3mgmtinfo">GetFC3MgmtInfo</a> method reports fibre channel-3 management information.
 
-The WMI tool suite generates a declaration of the GetEventBuffer_OUT structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562506">MSFC_HBAAdapterMethods WMI Class</a>.
+The WMI tool suite generates a declaration of the GetEventBuffer_OUT structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msfc-hbaadaptermethods-wmi-class">MSFC_HBAAdapterMethods WMI Class</a>.
 
 
 
@@ -80,15 +80,15 @@ The WMI tool suite generates a declaration of the GetEventBuffer_OUT structure i
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553939">GetFC3MgmtInfo</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/getfc3mgmtinfo">GetFC3MgmtInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556032">HBAFC3MgmtInfo</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hbapiwmi/ns-hbapiwmi-_hbafc3mgmtinfo">HBAFC3MgmtInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/hba-status">HBA_STATUS</a>
  
 
  

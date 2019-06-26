@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <b>KeDeregisterNmiCallback</b> routine deregisters a nonmaskable interrupt (NMI) callback registered by <a href="https://msdn.microsoft.com/library/windows/hardware/ff553116">KeRegisterNmiCallback</a>.
+The <b>KeDeregisterNmiCallback</b> routine deregisters a nonmaskable interrupt (NMI) callback registered by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-keregisternmicallback">KeRegisterNmiCallback</a>.
 
 
 ## -parameters
@@ -56,7 +56,7 @@ The <b>KeDeregisterNmiCallback</b> routine deregisters a nonmaskable interrupt (
 
 ### -param Handle [in]
 
-Specifies the value returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff553116">KeRegisterNmiCallback</a> when the NMI callback was registered. 
+Specifies the value returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-keregisternmicallback">KeRegisterNmiCallback</a> when the NMI callback was registered. 
 
 
 ## -returns
@@ -73,7 +73,7 @@ The <b>KeDeregisterNmiCallback</b> routine returns STATUS_SUCCESS if the callbac
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553116">KeRegisterNmiCallback</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-keregisternmicallback">KeRegisterNmiCallback</a>
  
 
  

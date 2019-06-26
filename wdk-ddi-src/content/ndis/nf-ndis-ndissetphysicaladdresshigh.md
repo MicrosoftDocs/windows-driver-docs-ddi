@@ -70,15 +70,15 @@ Specifies the value to be written into the high-order part of the address.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557129">NDIS_PHYSICAL_ADDRESS</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff557129(v=vs.85)">NDIS_PHYSICAL_ADDRESS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562650">NdisGetPhysicalAddressHigh</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisgetphysicaladdresshigh">NdisGetPhysicalAddressHigh</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564556">NdisSetPhysicalAddressLow</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndissetphysicaladdresslow">NdisSetPhysicalAddressLow</a>
  
 
  

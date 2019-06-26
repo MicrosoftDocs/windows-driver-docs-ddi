@@ -154,11 +154,11 @@ To obtain a list of valid device fonts, create an information context for the cu
 
 
 
-<a href="https://msdn.microsoft.com/2be594f1-1eb1-42e0-a345-ee7edf4d96dd">IPrintCoreHelperPS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nn-prcomoem-iprintcorehelperps">IPrintCoreHelperPS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552896">IPrintCoreHelperPS::GetFontSubstitution</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintcorehelperps-getfontsubstitution">IPrintCoreHelperPS::GetFontSubstitution</a>
  
 
  

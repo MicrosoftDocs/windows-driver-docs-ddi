@@ -46,7 +46,7 @@ req.typenames: OEMMEMORYUSAGE, *POEMMEMORYUSAGE
 ## -description
 
 
-The OEMMEMORYUSAGE structure is used as an input parameter to a rendering plug-in's <a href="https://msdn.microsoft.com/library/windows/hardware/ff554264">IPrintOemUni::MemoryUsage</a> method.
+The OEMMEMORYUSAGE structure is used as an input parameter to a rendering plug-in's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintoemuni-memoryusage">IPrintOemUni::MemoryUsage</a> method.
 
 
 ## -struct-fields
@@ -61,7 +61,7 @@ Specifies the amount, in bytes, of fixed-sized memory required by the <b>IPrintO
 
 ### -field dwPercentMemoryUsage
 
-Specifies the amount of variably-sized memory required by the <b>IPrintOemUni::MemoryUsage</b> method, expressed as a percentage of the size of the source bitmap received by <a href="https://msdn.microsoft.com/library/windows/hardware/ff554261">IPrintOemUni::ImageProcessing</a>. Supplied by the rendering plug-in.
+Specifies the amount of variably-sized memory required by the <b>IPrintOemUni::MemoryUsage</b> method, expressed as a percentage of the size of the source bitmap received by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintoemuni-imageprocessing">IPrintOemUni::ImageProcessing</a>. Supplied by the rendering plug-in.
 
 
 ### -field dwMaxBandSize
@@ -73,7 +73,7 @@ Specifies the maximum size, in bytes, that can be used for source bitmaps. This 
 
 
 
-The Unidrv driver uses the values in the <b>dwFixedMemoryUsage</b> and <b>dwPercentMemoryUsage</b> members of this structure to determine the optimum size for a GDI drawing surface, taking into account any memory requirements of a rendering plug-in's <b>IPrintOemUni::ImageProcessing</b> method. For more information about how these members are used, see the Remarks section in <a href="https://msdn.microsoft.com/library/windows/hardware/ff554264">IPrintOemUni::MemoryUsage</a>.
+The Unidrv driver uses the values in the <b>dwFixedMemoryUsage</b> and <b>dwPercentMemoryUsage</b> members of this structure to determine the optimum size for a GDI drawing surface, taking into account any memory requirements of a rendering plug-in's <b>IPrintOemUni::ImageProcessing</b> method. For more information about how these members are used, see the Remarks section in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintoemuni-memoryusage">IPrintOemUni::MemoryUsage</a>.
 
 
 
@@ -83,11 +83,11 @@ The Unidrv driver uses the values in the <b>dwFixedMemoryUsage</b> and <b>dwPerc
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554261">IPrintOemUni::ImageProcessing</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintoemuni-imageprocessing">IPrintOemUni::ImageProcessing</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554264">IPrintOemUni::MemoryUsage</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintoemuni-memoryusage">IPrintOemUni::MemoryUsage</a>
  
 
  

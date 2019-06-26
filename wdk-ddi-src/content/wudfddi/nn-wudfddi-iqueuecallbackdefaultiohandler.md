@@ -53,7 +53,7 @@ The <b>IQueueCallbackDefaultIoHandler</b> interface contains a method that handl
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IQueueCallbackDefaultIoHandler</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IQueueCallbackDefaultIoHandler</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IQueueCallbackDefaultIoHandler</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IQueueCallbackDefaultIoHandler</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -68,10 +68,10 @@ The <b>IQueueCallbackDefaultIoHandler</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556847">IQueueCallbackDefaultIoHandler::OnDefaultIoHandler</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iqueuecallbackdefaultiohandler-ondefaultiohandler">IQueueCallbackDefaultIoHandler::OnDefaultIoHandler</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/d0973dc9-58d6-486f-860e-a891600be73e">OnDefaultIoHandler</a> method handles I/O requests that no other method is registered to handle. 
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iqueuecallbackdefaultiohandler-ondefaultiohandler">OnDefaultIoHandler</a> method handles I/O requests that no other method is registered to handle. 
 
 </td>
 </tr>
@@ -82,7 +82,7 @@ The <a href="https://msdn.microsoft.com/d0973dc9-58d6-486f-860e-a891600be73e">On
 
 
 
-A driver registers the <b>IQueueCallbackDefaultIoHandler</b> interface when the driver calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557020">IWDFDevice::CreateIoQueue</a> method to create an I/O queue or to configure the default I/O queue. 
+A driver registers the <b>IQueueCallbackDefaultIoHandler</b> interface when the driver calls the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfdevice-createioqueue">IWDFDevice::CreateIoQueue</a> method to create an I/O queue or to configure the default I/O queue. 
 
 
 

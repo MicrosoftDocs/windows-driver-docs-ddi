@@ -56,12 +56,12 @@ The <b>IoSetMasterIrpStatus</b> routine conditionally replaces the <b>Status</b>
 
 ### -param MasterIrp [in, out]
 
-A pointer to the master <a href="https://msdn.microsoft.com/library/windows/hardware/ff550694">IRP</a>. For more information, see Remarks.
+A pointer to the master <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_irp">IRP</a>. For more information, see Remarks.
 
 
 ### -param Status [in]
 
-An NTSTATUS value to compare to the <b>Status</b> member of the <a href="https://msdn.microsoft.com/59147bd1-6cd7-4fbe-b7bc-52e09ab88576">I/O status block</a> in the master IRP.
+An NTSTATUS value to compare to the <b>Status</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/i-o-status-blocks">I/O status block</a> in the master IRP.
 
 
 ## -returns
@@ -99,7 +99,7 @@ There are two exceptions to the general rule. A <i>Status</i> value of STATUS_VE
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550694">IRP</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_irp">IRP</a>
  
 
  

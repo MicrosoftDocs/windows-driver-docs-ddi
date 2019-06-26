@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/dn914612">WppRecorderDumpLiveDriverData</a> method gets the buffer associated with the specified Inflight Trace Recorder log.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wpprecorder/nf-wpprecorder-wpprecorderdumplivedriverdata">WppRecorderDumpLiveDriverData</a> method gets the buffer associated with the specified Inflight Trace Recorder log.
 
 
 ## -parameters

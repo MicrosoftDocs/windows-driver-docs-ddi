@@ -66,7 +66,7 @@ typedef VOID (*PPARALLEL_FREE_ROUTINE)(
 
 ### -param FreeContext [in]
 
-Pointer to the device extension of a parallel port's functional device object (<a href="https://msdn.microsoft.com/f697e0db-1db0-4a81-94d8-0ca079885480">FDO</a>).
+Pointer to the device extension of a parallel port's functional device object (<a href="https://docs.microsoft.com/windows-hardware/drivers/">FDO</a>).
 
 
 ## -returns
@@ -86,7 +86,7 @@ To obtain a pointer to the system-supplied <i>PPARALLEL_FREE_ROUTINE</i> callbac
 
 The driver should allocate a parallel port before freeing it. A driver can use <a href="..\parallel\nc-parallel-pparallel_query_waiters_routine.md">PPARALLEL_QUERY_WAITERS_ROUTINE</a> to determine the number of clients that are waiting to allocate the parallel port, and <a href="..\parallel\nc-parallel-pparallel_try_allocate_routine.md">PPARALLEL_TRY_ALLOCATE_ROUTINE</a> to try to allocate the parallel port.
 
-For more information, see <a href="https://msdn.microsoft.com/ea3a1998-9e31-4047-9193-6b402db222c9">Synchronizing the Use of a ParallelPort</a>.
+For more information, see <a href="https://docs.microsoft.com/previous-versions/ff544809(v=vs.85)">Synchronizing the Use of a ParallelPort</a>.
 
 
 

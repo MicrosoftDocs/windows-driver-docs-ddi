@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-Gets a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/dn265396">IPrintJob</a> object.
+Gets a pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprintjob">IPrintJob</a> object.
 
 
 ## -parameters
@@ -78,11 +78,11 @@ Returns an <b>HRESULT</b> value. If the method call was not successful, it retur
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265396">IPrintJob</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprintjob">IPrintJob</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265397">IPrintJobCollection</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprintjobcollection">IPrintJobCollection</a>
  
 
  

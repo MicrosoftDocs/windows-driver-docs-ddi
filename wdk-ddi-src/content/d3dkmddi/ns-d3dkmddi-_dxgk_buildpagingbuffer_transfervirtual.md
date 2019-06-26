@@ -56,7 +56,7 @@ req.typenames: DXGK_BUILDPAGINGBUFFER_TRANSFERVIRTUAL
 
 ### -field hAllocation
 
-Kernel mode driver handle of the transferred allocation content. The handle is returned from <a href="https://msdn.microsoft.com/a28287d6-4dfa-4db4-92df-bbcd9379a5b2">DxgkDdiCreateAllocation</a>. The allocation properties are needed to perform special transfers (as swizzle, de-swizzle, etc.).
+Kernel mode driver handle of the transferred allocation content. The handle is returned from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_createallocation">DxgkDdiCreateAllocation</a>. The allocation properties are needed to perform special transfers (as swizzle, de-swizzle, etc.).
 
 
 ### -field AllocationOffsetInBytes
@@ -88,12 +88,12 @@ The GPU virtual address of the page table that is used to map the <b>SourceVirtu
 
 ### -field TransferDirection
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/dn906830">DXGK_MEMORY_TRANSFER_DIRECTION</a> structure describing the operation.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ne-d3dkmddi-_dxgk_memory_transfer_direction">DXGK_MEMORY_TRANSFER_DIRECTION</a> structure describing the operation.
 
 
 ### -field Flags
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/dn906843">DXGK_TRANSFERVIRTUALFLAGS</a> structure describing the operation.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgk_transfervirtualflags">DXGK_TRANSFERVIRTUALFLAGS</a> structure describing the operation.
 
 
 ### -field DestinationPageTable
@@ -106,19 +106,19 @@ The GPU virtual address of the page table that  is used to map the <b>Destinatio
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557540">DXGKARG_BUILDPAGINGBUFFER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_buildpagingbuffer">DXGKARG_BUILDPAGINGBUFFER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn906830">DXGK_MEMORY_TRANSFER_DIRECTION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ne-d3dkmddi-_dxgk_memory_transfer_direction">DXGK_MEMORY_TRANSFER_DIRECTION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn906843">DXGK_TRANSFERVIRTUALFLAGS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgk_transfervirtualflags">DXGK_TRANSFERVIRTUALFLAGS</a>
 
 
 
-<a href="https://msdn.microsoft.com/a28287d6-4dfa-4db4-92df-bbcd9379a5b2">DxgkDdiCreateAllocation</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_createallocation">DxgkDdiCreateAllocation</a>
  
 
  

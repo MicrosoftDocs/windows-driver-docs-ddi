@@ -57,17 +57,17 @@ The<b> KsPinRegisterPowerCallbacks </b>function registers power management callb
 
 ### -param Pin [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563483">KSPIN</a> structure for which to register power callbacks. Note that the pin must actually process (be pin-centric) in order to receive power notification messages.
+A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_kspin">KSPIN</a> structure for which to register power callbacks. Note that the pin must actually process (be pin-centric) in order to receive power notification messages.
 
 
 ### -param Sleep [in, optional]
 
-This parameter supplies the address of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff556345">AVStrMiniPinPower</a>  function that handles sleep requests for the device. Optional.
+This parameter supplies the address of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nc-ks-pfnkspinpower">AVStrMiniPinPower</a>  function that handles sleep requests for the device. Optional.
 
 
 ### -param Wake [in, optional]
 
-This parameter supplies the address of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff556345">AVStrMiniPinPower</a>  function that handles wake requests for the device. Optional.
+This parameter supplies the address of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nc-ks-pfnkspinpower">AVStrMiniPinPower</a>  function that handles wake requests for the device. Optional.
 
 
 ## -returns
@@ -83,7 +83,7 @@ None
 
 
 
-<div class="alert"><b>Warning</b>  <i>Do not attempt to obtain the filter control mutex</i> from within either the Sleep or Wake callback, or deadlock may occur. For more information about mutexes, read <a href="https://msdn.microsoft.com/011edaaa-7449-41c3-8cfb-0d319901af8b">Mutexes in AVStream</a>.</div>
+<div class="alert"><b>Warning</b>  <i>Do not attempt to obtain the filter control mutex</i> from within either the Sleep or Wake callback, or deadlock may occur. For more information about mutexes, read <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/mutexes-in-avstream">Mutexes in AVStream</a>.</div>
 <div> </div>
 At least one of the callbacks must be specified when calling <b>KsPinRegisterPowerCallbacks</b>.
 
@@ -95,11 +95,11 @@ At least one of the callbacks must be specified when calling <b>KsPinRegisterPow
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556345">AVStrMiniPinPower</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nc-ks-pfnkspinpower">AVStrMiniPinPower</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562550">KsFilterRegisterPowerCallbacks</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksfilterregisterpowercallbacks">KsFilterRegisterPowerCallbacks</a>
  
 
  

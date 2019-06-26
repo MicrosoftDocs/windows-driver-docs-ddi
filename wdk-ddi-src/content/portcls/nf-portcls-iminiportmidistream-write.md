@@ -136,11 +136,11 @@ Zero. This value indicates that the device is too busy to write any of the calle
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536704">IMiniportMidiStream</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iminiportmidistream">IMiniportMidiStream</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536705">IMiniportMidiStream::Read</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iminiportmidistream-read">IMiniportMidiStream::Read</a>
  
 
  

@@ -87,7 +87,7 @@ The structure that contains the parameters for the SCO connection request.
 ### -field Parameters.Connect.Request.LinkType
 
 A value from the 
-        <a href="https://msdn.microsoft.com/library/windows/hardware/ff536781">SCO_LINK_TYPE</a> enumeration that indicates the
+        <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/ne-bthddi-_sco_link_type">SCO_LINK_TYPE</a> enumeration that indicates the
         type of incoming connection.
 
 
@@ -100,7 +100,7 @@ The structure that contains parameters for the
 ### -field Parameters.Disconnect.Reason
 
 A 
-       <a href="https://msdn.microsoft.com/library/windows/hardware/ff536775">SCO_DISCONNECT_REASON</a> value that
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/ne-bthddi-_sco_disconnect_reason">SCO_DISCONNECT_REASON</a> value that
        indicates why the SCO connection was terminated.
 
 
@@ -116,7 +116,7 @@ A Boolean value that a profile driver can set to indicate whether the SCO connec
 
 
 A profile driver's 
-    <a href="https://msdn.microsoft.com/abc9fc88-6852-4bfb-8271-7a73a508c397">SCO Callback Function</a> should process
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/nc-bthddi-pfnsco_indication_callback">SCO Callback Function</a> should process
     a notification differently depending upon the value that the Bluetooth driver stack passes in the 
     <i>Indication</i> parameter of the callback function.
 
@@ -138,11 +138,11 @@ When the Bluetooth driver stack passes
 
 
 
-<a href="https://msdn.microsoft.com/abc9fc88-6852-4bfb-8271-7a73a508c397">SCO Callback Function</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/nc-bthddi-pfnsco_indication_callback">SCO Callback Function</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536775">SCO_DISCONNECT_REASON</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/ne-bthddi-_sco_disconnect_reason">SCO_DISCONNECT_REASON</a>
  
 
  

@@ -56,7 +56,7 @@ The<b> KsFilterGetOuterUnknown </b>function returns the outer <b>IUnknown</b> in
 
 ### -param Filter [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562522">KSFILTER</a> structure for which to return the outer <b>IUnknown</b>.
+A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksfilter">KSFILTER</a> structure for which to return the outer <b>IUnknown</b>.
 
 
 ## -returns
@@ -72,7 +72,7 @@ A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff
 
 
 
-This call is an inline function call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff562655">KsGetOuterUnknown</a>.
+This call is an inline function call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksgetouterunknown">KsGetOuterUnknown</a>.
 
 
 
@@ -82,27 +82,27 @@ This call is an inline function call to <a href="https://msdn.microsoft.com/libr
 
 
 
-<a href="https://msdn.microsoft.com/305039fe-0a00-4f3e-ae1a-61c50a2f2fb3">AVStream Overview</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/avstream-overview">AVStream Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559766">IKsControl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nn-ksproxy-ikscontrol">IKsControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562549">KsFilterRegisterAggregatedClientUnknown</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksfilterregisteraggregatedclientunknown">KsFilterRegisterAggregatedClientUnknown</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562655">KsGetOuterUnknown</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksgetouterunknown">KsGetOuterUnknown</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563515">KsPinGetOuterUnknown</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-kspingetouterunknown">KsPinGetOuterUnknown</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563521">KsPinRegisterAggregatedClientUnknown</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-kspinregisteraggregatedclientunknown">KsPinRegisterAggregatedClientUnknown</a>
 
 
 

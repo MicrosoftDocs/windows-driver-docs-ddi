@@ -93,7 +93,7 @@ Corruption was found on the memory page <i>Page</i>.
 </table>
  
 
-This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+This method can also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 
 
@@ -102,7 +102,7 @@ This method can also return error values.  See <a href="https://msdn.microsoft.c
 
 
 
-This method is only available in <a href="https://msdn.microsoft.com/93b65114-f680-41f7-b754-699f773955ba">kernel-mode debugging</a>, and is only useful when the <a href="https://msdn.microsoft.com/93b65114-f680-41f7-b754-699f773955ba">kernel</a> was booted using the <b>/nolowmem</b> option.
+This method is only available in <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/k">kernel-mode debugging</a>, and is only useful when the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/k">kernel</a> was booted using the <b>/nolowmem</b> option.
 
 When the kernel is booted with the <b>/nolowmem</b> option, the kernel, drivers, operating system and applications are loaded in memory above 4 GB, while the low 4 GB of memory is filled with a unique pattern.  The <b>CheckLowMemory</b> method checks this pattern for corruption.
 

@@ -87,14 +87,14 @@ This bit is set if the power meter reports data only when the power supply is di
 
 ### -field MeasurementUnit
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff543897">PMI_MEASUREMENT_UNIT</a> enumeration value that specifies the measurement unit. 
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pmi/ne-pmi-pmi_measurement_unit">PMI_MEASUREMENT_UNIT</a> enumeration value that specifies the measurement unit. 
 
 <div class="alert"><b>Note</b>  Beginning with Windows 7, Windows Server 2008 R2, only measurement units of milliwatts (mW) are supported.</div>
 <div> </div>
 
 ### -field MeasurementType
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff543895">PMI_MEASUREMENT_TYPE</a> enumeration value that specifies the measurement type, such as whether input or output power is measured.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pmi/ne-pmi-pmi_measurement_type">PMI_MEASUREMENT_TYPE</a> enumeration value that specifies the measurement type, such as whether input or output power is measured.
 
 
 ### -field Accuracy
@@ -172,9 +172,9 @@ The power meter's asset information. This information is defined by the OEM for 
 
 </li>
 </ul>
-The PMI_REPORTED_CAPABILITIES structure is returned through an <a href="https://msdn.microsoft.com/library/windows/hardware/ff543837">IOCTL_PMI_GET_CAPABILITIES</a> I/O control (IOCTL) query request. The input data for this query request is set to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543864">PMI_CAPABILITIES_TYPE</a> enumerator value of <b>PmiReportedCapabilities</b>..
+The PMI_REPORTED_CAPABILITIES structure is returned through an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pmi/ni-pmi-ioctl_pmi_get_capabilities">IOCTL_PMI_GET_CAPABILITIES</a> I/O control (IOCTL) query request. The input data for this query request is set to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pmi/ne-pmi-pmi_capabilities_type">PMI_CAPABILITIES_TYPE</a> enumerator value of <b>PmiReportedCapabilities</b>..
 
-If the query request completes successfully, the request returns a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543859">PMI_CAPABILITIES</a> structure. The <b>Capabilities</b> member of this structure is formatted as a PMI_REPORTED_CAPABILITIES structure.
+If the query request completes successfully, the request returns a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pmi/ns-pmi-_pmi_capabilities">PMI_CAPABILITIES</a> structure. The <b>Capabilities</b> member of this structure is formatted as a PMI_REPORTED_CAPABILITIES structure.
 
 
 
@@ -184,15 +184,15 @@ If the query request completes successfully, the request returns a <a href="http
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543837">IOCTL_PMI_GET_CAPABILITIES</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pmi/ni-pmi-ioctl_pmi_get_capabilities">IOCTL_PMI_GET_CAPABILITIES</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543859">PMI_CAPABILITIES</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pmi/ns-pmi-_pmi_capabilities">PMI_CAPABILITIES</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543864">PMI_CAPABILITIES_TYPE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pmi/ne-pmi-pmi_capabilities_type">PMI_CAPABILITIES_TYPE</a>
  
 
  

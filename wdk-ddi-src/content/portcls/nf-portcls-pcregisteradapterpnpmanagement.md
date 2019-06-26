@@ -57,12 +57,12 @@ The  PcRegisterAdapterPnpManagement function registers the adapter's PnP-managem
 
 ### -param Unknown
 
-<p>Pointer to an adapter driver object's <a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx"><b>IUnknown</b></a> interface. The PortCls system driver queries this object for its <a href="https://msdn.microsoft.com/library/Mt604850(v=VS.85).aspx">IAdapterPnpManagement</a> interface.</p>
+<p>Pointer to an adapter driver object's <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown"><b>IUnknown</b></a> interface. The PortCls system driver queries this object for its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iadapterpnpmanagement">IAdapterPnpManagement</a> interface.</p>
 
 
 ### -param DeviceObject [in]
 
-Specifies a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a> structure that represents the functional device object of the adapter.
+Specifies a pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure that represents the functional device object of the adapter.
 
 
 ## -returns
@@ -78,9 +78,9 @@ Specifies a pointer to a <a href="https://msdn.microsoft.com/library/windows/har
 
 
 
-Portcls uses <b>PcRegisterAdapterPnpManagement</b> and <a href="https://msdn.microsoft.com/library/windows/hardware/mt604866">PcUnregisterAdapterPnpManagement</a> to support PNP rebalance.
+Portcls uses <b>PcRegisterAdapterPnpManagement</b> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-pcunregisteradapterpnpmanagement">PcUnregisterAdapterPnpManagement</a> to support PNP rebalance.
 
-For more information,  see <a href="https://msdn.microsoft.com/FCAD7F8B-AA9B-430A-BCAF-04E13FA15382">Implement PnP Rebalance for PortCls Audio Drivers</a>.
+For more information,  see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/implement-pnp-rebalance-for-portcls-audio-drivers">Implement PnP Rebalance for PortCls Audio Drivers</a>.
 
 
 
@@ -90,19 +90,19 @@ For more information,  see <a href="https://msdn.microsoft.com/FCAD7F8B-AA9B-430
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt604850">IAdapterPnpManagement</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iadapterpnpmanagement">IAdapterPnpManagement</a>
 
 
 
-<a href="https://msdn.microsoft.com/FCAD7F8B-AA9B-430A-BCAF-04E13FA15382">Implement PnP Rebalance for PortCls Audio Drivers</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/implement-pnp-rebalance-for-portcls-audio-drivers">Implement PnP Rebalance for PortCls Audio Drivers</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt604866">PcUnregisterAdapterPnpManagement</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-pcunregisteradapterpnpmanagement">PcUnregisterAdapterPnpManagement</a>
  
 
  

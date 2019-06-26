@@ -78,13 +78,13 @@ As = per-pixel source alpha value [0.0, 1.0]
 
 Ap = per-plane alpha value [0.0, 1.0]
 
-Ae = per-entry palette alpha value [0.0, 1.0] or 1.0 if the driver did not set the DXVAHDDDI_FEATURE_CAPS_ALPHA_PALETTE value in the <b>FeatureCaps</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563113">DXVAHDDDI_VPDEVCAPS</a> structure when the driver's <a href="https://msdn.microsoft.com/cf6c61ce-7b53-46d0-b3ff-ed5b2b964c65">GetCaps</a> function is called with the D3DDDICAPS_DXVAHD_GETVPDEVCAPS value set.
+Ae = per-entry palette alpha value [0.0, 1.0] or 1.0 if the driver did not set the DXVAHDDDI_FEATURE_CAPS_ALPHA_PALETTE value in the <b>FeatureCaps</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_dxvahdddi_vpdevcaps">DXVAHDDDI_VPDEVCAPS</a> structure when the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_getcaps">GetCaps</a> function is called with the D3DDDICAPS_DXVAHD_GETVPDEVCAPS value set.
 
 Cd = Cs * (As * Ap * Ae) + Cd * (1.0 - As * Ap * Ae)
 
 Ad = per-pixel destination alpha value [0.0, 1.0]
 
-The Ad parameter is set with values from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562974">DXVAHDDDI_ALPHA_FILL_MODE</a> enumeration.
+The Ad parameter is set with values from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ne-d3dumddi-_dxvahdddi_alpha_fill_mode">DXVAHDDDI_ALPHA_FILL_MODE</a> enumeration.
 
 
 
@@ -94,7 +94,7 @@ The Ad parameter is set with values from the <a href="https://msdn.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562974">DXVAHDDDI_ALPHA_FILL_MODE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ne-d3dumddi-_dxvahdddi_alpha_fill_mode">DXVAHDDDI_ALPHA_FILL_MODE</a>
  
 
  

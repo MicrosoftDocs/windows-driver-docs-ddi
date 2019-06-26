@@ -49,9 +49,9 @@ req.typenames:
 
 The 
   <b>FwpsAllocateCloneNetBufferList0</b> function allocates a 
-  <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure that is a clone of an existing
+  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure that is a clone of an existing
   <b>NET_BUFFER_LIST</b> structure.
-<div class="alert"><b>Note</b>  <b>FwpsAllocateCloneNetBufferList0</b> is a specific version of <b>FwpsAllocateCloneNetBufferList</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
+<div class="alert"><b>Note</b>  <b>FwpsAllocateCloneNetBufferList0</b> is a specific version of <b>FwpsAllocateCloneNetBufferList</b>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
 ## -parameters
 
@@ -61,25 +61,25 @@ The
 ### -param originalNetBufferList [in, out]
 
 A pointer to the original 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure that is being
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure that is being
      cloned.
 
 
 ### -param netBufferListPoolHandle [in, optional]
 
 A 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> pool handle that was
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> pool handle that was
      obtained from a previous call to the 
-     <a href="https://msdn.microsoft.com/b117b472-0c26-41a9-b364-3d0cfbd26cc9">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisallocatenetbufferlistpool">
      NdisAllocateNetBufferListPool</a> function. This parameter is optional and can be <b>NULL</b>.
 
 
 ### -param netBufferPoolHandle [in, optional]
 
 A 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> pool handle that was obtained from a
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> pool handle that was obtained from a
      previous call to the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff561613">NdisAllocateNetBufferPool</a> function. This parameter is optional and can be <b>NULL</b>.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisallocatenetbufferpool">NdisAllocateNetBufferPool</a> function. This parameter is optional and can be <b>NULL</b>.
 
 
 ### -param allocateCloneFlags [in]
@@ -91,7 +91,7 @@ There are currently no flags defined for this function. Callout drivers should s
 ### -param netBufferList [out]
 
 A pointer to a variable that receives a pointer to the clone 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
 
 
 ## -returns
@@ -114,7 +114,7 @@ The
 </td>
 <td width="60%">
 The clone 
-       <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure was
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure was
        successfully allocated.
 
 </td>
@@ -142,11 +142,11 @@ An error occurred.
 
 A callout driver calls the 
     <b>FwpsAllocateCloneNetBufferList0</b> function to allocate a clone 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure of an existing
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure of an existing
     NET_BUFFER_LIST structure.
 
 This function is a wrapper around the 
-    <a href="https://msdn.microsoft.com/357605a1-5c57-44ed-97b3-f466f9a7182c">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisallocateclonenetbufferlist">
     NdisAllocateCloneNetBufferList</a> function, but it is specialized for use by WFP 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/packet-injection-functions">packet injection functions</a>.
 
@@ -161,7 +161,7 @@ The clone NET_BUFFER_LIST structure describes the same data that is described by
     <b>FwpsAllocateCloneNetBufferList0</b> function does not copy the data that is described by the original
     MDLs to new data buffers. Instead, the clone NET_BUFFER_LIST structure references the original data
     buffers. The clone NET_BUFFER_LIST structure does not include an initial 
-    <a href="https://msdn.microsoft.com/e5d70be6-daa5-4d2e-94fd-5739edd8821e">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_list_context">
     NET_BUFFER_LIST_CONTEXT</a> structure.
 
 This function sets the 
@@ -174,11 +174,11 @@ A callout driver can modify the clone NET_BUFFER_LIST structure and inject it in
     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/packet-injection-functions">packet injection functions</a>. After
     the data described by the clone NET_BUFFER_LIST structure has been successfully injected into the network
     stack, the callout driver frees the clone NET_BUFFER_LIST structure by calling the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff551170">FwpsFreeCloneNetBufferList0</a> function.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsfreeclonenetbufferlist0">FwpsFreeCloneNetBufferList0</a> function.
 
-A callout driver can insert or replace individual net buffers (<a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a>) or MDLs inside the clone net buffer
+A callout driver can insert or replace individual net buffers (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>) or MDLs inside the clone net buffer
     list. Such a driver must also undo the modifications before it calls the 
-    <a href="https://msdn.microsoft.com/0d0dea63-de0d-4421-b123-ce31ac6af1d9">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsfreeclonenetbufferlist0">
     FwpsFreeCloneNetBufferList0</a> function.
 
 <h3><a id="Guidelines_for_Managing_Cloned_Packets"></a><a id="guidelines_for_managing_cloned_packets"></a><a id="GUIDELINES_FOR_MANAGING_CLONED_PACKETS"></a>Guidelines for Managing Cloned Packets</h3>
@@ -192,7 +192,7 @@ The intended use for cloned packets in WFP is to get clarification from a user-m
 
 If the callout driver needs to wait for a potentially lengthy operation, it makes a deep copy of
      the packet using 
-     <a href="https://msdn.microsoft.com/d7f2d3c0-f2c9-4624-b3e1-9fbbf64c7186">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsallocatenetbufferandnetbufferlist0">
      FwpsAllocateNetBufferAndNetBufferList0</a>, and it blocks and absorbs the original packet.
 
 Callout drivers should always return held packets as quickly as possible.
@@ -205,28 +205,28 @@ Callout drivers should always return held packets as quickly as possible.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551170">FwpsFreeCloneNetBufferList0</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsfreeclonenetbufferlist0">FwpsFreeCloneNetBufferList0</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568389">NET_BUFFER_LIST_CONTEXT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_list_context">NET_BUFFER_LIST_CONTEXT</a>
 
 
 
-<a href="https://msdn.microsoft.com/b117b472-0c26-41a9-b364-3d0cfbd26cc9">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisallocatenetbufferlistpool">
    NdisAllocateNetBufferListPool</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561613">NdisAllocateNetBufferPool</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisallocatenetbufferpool">NdisAllocateNetBufferPool</a>
 
 
 

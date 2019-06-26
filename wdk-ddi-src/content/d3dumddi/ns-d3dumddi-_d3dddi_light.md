@@ -124,7 +124,7 @@ The D3DDDI_LIGHT structure describes a set of lighting properties.
 
 
 
-<a href="https://msdn.microsoft.com/28e3992e-a636-47e2-a5a6-5da06d276b5c">SetLight</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_setlight">SetLight</a>
  
 
  

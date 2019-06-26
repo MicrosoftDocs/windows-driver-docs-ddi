@@ -56,12 +56,12 @@ The <i>DxgkDdiSetDisplayPrivateDriverFormat</i> function changes the private-for
 
 ### -param hAdapter [in]
 
-[in] A handle to a context block that is associated with a display adapter. The display miniport driver previously provided this handle to the Microsoft DirectX graphics kernel subsystem in the <i>MiniportDeviceContext</i> output parameter of the <a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a> function.
+[in] A handle to a context block that is associated with a display adapter. The display miniport driver previously provided this handle to the Microsoft DirectX graphics kernel subsystem in the <i>MiniportDeviceContext</i> output parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function.
 
 
 ### -param pSetDisplayPrivateDriverFormat [in]
 
-[in] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff557651">DXGKARG_SETDISPLAYPRIVATEDRIVERFORMAT</a> structure that contains function arguments.
+[in] A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_setdisplayprivatedriverformat">DXGKARG_SETDISPLAYPRIVATEDRIVERFORMAT</a> structure that contains function arguments.
 
 
 ## -returns
@@ -77,9 +77,9 @@ The <i>DxgkDdiSetDisplayPrivateDriverFormat</i> function changes the private-for
 
 
 
-The DirectX graphics kernel subsystem calls the display miniport driver's <i>DxgkDdiSetDisplayPrivateDriverFormat</i> function after the user-mode display driver calls the <a href="https://msdn.microsoft.com/499e6de7-67cc-4834-bcec-4f3907b180f7">pfnSetDisplayPrivateDriverFormatCb</a> callback function. For example, the user-mode display driver might call <b>pfnSetDisplayPrivateDriverFormatCb</b> to change the swizzling format of the video present source when a full-screen flipping change is created. The DirectX graphics kernel subsystem then calls the display miniport driver's <i>DxgkDdiSetDisplayPrivateDriverFormat</i> to change the private-driver format of the video present source. This allows for the primary allocation to be displayed on the video present source without a need for translation of the primary surface.
+The DirectX graphics kernel subsystem calls the display miniport driver's <i>DxgkDdiSetDisplayPrivateDriverFormat</i> function after the user-mode display driver calls the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_setdisplayprivatedriverformatcb">pfnSetDisplayPrivateDriverFormatCb</a> callback function. For example, the user-mode display driver might call <b>pfnSetDisplayPrivateDriverFormatCb</b> to change the swizzling format of the video present source when a full-screen flipping change is created. The DirectX graphics kernel subsystem then calls the display miniport driver's <i>DxgkDdiSetDisplayPrivateDriverFormat</i> to change the private-driver format of the video present source. This allows for the primary allocation to be displayed on the video present source without a need for translation of the primary surface.
 
-<div class="alert"><b>Note</b>  <i>DxgkDdiSetDisplayPrivateDriverFormat</i> does not apply the private-driver format that the <b>PrivateDriverFormatAttribute</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557651">DXGKARG_SETDISPLAYPRIVATEDRIVERFORMAT</a> structure that is pointed to by <i>pSetDisplayPrivateDriverFormat</i> specifies to any allocation. <i>DxgkDdiSetDisplayPrivateDriverFormat</i> applies the private-driver format directly to the video present source. For example, <i>DxgkDdiSetDisplayPrivateDriverFormat</i> might reprogram the DAC registers to scan from a different swizzling format. </div>
+<div class="alert"><b>Note</b>  <i>DxgkDdiSetDisplayPrivateDriverFormat</i> does not apply the private-driver format that the <b>PrivateDriverFormatAttribute</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_setdisplayprivatedriverformat">DXGKARG_SETDISPLAYPRIVATEDRIVERFORMAT</a> structure that is pointed to by <i>pSetDisplayPrivateDriverFormat</i> specifies to any allocation. <i>DxgkDdiSetDisplayPrivateDriverFormat</i> applies the private-driver format directly to the video present source. For example, <i>DxgkDdiSetDisplayPrivateDriverFormat</i> might reprogram the DAC registers to scan from a different swizzling format. </div>
 <div> </div>
 <i>DxgkDdiSetDisplayPrivateDriverFormat</i> should be made pageable.
 
@@ -91,11 +91,11 @@ The DirectX graphics kernel subsystem calls the display miniport driver's <i>Dxg
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557651">DXGKARG_SETDISPLAYPRIVATEDRIVERFORMAT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_setdisplayprivatedriverformat">DXGKARG_SETDISPLAYPRIVATEDRIVERFORMAT</a>
 
 
 
-<a href="https://msdn.microsoft.com/499e6de7-67cc-4834-bcec-4f3907b180f7">pfnSetDisplayPrivateDriverFormatCb</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_setdisplayprivatedriverformatcb">pfnSetDisplayPrivateDriverFormatCb</a>
  
 
  

@@ -46,7 +46,7 @@ req.typenames: OB_PRE_OPERATION_INFORMATION, *POB_PRE_OPERATION_INFORMATION
 ## -description
 
 
-The <b>OB_PRE_OPERATION_INFORMATION</b> structure provides information about a process or thread handle operation to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff557745">ObjectPreCallback</a> routine.
+The <b>OB_PRE_OPERATION_INFORMATION</b> structure provides information about a process or thread handle operation to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pob_pre_operation_callback">ObjectPreCallback</a> routine.
 
 
 ## -struct-fields
@@ -100,12 +100,12 @@ A pointer to the object type of the object. This member is <b>PsProcessType</b> 
 
 ### -field CallContext
 
-A pointer to driver-specific context information for the operation. By default, the Filter Manager sets this member to <b>NULL</b>, but the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557745">ObjectPreCallback</a> routine can reset the <b>CallContext</b> member in a driver-specific manner. The Filter Manager passes this value to the matching <a href="https://msdn.microsoft.com/library/windows/hardware/ff557741">ObjectPostCallback</a> routine.
+A pointer to driver-specific context information for the operation. By default, the Filter Manager sets this member to <b>NULL</b>, but the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pob_pre_operation_callback">ObjectPreCallback</a> routine can reset the <b>CallContext</b> member in a driver-specific manner. The Filter Manager passes this value to the matching <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pob_post_operation_callback">ObjectPostCallback</a> routine.
 
 
 ### -field Parameters
 
-A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff558739">OB_PRE_OPERATION_PARAMETERS</a> union that contains operation-specific information. The <b>Operation</b> member determines which member of the union is valid.
+A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_ob_pre_operation_parameters">OB_PRE_OPERATION_PARAMETERS</a> union that contains operation-specific information. The <b>Operation</b> member determines which member of the union is valid.
 
 
 ## -see-also
@@ -113,15 +113,15 @@ A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff5
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558739">OB_PRE_OPERATION_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_ob_pre_operation_parameters">OB_PRE_OPERATION_PARAMETERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557741">ObjectPostCallback</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pob_post_operation_callback">ObjectPostCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557745">ObjectPreCallback</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pob_pre_operation_callback">ObjectPreCallback</a>
  
 
  

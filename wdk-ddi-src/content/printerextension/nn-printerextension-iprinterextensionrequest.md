@@ -66,7 +66,7 @@ The <b>IPrinterExtensionRequest</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406716">Cancel</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nf-printerextension-iprinterextensionrequest-cancel">Cancel</a>
 </td>
 <td align="left" width="63%">
 Completes the extension event with a cancellation.
@@ -75,7 +75,7 @@ Completes the extension event with a cancellation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406719">Complete</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nf-printerextension-iprinterextensionrequest-complete">Complete</a>
 </td>
 <td align="left" width="63%">
 Completes the extension event.
@@ -90,11 +90,11 @@ Completes the extension event.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh973207">IPrinterExtensionEventArgs</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprinterextensioneventargs">IPrinterExtensionEventArgs</a>
 
 
 
-<a href="https://msdn.microsoft.com/2F11C510-B649-4DC6-B0BC-89C4159E464C">IPrinterExtensionEventArgs::Request</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nf-printerextension-iprinterextensioneventargs-get_request">IPrinterExtensionEventArgs::Request</a>
  
 
  

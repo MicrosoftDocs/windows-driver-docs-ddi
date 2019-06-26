@@ -65,7 +65,7 @@ Pointer to the virtual address for which to return the physical address.
 
 <b>MmGetPhysicalAddress</b> returns the physical address that corresponds to the given virtual address.
 
-Do not use this routine to obtain physical addresses for use with DMA operations. For information about the proper techniques for performing DMA operations, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540519">Adapter Objects and DMA</a>.
+Do not use this routine to obtain physical addresses for use with DMA operations. For information about the proper techniques for performing DMA operations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/adapter-objects-and-dma">Adapter Objects and DMA</a>.
 
 
 
@@ -84,19 +84,19 @@ Callers of <b>MmGetPhysicalAddress</b> can be running at any IRQL, provided that
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554572">MmIsAddressValid</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-mmisaddressvalid">MmIsAddressValid</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554588">MmIsNonPagedSystemAddressValid</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mmcreatemdl">MmIsNonPagedSystemAddressValid</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554618">MmMapIoSpace</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-mmmapiospace">MmMapIoSpace</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554664">MmProbeAndLockPages</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-mmprobeandlockpages">MmProbeAndLockPages</a>
  
 
  

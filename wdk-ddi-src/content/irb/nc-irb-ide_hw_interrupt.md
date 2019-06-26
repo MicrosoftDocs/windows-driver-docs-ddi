@@ -47,7 +47,7 @@ req.typenames:
 
 
 The <b><i>IdeHwInterrupt</i></b> miniport driver routine handles interrupts from the host bus adapter (HBA) to which the controller for the miniport driver is connected. 
-<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -parameters
 
@@ -88,7 +88,7 @@ Disable interrupts on the channel that is indicated by the <i>ChannelExtension</
 
 </li>
 <li>
-Request a worker routine by using <a href="https://msdn.microsoft.com/library/windows/hardware/ff550229">AtaPortRequestWorkerRoutine</a>. 
+Request a worker routine by using <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/nf-irb-ataportrequestworkerroutine">AtaPortRequestWorkerRoutine</a>. 
 
 </li>
 <li>
@@ -105,13 +105,13 @@ The following ATA port routines must not be called from the <b><i>IdeHwInterrupt
 <ul>
 <li>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550146">AtaPortCompleteAllActiveRequests</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/nf-irb-ataportcompleteallactiverequests">AtaPortCompleteAllActiveRequests</a>
 
 
 </li>
 <li>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550155">AtaPortDeviceBusy</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/nf-irb-ataportdevicebusy">AtaPortDeviceBusy</a>
 
 
 </li>
@@ -128,15 +128,15 @@ The worker routine must clear the interrupt on the HBA before it returns <b>TRUE
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550146">AtaPortCompleteAllActiveRequests</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/nf-irb-ataportcompleteallactiverequests">AtaPortCompleteAllActiveRequests</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550155">AtaPortDeviceBusy</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/nf-irb-ataportdevicebusy">AtaPortDeviceBusy</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550229">AtaPortRequestWorkerRoutine</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/nf-irb-ataportrequestworkerroutine">AtaPortRequestWorkerRoutine</a>
  
 
  

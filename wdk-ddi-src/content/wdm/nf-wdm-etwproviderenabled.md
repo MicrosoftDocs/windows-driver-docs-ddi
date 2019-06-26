@@ -84,7 +84,7 @@ The function returns <b>TRUE</b> if the provider is enabled and <b>FALSE</b> if 
 
 You can use the <b>EtwProviderEnabled</b> function to verify that the registered provider is enabled for any event by passing in zeros for the <i>Level</i> and <i>Keyword</i> values when you call the function. If any event is enabled, the provider is enabled. 
 
-If an event descriptor is already available, use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545590">EtwEventEnabled</a> function.
+If an event descriptor is already available, use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-etweventenabled">EtwEventEnabled</a> function.
 
 
 
@@ -94,7 +94,7 @@ If an event descriptor is already available, use the <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545590">EtwEventEnabled</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-etweventenabled">EtwEventEnabled</a>
  
 
  

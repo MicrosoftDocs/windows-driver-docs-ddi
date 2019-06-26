@@ -57,7 +57,7 @@ This function is used by the Avstream miniport driver to register callbacks for 
 
 ### -param KsDevice [in]
 
-A KS device object representing the device managed by KS. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff561681">KSDEVICE</a>.
+A KS device object representing the device managed by KS. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksdevice">KSDEVICE</a>.
 
 
 ### -param KsDeviceThermalDispatch [in]
@@ -84,7 +84,7 @@ Returns NTSTATUS  STATUS_SUCCESS for success conditions or STATUS_INVALID_DEVICE
 </ul>
 
 
-For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh698236">Device-Level Thermal Management</a>.
+For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/device-level-thermal-management">Device-Level Thermal Management</a>.
 
 
 
@@ -94,7 +94,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561681">KSDEVICE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksdevice">KSDEVICE</a>
  
 
  

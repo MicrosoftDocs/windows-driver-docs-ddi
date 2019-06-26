@@ -50,7 +50,7 @@ req.typenames:
 A protocol driver calls the
   <b>NdisDeregisterProtocolDriver</b> function to release the resources that NDIS allocated when the driver
   called the 
-  <a href="https://msdn.microsoft.com/b48571eb-13a2-4541-80ac-c8d31f378d37">
+  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisregisterprotocoldriver">
   NdisRegisterProtocolDriver</a> function.
 
 
@@ -62,7 +62,7 @@ A protocol driver calls the
 ### -param NdisProtocolHandle [in]
 
 The handle returned by the 
-     <a href="https://msdn.microsoft.com/b48571eb-13a2-4541-80ac-c8d31f378d37">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisregisterprotocoldriver">
      NdisRegisterProtocolDriver</a> function.
 
 
@@ -81,16 +81,16 @@ None
 
 Registered protocol drivers typically call 
     <b>NdisDeregisterProtocolDriver</b> when the driver's 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff564886">Unload</a> routine has been called or after errors occur
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-driver_unload">Unload</a> routine has been called or after errors occur
     in the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine. Protocol drivers must not
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine. Protocol drivers must not
     call 
     <b>NdisDeregisterProtocolDriver</b> from any entry point that NDIS calls. Calling 
     <b>NdisDeregisterProtocolDriver</b> from such an entry point could cause a deadlock.
 
 If a protocol driver has open bindings, its call to 
     <b>NdisDeregisterProtocolDriver</b> causes NDIS to call the protocol driver's 
-    <a href="https://msdn.microsoft.com/19fa7be2-acb9-42f6-bd9f-5be3e3c8b5fa">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_unbind_adapter_ex">
     ProtocolUnbindAdapterEx</a> function once for each open binding. NDIS calls 
     <i>ProtocolUnbindAdapterEx</i> within the context of the 
     <b>NdisDeregisterProtocolDriver</b> call.
@@ -107,19 +107,19 @@ After any outstanding bindings have been closed,
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564520">NdisRegisterProtocolDriver</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisregisterprotocoldriver">NdisRegisterProtocolDriver</a>
 
 
 
-<a href="https://msdn.microsoft.com/19fa7be2-acb9-42f6-bd9f-5be3e3c8b5fa">ProtocolUnbindAdapterEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_unbind_adapter_ex">ProtocolUnbindAdapterEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564886">Unload</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-driver_unload">Unload</a>
  
 
  

@@ -61,12 +61,12 @@ Indicates that a variable of type <b>CLFS_CONTEXT_MODE</b> has not yet been assi
 
 ### -field ClfsContextUndoNext
 
-Indicates that the next record in the sequence is pointed to by the <a href="https://msdn.microsoft.com/4637fa0c-2f19-4f0c-bf13-f4ccac2e7284">undo-next LSN</a> of the current record.
+Indicates that the next record in the sequence is pointed to by the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/clfs-log-sequence-numbers">undo-next LSN</a> of the current record.
 
 
 ### -field ClfsContextPrevious
 
-Indicates that the next record in the sequence is pointed to by the <a href="https://msdn.microsoft.com/4637fa0c-2f19-4f0c-bf13-f4ccac2e7284">previous LSN</a> of the current record.
+Indicates that the next record in the sequence is pointed to by the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/clfs-log-sequence-numbers">previous LSN</a> of the current record.
 
 
 ### -field ClfsContextForward
@@ -79,19 +79,19 @@ Indicates that the next record in the sequence is the record in the stream that 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541682">ClfsReadLogRecord</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-clfsreadlogrecord">ClfsReadLogRecord</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541690">ClfsReadNextLogRecord</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-clfsreadnextlogrecord">ClfsReadNextLogRecord</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541699">ClfsReadPreviousRestartArea</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-clfsreadpreviousrestartarea">ClfsReadPreviousRestartArea</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541709">ClfsReadRestartArea</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-clfsreadrestartarea">ClfsReadRestartArea</a>
  
 
  

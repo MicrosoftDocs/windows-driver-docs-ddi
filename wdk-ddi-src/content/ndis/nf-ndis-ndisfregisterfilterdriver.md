@@ -61,9 +61,9 @@ A filter driver calls the
 ### -param DriverObject [in]
 
 A pointer to an opaque driver object that the filter driver received in its 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine at the 
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine at the 
      <i>Argument1</i> parameter. (For more information, see 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff548813">DriverEntry of NDIS Filter
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/initializing-a-filter-driver">DriverEntry of NDIS Filter
      Drivers</a>.)
 
 
@@ -76,7 +76,7 @@ A handle to a driver-allocated context area where the driver maintains state and
 ### -param FilterDriverCharacteristics
 
 A pointer to an 
-     <a href="https://msdn.microsoft.com/1eb2bae0-70b9-4bc0-9d93-4fc9467f9532">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_filter_driver_characteristics">
      NDIS_FILTER_DRIVER_CHARACTERISTICS</a> structure that the filter driver created and initialized with
      its 
      <i>FilterXxx</i> function entry points.
@@ -87,7 +87,7 @@ A pointer to a handle variable. If the call to
      <b>
     NdisFRegisterFilterDriver</b> succeeds, NDIS fills this variable with a filter driver handle. The
      filter driver saves this handle and later passes this handle to NDIS functions, such as 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff561800">NdisFDeregisterFilterDriver</a>,
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisfderegisterfilterdriver">NdisFDeregisterFilterDriver</a>,
      that require a filter driver handle as an input parameter.
 
 ## -returns
@@ -110,7 +110,7 @@ A pointer to a handle variable. If the call to
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/14381de2-36d9-4ec8-9d4e-7af3e6d8ecf3">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisfregisterfilterdriver">
     NdisFRegisterFilterDriver</a> returns NDIS_STATUS_SUCCESS if it registered the filter driver.
 
 </td>
@@ -136,7 +136,7 @@ The version that is specified in the
 </td>
 <td width="60%">
 At least one of the members that are specified in 
-       <a href="https://msdn.microsoft.com/1eb2bae0-70b9-4bc0-9d93-4fc9467f9532">
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_filter_driver_characteristics">
        NDIS_FILTER_DRIVER_CHARACTERISTICS</a> is invalid.
 
 </td>
@@ -149,7 +149,7 @@ At least one of the members that are specified in
 </td>
 <td width="60%">
 At least one of the input parameters that the driver passed to 
-       <a href="https://msdn.microsoft.com/14381de2-36d9-4ec8-9d4e-7af3e6d8ecf3">
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisfregisterfilterdriver">
     NdisFRegisterFilterDriver</a> is invalid.
 
 </td>
@@ -162,7 +162,7 @@ At least one of the input parameters that the driver passed to
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/14381de2-36d9-4ec8-9d4e-7af3e6d8ecf3">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisfregisterfilterdriver">
     NdisFRegisterFilterDriver</a> failed because of insufficient resources.
 
 </td>
@@ -175,7 +175,7 @@ At least one of the input parameters that the driver passed to
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/14381de2-36d9-4ec8-9d4e-7af3e6d8ecf3">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisfregisterfilterdriver">
     NdisFRegisterFilterDriver</a> returns NDIS_STATUS_FAILURE if none of the preceding values
        applies.
 
@@ -194,34 +194,34 @@ At least one of the input parameters that the driver passed to
 A filter driver calls the 
     <b>
     NdisFRegisterFilterDriver</b> function from its 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine. For more information about 
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine. For more information about 
     <b>DriverEntry</b>, see 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff548813">DriverEntry of NDIS Filter
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/initializing-a-filter-driver">DriverEntry of NDIS Filter
     Drivers</a>.
 
 Drivers that call <b>
-    NdisFRegisterFilterDriver</b> must be prepared for an immediate call to any of their <i>FilterXxx</i> functions. For more information see <a href="https://msdn.microsoft.com/e24b18b5-76d3-4d56-bf60-0dea91ba014e">Initializing a Filter Driver</a>.
+    NdisFRegisterFilterDriver</b> must be prepared for an immediate call to any of their <i>FilterXxx</i> functions. For more information see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/initializing-a-filter-driver">Initializing a Filter Driver</a>.
 
 Every filter driver exports a set of 
     <i>FilterXxx</i> functions by setting up the 
-    <a href="https://msdn.microsoft.com/1eb2bae0-70b9-4bc0-9d93-4fc9467f9532">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_filter_driver_characteristics">
     NDIS_FILTER_DRIVER_CHARACTERISTICS</a> structure and calling 
     <b>
     NdisFRegisterFilterDriver</b>. NDIS copies this structure to the NDIS library's internal storage.
 
 To allow filter drivers to register optional services, NDIS calls the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff570269">FilterSetOptions</a> function within the
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-set_options">FilterSetOptions</a> function within the
     context of 
     <b>
     NdisFRegisterFilterDriver</b>.
 
 After it has registered, a filter driver can later call the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff564550">NdisSetOptionalHandlers</a> function
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndissetoptionalhandlers">NdisSetOptionalHandlers</a> function
     to change the entry points for optional 
     <i>FilterXxx</i> functions.
 
 Filter drivers call the 
-    <a href="https://msdn.microsoft.com/f97ecce3-73b9-4c51-b4a4-e114420af2c9">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisfderegisterfilterdriver">
     NdisFDeregisterFilterDriver</a> function to release resources that were previously allocated with 
     <b>
     NdisFRegisterFilterDriver</b>.
@@ -234,7 +234,7 @@ Filter drivers call the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548813">DriverEntry of NDIS Filter
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/initializing-a-filter-driver">DriverEntry of NDIS Filter
    Drivers</a>
 
 
@@ -243,20 +243,20 @@ Filter drivers call the
 
 
 
-<a href="https://msdn.microsoft.com/e24b18b5-76d3-4d56-bf60-0dea91ba014e">Initializing a Filter Driver</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/initializing-a-filter-driver">Initializing a Filter Driver</a>
 
 
 
-<a href="https://msdn.microsoft.com/1eb2bae0-70b9-4bc0-9d93-4fc9467f9532">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_filter_driver_characteristics">
    NDIS_FILTER_DRIVER_CHARACTERISTICS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561800">NdisFDeregisterFilterDriver</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisfderegisterfilterdriver">NdisFDeregisterFilterDriver</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564550">NdisSetOptionalHandlers</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndissetoptionalhandlers">NdisSetOptionalHandlers</a>
  
 
  

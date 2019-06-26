@@ -57,7 +57,7 @@ A minifilter driver calls the <b>FltCurrentOplockH</b> routine to determine whet
 
 ### -param Oplock [in]
 
-An opaque oplock pointer for the file. This pointer must have been initialized by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff543289">FltInitializeOplock</a>. 
+An opaque oplock pointer for the file. This pointer must have been initialized by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltinitializeoplock">FltInitializeOplock</a>. 
 
 
 ## -returns
@@ -85,11 +85,11 @@ For more information about opportunistic locks, see the Microsoft Windows SDK do
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543289">FltInitializeOplock</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltinitializeoplock">FltInitializeOplock</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545837">FsRtlCurrentOplockH</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlcurrentoplockh">FsRtlCurrentOplockH</a>
  
 
  

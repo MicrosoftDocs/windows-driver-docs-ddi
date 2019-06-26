@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-A streaming minidriver's <i>KStrCancelTimer</i> routine is called to cancel a custom timer object that was previously specified in the <i>SetTimer</i> parameter in a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff560955">KsAllocateDefaultClockEx</a>.
+A streaming minidriver's <i>KStrCancelTimer</i> routine is called to cancel a custom timer object that was previously specified in the <i>SetTimer</i> parameter in a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksallocatedefaultclockex">KsAllocateDefaultClockEx</a>.
 
 
 ## -parameters
@@ -56,7 +56,7 @@ A streaming minidriver's <i>KStrCancelTimer</i> routine is called to cancel a cu
 
 ### -param Context [in]
 
-Pointer to the minidriver-supplied information context. The minidriver passes the information context to <a href="https://msdn.microsoft.com/library/windows/hardware/ff560955">KsAllocateDefaultClockEx</a> in the function's <i>DeferredContext</i> parameter when the minidriver allocates a custom DPC timer object.
+Pointer to the minidriver-supplied information context. The minidriver passes the information context to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksallocatedefaultclockex">KsAllocateDefaultClockEx</a> in the function's <i>DeferredContext</i> parameter when the minidriver allocates a custom DPC timer object.
 
 
 ### -param Timer [in]
@@ -79,9 +79,9 @@ Returns <b>TRUE</b> if the specified timer object is in the system timer queue, 
 
 Minidrivers can optionally supply a <i>KStrCancelTimer</i> callback function as a parameter to <b>KsAllocateDefaultClockEx</b>.
 
-The minidriver-supplied <i>KStrCancelTimer</i> must have the same characteristics as <a href="https://msdn.microsoft.com/library/windows/hardware/ff551970">KeCancelTimer</a>.
+The minidriver-supplied <i>KStrCancelTimer</i> must have the same characteristics as <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kecanceltimer">KeCancelTimer</a>.
 
-If a minidriver supplies a <i>KStrCancelTimer</i> callback function, the minidriver must also supply a <a href="https://msdn.microsoft.com/library/windows/hardware/ff567203">KStrSetTimer</a> callback function.
+If a minidriver supplies a <i>KStrCancelTimer</i> callback function, the minidriver must also supply a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nc-ks-pfnkssettimer">KStrSetTimer</a> callback function.
 
 
 
@@ -91,15 +91,15 @@ If a minidriver supplies a <i>KStrCancelTimer</i> callback function, the minidri
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567203">KStrSetTimer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nc-ks-pfnkssettimer">KStrSetTimer</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551970">KeCancelTimer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kecanceltimer">KeCancelTimer</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560955">KsAllocateDefaultClockEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksallocatedefaultclockex">KsAllocateDefaultClockEx</a>
  
 
  

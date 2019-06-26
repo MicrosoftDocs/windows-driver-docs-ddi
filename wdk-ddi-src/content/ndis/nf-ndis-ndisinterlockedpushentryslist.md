@@ -76,14 +76,14 @@ A pointer to a caller-supplied spin lock, not currently held by the caller.
 
 Before the driver's initial call the 
     <b>NdisInterlockedPushEntrySList</b> function, it must initialize the list head with the 
-    <a href="https://msdn.microsoft.com/4f9a5f8c-5c7f-4ac5-a6ce-118de2b4a304">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisinitializeslisthead">
     NdisInitializeSListHead</a> function.
 
 A driver 
     <u>must not</u> be holding the given 
     <i>Lock</i> when it calls 
     <b>NdisInterlockedPushEntrySList</b>. If necessary, a driver must call the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff564524">NdisReleaseSpinLock</a> function before
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisreleasespinlock">NdisReleaseSpinLock</a> function before
     calling 
     <b>NdisInterlockedPushEntrySList</b>. 
     <b>NdisInterlockedPushEntrySList</b> must acquire this lock itself before it inserts 
@@ -92,7 +92,7 @@ A driver
 
 The caller must provide resident storage for the 
     <i>Lock</i>, which must be initialized with the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561617">NdisAllocateSpinLock</a> function before
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisallocatespinlock">NdisAllocateSpinLock</a> function before
     the initial call to any 
     <b>NdisInterlocked..SList</b> routine.
 
@@ -111,27 +111,27 @@ If
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561617">NdisAllocateSpinLock</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisallocatespinlock">NdisAllocateSpinLock</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562602">NdisFreeSpinLock</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisfreespinlock">NdisFreeSpinLock</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562739">NdisInitializeSListHead</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisinitializeslisthead">NdisInitializeSListHead</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562760">NdisInterlockedPopEntrySList</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisinterlockedpopentryslist">NdisInterlockedPopEntrySList</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563753">NdisQueryDepthSList</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisquerydepthslist">NdisQueryDepthSList</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564524">NdisReleaseSpinLock</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisreleasespinlock">NdisReleaseSpinLock</a>
  
 
  

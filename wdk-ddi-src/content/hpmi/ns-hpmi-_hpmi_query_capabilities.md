@@ -66,15 +66,15 @@ Set to HPMI_QUERY_CAPABILITIES_VERSION_1.
 
 
 
-<a href="https://msdn.microsoft.com/2D7B6278-6D7A-41C4-B21A-D531CD8DCD91">HPMI_QUERY_CAPABILITIES_RESPONSE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hpmi/ns-hpmi-_hpmi_query_capabilities_response">HPMI_QUERY_CAPABILITIES_RESPONSE</a>
 
 
 
-<a href="https://msdn.microsoft.com/2CCEDDB4-C91D-4E88-A01F-BB52F1686A95">IOCTL_HPMI_QUERY_CAPABILITIES</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hpmi/ni-hpmi-ioctl_hpmi_query_capabilities">IOCTL_HPMI_QUERY_CAPABILITIES</a>
 
 
 
-<a href="https://msdn.microsoft.com/35934D6C-3FB4-4AD4-AA50-BD3A7790269F">hpmi.h</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hpmi/index">hpmi.h</a>
  
 
  

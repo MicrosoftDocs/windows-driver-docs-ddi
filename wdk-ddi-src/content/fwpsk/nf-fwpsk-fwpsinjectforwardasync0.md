@@ -49,7 +49,7 @@ req.typenames:
 
 The 
   <b>FwpsInjectForwardAsync0</b> function injects packet data into the forwarding data path.
-<div class="alert"><b>Note</b>  <b>FwpsInjectForwardAsync0</b> is a specific version of <b>FwpsInjectForwardAsync</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
+<div class="alert"><b>Note</b>  <b>FwpsInjectForwardAsync0</b> is a specific version of <b>FwpsInjectForwardAsync</b>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
 ## -parameters
 
@@ -59,16 +59,16 @@ The
 ### -param injectionHandle [in]
 
 An injection handle that was previously created by a call to the 
-     <a href="https://msdn.microsoft.com/61cee8ef-1070-46d4-a541-94a9f09b593b">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsinjectionhandlecreate0">
      FwpsInjectionHandleCreate0</a> function.
 
 
 ### -param injectionContext [in, optional]
 
 An optional handle to the injection context. If specified, it can be obtained by calling the 
-     <a href="https://msdn.microsoft.com/785d99a5-a8c9-4763-bdd4-e26f604f6be7">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsquerypacketinjectionstate0">
      FwpsQueryPacketInjectionState0</a> function when the packet injection state 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff552408">FWPS_PACKET_INJECTION_STATE</a> is
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/ne-fwpsk-fwps_packet_injection_state_">FWPS_PACKET_INJECTION_STATE</a> is
      <b>FWPS_PACKET_INJECTED_BY_SELF</b> or <b>FWPS_PACKET_PREVIOUSLY_INJECTED_BY_SELF</b>.
 
 
@@ -100,12 +100,12 @@ The IPv6 address family.
 ### -param compartmentId [in]
 
 The identifier of the routing compartment into which the packet data is injected, specified as a 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff542009">COMPARTMENT_ID</a> type. This identifier is provided
+     <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ne-ntdef-compartment_id">COMPARTMENT_ID</a> type. This identifier is provided
      to a callout through the 
      <b>compartmentId</b> member of the 
-     <a href="https://msdn.microsoft.com/fba7eb60-0d19-4bfd-b484-2e615d3e9237">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/ns-fwpsk-fwps_incoming_metadata_values0_">
      FWPS_INCOMING_METADATA_VALUES0</a> structure that is passed to the callout driver's 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> callout function. If the 
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_netvista/">classifyFn</a> callout function. If the 
      <b>compartmentId</b> member is available to callouts, FWPS_METADATA_FIELD_COMPARTMENT_ID will be set in
      the 
      <b>currentMetadataValues</b> member. Otherwise, set this parameter to UNSPECIFIED_COMPARTMENT_ID.
@@ -116,7 +116,7 @@ The identifier of the routing compartment into which the packet data is injected
 The index of the destination interface (on which the packet data is to be sent). The index is a
      32-bit value. A callout driver should use the value of the interface index that is passed as one of the
      incoming data values to its 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> callout function for this
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_netvista/">classifyFn</a> callout function for this
      parameter if the packet is to be injected into the same interface where the original packet was
      indicated.
 
@@ -124,12 +124,12 @@ The index of the destination interface (on which the packet data is to be sent).
 ### -param netBufferList [in, out]
 
 A pointer to a 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure that describes
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure that describes
      the packet data that is being injected. A callout driver allocates a NET_BUFFER_LIST structure to inject
      packet data by calling either the 
-     <a href="https://msdn.microsoft.com/72759748-fac6-45b9-9a81-ab71e6e7c3ef">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsallocateclonenetbufferlist0">
      FwpsAllocateCloneNetBufferList0</a> function or the 
-     <a href="https://msdn.microsoft.com/d7f2d3c0-f2c9-4624-b3e1-9fbbf64c7186">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsallocatenetbufferandnetbufferlist0">
      FwpsAllocateNetBufferAndNetBufferList0</a> function. The NET_BUFFER_LIST structure must begin with an
      IP header.
 
@@ -137,7 +137,7 @@ A pointer to a
 ### -param completionFn [in]
 
 A pointer to a 
-     <a href="https://msdn.microsoft.com/c03656ec-f0fe-49f5-8a04-2d26ef23c50a">completionFn</a> callout function provided by
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_inject_complete0">completionFn</a> callout function provided by
      the callout driver. The filter engine calls this function after the packet data, described by the 
      <i>netBufferList</i> parameter, has been injected into the network stack.
 
@@ -172,7 +172,7 @@ The packet data injection was initiated successfully. The filter engine will cal
        function after the filter engine has completed injecting the packet data into the network stack, or
        when an error occurred subsequently, in which case the 
        <b>Status</b> member of the completed 
-       <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure will indicate
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure will indicate
        the reason for failure.
 
 </td>
@@ -226,7 +226,7 @@ A callout driver calls the
 
 This function can execute asynchronously. Callout drivers normally inject data into the network stack
     when modifying packet data. For more information about how a callout driver can modify packet data, see 
-    <a href="https://msdn.microsoft.com/24940254-c9ed-45f7-8a67-20978a8efd3f">Callout Driver Operations</a>.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/callout-driver-operations">Callout Driver Operations</a>.
 
 A packet or packet fragment injected with this function will not be indicated to any WFP layer for
     filtering.
@@ -234,8 +234,8 @@ A packet or packet fragment injected with this function will not be indicated to
 If the return value is not STATUS_SUCCESS, the completion function will not be called. In this case,
     the net buffer list pointed to by 
     <i>netBufferList</i> must be freed by a call to 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff551172">FwpsFreeNetBufferList0</a> or 
-    <a href="https://msdn.microsoft.com/0d0dea63-de0d-4421-b123-ce31ac6af1d9">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsfreenetbufferlist0">FwpsFreeNetBufferList0</a> or 
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsfreeclonenetbufferlist0">
     FwpsFreeCloneNetBufferList0</a>.
 
 IP packets or fragments can be cloned, modified, and injected back into the network stack. However, a
@@ -253,30 +253,30 @@ Forward-injected packets do not reenter the forwarding layer. Therefore, they wi
 
 
 
-<a href="https://msdn.microsoft.com/fba7eb60-0d19-4bfd-b484-2e615d3e9237">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/ns-fwpsk-fwps_incoming_metadata_values0_">
    FWPS_INCOMING_METADATA_VALUES0</a>
 
 
 
-<a href="https://msdn.microsoft.com/72759748-fac6-45b9-9a81-ab71e6e7c3ef">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsallocateclonenetbufferlist0">
    FwpsAllocateCloneNetBufferList0</a>
 
 
 
-<a href="https://msdn.microsoft.com/d7f2d3c0-f2c9-4624-b3e1-9fbbf64c7186">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsallocatenetbufferandnetbufferlist0">
    FwpsAllocateNetBufferAndNetBufferList0</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551180">FwpsInjectionHandleCreate0</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsinjectionhandlecreate0">FwpsInjectionHandleCreate0</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551181">FwpsInjectionHandleDestroy0</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsinjectionhandledestroy0">FwpsInjectionHandleDestroy0</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
 
 
 
@@ -284,11 +284,11 @@ Forward-injected packets do not reenter the forwarding layer. Therefore, they wi
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_netvista/">classifyFn</a>
 
 
 
-<a href="https://msdn.microsoft.com/c03656ec-f0fe-49f5-8a04-2d26ef23c50a">completionFn</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_inject_complete0">completionFn</a>
  
 
  

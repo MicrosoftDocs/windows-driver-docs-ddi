@@ -56,7 +56,7 @@ The <b>MmUnlockPagableImageSection</b> routine releases a section of driver code
 
 ### -param ImageSectionHandle [in]
 
-Specifies the handle returned by a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff554601">MmLockPagableCodeSection</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff554607">MmLockPagableDataSection</a>. 
+Specifies the handle returned by a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-mmlockpagablecodesection">MmLockPagableCodeSection</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-mmlockpagabledatasection">MmLockPagableDataSection</a>. 
 
 
 ## -returns
@@ -80,7 +80,7 @@ A handle is always valid, no matter what the count. If the count on a handle is 
 
 In most cases, <b>MmUnlockPagableImageSection</b> is called before a driver's <i>Unload</i> routine. That is, a driver with a pageable section is likely to have its <i>DispatchClose</i> and/or <i>DispatchShutdown</i> routine call <b>MmUnlockPagableImageSection</b> before its <i>Unload</i> routine is called. However, care should be taken in unloadable drivers to release any pageable section before the driver itself is unloaded from the system.
 
-For more information about paging code and data, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554346">Making Drivers Pageable</a>. 
+For more information about paging code and data, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/making-drivers-pageable">Making Drivers Pageable</a>. 
 
 
 
@@ -90,23 +90,23 @@ For more information about paging code and data, see <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554601">MmLockPagableCodeSection</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-mmlockpagablecodesection">MmLockPagableCodeSection</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554607">MmLockPagableDataSection</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-mmlockpagabledatasection">MmLockPagableDataSection</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554610">MmLockPagableSectionByHandle</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-mmlockpagablesectionbyhandle">MmLockPagableSectionByHandle</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554650">MmPageEntireDriver</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-mmpageentiredriver">MmPageEntireDriver</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554680">MmResetDriverPaging</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-mmresetdriverpaging">MmResetDriverPaging</a>
  
 
  

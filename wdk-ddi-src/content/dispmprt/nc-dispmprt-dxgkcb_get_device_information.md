@@ -56,12 +56,12 @@ The <i>DxgkCbGetDeviceInformation</i> function gets information, including the r
 
 ### -param DeviceHandle [in]
 
-A handle that represents a display adapter. The display miniport driver previously obtained this handle in the <b>DeviceHandle</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560942">DXGKRNL_INTERFACE</a> structure that was passed to the <a href="https://msdn.microsoft.com/ffacbb39-2581-4207-841d-28ce57fbc64d">DxgkDdiStartDevice</a> function.
+A handle that represents a display adapter. The display miniport driver previously obtained this handle in the <b>DeviceHandle</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/ns-dispmprt-_dxgkrnl_interface">DXGKRNL_INTERFACE</a> structure that was passed to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a> function.
 
 
 ### -param DeviceInfo [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561053">DXGK_DEVICE_INFO</a> structure that receives information about the display adapter.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/ns-dispmprt-_dxgk_device_info">DXGK_DEVICE_INFO</a> structure that receives information about the display adapter.
 
 
 ## -returns
@@ -78,11 +78,11 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff56
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561053">DXGK_DEVICE_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/ns-dispmprt-_dxgk_device_info">DXGK_DEVICE_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/ffacbb39-2581-4207-841d-28ce57fbc64d">DxgkDdiStartDevice</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a>
  
 
  

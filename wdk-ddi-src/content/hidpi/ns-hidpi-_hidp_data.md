@@ -46,7 +46,7 @@ req.typenames: HIDP_DATA, *PHIDP_DATA
 ## -description
 
 
-The HIDP_DATA structure contains information about a HID control's <a href="https://msdn.microsoft.com/84577544-515a-4fdc-86e5-518182c6c461">data index</a> and value in a HID report.
+The HIDP_DATA structure contains information about a HID control's <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/data-indices">data index</a> and value in a HID report.
 
 
 ## -struct-fields
@@ -78,7 +78,7 @@ Specifies, if <b>TRUE</b> and the control is a button, that the button is set to
 
 
 
-See <a href="https://msdn.microsoft.com/d26d169f-4116-4d81-94c7-63c92d22877d">Extracting and Setting Control Data by Data Indices</a>.
+See <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/extracting-and-setting-control-data-by-data-indices">Extracting and Setting Control Data by Data Indices</a>.
 
 
 
@@ -88,11 +88,11 @@ See <a href="https://msdn.microsoft.com/d26d169f-4116-4d81-94c7-63c92d22877d">Ex
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539718">HidP_GetData</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hidpi/nf-hidpi-hidp_getdata">HidP_GetData</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539783">HidP_SetData</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hidpi/nf-hidpi-hidp_setdata">HidP_SetData</a>
  
 
  

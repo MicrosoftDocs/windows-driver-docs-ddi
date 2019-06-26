@@ -46,7 +46,7 @@ req.typenames: POWER_ACTION, *PPOWER_ACTION
 ## -description
 
 
-The <b>POWER_ACTION</b> enumeration identifies the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564553">system power actions</a> that can occur on a computer.
+The <b>POWER_ACTION</b> enumeration identifies the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/system-power-actions">system power actions</a> that can occur on a computer.
 
 
 ## -syntax
@@ -83,17 +83,17 @@ Reserved for system use.
 
 ### -field PowerActionSleep
 
-The computer is entering a <a href="https://msdn.microsoft.com/2fd883b5-4e89-4ce9-b75a-b821348ac860">system sleeping (S1, S2, or S3) state</a>.
+The computer is entering a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/system-sleeping-states">system sleeping (S1, S2, or S3) state</a>.
 
 
 ### -field PowerActionHibernate
 
-The computer is entering its <a href="https://msdn.microsoft.com/2fd883b5-4e89-4ce9-b75a-b821348ac860">hibernation (S4) state</a>.
+The computer is entering its <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/system-sleeping-states">hibernation (S4) state</a>.
 
 
 ### -field PowerActionShutdown
 
-The computer is entering its <a href="https://msdn.microsoft.com/c08d688d-c31a-4d57-a343-406edfa35e8f">shutdown (S5) state</a>. After all devices have entered their <a href="https://msdn.microsoft.com/f594a63f-10ce-439d-abe3-d342555d98f0">off (D3) state</a>, the computer remains powered on until an administrator presses the power button.
+The computer is entering its <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/system-shutdown-state-s5">shutdown (S5) state</a>. After all devices have entered their <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/device-sleeping-states">off (D3) state</a>, the computer remains powered on until an administrator presses the power button.
 
 
 ### -field PowerActionShutdownReset
@@ -120,14 +120,14 @@ The computer is being ejected from an ACPI-compatible dock device. Typically, th
 
 
 
-The <b>POWER_ACTION</b> enumeration is used as the return value for <a href="https://msdn.microsoft.com/library/windows/hardware/ff556936">IWDFDevice2::GetSystemPowerAction</a>.
+The <b>POWER_ACTION</b> enumeration is used as the return value for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfdevice2-getsystempoweraction">IWDFDevice2::GetSystemPowerAction</a>.
 
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556936">IWDFDevice2::GetSystemPowerAction</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfdevice2-getsystempoweraction">IWDFDevice2::GetSystemPowerAction</a>
 
 
 

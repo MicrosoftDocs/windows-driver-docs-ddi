@@ -47,7 +47,7 @@ req.typenames:
 ## -description
 
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff545514">ISensorClassExtension::Initialize</a> method initializes the sensor class extension object.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sensorsclassextension/nf-sensorsclassextension-isensorclassextension-initialize">ISensorClassExtension::Initialize</a> method initializes the sensor class extension object.
 
 
 ## -parameters
@@ -74,7 +74,7 @@ This method returns an HRESULT. Possible values include, but are not limited to,
 | **Return code** | **Description** | 
 |:--|:--|
 | **S_OK** | The method succeeded. | 
-| **E_POINTER** | The argument was NULL or the [IWDFDevice](https://msdn.microsoft.com/library/windows/hardware/ff556917) interface is missing.. | 
+| **E_POINTER** | The argument was NULL or the [IWDFDevice](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nn-wudfddi-iwdfdevice) interface is missing.. | 
 | **HRESULT_FROM_WIN32(ERROR_ALREADY_EXISTS)** | The class extension is already initialized. | 
 | **HRESULT_FROM_WIN32(ERROR_ALREADY_INITIALIZED)** | The class extension is already initialized. | 
 | **HRESULT_FROM_WIN32(ERROR_NOT_FOUND)** | The WPD_OBJECT_ID for the sensor is not valid. | 
@@ -85,9 +85,9 @@ This method returns an HRESULT. Possible values include, but are not limited to,
 
 
 
-First, create the sensor class extension by calling the COM CoCreateInstance method, and then call Initialize. We recommend that you perform these initialization steps when called by UMDF in <a href="https://msdn.microsoft.com/library/windows/hardware/ff556766">IPnpCallbackHardware::OnPrepareHardware</a>. After Initialize returns, the driver must be ready to receive callbacks from the sensor class extension. The sensor class extension calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff545633">ISensorDriver::OnGetSupportedSensorObjects</a> during initialization. Your driver must be ready to return values for all required properties and data fields before it calls Initialize.
+First, create the sensor class extension by calling the COM CoCreateInstance method, and then call Initialize. We recommend that you perform these initialization steps when called by UMDF in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-ipnpcallbackhardware-onpreparehardware">IPnpCallbackHardware::OnPrepareHardware</a>. After Initialize returns, the driver must be ready to receive callbacks from the sensor class extension. The sensor class extension calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sensorsclassextension/nf-sensorsclassextension-isensordriver-ongetsupportedsensorobjects">ISensorDriver::OnGetSupportedSensorObjects</a> during initialization. Your driver must be ready to return values for all required properties and data fields before it calls Initialize.
 
-Because the class extension calls your driver during initialization, this method can also return HRESULTs that your driver returns from <a href="https://msdn.microsoft.com/library/windows/hardware/ff545633">ISensorDriver::OnGetSupportedSensorObjects</a>.
+Because the class extension calls your driver during initialization, this method can also return HRESULTs that your driver returns from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sensorsclassextension/nf-sensorsclassextension-isensordriver-ongetsupportedsensorobjects">ISensorDriver::OnGetSupportedSensorObjects</a>.
 
 <div class="code"></div>
 
@@ -98,7 +98,7 @@ Because the class extension calls your driver during initialization, this method
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545503">ISensorClassExtension</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sensorsclassextension/nn-sensorsclassextension-isensorclassextension">ISensorClassExtension</a>
  
 
  

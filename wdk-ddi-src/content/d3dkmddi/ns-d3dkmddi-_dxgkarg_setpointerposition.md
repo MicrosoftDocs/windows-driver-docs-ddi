@@ -71,7 +71,7 @@ The DXGKARG_SETPOINTERPOSITION structure describes where and how to display the 
 
 ### -field Flags
 
-[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff562051">DXGK_SETPOINTERPOSITIONFLAGS</a> structure that identifies, in bit-field flags, information about the mouse pointer.
+[in] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgk_setpointerpositionflags">DXGK_SETPOINTERPOSITIONFLAGS</a> structure that identifies, in bit-field flags, information about the mouse pointer.
 
 
 ## -see-also
@@ -79,11 +79,11 @@ The DXGKARG_SETPOINTERPOSITION structure describes where and how to display the 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562051">DXGK_SETPOINTERPOSITIONFLAGS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgk_setpointerpositionflags">DXGK_SETPOINTERPOSITIONFLAGS</a>
 
 
 
-<a href="https://msdn.microsoft.com/b30e4f19-068c-4ab0-a2e9-b1f57592be1c">DxgkDdiSetPointerPosition</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_setpointerposition">DxgkDdiSetPointerPosition</a>
  
 
  

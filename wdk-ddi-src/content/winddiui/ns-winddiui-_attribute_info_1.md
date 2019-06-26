@@ -46,7 +46,7 @@ req.typenames: ATTRIBUTE_INFO_1, *PATTRIBUTE_INFO_1
 ## -description
 
 
-The ATTRIBUTE_INFO_1 structure is used as a parameter for a printer interface DLL's <a href="https://msdn.microsoft.com/library/windows/hardware/ff548581">DrvQueryJobAttributes</a> function. All member values are function-supplied.
+The ATTRIBUTE_INFO_1 structure is used as a parameter for a printer interface DLL's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winddiui/nf-winddiui-drvqueryjobattributes">DrvQueryJobAttributes</a> function. All member values are function-supplied.
 
 
 ## -struct-fields
@@ -175,7 +175,7 @@ The print processor uses <b>dwJobNumberOfCopies</b> and <b>dwDrvNumberOfCopies</
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548581">DrvQueryJobAttributes</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winddiui/nf-winddiui-drvqueryjobattributes">DrvQueryJobAttributes</a>
  
 
  

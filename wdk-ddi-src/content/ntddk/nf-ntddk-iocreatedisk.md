@@ -56,12 +56,12 @@ The <b>IoCreateDisk</b> routine initializes a raw disk by creating a new partiti
 
 ### -param DeviceObject [in]
 
-Specifies the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a> for the raw disk.
+Specifies the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> for the raw disk.
 
 
 ### -param Disk [in, optional]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552484">CREATE_DISK</a> structure that specifies the type and parameters for the partition table. If <i>Disk</i> is <b>NULL</b>, the routine deletes the partition table on the disk.
+Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdddisk/ns-ntdddisk-_create_disk">CREATE_DISK</a> structure that specifies the type and parameters for the partition table. If <i>Disk</i> is <b>NULL</b>, the routine deletes the partition table on the disk.
 
 
 ## -returns
@@ -77,7 +77,7 @@ Returns STATUS_SUCCESS on success, or the appropriate error code on failure.
 
 
 
-<b>IoCreateDisk</b> must only be used by disk drivers. Other drivers should use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559436">IOCTL_DISK_CREATE_DISK</a> I/O request instead.
+<b>IoCreateDisk</b> must only be used by disk drivers. Other drivers should use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdddisk/ni-ntdddisk-ioctl_disk_create_disk">IOCTL_DISK_CREATE_DISK</a> I/O request instead.
 
 
 
@@ -87,11 +87,11 @@ Returns STATUS_SUCCESS on success, or the appropriate error code on failure.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552484">CREATE_DISK</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdddisk/ns-ntdddisk-_create_disk">CREATE_DISK</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559436">IOCTL_DISK_CREATE_DISK</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdddisk/ni-ntdddisk-ioctl_disk_create_disk">IOCTL_DISK_CREATE_DISK</a>
  
 
  

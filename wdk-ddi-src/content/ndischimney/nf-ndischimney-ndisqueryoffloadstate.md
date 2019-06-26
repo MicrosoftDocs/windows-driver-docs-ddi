@@ -61,7 +61,7 @@ A protocol or intermediate driver calls the
 
 The handle that NDIS provided at the 
      <i>NdisBindingHandle</i> parameter of 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff563715">NdisOpenAdapterEx</a>. This handle
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a>. This handle
      identifies the binding between the caller and the underlying intermediate driver or offload
      target.
 
@@ -69,7 +69,7 @@ The handle that NDIS provided at the
 ### -param OffloadBlockList [in]
 
 A pointer to an 
-     <a href="https://msdn.microsoft.com/64febd55-1ab8-4e2e-b738-340167866333">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/ns-ndischimney-_ndis_protocol_offload_block_list">
      NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST</a> structure that can be a stand-alone structure or the root of a
      linked list of such structures. These structures identify the offloaded state objects that are being
      queried.
@@ -91,14 +91,14 @@ None
 An intermediate driver calls the 
     <b>NdisQueryOffloadState</b> function to propagate a query offload operation that was initiated by the host
     stack. For more information, see 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff563771">Propagating
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/nf-ndischimney-ndisqueryoffloadstate">Propagating
     State-Manipulation Operations</a>.
 
 From the NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure that was passed to its 
-    <a href="https://msdn.microsoft.com/a583c4cb-53c1-4eff-bcfe-c962f736b1f8">MiniportQueryOffload</a> function, the
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/nc-ndischimney-w_query_offload_handler">MiniportQueryOffload</a> function, the
     intermediate driver constructs an NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure. For more information, see
     Reusing an 
-    <a href="https://msdn.microsoft.com/ebc98e65-5d11-4c3d-aea1-dfad1434c093">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/ns-ndischimney-_ndis_miniport_offload_block_list">
     NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a> Structure. The intermediate driver passes a pointer (the 
     <i>OffloadBlockList</i> parameter) to this NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure when calling the 
     <b>NdisQueryOffloadState</b> function.
@@ -111,30 +111,30 @@ From the NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure that was passed to its
 
 
 
-<a href="https://msdn.microsoft.com/a583c4cb-53c1-4eff-bcfe-c962f736b1f8">MiniportQueryOffload</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/nc-ndischimney-w_query_offload_handler">MiniportQueryOffload</a>
 
 
 
-<a href="https://msdn.microsoft.com/ebc98e65-5d11-4c3d-aea1-dfad1434c093">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/ns-ndischimney-_ndis_miniport_offload_block_list">
    NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/64febd55-1ab8-4e2e-b738-340167866333">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/ns-ndischimney-_ndis_protocol_offload_block_list">
    NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/7bcc6610-0c48-4a7f-b8fa-be372af201ba">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/nf-ndischimney-ndismqueryoffloadstatecomplete">
    NdisMQueryOffloadStateComplete</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563715">NdisOpenAdapterEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/f521af88-eb96-4077-8882-9b1d02c6c87c">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/nc-ndischimney-query_offload_complete_handler">
    ProtocolQueryOffloadComplete</a>
  
 

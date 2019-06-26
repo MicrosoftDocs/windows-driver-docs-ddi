@@ -69,7 +69,7 @@ This method does not return a value.
 
 
 
-If <b>Next</b> reaches the end of the list, subsequent calls to <a href="https://msdn.microsoft.com/library/windows/hardware/ff544136">ExtRemoteList::HasNode</a> will return <code>false</code>.
+If <b>Next</b> reaches the end of the list, subsequent calls to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-extremotelist-hasnode">ExtRemoteList::HasNode</a> will return <code>false</code>.
 
 
 
@@ -79,11 +79,11 @@ If <b>Next</b> reaches the end of the list, subsequent calls to <a href="https:/
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544114">ExtRemoteList</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nl-engextcpp-extremotelist">ExtRemoteList</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544136">ExtRemoteList::HasNode</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-extremotelist-hasnode">ExtRemoteList::HasNode</a>
  
 
  

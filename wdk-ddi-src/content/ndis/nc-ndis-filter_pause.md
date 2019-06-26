@@ -75,7 +75,7 @@ A handle to the context area for the filter module that the filter driver should
 #### - FilterPauseParameters [in]
 
 A pointer to an 
-     <a href="https://msdn.microsoft.com/070c6d5d-9942-4bff-8894-9aa69d5e7983">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_filter_pause_parameters">
      NDIS_FILTER_PAUSE_PARAMETERS</a> structure that defines the pause parameters for the filter
      module.
 
@@ -85,7 +85,7 @@ A pointer to an
 
 
 NDIS drivers cannot fail a pause request. The filter driver should call the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff564672">NdisWriteEventLogEntry</a> function
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndiswriteeventlogentry">NdisWriteEventLogEntry</a> function
      together with parameters that specify the reason for any errors that occur.
 
 <table>
@@ -112,7 +112,7 @@ NDIS drivers cannot fail a pause request. The filter driver should call the
 </td>
 <td width="60%">
 The filter driver will complete the request asynchronously with a call to the 
-       <a href="https://msdn.microsoft.com/library/windows/hardware/ff561839">NdisFPauseComplete</a> function.
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisfpausecomplete">NdisFPauseComplete</a> function.
 
 </td>
 </tr>
@@ -138,34 +138,34 @@ A filter driver performs the following operations when NDIS calls
 <ul>
 <li>
 Must call the 
-      <a href="https://msdn.microsoft.com/5a9008eb-86ad-4e3c-85a2-c8fd1b8fb4cb">
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisfsendnetbufferlistscomplete">
       NdisFSendNetBufferListsComplete</a> function for any queued send buffers that an overlying driver
       created.
 
 </li>
 <li>
 Must call the 
-      <a href="https://msdn.microsoft.com/083cf25d-7436-4c4e-b29a-c9a2702b136d">
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisfreturnnetbufferlists">
       NdisFReturnNetBufferLists</a> function for any queued receive buffers that an underlying driver
       created.
 
 </li>
 <li>
 Must wait for NDIS to return all outstanding send requests that the driver originated to the 
-      <a href="https://msdn.microsoft.com/1a3a1e80-29f1-4f19-b3c7-9a8b189f18c4">
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_send_net_buffer_lists_complete">
       FilterSendNetBufferListsComplete</a> function.
 
 </li>
 <li>
 Must wait for NDIS to return all outstanding receive indications that the driver originated to the 
-      <a href="https://msdn.microsoft.com/8d7e362f-62da-4ce7-9497-1cfaff2b678e">
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_return_net_buffer_lists">
       FilterReturnNetBufferLists</a> function.
 
 </li>
 </ul>
 After the filter driver returns NDIS_STATUS_SUCCESS from 
     <i>FilterPause</i> or calls the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561839">NdisFPauseComplete</a> function, the pause
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisfpausecomplete">NdisFPauseComplete</a> function, the pause
     operation is complete. The filter module is in the 
     <i>Paused</i> state.
 
@@ -173,9 +173,9 @@ In the
     <i>Pausing</i> or 
     <i>Paused</i> states, a filter driver should continue to handle OID requests or status indications. The
     driver should reject calls to its 
-    <a href="https://msdn.microsoft.com/1b3fc0c8-95da-47e5-8ff1-b7967f5148e7">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_send_net_buffer_lists">
     FilterSendNetBufferLists</a> function. The driver can pass on calls to its 
-    <a href="https://msdn.microsoft.com/6359c2a7-1208-41ea-bbf9-015c91b6e8f6">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_receive_net_buffer_lists">
     FilterReceiveNetBufferLists</a> function. However, the driver cannot pass any buffers that it created.
     The driver must not originate any receive indications or send requests.
 
@@ -183,7 +183,7 @@ In the
     <i>Paused</i> state, the filter module must not generate send requests or receive indications.
 
 NDIS calls the 
-    <a href="https://msdn.microsoft.com/4a917824-eef1-4945-b45e-1c940bc8a50d">FilterRestart</a> function to initiate a
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_restart">FilterRestart</a> function to initiate a
     restart request for a filter module that is in the 
     <i>Paused</i> state.
 
@@ -191,7 +191,7 @@ NDIS calls
     <i>FilterPause</i> at IRQL = PASSIVE_LEVEL.
 
 <h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>
-To define a <i>FilterPause</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
+To define a <i>FilterPause</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/code-analysis-for-drivers">Code Analysis for Drivers</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
 
 For example, to define a <i>FilterPause</i> function that is named "MyPause", use the <b>FILTER_PAUSE</b> type as shown in this code example:
 
@@ -223,7 +223,7 @@ NDIS_STATUS
 </td>
 </tr>
 </table></span></div>
-The <b>FILTER_PAUSE</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>FILTER_PAUSE</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/232c4272-0bf0-4a4e-9560-3bceeca8a3e3">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
+The <b>FILTER_PAUSE</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>FILTER_PAUSE</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
 For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
 
@@ -239,49 +239,49 @@ For information about  _Use_decl_annotations_, see <a href="https://go.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/6359c2a7-1208-41ea-bbf9-015c91b6e8f6">FilterReceiveNetBufferLists</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_receive_net_buffer_lists">FilterReceiveNetBufferLists</a>
 
 
 
-<a href="https://msdn.microsoft.com/4a917824-eef1-4945-b45e-1c940bc8a50d">FilterRestart</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_restart">FilterRestart</a>
 
 
 
-<a href="https://msdn.microsoft.com/8d7e362f-62da-4ce7-9497-1cfaff2b678e">FilterReturnNetBufferLists</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_return_net_buffer_lists">FilterReturnNetBufferLists</a>
 
 
 
-<a href="https://msdn.microsoft.com/1b3fc0c8-95da-47e5-8ff1-b7967f5148e7">FilterSendNetBufferLists</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_send_net_buffer_lists">FilterSendNetBufferLists</a>
 
 
 
-<a href="https://msdn.microsoft.com/1a3a1e80-29f1-4f19-b3c7-9a8b189f18c4">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_send_net_buffer_lists_complete">
    FilterSendNetBufferListsComplete</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565547">NDIS_FILTER_PAUSE_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_filter_pause_parameters">NDIS_FILTER_PAUSE_PARAMETERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561839">NdisFPauseComplete</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisfpausecomplete">NdisFPauseComplete</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562613">NdisFReturnNetBufferLists</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisfreturnnetbufferlists">NdisFReturnNetBufferLists</a>
 
 
 
-<a href="https://msdn.microsoft.com/5a9008eb-86ad-4e3c-85a2-c8fd1b8fb4cb">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisfsendnetbufferlistscomplete">
    NdisFSendNetBufferListsComplete</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564672">NdisWriteEventLogEntry</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndiswriteeventlogentry">NdisWriteEventLogEntry</a>
  
 
  

@@ -47,7 +47,7 @@ req.typenames: FWPS_CALLOUT2
 
 
 The <b>FWPS_CALLOUT2</b> structure defines the data that is required for a callout driver to register a
-  callout with the filter engine.<div class="alert"><b>Note</b>  <b>FWPS_CALLOUT2</b> is the specific version of <b>FWPS_CALLOUT</b> used in Windows 8 and later. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7, <a href="https://msdn.microsoft.com/library/windows/hardware/ff551226">FWPS_CALLOUT1</a> is available. For Windows Vista, <a href="https://msdn.microsoft.com/library/windows/hardware/ff551224">FWPS_CALLOUT0</a> is available.</div>
+  callout with the filter engine.<div class="alert"><b>Note</b>  <b>FWPS_CALLOUT2</b> is the specific version of <b>FWPS_CALLOUT</b> used in Windows 8 and later. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/ns-fwpsk-fwps_callout1_">FWPS_CALLOUT1</a> is available. For Windows Vista, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/ns-fwpsk-fwps_callout0_">FWPS_CALLOUT0</a> is available.</div>
 <div> </div>
 
 
@@ -81,10 +81,10 @@ Flags that specify callout-specific parameters. Possible flags are:
 <td width="60%">
 A callout driver can specify this flag when registering a callout that will be added at a layer
        that supports data flows. If this flag is specified, the filter engine calls the callout driver's 
-       <a href="https://msdn.microsoft.com/de8220de-cf71-4718-876e-ef02c15fc948">classifyFn2</a> callout function only if there
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_classify_fn2">classifyFn2</a> callout function only if there
        is a context associated with the data flow. A callout driver associates a context with a data flow by
        calling the 
-       <a href="https://msdn.microsoft.com/library/windows/hardware/ff551165">FwpsFlowAssociateContext0</a> function.
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsflowassociatecontext0">FwpsFlowAssociateContext0</a> function.
 
 </td>
 </tr>
@@ -96,7 +96,7 @@ A callout driver can specify this flag when registering a callout that will be a
 </td>
 <td width="60%">
 A callout driver specifies this flag to indicate that the callout driver's 
-       <a href="https://msdn.microsoft.com/de8220de-cf71-4718-876e-ef02c15fc948">classifyFn2</a> callout function is unaffected
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_classify_fn2">classifyFn2</a> callout function is unaffected
        by offloading network data processing to offload-capable network interface cards (NICs). If this flag
        is not specified, then offloading of network data processing is disabled for all traffic that is
        processed by any filters that specify the callout for the filter's action.
@@ -121,7 +121,7 @@ A callout driver specifies this flag to indicate that it can receive notificatio
 </dl>
 </td>
 <td width="60%">
-A callout driver specifies this flag to indicate that it can perform  dynamic stream inspection of data flows at stream level. See <a href="https://msdn.microsoft.com/77e152bf-cb6b-4845-9a5e-9c37281f23f1">Stream Inspection</a>.
+A callout driver specifies this flag to indicate that it can perform  dynamic stream inspection of data flows at stream level. See <a href="https://docs.microsoft.com/windows-hardware/drivers/network/stream-inspection">Stream Inspection</a>.
 
 </td>
 </tr>
@@ -165,22 +165,22 @@ A callout driver specifies this flag to indicate that the callout supports recei
 </dl>
 </td>
 <td width="60%">
-A callout driver specifies this flag when registering a callout that will be added at layer 2, to indicate that its <a href="https://msdn.microsoft.com/de8220de-cf71-4718-876e-ef02c15fc948">classifyFn2</a> callout function can classify multiple chained <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structures. For more info, see <a href="https://msdn.microsoft.com/679E6DE2-4EFB-44F6-936D-2BF611BC9726">Using Layer 2 Filtering</a>.
+A callout driver specifies this flag when registering a callout that will be added at layer 2, to indicate that its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_classify_fn2">classifyFn2</a> callout function can classify multiple chained <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures. For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/using-layer-2-filtering">Using Layer 2 Filtering</a>.
 
 <div class="alert"><b>Caution</b>  <p class="note">If a callout driver sets this flag, it cannot use the following functions to modify NET_BUFFER_LISTs.
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551206">FwpsReferenceNetBufferList0</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsreferencenetbufferlist0">FwpsReferenceNetBufferList0</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551159">FwpsDereferenceNetBufferList0</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsdereferencenetbufferlist0">FwpsDereferenceNetBufferList0</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551134">FwpsAllocateCloneNetBufferList0</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsallocateclonenetbufferlist0">FwpsAllocateCloneNetBufferList0</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551170">FwpsFreeCloneNetBufferList0</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsfreeclonenetbufferlist0">FwpsFreeCloneNetBufferList0</a>
 </li>
 </ul>
 <p class="note">With this flag set, <b>FwpsAllocateCloneNetBufferList0</b> will always return an <b>INVALID_PARAMETER</b> error. This may unexpectedly cause a 3rd party callout driver to fail to manage the reference count of NET_BUFFER_LISTs, causing send and receive operations to stop.
@@ -196,21 +196,21 @@ A callout driver specifies this flag when registering a callout that will be add
 ### -field classifyFn
 
 A pointer to the callout driver's 
-     <a href="https://msdn.microsoft.com/de8220de-cf71-4718-876e-ef02c15fc948">classifyFn2</a> callout function. The filter
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_classify_fn2">classifyFn2</a> callout function. The filter
      engine calls this function whenever there is network data to be processed by the callout.
 
 
 ### -field notifyFn
 
 A pointer to the callout driver's 
-     <a href="https://msdn.microsoft.com/c70c987b-5b4c-4ddd-8eb8-8c3c40003ab3">notifyFn2</a> function. The filter engine calls
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_notify_fn2">notifyFn2</a> function. The filter engine calls
      this function to notify the callout driver about events that are associated with the callout.
 
 
 ### -field flowDeleteFn
 
 A pointer to the callout driver's 
-     <a href="https://msdn.microsoft.com/65449a23-da5d-4884-b98e-030461eb019a">flowDeleteFn</a> callout function. The filter
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_flow_delete_notify_fn0">flowDeleteFn</a> callout function. The filter
      engine calls this function whenever a data flow that is being processed by the callout is terminated.
      
 
@@ -223,7 +223,7 @@ If a callout driver does not associate a context with the data flows that the ca
 
 
 A callout driver passes a pointer to an initialized <b>FWPS_CALLOUT2</b> structure to the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/hh439576">FwpsCalloutRegister2</a> function when it
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpscalloutregister2">FwpsCalloutRegister2</a> function when it
     registers a callout with the filter engine.
 
 A callout can set the <b>FWP_CALLOUT_FLAG_CONDITIONAL_ON_FLOW</b> flag only for connections on which
@@ -232,7 +232,7 @@ A callout can set the <b>FWP_CALLOUT_FLAG_CONDITIONAL_ON_FLOW</b> flag only for 
     data.
 
 This structure is essentially identical to the previous version, 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff551226">FWPS_CALLOUT1</a>. The only differences are that
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/ns-fwpsk-fwps_callout1_">FWPS_CALLOUT1</a>. The only differences are that
     the members of this version store the updated versions of the callout function pointers, and additional flags are available for callout drivers to set.
 
 
@@ -243,31 +243,31 @@ This structure is essentially identical to the previous version,
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551224">FWPS_CALLOUT0</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/ns-fwpsk-fwps_callout0_">FWPS_CALLOUT0</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551226">FWPS_CALLOUT1</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/ns-fwpsk-fwps_callout1_">FWPS_CALLOUT1</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439576">FwpsCalloutRegister2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpscalloutregister2">FwpsCalloutRegister2</a>
 
 
 
-<a href="https://msdn.microsoft.com/679E6DE2-4EFB-44F6-936D-2BF611BC9726">Using Layer 2 Filtering</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/using-layer-2-filtering">Using Layer 2 Filtering</a>
 
 
 
-<a href="https://msdn.microsoft.com/de8220de-cf71-4718-876e-ef02c15fc948">classifyFn2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_classify_fn2">classifyFn2</a>
 
 
 
-<a href="https://msdn.microsoft.com/65449a23-da5d-4884-b98e-030461eb019a">flowDeleteFn</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_flow_delete_notify_fn0">flowDeleteFn</a>
 
 
 
-<a href="https://msdn.microsoft.com/c70c987b-5b4c-4ddd-8eb8-8c3c40003ab3">notifyFn2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_callout_notify_fn2">notifyFn2</a>
  
 
  

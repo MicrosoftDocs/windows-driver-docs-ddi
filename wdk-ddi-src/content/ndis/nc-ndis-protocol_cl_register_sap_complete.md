@@ -49,7 +49,7 @@ req.typenames:
 A connection-oriented NDIS client that accepts incoming calls must have 
   a <i>ProtocolClRegisterSapComplete</i> function to complete the asynchronous operations that it initiates
   with 
-  <a href="https://msdn.microsoft.com/library/windows/hardware/ff561648">NdisClRegisterSap</a>. Otherwise, such a
+  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisclregistersap">NdisClRegisterSap</a>. Otherwise, such a
   protocol driver's registered 
   <i>ProtocolClRegisterSapComplete</i> function can simply return control.
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>PROTOCOL_CL_REGISTER_SAP_COMPLETE</b> type.
@@ -73,10 +73,10 @@ Specifies the final status of the client's call to
 #### NDIS_STATUS_SUCCESS
 
 The SAP has been registered both with NDIS and the call manager, which will subsequently call 
-       <a href="https://msdn.microsoft.com/2172aeec-8502-414e-9d01-9292c0eb7ce8">
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndiscmdispatchincomingcall">
        NdisCmDispatchIncomingCall</a> whenever it receives an incoming call offer directed to the given
        SAP, thereby causing NDIS to call the client's 
-       <a href="https://msdn.microsoft.com/8a5922ac-b22b-444e-9ea0-3bb56e71ef33">
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cl_incoming_call">
        ProtocolClIncomingCall</a> function.
 
 
@@ -92,7 +92,7 @@ NDIS or the call manager could not allocate and/or initialize necessary resource
 
 The client supplied an invalid specification at 
        <i>Sap</i> to NDIS, which it forwarded to the call manager's 
-       <a href="https://msdn.microsoft.com/3e3e7a0e-a8d2-40b2-895b-187d24867080">ProtocolCmRegisterSap</a> function
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cm_reg_sap">ProtocolCmRegisterSap</a> function
        for validation.
 
 
@@ -107,7 +107,7 @@ The call manager encountered an error in attempting to register the given SAP an
 
 Specifies the handle to the client's per-SAP context area, which the client originally supplied to
      NDIS when it called 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff561648">NdisClRegisterSap</a>. If the registration
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisclregistersap">NdisClRegisterSap</a>. If the registration
      is successful, NDIS retains this context handle and uses it subsequently in calls to the client's 
      <i>ProtocolClIncomingCall</i> function pertaining to this SAP.
 
@@ -127,7 +127,7 @@ If
      the client-specified SAP. Otherwise, this parameter is <b>NULL</b>. The client must save a valid handle,
      preferably in its 
      <i>ProtocolSapContext</i> area, for an eventual call to 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff561628">NdisClDeregisterSap</a>.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisclderegistersap">NdisClDeregisterSap</a>.
 
 
 ## -returns
@@ -151,9 +151,9 @@ NDIS calls
     <b>NdisClRegisterSap</b>.
 
 To receive incoming calls through a connection-oriented NIC, a client's 
-    <a href="https://msdn.microsoft.com/272d99da-ef08-4ebd-90e7-74e99410b3f5">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_co_af_register_notify">
     ProtocolCoAfRegisterNotify</a> or 
-    <a href="https://msdn.microsoft.com/03ddbbfd-8fe8-44b6-8d3e-12a7bf6f8f6b">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cl_open_af_complete_ex">
     ProtocolClOpenAfCompleteEx</a> function usually registers one or more SAPs with the call manager.
 
 To register each SAP, the client calls 
@@ -165,7 +165,7 @@ To register each SAP, the client calls
     <i>ProtocolClRegisterSapComplete</i> must save each valid 
     <i>NdisSapHandle</i>, usually in the client's per-SAP 
     <i>ProtocolSapContext</i> area so it can release the SAP later with 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561628">NdisClDeregisterSap</a>.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisclderegistersap">NdisClDeregisterSap</a>.
 
 The format of a SAP is specific to the call manager. If the call manager does not recognize the SAP
     that the client is attempting to register or if the specified SAP is already in use, the call manager can
@@ -181,7 +181,7 @@ A client can receive incoming calls on a SAP even while SAP registration is stil
     <i>ProtocolClRegisterSapComplete</i> function is called.
 
 <h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>
-To define a <i>ProtocolClRegisterSapComplete</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
+To define a <i>ProtocolClRegisterSapComplete</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/code-analysis-for-drivers">Code Analysis for Drivers</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
 
 For example, to define a <i>ProtocolClRegisterSapComplete</i> function that is named "MyClRegisterSapComplete", use the <b>PROTOCOL_CL_REGISTER_SAP_COMPLETE</b> type as shown in this code example:
 
@@ -215,7 +215,7 @@ VOID
 </td>
 </tr>
 </table></span></div>
-The <b>PROTOCOL_CL_REGISTER_SAP_COMPLETE</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_CL_REGISTER_SAP_COMPLETE</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/232c4272-0bf0-4a4e-9560-3bceeca8a3e3">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
+The <b>PROTOCOL_CL_REGISTER_SAP_COMPLETE</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_CL_REGISTER_SAP_COMPLETE</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
 For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
 
@@ -227,52 +227,52 @@ For information about  _Use_decl_annotations_, see <a href="https://go.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561628">NdisClDeregisterSap</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisclderegistersap">NdisClDeregisterSap</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561648">NdisClRegisterSap</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisclregistersap">NdisClRegisterSap</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561664">NdisCmDispatchIncomingCall</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndiscmdispatchincomingcall">NdisCmDispatchIncomingCall</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561689">NdisCmRegisterSapComplete</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndiscmregistersapcomplete">NdisCmRegisterSapComplete</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562577">NdisFreeMemory</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisfreememory">NdisFreeMemory</a>
 
 
 
-<a href="https://msdn.microsoft.com/2405a405-177a-420a-9628-a340e0d0acb3">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisfreetonpagedlookasidelist">
    NdisFreeToNPagedLookasideList</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562830">NdisMCmDispatchIncomingCall</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismcmdispatchincomingcall">NdisMCmDispatchIncomingCall</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563557">NdisMCmRegisterSapComplete</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismcmregistersapcomplete">NdisMCmRegisterSapComplete</a>
 
 
 
-<a href="https://msdn.microsoft.com/8a5922ac-b22b-444e-9ea0-3bb56e71ef33">ProtocolClIncomingCall</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cl_incoming_call">ProtocolClIncomingCall</a>
 
 
 
-<a href="https://msdn.microsoft.com/03ddbbfd-8fe8-44b6-8d3e-12a7bf6f8f6b">ProtocolClOpenAfCompleteEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cl_open_af_complete_ex">ProtocolClOpenAfCompleteEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/3e3e7a0e-a8d2-40b2-895b-187d24867080">ProtocolCmRegisterSap</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cm_reg_sap">ProtocolCmRegisterSap</a>
 
 
 
-<a href="https://msdn.microsoft.com/272d99da-ef08-4ebd-90e7-74e99410b3f5">ProtocolCoAfRegisterNotify</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_co_af_register_notify">ProtocolCoAfRegisterNotify</a>
  
 
  

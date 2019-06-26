@@ -90,7 +90,7 @@ For directory renames, all files under the directory need to be closed. So, a ne
 
 The <b>RxScavengeFobxsForNetRoot</b> routine acquires the scavenger mutex, traverses the <b>FobxsToBeFinalized</b> list member of the scavenger object and adds any entries found to tail of the <b>ScavengerFinalizationList</b> member of the scavenger object, and then releases the mutex. 
 
-If <i>PurgingFcb </i>is not <b>NULL</b>, and this purging FCB structure is not the same as the FCB associated with the FOBX structure on the <b>FobxsToBeFinalized</b> list member of the scavenger object, <b>RxScavengeFobxsForNetRoot</b> will call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549838">MRxAreFilesAliased</a> callback routine provided by the network mini-redirector if it is supported. The call to <b>MRxAreFilesAliased</b> is to determine if the PFCB is an alias for the FCB associated with the FOBX structure.
+If <i>PurgingFcb </i>is not <b>NULL</b>, and this purging FCB structure is not the same as the FCB associated with the FOBX structure on the <b>FobxsToBeFinalized</b> list member of the scavenger object, <b>RxScavengeFobxsForNetRoot</b> will call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/mrx/nc-mrx-pmrx_chkfcb_calldown">MRxAreFilesAliased</a> callback routine provided by the network mini-redirector if it is supported. The call to <b>MRxAreFilesAliased</b> is to determine if the PFCB is an alias for the FCB associated with the FOBX structure.
 
 On checked builds, <b>RxScavengeAllFobxs</b> causes the system to ASSERT for the following condition:
 
@@ -108,19 +108,19 @@ The <b>NodeTypeCode</b> member of an FOBX structure is not RDBSS_NTC_FOBX.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549838">MRxAreFilesAliased</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/mrx/nc-mrx-pmrx_chkfcb_calldown">MRxAreFilesAliased</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554673">RxPurgeAllFobxs</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/rxprocs/nf-rxprocs-rxpurgeallfobxs">RxPurgeAllFobxs</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554679">RxPurgeRelatedFobxs</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/scavengr/nf-scavengr-rxpurgerelatedfobxs">RxPurgeRelatedFobxs</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554707">RxScavengeAllFobxs</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/rxprocs/nf-rxprocs-rxscavengeallfobxs">RxScavengeAllFobxs</a>
  
 
  

@@ -73,7 +73,7 @@ The zero-based bit position of the least significant nonzero bit, or -1 if every
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561883">RtlFindMostSignificantBit</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlfindmostsignificantbit">RtlFindMostSignificantBit</a>
  
 
  

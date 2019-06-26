@@ -209,15 +209,15 @@ When <b>RxCeBuildConnectionOverMultipleTransports</b> is successful, the virtual
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553417">RxCeBuildConnection</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/rxce/nf-rxce-rxcebuildconnection">RxCeBuildConnection</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554321">RxCeTearDownConnection</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/rxce/nf-rxce-rxceteardownconnection">RxCeTearDownConnection</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565085">TDI_CONNECTION_INFORMATION</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff565085(v=vs.85)">TDI_CONNECTION_INFORMATION</a>
  
 
  

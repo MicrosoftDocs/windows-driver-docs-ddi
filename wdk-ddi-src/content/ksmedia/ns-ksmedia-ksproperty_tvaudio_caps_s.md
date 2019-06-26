@@ -56,7 +56,7 @@ The KSPROPERTY_TVAUDIO_CAPS_S structure describes the capability of a TV audio d
 
 ### -field Property
 
-Specifies an initialized <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
+Specifies an initialized <a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
 
 
 ### -field Capabilities
@@ -137,15 +137,15 @@ Reserved for system use.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
+<a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565933">KSPROPERTY_TVAUDIO_CAPS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-tvaudio-caps">KSPROPERTY_TVAUDIO_CAPS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567811">PROPSETID_VIDCAP_TVAUDIO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/propsetid-vidcap-tvaudio">PROPSETID_VIDCAP_TVAUDIO</a>
  
 
  

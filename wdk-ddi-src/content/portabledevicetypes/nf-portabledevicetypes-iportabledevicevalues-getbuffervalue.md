@@ -148,11 +148,11 @@ Retrieving a <b>NULL</b> buffer or a zero-sized buffer is not supported  and wil
 
 
 
-<a href="https://msdn.microsoft.com/4a97301a-12cc-442f-a080-446ec9e1e245">IPortableDeviceValues Interface</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portabledevicetypes/nn-portabledevicetypes-iportabledevicevalues">IPortableDeviceValues Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/991088a0-590e-4228-9445-06a7433d44f7">IPortableDeviceValues::SetBufferValue</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portabledevicetypes/nf-portabledevicetypes-iportabledevicevalues-setbuffervalue">IPortableDeviceValues::SetBufferValue</a>
  
 
  

@@ -46,7 +46,7 @@ req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ## -description
 
 
-The SETRESULT_INFO structure is used as an input parameter to an application's <a href="https://msdn.microsoft.com/library/windows/hardware/ff559812">PFNPROPSHEETUI</a>-typed callback function. 
+The SETRESULT_INFO structure is used as an input parameter to an application's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/compstui/nc-compstui-pfnpropsheetui">PFNPROPSHEETUI</a>-typed callback function. 
 
 
 ## -struct-fields
@@ -78,7 +78,7 @@ CPSUI-supplied handle to an added property sheet page, obtained from the applica
 
 
 
-When an application calls CPSUI's <a href="https://msdn.microsoft.com/library/windows/hardware/ff546207">ComPropSheet</a> function, specifying a function code of <a href="https://msdn.microsoft.com/library/windows/hardware/ff547087">CPSFUNC_SET_RESULT</a>, CPSUI calls all registered <a href="https://msdn.microsoft.com/library/windows/hardware/ff559812">PFNPROPSHEETUI</a>-typed functions, specifying a reason of PROPSHEETUI_REASON_SET_RESULT. When specifying this reason, CPSUI also supplies a SETRESULT_INFO structure.
+When an application calls CPSUI's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/compstui/nc-compstui-pfncompropsheet">ComPropSheet</a> function, specifying a function code of <a href="https://docs.microsoft.com/previous-versions/ff547087(v=vs.85)">CPSFUNC_SET_RESULT</a>, CPSUI calls all registered <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/compstui/nc-compstui-pfnpropsheetui">PFNPROPSHEETUI</a>-typed functions, specifying a reason of PROPSHEETUI_REASON_SET_RESULT. When specifying this reason, CPSUI also supplies a SETRESULT_INFO structure.
 
 The values contained in the structure's <b>hSetResult</b> and <b>Result</b> members are the <i>lParam1</i> and <i>lParam2</i> values, respectively, that were supplied to CPSUI's <b>ComPropSheet</b> function.
 

@@ -77,7 +77,7 @@ The <b>StorPortReadRegisterUlong64</b> routine is only available on the 64-bit v
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh967743">StorPortWriteRegisterUlong64</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportwriteregisterulong64">StorPortWriteRegisterUlong64</a>
  
 
  

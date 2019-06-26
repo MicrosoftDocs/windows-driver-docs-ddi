@@ -56,7 +56,7 @@ A WMI provider uses the MSFC_PortEvent structure to report port events for the i
 
 ### -field EventType
 
-Indicates the type of the event. The values that can be assigned to this member are defined by the <a href="https://msdn.microsoft.com/528e5eaa-aaeb-4e5b-a4b2-0f518fcd79ee">EVENT_TYPE_QUALIFIERS</a> WMI class qualifier.
+Indicates the type of the event. The values that can be assigned to this member are defined by the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/event-types-qualifiers">EVENT_TYPE_QUALIFIERS</a> WMI class qualifier.
 
 
 ### -field FabricPortId
@@ -74,7 +74,7 @@ Contains the worldwide name that indicates the port for which the event occurred
 
 
 
-<a href="https://msdn.microsoft.com/528e5eaa-aaeb-4e5b-a4b2-0f518fcd79ee">EVENT_TYPE_QUALIFIERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/event-types-qualifiers">EVENT_TYPE_QUALIFIERS</a>
  
 
  

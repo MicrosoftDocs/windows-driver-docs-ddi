@@ -72,7 +72,7 @@ The <b>GetSize</b> method retrieves the size of the data buffer that is associat
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559249">IWDFMemory</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nn-wudfddi-iwdfmemory">IWDFMemory</a>
  
 
  

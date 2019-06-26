@@ -46,7 +46,7 @@ req.typenames: STI_DEV_CAPS, *PSTI_DEV_CAPS
 ## -description
 
 
-The STI_DEV_CAPS structure is used as a parameter to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543745">IStiDevice::GetCapabilities</a> method. It is also a member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548361">STI_DEVICE_INFORMATION</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff548408">STI_WIA_DEVICE_INFORMATION</a> structures.
+The STI_DEV_CAPS structure is used as a parameter to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sti/nf-sti-istidevice-getcapabilities">IStiDevice::GetCapabilities</a> method. It is also a member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sti/ns-sti-_sti_device_informationw">STI_DEVICE_INFORMATION</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sti/ns-sti-_sti_wia_device_informationw">STI_WIA_DEVICE_INFORMATION</a> structures.
 
 
 ## -struct-fields
@@ -80,7 +80,7 @@ The still image server will generate a <b>GUID_DeviceArrivedLaunch</b> event whe
 
 #### STI_GENCAP_NOTIFICATIONS
 
-The device supports event notifications (either asynchronously or through polling), and the device can be subscribed to (see <a href="https://msdn.microsoft.com/library/windows/hardware/ff543768">IStiDevice::Subscribe</a>).
+The device supports event notifications (either asynchronously or through polling), and the device can be subscribed to (see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sti/nf-sti-istidevice-subscribe">IStiDevice::Subscribe</a>).
 
 
 
@@ -88,7 +88,7 @@ The device supports event notifications (either asynchronously or through pollin
 
 #### STI_GENCAP_POLLING_NEEDED
 
-The device is not capable of issuing asynchronous notifications; polling of the device is required (see <a href="https://msdn.microsoft.com/library/windows/hardware/ff543752">IStiDevice::GetStatus</a>).
+The device is not capable of issuing asynchronous notifications; polling of the device is required (see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sti/nf-sti-istidevice-getstatus">IStiDevice::GetStatus</a>).
 
 
 
@@ -106,5 +106,5 @@ A driver with more features exists. An IHV driver with a full set of features sh
 
 The user-mode still image driver is WIA-capable.
 
-The values assigned to these flags are based on registry contents that the <b>Capabilities</b> entry for the device's setup information (INF) file supplies. See <a href="https://msdn.microsoft.com/f68ba904-9049-4f7e-9903-fdf6f413a1a5">INF Files for Still Image Devices</a>.
+The values assigned to these flags are based on registry contents that the <b>Capabilities</b> entry for the device's setup information (INF) file supplies. See <a href="https://docs.microsoft.com/windows-hardware/drivers/image/inf-files-for-still-image-devices">INF Files for Still Image Devices</a>.
 

@@ -46,7 +46,7 @@ req.typenames: WWAN_DEVICE_CAPS_EX, *PWWAN_DEVICE_CAPS_EX
 ## -description
 
 
-The <b>WWAN_DEVICE_CAPS_EX</b> structure represents the capabilities of the mobile broadband device. <b>WWAN_DEVICE_CAPS_EX</b> extends the existing <a href="https://msdn.microsoft.com/library/windows/hardware/ff571204">WWAN_DEVICE_CAPS</a> structure by adding an <b>Executor Index</b> member, for tracking specific executors, and a <b>WwanOptionalServiceCaps</b> member, for Microsoft service extensions.
+The <b>WWAN_DEVICE_CAPS_EX</b> structure represents the capabilities of the mobile broadband device. <b>WWAN_DEVICE_CAPS_EX</b> extends the existing <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_device_caps">WWAN_DEVICE_CAPS</a> structure by adding an <b>Executor Index</b> member, for tracking specific executors, and a <b>WwanOptionalServiceCaps</b> member, for Microsoft service extensions.
 
 
 ## -struct-fields
@@ -423,7 +423,7 @@ If the miniport driver specifies WWAN_BAND_CLASS_CUSTOM, it should also provide 
      <b>CustomBandClass</b> .
 
 For more information about these values, see 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569824">OID_WWAN_DEVICE_CAPS</a>.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-device-caps">OID_WWAN_DEVICE_CAPS</a>.
 
 
 ### -field WwanCdmaBandClass
@@ -645,7 +645,7 @@ If the miniport driver specifies WWAN_BAND_CLASS_CUSTOM, it should also provide 
      <b>CustomBandClass</b> .
 
 For more information about these values, see 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569824">OID_WWAN_DEVICE_CAPS</a>.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-device-caps">OID_WWAN_DEVICE_CAPS</a>.
 
 
 ### -field CustomBandClass
@@ -1029,13 +1029,13 @@ The device and driver support multi-SIM/multi-executors and the following OIDs:
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/D158432A-A715-4ABB-969C-F8F80D2DB845">OID_WWAN_SYS_CAPS_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-sys-caps">OID_WWAN_SYS_CAPS_INFO</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/54AF3447-7918-49CE-945A-DC8DC1E78CBF">OID_WWAN_DEVICE_SLOT_MAPPING_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-device-slot-mappings">OID_WWAN_DEVICE_SLOT_MAPPING_INFO</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/6267D480-5055-4A7A-B2A0-F4DF9154DCD7">OID_WWAN_SLOT_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-slot-info-status">OID_WWAN_SLOT_INFO</a>
 </li>
 </ul>
 </td>
@@ -1145,15 +1145,15 @@ For CDMA-based devices, only CDMA-related data services must be specified. For e
 
 
 
-<a href="https://msdn.microsoft.com/FC801FA3-699F-4EE5-BED9-35CA696A5E52">NDIS_WWAN_DEVICE_CAPS_EX</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndiswwan/ns-ndiswwan-_ndis_wwan_device_caps_ex">NDIS_WWAN_DEVICE_CAPS_EX</a>
 
 
 
-<a href="https://msdn.microsoft.com/BE664B41-3FE7-4E93-8739-12BD2F0AE5B8">OID_WWAN_DEVICE_CAPS_EX</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-device-caps-ex">OID_WWAN_DEVICE_CAPS_EX</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571204">WWAN_DEVICE_CAPS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_device_caps">WWAN_DEVICE_CAPS</a>
  
 
  

@@ -51,7 +51,7 @@ The <b>IDebugClient7</b> interface is reserved for internal use.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugClient7</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDebugClient7</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugClient7</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDebugClient7</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -66,10 +66,10 @@ The <b>IDebugClient7</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/235DA791-D4D1-486C-B136-3703E62E91E2">SetClientContext</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient7-setclientcontext">SetClientContext</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/235DA791-D4D1-486C-B136-3703E62E91E2">SetClientContext</a> method is reserved for internal use.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient7-setclientcontext">SetClientContext</a> method is reserved for internal use.
 
 </td>
 </tr>

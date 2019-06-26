@@ -240,7 +240,7 @@ The length of data pointed to by the <b>CertificateThumbprint</b> member.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406355">BDCB_CLASSIFICATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ne-ntddk-_bdcb_classification">BDCB_CLASSIFICATION</a>
 
 
 

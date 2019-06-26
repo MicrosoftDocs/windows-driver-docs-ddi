@@ -70,7 +70,7 @@ A handle to the display device (graphics context).
 
 *pData* [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543285">D3DDDIARG_SETCONVOLUTIONKERNELMONO</a> structure that describes parameters for setting the monochrome convolution kernel.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_setconvolutionkernelmono">D3DDDIARG_SETCONVOLUTIONKERNELMONO</a> structure that describes parameters for setting the monochrome convolution kernel.
 
 
 ## -returns
@@ -127,11 +127,11 @@ alpha = V<sub>f</sub> - truncate(V<sub>f</sub>)
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543285">D3DDDIARG_SETCONVOLUTIONKERNELMONO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_setconvolutionkernelmono">D3DDDIARG_SETCONVOLUTIONKERNELMONO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>
  
 
  

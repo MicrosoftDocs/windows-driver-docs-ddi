@@ -95,7 +95,7 @@ The value(s) associated with each entry follows the <b>EaName</b> array. That is
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566424">ZwCreateFile</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-ntcreatefile">ZwCreateFile</a>
  
 
  

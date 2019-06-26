@@ -46,7 +46,7 @@ req.typenames: POINTER_SEARCH_PHYSICAL, *PPOINTER_SEARCH_PHYSICAL
 ## -description
 
 
-The IG_POINTER_SEARCH_PHYSICAL <a href="https://msdn.microsoft.com/library/windows/hardware/ff551084">Ioctl</a> operation searches the target's physical memory for pointers lying within a specified range.  When calling <b>Ioctl</b> with <i>IoctlType</i> set to IG_POINTER_SEARCH_PHYSICAL, <i>IpvData</i> should contain an instance of the POINTER_SEARCH_PHYSICAL structure.
+The IG_POINTER_SEARCH_PHYSICAL <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdbgexts/nc-wdbgexts-pwindbg_ioctl_routine">Ioctl</a> operation searches the target's physical memory for pointers lying within a specified range.  When calling <b>Ioctl</b> with <i>IoctlType</i> set to IG_POINTER_SEARCH_PHYSICAL, <i>IpvData</i> should contain an instance of the POINTER_SEARCH_PHYSICAL structure.
 
 
 ## -struct-fields
@@ -146,7 +146,7 @@ Receives the number of pointers found that match the search criteria.
 
 
 
-The parameters for the IG_POINTER_SEARCH_PHYSICAL <a href="https://msdn.microsoft.com/library/windows/hardware/ff551084">Ioctl</a> operation are the members of the POINTER_SEARCH_PHYSICAL structure.
+The parameters for the IG_POINTER_SEARCH_PHYSICAL <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdbgexts/nc-wdbgexts-pwindbg_ioctl_routine">Ioctl</a> operation are the members of the POINTER_SEARCH_PHYSICAL structure.
 
 
 
@@ -156,7 +156,7 @@ The parameters for the IG_POINTER_SEARCH_PHYSICAL <a href="https://msdn.microsof
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551084">Ioctl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdbgexts/nc-wdbgexts-pwindbg_ioctl_routine">Ioctl</a>
  
 
  

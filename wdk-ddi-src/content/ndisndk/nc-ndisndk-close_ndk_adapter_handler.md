@@ -56,12 +56,12 @@ The <i>CloseNDKAdapterHandler</i> (<i>CLOSE_NDK_ADAPTER_HANDLER</i>) function cl
 
 ### -param MiniportAdapterContext [in]
 
-A handle to a context area that the miniport driver allocated in its <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> function. The miniport driver uses this context area to maintain state information for an NDIS  miniport adapter.
+A handle to a context area that the miniport driver allocated in its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> function. The miniport driver uses this context area to maintain state information for an NDIS  miniport adapter.
 
 
 ### -param *pNdkAdapter [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439848">NDK_ADAPTER</a> instance to close.
+A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/ns-ndkpi-_ndk_adapter">NDK_ADAPTER</a> instance to close.
 
 
 ## -returns
@@ -77,8 +77,8 @@ None
 
 
 
-The <i>CLOSE_NDK_ADAPTER_HANDLER</i> function closes an <a href="https://msdn.microsoft.com/library/windows/hardware/hh439848">NDK_ADAPTER</a> instance on an NDK-capable NDIS miniport adapter.
- The miniport driver previously opened the  NDK_ADAPTER instance by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/hh440105">OPEN_NDK_ADAPTER_HANDLER</a> function.
+The <i>CLOSE_NDK_ADAPTER_HANDLER</i> function closes an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/ns-ndkpi-_ndk_adapter">NDK_ADAPTER</a> instance on an NDK-capable NDIS miniport adapter.
+ The miniport driver previously opened the  NDK_ADAPTER instance by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndisndk/nc-ndisndk-open_ndk_adapter_handler">OPEN_NDK_ADAPTER_HANDLER</a> function.
 
 
 
@@ -88,19 +88,19 @@ The <i>CLOSE_NDK_ADAPTER_HANDLER</i> function closes an <a href="https://msdn.mi
 
 
 
-<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439848">NDK_ADAPTER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/ns-ndkpi-_ndk_adapter">NDK_ADAPTER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439850">NDK_ADAPTER_DISPATCH</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/ns-ndkpi-_ndk_adapter_dispatch">NDK_ADAPTER_DISPATCH</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh440105">OPEN_NDK_ADAPTER_HANDLER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndisndk/nc-ndisndk-open_ndk_adapter_handler">OPEN_NDK_ADAPTER_HANDLER</a>
  
 
  

@@ -90,19 +90,19 @@ This function allows IRPs to be forwarded through an object by ensuring that any
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560958">KsAllocateDeviceHeader</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksallocatedeviceheader">KsAllocateDeviceHeader</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561665">KsDefaultDispatchPnp</a>
+<a href="https://docs.microsoft.com/previous-versions/ff561665(v=vs.85)">KsDefaultDispatchPnp</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566831">KsSetDevicePnpAndBaseObject</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-kssetdevicepnpandbaseobject">KsSetDevicePnpAndBaseObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566845">KsSetTargetDeviceObject</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-kssettargetdeviceobject">KsSetTargetDeviceObject</a>
  
 
  

@@ -46,7 +46,7 @@ req.typenames: DeleteInitiatorNodeName_IN, *PDeleteInitiatorNodeName_IN
 ## -description
 
 
-The DeleteInitiatorNodeName_IN structure holds the input data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552500">DeleteInitiatorNodeName</a> method, which is used to delete an initiator node name.
+The DeleteInitiatorNodeName_IN structure holds the input data for the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/deleteinitiatornodename">DeleteInitiatorNodeName</a> method, which is used to delete an initiator node name.
 
 
 ## -struct-fields
@@ -73,11 +73,11 @@ It is optional that you implement this method.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552500">DeleteInitiatorNodeName</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/deleteinitiatornodename">DeleteInitiatorNodeName</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552506">DeleteInitiatorNodeName_OUT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/iscsiop/ns-iscsiop-_deleteinitiatornodename_out">DeleteInitiatorNodeName_OUT</a>
  
 
  

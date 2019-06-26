@@ -74,7 +74,7 @@ This value is reserved.
 #### IPSEC_UDPESP_E\NCAPTYPE_OTHER
 
 UDP encapsulation for packets on port 4500. For more information, see 
-       <a href="https://msdn.microsoft.com/86556307-d877-4ee6-bf7f-82160a0b9078">UDP-ESP Encapsulation
+       <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff565707(v=vs.85)">UDP-ESP Encapsulation
        Types</a>.
 
 
@@ -93,7 +93,7 @@ For an inbound SA (Flags = OFFLOAD_INBOUND_SA), specifies the destination port t
 
 
 The OFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY structure is used with the 
-    <a href="https://msdn.microsoft.com/4d3f554f-2733-4896-827c-14e92e8034ce">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_offload_ipsec_add_udpesp_sa">
     OFFLOAD_IPSEC_ADD_UDPESP_SA</a> structure.
 
 
@@ -104,7 +104,7 @@ The OFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY structure is used with the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569057">OFFLOAD_IPSEC_ADD_UDPESP_SA</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_offload_ipsec_add_udpesp_sa">OFFLOAD_IPSEC_ADD_UDPESP_SA</a>
  
 
  

@@ -141,7 +141,7 @@ If a device is currently proximate when this IOCTL is successfully completed, th
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj853315">IOCTL_NFP_DISABLE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/nfpdev/ni-nfpdev-ioctl_nfp_disable">IOCTL_NFP_DISABLE</a>
 
 
 
@@ -149,7 +149,7 @@ If a device is currently proximate when this IOCTL is successfully completed, th
 
 
 
-<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfp-design-guide">Near field proximity design guide (Tap and Do, NFP provider model, driver requirements)</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/nfc/nfp-design-guide">Near field proximity design guide (Tap and Do, NFP provider model, driver requirements)</a>
  
 
  

@@ -56,12 +56,12 @@ Presents the screen image to the display device of a kernel mode display-only dr
 
 ### -param hAdapter [in]
 
-A handle to the device context for the display adapter. The KMDOD's <a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a> function previously returned this handle in the <i>MiniportDeviceContext</i> parameter.
+A handle to the device context for the display adapter. The KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function previously returned this handle in the <i>MiniportDeviceContext</i> parameter.
 
 
 ### -param pPresentDisplayOnly [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh451288">DXGKARG_PRESENT_DISPLAYONLY</a> structure that contains information about the present operation.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_present_displayonly">DXGKARG_PRESENT_DISPLAYONLY</a> structure that contains information about the present operation.
 
 
 ## -returns
@@ -71,7 +71,7 @@ Returns one of the following values:
 | **Return code** | **Description** | 
 |:--|:--|
 | **STATUS_SUCCESS** |The present operation completed successfully. | 
-| **STATUS_PENDING** | The present operation has been sent to the software or hardware queue to complete. <br/>In this case, the KMDOD should use an interrupt and deferred procedure call (DPC) to report progress of the current present operation. Otherwise the operating system uses the [Timeout Detection and Recovery (TDR)](https://msdn.microsoft.com/f410eec7-026f-41e0-8c60-72f651659ead)  process, which reports an error and requires the KMDOD to reinitialize itself and to reset the GPU.<br/>Note that this status code should not be returned for synchronous mode, as described in Remarks. | 
+| **STATUS_PENDING** | The present operation has been sent to the software or hardware queue to complete. <br/>In this case, the KMDOD should use an interrupt and deferred procedure call (DPC) to report progress of the current present operation. Otherwise the operating system uses the [Timeout Detection and Recovery (TDR)](https://docs.microsoft.com/windows-hardware/drivers/display/timeout-detection-and-recovery)  process, which reports an error and requires the KMDOD to reinitialize itself and to reset the GPU.<br/>Note that this status code should not be returned for synchronous mode, as described in Remarks. | 
 
  
 
@@ -90,7 +90,7 @@ The operating system supports two modes of KMDOD present operations: synchronous
 
 
 
-The operating system guarantees that this function follows the  zero level  synchronization mode as defined in <a href="https://msdn.microsoft.com/2baf91e8-fafb-40e2-a24c-cbf04fe45274">Threading and Synchronization Zero Level</a>.
+The operating system guarantees that this function follows the  zero level  synchronization mode as defined in <a href="https://docs.microsoft.com/windows-hardware/drivers/display/threading-and-synchronization-zero-level">Threading and Synchronization Zero Level</a>.
 
 
 
@@ -100,31 +100,31 @@ The operating system guarantees that this function follows the  zero level  sync
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557538">DXGKARGCB_NOTIFY_INTERRUPT_DATA</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkargcb_notify_interrupt_data">DXGKARGCB_NOTIFY_INTERRUPT_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451288">DXGKARG_PRESENT_DISPLAYONLY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_present_displayonly">DXGKARG_PRESENT_DISPLAYONLY</a>
 
 
 
-<a href="https://msdn.microsoft.com/3df3f7d4-3721-46f5-b9e3-19bd3d870292">DxgkCbNotifyDpc</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkcb_notify_dpc">DxgkCbNotifyDpc</a>
 
 
 
-<a href="https://msdn.microsoft.com/7968d26d-0195-463d-8954-e7ebef4f9dea">DxgkCbNotifyInterrupt</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkcb_notify_interrupt">DxgkCbNotifyInterrupt</a>
 
 
 
-<a href="https://msdn.microsoft.com/8970246b-b46f-464f-93b2-973cc351ed07">DxgkCbPresentDisplayOnlyProgress</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/display/dxgkcbpresentdisplayonlyprogress">DxgkCbPresentDisplayOnlyProgress</a>
 
 
 
-<a href="https://msdn.microsoft.com/c8c26675-8b87-4818-ad51-4e0a341965d0">DxgkCbQueueDpc</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkcb_queue_dpc">DxgkCbQueueDpc</a>
 
 
 
-<a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a>
  
 
  

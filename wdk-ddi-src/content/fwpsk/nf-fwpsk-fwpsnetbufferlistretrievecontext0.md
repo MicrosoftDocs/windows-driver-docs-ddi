@@ -50,7 +50,7 @@ req.typenames:
 The 
   <b>FwpsNetBufferListRetrieveContext0</b> function retrieves the context associated with a network buffer
   list that was tagged in another layer.
-<div class="alert"><b>Note</b>  <b>FwpsNetBufferListRetrieveContext0</b> is a specific version of <b>FwpsNetBufferListRetrieveContext</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
+<div class="alert"><b>Note</b>  <b>FwpsNetBufferListRetrieveContext0</b> is a specific version of <b>FwpsNetBufferListRetrieveContext</b>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
 ## -parameters
 
@@ -66,9 +66,9 @@ A network buffer list that indicates one or more packets of interest to the call
 ### -param contextTag [in]
 
 A locally unique identifier obtained by calling the 
-     <a href="https://msdn.microsoft.com/f4b9b6ab-2251-4b8a-baf5-16c845a1a4db">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsnetbufferlistgettagforcontext0">
      FwpsNetBufferListGetTagForContext0</a> function. This is the context tag used in the initial call to 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff551191">FwpsNetBufferListAssociateContext0</a>.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsnetbufferlistassociatecontext0">FwpsNetBufferListAssociateContext0</a>.
 
 
 ### -param removeContext [in]
@@ -148,22 +148,22 @@ You can also use this function to remove the context association by setting the
 
 
 
-<a href="https://msdn.microsoft.com/31135396-303b-4b94-8616-a4b7be207fa1">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsnetbufferlistassociatecontext0">
    FwpsNetBufferListAssociateContext0</a>
 
 
 
-<a href="https://msdn.microsoft.com/f4b9b6ab-2251-4b8a-baf5-16c845a1a4db">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsnetbufferlistgettagforcontext0">
    FwpsNetBufferListGetTagForContext0</a>
 
 
 
-<a href="https://msdn.microsoft.com/bd3aa1a2-3ff5-47e4-93f6-5cb2022ec630">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsnetbufferlistremovecontext0">
    FwpsNetBufferListRemoveContext0</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
  
 
  

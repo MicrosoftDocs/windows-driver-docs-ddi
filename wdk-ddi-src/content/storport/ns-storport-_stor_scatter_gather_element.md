@@ -46,7 +46,7 @@ req.typenames: STOR_SCATTER_GATHER_ELEMENT, *PSTOR_SCATTER_GATHER_ELEMENT
 ## -description
 
 
-The STOR_SCATTER_GATHER_ELEMENT structure is used with <a href="https://msdn.microsoft.com/library/windows/hardware/ff567590">STOR_SCATTER_GATHER_LIST</a> to build a list of scatter/gather elements. 
+The STOR_SCATTER_GATHER_ELEMENT structure is used with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/ns-storport-_stor_scatter_gather_list">STOR_SCATTER_GATHER_LIST</a> to build a list of scatter/gather elements. 
 
 
 ## -struct-fields
@@ -73,7 +73,7 @@ Reserved.
 
 
 
-Miniport drivers used with the Storport driver retrieve an array of these structures using <a href="https://msdn.microsoft.com/library/windows/hardware/ff567097">StorPortGetScatterGatherList</a>. 
+Miniport drivers used with the Storport driver retrieve an array of these structures using <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportgetscattergatherlist">StorPortGetScatterGatherList</a>. 
 
 
 
@@ -83,11 +83,11 @@ Miniport drivers used with the Storport driver retrieve an array of these struct
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567590">STOR_SCATTER_GATHER_LIST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/ns-storport-_stor_scatter_gather_list">STOR_SCATTER_GATHER_LIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567097">StorPortGetScatterGatherList</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportgetscattergatherlist">StorPortGetScatterGatherList</a>
  
 
  

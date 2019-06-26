@@ -56,7 +56,7 @@ The <b>PsSetCreateProcessNotifyRoutine</b> routine adds a driver-supplied callba
 
 ### -param NotifyRoutine [in]
 
-Specifies the entry point of a caller-supplied process-creation callback routine. See <a href="https://msdn.microsoft.com/library/windows/hardware/mt764085">PCREATE_PROCESS_NOTIFY_ROUTINE</a>.
+Specifies the entry point of a caller-supplied process-creation callback routine. See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nc-ntddk-pcreate_process_notify_routine">PCREATE_PROCESS_NOTIFY_ROUTINE</a>.
 
 
 ### -param Remove [in]
@@ -107,7 +107,7 @@ The given <i>NotifyRoutine</i> has already been registered, so this call is a re
 
 
 
-Highest-level drivers can call <b>PsSetCreateProcessNotifyRoutine</b> to set up their process-creation notify routines implemented as <a href="https://msdn.microsoft.com/library/windows/hardware/mt764085">PCREATE_PROCESS_NOTIFY_ROUTINE</a>.
+Highest-level drivers can call <b>PsSetCreateProcessNotifyRoutine</b> to set up their process-creation notify routines implemented as <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nc-ntddk-pcreate_process_notify_routine">PCREATE_PROCESS_NOTIFY_ROUTINE</a>.
 
 An IFS or highest-level system-profiling driver might register a process-creation callback to track the system-wide creation and deletion of processes against the driver's internal state. For Windows Vista and later versions of Windows, the system can register up to 64 process-creation callback routines.
 
@@ -123,23 +123,23 @@ After a driver-supplied routine is registered, it is called with <i>Create</i> s
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt764085">PCREATE_PROCESS_NOTIFY_ROUTINE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nc-ntddk-pcreate_process_notify_routine">PCREATE_PROCESS_NOTIFY_ROUTINE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559935">PsGetCurrentProcessId</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-psgetcurrentprocessid">PsGetCurrentProcessId</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559953">PsSetCreateProcessNotifyRoutineEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-pssetcreateprocessnotifyroutineex">PsSetCreateProcessNotifyRoutineEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559954">PsSetCreateThreadNotifyRoutine</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-pssetcreatethreadnotifyroutine">PsSetCreateThreadNotifyRoutine</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559957">PsSetLoadImageNotifyRoutine</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-pssetloadimagenotifyroutine">PsSetLoadImageNotifyRoutine</a>
  
 
  

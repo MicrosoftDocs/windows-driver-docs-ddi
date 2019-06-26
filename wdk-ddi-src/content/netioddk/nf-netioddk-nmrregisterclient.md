@@ -59,7 +59,7 @@ The
 ### -param ClientCharacteristics [in]
 
 A pointer to an 
-     <a href="https://msdn.microsoft.com/03d73a80-0860-4ec7-8eb1-5954f64b6026">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netioddk/ns-netioddk-_npi_client_characteristics">
      NPI_CLIENT_CHARACTERISTICS</a> structure that describes the characteristics of the client module. The
      client module must make sure that this structure remains valid and resident in memory as long as the
      client module is registered with the NMR.
@@ -71,7 +71,7 @@ A pointer to a caller-supplied context for the registration. The client module u
      to keep track of the state of the client registration. The contents of the client module's registration
      context are opaque to the NMR. The NMR passes this pointer to the client module whenever it calls the
      client module's 
-     <a href="https://msdn.microsoft.com/8f8abdb1-d018-4404-a80a-74017c324a0f">ClientAttachProvider</a> callback
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netioddk/nc-netioddk-npi_client_attach_provider_fn">ClientAttachProvider</a> callback
      function. The client module must make sure that its registration context remains valid and resident in
      memory as long as the client module is registered with the NMR.
 
@@ -80,7 +80,7 @@ A pointer to a caller-supplied context for the registration. The client module u
 
 A pointer to a variable that receives a handle used by the NMR to represent the registration of
      the client module. The client module must save this handle and pass it as a parameter to the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568774">NmrDeregisterClient</a> function when it
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netioddk/nf-netioddk-nmrderegisterclient">NmrDeregisterClient</a> function when it
      deregisters from the NMR.
 
 
@@ -147,7 +147,7 @@ A client module calls the
 
 A client module typically calls the 
     <b>NmrRegisterClient</b> function from its 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> function after it has completed
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> function after it has completed
     all other initialization tasks. The call to the 
     <b>NmrRegisterClient</b> function indicates to the NMR that the client module is ready to attach to any
     provider modules that have registered or will register as providers of the same 
@@ -162,15 +162,15 @@ A client module typically calls the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568812">NPI_CLIENT_CHARACTERISTICS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netioddk/ns-netioddk-_npi_client_characteristics">NPI_CLIENT_CHARACTERISTICS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568774">NmrDeregisterClient</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netioddk/nf-netioddk-nmrderegisterclient">NmrDeregisterClient</a>
  
 
  

@@ -58,7 +58,7 @@ The SDP_TREE_ROOT_NODE structure is the root element of a tree-based representat
 ### -field RootNode
 
 An 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536848">SDP_NODE</a> structure that represents the root node of
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sdpnode/ns-sdpnode-_sdp_node">SDP_NODE</a> structure that represents the root node of
      a tree-based representation of an SDP record.
 
 
@@ -70,29 +70,29 @@ Several SDP functions access or output this structure when they build a tree-bas
     convert a raw SDP record stream into a tree-based record.
 
 The 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff536784">SdpAddAttributeToTree</a> function adds
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sdplib/nf-sdplib-sdpaddattributetotree">SdpAddAttributeToTree</a> function adds
     an SDP_NODE structure that contains SDP attribute information to an existing SDP_TREE_ROOT_NODE
     structure.
 
 The 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff536794">SdpConvertStreamToTree</a> function
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthsdpddi/nc-bthsdpddi-pconvertstreamtotree">SdpConvertStreamToTree</a> function
     outputs this structure as the root element of an SDP record that it converts from a stream to a
     tree-based structure.
 
 The 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff536796">SdpConvertTreeToStream</a> function uses
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthsdpddi/nc-bthsdpddi-pconverttreetostream">SdpConvertTreeToStream</a> function uses
     an existing SDP_TREE_ROOT_NODE structure as input when it converts a tree-based representation of an SDP
     record into a stream.
 
 The 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff536818">SdpCreateNodeTree</a> function creates an
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sdplib/nf-sdplib-sdpcreatenodetree">SdpCreateNodeTree</a> function creates an
     empty SDP_TREE_ROOT_NODE structure. This is the first step in creating an SDP record as a tree. After the
     SDP tree is completed, a profile driver that is using SDP to advertise its service can convert the tree
     into an SDP record stream using the 
     <b>SdpConvertTreeToStream</b> function.
 
 The 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff536838">SdpFindAttributeInTree</a> function
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sdplib/nf-sdplib-sdpfindattributeintree">SdpFindAttributeInTree</a> function
     searches a populated SDP_TREE_ROOT_NODE structure for an SDP attribute value.
 
 
@@ -103,27 +103,27 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536848">SDP_NODE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sdpnode/ns-sdpnode-_sdp_node">SDP_NODE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536784">SdpAddAttributeToTree</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sdplib/nf-sdplib-sdpaddattributetotree">SdpAddAttributeToTree</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536794">SdpConvertStreamToTree</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthsdpddi/nc-bthsdpddi-pconvertstreamtotree">SdpConvertStreamToTree</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536796">SdpConvertTreeToStream</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthsdpddi/nc-bthsdpddi-pconverttreetostream">SdpConvertTreeToStream</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536818">SdpCreateNodeTree</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sdplib/nf-sdplib-sdpcreatenodetree">SdpCreateNodeTree</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536838">SdpFindAttributeInTree</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sdplib/nf-sdplib-sdpfindattributeintree">SdpFindAttributeInTree</a>
  
 
  

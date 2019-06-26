@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <b>RtlConvertLongToLuid</b> routine converts a long integer to a locally unique identifier (<a href="https://msdn.microsoft.com/library/windows/hardware/ff557080">LUID</a>), which is used by the system to represent a security privilege.
+The <b>RtlConvertLongToLuid</b> routine converts a long integer to a locally unique identifier (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/igpupvdev/ns-igpupvdev-_luid">LUID</a>), which is used by the system to represent a security privilege.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ Specifies the long integer to convert.
 
 
 
-<b>RtlConvertLongToLuid</b> returns the converted <a href="https://msdn.microsoft.com/library/windows/hardware/ff557080">LUID</a>.
+<b>RtlConvertLongToLuid</b> returns the converted <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/igpupvdev/ns-igpupvdev-_luid">LUID</a>.
 
 
 
@@ -72,7 +72,7 @@ Specifies the long integer to convert.
 
 
 
-<b>RtlConvertLongToLuid</b> is used to convert a system-defined privilege value to the locally unique identifier (<a href="https://msdn.microsoft.com/library/windows/hardware/ff557080">LUID</a>) used by the system to represent that privilege. Drivers typically pass a LUID to <b>SeSinglePrivilegeCheck</b>, which is usually called by network transport drivers.
+<b>RtlConvertLongToLuid</b> is used to convert a system-defined privilege value to the locally unique identifier (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/igpupvdev/ns-igpupvdev-_luid">LUID</a>) used by the system to represent that privilege. Drivers typically pass a LUID to <b>SeSinglePrivilegeCheck</b>, which is usually called by network transport drivers.
 
 
 
@@ -82,19 +82,19 @@ Specifies the long integer to convert.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557080">LUID</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/igpupvdev/ns-igpupvdev-_luid">LUID</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561798">RtlConvertULongToLuid</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-rtlconvertulongtoluid">RtlConvertULongToLuid</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561842">RtlEqualLuid</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer">RtlEqualLuid</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563740">SeSinglePrivilegeCheck</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-sesingleprivilegecheck">SeSinglePrivilegeCheck</a>
  
 
  

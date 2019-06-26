@@ -70,7 +70,7 @@ A handle to the display device (graphics context).
 
 *pData* [in, out]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542958">D3DDDIARG_CREATEQUERY</a> structure that identifies the query.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_createquery">D3DDDIARG_CREATEQUERY</a> structure that identifies the query.
 
 
 ## -returns
@@ -82,7 +82,7 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 | **Return code** | **Description** | 
 |:--|:--|
 | **S_OK** | The query is successfully created. | 
-| **E_OUTOFMEMORY** | [CreateQuery](https://msdn.microsoft.com/ac63b77b-2704-4d5b-bf1d-9d85e8a1e336)  could not allocate the required memory for it to complete. | 
+| **E_OUTOFMEMORY** | [CreateQuery](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_createquery)  could not allocate the required memory for it to complete. | 
 
 ## -remarks
 
@@ -100,11 +100,11 @@ UINT for D3DDDIQUERYTYPE_OCCLUSION. The driver sets this UINT variable to the nu
 
 </li>
 <li>
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff544294">D3DDDIDEVINFO_VCACHE</a> structure for D3DDDIQUERYTYPE_VCACHE. The driver responds after the issue end state occurs.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddidevinfo_vcache">D3DDDIDEVINFO_VCACHE</a> structure for D3DDDIQUERYTYPE_VCACHE. The driver responds after the issue end state occurs.
 
 </li>
 </ul>
-For more information about issue query states, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff544575">D3DDDI_ISSUEQUERYFLAGS</a>.
+For more information about issue query states, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddi_issuequeryflags">D3DDDI_ISSUEQUERYFLAGS</a>.
 
 
 
@@ -114,19 +114,19 @@ For more information about issue query states, see <a href="https://msdn.microso
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542958">D3DDDIARG_CREATEQUERY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_createquery">D3DDDIARG_CREATEQUERY</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544294">D3DDDIDEVINFO_VCACHE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddidevinfo_vcache">D3DDDIDEVINFO_VCACHE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544575">D3DDDI_ISSUEQUERYFLAGS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddi_issuequeryflags">D3DDDI_ISSUEQUERYFLAGS</a>
  
 
  

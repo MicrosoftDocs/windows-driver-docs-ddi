@@ -46,12 +46,12 @@ req.typenames:
 ## -description
 
 
-The <b>IKsQualityForwarder</b> interface inherits the method of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559883">IKsObject</a> interface and extends <b>IKsObject</b> to provide a method that flushes information from a pin. 
+The <b>IKsQualityForwarder</b> interface inherits the method of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nn-ksproxy-iksobject">IKsObject</a> interface and extends <b>IKsObject</b> to provide a method that flushes information from a pin. 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsQualityForwarder</b> interface inherits from <a href="https://msdn.microsoft.com/library/windows/hardware/ff559883">IKsObject</a>. <b>IKsQualityForwarder</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsQualityForwarder</b> interface inherits from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nn-ksproxy-iksobject">IKsObject</a>. <b>IKsQualityForwarder</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -66,7 +66,7 @@ The <b>IKsQualityForwarder</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0a1b5094-4abd-4d57-8d8c-b385fb0d46de">KsFlushClient</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nf-ksproxy-iksqualityforwarder-ksflushclient">KsFlushClient</a>
 </td>
 <td align="left" width="63%">
 Flushes information from a pin. 

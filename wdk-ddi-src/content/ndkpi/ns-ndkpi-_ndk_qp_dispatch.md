@@ -56,57 +56,57 @@ The <b>NDK_QP_DISPATCH</b> structure specifies dispatch function entry points fo
 
 ### -field NdkCloseQp
 
-The entry point for the object's <a href="https://msdn.microsoft.com/library/windows/hardware/hh439863">NDK_FN_CLOSE_OBJECT</a> dispatch function.
+The entry point for the object's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/nc-ndkpi-ndk_fn_close_object">NDK_FN_CLOSE_OBJECT</a> dispatch function.
 
 
 ### -field NdkQueryExtension
 
-The entry point for the object's <a href="https://msdn.microsoft.com/library/windows/hardware/hh439905">NDK_FN_QUERY_EXTENSION_INTERFACE</a> dispatch function.
+The entry point for the object's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/nc-ndkpi-ndk_fn_query_extension_interface">NDK_FN_QUERY_EXTENSION_INTERFACE</a> dispatch function.
 
 
 ### -field NdkFlush
 
-The entry point for the object's <a href="https://msdn.microsoft.com/library/windows/hardware/hh439889">NDK_FN_FLUSH</a> dispatch function.
+The entry point for the object's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/nc-ndkpi-ndk_fn_flush">NDK_FN_FLUSH</a> dispatch function.
 
 
 ### -field NdkSend
 
-The entry point for the object's <a href="https://msdn.microsoft.com/library/windows/hardware/hh439914">NDK_FN_SEND</a> dispatch function.
+The entry point for the object's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/nc-ndkpi-ndk_fn_send">NDK_FN_SEND</a> dispatch function.
 
 
 ### -field NdkReceive
 
-The entry point for the object's <a href="https://msdn.microsoft.com/library/windows/hardware/hh439907">NDK_FN_RECEIVE</a> dispatch function.
+The entry point for the object's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/nc-ndkpi-ndk_fn_receive">NDK_FN_RECEIVE</a> dispatch function.
 
 
 ### -field NdkBind
 
-The entry point for the object's <a href="https://msdn.microsoft.com/library/windows/hardware/hh439859">NDK_FN_BIND</a> dispatch function.
+The entry point for the object's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/nc-ndkpi-ndk_fn_bind">NDK_FN_BIND</a> dispatch function.
 
 
 ### -field NdkFastRegister
 
-The entry point for the object's <a href="https://msdn.microsoft.com/library/windows/hardware/hh439887">NDK_FN_FAST_REGISTER</a> dispatch function.
+The entry point for the object's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/nc-ndkpi-ndk_fn_fast_register">NDK_FN_FAST_REGISTER</a> dispatch function.
 
 
 ### -field NdkInvalidate
 
-The entry point for the object's <a href="https://msdn.microsoft.com/library/windows/hardware/hh439901">NDK_FN_INVALIDATE</a> dispatch function.
+The entry point for the object's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/nc-ndkpi-ndk_fn_invalidate">NDK_FN_INVALIDATE</a> dispatch function.
 
 
 ### -field NdkRead
 
-The entry point for the object's <a href="https://msdn.microsoft.com/library/windows/hardware/hh439906">NDK_FN_READ</a> dispatch function.
+The entry point for the object's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/nc-ndkpi-ndk_fn_read">NDK_FN_READ</a> dispatch function.
 
 
 ### -field NdkWrite
 
-The entry point for the object's <a href="https://msdn.microsoft.com/library/windows/hardware/hh439917">NDK_FN_WRITE</a> dispatch function.
+The entry point for the object's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/nc-ndkpi-ndk_fn_write">NDK_FN_WRITE</a> dispatch function.
 
 
 ### -field NdkSendAndInvalidate
 
-The entry point for the object's <a href="https://msdn.microsoft.com/library/windows/hardware/dn265507">NDK_FN_SEND_AND_INVALIDATE</a> dispatch function.
+The entry point for the object's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/nc-ndkpi-ndk_fn_send_and_invalidate">NDK_FN_SEND_AND_INVALIDATE</a> dispatch function.
 
 <b>Note</b>  This member is supported only in NDKPI 1.2 (Windows Server 2012 R2) and later.
 
@@ -115,7 +115,7 @@ The entry point for the object's <a href="https://msdn.microsoft.com/library/win
 
 
 
-The <b>NDK_QP_DISPATCH</b> structure is used in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439933">NDK_QP</a> structure.
+The <b>NDK_QP_DISPATCH</b> structure is used in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/ns-ndkpi-_ndk_qp">NDK_QP</a> structure.
 
 
 
@@ -125,47 +125,47 @@ The <b>NDK_QP_DISPATCH</b> structure is used in the <a href="https://msdn.micros
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439859">NDK_FN_BIND</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/nc-ndkpi-ndk_fn_bind">NDK_FN_BIND</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439863">NDK_FN_CLOSE_OBJECT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/nc-ndkpi-ndk_fn_close_object">NDK_FN_CLOSE_OBJECT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439887">NDK_FN_FAST_REGISTER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/nc-ndkpi-ndk_fn_fast_register">NDK_FN_FAST_REGISTER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439889">NDK_FN_FLUSH</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/nc-ndkpi-ndk_fn_flush">NDK_FN_FLUSH</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439901">NDK_FN_INVALIDATE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/nc-ndkpi-ndk_fn_invalidate">NDK_FN_INVALIDATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439905">NDK_FN_QUERY_EXTENSION_INTERFACE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/nc-ndkpi-ndk_fn_query_extension_interface">NDK_FN_QUERY_EXTENSION_INTERFACE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439906">NDK_FN_READ</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/nc-ndkpi-ndk_fn_read">NDK_FN_READ</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439907">NDK_FN_RECEIVE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/nc-ndkpi-ndk_fn_receive">NDK_FN_RECEIVE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439914">NDK_FN_SEND</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/nc-ndkpi-ndk_fn_send">NDK_FN_SEND</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439917">NDK_FN_WRITE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/nc-ndkpi-ndk_fn_write">NDK_FN_WRITE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439933">NDK_QP</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/ns-ndkpi-_ndk_qp">NDK_QP</a>
  
 
  

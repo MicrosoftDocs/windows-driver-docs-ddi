@@ -70,7 +70,7 @@ A handle to the display device (graphics context).
 
 *pData* [in, out]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542948">D3DDDIARG_CREATEOVERLAY</a> structure that describes the overlay.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_createoverlay">D3DDDIARG_CREATEOVERLAY</a> structure that describes the overlay.
 
 
 ## -returns
@@ -82,8 +82,8 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 | **Return code** | **Description** | 
 |:--|:--|
 | **S_OK** | The overlay is successfully created. | 
-| **E_OUTOFMEMORY** | [CreateOverlay](https://msdn.microsoft.com/761377ff-95a6-426b-8372-3f347870f9c4)  could not complete because of insufficient memory. | 
-| **D3DDDIERR_NOTAVAILABLE** | [CreateOverlay](https://msdn.microsoft.com/761377ff-95a6-426b-8372-3f347870f9c4)  could not complete because insufficient bandwidth was available or the requested overlay hardware was unavailable. | 
+| **E_OUTOFMEMORY** | [CreateOverlay](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_createoverlay)  could not complete because of insufficient memory. | 
+| **D3DDDIERR_NOTAVAILABLE** | [CreateOverlay](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_createoverlay)  could not complete because insufficient bandwidth was available or the requested overlay hardware was unavailable. | 
 | **D3DDDIERR_UNSUPPORTEDOVERLAYFORMAT** | The specified overlay format is not supported by the overlay hardware. | 
 | **D3DDDIERR_UNSUPPORTEDOVERLAY** | The overlay hardware is not supported for the specified size and display mode. | 
 
@@ -102,11 +102,11 @@ Overlays are independent from the resources that are displayed by using the over
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542948">D3DDDIARG_CREATEOVERLAY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_createoverlay">D3DDDIARG_CREATEOVERLAY</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>
  
 
  

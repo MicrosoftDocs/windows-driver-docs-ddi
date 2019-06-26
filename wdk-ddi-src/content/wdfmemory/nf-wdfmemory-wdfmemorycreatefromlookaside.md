@@ -59,7 +59,7 @@ The <b>WdfMemoryCreateFromLookaside</b> method creates a framework memory object
 
 ### -param Lookaside [in]
 
-A handle to a framework lookaside-list object that is obtained by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff548694">WdfLookasideListCreate</a>.
+A handle to a framework lookaside-list object that is obtained by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfmemory/nf-wdfmemory-wdflookasidelistcreate">WdfLookasideListCreate</a>.
 
 
 ### -param Memory [out]
@@ -103,7 +103,7 @@ There was insufficient memory.
 </table>
  
 
-This method also might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
+This method also might return other <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS values</a>.
 
 A bug check occurs if the driver supplies an invalid object handle.
 
@@ -116,11 +116,11 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
-After your driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff548694">WdfLookasideListCreate</a> to create a lookaside-list object, the driver can call <b>WdfMemoryCreateFromLookaside</b> to obtain a buffer from the lookaside list. 
+After your driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfmemory/nf-wdfmemory-wdflookasidelistcreate">WdfLookasideListCreate</a> to create a lookaside-list object, the driver can call <b>WdfMemoryCreateFromLookaside</b> to obtain a buffer from the lookaside list. 
 
 The framework provides a handle to a memory object that represents the buffer. When the framework creates the memory object, it uses object attributes that the driver supplied when it called <b>WdfMemoryCreateFromLookaside</b>.
 
-When your driver has finished using a memory object that it obtained from a lookaside list, the driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff548734">WdfObjectDelete</a> to return the memory object to the lookaside list.
+When your driver has finished using a memory object that it obtained from a lookaside list, the driver must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfobject/nf-wdfobject-wdfobjectdelete">WdfObjectDelete</a> to return the memory object to the lookaside list.
 
 For more information about framework memory objects and lookaside lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-memory-buffers">Using Memory Buffers</a>.
 
@@ -166,19 +166,19 @@ status = WdfMemoryCreateFromLookaside(
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548694">WdfLookasideListCreate</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfmemory/nf-wdfmemory-wdflookasidelistcreate">WdfLookasideListCreate</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548706">WdfMemoryCreate</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfmemory/nf-wdfmemory-wdfmemorycreate">WdfMemoryCreate</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548712">WdfMemoryCreatePreallocated</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfmemory/nf-wdfmemory-wdfmemorycreatepreallocated">WdfMemoryCreatePreallocated</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548734">WdfObjectDelete</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfobject/nf-wdfobject-wdfobjectdelete">WdfObjectDelete</a>
  
 
  

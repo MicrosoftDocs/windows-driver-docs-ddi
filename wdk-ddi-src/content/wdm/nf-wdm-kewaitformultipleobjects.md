@@ -165,7 +165,7 @@ Note that the NT_SUCCESS macro recognizes all of these status values as "success
 
 
 
-Each thread object has a built-in array of wait blocks that can be used to wait for several objects to be set concurrently. Whenever possible, the built-in array of wait blocks should be used in a wait-multiple operation because no additional wait block storage needs to be allocated and later deallocated. However, if the number of objects that must be waited on concurrently is greater than the number of built-in wait blocks, use the <i>WaitBlockArray</i> parameter to specify an alternate set of wait blocks to be used in the wait operation. Drivers only need to allocate a sufficiently large memory buffer for <i>WaitBlockArray</i>. The buffer does not need to be initialized; however, it must be allocated from nonpaged system memory. If the <i>WaitMode</i> parameter is <b>UserMode</b>, the <i>WaitBlockArray</i> buffer must not be allocated on the local stack because the stack might be swapped out of memory. Drivers can treat this buffer as an opaque structure and can free it after the routine returns. If either <i>Count</i> > MAXIMUM_WAIT_OBJECTS or if <i>WaitBlockArray</i> is <b>NULL</b> and <i>Count</i> > THREAD_WAIT_OBJECTS, the system issues <a href="https://msdn.microsoft.com/99d2eb8f-f331-45b8-a96b-68696802c269">Bug Check 0xC (MAXIMUM_WAIT_OBJECTS_EXCEEDED)</a>.
+Each thread object has a built-in array of wait blocks that can be used to wait for several objects to be set concurrently. Whenever possible, the built-in array of wait blocks should be used in a wait-multiple operation because no additional wait block storage needs to be allocated and later deallocated. However, if the number of objects that must be waited on concurrently is greater than the number of built-in wait blocks, use the <i>WaitBlockArray</i> parameter to specify an alternate set of wait blocks to be used in the wait operation. Drivers only need to allocate a sufficiently large memory buffer for <i>WaitBlockArray</i>. The buffer does not need to be initialized; however, it must be allocated from nonpaged system memory. If the <i>WaitMode</i> parameter is <b>UserMode</b>, the <i>WaitBlockArray</i> buffer must not be allocated on the local stack because the stack might be swapped out of memory. Drivers can treat this buffer as an opaque structure and can free it after the routine returns. If either <i>Count</i> > MAXIMUM_WAIT_OBJECTS or if <i>WaitBlockArray</i> is <b>NULL</b> and <i>Count</i> > THREAD_WAIT_OBJECTS, the system issues <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/bug-check-0xc--maximum-wait-objects-exceeded">Bug Check 0xC (MAXIMUM_WAIT_OBJECTS_EXCEEDED)</a>.
 
 The current state for each of the specified objects is examined to determine whether the wait can be satisfied immediately. If the necessary side effects are performed on the objects, an appropriate value is returned.
 
@@ -175,9 +175,9 @@ If <i>Timeout</i> is specified, the wait will be automatically satisfied if none
 
 A time-out value of zero allows the testing of a set of wait conditions, conditionally performing any side effects if the wait can be immediately satisfied, as in the acquisition of a mutex.
 
-Time-out intervals are measured relative to the system clock, and the accuracy with which the operating system can detect the end of a time-out interval is limited by the granularity of the system clock. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/jj602805">Timer Accuracy</a>.
+Time-out intervals are measured relative to the system clock, and the accuracy with which the operating system can detect the end of a time-out interval is limited by the granularity of the system clock. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/timer-accuracy">Timer Accuracy</a>.
 
-The <i>Alertable</i> parameter determines when the thread can be alerted and its wait state consequently aborted. For additional information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565592">Waits and APCs</a>.
+The <i>Alertable</i> parameter determines when the thread can be alerted and its wait state consequently aborted. For additional information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/waits-and-apcs">Waits and APCs</a>.
 
 The array pointed to by the <i>Objects</i> parameter must reside in nonpaged system memory. Typically, a driver allocates the storage for the <i>Objects</i> array on the local stack. The <i>Objects</i> array can be allocated on the local stack regardless of the value of the <i>WaitMode</i> parameter.
 
@@ -203,23 +203,23 @@ Callers of <b>KeWaitForMultipleObjects</b> can be running at IRQL <= DISPATCH_LE
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545293">ExInitializeFastMutex</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-exinitializefastmutex">ExInitializeFastMutex</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552137">KeInitializeEvent</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-keinitializeevent">KeInitializeEvent</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552147">KeInitializeMutex</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-keinitializemutex">KeInitializeMutex</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552150">KeInitializeSemaphore</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-keinitializesemaphore">KeInitializeSemaphore</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552168">KeInitializeTimer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-keinitializetimer">KeInitializeTimer</a>
 
 
 
@@ -227,7 +227,7 @@ Callers of <b>KeWaitForMultipleObjects</b> can be running at IRQL <= DISPATCH_LE
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553350">KeWaitForSingleObject</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kewaitforsingleobject">KeWaitForSingleObject</a>
  
 
  

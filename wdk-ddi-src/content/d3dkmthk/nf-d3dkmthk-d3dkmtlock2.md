@@ -54,7 +54,7 @@ The <b>D3DKMTLock2</b> function locks an entire allocation or specific pages wit
 
 *pData* [in, out]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn914439">D3DKMT_LOCK2</a> structure that describes parameters for locking an allocation.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_lock2">D3DKMT_LOCK2</a> structure that describes parameters for locking an allocation.
 
 ## -returns
 
@@ -70,7 +70,7 @@ This function might also return other <b>NTSTATUS</b> values.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn914439">D3DKMT_LOCK2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_lock2">D3DKMT_LOCK2</a>
  
 
  

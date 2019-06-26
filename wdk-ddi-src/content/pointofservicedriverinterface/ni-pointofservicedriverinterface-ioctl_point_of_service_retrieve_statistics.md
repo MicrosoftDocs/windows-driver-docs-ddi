@@ -66,7 +66,7 @@ Not used with this operation; set to <b>0</b> (zero).
 
 ### -output-buffer
 
-Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/dn772241">PosStatisticsHeader</a> structure that contains the statistics.
+Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pointofservicedriverinterface/ns-pointofservicedriverinterface-_posstatisticsheader">PosStatisticsHeader</a> structure that contains the statistics.
 
 
 ### -output-buffer-length

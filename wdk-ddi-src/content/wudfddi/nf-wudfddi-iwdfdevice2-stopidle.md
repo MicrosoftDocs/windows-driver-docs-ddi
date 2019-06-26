@@ -125,20 +125,20 @@ Although drivers typically do not need to call <b>StopIdle</b> when handling I/O
 
 Your driver does have to call <b>StopIdle</b> if it must access the device because of a request that the driver has received outside of a power-managed I/O queue. For example, your driver might support a driver-defined interface or a WMI request that requires accessing the device. In this case, you must ensure that the device is in its working state before the driver accesses the device, and that the device remains in its working state until the driver has finished accessing the device.
 
-Calling <b>StopIdle</b> forces the device into its working (D0) state, if the system is in its working (S0) state. The device remains in its working state until the driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff556943">IWDFDevice2::ResumeIdle</a>, at which point the framework can place the device in a low-power state if it remains idle.
+Calling <b>StopIdle</b> forces the device into its working (D0) state, if the system is in its working (S0) state. The device remains in its working state until the driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfdevice2-resumeidle">IWDFDevice2::ResumeIdle</a>, at which point the framework can place the device in a low-power state if it remains idle.
 
-Do not call <b>StopIdle</b> before the framework has called the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff556799">IPnpCallback::OnD0Entry</a> callback method for the first time.
+Do not call <b>StopIdle</b> before the framework has called the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-ipnpcallback-ond0entry">IPnpCallback::OnD0Entry</a> callback method for the first time.
 
 A call to <b>StopIdle</b> can restore an idle device to its working state only if the system is in its working (S0) state. If the system is entering a low-power state when a driver calls <b>StopIdle</b> with the <i>WaitForD0</i> parameter set to <b>TRUE</b>, the function does not return until the system returns to its S0 state. 
 
-Every call to <b>StopIdle</b> must eventually be followed by a call to <a href="https://msdn.microsoft.com/e821f738-3712-49c2-9026-ff6ddc0381a6">ResumeIdle</a>, or else the device will never return to a low-power state if it again becomes idle. Calls to <b>StopIdle</b> can be nested, so the number of calls to <b>ResumeIdle</b> must be equal to the number of calls to <b>StopIdle</b>.
+Every call to <b>StopIdle</b> must eventually be followed by a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfdevice2-resumeidle">ResumeIdle</a>, or else the device will never return to a low-power state if it again becomes idle. Calls to <b>StopIdle</b> can be nested, so the number of calls to <b>ResumeIdle</b> must be equal to the number of calls to <b>StopIdle</b>.
 
-For more information about <b>StopIdle</b> and <a href="https://msdn.microsoft.com/e821f738-3712-49c2-9026-ff6ddc0381a6">ResumeIdle</a>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/supporting-idle-power-down-in-umdf-drivers">Supporting Idle Power-Down in UMDF-based Drivers</a>.
+For more information about <b>StopIdle</b> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfdevice2-resumeidle">ResumeIdle</a>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/supporting-idle-power-down-in-umdf-drivers">Supporting Idle Power-Down in UMDF-based Drivers</a>.
 
 
 #### Examples
 
-The following code example obtains the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556918">IWDFDevice2</a> interface and then calls <b>StopIdle</b>. <b>StopIdle</b> will return after the device enters the D0 device power state.
+The following code example obtains the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nn-wudfddi-iwdfdevice2">IWDFDevice2</a> interface and then calls <b>StopIdle</b>. <b>StopIdle</b> will return after the device enters the D0 device power state.
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -171,11 +171,11 @@ The following code example obtains the <a href="https://msdn.microsoft.com/libra
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556918">IWDFDevice2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nn-wudfddi-iwdfdevice2">IWDFDevice2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556943">IWDFDevice2::ResumeIdle</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfdevice2-resumeidle">IWDFDevice2::ResumeIdle</a>
  
 
  

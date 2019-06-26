@@ -101,7 +101,7 @@ If the request is successful, the USB function class extension (UFX) returns STA
 
 
 
-This request must be sent after sending the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187891">IOCTL_INTERNAL_USBFN_ACTIVATE_USB_BUS</a> request.
+This request must be sent after sending the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbfnioctl/ni-usbfnioctl-ioctl_internal_usbfn_activate_usb_bus">IOCTL_INTERNAL_USBFN_ACTIVATE_USB_BUS</a> request.
 
 The USB function class extension (UFX) determines the endpoints that are remote wake-up capable and registers for remote wake notifications.
 

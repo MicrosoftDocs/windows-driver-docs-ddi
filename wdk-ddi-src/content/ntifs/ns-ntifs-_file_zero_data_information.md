@@ -47,7 +47,7 @@ req.typenames: FILE_ZERO_DATA_INFORMATION, *PFILE_ZERO_DATA_INFORMATION
 
 
 Contains a range of a file to set to zeros. This structure is used by the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt668765">FSCTL_SET_ZERO_DATA</a> control code. 
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-set-zero-data">FSCTL_SET_ZERO_DATA</a> control code. 
 
 
 ## -struct-fields
@@ -70,15 +70,15 @@ The byte offset of the first byte beyond the last zeroed byte.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt668764">FILE_ZERO_DATA_INFORMATION_EX</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_zero_data_information_ex">FILE_ZERO_DATA_INFORMATION_EX</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt668765">FSCTL_SET_ZERO_DATA</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-set-zero-data">FSCTL_SET_ZERO_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542988">FltFsControlFile</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltfscontrolfile">FltFsControlFile</a>
  
 
  

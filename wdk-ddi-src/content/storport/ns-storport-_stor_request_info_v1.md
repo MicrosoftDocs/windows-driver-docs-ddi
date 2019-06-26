@@ -48,7 +48,7 @@ req.typenames: STOR_REQUEST_INFO_V1, *PSTOR_REQUEST_INFO_V1
 
 
    The <b>_STOR_REQUEST_INFO_V1</b> structure contains details about the storage driver IO request associated  with a SCSI request block (SRB). <b>_STOR_REQUEST_INFO_V1</b> is returned by the  
-  <a href="https://msdn.microsoft.com/library/windows/hardware/hh451480">StorPortGetRequestInfo</a> routine.
+  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportgetrequestinfo">StorPortGetRequestInfo</a> routine.
 
 
 ## -struct-fields
@@ -221,7 +221,7 @@ Reserved.
 
 
 
-The caller to <a href="https://msdn.microsoft.com/library/windows/hardware/hh451480">StorPortGetRequestInfo</a> allocates the <b>STOR_REQUEST_INFO</b> structure. Prior to calling <b>StorPortGetRequestInfo</b>,  <b>Version</b> must be set to <b>STOR_REQUEST_INFO_VER_1</b> and <b>Size</b> must be set to <b>sizeof</b>(STOR_REQUEST_INFO). Otherwise, <b>StorPortGetRequestInfo</b> will return with a status of <b>STOR_STATUS_INVALID_PARAMETER</b>.
+The caller to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportgetrequestinfo">StorPortGetRequestInfo</a> allocates the <b>STOR_REQUEST_INFO</b> structure. Prior to calling <b>StorPortGetRequestInfo</b>,  <b>Version</b> must be set to <b>STOR_REQUEST_INFO_VER_1</b> and <b>Size</b> must be set to <b>sizeof</b>(STOR_REQUEST_INFO). Otherwise, <b>StorPortGetRequestInfo</b> will return with a status of <b>STOR_STATUS_INVALID_PARAMETER</b>.
 
 
 
@@ -231,7 +231,7 @@ The caller to <a href="https://msdn.microsoft.com/library/windows/hardware/hh451
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451480">StorPortGetRequestInfo</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportgetrequestinfo">StorPortGetRequestInfo</a>
  
 
  

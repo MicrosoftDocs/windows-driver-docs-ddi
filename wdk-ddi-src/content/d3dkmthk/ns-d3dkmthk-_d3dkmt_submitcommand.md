@@ -66,7 +66,7 @@ Specifies the length, in bytes, of the commands being submitted to the GPU.
 
 ### -field Flags
 
-An instance of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn914420">D3DDDICB_SUBMITCOMMANDFLAGS</a> structure.
+An instance of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddicb_submitcommandflags">D3DDDICB_SUBMITCOMMANDFLAGS</a> structure.
 
 
 ### -field PresentHistoryToken
@@ -119,7 +119,7 @@ This member is reserved for future use.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn914420">D3DDDICB_SUBMITCOMMANDFLAGS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddicb_submitcommandflags">D3DDDICB_SUBMITCOMMANDFLAGS</a>
  
 
  

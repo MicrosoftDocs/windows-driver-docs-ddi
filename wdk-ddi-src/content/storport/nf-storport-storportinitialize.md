@@ -72,7 +72,7 @@ Pointer to the initialization and configuration information set by the miniport 
 
 ### -param HwContext [in, optional]
 
-Is the address of a context value to be passed to the miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff557390">HwStorFindAdapter</a> routine. Only legacy miniport drivers that scan the bus for HBAs rather than receiving configuration information from the port driver can use this parameter to store state between calls to <b>HwStorFindAdapter</b>. 
+Is the address of a context value to be passed to the miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_find_adapter">HwStorFindAdapter</a> routine. Only legacy miniport drivers that scan the bus for HBAs rather than receiving configuration information from the port driver can use this parameter to store state between calls to <b>HwStorFindAdapter</b>. 
 
 
 ## -returns
@@ -166,7 +166,7 @@ This routine must be called from the miniport driver's DriverEntry routine.
 
 Because Storport miniport drivers must support PnP, the Storport driver does not use the <i>HwContext</i> parameter passed to <b>StorPortInitilize</b>.
 
-Every miniport driver's DriverEntry routine must call <b>StorPortInitilize</b> after the miniport driver has first zeroed and then set the members of <a href="https://msdn.microsoft.com/library/windows/hardware/ff559682">HW_INITIALIZATION_DATA</a>.
+Every miniport driver's DriverEntry routine must call <b>StorPortInitilize</b> after the miniport driver has first zeroed and then set the members of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/strmini/ns-strmini-_hw_initialization_data">HW_INITIALIZATION_DATA</a>.
 
 
 
@@ -176,11 +176,11 @@ Every miniport driver's DriverEntry routine must call <b>StorPortInitilize</b> a
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559682">HW_INITIALIZATION_DATA</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/strmini/ns-strmini-_hw_initialization_data">HW_INITIALIZATION_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557390">HwStorFindAdapter</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_find_adapter">HwStorFindAdapter</a>
  
 
  

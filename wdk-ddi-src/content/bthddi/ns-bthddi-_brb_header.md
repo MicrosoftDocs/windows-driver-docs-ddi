@@ -64,9 +64,9 @@ A LIST_ENTRY structure used by the current owner of the BRB to place the BRB in 
 ### -field Length
 
 The size, in bytes, of the BRB, including the BRB_HEADER structure. The 
-     <a href="https://msdn.microsoft.com/e1ac9d4c-75e2-4d37-86d7-3c3f1486222e">BthAllocateBrb</a>, 
-     <a href="https://msdn.microsoft.com/0b822d28-edaa-40cc-a678-112a356d9022">BthInitializeBrb</a> and 
-     <a href="https://msdn.microsoft.com/cdf156a1-1556-441a-ae3d-9a49daf47990">BthReuseBrb</a> functions automatically set this
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/nc-bthddi-pfnbth_allocate_brb">BthAllocateBrb</a>, 
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/nc-bthddi-pfnbth_initialize_brb">BthInitializeBrb</a> and 
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/nc-bthddi-pfnbth_reuse_brb">BthReuseBrb</a> functions automatically set this
      member.
 
 
@@ -78,9 +78,9 @@ For internal use only. Do not use.
 ### -field Type
 
 The Bluetooth request block type. The 
-     <a href="https://msdn.microsoft.com/e1ac9d4c-75e2-4d37-86d7-3c3f1486222e">BthAllocateBrb</a>, 
-     <a href="https://msdn.microsoft.com/0b822d28-edaa-40cc-a678-112a356d9022">BthInitializeBrb</a> and 
-     <a href="https://msdn.microsoft.com/cdf156a1-1556-441a-ae3d-9a49daf47990">BthReuseBrb</a> functions automatically set this
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/nc-bthddi-pfnbth_allocate_brb">BthAllocateBrb</a>, 
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/nc-bthddi-pfnbth_initialize_brb">BthInitializeBrb</a> and 
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/nc-bthddi-pfnbth_reuse_brb">BthReuseBrb</a> functions automatically set this
      member.Possible values include:
      
 
@@ -193,7 +193,7 @@ Reserved for future use. Do not use.
 
 The BRB_HEADER structure contains common types of information about the specified BRB. The BRB_HEADER
     structure is used by all BRB structures that are used as the input buffer for 
-    <a href="https://msdn.microsoft.com/60e4ee90-81d4-47a1-aed4-ee39b9fe3174">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthioctl/ni-bthioctl-ioctl_internal_bth_submit_brb">
     IOCTL_INTERNAL_BTH_SUBMIT_BRB</a> IOCTLs.
 
 Profile drivers should not modify any of the members of the BRB_HEADER structure except 
@@ -207,15 +207,15 @@ Profile drivers should not modify any of the members of the BRB_HEADER structure
 
 
 
-<a href="https://msdn.microsoft.com/e1ac9d4c-75e2-4d37-86d7-3c3f1486222e">BthAllocateBrb</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/nc-bthddi-pfnbth_allocate_brb">BthAllocateBrb</a>
 
 
 
-<a href="https://msdn.microsoft.com/0b822d28-edaa-40cc-a678-112a356d9022">BthInitializeBrb</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/nc-bthddi-pfnbth_initialize_brb">BthInitializeBrb</a>
 
 
 
-<a href="https://msdn.microsoft.com/cdf156a1-1556-441a-ae3d-9a49daf47990">BthReuseBrb</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/nc-bthddi-pfnbth_reuse_brb">BthReuseBrb</a>
  
 
  

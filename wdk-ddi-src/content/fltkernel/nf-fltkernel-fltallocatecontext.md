@@ -125,7 +125,7 @@ The minifilter driver that is specified in the <i>Filter</i> parameter is being 
 </dl>
 </td>
 <td width="60%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541710">FltAllocateContext</a> encountered a pool allocation failure. This is an error code.
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltallocatecontext">FltAllocateContext</a> encountered a pool allocation failure. This is an error code.
 </td>
 </tr>
 

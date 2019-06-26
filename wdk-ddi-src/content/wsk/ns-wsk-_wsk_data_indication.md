@@ -73,7 +73,7 @@ A WSK_BUF structure that describes the data that has been received on the socket
 
 The WSK subsystem passes a pointer to a WSK_DATA_INDICATION structure as the 
     <i>DataIndication</i> parameter when it calls a connection-oriented socket's 
-    <a href="https://msdn.microsoft.com/2a7a7570-ed26-48be-b27b-dc240588ecfc">WskReceiveEvent</a> event callback
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_receive_event">WskReceiveEvent</a> event callback
     function.
 
 
@@ -84,15 +84,15 @@ The WSK subsystem passes a pointer to a WSK_DATA_INDICATION structure as the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571153">WSK_BUF</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/ns-wsk-_wsk_buf">WSK_BUF</a>
 
 
 
-<a href="https://msdn.microsoft.com/2a7a7570-ed26-48be-b27b-dc240588ecfc">WskReceiveEvent</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_receive_event">WskReceiveEvent</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571144">WskRelease</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff571144(v=vs.85)">WskRelease</a>
  
 
  

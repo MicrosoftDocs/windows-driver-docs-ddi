@@ -56,7 +56,7 @@ The <b>NDIS_NDK_CONNECTIONS</b> structure describes the NDK connections that are
 
 ### -field Header
 
-An <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure that describes this <b>NDIS_NDK_CONNECTIONS</b> structure. Set the members of the <b>NDIS_OBJECT_HEADER</b> structure as follows:
+An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure that describes this <b>NDIS_NDK_CONNECTIONS</b> structure. Set the members of the <b>NDIS_OBJECT_HEADER</b> structure as follows:
 
 <ul>
 <li>Set the <b>Type</b> member to <b>NDIS_OBJECT_TYPE_DEFAULT</b>.</li>
@@ -71,7 +71,7 @@ An <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_O
 
 ### -field Count
 
-The number of elements in the connection array that is passed in the <b>Connections</b> member. Each element in the array is an <a href="https://msdn.microsoft.com/library/windows/hardware/hh451562">NDIS_NDK_CONNECTION_ENTRY</a> structure. 
+The number of elements in the connection array that is passed in the <b>Connections</b> member. Each element in the array is an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_ndk_connection_entry">NDIS_NDK_CONNECTION_ENTRY</a> structure. 
 
 
 ### -field NDConnectionsMappedtoTCPConnections
@@ -81,14 +81,14 @@ A BOOLEAN value that specifies how the connections are mapped. If the RDMA techn
 
 ### -field Connections
 
-A variable-sized array of <a href="https://msdn.microsoft.com/library/windows/hardware/hh451562">NDIS_NDK_CONNECTION_ENTRY</a> structures where the size of the array is determined by the number of connections being returned. The <b>Count</b> member  specifies the number of elements in the connection array. 
+A variable-sized array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_ndk_connection_entry">NDIS_NDK_CONNECTION_ENTRY</a> structures where the size of the array is determined by the number of connections being returned. The <b>Count</b> member  specifies the number of elements in the connection array. 
 
 
 ## -remarks
 
 
 
-The <b>NDIS_NDK_CONNECTIONS</b> structure is returned with the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451810">OID_NDK_CONNECTIONS</a> OID. The <b>InformationBuffer</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a> structure contains a pointer to this structure.
+The <b>NDIS_NDK_CONNECTIONS</b> structure is returned with the <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-ndk-connections">OID_NDK_CONNECTIONS</a> OID. The <b>InformationBuffer</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structure contains a pointer to this structure.
 
 
 
@@ -113,15 +113,15 @@ If the RDMA technology for the NDK provider requires the provider to map ND conn
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451562">NDIS_NDK_CONNECTION_ENTRY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_ndk_connection_entry">NDIS_NDK_CONNECTION_ENTRY</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451810">OID_NDK_CONNECTIONS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-ndk-connections">OID_NDK_CONNECTIONS</a>
  
 
  

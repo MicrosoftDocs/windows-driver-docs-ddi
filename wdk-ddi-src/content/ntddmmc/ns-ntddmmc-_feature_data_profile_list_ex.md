@@ -56,7 +56,7 @@ The FEATURE_DATA_PROFILE_LIST_EX structure contains information corresponding to
 
 ### -field ProfileNumber
 
-Contains the profile number. This number must be one of the values defined by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553851">FEATURE_PROFILE_TYPE</a> enumeration. <b>ProfileNumber</b>[0] must contain the most significant byte of the profile number. <b>ProfileNumber</b>[1] must contain the least significant byte. 
+Contains the profile number. This number must be one of the values defined by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddmmc/ne-ntddmmc-_feature_profile_type">FEATURE_PROFILE_TYPE</a> enumeration. <b>ProfileNumber</b>[0] must contain the most significant byte of the profile number. <b>ProfileNumber</b>[1] must contain the least significant byte. 
 
 
 ### -field Current
@@ -79,11 +79,11 @@ Reserved.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553816">FEATURE_DATA_PROFILE_LIST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddmmc/ns-ntddmmc-_feature_data_profile_list">FEATURE_DATA_PROFILE_LIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553851">FEATURE_PROFILE_TYPE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddmmc/ne-ntddmmc-_feature_profile_type">FEATURE_PROFILE_TYPE</a>
  
 
  

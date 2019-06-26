@@ -67,4 +67,4 @@ Returns the NET_LUID for the specified NETADAPTER object.
 
 ## -see-also
 
-[NET_LUID](https://msdn.microsoft.com/library/windows/hardware/ff568747)
+[NET_LUID](https://docs.microsoft.com/windows/desktop/api/ifdef/ns-ifdef-net_luid_lh)

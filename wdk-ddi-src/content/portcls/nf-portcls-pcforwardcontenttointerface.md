@@ -47,7 +47,7 @@ req.typenames:
 ## -description
 
 
-The <b>PcForwardContentToInterface</b> function accepts a pointer to the COM interface of an object to which the caller intends to forward protected content. Note that this function call is identical in operation to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536353">DrmForwardContentToInterface</a> function, and its parameter definitions and return value are also identical.
+The <b>PcForwardContentToInterface</b> function accepts a pointer to the COM interface of an object to which the caller intends to forward protected content. Note that this function call is identical in operation to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/drmk/nf-drmk-drmforwardcontenttointerface">DrmForwardContentToInterface</a> function, and its parameter definitions and return value are also identical.
 
 
 ## -parameters
@@ -74,7 +74,7 @@ Specifies the total number of methods in the COM interface that <i>pUnknown</i> 
 
 
 
-See return value definition in <a href="https://msdn.microsoft.com/library/windows/hardware/ff536353">DrmForwardContentToInterface</a>.
+See return value definition in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/drmk/nf-drmk-drmforwardcontenttointerface">DrmForwardContentToInterface</a>.
 
 
 
@@ -83,7 +83,7 @@ See return value definition in <a href="https://msdn.microsoft.com/library/windo
 
 
 
-For more information, see the comments in <a href="https://msdn.microsoft.com/library/windows/hardware/ff536353">DrmForwardContentToInterface</a>.
+For more information, see the comments in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/drmk/nf-drmk-drmforwardcontenttointerface">DrmForwardContentToInterface</a>.
 
 
 
@@ -93,7 +93,7 @@ For more information, see the comments in <a href="https://msdn.microsoft.com/li
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536353">DrmForwardContentToInterface</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/drmk/nf-drmk-drmforwardcontenttointerface">DrmForwardContentToInterface</a>
  
 
  

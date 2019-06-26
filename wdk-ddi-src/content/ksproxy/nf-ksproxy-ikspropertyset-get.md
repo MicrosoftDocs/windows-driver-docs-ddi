@@ -122,7 +122,7 @@ If an application must include both <i>ksproxy.h</i> and <i>dsound.h</i>, whiche
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560721">IKsPropertySet::Set</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dsound/nf-dsound-ikspropertyset-set">IKsPropertySet::Set</a>
  
 
  

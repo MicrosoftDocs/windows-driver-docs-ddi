@@ -114,7 +114,7 @@ Specifies the CPU usage per voice, which is expressed as a percentage (a fractio
 
 ### -field LostNotes
 
-Specifies the number of notes lost. Notes can be dropped if the number of simultaneous voices exceeds the maximum specified by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537405">KSPROPERTY_SYNTH_PORTPARAMETERS</a> property. For additional information, see <a href="https://msdn.microsoft.com/fb1e6c36-02b4-41a6-b9c4-09f393d389db">Voice Allocation</a>.
+Specifies the number of notes lost. Notes can be dropped if the number of simultaneous voices exceeds the maximum specified by the <a href="https://docs.microsoft.com/previous-versions/ff537405(v=vs.85)">KSPROPERTY_SYNTH_PORTPARAMETERS</a> property. For additional information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/voice-allocation">Voice Allocation</a>.
 
 
 ### -field FreeMemory
@@ -131,7 +131,7 @@ Specifies the peak volume level expressed as decibels multiplied by 100.
 
 
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff537406">KSPROPERTY_SYNTH_RUNNINGSTATS</a> property uses the SYNTH_STATS structure to query a DirectMusic miniport driver for statistics about a synthesizer.
+The <a href="https://docs.microsoft.com/previous-versions/ff537406(v=vs.85)">KSPROPERTY_SYNTH_RUNNINGSTATS</a> property uses the SYNTH_STATS structure to query a DirectMusic miniport driver for statistics about a synthesizer.
 
 The SYNTH_STATS structure is similar to the DMUS_SYNTHSTATS structure, which is described in the Microsoft Windows SDK documentation.
 
@@ -143,11 +143,11 @@ The SYNTH_STATS structure is similar to the DMUS_SYNTHSTATS structure, which is 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537405">KSPROPERTY_SYNTH_PORTPARAMETERS</a>
+<a href="https://docs.microsoft.com/previous-versions/ff537405(v=vs.85)">KSPROPERTY_SYNTH_PORTPARAMETERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537406">KSPROPERTY_SYNTH_RUNNINGSTATS</a>
+<a href="https://docs.microsoft.com/previous-versions/ff537406(v=vs.85)">KSPROPERTY_SYNTH_RUNNINGSTATS</a>
  
 
  

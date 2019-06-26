@@ -56,52 +56,52 @@ The KSPIN_DISPATCH structure describes the callbacks for which clients can regis
 
 ### -field Create
 
-A pointer to a minidriver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff556334">AVStrMiniPinCreate</a> callback routine. Optional. Can be <b>NULL</b>.
+A pointer to a minidriver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nc-ks-pfnkspinirp">AVStrMiniPinCreate</a> callback routine. Optional. Can be <b>NULL</b>.
 
 
 ### -field Close
 
-A pointer to a minidriver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff556329">AVStrMiniPinClose</a> callback routine. Optional. Can be <b>NULL</b>.
+A pointer to a minidriver-supplied <a href="https://docs.microsoft.com/previous-versions/ff556329(v=vs.85)">AVStrMiniPinClose</a> callback routine. Optional. Can be <b>NULL</b>.
 
 
 ### -field Process
 
-A pointer to a minidriver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff556351">AVStrMiniPinProcess</a> callback routine. Optional. Can be <b>NULL</b>.
+A pointer to a minidriver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nc-ks-pfnkspin">AVStrMiniPinProcess</a> callback routine. Optional. Can be <b>NULL</b>.
 
 
 ### -field Reset
 
-A pointer to a minidriver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff556354">AVStrMiniPinReset</a> callback routine. Optional. Can be <b>NULL</b>.
+A pointer to a minidriver-supplied <a href="https://docs.microsoft.com/previous-versions/ff556354(v=vs.85)">AVStrMiniPinReset</a> callback routine. Optional. Can be <b>NULL</b>.
 
 
 ### -field SetDataFormat
 
-A pointer to a minidriver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff556355">AVStrMiniPinSetDataFormat</a> callback routine. Optional. Can be <b>NULL</b>.
+A pointer to a minidriver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nc-ks-pfnkspinsetdataformat">AVStrMiniPinSetDataFormat</a> callback routine. Optional. Can be <b>NULL</b>.
 
 
 ### -field SetDeviceState
 
-A pointer to a minidriver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff556359">AVStrMiniPinSetDeviceState</a> callback routine. Optional. Can be <b>NULL</b>.
+A pointer to a minidriver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nc-ks-pfnkspinsetdevicestate">AVStrMiniPinSetDeviceState</a> callback routine. Optional. Can be <b>NULL</b>.
 
 
 ### -field Connect
 
-A pointer to a minidriver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff556332">AVStrMiniPinConnect</a> callback routine. Optional. Can be <b>NULL</b>.
+A pointer to a minidriver-supplied <a href="https://docs.microsoft.com/previous-versions/ff556332(v=vs.85)">AVStrMiniPinConnect</a> callback routine. Optional. Can be <b>NULL</b>.
 
 
 ### -field Disconnect
 
-A pointer to a minidriver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff556337">AVStrMiniPinDisconnect</a> callback routine. Optional. Can be <b>NULL</b>.
+A pointer to a minidriver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nc-ks-pfnkspinvoid">AVStrMiniPinDisconnect</a> callback routine. Optional. Can be <b>NULL</b>.
 
 
 ### -field Clock
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561017">KSCLOCK_DISPATCH</a> structure. Specify this member for a pin that exposes a clock. Optional. Can be <b>NULL</b>.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksclock_dispatch">KSCLOCK_DISPATCH</a> structure. Specify this member for a pin that exposes a clock. Optional. Can be <b>NULL</b>.
 
 
 ### -field Allocator
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff560976">KSALLOCATOR_DISPATCH</a> structure. Specify this member for a pin that is capable of performing kernel-level allocation. Optional. Can be <b>NULL</b>.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksallocator_dispatch">KSALLOCATOR_DISPATCH</a> structure. Specify this member for a pin that is capable of performing kernel-level allocation. Optional. Can be <b>NULL</b>.
 
 
 ## -remarks
@@ -110,7 +110,7 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff56
 
 Any of the callback pointers can be <b>NULL</b>, indicating that the minidriver does not require to receive notification for this particular dispatch.
 
-If the minidriver needs to determine whether it has been signaled to go to a specific state (for example KSSTATE_RUN), comparing the value of the <b>DeviceState</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff563483">KSPIN</a> to <b>KSSTATE_RUN</b> is not a reliable method of doing this. <b>DeviceState</b> refers to the state to which the pin has been signaled to go, not the pipe. To perform the above reliably, instead create a variable in the <b>SetDeviceState</b> callback of this structure and then check this variable to make the determination.
+If the minidriver needs to determine whether it has been signaled to go to a specific state (for example KSSTATE_RUN), comparing the value of the <b>DeviceState</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_kspin">KSPIN</a> to <b>KSSTATE_RUN</b> is not a reliable method of doing this. <b>DeviceState</b> refers to the state to which the pin has been signaled to go, not the pipe. To perform the above reliably, instead create a variable in the <b>SetDeviceState</b> callback of this structure and then check this variable to make the determination.
 
 
 
@@ -120,19 +120,19 @@ If the minidriver needs to determine whether it has been signaled to go to a spe
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560976">KSALLOCATOR_DISPATCH</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksallocator_dispatch">KSALLOCATOR_DISPATCH</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561017">KSCLOCK_DISPATCH</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksclock_dispatch">KSCLOCK_DISPATCH</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563483">KSPIN</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_kspin">KSPIN</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561025">KsCompletePendingRequest</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-kscompletependingrequest">KsCompletePendingRequest</a>
  
 
  

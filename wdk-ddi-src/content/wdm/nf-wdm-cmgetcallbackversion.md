@@ -89,7 +89,7 @@ First, in version 1.0, if multiple registry filter drivers are active on the com
 
 Second, in version 1.0, an uncaught exception in a registry callback routine is quietly accepted by the operating system. In version 1.1, this exception causes the computer to bug check.
 
-For more information on the differences between versions, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff545879">Filtering Registry Calls</a>.
+For more information on the differences between versions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/filtering-registry-calls">Filtering Registry Calls</a>.
 
 
 
@@ -99,7 +99,7 @@ For more information on the differences between versions, see <a href="https://m
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560962">REG_POST_CREATE_KEY_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_post_create_key_information">REG_POST_CREATE_KEY_INFORMATION</a>
 
 
 
@@ -107,11 +107,11 @@ For more information on the differences between versions, see <a href="https://m
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566425">ZwCreateKey</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-zwcreatekey">ZwCreateKey</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567014">ZwOpenKey</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-zwopenkey">ZwOpenKey</a>
  
 
  

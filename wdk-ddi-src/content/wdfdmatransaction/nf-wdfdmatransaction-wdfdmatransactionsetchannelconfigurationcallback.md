@@ -65,14 +65,14 @@ A handle to an initialized DMA transaction object for which to set or clear the 
 
 ### -param ConfigureRoutine [in, optional]
 
-A pointer to the driver's <a href="https://msdn.microsoft.com/405D1D3F-FC01-4223-8E28-B3FD3F0516F7">EvtDmaTransactionConfigureDmaChannel</a> event callback function, or NULL to clear it.
+A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdmatransaction/nc-wdfdmatransaction-evt_wdf_dma_transaction_configure_dma_channel">EvtDmaTransactionConfigureDmaChannel</a> event callback function, or NULL to clear it.
 
 
 
 
 ### -param ConfigureContext [in, optional]
 
-A pointer to a buffer containing the context to be provided to the driver's <a href="https://msdn.microsoft.com/405D1D3F-FC01-4223-8E28-B3FD3F0516F7">EvtDmaTransactionConfigureDmaChannel</a> event callback function, or NULL.
+A pointer to a buffer containing the context to be provided to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdmatransaction/nc-wdfdmatransaction-evt_wdf_dma_transaction_configure_dma_channel">EvtDmaTransactionConfigureDmaChannel</a> event callback function, or NULL.
 
 
 ## -returns
@@ -93,11 +93,11 @@ This method allows the driver to customize the adapter configuration before prog
 Typically from within an <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/request-handlers">I/O queue event callback function</a>, a driver performs the following steps, in this order:
 
 <ol>
-<li>Calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff547107">WdfDmaTransactionInitializeUsingRequest</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff547099">WdfDmaTransactionInitialize</a>, or  <a href="https://msdn.microsoft.com/library/windows/hardware/hh451182">WdfDmaTransactionInitializeUsingOffset</a>  to initialize the transaction object.</li>
+<li>Calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdmatransaction/nf-wdfdmatransaction-wdfdmatransactioninitializeusingrequest">WdfDmaTransactionInitializeUsingRequest</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdmatransaction/nf-wdfdmatransaction-wdfdmatransactioninitialize">WdfDmaTransactionInitialize</a>, or  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdmatransaction/nf-wdfdmatransaction-wdfdmatransactioninitializeusingoffset">WdfDmaTransactionInitializeUsingOffset</a>  to initialize the transaction object.</li>
 <li>Calls <b>WdfDmaTransactionSetChannelConfigurationCallback</b> on the transaction object.</li>
-<li>Calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff547062">WdfDmaTransactionExecute</a>.</li>
+<li>Calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdmatransaction/nf-wdfdmatransaction-wdfdmatransactionexecute">WdfDmaTransactionExecute</a>.</li>
 </ol>
-If the driver has specified an <a href="https://msdn.microsoft.com/405D1D3F-FC01-4223-8E28-B3FD3F0516F7">EvtDmaTransactionConfigureDmaChannel</a> event callback function by calling <b>WdfDmaTransactionSetChannelConfigurationCallback</b> and the driver subsequently calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff547114">WdfDmaTransactionRelease</a>, the callback is cleared.
+If the driver has specified an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdmatransaction/nc-wdfdmatransaction-evt_wdf_dma_transaction_configure_dma_channel">EvtDmaTransactionConfigureDmaChannel</a> event callback function by calling <b>WdfDmaTransactionSetChannelConfigurationCallback</b> and the driver subsequently calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdmatransaction/nf-wdfdmatransaction-wdfdmatransactionrelease">WdfDmaTransactionRelease</a>, the callback is cleared.
 
 <b>WdfDmaTransactionSetChannelConfigurationCallback</b> must be used with a DMA enabler that specifies a system-mode DMA profile.
 
@@ -111,11 +111,11 @@ If your driver calls this method on an operating system earlier than Windows 8,
 
 
 
-<a href="https://msdn.microsoft.com/405D1D3F-FC01-4223-8E28-B3FD3F0516F7">EvtDmaTransactionConfigureDmaChannel</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdmatransaction/nc-wdfdmatransaction-evt_wdf_dma_transaction_configure_dma_channel">EvtDmaTransactionConfigureDmaChannel</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547114">WdfDmaTransactionRelease</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdmatransaction/nf-wdfdmatransaction-wdfdmatransactionrelease">WdfDmaTransactionRelease</a>
  
 
  

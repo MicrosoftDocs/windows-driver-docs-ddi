@@ -58,7 +58,7 @@ The WSK_PROVIDER_DATAGRAM_DISPATCH structure specifies the WSK subsystem's table
 ### -field Basic
 
 The members of the 
-     <a href="https://msdn.microsoft.com/15cd5336-fe29-4a59-8071-04c802552a5a">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/ns-wsk-_wsk_provider_basic_dispatch">
      WSK_PROVIDER_BASIC_DISPATCH</a> structure are included as members of the
      WSK_PROVIDER_DATAGRAM_DISPATCH structure.
 
@@ -66,32 +66,32 @@ The members of the
 ### -field WskBind
 
 A pointer to the WSK subsystem's 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571121">WskBind</a> function for the socket.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_bind">WskBind</a> function for the socket.
 
 
 ### -field WskSendTo
 
 A pointer to the WSK subsystem's 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571148">WskSendTo</a> function for the socket.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_send_to">WskSendTo</a> function for the socket.
 
 
 ### -field WskReceiveFrom
 
 A pointer to the WSK subsystem's 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571141">WskReceiveFrom</a> function for the
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_receive_from">WskReceiveFrom</a> function for the
      socket.
 
 
 ### -field WskRelease
 
 A pointer to the WSK subsystem's 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571144">WskRelease</a> function for the socket.
+     <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff571144(v=vs.85)">WskRelease</a> function for the socket.
 
 
 ### -field WskGetLocalAddress
 
 A pointer to the WSK subsystem's 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571133">WskGetLocalAddress</a> function for the
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_get_local_address">WskGetLocalAddress</a> function for the
      socket.
 
 
@@ -107,7 +107,7 @@ A pointer to the WSK subsystem's
 
 
 The member list of the WSK_PROVIDER_DATAGRAM_DISPATCH structure includes an unnamed 
-    <a href="https://msdn.microsoft.com/15cd5336-fe29-4a59-8071-04c802552a5a">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/ns-wsk-_wsk_provider_basic_dispatch">
     WSK_PROVIDER_BASIC_DISPATCH</a> structure. The compiler that is included with the WDK supports a
     Microsoft-specific extension to the C language that allows unnamed structures within structure
     declarations. The result is that the structure members of the WSK_PROVIDER_BASIC_DISPATCH structure are
@@ -116,10 +116,10 @@ The member list of the WSK_PROVIDER_DATAGRAM_DISPATCH structure includes an unna
 
 A WSK application receives a pointer to a WSK_PROVIDER_DATAGRAM_DISPATCH structure when the WSK
     application calls the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff571149">WskSocket</a> function to create a datagram socket.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_socket">WskSocket</a> function to create a datagram socket.
     The pointer is contained in the 
     <b>Dispatch</b> member of the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff571182">WSK_SOCKET</a> structure that is received from the
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/ns-wsk-_wsk_socket">WSK_SOCKET</a> structure that is received from the
     WSK subsystem .
 
 
@@ -130,43 +130,43 @@ A WSK application receives a pointer to a WSK_PROVIDER_DATAGRAM_DISPATCH structu
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571158">WSK_CLIENT_DATAGRAM_DISPATCH</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/ns-wsk-_wsk_client_datagram_dispatch">WSK_CLIENT_DATAGRAM_DISPATCH</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571171">WSK_PROVIDER_BASIC_DISPATCH</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/ns-wsk-_wsk_provider_basic_dispatch">WSK_PROVIDER_BASIC_DISPATCH</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571182">WSK_SOCKET</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/ns-wsk-_wsk_socket">WSK_SOCKET</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571121">WskBind</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_bind">WskBind</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571124">WskCloseSocket</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_close_socket">WskCloseSocket</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571127">WskControlSocket</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_control_socket">WskControlSocket</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571141">WskReceiveFrom</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_receive_from">WskReceiveFrom</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571144">WskRelease</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff571144(v=vs.85)">WskRelease</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571148">WskSendTo</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_send_to">WskSendTo</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571149">WskSocket</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_socket">WskSocket</a>
  
 
  

@@ -47,7 +47,7 @@ req.typenames:
 ## -description
 
 
-The <b>PoFxRegisterPlugin</b> routine registers a platform extension plug-in (PEP) with the Windows <a href="https://msdn.microsoft.com/B08F8ABF-FD43-434C-A345-337FBB799D9B">power management framework</a> (PoFx).
+The <b>PoFxRegisterPlugin</b> routine registers a platform extension plug-in (PEP) with the Windows <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">power management framework</a> (PoFx).
 
 
 ## -parameters
@@ -57,12 +57,12 @@ The <b>PoFxRegisterPlugin</b> routine registers a platform extension plug-in (PE
 
 ### -param PepInformation [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/mt186745">PEP_INFORMATION</a> structure.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/ns-pepfx-_pep_information">PEP_INFORMATION</a> structure.
 
 
 ### -param KernelInformation [in, out]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/mt186747">PEP_KERNEL_INFORMATION_STRUCT_V3</a> structure.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/ns-pepfx-_pep_kernel_information_struct_v3">PEP_KERNEL_INFORMATION_STRUCT_V3</a> structure.
 
 
 ## -returns
@@ -123,7 +123,7 @@ A PEP calls this routine to register itself with PoFx.
 
 A PEP cannot unregister, and cannot register twice. If the PEP must be serviced, the operating system must restart.
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/mt186874">PoFxRegisterPluginEx</a> routine is similar to <b>PoFxRegisterPlugin</b>, except that it takes an additional parameter, <i>Flags</i>.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/nf-pepfx-pofxregisterpluginex">PoFxRegisterPluginEx</a> routine is similar to <b>PoFxRegisterPlugin</b>, except that it takes an additional parameter, <i>Flags</i>.
 
 The PEP must call <b>PoFxRegisterPlugin</b> at IRQL = PASSIVE_LEVEL.
 
@@ -135,15 +135,15 @@ The PEP must call <b>PoFxRegisterPlugin</b> at IRQL = PASSIVE_LEVEL.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt186745">PEP_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/ns-pepfx-_pep_information">PEP_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt186747">PEP_KERNEL_INFORMATION_STRUCT_V3</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/ns-pepfx-_pep_kernel_information_struct_v3">PEP_KERNEL_INFORMATION_STRUCT_V3</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt186874">PoFxRegisterPluginEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/nf-pepfx-pofxregisterpluginex">PoFxRegisterPluginEx</a>
  
 
  

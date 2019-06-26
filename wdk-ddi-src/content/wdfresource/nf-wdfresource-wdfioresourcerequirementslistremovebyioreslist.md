@@ -49,7 +49,7 @@ req.typenames:
 
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
-The <b>WdfIoResourceRequirementsListRemoveByIoResList</b> method removes a <a href="https://msdn.microsoft.com/c7a6997b-34f9-4dd9-b384-2321a8b5ce54">logical configuration</a> from a resource requirements list.
+The <b>WdfIoResourceRequirementsListRemoveByIoResList</b> method removes a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a> from a resource requirements list.
 
 
 ## -parameters
@@ -169,27 +169,27 @@ Example_EvtDeviceFilterRemoveResourceRequirements(
 
 
 
-<a href="https://msdn.microsoft.com/03e3a656-c691-4aff-bcc8-4e0bc8390fd7">IO_RESOURCE_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_io_resource_descriptor">IO_RESOURCE_DESCRIPTOR</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548506">WdfIoResourceListGetCount</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfresource/nf-wdfresource-wdfioresourcelistgetcount">WdfIoResourceListGetCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548510">WdfIoResourceListGetDescriptor</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfresource/nf-wdfresource-wdfioresourcelistgetdescriptor">WdfIoResourceListGetDescriptor</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548545">WdfIoResourceRequirementsListGetCount</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfresource/nf-wdfresource-wdfioresourcerequirementslistgetcount">WdfIoResourceRequirementsListGetCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548553">WdfIoResourceRequirementsListGetIoResList</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfresource/nf-wdfresource-wdfioresourcerequirementslistgetioreslist">WdfIoResourceRequirementsListGetIoResList</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548570">WdfIoResourceRequirementsListRemove</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfresource/nf-wdfresource-wdfioresourcerequirementslistremove">WdfIoResourceRequirementsListRemove</a>
  
 
  

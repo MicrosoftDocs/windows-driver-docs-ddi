@@ -61,7 +61,7 @@ A handle to the display device (graphics context).
 
 ### -param Type [in]
 
-A value from the <a href="https://msdn.microsoft.com/library/windows/hardware/dn535968">D3DWDDM1_3DDI_MARKER_TYPE</a> enumeration that indicates the type of marker event  that the driver should support.
+A value from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ne-d3d10umddi-d3dwddm1_3ddi_marker_type">D3DWDDM1_3DDI_MARKER_TYPE</a> enumeration that indicates the type of marker event  that the driver should support.
 
 
 ### -param Flags
@@ -100,7 +100,7 @@ Follow these guidelines when you set up profile-type marker events in your user-
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn535968">D3DWDDM1_3DDI_MARKER_TYPE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ne-d3d10umddi-d3dwddm1_3ddi_marker_type">D3DWDDM1_3DDI_MARKER_TYPE</a>
  
 
  

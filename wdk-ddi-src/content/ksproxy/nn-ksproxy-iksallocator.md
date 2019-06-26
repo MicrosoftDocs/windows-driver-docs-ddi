@@ -52,7 +52,7 @@ The<b>IKsAllocator</b> interface provides methods that control and query an allo
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsAllocator</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IKsAllocator</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsAllocator</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IKsAllocator</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -67,7 +67,7 @@ The <b>IKsAllocator</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9F79816F-866F-4B68-898F-87D310EFBBE7">KsGetAllocatorHandle</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nf-ksproxy-iksallocator-ksgetallocatorhandle">KsGetAllocatorHandle</a>
 </td>
 <td align="left" width="63%">
 Retrieves a file handle to an allocator.
@@ -76,7 +76,7 @@ Retrieves a file handle to an allocator.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/47B51B6F-555A-4A1E-AA25-7E94DC0060CC">KsGetAllocatorMode</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nf-ksproxy-iksallocator-ksgetallocatormode">KsGetAllocatorMode</a>
 </td>
 <td align="left" width="63%">
 Returns the mode in which an allocator allocates memory.
@@ -85,7 +85,7 @@ Returns the mode in which an allocator allocates memory.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/139F4465-1228-4603-B92F-4CB73E1A6DC0">KsGetAllocatorStatus</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nf-ksproxy-iksallocator-ksgetallocatorstatus">KsGetAllocatorStatus</a>
 </td>
 <td align="left" width="63%">
 Retrieves the status of an allocator.
@@ -94,7 +94,7 @@ Retrieves the status of an allocator.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8F64E58D-9C04-43BA-9C1B-88AD081176A9">KsSetAllocatorMode</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nf-ksproxy-iksallocator-kssetallocatormode">KsSetAllocatorMode</a>
 </td>
 <td align="left" width="63%">
 Sets the mode in which an allocator allocates memory.

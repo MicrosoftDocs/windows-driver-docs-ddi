@@ -71,7 +71,7 @@ Optional pointer to a minifilter-defined cleanup callback routine of type [PFSRT
 
 ### -param LookasideList [in, out]
 
-Pointer to an initialized lookaside list in which to attempt to allocate pool from (for the ECP context structure).  To initialize the lookaside list, use the [FltInitExtraCreateParameterLookasideList](https://msdn.microsoft.com/library/windows/hardware/ff543261) routine.
+Pointer to an initialized lookaside list in which to attempt to allocate pool from (for the ECP context structure).  To initialize the lookaside list, use the [FltInitExtraCreateParameterLookasideList](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltinitextracreateparameterlookasidelist) routine.
 
 ### -param EcpContext [out]
 
@@ -102,7 +102,7 @@ For more information about using lookaside lists with drivers, see [Using Lookas
 
 ## -see-also
 
-[ECP_LIST](https://msdn.microsoft.com/library/windows/hardware/ff540148)
+[ECP_LIST](https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff540148(v=vs.85))
 
 [FltAllocateExtraCreateParameter](nf-fltkernel-fltallocateextracreateparameter.md)
 

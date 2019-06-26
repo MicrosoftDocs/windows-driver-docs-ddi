@@ -63,7 +63,7 @@ A pointer to a <b>NULL</b>-terminated string that contains the name of the file 
 
 ### -param ppFile [out]
 
-A pointer to a buffer that receives a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558895">IWDFDriverCreatedFile</a> interface for the driver-created file object.
+A pointer to a buffer that receives a pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nn-wudfddi-iwdfdrivercreatedfile">IWDFDriverCreatedFile</a> interface for the driver-created file object.
 
 
 ## -returns
@@ -79,9 +79,9 @@ A pointer to a buffer that receives a pointer to the <a href="https://msdn.micro
 
 
 
-For information about when a UMDF driver uses <b>CreateWdfFile</b> to handle I/O, see <a href="https://msdn.microsoft.com/3cd826fc-5c67-4ab4-800a-b5aa4bd5244f">Creating a File Object to Handle I/O</a>.
+For information about when a UMDF driver uses <b>CreateWdfFile</b> to handle I/O, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/creating-a-file-object-to-handle-i-o">Creating a File Object to Handle I/O</a>.
 
-For information about when a UMDF driver might use <b>CreateWdfFile</b> to prevent an imbalance of create and close notifications to a driver, see <a href="https://msdn.microsoft.com/e6678226-44d3-4b1d-a296-2017bc9c7c37">Preventing an Imbalance of Create and Close Notifications to a Driver</a>. 
+For information about when a UMDF driver might use <b>CreateWdfFile</b> to prevent an imbalance of create and close notifications to a driver, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/preventing-an-imbalance-of-create-and-close-notifications-to-a-driver">Preventing an Imbalance of Create and Close Notifications to a Driver</a>. 
 
 
 
@@ -91,11 +91,11 @@ For information about when a UMDF driver might use <b>CreateWdfFile</b> to preve
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556917">IWDFDevice</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nn-wudfddi-iwdfdevice">IWDFDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558895">IWDFDriverCreatedFile</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nn-wudfddi-iwdfdrivercreatedfile">IWDFDriverCreatedFile</a>
  
 
  

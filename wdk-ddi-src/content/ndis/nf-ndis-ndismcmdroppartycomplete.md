@@ -66,7 +66,7 @@ Specifies the final status of the requested operation, either NDIS_STATUS_SUCCES
 Specifies the handle to the party that the client requested be dropped. The MCM driver obtained
      this handle from its per-party state area designated by 
      <i>CallMgrPartyContext</i> that was passed as an input parameter to its 
-     <a href="https://msdn.microsoft.com/be0fce3e-7308-42fa-b63a-4d5cfec7ea6c">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cm_drop_party">
      ProtocolCmDropParty</a> function.
 
 ## -remarks
@@ -78,10 +78,10 @@ An MCM driver must call
     <i>ProtocolCmDropParty</i> function previously returned NDIS_STATUS_PENDING for the given 
     <i>NdisPartyHandle</i> . Neither NDIS nor the client, which initiated the pended drop-party operation with
     a call to 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561629">NdisClDropParty</a>, can release the
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndiscldropparty">NdisClDropParty</a>, can release the
     resources they allocated to maintain per-party state until the MCM driver's call to 
     <b>NdisMCmDropPartyComplete</b> causes a call to that client's 
-    <a href="https://msdn.microsoft.com/c916f379-393c-41d7-ab30-2f3181c3ada6">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cl_drop_party_complete">
     ProtocolClDropPartyComplete</a> function.
 
 If it passes NDIS_STATUS_SUCCESS for the 
@@ -104,19 +104,19 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561629">NdisClDropParty</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndiscldropparty">NdisClDropParty</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561674">NdisCmDropPartyComplete</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndiscmdroppartycomplete">NdisCmDropPartyComplete</a>
 
 
 
-<a href="https://msdn.microsoft.com/c916f379-393c-41d7-ab30-2f3181c3ada6">ProtocolClDropPartyComplete</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cl_drop_party_complete">ProtocolClDropPartyComplete</a>
 
 
 
-<a href="https://msdn.microsoft.com/be0fce3e-7308-42fa-b63a-4d5cfec7ea6c">ProtocolCmDropParty</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cm_drop_party">ProtocolCmDropParty</a>
  
 
  

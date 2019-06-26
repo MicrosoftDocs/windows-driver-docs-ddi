@@ -46,7 +46,7 @@ req.typenames: WINBIO_SET_INDICATOR, *PWINBIO_SET_INDICATOR
 ## -description
 
 
-The WINBIO_SET_INDICATOR structure is the IN payload for <a href="https://msdn.microsoft.com/library/windows/hardware/ff536441">IOCTL_BIOMETRIC_SET_INDICATOR</a>.
+The WINBIO_SET_INDICATOR structure is the IN payload for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winbio_ioctl/ni-winbio_ioctl-ioctl_biometric_set_indicator">IOCTL_BIOMETRIC_SET_INDICATOR</a>.
 
 
 ## -struct-fields
@@ -75,11 +75,11 @@ Possible values are shown in the following table.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536441">IOCTL_BIOMETRIC_SET_INDICATOR</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winbio_ioctl/ni-winbio_ioctl-ioctl_biometric_set_indicator">IOCTL_BIOMETRIC_SET_INDICATOR</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536471">WINBIO_GET_INDICATOR</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winbio_ioctl/ns-winbio_ioctl-_winbio_get_indicator">WINBIO_GET_INDICATOR</a>
  
 
  

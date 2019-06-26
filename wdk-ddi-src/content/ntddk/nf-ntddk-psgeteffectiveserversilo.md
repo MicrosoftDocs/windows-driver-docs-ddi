@@ -82,7 +82,7 @@ This routine does not fail because it always returns a silo: the server silo or 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt735076">PsIsHostSilo</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-psishostsilo">PsIsHostSilo</a>
  
 
  

@@ -64,7 +64,7 @@ A handle to the display device (graphics context).
 
 *hVideoProcessor* [in]
 
-A handle to the video processor object that was created through a call to the <a href="https://msdn.microsoft.com/741045a2-0a91-490a-907d-5f4900a4a0ae">CreateVideoProcessor</a> function.
+A handle to the video processor object that was created through a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor">CreateVideoProcessor</a> function.
 
 ### -param Arg3
 
@@ -76,7 +76,7 @@ If <b>TRUE</b>, the background color that is specified by the <i>pColor</i> para
 
 *pColor* [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406454">D3D11_1DDI_VIDEO_COLOR</a> structure that specifies the background color.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_video_color">D3D11_1DDI_VIDEO_COLOR</a> structure that specifies the background color.
 
 
 
@@ -95,11 +95,11 @@ This callback function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/741045a2-0a91-490a-907d-5f4900a4a0ae">CreateVideoProcessor</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor">CreateVideoProcessor</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406454">D3D11_1DDI_VIDEO_COLOR</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_video_color">D3D11_1DDI_VIDEO_COLOR</a>
  
 
  

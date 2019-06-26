@@ -66,17 +66,17 @@ The number of future reference frames required to perform the optimal video proc
 
 ### -field ConversionCaps
 
-A bitwise <b>OR</b> of zero or more member values from the <a href="https://msdn.microsoft.com/library/windows/hardware/hh450975">D3D11_1DDI_VIDEO_PROCESSOR_CONVERSION_CAPS</a> structure.
+A bitwise <b>OR</b> of zero or more member values from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_video_processor_conversion_caps">D3D11_1DDI_VIDEO_PROCESSOR_CONVERSION_CAPS</a> structure.
 
 
 ### -field ITelecineCaps
 
-A bitwise <b>OR</b> of zero or more constant values from the <a href="https://msdn.microsoft.com/library/windows/hardware/hh450988">D3D11_1DDI_VIDEO_PROCESSOR_ITELECINE_CAPS</a> enumeration.
+A bitwise <b>OR</b> of zero or more constant values from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_video_processor_itelecine_caps">D3D11_1DDI_VIDEO_PROCESSOR_ITELECINE_CAPS</a> enumeration.
 
 
 ### -field CustomRateCount
 
-The number of custom frame rates that the driver supports. To get the list of custom frame rates, call the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451676">GetVideoProcessorCustomRate</a> function.
+The number of custom frame rates that the driver supports. To get the list of custom frame rates, call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_getvideoprocessorcustomrate">GetVideoProcessorCustomRate</a> function.
 
 
 ## -see-also
@@ -84,19 +84,19 @@ The number of custom frame rates that the driver supports. To get the list of cu
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450975">D3D11_1DDI_VIDEO_PROCESSOR_CONVERSION_CAPS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_video_processor_conversion_caps">D3D11_1DDI_VIDEO_PROCESSOR_CONVERSION_CAPS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450988">D3D11_1DDI_VIDEO_PROCESSOR_ITELECINE_CAPS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_video_processor_itelecine_caps">D3D11_1DDI_VIDEO_PROCESSOR_ITELECINE_CAPS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450990">D3D11_1DDI_VIDEO_PROCESSOR_RATE_CONVERSION_CAPS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_video_processor_rate_conversion_caps">D3D11_1DDI_VIDEO_PROCESSOR_RATE_CONVERSION_CAPS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451676">GetVideoProcessorCustomRate</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_getvideoprocessorcustomrate">GetVideoProcessorCustomRate</a>
  
 
  

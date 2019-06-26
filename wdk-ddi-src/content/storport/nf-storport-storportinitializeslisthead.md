@@ -130,19 +130,19 @@ When memory for the list head is freed, any deallocation code must account for t
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh967736">StorPortInterlockedFlushSList</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportinterlockedflushslist">StorPortInterlockedFlushSList</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh967737">StorPortInterlockedPopEntrySList</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportinterlockedpopentryslist">StorPortInterlockedPopEntrySList</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh967738">StorPortInterlockedPushEntrySList</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportinterlockedpushentryslist">StorPortInterlockedPushEntrySList</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh967739">StorPortQueryDepthSList</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportquerydepthslist">StorPortQueryDepthSList</a>
  
 
  

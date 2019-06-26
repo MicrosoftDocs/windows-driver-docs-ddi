@@ -86,7 +86,7 @@ The caller must be running at IRQL <= DISPATCH_LEVEL. Usually, callers of this r
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549198">IoGetDeviceObjectPointer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iogetdeviceobjectpointer">IoGetDeviceObjectPointer</a>
  
 
  

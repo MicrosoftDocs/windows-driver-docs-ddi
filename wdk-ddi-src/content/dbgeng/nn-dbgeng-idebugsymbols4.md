@@ -51,7 +51,7 @@ This interface supports determination of the symbol of an inline frame.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugSymbols4</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDebugSymbols4</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugSymbols4</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDebugSymbols4</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -66,7 +66,7 @@ The <b>IDebugSymbols4</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/AFDB4DB4-3C63-44A0-88D7-C8047ECB2261">GetLineByInlineContext</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols4-getlinebyinlinecontext">GetLineByInlineContext</a>
 </td>
 <td align="left" width="63%">
 Gets a line by inline context.
@@ -75,7 +75,7 @@ Gets a line by inline context.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5DCD8407-1C30-475F-9741-62DB9C86297B">GetLineByInlineContextWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols4-getlinebyinlinecontextwide">GetLineByInlineContextWide</a>
 </td>
 <td align="left" width="63%">
 Gets a line by inline context.
@@ -84,7 +84,7 @@ Gets a line by inline context.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/C87E70ED-FCB0-47B6-B6A3-A8EBC8E84058">GetNameByInlineContext</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols4-getnamebyinlinecontext">GetNameByInlineContext</a>
 </td>
 <td align="left" width="63%">
 Gets a name by inline context.
@@ -93,7 +93,7 @@ Gets a name by inline context.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/D77F5755-75B0-48E6-BC5C-565022F884E1">GetNameByInlineContextWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols4-getnamebyinlinecontextwide">GetNameByInlineContextWide</a>
 </td>
 <td align="left" width="63%">
 Gets a name by inline context.
@@ -102,7 +102,7 @@ Gets a name by inline context.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/B91EF786-51F7-406E-BCC2-C917E6881886">GetScopeEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols4-getscopeex">GetScopeEx</a>
 </td>
 <td align="left" width="63%">
 Gets the scope as an extended frame structure. 
@@ -111,7 +111,7 @@ Gets the scope as an extended frame structure.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/55BA214C-7161-4B2C-8107-11EE22D63CD6">OutputSymbolByInlineContext</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols4-outputsymbolbyinlinecontext">OutputSymbolByInlineContext</a>
 </td>
 <td align="left" width="63%">
 Specifies an output symbol by using an inline context.
@@ -120,7 +120,7 @@ Specifies an output symbol by using an inline context.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/22844EBB-9BE7-47C0-BE1F-075473430F11">SetScopeEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols4-setscopeex">SetScopeEx</a>
 </td>
 <td align="left" width="63%">
 Sets the scope as an extended frame structure. 

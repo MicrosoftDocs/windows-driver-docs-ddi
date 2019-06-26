@@ -138,7 +138,7 @@ Reserved. This member must be zero.
 
 
 
-This structure is used with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554150">AVC_FUNCTION_COMMAND</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff554163">AVC_FUNCTION_GET_REQUEST</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff554170">AVC_FUNCTION_SEND_RESPONSE</a> function codes.
+This structure is used with the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/avc-function-command">AVC_FUNCTION_COMMAND</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/avc-function-get-request">AVC_FUNCTION_GET_REQUEST</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/avc-function-send-response">AVC_FUNCTION_SEND_RESPONSE</a> function codes.
 
 
 
@@ -148,19 +148,19 @@ This structure is used with the <a href="https://msdn.microsoft.com/library/wind
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554145">AVC_FUNCTION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/avc/ne-avc-_tagavc_function">AVC_FUNCTION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554150">AVC_FUNCTION_COMMAND</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/avc-function-command">AVC_FUNCTION_COMMAND</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554163">AVC_FUNCTION_GET_REQUEST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/avc-function-get-request">AVC_FUNCTION_GET_REQUEST</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554170">AVC_FUNCTION_SEND_RESPONSE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/avc-function-send-response">AVC_FUNCTION_SEND_RESPONSE</a>
  
 
  

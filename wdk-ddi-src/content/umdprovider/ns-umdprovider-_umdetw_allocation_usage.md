@@ -84,7 +84,7 @@ A 32-bit value that specifies the allocation mapping.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj542437">UMDEtwLogMapAllocation</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/umdprovider/nf-umdprovider-umdetwlogmapallocation">UMDEtwLogMapAllocation</a>
  
 
  

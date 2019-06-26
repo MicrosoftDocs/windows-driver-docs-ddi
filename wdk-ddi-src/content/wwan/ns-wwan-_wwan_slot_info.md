@@ -61,7 +61,7 @@ The index of the slot being queried.
 
 ### -field State
 
-The state of the slot being queried, a member of the  <a href="https://msdn.microsoft.com/63A3C2AA-6EBF-469D-933A-C51F5EC31C47">WWAN_UICCSLOT_STATE</a> enumeration that represents a summary of both the slot and the card state.
+The state of the slot being queried, a member of the  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ne-wwan-_wwan_uiccslot_state">WWAN_UICCSLOT_STATE</a> enumeration that represents a summary of both the slot and the card state.
 
 
 ## -see-also
@@ -69,19 +69,19 @@ The state of the slot being queried, a member of the  <a href="https://msdn.micr
 
 
 
-<a href="https://msdn.microsoft.com/FA1E16E4-56A3-4401-875F-D75DD01FE75D">NDIS_STATUS_WWAN_SLOT_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-wwan-slot-info-status">NDIS_STATUS_WWAN_SLOT_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/21D9DE55-2A26-467A-B119-8AFD4B47A4FD">NDIS_WWAN_SLOT_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndiswwan/ns-ndiswwan-_ndis_wwan_slot_info">NDIS_WWAN_SLOT_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/6267D480-5055-4A7A-B2A0-F4DF9154DCD7">OID_WWAN_SLOT_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-slot-info-status">OID_WWAN_SLOT_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/63A3C2AA-6EBF-469D-933A-C51F5EC31C47">WWAN_UICCSLOT_STATE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ne-wwan-_wwan_uiccslot_state">WWAN_UICCSLOT_STATE</a>
  
 
  

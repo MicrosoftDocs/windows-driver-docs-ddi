@@ -77,7 +77,7 @@ The current part in the iterator. If <b>NULL</b>, the <i>pUri</i> parameter migh
 
 
 
-Filters should call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556342">IXpsPartIterator::IsDone</a> method before calling <code>Current</code>. One or both parameters can be <b>NULL</b>.
+Filters should call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/filterpipeline/nf-filterpipeline-ixpspartiterator-isdone">IXpsPartIterator::IsDone</a> method before calling <code>Current</code>. One or both parameters can be <b>NULL</b>.
 
 
 

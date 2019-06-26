@@ -78,7 +78,7 @@ A process identifier for an NDS user-mode connection.
 
 
 
-The NDIS_NDK_LOCAL_ENDPOINT_ENTRY structure is used in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451563">NDIS_NDK_LOCAL_ENDPOINTS</a> structure to specify an array of local endpoints.
+The NDIS_NDK_LOCAL_ENDPOINT_ENTRY structure is used in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_ndk_local_endpoints">NDIS_NDK_LOCAL_ENDPOINTS</a> structure to specify an array of local endpoints.
 
 
 
@@ -88,7 +88,7 @@ The NDIS_NDK_LOCAL_ENDPOINT_ENTRY structure is used in the <a href="https://msdn
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451563">NDIS_NDK_LOCAL_ENDPOINTS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_ndk_local_endpoints">NDIS_NDK_LOCAL_ENDPOINTS</a>
  
 
  

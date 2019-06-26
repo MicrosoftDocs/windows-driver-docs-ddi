@@ -61,7 +61,7 @@ Specifies the property to be read/written.
 
 ### -field PropertySetID
 
-Specifies the index of the property set within either the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559690">HW_STREAM_HEADER</a>'s <b>DevicePropertiesArray</b> (for minidriver properties) or the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559692">HW_STREAM_INFORMATION</a>'s <b>StreamPropertiesArray</b> (for stream properties).
+Specifies the index of the property set within either the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/strmini/ns-strmini-_hw_stream_header">HW_STREAM_HEADER</a>'s <b>DevicePropertiesArray</b> (for minidriver properties) or the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/strmini/ns-strmini-_hw_stream_information">HW_STREAM_INFORMATION</a>'s <b>StreamPropertiesArray</b> (for stream properties).
 
 
 ### -field PropertyInfo

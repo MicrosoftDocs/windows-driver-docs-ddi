@@ -49,7 +49,7 @@ req.typenames:
 
 The <b>WdfDeviceWriteToHardware</b> method is used internally by the framework. Do not use.
 
-Instead, use the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265662">WDF Register/Port Access Functions</a>.
+Instead, use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfhwaccess/">WDF Register/Port Access Functions</a>.
 
 
 ## -parameters
@@ -92,7 +92,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/55FBE72C-E74E-4116-9602-6D491592350F">WriteToHardware</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfdevice3-writetohardware">WriteToHardware</a>
  
 
  

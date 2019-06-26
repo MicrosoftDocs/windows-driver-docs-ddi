@@ -46,7 +46,7 @@ req.typenames: ATA_PASS_THROUGH_DIRECT, *PATA_PASS_THROUGH_DIRECT
 ## -description
 
 
-The ATA_PASS_THROUGH_DIRECT structure is used in conjunction with an <a href="https://msdn.microsoft.com/library/windows/hardware/ff559315">IOCTL_ATA_PASS_THROUGH_DIRECT</a> request to instruct the port driver to send an embedded ATA command to the target device. 
+The ATA_PASS_THROUGH_DIRECT structure is used in conjunction with an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddscsi/ni-ntddscsi-ioctl_ata_pass_through_direct">IOCTL_ATA_PASS_THROUGH_DIRECT</a> request to instruct the port driver to send an embedded ATA command to the target device. 
 
 
 ## -struct-fields
@@ -269,7 +269,7 @@ Reserved
 </table>
  
 
-When <a href="https://msdn.microsoft.com/library/windows/hardware/ff559315">IOCTL_ATA_PASS_THROUGH_DIRECT</a> completes, the port driver updates <b>CurrentTaskFile</b> with the values that are present in the device's output registers at the completion of the embedded command. The array values in <b>CurrentTaskFile</b> correspond to the following task file output registers.
+When <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddscsi/ni-ntddscsi-ioctl_ata_pass_through_direct">IOCTL_ATA_PASS_THROUGH_DIRECT</a> completes, the port driver updates <b>CurrentTaskFile</b> with the values that are present in the device's output registers at the completion of the embedded command. The array values in <b>CurrentTaskFile</b> correspond to the following task file output registers.
 
 <table>
 <tr>
@@ -364,7 +364,7 @@ Reserved
 
 
 
-The ATA_PASS_THROUGH_DIRECT structure is used with <a href="https://msdn.microsoft.com/library/windows/hardware/ff559315">IOCTL_ATA_PASS_THROUGH_DIRECT</a>. With this request, the system locks down the buffer in user memory and the device accesses this memory directly. For a double-buffered equivalent of this device control request, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff559309">IOCTL_ATA_PASS_THROUGH</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff551323">ATA_PASS_THROUGH_EX</a>.
+The ATA_PASS_THROUGH_DIRECT structure is used with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddscsi/ni-ntddscsi-ioctl_ata_pass_through_direct">IOCTL_ATA_PASS_THROUGH_DIRECT</a>. With this request, the system locks down the buffer in user memory and the device accesses this memory directly. For a double-buffered equivalent of this device control request, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddscsi/ni-ntddscsi-ioctl_ata_pass_through">IOCTL_ATA_PASS_THROUGH</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddscsi/ns-ntddscsi-_ata_pass_through_ex">ATA_PASS_THROUGH_EX</a>.
 
 
 
@@ -374,15 +374,15 @@ The ATA_PASS_THROUGH_DIRECT structure is used with <a href="https://msdn.microso
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551323">ATA_PASS_THROUGH_EX</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddscsi/ns-ntddscsi-_ata_pass_through_ex">ATA_PASS_THROUGH_EX</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559309">IOCTL_ATA_PASS_THROUGH</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddscsi/ni-ntddscsi-ioctl_ata_pass_through">IOCTL_ATA_PASS_THROUGH</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559315">IOCTL_ATA_PASS_THROUGH_DIRECT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddscsi/ni-ntddscsi-ioctl_ata_pass_through_direct">IOCTL_ATA_PASS_THROUGH_DIRECT</a>
  
 
  

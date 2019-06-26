@@ -48,12 +48,12 @@ req.typenames:
 
 The IPrinterScriptablePropertyBag interface is the property bag interface passed to script clients. 
 
-This interface is the same as <a href="https://msdn.microsoft.com/library/windows/hardware/hh439547">IPrinterPropertyBag</a>, except that the GetBytes and SetBytes methods operate on JavaScript arrays and the GetReadStream and GetWriteStream methods operate on <a href="https://msdn.microsoft.com/library/windows/hardware/hh973218">IPrinterScriptableStream</a> objects.
+This interface is the same as <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprinterpropertybag">IPrinterPropertyBag</a>, except that the GetBytes and SetBytes methods operate on JavaScript arrays and the GetReadStream and GetWriteStream methods operate on <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprinterscriptablestream">IPrinterScriptableStream</a> objects.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrinterScriptablePropertyBag</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IPrinterScriptablePropertyBag</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrinterScriptablePropertyBag</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrinterScriptablePropertyBag</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -68,7 +68,7 @@ The <b>IPrinterScriptablePropertyBag</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439647">GetBool</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nf-printerextension-iprinterscriptablepropertybag-getbool">GetBool</a>
 </td>
 <td align="left" width="63%">
 Gets a specified boolean property.
@@ -77,7 +77,7 @@ Gets a specified boolean property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439653">GetBytes</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nf-printerextension-iprinterscriptablepropertybag-getbytes">GetBytes</a>
 </td>
 <td align="left" width="63%">
 Gets a byte array property.
@@ -86,7 +86,7 @@ Gets a byte array property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439658">GetInt32</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nf-printerextension-iprinterscriptablepropertybag-getint32">GetInt32</a>
 </td>
 <td align="left" width="63%">
 Gets an integer property.
@@ -95,7 +95,7 @@ Gets an integer property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439535">GetReadStream</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nf-printerextension-iprinterpropertybag-getreadstream">GetReadStream</a>
 </td>
 <td align="left" width="63%">
 Gets a read stream and uses it to read  from a property.
@@ -104,7 +104,7 @@ Gets a read stream and uses it to read  from a property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983419">GetString</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/extsfns/nf-extsfns-idebugfailureanalysis2-getstring">GetString</a>
 </td>
 <td align="left" width="63%">
 Gets a string property.
@@ -113,7 +113,7 @@ Gets a string property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439675">GetWriteStream</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nf-printerextension-iprinterscriptablepropertybag-getwritestream">GetWriteStream</a>
 </td>
 <td align="left" width="63%">
 Gets a stream and uses it  to write to a stream property.
@@ -122,7 +122,7 @@ Gets a stream and uses it  to write to a stream property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439552">SetBool</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nf-printerextension-iprinterpropertybag-setbool">SetBool</a>
 </td>
 <td align="left" width="63%">
 Writes a specified boolean property value.
@@ -131,7 +131,7 @@ Writes a specified boolean property value.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439606">SetBytes</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nf-printerextension-iprinterpropertybag-setbytes">SetBytes</a>
 </td>
 <td align="left" width="63%">
 Writes a byte array property.
@@ -140,7 +140,7 @@ Writes a byte array property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439610">SetInt32</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nf-printerextension-iprinterpropertybag-setint32">SetInt32</a>
 </td>
 <td align="left" width="63%">
 Writes an integer property.
@@ -149,7 +149,7 @@ Writes an integer property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983427">SetString</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/extsfns/nf-extsfns-idebugfailureanalysis2-setstring">SetString</a>
 </td>
 <td align="left" width="63%">
 Writes a string property.
@@ -164,27 +164,27 @@ Writes a string property.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439547">IPrinterPropertyBag</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprinterpropertybag">IPrinterPropertyBag</a>
 
 
 
-<a href="https://msdn.microsoft.com/73BE6E2A-0C46-4C3F-8888-5FE8386A1F50">IPrinterScriptContext::DriverProperties</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nf-printerextension-iprinterscriptcontext-get_driverproperties">IPrinterScriptContext::DriverProperties</a>
 
 
 
-<a href="https://msdn.microsoft.com/EEC61313-5796-42BC-84BF-CF29F8BE0C96">IPrinterScriptContext::QueueProperties</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nf-printerextension-iprinterscriptcontext-get_queueproperties">IPrinterScriptContext::QueueProperties</a>
 
 
 
-<a href="https://msdn.microsoft.com/6F181350-41A3-4592-BB72-1E3AD6FEC748">IPrinterScriptContext::UserProperties</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nf-printerextension-iprinterscriptcontext-get_userproperties">IPrinterScriptContext::UserProperties</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh973218">IPrinterScriptableStream</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprinterscriptablestream">IPrinterScriptableStream</a>
 
 
 
-<a href="https://msdn.microsoft.com/4E20303A-BEB3-4928-BA5A-356D978FA2BE">V4 Printer Driver Property Bags</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/print/v4-driver-property-bags">V4 Printer Driver Property Bags</a>
  
 
  

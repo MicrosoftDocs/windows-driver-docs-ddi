@@ -56,21 +56,21 @@ The minidriver uses the HW_STREAM_DESCRIPTOR structure to return stream informat
 
 ### -field StreamHeader
 
-Contains the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559690">HW_STREAM_HEADER</a> for the stream descriptor.
+Contains the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/strmini/ns-strmini-_hw_stream_header">HW_STREAM_HEADER</a> for the stream descriptor.
 
 
 ### -field StreamInfo
 
-Contains the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559692">HW_STREAM_INFORMATION</a> block for the zero stream.
+Contains the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/strmini/ns-strmini-_hw_stream_information">HW_STREAM_INFORMATION</a> block for the zero stream.
 
 
 ## -remarks
 
 
 
-The minidriver returns this structure to the class driver in response to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff568173">SRB_GET_STREAM_INFO</a> request. The class driver makes this request by calling the minidriver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff568463">StrMiniReceiveDevicePacket</a> routine.
+The minidriver returns this structure to the class driver in response to a <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/srb-get-stream-info">SRB_GET_STREAM_INFO</a> request. The class driver makes this request by calling the minidriver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/strmini/nc-strmini-phw_receive_device_srb">StrMiniReceiveDevicePacket</a> routine.
 
-The class driver expects HW_STREAM_DESCRIPTOR to be laid out in memory as an <a href="https://msdn.microsoft.com/library/windows/hardware/ff559690">HW_STREAM_HEADER</a> followed by an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff559692">HW_STREAM_INFORMATION</a> structures. The array begins at the address of the <b>StreamInfo</b> member. The HW_STREAM_HEADER's <b>NumberOfStreams</b> member indicates the number of entries in the array. The minidriver uses HW_STREAM_HEADER to describe those kernel streaming properties of the driver as a whole, while each HW_STREAM_INFORMATION structure describes each individual stream the device supports.
+The class driver expects HW_STREAM_DESCRIPTOR to be laid out in memory as an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/strmini/ns-strmini-_hw_stream_header">HW_STREAM_HEADER</a> followed by an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/strmini/ns-strmini-_hw_stream_information">HW_STREAM_INFORMATION</a> structures. The array begins at the address of the <b>StreamInfo</b> member. The HW_STREAM_HEADER's <b>NumberOfStreams</b> member indicates the number of entries in the array. The minidriver uses HW_STREAM_HEADER to describe those kernel streaming properties of the driver as a whole, while each HW_STREAM_INFORMATION structure describes each individual stream the device supports.
 
 
 
@@ -80,11 +80,11 @@ The class driver expects HW_STREAM_DESCRIPTOR to be laid out in memory as an <a 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559690">HW_STREAM_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/strmini/ns-strmini-_hw_stream_header">HW_STREAM_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559692">HW_STREAM_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/strmini/ns-strmini-_hw_stream_information">HW_STREAM_INFORMATION</a>
  
 
  

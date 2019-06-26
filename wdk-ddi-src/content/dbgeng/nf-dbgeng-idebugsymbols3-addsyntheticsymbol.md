@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <b>AddSyntheticSymbol</b>  method adds a synthetic symbol to a module in the <a href="https://msdn.microsoft.com/295b05a3-e27f-4761-a562-7e87e25bfd3b">current process</a>.
+The <b>AddSyntheticSymbol</b>  method adds a synthetic symbol to a module in the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/c">current process</a>.
 
 
 ## -parameters
@@ -76,7 +76,7 @@ Set to DEBUG_ADDSYNTHSYM_DEFAULT.
 
 ### -param Id [out, optional]
 
-Receives the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541511">DEBUG_MODULE_AND_ID</a> structure that identifies the synthetic symbol.  If <i>Id</i> is <b>NULL</b>, this information is not returned.
+Receives the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/ns-dbgeng-_debug_module_and_id">DEBUG_MODULE_AND_ID</a> structure that identifies the synthetic symbol.  If <i>Id</i> is <b>NULL</b>, this information is not returned.
 
 
 ## -returns
@@ -102,7 +102,7 @@ The method was successful.
 </table>
  
 
-This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 
 
@@ -113,9 +113,9 @@ This method may also return error values.  See <a href="https://msdn.microsoft.c
 
 The location of the synthetic symbol must not be the same as the location of another symbol.
 
-If the module containing a synthetic symbol is reloaded - for example, by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff554379">Reload</a> with the <i>Module</i> parameter set to the name of the module - the synthetic symbol will be discarded.
+If the module containing a synthetic symbol is reloaded - for example, by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols3-reload">Reload</a> with the <i>Module</i> parameter set to the name of the module - the synthetic symbol will be discarded.
 
-For more information about synthetic symbols, see <a href="https://msdn.microsoft.com/1de1441f-b4d7-49e9-87ad-392a75b3d4be">Synthetic Symbols</a>.
+For more information about synthetic symbols, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/using-symbols">Synthetic Symbols</a>.
 
 
 
@@ -125,15 +125,15 @@ For more information about synthetic symbols, see <a href="https://msdn.microsof
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537937">AddSyntheticModule</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols3-addsyntheticmodule">AddSyntheticModule</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550870">IDebugSymbols3</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugsymbols3">IDebugSymbols3</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554542">RemoveSyntheticSymbol</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols3-removesyntheticsymbol">RemoveSyntheticSymbol</a>
  
 
  

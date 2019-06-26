@@ -85,9 +85,9 @@ When a notification timer expires, all waiting threads are released and the time
 
 Callers of <b>KeInitializeTimerEx</b> should be running at IRQL = DISPATCH_LEVEL or lower. It is best to initialize timers at IRQL = PASSIVE_LEVEL.
 
-For more information about timer objects, see <a href="https://msdn.microsoft.com/b58487de-6e9e-45f4-acb8-9233c8718ee2">Timer Objects and DPCs</a>.
+For more information about timer objects, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/timer-objects-and-dpcs">Timer Objects and DPCs</a>.
 
-Use <a href="https://msdn.microsoft.com/library/windows/hardware/ff553286">KeSetTimer</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff553292">KeSetTimerEx</a> to define when the timer will expire.
+Use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kesettimer">KeSetTimer</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kesettimerex">KeSetTimerEx</a> to define when the timer will expire.
 
 
 
@@ -97,27 +97,27 @@ Use <a href="https://msdn.microsoft.com/library/windows/hardware/ff553286">KeSet
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551970">KeCancelTimer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kecanceltimer">KeCancelTimer</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553099">KeReadStateTimer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kereadstatetimer">KeReadStateTimer</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553286">KeSetTimer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kesettimer">KeSetTimer</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553292">KeSetTimerEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kesettimerex">KeSetTimerEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553324">KeWaitForMultipleObjects</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kewaitformultipleobjects">KeWaitForMultipleObjects</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553350">KeWaitForSingleObject</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kewaitforsingleobject">KeWaitForSingleObject</a>
  
 
  

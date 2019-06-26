@@ -56,7 +56,7 @@ The <b>FsRtlLookupPerFileContext </b>routine returns a pointer to a <a href="htt
 
 ### -param PerFileContextPointer [in]
 
-A pointer to an opaque pointer that is used by the file system runtime library (FSRTL) package to track file contexts. To retrieve this pointer from a file object, use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546051">FsRtlGetPerFileContextPointer</a> macro.
+A pointer to an opaque pointer that is used by the file system runtime library (FSRTL) package to track file contexts. To retrieve this pointer from a file object, use the <a href="https://docs.microsoft.com/previous-versions/ff546051(v=vs.85)">FsRtlGetPerFileContextPointer</a> macro.
 
 
 ### -param OwnerId [in, optional]
@@ -84,7 +84,7 @@ A pointer to the first FSRTL_PER_FILE_CONTEXT structure that matches the <i>Owne
 
 By not specifying <i>OwnerID</i> and <i>InstanceId</i>, a filter driver can search for the first context that is associated with a file.  
 
-If the file system does not support per-file context objects, <b>NULL</b> is returned. Use the <a href="https://msdn.microsoft.com/28f0e98f-1f7b-4dcf-8151-e13981634617">FsRtlSupportsPerFileContexts</a> macro to determine whether a file system supports per-file context objects.
+If the file system does not support per-file context objects, <b>NULL</b> is returned. Use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-fsrtlsupportsperfilecontexts">FsRtlSupportsPerFileContexts</a> macro to determine whether a file system supports per-file context objects.
 
 
 
@@ -98,7 +98,7 @@ If the file system does not support per-file context objects, <b>NULL</b> is ret
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546051">FsRtlGetPerFileContextPointer</a>
+<a href="https://docs.microsoft.com/previous-versions/ff546051(v=vs.85)">FsRtlGetPerFileContextPointer</a>
 
 
 
@@ -110,7 +110,7 @@ If the file system does not support per-file context objects, <b>NULL</b> is ret
 
 
 
-<a href="https://msdn.microsoft.com/6be3ff10-47e4-47f5-8f15-88a80a16f451">Tracking Per-File Context in a Legacy File System Filter Driver</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/tracking-per-file-context-in-a-legacy-file-system-filter-driver">Tracking Per-File Context in a Legacy File System Filter Driver</a>
  
 
  

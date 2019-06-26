@@ -88,7 +88,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549932">WdfRegistryRemoveValue</a> was not called at IRQL = PASSIVE_LEVEL. 
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfregistry/nf-wdfregistry-wdfregistryremovevalue">WdfRegistryRemoveValue</a> was not called at IRQL = PASSIVE_LEVEL. 
 
 </td>
 </tr>
@@ -117,7 +117,7 @@ The driver did not open the registry key with KEY_SET_VALUE access.
 </table>
  
 
-This method also might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
+This method also might return other <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS values</a>.
 
 A bug check occurs if the driver supplies an invalid object handle.
 

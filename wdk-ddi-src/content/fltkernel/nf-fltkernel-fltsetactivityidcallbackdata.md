@@ -123,11 +123,11 @@ An activity ID pointed to by <i>Guid</i> was set for the IRP in <i>CallbackData<
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh967698">FltGetActivityIdCallbackData</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltgetactivityidcallbackdata">FltGetActivityIdCallbackData</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh967700">FltPropagateActivityIdToThread</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltpropagateactivityidtothread">FltPropagateActivityIdToThread</a>
  
 
  

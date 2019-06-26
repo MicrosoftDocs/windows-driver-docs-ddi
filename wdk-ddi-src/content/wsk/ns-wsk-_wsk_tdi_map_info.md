@@ -48,7 +48,7 @@ req.typenames: WSK_TDI_MAP_INFO, *PWSK_TDI_MAP_INFO
 
 The WSK_TDI_MAP_INFO structure specifies a list that contains mappings of a combination of an address
   family, a socket type, and a protocol to the device name of a 
-  <a href="https://msdn.microsoft.com/3878053c-388a-4bbc-a30e-feb16eda2f99">TDI</a> transport.
+  <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff565094(v=vs.85)">TDI</a> transport.
 
 
 ## -struct-fields
@@ -65,10 +65,10 @@ The number of structures contained in the array pointed to by the
 ### -field Map
 
 A pointer to an array of 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571191">WSK_TDI_MAP</a> structures. Each WSK_TDI_MAP
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/ns-wsk-_wsk_tdi_map">WSK_TDI_MAP</a> structures. Each WSK_TDI_MAP
      structure in the array contains a mapping of a particular address family, socket type, and protocol to
      the device name of a 
-     <a href="https://msdn.microsoft.com/3878053c-388a-4bbc-a30e-feb16eda2f99">TDI</a> transport.
+     <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff565094(v=vs.85)">TDI</a> transport.
 
 
 ## -remarks
@@ -76,22 +76,22 @@ A pointer to an array of
 
 
 A WSK application passes a pointer to a WSK_TDI_MAP_INFO structure to the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff571126">WskControlClient</a> function when specifying    
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff571190">WSK_TDI_DEVICENAME_MAPPING</a> for
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_control_client">WskControlClient</a> function when specifying    
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wsk-tdi-devicename-mapping">WSK_TDI_DEVICENAME_MAPPING</a> for
     the control code.
 
 If a WSK application uses the WSK_TDI_DEVICENAME_MAPPING client control operation to map combinations
     of address family, socket type, and protocol to device names of 
-    <a href="https://msdn.microsoft.com/3878053c-388a-4bbc-a30e-feb16eda2f99">TDI</a> transports, it must do so before it creates any
+    <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff565094(v=vs.85)">TDI</a> transports, it must do so before it creates any
     sockets.
 
 For more information about using TDI transports, see 
-    <a href="https://msdn.microsoft.com/58fb5e62-e15d-4f15-8eb3-3e302ea08c4f">Using TDI Transports</a>.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/using-tdi-transports">Using TDI Transports</a>.
 
 <div class="alert"><b>Note</b>  TDI will not be supported in Microsoft Windows versions after Windows Vista. Use 
-    <a href="https://msdn.microsoft.com/b9d88e59-3c4b-4804-8dd9-02c275927a1e">Windows Filtering
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_netvista/">Windows Filtering
     Platform</a> or 
-    <a href="https://msdn.microsoft.com/90264a3d-f002-4205-8e15-9060644117a3">Winsock Kernel</a> instead.</div>
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_netvista/">Winsock Kernel</a> instead.</div>
 <div> </div>
 
 
@@ -101,11 +101,11 @@ For more information about using TDI transports, see
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571191">WSK_TDI_MAP</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/ns-wsk-_wsk_tdi_map">WSK_TDI_MAP</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571126">WskControlClient</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_control_client">WskControlClient</a>
  
 
  

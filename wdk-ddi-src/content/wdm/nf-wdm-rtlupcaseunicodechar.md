@@ -74,11 +74,11 @@ Specifies the character to convert.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563005">RtlUpcaseUnicodeString</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-rtlupcaseunicodestring">RtlUpcaseUnicodeString</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563009">RtlUpperChar</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-rtlupperchar">RtlUpperChar</a>
  
 
  

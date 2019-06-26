@@ -46,7 +46,7 @@ req.typenames: WIDTHTABLE, *PWIDTHTABLE
 ## -description
 
 
-The WIDTHTABLE structure is used to define the contents of <a href="https://msdn.microsoft.com/6e643703-ace1-4660-990c-3a9ca735829d">Unidrv font metrics files</a> (.ufm files).
+The WIDTHTABLE structure is used to define the contents of <a href="https://docs.microsoft.com/windows-hardware/drivers/print/customized-font-management">Unidrv font metrics files</a> (.ufm files).
 
 
 ## -struct-fields
@@ -66,14 +66,14 @@ Specifies the number of elements in the <b>WidthRun</b> array.
 
 ### -field WidthRun
 
-Is an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff563770">WIDTHRUN</a> structures.
+Is an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prntfont/ns-prntfont-_widthrun">WIDTHRUN</a> structures.
 
 
 ## -remarks
 
 
 
-A .ufm file's WIDTHTABLE structure, which describes character widths, is accessed by a pointer in the file's <a href="https://msdn.microsoft.com/library/windows/hardware/ff563587">UNIFM_HDR</a> structure.
+A .ufm file's WIDTHTABLE structure, which describes character widths, is accessed by a pointer in the file's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prntfont/ns-prntfont-_unifm_hdr">UNIFM_HDR</a> structure.
 
 
 
@@ -83,11 +83,11 @@ A .ufm file's WIDTHTABLE structure, which describes character widths, is accesse
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563587">UNIFM_HDR</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prntfont/ns-prntfont-_unifm_hdr">UNIFM_HDR</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563770">WIDTHRUN</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prntfont/ns-prntfont-_widthrun">WIDTHRUN</a>
  
 
  

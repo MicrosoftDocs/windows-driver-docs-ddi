@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <b>IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES</b> request retrieves the banded security capabilities for a storage device. The IOCTL returns the capabilities as a <a href="https://msdn.microsoft.com/library/windows/hardware/hh439563">BAND_MANAGEMENT_CAPABILITIES</a> structure in the system buffer.
+The <b>IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES</b> request retrieves the banded security capabilities for a storage device. The IOCTL returns the capabilities as a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ehstorbandmgmt/ns-ehstorbandmgmt-_band_management_capabilities">BAND_MANAGEMENT_CAPABILITIES</a> structure in the system buffer.
 
 
 ## -ioctlparameters
@@ -66,12 +66,12 @@ None.
 
 ### -output-buffer
 
-The output buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains a <a href="https://msdn.microsoft.com/library/windows/hardware/hh439563">BAND_MANAGEMENT_CAPABILITIES</a>  structure.
+The output buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ehstorbandmgmt/ns-ehstorbandmgmt-_band_management_capabilities">BAND_MANAGEMENT_CAPABILITIES</a>  structure.
 
 
 ### -output-buffer-length
 
-The length of a <a href="https://msdn.microsoft.com/library/windows/hardware/hh439563">BAND_MANAGEMENT_CAPABILITIES</a>  structure.
+The length of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ehstorbandmgmt/ns-ehstorbandmgmt-_band_management_capabilities">BAND_MANAGEMENT_CAPABILITIES</a>  structure.
 
 
 ### -in-out-buffer
@@ -139,7 +139,7 @@ A driver or application can query for the necessary output buffer size by settin
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439563">BAND_MANAGEMENT_CAPABILITIES</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ehstorbandmgmt/ns-ehstorbandmgmt-_band_management_capabilities">BAND_MANAGEMENT_CAPABILITIES</a>
  
 
  

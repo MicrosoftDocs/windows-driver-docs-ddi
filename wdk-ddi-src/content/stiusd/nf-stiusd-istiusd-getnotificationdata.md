@@ -63,7 +63,7 @@ A still image minidriver's <b>IStiUSD::GetNotificationData</b> method returns a 
 
 #### - pBuffer
 
-Caller-supplied pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff548350">STINOTIFY</a> structure to receive event information.
+Caller-supplied pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sti/ns-sti-_stinotify">STINOTIFY</a> structure to receive event information.
 
 
 ## -returns
@@ -79,7 +79,7 @@ If the operation succeeds, the method should return S_OK. Otherwise, it should r
 
 
 
-Each time a device event occurs, the still image event monitor calls <b>IStiUSD::GetNotificationData</b> to obtain an event description. These descriptions are added to a linked list and when an application calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff543751">IStiDevice::GetLastNotificationData</a>, the most recent addition to the list is returned.
+Each time a device event occurs, the still image event monitor calls <b>IStiUSD::GetNotificationData</b> to obtain an event description. These descriptions are added to a linked list and when an application calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sti/nf-sti-istidevice-getlastnotificationdata">IStiDevice::GetLastNotificationData</a>, the most recent addition to the list is returned.
 
 
 

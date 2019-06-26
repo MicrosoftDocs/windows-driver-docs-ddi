@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <b>wiasPrintDebugHResult</b> function is <b>obsolete</b> for Windows XP and later, and is no longer supported. Use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549589">WIAS_LHRESULT</a> macro instead.
+The <b>wiasPrintDebugHResult</b> function is <b>obsolete</b> for Windows XP and later, and is no longer supported. Use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wias_lhresult">WIAS_LHRESULT</a> macro instead.
 
 This function prints an HRESULT string on the Device Manager debug console.
 
@@ -80,7 +80,7 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549589">WIAS_LHRESULT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wias_lhresult">WIAS_LHRESULT</a>
  
 
  

@@ -53,7 +53,7 @@ The enumerated list of jobs represents a snapshot of the current job status.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintJobCollection</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IPrintJobCollection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintJobCollection</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintJobCollection</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -69,10 +69,10 @@ The <b>IPrintJobCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406567">GetAt</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/radio/hh406567(v=vs.85)">GetAt</a>
 </td>
 <td align="left" width="63%">
-Gets a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/dn265396">IPrintJob</a> object.
+Gets a pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprintjob">IPrintJob</a> object.
 
 </td>
 </tr>
@@ -87,7 +87,7 @@ Gets a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardwar
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/hh406342(v=vs.85)">Count</a>
 
 
 </td>
@@ -103,7 +103,7 @@ Gets the number of jobs in the print queue.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh973226">NewEnum</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/hh973226(v=vs.85)">NewEnum</a>
 
 
 </td>
@@ -123,9 +123,9 @@ Gets a pointer to the enumerants of <b>IPrintJobCollection</b> objects.
 
 
 
-The order of print jobs in the enumerated list is the same as the order provided by <a href="https://msdn.microsoft.com/library/windows/desktop/dd162625(v=vs.85).aspx">EnumJobs</a>, which is the actual print queue order.
+The order of print jobs in the enumerated list is the same as the order provided by <a href="https://docs.microsoft.com/windows/desktop/printdocs/enumjobs">EnumJobs</a>, which is the actual print queue order.
 
-<b>IPrintJobCollection</b> also helps to make it possible to perform job management from a UWP device app or from a printer extension. For more information, see <a href="https://msdn.microsoft.com/D1236DD2-D4AD-4615-9036-7EC75D6CADCE">Job Management</a>.
+<b>IPrintJobCollection</b> also helps to make it possible to perform job management from a UWP device app or from a printer extension. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/job-management">Job Management</a>.
 
 
 
@@ -135,11 +135,11 @@ The order of print jobs in the enumerated list is the same as the order provided
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/desktop/dd162625(v=vs.85).aspx">EnumJobs</a>
+<a href="https://docs.microsoft.com/windows/desktop/printdocs/enumjobs">EnumJobs</a>
 
 
 
-<a href="https://msdn.microsoft.com/D1236DD2-D4AD-4615-9036-7EC75D6CADCE">Job Management</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/print/job-management">Job Management</a>
  
 
  

@@ -183,11 +183,11 @@ The benefit of asynchronous and synchronous options depends on the underlying tr
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554414">MDL</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_mdl">MDL</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553482">RxCeSendDatagram</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/rxce/nf-rxce-rxcesenddatagram">RxCeSendDatagram</a>
  
 
  

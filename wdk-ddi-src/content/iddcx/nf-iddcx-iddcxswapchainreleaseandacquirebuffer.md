@@ -58,7 +58,7 @@ req.typenames:
 
 ### -param SwapChainObject [in]
 
-The swap-chain object passed to the <a href="https://msdn.microsoft.com/library/windows/hardware/mt761861">EVT_IDD_CX_MONITOR_ASSIGN_SWAPCHAIN</a> call.
+The swap-chain object passed to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/iddcx/nc-iddcx-evt_idd_cx_monitor_assign_swapchain">EVT_IDD_CX_MONITOR_ASSIGN_SWAPCHAIN</a> call.
 
 
 ### -param pOutArgs [out]
@@ -71,7 +71,7 @@ Output arguments of function
 
 
 
-(NTSTATUS) The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method may return an appropriate <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> error code.
+(NTSTATUS) The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method may return an appropriate <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> error code.
                     
 
 

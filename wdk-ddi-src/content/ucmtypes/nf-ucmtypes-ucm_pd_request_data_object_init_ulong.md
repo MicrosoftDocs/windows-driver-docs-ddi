@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-Initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/mt187942">UCM_PD_REQUEST_DATA_OBJECT</a>  structure by interpreting Request Data Object values and sets each field correctly.
+Initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucmtypes/ns-ucmtypes-_ucm_pd_request_data_object">UCM_PD_REQUEST_DATA_OBJECT</a>  structure by interpreting Request Data Object values and sets each field correctly.
 
 
 
@@ -57,12 +57,12 @@ Initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/mt187
 
 ### -param Rdo
 
-<p>A pointer to a <a href="https://msdn.microsoft.com/library/Mt187942(v=VS.85).aspx"><b>UCM_PD_REQUEST_DATA_OBJECT</b></a> structure.</p>
+<p>A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucmtypes/ns-ucmtypes-_ucm_pd_request_data_object"><b>UCM_PD_REQUEST_DATA_OBJECT</b></a> structure.</p>
 
 
 ### -param UlongInLittleEndian [in]
 
-The ULONG value to set in the <b>Ul</b> member of   <a href="https://msdn.microsoft.com/library/windows/hardware/mt187942">UCM_PD_REQUEST_DATA_OBJECT</a>.
+The ULONG value to set in the <b>Ul</b> member of   <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucmtypes/ns-ucmtypes-_ucm_pd_request_data_object">UCM_PD_REQUEST_DATA_OBJECT</a>.
 
 
 ## -returns
@@ -78,7 +78,7 @@ This function does not return a value.
 
 
 
-For information about Request Data Objects, see the Power Delivery specification. There are different types of Request Data Objects and the type depends on the Power Data Object that is specified in the <b>ObjectPosition</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/mt187942">UCM_PD_REQUEST_DATA_OBJECT</a>. The  source buffer is little-endian format and the client driver can memcopy the Request Data Objects from the hardware into an array of <b>UCM_PD_REQUEST_DATA_OBJECT</b> structures.
+For information about Request Data Objects, see the Power Delivery specification. There are different types of Request Data Objects and the type depends on the Power Data Object that is specified in the <b>ObjectPosition</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucmtypes/ns-ucmtypes-_ucm_pd_request_data_object">UCM_PD_REQUEST_DATA_OBJECT</a>. The  source buffer is little-endian format and the client driver can memcopy the Request Data Objects from the hardware into an array of <b>UCM_PD_REQUEST_DATA_OBJECT</b> structures.
  
 
 
@@ -89,7 +89,7 @@ For information about Request Data Objects, see the Power Delivery specification
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt187942">UCM_PD_REQUEST_DATA_OBJECT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucmtypes/ns-ucmtypes-_ucm_pd_request_data_object">UCM_PD_REQUEST_DATA_OBJECT</a>
  
 
  

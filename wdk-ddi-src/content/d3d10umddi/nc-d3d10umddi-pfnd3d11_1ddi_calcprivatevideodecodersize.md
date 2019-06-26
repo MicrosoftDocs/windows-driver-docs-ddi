@@ -64,7 +64,7 @@ A handle to the display device (graphics context).
 
 *pDecoder* [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406310">D3D11_1DDIARG_CREATEVIDEODECODER</a> structure that describes the video decoder.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ns-d3d10umddi-d3d11_1ddiarg_createvideodecoder">D3D11_1DDIARG_CREATEVIDEODECODER</a> structure that describes the video decoder.
 
 
 ## -returns
@@ -80,7 +80,7 @@ The required number of bytes for the video decoder state.
 
 
 
-The runtime will validate the members of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406310">D3D11_1DDIARG_CREATEVIDEODECODER</a> structure before it calls this function.
+The runtime will validate the members of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ns-d3d10umddi-d3d11_1ddiarg_createvideodecoder">D3D11_1DDIARG_CREATEVIDEODECODER</a> structure before it calls this function.
 
 This function is not expected to fail.
 
@@ -92,7 +92,7 @@ This function is not expected to fail.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406310">D3D11_1DDIARG_CREATEVIDEODECODER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ns-d3d10umddi-d3d11_1ddiarg_createvideodecoder">D3D11_1DDIARG_CREATEVIDEODECODER</a>
  
 
  

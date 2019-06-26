@@ -136,11 +136,11 @@ The <b>FltPropagateActivityIdToThread</b> routine is  used by trace aware minifi
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh967698">FltGetActivityIdCallbackData</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltgetactivityidcallbackdata">FltGetActivityIdCallbackData</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh967702">FltSetActivityIdCallbackData</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltsetactivityidcallbackdata">FltSetActivityIdCallbackData</a>
  
 
  

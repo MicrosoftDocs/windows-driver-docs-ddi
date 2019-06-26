@@ -69,11 +69,11 @@ Specifies the details of the video stream.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561656">KSDATAFORMAT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksdataformat">KSDATAFORMAT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh464008">KS_H264VIDEOINFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-tagks_h264videoinfo">KS_H264VIDEOINFO</a>
  
 
  

@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The GetStackTraceEx method returns the frames at the top of the specified call stack. The GetStackTraceEx method provides inline frame support. For more information about working with inline functions, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh406275">Debugging Optimized Code and Inline Functions</a>.
+The GetStackTraceEx method returns the frames at the top of the specified call stack. The GetStackTraceEx method provides inline frame support. For more information about working with inline functions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debugging-optimized-code-and-inline-functions-external">Debugging Optimized Code and Inline Functions</a>.
 
 
 ## -parameters
@@ -93,7 +93,7 @@ Specifies the number of items in the <i>Frames</i> array.
 
 
 
-This method may also return other error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+This method may also return other error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 <table>
 <tr>
@@ -133,7 +133,7 @@ No stack frames were returned.
 
 
 
-    The stack trace returned to Frames can be printed using <a href="https://msdn.microsoft.com/library/windows/hardware/dn818567">OutputStackTraceEx</a>.
+    The stack trace returned to Frames can be printed using <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol5-outputstacktraceex">OutputStackTraceEx</a>.
 
 
    
@@ -146,35 +146,35 @@ No stack frames were returned.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn818564">GetContextStackTraceEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol5-getcontextstacktraceex">GetContextStackTraceEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546815">GetFrameOffset2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugregisters2-getframeoffset2">GetFrameOffset2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546933">GetInstructionOffset2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugregisters2-getinstructionoffset2">GetInstructionOffset2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548414">GetStackOffset2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugregisters2-getstackoffset2">GetStackOffset2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn818562">IDebugControl5</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugcontrol5">IDebugControl5</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn818567">OutputStackTraceEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol5-outputstacktraceex">OutputStackTraceEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558794">StackTrace</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdbgexts/nc-wdbgexts-pwindbg_stacktrace_routine">StackTrace</a>
 
 
 
-<a href="https://msdn.microsoft.com/1061015f-cb0c-490b-b256-e0dedb659f22">k, kb, kc, kd, kp, kP, kv (Display Stack Backtrace)</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/k--kb--kc--kd--kp--kp--kv--display-stack-backtrace-">k, kb, kc, kd, kp, kP, kv (Display Stack Backtrace)</a>
  
 
  

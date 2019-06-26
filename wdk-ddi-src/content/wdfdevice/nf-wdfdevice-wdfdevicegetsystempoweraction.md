@@ -51,7 +51,7 @@ req.typenames:
 
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
-The <b>WdfDeviceGetSystemPowerAction</b> method returns the <a href="https://msdn.microsoft.com/e8ab99d4-c18d-4ba8-bfe8-8eebb881c384">system power action</a>, if any, that is currently occurring for the computer. 
+The <b>WdfDeviceGetSystemPowerAction</b> method returns the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/system-power-actions">system power action</a>, if any, that is currently occurring for the computer. 
 
 
 ## -parameters
@@ -68,7 +68,7 @@ A handle to a framework device object.
 
 
 
-<b>WdfDeviceGetSystemPowerAction</b> returns a POWER_ACTION-typed enumerator value. The value indicates the <a href="https://msdn.microsoft.com/e8ab99d4-c18d-4ba8-bfe8-8eebb881c384">system power action</a> that is currently occurring for the computer. For more information, see the following Remarks section. The POWER_ACTION enumeration is defined in <i>wdm.h</i>.
+<b>WdfDeviceGetSystemPowerAction</b> returns a POWER_ACTION-typed enumerator value. The value indicates the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/system-power-actions">system power action</a> that is currently occurring for the computer. For more information, see the following Remarks section. The POWER_ACTION enumeration is defined in <i>wdm.h</i>.
 
 A bug check occurs if the driver supplies an invalid object handle.
 

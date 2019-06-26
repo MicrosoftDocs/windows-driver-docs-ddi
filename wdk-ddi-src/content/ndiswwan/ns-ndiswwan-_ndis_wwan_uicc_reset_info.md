@@ -102,7 +102,7 @@ sizeof(NDIS_WWAN_UICC_RESET_INFO)
  
 
 For more information about these members, see 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field uStatus
@@ -162,7 +162,7 @@ The operation failed because the device does not support this OID.
 
 ### -field UiccResetInfo
 
-A formatted <a href="https://msdn.microsoft.com/1D53135F-3826-4546-A0AD-34697D186E8A">WWAN_UICC_RESET_INFO</a> structure that represents the passthrough status of the miniport adapter.
+A formatted <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_uicc_reset_info">WWAN_UICC_RESET_INFO</a> structure that represents the passthrough status of the miniport adapter.
 
 
 ## -see-also
@@ -174,7 +174,7 @@ A formatted <a href="https://msdn.microsoft.com/1D53135F-3826-4546-A0AD-34697D18
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
@@ -182,7 +182,7 @@ A formatted <a href="https://msdn.microsoft.com/1D53135F-3826-4546-A0AD-34697D18
 
 
 
-<a href="https://msdn.microsoft.com/1D53135F-3826-4546-A0AD-34697D186E8A">WWAN_UICC_RESET_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_uicc_reset_info">WWAN_UICC_RESET_INFO</a>
  
 
  

@@ -64,12 +64,12 @@ The value can be one of the following:
 <ul>
 <li>
 <b>Device</b> if the target comes from the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406391">IWDTFDeviceDepot2</a> interface.
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nn-wdtf-iwdtfdevicedepot2">IWDTFDeviceDepot2</a> interface.
 
 </li>
 <li>
 <b>System</b> if the target comes from the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439331">IWDTFSystemDepot2</a> interface.
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nn-wdtf-iwdtfsystemdepot2">IWDTFSystemDepot2</a> interface.
 
 </li>
 </ul>
@@ -81,15 +81,15 @@ The value can be one of the following:
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406391">IWDTFDeviceDepot2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nn-wdtf-iwdtfdevicedepot2">IWDTFDeviceDepot2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439331">IWDTFSystemDepot2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nn-wdtf-iwdtfsystemdepot2">IWDTFSystemDepot2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439367">IWDTFTarget2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nn-wdtf-iwdtftarget2">IWDTFTarget2</a>
  
 
  

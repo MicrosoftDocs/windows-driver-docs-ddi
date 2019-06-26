@@ -74,9 +74,9 @@ The method returns <b>TRUE</b> if the request is marked as UMDF driver-initiated
 
 
 
- This method retrieves the value of the <b>IRP_UM_DRIVER_INITIATED_IO</b> flag in the <b>Flags</b> member of the WDM <a href="https://msdn.microsoft.com/library/windows/hardware/ff550694">IRP</a> structure corresponding to the I/O request.
+ This method retrieves the value of the <b>IRP_UM_DRIVER_INITIATED_IO</b> flag in the <b>Flags</b> member of the WDM <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_irp">IRP</a> structure corresponding to the I/O request.
 
-For more information about using this flag, see <a href="https://msdn.microsoft.com/library/windows/hardware/dn265623">WdfRequestSetUserModeDriverInitiatedIo</a>.
+For more information about using this flag, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfrequest/nf-wdfrequest-wdfrequestsetusermodedriverinitiatedio">WdfRequestSetUserModeDriverInitiatedIo</a>.
 
 
 
@@ -86,7 +86,7 @@ For more information about using this flag, see <a href="https://msdn.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265623">WdfRequestSetUserModeDriverInitiatedIo</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfrequest/nf-wdfrequest-wdfrequestsetusermodedriverinitiatedio">WdfRequestSetUserModeDriverInitiatedIo</a>
  
 
  

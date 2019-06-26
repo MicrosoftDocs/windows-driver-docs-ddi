@@ -56,12 +56,12 @@ Sends the host's challenge key to the logical unit. The host's challenge key con
 
 ### -input-buffer
 
-The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff550114">AACS_SEND_CHALLENGE_KEY</a> structure.
+The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdvd/ns-ntddcdvd-_aacs_send_challenge_key">AACS_SEND_CHALLENGE_KEY</a> structure.
 
 
 ### -input-buffer-length
 
-Length of an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550114">AACS_SEND_CHALLENGE_KEY</a> structure.
+Length of an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdvd/ns-ntddcdvd-_aacs_send_challenge_key">AACS_SEND_CHALLENGE_KEY</a> structure.
 
 
 ### -output-buffer

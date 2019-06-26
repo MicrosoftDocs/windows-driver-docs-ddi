@@ -56,7 +56,7 @@ The <i>Int10ReadMemory </i>function reads a block of memory in the context of an
 
 ### -param Context [in]
 
-Pointer to a video port driver-defined context for the interface. This should be the same as the value in the <b>Context</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff570539">VIDEO_PORT_INT10_INTERFACE</a> structure after <a href="https://msdn.microsoft.com/library/windows/hardware/ff570337">VideoPortQueryServices</a> returns.
+Pointer to a video port driver-defined context for the interface. This should be the same as the value in the <b>Context</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/ns-video-_video_port_int10_interface">VIDEO_PORT_INT10_INTERFACE</a> structure after <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportqueryservices">VideoPortQueryServices</a> returns.
 
 
 ### -param Seg [in]
@@ -92,7 +92,7 @@ The <i>Int10ReadMemory</i> function returns NO_ERROR upon success. Otherwise it 
 
 
 
-The video port implements this function, which can be accessed through a pointer in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff570539">VIDEO_PORT_INT10_INTERFACE</a> structure.
+The video port implements this function, which can be accessed through a pointer in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/ns-video-_video_port_int10_interface">VIDEO_PORT_INT10_INTERFACE</a> structure.
 
 
 
@@ -102,7 +102,7 @@ The video port implements this function, which can be accessed through a pointer
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570539">VIDEO_PORT_INT10_INTERFACE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/ns-video-_video_port_int10_interface">VIDEO_PORT_INT10_INTERFACE</a>
  
 
  

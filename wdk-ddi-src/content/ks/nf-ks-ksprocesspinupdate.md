@@ -47,7 +47,7 @@ req.typenames:
 ## -description
 
 
-The <b>KsProcessPinUpdate</b> function is called from within a filter-centric filter's <a href="https://msdn.microsoft.com/library/windows/hardware/ff556315">AVStrMiniFilterProcess</a> dispatch to update a process pin.
+The <b>KsProcessPinUpdate</b> function is called from within a filter-centric filter's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nc-ks-pfnksfilterprocess">AVStrMiniFilterProcess</a> dispatch to update a process pin.
 
 
 ## -parameters
@@ -57,7 +57,7 @@ The <b>KsProcessPinUpdate</b> function is called from within a filter-centric fi
 
 ### -param ProcessPin [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564256">KSPROCESSPIN</a> structure that represents the process pin to update.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksprocesspin">KSPROCESSPIN</a> structure that represents the process pin to update.
 
 
 ## -returns
@@ -73,7 +73,7 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff56
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/e56c5102-7ea6-4687-ae5e-1550db9500f0">Filter-Centric Processing</a>.
+For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/filter-centric-processing">Filter-Centric Processing</a>.
 
 
 
@@ -83,11 +83,11 @@ For more information, see <a href="https://msdn.microsoft.com/e56c5102-7ea6-4687
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564256">KSPROCESSPIN</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksprocesspin">KSPROCESSPIN</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564260">KSPROCESSPIN_INDEXENTRY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksprocesspin_indexentry">KSPROCESSPIN_INDEXENTRY</a>
  
 
  

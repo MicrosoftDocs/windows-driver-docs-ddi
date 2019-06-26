@@ -61,12 +61,12 @@ The <b>WdfDriverIsVersionAvailable</b> method returns a Boolean value that indic
 
 ### -param Driver [in]
 
-A handle to the driver's framework driver object that the driver obtained from a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff547175">WdfDriverCreate</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff547336">WdfGetDriver</a>.
+A handle to the driver's framework driver object that the driver obtained from a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdriver/nf-wdfdriver-wdfdrivercreate">WdfDriverCreate</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdriver/nf-wdfdriver-wdfgetdriver">WdfGetDriver</a>.
 
 
 ### -param VersionAvailableParams [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551306">WDF_DRIVER_VERSION_AVAILABLE_PARAMS</a> structure that identifies a version of the framework library.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdriver/ns-wdfdriver-_wdf_driver_version_available_params">WDF_DRIVER_VERSION_AVAILABLE_PARAMS</a> structure that identifies a version of the framework library.
 
 
 ## -returns
@@ -88,7 +88,7 @@ A system bug check occurs if the <i>Driver</i> handle is invalid.
 
 
 
-For more information about library versions, see <a href="https://msdn.microsoft.com/51db6f3c-45cb-46a7-9dd4-2bab67893fea">Framework Library Versioning</a>.
+For more information about library versions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/framework-library-versioning">Framework Library Versioning</a>.
 
 
 #### Examples
@@ -121,19 +121,19 @@ if (!WdfDriverIsVersionAvailable(
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551306">WDF_DRIVER_VERSION_AVAILABLE_PARAMS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdriver/ns-wdfdriver-_wdf_driver_version_available_params">WDF_DRIVER_VERSION_AVAILABLE_PARAMS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547175">WdfDriverCreate</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdriver/nf-wdfdriver-wdfdrivercreate">WdfDriverCreate</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547211">WdfDriverRetrieveVersionString</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdriver/nf-wdfdriver-wdfdriverretrieveversionstring">WdfDriverRetrieveVersionString</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547336">WdfGetDriver</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdriver/nf-wdfdriver-wdfgetdriver">WdfGetDriver</a>
  
 
  

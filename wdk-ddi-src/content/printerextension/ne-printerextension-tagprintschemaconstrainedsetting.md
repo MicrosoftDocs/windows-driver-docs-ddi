@@ -79,7 +79,7 @@ The Option is constrained by the device configuration. The Option should not be 
 
 
 
-<a href="https://msdn.microsoft.com/57E13395-9E23-4708-B4EC-6839CB6FC62B">IPrintSchemaOption::Constrained</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nf-printerextension-iprintschemaoption-get_constrained">IPrintSchemaOption::Constrained</a>
  
 
  

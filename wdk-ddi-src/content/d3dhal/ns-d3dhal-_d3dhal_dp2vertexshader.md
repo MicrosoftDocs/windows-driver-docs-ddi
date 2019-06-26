@@ -50,7 +50,7 @@ req.typenames: D3DHAL_DP2VERTEXSHADER
    DirectX 8.0 and later versions only.
    
 
-The D3DHAL_DP2VERTEXSHADER structure sets the current vertex shader, or deletes a vertex shader, depending on the opcode received (D3DDP2OP_SETVERTEXSHADER or D3DDP2OP_DELETEVERTEXSHADER) by <a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a>.
+The D3DHAL_DP2VERTEXSHADER structure sets the current vertex shader, or deletes a vertex shader, depending on the opcode received (D3DDP2OP_SETVERTEXSHADER or D3DDP2OP_DELETEVERTEXSHADER) by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a>.
 
 
 ## -struct-fields
@@ -121,15 +121,15 @@ D3DDP2OP_SETVERTEXSHADERFUNC
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545478">D3DHAL_DP2CREATEVERTEXSHADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dhal/ns-d3dhal-_d3dhal_dp2createvertexshader">D3DHAL_DP2CREATEVERTEXSHADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545826">D3DHAL_DP2SETVERTEXSHADERCONST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dhal/ns-d3dhal-_d3dhal_dp2setvertexshaderconst">D3DHAL_DP2SETVERTEXSHADERCONST</a>
 
 
 
-<a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a>
  
 
  

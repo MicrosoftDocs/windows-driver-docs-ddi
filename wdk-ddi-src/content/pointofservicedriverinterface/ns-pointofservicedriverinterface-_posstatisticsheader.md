@@ -61,10 +61,10 @@ Indicates the number of statistics that follow this header.
 
 ### -field DeviceInformation
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/dn772217">PosDeviceInformation</a> structure that contains UPOS standard information about the device, such as its category, manufacturer, and firmware revision. 
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pointofservicecommontypes/ns-pointofservicecommontypes-_posdeviceinformation">PosDeviceInformation</a> structure that contains UPOS standard information about the device, such as its category, manufacturer, and firmware revision. 
 
 
 ### -field DataLength
 
-Indicates the length, in bytes, of the <b>PosStatisticsHeader</b> and the buffer of <a href="https://msdn.microsoft.com/library/windows/hardware/dn772322">PosValueStatisticsEntry</a> that follow this structure in memory.
+Indicates the length, in bytes, of the <b>PosStatisticsHeader</b> and the buffer of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pointofservicedriverinterface/ns-pointofservicedriverinterface-_posvaluestatisticsentry">PosValueStatisticsEntry</a> that follow this structure in memory.
 

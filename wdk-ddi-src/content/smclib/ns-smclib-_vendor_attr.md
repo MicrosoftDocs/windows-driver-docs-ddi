@@ -46,7 +46,7 @@ req.typenames: VENDOR_ATTR, *PVENDOR_ATTR
 ## -description
 
 
-The VENDOR_ATTR structure defines the data that is stored in the <b>VendorAttr</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548974">SMARTCARD_EXTENSION</a> structure. VENDOR_ATTR also holds information that identifies the smart card reader, such as the vendor name, unit number, and serial number. 
+The VENDOR_ATTR structure defines the data that is stored in the <b>VendorAttr</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/smclib/ns-smclib-_smartcard_extension">SMARTCARD_EXTENSION</a> structure. VENDOR_ATTR also holds information that identifies the smart card reader, such as the vendor name, unit number, and serial number. 
 
 
 ## -struct-fields

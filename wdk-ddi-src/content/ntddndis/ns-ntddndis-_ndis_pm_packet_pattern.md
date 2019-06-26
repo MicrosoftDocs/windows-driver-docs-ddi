@@ -94,13 +94,13 @@ These flags are reserved.
 
 NDIS_PM_PACKET_PATTERN is supplied in the 
     <i>InformationBuffer</i> of the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a> structure for following
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structure for following
     OIDs:
 
 <ul>
 <li>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569773">OID_PNP_ADD_WAKE_UP_PATTERN</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-pnp-add-wake-up-pattern">OID_PNP_ADD_WAKE_UP_PATTERN</a>
 
 
 A protocol driver sends this OID to a miniport driver to specify a wake-up pattern. The wake-up
@@ -120,7 +120,7 @@ A protocol driver sends this OID to a miniport driver to delete a wake-up patter
 </li>
 <li>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569783">OID_PNP_WAKE_UP_PATTERN_LIST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-pnp-wake-up-pattern-list">OID_PNP_WAKE_UP_PATTERN_LIST</a>
 
 
 A protocol uses this OID to request a list of the wake-up patterns currently set for the miniport
@@ -137,11 +137,11 @@ A protocol uses this OID to request a list of the wake-up patterns currently set
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569773">OID_PNP_ADD_WAKE_UP_PATTERN</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-pnp-add-wake-up-pattern">OID_PNP_ADD_WAKE_UP_PATTERN</a>
 
 
 
@@ -149,7 +149,7 @@ A protocol uses this OID to request a list of the wake-up patterns currently set
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569783">OID_PNP_WAKE_UP_PATTERN_LIST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-pnp-wake-up-pattern-list">OID_PNP_WAKE_UP_PATTERN_LIST</a>
  
 
  

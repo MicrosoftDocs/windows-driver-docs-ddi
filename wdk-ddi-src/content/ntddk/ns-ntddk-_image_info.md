@@ -46,7 +46,7 @@ req.typenames: IMAGE_INFO, *PIMAGE_INFO
 ## -description
 
 
-Used by driver's load-image routine (<a href="https://msdn.microsoft.com/library/windows/hardware/mt764088">PLOAD_IMAGE_NOTIFY_ROUTINE</a>) to specify image information.
+Used by driver's load-image routine (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nc-ntddk-pload_image_notify_routine">PLOAD_IMAGE_NOTIFY_ROUTINE</a>) to specify image information.
 
 
 ## -struct-fields
@@ -74,7 +74,7 @@ Always set to zero.
 
 ### -field ExtendedInfoPresent
 
-If the <b>ExtendedInfoPresent</b> flag is set, the <b>IMAGE_INFO</b> structure is part of a larger, extended version of the image information structure (see <a href="https://msdn.microsoft.com/library/windows/hardware/mt764084">IMAGE_INFO_EX</a>). Added in Windows Vista. For more information, see "Extended version of the image information structure" later in this Remarks section.
+If the <b>ExtendedInfoPresent</b> flag is set, the <b>IMAGE_INFO</b> structure is part of a larger, extended version of the image information structure (see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_image_info_ex">IMAGE_INFO_EX</a>). Added in Windows Vista. For more information, see "Extended version of the image information structure" later in this Remarks section.
 
 
 ### -field MachineTypeMismatch
@@ -126,7 +126,7 @@ Always set to zero.
 
 
 
-If the <b>ExtendedInfoPresent</b> flag is set, the <b>IMAGE_INFO</b> structure is part of a larger, extended version of the image information structure, <a href="https://msdn.microsoft.com/library/windows/hardware/mt764084">IMAGE_INFO_EX</a>.
+If the <b>ExtendedInfoPresent</b> flag is set, the <b>IMAGE_INFO</b> structure is part of a larger, extended version of the image information structure, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_image_info_ex">IMAGE_INFO_EX</a>.
 
 
 
@@ -136,15 +136,15 @@ If the <b>ExtendedInfoPresent</b> flag is set, the <b>IMAGE_INFO</b> structure i
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt764084">IMAGE_INFO_EX</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_image_info_ex">IMAGE_INFO_EX</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt764088">PLOAD_IMAGE_NOTIFY_ROUTINE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nc-ntddk-pload_image_notify_routine">PLOAD_IMAGE_NOTIFY_ROUTINE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559957">PsSetLoadImageNotifyRoutine</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-pssetloadimagenotifyroutine">PsSetLoadImageNotifyRoutine</a>
  
 
  

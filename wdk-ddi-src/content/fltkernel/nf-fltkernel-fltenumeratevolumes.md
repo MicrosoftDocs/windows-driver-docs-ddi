@@ -109,17 +109,17 @@ The buffer that the <i>VolumeList</i> parameter points to is not large enough to
 
 Because the contents of the filter manager's volume list can change at any time, two calls to <b>FltEnumerateVolumes</b> are not guaranteed to return the same result. 
 
-<b>FltEnumerateVolumes</b> adds a rundown reference to each of the opaque volume pointers returned in the array that <i>VolumeList </i>points to. When these pointers are no longer needed, the caller must release them by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff543378">FltObjectDereference</a> on each one. Thus every successful call to <b>FltEnumerateVolumes</b> must be matched by a subsequent call to <b>FltObjectDereference</b> for each returned volume pointer. 
+<b>FltEnumerateVolumes</b> adds a rundown reference to each of the opaque volume pointers returned in the array that <i>VolumeList </i>points to. When these pointers are no longer needed, the caller must release them by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltobjectdereference">FltObjectDereference</a> on each one. Thus every successful call to <b>FltEnumerateVolumes</b> must be matched by a subsequent call to <b>FltObjectDereference</b> for each returned volume pointer. 
 
-To convert one or more opaque volume pointers returned by the <i>VolumeList</i> parameter into volume information, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff543238">FltGetVolumeInformation</a>.
+To convert one or more opaque volume pointers returned by the <i>VolumeList</i> parameter into volume information, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltgetvolumeinformation">FltGetVolumeInformation</a>.
 
-To list volume information for all volumes that are known to the filter manager, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff542091">FltEnumerateVolumeInformation</a>. 
+To list volume information for all volumes that are known to the filter manager, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltenumeratevolumeinformation">FltEnumerateVolumeInformation</a>. 
 
-To enumerate all registered minifilter drivers, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff542064">FltEnumerateFilters</a>. 
+To enumerate all registered minifilter drivers, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltenumeratefilters">FltEnumerateFilters</a>. 
 
-To enumerate all minifilter driver instances, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff542090">FltEnumerateInstances</a>. 
+To enumerate all minifilter driver instances, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltenumerateinstances">FltEnumerateInstances</a>. 
 
-To enumerate all minifilter driver instances on a given volume, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff542082">FltEnumerateInstanceInformationByVolume</a>. 
+To enumerate all minifilter driver instances on a given volume, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltenumerateinstanceinformationbyvolume">FltEnumerateInstanceInformationByVolume</a>. 
 
 
 
@@ -129,27 +129,27 @@ To enumerate all minifilter driver instances on a given volume, call <a href="ht
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542064">FltEnumerateFilters</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltenumeratefilters">FltEnumerateFilters</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542082">FltEnumerateInstanceInformationByVolume</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltenumerateinstanceinformationbyvolume">FltEnumerateInstanceInformationByVolume</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542090">FltEnumerateInstances</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltenumerateinstances">FltEnumerateInstances</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542091">FltEnumerateVolumeInformation</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltenumeratevolumeinformation">FltEnumerateVolumeInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543238">FltGetVolumeInformation</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltgetvolumeinformation">FltGetVolumeInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543378">FltObjectDereference</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltobjectdereference">FltObjectDereference</a>
  
 
  

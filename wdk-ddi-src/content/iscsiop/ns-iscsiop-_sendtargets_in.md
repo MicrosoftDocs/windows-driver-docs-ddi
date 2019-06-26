@@ -46,7 +46,7 @@ req.typenames: SendTargets_IN, *PSendTargets_IN
 ## -description
 
 
-The SendTargets_IN structure holds the input data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565526">SendTargets</a> method.
+The SendTargets_IN structure holds the input data for the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/sendtargets">SendTargets</a> method.
 
 
 ## -struct-fields
@@ -78,19 +78,19 @@ You must implement this method.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/addconnectiontosession">AddConnectionToSession</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/logintotarget">LoginToTarget</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565526">SendTargets</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/sendtargets">SendTargets</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565540">SendTargets_OUT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/iscsiop/ns-iscsiop-_sendtargets_out">SendTargets_OUT</a>
  
 
  

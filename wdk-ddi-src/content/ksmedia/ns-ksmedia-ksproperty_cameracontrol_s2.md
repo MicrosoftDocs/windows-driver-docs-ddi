@@ -46,7 +46,7 @@ req.typenames: KSPROPERTY_CAMERACONTROL_S2, *PKSPROPERTY_CAMERACONTROL_S2
 ## -description
 
 
-The KSPROPERTY_CAMERACONTROL_S2 structure describes filter-based properties in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567802">PROPSETID_VIDCAP_CAMERACONTROL</a> property set that use two values at the same time.
+The KSPROPERTY_CAMERACONTROL_S2 structure describes filter-based properties in the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/propsetid-vidcap-cameracontrol">PROPSETID_VIDCAP_CAMERACONTROL</a> property set that use two values at the same time.
 
 
 ## -struct-fields
@@ -56,7 +56,7 @@ The KSPROPERTY_CAMERACONTROL_S2 structure describes filter-based properties in t
 
 ### -field Property
 
-Specifies an initialized <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a> structure that describes the property set, property ID, and request type. 
+Specifies an initialized <a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> structure that describes the property set, property ID, and request type. 
 
 
 ### -field Value1
@@ -179,7 +179,7 @@ Specifies the second value of the property. This member is read/write.
 
 
 
-This structure is used by <a href="https://msdn.microsoft.com/library/windows/hardware/ff564425">KSPROPERTY_CAMERACONTROL_PANTILT</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff564427">KSPROPERTY_CAMERACONTROL_PANTILT_RELATIVE</a> for filter-based get/set property requests.
+This structure is used by <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-cameracontrol-pantilt">KSPROPERTY_CAMERACONTROL_PANTILT</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-cameracontrol-pantilt-relative">KSPROPERTY_CAMERACONTROL_PANTILT_RELATIVE</a> for filter-based get/set property requests.
 
 
 

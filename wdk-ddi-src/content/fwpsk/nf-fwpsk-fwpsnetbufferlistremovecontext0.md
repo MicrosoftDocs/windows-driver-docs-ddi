@@ -50,7 +50,7 @@ req.typenames:
 The 
   <b>FwpsNetBufferListRemoveContext0</b> function removes the context associated with a network buffer
   list.
-<div class="alert"><b>Note</b>  <b>FwpsNetBufferListRemoveContext0</b> is a specific version of <b>FwpsNetBufferListRemoveContext</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
+<div class="alert"><b>Note</b>  <b>FwpsNetBufferListRemoveContext0</b> is a specific version of <b>FwpsNetBufferListRemoveContext</b>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
 ## -parameters
 
@@ -67,7 +67,7 @@ A network buffer list that indicates one or more packets of interest to the call
 ### -param contextTag [in]
 
 The context tag that was passed in the <i>contextTag</i> parameter to 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff551191">FwpsNetBufferListAssociateContext0</a>.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsnetbufferlistassociatecontext0">FwpsNetBufferListAssociateContext0</a>.
 
 
 ### -param flags [in]
@@ -123,8 +123,8 @@ The
     <b>FwpsNetBufferListRemoveContext0</b> function asynchronously removes the tagged context associated with a network buffer list.
 
 To associate a context with a network buffer list, call 
-    <a href="https://msdn.microsoft.com/31135396-303b-4b94-8616-a4b7be207fa1">
-    FwpsNetBufferListAssociateContext0</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/hh439674">FwpsNetBufferListAssociateContext1</a>.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsnetbufferlistassociatecontext0">
+    FwpsNetBufferListAssociateContext0</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsnetbufferlistassociatecontext1">FwpsNetBufferListAssociateContext1</a>.
 
 Usually a callout driver will not need to use this function, because the tagged context
     is removed automatically when the packets move through the stack. This function is provided so that
@@ -138,30 +138,30 @@ Usually a callout driver will not need to use this function, because the tagged 
 
 
 
-<a href="https://msdn.microsoft.com/31135396-303b-4b94-8616-a4b7be207fa1">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsnetbufferlistassociatecontext0">
    FwpsNetBufferListAssociateContext0</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439674">FwpsNetBufferListAssociateContext1</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsnetbufferlistassociatecontext1">FwpsNetBufferListAssociateContext1</a>
 
 
 
-<a href="https://msdn.microsoft.com/f4b9b6ab-2251-4b8a-baf5-16c845a1a4db">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsnetbufferlistgettagforcontext0">
    FwpsNetBufferListGetTagForContext0</a>
 
 
 
-<a href="https://msdn.microsoft.com/482cec75-8a21-4988-b869-639d019f9460">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsnetbufferlistretrievecontext0">
    FwpsNetBufferListRetrieveContext0</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/a151256b-d69f-4abb-bf68-644f157dfdd7">Using Packet Tagging</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/using-packet-tagging">Using Packet Tagging</a>
  
 
  

@@ -68,11 +68,11 @@ Ignored on input. On output, this contains the count of external output plugs.
 
 
 
-This structure is used with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554155">AVC_FUNCTION_GET_EXT_PLUG_COUNTS</a> function code.
+This structure is used with the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/avc-function-get-ext-plug-counts">AVC_FUNCTION_GET_EXT_PLUG_COUNTS</a> function code.
 
 This structure is used only as a member inside the AVC_MULTIFUNC_IRB structure. It is not used by itself.
 
-See <a href="https://msdn.microsoft.com/3b4ec139-ff01-40bd-8e29-92f554180585">How to Use Avc.sys</a> For information about building and sending an AV/C command.
+See <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/using-avc-sys">How to Use Avc.sys</a> For information about building and sending an AV/C command.
 
 
 
@@ -82,15 +82,15 @@ See <a href="https://msdn.microsoft.com/3b4ec139-ff01-40bd-8e29-92f554180585">Ho
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554145">AVC_FUNCTION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/avc/ne-avc-_tagavc_function">AVC_FUNCTION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554155">AVC_FUNCTION_GET_EXT_PLUG_COUNTS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/avc-function-get-ext-plug-counts">AVC_FUNCTION_GET_EXT_PLUG_COUNTS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554177">AVC_MULTIFUNC_IRB</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/avc/ns-avc-_avc_multifunc_irb">AVC_MULTIFUNC_IRB</a>
  
 
  

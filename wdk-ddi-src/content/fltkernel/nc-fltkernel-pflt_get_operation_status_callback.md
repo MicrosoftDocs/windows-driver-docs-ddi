@@ -58,7 +58,7 @@ A minifilter driver can register a routine of type <i>PFLT_GET_OPERATION_STATUS_
 
 ### -param FltObjects [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff544816">FLT_RELATED_OBJECTS</a> structure that contains opaque pointers for the objects related to the current operation.
+A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/ns-fltkernel-_flt_related_objects">FLT_RELATED_OBJECTS</a> structure that contains opaque pointers for the objects related to the current operation.
 
 
 ### -param IopbSnapshot [in]
@@ -73,7 +73,7 @@ The NTSTATUS value of the I/O operation generating the callback.
 
 ### -param RequesterContext [in, optional]
 
-An optional pointer to a minifilter driver-provided context information of the requester passed from <a href="https://msdn.microsoft.com/library/windows/hardware/ff544346">FltRequestOperationStatusCallback</a>. 
+An optional pointer to a minifilter driver-provided context information of the requester passed from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltrequestoperationstatuscallback">FltRequestOperationStatusCallback</a>. 
 
 
 ## -returns
@@ -104,15 +104,15 @@ Most minifilter drivers never need to register a routine of type <i>PFLT_GET_OPE
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544638">FLT_IO_PARAMETER_BLOCK</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/ns-fltkernel-_flt_io_parameter_block">FLT_IO_PARAMETER_BLOCK</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544816">FLT_RELATED_OBJECTS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/ns-fltkernel-_flt_related_objects">FLT_RELATED_OBJECTS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544346">FltRequestOperationStatusCallback</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltrequestoperationstatuscallback">FltRequestOperationStatusCallback</a>
  
 
  

@@ -46,7 +46,7 @@ req.typenames: SetGenerationalGuid_OUT, *PSetGenerationalGuid_OUT
 ## -description
 
 
-The SetGenerationalGuid_OUT structure holds the output data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565678">SetGenerationalGuid</a> method.
+The SetGenerationalGuid_OUT structure holds the output data for the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/setgenerationalguid">SetGenerationalGuid</a> method.
 
 
 ## -struct-fields
@@ -56,7 +56,7 @@ The SetGenerationalGuid_OUT structure holds the output data for the <a href="htt
 
 ### -field Status
 
-On output, the status of the <b>SetGenerationalGuid</b> operation. For a list of status qualifiers, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>. 
+On output, the status of the <b>SetGenerationalGuid</b> operation. For a list of status qualifiers, see <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/iscsi-status-qualifiers">ISCSI_STATUS_QUALIFIERS</a>. 
 
 
 ## -remarks
@@ -73,15 +73,15 @@ You must implement this method.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/iscsi-status-qualifiers">ISCSI_STATUS_QUALIFIERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565678">SetGenerationalGuid</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/setgenerationalguid">SetGenerationalGuid</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565681">SetGenerationalGuid_IN</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/iscsiop/ns-iscsiop-_setgenerationalguid_in">SetGenerationalGuid_IN</a>
  
 
  

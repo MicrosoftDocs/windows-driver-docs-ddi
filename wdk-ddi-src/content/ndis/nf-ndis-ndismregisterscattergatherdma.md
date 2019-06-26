@@ -56,7 +56,7 @@ req.typenames:
 
 Bus master miniport drivers call the 
   <b>NdisMRegisterScatterGatherDma</b> function from 
-  <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> to initialize a
+  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> to initialize a
   scatter/gather DMA channel.
 
 
@@ -104,7 +104,7 @@ This structure includes the following members:
 #### Header
 
 The 
-       <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for the
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
        NDIS_SG_DMA_DESCRIPTION structure. Set the 
        <b>Type</b> member of the structure that 
        <b>Header</b> specifies to NDIS_OBJECT_TYPE_SG_DMA_DESCRIPTION, the 
@@ -137,7 +137,7 @@ The maximum number of bytes that the NIC can transfer in a single DMA operation.
 #### ProcessSGListHandler
 
 The 
-       <a href="https://msdn.microsoft.com/ddd5d14f-f886-40d0-9fc8-eeb37da63ebd">MiniportProcessSGList</a> function
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_process_sg_list">MiniportProcessSGList</a> function
        that NDIS calls when HAL is done building the scatter/gather list.
 
 
@@ -145,9 +145,9 @@ The
 #### SharedMemAllocateCompleteHandler
 
 The 
-       <a href="https://msdn.microsoft.com/d102a001-960c-4fe6-af2d-d740bba744b1">
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_allocate_shared_mem_complete">
        MiniportSharedMemoryAllocateComplete</a> function for miniport drivers that call 
-       <a href="https://msdn.microsoft.com/ccbe98ca-7da9-4159-ac1a-c25ec6745ff4">
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismallocatesharedmemoryasyncex">
        NdisMAllocateSharedMemoryAsyncEx</a>. This field is optional and it should be <b>NULL</b> if the miniport
        driver does not call 
        <b>NdisMAllocateSharedMemoryAsyncEx</b>.
@@ -213,10 +213,10 @@ A pointer to a variable that the caller supplies and that NDIS fills with a hand
 <b>NdisMRegisterScatterGatherDma</b> failed because the miniport did not specify that it supports NDIS
        6.0 or later versions, or because the miniport driver did not specify that its NIC is a bus-master DMA
        device. A miniport driver specifies its NDIS version when it calls 
-       <a href="https://msdn.microsoft.com/bed68aa8-499d-41fd-997b-a46316913cc8">
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismregisterminiportdriver">
        NdisMRegisterMiniportDriver</a>. A miniport driver specifies that it supports bus-master DMA
        devices when it calls 
-       <a href="https://msdn.microsoft.com/861626af-23ea-40dc-a91a-7da42d4b0a1c">
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismsetminiportattributes">
        NdisMSetMiniportAttributes</a>.
 
 </td>
@@ -247,7 +247,7 @@ The current version of NDIS does not support the version specified in the
 
 An NDIS bus-master miniport driver calls 
     <b>NdisMRegisterScatterGatherDma</b> within its 
-    <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> function to
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> function to
     initialize resources for scatter/gather DMA operations. The 
     <i>DmaDescription</i> parameter that the miniport driver passes to 
     <b>NdisMRegisterScatterGatherDma</b> contains the information that NDIS uses to initialize the
@@ -260,9 +260,9 @@ An NDIS bus-master miniport driver calls
 The 
     <b>ProcessSGListHandler</b> member in the 
     <i>DmaDescription</i> parameter defines the entry point in the miniport driver for the 
-    <a href="https://msdn.microsoft.com/ddd5d14f-f886-40d0-9fc8-eeb37da63ebd">MiniportProcessSGList</a> function.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_process_sg_list">MiniportProcessSGList</a> function.
     When a miniport driver calls 
-    <a href="https://msdn.microsoft.com/3fd8d121-a249-433a-a93d-4027a4bfcb61">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismallocatenetbuffersglist">
     NdisMAllocateNetBufferSGList</a>, NDIS calls HAL to provide the scatter/gather list to the miniport
     driver. HAL calls 
     <i>MiniportProcessSGList</i> after HAL finishes building the scatter/gather list. NDIS can call 
@@ -274,12 +274,12 @@ The
     functions.
 
 Bus-master miniport drivers call 
-    <a href="https://msdn.microsoft.com/ccbe98ca-7da9-4159-ac1a-c25ec6745ff4">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismallocatesharedmemoryasyncex">
     NdisMAllocateSharedMemoryAsyncEx</a> to dynamically allocate shared memory for data transfer
     operations. This call is required when high network traffic causes the miniport driver to run low on the
     shared memory space that the driver allocated during initialization. If 
     <b>NdisMAllocateSharedMemoryAsyncEx</b> returns NDIS_STATUS_PENDING, NDIS calls the 
-    <a href="https://msdn.microsoft.com/d102a001-960c-4fe6-af2d-d740bba744b1">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_allocate_shared_mem_complete">
     MiniportSharedMemoryAllocateComplete</a> function to complete the operation at a later time. Miniport
     drivers specify the entry point for the 
     <i>MiniportSharedMemoryAllocateComplete</i> function in the 
@@ -287,7 +287,7 @@ Bus-master miniport drivers call
     <i>DmaDescription</i> parameter.
 
 Miniport drivers call the 
-    <a href="https://msdn.microsoft.com/44792a1f-c6d5-4491-a06d-e00e41e40059">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismderegisterscattergatherdma">
     NdisMDeregisterScatterGatherDma</a> function to deallocate the DMA resources that 
     <b>NdisMRegisterScatterGatherDma</b> allocated.
 
@@ -297,43 +297,43 @@ Miniport drivers call the
 ## -see-also
 
 
-<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/ddd5d14f-f886-40d0-9fc8-eeb37da63ebd">MiniportProcessSGList</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_process_sg_list">MiniportProcessSGList</a>
 
 
 
-<a href="https://msdn.microsoft.com/d102a001-960c-4fe6-af2d-d740bba744b1">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_allocate_shared_mem_complete">
    MiniportSharedMemoryAllocateComplete</a>
 
 
 
-<a href="https://msdn.microsoft.com/70b8321b-7b21-4d11-a9c2-46b0caa26ce6">NDIS Scatter/Gather DMA</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-scatter-gather-dma">NDIS Scatter/Gather DMA</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562776">NdisMAllocateNetBufferSGList</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismallocatenetbuffersglist">NdisMAllocateNetBufferSGList</a>
 
 
 
-<a href="https://msdn.microsoft.com/ccbe98ca-7da9-4159-ac1a-c25ec6745ff4">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismallocatesharedmemoryasyncex">
    NdisMAllocateSharedMemoryAsyncEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/44792a1f-c6d5-4491-a06d-e00e41e40059">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismderegisterscattergatherdma">
    NdisMDeregisterScatterGatherDma</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563654">NdisMRegisterMiniportDriver</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismregisterminiportdriver">NdisMRegisterMiniportDriver</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563672">NdisMSetMiniportAttributes</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismsetminiportattributes">NdisMSetMiniportAttributes</a>

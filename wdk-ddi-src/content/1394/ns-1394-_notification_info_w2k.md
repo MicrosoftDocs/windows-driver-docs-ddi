@@ -56,7 +56,7 @@ The bus driver passes NOTIFICATION_INFO to pass information to the driver-provid
 
 ### -field Mdl
 
-If non-<b>NULL</b>, <b>Mdl</b> specifies the <a href="https://msdn.microsoft.com/a1ec4764-4e11-4fb2-b439-ad6b721eb504">memory descriptor list (MDL)</a>  for the allocated address range.
+If non-<b>NULL</b>, <b>Mdl</b> specifies the <a href="https://docs.microsoft.com/windows-hardware/drivers/">memory descriptor list (MDL)</a>  for the allocated address range.
 
 
 ### -field ulOffset
@@ -88,7 +88,7 @@ Pointer to specific context data for this allocated address range. The driver su
 
 ### -field Fifo
 
-Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536904">ADDRESS_FIFO</a> structure that contains the FIFO element just completed. Only used if the driver submitted an ADDRESS_FIFO list in the original REQUEST_ALLOCATE_ADDRESS_RANGE request.
+Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/1394/ns-1394-_address_fifo">ADDRESS_FIFO</a> structure that contains the FIFO element just completed. Only used if the driver submitted an ADDRESS_FIFO list in the original REQUEST_ALLOCATE_ADDRESS_RANGE request.
 
 
 ### -field RequestPacket

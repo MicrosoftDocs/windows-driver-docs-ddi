@@ -46,7 +46,7 @@ req.typenames: NFC_CX_RF_DISCOVERY_CONFIG, *PNFC_CX_RF_DISCOVERY_CONFIG
 ## -description
 
 
-The <b>NFC_CX_RF_DISCOVERY_CONFIG</b> structure contains RF discovery configuration settings. Discovery configuration should be completed during initialization after calling <a href="https://msdn.microsoft.com/1E1AC024-D628-4E31-80EF-8E929B8449FE">NfcDxDeviceInitialize</a>, otherwise an error is returned.
+The <b>NFC_CX_RF_DISCOVERY_CONFIG</b> structure contains RF discovery configuration settings. Discovery configuration should be completed during initialization after calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/nfccx/nf-nfccx-nfccxdevicedeinitialize">NfcDxDeviceInitialize</a>, otherwise an error is returned.
 
 
 ## -struct-fields
@@ -68,35 +68,35 @@ This member corresponds to TOTAL_DURATION specified in the NCI specification. Va
 
 ### -field PollConfig
 
-Combination of <a href="https://msdn.microsoft.com/library/windows/hardware/dn905560">NFC_CX_POLL_MODE_CONFIG</a> values. 
+Combination of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/nfccx/ne-nfccx-_nfc_cx_poll_mode_config">NFC_CX_POLL_MODE_CONFIG</a> values. 
 
 This member enables configuration of poll mode settings. The default enables polling for passive poll NFC-A, passive poll NFC-B, and passive poll NFC-F (212 and 424k). Its recommended that NFC clients configure additional active modes if they are supported.
 
 
 ### -field NfcIPMode
 
- Combination of <a href="https://msdn.microsoft.com/library/windows/hardware/dn905547">NFC_CX_NFCIP_MODE_CONFIG</a> values.
+ Combination of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/nfccx/ne-nfccx-_nfc_cx_nfcip_mode_config">NFC_CX_NFCIP_MODE_CONFIG</a> values.
 
 This member enables configuration of NFC-IP initiator mode settings. The value corresponds to combination of NFC_CX_NFCIP_MODE_CONFIG enum. The default enables polling for passive poll NFC-A and passive poll NFC-F (212 and 424k) phases.
 
 
 ### -field NfcIPTgtMode
 
- Combination of <a href="https://msdn.microsoft.com/library/windows/hardware/dn905548">NFC_CX_NFCIP_TGT_MODE_CONFIG</a> values.
+ Combination of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/nfccx/ne-nfccx-_nfc_cx_nfcip_tgt_mode_config">NFC_CX_NFCIP_TGT_MODE_CONFIG</a> values.
 
 This member enables configuration of NFC-IP target mode settings. The default enables passive listen NFC-A and passive listen NFC-F phases.
 
 
 ### -field NfcCEMode
 
- Combination of <a href="https://msdn.microsoft.com/library/windows/hardware/dn905539">NFC_CX_CE_MODE_CONFIG</a> values. 
+ Combination of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/nfccx/ne-nfccx-_nfc_cx_ce_mode_config">NFC_CX_CE_MODE_CONFIG</a> values. 
 
 This member enables configuration of NFC-CE mode settings. The default enables passive listen NFC-A, passive listen NFC-B, and passive listen NFC-F phases.
 
 
 ### -field BailoutConfig
 
-Combination of <a href="https://msdn.microsoft.com/library/windows/hardware/dn905549">NFC_CX_POLL_BAILOUT_CONFIG</a> values. Default is disabled.
+Combination of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/nfccx/ne-nfccx-_nfc_cx_poll_bailout_config">NFC_CX_POLL_BAILOUT_CONFIG</a> values. Default is disabled.
 
 This member enables configuration of PA_BAIL_OUT and PB_BAIL_OUT as described in the NCI specification. 
 
@@ -106,7 +106,7 @@ This member enables configuration of PA_BAIL_OUT and PB_BAIL_OUT as described in
 
 
 
-<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
 
 
 

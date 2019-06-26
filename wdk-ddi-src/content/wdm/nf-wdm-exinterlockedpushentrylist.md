@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <b>ExInterlockedPushEntryList</b> routine atomically inserts an entry at the beginning of a singly linked list of <a href="https://msdn.microsoft.com/library/windows/hardware/ff563799">SINGLE_LIST_ENTRY</a> structures.
+The <b>ExInterlockedPushEntryList</b> routine atomically inserts an entry at the beginning of a singly linked list of <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_single_list_entry">SINGLE_LIST_ENTRY</a> structures.
 
 
 ## -parameters
@@ -56,17 +56,17 @@ The <b>ExInterlockedPushEntryList</b> routine atomically inserts an entry at the
 
 ### -param ListHead [in, out]
 
-A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563799">SINGLE_LIST_ENTRY</a> structure that serves as the list header.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_single_list_entry">SINGLE_LIST_ENTRY</a> structure that serves as the list header.
 
 
 ### -param ListEntry [in, out]
 
-A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563799">SINGLE_LIST_ENTRY</a> structure that represents the entry to be inserted into the list. 
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_single_list_entry">SINGLE_LIST_ENTRY</a> structure that represents the entry to be inserted into the list. 
 
 
 ### -param Lock [in, out]
 
-A pointer to a <b>KSPIN_LOCK</b> structure that serves as the spin lock used to synchronize access to the list. The storage for the spin lock must be resident and must have been initialized by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff552160">KeInitializeSpinLock</a>. You must use this spin lock only with the <b>ExInterlocked<i>Xxx</i>List</b> routines.
+A pointer to a <b>KSPIN_LOCK</b> structure that serves as the spin lock used to synchronize access to the list. The storage for the spin lock must be resident and must have been initialized by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-keinitializespinlock">KeInitializeSpinLock</a>. You must use this spin lock only with the <b>ExInterlocked<i>Xxx</i>List</b> routines.
 
 
 ## -returns
@@ -82,9 +82,9 @@ A pointer to a <b>KSPIN_LOCK</b> structure that serves as the spin lock used to 
 
 
 
-<b>ExInterlockedPushEntryList</b> performs the same operation as <a href="https://msdn.microsoft.com/library/windows/hardware/ff559964">PushEntryList</a>, but atomically. Do not mix atomic and non-atomic calls on the same list.
+<b>ExInterlockedPushEntryList</b> performs the same operation as <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-pushentrylist">PushEntryList</a>, but atomically. Do not mix atomic and non-atomic calls on the same list.
 
-For more information about using this routine to implement a singly linked list, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563802">Singly and Doubly Linked Lists</a>.
+For more information about using this routine to implement a singly linked list, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/singly-and-doubly-linked-lists">Singly and Doubly Linked Lists</a>.
 
 The <b>ExInterlockedPushEntryList</b> routine can be called at any IRQL. The storage for the <i>ListHead</i> parameter and the list entries must be resident at all IRQLs.
 
@@ -96,7 +96,7 @@ The <b>ExInterlockedPushEntryList</b> routine can be called at any IRQL. The sto
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545321">ExInitializeSListHead</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-initializeslisthead">ExInitializeSListHead</a>
 
 
 
@@ -108,15 +108,15 @@ The <b>ExInterlockedPushEntryList</b> routine can be called at any IRQL. The sto
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545422">ExInterlockedPushEntrySList</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-exinterlockedpushentryslist">ExInterlockedPushEntrySList</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552160">KeInitializeSpinLock</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-keinitializespinlock">KeInitializeSpinLock</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559964">PushEntryList</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-pushentrylist">PushEntryList</a>
  
 
  

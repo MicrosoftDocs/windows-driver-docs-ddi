@@ -90,7 +90,7 @@ For internal use only.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/350e715f-be36-4999-99a2-6175d9763b3f">Supporting Special Files</a>.
+For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/supporting-special-files">Supporting Special Files</a>.
 
 
 
@@ -100,7 +100,7 @@ For more information, see <a href="https://msdn.microsoft.com/350e715f-be36-4999
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546903">WdfDeviceSetSpecialFileSupport</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nf-wdfdevice-wdfdevicesetspecialfilesupport">WdfDeviceSetSpecialFileSupport</a>
  
 
  

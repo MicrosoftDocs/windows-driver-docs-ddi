@@ -47,7 +47,7 @@ req.typenames:
 
 
 The <b><i>AtaChannelInitRoutine</i></b> miniport driver routine initializes the miniport driver's channel interface.
-<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -parameters
 
@@ -61,7 +61,7 @@ A pointer to the miniport driver channel extension.
 
 ### -param ChannelInterface [in, out]
 
-A pointer to a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff559034">IDE_CHANNEL_INTERFACE</a>. 
+A pointer to a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/ns-irb-_ide_channel_interface">IDE_CHANNEL_INTERFACE</a>. 
 
 
 ### -param InitContext
@@ -91,15 +91,15 @@ A pointer to the controller extension.
 
 
 
-A vendor-supplied miniport driver that supports the channel interface must implement an <b><i>AtaChannelInitRoutine</i></b> routine to initialize the controller's channels. In particular, the <b><i>AtaChannelInitRoutine</i></b> routine must complete the initialization of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559034">IDE_CHANNEL_INTERFACE</a> structure. The following sequence describes how the miniport driver and the port driver interact to initialize a channel: 
+A vendor-supplied miniport driver that supports the channel interface must implement an <b><i>AtaChannelInitRoutine</i></b> routine to initialize the controller's channels. In particular, the <b><i>AtaChannelInitRoutine</i></b> routine must complete the initialization of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/ns-irb-_ide_channel_interface">IDE_CHANNEL_INTERFACE</a> structure. The following sequence describes how the miniport driver and the port driver interact to initialize a channel: 
 
 <ol>
 <li>
-While in its <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine, the miniport driver calls the port driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff550167">AtaPortInitializeEx</a> library routine to launch the initialization of the controller and the miniport driver. 
+While in its <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine, the miniport driver calls the port driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/nf-irb-ataportinitializeex">AtaPortInitializeEx</a> library routine to launch the initialization of the controller and the miniport driver. 
 
 </li>
 <li>
-If the miniport driver supports the channel interface, the <b><i>DriverEntry</i></b> routine must initialize the <b>AtaChannelInitRoutine</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff559039">IDE_CONTROLLER_INTERFACE</a> to point to the miniport driver's <b><i>AtaChannelInitRoutine</i></b> routine.
+If the miniport driver supports the channel interface, the <b><i>DriverEntry</i></b> routine must initialize the <b>AtaChannelInitRoutine</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/ns-irb-_ide_controller_interface">IDE_CONTROLLER_INTERFACE</a> to point to the miniport driver's <b><i>AtaChannelInitRoutine</i></b> routine.
 
 </li>
 <li>
@@ -115,15 +115,15 @@ The port driver calls the <b><i>AtaAdapterControl</i></b> routine by using contr
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550167">AtaPortInitializeEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/nf-irb-ataportinitializeex">AtaPortInitializeEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559034">IDE_CHANNEL_INTERFACE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/ns-irb-_ide_channel_interface">IDE_CHANNEL_INTERFACE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559039">IDE_CONTROLLER_INTERFACE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/ns-irb-_ide_controller_interface">IDE_CONTROLLER_INTERFACE</a>
  
 
  

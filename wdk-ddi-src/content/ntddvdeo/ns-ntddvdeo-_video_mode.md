@@ -46,7 +46,7 @@ req.typenames: VIDEO_MODE, *PVIDEO_MODE
 ## -description
 
 
-The VIDEO_MODE structure contains the requested VGA mode that an adapter should set. This structure is used in conjunction with <a href="https://msdn.microsoft.com/library/windows/hardware/ff567846">IOCTL_VIDEO_SET_CURRENT_MODE</a>. 
+The VIDEO_MODE structure contains the requested VGA mode that an adapter should set. This structure is used in conjunction with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddvdeo/ni-ntddvdeo-ioctl_video_set_current_mode">IOCTL_VIDEO_SET_CURRENT_MODE</a>. 
 
 
 ## -struct-fields

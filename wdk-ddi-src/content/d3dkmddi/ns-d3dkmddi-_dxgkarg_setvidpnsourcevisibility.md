@@ -46,7 +46,7 @@ req.typenames: DXGKARG_SETVIDPNSOURCEVISIBILITY
 ## -description
 
 
-The DXGKARG_SETVIDPNSOURCEVISIBILITY structure contains arguments for the <a href="https://msdn.microsoft.com/c94473b4-b898-456d-944d-8879adea16d1">DxgkDdiSetVidPnSourceVisibility</a> function.
+The DXGKARG_SETVIDPNSOURCEVISIBILITY structure contains arguments for the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_setvidpnsourcevisibility">DxgkDdiSetVidPnSourceVisibility</a> function.
 
 
 ## -struct-fields
@@ -63,7 +63,7 @@ An integer that identifies a video present source on the display adapter.
 
 A Boolean value that specifies whether the video output codec associated with the source must start scanning or stop scanning the source's primary surface. If <b>Visible</b> is <b>TRUE</b>, the codec must start scanning. 
 
-If <b>Visible</b> is <b>FALSE</b>, the codec must stop scanning. However, a VSync signal should be generated even if a call to the <a href="https://msdn.microsoft.com/c94473b4-b898-456d-944d-8879adea16d1">DxgkDdiSetVidPnSourceVisibility</a> function sets <b>Visible</b> to <b>FALSE</b>.
+If <b>Visible</b> is <b>FALSE</b>, the codec must stop scanning. However, a VSync signal should be generated even if a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_setvidpnsourcevisibility">DxgkDdiSetVidPnSourceVisibility</a> function sets <b>Visible</b> to <b>FALSE</b>.
 
 
 ## -see-also
@@ -71,7 +71,7 @@ If <b>Visible</b> is <b>FALSE</b>, the codec must stop scanning. However, a VSyn
 
 
 
-<a href="https://msdn.microsoft.com/c94473b4-b898-456d-944d-8879adea16d1">DxgkDdiSetVidPnSourceVisibility</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_setvidpnsourcevisibility">DxgkDdiSetVidPnSourceVisibility</a>
  
 
  

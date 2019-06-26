@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-Exposes a collection of <a href="https://msdn.microsoft.com/library/windows/hardware/hh406649">IPrinterExtensionContext</a> objects.
+Exposes a collection of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprinterextensioncontext">IPrinterExtensionContext</a> objects.
 
 
 ## -inheritance
@@ -67,7 +67,7 @@ The <b>IPrinterExtensionContextCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/139B2E3F-AA08-4400-9BBF-A549B9EB2643">get__NewEnum</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nf-printerextension-iprinterextensioncontextcollection-get__newenum">get__NewEnum</a>
 </td>
 <td align="left" width="63%">
 Gets a pointer to the enumerants of <b>IPrinterExtensionContextCollection</b> objects.
@@ -76,10 +76,10 @@ Gets a pointer to the enumerants of <b>IPrinterExtensionContextCollection</b> ob
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406567">GetAt</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/radio/hh406567(v=vs.85)">GetAt</a>
 </td>
 <td align="left" width="63%">
-Gets a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/hh406649">IPrinterExtensionContext</a> object.
+Gets a pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprinterextensioncontext">IPrinterExtensionContext</a> object.
 
 </td>
 </tr>
@@ -94,7 +94,7 @@ Gets a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardwar
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/hh406342(v=vs.85)">Count</a>
 
 
 </td>
@@ -103,7 +103,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Gets a count of the number of <a href="https://msdn.microsoft.com/library/windows/hardware/hh406649">IPrinterExtensionContext</a> objects in the collection.
+Gets a count of the number of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprinterextensioncontext">IPrinterExtensionContext</a> objects in the collection.
 
 </td>
 </tr>
@@ -115,15 +115,15 @@ Gets a count of the number of <a href="https://msdn.microsoft.com/library/window
 
 
 
-<a href="https://msdn.microsoft.com/ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406649">IPrinterExtensionContext</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprinterextensioncontext">IPrinterExtensionContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/947063C6-563A-4BB7-918E-479941B4583F">IPrinterExtensionEvent::OnPrinterQueuesEnumerated</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nf-printerextension-iprinterextensionevent-onprinterqueuesenumerated">IPrinterExtensionEvent::OnPrinterQueuesEnumerated</a>
  
 
  

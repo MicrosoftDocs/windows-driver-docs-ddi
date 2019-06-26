@@ -56,12 +56,12 @@ Describes device interface class information associated with a USB interface. Th
 
 ### -field FullSpeedClassInterface
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/mt187990">USBFN_CLASS_INTERFACE</a> structure that describes an interface for full speed device.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbfnbase/ns-usbfnbase-_usbfn_class_interface">USBFN_CLASS_INTERFACE</a> structure that describes an interface for full speed device.
 
 
 ### -field HighSpeedClassInterface
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/mt187990">USBFN_CLASS_INTERFACE</a> structure that describes an interface for high speed device.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbfnbase/ns-usbfnbase-_usbfn_class_interface">USBFN_CLASS_INTERFACE</a> structure that describes an interface for high speed device.
 
 
 ### -field InterfaceName
@@ -81,7 +81,7 @@ Determines whether the driver has published a device interface is GUID.
 
 ### -field SuperSpeedClassInterface
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/mt187990">USBFN_CLASS_INTERFACE</a> structure that describes an interface for SuperSpeed device.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbfnbase/ns-usbfnbase-_usbfn_class_interface">USBFN_CLASS_INTERFACE</a> structure that describes an interface for SuperSpeed device.
 
 
 #### - InterfaceGuid[MAX_INTERFACE_GUID_LENGTH]
@@ -99,15 +99,15 @@ A string that contains the interface name.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt187990">USBFN_CLASS_INTERFACE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbfnbase/ns-usbfnbase-_usbfn_class_interface">USBFN_CLASS_INTERFACE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545939">WdfDeviceCreateSymbolicLink</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nf-wdfdevice-wdfdevicecreatesymboliclink">WdfDeviceCreateSymbolicLink</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546878">WdfDeviceSetDeviceInterfaceState</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nf-wdfdevice-wdfdevicesetdeviceinterfacestate">WdfDeviceSetDeviceInterfaceState</a>
  
 
  

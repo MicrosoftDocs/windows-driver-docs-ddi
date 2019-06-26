@@ -60,7 +60,7 @@ req.typenames:
 
 Specifies the handle to the VC being named. This handle was supplied by NDIS when the VC was
      originally created with 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff561696">NdisCoCreateVc</a>, whether by the client in
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndiscocreatevc">NdisCoCreateVc</a>, whether by the client in
      preparation for making an outgoing call or by the call manager in preparation for dispatching an
      incoming call to the client.
 
@@ -136,7 +136,7 @@ NDIS could not allocate a buffer for the instance name.
 
 
 After initiating the setup of a VC with 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561696">NdisCoCreateVc</a>, a call manager or
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndiscocreatevc">NdisCoCreateVc</a>, a call manager or
     connection-oriented client can name the VC with 
     <b>NdisCoAssignInstanceName</b>. Calling 
     <b>NdisCoAssignInstanceName</b>, causes NDIS to assign the VC an instance name and register the instance
@@ -165,9 +165,9 @@ The caller can associate the returned instance name with the handle for the name
 
 The caller is responsible for freeing the buffer containing the returned instance name. After deleting
     the named VC with 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561698">NdisCoDeleteVc</a>, the caller must free the
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndiscodeletevc">NdisCoDeleteVc</a>, the caller must free the
     buffer with 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff562604">NdisFreeString</a>.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisfreestring">NdisFreeString</a>.
 
 
 
@@ -177,23 +177,23 @@ The caller is responsible for freeing the buffer containing the returned instanc
 
 
 
-<a href="https://msdn.microsoft.com/903bcdc5-9d42-4067-a054-057edc95ccf7">MiniportCoOidRequest</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_co_oid_request">MiniportCoOidRequest</a>
 
 
 
-<a href="https://msdn.microsoft.com/733d84f5-c1d4-42a0-a59b-4ba50247f165">MiniportOidRequest</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_oid_request">MiniportOidRequest</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561696">NdisCoCreateVc</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndiscocreatevc">NdisCoCreateVc</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561698">NdisCoDeleteVC</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndiscodeletevc">NdisCoDeleteVC</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562604">NdisFreeString</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisfreestring">NdisFreeString</a>
 
 
 

@@ -48,7 +48,7 @@ req.typenames: WDF_POWER_DEVICE_STATE, *PWDF_POWER_DEVICE_STATE
 
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
-The <b>WDF_POWER_DEVICE_STATE</b> enumeration identifies the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543162">device power states</a> that a device might support.
+The <b>WDF_POWER_DEVICE_STATE</b> enumeration identifies the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/device-power-states">device power states</a> that a device might support.
 
 
 ## -enum-fields
@@ -88,7 +88,7 @@ Represents the final time that the device enters the D3 device power state. Typi
 
 ### -field WdfPowerDevicePrepareForHibernation
 
-The device supports hibernation files, and the system is ready to hibernate by entering <a href="https://msdn.microsoft.com/2fd883b5-4e89-4ce9-b75a-b821348ac860">system state S4</a>. The driver must not turn off the device. For more information, see <a href="https://msdn.microsoft.com/350e715f-be36-4999-99a2-6175d9763b3f">Supporting Special Files</a>.
+The device supports hibernation files, and the system is ready to hibernate by entering <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/system-sleeping-states">system state S4</a>. The driver must not turn off the device. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/supporting-special-files">Supporting Special Files</a>.
 
 
 ### -field WdfPowerDeviceMaximum
@@ -101,11 +101,11 @@ The maximum enumerator value for this enumeration.
 
 
 
-<a href="https://msdn.microsoft.com/0cfabb0f-2d5e-4445-8683-d2916de5b549">EvtDeviceD0Entry</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nc-wdfdevice-evt_wdf_device_d0_entry">EvtDeviceD0Entry</a>
 
 
 
-<a href="https://msdn.microsoft.com/bc3af732-f9ab-43a4-bc6f-7fa0b4c05a66">EvtDeviceD0Exit</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nc-wdfdevice-evt_wdf_device_d0_exit">EvtDeviceD0Exit</a>
  
 
  

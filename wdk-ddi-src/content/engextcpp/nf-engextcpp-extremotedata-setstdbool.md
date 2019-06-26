@@ -52,151 +52,151 @@ The <b>ExtRemoteData</b> class includes the following constructors and methods:
 <dl>
 <dd>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544008">ExtRemoteData</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-extremotedata-extremotedata(pcstr_ulong64_ulong)">ExtRemoteData</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/a335f881-7b6f-4069-87fe-c036867b0c77">Set(Typed)</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-extremotedata-set(constdebug_typed_data)">Set(Typed)</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/50b4bee4-3a8c-45a1-9a3f-b416aa8a19e5">Set(Offset Bytes)</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-extremotedata-set">Set(Offset Bytes)</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439702">Read</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nf-printerextension-iprinterscriptablesequentialstream-read">Read</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439706">Write</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nf-printerextension-iprinterscriptablesequentialstream-write">Write</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn949631">GetData</a>
+<a href="https://docs.microsoft.com/windows-hardware/test/hlk/testref/9be92a88-98d7-496e-ac6c-0a59432a89d5">GetData</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/bf916e7c-f03b-4d02-8260-bc90e8957cc9">GetChar</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-extremotedata-getchar">GetChar</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/2c4b7f40-210a-44fa-b7d4-150355d6b75b">GetUchar</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-extremotedata-getuchar">GetUchar</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/7a580683-ae56-4566-95b4-b4d42ae0e1ab">GetBoolean</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-extremotedata-getboolean">GetBoolean</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/f6a55181-7e1a-4af0-ac45-1991c42cdc87">GetStdBool</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-extremotedata-getstdbool">GetStdBool</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/a17812f5-4e20-4793-9352-3cabed25a6da">GetW32Bool</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-extremotedata-getw32bool">GetW32Bool</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/5e364e83-76db-44b0-b5bc-15eed53bbbdf">GetShort</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-extremotedata-getshort">GetShort</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/e5e2061f-5133-4645-8e07-659f08473a51">GetUshort</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-extremotedata-getushort">GetUshort</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/064f50e7-bae8-4c29-9802-47efdb749652">GetLong</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-extremotedata-getlong">GetLong</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983420">GetUlong</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/extsfns/nf-extsfns-idebugfailureanalysis2-getulong">GetUlong</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/dd6f051a-d287-4cb9-8c53-928415e0f152">GetLong64</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-extremotedata-getlong64">GetLong64</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983421">GetUlong64</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/extsfns/nf-extsfns-idebugfailureanalysis2-getulong64">GetUlong64</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/f2781f6b-cc3e-427c-8181-908639613270">GetFloat</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-extremotedata-getfloat">GetFloat</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/f8645e92-659f-42b8-a850-49a434ec2a67">GetDouble</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-extremotedata-getdouble">GetDouble</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/9f796af1-870b-4349-b86a-3c9d868662f6">GetLongPtr</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-extremotedata-getlongptr">GetLongPtr</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/1a3a870b-9f50-4430-b4f4-6d877d2fac3e">GetUlongPtr</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-extremotedata-getulongptr">GetUlongPtr</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/f9778881-9b53-49c5-9fe8-80f9a866b9af">GetPtr</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-extremotedata-getptr">GetPtr</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/1ad13196-a133-4168-9a36-1f7e4ed5c4f1">ReadBuffer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-extremotedata-readbuffer">ReadBuffer</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/b50f0cf3-4cd5-4f9e-9749-49b1c9365a8f">WriteBuffer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-extremotedata-writebuffer">WriteBuffer</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983419">GetString</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/extsfns/nf-extsfns-idebugfailureanalysis2-getstring">GetString</a>
 
 
 </dd>
@@ -215,24 +215,24 @@ public:
 <dl>
 <dt><a id="m_Name"></a><a id="m_name"></a><a id="M_NAME"></a><b>m_Name</b></dt>
 <dd>
-The name given to this instance of <b>ExtRemoteData</b>.  This name is used to provide meaningful error messages and is set by the constructor, <a href="https://msdn.microsoft.com/library/windows/hardware/ff544006">ExtRemoteData::ExtRemoteData</a>.
+The name given to this instance of <b>ExtRemoteData</b>.  This name is used to provide meaningful error messages and is set by the constructor, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-extremotedata-extremotedata">ExtRemoteData::ExtRemoteData</a>.
 
 </dd>
 <dt><a id="m_Offset"></a><a id="m_offset"></a><a id="M_OFFSET"></a><b>m_Offset</b></dt>
 <dd>
-The location in the target's memory (virtual or physical) of the region of memory represented by this instance of <b>ExtRemoteData</b>.  It can be set by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544006">ExtRemoteData::ExtRemoteData</a> constructor or by the <a href="https://msdn.microsoft.com/a335f881-7b6f-4069-87fe-c036867b0c77">ExtRemoteData::Set(Typed)</a> or <a href="https://msdn.microsoft.com/50b4bee4-3a8c-45a1-9a3f-b416aa8a19e5">ExtRemoteData::Set(Offset Bytes)</a> methods.
+The location in the target's memory (virtual or physical) of the region of memory represented by this instance of <b>ExtRemoteData</b>.  It can be set by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-extremotedata-extremotedata">ExtRemoteData::ExtRemoteData</a> constructor or by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-extremotedata-set(constdebug_typed_data)">ExtRemoteData::Set(Typed)</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-extremotedata-set">ExtRemoteData::Set(Offset Bytes)</a> methods.
 
 </dd>
 <dt><a id="m_ValidOffset"></a><a id="m_validoffset"></a><a id="M_VALIDOFFSET"></a><b>m_ValidOffset</b></dt>
 <dd>
-Indicates whether the <b>m_Offset</b>location is valid.  If <b>m_ValidOffset</b> is <code>false</code>, the location is not valid and most of the methods for this object will not work. In this case, the <a href="https://msdn.microsoft.com/a335f881-7b6f-4069-87fe-c036867b0c77">ExtRemoteData::Set(Typed)</a> or <a href="https://msdn.microsoft.com/50b4bee4-3a8c-45a1-9a3f-b416aa8a19e5">ExtRemoteData::Set(Offset Bytes)</a> methods can be called to change <b>m_Offset</b> to a valid location.
+Indicates whether the <b>m_Offset</b>location is valid.  If <b>m_ValidOffset</b> is <code>false</code>, the location is not valid and most of the methods for this object will not work. In this case, the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-extremotedata-set(constdebug_typed_data)">ExtRemoteData::Set(Typed)</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-extremotedata-set">ExtRemoteData::Set(Offset Bytes)</a> methods can be called to change <b>m_Offset</b> to a valid location.
 
 </dd>
 <dt><a id="m_Bytes"></a><a id="m_bytes"></a><a id="M_BYTES"></a><b>m_Bytes</b></dt>
 <dd>
 The size, in bytes, of the region of memory represented by this object.  It can be set by the
-	  <a href="https://msdn.microsoft.com/library/windows/hardware/ff544006">ExtRemoteData::ExtRemoteData</a> constructor
-	  or by the <a href="https://msdn.microsoft.com/a335f881-7b6f-4069-87fe-c036867b0c77">ExtRemoteData::Set(Typed)</a> or <a href="https://msdn.microsoft.com/50b4bee4-3a8c-45a1-9a3f-b416aa8a19e5">ExtRemoteData::Set(Offset Bytes)</a> methods.
+	  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-extremotedata-extremotedata">ExtRemoteData::ExtRemoteData</a> constructor
+	  or by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-extremotedata-set(constdebug_typed_data)">ExtRemoteData::Set(Typed)</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-extremotedata-set">ExtRemoteData::Set(Offset Bytes)</a> methods.
 
 </dd>
 <dt><a id="m_Data"></a><a id="m_data"></a><a id="M_DATA"></a><b>m_Data</b></dt>
@@ -242,7 +242,7 @@ The cached contents of the region of memory specified by this instance of <b>Ext
 </dd>
 <dt><a id="m_ValidData"></a><a id="m_validdata"></a><a id="M_VALIDDATA"></a><b>m_ValidData</b></dt>
 <dd>
-Indicates whether the <b>m_Data </b>cached data is valid.  If <b>m_ValidData</b> is <code>false</code>, the cached data is not valid and most of the methods for this object will not work. In this case, the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544083">ExtRemoteData::Read</a> method can be called to refresh the cached data.
+Indicates whether the <b>m_Data </b>cached data is valid.  If <b>m_ValidData</b> is <code>false</code>, the cached data is not valid and most of the methods for this object will not work. In this case, the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-extremotedata-read">ExtRemoteData::Read</a> method can be called to refresh the cached data.
 
 </dd>
 <dt><a id="m_Physical"></a><a id="m_physical"></a><a id="M_PHYSICAL"></a><b>m_Physical</b></dt>
@@ -252,7 +252,7 @@ Indicates whether the <b>m_Offset</b> location is in the target's virtual addres
 </dd>
 <dt><a id="m_SpaceFlags"></a><a id="m_spaceflags"></a><a id="M_SPACEFLAGS"></a><b>m_SpaceFlags</b></dt>
 <dd>
-The DEBUG_PHYSICAL_<i>XXX</i> flags used for accessing physical memory on the target.  These flags are only used if <b>m_Physical</b> is <code>true</code>.  For a description of these flags, see the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554311">ReadPhysical2</a> method.
+The DEBUG_PHYSICAL_<i>XXX</i> flags used for accessing physical memory on the target.  These flags are only used if <b>m_Physical</b> is <code>true</code>.  For a description of these flags, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugdataspaces4-readphysical2">ReadPhysical2</a> method.
 
 </dd>
 </dl>
@@ -262,15 +262,15 @@ The DEBUG_PHYSICAL_<i>XXX</i> flags used for accessing physical memory on the ta
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/a335f881-7b6f-4069-87fe-c036867b0c77">ExtRemoteData::Set(Typed)</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-extremotedata-set(constdebug_typed_data)">ExtRemoteData::Set(Typed)</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554311">ReadPhysical2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugdataspaces4-readphysical2">ReadPhysical2</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544006">ExtRemoteData::ExtRemoteData</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-extremotedata-extremotedata">ExtRemoteData::ExtRemoteData</a>
 
-<a href="https://msdn.microsoft.com/50b4bee4-3a8c-45a1-9a3f-b416aa8a19e5">ExtRemoteData::Set(Offset Bytes)</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-extremotedata-set">ExtRemoteData::Set(Offset Bytes)</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544083">ExtRemoteData::Read</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-extremotedata-read">ExtRemoteData::Read</a>
 
  
 

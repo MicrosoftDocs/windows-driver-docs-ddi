@@ -73,7 +73,7 @@ This function is useful only to vga.sys, which is a system-supplied video minipo
 
 If <b>VideoPortIsNoVesa</b> returns <b>TRUE</b>, then the video miniport driver must access the display adapter only through legacy VGA resources (I/O 3B0 through 3DF; memory A0000 through BFFFF). Specifically, if <b>VideoPortIsNoVesa</b> returns <b>TRUE</b>, the video miniport driver must not attempt to call the Int10 functions, which are implemented by the video port driver.
 
-For more information about the Int10 functions, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff567732">Int10 Functions Implemented by the Video Port Driver</a>. 
+For more information about the Int10 functions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">Int10 Functions Implemented by the Video Port Driver</a>. 
 
 
 

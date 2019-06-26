@@ -47,9 +47,9 @@ req.typenames:
 
 
 
-A kernel-mode client can use IOCTL_KS_HANDSHAKE to negotiate an interface between unconnected AVStream pins. The client calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff567142">KsSynchronousDeviceControl</a> with IOCTL_KS_HANDSHAKE and the parameters described below.
+A kernel-mode client can use IOCTL_KS_HANDSHAKE to negotiate an interface between unconnected AVStream pins. The client calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nf-ksproxy-kssynchronousdevicecontrol">KsSynchronousDeviceControl</a> with IOCTL_KS_HANDSHAKE and the parameters described below.
 
-To attempt a protocol handshake with a pin that is already connected, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff563519">KsPinHandshake</a>.
+To attempt a protocol handshake with a pin that is already connected, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-kspinhandshake">KsPinHandshake</a>.
 
 
 
@@ -61,7 +61,7 @@ To attempt a protocol handshake with a pin that is already connected, call <a hr
 
 ### -input-buffer
 
-The client places a pointer to a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff562673">KSHANDSHAKE</a> in the <b>InBuffer</b> parameter. 
+The client places a pointer to a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-kshandshake">KSHANDSHAKE</a> in the <b>InBuffer</b> parameter. 
 
 
 ### -input-buffer-length
@@ -71,7 +71,7 @@ The client places a pointer to a structure of type <a href="https://msdn.microso
 
 ### -output-buffer
 
-The client places a pointer to a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff562673">KSHANDSHAKE</a> in the <b>OutBuffer</b> parameter. If the request is successful, handshake information is placed in this location.
+The client places a pointer to a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-kshandshake">KSHANDSHAKE</a> in the <b>OutBuffer</b> parameter. If the request is successful, handshake information is placed in this location.
 
 
 ### -output-buffer-length
@@ -111,19 +111,19 @@ If the <b>InLength</b> and <b>OutLength</b> parameters in the call to <b>KsSynch
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556338">AVStrMiniPinHandshake</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nc-ks-pfnkspinhandshake">AVStrMiniPinHandshake</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562673">KSHANDSHAKE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-kshandshake">KSHANDSHAKE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563519">KsPinHandshake</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-kspinhandshake">KsPinHandshake</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563523">KsPinRegisterHandshakeCallback</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-kspinregisterhandshakecallback">KsPinRegisterHandshakeCallback</a>
  
 
  

@@ -48,7 +48,7 @@ req.typenames:
 ## -description
 
 
-The <b>OutputVersionInformation</b> method prints version information about the <a href="https://msdn.microsoft.com/fa52a1f0-9397-48a5-acbd-ce5347c0baef">debugger engine</a> to the debugger console.
+The <b>OutputVersionInformation</b> method prints version information about the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/introduction">debugger engine</a> to the debugger console.
 
 
 ## -parameters
@@ -58,14 +58,14 @@ The <b>OutputVersionInformation</b> method prints version information about the 
 
 ### -param OutputControl [in]
 
-Specifies where to send the output.  For possible values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff541517">DEBUG_OUTCTL_XXX</a>.
+Specifies where to send the output.  For possible values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-outctl-xxx">DEBUG_OUTCTL_XXX</a>.
 
 
 ## -returns
 
 
 
-This method may also return other error values, including error values caused by the engine being busy.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+This method may also return other error values, including error values caused by the engine being busy.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 <table>
 <tr>
@@ -95,7 +95,7 @@ The method was successful.
 
 The information that is sent to the output can include the mode of the debugger, the path and version of the debugger DLLs, the extension DLL search path, the extension DLL chain, and the version of the operating system that is running on the host computer.
 
-For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558860">Target Information</a>.
+For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/target-information">Target Information</a>.
 
 
 

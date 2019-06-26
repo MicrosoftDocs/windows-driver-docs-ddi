@@ -151,7 +151,7 @@ The value of the <i>ReparseRequired</i> parameter assumes significance only if S
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549862">MRxCreate</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/mrxcreate">MRxCreate</a>
  
 
  

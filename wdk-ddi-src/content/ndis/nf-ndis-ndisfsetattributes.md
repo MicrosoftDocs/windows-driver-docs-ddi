@@ -71,7 +71,7 @@ The caller-allocated context area for this filter module.
 ### -param FilterAttributes [in]
 
 A pointer to a filter driver allocated 
-     <a href="https://msdn.microsoft.com/a377d809-4a6f-413e-a26a-446b4eca85ab">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_filter_attributes">
      NDIS_FILTER_ATTRIBUTES</a> structure.
 
 
@@ -138,7 +138,7 @@ A filter driver calls
     <i>FilterModuleContext</i> parameter of 
     <b>NdisFSetAttributes</b> specifies the context area for this filter module. NDIS passes the context area
     back to the filter driver in calls to functions such as 
-    <a href="https://msdn.microsoft.com/1b3fc0c8-95da-47e5-8ff1-b7967f5148e7">FilterSendNetBufferLists</a>.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_send_net_buffer_lists">FilterSendNetBufferLists</a>.
 
 
 
@@ -152,11 +152,11 @@ A filter driver calls
 
 
 
-<a href="https://msdn.microsoft.com/1b3fc0c8-95da-47e5-8ff1-b7967f5148e7">FilterSendNetBufferLists</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_send_net_buffer_lists">FilterSendNetBufferLists</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565484">NDIS_FILTER_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_filter_attributes">NDIS_FILTER_ATTRIBUTES</a>
  
 
  

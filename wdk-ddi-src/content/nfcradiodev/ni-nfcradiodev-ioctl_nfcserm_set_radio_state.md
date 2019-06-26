@@ -57,7 +57,7 @@ This IOCTL is used by the SE radio management application or service to query th
 ### -input-buffer
 
 
-<a href="https://msdn.microsoft.com/22FE29AC-790D-40D2-949F-9C132F67AEAB"> NFCRM_SET_RADIO_STATE structure</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/nfcradiodev/ns-nfcradiodev-_nfcrm_set_radio_state"> NFCRM_SET_RADIO_STATE structure</a>
 
 
 

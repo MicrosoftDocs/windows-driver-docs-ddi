@@ -58,7 +58,7 @@ Registers the event trace provider. The driver should call this function before 
 
 A pointer to a callback function that returns information about the current state of the user-mode driver.
 
-This callback function should call the <a href="https://msdn.microsoft.com/library/windows/hardware/jj542437">UMDEtwLogMapAllocation</a> function for every current allocation mapping.
+This callback function should call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/umdprovider/nf-umdprovider-umdetwlogmapallocation">UMDEtwLogMapAllocation</a> function for every current allocation mapping.
 
 
 ## -returns
@@ -146,18 +146,18 @@ FORCEINLINE void UMDEtwRegister(PFNUMDETW_RUNDOWN RundownCb)
 }
 ```
 
-The <a href="https://msdn.microsoft.com/6025c3a6-7d88-49dc-bbc3-655c172dde3c">EventRegister</a> function and the <b>EVENT_CONTROL_CODE_XXX</b> values are  described in the <a href="https://msdn.microsoft.com/c10baa8d-50b9-4fda-89d0-d00b1d9f5404">Windows Events</a> documentation.
+The <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nf-evntprov-eventregister">EventRegister</a> function and the <b>EVENT_CONTROL_CODE_XXX</b> values are  described in the <a href="https://docs.microsoft.com/windows/desktop/Events/windows-events">Windows Events</a> documentation.
 
 ## -see-also
 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj542437">UMDEtwLogMapAllocation</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/umdprovider/nf-umdprovider-umdetwlogmapallocation">UMDEtwLogMapAllocation</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj542440">UMDEtwUnregister</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/umdprovider/nf-umdprovider-umdetwunregister">UMDEtwUnregister</a>
  
 
  

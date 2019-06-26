@@ -149,7 +149,7 @@ Make sure that the specified auxiliary counter value is within +/- 10s compared 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt146561">KeConvertPerformanceCounterToAuxiliaryCounter</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-keconvertperformancecountertoauxiliarycounter">KeConvertPerformanceCounterToAuxiliaryCounter</a>
  
 
  

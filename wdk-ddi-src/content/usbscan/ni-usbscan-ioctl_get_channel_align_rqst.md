@@ -69,7 +69,7 @@ Zero.
 
 ### -output-buffer
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff539466">CHANNEL_INFO</a> structure.
+Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbscan/ns-usbscan-_channel_info">CHANNEL_INFO</a> structure.
 
 
 ### -output-buffer-length
@@ -97,7 +97,7 @@ Size of the output buffer.
 
 ### -status-block
 
-<b>Irp->IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> code. 
+<b>Irp->IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> code. 
 
 
 ## -remarks
@@ -107,9 +107,9 @@ Size of the output buffer.
 <h3><a id="ddk_ioctl_get_channel_align_rqst_si"></a><a id="DDK_IOCTL_GET_CHANNEL_ALIGN_RQST_SI"></a>DeviceIoControl Parameters</h3>
 
 
-When the <b>DeviceloControl</b> function is called with the IOCTL_GET_CHANNEL_ALIGN_RQST I/O control code, the caller must specify the address of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff539466">CHANNEL_INFO</a> structure as the function's <i>lpOutBuffer</i> parameter. The kernel-mode driver fills in the structure.
+When the <b>DeviceloControl</b> function is called with the IOCTL_GET_CHANNEL_ALIGN_RQST I/O control code, the caller must specify the address of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbscan/ns-usbscan-_channel_info">CHANNEL_INFO</a> structure as the function's <i>lpOutBuffer</i> parameter. The kernel-mode driver fills in the structure.
 
-For more information, see <a href="https://msdn.microsoft.com/f9216d3c-4930-4c26-8eac-6ee500b038e0">Accessing Kernel-Mode Drivers for Still Image Devices</a>.
+For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/image/accessing-kernel-mode-drivers-for-still-image-devices">Accessing Kernel-Mode Drivers for Still Image Devices</a>.
 
 
 

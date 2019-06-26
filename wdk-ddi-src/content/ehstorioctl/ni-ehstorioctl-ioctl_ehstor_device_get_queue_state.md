@@ -138,7 +138,7 @@ One of the following values can be returned in the <b>Status</b> field.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451430">IOCTL_EHSTOR_DEVICE_SET_QUEUE_STATE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ehstorioctl/ni-ehstorioctl-ioctl_ehstor_device_set_queue_state">IOCTL_EHSTOR_DEVICE_SET_QUEUE_STATE</a>
  
 
  

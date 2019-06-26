@@ -56,7 +56,7 @@ This callback is invoked when the context object reaches a reference count of ze
 
 ### -param SiloContext [in]
 
-A pointer provided by the user with the call to <a href="https://msdn.microsoft.com/library/windows/hardware/mt735058">PsCreateSiloContext</a>.
+A pointer provided by the user with the call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-pscreatesilocontext">PsCreateSiloContext</a>.
 
 
 ## -returns

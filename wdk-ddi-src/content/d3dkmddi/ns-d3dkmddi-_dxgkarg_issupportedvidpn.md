@@ -46,7 +46,7 @@ req.typenames: DXGKARG_ISSUPPORTEDVIDPN
 ## -description
 
 
-The DXGKARG_ISSUPPORTEDVIDPN structure contains arguments for the <a href="https://msdn.microsoft.com/96e96366-6306-4d20-8752-e942f2ed4069">DxgkDdiIsSupportedVidPn</a> function. The <i>DxgkDdiIsSupportedVidPn</i> function determines whether a specified video present network (VidPN) is supported on a display adapter.
+The DXGKARG_ISSUPPORTEDVIDPN structure contains arguments for the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_issupportedvidpn">DxgkDdiIsSupportedVidPn</a> function. The <i>DxgkDdiIsSupportedVidPn</i> function determines whether a specified video present network (VidPN) is supported on a display adapter.
 
 
 ## -struct-fields
@@ -69,7 +69,7 @@ A Boolean variable that receives <b>TRUE</b> if the VidPN is supported and <b>FA
 
 
 
-<a href="https://msdn.microsoft.com/96e96366-6306-4d20-8752-e942f2ed4069">DxgkDdiIsSupportedVidPn</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_issupportedvidpn">DxgkDdiIsSupportedVidPn</a>
  
 
  

@@ -114,7 +114,7 @@ The following code example removes a specified object from a specified object co
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545792">WdfCollectionRemoveItem</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfcollection/nf-wdfcollection-wdfcollectionremoveitem">WdfCollectionRemoveItem</a>
  
 
  

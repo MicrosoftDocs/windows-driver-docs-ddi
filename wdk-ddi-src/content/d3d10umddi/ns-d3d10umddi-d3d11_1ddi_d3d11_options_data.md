@@ -61,7 +61,7 @@ Specifies whether logic operations are available in the blend state. The user-mo
 
 ### -field AssignDebugBinarySupport
 
-Specifies whether the driver supports the <a href="https://msdn.microsoft.com/eb1e3c27-71c1-4920-9aa4-3253306fa3f4">AssignDebugBinary</a> function, which provides the full shader binary that is available after shader creation.
+Specifies whether the driver supports the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_assigndebugbinary">AssignDebugBinary</a> function, which provides the full shader binary that is available after shader creation.
 
 
 ## -see-also
@@ -69,7 +69,7 @@ Specifies whether the driver supports the <a href="https://msdn.microsoft.com/eb
 
 
 
-<a href="https://msdn.microsoft.com/eb1e3c27-71c1-4920-9aa4-3253306fa3f4">AssignDebugBinary</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_assigndebugbinary">AssignDebugBinary</a>
  
 
  

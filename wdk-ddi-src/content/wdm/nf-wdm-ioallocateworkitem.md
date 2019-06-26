@@ -56,14 +56,14 @@ The <b>IoAllocateWorkItem</b> routine allocates a work item.
 
 ### -param DeviceObject [in]
 
-Pointer to the caller's driver object or to one of the caller's device objects. If the caller will later pass the work item to <a href="https://msdn.microsoft.com/library/windows/hardware/ff549466">IoQueueWorkItem</a>, <i>DeviceObject</i> must point to a device object.
+Pointer to the caller's driver object or to one of the caller's device objects. If the caller will later pass the work item to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ioqueueworkitem">IoQueueWorkItem</a>, <i>DeviceObject</i> must point to a device object.
 
 
 ## -returns
 
 
 
-<b>IoAllocateWorkItem</b> returns a pointer to the allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff550679">IO_WORKITEM</a> structure. The routine returns <b>NULL</b> if sufficient resources do not exist.
+<b>IoAllocateWorkItem</b> returns a pointer to the allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">IO_WORKITEM</a> structure. The routine returns <b>NULL</b> if sufficient resources do not exist.
 
 
 
@@ -72,11 +72,11 @@ Pointer to the caller's driver object or to one of the caller's device objects. 
 
 
 
-The driver must free the work item that is returned by <b>IoAllocateWorkItem</b> by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff549133">IoFreeWorkItem</a>.
+The driver must free the work item that is returned by <b>IoAllocateWorkItem</b> by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iofreeworkitem">IoFreeWorkItem</a>.
 
-<b>IoAllocateWorkItem</b> both allocates and initializes a work item. A related routine, <a href="https://msdn.microsoft.com/library/windows/hardware/ff549349">IoInitializeWorkItem</a>, initializes a work item in storage that the driver has previously allocated. Do not call <b>IoInitializeWorkItem</b> to initialize a work item that was allocated by <b>IoAllocateWorkItem</b>.
+<b>IoAllocateWorkItem</b> both allocates and initializes a work item. A related routine, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ioinitializeworkitem">IoInitializeWorkItem</a>, initializes a work item in storage that the driver has previously allocated. Do not call <b>IoInitializeWorkItem</b> to initialize a work item that was allocated by <b>IoAllocateWorkItem</b>.
 
-For more information about work items, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff564587">System Worker Threads</a>.
+For more information about work items, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/system-worker-threads">System Worker Threads</a>.
 
 
 
@@ -86,23 +86,23 @@ For more information about work items, see <a href="https://msdn.microsoft.com/l
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550679">IO_WORKITEM</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">IO_WORKITEM</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549133">IoFreeWorkItem</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iofreeworkitem">IoFreeWorkItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549349">IoInitializeWorkItem</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ioinitializeworkitem">IoInitializeWorkItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549466">IoQueueWorkItem</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ioqueueworkitem">IoQueueWorkItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549474">IoQueueWorkItemEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ioqueueworkitemex">IoQueueWorkItemEx</a>
  
 
  

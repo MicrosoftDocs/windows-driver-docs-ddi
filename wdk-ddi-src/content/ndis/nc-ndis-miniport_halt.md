@@ -48,7 +48,7 @@ req.typenames:
 
 NDIS calls a miniport driver's 
    <i>MiniportHaltEx</i> function to free resources when a miniport adapter is
-   removed, and to stop the hardware. This function puts the miniport into the Halted state, where no other callback can occur (including <a href="https://msdn.microsoft.com/7c88ff02-e791-4642-ad40-78f2ef2cba7d">MiniportShutdownEx</a>). For more information about miniport driver states, see <a href="https://msdn.microsoft.com/b47e2cbe-9da3-4600-9afe-b082e60b87fb">Miniport Adapter States and Operations</a>.
+   removed, and to stop the hardware. This function puts the miniport into the Halted state, where no other callback can occur (including <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_shutdown">MiniportShutdownEx</a>). For more information about miniport driver states, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/miniport-adapter-states-and-operations">Miniport Adapter States and Operations</a>.
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>MINIPORT_HALT</b> type. For more information,
    see the following Examples section.</div><div> </div>
 
@@ -60,7 +60,7 @@ NDIS calls a miniport driver's
 ### -param MiniportAdapterContext [in]
 
 A handle to a context area that the miniport driver allocated in its 
-     <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> function.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> function.
      The miniport driver uses this context area to maintain state information for a miniport adapter.
 
 
@@ -82,7 +82,7 @@ NDIS is halting the miniport adapter in response to a Plug and Play (PnP) remove
 #### NdisHaltDeviceInstanceDeInitialized
 
 NDIS is halting the miniport adapter in response to an intermediate driver calling the 
-       <a href="https://msdn.microsoft.com/badfab43-ba58-4711-a181-af87dcfeba4d">
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisimdeinitializedeviceinstance">
        NdisIMDeInitializeDeviceInstance</a> function.
 
 
@@ -103,7 +103,7 @@ The miniport adapter has been surprise removed and the hardware is not present.
 
 The miniport adapter is being removed because of a hardware failure. Either the miniport driver
        called the 
-       <a href="https://msdn.microsoft.com/library/windows/hardware/ff563661">NdisMRemoveMiniport</a> function or a
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismremoveminiport">NdisMRemoveMiniport</a> function or a
        bus driver did not power up the NIC on resume.
 
 
@@ -111,7 +111,7 @@ The miniport adapter is being removed because of a hardware failure. Either the 
 #### NdisHaltDeviceInitializationFailed
 
 NDIS could not initialize the miniport adapter for an unknown reason after the 
-       <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> function completed successfully.
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> function completed successfully.
 
 
 
@@ -135,20 +135,20 @@ None
 
 A driver specifies the 
     <i>MiniportHaltEx</i> entry point when it calls the 
-    <a href="https://msdn.microsoft.com/bed68aa8-499d-41fd-997b-a46316913cc8">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismregisterminiportdriver">
     NdisMRegisterMiniportDriver</a> function.
 
 NDIS can call 
     <i>MiniportHaltEx</i> at any time after a driver's 
-    <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> function
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> function
     returns successfully. If the driver controls a physical NIC, 
     <i>MiniportHaltEx</i> should stop the NIC. If an NDIS intermediate driver calls the 
-    <a href="https://msdn.microsoft.com/badfab43-ba58-4711-a181-af87dcfeba4d">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisimdeinitializedeviceinstance">
     NdisIMDeInitializeDeviceInstance</a> function, NDIS calls the 
     <i>MiniportHaltEx</i> function for the driver's virtual device.
 
 <i>MiniportHaltEx</i> must free all resources that were allocated in 
-    <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> for a device. 
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> for a device. 
     <i>MiniportHaltEx</i> also frees any other resources that the driver allocated in
     subsequent operations for that device. The driver must call the reciprocals of the 
     <b>Ndis<i>Xxx</i></b> functions with which it originally allocated the resources. As a general
@@ -159,9 +159,9 @@ NDIS can call
 
 If a NIC generates interrupts, a miniport driver's 
     <i>MiniportHaltEx</i> function can be preempted by the driver's 
-    <a href="https://msdn.microsoft.com/810503b9-75cd-4b38-ab1f-de240968ded6">MiniportInterrupt</a> function until the 
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_isr">MiniportInterrupt</a> function until the 
     <i>MiniportHaltEx</i> call to the 
-    <a href="https://msdn.microsoft.com/bc0718b6-4c71-41a8-bab6-a52991b284d9">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismderegisterinterruptex">
     NdisMDeregisterInterruptEx</a> function returns. Such a driver's 
     <i>MiniportHaltEx</i> function should disable interrupts, and call 
     <b>
@@ -172,14 +172,14 @@ If a NIC generates interrupts, a miniport driver's
     <b>
     NdisMDeregisterInterruptEx</b> does not return until the driver finishes all the scheduled DPCs (see
     the 
-    <a href="https://msdn.microsoft.com/345715fb-878c-44d8-bf78-f3add10dd02b">MiniportInterruptDPC</a> function for
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_interrupt_dpc">MiniportInterruptDPC</a> function for
     more information).
 
 If the driver has a 
-    <a href="https://msdn.microsoft.com/76e59376-58a4-4e35-bac4-ec5938c88cd7">NetTimerCallback</a> function that is
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-ndis_timer_function">NetTimerCallback</a> function that is
     associated with a timer object that could be in the system timer queue, 
     <i>MiniportHaltEx</i> should call the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561624">NdisCancelTimerObject</a> function. If 
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndiscanceltimerobject">NdisCancelTimerObject</a> function. If 
     <b>NdisCancelTimerObject</b> fails, the timer could have already fired. In this case, the driver should
     wait for the timer function to complete before the driver returns from 
     <i>MiniportHaltEx</i>.
@@ -191,14 +191,14 @@ NDIS does not call
 
 If the driver must wait for any operation to complete, 
     <i>MiniportHaltEx</i> can use the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff564651">NdisWaitEvent</a> function or the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff563677">NdisMSleep</a> function.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndiswaitevent">NdisWaitEvent</a> function or the 
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismsleep">NdisMSleep</a> function.
 
 NDIS calls
     <i>MiniportHaltEx</i> at IRQL = PASSIVE_LEVEL.
 
 <h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>
-To define a <i>MiniportHaltEx</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
+To define a <i>MiniportHaltEx</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/code-analysis-for-drivers">Code Analysis for Drivers</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
 
 For example, to define a <i>MiniportHaltEx</i> function that is named "MyHaltEx", use the <b>MINIPORT_HALT</b> type as shown in this code example:
 
@@ -230,7 +230,7 @@ VOID
 </td>
 </tr>
 </table></span></div>
-The <b>MINIPORT_HALT</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>MINIPORT_HALT</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/232c4272-0bf0-4a4e-9560-3bceeca8a3e3">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
+The <b>MINIPORT_HALT</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>MINIPORT_HALT</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
 For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
 
@@ -242,69 +242,69 @@ For information about  _Use_decl_annotations_, see <a href="https://go.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/3ca03511-a912-4ee3-bd9f-1bd8e6996c48">Adapter States of a Miniport Driver</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/adapter-states-of-a-miniport-driver">Adapter States of a Miniport Driver</a>
 
 
 
-<a href="https://msdn.microsoft.com/fd57a2b1-593d-412b-96b5-eabd3ea392e0">Halting a Miniport Adapter</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/halting-a-miniport-adapter">Halting a Miniport Adapter</a>
 
 
 
-<a href="https://msdn.microsoft.com/b47e2cbe-9da3-4600-9afe-b082e60b87fb">Miniport Adapter States and Operations</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/miniport-adapter-states-and-operations">Miniport Adapter States and Operations</a>
 
 
 
-<a href="https://msdn.microsoft.com/20047ee2-ba37-47c2-858f-36e31ae19154">Miniport Driver Reset and Halt Functions</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff564064(v=vs.85)">Miniport Driver Reset and Halt Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/810503b9-75cd-4b38-ab1f-de240968ded6">MiniportInterrupt</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_isr">MiniportInterrupt</a>
 
 
 
-<a href="https://msdn.microsoft.com/345715fb-878c-44d8-bf78-f3add10dd02b">MiniportInterruptDPC</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_interrupt_dpc">MiniportInterruptDPC</a>
 
 
 
-<a href="https://msdn.microsoft.com/0f33ae87-164e-40dc-a915-28211a0d74b7">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_return_net_buffer_lists">
    MiniportReturnNetBufferLists</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561624">NdisCancelTimerObject</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndiscanceltimerobject">NdisCancelTimerObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/badfab43-ba58-4711-a181-af87dcfeba4d">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisimdeinitializedeviceinstance">
    NdisIMDeInitializeDeviceInstance</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563575">NdisMDeregisterInterruptEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismderegisterinterruptex">NdisMDeregisterInterruptEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563654">NdisMRegisterMiniportDriver</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismregisterminiportdriver">NdisMRegisterMiniportDriver</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563661">NdisMRemoveMiniport</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismremoveminiport">NdisMRemoveMiniport</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563677">NdisMSleep</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismsleep">NdisMSleep</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564651">NdisWaitEvent</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndiswaitevent">NdisWaitEvent</a>
 
 
 
-<a href="https://msdn.microsoft.com/76e59376-58a4-4e35-bac4-ec5938c88cd7">NetTimerCallback</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-ndis_timer_function">NetTimerCallback</a>
  
 
  

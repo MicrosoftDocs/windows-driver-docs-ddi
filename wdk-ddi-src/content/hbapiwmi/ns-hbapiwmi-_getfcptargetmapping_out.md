@@ -46,7 +46,7 @@ req.typenames: GetFcpTargetMapping_OUT, *PGetFcpTargetMapping_OUT
 ## -description
 
 
-The GetFcpTargetMapping_OUT structure is used to report the output parameter data of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554948">GetFcpTargetMapping</a> WMI method to the WMI client. 
+The GetFcpTargetMapping_OUT structure is used to report the output parameter data of the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/getfcptargetmapping">GetFcpTargetMapping</a> WMI method to the WMI client. 
 
 
 ## -struct-fields
@@ -56,7 +56,7 @@ The GetFcpTargetMapping_OUT structure is used to report the output parameter dat
 
 ### -field HBAStatus
 
-Contains the status of the operation. For a list of allowed values and their descriptions, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>. 
+Contains the status of the operation. For a list of allowed values and their descriptions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/hba-status">HBA_STATUS</a>. 
 
 
 ### -field TotalEntryCount
@@ -66,21 +66,21 @@ Indicates the total number of persistent bindings associated with the HBA..
 
 ### -field OutEntryCount
 
-Indicates the total number of mappings retrieved by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554948">GetFcpTargetMapping</a> WMI method. This value will be less than or equal to <b>TotalEntryCount</b>. 
+Indicates the total number of mappings retrieved by the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/getfcptargetmapping">GetFcpTargetMapping</a> WMI method. This value will be less than or equal to <b>TotalEntryCount</b>. 
 
 
 ### -field Entry
 
-Contains an array of structures of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff556040">HBAFCPScsiEntry</a> that describe an HBA's bindings between operating system and fibre channel protocol (FCP) identifiers. 
+Contains an array of structures of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hbapiwmi/ns-hbapiwmi-_hbafcpscsientry">HBAFCPScsiEntry</a> that describe an HBA's bindings between operating system and fibre channel protocol (FCP) identifiers. 
 
 
 ## -remarks
 
 
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff554948">GetFcpTargetMapping</a> WMI method reports mappings between the information that uniquely identifies a set of logical units for the operating system and the fibre channel protocol (FCP) identifiers for these logical units.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/getfcptargetmapping">GetFcpTargetMapping</a> WMI method reports mappings between the information that uniquely identifies a set of logical units for the operating system and the fibre channel protocol (FCP) identifiers for these logical units.
 
-The WMI tool suite generates a declaration of the GetFcpTargetMapping_OUT structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562509">MSFC_HBAFCPInfo WMI Class</a>.
+The WMI tool suite generates a declaration of the GetFcpTargetMapping_OUT structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msfc-hbafcpinfo-wmi-class">MSFC_HBAFCPInfo WMI Class</a>.
 
 
 
@@ -90,19 +90,19 @@ The WMI tool suite generates a declaration of the GetFcpTargetMapping_OUT struct
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554948">GetFcpTargetMapping</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/getfcptargetmapping">GetFcpTargetMapping</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556040">HBAFCPScsiEntry</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hbapiwmi/ns-hbapiwmi-_hbafcpscsientry">HBAFCPScsiEntry</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/hba-status">HBA_STATUS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562509">MSFC_HBAFCPInfo WMI Class</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msfc-hbafcpinfo-wmi-class">MSFC_HBAFCPInfo WMI Class</a>
  
 
  

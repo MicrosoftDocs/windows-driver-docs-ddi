@@ -57,7 +57,7 @@ The source and destination memory must be in [resource state](ne-d3d12umddi-d3d1
 
 Destination takes after the layout described in [D3D12DDI_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_TOOLS_VISUALIZATION_HEADER_0054](ns-d3d12umddi-d3d12ddi_build_raytracing_acceleration_structure_tools_visualization_header_0054.md). The size required for the destination can be retrieved beforehand from [EmitRaytracingAccelerationStructurePostBuildInfo](nc-d3d12umddi-pfnd3d12ddi_emit_raytracing_acceleration_structure_postbuild_info_0054.md).
 
-This mode is intended for tools such as [PIX on Windows](https://blogs.msdn.microsoft.com/pix/2017/01/17/introducing-pix-on-windows-beta/) only, though nothing stops any app from using it. The output is essentially the inverse of an acceleration structure build.  
+This mode is intended for tools such as [PIX on Windows](https://devblogs.microsoft.com/pix/introducing-pix-on-windows-beta/) only, though nothing stops any app from using it. The output is essentially the inverse of an acceleration structure build.  
 
 For top-level acceleration structures, the output includes a set of instance descriptions that are identical to the data used in the original build and in the same order.  
 

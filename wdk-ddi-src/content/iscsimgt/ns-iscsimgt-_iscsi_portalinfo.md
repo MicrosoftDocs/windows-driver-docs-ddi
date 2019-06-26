@@ -109,7 +109,7 @@ Reserved for Microsoft use only.
 
 ### -field IPAddr
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff561536">ISCSI_IP_Address</a> structure that indicates the portal's network IP address.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/iscsidef/ns-iscsidef-_iscsi_ip_address">ISCSI_IP_Address</a> structure that indicates the portal's network IP address.
 
 
 ### -field Port
@@ -127,11 +127,11 @@ The portal group tag to which the portal belongs.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561536">ISCSI_IP_Address</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/iscsidef/ns-iscsidef-_iscsi_ip_address">ISCSI_IP_Address</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561559">ISCSI_PortalInfo WMI Class</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/iscsi-portalinfo-wmi-class">ISCSI_PortalInfo WMI Class</a>
  
 
  

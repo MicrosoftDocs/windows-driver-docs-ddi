@@ -90,7 +90,7 @@ Each element in <b>pPriorities</b> can be set to one of the following values.
 |D3DDDI_ALLOCATIONPRIORITY_HIGH (0xa0000000)|High priority|
 |D3DDDI_ALLOCATIONPRIORITY_MAXIMUM (0xc8000000)|Maximum priority|
 
-For more information about the meanings of the preceding values, see the Remarks section of the <a href="https://msdn.microsoft.com/1812cb0f-9232-4813-9c7b-74c9fa4d03cf">pfnSetPriorityCb</a> function. 
+For more information about the meanings of the preceding values, see the Remarks section of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_setprioritycb">pfnSetPriorityCb</a> function. 
 
 
 ## -see-also
@@ -98,7 +98,7 @@ For more information about the meanings of the preceding values, see the Remarks
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547155">D3DKMTSetAllocationPriority</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/nf-d3dkmthk-d3dkmtsetallocationpriority">D3DKMTSetAllocationPriority</a>
  
 
  

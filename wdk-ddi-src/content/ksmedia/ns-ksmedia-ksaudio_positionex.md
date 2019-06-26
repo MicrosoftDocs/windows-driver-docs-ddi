@@ -78,7 +78,7 @@ Specifies the timestamp that is taken immediately after the acquisition of the p
 
 
 
-A KS-based audio driver can use the KSAUDIO_POSITIONEX structure along with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537298">KSPROPERTY_AUDIO_POSITIONEX</a> property to return a stream position and a timestamp.
+A KS-based audio driver can use the KSAUDIO_POSITIONEX structure along with the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-audio-positionex">KSPROPERTY_AUDIO_POSITIONEX</a> property to return a stream position and a timestamp.
 
 
 
@@ -88,7 +88,7 @@ A KS-based audio driver can use the KSAUDIO_POSITIONEX structure along with the 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537298">KSPROPERTY_AUDIO_POSITIONEX</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-audio-positionex">KSPROPERTY_AUDIO_POSITIONEX</a>
  
 
  

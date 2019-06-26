@@ -249,7 +249,7 @@ Reserved for system use and should be set to zero.
 
 
 
-The driver's <a href="https://msdn.microsoft.com/b6be5f94-6d4d-4f7a-a8d9-15bfc7a15d3b">DdVideoPortGetConnectInfo</a> callback routine initializes a DDVIDEOPORTCONNECT structure for every connection that the hardware video port supports. The client can change the <b>dwFlags</b> member of one of the driver's DDVIDEOPORTCONNECT structures before calling the driver's <a href="https://msdn.microsoft.com/742c7af2-0611-4cca-b18c-e14b18068d7e">DdVideoPortCanCreate</a> callback.
+The driver's <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_vportcb_getvportconnect">DdVideoPortGetConnectInfo</a> callback routine initializes a DDVIDEOPORTCONNECT structure for every connection that the hardware video port supports. The client can change the <b>dwFlags</b> member of one of the driver's DDVIDEOPORTCONNECT structures before calling the driver's <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_vportcb_cancreatevideoport">DdVideoPortCanCreate</a> callback.
 
 
 
@@ -259,11 +259,11 @@ The driver's <a href="https://msdn.microsoft.com/b6be5f94-6d4d-4f7a-a8d9-15bfc7a
 
 
 
-<a href="https://msdn.microsoft.com/742c7af2-0611-4cca-b18c-e14b18068d7e">DdVideoPortCanCreate</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_vportcb_cancreatevideoport">DdVideoPortCanCreate</a>
 
 
 
-<a href="https://msdn.microsoft.com/b6be5f94-6d4d-4f7a-a8d9-15bfc7a15d3b">DdVideoPortGetConnectInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_vportcb_getvportconnect">DdVideoPortGetConnectInfo</a>
  
 
  

@@ -56,7 +56,7 @@ The KSDS3D_BUFFER_ALL structure specifies all the 3D characteristics of a Direct
 
 ### -field Position
 
-Specifies the x, y, and z position coordinates of the 3D sound buffer. This member is a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff536367">DS3DVECTOR</a>.
+Specifies the x, y, and z position coordinates of the 3D sound buffer. This member is a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-_ds3dvector">DS3DVECTOR</a>.
 
 
 ### -field Velocity
@@ -119,7 +119,7 @@ For the meaning of these parameters, see the description of the <b>dwMode</b> me
 
 
 
-This structure is used to set or get the data value for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537315">KSPROPERTY_DIRECTSOUND3DBUFFER_ALL</a> property. DirectSound uses this property to implement the <b>IDirectSound3DBuffer::GetAllParameters</b> and <b>IDirectSound3DBuffer::SetAllParameters</b> methods, which are described in the Windows SDK documentation.
+This structure is used to set or get the data value for the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-directsound3dbuffer-all">KSPROPERTY_DIRECTSOUND3DBUFFER_ALL</a> property. DirectSound uses this property to implement the <b>IDirectSound3DBuffer::GetAllParameters</b> and <b>IDirectSound3DBuffer::SetAllParameters</b> methods, which are described in the Windows SDK documentation.
 
 The members of this structure are similar to those defined for the DS3DBUFFER structure in the Windows SDK documentation.
 
@@ -131,11 +131,11 @@ The members of this structure are similar to those defined for the DS3DBUFFER st
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536367">DS3DVECTOR</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-_ds3dvector">DS3DVECTOR</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537315">KSPROPERTY_DIRECTSOUND3DBUFFER_ALL</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-directsound3dbuffer-all">KSPROPERTY_DIRECTSOUND3DBUFFER_ALL</a>
  
 
  

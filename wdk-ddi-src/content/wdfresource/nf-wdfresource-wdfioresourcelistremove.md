@@ -49,7 +49,7 @@ req.typenames:
 
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
-The <b>WdfIoResourceListRemove</b> method removes a resource descriptor from a resource requirements list's <a href="https://msdn.microsoft.com/c7a6997b-34f9-4dd9-b384-2321a8b5ce54">logical configuration</a>.
+The <b>WdfIoResourceListRemove</b> method removes a resource descriptor from a resource requirements list's <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a>.
 
 
 ## -parameters
@@ -116,7 +116,7 @@ The following code example removes the first resource descriptor from a logical 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548528">WdfIoResourceListRemoveByDescriptor</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfresource/nf-wdfresource-wdfioresourcelistremovebydescriptor">WdfIoResourceListRemoveByDescriptor</a>
  
 
  

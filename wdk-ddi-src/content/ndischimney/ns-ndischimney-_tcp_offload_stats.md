@@ -50,8 +50,8 @@ req.typenames: TCP_OFFLOAD_STATS, *PTCP_OFFLOAD_STATS
 
 The TCP_OFFLOAD_STATS structure contains statistics that an offload target supplies in response to a
   query of 
-  <a href="https://msdn.microsoft.com/library/windows/hardware/ff569800">OID_TCP4_OFFLOAD_STATS</a> or 
-  <a href="https://msdn.microsoft.com/library/windows/hardware/ff569801">OID_TCP6_OFFLOAD_STATS</a>.
+  <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp4-offload-stats">OID_TCP4_OFFLOAD_STATS</a> or 
+  <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp6-offload-stats">OID_TCP6_OFFLOAD_STATS</a>.
 
 
 ## -struct-fields
@@ -121,14 +121,14 @@ If an offload target has more than one network interface, it must maintain a sep
     traffic.
 
 If an offload target's TCP chimney capabilities are enabled (see 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff558995">NDIS_TASK_OFFLOAD</a>) and if at least one
+    <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff558995(v=vs.85)">NDIS_TASK_OFFLOAD</a>) and if at least one
     offloaded path state object has been offloaded to the offload target, the offload target can process a
     received packet that has a corrupted TCP header (but a valid IP header) in one of two ways:
 
 <ul>
 <li>
 The offload target can indicate the packet through the non-offload interface by calling the 
-      <a href="https://msdn.microsoft.com/b87dba3e-c18f-4ea2-8bd5-ec3cdafc534b">
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismindicatereceivenetbufferlists">
       NdisMIndicateReceiveNetBufferLists</a> function. In this case, the offload target must not increment
       the 
       <b>InErrors</b> counter. This is the recommended approach.
@@ -166,11 +166,11 @@ All of the counters that supply the values for the TCP_OFFLOAD_STATS structure w
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569800">OID_TCP4_OFFLOAD_STATS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp4-offload-stats">OID_TCP4_OFFLOAD_STATS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569801">OID_TCP6_OFFLOAD_STATS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp6-offload-stats">OID_TCP6_OFFLOAD_STATS</a>
  
 
  

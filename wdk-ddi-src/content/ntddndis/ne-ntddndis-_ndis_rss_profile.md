@@ -90,7 +90,7 @@ This enumeration  value is reserved. Do not use.
 
 The <b>NDIS_RSS_PROFILE</b> enumeration type specifies the current  RSS load balancing profile.
 
-NDIS network drivers use the <b>NDIS_RSS_PROFILE</b> enumeration type to set the value of the <b>RssProfile</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567274">NDIS_RSS_PROCESSOR_INFO</a> structure.
+NDIS network drivers use the <b>NDIS_RSS_PROFILE</b> enumeration type to set the value of the <b>RssProfile</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_rss_processor_info">NDIS_RSS_PROCESSOR_INFO</a> structure.
 
 
 
@@ -100,16 +100,16 @@ NDIS network drivers use the <b>NDIS_RSS_PROFILE</b> enumeration type to set the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567274">NDIS_RSS_PROCESSOR_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_rss_processor_info">NDIS_RSS_PROCESSOR_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/0da022d5-7294-4780-bab8-119ff6385abf">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisgetrssprocessorinformation">
    NdisGetRssProcessorInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/0ea0d6f7-0dc5-40dd-a706-4712e19dbfdb">Standardized INF Keywords for RSS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/standardized-inf-keywords-for-rss">Standardized INF Keywords for RSS</a>
  
 
  

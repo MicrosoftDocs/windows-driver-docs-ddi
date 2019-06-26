@@ -83,7 +83,7 @@ The <b>StorPortWritePortBufferUchar</b> routine writes a value to a specified re
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff564817">ScsiPortWritePortBufferUchar</a>. For a nonbuffered equivalent of this routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff567522">StorPortWritePortUchar</a>. 
+For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/srb/nf-srb-scsiportwriteportbufferuchar">ScsiPortWritePortBufferUchar</a>. For a nonbuffered equivalent of this routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportwriteportuchar">StorPortWritePortUchar</a>. 
 
 
 
@@ -93,11 +93,11 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564817">ScsiPortWritePortBufferUchar</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/srb/nf-srb-scsiportwriteportbufferuchar">ScsiPortWritePortBufferUchar</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567522">StorPortWritePortUchar</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportwriteportuchar">StorPortWritePortUchar</a>
  
 
  

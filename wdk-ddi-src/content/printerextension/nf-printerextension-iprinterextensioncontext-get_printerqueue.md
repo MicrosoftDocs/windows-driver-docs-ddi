@@ -60,11 +60,11 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406649">IPrinterExtensionContext</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprinterextensioncontext">IPrinterExtensionContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439635">IPrinterQueue</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprinterqueue">IPrinterQueue</a>
  
 
  

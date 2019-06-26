@@ -46,7 +46,7 @@ req.typenames: DXGKARG_QUERYCONNECTIONCHANGE
 ## -description
 
 
-Used to hold the arguments for <a href="https://msdn.microsoft.com/8C09B692-3439-4ACD-942D-F7A107E2B4DA">DXGKDDI_QUERYCONNECTIONCHANGE</a>.
+Used to hold the arguments for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_queryconnectionchange">DXGKDDI_QUERYCONNECTIONCHANGE</a>.
 
 
 ## -struct-fields

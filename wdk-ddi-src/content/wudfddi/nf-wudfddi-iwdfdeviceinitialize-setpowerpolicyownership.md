@@ -81,7 +81,7 @@ For more information, see <a href="https://docs.microsoft.com/windows-hardware/d
 
 #### Examples
 
-For a code example of how to use the <b>SetPowerPolicyOwnership</b> method, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>.
+For a code example of how to use the <b>SetPowerPolicyOwnership</b> method, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfdriver-createdevice">IWDFDriver::CreateDevice</a>.
 
 <div class="code"></div>
 
@@ -92,11 +92,11 @@ For a code example of how to use the <b>SetPowerPolicyOwnership</b> method, see 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556965">IWDFDeviceInitialize</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nn-wudfddi-iwdfdeviceinitialize">IWDFDeviceInitialize</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfdriver-createdevice">IWDFDriver::CreateDevice</a>
  
 
  

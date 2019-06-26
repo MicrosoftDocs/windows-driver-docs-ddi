@@ -61,12 +61,12 @@ The <b>WdfDriverRetrieveVersionString</b> method retrieves a Unicode string that
 
 ### -param Driver [in]
 
-A handle to the driver's framework driver object that the driver obtained from a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff547175">WdfDriverCreate</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff547336">WdfGetDriver</a>.
+A handle to the driver's framework driver object that the driver obtained from a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdriver/nf-wdfdriver-wdfdrivercreate">WdfDriverCreate</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdriver/nf-wdfdriver-wdfgetdriver">WdfGetDriver</a>.
 
 
 ### -param String [in]
 
-A handle to a framework string object that the driver obtained from a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff550046">WdfStringCreate</a>. The framework assigns the version string to the string object.
+A handle to a framework string object that the driver obtained from a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfstring/nf-wdfstring-wdfstringcreate">WdfStringCreate</a>. The framework assigns the version string to the string object.
 
 
 ## -returns
@@ -94,7 +94,7 @@ The framework could not allocate a buffer for the Unicode string.
 </table>
  
 
-This method might also return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
+This method might also return other <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS values</a>.
 
 A system bug check occurs if the <i>Driver</i> handle is invalid.
 
@@ -107,7 +107,7 @@ A system bug check occurs if the <i>Driver</i> handle is invalid.
 
 Your driver can call <b>WdfDriverRetrieveVersionString</b> if you want to display a string that identifies the framework library's version. The string's format might change from one version to another, so the driver must not attempt to interpret the string's format or content.
 
-For more information about library versions, see <a href="https://msdn.microsoft.com/51db6f3c-45cb-46a7-9dd4-2bab67893fea">Framework Library Versioning</a>.
+For more information about library versions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/framework-library-versioning">Framework Library Versioning</a>.
 
 
 #### Examples
@@ -156,27 +156,27 @@ if (NT_SUCCESS(status)) {
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547175">WdfDriverCreate</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdriver/nf-wdfdriver-wdfdrivercreate">WdfDriverCreate</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547190">WdfDriverIsVersionAvailable</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdriver/nf-wdfdriver-wdfdriverisversionavailable">WdfDriverIsVersionAvailable</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547336">WdfGetDriver</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdriver/nf-wdfdriver-wdfgetdriver">WdfGetDriver</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548734">WdfObjectDelete</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfobject/nf-wdfobject-wdfobjectdelete">WdfObjectDelete</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550046">WdfStringCreate</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfstring/nf-wdfstring-wdfstringcreate">WdfStringCreate</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550049">WdfStringGetUnicodeString</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfstring/nf-wdfstring-wdfstringgetunicodestring">WdfStringGetUnicodeString</a>
  
 
  

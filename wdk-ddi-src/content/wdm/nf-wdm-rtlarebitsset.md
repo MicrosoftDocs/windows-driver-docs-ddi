@@ -56,7 +56,7 @@ The <b>RtlAreBitsSet</b> routine determines whether a given range of bits within
 
 ### -param BitMapHeader [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563614">RTL_BITMAP</a> structure that describes the bitmap. This structure must have been initialized by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561925">RtlInitializeBitMap</a> routine. 
+A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">RTL_BITMAP</a> structure that describes the bitmap. This structure must have been initialized by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlinitializebitmap">RtlInitializeBitMap</a> routine. 
 
 
 ### -param StartingIndex [in]
@@ -92,27 +92,27 @@ Callers of <b>RtlAreBitsSet</b> must be running at IRQL <= APC_LEVEL if the memo
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563614">RTL_BITMAP</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">RTL_BITMAP</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561742">RtlAreBitsClear</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlarebitsclear">RtlAreBitsClear</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561751">RtlCheckBit</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlcheckbit">RtlCheckBit</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561890">RtlFindSetBits</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlfindsetbits">RtlFindSetBits</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561925">RtlInitializeBitMap</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlinitializebitmap">RtlInitializeBitMap</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562770">RtlSetAllBits</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlsetallbits">RtlSetAllBits</a>
  
 
  

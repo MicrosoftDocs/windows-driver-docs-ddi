@@ -93,9 +93,9 @@ A return value above one indicates that the item is present in another object ba
 
 <b>KsRemoveItemFromObjectBag</b> frees <i>Item</i> only if the number of references on this item is zero and a free was requested. 
 
-For more information about object bags, see <a href="https://msdn.microsoft.com/b7ee5756-1c79-4ead-9999-d13be9a0d3d9">Object Bags</a>.
+For more information about object bags, see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/object-bags">Object Bags</a>.
 
-Note that the mutex associated with the bag must be held. For more  information, see <a href="https://msdn.microsoft.com/011edaaa-7449-41c3-8cfb-0d319901af8b">Mutexes in AVStream</a>.
+Note that the mutex associated with the bag must be held. For more  information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/mutexes-in-avstream">Mutexes in AVStream</a>.
 
 
 
@@ -105,27 +105,27 @@ Note that the mutex associated with the bag must be held. For more  information,
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560941">KsAddItemToObjectBag</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksadditemtoobjectbag">KsAddItemToObjectBag</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560965">KsAllocateObjectBag</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksallocateobjectbag">KsAllocateObjectBag</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561031">KsCopyObjectBagItems</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-kscopyobjectbagitems">KsCopyObjectBagItems</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561695">KsDiscard</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksdiscard">KsDiscard</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562562">KsFreeObjectBag</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksfreeobjectbag">KsFreeObjectBag</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563395">KsMergeAutomationTables</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksmergeautomationtables">KsMergeAutomationTables</a>
  
 
  

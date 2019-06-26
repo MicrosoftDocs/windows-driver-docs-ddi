@@ -70,7 +70,7 @@ The <b>PsGetCurrentProcessId</b> routine identifies the current thread's process
 
 
 
-[IoGetCurrentProcess](https://msdn.microsoft.com/library/windows/hardware/ff549177)
+[IoGetCurrentProcess](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iogetcurrentprocess)
 
 
 
@@ -78,23 +78,23 @@ The <b>PsGetCurrentProcessId</b> routine identifies the current thread's process
 
 
 
-[PsGetCurrentThread](https://msdn.microsoft.com/library/windows/hardware/ff559936)
+[PsGetCurrentThread](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-psgetcurrentthread)
 
 
 
-[PsGetCurrentThreadId](https://msdn.microsoft.com/library/windows/hardware/ff559937)
+[PsGetCurrentThreadId](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-psgetcurrentthreadid)
 
 
 
-[PsSetCreateProcessNotifyRoutine](https://msdn.microsoft.com/library/windows/hardware/ff559951)
+[PsSetCreateProcessNotifyRoutine](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-pssetcreateprocessnotifyroutine)
 
 
 
-[PsSetCreateThreadNotifyRoutine](https://msdn.microsoft.com/library/windows/hardware/ff559954)
+[PsSetCreateThreadNotifyRoutine](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-pssetcreatethreadnotifyroutine)
 
 
 
-[PsSetLoadImageNotifyRoutine](https://msdn.microsoft.com/library/windows/hardware/ff559957)
+[PsSetLoadImageNotifyRoutine](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-pssetloadimagenotifyroutine)
  
 
  

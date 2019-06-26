@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <code>OEMStretchBltROP</code> function performs a stretching bit-block transfer using a <a href="https://msdn.microsoft.com/004698f5-cb0e-4995-a19c-7075aa226000">raster operation (ROP)</a>.
+The <code>OEMStretchBltROP</code> function performs a stretching bit-block transfer using a <a href="https://docs.microsoft.com/windows-hardware/drivers/">raster operation (ROP)</a>.
 
 
 ## -parameters

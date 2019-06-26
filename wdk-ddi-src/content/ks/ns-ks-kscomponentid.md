@@ -88,7 +88,7 @@ Specifies the revision number for the component or product.
 
 
 
-Supply this structure in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff565171">KSPROPERTY_GENERAL_COMPONENTID</a> request.
+Supply this structure in a <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-general-componentid">KSPROPERTY_GENERAL_COMPONENTID</a> request.
 
 
 
@@ -98,7 +98,7 @@ Supply this structure in a <a href="https://msdn.microsoft.com/library/windows/h
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565171">KSPROPERTY_GENERAL_COMPONENTID</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-general-componentid">KSPROPERTY_GENERAL_COMPONENTID</a>
  
 
  

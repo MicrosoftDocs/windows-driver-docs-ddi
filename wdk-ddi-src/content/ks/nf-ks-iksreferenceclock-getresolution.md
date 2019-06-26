@@ -56,14 +56,14 @@ The <b>IKsReferenceClock::GetResolution</b> method queries the associated refere
 
 ### -param Resolution [out]
 
-Specifies granularity and notification error of the clock in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff566806">KSRESOLUTION</a> structure.
+Specifies granularity and notification error of the clock in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksresolution">KSRESOLUTION</a> structure.
 
 
 ## -returns
 
 
 
-The <b>IKsReferenceClock::GetResolution</b> method returns STATUS_SUCCESS or the error code that the relevant clock returned from its <b>GetResolution</b> property. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff565092">KSPROPERTY_CLOCK_RESOLUTION</a>. May return STATUS_DEVICE_NOT_READY if no clock is assigned.
+The <b>IKsReferenceClock::GetResolution</b> method returns STATUS_SUCCESS or the error code that the relevant clock returned from its <b>GetResolution</b> property. See <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-clock-resolution">KSPROPERTY_CLOCK_RESOLUTION</a>. May return STATUS_DEVICE_NOT_READY if no clock is assigned.
 
 
 
@@ -76,9 +76,9 @@ This method retrieves the underlying clock's resolution property, which specifie
 
 The least amount of notification error greater than the clock granularity is zero units; less accurate clocks use larger numbers to indicate  error. The proxy can use this resolution property to determine maximum error and resolution in event notification and synchronization.
 
-For more information, see <a href="https://msdn.microsoft.com/fc1d5bca-72e3-48e2-b46f-09a13bba83b4">AVStream Clocks</a>.
+For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/avstream-clocks">AVStream Clocks</a>.
 
-AVStream uses the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565092">KSPROPERTY_CLOCK_RESOLUTION</a> property to retrieve the clock resolution.
+AVStream uses the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-clock-resolution">KSPROPERTY_CLOCK_RESOLUTION</a> property to retrieve the clock resolution.
 
 
 
@@ -88,7 +88,7 @@ AVStream uses the <a href="https://msdn.microsoft.com/library/windows/hardware/f
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563517">KsPinGetReferenceClockInterface</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-kspingetreferenceclockinterface">KsPinGetReferenceClockInterface</a>
  
 
  

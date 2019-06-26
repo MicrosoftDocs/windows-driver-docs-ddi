@@ -87,15 +87,15 @@ The device object remains active and enumerated until the reference count return
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557589">BUS_INTERFACE_SWENUM</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/swenum/ns-swenum-_bus_interface_swenum">BUS_INTERFACE_SWENUM</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561678">KsDereferenceSoftwareBusObject</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/swenum/nf-swenum-ksdereferencesoftwarebusobject">KsDereferenceSoftwareBusObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566749">KsQuerySoftwareBusInterface</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/swenum/nf-swenum-ksquerysoftwarebusinterface">KsQuerySoftwareBusInterface</a>
  
 
  

@@ -110,11 +110,11 @@ Any existing key memory will be released appropriately.
 
 
 
-<a href="https://msdn.microsoft.com/4a97301a-12cc-442f-a080-446ec9e1e245">IPortableDeviceValues Interface</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portabledevicetypes/nn-portabledevicetypes-iportabledevicevalues">IPortableDeviceValues Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/6c63adae-ab57-4826-aaa2-6953ab918ddd">IPortableDeviceValues::GetStringValue</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portabledevicetypes/nf-portabledevicetypes-iportabledevicevalues-getstringvalue">IPortableDeviceValues::GetStringValue</a>
  
 
  

@@ -47,7 +47,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The operating system calls the
+<div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The operating system calls the
   <i>Dot11ExtIhvPerformPostAssociate</i> function to request that the IHV Extensions DLL initiate a
   post-association operation with the basic service set (BSS) network.
 
@@ -115,7 +115,7 @@ A pointer to a
 
 
 For more information about the association operation, see
-     <a href="https://msdn.microsoft.com/04e97ea1-fe4b-471e-a7be-b5aa3ee88edc">Association Operations</a>.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/association-operations">Association Operations</a>.
 
 
 ## -returns
@@ -145,7 +145,7 @@ The operating system calls the
     service set (BSS) networks.</div>
 <div> </div>
 For more information about the association operation, see
-    <a href="https://msdn.microsoft.com/04e97ea1-fe4b-471e-a7be-b5aa3ee88edc">Association Operations</a>.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/association-operations">Association Operations</a>.
 
 The post-association operation must be completed asynchronously from the call to
     <i>Dot11ExtIhvPerformPostAssociate</i>. After the post-association operation completes, the DLL must call

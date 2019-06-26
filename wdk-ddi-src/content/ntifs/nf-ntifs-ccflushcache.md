@@ -111,7 +111,7 @@ To cache a file, use <a href="https://msdn.microsoft.com/library/windows/hardwar
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539143">CcIsFileCached</a>
+<a href="https://docs.microsoft.com/previous-versions/ff539143(v=vs.85)">CcIsFileCached</a>
 
 
 

@@ -60,7 +60,7 @@ Returns the system firmware type.
 
 
 
-Returns a <a href="https://msdn.microsoft.com/c058e20e-11f9-4652-b658-9fd0a43d4224">FIRMWARE_TYPE</a>-type value that indicates the type of firmware.
+Returns a <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_firmware_type">FIRMWARE_TYPE</a>-type value that indicates the type of firmware.
 
 
 

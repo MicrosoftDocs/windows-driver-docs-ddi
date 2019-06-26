@@ -53,7 +53,7 @@ req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 
 The <b>IOCTL_INTERNAL_PARCLASS_DISCONNECT</b> request disconnects a client from a parallel device. After disconnecting from a parallel device, a client must not use any information obtained from a previous <a href="..\parallel\ni-parallel-ioctl_internal_parclass_connect.md">IOCTL_INTERNAL_PARCLASS_CONNECT</a> request.
 
-For more information, see <a href="https://msdn.microsoft.com/c05a1a1e-308a-4b9f-af43-761c4c14d6af">Connecting to a Parallel Device</a>.
+For more information, see <a href="https://docs.microsoft.com/previous-versions/ff543942(v=vs.85)">Connecting to a Parallel Device</a>.
 
 
 ## -ioctlparameters

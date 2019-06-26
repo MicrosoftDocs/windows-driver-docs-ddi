@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <b>wiasFreePropContext </b>function releases the memory occupied by a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552749">WIA_PROPERTY_CONTEXT</a> structure.
+The <b>wiasFreePropContext </b>function releases the memory occupied by a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/ns-wiamindr_lh-_wia_property_context">WIA_PROPERTY_CONTEXT</a> structure.
 
 
 ## -parameters
@@ -56,7 +56,7 @@ The <b>wiasFreePropContext </b>function releases the memory occupied by a <a hre
 
 ### -param pContext [in, out]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552749">WIA_PROPERTY_CONTEXT</a> structure that contains a property context.
+Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/ns-wiamindr_lh-_wia_property_context">WIA_PROPERTY_CONTEXT</a> structure that contains a property context.
 
 
 ## -returns
@@ -73,11 +73,11 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552749">WIA_PROPERTY_CONTEXT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/ns-wiamindr_lh-_wia_property_context">WIA_PROPERTY_CONTEXT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549167">wiasCreatePropContext</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiascreatepropcontext">wiasCreatePropContext</a>
  
 
  

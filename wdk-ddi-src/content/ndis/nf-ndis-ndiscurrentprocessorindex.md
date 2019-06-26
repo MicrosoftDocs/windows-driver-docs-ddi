@@ -86,11 +86,11 @@ NDIS drivers call the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552063">KeGetCurrentProcessorNumber</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-kegetcurrentprocessornumber">KeGetCurrentProcessorNumber</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564915">NDIS_CURRENT_PROCESSOR_NUMBER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-current-processor-number">NDIS_CURRENT_PROCESSOR_NUMBER</a>
  
 
  

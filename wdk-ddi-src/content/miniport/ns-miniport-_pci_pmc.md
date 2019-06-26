@@ -172,7 +172,7 @@ The power management capabilities register, whose contents are reported in the P
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537588">PCI_PM_CAPABILITY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_pci_pm_capability">PCI_PM_CAPABILITY</a>
 
 
 

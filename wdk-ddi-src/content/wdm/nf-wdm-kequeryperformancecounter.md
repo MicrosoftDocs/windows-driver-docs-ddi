@@ -78,7 +78,7 @@ A pointer to a variable to which <b>KeQueryPerformanceCounter</b> writes the per
 
 To obtain the frequency of the performance counter, specify a non-<b>NULL</b> pointer value for the <i>PerformanceFrequency</i> parameter. The frequency of the performance counter is fixed at system boot and is consistent across all processors. Therefore, a driver can cache the frequency of the performance counter during initialization.  
 
-For more info about this function and its usage, see <a href="https://msdn.microsoft.com/D66E0FC2-3AF2-489B-B4B5-78648905B77B">Acquiring high-resolution time stamps</a>. 
+For more info about this function and its usage, see <a href="https://docs.microsoft.com/windows/desktop/SysInfo/acquiring-high-resolution-time-stamps">Acquiring high-resolution time stamps</a>. 
 
 
 
@@ -104,10 +104,10 @@ For more info about this function and its usage, see <a href="https://msdn.micro
 
 
 
-[QueryPerformanceCounter](https://msdn.microsoft.com/library/windows/desktop/ms644904(v=vs.85).aspx)
+[QueryPerformanceCounter](https://docs.microsoft.com/windows/desktop/api/profileapi/nf-profileapi-queryperformancecounter)
 
 
 
-[QueryPerformanceFrequency](https://msdn.microsoft.com/library/windows/desktop/ms644905(v=vs.85).aspx)
+[QueryPerformanceFrequency](https://docs.microsoft.com/windows/desktop/api/profileapi/nf-profileapi-queryperformancefrequency)
  
 

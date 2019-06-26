@@ -76,7 +76,7 @@ Pointer to the first element of an array of property identifiers that indicate t
 
 ### -param pContext [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552749">WIA_PROPERTY_CONTEXT</a> structure that contains a property context.
+Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/ns-wiamindr_lh-_wia_property_context">WIA_PROPERTY_CONTEXT</a> structure that contains a property context.
 
 
 ## -returns
@@ -92,9 +92,9 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 
 
-This function allocates a property context and fills in its values. This function is generally used in <a href="https://msdn.microsoft.com/library/windows/hardware/ff549454">wiasValidateItemProperties</a> where the properties written by the application are validated.
+This function allocates a property context and fills in its values. This function is generally used in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiasvalidateitemproperties">wiasValidateItemProperties</a> where the properties written by the application are validated.
 
-Entries in the property context are identifiers for properties that either have dependents, or are themselves dependent on other properties. A context is used to mark which properties are being changed. When the property context is no longer needed, it should be freed by a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff549195">wiasFreePropContext</a>.
+Entries in the property context are identifiers for properties that either have dependents, or are themselves dependent on other properties. A context is used to mark which properties are being changed. When the property context is no longer needed, it should be freed by a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiasfreepropcontext">wiasFreePropContext</a>.
 
 The properties to which an application writes are specified by the <i>pPropSpec </i>array. The properties that were changed by the application, as well as any properties dependent on the changed properties, are specified by the <i>pProps</i> array. Only properties that have been changed by the application (and any dependent properties) can be specified in <i>pProps</i>. The PROPSPEC structure is defined in the Windows SDK documentation.
 
@@ -162,15 +162,15 @@ WIA_IPA_FORMAT
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552749">WIA_PROPERTY_CONTEXT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/ns-wiamindr_lh-_wia_property_context">WIA_PROPERTY_CONTEXT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549195">wiasFreePropContext</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiasfreepropcontext">wiasFreePropContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549454">wiasValidateItemProperties</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiasvalidateitemproperties">wiasValidateItemProperties</a>
  
 
  

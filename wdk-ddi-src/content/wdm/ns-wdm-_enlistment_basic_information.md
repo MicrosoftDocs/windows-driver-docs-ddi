@@ -46,7 +46,7 @@ req.typenames: ENLISTMENT_BASIC_INFORMATION, *PENLISTMENT_BASIC_INFORMATION
 ## -description
 
 
-The <b>ENLISTMENT_BASIC_INFORMATION</b> structure contains information about an <a href="https://msdn.microsoft.com/80e61475-4bb7-4eaa-b9f1-ff95eac9bc77">enlistment object</a>.
+The <b>ENLISTMENT_BASIC_INFORMATION</b> structure contains information about an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/enlistment-objects">enlistment object</a>.
 
 
 ## -struct-fields
@@ -73,7 +73,7 @@ A GUID that KTM has assigned to the resource manager that created the enlistment
 
 
 
-The <b>ENLISTMENT_BASIC INFORMATION</b> structure is used with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567051">ZwQueryInformationEnlistment</a> routine.
+The <b>ENLISTMENT_BASIC INFORMATION</b> structure is used with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ntqueryinformationenlistment">ZwQueryInformationEnlistment</a> routine.
 
 
 
@@ -83,11 +83,11 @@ The <b>ENLISTMENT_BASIC INFORMATION</b> structure is used with the <a href="http
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544260">ENLISTMENT_INFORMATION_CLASS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_enlistment_information_class">ENLISTMENT_INFORMATION_CLASS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567051">ZwQueryInformationEnlistment</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ntqueryinformationenlistment">ZwQueryInformationEnlistment</a>
  
 
  

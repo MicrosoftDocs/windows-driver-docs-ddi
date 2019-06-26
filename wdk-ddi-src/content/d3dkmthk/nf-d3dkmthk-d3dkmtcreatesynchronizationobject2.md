@@ -55,7 +55,7 @@ The <b>D3DKMTCreateSynchronizationObject2</b> function creates a kernel-mode syn
 
 *pData* [in, out]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547854">D3DKMT_CREATESYNCHRONIZATIONOBJECT2</a> structure that describes a synchronization object.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_createsynchronizationobject2">D3DKMT_CREATESYNCHRONIZATIONOBJECT2</a> structure that describes a synchronization object.
 
 ## -returns
 
@@ -66,13 +66,13 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 | **STATUS_SUCCESS** | The kernel-mode synchronization object was successfully created. | 
 | **STATUS_DEVICE_REMOVED** | The graphics adapter was stopped or the display device was reset. | 
 | **STATUS_INVALID_PARAMETER** | Parameters were validated and determined to be incorrect. | 
-| **STATUS_NO_MEMORY** | [D3DKMTCreateSynchronizationObject2](https://msdn.microsoft.com/library/windows/hardware/ff546879) could not complete because of insufficient memory. | 
+| **STATUS_NO_MEMORY** | [D3DKMTCreateSynchronizationObject2](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/nf-d3dkmthk-d3dkmtcreatesynchronizationobject2) could not complete because of insufficient memory. | 
 
 This function might also return other <b>NTSTATUS</b> values.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547854">D3DKMT_CREATESYNCHRONIZATIONOBJECT2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_createsynchronizationobject2">D3DKMT_CREATESYNCHRONIZATIONOBJECT2</a>
  
 
  

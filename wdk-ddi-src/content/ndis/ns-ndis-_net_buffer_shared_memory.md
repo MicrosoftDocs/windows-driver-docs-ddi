@@ -47,7 +47,7 @@ req.typenames: NET_BUFFER_SHARED_MEMORY, *PNET_BUFFER_SHARED_MEMORY
 
 
 The NET_BUFFER_SHARED_MEMORY structure specifies a shared memory buffer that is associated with a 
-  <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structure.
+  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure.
 
 
 ## -struct-fields
@@ -87,17 +87,17 @@ A ULONG value for the length, in bytes, of the shared memory segment.
 
 An NDIS 6.20 or later driver uses the NET_BUFFER_SHARED_MEMORY structure to describe a shared memory
     buffer. There can be a linked list of such shared memory buffers that are associated with a 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structure. Virtual machine queue (VMQ)
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure. Virtual machine queue (VMQ)
     capable NICs use these shared memory buffers in the virtualization environment.
 
 Use the 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-shared-mem-next-segment">
     NET_BUFFER_SHARED_MEM_NEXT_SEGMENT</a>, 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568420">NET_BUFFER_SHARED_MEM_FLAGS</a>, 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568421">NET_BUFFER_SHARED_MEM_HANDLE</a>, 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568727">NET_BUFFER_SHARED_MEM_OFFSET</a>,
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-shared-mem-flags">NET_BUFFER_SHARED_MEM_FLAGS</a>, 
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-shared-mem-handle">NET_BUFFER_SHARED_MEM_HANDLE</a>, 
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-shared-mem-offset">NET_BUFFER_SHARED_MEM_OFFSET</a>,
     and 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568725">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-shared-mem-length">
     NET_BUFFER_SHARED_MEM_LENGTH</a> macros to access the NET_BUFFER_SHARED_MEMORY in a NET_BUFFER
     structure. The 
     <b>SharedMemoryInfo</b> member of the NET_BUFFER structure contains the first NET_BUFFER_SHARED_MEMORY
@@ -111,19 +111,19 @@ Use the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568420">NET_BUFFER_SHARED_MEM_FLAGS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-shared-mem-flags">NET_BUFFER_SHARED_MEM_FLAGS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568421">NET_BUFFER_SHARED_MEM_HANDLE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-shared-mem-handle">NET_BUFFER_SHARED_MEM_HANDLE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568725">NET_BUFFER_SHARED_MEM_LENGTH</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-shared-mem-length">NET_BUFFER_SHARED_MEM_LENGTH</a>
 
 
 
@@ -132,7 +132,7 @@ Use the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568727">NET_BUFFER_SHARED_MEM_OFFSET</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-shared-mem-offset">NET_BUFFER_SHARED_MEM_OFFSET</a>
  
 
  

@@ -58,17 +58,17 @@ The <b>Impersonate</b> method registers the interface for the method that the fr
 
 ### -param ImpersonationLevel [in]
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff556631">SECURITY_IMPERSONATION_LEVEL</a>-typed value that identifies the level of impersonation.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_security_impersonation_level">SECURITY_IMPERSONATION_LEVEL</a>-typed value that identifies the level of impersonation.
 
 
 ### -param pCallback [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554912">IImpersonateCallback</a> interface whose method the framework calls for impersonation.
+A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nn-wudfddi-iimpersonatecallback">IImpersonateCallback</a> interface whose method the framework calls for impersonation.
 
 
 ### -param pvCallbackContext [in, optional]
 
-A pointer to a buffer that contains context information that is related to the impersonation call. The framework passes this context information in a call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554916">IImpersonateCallback::OnImpersonate</a> method. This parameter is optional. The driver can pass <b>NULL</b> if the driver does not have to supply a context. 
+A pointer to a buffer that contains context information that is related to the impersonation call. The framework passes this context information in a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iimpersonatecallback-onimpersonate">IImpersonateCallback::OnImpersonate</a> method. This parameter is optional. The driver can pass <b>NULL</b> if the driver does not have to supply a context. 
 
 
 ## -returns
@@ -94,19 +94,19 @@ For information about how UMDF and UMDF drivers handle impersonation, see <a hre
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554912">IImpersonateCallback</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nn-wudfddi-iimpersonatecallback">IImpersonateCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554916">IImpersonateCallback::OnImpersonate</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iimpersonatecallback-onimpersonate">IImpersonateCallback::OnImpersonate</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558985">IWDFIoRequest</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nn-wudfddi-iwdfiorequest">IWDFIoRequest</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556631">SECURITY_IMPERSONATION_LEVEL</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_security_impersonation_level">SECURITY_IMPERSONATION_LEVEL</a>
  
 
  

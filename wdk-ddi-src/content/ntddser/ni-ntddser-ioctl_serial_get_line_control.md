@@ -48,9 +48,9 @@ req.typenames:
 
 The <b>IOCTL_SERIAL_GET_LINE_CONTROL</b> request returns information about the line control set for a serial device. The line control parameters include the number of stop bits, the number of data bits, and the parity.
 
-To configure the line control, a client can use an <a href="https://msdn.microsoft.com/library/windows/hardware/ff546740">IOCTL_SERIAL_SET_LINE_CONTROL</a> request.
+To configure the line control, a client can use an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddser/ni-ntddser-ioctl_serial_set_line_control">IOCTL_SERIAL_SET_LINE_CONTROL</a> request.
 
-For information about valid line control register settings, see <a href="https://msdn.microsoft.com/library/windows/hardware/jj680686">SERIAL_LINE_CONTROL</a>.
+For information about valid line control register settings, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddser/ns-ntddser-_serial_line_control">SERIAL_LINE_CONTROL</a>.
 
 
 ## -ioctlparameters
@@ -108,11 +108,11 @@ The <b>Status</b> member is set to one of the <a href="https://docs.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546740">IOCTL_SERIAL_SET_LINE_CONTROL</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddser/ni-ntddser-ioctl_serial_set_line_control">IOCTL_SERIAL_SET_LINE_CONTROL</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj680686">SERIAL_LINE_CONTROL</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddser/ns-ntddser-_serial_line_control">SERIAL_LINE_CONTROL</a>
  
 
  

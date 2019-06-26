@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <b>AllocateAdapterChannel</b> routine prepares the system for a DMA operation on behalf of the target device object, and then calls the driver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff540504">AdapterControl</a> routine to carry out the DMA operation. 
+The <b>AllocateAdapterChannel</b> routine prepares the system for a DMA operation on behalf of the target device object, and then calls the driver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-driver_control">AdapterControl</a> routine to carry out the DMA operation. 
 
 
 ## -parameters
@@ -56,7 +56,7 @@ The <b>AllocateAdapterChannel</b> routine prepares the system for a DMA operatio
 
 ### -param DmaAdapter [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544062">DMA_ADAPTER</a> structure returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a> that represents the bus-master adapter or DMA controller.
+Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_dma_adapter">DMA_ADAPTER</a> structure returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a> that represents the bus-master adapter or DMA controller.
 
 
 ### -param DeviceObject [in]
@@ -66,17 +66,17 @@ Pointer to the device object that represents the target device for a requested D
 
 ### -param NumberOfMapRegisters [in]
 
-Specifies the number of map registers to be used in the transfer. This value is the lesser of the number of map registers needed to satisfy the current transfer request, and the number of available map registers returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a>. 
+Specifies the number of map registers to be used in the transfer. This value is the lesser of the number of map registers needed to satisfy the current transfer request, and the number of available map registers returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a>. 
 
 
 ### -param ExecutionRoutine [in]
 
-Pointer to a driver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff540504">AdapterControl</a> routine. The routine is called when the system DMA controller or bus-master adapter becomes available.
+Pointer to a driver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-driver_control">AdapterControl</a> routine. The routine is called when the system DMA controller or bus-master adapter becomes available.
 
 
 ### -param Context [in]
 
-Pointer to the driver-determined context to be passed to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540504">AdapterControl</a> routine. 
+Pointer to the driver-determined context to be passed to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-driver_control">AdapterControl</a> routine. 
 
 
 ## -returns
@@ -124,10 +124,10 @@ The <i>NumberOfMapRegisters</i> is larger than the value returned by <b>IoGetDma
 
 <b>AllocateAdapterChannel</b>
            is not a system routine that can be called directly by name. This routine is callable only by pointer from the address returned in a 
-          <a href="https://msdn.microsoft.com/library/windows/hardware/ff544071">DMA_OPERATIONS</a>
-           structure. Drivers obtain the address of this routine by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a>.
+          <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_dma_operations">DMA_OPERATIONS</a>
+           structure. Drivers obtain the address of this routine by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a>.
 
-A driver calls the <b>AllocateAdapterControl</b> routine to register an <a href="https://msdn.microsoft.com/library/windows/hardware/ff540504">AdapterControl</a> routine that performs a DMA operation for the driver. The <i>AdapterControl</i> routine carries out a DMA operation using either the system DMA controller or a bus-master adapter.
+A driver calls the <b>AllocateAdapterControl</b> routine to register an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-driver_control">AdapterControl</a> routine that performs a DMA operation for the driver. The <i>AdapterControl</i> routine carries out a DMA operation using either the system DMA controller or a bus-master adapter.
 
 If the DMA operation can be performed immediately, the system immediately calls <i>AdapterControl</i>. If the system DMA controller or bus-master adapter is currently in use, <b>AllocateAdapterChannel</b> queues the <i>AdapterControl</i> until the adapter becomes available. In either case, <b>AllocateAdapterChannel</b> returns STATUS_SUCCESS.
 
@@ -135,9 +135,9 @@ If the system lacks the resources to perform the DMA operation, <b>AllocateAdapt
 
 This routine reserves exclusive access to a DMA controller channel and map registers for the one or more DMA operations that are required to satisfy the current IRP's transfer request for the specified device.
 
-Only one DMA request can be queued for a device object at any one time. Therefore, the driver should not call <b>AllocateAdapterChannel</b> again for another DMA operation on the same device object until the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540504">AdapterControl</a> routine has completed execution. In addition, a driver must not call <b>AllocateAdapterChannel</b> from within its <i>AdapterControl</i> routine.
+Only one DMA request can be queued for a device object at any one time. Therefore, the driver should not call <b>AllocateAdapterChannel</b> again for another DMA operation on the same device object until the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-driver_control">AdapterControl</a> routine has completed execution. In addition, a driver must not call <b>AllocateAdapterChannel</b> from within its <i>AdapterControl</i> routine.
 
-The system passes the value of the <b>CurrentIrp</b> member of <i>DeviceObject</i> as the <i>Irp</i> parameter of <i>AdapterControl</i>. If <b>AllocateAdapterChannel</b> is called from a driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff563858">StartIo</a> routine, this is guaranteed to point to the IRP that <i>StartIo</i> was called to process. Otherwise, to use the <i>Irp</i> parameter of <i>AdapterControl</i>, the driver must set <b>CurrentIrp</b> to point to the current IRP before calling <b>AllocateAdapterChannel</b>. 
+The system passes the value of the <b>CurrentIrp</b> member of <i>DeviceObject</i> as the <i>Irp</i> parameter of <i>AdapterControl</i>. If <b>AllocateAdapterChannel</b> is called from a driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-driver_startio">StartIo</a> routine, this is guaranteed to point to the IRP that <i>StartIo</i> was called to process. Otherwise, to use the <i>Irp</i> parameter of <i>AdapterControl</i>, the driver must set <b>CurrentIrp</b> to point to the current IRP before calling <b>AllocateAdapterChannel</b>. 
 
 
 
@@ -147,39 +147,39 @@ The system passes the value of the <b>CurrentIrp</b> member of <i>DeviceObject</
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544062">DMA_ADAPTER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_dma_adapter">DMA_ADAPTER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544071">DMA_OPERATIONS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_dma_operations">DMA_OPERATIONS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545917">FlushAdapterBuffers</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pflush_adapter_buffers">FlushAdapterBuffers</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546507">FreeAdapterChannel</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pfree_adapter_channel">FreeAdapterChannel</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546513">FreeMapRegisters</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pfree_map_registers">FreeMapRegisters</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554402">MapTransfer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pmap_transfer">MapTransfer</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560782">ReadDmaCounter</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pread_dma_counter">ReadDmaCounter</a>
  
 
  

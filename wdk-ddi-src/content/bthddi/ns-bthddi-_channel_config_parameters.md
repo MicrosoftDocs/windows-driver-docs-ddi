@@ -146,7 +146,7 @@ The QoS settings for the specified channel direction.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536757">L2CAP_CONFIG_OPTION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/ns-bthddi-_l2cap_config_option">L2CAP_CONFIG_OPTION</a>
  
 
  

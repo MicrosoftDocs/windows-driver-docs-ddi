@@ -56,7 +56,7 @@ The <b>PsSetLoadImageNotifyRoutine</b> routine registers a driver-supplied callb
 
 ### -param NotifyRoutine [in]
 
-A pointer to the caller-implemented <a href="https://msdn.microsoft.com/library/windows/hardware/mt764088">PLOAD_IMAGE_NOTIFY_ROUTINE</a> callback routine for load-image notifications.
+A pointer to the caller-implemented <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nc-ntddk-pload_image_notify_routine">PLOAD_IMAGE_NOTIFY_ROUTINE</a> callback routine for load-image notifications.
 
 
 ## -returns
@@ -72,17 +72,17 @@ A pointer to the caller-implemented <a href="https://msdn.microsoft.com/library/
 
 
 
-Highest-level system-profiling drivers can call <b>PsSetLoadImageNotifyRoutine</b> to set up their load-image notify routines (see <a href="https://msdn.microsoft.com/library/windows/hardware/mt764088">PLOAD_IMAGE_NOTIFY_ROUTINE</a>).
+Highest-level system-profiling drivers can call <b>PsSetLoadImageNotifyRoutine</b> to set up their load-image notify routines (see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nc-ntddk-pload_image_notify_routine">PLOAD_IMAGE_NOTIFY_ROUTINE</a>).
 
 The maximum number of drivers that can be simultaneously registered to receive load-image notifications is eight. If the maximum number of load-image notify routines is already registered when a driver calls <b>PsSetLoadImageNotifyRoutine</b> to try to register an additional notify routine, <b>PsSetLoadImageNotifyRoutine</b> fails and returns STATUS_INSUFFICIENT_RESOURCES.
 
 <b>Notes</b>
 
 <ul>
-<li>An update for Windows 8.1 increases the maximum number of drivers registered to receive load-image notifications from eight to 64. This update is installed as part of a cumulative update that is available through Windows Update starting on April 8, 2014. In addition, this cumulative update is available at <a href="https://support.microsoft.com/kb/2919355">https://support.microsoft.com/kb/2919355</a>.</li>
-<li>Users of Windows 7 with Service Pack 1 (SP1) can install a hotfix to increase the maximum number of drivers registered to receive load-image notifications from eight to 64. This hotfix is available at <a href="https://support.microsoft.com/kb/2922790">https://support.microsoft.com/kb/2922790</a>.</li>
+<li>An update for Windows 8.1 increases the maximum number of drivers registered to receive load-image notifications from eight to 64. This update is installed as part of a cumulative update that is available through Windows Update starting on April 8, 2014. In addition, this cumulative update is available at <a href="https://support.microsoft.com/help/2919355/windows-rt-8-1-windows-8-1-and-windows-server-2012-r2-update-april-201">https://support.microsoft.com/kb/2919355</a>.</li>
+<li>Users of Windows 7 with Service Pack 1 (SP1) can install a hotfix to increase the maximum number of drivers registered to receive load-image notifications from eight to 64. This hotfix is available at <a href="https://support.microsoft.com/help/2922790/some-software-products-function-incorrectly-in-windows">https://support.microsoft.com/kb/2922790</a>.</li>
 </ul>
-A driver must remove any callbacks it registers before it unloads. You can remove the callback by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559949">PsRemoveLoadImageNotifyRoutine</a> routine.
+A driver must remove any callbacks it registers before it unloads. You can remove the callback by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-psremoveloadimagenotifyroutine">PsRemoveLoadImageNotifyRoutine</a> routine.
 
 
 
@@ -92,23 +92,23 @@ A driver must remove any callbacks it registers before it unloads. You can remov
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt764088">PLOAD_IMAGE_NOTIFY_ROUTINE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nc-ntddk-pload_image_notify_routine">PLOAD_IMAGE_NOTIFY_ROUTINE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559935">PsGetCurrentProcessId</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-psgetcurrentprocessid">PsGetCurrentProcessId</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559949">PsRemoveLoadImageNotifyRoutine</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-psremoveloadimagenotifyroutine">PsRemoveLoadImageNotifyRoutine</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559951">PsSetCreateProcessNotifyRoutine</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-pssetcreateprocessnotifyroutine">PsSetCreateProcessNotifyRoutine</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559954">PsSetCreateThreadNotifyRoutine</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-pssetcreatethreadnotifyroutine">PsSetCreateThreadNotifyRoutine</a>
  
 
  

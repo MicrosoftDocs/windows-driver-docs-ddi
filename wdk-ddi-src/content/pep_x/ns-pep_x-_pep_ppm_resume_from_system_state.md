@@ -56,7 +56,7 @@ Used by the <b>PEP_NOTIFY_PPM_RESUME_FROM_SYSTEM_STATE</b> notification that not
 
 ### -field TargetState
 
-On input, a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564565">SYSTEM_POWER_STATE</a>-type value that indicates the power state that the system is entering. 
+On input, a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_system_power_state">SYSTEM_POWER_STATE</a>-type value that indicates the power state that the system is entering. 
 
 
 ## -see-also
@@ -64,7 +64,7 @@ On input, a <a href="https://msdn.microsoft.com/library/windows/hardware/ff56456
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt186881">Processor power management (PPM) notifications</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">Processor power management (PPM) notifications</a>
  
 
  

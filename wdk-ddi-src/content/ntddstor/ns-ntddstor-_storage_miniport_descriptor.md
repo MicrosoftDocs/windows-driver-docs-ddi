@@ -69,7 +69,7 @@ Specifies the total size of the data returned, in bytes. This may include data t
 ### -field Portdriver
 
 Type of port driver as enumerated by the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/mt668773">STORAGE_PORT_CODE_SET</a> enumeration.
+     <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/mt668773(v=vs.85)">STORAGE_PORT_CODE_SET</a> enumeration.
 
 
 ### -field LUNResetSupported

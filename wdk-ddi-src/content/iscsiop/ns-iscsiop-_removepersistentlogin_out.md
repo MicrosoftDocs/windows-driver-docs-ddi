@@ -46,7 +46,7 @@ req.typenames: RemovePersistentLogin_OUT, *PRemovePersistentLogin_OUT
 ## -description
 
 
-The RemovePersistentLogin_OUT structure holds the output data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563995">RemovePersistentLogin</a> method.
+The RemovePersistentLogin_OUT structure holds the output data for the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/removepersistentlogin">RemovePersistentLogin</a> method.
 
 
 ## -struct-fields
@@ -56,7 +56,7 @@ The RemovePersistentLogin_OUT structure holds the output data for the <a href="h
 
 ### -field Status
 
-On output from <b>RemovePersistentLogin</b>, the status of the operation. For a list of status qualifiers, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>.
+On output from <b>RemovePersistentLogin</b>, the status of the operation. For a list of status qualifiers, see <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/iscsi-status-qualifiers">ISCSI_STATUS_QUALIFIERS</a>.
 
 
 ## -remarks
@@ -73,15 +73,15 @@ You must implement this method.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/iscsi-status-qualifiers">ISCSI_STATUS_QUALIFIERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563995">RemovePersistentLogin</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/removepersistentlogin">RemovePersistentLogin</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564003">RemovePersistentLogin_IN</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/iscsiop/ns-iscsiop-_removepersistentlogin_in">RemovePersistentLogin_IN</a>
  
 
  

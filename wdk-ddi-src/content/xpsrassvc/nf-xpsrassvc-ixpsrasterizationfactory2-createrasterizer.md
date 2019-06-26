@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <b>CreateRasterizer</b> method creates an XPS rasterizer object that can convert content from XPS to PWG Raster using the <a href="https://msdn.microsoft.com/a0493b5f-d6f7-4f69-9c6e-e112c29250c9">XPS Rasterization Service</a>. PWG Raster supports non-square DPIs.
+The <b>CreateRasterizer</b> method creates an XPS rasterizer object that can convert content from XPS to PWG Raster using the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_print/index">XPS Rasterization Service</a>. PWG Raster supports non-square DPIs.
 
 
 
@@ -72,7 +72,7 @@ The <b>CreateRasterizer</b> method creates an XPS rasterizer object that can con
 
 ### -param nonTextRenderingMode [in]
 
-Rendering mode for nontext items in the rasterized output. This parameter indicates whether to generate antialiased output. Set this parameter to one of the following <a href="https://msdn.microsoft.com/library/windows/hardware/ff564291">XPSRAS_RENDERING_MODE</a> enumeration values:
+Rendering mode for nontext items in the rasterized output. This parameter indicates whether to generate antialiased output. Set this parameter to one of the following <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/xpsrassvc/ne-xpsrassvc-__midl___midl_itf_xpsrassvc_0000_0001_0001">XPSRAS_RENDERING_MODE</a> enumeration values:
 
 <ul>
 <li>
@@ -102,7 +102,7 @@ XPSRAS_RENDERING_MODE_ALIASED
 
 ### -param pixelFormat [in]
 
-Allows a caller to select the pixel format used by the IWICBitmap returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff556365">IXpsRasterizer::RasterizeRect</a>. Set this parameter to one of the following <a href="https://msdn.microsoft.com/library/windows/hardware/hh802469">XPSRAS_PIXEL_FORMAT</a> enumeration values:
+Allows a caller to select the pixel format used by the IWICBitmap returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/xpsrassvc/nf-xpsrassvc-ixpsrasterizer-rasterizerect">IXpsRasterizer::RasterizeRect</a>. Set this parameter to one of the following <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/xpsrassvc/ne-xpsrassvc-__midl___midl_itf_xpsrassvc_0000_0003_0001">XPSRAS_PIXEL_FORMAT</a> enumeration values:
 
 <ul>
 <li>
@@ -121,7 +121,7 @@ XPSRAS_PIXEL_FORMAT_128BPP_PRGBA_FLOAT_SCRGB
 
 ### -param backgroundColor [in]
 
-Allows a caller to select background color. Set this parameter to one of the following <a href="https://msdn.microsoft.com/library/windows/hardware/dn897481">XPSRAS_BACKGROUND_COLOR</a> enumeration values:
+Allows a caller to select background color. Set this parameter to one of the following <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/xpsrassvc/ne-xpsrassvc-__midl___midl_itf_xpsrassvc_0000_0004_0001">XPSRAS_BACKGROUND_COLOR</a> enumeration values:
 
 <ul>
 <li>
@@ -145,7 +145,7 @@ The default background color is XPSRAS_BACKGROUND_COLOR_TRANSPARENT.
 
 #### - **ppIXpsRasterizer [out, optional]
 
-This parameter points to a location into which the method writes a pointer to the <a href="https://msdn.microsoft.com/1ef99120-2b3b-45aa-bcf7-16bcb9656089">IXpsRasterizer</a> interface of the newly created XPS rasterizer object. If the method fails, it writes <b>NULL</b> to this location and returns an error code.
+This parameter points to a location into which the method writes a pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/xpsrassvc/nn-xpsrassvc-ixpsrasterizer">IXpsRasterizer</a> interface of the newly created XPS rasterizer object. If the method fails, it writes <b>NULL</b> to this location and returns an error code.
 
 
 
@@ -178,7 +178,7 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRE
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn937110">IXpsRasterizationFactory2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/xpsrassvc/nn-xpsrassvc-ixpsrasterizationfactory2">IXpsRasterizationFactory2</a>
  
 
  

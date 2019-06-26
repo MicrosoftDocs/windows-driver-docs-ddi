@@ -61,7 +61,7 @@ A WDFDEVICE handle to the framework device object that represents the serial con
 
 ### -param Config [in]
 
-A pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/dn265310">SERCX2_CONFIG</a> structure that contains pointers to a set of event callback functions that are implemented by the serial controller driver. Version 2 of the serial framework controller (SerCx2) calls these functions to configure the serial controller and to perform basic operations that are independent of the I/O transaction types (PIO, system DMA, or custom) that the driver  supports.
+A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sercx/ns-sercx-_sercx2_config">SERCX2_CONFIG</a> structure that contains pointers to a set of event callback functions that are implemented by the serial controller driver. Version 2 of the serial framework controller (SerCx2) calls these functions to configure the serial controller and to perform basic operations that are independent of the I/O transaction types (PIO, system DMA, or custom) that the driver  supports.
 
 
 ## -returns
@@ -129,15 +129,15 @@ Insufficient resources are available to perform the requested operation.
 
 
 
-Before calling this method, the serial controller driver must previously have called the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265262">SerCx2InitializeDeviceInit</a> method.
+Before calling this method, the serial controller driver must previously have called the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sercx/nf-sercx-sercx2initializedeviceinit">SerCx2InitializeDeviceInit</a> method.
 
-The serial controller driver must call this method from its <a href="https://msdn.microsoft.com/b20db029-ee2c-4fb1-bd69-ccd2e37fdc9a">EvtDriverDeviceAdd</a> callback function after it creates a framework device object for the serial controller. The driver typically calls a method such as <a href="https://msdn.microsoft.com/library/windows/hardware/ff545926">WdfDeviceCreate</a> to create the framework device object and to obtain a WDFDEVICE handle to this object.
+The serial controller driver must call this method from its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add">EvtDriverDeviceAdd</a> callback function after it creates a framework device object for the serial controller. The driver typically calls a method such as <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nf-wdfdevice-wdfdevicecreate">WdfDeviceCreate</a> to create the framework device object and to obtain a WDFDEVICE handle to this object.
 
-Three of the function pointers in the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265310">SERCX2_CONFIG</a> structure are required by SerCx2. The driver must implement the <a href="https://msdn.microsoft.com/52875B36-F52B-4D29-9C9D-76DB12BFEEA6">EvtSerCx2PurgeFifos</a>, <a href="https://msdn.microsoft.com/C7032B34-5912-48B1-8D59-BAE6C0FEFB2C">EvtSerCx2Control</a>, and <a href="https://msdn.microsoft.com/8D9BC698-1E62-4DC2-B233-37022F330F98">EvtSerCx2ApplyConfig</a> callback functions. Otherwise, the <b>SerCx2InitializeDevice</b> call fails and returns STATUS_INVALID_PARAMETER.
+Three of the function pointers in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sercx/ns-sercx-_sercx2_config">SERCX2_CONFIG</a> structure are required by SerCx2. The driver must implement the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sercx/nc-sercx-evt_sercx2_purge_fifos">EvtSerCx2PurgeFifos</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sercx/nc-sercx-evt_sercx2_control">EvtSerCx2Control</a>, and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sercx/nc-sercx-evt_sercx2_apply_config">EvtSerCx2ApplyConfig</a> callback functions. Otherwise, the <b>SerCx2InitializeDevice</b> call fails and returns STATUS_INVALID_PARAMETER.
 
-If the <b>RequestAttributes</b> member of the <b>SERCX2_CONFIG</b> structure is set to a value other than WDF_NO_OBJECT_ATTRIBUTES, the driver must not overwrite the values written to the <b>ParentObject</b>, <b>ExecutionLevel</b>, and <b>SynchronizationScope</b> members of this structure by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552402">WDF_OBJECT_ATTRIBUTES_INIT</a> function. Otherwise, the <b>SerCx2InitializeDevice</b> call fails and returns STATUS_INVALID_PARAMETER.
+If the <b>RequestAttributes</b> member of the <b>SERCX2_CONFIG</b> structure is set to a value other than WDF_NO_OBJECT_ATTRIBUTES, the driver must not overwrite the values written to the <b>ParentObject</b>, <b>ExecutionLevel</b>, and <b>SynchronizationScope</b> members of this structure by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfobject/nf-wdfobject-wdf_object_attributes_init">WDF_OBJECT_ATTRIBUTES_INIT</a> function. Otherwise, the <b>SerCx2InitializeDevice</b> call fails and returns STATUS_INVALID_PARAMETER.
 
-If the driver calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546786">WdfDeviceInitSetRequestAttributes</a> method to set the attributes to use for request objects, the request attributes specified in this call must match the request attributes that the driver specifies in the call to <b>SerCx2InitializeDevice</b>. For more information, see <a href="https://msdn.microsoft.com/29849A8C-6656-444C-BE91-405A4BA2D5B0">SerCx2 Custom-Receive Transactions</a> and <a href="https://msdn.microsoft.com/E72E68BC-A60A-41BE-8606-92A608648042">SerCx2 Custom-Transmit Transactions</a>.
+If the driver calls the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nf-wdfdevice-wdfdeviceinitsetrequestattributes">WdfDeviceInitSetRequestAttributes</a> method to set the attributes to use for request objects, the request attributes specified in this call must match the request attributes that the driver specifies in the call to <b>SerCx2InitializeDevice</b>. For more information, see <a href="https://docs.microsoft.com/previous-versions/dn265314(v=vs.85)">SerCx2 Custom-Receive Transactions</a> and <a href="https://docs.microsoft.com/previous-versions/dn265320(v=vs.85)">SerCx2 Custom-Transmit Transactions</a>.
 
 
 
@@ -147,23 +147,23 @@ If the driver calls the <a href="https://msdn.microsoft.com/library/windows/hard
 
 
 
-<a href="https://msdn.microsoft.com/b20db029-ee2c-4fb1-bd69-ccd2e37fdc9a">EvtDriverDeviceAdd</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add">EvtDriverDeviceAdd</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265310">SERCX2_CONFIG</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sercx/ns-sercx-_sercx2_config">SERCX2_CONFIG</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265262">SerCx2InitializeDeviceInit</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sercx/nf-sercx-sercx2initializedeviceinit">SerCx2InitializeDeviceInit</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545926">WdfDeviceCreate</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nf-wdfdevice-wdfdevicecreate">WdfDeviceCreate</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546786">WdfDeviceInitSetRequestAttributes</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nf-wdfdevice-wdfdeviceinitsetrequestattributes">WdfDeviceInitSetRequestAttributes</a>
  
 
  

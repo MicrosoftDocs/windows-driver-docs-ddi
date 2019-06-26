@@ -61,7 +61,7 @@ A pointer to the <a href="..\dxgiddi\nc-dxgiddi-pfnddxgiddi_presentcb.md">pfnPre
 
 ### -field pfnPresentMultiplaneOverlayCb
 
-A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh780324">pfnPresentMultiPlaneOverlayCb (DXGI)</a> function. Supported starting with Windows 8.1.
+A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxgiddi/nc-dxgiddi-pfnddxgiddi_present_multiplane_overlaycb">pfnPresentMultiPlaneOverlayCb (DXGI)</a> function. Supported starting with Windows 8.1.
 
 
 ### -field pfnPresentMultiplaneOverlay1Cb
@@ -82,7 +82,7 @@ A pointer to the [PFNDDXGIDDI_SUBMITPRESENTTOHWQUEUECB](../dxgiddi/nc-dxgiddi-pf
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh780324">pfnPresentMultiPlaneOverlayCb (DXGI)</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxgiddi/nc-dxgiddi-pfnddxgiddi_present_multiplane_overlaycb">pfnPresentMultiPlaneOverlayCb (DXGI)</a>
 
 
 

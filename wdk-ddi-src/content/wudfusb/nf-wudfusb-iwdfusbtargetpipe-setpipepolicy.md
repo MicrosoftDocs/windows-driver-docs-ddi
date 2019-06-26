@@ -90,7 +90,7 @@ A pointer to the buffer that contains the WinUsb pipe policy.
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/3c8f5c4a-a1a3-41a9-ae55-f83048aab0ec">SetPipePolicy</a> successfully set the WinUsb pipe policy. 
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nf-wudfusb-iwdfusbtargetpipe-setpipepolicy">SetPipePolicy</a> successfully set the WinUsb pipe policy. 
 
 </td>
 </tr>
@@ -102,7 +102,7 @@ A pointer to the buffer that contains the WinUsb pipe policy.
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/3c8f5c4a-a1a3-41a9-ae55-f83048aab0ec">SetPipePolicy</a> encountered an allocation failure.
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nf-wudfusb-iwdfusbtargetpipe-setpipepolicy">SetPipePolicy</a> encountered an allocation failure.
 
 </td>
 </tr>
@@ -129,9 +129,9 @@ This value corresponds to the error code that the WinUsb API returned.
 
 Pipe policy controls the behavior of the USB pipe (for example, time-outs, handling short packets, and so on).
 
-For more information about valid policy types and values that a UMDF driver can pass for the <i>PolicyType</i> and <i>Value</i> parameters, see the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540304">WinUsb_SetPipePolicy</a> function.
+For more information about valid policy types and values that a UMDF driver can pass for the <i>PolicyType</i> and <i>Value</i> parameters, see the <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_setpipepolicy">WinUsb_SetPipePolicy</a> function.
 
-For information about the behavior of the pipe policies, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff728833">WinUSB Functions for Pipe Policy Modification</a>.
+For information about the behavior of the pipe policies, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">WinUSB Functions for Pipe Policy Modification</a>.
 
 The <b>SetPipePolicy</b> method generates a UMDF request and synchronously sends the request to the I/O target.
 
@@ -204,15 +204,15 @@ CMyDevice::ConfigureUsbIoTargets(
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560391">IWDFUsbTargetPipe</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nn-wudfusb-iwdfusbtargetpipe">IWDFUsbTargetPipe</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560418">IWDFUsbTargetPipe::RetrievePipePolicy</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nf-wudfusb-iwdfusbtargetpipe-retrievepipepolicy">IWDFUsbTargetPipe::RetrievePipePolicy</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540304">WinUsb_SetPipePolicy</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_setpipepolicy">WinUsb_SetPipePolicy</a>
  
 
  

@@ -56,7 +56,7 @@ The D3DDDIARG_CREATEPIXELSHADER structure specifies a shader handle to associate
 
 ### -field CodeSize
 
-[in] The size, in bytes, of the pixel shader code that is passed in the <i>pCode</i> parameter in a call to the user-mode display driver's <a href="https://msdn.microsoft.com/b80a1823-6d91-440f-89e4-f7248579cc8f">CreatePixelShader</a> function.
+[in] The size, in bytes, of the pixel shader code that is passed in the <i>pCode</i> parameter in a call to the user-mode display driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_createpixelshader">CreatePixelShader</a> function.
 
 
 ### -field ShaderHandle
@@ -68,7 +68,7 @@ The D3DDDIARG_CREATEPIXELSHADER structure specifies a shader handle to associate
 
 
 
-For more information about programming shader assemblers, see <a href="https://msdn.microsoft.com/c858766c-b414-4971-b4d9-23ec94aca8ea">Processing Shader Codes</a>.
+For more information about programming shader assemblers, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/processing-shader-codes">Processing Shader Codes</a>.
 
 
 
@@ -78,7 +78,7 @@ For more information about programming shader assemblers, see <a href="https://m
 
 
 
-<a href="https://msdn.microsoft.com/b80a1823-6d91-440f-89e4-f7248579cc8f">CreatePixelShader</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_createpixelshader">CreatePixelShader</a>
  
 
  

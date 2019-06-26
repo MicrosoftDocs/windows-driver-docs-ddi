@@ -69,7 +69,7 @@ A pointer to a null-terminated wide-character string that contains the <i>Wdf-in
 
 ### -param ClientOptions [in]
 
-A pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff551241">WDF_COINSTALLER_INSTALL_OPTIONS</a>-typed structure that contains driver-specified installation options. 
+A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfinstaller/ns-wdfinstaller-_wdf_coinstaller_install_options">WDF_COINSTALLER_INSTALL_OPTIONS</a>-typed structure that contains driver-specified installation options. 
 
 
 ## -returns
@@ -85,7 +85,7 @@ A pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/wind
 
 
 
-The installer for the framework-based drivers of a non-PnP device must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff548835">WdfPreDeviceInstall</a> or <b>WdfPreDeviceInstallEx</b> before the installer calls <b>CreateService</b>.
+The installer for the framework-based drivers of a non-PnP device must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfinstaller/nf-wdfinstaller-wdfpredeviceinstall">WdfPreDeviceInstall</a> or <b>WdfPreDeviceInstallEx</b> before the installer calls <b>CreateService</b>.
 
 To obtain the address of the co-installer's <b>WdfPreDeviceInstallEx</b> function, the installer must call <b>GetProcAddress</b> after the installer has called <b>LoadLibrary</b> to load the co-installer.
 
@@ -93,15 +93,15 @@ If the co-installer determines that the computer must be restarted to complete t
 
 <ul>
 <li>
-If the installer sets the <i>ShowRebootPrompt</i> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551241">WDF_COINSTALLER_INSTALL_OPTIONS</a> structure to <b>TRUE</b>, <b>WdfPreDeviceInstallEx</b> informs the PnP manager that the computer must be restarted, and the PnP manager prompts the user that a restart is necessary. Setting the <i>ShowRebootPrompt</i> member to <b>TRUE</b> is equivalent to calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff548835">WdfPreDeviceInstall</a>.
+If the installer sets the <i>ShowRebootPrompt</i> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfinstaller/ns-wdfinstaller-_wdf_coinstaller_install_options">WDF_COINSTALLER_INSTALL_OPTIONS</a> structure to <b>TRUE</b>, <b>WdfPreDeviceInstallEx</b> informs the PnP manager that the computer must be restarted, and the PnP manager prompts the user that a restart is necessary. Setting the <i>ShowRebootPrompt</i> member to <b>TRUE</b> is equivalent to calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfinstaller/nf-wdfinstaller-wdfpredeviceinstall">WdfPreDeviceInstall</a>.
 
 </li>
 <li>
-If the installer sets the <i>ShowRebootPrompt</i> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551241">WDF_COINSTALLER_INSTALL_OPTIONS</a> structure to <b>FALSE</b>, <b>WdfPreDeviceInstallEx</b> does not inform the PnP manager that a restart is necessary. Instead, the function returns <b>ERROR_SUCCESS_REBOOT_REQUIRED</b>. Your installer can determine when or whether to restart the computer, 
+If the installer sets the <i>ShowRebootPrompt</i> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfinstaller/ns-wdfinstaller-_wdf_coinstaller_install_options">WDF_COINSTALLER_INSTALL_OPTIONS</a> structure to <b>FALSE</b>, <b>WdfPreDeviceInstallEx</b> does not inform the PnP manager that a restart is necessary. Instead, the function returns <b>ERROR_SUCCESS_REBOOT_REQUIRED</b>. Your installer can determine when or whether to restart the computer, 
 
 </li>
 </ul>
-For more information about the <b>WdfPreDeviceInstallEx</b> function and installers for framework-based drivers of non-PnP devices, see <a href="https://msdn.microsoft.com/99676d85-feb2-482c-a91b-cfc48be5904c">Installing a Non-PnP Driver</a>. For more information about <b>CreateService</b>, <b>GetProcAddress</b>, and <b>LoadLibrary</b>, see the Microsoft Windows SDK documentation.
+For more information about the <b>WdfPreDeviceInstallEx</b> function and installers for framework-based drivers of non-PnP devices, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/installing-a-non-pnp-driver">Installing a Non-PnP Driver</a>. For more information about <b>CreateService</b>, <b>GetProcAddress</b>, and <b>LoadLibrary</b>, see the Microsoft Windows SDK documentation.
 
 
 #### Examples
@@ -117,11 +117,11 @@ For a code example that uses the <b>WdfPreDeviceInstallEx</b> function, see the 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548829">WdfPostDeviceInstall</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfinstaller/nf-wdfinstaller-wdfpostdeviceinstall">WdfPostDeviceInstall</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548835">WdfPreDeviceInstall</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfinstaller/nf-wdfinstaller-wdfpredeviceinstall">WdfPreDeviceInstall</a>
  
 
  

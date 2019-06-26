@@ -46,7 +46,7 @@ req.typenames: AddPort_OUT, *PAddPort_OUT
 ## -description
 
 
-The AddPort_OUT structure is used by a WMI provider to report the output parameter data of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545022">AddPort</a> WMI method to the WMI client.
+The AddPort_OUT structure is used by a WMI provider to report the output parameter data of the <a href="https://docs.microsoft.com/previous-versions/ff545022(v=vs.85)">AddPort</a> WMI method to the WMI client.
 
 
 ## -struct-fields
@@ -56,7 +56,7 @@ The AddPort_OUT structure is used by a WMI provider to report the output paramet
 
 ### -field HBAStatus
 
-Contains the status of the operation. For a list of allowed values and their descriptions, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>.
+Contains the status of the operation. For a list of allowed values and their descriptions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/hba-status">HBA_STATUS</a>.
 
 
 ## -see-also
@@ -64,7 +64,7 @@ Contains the status of the operation. For a list of allowed values and their des
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545022">AddPort</a>
+<a href="https://docs.microsoft.com/previous-versions/ff545022(v=vs.85)">AddPort</a>
  
 
  

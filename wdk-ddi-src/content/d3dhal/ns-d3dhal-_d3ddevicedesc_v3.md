@@ -48,7 +48,7 @@ req.typenames: D3DDEVICEDESC_V3, *LPD3DDEVICEDESC_V3
 
 <b>The D3DDEVICEDESC_V3 structure is obsolete; only D3DDEVICEDESC_V1 should be used.</b>
 
-The D3DDEVICEDESC_V3 structure contains fields that are already reported in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544753">D3DHAL_D3DEXTENDEDCAPS</a> structure when responding to the GUID_D3DExtendedCaps GUID in <a href="https://msdn.microsoft.com/89a22163-a678-4c72-932a-ae4d17922e0b">DdGetDriverInfo</a>.
+The D3DDEVICEDESC_V3 structure contains fields that are already reported in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dhal/ns-d3dhal-_d3dhal_d3dextendedcaps">D3DHAL_D3DEXTENDEDCAPS</a> structure when responding to the GUID_D3DExtendedCaps GUID in <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/nc-ddrawint-pdd_getdriverinfo">DdGetDriverInfo</a>.
 
 
 <pre class="syntax" xml:space="preserve"><code>typedef struct _D3DDeviceDesc_V3 {

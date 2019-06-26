@@ -46,7 +46,7 @@ req.typenames: KSPIN_DATAFLOW, *PKSPIN_DATAFLOW
 ## -description
 
 
-An instance of the KSPIN_DATAFLOW enumeration is returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff565197">KSPROPERTY_PIN_DATAFLOW</a>.
+An instance of the KSPIN_DATAFLOW enumeration is returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-pin-dataflow">KSPROPERTY_PIN_DATAFLOW</a>.
 
 
 ## -enum-fields
@@ -69,15 +69,15 @@ Indicates that the pin factory instantiates data source pins. Such pins can only
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559692">HW_STREAM_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/strmini/ns-strmini-_hw_stream_information">HW_STREAM_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563483">KSPIN</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_kspin">KSPIN</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563533">KSPIN_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-kspin_descriptor">KSPIN_DESCRIPTOR</a>
  
 
  

@@ -61,8 +61,8 @@ Identifies the type of buffer passed to the accelerator. The following table lis
 | **Value** | **Buffer Type** | 
 |:--|:--|
 | 1 | Picture decoding parameter buffers. | 
-| 2 | [Macroblock control command buffers](https://msdn.microsoft.com/7a416992-04d3-4307-83b3-9fb94c17d60e)  (closely associated with and having a 1:1 correspondence with residual difference block data buffers). | 
-| 3 | Residual difference block data buffers. See [Macroblock-Oriented Picture Decoding](https://msdn.microsoft.com/7a416992-04d3-4307-83b3-9fb94c17d60e)  for more information. | 
+| 2 | [Macroblock control command buffers](https://docs.microsoft.com/windows-hardware/drivers/display/macroblock-oriented-picture-decoding)  (closely associated with and having a 1:1 correspondence with residual difference block data buffers). | 
+| 3 | Residual difference block data buffers. See [Macroblock-Oriented Picture Decoding](https://docs.microsoft.com/windows-hardware/drivers/display/macroblock-oriented-picture-decoding)  for more information. | 
 | 4 | Deblocking filter control command buffers (with or without a restriction on the effect of the filter). | 
 | 5 | Inverse-quantization matrix buffers (only used with off-host VLD processing). | 
 | 6 | Slice-control buffers (closely associated with and having a 1:1 correspondence with bitstream data buffers). | 
@@ -79,7 +79,7 @@ Identifies the type of buffer passed to the accelerator. The following table lis
 
 ### -field dwBufferIndex
 
-Specifies the sequence number of the buffer within the buffers of the same type that were passed in the same <a href="https://msdn.microsoft.com/7d820491-2df2-4036-8f3d-e6bcff4cd1f6">buffer description list</a>.
+Specifies the sequence number of the buffer within the buffers of the same type that were passed in the same <a href="https://docs.microsoft.com/windows-hardware/drivers/display/buffer-description-list">buffer description list</a>.
 
 
 ### -field dwDataOffset
@@ -94,7 +94,7 @@ Specifies the amount of relevant data in the buffer in bytes. The location of th
 
 ### -field dwFirstMBaddress
 
-Specifies the macroblock address of the first macroblock in the buffer passed to the accelerator. The macroblock address is given in raster scan order. The address is determined by the members of <a href="https://msdn.microsoft.com/library/windows/hardware/ff564012">DXVA_PictureParameters</a>. Examples of macroblock addresses are as follows.
+Specifies the macroblock address of the first macroblock in the buffer passed to the accelerator. The macroblock address is given in raster scan order. The address is determined by the members of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ns-dxva-_dxva_pictureparameters">DXVA_PictureParameters</a>. Examples of macroblock addresses are as follows.
 
 | **Macroblock** | **Address** | 
 |:--|:--|
@@ -106,7 +106,7 @@ Specifies the macroblock address of the first macroblock in the buffer passed to
 
 This member must be zero if the data buffer is among the following types: picture decoding parameters, inverse-quantization matrix, slice control, bitstream data, AYUV, IA44/AI44, DPXD, Highlight, and DCCMD.
 
-If the data buffer is a residual difference block data buffer, <b>dwFirstMBaddress</b> must have the same value as for the corresponding macroblock control command buffer. See <a href="https://msdn.microsoft.com/7a416992-04d3-4307-83b3-9fb94c17d60e">Macroblock-Oriented Picture Decoding</a> for more information.
+If the data buffer is a residual difference block data buffer, <b>dwFirstMBaddress</b> must have the same value as for the corresponding macroblock control command buffer. See <a href="https://docs.microsoft.com/windows-hardware/drivers/display/macroblock-oriented-picture-decoding">Macroblock-Oriented Picture Decoding</a> for more information.
 
 
 ### -field dwNumMBsInBuffer
@@ -119,7 +119,7 @@ The value for <b>dwNumMBsInBuffer</b> depends on the type of data buffer being u
 |:--|:--|
 | Macroblock control command | Must be equal to the sum of all values for MBskipsFollowing, added to the number of macroblock control commands in the macroblock control command buffer. | 
 | Residual difference block | Must have the same value as for the corresponding macroblock control command buffer. | 
-| Slice-control command | Must be equal to the value of the wNumberMBsInSlice member of the [DXVA_SliceInfo](https://msdn.microsoft.com/library/windows/hardware/ff564049) structure in the slice-control buffer. | 
+| Slice-control command | Must be equal to the value of the wNumberMBsInSlice member of the [DXVA_SliceInfo](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ns-dxva-_dxva_sliceinfo) structure in the slice-control buffer. | 
 | Bitstream | Must have the same value as for the corresponding slice-control command buffer. | 
 
 
@@ -158,11 +158,11 @@ An array of DXVA_BufferDescription structures is referred to as a buffer descrip
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564012">DXVA_PictureParameters</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ns-dxva-_dxva_pictureparameters">DXVA_PictureParameters</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564049">DXVA_SliceInfo</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ns-dxva-_dxva_sliceinfo">DXVA_SliceInfo</a>
  
 
  

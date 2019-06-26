@@ -99,7 +99,7 @@ Indicates, when one, that the corresponding output plug is on-line. When zero it
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537010">AV_PCR</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/61883/ns-61883-_av_pcr">AV_PCR</a>
  
 
  

@@ -49,8 +49,8 @@ req.typenames:
 
 The 
   <b>FwpsReferenceNetBufferList0</b> function increments the reference count for a 
-  <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure.
-<div class="alert"><b>Note</b>  <b>FwpsReferenceNetBufferList0</b> is a specific version of <b>FwpsReferenceNetBufferList</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
+  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
+<div class="alert"><b>Note</b>  <b>FwpsReferenceNetBufferList0</b> is a specific version of <b>FwpsReferenceNetBufferList</b>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
 ## -parameters
 
@@ -60,7 +60,7 @@ The
 ### -param netBufferList [in, out]
 
 A pointer to the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure for which the
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure for which the
      reference count is being incremented.
 
 
@@ -69,7 +69,7 @@ A pointer to the
 A value that indicates whether a callout intends to modify the cloned network buffer list, whose
      parent is pointed to by the 
      <i>netBufferList</i> parameter, after the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> function has returned. If <b>TRUE</b>,
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_netvista/">classifyFn</a> function has returned. If <b>TRUE</b>,
      the callout intends to modify the cloned net buffer list after 
      <i>classifyFn</i> has returned (an out-of-band modification). Otherwise, set to <b>FALSE</b>.
 
@@ -89,9 +89,9 @@ None.
 
 A callout driver calls the 
     <b>FwpsReferenceNetBufferList0</b> function to increment the reference count for a 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure such that the network
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure such that the network
     buffer list remains valid outside of the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> function.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_netvista/">classifyFn</a> function.
 
 For example, when a callout driver performs packet reassembly, it increments the reference count for
     each of the received NET_BUFFER_LIST structures that describe the packet fragments that make up an
@@ -102,7 +102,7 @@ For example, when a callout driver performs packet reassembly, it increments the
     packet fragments from its packet injection completion routine.
 
 A callout driver must call the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff551159">FwpsDereferenceNetBufferList0</a> function for the NET_BUFFER_LIST structure after the callout driver
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsdereferencenetbufferlist0">FwpsDereferenceNetBufferList0</a> function for the NET_BUFFER_LIST structure after the callout driver
     has finished referencing the structure.
 
 <h3><a id="Guidelines_for_Managing_Referenced_Packets"></a><a id="guidelines_for_managing_referenced_packets"></a><a id="GUIDELINES_FOR_MANAGING_REFERENCED_PACKETS"></a>Guidelines for Managing Referenced Packets</h3>
@@ -116,7 +116,7 @@ The intended use for referenced packets in WFP is to get clarification from a us
 
 If the callout driver must wait for a potentially lengthy operation, it should make a deep copy of
      the packet using 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff551135">FwpsAllocateNetBufferAndNetBufferList0</a> and block and absorb the original packet.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsallocatenetbufferandnetbufferlist0">FwpsAllocateNetBufferAndNetBufferList0</a> and block and absorb the original packet.
 
 Callout drivers should always return held packets as quickly as possible.
 
@@ -128,16 +128,16 @@ Callout drivers should always return held packets as quickly as possible.
 
 
 
-<a href="https://msdn.microsoft.com/e327fe9d-9425-4cc3-9552-88e9c4c3bdbe">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsdereferencenetbufferlist0">
    FwpsDereferenceNetBufferList0</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_netvista/">classifyFn</a>
  
 
  

@@ -46,7 +46,7 @@ req.typenames: RemoveTarget_OUT, *PRemoveTarget_OUT
 ## -description
 
 
-The RemoveTarget_OUT structure is used by an HBA miniport driver to report the output parameter data of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564030">RemoveTarget</a> WMI method to the WMI client.
+The RemoveTarget_OUT structure is used by an HBA miniport driver to report the output parameter data of the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/removetarget">RemoveTarget</a> WMI method to the WMI client.
 
 
 ## -struct-fields
@@ -56,14 +56,14 @@ The RemoveTarget_OUT structure is used by an HBA miniport driver to report the o
 
 ### -field HBAStatus
 
-Contains the status of the operation. For a list of allowed values and their descriptions, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>.
+Contains the status of the operation. For a list of allowed values and their descriptions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/hba-status">HBA_STATUS</a>.
 
 
 ## -remarks
 
 
 
-The WMI tool suite generates a declaration of the RemoveTarget_OUT structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562490">MSFC_EventControl WMI Class</a>.
+The WMI tool suite generates a declaration of the RemoveTarget_OUT structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msfc-eventcontrol-wmi-class">MSFC_EventControl WMI Class</a>.
 
 
 
@@ -73,7 +73,7 @@ The WMI tool suite generates a declaration of the RemoveTarget_OUT structure in 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564030">RemoveTarget</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/removetarget">RemoveTarget</a>
  
 
  

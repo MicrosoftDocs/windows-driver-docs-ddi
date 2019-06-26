@@ -105,7 +105,7 @@ Identifies that a write is in progress.
 
 
 
-This structure is used with a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543248">PI8042_KEYBOARD_ISR</a> callback routine and a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543252">PI8042_MOUSE_ISR</a> callback routine.
+This structure is used with a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdd8042/nc-ntdd8042-pi8042_keyboard_isr">PI8042_KEYBOARD_ISR</a> callback routine and a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdd8042/nc-ntdd8042-pi8042_mouse_isr">PI8042_MOUSE_ISR</a> callback routine.
 
 
 
@@ -115,19 +115,19 @@ This structure is used with a <a href="https://msdn.microsoft.com/library/window
 
 
 
-<a href="https://msdn.microsoft.com/0feca7de-aa80-4d1e-a5fc-901c18169649">KbFilter_IsrHook</a>
+<a href="https://docs.microsoft.com/previous-versions/ff542294(v=vs.85)">KbFilter_IsrHook</a>
 
 
 
-<a href="https://msdn.microsoft.com/34d0a7e9-4a1e-43ba-a643-800ebaadc360">MouFilter_IsrHook</a>
+<a href="https://docs.microsoft.com/previous-versions/ff542379(v=vs.85)">MouFilter_IsrHook</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543248">PI8042_KEYBOARD_ISR</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdd8042/nc-ntdd8042-pi8042_keyboard_isr">PI8042_KEYBOARD_ISR</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543252">PI8042_MOUSE_ISR</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdd8042/nc-ntdd8042-pi8042_mouse_isr">PI8042_MOUSE_ISR</a>
  
 
  

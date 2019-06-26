@@ -46,7 +46,7 @@ req.typenames: DeleteInitiatorNodeName_OUT, *PDeleteInitiatorNodeName_OUT
 ## -description
 
 
-The DeleteInitiatorNodeName_OUT structure holds the output data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552500">DeleteInitiatorNodeName</a> method.
+The DeleteInitiatorNodeName_OUT structure holds the output data for the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/deleteinitiatornodename">DeleteInitiatorNodeName</a> method.
 
 
 ## -struct-fields
@@ -56,7 +56,7 @@ The DeleteInitiatorNodeName_OUT structure holds the output data for the <a href=
 
 ### -field Status
 
-The status of the <b>DeleteInitiatorNodeName</b> operation. For a list of status qualifiers, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>. 
+The status of the <b>DeleteInitiatorNodeName</b> operation. For a list of status qualifiers, see <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/iscsi-status-qualifiers">ISCSI_STATUS_QUALIFIERS</a>. 
 
 
 ## -remarks
@@ -73,15 +73,15 @@ It is optional that you implement this method.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552500">DeleteInitiatorNodeName</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/deleteinitiatornodename">DeleteInitiatorNodeName</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552505">DeleteInitiatorNodeName_IN</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/iscsiop/ns-iscsiop-_deleteinitiatornodename_in">DeleteInitiatorNodeName_IN</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/iscsi-status-qualifiers">ISCSI_STATUS_QUALIFIERS</a>
  
 
  

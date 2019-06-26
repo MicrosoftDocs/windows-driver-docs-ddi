@@ -70,7 +70,7 @@ A handle to the display device (graphics context).
 
 *pData* [in, out]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff544255">D3DDDICB_SETDISPLAYMODE</a> structure that describes the allocation that is used to scan out.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddicb_setdisplaymode">D3DDDICB_SETDISPLAYMODE</a> structure that describes the allocation that is used to scan out.
 
 
 ## -returns
@@ -83,7 +83,7 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 |:--|:--|
 | **S_OK** | The display mode was successfully set. | 
 | **E_INVALIDARG** |     Parameters were validated and determined to be incorrect. | 
-| **D3DDDIERR_INCOMPATIBLEPRIVATEFORMAT** | The user-mode display driver must convert the format of the surface that is associated with the allocation that the hPrimaryAllocation member of [D3DDDICB_SETDISPLAYMODE](https://msdn.microsoft.com/library/windows/hardware/ff544255) specifies into the format attribute that the PrivateDriverFormatAttributemember of D3DDDICB_SETDISPLAYMODE specifies. The driver should then call pfnSetDisplayModeCb again. The driver could allocate a new allocation, perform a conversion bit-block transfer (bitblt) from the old primary surface to the new, and then destroy the old primary as long as the driver uses the new allocation handle for this allocation for all subsequent operations. The driver should repeat this process until pfnSetDisplayModeCb returns a different return value. | 
+| **D3DDDIERR_INCOMPATIBLEPRIVATEFORMAT** | The user-mode display driver must convert the format of the surface that is associated with the allocation that the hPrimaryAllocation member of [D3DDDICB_SETDISPLAYMODE](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddicb_setdisplaymode) specifies into the format attribute that the PrivateDriverFormatAttributemember of D3DDDICB_SETDISPLAYMODE specifies. The driver should then call pfnSetDisplayModeCb again. The driver could allocate a new allocation, perform a conversion bit-block transfer (bitblt) from the old primary surface to the new, and then destroy the old primary as long as the driver uses the new allocation handle for this allocation for all subsequent operations. The driver should repeat this process until pfnSetDisplayModeCb returns a different return value. | 
 This function might also return other HRESULT values.
 
 
@@ -95,13 +95,13 @@ This function might also return other HRESULT values.
 
 
 
-After the Microsoft Direct3D runtime calls the user-mode display driver's <a href="https://msdn.microsoft.com/d0e409fe-1c64-4468-b52e-b0ede39f6601">SetDisplayMode</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff569536">SetDisplayModeDXGI</a> function to set the primary surface to be scanned out to the display, the user-mode display driver calls the <b>pfnSetDisplayModeCb</b> function to set the underlying primary allocation that is used for scanning out. 
+After the Microsoft Direct3D runtime calls the user-mode display driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_setdisplaymode">SetDisplayMode</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxgiddi/ns-dxgiddi-dxgi1_1_ddi_base_functions">SetDisplayModeDXGI</a> function to set the primary surface to be scanned out to the display, the user-mode display driver calls the <b>pfnSetDisplayModeCb</b> function to set the underlying primary allocation that is used for scanning out. 
 
 <div class="alert"><b>Note</b>  Before the user-mode display driver calls <b>pfnSetDisplayModeCb</b> to set a new display mode that uses an extended format, a multiple-sampling method, or both, the driver must ensure that the current GDI display mode has the same resolution as the new display mode; otherwise, <b>pfnSetDisplayModeCb</b> returns E_INVALIDARG.
      </div>
 <div> </div>
 
-<b>Direct3D Version 11 Note:  </b>For more information about how the driver calls <b>pfnSetDisplayModeCb</b>, see <a href="https://msdn.microsoft.com/014a5e44-f8c4-45c0-96e8-d82f37b8b28d">Changes from Direct3D 10</a>.
+<b>Direct3D Version 11 Note:  </b>For more information about how the driver calls <b>pfnSetDisplayModeCb</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/changes-from-direct3d-10">Changes from Direct3D 10</a>.
 
 
 
@@ -134,19 +134,19 @@ HRESULT CD3DContext::SetDisplayMode(CONST D3DDDIARG_SETDISPLAYMODE* pSetDisplayM
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544255">D3DDDICB_SETDISPLAYMODE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddicb_setdisplaymode">D3DDDICB_SETDISPLAYMODE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544512">D3DDDI_DEVICECALLBACKS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddi_devicecallbacks">D3DDDI_DEVICECALLBACKS</a>
 
 
 
-<a href="https://msdn.microsoft.com/d0e409fe-1c64-4468-b52e-b0ede39f6601">SetDisplayMode</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_setdisplaymode">SetDisplayMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569536">SetDisplayModeDXGI</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxgiddi/ns-dxgiddi-dxgi1_1_ddi_base_functions">SetDisplayModeDXGI</a>
  
 
  

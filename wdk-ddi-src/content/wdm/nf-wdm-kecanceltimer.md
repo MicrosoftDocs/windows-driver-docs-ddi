@@ -80,11 +80,11 @@ The routine returns <b>TRUE</b> if the timer is still in the timer queue. A nonp
 
 Note that a DPC that is already running runs to completion. The driver must ensure that the DPC has completed before freeing any resources used by the DPC. For a nonperiodic timer, you can use synchronization primitives, such as event objects, to synchronize between the driver and the DPC. The driver can check the return code of <b>KeCancelTimer</b> to determine if the DPC is running. If so, the DPC can signal the event before exiting, and the driver can wait for that event to be reset to the not-signaled state.
 
-Since for periodic timers <b>KeCancelTimer</b> always returns <b>TRUE</b>, drivers must use a different technique to wait until the DPC has completed. Use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552050">KeFlushQueuedDpcs</a> routine to block until the DPC executes.
+Since for periodic timers <b>KeCancelTimer</b> always returns <b>TRUE</b>, drivers must use a different technique to wait until the DPC has completed. Use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-keflushqueueddpcs">KeFlushQueuedDpcs</a> routine to block until the DPC executes.
 
 Drivers do not need to synchronize for data stored in global variables or driver object extensions. The system automatically calls <b>KeFlushQueuedDpcs</b> before deallocating either of these regions.
 
-For more information about timer objects, see <a href="https://msdn.microsoft.com/b58487de-6e9e-45f4-acb8-9233c8718ee2">Timer Objects and DPCs</a>.
+For more information about timer objects, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/timer-objects-and-dpcs">Timer Objects and DPCs</a>.
 
 
 
@@ -94,15 +94,15 @@ For more information about timer objects, see <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552168">KeInitializeTimer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-keinitializetimer">KeInitializeTimer</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553099">KeReadStateTimer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kereadstatetimer">KeReadStateTimer</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553286">KeSetTimer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kesettimer">KeSetTimer</a>
  
 
  

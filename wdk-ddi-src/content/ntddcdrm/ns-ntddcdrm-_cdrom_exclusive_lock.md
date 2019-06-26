@@ -46,7 +46,7 @@ req.typenames: CDROM_EXCLUSIVE_LOCK, *PCDROM_EXCLUSIVE_LOCK
 ## -description
 
 
-The CDROM_EXCLUSIVE_LOCK structure is used with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559327">IOCTL_CDROM_EXCLUSIVE_ACCESS</a> request to lock a CD-ROM device for exclusive access.
+The CDROM_EXCLUSIVE_LOCK structure is used with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_exclusive_access">IOCTL_CDROM_EXCLUSIVE_ACCESS</a> request to lock a CD-ROM device for exclusive access.
 
 
 ## -struct-fields
@@ -56,7 +56,7 @@ The CDROM_EXCLUSIVE_LOCK structure is used with the <a href="https://msdn.micros
 
 ### -field Access
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff551362">CDROM_EXCLUSIVE_ACCESS</a> structure that specifies the type of exclusive access request and the flags that are associated with the request.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdrm/ns-ntddcdrm-_cdrom_exclusive_access">CDROM_EXCLUSIVE_ACCESS</a> structure that specifies the type of exclusive access request and the flags that are associated with the request.
 
 
 ### -field CallerName
@@ -69,11 +69,11 @@ A <b>NULL</b>-terminated string that identifies the application or system compon
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551362">CDROM_EXCLUSIVE_ACCESS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdrm/ns-ntddcdrm-_cdrom_exclusive_access">CDROM_EXCLUSIVE_ACCESS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559327">IOCTL_CDROM_EXCLUSIVE_ACCESS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_exclusive_access">IOCTL_CDROM_EXCLUSIVE_ACCESS</a>
  
 
  

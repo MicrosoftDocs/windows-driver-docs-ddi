@@ -50,7 +50,7 @@ req.typenames:
 The 
   <b>WskDeregister</b> function unregisters a WSK application's registration instance that was previously
   created by 
-  <a href="https://msdn.microsoft.com/library/windows/hardware/ff571143">WskRegister</a>.
+  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nf-wsk-wskregister">WskRegister</a>.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ The
 ### -param WskRegistration [in]
 
 A pointer to the memory location initialized by 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571143">WskRegister</a> that identifies a WSK
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nf-wsk-wskregister">WskRegister</a> that identifies a WSK
      application's registration instance.
 
 
@@ -79,7 +79,7 @@ None
 
 
 For each call to 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff571143">WskRegister</a> that returns a success code, there
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nf-wsk-wskregister">WskRegister</a> that returns a success code, there
     must be exactly one corresponding 
     <b>WskDeregister</b> call that uses the same 
     <i>WskRegistration</i> parameter that was passed to 
@@ -94,7 +94,7 @@ All captured instances of the provider NPI are released.
 </li>
 <li>
 Any outstanding calls to functions pointed to by 
-      <a href="https://msdn.microsoft.com/library/windows/hardware/ff571175">WSK_PROVIDER_DISPATCH</a> members have
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/ns-wsk-_wsk_provider_dispatch">WSK_PROVIDER_DISPATCH</a> members have
       returned.
 
 </li>
@@ -115,11 +115,11 @@ For more information about attaching a WSK application to the WSK subsystem, see
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571178">WSK_REGISTRATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/ns-wsk-_wsk_registration">WSK_REGISTRATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571143">WskRegister</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nf-wsk-wskregister">WskRegister</a>
  
 
  

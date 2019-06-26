@@ -46,7 +46,7 @@ req.typenames: PEP_PPM_QUERY_VETO_REASONS, *PPEP_PPM_QUERY_VETO_REASONS
 ## -description
 
 
-The <b>PEP_PPM_QUERY_VETO_REASONS</b> structure specifies the total number of veto reasons that the PEP uses in calls to the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186880">ProcessorIdleVeto</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/mt186867">PlatformIdleVeto</a> routines.
+The <b>PEP_PPM_QUERY_VETO_REASONS</b> structure specifies the total number of veto reasons that the PEP uses in calls to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/nc-pepfx-pofxcallbackprocessoridleveto">ProcessorIdleVeto</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/nc-pepfx-pofxcallbackplatformidleveto">PlatformIdleVeto</a> routines.
 
 
 ## -struct-fields
@@ -63,7 +63,7 @@ The <b>PEP_PPM_QUERY_VETO_REASONS</b> structure specifies the total number of ve
 
 
 
-This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186829">PEP_NOTIFY_PPM_QUERY_VETO_REASONS</a> notification. The <b>VetoReasonCount</b> member contains an output value that the PEP writes to this member in response to the notification.
+This structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/ns-pepfx-_pep_ppm_query_veto_reason">PEP_NOTIFY_PPM_QUERY_VETO_REASONS</a> notification. The <b>VetoReasonCount</b> member contains an output value that the PEP writes to this member in response to the notification.
 
 
 
@@ -73,7 +73,7 @@ This structure is used by the <a href="https://msdn.microsoft.com/library/window
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt186829">PEP_NOTIFY_PPM_QUERY_VETO_REASONS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/ns-pepfx-_pep_ppm_query_veto_reason">PEP_NOTIFY_PPM_QUERY_VETO_REASONS</a>
  
 
  

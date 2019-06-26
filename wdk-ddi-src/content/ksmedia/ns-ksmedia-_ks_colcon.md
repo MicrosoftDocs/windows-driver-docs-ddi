@@ -98,7 +98,7 @@ Indicates
 
 
 
-The KS_COLCON structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565627">KSPROPERTY_SPHLI</a> structure.
+The KS_COLCON structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-_ksproperty_sphli">KSPROPERTY_SPHLI</a> structure.
 
 
 
@@ -108,7 +108,7 @@ The KS_COLCON structure is used by the <a href="https://msdn.microsoft.com/libra
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565627">KSPROPERTY_SPHLI</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-_ksproperty_sphli">KSPROPERTY_SPHLI</a>
  
 
  

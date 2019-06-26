@@ -60,7 +60,7 @@ The DMA channel number. The values for this member range from zero through the m
      DMA channels that the DMA engine supports minus one. The DMA provider driver specifies the maximum
      number of DMA channels in the 
      <b>MaxDmaChannelCount</b> member of the 
-     <a href="https://msdn.microsoft.com/7ec6d449-fdc2-44d8-976b-5a1d23c76e7b">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdma/ns-netdma-_net_dma_provider_characteristics">
      NET_DMA_PROVIDER_CHARACTERISTICS</a> structure.
 
 
@@ -77,12 +77,12 @@ The target CPU that the DMA provider driver should associate with the MSI-X inte
 
 The NetDMA interface passes an array of NET_DMA_CHANNEL_CPU_AFFINITY structures to a DMA provider
     driver's 
-    <a href="https://msdn.microsoft.com/a53d8798-63fa-4b16-bda2-880ca3521d03">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdma/nc-netdma-dma_channels_cpu_affinity_handler">
     ProviderSetDmaChannelCpuAffinity</a> function to specify the CPU affinity of the DMA channels.
 
 The NetDMA interface calls 
     <i>ProviderSetDmaChannelCpuAffinity</i> while in the context of the 
-    <a href="https://msdn.microsoft.com/35d70d0b-c1b9-433f-941d-6cb61ddf0b62">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdma/nf-netdma-netdmaregisterprovider">
     NetDmaRegisterProvider</a> function.
 
 
@@ -93,16 +93,16 @@ The NetDMA interface calls
 
 
 
-<a href="https://msdn.microsoft.com/7ec6d449-fdc2-44d8-976b-5a1d23c76e7b">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdma/ns-netdma-_net_dma_provider_characteristics">
    NET_DMA_PROVIDER_CHARACTERISTICS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568336">NetDmaRegisterProvider</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdma/nf-netdma-netdmaregisterprovider">NetDmaRegisterProvider</a>
 
 
 
-<a href="https://msdn.microsoft.com/a53d8798-63fa-4b16-bda2-880ca3521d03">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdma/nc-netdma-dma_channels_cpu_affinity_handler">
    ProviderSetDmaChannelCpuAffinity</a>
  
 

@@ -46,7 +46,7 @@ req.typenames: DXGKARG_GETROOTPAGETABLESIZE
 ## -description
 
 
-<b>DXGKARG_GETROOTPAGETABLESIZE</b> is used with <a href="https://msdn.microsoft.com/474F1772-0DF9-487B-AEB9-302392AE0B98">DxgkDdiGetRootPageTableSize</a>.
+<b>DXGKARG_GETROOTPAGETABLESIZE</b> is used with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_getrootpagetablesize">DxgkDdiGetRootPageTableSize</a>.
 
 
 ## -struct-fields
@@ -71,7 +71,7 @@ Physical adapter index (zero for non-linked display adapter configurations).
 
 
 
-<a href="https://msdn.microsoft.com/474F1772-0DF9-487B-AEB9-302392AE0B98">DxgkDdiGetRootPageTableSize</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_getrootpagetablesize">DxgkDdiGetRootPageTableSize</a>
  
 
  

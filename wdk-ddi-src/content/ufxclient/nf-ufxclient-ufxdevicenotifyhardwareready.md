@@ -56,7 +56,7 @@ Notifies UFX that the hardware is ready.
 
 ### -param UfxDevice [in]
 
-A handle to a UFX device object that the driver created by calling <a href="https://msdn.microsoft.com/library/windows/hardware/mt187951">UfxDeviceCreate</a>.
+A handle to a UFX device object that the driver created by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ufxclient/nf-ufxclient-ufxdevicecreate">UfxDeviceCreate</a>.
 
 
 ## -returns
@@ -72,7 +72,7 @@ This method does not return a value.
 
 
 
-The client driver typically calls <b>UfxDeviceNotifyHardwareReady</b> from its <a href="https://msdn.microsoft.com/0cfabb0f-2d5e-4445-8683-d2916de5b549">EvtDeviceD0Entry</a> callback function, as shown in the following example.
+The client driver typically calls <b>UfxDeviceNotifyHardwareReady</b> from its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nc-wdfdevice-evt_wdf_device_d0_entry">EvtDeviceD0Entry</a> callback function, as shown in the following example.
 
 <div class="code"><span codelanguage=""><table>
 <tr>

@@ -62,7 +62,7 @@ A handle that identifies the adapter.
 
 ### -param pQueryConnectionChange [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/6B91F3F0-B02D-46F3-9086-EA32F043FC16">DXGKARG_QUERYCONNECTIONCHANGE</a> structure that provides the OS allocated buffer into which the oldest change should be copied by the driver. The oldest change is judged by lowest ConnectionChangeId.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_queryconnectionchange">DXGKARG_QUERYCONNECTIONCHANGE</a> structure that provides the OS allocated buffer into which the oldest change should be copied by the driver. The oldest change is judged by lowest ConnectionChangeId.
 
 
 ## -returns

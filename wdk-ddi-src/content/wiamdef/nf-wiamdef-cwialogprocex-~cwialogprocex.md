@@ -72,7 +72,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt844723">CWiaLogProcEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-cwialogprocex-cwialogprocex">CWiaLogProcEx</a>
  
 
  

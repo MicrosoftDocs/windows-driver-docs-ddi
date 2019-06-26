@@ -158,7 +158,7 @@ It is optional that you implement this class.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563105">MSiSCSI_QMIPSECStats WMI Class</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msiscsi-qmipsecstats-wmi-class">MSiSCSI_QMIPSECStats WMI Class</a>
  
 
  

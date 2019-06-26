@@ -47,7 +47,7 @@ req.typenames:
 ## -description
 
 
-The <b>KsQueueWorkItem</b> function queues the specified work item with a worker previous created by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566775">KsRegisterWorker</a> function.
+The <b>KsQueueWorkItem</b> function queues the specified work item with a worker previous created by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksregisterworker">KsRegisterWorker</a> function.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ Specifies the previously allocated worker.
 
 ### -param WorkItem [in]
 
-Specifies the initialized work item to queue. This work item is only associated with the worker as long as the worker is on a queue. The work item must have been initialized by <a href="https://msdn.microsoft.com/library/windows/hardware/ff548276">IoAllocateWorkItem</a>.
+Specifies the initialized work item to queue. This work item is only associated with the worker as long as the worker is on a queue. The work item must have been initialized by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ioallocateworkitem">IoAllocateWorkItem</a>.
 
 
 ## -returns

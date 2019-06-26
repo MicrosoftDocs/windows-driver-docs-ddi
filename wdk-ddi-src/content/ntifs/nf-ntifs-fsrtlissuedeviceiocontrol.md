@@ -109,7 +109,7 @@ A pointer to a <b>ULONG</b> status value to receive the information field value 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542046">FltDeviceIoControlFile</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltdeviceiocontrolfile">FltDeviceIoControlFile</a>
  
 
  

@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-This macro is exported to support existing driver binaries and is obsolete. Use <a href="https://msdn.microsoft.com/library/windows/hardware/ff553085">RtlLengthSid</a> instead. 
+This macro is exported to support existing driver binaries and is obsolete. Use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-rtllengthsid">RtlLengthSid</a> instead. 
 
 
 ## -parameters

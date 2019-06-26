@@ -96,7 +96,7 @@ Note that both flags cannot be set at the same time
 
 
 
-<a href="https://msdn.microsoft.com/6C42E6C4-91EB-44A3-84E1-CAFDBD5CD724">SeTokenGetNoChildProcessRestricted</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-setokengetnochildprocessrestricted">SeTokenGetNoChildProcessRestricted</a>
  
 
  

@@ -121,7 +121,7 @@ To be supplied.
 
 
 
-<a href="https://msdn.microsoft.com/dfd6fa4d-60d8-486a-87a0-3d03e291a5c3">IPortableDeviceClassExtension Interface</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portabledeviceclassextension/nn-portabledeviceclassextension-iportabledeviceclassextension">IPortableDeviceClassExtension Interface</a>
  
 
  

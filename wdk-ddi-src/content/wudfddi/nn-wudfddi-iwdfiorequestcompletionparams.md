@@ -53,7 +53,7 @@ The <b>IWDFIoRequestCompletionParams</b> interface exposes methods that drivers 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFIoRequestCompletionParams</b> interface inherits from <a href="https://msdn.microsoft.com/library/windows/hardware/ff560292">IWDFRequestCompletionParams</a>. <b>IWDFIoRequestCompletionParams</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFIoRequestCompletionParams</b> interface inherits from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nn-wudfddi-iwdfrequestcompletionparams">IWDFRequestCompletionParams</a>. <b>IWDFIoRequestCompletionParams</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -68,28 +68,28 @@ The <b>IWDFIoRequestCompletionParams</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559057">IWDFIoRequestCompletionParams::GetIoctlParameters</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfiorequestcompletionparams-getioctlparameters">IWDFIoRequestCompletionParams::GetIoctlParameters</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/59e2cd27-ec10-46e9-aa0d-4a00e2684e76">GetIoctlParameters</a> method retrieves parameters that are associated with the completion of a device I/O control request.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfiorequestcompletionparams-getioctlparameters">GetIoctlParameters</a> method retrieves parameters that are associated with the completion of a device I/O control request.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559060">IWDFIoRequestCompletionParams::GetReadParameters</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfiorequestcompletionparams-getreadparameters">IWDFIoRequestCompletionParams::GetReadParameters</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/8f38616e-498b-485e-84c8-de62477b5871">GetReadParameters</a> method retrieves parameters that are associated with the completion of a read request.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfiorequestcompletionparams-getreadparameters">GetReadParameters</a> method retrieves parameters that are associated with the completion of a read request.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559062">IWDFIoRequestCompletionParams::GetWriteParameters</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfiorequestcompletionparams-getwriteparameters">IWDFIoRequestCompletionParams::GetWriteParameters</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/7161ba67-d94a-4f05-bb8f-a97ef418e580">GetWriteParameters</a> method retrieves parameters that are associated with the completion of a write request.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfiorequestcompletionparams-getwriteparameters">GetWriteParameters</a> method retrieves parameters that are associated with the completion of a write request.
 
 </td>
 </tr>

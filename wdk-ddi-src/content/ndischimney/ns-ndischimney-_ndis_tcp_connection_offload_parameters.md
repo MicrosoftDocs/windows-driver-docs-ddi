@@ -49,7 +49,7 @@ req.typenames: NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS, *PNDIS_TCP_CONNECTION_OFF
 <p class="CCE_Message">[The TCP chimney offload feature is deprecated and should not be used.]
 
 The NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS structure provides TCP chimney offload information in the 
-  <a href="https://msdn.microsoft.com/library/gg158102.aspx">
+  <a href="https://docs.microsoft.com/previous-versions/windows/embedded/gg158102(v=winembedded.80)">
   OID_TCP_CONNECTION_OFFLOAD_PARAMETERS</a> OID.
 
 
@@ -61,7 +61,7 @@ The NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS structure provides TCP chimney offloa
 ### -field Header
 
 The 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
      NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS structure. Set the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to 
@@ -75,7 +75,7 @@ The
 ### -field Encapsulation
 
 An 
-     <a href="https://msdn.microsoft.com/19013ffa-6bb5-4a77-b85b-c32fb0bf0530">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_offload_encapsulation">
      NDIS_OFFLOAD_ENCAPSULATION</a> structure that contains encapsulation settings for TCP chimney
      offload.
 
@@ -107,7 +107,7 @@ A UCHAR value that the TCP/IP driver stack sets to specify how many ticks, start
 A UCHAR value that the TCP/IP driver stack sets to specify the maximum number of times that the
      offload target should retransmit a segment on a TCP connection. When the retransmit counter for a TCP
      connection exceeds this limit, the offload target can call the 
-     <a href="https://msdn.microsoft.com/b62e8a07-fe7b-4c52-8795-19e4bb889b6e">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/nc-ndischimney-ndis_tcp_offload_event_indicate">
      NdisTcpOffloadEventHandler</a> function with an 
      <b>EventType</b> parameter of 
      <b>TcpIndicateRetrieve</b> to request that the TCP/IP driver stack terminate the
@@ -119,7 +119,7 @@ A UCHAR value that the TCP/IP driver stack sets to specify the maximum number of
 A UCHAR value that the TCP/IP driver stack sets to specify the maximum number of times that the
      offload target should retransmit a segment before the target indicates to the TCP/IP driver stack that
      the reachability of a neighbor is in doubt. For more information about this indication, see 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff563619">NdisMOffloadEventIndicate</a>. An
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/nf-ndischimney-ndismoffloadeventindicate">NdisMOffloadEventIndicate</a>. An
      offload target should support this member.
 
 
@@ -170,7 +170,7 @@ In NDIS 6.0 and later versions, the NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS struc
 
 To specify various offload parameter settings, NDIS and overlying drivers supply an
     NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS structure when they set the 
-    <a href="https://msdn.microsoft.com/library/gg158102.aspx">
+    <a href="https://docs.microsoft.com/previous-versions/windows/embedded/gg158102(v=winembedded.80)">
     OID_TCP_CONNECTION_OFFLOAD_PARAMETERS</a> OID.
 
 To obtain the current settings of various offload parameters, NDIS and overlying drivers query
@@ -195,23 +195,23 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566702">NDIS_OFFLOAD_ENCAPSULATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_offload_encapsulation">NDIS_OFFLOAD_ENCAPSULATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563619">NdisMOffloadEventIndicate</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/nf-ndischimney-ndismoffloadeventindicate">NdisMOffloadEventIndicate</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564595">NdisTcpOffloadEventHandler</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/nc-ndischimney-ndis_tcp_offload_event_indicate">NdisTcpOffloadEventHandler</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/gg158102.aspx">
+<a href="https://docs.microsoft.com/previous-versions/windows/embedded/gg158102(v=winembedded.80)">
    OID_TCP_CONNECTION_OFFLOAD_PARAMETERS</a>
  
 

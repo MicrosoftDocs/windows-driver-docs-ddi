@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <b>MmAllocateNodePagesForMdlEx</b> routine allocates nonpaged physical memory from an ideal node, and allocates an <a href="https://msdn.microsoft.com/library/windows/hardware/ff554414">MDL</a> structure to describe this memory.
+The <b>MmAllocateNodePagesForMdlEx</b> routine allocates nonpaged physical memory from an ideal node, and allocates an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_mdl">MDL</a> structure to describe this memory.
 
 
 ## -parameters
@@ -76,12 +76,12 @@ The total number of bytes to allocate for the MDL.
 
 ### -param CacheType [in]
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff554430">MEMORY_CACHING_TYPE</a> value, which indicates the type of caching that is allowed for the requested memory.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_memory_caching_type">MEMORY_CACHING_TYPE</a> value, which indicates the type of caching that is allowed for the requested memory.
 
 
 ### -param IdealNode [in]
 
-The ideal node number. If a multiprocessor system contains N nodes, valid node numbers are in the range 0 to N-1. Your driver can call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553020">KeQueryHighestNodeNumber</a> routine to get the highest node number. A single-processor or non-NUMA multiprocessor system has only one node, node 0, from which to allocate memory. For a NUMA multiprocessor system, the allocation is made from the ideal node, if possible. If insufficient memory is available in the ideal node to satisfy the allocation request, and the caller does not set the MM_ALLOCATE_FROM_LOCAL_NODE_ONLY flag, <b>MmAllocateNodePagesForMdlEx</b> will try to allocate memory from other nodes.
+The ideal node number. If a multiprocessor system contains N nodes, valid node numbers are in the range 0 to N-1. Your driver can call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-kequeryhighestnodenumber">KeQueryHighestNodeNumber</a> routine to get the highest node number. A single-processor or non-NUMA multiprocessor system has only one node, node 0, from which to allocate memory. For a NUMA multiprocessor system, the allocation is made from the ideal node, if possible. If insufficient memory is available in the ideal node to satisfy the allocation request, and the caller does not set the MM_ALLOCATE_FROM_LOCAL_NODE_ONLY flag, <b>MmAllocateNodePagesForMdlEx</b> will try to allocate memory from other nodes.
 
 
 ### -param Flags [in]
@@ -114,7 +114,7 @@ MM_ALLOCATE_REQUIRE_CONTIGUOUS_CHUNKS
 
 </li>
 </ul>
-The MM_ALLOCATE_PREFER_CONTIGUOUS and MM_ALLOCATE_REQUIRE_CONTIGUOUS_CHUNKS flag bits are mutually exclusive. For more information about these flags, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff556396">MM_ALLOCATE_XXX</a>.
+The MM_ALLOCATE_PREFER_CONTIGUOUS and MM_ALLOCATE_REQUIRE_CONTIGUOUS_CHUNKS flag bits are mutually exclusive. For more information about these flags, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-mmallocatepagesformdlex">MM_ALLOCATE_XXX</a>.
 
 
 ## -returns
@@ -138,17 +138,17 @@ In a non-uniform memory access (NUMA) multiprocessor system, the caller can spec
 
 By default, the physical memory pages that <b>MmAllocateNodePagesForMdlEx</b> returns are not contiguous pages. Callers can override the default behavior of this routine by setting the MM_ALLOCATE_PREFER_CONTIGUOUS or MM_ALLOCATE_REQUIRE_CONTIGUOUS_CHUNKS flag bit in the <i>Flags</i> parameter.
 
-<b>MmAllocateNodePagesForMdlEx</b> does not map the allocated physical memory into virtual memory. If necessary, the caller can call a routine such as <a href="https://msdn.microsoft.com/library/windows/hardware/ff554629">MmMapLockedPagesSpecifyCache</a> to map the physical memory pages described by the MDL.
+<b>MmAllocateNodePagesForMdlEx</b> does not map the allocated physical memory into virtual memory. If necessary, the caller can call a routine such as <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-mmmaplockedpagesspecifycache">MmMapLockedPagesSpecifyCache</a> to map the physical memory pages described by the MDL.
 
 <b>MmAllocateNodePagesForMdlEx</b> is designed for kernel-mode drivers that do not need corresponding virtual addresses (that is, they need physical pages and do not need them to be physically contiguous), and for kernel-mode drivers that can achieve substantial performance gains if physical memory for a device is allocated in a specific physical address range (for example, an AGP graphics card).
 
 Depending on how much physical memory is currently available in the requested ranges, <b>MmAllocateNodePagesForMdlEx</b> might return an MDL that describes less memory than was requested. The routine also might return <b>NULL</b> if no memory was allocated. The caller should check the amount of memory that is actually allocated, as described by the MDL.
 
-The caller must use <a href="https://msdn.microsoft.com/library/windows/hardware/ff554521">MmFreePagesFromMdl</a> to release the memory pages that are described by an MDL that was created by <b>MmAllocateNodePagesForMdlEx</b>. After calling <b>MmFreePagesFromMdl</b>, the caller must also call <a href="https://msdn.microsoft.com/library/windows/hardware/ff544590">ExFreePool</a> to release the memory allocated for the MDL structure.
+The caller must use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-mmfreepagesfrommdl">MmFreePagesFromMdl</a> to release the memory pages that are described by an MDL that was created by <b>MmAllocateNodePagesForMdlEx</b>. After calling <b>MmFreePagesFromMdl</b>, the caller must also call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-exfreepool">ExFreePool</a> to release the memory allocated for the MDL structure.
 
 By default, <b>MmAllocateNodePagesForMdlEx</b> fills the pages that it allocates with zeros. The caller can specify the MM_DONT_ZERO_ALLOCATION flag to override this default and to possibly improve performance.
 
-<div class="alert"><b>Note</b>    Memory that <b>MmAllocateNodePagesForMdlEx</b> allocates is uninitialized if you specify the MM_DONT_ZERO_ALLOCATION flag. A kernel-mode driver must first zero this memory if the driver is going to make the memory visible to user-mode software (to avoid leaking potentially privileged contents). For more information about this flag, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff556396">MM_ALLOCATE_XXX</a>.</div>
+<div class="alert"><b>Note</b>    Memory that <b>MmAllocateNodePagesForMdlEx</b> allocates is uninitialized if you specify the MM_DONT_ZERO_ALLOCATION flag. A kernel-mode driver must first zero this memory if the driver is going to make the memory visible to user-mode software (to avoid leaking potentially privileged contents). For more information about this flag, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-mmallocatepagesformdlex">MM_ALLOCATE_XXX</a>.</div>
 <div> </div>
 The maximum amount of memory that <b>MmAllocateNodePagesForMdlEx</b> can allocate in a single call is (4 gigabytes - PAGE_SIZE). The routine can satisfy an allocation request for this amount only if enough pages are available.
 
@@ -162,31 +162,31 @@ The maximum amount of memory that <b>MmAllocateNodePagesForMdlEx</b> can allocat
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544590">ExFreePool</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-exfreepool">ExFreePool</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553020">KeQueryHighestNodeNumber</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-kequeryhighestnodenumber">KeQueryHighestNodeNumber</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554414">MDL</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_mdl">MDL</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554430">MEMORY_CACHING_TYPE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_memory_caching_type">MEMORY_CACHING_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556396">MM_ALLOCATE_XXX</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-mmallocatepagesformdlex">MM_ALLOCATE_XXX</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554521">MmFreePagesFromMdl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-mmfreepagesfrommdl">MmFreePagesFromMdl</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554629">MmMapLockedPagesSpecifyCache</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-mmmaplockedpagesspecifycache">MmMapLockedPagesSpecifyCache</a>
  
 
  

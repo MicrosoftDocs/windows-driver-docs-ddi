@@ -101,7 +101,7 @@ The current event index plus <i>Value</i>.
 </table>
  
 
-The resulting index must be greater than zero and one less than the number of events returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff547906">GetNumberEvents</a>.
+The resulting index must be greater than zero and one less than the number of events returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-getnumberevents">GetNumberEvents</a>.
 
 
 ### -param NextIndex [out]
@@ -113,7 +113,7 @@ Receives the index of the next event.  If <i>NextIndex</i> is <b>NULL</b>, this 
 
 
 
-This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 <table>
 <tr>
@@ -141,7 +141,7 @@ The method was successful.
 
 
 
-If the specified event is the same as the current event, this method does nothing.  Otherwise,  this method sets the execution status of the target to DEBUG_STATUS_GO (and notifies the event callbacks).  When <a href="https://msdn.microsoft.com/library/windows/hardware/ff561229">WaitForEvent</a> is called, the engine will generate the specified event for the event callbacks and set it as the current event.
+If the specified event is the same as the current event, this method does nothing.  Otherwise,  this method sets the execution status of the target to DEBUG_STATUS_GO (and notifies the event callbacks).  When <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-waitforevent">WaitForEvent</a> is called, the engine will generate the specified event for the event callbacks and set it as the current event.
 
 This method is only useful if the target offers a list of events.
 
@@ -153,15 +153,15 @@ This method is only useful if the target offers a list of events.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545755">GetCurrentEventIndex</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-getcurrenteventindex">GetCurrentEventIndex</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547906">GetNumberEvents</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-getnumberevents">GetNumberEvents</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550519">IDebugControl3</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugcontrol3">IDebugControl3</a>
  
 
  

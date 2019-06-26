@@ -70,14 +70,14 @@ DMus
 MIDI
 
 </li>
-</ul>The single method in this interface unregisters a subdevice that was previously registered by a call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537731">PcRegisterSubdevice</a> routine. PortCls supports <b>PcRegisterSubdevice</b>.
+</ul>The single method in this interface unregisters a subdevice that was previously registered by a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-pcregistersubdevice">PcRegisterSubdevice</a> routine. PortCls supports <b>PcRegisterSubdevice</b>.
 
 The <code>IUnregisterSubdevice</code> object maintains its own internal reference to the subdevice to ensure that the corresponding device object is not deleted until all references to the <code>IUnregisterSubdevice</code> object are released.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUnregisterSubdevice</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IUnregisterSubdevice</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUnregisterSubdevice</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IUnregisterSubdevice</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -92,10 +92,10 @@ The <b>IUnregisterSubdevice</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537032">IUnregisterSubdevice::UnregisterSubdevice</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iunregistersubdevice-unregistersubdevice">IUnregisterSubdevice::UnregisterSubdevice</a>
 </td>
 <td align="left" width="63%">
-The <b>UnregisterSubdevice</b> method deletes the registration of a subdevice that was previously registered by a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff537731">PcRegisterSubdevice</a>.
+The <b>UnregisterSubdevice</b> method deletes the registration of a subdevice that was previously registered by a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-pcregistersubdevice">PcRegisterSubdevice</a>.
 
 </td>
 </tr>

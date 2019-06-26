@@ -58,7 +58,7 @@ req.typenames:
 
 ### -param pPrintProvidor [out]
 
-Caller-supplied address of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff560993">PRINTPROVIDOR</a> structure, to be filled in by the print provider.
+Caller-supplied address of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/ns-winsplp-_printprovidor">PRINTPROVIDOR</a> structure, to be filled in by the print provider.
 
 
 ### -param cbPrintProvidor [in]
@@ -84,7 +84,7 @@ If the operation succeeds, the function should return <b>TRUE</b>. Otherwise the
 
 
 
-Print providers are required to define an <b>InitializePrintProvidor</b> function, which is the first function called by the spooler after the provider has been loaded. The function must fill the supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff560993">PRINTPROVIDOR</a> structure with pointers to the provider's defined functions (see <a href="https://msdn.microsoft.com/4fae4b69-ed4b-47b6-b6e8-41733aed51a5">Functions Defined by Print Providers</a>). The function can also perform other provider-specific initialization operations.
+Print providers are required to define an <b>InitializePrintProvidor</b> function, which is the first function called by the spooler after the provider has been loaded. The function must fill the supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/ns-winsplp-_printprovidor">PRINTPROVIDOR</a> structure with pointers to the provider's defined functions (see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/functions-defined-by-print-providers">Functions Defined by Print Providers</a>). The function can also perform other provider-specific initialization operations.
 
 
 
@@ -94,7 +94,7 @@ Print providers are required to define an <b>InitializePrintProvidor</b> functio
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560993">PRINTPROVIDOR</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/ns-winsplp-_printprovidor">PRINTPROVIDOR</a>
  
 
  

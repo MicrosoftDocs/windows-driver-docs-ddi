@@ -46,7 +46,7 @@ req.typenames: USB_COMMON_DESCRIPTOR, *PUSB_COMMON_DESCRIPTOR
 ## -description
 
 
-The <b>USB_COMMON_DESCRIPTOR</b> structure contains the head of the first descriptor that matches the search criteria in a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539109">USBD_ParseDescriptors</a>. 
+The <b>USB_COMMON_DESCRIPTOR</b> structure contains the head of the first descriptor that matches the search criteria in a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbdlib/nf-usbdlib-usbd_parsedescriptors">USBD_ParseDescriptors</a>. 
 
 
 ## -struct-fields
@@ -69,11 +69,11 @@ Specifies the descriptor type code, as assigned by USB, for this descriptor.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">USB Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539109">USBD_ParseDescriptors</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbdlib/nf-usbdlib-usbd_parsedescriptors">USBD_ParseDescriptors</a>
  
 
  

@@ -52,37 +52,37 @@ The <code>IMiniport</code> interface is the generic miniport interface that all 
 <dl>
 <dd>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536699">IMiniportDMus</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dmusicks/nn-dmusicks-iminiportdmus">IMiniportDMus</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536703">IMiniportMidi</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iminiportmidi">IMiniportMidi</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536712">IMiniportTopology</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iminiporttopology">IMiniportTopology</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536714">IMiniportWaveCyclic</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iminiportwavecyclic">IMiniportWaveCyclic</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536724">IMiniportWavePci</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iminiportwavepci">IMiniportWavePci</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536737">IMiniportWaveRT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iminiportwavert">IMiniportWaveRT</a>
 
 
 </dd>

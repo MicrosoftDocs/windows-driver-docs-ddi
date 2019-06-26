@@ -98,15 +98,15 @@ USBCAMD_WaitOnDeviceEvent.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568577">USBCAMD_BulkReadWrite</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbcamdi/nc-usbcamdi-pfnusbcamd_bulkreadwrite">USBCAMD_BulkReadWrite</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568581">USBCAMD_ControlVendorCommand</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbcamdi/nf-usbcamdi-usbcamd_controlvendorcommand">USBCAMD_ControlVendorCommand</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568638">USBCAMD_WaitOnDeviceEvent</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbcamdi/nc-usbcamdi-pfnusbcamd_waitondeviceevent">USBCAMD_WaitOnDeviceEvent</a>
  
 
  

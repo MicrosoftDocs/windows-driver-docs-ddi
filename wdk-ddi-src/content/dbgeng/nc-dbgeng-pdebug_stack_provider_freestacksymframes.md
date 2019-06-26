@@ -93,7 +93,7 @@ After <i>FreeStackSymFrames</i> is called, the debugger calls the stack provider
 
 
 
-<a href="https://msdn.microsoft.com/76984F28-7AC9-44FD-9D8B-CC184484C73E">EndThreadStackReconstruction</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nc-dbgeng-pdebug_stack_provider_endthreadstackreconstruction">EndThreadStackReconstruction</a>
  
 
  

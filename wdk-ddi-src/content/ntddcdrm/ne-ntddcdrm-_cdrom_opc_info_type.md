@@ -46,7 +46,7 @@ req.typenames: CDROM_OPC_INFO_TYPE, *PCDROM_OPC_INFO_TYPE
 ## -description
 
 
-The <b>CDROM_OPC_INFO_TYPE</b>  enumeration is a member of the <a href="https://msdn.microsoft.com/library/windows/hardware/gg441237">CDROM_SIMPLE_OPC_INFO</a> structure. It defines the Optimum Power Calibration (OPC) request that is used as input to the <a href="https://msdn.microsoft.com/library/windows/hardware/gg441243">IOCTL_CDROM_SEND_OPC_INFORMATION</a> I/O control request. 
+The <b>CDROM_OPC_INFO_TYPE</b>  enumeration is a member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdrm/ns-ntddcdrm-_cdrom_simple_opc_info">CDROM_SIMPLE_OPC_INFO</a> structure. It defines the Optimum Power Calibration (OPC) request that is used as input to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_send_opc_information">IOCTL_CDROM_SEND_OPC_INFORMATION</a> I/O control request. 
 
 
 ## -enum-fields
@@ -64,11 +64,11 @@ Specifies the wrapper for the SEND OPC INFORMATION command from the Multimedia C
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/gg441237">CDROM_SIMPLE_OPC_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdrm/ns-ntddcdrm-_cdrom_simple_opc_info">CDROM_SIMPLE_OPC_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/gg441243">IOCTL_CDROM_SEND_OPC_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_send_opc_information">IOCTL_CDROM_SEND_OPC_INFORMATION</a>
  
 
  

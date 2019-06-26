@@ -14,7 +14,7 @@ product:
 
 ## -description
 
-This reference section describes the driver programming interfaces that are included in the [Windows Driver Kit (WDK)](https://developer.microsoft.com/windows/hardware/windows-driver-kit). The programming interfaces are used for developing drivers that interact with USB devices, host controllers, connectors. These include export functions that the drivers can call, callback routines that the driver can implement, I/O requests that the driver can send to the Microsoft-provided USB driver stack, and various data structures that are used in those requests.
+This reference section describes the driver programming interfaces that are included in the [Windows Driver Kit (WDK)](https://docs.microsoft.com/windows-hardware/drivers/download-the-wdk). The programming interfaces are used for developing drivers that interact with USB devices, host controllers, connectors. These include export functions that the drivers can call, callback routines that the driver can implement, I/O requests that the driver can send to the Microsoft-provided USB driver stack, and various data structures that are used in those requests.
 
 For the programming guide, see [Universal Serial Bus (USB)](https://docs.microsoft.com/windows-hardware/drivers/usbcon).
 

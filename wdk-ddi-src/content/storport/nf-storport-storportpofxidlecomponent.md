@@ -71,7 +71,7 @@ The SRB triggering the component deactivation. This parameter is <b>NULL</b> if 
 
 ### -param Component [in]
 
-The index that identifies the component. This parameter is an index into the <b>Components</b> array in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh920429">STOR_POFX_DEVICE</a> structure that the miniport driver registered for the device with a call to <a href="https://msdn.microsoft.com/library/windows/hardware/hh920421">StorPortInitializePoFxPower</a>. If the <b>Components</b> array contains N elements, component indexes range from 0 to N–1.
+The index that identifies the component. This parameter is an index into the <b>Components</b> array in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/ns-storport-_stor_pofx_device">STOR_POFX_DEVICE</a> structure that the miniport driver registered for the device with a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportinitializepofxpower">StorPortInitializePoFxPower</a>. If the <b>Components</b> array contains N elements, component indexes range from 0 to N–1.
 
 
 ### -param Flags [in]
@@ -143,7 +143,7 @@ The adapter or unit does not support PoFx.
 
 -or-
 
-<b>StorPortPoFxIdleComponent</b> was called with an inactive <i>Component</i> and an <i>Srb</i> for which a previous call to   <a href="https://msdn.microsoft.com/library/windows/hardware/hh920422">StorPortPoFxActivateComponent</a> was not performed.
+<b>StorPortPoFxIdleComponent</b> was called with an inactive <i>Component</i> and an <i>Srb</i> for which a previous call to   <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportpofxactivatecomponent">StorPortPoFxActivateComponent</a> was not performed.
 
 </td>
 </tr>
@@ -181,7 +181,7 @@ The active reference for the device component was decremented but the  component
 
 Currently, both adapter devices and unit devices have maximum component count of 1. The index in <i>Component</i> must always be set to 0.
 
-Each call to <b>StorPortPoFxIdleComponent</b> must be matched with a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/hh920422">StorPortPoFxActivateComponent</a>.
+Each call to <b>StorPortPoFxIdleComponent</b> must be matched with a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportpofxactivatecomponent">StorPortPoFxActivateComponent</a>.
 
 
 
@@ -191,15 +191,15 @@ Each call to <b>StorPortPoFxIdleComponent</b> must be matched with a previous ca
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh920429">STOR_POFX_DEVICE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/ns-storport-_stor_pofx_device">STOR_POFX_DEVICE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh920421">StorPortInitializePoFxPower</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportinitializepofxpower">StorPortInitializePoFxPower</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh920422">StorPortPoFxActivateComponent</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportpofxactivatecomponent">StorPortPoFxActivateComponent</a>
  
 
  

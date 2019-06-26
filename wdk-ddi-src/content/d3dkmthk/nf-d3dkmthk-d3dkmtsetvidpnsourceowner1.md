@@ -53,7 +53,7 @@ Sets and releases the video present source in the path of a video present networ
 
 ### -param D3DKMT_SETVIDPNSOURCEOWNER1
 
-[in] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406588">D3DKMT_SETVIDPNSOURCEOWNER1</a> structure that describes the parameters for setting or releasing the video present source.
+[in] A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_setvidpnsourceowner1">D3DKMT_SETVIDPNSOURCEOWNER1</a> structure that describes the parameters for setting or releasing the video present source.
 
 ## -returns
 
@@ -63,12 +63,12 @@ Returns one of the following values:
 |:--|:--|
 | **STATUS_SUCCESS** | The video present source was successfully set or released. | 
 | **STATUS_DEVICE_REMOVED** | The graphics adapter was stopped or the display device was reset. | 
-| **STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE** | The video present source that is specified by an element in the array that the pVidPnSourceId member of [D3DKMT_SETVIDPNSOURCEOWNER](https://msdn.microsoft.com/library/windows/hardware/ff548317) specifies is already owned by a display mode manager (DMM) client and cannot be used until the client releases the video present source. | 
-| **STATUS_GRAPHICS_INVALID_VIDEO_PRESENT_SOURCE** | The video present source that is specified by an element in the array that the pVidPnSourceId member of [D3DKMT_SETVIDPNSOURCEOWNER](https://msdn.microsoft.com/library/windows/hardware/ff548317) specifies is invalid. | 
+| **STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE** | The video present source that is specified by an element in the array that the pVidPnSourceId member of [D3DKMT_SETVIDPNSOURCEOWNER](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_setvidpnsourceowner) specifies is already owned by a display mode manager (DMM) client and cannot be used until the client releases the video present source. | 
+| **STATUS_GRAPHICS_INVALID_VIDEO_PRESENT_SOURCE** | The video present source that is specified by an element in the array that the pVidPnSourceId member of [D3DKMT_SETVIDPNSOURCEOWNER](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_setvidpnsourceowner) specifies is invalid. | 
 | **STATUS_INVALID_PARAMETER** | Parameters were validated and determined to be incorrect. |
 
 This function might also return other NTSTATUS values.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406588">D3DKMT_SETVIDPNSOURCEOWNER1</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_setvidpnsourceowner1">D3DKMT_SETVIDPNSOURCEOWNER1</a>

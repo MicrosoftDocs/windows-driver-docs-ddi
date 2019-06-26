@@ -62,16 +62,16 @@ The
 The handle to an offload-target allocated context area in which the offload target maintains state
      information about this instance of the adapter. The offload target provided this handle to NDIS when it
      called 
-     <a href="https://msdn.microsoft.com/861626af-23ea-40dc-a91a-7da42d4b0a1c">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismsetminiportattributes">
      NdisMSetMiniportAttributes</a> from its 
-     <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_initialize">
      MiniportInitializeEx</a> function.
 
 
 ### -param OffloadBlockList [in]
 
 A pointer to an 
-     <a href="https://msdn.microsoft.com/ebc98e65-5d11-4c3d-aea1-dfad1434c093">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/ns-ndischimney-_ndis_miniport_offload_block_list">
      NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a> structure, which can be the root of a linked list of such
      structures. These structures identify the offloaded state object that is being invalidated.
 
@@ -93,13 +93,13 @@ The
     <i>MiniportInvalidateOffload</i> function stores the 
     <i>OffloadBlockList</i> pointer and then returns. The offload target always completes the invalidate
     operation asynchronously by calling 
-    <a href="https://msdn.microsoft.com/fd14e983-ea4b-41f2-973d-88b114306e75">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/nf-ndischimney-ndisminvalidateoffloadcomplete">
     NdisMInvalidateOffloadComplete</a>.
 
 The tree passed to the 
     <i>MiniportInvalidateOffload</i> function contains only NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structures. The
     tree does not contain any 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff570939">offload state structures</a>. That is,
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/ns-ndischimney-_tcp_offload_state_delegated">offload state structures</a>. That is,
     there are no such structures following the NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structures in memory.
 
 The NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structures in the tree indicate the state object to be
@@ -129,21 +129,21 @@ Eventually, the host stack will
 
 
 
-<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/ebc98e65-5d11-4c3d-aea1-dfad1434c093">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/ns-ndischimney-_ndis_miniport_offload_block_list">
    NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/fd14e983-ea4b-41f2-973d-88b114306e75">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/nf-ndischimney-ndisminvalidateoffloadcomplete">
    NdisMInvalidateOffloadComplete</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563672">NdisMSetMiniportAttributes</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismsetminiportattributes">NdisMSetMiniportAttributes</a>
  
 
  

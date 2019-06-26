@@ -58,7 +58,7 @@ The <b>NDIS_SYSTEM_PROCESSOR_INFO_EX</b> structure specifies information about t
 ### -field Header
 
 The 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
      NDIS_SYSTEM_PROCESSOR_INFO_EX structure. NDIS sets the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to NDIS_OBJECT_TYPE_DEFAULT, the 
@@ -74,7 +74,7 @@ Reserved. NDIS sets this member to zero.
 ### -field ProcessorVendor
 
 The processor vendor specified as one of the values from the 
-     <a href="https://msdn.microsoft.com/c2d1b967-32fb-437a-a0bd-e0028acee022">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ne-ntddndis-_ndis_processor_vendor">
      NDIS_PROCESSOR_VENDOR</a> enumeration.
 
 
@@ -106,7 +106,7 @@ The maximum number of logical processors that are in each hyper-threaded core pr
 ### -field ProcessorInfoOffset
 
 The offset, in bytes, from the start of the structure to an array of 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566811">NDIS_PROCESSOR_INFO_EX</a> structures,
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_processor_info_ex">NDIS_PROCESSOR_INFO_EX</a> structures,
      with each entry describing a processor on the computer. The 
      <b>NumberOfProcessors</b> member contains the number of NDIS_PROCESSOR_INFO_EX structures in the array.
      The 
@@ -131,7 +131,7 @@ The size, in bytes, of elements in the array of NDIS_PROCESSOR_INFO_EX structure
 
 
 NDIS network drivers use the NDIS_SYSTEM_PROCESSOR_INFO_EX structure in calls to the 
-    <a href="https://msdn.microsoft.com/9af21f56-d93d-4130-888c-c7009dc2854d">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisgetprocessorinformationex">
     NdisGetProcessorInformationEx</a> function. After 
     <b>NdisGetProcessorInformationEx</b> returns, this structure contains information about the CPU topology
     of the system.
@@ -144,23 +144,23 @@ NDIS network drivers use the NDIS_SYSTEM_PROCESSOR_INFO_EX structure in calls to
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566811">NDIS_PROCESSOR_INFO_EX</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_processor_info_ex">NDIS_PROCESSOR_INFO_EX</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566813">NDIS_PROCESSOR_VENDOR</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ne-ntddndis-_ndis_processor_vendor">NDIS_PROCESSOR_VENDOR</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567871">NDIS_SYSTEM_PROCESSOR_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_system_processor_info">NDIS_SYSTEM_PROCESSOR_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/9af21f56-d93d-4130-888c-c7009dc2854d">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisgetprocessorinformationex">
    NdisGetProcessorInformationEx</a>
  
 

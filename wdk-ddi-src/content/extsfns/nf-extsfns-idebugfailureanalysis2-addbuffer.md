@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <b>AddBuffer</b> method adds a new <a href="https://msdn.microsoft.com/759DE159-F2A8-4BB1-AAF5-B2B91C4F91B0">FA entry</a> to a <a href="https://msdn.microsoft.com/0B44FCB9-D23F-4630-9F9A-FBAD46712B14">DebugFailureAnalysis</a> object, and writes the bytes from a specified buffer to the data block of the new FA entry.
+The <b>AddBuffer</b> method adds a new <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/failure-analysis-entries">FA entry</a> to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/extsfns/nn-extsfns-idebugfailureanalysis2">DebugFailureAnalysis</a> object, and writes the bytes from a specified buffer to the data block of the new FA entry.
 
 
 ## -parameters
@@ -66,7 +66,7 @@ A value in the <a href="https://docs.microsoft.com/windows-hardware/drivers/debu
 
 ### -param Buf [in]
 
-A pointer to a buffer that contains the bytes to be written to the data block of the new <a href="https://msdn.microsoft.com/759DE159-F2A8-4BB1-AAF5-B2B91C4F91B0">FA entry</a>.
+A pointer to a buffer that contains the bytes to be written to the data block of the new <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/failure-analysis-entries">FA entry</a>.
 
 
 ### -param Size [in]
@@ -78,7 +78,7 @@ The size, in bytes, of the buffer pointed to by <i>Buf</i>.
 
 
 
-If this method succeeds, it returns a pointer to the new <a href="https://msdn.microsoft.com/library/windows/hardware/jj991808">FA_ENTRY</a> structure. Otherwise, it returns <b>NULL</b>.
+If this method succeeds, it returns a pointer to the new <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/extsfns/ns-extsfns-_fa_entry">FA_ENTRY</a> structure. Otherwise, it returns <b>NULL</b>.
 
 
 
@@ -87,7 +87,7 @@ If this method succeeds, it returns a pointer to the new <a href="https://msdn.m
 
 
 
-This method creates a new <a href="https://msdn.microsoft.com/759DE159-F2A8-4BB1-AAF5-B2B91C4F91B0">FA entry</a> with the tag specified by <i>Tag</i>, and it associates the tag with the data type specified by <i>EntryType</i>. 
+This method creates a new <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/failure-analysis-entries">FA entry</a> with the tag specified by <i>Tag</i>, and it associates the tag with the data type specified by <i>EntryType</i>. 
 
 
 
@@ -97,23 +97,23 @@ This method creates a new <a href="https://msdn.microsoft.com/759DE159-F2A8-4BB1
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983413">GetBuffer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/extsfns/nf-extsfns-idebugfailureanalysis2-getbuffer">GetBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983405">IDebugFailureAnalysis2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/extsfns/nn-extsfns-idebugfailureanalysis2">IDebugFailureAnalysis2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983423">SetBuffer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/extsfns/nf-extsfns-idebugfailureanalysis2-setbuffer">SetBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">Writing an Analysis Extension Plug-in to Extend !analyze</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983432">_EFN_Analyze</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/extsfns/nc-extsfns-ext_analysis_plugin">_EFN_Analyze</a>
  
 
  

@@ -49,7 +49,7 @@ req.typenames:
 
 Frees a previously allocated IPortClsNotifications buffer. The buffer is used in sending notifications, to allow for communications between audio modules and UWP apps. 
 
-For more information about audio modules, see <a href="https://msdn.microsoft.com/windows/hardware/drivers/audio/implementing-audio-module-communication">Implementing Audio Module Discovery</a>. 
+For more information about audio modules, see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/implementing-audio-module-communication">Implementing Audio Module Discovery</a>. 
 
 
 ## -parameters
@@ -59,7 +59,7 @@ For more information about audio modules, see <a href="https://msdn.microsoft.co
 
 ### -param NotificationBuffer [in]
 
-The address of the notification buffer returned in the <a href="https://msdn.microsoft.com/23DBA3D8-FC27-4F5D-9F1C-A22B6C2856D2">IPortClsNotifications::AllocNotificationBuffer</a> call.
+The address of the notification buffer returned in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iportclsnotifications-allocnotificationbuffer">IPortClsNotifications::AllocNotificationBuffer</a> call.
 
 
 ## -returns
@@ -76,7 +76,7 @@ This function returns void.
 
 
 
-<a href="https://msdn.microsoft.com/03F65E4E-C942-4748-8D3E-938A6AC51B2A">IPortClsNotifications</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iportclsnotifications">IPortClsNotifications</a>
  
 
  

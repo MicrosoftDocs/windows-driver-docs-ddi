@@ -48,7 +48,7 @@ req.typenames:
 
 The IOCTL_HID_ACTIVATE_DEVICE request activates a HIDClass device, which makes it ready for I/O operations.
 
-For general information about HIDClass devices, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db-8cff-9fac30209952">HID Collections</a>. 
+For general information about HIDClass devices, see <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-collections">HID Collections</a>. 
 
 
 ## -ioctlparameters
@@ -117,7 +117,7 @@ Minidrivers that call other drivers with this IRP to carry out the I/O to their 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541075">IOCTL_HID_DEACTIVATE_DEVICE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hidport/ni-hidport-ioctl_hid_deactivate_device">IOCTL_HID_DEACTIVATE_DEVICE</a>
  
 
  

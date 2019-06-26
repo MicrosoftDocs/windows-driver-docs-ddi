@@ -138,9 +138,9 @@ Reserved for future use. Set to zero.
 
 
 
-This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537299">KSPROPERTY_AUDIO_PREFERRED_STATUS</a> property.
+This structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-audio-preferred-status">KSPROPERTY_AUDIO_PREFERRED_STATUS</a> property.
 
-For information about the preferred device, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff537899">SetupPreferredAudioDevices</a>.
+For information about the preferred device, see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/setuppreferredaudiodevices">SetupPreferredAudioDevices</a>.
 
 
 
@@ -150,11 +150,11 @@ For information about the preferred device, see <a href="https://msdn.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537299">KSPROPERTY_AUDIO_PREFERRED_STATUS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-audio-preferred-status">KSPROPERTY_AUDIO_PREFERRED_STATUS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537899">SetupPreferredAudioDevices</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/setuppreferredaudiodevices">SetupPreferredAudioDevices</a>
  
 
  

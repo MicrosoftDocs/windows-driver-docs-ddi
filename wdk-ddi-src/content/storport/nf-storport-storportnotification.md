@@ -154,7 +154,7 @@ QueryTickCount
 
 </td>
 <td>
-This notification type returns a LARGE_INTEGER that holds the value from <a href="https://msdn.microsoft.com/library/windows/hardware/ff553071">KeQueryTickCount</a>. The value returned in TickCount is the count of the interval timer interrupts that have occurred since the system was booted
+This notification type returns a LARGE_INTEGER that holds the value from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-kequerytickcount">KeQueryTickCount</a>. The value returned in TickCount is the count of the interval timer interrupts that have occurred since the system was booted
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -202,7 +202,7 @@ RequestTimerCall
 
 </td>
 <td>
-Indicates that the miniport driver requires the port driver to call the miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff557426">HwStorTimer</a> routine in the requested number of microseconds.
+Indicates that the miniport driver requires the port driver to call the miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_timer">HwStorTimer</a> routine in the requested number of microseconds.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -293,7 +293,7 @@ WMIReregister
 
 </td>
 <td>
-Indicates that the miniport driver has changed the data items or the number of instances of a given data block that was previously registered by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff550480">IoWMIRegistrationControl</a>.
+Indicates that the miniport driver has changed the data items or the number of instances of a given data block that was previously registered by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iowmiregistrationcontrol">IoWMIRegistrationControl</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>

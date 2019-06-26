@@ -80,15 +80,15 @@ Represents the filter upon which the miniport driver should retrieve the message
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567941">NDIS_WWAN_SMS_READ</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndiswwan/ns-ndiswwan-_ndis_wwan_sms_read">NDIS_WWAN_SMS_READ</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571245">WWAN_SMS_FILTER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_sms_filter">WWAN_SMS_FILTER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571247">WWAN_SMS_FORMAT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ne-wwan-_wwan_sms_format">WWAN_SMS_FORMAT</a>
  
 
  

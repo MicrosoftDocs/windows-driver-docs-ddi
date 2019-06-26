@@ -56,7 +56,7 @@ The <b>pfnAssignMultisamplingMethodSet</b> function assigns a set of multisampli
 
 ### -param hVidPn [in]
 
-[in] A handle to a VidPN object. The VidPN manager previously provided this handle to the display miniport driver by calling <a href="https://msdn.microsoft.com/6dda82bd-1a43-4ffe-b398-a9f8cee6d1c1">DxgkDdiEnumVidPnCofuncModality</a>.
+[in] A handle to a VidPN object. The VidPN manager previously provided this handle to the display miniport driver by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_enumvidpncofuncmodality">DxgkDdiEnumVidPnCofuncModality</a>.
 
 
 ### -param VidPnSourceId [in]
@@ -71,7 +71,7 @@ The <b>pfnAssignMultisamplingMethodSet</b> function assigns a set of multisampli
 
 ### -param D3DDDI_MULTISAMPLINGMETHOD
 
-[in] A pointer to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff544594">D3DDDI_MULTISAMPLINGMETHOD</a> structures, each of which describes a multisampling method.
+[in] A pointer to an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dukmdt/ns-d3dukmdt-_d3dddi_multisamplingmethod">D3DDDI_MULTISAMPLINGMETHOD</a> structures, each of which describes a multisampling method.
 
 
 ## -returns
@@ -97,7 +97,7 @@ This function might also return other error codes that are defined in Ntstatus.h
 
 
 
-<a href="https://msdn.microsoft.com/6dda82bd-1a43-4ffe-b398-a9f8cee6d1c1">DxgkDdiEnumVidPnCofuncModality</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_enumvidpncofuncmodality">DxgkDdiEnumVidPnCofuncModality</a>
  
 
  

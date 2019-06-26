@@ -47,7 +47,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The operating system calls the
+<div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The operating system calls the
   <i>Dot11ExtIhvDeinitAdapter</i> function to have the IHV Extensions DLL halt all operations for the wireless
   LAN (WLAN) adapter, as well as free any resources allocated for the station.
 
@@ -103,7 +103,7 @@ The operating system also calls the
     <i>Dot11ExtIhvDeinitAdapter</i> function.
 
 For more information about operations that are performed when the WLAN adapter is removed, see
-    <a href="https://msdn.microsoft.com/2181d284-7987-48db-b7a4-d1296d8313ed">802.11 WLAN Adapter Removal</a>.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/802-11-wlan-adapter-removal">802.11 WLAN Adapter Removal</a>.
 
 
 

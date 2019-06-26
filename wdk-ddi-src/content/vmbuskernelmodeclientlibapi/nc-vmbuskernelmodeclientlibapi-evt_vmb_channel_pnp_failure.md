@@ -81,7 +81,7 @@ This callback function does not return a value.
 
 
 
-The <a href="https://msdn.microsoft.com/5525FD48-BE65-48CA-B3D5-C96AFD4ECF56">VmbClientChannelInitSetTargetPnp</a> function registers <i>EvtChannelPnpFailure</i> code to run in the event  of this kind of failure. 
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbclientchannelinitsettargetpnp">VmbClientChannelInitSetTargetPnp</a> function registers <i>EvtChannelPnpFailure</i> code to run in the event  of this kind of failure. 
 
 
 
@@ -91,7 +91,7 @@ The <a href="https://msdn.microsoft.com/5525FD48-BE65-48CA-B3D5-C96AFD4ECF56">Vm
 
 
 
-<a href="https://msdn.microsoft.com/5525FD48-BE65-48CA-B3D5-C96AFD4ECF56">VmbClientChannelInitSetTargetPnp</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbclientchannelinitsettargetpnp">VmbClientChannelInitSetTargetPnp</a>
  
 
  

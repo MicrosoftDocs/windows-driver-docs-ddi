@@ -96,12 +96,12 @@ None
 
 
 In the course of normal network operations, a stand-alone call manager's 
-    <a href="https://msdn.microsoft.com/1755804c-d82f-465d-862f-8a2340516f8e">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_co_receive_net_buffer_lists">
     ProtocolCoReceiveNetBufferLists</a> function calls 
     <b>NdisCmDispatchIncomingDropParty</b> with the 
     <i>CloseStatus</i> set to NDIS_STATUS_SUCCESS because a remote client on a multipoint connection has
     called 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561627">NdisClCloseCall</a>.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisclclosecall">NdisClCloseCall</a>.
 
 However, a call manager also can call 
     <b>NdisCmDispatchIncomingDropParty</b> with a CM-determined 
@@ -111,12 +111,12 @@ However, a call manager also can call
 
 A call to 
     <b>NdisCmDispatchIncomingDropParty</b> causes NDIS to call the client's 
-    <a href="https://msdn.microsoft.com/3815ca4b-f4bc-4de9-a28a-5d3ee20bcdd8">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cl_incoming_drop_party">
     ProtocolClIncomingDropParty</a> function.
 
 If the 
     <i>NdisPartyHandle</i> identifies the last remaining party on the given VC, the CM calls 
-    <a href="https://msdn.microsoft.com/f0f1221d-3d95-4d4c-acd0-6bcd653241c4">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndiscmdispatchincomingclosecall">
     NdisCmDispatchIncomingCloseCall</a>, rather than 
     <b>NdisCmDispatchIncomingDropParty</b>.
 
@@ -133,25 +133,25 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561629">NdisClDropParty</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndiscldropparty">NdisClDropParty</a>
 
 
 
-<a href="https://msdn.microsoft.com/f0f1221d-3d95-4d4c-acd0-6bcd653241c4">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndiscmdispatchincomingclosecall">
    NdisCmDispatchIncomingCloseCall</a>
 
 
 
-<a href="https://msdn.microsoft.com/4549b6f4-5138-4724-959c-a36b38c319fd">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismcmdispatchincomingdropparty">
    NdisMCmDispatchIncomingDropParty</a>
 
 
 
-<a href="https://msdn.microsoft.com/3815ca4b-f4bc-4de9-a28a-5d3ee20bcdd8">ProtocolClIncomingDropParty</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cl_incoming_drop_party">ProtocolClIncomingDropParty</a>
 
 
 
-<a href="https://msdn.microsoft.com/1755804c-d82f-465d-862f-8a2340516f8e">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_co_receive_net_buffer_lists">
    ProtocolCoReceiveNetBufferLists</a>
  
 

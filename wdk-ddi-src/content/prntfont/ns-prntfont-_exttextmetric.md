@@ -46,7 +46,7 @@ req.typenames: EXTTEXTMETRIC, *PEXTTEXTMETRIC
 ## -description
 
 
-The EXTTEXTMETRIC structure is used to specify font-specific information within <a href="https://msdn.microsoft.com/6e643703-ace1-4660-990c-3a9ca735829d">Unidrv font metrics files</a> (.ufm files).
+The EXTTEXTMETRIC structure is used to specify font-specific information within <a href="https://docs.microsoft.com/windows-hardware/drivers/print/customized-font-management">Unidrv font metrics files</a> (.ufm files).
 
 
 ## -struct-fields

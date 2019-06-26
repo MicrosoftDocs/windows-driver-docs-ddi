@@ -81,34 +81,34 @@ Pointer to the video port driver-implemented dereference routine for this interf
 
 ### -field Int10AllocateBuffer
 
-Pointer to the video port driver-implemented <a href="https://msdn.microsoft.com/2e6c8000-13e3-46fb-81be-18428fec2b21">Int10AllocateBuffer</a> routine.
+Pointer to the video port driver-implemented <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nc-video-pint10_allocate_buffer">Int10AllocateBuffer</a> routine.
 
 
 ### -field Int10FreeBuffer
 
-Pointer to the video port driver-implemented <a href="https://msdn.microsoft.com/feb7dd98-8c44-405e-8e98-ffd6246cf0ee">Int10FreeBuffer</a> routine.
+Pointer to the video port driver-implemented <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nc-video-pint10_free_buffer">Int10FreeBuffer</a> routine.
 
 
 ### -field Int10ReadMemory
 
-Pointer to the video port driver-implemented <a href="https://msdn.microsoft.com/94b72ad0-1ace-4fde-a4a9-1078103e3d9b">Int10ReadMemory</a> routine.
+Pointer to the video port driver-implemented <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nc-video-pint10_read_memory">Int10ReadMemory</a> routine.
 
 
 ### -field Int10WriteMemory
 
-Pointer to the video port driver-implemented <a href="https://msdn.microsoft.com/a1143ca4-9c39-4bd7-92e1-473bdb447eb5">Int10WriteMemory</a> routine.
+Pointer to the video port driver-implemented <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nc-video-pint10_write_memory">Int10WriteMemory</a> routine.
 
 
 ### -field Int10CallBios
 
-Pointer to the video port driver-implemented <a href="https://msdn.microsoft.com/994a73bc-81a1-4d73-959c-cc89b242c073">Int10CallBios</a> routine.
+Pointer to the video port driver-implemented <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nc-video-pint10_call_bios">Int10CallBios</a> routine.
 
 
 ## -remarks
 
 
 
-PnP video miniport drivers that intend to make BIOS calls should fill in the <b>Size</b> and <b>Version</b> members of this structure, and then call <a href="https://msdn.microsoft.com/library/windows/hardware/ff570337">VideoPortQueryServices</a>, which initializes the remaining members of this structure.
+PnP video miniport drivers that intend to make BIOS calls should fill in the <b>Size</b> and <b>Version</b> members of this structure, and then call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportqueryservices">VideoPortQueryServices</a>, which initializes the remaining members of this structure.
 
 
 
@@ -118,7 +118,7 @@ PnP video miniport drivers that intend to make BIOS calls should fill in the <b>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570337">VideoPortQueryServices</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportqueryservices">VideoPortQueryServices</a>
  
 
  

@@ -91,7 +91,7 @@ This callback function does not return a value.
 
 Here is the definition of the  keyboard class service callback routine.
 
-Kbdclass uses an <a href="https://msdn.microsoft.com/library/windows/hardware/ff541273">IOCTL_INTERNAL_KEYBOARD_CONNECT</a> request to connect its class service callback to a keyboard device. In this call, the driver sets  its implementation in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff538370">CONNECT_DATA</a> structure.
+Kbdclass uses an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/kbdmou/ni-kbdmou-ioctl_internal_keyboard_connect">IOCTL_INTERNAL_KEYBOARD_CONNECT</a> request to connect its class service callback to a keyboard device. In this call, the driver sets  its implementation in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/kbdmou/ns-kbdmou-_connect_data">CONNECT_DATA</a> structure.
 
 <pre class="syntax" xml:space="preserve"><code>
 /*
@@ -121,7 +121,7 @@ VOID KeyboardClassServiceCallback(
 
 <b>Mouse Class Service Callback</b>
 
-Here is the <b>MouseClassServiceCallback</b> routine is the class service callback routine that is provided by Mouclass. The driver uses an <a href="https://msdn.microsoft.com/library/windows/hardware/ff541294">IOCTL_INTERNAL_MOUSE_CONNECT</a> request to connect its class service callback to a mouse device. In this call, the driver sets  its implementation in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff538370">CONNECT_DATA</a> structure.
+Here is the <b>MouseClassServiceCallback</b> routine is the class service callback routine that is provided by Mouclass. The driver uses an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/kbdmou/ni-kbdmou-ioctl_internal_mouse_connect">IOCTL_INTERNAL_MOUSE_CONNECT</a> request to connect its class service callback to a mouse device. In this call, the driver sets  its implementation in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/kbdmou/ns-kbdmou-_connect_data">CONNECT_DATA</a> structure.
 
 
 <pre class="syntax" xml:space="preserve"><code>
@@ -161,15 +161,15 @@ VOID MouseClassServiceCallback(
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538370">CONNECT_DATA</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/kbdmou/ns-kbdmou-_connect_data">CONNECT_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542337">KEYBOARD_INPUT_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ns-ntddkbd-_keyboard_input_data">KEYBOARD_INPUT_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542403">MOUSE_INPUT_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntddmou/ns-ntddmou-_mouse_input_data">MOUSE_INPUT_DATA</a>
  
 
  

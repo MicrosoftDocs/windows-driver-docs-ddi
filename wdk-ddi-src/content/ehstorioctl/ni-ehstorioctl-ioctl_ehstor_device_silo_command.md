@@ -56,12 +56,12 @@ This IOCTL issues a silo command to the targeted silo on the device. Both input 
 
 ### -input-buffer
 
-The input buffer at Irp->AssociatedIrp.SystemBuffer must contain a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff566201">SILO_COMMAND</a>.
+The input buffer at Irp->AssociatedIrp.SystemBuffer must contain a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ehstorioctl/ns-ehstorioctl-tagsilo_command">SILO_COMMAND</a>.
 
 
 ### -input-buffer-length
 
-The length of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff566201">SILO_COMMAND</a> structure.
+The length of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ehstorioctl/ns-ehstorioctl-tagsilo_command">SILO_COMMAND</a> structure.
 
 
 ### -output-buffer

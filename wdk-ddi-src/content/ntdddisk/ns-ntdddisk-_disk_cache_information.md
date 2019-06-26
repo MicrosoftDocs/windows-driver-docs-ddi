@@ -46,7 +46,7 @@ req.typenames: DISK_CACHE_INFORMATION, *PDISK_CACHE_INFORMATION
 ## -description
 
 
-The DISK_CACHE_INFORMATION structure is used with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559451">IOCTL_DISK_GET_CACHE_INFORMATION</a> request to retrieve cache information.
+The DISK_CACHE_INFORMATION structure is used with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdddisk/ni-ntdddisk-ioctl_disk_get_cache_information">IOCTL_DISK_GET_CACHE_INFORMATION</a> request to retrieve cache information.
 
 
 ## -struct-fields
@@ -71,7 +71,7 @@ Indicates, when set to 1, that the write cache is enabled.
 
 ### -field ReadRetentionPriority
 
-Determines the likelihood of various types of data remaining in the cache. By means of this value, for instance, data cached from a READ or WRITE operation might be given a different priority than data cached under other circumstances, such as prefetch operations. Thus a value of <b>EqualPriority</b> indicates that no data is held in the cache on a preferential basis. When <b>ReadRetentionPriority</b> is set to <b>EqualPriority</b>, all types of data have equal access to cache memory. On the other hand, a value of <b>KeepPrefetchedData</b> indicates that a preference is to be given to prefetched data while a value of <b>KeepReadData</b> indicates that a preference is to be given to data cached from a READ operation. For more information about the values that can be assigned to this member see the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552583">DISK_CACHE_RETENTION_PRIORITY</a> enumeration. 
+Determines the likelihood of various types of data remaining in the cache. By means of this value, for instance, data cached from a READ or WRITE operation might be given a different priority than data cached under other circumstances, such as prefetch operations. Thus a value of <b>EqualPriority</b> indicates that no data is held in the cache on a preferential basis. When <b>ReadRetentionPriority</b> is set to <b>EqualPriority</b>, all types of data have equal access to cache memory. On the other hand, a value of <b>KeepPrefetchedData</b> indicates that a preference is to be given to prefetched data while a value of <b>KeepReadData</b> indicates that a preference is to be given to data cached from a READ operation. For more information about the values that can be assigned to this member see the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdddisk/ne-ntdddisk-disk_cache_retention_priority">DISK_CACHE_RETENTION_PRIORITY</a> enumeration. 
 
 
 ### -field WriteRetentionPriority
@@ -130,11 +130,11 @@ Contains the scalar multiplier of the transfer length of the request when <b>Pre
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552580">DISK_CACHE_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdddisk/ns-ntdddisk-_disk_cache_information">DISK_CACHE_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559451">IOCTL_DISK_GET_CACHE_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdddisk/ni-ntdddisk-ioctl_disk_get_cache_information">IOCTL_DISK_GET_CACHE_INFORMATION</a>
  
 
  

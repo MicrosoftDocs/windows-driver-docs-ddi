@@ -66,7 +66,7 @@ The file object pointer for the file.
 
 ### -param Buffer [in]
 
-A pointer to a caller-supplied, <a href="https://msdn.microsoft.com/library/windows/hardware/ff540298">FILE_GET_QUOTA_INFORMATION</a>-structured input buffer that contains the quota information entries to be set. 
+A pointer to a caller-supplied, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_get_quota_information">FILE_GET_QUOTA_INFORMATION</a>-structured input buffer that contains the quota information entries to be set. 
 
 
 ### -param Length [in]
@@ -107,11 +107,11 @@ The instance or volume is being torn down. This is an error code.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540298">FILE_GET_QUOTA_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_get_quota_information">FILE_GET_QUOTA_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451030">FltQueryQuotaInformationFile</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltqueryquotainformationfile">FltQueryQuotaInformationFile</a>
 
 
 

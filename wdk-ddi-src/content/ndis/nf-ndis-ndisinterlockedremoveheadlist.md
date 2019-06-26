@@ -74,10 +74,10 @@ A pointer to a caller-supplied spin lock, used to synchronize access to the list
 Before calling any 
     <b>NdisInterlocked..List</b> function, a driver must initialize the variable at 
     <i>ListHead</i> with the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff562734">NdisInitializeListHead</a> function and
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisinitializelisthead">NdisInitializeListHead</a> function and
     the variable at 
     <i>SpinLock</i> with the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561617">NdisAllocateSpinLock</a> function. The
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisallocatespinlock">NdisAllocateSpinLock</a> function. The
     driver also must provide resident storage for these variables and for its internal queue.
 
 Before calling 
@@ -95,7 +95,7 @@ The caller-supplied spin lock prevents any other function from accessing the dri
     <b>NdisInterlockedRemoveHeadList</b> cannot be pageable code.
 
 To convert a returned value back to the address of the inserted entry, a driver can use the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff542043">CONTAINING_RECORD</a> macro.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer">CONTAINING_RECORD</a> macro.
 
 If 
     <b>NdisInterlockedRemoveHeadList</b> is called at IRQL >= DISPATCH_LEVEL, the storage for the 
@@ -109,24 +109,24 @@ If
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542043">CONTAINING_RECORD</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer">CONTAINING_RECORD</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561617">NdisAllocateSpinLock</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisallocatespinlock">NdisAllocateSpinLock</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562734">NdisInitializeListHead</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisinitializelisthead">NdisInitializeListHead</a>
 
 
 
-<a href="https://msdn.microsoft.com/c6221ce9-682c-453b-b036-f4219c9540da">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisinterlockedinsertheadlist">
    NdisInterlockedInsertHeadList</a>
 
 
 
-<a href="https://msdn.microsoft.com/cc455bb1-3574-4dfb-9462-f2c67632132b">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisinterlockedinserttaillist">
    NdisInterlockedInsertTailList</a>
  
 

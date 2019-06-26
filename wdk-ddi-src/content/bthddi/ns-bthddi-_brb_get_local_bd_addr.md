@@ -57,7 +57,7 @@ The _BRB_GET_LOCAL_BD_ADDR structure describes the address of the local radio.
 ### -field Hdr
 
 A 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536612">BRB_HEADER</a> structure that contains information
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a> structure that contains information
      about the current BRB.
 
 
@@ -71,8 +71,8 @@ An output member that receives the address of the local radio.
 
 
 To get the address of the local radio, profile drivers should 
-    <a href="https://msdn.microsoft.com/53a692e7-9c71-4dca-9331-32ac97b94179">build and send</a> a 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff536611">
+    <a href="https://docs.microsoft.com/previous-versions/ff536657(v=vs.85)">build and send</a> a 
+    <a href="https://docs.microsoft.com/previous-versions/ff536611(v=vs.85)">
     BRB_HCI_GET_LOCAL_BD_ADDR</a> request.
 
 Only a single local radio is supported by the Bluetooth driver stack.
@@ -85,11 +85,11 @@ Only a single local radio is supported by the Bluetooth driver stack.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536611">BRB_HCI_GET_LOCAL_BD_ADDR</a>
+<a href="https://docs.microsoft.com/previous-versions/ff536611(v=vs.85)">BRB_HCI_GET_LOCAL_BD_ADDR</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536612">BRB_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a>
  
 
  

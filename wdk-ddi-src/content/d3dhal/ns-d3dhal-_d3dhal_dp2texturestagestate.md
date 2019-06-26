@@ -46,7 +46,7 @@ req.typenames: D3DHAL_DP2TEXTURESTAGESTATE
 ## -description
 
 
-One or more D3DHAL_DP2TEXTURESTAGESTATE structures are parsed from the command buffer by the <a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a> callback when the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545454">D3DHAL_DP2COMMAND</a> structure's <b>bCommand</b> member is set to D3DDP2OP_TEXTURESTAGESTATE, and are used to set the appropriate texture stage state.
+One or more D3DHAL_DP2TEXTURESTAGESTATE structures are parsed from the command buffer by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a> callback when the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dhal/ns-d3dhal-_d3dhal_dp2command">D3DHAL_DP2COMMAND</a> structure's <b>bCommand</b> member is set to D3DDP2OP_TEXTURESTAGESTATE, and are used to set the appropriate texture stage state.
 
 
 ## -struct-fields
@@ -74,9 +74,9 @@ Specifies the value that the driver should update the texture state identified b
 
 
 
-<a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a> should process <b>wStateCount</b> D3DHAL_DP2TEXTURESTAGESTATE structures from the command buffer. The value of <b>wStateCount</b> is specified in the D3DHAL_DP2COMMAND structure.
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a> should process <b>wStateCount</b> D3DHAL_DP2TEXTURESTAGESTATE structures from the command buffer. The value of <b>wStateCount</b> is specified in the D3DHAL_DP2COMMAND structure.
 
-For each D3DHAL_DP2TEXTURESTAGESTATE structure, <a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a> should update the driver's internal texture state associated with the texture at <b>dwStage</b> to reflect the new value based on <b>TSState</b>.
+For each D3DHAL_DP2TEXTURESTAGESTATE structure, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a> should update the driver's internal texture state associated with the texture at <b>dwStage</b> to reflect the new value based on <b>TSState</b>.
 
 Drivers that do not support multitexturing should implement support for texture stage 0 only.
 
@@ -95,11 +95,11 @@ D3DDP2OP_TEXTURESTAGESTATE
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545454">D3DHAL_DP2COMMAND</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dhal/ns-d3dhal-_d3dhal_dp2command">D3DHAL_DP2COMMAND</a>
 
 
 
-<a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a>
  
 
  

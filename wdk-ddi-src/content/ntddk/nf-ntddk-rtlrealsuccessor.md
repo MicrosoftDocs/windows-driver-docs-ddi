@@ -96,15 +96,15 @@ Callers of <b>RtlRealSuccessor</b> must be running at IRQL <= DISPATCH_LEVEL if 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553186">RtlRealPredecessor</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-rtlrealpredecessor">RtlRealPredecessor</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553226">RtlSplay</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-rtlsplay">RtlSplay</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553239">RtlSubtreeSuccessor</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-rtlsubtreesuccessor">RtlSubtreeSuccessor</a>
  
 
  

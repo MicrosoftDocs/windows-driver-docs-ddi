@@ -51,7 +51,7 @@ The <b>IBidiRequest</b> interface allows an application or other objects to comp
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBidiRequest</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IBidiRequest</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBidiRequest</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBidiRequest</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -66,7 +66,7 @@ The <b>IBidiRequest</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4c857ff4-02c1-487b-bdb0-44d62a4cf4a1">GetEnumCount</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bidispl/nf-bidispl-ibidirequest-getenumcount">GetEnumCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of output items.
@@ -75,7 +75,7 @@ Gets the number of output items.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0757dbc2-850b-4267-9339-b87591f85767">GetOutputData</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bidispl/nf-bidispl-ibidirequest-getoutputdata">GetOutputData</a>
 </td>
 <td align="left" width="63%">
 Gets the output data coming back from the device.
@@ -84,7 +84,7 @@ Gets the output data coming back from the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d3d37fd2-b3fa-4664-ba4b-c355197d9b40">GetResult</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bidispl/nf-bidispl-ibidirequest-getresult">GetResult</a>
 </td>
 <td align="left" width="63%">
 Gets the result code.
@@ -93,7 +93,7 @@ Gets the result code.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8db7b5cd-b03f-4973-8711-8ac022bfb2b5">SetInputData</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bidispl/nf-bidispl-ibidirequest-setinputdata">SetInputData</a>
 </td>
 <td align="left" width="63%">
 Sets the data to send to the device.
@@ -102,7 +102,7 @@ Sets the data to send to the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ca4f7ea4-fcad-42b0-a63a-eee3706e5cbf">SetSchema</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bidispl/nf-bidispl-ibidirequest-setschema">SetSchema</a>
 </td>
 <td align="left" width="63%">
 Sets the bidi schema string.
@@ -117,15 +117,15 @@ Sets the bidi schema string.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_print/index">Bidirectional Communication Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/print/bidirectional-communication-schema">Bidirectional Communication Schema</a>
 
 
 
-<a href="https://msdn.microsoft.com/42b5e6cf-b434-4734-86f3-b3b9d15ea468">Print Spooler Components</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/print/print-spooler-components">Print Spooler Components</a>
  
 
  

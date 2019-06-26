@@ -94,7 +94,7 @@ The world wide port name of the fabric.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh127629">MSFC_VirtualFibrePortAttributes WMI Class</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msfc-virtualfibreportattributes-wmi-class">MSFC_VirtualFibrePortAttributes WMI Class</a>
  
 
  

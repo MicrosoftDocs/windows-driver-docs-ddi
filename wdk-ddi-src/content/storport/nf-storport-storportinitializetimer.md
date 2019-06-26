@@ -140,9 +140,9 @@ The number of supported timers is exceeded.
 
 
 
-Storport provides a single timer to a miniport driver by using the  <b>RequestTimerCall</b> notification type in <a href="https://msdn.microsoft.com/library/windows/hardware/ff567433">StorPortNotification</a>. If a miniport requires more than one timer, additional timers are created with <b>StorPortInitializeTimer</b>.
+Storport provides a single timer to a miniport driver by using the  <b>RequestTimerCall</b> notification type in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportnotification">StorPortNotification</a>. If a miniport requires more than one timer, additional timers are created with <b>StorPortInitializeTimer</b>.
 
-It is recommended that miniports call <b>StorPortInitializeTimer</b> in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557390">HwStorFindAdapter</a> function to ensure that the additional timer resources are available.
+It is recommended that miniports call <b>StorPortInitializeTimer</b> in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_find_adapter">HwStorFindAdapter</a> function to ensure that the additional timer resources are available.
 
 Miniports can use this routine to set coalescing timers to create a delay period after an initial timeout.
 
@@ -157,19 +157,19 @@ Starting with Windows 8, there is no maximum timers limitation.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557390">HwStorFindAdapter</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_find_adapter">HwStorFindAdapter</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451476">StorPortFreeTimer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportfreetimer">StorPortFreeTimer</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567433">StorPortNotification</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportnotification">StorPortNotification</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451511">StorPortRequestTimer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportrequesttimer">StorPortRequestTimer</a>
  
 
  

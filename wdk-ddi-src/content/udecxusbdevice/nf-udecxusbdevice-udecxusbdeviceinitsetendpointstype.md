@@ -57,12 +57,12 @@ Indicates the type of endpoint (simple or dynamic) in the initialization paramet
 
 ### -param UdecxUsbDeviceInit [in, out]
 
-A pointer to a WDF-allocated structure that contains initialization parameters for the virtual USB device.  The client driver retrieved this pointer in the previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/mt627968">UdecxUsbDeviceInitAllocate</a>. 
+A pointer to a WDF-allocated structure that contains initialization parameters for the virtual USB device.  The client driver retrieved this pointer in the previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/udecxusbdevice/nf-udecxusbdevice-udecxusbdeviceinitallocate">UdecxUsbDeviceInitAllocate</a>. 
 
 
 ### -param UdecxEndpointType [in]
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/mt627995">UDECX_ENDPOINT_TYPE</a>-type value that indicates the type of USB endpoint.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/udecxusbdevice/ne-udecxusbdevice-_udecx_endpoint_type">UDECX_ENDPOINT_TYPE</a>-type value that indicates the type of USB endpoint.
 
 
 ## -returns
@@ -78,28 +78,28 @@ This function does not return a value.
 
 
 
-Before creating the virtual USB device, the client driver must indicate the type of endpoint it supports. It can support one of two types (defined in <a href="https://msdn.microsoft.com/library/windows/hardware/mt627995">UDECX_ENDPOINT_TYPE</a>): 
+Before creating the virtual USB device, the client driver must indicate the type of endpoint it supports. It can support one of two types (defined in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/udecxusbdevice/ne-udecxusbdevice-_udecx_endpoint_type">UDECX_ENDPOINT_TYPE</a>): 
 
 <ul>
 <li>Simple endpoint-The client driver creates all endpoint objects before plugging in the device. The device must have only one configuration and one interface setting per interface.
 </li>
-<li>Dynamic endpoint-The client creates endpoint objects in the  <a href="https://msdn.microsoft.com/library/windows/hardware/mt595913">EVT_UDECX_USB_DEVICE_ENDPOINTS_CONFIGURE</a> callback function.
+<li>Dynamic endpoint-The client creates endpoint objects in the  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/udecxusbdevice/nc-udecxusbdevice-evt_udecx_usb_device_endpoints_configure">EVT_UDECX_USB_DEVICE_ENDPOINTS_CONFIGURE</a> callback function.
 The USB device emulation  class extension (UdeCx) invokes the driver's implementation when it gets a request to add or configure endpoints.</li>
 </ul>
 The <i>UdecxUsbDeviceInit</i> is an opaque structure that contains pointers to callback functions related to endpoints. If the client driver supports dynamic endpoints, then these callback functions must be implemented by the driver:
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595913">EVT_UDECX_USB_DEVICE_ENDPOINTS_CONFIGURE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/udecxusbdevice/nc-udecxusbdevice-evt_udecx_usb_device_endpoints_configure">EVT_UDECX_USB_DEVICE_ENDPOINTS_CONFIGURE</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595914">EVT_UDECX_USB_DEVICE_ENDPOINT_ADD</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/udecxusbdevice/nc-udecxusbdevice-evt_udecx_usb_device_endpoint_add">EVT_UDECX_USB_DEVICE_ENDPOINT_ADD</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595912">EVT_UDECX_USB_DEVICE_DEFAULT_ENDPOINT_ADD</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/udecxusbdevice/nc-udecxusbdevice-evt_udecx_usb_device_default_endpoint_add">EVT_UDECX_USB_DEVICE_DEFAULT_ENDPOINT_ADD</a>
 </li>
 </ul>
-Before calling this method, the client driver must have set those pointers by calling <a href="https://msdn.microsoft.com/library/windows/hardware/mt627972">UdecxUsbDeviceInitSetStateChangeCallbacks</a>.
+Before calling this method, the client driver must have set those pointers by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/udecxusbdevice/nf-udecxusbdevice-udecxusbdeviceinitsetstatechangecallbacks">UdecxUsbDeviceInitSetStateChangeCallbacks</a>.
 
 
 
@@ -109,27 +109,27 @@ Before calling this method, the client driver must have set those pointers by ca
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/usbcon/">Architecture: USB Device Emulation (UDE)</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595913">EVT_UDECX_USB_DEVICE_ENDPOINTS_CONFIGURE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/udecxusbdevice/nc-udecxusbdevice-evt_udecx_usb_device_endpoints_configure">EVT_UDECX_USB_DEVICE_ENDPOINTS_CONFIGURE</a>
 
 
 
-<a href="https://msdn.microsoft.com/4DABCC96-F3F5-43D9-9BCF-A2663ED30137">USB endpoints</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/usbcon/">USB endpoints</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt627968">UdecxUsbDeviceInitAllocate</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/udecxusbdevice/nf-udecxusbdevice-udecxusbdeviceinitallocate">UdecxUsbDeviceInitAllocate</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt627972">UdecxUsbDeviceInitSetStateChangeCallbacks</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/udecxusbdevice/nf-udecxusbdevice-udecxusbdeviceinitsetstatechangecallbacks">UdecxUsbDeviceInitSetStateChangeCallbacks</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/usbcon/">Write a UDE client driver</a>
  
 
  

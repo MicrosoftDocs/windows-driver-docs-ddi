@@ -80,9 +80,9 @@ The <b>SCATTER_GATHER_ELEMENT</b> structure specifies the length, in bytes, of a
 
 
 
-For a driver that performs scatter/gather DMA, the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546531">GetScatterGatherList</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff540689">BuildScatterGatherList</a> routine creates a scatter/gather list and passes this list to the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff540513">AdapterListControl</a> routine. This scatter/gather list consists of a <b>SCATTER_GATHER_LIST</b> structure that is immediately followed in memory by a <b>SCATTER_GATHER_ELEMENT</b> array. The number of elements in this array is specified by the <b>NumberOfElements</b> member of the <b>SCATTER_GATHER_LIST</b> structure.
+For a driver that performs scatter/gather DMA, the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pget_scatter_gather_list">GetScatterGatherList</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pbuild_scatter_gather_list">BuildScatterGatherList</a> routine creates a scatter/gather list and passes this list to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-driver_list_control">AdapterListControl</a> routine. This scatter/gather list consists of a <b>SCATTER_GATHER_LIST</b> structure that is immediately followed in memory by a <b>SCATTER_GATHER_ELEMENT</b> array. The number of elements in this array is specified by the <b>NumberOfElements</b> member of the <b>SCATTER_GATHER_LIST</b> structure.
 
-For more information about scatter/gather lists, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565510">Using Scatter/Gather DMA</a>.
+For more information about scatter/gather lists, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-scatter-gather-dma">Using Scatter/Gather DMA</a>.
 
 
 
@@ -92,15 +92,15 @@ For more information about scatter/gather lists, see <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540513">AdapterListControl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-driver_list_control">AdapterListControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540689">BuildScatterGatherList</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pbuild_scatter_gather_list">BuildScatterGatherList</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546531">GetScatterGatherList</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pget_scatter_gather_list">GetScatterGatherList</a>
  
 
  

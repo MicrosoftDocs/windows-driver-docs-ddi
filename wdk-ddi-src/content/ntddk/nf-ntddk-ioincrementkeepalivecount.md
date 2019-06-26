@@ -78,7 +78,7 @@ This routine returns <b>STATUS_SUCCESS</b> on success, or the appropriate <b>NTS
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh780273">IoDecrementKeepAliveCount</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-iodecrementkeepalivecount">IoDecrementKeepAliveCount</a>
  
 
  

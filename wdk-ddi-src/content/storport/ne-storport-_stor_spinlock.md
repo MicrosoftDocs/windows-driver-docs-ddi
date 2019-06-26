@@ -74,7 +74,7 @@ Indicates an Interrupt spinlock.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567025">StorPortAcquireSpinLock</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportacquirespinlock">StorPortAcquireSpinLock</a>
  
 
  

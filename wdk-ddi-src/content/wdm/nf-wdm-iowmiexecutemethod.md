@@ -56,7 +56,7 @@ The <b>IoWMIExecuteMethod</b> routine runs a WMI class method on the specified W
 
 ### -param DataBlockObject [in]
 
-Pointer to a WMI data block object. The caller opens the data block object for the WMI class with <a href="https://msdn.microsoft.com/library/windows/hardware/ff550453">IoWMIOpenBlock</a>. The object must be opened with the WMIGUID_EXECUTE access right.
+Pointer to a WMI data block object. The caller opens the data block object for the WMI class with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iowmiopenblock">IoWMIOpenBlock</a>. The object must be opened with the WMIGUID_EXECUTE access right.
 
 
 ### -param InstanceName [in]
@@ -171,7 +171,7 @@ The WMI GUID is no longer available or was never available.
 
 
 
-<b>IoWMIExecuteMethod</b> determines which drivers might support the specified WMI class and instance name. It issues an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550868">IRP_MN_EXECUTE_METHOD</a> request to each such driver. The driver that exports the data block instance with matching <b>InstanceName</b> property then runs the specified WMI method.
+<b>IoWMIExecuteMethod</b> determines which drivers might support the specified WMI class and instance name. It issues an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-execute-method">IRP_MN_EXECUTE_METHOD</a> request to each such driver. The driver that exports the data block instance with matching <b>InstanceName</b> property then runs the specified WMI method.
 
 
 
@@ -181,11 +181,11 @@ The WMI GUID is no longer available or was never available.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550868">IRP_MN_EXECUTE_METHOD</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-execute-method">IRP_MN_EXECUTE_METHOD</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550453">IoWMIOpenBlock</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iowmiopenblock">IoWMIOpenBlock</a>
  
 
  

@@ -46,7 +46,7 @@ req.typenames: TRACE_INFORMATION_CLASS
 ## -description
 
 
-The <b>TRACE_INFORMATION_CLASS</b> enumeration type is used to indicate types of information associated with a <a href="https://msdn.microsoft.com/library/windows/hardware/ff566350">WMI event tracing</a> session.
+The <b>TRACE_INFORMATION_CLASS</b> enumeration type is used to indicate types of information associated with a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/wmi-event-tracing">WMI event tracing</a> session.
 
 
 ## -enum-fields
@@ -143,7 +143,7 @@ The maximum value in this enumeration type.
 
 
 
-<b>TRACE_INFORMATION_CLASS</b> is provided primarily for use with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565820">WmiQueryTraceInformation</a> routine, which returns information about a WMI event tracing session.
+<b>TRACE_INFORMATION_CLASS</b> is provided primarily for use with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-wmiquerytraceinformation">WmiQueryTraceInformation</a> routine, which returns information about a WMI event tracing session.
 
 
 
@@ -153,19 +153,19 @@ The maximum value in this enumeration type.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565807">WmiFireEvent</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wmilib/nf-wmilib-wmifireevent">WmiFireEvent</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565820">WmiQueryTraceInformation</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-wmiquerytraceinformation">WmiQueryTraceInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565836">WmiTraceMessage</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-wmitracemessage">WmiTraceMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566340">WmiTraceMessageVa</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-wmitracemessageva">WmiTraceMessageVa</a>
  
 
  

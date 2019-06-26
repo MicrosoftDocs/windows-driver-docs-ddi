@@ -66,7 +66,7 @@ The volume level to be applied to the audio stream.
 
 ### -param CurveType [in]
 
-The curve algorithm that will be used  to set the volume level. The curve types are represented by the members of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh831852">AUDIO_CURVE_TYPE</a> enum.
+The curve algorithm that will be used  to set the volume level. The curve types are represented by the members of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ne-ksmedia-audio_curve_type">AUDIO_CURVE_TYPE</a> enum.
 
 
 ### -param CurveDuration [in]
@@ -90,7 +90,7 @@ code.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265090">IMiniportStreamAudioEngineNode</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iminiportstreamaudioenginenode">IMiniportStreamAudioEngineNode</a>
  
 
  

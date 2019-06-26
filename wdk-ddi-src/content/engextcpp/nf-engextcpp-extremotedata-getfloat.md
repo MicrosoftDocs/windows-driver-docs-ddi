@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <b>GetFloat</b> method returns a <b>float</b> version of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544008">ExtRemoteData</a> object, which represents the contents of the target's memory.
+The <b>GetFloat</b> method returns a <b>float</b> version of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-extremotedata-extremotedata(pcstr_ulong64_ulong)">ExtRemoteData</a> object, which represents the contents of the target's memory.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ The <b>GetFloat</b> method returns a <b>float</b> version of the <a href="https:
 
 
 
-<b>GetFloat</b> returns the <b>float</b> version of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544008">ExtRemoteData</a> object.
+<b>GetFloat</b> returns the <b>float</b> version of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-extremotedata-extremotedata(pcstr_ulong64_ulong)">ExtRemoteData</a> object.
 
 
 
@@ -69,7 +69,7 @@ The <b>GetFloat</b> method returns a <b>float</b> version of the <a href="https:
 
 
 
-The size of the memory represented by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544008">ExtRemoteData</a> object must be <code>sizeof(float)</code>.
+The size of the memory represented by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-extremotedata-extremotedata(pcstr_ulong64_ulong)">ExtRemoteData</a> object must be <code>sizeof(float)</code>.
 
 
 
@@ -79,15 +79,15 @@ The size of the memory represented by the <a href="https://msdn.microsoft.com/li
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544008">ExtRemoteData</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-extremotedata-extremotedata(pcstr_ulong64_ulong)">ExtRemoteData</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544019">ExtRemoteData::GetData</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-extremotedata-getdata">ExtRemoteData::GetData</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544022">ExtRemoteData::GetDouble</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-extremotedata-getdouble">ExtRemoteData::GetDouble</a>
  
 
  

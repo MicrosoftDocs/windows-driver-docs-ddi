@@ -72,7 +72,7 @@ The <b>GetInterfaceNumber</b> method retrieves the index of a USB interface.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560312">IWDFUsbInterface</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nn-wudfusb-iwdfusbinterface">IWDFUsbInterface</a>
  
 
  

@@ -46,7 +46,7 @@ req.typenames: PosEventDataHeader, PosBarcodeScannerImagePreviewEventData
 ## -description
 
 
-This structure describes the scanned image data that is passed to the <a href="https://msdn.microsoft.com/library/windows/hardware/dn757466">BarcodeScannerImagePreviewReceived</a> event.
+This structure describes the scanned image data that is passed to the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/previsioning-framework/dn757466(v=vs.85)">BarcodeScannerImagePreviewReceived</a> event.
 
 
 ## -struct-fields
@@ -56,7 +56,7 @@ This structure describes the scanned image data that is passed to the <a href="h
 
 ### -field EventType
 
-The type of event. For the <a href="https://msdn.microsoft.com/library/windows/hardware/dn757466">BarcodeScannerImagePreviewReceived</a> event the value of this field is <b>BarcodeScannerImagePreviewReceived</b>.
+The type of event. For the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/previsioning-framework/dn757466(v=vs.85)">BarcodeScannerImagePreviewReceived</a> event the value of this field is <b>BarcodeScannerImagePreviewReceived</b>.
 
 
 ### -field DataLength

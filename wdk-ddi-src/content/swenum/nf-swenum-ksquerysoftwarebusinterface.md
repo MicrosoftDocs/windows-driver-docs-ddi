@@ -48,7 +48,7 @@ req.typenames:
 
 <i>This function is intended for internal use only.</i>
 
-The <b>KsQuerySoftwareBusInterface</b> function creates a buffer from the paged pool and copies the reference string associated with the demand-load bus enumerator object's PDO into the buffer. It is the caller's responsibility to free the buffer using <a href="https://msdn.microsoft.com/library/windows/hardware/ff544590">ExFreePool</a>. 
+The <b>KsQuerySoftwareBusInterface</b> function creates a buffer from the paged pool and copies the reference string associated with the demand-load bus enumerator object's PDO into the buffer. It is the caller's responsibility to free the buffer using <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-exfreepool">ExFreePool</a>. 
 
 
 ## -parameters
@@ -89,15 +89,15 @@ A minidriver can access this function through the <b>QueryReferenceString</b> me
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557589">BUS_INTERFACE_SWENUM</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/swenum/ns-swenum-_bus_interface_swenum">BUS_INTERFACE_SWENUM</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561678">KsDereferenceSoftwareBusObject</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/swenum/nf-swenum-ksdereferencesoftwarebusobject">KsDereferenceSoftwareBusObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566763">KsReferenceSoftwareBusObject</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/swenum/nf-swenum-ksreferencesoftwarebusobject">KsReferenceSoftwareBusObject</a>
  
 
  

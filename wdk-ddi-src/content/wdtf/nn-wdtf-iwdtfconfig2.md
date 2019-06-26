@@ -66,7 +66,7 @@ The <b>IWDTFCONFIG2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406383">DisableObjectErrorLogging</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nf-wdtf-iwdtfconfig2-disableobjecterrorlogging">DisableObjectErrorLogging</a>
 </td>
 <td align="left" width="63%">
 Disables object error logging for all objects.
@@ -75,7 +75,7 @@ Disables object error logging for all objects.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406315">DisableObjectLogging</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nf-wdtf-iwdtfaction2-disableobjectlogging">DisableObjectLogging</a>
 </td>
 <td align="left" width="63%">
 Disables object logging for all objects.
@@ -84,7 +84,7 @@ Disables object logging for all objects.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406317">EnableObjectErrorLogging</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nf-wdtf-iwdtfaction2-enableobjecterrorlogging">EnableObjectErrorLogging</a>
 </td>
 <td align="left" width="63%">
 Enables object error logging for all objects.
@@ -93,7 +93,7 @@ Enables object error logging for all objects.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406319">EnableObjectLogging</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nf-wdtf-iwdtfaction2-enableobjectlogging">EnableObjectLogging</a>
 </td>
 <td align="left" width="63%">
 Enables object logging for all objects.

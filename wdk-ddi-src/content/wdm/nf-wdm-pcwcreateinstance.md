@@ -144,9 +144,9 @@ The size of the structure, specified by <i>Count</i>, overflows the data buffer,
 
 
 
-Before the provider uses this function, the provider must call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550323">PcwRegister</a> function to create a registration.
+Before the provider uses this function, the provider must call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-pcwregister">PcwRegister</a> function to create a registration.
 
-Use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550316">PcwCloseInstance</a> function to close this instance.
+Use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-pcwcloseinstance">PcwCloseInstance</a> function to close this instance.
 
 
 
@@ -156,11 +156,11 @@ Use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550316">P
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550316">PcwCloseInstance</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-pcwcloseinstance">PcwCloseInstance</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550323">PcwRegister</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-pcwregister">PcwRegister</a>
  
 
  

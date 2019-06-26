@@ -47,7 +47,7 @@ req.typenames:
 ## -description
 
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff545633">ISensorDriver::OnGetSupportedSensorObjects</a> method retrieves the list of sensors that the driver provides.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sensorsclassextension/nf-sensorsclassextension-isensordriver-ongetsupportedsensorobjects">ISensorDriver::OnGetSupportedSensorObjects</a> method retrieves the list of sensors that the driver provides.
 
 
 ## -parameters
@@ -74,7 +74,7 @@ If the operation succeeds, this method returns S_OK. Otherwise, this method retu
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545566">ISensorDriver</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sensorsclassextension/nn-sensorsclassextension-isensordriver">ISensorDriver</a>
  
 
  

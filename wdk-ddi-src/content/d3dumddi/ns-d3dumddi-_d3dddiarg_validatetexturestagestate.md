@@ -64,7 +64,7 @@ The D3DDDIARG_VALIDATETEXTURESTAGESTATE structure contains the number of passes 
 
 
 
-<a href="https://msdn.microsoft.com/058696e0-be4a-45f3-b3e8-55abccdce3ce">ValidateDevice</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_validatedevice">ValidateDevice</a>
  
 
  

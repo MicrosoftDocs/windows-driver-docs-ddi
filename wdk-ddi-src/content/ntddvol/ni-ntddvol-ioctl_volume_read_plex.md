@@ -47,7 +47,7 @@ req.typenames:
 
 
 
-Performs a read on a specific <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">plex</a> of a volume. Because all plexes are identical, the volume manager can retrieve data from any of a volume's plexes during a normal read operation. The volume manager spreads reads among a volume's plexes, to balance the I/O load on the physical media and to maximize read performance. 
+Performs a read on a specific <a href="https://docs.microsoft.com/windows-hardware/drivers/">plex</a> of a volume. Because all plexes are identical, the volume manager can retrieve data from any of a volume's plexes during a normal read operation. The volume manager spreads reads among a volume's plexes, to balance the I/O load on the physical media and to maximize read performance. 
 
 If, however, an application or kernel-mode component must read data from a particular plex instead of letting the volume manager pick one, it can use this IOCTL to do so. 
 
@@ -61,7 +61,7 @@ If, however, an application or kernel-mode component must read data from a parti
 
 ### -input-buffer
 
-Caller inserts the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568027">VOLUME_READ_PLEX_INPUT</a> structure, containing the logical offset, at the beginning of the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>. 
+Caller inserts the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddvol/ns-ntddvol-_volume_read_plex_input">VOLUME_READ_PLEX_INPUT</a> structure, containing the logical offset, at the beginning of the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>. 
 
 
 ### -input-buffer-length
@@ -72,7 +72,7 @@ Caller inserts the <a href="https://msdn.microsoft.com/library/windows/hardware/
 
 ### -output-buffer
 
-Like <a href="https://msdn.microsoft.com/library/windows/hardware/ff549327">IRP_MJ_READ</a>, this IOCTL stores the read data in the memory buffer passed as a memory descriptor list (MDL) in the <b>Irp->MdlAddress</b> field. 
+Like <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-read">IRP_MJ_READ</a>, this IOCTL stores the read data in the memory buffer passed as a memory descriptor list (MDL) in the <b>Irp->MdlAddress</b> field. 
 
 
 ### -output-buffer-length
@@ -110,7 +110,7 @@ The VOLUME_READ_PLEX_INPUT structure at <b>Irp->AssociatedIrp.SystemBuffer</b> h
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568027">VOLUME_READ_PLEX_INPUT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddvol/ns-ntddvol-_volume_read_plex_input">VOLUME_READ_PLEX_INPUT</a>
  
 
  

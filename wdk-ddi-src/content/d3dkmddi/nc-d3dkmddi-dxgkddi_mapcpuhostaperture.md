@@ -63,7 +63,7 @@ A handle to the display adapter.
 
 *Map* [in]
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/dn906822">DXGKARG_MAPCPUHOSTAPERTURE</a> structure that describes the operation.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_mapcpuhostaperture">DXGKARG_MAPCPUHOSTAPERTURE</a> structure that describes the operation.
 
 
 ## -returns

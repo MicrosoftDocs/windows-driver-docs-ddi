@@ -63,7 +63,7 @@ A handle to the display device (graphics context).
 
 *pData* [in, out]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh451072">D3DDDIARG_CHECKDIRECTFLIPSUPPORT</a> structure that defines the parameters for the operation.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_checkdirectflipsupport">D3DDDIARG_CHECKDIRECTFLIPSUPPORT</a> structure that defines the parameters for the operation.
 
 
 ## -returns
@@ -87,11 +87,11 @@ The user-mode driver should ensure that the managed primary allocations of the a
 <ul>
 <li>Stereo resources.</li>
 <li>Multiple Sample Anti Aliasing (MSAA) formats.</li>
-<li>Swizzle formats. If the swizzle can only be changed at every VSync interval, ensure that the <i>CheckDirectFlipFlags</i> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451172">D3DDDI_CHECK_DIRECT_FLIP_FLAGS</a> structure does not have a value of <b>D3D11_1DDI_CHECK_DIRECT_FLIP_IMMEDIATE</b>.</li>
-<li>Both managed primary allocations should be created using the same <b>VidPnSourceId</b> value in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544364">D3DDDI_ALLOCATIONINFO</a> structure.</li>
+<li>Swizzle formats. If the swizzle can only be changed at every VSync interval, ensure that the <i>CheckDirectFlipFlags</i> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ne-d3dumddi-d3dddi_check_direct_flip_flags">D3DDDI_CHECK_DIRECT_FLIP_FLAGS</a> structure does not have a value of <b>D3D11_1DDI_CHECK_DIRECT_FLIP_IMMEDIATE</b>.</li>
+<li>Both managed primary allocations should be created using the same <b>VidPnSourceId</b> value in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dukmdt/ns-d3dukmdt-_d3dddi_allocationinfo">D3DDDI_ALLOCATIONINFO</a> structure.</li>
 <li>Display adapter configurations are linked.</li>
 </ul>
-The user-mode driver might need to call the kernel-mode driver to perform these validations. To do this, call the <a href="https://msdn.microsoft.com/66c0347f-2cf3-42fc-8641-47c731e958c9">pfnEscapeCb</a> callback function and then call the <a href="https://msdn.microsoft.com/144429e5-34e6-4416-980e-2838e8f9e415">DxgkCbGetHandleData</a> function to access the kernel-mode driver's resource allocation data.
+The user-mode driver might need to call the kernel-mode driver to perform these validations. To do this, call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_escapecb">pfnEscapeCb</a> callback function and then call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkcb_gethandledata">DxgkCbGetHandleData</a> function to access the kernel-mode driver's resource allocation data.
 
 Because the DWM typically creates its own device using the highest possible Microsoft Direct3D feature level, the DWM will not call this function if the hardware supports a Direct3D device driver interface (DDI) that is greater than version 9.3. However, any Microsoft Direct3D 9 driver should implement this function to enable the Direct Flip user experience.
 
@@ -103,11 +103,11 @@ Because the DWM typically creates its own device using the highest possible Micr
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451172">D3DDDI_CHECK_DIRECT_FLIP_FLAGS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ne-d3dumddi-d3dddi_check_direct_flip_flags">D3DDDI_CHECK_DIRECT_FLIP_FLAGS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>
  
 
  

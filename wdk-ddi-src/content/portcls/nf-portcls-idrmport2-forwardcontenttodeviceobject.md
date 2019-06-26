@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <code>ForwardContentToDeviceObject</code> method accepts a device object representing a device to which the caller intends to forward protected content. Note that this method is identical in operation to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536351">DrmForwardContentToDeviceObject</a> function, and its parameter definitions and return value are also identical.
+The <code>ForwardContentToDeviceObject</code> method accepts a device object representing a device to which the caller intends to forward protected content. Note that this method is identical in operation to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/drmk/nf-drmk-drmforwardcontenttodeviceobject">DrmForwardContentToDeviceObject</a> function, and its parameter definitions and return value are also identical.
 
 
 ## -parameters
@@ -75,7 +75,7 @@ The <code>ForwardContentToDeviceObject</code> method accepts a device object rep
 
 
 
-See return value definition in <a href="https://msdn.microsoft.com/library/windows/hardware/ff536351">DrmForwardContentToDeviceObject</a>.
+See return value definition in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/drmk/nf-drmk-drmforwardcontenttodeviceobject">DrmForwardContentToDeviceObject</a>.
 
 
 
@@ -84,7 +84,7 @@ See return value definition in <a href="https://msdn.microsoft.com/library/windo
 
 
 
-See comments in <a href="https://msdn.microsoft.com/library/windows/hardware/ff536351">DrmForwardContentToDeviceObject</a>.
+See comments in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/drmk/nf-drmk-drmforwardcontenttodeviceobject">DrmForwardContentToDeviceObject</a>.
 
 
 
@@ -94,11 +94,11 @@ See comments in <a href="https://msdn.microsoft.com/library/windows/hardware/ff5
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536351">DrmForwardContentToDeviceObject</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/drmk/nf-drmk-drmforwardcontenttodeviceobject">DrmForwardContentToDeviceObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536573">IDrmPort2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-idrmport2">IDrmPort2</a>
  
 
  

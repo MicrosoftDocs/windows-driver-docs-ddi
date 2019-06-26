@@ -58,7 +58,7 @@ req.typenames:
 ### -param LogHandle [in]
 
 Specifies the handle returned by 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff563572">NdisMCreateLog</a>.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismcreatelog">NdisMCreateLog</a>.
 
 
 ## -returns
@@ -86,19 +86,19 @@ None
 
 
 
-<a href="https://msdn.microsoft.com/b8d452b4-bef3-4991-87cf-fac15bedfde4">MiniportHaltEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_halt">MiniportHaltEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563572">NdisMCreateLog</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismcreatelog">NdisMCreateLog</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563584">NdisMFlushLog</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismflushlog">NdisMFlushLog</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563695">NdisMWriteLogData</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismwritelogdata">NdisMWriteLogData</a>
  
 
  

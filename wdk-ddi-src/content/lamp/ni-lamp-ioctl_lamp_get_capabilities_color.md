@@ -55,7 +55,8 @@ The **IOCTL_LAMP_GET_CAPABILITIES_COLOR** control code queries the capabilities 
 
 ### -input-buffer
 
-`Irp->AssociatedIrp.SystemBuffer` points to a buffer of type [LAMP_CAPABILITIES_COLOR](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/lamp/ns-lamp-lamp_capabilities_color).
+<code>Irp->AssociatedIrp.SystemBuffer</code> points to a buffer of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/lamp/ns-lamp-lamp_capabilities_color">LAMP_CAPABILITIES_COLOR</a>.
+
 
 ### -input-buffer-length
 
@@ -83,4 +84,11 @@ The payload of this IOCTL is a [LAMP_CAPABILITIES_COLOR](https://docs.microsoft.
 
 The **IsSupported** field indicates whether the lamp can emit color light. If the hardware does not support color light, the driver should set this field to **FALSE**.
 
-The **IsLightIntensityAdjustable** field indicates whether the luminance level can be programmed. If the lamp does not support color light (**IsSupported** evaluates to **FALSE**), a client should discard the value of **IsLightIntensityAdjustable**.
+The payload of this IOCTL is a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/lamp/ns-lamp-lamp_capabilities_color">LAMP_CAPABILITIES_COLOR</a> structure.
+
+The <b>IsSupported</b> field indicates whether the lamp can emit color light. If the hardware does not support color light, the driver should set this field to <b>FALSE</b>.
+
+The <b>IsLightIntensityAdjustable</b> field indicates whether the luminance level can be programmed. If the lamp does not support color light (<b>IsSupported</b> evaluates to <b>FALSE</b>), a client should discard the value of <b>IsLightIntensityAdjustable</b>.
+
+
+

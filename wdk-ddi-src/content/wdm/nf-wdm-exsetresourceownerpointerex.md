@@ -56,7 +56,7 @@ The <b>ExSetResourceOwnerPointerEx</b> routine transfers the ownership of an exe
 
 ### -param Resource [in, out]
 
-A pointer to an executive resource (an opaque <a href="https://msdn.microsoft.com/202b2ef1-bbe4-4ffd-a82b-21f19c145e8d">ERESOURCE</a> structure) that is owned by the calling thread. The caller previously allocated this structure and initialized it by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545317">ExInitializeResourceLite</a> routine. For more information, see the following Remarks section. 
+A pointer to an executive resource (an opaque <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eresource-structures">ERESOURCE</a> structure) that is owned by the calling thread. The caller previously allocated this structure and initialized it by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-exinitializeresourcelite">ExInitializeResourceLite</a> routine. For more information, see the following Remarks section. 
 
 
 ### -param OwnerPointer [in]
@@ -92,7 +92,7 @@ None
 
 This routine is available in Windows 7 and later versions of the Windows operating system.
 
-<b>ExSetResourceOwnerPointerEx</b> enables a thread, which acts as a resource manager, to transfer ownership of an executive resource, which the thread has already acquired, to another thread, which then uses the resource. The executive resource is represented by an <a href="https://msdn.microsoft.com/202b2ef1-bbe4-4ffd-a82b-21f19c145e8d">ERESOURCE</a> structure.
+<b>ExSetResourceOwnerPointerEx</b> enables a thread, which acts as a resource manager, to transfer ownership of an executive resource, which the thread has already acquired, to another thread, which then uses the resource. The executive resource is represented by an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eresource-structures">ERESOURCE</a> structure.
 
 The caller must set the two least significant bits of the <i>OwnerPointer</i> parameter value to ones. The operating system uses these bits internally to distinguish an owner pointer that has been set by an <b>ExSetResourceOwnerPointerEx</b> call from a thread that has acquired a resource by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544351">ExAcquireResourceExclusiveLite</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff544363">ExAcquireResourceSharedLite</a> routine.
 
@@ -102,13 +102,13 @@ If the resource-manager thread acquired the resource for exclusive access (by ca
 
 When the resource-user thread no longer needs the resource, the resource should be released. Typically, the resource-user thread releases the resource. To do so, it must call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545585">ExReleaseResourceForThreadLite</a> routine. In this call, the <i>ThreadId</i> parameter value must match the value of the <i>OwnerPointer</i> parameter (including the two least significant bits) in the previous <b>ExSetResourceOwnerPointerEx</b> call that transferred ownership of the resource.
 
-After a <b>ExSetResourceOwnerPointerEx</b> call transfers ownership of a resource, the only other <a href="https://msdn.microsoft.com/5c7759db-aeb5-47f3-8adc-ddedb74b5cb4">ERESOURCE routine</a> that a driver can call for the specified resource is <b>ExReleaseResourceForThreadLite</b>. An attempt to call another <b>ERESOURCE</b> routine, such as <a href="https://msdn.microsoft.com/library/windows/hardware/ff545597">ExReleaseResourceLite</a>, for this resource is an error.
+After a <b>ExSetResourceOwnerPointerEx</b> call transfers ownership of a resource, the only other <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/introduction-to-eresource-routines">ERESOURCE routine</a> that a driver can call for the specified resource is <b>ExReleaseResourceForThreadLite</b>. An attempt to call another <b>ERESOURCE</b> routine, such as <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-exreleaseresourcelite">ExReleaseResourceLite</a>, for this resource is an error.
 
-<b>ExSetResourceOwnerPointerEx</b> can operate in two significantly different modes. The mode is specified by the <i>Flags</i> parameter. To select the more versatile of the two modes, set <i>Flags</i> = FLAG_OWNER_POINTER_IS_THREAD. This <i>Flags</i> value informs the operating system that the <i>OwnerPointer</i> parameter is a pointer to the thread object of the resource-manager thread. The operating system can, if necessary, use this information to temporarily boost the priority of this thread to avoid priority inversion. To obtain the thread object pointer to use for the <i>OwnerPointer</i> value, a driver can call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544614">ExGetCurrentResourceThread</a> routine. Remember to set the two least significant bits of the <i>OwnerPointer</i> value to ones.
+<b>ExSetResourceOwnerPointerEx</b> can operate in two significantly different modes. The mode is specified by the <i>Flags</i> parameter. To select the more versatile of the two modes, set <i>Flags</i> = FLAG_OWNER_POINTER_IS_THREAD. This <i>Flags</i> value informs the operating system that the <i>OwnerPointer</i> parameter is a pointer to the thread object of the resource-manager thread. The operating system can, if necessary, use this information to temporarily boost the priority of this thread to avoid priority inversion. To obtain the thread object pointer to use for the <i>OwnerPointer</i> value, a driver can call the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff544614(v=vs.85)">ExGetCurrentResourceThread</a> routine. Remember to set the two least significant bits of the <i>OwnerPointer</i> value to ones.
 
-If <i>Flags</i> is zero, the behavior of <b>ExSetResourceOwnerPointerEx</b> is the same as that of the legacy <a href="https://msdn.microsoft.com/library/windows/hardware/ff545600">ExSetResourceOwnerPointer</a> routine, which is available in Windows 2000 and later versions of the Windows operating system. That is, the <i>OwnerPointer</i> parameter points to a storage object that the resource-manager thread allocates in system memory before it calls <b>ExSetResourceOwnerPointerEx</b>. In this case, the object type and value are not relevant because <b>ExSetResourceOwnerPointerEx</b> does not attempt to access the object itself. Instead, the routine simply uses the memory address of the object to identify the resource owner. The storage for the object must begin at an even four-byte boundary in memory. To prevent two drivers from inadvertently using the same owner pointer at the same time, the resource-manager thread must not release the storage for the object until the resource is released.
+If <i>Flags</i> is zero, the behavior of <b>ExSetResourceOwnerPointerEx</b> is the same as that of the legacy <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-exsetresourceownerpointer">ExSetResourceOwnerPointer</a> routine, which is available in Windows 2000 and later versions of the Windows operating system. That is, the <i>OwnerPointer</i> parameter points to a storage object that the resource-manager thread allocates in system memory before it calls <b>ExSetResourceOwnerPointerEx</b>. In this case, the object type and value are not relevant because <b>ExSetResourceOwnerPointerEx</b> does not attempt to access the object itself. Instead, the routine simply uses the memory address of the object to identify the resource owner. The storage for the object must begin at an even four-byte boundary in memory. To prevent two drivers from inadvertently using the same owner pointer at the same time, the resource-manager thread must not release the storage for the object until the resource is released.
 
-For more information about managing executive resources, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff548046">Introduction to ERESOURCE Routines</a>.
+For more information about managing executive resources, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/introduction-to-eresource-routines">Introduction to ERESOURCE Routines</a>.
 
 
 
@@ -118,7 +118,7 @@ For more information about managing executive resources, see <a href="https://ms
 
 
 
-<a href="https://msdn.microsoft.com/202b2ef1-bbe4-4ffd-a82b-21f19c145e8d">ERESOURCE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eresource-structures">ERESOURCE</a>
 
 
 
@@ -130,11 +130,11 @@ For more information about managing executive resources, see <a href="https://ms
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544614">ExGetCurrentResourceThread</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff544614(v=vs.85)">ExGetCurrentResourceThread</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545317">ExInitializeResourceLite</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-exinitializeresourcelite">ExInitializeResourceLite</a>
 
 
 
@@ -142,11 +142,11 @@ For more information about managing executive resources, see <a href="https://ms
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545597">ExReleaseResourceLite</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-exreleaseresourcelite">ExReleaseResourceLite</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545600">ExSetResourceOwnerPointer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-exsetresourceownerpointer">ExSetResourceOwnerPointer</a>
  
 
  

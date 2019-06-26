@@ -73,7 +73,7 @@ YUV values contain xvYCC data, instead of conventional YCbCr data.
 
 
 
-For more info on how YUV ranges are defined and converted, see <a href="https://msdn.microsoft.com/D76FFB8C-CA42-446E-826F-52982B1849E5">YUV format ranges in Windows 8.1</a>.
+For more info on how YUV ranges are defined and converted, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/yuv-format-ranges">YUV format ranges in Windows 8.1</a>.
 
 
 

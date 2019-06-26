@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <b>RemoveEntryList</b> routine removes an entry from a doubly linked list of <a href="https://msdn.microsoft.com/library/windows/hardware/ff554296">LIST_ENTRY</a> structures.
+The <b>RemoveEntryList</b> routine removes an entry from a doubly linked list of <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_list_entry">LIST_ENTRY</a> structures.
 
 
 ## -parameters
@@ -56,7 +56,7 @@ The <b>RemoveEntryList</b> routine removes an entry from a doubly linked list of
 
 ### -param Entry [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554296">LIST_ENTRY</a> structure that represents the entry to be removed.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_list_entry">LIST_ENTRY</a> structure that represents the entry to be removed.
 
 
 ## -returns
@@ -78,9 +78,9 @@ Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff55
 
 The return value can be used to detect when the last entry is removed from the list. An empty list consists of a list head only and no list entries.
 
-<div class="alert"><b>Note</b>  Typically, <i>Entry</i> points to an entry in a list and not to the list head. However, <i>Entry</i> can point to a list head, in which case the routine removes the list head from the list to produce a headless list. When <b>RemoveEntryList</b> is used in this way, the return value should typically be ignored. To determine whether a list is empty, use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551789">IsListEmpty</a> routine.</div>
+<div class="alert"><b>Note</b>  Typically, <i>Entry</i> points to an entry in a list and not to the list head. However, <i>Entry</i> can point to a list head, in which case the routine removes the list head from the list to produce a headless list. When <b>RemoveEntryList</b> is used in this way, the return value should typically be ignored. To determine whether a list is empty, use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-islistempty">IsListEmpty</a> routine.</div>
 <div> </div>
-For information about using this routine when implementing a doubly linked list, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563802">Singly and Doubly Linked Lists</a>.
+For information about using this routine when implementing a doubly linked list, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/singly-and-doubly-linked-lists">Singly and Doubly Linked Lists</a>.
 
 In Windows XP and Windows 2000, <b>RemoveEntryList</b> did not return a value. Starting with Windows Server 2003, <b>RemoveEntryList</b> returns a BOOLEAN value.
 
@@ -94,19 +94,19 @@ Callers of <b>RemoveEntryList</b> can be running at any IRQL. If <b>RemoveEntryL
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547799">InitializeListHead</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-initializelisthead">InitializeListHead</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551789">IsListEmpty</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-islistempty">IsListEmpty</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561032">RemoveHeadList</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-removeheadlist">RemoveHeadList</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561036">RemoveTailList</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-removetaillist">RemoveTailList</a>
  
 
  

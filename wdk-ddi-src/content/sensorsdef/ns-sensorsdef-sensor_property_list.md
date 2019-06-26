@@ -46,7 +46,7 @@ req.typenames: SENSOR_PROPERTY_LIST, *PSENSOR_PROPERTY_LIST
 ## -description
 
 
-This structure contains a list of all <a href="https://msdn.microsoft.com/library/windows/hardware/dn946708">SENSOR_VALUE_PAIR</a> structures for each sensor. This structure is returned by calling ReadFile.
+This structure contains a list of all <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sensorsdef/ns-sensorsdef-sensor_value_pair">SENSOR_VALUE_PAIR</a> structures for each sensor. This structure is returned by calling ReadFile.
 
 
 ## -struct-fields
@@ -79,13 +79,13 @@ The SENSOR_COLLECTION_LIST structure works with the following helper functions:
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn957094">SENSOR_COLLECTION_LIST_INIT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sensorsdef/nf-sensorsdef-sensor_collection_list_init">SENSOR_COLLECTION_LIST_INIT</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn957095">SENSOR_COLLECTION_LIST_SIZE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sensorsdef/nf-sensorsdef-sensor_collection_list_size">SENSOR_COLLECTION_LIST_SIZE</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn957093">SENSOR_COLLECTION_LIST_CALCULATE_MAX_COUNT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sensorsdef/nf-sensorsdef-sensor_collection_list_calculate_max_count">SENSOR_COLLECTION_LIST_CALCULATE_MAX_COUNT</a>
 </li>
 </ul>
 

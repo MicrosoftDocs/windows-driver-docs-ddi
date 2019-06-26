@@ -47,7 +47,7 @@ req.typenames:
 ## -description
 
 
-The <b>FltFreeCallbackData</b> routine frees a callback data structure allocated by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541703">FltAllocateCallbackData</a> routine. 
+The <b>FltFreeCallbackData</b> routine frees a callback data structure allocated by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltallocatecallbackdata">FltAllocateCallbackData</a> routine. 
 
 
 ## -parameters
@@ -57,7 +57,7 @@ The <b>FltFreeCallbackData</b> routine frees a callback data structure allocated
 
 ### -param CallbackData [in]
 
-Pointer to the callback data structure to be freed. This <a href="https://msdn.microsoft.com/library/windows/hardware/ff544620">FLT_CALLBACK_DATA</a> structure must have been allocated by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff541703">FltAllocateCallbackData</a>. This parameter is required and cannot be <b>NULL</b>. 
+Pointer to the callback data structure to be freed. This <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a> structure must have been allocated by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltallocatecallbackdata">FltAllocateCallbackData</a>. This parameter is required and cannot be <b>NULL</b>. 
 
 
 ## -returns
@@ -73,11 +73,11 @@ None
 
 
 
-A minifilter driver should use <b>FltFreeCallbackData</b> only on a callback data structure (<a href="https://msdn.microsoft.com/library/windows/hardware/ff544620">FLT_CALLBACK_DATA</a>) that it previously allocated with <a href="https://msdn.microsoft.com/library/windows/hardware/ff541703">FltAllocateCallbackData</a> and used in a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff543420">FltPerformAsynchronousIo</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff543421">FltPerformSynchronousIo</a>. 
+A minifilter driver should use <b>FltFreeCallbackData</b> only on a callback data structure (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>) that it previously allocated with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltallocatecallbackdata">FltAllocateCallbackData</a> and used in a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltperformasynchronousio">FltPerformAsynchronousIo</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltperformsynchronousio">FltPerformSynchronousIo</a>. 
 
 In particular, a minifilter driver should not use this routine for any callback data structures that were not allocated by the minifilter driver itself. 
 
-The <b>FltFreeCallbackData</b> routine frees any <a href="https://msdn.microsoft.com/library/windows/hardware/ff554414">MDL</a> chain associated with the supplied <i>CallbackData</i> object. A pointer to an MDL chain associated with a <a href="https://msdn.microsoft.com/library/windows/hardware/ff544620">FLT_CALLBACK_DATA</a> object will be invalid after a call to <b>FltFreeCallbackData</b> for that object.
+The <b>FltFreeCallbackData</b> routine frees any <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_mdl">MDL</a> chain associated with the supplied <i>CallbackData</i> object. A pointer to an MDL chain associated with a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a> object will be invalid after a call to <b>FltFreeCallbackData</b> for that object.
 
 
 
@@ -87,23 +87,23 @@ The <b>FltFreeCallbackData</b> routine frees any <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544620">FLT_CALLBACK_DATA</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541703">FltAllocateCallbackData</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltallocatecallbackdata">FltAllocateCallbackData</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543420">FltPerformAsynchronousIo</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltperformasynchronousio">FltPerformAsynchronousIo</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543421">FltPerformSynchronousIo</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltperformsynchronousio">FltPerformSynchronousIo</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544358">FltReuseCallbackData</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltreusecallbackdata">FltReuseCallbackData</a>
  
 
  

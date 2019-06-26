@@ -51,7 +51,7 @@ The <b>IFixedDocumentSequence</b> interface represents the fixed document sequen
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFixedDocumentSequence</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IFixedDocumentSequence</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFixedDocumentSequence</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IFixedDocumentSequence</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -66,7 +66,7 @@ The <b>IFixedDocumentSequence</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550977">IFixedDocumentSequence::GetPrintTicket</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/filterpipeline/nf-filterpipeline-ifixeddocumentsequence-getprintticket">IFixedDocumentSequence::GetPrintTicket</a>
 </td>
 <td align="left" width="63%">
 The <b>GetPrintTicket</b> method gets the print ticket object for the fixed document sequence.
@@ -75,7 +75,7 @@ The <b>GetPrintTicket</b> method gets the print ticket object for the fixed docu
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550979">IFixedDocumentSequence::GetUri</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/filterpipeline/nf-filterpipeline-ifixeddocumentsequence-geturi">IFixedDocumentSequence::GetUri</a>
 </td>
 <td align="left" width="63%">
 The <b>GetUri</b> method gets the URI of the fixed document sequence.
@@ -84,7 +84,7 @@ The <b>GetUri</b> method gets the URI of the fixed document sequence.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550987">IFixedDocumentSequence::SetPrintTicket</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/filterpipeline/nf-filterpipeline-ifixeddocumentsequence-setprintticket">IFixedDocumentSequence::SetPrintTicket</a>
 </td>
 <td align="left" width="63%">
 The <b>SetPrintTicket</b> method inserts a print ticket into the fixed document sequence.

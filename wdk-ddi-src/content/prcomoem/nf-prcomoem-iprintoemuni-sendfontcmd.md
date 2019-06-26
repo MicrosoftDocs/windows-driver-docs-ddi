@@ -56,17 +56,17 @@ The <code>IPrintOemUni::SendFontCmd</code> method enables a rendering plug-in to
 
 ### -param pdevobj
 
-Caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547573">DEVOBJ</a> structure.
+Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/ns-printoem-_devobj">DEVOBJ</a> structure.
 
 
 ### -param pUFObj
 
-Caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563590">UNIFONTOBJ</a> structure.
+Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/ns-printoem-_unifontobj">UNIFONTOBJ</a> structure.
 
 
 ### -param pFInv
 
-Caller-supplied pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff548846">FINVOCATION</a> structure.
+Caller-supplied pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/ns-printoem-_finvocation">FINVOCATION</a> structure.
 
 
 ## -returns
@@ -123,9 +123,9 @@ The method is not implemented.
 
 
 
-The <code>IPrintOemUni::SendFontCmd</code> method is used for selecting device fonts on printers that do not recognize the <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">PCL</a>, CAPSL, or PPDS-formatted font commands supported by Unidrv. Its purpose is to allow a rendering plug-in to modify the font selection command that is specified in the font's .ufm (Unidrv Font Metrics) file. (To see how the command is stored, refer to the description of .ufm file's <a href="https://msdn.microsoft.com/library/windows/hardware/ff562872">UNIDRVINFO</a> structure.) If the command needs to be modified before being sent to the printer, you should implement the <code>IPrintOemUni::SendFontCmd</code> method.
+The <code>IPrintOemUni::SendFontCmd</code> method is used for selecting device fonts on printers that do not recognize the <a href="https://docs.microsoft.com/windows-hardware/drivers/">PCL</a>, CAPSL, or PPDS-formatted font commands supported by Unidrv. Its purpose is to allow a rendering plug-in to modify the font selection command that is specified in the font's .ufm (Unidrv Font Metrics) file. (To see how the command is stored, refer to the description of .ufm file's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prntfont/ns-prntfont-_unidrvinfo">UNIDRVINFO</a> structure.) If the command needs to be modified before being sent to the printer, you should implement the <code>IPrintOemUni::SendFontCmd</code> method.
 
-The method receives the command string in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548846">FINVOCATION</a> structure pointed to by <i>pFInv</i>. Typically, the string contains variables for which values must be supplied. For example, the following font selection command requires that <i>#FontHeight</i> and <i>#FontWidth</i> be replaced with numeric values:
+The method receives the command string in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/ns-printoem-_finvocation">FINVOCATION</a> structure pointed to by <i>pFInv</i>. Typically, the string contains variables for which values must be supplied. For example, the following font selection command requires that <i>#FontHeight</i> and <i>#FontWidth</i> be replaced with numeric values:
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -137,13 +137,13 @@ The method receives the command string in the <a href="https://msdn.microsoft.co
 </td>
 </tr>
 </table></span></div>
-Current values for the font height and width can be obtained by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a> to read Unidrv's standard variables.
+Current values for the font height and width can be obtained by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/nc-printoem-pfngetinfo">UNIFONTOBJ_GetInfo</a> to read Unidrv's standard variables.
 
-Whenever the <code>IPrintOemUni::SendFontCmd</code> method called, it must send the command string to the printer by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff553138">IPrintOemDriverUni::DrvWriteSpoolBuf</a>.
+Whenever the <code>IPrintOemUni::SendFontCmd</code> method called, it must send the command string to the printer by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintoemdriveruni-drvwritespoolbuf">IPrintOemDriverUni::DrvWriteSpoolBuf</a>.
 
-The <code>IPrintOemUni::SendFontCmd</code> method is optional. If a rendering plug-in implements this method, the plug-in's <a href="https://msdn.microsoft.com/library/windows/hardware/ff554253">IPrintOemUni::GetImplementedMethod</a> method must return S_OK when it receives "SendFontCmd" as input.
+The <code>IPrintOemUni::SendFontCmd</code> method is optional. If a rendering plug-in implements this method, the plug-in's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintoemuni-getimplementedmethod">IPrintOemUni::GetImplementedMethod</a> method must return S_OK when it receives "SendFontCmd" as input.
 
-For additional information see <a href="https://msdn.microsoft.com/6e643703-ace1-4660-990c-3a9ca735829d">Customized Font Management</a>.
+For additional information see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/customized-font-management">Customized Font Management</a>.
 
 
 
@@ -153,31 +153,31 @@ For additional information see <a href="https://msdn.microsoft.com/6e643703-ace1
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547573">DEVOBJ</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/ns-printoem-_devobj">DEVOBJ</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548846">FINVOCATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/ns-printoem-_finvocation">FINVOCATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553138">IPrintOemDriverUni::DrvWriteSpoolBuf</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintoemdriveruni-drvwritespoolbuf">IPrintOemDriverUni::DrvWriteSpoolBuf</a>
 
 
 
-<a href="https://msdn.microsoft.com/097366a0-2ded-435c-9b63-2b736b716032">IPrintOemUni</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nn-prcomoem-iprintoemuni">IPrintOemUni</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554253">IPrintOemUni::GetImplementedMethod</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintoemuni-getimplementedmethod">IPrintOemUni::GetImplementedMethod</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563590">UNIFONTOBJ</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/ns-printoem-_unifontobj">UNIFONTOBJ</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/nc-printoem-pfngetinfo">UNIFONTOBJ_GetInfo</a>
  
 
  

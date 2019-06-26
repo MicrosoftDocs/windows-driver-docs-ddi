@@ -88,7 +88,7 @@ If the call to <b>FsRtlRemovePerFileObjectContext </b>is successful, the first p
 
 <div class="alert"><b>Note</b>  <b>FsRtlRemovePerFileObjectContext </b>unlinks only the first matching per-file-object context structure that is found. If there are additional matching per-file-object contexts, the filter driver must call <b>FsRtlRemovePerFileObjectContext </b>as many times as required to unlink them all.</div>
 <div> </div>
-To initialize a per-file-object context structure, use the <a href="https://msdn.microsoft.com/8ed219c8-927e-47b1-8ebf-689535dea0fc">FsRtlInitPerFileObjectContext </a>macro.
+To initialize a per-file-object context structure, use the <a href="https://docs.microsoft.com/previous-versions/ff546170(v=vs.85)">FsRtlInitPerFileObjectContext </a>macro.
 
 To associate an initialized per-file-object context structure with a file object, use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546189">FsRtlInsertPerFileObjectContext</a> function.
 
@@ -110,7 +110,7 @@ Additionally, file system minifilter drivers must not use the <b>FsRtl</b><i>Xxx
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546170">FsRtlInitPerFileObjectContext</a>
+<a href="https://docs.microsoft.com/previous-versions/ff546170(v=vs.85)">FsRtlInitPerFileObjectContext</a>
 
 
 

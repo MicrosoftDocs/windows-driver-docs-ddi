@@ -129,7 +129,7 @@ A wide character string that specifies the name of the target that a logon or lo
 
 ### -field TargetFailureAddr
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff561536">ISCSI_IP_Address</a> structure that specifies the IP address of the target that a logon or logoff failed for.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/iscsidef/ns-iscsidef-_iscsi_ip_address">ISCSI_IP_Address</a> structure that specifies the IP address of the target that a logon or logoff failed for.
 
 
 ## -remarks
@@ -146,11 +146,11 @@ It is optional that you implement this class.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561536">ISCSI_IP_Address</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/iscsidef/ns-iscsidef-_iscsi_ip_address">ISCSI_IP_Address</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563049">MSiSCSI_InitiatorNodeFailureEvent WMI Class</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msiscsi-initiatornodefailureevent-wmi-class">MSiSCSI_InitiatorNodeFailureEvent WMI Class</a>
  
 
  

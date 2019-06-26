@@ -79,7 +79,7 @@ Applications can use the handle that <b>KsGetObjectHandle</b> returns to send co
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567142">KsSynchronousDeviceControl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nf-ksproxy-kssynchronousdevicecontrol">KsSynchronousDeviceControl</a>
  
 
  

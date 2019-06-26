@@ -220,11 +220,11 @@ The <b>WDF_FILE_INFORMATION_CLASS</b> enumeration identifies the types of file i
 
 
 
-The <b>WDF_FILE_INFORMATION_CLASS</b> enumeration is used as an input value to <a href="https://msdn.microsoft.com/library/windows/hardware/ff558997">IWDFIoRequest2::GetQueryInformationParameters</a> and as an output value from <a href="https://msdn.microsoft.com/library/windows/hardware/ff559009">IWDFIoRequest2::GetSetInformationParameters</a>.
+The <b>WDF_FILE_INFORMATION_CLASS</b> enumeration is used as an input value to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfiorequest2-getqueryinformationparameters">IWDFIoRequest2::GetQueryInformationParameters</a> and as an output value from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfiorequest2-getsetinformationparameters">IWDFIoRequest2::GetSetInformationParameters</a>.
 
 For most values that the <b>WDF_FILE_INFORMATION_CLASS</b> enumeration defines, the wdm.h or ntifs.h header file defines a FILE_XXXX_INFORMATION-named structure that the driver can use when obtaining or setting the file information.
 
-For more information about the enumeration value and associated structures, see the description of the <i>FileInformationClass</i> parameter of <a href="https://msdn.microsoft.com/library/windows/hardware/ff567052">ZwQueryInformationFile</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff567096">ZwSetInformationFile</a>.
+For more information about the enumeration value and associated structures, see the description of the <i>FileInformationClass</i> parameter of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-ntqueryinformationfile">ZwQueryInformationFile</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-ntsetinformationfile">ZwSetInformationFile</a>.
 
 
 
@@ -234,11 +234,11 @@ For more information about the enumeration value and associated structures, see 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558997">IWDFIoRequest2::GetQueryInformationParameters</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfiorequest2-getqueryinformationparameters">IWDFIoRequest2::GetQueryInformationParameters</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559009">IWDFIoRequest2::GetSetInformationParameters</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfiorequest2-getsetinformationparameters">IWDFIoRequest2::GetSetInformationParameters</a>
  
 
  

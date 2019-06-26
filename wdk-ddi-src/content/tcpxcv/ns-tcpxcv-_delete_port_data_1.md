@@ -46,7 +46,7 @@ req.typenames: DELETE_PORT_DATA_1, *PDELETE_PORT_DATA_1
 ## -description
 
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff564255">XcvData</a> function uses a DELETE_PORT_DATA_1 structure when it deletes a port.
+The <a href="https://docs.microsoft.com/previous-versions/ff564255(v=vs.85)">XcvData</a> function uses a DELETE_PORT_DATA_1 structure when it deletes a port.
 
 
 ## -struct-fields
@@ -78,9 +78,9 @@ Is obsolete, and must be set to 0.
 
 
 
-When the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564255">XcvData</a> function is called to delete a port, its <i>pInputData</i> parameter must be set with the address of a DELETE_PORT_DATA_1 structure. Set this function's <i>pszDataName</i> parameter to the string L"DeletePort". 
+When the <a href="https://docs.microsoft.com/previous-versions/ff564255(v=vs.85)">XcvData</a> function is called to delete a port, its <i>pInputData</i> parameter must be set with the address of a DELETE_PORT_DATA_1 structure. Set this function's <i>pszDataName</i> parameter to the string L"DeletePort". 
 
-See <a href="https://msdn.microsoft.com/7b2b1cff-ab8f-44e0-9327-dc60a0072bf5">TCPMON Xcv Interface</a> for more information.
+See <a href="https://docs.microsoft.com/windows-hardware/drivers/print/tcpmon-xcv-interface">TCPMON Xcv Interface</a> for more information.
 
 
 
@@ -90,7 +90,7 @@ See <a href="https://msdn.microsoft.com/7b2b1cff-ab8f-44e0-9327-dc60a0072bf5">TC
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564255">XcvData</a>
+<a href="https://docs.microsoft.com/previous-versions/ff564255(v=vs.85)">XcvData</a>
  
 
  

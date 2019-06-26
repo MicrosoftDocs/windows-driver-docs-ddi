@@ -50,7 +50,7 @@ An interface implemented by ports to provide
  notification helpers to miniports to support audio module communication.
 
 For more information about audio modules, 
- see <a href="https://msdn.microsoft.com/windows/hardware/drivers/audio/implementing-audio-module-communication">Implementing Audio Module Discovery</a>. 
+ see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/implementing-audio-module-communication">Implementing Audio Module Discovery</a>. 
  
 
 The miniport audio driver will call into their port to create and send the notification.  
@@ -58,7 +58,7 @@ The miniport audio driver will call into their port to create and send the notif
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortClsNotifications</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IPortClsNotifications</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortClsNotifications</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPortClsNotifications</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -73,7 +73,7 @@ The <b>IPortClsNotifications</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/23DBA3D8-FC27-4F5D-9F1C-A22B6C2856D2">IPortClsNotifications::AllocNotificationBuffer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iportclsnotifications-allocnotificationbuffer">IPortClsNotifications::AllocNotificationBuffer</a>
 </td>
 <td align="left" width="63%">
 Allocates a buffer of the specified size, in the specified memory pool, for use in sending notifications, to allow for communications between audio modules and UWP apps. 
@@ -82,7 +82,7 @@ Allocates a buffer of the specified size, in the specified memory pool, for use 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/93EC2651-3C52-4810-9F7A-A81BC7DA20AF">IPortClsNotifications::FreeNotificationBuffer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iportclsnotifications-freenotificationbuffer">IPortClsNotifications::FreeNotificationBuffer</a>
 </td>
 <td align="left" width="63%">
 Frees a previously allocated IPortClsNotifications buffer. The buffer is used in sending notifications, to allow for communications between audio modules and UWP apps. 
@@ -91,7 +91,7 @@ Frees a previously allocated IPortClsNotifications buffer. The buffer is used in
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0683C30D-0AAD-4859-BA30-908FA747CC35">IPortClsNotifications::SendNotification</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iportclsnotifications-sendnotification">IPortClsNotifications::SendNotification</a>
 </td>
 <td align="left" width="63%">
 Sends a notification to the listening UWP apps, to allow for communications between audio modules and UWP apps. 

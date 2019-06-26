@@ -46,7 +46,7 @@ req.typenames: RESOURCEMANAGER_BASIC_INFORMATION, *PRESOURCEMANAGER_BASIC_INFORM
 ## -description
 
 
-The <b>RESOURCEMANAGER_BASIC INFORMATION</b> structure contains information about a <a href="https://msdn.microsoft.com/b44f2035-ee9f-453b-b12d-89ca36a8b280">resource manager object</a>.
+The <b>RESOURCEMANAGER_BASIC INFORMATION</b> structure contains information about a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/resource-manager-objects">resource manager object</a>.
 
 
 ## -struct-fields
@@ -73,9 +73,9 @@ A caller-allocated array of characters that receives a resource manager's descri
 
 
 
-The <b>RESOURCEMANAGER_BASIC INFORMATION</b> structure is used with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567054">ZwQueryInformationResourceManager</a> routine.
+The <b>RESOURCEMANAGER_BASIC INFORMATION</b> structure is used with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ntqueryinformationresourcemanager">ZwQueryInformationResourceManager</a> routine.
 
-The resource manager's description string, which the <b>Description</b> member receives, is the description that the resource manager previously specified when it called <a href="https://msdn.microsoft.com/library/windows/hardware/ff566427">ZwCreateResourceManager</a>.
+The resource manager's description string, which the <b>Description</b> member receives, is the description that the resource manager previously specified when it called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ntcreateresourcemanager">ZwCreateResourceManager</a>.
 
 
 
@@ -85,11 +85,11 @@ The resource manager's description string, which the <b>Description</b> member r
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566427">ZwCreateResourceManager</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ntcreateresourcemanager">ZwCreateResourceManager</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567054">ZwQueryInformationResourceManager</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ntqueryinformationresourcemanager">ZwQueryInformationResourceManager</a>
  
 
  

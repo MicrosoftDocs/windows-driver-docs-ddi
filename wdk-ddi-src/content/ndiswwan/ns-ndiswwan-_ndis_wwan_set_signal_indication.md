@@ -103,13 +103,13 @@ sizeof(NDIS_WWAN_SET_SIGNAL_INDICATION)
  
 
 For more information about these members, see 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field SignalIndication
 
 A formatted 
-     <a href="https://msdn.microsoft.com/266ec8f5-f6ec-47e5-b433-4f570f2d43d2">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_set_signal_indication">
      WWAN_SET_SIGNAL_INDICATION</a> object that represents the frequency of RSSI interval and RSSI
      threshold notifications.
 
@@ -119,11 +119,11 @@ A formatted
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571237">WWAN_SET_SIGNAL_INDICATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_set_signal_indication">WWAN_SET_SIGNAL_INDICATION</a>
  
 
  

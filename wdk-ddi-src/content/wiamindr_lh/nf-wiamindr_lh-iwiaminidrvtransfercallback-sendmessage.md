@@ -48,7 +48,7 @@ req.typenames:
 
 Periodically called by the WIA mini-driver during a data transfer, to update the WIA application client about the progress and status of the transfer.
 
-For more information about the progress data that is transferred, see <a href="https://msdn.microsoft.com/library/windows/desktop/ms629867(v=vs.85).aspx">WiaTransferParams</a>.
+For more information about the progress data that is transferred, see <a href="https://docs.microsoft.com/windows/desktop/wia/-wia-wiatransferparams">WiaTransferParams</a>.
 
 
 ## -parameters
@@ -89,15 +89,15 @@ When the current transfer sequence is cancelled, the <b>SendMessage</b> method r
 
 
 
-<a href="https://msdn.microsoft.com/0cdc02bf-23fe-4122-8d5f-f42c3c07da8b">Cancellation of Data Transfers in Windows Vista</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/image/cancellation-of-data-transfers-in-windows-vista">Cancellation of Data Transfers in Windows Vista</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj151550">IWiaMiniDrvTransferCallback</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nn-wiamindr_lh-iwiaminidrvtransfercallback">IWiaMiniDrvTransferCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/desktop/ms629867(v=vs.85).aspx">WiaTransferParams</a>
+<a href="https://docs.microsoft.com/windows/desktop/wia/-wia-wiatransferparams">WiaTransferParams</a>
  
 
  

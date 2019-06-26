@@ -47,8 +47,8 @@ req.typenames: UCMTCPCI_PORT_CONTROLLER_CAPABILITIES, *PUCMTCPCI_PORT_CONTROLLER
 
 
 Contains information about the capabilities of the port controller.
-             This client driver must specify that information in the call to <a href="https://msdn.microsoft.com/library/windows/hardware/mt805844">UcmTcpciPortControllerCreate</a> during initialization. 
-                 Call <a href="https://msdn.microsoft.com/library/windows/hardware/mt805871">UCMTCPCI_PORT_CONTROLLER_CAPABILITIES_INIT</a> to initialize this structure.
+             This client driver must specify that information in the call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucmtcpciportcontroller/nf-ucmtcpciportcontroller-ucmtcpciportcontrollercreate">UcmTcpciPortControllerCreate</a> during initialization. 
+                 Call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucmtcpciportcontroller/nf-ucmtcpciportcontroller-ucmtcpci_port_controller_capabilities_init">UCMTCPCI_PORT_CONTROLLER_CAPABILITIES_INIT</a> to initialize this structure.
              
 
 
@@ -103,11 +103,11 @@ Contains information about the capabilities of the port controller.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt805871">UCMTCPCI_PORT_CONTROLLER_CAPABILITIES_INIT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucmtcpciportcontroller/nf-ucmtcpciportcontroller-ucmtcpci_port_controller_capabilities_init">UCMTCPCI_PORT_CONTROLLER_CAPABILITIES_INIT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt805844">UcmTcpciPortControllerCreate</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucmtcpciportcontroller/nf-ucmtcpciportcontroller-ucmtcpciportcontrollercreate">UcmTcpciPortControllerCreate</a>
  
 
  

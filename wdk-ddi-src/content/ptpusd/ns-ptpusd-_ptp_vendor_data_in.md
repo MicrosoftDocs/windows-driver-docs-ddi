@@ -131,7 +131,7 @@ Is an array containing an (optional) first byte to write to the device.
 
 
 
-See <a href="https://msdn.microsoft.com/3d360a9f-5a65-452b-a8ad-080dc7d8c8f5">Vendor-Extended Commands</a> for more information and example code that uses this structure. 
+See <a href="https://docs.microsoft.com/windows-hardware/drivers/image/vendor-extended-commands">Vendor-Extended Commands</a> for more information and example code that uses this structure. 
 
 For more information about the opcodes used in the <b>OpCode</b> member, see PIMA 15740:2000, <i>Photography </i>−<i> Electronic still picture imaging </i>−<i> Picture Transfer Protocol (PTP) for Digital Still Photography Devices</i>,<i> First Edition</i>, July 5, 2000, http://www.pima.net/standards/it10/PIMA15740/. 
 
@@ -143,7 +143,7 @@ For more information about the opcodes used in the <b>OpCode</b> member, see PIM
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546452">PTP_VENDOR_DATA_OUT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ptpusd/ns-ptpusd-_ptp_vendor_data_out">PTP_VENDOR_DATA_OUT</a>
  
 
  

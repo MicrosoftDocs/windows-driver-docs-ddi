@@ -68,11 +68,11 @@ Indicates whether the stream is an original, first-generation copy of a stream o
 
 
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff537253">KSPROPERTY_AUDIO_COPY_PROTECTION</a> property uses this structure to report whether a stream is copyrighted, and also whether the stream is an original stream or a copy of the original stream.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-audio-copy-protection">KSPROPERTY_AUDIO_COPY_PROTECTION</a> property uses this structure to report whether a stream is copyrighted, and also whether the stream is an original stream or a copy of the original stream.
 
 An audio device that supports copy protection can use copyright and copy-generation information about a stream to prevent unlimited copying of proprietary audio content. For example, the Serial Copy Management System (SCMS) defines one level of copy protection that allows copying of an original, first-generation copy of a stream, but prevents copying of second-generation copies of the stream.
 
-The KSPROPERTY_AUDIO_COPY_PROTECTION property is separate from and unrelated to the implementation of <a href="https://msdn.microsoft.com/7ce19196-5180-421f-b6be-ac4a235a8c16">Digital Rights Management (DRM)</a> and the Secure Audio Path (SAP) for Windows Media. For information about SAP, see the Microsoft Windows SDK documentation.
+The KSPROPERTY_AUDIO_COPY_PROTECTION property is separate from and unrelated to the implementation of <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/digital-rights-management">Digital Rights Management (DRM)</a> and the Secure Audio Path (SAP) for Windows Media. For information about SAP, see the Microsoft Windows SDK documentation.
 
 
 
@@ -82,7 +82,7 @@ The KSPROPERTY_AUDIO_COPY_PROTECTION property is separate from and unrelated to 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537253">KSPROPERTY_AUDIO_COPY_PROTECTION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-audio-copy-protection">KSPROPERTY_AUDIO_COPY_PROTECTION</a>
  
 
  

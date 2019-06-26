@@ -80,7 +80,7 @@ A ULONG containing the count.
 
 
 
-For more information, see the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564715">ScsiPortReadPortBufferUchar</a> routine. For a nonbuffered version of this routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff567474">StorPortReadPortUchar</a>. 
+For more information, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/srb/nf-srb-scsiportreadportbufferuchar">ScsiPortReadPortBufferUchar</a> routine. For a nonbuffered version of this routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportreadportuchar">StorPortReadPortUchar</a>. 
 
 
 
@@ -90,11 +90,11 @@ For more information, see the <a href="https://msdn.microsoft.com/library/window
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564715">ScsiPortReadPortBufferUchar</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/srb/nf-srb-scsiportreadportbufferuchar">ScsiPortReadPortBufferUchar</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567474">StorPortReadPortUchar</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportreadportuchar">StorPortReadPortUchar</a>
  
 
  

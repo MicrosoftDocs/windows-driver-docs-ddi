@@ -56,17 +56,17 @@ The <b>KeSynchronizeExecution</b> routine synchronizes the execution of the spec
 
 ### -param Interrupt [in, out]
 
-A pointer to a set of interrupt objects. The caller obtained this pointer from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548371">IoConnectInterrupt</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff548378">IoConnectInterruptEx</a> routine.
+A pointer to a set of interrupt objects. The caller obtained this pointer from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ioconnectinterrupt">IoConnectInterrupt</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ioconnectinterruptex">IoConnectInterruptEx</a> routine.
 
 
 ### -param SynchronizeRoutine [in]
 
-Specifies a caller-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff563928">SynchCritSection</a> routine whose execution is to be synchronized with the execution of the ISR assigned to the interrupt objects.
+Specifies a caller-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-ksynchronize_routine">SynchCritSection</a> routine whose execution is to be synchronized with the execution of the ISR assigned to the interrupt objects.
 
 
 ### -param SynchronizeContext [in, optional]
 
-A pointer to a caller-supplied context value to be passed to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563928">SynchCritSection</a> routine when it is called.
+A pointer to a caller-supplied context value to be passed to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-ksynchronize_routine">SynchCritSection</a> routine when it is called.
 
 
 ## -returns
@@ -86,7 +86,7 @@ When this routine is called, the following occurs:
 
 <ol>
 <li>
-The IRQL is raised to the <i>SynchronizeIrql</i> value specified in the call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff548371">IoConnectInterrupt</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff548378">IoConnectInterruptEx</a>.
+The IRQL is raised to the <i>SynchronizeIrql</i> value specified in the call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ioconnectinterrupt">IoConnectInterrupt</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ioconnectinterruptex">IoConnectInterruptEx</a>.
 
 </li>
 <li>
@@ -94,7 +94,7 @@ Access to <i>SynchronizeContext</i> is synchronized with the assigned ISR by acq
 
 </li>
 <li>
-The specified <a href="https://msdn.microsoft.com/library/windows/hardware/ff563928">SynchCritSection</a> routine is called with the <i>SynchronizeContext</i> value as its parameter.
+The specified <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-ksynchronize_routine">SynchCritSection</a> routine is called with the <i>SynchronizeContext</i> value as its parameter.
 
 </li>
 </ol>
@@ -102,7 +102,7 @@ If the ISR runs at DIRQL >= DISPATCH_LEVEL, the <i>SynchCritSection</i> routine 
 
 Callers of <b>KeSynchronizeExecution</b> must be running at IRQL <= DIRQL; that is, at an IRQL that is less than or equal to the value of the <b>SynchronizeIrql</b> value that the caller specified when it registered its ISR with <b>IoConnectInterrupt</b> or <b>IoConnectInterruptEx</b>.
 
-Starting with Windows 8, a driver can call <b>KeSynchronizeExecution</b> to synchronize execution of a <i>SynchCritSection</i> routine with an ISR that runs at IRQL = PASSIVE_LEVEL. In earlier versions of Windows, <b>KeSynchronizeExecution</b> can synchronize execution only with an ISR that runs at IRQL >= DISPATCH_LEVEL. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh698277">Using Passive-Level Interrupt Service Routines</a>.
+Starting with Windows 8, a driver can call <b>KeSynchronizeExecution</b> to synchronize execution of a <i>SynchCritSection</i> routine with an ISR that runs at IRQL = PASSIVE_LEVEL. In earlier versions of Windows, <b>KeSynchronizeExecution</b> can synchronize execution only with an ISR that runs at IRQL >= DISPATCH_LEVEL. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-passive-level-interrupt-handling-routines">Using Passive-Level Interrupt Service Routines</a>.
 
 
 
@@ -112,11 +112,11 @@ Starting with Windows 8, a driver can call <b>KeSynchronizeExecution</b> to syn
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548371">IoConnectInterrupt</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ioconnectinterrupt">IoConnectInterrupt</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548378">IoConnectInterruptEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ioconnectinterruptex">IoConnectInterruptEx</a>
  
 
  

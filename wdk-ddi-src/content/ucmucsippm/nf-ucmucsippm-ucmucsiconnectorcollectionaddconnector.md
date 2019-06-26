@@ -56,7 +56,7 @@ The handle to the connector collection object that the client driver retrieved i
 A pointer to a [**UCMUCSI_CONNECTOR_INFO**](ns-ucmucsippm-_ucmucsi_connector_info.md) structure that contains information about the connector to add.
 
 ## -returns
-Returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method can return an appropriate [NTSTATUS](https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505) value.
+Returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method can return an appropriate [NTSTATUS](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values) value.
 
 ## -remarks
 The client driver must not call **UcmUcsiConnectorCollectionAddConnector** after [**UcmUcsiPpmCreate**](nf-ucmucsippm-ucmucsippmcreate.md) because it would have no effect on the already existing PPM object.

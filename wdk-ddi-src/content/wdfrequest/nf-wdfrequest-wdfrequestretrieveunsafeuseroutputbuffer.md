@@ -49,7 +49,7 @@ req.typenames:
 
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
-The <b>WdfRequestRetrieveUnsafeUserOutputBuffer</b> method retrieves an I/O request's output buffer, if the request's technique for accessing data buffers is <a href="https://msdn.microsoft.com/f95a0aec-65f9-44c9-8ae5-11bb4d832752">neither buffered nor direct I/O</a>.
+The <b>WdfRequestRetrieveUnsafeUserOutputBuffer</b> method retrieves an I/O request's output buffer, if the request's technique for accessing data buffers is <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/methods-for-accessing-data-buffers">neither buffered nor direct I/O</a>.
 
 
 ## -parameters
@@ -110,15 +110,15 @@ This value is returned if one of the following occurs:
 
 <ul>
 <li>
-The method was not called from within the driver's <a href="https://msdn.microsoft.com/b8bcea29-e404-490e-9d0c-02c96a5690ab">EvtIoInCallerContext</a> callback function.
+The method was not called from within the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nc-wdfdevice-evt_wdf_io_in_caller_context">EvtIoInCallerContext</a> callback function.
 
 </li>
 <li>
-The I/O request's I/O control code is <a href="https://msdn.microsoft.com/library/windows/hardware/ff550819">IRP_MJ_WRITE</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff550766">IRP_MJ_INTERNAL_DEVICE_CONTROL</a>.
+The I/O request's I/O control code is <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-write">IRP_MJ_WRITE</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-internal-device-control">IRP_MJ_INTERNAL_DEVICE_CONTROL</a>.
 
 </li>
 <li>
-The request specifies <a href="https://msdn.microsoft.com/f95a0aec-65f9-44c9-8ae5-11bb4d832752">buffered I/O</a> or <a href="https://msdn.microsoft.com/f95a0aec-65f9-44c9-8ae5-11bb4d832752">direct I/O</a>.
+The request specifies <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/methods-for-accessing-data-buffers">buffered I/O</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/methods-for-accessing-data-buffers">direct I/O</a>.
 
 </li>
 </ul>
@@ -138,7 +138,7 @@ The <i>MinimumRequiredLength</i> parameter specifies a buffer size that is large
 </table>
  
 
-This method might also return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
+This method might also return other <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS values</a>.
 
 
 
@@ -152,9 +152,9 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
-The <b>WdfRequestRetrieveUnsafeUserOutputBuffer</b> method must be called from an <a href="https://msdn.microsoft.com/b8bcea29-e404-490e-9d0c-02c96a5690ab">EvtIoInCallerContext</a> callback function. After calling <b>WdfRequestRetrieveUnsafeUserOutputBuffer</b>, the driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff549989">WdfRequestProbeAndLockUserBufferForWrite</a>. 
+The <b>WdfRequestRetrieveUnsafeUserOutputBuffer</b> method must be called from an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nc-wdfdevice-evt_wdf_io_in_caller_context">EvtIoInCallerContext</a> callback function. After calling <b>WdfRequestRetrieveUnsafeUserOutputBuffer</b>, the driver must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfrequest/nf-wdfrequest-wdfrequestprobeandlockuserbufferforwrite">WdfRequestProbeAndLockUserBufferForWrite</a>. 
 
-The driver can call <b>WdfRequestRetrieveUnsafeUserOutputBuffer</b> if a request's I/O control code is <a href="https://msdn.microsoft.com/library/windows/hardware/ff549327">IRP_MJ_READ</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff548649">IRP_MJ_DEVICE_CONTROL</a>. 
+The driver can call <b>WdfRequestRetrieveUnsafeUserOutputBuffer</b> if a request's I/O control code is <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-read">IRP_MJ_READ</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-device-control">IRP_MJ_DEVICE_CONTROL</a>. 
 
 The driver can access the retrieved buffer until it <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/completing-i-o-requests">completes the I/O request</a> that the <i>Request</i> parameter represents.
 
@@ -163,7 +163,7 @@ For more information about <b>WdfRequestRetrieveUnsafeUserOutputBuffer</b>, see 
 
 #### Examples
 
-For a code example that uses <b>WdfRequestRetrieveUnsafeUserOutputBuffer</b>, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff549987">WdfRequestProbeAndLockUserBufferForRead</a>.
+For a code example that uses <b>WdfRequestRetrieveUnsafeUserOutputBuffer</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfrequest/nf-wdfrequest-wdfrequestprobeandlockuserbufferforread">WdfRequestProbeAndLockUserBufferForRead</a>.
 
 <div class="code"></div>
 
@@ -174,15 +174,15 @@ For a code example that uses <b>WdfRequestRetrieveUnsafeUserOutputBuffer</b>, se
 
 
 
-<a href="https://msdn.microsoft.com/b8bcea29-e404-490e-9d0c-02c96a5690ab">EvtIoInCallerContext</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nc-wdfdevice-evt_wdf_io_in_caller_context">EvtIoInCallerContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549989">WdfRequestProbeAndLockUserBufferForWrite</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfrequest/nf-wdfrequest-wdfrequestprobeandlockuserbufferforwrite">WdfRequestProbeAndLockUserBufferForWrite</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550022">WdfRequestRetrieveUnsafeUserInputBuffer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfrequest/nf-wdfrequest-wdfrequestretrieveunsafeuserinputbuffer">WdfRequestRetrieveUnsafeUserInputBuffer</a>
  
 
  

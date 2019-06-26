@@ -46,7 +46,7 @@ req.typenames: GET_UNIT_CAPABILITIES, *PGET_UNIT_CAPABILITIES
 ## -description
 
 
-The GET_UNIT_CAPABILITIES structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536983">Av61883_GetUnitInfo</a> request to retrieve unit information about a device's capabilities. 
+The GET_UNIT_CAPABILITIES structure is used in conjunction with the <a href="https://docs.microsoft.com/previous-versions/ff536983(v=vs.85)">Av61883_GetUnitInfo</a> request to retrieve unit information about a device's capabilities. 
 
 
 ## -struct-fields
@@ -82,7 +82,7 @@ A bitmask that identifies the command and transaction sets supported by the devi
 
 ### -field HardwareFlags
 
-If the AV_HOST_DMA_DOUBLE_BUFFERING_ENABLED flag is set, and the request level is SET_UNIT_INFO_ISOCH_PARAMS, then a size limit is imposed on members <b>RX_NumPackets</b> and <b>TX_NumPackets</b> of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff538921">UNIT_ISOCH_PARAMS</a> structure. These members, when multiplied by the packet size, must be less than or equal to 64 KB. For example, <b>Rx_NumPackets * PacketSize </b>must be less than or equal to 64 KB. 
+If the AV_HOST_DMA_DOUBLE_BUFFERING_ENABLED flag is set, and the request level is SET_UNIT_INFO_ISOCH_PARAMS, then a size limit is imposed on members <b>RX_NumPackets</b> and <b>TX_NumPackets</b> of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/61883/ns-61883-_unit_isoch_params">UNIT_ISOCH_PARAMS</a> structure. These members, when multiplied by the packet size, must be less than or equal to 64 KB. For example, <b>Rx_NumPackets * PacketSize </b>must be less than or equal to 64 KB. 
 
 
 ## -see-also
@@ -90,7 +90,7 @@ If the AV_HOST_DMA_DOUBLE_BUFFERING_ENABLED flag is set, and the request level i
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536983">Av61883_GetUnitInfo</a>
+<a href="https://docs.microsoft.com/previous-versions/ff536983(v=vs.85)">Av61883_GetUnitInfo</a>
  
 
  

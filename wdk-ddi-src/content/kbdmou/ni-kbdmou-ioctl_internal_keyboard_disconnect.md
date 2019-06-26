@@ -105,7 +105,7 @@ The <b>Status</b> member is set to STATUS_NOT_IMPLEMENTED.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541273">IOCTL_INTERNAL_KEYBOARD_CONNECT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/kbdmou/ni-kbdmou-ioctl_internal_keyboard_connect">IOCTL_INTERNAL_KEYBOARD_CONNECT</a>
  
 
  

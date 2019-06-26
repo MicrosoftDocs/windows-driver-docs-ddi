@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <b>AppendTailList</b> routine appends a doubly linked list of <a href="https://msdn.microsoft.com/library/windows/hardware/ff554296">LIST_ENTRY</a> structures to the tail of another doubly linked list of <b>LIST_ENTRY</b> structures.
+The <b>AppendTailList</b> routine appends a doubly linked list of <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_list_entry">LIST_ENTRY</a> structures to the tail of another doubly linked list of <b>LIST_ENTRY</b> structures.
 
 
 ## -parameters
@@ -56,12 +56,12 @@ The <b>AppendTailList</b> routine appends a doubly linked list of <a href="https
 
 ### -param ListHead [in, out]
 
-A pointer to the head of the list to which the list pointed to by <i>ListToAppend</i> is to be appended. This parameter must be a valid, non-NULL pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554296">LIST_ENTRY</a> structure that is the head of a list. This list can be empty.
+A pointer to the head of the list to which the list pointed to by <i>ListToAppend</i> is to be appended. This parameter must be a valid, non-NULL pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_list_entry">LIST_ENTRY</a> structure that is the head of a list. This list can be empty.
 
 
 ### -param ListToAppend [in, out]
 
-A pointer to the first entry in the list to append to the list pointed to by <i>ListHead</i>. This parameter must be a valid, non-NULL pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554296">LIST_ENTRY</a> structure that is the first entry in a headless list. For more information, see Remarks.
+A pointer to the first entry in the list to append to the list pointed to by <i>ListHead</i>. This parameter must be a valid, non-NULL pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_list_entry">LIST_ENTRY</a> structure that is the first entry in a headless list. For more information, see Remarks.
 
 
 ## -returns
@@ -77,15 +77,15 @@ None.
 
 
 
-This routine constructs a list that contains all the combined entries from the input <i>ListHead</i> and <i>ListToAppend</i> lists. When the routine returns, the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554296">LIST_ENTRY</a> structure pointed to by the <i>ListHead</i> parameter is the head of the resulting combined list. The <b>LIST_ENTRY</b> structure pointed to by the <i>ListToAppend</i> parameter is an entry in the resulting combined list.
+This routine constructs a list that contains all the combined entries from the input <i>ListHead</i> and <i>ListToAppend</i> lists. When the routine returns, the <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_list_entry">LIST_ENTRY</a> structure pointed to by the <i>ListHead</i> parameter is the head of the resulting combined list. The <b>LIST_ENTRY</b> structure pointed to by the <i>ListToAppend</i> parameter is an entry in the resulting combined list.
 
 The caller sets the <i>ListToAppend</i> parameter to point to the first entry in the list to be appended. In this regard, <i>AppendTailList</i> does not conform to the convention followed by the other doubly linked list routines that use the <b>LIST_ENTRY</b> structure. In these other routines, a parameter that represents a list points to the list head instead of to the first entry in the list. If your driver code uses a list head to represent the list to be appended, the list head must be removed from this list before the list is passed as the <i>ListToAppend</i> parameter to <b>AppendTailList</b>. For a code example that shows how to remove this list head, see Examples.
 
-<b>AppendTailList</b> can be used to insert a single entry at the tail of a list, but the <b>Flink</b> and <b>Blink</b> members of the <b>LIST_ENTRY</b> structure pointed to by <i>ListToAppend</i> must first be initialized—typically, by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547799">InitializeListHead</a> routine. In contrast, the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547823">InsertTailList</a> routine does not require the <b>Flink</b> and <b>Blink</b> members of the <b>LIST_ENTRY</b> structure pointed to by the <i>Entry</i> parameter to be initialized before the <b>InsertTailList</b> call. For this reason, <b>InsertTailList</b> might be more convenient to use to insert a single entry at the tail of a list.
+<b>AppendTailList</b> can be used to insert a single entry at the tail of a list, but the <b>Flink</b> and <b>Blink</b> members of the <b>LIST_ENTRY</b> structure pointed to by <i>ListToAppend</i> must first be initialized—typically, by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-initializelisthead">InitializeListHead</a> routine. In contrast, the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-inserttaillist">InsertTailList</a> routine does not require the <b>Flink</b> and <b>Blink</b> members of the <b>LIST_ENTRY</b> structure pointed to by the <i>Entry</i> parameter to be initialized before the <b>InsertTailList</b> call. For this reason, <b>InsertTailList</b> might be more convenient to use to insert a single entry at the tail of a list.
 
 A driver can access the <b>Flink</b> and <b>Blink</b> members of a <b>LIST_ENTRY</b>, but the members must only be updated by the system routines supplied for this purpose.
 
-For information about using this routine when implementing a doubly linked list, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563802">Singly and Doubly Linked Lists</a>.
+For information about using this routine when implementing a doubly linked list, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/singly-and-doubly-linked-lists">Singly and Doubly Linked Lists</a>.
 
 Callers of <b>AppendTailList</b> can be running at any IRQL. If <b>AppendTailList</b> is called at IRQL >= DISPATCH_LEVEL, the storage for the list entries must be memory-resident.
 
@@ -129,19 +129,19 @@ The <code>MyAppendTailList</code> function in this code example treats both the 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547799">InitializeListHead</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-initializelisthead">InitializeListHead</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547823">InsertTailList</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-inserttaillist">InsertTailList</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554296">LIST_ENTRY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_list_entry">LIST_ENTRY</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561029">RemoveEntryList</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-removeentrylist">RemoveEntryList</a>
  
 
  

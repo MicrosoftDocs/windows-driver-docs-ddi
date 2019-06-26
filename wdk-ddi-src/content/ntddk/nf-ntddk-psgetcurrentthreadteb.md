@@ -72,7 +72,7 @@ A pointer to the thread environment block of the current thread. The TEB should 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559917">Process and Thread Manager Routines</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">Process and Thread Manager Routines</a>
  
 
  

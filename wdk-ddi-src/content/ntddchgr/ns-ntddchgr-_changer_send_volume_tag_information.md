@@ -46,7 +46,7 @@ req.typenames: CHANGER_SEND_VOLUME_TAG_INFORMATION, *PCHANGER_SEND_VOLUME_TAG_IN
 ## -description
 
 
-This structure is passed to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551440">ChangerQueryVolumeTags</a> routine and is used to specify a search criterion for retrieving changer elements. 
+This structure is passed to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/mcd/nf-mcd-changerqueryvolumetags">ChangerQueryVolumeTags</a> routine and is used to specify a search criterion for retrieving changer elements. 
 
 
 ## -struct-fields
@@ -56,12 +56,12 @@ This structure is passed to the <a href="https://msdn.microsoft.com/library/wind
 
 ### -field StartingElement
 
-Describes the first element of the range to search for or to set in a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff551457">CHANGER_ELEMENT</a>. 
+Describes the first element of the range to search for or to set in a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddchgr/ns-ntddchgr-_changer_element">CHANGER_ELEMENT</a>. 
 
 
 ### -field ActionCode
 
-Indicates the operation to perform. The <b>Features0</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff554979">GET_CHANGER_PARAMETERS</a> indicates whether the changer supports a particular category of operation:
+Indicates the operation to perform. The <b>Features0</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddchgr/ns-ntddchgr-_get_changer_parameters">GET_CHANGER_PARAMETERS</a> indicates whether the changer supports a particular category of operation:
 
 <ul>
 <li>
@@ -92,19 +92,19 @@ Specifies the template to be used by the device to search for volume IDs. For a 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551457">CHANGER_ELEMENT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddchgr/ns-ntddchgr-_changer_element">CHANGER_ELEMENT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551440">ChangerQueryVolumeTags</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/mcd/nf-mcd-changerqueryvolumetags">ChangerQueryVolumeTags</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554979">GET_CHANGER_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddchgr/ns-ntddchgr-_get_changer_parameters">GET_CHANGER_PARAMETERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563961">READ_ELEMENT_ADDRESS_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddchgr/ns-ntddchgr-_read_element_address_info">READ_ELEMENT_ADDRESS_INFO</a>
  
 
  

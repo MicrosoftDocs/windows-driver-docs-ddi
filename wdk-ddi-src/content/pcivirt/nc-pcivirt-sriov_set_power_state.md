@@ -93,7 +93,7 @@ A boolean value that indicates whether to arm the device for a wake signal (PME 
 
 
 
-Set to STATUS_SUCCESS if the request is successful. Otherwise, return appropriate a <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> code to indicate the error condition.
+Set to STATUS_SUCCESS if the request is successful. Otherwise, return appropriate a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> code to indicate the error condition.
 
 
 

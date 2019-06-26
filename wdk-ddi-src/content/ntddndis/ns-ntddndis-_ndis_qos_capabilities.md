@@ -59,7 +59,7 @@ The <b>NDIS_QOS_CAPABILITIES</b> structure specifies the NDIS Quality of Service
 
 ### -field Header
 
-The type, revision, and size of the <b>NDIS_QOS_CAPABILITIES</b> structure. This member is formatted as an <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure.
+The type, revision, and size of the <b>NDIS_QOS_CAPABILITIES</b> structure. This member is formatted as an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure.
 
 The miniport driver must set the <b>Type</b> member of <b>Header</b> to NDIS_OBJECT_TYPE_QOS_CAPABILITIES. To specify the version of the <b>NDIS_QOS_CAPABILITIES</b> structure, the driver must set the <b>Revision</b> member of <b>Header</b> to the following value: 
 
@@ -84,7 +84,7 @@ A <b>ULONG</b> value that contains a bitwise <b>OR</b> of flags that specify the
 
 #### NDIS_QOS_CAPABILITIES_STRICT_TSA_SUPPORTED
 
-If this flag is set, the network adapter supports the strict priority transmission selection algorithm (TSA). For more information about this algorithm, see <a href="https://msdn.microsoft.com/7C7A34CA-673C-4EFC-970D-08458AA83EAD">Strict Priority Algorithm</a>.
+If this flag is set, the network adapter supports the strict priority transmission selection algorithm (TSA). For more information about this algorithm, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/strict-priority-algorithm">Strict Priority Algorithm</a>.
 
 <div class="alert"><b>Note</b>  In order to be compliant with DCB, the network adapter must support the strict priority TSA.</div>
 <div> </div>
@@ -105,14 +105,14 @@ If this flag is set, the network adapter and miniport driver supports the protoc
 #### NDIS_QOS_CAPABILITIES_IEEE_DCBX_SUPPORTED
 
 If this flag is set, the network adapter and miniport driver supports the IEEE 802.1Qaz DCBX protocol.  The DCBX protocol allows DCB parameters to be exchanged between two directly connected peers. This allows these peers to adapt and tune these parameters in order to optimize data transfer over the connection. 
-For more information about this protocol, see <a href="https://msdn.microsoft.com/FEB3FDBB-8A3C-4907-A6D0-CB5E94BCFEFF">Overview of Data Center Bridging</a>.
+For more information about this protocol, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/overview-of-data-center-bridging">Overview of Data Center Bridging</a>.
 
 <div class="alert"><b>Note</b>  If this flag is set, the miniport driver must reject any send requests for DCBX packets.</div>
 <div> </div>
 
 ### -field MaxNumTrafficClasses
 
-A <b>ULONG</b> value that specifies the maximum number of NDIS QoS traffic classes that the network adapter supports. For more information, see <a href="https://msdn.microsoft.com/0DE61F97-7173-4D91-90F3-20EAFB810251">NDIS QoS Traffic Classes</a>.
+A <b>ULONG</b> value that specifies the maximum number of NDIS QoS traffic classes that the network adapter supports. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-qos-traffic-classes">NDIS QoS Traffic Classes</a>.
 
 <div class="alert"><b>Note</b>  In order for the network adapter to support NDIS QoS for DCB, it must support at least three traffic classes.</div>
 <div> </div>
@@ -121,7 +121,7 @@ A <b>ULONG</b> value that specifies the maximum number of NDIS QoS traffic class
 
 A <b>ULONG</b> value that specifies the maximum number of QoS traffic classes that the network adapter can use with the  Enhanced Transmission Selection (ETS) algorithm. This value must be less than or equal to the value of the <b>MaxNumTrafficClasses</b> member.
 
- For more information about ETS, see <a href="https://msdn.microsoft.com/952ECB1E-96AD-4717-8E49-68558E7E9AD4">Enhanced Transmission Selection (ETS) Algorithm</a>.
+ For more information about ETS, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/enhanced-transmission-selection--ets--algorithm">Enhanced Transmission Selection (ETS) Algorithm</a>.
 
 <div class="alert"><b>Note</b>  In order for the network adapter to support NDIS QoS for DCB, it must support at least two ETS-capable traffic classes.</div>
 <div> </div>
@@ -130,7 +130,7 @@ A <b>ULONG</b> value that specifies the maximum number of QoS traffic classes th
 
 A <b>ULONG</b> value that specifies the maximum number of QoS traffic classes that the network adapter can use with the   Priority-based Flow Control (PFC) algorithm. This value must be less than or equal to the value of the <b>MaxNumTrafficClasses</b> member.
 
-For more information about PFC, see <a href="https://msdn.microsoft.com/9DD8A66F-273F-4E5A-99EF-33C2EDF3240C">Priority-based Flow Control (PFC)</a>.
+For more information about PFC, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/priority-based-flow-control--pfc">Priority-based Flow Control (PFC)</a>.
 
 <div class="alert"><b>Note</b>  In order for the network adapter to support NDIS QoS for DCB, it must support at least one PFC-capable traffic class.</div>
 <div> </div>
@@ -140,7 +140,7 @@ For more information about PFC, see <a href="https://msdn.microsoft.com/9DD8A66F
 
 
 The miniport driver registers the NDIS QoS capabilities of the underlying network adapter  from the driver's 
-    <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> function by following these steps: 
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> function by following these steps: 
 
 <ol>
 <li>
@@ -148,19 +148,19 @@ The miniport driver initializes an <b>NDIS_QOS_CAPABILITIES</b> structure with t
 
 </li>
 <li>
-The miniport driver initializes an  <a href="https://msdn.microsoft.com/library/windows/hardware/ff565924">NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES</a>
+The miniport driver initializes an  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_miniport_adapter_hardware_assist_attributes">NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES</a>
     structure with the other hardware-assisted  capabilities of the network adapter. The driver sets the <b>HardwareQosCapabilities</b> member of the <b>NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES</b> structure to a pointer to the <b>NDIS_QOS_CAPABILITIES</b> structure. 
 
 </li>
 <li>
-The miniport driver  calls <a href="https://msdn.microsoft.com/861626af-23ea-40dc-a91a-7da42d4b0a1c">
+The miniport driver  calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismsetminiportattributes">
     NdisMSetMiniportAttributes</a> and sets the <i>MiniportAttributes</i> parameter to 
-    a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565924">NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES</a>
+    a pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_miniport_adapter_hardware_assist_attributes">NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES</a>
     structure.
 
 </li>
 </ol>
-The <b>NDIS_QOS_CAPABILITIES</b> structure is also returned in OID query requests of <a href="https://msdn.microsoft.com/library/windows/hardware/hh451827">OID_QOS_CURRENT_CAPABILITIES</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/hh451828">OID_QOS_HARDWARE_CAPABILITIES</a>.
+The <b>NDIS_QOS_CAPABILITIES</b> structure is also returned in OID query requests of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-qos-current-capabilities">OID_QOS_CURRENT_CAPABILITIES</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-qos-hardware-capabilities">OID_QOS_HARDWARE_CAPABILITIES</a>.
 
 
 
@@ -174,24 +174,24 @@ The <b>NDIS_QOS_CAPABILITIES</b> structure is also returned in OID query request
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565924">NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_miniport_adapter_hardware_assist_attributes">NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/861626af-23ea-40dc-a91a-7da42d4b0a1c">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismsetminiportattributes">
     NdisMSetMiniportAttributes</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451827">OID_QOS_CURRENT_CAPABILITIES</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-qos-current-capabilities">OID_QOS_CURRENT_CAPABILITIES</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451828">OID_QOS_HARDWARE_CAPABILITIES</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-qos-hardware-capabilities">OID_QOS_HARDWARE_CAPABILITIES</a>
  
 
  

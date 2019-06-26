@@ -72,7 +72,7 @@ None
 
 
 
-The <b>FsRtlNotifyUninitializeSync</b> routine deallocates an opaque synchronization object that was allocated by an earlier call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff547045">FsRtlNotifyInitializeSync</a>.
+The <b>FsRtlNotifyUninitializeSync</b> routine deallocates an opaque synchronization object that was allocated by an earlier call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyinitializesync">FsRtlNotifyInitializeSync</a>.
 
 
 
@@ -82,7 +82,7 @@ The <b>FsRtlNotifyUninitializeSync</b> routine deallocates an opaque synchroniza
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547045">FsRtlNotifyInitializeSync</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyinitializesync">FsRtlNotifyInitializeSync</a>
  
 
  

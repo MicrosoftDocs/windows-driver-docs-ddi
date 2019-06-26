@@ -72,7 +72,7 @@ None
 
 
 
-Use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550318">PcwCreateInstance</a> function to create an instance of a registered counter set. You cannot call <b>PcwCloseInstance</b> if you have already called <a href="https://msdn.microsoft.com/library/windows/hardware/ff550326">PcwUnregister</a>. When you unregister the counter set, the instances are closed for you.
+Use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-pcwcreateinstance">PcwCreateInstance</a> function to create an instance of a registered counter set. You cannot call <b>PcwCloseInstance</b> if you have already called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-pcwunregister">PcwUnregister</a>. When you unregister the counter set, the instances are closed for you.
 
 
 
@@ -82,7 +82,7 @@ Use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550318">P
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550318">PcwCreateInstance</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-pcwcreateinstance">PcwCreateInstance</a>
  
 
  

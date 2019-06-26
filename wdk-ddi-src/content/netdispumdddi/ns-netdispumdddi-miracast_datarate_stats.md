@@ -46,7 +46,7 @@ req.typenames: MIRACAST_DATARATE_STATS
 ## -description
 
 
-Contains info used in the wireless display (Miracast) <a href="https://msdn.microsoft.com/5eb004d1-7cf8-45a3-aad5-2932b1a83bb8">pfnDataRateNotify</a> function about the audio/video encoder bit rate and failed or retried Wi-Fi frames.
+Contains info used in the wireless display (Miracast) <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdispumdddi/nc-netdispumdddi-pfn_datarate_notification">pfnDataRateNotify</a> function about the audio/video encoder bit rate and failed or retried Wi-Fi frames.
 
 
 ## -struct-fields

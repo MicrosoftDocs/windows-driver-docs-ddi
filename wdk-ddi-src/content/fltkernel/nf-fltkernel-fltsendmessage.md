@@ -111,7 +111,7 @@ Otherwise, if *ReplyBuffer* is not **NULL**, the minifilter driver is put into a
 
 * If *Timeout* is zero when the minifilter driver is waiting for the reply, the minifilter driver is put into a wait state indefinitely. When the application calls **FilterReplyMessage**, the minifilter driver receives the reply, and **FltSendMessage** returns STATUS_SUCCESS.
 
-<div class="alert"><b>Important</b>    Due to (system-specific) structure <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">padding</a> requirements, accuracy is required when you set the size of buffers that are associated with <b>FltSendMessage</b> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff541508">FilterReplyMessage</a>. As an example, assume data must be sent (via <b>FilterReplyMessage</b>) to a minifilter.  The user-mode component might declare the following structure to do so:<div class="code"><span codelanguage=""><table>
+<div class="alert"><b>Important</b>    Due to (system-specific) structure <a href="https://docs.microsoft.com/windows-hardware/drivers/">padding</a> requirements, accuracy is required when you set the size of buffers that are associated with <b>FltSendMessage</b> and <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterreplymessage">FilterReplyMessage</a>. As an example, assume data must be sent (via <b>FilterReplyMessage</b>) to a minifilter.  The user-mode component might declare the following structure to do so:<div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
 </tr>
@@ -125,9 +125,9 @@ Otherwise, if *ReplyBuffer* is not **NULL**, the minifilter driver is put into a
 </td>
 </tr>
 </table></span></div>
-<p class="note">Given this structure, it might seem obvious that the caller of <a href="https://msdn.microsoft.com/library/windows/hardware/ff541508">FilterReplyMessage</a> would set the <i>dwReplyBufferSize</i> parameter to <b>sizeof(REPLY_STRUCT)</b> and the *ReplyLength</i> parameter of <b>FltSendMessage</b> to the same value. However, because of structure padding idiosyncrasies, <b>sizeof(REPLY_STRUCT)</b> might be larger than <b>sizeof(FILTER_REPLY_HEADER) + sizeof(MY_STRUCT)</b>.  If this is the case, <b>FltSendMessage</b> returns STATUS_BUFFER_OVERFLOW.
+<p class="note">Given this structure, it might seem obvious that the caller of <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterreplymessage">FilterReplyMessage</a> would set the <i>dwReplyBufferSize</i> parameter to <b>sizeof(REPLY_STRUCT)</b> and the *ReplyLength</i> parameter of <b>FltSendMessage</b> to the same value. However, because of structure padding idiosyncrasies, <b>sizeof(REPLY_STRUCT)</b> might be larger than <b>sizeof(FILTER_REPLY_HEADER) + sizeof(MY_STRUCT)</b>.  If this is the case, <b>FltSendMessage</b> returns STATUS_BUFFER_OVERFLOW.
 
-<p class="note">Therefore, we recommend that you call <a href="https://msdn.microsoft.com/library/windows/hardware/ff541508">FilterReplyMessage</a> and <b>FltSendMessage</b> (leveraging the above example) by setting <i>dwReplyBufferSize</i> and <i>ReplyLength</i> both to s<b>izeof(FILTER_REPLY_HEADER) + sizeof(MY_STRUCT)</b> instead of <b>sizeof(REPLY_STRUCT)</b>. This ensures that any extra padding at the end of the REPLY_STRUCT structure is ignored.
+<p class="note">Therefore, we recommend that you call <a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterreplymessage">FilterReplyMessage</a> and <b>FltSendMessage</b> (leveraging the above example) by setting <i>dwReplyBufferSize</i> and <i>ReplyLength</i> both to s<b>izeof(FILTER_REPLY_HEADER) + sizeof(MY_STRUCT)</b> instead of <b>sizeof(REPLY_STRUCT)</b>. This ensures that any extra padding at the end of the REPLY_STRUCT structure is ignored.
 
 </div>
 

@@ -85,11 +85,11 @@ The <b>Irp->AssociatedIrp.SystemBuffer</b> is assumed to contain a SWENUM_INSTAL
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566794">KsRemoveBusEnumInterface</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/swenum/nf-swenum-ksremovebusenuminterface">KsRemoveBusEnumInterface</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568498">SWENUM_INSTALL_INTERFACE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/swenum/ns-swenum-_swenum_install_interface">SWENUM_INSTALL_INTERFACE</a>
  
 
  

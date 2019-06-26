@@ -61,7 +61,7 @@ Contains the major and minor version of the POS driver interface. The top 16 bit
 
 ### -field DeviceType
 
-Indicates the <a href="https://msdn.microsoft.com/library/windows/hardware/dn772230">PosDeviceType</a> of the POS device (for example, a barcode scanner or a magnetic stripe reader).
+Indicates the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pointofservicecommontypes/ne-pointofservicecommontypes-_posdevicetype">PosDeviceType</a> of the POS device (for example, a barcode scanner or a magnetic stripe reader).
 
 
 ### -field RecommendedBufferSize

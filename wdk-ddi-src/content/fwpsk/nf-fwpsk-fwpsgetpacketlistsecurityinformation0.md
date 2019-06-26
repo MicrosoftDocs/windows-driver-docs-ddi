@@ -50,7 +50,7 @@ req.typenames:
 The 
   <b>FwpsGetPacketListSecurityInformation0</b> function retrieves information associated with a packet
   list.
-<div class="alert"><b>Note</b>  <b>FwpsGetPacketListSecurityInformation0</b> is a specific version of <b>FwpsGetPacketListSecurityInformation</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
+<div class="alert"><b>Note</b>  <b>FwpsGetPacketListSecurityInformation0</b> is a specific version of <b>FwpsGetPacketListSecurityInformation</b>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
 ## -parameters
 
@@ -60,7 +60,7 @@ The
 ### -param packetList [in]
 
 A pointer to the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure for which the
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure for which the
      associated information is being retrieved.
 
 
@@ -114,7 +114,7 @@ Retrieve all information associated with an outbound packet list.
 ### -param packetInformation [in, out]
 
 A pointer to an 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff552412">FWPS_PACKET_LIST_INFORMATION0</a> structure that receives the information associated with the packet
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/ns-fwpsk-fwps_packet_list_information0_">FWPS_PACKET_LIST_INFORMATION0</a> structure that receives the information associated with the packet
      list.
 
 
@@ -164,7 +164,7 @@ An error occurred.
 
 A callout driver calls the 
     <b>FwpsGetPacketListSecurityInformation0</b> function from within its 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> callout function to retrieve
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_netvista/">classifyFn</a> callout function to retrieve
     information associated with the packet list. This information can be used to determine the action to be
     taken on the data.
 
@@ -176,15 +176,15 @@ A callout driver calls the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552412">FWPS_PACKET_LIST_INFORMATION0</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/ns-fwpsk-fwps_packet_list_information0_">FWPS_PACKET_LIST_INFORMATION0</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_netvista/">classifyFn</a>
  
 
  

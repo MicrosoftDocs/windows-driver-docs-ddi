@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <b>IoRegisterShutdownNotification</b> routine registers the driver to receive an <a href="https://msdn.microsoft.com/library/windows/hardware/ff549423">IRP_MJ_SHUTDOWN</a> IRP when the system is shut down.
+The <b>IoRegisterShutdownNotification</b> routine registers the driver to receive an <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-shutdown">IRP_MJ_SHUTDOWN</a> IRP when the system is shut down.
 
 
 ## -parameters
@@ -72,15 +72,15 @@ Pointer to the device object of the device for which the driver requests shutdow
 
 
 
-The <b>IoRegisterShutdownNotification</b> routine registers the driver to receive an <a href="https://msdn.microsoft.com/library/windows/hardware/ff549423">IRP_MJ_SHUTDOWN</a> IRP for the specified device when the system shuts down. The driver receives one such IRP for each device it registers to receive notification for. Drivers handle <b>IRP_MJ_SHUTDOWN</b> IRPs within their <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-driver_dispatch">DispatchShutdown</a> routines.
+The <b>IoRegisterShutdownNotification</b> routine registers the driver to receive an <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-shutdown">IRP_MJ_SHUTDOWN</a> IRP for the specified device when the system shuts down. The driver receives one such IRP for each device it registers to receive notification for. Drivers handle <b>IRP_MJ_SHUTDOWN</b> IRPs within their <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-driver_dispatch">DispatchShutdown</a> routines.
 
-If the driver ceases to require shutdown notification for the device, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff550409">IoUnregisterShutdownNotification</a> to remove the driver from the shutdown notification queue.
+If the driver ceases to require shutdown notification for the device, use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iounregistershutdownnotification">IoUnregisterShutdownNotification</a> to remove the driver from the shutdown notification queue.
 
 Only one driver in a device stack should register to receive shutdown notification.
 
-The system sends the driver the <b>IRP_MJ_SHUTDOWN</b> request before it flushes the file systems. Some drivers, such as drivers for mass storage devices, can require shutdown notification after the system flushes the file systems. To receive shutdown notification for a device after the file systems are flushed, use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549518">IoRegisterLastChanceShutdownNotification</a> routine instead.
+The system sends the driver the <b>IRP_MJ_SHUTDOWN</b> request before it flushes the file systems. Some drivers, such as drivers for mass storage devices, can require shutdown notification after the system flushes the file systems. To receive shutdown notification for a device after the file systems are flushed, use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ioregisterlastchanceshutdownnotification">IoRegisterLastChanceShutdownNotification</a> routine instead.
 
-The registered <i>DispatchShutdown</i> routine is called before the power manager sends an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551744">IRP_MN_SET_POWER</a> request for <b>PowerSystemShutdown</b>. The <i>DispatchShutdown</i> routine is not called for transitions to any other power states. 
+The registered <i>DispatchShutdown</i> routine is called before the power manager sends an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-set-power">IRP_MN_SET_POWER</a> request for <b>PowerSystemShutdown</b>. The <i>DispatchShutdown</i> routine is not called for transitions to any other power states. 
 
 A driver writer can make no assumptions about the order in which the driver's <i>DispatchShutdown</i> routine will be called in relation to other such routines or to other shutdown activities.
 
@@ -98,11 +98,11 @@ A PnP driver might register a shutdown routine to perform certain tasks before s
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549518">IoRegisterLastChanceShutdownNotification</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ioregisterlastchanceshutdownnotification">IoRegisterLastChanceShutdownNotification</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550409">IoUnregisterShutdownNotification</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iounregistershutdownnotification">IoUnregisterShutdownNotification</a>
  
 
  

@@ -73,7 +73,7 @@ Returns NOERROR if successful; otherwise, returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559910">IKsPinFactory</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nn-ksproxy-ikspinfactory">IKsPinFactory</a>
  
 
  

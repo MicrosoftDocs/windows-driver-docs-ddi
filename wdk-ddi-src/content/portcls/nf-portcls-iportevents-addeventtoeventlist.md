@@ -56,7 +56,7 @@ The <code>AddEventToEventList</code> method adds an event to the port driver's e
 
 ### -param EventEntry [in]
 
-Pointer to the event entry that describes the event. This is an opaque system structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff561853">KSEVENT_ENTRY</a>.
+Pointer to the event entry that describes the event. This is an opaque system structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksevent_entry">KSEVENT_ENTRY</a>.
 
 
 ## -returns
@@ -82,19 +82,19 @@ This method is used by a miniport driver's to add events to the event list that 
 
 
 
-<a href="https://msdn.microsoft.com/06239870-8ed8-49c9-a9d4-fd3e28f3ab58">EventHandler</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nc-portcls-pcpfnevent_handler">EventHandler</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536884">IPortEvents</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iportevents">IPortEvents</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536889">IPortEvents::GenerateEventList</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iportevents-generateeventlist">IPortEvents::GenerateEventList</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561853">KSEVENT_ENTRY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksevent_entry">KSEVENT_ENTRY</a>
  
 
  

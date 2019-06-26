@@ -78,7 +78,7 @@ Stack swapping can occur only if the thread is in a wait state that was caused b
 
 It is not typically necessary to disable stack swapping. Do this only in  rare cases. For an example that discusses alternatives to disabling stack swapping, see the following Examples section.
 
-In a call to a kernel-mode wait routine, such as <a href="https://msdn.microsoft.com/library/windows/hardware/ff553350">KeWaitForSingleObject</a>, the caller specifies a <i>WaitMode</i> parameter to indicate whether the caller waits in kernel mode or user mode. If <i>WaitMode</i> = <b>UserMode</b>, and if the wait duration is sufficiently long, the memory manager might page out sections of the stack that belongs to the waiting thread. However, if the stack contains data items that must remain memory-resident for the duration of the wait, the thread can prevent the stack from being paged out by calling <b>KeSetKernelStackSwapEnable</b> and specifying <i>Enable</i> = <b>FALSE</b>.
+In a call to a kernel-mode wait routine, such as <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kewaitforsingleobject">KeWaitForSingleObject</a>, the caller specifies a <i>WaitMode</i> parameter to indicate whether the caller waits in kernel mode or user mode. If <i>WaitMode</i> = <b>UserMode</b>, and if the wait duration is sufficiently long, the memory manager might page out sections of the stack that belongs to the waiting thread. However, if the stack contains data items that must remain memory-resident for the duration of the wait, the thread can prevent the stack from being paged out by calling <b>KeSetKernelStackSwapEnable</b> and specifying <i>Enable</i> = <b>FALSE</b>.
 
 A thread must not exit (terminate) while stack swapping is disabled or a system bug check will occur.
 
@@ -116,7 +116,7 @@ if (oldSwapEnable)
 </td>
 </tr>
 </table></span></div>
-An event object must be memory-resident while it can be set to a signaled or nonsignaled state, or while a thread waits on the event. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff543006">Defining and Using an Event Object</a>.
+An event object must be memory-resident while it can be set to a signaled or nonsignaled state, or while a thread waits on the event. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/defining-and-using-an-event-object">Defining and Using an Event Object</a>.
 
 Frequently, the use of the <b>KeSetKernelStackSwap</b> routine is unnecessary and can be avoided by allocating only pageable data items on the stack. In the previous example, the driver thread must lock the stack because the event object is allocated on the stack. A better alternative might be to simply allocate the event from nonpaged pool.
 
@@ -129,11 +129,11 @@ Frequently, the use of the <b>KeSetKernelStackSwap</b> routine is unnecessary an
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552137">KeInitializeEvent</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-keinitializeevent">KeInitializeEvent</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553350">KeWaitForSingleObject</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kewaitforsingleobject">KeWaitForSingleObject</a>
  
 
  

@@ -49,10 +49,10 @@ req.typenames:
 Called by the client driver during its AddDevice routine to perform DeviceInit functions. During this process the following I/O callback functions are also exchanged:
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/B734439A-E345-44CC-8FD0-8E38A718A773">EvtNfcCxWriteNciPacket </a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/nfccx/nc-nfccx-evt_nfc_cx_write_nci_packet">EvtNfcCxWriteNciPacket </a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/45512F88-D4B8-4488-99EB-B47EE7443425">EvtNfcCxDeviceIoControl </a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/nfccx/nc-nfccx-evt_nfc_cx_device_io_control">EvtNfcCxDeviceIoControl </a>
 </li>
 </ul>
 
@@ -63,12 +63,12 @@ Called by the client driver during its AddDevice routine to perform DeviceInit f
 
 ### -param DeviceInit [in, out]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a> structure. 
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdfdevice_init">WDFDEVICE_INIT</a> structure. 
 
 
 ### -param Config [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/dn905540">NFC_CX_CLIENT_CONFIG</a> structure.
+A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/nfccx/ns-nfccx-_nfc_cx_client_config">NFC_CX_CLIENT_CONFIG</a> structure.
 
 
 ## -returns
@@ -85,7 +85,7 @@ If the operation succeeds, the function returns STATUS_SUCCESS.
 
 
 
-<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
 
 
 

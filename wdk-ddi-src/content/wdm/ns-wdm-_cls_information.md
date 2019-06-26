@@ -96,7 +96,7 @@ The number of streams that share the log.
 
 ### -field Attributes
 
-A set of flags that specify stream (or physical log) attributes. See the <i>fFlagsAndAttributes</i> parameter of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540792">ClfsCreateLogFile</a> function.
+A set of flags that specify stream (or physical log) attributes. See the <i>fFlagsAndAttributes</i> parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-clfscreatelogfile">ClfsCreateLogFile</a> function.
 
 
 ### -field FlushThreshold
@@ -143,7 +143,7 @@ A GUID that serves as a unique identifier for the log.
 
 
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff541679">ClfsQueryLogFileInformation</a> function returns information about a CLFS stream and/or its underlying physical log. The type of information returned depends on the <i>eInformationClass</i> parameter. 
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-clfsquerylogfileinformation">ClfsQueryLogFileInformation</a> function returns information about a CLFS stream and/or its underlying physical log. The type of information returned depends on the <i>eInformationClass</i> parameter. 
 
 If the <i>eInformationClass</i> parameter is equal to <b>ClfsLogBasicInformationPhysical</b>, <b>ClfsQueryLogFileInformation</b> returns information in a <b>CLFS_INFORMATION</b> structure, and every structure member holds a piece of information about a physical CLFS log. Even if the log is multiplexed (that is, it has several streams), all structure members hold information about the underlying physical log rather than information about one of the streams.
 
@@ -179,15 +179,15 @@ If <i>eInformationClass</i> parameter is equal to <b>ClfsLogBasicInformation</b>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540792">ClfsCreateLogFile</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-clfscreatelogfile">ClfsCreateLogFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541679">ClfsQueryLogFileInformation</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-clfsquerylogfileinformation">ClfsQueryLogFileInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541761">ClfsSetLogFileInformation</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-clfssetlogfileinformation">ClfsSetLogFileInformation</a>
  
 
  

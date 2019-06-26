@@ -63,7 +63,7 @@ The size, in bytes, of this structure.
 
 ### -field LockSupported
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff552533">WDF_TRI_STATE</a>-typed value that indicates, if set to <b>WdfTrue</b>, that the device can be locked in its slot to prevent ejection. (This capability disables ejecting a device from its slot, not ejecting media from a device.) For more information about WDF_TRI_STATE-typed values, see the following Remarks section.  
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdftypes/ne-wdftypes-_wdf_tri_state">WDF_TRI_STATE</a>-typed value that indicates, if set to <b>WdfTrue</b>, that the device can be locked in its slot to prevent ejection. (This capability disables ejecting a device from its slot, not ejecting media from a device.) For more information about WDF_TRI_STATE-typed values, see the following Remarks section.  
 
 
 ### -field EjectSupported
@@ -174,11 +174,11 @@ A number that is associated with the device and can be displayed in user interfa
 
 
 
-Several members use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552533">WDF_TRI_STATE</a> type. For these members, a value of <b>WdfTrue</b> indicates that the device supports the capability and a value of <b>WdfFalse</b> indicates it does not. A value of <b>WdfUseDefault</b> indicates the framework will use the value that a driver lower in the stack provided. For example, if a bus driver specifies <b>WdfTrue</b> for <b>LockSupported</b> and the device's function driver specifies <b>WdfUseDefault</b>, the framework stores <b>WdfTrue</b> for the capability.
+Several members use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdftypes/ne-wdftypes-_wdf_tri_state">WDF_TRI_STATE</a> type. For these members, a value of <b>WdfTrue</b> indicates that the device supports the capability and a value of <b>WdfFalse</b> indicates it does not. A value of <b>WdfUseDefault</b> indicates the framework will use the value that a driver lower in the stack provided. For example, if a bus driver specifies <b>WdfTrue</b> for <b>LockSupported</b> and the device's function driver specifies <b>WdfUseDefault</b>, the framework stores <b>WdfTrue</b> for the capability.
 
-The WDF_DEVICE_PNP_CAPABILITIES structure is used as input to <a href="https://msdn.microsoft.com/library/windows/hardware/ff546898">WdfDeviceSetPnpCapabilities</a>.
+The WDF_DEVICE_PNP_CAPABILITIES structure is used as input to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nf-wdfdevice-wdfdevicesetpnpcapabilities">WdfDeviceSetPnpCapabilities</a>.
 
-To initialize a WDF_DEVICE_PNP_CAPABILITIES structure, a driver should call <a href="https://msdn.microsoft.com/library/windows/hardware/ff551259">WDF_DEVICE_PNP_CAPABILITIES_INIT</a>.
+To initialize a WDF_DEVICE_PNP_CAPABILITIES structure, a driver should call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nf-wdfdevice-wdf_device_pnp_capabilities_init">WDF_DEVICE_PNP_CAPABILITIES_INIT</a>.
 
 
 
@@ -188,11 +188,11 @@ To initialize a WDF_DEVICE_PNP_CAPABILITIES structure, a driver should call <a h
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546901">WdfDeviceSetPowerCapabilities</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nf-wdfdevice-wdfdevicesetpowercapabilities">WdfDeviceSetPowerCapabilities</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548802">WdfPdoInitAssignRawDevice</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfpdo/nf-wdfpdo-wdfpdoinitassignrawdevice">WdfPdoInitAssignRawDevice</a>
  
 
  

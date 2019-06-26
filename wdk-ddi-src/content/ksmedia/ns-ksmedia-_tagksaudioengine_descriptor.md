@@ -74,11 +74,11 @@ Specifies the ID of the pin factory that is connected to the audio engine node t
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265074">GetAudioEngineDescriptor</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iminiportaudioenginenode-getaudioenginedescriptor">GetAudioEngineDescriptor</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450870">KSPROPERTY_AUDIOENGINE_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-audioengine-descriptor">KSPROPERTY_AUDIOENGINE_DESCRIPTOR</a>
  
 
  

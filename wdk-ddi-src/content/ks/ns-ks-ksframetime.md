@@ -61,7 +61,7 @@ Specifies the duration in presentation time units.
 
 ### -field FrameFlags
 
-Specifies the flags specific to the next frame, or to all frames. Flags are described on the reference page for <a href="https://msdn.microsoft.com/library/windows/hardware/ff560979">KSALLOCATOR_FRAMING</a>.
+Specifies the flags specific to the next frame, or to all frames. Flags are described on the reference page for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksallocator_framing">KSALLOCATOR_FRAMING</a>.
 
 
 ### -field Reserved

@@ -63,7 +63,7 @@ in Windows 8 and later.</div><div> </div>The
 A pointer that identifies a DMA channel's context area. The DMA provider returned this handle to
      NetDMA at the location that is specified in the 
      <i>pProviderChannelContext</i> parameter of the 
-     <a href="https://msdn.microsoft.com/42bc0e08-3d85-424f-aaa4-4df788d3706a">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdma/nc-netdma-dma_channel_allocate_handler">
      ProviderAllocateDmaChannel</a> function.
 
 
@@ -121,14 +121,14 @@ In
     <b>NetDmaTransferStatusHalted</b> status in the address that is specified in the 
     <b>CompletionVirtualAddress</b> and 
     <b>CompletionPhysicalAddress</b> members in the 
-    <a href="https://msdn.microsoft.com/0d09a9e9-06c5-4026-9053-ac74a59509cc">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdma/ns-netdma-_net_dma_channel_parameters">
     NET_DMA_CHANNEL_PARAMETERS</a> structure.
 
 After the reset operation is complete, the DMA channel must be in the initial state that existed after
     the channel was allocated. After the NetDMA interface calls 
     <i>ProviderResetChannel</i>, the DMA provider cannot access any of the previously submitted DMA
     descriptors. The DMA channel must be ready for the NetDMA interface to call the 
-    <a href="https://msdn.microsoft.com/0926e8c4-f2ca-401f-abe8-76aec359a1e2">ProviderStartDma</a> function.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdma/nc-netdma-dma_start_handler">ProviderStartDma</a> function.
 
 NetDMA calls 
     <i>ProviderResetChannel</i> at IRQL <= DISPATCH_LEVEL.
@@ -141,15 +141,15 @@ NetDMA calls
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568732">NET_DMA_CHANNEL_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdma/ns-netdma-_net_dma_channel_parameters">NET_DMA_CHANNEL_PARAMETERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/42bc0e08-3d85-424f-aaa4-4df788d3706a">ProviderAllocateDmaChannel</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdma/nc-netdma-dma_channel_allocate_handler">ProviderAllocateDmaChannel</a>
 
 
 
-<a href="https://msdn.microsoft.com/0926e8c4-f2ca-401f-abe8-76aec359a1e2">ProviderStartDma</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdma/nc-netdma-dma_start_handler">ProviderStartDma</a>
  
 
  

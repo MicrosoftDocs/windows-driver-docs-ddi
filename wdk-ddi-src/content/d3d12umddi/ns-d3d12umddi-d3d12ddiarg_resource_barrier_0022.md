@@ -56,12 +56,12 @@ Describes a resource barrier.
 
 ### -field Type
 
-The type of resource barrier as a <a href="https://msdn.microsoft.com/3865DB8A-A920-42AC-B802-E5A3FB02014C">D3D12DDI_RESOURCE_BARRIER_TYPE</a> value.
+The type of resource barrier as a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d12umddi/ne-d3d12umddi-d3d12ddi_resource_barrier_type">D3D12DDI_RESOURCE_BARRIER_TYPE</a> value.
 
 
 ### -field Flags
 
-A barrier flag as a <a href="https://msdn.microsoft.com/876ABC9C-F9BE-480F-8641-AE132840F8D5">D3D12DDI_RESOURCE_BARRIER_FLAGS</a> value.
+A barrier flag as a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d12umddi/ne-d3d12umddi-d3d12ddi_resource_barrier_flags">D3D12DDI_RESOURCE_BARRIER_FLAGS</a> value.
 
 
 ### -field Transition

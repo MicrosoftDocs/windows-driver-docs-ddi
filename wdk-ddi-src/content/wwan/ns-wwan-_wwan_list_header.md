@@ -58,7 +58,7 @@ The WWAN_LIST_HEADER structure represents the header of a list of MB objects, in
 ### -field ElementType
 
 A value from the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571254">WWAN_STRUCT_TYPE</a> enumeration that represents
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ne-wwan-_wwan_struct_type">WWAN_STRUCT_TYPE</a> enumeration that represents
      the type of objects in the list.
 
 
@@ -83,29 +83,29 @@ You can assume that the list of elements is stored in memory immediately followi
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567913">NDIS_WWAN_PREFERRED_PROVIDERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndiswwan/ns-ndiswwan-_ndis_wwan_preferred_providers">NDIS_WWAN_PREFERRED_PROVIDERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/ee4ba781-9adf-4eb0-8c3d-b11aac86c943">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndiswwan/ns-ndiswwan-_ndis_wwan_provisioned_contexts">
    NDIS_WWAN_PROVISIONED_CONTEXTS</a>
 
 
 
-<a href="https://msdn.microsoft.com/6741d440-0e17-4b2d-a642-0335d1f936cf">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndiswwan/ns-ndiswwan-_ndis_wwan_set_preferred_providers">
    NDIS_WWAN_SET_PREFERRED_PROVIDERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567942">NDIS_WWAN_SMS_RECEIVE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndiswwan/ns-ndiswwan-_ndis_wwan_sms_receive">NDIS_WWAN_SMS_RECEIVE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567948">NDIS_WWAN_VISIBLE_PROVIDERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndiswwan/ns-ndiswwan-_ndis_wwan_visible_providers">NDIS_WWAN_VISIBLE_PROVIDERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571254">WWAN_STRUCT_TYPE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ne-wwan-_wwan_struct_type">WWAN_STRUCT_TYPE</a>
  
 
  

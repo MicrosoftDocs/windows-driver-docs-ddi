@@ -104,7 +104,7 @@ Indicates when <b>TRUE</b> that the time stamp complies with daylight savings ti
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562965">MSFC_TM WMI Class</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msfc-tm-wmi-class">MSFC_TM WMI Class</a>
  
 
  

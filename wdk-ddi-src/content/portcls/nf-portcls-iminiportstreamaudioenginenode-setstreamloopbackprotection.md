@@ -72,7 +72,7 @@ A CONSTRICTOR_OPTION enumeration  value that indicates status of the loopback pr
 
 
 
-For more information about audio stream loopback protection, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh450878">KSPROPERTY_AUDIOENGINE_LOOPBACK_PROTECTION</a>.
+For more information about audio stream loopback protection, see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-audioengine-loopback-protection">KSPROPERTY_AUDIOENGINE_LOOPBACK_PROTECTION</a>.
 
 
 
@@ -86,11 +86,11 @@ CONSTRICTOR_OPTION
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265090">IMiniportStreamAudioEngineNode</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iminiportstreamaudioenginenode">IMiniportStreamAudioEngineNode</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450878">KSPROPERTY_AUDIOENGINE_LOOPBACK_PROTECTION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-audioengine-loopback-protection">KSPROPERTY_AUDIOENGINE_LOOPBACK_PROTECTION</a>
  
 
  

@@ -46,7 +46,7 @@ req.typenames: D3D10DDI_MAPPED_SUBRESOURCE
 ## -description
 
 
-The D3D10DDI_MAPPED_SUBRESOURCE structure describes a subresource that the driver maps to through a call to the driver's <a href="https://msdn.microsoft.com/1310a3f8-02dd-4d35-98ad-4016e57d1eb2">ResourceMap</a> function.
+The D3D10DDI_MAPPED_SUBRESOURCE structure describes a subresource that the driver maps to through a call to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_resourcemap">ResourceMap</a> function.
 
 
 ## -struct-fields
@@ -84,8 +84,8 @@ It is not advisable to assign a value of zero to the <b>RowPitch</b> and <b>Dept
 To avoid zero values for these members, it helps to think of all  resources as being three-dimensional, as in these two examples:
 
 <ul>
-<li>If the <a href="https://msdn.microsoft.com/e9cd2bc7-99c1-4aca-91b0-9faefa4a856d">resource attribute</a> is Buffer or Texture1D and contains  8 bytes, then appropriate values  for <b>RowPitch</b> and <b>DepthPitch</b> would be 8 or more.</li>
-<li>If the <a href="https://msdn.microsoft.com/e9cd2bc7-99c1-4aca-91b0-9faefa4a856d">resource attribute</a> is Texture2d, even if <b>DepthPitch</b> is not used, <b>DepthPitch</b> must not be assigned a value of zero.</li>
+<li>If the <a href="https://docs.microsoft.com/windows-hardware/drivers/display/details-of-the-extended-format">resource attribute</a> is Buffer or Texture1D and contains  8 bytes, then appropriate values  for <b>RowPitch</b> and <b>DepthPitch</b> would be 8 or more.</li>
+<li>If the <a href="https://docs.microsoft.com/windows-hardware/drivers/display/details-of-the-extended-format">resource attribute</a> is Texture2d, even if <b>DepthPitch</b> is not used, <b>DepthPitch</b> must not be assigned a value of zero.</li>
 </ul>
 
 
@@ -95,7 +95,7 @@ To avoid zero values for these members, it helps to think of all  resources as b
 
 
 
-<a href="https://msdn.microsoft.com/1310a3f8-02dd-4d35-98ad-4016e57d1eb2">ResourceMap</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_resourcemap">ResourceMap</a>
  
 
  

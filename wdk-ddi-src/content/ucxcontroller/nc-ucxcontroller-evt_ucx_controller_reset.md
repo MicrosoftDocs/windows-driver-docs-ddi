@@ -56,7 +56,7 @@ The client driver's implementation that UCX calls to reset the controller.
 
 ### -param UcxController [in]
 
- A handle to the UCX controller that the client driver received in a previous call to  the <a href="https://msdn.microsoft.com/library/windows/hardware/mt188033">UcxControllerCreate</a> method.
+ A handle to the UCX controller that the client driver received in a previous call to  the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/mt188033(v=vs.85)">UcxControllerCreate</a> method.
 
 
 ## -returns
@@ -72,11 +72,11 @@ This callback function does not return a value.
 
 
 
-The UCX client driver registers its <i>EVT_UCX_CONTROLLER_RESET</i> implementation with the USB host controller extension (UCX) by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/mt188033">UcxControllerCreate</a> method.
+The UCX client driver registers its <i>EVT_UCX_CONTROLLER_RESET</i> implementation with the USB host controller extension (UCX) by calling the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/mt188033(v=vs.85)">UcxControllerCreate</a> method.
 
-The client driver indicates completion of this event by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/mt188035">UcxControllerResetComplete</a> method. Doing so ensures that UCX does not call <i>EVT_UCX_CONTROLLER_RESET</i> a second time before this event callback completes.
+The client driver indicates completion of this event by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucxcontroller/nf-ucxcontroller-ucxcontrollerresetcomplete">UcxControllerResetComplete</a> method. Doing so ensures that UCX does not call <i>EVT_UCX_CONTROLLER_RESET</i> a second time before this event callback completes.
 
-If the client driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/mt188034">UcxControllerNeedsReset</a>, UCX calls this event callback function.  However, UCX may call this event callback function even when the client driver has not called <b>UcxControllerNeedsReset</b>. 
+If the client driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucxcontroller/nf-ucxcontroller-ucxcontrollerneedsreset">UcxControllerNeedsReset</a>, UCX calls this event callback function.  However, UCX may call this event callback function even when the client driver has not called <b>UcxControllerNeedsReset</b>. 
 
 
 #### Examples
@@ -122,15 +122,15 @@ Controller_EvtControllerReset(
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt188033">UcxControllerCreate</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/mt188033(v=vs.85)">UcxControllerCreate</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt188034">UcxControllerNeedsReset</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucxcontroller/nf-ucxcontroller-ucxcontrollerneedsreset">UcxControllerNeedsReset</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt188035">UcxControllerResetComplete</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucxcontroller/nf-ucxcontroller-ucxcontrollerresetcomplete">UcxControllerResetComplete</a>
  
 
  

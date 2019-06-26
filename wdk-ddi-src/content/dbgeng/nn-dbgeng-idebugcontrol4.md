@@ -53,7 +53,7 @@ req.typenames:
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugControl4</b> interface inherits from <a href="https://msdn.microsoft.com/library/windows/hardware/ff550519">IDebugControl3</a>. <b>IDebugControl4</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugControl4</b> interface inherits from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugcontrol3">IDebugControl3</a>. <b>IDebugControl4</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -68,7 +68,7 @@ The <b>IDebugControl4</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537859">AddBreakpoint2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol4-addbreakpoint2">AddBreakpoint2</a>
 </td>
 <td align="left" width="63%">
 Creates a new breakpoint for the current target.
@@ -77,7 +77,7 @@ Creates a new breakpoint for the current target.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537896">AddExtensionWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol4-addextensionwide">AddExtensionWide</a>
 </td>
 <td align="left" width="63%">
 Loads an extension library into the debugger engine.
@@ -86,7 +86,7 @@ Loads an extension library into the debugger engine.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538126">AssembleWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol4-assemblewide">AssembleWide</a>
 </td>
 <td align="left" width="63%">
 Assembles a single processor instruction.
@@ -95,7 +95,7 @@ Assembles a single processor instruction.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539031">CallExtensionWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol4-callextensionwide">CallExtensionWide</a>
 </td>
 <td align="left" width="63%">
 Calls a debugger extension.
@@ -104,7 +104,7 @@ Calls a debugger extension.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539259">ControlledOutputVaListWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol4-controlledoutputvalistwide">ControlledOutputVaListWide</a>
 </td>
 <td align="left" width="63%">
 Formats a string and sends the result to output callbacks that were registered with some of the engine's clients.
@@ -122,7 +122,7 @@ Formats a string and sends the result to output callbacks that were registered w
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541951">DisassembleWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol4-disassemblewide">DisassembleWide</a>
 </td>
 <td align="left" width="63%">
 Disassembles a processor instruction in the target's memory.
@@ -131,7 +131,7 @@ Disassembles a processor instruction in the target's memory.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543055">EvaluateWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol4-evaluatewide">EvaluateWide</a>
 </td>
 <td align="left" width="63%">
 Evaluates an expression, returning the result.
@@ -140,7 +140,7 @@ Evaluates an expression, returning the result.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543223">ExecuteCommandFileWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol4-executecommandfilewide">ExecuteCommandFileWide</a>
 </td>
 <td align="left" width="63%">
 Opens the specified file and executes the debugger commands that are contained within.
@@ -149,7 +149,7 @@ Opens the specified file and executes the debugger commands that are contained w
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543237">ExecuteWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol4-executewide">ExecuteWide</a>
 </td>
 <td align="left" width="63%">
 Executes the specified debugger commands.
@@ -158,7 +158,7 @@ Executes the specified debugger commands.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545631">GetBreakpointById2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol4-getbreakpointbyid2">GetBreakpointById2</a>
 </td>
 <td align="left" width="63%">
 Returns the breakpoint with the specified breakpoint ID.
@@ -167,7 +167,7 @@ Returns the breakpoint with the specified breakpoint ID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545645">GetBreakpointByIndex2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol4-getbreakpointbyindex2">GetBreakpointByIndex2</a>
 </td>
 <td align="left" width="63%">
 Returns the breakpoint located at the specified index.
@@ -176,7 +176,7 @@ Returns the breakpoint located at the specified index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545748">GetContextStackTrace</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol4-getcontextstacktrace">GetContextStackTrace</a>
 </td>
 <td align="left" width="63%">
 Returns the frames at the top of the call stack, starting with an arbitrary register context and returning the reconstructed register context for each stack frame.
@@ -186,7 +186,7 @@ Returns the frames at the top of the call stack, starting with an arbitrary regi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546615">GetEventFilterCommandWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol4-geteventfiltercommandwide">GetEventFilterCommandWide</a>
 </td>
 <td align="left" width="63%">
 Returns the debugger command that the engine will execute when a specified event occurs.
@@ -195,7 +195,7 @@ Returns the debugger command that the engine will execute when a specified event
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546624">GetEventFilterTextWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol4-geteventfiltertextwide">GetEventFilterTextWide</a>
 </td>
 <td align="left" width="63%">
 Returns a short description of an event for a specific filter.
@@ -204,7 +204,7 @@ Returns a short description of an event for a specific filter.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546635">GetEventIndexDescriptionWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol4-geteventindexdescriptionwide">GetEventIndexDescriptionWide</a>
 </td>
 <td align="left" width="63%">
 Describes the specified event in a static list of events for the current target.
@@ -213,7 +213,7 @@ Describes the specified event in a static list of events for the current target.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/17a61847-78b7-45b8-b02b-3ba4cdba6bff">GetExceptionFilterSecondCommandWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol4-getexceptionfiltersecondcommand">GetExceptionFilterSecondCommandWide</a>
 </td>
 <td align="left" width="63%">
 Returns the command that will be executed by the debugger engine upon the second chance of a specified exception.
@@ -222,7 +222,7 @@ Returns the command that will be executed by the debugger engine upon the second
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546711">GetExpressionSyntaxNamesWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol4-getexpressionsyntaxnameswide">GetExpressionSyntaxNamesWide</a>
 </td>
 <td align="left" width="63%">
 Returns the full and abbreviated names of an expression syntax.
@@ -231,7 +231,7 @@ Returns the full and abbreviated names of an expression syntax.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546723">GetExtensionByPathWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol4-getextensionbypathwide">GetExtensionByPathWide</a>
 </td>
 <td align="left" width="63%">
 Returns the handle for an already loaded extension library.
@@ -240,7 +240,7 @@ Returns the handle for an already loaded extension library.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546739">GetExtensionFunctionWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol4-getextensionfunctionwide">GetExtensionFunctionWide</a>
 </td>
 <td align="left" width="63%">
 Returns a pointer to an extension function from an extension library.
@@ -249,7 +249,7 @@ Returns a pointer to an extension function from an extension library.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546989">GetLastEventInformationWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol4-getlasteventinformationwide">GetLastEventInformationWide</a>
 </td>
 <td align="left" width="63%">
 Returns information about the last event that occurred in a target.
@@ -258,7 +258,7 @@ Returns information about the last event that occurred in a target.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547025">GetLogFile2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol4-getlogfile2">GetLogFile2</a>
 </td>
 <td align="left" width="63%">
 Returns the name of the currently open log file.
@@ -267,7 +267,7 @@ Returns the name of the currently open log file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547034">GetLogFile2Wide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol4-getlogfile2wide">GetLogFile2Wide</a>
 </td>
 <td align="left" width="63%">
 Returns the name of the currently open log file.
@@ -276,7 +276,7 @@ Returns the name of the currently open log file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547050">GetLogFileWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol4-getlogfilewide">GetLogFileWide</a>
 </td>
 <td align="left" width="63%">
 Returns the name of the currently open log file.
@@ -299,7 +299,7 @@ Returns the name of the currently open log file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548177">GetProcessorTypeNamesWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol4-getprocessortypenameswide">GetProcessorTypeNamesWide</a>
 </td>
 <td align="left" width="63%">
 Returns the full name and abbreviated name of the specified processor type.
@@ -308,16 +308,16 @@ Returns the full name and abbreviated name of the specified processor type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548186">GetPromptTextWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol4-getprompttextwide">GetPromptTextWide</a>
 </td>
 <td align="left" width="63%">
- Returns the standard prompt text that will be prepended to the formatted output specified in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553227">OutputPrompt</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff553231">OutputPromptVaList</a> methods.
+ Returns the standard prompt text that will be prepended to the formatted output specified in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553227">OutputPrompt</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-outputpromptvalist">OutputPromptVaList</a> methods.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548392">GetSpecificFilterArgumentWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol4-getspecificfilterargumentwide">GetSpecificFilterArgumentWide</a>
 </td>
 <td align="left" width="63%">
 Returns the value of filter argument for the specific filters that have an argument.
@@ -326,7 +326,7 @@ Returns the value of filter argument for the specific filters that have an argum
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548431">GetStoredEventInformation</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol4-getstoredeventinformation">GetStoredEventInformation</a>
 </td>
 <td align="left" width="63%">
  Retrieves information about an event of interest available in the current target.
@@ -336,7 +336,7 @@ Returns the value of filter argument for the specific filters that have an argum
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549245">GetSystemVersionString</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol4-getsystemversionstring">GetSystemVersionString</a>
 </td>
 <td align="left" width="63%">
 Returns a string that describes the target's operating system version.
@@ -346,7 +346,7 @@ Returns a string that describes the target's operating system version.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549256">GetSystemVersionStringWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol4-getsystemversionstringwide">GetSystemVersionStringWide</a>
 </td>
 <td align="left" width="63%">
 Returns a string that describes the target's operating system version.
@@ -356,7 +356,7 @@ Returns a string that describes the target's operating system version.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549258">GetSystemVersionValues</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol4-getsystemversionvalues">GetSystemVersionValues</a>
 </td>
 <td align="left" width="63%">
 Returns version number information for the current target.
@@ -365,7 +365,7 @@ Returns version number information for the current target.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549275">GetTextMacroWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol4-gettextmacrowide">GetTextMacroWide</a>
 </td>
 <td align="left" width="63%">
 Returns the value of a fixed-name alias.
@@ -374,7 +374,7 @@ Returns the value of a fixed-name alias.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549290">GetTextReplacementWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol4-gettextreplacementwide">GetTextReplacementWide</a>
 </td>
 <td align="left" width="63%">
 Returns the value of a user-named alias or an automatic alias.
@@ -383,7 +383,7 @@ Returns the value of a user-named alias or an automatic alias.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550970">InputWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol4-inputwide">InputWide</a>
 </td>
 <td align="left" width="63%">
 Requests an input string from the debugger engine.
@@ -392,25 +392,25 @@ Requests an input string from the debugger engine.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553155">OpenLogFile2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol4-openlogfile2">OpenLogFile2</a>
 </td>
 <td align="left" width="63%">
-Opens a log file that will receive output from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539140">client objects</a>.
+Opens a log file that will receive output from the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/client-objects">client objects</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553159">OpenLogFile2Wide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol4-openlogfile2wide">OpenLogFile2Wide</a>
 </td>
 <td align="left" width="63%">
-Opens a log file that will receive output from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539140">client objects</a>.
+Opens a log file that will receive output from the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/client-objects">client objects</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553162">OpenLogFileWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol4-openlogfilewide">OpenLogFileWide</a>
 </td>
 <td align="left" width="63%">
 Opens a log file that will receive output from the client objects.
@@ -419,7 +419,7 @@ Opens a log file that will receive output from the client objects.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553203">OutputContextStackTrace</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol4-outputcontextstacktrace">OutputContextStackTrace</a>
 </td>
 <td align="left" width="63%">
 Prints the call stack specified by an array of stack frames and corresponding register contexts.
@@ -429,7 +429,7 @@ Prints the call stack specified by an array of stack frames and corresponding re
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553234">OutputPromptVaListWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol4-outputpromptvalistwide">OutputPromptVaListWide</a>
 </td>
 <td align="left" width="63%">
 Formats and sends a user prompt to the output callback objects.
@@ -447,7 +447,7 @@ Formats and sends a user prompt to the output callback objects.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553283">OutputVaListWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol4-outputvalistwide">OutputVaListWide</a>
 </td>
 <td align="left" width="63%">
 Formats a string and sends the result to the output callbacks that are registered with the engine's clients.
@@ -465,7 +465,7 @@ Formats a string and sends the result to the output callbacks that are registere
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554488">RemoveBreakpoint2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol4-removebreakpoint2">RemoveBreakpoint2</a>
 </td>
 <td align="left" width="63%">
 Removes a breakpoint.
@@ -481,16 +481,16 @@ Removes a breakpoint.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554605">ReturnInputWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol4-returninputwide">ReturnInputWide</a>
 </td>
 <td align="left" width="63%">
-This method is used by <a href="https://msdn.microsoft.com/library/windows/hardware/ff550785">IDebugInputCallbacks</a> objects to send an input string to the engine following a request for input.
+This method is used by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebuginputcallbacks">IDebugInputCallbacks</a> objects to send an input string to the engine following a request for input.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556681">SetEventFilterCommandWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol4-seteventfiltercommandwide">SetEventFilterCommandWide</a>
 </td>
 <td align="left" width="63%">
 Sets a debugger command for the engine to execute when a specified event occurs.
@@ -499,7 +499,7 @@ Sets a debugger command for the engine to execute when a specified event occurs.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556691">SetExceptionFilterSecondCommandWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol4-setexceptionfiltersecondcommandwide">SetExceptionFilterSecondCommandWide</a>
 </td>
 <td align="left" width="63%">
 Sets the command that will be executed by the debugger engine on the second chance of a specified exception.
@@ -508,7 +508,7 @@ Sets the command that will be executed by the debugger engine on the second chan
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556700">SetExpressionSyntaxByNameWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol4-setexpressionsyntaxbynamewide">SetExpressionSyntaxByNameWide</a>
 </td>
 <td align="left" width="63%">
 Sets the syntax that the engine will use to evaluate expressions.
@@ -517,7 +517,7 @@ Sets the syntax that the engine will use to evaluate expressions.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556793">SetSpecificFilterArgumentWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol4-setspecificfilterargumentwide">SetSpecificFilterArgumentWide</a>
 </td>
 <td align="left" width="63%">
 Sets the value of filter argument for the specific filters that can have an argument.
@@ -526,7 +526,7 @@ Sets the value of filter argument for the specific filters that can have an argu
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556814">SetTextMacroWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol4-settextmacrowide">SetTextMacroWide</a>
 </td>
 <td align="left" width="63%">
 Sets the value of a fixed-name alias.
@@ -535,7 +535,7 @@ Sets the value of a fixed-name alias.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556823">SetTextReplacementWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol4-settextreplacementwide">SetTextReplacementWide</a>
 </td>
 <td align="left" width="63%">
 Sets the value of a user-named alias.
@@ -550,15 +550,15 @@ Sets the value of a user-named alias.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550508">IDebugControl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugcontrol">IDebugControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550512">IDebugControl2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugcontrol2">IDebugControl2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550519">IDebugControl3</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugcontrol3">IDebugControl3</a>
  
 
  

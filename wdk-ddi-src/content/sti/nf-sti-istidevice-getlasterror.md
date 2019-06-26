@@ -72,7 +72,7 @@ If the operation succeeds, the method returns S_OK. Otherwise, it returns one of
 
 
 
-Before calling IStiDevice::GetLastError, clients of the IStiDevice COM interface must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff543778">IStillImage::CreateDevice</a> to obtain an IStiDevice interface pointer, which provides access to a specified device.
+Before calling IStiDevice::GetLastError, clients of the IStiDevice COM interface must call <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff543778(v=vs.85)">IStillImage::CreateDevice</a> to obtain an IStiDevice interface pointer, which provides access to a specified device.
 
 
 

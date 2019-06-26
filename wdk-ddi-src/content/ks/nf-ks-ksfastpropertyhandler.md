@@ -120,7 +120,7 @@ The owner of a property set can perform prefiltering or postfiltering of the pro
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564263">KsPropertyHandler</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-kspropertyhandler">KsPropertyHandler</a>
  
 
  

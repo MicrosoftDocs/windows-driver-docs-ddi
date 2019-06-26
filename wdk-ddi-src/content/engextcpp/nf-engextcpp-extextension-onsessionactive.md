@@ -74,11 +74,11 @@ This method does not return a value.
 
 The session might not be accessible.
 
-If this method is defined in the extension library class <a href="https://msdn.microsoft.com/library/windows/hardware/ff544508">EXT_CLASS</a>, it can be used to allow the extension library to cache information about the session without the need to register event callbacks.
+If this method is defined in the extension library class <a href="https://docs.microsoft.com/previous-versions/ff544508(v=vs.85)">EXT_CLASS</a>, it can be used to allow the extension library to cache information about the session without the need to register event callbacks.
 
 This method is called at the beginning of a session and, if a session has already started, after the extension library is initialized.
 
-If a target is suspended, <a href="https://msdn.microsoft.com/library/windows/hardware/ff552310">OnSessionAccessible</a> is called instead.
+If a target is suspended, <a href="https://docs.microsoft.com/previous-versions/windows/hardware/previsioning-framework/ff552310(v=vs.85)">OnSessionAccessible</a> is called instead.
 
 
 
@@ -88,7 +88,7 @@ If a target is suspended, <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544508">EXT_CLASS</a>
+<a href="https://docs.microsoft.com/previous-versions/ff544508(v=vs.85)">EXT_CLASS</a>
 
 
 
@@ -96,15 +96,15 @@ If a target is suspended, <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/previsioning-framework/ff550945(v=vs.85)">Initialize</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552310">OnSessionAccessible</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/previsioning-framework/ff552310(v=vs.85)">OnSessionAccessible</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552318">OnSessionInactive</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/previsioning-framework/ff552318(v=vs.85)">OnSessionInactive</a>
  
 
  

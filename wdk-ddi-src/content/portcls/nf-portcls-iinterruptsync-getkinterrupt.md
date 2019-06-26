@@ -72,9 +72,9 @@ The <code>GetKInterrupt</code> method gets a WDM interrupt object from a port-cl
 
 
 
-The PKINTERRUPT pointer is one of the two parameters that are passed to every interrupt service routine (see <a href="https://msdn.microsoft.com/library/windows/hardware/ff547958">InterruptService</a>). Every <b>IInterruptSync</b> object has an associated PKINTERRUPT pointer. It points to the associated kernel interrupt object, which is opaque.
+The PKINTERRUPT pointer is one of the two parameters that are passed to every interrupt service routine (see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-kservice_routine">InterruptService</a>). Every <b>IInterruptSync</b> object has an associated PKINTERRUPT pointer. It points to the associated kernel interrupt object, which is opaque.
 
-A driver typically calls <code>GetKInterrupt</code> only if it needs to obtain this pointer so that it can call <a href="https://msdn.microsoft.com/library/windows/hardware/ff553302">KeSynchronizeExecution</a> directly.
+A driver typically calls <code>GetKInterrupt</code> only if it needs to obtain this pointer so that it can call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kesynchronizeexecution">KeSynchronizeExecution</a> directly.
 
 
 
@@ -84,15 +84,15 @@ A driver typically calls <code>GetKInterrupt</code> only if it needs to obtain t
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536590">IInterruptSync</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iinterruptsync">IInterruptSync</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547958">InterruptService</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-kservice_routine">InterruptService</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553302">KeSynchronizeExecution</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kesynchronizeexecution">KeSynchronizeExecution</a>
  
 
  

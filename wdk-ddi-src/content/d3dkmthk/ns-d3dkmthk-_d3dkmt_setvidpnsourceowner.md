@@ -86,7 +86,7 @@ The number of valid entries in the array that <b>pVidPnSourceId</b> specifies.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547201">D3DKMTSetVidPnSourceOwner</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/nf-d3dkmthk-d3dkmtsetvidpnsourceowner">D3DKMTSetVidPnSourceOwner</a>
  
 
  

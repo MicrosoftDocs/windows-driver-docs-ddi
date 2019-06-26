@@ -56,27 +56,27 @@ AVStream calls a minidriver's <i>AVStrMiniIntersectHandlerEx</i> routine to dete
 
 ### -param Context [in]
 
-Pointer to the <b>Context</b> member of the corresponding <a href="https://msdn.microsoft.com/library/windows/hardware/ff562522">KSFILTER</a> structure.
+Pointer to the <b>Context</b> member of the corresponding <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksfilter">KSFILTER</a> structure.
 
 
 ### -param Irp [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550694">IRP</a> containing the intersection request.
+Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_irp">IRP</a> containing the intersection request.
 
 
 ### -param Pin [in]
 
-Pointer to a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff566722">KSP_PIN</a> that was passed in the intersection property request.
+Pointer to a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksp_pin">KSP_PIN</a> that was passed in the intersection property request.
 
 
 ### -param DataRange [in]
 
-Pointer to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a> structures.
+Pointer to an array of <a href="https://docs.microsoft.com/previous-versions/ff561658(v=vs.85)">KSDATARANGE</a> structures.
 
 
 ### -param MatchingDataRange [in]
 
-Pointer to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a> structures to match to <i>DataRange</i>.
+Pointer to an array of <a href="https://docs.microsoft.com/previous-versions/ff561658(v=vs.85)">KSDATARANGE</a> structures to match to <i>DataRange</i>.
 
 
 ### -param DataBufferSize [in]
@@ -107,7 +107,7 @@ If the callback finds a match, return STATUS_SUCCESS. Otherwise return STATUS_NO
 
 
 
-The minidriver specifies this routine's address in the <b>IntersectHandler</b> member of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563534">KSPIN_DESCRIPTOR_EX</a> structure.
+The minidriver specifies this routine's address in the <b>IntersectHandler</b> member of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_kspin_descriptor_ex">KSPIN_DESCRIPTOR_EX</a> structure.
 
 
 
@@ -117,27 +117,27 @@ The minidriver specifies this routine's address in the <b>IntersectHandler</b> m
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a>
+<a href="https://docs.microsoft.com/previous-versions/ff561658(v=vs.85)">KSDATARANGE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562522">KSFILTER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksfilter">KSFILTER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563534">KSPIN_DESCRIPTOR_EX</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_kspin_descriptor_ex">KSPIN_DESCRIPTOR_EX</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565198">KSPROPERTY_PIN_DATAINTERSECTION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-pin-dataintersection">KSPROPERTY_PIN_DATAINTERSECTION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566722">KSP_PIN</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksp_pin">KSP_PIN</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563499">KsPinDataIntersectionEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-kspindataintersectionex">KsPinDataIntersectionEx</a>
  
 
  

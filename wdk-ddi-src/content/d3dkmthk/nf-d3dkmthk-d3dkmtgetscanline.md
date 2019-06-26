@@ -55,7 +55,7 @@ The <b>D3DKMTGetScanLine</b> function determines whether the given video present
 
 *pData* [in, out]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548064">D3DKMT_GETSCANLINE</a> structure that contains the vertical blanking status of a video present source.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_getscanline">D3DKMT_GETSCANLINE</a> structure that contains the vertical blanking status of a video present source.
 
 ## -returns
 
@@ -71,7 +71,7 @@ This function might also return other <b>NTSTATUS</b> values.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548064">D3DKMT_GETSCANLINE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_getscanline">D3DKMT_GETSCANLINE</a>
  
 
  

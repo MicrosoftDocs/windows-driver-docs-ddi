@@ -66,7 +66,7 @@ The size of the context allocation.
 
 ### -field pDriverPrivateData
 
-A pointer to the driver-private data that was passed in the call to <a href="https://msdn.microsoft.com/708A33C2-9620-4259-845A-2F862B6F209B">DxgkCbUpdateContextAllocation</a>.
+A pointer to the driver-private data that was passed in the call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkcb_updatecontextallocation">DxgkCbUpdateContextAllocation</a>.
 
 
 ### -field DriverPrivateDataSize
@@ -79,11 +79,11 @@ The size of the driver-private data.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557540">DXGKARG_BUILDPAGINGBUFFER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_buildpagingbuffer">DXGKARG_BUILDPAGINGBUFFER</a>
 
 
 
-<a href="https://msdn.microsoft.com/708A33C2-9620-4259-845A-2F862B6F209B">DxgkCbUpdateContextAllocation</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkcb_updatecontextallocation">DxgkCbUpdateContextAllocation</a>
  
 
  

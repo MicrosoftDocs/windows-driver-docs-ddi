@@ -88,9 +88,9 @@ Specifies the additional size in bytes of the filter coefficients that are appen
 
 
 
-This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537357">KSPROPERTY_HRTF3D_PARAMS</a> property.
+This structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-hrtf3d-params">KSPROPERTY_HRTF3D_PARAMS</a> property.
 
-For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff537482">KSPROPSETID_Hrtf3d</a>.
+For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/kspropsetid-hrtf3d">KSPROPSETID_Hrtf3d</a>.
 
 
 
@@ -100,11 +100,11 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537357">KSPROPERTY_HRTF3D_PARAMS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-hrtf3d-params">KSPROPERTY_HRTF3D_PARAMS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537482">KSPROPSETID_Hrtf3d</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/kspropsetid-hrtf3d">KSPROPSETID_Hrtf3d</a>
  
 
  

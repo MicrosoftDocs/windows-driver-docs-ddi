@@ -57,7 +57,7 @@ The IOCTL_PAR_QUERY_LOCATION request returns the "LPT<i>n</i>" or "LPT<i>n.m</i>
 
 
 <dl>
-<dt><a id="For_more_information__see_Device_Stacks_for_ParallelPorts_and_Devices_and_Parallel_Device_Interfaces__Internal_Names__and_Symbolic_Links."></a><a id="for_more_information__see_device_stacks_for_parallelports_and_devices_and_parallel_device_interfaces__internal_names__and_symbolic_links."></a><a id="FOR_MORE_INFORMATION__SEE_DEVICE_STACKS_FOR_PARALLELPORTS_AND_DEVICES_AND_PARALLEL_DEVICE_INTERFACES__INTERNAL_NAMES__AND_SYMBOLIC_LINKS."></a>For more information, see <a href="https://msdn.microsoft.com/80222ed9-f900-4d97-b459-2d8ca780e1d1">Device Stacks for ParallelPorts and Devices</a> and <a href="https://msdn.microsoft.com/859e20bb-e411-4572-a393-a6faf534cf15">Parallel Device Interfaces, Internal Names, and Symbolic Links</a>.</dt>
+<dt><a id="For_more_information__see_Device_Stacks_for_ParallelPorts_and_Devices_and_Parallel_Device_Interfaces__Internal_Names__and_Symbolic_Links."></a><a id="for_more_information__see_device_stacks_for_parallelports_and_devices_and_parallel_device_interfaces__internal_names__and_symbolic_links."></a><a id="FOR_MORE_INFORMATION__SEE_DEVICE_STACKS_FOR_PARALLELPORTS_AND_DEVICES_AND_PARALLEL_DEVICE_INTERFACES__INTERNAL_NAMES__AND_SYMBOLIC_LINKS."></a>For more information, see <a href="https://docs.microsoft.com/previous-versions/ff543949(v=vs.85)">Device Stacks for ParallelPorts and Devices</a> and <a href="https://docs.microsoft.com/previous-versions/ff544284(v=vs.85)">Parallel Device Interfaces, Internal Names, and Symbolic Links</a>.</dt>
 <dd></dd>
 </dl>
 

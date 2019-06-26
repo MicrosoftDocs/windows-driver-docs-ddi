@@ -46,7 +46,7 @@ req.typenames: ReportDiscoveredTargets2_OUT, *PReportDiscoveredTargets2_OUT
 ## -description
 
 
-The ReportDiscoveredTargets2_OUT structure holds the output data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564051">ReportDiscoveredTargets2</a> method.
+The ReportDiscoveredTargets2_OUT structure holds the output data for the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/reportdiscoveredtargets2">ReportDiscoveredTargets2</a> method.
 
 
 ## -struct-fields
@@ -56,7 +56,7 @@ The ReportDiscoveredTargets2_OUT structure holds the output data for the <a href
 
 ### -field Status
 
-On output, the status of the <b>ReportDiscoveredTargets</b> operation. For a list of status qualifiers, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>. 
+On output, the status of the <b>ReportDiscoveredTargets</b> operation. For a list of status qualifiers, see <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/iscsi-status-qualifiers">ISCSI_STATUS_QUALIFIERS</a>. 
 
 
 ### -field TargetCount
@@ -66,7 +66,7 @@ On output, the number of targets that are discovered.
 
 ### -field Targets
 
-On output, an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff561503">ISCSI_DiscoveredTarget2</a> structures, which provide information that is related to discovered targets. 
+On output, an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/iscsifnd/ns-iscsifnd-_iscsi_discoveredtarget2">ISCSI_DiscoveredTarget2</a> structures, which provide information that is related to discovered targets. 
 
 
 ## -remarks
@@ -83,15 +83,15 @@ You must implement this method.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561503">ISCSI_DiscoveredTarget2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/iscsifnd/ns-iscsifnd-_iscsi_discoveredtarget2">ISCSI_DiscoveredTarget2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/iscsi-status-qualifiers">ISCSI_STATUS_QUALIFIERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564051">ReportDiscoveredTargets2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/reportdiscoveredtargets2">ReportDiscoveredTargets2</a>
  
 
  

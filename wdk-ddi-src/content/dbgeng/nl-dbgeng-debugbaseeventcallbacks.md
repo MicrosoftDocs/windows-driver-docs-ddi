@@ -47,12 +47,12 @@ req.typenames:
 
 
 The <b>DebugBaseEventCallbacks</b> class provides a base implementation
-of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550550">IDebugEventCallbacks</a> interface.  
+of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugeventcallbacks">IDebugEventCallbacks</a> interface.  
 
 A program can derive an event callbacks class from <b>DebugBaseEventCallbacks</b> and implement
 only the methods needed. 
 
-Be careful to implement <a href="https://msdn.microsoft.com/165c83cb-c0be-4a09-9220-a5208f660308">GetInterestMask</a> appropriately.
+Be careful to implement <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugeventcallbacks-getinterestmask">GetInterestMask</a> appropriately.
 
 
 ## -see-also
@@ -60,11 +60,11 @@ Be careful to implement <a href="https://msdn.microsoft.com/165c83cb-c0be-4a09-9
 
 
 
-<a href="https://msdn.microsoft.com/165c83cb-c0be-4a09-9220-a5208f660308">GetInterestMask</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugeventcallbacks-getinterestmask">GetInterestMask</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550550">IDebugEventCallbacks</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugeventcallbacks">IDebugEventCallbacks</a>
  
 
  

@@ -56,7 +56,7 @@ The KSPROPERTY_TUNER_IF_MEDIUM_S structure returns the Medium GUID for the pin t
 
 ### -field Property
 
-Specifies an initialized <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
+Specifies an initialized <a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
 
 
 ### -field IFMedium
@@ -68,7 +68,7 @@ Specifies the GUID for the pin that is capable of supporting an intermediate fre
 
 
 
-Support for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565842">KSPROPERTY_TUNER_IF_MEDIUM</a> property causes <i>Kstvtune.ax</i> to create an additional pin representing an MPEG-2 transport stream. A data packet sent on this pin in user mode consists only of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff567691">KS_TVTUNER_CHANGE_INFO</a> structure.
+Support for the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-tuner-if-medium">KSPROPERTY_TUNER_IF_MEDIUM</a> property causes <i>Kstvtune.ax</i> to create an additional pin representing an MPEG-2 transport stream. A data packet sent on this pin in user mode consists only of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-tagks_tvtuner_change_info">KS_TVTUNER_CHANGE_INFO</a> structure.
 
 
 
@@ -78,15 +78,15 @@ Support for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff5
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
+<a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565842">KSPROPERTY_TUNER_IF_MEDIUM</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-tuner-if-medium">KSPROPERTY_TUNER_IF_MEDIUM</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567800">PROPSETID_TUNER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/propsetid-tuner">PROPSETID_TUNER</a>
  
 
  

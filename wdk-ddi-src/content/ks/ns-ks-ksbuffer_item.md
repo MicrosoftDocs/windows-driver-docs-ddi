@@ -56,12 +56,12 @@ The KSBUFFER_ITEM structure is used to store a list of data buffers copied from 
 
 ### -field DpcItem
 
-A structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff561726">KSDPC_ITEM</a>. May be used by internal DPCs; do not use for data buffering.
+A structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksdpc_item">KSDPC_ITEM</a>. May be used by internal DPCs; do not use for data buffering.
 
 
 ### -field BufferList
 
-Specifies the head of a list of pool allocated buffers that are created by calls to <a href="https://msdn.microsoft.com/library/windows/hardware/ff562593">KsGenerateDataEvent</a> for events that have buffering enabled.
+Specifies the head of a list of pool allocated buffers that are created by calls to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksgeneratedataevent">KsGenerateDataEvent</a> for events that have buffering enabled.
 
 
 ## -remarks
@@ -78,11 +78,11 @@ KSBUFFER_ITEM extends the normal deferred procedure call (DPC) structure, which 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561726">KSDPC_ITEM</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksdpc_item">KSDPC_ITEM</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562593">KsGenerateDataEvent</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksgeneratedataevent">KsGenerateDataEvent</a>
  
 
  
