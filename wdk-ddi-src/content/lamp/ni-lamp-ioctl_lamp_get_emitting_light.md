@@ -42,71 +42,39 @@ req.typenames:
 
 # IOCTL_LAMP_GET_EMITTING_LIGHT IOCTL
 
-
 ## -description
 
+The **IOCTL_LAMP_GET_EMITTING_LIGHT** control code queries if the lamp is turned on.
 
-The <b>IOCTL_LAMP_GET_EMITTING_LIGHT</b> 
-   control code queries if the lamp is turned on.
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>#define IOCTL_LAMP_GET_EMITTING_LIGHT \
-    CTL_CODE(IOCTL_LAMP_BASE, 0x0008, METHOD_BUFFERED, FILE_ANY_ACCESS)</pre>
-</td>
-</tr>
-</table></span></div>
+```cpp
+#define IOCTL_LAMP_GET_EMITTING_LIGHT \
+    CTL_CODE(IOCTL_LAMP_BASE, 0x0008, METHOD_BUFFERED, FILE_ANY_ACCESS)
+```
 
 ## -ioctlparameters
 
-
-
-
 ### -input-buffer
 
-<code>Irp->AssociatedIrp.SystemBuffer</code> points to a buffer of type <b>BOOLEAN</b>.
-
+`Irp->AssociatedIrp.SystemBuffer` points to a buffer of type **BOOLEAN**.
 
 ### -input-buffer-length
 
-Length of a <b>BOOLEAN</b>.
-
+Length of a **BOOLEAN**.
 
 ### -output-buffer
 
-<code>Irp->AssociatedIrp.SystemBuffer</code> contains the lamp state; <b>TRUE</b> if the lamp is turned on and emitting light; <b>FALSE</b> otherwise.
-
+`Irp->AssociatedIrp.SystemBuffer` contains the lamp state; **TRUE** if the lamp is turned on and emitting light; **FALSE** otherwise.
 
 ### -output-buffer-length
 
-<code>IO_STACK_LOCATION.Parameters.DeviceIoControl.OutputBufferLength</code> is the length of the buffer in bytes passed in the <code>Irp->AssociatedIrp.SystemBuffer</code> field.
-
+`IO_STACK_LOCATION.Parameters.DeviceIoControl.OutputBufferLength` is the length of the buffer in bytes passed in the `Irp->AssociatedIrp.SystemBuffer` field.
 
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
-The driver sets <code>Irp->IoStatus.Status</code> to <b>STATUS_SUCCESS</b> or the appropriate error status. It will set <code>Irp->IoStatus.Information</code> to the number of bytes required to hold a <b>DWORD</b> value.
+The driver sets `Irp->IoStatus.Status` to **STATUS_SUCCESS** or the appropriate error status. It will set `Irp->IoStatus.Information` to the number of bytes required to hold a **DWORD** value.
 
-
-If the device has been acquired by a camera driver, the lamp driver should return a <b>STATUS_RESOURCE_IN_USE</b> error via <code>Irp->IoStatus.Status</code>.
-
+If the device has been acquired by a camera driver, the lamp driver should return a **STATUS_RESOURCE_IN_USE** error via `Irp->IoStatus.Status`.
