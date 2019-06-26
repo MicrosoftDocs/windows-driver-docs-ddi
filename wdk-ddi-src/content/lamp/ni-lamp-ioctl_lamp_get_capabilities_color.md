@@ -42,83 +42,45 @@ req.typenames:
 
 # IOCTL_LAMP_GET_CAPABILITIES_COLOR IOCTL
 
-
 ## -description
 
+The **IOCTL_LAMP_GET_CAPABILITIES_COLOR** control code queries the capabilities of the lamp when the device is configured to emit color light.
 
-The <b>IOCTL_LAMP_GET_CAPABILITIES_COLOR</b> 
-   control code queries the capabilities of the lamp when the device is configured to emit color light.
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>#define IOCTL_LAMP_GET_CAPABILITIES_COLOR \
-    CTL_CODE(IOCTL_LAMP_BASE, 0x0001, METHOD_BUFFERED, FILE_ANY_ACCESS)</pre>
-</td>
-</tr>
-</table></span></div>
+```cpp
+#define IOCTL_LAMP_GET_CAPABILITIES_COLOR \
+    CTL_CODE(IOCTL_LAMP_BASE, 0x0001, METHOD_BUFFERED, FILE_ANY_ACCESS)
+```
 
 ## -ioctlparameters
 
-
-
-
 ### -input-buffer
 
-<code>Irp->AssociatedIrp.SystemBuffer</code> points to a buffer of type <a href="https://msdn.microsoft.com/library/windows/hardware/dn936998">LAMP_CAPABILITIES_COLOR</a>.
-
+`Irp->AssociatedIrp.SystemBuffer` points to a buffer of type [LAMP_CAPABILITIES_COLOR](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/lamp/ns-lamp-lamp_capabilities_color).
 
 ### -input-buffer-length
 
 Length of the buffer.
 
-
 ### -output-buffer
 
-<code>Irp->AssociatedIrp.SystemBuffer</code> is filled with all capabilities supported by the lamp hardware.
-
-
+`Irp->AssociatedIrp.SystemBuffer` is filled with all capabilities supported by the lamp hardware.
 
 ### -output-buffer-length
 
-<code>IO_STACK_LOCATION.Parameters.DeviceIoControl.OutputBufferLength</code> is the length of the buffer (in bytes) passed in the <code>Irp->AssociatedIrp.SystemBuffer</code> field.
-
-
+`IO_STACK_LOCATION.Parameters.DeviceIoControl.OutputBufferLength` is the length of the buffer (in bytes) passed in the `Irp->AssociatedIrp.SystemBuffer` field.
 
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
-The driver sets <code>Irp->IoStatus.Status</code> to <b>STATUS_SUCCESS</b> or the appropriate error status. It will set <code>Irp->IoStatus.Information</code> to the number of bytes required to hold the buffer.
-
+The driver sets `Irp->IoStatus.Status` to **STATUS_SUCCESS** or the appropriate error status. It will set `Irp->IoStatus.Information` to the number of bytes required to hold the buffer.
 
 ## -remarks
 
+The payload of this IOCTL is a [LAMP_CAPABILITIES_COLOR](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/lamp/ns-lamp-lamp_capabilities_color) structure.
 
+The **IsSupported** field indicates whether the lamp can emit color light. If the hardware does not support color light, the driver should set this field to **FALSE**.
 
-The payload of this IOCTL is a <a href="https://msdn.microsoft.com/library/windows/hardware/dn936998">LAMP_CAPABILITIES_COLOR</a> structure.
-
-The <b>IsSupported</b> field indicates whether the lamp can emit color light. If the hardware does not support color light, the driver should set this field to <b>FALSE</b>.
-
-The <b>IsLightIntensityAdjustable</b> field indicates whether the luminance level can be programmed. If the lamp does not support color light (<b>IsSupported</b> evaluates to <b>FALSE</b>), a client should discard the value of <b>IsLightIntensityAdjustable</b>.
-
-
-
+The **IsLightIntensityAdjustable** field indicates whether the luminance level can be programmed. If the lamp does not support color light (**IsSupported** evaluates to **FALSE**), a client should discard the value of **IsLightIntensityAdjustable**.
