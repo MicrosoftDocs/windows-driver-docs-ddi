@@ -61,7 +61,7 @@ A handle to a UCX object that represents the root hub.
 
 ### -param Request [in]
 
-A structure of type <a href="https://msdn.microsoft.com/AA71D015-B047-497C-A9E1-32E5E73AD0C2">_ROOTHUB_20PORT_INFO</a>.
+A structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucxroothub/ns-ucxroothub-_roothub_20port_info">_ROOTHUB_20PORT_INFO</a>.
 
 
 ## -returns
@@ -77,10 +77,10 @@ This callback function does not return a value.
 
 
 
-The UCX client driver registers this callback function with the USB host controller extension (UCX) by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/mt188048">UcxRootHubCreate</a>
+The UCX client driver registers this callback function with the USB host controller extension (UCX) by calling the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/mt188048(v=vs.85)">UcxRootHubCreate</a>
  method.
 
- The <b>PortInfoArray</b> array of the <a href="https://msdn.microsoft.com/FBFDF368-8DB9-4ACE-851D-6A178FB3E019">_ROOTHUB_20PORTS_INFO</a> structure
+ The <b>PortInfoArray</b> array of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucxroothub/ns-ucxroothub-_roothub_20ports_info">_ROOTHUB_20PORTS_INFO</a> structure
     contains a list of USB 2.0 ports that the root hub supports.
 
 The client driver returns completion status in <i>Request</i> and in the USBD_STATUS
@@ -162,7 +162,7 @@ RootHub_EvtRootHubGet20PortInfoEnd:
 
 
 
-<a href="https://msdn.microsoft.com/FBFDF368-8DB9-4ACE-851D-6A178FB3E019">_ROOTHUB_20PORTS_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucxroothub/ns-ucxroothub-_roothub_20ports_info">_ROOTHUB_20PORTS_INFO</a>
  
 
  

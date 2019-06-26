@@ -79,7 +79,7 @@ Specifies the high MPEG-2 resolution, or 1920 × 1080 at 30 frames per second.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567667">KS_MPEGVIDEOINFO2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-tagks_mpegvideoinfo2">KS_MPEGVIDEOINFO2</a>
  
 
  

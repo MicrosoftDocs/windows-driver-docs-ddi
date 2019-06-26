@@ -125,7 +125,7 @@ The WMI tool suite generates a declaration of this structure automatically when 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553939">GetFC3MgmtInfo</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/getfc3mgmtinfo">GetFC3MgmtInfo</a>
  
 
  

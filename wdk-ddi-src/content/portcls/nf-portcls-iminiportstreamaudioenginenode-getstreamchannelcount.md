@@ -56,7 +56,7 @@ Gets a count of the number of channels available for the stream.
 
 ### -param targetType [in]
 
-An <a href="https://msdn.microsoft.com/library/windows/hardware/dn302034">eChannelTargetType</a> enumerated value that specifies the  target node type.
+An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/ne-portcls-echanneltargettype">eChannelTargetType</a> enumerated value that specifies the  target node type.
 
 
 ### -param pulChannelCount [out]
@@ -80,11 +80,11 @@ code.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265090">IMiniportStreamAudioEngineNode</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iminiportstreamaudioenginenode">IMiniportStreamAudioEngineNode</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn302034">eChannelTargetType</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/ne-portcls-echanneltargettype">eChannelTargetType</a>
  
 
  

@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-This inline function is a wrapper for <a href="https://msdn.microsoft.com/library/windows/hardware/ff566767">KsRegisterAggregatedClientUnknown</a>.
+This inline function is a wrapper for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksregisteraggregatedclientunknown">KsRegisterAggregatedClientUnknown</a>.
 
 
 ## -parameters
@@ -56,7 +56,7 @@ This inline function is a wrapper for <a href="https://msdn.microsoft.com/librar
 
 ### -param Device [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561681">KSDEVICE</a> structure representing the specified AVStream device.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksdevice">KSDEVICE</a> structure representing the specified AVStream device.
 
 
 ### -param ClientUnknown [in]
@@ -77,7 +77,7 @@ Returns the newly created aggregate object.
 
 
 
-This inline function performs a typecast and then calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff566767">KsRegisterAggregatedClientUnknown</a>.
+This inline function performs a typecast and then calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksregisteraggregatedclientunknown">KsRegisterAggregatedClientUnknown</a>.
 
 
 
@@ -87,7 +87,7 @@ This inline function performs a typecast and then calls <a href="https://msdn.mi
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566767">KsRegisterAggregatedClientUnknown</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksregisteraggregatedclientunknown">KsRegisterAggregatedClientUnknown</a>
  
 
  

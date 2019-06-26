@@ -47,6 +47,6 @@ req.typenames:
 
 
 
-<a href="https://msdn.microsoft.com/1C29A0B4-E50D-4EA2-95A4-4845BD14C88A">PositionNotify</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dmusicks/nf-dmusicks-ipositionnotify-positionnotify">PositionNotify</a>
 
 

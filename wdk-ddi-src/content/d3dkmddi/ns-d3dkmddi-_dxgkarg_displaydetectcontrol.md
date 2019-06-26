@@ -47,7 +47,7 @@ req.typenames: DXGKARG_DISPLAYDETECTCONTROL
 ## -description
 
 
-Used to hold the arguments for <a href="https://msdn.microsoft.com/6F10EA4D-BCDE-475E-9937-414CB83F6F2F">DXGKDDI_DISPLAYDETECTCONTROL</a>.
+Used to hold the arguments for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_displaydetectcontrol">DXGKDDI_DISPLAYDETECTCONTROL</a>.
 
 
 ## -struct-fields

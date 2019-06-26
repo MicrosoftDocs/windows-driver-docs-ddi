@@ -56,12 +56,12 @@ Defines the combination of a pixel format and color space for a resource content
 
 ### -field Format
 
-The format of the data. For more information, see the [DXGI_FORMAT](https://msdn.microsoft.com/library/windows/desktop/bb173059.aspx) enumeration.
+The format of the data. For more information, see the [DXGI_FORMAT](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) enumeration.
 
 
 ### -field ColorSpace
 
-The color space of the data. For more information, see the <a href="https://msdn.microsoft.com/E25C933F-0DB3-4BC4-9755-9361B2B9B9CB">DXGI_COLOR_SPACE_TYPE</a> enumeration.
+The color space of the data. For more information, see the <a href="https://docs.microsoft.com/windows/desktop/api/dxgicommon/ne-dxgicommon-dxgi_color_space_type">DXGI_COLOR_SPACE_TYPE</a> enumeration.
 
 
 ## -remarks
@@ -82,11 +82,11 @@ The one exception is that all drivers are required to support a conversion to re
 
 
 
-<a href="https://msdn.microsoft.com/E25C933F-0DB3-4BC4-9755-9361B2B9B9CB">DXGI_COLOR_SPACE_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/dxgicommon/ne-dxgicommon-dxgi_color_space_type">DXGI_COLOR_SPACE_TYPE</a>
 
 
 
-[DXGI_FORMAT](https://msdn.microsoft.com/library/windows/desktop/bb173059.aspx)
+[DXGI_FORMAT](https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format)
  
 
  

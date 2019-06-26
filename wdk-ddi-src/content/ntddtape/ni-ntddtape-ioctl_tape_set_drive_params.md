@@ -60,7 +60,7 @@ Adjusts a tape drive's configurable parameters. The miniclass driver can ignore 
 ### -input-buffer
 
 
-       The <a href="https://msdn.microsoft.com/library/windows/hardware/ff567972">TAPE_SET_DRIVE_PARAMETERS</a> structure in the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains the values to be set. 
+       The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddtape/ns-ntddtape-_tape_set_drive_parameters">TAPE_SET_DRIVE_PARAMETERS</a> structure in the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains the values to be set. 
 
 
 ### -input-buffer-length
@@ -106,15 +106,15 @@ The <b>Information</b> field is set to zero. The <b>Status</b> field is set to S
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567972">TAPE_SET_DRIVE_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddtape/ns-ntddtape-_tape_set_drive_parameters">TAPE_SET_DRIVE_PARAMETERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567975">TAPE_STATUS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/minitape/ne-minitape-_tape_status">TAPE_STATUS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567952">TapeMiniSetDriveParameters</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/minitape/nc-minitape-tape_process_command_routine">TapeMiniSetDriveParameters</a>
  
 
  

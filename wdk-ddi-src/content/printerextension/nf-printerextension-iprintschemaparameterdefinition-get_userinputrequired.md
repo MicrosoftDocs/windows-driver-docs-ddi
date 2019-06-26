@@ -69,7 +69,7 @@ The print dialog can use <b>UserInputRequired</b> to determine whether or not it
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn465890">IPrintSchemaParameterDefinition</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprintschemaparameterdefinition">IPrintSchemaParameterDefinition</a>
  
 
  

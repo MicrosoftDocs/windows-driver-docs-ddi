@@ -56,37 +56,37 @@ The KSDISPATCH_TABLE structure contains pointers to minidriver implemented IRP d
 
 ### -field DeviceIoControl
 
-Specifies the minidriver's routine to dispatch <a href="https://msdn.microsoft.com/library/windows/hardware/ff548649">IRP_MJ_DEVICE_CONTROL</a> IRPs to.
+Specifies the minidriver's routine to dispatch <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-device-control">IRP_MJ_DEVICE_CONTROL</a> IRPs to.
 
 
 ### -field Read
 
-Specifies the minidriver's routine to dispatch <a href="https://msdn.microsoft.com/library/windows/hardware/ff549327">IRP_MJ_READ</a> IRPs to.
+Specifies the minidriver's routine to dispatch <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-read">IRP_MJ_READ</a> IRPs to.
 
 
 ### -field Write
 
-Specifies the minidriver's routine to dispatch <a href="https://msdn.microsoft.com/library/windows/hardware/ff550819">IRP_MJ_WRITE</a> IRPs to.
+Specifies the minidriver's routine to dispatch <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-write">IRP_MJ_WRITE</a> IRPs to.
 
 
 ### -field Flush
 
-Specifies the minidriver's routine to dispatch <a href="https://msdn.microsoft.com/library/windows/hardware/ff549235">IRP_MJ_FLUSH_BUFFERS</a> IRPs to.
+Specifies the minidriver's routine to dispatch <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-flush-buffers">IRP_MJ_FLUSH_BUFFERS</a> IRPs to.
 
 
 ### -field Close
 
-Specifies the minidriver's routine to dispatch <a href="https://msdn.microsoft.com/library/windows/hardware/ff550720">IRP_MJ_CLOSE</a> IRPs to.
+Specifies the minidriver's routine to dispatch <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-close">IRP_MJ_CLOSE</a> IRPs to.
 
 
 ### -field QuerySecurity
 
-Specifies the minidriver's routine to dispatch <a href="https://msdn.microsoft.com/library/windows/hardware/ff549298">IRP_MJ_QUERY_SECURITY</a> IRPs to.
+Specifies the minidriver's routine to dispatch <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-query-security">IRP_MJ_QUERY_SECURITY</a> IRPs to.
 
 
 ### -field SetSecurity
 
-Specifies the minidriver's routine to dispatch <a href="https://msdn.microsoft.com/library/windows/hardware/ff549407">IRP_MJ_SET_SECURITY</a> IRPs to.
+Specifies the minidriver's routine to dispatch <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-set-security">IRP_MJ_SET_SECURITY</a> IRPs to.
 
 
 ### -field FastDeviceIoControl
@@ -110,7 +110,7 @@ Specifies the minidriver's routine to dispatch fast write requests to.
 
 A pointer to a dispatch table is contained in the opaque object header that is the first element of data pointed to by the file object's <b>FsContext</b> field.
 
-For more information about minidriver implemented IRP dispatch routines, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff566840">KsSetMajorFunctionHandler</a>, and <a href="https://msdn.microsoft.com/library/windows/hardware/ff544174">DRIVER_OBJECT</a>.
+For more information about minidriver implemented IRP dispatch routines, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-kssetmajorfunctionhandler">KsSetMajorFunctionHandler</a>, and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_driver_object">DRIVER_OBJECT</a>.
 
 
 
@@ -120,11 +120,11 @@ For more information about minidriver implemented IRP dispatch routines, see <a 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544174">DRIVER_OBJECT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_driver_object">DRIVER_OBJECT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566840">KsSetMajorFunctionHandler</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-kssetmajorfunctionhandler">KsSetMajorFunctionHandler</a>
  
 
  

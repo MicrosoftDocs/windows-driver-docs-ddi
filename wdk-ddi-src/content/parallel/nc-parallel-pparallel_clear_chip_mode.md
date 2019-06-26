@@ -67,7 +67,7 @@ typedef NTSTATUS (*PPARALLEL_CLEAR_CHIP_MODE)(
 
 ### -param ClearChipContext [in]
 
-Pointer to the device extension of a parallel port's functional device object (<a href="https://msdn.microsoft.com/f697e0db-1db0-4a81-94d8-0ca079885480">FDO</a>).
+Pointer to the device extension of a parallel port's functional device object (<a href="https://docs.microsoft.com/windows-hardware/drivers/">FDO</a>).
 
 
 ### -param ChipMode [in]
@@ -124,7 +124,7 @@ A caller uses the <i>PPARALLEL_CLEAR_CHIP_MODE</i> callback in conjunction with 
 
 To set a mode, a caller must first clear the current mode.
 
-For more information, see <a href="https://msdn.microsoft.com/a22cdeef-4ae7-49f8-b0b5-a4d68feb4235">Setting and Clearing the Communication Mode on a ParallelPort</a>.
+For more information, see <a href="https://docs.microsoft.com/previous-versions/ff544801(v=vs.85)">Setting and Clearing the Communication Mode on a ParallelPort</a>.
 
 
 

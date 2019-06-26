@@ -62,7 +62,7 @@ The object to which to add the event.
 
 ### -param EventEntry [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff561853">KSEVENT_ENTRY</a> structure describing the event to add to <i>Object</i>.
+A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksevent_entry">KSEVENT_ENTRY</a> structure describing the event to add to <i>Object</i>.
 
 
 ## -returns
@@ -78,7 +78,7 @@ None
 
 
 
-Minidrivers typically do not call this routine directly; instead, they use <a href="https://msdn.microsoft.com/library/windows/hardware/ff562525">KsFilterAddEvent</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff563490">KsPinAddEvent</a>. 
+Minidrivers typically do not call this routine directly; instead, they use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksfilteraddevent">KsFilterAddEvent</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-kspinaddevent">KsPinAddEvent</a>. 
 
 After events have been added to the event list, these events can be generated as data events by a <b>Ks</b><i>Xxx</i><b>GenerateEvents</b> call. Typecasting of the object (a filter or pin) to PVOID must be provided by the caller.
 
@@ -90,23 +90,23 @@ After events have been added to the event list, these events can be generated as
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561853">KSEVENT_ENTRY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksevent_entry">KSEVENT_ENTRY</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561662">KsDefaultAddEventHandler</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksdefaultaddeventhandler">KsDefaultAddEventHandler</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562525">KsFilterAddEvent</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksfilteraddevent">KsFilterAddEvent</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562597">KsGenerateEvents</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksgenerateevents">KsGenerateEvents</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563490">KsPinAddEvent</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-kspinaddevent">KsPinAddEvent</a>
  
 
  

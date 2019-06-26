@@ -63,7 +63,7 @@ req.typenames:
 This function does not return a value.
 
 <h2><a id="ddk_oemdisablepdev_gg"></a><a id="DDK_OEMDISABLEPDEV_GG"></a></h2>
-This function is obsolete for Windows XP and later. It is supported only for earlier plug-ins. Use <a href="https://msdn.microsoft.com/library/windows/hardware/ff553209">IPrintOemPS::DisablePDEV</a> (Pscript) or <a href="https://msdn.microsoft.com/library/windows/hardware/ff554238">IPrintOemUni::DisablePDEV</a> (Unidrv).
+This function is obsolete for Windows XP and later. It is supported only for earlier plug-ins. Use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintoemps-disablepdev">IPrintOemPS::DisablePDEV</a> (Pscript) or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintoemuni-disablepdev">IPrintOemUni::DisablePDEV</a> (Unidrv).
 
 
 

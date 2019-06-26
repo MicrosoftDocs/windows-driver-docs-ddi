@@ -46,7 +46,7 @@ req.typenames: SYSTEM_POWER_STATE, *PSYSTEM_POWER_STATE
 ## -description
 
 
-The <b>SYSTEM_POWER_STATE</b> enumeration type is used to indicate a <a href="https://msdn.microsoft.com/bb30bc89-d1f2-4cb3-bcfb-fb76c69dba27">system power state</a>.
+The <b>SYSTEM_POWER_STATE</b> enumeration type is used to indicate a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/system-power-states">system power state</a>.
 
 
 ## -enum-fields
@@ -61,12 +61,12 @@ Indicates an unspecified system power state.
 
 ### -field PowerSystemWorking
 
-Indicates maximum system power, which corresponds to <a href="https://msdn.microsoft.com/library/windows/hardware/ff564591">system working state S0</a>. 
+Indicates maximum system power, which corresponds to <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/system-working-state-s0">system working state S0</a>. 
 
 
 ### -field PowerSystemSleeping1
 
-Indicates a <a href="https://msdn.microsoft.com/2fd883b5-4e89-4ce9-b75a-b821348ac860">system sleeping state</a> less than <b>PowerSystemWorking</b> and greater than <b>PowerSystemSleeping2</b>, which corresponds to system power state S1. 
+Indicates a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/system-sleeping-states">system sleeping state</a> less than <b>PowerSystemWorking</b> and greater than <b>PowerSystemSleeping2</b>, which corresponds to system power state S1. 
 
 
 ### -field PowerSystemSleeping2
@@ -86,23 +86,23 @@ Indicates the lowest-powered sleeping state, which corresponds to system power s
 
 ### -field PowerSystemShutdown
 
-Indicates the system is turned off, which corresponds to <a href="https://msdn.microsoft.com/library/windows/hardware/ff564572">system shutdown state S5</a>. 
+Indicates the system is turned off, which corresponds to <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/system-shutdown-state-s5">system shutdown state S5</a>. 
 
 
 ### -field PowerSystemMaximum
 
-The number of system power state values for this enumeration type that represents actual power states. This value is the number of elements in the <b>DeviceState</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543095">DEVICE_CAPABILITIES</a> structure for a device. The other system power state values are less than this value.
+The number of system power state values for this enumeration type that represents actual power states. This value is the number of elements in the <b>DeviceState</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_device_capabilities">DEVICE_CAPABILITIES</a> structure for a device. The other system power state values are less than this value.
 
 
 ## -remarks
 
 
 
-A power state indicates the level of power consumption—and thus the extent of computing activity—by the system or by a single device. The power manager sets the power state of the system as a whole, where the system power state is indicated by one of the values of the <b>SYSTEM_POWER_STATE</b> enumeration type. Device drivers set the power state of their individual devices, where the device power state is indicated by one of the values of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554628">DEVICE_POWER_STATE</a> enumeration type.
+A power state indicates the level of power consumption—and thus the extent of computing activity—by the system or by a single device. The power manager sets the power state of the system as a whole, where the system power state is indicated by one of the values of the <b>SYSTEM_POWER_STATE</b> enumeration type. Device drivers set the power state of their individual devices, where the device power state is indicated by one of the values of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/ne-wudfddi-_device_power_state">DEVICE_POWER_STATE</a> enumeration type.
 
-For more information about system power states, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff546941">Handling System Power State Requests</a> and for more information about device power states, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554397">Managing Power for Individual Devices</a>.
+For more information about system power states, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/handling-system-power-state-requests">Handling System Power State Requests</a> and for more information about device power states, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/managing-power-for-individual-devices">Managing Power for Individual Devices</a>.
 
-For more information about power management in general, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff548108">Introduction to Power Management</a>.
+For more information about power management in general, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/introduction-to-power-management">Introduction to Power Management</a>.
 
 
 
@@ -112,7 +112,7 @@ For more information about power management in general, see <a href="https://msd
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554628">DEVICE_POWER_STATE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/ne-wudfddi-_device_power_state">DEVICE_POWER_STATE</a>
  
 
  

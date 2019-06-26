@@ -69,7 +69,7 @@ Specifies the final status of the deactivate-VC operation, which can be NDIS_STA
 Specifies the handle identifying the VC. The caller obtained this handle from its per-VC state,
      designated by the 
      <i>MiniportVcContext</i> passed as an input parameter to its 
-     <a href="https://msdn.microsoft.com/8c17cec8-d161-47cf-b886-bb8b8d957656">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_co_deactivate_vc">
      MiniportCoDeactivateVc</a> function.
 
 
@@ -91,7 +91,7 @@ A connection-oriented miniport driver must call
     <i>MiniportCoDeactivateVc</i> function previously returned NDIS_STATUS_PENDING in response to a request to
     deactivate the VC identified by the given 
     <i>NdisVcHandle</i> . The call manager, which initiated the VC deactivation with a call to 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561657">NdisCmDeactivateVc</a>, cannot notify NDIS
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndiscmdeactivatevc">NdisCmDeactivateVc</a>, cannot notify NDIS
     or its client whether transfers have been disabled on the VC until the miniport driver calls 
     <b>NdisMCoDeactivateVcComplete</b>.
 
@@ -102,7 +102,7 @@ Before it deactivates a VC, the miniport driver must complete any pending transf
 
 A call to 
     <b>NdisMCoDeactivateVcComplete</b> causes NDIS to call the 
-    <a href="https://msdn.microsoft.com/44ee0e3c-aee9-4e24-9e54-c57248b568b6">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cm_deactivate_vc_complete">
     ProtocolCmDeactivateVcComplete</a> function of the call manager that originally requested the VC
     deactivation. Following its call to 
     <b>NdisMCoDeactivateVcComplete</b>, the miniport driver can neither indicate receives nor transmit sends
@@ -116,19 +116,19 @@ A call to
 
 
 
-<a href="https://msdn.microsoft.com/8c17cec8-d161-47cf-b886-bb8b8d957656">MiniportCoDeactivateVc</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_co_deactivate_vc">MiniportCoDeactivateVc</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561649">NdisCmActivateVc</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndiscmactivatevc">NdisCmActivateVc</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561657">NdisCmDeactivateVc</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndiscmdeactivatevc">NdisCmDeactivateVc</a>
 
 
 
-<a href="https://msdn.microsoft.com/44ee0e3c-aee9-4e24-9e54-c57248b568b6">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cm_deactivate_vc_complete">
    ProtocolCmDeactivateVcComplete</a>
  
 

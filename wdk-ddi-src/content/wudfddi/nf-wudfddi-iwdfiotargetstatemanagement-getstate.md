@@ -62,7 +62,7 @@ The <b>GetState</b> method returns the current state of a <a href="https://docs.
 
 
 
-<b>GetState</b> returns a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552390">WDF_IO_TARGET_STATE</a>-typed value that identifies the state of the I/O target.
+<b>GetState</b> returns a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfiotarget/ne-wdfiotarget-_wdf_io_target_state">WDF_IO_TARGET_STATE</a>-typed value that identifies the state of the I/O target.
 
 
 
@@ -71,7 +71,7 @@ The <b>GetState</b> method returns the current state of a <a href="https://docs.
 
 
 
-For more information about <b>GetState</b>, see <a href="https://msdn.microsoft.com/37f756bf-b655-428e-b72c-f86c71f1a2db">Controlling a General I/O Target's State</a>. 
+For more information about <b>GetState</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/controlling-a-general-i-o-target-s-state">Controlling a General I/O Target's State</a>. 
 
 
 
@@ -106,11 +106,11 @@ The following code example determines whether a local I/O target is stopped.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559198">IWDFIoTargetStateManagement</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nn-wudfddi-iwdfiotargetstatemanagement">IWDFIoTargetStateManagement</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560265">IWDFRemoteTarget::GetState</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfremotetarget-getstate">IWDFRemoteTarget::GetState</a>
  
 
  

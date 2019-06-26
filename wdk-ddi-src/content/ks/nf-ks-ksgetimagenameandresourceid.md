@@ -89,7 +89,7 @@ Pointer to a location into which the function returns the value type of the spec
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563391">KsMapModuleName</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksmapmodulename">KsMapModuleName</a>
  
 
  

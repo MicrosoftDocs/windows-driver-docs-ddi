@@ -134,11 +134,11 @@ A miniport driver will call this routine to register the unit attributes with St
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451518">STOR_ADDRESS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/scsi/ns-scsi-_stor_address">STOR_ADDRESS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj206458">STOR_UNIT_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/ns-storport-_stor_unit_attributes">STOR_UNIT_ATTRIBUTES</a>
  
 
  

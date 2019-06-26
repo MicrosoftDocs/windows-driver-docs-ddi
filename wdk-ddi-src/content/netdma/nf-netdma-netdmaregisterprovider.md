@@ -75,7 +75,7 @@ A pointer to a value that is a handle that
 ### -param ProviderCharacteristics [in]
 
 A pointer to a 
-     <a href="https://msdn.microsoft.com/7ec6d449-fdc2-44d8-976b-5a1d23c76e7b">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdma/ns-netdma-_net_dma_provider_characteristics">
      NET_DMA_PROVIDER_CHARACTERISTICS</a> structure that defines the characteristics of the DMA
      provider.
 
@@ -137,16 +137,16 @@ The operation failed for unspecified reasons.
 DMA provider drivers call the 
     <b>NetDmaRegisterProvider</b> function to register a DMA provider. DMA provider drivers call 
     <b>NetDmaRegisterProvider</b> in their 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a> routine.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-driver_add_device">AddDevice</a> routine.
 
 In the 
     <b>AddDevice</b> routine, the DMA provider driver calls the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff548397">IoCreateDevice</a> function to create a functional
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iocreatedevice">IoCreateDevice</a> function to create a functional
     device object (FDO) and inserts it at the top of the device stack. The DMA provider driver then calls 
     <b>NetDmaRegisterProvider</b> to register the associated DMA provider.
 
 The DMA provider driver supplies a 
-    <a href="https://msdn.microsoft.com/7ec6d449-fdc2-44d8-976b-5a1d23c76e7b">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdma/ns-netdma-_net_dma_provider_characteristics">
     NET_DMA_PROVIDER_CHARACTERISTICS</a> structure at the 
     <i>ProviderCharacteristics</i> parameter of 
     <b>NetDmaRegisterProvider</b>. The NET_DMA_PROVIDER_CHARACTERISTICS structure specifies the
@@ -167,22 +167,22 @@ When
 
 If a computer supports MSI-X, the NetDMA interface, while in the context of the 
     <b>NetDmaRegisterProvider</b> function, calls the DMA provider driver's 
-    <a href="https://msdn.microsoft.com/a53d8798-63fa-4b16-bda2-880ca3521d03">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdma/nc-netdma-dma_channels_cpu_affinity_handler">
     ProviderSetDmaChannelCpuAffinity</a> function to specify the CPU affinity of the interrupt for each DMA
     channel.
 
 If a computer supports MSI-X, the DMA provider driver can specify interrupt affinities while handling
     the 
-    <a href="https://msdn.microsoft.com/f43dc60e-de88-4af0-ad83-3ce3a414d880">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-filter-resource-requirements">
     IRP_MN_FILTER_RESOURCE_REQUIREMENTS</a> IRP. After the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a> routine successfully returns, the Plug
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-driver_add_device">AddDevice</a> routine successfully returns, the Plug
     and Play (PnP) manager sends the IRP_MN_FILTER_RESOURCE_REQUIREMENTS IRP for the DMA provider. The DMA
     provider driver must attempt to allocate MSI-X interrupt resources according to affinity parameters that
     the NetDMA interface passed to 
     <i>ProviderSetDmaChannelCpuAffinity</i>.
 
 To deregister a DMA provider, a DMA provider driver calls the 
-    <a href="https://msdn.microsoft.com/8832adbc-c2ab-4742-94a0-4e33d03eaaf1">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdma/nf-netdma-netdmaderegisterprovider">
     NetDmaDeregisterProvider</a> function.
 
 
@@ -193,29 +193,29 @@ To deregister a DMA provider, a DMA provider driver calls the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-driver_add_device">AddDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/f43dc60e-de88-4af0-ad83-3ce3a414d880">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-filter-resource-requirements">
    IRP_MN_FILTER_RESOURCE_REQUIREMENTS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548397">IoCreateDevice</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iocreatedevice">IoCreateDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/7ec6d449-fdc2-44d8-976b-5a1d23c76e7b">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdma/ns-netdma-_net_dma_provider_characteristics">
    NET_DMA_PROVIDER_CHARACTERISTICS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568328">NetDmaDeregisterProvider</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdma/nf-netdma-netdmaderegisterprovider">NetDmaDeregisterProvider</a>
 
 
 
-<a href="https://msdn.microsoft.com/a53d8798-63fa-4b16-bda2-880ca3521d03">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdma/nc-netdma-dma_channels_cpu_affinity_handler">
    ProviderSetDmaChannelCpuAffinity</a>
  
 

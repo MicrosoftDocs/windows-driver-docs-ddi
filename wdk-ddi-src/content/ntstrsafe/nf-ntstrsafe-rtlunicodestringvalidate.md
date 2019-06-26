@@ -105,7 +105,7 @@ This <i>error</i> status means that the function received an invalid input param
 <li><i>SourceString</i>-><b>MaximumLength</b> is greater than NTSTRSAFE_UNICODE_STRING_MAX_CCH * sizeof(WCHAR).</li>
 <li><i>SourceString</i>-><b>Buffer</b> equals <b>NULL</b> but <i>SourceString</i>-><b>Length</b> or <i>SourceString</i>-><b>MaximumLength</b> does not equal zero.</li>
 </ul>
-For information about how to test NTSTATUS values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565436">Using NTSTATUS Values</a>.
+For information about how to test NTSTATUS values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-ntstatus-values">Using NTSTATUS Values</a>.
 
 
 
@@ -114,9 +114,9 @@ For information about how to test NTSTATUS values, see <a href="https://msdn.mic
 
 
 
-The <i>SourceString</i> pointer cannot be <b>NULL</b>. If you need to specify a <b>NULL</b> pointer value, use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562982">RtlUnicodeStringValidateEx</a> function.
+The <i>SourceString</i> pointer cannot be <b>NULL</b>. If you need to specify a <b>NULL</b> pointer value, use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntstrsafe/nf-ntstrsafe-rtlunicodestringvalidateex">RtlUnicodeStringValidateEx</a> function.
 
-For more information about the safe string functions, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565508">Using Safe String Functions</a>. 
+For more information about the safe string functions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-safe-string-functions">Using Safe String Functions</a>. 
 
 
 
@@ -126,7 +126,7 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562982">RtlUnicodeStringValidateEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntstrsafe/nf-ntstrsafe-rtlunicodestringvalidateex">RtlUnicodeStringValidateEx</a>
 
 
 

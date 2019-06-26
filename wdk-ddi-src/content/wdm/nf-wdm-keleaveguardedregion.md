@@ -71,7 +71,7 @@ None
 
 Guarded regions can be nested, so APCs are only reenabled once the thread exists the outermost guarded region.
 
-For more information about guarded regions, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff542925">Critical Regions and Guarded Regions</a>. 
+For more information about guarded regions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/critical-regions-and-guarded-regions">Critical Regions and Guarded Regions</a>. 
 
 
 
@@ -81,7 +81,7 @@ For more information about guarded regions, see <a href="https://msdn.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552028">KeEnterGuardedRegion</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-keenterguardedregion">KeEnterGuardedRegion</a>
  
 
  

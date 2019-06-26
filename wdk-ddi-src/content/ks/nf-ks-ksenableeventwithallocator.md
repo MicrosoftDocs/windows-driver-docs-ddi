@@ -99,7 +99,7 @@ Optionally contains the size of each KSEVENT_ITEM structure in each list of even
 
 #### - EventsFlags [in, optional]
 
-Specifies <a href="https://msdn.microsoft.com/library/windows/hardware/ff561784">KSEVENTS_LOCKTYPE</a> flags specifying the type of exclusion lock to be used in accessing the event list, if any. If no flag is set, then no lock is taken. If a handler is specified already, this parameter is ignored.
+Specifies <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ne-ks-ksevents_locktype">KSEVENTS_LOCKTYPE</a> flags specifying the type of exclusion lock to be used in accessing the event list, if any. If no flag is set, then no lock is taken. If a handler is specified already, this parameter is ignored.
 
 
 ## -returns

@@ -56,32 +56,32 @@ Contains pointers to wireless display (Miracast) functions that are implemented 
 
 ### -field Size
 
-The size, in bytes, of the <b>MIRACAST_DRIVER_INTERFACE</b> structure that the driver returns when the operating system calls the <a href="https://msdn.microsoft.com/a8833f8c-7e3f-422c-922e-e75476358ee9">QueryMiracastDriverInterface</a> function.
+The size, in bytes, of the <b>MIRACAST_DRIVER_INTERFACE</b> structure that the driver returns when the operating system calls the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdispumdddi/nc-netdispumdddi-query_miracast_driver_interface">QueryMiracastDriverInterface</a> function.
 
 
 ### -field CreateMiracastContext
 
-A pointer to the driver's  <a href="https://msdn.microsoft.com/3b10ddd9-a48d-4f96-b35e-db017d1f9583">CreateMiracastContext</a> function.
+A pointer to the driver's  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdispumdddi/nc-netdispumdddi-pfn_create_miracast_context">CreateMiracastContext</a> function.
 
 
 ### -field DestroyMiracastContext
 
-A pointer to the driver's  <a href="https://msdn.microsoft.com/1b155e15-1e4e-45bb-98cc-f1c19923ed2c">DestroyMiracastContext</a> function.
+A pointer to the driver's  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdispumdddi/nc-netdispumdddi-pfn_destroy_miracast_context">DestroyMiracastContext</a> function.
 
 
 ### -field StartMiracastSession
 
-A pointer to the driver's  <a href="https://msdn.microsoft.com/2778d9d0-7f97-416f-a5ae-3754b17e8a29">StartMiracastSession</a> function.
+A pointer to the driver's  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdispumdddi/nc-netdispumdddi-pfn_start_miracast_session">StartMiracastSession</a> function.
 
 
 ### -field StopMiracastSession
 
-A pointer to the driver's   <a href="https://msdn.microsoft.com/ab9ad8ee-9390-41a4-9a69-2e98579b2b77">StopMiracastSession</a> function.
+A pointer to the driver's   <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdispumdddi/nc-netdispumdddi-pfn_stop_miracast_session">StopMiracastSession</a> function.
 
 
 ### -field HandleKernelModeMessage
 
-A pointer to the driver's  <a href="https://msdn.microsoft.com/9DE4F3B0-915A-4C66-85F8-AE248B8471B5">HandleKernelModeMessage</a> function.
+A pointer to the driver's  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdispumdddi/nc-netdispumdddi-pfn_handle_kmd_message">HandleKernelModeMessage</a> function.
 
 
 ## -see-also
@@ -89,27 +89,27 @@ A pointer to the driver's  <a href="https://msdn.microsoft.com/9DE4F3B0-915A-4C6
 
 
 
-<a href="https://msdn.microsoft.com/3b10ddd9-a48d-4f96-b35e-db017d1f9583">CreateMiracastContext</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdispumdddi/nc-netdispumdddi-pfn_create_miracast_context">CreateMiracastContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/1b155e15-1e4e-45bb-98cc-f1c19923ed2c">DestroyMiracastContext</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdispumdddi/nc-netdispumdddi-pfn_destroy_miracast_context">DestroyMiracastContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/9DE4F3B0-915A-4C66-85F8-AE248B8471B5">HandleKernelModeMessage</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdispumdddi/nc-netdispumdddi-pfn_handle_kmd_message">HandleKernelModeMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/a8833f8c-7e3f-422c-922e-e75476358ee9">QueryMiracastDriverInterface</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdispumdddi/nc-netdispumdddi-query_miracast_driver_interface">QueryMiracastDriverInterface</a>
 
 
 
-<a href="https://msdn.microsoft.com/2778d9d0-7f97-416f-a5ae-3754b17e8a29">StartMiracastSession</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdispumdddi/nc-netdispumdddi-pfn_start_miracast_session">StartMiracastSession</a>
 
 
 
-<a href="https://msdn.microsoft.com/ab9ad8ee-9390-41a4-9a69-2e98579b2b77">StopMiracastSession</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdispumdddi/nc-netdispumdddi-pfn_stop_miracast_session">StopMiracastSession</a>
  
 
  

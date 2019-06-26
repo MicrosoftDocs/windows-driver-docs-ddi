@@ -75,7 +75,7 @@ Reserved for system use.
 
 This structure is available in Windows XP and later.
 
-A VP_SCATTER_GATHER_ELEMENT structure is one element of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff570572">VP_SCATTER_GATHER_LIST</a> structure's array member.
+A VP_SCATTER_GATHER_ELEMENT structure is one element of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/ns-video-_vp_scatter_gather_list">VP_SCATTER_GATHER_LIST</a> structure's array member.
 
 
 
@@ -85,7 +85,7 @@ A VP_SCATTER_GATHER_ELEMENT structure is one element of the <a href="https://msd
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570572">VP_SCATTER_GATHER_LIST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/ns-video-_vp_scatter_gather_list">VP_SCATTER_GATHER_LIST</a>
  
 
  

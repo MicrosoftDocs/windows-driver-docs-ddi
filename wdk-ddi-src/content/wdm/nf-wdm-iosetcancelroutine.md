@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <b>IoSetCancelRoutine</b> routine sets up a driver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/hh406716">Cancel</a> routine to be called if a given IRP is canceled. 
+The <b>IoSetCancelRoutine</b> routine sets up a driver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nf-printerextension-iprinterextensionrequest-cancel">Cancel</a> routine to be called if a given IRP is canceled. 
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Pointer to the IRP being put into or removed from a cancelable state.
 
 ### -param CancelRoutine [in]
 
-Specifies the entry point of the caller-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/hh406716">Cancel</a> routine to be called if the specified IRP is canceled or is <b>NULL</b> if the given IRP is being removed from the cancelable state. This routine is declared as follows:
+Specifies the entry point of the caller-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nf-printerextension-iprinterextensionrequest-cancel">Cancel</a> routine to be called if the specified IRP is canceled or is <b>NULL</b> if the given IRP is being removed from the cancelable state. This routine is declared as follows:
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -93,7 +93,7 @@ Specifies the entry point of the caller-supplied <a href="https://msdn.microsoft
 
 This routine can disable the <i>Cancel</i> routine currently set in an IRP.
 
-A driver must hold the system cancel spin lock when calling this routine if the driver uses the I/O manager-supplied device queue in the device object. The driver runs at IRQL = DISPATCH_LEVEL after calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff548196">IoAcquireCancelSpinLock</a> until it releases the cancel spin lock with <a href="https://msdn.microsoft.com/library/windows/hardware/ff549550">IoReleaseCancelSpinLock</a>.
+A driver must hold the system cancel spin lock when calling this routine if the driver uses the I/O manager-supplied device queue in the device object. The driver runs at IRQL = DISPATCH_LEVEL after calling <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff548196(v=vs.85)">IoAcquireCancelSpinLock</a> until it releases the cancel spin lock with <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff549550(v=vs.85)">IoReleaseCancelSpinLock</a>.
 
 If the driver manages its own queues of IRPs, then the driver need not hold the cancel spin lock when calling this routine. <b>IoSetCancelRoutine</b> uses an interlocked exchange intrinsic to set the address of the <i>Cancel</i> routine as an atomic operation. Reduced usage of the cancel spin lock can improve driver performance and overall system performance.
 
@@ -107,11 +107,11 @@ Driver <i>Cancel</i> routines are called at IRQL = DISPATCH_LEVEL with the cance
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548196">IoAcquireCancelSpinLock</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff548196(v=vs.85)">IoAcquireCancelSpinLock</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549550">IoReleaseCancelSpinLock</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff549550(v=vs.85)">IoReleaseCancelSpinLock</a>
  
 
  

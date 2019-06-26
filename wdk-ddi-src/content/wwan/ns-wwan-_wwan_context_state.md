@@ -228,15 +228,15 @@ In case of response to the NDIS_WWAN_SET_CONTEXT_STATE, use this member to provi
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567906">NDIS_WWAN_CONTEXT_STATE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndiswwan/ns-ndiswwan-_ndis_wwan_context_state">NDIS_WWAN_CONTEXT_STATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571197">WWAN_ACTIVATION_STATE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ne-wwan-_wwan_activation_state">WWAN_ACTIVATION_STATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571256">WWAN_VOICE_CALL_STATE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ne-wwan-_wwan_voice_call_state">WWAN_VOICE_CALL_STATE</a>
  
 
  

@@ -46,7 +46,7 @@ req.typenames: MSR_ERROR_EVENT, *PMSR_ERROR_EVENT
 ## -description
 
 
-This structure contains the error data that is passed to the <a href="https://msdn.microsoft.com/library/windows/hardware/dn772151">MagneticStripeReaderErrorOccured</a> event.
+This structure contains the error data that is passed to the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/previsioning-framework/dn772151(v=vs.85)">MagneticStripeReaderErrorOccured</a> event.
 
 
 ## -struct-fields

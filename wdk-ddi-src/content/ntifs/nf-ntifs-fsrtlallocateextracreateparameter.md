@@ -50,7 +50,7 @@ The **FsRtlAllocateExtraCreateParameter** routine allocates memory for a user-de
 
 ### -param EcpType [in]
 
-A pointer to a user-defined GUID that indicates the type of the ECP context structure.  See [Using GUIDs in Drivers](https://msdn.microsoft.com/library/windows/hardware/ff565392) for more information.
+A pointer to a user-defined GUID that indicates the type of the ECP context structure.  See [Using GUIDs in Drivers](https://docs.microsoft.com/windows-hardware/drivers/kernel/using-guids-in-drivers) for more information.
 
 ### -param SizeOfContext [in]
 
@@ -72,7 +72,7 @@ Optional pointer to a filter-defined cleanup callback routine of type [PFSRTL_EX
 
 ### -param PoolTag [in]
 
-Specifies the pool tag for the allocated memory. For more information, see the *Tag* parameter of [ExAllocatePoolWithTag](https://msdn.microsoft.com/library/windows/hardware/ff544520).
+Specifies the pool tag for the allocated memory. For more information, see the *Tag* parameter of [ExAllocatePoolWithTag](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-exallocatepoolwithtag).
 
 ### -param EcpContext [out]
 
@@ -89,32 +89,32 @@ Receives a pointer to the allocated ECP context structure.  If the routine faile
 
 ## -remarks
 
-By default, the **FsRtlAllocateExtraCreateParameter** routine allocates paged memory pool for a user-defined ECP context structure.  If the FSRTL_ALLOCATE_ECP_FLAG_NONPAGED_POOL bitmask is used as described in the *Flags* parameter, a non-paged memory pool is allocated.  After this pool has been allocated and the ECP context structure has been initialized, the [FltInsertExtraCreateParameter](https://msdn.microsoft.com/library/windows/hardware/ff543305) routine is used to insert the ECP context structure (ECP list element) into an ECP list structure ([ECP_LIST](https://msdn.microsoft.com/library/windows/hardware/ff540148)).
+By default, the **FsRtlAllocateExtraCreateParameter** routine allocates paged memory pool for a user-defined ECP context structure.  If the FSRTL_ALLOCATE_ECP_FLAG_NONPAGED_POOL bitmask is used as described in the *Flags* parameter, a non-paged memory pool is allocated.  After this pool has been allocated and the ECP context structure has been initialized, the [FltInsertExtraCreateParameter](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltinsertextracreateparameter) routine is used to insert the ECP context structure (ECP list element) into an ECP list structure ([ECP_LIST](https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff540148(v=vs.85))).
 
-If the caller allocates ECP_LIST and one or more ECPs are used in a call to [IoCreateFileEx](https://msdn.microsoft.com/library/windows/hardware/ff548283), the previous description is correct. In this case, the system does not free any of the ECPs, so the caller can make multiple calls to **IoCreateFileEx** with the same ECP set. However, if a file system or file system filter driver attaches an ECP to an existing or newly-created ECP_LIST while processing an IRP_MJ_CREATE request, this ECP is automatically cleaned up when the IRP completes. As a result, a filter driver does not have to clean up ECPs that are added dynamically. This allows a filter driver's ECP to be properly propagated across the reparse points--a process that can require multiple IRP_MJ_CREATE requests to be generated.
+If the caller allocates ECP_LIST and one or more ECPs are used in a call to [IoCreateFileEx](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-iocreatefileex), the previous description is correct. In this case, the system does not free any of the ECPs, so the caller can make multiple calls to **IoCreateFileEx** with the same ECP set. However, if a file system or file system filter driver attaches an ECP to an existing or newly-created ECP_LIST while processing an IRP_MJ_CREATE request, this ECP is automatically cleaned up when the IRP completes. As a result, a filter driver does not have to clean up ECPs that are added dynamically. This allows a filter driver's ECP to be properly propagated across the reparse points--a process that can require multiple IRP_MJ_CREATE requests to be generated.
 
 ## -see-also
 
-[ECP_LIST](https://msdn.microsoft.com/library/windows/hardware/ff540148)
+[ECP_LIST](https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff540148(v=vs.85))
 
-[FltAllocateExtraCreateParameterFromLookasideList](https://msdn.microsoft.com/library/windows/hardware/ff541734)
+[FltAllocateExtraCreateParameterFromLookasideList](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltallocateextracreateparameterfromlookasidelist)
 
-[FltAllocateExtraCreateParameterList](https://msdn.microsoft.com/library/windows/hardware/ff541741)
+[FltAllocateExtraCreateParameterList](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltallocateextracreateparameterlist)
 
-[FltCreateFileEx2](https://msdn.microsoft.com/library/windows/hardware/ff541939)
+[FltCreateFileEx2](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltcreatefileex2)
 
-[FltFreeExtraCreateParameter](https://msdn.microsoft.com/library/windows/hardware/ff542957)
+[FltFreeExtraCreateParameter](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltfreeextracreateparameter)
 
-[FltFreeExtraCreateParameterList](https://msdn.microsoft.com/library/windows/hardware/ff542964)
+[FltFreeExtraCreateParameterList](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltfreeextracreateparameterlist)
 
-[FltGetEcpListFromCallbackData](https://msdn.microsoft.com/library/windows/hardware/ff543016)
+[FltGetEcpListFromCallbackData](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltgetecplistfromcallbackdata)
 
-[FltInsertExtraCreateParameter](https://msdn.microsoft.com/library/windows/hardware/ff543305)
+[FltInsertExtraCreateParameter](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltinsertextracreateparameter)
 
-[FltRemoveExtraCreateParameter](https://msdn.microsoft.com/library/windows/hardware/ff544339)
+[FltRemoveExtraCreateParameter](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltremoveextracreateparameter)
 
-[FltSetEcpListIntoCallbackData](https://msdn.microsoft.com/library/windows/hardware/ff544510)
+[FltSetEcpListIntoCallbackData](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltsetecplistintocallbackdata)
 
-[IoCreateFileEx](https://msdn.microsoft.com/library/windows/hardware/ff548283)
+[IoCreateFileEx](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-iocreatefileex)
 
 [PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK](https://msdn.microsoft.com/library/windows/hardware/ff551124)

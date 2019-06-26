@@ -50,7 +50,7 @@ The <b>IOCTL_SERIAL_SET_RTS</b> request sets RTS (request to send).
 
 If a handshake flow control of the device is configured to automatically use RTS, a client cannot clear or set RTS.
 
-A client can use an <a href="https://msdn.microsoft.com/library/windows/hardware/ff546545">IOCTL_SERIAL_CLR_RTS</a> request to clear RTS.
+A client can use an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddser/ni-ntddser-ioctl_serial_clr_rts">IOCTL_SERIAL_CLR_RTS</a> request to clear RTS.
 
 
 ## -ioctlparameters
@@ -108,7 +108,7 @@ The <b>Status</b> member is set to one of the <a href="https://docs.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546545">IOCTL_SERIAL_CLR_RTS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddser/ni-ntddser-ioctl_serial_clr_rts">IOCTL_SERIAL_CLR_RTS</a>
  
 
  

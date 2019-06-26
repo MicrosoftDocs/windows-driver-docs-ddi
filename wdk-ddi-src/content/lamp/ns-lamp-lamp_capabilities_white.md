@@ -56,5 +56,5 @@ This structure is the I/O parameter type of <b>IOCTL_LAMP_{GET|SET}_INTENSITY_WH
 
 ### -field IsLightIntensityAdjustable
 
-If this field evaluates <b>TRUE</b>, a client can get/set light intensity by calling <a href="https://msdn.microsoft.com/9B9FD4A1-F005-4CB8-80E3-D8AA74F6B9FB">IOCTL_LAMP_GET_INTENSITY_WHITE</a>  and <a href="https://msdn.microsoft.com/library/windows/hardware/dn925078">IOCTL_LAMP_SET_INTENSITY_WHITE</a>.
+If this field evaluates <b>TRUE</b>, a client can get/set light intensity by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/lamp/ni-lamp-ioctl_lamp_get_intensity_white">IOCTL_LAMP_GET_INTENSITY_WHITE</a>  and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/lamp/ni-lamp-ioctl_lamp_set_intensity_white">IOCTL_LAMP_SET_INTENSITY_WHITE</a>.
 

@@ -63,8 +63,8 @@ The IOCTL_BTH_SDP_REMOVE_RECORD request removes a local SDP record that the prof
 The 
       <b>AssociatedIrp.SystemBuffer</b> member contains an SDP connection handle from which to remove the SDP
       record. This must be a handle returned from a call to 
-      <a href="https://msdn.microsoft.com/library/windows/hardware/ff536693">IOCTL_BTH_SDP_SUBMIT_RECORD</a> or 
-      <a href="https://msdn.microsoft.com/774d1bda-2d9b-4ab4-97cf-b358471d8716">
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthioctl/ni-bthioctl-ioctl_bth_sdp_submit_record">IOCTL_BTH_SDP_SUBMIT_RECORD</a> or 
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthioctl/ni-bthioctl-ioctl_bth_sdp_submit_record_with_info">
       IOCTL_BTH_SDP_SUBMIT_RECORD_WITH_INFO</a>. Handles from other sources are invalid in this
       context.
 
@@ -176,11 +176,11 @@ If the record to be removed was published using IOCTL_BTH_SDP_SUBMIT_RECORD_WITH
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536693">IOCTL_BTH_SDP_SUBMIT_RECORD</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthioctl/ni-bthioctl-ioctl_bth_sdp_submit_record">IOCTL_BTH_SDP_SUBMIT_RECORD</a>
 
 
 
-<a href="https://msdn.microsoft.com/774d1bda-2d9b-4ab4-97cf-b358471d8716">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthioctl/ni-bthioctl-ioctl_bth_sdp_submit_record_with_info">
    IOCTL_BTH_SDP_SUBMIT_RECORD_WITH_INFO</a>
  
 

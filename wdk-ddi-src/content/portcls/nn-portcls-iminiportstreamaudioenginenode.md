@@ -51,7 +51,7 @@ This interface allows a miniport driver to use KS properties that access the aud
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMiniportStreamAudioEngineNode</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IMiniportStreamAudioEngineNode</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMiniportStreamAudioEngineNode</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IMiniportStreamAudioEngineNode</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -66,7 +66,7 @@ The <b>IMiniportStreamAudioEngineNode</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265091">GetLfxState</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iminiportstreamaudioenginenode-getlfxstate">GetLfxState</a>
 </td>
 <td align="left" width="63%">
 Gets the state of the local effects (LFX) node that is in the path of the audio stream.
@@ -75,7 +75,7 @@ Gets the state of the local effects (LFX) node that is in the path of the audio 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265092">GetStreamAttributeSteppings</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iminiportstreamaudioenginenode-getstreamattributesteppings">GetStreamAttributeSteppings</a>
 </td>
 <td align="left" width="63%">
 Gets the allowed stepping value for the audio stream attribute.
@@ -84,7 +84,7 @@ Gets the allowed stepping value for the audio stream attribute.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265093">GetStreamChannelCount</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iminiportstreamaudioenginenode-getstreamchannelcount">GetStreamChannelCount</a>
 </td>
 <td align="left" width="63%">
 Gets a count of the number of channels available for the stream.
@@ -93,7 +93,7 @@ Gets a count of the number of channels available for the stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265094">GetStreamChannelMute</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iminiportstreamaudioenginenode-getstreamchannelmute">GetStreamChannelMute</a>
 </td>
 <td align="left" width="63%">
 Gets the state of the Mute node in the path of the audio stream.
@@ -102,7 +102,7 @@ Gets the state of the Mute node in the path of the audio stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265095">GetStreamChannelPeakMeter</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iminiportstreamaudioenginenode-getstreamchannelpeakmeter">GetStreamChannelPeakMeter</a>
 </td>
 <td align="left" width="63%">
 Gets the value of the PeakMeter node in the path of the audio stream.
@@ -111,7 +111,7 @@ Gets the value of the PeakMeter node in the path of the audio stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265096">GetStreamChannelVolume</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iminiportstreamaudioenginenode-getstreamchannelvolume">GetStreamChannelVolume</a>
 </td>
 <td align="left" width="63%">
 Gets the current volume level that is applied to the audio stream.
@@ -120,7 +120,7 @@ Gets the current volume level that is applied to the audio stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265097">GetStreamLinearBufferPosition</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iminiportstreamaudioenginenode-getstreamlinearbufferposition">GetStreamLinearBufferPosition</a>
 </td>
 <td align="left" width="63%">
 	Gets the number of bytes that the DMA has fetched from the audio buffer since the beginning of the stream.
@@ -129,7 +129,7 @@ Gets the current volume level that is applied to the audio stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265098">GetStreamPresentationPosition</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iminiportstreamaudioenginenode-getstreampresentationposition">GetStreamPresentationPosition</a>
 </td>
 <td align="left" width="63%">
 Gets the current cursor position in the audio data stream that is being rendered to the endpoint.
@@ -138,7 +138,7 @@ Gets the current cursor position in the audio data stream that is being rendered
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265099">SetLfxState</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iminiportstreamaudioenginenode-setlfxstate">SetLfxState</a>
 </td>
 <td align="left" width="63%">
 Sets the state of the local effects (LFX) node that is in the path of the audio stream.
@@ -147,7 +147,7 @@ Sets the state of the local effects (LFX) node that is in the path of the audio 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265100">SetStreamChannelMute</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iminiportstreamaudioenginenode-setstreamchannelmute">SetStreamChannelMute</a>
 </td>
 <td align="left" width="63%">
 Sets the state of the Mute node in the path of the audio stream.
@@ -156,7 +156,7 @@ Sets the state of the Mute node in the path of the audio stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265101">SetStreamChannelVolume</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iminiportstreamaudioenginenode-setstreamchannelvolume">SetStreamChannelVolume</a>
 </td>
 <td align="left" width="63%">
 Sets the volume level to be applied to the audio stream.
@@ -165,7 +165,7 @@ Sets the volume level to be applied to the audio stream.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265102">SetStreamCurrentWritePosition</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iminiportstreamaudioenginenode-setstreamcurrentwriteposition">SetStreamCurrentWritePosition</a>
 </td>
 <td align="left" width="63%">
 Sets the current cursor position in the audio data stream that is being captured from the endpoint.
@@ -174,7 +174,7 @@ Sets the current cursor position in the audio data stream that is being captured
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265103">SetStreamLoopbackProtection</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iminiportstreamaudioenginenode-setstreamloopbackprotection">SetStreamLoopbackProtection</a>
 </td>
 <td align="left" width="63%">
 Sets the loopback protection status of the audio engine node.

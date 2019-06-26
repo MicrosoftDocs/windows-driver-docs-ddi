@@ -58,7 +58,7 @@ The Microsoft Win32 routine <b>DeleteVolumeMountPoint</b> sends this IOCTL to th
 
 ### -input-buffer
 
-The mount manager client initializes the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562295">MOUNTMGR_VOLUME_MOUNT_POINT</a> structure, defined in <i>Mountmgr.h</i>, at the beginning of the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>.
+The mount manager client initializes the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/mountmgr/ns-mountmgr-_mountmgr_volume_mount_point">MOUNTMGR_VOLUME_MOUNT_POINT</a> structure, defined in <i>Mountmgr.h</i>, at the beginning of the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>.
 
 
 ### -input-buffer-length
@@ -106,7 +106,7 @@ If <b>InputBufferLength</b> is less than <b>sizeof</b>(MOUNTMGR_VOLUME_MOUNT_POI
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562295">MOUNTMGR_VOLUME_MOUNT_POINT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/mountmgr/ns-mountmgr-_mountmgr_volume_mount_point">MOUNTMGR_VOLUME_MOUNT_POINT</a>
  
 
  

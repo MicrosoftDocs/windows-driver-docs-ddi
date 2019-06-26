@@ -56,7 +56,7 @@ AVStream calls a minidriver's <i>AVStrMiniCancelCallback</i> routine when the IR
 
 ### -param StreamPointer [in]
 
-A pointer to the clone <a href="https://msdn.microsoft.com/library/windows/hardware/ff567139">KSSTREAM_POINTER</a> that is associated with the IRP that was canceled. <i>StreamPointer</i> was created by a call to <a href="https://msdn.microsoft.com/library/windows/hardware/dn892389">KsStreamPointerClone</a>.
+A pointer to the clone <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksstream_pointer">KSSTREAM_POINTER</a> that is associated with the IRP that was canceled. <i>StreamPointer</i> was created by a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/ks-ksstreampointerclone">KsStreamPointerClone</a>.
 
 
 ## -returns
@@ -72,13 +72,13 @@ None
 
 
 
-The minidriver specifies this routine's address in the <i>CancelCallback</i> parameter of <a href="https://msdn.microsoft.com/library/windows/hardware/dn892389">KsStreamPointerClone</a>.
+The minidriver specifies this routine's address in the <i>CancelCallback</i> parameter of <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/ks-ksstreampointerclone">KsStreamPointerClone</a>.
 
 In <i>AVStrMiniCancelCallback</i>, the minidriver should set all references to the clone pointer to <b>NULL</b>.
 
 In addition, the minidriver should remove any context information that is related to the clone pointer, and notify hardware about the cancellation.
 
-Finally, the minidriver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff567130">KsStreamPointerDelete</a> to delete the clone and the context associated with it. If the minidriver does not delete the clone, the IRP will retain a reference count and not complete, possibly causing related applications to crash.
+Finally, the minidriver must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksstreampointerdelete">KsStreamPointerDelete</a> to delete the clone and the context associated with it. If the minidriver does not delete the clone, the IRP will retain a reference count and not complete, possibly causing related applications to crash.
 
 <i>AVStrMiniCancelCallback</i> is called with the queue's spin lock held, hence at DISPATCH_LEVEL. Accordingly, the callback routine cannot perform queue manipulation or call functions that acquire a mutex.
 
@@ -90,15 +90,15 @@ Finally, the minidriver must call <a href="https://msdn.microsoft.com/library/wi
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567139">KSSTREAM_POINTER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksstream_pointer">KSSTREAM_POINTER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn892389">KsStreamPointerClone</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/ks-ksstreampointerclone">KsStreamPointerClone</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567130">KsStreamPointerDelete</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksstreampointerdelete">KsStreamPointerDelete</a>
  
 
  

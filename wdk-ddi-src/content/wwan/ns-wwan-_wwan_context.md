@@ -112,20 +112,20 @@ Authentication type to use for the PDP activation.
 
 
 
-<a href="https://msdn.microsoft.com/c0f77100-ffd0-4fef-80b0-fc399ef96aee">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndiswwan/ns-ndiswwan-_ndis_wwan_set_provisioned_context">
    NDIS_WWAN_SET_PROVISIONED_CONTEXT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571198">WWAN_AUTH_PROTOCOL</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ne-wwan-_wwan_auth_protocol">WWAN_AUTH_PROTOCOL</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571200">WWAN_COMPRESSION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ne-wwan-_wwan_compression">WWAN_COMPRESSION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571203">WWAN_CONTEXT_TYPE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ne-wwan-_wwan_context_type">WWAN_CONTEXT_TYPE</a>
  
 
  

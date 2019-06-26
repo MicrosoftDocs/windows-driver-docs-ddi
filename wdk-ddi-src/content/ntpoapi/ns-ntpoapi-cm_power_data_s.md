@@ -61,7 +61,7 @@ The size, in bytes, of this structure.
 
 ### -field PD_MostRecentPowerState
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff554628">DEVICE_POWER_STATE</a> value representing the device's most recent power state.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/ne-wudfddi-_device_power_state">DEVICE_POWER_STATE</a> value representing the device's most recent power state.
 
 
 ### -field PD_Capabilities
@@ -89,7 +89,7 @@ PDCAP_WARM_EJECT_SUPPORTED
 
 ### -field PD_D1Latency
 
-The device's latency when returning the D0 state from the D1 state. For more information, see the <b>D1Latency</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff543095">DEVICE_CAPABILITIES</a>.
+The device's latency when returning the D0 state from the D1 state. For more information, see the <b>D1Latency</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_device_capabilities">DEVICE_CAPABILITIES</a>.
 
 
 ### -field PD_D2Latency
@@ -104,7 +104,7 @@ The device's latency when returning the D0 state from the D3 state. For more inf
 
 ### -field PD_PowerStateMapping
 
-An array of <b>DEVICE_POWER_STATE</b> values representing the maximum device power state achievable for each system power state. For more information, see the <b>DeviceState</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff543095">DEVICE_CAPABILITIES</a>.
+An array of <b>DEVICE_POWER_STATE</b> values representing the maximum device power state achievable for each system power state. For more information, see the <b>DeviceState</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_device_capabilities">DEVICE_CAPABILITIES</a>.
 
 
 ### -field PD_DeepestSystemWake
@@ -117,15 +117,15 @@ Specifies the least-powered system state from which the device can wake the syst
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543095">DEVICE_CAPABILITIES</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_device_capabilities">DEVICE_CAPABILITIES</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554628">DEVICE_POWER_STATE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/ne-wudfddi-_device_power_state">DEVICE_POWER_STATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551967">SetupDiGetDeviceRegistryProperty</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetdeviceregistrypropertya">SetupDiGetDeviceRegistryProperty</a>
  
 
  

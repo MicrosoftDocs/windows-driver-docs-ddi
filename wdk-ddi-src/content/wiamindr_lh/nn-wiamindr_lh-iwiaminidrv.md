@@ -48,12 +48,12 @@ req.typenames:
 
 The <b>IWiaMiniDrv</b> interface provides the methods that are the entry points for all communication between the minidriver and the WIA service. These methods allow the WIA service to control the device.
 
-A WIA minidriver writer must implement each method in this interface, although the implementations are not required to do anything more than return E_NOTIMPL (for <a href="https://msdn.microsoft.com/library/windows/hardware/ff543958">IWiaMiniDrv::drvAnalyzeItem</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff543982">IWiaMiniDrv::drvGetDeviceErrorStr</a>) or S_OK (for the other methods in this interface).
+A WIA minidriver writer must implement each method in this interface, although the implementations are not required to do anything more than return E_NOTIMPL (for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvanalyzeitem">IWiaMiniDrv::drvAnalyzeItem</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvgetdeviceerrorstr">IWiaMiniDrv::drvGetDeviceErrorStr</a>) or S_OK (for the other methods in this interface).
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWiaMiniDrv</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWiaMiniDrv</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWiaMiniDrv</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWiaMiniDrv</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -68,7 +68,7 @@ The <b>IWiaMiniDrv</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ab49643b-ab77-49ea-9a3b-e3a184cd29d0">drvAcquireItemData</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvacquireitemdata">drvAcquireItemData</a>
 </td>
 <td align="left" width="63%">
 The <b>IWiaMiniDrv::drvAcquireItemData</b> method is called by the WIA service to transfer data from the device to an application.
@@ -77,7 +77,7 @@ The <b>IWiaMiniDrv::drvAcquireItemData</b> method is called by the WIA service t
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e742f898-e663-431d-870e-bb0fe7e89b5a">drvAnalyzeItem</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvanalyzeitem">drvAnalyzeItem</a>
 </td>
 <td align="left" width="63%">
 The <b>IWiaMiniDrv::drvAnalyzeItem</b> method inspects an item, and creates subitems, if necessary.
@@ -86,7 +86,7 @@ The <b>IWiaMiniDrv::drvAnalyzeItem</b> method inspects an item, and creates subi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/616a0edd-d769-411d-bc94-57ba18a00c4d">drvDeleteItem</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvdeleteitem">drvDeleteItem</a>
 </td>
 <td align="left" width="63%">
 The <b>IWiaMiniDrv::drvDeleteItem</b> method deletes the current driver item.
@@ -95,7 +95,7 @@ The <b>IWiaMiniDrv::drvDeleteItem</b> method deletes the current driver item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e17c81a6-8c4e-41f0-bd98-f7a9a0f20893">drvDeviceCommand</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvdevicecommand">drvDeviceCommand</a>
 </td>
 <td align="left" width="63%">
 The <b>IWiaMiniDrv::drvDeviceCommand</b> method issues a command to a WIA device.
@@ -104,7 +104,7 @@ The <b>IWiaMiniDrv::drvDeviceCommand</b> method issues a command to a WIA device
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bc4f751f-d92a-47e6-8cbe-0a587292b160">drvFreeDrvItemContext</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvfreedrvitemcontext">drvFreeDrvItemContext</a>
 </td>
 <td align="left" width="63%">
 The <b>IWiaMiniDrv::drvFreeDrvItemContext</b> method frees a device-specific context.
@@ -113,7 +113,7 @@ The <b>IWiaMiniDrv::drvFreeDrvItemContext</b> method frees a device-specific con
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/946a6ea7-5818-4959-adf2-3568c1b64b1a">drvGetCapabilities</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvgetcapabilities">drvGetCapabilities</a>
 </td>
 <td align="left" width="63%">
 The <b>IWiaMiniDrv::drvGetCapabilities</b> method returns an array of events and commands that a device supports.
@@ -122,7 +122,7 @@ The <b>IWiaMiniDrv::drvGetCapabilities</b> method returns an array of events and
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c34a6834-8875-400c-9634-6c2b9b68164f">drvGetDeviceErrorStr</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvgetdeviceerrorstr">drvGetDeviceErrorStr</a>
 </td>
 <td align="left" width="63%">
 The <b>IWiaMiniDrv::drvGetDeviceErrorStr </b>method maps an error code to a Unicode string that describes the error.
@@ -131,7 +131,7 @@ The <b>IWiaMiniDrv::drvGetDeviceErrorStr </b>method maps an error code to a Unic
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f0b7d982-735f-489c-b9f8-81a287f6722a">drvGetWiaFormatInfo</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvgetwiaformatinfo">drvGetWiaFormatInfo</a>
 </td>
 <td align="left" width="63%">
 The <b>IWiaMiniDrv::drvGetWiaFormatInfo</b> method finds the image formats and media types that the WIA hardware device supports.
@@ -140,7 +140,7 @@ The <b>IWiaMiniDrv::drvGetWiaFormatInfo</b> method finds the image formats and m
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/93b155eb-0254-441f-b01f-3da8eb7376a5">drvInitializeWia</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvinitializewia">drvInitializeWia</a>
 </td>
 <td align="left" width="63%">
 The <b>IWiaMiniDrv::drvInitializeWia</b> method initializes the minidriver and builds the driver item tree representing the device.
@@ -149,7 +149,7 @@ The <b>IWiaMiniDrv::drvInitializeWia</b> method initializes the minidriver and b
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/06dce5c0-f893-47c7-bee9-1b7f61137ba0">drvInitItemProperties</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvinititemproperties">drvInitItemProperties</a>
 </td>
 <td align="left" width="63%">
 The<b> IWiaMiniDrv::drvInitItemProperties</b> method initializes WIA driver item properties for each item in an application item tree.
@@ -158,7 +158,7 @@ The<b> IWiaMiniDrv::drvInitItemProperties</b> method initializes WIA driver item
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/674e0a65-1763-41b0-896b-2ef9debc32a5">drvLockWiaDevice</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvlockwiadevice">drvLockWiaDevice</a>
 </td>
 <td align="left" width="63%">
 The <b>IWiaMiniDrv::drvLockWiaDevice</b> method locks the WIA hardware device so that only the current minidriver can access it.
@@ -167,7 +167,7 @@ The <b>IWiaMiniDrv::drvLockWiaDevice</b> method locks the WIA hardware device so
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/55d6d93b-c20f-435b-ba99-2df26bd17240">drvNotifyPnpEvent</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvnotifypnpevent">drvNotifyPnpEvent</a>
 </td>
 <td align="left" width="63%">
 The <b>IWiaMiniDrv::drvNotifyPnpEvent</b> method responds to the event received from the WIA service.
@@ -176,7 +176,7 @@ The <b>IWiaMiniDrv::drvNotifyPnpEvent</b> method responds to the event received 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/015c2e02-62aa-4037-9974-c8e4b8784fe5">drvReadItemProperties</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvreaditemproperties">drvReadItemProperties</a>
 </td>
 <td align="left" width="63%">
 The <b>IWiaMiniDrv::drvReadItemProperties</b> method reads the driver item properties that need to be updated.
@@ -185,7 +185,7 @@ The <b>IWiaMiniDrv::drvReadItemProperties</b> method reads the driver item prope
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/974de3b5-c129-42ee-a522-071c26726cf1">drvUnInitializeWia</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvuninitializewia">drvUnInitializeWia</a>
 </td>
 <td align="left" width="63%">
 The <b>IWiaMiniDrv::drvUnInitializeWia</b> method releases resources held by the minidriver.
@@ -194,7 +194,7 @@ The <b>IWiaMiniDrv::drvUnInitializeWia</b> method releases resources held by the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/134d224a-d472-4d74-be3e-069dbb46a65c">drvUnLockWiaDevice</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvunlockwiadevice">drvUnLockWiaDevice</a>
 </td>
 <td align="left" width="63%">
 The <b>IWiaMiniDrv::drvUnLockWiaDevice</b> method unlocks the WIA hardware device so that any minidriver can access it.
@@ -203,7 +203,7 @@ The <b>IWiaMiniDrv::drvUnLockWiaDevice</b> method unlocks the WIA hardware devic
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/12052128-9ea7-41cd-bb75-be7175e26c12">drvValidateItemProperties</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvvalidateitemproperties">drvValidateItemProperties</a>
 </td>
 <td align="left" width="63%">
 The <b>IWiaMiniDrv::drvValidateItemProperties</b> method validates an item's properties against the set of valid values for each property and will update those properties if necessary.
@@ -212,7 +212,7 @@ The <b>IWiaMiniDrv::drvValidateItemProperties</b> method validates an item's pro
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/350cb7f6-499f-4fbc-b5c0-6f4daf2a2af0">drvWriteItemProperties</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvwriteitemproperties">drvWriteItemProperties</a>
 </td>
 <td align="left" width="63%">
 The <b>IWiaMiniDrv::drvWriteItemProperties</b> method writes driver item properties to a WIA hardware device.

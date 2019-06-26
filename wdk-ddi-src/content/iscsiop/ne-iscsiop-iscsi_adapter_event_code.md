@@ -64,7 +64,7 @@ An adapter discovered that its list of targets changed.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562971">MSiSCSI_AdapterEvent WMI Class</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msiscsi-adapterevent-wmi-class">MSiSCSI_AdapterEvent WMI Class</a>
  
 
  

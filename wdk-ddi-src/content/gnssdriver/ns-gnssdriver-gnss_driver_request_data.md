@@ -70,7 +70,7 @@ Version number.
 
 The type of request made by the driver.
 
-Represented by the <a href="https://msdn.microsoft.com/library/windows/hardware/dn925124">GNSS_DRIVER_REQUEST</a> enumeration.
+Represented by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/gnssdriver/ne-gnssdriver-gnss_driver_request">GNSS_DRIVER_REQUEST</a> enumeration.
 
 
 ### -field RequestFlag

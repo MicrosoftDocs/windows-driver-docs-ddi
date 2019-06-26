@@ -80,7 +80,7 @@ A relative time is a time value that is relative to the current system time. For
 
 #### Examples
 
-The following code example starts a timer. The framework will call the timer's <a href="https://msdn.microsoft.com/abe15fd9-620e-4c24-9a82-32d20a7e49cc">EvtTimerFunc</a> callback function after one hundred microseconds. 
+The following code example starts a timer. The framework will call the timer's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdftimer/nc-wdftimer-evt_wdf_timer">EvtTimerFunc</a> callback function after one hundred microseconds. 
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -105,7 +105,7 @@ inTimerQueue = WdfTimerStart(
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551212">WDF_ABS_TIMEOUT_IN_US</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfcore/nf-wdfcore-wdf_abs_timeout_in_us">WDF_ABS_TIMEOUT_IN_US</a>
  
 
  

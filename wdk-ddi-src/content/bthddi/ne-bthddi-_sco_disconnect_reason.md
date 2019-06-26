@@ -84,7 +84,7 @@ This value specifies to the profile driver that the local radio has been physica
 
 A value from this enumeration is used as the 
     <b>Reason</b> member of the 
-    <a href="https://msdn.microsoft.com/2d3ae219-8a40-476c-b8eb-94f4c0566527">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/ns-bthddi-_sco_indication_parameters">
     SCO_INDICATION_PARAMETERS</a> structure.
 
 Hardware limitations may prevent the Bluetooth driver stack from distinguishing between 
@@ -93,7 +93,7 @@ Hardware limitations may prevent the Bluetooth driver stack from distinguishing 
 
 Currently, 
     <i>ScoHciDisconnect</i> is the only value the Bluetooth driver stack passes to the 
-    <a href="https://msdn.microsoft.com/abc9fc88-6852-4bfb-8271-7a73a508c397">SCO Callback Function</a>.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/nc-bthddi-pfnsco_indication_callback">SCO Callback Function</a>.
 
 
 
@@ -103,11 +103,11 @@ Currently,
 
 
 
-<a href="https://msdn.microsoft.com/abc9fc88-6852-4bfb-8271-7a73a508c397">SCO Callback Function</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/nc-bthddi-pfnsco_indication_callback">SCO Callback Function</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536779">SCO_INDICATION_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/ns-bthddi-_sco_indication_parameters">SCO_INDICATION_PARAMETERS</a>
  
 
  

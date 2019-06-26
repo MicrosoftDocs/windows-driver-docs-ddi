@@ -56,7 +56,7 @@ A file system or filter driver calls <b>FsRtlCurrentOplockH</b> to determine whe
 
 ### -param Oplock [in]
 
-An opaque opportunistic lock pointer for the file. This pointer must have been initialized by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff546150">FsRtlInitializeOplock</a>. 
+An opaque opportunistic lock pointer for the file. This pointer must have been initialized by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializeoplock">FsRtlInitializeOplock</a>. 
 
 
 ## -returns
@@ -76,7 +76,7 @@ An opaque opportunistic lock pointer for the file. This pointer must have been i
 
 For more information about opportunistic locks, see the Microsoft Windows SDK documentation. 
 
-Minifilters should call <a href="https://msdn.microsoft.com/library/windows/hardware/ff541955">FltCurrentOplockH</a> instead of <b>FsRtlCurrentOplock</b>. 
+Minifilters should call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltcurrentoplockh">FltCurrentOplockH</a> instead of <b>FsRtlCurrentOplock</b>. 
 
 
 
@@ -86,11 +86,11 @@ Minifilters should call <a href="https://msdn.microsoft.com/library/windows/hard
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541955">FltCurrentOplockH</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltcurrentoplockh">FltCurrentOplockH</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546150">FsRtlInitializeOplock</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializeoplock">FsRtlInitializeOplock</a>
  
 
  

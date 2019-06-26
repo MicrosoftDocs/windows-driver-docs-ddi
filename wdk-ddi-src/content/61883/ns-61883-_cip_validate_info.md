@@ -88,7 +88,7 @@ The IEC-61883 protocol driver allocates and initializes this structure from the 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537045">CIP_FRAME</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/61883/ns-61883-_cip_frame">CIP_FRAME</a>
  
 
  

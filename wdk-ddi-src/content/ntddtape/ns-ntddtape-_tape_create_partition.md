@@ -46,7 +46,7 @@ req.typenames: TAPE_CREATE_PARTITION, *PTAPE_CREATE_PARTITION
 ## -description
 
 
-The TAPE_CREATE_PARTITION structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560612">IOCTL_TAPE_CREATE_PARTITION</a> request to create a specified number of fixed, select, or initiator partitions of a given size on the tape media.
+The TAPE_CREATE_PARTITION structure is used in conjunction with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddtape/ni-ntddtape-ioctl_tape_create_partition">IOCTL_TAPE_CREATE_PARTITION</a> request to create a specified number of fixed, select, or initiator partitions of a given size on the tape media.
 
 
 ## -struct-fields
@@ -112,11 +112,11 @@ Indicates the size of each partition, in bytes.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560612">IOCTL_TAPE_CREATE_PARTITION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddtape/ni-ntddtape-ioctl_tape_create_partition">IOCTL_TAPE_CREATE_PARTITION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567932">TapeMiniCreatePartition</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/minitape/nc-minitape-tape_process_command_routine">TapeMiniCreatePartition</a>
  
 
  

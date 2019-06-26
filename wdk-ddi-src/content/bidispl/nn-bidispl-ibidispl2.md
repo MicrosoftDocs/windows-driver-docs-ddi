@@ -51,7 +51,7 @@ The <b>IBidiSpl2</b> interface enables an application or other objects to send o
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBidiSpl2</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IBidiSpl2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBidiSpl2</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBidiSpl2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -66,7 +66,7 @@ The <b>IBidiSpl2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c5bd238d-4b85-4463-aa73-ff3a7798ccff">BindDevice</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bidispl/nf-bidispl-ibidispl2-binddevice">BindDevice</a>
 </td>
 <td align="left" width="63%">
 Binds a printer to a bidirectional communication request.
@@ -75,16 +75,16 @@ Binds a printer to a bidirectional communication request.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2daf99a8-42dc-4739-8e7e-80d3c9a084b7">SendRecvXMLStream</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bidispl/nf-bidispl-ibidispl2-sendrecvxmlstream">SendRecvXMLStream</a>
 </td>
 <td align="left" width="63%">
-Sends a bidirectional communication request (and receives the response) as   Bidi Request and Response-compliant <a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a>.
+Sends a bidirectional communication request (and receives the response) as   Bidi Request and Response-compliant <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7d61402e-e248-4770-a828-9c266e528115">SendRecvXMLString</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bidispl/nf-bidispl-ibidispl2-sendrecvxmlstring">SendRecvXMLString</a>
 </td>
 <td align="left" width="63%">
 Sends a bidirectional communication request (and receives the response) as   Bidi Request and Response-compliant strings.
@@ -93,7 +93,7 @@ Sends a bidirectional communication request (and receives the response) as   Bid
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/26f3fc82-051d-4827-8b59-ac2c99f4d2c5">UnbindDevice</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bidispl/nf-bidispl-ibidispl2-unbinddevice">UnbindDevice</a>
 </td>
 <td align="left" width="63%">
 Releases a printer from a bidirectional communication request.
@@ -108,15 +108,15 @@ Releases a printer from a bidirectional communication request.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_print/index">Bidirectional Communication Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/print/bidirectional-communication-schema">Bidirectional Communication Schema</a>
 
 
 
-<a href="https://msdn.microsoft.com/42b5e6cf-b434-4734-86f3-b3b9d15ea468">Print Spooler Components</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/print/print-spooler-components">Print Spooler Components</a>
  
 
  

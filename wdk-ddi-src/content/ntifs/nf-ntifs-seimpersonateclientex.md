@@ -124,9 +124,9 @@ It is extremely unsafe to raise the privilege state of an untrusted user thread 
 
 In cases where a higher privilege state is required, the task should be dispatched to a work queue where the task can be safely handled by system worker thread. This way no impersonation is necessary.
 
-To end the impersonation of the user, call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556717">SeStopImpersonatingClient</a> routine.
+To end the impersonation of the user, call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/sestopimpersonatingclient">SeStopImpersonatingClient</a> routine.
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff551907">PsImpersonateClient</a> routine can be used to cause a server thread to impersonate a client.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-psimpersonateclient">PsImpersonateClient</a> routine can be used to cause a server thread to impersonate a client.
 
 For more information about security and access control, see the documentation on these topics in the Microsoft Windows SDK. 
 
@@ -138,19 +138,19 @@ For more information about security and access control, see the documentation on
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551907">PsImpersonateClient</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-psimpersonateclient">PsImpersonateClient</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556595">SeCreateClientSecurity</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-secreateclientsecurity">SeCreateClientSecurity</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556598">SeCreateClientSecurityFromSubjectContext</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-secreateclientsecurityfromsubjectcontext">SeCreateClientSecurityFromSubjectContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556717">SeStopImpersonatingClient</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/sestopimpersonatingclient">SeStopImpersonatingClient</a>
  
 
  

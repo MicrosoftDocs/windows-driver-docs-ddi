@@ -87,7 +87,7 @@ A physical memory address.
 
 
 
-This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/dn342884">MmCopyMemory</a> routine.
+This structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-mmcopymemory">MmCopyMemory</a> routine.
 
 
 
@@ -97,7 +97,7 @@ This structure is used by the <a href="https://msdn.microsoft.com/library/window
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn342884">MmCopyMemory</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-mmcopymemory">MmCopyMemory</a>
  
 
  

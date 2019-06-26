@@ -65,7 +65,7 @@ A handle to the display adapter.
 
 ### -param pArgs [in, out]
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/dn906821">DXGKARG_GETROOTPAGETABLESIZE</a> structure that describes the operation.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_getrootpagetablesize">DXGKARG_GETROOTPAGETABLESIZE</a> structure that describes the operation.
 
 
 ## -returns

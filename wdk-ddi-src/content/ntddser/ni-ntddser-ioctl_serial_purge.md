@@ -65,7 +65,7 @@ The <b>AssociatedIrp.SystemBuffer</b> member points to a client-allocated ULONG 
 
 #### -SERIAL_PURGE_RXABORT
 
-Purges all read (<a href="https://msdn.microsoft.com/library/windows/hardware/ff549327">IRP_MJ_READ</a>) requests.
+Purges all read (<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-read">IRP_MJ_READ</a>) requests.
 
 
 #### -SERIAL_PURGE_RXCLEAR
@@ -75,7 +75,7 @@ Purges the receive buffer, if one exists.
 
 #### -SERIAL_PURGE_TXABORT
 
-Purges all write (<a href="https://msdn.microsoft.com/library/windows/hardware/ff550819">IRP_MJ_WRITE</a>) requests.
+Purges all write (<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-write">IRP_MJ_WRITE</a>) requests.
 
 
 #### -SERIAL_PURGE_TXCLEAR
@@ -133,7 +133,7 @@ SerCx2 requires that all read requests be purged if the receive buffer is purged
 
 Similarly, SerCx2 requires that all write requests be purged if the transmit buffer is purged. Thus, if the SERIAL_PURGE_TXCLEAR flag is set in an <b>IOCTL_SERIAL_PURGE</b> request, then either the SerCx2 I/O request queue must not contain any write requests, or the SERIAL_PURGE_TXABORT flag must be set. Otherwise, the <b>IOCTL_SERIAL_PURGE</b> request fails with a STATUS_INVALID_DEVICE_STATE status code.
 
-For more information about SerCx2, SerCx, and Serial.sys, see <a href="https://msdn.microsoft.com/1EA0221E-0F68-429B-9DA5-4AE2D3394A09">Serial Controller Drivers Overview</a>.
+For more information about SerCx2, SerCx, and Serial.sys, see <a href="https://docs.microsoft.com/previous-versions/jj241971(v=vs.85)">Serial Controller Drivers Overview</a>.
 
 
 

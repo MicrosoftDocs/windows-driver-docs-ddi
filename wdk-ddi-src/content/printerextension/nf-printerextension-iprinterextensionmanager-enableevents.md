@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The EnableEvents method allows events to be generated for the specified printer driver until  <a href="https://msdn.microsoft.com/library/windows/hardware/hh406703">DisableEvents</a> is called. 
+The EnableEvents method allows events to be generated for the specified printer driver until  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nf-printerextension-iprinterextensionmanager-disableevents">DisableEvents</a> is called. 
 
 
 ## -parameters
@@ -84,7 +84,7 @@ In the case of a driver event like, for example, Print Preferences or Printer No
 
 
 
-<a href="https://msdn.microsoft.com/918AE3F6-2AC4-42AD-9581-E87AD7E79BAD">IPrinterExtensionManager</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprinterextensionmanager">IPrinterExtensionManager</a>
  
 
  

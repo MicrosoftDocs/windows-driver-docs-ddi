@@ -132,15 +132,15 @@ None.
 
 
 
-<a href="https://msdn.microsoft.com/4a97301a-12cc-442f-a080-446ec9e1e245">IPortableDeviceValues Interface</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portabledevicetypes/nn-portabledevicetypes-iportabledevicevalues">IPortableDeviceValues Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/887aab56-2f3f-4aaa-96fa-c597bc540a92">IPortableDeviceValues::GetAt</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portabledevicetypes/nf-portabledevicetypes-iportabledevicevalues-getat">IPortableDeviceValues::GetAt</a>
 
 
 
-<a href="https://msdn.microsoft.com/ee477e82-124e-46ca-8aef-02357f67bb8f">IPortableDeviceValues::SetStringValue</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portabledevicetypes/nf-portabledevicetypes-iportabledevicevalues-setstringvalue">IPortableDeviceValues::SetStringValue</a>
  
 
  

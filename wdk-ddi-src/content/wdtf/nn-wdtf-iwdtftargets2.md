@@ -67,7 +67,7 @@ The <b>IWDTFTargets2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938485">Add</a>
+<a href="https://docs.microsoft.com/windows-hardware/test/wpt/add">Add</a>
 </td>
 <td align="left" width="63%">
 Add a single item to the collection.
@@ -76,7 +76,7 @@ Add a single item to the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406339">Clear</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">Clear</a>
 </td>
 <td align="left" width="63%">
 Clears all items from the collection.
@@ -85,7 +85,7 @@ Clears all items from the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439396">Eval</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nf-wdtf-iwdtftarget2-eval">Eval</a>
 </td>
 <td align="left" width="63%">
 Evaluates whether all items in the collection match an SDEL statement.
@@ -94,27 +94,27 @@ Evaluates whether all items in the collection match an SDEL statement.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439475">GetInterfaces</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nf-wdtf-iwdtftargets2-getinterfaces">GetInterfaces</a>
 </td>
 <td align="left" width="63%">
-Returns a collection of actions that support the interface - one <a href="https://msdn.microsoft.com/library/windows/hardware/hh406311">IWDTFAction2</a> for each item
+Returns a collection of actions that support the interface - one <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nn-wdtf-iwdtfaction2">IWDTFAction2</a> for each item
 that has one.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439478">GetInterfacesIfExist</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nf-wdtf-iwdtftargets2-getinterfacesifexist">GetInterfacesIfExist</a>
 </td>
 <td align="left" width="63%">
-Returns a collection of actions that support the interface - one <a href="https://msdn.microsoft.com/library/windows/hardware/hh406311">IWDTFAction2</a> for each item
+Returns a collection of actions that support the interface - one <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nn-wdtf-iwdtfaction2">IWDTFAction2</a> for each item
 that has one.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406403">Query</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nf-wdtf-iwdtfdevicedepot2-query">Query</a>
 </td>
 <td align="left" width="63%">
 Returns a subset of the items in the collection.
@@ -123,7 +123,7 @@ Returns a subset of the items in the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439488">QuerySingle</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nf-wdtf-iwdtftargets2-querysingle">QuerySingle</a>
 </td>
 <td align="left" width="63%">
 Returns a single item from the collection.
@@ -132,7 +132,7 @@ Returns a single item from the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439492">Remove</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nf-wdtf-iwdtftargets2-remove">Remove</a>
 </td>
 <td align="left" width="63%">
 Remove an item from the collection.
@@ -150,7 +150,7 @@ Remove an item from the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439300">_NewEnum</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nf-wdtf-iwdtfstrings2-get__newenum">_NewEnum</a>
 
 
 </td>
@@ -167,7 +167,7 @@ loop structure implicitly uses.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/hh406342(v=vs.85)">Count</a>
 
 
 </td>
@@ -183,7 +183,7 @@ Gets the number of items in this collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">Item</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nf-wdtf-iwdtfnumbers2-get_item">Item</a>
 
 
 </td>
@@ -199,7 +199,7 @@ Gets an individual item in the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406421">WDTF</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nf-wdtf-iwdtfdevicedepot2-get_wdtf">WDTF</a>
 
 
 </td>

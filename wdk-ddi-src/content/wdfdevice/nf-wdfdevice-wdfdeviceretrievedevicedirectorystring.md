@@ -61,4 +61,4 @@ This function returns NTSTATUS.
 UMDF only. KMDF drivers should use [**IoGetDeviceDirectory**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iogetdevicedirectory).
 
 ## -see-also
-For info about string objects, see [Using String Objects](https://docs.microsoft.com//windows-hardware/drivers/wdf/using-string-objects).
+For info about string objects, see [Using String Objects](https://docs.microsoft.com/windows-hardware/drivers/wdf/using-string-objects).

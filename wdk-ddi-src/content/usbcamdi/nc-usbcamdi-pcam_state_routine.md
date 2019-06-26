@@ -110,7 +110,7 @@ This function is optional.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568157">SRB_CHANGE_POWER_STATE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/srb-change-power-state">SRB_CHANGE_POWER_STATE</a>
  
 
  

@@ -56,7 +56,7 @@ The <b>VideoPortGetAssociatedDeviceID</b> function obtains the child ID for a sp
 
 ### -param DeviceObject [in]
 
-Pointer to the child device object, a <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">PDO</a>.
+Pointer to the child device object, a <a href="https://docs.microsoft.com/windows-hardware/drivers/">PDO</a>.
 
 
 ## -returns
@@ -72,7 +72,7 @@ Pointer to the child device object, a <a href="https://msdn.microsoft.com/139a10
 
 
 
-<b>VideoPortGetAssociatedDeviceID</b> can be used to obtain the child ID for a child device object. For example, this is useful with <a href="https://msdn.microsoft.com/5a140cc0-ecc5-46ff-be3f-3c92f0f67dca">I2C</a>. See <a href="https://msdn.microsoft.com/5eea2257-49ca-4d76-a6a1-91401595750f">Using I2C to Communicate with a Child Device</a> for more information. 
+<b>VideoPortGetAssociatedDeviceID</b> can be used to obtain the child ID for a child device object. For example, this is useful with <a href="https://docs.microsoft.com/windows-hardware/drivers/">I2C</a>. See <a href="https://docs.microsoft.com/windows-hardware/drivers/display/using-i2c-to-communicate-with-a-child-device">Using I2C to Communicate with a Child Device</a> for more information. 
 
 
 

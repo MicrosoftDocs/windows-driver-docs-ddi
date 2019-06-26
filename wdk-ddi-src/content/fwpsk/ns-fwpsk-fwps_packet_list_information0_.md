@@ -47,7 +47,7 @@ req.typenames: FWPS_PACKET_LIST_INFORMATION0
 
 
 The <b>FWPS_PACKET_LIST_INFORMATION0</b> structure defines information associated with a packet list.
-<div class="alert"><b>Note</b>  <b>FWPS_PACKET_LIST_INFORMATION0</b> is a specific version of <b>FWPS_PACKET_LIST_INFORMATION</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
+<div class="alert"><b>Note</b>  <b>FWPS_PACKET_LIST_INFORMATION0</b> is a specific version of <b>FWPS_PACKET_LIST_INFORMATION</b>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
 ## -struct-fields
 
@@ -57,14 +57,14 @@ The <b>FWPS_PACKET_LIST_INFORMATION0</b> structure defines information associate
 ### -field ipsecInformation
 
 An 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff552414">FWPS_PACKET_LIST_IPSEC_INFORMATION0</a> structure that contains IPsec information associated with the
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/ns-fwpsk-fwps_packet_list_ipsec_information0_">FWPS_PACKET_LIST_IPSEC_INFORMATION0</a> structure that contains IPsec information associated with the
      packet list.
 
 
 ### -field fwpInformation
 
 An 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff552410">FWPS_PACKET_LIST_FWP_INFORMATION0</a> structure that contains Windows Filtering Platform information
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/ns-fwpsk-fwps_packet_list_fwp_information0_">FWPS_PACKET_LIST_FWP_INFORMATION0</a> structure that contains Windows Filtering Platform information
      associated with the packet list.
 
 
@@ -73,7 +73,7 @@ An
 
 
 A callout driver passes a pointer to an FWPS_PACKET_LIST_INFORMATION0 structure to the 
-    <a href="https://msdn.microsoft.com/c3391615-963b-4916-9280-ce782269692c">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsgetpacketlistsecurityinformation0">
     FwpsGetPacketListSecurityInformation0</a> function when querying information associated with a packet
     list.
 
@@ -85,17 +85,17 @@ A callout driver passes a pointer to an FWPS_PACKET_LIST_INFORMATION0 structure 
 
 
 
-<a href="https://msdn.microsoft.com/e2d3faf3-cd3b-4147-8ceb-5b3f0c257939">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/ns-fwpsk-fwps_packet_list_fwp_information0_">
    FWPS_PACKET_LIST_FWP_INFORMATION0</a>
 
 
 
-<a href="https://msdn.microsoft.com/bd005dd9-887a-4323-9816-e4a3b96ca53d">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/ns-fwpsk-fwps_packet_list_ipsec_information0_">
    FWPS_PACKET_LIST_IPSEC_INFORMATION0</a>
 
 
 
-<a href="https://msdn.microsoft.com/c3391615-963b-4916-9280-ce782269692c">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsgetpacketlistsecurityinformation0">
    FwpsGetPacketListSecurityInformation0</a>
  
 

@@ -60,7 +60,7 @@ Sets the state of the device's import/export port (IEport), door, or keypad.
 ### -input-buffer
 
 
-       The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551481">CHANGER_SET_ACCESS</a> structure indicating the element and the operation to perform.
+       The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddchgr/ns-ntddchgr-_changer_set_access">CHANGER_SET_ACCESS</a> structure indicating the element and the operation to perform.
 
 
 ### -input-buffer-length
@@ -106,11 +106,11 @@ The <b>Information</b> field is set to the number of bytes set. The <b>Status</b
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551481">CHANGER_SET_ACCESS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddchgr/ns-ntddchgr-_changer_set_access">CHANGER_SET_ACCESS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551447">ChangerSetAccess</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/mcd/nf-mcd-changersetaccess">ChangerSetAccess</a>
  
 
  

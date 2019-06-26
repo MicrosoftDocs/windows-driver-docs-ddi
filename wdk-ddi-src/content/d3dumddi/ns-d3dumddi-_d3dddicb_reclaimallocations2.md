@@ -46,7 +46,7 @@ req.typenames: D3DDDICB_RECLAIMALLOCATIONS2
 ## -description
 
 
-<b>D3DDDICB_RECLAIMALLOCATIONS2</b> is used with <a href="https://msdn.microsoft.com/library/windows/hardware/dn903528">pfnReclaimAllocations2Cb</a> to describe video memory resources, previously offered for reuse by the driver,  that are to be reclaimed.
+<b>D3DDDICB_RECLAIMALLOCATIONS2</b> is used with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_reclaimallocations2cb">pfnReclaimAllocations2Cb</a> to describe video memory resources, previously offered for reuse by the driver,  that are to be reclaimed.
 
 
 ## -struct-fields

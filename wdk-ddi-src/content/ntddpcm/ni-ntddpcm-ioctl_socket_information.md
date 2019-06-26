@@ -58,7 +58,7 @@ This request retrieves socket information for the socket that is indicated by th
 
 <b>Parameters.DeviceIoControl.InputBufferLength</b> in the I/O stack location of the IRP indicates the size, in bytes, of the input buffer, which must be greater than or equal to <b>sizeof</b>(PCMCIA_SOCKET_INFORMATION).
 
-The caller initializes the <b>Socket</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537612">PCMCIA_SOCKET_INFORMATION</a> structure at the beginning of the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>. 
+The caller initializes the <b>Socket</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddpcm/ns-ntddpcm-_pcmcia_socket_information">PCMCIA_SOCKET_INFORMATION</a> structure at the beginning of the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>. 
 
 
 ### -input-buffer-length
@@ -68,7 +68,7 @@ The caller initializes the <b>Socket</b> member of the <a href="https://msdn.mic
 
 ### -output-buffer
 
-The PCMCIA bus driver stores the requested socket data in a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff537612">PCMCIA_SOCKET_INFORMATION</a> at the beginning of the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>. 
+The PCMCIA bus driver stores the requested socket data in a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddpcm/ns-ntddpcm-_pcmcia_socket_information">PCMCIA_SOCKET_INFORMATION</a> at the beginning of the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>. 
 
 
 ### -output-buffer-length
@@ -104,7 +104,7 @@ If <b>InputBufferLength</b> is less than <b>sizeof</b>(PCMCIA_SOCKET_INFORMATION
 
 If <b>OutputBufferLength</b> is less than <b>sizeof</b>(PCMCIA_SOCKET_INFORMATION), the <b>Status</b> field is set to STATUS_BUFFER_TOO_SMALL.
 
-If the bus driver cannot identify a socket that is associated with the socket number indicated in <a href="https://msdn.microsoft.com/library/windows/hardware/ff537612">PCMCIA_SOCKET_INFORMATION</a>, the <b>Status</b> field is set to STATUS_INVALID_PARAMETER.
+If the bus driver cannot identify a socket that is associated with the socket number indicated in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddpcm/ns-ntddpcm-_pcmcia_socket_information">PCMCIA_SOCKET_INFORMATION</a>, the <b>Status</b> field is set to STATUS_INVALID_PARAMETER.
 
 If there is no card in the indicated socket, the <b>Status</b> field is set to STATUS_UNSUCCESSFUL.
 
@@ -114,7 +114,7 @@ If there is no card in the indicated socket, the <b>Status</b> field is set to S
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537612">PCMCIA_SOCKET_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddpcm/ns-ntddpcm-_pcmcia_socket_information">PCMCIA_SOCKET_INFORMATION</a>
  
 
  

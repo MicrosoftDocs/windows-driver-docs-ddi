@@ -55,7 +55,7 @@ The <b>D3DKMTWaitForSynchronizationObject2</b> function inserts a wait for the s
 
 *pData* [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548436">D3DKMT_WAITFORSYNCHRONIZATIONOBJECT2</a> structure that describes the synchronization objects and context stream that the wait is set up for.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_waitforsynchronizationobject2">D3DKMT_WAITFORSYNCHRONIZATIONOBJECT2</a> structure that describes the synchronization objects and context stream that the wait is set up for.
 
 ## -returns
 
@@ -71,7 +71,7 @@ This function might also return other NTSTATUS values.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548436">D3DKMT_WAITFORSYNCHRONIZATIONOBJECT2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_waitforsynchronizationobject2">D3DKMT_WAITFORSYNCHRONIZATIONOBJECT2</a>
  
 
  

@@ -68,7 +68,7 @@ A pointer to the client NPI implemented by the WSK application.
 A pointer to a memory location that identifies a WSK application's registration instance. This
      memory location will be initialized by the 
      <b>WskRegister</b> call and will be used by the other 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571179">WSK registration functions</a>. The
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_netvista/">WSK registration functions</a>. The
      WSK application should never change the contents of this memory location directly.
 
 
@@ -121,20 +121,20 @@ A WSK client object can call this function multiple times, but a different
 
 For each call to 
     <b>WskRegister</b> that returns a success code, there must be exactly one corresponding 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff571128">WskDeregister</a> call that uses the same 
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nf-wsk-wskderegister">WskDeregister</a> call that uses the same 
     <i>WskRegistration</i> parameter that was passed to 
     <b>WskRegister</b>.
 
 The block of memory pointed to by 
     <i>WskRegistration</i> must be kept allocated (must not be freed or go out of scope) as long as there are
     outstanding calls to other 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff571179">WSK registration functions</a>.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_netvista/">WSK registration functions</a>.
     
 Using the 
     <b>WskRegister</b> and 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff571128">WskDeregister</a> functions is the preferred
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nf-wsk-wskderegister">WskDeregister</a> functions is the preferred
     method for registering and unregistering WSK applications. The 
-    <a href="https://msdn.microsoft.com/23c15c42-94aa-410b-8551-fafa8b24ad86">Network Module Registrar</a> remains
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/network-module-registrar2">Network Module Registrar</a> remains
     available for compatibility.
 
 For more information about attaching a WSK application to the WSK subsystem, see 
@@ -149,15 +149,15 @@ For more information about attaching a WSK application to the WSK subsystem, see
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571163">WSK_CLIENT_NPI</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/ns-wsk-_wsk_client_npi">WSK_CLIENT_NPI</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571178">WSK_REGISTRATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/ns-wsk-_wsk_registration">WSK_REGISTRATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571128">WskDeregister</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nf-wsk-wskderegister">WskDeregister</a>
  
 
  

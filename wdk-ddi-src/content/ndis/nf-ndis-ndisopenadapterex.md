@@ -49,7 +49,7 @@ req.typenames:
 
 A protocol driver calls the
   <b>NdisOpenAdapterEx</b> function from its 
-  <a href="https://msdn.microsoft.com/1958722e-012e-4110-a82c-751744bcf9b5">ProtocolBindAdapterEx</a> function to
+  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_bind_adapter_ex">ProtocolBindAdapterEx</a> function to
   set up a binding between the protocol driver and an underlying driver.
 
 
@@ -61,7 +61,7 @@ A protocol driver calls the
 ### -param NdisProtocolHandle [in]
 
 The handle returned by the 
-     <a href="https://msdn.microsoft.com/b48571eb-13a2-4541-80ac-c8d31f378d37">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisregisterprotocoldriver">
      NdisRegisterProtocolDriver</a> function.
 
 
@@ -74,7 +74,7 @@ The handle for a caller-supplied context area in which the protocol driver maint
 ### -param OpenParameters [in]
 
 A pointer to an 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566734">NDIS_OPEN_PARAMETERS</a> structure that is
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_open_parameters">NDIS_OPEN_PARAMETERS</a> structure that is
      set up by the caller.
 
 
@@ -126,7 +126,7 @@ A pointer to a caller-supplied variable. NDIS writes a handle at
 </td>
 <td width="60%">
 <b>NdisOpenAdapterEx</b> did not complete the open operation. NDIS later calls the protocol driver's 
-       <a href="https://msdn.microsoft.com/59d18822-8ce2-4506-90d7-9f1cdc7a9e10">
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_open_adapter_complete_ex">
        ProtocolOpenAdapterCompleteEx</a> function to complete the open operation.
 
 </td>
@@ -191,7 +191,7 @@ A pointer to a caller-supplied variable. NDIS writes a handle at
 
 A protocol driver must call 
     <b>NdisOpenAdapterEx</b> from its 
-    <a href="https://msdn.microsoft.com/1958722e-012e-4110-a82c-751744bcf9b5">ProtocolBindAdapterEx</a> function.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_bind_adapter_ex">ProtocolBindAdapterEx</a> function.
     NDIS fails any attempt to call 
     <b>NdisOpenAdapterEx</b> outside the context of 
     <i>ProtocolBindAdapterEx</i>.
@@ -201,7 +201,7 @@ If
     <i>NdisBindingHandle</i> and the 
     <b>SelectedMediumIndex</b> member at 
     <i>OpenParameters</i> until NDIS calls the 
-    <a href="https://msdn.microsoft.com/59d18822-8ce2-4506-90d7-9f1cdc7a9e10">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_open_adapter_complete_ex">
     ProtocolOpenAdapterCompleteEx</a> function.
 
 The string at 
@@ -226,19 +226,19 @@ After the open operation completes successfully, the caller can use the value th
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566734">NDIS_OPEN_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_open_parameters">NDIS_OPEN_PARAMETERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564520">NdisRegisterProtocolDriver</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisregisterprotocoldriver">NdisRegisterProtocolDriver</a>
 
 
 
-<a href="https://msdn.microsoft.com/1958722e-012e-4110-a82c-751744bcf9b5">ProtocolBindAdapterEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_bind_adapter_ex">ProtocolBindAdapterEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/59d18822-8ce2-4506-90d7-9f1cdc7a9e10">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_open_adapter_complete_ex">
    ProtocolOpenAdapterCompleteEx</a>
  
 

@@ -86,7 +86,7 @@ GET_UNIT_INFO_IDS
 
 </td>
 <td>
-The protocol driver writes device ID information to the caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff537168">GET_UNIT_IDS</a> structure at <b>Information</b>.
+The protocol driver writes device ID information to the caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/61883/ns-61883-_get_unit_ids">GET_UNIT_IDS</a> structure at <b>Information</b>.
 
 </td>
 </tr>
@@ -96,7 +96,7 @@ GET_UNIT_INFO_CAPABILITIES
 
 </td>
 <td>
-The protocol driver writes a <a href="https://msdn.microsoft.com/library/windows/hardware/ff537166">GET_UNIT_CAPABILITIES</a> structure containing device capability information.
+The protocol driver writes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/61883/ns-61883-_get_unit_capabilities">GET_UNIT_CAPABILITIES</a> structure containing device capability information.
 
 </td>
 </tr>
@@ -106,7 +106,7 @@ GET_UNIT_ISOCH_PARAMS
 
 </td>
 <td>
-The protocol driver writes a <a href="https://msdn.microsoft.com/library/windows/hardware/ff538921">UNIT_ISOCH_PARAMS</a> structure containing device parameters used by the device to capture and transmit isochronous packets.
+The protocol driver writes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/61883/ns-61883-_unit_isoch_params">UNIT_ISOCH_PARAMS</a> structure containing device parameters used by the device to capture and transmit isochronous packets.
 
 </td>
 </tr>
@@ -116,7 +116,7 @@ GET_UNIT_BUS_GENERATION_NODE
 
 </td>
 <td>
-The protocol driver writes current bus characteristics to the caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff537020">BUS_GENERATION_NODE</a> structure at <b>Information</b>.
+The protocol driver writes current bus characteristics to the caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/61883/ns-61883-_bus_generation_node">BUS_GENERATION_NODE</a> structure at <b>Information</b>.
 
 </td>
 </tr>
@@ -126,7 +126,7 @@ GET_UNIT_DDI_VERSION
 
 </td>
 <td>
-The protocol driver writes current 61883 DDI version to the caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff538898">UNIT_DDI_VERSION</a> structure at <b>Information</b>. 
+The protocol driver writes current 61883 DDI version to the caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/61883/ns-61883-_unit_ddi_version">UNIT_DDI_VERSION</a> structure at <b>Information</b>. 
 
 </td>
 </tr>
@@ -136,7 +136,7 @@ GET_UNIT_DIAG_LEVEL
 
 </td>
 <td>
-The protocol driver writes current diag level to the caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff538914">UNIT_DIAG_LEVEL</a> structure at <b>Information</b>.
+The protocol driver writes current diag level to the caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/61883/ns-61883-_unit_diag_level">UNIT_DIAG_LEVEL</a> structure at <b>Information</b>.
 
 </td>
 </tr>
@@ -158,7 +158,7 @@ The protocol driver writes current diag level to the caller-allocated <a href="h
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537008">AV_61883_REQUEST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/61883/ns-61883-_av_61883_request">AV_61883_REQUEST</a>
  
 
  

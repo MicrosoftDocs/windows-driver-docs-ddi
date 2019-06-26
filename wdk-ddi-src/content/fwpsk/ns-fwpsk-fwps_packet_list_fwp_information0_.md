@@ -48,7 +48,7 @@ req.typenames: FWPS_PACKET_LIST_FWP_INFORMATION0
 
 The <b>FWPS_PACKET_LIST_FWP_INFORMATION0</b> structure defines Windows Filtering Platform information
   associated with a packet list.
-<div class="alert"><b>Note</b>  <b>FWPS_PACKET_LIST_FWP_INFORMATION0</b> is a specific version of <b>FWPS_PACKET_LIST_FWP_INFORMATION</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
+<div class="alert"><b>Note</b>  <b>FWPS_PACKET_LIST_FWP_INFORMATION0</b> is a specific version of <b>FWPS_PACKET_LIST_FWP_INFORMATION</b>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
 ## -struct-fields
 
@@ -65,7 +65,7 @@ A value that indicates whether the packet data was reinjected by a callout drive
 
 
 A FWPS_PACKET_LIST_FWP_INFORMATION0 structure is included as a member of the 
-    <a href="https://msdn.microsoft.com/1fc6ffb1-c6e9-4bca-9d10-541708fe0086">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/ns-fwpsk-fwps_packet_list_information0_">
     FWPS_PACKET_LIST_INFORMATION0</a> structure.
 
 
@@ -76,7 +76,7 @@ A FWPS_PACKET_LIST_FWP_INFORMATION0 structure is included as a member of the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552412">FWPS_PACKET_LIST_INFORMATION0</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/ns-fwpsk-fwps_packet_list_information0_">FWPS_PACKET_LIST_INFORMATION0</a>
  
 
  

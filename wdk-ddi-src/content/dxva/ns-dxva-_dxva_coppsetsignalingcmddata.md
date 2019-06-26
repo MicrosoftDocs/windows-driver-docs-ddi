@@ -213,11 +213,11 @@ Reserved. Should be set to zero.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539642">COPPCommand</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/display/coppcommand">COPPCommand</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563141">DXVA_COPPCommand</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ns-dxva-_dxva_coppcommand">DXVA_COPPCommand</a>
  
 
  

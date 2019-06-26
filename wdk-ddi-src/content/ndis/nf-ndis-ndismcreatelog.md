@@ -59,7 +59,7 @@ req.typenames:
 ### -param MiniportAdapterHandle [in]
 
 Specifies the handle input to 
-     <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>.
 
 
 ### -param Size [in]
@@ -135,7 +135,7 @@ A miniport driver can call the
     <b>NdisM..Log</b> functions to provide any information the driver writer chooses. Whatever the miniport
     driver logs can be displayed by a driver-dedicated Win32 application. Such an application calls the Win32
     function 
-    <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> with IOCTL_NDIS_GET_LOG_DATA periodically to retrieve whatever the miniport driver
+    <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> with IOCTL_NDIS_GET_LOG_DATA periodically to retrieve whatever the miniport driver
     has written to the log file. For example, an under-development miniport driver might write test data to
     be displayed by its corresponding application.
 
@@ -145,7 +145,7 @@ If
     <b>NdisMCreateLog</b> to create more than one log file after a call succeeds.
 
 Whatever size of log file is allocated, subsequent calls to 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff563695">NdisMWriteLogData</a> store data in this
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismwritelogdata">NdisMWriteLogData</a> store data in this
     file, which is treated as a circular buffer. That is, a sequence of calls to 
     <b>NdisMWriteLogData</b> eventually overwrites the data originally written to the log file.
 
@@ -157,19 +157,19 @@ Whatever size of log file is allocated, subsequent calls to
 
 
 
-<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562790">NdisMCloseLog</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismcloselog">NdisMCloseLog</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563584">NdisMFlushLog</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismflushlog">NdisMFlushLog</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563695">NdisMWriteLogData</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismwritelogdata">NdisMWriteLogData</a>
  
 
  

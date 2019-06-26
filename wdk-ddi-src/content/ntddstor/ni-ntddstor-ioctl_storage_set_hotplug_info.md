@@ -47,7 +47,7 @@ req.typenames:
 
 
 
-Sets the hotplug configuration of the specified device. This request takes a <a href="https://msdn.microsoft.com/library/windows/hardware/ff566987">STORAGE_HOTPLUG_INFO</a> structure as input. The <b>DeviceHotplug</b> member of the STORAGE_HOTPLUG_INFO structure determines what action is taken. If the value of that member is nonzero, the value for the device's removal policy in the registry is set to <b>ExpectSurpriseRemoval</b> and all levels of caching are disabled. If the value of <b>DeviceHotplug</b> is zero, the removal policy is set to <b>ExpectOrderlyRemoval</b>, and caching might be selectively enabled. 
+Sets the hotplug configuration of the specified device. This request takes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor-_storage_hotplug_info">STORAGE_HOTPLUG_INFO</a> structure as input. The <b>DeviceHotplug</b> member of the STORAGE_HOTPLUG_INFO structure determines what action is taken. If the value of that member is nonzero, the value for the device's removal policy in the registry is set to <b>ExpectSurpriseRemoval</b> and all levels of caching are disabled. If the value of <b>DeviceHotplug</b> is zero, the removal policy is set to <b>ExpectOrderlyRemoval</b>, and caching might be selectively enabled. 
 
 
 
@@ -74,7 +74,7 @@ The driver returns the hotplug configuration data in a STORAGE_HOTPLUG_INFO stru
 
 ### -output-buffer-length
 
-The length of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff566987">STORAGE_HOTPLUG_INFO</a> structure.
+The length of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor-_storage_hotplug_info">STORAGE_HOTPLUG_INFO</a> structure.
 
 
 ### -in-out-buffer
@@ -105,11 +105,11 @@ The <b>Status</b> field is set to STATUS_SUCCESS, or possibly to STATUS_INFO_LEN
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560554">IOCTL_STORAGE_GET_HOTPLUG_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ni-ntddstor-ioctl_storage_get_hotplug_info">IOCTL_STORAGE_GET_HOTPLUG_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566987">STORAGE_HOTPLUG_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor-_storage_hotplug_info">STORAGE_HOTPLUG_INFO</a>
  
 
  

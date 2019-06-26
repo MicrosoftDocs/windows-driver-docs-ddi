@@ -56,14 +56,14 @@ The <b>PEP_PPM_IDLE_CANCEL</b> structure indicates why the processor could not e
 
 ### -field CancelCode
 
-[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/mt629123">PEP_PROCESSOR_IDLE_CANCEL_CODE</a> enumeration value that indicates why the processor could not enter the idle state selected by the platform extension plug-in (PEP).
+[in] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pep_x/ne-pep_x-pep_processor_idle_cancel_code">PEP_PROCESSOR_IDLE_CANCEL_CODE</a> enumeration value that indicates why the processor could not enter the idle state selected by the platform extension plug-in (PEP).
 
 
 ## -remarks
 
 
 
-This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/mt629119">PEP_NOTIFY_PPM_IDLE_CANCEL</a> notification. The <b>CancelCode</b> member of the structure contains an input value that the Windows <a href="https://msdn.microsoft.com/B08F8ABF-FD43-434C-A345-337FBB799D9B">power management framework</a> (PoFx) supplies before this notification is sent.
+This structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pep_x/ns-pep_x-_pep_ppm_idle_cancel">PEP_NOTIFY_PPM_IDLE_CANCEL</a> notification. The <b>CancelCode</b> member of the structure contains an input value that the Windows <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">power management framework</a> (PoFx) supplies before this notification is sent.
 
 
 
@@ -73,11 +73,11 @@ This structure is used by the <a href="https://msdn.microsoft.com/library/window
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt629119">PEP_NOTIFY_PPM_IDLE_CANCEL</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pep_x/ns-pep_x-_pep_ppm_idle_cancel">PEP_NOTIFY_PPM_IDLE_CANCEL</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt629123">PEP_PROCESSOR_IDLE_CANCEL_CODE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pep_x/ne-pep_x-pep_processor_idle_cancel_code">PEP_PROCESSOR_IDLE_CANCEL_CODE</a>
  
 
  

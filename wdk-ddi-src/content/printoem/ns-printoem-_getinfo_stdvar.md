@@ -46,7 +46,7 @@ req.typenames: GETINFO_STDVAR, *PGETINFO_STDVAR
 ## -description
 
 
-The GETINFO_STDVAR structure is used as input to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a> callback function.
+The GETINFO_STDVAR structure is used as input to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/nc-printoem-pfngetinfo">UNIFONTOBJ_GetInfo</a> callback function.
 
 
 ## -struct-fields
@@ -56,7 +56,7 @@ The GETINFO_STDVAR structure is used as input to the <a href="https://msdn.micro
 
 ### -field dwSize
 
-Specifies the size, in bytes, of the GETINFO_STDVAR structure. Supplied by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a> caller.
+Specifies the size, in bytes, of the GETINFO_STDVAR structure. Supplied by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/nc-printoem-pfngetinfo">UNIFONTOBJ_GetInfo</a> caller.
 
 
 ### -field dwNumOfVariable
@@ -80,7 +80,7 @@ Is an array specifying standard variable indexes and values. Each array element 
 
 #### dwStdVarID
 
-Specifies the <a href="https://msdn.microsoft.com/d3f85c0f-7387-4301-8b1e-904471aed4b0">standard variables</a> for which a value should be returned. Supplied by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a> caller. Valid values are contained in the following table.
+Specifies the <a href="https://docs.microsoft.com/windows-hardware/drivers/print/standard-variables">standard variables</a> for which a value should be returned. Supplied by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/nc-printoem-pfngetinfo">UNIFONTOBJ_GetInfo</a> caller. Valid values are contained in the following table.
 
 <table>
 <tr>
@@ -230,22 +230,22 @@ FNT_INFO_TEXTYRES
 </table>
  
 
-Supplied by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a> caller.
+Supplied by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/nc-printoem-pfngetinfo">UNIFONTOBJ_GetInfo</a> caller.
 
 
 
 #### lStdVariable
 
-Specifies the current value of the specified standard variable. Supplied by Unidrv's <a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a> callback function.
+Specifies the current value of the specified standard variable. Supplied by Unidrv's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/nc-printoem-pfngetinfo">UNIFONTOBJ_GetInfo</a> callback function.
 
 
 ## -remarks
 
 
 
-To obtain the current value for one or more of Unidrv's standard variables, a rendering plug-in can supply the address of a GETINFO_STDVAR structure when calling Unidrv's <a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a> callback function.
+To obtain the current value for one or more of Unidrv's standard variables, a rendering plug-in can supply the address of a GETINFO_STDVAR structure when calling Unidrv's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/nc-printoem-pfngetinfo">UNIFONTOBJ_GetInfo</a> callback function.
 
-For more information about <a href="https://msdn.microsoft.com/d3f85c0f-7387-4301-8b1e-904471aed4b0">standard variables</a>, see <a href="https://msdn.microsoft.com/1f5d68a1-3552-44a9-a0c5-b3ec5fe22a22">Microsoft Universal Printer Driver</a>.
+For more information about <a href="https://docs.microsoft.com/windows-hardware/drivers/print/standard-variables">standard variables</a>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/microsoft-universal-printer-driver">Microsoft Universal Printer Driver</a>.
 
 
 
@@ -255,7 +255,7 @@ For more information about <a href="https://msdn.microsoft.com/d3f85c0f-7387-430
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/nc-printoem-pfngetinfo">UNIFONTOBJ_GetInfo</a>
  
 
  

@@ -91,7 +91,7 @@ This routine must be called before an initial call to <a href="https://msdn.micr
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570293">VideoPortDeleteSpinLock</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportdeletespinlock">VideoPortDeleteSpinLock</a>
  
 
  

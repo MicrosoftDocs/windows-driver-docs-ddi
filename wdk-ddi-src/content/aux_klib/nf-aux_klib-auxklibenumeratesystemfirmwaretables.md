@@ -164,11 +164,11 @@ The raw firmware table provider ('FIRM') retrieves a list of DWORD table identif
 
 The ACPI table provider ('ACPI') returns a list of DWORD table identifiers. Each identifier returned corresponds to <b>Signature</b> field of the <b>DESCRIPTION_HEADER</b> structure for an ACPI table currently in the ACPI namespace of the system. For more information about this structure, see the Advanced Configuration and Power Interface Specification at the <a href="https://go.microsoft.com/fwlink/p/?linkid=57185">Advanced Configuration and Power Interface</a> website.
 
-For ACPI, if the system firmware contains multiple tables with the same name, <b>AuxKlibEnumerateSystemFirmwareTables</b> enumerates them all. However, <a href="https://msdn.microsoft.com/library/windows/hardware/jj151549">AuxKlibGetSystemFirmwareTable</a> retrieves only the first table in the list that has this name.
+For ACPI, if the system firmware contains multiple tables with the same name, <b>AuxKlibEnumerateSystemFirmwareTables</b> enumerates them all. However, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/aux_klib/nf-aux_klib-auxklibgetsystemfirmwaretable">AuxKlibGetSystemFirmwareTable</a> retrieves only the first table in the list that has this name.
 
-<b>AuxKlibEnumerateSystemFirmwareTables</b> is the kernel-mode equivalent of the Win32 <a href="https://msdn.microsoft.com/library/windows/hardware/hh802466">EnumSystemFirmwareTables</a> function.
+<b>AuxKlibEnumerateSystemFirmwareTables</b> is the kernel-mode equivalent of the Win32 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/ns-dispmprt-_dxgk_firmware_table_interface">EnumSystemFirmwareTables</a> function.
 
-Drivers must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff540636">AuxKlibInitialize</a> before calling <b>AuxKlibEnumerateSystemFirmwareTable</b>.
+Drivers must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/aux_klib/nf-aux_klib-auxklibinitialize">AuxKlibInitialize</a> before calling <b>AuxKlibEnumerateSystemFirmwareTable</b>.
 
 <b>AuxKlibEnumerateSystemFirmwareTables</b> is defined in the Aux_klib.h header file that is included in the WDK for Windows 8 and later versions of Windows. To use this routine, drivers should link to the version of Aux_klib.lib that is included in the WDK for Windows 8 and later versions of Windows. The implementation of <b>AuxKlibEnumerateSystemFirmwareTables</b> in these versions of the WDK can be used in versions of Windows starting with Windows Vista.
 
@@ -180,15 +180,15 @@ Drivers must call <a href="https://msdn.microsoft.com/library/windows/hardware/f
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj151549">AuxKlibGetSystemFirmwareTable</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/aux_klib/nf-aux_klib-auxklibgetsystemfirmwaretable">AuxKlibGetSystemFirmwareTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540636">AuxKlibInitialize</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/aux_klib/nf-aux_klib-auxklibinitialize">AuxKlibInitialize</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh802466">EnumSystemFirmwareTables</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/ns-dispmprt-_dxgk_firmware_table_interface">EnumSystemFirmwareTables</a>
  
 
  

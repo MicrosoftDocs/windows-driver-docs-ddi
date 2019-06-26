@@ -83,10 +83,10 @@ This value specifies that the NIC is deleted.
 
 
 
-The <b>NicState</b>  member of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh598215">NDIS_SWITCH_NIC_PARAMETERS</a> structure is an <b>NDIS_SWITCH_NIC_STATE</b> enumeration data type. 
+The <b>NicState</b>  member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_switch_nic_parameters">NDIS_SWITCH_NIC_PARAMETERS</a> structure is an <b>NDIS_SWITCH_NIC_STATE</b> enumeration data type. 
 
 
-For more information about extensible switch port states, see <a href="https://msdn.microsoft.com/61403FDE-90BF-4D0A-83E1-5AF8ADBD37A5">Overview of Hyper-V Extensible Switch Network Adapters</a>.
+For more information about extensible switch port states, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/overview-of-hyper-v-extensible-switch-network-adapters">Overview of Hyper-V Extensible Switch Network Adapters</a>.
 
 
 
@@ -96,7 +96,7 @@ For more information about extensible switch port states, see <a href="https://m
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598215">NDIS_SWITCH_NIC_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_switch_nic_parameters">NDIS_SWITCH_NIC_PARAMETERS</a>
  
 
  

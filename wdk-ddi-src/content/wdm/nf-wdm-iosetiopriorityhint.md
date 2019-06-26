@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <b>IoSetIoPriorityHint</b> routine sets the <a href="https://msdn.microsoft.com/c34afff2-32f2-451b-ab16-ff048d5c3204">priority hint value</a> for an IRP.
+The <b>IoSetIoPriorityHint</b> routine sets the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-irp-priority-hints">priority hint value</a> for an IRP.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Specifies the IRP to set the priority hint value for.
 
 ### -param PriorityHint [in]
 
-Specifies the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550594">IO_PRIORITY_HINT</a> value that indicates the new priority hint.
+Specifies the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_io_priority_hint">IO_PRIORITY_HINT</a> value that indicates the new priority hint.
 
 
 ## -returns
@@ -77,7 +77,7 @@ Specifies the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550
 
 
 
-For more information about priority hints, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565403">Using IRP Priority Hints</a>.
+For more information about priority hints, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-irp-priority-hints">Using IRP Priority Hints</a>.
 
 
 
@@ -87,11 +87,11 @@ For more information about priority hints, see <a href="https://msdn.microsoft.c
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550594">IO_PRIORITY_HINT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_io_priority_hint">IO_PRIORITY_HINT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549265">IoGetIoPriorityHint</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iogetiopriorityhint">IoGetIoPriorityHint</a>
  
 
  

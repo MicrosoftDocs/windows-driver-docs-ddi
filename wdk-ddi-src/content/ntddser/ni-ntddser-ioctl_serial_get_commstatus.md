@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <b>IOCTL_SERIAL_GET_COMMSTATUS</b> request returns information about the communication status of a serial device. For more information about the status information that is retrieved by this request, see <a href="https://msdn.microsoft.com/library/windows/hardware/jj673022">SERIAL_STATUS</a>.
+The <b>IOCTL_SERIAL_GET_COMMSTATUS</b> request returns information about the communication status of a serial device. For more information about the status information that is retrieved by this request, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddser/ns-ntddser-_serial_status">SERIAL_STATUS</a>.
 
 
 ## -ioctlparameters
@@ -104,7 +104,7 @@ The <b>Status</b> member is set to one of the <a href="https://docs.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj673022">SERIAL_STATUS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddser/ns-ntddser-_serial_status">SERIAL_STATUS</a>
  
 
  

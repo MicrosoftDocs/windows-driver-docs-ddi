@@ -46,7 +46,7 @@ req.typenames: WHEA_MEMORY_ERROR_SECTION_VALIDBITS, *PWHEA_MEMORY_ERROR_SECTION_
 ## -description
 
 
-The WHEA_MEMORY_ERROR_SECTION_VALIDBITS union describes which members of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff560565">WHEA_MEMORY_ERROR_SECTION</a> structure contain valid data.
+The WHEA_MEMORY_ERROR_SECTION_VALIDBITS union describes which members of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_whea_memory_error_section">WHEA_MEMORY_ERROR_SECTION</a> structure contain valid data.
 
 
 ## -struct-fields
@@ -150,10 +150,10 @@ The type of memory error that occurred. Possible values are:
 | --------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | WHEA_MEMERRTYPE_UNKNOWN           | An unknown error.                                                                                                                                                                |
 | WHEA_MEMERRTYPE_NOERROR           | No error occurred.                                                                                                                                                               |
-| WHEA_MEMERRTYPE_SINGLEBITECC      | A single bit [ECC](https://msdn.microsoft.com/0dd010e7-3e10-422a-adcb-8fe7df9e29ab) error.                                                                            |
+| WHEA_MEMERRTYPE_SINGLEBITECC      | A single bit [ECC](https://docs.microsoft.com/windows-hardware/drivers/) error.                                                                            |
 | WHEA_MEMERRTYPE_MULTIBITECC       | multibit ECC error.                                                                                                                                                              |
-| WHEA_MEMERRTYPE_SINGLESYMCHIPKILL | A single symbol <a href="https://go.microsoft.com/fwlink/p/?linkid=81372">ChipKill</a> <a href="https://msdn.microsoft.com/0dd010e7-3e10-422a-adcb-8fe7df9e29ab">ECC</a> error.   |
-| WHEA_MEMERRTYPE_MULTISYMCHIPKILL  | A multiple symbol <a href="https://go.microsoft.com/fwlink/p/?linkid=81372">ChipKill</a> <a href="https://msdn.microsoft.com/0dd010e7-3e10-422a-adcb-8fe7df9e29ab">ECC</a> error. |
+| WHEA_MEMERRTYPE_SINGLESYMCHIPKILL | A single symbol <a href="https://go.microsoft.com/fwlink/p/?linkid=81372">ChipKill</a> <a href="https://docs.microsoft.com/windows-hardware/drivers/">ECC</a> error.   |
+| WHEA_MEMERRTYPE_MULTISYMCHIPKILL  | A multiple symbol <a href="https://go.microsoft.com/fwlink/p/?linkid=81372">ChipKill</a> <a href="https://docs.microsoft.com/windows-hardware/drivers/">ECC</a> error. |
 | WHEA_MEMERRTYPE_MASTERABORT       | A master abort.                                                                                                                                                                  |
 | WHEA_MEMERRTYPE_TARGETABORT       | A target abort.                                                                                                                                                                  |
 | WHEA_MEMERRTYPE_PARITYERROR       | A parity error.                                                                                                                                                                  |
@@ -198,7 +198,7 @@ Reserved.
 
 
 
-A WHEA_MEMORY_ERROR_SECTION_VALIDBITS union is contained within the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560565">WHEA_MEMORY_ERROR_SECTION</a> structure.
+A WHEA_MEMORY_ERROR_SECTION_VALIDBITS union is contained within the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_whea_memory_error_section">WHEA_MEMORY_ERROR_SECTION</a> structure.
 
 
 
@@ -208,7 +208,7 @@ A WHEA_MEMORY_ERROR_SECTION_VALIDBITS union is contained within the <a href="htt
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560565">WHEA_MEMORY_ERROR_SECTION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_whea_memory_error_section">WHEA_MEMORY_ERROR_SECTION</a>
  
 
  

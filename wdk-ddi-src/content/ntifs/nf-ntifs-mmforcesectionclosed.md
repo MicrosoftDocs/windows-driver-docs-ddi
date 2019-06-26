@@ -74,7 +74,7 @@ A Boolean value that specifies whether the section is subsequently deleted if <b
 
 <b>MmForceSectionClosed</b> returns <b>TRUE</b> if the sections were successfully deleted or no sections were found, <b>FALSE</b> otherwise.
 
-<div class="alert"><b>Note</b>  If there are one or more outstanding write probes on the file's data section, <a href="https://msdn.microsoft.com/library/windows/hardware/ff549808">MmFlushImageSection</a> returns <b>FALSE</b>.</div>
+<div class="alert"><b>Note</b>  If there are one or more outstanding write probes on the file's data section, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-mmflushimagesection">MmFlushImageSection</a> returns <b>FALSE</b>.</div>
 <div> </div>
 
 
@@ -83,7 +83,7 @@ A Boolean value that specifies whether the section is subsequently deleted if <b
 
 
 
-For more information about creating mapped sections and views of memory, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563682">Sections and Views</a>.
+For more information about creating mapped sections and views of memory, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">Sections and Views</a>.
 
 
 
@@ -97,7 +97,7 @@ For more information about creating mapped sections and views of memory, see <a 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549808">MmFlushImageSection</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-mmflushimagesection">MmFlushImageSection</a>
  
 
  

@@ -46,7 +46,7 @@ req.typenames: USB_NODE_INFORMATION, *PUSB_NODE_INFORMATION
 ## -description
 
 
-The <b>USB_NODE_INFORMATION</b> structure is used with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537324">IOCTL_USB_GET_NODE_INFORMATION</a> I/O control request to retrieve information about a parent device.
+The <b>USB_NODE_INFORMATION</b> structure is used with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbioctl/ni-usbioctl-ioctl_usb_get_node_information">IOCTL_USB_GET_NODE_INFORMATION</a> I/O control request to retrieve information about a parent device.
 
 
 ## -struct-fields
@@ -56,7 +56,7 @@ The <b>USB_NODE_INFORMATION</b> structure is used with the <a href="https://msdn
 
 ### -field NodeType
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff540028">USB_HUB_NODE</a> enumerator that indicates whether the parent device is a hub or a non-hub composite device.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbioctl/ne-usbioctl-_usb_hub_node">USB_HUB_NODE</a> enumerator that indicates whether the parent device is a hub or a non-hub composite device.
 
 
 ### -field u
@@ -66,12 +66,12 @@ The members of the <b>u</b> union are as follows:
 
 ### -field u.HubInformation
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff540020">USB_HUB_INFORMATION</a> structure that contains information about a parent hub device.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbioctl/ns-usbioctl-_usb_hub_information">USB_HUB_INFORMATION</a> structure that contains information about a parent hub device.
 
 
 ### -field u.MiParentInformation
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff540075">USB_MI_PARENT_INFORMATION</a> structure that contains information about a parent non-hub, composite device.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbioctl/ns-usbioctl-_usb_mi_parent_information">USB_MI_PARENT_INFORMATION</a> structure that contains information about a parent non-hub, composite device.
 
 
 ## -remarks
@@ -88,23 +88,23 @@ A parent device can be either a hub or a composite device. The USB stack treats 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537324">IOCTL_USB_GET_NODE_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbioctl/ni-usbioctl-ioctl_usb_get_node_information">IOCTL_USB_GET_NODE_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">USB Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540020">USB_HUB_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbioctl/ns-usbioctl-_usb_hub_information">USB_HUB_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540028">USB_HUB_NODE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbioctl/ne-usbioctl-_usb_hub_node">USB_HUB_NODE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540075">USB_MI_PARENT_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbioctl/ns-usbioctl-_usb_mi_parent_information">USB_MI_PARENT_INFORMATION</a>
  
 
  

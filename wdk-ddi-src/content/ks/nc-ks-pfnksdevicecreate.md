@@ -56,7 +56,7 @@ An AVStream minidriver's <i>AVStrMiniDeviceAdd</i> routine notifies the minidriv
 
 ### -param Device [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561681">KSDEVICE</a> structure describing the functional device object (FDO) that has just been created.
+Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksdevice">KSDEVICE</a> structure describing the functional device object (FDO) that has just been created.
 
 
 ## -returns
@@ -72,9 +72,9 @@ Should return STATUS_SUCCESS or the error code that was returned from the attemp
 
 
 
-The minidriver specifies this routine's address in the <b>Add</b> member of its <a href="https://msdn.microsoft.com/library/windows/hardware/ff561693">KSDEVICE_DISPATCH</a> structure.
+The minidriver specifies this routine's address in the <b>Add</b> member of its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksdevice_dispatch">KSDEVICE_DISPATCH</a> structure.
 
-AVStream calls <i>AVStrMiniDeviceAdd</i> from its default <i>AddDevice</i> routine, at <a href="https://msdn.microsoft.com/library/windows/hardware/ff561681">KSDEVICE</a> initialization time. At the point at which this routine is called, the WDM device object (<a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>) has been created, the <b>KSDEVICE</b> structure has been instantiated and initialized, and the KS device header has been allocated.
+AVStream calls <i>AVStrMiniDeviceAdd</i> from its default <i>AddDevice</i> routine, at <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksdevice">KSDEVICE</a> initialization time. At the point at which this routine is called, the WDM device object (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>) has been created, the <b>KSDEVICE</b> structure has been instantiated and initialized, and the KS device header has been allocated.
 
 Minidrivers can use this routine to associate context information with the AVStream device object, or to initialize a device extension.
 
@@ -90,7 +90,7 @@ This routine is optional.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561693">KSDEVICE_DISPATCH</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksdevice_dispatch">KSDEVICE_DISPATCH</a>
  
 
  

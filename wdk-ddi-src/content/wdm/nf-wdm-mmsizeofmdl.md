@@ -87,11 +87,11 @@ Memory for the MDL itself must be allocated from nonpaged pool.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554500">MmCreateMdl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mmcreatemdl">MmCreateMdl</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554568">MmInitializeMdl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer">MmInitializeMdl</a>
  
 
  

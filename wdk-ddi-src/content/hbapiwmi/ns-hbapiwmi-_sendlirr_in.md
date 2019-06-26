@@ -46,7 +46,7 @@ req.typenames: SendLIRR_IN, *PSendLIRR_IN
 ## -description
 
 
-The SendLIRR_IN structure is used to deliver parameter data to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565419">SendLIRR</a> WMI method. 
+The SendLIRR_IN structure is used to deliver parameter data to the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/sendlirr">SendLIRR</a> WMI method. 
 
 
 ## -struct-fields
@@ -78,7 +78,7 @@ Indicates the device type for which link information is requested. For an explan
 
 
 
-The WMI tool suite generates a declaration of the SendLIRR_IN structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562506">MSFC_HBAAdapterMethods WMI Class</a>.
+The WMI tool suite generates a declaration of the SendLIRR_IN structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msfc-hbaadaptermethods-wmi-class">MSFC_HBAAdapterMethods WMI Class</a>.
 
 
 
@@ -88,7 +88,7 @@ The WMI tool suite generates a declaration of the SendLIRR_IN structure in <i>Hb
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565419">SendLIRR</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/sendlirr">SendLIRR</a>
  
 
  

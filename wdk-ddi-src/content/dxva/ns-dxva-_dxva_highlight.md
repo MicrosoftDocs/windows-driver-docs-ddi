@@ -91,7 +91,7 @@ For nonzero values, the specified blend is found using the following expression:
 
 ### -field HighlightRect
 
-Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that defines the area of the highlight rectangle.
+Specifies a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a> structure that defines the area of the highlight rectangle.
 
 The following restrictions apply to the RECT dimensions:
 
@@ -126,7 +126,7 @@ The DXVA_Highlight structure is formulated in a manner compatible with the DVD v
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a>
  
 
  

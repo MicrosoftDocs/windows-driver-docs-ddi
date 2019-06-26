@@ -63,7 +63,7 @@ Receives the platform ID. <i>PlatformId</i> is always VER_PLATFORM_WIN32_NT for 
 
 ### -param Major [out]
 
-Receives 0xF if the target's operating system is a <a href="https://msdn.microsoft.com/f697e0db-1db0-4a81-94d8-0ca079885480">free build</a>, or 0xC if the operating system is a <a href="https://msdn.microsoft.com/ac439eb8-b491-4215-877d-5ee177fbdb39">checked build</a>.
+Receives 0xF if the target's operating system is a <a href="https://docs.microsoft.com/windows-hardware/drivers/">free build</a>, or 0xC if the operating system is a <a href="https://docs.microsoft.com/windows-hardware/drivers/">checked build</a>.
 
 
 ### -param Minor [out]
@@ -110,7 +110,7 @@ Receives the size, in characters, of the string that identifies the build.  If <
 
 
 
-This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 <table>
 <tr>
@@ -149,7 +149,7 @@ The method was successful. However, the <i>ServicePackString</i> buffer or the <
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558860">Target Information</a>.
+For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/target-information">Target Information</a>.
 
 
 
@@ -159,23 +159,23 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549245">GetSystemVersionString</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol4-getsystemversionstring">GetSystemVersionString</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549258">GetSystemVersionValues</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol4-getsystemversionvalues">GetSystemVersionValues</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550508">IDebugControl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugcontrol">IDebugControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550512">IDebugControl2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugcontrol2">IDebugControl2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550519">IDebugControl3</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugcontrol3">IDebugControl3</a>
  
 
  

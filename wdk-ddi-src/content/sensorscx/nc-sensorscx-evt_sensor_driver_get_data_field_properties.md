@@ -61,12 +61,12 @@ This callback function returns the properties of a given data field associated w
 
 ### -param pDataField
 
-[in] A reference to a data field. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/dn946691">Sensor data fields</a>.
+[in] A reference to a data field. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/sensors/sensor-data-fields">Sensor data fields</a>.
 
 
 ### -param pProperties
 
-[in, out, optional] A list of properties and their values for the specified <b>Sensor</b>. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/dn957092">SENSOR_COLLECTION_LIST</a>.
+[in, out, optional] A list of properties and their values for the specified <b>Sensor</b>. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sensorsdef/ns-sensorsdef-sensor_collection_list">SENSOR_COLLECTION_LIST</a>.
 
 
 ### -param pSize
@@ -99,15 +99,15 @@ This function must be implemented by the driver and is called by the class exten
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn957080">Proximity sensor data fields</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/sensors/proximity-sensor-data-fields">Proximity sensor data fields</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn957092">SENSOR_COLLECTION_LIST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sensorsdef/ns-sensorsdef-sensor_collection_list">SENSOR_COLLECTION_LIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn946691">Sensor data fields</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/sensors/sensor-data-fields">Sensor data fields</a>
  
 
  

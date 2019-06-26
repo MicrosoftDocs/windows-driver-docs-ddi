@@ -36,7 +36,7 @@ ms.custom: RS5
 # _USBC_PD_POWER_DATA_OBJECT structure
 
 ## -description
-Describes a Power Data Object (PDO). For information about these members, see the [Power Delivery specification](http://www.usb.org/developers/docs/usb20_docs/).
+Describes a Power Data Object (PDO). For information about these members, see the [Power Delivery specification](https://www.usb.org/documents?search=&tid_2%5B0%5D=40&items_per_page=50).
 
 ## -struct-fields
 

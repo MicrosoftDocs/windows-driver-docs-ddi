@@ -50,7 +50,7 @@ req.typenames:
 The IOCTL_BTH_SDP_SUBMIT_RECORD request allows a profile driver to add an SDP record to the local SDP
      server, allowing the client to advertise that a service is available on the local computer. The profile
      driver calls 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536690">IOCTL_BTH_SDP_REMOVE_RECORD</a> to
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthioctl/ni-bthioctl-ioctl_bth_sdp_remove_record">IOCTL_BTH_SDP_REMOVE_RECORD</a> to
      stop advertising the server on the local SDP server.
 
 
@@ -168,7 +168,7 @@ The stream passed to the input buffer was invalid.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536690">IOCTL_BTH_SDP_REMOVE_RECORD</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthioctl/ni-bthioctl-ioctl_bth_sdp_remove_record">IOCTL_BTH_SDP_REMOVE_RECORD</a>
  
 
  

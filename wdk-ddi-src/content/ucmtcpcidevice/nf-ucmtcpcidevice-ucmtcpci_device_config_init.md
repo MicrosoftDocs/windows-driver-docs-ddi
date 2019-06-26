@@ -47,7 +47,7 @@ req.typenames:
 
 
 
-                        Initializes the <a href="https://msdn.microsoft.com/library/windows/hardware/mt805896">UCMTCPCI_DEVICE_CONFIG</a> structure.
+                        Initializes the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucmtcpcidevice/ns-ucmtcpcidevice-_ucmtcpci_device_config">UCMTCPCI_DEVICE_CONFIG</a> structure.
                 
 
 
@@ -58,7 +58,7 @@ req.typenames:
 
 ### -param Config [out]
 
-A pointer to the driver-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/mt805896">UCMTCPCI_DEVICE_CONFIG</a> structure.
+A pointer to the driver-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucmtcpcidevice/ns-ucmtcpcidevice-_ucmtcpci_device_config">UCMTCPCI_DEVICE_CONFIG</a> structure.
 
 
 ## -returns
@@ -75,7 +75,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt805841">UcmTcpciDeviceInitialize</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucmtcpcidevice/nf-ucmtcpcidevice-ucmtcpcideviceinitialize">UcmTcpciDeviceInitialize</a>
  
 
  

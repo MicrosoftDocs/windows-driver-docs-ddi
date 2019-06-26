@@ -76,7 +76,7 @@ None
 
 File systems can use a per-volume tunnel cache to cache file names and other metadata for files that are being renamed or deleted. 
 
-Entries are added to the tunnel cache by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff545599">FsRtlAddToTunnelCache</a>. Each entry contains the file name and directory key for a file, and can also contain a fixed-size data packet of file-system-specific information. When the tunnel cache becomes full, older entries are removed automatically. 
+Entries are added to the tunnel cache by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtladdtotunnelcache">FsRtlAddToTunnelCache</a>. Each entry contains the file name and directory key for a file, and can also contain a fixed-size data packet of file-system-specific information. When the tunnel cache becomes full, older entries are removed automatically. 
 
 For more information about file name tunneling, see <a href="https://go.microsoft.com/fwlink/p/?linkid=3100&id=172190">Microsoft Knowledge Base Article 172190</a>.
 
@@ -88,7 +88,7 @@ For more information about file name tunneling, see <a href="https://go.microsof
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545599">FsRtlAddToTunnelCache</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtladdtotunnelcache">FsRtlAddToTunnelCache</a>
  
 
  

@@ -94,7 +94,7 @@ If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.co
 
 
 
-Access this function by using the <a href="https://msdn.microsoft.com/4E4C3DB3-9C4C-4BBC-82C4-C5C41C0B818C">D3D12DDI_DEVICE_FUNCS_CORE_0021</a> structure.
+Access this function by using the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d12umddi/ns-d3d12umddi-d3d12ddi_device_funcs_core_0021">D3D12DDI_DEVICE_FUNCS_CORE_0021</a> structure.
 
 
 

@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-This method ends a power trace session. Any power state events that occurred between the last <a href="https://msdn.microsoft.com/b82ebd99-289e-4761-9717-ce09cf5c40f0">PowerTracingStart</a> or <a href="https://msdn.microsoft.com/c37095d2-fbf5-49fa-a6c8-b4776bf530af">PowerTracingStartByFile</a>  method and this
+This method ends a power trace session. Any power state events that occurred between the last <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtfsystemaction/nf-wdtfsystemaction-iwdtfsystemaction2-powertracingstart">PowerTracingStart</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtfsystemaction/nf-wdtfsystemaction-iwdtfsystemaction2-powertracingstartbyfile">PowerTracingStartByFile</a>  method and this
     end method will be captured in the associated trace message (.etl) log file. In addition, the related namespace and fields for the system and any applicable devices
     can be queried.
 
@@ -73,7 +73,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439302">IWDTFSystemAction2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtfsystemaction/nn-wdtfsystemaction-iwdtfsystemaction2">IWDTFSystemAction2</a>
  
 
  

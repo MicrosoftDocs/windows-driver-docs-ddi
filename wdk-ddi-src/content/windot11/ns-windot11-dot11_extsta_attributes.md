@@ -48,7 +48,7 @@ product:
 ## -description
 
 
-<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The <b>DOT11_EXTSTA_ATTRIBUTES</b> structure defines the physical and operating attributes of the miniport
+<div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The <b>DOT11_EXTSTA_ATTRIBUTES</b> structure defines the physical and operating attributes of the miniport
   driver and 802.11 station when operating in Extensible Station (ExtSTA) mode. For more information about
   this operation mode, see
   <a href="https://docs.microsoft.com/windows-hardware/drivers/network/extensible-station-operation-mode">Extensible Station Operation
@@ -167,7 +167,7 @@ The maximum number of service set identifiers (SSIDs) supported by the 802.11 st
 
 
 The SSID list that the 802.11 station uses for scanning is specified when
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569413">OID_DOT11_SCAN_REQUEST</a> is
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-scan-request">OID_DOT11_SCAN_REQUEST</a> is
      set.
 
 
@@ -308,7 +308,7 @@ If the 802.11 station does not support a PMKID cache, the miniport driver must s
      zero. Otherwise, the 802.11 station must support a PMKID cache size of at least three entries.
 
 For more information about the PMKID cache, see
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569400">OID_DOT11_PMKID_LIST</a>.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-pmkid-list">OID_DOT11_PMKID_LIST</a>.
 
 
 ### -field uMaxNumPerSTADefaultKeyTables
@@ -318,7 +318,7 @@ The maximum number of per-station default cipher key tables supported by the 802
 
 
 For more information about per-station default cipher key tables, see
-     <a href="https://msdn.microsoft.com/a68799cb-1422-4d0b-8dca-7f9bacb9f133">Per-Station Default Keys</a>.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/per-station-default-keys">Per-Station Default Keys</a>.
 
 
 ### -field bStrictlyOrderedServiceClassImplemented
@@ -582,7 +582,7 @@ Management Frame Protection Required (MFPR) enforcement on Windows 8 is not sup
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569400">OID_DOT11_PMKID_LIST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-pmkid-list">OID_DOT11_PMKID_LIST</a>
 
 
 
@@ -621,7 +621,7 @@ Management Frame Protection Required (MFPR) enforcement on Windows 8 is not sup
 
 
 
-<a href="https://msdn.microsoft.com/a68799cb-1422-4d0b-8dca-7f9bacb9f133">Per-Station Default Keys</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/per-station-default-keys">Per-Station Default Keys</a>
 
 
 
@@ -634,7 +634,7 @@ Management Frame Protection Required (MFPR) enforcement on Windows 8 is not sup
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569413">OID_DOT11_SCAN_REQUEST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-scan-request">OID_DOT11_SCAN_REQUEST</a>
 
 
 

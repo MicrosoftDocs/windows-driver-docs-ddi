@@ -66,7 +66,7 @@ The <b>IWDTFSimpleIOStressAction2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451185">Continue</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">Continue</a>
 </td>
 <td align="left" width="63%">
 Continues the I/O.
@@ -75,7 +75,7 @@ Continues the I/O.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451187">ContinueAsync</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">ContinueAsync</a>
 </td>
 <td align="left" width="63%">
 Asynchronously signals the I/O to continue.
@@ -84,7 +84,7 @@ Asynchronously signals the I/O to continue.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451189">Pause</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">Pause</a>
 </td>
 <td align="left" width="63%">
 Pauses the I/O.
@@ -93,7 +93,7 @@ Pauses the I/O.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh973223">Start</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nf-printerextension-iprintschemaasyncoperation-start">Start</a>
 </td>
 <td align="left" width="63%">
 Opens the device.
@@ -102,7 +102,7 @@ Opens the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451171">StartAsync</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtfinterfaces/nf-wdtfinterfaces-iwdtfsimpleiostressaction2-startasync">StartAsync</a>
 </td>
 <td align="left" width="63%">
 Asynchronously signals a start event to occur.
@@ -111,7 +111,7 @@ Asynchronously signals a start event to occur.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn927275">Stop</a>
+<a href="https://docs.microsoft.com/windows-hardware/test/wpt/stop-icontrolmanager">Stop</a>
 </td>
 <td align="left" width="63%">
 Stops the device.
@@ -120,7 +120,7 @@ Stops the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439268">StopAsync</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">StopAsync</a>
 </td>
 <td align="left" width="63%">
 Asynchronously signals the stop event to occur.
@@ -129,7 +129,7 @@ Asynchronously signals the stop event to occur.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439271">WaitAsyncCompletion</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">WaitAsyncCompletion</a>
 </td>
 <td align="left" width="63%">
 Waits for the completion of any of the asynchronous events.

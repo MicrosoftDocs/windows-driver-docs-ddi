@@ -53,7 +53,7 @@ Enables the simulated battery.
 
  Use this method to enable the simulated battery (installs simulated
     battery device).  This does not guarantee the ability to simulate DC by
-    itself, the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265161">IWDTFSimulatedBatterySystemAction::DisableRealBatteries</a> method must also be called in order to guarantee a real battery doesn't interfere with the simulation.
+    itself, the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">IWDTFSimulatedBatterySystemAction::DisableRealBatteries</a> method must also be called in order to guarantee a real battery doesn't interfere with the simulation.
 
 
 ## -parameters
@@ -78,11 +78,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265160">IWDTFSimulatedBatterySystemAction</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">IWDTFSimulatedBatterySystemAction</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265161">IWDTFSimulatedBatterySystemAction::DisableRealBatteries</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">IWDTFSimulatedBatterySystemAction::DisableRealBatteries</a>
  
 
  

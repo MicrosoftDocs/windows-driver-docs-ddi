@@ -62,14 +62,14 @@ The IOCTL_BTH_SDP_CONNECT request creates a connection to the SDP service on a r
 
 The 
       <b>AssociatedIrp.SystemBuffer</b> member contains a 
-      <a href="https://msdn.microsoft.com/library/windows/hardware/ff536648">BTH_SDP_CONNECT</a> structure that specifies
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthioctl/ns-bthioctl-_bth_sdp_connect">BTH_SDP_CONNECT</a> structure that specifies
       the address of the remote SDP server, the request's timeout setting, and other information specific to
       the connection.
 
 
 ### -input-buffer-length
 
-Length of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff536648">BTH_SDP_CONNECT</a> structure.
+Length of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthioctl/ns-bthioctl-_bth_sdp_connect">BTH_SDP_CONNECT</a> structure.
 
 
 ### -output-buffer
@@ -81,7 +81,7 @@ The
 
 ### -output-buffer-length
 
-Length of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff536648">BTH_SDP_CONNECT</a> structure.
+Length of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthioctl/ns-bthioctl-_bth_sdp_connect">BTH_SDP_CONNECT</a> structure.
 
 
 ### -in-out-buffer
@@ -190,7 +190,7 @@ The IOCTL_BTH_SDP_CONNECT request allows a profile driver to obtain an SDP conne
     remote device. After the SDP connection handle is obtained, the profile driver can pass it to other SDP
     IOCTL interfaces to gather information about the remote device's SDP server. When the SDP queries are
     completed, the profile driver must close the SDP connection with 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff536689">IOCTL_BTH_SDP_DISCONNECT</a>.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthioctl/ni-bthioctl-ioctl_bth_sdp_disconnect">IOCTL_BTH_SDP_DISCONNECT</a>.
 
 
 
@@ -200,11 +200,11 @@ The IOCTL_BTH_SDP_CONNECT request allows a profile driver to obtain an SDP conne
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536648">BTH_SDP_CONNECT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthioctl/ns-bthioctl-_bth_sdp_connect">BTH_SDP_CONNECT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536689">IOCTL_BTH_SDP_DISCONNECT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthioctl/ni-bthioctl-ioctl_bth_sdp_disconnect">IOCTL_BTH_SDP_DISCONNECT</a>
  
 
  

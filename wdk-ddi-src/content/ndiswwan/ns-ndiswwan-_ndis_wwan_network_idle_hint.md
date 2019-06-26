@@ -58,7 +58,7 @@ The NDIS_WWAN_NETWORK_IDLE_HINT structure contains a hint for the network interf
 
 The type, revision, and size of the NDIS_WWAN_NETWORK_IDLE_HINT structure. This member is
      formatted as an 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure.
 
 The miniport driver must set the members of 
      <b>Header</b> to the following values:
@@ -88,7 +88,7 @@ The miniport driver must set the members of
 
 ### -field IdleHint
 
-A formatted <a href="https://msdn.microsoft.com/library/windows/hardware/dn931165">WWAN_NETWORK_IDLE_HINT</a> object that contains the network idle hint.
+A formatted <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_network_idle_hint">WWAN_NETWORK_IDLE_HINT</a> object that contains the network idle hint.
 
 
 ## -see-also
@@ -96,15 +96,15 @@ A formatted <a href="https://msdn.microsoft.com/library/windows/hardware/dn93116
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn931089">OID_WWAN_NETWORK_IDLE_HINT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-network-idle-hint">OID_WWAN_NETWORK_IDLE_HINT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn931165">WWAN_NETWORK_IDLE_HINT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_network_idle_hint">WWAN_NETWORK_IDLE_HINT</a>
  
 
  

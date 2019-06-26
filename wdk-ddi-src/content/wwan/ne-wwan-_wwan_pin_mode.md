@@ -80,7 +80,7 @@ The total number of supported PIN type states.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571214">WWAN_PIN_DESC</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_pin_desc">WWAN_PIN_DESC</a>
  
 
  

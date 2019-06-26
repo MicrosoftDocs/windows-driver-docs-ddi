@@ -95,7 +95,7 @@ The driver was successfully published
 <td width="60%">
 Invalid pointer to CVE-ID passed
 
-<div class="alert"><b>Note</b>  Events can be lost for several reasons; for example, if the event rate is too high or if the event size is greater than the buffer size. In these cases, the <b>EventsLost</b> counter, a member of the <a href="https://msdn.microsoft.com/0c967971-8df1-4679-a8a9-a783f5b35860">EVENT_TRACE_PROPERTIES</a> structure for the corresponding logger, is updated with the number of events that were not recorded.</div>
+<div class="alert"><b>Note</b>  Events can be lost for several reasons; for example, if the event rate is too high or if the event size is greater than the buffer size. In these cases, the <b>EventsLost</b> counter, a member of the <a href="https://docs.microsoft.com/windows/desktop/ETW/event-trace-properties">EVENT_TRACE_PROPERTIES</a> structure for the corresponding logger, is updated with the number of events that were not recorded.</div>
 <div> </div>
 </td>
 </tr>

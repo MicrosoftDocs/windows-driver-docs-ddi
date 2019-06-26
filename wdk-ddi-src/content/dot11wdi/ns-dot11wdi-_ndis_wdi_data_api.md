@@ -58,7 +58,7 @@ The
 ### -field Header
 
 The 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
      NDIS_WDI_DATA_API structure. Set the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to NDIS_OBJECT_TYPE_WDI_DATA_API.
@@ -79,82 +79,82 @@ Set the
 
 ### -field TxDequeueIndication
 
-The entry point of the <a href="https://msdn.microsoft.com/ACCB45DA-1233-4276-A0F5-466E50D9377B">NdisWdiTxDequeueIndication</a> callback function.
+The entry point of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dot11wdi/nc-dot11wdi-ndis_wdi_tx_dequeue_ind">NdisWdiTxDequeueIndication</a> callback function.
 
 
 ### -field TxTransferCompleteIndication
 
-The entry point of the <a href="https://msdn.microsoft.com/BC66C993-F571-4EB9-8163-65B038ECE754">NdisWdiTxTransferCompleteIndication</a> callback function.
+The entry point of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dot11wdi/nc-dot11wdi-ndis_wdi_tx_transfer_complete_ind">NdisWdiTxTransferCompleteIndication</a> callback function.
 
 
 ### -field TxSendCompleteIndication
 
-The entry point of the <a href="https://msdn.microsoft.com/A38BA15D-FDD8-41D1-87ED-2CABC1926962">NdisWdiTxSendCompleteIndication</a> callback function.
+The entry point of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dot11wdi/nc-dot11wdi-ndis_wdi_tx_send_complete_ind">NdisWdiTxSendCompleteIndication</a> callback function.
 
 
 ### -field TxQueryRATIDState
 
-The entry point of the <a href="https://msdn.microsoft.com/76949336-3349-4869-83C7-60D7D8A6BE24">NdisWdiTxQueryRATIDState</a> callback function.
+The entry point of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dot11wdi/nc-dot11wdi-ndis_wdi_tx_query_ra_tid_state">NdisWdiTxQueryRATIDState</a> callback function.
 
 
 ### -field TxSendPauseIndication
 
-The entry point of the <a href="https://msdn.microsoft.com/A8001D08-36B8-4557-A763-103BDC807CA4">NdisWdiTxSendPauseIndication</a> callback function.
+The entry point of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dot11wdi/nc-dot11wdi-ndis_wdi_tx_send_pause_ind">NdisWdiTxSendPauseIndication</a> callback function.
 
 
 ### -field TxSendRestartIndication
 
-The entry point of the <a href="https://msdn.microsoft.com/40976CC1-89A4-420F-867F-99F857670DAE">NdisWdiTxSendRestartIndication</a> callback function.
+The entry point of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dot11wdi/nc-dot11wdi-ndis_wdi_tx_send_restart_ind">NdisWdiTxSendRestartIndication</a> callback function.
 
 
 ### -field TxReleaseFrameIndication
 
-The entry point of the <a href="https://msdn.microsoft.com/1324D516-8AEF-4357-86EC-81F6EBDC8FB9">NdisWdiTxReleaseFrameIndication</a> callback function.
+The entry point of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dot11wdi/nc-dot11wdi-ndis_wdi_tx_release_frames_ind">NdisWdiTxReleaseFrameIndication</a> callback function.
 
 
 ### -field TxInjectFrameIndication
 
-The entry point of the <a href="https://msdn.microsoft.com/C384FAFF-E22D-4FA2-8B11-F6C046003C70">NdisWdiTxInjectFrameIndication</a> callback function.
+The entry point of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dot11wdi/nc-dot11wdi-ndis_wdi_tx_inject_frame_ind">NdisWdiTxInjectFrameIndication</a> callback function.
 
 
 ### -field TxAbortConfirm
 
-The entry point of the <a href="https://msdn.microsoft.com/1619BF14-DDEE-48CB-8E31-0CC17C8A4C6A">NdisWdiTxAbortConfirm</a> callback function.
+The entry point of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dot11wdi/nc-dot11wdi-ndis_wdi_tx_abort_confirm">NdisWdiTxAbortConfirm</a> callback function.
 
 
 ### -field RxInorderDataIndication
 
-The entry point of the <a href="https://msdn.microsoft.com/F2F92DAE-6C13-4EE6-9DE7-B77F5FAFAE60">NdisWdiRxInorderDataIndication</a> callback function.
+The entry point of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dot11wdi/nc-dot11wdi-ndis_wdi_rx_inorder_data_ind">NdisWdiRxInorderDataIndication</a> callback function.
 
 
 ### -field RxStopConfirm
 
-The entry point of the <a href="https://msdn.microsoft.com/2022915A-2717-4098-BCD8-34130A161967">NdisWdiRxStopConfirm</a> callback function.
+The entry point of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dot11wdi/nc-dot11wdi-ndis_wdi_rx_stop_confirm">NdisWdiRxStopConfirm</a> callback function.
 
 
 ### -field RxFlushConfirm
 
-The entry point of the <a href="https://msdn.microsoft.com/CEED709C-F295-4633-B7C1-4719EDDC7CD4">NdisWdiRxFlushConfirm</a> callback function.
+The entry point of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dot11wdi/nc-dot11wdi-ndis_wdi_rx_flush_confirm">NdisWdiRxFlushConfirm</a> callback function.
 
 
 ### -field PeerCreateIndication
 
-The entry point of the <a href="https://msdn.microsoft.com/58B60160-FE04-4EDE-900F-244D0F76E50D">NdisWdiPeerCreateIndication</a> callback function.
+The entry point of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dot11wdi/nc-dot11wdi-ndis_wdi_peer_create_ind">NdisWdiPeerCreateIndication</a> callback function.
 
 
 ### -field PeerDeleteIndication
 
-The entry point of the <a href="https://msdn.microsoft.com/A13F2A98-BADA-43B8-A24B-0749C5558C35">NdisWdiPeerDeleteIndication</a> callback function.
+The entry point of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dot11wdi/nc-dot11wdi-ndis_wdi_peer_delete_ind">NdisWdiPeerDeleteIndication</a> callback function.
 
 
 ### -field AllocateWiFiFrameMetaData
 
-The entry point of the <a href="https://msdn.microsoft.com/6C565DAF-3363-466F-AC4A-9DB534E581FC">NdisWdiAllocateWiFiFrameMetaData</a> callback function.
+The entry point of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dot11wdi/nc-dot11wdi-ndis_wdi_allocate_wdi_frame_metadata">NdisWdiAllocateWiFiFrameMetaData</a> callback function.
 
 
 ### -field FreeWiFiFrameMetaData
 
-The entry point of the <a href="https://msdn.microsoft.com/828C181F-918A-4674-B6CE-FCB9750948E0">NdisWdiFreeWiFiFrameMetaData</a> callback function.
+The entry point of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dot11wdi/nc-dot11wdi-ndis_wdi_free_wdi_frame_metadata">NdisWdiFreeWiFiFrameMetaData</a> callback function.
 
 
 ### -field TxQuerySuspectFrameCompleteStatus

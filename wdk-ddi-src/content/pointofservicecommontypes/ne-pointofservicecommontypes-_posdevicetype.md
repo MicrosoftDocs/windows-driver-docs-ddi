@@ -46,7 +46,7 @@ req.typenames: PosDeviceType
 ## -description
 
 
-This enumeration defines values used in the <a href="https://msdn.microsoft.com/library/windows/hardware/dn772213">PosDeviceBasicsType</a> structure to indicate the type of device (for instance, barcode scanner or magnetic stripe reader). 
+This enumeration defines values used in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pointofservicedriverinterface/ns-pointofservicedriverinterface-_posdevicebasicstype">PosDeviceBasicsType</a> structure to indicate the type of device (for instance, barcode scanner or magnetic stripe reader). 
 
 
 ## -enum-fields

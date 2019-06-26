@@ -83,7 +83,7 @@ The friendly name of the audio module. The maximum length is AUDIOMODULE_MAX_NAM
 
 
 
-For more information about audio modules, see  <a href="https://msdn.microsoft.com/windows/hardware/drivers/audio/implementing-audio-module-communication">Implementing Audio Module Discovery</a>. 
+For more information about audio modules, see  <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/implementing-audio-module-communication">Implementing Audio Module Discovery</a>. 
 
 
 
@@ -93,7 +93,7 @@ For more information about audio modules, see  <a href="https://msdn.microsoft.c
 
 
 
-<a href="https://msdn.microsoft.com/EAD613AA-005B-4751-B60E-212853CA40B4">KSPROPERTY_AUDIOMODULE_DESCRIPTORS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-audiomodule-descriptors">KSPROPERTY_AUDIOMODULE_DESCRIPTORS</a>
  
 
  

@@ -52,7 +52,7 @@ Called by an in-process (in-proc) Microsoft Direct3D composition device to retri
 
 *pContextPriority* [in, out]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh780256">D3DKMT_GETCONTEXTINPROCESSSCHEDULINGPRIORITY</a> structure that describes information that is required to retrieve the scheduling priority for a device context.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_getcontextinprocessschedulingpriority">D3DKMT_GETCONTEXTINPROCESSSCHEDULINGPRIORITY</a> structure that describes information that is required to retrieve the scheduling priority for a device context.
 
 ## -returns
 
@@ -67,11 +67,11 @@ This function might also return other NTSTATUS values.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh780250">D3DKMTSetContextInProcessSchedulingPriority</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/nf-d3dkmthk-d3dkmtsetcontextinprocessschedulingpriority">D3DKMTSetContextInProcessSchedulingPriority</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh780256">D3DKMT_GETCONTEXTINPROCESSSCHEDULINGPRIORITY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_getcontextinprocessschedulingpriority">D3DKMT_GETCONTEXTINPROCESSSCHEDULINGPRIORITY</a>
  
 
  

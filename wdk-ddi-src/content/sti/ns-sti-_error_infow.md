@@ -46,7 +46,7 @@ req.typenames: STI_ERROR_INFOW, *PSTI_ERROR_INFOW
 ## -description
 
 
-The STI_ERROR_INFO structure is used as a parameter for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543749">IStiDevice::GetLastErrorInfo</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff543820">IStiUSD::GetLastErrorInfo</a> methods. It is also used as a member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548383">STI_DIAG</a> structure.
+The STI_ERROR_INFO structure is used as a parameter for the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sti/nf-sti-istidevice-getlasterrorinfo">IStiDevice::GetLastErrorInfo</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/stiusd/nf-stiusd-istiusd-getlasterrorinfo">IStiUSD::GetLastErrorInfo</a> methods. It is also used as a member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sti/ns-sti-_sti_diag">STI_DIAG</a> structure.
 
 
 ## -struct-fields

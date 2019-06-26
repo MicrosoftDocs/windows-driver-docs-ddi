@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-Video miniport drivers should not call the <b>VideoPortDebugPrint</b> function. Instead, they should call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff570170">VideoDebugPrint</a> macro.
+Video miniport drivers should not call the <b>VideoPortDebugPrint</b> function. Instead, they should call the <a href="https://docs.microsoft.com/previous-versions/ff570170(v=vs.85)">VideoDebugPrint</a> macro.
 
 
 ## -parameters

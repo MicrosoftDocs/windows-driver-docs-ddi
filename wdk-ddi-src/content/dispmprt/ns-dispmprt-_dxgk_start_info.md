@@ -46,7 +46,7 @@ req.typenames: DXGK_START_INFO, *PDXGK_START_INFO
 ## -description
 
 
-The DXGK_START_INFO structure holds information that is needed by the display miniport driver's <a href="https://msdn.microsoft.com/ffacbb39-2581-4207-841d-28ce57fbc64d">DxgkDdiStartDevice</a> function.
+The DXGK_START_INFO structure holds information that is needed by the display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a> function.
 
 
 ## -struct-fields
@@ -75,9 +75,9 @@ A locally unique identifier (LUID) that will serve as an identifier for the adap
 
 
 
-The DirectX graphics kernel subsystem submits DMA buffers to the display miniport driver by calling <a href="https://msdn.microsoft.com/de1925ab-e444-4cf6-acd9-8fdab26afcec">DxgkDdiSubmitCommand</a>.
+The DirectX graphics kernel subsystem submits DMA buffers to the display miniport driver by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_submitcommand">DxgkDdiSubmitCommand</a>.
 
-The <i>DxgkStartInfo</i> parameter of the <a href="https://msdn.microsoft.com/ffacbb39-2581-4207-841d-28ce57fbc64d">DxgkDdiStartDevice</a> function is a pointer to a DXGK_START_INFO structure. 
+The <i>DxgkStartInfo</i> parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a> function is a pointer to a DXGK_START_INFO structure. 
 
 
 

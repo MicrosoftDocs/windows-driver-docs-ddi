@@ -64,15 +64,15 @@ The version of the WOF driver. This value includes the major and minor version n
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt426734">FSCTL_GET_WOF_VERSION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-get-wof-version">FSCTL_GET_WOF_VERSION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt426741">WOF_EXTERNAL_FILE_ID</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_wof_external_file_id">WOF_EXTERNAL_FILE_ID</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn632452">WOF_EXTERNAL_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_wof_external_info">WOF_EXTERNAL_INFO</a>
  
 
  

@@ -56,12 +56,12 @@ The <b>SdBusSubmitRequest</b> routine sends a synchronous Secure Digital (SD) re
 
 ### -param InterfaceContext [in]
 
-Contains the context information returned by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537906">SdBusOpenInterface</a> routine in the <b>Context</b> member of the <a href="https://msdn.microsoft.com/92b8762d-8af3-493c-aa1d-bc245b0cbd83">SDBUS_INTERFACE_STANDARD</a> structure.
+Contains the context information returned by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddsd/nf-ntddsd-sdbusopeninterface">SdBusOpenInterface</a> routine in the <b>Context</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff537923(v=vs.85)">SDBUS_INTERFACE_STANDARD</a> structure.
 
 
 ### -param Packet
 
-<p>Pointer to a caller-supplied structure of type <a href="https://msdn.microsoft.com/library/Ff537931(v=VS.85).aspx"><b>SDBUS_REQUEST_PACKET</b></a> that describes the request.</p>
+<p>Pointer to a caller-supplied structure of type <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff537931(v=vs.85)"><b>SDBUS_REQUEST_PACKET</b></a> that describes the request.</p>
 
 
 
@@ -81,9 +81,9 @@ Returns STATUS_SUCCESS if the operation succeeds, or the appropriate error code 
 
 The <b>SdBusSubmitRequest</b> routine completes the request synchronously. It never returns a status code of STATUS_PENDING, but waits for the request to completed before returning.
 
-This routine is a wrapper for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537914">SdBusSubmitRequestAsync</a> routine. 
+This routine is a wrapper for the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddsd/nf-ntddsd-sdbussubmitrequestasync">SdBusSubmitRequestAsync</a> routine. 
 
-Callers of <a href="https://msdn.microsoft.com/library/windows/hardware/ff537914">SdBusSubmitRequestAsync</a> must be running at IRQL <= DISPATCH_LEVEL.
+Callers of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddsd/nf-ntddsd-sdbussubmitrequestasync">SdBusSubmitRequestAsync</a> must be running at IRQL <= DISPATCH_LEVEL.
 
 
 
@@ -93,19 +93,19 @@ Callers of <a href="https://msdn.microsoft.com/library/windows/hardware/ff537914
 
 
 
-<a href="https://msdn.microsoft.com/92b8762d-8af3-493c-aa1d-bc245b0cbd83">SDBUS_INTERFACE_STANDARD</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff537923(v=vs.85)">SDBUS_INTERFACE_STANDARD</a>
 
 
 
-<a href="https://msdn.microsoft.com/09b30bf0-fe85-4ad5-bd3e-113ed3a093ac">SDBUS_REQUEST_PACKET</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff537931(v=vs.85)">SDBUS_REQUEST_PACKET</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537906">SdBusOpenInterface</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddsd/nf-ntddsd-sdbusopeninterface">SdBusOpenInterface</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537914">SdBusSubmitRequestAsync</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddsd/nf-ntddsd-sdbussubmitrequestasync">SdBusSubmitRequestAsync</a>
  
 
  

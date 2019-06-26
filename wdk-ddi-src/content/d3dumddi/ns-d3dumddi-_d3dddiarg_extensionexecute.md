@@ -56,7 +56,7 @@ The D3DDDIARG_EXTENSIONEXECUTE structure describes a Microsoft DirectX Video Acc
 
 ### -field hExtension
 
-[in] A handle to the DirectX VA extension device. The user-mode display driver returns this handle in a call to its <a href="https://msdn.microsoft.com/7e6dbb70-2e74-4ddb-a504-2c8145af99d9">CreateExtensionDevice</a> function.
+[in] A handle to the DirectX VA extension device. The user-mode display driver returns this handle in a call to its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_createextensiondevice">CreateExtensionDevice</a> function.
 
 
 ### -field Function
@@ -66,7 +66,7 @@ The D3DDDIARG_EXTENSIONEXECUTE structure describes a Microsoft DirectX Video Acc
 
 ### -field pPrivateInput
 
-[in] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff562916">DXVADDI_PRIVATEDATA</a> structure that contains data that the driver requires to perform the extension operation.
+[in] A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_dxvaddi_privatedata">DXVADDI_PRIVATEDATA</a> structure that contains data that the driver requires to perform the extension operation.
 
 
 ### -field pPrivateOutput
@@ -82,7 +82,7 @@ The D3DDDIARG_EXTENSIONEXECUTE structure describes a Microsoft DirectX Video Acc
 ### -field pBuffers
 
 
-      [in] A pointer to a list of <a href="https://msdn.microsoft.com/library/windows/hardware/ff562914">DXVADDI_PRIVATEBUFFER</a> structures that describe private buffers that an extension device uses to perform an extended operation.
+      [in] A pointer to a list of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_dxvaddi_privatebuffer">DXVADDI_PRIVATEBUFFER</a> structures that describe private buffers that an extension device uses to perform an extended operation.
      
 
 
@@ -91,19 +91,19 @@ The D3DDDIARG_EXTENSIONEXECUTE structure describes a Microsoft DirectX Video Acc
 
 
 
-<a href="https://msdn.microsoft.com/7e6dbb70-2e74-4ddb-a504-2c8145af99d9">CreateExtensionDevice</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_createextensiondevice">CreateExtensionDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562914">DXVADDI_PRIVATEBUFFER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_dxvaddi_privatebuffer">DXVADDI_PRIVATEBUFFER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562916">DXVADDI_PRIVATEDATA</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_dxvaddi_privatedata">DXVADDI_PRIVATEDATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/a3f73651-bfff-48fa-aa61-477b8af7fa07">ExtensionExecute</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_extensionexecute">ExtensionExecute</a>
  
 
  

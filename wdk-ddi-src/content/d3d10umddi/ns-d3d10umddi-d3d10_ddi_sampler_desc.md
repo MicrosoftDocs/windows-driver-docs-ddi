@@ -56,22 +56,22 @@ The D3D10_DDI_SAMPLER_DESC structure describes a sampler.
 
 ### -field Filter
 
-[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff541952">D3D10_DDI_FILTER</a>-typed value that indicates the filter property for a sampler. 
+[in] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ne-d3d10umddi-d3d10_ddi_filter">D3D10_DDI_FILTER</a>-typed value that indicates the filter property for a sampler. 
 
 
 ### -field AddressU
 
-[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff542017">D3D10_DDI_TEXTURE_ADDRESS_MODE</a>-typed value that indicates the texture-address mode for the u coordinate.
+[in] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ne-d3d10umddi-d3d10_ddi_texture_address_mode">D3D10_DDI_TEXTURE_ADDRESS_MODE</a>-typed value that indicates the texture-address mode for the u coordinate.
 
 
 ### -field AddressV
 
-[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff542017">D3D10_DDI_TEXTURE_ADDRESS_MODE</a>-typed value that indicates the texture-address mode for the v coordinate.
+[in] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ne-d3d10umddi-d3d10_ddi_texture_address_mode">D3D10_DDI_TEXTURE_ADDRESS_MODE</a>-typed value that indicates the texture-address mode for the v coordinate.
 
 
 ### -field AddressW
 
-[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff542017">D3D10_DDI_TEXTURE_ADDRESS_MODE</a>-typed value that indicates the texture-address mode for the w coordinate.
+[in] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ne-d3d10umddi-d3d10_ddi_texture_address_mode">D3D10_DDI_TEXTURE_ADDRESS_MODE</a>-typed value that indicates the texture-address mode for the w coordinate.
 
 
 ### -field MipLODBias
@@ -86,7 +86,7 @@ The D3D10_DDI_SAMPLER_DESC structure describes a sampler.
 
 ### -field ComparisonFunc
 
-[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff541933">D3D10_DDI_COMPARISON_FUNC</a>-typed value that indicates the sampler-comparison function to perform.
+[in] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ne-d3d10umddi-d3d10_ddi_comparison_func">D3D10_DDI_COMPARISON_FUNC</a>-typed value that indicates the sampler-comparison function to perform.
 
 
 ### -field BorderColor
@@ -109,23 +109,23 @@ The D3D10_DDI_SAMPLER_DESC structure describes a sampler.
 
 
 
-<a href="https://msdn.microsoft.com/7231ba65-f6ed-4b00-a61f-21d8fe26398f">CalcPrivateSamplerSize</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_calcprivatesamplersize">CalcPrivateSamplerSize</a>
 
 
 
-<a href="https://msdn.microsoft.com/603bb033-390b-4965-b6ea-6acc2c7a8fcf">CreateSampler</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_createsampler">CreateSampler</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541933">D3D10_DDI_COMPARISON_FUNC</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ne-d3d10umddi-d3d10_ddi_comparison_func">D3D10_DDI_COMPARISON_FUNC</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541952">D3D10_DDI_FILTER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ne-d3d10umddi-d3d10_ddi_filter">D3D10_DDI_FILTER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542017">D3D10_DDI_TEXTURE_ADDRESS_MODE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ne-d3d10umddi-d3d10_ddi_texture_address_mode">D3D10_DDI_TEXTURE_ADDRESS_MODE</a>
  
 
  

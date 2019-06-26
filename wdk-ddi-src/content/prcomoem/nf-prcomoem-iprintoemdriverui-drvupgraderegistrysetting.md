@@ -61,7 +61,7 @@ Caller-supplied printer handle.
 
 ### -param pFeature
 
-Caller-supplied pointer to a string identifying a printer feature name contained in the printer's <a href="https://msdn.microsoft.com/f67c673d-c6f0-49f0-850a-d8b00e99ddd4">GPD</a> or <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">PPD</a> file.
+Caller-supplied pointer to a string identifying a printer feature name contained in the printer's <a href="https://docs.microsoft.com/windows-hardware/drivers/">GPD</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/">PPD</a> file.
 
 
 ### -param pOption
@@ -123,7 +123,7 @@ The method is not implemented.
 
 
 
-The <code>IPrintOemDriverUI::DrvUpdateRegistrySetting</code> method is meant to be called from a user interface plug-in's <a href="https://msdn.microsoft.com/library/windows/hardware/ff554189">IPrintOemUI::UpgradePrinter</a> method, when it is necessary to update registry settings that were stored in private registry keys for an earlier version of the driver, but are now contained in a GPD or PPD file.
+The <code>IPrintOemDriverUI::DrvUpdateRegistrySetting</code> method is meant to be called from a user interface plug-in's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintoemui-upgradeprinter">IPrintOemUI::UpgradePrinter</a> method, when it is necessary to update registry settings that were stored in private registry keys for an earlier version of the driver, but are now contained in a GPD or PPD file.
 
 
 

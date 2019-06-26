@@ -79,11 +79,11 @@ Supplies the maximum size of a single dependency.
 
 
 
-<a href="https://msdn.microsoft.com/0B3B53F8-2D1E-430B-9C51-E35465899811">PEP_COORDINATED_IDLE_STATE structure</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/ns-pepfx-_pep_coordinated_idle_state">PEP_COORDINATED_IDLE_STATE structure</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt186776">PEP_NOTIFY_PPM_QUERY_COORDINATED_STATES notification</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">PEP_NOTIFY_PPM_QUERY_COORDINATED_STATES notification</a>
  
 
  

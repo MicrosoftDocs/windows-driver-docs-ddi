@@ -64,19 +64,19 @@ A GUID that identifies the type of error data that is contained in the error dat
 
 #### WHEA_PACKET_SECTION_GUID
 
-The error data section contains the hardware error packet that was passed to the operating system by the low-level hardware error handler (LLHEH) that reported the error. This data is described by a <a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a> structure.
+The error data section contains the hardware error packet that was passed to the operating system by the low-level hardware error handler (LLHEH) that reported the error. This data is described by a <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff560465(v=vs.85)">WHEA_ERROR_PACKET</a> structure.
 
 
 
 #### PROCESSOR_GENERIC_ERROR_SECTION_GUID
 
-The error data section contains processor error data that is not specific to a particular processor architecture. This data is described by a <a href="https://msdn.microsoft.com/library/windows/hardware/ff560607">WHEA_PROCESSOR_GENERIC_ERROR_SECTION</a> structure.
+The error data section contains processor error data that is not specific to a particular processor architecture. This data is described by a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_whea_processor_generic_error_section">WHEA_PROCESSOR_GENERIC_ERROR_SECTION</a> structure.
 
 
 
 #### FIRMWARE_ERROR_RECORD_REFERENCE_GUID
 
-The error data section contains a reference to a firmware error record that is specific to the Itanium processor architecture. This data is described by a <a href="https://msdn.microsoft.com/library/windows/hardware/ff560520">WHEA_FIRMWARE_ERROR_RECORD_REFERENCE</a> structure.
+The error data section contains a reference to a firmware error record that is specific to the Itanium processor architecture. This data is described by a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_whea_firmware_error_record_reference">WHEA_FIRMWARE_ERROR_RECORD_REFERENCE</a> structure.
 
 
 
@@ -88,27 +88,27 @@ The error data section contains processor error data that is specific to the Ita
 
 #### MEMORY_ERROR_SECTION_GUID
 
-The error data section contains platform memory error data. This data is described by a <a href="https://msdn.microsoft.com/library/windows/hardware/ff560565">WHEA_MEMORY_ERROR_SECTION</a> structure.
+The error data section contains platform memory error data. This data is described by a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_whea_memory_error_section">WHEA_MEMORY_ERROR_SECTION</a> structure.
 
 
 
 #### NMI_SECTION_GUID
 
-The error data section contains nonmaskable interrupt (NMI) error data. This data is described by a <a href="https://msdn.microsoft.com/library/windows/hardware/ff560571">WHEA_NMI_ERROR_SECTION</a> structure.
+The error data section contains nonmaskable interrupt (NMI) error data. This data is described by a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_whea_nmi_error_section">WHEA_NMI_ERROR_SECTION</a> structure.
 
 
 
 #### PCIEXPRESS_ERROR_SECTION_GUID
 
-The error data section contains PCI Express (PCIe) error data. This data is described by a <a href="https://msdn.microsoft.com/library/windows/hardware/ff560576">WHEA_PCIEXPRESS_ERROR_SECTION</a> structure.
+The error data section contains PCI Express (PCIe) error data. This data is described by a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_whea_pciexpress_error_section">WHEA_PCIEXPRESS_ERROR_SECTION</a> structure.
 
 
 
 #### PCIXBUS_ERROR_SECTION_GUID
 
-The error data section contains PCI/PCI-X bus error data. This data is described by a <a href="https://msdn.microsoft.com/library/windows/hardware/ff560583">WHEA_PCIXBUS_ERROR_SECTION</a> structure.
+The error data section contains PCI/PCI-X bus error data. This data is described by a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_whea_pcixbus_error_section">WHEA_PCIXBUS_ERROR_SECTION</a> structure.
 
-The error data section contains PCI/PCI-X device error data. This data is described by a <a href="https://msdn.microsoft.com/library/windows/hardware/ff560589">WHEA_PCIXDEVICE_ERROR_SECTION</a> structure.
+The error data section contains PCI/PCI-X device error data. This data is described by a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_whea_pcixdevice_error_section">WHEA_PCIXDEVICE_ERROR_SECTION</a> structure.
 
 
 
@@ -121,12 +121,12 @@ For error data sections that do not conform to one of the standard section types
 
 ### -field ErrorSeverity
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff560503">WHEA_ERROR_SEVERITY</a>-typed value that indicates the severity of the error condition that is described by the error data section.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ne-ntddk-_whea_error_severity">WHEA_ERROR_SEVERITY</a>-typed value that indicates the severity of the error condition that is described by the error data section.
 
 
 ### -field Revision
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff560623">WHEA_REVISION</a> union that describes the revision level of the WHEA_GENERIC_ERROR_DATA_ENTRY structure.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_whea_revision">WHEA_REVISION</a> union that describes the revision level of the WHEA_GENERIC_ERROR_DATA_ENTRY structure.
 
 
 ### -field ValidBits
@@ -222,7 +222,7 @@ A variable-sized buffer that contains the error data for the error data section.
 
 A generic error status block can contain one or more WHEA_GENERIC_ERROR_DATA_ENTRY structures. Each WHEA_GENERIC_ERROR_DATA_ENTRY structure describes a section of error information that is part of the error status data for a generic error source.
 
-The <b>Data</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560524">WHEA_GENERIC_ERROR</a> structure contains a generic error status block that contains the WHEA_GENERIC_ERROR_DATA_ENTRY structures. The number of WHEA_GENERIC_ERROR_DATA_ENTRY structures that are included in the generic error status block is specified by the <b>ErrorDataEntryCount</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560525">WHEA_GENERIC_ERROR_BLOCKSTATUS</a> union.
+The <b>Data</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_whea_generic_error">WHEA_GENERIC_ERROR</a> structure contains a generic error status block that contains the WHEA_GENERIC_ERROR_DATA_ENTRY structures. The number of WHEA_GENERIC_ERROR_DATA_ENTRY structures that are included in the generic error status block is specified by the <b>ErrorDataEntryCount</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_whea_generic_error_blockstatus">WHEA_GENERIC_ERROR_BLOCKSTATUS</a> union.
 
 
 
@@ -232,11 +232,11 @@ The <b>Data</b> member of the <a href="https://msdn.microsoft.com/library/window
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560524">WHEA_GENERIC_ERROR</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_whea_generic_error">WHEA_GENERIC_ERROR</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560525">WHEA_GENERIC_ERROR_BLOCKSTATUS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_whea_generic_error_blockstatus">WHEA_GENERIC_ERROR_BLOCKSTATUS</a>
  
 
  

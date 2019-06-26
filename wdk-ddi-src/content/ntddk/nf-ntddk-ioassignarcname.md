@@ -78,7 +78,7 @@ Drivers of hard disk devices need not call this routine. Drivers of other mass s
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548397">IoCreateDevice</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iocreatedevice">IoCreateDevice</a>
  
 
  

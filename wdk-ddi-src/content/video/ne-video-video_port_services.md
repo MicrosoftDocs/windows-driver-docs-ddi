@@ -46,7 +46,7 @@ req.typenames: VIDEO_PORT_SERVICES
 ## -description
 
 
-The VIDEO_PORT_SERVICES enumerated type lists the interfaces that the video miniport driver can request from the video port driver by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff570337">VideoPortQueryServices</a>.
+The VIDEO_PORT_SERVICES enumerated type lists the interfaces that the video miniport driver can request from the video port driver by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportqueryservices">VideoPortQueryServices</a>.
 
 
 ## -enum-fields
@@ -106,23 +106,23 @@ The video miniport driver obtains a set of function pointers by passing a value 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538227">AGP Functions Implemented by the Video Port Driver</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/videoagp/">AGP Functions Implemented by the Video Port Driver</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551792">Debug Report Functions Implemented by the Video Port Driver</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">Debug Report Functions Implemented by the Video Port Driver</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567384">I2C Functions Implemented by the Video Port Driver</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">I2C Functions Implemented by the Video Port Driver</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567732">Int10 Functions Implemented by the Video Port Driver</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">Int10 Functions Implemented by the Video Port Driver</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570337">VideoPortQueryServices</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportqueryservices">VideoPortQueryServices</a>
  
 
  

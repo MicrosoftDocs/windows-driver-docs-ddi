@@ -110,11 +110,11 @@ If an existing value has the same key that is specified by the <i>key</i> parame
 
 
 
-<a href="https://msdn.microsoft.com/4a97301a-12cc-442f-a080-446ec9e1e245">IPortableDeviceValues Interface</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portabledevicetypes/nn-portabledevicetypes-iportabledevicevalues">IPortableDeviceValues Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/2cd07079-51f2-40dc-ab84-e6a83de6a6a1">IPortableDeviceValues::GetIPortableDeviceValuesCollectionValue</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portabledevicetypes/nf-portabledevicetypes-iportabledevicevalues-getiportabledevicevaluescollectionvalue">IPortableDeviceValues::GetIPortableDeviceValuesCollectionValue</a>
  
 
  

@@ -90,7 +90,7 @@ This function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/FCFCBF4C-CBAA-4284-A6F4-67630608CF19">SeTokenSetNoChildProcessRestricted</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-setokensetnochildprocessrestricted">SeTokenSetNoChildProcessRestricted</a>
  
 
  

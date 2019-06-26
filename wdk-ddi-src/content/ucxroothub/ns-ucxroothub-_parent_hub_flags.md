@@ -46,7 +46,7 @@ req.typenames: PARENT_HUB_FLAGS, *PPARENT_HUB_FLAGS
 ## -description
 
 
-This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/mt188022">HUB_INFO_FROM_PARENT</a> structure to get hub information from the parent.
+This structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucxroothub/ns-ucxroothub-_hub_info_from_parent">HUB_INFO_FROM_PARENT</a> structure to get hub information from the parent.
 
 
 ## -struct-fields
@@ -82,7 +82,7 @@ Indicates that UpdateMaxExitLatency is disabled for all devices/hubs behind the 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt188022">HUB_INFO_FROM_PARENT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucxroothub/ns-ucxroothub-_hub_info_from_parent">HUB_INFO_FROM_PARENT</a>
  
 
  

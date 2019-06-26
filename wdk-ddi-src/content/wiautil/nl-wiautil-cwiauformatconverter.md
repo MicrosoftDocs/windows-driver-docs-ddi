@@ -59,7 +59,7 @@ The <b>CWiauFormatConverter</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2bdf9564-70b0-4936-95e5-4470b731ac3b">~CWiauFormatConverter</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-cwiauformatconverter-~cwiauformatconverter">~CWiauFormatConverter</a>
 </td>
 <td align="left" width="63%">
 The <b>~CWiauFormatConverter</b> method is the destructor for the <b>CWiauFormatConverter</b> class.
@@ -68,7 +68,7 @@ The <b>~CWiauFormatConverter</b> method is the destructor for the <b>CWiauFormat
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9ac85fe9-bc44-4a70-9619-bb13e878bb49">ConvertToBmp</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-cwiauformatconverter-converttobmp">ConvertToBmp</a>
 </td>
 <td align="left" width="63%">
 The <b>ConvertToBmp</b> method converts an image to BMP format.
@@ -77,7 +77,7 @@ The <b>ConvertToBmp</b> method converts an image to BMP format.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2bdf9564-70b0-4936-95e5-4470b731ac3b">CWiauFormatConverter</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-cwiauformatconverter-~cwiauformatconverter">CWiauFormatConverter</a>
 </td>
 <td align="left" width="63%">
 The <b>CWiauFormatConverter</b> method is the constructor for the <b>CWiauFormatConverter</b> class.
@@ -86,7 +86,7 @@ The <b>CWiauFormatConverter</b> method is the constructor for the <b>CWiauFormat
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541624">Init</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/modem/ff541624(v=vs.85)">Init</a>
 </td>
 <td align="left" width="63%">
 The <b>Init</b> method initializes the <b>CWiauFormatConverter</b> class and GDI+ for converting images. This method should be called only once.
@@ -95,7 +95,7 @@ The <b>Init</b> method initializes the <b>CWiauFormatConverter</b> class and GDI
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5bb69443-8ccd-4157-8815-fb3423b57e30">IsFormatSupported</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-cwiauformatconverter-isformatsupported">IsFormatSupported</a>
 </td>
 <td align="left" width="63%">
 The <b>IsFormatSupported</b> method verifies that GDI+ supports the image format that is to be converted.

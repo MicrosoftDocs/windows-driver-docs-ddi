@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-Called by the operating system to query the Miracast user-mode driver interface, <a href="https://msdn.microsoft.com/library/windows/hardware/dn265476">MIRACAST_DRIVER_INTERFACE</a>.
+Called by the operating system to query the Miracast user-mode driver interface, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdispumdddi/ns-netdispumdddi-_miracast_driver_interface">MIRACAST_DRIVER_INTERFACE</a>.
 
 
 ## -parameters
@@ -68,7 +68,7 @@ The size, supplied by the operating system, of the buffer pointed to by <i>pMira
 
 ### -param *pMiracastDriverInterface [out]
 
-A pointer to a buffer, supplied by the operating system, that holds the returned Miracast display driver interface, which is a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/dn265476">MIRACAST_DRIVER_INTERFACE</a>.
+A pointer to a buffer, supplied by the operating system, that holds the returned Miracast display driver interface, which is a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdispumdddi/ns-netdispumdddi-_miracast_driver_interface">MIRACAST_DRIVER_INTERFACE</a>.
 
 
 ## -returns
@@ -84,7 +84,7 @@ On success, this function returns <b>STATUS_SUCCESS</b>. Otherwise, the function
 
 
 
-When the Miracast user-mode driver is loaded, the operating system calls the <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a> function with "QueryMiracastDriverInterface" entered as the function name in the <i>lpProcName</i> parameter.
+When the Miracast user-mode driver is loaded, the operating system calls the <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> function with "QueryMiracastDriverInterface" entered as the function name in the <i>lpProcName</i> parameter.
 
 <div class="alert"><b>Note</b>  If the Miracast user-mode driver doesn't supply a function with this name, the operating system fails the Miracast display device.</div>
 <div> </div>
@@ -96,11 +96,11 @@ When the Miracast user-mode driver is loaded, the operating system calls the <a 
 
 
 
-<a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265476">MIRACAST_DRIVER_INTERFACE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdispumdddi/ns-netdispumdddi-_miracast_driver_interface">MIRACAST_DRIVER_INTERFACE</a>
  
 
  

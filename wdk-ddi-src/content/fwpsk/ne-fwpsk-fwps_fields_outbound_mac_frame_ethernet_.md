@@ -48,7 +48,7 @@ req.typenames: FWPS_FIELDS_OUTBOUND_MAC_FRAME_ETHERNET
 
 The <b>FWPS_FIELDS_OUTBOUND_MAC_FRAME_ETHERNET</b> enumeration type specifies the data field identifiers for the
   FWPS_LAYER_OUTBOUND_MAC_FRAME_ETHERNET 
-  <a href="https://msdn.microsoft.com/library/windows/desktop/aa366492">run-time filtering layer</a>.
+  <a href="https://docs.microsoft.com/windows/desktop/FWP/management-filtering-layer-identifiers-">run-time filtering layer</a>.
   <div class="alert"><b>Note</b>  In Windows 7 and Windows Server 2008 R2, the name of this enumeration was <b>FWPS_FIELDS_OUTBOUND_MAC_FRAME_802_3</b>.</div>
 <div> </div>
 
@@ -136,7 +136,7 @@ The outbound MAC frame IEEE 802.3 flags field.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551291">FWPS_FIELDS_INBOUND_MAC_FRAME_ETHERNET</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/ne-fwpsk-fwps_fields_inbound_mac_frame_ethernet_">FWPS_FIELDS_INBOUND_MAC_FRAME_ETHERNET</a>
  
 
  

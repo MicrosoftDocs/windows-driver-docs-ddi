@@ -69,7 +69,7 @@ The size of the region.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549798">IDebugAdvanced</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugadvanced">IDebugAdvanced</a>
  
 
  

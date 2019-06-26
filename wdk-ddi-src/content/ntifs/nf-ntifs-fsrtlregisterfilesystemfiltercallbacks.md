@@ -464,7 +464,7 @@ The size, in bytes, of the buffer pointed to by <i>FileInformation</i>.
 <i>FileInformationClass</i>
 </td>
 <td>
-Specifies the type of information to be returned about the file, in the buffer that <i>FileInformation</i> points to. Device and intermediate drivers can specify any of the following <a href="https://msdn.microsoft.com/library/windows/hardware/ff728840">FILE_INFORMATION_CLASS</a> values. Other values cause the call to fail and should not be passed to PreQueryOpen/PostQueryOpen calls.
+Specifies the type of information to be returned about the file, in the buffer that <i>FileInformation</i> points to. Device and intermediate drivers can specify any of the following <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_file_information_class">FILE_INFORMATION_CLASS</a> values. Other values cause the call to fail and should not be passed to PreQueryOpen/PostQueryOpen calls.
 
 <table>
 <tr>
@@ -477,7 +477,7 @@ Specifies the type of information to be returned about the file, in the buffer t
 <b>FileStatInformation</b>
 </td>
 <td>
-A [FILE_STAT_INFORMATION](ns-ntifs-_file_stat_information.md) structure. This structure contains an access mask. For more information about access masks, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>.
+A [FILE_STAT_INFORMATION](ns-ntifs-_file_stat_information.md) structure. This structure contains an access mask. For more information about access masks, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>.
 </td>
 </tr>
 <tr>
@@ -487,7 +487,7 @@ A [FILE_STAT_INFORMATION](ns-ntifs-_file_stat_information.md) structure. This st
 <b>FileStatLxInformation</b>
 </td>
 <td>
-A [FILE_STAT_LX_INFORMATION](ns-ntifs-_file_stat_lx_information.md) structure. This structure contains an access mask. For more information about access masks, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>.
+A [FILE_STAT_LX_INFORMATION](ns-ntifs-_file_stat_lx_information.md) structure. This structure contains an access mask. For more information about access masks, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>.
 </td>
 </tr>
 <tr>

@@ -56,7 +56,7 @@ The <b>GetExpressionEx</b> function evaluates an expression. The expression is e
 
 ### -param Expression
 
-Specifies the expression to evaluate.  The expression uses the MASM syntax.  For details of this syntax, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552157">MASM Numbers and Operators</a>.
+Specifies the expression to evaluate.  The expression uses the MASM syntax.  For details of this syntax, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/masm-numbers-and-operators">MASM Numbers and Operators</a>.
 
 
 ### -param Value
@@ -113,7 +113,7 @@ An error occurred while attempting to evaluate the expression.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546683">GetExpression</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdbgexts/nc-wdbgexts-pwindbg_get_expression">GetExpression</a>
  
 
  

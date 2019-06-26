@@ -57,7 +57,7 @@ The <b>KsQueryDevicePnpObject</b> function returns the PnP device object that ca
 
 ### -param Header [in]
 
-Points to a header previously allocated by <a href="https://msdn.microsoft.com/library/windows/hardware/ff560958">KsAllocateDeviceHeader</a> whose PnP device object is to be returned.
+Points to a header previously allocated by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksallocatedeviceheader">KsAllocateDeviceHeader</a> whose PnP device object is to be returned.
 
 
 ## -returns
@@ -74,7 +74,7 @@ The <b>KsQueryDevicePnpObject</b> function returns the previously set PnP device
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561665">KsDefaultDispatchPnp</a>
+<a href="https://docs.microsoft.com/previous-versions/ff561665(v=vs.85)">KsDefaultDispatchPnp</a>
  
 
  

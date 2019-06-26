@@ -46,7 +46,7 @@ req.typenames: DXGK_HARDWARE_CONTENT_PROTECTION_TEARDOWN_FLAGS
 ## -description
 
 
-<b>DXGK_HARDWARE_CONTENT_PROTECTION_TEARDOWN_FLAGS</b> provides additional information to the driver in a <a href="https://msdn.microsoft.com/7B12B9AD-2288-4CE0-A4D8-F1C96150CE45">DxgkCbHardwareContentProtectionTeardown</a> call.
+<b>DXGK_HARDWARE_CONTENT_PROTECTION_TEARDOWN_FLAGS</b> provides additional information to the driver in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkcb_hardwarecontentprotectionteardown">DxgkCbHardwareContentProtectionTeardown</a> call.
 
 
 ## -enum-fields
@@ -56,7 +56,7 @@ req.typenames: DXGK_HARDWARE_CONTENT_PROTECTION_TEARDOWN_FLAGS
 
 ### -field DXGK_HARDWARE_CONTENT_PROTECTION_TEARDOWN_FLAG_PREEMPTIVE
 
-Indicates that the <a href="https://msdn.microsoft.com/7B12B9AD-2288-4CE0-A4D8-F1C96150CE45">DxgkCbHardwareContentProtectionTeardown</a> callback is being preemptively called prior to tear-down event actually occurring.
+Indicates that the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkcb_hardwarecontentprotectionteardown">DxgkCbHardwareContentProtectionTeardown</a> callback is being preemptively called prior to tear-down event actually occurring.
 
 
 ## -see-also
@@ -64,7 +64,7 @@ Indicates that the <a href="https://msdn.microsoft.com/7B12B9AD-2288-4CE0-A4D8-F
 
 
 
-<a href="https://msdn.microsoft.com/7B12B9AD-2288-4CE0-A4D8-F1C96150CE45">DxgkCbHardwareContentProtectionTeardown</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkcb_hardwarecontentprotectionteardown">DxgkCbHardwareContentProtectionTeardown</a>
  
 
  

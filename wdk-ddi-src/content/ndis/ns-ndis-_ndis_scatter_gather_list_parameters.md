@@ -58,7 +58,7 @@ The NDIS_SCATTER_GATHER_LIST_PARAMETERS structure specifies parameters that NDIS
 ### -field Header
 
 The 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
      structure (NDIS_SCATTER_GATHER_LIST_PARAMETERS). The driver sets the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to NDIS_OBJECT_TYPE_DEFAULT, the 
@@ -81,7 +81,7 @@ An NDIS_RECEIVE_QUEUE_ID type value that contains a queue identifier. The queue 
 ### -field SharedMemoryUsage
 
 An 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff567309">NDIS_SHARED_MEMORY_USAGE</a> enumeration
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ne-ndis-_ndis_shared_memory_usage">NDIS_SHARED_MEMORY_USAGE</a> enumeration
      value that specifies the purpose of the shared memory.
 
 
@@ -103,7 +103,7 @@ A ULONG value that contains the length, in bytes, of the shared memory buffer.
 ### -field ProcessSGListHandler
 
 A pointer to a 
-     <a href="https://msdn.microsoft.com/5b99e0ec-7c82-46d6-b32a-246b368cf4f1">NetProcessSGList</a> function
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-ndis_process_sg_list">NetProcessSGList</a> function
      (NDIS_PROCESS_SG_LIST_HANDLER entry point).
 
 
@@ -111,14 +111,14 @@ A pointer to a
 
 A pointer to a block of driver-allocated context information that stores information about the
      scatter/gather list. NDIS passes the context information in calls to 
-     <a href="https://msdn.microsoft.com/5b99e0ec-7c82-46d6-b32a-246b368cf4f1">NetProcessSGList</a> at the 
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-ndis_process_sg_list">NetProcessSGList</a> at the 
      <i>Context</i> parameter.
 
 
 ### -field ScatterGatherListBuffer
 
 A pointer to a 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff563664">SCATTER_GATHER_LIST</a> structure.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_scatter_gather_list">SCATTER_GATHER_LIST</a> structure.
 
 
 ### -field ScatterGatherListBufferSize
@@ -138,7 +138,7 @@ A ULONG value where NDIS writes the total number of bytes that NDIS requires to 
 
 To build a scatter/gather list, an NDIS driver passes the NDIS_SCATTER_GATHER_LIST_PARAMETERS
     structure to the 
-    <a href="https://msdn.microsoft.com/439d68ec-9d27-484b-b6a3-9bae732d142e">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisbuildscattergatherlist">
     NdisBuildScatterGatherList</a> function.
 
 
@@ -149,23 +149,23 @@ To build a scatter/gather list, an NDIS driver passes the NDIS_SCATTER_GATHER_LI
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567309">NDIS_SHARED_MEMORY_USAGE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ne-ndis-_ndis_shared_memory_usage">NDIS_SHARED_MEMORY_USAGE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561620">NdisBuildScatterGatherList</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisbuildscattergatherlist">NdisBuildScatterGatherList</a>
 
 
 
-<a href="https://msdn.microsoft.com/5b99e0ec-7c82-46d6-b32a-246b368cf4f1">NetProcessSGList</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-ndis_process_sg_list">NetProcessSGList</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563664">SCATTER_GATHER_LIST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_scatter_gather_list">SCATTER_GATHER_LIST</a>
  
 
  

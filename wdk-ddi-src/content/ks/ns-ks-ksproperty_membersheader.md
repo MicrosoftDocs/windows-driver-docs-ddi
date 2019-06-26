@@ -56,7 +56,7 @@ A driver provides a structure of type KSPROPERTY_MEMBERSHEADER to describe the s
 
 ### -field MembersFlags
 
-Specifies the type of entries in the members list. The size of valid values is determined by value type, as specified in the <b>PropTypeSet</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565132">KSPROPERTY_DESCRIPTION</a> structure. The number of range pairs is determined by <b>MembersCount</b>. This should be one of the values listed in the following table.
+Specifies the type of entries in the members list. The size of valid values is determined by value type, as specified in the <b>PropTypeSet</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksproperty_description">KSPROPERTY_DESCRIPTION</a> structure. The number of range pairs is determined by <b>MembersCount</b>. This should be one of the values listed in the following table.
 
 <table>
 <tr>
@@ -69,7 +69,7 @@ KSPROPERTY_MEMBER_RANGES
 
 </td>
 <td>
-Indicates that list members are ranges, of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff564394">KSPROPERTY_BOUNDS_LONG</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff564395">KSPROPERTY_BOUNDS_LONGLONG</a>.
+Indicates that list members are ranges, of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksproperty_bounds_long">KSPROPERTY_BOUNDS_LONG</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksproperty_bounds_longlong">KSPROPERTY_BOUNDS_LONGLONG</a>.
 
 </td>
 </tr>
@@ -84,7 +84,7 @@ Indicates that list members are ranges, of type <a href="https://msdn.microsoft.
 
 </td>
 <td>
-Indicates that the following members are stepped values within ranges, of type <a href="https://msdn.microsoft.com/library/windows/hardware/dn936838">KSPROPERTY_STEPPING_LONG</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/dn936841">KSPROPERTY_STEPPING_LONGLONG</a>..
+Indicates that the following members are stepped values within ranges, of type <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/dn936838(v=vs.85)">KSPROPERTY_STEPPING_LONG</a> or <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/dn936841(v=vs.85)">KSPROPERTY_STEPPING_LONGLONG</a>..
 
 </td>
 </tr>
@@ -114,7 +114,7 @@ Specifies the number of entries in the members array.
 
 ### -field Flags
 
-Specifies the type of entries in the members list. The size of valid values is determined by value type, as specified in the <b>PropTypeSet</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565132">KSPROPERTY_DESCRIPTION</a> structure. The number of range pairs is determined by <b>MembersCount</b>. This should be one of the values listed in the following table.
+Specifies the type of entries in the members list. The size of valid values is determined by value type, as specified in the <b>PropTypeSet</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksproperty_description">KSPROPERTY_DESCRIPTION</a> structure. The number of range pairs is determined by <b>MembersCount</b>. This should be one of the values listed in the following table.
 
 <table>
 <tr>
@@ -127,7 +127,7 @@ KSPROPERTY_MEMBER_RANGES
 
 </td>
 <td>
-Indicates that list members are ranges, of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff564394">KSPROPERTY_BOUNDS_LONG</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff564395">KSPROPERTY_BOUNDS_LONGLONG</a>.
+Indicates that list members are ranges, of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksproperty_bounds_long">KSPROPERTY_BOUNDS_LONG</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksproperty_bounds_longlong">KSPROPERTY_BOUNDS_LONGLONG</a>.
 
 </td>
 </tr>
@@ -142,7 +142,7 @@ Indicates that list members are ranges, of type <a href="https://msdn.microsoft.
 
 </td>
 <td>
-Indicates that the following members are stepped values within ranges, of type <a href="https://msdn.microsoft.com/library/windows/hardware/dn936838">KSPROPERTY_STEPPING_LONG</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/dn936841">KSPROPERTY_STEPPING_LONGLONG</a>..
+Indicates that the following members are stepped values within ranges, of type <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/dn936838(v=vs.85)">KSPROPERTY_STEPPING_LONG</a> or <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/dn936841(v=vs.85)">KSPROPERTY_STEPPING_LONGLONG</a>..
 
 </td>
 </tr>
@@ -166,11 +166,11 @@ Each entry in the members array is a single value.
 
 The size of the array can be determined by multiplying <b>MembersCount</b> by <b>MembersSize</b>.
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff565190">KSPROPERTY_MEMBERSLIST</a> structure contains a KSPROPERTY_MEMBERSHEADER structure as its first member. The second member, <b>Members</b>, points to an array of property values or ranges.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksproperty_memberslist">KSPROPERTY_MEMBERSLIST</a> structure contains a KSPROPERTY_MEMBERSHEADER structure as its first member. The second member, <b>Members</b>, points to an array of property values or ranges.
 
-In addition, a <a href="https://msdn.microsoft.com/library/windows/hardware/ff565132">KSPROPERTY_DESCRIPTION</a> structure can be followed by a list of KSPROPERTY_MEMBERSHEADER structures.
+In addition, a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksproperty_description">KSPROPERTY_DESCRIPTION</a> structure can be followed by a list of KSPROPERTY_MEMBERSHEADER structures.
 
-For more information about KSPROPERTY_MEMBER_FLAG_DEFAULT, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565176">KSPROPERTY_ITEM</a>. For more information about KSPROPERTY_MEMBER_FLAG_BASICSUPPORT_MULTICHANNEL and KSPROPERTY_MEMBER_FLAG_BASICSUPPORT_UNIFORM, see <a href="https://msdn.microsoft.com/48ee3b33-fb97-4e71-bf6f-5dbdb76aa7f8">Exposing Multichannel Nodes</a> in the Windows Driver Kit (WDK) Audio documentation. 
+For more information about KSPROPERTY_MEMBER_FLAG_DEFAULT, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksproperty_item">KSPROPERTY_ITEM</a>. For more information about KSPROPERTY_MEMBER_FLAG_BASICSUPPORT_MULTICHANNEL and KSPROPERTY_MEMBER_FLAG_BASICSUPPORT_UNIFORM, see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/exposing-multichannel-nodes">Exposing Multichannel Nodes</a> in the Windows Driver Kit (WDK) Audio documentation. 
 
 
 
@@ -180,31 +180,31 @@ For more information about KSPROPERTY_MEMBER_FLAG_DEFAULT, see <a href="https://
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564394">KSPROPERTY_BOUNDS_LONG</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksproperty_bounds_long">KSPROPERTY_BOUNDS_LONG</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564395">KSPROPERTY_BOUNDS_LONGLONG</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksproperty_bounds_longlong">KSPROPERTY_BOUNDS_LONGLONG</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565132">KSPROPERTY_DESCRIPTION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksproperty_description">KSPROPERTY_DESCRIPTION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565176">KSPROPERTY_ITEM</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksproperty_item">KSPROPERTY_ITEM</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565190">KSPROPERTY_MEMBERSLIST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksproperty_memberslist">KSPROPERTY_MEMBERSLIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn936838">KSPROPERTY_STEPPING_LONG</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/dn936838(v=vs.85)">KSPROPERTY_STEPPING_LONG</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn936841">KSPROPERTY_STEPPING_LONGLONG</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/dn936841(v=vs.85)">KSPROPERTY_STEPPING_LONGLONG</a>
  
 
  

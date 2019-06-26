@@ -50,7 +50,7 @@ req.typenames:
 The 
   <b>NdisQueryNetBufferPhysicalCount</b> function returns the maximum number of physical breaks mapped by the
   buffer descriptors that are associated with the given 
-  <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structure.
+  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ The
 ### -param NetBuffer [in]
 
 A pointer to a previously allocated 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structure.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure.
 
 
 ## -returns
@@ -79,7 +79,7 @@ A pointer to a previously allocated
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>
  
 
  

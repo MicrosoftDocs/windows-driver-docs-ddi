@@ -56,7 +56,7 @@ The <b>PEP_PROCESSOR_PARK_PREFERENCE</b> structure indicates the preferences of 
 
 ### -field Processor
 
-A <b>PEPHANDLE</b> value that identifies the processor. The PEP supplied this handle in a previous <a href="https://msdn.microsoft.com/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a> notification.
+A <b>PEPHANDLE</b> value that identifies the processor. The PEP supplied this handle in a previous <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/ns-pepfx-_pep_register_crashdump_device">PEP_DPM_REGISTER_DEVICE</a> notification.
 
 
 ### -field PoPreference
@@ -73,9 +73,9 @@ The PEP's parking preference for this processor. For more information, see Remar
 
 
 
-The <b>Processors</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186812">PEP_PPM_PARK_SELECTION</a> structure is a pointer to an array of <b>PEP_PROCESSOR_PARK_PREFERENCE</b> structures.
+The <b>Processors</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/ns-pepfx-_pep_ppm_park_selection">PEP_PPM_PARK_SELECTION</a> structure is a pointer to an array of <b>PEP_PROCESSOR_PARK_PREFERENCE</b> structures.
 
-The <b>Processor</b> and <b>PoPreference</b> members of the <b>PEP_PROCESSOR_PARK_PREFERENCE</b> structure contain input values that are supplied by the Windows <a href="https://msdn.microsoft.com/B08F8ABF-FD43-434C-A345-337FBB799D9B">power management framework</a> when a <a href="https://msdn.microsoft.com/library/windows/hardware/mt186812">PEP_NOTIFY_PPM_PARK_SELECTION</a> notification is sent to the PEP. The <b>PepPreference</b> member contains an output value that the PEP writes to the structure in response to this notification.
+The <b>Processor</b> and <b>PoPreference</b> members of the <b>PEP_PROCESSOR_PARK_PREFERENCE</b> structure contain input values that are supplied by the Windows <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">power management framework</a> when a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/ns-pepfx-_pep_ppm_park_selection">PEP_NOTIFY_PPM_PARK_SELECTION</a> notification is sent to the PEP. The <b>PepPreference</b> member contains an output value that the PEP writes to the structure in response to this notification.
 
 The following table lists the three values that are defined for the <b>PoPreference</b> and <b>PepPreference</b> members.
 
@@ -111,15 +111,15 @@ The following table lists the three values that are defined for the <b>PoPrefere
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/ns-pepfx-_pep_register_crashdump_device">PEP_DPM_REGISTER_DEVICE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt186812">PEP_NOTIFY_PPM_PARK_SELECTION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/ns-pepfx-_pep_ppm_park_selection">PEP_NOTIFY_PPM_PARK_SELECTION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt186812">PEP_PPM_PARK_SELECTION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/ns-pepfx-_pep_ppm_park_selection">PEP_PPM_PARK_SELECTION</a>
  
 
  

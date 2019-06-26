@@ -46,7 +46,7 @@ req.typenames: SECURE_ELEMENT_ENDPOINT_LIST, *PSECURE_ELEMENT_ENDPOINT_LIST
 ## -description
 
 
-The output parameter for <a href="https://msdn.microsoft.com/library/windows/hardware/dn905506">IOCTL_NFCSE_ENUM_ENDPOINTS</a>.
+The output parameter for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/nfcsedev/ni-nfcsedev-ioctl_nfcse_enum_endpoints">IOCTL_NFCSE_ENUM_ENDPOINTS</a>.
 
 
 ## -struct-fields
@@ -68,5 +68,5 @@ The number of enumerated endpoints on the NFC controller.
 
 #### - EndpointList[ANYSIZE_ARRAY]
 
-An array of <a href="https://msdn.microsoft.com/library/windows/hardware/dn905621">SECURE_ELEMENT_ENDPOINT_INFO</a> structures.
+An array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/nfcsedev/ns-nfcsedev-_secure_element_endpoint_info">SECURE_ELEMENT_ENDPOINT_INFO</a> structures.
 

@@ -88,7 +88,7 @@ This function does not assume that the caller is serializing multiple changes to
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562564">KsFreeObjectCreateItemsByContext</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksfreeobjectcreateitemsbycontext">KsFreeObjectCreateItemsByContext</a>
  
 
  

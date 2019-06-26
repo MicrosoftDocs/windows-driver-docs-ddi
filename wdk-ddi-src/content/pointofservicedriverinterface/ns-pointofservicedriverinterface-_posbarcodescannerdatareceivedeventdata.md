@@ -46,7 +46,7 @@ req.typenames: PosBarcodeScannerDataReceivedEventData
 ## -description
 
 
-This structure contains the scanned data that is passed to the <a href="https://msdn.microsoft.com/library/windows/hardware/dn757463">BarcodeScannerDataReceived</a> event.
+This structure contains the scanned data that is passed to the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/previsioning-framework/dn757463(v=vs.85)">BarcodeScannerDataReceived</a> event.
 
 
 ## -struct-fields
@@ -56,12 +56,12 @@ This structure contains the scanned data that is passed to the <a href="https://
 
 ### -field Header
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/dn772232">PosEventDataHeader</a> header information for this event.
+The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/previsioning-framework/dn772232(v=vs.85)">PosEventDataHeader</a> header information for this event.
 
 
 ### -field DataType
 
-Indicates which <a href="https://msdn.microsoft.com/library/windows/hardware/dn757474">BarcodeSymbology</a> is associated with the scan data.
+Indicates which <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pointofservicecommontypes/ne-pointofservicecommontypes-_barcodesymbology">BarcodeSymbology</a> is associated with the scan data.
 
 
 ### -field ScanDataLength

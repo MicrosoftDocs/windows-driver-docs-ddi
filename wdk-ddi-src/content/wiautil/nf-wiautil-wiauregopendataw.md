@@ -56,7 +56,7 @@ The <b>wiauRegOpenData</b> function opens the <b>DeviceData</b> registry key.
 
 ### -param hkeyAncestor [in]
 
-Specifies the key handle of the parent. This parameter should be set to the value used in the call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543824">IStiUSD::Initialize</a> method.
+Specifies the key handle of the parent. This parameter should be set to the value used in the call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/stiusd/nf-stiusd-istiusd-initialize">IStiUSD::Initialize</a> method.
 
 
 ### -param phkeyDeviceData [in, out]
@@ -77,7 +77,7 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 
 
-Call this function only in the STI <a href="https://msdn.microsoft.com/library/windows/hardware/ff543824">IStiUSD::Initialize</a> method. Call <b>RegCloseKey</b> (described in the Microsoft Windows SDK documentation) when you are finished with the registry.
+Call this function only in the STI <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/stiusd/nf-stiusd-istiusd-initialize">IStiUSD::Initialize</a> method. Call <b>RegCloseKey</b> (described in the Microsoft Windows SDK documentation) when you are finished with the registry.
 
 
 
@@ -87,7 +87,7 @@ Call this function only in the STI <a href="https://msdn.microsoft.com/library/w
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543824">IStiUSD::Initialize</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/stiusd/nf-stiusd-istiusd-initialize">IStiUSD::Initialize</a>
  
 
  

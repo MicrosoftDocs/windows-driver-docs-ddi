@@ -56,12 +56,12 @@ Notifies UFX about a non-recoverable hardware failure in the controller.
 
 ### -param UfxDevice [in]
 
-A handle to a UFX device object that the driver created by calling <a href="https://msdn.microsoft.com/library/windows/hardware/mt187951">UfxDeviceCreate</a>.
+A handle to a UFX device object that the driver created by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ufxclient/nf-ufxclient-ufxdevicecreate">UfxDeviceCreate</a>.
 
 
 ### -param HardwareFailureContext [in, optional]
 
-Optional pointer to a client driver-defined <a href="https://msdn.microsoft.com/library/windows/hardware/mt187977">UFX_HARDWARE_FAILURE_CONTEXT</a> structure containing controller-specific information about the hardware failure.  
+Optional pointer to a client driver-defined <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ufxbase/ns-ufxbase-_ufx_hardware_failure_context">UFX_HARDWARE_FAILURE_CONTEXT</a> structure containing controller-specific information about the hardware failure.  
 
 
 ## -returns

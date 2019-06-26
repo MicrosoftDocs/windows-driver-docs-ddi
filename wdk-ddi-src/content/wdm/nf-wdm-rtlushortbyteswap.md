@@ -72,7 +72,7 @@ A typical use of this routine is to convert a USHORT value from little-endian by
 
 Use this routine instead of <b>ntohs</b> or <b>htons</b>.
 
-To reverse the ordering of bytes in a ULONG value, use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562886">RtlUlongByteSwap</a> routine. To reverse ordering of bytes in a ULONGLONG value, use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562890">RtlUlonglongByteSwap</a> routine.
+To reverse the ordering of bytes in a ULONG value, use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlulongbyteswap">RtlUlongByteSwap</a> routine. To reverse ordering of bytes in a ULONGLONG value, use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlulonglongbyteswap">RtlUlonglongByteSwap</a> routine.
 
 
 
@@ -82,11 +82,11 @@ To reverse the ordering of bytes in a ULONG value, use the <a href="https://msdn
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562886">RtlUlongByteSwap</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlulongbyteswap">RtlUlongByteSwap</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562890">RtlUlonglongByteSwap</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlulonglongbyteswap">RtlUlonglongByteSwap</a>
  
 
  

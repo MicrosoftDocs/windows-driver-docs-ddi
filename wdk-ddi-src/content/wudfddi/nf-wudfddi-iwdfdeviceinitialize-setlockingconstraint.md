@@ -58,7 +58,7 @@ The <b>SetLockingConstraint</b> method sets the synchronization (or locking) mod
 
 ### -param LockType [in]
 
-A value of type <a href="https://msdn.microsoft.com/118a9dcc-8dd4-454a-bab2-1558821781a7">WDF_CALLBACK_CONSTRAINT</a> that identifies the locking model.
+A value of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi_types/ne-wudfddi_types-_wdf_callback_constraint">WDF_CALLBACK_CONSTRAINT</a> that identifies the locking model.
 
 
 ## -returns
@@ -79,7 +79,7 @@ The default value of the <i>LockType</i> parameter is <b>WdfDeviceLevel</b>, whi
 
 #### Examples
 
-For a code example of how to use the <b>SetLockingConstraint</b> method, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>.
+For a code example of how to use the <b>SetLockingConstraint</b> method, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfdriver-createdevice">IWDFDriver::CreateDevice</a>.
 
 <div class="code"></div>
 
@@ -90,11 +90,11 @@ For a code example of how to use the <b>SetLockingConstraint</b> method, see <a 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556965">IWDFDeviceInitialize</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nn-wudfddi-iwdfdeviceinitialize">IWDFDeviceInitialize</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfdriver-createdevice">IWDFDriver::CreateDevice</a>
  
 
  

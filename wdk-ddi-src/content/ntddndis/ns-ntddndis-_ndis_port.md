@@ -78,7 +78,7 @@ Reserved for protocol drivers.
 ### -field PortCharacteristics
 
 An 
-     <a href="https://msdn.microsoft.com/fd602dd6-c216-413a-a4da-292739774937">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_port_characteristics">
      NDIS_PORT_CHARACTERISTICS</a> structure that specifies the characteristics of the port.
 
 
@@ -97,7 +97,7 @@ The NDIS_PORT structure is used to create a linked list of ports. Such a linked 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566791">NDIS_PORT_CHARACTERISTICS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_port_characteristics">NDIS_PORT_CHARACTERISTICS</a>
  
 
  

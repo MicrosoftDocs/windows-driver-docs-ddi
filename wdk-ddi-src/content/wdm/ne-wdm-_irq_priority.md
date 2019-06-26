@@ -88,7 +88,7 @@ The system uses <b>IRQ_PRIORITY</b> to assign IRQLs for devices. For example, it
 
 
 
-<a href="https://msdn.microsoft.com/03e3a656-c691-4aff-bcc8-4e0bc8390fd7">IO_RESOURCE_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_io_resource_descriptor">IO_RESOURCE_DESCRIPTOR</a>
  
 
  

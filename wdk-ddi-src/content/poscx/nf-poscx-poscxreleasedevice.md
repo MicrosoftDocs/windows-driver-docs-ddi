@@ -48,7 +48,7 @@ req.product: Windows 10 or later.
 
 
       PosCxReleaseDevice is called to release a device that was previously claimed with
-      <a href="https://msdn.microsoft.com/library/windows/hardware/mt593119">PosCxClaimDevice</a>.
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/poscx/nf-poscx-poscxclaimdevice">PosCxClaimDevice</a>.
       Once the device is released, the next pending claim requester is promoted.
 
 
@@ -101,7 +101,7 @@ Possible return values are:
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt593119">PosCxClaimDevice</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/poscx/nf-poscx-poscxclaimdevice">PosCxClaimDevice</a>
  
 
  

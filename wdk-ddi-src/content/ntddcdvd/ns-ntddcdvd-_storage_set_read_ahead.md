@@ -46,7 +46,7 @@ req.typenames: STORAGE_SET_READ_AHEAD, *PSTORAGE_SET_READ_AHEAD
 ## -description
 
 
-The STORAGE_SET_READ_AHEAD structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560608">IOCTL_STORAGE_SET_READ_AHEAD</a> request to instruct the device to skip to the target address upon reaching the trigger address. 
+The STORAGE_SET_READ_AHEAD structure is used in conjunction with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdvd/ni-ntddcdvd-ioctl_storage_set_read_ahead">IOCTL_STORAGE_SET_READ_AHEAD</a> request to instruct the device to skip to the target address upon reaching the trigger address. 
 
 
 ## -struct-fields
@@ -69,7 +69,7 @@ Indicates the address to jump to.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560608">IOCTL_STORAGE_SET_READ_AHEAD</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdvd/ni-ntddcdvd-ioctl_storage_set_read_ahead">IOCTL_STORAGE_SET_READ_AHEAD</a>
  
 
  

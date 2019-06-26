@@ -61,7 +61,7 @@ The <b>PEP_QUERY_SOC_SUBSYSTEM_COUNT</b> structure is used to tell the OS whethe
 
 ### -field SubsystemCount
 
-[out] The number of SoC subsystems tallied by the PEP for the specified platform idle state.  The PEP cannot return 0 in this parameter; instead the PEP should return <b>FALSE</b> to the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186733">PEP_DPM_QUERY_SOC_SUBSYSTEM_COUNT notification</a> that provided this structure.  
+[out] The number of SoC subsystems tallied by the PEP for the specified platform idle state.  The PEP cannot return 0 in this parameter; instead the PEP should return <b>FALSE</b> to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">PEP_DPM_QUERY_SOC_SUBSYSTEM_COUNT notification</a> that provided this structure.  
 
 
 ### -field Flags
@@ -74,7 +74,7 @@ This member is reserved and should be set to zero.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt186733">PEP_DPM_QUERY_SOC_SUBSYSTEM_COUNT notification</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">PEP_DPM_QUERY_SOC_SUBSYSTEM_COUNT notification</a>
  
 
  

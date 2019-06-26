@@ -66,7 +66,7 @@ The D3DDDIARG_LOCKASYNC structure describes a resource or a surface within the r
 
 ### -field Flags
 
-[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff544585">D3DDDI_LOCKASYNCFLAGS</a> structure that indicates, in bit-field flags, how to lock the resource. 
+[in] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddi_lockasyncflags">D3DDDI_LOCKASYNCFLAGS</a> structure that indicates, in bit-field flags, how to lock the resource. 
 
 <div class="alert"><b>Note</b>    Some flags are mutually exclusive with other flags. For more information, see the following Remarks section.</div>
 <div> </div>
@@ -78,7 +78,7 @@ The D3DDDIARG_LOCKASYNC structure describes a resource or a surface within the r
 
 ### -field Area
 
-[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that describes the subrectangle of the surface to lock, if the <b>AreaValid</b> bit-field flag is set in the D3DDDI_LOCKASYNCFLAGS structure that <b>Flags</b> specifies.
+[in] A <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a> structure that describes the subrectangle of the surface to lock, if the <b>AreaValid</b> bit-field flag is set in the D3DDDI_LOCKASYNCFLAGS structure that <b>Flags</b> specifies.
 
 
 ### -field Box
@@ -93,17 +93,17 @@ The D3DDDIARG_LOCKASYNC structure describes a resource or a surface within the r
 
 ### -field pSurfData
 
-[out] A pointer to the memory region for the resource that was locked. The user-mode display driver's <a href="https://msdn.microsoft.com/c8f76ebe-947a-45e4-abbc-f6020da929e8">LockAsync</a> function returns this pointer to the Microsoft Direct3D runtime.
+[out] A pointer to the memory region for the resource that was locked. The user-mode display driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_lockasync">LockAsync</a> function returns this pointer to the Microsoft Direct3D runtime.
 
 
 ### -field Pitch
 
-[out] The pitch, in bytes, of the surface that was locked. The user-mode display driver's <a href="https://msdn.microsoft.com/c8f76ebe-947a-45e4-abbc-f6020da929e8">LockAsync</a> function returns this pitch value to the Direct3D runtime.
+[out] The pitch, in bytes, of the surface that was locked. The user-mode display driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_lockasync">LockAsync</a> function returns this pitch value to the Direct3D runtime.
 
 
 ### -field SlicePitch
 
-[out] The slice pitch, in bytes, of the surface that was locked. The user-mode display driver's <a href="https://msdn.microsoft.com/c8f76ebe-947a-45e4-abbc-f6020da929e8">LockAsync</a> function returns this slice pitch value to the Direct3D runtime.
+[out] The slice pitch, in bytes, of the surface that was locked. The user-mode display driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_lockasync">LockAsync</a> function returns this slice pitch value to the Direct3D runtime.
 
 
 ### -field GpuVirtualAddress
@@ -117,7 +117,7 @@ This member is available beginning with Windows 7.
 
 
 
-The members of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544585">D3DDDI_LOCKASYNCFLAGS</a> structure that the <b>Flags</b> member specifies must adhere to the following rules:
+The members of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddi_lockasyncflags">D3DDDI_LOCKASYNCFLAGS</a> structure that the <b>Flags</b> member specifies must adhere to the following rules:
 
 <ul>
 <li>
@@ -137,15 +137,15 @@ Only one of the <b>RangeValid</b>, <b>AreaValid</b>, and <b>BoxValid</b> bit-fie
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544585">D3DDDI_LOCKASYNCFLAGS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddi_lockasyncflags">D3DDDI_LOCKASYNCFLAGS</a>
 
 
 
-<a href="https://msdn.microsoft.com/c8f76ebe-947a-45e4-abbc-f6020da929e8">LockAsync</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_lockasync">LockAsync</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a>
  
 
  

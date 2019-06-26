@@ -46,7 +46,7 @@ req.typenames: MSFC_EventBuffer, *PMSFC_EventBuffer
 ## -description
 
 
-The MSFC_EventBuffer structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553935">GetEventBuffer</a> method to retrieve the next events in the HBA's event queue.
+The MSFC_EventBuffer structure is used in conjunction with the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/geteventbuffer">GetEventBuffer</a> method to retrieve the next events in the HBA's event queue.
 
 
 ## -struct-fields
@@ -56,7 +56,7 @@ The MSFC_EventBuffer structure is used in conjunction with the <a href="https://
 
 ### -field EventType
 
-Indicates the type of the event. The values that can be assigned to this member are defined by the <a href="https://msdn.microsoft.com/528e5eaa-aaeb-4e5b-a4b2-0f518fcd79ee">EVENT_TYPE_QUALIFIERS</a> WMI class qualifier.
+Indicates the type of the event. The values that can be assigned to this member are defined by the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/event-types-qualifiers">EVENT_TYPE_QUALIFIERS</a> WMI class qualifier.
 
 
 ### -field EventInfo
@@ -68,7 +68,7 @@ Contains a structure of type <a href="https://msdn.microsoft.com/library/windows
 
 
 
-The WMI tool suite generates a declaration for this structure in <i>hbapiwm.h </i>after compiling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562483">MSFC_EventBuffer WMI Class</a>. 
+The WMI tool suite generates a declaration for this structure in <i>hbapiwm.h </i>after compiling the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msfc-eventbuffer-wmi-class">MSFC_EventBuffer WMI Class</a>. 
 
 The <a href="https://msdn.microsoft.com/library/windows/hardware/ff556048">HBA_EventInfo</a> structure is declared in <i>hbaapi.h</i>. You must include <i>hbaapi.h</i> to reference this structure.
 
@@ -80,11 +80,11 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff556048">HBA_E
 
 
 
-<a href="https://msdn.microsoft.com/528e5eaa-aaeb-4e5b-a4b2-0f518fcd79ee">EVENT_TYPE_QUALIFIERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/event-types-qualifiers">EVENT_TYPE_QUALIFIERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553935">GetEventBuffer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/geteventbuffer">GetEventBuffer</a>
 
 
 

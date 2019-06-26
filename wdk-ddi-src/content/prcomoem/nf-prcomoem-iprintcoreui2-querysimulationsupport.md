@@ -75,7 +75,7 @@ Specifies the spooler simulation capability structure returned in the buffer poi
 </td>
 <td>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562652">SIMULATE_CAPS_1</a> (defined in printoem.h)
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/ns-printoem-_simulate_caps_1">SIMULATE_CAPS_1</a> (defined in printoem.h)
 
 </td>
 </tr>
@@ -179,11 +179,11 @@ The <code>IPrintCoreUI2::QuerySimulationSupport</code> method stores a spooler s
 
 
 
-<a href="https://msdn.microsoft.com/e2d2e486-d69d-4a6d-aaab-a7b8806665b4">IPrintCoreUI2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nn-prcomoem-iprintcoreui2">IPrintCoreUI2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562652">SIMULATE_CAPS_1</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/ns-printoem-_simulate_caps_1">SIMULATE_CAPS_1</a>
  
 
  

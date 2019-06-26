@@ -47,7 +47,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11EXT_IHV_PROFILE_PARAMS structure specifies the general parameters of a basic service set
+<div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11EXT_IHV_PROFILE_PARAMS structure specifies the general parameters of a basic service set
   (BSS) network with which a network profile will be applied.
 
 
@@ -124,7 +124,7 @@ Although the IHV handler function cannot access the entire network profile, the 
 
 
 
-<a href="https://msdn.microsoft.com/fe136eef-4cc7-4a78-a5df-5f6c63a5007b">
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff553763(v=vs.85)">
    IDot11ExtUIProperty::Dot11ExtUIPropertySetDisplayInfo</a>
 
 
@@ -151,7 +151,7 @@ Although the IHV handler function cannot access the entire network profile, the 
 
 
 
-<a href="https://msdn.microsoft.com/de353aec-4339-496d-9aff-033b73f5d78e">
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff553752(v=vs.85)">
    IDot11ExtUIProperty::Dot11ExtUIPropertyGetDisplayInfo</a>
 
 

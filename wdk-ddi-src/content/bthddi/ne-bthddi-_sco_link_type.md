@@ -70,7 +70,7 @@ This value indicates that the link used by the connection is an eSCO link.
 
 
 The 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff536779">SCO_INDICATION_PARAMETERS</a> structure
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/ns-bthddi-_sco_indication_parameters">SCO_INDICATION_PARAMETERS</a> structure
     uses this enumeration.
 
 
@@ -81,7 +81,7 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536779">SCO_INDICATION_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/ns-bthddi-_sco_indication_parameters">SCO_INDICATION_PARAMETERS</a>
  
 
  

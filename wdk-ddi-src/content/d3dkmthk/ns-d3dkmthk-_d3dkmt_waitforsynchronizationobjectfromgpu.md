@@ -46,7 +46,7 @@ req.typenames: D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU
 ## -description
 
 
-<b>D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU</b> is used with <a href="https://msdn.microsoft.com/library/windows/hardware/dn906790">D3DKMTWaitForSynchronizationObjectFromGpu</a> to wait for a monitored fence to reach a certain value.
+<b>D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMGPU</b> is used with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/nf-d3dkmthk-d3dkmtwaitforsynchronizationobjectfromgpu">D3DKMTWaitForSynchronizationObjectFromGpu</a> to wait for a monitored fence to reach a certain value.
 
 
 ## -struct-fields
@@ -89,7 +89,7 @@ This member is reserved and should be set to zero.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn906790">D3DKMTWaitForSynchronizationObjectFromGpu</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/nf-d3dkmthk-d3dkmtwaitforsynchronizationobjectfromgpu">D3DKMTWaitForSynchronizationObjectFromGpu</a>
  
 
  

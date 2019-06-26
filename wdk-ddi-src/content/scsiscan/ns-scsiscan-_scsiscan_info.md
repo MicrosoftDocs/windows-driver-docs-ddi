@@ -46,7 +46,7 @@ req.typenames: SCSISCAN_INFO, *PSCSISCAN_INFO
 ## -description
 
 
-The SCSISCAN_INFO structure is used as a parameter to <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> (described in the Microsoft Windows SDK documentation), when the specified I/O control code is <a href="https://msdn.microsoft.com/library/windows/hardware/ff542879">IOCTL_SCSISCAN_GET_INFO</a>.
+The SCSISCAN_INFO structure is used as a parameter to <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> (described in the Microsoft Windows SDK documentation), when the specified I/O control code is <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/scsiscan/ni-scsiscan-ioctl_scsiscan_get_info">IOCTL_SCSISCAN_GET_INFO</a>.
 
 
 ## -struct-fields

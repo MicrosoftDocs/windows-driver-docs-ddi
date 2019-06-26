@@ -69,7 +69,7 @@ Indicates what node a handle should be created for. This refers to the node iden
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561653">KsCreateTopologyNode</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-kscreatetopologynode">KsCreateTopologyNode</a>
  
 
  

@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <code>IMiniportMidiStream</code> interface represents the MIDI stream that flows through a pin on a MIDI filter. The filter wraps a MIDI synthesizer or capture device and is implemented by pairing a MIDI port driver with a MIDI miniport driver. The miniport driver implements the <code>IMiniportMidiStream</code> interface and exposes it to the port driver. The port driver creates a stream object with this interface by calling the miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff536710">IMiniportMidi::NewStream</a> method. <code>IMiniportMidiStream</code> inherits from the <b>IUnknown</b> interface.
+The <code>IMiniportMidiStream</code> interface represents the MIDI stream that flows through a pin on a MIDI filter. The filter wraps a MIDI synthesizer or capture device and is implemented by pairing a MIDI port driver with a MIDI miniport driver. The miniport driver implements the <code>IMiniportMidiStream</code> interface and exposes it to the port driver. The port driver creates a stream object with this interface by calling the miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iminiportmidi-newstream">IMiniportMidi::NewStream</a> method. <code>IMiniportMidiStream</code> inherits from the <b>IUnknown</b> interface.
 
  This interface provides methods for reading and writing a MIDI stream and for setting the format and state of a MIDI stream.
 

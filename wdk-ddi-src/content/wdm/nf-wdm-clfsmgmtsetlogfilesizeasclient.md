@@ -57,12 +57,12 @@ The <b>ClfsMgmtSetLogFileSizeAsClient</b>  routine sets the log file size by add
 
 ### -param LogFile [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff554316">LOG_FILE_OBJECT</a> structure that represents the Common Log File System (CLFS) log, or a stream within the log, to which containers are being added or deleted. The value of this parameter is obtained through a call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540792">ClfsCreateLogFile</a> routine.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_file_object">LOG_FILE_OBJECT</a> structure that represents the Common Log File System (CLFS) log, or a stream within the log, to which containers are being added or deleted. The value of this parameter is obtained through a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-clfscreatelogfile">ClfsCreateLogFile</a> routine.
 
 
 ### -param ClientCookie [in, optional]
 
-A pointer to a client-supplied cookie. The value of this parameter should be the <b>CLFS_MGMT_CLIENT</b> structure that is obtained through a call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541642">ClfsMgmtRegisterManagedClient</a> routine.
+A pointer to a client-supplied cookie. The value of this parameter should be the <b>CLFS_MGMT_CLIENT</b> structure that is obtained through a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-clfsmgmtregistermanagedclient">ClfsMgmtRegisterManagedClient</a> routine.
 
 
 ### -param NewSizeInContainers [in]
@@ -136,7 +136,7 @@ The value of the <i>NewSizeInContainers</i> parameter is <b>NULL</b>.
 </dl>
 </td>
 <td width="60%">
-The installed set of policies on the log is invalid. This might be due to an invalid <a href="https://msdn.microsoft.com/d33bfe46-8820-4b68-9359-cb32c7110b66">ClfsMgmtPolicyAutoShrink</a> policy or <a href="https://msdn.microsoft.com/a04657ff-4498-4330-8ca5-03db0b175539">ClfsMgmtPolicyMaximumSize</a> policy.
+The installed set of policies on the log is invalid. This might be due to an invalid <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb540325(v=vs.85)">ClfsMgmtPolicyAutoShrink</a> policy or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/bb540328(v=vs.85)">ClfsMgmtPolicyMaximumSize</a> policy.
 
 </td>
 </tr>
@@ -165,7 +165,7 @@ A policy on the specified log   prevented the operation from completing. This ma
 </table>
  
 
-This routine might also return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
+This routine might also return other <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS values</a>.
 
 
 
@@ -175,7 +175,7 @@ This routine might also return other <a href="https://msdn.microsoft.com/library
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541830">CLFS Management Library Routines</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">CLFS Management Library Routines</a>
  
 
  

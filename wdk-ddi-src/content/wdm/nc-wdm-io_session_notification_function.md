@@ -56,17 +56,17 @@ The IO_SESSION_NOTIFICATION_FUNCTION function type defines a callback routine th
 
 ### -param SessionObject [in]
 
-Pointer to an opaque, system object that contains information about the user session. The driver can pass this pointer value to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549164">IoGetContainerInformation</a> routine as the <i>ContainerObject</i> parameter value.
+Pointer to an opaque, system object that contains information about the user session. The driver can pass this pointer value to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iogetcontainerinformation">IoGetContainerInformation</a> routine as the <i>ContainerObject</i> parameter value.
 
 
 ### -param IoObject [in]
 
-Pointer to an I/O object owned by the driver. This parameter is the I/O object pointer that the driver supplied to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549501">IoRegisterContainerNotification</a> routine when the driver previously registered to receive notifications of session events. The <b>IoRegisterContainerNotification</b> routine's <i>NotificationInformation</i> parameter points to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550643">IO_SESSION_STATE_NOTIFICATION</a> structure whose <b>IoObject</b> member points to the I/O object.
+Pointer to an I/O object owned by the driver. This parameter is the I/O object pointer that the driver supplied to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ioregistercontainernotification">IoRegisterContainerNotification</a> routine when the driver previously registered to receive notifications of session events. The <b>IoRegisterContainerNotification</b> routine's <i>NotificationInformation</i> parameter points to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_io_session_state_notification">IO_SESSION_STATE_NOTIFICATION</a> structure whose <b>IoObject</b> member points to the I/O object.
 
 
 ### -param Event [in]
 
-An <a href="https://msdn.microsoft.com/library/windows/hardware/ff550623">IO_SESSION_EVENT</a> enumeration constant that indicates which session event caused the notification callback.
+An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_io_session_event">IO_SESSION_EVENT</a> enumeration constant that indicates which session event caused the notification callback.
 
 
 ### -param Context [in]
@@ -76,7 +76,7 @@ The context value that the driver previously supplied to the <b>IoRegisterContai
 
 ### -param NotificationPayload [in]
 
-Pointer to a payload buffer that contains an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550619">IO_SESSION_CONNECT_INFO</a> structure.
+Pointer to a payload buffer that contains an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_io_session_connect_info">IO_SESSION_CONNECT_INFO</a> structure.
 
 
 ### -param PayloadLength [in]
@@ -99,12 +99,12 @@ If the routine succeeds, it must return STATUS_SUCCESS. Otherwise, it must retur
 
 A kernel-mode driver implements this routine. The I/O manager calls this routine to notify the driver of session events.
 
-To receive notifications of session events, a driver calls the <b>IoRegisterContainerNotification</b> routine and sets this routine's <i>CallbackFunction</i> parameter to point to the driver's IO_SESSION_NOTIFICATION_FUNCTION routine. The I/O object that the driver passes to <b>IoRegisterContainerNotification</b> determines whether the driver will receive notifications of events in a particular user session or of events in all sessions. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff550643">IO_SESSION_STATE_NOTIFICATION</a>.
+To receive notifications of session events, a driver calls the <b>IoRegisterContainerNotification</b> routine and sets this routine's <i>CallbackFunction</i> parameter to point to the driver's IO_SESSION_NOTIFICATION_FUNCTION routine. The I/O object that the driver passes to <b>IoRegisterContainerNotification</b> determines whether the driver will receive notifications of events in a particular user session or of events in all sessions. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_io_session_state_notification">IO_SESSION_STATE_NOTIFICATION</a>.
 
 
 #### Examples
 
-To define an I/O-session notification routine, you must first provide a function declaration that identifies the type of callback routine you're defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
+To define an I/O-session notification routine, you must first provide a function declaration that identifies the type of callback routine you're defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/code-analysis-for-drivers">Code Analysis for Drivers</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
 
 For example, to define an I/O-session notification routine that is named <code>MyIoSessionNotification</code>, use the IO_SESSION_NOTIFICATION_FUNCTION type as shown in this code example:
 
@@ -142,7 +142,7 @@ NTSTATUS
 </td>
 </tr>
 </table></span></div>
-The IO_SESSION_NOTIFICATION_FUNCTION function type is defined in the Wdm.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the IO_SESSION_NOTIFICATION_FUNCTION function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/3260b53e-82be-4dbc-8ac5-d0e52de77f9d">Declaring Functions by Using Function Role Types for WDM Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
+The IO_SESSION_NOTIFICATION_FUNCTION function type is defined in the Wdm.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the IO_SESSION_NOTIFICATION_FUNCTION function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-using-function-role-types-for-wdm-drivers">Declaring Functions by Using Function Role Types for WDM Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 <div class="code"></div>
 
@@ -153,23 +153,23 @@ The IO_SESSION_NOTIFICATION_FUNCTION function type is defined in the Wdm.h heade
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550619">IO_SESSION_CONNECT_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_io_session_connect_info">IO_SESSION_CONNECT_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550623">IO_SESSION_EVENT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_io_session_event">IO_SESSION_EVENT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550643">IO_SESSION_STATE_NOTIFICATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_io_session_state_notification">IO_SESSION_STATE_NOTIFICATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549164">IoGetContainerInformation</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iogetcontainerinformation">IoGetContainerInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549501">IoRegisterContainerNotification</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ioregistercontainernotification">IoRegisterContainerNotification</a>
  
 
  

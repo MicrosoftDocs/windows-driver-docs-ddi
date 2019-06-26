@@ -77,7 +77,7 @@ The <b>Flush</b> method discards any data that WinUsb saved when the device retu
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh463886">Flush</a> successfully discarded any extra data that WinUsb saved. 
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfworkitem-flush">Flush</a> successfully discarded any extra data that WinUsb saved. 
 
 </td>
 </tr>
@@ -89,7 +89,7 @@ The <b>Flush</b> method discards any data that WinUsb saved when the device retu
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh463886">Flush</a> encountered an allocation failure.
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfworkitem-flush">Flush</a> encountered an allocation failure.
 
 </td>
 </tr>
@@ -116,7 +116,7 @@ This value corresponds to the error code that the WinUsb API returned.
 
 The <b>Flush</b> method generates a UMDF request and synchronously sends the request to the I/O target.
 
-For more information about how <b>Flush</b> works, see the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540227">WinUsb_FlushPipe</a> function.
+For more information about how <b>Flush</b> works, see the <a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_flushpipe">WinUsb_FlushPipe</a> function.
 
 
 
@@ -126,11 +126,11 @@ For more information about how <b>Flush</b> works, see the <a href="https://msdn
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560391">IWDFUsbTargetPipe</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nn-wudfusb-iwdfusbtargetpipe">IWDFUsbTargetPipe</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540227">WinUsb_FlushPipe</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winusb/nf-winusb-winusb_flushpipe">WinUsb_FlushPipe</a>
  
 
  

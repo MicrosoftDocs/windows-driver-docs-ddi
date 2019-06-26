@@ -90,7 +90,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/7C12C528-03B2-42B7-A73D-21DF3FEF1505">IPrintAsyncNotify</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prnasntp/nn-prnasntp-iprintasyncnotify">IPrintAsyncNotify</a>
  
 
  

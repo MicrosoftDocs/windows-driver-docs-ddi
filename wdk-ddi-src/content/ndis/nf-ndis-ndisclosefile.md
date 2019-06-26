@@ -49,7 +49,7 @@ req.typenames:
 
 The 
   <b>NdisCloseFile</b> function releases a handle returned by the 
-  <a href="https://msdn.microsoft.com/library/windows/hardware/ff563728">NdisOpenFile</a> function and frees the memory
+  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisopenfile">NdisOpenFile</a> function and frees the memory
   allocated to hold the file contents when it was opened.
 
 
@@ -61,7 +61,7 @@ The
 ### -param FileHandle [in]
 
 The handle that was returned in a preceding call to the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff563728">NdisOpenFile</a> function.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisopenfile">NdisOpenFile</a> function.
 
 
 ## -returns
@@ -78,9 +78,9 @@ None
 
 
 For miniport drivers, calls to this function are valid only during initialization. If the 
-    <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> function
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> function
     calls the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff563728">NdisOpenFile</a> function, it must call 
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisopenfile">NdisOpenFile</a> function, it must call 
     <b>NdisCloseFile</b> before it returns control.
 
 
@@ -91,19 +91,19 @@ For miniport drivers, calls to this function are valid only during initializatio
 
 
 
-<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562785">NdisMapFile</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismapfile">NdisMapFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563728">NdisOpenFile</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisopenfile">NdisOpenFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564641">NdisUnmapFile</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisunmapfile">NdisUnmapFile</a>
  
 
  

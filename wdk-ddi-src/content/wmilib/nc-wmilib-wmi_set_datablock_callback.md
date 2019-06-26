@@ -56,7 +56,7 @@ The <i>DpWmiSetDataBlock</i> routine changes all data items in a single instance
 
 ### -param DeviceObject [in]
 
-Pointer to the driver's WDM <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a> structure.
+Pointer to the driver's WDM <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure.
 
 
 ### -param Irp [in]
@@ -66,7 +66,7 @@ Pointer to the IRP.
 
 ### -param GuidIndex [in]
 
-Specifies the data block by its zero-based index into the list of GUIDs provided by the driver in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565813">WMILIB_CONTEXT</a> structure it passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff565834">WmiSystemControl</a>.
+Specifies the data block by its zero-based index into the list of GUIDs provided by the driver in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wmilib/ns-wmilib-_wmilib_context">WMILIB_CONTEXT</a> structure it passed to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wmilib/nf-wmilib-wmisystemcontrol">WmiSystemControl</a>.
 
 
 ### -param InstanceIndex [in]
@@ -99,17 +99,17 @@ If the driver cannot complete the request immediately, it can return STATUS_PEND
 
 
 
-WMI calls a driver's <i>DpWmiSetDataBlock</i> routine after the driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff565834">WmiSystemControl</a> in response to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550831">IRP_MN_CHANGE_SINGLE_INSTANCE</a> request.
+WMI calls a driver's <i>DpWmiSetDataBlock</i> routine after the driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wmilib/nf-wmilib-wmisystemcontrol">WmiSystemControl</a> in response to an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-change-single-instance">IRP_MN_CHANGE_SINGLE_INSTANCE</a> request.
 
 The driver is responsible for validating all input arguments. Specifically, the driver must do the following:
 
 <ul>
 <li>
-Verify that the <i>GuidIndex</i> value is between zero and GuidCount-1, based on the <b>GuidCount</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565813">WMILIB_CONTEXT</a> structure.
+Verify that the <i>GuidIndex</i> value is between zero and GuidCount-1, based on the <b>GuidCount</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wmilib/ns-wmilib-_wmilib_context">WMILIB_CONTEXT</a> structure.
 
 </li>
 <li>
-Verify that the driver has not flagged the specified data block for removal. If the driver recently specified the WMIREG_FLAG_REMOVE_GUID flag in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff565811">WMIGUIDREGINFO</a> structure that is contained in a <b>WMILIB_CONTEXT</b> structure, it is possible for a set request to arrive before the removal occurs.
+Verify that the driver has not flagged the specified data block for removal. If the driver recently specified the WMIREG_FLAG_REMOVE_GUID flag in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wmilib/ns-wmilib-_wmiguidreginfo">WMIGUIDREGINFO</a> structure that is contained in a <b>WMILIB_CONTEXT</b> structure, it is possible for a set request to arrive before the removal occurs.
 
 </li>
 <li>
@@ -127,11 +127,11 @@ Verify that the specified data block is one for which the driver allows caller-i
 </ul>
 Do not assume the thread context is that of the initiating user-mode application—a higher-level driver might have changed it.
 
-If a driver implements a <i>DpWmiSetDataBlock</i> routine, the driver must place the routine's address in the <b>SetWmiDataBlock</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565813">WMILIB_CONTEXT</a> structure that it passes to <a href="https://msdn.microsoft.com/library/windows/hardware/ff565834">WmiSystemControl</a>. If a driver does not implement a <i>DpWmiSetDataBlock</i> routine, it must set <b>SetWmiDataBlock</b> to <b>NULL</b>. In the latter case, WMI returns STATUS_READ_ONLY to the caller.
+If a driver implements a <i>DpWmiSetDataBlock</i> routine, the driver must place the routine's address in the <b>SetWmiDataBlock</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wmilib/ns-wmilib-_wmilib_context">WMILIB_CONTEXT</a> structure that it passes to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wmilib/nf-wmilib-wmisystemcontrol">WmiSystemControl</a>. If a driver does not implement a <i>DpWmiSetDataBlock</i> routine, it must set <b>SetWmiDataBlock</b> to <b>NULL</b>. In the latter case, WMI returns STATUS_READ_ONLY to the caller.
 
 This routine can be pageable.
 
-For more information about implementing this routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540741">Calling WmiSystemControl to Handle WMI IRPs</a>.
+For more information about implementing this routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/calling-wmisystemcontrol-to-handle-wmi-irps">Calling WmiSystemControl to Handle WMI IRPs</a>.
 
 
 
@@ -141,15 +141,15 @@ For more information about implementing this routine, see <a href="https://msdn.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550831">IRP_MN_CHANGE_SINGLE_INSTANCE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-change-single-instance">IRP_MN_CHANGE_SINGLE_INSTANCE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565813">WMILIB_CONTEXT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wmilib/ns-wmilib-_wmilib_context">WMILIB_CONTEXT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565834">WmiSystemControl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wmilib/nf-wmilib-wmisystemcontrol">WmiSystemControl</a>
  
 
  

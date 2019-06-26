@@ -69,12 +69,12 @@ The <b>BdaValidateNodeProperty</b> function validates that a node property reque
 
 #### - Irp [in]
 
-Points to the IRP for the request to validate that the current pin controls the node property at <i>pKSProperty</i>. The BDA minidriver can receive this IRP with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564355">KSPROPERTY_BDA_RF_TUNER_FREQUENCY</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff564286">KSPROPERTY_BDA_AUTODEMODULATE_START</a> request.
+Points to the IRP for the request to validate that the current pin controls the node property at <i>pKSProperty</i>. The BDA minidriver can receive this IRP with the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-bda-rf-tuner-frequency">KSPROPERTY_BDA_RF_TUNER_FREQUENCY</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-bda-autodemodulate-start">KSPROPERTY_BDA_AUTODEMODULATE_START</a> request.
 
 
 #### - pKSProperty [in]
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a> structure that describes the property and request type of the property request.
+Points to a <a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> structure that describes the property and request type of the property request.
 
 
 ## -returns
@@ -90,7 +90,7 @@ Returns STATUS_SUCCESS or an appropriate error code.
 
 
 
-A pin method in a BDA minidriver calls the <b>BdaValidateNodeProperty</b> function to validate that the pin controls a specific node property after the minidriver receives the node property request from the network provider. This node property request can be, for example, a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564355">KSPROPERTY_BDA_RF_TUNER_FREQUENCY</a> request of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566542">KSPROPSETID_BdaFrequencyFilter</a> property set or a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564286">KSPROPERTY_BDA_AUTODEMODULATE_START</a> request of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566533">KSPROPSETID_BdaAutodemodulate</a> property set. These property sets manipulate tuner and demodulator nodes. After successfully calling <b>BdaValidateNodeProperty</b>, the minidriver obtains a pointer to the BDA filter from the passed IRP so that the minidriver can perform an operation on the particular node. 
+A pin method in a BDA minidriver calls the <b>BdaValidateNodeProperty</b> function to validate that the pin controls a specific node property after the minidriver receives the node property request from the network provider. This node property request can be, for example, a <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-bda-rf-tuner-frequency">KSPROPERTY_BDA_RF_TUNER_FREQUENCY</a> request of the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/kspropsetid-bdafrequencyfilter">KSPROPSETID_BdaFrequencyFilter</a> property set or a <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-bda-autodemodulate-start">KSPROPERTY_BDA_AUTODEMODULATE_START</a> request of the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/kspropsetid-bdaautodemodulate">KSPROPSETID_BdaAutodemodulate</a> property set. These property sets manipulate tuner and demodulator nodes. After successfully calling <b>BdaValidateNodeProperty</b>, the minidriver obtains a pointer to the BDA filter from the passed IRP so that the minidriver can perform an operation on the particular node. 
 
 
 
@@ -100,23 +100,23 @@ A pin method in a BDA minidriver calls the <b>BdaValidateNodeProperty</b> functi
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
+<a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564286">KSPROPERTY_BDA_AUTODEMODULATE_START</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-bda-autodemodulate-start">KSPROPERTY_BDA_AUTODEMODULATE_START</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564355">KSPROPERTY_BDA_RF_TUNER_FREQUENCY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-bda-rf-tuner-frequency">KSPROPERTY_BDA_RF_TUNER_FREQUENCY</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566533">KSPROPSETID_BdaAutodemodulate</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/kspropsetid-bdaautodemodulate">KSPROPSETID_BdaAutodemodulate</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566542">KSPROPSETID_BdaFrequencyFilter</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/kspropsetid-bdafrequencyfilter">KSPROPSETID_BdaFrequencyFilter</a>
  
 
  

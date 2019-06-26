@@ -233,9 +233,9 @@ The final call to **FltQueryDirectoryFile** returns an empty output buffer and r
 
 **FltQueryDirectoryFile** returns zero in any member of a FILE_*XXX*_INFORMATION structure that is not supported by the file system.
 
-For information about other file information query routines, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff545843">File Objects</a>.
+For information about other file information query routines, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">File Objects</a>.
 
-Callers of **FltQueryDirectoryFile** must be running at IRQL = PASSIVE_LEVEL and with APCs enabled. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff543219">Disabling APCs</a>.
+Callers of **FltQueryDirectoryFile** must be running at IRQL = PASSIVE_LEVEL and with APCs enabled. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/disabling-apcs">Disabling APCs</a>.
 
 ## -see-also
 

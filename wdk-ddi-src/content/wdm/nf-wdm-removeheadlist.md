@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <b>RemoveHeadList</b> routine removes an entry from the beginning of a doubly linked list of <a href="https://msdn.microsoft.com/library/windows/hardware/ff554296">LIST_ENTRY</a> structures. 
+The <b>RemoveHeadList</b> routine removes an entry from the beginning of a doubly linked list of <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_list_entry">LIST_ENTRY</a> structures. 
 
 
 ## -parameters
@@ -56,7 +56,7 @@ The <b>RemoveHeadList</b> routine removes an entry from the beginning of a doubl
 
 ### -param ListHead [in, out]
 
-Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554296">LIST_ENTRY</a> structure that serves as the list header.
+Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_list_entry">LIST_ENTRY</a> structure that serves as the list header.
 
 
 ## -returns
@@ -74,7 +74,7 @@ Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff55
 
 <b>RemoveHeadList</b> removes the first entry from the list by setting <i>ListHead</i>-><b>Flink</b> to point to the second entry in the list. The routine sets the <b>Blink</b> member of the second entry to <i>ListHead</i>. In the event the list is empty, this is effectively a no-op.
 
-For information about using this routine when implementing a doubly linked list, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563802">Singly and Doubly Linked Lists</a>.
+For information about using this routine when implementing a doubly linked list, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/singly-and-doubly-linked-lists">Singly and Doubly Linked Lists</a>.
 
 Callers of <b>RemoveHeadList</b> can be running at any IRQL. If <b>RemoveHeadList</b> is called at IRQL >= DISPATCH_LEVEL, the storage for <i>ListHead</i> and the list entries must be resident.
 
@@ -90,19 +90,19 @@ Callers of <b>RemoveHeadList</b> can be running at any IRQL. If <b>RemoveHeadLis
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547799">InitializeListHead</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-initializelisthead">InitializeListHead</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551789">IsListEmpty</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-islistempty">IsListEmpty</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561029">RemoveEntryList</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-removeentrylist">RemoveEntryList</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561036">RemoveTailList</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-removetaillist">RemoveTailList</a>
  
 
  

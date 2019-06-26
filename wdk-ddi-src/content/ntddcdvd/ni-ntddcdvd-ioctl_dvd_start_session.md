@@ -74,7 +74,7 @@ The driver returns an integer authentication grant ID of type DVD_SESSION_ID in 
 
 ### -output-buffer-length
 
-Length of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff553743">DVD_SESSION_ID</a>.
+Length of a <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff553743(v=vs.85)">DVD_SESSION_ID</a>.
 
 
 ### -in-out-buffer

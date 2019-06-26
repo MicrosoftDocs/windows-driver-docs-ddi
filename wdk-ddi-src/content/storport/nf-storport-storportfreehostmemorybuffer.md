@@ -115,7 +115,7 @@ The host memory buffer was not valid (likely already freed).
 
 
 
-<a href="https://msdn.microsoft.com/B8413B02-32A6-40AE-9DD2-C25AD2D2D45C">StorPortAllocateHostMemoryBuffer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportallocatehostmemorybuffer">StorPortAllocateHostMemoryBuffer</a>
  
 
  

@@ -46,7 +46,7 @@ req.typenames: SUB_Q_CURRENT_POSITION, *PSUB_Q_CURRENT_POSITION
 ## -description
 
 
-The SUB_Q_CURRENT_POSITION structure contains position information and is used in conjunction with <a href="https://msdn.microsoft.com/library/windows/hardware/ff567595">SUB_Q_CHANNEL_DATA</a>. 
+The SUB_Q_CURRENT_POSITION structure contains position information and is used in conjunction with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdrm/ns-ntddcdrm-_sub_q_channel_data">SUB_Q_CHANNEL_DATA</a>. 
 
 
 ## -struct-fields
@@ -56,7 +56,7 @@ The SUB_Q_CURRENT_POSITION structure contains position information and is used i
 
 ### -field Header
 
-Indicates, among other things, the length of the Q subchannel data that was retrieved. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff567598">SUB_Q_HEADER</a> for more details. 
+Indicates, among other things, the length of the Q subchannel data that was retrieved. See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdrm/ns-ntddcdrm-_sub_q_header">SUB_Q_HEADER</a> for more details. 
 
 
 ### -field FormatCode
@@ -99,19 +99,19 @@ Gives the current location relative to the logical beginning of the current trac
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551371">CDROM_SUB_Q_DATA_FORMAT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdrm/ns-ntddcdrm-_cdrom_sub_q_data_format">CDROM_SUB_Q_DATA_FORMAT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559363">IOCTL_CDROM_READ_Q_CHANNEL</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_read_q_channel">IOCTL_CDROM_READ_Q_CHANNEL</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567595">SUB_Q_CHANNEL_DATA</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdrm/ns-ntddcdrm-_sub_q_channel_data">SUB_Q_CHANNEL_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567598">SUB_Q_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdrm/ns-ntddcdrm-_sub_q_header">SUB_Q_HEADER</a>
  
 
  

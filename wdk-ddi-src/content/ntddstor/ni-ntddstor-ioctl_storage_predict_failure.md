@@ -49,7 +49,7 @@ req.typenames:
 
 Polls for a prediction of device failure. This request works with the IDE disk drives that support self-monitoring analysis and reporting technology (SMART). If the drive is a SCSI drive, the class driver attempts to verify if the SCSI disk supports the equivalent IDE SMART technology by check the inquiry information on the Information Exception Control Page, X3T10/94-190 Rev 4. 
 
-If the device supports prediction failure, the disk class driver queries the device for failure prediction status and reports the results. If the disk class driver assigns a nonzero value to the <b>PredictFailure</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff566995">STORAGE_PREDICT_FAILURE</a> in the output buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>, the disk has bad sectors and is predicting a failure. The storage stack returns 512 bytes of vendor-specific information about the failure prediction in the <b>VendorSpecific</b> member of STORAGE_PREDICT_FAILURE. 
+If the device supports prediction failure, the disk class driver queries the device for failure prediction status and reports the results. If the disk class driver assigns a nonzero value to the <b>PredictFailure</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor-_storage_predict_failure">STORAGE_PREDICT_FAILURE</a> in the output buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>, the disk has bad sectors and is predicting a failure. The storage stack returns 512 bytes of vendor-specific information about the failure prediction in the <b>VendorSpecific</b> member of STORAGE_PREDICT_FAILURE. 
 
 If the <b>PredictFailure</b> member contains a value of zero, the disk is not predicting a failure.
 
@@ -77,7 +77,7 @@ None.
 
 ### -output-buffer
 
-The driver returns a <a href="https://msdn.microsoft.com/library/windows/hardware/ff566995">STORAGE_PREDICT_FAILURE</a> structure containing failure prediction data in the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>. 
+The driver returns a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor-_storage_predict_failure">STORAGE_PREDICT_FAILURE</a> structure containing failure prediction data in the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>. 
 
 
 ### -output-buffer-length
@@ -105,7 +105,7 @@ The driver returns a <a href="https://msdn.microsoft.com/library/windows/hardwar
 
 ### -status-block
 
-<b>Irp->IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> code. 
+<b>Irp->IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> code. 
 
 
 ## -see-also
@@ -113,7 +113,7 @@ The driver returns a <a href="https://msdn.microsoft.com/library/windows/hardwar
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566995">STORAGE_PREDICT_FAILURE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor-_storage_predict_failure">STORAGE_PREDICT_FAILURE</a>
  
 
  

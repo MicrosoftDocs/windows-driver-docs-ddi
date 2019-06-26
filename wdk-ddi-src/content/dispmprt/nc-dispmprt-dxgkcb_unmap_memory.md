@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <b>DxgkCbUnmapMemory</b> function unmaps a range of addresses previously mapped by <a href="https://msdn.microsoft.com/916a4d1d-0c40-4125-89ae-488251b04810">DxgkCbMapMemory</a>.
+The <b>DxgkCbUnmapMemory</b> function unmaps a range of addresses previously mapped by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkcb_map_memory">DxgkCbMapMemory</a>.
 
 
 ## -parameters
@@ -56,7 +56,7 @@ The <b>DxgkCbUnmapMemory</b> function unmaps a range of addresses previously map
 
 ### -param DeviceHandle [in]
 
-A handle that represents a display adapter. The display miniport driver previously obtained this handle in the <b>DeviceHandle</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560942">DXGKRNL_INTERFACE</a> structure that was passed to <a href="https://msdn.microsoft.com/ffacbb39-2581-4207-841d-28ce57fbc64d">DxgkDdiStartDevice</a>.
+A handle that represents a display adapter. The display miniport driver previously obtained this handle in the <b>DeviceHandle</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/ns-dispmprt-_dxgkrnl_interface">DXGKRNL_INTERFACE</a> structure that was passed to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a>.
 
 
 ### -param VirtualAddress [in]
@@ -78,7 +78,7 @@ The beginning address of the range to be unmapped. This address can be a virtual
 
 
 
-<a href="https://msdn.microsoft.com/916a4d1d-0c40-4125-89ae-488251b04810">DxgkCbMapMemory</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkcb_map_memory">DxgkCbMapMemory</a>
  
 
  

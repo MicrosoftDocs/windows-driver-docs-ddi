@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <b>MmUnsecureVirtualMemory</b> routine unsecures a memory address range secured by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556374">MmSecureVirtualMemory</a> routine. 
+The <b>MmUnsecureVirtualMemory</b> routine unsecures a memory address range secured by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-mmsecurevirtualmemory">MmSecureVirtualMemory</a> routine. 
 
 
 ## -parameters
@@ -56,7 +56,7 @@ The <b>MmUnsecureVirtualMemory</b> routine unsecures a memory address range secu
 
 ### -param SecureHandle [in]
 
-Specifies the value returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff556374">MmSecureVirtualMemory</a> for the memory address range. 
+Specifies the value returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-mmsecurevirtualmemory">MmSecureVirtualMemory</a> for the memory address range. 
 
 
 ## -returns
@@ -73,7 +73,7 @@ None
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556374">MmSecureVirtualMemory</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-mmsecurevirtualmemory">MmSecureVirtualMemory</a>
  
 
  

@@ -61,7 +61,7 @@ The <b>WdfWaitLockAcquire</b> method acquires a specified wait lock.
 
 ### -param Lock [in]
 
-A handle to a framework wait-lock object, obtained by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff551171">WdfWaitLockCreate</a>.
+A handle to a framework wait-lock object, obtained by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfsync/nf-wdfsync-wdfwaitlockcreate">WdfWaitLockCreate</a>.
 
 
 ### -param Timeout [in, optional]
@@ -86,7 +86,7 @@ If the time-out value is zero, <b>WdfWaitLockAcquire</b> attempts to acquire the
 </ul>
 Relative expiration times are not affected by any changes to the system time that might occur within the specified time-out period. Absolute expiration times do reflect system time changes.
 
-The framework provides <a href="https://msdn.microsoft.com/E7D5564D-7BAA-412E-959F-3655B963B4C1">time conversion functions</a> that convert time values into system time units.
+The framework provides <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdftimer/">time conversion functions</a> that convert time values into system time units.
 
 If the caller supplies a <b>NULL</b> pointer, the method waits indefinitely until it has acquired the lock.
 
@@ -95,7 +95,7 @@ If the caller supplies a <b>NULL</b> pointer, the method waits indefinitely unti
 
 
 
-<b>WdfWaitLockAcquire</b> can return the following <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>:
+<b>WdfWaitLockAcquire</b> can return the following <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS values</a>:
 
 <table>
 <tr>
@@ -127,7 +127,7 @@ The specified <i>Timeout</i> interval expired before the lock was acquired.
 </table>
  
 
-Note that <a href="https://msdn.microsoft.com/fe823930-e3ff-4c95-a640-bb6470c95d1d">NT_SUCCESS</a>(status) equals <b>TRUE</b> for all of these status values.
+Note that <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-ntstatus-values">NT_SUCCESS</a>(status) equals <b>TRUE</b> for all of these status values.
 
 
 
@@ -148,7 +148,7 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 The <b>WdfWaitLockAcquire</b> method does not return until it acquires the wait lock or until the time-out period expires. 
 
-<b>WdfWaitLockAcquire</b> calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff552021">KeEnterCriticalRegion</a> before acquiring the wait lock.  As a result, when the method returns, <a href="https://msdn.microsoft.com/74ed953c-1b2a-40b9-9df3-16869b198b38">normal kernel APCs</a> are disabled. <b>WdfWaitLockAcquire</b> does not alter the caller's IRQL.
+<b>WdfWaitLockAcquire</b> calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-keentercriticalregion">KeEnterCriticalRegion</a> before acquiring the wait lock.  As a result, when the method returns, <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/types-of-apcs">normal kernel APCs</a> are disabled. <b>WdfWaitLockAcquire</b> does not alter the caller's IRQL.
 
 If the <i>Timeout</i> pointer is <b>NULL</b>, or if the time-out value is not zero, <b>WdfWaitLockAcquire</b> must be called at IRQL = PASSIVE_LEVEL.
 
@@ -190,15 +190,15 @@ WdfWaitLockRelease(FilterDeviceCollectionLock);</pre>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552021">KeEnterCriticalRegion</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-keentercriticalregion">KeEnterCriticalRegion</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551171">WdfWaitLockCreate</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfsync/nf-wdfsync-wdfwaitlockcreate">WdfWaitLockCreate</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556116">WdfWaitLockRelease</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/kmdf-wdfwaitlockrelease">WdfWaitLockRelease</a>
  
 
  

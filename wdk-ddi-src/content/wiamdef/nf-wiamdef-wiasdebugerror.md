@@ -89,7 +89,7 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 
 
-The wiasDebugError function is not recommended for Windows XP and later. For Windows XP use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549580">WIAS_LERROR</a> macro instead. For Windows Vista use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549565">WIAS_ERROR</a> macro instead.
+The wiasDebugError function is not recommended for Windows XP and later. For Windows XP use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wias_lerror">WIAS_LERROR</a> macro instead. For Windows Vista use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wias_error">WIAS_ERROR</a> macro instead.
 
 
 
@@ -99,11 +99,11 @@ The wiasDebugError function is not recommended for Windows XP and later. For Win
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549565">WIAS_ERROR</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wias_error">WIAS_ERROR</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549580">WIAS_LERROR</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wias_lerror">WIAS_LERROR</a>
  
 
  

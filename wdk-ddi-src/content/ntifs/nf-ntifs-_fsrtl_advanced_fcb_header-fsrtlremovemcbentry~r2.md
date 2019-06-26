@@ -46,7 +46,7 @@ req.typenames: TOKEN_TYPE
 ## -description
 
 
-The <b>FsRtlRemoveMcbEntry</b> routine is obsolete, but is exported to support existing driver binaries. Use <a href="https://msdn.microsoft.com/library/windows/hardware/ff547215">FsRtlRemoveLargeMcbEntry</a> instead.
+The <b>FsRtlRemoveMcbEntry</b> routine is obsolete, but is exported to support existing driver binaries. Use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlremovelargemcbentry">FsRtlRemoveLargeMcbEntry</a> instead.
 
 
 ## -parameters

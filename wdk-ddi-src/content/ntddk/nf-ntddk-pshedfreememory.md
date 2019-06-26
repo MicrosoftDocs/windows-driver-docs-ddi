@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <b>PshedFreeMemory</b> function frees a block of memory that was previously allocated by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559461">PshedAllocateMemory</a> function.
+The <b>PshedFreeMemory</b> function frees a block of memory that was previously allocated by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-pshedallocatememory">PshedAllocateMemory</a> function.
 
 
 ## -parameters
@@ -72,7 +72,7 @@ None
 
 
 
-A PSHED plug-in calls the <b>PshedFreeMemory</b> function to free a block of memory that it previously allocated by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559461">PshedAllocateMemory</a> function.
+A PSHED plug-in calls the <b>PshedFreeMemory</b> function to free a block of memory that it previously allocated by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-pshedallocatememory">PshedAllocateMemory</a> function.
 
 
 
@@ -82,7 +82,7 @@ A PSHED plug-in calls the <b>PshedFreeMemory</b> function to free a block of mem
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559461">PshedAllocateMemory</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-pshedallocatememory">PshedAllocateMemory</a>
  
 
  

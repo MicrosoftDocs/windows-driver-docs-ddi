@@ -69,7 +69,7 @@ None
 
 ### -output-buffer
 
-An <a href="https://msdn.microsoft.com/0F69EE38-C124-47A6-B3CA-31F089657894"> SECURE_ELEMENT_ENDPOINT_LIST</a> for each device enumerated.
+An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/nfcsedev/ns-nfcsedev-_secure_element_endpoint_list"> SECURE_ELEMENT_ENDPOINT_LIST</a> for each device enumerated.
 
 
 ### -output-buffer-length

@@ -131,7 +131,7 @@ The <b>IPrintCoreUI2::QuerySimulationSupport</b> method uses this structure to r
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553074">IPrintCoreUI2::QuerySimulationSupport</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintcoreui2-querysimulationsupport">IPrintCoreUI2::QuerySimulationSupport</a>
  
 
  

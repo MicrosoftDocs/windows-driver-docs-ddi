@@ -49,7 +49,7 @@ req.typenames:
 
 The 
   <b>NdisFreeMdl</b> function frees an MDL that was allocated by calling the 
-  <a href="https://msdn.microsoft.com/library/windows/hardware/ff561605">NdisAllocateMdl</a> function.
+  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisallocatemdl">NdisAllocateMdl</a> function.
 
 
 ## -parameters
@@ -76,7 +76,7 @@ None
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561605">NdisAllocateMdl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisallocatemdl">NdisAllocateMdl</a>
  
 
  

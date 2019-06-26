@@ -51,7 +51,7 @@ The <b>IOCTL_INTERNAL_USB_RESET_PORT</b>  I/O control request is used by a drive
 
 Drivers should cancel all I/O requests and wait for them to complete before initiating this operation. 
 
-A driver that manages an individual interface on a composite device cannot reset the interface without resetting the entire composite device and all of its interfaces. For this reason, drivers that manage interfaces should attempt other types of error recovery, such as resetting pipes (<a href="https://msdn.microsoft.com/library/windows/hardware/ff540419">_URB_PIPE_REQUEST</a>), before resetting the interface. 
+A driver that manages an individual interface on a composite device cannot reset the interface without resetting the entire composite device and all of its interfaces. For this reason, drivers that manage interfaces should attempt other types of error recovery, such as resetting pipes (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usb/ns-usb-_urb_pipe_request">_URB_PIPE_REQUEST</a>), before resetting the interface. 
 
 This IOCTL must be sent at an IRQL of PASSIVE_LEVEL.
 
@@ -113,7 +113,7 @@ The bus or port driver sets <b>Irp->IoStatus.Status</b> to STATUS_SUCCESS or the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540419">_URB_PIPE_REQUEST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usb/ns-usb-_urb_pipe_request">_URB_PIPE_REQUEST</a>
  
 
  

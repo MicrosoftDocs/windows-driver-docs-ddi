@@ -75,7 +75,7 @@ An opaque handle to the default log.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn914614">WppRecorderIsDefaultLogAvailable</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/previsioning-framework/dn914614(v=vs.85)">WppRecorderIsDefaultLogAvailable</a>
  
 
  

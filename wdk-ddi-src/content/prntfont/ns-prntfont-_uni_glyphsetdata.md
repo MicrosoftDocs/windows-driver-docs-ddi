@@ -46,7 +46,7 @@ req.typenames: UNI_GLYPHSETDATA, *PUNI_GLYPHSETDATA
 ## -description
 
 
-The UNI_GLYPHSEDATA structure is one of the structures used to define the contents of <a href="https://msdn.microsoft.com/6e643703-ace1-4660-990c-3a9ca735829d">glyph translation table files</a> (.gtt files).
+The UNI_GLYPHSEDATA structure is one of the structures used to define the contents of <a href="https://docs.microsoft.com/windows-hardware/drivers/print/customized-font-management">glyph translation table files</a> (.gtt files).
 
 
 ## -struct-fields
@@ -81,27 +81,27 @@ Specifies the number of glyphs provided by this font.
 
 ### -field dwRunCount
 
-Specifies the number of <a href="https://msdn.microsoft.com/library/windows/hardware/ff550544">GLYPHRUN</a> structures in the array pointed to by <b>loRunOffset</b>.
+Specifies the number of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prntfont/ns-prntfont-_glyphrun">GLYPHRUN</a> structures in the array pointed to by <b>loRunOffset</b>.
 
 
 ### -field loRunOffset
 
-Specifies the byte offset from the beginning of the UNI_GLYPHSETDATA structure to the beginning of an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff550544">GLYPHRUN</a> structures.
+Specifies the byte offset from the beginning of the UNI_GLYPHSETDATA structure to the beginning of an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prntfont/ns-prntfont-_glyphrun">GLYPHRUN</a> structures.
 
 
 ### -field dwCodePageCount
 
-Specifies the number of <a href="https://msdn.microsoft.com/library/windows/hardware/ff563596">UNI_CODEPAGEINFO</a> structures in the array pointed to by <b>loCodePageOffset</b>.
+Specifies the number of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prntfont/ns-prntfont-_uni_codepageinfo">UNI_CODEPAGEINFO</a> structures in the array pointed to by <b>loCodePageOffset</b>.
 
 
 ### -field loCodePageOffset
 
-Specifies the byte offset from the beginning of the UNI_GLYPHSETDATA structure to the beginning of an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff563596">UNI_CODEPAGEINFO</a> structures.
+Specifies the byte offset from the beginning of the UNI_GLYPHSETDATA structure to the beginning of an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prntfont/ns-prntfont-_uni_codepageinfo">UNI_CODEPAGEINFO</a> structures.
 
 
 ### -field loMapTableOffset
 
-Specifies the byte offset from the beginning of the UNI_GLYPHSETDATA structure to the beginning of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff556509">MAPTABLE</a> structure.
+Specifies the byte offset from the beginning of the UNI_GLYPHSETDATA structure to the beginning of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prntfont/ns-prntfont-_maptable">MAPTABLE</a> structure.
 
 
 ### -field dwReserved
@@ -123,15 +123,15 @@ A UNI_GLYPHSETDATA structure must be the first structure contained in a .gtt fil
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550544">GLYPHRUN</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prntfont/ns-prntfont-_glyphrun">GLYPHRUN</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556509">MAPTABLE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prntfont/ns-prntfont-_maptable">MAPTABLE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563596">UNI_CODEPAGEINFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prntfont/ns-prntfont-_uni_codepageinfo">UNI_CODEPAGEINFO</a>
  
 
  

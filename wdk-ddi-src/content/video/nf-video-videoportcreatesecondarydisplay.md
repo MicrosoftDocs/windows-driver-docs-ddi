@@ -83,7 +83,7 @@ Is a set of attributes for the secondary display device. This parameter is restr
 
 
 
-In Windows XP and later, a removable logical device will never become the <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">primary display</a>.
+In Windows XP and later, a removable logical device will never become the <a href="https://docs.microsoft.com/windows-hardware/drivers/">primary display</a>.
 
 Note that on some editions of Windows XP, <b>VideoPortCreateSecondaryDisplay</b> can deliberately fail to enable Dualview. In such cases, the display driver should remain in SingleView mode.
 

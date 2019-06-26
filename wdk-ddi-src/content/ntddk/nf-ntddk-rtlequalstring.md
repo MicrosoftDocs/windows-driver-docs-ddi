@@ -84,7 +84,7 @@ If <b>TRUE</b>, case should be ignored when doing the comparison.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561854">RtlEqualUnicodeString</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlequalunicodestring">RtlEqualUnicodeString</a>
  
 
  

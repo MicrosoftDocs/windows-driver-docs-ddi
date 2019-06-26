@@ -59,12 +59,12 @@ The <b>CreateInterrupt</b> method creates a framework interrupt object.
 
 ### -param Configuration [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh464084">WUDF_INTERRUPT_CONFIG</a> structure that was initialized by a call to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh464089">WUDF_INTERRUPT_CONFIG_INIT</a> macro.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfinterrupt/ns-wudfinterrupt-_wudf_interrupt_config">WUDF_INTERRUPT_CONFIG</a> structure that was initialized by a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfinterrupt/nf-wudfinterrupt-wudf_interrupt_config_init">WUDF_INTERRUPT_CONFIG_INIT</a> macro.
 
 
 ### -param ppInterrupt [out]
 
-A pointer to a buffer that receives a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451283">IWDFInterrupt</a>  interface for the new interrupt object.
+A pointer to a buffer that receives a pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nn-wudfddi-iwdfinterrupt">IWDFInterrupt</a>  interface for the new interrupt object.
 
 
 ## -returns
@@ -82,7 +82,7 @@ The method returns S_OK if the operation succeeds. Otherwise, this method return
 
 Your driver must call <b>CreateInterrupt</b> one time for each interrupt vector that its device requires. If the device supports message-signaled interrupts (MSI), the driver must create an interrupt object for each message that the device can support. 
 
-Drivers typically call the <b>CreateInterrupt</b> method from an <a href="https://msdn.microsoft.com/f2953b0d-6745-4804-bcda-47c7ddfb901f">OnDeviceAdd</a> callback function, but can also call this method from <a href="https://msdn.microsoft.com/830D706A-016C-4637-829F-2014AD1A1309">IPnpCallbackHardware2::OnPrepareHardware</a>.
+Drivers typically call the <b>CreateInterrupt</b> method from an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-idriverentry-ondeviceadd">OnDeviceAdd</a> callback function, but can also call this method from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-ipnpcallbackhardware2-onpreparehardware">IPnpCallbackHardware2::OnPrepareHardware</a>.
 
 
 After the Plug and Play (PnP) manager assigns system resources to the device, the framework stores information about the device's assigned interrupt resources in the interrupt objects that the driver has created. (Drivers that do not support Plug and Play cannot use interrupt objects.)
@@ -91,12 +91,12 @@ After the Plug and Play (PnP) manager assigns system resources to the device, th
 The system might not assign all the interrupt resources that a device can support. For example, a driver  creates eight interrupt objects for a device that is capable of supporting eight MSI messages. However, the system might assign only one message to the device. In that case, seven of the interrupt objects will be unused.
 
 
-Typically, your driver should store interrupt-specific information, such as the copied contents of device interrupt registers, in the interrupt object's context space. A driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff560208">IWDFObject::AssignContext</a> to register a context and to request notification when the object becomes invalid.
+Typically, your driver should store interrupt-specific information, such as the copied contents of device interrupt registers, in the interrupt object's context space. A driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfobject-assigncontext">IWDFObject::AssignContext</a> to register a context and to request notification when the object becomes invalid.
 
-UMDF supports level-triggered interrupts starting in Windows 8. If a driver running on an operating system earlier than  Windows 8 creates a level-triggered interrupt in <a href="https://msdn.microsoft.com/f2953b0d-6745-4804-bcda-47c7ddfb901f">OnDeviceAdd</a>, <b>CreateInterrupt</b> succeeds because the operating system has not yet assigned resources.  However, when the framework attempts to connect the interrupt later, the device fails to start.
+UMDF supports level-triggered interrupts starting in Windows 8. If a driver running on an operating system earlier than  Windows 8 creates a level-triggered interrupt in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-idriverentry-ondeviceadd">OnDeviceAdd</a>, <b>CreateInterrupt</b> succeeds because the operating system has not yet assigned resources.  However, when the framework attempts to connect the interrupt later, the device fails to start.
 
 
-For more information about handling interrupts in UMDF drivers, see <a href="https://msdn.microsoft.com/25D526CF-7C37-4D10-B099-352933F92F98">Accessing Hardware and Handling Interrupts</a>.
+For more information about handling interrupts in UMDF drivers, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/accessing-hardware-and-handling-interrupts">Accessing Hardware and Handling Interrupts</a>.
 
 
 #### Examples
@@ -129,15 +129,15 @@ hr = pDevice->Create(&interruptConfig,
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451197">IWDFDevice3</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nn-wudfddi-iwdfdevice3">IWDFDevice3</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh464084">WUDF_INTERRUPT_CONFIG</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfinterrupt/ns-wudfinterrupt-_wudf_interrupt_config">WUDF_INTERRUPT_CONFIG</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh464089">WUDF_INTERRUPT_CONFIG_INIT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfinterrupt/nf-wudfinterrupt-wudf_interrupt_config_init">WUDF_INTERRUPT_CONFIG_INIT</a>
  
 
  

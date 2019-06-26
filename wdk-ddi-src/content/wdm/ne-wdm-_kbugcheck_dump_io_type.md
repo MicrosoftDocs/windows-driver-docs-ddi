@@ -70,7 +70,7 @@ Specifies that the crash dump data has been completely written.
 
 ## -remarks
 
-<b>KBUGCHECK_DUMP_IO_TYPE</b> values are used in the <b>Type</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff551868">KBUGCHECK_DUMP_IO</a> to specify the type of data in an I/O operation on the crash dump file.
+<b>KBUGCHECK_DUMP_IO_TYPE</b> values are used in the <b>Type</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_kbugcheck_dump_io">KBUGCHECK_DUMP_IO</a> to specify the type of data in an I/O operation on the crash dump file.
 
  For more information about this type of callback, see "Implementing KbCallbackDumpIo Callback Routine" in <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>.
 
@@ -78,4 +78,4 @@ Specifies that the crash dump data has been completely written.
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551868">KBUGCHECK_DUMP_IO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_kbugcheck_dump_io">KBUGCHECK_DUMP_IO</a>

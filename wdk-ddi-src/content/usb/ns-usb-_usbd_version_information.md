@@ -46,7 +46,7 @@ req.typenames: USBD_VERSION_INFORMATION, *PUSBD_VERSION_INFORMATION
 ## -description
 
 
-The <b>USBD_VERSION_INFORMATION</b> structure is used by the <a href="https://msdn.microsoft.com/05a22049-5165-41a3-aa6f-134c5d1b6c15">GetUSBDIVersion</a> function to report its output data.
+The <b>USBD_VERSION_INFORMATION</b> structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbbusif/nc-usbbusif-pusb_busiffn_getusbdi_version">GetUSBDIVersion</a> function to report its output data.
 
 
 ## -struct-fields
@@ -141,7 +141,7 @@ Contains a binary-coded decimal USB specification version number.
 
 
 
-<a href="https://msdn.microsoft.com/05a22049-5165-41a3-aa6f-134c5d1b6c15">GetUSBDIVersion</a> is deprecated in Windows 8 and later versions of the operating system. To determine whether a particular  version is supported by the underlying USB driver stack, the client driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/hh406233">USBD_IsInterfaceVersionSupported</a>.  
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbbusif/nc-usbbusif-pusb_busiffn_getusbdi_version">GetUSBDIVersion</a> is deprecated in Windows 8 and later versions of the operating system. To determine whether a particular  version is supported by the underlying USB driver stack, the client driver must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbdlib/nf-usbdlib-usbd_isinterfaceversionsupported">USBD_IsInterfaceVersionSupported</a>.  
 
 
 
@@ -151,15 +151,15 @@ Contains a binary-coded decimal USB specification version number.
 
 
 
-<a href="https://msdn.microsoft.com/05a22049-5165-41a3-aa6f-134c5d1b6c15">GetUSBDIVersion</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbbusif/nc-usbbusif-pusb_busiffn_getusbdi_version">GetUSBDIVersion</a>
 
 
 
-<a href="https://msdn.microsoft.com/1b571ee0-d47f-40b6-8beb-d57b49ae3ac8">USB Bus Driver Interface (USBDI) Routines</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff540046(v=vs.85)">USB Bus Driver Interface (USBDI) Routines</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">USB Structures</a>
  
 
  

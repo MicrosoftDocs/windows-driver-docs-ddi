@@ -81,12 +81,12 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
-For more information about framework file objects, see <a href="https://msdn.microsoft.com/93ec5dd7-8ef0-4cea-9253-ea5d7869d4b8">Framework File Objects</a>.
+For more information about framework file objects, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/framework-file-objects">Framework File Objects</a>.
 
 
 #### Examples
 
-The following code example shows how an <a href="https://msdn.microsoft.com/8ddcb9cb-d184-4ec8-a321-599394a8512e">EvtFileClose</a> callback function can obtain the framework device object that is associated with a specified framework file object.
+The following code example shows how an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nc-wdfdevice-evt_wdf_file_close">EvtFileClose</a> callback function can obtain the framework device object that is associated with a specified framework file object.
 
 <div class="code"><span codelanguage=""><table>
 <tr>

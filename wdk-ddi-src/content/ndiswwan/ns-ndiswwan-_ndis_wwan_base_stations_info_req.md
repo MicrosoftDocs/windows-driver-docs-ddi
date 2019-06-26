@@ -102,12 +102,12 @@ sizeof(NDIS_WWAN_BASE_STATIONS_INFO_REQ)
  
 
 For more information about these members, see 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field BaseStationsInfoRequest
 
-A formatted <a href="https://msdn.microsoft.com/1948F98B-1F0B-4EB3-A2FF-01DA159B5EEB">WWAN_BASE_STATIONS_INFO_REQ</a> structure that specifies the aspects of base stations information that are requested.
+A formatted <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_base_stations_info_req">WWAN_BASE_STATIONS_INFO_REQ</a> structure that specifies the aspects of base stations information that are requested.
 
 
 ## -see-also
@@ -119,7 +119,7 @@ A formatted <a href="https://msdn.microsoft.com/1948F98B-1F0B-4EB3-A2FF-01DA159B
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
@@ -127,7 +127,7 @@ A formatted <a href="https://msdn.microsoft.com/1948F98B-1F0B-4EB3-A2FF-01DA159B
 
 
 
-<a href="https://msdn.microsoft.com/1948F98B-1F0B-4EB3-A2FF-01DA159B5EEB">WWAN_BASE_STATIONS_INFO_REQ</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_base_stations_info_req">WWAN_BASE_STATIONS_INFO_REQ</a>
  
 
  

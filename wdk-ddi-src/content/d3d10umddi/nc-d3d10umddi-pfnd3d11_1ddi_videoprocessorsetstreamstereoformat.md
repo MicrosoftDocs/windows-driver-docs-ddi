@@ -66,7 +66,7 @@ A handle to the display device (graphics context).
 
 *hVideoProcessor* [in]
 
-A handle to the video processor object that was created through a call to the <a href="https://msdn.microsoft.com/741045a2-0a91-490a-907d-5f4900a4a0ae">CreateVideoProcessor</a> function.
+A handle to the video processor object that was created through a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor">CreateVideoProcessor</a> function.
 
 ### -param Arg3
 
@@ -90,7 +90,7 @@ The driver must ignore the remaining parameters for this function.
 
 *StereoFormat* [in]
 
-Specifies the layout of the two stereo views in memory, as a <a href="https://msdn.microsoft.com/library/windows/hardware/hh451029">D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT</a> value.
+Specifies the layout of the two stereo views in memory, as a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_video_processor_stereo_format">D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT</a> value.
 
 ### -param Arg6
 
@@ -98,7 +98,7 @@ Specifies the layout of the two stereo views in memory, as a <a href="https://ms
 
 If <b>TRUE</b>, frame 0 contains the left view. Otherwise, frame 0 contains the right view.
 
-This parameter is ignored for the following <a href="https://msdn.microsoft.com/library/windows/hardware/hh451029">D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT</a> values:
+This parameter is ignored for the following <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_video_processor_stereo_format">D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT</a> values:
 
 
 
@@ -121,7 +121,7 @@ This parameter is ignored for the following <a href="https://msdn.microsoft.com/
 If <b>TRUE</b>, frame 0 contains the base view. Otherwise, frame 1 contains the base view.
 
 
-This parameter is ignored for the following <a href="https://msdn.microsoft.com/library/windows/hardware/hh451029">D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT</a> values:
+This parameter is ignored for the following <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_video_processor_stereo_format">D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT</a> values:
 
 
 
@@ -141,7 +141,7 @@ This parameter is ignored for the following <a href="https://msdn.microsoft.com/
 
 *FlipMode* [in]
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/hh451025">D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FLIP_MODE</a> enumeration value that specifies whether one of the views is flipped.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_video_processor_stereo_flip_mode">D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FLIP_MODE</a> enumeration value that specifies whether one of the views is flipped.
 
 ### -param Arg9
 
@@ -193,7 +193,7 @@ Specifies a single resource for the mono input data of the base view.
 
 </li>
 <li>
-	Specify both resources for the stereo input data of the base view.  When <a href="https://msdn.microsoft.com/library/windows/hardware/hh451703">VideoProcessorBlt</a> is called, the stream data is passed as a <a href="https://msdn.microsoft.com/library/windows/hardware/hh451033">D3D11_1DDI_VIDEO_PROCESSOR_STREAM</a> structure, with the <b>hInputSurface</b> member specifying frame 0 and the <b>hInputSurfaceRight</b> specifying frame 1.
+	Specify both resources for the stereo input data of the base view.  When <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorblt">VideoProcessorBlt</a> is called, the stream data is passed as a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_video_processor_stream">D3D11_1DDI_VIDEO_PROCESSOR_STREAM</a> structure, with the <b>hInputSurface</b> member specifying frame 0 and the <b>hInputSurfaceRight</b> specifying frame 1.
 
 </li>
 </ul>
@@ -205,23 +205,23 @@ Specifies a single resource for the mono input data of the base view.
 
 
 
-<a href="https://msdn.microsoft.com/741045a2-0a91-490a-907d-5f4900a4a0ae">CreateVideoProcessor</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor">CreateVideoProcessor</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451025">D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FLIP_MODE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_video_processor_stereo_flip_mode">D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FLIP_MODE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451029">D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_video_processor_stereo_format">D3D11_1DDI_VIDEO_PROCESSOR_STEREO_FORMAT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451033">D3D11_1DDI_VIDEO_PROCESSOR_STREAM</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_video_processor_stream">D3D11_1DDI_VIDEO_PROCESSOR_STREAM</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451703">VideoProcessorBlt</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorblt">VideoProcessorBlt</a>
  
 
  

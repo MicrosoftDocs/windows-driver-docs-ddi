@@ -46,7 +46,7 @@ req.typenames: DXGK_MONITOR_INTERFACE_V2
 ## -description
 
 
-The DXGK_MONITOR_INTERFACE_V2 structure, available beginning with Windows 7, contains pointers to functions that belong to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568433">Monitor Interface</a>, which is implemented by the video present network (VidPN) manager.
+The DXGK_MONITOR_INTERFACE_V2 structure, available beginning with Windows 7, contains pointers to functions that belong to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">Monitor Interface</a>, which is implemented by the video present network (VidPN) manager.
 
 
 ## -struct-fields
@@ -56,38 +56,38 @@ The DXGK_MONITOR_INTERFACE_V2 structure, available beginning with Windows 7, con
 
 ### -field Version
 
-A value from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561979">DXGK_MONITOR_INTERFACE_VERSION</a> enumeration that indicates the monitor interface version. Must be set to 2.
+A value from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ne-d3dkmddi-_dxgk_monitor_interface_version">DXGK_MONITOR_INTERFACE_VERSION</a> enumeration that indicates the monitor interface version. Must be set to 2.
 
 
 ### -field pfnAcquireMonitorSourceModeSet
 
-A pointer to the <a href="https://msdn.microsoft.com/a64197c0-a61f-4989-9b68-4e06b1a69fd4">pfnAcquireMonitorSourceModeSet</a> function.
+A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_monitor_acquiremonitorsourcemodeset">pfnAcquireMonitorSourceModeSet</a> function.
 
 
 ### -field pfnReleaseMonitorSourceModeSet
 
-A pointer to the <a href="https://msdn.microsoft.com/af5f4a1b-232c-4192-96b4-8fa31dfe3019">pfnReleaseMonitorSourceModeSet</a> function.
+A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_monitor_releasemonitorsourcemodeset">pfnReleaseMonitorSourceModeSet</a> function.
 
 
 ### -field pfnGetMonitorFrequencyRangeSet
 
-A pointer to the <a href="https://msdn.microsoft.com/78b80dbb-af1e-457c-854f-ff0404ab9808">pfnGetMonitorFrequencyRangeSet</a> function.
+A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_monitor_getmonitorfrequencyrangeset">pfnGetMonitorFrequencyRangeSet</a> function.
 
 
 ### -field pfnGetMonitorDescriptorSet
 
-A pointer to the <a href="https://msdn.microsoft.com/e2244cd3-6630-440b-a4f7-1e0fa5702161">pfnGetMonitorDescriptorSet</a> function.
+A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_monitor_getmonitordescriptorset">pfnGetMonitorDescriptorSet</a> function.
 
 
 ### -field pfnGetAdditionalMonitorModeSet
 
-A pointer to the <a href="https://msdn.microsoft.com/37878f3a-f61e-423c-ab03-94318089f7af">pfnGetAdditionalMonitorModeSet</a> function.
+A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_monitor_getadditionalmonitormodeset">pfnGetAdditionalMonitorModeSet</a> function.
 
 
 ### -field pfnReleaseAdditionalMonitorModeSet
 
 
-A pointer to the <a href="https://msdn.microsoft.com/b9f6cb52-8870-4319-a1ff-d3dbbeef8cb6">pfnReleaseAdditionalMonitorModeSet</a> function.
+A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_monitor_releaseadditionalmonitormodeset">pfnReleaseAdditionalMonitorModeSet</a> function.
      
 
 
@@ -105,7 +105,7 @@ A pointer to the <a href="https://msdn.microsoft.com/b9f6cb52-8870-4319-a1ff-d3d
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561949">DXGK_MONITOR_INTERFACE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgk_monitor_interface">DXGK_MONITOR_INTERFACE</a>
  
 
  

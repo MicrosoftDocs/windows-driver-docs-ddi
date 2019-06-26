@@ -52,7 +52,7 @@ Disables the simulated battery.
 
 
 Use this method is used to disable the simulated battery (uninstalls simulated
-    battery device).  This does not restore the system to its original state, the <a href="https://msdn.microsoft.com/32748776-fe07-4f7e-bceb-5b554fa8f9f1">WDTFSimulatedBatterySystemAction::EnableRealBatteries</a> method must also be called.
+    battery device).  This does not restore the system to its original state, the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">WDTFSimulatedBatterySystemAction::EnableRealBatteries</a> method must also be called.
 
 
 ## -parameters
@@ -77,11 +77,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265160">IWDTFSimulatedBatterySystemAction</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">IWDTFSimulatedBatterySystemAction</a>
 
 
 
-<a href="https://msdn.microsoft.com/32748776-fe07-4f7e-bceb-5b554fa8f9f1">WDTFSimulatedBatterySystemAction::EnableRealBatteries</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">WDTFSimulatedBatterySystemAction::EnableRealBatteries</a>
  
 
  

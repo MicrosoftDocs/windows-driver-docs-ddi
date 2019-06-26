@@ -57,7 +57,7 @@ The _BRB_L2CA_PING structure describes a request to ping a remote radio.
 ### -field Hdr
 
 A 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536612">BRB_HEADER</a> structure that contains information
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a> structure that contains information
      about the current BRB.
 
 
@@ -92,8 +92,8 @@ The data that the remote device responded to the ping signal with.
 
 To ping a remote radio, by transmitting a L2CA_EchoReq message and receiving a L2CAP_EchoRsp message,
     profile drivers should 
-    <a href="https://msdn.microsoft.com/53a692e7-9c71-4dca-9331-32ac97b94179">build and send</a> a 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff536617">BRB_L2CA_PING</a> request.
+    <a href="https://docs.microsoft.com/previous-versions/ff536657(v=vs.85)">build and send</a> a 
+    <a href="https://docs.microsoft.com/previous-versions/ff536617(v=vs.85)">BRB_L2CA_PING</a> request.
 
 BRB_L2CA_PING is primarily used for debugging.
 
@@ -105,11 +105,11 @@ BRB_L2CA_PING is primarily used for debugging.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536612">BRB_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536617">BRB_L2CA_PING</a>
+<a href="https://docs.microsoft.com/previous-versions/ff536617(v=vs.85)">BRB_L2CA_PING</a>
  
 
  

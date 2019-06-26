@@ -213,7 +213,7 @@ One of the following values can be returned in the <b>Status</b> field.
 
 
 
-On successful return from an  <b>IOCTL_EHSTOR_BANDMGMT_REVERT</b> request, the storage device will return to an inactive security state and all band management IOCTLs, except for <a href="https://msdn.microsoft.com/library/windows/hardware/hh451390">IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/hh451367">IOCTL_EHSTOR_BANDMGMT_ACTIVATE</a>, become unavailable.
+On successful return from an  <b>IOCTL_EHSTOR_BANDMGMT_REVERT</b> request, the storage device will return to an inactive security state and all band management IOCTLs, except for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ehstorbandmgmt/ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_query_capabilities">IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ehstorbandmgmt/ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_activate">IOCTL_EHSTOR_BANDMGMT_ACTIVATE</a>, become unavailable.
 
 
 
@@ -223,11 +223,11 @@ On successful return from an  <b>IOCTL_EHSTOR_BANDMGMT_REVERT</b> request, the s
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451367">IOCTL_EHSTOR_BANDMGMT_ACTIVATE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ehstorbandmgmt/ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_activate">IOCTL_EHSTOR_BANDMGMT_ACTIVATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451390">IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ehstorbandmgmt/ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_query_capabilities">IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES</a>
  
 
  

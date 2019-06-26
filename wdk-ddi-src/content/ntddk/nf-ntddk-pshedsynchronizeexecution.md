@@ -56,7 +56,7 @@ The <b>PshedSynchronizeExecution</b> function synchronizes the execution of a gi
 
 ### -param ErrorSource [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff560505">WHEA_ERROR_SOURCE_DESCRIPTOR</a> structure that describes an error source.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_whea_error_source_descriptor">WHEA_ERROR_SOURCE_DESCRIPTOR</a> structure that describes an error source.
 
 
 ### -param SynchronizeRoutine [in]
@@ -103,7 +103,7 @@ A pointer to a caller-supplied context area that is passed to the function point
 
 
 
-A PSHED plug-in calls the <b>PshedSynchronizeExecution</b> function to synchronize the execution of a given function with the hardware error processing for an error source. This is required whenever a PSHED plug-in shares resources between code that executes outside of the normal hardware error processing flow and code that executes as part of the normal hardware error processing flow. For more information about the processing of hardware errors, see <a href="https://msdn.microsoft.com/d9cb2f62-1ccf-4ab6-b547-dc54f6d07820">Error Processing</a>.
+A PSHED plug-in calls the <b>PshedSynchronizeExecution</b> function to synchronize the execution of a given function with the hardware error processing for an error source. This is required whenever a PSHED plug-in shares resources between code that executes outside of the normal hardware error processing flow and code that executes as part of the normal hardware error processing flow. For more information about the processing of hardware errors, see <a href="https://docs.microsoft.com/windows-hardware/drivers/whea/error-processing">Error Processing</a>.
 
 When this function is called, the following occurs:
 
@@ -131,7 +131,7 @@ Callers of the <b>PshedSynchronizeExecution</b> function must be running at IRQL
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560505">WHEA_ERROR_SOURCE_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_whea_error_source_descriptor">WHEA_ERROR_SOURCE_DESCRIPTOR</a>
  
 
  

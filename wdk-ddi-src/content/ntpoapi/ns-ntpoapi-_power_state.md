@@ -46,7 +46,7 @@ req.typenames: POWER_STATE, *PPOWER_STATE
 ## -description
 
 
-The <b>POWER_STATE</b> union specifies a <a href="https://msdn.microsoft.com/bb30bc89-d1f2-4cb3-bcfb-fb76c69dba27">system power state</a> value or a device power state value.
+The <b>POWER_STATE</b> union specifies a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/system-power-states">system power state</a> value or a device power state value.
 
 
 ## -struct-fields
@@ -56,21 +56,21 @@ The <b>POWER_STATE</b> union specifies a <a href="https://msdn.microsoft.com/bb3
 
 ### -field SystemState
 
-A system power state value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff564565">SYSTEM_POWER_STATE</a>. 
+A system power state value of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_system_power_state">SYSTEM_POWER_STATE</a>. 
 
 
 ### -field DeviceState
 
-A device power state value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff554628">DEVICE_POWER_STATE</a>. 
+A device power state value of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/ne-wudfddi-_device_power_state">DEVICE_POWER_STATE</a>. 
 
 
 ## -remarks
 
 
 
-The <b>POWER_STATE</b> union is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559851">POWER_STATE_TYPE</a> enumeration type to specify a system power state value or a device power state value. This union is also used in cases where the power state type is implicitly determined by the context in which it is used. For example, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff559734">PoRequestPowerIrp</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff559765">PoSetPowerState</a>.
+The <b>POWER_STATE</b> union is used in conjunction with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_power_state_type">POWER_STATE_TYPE</a> enumeration type to specify a system power state value or a device power state value. This union is also used in cases where the power state type is implicitly determined by the context in which it is used. For example, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-porequestpowerirp">PoRequestPowerIrp</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-posetpowerstate">PoSetPowerState</a>.
 
-For more information about power management, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff548108">Introduction to Power Management</a>.
+For more information about power management, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/introduction-to-power-management">Introduction to Power Management</a>.
 
 
 
@@ -80,23 +80,23 @@ For more information about power management, see <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554628">DEVICE_POWER_STATE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/ne-wudfddi-_device_power_state">DEVICE_POWER_STATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559851">POWER_STATE_TYPE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_power_state_type">POWER_STATE_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559734">PoRequestPowerIrp</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-porequestpowerirp">PoRequestPowerIrp</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559765">PoSetPowerState</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-posetpowerstate">PoSetPowerState</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564565">SYSTEM_POWER_STATE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_system_power_state">SYSTEM_POWER_STATE</a>
  
 
  

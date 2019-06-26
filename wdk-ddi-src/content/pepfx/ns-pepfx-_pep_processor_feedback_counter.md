@@ -108,7 +108,7 @@ The feedback counter returns the clock speed of the processor. The nominal rate 
 </dl>
 </td>
 <td width="60%">
-The feedback counter returns the current processor performance. The nominal rate is equivalent to the processor's <b>NominalPerformance</b> (see <a href="https://msdn.microsoft.com/library/windows/hardware/mt186825">PEP_NOTIFY_PPM_QUERY_PERF_CAPABILITIES notification</a>).
+The feedback counter returns the current processor performance. The nominal rate is equivalent to the processor's <b>NominalPerformance</b> (see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/ns-pepfx-_pep_ppm_query_perf_capabilities">PEP_NOTIFY_PPM_QUERY_PERF_CAPABILITIES notification</a>).
 
 </td>
 </tr>
@@ -145,11 +145,11 @@ This structure
 
 
 
-<a href="https://msdn.microsoft.com/478E1AB1-B888-4EC2-A9C3-A33475E499E3">PEP structures</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">PEP structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt186825">PEP_NOTIFY_PPM_QUERY_PERF_CAPABILITIES notification</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/ns-pepfx-_pep_ppm_query_perf_capabilities">PEP_NOTIFY_PPM_QUERY_PERF_CAPABILITIES notification</a>
  
 
  

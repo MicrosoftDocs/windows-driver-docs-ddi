@@ -46,7 +46,7 @@ req.typenames: DXGKARG_SETTARGETCONTENTTYPE
 ## -description
 
 
-Used to hold the arguments for <a href="https://msdn.microsoft.com/7639BF7B-6219-4490-953F-80E76CDFBAAA">DXGKDDI_SETTARGETCONTENTTYPE</a>
+Used to hold the arguments for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_settargetcontenttype">DXGKDDI_SETTARGETCONTENTTYPE</a>
 
 
 

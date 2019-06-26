@@ -56,9 +56,9 @@ New bands are created on a band-managed storage device with the <b>IOCTL_EHSTOR_
 
 ### -input-buffer
 
-The buffer at <i>Irp->AssociatedIrp.SystemBuffer</i> must contain an <a href="https://msdn.microsoft.com/library/windows/hardware/hh439624">CREATE_BAND_PARAMETERS</a> structure followed by the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439557">BAND_LOCATION_INFO</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/hh439568">BAND_SECURITY_INFO</a>, and <b>AUTH_KEY</b> structures. 
+The buffer at <i>Irp->AssociatedIrp.SystemBuffer</i> must contain an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ehstorbandmgmt/ns-ehstorbandmgmt-_create_band_parameters">CREATE_BAND_PARAMETERS</a> structure followed by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ehstorbandmgmt/ns-ehstorbandmgmt-_band_location_info">BAND_LOCATION_INFO</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ehstorbandmgmt/ns-ehstorbandmgmt-_band_security_info">BAND_SECURITY_INFO</a>, and <b>AUTH_KEY</b> structures. 
 
-If the <b>AuthKeyOffset</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/hh439624">CREATE_BAND_PARAMETERS</a> is set to <b>EHSTOR_BANDMGR_NO_KEY</b>, the input data in the system buffer need not include an <b>AUTH_KEY</b> structure.
+If the <b>AuthKeyOffset</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ehstorbandmgmt/ns-ehstorbandmgmt-_create_band_parameters">CREATE_BAND_PARAMETERS</a> is set to <b>EHSTOR_BANDMGR_NO_KEY</b>, the input data in the system buffer need not include an <b>AUTH_KEY</b> structure.
 
 
 ### -input-buffer-length
@@ -139,13 +139,13 @@ One of the following values can be returned in the <b>Status</b> field.
 
 
 
-Assigning an authentication key to a newly created band is optional. If no key is provided, where  <b>AuthKeyOffset</b> = <b>EHSTOR_BANDMGR_NO_KEY</b> in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439624">CREATE_BAND_PARAMETERS</a> structure, a default authentication key is used. However, this leaves the band vulnerable to another caller who may take control over the band immediately after its creation by changing its authentication key. It is recommended to assign a non-default authentication key to the band at creation time.
+Assigning an authentication key to a newly created band is optional. If no key is provided, where  <b>AuthKeyOffset</b> = <b>EHSTOR_BANDMGR_NO_KEY</b> in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ehstorbandmgmt/ns-ehstorbandmgmt-_create_band_parameters">CREATE_BAND_PARAMETERS</a> structure, a default authentication key is used. However, this leaves the band vulnerable to another caller who may take control over the band immediately after its creation by changing its authentication key. It is recommended to assign a non-default authentication key to the band at creation time.
 
 The changes made to the band table by this request are committed to the device atomically before the IOCTL request completes. Therefore, it is guaranteed that the band is created with all of its properties set or not created at all should a system or power failure occur.
 
 The location of the new band must not overlap with an existing band or this request will fail with STATUS_CONFLICTING_ADDRESSES.
 
-If the band is unlocked, either  the <b>ReadLock</b> or <b>WriteLock</b> members of <a href="https://msdn.microsoft.com/library/windows/hardware/hh439568">BAND_SECURITY_INFO</a> are set to FALSE, and <b>CREATEBAND_AUTHKEY_CACHING_ENABLED</b> is set in the <b>Flags</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/hh439624">CREATE_BAND_PARAMETERS</a>, then credential caching is enabled. The authentication silo driver will cache the band authentication key in memory. This allows the silo driver  to automatically authenticate host access to the storage device when volume maintenance is required, such as resizing the band.
+If the band is unlocked, either  the <b>ReadLock</b> or <b>WriteLock</b> members of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ehstorbandmgmt/ns-ehstorbandmgmt-_band_security_info">BAND_SECURITY_INFO</a> are set to FALSE, and <b>CREATEBAND_AUTHKEY_CACHING_ENABLED</b> is set in the <b>Flags</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ehstorbandmgmt/ns-ehstorbandmgmt-_create_band_parameters">CREATE_BAND_PARAMETERS</a>, then credential caching is enabled. The authentication silo driver will cache the band authentication key in memory. This allows the silo driver  to automatically authenticate host access to the storage device when volume maintenance is required, such as resizing the band.
 
 
 
@@ -155,15 +155,15 @@ If the band is unlocked, either  the <b>ReadLock</b> or <b>WriteLock</b> members
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439557">BAND_LOCATION_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ehstorbandmgmt/ns-ehstorbandmgmt-_band_location_info">BAND_LOCATION_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439568">BAND_SECURITY_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ehstorbandmgmt/ns-ehstorbandmgmt-_band_security_info">BAND_SECURITY_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439624">CREATE_BAND_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ehstorbandmgmt/ns-ehstorbandmgmt-_create_band_parameters">CREATE_BAND_PARAMETERS</a>
  
 
  

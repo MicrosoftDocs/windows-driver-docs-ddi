@@ -46,7 +46,7 @@ req.typenames: RemovePersistentEntry_OUT, *PRemovePersistentEntry_OUT
 ## -description
 
 
-The RemovePersistentEntry_OUT structure is used to report the output parameter data of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563988">RemovePersistentEntry</a> WMI method to the WMI client.
+The RemovePersistentEntry_OUT structure is used to report the output parameter data of the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/removepersistententry">RemovePersistentEntry</a> WMI method to the WMI client.
 
 
 ## -struct-fields
@@ -56,14 +56,14 @@ The RemovePersistentEntry_OUT structure is used to report the output parameter d
 
 ### -field HBAStatus
 
-Contains the status of the operation. For a list of allowed values and their descriptions, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>. 
+Contains the status of the operation. For a list of allowed values and their descriptions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/hba-status">HBA_STATUS</a>. 
 
 
 ## -remarks
 
 
 
-The WMI tool suite generates a declaration of the RemovePersistentEntry_OUT structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562509">MSFC_HBAFCPInfo WMI Class</a>.
+The WMI tool suite generates a declaration of the RemovePersistentEntry_OUT structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msfc-hbafcpinfo-wmi-class">MSFC_HBAFCPInfo WMI Class</a>.
 
 
 
@@ -73,7 +73,7 @@ The WMI tool suite generates a declaration of the RemovePersistentEntry_OUT stru
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563988">RemovePersistentEntry</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/removepersistententry">RemovePersistentEntry</a>
  
 
  

@@ -66,7 +66,7 @@ The <b>IWDTFPNPActions2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451096">DisableDevice</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">DisableDevice</a>
 </td>
 <td align="left" width="63%">
 Disables the target device.
@@ -75,7 +75,7 @@ Disables the target device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451099">EDTCancelRemoveDevice</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">EDTCancelRemoveDevice</a>
 </td>
 <td align="left" width="63%">
 Sends an IRP_MN_CANCEL_REMOVE_DEVICE event to the target device.
@@ -84,7 +84,7 @@ Sends an IRP_MN_CANCEL_REMOVE_DEVICE event to the target device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451073">EDTCancelStopDevice</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtfpnpaction/nf-wdtfpnpaction-iwdtfpnpaction2-edtcancelstopdevice">EDTCancelStopDevice</a>
 </td>
 <td align="left" width="63%">
 Sends an IRP_MN_CANCEL_STOP_DEVICE event to the target device.
@@ -93,7 +93,7 @@ Sends an IRP_MN_CANCEL_STOP_DEVICE event to the target device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451075">EDTSurpriseRemoveDevice</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtfpnpaction/nf-wdtfpnpaction-iwdtfpnpaction2-edtsurpriseremovedevice">EDTSurpriseRemoveDevice</a>
 </td>
 <td align="left" width="63%">
 Sends an IRP_MN_SURPRISE_REMOVAL event to the target device.
@@ -102,7 +102,7 @@ Sends an IRP_MN_SURPRISE_REMOVAL event to the target device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451077">EDTTryStopDevice</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtfpnpaction/nf-wdtfpnpaction-iwdtfpnpaction2-edttrystopdevice">EDTTryStopDevice</a>
 </td>
 <td align="left" width="63%">
 Attempts to send an IRP_MN_STOP_DEVICE event to the target device.
@@ -111,7 +111,7 @@ Attempts to send an IRP_MN_STOP_DEVICE event to the target device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451079">EDTTryStopDeviceFailRestart</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtfpnpaction/nf-wdtfpnpaction-iwdtfpnpaction2-edttrystopdevicefailrestart">EDTTryStopDeviceFailRestart</a>
 </td>
 <td align="left" width="63%">
 Attempts to send an IRP_MN_STOP_DEVICE event to the target device and 
@@ -121,7 +121,7 @@ then fail the subsequent device restart.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451081">EDTTryStopDeviceRequestNewResources</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtfpnpaction/nf-wdtfpnpaction-iwdtfpnpaction2-edttrystopdevicerequestnewresources">EDTTryStopDeviceRequestNewResources</a>
 </td>
 <td align="left" width="63%">
 Attempts to send an IRP_MN_STOP_DEVICE event to the target device and 
@@ -131,7 +131,7 @@ assign new resources to the target device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451082">EnableDevice</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtfpnpaction/nf-wdtfpnpaction-iwdtfpnpaction2-enabledevice">EnableDevice</a>
 </td>
 <td align="left" width="63%">
 Enables the target device.
@@ -140,7 +140,7 @@ Enables the target device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451084">RemoveDevice</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtfpnpaction/nf-wdtfpnpaction-iwdtfpnpaction2-removedevice">RemoveDevice</a>
 </td>
 <td align="left" width="63%">
 Removes the device.
@@ -149,7 +149,7 @@ Removes the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451139">RequestEjectDevice</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">RequestEjectDevice</a>
 </td>
 <td align="left" width="63%">
 Initiates a device eject.
@@ -158,7 +158,7 @@ Initiates a device eject.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451088">RescanDevice</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtfpnpaction/nf-wdtfpnpaction-iwdtfpnpaction2-rescandevice">RescanDevice</a>
 </td>
 <td align="left" width="63%">
 Rescans the target device.
@@ -167,7 +167,7 @@ Rescans the target device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451090">RescanParentDevice</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtfpnpaction/nf-wdtfpnpaction-iwdtfpnpaction2-rescanparentdevice">RescanParentDevice</a>
 </td>
 <td align="left" width="63%">
 Rescans and re-enumerates the target device's parent device.
@@ -176,7 +176,7 @@ Rescans and re-enumerates the target device's parent device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451147">RestartDevice</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">RestartDevice</a>
 </td>
 <td align="left" width="63%">
 Initiates a device restart.

@@ -46,7 +46,7 @@ req.typenames: USB_BUS_INFORMATION_LEVEL_0, *PUSB_BUS_INFORMATION_LEVEL_0
 ## -description
 
 
-The <b>USB_BUS_INFORMATION_LEVEL_0</b> structure is used in conjunction with the <a href="https://msdn.microsoft.com/cc03ae88-89ba-44ff-bfe7-6255f2a2ec5c">QueryBusInformation</a> interface routine to report information about the bus. 
+The <b>USB_BUS_INFORMATION_LEVEL_0</b> structure is used in conjunction with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbbusif/nc-usbbusif-pusb_busiffn_query_bus_information">QueryBusInformation</a> interface routine to report information about the bus. 
 
 
 ## -struct-fields
@@ -68,9 +68,9 @@ Specifies the mean bandwidth that is already in use, in bits per second.
 
 
 
-Caller must set the <i>Level</i> parameter of the <a href="https://msdn.microsoft.com/cc03ae88-89ba-44ff-bfe7-6255f2a2ec5c">QueryBusInformation</a> routine to zero. 
+Caller must set the <i>Level</i> parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbbusif/nc-usbbusif-pusb_busiffn_query_bus_information">QueryBusInformation</a> routine to zero. 
 
-For more information about how to obtain the proper level of USB interface, see <a href="https://msdn.microsoft.com/1b571ee0-d47f-40b6-8beb-d57b49ae3ac8">USB Routines</a>.
+For more information about how to obtain the proper level of USB interface, see <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff540046(v=vs.85)">USB Routines</a>.
 
 
 
@@ -80,11 +80,11 @@ For more information about how to obtain the proper level of USB interface, see 
 
 
 
-<a href="https://msdn.microsoft.com/cc03ae88-89ba-44ff-bfe7-6255f2a2ec5c">QueryBusInformation</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbbusif/nc-usbbusif-pusb_busiffn_query_bus_information">QueryBusInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">USB Structures</a>
  
 
  

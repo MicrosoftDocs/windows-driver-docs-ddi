@@ -78,7 +78,7 @@ NDIS drivers call the
     the local computer system.
 
 To obtain the number of groups that are currently active, call the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff560700">NdisActiveGroupCount</a> function.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisactivegroupcount">NdisActiveGroupCount</a> function.
 
 
 
@@ -88,7 +88,7 @@ To obtain the number of groups that are currently active, call the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560700">NdisActiveGroupCount</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisactivegroupcount">NdisActiveGroupCount</a>
  
 
  

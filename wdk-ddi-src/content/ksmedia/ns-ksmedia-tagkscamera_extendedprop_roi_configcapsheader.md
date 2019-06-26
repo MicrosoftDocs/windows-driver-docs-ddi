@@ -56,7 +56,7 @@ This structure contains the header information for ROI capabilities.
 
 ### -field Size
 
-The size of this header and all <a href="https://msdn.microsoft.com/library/windows/hardware/dn925154">KSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPS</a> structures that follow.
+The size of this header and all <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-tagkscamera_extendedprop_roi_configcaps">KSCAMERA_EXTENDEDPROP_ROI_CONFIGCAPS</a> structures that follow.
 
 
 ### -field ConfigCapCount

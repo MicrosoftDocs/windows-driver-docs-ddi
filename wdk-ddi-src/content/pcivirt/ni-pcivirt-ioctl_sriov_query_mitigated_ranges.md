@@ -46,7 +46,7 @@ req.typenames: SRIOV_PF_EVENT, *PSRIOV_PF_EVENT
 ##  Major Code:
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548649">IRP_MJ_DEVICE_CONTROL</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-device-control">IRP_MJ_DEVICE_CONTROL</a>
 
 ## -description
 
@@ -61,27 +61,27 @@ The request determines the specific ranges on which intercepts must be placed.
 
 ### -input-buffer
 
-A pointer to a <a href="https://msdn.microsoft.com/40b81630-997f-4427-8d02-5004de6fc943">SRIOV_MITIGATED_RANGES_INPUT</a> structure that specifies the virtual function (VF) whose ranges are to be mitigated.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pcivirt/ns-pcivirt-_sriov_mitigated_ranges_input">SRIOV_MITIGATED_RANGES_INPUT</a> structure that specifies the virtual function (VF) whose ranges are to be mitigated.
 
 
 ### -input-buffer-length
 
-The size of the <a href="https://msdn.microsoft.com/40b81630-997f-4427-8d02-5004de6fc943">SRIOV_MITIGATED_RANGES_INPUT</a> structure.
+The size of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pcivirt/ns-pcivirt-_sriov_mitigated_ranges_input">SRIOV_MITIGATED_RANGES_INPUT</a> structure.
 
 
 ### -output-buffer
 
-A pointer to a <a href="https://msdn.microsoft.com/f33f602e-0bce-4ac2-8bd8-8640b2376278">SRIOV_MITIGATED_RANGES_OUTPUT</a> structure that specifies the virtual function (VF) whose ranges were to mitigated.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pcivirt/ns-pcivirt-_sriov_mitigated_ranges_output">SRIOV_MITIGATED_RANGES_OUTPUT</a> structure that specifies the virtual function (VF) whose ranges were to mitigated.
 
 
 ### -output-buffer-length
 
-The size of the <a href="https://msdn.microsoft.com/f33f602e-0bce-4ac2-8bd8-8640b2376278">SRIOV_MITIGATED_RANGES_OUTPUT</a> structure.
+The size of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pcivirt/ns-pcivirt-_sriov_mitigated_ranges_output">SRIOV_MITIGATED_RANGES_OUTPUT</a> structure.
 
 
 ### -status-block
 
-<b>Irp->IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> code.
+<b>Irp->IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> code.
 
 
 ## -remarks

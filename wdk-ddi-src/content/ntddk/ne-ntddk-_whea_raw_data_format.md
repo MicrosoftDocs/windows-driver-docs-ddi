@@ -61,17 +61,17 @@ The raw data in the hardware error packet contains an Itanium processor family s
 
 ### -field WheaRawDataFormatIA32MCA
 
-The raw data in the hardware error packet contains an MCA_EXCEPTION structure. For more information about the MCA_EXCEPTION structure, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540659">HalQuerySystemInformation</a>.
+The raw data in the hardware error packet contains an MCA_EXCEPTION structure. For more information about the MCA_EXCEPTION structure, see <a href="https://docs.microsoft.com/previous-versions/windows/hardware/mca/ff540659(v=vs.85)">HalQuerySystemInformation</a>.
 
 
 ### -field WheaRawDataFormatIntel64MCA
 
-The raw data in the hardware error packet contains an MCA_EXCEPTION structure. For more information about the MCA_EXCEPTION structure, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540659">HalQuerySystemInformation</a>.
+The raw data in the hardware error packet contains an MCA_EXCEPTION structure. For more information about the MCA_EXCEPTION structure, see <a href="https://docs.microsoft.com/previous-versions/windows/hardware/mca/ff540659(v=vs.85)">HalQuerySystemInformation</a>.
 
 
 ### -field WheaRawDataFormatAMD64MCA
 
-The raw data in the hardware error packet contains an MCA_EXCEPTION structure. For more information about the MCA_EXCEPTION structure, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540659">HalQuerySystemInformation</a>.
+The raw data in the hardware error packet contains an MCA_EXCEPTION structure. For more information about the MCA_EXCEPTION structure, see <a href="https://docs.microsoft.com/previous-versions/windows/hardware/mca/ff540659(v=vs.85)">HalQuerySystemInformation</a>.
 
 
 ### -field WheaRawDataFormatMemory
@@ -81,7 +81,7 @@ The raw data in the hardware error packet contains memory error data. The format
 
 ### -field WheaRawDataFormatPCIExpress
 
-The raw data in the hardware error packet contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff537457">PCI_EXPRESS_AER_CAPABILITY</a> structure.
+The raw data in the hardware error packet contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_pci_express_aer_capability">PCI_EXPRESS_AER_CAPABILITY</a> structure.
 
 
 ### -field WheaRawDataFormatNMIPort
@@ -101,7 +101,7 @@ The raw data in the hardware error packet contains a PCI/PCI-X device error data
 
 ### -field WheaRawDataFormatGeneric
 
-The raw data in the hardware error packet contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff560524">WHEA_GENERIC_ERROR</a> structure.
+The raw data in the hardware error packet contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_whea_generic_error">WHEA_GENERIC_ERROR</a> structure.
 
 
 ### -field WheaRawDataFormatMax
@@ -113,7 +113,7 @@ The maximum number of formats of raw hardware error data.
 
 
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560476">WHEA_ERROR_PACKET_V1</a> structure contains a member of type WHEA_RAW_DATA_FORMAT that specifies the format of the raw data that is contained in the hardware error packet.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_whea_error_packet_v1">WHEA_ERROR_PACKET_V1</a> structure contains a member of type WHEA_RAW_DATA_FORMAT that specifies the format of the raw data that is contained in the hardware error packet.
 
 
 
@@ -123,19 +123,19 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560476">WHEA_
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540659">HalQuerySystemInformation</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/mca/ff540659(v=vs.85)">HalQuerySystemInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537457">PCI_EXPRESS_AER_CAPABILITY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_pci_express_aer_capability">PCI_EXPRESS_AER_CAPABILITY</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560476">WHEA_ERROR_PACKET_V1</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_whea_error_packet_v1">WHEA_ERROR_PACKET_V1</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560524">WHEA_GENERIC_ERROR</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_whea_generic_error">WHEA_GENERIC_ERROR</a>
  
 
  

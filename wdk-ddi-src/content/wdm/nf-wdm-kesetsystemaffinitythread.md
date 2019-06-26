@@ -88,7 +88,7 @@ If <b>KeSetSystemAffinityThread</b> is called at IRQL <= APC_LEVEL and the call 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553271">KeSetSystemAffinityThreadEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kesetsystemaffinitythreadex">KeSetSystemAffinityThreadEx</a>
  
 
  

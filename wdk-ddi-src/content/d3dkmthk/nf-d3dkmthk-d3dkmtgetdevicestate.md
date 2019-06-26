@@ -55,7 +55,7 @@ The <b>D3DKMTGetDeviceState</b> function retrieves the state of a device.
 
 *pData* [in, out]
 
-[in/out] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548030">D3DKMT_GETDEVICESTATE</a> structure that describes parameters for retrieving the state of a device.
+[in/out] A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_getdevicestate">D3DKMT_GETDEVICESTATE</a> structure that describes parameters for retrieving the state of a device.
 
 ## -returns
 
@@ -71,5 +71,5 @@ This function might also return other <b>NTSTATUS</b> values.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548030">D3DKMT_GETDEVICESTATE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_getdevicestate">D3DKMT_GETDEVICESTATE</a>
  

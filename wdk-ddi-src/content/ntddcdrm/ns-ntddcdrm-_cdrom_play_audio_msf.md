@@ -46,7 +46,7 @@ req.typenames: CDROM_PLAY_AUDIO_MSF, *PCDROM_PLAY_AUDIO_MSF
 ## -description
 
 
-Device control IRPs with a control code of <a href="https://msdn.microsoft.com/library/windows/hardware/ff559359">IOCTL_CDROM_PLAY_AUDIO_MSF</a> use this structure to play an audio CD.
+Device control IRPs with a control code of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_play_audio_msf">IOCTL_CDROM_PLAY_AUDIO_MSF</a> use this structure to play an audio CD.
 
 
 ## -struct-fields
@@ -98,7 +98,7 @@ Device control IRPs with a control code of IOCTL_CDROM_PLAY_AUDIO_MSF use this s
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559359">IOCTL_CDROM_PLAY_AUDIO_MSF</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_play_audio_msf">IOCTL_CDROM_PLAY_AUDIO_MSF</a>
  
 
  

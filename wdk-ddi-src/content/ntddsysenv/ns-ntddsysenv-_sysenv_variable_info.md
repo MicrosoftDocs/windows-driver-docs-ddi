@@ -47,7 +47,7 @@ req.typenames: SYSENV_VARIABLE_INFO, *PSYSENV_VARIABLE_INFO
 
 
 Stores the information about a system environment variable using
-    SysEnv device. This structure is used in the <a href="https://msdn.microsoft.com/library/windows/hardware/mt791527">IOCTL_SYSENV_QUERY_VARIABLE_INFO</a> request.
+    SysEnv device. This structure is used in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddsysenv/ni-ntddsysenv-ioctl_sysenv_query_variable_info">IOCTL_SYSENV_QUERY_VARIABLE_INFO</a> request.
 
 
 ## -struct-fields
@@ -75,7 +75,7 @@ The maximum size of the variable.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt791527">IOCTL_SYSENV_QUERY_VARIABLE_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddsysenv/ni-ntddsysenv-ioctl_sysenv_query_variable_info">IOCTL_SYSENV_QUERY_VARIABLE_INFO</a>
  
 
  

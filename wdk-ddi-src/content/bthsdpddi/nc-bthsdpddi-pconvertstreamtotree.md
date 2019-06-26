@@ -69,16 +69,16 @@ The size of the source SDP record stream.
 ### -param *Node
 
 A pointer to the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536851">SDP_TREE_ROOT_NODE</a> structure that serves
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sdpnode/ns-sdpnode-_sdp_tree_root_node">SDP_TREE_ROOT_NODE</a> structure that serves
      as the root of the SDP tree-based representation of the SDP record.
 
 
 ### -param tag
 
 Specifies a 4-byte 
-     <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">pool tag</a> that uniquely identifies the driver that does the memory
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/">pool tag</a> that uniquely identifies the driver that does the memory
      allocation. For more information about pool tags, see 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff544520">ExAllocatePoolWithTag</a>.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-exallocatepoolwithtag">ExAllocatePoolWithTag</a>.
 
 
 ## -returns
@@ -110,24 +110,24 @@ Because a tree can be traversed by evaluating pointers, the
 
 The tree representation of the SDP record that results from calling the 
     <b>SdpConvertStreamToTree</b> function consists of a series of interconnected 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff536848">SDP_NODE</a> structures. The root node contains a single
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sdpnode/ns-sdpnode-_sdp_node">SDP_NODE</a> structures. The root node contains a single
     SDP_TREE_ROOT_NODE structure.
 
 Each SDP_NODE structure contains an 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff536850">SDP_NODE_HEADER</a> structure and an 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff536849">SDP_NODE_DATA</a> union. The header specifies the
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sdpnode/ns-sdpnode-_sdp_node_header">SDP_NODE_HEADER</a> structure and an 
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sdpnode/ns-sdpnode-_sdp_node_data">SDP_NODE_DATA</a> union. The header specifies the
     type of data, and Bluetooth profile drivers can access links to peer SDP_NODE structures through the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff554296">LIST_ENTRY</a> system structure. By evaluating this
+    <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_list_entry">LIST_ENTRY</a> system structure. By evaluating this
     structure's 
     <code>Node.hdr.Link.Flink</code>and 
     <code>Node.hdr.Link.Blink</code>, drivers can obtain the addresses of peer
     nodes in the tree. Keep in mind that the pointers in the LIST_ENTRY structure hold addresses to other
     LIST_ENTRY structures, and that Bluetooth drivers must use the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff542043">CONTAINING_RECORD</a> memory manager macro to
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer">CONTAINING_RECORD</a> memory manager macro to
     extract the address of the containing node record.
 
 By using the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff536849">SDP_NODE_DATA</a> union's 
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sdpnode/ns-sdpnode-_sdp_node_data">SDP_NODE_DATA</a> union's 
     <b>sequence</b> and 
     <b>alternative</b> members, profile drivers can access sub-elements of the tree. If the data type of the
     node is 
@@ -146,10 +146,10 @@ The remaining members of the data union contain actual data extracted from the S
     types, the data is directly present in the structure. However, for strings and URLs, a pointer is
     provided to the actual data. The memory for the string is allocated by the 
     <b>SdpConvertStreamToTree</b> function call and must be freed by calling the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff536839">SdpFreeTree</a> function for the tree.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sdplib/nf-sdplib-sdpfreetree">SdpFreeTree</a> function for the tree.
 
 Bluetooth profile drivers can obtain a pointer to this function through the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff536636">BTHDDI_SDP_PARSE_INTERFACE</a>.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthsdpddi/ns-bthsdpddi-_bthddi_sdp_parse_interface">BTHDDI_SDP_PARSE_INTERFACE</a>.
 
 
 
@@ -159,35 +159,35 @@ Bluetooth profile drivers can obtain a pointer to this function through the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536636">BTHDDI_SDP_PARSE_INTERFACE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthsdpddi/ns-bthsdpddi-_bthddi_sdp_parse_interface">BTHDDI_SDP_PARSE_INTERFACE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542043">CONTAINING_RECORD</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer">CONTAINING_RECORD</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554296">LIST_ENTRY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_list_entry">LIST_ENTRY</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536848">SDP_NODE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sdpnode/ns-sdpnode-_sdp_node">SDP_NODE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536849">SDP_NODE_DATA</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sdpnode/ns-sdpnode-_sdp_node_data">SDP_NODE_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536850">SDP_NODE_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sdpnode/ns-sdpnode-_sdp_node_header">SDP_NODE_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536851">SDP_TREE_ROOT_NODE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sdpnode/ns-sdpnode-_sdp_tree_root_node">SDP_TREE_ROOT_NODE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536839">SdpFreeTree</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sdplib/nf-sdplib-sdpfreetree">SdpFreeTree</a>
  
 
  

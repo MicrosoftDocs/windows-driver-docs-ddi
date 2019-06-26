@@ -61,7 +61,7 @@ Pointer to the miniport driver's device extension.
 
 ### -param pVpOsVersionInfo [in, out]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff570568">VPOSVERSIONINFO</a> structure that will receive the operating system version information. The caller should set the <b>Size</b> member of the VPOSVERSIONINFO structure to the size, in bytes, of that structure.
+Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/ns-video-_vposversioninfo">VPOSVERSIONINFO</a> structure that will receive the operating system version information. The caller should set the <b>Size</b> member of the VPOSVERSIONINFO structure to the size, in bytes, of that structure.
 
 
 ## -returns
@@ -78,7 +78,7 @@ Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff5705
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570568">VPOSVERSIONINFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/ns-video-_vposversioninfo">VPOSVERSIONINFO</a>
  
 
  

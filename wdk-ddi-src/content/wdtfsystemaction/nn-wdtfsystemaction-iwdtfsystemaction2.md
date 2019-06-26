@@ -67,7 +67,7 @@ The <b>IWDTFSystemAction2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/11d774b1-2af9-453e-b53e-c232d84bcbee">ConnectedStandby</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtfsystemaction/nf-wdtfsystemaction-iwdtfsystemaction2-connectedstandby">ConnectedStandby</a>
 </td>
 <td align="left" width="63%">
 Puts the system into Connected Standby state and 
@@ -77,7 +77,7 @@ Puts the system into Connected Standby state and
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439308">GetFirstSleepState</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtfsystemaction/nf-wdtfsystemaction-iwdtfsystemaction2-getfirstsleepstate">GetFirstSleepState</a>
 </td>
 <td align="left" width="63%">
 Returns the first supported sleep state.
@@ -86,7 +86,7 @@ Returns the first supported sleep state.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439310">GetNextSleepState</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtfsystemaction/nf-wdtfsystemaction-iwdtfsystemaction2-getnextsleepstate">GetNextSleepState</a>
 </td>
 <td align="left" width="63%">
 Returns the next supported sleep state.
@@ -95,7 +95,7 @@ Returns the next supported sleep state.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/B8C422C0-7E42-4BE7-8919-A4ABF33E8D5E">PowerAnalyzeTraceByFile</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtfsystemaction/nf-wdtfsystemaction-iwdtfsystemaction2-poweranalyzetracebyfile">PowerAnalyzeTraceByFile</a>
 </td>
 <td align="left" width="63%">
 Analyzes a power trace session that has already been collected and stored in the associated trace message (.etl) log file. 
@@ -104,7 +104,7 @@ Analyzes a power trace session that has already been collected and stored in the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d27678cb-8aad-4cbe-a65e-64828ff4944a">PowerTracingEnd</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtfsystemaction/nf-wdtfsystemaction-iwdtfsystemaction2-powertracingend">PowerTracingEnd</a>
 </td>
 <td align="left" width="63%">
 Ends a power trace session. This method
@@ -114,7 +114,7 @@ Ends a power trace session. This method
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b82ebd99-289e-4761-9717-ce09cf5c40f0">PowerTracingStart</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtfsystemaction/nf-wdtfsystemaction-iwdtfsystemaction2-powertracingstart">PowerTracingStart</a>
 </td>
 <td align="left" width="63%">
 Starts a power trace session using the default location to store the associated trace message file. This method
@@ -124,7 +124,7 @@ Starts a power trace session using the default location to store the associated 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c37095d2-fbf5-49fa-a6c8-b4776bf530af">PowerTracingStartByFile</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtfsystemaction/nf-wdtfsystemaction-iwdtfsystemaction2-powertracingstartbyfile">PowerTracingStartByFile</a>
 </td>
 <td align="left" width="63%">
 Starts a power trace session and specifies the  path to store the associated trace message file. This method
@@ -134,7 +134,7 @@ Starts a power trace session and specifies the  path to store the associated tra
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439319">RebootRestart</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtfsystemaction/nf-wdtfsystemaction-iwdtfsystemaction2-rebootrestart">RebootRestart</a>
 </td>
 <td align="left" width="63%">
 Restart the system and the current test.
@@ -143,7 +143,7 @@ Restart the system and the current test.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439321">RebootRestartWithContext</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtfsystemaction/nf-wdtfsystemaction-iwdtfsystemaction2-rebootrestartwithcontext">RebootRestartWithContext</a>
 </td>
 <td align="left" width="63%">
 Restarts the system and the current test with context data.
@@ -152,7 +152,7 @@ Restarts the system and the current test with context data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439324">Sleep</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtfsystemaction/nf-wdtfsystemaction-iwdtfsystemaction2-sleep">Sleep</a>
 </td>
 <td align="left" width="63%">
 Puts the system into the desired sleep state.
@@ -170,7 +170,7 @@ Puts the system into the desired sleep state.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt158256">Critical</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/previsioning-framework/mt158256(v=vs.85)">Critical</a>
 
 
 </td>
@@ -186,7 +186,7 @@ Gets or sets a value that indicates whether the system power state is critical.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439312">GetRebootContext</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/hh439312(v=vs.85)">GetRebootContext</a>
 
 
 </td>
@@ -196,14 +196,14 @@ Read-only
 </td>
 <td align="left" width="63%">
 Gets the context data after the system restarts as a result of a call to
-	      <a href="https://msdn.microsoft.com/library/windows/hardware/hh439321">RebootRestartWithContext</a>.
+	      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtfsystemaction/nf-wdtfsystemaction-iwdtfsystemaction2-rebootrestartwithcontext">RebootRestartWithContext</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439315">IsRestarted</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtfsystemaction/nf-wdtfsystemaction-iwdtfsystemaction2-get_isrestarted">IsRestarted</a>
 
 
 </td>
@@ -213,15 +213,15 @@ Read-only
 </td>
 <td align="left" width="63%">
 Gets a value that indicates whether the test script restarted as a result of a call to 
-	      <a href="https://msdn.microsoft.com/library/windows/hardware/hh439319">RebootRestart</a> or 
-	      <a href="https://msdn.microsoft.com/library/windows/hardware/hh439321">RebootRestartWithContext</a>.
+	      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtfsystemaction/nf-wdtfsystemaction-iwdtfsystemaction2-rebootrestart">RebootRestart</a> or 
+	      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtfsystemaction/nf-wdtfsystemaction-iwdtfsystemaction2-rebootrestartwithcontext">RebootRestartWithContext</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439317">IsRestartedWithContext</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtfsystemaction/nf-wdtfsystemaction-iwdtfsystemaction2-isrestartedwithcontext">IsRestartedWithContext</a>
 
 
 </td>
@@ -237,7 +237,7 @@ Gets a value that indicates whether the test script was restarted for a specific
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439328">SleepWakeTimeInSeconds</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtfsystemaction/nf-wdtfsystemaction-iwdtfsystemaction2-put_sleepwaketimeinseconds">SleepWakeTimeInSeconds</a>
 
 
 </td>

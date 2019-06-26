@@ -56,7 +56,7 @@ The <b>SERCX2_CUSTOM_TRANSMIT_CONFIG</b> structure contains information that ver
 
 ### -field Size
 
-The size, in bytes, of this structure. The <a href="https://msdn.microsoft.com/library/windows/hardware/dn265256">SerCx2CustomTransmitCreate</a> method uses this member to determine which version of the structure the caller is using. The size of this structure might change in future versions of the Sercx.h header file.
+The size, in bytes, of this structure. The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sercx/nf-sercx-sercx2customtransmitcreate">SerCx2CustomTransmitCreate</a> method uses this member to determine which version of the structure the caller is using. The size of this structure might change in future versions of the Sercx.h header file.
 
 
 ### -field Alignment
@@ -66,7 +66,7 @@ Data alignment requirement. Specifies how the starting address of a transfer in 
 
 ### -field MinimumTransactionLength
 
-The minimum length, in bytes, of a data transfer in a custom-transmit transaction. If the length of the buffer in a write (<a href="https://msdn.microsoft.com/library/windows/hardware/ff550819">IRP_MJ_WRITE</a>) request is less than this minimum length, SerCx2 uses programmed I/O (PIO) for the transaction.
+The minimum length, in bytes, of a data transfer in a custom-transmit transaction. If the length of the buffer in a write (<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-write">IRP_MJ_WRITE</a>) request is less than this minimum length, SerCx2 uses programmed I/O (PIO) for the transaction.
 
 
 ### -field MaximumTransactionLength
@@ -76,12 +76,12 @@ The maximum length, in bytes, of a data transfer in a custom-transmit transactio
 
 ### -field MinimumTransferUnit
 
-The minimum transfer unit. The number of bytes to transfer in a custom-transmit transaction must be an integer multiple of the minimum transfer unit. To indicate that the default minimum transfer unit should be used, set this member to zero. For more information about the default minimum transfer unit, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh450995">DMA_ADAPTER_INFO_V1</a>.
+The minimum transfer unit. The number of bytes to transfer in a custom-transmit transaction must be an integer multiple of the minimum transfer unit. To indicate that the default minimum transfer unit should be used, set this member to zero. For more information about the default minimum transfer unit, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_dma_adapter_info_v1">DMA_ADAPTER_INFO_V1</a>.
 
 
 ### -field Exclusive
 
-Whether to use custom-transmit transactions exclusively to handle write (<a href="https://msdn.microsoft.com/library/windows/hardware/ff550819">IRP_MJ_WRITE</a>) requests. Set to <b>TRUE</b> to indicate that write requests should use custom-transmit transactions exclusively. Set to <b>FALSE</b> to indicate that write requests can use a combination of custom-transmit transactions and PIO-transmit transactions.
+Whether to use custom-transmit transactions exclusively to handle write (<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-write">IRP_MJ_WRITE</a>) requests. Set to <b>TRUE</b> to indicate that write requests should use custom-transmit transactions exclusively. Set to <b>FALSE</b> to indicate that write requests can use a combination of custom-transmit transactions and PIO-transmit transactions.
 
 Set this member to <b>TRUE</b> only if the minimum transfer unit for custom-transmit transactions is one byte, the minimum transaction length is one byte, and the write buffer for the transaction can start on any byte boundary in memory.
 
@@ -92,7 +92,7 @@ If <b>Exclusive</b> is <b>TRUE</b>, the <b>MinimumTransferUnit</b>, <b>Alignment
 
 
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/dn265256">SerCx2CustomTransmitCreate</a> method accepts a pointer to a <b>SERCX2_CUSTOM_TRANSMIT_CONFIG</b> structure as an input parameter. Before calling <b>SerCx2CustomTransmitCreate</b>, call the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265319">SERCX2_CUSTOM_TRANSMIT_CONFIG_INIT</a> function to initialize this structure.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sercx/nf-sercx-sercx2customtransmitcreate">SerCx2CustomTransmitCreate</a> method accepts a pointer to a <b>SERCX2_CUSTOM_TRANSMIT_CONFIG</b> structure as an input parameter. Before calling <b>SerCx2CustomTransmitCreate</b>, call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sercx/nf-sercx-sercx2_custom_transmit_config_init">SERCX2_CUSTOM_TRANSMIT_CONFIG_INIT</a> function to initialize this structure.
 
 
 
@@ -102,19 +102,19 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/dn265256">SerCx
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450995">DMA_ADAPTER_INFO_V1</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_dma_adapter_info_v1">DMA_ADAPTER_INFO_V1</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550819">IRP_MJ_WRITE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-write">IRP_MJ_WRITE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265319">SERCX2_CUSTOM_TRANSMIT_CONFIG_INIT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sercx/nf-sercx-sercx2_custom_transmit_config_init">SERCX2_CUSTOM_TRANSMIT_CONFIG_INIT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265256">SerCx2CustomTransmitCreate</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sercx/nf-sercx-sercx2customtransmitcreate">SerCx2CustomTransmitCreate</a>
  
 
  

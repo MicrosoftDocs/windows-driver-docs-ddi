@@ -46,7 +46,7 @@ req.typenames: DXGKARG_CREATEPROCESS
 ## -description
 
 
-<b>DXGKARG_CREATEPROCESS</b> is used with <a href="https://msdn.microsoft.com/E5AAEEB1-C29E-4AA7-9F8E-2C2DCFADED81">DxgkDdiCreateProcess</a> to create a kernel mode driver object for a Microsoft DirectX graphics kernel process object.
+<b>DXGKARG_CREATEPROCESS</b> is used with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_createprocess">DxgkDdiCreateProcess</a> to create a kernel mode driver object for a Microsoft DirectX graphics kernel process object.
 
 
 ## -struct-fields
@@ -66,7 +66,7 @@ req.typenames: DXGKARG_CREATEPROCESS
 
 ### -field Flags
 
-[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/dn914476">DXGK_CREATEPROCESSFLAGS</a> structure describing the operation.
+[in] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgk_createprocessflags">DXGK_CREATEPROCESSFLAGS</a> structure describing the operation.
 
 
 ### -field NumPasid
@@ -95,11 +95,11 @@ req.typenames: DXGKARG_CREATEPROCESS
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn914476">DXGK_CREATEPROCESSFLAGS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgk_createprocessflags">DXGK_CREATEPROCESSFLAGS</a>
 
 
 
-<a href="https://msdn.microsoft.com/E5AAEEB1-C29E-4AA7-9F8E-2C2DCFADED81">DxgkDdiCreateProcess</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_createprocess">DxgkDdiCreateProcess</a>
  
 
  

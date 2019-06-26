@@ -113,7 +113,7 @@ The <i>PerformanceCounter</i> parameter is <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567465">StorPortQuerySystemTime</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportquerysystemtime">StorPortQuerySystemTime</a>
  
 
  

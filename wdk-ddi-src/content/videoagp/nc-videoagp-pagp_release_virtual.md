@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <b>AgpReleaseVirtual</b> function frees system memory reserved by a previous call to <a href="https://msdn.microsoft.com/966dfc6c-6830-4872-b411-2801e3a4b753">AgpReserveVirtual</a>.
+The <b>AgpReleaseVirtual</b> function frees system memory reserved by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/videoagp/nc-videoagp-pagp_reserve_virtual">AgpReserveVirtual</a>.
 
 
 ## -parameters
@@ -77,7 +77,7 @@ None
 
 
 
-The miniport driver must call <a href="https://msdn.microsoft.com/a6f689ab-8cf1-4207-af2b-30957500c190">AgpFreeVirtual</a> to unmap all committed memory within the range identified by <b>VirtualReserveContext</b> before calling <b>AgpReleaseVirtual</b> to release it.
+The miniport driver must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/videoagp/nc-videoagp-pagp_free_virtual">AgpFreeVirtual</a> to unmap all committed memory within the range identified by <b>VirtualReserveContext</b> before calling <b>AgpReleaseVirtual</b> to release it.
 
 
 
@@ -87,11 +87,11 @@ The miniport driver must call <a href="https://msdn.microsoft.com/a6f689ab-8cf1-
 
 
 
-<a href="https://msdn.microsoft.com/bb0e3330-5601-47dd-afc6-94a70b42daaf">AgpFreePhysical</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/videoagp/nc-videoagp-pagp_free_physical">AgpFreePhysical</a>
 
 
 
-<a href="https://msdn.microsoft.com/b3e21c94-acd5-4767-8ba5-70b2dcfb2aaa">AgpReservePhysical</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/videoagp/nc-videoagp-pagp_reserve_physical">AgpReservePhysical</a>
  
 
  

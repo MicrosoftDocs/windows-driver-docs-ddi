@@ -57,7 +57,7 @@ The NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS structure defines the set of handle
 ### -field Header
 
 The 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
      NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS structure. Set the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to NDIS_OBJECT_TYPE_MINIPORT_WDI_CHARACTERISTICS.
@@ -103,73 +103,73 @@ WDI version 1.0
 
 ### -field AllocateAdapterHandler
 
-The entry point of the <a href="https://msdn.microsoft.com/4CBC7230-6480-40C9-90B7-A286FCEB1FA8">MiniportWdiAllocateAdapter</a> handler function.
+The entry point of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dot11wdi/nc-dot11wdi-miniport_wdi_allocate_adapter">MiniportWdiAllocateAdapter</a> handler function.
 
 
 ### -field FreeAdapterHandler
 
-The entry point of the <a href="https://msdn.microsoft.com/7D88B513-5289-4347-BD25-BDFEB86CE62F">MiniportWdiFreeAdapter</a> handler function.
+The entry point of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dot11wdi/nc-dot11wdi-miniport_wdi_free_adapter">MiniportWdiFreeAdapter</a> handler function.
 
 
 ### -field OpenAdapterHandler
 
-The entry point of the <a href="https://msdn.microsoft.com/C4D09CAD-833A-43A0-AC03-EEDE8270EA12">MiniportWdiOpenAdapter</a> handler function.
+The entry point of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dot11wdi/nc-dot11wdi-miniport_wdi_open_adapter">MiniportWdiOpenAdapter</a> handler function.
 
 
 ### -field CloseAdapterHandler
 
-The entry point of the <a href="https://msdn.microsoft.com/E6A96765-3D95-431B-B29A-5BD7641325A8">MiniportWdiCloseAdapter</a> handler function.
+The entry point of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dot11wdi/nc-dot11wdi-miniport_wdi_close_adapter">MiniportWdiCloseAdapter</a> handler function.
 
 
 ### -field StartOperationHandler
 
-The entry point of the <a href="https://msdn.microsoft.com/B74F44E4-AD7A-46EE-81B0-E2BD2FB79A5B">MiniportWdiStartOperation</a> handler function.
+The entry point of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dot11wdi/nc-dot11wdi-miniport_wdi_start_adapter_operation">MiniportWdiStartOperation</a> handler function.
 
 
 ### -field StopOperationHandler
 
-The entry point of the <a href="https://msdn.microsoft.com/19BDA96D-DA25-4555-B836-78F4695257B0">MiniportWdiStopOperation</a> handler function.
+The entry point of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dot11wdi/nc-dot11wdi-miniport_wdi_stop_adapter_operation">MiniportWdiStopOperation</a> handler function.
 
 
 ### -field PostPauseHandler
 
-The entry point of the <a href="https://msdn.microsoft.com/57B52C5B-D151-4112-8173-23D18C636E98">MiniportWdiPostAdapterPause</a> handler function.
+The entry point of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dot11wdi/nc-dot11wdi-miniport_wdi_post_adapter_pause">MiniportWdiPostAdapterPause</a> handler function.
 
 
 ### -field PostRestartHandler
 
-The entry point of the <a href="https://msdn.microsoft.com/1686A3CA-AD4A-4560-8665-9AFBE920CDDA">MiniportWdiPostAdapterRestart</a> handler function.
+The entry point of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dot11wdi/nc-dot11wdi-miniport_wdi_post_adapter_restart">MiniportWdiPostAdapterRestart</a> handler function.
 
 
 ### -field HangDiagnoseHandler
 
-The entry point of the <a href="https://msdn.microsoft.com/233CCF43-481E-4759-A2FC-0329103F8208">MiniportWdiAdapterHangDiagnose</a> handler function.
+The entry point of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dot11wdi/nc-dot11wdi-miniport_wdi_adapter_hang_diagnose">MiniportWdiAdapterHangDiagnose</a> handler function.
 
 
 ### -field TalTxRxInitializeHandler
 
-The entry point of the <a href="https://msdn.microsoft.com/C297D681-D43F-4105-9E08-7FF42807E9A0">MiniportWdiTalTxRxInitialize</a> handler function.
+The entry point of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dot11wdi/nc-dot11wdi-miniport_wdi_tal_txrx_initialize">MiniportWdiTalTxRxInitialize</a> handler function.
 
 
 
 
 ### -field TalTxRxDeinitializeHandler
 
-The entry point of the <a href="https://msdn.microsoft.com/E8A77709-7E35-4FFC-B7EC-19E5256AB55F">MiniportWdiTalTxRxDeinitialize</a> handler function.
+The entry point of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dot11wdi/nc-dot11wdi-miniport_wdi_tal_txrx_deinitialize">MiniportWdiTalTxRxDeinitialize</a> handler function.
 
 
 
 
 ### -field LeIdleNotificationHandler
 
-The entry point of the <a href="https://msdn.microsoft.com/BA050C7C-A593-469E-9212-B363F2D2A409">MiniportWdiIdleNotification</a> handler function.
+The entry point of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dot11wdi/nc-dot11wdi-miniport_wdi_idle_notification">MiniportWdiIdleNotification</a> handler function.
 
 
 
 
 ### -field LeCancelIdleNotificationHandler
 
-The entry point of the <a href="https://msdn.microsoft.com/4C52E367-2E75-47EC-8743-F3FA2EEE25F8">MiniportWdiCancelIdleNotification</a> handler function.
+The entry point of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dot11wdi/nc-dot11wdi-miniport_wdi_cancel_idle_notification">MiniportWdiCancelIdleNotification</a> handler function.
 
 
 

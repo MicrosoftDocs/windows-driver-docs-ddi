@@ -83,7 +83,7 @@ When <b>RxDriverEntry</b> is called to initialize RDBSS, a pointer to the kernel
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554404">RxDriverEntry</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/rxprocs/nf-rxprocs-rxdriverentry">RxDriverEntry</a>
  
 
  

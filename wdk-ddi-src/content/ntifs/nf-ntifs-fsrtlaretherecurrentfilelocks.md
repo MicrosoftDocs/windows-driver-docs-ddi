@@ -56,7 +56,7 @@ The<b> FsRtlAreThereCurrentFileLocks</b> macro checks whether any byte range loc
 
 ### -param FL
 
-<p>Pointer to the FILE_LOCK structure for the file. This structure must have been initialized by a previous call to <a href="https://msdn.microsoft.com/library/Ff545640(v=VS.85).aspx"><b>FsRtlAllocateFileLock</b></a> or <a href="https://msdn.microsoft.com/library/Ff546122(v=VS.85).aspx"><b>FsRtlInitializeFileLock</b></a>.</p>
+<p>Pointer to the FILE_LOCK structure for the file. This structure must have been initialized by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock"><b>FsRtlAllocateFileLock</b></a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock"><b>FsRtlInitializeFileLock</b></a>.</p>
 
 
 
@@ -69,7 +69,7 @@ The<b> FsRtlAreThereCurrentFileLocks</b> macro checks whether any byte range loc
 
 File systems and filter drivers often call <b>FsRtlAreThereCurrentFileLocks</b> from their FastIoCheckIfPossible routines. 
 
-<div class="alert"><b>Note</b>  If a byte-range lock has existed since the specified file was opened, the <b>FsRtlAreThereCurrentFileLocks </b>routine returns <b>TRUE</b>,  unless the relevant FILE_LOCK is reinitialized. If a lock was established, and then released, the use of <b>FsRtlAreThereCurrentFileLocks</b>  can prevent the assignment of oplocks unnecessarily. Use <a href="https://msdn.microsoft.com/library/windows/hardware/ff545706">FsRtlAreThereCurrentOrInProgressFileLocks</a> to avoid this problem.</div>
+<div class="alert"><b>Note</b>  If a byte-range lock has existed since the specified file was opened, the <b>FsRtlAreThereCurrentFileLocks </b>routine returns <b>TRUE</b>,  unless the relevant FILE_LOCK is reinitialized. If a lock was established, and then released, the use of <b>FsRtlAreThereCurrentFileLocks</b>  can prevent the assignment of oplocks unnecessarily. Use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlaretherecurrentorinprogressfilelocks">FsRtlAreThereCurrentOrInProgressFileLocks</a> to avoid this problem.</div>
 <div> </div>
 
 
@@ -79,11 +79,11 @@ File systems and filter drivers often call <b>FsRtlAreThereCurrentFileLocks</b> 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545640">FsRtlAllocateFileLock</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock">FsRtlAllocateFileLock</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546122">FsRtlInitializeFileLock</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock">FsRtlInitializeFileLock</a>
  
 
  

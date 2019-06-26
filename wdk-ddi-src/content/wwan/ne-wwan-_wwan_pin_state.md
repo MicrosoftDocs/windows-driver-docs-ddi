@@ -76,7 +76,7 @@ The total number of supported PIN states.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571216">WWAN_PIN_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_pin_info">WWAN_PIN_INFO</a>
  
 
  

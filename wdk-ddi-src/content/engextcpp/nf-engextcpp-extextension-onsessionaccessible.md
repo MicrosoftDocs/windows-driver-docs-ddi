@@ -72,9 +72,9 @@ This method does not return a value.
 
 
 
-If this method is defined in the extension library class <a href="https://msdn.microsoft.com/library/windows/hardware/ff544508">EXT_CLASS</a>, it can be used to allow the extension library to cache information about the session without the need to register event callbacks.
+If this method is defined in the extension library class <a href="https://docs.microsoft.com/previous-versions/ff544508(v=vs.85)">EXT_CLASS</a>, it can be used to allow the extension library to cache information about the session without the need to register event callbacks.
 
-This method is called when a target is suspended and, if the session is already accessible, after the extension library is initialized (and <a href="https://msdn.microsoft.com/library/windows/hardware/ff552312">OnSessionActive</a> has been called).
+This method is called when a target is suspended and, if the session is already accessible, after the extension library is initialized (and <a href="https://docs.microsoft.com/previous-versions/windows/hardware/previsioning-framework/ff552312(v=vs.85)">OnSessionActive</a> has been called).
 
 
 
@@ -84,7 +84,7 @@ This method is called when a target is suspended and, if the session is already 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544508">EXT_CLASS</a>
+<a href="https://docs.microsoft.com/previous-versions/ff544508(v=vs.85)">EXT_CLASS</a>
 
 
 
@@ -92,11 +92,11 @@ This method is called when a target is suspended and, if the session is already 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552312">OnSessionActive</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/previsioning-framework/ff552312(v=vs.85)">OnSessionActive</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552315">OnSessionInaccessible</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/previsioning-framework/ff552315(v=vs.85)">OnSessionInaccessible</a>
  
 
  

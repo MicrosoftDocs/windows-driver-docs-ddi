@@ -46,7 +46,7 @@ req.typenames: DRIVER_UPGRADE_INFO_2, *PDRIVER_UPGRADE_INFO_2
 ## -description
 
 
-The DRIVER_UPGRADE_INFO_2 structure is used as an input to a printer interface DLL's <a href="https://msdn.microsoft.com/library/windows/hardware/ff548648">DrvUpgradePrinter</a> function.
+The DRIVER_UPGRADE_INFO_2 structure is used as an input to a printer interface DLL's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winddiui/nf-winddiui-drvupgradeprinter">DrvUpgradePrinter</a> function.
 
 
 ## -struct-fields
@@ -183,11 +183,11 @@ To see how this can occur, suppose that a computer is connected to two printers,
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548522">DRIVER_UPGRADE_INFO_1</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winddiui/ns-winddiui-_driver_upgrade_info_1">DRIVER_UPGRADE_INFO_1</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548648">DrvUpgradePrinter</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winddiui/nf-winddiui-drvupgradeprinter">DrvUpgradePrinter</a>
  
 
  

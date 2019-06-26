@@ -129,9 +129,9 @@ The work item was successfully initialized.
 
 
 
-The work item context returned in the <i>Worker</i> parameter by <b>StorPortInitializeWorker</b> is used in future calls to <a href="https://msdn.microsoft.com/library/windows/hardware/hh451509">StorPortQueueWorkItem</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/hh451478">StorPortFreeWorker</a>.
+The work item context returned in the <i>Worker</i> parameter by <b>StorPortInitializeWorker</b> is used in future calls to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportqueueworkitem">StorPortQueueWorkItem</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportfreeworker">StorPortFreeWorker</a>.
 
-If the miniport uses the work item during IO processing, we recommended that <b>StorPortInitializeWorker</b> be called during the miniport's <a href="https://msdn.microsoft.com/library/windows/hardware/ff557390">HwStorFindAdapter</a> function to ensure that resources are available when needed.
+If the miniport uses the work item during IO processing, we recommended that <b>StorPortInitializeWorker</b> be called during the miniport's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_find_adapter">HwStorFindAdapter</a> function to ensure that resources are available when needed.
 
 
 
@@ -141,15 +141,15 @@ If the miniport uses the work item during IO processing, we recommended that <b>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557390">HwStorFindAdapter</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_find_adapter">HwStorFindAdapter</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451478">StorPortFreeWorker</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportfreeworker">StorPortFreeWorker</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451509">StorPortQueueWorkItem</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportqueueworkitem">StorPortQueueWorkItem</a>
  
 
  

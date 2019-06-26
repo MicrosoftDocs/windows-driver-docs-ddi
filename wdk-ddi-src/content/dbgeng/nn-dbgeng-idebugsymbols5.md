@@ -51,7 +51,7 @@ This interface supports using index values for the current frame.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugSymbols5</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDebugSymbols5</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugSymbols5</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDebugSymbols5</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -66,7 +66,7 @@ The <b>IDebugSymbols5</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0D8198BB-583F-4828-8131-61EB17621F32">GetCurrentScopeFrameIndexEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols5-getcurrentscopeframeindexex">GetCurrentScopeFrameIndexEx</a>
 </td>
 <td align="left" width="63%">
 Gets the index of the current frame.
@@ -75,7 +75,7 @@ Gets the index of the current frame.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/E0638C55-4160-48A5-9378-6AA9AAC8DC36">SetScopeFrameByIndexEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols5-setscopeframebyindexex">SetScopeFrameByIndexEx</a>
 </td>
 <td align="left" width="63%">
 Sets the current frame by using an index.

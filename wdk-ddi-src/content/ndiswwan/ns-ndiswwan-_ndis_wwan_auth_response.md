@@ -102,7 +102,7 @@ sizeof(NDIS_WWAN_AUTH_RESPONSE)
  
 
 For more information about these members, see 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field uStatus
@@ -150,14 +150,14 @@ WWAN_STATUS_AUTH_AMF_NOT_SET
 
 ### -field AuthResponse
 
-A formatted <a href="https://msdn.microsoft.com/library/windows/hardware/hh464129">WWAN_AUTH_RESPONSE</a> object that represents the challenge posed by one of the authentication methods. This member (within WWAN_AUTH_RESPONSE) should be set even when <b>uStatus</b> is other than WWAN_STATUS_SUCCESS.
+A formatted <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_auth_response">WWAN_AUTH_RESPONSE</a> object that represents the challenge posed by one of the authentication methods. This member (within WWAN_AUTH_RESPONSE) should be set even when <b>uStatus</b> is other than WWAN_STATUS_SUCCESS.
 
 
 ## -remarks
 
 
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/hh439821">NDIS_STATUS_WWAN_AUTH_RESPONSE</a> NDIS status notification uses this structure.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-wwan-auth-response">NDIS_STATUS_WWAN_AUTH_RESPONSE</a> NDIS status notification uses this structure.
 
 
 
@@ -167,11 +167,11 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/hh439821">NDIS_
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439821">NDIS_STATUS_WWAN_AUTH_RESPONSE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-wwan-auth-response">NDIS_STATUS_WWAN_AUTH_RESPONSE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh464129">WWAN_AUTH_RESPONSE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_auth_response">WWAN_AUTH_RESPONSE</a>
  
 
  

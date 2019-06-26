@@ -88,7 +88,7 @@ The <b>StorPortReadRegisterBufferUlong64</b> routine is only available on the 64
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh967742">StorPortWriteRegisterBufferUlong64</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportwriteregisterbufferulong64">StorPortWriteRegisterBufferUlong64</a>
  
 
  

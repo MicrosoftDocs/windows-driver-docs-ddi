@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-Called during Microsoft Direct3D initialization on a <a href="https://msdn.microsoft.com/ECBB0AA7-50C2-41C8-9DC6-6EEFC5CEEB15">hybrid system</a> to determine which GPU an application should run on. A <i>dList</i> is a list of applications that need cross-adapter shared surfaces for high-performance rendering on the discrete GPU.
+Called during Microsoft Direct3D initialization on a <a href="https://docs.microsoft.com/windows-hardware/drivers/display/using-cross-adapter-resources-in-a-hybrid-system">hybrid system</a> to determine which GPU an application should run on. A <i>dList</i> is a list of applications that need cross-adapter shared surfaces for high-performance rendering on the discrete GPU.
 
 
 ## -parameters
@@ -70,7 +70,7 @@ A handle to the graphics adapter object.
 
 *pfnEscapeCB* [in]
 
-A function pointer to a <a href="https://msdn.microsoft.com/66c0347f-2cf3-42fc-8641-47c731e958c9">pfnEscapeCb</a> callback function that shares info with the display miniport driver.
+A function pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_escapecb">pfnEscapeCb</a> callback function that shares info with the display miniport driver.
 
 
 ## -returns
@@ -86,9 +86,9 @@ Returns <b>S_OK</b>, or an appropriate error result if the operation is not succ
 
 
 
-For more information on how to call this function and set up the DLL that exports it, see <a href="https://msdn.microsoft.com/8AABE677-2C2D-4CFD-AF22-06D65524A158">Hybrid system DDI</a>.
+For more information on how to call this function and set up the DLL that exports it, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/hybrid-system-ddi">Hybrid system DDI</a>.
 
-For more general information on hybrid systems, see <a href="https://msdn.microsoft.com/ECBB0AA7-50C2-41C8-9DC6-6EEFC5CEEB15">Using cross-adapter resources in a hybrid system</a>.
+For more general information on hybrid systems, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/using-cross-adapter-resources-in-a-hybrid-system">Using cross-adapter resources in a hybrid system</a>.
 
 
 
@@ -98,7 +98,7 @@ For more general information on hybrid systems, see <a href="https://msdn.micros
 
 
 
-<a href="https://msdn.microsoft.com/66c0347f-2cf3-42fc-8641-47c731e958c9">pfnEscapeCb</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_escapecb">pfnEscapeCb</a>
  
 
  

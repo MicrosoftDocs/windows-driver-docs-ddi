@@ -51,7 +51,7 @@ The IOCTL_INTERNAL_MOUSE_CONNECT request connects Mouclass service to a mouse de
 After Moufiltr receives the mouse connect request, it filters the request in the following way:
 <ol>
 <li>
-Saves a copy of the <a href="https://msdn.microsoft.com/c6c2ebe5-eb88-4dc6-a85a-b297ecdc85d3">CONNECT_DATA (Mouclass)</a> structure that was passed to Moufiltr
+Saves a copy of the <a href="https://docs.microsoft.com/previous-versions/ff538375(v=vs.85)">CONNECT_DATA (Mouclass)</a> structure that was passed to Moufiltr
 
 </li>
 <li>
@@ -64,19 +64,19 @@ Sends the IOCTL_INTERNAL_MOUSE_CONNECT request down the device stack
 </li>
 </ol>If the request is not successful, Moufiltr completes the request with an appropriate error status.
 
-Moufiltr provides a template for a filter service callback routine that can supplement the operation of <a href="https://msdn.microsoft.com/949955c1-a1c7-4b0b-a74e-593dd7885135">MouseClassServiceCallback</a>, the Mouclass service callback routine. The filter service callback can filter the input data that is transferred from the device input buffer to the class driver data queue. 
+Moufiltr provides a template for a filter service callback routine that can supplement the operation of <a href="https://docs.microsoft.com/previous-versions/ff542394(v=vs.85)">MouseClassServiceCallback</a>, the Mouclass service callback routine. The filter service callback can filter the input data that is transferred from the device input buffer to the class driver data queue. 
 
 For more information about the connection of the Mouclass service, see the following topics:
 <dl>
 <dd>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539965">I8042prt Callback Routines</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">I8042prt Callback Routines</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/c6b60905-edd0-496e-a4e7-5ca271a51bce">Moufiltr Callback Routines</a>
+<a href="https://docs.microsoft.com/previous-versions/ff542384(v=vs.85)">Moufiltr Callback Routines</a>
 
 
 </dd>
@@ -149,11 +149,11 @@ Moufiltr is already connected (a filter driver supports only one connect request
 
 
 
-<a href="https://msdn.microsoft.com/c6c2ebe5-eb88-4dc6-a85a-b297ecdc85d3">CONNECT_DATA (Mouclass)</a>
+<a href="https://docs.microsoft.com/previous-versions/ff538375(v=vs.85)">CONNECT_DATA (Mouclass)</a>
 
 
 
-<a href="https://msdn.microsoft.com/949955c1-a1c7-4b0b-a74e-593dd7885135">MouseClassServiceCallback</a>
+<a href="https://docs.microsoft.com/previous-versions/ff542394(v=vs.85)">MouseClassServiceCallback</a>
  
 
  

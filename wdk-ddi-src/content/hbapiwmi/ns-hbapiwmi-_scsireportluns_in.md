@@ -46,7 +46,7 @@ req.typenames: ScsiReportLuns_IN, *PScsiReportLuns_IN
 ## -description
 
 
-The ScsiReportLuns_IN structure is used to deliver input parameter data to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564918">ScsiReportLuns</a> WMI method. 
+The ScsiReportLuns_IN structure is used to deliver input parameter data to the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/scsireportluns6">ScsiReportLuns</a> WMI method. 
 
 
 ## -struct-fields
@@ -78,7 +78,7 @@ Indicates the logical unit number of the logical unit that will receive the SCSI
 
 
 
-The WMI tool suite generates a declaration of the ScsiReportLuns_IN structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562506">MSFC_HBAAdapterMethods WMI Class</a>.
+The WMI tool suite generates a declaration of the ScsiReportLuns_IN structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msfc-hbaadaptermethods-wmi-class">MSFC_HBAAdapterMethods WMI Class</a>.
 
 
 
@@ -88,7 +88,7 @@ The WMI tool suite generates a declaration of the ScsiReportLuns_IN structure in
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564918">ScsiReportLuns</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/scsireportluns6">ScsiReportLuns</a>
  
 
  

@@ -58,7 +58,7 @@ The <b>IStillImage::SetupDeviceParameters</b> method allows clients of the <b>IS
 
 #### - pDevInfo [in, out]
 
-Caller-supplied pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff548361">STI_DEVICE_INFORMATION</a> structure describing a still image device.
+Caller-supplied pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sti/ns-sti-_sti_device_informationw">STI_DEVICE_INFORMATION</a> structure describing a still image device.
 
 
 ## -returns
@@ -74,11 +74,11 @@ If the operation succeeds, the method returns S_OK. Otherwise, it returns one of
 
 
 
-The <b>IStillImage::SetupDeviceParameters</b> method only allows modification of device parameters associated with still image devices for which a bus has not been identified. For such devices, the still image server sets the <b>dwHardwareConfiguration</b> member of the device's <a href="https://msdn.microsoft.com/library/windows/hardware/ff548361">STI_DEVICE_INFORMATION</a> structure to STI_HW_CONFIG_UNKNOWN when <a href="https://msdn.microsoft.com/library/windows/hardware/ff543782">IStillImage::GetDeviceInfo</a> is called.
+The <b>IStillImage::SetupDeviceParameters</b> method only allows modification of device parameters associated with still image devices for which a bus has not been identified. For such devices, the still image server sets the <b>dwHardwareConfiguration</b> member of the device's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sti/ns-sti-_sti_device_informationw">STI_DEVICE_INFORMATION</a> structure to STI_HW_CONFIG_UNKNOWN when <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff543782(v=vs.85)">IStillImage::GetDeviceInfo</a> is called.
 
 Currently, the only device parameter that can be modified is the device's port name. When calling this method to modify the port name, the <b>dwSize</b>, <b>szDeviceInternalName</b>, and <b>pszPortName</b> members of the STI_DEVICE_INFORMATION must be specified. All other members are ignored.
 
-Before calling <b>IStillImage::SetupDeviceParameters</b>, clients of the <b>IStillImage</b> COM interface must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff543804">IStillImage::StiCreateInstance</a> to obtain an <b>IStillImage</b> interface pointer.
+Before calling <b>IStillImage::SetupDeviceParameters</b>, clients of the <b>IStillImage</b> COM interface must call <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff543804(v=vs.85)">IStillImage::StiCreateInstance</a> to obtain an <b>IStillImage</b> interface pointer.
 
 
 

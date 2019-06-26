@@ -46,7 +46,7 @@ req.typenames: USB_TOPOLOGY_ADDRESS, *PUSB_TOPOLOGY_ADDRESS
 ## -description
 
 
-The <b>USB_TOPOLOGY_ADDRESS</b> structure is used with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537263">IOCTL_INTERNAL_USB_GET_TOPOLOGY_ADDRESS</a> I/O request to retrieve information about a USB device?s location in the USB device tree. 
+The <b>USB_TOPOLOGY_ADDRESS</b> structure is used with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbioctl/ni-usbioctl-ioctl_internal_usb_get_topology_address">IOCTL_INTERNAL_USB_GET_TOPOLOGY_ADDRESS</a> I/O request to retrieve information about a USB device?s location in the USB device tree. 
 
 
 ## -struct-fields
@@ -105,11 +105,11 @@ The reserved members of this structure must be treated as opaque and are reserve
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537263">IOCTL_INTERNAL_USB_GET_TOPOLOGY_ADDRESS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbioctl/ni-usbioctl-ioctl_internal_usb_get_topology_address">IOCTL_INTERNAL_USB_GET_TOPOLOGY_ADDRESS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">USB Structures</a>
  
 
  

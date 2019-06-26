@@ -46,7 +46,7 @@ req.typenames: UCM_PD_POWER_DATA_OBJECT, *PUCM_PD_POWER_DATA_OBJECT
 ## -description
 
 
-Describes a Power Data Object. For information about these members, see the <a href="http://www.usb.org/developers/docs/usb20_docs/">Power Delivery specification</a>.
+Describes a Power Data Object. For information about these members, see the <a href="https://www.usb.org/documents?search=&tid_2%5B0%5D=40&items_per_page=50">Power Delivery specification</a>.
 
 
 ## -struct-fields

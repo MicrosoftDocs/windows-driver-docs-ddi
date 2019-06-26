@@ -63,42 +63,42 @@ The size, in bytes, of this structure.
 
 ### -field Profile
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff551295">WDF_DMA_PROFILE</a>-typed value, which identifies the type of bus-master DMA operation that will be associated with the DMA enabler object.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdmaenabler/ne-wdfdmaenabler-_wdf_dma_profile">WDF_DMA_PROFILE</a>-typed value, which identifies the type of bus-master DMA operation that will be associated with the DMA enabler object.
 
 
 ### -field MaximumLength
 
-The default maximum size, in bytes, that the device can handle in a single <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/dma-transactions-and-dma-transfers">DMA transfer</a>. (Drivers can override this default value for individual <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/dma-transactions-and-dma-transfers">DMA transactions</a> by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff547127">WdfDmaTransactionSetMaximumLength</a>.) If your driver must run on versions of Microsoft Windows operating systems that support a maximum of 16 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554406">map registers</a>, <b>MaximumLength</b> must be less than 65,536.  
+The default maximum size, in bytes, that the device can handle in a single <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/dma-transactions-and-dma-transfers">DMA transfer</a>. (Drivers can override this default value for individual <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/dma-transactions-and-dma-transfers">DMA transactions</a> by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdmatransaction/nf-wdfdmatransaction-wdfdmatransactionsetmaximumlength">WdfDmaTransactionSetMaximumLength</a>.) If your driver must run on versions of Microsoft Windows operating systems that support a maximum of 16 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/map-registers">map registers</a>, <b>MaximumLength</b> must be less than 65,536.  
 
 
 ### -field EvtDmaEnablerFill
 
-A pointer to the driver's <a href="https://msdn.microsoft.com/3da947b4-76f9-492f-b8e2-b52aa7812b26">EvtDmaEnablerFill</a> event callback function, or <b>NULL</b>.
+A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdmaenabler/nc-wdfdmaenabler-evt_wdf_dma_enabler_fill">EvtDmaEnablerFill</a> event callback function, or <b>NULL</b>.
 
 
 ### -field EvtDmaEnablerFlush
 
-A pointer to the driver's <a href="https://msdn.microsoft.com/bb606889-7d05-49a0-b0b7-e1f6d6c315d8">EvtDmaEnablerFlush</a> event callback function, or <b>NULL</b>.
+A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdmaenabler/nc-wdfdmaenabler-evt_wdf_dma_enabler_flush">EvtDmaEnablerFlush</a> event callback function, or <b>NULL</b>.
 
 
 ### -field EvtDmaEnablerDisable
 
-A pointer to the driver's <a href="https://msdn.microsoft.com/0a39e19b-9720-4641-83f0-654a5f116432">EvtDmaEnablerDisable</a> event callback function, or <b>NULL</b>.
+A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdmaenabler/nc-wdfdmaenabler-evt_wdf_dma_enabler_disable">EvtDmaEnablerDisable</a> event callback function, or <b>NULL</b>.
 
 
 ### -field EvtDmaEnablerEnable
 
-A pointer to the driver's <a href="https://msdn.microsoft.com/b6344a06-98ee-48c0-8fd5-76edfc71af2b">EvtDmaEnablerEnable</a> event callback function, or <b>NULL</b>.
+A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdmaenabler/nc-wdfdmaenabler-evt_wdf_dma_enabler_enable">EvtDmaEnablerEnable</a> event callback function, or <b>NULL</b>.
 
 
 ### -field EvtDmaEnablerSelfManagedIoStart
 
-A pointer to the driver's <a href="https://msdn.microsoft.com/397791c1-c394-48ae-b6cf-42f4494438f1">EvtDmaEnablerSelfManagedIoStart</a> event callback function, or <b>NULL</b>.
+A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdmaenabler/nc-wdfdmaenabler-evt_wdf_dma_enabler_selfmanaged_io_start">EvtDmaEnablerSelfManagedIoStart</a> event callback function, or <b>NULL</b>.
 
 
 ### -field EvtDmaEnablerSelfManagedIoStop
 
-A pointer to the driver's <a href="https://msdn.microsoft.com/b334588a-7a92-4542-8f45-13c363ce22f0">EvtDmaEnablerSelfManagedIoStop</a> event callback function, or <b>NULL</b>.
+A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdmaenabler/nc-wdfdmaenabler-evt_wdf_dma_enabler_selfmanaged_io_stop">EvtDmaEnablerSelfManagedIoStop</a> event callback function, or <b>NULL</b>.
 
 
 #### - AddressWidthOverride
@@ -108,7 +108,7 @@ Set to zero to accept the address width specified in <b>Profile</b>. A driver ca
 
 #### - Flags
 
-A bitwise OR of one or more values from the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439491">WDF_DMA_ENABLER_CONFIG_FLAGS</a> enumeration. The <b>Flags</b> member is available in version 1.11 and in later versions of KMDF.
+A bitwise OR of one or more values from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdmaenabler/ne-wdfdmaenabler-_wdf_dma_enabler_config_flags">WDF_DMA_ENABLER_CONFIG_FLAGS</a> enumeration. The <b>Flags</b> member is available in version 1.11 and in later versions of KMDF.
 
 
 #### - WdmDmaVersionOverride
@@ -120,9 +120,9 @@ Set to zero to accept the default DMA version. To request DMA version 3, set to 
 
 
 
-The <b>WDF_DMA_ENABLER_CONFIG</b> structure is used as an input parameter to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546983">WdfDmaEnablerCreate</a> method.
+The <b>WDF_DMA_ENABLER_CONFIG</b> structure is used as an input parameter to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdmaenabler/nf-wdfdmaenabler-wdfdmaenablercreate">WdfDmaEnablerCreate</a> method.
 
-Drivers must call <a href="https://msdn.microsoft.com/b01efb50-a3b2-4ffd-83e6-daa0ebbc6484">WDF_DMA_ENABLER_CONFIG_INIT</a> to initialize the <b>WDF_DMA_ENABLER_CONFIG</b> structure.
+Drivers must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdmaenabler/nf-wdfdmaenabler-wdf_dma_enabler_config_init">WDF_DMA_ENABLER_CONFIG_INIT</a> to initialize the <b>WDF_DMA_ENABLER_CONFIG</b> structure.
 
 In Windows 8 and later, when the driver provides a nonzero value for <b>AddressWidthOverride</b>, the framework requests DMA version 3 and passes the <b>AddressWidthOverride</b> value through to the HAL.
 
@@ -136,43 +136,43 @@ On Windows 7 and Windows Vista, when the driver provides a nonzero value for <
 
 
 
-<a href="https://msdn.microsoft.com/0a39e19b-9720-4641-83f0-654a5f116432">EvtDmaEnablerDisable</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdmaenabler/nc-wdfdmaenabler-evt_wdf_dma_enabler_disable">EvtDmaEnablerDisable</a>
 
 
 
-<a href="https://msdn.microsoft.com/b6344a06-98ee-48c0-8fd5-76edfc71af2b">EvtDmaEnablerEnable</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdmaenabler/nc-wdfdmaenabler-evt_wdf_dma_enabler_enable">EvtDmaEnablerEnable</a>
 
 
 
-<a href="https://msdn.microsoft.com/3da947b4-76f9-492f-b8e2-b52aa7812b26">EvtDmaEnablerFill</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdmaenabler/nc-wdfdmaenabler-evt_wdf_dma_enabler_fill">EvtDmaEnablerFill</a>
 
 
 
-<a href="https://msdn.microsoft.com/bb606889-7d05-49a0-b0b7-e1f6d6c315d8">EvtDmaEnablerFlush</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdmaenabler/nc-wdfdmaenabler-evt_wdf_dma_enabler_flush">EvtDmaEnablerFlush</a>
 
 
 
-<a href="https://msdn.microsoft.com/397791c1-c394-48ae-b6cf-42f4494438f1">EvtDmaEnablerSelfManagedIoStart</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdmaenabler/nc-wdfdmaenabler-evt_wdf_dma_enabler_selfmanaged_io_start">EvtDmaEnablerSelfManagedIoStart</a>
 
 
 
-<a href="https://msdn.microsoft.com/b334588a-7a92-4542-8f45-13c363ce22f0">EvtDmaEnablerSelfManagedIoStop</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdmaenabler/nc-wdfdmaenabler-evt_wdf_dma_enabler_selfmanaged_io_stop">EvtDmaEnablerSelfManagedIoStop</a>
 
 
 
-<a href="https://msdn.microsoft.com/b01efb50-a3b2-4ffd-83e6-daa0ebbc6484">WDF_DMA_ENABLER_CONFIG_INIT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdmaenabler/nf-wdfdmaenabler-wdf_dma_enabler_config_init">WDF_DMA_ENABLER_CONFIG_INIT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551295">WDF_DMA_PROFILE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdmaenabler/ne-wdfdmaenabler-_wdf_dma_profile">WDF_DMA_PROFILE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546983">WdfDmaEnablerCreate</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdmaenabler/nf-wdfdmaenabler-wdfdmaenablercreate">WdfDmaEnablerCreate</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547127">WdfDmaTransactionSetMaximumLength</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdmatransaction/nf-wdfdmatransaction-wdfdmatransactionsetmaximumlength">WdfDmaTransactionSetMaximumLength</a>
  
 
  

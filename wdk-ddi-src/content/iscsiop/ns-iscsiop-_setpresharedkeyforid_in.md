@@ -46,7 +46,7 @@ req.typenames: SetPresharedKeyForId_IN, *PSetPresharedKeyForId_IN
 ## -description
 
 
-The SetPresharedKeyForId_IN structure holds the input data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565800">SetPresharedKeyForId</a> method.
+The SetPresharedKeyForId_IN structure holds the input data for the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/setpresharedkeyforid">SetPresharedKeyForId</a> method.
 
 
 ## -struct-fields
@@ -61,7 +61,7 @@ The number of the port that the initiator uses the preshared key with. A value o
 
 ### -field SecurityFlags
 
-A bitwise OR of flags that indicate the security requirements of a target.  For a list of possible values for this member, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565399">SECURITY_FLAG_QUALIFIERS</a>.
+A bitwise OR of flags that indicate the security requirements of a target.  For a list of possible values for this member, see <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/security-flag-qualifiers">SECURITY_FLAG_QUALIFIERS</a>.
 
 
 ### -field IdType
@@ -146,15 +146,15 @@ You must implement this method.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565399">SECURITY_FLAG_QUALIFIERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/security-flag-qualifiers">SECURITY_FLAG_QUALIFIERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565800">SetPresharedKeyForId</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/setpresharedkeyforid">SetPresharedKeyForId</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565810">SetPresharedKeyForId_OUT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/iscsiop/ns-iscsiop-_setpresharedkeyforid_out">SetPresharedKeyForId_OUT</a>
  
 
  

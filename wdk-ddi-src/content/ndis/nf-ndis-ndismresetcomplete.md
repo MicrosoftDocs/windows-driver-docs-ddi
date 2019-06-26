@@ -60,7 +60,7 @@ The
 ### -param _M
 
 The miniport adapter handle that NDIS originally passed to the 
-     <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> function.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> function.
 
 ### -param _S
 
@@ -80,7 +80,7 @@ If
      configuration settings for the NIC.
 
 For more information, see 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff546572">Hardware Reset</a>.
+     <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff546572(v=vs.85)">Hardware Reset</a>.
 
 
 ## -remarks
@@ -88,7 +88,7 @@ For more information, see
 
 
 If the 
-    <a href="https://msdn.microsoft.com/15f82163-a1b5-4cef-a53e-8a97adb2cd92">MiniportResetEx</a> function returns
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_reset">MiniportResetEx</a> function returns
     NDIS_STATUS_PENDING, the miniport driver must call 
     <b>NdisMResetComplete</b> when it completes the reset operation.
 
@@ -98,9 +98,9 @@ Some NICs lose all multicast address, packet filter, or functional address infor
     reset is issued. The driver of such a NIC sets 
     <i>AddressingReset</i> to <b>TRUE</b> when it calls 
     <b>NdisMResetComplete</b>, causing NDIS to call its 
-    <a href="https://msdn.microsoft.com/733d84f5-c1d4-42a0-a59b-4ba50247f165">MiniportOidRequest</a> function to
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_oid_request">MiniportOidRequest</a> function to
     restore the addressing state. For more information, see 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff546572">Hardware Reset</a>.
+    <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff546572(v=vs.85)">Hardware Reset</a>.
 
 A miniport driver must release any spin lock that it is holding before calling 
     <b>NdisMResetComplete</b>.
@@ -117,15 +117,15 @@ In NDIS 6.0 and later, callers of
 
 
 
-<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/733d84f5-c1d4-42a0-a59b-4ba50247f165">MiniportOidRequest</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_oid_request">MiniportOidRequest</a>
 
 
 
-<a href="https://msdn.microsoft.com/15f82163-a1b5-4cef-a53e-8a97adb2cd92">MiniportResetEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_reset">MiniportResetEx</a>
  
 
  

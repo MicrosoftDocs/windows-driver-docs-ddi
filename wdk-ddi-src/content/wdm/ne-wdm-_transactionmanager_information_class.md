@@ -46,7 +46,7 @@ req.typenames: TRANSACTIONMANAGER_INFORMATION_CLASS
 ## -description
 
 
-The <b>TRANSACTIONMANAGER_INFORMATION_CLASS</b> enumeration specifies the type of information that the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567058">ZwQueryInformationTransactionManager</a> routine can retrieve for a <a href="https://msdn.microsoft.com/af53cda4-e2ab-47df-9311-a4da2a2ee08d">transaction manager object</a>.
+The <b>TRANSACTIONMANAGER_INFORMATION_CLASS</b> enumeration specifies the type of information that the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ntqueryinformationtransactionmanager">ZwQueryInformationTransactionManager</a> routine can retrieve for a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/transaction-manager-objects">transaction manager object</a>.
 
 
 ## -enum-fields
@@ -56,22 +56,22 @@ The <b>TRANSACTIONMANAGER_INFORMATION_CLASS</b> enumeration specifies the type o
 
 ### -field TransactionManagerBasicInformation
 
-Information about a transaction manager object is stored in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564753">TRANSACTIONMANAGER_BASIC_INFORMATION</a> structure. 
+Information about a transaction manager object is stored in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_transactionmanager_basic_information">TRANSACTIONMANAGER_BASIC_INFORMATION</a> structure. 
 
 
 ### -field TransactionManagerLogInformation
 
-Information about a transaction manager object is stored in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564767">TRANSACTIONMANAGER_LOG_INFORMATION</a> structure. 
+Information about a transaction manager object is stored in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_transactionmanager_log_information">TRANSACTIONMANAGER_LOG_INFORMATION</a> structure. 
 
 
 ### -field TransactionManagerLogPathInformation
 
-Information about a transaction manager object is stored in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564764">TRANSACTIONMANAGER_LOGPATH_INFORMATION</a> structure. 
+Information about a transaction manager object is stored in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_transactionmanager_logpath_information">TRANSACTIONMANAGER_LOGPATH_INFORMATION</a> structure. 
 
 
 ### -field TransactionManagerRecoveryInformation
 
-Information about a transaction manager object is stored in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564776">TRANSACTIONMANAGER_RECOVERY_INFORMATION</a> structure.
+Information about a transaction manager object is stored in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_transactionmanager_recovery_information">TRANSACTIONMANAGER_RECOVERY_INFORMATION</a> structure.
 
 
 ## -see-also
@@ -79,19 +79,19 @@ Information about a transaction manager object is stored in a <a href="https://m
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564753">TRANSACTIONMANAGER_BASIC_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_transactionmanager_basic_information">TRANSACTIONMANAGER_BASIC_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564764">TRANSACTIONMANAGER_LOGPATH_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_transactionmanager_logpath_information">TRANSACTIONMANAGER_LOGPATH_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564767">TRANSACTIONMANAGER_LOG_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_transactionmanager_log_information">TRANSACTIONMANAGER_LOG_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567058">ZwQueryInformationTransactionManager</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ntqueryinformationtransactionmanager">ZwQueryInformationTransactionManager</a>
  
 
  

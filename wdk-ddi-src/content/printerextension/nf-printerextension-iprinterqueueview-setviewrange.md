@@ -77,7 +77,7 @@ This method returns the appropriate <b>HRESULT</b> value.
 
 
 
-Invoking this method causes the events for status change to the jobs to be fired. The <a href="https://msdn.microsoft.com/D964A0C4-041A-47BD-87AB-4AF523939DF0">IPrinterQueueViewEvent::OnChanged</a> event method returns the live queue in response, using the specified maximum range size.
+Invoking this method causes the events for status change to the jobs to be fired. The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nf-printerextension-iprinterqueueviewevent-onchanged">IPrinterQueueViewEvent::OnChanged</a> event method returns the live queue in response, using the specified maximum range size.
 
 <div class="alert"><b>Note</b>  <i>ulViewSize</i> must be specified as a value less than or equal to 25. If the caller specifies a size which exceeds 25,  this method will return E_INVALIDARG.</div>
 <div> </div>
@@ -89,15 +89,15 @@ Invoking this method causes the events for status change to the jobs to be fired
 
 
 
-<a href="https://msdn.microsoft.com/C565288C-B014-4A92-9F50-1641EAA30D22">IPrinterQueue2::GetPrinterQueueView</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nf-printerextension-iprinterqueue2-getprinterqueueview">IPrinterQueue2::GetPrinterQueueView</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265392">IPrinterQueueView</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprinterqueueview">IPrinterQueueView</a>
 
 
 
-<a href="https://msdn.microsoft.com/D964A0C4-041A-47BD-87AB-4AF523939DF0">IPrinterQueueViewEvent::OnChanged</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nf-printerextension-iprinterqueueviewevent-onchanged">IPrinterQueueViewEvent::OnChanged</a>
  
 
  

@@ -61,7 +61,7 @@ Contains the number of items in the following array.
 
 ### -field CreateItemsList
 
-Points to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff563479">KSOBJECT_CREATE_ITEM</a> structures for base object classes supported by this device object.
+Points to an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksobject_create_item">KSOBJECT_CREATE_ITEM</a> structures for base object classes supported by this device object.
 
 
 ## -see-also
@@ -69,7 +69,7 @@ Points to an array of <a href="https://msdn.microsoft.com/library/windows/hardwa
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563479">KSOBJECT_CREATE_ITEM</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksobject_create_item">KSOBJECT_CREATE_ITEM</a>
  
 
  

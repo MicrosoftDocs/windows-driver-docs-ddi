@@ -50,7 +50,7 @@ req.typenames:
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugAdvanced3</b> interface inherits from <a href="https://msdn.microsoft.com/library/windows/hardware/ff549803">IDebugAdvanced2</a>. <b>IDebugAdvanced3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugAdvanced3</b> interface inherits from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugadvanced2">IDebugAdvanced2</a>. <b>IDebugAdvanced3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -65,7 +65,7 @@ The <b>IDebugAdvanced3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545435">FindSourceFileAndTokenWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugadvanced3-findsourcefileandtokenwide">FindSourceFileAndTokenWide</a>
 </td>
 <td align="left" width="63%">
 Returns the filename of a source file on the source path or return the value of a variable associated with a file token.
@@ -74,7 +74,7 @@ Returns the filename of a source file on the source path or return the value of 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548327">GetSourceFileInformationWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugadvanced3-getsourcefileinformationwide">GetSourceFileInformationWide</a>
 </td>
 <td align="left" width="63%">
 Returns specified information about a source file.
@@ -83,7 +83,7 @@ Returns specified information about a source file.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548515">GetSymbolInformationWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugadvanced3-getsymbolinformationwide">GetSymbolInformationWide</a>
 </td>
 <td align="left" width="63%">
 Returns specified information about a symbol.
@@ -98,7 +98,7 @@ Returns specified information about a symbol.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549803">IDebugAdvanced2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugadvanced2">IDebugAdvanced2</a>
  
 
  

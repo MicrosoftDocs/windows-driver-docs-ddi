@@ -102,7 +102,7 @@ that it is read.
 
 
 
-<a href="https://msdn.microsoft.com/695D8FE9-FADB-488F-A5F7-7715EAD48DD6">UFS_ATTRIBUTES_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ufs/ne-ufs-ufs_attributes_descriptor">UFS_ATTRIBUTES_DESCRIPTOR</a>
  
 
  

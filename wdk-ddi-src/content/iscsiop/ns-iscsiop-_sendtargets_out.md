@@ -46,7 +46,7 @@ req.typenames: SendTargets_OUT, *PSendTargets_OUT
 ## -description
 
 
-The SendTargets_OUT structure holds the output data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565526">SendTargets</a> method.
+The SendTargets_OUT structure holds the output data for the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/sendtargets">SendTargets</a> method.
 
 
 ## -struct-fields
@@ -56,7 +56,7 @@ The SendTargets_OUT structure holds the output data for the <a href="https://msd
 
 ### -field Status
 
-The status of the <b>SendTargets</b> method. This member will contain 0 if the SEND TARGETS operation succeeds and ISDSC_SCSI_REQUEST_FAILED if the operation fails. If the SEND TARGETS operation fails, <b>ScsiStatus</b> will contain the SCSI status of the SCSI command. SCSI status qualifiers are documented in the <i>SCSI Primary Commands</i> specification. For a list of status qualifiers, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>.  
+The status of the <b>SendTargets</b> method. This member will contain 0 if the SEND TARGETS operation succeeds and ISDSC_SCSI_REQUEST_FAILED if the operation fails. If the SEND TARGETS operation fails, <b>ScsiStatus</b> will contain the SCSI status of the SCSI command. SCSI status qualifiers are documented in the <i>SCSI Primary Commands</i> specification. For a list of status qualifiers, see <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/iscsi-status-qualifiers">ISCSI_STATUS_QUALIFIERS</a>.  
 
 
 ### -field ResponseSize
@@ -83,15 +83,15 @@ You must implement this method.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/iscsi-status-qualifiers">ISCSI_STATUS_QUALIFIERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565526">SendTargets</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/sendtargets">SendTargets</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565533">SendTargets_IN</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/iscsiop/ns-iscsiop-_sendtargets_in">SendTargets_IN</a>
  
 
  

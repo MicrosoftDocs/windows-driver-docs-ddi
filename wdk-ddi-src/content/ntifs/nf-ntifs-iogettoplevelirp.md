@@ -135,7 +135,7 @@ The cache manager is the top-level component for the current thread, and the cur
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548540">IoSetTopLevelIrp</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-iosettoplevelirp">IoSetTopLevelIrp</a>
  
 
  

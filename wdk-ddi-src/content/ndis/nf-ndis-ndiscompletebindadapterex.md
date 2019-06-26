@@ -49,7 +49,7 @@ req.typenames:
 
 A protocol driver calls the 
   <b>NdisCompleteBindAdapterEx</b> function to complete a binding operation for which the driver's 
-  <a href="https://msdn.microsoft.com/1958722e-012e-4110-a82c-751744bcf9b5">ProtocolBindAdapterEx</a> function
+  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_bind_adapter_ex">ProtocolBindAdapterEx</a> function
   returned NDIS_STATUS_PENDING.
 
 
@@ -62,7 +62,7 @@ A protocol driver calls the
 
 The handle that NDIS passed to the 
      <i>BindContext</i> parameter of the 
-     <a href="https://msdn.microsoft.com/1958722e-012e-4110-a82c-751744bcf9b5">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_bind_adapter_ex">
      ProtocolBindAdapterEx</a> function.
 
 
@@ -104,7 +104,7 @@ None
 
 
 If a protocol driver returns NDIS_STATUS_PENDING from its 
-    <a href="https://msdn.microsoft.com/1958722e-012e-4110-a82c-751744bcf9b5">ProtocolBindAdapterEx</a> function,
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_bind_adapter_ex">ProtocolBindAdapterEx</a> function,
     that driver must call 
     <b>NdisCompleteBindAdapterEx</b> after the binding operation is completed.
 
@@ -121,11 +121,11 @@ If the open operation was successful, the protocol driver is ready to accept rec
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563715">NdisOpenAdapterEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/1958722e-012e-4110-a82c-751744bcf9b5">ProtocolBindAdapterEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_bind_adapter_ex">ProtocolBindAdapterEx</a>
  
 
  

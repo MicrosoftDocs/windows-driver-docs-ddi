@@ -46,7 +46,7 @@ req.typenames: GROUP_AFFINITY, *PGROUP_AFFINITY
 ## -description
 
 
-The <b>GROUP_AFFINITY</b> structure specifies a group number and the processor <a href="https://msdn.microsoft.com/4ef14b5b-128b-4b7c-9211-116e8bd60cab">affinity</a> within that group.
+The <b>GROUP_AFFINITY</b> structure specifies a group number and the processor <a href="https://docs.microsoft.com/windows-hardware/drivers/">affinity</a> within that group.
 
 
 ## -syntax

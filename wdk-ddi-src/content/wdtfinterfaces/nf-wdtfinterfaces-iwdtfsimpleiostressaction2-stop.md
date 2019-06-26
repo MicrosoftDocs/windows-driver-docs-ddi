@@ -57,8 +57,8 @@ Stops the device.
 ### -param pResult [out, retval]
 
 True if all of the I/O operations after the last 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh973223">Start</a> or 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451185">Continue</a> succeeded; 
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nf-printerextension-iprintschemaasyncoperation-start">Start</a> or 
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">Continue</a> succeeded; 
 otherwise, false.
 
 
@@ -76,7 +76,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451157">IWDTFSimpleIOStressAction2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtfinterfaces/nn-wdtfinterfaces-iwdtfsimpleiostressaction2">IWDTFSimpleIOStressAction2</a>
  
 
  

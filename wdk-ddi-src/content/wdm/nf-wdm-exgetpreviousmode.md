@@ -83,7 +83,7 @@ Alternatively, <b>ExGetPreviousMode</b> can be used to determine the previous pr
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552084">KeGetCurrentThread</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kegetcurrentthread">KeGetCurrentThread</a>
  
 
  

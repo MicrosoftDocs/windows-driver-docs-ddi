@@ -122,7 +122,7 @@ The <i>Destination</i> buffer must be resident if the caller is running at IRQL 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561736">RtlAppendUnicodeStringToString</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlappendunicodestringtostring">RtlAppendUnicodeStringToString</a>
  
 
  

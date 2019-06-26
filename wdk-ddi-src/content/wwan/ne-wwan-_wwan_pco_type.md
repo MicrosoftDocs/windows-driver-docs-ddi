@@ -56,7 +56,7 @@ The <b>WWAN_PCO_TYPE</b> enumeration indicates whether the header of a PCO struc
 
 ### -field WwanPcoTypeComplete
 
-Specifies that the complete PCO structure will be passed up as received from the network and the header realistically reflects the protocol in octet 3 of the PCO structure, defined in the 3GPP TS24.008 spec. To see the full PCO structure, see <a href="https://msdn.microsoft.com/45A499CE-2C9A-4070-BEF8-880E7673FA8E">WWAN_PCO_VALUE</a>.
+Specifies that the complete PCO structure will be passed up as received from the network and the header realistically reflects the protocol in octet 3 of the PCO structure, defined in the 3GPP TS24.008 spec. To see the full PCO structure, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_pco_value">WWAN_PCO_VALUE</a>.
 
 
 ### -field WwanPcoTypePartial
@@ -94,7 +94,7 @@ The OS will not check if the PCO data is valid and leaves the validation to the 
 
 
 
-<a href="https://msdn.microsoft.com/45A499CE-2C9A-4070-BEF8-880E7673FA8E">WWAN_PCO_VALUE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_pco_value">WWAN_PCO_VALUE</a>
  
 
  

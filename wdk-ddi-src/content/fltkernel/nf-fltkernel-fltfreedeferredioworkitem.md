@@ -47,7 +47,7 @@ req.typenames:
 ## -description
 
 
-The <b>FltFreeDeferredIoWorkItem</b> routine frees a work item allocated by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541720">FltAllocateDeferredIoWorkItem</a> routine. 
+The <b>FltFreeDeferredIoWorkItem</b> routine frees a work item allocated by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltallocatedeferredioworkitem">FltAllocateDeferredIoWorkItem</a> routine. 
 
 
 ## -parameters
@@ -73,7 +73,7 @@ None
 
 
 
-<b>FltFreeDeferredIoWorkItem</b> frees an opaque FLT_DEFERRED_IO_WORKITEM structure that was allocated by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff541720">FltAllocateDeferredIoWorkItem</a>. The freed memory is returned to nonpaged pool. 
+<b>FltFreeDeferredIoWorkItem</b> frees an opaque FLT_DEFERRED_IO_WORKITEM structure that was allocated by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltallocatedeferredioworkitem">FltAllocateDeferredIoWorkItem</a>. The freed memory is returned to nonpaged pool. 
 
 The FLT_DEFERRED_IO_WORKITEM structure is opaque: that is, its members are reserved for system use. 
 
@@ -85,11 +85,11 @@ The FLT_DEFERRED_IO_WORKITEM structure is opaque: that is, its members are reser
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541720">FltAllocateDeferredIoWorkItem</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltallocatedeferredioworkitem">FltAllocateDeferredIoWorkItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543449">FltQueueDeferredIoWorkItem</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltqueuedeferredioworkitem">FltQueueDeferredIoWorkItem</a>
  
 
  

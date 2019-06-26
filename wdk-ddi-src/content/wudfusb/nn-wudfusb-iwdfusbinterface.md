@@ -56,7 +56,7 @@ The <b>IWDFUsbInterface</b> interface exposes a USB interface that a USB device 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFUsbInterface</b> interface inherits from <a href="https://msdn.microsoft.com/library/windows/hardware/ff560200">IWDFObject</a>. <b>IWDFUsbInterface</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFUsbInterface</b> interface inherits from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nn-wudfddi-iwdfobject">IWDFObject</a>. <b>IWDFUsbInterface</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,64 +71,64 @@ The <b>IWDFUsbInterface</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560317">IWDFUsbInterface::GetConfiguredSettingIndex</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nf-wudfusb-iwdfusbinterface-getconfiguredsettingindex">IWDFUsbInterface::GetConfiguredSettingIndex</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/0deccfee-34e3-47ee-b141-9758cffcd0c2">GetConfiguredSettingIndex</a> method retrieves the current setting index for a USB interface.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nf-wudfusb-iwdfusbinterface-getconfiguredsettingindex">GetConfiguredSettingIndex</a> method retrieves the current setting index for a USB interface.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560320">IWDFUsbInterface::GetInterfaceDescriptor</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nf-wudfusb-iwdfusbinterface-getinterfacedescriptor">IWDFUsbInterface::GetInterfaceDescriptor</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/ae4cffc8-65db-452c-9b85-19752c32c421">GetInterfaceDescriptor</a> method retrieves a descriptor for a USB interface.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nf-wudfusb-iwdfusbinterface-getinterfacedescriptor">GetInterfaceDescriptor</a> method retrieves a descriptor for a USB interface.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560327">IWDFUsbInterface::GetInterfaceNumber</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nf-wudfusb-iwdfusbinterface-getinterfacenumber">IWDFUsbInterface::GetInterfaceNumber</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/de8de14a-94a8-49e2-912a-9c174f5a2c74">GetInterfaceNumber</a> method retrieves the index of a USB interface.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nf-wudfusb-iwdfusbinterface-getinterfacenumber">GetInterfaceNumber</a> method retrieves the index of a USB interface.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560334">IWDFUsbInterface::GetNumEndPoints</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nf-wudfusb-iwdfusbinterface-getnumendpoints">IWDFUsbInterface::GetNumEndPoints</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/60ec8b38-8ab2-45d8-92ab-5943fd9bba79">GetNumEndPoints</a> method retrieves the number of endpoints (pipes) on a USB interface.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nf-wudfusb-iwdfusbinterface-getnumendpoints">GetNumEndPoints</a> method retrieves the number of endpoints (pipes) on a USB interface.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560337">IWDFUsbInterface::GetWinUsbHandle</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nf-wudfusb-iwdfusbinterface-getwinusbhandle">IWDFUsbInterface::GetWinUsbHandle</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/31c23596-21b2-4fb2-96bd-5372fe2432ab">GetWinUsbHandle</a> method retrieves the WinUsb interface handle that is associated with a USB interface.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nf-wudfusb-iwdfusbinterface-getwinusbhandle">GetWinUsbHandle</a> method retrieves the WinUsb interface handle that is associated with a USB interface.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560339">IWDFUsbInterface::RetrieveUsbPipeObject</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nf-wudfusb-iwdfusbinterface-retrieveusbpipeobject">IWDFUsbInterface::RetrieveUsbPipeObject</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/abfaad6b-be42-4547-aa26-5b44e53118bc">RetrieveUsbPipeObject</a> method retrieves a USB pipe object for the specified pipe index.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nf-wudfusb-iwdfusbinterface-retrieveusbpipeobject">RetrieveUsbPipeObject</a> method retrieves a USB pipe object for the specified pipe index.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560343">IWDFUsbInterface::SelectSetting</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nf-wudfusb-iwdfusbinterface-selectsetting">IWDFUsbInterface::SelectSetting</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/c47b025b-1be9-4fdc-965a-a9a82a394177">SelectSetting</a> method selects the specified alternate setting on a USB interface.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nf-wudfusb-iwdfusbinterface-selectsetting">SelectSetting</a> method selects the specified alternate setting on a USB interface.
 
 </td>
 </tr>

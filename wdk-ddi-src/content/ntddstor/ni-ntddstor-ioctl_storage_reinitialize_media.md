@@ -74,7 +74,7 @@ The **Information** field is set to zero if the operation completes successfully
 
 ## -remarks
 
-Initial implementation requires no input and returns no output other than status. Callers should first call [FSCTL_LOCK_VOLUME](https://msdn.microsoft.com/library/windows/desktop/aa364575(v=vs.85).aspx) before calling this ioctl to flush out cached data in upper layers. No waiting of outstanding request completion is done before issuing the command to the device.
+Initial implementation requires no input and returns no output other than status. Callers should first call [FSCTL_LOCK_VOLUME](https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_lock_volume) before calling this ioctl to flush out cached data in upper layers. No waiting of outstanding request completion is done before issuing the command to the device.
 
 ## -see-also
 

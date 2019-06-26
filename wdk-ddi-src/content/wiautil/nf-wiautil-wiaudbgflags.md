@@ -56,7 +56,7 @@ The <b>wiauDbgFlags</b> function determines whether a particular debugging flag 
 
 ### -param flags
 
-Is a set of flags that control which information is placed in the log file or displayed in the debugger. See the <i>flags</i> parameter of <a href="https://msdn.microsoft.com/library/windows/hardware/ff550159">wiauDbgSetFlags</a> for a list of the flag values.
+Is a set of flags that control which information is placed in the log file or displayed in the debugger. See the <i>flags</i> parameter of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-wiaudbgsetflags">wiauDbgSetFlags</a> for a list of the flag values.
 
 
 ### -param prefix
@@ -109,7 +109,7 @@ If message logging to log file, or debugger, or both is enabled and the particul
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550159">wiauDbgSetFlags</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-wiaudbgsetflags">wiauDbgSetFlags</a>
  
 
  

@@ -69,15 +69,15 @@ MEDIA_SAMPLE_CONTENT enumerated type value that specifies the type of media cont
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556534">BDA_PID_MAP</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bdatypes/ns-bdatypes-_bda_pid_map">BDA_PID_MAP</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566551">KSPROPSETID_BdaPIDFilter</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/kspropsetid-bdapidfilter">KSPROPSETID_BdaPIDFilter</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567719">MEDIA_SAMPLE_CONTENT</a>
+<a href="https://docs.microsoft.com/windows/desktop/directshow/media-sample-content">MEDIA_SAMPLE_CONTENT</a>
  
 
  

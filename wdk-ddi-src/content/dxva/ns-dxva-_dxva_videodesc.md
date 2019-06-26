@@ -71,7 +71,7 @@ Specifies the height of the sample, in pixels.
 
 ### -field SampleFormat
 
-Specifies the format of the sample defined by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564045">DXVA_SampleFormat</a> structure.
+Specifies the format of the sample defined by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ne-dxva-_dxva_sampleformat">DXVA_SampleFormat</a> structure.
 
 
 ### -field d3dFormat
@@ -81,19 +81,19 @@ Specifies the Direct3D surface format of the sample.
 
 ### -field InputSampleFreq
 
-Specifies the frequency of incoming video defined by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563969">DXVA_Frequency</a> structure.
+Specifies the frequency of incoming video defined by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ns-dxva-_dxva_frequency">DXVA_Frequency</a> structure.
 
 
 ### -field OutputFrameFreq
 
-Specifies the desired frame rate of output video as defined by <a href="https://msdn.microsoft.com/library/windows/hardware/ff563969">DXVA_Frequency</a>.
+Specifies the desired frame rate of output video as defined by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ns-dxva-_dxva_frequency">DXVA_Frequency</a>.
 
 
 ## -remarks
 
 
 
-For examples showing structure member values for deinterlacing or converting different types of content, see <a href="https://msdn.microsoft.com/be721bde-3c72-4942-9f33-5ea1bf2d187c">DeinterlaceQueryAvailableModes</a>.
+For examples showing structure member values for deinterlacing or converting different types of content, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/dxva-deinterlacecontainerdeviceclass-deinterlacequeryavailablemodes">DeinterlaceQueryAvailableModes</a>.
 
 
 
@@ -103,11 +103,11 @@ For examples showing structure member values for deinterlacing or converting dif
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563969">DXVA_Frequency</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ns-dxva-_dxva_frequency">DXVA_Frequency</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564045">DXVA_SampleFormat</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ne-dxva-_dxva_sampleformat">DXVA_SampleFormat</a>
  
 
  

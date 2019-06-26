@@ -104,7 +104,7 @@ Apps that need calibration may periodically ask the user to calibrate the device
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn946698">Sensor Properties</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/sensors/sensor-properties2">Sensor Properties</a>
  
 
  

@@ -50,7 +50,7 @@ req.typenames:
 The 
   <b>FwpsAleEndpointCreateEnumHandle0</b> function creates a handle that can be used with other application layer enforcement (ALE) endpoint
   functions to enumerate endpoint data.
-<div class="alert"><b>Note</b>  <b>FwpsAleEndpointCreateEnumHandle0</b> is a specific version of <b>FwpsAleEndpointCreateEnumHandle</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
+<div class="alert"><b>Note</b>  <b>FwpsAleEndpointCreateEnumHandle0</b> is a specific version of <b>FwpsAleEndpointCreateEnumHandle</b>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
 ## -parameters
 
@@ -61,13 +61,13 @@ The
 
 Handle for an open session with the filter engine. This handle is obtained when a session is
      opened by calling 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff550075">FwpmEngineOpen0</a>.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpmk/nf-fwpmk-fwpmengineopen0">FwpmEngineOpen0</a>.
 
 
 ### -param enumTemplate [in, optional]
 
 A pointer to an 
-     <a href="https://msdn.microsoft.com/7875bf42-4510-4af1-8f24-4b9f1d945100">
+     <a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_ale_endpoint_enum_template0_">
      FWPS_ALE_ENDPOINT_ENUM_TEMPLATE0</a> structure that contains parameters to narrow the endpoint
      enumeration results.
 
@@ -124,7 +124,7 @@ An error occurred.
 After using the handle acquired by calling 
     <b>FwpsAleEndpointCreateEnumHandle0</b>, the callout driver must release the system resources associated
     with the handle by calling 
-    <a href="https://msdn.microsoft.com/45ec429e-d324-40c9-bedc-acd75ccb160e">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsaleendpointdestroyenumhandle0">
     FwpsAleEndpointDestroyEnumHandle0</a>.
 
 
@@ -135,12 +135,12 @@ After using the handle acquired by calling
 
 
 
-<a href="https://msdn.microsoft.com/45ec429e-d324-40c9-bedc-acd75ccb160e">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsaleendpointdestroyenumhandle0">
    FwpsAleEndpointDestroyEnumHandle0</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551126">FwpsAleEndpointEnum0</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsaleendpointenum0">FwpsAleEndpointEnum0</a>
  
 
  

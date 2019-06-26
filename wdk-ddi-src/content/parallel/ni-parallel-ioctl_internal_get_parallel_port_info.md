@@ -51,9 +51,9 @@ req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 ## -description
 
 
-The <b>IOCTL_INTERNAL_GET_PARALLEL_PORT_INFO</b> request returns information about a parallel port. The information specifies the resources assigned to the parallel port, the capabilities of the port, and pointers to <a href="https://msdn.microsoft.com/library/windows/hardware/ff544307">parallel port callback routines</a>.
+The <b>IOCTL_INTERNAL_GET_PARALLEL_PORT_INFO</b> request returns information about a parallel port. The information specifies the resources assigned to the parallel port, the capabilities of the port, and pointers to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">parallel port callback routines</a>.
 
-For more information, see <a href="https://msdn.microsoft.com/d8ae2296-05b6-419a-93cc-00fcb12d41fe">Obtaining Information About a ParallelPort</a>.
+For more information, see <a href="https://docs.microsoft.com/previous-versions/ff544223(v=vs.85)">Obtaining Information About a ParallelPort</a>.
 
 
 ## -ioctlparameters

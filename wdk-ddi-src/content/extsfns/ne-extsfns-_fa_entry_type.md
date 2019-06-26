@@ -46,9 +46,9 @@ req.typenames: FA_ENTRY_TYPE
 ## -description
 
 
-A <a href="https://msdn.microsoft.com/0B44FCB9-D23F-4630-9F9A-FBAD46712B14">DebugFailureAnalysis</a> object has a collection of <a href="https://msdn.microsoft.com/library/windows/hardware/jj991807">failure analysis entries</a> (FA entries).  Each FA entry  has a tag, and each tag is associated with one of the data types in the <b>FA_ENTRY_TYPE</b> enumeration. For more information, see <a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Failure Analysis Entries, Tags, and Data Types</a>.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/extsfns/nn-extsfns-idebugfailureanalysis2">DebugFailureAnalysis</a> object has a collection of <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/failure-analysis-entries">failure analysis entries</a> (FA entries).  Each FA entry  has a tag, and each tag is associated with one of the data types in the <b>FA_ENTRY_TYPE</b> enumeration. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">Failure Analysis Entries, Tags, and Data Types</a>.
 
-An FA entry is an <a href="https://msdn.microsoft.com/library/windows/hardware/jj991808">FA_ENTRY</a> structure along with an optional data block. The data type of the tag indicates the type of data in the data block.
+An FA entry is an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/extsfns/ns-extsfns-_fa_entry">FA_ENTRY</a> structure along with an optional data block. The data type of the tag indicates the type of data in the data block.
 
 
 ## -enum-fields
@@ -83,7 +83,7 @@ The data block holds a 64-bit pointer.
 
 ### -field DEBUG_FA_ENTRY_ANSI_STRING
 
-The data block holds a null-terminated string. The <b>DataSize</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/jj991808">FA_ENTRY</a> structure holds the size of the string including the null terminator.
+The data block holds a null-terminated string. The <b>DataSize</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/extsfns/ns-extsfns-_fa_entry">FA_ENTRY</a> structure holds the size of the string including the null terminator.
 
 
 ### -field DEBUG_FA_ENTRY_ANSI_STRINGs
@@ -96,12 +96,12 @@ The data block holds a null-terminated string that is a debugger command. An exa
 
 ### -field DEBUG_FA_ENTRY_STRUCTURED_DATA
 
-The data block holds a  pointer to an  <a href="https://msdn.microsoft.com/library/windows/hardware/jj983405">IDebugFailureAnalysis2</a> interface.
+The data block holds a  pointer to an  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/extsfns/nn-extsfns-idebugfailureanalysis2">IDebugFailureAnalysis2</a> interface.
 
 
 ### -field DEBUG_FA_ENTRY_UNICODE_STRING
 
-The data block holds a null-terminated Unicode string. The <b>DataSize</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/jj991808">FA_ENTRY</a> structure holds the size of the Unicode string including the null terminator.
+The data block holds a null-terminated Unicode string. The <b>DataSize</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/extsfns/ns-extsfns-_fa_entry">FA_ENTRY</a> structure holds the size of the Unicode string including the null terminator.
 
 
 ### -field DEBUG_FA_ENTRY_ARRAY
@@ -114,23 +114,23 @@ A bitwise OR of this value and one of the basic types indicates an array. For ex
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj991808">FA_ENTRY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/extsfns/ns-extsfns-_fa_entry">FA_ENTRY</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj991807">Failure Analysis Entries</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/failure-analysis-entries">Failure Analysis Entries</a>
 
 
 
-<a href="https://msdn.microsoft.com/B52DFB0E-0035-40C2-B2F5-5E16B16931C2">IDebugFAEntryTag</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/extsfns/nn-extsfns-idebugfaentrytags">IDebugFAEntryTag</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983405">IDebugFailureAnalysis2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/extsfns/nn-extsfns-idebugfailureanalysis2">IDebugFailureAnalysis2</a>
 
 
 
-<a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">Writing an Analysis Extension Plug-in to Extend !analyze</a>
  
 
  

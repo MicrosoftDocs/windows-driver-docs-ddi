@@ -80,7 +80,7 @@ Specifies flags for the operation. Reserved for future use, should be 0.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt426731">FILE_PROVIDER_EXTERNAL_INFO_V0</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_provider_external_info_v0">FILE_PROVIDER_EXTERNAL_INFO_V0</a>
  
 
  

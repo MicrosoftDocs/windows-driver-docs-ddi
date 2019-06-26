@@ -46,7 +46,7 @@ req.typenames: STORAGE_READ_CAPACITY, PSTORAGE_READ_CAPACITY
 ## -description
 
 
-The <b>STORAGE_READ_CAPACITY</b> contains the disk read capacity information returned from a <a href="https://msdn.microsoft.com/FC4CFD33-5632-400A-90E5-583C6D6DFFD9">IOCTL_STORAGE_READ_CAPACITIY</a> request. 
+The <b>STORAGE_READ_CAPACITY</b> contains the disk read capacity information returned from a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ni-ntddstor-ioctl_storage_read_capacity">IOCTL_STORAGE_READ_CAPACITIY</a> request. 
 
 
 ## -struct-fields
@@ -84,7 +84,7 @@ The total disk size in bytes.
 
 
 
-<a href="https://msdn.microsoft.com/FC4CFD33-5632-400A-90E5-583C6D6DFFD9">IOCTL_STORAGE_READ_CAPACITIY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ni-ntddstor-ioctl_storage_read_capacity">IOCTL_STORAGE_READ_CAPACITIY</a>
  
 
  

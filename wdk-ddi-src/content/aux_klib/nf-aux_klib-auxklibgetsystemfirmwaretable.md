@@ -189,13 +189,13 @@ The raw SMBIOS table provider ('RSMB') retrieves the contents of the raw SMBIOS 
 </table></span></div>
 The raw firmware table provider ('FIRM') retrieves the contents of the specified physical address range. The value written to *<i>ReturnLength</i> is the size of the address range.
 
-The ACPI table provider ('ACPI') retrieves the contents of the specified ACPI table. Because OEMs can include ACPI firmware tables that are not listed in the ACPI specification, you should first call <a href="https://msdn.microsoft.com/library/windows/hardware/jj151548">AuxKlibEnumerateSystemFirmwareTables</a> to enumerate all ACPI tables that are currently available from the system firmware.
+The ACPI table provider ('ACPI') retrieves the contents of the specified ACPI table. Because OEMs can include ACPI firmware tables that are not listed in the ACPI specification, you should first call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/aux_klib/nf-aux_klib-auxklibenumeratesystemfirmwaretables">AuxKlibEnumerateSystemFirmwareTables</a> to enumerate all ACPI tables that are currently available from the system firmware.
 
 For ACPI, if the system firmware contains multiple tables with the same name, <b>AuxKlibEnumerateSystemFirmwareTables</b> enumerates them all. However, <b>AuxKlibGetSystemFirmwareTable</b> retrieves only the first table in the list that has this name.
 
-<b>AuxKlibGetSystemFirmwareTable</b> is the kernel-mode equivalent of the Win32 <a href="https://msdn.microsoft.com/3bfe81ca-6d04-4da1-9579-6b0b48faa4a2">GetSystemFirmwareTable</a> function.
+<b>AuxKlibGetSystemFirmwareTable</b> is the kernel-mode equivalent of the Win32 <a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemfirmwaretable">GetSystemFirmwareTable</a> function.
 
-Drivers must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff540636">AuxKlibInitialize</a> before calling <b>AuxKlibGetSystemFirmwareTable</b>.
+Drivers must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/aux_klib/nf-aux_klib-auxklibinitialize">AuxKlibInitialize</a> before calling <b>AuxKlibGetSystemFirmwareTable</b>.
 
 <b>AuxKlibGetSystemFirmwareTable</b> is defined in the Aux_klib.h header file that is included in the WDK for Windows 8 and later versions of Windows. To use this routine, drivers should link to the version of Aux_klib.lib that is included in the WDK for Windows 8 and later versions of Windows. The implementation of <b>AuxKlibGetSystemFirmwareTable</b> in these versions of the WDK can be used in versions of Windows starting with Windows Vista.
 
@@ -207,15 +207,15 @@ Drivers must call <a href="https://msdn.microsoft.com/library/windows/hardware/f
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj151548">AuxKlibEnumerateSystemFirmwareTables</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/aux_klib/nf-aux_klib-auxklibenumeratesystemfirmwaretables">AuxKlibEnumerateSystemFirmwareTables</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540636">AuxKlibInitialize</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/aux_klib/nf-aux_klib-auxklibinitialize">AuxKlibInitialize</a>
 
 
 
-<a href="https://msdn.microsoft.com/3bfe81ca-6d04-4da1-9579-6b0b48faa4a2">GetSystemFirmwareTable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemfirmwaretable">GetSystemFirmwareTable</a>
  
 
  

@@ -61,7 +61,7 @@ The <b>WdfTimerGetParentObject</b> method returns a handle to the parent object 
 
 ### -param Timer [in]
 
-A handle to a framework timer object that was obtained by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff550050">WdfTimerCreate</a>.
+A handle to a framework timer object that was obtained by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdftimer/nf-wdftimer-wdftimercreate">WdfTimerCreate</a>.
 
 
 ## -returns
@@ -84,7 +84,7 @@ For more information about framework timer objects, see <a href="https://docs.mi
 
 #### Examples
 
-The following code example shows now an <a href="https://msdn.microsoft.com/abe15fd9-620e-4c24-9a82-32d20a7e49cc">EvtTimerFunc</a> callback function can obtain a timer object's parent. In this example, the driver previously specified that the timer object's parent is a queue object.
+The following code example shows now an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdftimer/nc-wdftimer-evt_wdf_timer">EvtTimerFunc</a> callback function can obtain a timer object's parent. In this example, the driver previously specified that the timer object's parent is a queue object.
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -113,7 +113,7 @@ MyEvtTimerFunc(
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550050">WdfTimerCreate</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdftimer/nf-wdftimer-wdftimercreate">WdfTimerCreate</a>
  
 
  

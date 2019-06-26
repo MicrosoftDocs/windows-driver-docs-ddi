@@ -61,12 +61,12 @@ Represents flag bits. This parameter is unused and should always be set to zero 
 
 ### -param bstrItemName [in]
 
-The name of the item that will perform the data transfer. For more information, see  <a href="https://msdn.microsoft.com/library/windows/hardware/ff551590">WIA_IPA_ITEM_NAME</a>.
+The name of the item that will perform the data transfer. For more information, see  <a href="https://docs.microsoft.com/windows-hardware/drivers/image/wia-ipa-item-name">WIA_IPA_ITEM_NAME</a>.
 
 
 ### -param bstrFullItemName [in]
 
-The full name of the item that will perform the data transfer. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff551561">WIA_IPA_FULL_ITEM_NAME</a>.
+The full name of the item that will perform the data transfer. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/image/wia-ipa-full-item-name">WIA_IPA_FULL_ITEM_NAME</a>.
 
 
 ### -param ppIStream [out]
@@ -99,23 +99,23 @@ When the current transfer sequence is cancelled, the <b>GetNextStream</b> method
 
 
 
-<a href="https://msdn.microsoft.com/0cdc02bf-23fe-4122-8d5f-f42c3c07da8b">Cancellation of Data Transfers in Windows Vista</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/image/cancellation-of-data-transfers-in-windows-vista">Cancellation of Data Transfers in Windows Vista</a>
 
 
 
-<a href="https://msdn.microsoft.com/83817277-3526-4f64-8e7c-7e02c8cd77bd">Data Transfer Between Legacy Application and Windows Vista Driver</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/image/data-transfer-between-legacy-application-and-windows-vista-driver">Data Transfer Between Legacy Application and Windows Vista Driver</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj151550">IWiaMiniDrvTransferCallback</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nn-wiamindr_lh-iwiaminidrvtransfercallback">IWiaMiniDrvTransferCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551561">WIA_IPA_FULL_ITEM_NAME</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/image/wia-ipa-full-item-name">WIA_IPA_FULL_ITEM_NAME</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551590">WIA_IPA_ITEM_NAME</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/image/wia-ipa-item-name">WIA_IPA_ITEM_NAME</a>
  
 
  

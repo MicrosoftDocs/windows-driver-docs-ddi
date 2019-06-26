@@ -68,7 +68,7 @@ Pointer to a user-mode address that needs to be converted for kernel use.
 
 
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff537396">KSPROPERTY_SYNTH_DLS_DOWNLOAD</a> set-property request uses the SYNTH_BUFFER structure for its property value.
+A <a href="https://docs.microsoft.com/previous-versions/ff537396(v=vs.85)">KSPROPERTY_SYNTH_DLS_DOWNLOAD</a> set-property request uses the SYNTH_BUFFER structure for its property value.
 
 
 
@@ -78,7 +78,7 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/ff537396">KSPROPE
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537396">KSPROPERTY_SYNTH_DLS_DOWNLOAD</a>
+<a href="https://docs.microsoft.com/previous-versions/ff537396(v=vs.85)">KSPROPERTY_SYNTH_DLS_DOWNLOAD</a>
  
 
  

@@ -63,31 +63,31 @@ An offload target calls the
 A handle that identifies the offloaded TCP connection on which the indication is being made. When
      the connection was offloaded, this handle was supplied in the 
      <b>NdisOffloadHandle</b> member of the 
-     <a href="https://msdn.microsoft.com/ebc98e65-5d11-4c3d-aea1-dfad1434c093">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/ns-ndischimney-_ndis_miniport_offload_block_list">
      NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a> structure that was associated with the connection state.
 
 
 ### -param NetBufferList [in]
 
 A pointer to a 
-      <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure. Each 
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure. Each 
       <b>NET_BUFFER_LIST</b> structure
       describes a list of 
-      <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structures. Each 
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures. Each 
       <b>NET_BUFFER</b> structure in the list maps to a
       chain of 
-      <a href="https://msdn.microsoft.com/71524333-dd5d-4f0b-8dd3-034ea926bc93">memory descriptor lists (MDLs)</a>. The MDLs contain the
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_mdl">memory descriptor lists (MDLs)</a>. The MDLs contain the
       received data. The MDLs are locked so that they remain resident, but they are not mapped into system
       memory.
 
 The 
-      <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure
       specified by 
       <i>NetBufferList</i> must be a stand-alone structure and cannot be the first
       structure in a linked list of 
       <b>NET_BUFFER_LIST</b> structures.
       Offload targets can work around this limitation by chaining as many MDLs as necessary to the same 
-      <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> in an offload receive
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> in an offload receive
       indication.
 
 
@@ -104,7 +104,7 @@ The offload target must supply the following status value:
 
 This indicates that the host stack can retain ownership of the NET_BUFFER_LIST structures and
        associated structures until it returns these structures to the 
-       <a href="https://msdn.microsoft.com/b746f58d-d029-4fcd-a59d-baba037fc38e">
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/nc-ndischimney-w_tcp_offload_receive_return_handler">
        MiniportTcpOffloadReceiveReturn</a> function of the offload target.
 
 
@@ -172,13 +172,13 @@ The client application consumed a subset of the indicated receive data. The amou
 
 
 Receive buffers are posted to the 
-    <a href="https://msdn.microsoft.com/9c9c033d-e892-4d8a-8f12-4ca34cdc9ea1">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/nc-ndischimney-w_tcp_offload_receive_handler">
     MiniportTcpOffloadReceive</a> function of the offload target. If preposted receive requests (buffers
     supplied by the client application) are available for the connection, the offload target should transfer
     the receive data by calling the 
-    <a href="https://msdn.microsoft.com/d5b1341b-cbe0-483c-9abb-b8706f2db2dd">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/nc-ndischimney-ndis_tcp_offload_receive_complete">
     NdisTcpOffloadReceiveComplete</a> function. For more information, see 
-    <a href="https://msdn.microsoft.com/13e80cec-03f5-4498-94ab-ce974a8b9697">Delivery Algorithm</a>.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/delivery-algorithm">Delivery Algorithm</a>.
 
 All receive requests must be completed by the offload target (even if they are zero-byte receive requests).
 
@@ -191,7 +191,7 @@ Normal receive requests
 
 If the host stack posts normal receive requests, the offload target must complete these requests
       before making any receive indications. For more information see 
-      <a href="https://msdn.microsoft.com/13e80cec-03f5-4498-94ab-ce974a8b9697">Delivery Algorithm</a>.
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/delivery-algorithm">Delivery Algorithm</a>.
 
 </li>
 <li>
@@ -200,7 +200,7 @@ Zero-byte receive requests
 The host stack can post a zero-byte receive request to enable receive indications by the offload
       target. A zero-byte receive request is one in which the value of the 
       <b>DataLength</b> member (for more information, see 
-      <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structure) is zero. A
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure) is zero. A
       zero-byte receive request does not consume any buffered data.
 
 </li>
@@ -211,7 +211,7 @@ During initialization, the offload target should allocate two pools of buffers, 
     <b>
     NdisTcpOffloadReceiveHandler</b> function. The offload target uses the other pool for making receive
     indications through the nonoffload NDIS interface when calling the 
-    <a href="https://msdn.microsoft.com/b87dba3e-c18f-4ea2-8bd5-ec3cdafc534b">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismindicatereceivenetbufferlists">
     NdisMIndicateReceiveNetBufferLists</a> function.
 
 Each allocated NET_BUFFER_LIST structure must have only one NET_BUFFER structure associated with it.
@@ -235,7 +235,7 @@ The offload target always supplies a
 <li>
 If the host stack returns NDIS_STATUS_SUCCESS, indicating that the client application accepted and
       consumed the receive data, the host stack will return the NET_BUFFER_LIST structures to the 
-      <a href="https://msdn.microsoft.com/b746f58d-d029-4fcd-a59d-baba037fc38e">
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/nc-ndischimney-w_tcp_offload_receive_return_handler">
       MiniportTcpOffloadReceiveReturn</a> function of the offload target. The host stack will set the
       variable specified by the 
       <i>BytesConsumed</i> parameter to the number of bytes that were indicated by the offload target.
@@ -249,9 +249,9 @@ If the host stack returns NDIS_STATUS_NOT_ACCEPTED, indicating that the client a
       anticipation that the client application will post receive buffers on the connection. After the client
       application posts receive buffers, the offload target copies the buffered receive data into the posted
       buffers and completes the posted buffers by calling the 
-      <a href="https://msdn.microsoft.com/d5b1341b-cbe0-483c-9abb-b8706f2db2dd">
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/nc-ndischimney-ndis_tcp_offload_receive_complete">
       NdisTcpOffloadReceiveComplete</a> function. For more information, see 
-      <a href="https://msdn.microsoft.com/13e80cec-03f5-4498-94ab-ce974a8b9697">Delivery Algorithm</a>. The host stack will
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/delivery-algorithm">Delivery Algorithm</a>. The host stack will
       set the variable specified by the 
       <i>BytesConsumed</i> parameter to zero.
 
@@ -276,7 +276,7 @@ In the
     <b>RcvIndicationSize</b> member of the TCP_OFFLOAD_STATE_CACHED structure, the host stack can specify the
     optimum number of data bytes that the offload target should supply in a single call to the 
     <b>NdisTcpOffloadReceiveHandler</b> function. For more information, see 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff564606">Using the Specified
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/nc-ndischimney-ndis_tcp_offload_receive_indicate">Using the Specified
     Receive Indication Size</a>.
 
 
@@ -287,32 +287,32 @@ In the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554414">MDL</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_mdl">MDL</a>
 
 
 
-<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/9c9c033d-e892-4d8a-8f12-4ca34cdc9ea1">MiniportTcpOffloadReceive</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/nc-ndischimney-w_tcp_offload_receive_handler">MiniportTcpOffloadReceive</a>
 
 
 
-<a href="https://msdn.microsoft.com/b746f58d-d029-4fcd-a59d-baba037fc38e">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/nc-ndischimney-w_tcp_offload_receive_return_handler">
    MiniportTcpOffloadReceiveReturn</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563654">NdisMRegisterMiniportDriver</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismregisterminiportdriver">NdisMRegisterMiniportDriver</a>
  
 
  

@@ -71,7 +71,7 @@ An AVStream minidriver's <i>AVStrMiniPinHandshake</i> routine is called when AVS
 
 #### - Data [in]
 
-Pointer to a caller-allocated buffer. If the pin supports the requested protocol, <i>AVStrMiniPinHandshake</i> should fill in this parameter with a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff562673">KSHANDSHAKE</a> structure.
+Pointer to a caller-allocated buffer. If the pin supports the requested protocol, <i>AVStrMiniPinHandshake</i> should fill in this parameter with a pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-kshandshake">KSHANDSHAKE</a> structure.
 
 
 #### - Irp [in]
@@ -81,7 +81,7 @@ Pointer to the IRP containing the handshake request.
 
 #### - Request [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff562676">KSIDENTIFIER</a> structure that contains a GUID identifying the requested protocol.
+Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksidentifier">KSIDENTIFIER</a> structure that contains a GUID identifying the requested protocol.
 
 
 ## -returns
@@ -97,7 +97,7 @@ Returns STATUS_SUCCESS if the pin supports the requested protocol. Otherwise, it
 
 
 
-The minidriver specifies this routine's address in the <i>Handshake</i> parameter of a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff563523">KsPinRegisterHandshakeCallback</a>.
+The minidriver specifies this routine's address in the <i>Handshake</i> parameter of a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-kspinregisterhandshakecallback">KsPinRegisterHandshakeCallback</a>.
 
 
 
@@ -107,15 +107,15 @@ The minidriver specifies this routine's address in the <i>Handshake</i> paramete
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562673">KSHANDSHAKE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-kshandshake">KSHANDSHAKE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562676">KSIDENTIFIER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksidentifier">KSIDENTIFIER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563523">KsPinRegisterHandshakeCallback</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-kspinregisterhandshakecallback">KsPinRegisterHandshakeCallback</a>
  
 
  

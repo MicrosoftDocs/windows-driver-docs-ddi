@@ -173,7 +173,7 @@ A read/write member, set by the file system driver, that specifies the label of 
 
 A volume parameter block (VPB) object is used to create an association between a physical disk device object and a logical volume device object. That is, a VPB maps a file system's volume device object to the device or partition upon which the volume is mounted. A VPB object exists only for device objects that represent physical media, virtual media, or logical media that can be mounted.
 
-The I/O manager allocates and deallocates memory for the VPB structure from nonpaged pool. This allocation (or deallocation) occurs when a device object (as described previously) is created by calling either the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548397">IoCreateDevice</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff548559">IoVerifyVolume</a> functions. That is, the device object that is created must be one of the following types:<ul>
+The I/O manager allocates and deallocates memory for the VPB structure from nonpaged pool. This allocation (or deallocation) occurs when a device object (as described previously) is created by calling either the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iocreatedevice">IoCreateDevice</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-ioverifyvolume">IoVerifyVolume</a> functions. That is, the device object that is created must be one of the following types:<ul>
 <li>FILE_DEVICE_DISK</li>
 <li>FILE_DEVICE_CD_ROM</li>
 <li>FILE_DEVICE_TAPE</li>
@@ -181,9 +181,9 @@ The I/O manager allocates and deallocates memory for the VPB structure from nonp
 </ul>
 
 
-For more information about device object types, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563821">Specifying Device Types</a>.
+For more information about device object types, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/specifying-device-types">Specifying Device Types</a>.
 
-Drivers must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff548227">IoAcquireVpbSpinLock</a> before they access any applicable members of the VPB object.
+Drivers must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-ioacquirevpbspinlock">IoAcquireVpbSpinLock</a> before they access any applicable members of the VPB object.
 
 <div class="alert"><b>Note</b>  <ul>
 <li>Opaque members should be considered inaccessible. Drivers with dependencies on object member locations or access to opaque members might not remain portable and interoperable with other drivers over time.</li>
@@ -199,15 +199,15 @@ Drivers must call <a href="https://msdn.microsoft.com/library/windows/hardware/f
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545834">FILE_OBJECT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_file_object">FILE_OBJECT</a>
 
 
 
-<a href="https://msdn.microsoft.com/e8f39b06-9904-40e8-af52-eae310d11fa7">How the Volume Is Mounted</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/how-the-volume-is-mounted">How the Volume Is Mounted</a>
  
 
  

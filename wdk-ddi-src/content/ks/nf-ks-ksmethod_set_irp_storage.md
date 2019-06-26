@@ -65,7 +65,7 @@ The macro is defined as follows:
 
 ## -see-also
 
-[KSMETHOD](https://docs.microsoft.com/previous-versions//ff563398(v=vs.85))
+[KSMETHOD](https://docs.microsoft.com/previous-versions/ff563398(v=vs.85))
 
 [KSMETHOD_ITEM](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksmethod_item)
 

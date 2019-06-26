@@ -46,7 +46,7 @@ req.typenames: NDIS_PD_PROVIDER_DISPATCH
 ## -description
 
 
-This structure is used as input for the <a href="https://msdn.microsoft.com/library/windows/hardware/dn931852">OID_PD_OPEN_PROVIDER</a> and serves as a container for all the provider's driver routines.
+This structure is used as input for the <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-pd-open-provider">OID_PD_OPEN_PROVIDER</a> and serves as a container for all the provider's driver routines.
 
 
 ## -struct-fields
@@ -56,7 +56,7 @@ This structure is used as input for the <a href="https://msdn.microsoft.com/libr
 
 ### -field Header
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for the <b>NDIS_PD_PROVIDER_DISPATCH</b> structure. Set the members of this structure as follows:
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the <b>NDIS_PD_PROVIDER_DISPATCH</b> structure. Set the members of this structure as follows:
 
 <ul>
 <li><b>Type</b> = <b>NDIS_OBJECT_TYPE_DEFAULT</b></li>
@@ -71,12 +71,12 @@ This member is reserved and must be set to 0 by the provider.
 
 ### -field NdisPDAllocateQueue
 
-See <a href="https://msdn.microsoft.com/E9091C69-0E21-40CC-B3D3-1F770ABA0D47">NdisPDAllocateQueue</a>.
+See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-ndis_pd_allocate_queue">NdisPDAllocateQueue</a>.
 
 
 ### -field NdisPDFreeQueue
 
-See <a href="https://msdn.microsoft.com/1DE8582C-AF11-4CBA-8F4C-159266A7F3BA">NdisPDFreeQueue</a>.
+See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-ndis_pd_free_queue">NdisPDFreeQueue</a>.
 
 
 ### -field NdisPDAcquireReceiveQueues
@@ -91,27 +91,27 @@ See <a href="https://msdn.microsoft.com/1DE8582C-AF11-4CBA-8F4C-159266A7F3BA">Nd
 
 ### -field NdisPDAllocateCounter
 
-See <a href="https://msdn.microsoft.com/86AA537D-952F-4A7A-ACA4-24B8C1AE932A">NdisPDAllocateCounter</a>.
+See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-ndis_pd_allocate_counter">NdisPDAllocateCounter</a>.
 
 
 ### -field NdisPDFreeCounter
 
-See <a href="https://msdn.microsoft.com/60C47437-A999-4F82-B144-6F77410E5C07">NdisPDFreeCounter</a>.
+See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-ndis_pd_free_counter">NdisPDFreeCounter</a>.
 
 
 ### -field NdisPDQueryCounter
 
-See <a href="https://msdn.microsoft.com/C4860A43-2C53-4967-81A8-41FFF5CD2A5E">NdisPDQueryCounter</a>.
+See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-ndis_pd_query_counter">NdisPDQueryCounter</a>.
 
 
 ### -field NdisPDSetReceiveFilter
 
-See <a href="https://msdn.microsoft.com/49587142-9C84-4F73-BE0C-D256A8E6BF4B">NdisPDSetReceiveFilter</a>.
+See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-ndis_pd_set_receive_filter">NdisPDSetReceiveFilter</a>.
 
 
 ### -field NdisPDClearReceiveFilter
 
-See <a href="https://msdn.microsoft.com/C91F2E5D-C37F-48A9-9AE0-F5A8C5D8F54D">NdisPDClearReceiveFilter</a>.
+See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-ndis_pd_clear_receive_filter">NdisPDClearReceiveFilter</a>.
 
 
 ### -field NdisPDRequestDrainNotification
@@ -133,12 +133,12 @@ See <a href="https://msdn.microsoft.com/C91F2E5D-C37F-48A9-9AE0-F5A8C5D8F54D">Nd
 
 #### - NdisPDOffRssReceiveQueues
 
-See <a href="https://msdn.microsoft.com/library/windows/hardware/dn931860(d=robot)">NdisPDOffRssReceiveQueues</a>.
+See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-ndis_pd_flush_queue">NdisPDOffRssReceiveQueues</a>.
 
 
 #### - NdisPDOnRssReceiveQueues
 
-See <a href="https://msdn.microsoft.com/library/windows/hardware/mt808524(d=robot)">NdisPDOnRssReceiveQueues</a>.
+See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/index">NdisPDOnRssReceiveQueues</a>.
 
 
 ## -see-also
@@ -146,7 +146,7 @@ See <a href="https://msdn.microsoft.com/library/windows/hardware/mt808524(d=robo
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
  
 
  

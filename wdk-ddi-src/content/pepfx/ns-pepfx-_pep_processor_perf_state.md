@@ -56,7 +56,7 @@ Use in the <b>PEP_NOTIFY_PPM_QUERY_DISCRETE_PERF_STATES</b>  notification. This
 
 ### -field Performance
 
-On output, the performance level (on the scale returned by the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186839">PEP_QUERY_COMPONENT_PERF_CAPABILITIES</a> notification) of this performance state.
+On output, the performance level (on the scale returned by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/ns-pepfx-_pep_query_component_perf_capabilities">PEP_QUERY_COMPONENT_PERF_CAPABILITIES</a> notification) of this performance state.
 
 
 ### -field Frequency
@@ -74,11 +74,11 @@ Reserved.
 
 
 
-<a href="https://msdn.microsoft.com/506b3d8e-4aba-4e70-a6db-52a52d717c6b">PEP_PPM_QUERY_DISCRETE_PERF_STATES</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/ns-pepfx-_pep_ppm_query_discrete_perf_states">PEP_PPM_QUERY_DISCRETE_PERF_STATES</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt186881">Processor power management (PPM) notifications</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">Processor power management (PPM) notifications</a>
  
 
  

@@ -102,13 +102,13 @@ sizeof(NDIS_WWAN_DRIVER_CAPS)
  
 
 For more information about these members, see 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field DriverCaps
 
 A 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571206">WWAN_DRIVER_CAPS</a> structure that represents
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_driver_caps">WWAN_DRIVER_CAPS</a> structure that represents
      the capabilities of the miniport driver.
 
 
@@ -117,11 +117,11 @@ A
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571206">WWAN_DRIVER_CAPS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_driver_caps">WWAN_DRIVER_CAPS</a>
  
 
  

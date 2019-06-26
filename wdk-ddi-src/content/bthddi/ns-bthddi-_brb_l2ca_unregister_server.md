@@ -58,7 +58,7 @@ A profile driver uses the _BRB_L2CA_UNREGISTER_SERVER structure to unregister it
 ### -field Hdr
 
 A 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536612">BRB_HEADER</a> structure that contains information
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a> structure that contains information
      about the current BRB.
 
 
@@ -70,14 +70,14 @@ The address of the remote device.
 ### -field ServerHandle
 
 The handle of the L2CAP server to unregister, as returned earlier from a previous 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536618">
+     <a href="https://docs.microsoft.com/previous-versions/ff536618(v=vs.85)">
      BRB_L2CA_REGISTER_SERVER</a> request.
 
 
 ### -field Psm
 
 The Protocol/Service Multiplexer (PSM) that was specified in a previous 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536618">
+     <a href="https://docs.microsoft.com/previous-versions/ff536618(v=vs.85)">
      BRB_L2CA_REGISTER_SERVER</a> request.
 
 
@@ -86,8 +86,8 @@ The Protocol/Service Multiplexer (PSM) that was specified in a previous
 
 
 To unregister itself as a L2CAP server, a profile driver should 
-    <a href="https://msdn.microsoft.com/53a692e7-9c71-4dca-9331-32ac97b94179">build and send</a> a 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff536862">
+    <a href="https://docs.microsoft.com/previous-versions/ff536657(v=vs.85)">build and send</a> a 
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/ns-bthddi-_brb_l2ca_register_server">
     BRB_L2CA_UNREGISTER_SERVER</a> request.
 
 
@@ -98,15 +98,15 @@ To unregister itself as a L2CAP server, a profile driver should
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536612">BRB_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536862">BRB_L2CA_UNREGISTER_SERVER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/ns-bthddi-_brb_l2ca_register_server">BRB_L2CA_UNREGISTER_SERVER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536862">_BRB_L2CA_REGISTER_SERVER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/ns-bthddi-_brb_l2ca_register_server">_BRB_L2CA_REGISTER_SERVER</a>
  
 
  

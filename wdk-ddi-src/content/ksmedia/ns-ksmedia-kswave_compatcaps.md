@@ -91,7 +91,7 @@ Indicates that the device produces output.
 
 
 
-This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566516">KSPROPERTY_WAVE_COMPATIBLE_CAPABILITIES</a> property.
+This structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-wave-compatible-capabilities">KSPROPERTY_WAVE_COMPATIBLE_CAPABILITIES</a> property.
 
 
 
@@ -101,7 +101,7 @@ This structure is used by the <a href="https://msdn.microsoft.com/library/window
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566516">KSPROPERTY_WAVE_COMPATIBLE_CAPABILITIES</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-wave-compatible-capabilities">KSPROPERTY_WAVE_COMPATIBLE_CAPABILITIES</a>
  
 
  

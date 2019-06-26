@@ -58,7 +58,7 @@ The <b>IoCheckLinkShareAccess</b> routine is called by file system drivers (FSDs
 
 ### -param DesiredAccess [in]
 
-Specifies an <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> value that indicates the desired type of access to the given file object.
+Specifies an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> value that indicates the desired type of access to the given file object.
 
 
 ### -param DesiredShareAccess [in]
@@ -84,7 +84,7 @@ A pointer to the common share-access data structure that is associated with <i>F
 
 ### -param LinkShareAccess [in, out, optional]
 
-A pointer to the common link share-access data structure (<a href="https://msdn.microsoft.com/CD9E3356-45C3-4F56-9EB3-45FB4B3F054B">LINK_SHARE_ACCESS</a>) that is associated with <i>FileObject</i>. Drivers should treat this structure as opaque.
+A pointer to the common link share-access data structure (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_link_share_access">LINK_SHARE_ACCESS</a>) that is associated with <i>FileObject</i>. Drivers should treat this structure as opaque.
 
 
 ### -param IoShareAccessFlags [in]
@@ -135,19 +135,19 @@ The <b>IoCheckLinkShareAccess</b> routine returns STATUS_SUCCESS if the requeste
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549503">I/O Manager Routines</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">I/O Manager Routines</a>
 
 
 
-<a href="https://msdn.microsoft.com/FFCD4705-4E5D-4D4E-9E6D-D06A7D21DC17">IoRemoveLinkShareAccess</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ioremovelinkshareaccess">IoRemoveLinkShareAccess</a>
 
 
 
-<a href="https://msdn.microsoft.com/206D74F6-09D5-4C04-8A0A-A7765E64BB27">IoSetLinkShareAccess</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iosetlinkshareaccess">IoSetLinkShareAccess</a>
 
 
 
-<a href="https://msdn.microsoft.com/C92E53C8-3411-4E6E-B48E-B16F6B815488">IoUpdateLinkShareAccess</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ioupdatelinkshareaccess">IoUpdateLinkShareAccess</a>
  
 
  

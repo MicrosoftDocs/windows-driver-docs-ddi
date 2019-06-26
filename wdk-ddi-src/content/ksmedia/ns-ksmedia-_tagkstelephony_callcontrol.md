@@ -46,7 +46,7 @@ req.typenames: KSTELEPHONY_CALLCONTROL, *PKSTELEPHONY_CALLCONTROL
 ## -description
 
 
-The <b>KSTELEPHONY_CALLCONTROL</b> structure specifies the phone call type and control operation to use for the <a href="https://msdn.microsoft.com/library/windows/hardware/mt169871">KSPROPERTY_TELEPHONY_CALLCONTROL</a> property.
+The <b>KSTELEPHONY_CALLCONTROL</b> structure specifies the phone call type and control operation to use for the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-telephony-callcontrol">KSPROPERTY_TELEPHONY_CALLCONTROL</a> property.
 
 
 ## -struct-fields

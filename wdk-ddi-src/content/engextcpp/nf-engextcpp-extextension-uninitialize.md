@@ -69,7 +69,7 @@ This method does not return a value.
 
 
 
-If this method is defined in the extension library class <a href="https://msdn.microsoft.com/library/windows/hardware/ff544508">EXT_CLASS</a>, it can be used by the extension library to clean up before it is unloaded.
+If this method is defined in the extension library class <a href="https://docs.microsoft.com/previous-versions/ff544508(v=vs.85)">EXT_CLASS</a>, it can be used by the extension library to clean up before it is unloaded.
 
 There may or may not be a debugging session active when this function is called, so you should not assume that the extension can query session information.
 
@@ -81,7 +81,7 @@ There may or may not be a debugging session active when this function is called,
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544508">EXT_CLASS</a>
+<a href="https://docs.microsoft.com/previous-versions/ff544508(v=vs.85)">EXT_CLASS</a>
 
 
 
@@ -89,7 +89,7 @@ There may or may not be a debugging session active when this function is called,
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/previsioning-framework/ff550945(v=vs.85)">Initialize</a>
  
 
  

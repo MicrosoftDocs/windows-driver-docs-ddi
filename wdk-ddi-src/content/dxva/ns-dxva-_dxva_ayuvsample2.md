@@ -88,9 +88,9 @@ For a zero value of <b>bSampleAlpha8</b>, the specified blend to use is the pict
 
 <div class="alert"><b>Note</b>    If the alpha-blending surface originates as a DVD video subpicture, the preferred method for converting from the 4-bit alpha used by DVD video to the 8-bit alpha specified by <b>bSampleAlpha8</b> is to map a 4-bit alpha value of zero to an 8-bit alpha value of zero and to convert all nonzero 4-bit alphas to 8-bit alphas by performing a left shift of four places and adding the constant 15.</div>
 <div> </div>
-The width and height of the AYUV alpha-blending surface are specified in the associated <a href="https://msdn.microsoft.com/7d820491-2df2-4036-8f3d-e6bcff4cd1f6">buffer description list</a> defined by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563122">DXVA_BufferDescription</a> structure.
+The width and height of the AYUV alpha-blending surface are specified in the associated <a href="https://docs.microsoft.com/windows-hardware/drivers/display/buffer-description-list">buffer description list</a> defined by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ns-dxva-_dxva_bufferdescription">DXVA_BufferDescription</a> structure.
 
-The <b>DXVA_AYUVsample2</b> structure is used for each sample in a DirectX VA AYUV blending surface, for <b>OutsideYUVcolor</b> in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563120">DXVA_BlendCombination</a> structure, and for each of the entries in a 16-entry AYUV alpha-blending palette.
+The <b>DXVA_AYUVsample2</b> structure is used for each sample in a DirectX VA AYUV blending surface, for <b>OutsideYUVcolor</b> in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ns-dxva-_dxva_blendcombination">DXVA_BlendCombination</a> structure, and for each of the entries in a 16-entry AYUV alpha-blending palette.
 
 
 
@@ -100,11 +100,11 @@ The <b>DXVA_AYUVsample2</b> structure is used for each sample in a DirectX VA AY
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563120">DXVA_BlendCombination</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ns-dxva-_dxva_blendcombination">DXVA_BlendCombination</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563122">DXVA_BufferDescription</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ns-dxva-_dxva_bufferdescription">DXVA_BufferDescription</a>
  
 
  

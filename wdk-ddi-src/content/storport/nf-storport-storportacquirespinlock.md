@@ -61,7 +61,7 @@ A pointer to the miniport driver per-adapter device extension.
 
 ### -param SpinLock [in]
 
-Contains an enumerator value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff567593">STOR_SPINLOCK</a> that specifies the spin lock to acquire. 
+Contains an enumerator value of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/ne-storport-_stor_spinlock">STOR_SPINLOCK</a> that specifies the spin lock to acquire. 
 
 
 ### -param LockContext [in]
@@ -71,7 +71,7 @@ A pointer to the DPC object for which the lock is held if <i>SpinLock</i> indica
 
 ### -param LockHandle [in, out]
 
-A pointer to a buffer that, on return, will contain a lock handle. To release the lock, the caller must pass this handle to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567496">StorPortReleaseSpinLock</a> routine. 
+A pointer to a buffer that, on return, will contain a lock handle. To release the lock, the caller must pass this handle to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportreleasespinlock">StorPortReleaseSpinLock</a> routine. 
 
 
 ## -returns
@@ -99,7 +99,7 @@ Certain locks are held automatically by the port driver before it calls the mini
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557390">HwStorFindAdapter</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_find_adapter">HwStorFindAdapter</a>
 
 
 </td>
@@ -111,7 +111,7 @@ None
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557396">HwStorInitialize</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_initialize">HwStorInitialize</a>
 
 
 </td>
@@ -123,7 +123,7 @@ Interrupt (physical miniports), None (virtual miniports)
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557403">HwStorInterrupt</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_interrupt">HwStorInterrupt</a>
 
 
 </td>
@@ -135,7 +135,7 @@ Interrupt
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/d8e90489-c847-48e7-89c4-f7a397a8de14">HwMSIInterruptRoutine</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_message_signaled_interrupt_routine">HwMSIInterruptRoutine</a>
 
 
 </td>
@@ -147,7 +147,7 @@ Interrupt
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/73085ca7-a442-4c16-b1e3-6de048e7f1f7">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_startio">
         HwStorStartIo</a>
 
 
@@ -160,7 +160,7 @@ StartIo (physical miniports only when requested concurrent channels <= 1)
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557369">HwStorBuildIo</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_buildio">HwStorBuildIo</a>
 
 
 </td>
@@ -172,31 +172,31 @@ None
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557426">HwStorTimer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_timer">HwStorTimer</a>
 
 
 </td>
 <td>
- Startio, Interrupt (when <b>SynchronizationModel</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff567785">PORT_CONFIGURATION_INFORMATION</a> is set to <b>StorSynchronizeHalfDuplex</b>)
-
-</td>
-</tr>
-<tr>
-<td>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557415">HwStorResetBus</a>
-
-
-</td>
-<td>
- Startio, Interrupt (when <b>SynchronizationModel</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff567785">PORT_CONFIGURATION_INFORMATION</a> is set to <b>StorSynchronizeHalfDuplex</b>)
+ Startio, Interrupt (when <b>SynchronizationModel</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/strmini/ns-strmini-_port_configuration_information">PORT_CONFIGURATION_INFORMATION</a> is set to <b>StorSynchronizeHalfDuplex</b>)
 
 </td>
 </tr>
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557365">HwStorAdapterControl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_reset_bus">HwStorResetBus</a>
+
+
+</td>
+<td>
+ Startio, Interrupt (when <b>SynchronizationModel</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/strmini/ns-strmini-_port_configuration_information">PORT_CONFIGURATION_INFORMATION</a> is set to <b>StorSynchronizeHalfDuplex</b>)
+
+</td>
+</tr>
+<tr>
+<td>
+
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_adapter_control">HwStorAdapterControl</a>
 
 
 </td>
@@ -210,7 +210,7 @@ None
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh920398">HwStorUnitControl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_unit_control">HwStorUnitControl</a>
 
 
 </td>
@@ -222,7 +222,7 @@ None
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451315">HwStorTracingEnabled</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_tracing_enabled">HwStorTracingEnabled</a>
 
 
 </td>
@@ -234,7 +234,7 @@ None
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557407">HwStorPassiveInitializeRoutine</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_passive_initialize_routine">HwStorPassiveInitializeRoutine</a>
 
 
 </td>
@@ -246,7 +246,7 @@ None
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557383">HwStorDpcRoutine</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_dpc_routine">HwStorDpcRoutine</a>
 
 
 </td>
@@ -258,12 +258,12 @@ None
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451310">HwStorStateChange</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_state_change">HwStorStateChange</a>
 
 
 </td>
 <td>
- Startio, Interrupt (when <b>SynchronizationModel</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff567785">PORT_CONFIGURATION_INFORMATION</a> is set to <b>StorSynchronizeHalfDuplex</b>)
+ Startio, Interrupt (when <b>SynchronizationModel</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/strmini/ns-strmini-_port_configuration_information">PORT_CONFIGURATION_INFORMATION</a> is set to <b>StorSynchronizeHalfDuplex</b>)
 
 </td>
 </tr>
@@ -294,7 +294,7 @@ The following table indicates which spin locks each miniport driver routine can 
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557390">HwStorFindAdapter</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_find_adapter">HwStorFindAdapter</a>
 
 
 </td>
@@ -306,7 +306,7 @@ None
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557396">HwStorInitialize</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_initialize">HwStorInitialize</a>
 
 
 </td>
@@ -318,7 +318,7 @@ None
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557403">HwStorInterrupt</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_interrupt">HwStorInterrupt</a>
 
 
 </td>
@@ -330,7 +330,7 @@ None
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/d8e90489-c847-48e7-89c4-f7a397a8de14">HwMSIInterruptRoutine</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_message_signaled_interrupt_routine">HwMSIInterruptRoutine</a>
 
 
 </td>
@@ -342,7 +342,7 @@ None
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/73085ca7-a442-4c16-b1e3-6de048e7f1f7">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_startio">
         HwStorStartIo</a>
 
 
@@ -357,7 +357,7 @@ DPC, Interrupt
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557369">HwStorBuildIo</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_buildio">HwStorBuildIo</a>
 
 
 </td>
@@ -369,31 +369,31 @@ DPC, StartIo, Interrupt
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557426">HwStorTimer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_timer">HwStorTimer</a>
 
 
 </td>
 <td>
- Interrupt (when <b>SynchronizationModel</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff567785">PORT_CONFIGURATION_INFORMATION</a> is not set to <b>StorSynchronizeHalfDuplex</b>)
-
-</td>
-</tr>
-<tr>
-<td>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557415">HwStorResetBus</a>
-
-
-</td>
-<td>
- Interrupt (when <b>SynchronizationModel</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff567785">PORT_CONFIGURATION_INFORMATION</a> is not set to <b>StorSynchronizeHalfDuplex</b>)
+ Interrupt (when <b>SynchronizationModel</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/strmini/ns-strmini-_port_configuration_information">PORT_CONFIGURATION_INFORMATION</a> is not set to <b>StorSynchronizeHalfDuplex</b>)
 
 </td>
 </tr>
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557365">HwStorAdapterControl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_reset_bus">HwStorResetBus</a>
+
+
+</td>
+<td>
+ Interrupt (when <b>SynchronizationModel</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/strmini/ns-strmini-_port_configuration_information">PORT_CONFIGURATION_INFORMATION</a> is not set to <b>StorSynchronizeHalfDuplex</b>)
+
+</td>
+</tr>
+<tr>
+<td>
+
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_adapter_control">HwStorAdapterControl</a>
 
 
 </td>
@@ -407,7 +407,7 @@ DPC, StartIo, Interrupt
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh920398">HwStorUnitControl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_unit_control">HwStorUnitControl</a>
 
 
 </td>
@@ -419,7 +419,7 @@ DPC, StartIo, Interrupt
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451315">HwStorTracingEnabled</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_tracing_enabled">HwStorTracingEnabled</a>
 
 
 </td>
@@ -431,7 +431,7 @@ DPC, StartIo, Interrupt
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557407">HwStorPassiveInitializeRoutine</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_passive_initialize_routine">HwStorPassiveInitializeRoutine</a>
 
 
 </td>
@@ -443,7 +443,7 @@ None
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557383">HwStorDpcRoutine</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_dpc_routine">HwStorDpcRoutine</a>
 
 
 </td>
@@ -455,12 +455,12 @@ DPC, StartIo, Interrupt
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451310">HwStorStateChange</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_state_change">HwStorStateChange</a>
 
 
 </td>
 <td>
- Interrupt (when <b>SynchronizationModel</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff567785">PORT_CONFIGURATION_INFORMATION</a> is not set to <b>StorSynchronizeHalfDuplex</b>)
+ Interrupt (when <b>SynchronizationModel</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/strmini/ns-strmini-_port_configuration_information">PORT_CONFIGURATION_INFORMATION</a> is not set to <b>StorSynchronizeHalfDuplex</b>)
 
 </td>
 </tr>
@@ -475,11 +475,11 @@ DPC, StartIo, Interrupt
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567593">STOR_SPINLOCK</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/ne-storport-_stor_spinlock">STOR_SPINLOCK</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567496">StorPortReleaseSpinLock</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportreleasespinlock">StorPortReleaseSpinLock</a>
  
 
  

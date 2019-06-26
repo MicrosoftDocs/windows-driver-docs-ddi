@@ -116,7 +116,7 @@ If <b>ConfigIntraResidUnsigned</b> is 1, spatial domain blocks for intra macrobl
 </ul>
 <b>ConfigSpatialResid8</b> must be zero if <b>ConfigResidDiffHost</b> is zero. If <b>ConfigResidDiffHost</b> is 1, <b>ConfigSpatialResid8</b> can be any value.
 
-<div class="alert"><b>Note</b>    For <a href="https://msdn.microsoft.com/5a140cc0-ecc5-46ff-be3f-3c92f0f67dca">intra pictures</a> with <i>BPP</i> equal to 8, spatial-domain blocks must be sent by using 8-bit samples. For intra pictures with <i>BPP</i> greater than 8, spatial-domain blocks must be sent by using 16-bit samples. <p class="note">If <b>ConfigIntraResidUnsigned</b> is zero, these samples are sent as signed integer values that are relative to a constant reference value of 2<sup>(BPP-1)</sup>. If <b>ConfigIntraResidUnsigned</b> is 1, these samples are sent as unsigned integer values that are relative to a constant reference value of zero.
+<div class="alert"><b>Note</b>    For <a href="https://docs.microsoft.com/windows-hardware/drivers/">intra pictures</a> with <i>BPP</i> equal to 8, spatial-domain blocks must be sent by using 8-bit samples. For intra pictures with <i>BPP</i> greater than 8, spatial-domain blocks must be sent by using 16-bit samples. <p class="note">If <b>ConfigIntraResidUnsigned</b> is zero, these samples are sent as signed integer values that are relative to a constant reference value of 2<sup>(BPP-1)</sup>. If <b>ConfigIntraResidUnsigned</b> is 1, these samples are sent as unsigned integer values that are relative to a constant reference value of zero.
 
 </div>
 <div> </div>
@@ -187,7 +187,7 @@ The preferred value for <b>ConfigHostInverseScan</b> is 1 if <b>ConfigResidDiffA
 
 ### -field ConfigSpecificIDCT
 
-[in] A UINT value that specifies the use of a specific <a href="https://msdn.microsoft.com/5a140cc0-ecc5-46ff-be3f-3c92f0f67dca">IDCT</a> method for off-host IDCT. A value of 1 in this member indicates the use of the IDCT that is specified in Annex W of ITU-T Recommendation H.263, which you can learn about from the <a href="https://go.microsoft.com/fwlink/p/?linkid=8741">International Telecommunication Union</a> website. A value of zero indicates that any compliant IDCT can be used for off-host IDCT. (Values other than zero and 1 are reserved.)
+[in] A UINT value that specifies the use of a specific <a href="https://docs.microsoft.com/windows-hardware/drivers/">IDCT</a> method for off-host IDCT. A value of 1 in this member indicates the use of the IDCT that is specified in Annex W of ITU-T Recommendation H.263, which you can learn about from the <a href="https://go.microsoft.com/fwlink/p/?linkid=8741">International Telecommunication Union</a> website. A value of zero indicates that any compliant IDCT can be used for off-host IDCT. (Values other than zero and 1 are reserved.)
 
 <b>ConfigSpecificIDCT</b> must be zero if <b>ConfigResidDiffAccelerator</b> is zero, which indicates host-based residual difference decoding.
 
@@ -196,7 +196,7 @@ The preferred value for <b>ConfigHostInverseScan</b> is 1 if <b>ConfigResidDiffA
 
 ### -field Config4GroupedCoefs
 
-[in] A UINT value that specifies how transform coefficients for off-host IDCT are sent. A value of 1 in this member indicates that transform coefficients for off-host IDCT are sent by using the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564053">DXVA_TCoef4Group</a> structure rather than the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564060">DXVA_TCoefSingle</a> structure. <b>Config4GroupedCoefs</b> is zero if <b>ConfigResidDiffAccelerator</b> is zero or if <b>ConfigHostInverseScan</b> is 1.
+[in] A UINT value that specifies how transform coefficients for off-host IDCT are sent. A value of 1 in this member indicates that transform coefficients for off-host IDCT are sent by using the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ns-dxva-_dxva_tcoef4group">DXVA_TCoef4Group</a> structure rather than the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ns-dxva-_dxva_tcoefsingle">DXVA_TCoefSingle</a> structure. <b>Config4GroupedCoefs</b> is zero if <b>ConfigResidDiffAccelerator</b> is zero or if <b>ConfigHostInverseScan</b> is 1.
 
 The preferred value for <b>Config4GroupedCoefs</b> is zero if <b>ConfigResidDiffAccelerator</b> is 1.
 
@@ -208,7 +208,7 @@ The preferred value for <b>Config4GroupedCoefs</b> is zero if <b>ConfigResidDiff
 
 ### -field ConfigDecoderSpecific
 
-[in] A USHORT value that specifies decoder-specific features to configure. For information about a decoder's features, see the specification for that decoder. For a list of decoders, see <a href="https://msdn.microsoft.com/bffcc0da-7b1a-4f70-98f5-4841c8df9f12">Providing Capabilities for Video Decoding</a>. 
+[in] A USHORT value that specifies decoder-specific features to configure. For information about a decoder's features, see the specification for that decoder. For a list of decoders, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/providing-capabilities-for-video-decoding">Providing Capabilities for Video Decoding</a>. 
 
 
 ## -see-also
@@ -216,15 +216,15 @@ The preferred value for <b>Config4GroupedCoefs</b> is zero if <b>ConfigResidDiff
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543148">D3DDDIARG_GETCAPS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_getcaps">D3DDDIARG_GETCAPS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544132">D3DDDICAPS_TYPE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ne-d3dumddi-_d3dddicaps_type">D3DDDICAPS_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/cf6c61ce-7b53-46d0-b3ff-ed5b2b964c65">GetCaps</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_getcaps">GetCaps</a>
  
 
  

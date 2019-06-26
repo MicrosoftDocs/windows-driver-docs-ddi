@@ -91,7 +91,7 @@ Perform an unmap-aperture-segment operation that unmaps a previously mapped rang
 
 ### -field DXGK_OPERATION_SPECIAL_LOCK_TRANSFER
 
-Perform a special transfer operation that moves the content of an allocation from one location to another. In this operation, the content of the allocation is transferred from or to the alternate virtual address that was set up for the allocation (that is, when the <a href="https://msdn.microsoft.com/69022797-432a-410b-8cbf-e1ef7111e7ea">pfnLockCb</a> function was called with the <b>UseAlternateVA</b> bit-field flag set).
+Perform a special transfer operation that moves the content of an allocation from one location to another. In this operation, the content of the allocation is transferred from or to the alternate virtual address that was set up for the allocation (that is, when the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_lockcb">pfnLockCb</a> function was called with the <b>UseAlternateVA</b> bit-field flag set).
 
 
 ### -field DXGK_OPERATION_VIRTUAL_TRANSFER
@@ -109,7 +109,7 @@ The operation is used to fill an allocation with a pattern.
 Perform an context initialization operation for a GPU context or device-specific context. This value is supported beginning with Windows 8.
 
 
-<div class="alert"><b>Note</b>  The display miniport driver allocates context resources by calling <a href="https://msdn.microsoft.com/b6b142a4-20eb-4368-bd7f-8a25f4fe48ca">DxgkCbCreateContextAllocation</a>.</div>
+<div class="alert"><b>Note</b>  The display miniport driver allocates context resources by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkcb_createcontextallocation">DxgkCbCreateContextAllocation</a>.</div>
 <div> </div>
 
 ### -field DXGK_OPERATION_UPDATE_PAGE_TABLE

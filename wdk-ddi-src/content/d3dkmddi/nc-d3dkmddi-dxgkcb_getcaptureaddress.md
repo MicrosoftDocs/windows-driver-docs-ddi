@@ -56,7 +56,7 @@ The <b>DxgkCbGetCaptureAddress</b> function retrieves the physical address and s
 
 *pData*
 
-[in/out] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff557531">DXGKARGCB_GETCAPTUREADDRESS</a> structure that describes parameters for retrieving information about a capture buffer.
+[in/out] A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkargcb_getcaptureaddress">DXGKARGCB_GETCAPTUREADDRESS</a> structure that describes parameters for retrieving information about a capture buffer.
 
 
 ## -returns
@@ -68,7 +68,7 @@ The <b>DxgkCbGetCaptureAddress</b> function retrieves the physical address and s
 | **Return code** | **Description** | 
 |:--|:--|
 | **STATUS_SUCCESS** | DxgkCbGetCaptureAddress successfully retrieved the capture buffer information. | 
-| **STATUS_INVALID_PARAMETER** | The allocation handle that is specified in the hAllocation member of the [DXGKARGCB_GETCAPTUREADDRESS](https://msdn.microsoft.com/library/windows/hardware/ff557531) structure that the pData parameter pointed to was either invalid or did not represent a capture buffer. | 
+| **STATUS_INVALID_PARAMETER** | The allocation handle that is specified in the hAllocation member of the [DXGKARGCB_GETCAPTUREADDRESS](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkargcb_getcaptureaddress) structure that the pData parameter pointed to was either invalid or did not represent a capture buffer. | 
 
  
 
@@ -82,7 +82,7 @@ The <b>DxgkCbGetCaptureAddress</b> function retrieves the physical address and s
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557531">DXGKARGCB_GETCAPTUREADDRESS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkargcb_getcaptureaddress">DXGKARGCB_GETCAPTUREADDRESS</a>
  
 
  

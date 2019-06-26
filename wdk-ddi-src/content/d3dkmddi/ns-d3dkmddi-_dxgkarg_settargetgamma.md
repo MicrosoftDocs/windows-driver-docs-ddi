@@ -46,7 +46,7 @@ req.typenames: DXGKARG_SETTARGETGAMMA
 ## -description
 
 
-Used to hold the arguments for <a href="https://msdn.microsoft.com/658EA0AA-80FC-4A45-B2EF-DFE928917E7B">DXGKDDI_SETTARGETGAMMA</a>.
+Used to hold the arguments for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_settargetgamma">DXGKDDI_SETTARGETGAMMA</a>.
 
 
 ## -struct-fields
@@ -61,5 +61,5 @@ The identifier of a display adapter's video present target.
 
 ### -field GammaRamp
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff546014">D3DKMDT_GAMMA_RAMP</a> struct which describes the type of gamma ramp to set and the buffer containing the ramp data.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmdt/ns-d3dkmdt-_d3dkmdt_gamma_ramp">D3DKMDT_GAMMA_RAMP</a> struct which describes the type of gamma ramp to set and the buffer containing the ramp data.
 

@@ -61,7 +61,7 @@ Indicates the unique adapter ID.
 
 ### -field HBAStatus
 
-Contains the status of the operation. For a list of allowed values and their descriptions, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>. 
+Contains the status of the operation. For a list of allowed values and their descriptions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/hba-status">HBA_STATUS</a>. 
 
 
 ### -field NodeWWN
@@ -139,11 +139,11 @@ Contains the name of the HBA manufacturer.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/hba-status">HBA_STATUS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562497">MSFC_FCAdapterHBAAttributes WMI Class</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msfc-fcadapterhbaattributes-wmi-class">MSFC_FCAdapterHBAAttributes WMI Class</a>
  
 
  

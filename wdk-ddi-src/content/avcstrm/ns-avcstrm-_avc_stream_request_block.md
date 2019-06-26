@@ -56,17 +56,17 @@ The AVC_STREAM_REQUEST_BLOCK structure describes an AV/C streaming request to be
 
 ### -field SizeOfThisBlock
 
-Specifies the size of the request block in bytes. Do not set this value directly. Instead, use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560750">INIT_AVCSTRM_HEADER</a> macro.
+Specifies the size of the request block in bytes. Do not set this value directly. Instead, use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/avcstrm/nf-avcstrm-init_avcstrm_header">INIT_AVCSTRM_HEADER</a> macro.
 
 
 ### -field Version
 
-Specifies the version of <i>avcstrm.sys</i> device driver interface (DDI) to service a request. Do not set this value directly. Instead, use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560750">INIT_AVCSTRM_HEADER</a> macro.
+Specifies the version of <i>avcstrm.sys</i> device driver interface (DDI) to service a request. Do not set this value directly. Instead, use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/avcstrm/nf-avcstrm-init_avcstrm_header">INIT_AVCSTRM_HEADER</a> macro.
 
 
 ### -field Function
 
-Indicates the request (function code) <i>avcstrm.sys</i> services. This must be a value from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554120">AVCSTRM_FUNCTION</a> enumeration. Do not set this value directly. Instead, use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560750">INIT_AVCSTRM_HEADER</a> macro.
+Indicates the request (function code) <i>avcstrm.sys</i> services. This must be a value from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/avcstrm/ne-avcstrm-_avcstrm_function">AVCSTRM_FUNCTION</a> enumeration. Do not set this value directly. Instead, use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/avcstrm/nf-avcstrm-init_avcstrm_header">INIT_AVCSTRM_HEADER</a> macro.
 
 
 ### -field Flags
@@ -124,7 +124,7 @@ StreamState
 
 </td>
 <td>
-Specifies the current state of the specified stream. This is used with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554124">AVCSTRM_GET_STATE</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff554134">AVCSTRM_SET_STATE</a> function codes.
+Specifies the current state of the specified stream. This is used with the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/avcstrm-get-state">AVCSTRM_GET_STATE</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/avcstrm-set-state">AVCSTRM_SET_STATE</a> function codes.
 
 </td>
 </tr>
@@ -134,7 +134,7 @@ OpenStruct
 
 </td>
 <td>
-Specifies a description of a stream to open. This is used with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554125">AVCSTRM_OPEN</a> function code.
+Specifies a description of a stream to open. This is used with the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/avcstrm-open">AVCSTRM_OPEN</a> function code.
 
 </td>
 </tr>
@@ -144,7 +144,7 @@ BufferStruct
 
 </td>
 <td>
-Specifies a description of a buffer used to read or write data from/to a specified stream. This is used with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554130">AVCSTRM_READ</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff554135">AVCSTRM_WRITE</a> function codes.
+Specifies a description of a buffer used to read or write data from/to a specified stream. This is used with the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/avcstrm-read">AVCSTRM_READ</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/avcstrm-write">AVCSTRM_WRITE</a> function codes.
 
 </td>
 </tr>
@@ -192,55 +192,55 @@ To use this structure, set the IRP's <b>Irp->Parameters->Others.Argument1</b> me
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554107">AVCSTRM_ABORT_STREAMING</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/avcstrm-abort-streaming">AVCSTRM_ABORT_STREAMING</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554108">AVCSTRM_BUFFER_STRUCT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/avcstrm/ns-avcstrm-_avcstrm_buffer_struct">AVCSTRM_BUFFER_STRUCT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554110">AVCSTRM_CLOSE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/avcstrm-close">AVCSTRM_CLOSE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554120">AVCSTRM_FUNCTION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/avcstrm/ne-avcstrm-_avcstrm_function">AVCSTRM_FUNCTION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554121">AVCSTRM_GET_PROPERTY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/avcstrm-get-property">AVCSTRM_GET_PROPERTY</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554124">AVCSTRM_GET_STATE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/avcstrm-get-state">AVCSTRM_GET_STATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554125">AVCSTRM_OPEN</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/avcstrm-open">AVCSTRM_OPEN</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554127">AVCSTRM_OPEN_STRUCT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/avcstrm/ns-avcstrm-_avcstrm_open_struct">AVCSTRM_OPEN_STRUCT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554130">AVCSTRM_READ</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/avcstrm-read">AVCSTRM_READ</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554132">AVCSTRM_SET_PROPERTY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/avcstrm-set-property">AVCSTRM_SET_PROPERTY</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554134">AVCSTRM_SET_STATE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/avcstrm-set-state">AVCSTRM_SET_STATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554135">AVCSTRM_WRITE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/avcstrm-write">AVCSTRM_WRITE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566856">KSSTATE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ne-ks-ksstate">KSSTATE</a>
  
 
  

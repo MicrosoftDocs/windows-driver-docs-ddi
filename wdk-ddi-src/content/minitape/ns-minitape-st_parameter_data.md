@@ -77,7 +77,7 @@ Reserved for future use.
 
 
 
-<a href="https://msdn.microsoft.com/EB23D502-87E4-48B1-B1DC-0B215AB361C8">RT_PARAMETER_DATA</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/minitape/ns-minitape-rt_parameter_data">RT_PARAMETER_DATA</a>
  
 
  

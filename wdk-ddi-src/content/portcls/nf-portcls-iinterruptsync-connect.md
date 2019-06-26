@@ -71,7 +71,7 @@ The <code>Connect</code> method connects the synchronization object to the inter
 ## -remarks
 
 
-This method connects the synchronization object to the interrupt that was specified in the call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff537713">PcNewInterruptSync</a> that created the synchronization object. The interrupt is specified in the <b>PcNewInterruptSync</b> function's <i>ResourceList</i> and <i>ResourceIndex</i> parameters.
+This method connects the synchronization object to the interrupt that was specified in the call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-pcnewinterruptsync">PcNewInterruptSync</a> that created the synchronization object. The interrupt is specified in the <b>PcNewInterruptSync</b> function's <i>ResourceList</i> and <i>ResourceIndex</i> parameters.
 
 
 
@@ -81,15 +81,15 @@ This method connects the synchronization object to the interrupt that was specif
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536590">IInterruptSync</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iinterruptsync">IInterruptSync</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548371">IoConnectInterrupt</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ioconnectinterrupt">IoConnectInterrupt</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537713">PcNewInterruptSync</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-pcnewinterruptsync">PcNewInterruptSync</a>
  
 
  

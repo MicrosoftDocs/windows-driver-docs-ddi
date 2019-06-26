@@ -66,7 +66,7 @@ The size, in bytes, of the vendor-specific buffer that follows the structure ins
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567918">NDIS_WWAN_SERVICE_ACTIVATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndiswwan/ns-ndiswwan-_ndis_wwan_service_activation">NDIS_WWAN_SERVICE_ACTIVATION</a>
  
 
  

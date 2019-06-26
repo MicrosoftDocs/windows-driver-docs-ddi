@@ -46,7 +46,7 @@ req.typenames: KSTELEPHONY_CALLINFO, *PKSTELEPHONY_CALLINFO
 ## -description
 
 
-The <b>KSTELEPHONY_CALLINFO</b> structure specifies the type and state of a phone call for the <a href="https://msdn.microsoft.com/library/windows/hardware/mt169873">KSPROPERTY_TELEPHONY_CALLINFO</a> property.
+The <b>KSTELEPHONY_CALLINFO</b> structure specifies the type and state of a phone call for the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-telephony-callinfo">KSPROPERTY_TELEPHONY_CALLINFO</a> property.
 
 
 ## -struct-fields

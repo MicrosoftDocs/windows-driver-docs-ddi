@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <i>DpcForIsr</i> routine finishes the servicing of an I/O operation, after an <a href="https://msdn.microsoft.com/library/windows/hardware/ff547958">InterruptService</a> routine returns.
+The <i>DpcForIsr</i> routine finishes the servicing of an I/O operation, after an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-kservice_routine">InterruptService</a> routine returns.
 
 
 ## -parameters
@@ -56,22 +56,22 @@ The <i>DpcForIsr</i> routine finishes the servicing of an I/O operation, after a
 
 ### -param Dpc [in]
 
-Caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551882">KDPC</a> structure, which represents the DPC object that is associated with this <i>DpcForIsr</i> routine. 
+Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">KDPC</a> structure, which represents the DPC object that is associated with this <i>DpcForIsr</i> routine. 
 
 
 ### -param *DeviceObject [in]
 
-Caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a> structure. This is the device object for the target device, previously created by the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a> routine.
+Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure. This is the device object for the target device, previously created by the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-driver_add_device">AddDevice</a> routine.
 
 
 ### -param *Irp [in, out]
 
-Caller-supplied pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550694">IRP</a> structure that describes the I/O operation.
+Caller-supplied pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_irp">IRP</a> structure that describes the I/O operation.
 
 
 ### -param Context [in, optional]
 
-Caller-supplied pointer to driver-defined context information, specified in a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff549657">IoRequestDpc</a>.
+Caller-supplied pointer to driver-defined context information, specified in a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iorequestdpc">IoRequestDpc</a>.
 
 
 ## -returns
@@ -87,9 +87,9 @@ None
 
 
 
-To register a <i>DpcForIsr</i> routine for a specific device object, a driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff549307">IoInitializeDpcRequest</a>, which causes the system to allocate and initialize one DPC object. (If you need multiple DPC routines, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff542972">CustomDpc</a> routines.)
+To register a <i>DpcForIsr</i> routine for a specific device object, a driver must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ioinitializedpcrequest">IoInitializeDpcRequest</a>, which causes the system to allocate and initialize one DPC object. (If you need multiple DPC routines, use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-kdeferred_routine">CustomDpc</a> routines.)
 
-To queue a <i>DpcForIsr</i> routine for execution, a driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff547958">InterruptService</a> routine must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff549657">IoRequestDPC</a>.
+To queue a <i>DpcForIsr</i> routine for execution, a driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-kservice_routine">InterruptService</a> routine must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iorequestdpc">IoRequestDPC</a>.
 
 A <i>DpcForIsr</i> routine is typically responsible for at least the following tasks:
 
@@ -101,24 +101,24 @@ Completing the I/O operation described by the received IRP.
 <li>
 Dequeuing next IRP.
 
-If the driver uses the system-supplied IRP queue, the <i>DpcForIsr</i> routine should call <a href="https://msdn.microsoft.com/library/windows/hardware/ff550358">IoStartNextPacket</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff550363">IoStartNextPacketByKey</a>, so the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff563858">StartIo</a> routine will start processing the next I/O request.
+If the driver uses the system-supplied IRP queue, the <i>DpcForIsr</i> routine should call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-iostartnextpacket">IoStartNextPacket</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-iostartnextpacketbykey">IoStartNextPacketByKey</a>, so the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-driver_startio">StartIo</a> routine will start processing the next I/O request.
 
 If the driver uses internal IRP queues, the <i>DpcForIsr</i> routine should dequeue the next IRP and begin processing for the next I/O request. 
 
 </li>
 <li>
-Setting the I/O status block in the received IRP and calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff548343">IoCompleteRequest</a> for the completed request.
+Setting the I/O status block in the received IRP and calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iocompleterequest">IoCompleteRequest</a> for the completed request.
 
 </li>
 </ul>
 A <i>DpcForIsr</i> routine might also retry a failed operation or set up the next transfer for a large I/O request that has been broken into smaller pieces.
 
-For more information about <i>DpcForIsr</i> routines, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff544084">DPC Objects and DPCs</a>. 
+For more information about <i>DpcForIsr</i> routines, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/dpc-objects-and-dpcs">DPC Objects and DPCs</a>. 
 
 
 #### Examples
 
-To define a <i>DpcForIsr</i> callback routine, you must first provide a function declaration that identifies the type of callback routine you're defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
+To define a <i>DpcForIsr</i> callback routine, you must first provide a function declaration that identifies the type of callback routine you're defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/code-analysis-for-drivers">Code Analysis for Drivers</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
 
 For example, to define a <i>DpcForIsr</i> callback routine that is named <code>MyDpcForIsr</code>, use the IO_DPC_ROUTINE type as shown in this code example:
 
@@ -155,7 +155,7 @@ VOID
 </td>
 </tr>
 </table></span></div>
-The IO_DPC_ROUTINE function type is defined in the Wdm.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the IO_DPC_ROUTINE function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/3260b53e-82be-4dbc-8ac5-d0e52de77f9d">Declaring Functions by Using Function Role Types for WDM Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
+The IO_DPC_ROUTINE function type is defined in the Wdm.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the IO_DPC_ROUTINE function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-using-function-role-types-for-wdm-drivers">Declaring Functions by Using Function Role Types for WDM Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>.
 
 <div class="code"></div>
 

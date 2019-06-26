@@ -56,7 +56,7 @@ The LOOPEDSTREAMING_POSITION_EVENT_DATA structure describes a position event in 
 
 ### -field KsEventData
 
-Specifies the type of notification that the system will send to the client when the event occurs. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff561750">KSEVENTDATA</a>.
+Specifies the type of notification that the system will send to the client when the event occurs. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-kseventdata">KSEVENTDATA</a>.
 
 
 ### -field Position
@@ -68,13 +68,13 @@ Specifies the buffer position as a byte offset from the beginning of the looped 
 
 
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff537131">KSEVENT_LOOPEDSTREAMING_POSITION</a> event uses the LOOPEDSTREAMING_POSITION_EVENT_DATA structure. This type of event occurs only in looped buffers. A looped buffer is a data buffer for an audio stream of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff563381">KSINTERFACE_STANDARD_LOOPED_STREAMING</a>.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksevent-loopedstreaming-position">KSEVENT_LOOPEDSTREAMING_POSITION</a> event uses the LOOPEDSTREAMING_POSITION_EVENT_DATA structure. This type of event occurs only in looped buffers. A looped buffer is a data buffer for an audio stream of type <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksinterface-standard-looped-streaming">KSINTERFACE_STANDARD_LOOPED_STREAMING</a>.
 
 The driver (typically a system component) that generates the event compares the byte offset in the <b>Position</b> member to the play cursor (in a rendering stream) or the record cursor (in a capture stream). The position event occurs when the play or record cursor passes through the specified position.
 
 When the play or record cursor reaches the end of a looped buffer, the cursor wraps around to the beginning of the buffer, which corresponds to a byte offset of 0.
 
-For more information about looped buffers, buffer positions, and play and record cursors, see <a href="https://msdn.microsoft.com/893fea84-9136-4107-96d2-8a4e2ab7bd2a">Audio Position Property</a>.
+For more information about looped buffers, buffer positions, and play and record cursors, see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/audio-position-property">Audio Position Property</a>.
 
 
 
@@ -84,19 +84,19 @@ For more information about looped buffers, buffer positions, and play and record
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561750">KSEVENTDATA</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-kseventdata">KSEVENTDATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/88baf1f0-d18f-4601-9ba3-fea957712cd6">KSEVENTSET_LoopedStreaming</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/kseventsetid-loopedstreaming">KSEVENTSET_LoopedStreaming</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537131">KSEVENT_LOOPEDSTREAMING_POSITION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksevent-loopedstreaming-position">KSEVENT_LOOPEDSTREAMING_POSITION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563381">KSINTERFACE_STANDARD_LOOPED_STREAMING</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksinterface-standard-looped-streaming">KSINTERFACE_STANDARD_LOOPED_STREAMING</a>
  
 
  

@@ -70,11 +70,11 @@ The <b>GetTypeName</b> method returns the type name of the typed data represente
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544508">EXT_CLASS</a>
+<a href="https://docs.microsoft.com/previous-versions/ff544508(v=vs.85)">EXT_CLASS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544527">EXT_DECLARE_GLOBALS</a>
+<a href="https://docs.microsoft.com/previous-versions/ff544527(v=vs.85)">EXT_DECLARE_GLOBALS</a>
 
 
 
@@ -82,7 +82,7 @@ The <b>GetTypeName</b> method returns the type name of the typed data represente
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544162">ExtRemoteTyped</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nl-engextcpp-extremotetyped">ExtRemoteTyped</a>
  
 
  

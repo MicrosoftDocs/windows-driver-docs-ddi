@@ -67,7 +67,7 @@ The NDIS handle that identifies this filter module. NDIS passed the handle to th
 ### -param RequestId [in]
 
 A cancellation identifier for the request. This identifier specifies the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a> structures that are being
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structures that are being
      canceled.
 
 
@@ -88,11 +88,11 @@ Filter drivers call
     <b>NdisFCancelDirectOidRequest</b> to cancel a previously issued direct OID request. The request can be
     originated by the filter driver or by overlying drivers. The pointer that is passed at the 
     <i>OidRequest</i> parameter must be the same pointer that was passed in the call to the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561809">NdisFDirectOidRequest</a> function.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisfdirectoidrequest">NdisFDirectOidRequest</a> function.
 
 The filter driver can call 
     <b>NdisFCancelDirectOidRequest</b> from the 
-    <a href="https://msdn.microsoft.com/3587c5dc-3b4c-4aab-8c2d-cc9988373a56">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_cancel_direct_oid_request">
     FilterCancelDirectOidRequest</a> function to pass on the cancellation to underlying drivers.
 
 
@@ -107,16 +107,16 @@ The filter driver can call
 
 
 
-<a href="https://msdn.microsoft.com/3587c5dc-3b4c-4aab-8c2d-cc9988373a56">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_cancel_direct_oid_request">
    FilterCancelDirectOidRequest</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561809">NdisFDirectOidRequest</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisfdirectoidrequest">NdisFDirectOidRequest</a>
  
 
  

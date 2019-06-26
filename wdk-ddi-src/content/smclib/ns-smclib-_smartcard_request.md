@@ -74,7 +74,7 @@ Number of bytes required for this command.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn946593">SmcCxGetSmartcardRequestBuffer</a>
+<a href="https://docs.microsoft.com/previous-versions/dn946593(v=vs.85)">SmcCxGetSmartcardRequestBuffer</a>
  
 
  

@@ -46,7 +46,7 @@ req.typenames: GNSS_NI_USER_RESPONSE
 ## -description
 
 
-This enumeration indicates the user’s response to a network initiated (NI) request, which is represented by the <a href="https://msdn.microsoft.com/library/windows/hardware/dn925196">GNSS_NI_RESPONSE</a> structure.
+This enumeration indicates the user’s response to a network initiated (NI) request, which is represented by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/gnssdriver/ns-gnssdriver-gnss_ni_response">GNSS_NI_RESPONSE</a> structure.
 
 
 ## -enum-fields

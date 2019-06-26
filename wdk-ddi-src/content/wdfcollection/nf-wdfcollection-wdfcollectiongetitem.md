@@ -91,7 +91,7 @@ For more information about object collections, see <a href="https://docs.microso
 
 #### Examples
 
-For a code example that uses <b>WdfCollectionGetItem</b>, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff545759">WdfCollectionGetCount</a>.
+For a code example that uses <b>WdfCollectionGetItem</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfcollection/nf-wdfcollection-wdfcollectiongetcount">WdfCollectionGetCount</a>.
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -111,11 +111,11 @@ For a code example that uses <b>WdfCollectionGetItem</b>, see <a href="https://m
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545763">WdfCollectionGetFirstItem</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfcollection/nf-wdfcollection-wdfcollectiongetfirstitem">WdfCollectionGetFirstItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545775">WdfCollectionGetLastItem</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfcollection/nf-wdfcollection-wdfcollectiongetlastitem">WdfCollectionGetLastItem</a>
  
 
  

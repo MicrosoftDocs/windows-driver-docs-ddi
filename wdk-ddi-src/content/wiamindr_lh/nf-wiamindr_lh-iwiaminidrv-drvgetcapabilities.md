@@ -131,7 +131,7 @@ Points to a memory location that will receive a status code for this method. If 
 
 #### - ppCapabilities [out, optional]
 
-Points to a memory location that will receive the address of the first element of an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff550233">WIA_DEV_CAP_DRV</a> structures that contain the GUIDs of events and commands that the device supports. 
+Points to a memory location that will receive the address of the first element of an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/ns-wiamindr_lh-_wia_dev_cap_drv">WIA_DEV_CAP_DRV</a> structures that contain the GUIDs of events and commands that the device supports. 
 
 
 ## -returns
@@ -140,7 +140,7 @@ Points to a memory location that will receive the address of the first element o
 
 On success, the method should return S_OK and clear the device error value pointed to by <i>plDevErrVal</i>. If the method fails, it should return a standard COM error code and place a minidriver-specific error code value in the memory pointed to by <i>plDevErrVal</i>. 
 
-The value pointed to by <i>plDevErrVal</i> can be converted to a string by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff543982">IWiaMiniDrv::drvGetDeviceErrorStr</a>.
+The value pointed to by <i>plDevErrVal</i> can be converted to a string by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvgetdeviceerrorstr">IWiaMiniDrv::drvGetDeviceErrorStr</a>.
 
 
 
@@ -161,15 +161,15 @@ The <i>Wiadef.h</i> header lists several predefined commands and events.
 
 
 
-<a href="https://msdn.microsoft.com/15068d10-5e24-427c-9684-24ce67b75ada">IWiaMiniDrv</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nn-wiamindr_lh-iwiaminidrv">IWiaMiniDrv</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543982">IWiaMiniDrv::drvGetDeviceErrorStr</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvgetdeviceerrorstr">IWiaMiniDrv::drvGetDeviceErrorStr</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550233">WIA_DEV_CAP_DRV</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/ns-wiamindr_lh-_wia_dev_cap_drv">WIA_DEV_CAP_DRV</a>
  
 
  

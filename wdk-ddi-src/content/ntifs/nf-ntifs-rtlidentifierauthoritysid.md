@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <b>RtlIdentifierAuthoritySid</b> routine is reserved for system use. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff553236">RtlSubAuthoritySid</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a>. 
+The <b>RtlIdentifierAuthoritySid</b> routine is reserved for system use. See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-rtlsubauthoritysid">RtlSubAuthoritySid</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_sid">SID</a>. 
 
 
 ## -parameters

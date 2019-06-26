@@ -85,7 +85,7 @@ All miniversions created in a transaction go away when the transaction ends.  Af
 
 <div class="alert"><b>Note</b>    A miniversion is available only to the transacted writer that created the miniversion, not to a transacted reader or non-transacted reader.</div>
 <div> </div>
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff548412">IoGetTransactionParameterBlock</a> routine returns a pointer to this structure. 
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-iogettransactionparameterblock">IoGetTransactionParameterBlock</a> routine returns a pointer to this structure. 
 
 
 
@@ -99,7 +99,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff548412">IoGet
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548412">IoGetTransactionParameterBlock</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-iogettransactionparameterblock">IoGetTransactionParameterBlock</a>
 
 
 

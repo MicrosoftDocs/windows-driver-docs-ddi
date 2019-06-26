@@ -64,7 +64,7 @@ The <b>PEP_PPM_PERF_CHECK_COMPLETE</b> structure is used to inform the PEP of de
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt186771">PEP_NOTIFY_PPM_PERF_CHECK_COMPLETE notification</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">PEP_NOTIFY_PPM_PERF_CHECK_COMPLETE notification</a>
  
 
  

@@ -46,7 +46,7 @@ req.typenames: PEP_ACPI_REQUEST_CONVERT_TO_BIOS_RESOURCES, *PPEP_ACPI_REQUEST_CO
 ## -description
 
 
-The <b>PEP_ACPI_REQUEST_CONVERT_TO_BIOS_RESOURCES</b> structure is used in the process of converting ACPI resources to BIOS resources by one of the <a href="https://msdn.microsoft.com/1FBF406C-22C7-4D46-840C-9966C3515B63">PEP initialization functions</a>.
+The <b>PEP_ACPI_REQUEST_CONVERT_TO_BIOS_RESOURCES</b> structure is used in the process of converting ACPI resources to BIOS resources by one of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">PEP initialization functions</a>.
 
 
 ## -struct-fields
@@ -61,7 +61,7 @@ The result code from the resource translation call.
 
 ### -field InputBuffer
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/mt186691">PEP_ACPI_RESOURCE</a> containing the input buffer.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/ns-pepfx-_pep_acpi_resource">PEP_ACPI_RESOURCE</a> containing the input buffer.
 
 
 ### -field InputBufferSize
@@ -81,7 +81,7 @@ The size of the output buffer.
 
 ### -field Flags
 
-The value contained in the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186692">PEP_ACPI_RESOURCE_FLAGS</a> structure.
+The value contained in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/ns-pepfx-_pep_acpi_resource_flags">PEP_ACPI_RESOURCE_FLAGS</a> structure.
 
 
 ## -see-also
@@ -89,15 +89,15 @@ The value contained in the <a href="https://msdn.microsoft.com/library/windows/h
 
 
 
-<a href="https://msdn.microsoft.com/1FBF406C-22C7-4D46-840C-9966C3515B63">PEP initialization functions</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">PEP initialization functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt186691">PEP_ACPI_RESOURCE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/ns-pepfx-_pep_acpi_resource">PEP_ACPI_RESOURCE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt186692">PEP_ACPI_RESOURCE_FLAGS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/ns-pepfx-_pep_acpi_resource_flags">PEP_ACPI_RESOURCE_FLAGS</a>
  
 
  

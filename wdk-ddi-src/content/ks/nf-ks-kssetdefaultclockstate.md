@@ -47,7 +47,7 @@ req.typenames:
 ## -description
 
 
-The <b>KsSetDefaultClockState</b> function sets the current state of the clock that is used to reflect the current state of the underlying filter pin. The owner of the default clock is expected to serialize access to this function and to call <a href="https://msdn.microsoft.com/library/windows/hardware/ff566827">KsSetDefaultClockTime</a>.
+The <b>KsSetDefaultClockState</b> function sets the current state of the clock that is used to reflect the current state of the underlying filter pin. The owner of the default clock is expected to serialize access to this function and to call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-kssetdefaultclocktime">KsSetDefaultClockTime</a>.
 
 The function can be called at DISPATCH_LEVEL.
 
@@ -81,7 +81,7 @@ None
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562612">KsGetDefaultClockState</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksgetdefaultclockstate">KsGetDefaultClockState</a>
  
 
  

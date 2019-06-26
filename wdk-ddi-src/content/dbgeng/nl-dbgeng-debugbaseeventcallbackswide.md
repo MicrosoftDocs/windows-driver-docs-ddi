@@ -47,12 +47,12 @@ req.typenames:
 
 
 The <b>DebugBaseEventCallbacksWide</b> class provides a base implementation
-of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550563">IDebugEventCallbacksWide</a> interface.  
+of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugeventcallbackswide">IDebugEventCallbacksWide</a> interface.  
 
 A program can derive an event callbacks class from <b>DebugBaseEventCallbacksWide</b> and implement
 only the methods needed. 
 
-Be careful to implement <a href="https://msdn.microsoft.com/b1e62ae3-4a3d-42db-b7fe-87d1a7e0b438">GetInterestMask</a> appropriately.
+Be careful to implement <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugeventcallbackswide-getinterestmask">GetInterestMask</a> appropriately.
 
 
 ## -see-also
@@ -60,11 +60,11 @@ Be careful to implement <a href="https://msdn.microsoft.com/b1e62ae3-4a3d-42db-b
 
 
 
-<a href="https://msdn.microsoft.com/b1e62ae3-4a3d-42db-b7fe-87d1a7e0b438">GetInterestMask</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugeventcallbackswide-getinterestmask">GetInterestMask</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550563">IDebugEventCallbacksWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugeventcallbackswide">IDebugEventCallbacksWide</a>
  
 
  

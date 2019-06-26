@@ -135,13 +135,13 @@ The driver MUST keep that handle’s “Received” queue at zero length by purg
 
 </li>
 <li>
-The driver MUST complete all pended <a href="https://msdn.microsoft.com/library/windows/hardware/jj853319">IOCTL_NFP_GET_NEXT_SUBSCRIBED_MESSAGE</a>  requests on that handle with STATUS_CANCELLED.
+The driver MUST complete all pended <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/nfpdev/ni-nfpdev-ioctl_nfp_get_next_subscribed_message">IOCTL_NFP_GET_NEXT_SUBSCRIBED_MESSAGE</a>  requests on that handle with STATUS_CANCELLED.
 
 </li>
 </ul>
 </li>
 <li>
-	If a publication handle is “Disabled”, the provider MUST NOT transmit the publication’s message and it MUST complete all pended <a href="https://msdn.microsoft.com/library/windows/hardware/jj853320">IOCTL_NFP_GET_NEXT_TRANSMITTED_MESSAGE</a> requests on that handle with STATUS_CANCELLED
+	If a publication handle is “Disabled”, the provider MUST NOT transmit the publication’s message and it MUST complete all pended <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/nfpdev/ni-nfpdev-ioctl_nfp_get_next_transmitted_message">IOCTL_NFP_GET_NEXT_TRANSMITTED_MESSAGE</a> requests on that handle with STATUS_CANCELLED
 
 </li>
 </ul>
@@ -155,7 +155,7 @@ The driver MUST complete all pended <a href="https://msdn.microsoft.com/library/
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj853316">IOCTL_NFP_ENABLE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/nfpdev/ni-nfpdev-ioctl_nfp_enable">IOCTL_NFP_ENABLE</a>
 
 
 
@@ -163,7 +163,7 @@ The driver MUST complete all pended <a href="https://msdn.microsoft.com/library/
 
 
 
-<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfp-design-guide">Near field proximity design guide (Tap and Do, NFP provider model, driver requirements)</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/nfc/nfp-design-guide">Near field proximity design guide (Tap and Do, NFP provider model, driver requirements)</a>
  
 
  

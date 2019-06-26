@@ -46,7 +46,7 @@ req.typenames: WIA_PATCH_CODES
 ## -description
 
 
-The <b>WIA_PATCH_CODES</b> structure stores header information for the patch code metadata report of one scan job (one call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff543956">IWiaMiniDrv::drvAcquireItemData</a>).
+The <b>WIA_PATCH_CODES</b> structure stores header information for the patch code metadata report of one scan job (one call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvacquireitemdata">IWiaMiniDrv::drvAcquireItemData</a>).
 
 
 ## -struct-fields
@@ -66,17 +66,17 @@ Must be the value 0x00010000 (Version 1.0).
 
 ### -field Size
 
-The complete size of this <b>WIA_PATCH_CODES</b> header structure, in bytes, including the complete size of the <a href="https://msdn.microsoft.com/476C9269-7A88-4D06-80E8-C80E5F29B6CF">WIA_PATCH_CODES_INFO</a> list.
+The complete size of this <b>WIA_PATCH_CODES</b> header structure, in bytes, including the complete size of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiadef/ns-wiadef-_wia_patch_code_info">WIA_PATCH_CODES_INFO</a> list.
 
 
 ### -field Count
 
-Specifies the number of <a href="https://msdn.microsoft.com/476C9269-7A88-4D06-80E8-C80E5F29B6CF">WIA_PATCH_CODES_INFO</a> elements in the PatchCodes sequence.
+Specifies the number of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiadef/ns-wiadef-_wia_patch_code_info">WIA_PATCH_CODES_INFO</a> elements in the PatchCodes sequence.
 
 
 ### -field PatchCodes
 
-Placeholder for a sequence of <b>Count</b> contiguous <a href="https://msdn.microsoft.com/476C9269-7A88-4D06-80E8-C80E5F29B6CF">WIA_PATCH_CODES_INFO</a> structures.
+Placeholder for a sequence of <b>Count</b> contiguous <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiadef/ns-wiadef-_wia_patch_code_info">WIA_PATCH_CODES_INFO</a> structures.
 
 
 ## -remarks

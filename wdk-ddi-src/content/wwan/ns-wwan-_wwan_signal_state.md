@@ -302,7 +302,7 @@ This member points to a list of [**WWAN_SIGNAL_STATE_EXT**](../wwan/ns-wwan-_wwa
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567931">NDIS_WWAN_SIGNAL_STATE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndiswwan/ns-ndiswwan-_ndis_wwan_signal_state">NDIS_WWAN_SIGNAL_STATE</a>
  
 
  

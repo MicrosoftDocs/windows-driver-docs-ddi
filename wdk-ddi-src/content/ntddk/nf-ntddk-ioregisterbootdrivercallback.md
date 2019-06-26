@@ -68,7 +68,7 @@ A driver-defined context to be passed to the <b>[**BOOT_DRIVER_CALLBACK_FUNCTION
 
 
 
-A handle that represents the registration. This handle must be supplied as an input parameter in the call to the  <a href="https://msdn.microsoft.com/library/windows/hardware/hh439394">IoUnRegisterBootDriverCallback</a> routine that unregisters the <b>[**BOOT_DRIVER_CALLBACK_FUNCTION**](nc-ntddk-boot_driver_callback_function.md)</b> routine.
+A handle that represents the registration. This handle must be supplied as an input parameter in the call to the  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-iounregisterbootdrivercallback">IoUnRegisterBootDriverCallback</a> routine that unregisters the <b>[**BOOT_DRIVER_CALLBACK_FUNCTION**](nc-ntddk-boot_driver_callback_function.md)</b> routine.
 
 
 
@@ -77,7 +77,7 @@ A handle that represents the registration. This handle must be supplied as an in
 
 
 
-Boot-start drivers must call <a href="https://msdn.microsoft.com/library/windows/hardware/hh439394">IoUnRegisterBootDriverCallback</a> and pass the returned handle to unregister the boot-start driver callback before Windows unloads them.
+Boot-start drivers must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-iounregisterbootdrivercallback">IoUnRegisterBootDriverCallback</a> and pass the returned handle to unregister the boot-start driver callback before Windows unloads them.
 
 
 Any error returned from a status update callback is treated as fatal and leads to a system bug check. Additionally, if an initialize image callback returns an error, the driver's image is treated as unknown.
@@ -91,15 +91,15 @@ To be notified of boot-start driver initialization operations, an <i>early launc
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406352">BDCB_CALLBACK_TYPE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ne-ntddk-_bdcb_callback_type">BDCB_CALLBACK_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406359">BDCB_IMAGE_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_bdcb_image_information">BDCB_IMAGE_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439394">IoUnRegisterBootDriverCallback</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-iounregisterbootdrivercallback">IoUnRegisterBootDriverCallback</a>
  
 
  

@@ -58,7 +58,7 @@ The <b>GetPebAddress</b> function returns the address of the process environment
 
 Specifies an operating system thread whose PEB's address will be returned.
 
-In kernel-mode debugging, this is the location of the KTHREAD structure, which is returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff545889">GetCurrentThreadAddr</a>.  If <i>CurrentThread</i> is <b>NULL</b>, the PEB for the current process is returned.
+In kernel-mode debugging, this is the location of the KTHREAD structure, which is returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdbgexts/nf-wdbgexts-getcurrentthreadaddr">GetCurrentThreadAddr</a>.  If <i>CurrentThread</i> is <b>NULL</b>, the PEB for the current process is returned.
 
 In user-mode debugging, <i>CurrentThread</i> is ignored.
 
@@ -93,11 +93,11 @@ In kernel-mode debugging, if <i>CurrentThread</i> is <b>NULL</b>, the PEB for th
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545889">GetCurrentThreadAddr</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdbgexts/nf-wdbgexts-getcurrentthreadaddr">GetCurrentThreadAddr</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549267">GetTebAddress</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdbgexts/nf-wdbgexts-gettebaddress">GetTebAddress</a>
  
 
  

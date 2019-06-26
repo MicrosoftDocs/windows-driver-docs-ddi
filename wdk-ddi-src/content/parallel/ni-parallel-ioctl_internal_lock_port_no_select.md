@@ -55,7 +55,7 @@ The <b>IOCTL_INTERNAL_LOCK_PORT_NO_SELECT</b> request allocates the parallel dev
 
 This request is only supported in Windows XP and later.
 
-For more information, see <a href="https://msdn.microsoft.com/dbfa962e-9de8-4a9c-b962-24b53c41f35d">Locking and Unlocking a ParallelPort for Use by a Parallel Device</a>.
+For more information, see <a href="https://docs.microsoft.com/previous-versions/ff544195(v=vs.85)">Locking and Unlocking a ParallelPort for Use by a Parallel Device</a>.
 
 
 ## -ioctlparameters

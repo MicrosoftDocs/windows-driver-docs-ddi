@@ -51,11 +51,11 @@ The **PoFxRegisterPlugin** routine registers a platform extension plug-in (PEP) 
 
 ### -param PepInformation [in]
 
-A pointer to a [PEP_INFORMATION](https://msdn.microsoft.com/library/windows/hardware/mt186745) structure.
+A pointer to a [PEP_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/ns-pepfx-_pep_information) structure.
 
 ### -param KernelInformation [in, out]
 
-A pointer to a [PEP_KERNEL_INFORMATION_STRUCT_V3](https://msdn.microsoft.com/library/windows/hardware/mt186747) structure.
+A pointer to a [PEP_KERNEL_INFORMATION_STRUCT_V3](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/ns-pepfx-_pep_kernel_information_struct_v3) structure.
 
 ## -returns
 
@@ -73,14 +73,14 @@ A PEP calls this routine to register itself with PoFx.
 
 A PEP cannot unregister, and cannot register twice. If the PEP must be serviced, the operating system must restart.
 
-The [PoFxRegisterPluginEx](https://msdn.microsoft.com/library/windows/hardware/mt186874) routine is similar to **PoFxRegisterPlugin**, except that it takes an additional parameter, *Flags*.
+The [PoFxRegisterPluginEx](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/nf-pepfx-pofxregisterpluginex) routine is similar to **PoFxRegisterPlugin**, except that it takes an additional parameter, *Flags*.
 
 The PEP must call **PoFxRegisterPlugin** at IRQL = PASSIVE_LEVEL.
 
 ## -see-also
 
-[PEP_INFORMATION](https://msdn.microsoft.com/library/windows/hardware/mt186745)
+[PEP_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/ns-pepfx-_pep_information)
 
-[PEP_KERNEL_INFORMATION_STRUCT_V3](https://msdn.microsoft.com/library/windows/hardware/mt186747)
+[PEP_KERNEL_INFORMATION_STRUCT_V3](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/ns-pepfx-_pep_kernel_information_struct_v3)
 
-[PoFxRegisterPluginEx](https://msdn.microsoft.com/library/windows/hardware/mt186874)
+[PoFxRegisterPluginEx](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/nf-pepfx-pofxregisterpluginex)

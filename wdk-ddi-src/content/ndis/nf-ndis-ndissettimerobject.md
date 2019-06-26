@@ -60,7 +60,7 @@ The
 ### -param TimerObject [in]
 
 A handle to a timer object that NDIS provides when a driver calls the 
-     <a href="https://msdn.microsoft.com/feb5e4cf-7e23-434e-9dc5-bb445a6f5606">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisallocatetimerobject">
      NdisAllocateTimerObject</a> function.
 
 
@@ -86,7 +86,7 @@ The periodic time interval, in milliseconds, that elapses between each time the 
 A pointer to a caller-supplied context area that NDIS passes to the associated 
      <i>NetTimerCallback</i> function when a timer fires. If this parameter is <b>NULL</b>, NDIS uses the default
      value that is specified in the 
-     <a href="https://msdn.microsoft.com/9a62e94c-f635-4ab7-b439-b98c60ba2854">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_timer_characteristics">
      NDIS_TIMER_CHARACTERISTICS</a> structure.
 
 
@@ -108,7 +108,7 @@ After a driver calls
     <b>NdisSetTimerObject</b>, the timer object is queued until the interval that is specified in the 
     <i>DueTime</i> parameter expires. After the interval expires, the timer object is dequeued and the
     caller-supplied 
-    <a href="https://msdn.microsoft.com/76e59376-58a4-4e35-bac4-ec5938c88cd7">NetTimerCallback</a> function is run once
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-ndis_timer_function">NetTimerCallback</a> function is run once
     at IRQL = DISPATCH_LEVEL as soon as a processor becomes available.
 
 If a nonzero value is specified in the 
@@ -120,15 +120,15 @@ If a nonzero value is specified in the
     available.
 
 <div class="alert"><b>Note</b>  Starting with Windows 7, you can reduce power consumption by calling 
-    <a href="https://msdn.microsoft.com/f6f50bba-cda5-41ed-9e0b-1aea5113a22b">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndissetcoalescabletimerobject">
     NdisSetCoalescableTimerObject</a> instead of 
     <b>NdisSetTimerObject</b> if exact timer precision is not required.</div>
 <div> </div>
 For more information about timer behavior, see 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff553292">KeSetTimerEx</a>.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kesettimerex">KeSetTimerEx</a>.
 
 To cancel a timer, call the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561624">NdisCancelTimerObject</a> function.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndiscanceltimerobject">NdisCancelTimerObject</a> function.
 
 
 
@@ -138,28 +138,28 @@ To cancel a timer, call the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553292">KeSetTimerEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kesettimerex">KeSetTimerEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567886">NDIS_TIMER_CHARACTERISTICS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_timer_characteristics">NDIS_TIMER_CHARACTERISTICS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561618">NdisAllocateTimerObject</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisallocatetimerobject">NdisAllocateTimerObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561624">NdisCancelTimerObject</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndiscanceltimerobject">NdisCancelTimerObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/f6f50bba-cda5-41ed-9e0b-1aea5113a22b">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndissetcoalescabletimerobject">
    NdisSetCoalescableTimerObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/76e59376-58a4-4e35-bac4-ec5938c88cd7">NetTimerCallback</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-ndis_timer_function">NetTimerCallback</a>
  
 
  

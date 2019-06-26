@@ -86,14 +86,14 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 You use the <b>GetRelations</b> method to retrieve related 
-instances of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439367">IWDTFTarget2</a> interface. 
+instances of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nn-wdtf-iwdtftarget2">IWDTFTarget2</a> interface. 
 You specify the desired targets by a relation 
-<a href="https://msdn.microsoft.com/84c2a1d6-6bec-4aeb-b858-c29f50d74390">SDEL</a> statement.
+<a href="https://docs.microsoft.com/windows-hardware/drivers/wdtf/simple-data-evaluation-language-overview">SDEL</a> statement.
 Typically, an SDEL statement can contain attribute tokens, comparison operators, 
 and value specifiers to perform matches. However, you do not need these items in the 
 <i>RelationSDEL </i>parameter for the <b>GetRelations</b> 
 method to work properly (the <i>MatchSDEL</i> parameter follows the rules for 
-the <a href="https://msdn.microsoft.com/468cb35d-f816-4233-ba07-8dc47b77d442">IWDTFTarget2::Eval</a> method).
+the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nf-wdtf-iwdtftarget2-eval">IWDTFTarget2::Eval</a> method).
 
 The <b>IWDTFTarget2:GetRelations</b> method places every related 
 target that <b>GetRelations</b> finds by the <i>RelationSDEL</i> 
@@ -104,10 +104,10 @@ statement into a new collection.
 parameter string is empty, <b>GetRelations</b> returns the entire collection of 
 targets. This process filters out all of the targets that return VARIANT_FALSE when you provide
 <i>MatchSDEL</i> to the target's 
-<a href="https://msdn.microsoft.com/468cb35d-f816-4233-ba07-8dc47b77d442">IWDTFTarget2::Eval</a> method.
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nf-wdtf-iwdtftarget2-eval">IWDTFTarget2::Eval</a> method.
 
 For more information about using the <b>GetRelations</b> method, 
-see <a href="https://msdn.microsoft.com/84c2a1d6-6bec-4aeb-b858-c29f50d74390">Simple Data Evaluation 
+see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdtf/simple-data-evaluation-language-overview">Simple Data Evaluation 
 Language Overview</a>.
 
 
@@ -118,7 +118,7 @@ Language Overview</a>.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439367">IWDTFTarget2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nn-wdtf-iwdtftarget2">IWDTFTarget2</a>
  
 
  

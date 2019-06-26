@@ -63,7 +63,7 @@ A handle to the display device (graphics context).
 
 pData [in, out]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542880">D3DDDIARG_AUTHENTICATEDCHANNELKEYEXCHANGE</a> structure that describes a buffer that contains the session key, which the  authenticated channel uses. 
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_authenticatedchannelkeyexchange">D3DDDIARG_AUTHENTICATEDCHANNELKEYEXCHANGE</a> structure that describes a buffer that contains the session key, which the  authenticated channel uses. 
 
 
 ## -returns
@@ -75,16 +75,16 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 | **Return code** | **Description** | 
 |:--|:--|
 | **S_OK** | The session key is successfully negotiated. | 
-| **E_OUTOFMEMORY** | [AuthenticatedChannelKeyExchange](https://msdn.microsoft.com/627f9689-1059-4f88-9005-9c7600dad686)  could not allocate the required memory for it to complete. | 
+| **E_OUTOFMEMORY** | [AuthenticatedChannelKeyExchange](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_authenticatedchannelkeyexchange)  could not allocate the required memory for it to complete. | 
 
 
 ## -remarks
 
 
 
-The <b>pData</b> member in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff542880">D3DDDIARG_AUTHENTICATEDCHANNELKEYEXCHANGE</a> structure points to a buffer that contains a secret key that an application previously RSAES-OAEP-encrypted with the public key from the driver's authenticated channel certificate. The actual size of the buffer is 256 bytes. This exchange is identical to how the <a href="https://msdn.microsoft.com/2c138dbd-55ca-4c71-8c8b-b2efd1ca80f2">Output Protection Manager</a> (OPM) key exchange works, except the OPM buffer contains additional data besides the session key. The same certificate that is used for OPM key exchange can be used for the authenticated channel. 
+The <b>pData</b> member in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_authenticatedchannelkeyexchange">D3DDDIARG_AUTHENTICATEDCHANNELKEYEXCHANGE</a> structure points to a buffer that contains a secret key that an application previously RSAES-OAEP-encrypted with the public key from the driver's authenticated channel certificate. The actual size of the buffer is 256 bytes. This exchange is identical to how the <a href="https://docs.microsoft.com/windows-hardware/drivers/display/supporting-output-protection-manager">Output Protection Manager</a> (OPM) key exchange works, except the OPM buffer contains additional data besides the session key. The same certificate that is used for OPM key exchange can be used for the authenticated channel. 
 
-The driver decrypts this secret key and uses the secret key in calls to the driver's <a href="https://msdn.microsoft.com/95485e96-fa4f-4c88-b88b-97b79f507abd">ConfigureAuthenticatedChannel</a> and <a href="https://msdn.microsoft.com/13b65b5a-9512-4d67-b629-479bdd74674e">QueryAuthenticatedChannel</a> functions to calculate One-key Cipher Block Chaining (CBC)-mode message authentication codes (OMACs). 
+The driver decrypts this secret key and uses the secret key in calls to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_configureauthenicatedchannel">ConfigureAuthenticatedChannel</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_queryauthenticatedchannel">QueryAuthenticatedChannel</a> functions to calculate One-key Cipher Block Chaining (CBC)-mode message authentication codes (OMACs). 
 
 
 
@@ -94,7 +94,7 @@ The driver decrypts this secret key and uses the secret key in calls to the driv
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542880">D3DDDIARG_AUTHENTICATEDCHANNELKEYEXCHANGE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_authenticatedchannelkeyexchange">D3DDDIARG_AUTHENTICATEDCHANNELKEYEXCHANGE</a>
  
 
  

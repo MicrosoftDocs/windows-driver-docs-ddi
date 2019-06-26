@@ -46,7 +46,7 @@ req.typenames: TRACK_DATA, *PTRACK_DATA
 ## -description
 
 
-Track descriptor is used in conjunction with <a href="https://msdn.microsoft.com/library/windows/hardware/ff551373">CDROM_TOC</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff551389">CDROM_TOC_SESSION_DATA</a>. 
+Track descriptor is used in conjunction with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdrm/ns-ntddcdrm-_cdrom_toc">CDROM_TOC</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdrm/ns-ntddcdrm-_cdrom_toc_session_data">CDROM_TOC_SESSION_DATA</a>. 
 
 
 ## -struct-fields
@@ -98,11 +98,11 @@ This structure contains table of contents information for a track.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551373">CDROM_TOC</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdrm/ns-ntddcdrm-_cdrom_toc">CDROM_TOC</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551389">CDROM_TOC_SESSION_DATA</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdrm/ns-ntddcdrm-_cdrom_toc_session_data">CDROM_TOC_SESSION_DATA</a>
  
 
  

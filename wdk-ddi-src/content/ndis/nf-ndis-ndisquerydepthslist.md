@@ -59,7 +59,7 @@ The
 ### -param SListHead [in]
 
 A pointer to the head of the S-List to be queried, which the caller already initialized with 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff562739">NdisInitializeSListHead</a>.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisinitializeslisthead">NdisInitializeSListHead</a>.
 
 
 ## -see-also
@@ -67,15 +67,15 @@ A pointer to the head of the S-List to be queried, which the caller already init
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562739">NdisInitializeSListHead</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisinitializeslisthead">NdisInitializeSListHead</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562760">NdisInterlockedPopEntrySList</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisinterlockedpopentryslist">NdisInterlockedPopEntrySList</a>
 
 
 
-<a href="https://msdn.microsoft.com/155604e9-45f6-4dd2-9373-90f689713c1a">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisinterlockedpushentryslist">
    NdisInterlockedPushEntrySList</a>
  
 

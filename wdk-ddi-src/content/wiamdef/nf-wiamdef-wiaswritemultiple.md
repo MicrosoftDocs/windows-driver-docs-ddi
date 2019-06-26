@@ -97,7 +97,7 @@ This function operates in a similar manner to <b>IPropertyStorage::WriteMultiple
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549300">wiasReadMultiple</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiasreadmultiple">wiasReadMultiple</a>
  
 
  

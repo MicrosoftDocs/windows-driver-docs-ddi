@@ -56,17 +56,17 @@ The D3DDDI_GAMMA_RAMP_DXGI_1 structure describes a gamma function.
 
 ### -field Scale
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff544533">D3DDDI_DXGI_RGB</a> structure that holds the scale for the gamma function.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dukmdt/ns-d3dukmdt-d3dddi_dxgi_rgb">D3DDDI_DXGI_RGB</a> structure that holds the scale for the gamma function.
 
 
 ### -field Offset
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff544533">D3DDDI_DXGI_RGB</a> structure that holds the offset for the gamma function.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dukmdt/ns-d3dukmdt-d3dddi_dxgi_rgb">D3DDDI_DXGI_RGB</a> structure that holds the offset for the gamma function.
 
 
 ### -field GammaCurve
 
-An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff544533">D3DDDI_DXGI_RGB</a> structures that describe the curve of the gamma function.
+An array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dukmdt/ns-d3dukmdt-d3dddi_dxgi_rgb">D3DDDI_DXGI_RGB</a> structures that describe the curve of the gamma function.
 
 
 ## -see-also
@@ -74,7 +74,7 @@ An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff54453
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544533">D3DDDI_DXGI_RGB</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dukmdt/ns-d3dukmdt-d3dddi_dxgi_rgb">D3DDDI_DXGI_RGB</a>
  
 
  

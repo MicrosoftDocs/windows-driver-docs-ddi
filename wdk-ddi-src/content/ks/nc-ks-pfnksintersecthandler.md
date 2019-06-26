@@ -129,7 +129,7 @@ If there is no intersection.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563496">KsPinDataIntersection</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-kspindataintersection">KsPinDataIntersection</a>
  
 
  

@@ -58,12 +58,12 @@ req.typenames:
 
 ### -param PortControllerObject [in]
 
-Handle to the port controller object that the client driver received in the previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/mt805844">UcmTcpciPortControllerCreate</a>.
+Handle to the port controller object that the client driver received in the previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucmtcpciportcontroller/nf-ucmtcpciportcontroller-ucmtcpciportcontrollercreate">UcmTcpciPortControllerCreate</a>.
 
 
 ### -param AlertData
 
-A pointer to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/mt805898">UCMTCPCI_PORT_CONTROLLER_ALERT_DATA</a> that contains all current alerts that have not been sent to UcmTcpciCx. This value cannot be NULL.
+A pointer to an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucmtcpciportcontroller/ns-ucmtcpciportcontroller-_ucmtcpci_port_controller_alert_data">UCMTCPCI_PORT_CONTROLLER_ALERT_DATA</a> that contains all current alerts that have not been sent to UcmTcpciCx. This value cannot be NULL.
 
 
 ### -param NumberOfAlerts
@@ -76,7 +76,7 @@ The number of items in the array pointed to by <i>AlertData</i>. This value cann
 
 
 
-(NTSTATUS) The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method may return an appropriate <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> error code.
+(NTSTATUS) The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method may return an appropriate <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> error code.
                     
 
 
@@ -86,11 +86,11 @@ The number of items in the array pointed to by <i>AlertData</i>. This value cann
 
 
 
-The client driver must call <b>UcmTcpciPortControllerAlert</b> that has been previously started by calling <a href="https://msdn.microsoft.com/library/windows/hardware/mt805846">UcmTcpciPortControllerStart</a>.
+The client driver must call <b>UcmTcpciPortControllerAlert</b> that has been previously started by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucmtcpciportcontroller/nf-ucmtcpciportcontroller-ucmtcpciportcontrollerstart">UcmTcpciPortControllerStart</a>.
 
 When a hardware alert occurs, the client driver must determine the type of alerts, fetch any auxiliary information associated with that alert, such as a PD message, populate the array, and then call <b>UcmTcpciPortControllerAlert</b>.
 
-The client driver must report the alerts sequentially. The driver must not call this method on threads that are running simultaneously as that can lead to race conditions. Even though the class extension ensures that all internal data is correctly lock-protected, if the driver calls <b>UcmTcpciPortControllerAlert</b> from multiple threads at the same time without any external synchronization, it is not guaranteed that set of received alerts is current. To avoid that scenario, the driver must call this method within the <a href="https://msdn.microsoft.com/d72a15be-772f-4cd4-a304-10981056d735">Interrupt Service Routine</a> (ISR)or a <a href="https://msdn.microsoft.com/962e6b38-afed-4711-a556-ed9cbc139a1a">DPC object</a> that is queued for the ISR. The ISR should be  synchronized correctly to have only one instance running at any given time. 
+The client driver must report the alerts sequentially. The driver must not call this method on threads that are running simultaneously as that can lead to race conditions. Even though the class extension ensures that all internal data is correctly lock-protected, if the driver calls <b>UcmTcpciPortControllerAlert</b> from multiple threads at the same time without any external synchronization, it is not guaranteed that set of received alerts is current. To avoid that scenario, the driver must call this method within the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/interrupt-service-routines">Interrupt Service Routine</a> (ISR)or a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/dpc-objects-and-dpcs">DPC object</a> that is queued for the ISR. The ISR should be  synchronized correctly to have only one instance running at any given time. 
 
 The client driver must assume that the class extension may submit requests before <b>UcmTcpciPortControllerAlert</b> returns, from within this call. 
 
@@ -104,7 +104,7 @@ When handling alerts, UcmTcpciCx may send hardware requests to the client driver
 
 
 
-<a href="https://msdn.microsoft.com/windows/hardware/drivers/wdf/handling-hardware-interrupts">Handling Hardware Interrupts</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/handling-hardware-interrupts">Handling Hardware Interrupts</a>
  
 
  

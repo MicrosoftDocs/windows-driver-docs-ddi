@@ -105,7 +105,7 @@ Note that <b>RxCeTearDownVC</b> will wait for the clean up of connections over o
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553439">RxCeBuildVC</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/rxce/nf-rxce-rxcebuildvc">RxCeBuildVC</a>
  
 
  

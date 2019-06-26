@@ -51,7 +51,7 @@ req.typenames:
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintAsyncNotifyServerReferral</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IPrintAsyncNotifyServerReferral</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintAsyncNotifyServerReferral</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintAsyncNotifyServerReferral</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -66,19 +66,19 @@ The <b>IPrintAsyncNotifyServerReferral</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6B56E7B6-392E-4664-B96E-249B42A0AF5D">AsyncGetServerReferral</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prnasntp/nf-prnasntp-iprintasyncnotifyserverreferral-asyncgetserverreferral">AsyncGetServerReferral</a>
 </td>
 <td align="left" width="63%"></td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/58DD0DA5-CE6A-4C2F-AF7D-B35BCBFB6AFB">GetServerReferral</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prnasntp/nf-prnasntp-iprintasyncnotifyserverreferral-getserverreferral">GetServerReferral</a>
 </td>
 <td align="left" width="63%"></td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6555386C-8589-424A-9640-530B0C625DE2">SetServerReferral</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prnasntp/nf-prnasntp-iprintasyncnotifyserverreferral-setserverreferral">SetServerReferral</a>
 </td>
 <td align="left" width="63%"></td>
 </tr>

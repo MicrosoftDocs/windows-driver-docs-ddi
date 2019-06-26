@@ -55,7 +55,7 @@ req.typenames:
 
 *pData* [in, out]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn906808">D3DKMT_UNREGISTERTRIMNOTIFICATION</a> structure that describes the operation.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_unregistertrimnotification">D3DKMT_UNREGISTERTRIMNOTIFICATION</a> structure that describes the operation.
 
 ## -returns
 
@@ -70,6 +70,6 @@ This function might also return other <b>NTSTATUS</b> values.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn906781">D3DKMTRegisterTrimNotification</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/nf-d3dkmthk-d3dkmtregistertrimnotification">D3DKMTRegisterTrimNotification</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn906808">D3DKMT_UNREGISTERTRIMNOTIFICATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_unregistertrimnotification">D3DKMT_UNREGISTERTRIMNOTIFICATION</a>

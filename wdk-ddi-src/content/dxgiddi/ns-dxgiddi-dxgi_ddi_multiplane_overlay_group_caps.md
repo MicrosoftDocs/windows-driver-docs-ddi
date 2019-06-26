@@ -79,7 +79,7 @@ It's not guaranteed that this shrink factor can be applied in all scenarios. For
 
 ### -field OverlayCaps
 
-The overlay capabilities, given as a bitwise <b>OR</b> of values from the <a href="https://msdn.microsoft.com/library/windows/hardware/hh780286">DXGI_DDI_MULTIPLANE_OVERLAY_FEATURE_CAPS</a> enumeration.
+The overlay capabilities, given as a bitwise <b>OR</b> of values from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxgiddi/ne-dxgiddi-dxgi_ddi_multiplane_overlay_feature_caps">DXGI_DDI_MULTIPLANE_OVERLAY_FEATURE_CAPS</a> enumeration.
 
 
 ### -field StereoCaps

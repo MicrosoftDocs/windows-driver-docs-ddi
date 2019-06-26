@@ -61,14 +61,14 @@ Specifies the number of modes supported by the device.
 
 ### -field ModeInformationLength
 
-Is the length, in bytes, of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff570521">VIDEO_MODE_INFORMATION</a> structure that describes each of the modes supported by the device.
+Is the length, in bytes, of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddvdeo/ns-ntddvdeo-_video_mode_information">VIDEO_MODE_INFORMATION</a> structure that describes each of the modes supported by the device.
 
 
 ## -remarks
 
 
 
-The miniport driver returns a VIDEO_NUM_MODES structure in response to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff567824">IOCTL_VIDEO_QUERY_NUM_AVAIL_MODES</a> request.
+The miniport driver returns a VIDEO_NUM_MODES structure in response to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddvdeo/ni-ntddvdeo-ioctl_video_query_num_avail_modes">IOCTL_VIDEO_QUERY_NUM_AVAIL_MODES</a> request.
 
 
 
@@ -78,11 +78,11 @@ The miniport driver returns a VIDEO_NUM_MODES structure in response to an <a hre
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567824">IOCTL_VIDEO_QUERY_NUM_AVAIL_MODES</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddvdeo/ni-ntddvdeo-ioctl_video_query_num_avail_modes">IOCTL_VIDEO_QUERY_NUM_AVAIL_MODES</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570521">VIDEO_MODE_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddvdeo/ns-ntddvdeo-_video_mode_information">VIDEO_MODE_INFORMATION</a>
  
 
  

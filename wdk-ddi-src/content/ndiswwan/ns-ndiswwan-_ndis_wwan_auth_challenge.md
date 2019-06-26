@@ -102,12 +102,12 @@ sizeof(NDIS_WWAN_AUTH_CHALLENGE)
  
 
 For more information about these members, see 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field AuthChallenge
 
-A formatted <a href="https://msdn.microsoft.com/library/windows/hardware/hh464127">WWAN_AUTH_CHALLENGE</a> object that represents the challenge posed by one of the authentication methods.
+A formatted <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_auth_challenge">WWAN_AUTH_CHALLENGE</a> object that represents the challenge posed by one of the authentication methods.
 
 
 ## -see-also
@@ -115,7 +115,7 @@ A formatted <a href="https://msdn.microsoft.com/library/windows/hardware/hh46412
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh464127">WWAN_AUTH_CHALLENGE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_auth_challenge">WWAN_AUTH_CHALLENGE</a>
  
 
  

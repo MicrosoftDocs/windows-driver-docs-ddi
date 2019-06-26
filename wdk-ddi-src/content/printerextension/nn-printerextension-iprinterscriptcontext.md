@@ -59,7 +59,7 @@ Passed to all third-party constraints JavaScript functions, and provides access 
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh973203">DriverProperties</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nf-printerextension-iprinterextensioncontext-get_driverproperties">DriverProperties</a>
 
 
 </td>
@@ -75,7 +75,7 @@ Provides access to the driver property bag, if the property bag is present.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh973220">QueueProperties</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nf-printerextension-iprinterscriptcontext-get_queueproperties">QueueProperties</a>
 
 
 </td>
@@ -91,7 +91,7 @@ Provides access to the queue property bag, if the property bag is present.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh973206">UserProperties</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nf-printerextension-iprinterextensioncontext-get_userproperties">UserProperties</a>
 
 
 </td>
@@ -112,7 +112,7 @@ Provides access to the user property bag, if the property bag is present.
 
 
 
-<a href="https://msdn.microsoft.com/4E20303A-BEB3-4928-BA5A-356D978FA2BE">V4 Printer Driver Property Bags</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/print/v4-driver-property-bags">V4 Printer Driver Property Bags</a>
  
 
  

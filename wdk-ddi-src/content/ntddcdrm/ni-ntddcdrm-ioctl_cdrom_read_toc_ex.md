@@ -59,7 +59,7 @@ Queries the target device for the table of contents (TOC), the program memory ar
 
 ### -input-buffer
 
-<b>Irp->AssociatedIrp.SystemBuffer</b> points to a buffer of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff551366">CDROM_READ_TOC_EX</a> whose contents indicate what information should be retrieved from the target device. 
+<b>Irp->AssociatedIrp.SystemBuffer</b> points to a buffer of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdrm/ns-ntddcdrm-_cdrom_read_toc_ex">CDROM_READ_TOC_EX</a> whose contents indicate what information should be retrieved from the target device. 
 
 <b>Parameters.Read.Length</b> in the I/O stack location indicates the size, in bytes, of the information to be retrieved from the target device. 
 
@@ -107,7 +107,7 @@ The <b>Information</b> field is set to the number of bytes returned. The <b>Stat
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551366">CDROM_READ_TOC_EX</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdrm/ns-ntddcdrm-_cdrom_read_toc_ex">CDROM_READ_TOC_EX</a>
  
 
  

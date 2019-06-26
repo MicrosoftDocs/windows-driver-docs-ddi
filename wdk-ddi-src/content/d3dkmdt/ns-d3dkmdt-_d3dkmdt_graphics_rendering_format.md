@@ -89,7 +89,7 @@ A value from the D3DKMDT_PIXEL_VALUE_ACCESS_MODE enumeration that indicates the 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544312">D3DDDIFORMAT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dukmdt/ne-d3dukmdt-_d3dddiformat">D3DDDIFORMAT</a>
  
 
  

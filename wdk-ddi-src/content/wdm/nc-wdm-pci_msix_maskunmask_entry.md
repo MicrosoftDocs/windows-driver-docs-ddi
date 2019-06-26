@@ -56,7 +56,7 @@ The <i>MaskTableEntry</i> routine masks an interrupt in the MSI-X hardware inter
 
 ### -param Context [in]
 
-A pointer to interface-specific context information. The caller passes the value that is passed as the <b>Context</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558787">PCI_MSIX_TABLE_CONFIG_INTERFACE</a> structure for the interface.
+A pointer to interface-specific context information. The caller passes the value that is passed as the <b>Context</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_pci_msix_table_config_interface">PCI_MSIX_TABLE_CONFIG_INTERFACE</a> structure for the interface.
 
 
 ### -param TableEntry [in]
@@ -109,7 +109,7 @@ The <i>TableEntry</i> parameter is invalid.
 
 If a table entry is masked, the device does not generate any interrupts that correspond to that table entry.
 
-You can unmask the table entry by calling <a href="https://msdn.microsoft.com/library/windows/hardware/gg604859">UnmaskTableEntry</a>.
+You can unmask the table entry by calling <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/gg604859(v=vs.85)">UnmaskTableEntry</a>.
 
 
 
@@ -119,11 +119,11 @@ You can unmask the table entry by calling <a href="https://msdn.microsoft.com/li
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558787">PCI_MSIX_TABLE_CONFIG_INTERFACE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_pci_msix_table_config_interface">PCI_MSIX_TABLE_CONFIG_INTERFACE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/gg604859">UnmaskTableEntry</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/gg604859(v=vs.85)">UnmaskTableEntry</a>
  
 
  

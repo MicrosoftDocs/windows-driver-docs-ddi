@@ -104,7 +104,7 @@ The method was successful.
 </table>
  
 
-This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+This method can also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 
 
@@ -115,7 +115,7 @@ This method can also return error values.  See <a href="https://msdn.microsoft.c
 
 This method is only available in kernel-mode debugging.
 
-For more information about bug checks, including a list of bug check codes and their interpretations, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh450912">Bug Checks (Blue Screens)</a>.
+For more information about bug checks, including a list of bug check codes and their interpretations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/bug-checks--blue-screens-">Bug Checks (Blue Screens)</a>.
 
 
 

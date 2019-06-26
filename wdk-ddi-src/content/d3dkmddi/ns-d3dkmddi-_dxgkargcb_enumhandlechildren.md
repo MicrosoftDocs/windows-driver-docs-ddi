@@ -69,7 +69,7 @@ The DXGKARGCB_ENUMHANDLECHILDREN structure describes a parent resource and the i
 
 
 
-<a href="https://msdn.microsoft.com/36307e63-9e94-4441-92c6-fd4293ea8fa9">DxgkCbEnumHandleChildren</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkcb_enumhandlechildren">DxgkCbEnumHandleChildren</a>
  
 
  

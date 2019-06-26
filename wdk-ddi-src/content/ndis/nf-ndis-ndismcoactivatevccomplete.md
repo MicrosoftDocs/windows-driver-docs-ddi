@@ -69,14 +69,14 @@ Specifies the final status of the activate-VC operation, which can be NDIS_STATU
 Specifies the handle identifying the VC. The caller obtained this handle from its per-VC state,
      designated by the 
      <i>MiniportVcContext</i> passed as an input parameter to its 
-     <a href="https://msdn.microsoft.com/243a1236-4b8a-4f00-9f14-3142fa81c362">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_co_activate_vc">
      MiniportCoActivateVc</a> function.
 
 
 ### -param CallParameters [in]
 
 Pointer to a structure of type 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>, supplied by the call
+     <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff545384(v=vs.85)">CO_CALL_PARAMETERS</a>, supplied by the call
      manager, specifying the call and media parameters for the VC activation.
 
 
@@ -98,7 +98,7 @@ A connection-oriented miniport driver must call
     <i>MiniportCoActivateVc</i> function previously returned NDIS_STATUS_PENDING in response to a request to
     activate or reactivate the VC identified by the given 
     <i>NdisVcHandle</i> . The call manager, which initiated the VC activation with a call to 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561649">NdisCmActivateVc</a>, cannot notify NDIS or
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndiscmactivatevc">NdisCmActivateVc</a>, cannot notify NDIS or
     its client whether transfers on the VC can be made using the supplied call parameters until the miniport
     driver calls 
     <b>NdisMCoActivateVcComplete</b>.
@@ -114,7 +114,7 @@ If the miniport driver finds the CM-supplied call parameters unacceptable, it fa
 
 A call to 
     <b>NdisMCoActivateVcComplete</b> causes NDIS to call the 
-    <a href="https://msdn.microsoft.com/6ec9e73e-8abd-4d27-b598-6176f2125348">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cm_activate_vc_complete">
     ProtocolCmActivateVcComplete</a> function of the call manager that originally requested the VC
     activation.
 
@@ -126,23 +126,23 @@ A call to
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff545384(v=vs.85)">CO_CALL_PARAMETERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/243a1236-4b8a-4f00-9f14-3142fa81c362">MiniportCoActivateVc</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_co_activate_vc">MiniportCoActivateVc</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561649">NdisCmActivateVc</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndiscmactivatevc">NdisCmActivateVc</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561657">NdisCmDeactivateVc</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndiscmdeactivatevc">NdisCmDeactivateVc</a>
 
 
 
-<a href="https://msdn.microsoft.com/6ec9e73e-8abd-4d27-b598-6176f2125348">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cm_activate_vc_complete">
    ProtocolCmActivateVcComplete</a>
  
 

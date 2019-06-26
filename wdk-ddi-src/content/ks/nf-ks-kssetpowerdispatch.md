@@ -86,7 +86,7 @@ None
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567164">KStrContextDispatch</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nc-ks-pfnkscontext_dispatch">KStrContextDispatch</a>
  
 
  

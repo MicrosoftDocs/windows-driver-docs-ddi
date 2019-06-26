@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <b>KeDeregisterBoundCallback</b> routine deregisters a user-mode bound exception callback registered by <a href="https://msdn.microsoft.com/library/windows/hardware/dn957856">KeRegisterBoundCallback</a>.
+The <b>KeDeregisterBoundCallback</b> routine deregisters a user-mode bound exception callback registered by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-keregisterboundcallback">KeRegisterBoundCallback</a>.
 
 
 ## -parameters
@@ -56,7 +56,7 @@ The <b>KeDeregisterBoundCallback</b> routine deregisters a user-mode bound excep
 
 ### -param Handle [in]
 
-Specifies the value returned by <a href="https://msdn.microsoft.com/library/windows/hardware/dn957856">KeRegisterBoundCallback</a> when the callback was registered. 
+Specifies the value returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-keregisterboundcallback">KeRegisterBoundCallback</a> when the callback was registered. 
 
 
 ## -returns
@@ -73,7 +73,7 @@ The <b>KeDeregisterBoundCallback</b> routine returns STATUS_SUCCESS if the callb
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn957856">KeRegisterBoundCallback</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-keregisterboundcallback">KeRegisterBoundCallback</a>
  
 
  

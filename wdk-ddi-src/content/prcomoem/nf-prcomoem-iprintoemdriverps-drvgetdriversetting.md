@@ -56,7 +56,7 @@ The <code>IPrintOemDriverPS::DrvGetDriverSetting</code> method is provided by th
 
 ### -param pdriverobj
 
-Caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547573">DEVOBJ</a> structure.
+Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/ns-printoem-_devobj">DEVOBJ</a> structure.
 
 
 ### -param Feature

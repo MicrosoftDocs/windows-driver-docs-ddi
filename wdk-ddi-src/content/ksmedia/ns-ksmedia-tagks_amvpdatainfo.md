@@ -123,7 +123,7 @@ Reserved for future use. Do not use.
 
 
 
-This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566513">KSPROPERTY_VPCONFIG_VPDATAINFO</a> property.
+This structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-vpconfig-vpdatainfo">KSPROPERTY_VPCONFIG_VPDATAINFO</a> property.
 
 
 
@@ -133,7 +133,7 @@ This structure is used by the <a href="https://msdn.microsoft.com/library/window
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566513">KSPROPERTY_VPCONFIG_VPDATAINFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-vpconfig-vpdatainfo">KSPROPERTY_VPCONFIG_VPDATAINFO</a>
  
 
  

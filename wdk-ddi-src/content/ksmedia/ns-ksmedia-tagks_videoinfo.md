@@ -81,7 +81,7 @@ Specifies the average time per frame in 100-nanosecond units.
 
 ### -field bmiHeader
 
-Describes a <a href="https://msdn.microsoft.com/library/windows/hardware/ff567305">KS_BITMAPINFOHEADER</a> structure that contains color and dimension information about the video image bitmap.
+Describes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-tagks_bitmapinfoheader">KS_BITMAPINFOHEADER</a> structure that contains color and dimension information about the video image bitmap.
 
 
 ### -field bmiColors
@@ -97,7 +97,7 @@ Array of DWORD values that specify true-color bitmasks.
 ### -field TrueColorInfo
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567685">KS_TRUECOLORINFO</a> structure that contains both a color palette and an array of color bitmasks.
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-tag_ks_truecolorinfo">KS_TRUECOLORINFO</a> structure that contains both a color palette and an array of color bitmasks.
 
 
 ## -remarks
@@ -120,15 +120,15 @@ The <b>rcTarget</b> member specifies the destination rectangle for the video. Mo
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567305">KS_BITMAPINFOHEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-tagks_bitmapinfoheader">KS_BITMAPINFOHEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567675">KS_RGBQUAD</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-tagks_rgbquad">KS_RGBQUAD</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567685">KS_TRUECOLORINFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-tag_ks_truecolorinfo">KS_TRUECOLORINFO</a>
  
 
  

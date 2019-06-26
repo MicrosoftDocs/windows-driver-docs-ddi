@@ -46,7 +46,7 @@ req.typenames: GNSS_BREADCRUMBING_PARAM, *PGNSS_BREADCRUMBING_PARAM
 ## -description
 
 
-This structure contains the configuration passed into the start of breadcrumbing via <a href="https://msdn.microsoft.com/library/windows/hardware/mt767993">IOCTL_GNSS_START_BREADCRUMBING</a>.
+This structure contains the configuration passed into the start of breadcrumbing via <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/gnssdriver/ni-gnssdriver-ioctl_gnss_start_breadcrumbing">IOCTL_GNSS_START_BREADCRUMBING</a>.
 
 
 ## -struct-fields

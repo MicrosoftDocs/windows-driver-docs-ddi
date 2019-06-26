@@ -48,7 +48,7 @@ req.typenames:
 
 <p class="CCE_Message">[Applies to KMDF and UMDF]</p>
 
-The <b>WDF_DEVICE_STATE_INIT</b> function initializes a driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff551284">WDF_DEVICE_STATE</a> structure.
+The <b>WDF_DEVICE_STATE_INIT</b> function initializes a driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/ns-wdfdevice-_wdf_device_state">WDF_DEVICE_STATE</a> structure.
 
 
 ## -parameters
@@ -58,7 +58,7 @@ The <b>WDF_DEVICE_STATE_INIT</b> function initializes a driver's <a href="https:
 
 ### -param PnpDeviceState [out]
 
-A pointer to a driver-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff551284">WDF_DEVICE_STATE</a> structure.
+A pointer to a driver-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/ns-wdfdevice-_wdf_device_state">WDF_DEVICE_STATE</a> structure.
 
 
 ## -returns
@@ -74,12 +74,12 @@ None
 
 
 
-The <b>WDF_DEVICE_STATE_INIT</b> function initializes all of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551284">WDF_DEVICE_STATE</a> structure's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552533">WDF_TRI_STATE</a>-typed members to <b>WdfUseDefault</b>.
+The <b>WDF_DEVICE_STATE_INIT</b> function initializes all of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/ns-wdfdevice-_wdf_device_state">WDF_DEVICE_STATE</a> structure's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdftypes/ne-wdftypes-_wdf_tri_state">WDF_TRI_STATE</a>-typed members to <b>WdfUseDefault</b>.
 
 
 #### Examples
 
-For a code example that uses <b>WDF_DEVICE_STATE_INIT</b>, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff546884">WdfDeviceSetDeviceState</a>.
+For a code example that uses <b>WDF_DEVICE_STATE_INIT</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nf-wdfdevice-wdfdevicesetdevicestate">WdfDeviceSetDeviceState</a>.
 
 <div class="code"></div>
 
@@ -90,7 +90,7 @@ For a code example that uses <b>WDF_DEVICE_STATE_INIT</b>, see <a href="https://
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551284">WDF_DEVICE_STATE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/ns-wdfdevice-_wdf_device_state">WDF_DEVICE_STATE</a>
  
 
  

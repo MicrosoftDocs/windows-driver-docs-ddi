@@ -46,9 +46,9 @@ req.typenames:
 ## -description
 
 
-This interface supports event context callbacks and replaces the use of the <a href="https://msdn.microsoft.com/c741777b-dfaf-42b0-9dd7-6678281b6359">IDebugClient::SetEventCallbacks</a> method.
+This interface supports event context callbacks and replaces the use of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient5-seteventcallbacks">IDebugClient::SetEventCallbacks</a> method.
 
-Set this interface on a debugger client by using the <a href="https://msdn.microsoft.com/246573DB-5FEB-4068-8DB8-950F5EDFD1A9">IDebugClient6::SetEventContextCallbacks</a> method.
+Set this interface on a debugger client by using the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient6-seteventcontextcallbacks">IDebugClient6::SetEventContextCallbacks</a> method.
 
 
 ## -see-also
@@ -56,11 +56,11 @@ Set this interface on a debugger client by using the <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/246573DB-5FEB-4068-8DB8-950F5EDFD1A9">IDebugClient6::SetEventContextCallbacks</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient6-seteventcontextcallbacks">IDebugClient6::SetEventContextCallbacks</a>
 
 
 
-<a href="https://msdn.microsoft.com/c741777b-dfaf-42b0-9dd7-6678281b6359">IDebugClient::SetEventCallbacks</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient5-seteventcallbacks">IDebugClient::SetEventCallbacks</a>
  
 
  

@@ -46,7 +46,7 @@ req.typenames: D3DKMT_OUTPUTDUPLPRESENT
 ## -description
 
 
-Describes a <a href="https://msdn.microsoft.com/523FBFAD-5D78-4EE3-A3B7-8FD5BA39DC46">Desktop Duplication API</a> swapchain present operation.
+Describes a <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/desktop-dup-api">Desktop Duplication API</a> swapchain present operation.
 
 
 ## -struct-fields
@@ -81,12 +81,12 @@ The zero-based identification number of a video present source in a path of a vi
 
 ### -field PresentRegions
 
-[in] Dirty and move regions, of type <a href="https://msdn.microsoft.com/library/windows/hardware/hh406550">D3DKMT_PRESENT_RGNS</a>.
+[in] Dirty and move regions, of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_present_rgns">D3DKMT_PRESENT_RGNS</a>.
 
 
 ### -field Flags
 
-[in] A bitwise-OR combination of values from the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406511">D3DKMT_OUTPUTDUPLPRESENTFLAGS</a> enumeration that describe options for the present operation.
+[in] A bitwise-OR combination of values from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_outputduplpresentflags">D3DKMT_OUTPUTDUPLPRESENTFLAGS</a> enumeration that describe options for the present operation.
 
 
 ### -field hIndirectContext
@@ -101,11 +101,11 @@ The indirect adapter context for redirecting through the DoD present path. This 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406511">D3DKMT_OUTPUTDUPLPRESENTFLAGS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_outputduplpresentflags">D3DKMT_OUTPUTDUPLPRESENTFLAGS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406550">D3DKMT_PRESENT_RGNS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_present_rgns">D3DKMT_PRESENT_RGNS</a>
  
 
  

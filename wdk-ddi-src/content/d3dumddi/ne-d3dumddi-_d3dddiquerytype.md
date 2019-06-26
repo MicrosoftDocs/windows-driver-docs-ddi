@@ -41,7 +41,7 @@ The query type.
 
 ### -field D3DDDIQUERYTYPE_VCACHE 
 
-Query at issue end for driver hints about data layout for vertex caching. This query is processed through a call to the driver's <a href="https://msdn.microsoft.com/e31b2b6a-3721-472a-8044-6516a8419ad3">IssueQuery</a> function in which the <b>End</b> bit-field flag is set in the <b>Flags</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543192">D3DDDIARG_ISSUEQUERY</a> structure.
+Query at issue end for driver hints about data layout for vertex caching. This query is processed through a call to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_issuequery">IssueQuery</a> function in which the <b>End</b> bit-field flag is set in the <b>Flags</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_issuequery">D3DDDIARG_ISSUEQUERY</a> structure.
 
 ### -field D3DDDIQUERYTYPE_RESOURCEMANAGER 
 
@@ -63,7 +63,7 @@ Query at issue end for asynchronous events that have occurred.
 
 Query for the number of pixels that pass z-testing. These pixels are for primitives that are drawn between an issue begin and an issue end.
 
-This query is processed between calls to the driver's <a href="https://msdn.microsoft.com/e31b2b6a-3721-472a-8044-6516a8419ad3">IssueQuery</a> function in which first the <b>Begin</b> bit-field flag is set in the <b>Flags</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543192">D3DDDIARG_ISSUEQUERY</a> structure and next the <b>End</b> bit-field flag is set.
+This query is processed between calls to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_issuequery">IssueQuery</a> function in which first the <b>Begin</b> bit-field flag is set in the <b>Flags</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_issuequery">D3DDDIARG_ISSUEQUERY</a> structure and next the <b>End</b> bit-field flag is set.
 
 This query enables an application to check the occlusion result against 0. A value of 0 is "fully occluded," which means the pixels are not visible from the current camera position.
 

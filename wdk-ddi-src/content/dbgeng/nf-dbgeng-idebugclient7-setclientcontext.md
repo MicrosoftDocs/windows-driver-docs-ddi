@@ -78,11 +78,11 @@ The <b>SetClientContext</b> method is reserved for internal use.
 
 
 
-<a href="https://msdn.microsoft.com/69CE0535-3ADD-481C-A016-695A7303BBA5">DEBUG_CLIENT_CONTEXT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/ns-dbgeng-_debug_client_context">DEBUG_CLIENT_CONTEXT</a>
 
 
 
-<a href="https://msdn.microsoft.com/16FBD831-D7AE-4B10-B76E-6CA42C9CABEB">IDebugClient7</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugclient7">IDebugClient7</a>
  
 
  

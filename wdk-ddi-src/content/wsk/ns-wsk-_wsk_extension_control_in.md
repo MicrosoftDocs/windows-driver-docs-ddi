@@ -96,15 +96,15 @@ A WSK application passes a pointer to a WSK_EXTENSION_CONTROL_IN structure to th
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570819">SIO_WSK_REGISTER_EXTENSION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/sio-wsk-register-extension">SIO_WSK_REGISTER_EXTENSION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571168">WSK_EXTENSION_CONTROL_OUT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/ns-wsk-_wsk_extension_control_out">WSK_EXTENSION_CONTROL_OUT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571127">WskControlSocket</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_control_socket">WskControlSocket</a>
  
 
  

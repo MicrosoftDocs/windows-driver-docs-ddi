@@ -133,11 +133,11 @@ A pointer to the client driver's implementation of the  <a href="..\hwnclx\nc-hw
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn789335">Hardware notifications support</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/gpiobtn/hardware-notifications-support">Hardware notifications support</a>
 
 
 
-<a href="https://msdn.microsoft.com/405ff6db-9bc0-42f3-a740-49dd3967a8b3">Hardware notifications reference</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">Hardware notifications reference</a>
 
 
 

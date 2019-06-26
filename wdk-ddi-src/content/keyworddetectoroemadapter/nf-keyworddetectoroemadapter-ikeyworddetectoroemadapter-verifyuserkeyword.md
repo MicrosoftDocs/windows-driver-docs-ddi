@@ -61,7 +61,7 @@ A pointer to an <b>IStream</b> object bound to model data for a given stored mod
 
 ### -param KeywordId [in]
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/dn957510">KEYWORDID</a> in the  <i>UserRecording</i> parameter.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/keyworddetectoroemadapter/ne-keyworddetectoroemadapter-__midl_ikeyworddetectoroemadapter_0002">KEYWORDID</a> in the  <i>UserRecording</i> parameter.
 
 
 ### -param LangId [in]
@@ -76,7 +76,7 @@ Indicates the end of the keyword in the UserRecording.
 
 ### -param UserRecording [in]
 
-A pointer to the buffer containing the raw data in the appropriate <a href="https://msdn.microsoft.com/f1d60bec-71e4-4fcc-a020-92754b6f3c02">IMFMediaType</a> format.
+A pointer to the buffer containing the raw data in the appropriate <a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a> format.
 
 The user recording must have the following attributes:
 
@@ -198,15 +198,15 @@ Note that audio is processed in a unique way for voice activation training. The 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn957504">IKeywordDetectorOemAdapter</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/keyworddetectoroemadapter/nn-keyworddetectoroemadapter-ikeyworddetectoroemadapter">IKeywordDetectorOemAdapter</a>
 
 
 
-<a href="https://msdn.microsoft.com/f1d60bec-71e4-4fcc-a020-92754b6f3c02">IMFMediaType</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype">IMFMediaType</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn957510">KEYWORDID</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/keyworddetectoroemadapter/ne-keyworddetectoroemadapter-__midl_ikeyworddetectoroemadapter_0002">KEYWORDID</a>
  
 
  

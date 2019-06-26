@@ -61,12 +61,12 @@ Pointer to the filter device object of the driver that supplies a callback.
 
 ### -param CurrentInput [in]
 
-Pointer to the input <a href="https://msdn.microsoft.com/library/windows/hardware/ff542337">KEYBOARD_INPUT_DATA</a> structure that is being constructed by the ISR.
+Pointer to the input <a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ns-ntddkbd-_keyboard_input_data">KEYBOARD_INPUT_DATA</a> structure that is being constructed by the ISR.
 
 
 ### -param CurrentOutput [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff543218">OUTPUT_PACKET</a> structure, which specifies an array of bytes that is being written to the hardware device.
+Pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdd8042/ns-ntdd8042-_output_packet">OUTPUT_PACKET</a> structure, which specifies an array of bytes that is being written to the hardware device.
 
 
 ### -param StatusByte [in]
@@ -86,7 +86,7 @@ Specifies, if <b>TRUE</b>, that processing in the I8042prt keyboard ISR will con
 
 ### -param ScanState [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542342">KEYBOARD_SCAN_STATE</a> enumeration value, which identifies the keyboard scan state.
+Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdd8042/ne-ntdd8042-_keyboard_scan_state">KEYBOARD_SCAN_STATE</a> enumeration value, which identifies the keyboard scan state.
 
 
 ## -returns
@@ -116,23 +116,23 @@ The PI8042_KEYBOARD_ISR callback runs in kernel mode at the IRQL of the I8042prt
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542337">KEYBOARD_INPUT_DATA</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntddkbd/ns-ntddkbd-_keyboard_input_data">KEYBOARD_INPUT_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542342">KEYBOARD_SCAN_STATE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdd8042/ne-ntdd8042-_keyboard_scan_state">KEYBOARD_SCAN_STATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/0feca7de-aa80-4d1e-a5fc-901c18169649">KbFilter_IsrHook</a>
+<a href="https://docs.microsoft.com/previous-versions/ff542294(v=vs.85)">KbFilter_IsrHook</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543218">OUTPUT_PACKET</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdd8042/ns-ntdd8042-_output_packet">OUTPUT_PACKET</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543248">PI8042_KEYBOARD_ISR</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdd8042/nc-ntdd8042-pi8042_keyboard_isr">PI8042_KEYBOARD_ISR</a>
  
 
  

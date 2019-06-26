@@ -47,7 +47,7 @@ req.typenames:
 ## -description
 
 
-For more information, see the <a href="https://msdn.microsoft.com/B6F8663C-3A13-45DA-80FE-CC8B9194D083">WdmlibIoDisconnectInterruptEx</a> function.
+For more information, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/iointex/nf-iointex-wdmlibiodisconnectinterruptex">WdmlibIoDisconnectInterruptEx</a> function.
 
 <code>#define IoDisconnectInterruptEx WdmlibIoDisconnectInterruptEx</code>
 
@@ -59,14 +59,14 @@ For more information, see the <a href="https://msdn.microsoft.com/B6F8663C-3A13-
 
 ### -param Parameters [in, out]
 
-For more information, see the <a href="https://msdn.microsoft.com/B6F8663C-3A13-45DA-80FE-CC8B9194D083">WdmlibIoDisconnectInterruptEx</a> function.
+For more information, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/iointex/nf-iointex-wdmlibiodisconnectinterruptex">WdmlibIoDisconnectInterruptEx</a> function.
 
 
 ## -returns
 
 
 
-For more information, see the <a href="https://msdn.microsoft.com/B6F8663C-3A13-45DA-80FE-CC8B9194D083">WdmlibIoDisconnectInterruptEx</a> function.
+For more information, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/iointex/nf-iointex-wdmlibiodisconnectinterruptex">WdmlibIoDisconnectInterruptEx</a> function.
 
 
 
@@ -76,7 +76,7 @@ For more information, see the <a href="https://msdn.microsoft.com/B6F8663C-3A13-
 
 
 
-<a href="https://msdn.microsoft.com/B6F8663C-3A13-45DA-80FE-CC8B9194D083">WdmlibIoDisconnectInterruptEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/iointex/nf-iointex-wdmlibiodisconnectinterruptex">WdmlibIoDisconnectInterruptEx</a>
  
 
  

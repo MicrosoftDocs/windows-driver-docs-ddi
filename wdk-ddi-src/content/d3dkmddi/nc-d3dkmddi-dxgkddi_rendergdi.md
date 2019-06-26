@@ -61,7 +61,7 @@ A handle to a context block that is associated with a display adapter.
 
 ### -param pRenderGdi [in, out]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn906823">DXGKARG_RENDERGDI</a> structure that describes operation.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_rendergdi">DXGKARG_RENDERGDI</a> structure that describes operation.
 
 
 ## -returns
@@ -79,7 +79,7 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn90
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn906823">DXGKARG_RENDERGDI</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_rendergdi">DXGKARG_RENDERGDI</a>
  
 
  

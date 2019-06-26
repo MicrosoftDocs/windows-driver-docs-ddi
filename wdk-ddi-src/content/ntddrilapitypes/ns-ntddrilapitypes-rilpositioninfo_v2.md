@@ -101,7 +101,7 @@ UMTS serving cell information, a <a href="..\rilapitypes\ns-rilapitypes-rilposit
 
 ### -field stTDSCDMAServingCellInfo
 
-TD-SCDMA serving cell information, a <a href="..\rilapitypes\ns-rilapitypes-rilpositioninfotdscdma.md">RILPOSITIONINFOTDSCDMA</a> struct. This field is not present in <a href="https://msdn.microsoft.com/library/windows/hardware/dn931134">RILPOSITIONINFO_V1</a>.
+TD-SCDMA serving cell information, a <a href="..\rilapitypes\ns-rilapitypes-rilpositioninfotdscdma.md">RILPOSITIONINFOTDSCDMA</a> struct. This field is not present in <a href="https://docs.microsoft.com/previous-versions/windows/hardware/cellular/dn931134(v=vs.85)">RILPOSITIONINFO_V1</a>.
 
 
 ### -field stLTEServingCellInfo
@@ -171,7 +171,7 @@ UMTS measured results list, an array of <a href="..\rilapitypes\ns-rilapitypes-r
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn946511">Cellular COM structures</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/cellular/dn946511(v=vs.85)">Cellular COM structures</a>
 
 
 

@@ -56,7 +56,7 @@ The <b>GetPrintTicket</b> method gets the print ticket object for the fixed page
 
 ### -param ppPrintTicket [out]
 
-Pointer to a location into which the method writes a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551924">IPartPrintTicket</a> interface of a print ticket object. This object contains the print ticket for the fixed page.
+Pointer to a location into which the method writes a pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/filterpipeline/nn-filterpipeline-ipartprintticket">IPartPrintTicket</a> interface of a print ticket object. This object contains the print ticket for the fixed page.
 
 
 ## -returns
@@ -72,7 +72,7 @@ Pointer to a location into which the method writes a pointer to the <a href="htt
 
 
 
-After calling this method to get the page-level print ticket, a print driver filter can obtain the <i>effective</i> print ticket for the fixed page by merging the page-level print ticket with the document-level print ticket and the job-level print ticket. The filter can get the document-level and job-level print tickets by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550992">IFixedDocument::GetPrintTicket</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff550977">IFixedDocumentSequence::GetPrintTicket</a> methods. For more information about merging print tickets, see <a href="https://msdn.microsoft.com/2d9cf4d3-5c73-4355-b5e0-effcfb7102cc">Print Ticket Merging</a>.
+After calling this method to get the page-level print ticket, a print driver filter can obtain the <i>effective</i> print ticket for the fixed page by merging the page-level print ticket with the document-level print ticket and the job-level print ticket. The filter can get the document-level and job-level print tickets by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/filterpipeline/nf-filterpipeline-ifixeddocument-getprintticket">IFixedDocument::GetPrintTicket</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/filterpipeline/nf-filterpipeline-ifixeddocumentsequence-getprintticket">IFixedDocumentSequence::GetPrintTicket</a> methods. For more information about merging print tickets, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/print-ticket-merging">Print Ticket Merging</a>.
 
 
 
@@ -82,19 +82,19 @@ After calling this method to get the page-level print ticket, a print driver fil
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550992">IFixedDocument::GetPrintTicket</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/filterpipeline/nf-filterpipeline-ifixeddocument-getprintticket">IFixedDocument::GetPrintTicket</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550977">IFixedDocumentSequence::GetPrintTicket</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/filterpipeline/nf-filterpipeline-ifixeddocumentsequence-getprintticket">IFixedDocumentSequence::GetPrintTicket</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551019">IFixedPage</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/filterpipeline/nn-filterpipeline-ifixedpage">IFixedPage</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551924">IPartPrintTicket</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/filterpipeline/nn-filterpipeline-ipartprintticket">IPartPrintTicket</a>
  
 
  

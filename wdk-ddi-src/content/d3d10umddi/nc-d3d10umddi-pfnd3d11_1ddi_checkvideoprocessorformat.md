@@ -61,7 +61,7 @@ A handle to the display device (graphics context).
 
 *hVideoProcessorEnum* [in]
 
-A handle to a video processor enumeration object that was created through a call to the <a href="https://msdn.microsoft.com/38c27502-7e8a-45a1-8a7c-315300502480">CreateVideoProcessorEnum</a> function. 
+A handle to a video processor enumeration object that was created through a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessorenum">CreateVideoProcessorEnum</a> function. 
 
 ### -param Arg3
 
@@ -73,7 +73,7 @@ The video format to query.
 
 *pSupported* [out]
 
-Specifies a bitwise OR of zero or more flags from the <a href="https://msdn.microsoft.com/library/windows/hardware/hh450987">D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_SUPPORT</a> enumeration.
+Specifies a bitwise OR of zero or more flags from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_video_processor_format_support">D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_SUPPORT</a> enumeration.
 
 For more information, see the Remarks section.
 
@@ -110,11 +110,11 @@ If the driver can support neither, it must set the <i>pSupported</i> parameter t
 
 
 
-<a href="https://msdn.microsoft.com/38c27502-7e8a-45a1-8a7c-315300502480">CreateVideoProcessorEnum</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessorenum">CreateVideoProcessorEnum</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450987">D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_SUPPORT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_video_processor_format_support">D3D11_1DDI_VIDEO_PROCESSOR_FORMAT_SUPPORT</a>
  
 
  

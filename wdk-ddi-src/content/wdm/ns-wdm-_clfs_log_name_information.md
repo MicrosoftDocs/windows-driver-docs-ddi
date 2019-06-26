@@ -69,11 +69,11 @@ An array of wide characters that holds the log name.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541679">ClfsQueryLogFileInformation</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-clfsquerylogfileinformation">ClfsQueryLogFileInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541761">ClfsSetLogFileInformation</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-clfssetlogfileinformation">ClfsSetLogFileInformation</a>
  
 
  

@@ -58,7 +58,7 @@ The _BRB_L2CA_ACL_TRANSFER structure describes a buffer to read asynchronous dat
 ### -field Hdr
 
 A 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536612">BRB_HEADER</a> structure that contains information
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a> structure that contains information
      about the current BRB.
 
 
@@ -70,8 +70,8 @@ The address of the remote device.
 ### -field ChannelHandle
 
 The L2CAP channel handle that was returned by Bluetooth driver stack in response to an earlier 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536615">BRB_L2CA_OPEN_CHANNEL</a> or 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536616">
+     <a href="https://docs.microsoft.com/previous-versions/ff536615(v=vs.85)">BRB_L2CA_OPEN_CHANNEL</a> or 
+     <a href="https://docs.microsoft.com/previous-versions/ff536616(v=vs.85)">
      BRB_L2CA_OPEN_CHANNEL_RESPONSE</a> request.
 
 
@@ -165,8 +165,8 @@ The amount of space, in bytes, left in the buffer after the BRB call.
 
 
 To read asynchronous data from, or write asynchronous data to a L2CAP channel, profile drivers should 
-    <a href="https://msdn.microsoft.com/53a692e7-9c71-4dca-9331-32ac97b94179">build and send</a> a 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff536613">BRB_L2CA_ACL_TRANSFER</a> request.
+    <a href="https://docs.microsoft.com/previous-versions/ff536657(v=vs.85)">build and send</a> a 
+    <a href="https://docs.microsoft.com/previous-versions/ff536613(v=vs.85)">BRB_L2CA_ACL_TRANSFER</a> request.
 
 Each L2CAP connection is bidirectional, and can be read from and written to simultaneously.
 
@@ -178,7 +178,7 @@ The Bluetooth driver stack provides some buffering of incoming data, so it is no
     continuously check whether a read IRP is pending. A profile driver can specify the amount of buffering to
     provide in the 
     <b>IncomingQueueDepth</b> member associated with a 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff536615">BRB_L2CA_OPEN_CHANNEL</a> request.
+    <a href="https://docs.microsoft.com/previous-versions/ff536615(v=vs.85)">BRB_L2CA_OPEN_CHANNEL</a> request.
 
 If the ACL_TRANSFER_TIMEOUT flag is set in the 
     <b>TransferFlags</b> member and the duration specified in the 
@@ -192,19 +192,19 @@ If the ACL_TRANSFER_TIMEOUT flag is set in the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536612">BRB_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536613">BRB_L2CA_ACL_TRANSFER</a>
+<a href="https://docs.microsoft.com/previous-versions/ff536613(v=vs.85)">BRB_L2CA_ACL_TRANSFER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536615">BRB_L2CA_OPEN_CHANNEL</a>
+<a href="https://docs.microsoft.com/previous-versions/ff536615(v=vs.85)">BRB_L2CA_OPEN_CHANNEL</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536616">
+<a href="https://docs.microsoft.com/previous-versions/ff536616(v=vs.85)">
    BRB_L2CA_OPEN_CHANNEL_RESPONSE</a>
  
 

@@ -46,7 +46,7 @@ req.typenames: OB_POST_CREATE_HANDLE_INFORMATION, *POB_POST_CREATE_HANDLE_INFORM
 ## -description
 
 
-The <b>OB_POST_CREATE_HANDLE_INFORMATION</b> structure provides information  to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff557741">ObjectPostCallback</a> routine about a thread or process handle that has been opened.
+The <b>OB_POST_CREATE_HANDLE_INFORMATION</b> structure provides information  to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pob_post_operation_callback">ObjectPostCallback</a> routine about a thread or process handle that has been opened.
 
 
 ## -struct-fields
@@ -56,7 +56,7 @@ The <b>OB_POST_CREATE_HANDLE_INFORMATION</b> structure provides information  to 
 
 ### -field GrantedAccess
 
-An <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> value that specifies the access that is granted for the handle.
+An <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> value that specifies the access that is granted for the handle.
 
 
 ## -see-also
@@ -64,11 +64,11 @@ An <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557741">ObjectPostCallback</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pob_post_operation_callback">ObjectPostCallback</a>
  
 
  

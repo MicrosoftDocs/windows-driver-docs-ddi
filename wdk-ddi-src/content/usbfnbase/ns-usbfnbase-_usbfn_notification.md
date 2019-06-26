@@ -47,7 +47,7 @@ req.typenames: USBFN_NOTIFICATION, *PUSBFN_NOTIFICATION
 
 
 Describes information about a Universal Serial Bus (USB)  event notification that was 
-		received by using <a href="https://msdn.microsoft.com/library/windows/hardware/mt187892">IOCTL_INTERNAL_USBFN_BUS_EVENT_NOTIFICATION</a>.
+		received by using <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbfnioctl/ni-usbfnioctl-ioctl_internal_usbfn_bus_event_notification">IOCTL_INTERNAL_USBFN_BUS_EVENT_NOTIFICATION</a>.
 		
 
 
@@ -58,7 +58,7 @@ Describes information about a Universal Serial Bus (USB)  event notification tha
 
 ### -field Event
 
-Bus notification indicated by a <a href="https://msdn.microsoft.com/library/windows/hardware/mt187994">USBFN_EVENT</a>-typed flag.
+Bus notification indicated by a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbfnbase/ne-usbfnbase-_usbfn_event">USBFN_EVENT</a>-typed flag.
 
 
 ### -field u
@@ -66,7 +66,7 @@ Bus notification indicated by a <a href="https://msdn.microsoft.com/library/wind
 
 ### -field u.BusSpeed
 
-The operating bus speed indicated by <a href="https://msdn.microsoft.com/library/windows/hardware/mt187987">USBFN_BUS_SPEED</a>-typed flags.
+The operating bus speed indicated by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbfnbase/ne-usbfnbase-_usbfn_bus_speed">USBFN_BUS_SPEED</a>-typed flags.
 
 
 ### -field u.SetupPacket
@@ -81,10 +81,10 @@ The <b>bConfigurationValue</b> field of a USB configuration descriptor.
 
 ### -field u.PortType
 
-Possible port types supported by a function controller indicated by a <a href="https://msdn.microsoft.com/library/windows/hardware/mt188004">USBFN_PORT_TYPE</a>-typed flag.
+Possible port types supported by a function controller indicated by a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbfnbase/ne-usbfnbase-_usbfn_port_type">USBFN_PORT_TYPE</a>-typed flag.
 
 
 ### -field u.AlternateInterface
 
-Alternate setting of the interface indicated by <a href="https://msdn.microsoft.com/library/windows/hardware/mt187816">ALTERNATE_INTERFACE</a>.
+Alternate setting of the interface indicated by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbfnbase/ns-usbfnbase-_alternate_interface">ALTERNATE_INTERFACE</a>.
 

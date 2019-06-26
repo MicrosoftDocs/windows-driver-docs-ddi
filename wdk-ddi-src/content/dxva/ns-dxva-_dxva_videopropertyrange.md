@@ -79,7 +79,7 @@ Specifies the step size increment for a given property.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564070">DXVA_VideoDesc</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ns-dxva-_dxva_videodesc">DXVA_VideoDesc</a>
  
 
  

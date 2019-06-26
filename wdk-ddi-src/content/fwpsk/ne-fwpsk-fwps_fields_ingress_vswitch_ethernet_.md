@@ -48,7 +48,7 @@ req.typenames: FWPS_FIELDS_INGRESS_VSWITCH_ETHERNET
 
 The FWPS_FIELDS_INGRESS_VSWITCH_ETHERNET (formerly WPS_FIELDS_INGRESS_VSWITCH_802_3) enumeration type specifies the data field identifiers for the
   FWPS_LAYER_INGRESS_VSWITCH_ETHERNET 
-  <a href="https://msdn.microsoft.com/library/windows/desktop/aa366492">run-time filtering layer</a>.
+  <a href="https://docs.microsoft.com/windows/desktop/FWP/management-filtering-layer-identifiers-">run-time filtering layer</a>.
 
 
 ## -enum-fields

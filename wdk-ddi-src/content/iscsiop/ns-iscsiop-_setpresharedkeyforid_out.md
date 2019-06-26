@@ -46,7 +46,7 @@ req.typenames: SetPresharedKeyForId_OUT, *PSetPresharedKeyForId_OUT
 ## -description
 
 
-The SetPresharedKeyForId_OUT structure holds the output data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565800">SetPresharedKeyForId</a> method.
+The SetPresharedKeyForId_OUT structure holds the output data for the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/setpresharedkeyforid">SetPresharedKeyForId</a> method.
 
 
 ## -struct-fields
@@ -56,7 +56,7 @@ The SetPresharedKeyForId_OUT structure holds the output data for the <a href="ht
 
 ### -field Status
 
-On output, the status of the <b>SetPresharedKeyForId</b> operation. For a list of status qualifiers, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>. 
+On output, the status of the <b>SetPresharedKeyForId</b> operation. For a list of status qualifiers, see <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/iscsi-status-qualifiers">ISCSI_STATUS_QUALIFIERS</a>. 
 
 
 ## -remarks
@@ -73,15 +73,15 @@ You must implement this method.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/iscsi-status-qualifiers">ISCSI_STATUS_QUALIFIERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565800">SetPresharedKeyForId</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/setpresharedkeyforid">SetPresharedKeyForId</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565806">SetPresharedKeyForId_IN</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/iscsiop/ns-iscsiop-_setpresharedkeyforid_in">SetPresharedKeyForId_IN</a>
  
 
  

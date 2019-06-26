@@ -223,7 +223,7 @@ Represents any video standard other than those represented by the previous const
 
 
 
-The <b>SignalInfo</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546729">D3DKMDT_VIDPN_TARGET_MODE</a> structure is a <a href="https://msdn.microsoft.com/38d0a655-265b-46e0-8af3-de6757025588">D3DKMDT_VIDEO_SIGNAL_MODE</a> structure.
+The <b>SignalInfo</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmdt/ns-d3dkmdt-_d3dkmdt_vidpn_target_mode">D3DKMDT_VIDPN_TARGET_MODE</a> structure is a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmdt/ns-d3dkmdt-_d3dkmdt_video_signal_info">D3DKMDT_VIDEO_SIGNAL_MODE</a> structure.
 
 The <b>VideoStandard</b> member of the D3DKMDT_VIDEO_SIGNAL_MODE structure is a D3DKMDT_VIDEO_SIGNAL_STANDARD value.
 
@@ -235,7 +235,7 @@ The <b>VideoStandard</b> member of the D3DKMDT_VIDEO_SIGNAL_MODE structure is a 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570559">VidPn Target Mode Set Interface</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">VidPn Target Mode Set Interface</a>
  
 
  

@@ -51,7 +51,7 @@ Filters use the <code>IPrintReadStream</code> interface to read data as a raw st
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintReadStream</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IPrintReadStream</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintReadStream</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintReadStream</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -66,7 +66,7 @@ The <b>IPrintReadStream</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554347">IPrintReadStream::ReadBytes</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/filterpipeline/nf-filterpipeline-iprintreadstream-readbytes">IPrintReadStream::ReadBytes</a>
 </td>
 <td align="left" width="63%">
 The <code>ReadBytes</code> method reads a number of bytes into a buffer.
@@ -75,7 +75,7 @@ The <code>ReadBytes</code> method reads a number of bytes into a buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554350">IPrintReadStream::Seek</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/filterpipeline/nf-filterpipeline-iprintreadstream-seek">IPrintReadStream::Seek</a>
 </td>
 <td align="left" width="63%">
 The <code>Seek</code> method changes the seek pointer to a new location in the stream.

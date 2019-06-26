@@ -81,7 +81,7 @@ The network adapter generated the wake-up event because it connected to the netw
 
 The 802.11 network adapter generated the wake-up event because it detected a service set identifier (SSID) that was specified through a network list offload (NLO). 
 
-For more information about NLO, see <a href="https://msdn.microsoft.com/528838AA-4002-4923-A71B-37ADEE9B8D07">Wi-Fi Network List Offload</a>.
+For more information about NLO, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wi-fi-network-list-offload">Wi-Fi Network List Offload</a>.
 
 
 ### -field NdisWakeReasonWlanAPAssociationLost
@@ -106,7 +106,7 @@ The mobile broadband (MB) network adapter generated the wake-up event because it
 
 ### -field NdisWakeReasonWwanSMSReceive
 
-The mobile broadband (MB) network adapter generated the wake-up event because the MB Service has to be notified about the receipt of a Short Message Service (SMS) message. The adapter generates this wake-up event either after the completion of a previously-issued <a href="https://msdn.microsoft.com/library/windows/hardware/ff569839">OID_WWAN_SMS_READ</a> query request, or the arrival of a new class-0 (flash/alert) message from the network provider as an event notification.
+The mobile broadband (MB) network adapter generated the wake-up event because the MB Service has to be notified about the receipt of a Short Message Service (SMS) message. The adapter generates this wake-up event either after the completion of a previously-issued <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-sms-read">OID_WWAN_SMS_READ</a> query request, or the arrival of a new class-0 (flash/alert) message from the network provider as an event notification.
 
 
 ### -field NdisWakeReasonWwanUSSDReceive
@@ -118,7 +118,7 @@ The mobile broadband (MB) network adapter generated the wake-up event because it
 
 
 
-The  <b>WakeReason</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451605">NDIS_PM_WAKE_REASON</a> structure contains an <b>NDIS_PM_WAKE_REASON_TYPE</b> enumeration value.
+The  <b>WakeReason</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_pm_wake_reason">NDIS_PM_WAKE_REASON</a> structure contains an <b>NDIS_PM_WAKE_REASON_TYPE</b> enumeration value.
 
 
 
@@ -128,7 +128,7 @@ The  <b>WakeReason</b> member of the <a href="https://msdn.microsoft.com/library
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451605">NDIS_PM_WAKE_REASON</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_pm_wake_reason">NDIS_PM_WAKE_REASON</a>
  
 
  

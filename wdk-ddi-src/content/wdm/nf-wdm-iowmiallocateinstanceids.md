@@ -133,7 +133,7 @@ If greater than one instance was requested in <i>InstanceCount</i> and the routi
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550505">IoWmiSuggestInstanceName</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iowmisuggestinstancename">IoWmiSuggestInstanceName</a>
  
 
  

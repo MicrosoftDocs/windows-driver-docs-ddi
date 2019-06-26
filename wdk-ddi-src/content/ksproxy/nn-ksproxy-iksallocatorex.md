@@ -53,7 +53,7 @@ The IID for this interface is IID_IKsAllocatorEx.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsAllocatorEx</b> interface inherits from IUnknown and <a href="https://msdn.microsoft.com/library/windows/hardware/ff559719">IKsAllocator</a>. <b>IKsAllocatorEx</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsAllocatorEx</b> interface inherits from IUnknown and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nn-ksproxy-iksallocator">IKsAllocator</a>. <b>IKsAllocatorEx</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -68,7 +68,7 @@ The <b>IKsAllocatorEx</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/82F2FE7D-D02B-47A1-8FC7-2D5CFC4CADA1">KsGetProperties</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nf-ksproxy-iksallocatorex-ksgetproperties">KsGetProperties</a>
 </td>
 <td align="left" width="63%">
 Returns the properties for an allocator.
@@ -77,7 +77,7 @@ Returns the properties for an allocator.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/E259B3D0-7536-4287-A7A2-367407D97F33">KsSetAllocatorHandle</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nf-ksproxy-iksallocatorex-kssetallocatorhandle">KsSetAllocatorHandle</a>
 </td>
 <td align="left" width="63%">
 Sets the handle for an allocator.
@@ -86,7 +86,7 @@ Sets the handle for an allocator.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/17145801-5EE4-4022-997A-03B14C794D2F">KsSetProperties</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nf-ksproxy-iksallocatorex-kssetproperties">KsSetProperties</a>
 </td>
 <td align="left" width="63%">
 Sets the properties for an allocator. 
@@ -184,7 +184,7 @@ Sets the mode in which an allocator allocates memory.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559719">IKsAllocator</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nn-ksproxy-iksallocator">IKsAllocator</a>
  
 
  

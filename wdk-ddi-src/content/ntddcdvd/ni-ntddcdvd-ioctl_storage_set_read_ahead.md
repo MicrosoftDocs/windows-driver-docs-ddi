@@ -59,12 +59,12 @@ Causes the device to skip to the given target address when the device reaches a 
 
 ### -input-buffer
 
-The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff567004">STORAGE_SET_READ_AHEAD</a> structure that indicates the trigger and target addresses. 
+The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdvd/ns-ntddcdvd-_storage_set_read_ahead">STORAGE_SET_READ_AHEAD</a> structure that indicates the trigger and target addresses. 
 
 
 ### -input-buffer-length
 
-The length of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff567004">STORAGE_SET_READ_AHEAD</a> structure.
+The length of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdvd/ns-ntddcdvd-_storage_set_read_ahead">STORAGE_SET_READ_AHEAD</a> structure.
 
 
 ### -output-buffer
@@ -105,7 +105,7 @@ The <b>Information</b> field is set to zero. The <b>Status</b> field is set to S
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567004">STORAGE_SET_READ_AHEAD</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdvd/ns-ntddcdvd-_storage_set_read_ahead">STORAGE_SET_READ_AHEAD</a>
  
 
  

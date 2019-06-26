@@ -49,7 +49,7 @@ req.typenames:
 
 The 
   <b>NdisIfQueryBindingIfIndex</b> function retrieves the network interface indexes and 
-  <a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a> values for the highest and lowest layered
+  <a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a> values for the highest and lowest layered
   network interfaces that are associated with a specified protocol binding.
 
 
@@ -61,10 +61,10 @@ The
 ### -param NdisBindingHandle [in]
 
 A handle that identifies the binding for which NDIS should obtain the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a> values and network interface indexes.
+     <a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a> values and network interface indexes.
      NDIS provided this handle at the 
      <i>NdisBindingHandle</i> parameter of the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff563715">NdisOpenAdapterEx</a> function.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a> function.
 
 
 ### -param pBoundIfIndex [out]
@@ -143,7 +143,7 @@ The operation completed successfully.
 
 NDIS protocol drivers can call the 
     <b>NdisIfQueryBindingIfIndex</b> function to retrieve the network interface indexes and 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a> values that are associated with a
+    <a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a> values that are associated with a
     binding.
 
 <b>NdisIfQueryBindingIfIndex</b> provides the NET_LUID value and the interface index for the highest
@@ -154,7 +154,7 @@ NDIS protocol drivers can call the
 
 Protocol drivers can also obtain the interface index and NET_LUID of the highest and the lowest
     interfaces in a driver stack in the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff564832">NDIS_BIND_PARAMETERS</a> structure.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_bind_parameters">NDIS_BIND_PARAMETERS</a> structure.
 
 
 
@@ -164,15 +164,15 @@ Protocol drivers can also obtain the interface index and NET_LUID of the highest
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564832">NDIS_BIND_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_bind_parameters">NDIS_BIND_PARAMETERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563715">NdisOpenAdapterEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a>
  
 
  

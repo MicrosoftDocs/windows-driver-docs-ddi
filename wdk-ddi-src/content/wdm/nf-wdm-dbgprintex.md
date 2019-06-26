@@ -88,7 +88,7 @@ DPFLTR_IHVDRIVER_ID
 
 ### -param Level [in]
 
-Specifies the severity of the message being sent. This can be any 32-bit integer. Values between 0 and 31 (inclusive) are treated differently than values between 32 and 0xFFFFFFFF. For details, see <a href="https://msdn.microsoft.com/2ad320f6-596d-4b4c-bfad-d570c856bcc7">Reading and Filtering Debugging Messages</a>.
+Specifies the severity of the message being sent. This can be any 32-bit integer. Values between 0 and 31 (inclusive) are treated differently than values between 32 and 0xFFFFFFFF. For details, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/reading-and-filtering-debugging-messages">Reading and Filtering Debugging Messages</a>.
 
 
 ### -param Format [in]
@@ -119,11 +119,11 @@ Only kernel-mode drivers can call the <b>DbgPrintEx</b> routine.
 
 <b>DbgPrint</b> and <b>DbgPrintEx</b> can be called at IRQL<=DIRQL. However, Unicode format codes (<b>%wc</b> and <b>%ws</b>) can be used only at IRQL = PASSIVE_LEVEL. Also, because the debugger uses interprocess interrupts (IPIs) to communicate with other processors, calling <b>DbgPrint</b> at IRQL>DIRQL can cause deadlocks.
 
-<b>DbgPrintEx</b> either passes the specified string to the kernel debugger or does nothing at all, depending on the values of <i>ComponentId</i>, <i>Level</i>, and the corresponding component filter masks. For details, see <a href="https://msdn.microsoft.com/2ad320f6-596d-4b4c-bfad-d570c856bcc7">Reading and Filtering Debugging Messages</a>.
+<b>DbgPrintEx</b> either passes the specified string to the kernel debugger or does nothing at all, depending on the values of <i>ComponentId</i>, <i>Level</i>, and the corresponding component filter masks. For details, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/reading-and-filtering-debugging-messages">Reading and Filtering Debugging Messages</a>.
 
 Unless it is absolutely necessary, you should not obtain a string from user input or another process and pass it to <b>DbgPrintEx</b>. If you do use a string that you did not create, you must verify that this is a valid format string, and that the format codes match the argument list in type and quantity. The best coding practice is for all <i>Format</i> strings to be static and defined at compile time.
 
-There is no upper limit to the size of the <i>Format</i> string or the number of arguments. However, any single call to <b>DbgPrintEx</b> will only transmit 512 bytes of information. There is also a limit to the size of the DbgPrint buffer. See <a href="https://msdn.microsoft.com/2ad320f6-596d-4b4c-bfad-d570c856bcc7">The DbgPrint Buffer and the Debugger</a> for details.
+There is no upper limit to the size of the <i>Format</i> string or the number of arguments. However, any single call to <b>DbgPrintEx</b> will only transmit 512 bytes of information. There is also a limit to the size of the DbgPrint buffer. See <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/reading-and-filtering-debugging-messages">The DbgPrint Buffer and the Debugger</a> for details.
 
 
 
@@ -133,19 +133,19 @@ There is no upper limit to the size of the <i>Format</i> string or the number of
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543632">DbgPrint</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-dbgprint">DbgPrint</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548092">KdPrint</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kdprint">KdPrint</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548100">KdPrintEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kdprintex">KdPrintEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556075">vDbgPrintEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-vdbgprintex">vDbgPrintEx</a>
  
 
  

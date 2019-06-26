@@ -79,7 +79,7 @@ Array of table section data.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566560">KSPROPSETID_BdaTableSection</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/kspropsetid-bdatablesection">KSPROPSETID_BdaTableSection</a>
  
 
  

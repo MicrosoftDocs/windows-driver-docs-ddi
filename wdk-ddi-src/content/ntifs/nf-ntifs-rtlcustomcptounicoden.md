@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <b>RtlCustomCPToUnicodeN</b> routine is reserved for system use. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff553113">RtlMultiByteToUnicodeN</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff553157">RtlOemToUnicodeN</a>. 
+The <b>RtlCustomCPToUnicodeN</b> routine is reserved for system use. See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-rtlmultibytetounicoden">RtlMultiByteToUnicodeN</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-rtloemtounicoden">RtlOemToUnicodeN</a>. 
 
 
 ## -parameters

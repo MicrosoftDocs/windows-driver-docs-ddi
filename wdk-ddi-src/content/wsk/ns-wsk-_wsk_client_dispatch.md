@@ -70,7 +70,7 @@ Reserved for system use. WSK applications must set this member to zero.
 ### -field WskClientEvent
 
 A pointer to the WSK application's 
-     <a href="https://msdn.microsoft.com/5511f540-4448-4cbe-849a-b1712453fae1">WskClientEvent</a> event callback function. If
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_client_event">WskClientEvent</a> event callback function. If
      a WSK application does not implement a 
      <i>WskClientEvent</i> event callback function, this member must be set to <b>NULL</b>.
 
@@ -80,10 +80,10 @@ A pointer to the WSK application's
 
 
 When a WSK application calls the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff571143">WskRegister</a> function, it provides a pointer to
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nf-wsk-wskregister">WskRegister</a> function, it provides a pointer to
     an initialized WSK_CLIENT_DISPATCH structure by means of the 
     <b>Dispatch</b> member of the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff571163">WSK_CLIENT_NPI</a> structure pointed to by the 
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/ns-wsk-_wsk_client_npi">WSK_CLIENT_NPI</a> structure pointed to by the 
     <i>WskClientNpi</i> parameter.
 
 The major and minor version numbers that are contained within the 
@@ -125,23 +125,23 @@ For more information about attaching a WSK application to the WSK subsystem, see
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571163">WSK_CLIENT_NPI</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/ns-wsk-_wsk_client_npi">WSK_CLIENT_NPI</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571175">WSK_PROVIDER_DISPATCH</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/ns-wsk-_wsk_provider_dispatch">WSK_PROVIDER_DISPATCH</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571177">WSK_PROVIDER_NPI</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/ns-wsk-_wsk_provider_npi">WSK_PROVIDER_NPI</a>
 
 
 
-<a href="https://msdn.microsoft.com/5511f540-4448-4cbe-849a-b1712453fae1">WskClientEvent</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_client_event">WskClientEvent</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571143">WskRegister</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nf-wsk-wskregister">WskRegister</a>
  
 
  

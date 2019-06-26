@@ -88,7 +88,7 @@ A shared lock is acquired when validating access during a create. An exclusive l
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560958">KsAllocateDeviceHeader</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksallocatedeviceheader">KsAllocateDeviceHeader</a>
  
 
  

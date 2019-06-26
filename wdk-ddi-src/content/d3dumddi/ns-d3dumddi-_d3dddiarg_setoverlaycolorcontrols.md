@@ -56,7 +56,7 @@ The D3DDDIARG_SETOVERLAYCOLORCONTROLS structure describes the parameters for cha
 
 ### -field hOverlay
 
-[in] A handle to the overlay that <a href="https://msdn.microsoft.com/c2723c57-44eb-4866-9381-a3a341996989">SetOverlayColorControls</a> changes color-control settings for.
+[in] A handle to the overlay that <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_setoverlaycolorcontrols">SetOverlayColorControls</a> changes color-control settings for.
 
 
 ### -field hResource
@@ -66,7 +66,7 @@ The D3DDDIARG_SETOVERLAYCOLORCONTROLS structure describes the parameters for cha
 
 ### -field ColorControls
 
-[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff544612">D3DDDI_OVERLAYCOLORCONTROLS</a> structure that contains color-control settings.
+[in] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddi_overlaycolorcontrols">D3DDDI_OVERLAYCOLORCONTROLS</a> structure that contains color-control settings.
 
 
 ## -see-also
@@ -74,11 +74,11 @@ The D3DDDIARG_SETOVERLAYCOLORCONTROLS structure describes the parameters for cha
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544612">D3DDDI_OVERLAYCOLORCONTROLS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddi_overlaycolorcontrols">D3DDDI_OVERLAYCOLORCONTROLS</a>
 
 
 
-<a href="https://msdn.microsoft.com/c2723c57-44eb-4866-9381-a3a341996989">SetOverlayColorControls</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_setoverlaycolorcontrols">SetOverlayColorControls</a>
  
 
  

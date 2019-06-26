@@ -46,7 +46,7 @@ req.typenames: OPTPARAM, *POPTPARAM
 ## -description
 
 
-An array of OPTPARAM structures is used by CPSUI applications (including printer interface DLLs) for describing all the parameter values associated with a <a href="https://msdn.microsoft.com/572330d6-1a1b-46fd-bfb4-be2b0990bca4">property sheet option</a>. The array's address is included in an <a href="https://msdn.microsoft.com/library/windows/hardware/ff559670">OPTTYPE</a> structure.
+An array of OPTPARAM structures is used by CPSUI applications (including printer interface DLLs) for describing all the parameter values associated with a <a href="https://docs.microsoft.com/windows-hardware/drivers/print/property-sheet-options">property sheet option</a>. The array's address is included in an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/compstui/ns-compstui-_opttype">OPTTYPE</a> structure.
 
 
 ## -struct-fields
@@ -72,19 +72,19 @@ Optional bit flags that modify the parameter's characteristics. The following fl
 If set, the parameter is not user-selectable. Can be used with the following option types:
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562825">TVOT_2STATES</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/print/tvot-2states">TVOT_2STATES</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562827">TVOT_3STATES</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/print/tvot-3states">TVOT_3STATES</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562833">TVOT_COMBOBOX</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/print/tvot-combobox">TVOT_COMBOBOX</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562839">TVOT_LISTBOX</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/print/tvot-listbox">TVOT_LISTBOX</a>
 
 
 
@@ -96,15 +96,15 @@ If set, the parameter is not user-selectable. Can be used with the following opt
 If set, the parameter not displayed in the treeview. Can be used with the following option types:
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562827">TVOT_3STATES</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/print/tvot-3states">TVOT_3STATES</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562833">TVOT_COMBOBOX</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/print/tvot-combobox">TVOT_COMBOBOX</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562839">TVOT_LISTBOX</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/print/tvot-listbox">TVOT_LISTBOX</a>
 
 
 
@@ -156,22 +156,22 @@ If not set, <b>lParam</b> contains a template resource identifier.
 
 ### -field Style
 
-Push button style, used only for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562844">TVOT_PUSHBUTTON</a> option type.
+Push button style, used only for the <a href="https://docs.microsoft.com/windows-hardware/drivers/print/tvot-pushbutton">TVOT_PUSHBUTTON</a> option type.
 
 
 ### -field pData
 
-Pointer to the parameter's value. Use of this member is dependent on the <a href="https://msdn.microsoft.com/3b3c002c-a201-4f81-b208-30864343409b">CPSUI option type</a>.
+Pointer to the parameter's value. Use of this member is dependent on the <a href="https://docs.microsoft.com/windows-hardware/drivers/print/cpsui-option-types">CPSUI option type</a>.
 
 
 ### -field IconID
 
-Usually identifies the icon to be associated with the option parameter, but is sometimes used for other purposes. Use of this member is dependent on the <a href="https://msdn.microsoft.com/3b3c002c-a201-4f81-b208-30864343409b">CPSUI option type</a>.
+Usually identifies the icon to be associated with the option parameter, but is sometimes used for other purposes. Use of this member is dependent on the <a href="https://docs.microsoft.com/windows-hardware/drivers/print/cpsui-option-types">CPSUI option type</a>.
 
 
 ### -field lParam
 
-Use of this member is dependent on the <a href="https://msdn.microsoft.com/3b3c002c-a201-4f81-b208-30864343409b">CPSUI option type</a>.
+Use of this member is dependent on the <a href="https://docs.microsoft.com/windows-hardware/drivers/print/cpsui-option-types">CPSUI option type</a>.
 
 
 ### -field dwReserved

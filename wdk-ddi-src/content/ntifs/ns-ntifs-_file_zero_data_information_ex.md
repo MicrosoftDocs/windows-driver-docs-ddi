@@ -47,7 +47,7 @@ req.typenames: FILE_ZERO_DATA_INFORMATION_EX, *PFILE_ZERO_DATA_INFORMATION_EX
 
 
 Contains a range of a file to set to zeros. This structure is used by the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt668765">FSCTL_SET_ZERO_DATA</a> control code. It's similar to <a href="https://msdn.microsoft.com/library/windows/hardware/mt668763">FILE_ZERO_DATA_INFORMATION</a>, but contains an additional <b>Flags</b> member. 
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-set-zero-data">FSCTL_SET_ZERO_DATA</a> control code. It's similar to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_zero_data_information">FILE_ZERO_DATA_INFORMATION</a>, but contains an additional <b>Flags</b> member. 
 
 
 ## -struct-fields
@@ -87,15 +87,15 @@ The following flags are supported:
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt668763">FILE_ZERO_DATA_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_zero_data_information">FILE_ZERO_DATA_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt668765">FSCTL_SET_ZERO_DATA</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-set-zero-data">FSCTL_SET_ZERO_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542988">FltFsControlFile</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltfscontrolfile">FltFsControlFile</a>
  
 
  

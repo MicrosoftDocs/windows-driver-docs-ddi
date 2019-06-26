@@ -48,9 +48,9 @@ req.typenames:
 
 The <b>DrvUnidriverTextOut</b> function is obsolete.
 
-Windows 2000 and later printer drivers should use <a href="https://msdn.microsoft.com/library/windows/hardware/ff553132">IPrintOemDriverUni::DrvUniTextOut</a>. 
+Windows 2000 and later printer drivers should use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintoemdriveruni-drvunitextout">IPrintOemDriverUni::DrvUniTextOut</a>. 
 
-This function pointer prototype defines the type of the <b>DrvUnidriverTextOut</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548571">DRVPROCS</a> structure.
+This function pointer prototype defines the type of the <b>DrvUnidriverTextOut</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/ns-printoem-_drvprocs">DRVPROCS</a> structure.
 
 
 ## -parameters

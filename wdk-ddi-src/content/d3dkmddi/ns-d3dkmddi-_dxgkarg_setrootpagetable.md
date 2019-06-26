@@ -46,7 +46,7 @@ req.typenames: DXGKARG_SETROOTPAGETABLE
 ## -description
 
 
-<b>DXGKARG_SETROOTPAGETABLE</b> is used by the <a href="https://msdn.microsoft.com/BC9E7A2D-690D-4EC2-8D16-22C5FEBA574A">DxgkDdiSetRootPageTable</a>device driver interface (DDI) to notify a context when its associated root page table is resized or moved in memory.
+<b>DXGKARG_SETROOTPAGETABLE</b> is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_setrootpagetable">DxgkDdiSetRootPageTable</a>device driver interface (DDI) to notify a context when its associated root page table is resized or moved in memory.
 
 
 ## -struct-fields
@@ -56,7 +56,7 @@ req.typenames: DXGKARG_SETROOTPAGETABLE
 
 ### -field hContext
 
-A context handle returned by <a href="https://msdn.microsoft.com/aea21a36-f3d5-4541-bd2d-aa026668c562">DxgkDdiCreateContext</a>.
+A context handle returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_createcontext">DxgkDdiCreateContext</a>.
 
 
 ### -field Address
@@ -74,11 +74,11 @@ The GPU physical address of the root page table.
 
 
 
-<a href="https://msdn.microsoft.com/aea21a36-f3d5-4541-bd2d-aa026668c562">DxgkDdiCreateContext</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_createcontext">DxgkDdiCreateContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/BC9E7A2D-690D-4EC2-8D16-22C5FEBA574A">DxgkDdiSetRootPageTable</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_setrootpagetable">DxgkDdiSetRootPageTable</a>
  
 
  

@@ -79,7 +79,7 @@ The D3DDDIARG_BUFFERBLT structure describes the parameters of a buffer bit-block
 
 
 
-<a href="https://msdn.microsoft.com/d75f3fad-3bcd-44ad-9bd5-f61f5346cf8d">BufBlt</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_bufblt">BufBlt</a>
  
 
  

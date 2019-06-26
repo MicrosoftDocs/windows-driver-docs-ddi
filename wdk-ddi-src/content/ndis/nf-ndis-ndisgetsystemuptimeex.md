@@ -78,7 +78,7 @@ None
 
 NDIS drivers should call the 
     <b>NdisGetSystemUpTimeEx</b> function instead of the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff552110">NdisGetSystemUpTime</a> function.
+    <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff552110(v=vs.85)">NdisGetSystemUpTime</a> function.
 
 
 
@@ -88,7 +88,7 @@ NDIS drivers should call the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552110">NdisGetSystemUpTime</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff552110(v=vs.85)">NdisGetSystemUpTime</a>
  
 
  

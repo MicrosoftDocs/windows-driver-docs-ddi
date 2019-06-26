@@ -61,7 +61,7 @@ Validates the specified [correlation vector](https://github.com/Microsoft/Correl
 
 ### -param Vector
 
-<p>A pointer to a  <a href="https://msdn.microsoft.com/library/Mt826258(v=VS.85).aspx"><b>CORRELATION_VECTOR</b></a> structure that represents the correlation vector to be validated.</p>
+<p>A pointer to a  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-correlation_vector"><b>CORRELATION_VECTOR</b></a> structure that represents the correlation vector to be validated.</p>
 
 
 

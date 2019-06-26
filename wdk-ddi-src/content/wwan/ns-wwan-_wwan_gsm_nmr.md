@@ -61,7 +61,7 @@ The count of NMR entries following this member.
 
 ### -field GSMNmr
 
-The array of NMR records, each specified as a <a href="https://msdn.microsoft.com/EF22D5C3-7A3B-4A96-A050-FCB71CA2C149">WWAN_GSM_NMR_INFO</a> structure.
+The array of NMR records, each specified as a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_gsm_nmr_info">WWAN_GSM_NMR_INFO</a> structure.
 
 
 ## -see-also
@@ -73,15 +73,15 @@ The array of NMR records, each specified as a <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/66460B28-C2B4-4F05-A133-31A753AF9489">WWAN_BASE_STATIONS_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_base_stations_info">WWAN_BASE_STATIONS_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/EF22D5C3-7A3B-4A96-A050-FCB71CA2C149">WWAN_GSM_NMR_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_gsm_nmr_info">WWAN_GSM_NMR_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/37F6BD26-55F3-4E46-9C39-97A95B6FF5B1">WWAN_GSM_SERVING_CELL_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_gsm_serving_cell_info">WWAN_GSM_SERVING_CELL_INFO</a>
  
 
  

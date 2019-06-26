@@ -69,11 +69,11 @@ SET_CMP_ADDRESS_RANGE_TYPE
 
 ### -field Information
 
-On input, if <b>nLevel</b> is SET_UNIT_INFO_DIAG_LEVEL, this member is a pointer to a caller-allocated and initialized <a href="https://msdn.microsoft.com/library/windows/hardware/ff538914">UNIT_DIAG_LEVEL</a> structure.
+On input, if <b>nLevel</b> is SET_UNIT_INFO_DIAG_LEVEL, this member is a pointer to a caller-allocated and initialized <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/61883/ns-61883-_unit_diag_level">UNIT_DIAG_LEVEL</a> structure.
 
-If <b>nLevel</b> is SET_UNIT_INFO_ISOCH_PARAMS, this member is a pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff538921">UNIT_ISOCH_PARAMS</a> structure. 
+If <b>nLevel</b> is SET_UNIT_INFO_ISOCH_PARAMS, this member is a pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/61883/ns-61883-_unit_isoch_params">UNIT_ISOCH_PARAMS</a> structure. 
 
-If <b>nLevel</b> is SET_CMP_ADDRESS_RANGE_TYPE, this member is a pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff538118">SET_CMP_ADDRESS_TYPE</a> structure. 
+If <b>nLevel</b> is SET_CMP_ADDRESS_RANGE_TYPE, this member is a pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/61883/ns-61883-_set_cmp_address_type">SET_CMP_ADDRESS_TYPE</a> structure. 
 
 
 ## -remarks
@@ -92,7 +92,7 @@ If an incorrect parameter is passed in, the protocol driver sets <b>Irp->IoStatu
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537008">AV_61883_REQUEST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/61883/ns-61883-_av_61883_request">AV_61883_REQUEST</a>
  
 
  

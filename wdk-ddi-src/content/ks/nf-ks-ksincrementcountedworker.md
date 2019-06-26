@@ -47,7 +47,7 @@ req.typenames:
 ## -description
 
 
-Increments the current worker count, and optionally queues the counted work item with the worker previously created by <a href="https://msdn.microsoft.com/library/windows/hardware/ff566770">KsRegisterCountedWorker</a>.
+Increments the current worker count, and optionally queues the counted work item with the worker previously created by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksregistercountedworker">KsRegisterCountedWorker</a>.
 
 
 ## -parameters
@@ -73,7 +73,7 @@ Returns the current counter. A count of one implies that a worker was actually s
 
 
 
-This should be called after an addition has been made to the worker's list of tasks to perform. A corresponding call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff561660">KsDecrementCountedWorker</a> should be made within the work item after each task has been completed. This may be called at DISPATCH_LEVEL.
+This should be called after an addition has been made to the worker's list of tasks to perform. A corresponding call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksdecrementcountedworker">KsDecrementCountedWorker</a> should be made within the work item after each task has been completed. This may be called at DISPATCH_LEVEL.
 
 
 
@@ -83,11 +83,11 @@ This should be called after an addition has been made to the worker's list of ta
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561660">KsDecrementCountedWorker</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksdecrementcountedworker">KsDecrementCountedWorker</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566770">KsRegisterCountedWorker</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksregistercountedworker">KsRegisterCountedWorker</a>
  
 
  

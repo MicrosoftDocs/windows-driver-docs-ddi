@@ -48,7 +48,7 @@ req.typenames: FWPS_FIELDS_IPSEC_V4
 
 The FWPS_FIELDS_IPSEC_V4 enumeration type specifies the data field identifiers for the
   FWPS_LAYER_IPSEC_V4 
-  <a href="https://msdn.microsoft.com/library/windows/desktop/aa366492">run-time filtering layer</a>.
+  <a href="https://docs.microsoft.com/windows/desktop/FWP/management-filtering-layer-identifiers-">run-time filtering layer</a>.
 
 
 ## -enum-fields
@@ -83,7 +83,7 @@ The remote transport protocol port number.
 
 ### -field FWPS_FIELD_IPSEC_V4_IP_LOCAL_INTERFACE
 
-The locally unique identifier (<a href="https://msdn.microsoft.com/library/windows/hardware/ff557080">LUID</a>) for the network interface associated with the
+The locally unique identifier (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/igpupvdev/ns-igpupvdev-_luid">LUID</a>) for the network interface associated with the
      local IP address.
 
 

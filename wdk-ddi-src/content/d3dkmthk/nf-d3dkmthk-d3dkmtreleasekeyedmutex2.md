@@ -52,7 +52,7 @@ Releases a keyed mutex object that includes private data.
 
 *pData* [in, out]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh406571">D3DKMT_RELEASEKEYEDMUTEX2</a> structure that specifies the keyed mutex object to release. 
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_releasekeyedmutex2">D3DKMT_RELEASEKEYEDMUTEX2</a> structure that specifies the keyed mutex object to release. 
 
 ## -returns
 
@@ -63,16 +63,16 @@ Returns one of the following values.
 | **STATUS_SUCCESS** | The keyed mutex object was successfully released. | 
 | **STATUS_DEVICE_REMOVED** | The graphics adapter was stopped or the display device was reset. | 
 | **STATUS_INVALID_PARAMETER** | Parameters were validated and determined to be incorrect. | 
-| **STATUS_NO_MEMORY** | [D3DKMTReleaseKeyedMutex2](https://msdn.microsoft.com/library/windows/hardware/hh439455)  could not complete because of insufficient memory. | 
+| **STATUS_NO_MEMORY** | [D3DKMTReleaseKeyedMutex2](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/nf-d3dkmthk-d3dkmtreleasekeyedmutex2)  could not complete because of insufficient memory. | 
 
 This function might also return other NTSTATUS values.
 
 ## -remarks
 
-<b>D3DKMTReleaseKeyedMutex2</b> behaves like the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547129">D3DKMTReleaseKeyedMutex</a> function but lets the caller specify private data to associate with the keyed mutex.
+<b>D3DKMTReleaseKeyedMutex2</b> behaves like the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/nf-d3dkmthk-d3dkmtreleasekeyedmutex">D3DKMTReleaseKeyedMutex</a> function but lets the caller specify private data to associate with the keyed mutex.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547129">D3DKMTReleaseKeyedMutex</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/nf-d3dkmthk-d3dkmtreleasekeyedmutex">D3DKMTReleaseKeyedMutex</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406571">D3DKMT_RELEASEKEYEDMUTEX2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_releasekeyedmutex2">D3DKMT_RELEASEKEYEDMUTEX2</a>

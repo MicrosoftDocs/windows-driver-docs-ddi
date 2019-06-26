@@ -47,7 +47,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-Battery miniclass drivers fill in this structure in response to certain <a href="https://msdn.microsoft.com/bd96b79a-5670-4aaf-b72c-619818c2a2e7">BatteryMiniQueryInformation</a> requests.
+Battery miniclass drivers fill in this structure in response to certain <a href="https://docs.microsoft.com/windows/desktop/api/batclass/nc-batclass-bclass_query_information_callback">BatteryMiniQueryInformation</a> requests.
 
 
 ## -syntax
@@ -78,7 +78,7 @@ Specify the battery capacity described by the corresponding granularity, in mill
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/bd96b79a-5670-4aaf-b72c-619818c2a2e7">BatteryMiniQueryInformation</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/batclass/nc-batclass-bclass_query_information_callback">BatteryMiniQueryInformation</a>
 
 
 

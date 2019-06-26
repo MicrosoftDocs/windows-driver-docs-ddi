@@ -56,7 +56,7 @@ The <b>DxgkCbQueueDpc</b> function queues a deferred procedure call (DPC) for ex
 
 ### -param DeviceHandle [in]
 
-A handle that represents a display adapter. The display miniport driver previously obtained this handle in the <b>DeviceHandle</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560942">DXGKRNL_INTERFACE</a> structure that was passed to <a href="https://msdn.microsoft.com/ffacbb39-2581-4207-841d-28ce57fbc64d">DxgkDdiStartDevice</a>.
+A handle that represents a display adapter. The display miniport driver previously obtained this handle in the <b>DeviceHandle</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/ns-dispmprt-_dxgkrnl_interface">DXGKRNL_INTERFACE</a> structure that was passed to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a>.
 
 
 ## -returns
@@ -72,7 +72,7 @@ A handle that represents a display adapter. The display miniport driver previous
 
 
 
-This function queues a DPC object for the display miniport and calls the <a href="https://msdn.microsoft.com/2767906a-f084-4ccc-b24f-ba7d66c96477">DxgkDdiDpcRoutine</a> function when the interrupt service routine (ISR) requests it. 
+This function queues a DPC object for the display miniport and calls the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_dpc_routine">DxgkDdiDpcRoutine</a> function when the interrupt service routine (ISR) requests it. 
 
 There can only be one callback to this function scheduled per device at any one time. If a callback is already scheduled for a device, a second call to <b>DxgkCbQueueDpc</b> will not have any effect and will return <b>FALSE</b>.
 
@@ -80,10 +80,10 @@ For more information on the use of this function, see these topics:
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/3622697a-3989-4756-89d4-c67c81815d49">Submitting a Command Buffer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/display/submitting-a-command-buffer">Submitting a Command Buffer</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/8d2af92c-392a-457d-af9f-796e1050031d">Windows Display Driver Model (WDDM) Operation Flow</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/display/windows-vista-and-later-display-driver-model-operation-flow">Windows Display Driver Model (WDDM) Operation Flow</a>
 </li>
 </ul>
 
@@ -94,11 +94,11 @@ For more information on the use of this function, see these topics:
 
 
 
-<a href="https://msdn.microsoft.com/c8c26675-8b87-4818-ad51-4e0a341965d0">DxgkCbQueueDpc</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkcb_queue_dpc">DxgkCbQueueDpc</a>
 
 
 
-<a href="https://msdn.microsoft.com/2767906a-f084-4ccc-b24f-ba7d66c96477">DxgkDdiDpcRoutine</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_dpc_routine">DxgkDdiDpcRoutine</a>
  
 
  

@@ -46,7 +46,7 @@ req.typenames: DXGK_AGP_INTERFACE, *PDXGK_AGP_INTERFACE
 ## -description
 
 
-The DXGK_AGP_INTERFACE structure contains pointers to functions in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff538228">AGP interface</a>, which is implemented by the display port driver.
+The DXGK_AGP_INTERFACE structure contains pointers to functions in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">AGP interface</a>, which is implemented by the display port driver.
 
 
 ## -struct-fields
@@ -81,24 +81,24 @@ A pointer to an interface dereference function that is implemented by the displa
 
 ### -field AgpAllocatePool
 
-A pointer to the display port driver's <a href="https://msdn.microsoft.com/abac76e0-eb8a-450a-a797-3733a8f71990">AgpAllocatePool</a> function.
+A pointer to the display port driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkcb_agp_allocate_pool">AgpAllocatePool</a> function.
 
 
 ### -field AgpFreePool
 
-A pointer to the display port driver's <a href="https://msdn.microsoft.com/6d4e957e-ad9c-45da-8d1d-0ef5f108c692">AgpFreePool</a> function.
+A pointer to the display port driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkcb_agp_free_pool">AgpFreePool</a> function.
 
 
 ### -field AgpSetCommand
 
-A pointer to the display port driver's <a href="https://msdn.microsoft.com/4440bc0f-01cb-4108-bfe8-9d5127777f00">AgpSetCommand</a> function.
+A pointer to the display port driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkcb_agp_set_command">AgpSetCommand</a> function.
 
 
 ## -remarks
 
 
 
-The display miniport driver supplies the <b>Size</b> and <b>Version</b> members of this structure, and then calls <a href="https://msdn.microsoft.com/0ce5df90-2019-4a92-97d6-0218acc8b1e8">DxgkCbQueryServices</a>, which fills in the remaining members of this structure.
+The display miniport driver supplies the <b>Size</b> and <b>Version</b> members of this structure, and then calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkcb_query_services">DxgkCbQueryServices</a>, which fills in the remaining members of this structure.
 
 
 

@@ -85,11 +85,11 @@ Indicates if this state is a valid state for a dependent processor to be in.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt186775">PEP_NOTIFY_PPM_QUERY_COORDINATED_DEPENDENCY notification</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">PEP_NOTIFY_PPM_QUERY_COORDINATED_DEPENDENCY notification</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt186821">PEP_PPM_QUERY_COORDINATED_DEPENDENCY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/ns-pepfx-_pep_ppm_query_coordinated_dependency">PEP_PPM_QUERY_COORDINATED_DEPENDENCY</a>
  
 
  

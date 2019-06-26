@@ -61,7 +61,7 @@ The revision number of this interface. Set to STOR_CURRENT_LOG_INTERFACE_REVISIO
 
 ### -field Size
 
-The size of this structure. Set before calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff567428">StorPortLogSystemEvent</a>.
+The size of this structure. Set before calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportlogsystemevent">StorPortLogSystemEvent</a>.
 
 
 ### -field Flags
@@ -128,7 +128,7 @@ The list of null-terminated Unicode strings to be appended to the log entry for 
 
 
 
-Although <a href="https://msdn.microsoft.com/library/windows/hardware/ff567426">StorPortLogError</a> uses <b>PathId</b>, <b>TargetId</b>, and <b>LunId</b> values that are 8bits wide, for <a href="https://msdn.microsoft.com/library/windows/hardware/ff567428">StorPortLogSystemEvent</a> they are 32bits wide. The combined size of the miniport driver's dump data and string areas cannot exceed 150 bytes. This restriction is due to the < 255 byte limit that the kernel enforces on the event log entries.
+Although <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportlogerror">StorPortLogError</a> uses <b>PathId</b>, <b>TargetId</b>, and <b>LunId</b> values that are 8bits wide, for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportlogsystemevent">StorPortLogSystemEvent</a> they are 32bits wide. The combined size of the miniport driver's dump data and string areas cannot exceed 150 bytes. This restriction is due to the < 255 byte limit that the kernel enforces on the event log entries.
 
 
 
@@ -138,11 +138,11 @@ Although <a href="https://msdn.microsoft.com/library/windows/hardware/ff567426">
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567582">STOR_EVENT_ASSOCIATION_ENUM</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/ne-storport-_stor_event_association_enum">STOR_EVENT_ASSOCIATION_ENUM</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567428">StorPortLogSystemEvent</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportlogsystemevent">StorPortLogSystemEvent</a>
  
 
  

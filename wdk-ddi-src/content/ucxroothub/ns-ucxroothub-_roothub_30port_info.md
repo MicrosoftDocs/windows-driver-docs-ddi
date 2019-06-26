@@ -46,7 +46,7 @@ req.typenames: ROOTHUB_30PORT_INFO, *PROOTHUB_30PORT_INFO
 ## -description
 
 
-Provides information about a USB 3.0 root hub port. This structure is passed by UCX in the <a href="https://msdn.microsoft.com/library/windows/hardware/mt187835">EVT_UCX_ROOTHUB_GET_30PORT_INFO</a> callback function.
+Provides information about a USB 3.0 root hub port. This structure is passed by UCX in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucxroothub/nc-ucxroothub-evt_ucx_roothub_get_30port_info">EVT_UCX_ROOTHUB_GET_30PORT_INFO</a> callback function.
 
 
 ## -struct-fields
@@ -71,10 +71,10 @@ The hub depth limit.
 
 ### -field Removable
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/mt187907">TRISTATE</a> value that indicates if the port is removable. 
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucxroothub/ne-ucxroothub-_tristate">TRISTATE</a> value that indicates if the port is removable. 
 
 
 ### -field DebugCapable
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/mt187907">TRISTATE</a> value that indicates if the port is debug capable. 
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucxroothub/ne-ucxroothub-_tristate">TRISTATE</a> value that indicates if the port is debug capable. 
 

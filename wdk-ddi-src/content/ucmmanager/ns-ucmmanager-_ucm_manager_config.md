@@ -46,7 +46,7 @@ req.typenames: UCM_MANAGER_CONFIG, *PUCM_MANAGER_CONFIG
 ## -description
 
 
-Describes the configuration options for the UCM Manager. An initialized <b>UCM_MANAGER_CONFIG</b> structure is an input parameter value to   <a href="https://msdn.microsoft.com/library/windows/hardware/mt187920">UcmInitializeDevice</a>.
+Describes the configuration options for the UCM Manager. An initialized <b>UCM_MANAGER_CONFIG</b> structure is an input parameter value to   <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucmmanager/nf-ucmmanager-ucminitializedevice">UcmInitializeDevice</a>.
 
 
 ## -struct-fields
@@ -56,7 +56,7 @@ Describes the configuration options for the UCM Manager. An initialized <b>UCM_M
 
 ### -field Size
 
-Size of the <b>UCM_MANAGER_CONFIG</b> structure. Initialize this structure by calling <a href="https://msdn.microsoft.com/library/windows/hardware/mt187933">UCM_MANAGER_CONFIG_INIT</a>.
+Size of the <b>UCM_MANAGER_CONFIG</b> structure. Initialize this structure by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucmmanager/nf-ucmmanager-ucm_manager_config_init">UCM_MANAGER_CONFIG_INIT</a>.
 
 
 ## -see-also
@@ -64,7 +64,7 @@ Size of the <b>UCM_MANAGER_CONFIG</b> structure. Initialize this structure by ca
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt187933">UCM_MANAGER_CONFIG_INIT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucmmanager/nf-ucmmanager-ucm_manager_config_init">UCM_MANAGER_CONFIG_INIT</a>
  
 
  

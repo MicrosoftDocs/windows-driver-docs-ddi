@@ -57,7 +57,7 @@ The <b>RtlVerifyVersionInfo</b> routine compares a specified set of operating sy
 
 ### -param VersionInfo [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff563620">RTL_OSVERSIONINFOEXW</a> structure that specifies the operating system version requirements to compare to the corresponding attributes of the currently running version of the operating system. 
+Pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_osversioninfoexw">RTL_OSVERSIONINFOEXW</a> structure that specifies the operating system version requirements to compare to the corresponding attributes of the currently running version of the operating system. 
 
 
 ### -param TypeMask [in]
@@ -466,15 +466,15 @@ To verify a range of system versions, a driver can call <b>RtlVerifyVersionInfo<
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563620">RTL_OSVERSIONINFOEXW</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_osversioninfoexw">RTL_OSVERSIONINFOEXW</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563624">RTL_OSVERSIONINFOW</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_osversioninfow">RTL_OSVERSIONINFOW</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561910">RtlGetVersion</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlgetversion">RtlGetVersion</a>
  
 
  

@@ -48,7 +48,7 @@ req.typenames: L2CAP_CONFIG_RANGE, *PL2CAP_CONFIG_RANGE
 
 The L2CAP_CONFIG_RANGE structure is used to specify a range of possible values for the 
   <b>FlushTO</b> member of the 
-  <a href="https://msdn.microsoft.com/library/windows/hardware/ff536860">_BRB_L2CA_OPEN_CHANNEL</a> structure during
+  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/ns-bthddi-_brb_l2ca_open_channel">_BRB_L2CA_OPEN_CHANNEL</a> structure during
   incoming requests.
 
 
@@ -95,7 +95,7 @@ If the profile driver rejects the remote device's preferred timeout value as bei
 A profile driver negotiates these values separately from the flush timeout settings it requests when
     it attempts to open an outbound channel to a remote device using the <b>BRB_L2CA_OPEN_CHANNEL</b> request. For
     more information about value ranges, see 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff536761">L2CAP_CONFIG_VALUE_RANGE</a>.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/ns-bthddi-_l2cap_config_value_range">L2CAP_CONFIG_VALUE_RANGE</a>.
 
 
 
@@ -105,11 +105,11 @@ A profile driver negotiates these values separately from the flush timeout setti
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536761">L2CAP_CONFIG_VALUE_RANGE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/ns-bthddi-_l2cap_config_value_range">L2CAP_CONFIG_VALUE_RANGE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536860">_BRB_L2CA_OPEN_CHANNEL</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/ns-bthddi-_brb_l2ca_open_channel">_BRB_L2CA_OPEN_CHANNEL</a>
  
 
  

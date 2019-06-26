@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <b>VideoPortUnlockPages</b> function is <b>obsolete</b> in Windows 2000 and later. Use <a href="https://msdn.microsoft.com/library/windows/hardware/ff570373">VideoPortUnlockBuffer</a> in place of this function.
+The <b>VideoPortUnlockPages</b> function is <b>obsolete</b> in Windows 2000 and later. Use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportunlockbuffer">VideoPortUnlockBuffer</a> in place of this function.
 
 <b>VideoPortUnlockPages</b> releases memory used for packet-based DMA.
 
@@ -79,7 +79,7 @@ Specifies a non-<b>NULL</b> DMA handle.
 
 
 
-See <a href="https://msdn.microsoft.com/fe6c2e16-d222-4948-b1df-34ed8d57d9d8">Bus-Master DMA in Video Miniport Drivers</a> for information about packet-based and common-buffer DMA transfers.
+See <a href="https://docs.microsoft.com/windows-hardware/drivers/display/bus-master-dma-in-video-miniport-drivers">Bus-Master DMA in Video Miniport Drivers</a> for information about packet-based and common-buffer DMA transfers.
 
 This function can be called only within the context of a DMA IOCTL. It cannot be called from an ISR or DPC.
 
@@ -91,7 +91,7 @@ This function can be called only within the context of a DMA IOCTL. It cannot be
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570373">VideoPortUnlockBuffer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportunlockbuffer">VideoPortUnlockBuffer</a>
  
 
  

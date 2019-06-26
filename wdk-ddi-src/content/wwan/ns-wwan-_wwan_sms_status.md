@@ -127,7 +127,7 @@ If the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567945">NDIS_WWAN_SMS_STATUS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndiswwan/ns-ndiswwan-_ndis_wwan_sms_status">NDIS_WWAN_SMS_STATUS</a>
  
 
  

@@ -118,7 +118,7 @@ For more information about the system-defined IOCTL_<i>XXX</i> codes, see the Re
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542988">FltFsControlFile</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltfscontrolfile">FltFsControlFile</a>
  
 
  

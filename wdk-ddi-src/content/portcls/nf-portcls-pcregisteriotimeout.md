@@ -59,7 +59,7 @@ Once registered, the port-class driver calls the timer callback approximately on
 
 ### -param pDeviceObject [in]
 
-Pointer to a device object representing a device on which I/O operations can time out. This parameter must point to a system structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>. When calling the I/O-timer callback routine, the port class driver passes this pointer as the first of two call parameters. For more information, see the following Remarks section.
+Pointer to a device object representing a device on which I/O operations can time out. This parameter must point to a system structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>. When calling the I/O-timer callback routine, the port class driver passes this pointer as the first of two call parameters. For more information, see the following Remarks section.
 
 
 ### -param pTimerRoutine [in]
@@ -119,7 +119,7 @@ An adapter driver calls the <b>PcRegisterIoTimeout</b> function to enable a low-
 
 After the driver calls <b>PcRegisterIoTimeout</b>, the port-class driver calls the driver's I/O-timer callback routine approximately once per second for as long as the device remains active. (The device is activated by an IRP_MN_START_DEVICE request and deactivated by an IRP_MN_STOP_DEVICE request.)
 
-The driver can disable the timer by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff537736">PcUnregisterIoTimeout</a>.
+The driver can disable the timer by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-pcunregisteriotimeout">PcUnregisterIoTimeout</a>.
 
 Only one timer callback with a particular combination of device object, I/O-timer callback routine, and context can be registered at a time.
 
@@ -151,11 +151,11 @@ The <i>DeviceObject</i> and <i>Context</i> parameters are the same values that t
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537736">PcUnregisterIoTimeout</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-pcunregisteriotimeout">PcUnregisterIoTimeout</a>
  
 
  

@@ -86,7 +86,7 @@ If <i>Expression</i> evaluates to <b>FALSE</b>, a message is displayed in the De
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542107">ASSERT</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/previsioning-framework/ff542107(v=vs.85)">ASSERT</a>
  
 
  

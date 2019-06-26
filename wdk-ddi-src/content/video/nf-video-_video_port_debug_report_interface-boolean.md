@@ -76,7 +76,7 @@ BOOLEAN NdisMSynchronizeWithInterruptEx(
 
 [in] An interrupt handle that the miniport driver obtained in a previous call to the <a href="..\ndis\nf-ndis-ndismregisterinterruptex.md">NdisMRegisterInterruptEx</a> function.
 
-<p>An interrupt handle that the miniport driver obtained in a previous call to the <a href="https://msdn.microsoft.com/library/Ff563649(v=VS.85).aspx"><b>NdisMRegisterInterruptEx</b></a> function.</p>
+<p>An interrupt handle that the miniport driver obtained in a previous call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismregisterinterruptex"><b>NdisMRegisterInterruptEx</b></a> function.</p>
 
 
 

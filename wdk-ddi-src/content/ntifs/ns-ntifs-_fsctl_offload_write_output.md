@@ -46,7 +46,7 @@ req.typenames: FSCTL_OFFLOAD_WRITE_OUTPUT, *PFSCTL_OFFLOAD_WRITE_OUTPUT
 ## -description
 
 
-The <b>FSCTL_OFFLOAD_WRITE_OUTPUT</b> structure contains the output for the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451122">FSCTL_OFFLOAD_WRITE</a> control code request.
+The <b>FSCTL_OFFLOAD_WRITE_OUTPUT</b> structure contains the output for the <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-offload-write">FSCTL_OFFLOAD_WRITE</a> control code request.
 
 
 ## -struct-fields
@@ -85,16 +85,16 @@ The file to write to is too small for an offload operation.
 
 ### -field LengthWritten
 
-The length of data written for the transfer specified in <a href="https://msdn.microsoft.com/library/windows/hardware/hh451126">FSCTL_OFFLOAD_WRITE_INPUT</a>.
+The length of data written for the transfer specified in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_fsctl_offload_write_input">FSCTL_OFFLOAD_WRITE_INPUT</a>.
 
 
 ## -remarks
 
 
 
- The resulting length written, <b>LengthWritten</b>, may be smaller than what was originally specified in the <b>CopyLength</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/hh451126">FSCTL_OFFLOAD_WRITE_INPUT</a>. A smaller value indicates that less data was able to be logically written with the specified <b>Token</b> than was requested.
+ The resulting length written, <b>LengthWritten</b>, may be smaller than what was originally specified in the <b>CopyLength</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_fsctl_offload_write_input">FSCTL_OFFLOAD_WRITE_INPUT</a>. A smaller value indicates that less data was able to be logically written with the specified <b>Token</b> than was requested.
 
- If less data than requested was written, the write operation  may be completed by performing another <a href="https://msdn.microsoft.com/library/windows/hardware/hh451122">FSCTL_OFFLOAD_WRITE</a> request. The next request uses an updated <b>FileOffset</b> member in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451126">FSCTL_OFFLOAD_WRITE_INPUT</a> structure with the value in <b>LengthWritten</b> and an adjusted write length of the previous length minus the value in <b>LengthWritten</b>. Also, an incomplete write operation can be completed through a non-offloaded write method, using the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567121">ZwWriteFile</a> routine, for example.
+ If less data than requested was written, the write operation  may be completed by performing another <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-offload-write">FSCTL_OFFLOAD_WRITE</a> request. The next request uses an updated <b>FileOffset</b> member in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_fsctl_offload_write_input">FSCTL_OFFLOAD_WRITE_INPUT</a> structure with the value in <b>LengthWritten</b> and an adjusted write length of the previous length minus the value in <b>LengthWritten</b>. Also, an incomplete write operation can be completed through a non-offloaded write method, using the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-ntwritefile">ZwWriteFile</a> routine, for example.
 
 
 
@@ -104,11 +104,11 @@ The length of data written for the transfer specified in <a href="https://msdn.m
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451122">FSCTL_OFFLOAD_WRITE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-offload-write">FSCTL_OFFLOAD_WRITE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451126">FSCTL_OFFLOAD_WRITE_INPUT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_fsctl_offload_write_input">FSCTL_OFFLOAD_WRITE_INPUT</a>
  
 
  

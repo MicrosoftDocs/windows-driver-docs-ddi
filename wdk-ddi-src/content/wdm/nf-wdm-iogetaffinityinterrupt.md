@@ -47,7 +47,7 @@ req.typenames:
 ## -description
 
 
-For more information, see the <a href="https://msdn.microsoft.com/E9E80EB4-C20B-4025-957B-32DC6FAE7F38">WdmlibIoGetAffinityInterrupt</a> function.
+For more information, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/iointex/nf-iointex-wdmlibiogetaffinityinterrupt">WdmlibIoGetAffinityInterrupt</a> function.
 
 <code>#define IoGetAffinityInterrupt WdmlibIoGetAffinityInterrupt</code>
 
@@ -59,19 +59,19 @@ For more information, see the <a href="https://msdn.microsoft.com/E9E80EB4-C20B-
 
 ### -param InterruptObject [in]
 
-For more information, see the <a href="https://msdn.microsoft.com/E9E80EB4-C20B-4025-957B-32DC6FAE7F38">WdmlibIoGetAffinityInterrupt</a> function.
+For more information, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/iointex/nf-iointex-wdmlibiogetaffinityinterrupt">WdmlibIoGetAffinityInterrupt</a> function.
 
 
 ### -param GroupAffinity [out]
 
-For more information, see the <a href="https://msdn.microsoft.com/E9E80EB4-C20B-4025-957B-32DC6FAE7F38">WdmlibIoGetAffinityInterrupt</a> function.
+For more information, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/iointex/nf-iointex-wdmlibiogetaffinityinterrupt">WdmlibIoGetAffinityInterrupt</a> function.
 
 
 ## -returns
 
 
 
-For more information, see the <a href="https://msdn.microsoft.com/E9E80EB4-C20B-4025-957B-32DC6FAE7F38">WdmlibIoGetAffinityInterrupt</a> function.
+For more information, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/iointex/nf-iointex-wdmlibiogetaffinityinterrupt">WdmlibIoGetAffinityInterrupt</a> function.
 
 
 
@@ -81,7 +81,7 @@ For more information, see the <a href="https://msdn.microsoft.com/E9E80EB4-C20B-
 
 
 
-<a href="https://msdn.microsoft.com/E9E80EB4-C20B-4025-957B-32DC6FAE7F38">WdmlibIoGetAffinityInterrupt</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/iointex/nf-iointex-wdmlibiogetaffinityinterrupt">WdmlibIoGetAffinityInterrupt</a>
  
 
  

@@ -61,26 +61,26 @@ The D3DDDIARG_SETPIXELSHADERCONST structure describes how to set the pixel shade
 
 ### -field Count
 
-[in] The number of constant registers to set and, therefore, the number of values in the array that is passed in the <i>pRegisters</i> parameter in the call to the user-mode display driver's <a href="https://msdn.microsoft.com/02710936-28df-4c8f-aa1e-bdff01155608">SetPixelShaderConst</a>, <a href="https://msdn.microsoft.com/fafc046e-0595-4901-bfb1-70bd980388bc">SetPixelShaderConstI</a>, or <a href="https://msdn.microsoft.com/6f7c8932-9332-4ff2-89ab-2f9a66783326">SetPixelShaderConstB</a> function.
+[in] The number of constant registers to set and, therefore, the number of values in the array that is passed in the <i>pRegisters</i> parameter in the call to the user-mode display driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_setpixelshaderconst">SetPixelShaderConst</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_setpixelshaderconsti">SetPixelShaderConstI</a>, or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_setpixelshaderconstb">SetPixelShaderConstB</a> function.
 
 
 ## -remarks
 
 
 
-The <b>Count</b> member specifies the following values, depending on the structure type that is used in the call to the <a href="https://msdn.microsoft.com/02710936-28df-4c8f-aa1e-bdff01155608">SetPixelShaderConst</a>, <a href="https://msdn.microsoft.com/fafc046e-0595-4901-bfb1-70bd980388bc">SetPixelShaderConstI</a>, or <a href="https://msdn.microsoft.com/6f7c8932-9332-4ff2-89ab-2f9a66783326">SetPixelShaderConstB</a> function: 
+The <b>Count</b> member specifies the following values, depending on the structure type that is used in the call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_setpixelshaderconst">SetPixelShaderConst</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_setpixelshaderconsti">SetPixelShaderConstI</a>, or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_setpixelshaderconstb">SetPixelShaderConstB</a> function: 
 
 <ul>
 <li>
-Four-element, single-precision float vectors for the D3DDDIARG_SETPIXELSHADERCONST structure in the <a href="https://msdn.microsoft.com/02710936-28df-4c8f-aa1e-bdff01155608">SetPixelShaderConst</a> call.
+Four-element, single-precision float vectors for the D3DDDIARG_SETPIXELSHADERCONST structure in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_setpixelshaderconst">SetPixelShaderConst</a> call.
 
 </li>
 <li>
-Four-integer vectors for the D3DDDIARG_SETPIXELSHADERCONSTI structure in the <a href="https://msdn.microsoft.com/fafc046e-0595-4901-bfb1-70bd980388bc">SetPixelShaderConstI</a> call.
+Four-integer vectors for the D3DDDIARG_SETPIXELSHADERCONSTI structure in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_setpixelshaderconsti">SetPixelShaderConstI</a> call.
 
 </li>
 <li>
-Boolean values for the D3DDDIARG_SETPIXELSHADERCONSTB structure in the <a href="https://msdn.microsoft.com/6f7c8932-9332-4ff2-89ab-2f9a66783326">SetPixelShaderConstB</a> call.
+Boolean values for the D3DDDIARG_SETPIXELSHADERCONSTB structure in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_setpixelshaderconstb">SetPixelShaderConstB</a> call.
 
 </li>
 </ul>
@@ -97,15 +97,15 @@ typedef D3DDDIARG_SETPIXELSHADERCONST D3DDDIARG_SETPIXELSHADERCONSTB;
 
 
 
-<a href="https://msdn.microsoft.com/02710936-28df-4c8f-aa1e-bdff01155608">SetPixelShaderConst</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_setpixelshaderconst">SetPixelShaderConst</a>
 
 
 
-<a href="https://msdn.microsoft.com/6f7c8932-9332-4ff2-89ab-2f9a66783326">SetPixelShaderConstB</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_setpixelshaderconstb">SetPixelShaderConstB</a>
 
 
 
-<a href="https://msdn.microsoft.com/fafc046e-0595-4901-bfb1-70bd980388bc">SetPixelShaderConstI</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_setpixelshaderconsti">SetPixelShaderConstI</a>
  
 
  

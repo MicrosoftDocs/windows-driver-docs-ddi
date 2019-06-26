@@ -65,7 +65,7 @@ Specifies the engine's new options.  <i>Options</i> is a bit-set; it will replac
 
 
 
-This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 <table>
 <tr>
@@ -93,11 +93,11 @@ The method was successful.
 
 
 
-This method will set the engine's options to those specified in <i>Options</i>.  Unlike <a href="https://msdn.microsoft.com/library/windows/hardware/ff537884">AddEngineOptions</a>, any symbol options that are not listed in the <i>Options</i> bit-set  will be removed.
+This method will set the engine's options to those specified in <i>Options</i>.  Unlike <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-addengineoptions">AddEngineOptions</a>, any symbol options that are not listed in the <i>Options</i> bit-set  will be removed.
 
-After the engine options have been changed, the engine sends out notification to each client's event callback object by passing the DEBUG_CES_ENGINE_OPTIONS flag to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550683">IDebugEventCallbacks::ChangeEngineState</a> method.
+After the engine options have been changed, the engine sends out notification to each client's event callback object by passing the DEBUG_CES_ENGINE_OPTIONS flag to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugeventcallbacks-changeenginestate">IDebugEventCallbacks::ChangeEngineState</a> method.
 
-The following global options affect the behavior of the <a href="https://msdn.microsoft.com/fa52a1f0-9397-48a5-acbd-ce5347c0baef">debugger engine</a>:
+The following global options affect the behavior of the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/introduction">debugger engine</a>:
 
 <table>
 <tr>
@@ -120,7 +120,7 @@ The debugger engine generates a warning instead of an error if the version of th
 
 </td>
 <td>
-Disable version checking for extensions.  This suppresses the debugger engine's call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539096">CheckVersion</a>.
+Disable version checking for extensions.  This suppresses the debugger engine's call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdbgexts/nc-wdbgexts-pwindbg_check_version">CheckVersion</a>.
 
 </td>
 </tr>
@@ -240,7 +240,7 @@ When setting software breakpoints, the engine transparently alters the target's 
 
 </td>
 <td>
-In live user-mode debugging, the engine  performs extra work when inserting and removing breakpoints to ensure that all <a href="https://msdn.microsoft.com/6182ca34-ee5e-47e9-82fe-29266397e3a8">threads</a> in the target have a consistent breakpoint state at all times.
+In live user-mode debugging, the engine  performs extra work when inserting and removing breakpoints to ensure that all <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/controlling-threads-and-processes">threads</a> in the target have a consistent breakpoint state at all times.
 
 This option is useful when multiple threads can use the code for which the breakpoint is set. However, it can introduce the possibility of deadlocks.
 
@@ -264,7 +264,7 @@ After this option has been set, it cannot be unset.
 
 </td>
 <td>
-Turn on quiet mode. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558789">sq (Set Quiet Mode)</a>. 
+Turn on quiet mode. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/sq--set-quiet-mode-">sq (Set Quiet Mode)</a>. 
 
 </td>
 </tr>
@@ -342,27 +342,27 @@ Disables upload of Software Quality Metrics (SQM) data.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537884">AddEngineOptions</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-addengineoptions">AddEngineOptions</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546598">GetEngineOptions</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-getengineoptions">GetEngineOptions</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550508">IDebugControl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugcontrol">IDebugControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550512">IDebugControl2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugcontrol2">IDebugControl2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550519">IDebugControl3</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugcontrol3">IDebugControl3</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554491">RemoveEngineOptions</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-removeengineoptions">RemoveEngineOptions</a>
  
 
  

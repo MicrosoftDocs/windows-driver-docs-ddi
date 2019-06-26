@@ -63,7 +63,7 @@ A handle to the display device (graphics context).
 
 pData [in, out]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542923">D3DDDIARG_CREATECRYPTOSESSION</a> structure. On input, this structure contains information that the driver can use. On output, the driver specifies information in the structure that the Microsoft Direct3D runtime can use. 
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_createcryptosession">D3DDDIARG_CREATECRYPTOSESSION</a> structure. On input, this structure contains information that the driver can use. On output, the driver specifies information in the structure that the Microsoft Direct3D runtime can use. 
 
 
 ## -returns
@@ -75,8 +75,8 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 | **Return code** | **Description** | 
 |:--|:--|
 | **S_OK** | The crypto session is successfully created. | 
-| **E_OUTOFMEMORY** | [CreateCryptoSession](https://msdn.microsoft.com/library/windows/hardware/hh451619)  could not allocate the required memory for it to complete. | 
-| **D3DDDIERR_NOTAVAILABLE** | The driver does not support the GUID that is specified in the CryptoTypemember of the [D3DDDIARG_CREATECRYPTOSESSION](https://msdn.microsoft.com/library/windows/hardware/ff542923) structure or the NULL_GUID (all zeros) is specified in the CryptoTypemember. | 
+| **E_OUTOFMEMORY** | [CreateCryptoSession](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession)  could not allocate the required memory for it to complete. | 
+| **D3DDDIERR_NOTAVAILABLE** | The driver does not support the GUID that is specified in the CryptoTypemember of the [D3DDDIARG_CREATECRYPTOSESSION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_createcryptosession) structure or the NULL_GUID (all zeros) is specified in the CryptoTypemember. | 
 | **D3DDDIERR_UNSUPPORTEDCRYPTO** | The driver does not support the crypto type for the specified decode type. |
 
 
@@ -84,9 +84,9 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 
 
-If the <b>DecodeProfile</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff542923">D3DDDIARG_CREATECRYPTOSESSION</a> structure is NULL_GUID, the crypto session will not be used for DirectX Video Acceleration (DirectX VA) decoding. If <b>DecodeProfile</b> is not <b>NULL</b> GUID, the driver should fail with D3DDDIERR_UNSUPPORTEDCRYPTO if the crypto type in the <b>CryptoType</b> member is not supported by the decode profile. 
+If the <b>DecodeProfile</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_createcryptosession">D3DDDIARG_CREATECRYPTOSESSION</a> structure is NULL_GUID, the crypto session will not be used for DirectX Video Acceleration (DirectX VA) decoding. If <b>DecodeProfile</b> is not <b>NULL</b> GUID, the driver should fail with D3DDDIERR_UNSUPPORTEDCRYPTO if the crypto type in the <b>CryptoType</b> member is not supported by the decode profile. 
 
-The driver returns a handle for the crypto session in the <b>hCryptoSession</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff542923">D3DDDIARG_CREATECRYPTOSESSION</a> that the runtime passes in all subsequent crypto session calls (for example, <a href="https://msdn.microsoft.com/f8055bb3-b8f1-47f5-9ae0-8e7a26989871">CryptoSessionKeyExchange</a>). 
+The driver returns a handle for the crypto session in the <b>hCryptoSession</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_createcryptosession">D3DDDIARG_CREATECRYPTOSESSION</a> that the runtime passes in all subsequent crypto session calls (for example, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_cryptosessionkeyexchange">CryptoSessionKeyExchange</a>). 
 
 The driver must keep track of the display device (<b>hDevice</b>) that was used to create the crypto session. The driver should fail all subsequent calls that use this created crypto session if the display device that is specified in those calls is different from the display device that was used to create the crypto session.
 
@@ -98,11 +98,11 @@ The driver must keep track of the display device (<b>hDevice</b>) that was used 
 
 
 
-<a href="https://msdn.microsoft.com/f8055bb3-b8f1-47f5-9ae0-8e7a26989871">CryptoSessionKeyExchange</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_cryptosessionkeyexchange">CryptoSessionKeyExchange</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542923">D3DDDIARG_CREATECRYPTOSESSION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_createcryptosession">D3DDDIARG_CREATECRYPTOSESSION</a>
  
 
  

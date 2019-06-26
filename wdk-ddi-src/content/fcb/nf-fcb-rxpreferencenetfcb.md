@@ -84,15 +84,15 @@ On checked builds, <b>RxpReferenceNetFcb</b> causes the system to ASSERT if the 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554608">RxpDereferenceNetFcb</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fcb/nf-fcb-rxpdereferencenetfcb">RxpDereferenceNetFcb</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554655">RxpTrackDereference</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fcb/nf-fcb-rxptrackdereference">RxpTrackDereference</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554659">RxpTrackReference</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fcb/nf-fcb-rxptrackreference">RxpTrackReference</a>
  
 
  

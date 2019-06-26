@@ -46,7 +46,7 @@ req.typenames: AddRADIUSServer_OUT, *PAddRADIUSServer_OUT
 ## -description
 
 
-The AddRADIUSServer_OUT structure holds the output data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550133">AddRADIUSServer</a> method.
+The AddRADIUSServer_OUT structure holds the output data for the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/addradiusserver">AddRADIUSServer</a> method.
 
 
 ## -struct-fields
@@ -56,7 +56,7 @@ The AddRADIUSServer_OUT structure holds the output data for the <a href="https:/
 
 ### -field Status
 
-On output from <b>AddRADIUSServer</b>, the status of the <b>AddRADIUSServer</b> operation. For a list of status qualifiers, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>.
+On output from <b>AddRADIUSServer</b>, the status of the <b>AddRADIUSServer</b> operation. For a list of status qualifiers, see <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/iscsi-status-qualifiers">ISCSI_STATUS_QUALIFIERS</a>.
 
 
 ## -remarks
@@ -73,19 +73,19 @@ It is optional that you implement this method.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550133">AddRADIUSServer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/addradiusserver">AddRADIUSServer</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550134">AddRADIUSServer_IN</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/iscsiop/ns-iscsiop-_addradiusserver_in">AddRADIUSServer_IN</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/iscsi-status-qualifiers">ISCSI_STATUS_QUALIFIERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563091">MSiSCSI_Operations WMI Class</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msiscsi-operations-wmi-class">MSiSCSI_Operations WMI Class</a>
  
 
  

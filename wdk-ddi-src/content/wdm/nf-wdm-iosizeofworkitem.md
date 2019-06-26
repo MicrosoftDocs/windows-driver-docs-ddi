@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <b>IoSizeofWorkItem</b> routine returns the size, in bytes, of an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550679">IO_WORKITEM</a> structure. 
+The <b>IoSizeofWorkItem</b> routine returns the size, in bytes, of an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">IO_WORKITEM</a> structure. 
 
 
 ## -parameters
@@ -60,7 +60,7 @@ The <b>IoSizeofWorkItem</b> routine returns the size, in bytes, of an <a href="h
 
 
 
-<b>IoSizeofWorkItem</b> returns the number of bytes necessary to hold an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550679">IO_WORKITEM</a> structure.
+<b>IoSizeofWorkItem</b> returns the number of bytes necessary to hold an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">IO_WORKITEM</a> structure.
 
 
 
@@ -69,7 +69,7 @@ The <b>IoSizeofWorkItem</b> routine returns the size, in bytes, of an <a href="h
 
 
 
-For more information about work items, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff564587">System Worker Threads</a>. 
+For more information about work items, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/system-worker-threads">System Worker Threads</a>. 
 
 
 
@@ -79,11 +79,11 @@ For more information about work items, see <a href="https://msdn.microsoft.com/l
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550679">IO_WORKITEM</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">IO_WORKITEM</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549349">IoInitializeWorkItem</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ioinitializeworkitem">IoInitializeWorkItem</a>
  
 
  

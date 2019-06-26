@@ -107,7 +107,7 @@ The I/O tracing provider has not been enabled on the IRP.
 
 
 
-Drivers should use IoSetActivityIdIrp only on IRPs that have been allocated using <a href="https://msdn.microsoft.com/library/windows/hardware/ff548257">IoAllocateIrp</a> (and freed using <a href="https://msdn.microsoft.com/library/windows/hardware/hh454223">IoFreeIrp</a>). Otherwise, memory leakage may result.
+Drivers should use IoSetActivityIdIrp only on IRPs that have been allocated using <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ioallocateirp">IoAllocateIrp</a> (and freed using <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/storport-iofreeirp">IoFreeIrp</a>). Otherwise, memory leakage may result.
 
 
 

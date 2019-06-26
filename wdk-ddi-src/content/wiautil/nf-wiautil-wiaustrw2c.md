@@ -83,15 +83,15 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550183">wiauStrC2C</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-wiaustrc2c">wiauStrC2C</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550186">wiauStrC2W</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-wiaustrc2w">wiauStrC2W</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550189">wiauStrW2W</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-wiaustrw2w">wiauStrW2W</a>
  
 
  
