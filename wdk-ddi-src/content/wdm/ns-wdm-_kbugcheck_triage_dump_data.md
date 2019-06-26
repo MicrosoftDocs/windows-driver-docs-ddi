@@ -46,11 +46,11 @@ The <b>_KBUGCHECK_TRIAGE_DUMP_DATA</b> structure describes dump data used in con
 
 ### -field DataArray
 
-*Out* - A pointer to a [_KBUGCHECK_TRIAGE_DUMP_DATA](ns-wdm-_ktriage_dump_data_array.md) structure. This is the method the callback uses to provide the triage block data array that it created. 
+A pointer to a [_KBUGCHECK_TRIAGE_DUMP_DATA](ns-wdm-_ktriage_dump_data_array.md) structure. This is the method the callback uses to provide the triage block data array that it created. 
 
 ### -field Flags
 
-*In* - Flags which are passed into the callback.
+Flags which are passed into the callback.
 
 ```cpp
 KB_TRIAGE_DUMP_DATA_FLAG_BUGCHECK_ACTIVE 0x00000001
@@ -60,27 +60,27 @@ Indicates the callback is invoked during a bugcheck.  Currently, this flag is ex
 
 ### -field MaxVirtMemSize
 
-*In* - The maximum virtual memory size in bytes the callback is allowed to add to the dump. The cumulative size of the regions described in the data array should not exceed this size.
+The maximum virtual memory size in bytes the callback is allowed to add to the dump. The cumulative size of the regions described in the data array should not exceed this size.
 
 ### -field BugCheckCode
 
-*In* - This value informs the callback which bugcheck code that was passed to KeBugcheckEx. The callback routine can use this information to decide whether to add any memory to the crash dump file. For a full list of bug check codes, see the Bugcodes.h header file included in the WDK.
+This value informs the callback which bugcheck code that was passed to KeBugcheckEx. The callback routine can use this information to decide whether to add any memory to the crash dump file. For a full list of bug check codes, see the Bugcodes.h header file included in the WDK.
 
 ### -field BugCheckParameter1
 
-*In* - Bug Check Parameter 1. The bug check parameters inform the callback the bugcheck parameters that were passed to KeBugcheckEx.
+Bug Check Parameter 1. The bug check parameters inform the callback the bugcheck parameters that were passed to KeBugcheckEx.
 
 ### -field BugCheckParameter2
 
-*In* - Bug Check Parameter 2. The bug check parameters inform the callback the bugcheck parameters that were passed to KeBugcheckEx.
+Bug Check Parameter 2. The bug check parameters inform the callback the bugcheck parameters that were passed to KeBugcheckEx.
 
 ### -field BugCheckParameter3
 
-*In* - Bug Check Parameter 3. The bug check parameters inform the callback the bugcheck parameters that were passed to KeBugcheckEx.
+Bug Check Parameter 3. The bug check parameters inform the callback the bugcheck parameters that were passed to KeBugcheckEx.
 
 ### -field BugCheckParameter4
 
-*In* - Bug Check Parameter 4. The bug check parameters inform the callback the bugcheck parameters that were passed to KeBugcheckEx.
+Bug Check Parameter 4. The bug check parameters inform the callback the bugcheck parameters that were passed to KeBugcheckEx.
 
 ## -remarks
 

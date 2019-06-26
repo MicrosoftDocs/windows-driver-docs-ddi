@@ -57,15 +57,15 @@ Reserved for system use. Do not use.
 
 ### -field KbCallbackSecondaryDumpData
 
-The callback function provides device-specific information that should be appended to the secondary data area of the crash dump file when the system issues a bug check. For more information about this type of callback, see [Implementing KbCallbackSecondaryDumpData Callback Routine](https://docs.microsoft.com/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine#implementing-kbcallbacksecondarydumpdata-callback-routine).
+The callback function provides device-specific information that should be appended to the secondary data area of the crash dump file when the system issues a bug check. For more information about this type of callback, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine#implementing-kbcallbacksecondarydumpdata-callback-routine">Implementing KbCallbackSecondaryDumpData Callback Routine</a>.
 
 ### -field KbCallbackDumpIo
 
-Specifies that the system should call the callback function each time it writes data to a crash dump file. Drivers for devices that monitor the system state can use this type of callback. For more information about this type of callback, see [Implementing KbCallbackDumpIo Callback Routine](https://docs.microsoft.com/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine#implementing-kbcallbackdumpio-callback-routine).
+Specifies that the system should call the callback function each time it writes data to a crash dump file. Drivers for devices that monitor the system state can use this type of callback. For more information about this type of callback, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine#implementing-kbcallbackdumpio-callback-routine">Implementing KbCallbackDumpIo Callback Routine</a>.
 
 ### -field KbCallbackAddPages
 
-The callback function adds pages of driver-specific data to the primary section of the crash dump file. For more information about this type of callback, see [Implementing KbCallbackAddPages Callback Routine](https://docs.microsoft.com/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine#implementing-kbcallbackaddpages-callback-routine).
+The callback function adds pages of driver-specific data to the primary section of the crash dump file. For more information about this type of callback, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine#implementing-kbcallbackaddpages-callback-routine">Implementing KbCallbackAddPages Callback Routine</a>.
 
 ### -field KbCallbackSecondaryMultiPartDumpData
 

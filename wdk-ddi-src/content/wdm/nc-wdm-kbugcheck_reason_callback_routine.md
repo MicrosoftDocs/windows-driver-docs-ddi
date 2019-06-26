@@ -56,11 +56,11 @@ The <i>KbCallbackSecondaryDumpData</i> routine provides data to the system to ap
 
 ### -param Reason [in]
 
-An enumeration of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_kbugcheck_callback_reason">KBUGCHECK_CALLBACK_REASON</a> that specifies the reason for the call to the callback routine.
+An enumeration of type [**KBUGCHECK_CALLBACK_REASON**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_kbugcheck_callback_reason) that specifies the reason for the call to the callback routine.
 
 ### -param Record [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">KBUGCHECK_REASON_CALLBACK_RECORD</a> structure that the driver supplied when it registered this callback. For more information, see the description of the <i>CallbackRecord</i> parameter in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-keregisterbugcheckcallback">KeRegisterBugCheckCallback</a>.
+A pointer to the [**KBUGCHECK_REASON_CALLBACK_RECORD**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_kbugcheck_reason_callback_record) structure that the driver supplied when it registered this callback. For more information, see the description of the <i>CallbackRecord</i> parameter in [**KeRegisterBugCheckReasonCallback**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-keregisterbugcheckreasoncallback).
 
 ### -param ReasonSpecificData [in, out]
 
