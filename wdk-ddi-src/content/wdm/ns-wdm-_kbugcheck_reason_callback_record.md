@@ -39,6 +39,8 @@ targetos: Windows
 
 ## -description
 
+For more info, see [Windows kernel opaque structures](https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess).
+
 ## -struct-fields
 
 ### -field Entry
