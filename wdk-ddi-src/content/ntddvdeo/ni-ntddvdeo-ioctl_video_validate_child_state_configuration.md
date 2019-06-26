@@ -61,7 +61,7 @@ Returning NO_ERROR in the <b>Status</b> member of the VRP's <b>StatusBlock</b>
 
 </li>
 </ul>
-The video miniport driver carries out a validated display device switch when it receives an <a href="https://msdn.microsoft.com/library/windows/hardware/ff567840">IOCTL_VIDEO_SET_CHILD_STATE_CONFIGURATION</a> request.
+The video miniport driver carries out a validated display device switch when it receives an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddvdeo/ni-ntddvdeo-ioctl_video_set_child_state_configuration">IOCTL_VIDEO_SET_CHILD_STATE_CONFIGURATION</a> request.
 
 The miniport driver is not required to handle this modal IOCTL. The video port driver interprets a default return value from the miniport driver as permission to proceed with the display device switch.
 
@@ -75,7 +75,7 @@ The miniport driver is not required to handle this modal IOCTL. The video port d
 
 ### -input-buffer
 
-The VRP <b>InputBuffer</b> contains a <a href="https://msdn.microsoft.com/library/windows/hardware/ff570501">VIDEO_CHILD_STATE_CONFIGURATION</a> structure.
+The VRP <b>InputBuffer</b> contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/ns-video-_video_child_state_configuration">VIDEO_CHILD_STATE_CONFIGURATION</a> structure.
 
 
 ### -input-buffer-length
@@ -121,7 +121,7 @@ The miniport driver returns 1 in the VRP <b>OutputBuffer</b> if the video port d
 
 ### -status-block
 
-The miniport driver stores NO_ERROR in <b>Status</b> if it has successfully handled this IOCTL; otherwise, the driver stores a relevant video error code in <b>Status</b>. In either case, the miniport driver sets the <b>Information</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569732">STATUS_BLOCK</a> structure to <b>sizeof</b>(ULONG).
+The miniport driver stores NO_ERROR in <b>Status</b> if it has successfully handled this IOCTL; otherwise, the driver stores a relevant video error code in <b>Status</b>. In either case, the miniport driver sets the <b>Information</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/ns-video-_status_block">STATUS_BLOCK</a> structure to <b>sizeof</b>(ULONG).
 
 
 ## -see-also
@@ -129,15 +129,15 @@ The miniport driver stores NO_ERROR in <b>Status</b> if it has successfully hand
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567840">IOCTL_VIDEO_SET_CHILD_STATE_CONFIGURATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddvdeo/ni-ntddvdeo-ioctl_video_set_child_state_configuration">IOCTL_VIDEO_SET_CHILD_STATE_CONFIGURATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569732">STATUS_BLOCK</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/ns-video-_status_block">STATUS_BLOCK</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570501">VIDEO_CHILD_STATE_CONFIGURATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/ns-video-_video_child_state_configuration">VIDEO_CHILD_STATE_CONFIGURATION</a>
  
 
  

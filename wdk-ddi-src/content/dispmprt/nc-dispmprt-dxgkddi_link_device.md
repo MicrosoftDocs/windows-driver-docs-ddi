@@ -61,12 +61,12 @@ A pointer to a physical device object (PDO) that identifies a display adapter.
 
 ### -param MiniportDeviceContext [in]
 
-A handle to a context block associated with a display adapter. The display miniport driver's <a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a> function previously provided this handle to the Microsoft DirectX graphics kernel subsystem.
+A handle to a context block associated with a display adapter. The display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function previously provided this handle to the Microsoft DirectX graphics kernel subsystem.
 
 
 ### -param LinkedDevice [in, out]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff568197">LINKED_DEVICE</a> structure that contains information on the linked display adapter configuration.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/ns-dispmprt-_linked_device">LINKED_DEVICE</a> structure that contains information on the linked display adapter configuration.
 
 
 ## -returns
@@ -84,7 +84,7 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff56
 
 The <i>DxgkDdiLinkDevice</i> function should be implemented by drivers of display adapters that support linked display adapters.
 
-If this function is provided, the operating system will query the display miniport driver for the linked adapter configuration immediately after a call is made to <a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a>.
+If this function is provided, the operating system will query the display miniport driver for the linked adapter configuration immediately after a call is made to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a>.
 
 If the operating system does not enumerate all the expected display adapters in the structure pointed to by <i>LinkedDevice</i>, the system will start in VGA mode.
 
@@ -100,11 +100,11 @@ Plug and Play or power events cause the leading linked adapter to power up or st
 
 
 
-<a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568197">LINKED_DEVICE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/ns-dispmprt-_linked_device">LINKED_DEVICE</a>
  
 
  

@@ -86,12 +86,12 @@ Specifies the device IRQL (DIRQL) for the interrupt.
 
 ### -field Mode
 
-Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff554239">KINTERRUPT_MODE</a> value that determines whether the interrupt is level-sensitive or latched. 
+Specifies a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_kinterrupt_mode">KINTERRUPT_MODE</a> value that determines whether the interrupt is level-sensitive or latched. 
 
 
 ### -field Polarity
 
-Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff554243">KINTERRUPT_POLARITY</a> value that determines whether the interrupt is active-high or active-low. 
+Specifies a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_kinterrupt_polarity">KINTERRUPT_POLARITY</a> value that determines whether the interrupt is active-high or active-low. 
 
 
 ## -see-also
@@ -99,7 +99,7 @@ Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff55424
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550576">IO_INTERRUPT_MESSAGE_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_io_interrupt_message_info">IO_INTERRUPT_MESSAGE_INFO</a>
  
 
  

@@ -56,7 +56,7 @@ The<b> KsGateRemoveOnInputFromAnd </b>function removes an existing input that is
 
 ### -param AndGate [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff562566">KSGATE</a> structure representing the AND gate from which to remove an ON input.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksgate">KSGATE</a> structure representing the AND gate from which to remove an ON input.
 
 
 ## -returns
@@ -74,7 +74,7 @@ None
 
 <b>KsGateRemoveOnInputFromAnd</b> should only be used on gates that were specifically created as AND gates; AVStream does not verify that the given gate is truly an AND gate.
 
-For more information, see <a href="https://msdn.microsoft.com/c5592f92-a432-44e3-afe0-60fcf917a443">Flow Control Gates in AVStream</a>.
+For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/flow-control-gates-in-avstream">Flow Control Gates in AVStream</a>.
 
 This call is an empty function. It should be used for code readability and clarity. 
 
@@ -86,23 +86,23 @@ This call is an empty function. It should be used for code readability and clari
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562567">KsGateAddOffInputToAnd</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksgateaddoffinputtoand">KsGateAddOffInputToAnd</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562569">KsGateAddOnInputToAnd</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksgateaddoninputtoand">KsGateAddOnInputToAnd</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562578">KsGateRemoveOffInputFromAnd</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksgateremoveoffinputfromand">KsGateRemoveOffInputFromAnd</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562589">KsGateTurnInputOff</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksgateturninputoff">KsGateTurnInputOff</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562591">KsGateTurnInputOn</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksgateturninputon">KsGateTurnInputOn</a>
  
 
  

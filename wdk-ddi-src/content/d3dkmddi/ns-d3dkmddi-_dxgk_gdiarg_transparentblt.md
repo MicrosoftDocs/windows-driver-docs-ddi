@@ -56,14 +56,14 @@ The DXGK_GDIARG_TRANSPARENTBLT structure describes the characteristics of a GDI 
 
 ### -field SrcRect
 
-[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that defines the rectangular area to be copied. This rectangle is specified in the coordinate system of the source surface and is defined by two points: upper left and lower right. The two points that define the rectangle are always well ordered. 
+[in] A <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a> structure that defines the rectangular area to be copied. This rectangle is specified in the coordinate system of the source surface and is defined by two points: upper left and lower right. The two points that define the rectangle are always well ordered. 
 
 For more information, see the Remarks section.
 
 
 ### -field DstRect
 
-[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that defines the rectangular area to be modified. This rectangle is specified in the coordinate system of the destination surface and is defined by two points: upper left and lower right. The rectangle is lower-right exclusive; that is, its lower and right edges are not a part of the bit-block transfer. The two points that define the rectangle are always well ordered. 
+[in] A <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a> structure that defines the rectangular area to be modified. This rectangle is specified in the coordinate system of the destination surface and is defined by two points: upper left and lower right. The rectangle is lower-right exclusive; that is, its lower and right edges are not a part of the bit-block transfer. The two points that define the rectangle are always well ordered. 
 
 The destination rectangle defined by <b>DstRect</b> can exceed the bounds of the destination surface, but sub-rectangles cannot. Additionally, all sub-rectangles are guaranteed to fit inside the destination surface. Sub-rectangles can be constrained further by a bounding rectangle that is smaller than the destination rectangle. 
 
@@ -87,7 +87,7 @@ For more information, see the Remarks section.
 ### -field Color
 
 
-      [in] Specifies the physical transparent color in the source surface, in 32-bit ARGB unsigned pixel format (as defined by the D3DDDIFMT_A8R8G8B8 value of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544312">D3DDDIFORMAT</a> enumeration). Any pixels on the source surface that match the transparent color that is specified by <b>Color</b> are not copied.
+      [in] Specifies the physical transparent color in the source surface, in 32-bit ARGB unsigned pixel format (as defined by the D3DDDIFMT_A8R8G8B8 value of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dukmdt/ne-d3dukmdt-_d3dddiformat">D3DDDIFORMAT</a> enumeration). Any pixels on the source surface that match the transparent color that is specified by <b>Color</b> are not copied.
      
 
 
@@ -108,7 +108,7 @@ For more information, see the Remarks section.
 ### -field Flags
 
 
-      [in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff548468">D3DKM_TRANSPARENTBLTFLAGS</a> structure that specifies the display adapter's hardware-accelerated transparent bit-block transfer capabilities.
+      [in] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_d3dkm_transparentbltflags">D3DKM_TRANSPARENTBLTFLAGS</a> structure that specifies the display adapter's hardware-accelerated transparent bit-block transfer capabilities.
      
 
 
@@ -149,7 +149,7 @@ In this case, a value of 0x00FFFFFF in ARGB format indicates alpha = 0, hence al
 
 If a stretch bit-block transfer operation is required, the x and y stretch ratios are computed respectively as the ratios of the x and y sizes of <b>DstRect</b> and <b>SrcRect</b>. Additionally, the stretch operation will proceed as if the COLORONCOLOR value in <i>Wingdi.h</i> is set. In a shrinking bit-block transfer, enough pixels should be ignored so that pixels do not need to be combined. In a stretching bit-block transfer, pixels should be replicated.
 
-For more information about transparent bit-block transfers, see <a href="https://msdn.microsoft.com/76e07c66-7e57-42d7-b6da-c13c8e9a8dee">Copying Bitmaps</a>.
+For more information about transparent bit-block transfers, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/copying-bitmaps">Copying Bitmaps</a>.
 
 When sub-rectangles are transformed to the source surface space, the result is guaranteed to be within the source surface. The transformation of a sub-rectangle's coordinates in the destination surface to coordinates  in the source surface is defined by the following formulas, where
 
@@ -178,15 +178,15 @@ int Ys = truncate((Yd - DstRect.top + 0.5) * Hs/Hd + SrcRect.top)
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548468">D3DKM_TRANSPARENTBLTFLAGS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_d3dkm_transparentbltflags">D3DKM_TRANSPARENTBLTFLAGS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562026">DXGK_RENDERKM_COMMAND</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgk_renderkm_command">DXGK_RENDERKM_COMMAND</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a>
  
 
  

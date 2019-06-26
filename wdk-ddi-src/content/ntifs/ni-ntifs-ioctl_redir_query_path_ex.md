@@ -62,7 +62,7 @@ MUP is a kernel-mode component responsible for channeling all remote file system
 
 For network redirectors that conform to the Windows Vista redirector model, MUP is involved even when a mapped network drive is used. File operations performed on the mapped drive go through MUP to the network redirector. Note that in this case, MUP simply passes the operation to the network redirector that is involved.
 
-The IOCTL_REDIR_QUERY_PATH_EX control code is sent to network redirectors that have registered with MUP as Universal Naming Convention (UNC) providers by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff547184">FsRtlRegisterUncProviderEx</a>. There can be multiple UNC providers registered with MUP. 
+The IOCTL_REDIR_QUERY_PATH_EX control code is sent to network redirectors that have registered with MUP as Universal Naming Convention (UNC) providers by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlregisteruncproviderex">FsRtlRegisterUncProviderEx</a>. There can be multiple UNC providers registered with MUP. 
 
 The prefix resolution operation serves two consequences:
 <ul>
@@ -271,11 +271,11 @@ If a network redirector claims a server name (\\server, for example), all reques
 For more information, see the following sections in the Design Guide:
 
 
-<a href="https://msdn.microsoft.com/07c4a498-10c7-41b2-aaeb-73cab946f392">Support for UNC Naming and MUP</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/support-for-unc-naming-and-mup">Support for UNC Naming and MUP</a>
 
 
 
-<a href="https://msdn.microsoft.com/8ca2f9bc-14f1-45d3-a397-f3e5459cf8ec">MUP Changes in Microsoft Windows Vista</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/mup-changes-in-microsoft-windows-vista">MUP Changes in Microsoft Windows Vista</a>
 
 
 
@@ -290,15 +290,15 @@ For more information, see the following sections in the Design Guide:
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547178">FsRtlRegisterUncProvider</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlregisteruncprovider">FsRtlRegisterUncProvider</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547184">FsRtlRegisterUncProviderEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlregisteruncproviderex">FsRtlRegisterUncProviderEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548313">IOCTL_REDIR_QUERY_PATH</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ni-ntifs-ioctl_redir_query_path">IOCTL_REDIR_QUERY_PATH</a>
  
 
  

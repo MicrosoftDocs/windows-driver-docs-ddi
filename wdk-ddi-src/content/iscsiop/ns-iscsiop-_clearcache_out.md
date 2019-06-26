@@ -46,7 +46,7 @@ req.typenames: ClearCache_OUT, *PClearCache_OUT
 ## -description
 
 
-The ClearCache_OUT structure holds the output data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552442">ClearCache</a> method.
+The ClearCache_OUT structure holds the output data for the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/clearcache">ClearCache</a> method.
 
 
 ## -struct-fields
@@ -56,7 +56,7 @@ The ClearCache_OUT structure holds the output data for the <a href="https://msdn
 
 ### -field Status
 
-On output from <b>ClearCache</b>, the status of the <b>ClearCache</b> operation. For a list of status qualifiers, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>.
+On output from <b>ClearCache</b>, the status of the <b>ClearCache</b> operation. For a list of status qualifiers, see <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/iscsi-status-qualifiers">ISCSI_STATUS_QUALIFIERS</a>.
 
 
 ## -remarks
@@ -73,15 +73,15 @@ You must implement this method.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552442">ClearCache</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/clearcache">ClearCache</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/iscsi-status-qualifiers">ISCSI_STATUS_QUALIFIERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563135">MSiSCSI_SecurityConfigOperations WMI Class</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msiscsi-securityconfigoperations-wmi-class">MSiSCSI_SecurityConfigOperations WMI Class</a>
  
 
  

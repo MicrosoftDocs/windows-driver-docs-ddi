@@ -49,7 +49,7 @@ req.typenames:
 Enables or disables CDROM streaming mode on a per-handle basis for raw read and write requests. 
 
 To perform this operation, call the 
-   <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> 
+   <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> 
    function and specify the <b>IOCTL_CDROM_ENABLE_STREAMING</b> I/O control request as the <i>dwIoControlCode</i> parameter.
 
 
@@ -61,13 +61,13 @@ To perform this operation, call the
 ### -input-buffer
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/gg441238">CDROM_STREAMING_CONTROL</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdrm/ns-ntddcdrm-_cdrom_streaming_control">CDROM_STREAMING_CONTROL</a>
 
 
 
 ### -input-buffer-length
 
-Length of a <a href="https://msdn.microsoft.com/library/windows/hardware/gg441238">CDROM_STREAMING_CONTROL</a>.
+Length of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdrm/ns-ntddcdrm-_cdrom_streaming_control">CDROM_STREAMING_CONTROL</a>.
 
 
 ### -output-buffer
@@ -147,11 +147,11 @@ By default, streaming is disabled for all newly opened raw CDROM handles. A play
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/gg441238">CDROM_STREAMING_CONTROL</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdrm/ns-ntddcdrm-_cdrom_streaming_control">CDROM_STREAMING_CONTROL</a>
 
 
 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>
  
 
  

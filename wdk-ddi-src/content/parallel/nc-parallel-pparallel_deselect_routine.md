@@ -67,7 +67,7 @@ typedef NTSTATUS (*PPARALLEL_DESELECT_ROUTINE)(
 
 ### -param DeselectContext [in]
 
-Pointer to the device extension of a functional device object (<a href="https://msdn.microsoft.com/f697e0db-1db0-4a81-94d8-0ca079885480">FDO</a>) that represents a parallel port.
+Pointer to the device extension of a functional device object (<a href="https://docs.microsoft.com/windows-hardware/drivers/">FDO</a>) that represents a parallel port.
 
 
 ### -param DeselectCommand [in]
@@ -173,7 +173,7 @@ To obtain a pointer to the system-supplied <i>PPARALLEL_DESELECT_ROUTINE</i> cal
 
 A kernel-mode driver can use an <a href="..\parallel\ni-parallel-ioctl_internal_deselect_device.md">IOCTL_INTERNAL_DESELECT_DEVICE</a> request or the <i>PPARALLEL_CLEAR_CHIP_MODE</i> callback to deselect a device on a parallel port represented by a parallel port. To deselect a device, a caller should have the parallel port allocated. If the caller does not set the PAR_HAVE_PORT_KEEP_PORT flag, the system-supplied function driver for parallel ports frees the parallel port after deselecting the device.
 
-For more information, see <a href="https://msdn.microsoft.com/1a3ac1b1-9180-4b71-8740-70c6fbe9a885">Selecting and Deselecting an IEEE 1284 Device Attached to a ParallelPort</a>.
+For more information, see <a href="https://docs.microsoft.com/previous-versions/ff544793(v=vs.85)">Selecting and Deselecting an IEEE 1284 Device Attached to a ParallelPort</a>.
 
 
 

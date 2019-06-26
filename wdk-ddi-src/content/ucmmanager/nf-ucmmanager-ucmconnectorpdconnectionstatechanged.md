@@ -57,19 +57,19 @@ Notifies the USB connector manager framework extension (UcmCx) with the connecti
 
 ### -param Connector [in]
 
-Handle to the connector object that the client driver received in the previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/mt187909">UcmConnectorCreate</a>.
+Handle to the connector object that the client driver received in the previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucmmanager/nf-ucmmanager-ucmconnectorcreate">UcmConnectorCreate</a>.
 
 
 ### -param Params [in]
 
-Pointer to a  <a href="https://msdn.microsoft.com/library/windows/hardware/mt187926">UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS</a> structure contains driver-supplied state of the connector.
+Pointer to a  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucmmanager/ns-ucmmanager-_ucm_connector_pd_conn_state_changed_params">UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS</a> structure contains driver-supplied state of the connector.
 
 
 ## -returns
 
 
 
-<b>UcmConnectorPdConnectionStateChanged</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method can return an appropriate <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> value. 
+<b>UcmConnectorPdConnectionStateChanged</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method can return an appropriate <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> value. 
 
 
 
@@ -79,7 +79,7 @@ Pointer to a  <a href="https://msdn.microsoft.com/library/windows/hardware/mt187
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt187909">UcmConnectorCreate</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucmmanager/nf-ucmmanager-ucmconnectorcreate">UcmConnectorCreate</a>
  
 
  

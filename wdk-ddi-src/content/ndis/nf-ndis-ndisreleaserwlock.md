@@ -60,7 +60,7 @@ The
 ### -param Lock [in]
 
 A pointer to an opaque 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff567279">NDIS_RW_LOCK_EX</a> variable that represents a
+     <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff567279(v=vs.85)">NDIS_RW_LOCK_EX</a> variable that represents a
      lock. The caller can use this lock to gain write or read access to resources that are shared between
      non-ISR driver threads.
 
@@ -68,7 +68,7 @@ A pointer to an opaque
 ### -param LockState [in]
 
 A pointer to an opaque 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff557070">LOCK_STATE_EX</a> variable that tracks the state
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_lock_state_ex">LOCK_STATE_EX</a> variable that tracks the state
      of the lock. This variable exists in the interval between the times that the caller obtains and releases
      the lock. The caller must use a different variable of type LOCK_STATE_EX for each attempt that it makes
      to obtain the lock from the same non-ISR driver thread.
@@ -89,15 +89,15 @@ None
 
 NDIS drivers call the 
     <b>NdisReleaseRWLock</b> function to release a read/write lock that was previously obtained by calling the    
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff560697">NdisAcquireRWLockRead</a> or 
-    <a href="https://msdn.microsoft.com/124302d7-0776-4025-b71f-ce6300f97f49">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisacquirerwlockread">NdisAcquireRWLockRead</a> or 
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisacquirerwlockwrite">
     NdisAcquireRWLockWrite</a> function.
 
 A driver must obtain a read/write lock before the driver can call 
     <b>NdisReleaseRWLock</b>. Each call to obtain a lock requires a reciprocal call to 
     <b>NdisReleaseRWLock</b>.
 
-The acquisition of an <a href="https://msdn.microsoft.com/library/windows/hardware/ff567279">NDIS_RW_LOCK_EX</a> is affinitized to the current processor.  Drivers must call <b>NdisReleaseRWLock</b> on the same processor that made the corresponding call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff560697">NdisAcquireRWLockRead</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff560698">NdisAcquireRWLockWrite</a>.
+The acquisition of an <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff567279(v=vs.85)">NDIS_RW_LOCK_EX</a> is affinitized to the current processor.  Drivers must call <b>NdisReleaseRWLock</b> on the same processor that made the corresponding call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisacquirerwlockread">NdisAcquireRWLockRead</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisacquirerwlockwrite">NdisAcquireRWLockWrite</a>.
 
 <b>NdisReleaseRWLock</b> restores the original IRQL that was used by its caller before the lock was
     obtained.
@@ -110,19 +110,19 @@ The acquisition of an <a href="https://msdn.microsoft.com/library/windows/hardwa
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557070">LOCK_STATE_EX</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_lock_state_ex">LOCK_STATE_EX</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567279">NDIS_RW_LOCK_EX</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff567279(v=vs.85)">NDIS_RW_LOCK_EX</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560697">NdisAcquireRWLockRead</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisacquirerwlockread">NdisAcquireRWLockRead</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560698">NdisAcquireRWLockWrite</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisacquirerwlockwrite">NdisAcquireRWLockWrite</a>
  
 
  

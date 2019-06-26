@@ -132,11 +132,11 @@ None.
 
 
 
-<a href="https://msdn.microsoft.com/4a97301a-12cc-442f-a080-446ec9e1e245">IPortableDeviceValues Interface</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portabledevicetypes/nn-portabledevicetypes-iportabledevicevalues">IPortableDeviceValues Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/58e21e7c-bb66-4088-b011-a2e3df28944c">IPortableDeviceValues::SetErrorValue</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portabledevicetypes/nf-portabledevicetypes-iportabledevicevalues-seterrorvalue">IPortableDeviceValues::SetErrorValue</a>
  
 
  

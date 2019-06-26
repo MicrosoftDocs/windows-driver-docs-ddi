@@ -79,11 +79,11 @@ Highest-level drivers can call this routine while running in the context of the 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551938">KeAreApcsDisabled</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-keareapcsdisabled">KeAreApcsDisabled</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552021">KeEnterCriticalRegion</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-keentercriticalregion">KeEnterCriticalRegion</a>
  
 
  

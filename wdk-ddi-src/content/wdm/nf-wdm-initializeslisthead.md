@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <b>InitializeSListHead</b> routine (or ExInitializeSListHead) initializes an <a href="https://msdn.microsoft.com/library/windows/hardware/ff563810">SLIST_HEADER</a> structure that represents the head of a sequenced singly linked list.
+The <b>InitializeSListHead</b> routine (or ExInitializeSListHead) initializes an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">SLIST_HEADER</a> structure that represents the head of a sequenced singly linked list.
 
 
 ## -parameters
@@ -56,7 +56,7 @@ The <b>InitializeSListHead</b> routine (or ExInitializeSListHead) initializes an
 
 ### -param SListHead [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563810">SLIST_HEADER</a> structure to initialize. The structure must be 16-byte aligned on 64-bit platforms. 
+A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">SLIST_HEADER</a> structure to initialize. The structure must be 16-byte aligned on 64-bit platforms. 
 
 
 ## -returns
@@ -72,7 +72,7 @@ None
 
 
 
-For more information about using this routine to implement a sequenced singly linked list, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563802">Singly and Doubly Linked Lists</a>.
+For more information about using this routine to implement a sequenced singly linked list, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/singly-and-doubly-linked-lists">Singly and Doubly Linked Lists</a>.
 
 Callers of <b>InitializeSListHead or ExInitializeSListHead</b> can be running at any IRQL. If <b>ExInitializeSListHead</b> is called at IRQL >= DISPATCH_LEVEL the storage for <i>SListHead</i> must be resident.
 
@@ -84,11 +84,11 @@ Callers of <b>InitializeSListHead or ExInitializeSListHead</b> can be running at
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545301">ExInitializeNPagedLookasideList</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-exinitializenpagedlookasidelist">ExInitializeNPagedLookasideList</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545309">ExInitializePagedLookasideList</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-exinitializepagedlookasidelist">ExInitializePagedLookasideList</a>
 
 
 
@@ -96,19 +96,19 @@ Callers of <b>InitializeSListHead or ExInitializeSListHead</b> can be running at
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545414">ExInterlockedPopEntrySList</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-exinterlockedpopentryslist">ExInterlockedPopEntrySList</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545422">ExInterlockedPushEntrySList</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-exinterlockedpushentryslist">ExInterlockedPushEntrySList</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545502">ExQueryDepthSList</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-exquerydepthslist">ExQueryDepthSList</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552160">KeInitializeSpinLock</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-keinitializespinlock">KeInitializeSpinLock</a>
  
 
  

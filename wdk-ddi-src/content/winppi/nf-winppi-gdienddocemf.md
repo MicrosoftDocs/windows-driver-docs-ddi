@@ -58,7 +58,7 @@ The <b>GdiEndDocEMF</b> function ends EMF playback operations for an EMF-formatt
 
 ### -param SpoolFileHandle
 
-Caller-supplied spool file handle, obtained by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff549517">GdiGetSpoolFileHandle</a>.
+Caller-supplied spool file handle, obtained by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winppi/nf-winppi-gdigetspoolfilehandle">GdiGetSpoolFileHandle</a>.
 
 
 ## -returns
@@ -74,11 +74,11 @@ If the operation succeeds, the function returns <b>TRUE</b>. Otherwise the funct
 
 
 
-The <b>GdiEndDocEMF</b> function is exported by gdi32.dll for use within a print processor's <a href="https://msdn.microsoft.com/library/windows/hardware/ff560724">PrintDocumentOnPrintProcessor</a> function.
+The <b>GdiEndDocEMF</b> function is exported by gdi32.dll for use within a print processor's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-printdocumentonprintprocessor">PrintDocumentOnPrintProcessor</a> function.
 
-The function performs operations that must be performed after a print job's EMF records have been played. The function calls the spooler's <b>EndDoc</b> function (described in the Microsoft Window SDK documentation), which in turn calls the printer driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff556215">DrvEndDoc</a> function.
+The function performs operations that must be performed after a print job's EMF records have been played. The function calls the spooler's <b>EndDoc</b> function (described in the Microsoft Window SDK documentation), which in turn calls the printer driver's <a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvenddoc">DrvEndDoc</a> function.
 
-For additional information, see <a href="https://msdn.microsoft.com/2ad62308-ab42-4475-ac42-f753d5091251">Using GDI Functions in Print Processors</a>.
+For additional information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/using-gdi-functions-in-print-processors">Using GDI Functions in Print Processors</a>.
 
 
 
@@ -88,7 +88,7 @@ For additional information, see <a href="https://msdn.microsoft.com/2ad62308-ab4
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549534">GdiStartDocEMF</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winppi/nf-winppi-gdistartdocemf">GdiStartDocEMF</a>
  
 
  

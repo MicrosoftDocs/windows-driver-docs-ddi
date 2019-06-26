@@ -101,11 +101,11 @@ Specifies whether the output uses conventional YCbCr or extended YCbCr (xvYCC). 
 
 ### -field Nominal_Range
 
-[in] A UINT value that specifies that the luminance range of YUV data is described by the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265173">D3D11_1DDI_VIDEO_PROCESSOR_NOMINAL_RANGE</a> enumeration. The default state value is zero, which indicates the studio luminance range of 16 to 235, inclusive [16, 235].
+[in] A UINT value that specifies that the luminance range of YUV data is described by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_video_processor_nominal_range">D3D11_1DDI_VIDEO_PROCESSOR_NOMINAL_RANGE</a> enumeration. The default state value is zero, which indicates the studio luminance range of 16 to 235, inclusive [16, 235].
 
-When YUV-format data is converted to RGB format, the luminance range specified by <a href="https://msdn.microsoft.com/library/windows/hardware/dn265173">D3D11_1DDI_VIDEO_PROCESSOR_NOMINAL_RANGE</a> is applied to the YUV data before the conversion to RGB.
+When YUV-format data is converted to RGB format, the luminance range specified by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_video_processor_nominal_range">D3D11_1DDI_VIDEO_PROCESSOR_NOMINAL_RANGE</a> is applied to the YUV data before the conversion to RGB.
 
-For more information on luminance range, see <a href="https://msdn.microsoft.com/D76FFB8C-CA42-446E-826F-52982B1849E5">YUV format ranges in Windows 8.1</a>.
+For more information on luminance range, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/yuv-format-ranges">YUV format ranges in Windows 8.1</a>.
 
 Supported starting with Windows 8.1.
 
@@ -120,7 +120,7 @@ Reserved for system use. Set to zero.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265173">D3D11_1DDI_VIDEO_PROCESSOR_NOMINAL_RANGE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_video_processor_nominal_range">D3D11_1DDI_VIDEO_PROCESSOR_NOMINAL_RANGE</a>
  
 
  

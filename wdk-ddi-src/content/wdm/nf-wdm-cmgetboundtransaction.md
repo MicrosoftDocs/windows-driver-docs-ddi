@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <b>CmGetBoundTransaction</b> routine returns a pointer to the transaction object that represents the <a href="https://msdn.microsoft.com/b558ace9-b416-4572-ac94-58a083c9d33b">transaction</a>, if any, that is associated with a specified registry key object. 
+The <b>CmGetBoundTransaction</b> routine returns a pointer to the transaction object that represents the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-kernel-transaction-manager">transaction</a>, if any, that is associated with a specified registry key object. 
 
 
 ## -parameters
@@ -56,12 +56,12 @@ The <b>CmGetBoundTransaction</b> routine returns a pointer to the transaction ob
 
 ### -param Cookie [in]
 
-The cookie value that the driver previously obtain by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff541918">CmRegisterCallback</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff541921">CmRegisterCallbackEx</a>. 
+The cookie value that the driver previously obtain by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-cmregistercallback">CmRegisterCallback</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-cmregistercallbackex">CmRegisterCallbackEx</a>. 
 
 
 ### -param Object [in]
 
-The pointer value that the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a> callback routine received in one of the <b>REG_<i>XXX</i>_KEY_INFORMATION</b> structures. 
+The pointer value that the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-ex_callback_function">RegistryCallback</a> callback routine received in one of the <b>REG_<i>XXX</i>_KEY_INFORMATION</b> structures. 
 
 
 ## -returns
@@ -79,9 +79,9 @@ The pointer value that the driver's <a href="https://msdn.microsoft.com/library/
 
 The <b>CmGetBoundTransaction</b> routine is available on Windows Vista and later versions of Windows.
 
-For more information about <b>CmGetBoundTransaction</b> and filtering registry operations, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff545879">Filtering Registry Calls</a>.
+For more information about <b>CmGetBoundTransaction</b> and filtering registry operations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/filtering-registry-calls">Filtering Registry Calls</a>.
 
-For more information about transactions, see <a href="https://msdn.microsoft.com/b558ace9-b416-4572-ac94-58a083c9d33b">Kernel Transaction Manager Design Guide</a>.
+For more information about transactions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-kernel-transaction-manager">Kernel Transaction Manager Design Guide</a>.
 
 
 
@@ -91,15 +91,15 @@ For more information about transactions, see <a href="https://msdn.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541918">CmRegisterCallback</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-cmregistercallback">CmRegisterCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541921">CmRegisterCallbackEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-cmregistercallbackex">CmRegisterCallbackEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-ex_callback_function">RegistryCallback</a>
  
 
  

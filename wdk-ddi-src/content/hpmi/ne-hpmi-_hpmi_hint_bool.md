@@ -81,15 +81,15 @@ Value is not used.
 
 
 
-<a href="https://msdn.microsoft.com/A974998F-C9AF-496E-88B1-510413C17C4A">HPMI_BATTERY_UTILIZATION_HINT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hpmi/ns-hpmi-_hpmi_battery_utilization_hint">HPMI_BATTERY_UTILIZATION_HINT</a>
 
 
 
-<a href="https://msdn.microsoft.com/CE326F69-64A4-466E-8A02-5C08AFF8490C">IOCTL_HPMI_BATTERY_UTILIZATION_HINT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hpmi/ni-hpmi-ioctl_hpmi_battery_utilization_hint">IOCTL_HPMI_BATTERY_UTILIZATION_HINT</a>
 
 
 
-<a href="https://msdn.microsoft.com/35934D6C-3FB4-4AD4-AA50-BD3A7790269F">hpmi.h</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hpmi/index">hpmi.h</a>
  
 
  

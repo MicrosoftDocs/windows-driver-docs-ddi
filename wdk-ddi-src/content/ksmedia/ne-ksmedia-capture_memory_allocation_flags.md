@@ -46,7 +46,7 @@ req.typenames: CAPTURE_MEMORY_ALLOCATION_FLAGS, *PCAPTURE_MEMORY_ALLOCATION_FLAG
 ## -description
 
 
-The CAPTURE_MEMORY_ALLOCATION_FLAGS enumeration defines types of memory surfaces to which AVStream minidrivers can capture audio and video data. The <a href="https://msdn.microsoft.com/library/windows/hardware/ff565209">KSPROPERTY_PREFERRED_CAPTURE_SURFACE</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff565130">KSPROPERTY_CURRENT_CAPTURE_SURFACE</a> requests use this type to specify property values.
+The CAPTURE_MEMORY_ALLOCATION_FLAGS enumeration defines types of memory surfaces to which AVStream minidrivers can capture audio and video data. The <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-preferred-capture-surface">KSPROPERTY_PREFERRED_CAPTURE_SURFACE</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-current-capture-surface">KSPROPERTY_CURRENT_CAPTURE_SURFACE</a> requests use this type to specify property values.
 
 
 ## -enum-fields
@@ -89,11 +89,11 @@ Not currently supported.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565130">KSPROPERTY_CURRENT_CAPTURE_SURFACE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-current-capture-surface">KSPROPERTY_CURRENT_CAPTURE_SURFACE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565209">KSPROPERTY_PREFERRED_CAPTURE_SURFACE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-preferred-capture-surface">KSPROPERTY_PREFERRED_CAPTURE_SURFACE</a>
  
 
  

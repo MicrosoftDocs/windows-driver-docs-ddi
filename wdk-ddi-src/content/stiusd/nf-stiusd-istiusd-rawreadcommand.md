@@ -82,7 +82,7 @@ If the operation succeeds, the method should return S_OK. Otherwise, it should r
 
 
 
-It is only necessary to implement <b>IStiUSD::RawReadCommand</b> if command and data information are read from a device by different methods. For other devices, <a href="https://msdn.microsoft.com/library/windows/hardware/ff543834">IStiUSD::RawReadData</a> can be used for both commands and data. If the call is not implemented, it must return STIERR_UNSUPPORTED.
+It is only necessary to implement <b>IStiUSD::RawReadCommand</b> if command and data information are read from a device by different methods. For other devices, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/stiusd/nf-stiusd-istiusd-rawreaddata">IStiUSD::RawReadData</a> can be used for both commands and data. If the call is not implemented, it must return STIERR_UNSUPPORTED.
 
 Implementation of this method, along with the meaning of buffer contents, are vendor-defined.
 
@@ -94,11 +94,11 @@ Implementation of this method, along with the meaning of buffer contents, are ve
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543758">IStiDevice::RawReadCommand</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sti/nf-sti-istidevice-rawreadcommand">IStiDevice::RawReadCommand</a>
 
 
 
-<a href="https://msdn.microsoft.com/62740263-5bbb-48e1-be3d-9ee9cb37d6b9">IStiUSD</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_image/index">IStiUSD</a>
  
 
  

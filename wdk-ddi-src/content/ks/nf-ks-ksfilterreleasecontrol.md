@@ -56,7 +56,7 @@ The<b> KsFilterReleaseControl </b>function releases the control mutex for the AV
 
 ### -param Filter [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff562522">KSFILTER</a> structure representing the AVStream filter for which to release the control mutex.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksfilter">KSFILTER</a> structure representing the AVStream filter for which to release the control mutex.
 
 
 ## -returns
@@ -72,9 +72,9 @@ None
 
 
 
-This function is an inline call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff566780">KsReleaseControl</a> with the appropriate typecasting. When manipulating a filter, minidrivers should call this function instead of calling <b>KsReleaseControl</b> directly.
+This function is an inline call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksreleasecontrol">KsReleaseControl</a> with the appropriate typecasting. When manipulating a filter, minidrivers should call this function instead of calling <b>KsReleaseControl</b> directly.
 
-For a description of the filter control mutex, see <a href="https://msdn.microsoft.com/011edaaa-7449-41c3-8cfb-0d319901af8b">Mutexes in AVStream</a>.
+For a description of the filter control mutex, see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/mutexes-in-avstream">Mutexes in AVStream</a>.
 
 
 
@@ -84,11 +84,11 @@ For a description of the filter control mutex, see <a href="https://msdn.microso
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562523">KsFilterAcquireControl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksfilteracquirecontrol">KsFilterAcquireControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566780">KsReleaseControl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksreleasecontrol">KsReleaseControl</a>
  
 
  

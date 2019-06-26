@@ -56,7 +56,7 @@ The <b>VideoPortInitialize</b> function performs part of the miniport driver ini
 
 ### -param Argument1
 
-A pointer with which the operating system called <a href="https://msdn.microsoft.com/library/windows/hardware/ff556159">DriverEntry of Video Miniport Driver</a>.
+A pointer with which the operating system called <a href="https://docs.microsoft.com/windows-hardware/drivers/display/driverentry-of-video-miniport-driver">DriverEntry of Video Miniport Driver</a>.
 
 
 ### -param Argument2
@@ -66,7 +66,7 @@ A second pointer with which the operating system called <b>DriverEntry</b>.
 
 ### -param HwInitializationData
 
-Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff570505">VIDEO_HW_INITIALIZATION_DATA</a> structure on the stack. The miniport driver's <b>DriverEntry</b> routine zero-initialized this structure and then filled it in with driver-specific configuration information describing a video adapter that the miniport driver can support.
+Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/ns-video-_video_hw_initialization_data">VIDEO_HW_INITIALIZATION_DATA</a> structure on the stack. The miniport driver's <b>DriverEntry</b> routine zero-initialized this structure and then filled it in with driver-specific configuration information describing a video adapter that the miniport driver can support.
 
 
 ### -param HwContext
@@ -87,7 +87,7 @@ Must be <b>NULL</b>.
 
 
 
-Every video miniport driver must call <b>VideoPortInitialize</b> from its <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> function. <b>DriverEntry</b> can call <b>VideoPortInitialize</b> only after it has first zero-initialized and then set up the <a href="https://msdn.microsoft.com/library/windows/hardware/ff570505">VIDEO_HW_INITIALIZATION_DATA</a> structure. <b>VideoPortInitialize</b> can be called only from a miniport driver's <b>DriverEntry</b> function.
+Every video miniport driver must call <b>VideoPortInitialize</b> from its <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> function. <b>DriverEntry</b> can call <b>VideoPortInitialize</b> only after it has first zero-initialized and then set up the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/ns-video-_video_hw_initialization_data">VIDEO_HW_INITIALIZATION_DATA</a> structure. <b>VideoPortInitialize</b> can be called only from a miniport driver's <b>DriverEntry</b> function.
 
 The <b>VideoPortInitialize</b> function:
 
@@ -97,7 +97,7 @@ Checks the validity of the miniport driver's VIDEO_HW_INITIALIZATION_DATA specif
 
 </li>
 <li>
-Allocates memory for and zero-initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/ff570531">VIDEO_PORT_CONFIG_INFO</a> structure.
+Allocates memory for and zero-initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/ns-video-_video_port_config_info">VIDEO_PORT_CONFIG_INFO</a> structure.
 
 </li>
 <li>
@@ -127,27 +127,27 @@ The miniport driver's <b>DriverEntry</b> routine propagates the value returned b
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556159">DriverEntry of Video Miniport Driver</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/display/driverentry-of-video-miniport-driver">DriverEntry of Video Miniport Driver</a>
 
 
 
-<a href="https://msdn.microsoft.com/8c880eff-4b4c-439e-9239-f2343c1fe084">HwVidFindAdapter</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nc-video-pvideo_hw_find_adapter">HwVidFindAdapter</a>
 
 
 
-<a href="https://msdn.microsoft.com/0e43de21-59e5-4368-8ea2-34fa52e99950">HwVidInitialize</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nc-video-pvideo_hw_initialize">HwVidInitialize</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570505">VIDEO_HW_INITIALIZATION_DATA</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/ns-video-_video_hw_initialization_data">VIDEO_HW_INITIALIZATION_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570531">VIDEO_PORT_CONFIG_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/ns-video-_video_port_config_info">VIDEO_PORT_CONFIG_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570493">VideoPortZeroMemory</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportzeromemory">VideoPortZeroMemory</a>
  
 
  

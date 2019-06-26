@@ -84,7 +84,7 @@ The D3DDDIARG_SETMATERIAL structure describes the material properties that are u
 
 
 
-<a href="https://msdn.microsoft.com/e1273478-a450-44fa-95d5-ee86cb3a46b2">SetMaterial</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_setmaterial">SetMaterial</a>
  
 
  

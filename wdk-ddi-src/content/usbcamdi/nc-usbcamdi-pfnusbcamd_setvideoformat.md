@@ -125,11 +125,11 @@ Camera minidrivers must handle all SRBs related to video format. Camera minidriv
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568201">SRB_SET_DATA_FORMAT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/srb-set-data-format">SRB_SET_DATA_FORMAT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568605">USBCAMD_INTERFACE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbcamdi/ns-usbcamdi-usbcamd_interface">USBCAMD_INTERFACE</a>
  
 
  

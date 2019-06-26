@@ -55,7 +55,7 @@ The <b>D3DKMTDestroyOverlay</b> function destroys a kernel-mode overlay object.
 
 *pData* [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547894">D3DKMT_DESTROYOVERLAY</a> structure that contains the handle to the overlay to destroy.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_destroyoverlay">D3DKMT_DESTROYOVERLAY</a> structure that contains the handle to the overlay to destroy.
 
 ## -returns
 
@@ -70,5 +70,5 @@ This function might also return other <b>NTSTATUS</b> values.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547894">D3DKMT_DESTROYOVERLAY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_destroyoverlay">D3DKMT_DESTROYOVERLAY</a>
  

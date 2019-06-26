@@ -61,7 +61,7 @@ A pointer to an initialized mutex object for which the caller provides the stora
 
 ### -param Wait [in]
 
-Specifies whether the call to <b>KeReleaseMutex</b> is to be immediately followed by a call to one of the <b>KeWait<i>Xxx</i></b> routines. If <b>TRUE</b>, the <b>KeReleaseMutex</b> call must be followed by a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff553324">KeWaitForMultipleObjects</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff553344">KeWaitForMutexObject</a>, or <a href="https://msdn.microsoft.com/library/windows/hardware/ff553350">KeWaitForSingleObject</a>. For more information, see the following Remarks section. 
+Specifies whether the call to <b>KeReleaseMutex</b> is to be immediately followed by a call to one of the <b>KeWait<i>Xxx</i></b> routines. If <b>TRUE</b>, the <b>KeReleaseMutex</b> call must be followed by a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kewaitformultipleobjects">KeWaitForMultipleObjects</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff553344">KeWaitForMutexObject</a>, or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kewaitforsingleobject">KeWaitForSingleObject</a>. For more information, see the following Remarks section. 
 
 
 ## -returns
@@ -77,7 +77,7 @@ If the return value is zero, the mutex object was released and attained a state 
 
 
 
-For better performance, use fast mutexes or guarded mutexes. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540595">Alternatives to Mutex Objects</a>.
+For better performance, use fast mutexes or guarded mutexes. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/alternatives-to-mutex-objects">Alternatives to Mutex Objects</a>.
 
 If the mutex object attains a signaled state, an attempt is made to satisfy a wait for the mutex object.
 
@@ -93,7 +93,7 @@ If the caller is executing at IRQL = DISPATCH_LEVEL or in an arbitrary thread co
 
 If a mutex is acquired recursively, the holding thread must call <b>KeReleaseMutex</b> as many times as it acquired the mutex to set it to the signaled state.
 
-For more information about mutex objects, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff556417">Mutex Objects</a>.
+For more information about mutex objects, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mutex-objects">Mutex Objects</a>.
 
 
 
@@ -103,23 +103,23 @@ For more information about mutex objects, see <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545549">ExReleaseFastMutex</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff545549(v=vs.85)">ExReleaseFastMutex</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545567">ExReleaseFastMutexUnsafe</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff545567(v=vs.85)">ExReleaseFastMutexUnsafe</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552147">KeInitializeMutex</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-keinitializemutex">KeInitializeMutex</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553094">KeReadStateMutex</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kereadstatemutex">KeReadStateMutex</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553324">KeWaitForMultipleObjects</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kewaitformultipleobjects">KeWaitForMultipleObjects</a>
 
 
 
@@ -127,7 +127,7 @@ For more information about mutex objects, see <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553350">KeWaitForSingleObject</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kewaitforsingleobject">KeWaitForSingleObject</a>
  
 
  

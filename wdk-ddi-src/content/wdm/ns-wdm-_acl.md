@@ -149,43 +149,43 @@ ACL and ACE structures must be aligned on 32-bit boundaries.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538796">ACCESS_ALLOWED_ACE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_access_allowed_ace">ACCESS_ALLOWED_ACE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538831">ACCESS_DENIED_ACE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_access_denied_ace">ACCESS_DENIED_ACE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/ace">ACE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552092">RtlAddAccessAllowedAce</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-rtladdaccessallowedace">RtlAddAccessAllowedAce</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552151">RtlCreateAcl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-rtlcreateacl">RtlCreateAcl</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552288">RtlGetAce</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-rtlgetace">RtlGetAce</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562781">RtlSetDaclSecurityDescriptor</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlsetdaclsecuritydescriptor">RtlSetDaclSecurityDescriptor</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556769">SYSTEM_ALARM_ACE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_system_alarm_ace">SYSTEM_ALARM_ACE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556771">SYSTEM_AUDIT_ACE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_system_audit_ace">SYSTEM_AUDIT_ACE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556831">TOKEN_DEFAULT_DACL</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_token_default_dacl">TOKEN_DEFAULT_DACL</a>
  
 
  

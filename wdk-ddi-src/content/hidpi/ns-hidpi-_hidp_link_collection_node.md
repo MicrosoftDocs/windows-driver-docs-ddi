@@ -46,7 +46,7 @@ req.typenames: HIDP_LINK_COLLECTION_NODE, *PHIDP_LINK_COLLECTION_NODE
 ## -description
 
 
-The HIDP_LINK_COLLECTION_NODE structure contains information about a <a href="https://msdn.microsoft.com/3f934661-c33c-4c08-82ac-ee2e0f519c8e">link collection</a> in a <a href="https://msdn.microsoft.com/dcbee8e3-d03a-45c8-92e4-0897b9f55177">top-level collection's</a> <a href="https://msdn.microsoft.com/3f934661-c33c-4c08-82ac-ee2e0f519c8e">link collection array</a>.
+The HIDP_LINK_COLLECTION_NODE structure contains information about a <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/link-collections">link collection</a> in a <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/top-level-collections">top-level collection's</a> <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/link-collections">link collection array</a>.
 
 
 ## -struct-fields
@@ -56,12 +56,12 @@ The HIDP_LINK_COLLECTION_NODE structure contains information about a <a href="ht
 
 ### -field LinkUsage
 
-Specifies the <a href="https://msdn.microsoft.com/84fed314-3554-4291-b51c-734d874a4bab">usage ID</a> of a top-level collection.
+Specifies the <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-usages">usage ID</a> of a top-level collection.
 
 
 ### -field LinkUsagePage
 
-Specifies the <a href="https://msdn.microsoft.com/84fed314-3554-4291-b51c-734d874a4bab">usage page</a> of the collection.
+Specifies the <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-usages">usage page</a> of the collection.
 
 
 ### -field Parent
@@ -91,7 +91,7 @@ Specifies the type of collection item.
 
 ### -field IsAlias
 
-Specifies, if <b>TRUE</b>, that this collection is an <a href="https://msdn.microsoft.com/3f934661-c33c-4c08-82ac-ee2e0f519c8e">aliased collection</a>. Otherwise, if <b>FALSE</b>, the collection is not aliased.
+Specifies, if <b>TRUE</b>, that this collection is an <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/link-collections">aliased collection</a>. Otherwise, if <b>FALSE</b>, the collection is not aliased.
 
 
 ### -field Reserved
@@ -108,7 +108,7 @@ Pointer to application-specific information.
 
 
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff539725">HidP_GetLinkCollectionNodes</a> routine returns a top-level collection's link collection array. The indices specified in a link collection node are indices in the collection's link collection array.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hidpi/nf-hidpi-hidp_getlinkcollectionnodes">HidP_GetLinkCollectionNodes</a> routine returns a top-level collection's link collection array. The indices specified in a link collection node are indices in the collection's link collection array.
 
 
 
@@ -118,15 +118,15 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff539725">HidP_
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539693">HIDP_BUTTON_CAPS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hidpi/ns-hidpi-_hidp_button_caps">HIDP_BUTTON_CAPS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539832">HIDP_VALUE_CAPS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hidpi/ns-hidpi-_hidp_value_caps">HIDP_VALUE_CAPS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539725">HidP_GetLinkCollectionNodes</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hidpi/nf-hidpi-hidp_getlinkcollectionnodes">HidP_GetLinkCollectionNodes</a>
  
 
  

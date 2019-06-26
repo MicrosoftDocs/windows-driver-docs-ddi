@@ -66,7 +66,7 @@ The IOCTL_<i>XXX</i> (or FSCTL_<i>XXX</i>) value, which can be obtained from the
 
 
 
-For information about the layout of IOCTL codes, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565406">Using I/O Control Codes</a>.
+For information about the layout of IOCTL codes, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-i-o-control-codes">Using I/O Control Codes</a>.
 
 
 
@@ -76,7 +76,7 @@ For information about the layout of IOCTL codes, see <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548318">IoBuildDeviceIoControlRequest</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iobuilddeviceiocontrolrequest">IoBuildDeviceIoControlRequest</a>
  
 
  

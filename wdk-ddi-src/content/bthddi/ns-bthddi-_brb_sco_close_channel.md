@@ -57,7 +57,7 @@ The _BRB_SCO_CLOSE_CHANNEL structure describes a currently open SCO channel to c
 ### -field Hdr
 
 A 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536612">BRB_HEADER</a> structure that contains information
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a> structure that contains information
      about the current BRB.
 
 
@@ -76,8 +76,8 @@ The handle to the SCO channel to close.
 
 
 To close a SCO channel, profile drivers should 
-    <a href="https://msdn.microsoft.com/53a692e7-9c71-4dca-9331-32ac97b94179">build and send</a> a 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff536622">BRB_SCO_CLOSE_CHANNEL</a> request.
+    <a href="https://docs.microsoft.com/previous-versions/ff536657(v=vs.85)">build and send</a> a 
+    <a href="https://docs.microsoft.com/previous-versions/ff536622(v=vs.85)">BRB_SCO_CLOSE_CHANNEL</a> request.
 
 A <b>BRB_SCO_CLOSE_CHANNEL</b> request can be made for a channel that was initiated locally or remotely. If a
     profile driver has multiple SCO connections to a single remote device, it must close each one
@@ -91,11 +91,11 @@ A <b>BRB_SCO_CLOSE_CHANNEL</b> request can be made for a channel that was initia
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536612">BRB_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/ns-bthddi-_brb_header">BRB_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536622">BRB_SCO_CLOSE_CHANNEL</a>
+<a href="https://docs.microsoft.com/previous-versions/ff536622(v=vs.85)">BRB_SCO_CLOSE_CHANNEL</a>
  
 
  

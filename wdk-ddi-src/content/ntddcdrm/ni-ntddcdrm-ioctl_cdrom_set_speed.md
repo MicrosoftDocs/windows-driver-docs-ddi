@@ -56,7 +56,7 @@ Sets the spindle speed of the CD-ROM drive.
 
 ### -input-buffer
 
-The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains either a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551368">CDROM_SET_SPEED</a> structure or a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551369">CDROM_SET_STREAMING</a> structure. These two structures have the same first member: an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551370">CDROM_SPEED_REQUEST</a> enumeration value. Caller uses this enumeration value to specify which of these two structures is in the input buffer.
+The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains either a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdrm/ns-ntddcdrm-_cdrom_set_speed">CDROM_SET_SPEED</a> structure or a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdrm/ns-ntddcdrm-_cdrom_set_streaming">CDROM_SET_STREAMING</a> structure. These two structures have the same first member: an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdrm/ne-ntddcdrm-_cdrom_speed_request">CDROM_SPEED_REQUEST</a> enumeration value. Caller uses this enumeration value to specify which of these two structures is in the input buffer.
 
 
 ### -input-buffer-length
@@ -101,7 +101,7 @@ The <b>Information</b> field is set to zero. The <b>Status</b> field is set to S
 
 
 
-For an explanation of function and purpose of this request, see <a href="https://msdn.microsoft.com/25a46b23-f823-4fc7-a370-cab1c9418a94">CD-ROM Set Speed</a>.
+For an explanation of function and purpose of this request, see <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/cd-rom-set-speed">CD-ROM Set Speed</a>.
 
 
 

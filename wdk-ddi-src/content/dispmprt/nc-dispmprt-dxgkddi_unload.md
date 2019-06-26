@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <i>DxgkDdiUnload</i> function frees any resources allocated during execution of the display miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> function.
+The <i>DxgkDdiUnload</i> function frees any resources allocated during execution of the display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> function.
 
 
 ## -parameters
@@ -87,7 +87,7 @@ Typically, there will be nothing to do in <i>DxgkDdiUnload</i>.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556157">DriverEntry of Display Miniport Driver</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/display/driverentry-of-display-miniport-driver">DriverEntry of Display Miniport Driver</a>
  
 
  

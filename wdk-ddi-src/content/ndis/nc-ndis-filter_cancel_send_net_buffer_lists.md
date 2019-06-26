@@ -48,7 +48,7 @@ req.typenames:
 
 NDIS calls a filter driver's 
   <i>FilterCancelSendNetBufferLists</i> function to cancel the transmission of all 
-  <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structures that are marked
+  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures that are marked
   with a specified cancellation identifier.
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>FILTER_CANCEL_SEND_NET_BUFFER_LISTS</b> type. For more
    information, see the following Examples section.</div><div> </div>
@@ -87,20 +87,20 @@ None
 The
     <i>FilterCancelSendNetBufferLists</i> function is optional. If a filter driver does not filter send
     requests, it can set the entry point for this function to <b>NULL</b> when it calls the 
-    <a href="https://msdn.microsoft.com/14381de2-36d9-4ec8-9d4e-7af3e6d8ecf3">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisfregisterfilterdriver">
     NdisFRegisterFilterDriver</a> function.
 
 Filter drivers that queue 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structures before sending
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures before sending
     should export a 
     <i>FilterCancelSendNetBufferLists</i> function. The 
     <i>FilterCancelSendNetBufferLists</i> function cancels the pending transmission of the specified
     NET_BUFFER_LIST structures.
 
 When an overlying NDIS driver calls the 
-    <a href="https://msdn.microsoft.com/7b61db73-ddd4-4d46-b378-9a82fdf041ea">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndiscancelsendnetbufferlists">
     NdisCancelSendNetBufferLists</a> or 
-    <a href="https://msdn.microsoft.com/358b1aa9-4bfd-4bed-94f7-1b021c732a02">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisfcancelsendnetbufferlists">
     NdisFCancelSendNetBufferLists</a> function, NDIS calls the 
     <i>FilterCancelSendNetBufferLists</i> function of the filter modules on the binding.
 
@@ -111,7 +111,7 @@ A filter driver's
 <li>
 Traverses its list of queued NET_BUFFER_LIST structures for the specified filter module and calls
       the 
-      <a href="https://msdn.microsoft.com/library/windows/hardware/ff567299">
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-set-net-buffer-list-cancel-id">
       NDIS_GET_NET_BUFFER_LIST_CANCEL_ID</a> macro to obtain the cancellation identifier for each queued
       NET_BUFFER_LIST structure. The filter driver compares the cancellation ID that
       NDIS_GET_NET_BUFFER_LIST_CANCEL_ID returns with the cancellation ID that NDIS passed to 
@@ -120,13 +120,13 @@ Traverses its list of queued NET_BUFFER_LIST structures for the specified filter
 </li>
 <li>
 Removes from the send queue (unlinks) all 
-      <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structures whose
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structures whose
       cancellation identifiers match the specified cancellation identifier.
 
 </li>
 <li>
 Calls the 
-      <a href="https://msdn.microsoft.com/5a9008eb-86ad-4e3c-85a2-c8fd1b8fb4cb">
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisfsendnetbufferlistscomplete">
       NdisFSendNetBufferListsComplete</a> function for all unlinked NET_BUFFER_LIST structures to return
       the structures. The filter driver sets the status field of the NET_BUFFER_LIST structures to
       NDIS_STATUS_SEND_ABORTED.
@@ -142,7 +142,7 @@ NDIS calls
     <i>FilterCancelSendNetBufferLists</i> at IRQL <= DISPATCH_LEVEL.
 
 <h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>
-To define a <i>FilterCancelSendNetBufferLists</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
+To define a <i>FilterCancelSendNetBufferLists</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/code-analysis-for-drivers">Code Analysis for Drivers</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
 
 For example, to define a <i>FilterCancelSendNetBufferLists</i> function that is named "MyCancelSendNetBufferLists", use the <b>FILTER_CANCEL_SEND_NET_BUFFER_LISTS</b> type as shown in this code example:
 
@@ -174,7 +174,7 @@ VOID
 </td>
 </tr>
 </table></span></div>
-The <b>FILTER_CANCEL_SEND_NET_BUFFER_LISTS</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>FILTER_CANCEL_SEND_NET_BUFFER_LISTS</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/232c4272-0bf0-4a4e-9560-3bceeca8a3e3">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
+The <b>FILTER_CANCEL_SEND_NET_BUFFER_LISTS</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>FILTER_CANCEL_SEND_NET_BUFFER_LISTS</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
 For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
 
@@ -190,33 +190,33 @@ For information about  _Use_decl_annotations_, see <a href="https://go.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567299">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-set-net-buffer-list-cancel-id">
    NDIS_GET_NET_BUFFER_LIST_CANCEL_ID</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561623">NdisCancelSendNetBufferLists</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndiscancelsendnetbufferlists">NdisCancelSendNetBufferLists</a>
 
 
 
-<a href="https://msdn.microsoft.com/358b1aa9-4bfd-4bed-94f7-1b021c732a02">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisfcancelsendnetbufferlists">
    NdisFCancelSendNetBufferLists</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562608">NdisFRegisterFilterDriver</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisfregisterfilterdriver">NdisFRegisterFilterDriver</a>
 
 
 
-<a href="https://msdn.microsoft.com/5a9008eb-86ad-4e3c-85a2-c8fd1b8fb4cb">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisfsendnetbufferlistscomplete">
    NdisFSendNetBufferListsComplete</a>
  
 

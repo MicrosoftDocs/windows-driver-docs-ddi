@@ -178,7 +178,7 @@ Pointer to the system-supplied <a href="..\parallel\nc-parallel-pparallel_desele
 
 ### -field Context
 
-Pointer to the device extension of a parallel port's functional device object (<a href="https://msdn.microsoft.com/f697e0db-1db0-4a81-94d8-0ca079885480">FDO</a>).
+Pointer to the device extension of a parallel port's functional device object (<a href="https://docs.microsoft.com/windows-hardware/drivers/">FDO</a>).
 
 
 ### -field CurrentMode
@@ -195,7 +195,7 @@ The symbolic link name of the parallel port.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/d8ae2296-05b6-419a-93cc-00fcb12d41fe">Obtaining Information About a ParallelPort</a>.
+For more information, see <a href="https://docs.microsoft.com/previous-versions/ff544223(v=vs.85)">Obtaining Information About a ParallelPort</a>.
 
 
 

@@ -56,7 +56,7 @@ The <b>RtlInitializeGenericTableAvl</b> routine initializes a generic table usin
 
 ### -param Table [out]
 
-A pointer to a caller-allocated buffer, which must be at least <b>sizeof</b>(<a href="https://msdn.microsoft.com/library/windows/hardware/ff553327">RTL_AVL_TABLE</a>) bytes in size, to contain the initialized generic table structure. 
+A pointer to a caller-allocated buffer, which must be at least <b>sizeof</b>(<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_rtl_avl_table">RTL_AVL_TABLE</a>) bytes in size, to contain the initialized generic table structure. 
 
 
 ### -param CompareRoutine [in]
@@ -229,35 +229,35 @@ Callers of <b>RtlInitializeGenericTableAvl</b> must be running at IRQL <= DISPAT
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545293">ExInitializeFastMutex</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-exinitializefastmutex">ExInitializeFastMutex</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439514">RtlDeleteElementGenericTableAvl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-rtldeleteelementgenerictableavl">RtlDeleteElementGenericTableAvl</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406458">RtlEnumerateGenericTableAvl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-rtlenumerategenerictableavl">RtlEnumerateGenericTableAvl</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552301">RtlGetElementGenericTableAvl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-rtlgetelementgenerictableavl">RtlGetElementGenericTableAvl</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552989">RtlInitializeGenericTable</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-rtlinitializegenerictable">RtlInitializeGenericTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406468">RtlInsertElementGenericTableAvl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-rtlinsertelementgenerictableavl">RtlInsertElementGenericTableAvl</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406476">RtlLookupElementGenericTableAvl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-rtllookupelementgenerictableavl">RtlLookupElementGenericTableAvl</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406522">RtlNumberGenericTableElementsAvl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-rtlnumbergenerictableelementsavl">RtlNumberGenericTableElementsAvl</a>
  
 
  

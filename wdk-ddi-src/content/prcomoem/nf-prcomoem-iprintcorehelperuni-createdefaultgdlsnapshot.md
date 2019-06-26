@@ -78,11 +78,11 @@ A pointer to a stream that supplies the XML version of the GDL snapshot.
 
 
 
-<a href="https://msdn.microsoft.com/e581d190-8185-45c1-80c7-ff8eb305360e">IPrintCoreHelperUni</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nn-prcomoem-iprintcorehelperuni">IPrintCoreHelperUni</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552923">IPrintCoreHelperUni::CreateGDLSnapshot</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintcorehelperuni-creategdlsnapshot">IPrintCoreHelperUni::CreateGDLSnapshot</a>
  
 
  

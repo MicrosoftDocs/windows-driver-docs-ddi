@@ -105,7 +105,7 @@ A member in the union that is contained in DXVADDI_VIDEOSAMPLEFLAGS that can hol
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562957">DXVADDI_VIDEOSAMPLE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_dxvaddi_videosample">DXVADDI_VIDEOSAMPLE</a>
  
 
  

@@ -85,12 +85,12 @@ As long as the given range was allocated from nonpaged pool, the caller can be r
 
 
 
-<a href="https://msdn.microsoft.com/aac4049c-a876-4bbb-ba3b-fa36c299e1c7">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisallocatememorywithtagpriority">
    NdisAllocateMemoryWithTagPriority</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564692">NdisZeroMappedMemory</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndiszeromappedmemory">NdisZeroMappedMemory</a>
  
 
  

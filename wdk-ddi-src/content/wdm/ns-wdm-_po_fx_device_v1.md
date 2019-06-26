@@ -66,32 +66,32 @@ The number of elements in the <b>Components</b> array. Additionally, this member
 
 ### -field ComponentActiveConditionCallback
 
-A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406416">ComponentActiveConditionCallback</a> callback routine that is implemented by the device driver.
+A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-po_fx_component_active_condition_callback">ComponentActiveConditionCallback</a> callback routine that is implemented by the device driver.
 
 
 ### -field ComponentIdleConditionCallback
 
-A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406420">ComponentIdleConditionCallback</a> callback routine that is implemented by the device driver.
+A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-po_fx_component_idle_condition_callback">ComponentIdleConditionCallback</a> callback routine that is implemented by the device driver.
 
 
 ### -field ComponentIdleStateCallback
 
-A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh450931">ComponentIdleStateCallback</a> callback routine that is implemented by the device driver.
+A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-po_fx_component_idle_state_callback">ComponentIdleStateCallback</a> callback routine that is implemented by the device driver.
 
 
 ### -field DevicePowerRequiredCallback
 
-A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh450949">DevicePowerRequiredCallback</a> callback routine that is implemented by the device driver.
+A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-po_fx_device_power_required_callback">DevicePowerRequiredCallback</a> callback routine that is implemented by the device driver.
 
 
 ### -field DevicePowerNotRequiredCallback
 
-A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh450946">DevicePowerNotRequiredCallback</a> callback routine that is implemented by the device driver.
+A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-po_fx_device_power_not_required_callback">DevicePowerNotRequiredCallback</a> callback routine that is implemented by the device driver.
 
 
 ### -field PowerControlCallback
 
-A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439564">PowerControlCallback</a> callback routine that is implemented by the device driver.
+A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-po_fx_power_control_callback">PowerControlCallback</a> callback routine that is implemented by the device driver.
 
 
 ### -field DeviceContext
@@ -101,7 +101,7 @@ A pointer to a caller-allocated device context. This pointer is passed as a para
 
 ### -field Components
 
-This member is the first element in an array of one or more <a href="https://msdn.microsoft.com/library/windows/hardware/hh439575">PO_FX_COMPONENT</a> elements. If the array contains more than one element, the additional elements immediately follow the <b>PO_FX_DEVICE</b> structure. The array contains one element for each component in the device.  The Fx power state of each component can be controlled independently of the Fx power states of the other components in the device. The <b>ANYSIZE_ARRAY</b> constant is defined to be 1 in the Ntdef.h header file.
+This member is the first element in an array of one or more <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_po_fx_component_v1">PO_FX_COMPONENT</a> elements. If the array contains more than one element, the additional elements immediately follow the <b>PO_FX_DEVICE</b> structure. The array contains one element for each component in the device.  The Fx power state of each component can be controlled independently of the Fx power states of the other components in the device. The <b>ANYSIZE_ARRAY</b> constant is defined to be 1 in the Ntdef.h header file.
 
 
 #### - Flags
@@ -115,11 +115,11 @@ Set to 0. Currently, no flags are defined for this member.
 
 
 
-To register a device with PoFx, a driver calls the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439521">PoFxRegisterDevice</a> routine and supplies, as a parameter, a pointer to a <b>PO_FX_DEVICE</b> structure that describes the device.
+To register a device with PoFx, a driver calls the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-pofxregisterdevice">PoFxRegisterDevice</a> routine and supplies, as a parameter, a pointer to a <b>PO_FX_DEVICE</b> structure that describes the device.
 
-Each element in the <b>Components</b> array describes the power state attributes of one component in the device. Each component in the device is identified by its <b>Components</b> array index. Routines such as  <a href="https://msdn.microsoft.com/library/windows/hardware/hh406650">PoFxActivateComponent</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/hh406658">PoFxCompleteIdleCondition</a> use the array index of a component to identify the component.
+Each element in the <b>Components</b> array describes the power state attributes of one component in the device. Each component in the device is identified by its <b>Components</b> array index. Routines such as  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-pofxactivatecomponent">PoFxActivateComponent</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-pofxcompleteidlecondition">PoFxCompleteIdleCondition</a> use the array index of a component to identify the component.
 
-A device driver is not required to implement all six callback routines. The driver can set a function pointer in the <b>PO_FX_DEVICE</b> structure to NULL if the driver does not implement the corresponding callback routine. However, certain callback routines must be implemented. Specifically, if one or more components in a device has more than one Fx state, the driver must implement <a href="https://msdn.microsoft.com/library/windows/hardware/hh450931">ComponentIdleStateCallback</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/hh406416">ComponentActiveConditionCallback</a>, and <a href="https://msdn.microsoft.com/library/windows/hardware/hh406420">ComponentIdleConditionCallback</a> routines. Otherwise, device registration fails and <a href="https://msdn.microsoft.com/library/windows/hardware/hh439521">PoFxRegisterDevice</a> returns <b>STATUS_INVALID_PARAMETER</b>.
+A device driver is not required to implement all six callback routines. The driver can set a function pointer in the <b>PO_FX_DEVICE</b> structure to NULL if the driver does not implement the corresponding callback routine. However, certain callback routines must be implemented. Specifically, if one or more components in a device has more than one Fx state, the driver must implement <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-po_fx_component_idle_state_callback">ComponentIdleStateCallback</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-po_fx_component_active_condition_callback">ComponentActiveConditionCallback</a>, and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-po_fx_component_idle_condition_callback">ComponentIdleConditionCallback</a> routines. Otherwise, device registration fails and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-pofxregisterdevice">PoFxRegisterDevice</a> returns <b>STATUS_INVALID_PARAMETER</b>.
 
 
 
@@ -129,43 +129,43 @@ A device driver is not required to implement all six callback routines. The driv
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406416">ComponentActiveConditionCallback</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-po_fx_component_active_condition_callback">ComponentActiveConditionCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406420">ComponentIdleConditionCallback</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-po_fx_component_idle_condition_callback">ComponentIdleConditionCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450931">ComponentIdleStateCallback</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-po_fx_component_idle_state_callback">ComponentIdleStateCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450946">DevicePowerNotRequiredCallback</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-po_fx_device_power_not_required_callback">DevicePowerNotRequiredCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450949">DevicePowerRequiredCallback</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-po_fx_device_power_required_callback">DevicePowerRequiredCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439575">PO_FX_COMPONENT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_po_fx_component_v1">PO_FX_COMPONENT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406650">PoFxActivateComponent</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-pofxactivatecomponent">PoFxActivateComponent</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406658">PoFxCompleteIdleCondition</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-pofxcompleteidlecondition">PoFxCompleteIdleCondition</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439521">PoFxRegisterDevice</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-pofxregisterdevice">PoFxRegisterDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439564">PowerControlCallback</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-po_fx_power_control_callback">PowerControlCallback</a>
  
 
  

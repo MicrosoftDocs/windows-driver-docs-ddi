@@ -56,7 +56,7 @@ The <i>NdkGetPrivilegedMemoryRegionToken</i> (<i>NDK_FN_GET_PRIVILEGED_MEMORY_RE
 
 ### -param *pNdkPd [in]
 
-A pointer to an NDK protection domain (PD) object (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439931">NDK_PD</a>).
+A pointer to an NDK protection domain (PD) object (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/ns-ndkpi-_ndk_pd">NDK_PD</a>).
 
 
 ### -param *pToken [out]
@@ -87,7 +87,7 @@ None
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439931">NDK_PD</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/ns-ndkpi-_ndk_pd">NDK_PD</a>
  
 
  

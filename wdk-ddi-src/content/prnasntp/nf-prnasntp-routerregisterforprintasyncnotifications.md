@@ -98,7 +98,7 @@ This function returns S_OK on success, and a standard COM error code otherwise.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562028">RouterUnregisterForPrintAsyncNotifications</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prnasntp/nf-prnasntp-routerunregisterforprintasyncnotifications">RouterUnregisterForPrintAsyncNotifications</a>
  
 
  

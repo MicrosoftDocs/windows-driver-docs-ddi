@@ -174,12 +174,12 @@ A pointer to a null-terminated string that specifies all color profiles that are
 
 ### -field pszInfPath
 
-A pointer to a null-terminated string that specifies the path of the INF file inside the driver store from which the printer driver was installed. Must be <b>NULL</b> if using the <a href="https://msdn.microsoft.com/library/windows/desktop/dd183346(v=vs.85).aspx">AddPrinterDriver</a> or <a href="https://msdn.microsoft.com/library/windows/desktop/dd183347(v=vs.85).aspx">AddPrinterDriverEx</a> functions with DRIVER_INFO_8.
+A pointer to a null-terminated string that specifies the path of the INF file inside the driver store from which the printer driver was installed. Must be <b>NULL</b> if using the <a href="https://docs.microsoft.com/windows/desktop/printdocs/addprinterdriver">AddPrinterDriver</a> or <a href="https://docs.microsoft.com/windows/desktop/printdocs/addprinterdriverex">AddPrinterDriverEx</a> functions with DRIVER_INFO_8.
 
 
 ### -field dwPrinterDriverAttributes
 
-This member specifies printer driver related properties. Must be zero if using the <a href="https://msdn.microsoft.com/library/windows/desktop/dd183346(v=vs.85).aspx">AddPrinterDriver</a> or <a href="https://msdn.microsoft.com/library/windows/desktop/dd183347(v=vs.85).aspx">AddPrinterDriverEx</a> functions with DRIVER_INFO_8. The following table shows the flags that have been defined for the <i>dwPrinterDriverAttributes</i> parameter.
+This member specifies printer driver related properties. Must be zero if using the <a href="https://docs.microsoft.com/windows/desktop/printdocs/addprinterdriver">AddPrinterDriver</a> or <a href="https://docs.microsoft.com/windows/desktop/printdocs/addprinterdriverex">AddPrinterDriverEx</a> functions with DRIVER_INFO_8. The following table shows the flags that have been defined for the <i>dwPrinterDriverAttributes</i> parameter.
 	  
 
 <table>
@@ -205,7 +205,7 @@ PRINTER_DRIVER_XPS
 0x00000002
 
 </td>
-<td>The printer driver supports the Microsoft XPS format described in the <a href="https://msdn.microsoft.com/windows/hardware/gg463373.aspx">XML Paper Specification: Overview</a>, and also in <a href="https://msdn.microsoft.com/library/e81cbc09-ab05-4a32-ae4a-8ec57b436c43(v=prot.10)">Product Behavior, section <27></a>.</td>
+<td>The printer driver supports the Microsoft XPS format described in the <a href="https://msdn.microsoft.com/windows/hardware/gg463373.aspx">XML Paper Specification: Overview</a>, and also in <a href="https://docs.microsoft.com/openspecs/windows_protocols/ms-rprn/e81cbc09-ab05-4a32-ae4a-8ec57b436c43">Product Behavior, section <27></a>.</td>
 <td>
 Windows 8
 
@@ -220,7 +220,7 @@ PRINTER_DRIVER_SANDBOX_ENABLED
 0x00000004
 
 </td>
-<td>The printer driver is compatible with <a href="https://msdn.microsoft.com/library/831cd729-be7c-451e-b729-bd8d84ce4d24(v=prot.10)">printer driver isolation</a>. For more information, see <a href="https://msdn.microsoft.com/library/e81cbc09-ab05-4a32-ae4a-8ec57b436c43(v=prot.10)">Product Behavior, section <28></a>.</td>
+<td>The printer driver is compatible with <a href="https://docs.microsoft.com/openspecs/windows_protocols/ms-rprn/831cd729-be7c-451e-b729-bd8d84ce4d24">printer driver isolation</a>. For more information, see <a href="https://docs.microsoft.com/openspecs/windows_protocols/ms-rprn/e81cbc09-ab05-4a32-ae4a-8ec57b436c43">Product Behavior, section <28></a>.</td>
 <td>
 Windows 7
 
@@ -235,7 +235,7 @@ PRINTER_DRIVER_CLASS
 0x00000008
 
 </td>
-<td>The printer driver is a <a href="https://msdn.microsoft.com/library/831cd729-be7c-451e-b729-bd8d84ce4d24(v=prot.10)">class printer driver</a>.</td>
+<td>The printer driver is a <a href="https://docs.microsoft.com/openspecs/windows_protocols/ms-rprn/831cd729-be7c-451e-b729-bd8d84ce4d24">class printer driver</a>.</td>
 <td>
 Windows 8
 
@@ -250,7 +250,7 @@ PRINTER_DRIVER_DERIVED
 0x00000010
 
 </td>
-<td>The printer driver is a <a href="https://msdn.microsoft.com/library/831cd729-be7c-451e-b729-bd8d84ce4d24(v=prot.10)">derived printer driver</a>.</td>
+<td>The printer driver is a <a href="https://docs.microsoft.com/openspecs/windows_protocols/ms-rprn/831cd729-be7c-451e-b729-bd8d84ce4d24">derived printer driver</a>.</td>
 <td>
 Windows 8
 
@@ -280,7 +280,7 @@ PRINTER_DRIVER_CATEGORY_FAX
 0x00000040
 
 </td>
-<td>The printer driver is intended for use with <a href="https://msdn.microsoft.com/library/831cd729-be7c-451e-b729-bd8d84ce4d24(v=prot.10)">fax printers</a>.</td>
+<td>The printer driver is intended for use with <a href="https://docs.microsoft.com/openspecs/windows_protocols/ms-rprn/831cd729-be7c-451e-b729-bd8d84ce4d24">fax printers</a>.</td>
 <td>
 Windows 8
 
@@ -295,7 +295,7 @@ PRINTER_DRIVER_CATEGORY_FILE
 0x00000080
 
 </td>
-<td>The printer driver is intended for use with <a href="https://msdn.microsoft.com/library/831cd729-be7c-451e-b729-bd8d84ce4d24(v=prot.10)">file printers</a>.</td>
+<td>The printer driver is intended for use with <a href="https://docs.microsoft.com/openspecs/windows_protocols/ms-rprn/831cd729-be7c-451e-b729-bd8d84ce4d24">file printers</a>.</td>
 <td>
 Windows 8
 
@@ -310,7 +310,7 @@ PRINTER_DRIVER_CATEGORY_VIRTUAL
 0x00000100
 
 </td>
-<td>The printer driver is intended for use with <a href="https://msdn.microsoft.com/library/831cd729-be7c-451e-b729-bd8d84ce4d24(v=prot.10)">virtual printers</a>.</td>
+<td>The printer driver is intended for use with <a href="https://docs.microsoft.com/openspecs/windows_protocols/ms-rprn/831cd729-be7c-451e-b729-bd8d84ce4d24">virtual printers</a>.</td>
 <td>
 Windows 8
 
@@ -325,7 +325,7 @@ PRINTER_DRIVER_CATEGORY_SERVICE
 0x00000200
 
 </td>
-<td>The printer driver is intended for use with <a href="https://msdn.microsoft.com/library/831cd729-be7c-451e-b729-bd8d84ce4d24(v=prot.10)">service printers</a>.</td>
+<td>The printer driver is intended for use with <a href="https://docs.microsoft.com/openspecs/windows_protocols/ms-rprn/831cd729-be7c-451e-b729-bd8d84ce4d24">service printers</a>.</td>
 <td>
 Windows 8
 
@@ -340,7 +340,7 @@ PRINTER_DRIVER_SOFT_RESET_REQUIRED
 0x00000400
 
 </td>
-<td>Printers that use this printer driver should follow the guidelines outlined in <a href="https://go.microsoft.com/fwlink/p/?linkid=517016">USB Device Class Definition</a>. For more information, see <a href="https://msdn.microsoft.com/library/e81cbc09-ab05-4a32-ae4a-8ec57b436c43(v=prot.10)">Product Behavior, section <36></a></td>
+<td>Printers that use this printer driver should follow the guidelines outlined in <a href="https://go.microsoft.com/fwlink/p/?linkid=517016">USB Device Class Definition</a>. For more information, see <a href="https://docs.microsoft.com/openspecs/windows_protocols/ms-rprn/e81cbc09-ab05-4a32-ae4a-8ec57b436c43">Product Behavior, section <36></a></td>
 <td>
 Windows 8
 
@@ -372,7 +372,7 @@ Windows Server 2012
 
 ### -field pszzCoreDriverDependencies
 
-A pointer to a null-terminated string that contains all the core printer driver dependencies for the driver package that are defined by <i>pszInfPath</i>. Must be <b>NULL</b> if using the <a href="https://msdn.microsoft.com/library/windows/desktop/dd183346(v=vs.85).aspx">AddPrinterDriver</a> or <a href="https://msdn.microsoft.com/library/windows/desktop/dd183347(v=vs.85).aspx">AddPrinterDriverEx</a> functions with DRIVER_INFO_8.
+A pointer to a null-terminated string that contains all the core printer driver dependencies for the driver package that are defined by <i>pszInfPath</i>. Must be <b>NULL</b> if using the <a href="https://docs.microsoft.com/windows/desktop/printdocs/addprinterdriver">AddPrinterDriver</a> or <a href="https://docs.microsoft.com/windows/desktop/printdocs/addprinterdriverex">AddPrinterDriverEx</a> functions with DRIVER_INFO_8.
 
 
 ### -field ftMinInboxDriverVerDate

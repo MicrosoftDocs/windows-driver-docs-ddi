@@ -56,7 +56,7 @@ The client driver calls this method before it cancels transfers on the wire.
 
 ### -param Endpoint [in]
 
-A handle to the endpoint object. The client driver retrieved the handle in a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/mt188039">UcxEndpointCreate</a>.
+A handle to the endpoint object. The client driver retrieved the handle in a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucxendpoint/nf-ucxendpoint-ucxendpointcreate">UcxEndpointCreate</a>.
 
 
 ## -returns
@@ -84,7 +84,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt188039">UcxEndpointCreate</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucxendpoint/nf-ucxendpoint-ucxendpointcreate">UcxEndpointCreate</a>
  
 
  

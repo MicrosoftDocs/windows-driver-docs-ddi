@@ -53,7 +53,7 @@ Any driver that stores a reference-counted COM interface to a WDF object must su
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IObjectCleanup</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IObjectCleanup</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IObjectCleanup</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IObjectCleanup</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -68,10 +68,10 @@ The <b>IObjectCleanup</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556760">IObjectCleanup::OnCleanup</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iobjectcleanup-oncleanup">IObjectCleanup::OnCleanup</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/6b66c496-d1cc-4b7a-ae50-f18fffa7275a">OnCleanup</a> method releases any references to a WDF object to prevent interface leakage.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iobjectcleanup-oncleanup">OnCleanup</a> method releases any references to a WDF object to prevent interface leakage.
 
 </td>
 </tr>

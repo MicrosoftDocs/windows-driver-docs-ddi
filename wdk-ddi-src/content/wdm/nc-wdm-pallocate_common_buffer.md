@@ -56,7 +56,7 @@ The <b>AllocateCommonBuffer</b> routine allocates memory and maps it so that it 
 
 ### -param DmaAdapter [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544062">DMA_ADAPTER</a> structure returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a> that represents the bus-master adapter or DMA controller.
+Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_dma_adapter">DMA_ADAPTER</a> structure returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a> that represents the bus-master adapter or DMA controller.
 
 
 ### -param Length [in]
@@ -66,7 +66,7 @@ Specifies the number of bytes of memory to allocate.
 
 ### -param LogicalAddress [out]
 
-Pointer to a variable that receives the logical address the device can use to access the allocated buffer. Use this address rather than calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff554547">MmGetPhysicalAddress</a> because the system can take into account any platform-specific memory restrictions.
+Pointer to a variable that receives the logical address the device can use to access the allocated buffer. Use this address rather than calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-mmgetphysicaladdress">MmGetPhysicalAddress</a> because the system can take into account any platform-specific memory restrictions.
 
 
 ### -param CacheEnabled [in]
@@ -75,7 +75,7 @@ Specifies whether the allocated memory can be cached.
 
 This parameter is ignored. The operating system determines whether to enable cached memory in the common buffer that is to be allocated. That decision is based on the processor architecture and device bus. 
 
-On computers with x86-based, x64-based, and Itanium-based processors, cached memory is enabled. It is assumed that all DMA operations performed by a device are coherent with the relevant CPU caches, which might be caching that memory. If your driver needs to disable caching, call <a href="https://msdn.microsoft.com/library/windows/hardware/hh406344">AllocateCommonBufferEx</a> instead.
+On computers with x86-based, x64-based, and Itanium-based processors, cached memory is enabled. It is assumed that all DMA operations performed by a device are coherent with the relevant CPU caches, which might be caching that memory. If your driver needs to disable caching, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pallocate_common_buffer_ex">AllocateCommonBufferEx</a> instead.
 
 On computers with ARM or ARM 64-based processors, the operating system does not automatically enable cached memory for all devices. The system relies on the <b>ACPI_CCA</b> method for each device to determine whether the device is cache-coherent. 
 
@@ -96,7 +96,7 @@ On computers with ARM or ARM 64-based processors, the operating system does not 
 <b>AllocateCommonBuffer</b>
            is not a system routine that can be called directly by name. This routine is callable only by pointer from the address returned in a 
           <b>DMA_OPERATIONS</b>
-           structure. Drivers obtain the address of this routine by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a>.
+           structure. Drivers obtain the address of this routine by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a>.
 
 <b>AllocateCommonBuffer</b> supports DMA in which the device and the processor continuously communicate through system memory, as in a control structure for a bus-master DMA device.
 
@@ -122,7 +122,7 @@ To use resident system memory economically, drivers should allocate as few of th
 
 If a driver needs several pages of common buffer space, but the pages need not be contiguous, the driver should make several one-page requests to <b>AllocateCommonBuffer</b> instead of one large request. This approach conserves contiguous memory.
 
-Drivers typically call <b>AllocateCommonBuffer</b> as part of device start-up, during their response to a PnP <a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a> request. After startup, it is possible that only one-page requests will succeed, if any.
+Drivers typically call <b>AllocateCommonBuffer</b> as part of device start-up, during their response to a PnP <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-start-device">IRP_MN_START_DEVICE</a> request. After startup, it is possible that only one-page requests will succeed, if any.
 
 
 
@@ -132,19 +132,19 @@ Drivers typically call <b>AllocateCommonBuffer</b> as part of device start-up, d
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544062">DMA_ADAPTER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_dma_adapter">DMA_ADAPTER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544071">DMA_OPERATIONS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_dma_operations">DMA_OPERATIONS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546511">FreeCommonBuffer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pfree_common_buffer">FreeCommonBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a>
  
 
  

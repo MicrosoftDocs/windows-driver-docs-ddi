@@ -69,7 +69,7 @@ None.
 
 ### -output-buffer
 
-The driver returns the serial number of the indicated device in a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff562213">MEDIA_SERIAL_NUMBER_DATA</a> in the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>.
+The driver returns the serial number of the indicated device in a structure of type <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff562213(v=vs.85)">MEDIA_SERIAL_NUMBER_DATA</a> in the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>.
 
 
 ### -output-buffer-length
@@ -105,7 +105,7 @@ The <b>Information</b> field is set to the size, in bytes, of the returned data.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562213">MEDIA_SERIAL_NUMBER_DATA</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff562213(v=vs.85)">MEDIA_SERIAL_NUMBER_DATA</a>
  
 
  

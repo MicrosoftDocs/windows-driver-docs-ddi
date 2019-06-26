@@ -54,12 +54,12 @@ The <i>DeviceReset</i> routine is used to reset and recover a malfunctioning dev
 
 ### -param InterfaceContext [in]
 
-A pointer to interface-specific context information. The caller passes the value that is passed as the <b>Context</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn939397">DEVICE_RESET_INTERFACE_STANDARD</a> structure for the interface.
+A pointer to interface-specific context information. The caller passes the value that is passed as the <b>Context</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_device_reset_interface_standard">DEVICE_RESET_INTERFACE_STANDARD</a> structure for the interface.
 
 
 ### -param ResetType [in]
 
-The type of reset being  requested. Set this parameter to one of the following <a href="https://msdn.microsoft.com/library/windows/hardware/dn939400">DEVICE_RESET_TYPE</a> enumeration values.
+The type of reset being  requested. Set this parameter to one of the following <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_device_reset_type">DEVICE_RESET_TYPE</a> enumeration values.
 
 <ul>
 <li><b>FunctionLevelDeviceReset</b>. Specify this value to request a function-level reset, which is restricted to a specific device.</li>
@@ -76,7 +76,7 @@ Set to 0. Currently, no flags are defined for this routine.
 
 ### -param ResetParameters [in, optional]
 
-If the caller is requesting a  function-level device reset, this optional parameter can point to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn939576">FUNCTION_LEVEL_DEVICE_RESET_PARAMETERS</a> structure that specifies a callback routine that is called when the reset is completed.
+If the caller is requesting a  function-level device reset, this optional parameter can point to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_function_level_device_reset_parameters">FUNCTION_LEVEL_DEVICE_RESET_PARAMETERS</a> structure that specifies a callback routine that is called when the reset is completed.
 
 
 ## -returns
@@ -99,7 +99,7 @@ For more information about function-level and platform-level resets, see [Workin
 
 [Working with the GUID_DEVICE_RESET_INTERFACE_STANDARD](https://docs.microsoft.com/windows-hardware/drivers/kernel/working-with-guid-device-reset-interface-standard)
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551687">IRP_MN_QUERY_INTERFACE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-interface">IRP_MN_QUERY_INTERFACE</a>
  
 
  

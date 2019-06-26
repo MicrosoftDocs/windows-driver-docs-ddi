@@ -55,7 +55,7 @@ The <b>PEP_ACPI_QUERY_DEVICE_CONTROL_RESOURCES</b> structure contains a list of 
 
 ### -field DeviceHandle
 
-[in] A PEPHANDLE value that identifies the device's registration for ACPI services. The platform extension plug-in (PEP) supplied this handle in response to a previous <a href="https://msdn.microsoft.com/library/windows/hardware/mt186689">PEP_NOTIFY_ACPI_REGISTER_DEVICE</a> notification.
+[in] A PEPHANDLE value that identifies the device's registration for ACPI services. The platform extension plug-in (PEP) supplied this handle in response to a previous <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/ns-pepfx-_pep_acpi_register_device">PEP_NOTIFY_ACPI_REGISTER_DEVICE</a> notification.
 
 
 ### -field RequestFlags
@@ -77,14 +77,14 @@ If this buffer is not large enough to contain the <b>ACPI_METHOD_ARGUMENT</b> st
 
 ### -field BiosResources
 
-[in] An output buffer to which the PEP writes an <a href="https://msdn.microsoft.com/library/windows/hardware/ff536125">ACPI_METHOD_ARGUMENT</a> structure that contains the requested resource list. The <b>Data</b> member of this structure is the first member in an array that might extend past the end of the structure. The buffer size specified by <b>BiosResourcesSize</b> includes both the <b>ACPI_METHOD_ARGUMENT</b> structure and any <b>Data</b> array elements that follow this structure. For more information, see TBD.
+[in] An output buffer to which the PEP writes an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/acpiioct/ns-acpiioct-_acpi_method_argument_v1">ACPI_METHOD_ARGUMENT</a> structure that contains the requested resource list. The <b>Data</b> member of this structure is the first member in an array that might extend past the end of the structure. The buffer size specified by <b>BiosResourcesSize</b> includes both the <b>ACPI_METHOD_ARGUMENT</b> structure and any <b>Data</b> array elements that follow this structure. For more information, see TBD.
 
 
 ## -remarks
 
 
 
-This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186687">PEP_NOTIFY_ACPI_QUERY_DEVICE_CONTROL_RESOURCES</a> notification. The <b>RequestFlags</b>, <b>BiosResourcesSize</b>, and <b>BiosResources</b> members of the structure contain input values supplied by the Windows <a href="https://msdn.microsoft.com/B08F8ABF-FD43-434C-A345-337FBB799D9B">power management framework</a> (PoFx) when this notification is sent. If the <b>BiosResourcesSize</b> input value is too small, the PEP should overwrite this value. The <b>Status</b> member contains an output value that the PEP writes to this structure in response to the notification.
+This structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/ns-pepfx-_pep_acpi_query_device_control_resources">PEP_NOTIFY_ACPI_QUERY_DEVICE_CONTROL_RESOURCES</a> notification. The <b>RequestFlags</b>, <b>BiosResourcesSize</b>, and <b>BiosResources</b> members of the structure contain input values supplied by the Windows <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">power management framework</a> (PoFx) when this notification is sent. If the <b>BiosResourcesSize</b> input value is too small, the PEP should overwrite this value. The <b>Status</b> member contains an output value that the PEP writes to this structure in response to the notification.
 
 If the input value specified in the <b>BiosResourcesSize</b> member is less than the required size, the PEP overwrites the <b>BiosResourcesSize</b> input value with the required size, and sets the <b>Status</b> member to STATUS_BUFFER_TOO_SMALL. In response, PoFx will try to allocate a buffer of the required size and send a second <b>PEP_NOTIFY_ACPI_QUERY_DEVICE_CONTROL_RESOURCES</b> notification to the PEP for this device.
 
@@ -96,15 +96,15 @@ If the input value specified in the <b>BiosResourcesSize</b> member is less than
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536125">ACPI_METHOD_ARGUMENT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/acpiioct/ns-acpiioct-_acpi_method_argument_v1">ACPI_METHOD_ARGUMENT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt186687">PEP_NOTIFY_ACPI_QUERY_DEVICE_CONTROL_RESOURCES</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/ns-pepfx-_pep_acpi_query_device_control_resources">PEP_NOTIFY_ACPI_QUERY_DEVICE_CONTROL_RESOURCES</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt186689">PEP_NOTIFY_ACPI_REGISTER_DEVICE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/ns-pepfx-_pep_acpi_register_device">PEP_NOTIFY_ACPI_REGISTER_DEVICE</a>
  
 
  

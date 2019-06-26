@@ -56,7 +56,7 @@ The <b>RtlRunOnceBeginInitialize</b> routine begins a one-time initialization.
 
 ### -param RunOnce [in, out]
 
-Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563626">RTL_RUN_ONCE</a> one-time initialization structure.
+Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">RTL_RUN_ONCE</a> one-time initialization structure.
 
 
 ### -param Flags [in]
@@ -112,7 +112,7 @@ The one-time initialization has already completed. The initialized data is store
 </dl>
 </td>
 <td width="60%">
-The caller has successfully begun one-time initialization. The caller now performs the driver-specific initialization steps and then calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff562763">RtlRunOnceComplete</a> to complete the initialization. 
+The caller has successfully begun one-time initialization. The caller now performs the driver-specific initialization steps and then calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-rtlrunoncecomplete">RtlRunOnceComplete</a> to complete the initialization. 
 
 </td>
 </tr>
@@ -126,7 +126,7 @@ The caller has successfully begun one-time initialization. The caller now perfor
 
 
 
-Drivers can alternatively perform one-time initialization by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff562765">RtlRunOnceExecuteOnce</a> and supplying a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563635">RunOnceInitialization</a> routine.
+Drivers can alternatively perform one-time initialization by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-rtlrunonceexecuteonce">RtlRunOnceExecuteOnce</a> and supplying a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nc-ntddk-rtl_run_once_init_fn">RunOnceInitialization</a> routine.
 
 
 
@@ -136,23 +136,23 @@ Drivers can alternatively perform one-time initialization by calling <a href="ht
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563626">RTL_RUN_ONCE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">RTL_RUN_ONCE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562763">RtlRunOnceComplete</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-rtlrunoncecomplete">RtlRunOnceComplete</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562765">RtlRunOnceExecuteOnce</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-rtlrunonceexecuteonce">RtlRunOnceExecuteOnce</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562767">RtlRunOnceInitialize</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-rtlrunonceinitialize">RtlRunOnceInitialize</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563635">RunOnceInitialization</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nc-ntddk-rtl_run_once_init_fn">RunOnceInitialization</a>
  
 
  

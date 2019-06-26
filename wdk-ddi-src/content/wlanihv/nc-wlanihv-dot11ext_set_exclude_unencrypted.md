@@ -47,7 +47,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The IHV Extensions DLL calls the
+<div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The IHV Extensions DLL calls the
   <b>Dot11ExtSetExcludeUnencrypted</b> function to enable or disable the wireless
   LAN (WLAN) adapter from excluding unencrypted packets it receives while enabled for cipher
   operations.
@@ -106,7 +106,7 @@ If the WLAN adapter is enabled to exclude unencrypted packets, the station must 
 
 A call to the
     <b>Dot11ExtSetExcludeUnencrypted</b> function results in a set request of the
-    <a href="https://msdn.microsoft.com/library/gg159162.aspx">
+    <a href="https://docs.microsoft.com/previous-versions/windows/embedded/gg159162(v=winembedded.80)">
     OID_DOT11_EXCLUDE_UNENCRYPTED</a> object identifier (OID) to the Native 802.11 miniport driver that
     manages the WLAN adapter.
 
@@ -115,7 +115,7 @@ A call to the
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/gg159162.aspx">OID_DOT11_EXCLUDE_UNENCRYPTED</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/embedded/gg159162(v=winembedded.80)">OID_DOT11_EXCLUDE_UNENCRYPTED</a>
 
 
 

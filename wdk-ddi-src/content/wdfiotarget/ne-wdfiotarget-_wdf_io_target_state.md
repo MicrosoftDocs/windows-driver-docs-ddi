@@ -96,9 +96,9 @@ The I/O target is temporarily purged and cannot receive or process I/O requests.
 
 
 
-To obtain an I/O target's current state, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff548631">WdfIoTargetGetState</a>.
+To obtain an I/O target's current state, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfiotarget/nf-wdfiotarget-wdfiotargetgetstate">WdfIoTargetGetState</a>.
 
-For more information about states for I/O targets, see <a href="https://msdn.microsoft.com/37f756bf-b655-428e-b72c-f86c71f1a2db">Controlling a General I/O Target's State</a>.
+For more information about states for I/O targets, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/controlling-a-general-i-o-target-s-state">Controlling a General I/O Target's State</a>.
 
 
 
@@ -108,7 +108,7 @@ For more information about states for I/O targets, see <a href="https://msdn.mic
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548631">WdfIoTargetGetState</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfiotarget/nf-wdfiotarget-wdfiotargetgetstate">WdfIoTargetGetState</a>
  
 
  

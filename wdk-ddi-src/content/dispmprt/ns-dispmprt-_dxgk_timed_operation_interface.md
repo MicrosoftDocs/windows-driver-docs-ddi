@@ -83,13 +83,13 @@ A pointer to an interface dereference function that is implemented by the displa
 
 The <b>TimedOperationStart</b> function starts or restarts a timed operation.
 
-The driver should preset the <b>Size</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562062">DXGK_TIMED_OPERATION</a> structure that is pointed to by the <i>Op</i> parameter to <b>sizeof</b>(DXGK_TIMED_OPERATION).
+The driver should preset the <b>Size</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/ns-dispmprt-_dxgk_timed_operation">DXGK_TIMED_OPERATION</a> structure that is pointed to by the <i>Op</i> parameter to <b>sizeof</b>(DXGK_TIMED_OPERATION).
 
 
 
 #### Op
 
-[out] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff562062">DXGK_TIMED_OPERATION</a> structure that describes the timed operation to start or restart.
+[out] A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/ns-dispmprt-_dxgk_timed_operation">DXGK_TIMED_OPERATION</a> structure that describes the timed operation to start or restart.
 
 
 
@@ -112,7 +112,7 @@ The <b>TimedOperationDelay</b> function puts the current thread into an alertabl
 
 #### Op
 
-[in/out] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff562062">DXGK_TIMED_OPERATION</a> structure that describes the timed operation to delay. This timed operation was started by a call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff570084">TimedOperationStart</a> function.
+[in/out] A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/ns-dispmprt-_dxgk_timed_operation">DXGK_TIMED_OPERATION</a> structure that describes the timed operation to delay. This timed operation was started by a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/ns-dispmprt-_dxgk_timed_operation_interface">TimedOperationStart</a> function.
 
 
 
@@ -141,7 +141,7 @@ The <b>TimedOperationWaitForSingleObject</b> function puts the current thread in
 
 #### Op
 
-[in] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff562062">DXGK_TIMED_OPERATION</a> structure that describes the timed operation to put into a wait state. This timed operation was started by a call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff570084">TimedOperationStart</a> function.
+[in] A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/ns-dispmprt-_dxgk_timed_operation">DXGK_TIMED_OPERATION</a> structure that describes the timed operation to put into a wait state. This timed operation was started by a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/ns-dispmprt-_dxgk_timed_operation_interface">TimedOperationStart</a> function.
 
 
 
@@ -178,7 +178,7 @@ A pointer to variable that contains the relative time, in 100-nanoseconds units,
 
 
 
-The display miniport driver supplies the <b>Size</b> and <b>Version</b> members of this structure, and then calls <a href="https://msdn.microsoft.com/0ce5df90-2019-4a92-97d6-0218acc8b1e8">DxgkCbQueryServices</a>, which fills in the remaining members of this structure.
+The display miniport driver supplies the <b>Size</b> and <b>Version</b> members of this structure, and then calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkcb_query_services">DxgkCbQueryServices</a>, which fills in the remaining members of this structure.
 
 
 
@@ -188,23 +188,23 @@ The display miniport driver supplies the <b>Size</b> and <b>Version</b> members 
 
 
 
-<a href="https://msdn.microsoft.com/0ce5df90-2019-4a92-97d6-0218acc8b1e8">DxgkCbQueryServices</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkcb_query_services">DxgkCbQueryServices</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570086">Timed Operation Interface</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">Timed Operation Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570083">TimedOperationDelay</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/ns-dispmprt-_dxgk_timed_operation_interface">TimedOperationDelay</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570084">TimedOperationStart</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/ns-dispmprt-_dxgk_timed_operation_interface">TimedOperationStart</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570085">TimedOperationWaitForSingleObject</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/ns-dispmprt-_dxgk_timed_operation_interface">TimedOperationWaitForSingleObject</a>
  
 
  

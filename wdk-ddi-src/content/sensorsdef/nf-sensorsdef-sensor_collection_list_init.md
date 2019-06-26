@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-This function initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/dn957092">SENSOR_COLLECTION_LIST</a> structure.
+This function initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sensorsdef/ns-sensorsdef-sensor_collection_list">SENSOR_COLLECTION_LIST</a> structure.
 
 
 ## -parameters
@@ -56,14 +56,14 @@ This function initializes a <a href="https://msdn.microsoft.com/library/windows/
 
 ### -param pCollectionList [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn957092">SENSOR_COLLECTION_LIST</a>.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sensorsdef/ns-sensorsdef-sensor_collection_list">SENSOR_COLLECTION_LIST</a>.
 
 
 
 
 ### -param CollectionListSize [in]
 
-The size of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn957092">SENSOR_COLLECTION_LIST</a>.
+The size of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sensorsdef/ns-sensorsdef-sensor_collection_list">SENSOR_COLLECTION_LIST</a>.
 
 
 ## -returns
@@ -80,7 +80,7 @@ This function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn957092">SENSOR_COLLECTION_LIST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sensorsdef/ns-sensorsdef-sensor_collection_list">SENSOR_COLLECTION_LIST</a>
  
 
  

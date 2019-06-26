@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-For more information, see  the <a href="https://msdn.microsoft.com/F986A431-A70D-4488-A792-F37128902C7E">WdmlibIoValidateDeviceIoControlAccess</a> function.
+For more information, see  the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdmsec/nf-wdmsec-wdmlibiovalidatedeviceiocontrolaccess">WdmlibIoValidateDeviceIoControlAccess</a> function.
 
 
 ## -parameters
@@ -56,19 +56,19 @@ For more information, see  the <a href="https://msdn.microsoft.com/F986A431-A70D
 
 ### -param Irp [in]
 
-For more information, see  the <a href="https://msdn.microsoft.com/F986A431-A70D-4488-A792-F37128902C7E">WdmlibIoValidateDeviceIoControlAccess</a> function.
+For more information, see  the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdmsec/nf-wdmsec-wdmlibiovalidatedeviceiocontrolaccess">WdmlibIoValidateDeviceIoControlAccess</a> function.
 
 
 ### -param RequiredAccess [in]
 
-For more information, see  the <a href="https://msdn.microsoft.com/F986A431-A70D-4488-A792-F37128902C7E">WdmlibIoValidateDeviceIoControlAccess</a> function.
+For more information, see  the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdmsec/nf-wdmsec-wdmlibiovalidatedeviceiocontrolaccess">WdmlibIoValidateDeviceIoControlAccess</a> function.
 
 
 ## -returns
 
 
 
-For more information, see  the <a href="https://msdn.microsoft.com/F986A431-A70D-4488-A792-F37128902C7E">WdmlibIoValidateDeviceIoControlAccess</a> function.
+For more information, see  the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdmsec/nf-wdmsec-wdmlibiovalidatedeviceiocontrolaccess">WdmlibIoValidateDeviceIoControlAccess</a> function.
 
 
 
@@ -78,7 +78,7 @@ For more information, see  the <a href="https://msdn.microsoft.com/F986A431-A70D
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550694">IRP</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_irp">IRP</a>
  
 
  

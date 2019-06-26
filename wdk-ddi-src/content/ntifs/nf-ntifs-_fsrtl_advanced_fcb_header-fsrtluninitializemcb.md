@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <b>FsRtlUninitializeMcb</b> routine is obsolete, but is exported to support existing driver binaries. Use <a href="https://msdn.microsoft.com/library/windows/hardware/ff547318">FsRtlUninitializeLargeMcb</a> instead.
+The <b>FsRtlUninitializeMcb</b> routine is obsolete, but is exported to support existing driver binaries. Use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtluninitializelargemcb">FsRtlUninitializeLargeMcb</a> instead.
 
 
 ## -parameters

@@ -175,7 +175,7 @@ This <i>error</i> status means the function received an invalid input parameter.
 <li>The destination buffer pointer is <b>NULL</b>, but the buffer size is not zero.</li>
 <li>The destination buffer pointer is <b>NULL</b>, or its length is zero, but a nonzero length source string is present.</li>
 </ul>
-For information about how to test NTSTATUS values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565436">Using NTSTATUS Values</a>.
+For information about how to test NTSTATUS values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-ntstatus-values">Using NTSTATUS Values</a>.
 
 
 
@@ -186,7 +186,7 @@ For information about how to test NTSTATUS values, see <a href="https://msdn.mic
 
 The <b>RtlUnicodeStringVPrintfEx</b> function uses the destination buffer's size to ensure that the string formatting operation does not write past the end of the buffer. By default, the function does <u>not</u> terminate the resultant string with a null character value (that is, with zero). As an option, the caller can use the STRSAFE_FILL_BEHIND flag and a fill byte value of zero to null-terminate a resultant string that does not occupy the entire destination buffer.
 
-<b>RtlUnicodeStringVPrintfEx</b> adds to the functionality of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562983">RtlUnicodeStringVPrintf</a> function by returning a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that identifies the end of the destination string and the number of bytes that are left unused in that string. You can pass flags to <b>RtlUnicodeStringVPrintfEx</b> for additional control.
+<b>RtlUnicodeStringVPrintfEx</b> adds to the functionality of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntstrsafe/nf-ntstrsafe-rtlunicodestringvprintf">RtlUnicodeStringVPrintf</a> function by returning a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that identifies the end of the destination string and the number of bytes that are left unused in that string. You can pass flags to <b>RtlUnicodeStringVPrintfEx</b> for additional control.
 
 If the format string and the destination string overlap, the behavior of the function is undefined.
 
@@ -194,7 +194,7 @@ The <i>pszFormat</i> and <i>DestinationString</i> pointers cannot be <b>NULL</b>
 
 For more information about <b>va_list</b>-typed argument lists, see the Microsoft Windows SDK documentation.
 
-For more information about the safe string functions, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565508">Using Safe String Functions</a>.
+For more information about the safe string functions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-safe-string-functions">Using Safe String Functions</a>.
 
 
 
@@ -204,15 +204,15 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562961">RtlUnicodeStringPrintf</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntstrsafe/nf-ntstrsafe-rtlunicodestringprintf">RtlUnicodeStringPrintf</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562964">RtlUnicodeStringPrintfEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntstrsafe/nf-ntstrsafe-rtlunicodestringprintfex">RtlUnicodeStringPrintfEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562983">RtlUnicodeStringVPrintf</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntstrsafe/nf-ntstrsafe-rtlunicodestringvprintf">RtlUnicodeStringVPrintf</a>
 
 
 

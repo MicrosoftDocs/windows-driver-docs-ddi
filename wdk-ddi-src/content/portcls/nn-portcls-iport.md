@@ -52,39 +52,39 @@ The <code>IPort</code> interface provides a uniform means for initializing audio
 <dl>
 <dd>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536879">IPortDMus</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dmusicks/nn-dmusicks-iportdmus">IPortDMus</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536891">IPortMidi</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iportmidi">IPortMidi</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536896">IPortTopology</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iporttopology">IPortTopology</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536899">IPortWaveCyclic</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iportwavecyclic">IPortWaveCyclic</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536905">IPortWavePci</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff536905(v=vs.85)">IPortWavePci</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536920">IPortWaveRT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iportwavert">IPortWaveRT</a>
 
 
 </dd>
-</dl>Call <a href="https://msdn.microsoft.com/library/windows/hardware/ff537715">PcNewPort</a> to create a port object with one of these interfaces.
+</dl>Call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-pcnewport">PcNewPort</a> to create a port object with one of these interfaces.
 

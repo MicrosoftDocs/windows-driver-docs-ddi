@@ -81,7 +81,7 @@ When a page fault occurs, the file system can call <b>MmIsRecursiveIoFault</b> t
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554572">MmIsAddressValid</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-mmisaddressvalid">MmIsAddressValid</a>
  
 
  

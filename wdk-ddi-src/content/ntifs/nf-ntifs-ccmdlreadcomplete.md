@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <b>CcMdlReadComplete</b> routine frees the memory descriptor lists (MDL) created by <a href="https://msdn.microsoft.com/library/windows/hardware/ff539159">CcMdlRead</a> for a cached file.
+The <b>CcMdlReadComplete</b> routine frees the memory descriptor lists (MDL) created by <a href="https://docs.microsoft.com/previous-versions/ff539159(v=vs.85)">CcMdlRead</a> for a cached file.
 
 
 ## -parameters
@@ -56,12 +56,12 @@ The <b>CcMdlReadComplete</b> routine frees the memory descriptor lists (MDL) cre
 
 ### -param FileObject [in]
 
-File object pointer that was passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539159">CcMdlRead</a>.
+File object pointer that was passed to <a href="https://docs.microsoft.com/previous-versions/ff539159(v=vs.85)">CcMdlRead</a>.
 
 
 ### -param MdlChain [in]
 
-Address of the MDL chain returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff539159">CcMdlRead</a>.
+Address of the MDL chain returned by <a href="https://docs.microsoft.com/previous-versions/ff539159(v=vs.85)">CcMdlRead</a>.
 
 
 ## -returns
@@ -77,9 +77,9 @@ None
 
 
 
-<b>CcMdlReadComplete</b> frees the memory descriptor lists (MDL) created by <a href="https://msdn.microsoft.com/library/windows/hardware/ff539159">CcMdlRead</a> for a cached file. All physical pages that were locked down are unlocked. Any pages that were mapped are unmapped.
+<b>CcMdlReadComplete</b> frees the memory descriptor lists (MDL) created by <a href="https://docs.microsoft.com/previous-versions/ff539159(v=vs.85)">CcMdlRead</a> for a cached file. All physical pages that were locked down are unlocked. Any pages that were mapped are unmapped.
 
-Each call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff539159">CcMdlRead</a> must be followed by a call to <b>CcMdlReadComplete</b>.
+Each call to <a href="https://docs.microsoft.com/previous-versions/ff539159(v=vs.85)">CcMdlRead</a> must be followed by a call to <b>CcMdlReadComplete</b>.
 
 
 
@@ -89,7 +89,7 @@ Each call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff5391
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539159">CcMdlRead</a>
+<a href="https://docs.microsoft.com/previous-versions/ff539159(v=vs.85)">CcMdlRead</a>
  
 
  

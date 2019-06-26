@@ -70,7 +70,7 @@ A handle to the display device.
 
 *pData* [in, out]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn906762">D3DDDICB_EVICT</a> structure that describes the memory pages to evict.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-d3dddicb_evict">D3DDDICB_EVICT</a> structure that describes the memory pages to evict.
 
 
 
@@ -98,7 +98,7 @@ Once the eviction request is queued, it is illegal to access the underlying allo
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn906762">D3DDDICB_EVICT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-d3dddicb_evict">D3DDDICB_EVICT</a>
  
 
  

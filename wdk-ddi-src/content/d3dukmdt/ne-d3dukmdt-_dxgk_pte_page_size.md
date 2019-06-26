@@ -46,7 +46,7 @@ req.typenames: DXGK_PTE_PAGE_SIZE
 ## -description
 
 
-The <b>DXGK_PTE_PAGE_SIZE </b>enumeration is used by <a href="https://msdn.microsoft.com/library/windows/hardware/ff562008">DXGK_PTE</a> to indicate the size of lower page level pages. 
+The <b>DXGK_PTE_PAGE_SIZE </b>enumeration is used by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dukmdt/ns-d3dukmdt-_dxgk_pte">DXGK_PTE</a> to indicate the size of lower page level pages. 
 
 
 ## -enum-fields
@@ -69,7 +69,7 @@ Indicates the lower page table level uses 64 KB pages.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562008">DXGK_PTE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dukmdt/ns-d3dukmdt-_dxgk_pte">DXGK_PTE</a>
  
 
  

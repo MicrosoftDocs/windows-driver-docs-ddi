@@ -56,14 +56,14 @@ The<b> KsFilterFactoryGetParentDevice</b> function returns the parent device of 
 
 ### -param FilterFactory [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff562530">KSFILTERFACTORY</a> structure for which to return the parent device.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksfilterfactory">KSFILTERFACTORY</a> structure for which to return the parent device.
 
 
 ## -returns
 
 
 
-<b>KsFilterFactoryGetParentDevice</b> returns a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561681">KSDEVICE</a> structure representing the parent device of the filter factory. This is the AVStream device to which the filter factory belongs.
+<b>KsFilterFactoryGetParentDevice</b> returns a pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksdevice">KSDEVICE</a> structure representing the parent device of the filter factory. This is the AVStream device to which the filter factory belongs.
 
 
 
@@ -72,7 +72,7 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff56
 
 
 
-This call is an inline function call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff562658">KsGetParent</a>. Note that the object hierarchy is guaranteed to be stable only while the appropriate mutex is held, in this case the device mutex. For more information, see <a href="https://msdn.microsoft.com/011edaaa-7449-41c3-8cfb-0d319901af8b">Mutexes in AVStream</a>.
+This call is an inline function call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksgetparent">KsGetParent</a>. Note that the object hierarchy is guaranteed to be stable only while the appropriate mutex is held, in this case the device mutex. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/mutexes-in-avstream">Mutexes in AVStream</a>.
 
 
 
@@ -82,15 +82,15 @@ This call is an inline function call to <a href="https://msdn.microsoft.com/libr
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561681">KSDEVICE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksdevice">KSDEVICE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562530">KSFILTERFACTORY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksfilterfactory">KSFILTERFACTORY</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562658">KsGetParent</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksgetparent">KsGetParent</a>
  
 
  

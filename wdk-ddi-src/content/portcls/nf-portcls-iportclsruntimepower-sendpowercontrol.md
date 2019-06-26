@@ -103,7 +103,7 @@ The <code>SendPowerControl</code> method returns STATUS_SUCCESS, if the call is 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265125">IPortClsRuntimePower</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iportclsruntimepower">IPortClsRuntimePower</a>
  
 
  

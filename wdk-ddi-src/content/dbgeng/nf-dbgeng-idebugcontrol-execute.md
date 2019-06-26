@@ -58,12 +58,12 @@ The <b>Execute</b>  method executes the specified debugger commands.
 
 ### -param OutputControl [in]
 
-Specifies the output control to use while executing the command.  For possible values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff541517">DEBUG_OUTCTL_XXX</a>.  For more information about output, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff550971">Input and Output</a>.
+Specifies the output control to use while executing the command.  For possible values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-outctl-xxx">DEBUG_OUTCTL_XXX</a>.  For more information about output, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/input-and-output">Input and Output</a>.
 
 
 ### -param Command [in]
 
-Specifies the command string to execute.  The command is interpreted like those typed into a debugger command window.  This command string can contain multiple commands for the engine to execute.  See <a href="https://msdn.microsoft.com/library/windows/hardware/ff540507">Debugger Commands</a> for the command reference.
+Specifies the command string to execute.  The command is interpreted like those typed into a debugger command window.  This command string can contain multiple commands for the engine to execute.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debugger-commands">Debugger Commands</a> for the command reference.
 
 
 ### -param Flags [in]
@@ -113,7 +113,7 @@ If <i>Command</i> is an empty string, do not repeat the last command, and do not
 
 
 
-This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+This method can also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 <table>
 <tr>
@@ -143,7 +143,7 @@ The method was successful.
 
 This method executes the given command string.  If the string has multiple commands, this method will not return until all of the commands have been executed. If the sequence of commands involves waiting for the target to execute, this method can take an arbitrary amount of time to complete.
 
-<div class="alert"><b>Note</b>  It is important to understand what it means for a step command to execute. A step command initiates a stepping action but does not wait for the stepping to complete. For example, suppose you call <b>IDebugControl::Execute</b> and pass a command string that contains the single command <a href="https://msdn.microsoft.com/ff4b5708-b9d0-4809-9fe4-9a22d4cacbc0">pct</a>. The <b>pct</b> command initiates a step to the next call or return instruction, but <b>pct</b> completes its execution before the stepping takes place. Consequently, <b>IDebugControl::Execute</b> returns before the stepping takes place. Trace and go commands behave in a similar way. Examples of commands that have this behavior include <a href="https://msdn.microsoft.com/9b6aac94-6c53-40c2-a8de-2ad106678c65">g</a>, <a href="https://msdn.microsoft.com/3e06a3ff-b57d-435f-9625-011f38d7b26a">gh</a>, <a href="https://msdn.microsoft.com/99741659-dd43-44ea-ac27-06d821b47fbe">ta</a>, <a href="https://msdn.microsoft.com/28b736f9-69f5-405b-9684-48b4205e7633">tb</a>, <a href="https://msdn.microsoft.com/059d8071-577f-4306-8273-8fdff6a80626">tct</a>, <a href="https://msdn.microsoft.com/497261a9-69fb-4df2-b342-cd62bda8a51f">pa</a>, and <a href="https://msdn.microsoft.com/4b9b786c-2ecc-44a6-a82b-0641d7991abc">pc</a>.</div>
+<div class="alert"><b>Note</b>  It is important to understand what it means for a step command to execute. A step command initiates a stepping action but does not wait for the stepping to complete. For example, suppose you call <b>IDebugControl::Execute</b> and pass a command string that contains the single command <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/pct--step-to-next-call-or-return-">pct</a>. The <b>pct</b> command initiates a step to the next call or return instruction, but <b>pct</b> completes its execution before the stepping takes place. Consequently, <b>IDebugControl::Execute</b> returns before the stepping takes place. Trace and go commands behave in a similar way. Examples of commands that have this behavior include <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/g--go-">g</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/gh--go-with-exception-handled-">gh</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/ta--trace-to-address-">ta</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/tb--trace-to-next-branch-">tb</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/tct--trace-to-next-call-or-return-">tct</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/pa--step-to-address-">pa</a>, and <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/pc--step-to-next-call-">pc</a>.</div>
 <div> </div>
 
 
@@ -153,19 +153,19 @@ This method executes the given command string.  If the string has multiple comma
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543215">ExecuteCommandFile</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-executecommandfile">ExecuteCommandFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550508">IDebugControl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugcontrol">IDebugControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550512">IDebugControl2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugcontrol2">IDebugControl2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550519">IDebugControl3</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugcontrol3">IDebugControl3</a>
  
 
  

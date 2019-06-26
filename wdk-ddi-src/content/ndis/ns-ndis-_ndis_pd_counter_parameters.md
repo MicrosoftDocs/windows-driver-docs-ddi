@@ -56,7 +56,7 @@ This structure holds parameters for the provider counter.
 
 ### -field Header
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for the <b>NDIS_PD_COUNTER_PARAMETERS</b> structure. Set the members of this structure as follows:
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the <b>NDIS_PD_COUNTER_PARAMETERS</b> structure. Set the members of this structure as follows:
 
 <ul>
 <li><b>Type</b> = <b>NDIS_OBJECT_TYPE_DEFAULT</b></li>
@@ -76,7 +76,7 @@ This member  is ignored by the PD provider. It is used by the PD platform for pu
 
 ### -field Type
 
-An <a href="https://msdn.microsoft.com/library/windows/hardware/dn931837">NDIS_PD_COUNTER_TYPE</a> enumeration value that specifies the counter type.
+An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ne-ndis-ndis_pd_counter_type">NDIS_PD_COUNTER_TYPE</a> enumeration value that specifies the counter type.
 
 
 ## -see-also
@@ -84,15 +84,15 @@ An <a href="https://msdn.microsoft.com/library/windows/hardware/dn931837">NDIS_P
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn931837">NDIS_PD_COUNTER_TYPE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ne-ndis-ndis_pd_counter_type">NDIS_PD_COUNTER_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/86AA537D-952F-4A7A-ACA4-24B8C1AE932A">NdisPDAllocateCounter</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-ndis_pd_allocate_counter">NdisPDAllocateCounter</a>
  
 
  

@@ -46,7 +46,7 @@ req.typenames: SPB_TRANSFER_LIST, *PSPB_TRANSFER_LIST
 ## -description
 
 
-The <b>SPB_TRANSFER_LIST</b> structure describes an <a href="https://msdn.microsoft.com/7415DB28-5E93-4F47-B169-7C652969D4C7">I/O transfer sequence</a>.
+The <b>SPB_TRANSFER_LIST</b> structure describes an <a href="https://docs.microsoft.com/windows-hardware/drivers/spb/i-o-transfer-sequences">I/O transfer sequence</a>.
 
 
 ## -struct-fields
@@ -71,7 +71,7 @@ The number of elements in the <b>Transfers</b> array. This array contains a mini
 
 ### -field Transfers
 
-This member is the first element in an array of <a href="https://msdn.microsoft.com/library/windows/hardware/hh406223">SPB_TRANSFER_LIST_ENTRY</a> structures.  Each array element describes an individual transfer in the I/O transfer sequence. If the array contains more than one element, the additional array elements immediately follow the <b>SPB_TRANSFER_LIST</b> structure in memory. The transfers are performed in the order in which they appear in the array, starting with the first element.
+This member is the first element in an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/spb/ns-spb-spb_transfer_list_entry">SPB_TRANSFER_LIST_ENTRY</a> structures.  Each array element describes an individual transfer in the I/O transfer sequence. If the array contains more than one element, the additional array elements immediately follow the <b>SPB_TRANSFER_LIST</b> structure in memory. The transfers are performed in the order in which they appear in the array, starting with the first element.
 
 
 ## -remarks
@@ -82,7 +82,7 @@ The input buffer for an <a href="https://msdn.microsoft.com/library/windows/hard
 
 The input buffer for an <a href="https://msdn.microsoft.com/library/windows/hardware/hh974774">IOCTL_SPB_FULL_DUPLEX</a> request begins with an <b>SPB_TRANSFER_LIST</b> structure. The <b>SPB_TRANSFER_LIST</b> structure for this request always specifies two buffers. The first buffer, which is described by the <b>Transfers</b> member of this structure, contains the data to write to the device. The second buffer, which is described by an array element that immediately follows the <b>SPB_TRANSFER_LIST</b> structure, is used to hold the data read from the device.
 
-If your SPB controller driver supports custom I/O control (IOCTL) requests that use input or output buffers, use the <b>SPB_TRANSFER_LIST</b> structure to describe these buffers. For more information, see <a href="https://msdn.microsoft.com/577122CC-D1F8-41C5-BE77-A22FC8516B82">Using the SPB_TRANSFER_LIST Structure for Custom IOCTLs</a>.
+If your SPB controller driver supports custom I/O control (IOCTL) requests that use input or output buffers, use the <b>SPB_TRANSFER_LIST</b> structure to describe these buffers. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/spb/using-the-spb-transfer-list-structure">Using the SPB_TRANSFER_LIST Structure for Custom IOCTLs</a>.
 
 
 
@@ -100,7 +100,7 @@ If your SPB controller driver supports custom I/O control (IOCTL) requests that 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406223">SPB_TRANSFER_LIST_ENTRY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/spb/ns-spb-spb_transfer_list_entry">SPB_TRANSFER_LIST_ENTRY</a>
  
 
  

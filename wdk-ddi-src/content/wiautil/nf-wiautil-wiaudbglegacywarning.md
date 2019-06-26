@@ -84,7 +84,7 @@ None
 
 
 
-The <b>wiauDbgLegacyWarning</b> function is identical to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550163">wiauDbgWarning</a> function except that the latter has a parameter used to identify the function or method that is active when the function is called.
+The <b>wiauDbgLegacyWarning</b> function is identical to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-wiaudbgwarning">wiauDbgWarning</a> function except that the latter has a parameter used to identify the function or method that is active when the function is called.
 
 
 
@@ -94,7 +94,7 @@ The <b>wiauDbgLegacyWarning</b> function is identical to the <a href="https://ms
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550163">wiauDbgWarning</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-wiaudbgwarning">wiauDbgWarning</a>
  
 
  

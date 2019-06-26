@@ -114,11 +114,11 @@ Volume device object specified in the <i>DeviceObject</i> parameter was not a va
 
 The <i>DeviceObject</i> parameter can be a pointer to a filter or a file system volume device object (VDO). If it points to a storage device object, <b>FltGetVolumeFromDeviceObject</b> returns STATUS_INVALID_PARAMETER. 
 
-For more information about volume device objects, see <a href="https://msdn.microsoft.com/67839ffb-fe38-42c2-8f33-89d01d796d8a">File System Stacks</a>. 
+For more information about volume device objects, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/file-system-stacks">File System Stacks</a>. 
 
-<b>FltGetVolumeFromDeviceObject</b> adds a rundown reference to the opaque volume pointer returned in the <i>RetVolume</i> parameter. When this pointer is no longer needed, the caller must release it by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff543378">FltObjectDereference</a>. Thus every successful call to <b>FltGetVolumeFromDeviceObject</b> must be matched by a subsequent call to <b>FltObjectDereference</b>. 
+<b>FltGetVolumeFromDeviceObject</b> adds a rundown reference to the opaque volume pointer returned in the <i>RetVolume</i> parameter. When this pointer is no longer needed, the caller must release it by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltobjectdereference">FltObjectDereference</a>. Thus every successful call to <b>FltGetVolumeFromDeviceObject</b> must be matched by a subsequent call to <b>FltObjectDereference</b>. 
 
-To get a pointer to the device object for a given volume, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff543007">FltGetDeviceObject</a>. 
+To get a pointer to the device object for a given volume, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltgetdeviceobject">FltGetDeviceObject</a>. 
 
 
 
@@ -128,15 +128,15 @@ To get a pointer to the device object for a given volume, call <a href="https://
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543007">FltGetDeviceObject</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltgetdeviceobject">FltGetDeviceObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543013">FltGetDiskDeviceObject</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltgetdiskdeviceobject">FltGetDiskDeviceObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543378">FltObjectDereference</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltobjectdereference">FltObjectDereference</a>
  
 
  

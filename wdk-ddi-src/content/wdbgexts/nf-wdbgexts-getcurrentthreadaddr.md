@@ -79,7 +79,7 @@ None
 
 
 
-In user-mode debugging, <b>GetCurrentThreadAddr</b> returns the location of the thread's Thread Environment Block (TEB).  This is the same location that <a href="https://msdn.microsoft.com/library/windows/hardware/ff549267">GetTebAddress</a> returns.
+In user-mode debugging, <b>GetCurrentThreadAddr</b> returns the location of the thread's Thread Environment Block (TEB).  This is the same location that <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdbgexts/nf-wdbgexts-gettebaddress">GetTebAddress</a> returns.
 
 In kernel-mode debugging, <b>GetCurrentThreadAddr</b> returns the location of the KTHREAD structure of the operating system thread that was executing on the processor when the last event occurred.
 
@@ -93,7 +93,7 @@ For details on the KTHREAD and TEB structures, see <i>Microsoft Windows Internal
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549267">GetTebAddress</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdbgexts/nf-wdbgexts-gettebaddress">GetTebAddress</a>
  
 
  

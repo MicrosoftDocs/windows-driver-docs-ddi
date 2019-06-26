@@ -64,7 +64,7 @@ The D3DDDIARG_DESTROYLIGHT structure contains the index into a light array for t
 
 
 
-<a href="https://msdn.microsoft.com/dbc86e4d-a002-4270-a3c4-02d16972c921">DestroyLight</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_destroylight">DestroyLight</a>
  
 
  

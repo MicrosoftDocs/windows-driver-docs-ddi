@@ -46,7 +46,7 @@ req.typenames: WINBIO_SUPPORTED_ALGORITHMS, *PWINBIO_SUPPORTED_ALGORITHMS
 ## -description
 
 
-The WINBIO_SUPPORTED_ALGORITHMS structure is the OUT payload for <a href="https://msdn.microsoft.com/library/windows/hardware/ff536438">IOCTL_BIOMETRIC_GET_SUPPORTED_ALGORITHMS</a>.
+The WINBIO_SUPPORTED_ALGORITHMS structure is the OUT payload for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winbio_ioctl/ni-winbio_ioctl-ioctl_biometric_get_supported_algorithms">IOCTL_BIOMETRIC_GET_SUPPORTED_ALGORITHMS</a>.
 
 
 ## -struct-fields
@@ -71,7 +71,7 @@ Specifies the number of algorithms in the data block.
 
 ### -field AlgorithmData
 
-Specifies a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff536469">WINBIO_DATA</a> that contains NULL-terminated UTF-8 OID strings that represent the algorithms supported by the device.
+Specifies a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winbio_ioctl/ns-winbio_ioctl-_winbio_data">WINBIO_DATA</a> that contains NULL-terminated UTF-8 OID strings that represent the algorithms supported by the device.
 
 
 ## -see-also
@@ -79,7 +79,7 @@ Specifies a structure of type <a href="https://msdn.microsoft.com/library/window
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536438">IOCTL_BIOMETRIC_GET_SUPPORTED_ALGORITHMS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winbio_ioctl/ni-winbio_ioctl-ioctl_biometric_get_supported_algorithms">IOCTL_BIOMETRIC_GET_SUPPORTED_ALGORITHMS</a>
  
 
  

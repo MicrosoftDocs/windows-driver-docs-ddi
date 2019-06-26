@@ -51,7 +51,7 @@ The <b>IPrinterExtensionManager</b> interface is retrieved by CoCreating the <b>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrinterExtensionManager</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IPrinterExtensionManager</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrinterExtensionManager</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrinterExtensionManager</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -66,7 +66,7 @@ The <b>IPrinterExtensionManager</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406703">DisableEvents</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nf-printerextension-iprinterextensionmanager-disableevents">DisableEvents</a>
 </td>
 <td align="left" width="63%">
 Disallows events to be generated.
@@ -75,10 +75,10 @@ Disallows events to be generated.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406706">EnableEvents</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nf-printerextension-iprinterextensionmanager-enableevents">EnableEvents</a>
 </td>
 <td align="left" width="63%">
-The EnableEvents method allows events to be generated for the specified printer driver until  <a href="https://msdn.microsoft.com/library/windows/hardware/hh406703">DisableEvents</a> is called. 
+The EnableEvents method allows events to be generated for the specified printer driver until  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nf-printerextension-iprinterextensionmanager-disableevents">DisableEvents</a> is called. 
 
 </td>
 </tr>
@@ -89,7 +89,7 @@ The EnableEvents method allows events to be generated for the specified printer 
 
 
 
-Any event sink that implements <a href="https://msdn.microsoft.com/A0F4DB51-D68E-4516-833A-7E984247796B">IPrinterExtensionEvent</a> is connected to the associated event source, <b>IPrinterExtensionManager</b>, via the <b>IConnectionPoint</b> mechanism. You must retrieve a pointer to the <b>IConnectionPoint</b> interface by invoking <b>QueryInterface</b> on the <b>IPrinterExtensionManager</b> object.
+Any event sink that implements <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprinterextensionevent">IPrinterExtensionEvent</a> is connected to the associated event source, <b>IPrinterExtensionManager</b>, via the <b>IConnectionPoint</b> mechanism. You must retrieve a pointer to the <b>IConnectionPoint</b> interface by invoking <b>QueryInterface</b> on the <b>IPrinterExtensionManager</b> object.
 
 <div class="alert"><b>Note</b>  It is mandatory to implement <b>IDispatch::Invoke</b> on the event sink that implements <b>IPrinterExtensionEvent</b>, since that is the mechanism via which events are raised. It is sufficient to provide stub implementations of the other methods on the <b>IDispatch</b> interface.</div>
 <div> </div>

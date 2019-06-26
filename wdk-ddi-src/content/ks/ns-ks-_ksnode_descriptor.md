@@ -56,7 +56,7 @@ The KSNODE_DESCRIPTOR structure describes a topology node within a filter.
 
 ### -field AutomationTable
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff560990">KSAUTOMATION_TABLE</a> structure for this topology node. The automation table contains the properties, methods, and events supported by this topology node.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksautomation_table_">KSAUTOMATION_TABLE</a> structure for this topology node. The automation table contains the properties, methods, and events supported by this topology node.
 
 
 ### -field Type
@@ -66,7 +66,7 @@ A pointer to a GUID defining the topology node.
 
 ### -field Name
 
-A pointer to a GUID that represents the name of this topology node. This is used to return information about a <a href="https://msdn.microsoft.com/library/windows/hardware/ff565809">KSPROPERTY_TOPOLOGY_NAME</a> query.
+A pointer to a GUID that represents the name of this topology node. This is used to return information about a <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-topology-name">KSPROPERTY_TOPOLOGY_NAME</a> query.
 
 
 ### -field Alignment
@@ -81,7 +81,7 @@ A pointer to a GUID that represents the name of this topology node. This is used
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562553">KSFILTER_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksfilter_descriptor">KSFILTER_DESCRIPTOR</a>
  
 
  

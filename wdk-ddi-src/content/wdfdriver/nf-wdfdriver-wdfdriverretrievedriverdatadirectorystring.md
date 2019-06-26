@@ -62,7 +62,7 @@ The **WdfDriverRetrieveDriverDataDirectoryString** method returns a path to a di
 ## -remarks
 To achieve the same result, a KMDF driver should call [**IoGetDriverDirectory**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iogetdriverdirectory) instead.
 
-For more information about string objects, see [Using String Objects](https://docs.microsoft.com//windows-hardware/drivers/wdf/using-string-objects).
+For more information about string objects, see [Using String Objects](https://docs.microsoft.com/windows-hardware/drivers/wdf/using-string-objects).
 
 #### Examples
 

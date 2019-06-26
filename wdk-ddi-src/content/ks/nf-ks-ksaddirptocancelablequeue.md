@@ -77,7 +77,7 @@ Indicates whether this IRP should be placed at the beginning or end of the queue
 
 ### -param DriverCancel [in, optional]
 
-Optional parameter that specifies a driver-supplied cancel routine to use. If this is <b>NULL</b>, the standard <a href="https://msdn.microsoft.com/library/windows/hardware/ff561011">KsCancelRoutine</a> is used.
+Optional parameter that specifies a driver-supplied cancel routine to use. If this is <b>NULL</b>, the standard <a href="https://docs.microsoft.com/previous-versions/ff561011(v=vs.85)">KsCancelRoutine</a> is used.
 
 
 ## -returns

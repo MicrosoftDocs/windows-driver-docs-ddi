@@ -99,11 +99,11 @@ Returns the PEP parking preference for each processor.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt186768">PEP_NOTIFY_PPM_PARK_MASK notification</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">PEP_NOTIFY_PPM_PARK_MASK notification</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt186838">PEP_PROCESSOR_PARK_STATE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/ns-pepfx-_pep_processor_park_state">PEP_PROCESSOR_PARK_STATE</a>
  
 
  

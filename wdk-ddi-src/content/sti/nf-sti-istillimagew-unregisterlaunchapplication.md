@@ -74,7 +74,7 @@ If the operation succeeds, the method returns S_OK. Otherwise, it returns one of
 
 The <b>IStillImage::UnRegisterLaunchApplication</b> method should be called as part of the process of uninstalling a push-model aware application. The method can be uninstalled either by the application itself or by other uninstalling software.
 
-Before calling <b>IStillImage::UnRegisterLaunchApplication</b>, clients of the <b>IStillImage</b> COM interface must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff543804">IStillImage::StiCreateInstance</a> to obtain an <b>IStillImage</b> interface pointer.
+Before calling <b>IStillImage::UnRegisterLaunchApplication</b>, clients of the <b>IStillImage</b> COM interface must call <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff543804(v=vs.85)">IStillImage::StiCreateInstance</a> to obtain an <b>IStillImage</b> interface pointer.
 
 
 
@@ -84,11 +84,11 @@ Before calling <b>IStillImage::UnRegisterLaunchApplication</b>, clients of the <
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543798">IStillImage::RegisterLaunchApplication</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff543798(v=vs.85)">IStillImage::RegisterLaunchApplication</a>
 
 
 
-<a href="https://msdn.microsoft.com/a9ceee48-cbb5-4448-83b4-9c19fe89fcb9">IStillImageW</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_image/index">IStillImageW</a>
  
 
  

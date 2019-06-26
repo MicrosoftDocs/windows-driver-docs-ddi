@@ -46,7 +46,7 @@ req.typenames: USB_NODE_CONNECTION_DRIVERKEY_NAME, *PUSB_NODE_CONNECTION_DRIVERK
 ## -description
 
 
-The <b>USB_NODE_CONNECTION_DRIVERKEY_NAME</b> structure is used with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537317">IOCTL_USB_GET_NODE_CONNECTION_DRIVERKEY_NAME</a> I/O control request to retrieve the driver key name for the device that is connected to the indicated port.
+The <b>USB_NODE_CONNECTION_DRIVERKEY_NAME</b> structure is used with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbioctl/ni-usbioctl-ioctl_usb_get_node_connection_driverkey_name">IOCTL_USB_GET_NODE_CONNECTION_DRIVERKEY_NAME</a> I/O control request to retrieve the driver key name for the device that is connected to the indicated port.
 
 
 ## -struct-fields
@@ -74,11 +74,11 @@ On output, the driver key name for the device that is attached to the port that 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537317">IOCTL_USB_GET_NODE_CONNECTION_DRIVERKEY_NAME</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbioctl/ni-usbioctl-ioctl_usb_get_node_connection_driverkey_name">IOCTL_USB_GET_NODE_CONNECTION_DRIVERKEY_NAME</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">USB Structures</a>
  
 
  

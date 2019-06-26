@@ -58,7 +58,7 @@ The <b>GetReadParameters</b> method retrieves the request parameters for a read-
 
 ### -param pSizeInBytes [out]
 
-A pointer to a variable that receives the size, in bytes, to read. To retrieve the data for reading, the driver calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559112">IWDFIoRequest::GetOutputMemory</a> method.
+A pointer to a variable that receives the size, in bytes, to read. To retrieve the data for reading, the driver calls the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfiorequest-getoutputmemory">IWDFIoRequest::GetOutputMemory</a> method.
 
 This parameter is optional. The driver can pass <b>NULL</b> if the driver does not require the information. 
 
@@ -111,11 +111,11 @@ Although the driver can optionally specify <b>NULL</b> for each of the <i>pSizeI
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558985">IWDFIoRequest</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nn-wudfddi-iwdfiorequest">IWDFIoRequest</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559112">IWDFIoRequest::GetOutputMemory</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfiorequest-getoutputmemory">IWDFIoRequest::GetOutputMemory</a>
  
 
  

@@ -47,7 +47,7 @@ req.typenames:
 ## -description
 
 
-The <b>ZwUnmapViewOfSection</b> routine unmaps a <a href="https://msdn.microsoft.com/library/windows/hardware/dn927297">view</a> of a section from the virtual address space of a subject process.
+The <b>ZwUnmapViewOfSection</b> routine unmaps a <a href="https://docs.microsoft.com/windows-hardware/test/wpt/view">view</a> of a section from the virtual address space of a subject process.
 
 
 ## -parameters
@@ -57,7 +57,7 @@ The <b>ZwUnmapViewOfSection</b> routine unmaps a <a href="https://msdn.microsoft
 
 ### -param ProcessHandle [in]
 
-Handle to a process object that was previously passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff566481">ZwMapViewOfSection</a>.
+Handle to a process object that was previously passed to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-zwmapviewofsection">ZwMapViewOfSection</a>.
 
 
 ### -param BaseAddress [in, optional]
@@ -112,9 +112,9 @@ This routine unmaps the entire view of the section that contains <i>BaseAddress<
 
 On return from <b>ZwUnmapViewOfSection</b>, the virtual-address region occupied by the view is no longer reserved and is available to map other views or private pages. If the view was also the last reference to the underlying section, all committed pages in the section are decommitted, and the section is deleted.
 
-<div class="alert"><b>Note</b>  If the call to this function occurs in user mode, you should use the name "<a href="https://msdn.microsoft.com/library/windows/hardware/ff557711">NtUnmapViewOfSection</a>" instead of "<b>ZwUnmapViewOfSection</b>".</div>
+<div class="alert"><b>Note</b>  If the call to this function occurs in user mode, you should use the name "<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-zwunmapviewofsection">NtUnmapViewOfSection</a>" instead of "<b>ZwUnmapViewOfSection</b>".</div>
 <div> </div>
-For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
+For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>.
 
 
 
@@ -124,15 +124,15 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566481">ZwMapViewOfSection</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-zwmapviewofsection">ZwMapViewOfSection</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567029">ZwOpenSection</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-zwopensection">ZwOpenSection</a>
  
 
  

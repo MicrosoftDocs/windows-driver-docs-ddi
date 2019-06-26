@@ -107,15 +107,15 @@ It is recommended that the <b>RxLog</b> macro be used to call this routine. On c
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554515">RxLogEventDirect</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/rxprocs/nf-rxprocs-rxlogeventdirect">RxLogEventDirect</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554519">RxLogEventWithAnnotation</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/rxprocs/nf-rxprocs-rxlogeventwithannotation">RxLogEventWithAnnotation</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554524">RxLogEventWithBufferDirect</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/rxprocs/nf-rxprocs-rxlogeventwithbufferdirect">RxLogEventWithBufferDirect</a>
  
 
  

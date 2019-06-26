@@ -60,11 +60,11 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh768279">IPrinterScriptContext</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprinterscriptcontext">IPrinterScriptContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh973217">IPrinterScriptablePropertyBag</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprinterscriptablepropertybag">IPrinterScriptablePropertyBag</a>
  
 
  

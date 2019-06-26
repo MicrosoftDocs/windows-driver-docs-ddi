@@ -69,7 +69,7 @@ None.
 
 ### -output-buffer
 
-The driver returns an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff552613">DISK_GEOMETRY</a> records for the types of media it supports in the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>.
+The driver returns an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdddisk/ns-ntdddisk-_disk_geometry">DISK_GEOMETRY</a> records for the types of media it supports in the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>.
 
 
 ### -output-buffer-length
@@ -105,7 +105,7 @@ The <b>Information</b> field is set to the size, in bytes, of the returned data.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552613">DISK_GEOMETRY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdddisk/ns-ntdddisk-_disk_geometry">DISK_GEOMETRY</a>
  
 
  

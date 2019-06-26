@@ -71,7 +71,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/DB18BD9D-4BAA-48D8-BA30-E4F7EF4CDEE5">IPositionNotify</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dmusicks/nn-dmusicks-ipositionnotify">IPositionNotify</a>
  
 
  

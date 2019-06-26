@@ -49,10 +49,10 @@ ms.custom: RS5
 
 The 
   <b>WskRelease</b> function releases a linked list of 
-  <a href="https://msdn.microsoft.com/library/windows/hardware/ff571165">WSK_DATA_INDICATION</a> structures
+  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/ns-wsk-_wsk_data_indication">WSK_DATA_INDICATION</a> structures
   that was previously retained by a WSK application.
 
-<b>WskRelease</b> can be declared in two different ways, depending on the type of socket. This topic describes <b>WskRelease</b> for connection-oriented or listening sockets. For datagram sockets, see <a href="https://msdn.microsoft.com/4E186CBD-61BC-4337-81AC-65F6CD7433F3">WskRelease (datagram sockets)</a>.
+<b>WskRelease</b> can be declared in two different ways, depending on the type of socket. This topic describes <b>WskRelease</b> for connection-oriented or listening sockets. For datagram sockets, see <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/mt814377(v=vs.85)">WskRelease (datagram sockets)</a>.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ The
 ### -param Socket [in]
 
 A pointer to a 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571182">WSK_SOCKET</a> structure that specifies the socket
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/ns-wsk-_wsk_socket">WSK_SOCKET</a> structure that specifies the socket
      object for the socket from which the data was received.
 
 
@@ -72,8 +72,8 @@ A pointer to a
 A pointer to the linked list of structures to be released. For this parameter, the WSK application
      should specify the 
      <i>DataIndication</i> parameter that was passed to its 
-     <a href="https://msdn.microsoft.com/2a7a7570-ed26-48be-b27b-dc240588ecfc">WskReceiveEvent</a> or 
-     <a href="https://msdn.microsoft.com/1cdb8a70-54fe-44a6-a16c-71cbf6a49ef2">WskReceiveFromEvent</a> event callback
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_receive_event">WskReceiveEvent</a> or 
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_receive_from_event">WskReceiveFromEvent</a> event callback
      function.
 
 
@@ -122,14 +122,14 @@ An invalid parameter was specified.
 
 For connection-oriented or listening sockets, a WSK application calls the 
     <b>WskRelease</b> function to release a linked list of 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff571165">WSK_DATA_INDICATION</a> structures
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/ns-wsk-_wsk_data_indication">WSK_DATA_INDICATION</a> structures
     that it previously retained by returning STATUS_PENDING from either its 
-    <a href="https://msdn.microsoft.com/2a7a7570-ed26-48be-b27b-dc240588ecfc">WskReceiveEvent</a> or its 
-    <a href="https://msdn.microsoft.com/1cdb8a70-54fe-44a6-a16c-71cbf6a49ef2">WskReceiveFromEvent</a> event callback
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_receive_event">WskReceiveEvent</a> or its 
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_receive_from_event">WskReceiveFromEvent</a> event callback
     function.
 
 Closing a socket by calling the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff571124">WskCloseSocket</a> function does not release
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_close_socket">WskCloseSocket</a> function does not release
     any outstanding retained linked lists of structures. A WSK application must release all retained linked
     lists of structures before the application calls the 
     <b>WskCloseSocket</b> function to close the socket.
@@ -142,36 +142,36 @@ Closing a socket by calling the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571164">WSK_DATAGRAM_INDICATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/ns-wsk-_wsk_datagram_indication">WSK_DATAGRAM_INDICATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571165">WSK_DATA_INDICATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/ns-wsk-_wsk_data_indication">WSK_DATA_INDICATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/70a86809-07f2-4723-9e50-4dbdd31ff900">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/ns-wsk-_wsk_provider_connection_dispatch">
    WSK_PROVIDER_CONNECTION_DISPATCH</a>
 
 
 
-<a href="https://msdn.microsoft.com/A10B901E-9987-40E9-976B-4CD9455E0AEE">WSK_PROVIDER_STREAM_DISPATCH</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/ns-wsk-_wsk_provider_stream_dispatch">WSK_PROVIDER_STREAM_DISPATCH</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571182">WSK_SOCKET</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/ns-wsk-_wsk_socket">WSK_SOCKET</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571124">WskCloseSocket</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_close_socket">WskCloseSocket</a>
 
 
 
-<a href="https://msdn.microsoft.com/2a7a7570-ed26-48be-b27b-dc240588ecfc">WskReceiveEvent</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_receive_event">WskReceiveEvent</a>
 
 
 
-<a href="https://msdn.microsoft.com/1cdb8a70-54fe-44a6-a16c-71cbf6a49ef2">WskReceiveFromEvent</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_receive_from_event">WskReceiveFromEvent</a>
  
 
  

@@ -46,7 +46,7 @@ req.typenames: SECURE_ELEMENT_ROUTING_TABLE_ENTRY, *PSECURE_ELEMENT_ROUTING_TABL
 ## -description
 
 
-SECURE_ELEMENT_ROUTING_TABLE_ENTRY is a member of <a href="https://msdn.microsoft.com/library/windows/hardware/dn905627">SECURE_ELEMENT_ROUTING_TABLE</a>.
+SECURE_ELEMENT_ROUTING_TABLE_ENTRY is a member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/nfcsedev/ns-nfcsedev-_secure_element_routing_table">SECURE_ELEMENT_ROUTING_TABLE</a>.
 
 
 ## -struct-fields

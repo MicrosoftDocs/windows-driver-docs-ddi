@@ -84,15 +84,15 @@ Specifies a general inquiry command type. This permits a controller to query a t
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554145">AVC_FUNCTION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/avc/ne-avc-_tagavc_function">AVC_FUNCTION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554150">AVC_FUNCTION_COMMAND</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/avc-function-command">AVC_FUNCTION_COMMAND</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554163">AVC_FUNCTION_GET_REQUEST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/avc-function-get-request">AVC_FUNCTION_GET_REQUEST</a>
  
 
  

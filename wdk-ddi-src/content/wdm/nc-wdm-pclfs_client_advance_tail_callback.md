@@ -56,17 +56,17 @@ The <i>ClfsAdvanceTailCallback</i> function advances the base log sequence numbe
 
 ### -param LogFile [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff554316">LOG_FILE_OBJECT</a> structure that represents the CLFS log stream whose tail should be advanced.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_file_object">LOG_FILE_OBJECT</a> structure that represents the CLFS log stream whose tail should be advanced.
 
 
 ### -param TargetLsn [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541824">CLFS_LSN</a> structure that contains the LSN that the client should advance its tail to or beyond.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_cls_lsn">CLFS_LSN</a> structure that contains the LSN that the client should advance its tail to or beyond.
 
 
 ### -param ClientData [in]
 
-A pointer to client-supplied information. You specify this data in the <b>AdvanceTailCallbackData</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541841">CLFS_MGMT_CLIENT_REGISTRATION</a> structure. 
+A pointer to client-supplied information. You specify this data in the <b>AdvanceTailCallbackData</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_clfs_mgmt_client_registration">CLFS_MGMT_CLIENT_REGISTRATION</a> structure. 
 
 
 ## -returns
@@ -92,11 +92,11 @@ If the request cannot be processed, return an error status.
 
 </li>
 <li>
-If the request can be processed, create and queue a work item to perform the actions that are required to move the client's tail, and then return STATUS_PENDING. For more information on queuing a worker thread, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff564587">System Worker Threads</a>.
+If the request can be processed, create and queue a work item to perform the actions that are required to move the client's tail, and then return STATUS_PENDING. For more information on queuing a worker thread, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/system-worker-threads">System Worker Threads</a>.
 
 </li>
 </ol>
-When a client calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541642">ClfsMgmtRegisterManagedClient</a> routine to register with CLFS management, the client provides both a pointer to the <i>ClfsAdvanceTailCallback</i> function and the custom data that will be passed as a parameter to the <i>ClfsAdvanceTailCallback</i> function when this function is called.
+When a client calls the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-clfsmgmtregistermanagedclient">ClfsMgmtRegisterManagedClient</a> routine to register with CLFS management, the client provides both a pointer to the <i>ClfsAdvanceTailCallback</i> function and the custom data that will be passed as a parameter to the <i>ClfsAdvanceTailCallback</i> function when this function is called.
 
 
 
@@ -106,19 +106,19 @@ When a client calls the <a href="https://msdn.microsoft.com/library/windows/hard
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541841">CLFS_MGMT_CLIENT_REGISTRATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_clfs_mgmt_client_registration">CLFS_MGMT_CLIENT_REGISTRATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540773">ClfsAdvanceLogBase</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-clfsadvancelogbase">ClfsAdvanceLogBase</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541642">ClfsMgmtRegisterManagedClient</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-clfsmgmtregistermanagedclient">ClfsMgmtRegisterManagedClient</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541669">ClfsMgmtTailAdvanceFailure</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-clfsmgmttailadvancefailure">ClfsMgmtTailAdvanceFailure</a>
  
 
  

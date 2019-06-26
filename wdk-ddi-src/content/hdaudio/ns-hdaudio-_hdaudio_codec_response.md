@@ -161,9 +161,9 @@ Specifies whether the response is valid. If 1, the response is valid. If 0, it i
 
 
 
-After calling the <a href="https://msdn.microsoft.com/0ba92f5c-c4a3-48de-b8af-9c444b2e65b5">TransferCodecVerbs</a> routine, function drivers can use the HDAUDIO_CODEC_RESPONSE structure to decode the responses to their codec commands. The commands are contained in the HDAUDIO_CODEC_TRANSFER structures that clients pass to this routine as call parameters.
+After calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hdaudio/nc-hdaudio-ptransfer_codec_verbs">TransferCodecVerbs</a> routine, function drivers can use the HDAUDIO_CODEC_RESPONSE structure to decode the responses to their codec commands. The commands are contained in the HDAUDIO_CODEC_TRANSFER structures that clients pass to this routine as call parameters.
 
-The callback for the <a href="https://msdn.microsoft.com/0f94146b-aa60-4106-aba6-0f1cb3e53008">RegisterEventCallback</a> routine also uses the HDAUDIO_CODEC_RESPONSE structure.
+The callback for the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hdaudio/nc-hdaudio-pregister_event_callback">RegisterEventCallback</a> routine also uses the HDAUDIO_CODEC_RESPONSE structure.
 
 Most members of this structure contain hardware-generated values that the bus driver copies directly from the corresponding RIRB entry. The two exceptions are the values of the <b>IsValid</b> and <b>HasFifoOverrun</b> members, which the bus driver software writes to the structure to indicate the error status of the response. For information about the RIRB entry format, see the Intel High Definition Audio Specification at the <a href="https://go.microsoft.com/fwlink/p/?linkid=42508">Intel HD Audio</a> website.
 
@@ -189,15 +189,15 @@ The unnamed 25-bitfield between the <b>UnsolicitedResponse</b> and <b>HasFifoOve
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536424">HDAUDIO_CODEC_TRANSFER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hdaudio/ns-hdaudio-_hdaudio_codec_transfer">HDAUDIO_CODEC_TRANSFER</a>
 
 
 
-<a href="https://msdn.microsoft.com/0f94146b-aa60-4106-aba6-0f1cb3e53008">RegisterEventCallback</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hdaudio/nc-hdaudio-pregister_event_callback">RegisterEventCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/0ba92f5c-c4a3-48de-b8af-9c444b2e65b5">TransferCodecVerbs</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hdaudio/nc-hdaudio-ptransfer_codec_verbs">TransferCodecVerbs</a>
  
 
  

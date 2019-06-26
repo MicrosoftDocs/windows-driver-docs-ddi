@@ -84,7 +84,7 @@ The <b>RtlRandomEx</b> function is an improved version of the <b>RtlRandom</b> f
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553181">RtlRandomEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-rtlrandomex">RtlRandomEx</a>
  
 
  

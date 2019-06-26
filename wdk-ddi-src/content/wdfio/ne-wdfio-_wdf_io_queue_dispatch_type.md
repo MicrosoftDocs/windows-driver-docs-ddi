@@ -63,7 +63,7 @@ Reserved for internal use.
 
 ### -field WdfIoQueueDispatchSequential
 
-The I/O queue's requests are presented to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/request-handlers">request handlers</a> one at a time. The framework does not deliver the next request until a driver has called <a href="https://msdn.microsoft.com/library/windows/hardware/ff549945">WdfRequestComplete</a> to complete the current request.
+The I/O queue's requests are presented to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/request-handlers">request handlers</a> one at a time. The framework does not deliver the next request until a driver has called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfrequest/nf-wdfrequest-wdfrequestcomplete">WdfRequestComplete</a> to complete the current request.
 
 
 ### -field WdfIoQueueDispatchParallel
@@ -73,7 +73,7 @@ The framework presents requests to the driver's request handlers as soon as the 
 
 ### -field WdfIoQueueDispatchManual
 
-The framework places requests into the queue but does not deliver them to the driver. The driver must retrieve requests from the queue by calling <a href="https://msdn.microsoft.com/library/windows/hardware/hh975100">WdfIoQueueRetrieveNextRequest</a>.
+The framework places requests into the queue but does not deliver them to the driver. The driver must retrieve requests from the queue by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/kmdf-wdfioqueueretrievenextrequest">WdfIoQueueRetrieveNextRequest</a>.
 
 
 ### -field WdfIoQueueDispatchMax

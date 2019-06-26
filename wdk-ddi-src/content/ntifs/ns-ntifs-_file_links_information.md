@@ -61,12 +61,12 @@ The number of bytes needed to hold all available names returned using the <b>Ent
 
 ### -field EntriesReturned
 
-The number of <a href="https://msdn.microsoft.com/library/windows/hardware/ff728842">FILE_LINK_ENTRY_INFORMATION</a> structures that have been returned using the <b>Entry</b> member. 
+The number of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_link_entry_information">FILE_LINK_ENTRY_INFORMATION</a> structures that have been returned using the <b>Entry</b> member. 
 
 
 ### -field Entry
 
-A buffer that contains the returned <a href="https://msdn.microsoft.com/library/windows/hardware/ff728842">FILE_LINK_ENTRY_INFORMATION</a> structures. 
+A buffer that contains the returned <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_link_entry_information">FILE_LINK_ENTRY_INFORMATION</a> structures. 
 
 
 ## -remarks
@@ -75,7 +75,7 @@ A buffer that contains the returned <a href="https://msdn.microsoft.com/library/
 
 If the member <b>EntriesReturned</b> has a value of 0, there is not enough available memory to return an entry. The error STATUS_BUFFER_OVERFLOW (0x80000005) indicates that not all available entries were returned.
 
-The member <b>Entry</b> is the first <a href="https://msdn.microsoft.com/library/windows/hardware/ff728842">FILE_LINK_ENTRY_INFORMATION</a> structure in a list of entries. Each entry is located <b>sizeof</b>(FILE_LINK_ENTRY_INFORMATION) + ((FileNameLength - 1 ) * <b>sizeof</b>(WCHAR)) from the previous entry when the FileNameLength member of <b>FILE_LINK_ENTRY_INFORMATION</b> > 1. Otherwise, each entry is located <b>sizeof</b>(FILE_LINK_ENTRY_INFORMATION) from the previous entry.
+The member <b>Entry</b> is the first <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_link_entry_information">FILE_LINK_ENTRY_INFORMATION</a> structure in a list of entries. Each entry is located <b>sizeof</b>(FILE_LINK_ENTRY_INFORMATION) + ((FileNameLength - 1 ) * <b>sizeof</b>(WCHAR)) from the previous entry when the FileNameLength member of <b>FILE_LINK_ENTRY_INFORMATION</b> > 1. Otherwise, each entry is located <b>sizeof</b>(FILE_LINK_ENTRY_INFORMATION) from the previous entry.
 
 
 

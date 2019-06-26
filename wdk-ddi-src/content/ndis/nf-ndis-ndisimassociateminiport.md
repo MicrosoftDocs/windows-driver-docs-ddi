@@ -60,14 +60,14 @@ The
 ### -param DriverHandle [in]
 
 The handle to the miniport driver interface that the 
-     <a href="https://msdn.microsoft.com/bed68aa8-499d-41fd-997b-a46316913cc8">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismregisterminiportdriver">
      NdisMRegisterMiniportDriver</a> function returns.
 
 
 ### -param ProtocolHandle [in]
 
 The handle to the protocol interface that the 
-     <a href="https://msdn.microsoft.com/b48571eb-13a2-4541-80ac-c8d31f378d37">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisregisterprotocoldriver">
      NdisRegisterProtocolDriver</a> function returns.
 
 
@@ -90,9 +90,9 @@ Any NDIS intermediate driver that exports both
     <b>NdisIMAssociateMiniport</b> to inform the NDIS library about its miniport upper edge and its protocol
     lower edge. Such an intermediate driver calls 
     <b>NdisIMAssociateMiniport</b> during its 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine. For more information about 
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine. For more information about 
     <b>DriverEntry</b>, see 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff548818">DriverEntry of NDIS
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/initializing-a-miniport-driver">DriverEntry of NDIS
     Intermediate Drivers</a>.
 
 
@@ -103,15 +103,15 @@ Any NDIS intermediate driver that exports both
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563654">NdisMRegisterMiniportDriver</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismregisterminiportdriver">NdisMRegisterMiniportDriver</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564520">NdisRegisterProtocolDriver</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisregisterprotocoldriver">NdisRegisterProtocolDriver</a>
  
 
  

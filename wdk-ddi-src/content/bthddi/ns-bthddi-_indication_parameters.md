@@ -48,7 +48,7 @@ req.typenames: "*PINDICATION_PARAMETERS, INDICATION_PARAMETERS"
 
 The INDICATION_PARAMETERS structure is passed as the 
   <i>Parameters</i> parameter to a profile driver's 
-  <a href="https://msdn.microsoft.com/d3ca900d-1dd6-49da-ae94-855de3fbd086">L2CAP Callback Function</a>.
+  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/nc-bthddi-pfnbthport_indication_callback">L2CAP Callback Function</a>.
 
 
 ## -struct-fields
@@ -97,7 +97,7 @@ The structure that contains parameters for the
 ### -field Parameters.ConfigRequest.CurrentParams
 
 A 
-       <a href="https://msdn.microsoft.com/c2201e3c-c680-4a22-adf5-5131fb138066">
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/ns-bthddi-_channel_config_parameters">
        CHANNEL_CONFIG_PARAMETERS</a> structure that contains the parameters for the current channel. This
        value is only valid if the channel was previously open and is now in the process of being configured.
        This member is used when the callback function specifies the 
@@ -193,7 +193,7 @@ The structure that contains parameters for the
 ### -field Parameters.ConfigResponse.CurrentParams
 
 A 
-       <a href="https://msdn.microsoft.com/c2201e3c-c680-4a22-adf5-5131fb138066">
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/ns-bthddi-_channel_config_parameters">
        CHANNEL_CONFIG_PARAMETERS</a> structure that contains the parameters for the current channel. This
        value is only valid if the channel was previously open and is now in the process of being configured.
        This member is used when the callback function specifies the 
@@ -324,7 +324,7 @@ The structure that contains the parameters for the
 ### -field Parameters.Disconnect.Reason
 
 An 
-       <a href="https://msdn.microsoft.com/library/windows/hardware/ff536763">L2CAP_DISCONNECT_REASON</a> value that
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/ne-bthddi-_l2cap_disconnect_reason">L2CAP_DISCONNECT_REASON</a> value that
        indicates why the L2CAP connection to the remote device was terminated.
 
 
@@ -357,7 +357,7 @@ The number of packets to be processed over the L2CAP connection.
 
 
 A profile driver's 
-    <a href="https://msdn.microsoft.com/d3ca900d-1dd6-49da-ae94-855de3fbd086">L2CAP Callback Function</a> should
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/nc-bthddi-pfnbthport_indication_callback">L2CAP Callback Function</a> should
     process this structure differently depending upon the value that the Bluetooth driver stack passes in the
     
     <i>Indication</i> parameter of the callback function.
@@ -400,23 +400,23 @@ When the Bluetooth driver stack passes
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536659">CHANNEL_CONFIG_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/ns-bthddi-_channel_config_parameters">CHANNEL_CONFIG_PARAMETERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536679">INDICATION_CODE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/ne-bthddi-_indication_code">INDICATION_CODE</a>
 
 
 
-<a href="https://msdn.microsoft.com/d3ca900d-1dd6-49da-ae94-855de3fbd086">L2CAP Callback Function</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/nc-bthddi-pfnbthport_indication_callback">L2CAP Callback Function</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536757">L2CAP_CONFIG_OPTION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/ns-bthddi-_l2cap_config_option">L2CAP_CONFIG_OPTION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536763">L2CAP_DISCONNECT_REASON</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/ne-bthddi-_l2cap_disconnect_reason">L2CAP_DISCONNECT_REASON</a>
  
 
  

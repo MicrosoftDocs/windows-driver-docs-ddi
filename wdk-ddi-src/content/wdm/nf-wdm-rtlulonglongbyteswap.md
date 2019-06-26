@@ -66,7 +66,7 @@ For example, if the <i>Source</i> parameter value is 0x0123456789abcdef, the rou
 
 A typical use of this routine is to convert a ULONGLONG value from little-endian byte format to big-endian byte format, and vice versa.
 
-To reverse the ordering of bytes in a USHORT value, use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563016">RtlUshortByteSwap</a> routine. To reverse ordering of bytes in a ULONG value, use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562886">RtlUlongByteSwap</a> routine.
+To reverse the ordering of bytes in a USHORT value, use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlushortbyteswap">RtlUshortByteSwap</a> routine. To reverse ordering of bytes in a ULONG value, use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlulongbyteswap">RtlUlongByteSwap</a> routine.
 
 
 
@@ -76,11 +76,11 @@ To reverse the ordering of bytes in a USHORT value, use the <a href="https://msd
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562886">RtlUlongByteSwap</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlulongbyteswap">RtlUlongByteSwap</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563016">RtlUshortByteSwap</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlushortbyteswap">RtlUshortByteSwap</a>
  
 
  

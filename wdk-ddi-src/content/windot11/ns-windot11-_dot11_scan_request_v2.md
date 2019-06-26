@@ -48,9 +48,9 @@ product:
 ## -description
 
 
-<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div>
+<div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div>
 
-The DOT11_SCAN_REQUEST_V2 structure defines the parameters for the explicit scan operation performed by the 802.11 station. The station performs the explicit scan operation following an OID set request of <a href="https://msdn.microsoft.com/library/windows/hardware/ff569413">OID_DOT11_SCAN_REQUEST</a>.
+The DOT11_SCAN_REQUEST_V2 structure defines the parameters for the explicit scan operation performed by the 802.11 station. The station performs the explicit scan operation following an OID set request of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-scan-request">OID_DOT11_SCAN_REQUEST</a>.
 
 
 
@@ -194,7 +194,7 @@ The 802.11
        <b>dot11MultiDomainCapabilityEnabled</b> management information base (MIB) object is <b>FALSE</b>. For more
        information about the
        <b>dot11MultiDomainCapabilityEnabled</b> MIB object, see
-       <a href="https://msdn.microsoft.com/library/ee486712.aspx">
+       <a href="https://docs.microsoft.com/previous-versions/windows/embedded/ee486712(v=winembedded.80)">
        OID_DOT11_MULTI_DOMAIN_CAPABILITY_ENABLED</a>.
 
 </li>
@@ -273,7 +273,7 @@ The buffer containing optional data as specified through other members of this s
 
 
 The 802.11 station performs explicit scan operations following the OID set request of
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff569413">OID_DOT11_SCAN_REQUEST</a>. The station
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-scan-request">OID_DOT11_SCAN_REQUEST</a>. The station
     performs the scan operation by using the parameters defined through the DOT11_SCAN_REQUEST_V2, which
     accompanies the set request.
 
@@ -294,7 +294,7 @@ For more information about the ExtSTA operation mode, see
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569413">OID_DOT11_SCAN_REQUEST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-scan-request">OID_DOT11_SCAN_REQUEST</a>
 
 
 

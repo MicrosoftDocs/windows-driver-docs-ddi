@@ -55,7 +55,7 @@ The <b>D3DKMTGetDisplayModeList</b> function retrieves a list of available displ
 
 *pData* [in, out]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548036">D3DKMT_GETDISPLAYMODELIST</a> structure that describes a list of available display modes.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_getdisplaymodelist">D3DKMT_GETDISPLAYMODELIST</a> structure that describes a list of available display modes.
 
 ## -returns
 
@@ -65,13 +65,13 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 |:--|:--|
 | **STATUS_SUCCESS** | The list of available display modes was successfully retrieved. | 
 | **STATUS_DEVICE_REMOVED** | The graphics adapter was stopped. | 
-| **STATUS_BUFFER_TOO_SMALL** | The buffer that the OpenGL ICD supplied in the pModeListmember of [D3DKMT_GETDISPLAYMODELIST](https://msdn.microsoft.com/library/windows/hardware/ff548036) that the pData parameter points to is not large enough to contain the requested display mode list. | 
-| **STATUS_GRAPHICS_NO_AVAILABLE_VIDPN_TARGET** | No video present target is available for use with the video present source that is identified by the VidPnSourceId member of [D3DKMT_GETDISPLAYMODELIST](https://msdn.microsoft.com/library/windows/hardware/ff548036) that the pData parameter points to. Therefore, no display modes are available for this source. | 
+| **STATUS_BUFFER_TOO_SMALL** | The buffer that the OpenGL ICD supplied in the pModeListmember of [D3DKMT_GETDISPLAYMODELIST](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_getdisplaymodelist) that the pData parameter points to is not large enough to contain the requested display mode list. | 
+| **STATUS_GRAPHICS_NO_AVAILABLE_VIDPN_TARGET** | No video present target is available for use with the video present source that is identified by the VidPnSourceId member of [D3DKMT_GETDISPLAYMODELIST](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_getdisplaymodelist) that the pData parameter points to. Therefore, no display modes are available for this source. | 
 | **STATUS_INVALID_PARAMETER** | Parameters were validated and determined to be incorrect. | 
 
 This function might also return other <b>NTSTATUS</b> values.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548036">D3DKMT_GETDISPLAYMODELIST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_getdisplaymodelist">D3DKMT_GETDISPLAYMODELIST</a>
  

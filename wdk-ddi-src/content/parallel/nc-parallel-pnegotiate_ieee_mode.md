@@ -82,7 +82,7 @@ typedef NTSTATUS  ( *PNEGOTIATE_IEEE_MODE)(
 
 #### - Context [in]
 
-Pointer to the device extension of a parallel device's physical device object (<a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">PDO</a>).
+Pointer to the device extension of a parallel device's physical device object (<a href="https://docs.microsoft.com/windows-hardware/drivers/">PDO</a>).
 
 
 #### - IsForward [in]

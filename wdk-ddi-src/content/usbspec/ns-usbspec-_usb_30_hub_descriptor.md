@@ -46,7 +46,7 @@ req.typenames: USB_30_HUB_DESCRIPTOR, *PUSB_30_HUB_DESCRIPTOR
 ## -description
 
 
-The <b>USB_30_HUB_DESCRIPTOR</b> structure contains  a SuperSpeed hub descriptor. For information about the structure  members, see <a href="http://www.usb.org/developers/docs/">Universal Serial Bus Revision 3.0 Specification</a>, 10.13.2.1 Hub Descriptor, Table 10-3. SuperSpeed Hub Descriptor.
+The <b>USB_30_HUB_DESCRIPTOR</b> structure contains  a SuperSpeed hub descriptor. For information about the structure  members, see <a href="https://www.usb.org/documents">Universal Serial Bus Revision 3.0 Specification</a>, 10.13.2.1 Hub Descriptor, Table 10-3. SuperSpeed Hub Descriptor.
 
 
 ## -struct-fields
@@ -106,11 +106,11 @@ The    hub packet header decode latency.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">USB Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406262">USB_HUB_INFORMATION_EX</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbioctl/ns-usbioctl-_usb_hub_information_ex">USB_HUB_INFORMATION_EX</a>
  
 
  

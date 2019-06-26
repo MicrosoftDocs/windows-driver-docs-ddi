@@ -74,7 +74,7 @@ None
 
 <b>KeStallExecutionProcessor</b> is a processor-dependent routine that busy-waits for at least the specified number of microseconds, but not significantly longer.
 
-This routine is for use by device drivers and other software that must wait for an interval of less than a clock tick but more than for a few instructions. If you use this routine you must minimize the stall interval, typically to less than 50 microseconds. If a driver must wait for a longer interval, you should use a different <a href="https://msdn.microsoft.com/dfee2240-44df-43bc-8804-271203480664">synchronization technique</a>.
+This routine is for use by device drivers and other software that must wait for an interval of less than a clock tick but more than for a few instructions. If you use this routine you must minimize the stall interval, typically to less than 50 microseconds. If a driver must wait for a longer interval, you should use a different <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/synchronization-techniques">synchronization technique</a>.
 
 
 
@@ -84,15 +84,15 @@ This routine is for use by device drivers and other software that must wait for 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551986">KeDelayExecutionThread</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kedelayexecutionthread">KeDelayExecutionThread</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553324">KeWaitForMultipleObjects</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kewaitformultipleobjects">KeWaitForMultipleObjects</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553350">KeWaitForSingleObject</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kewaitforsingleobject">KeWaitForSingleObject</a>
  
 
  

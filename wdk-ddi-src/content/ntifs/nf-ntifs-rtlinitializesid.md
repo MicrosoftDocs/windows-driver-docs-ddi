@@ -125,15 +125,15 @@ For more information about security and access control, see the documentation on
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553236">RtlSubAuthoritySid</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-rtlsubauthoritysid">RtlSubAuthoritySid</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_sid">SID</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556743">SID_IDENTIFIER_AUTHORITY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_sid_identifier_authority">SID_IDENTIFIER_AUTHORITY</a>
  
 
  

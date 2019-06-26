@@ -46,7 +46,7 @@ req.typenames: PEP_DEVICE_STARTED, *PPEP_DEVICE_STARTED
 ## -description
 
 
-The <b>PEP_DEVICE_STARTED</b> structure identifies a device whose driver has completed its registration with the Windows <a href="https://msdn.microsoft.com/B08F8ABF-FD43-434C-A345-337FBB799D9B">power management framework</a> (PoFx).
+The <b>PEP_DEVICE_STARTED</b> structure identifies a device whose driver has completed its registration with the Windows <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">power management framework</a> (PoFx).
 
 
 ## -struct-fields
@@ -56,14 +56,14 @@ The <b>PEP_DEVICE_STARTED</b> structure identifies a device whose driver has com
 
 ### -field DeviceHandle
 
-[in] A PEPHANDLE value that identifies the device. The PEP supplied this handle in response to a previous <a href="https://msdn.microsoft.com/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a> notification.
+[in] A PEPHANDLE value that identifies the device. The PEP supplied this handle in response to a previous <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/ns-pepfx-_pep_register_crashdump_device">PEP_DPM_REGISTER_DEVICE</a> notification.
 
 
 ## -remarks
 
 
 
-This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186714">PEP_DPM_DEVICE_STARTED</a> notification. The <b>DeviceHandle</b> member of this structure contains an input value that is supplied by PoFx.
+This structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/ns-pepfx-_pep_device_started">PEP_DPM_DEVICE_STARTED</a> notification. The <b>DeviceHandle</b> member of this structure contains an input value that is supplied by PoFx.
 
 
 
@@ -73,11 +73,11 @@ This structure is used by the <a href="https://msdn.microsoft.com/library/window
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt186714">PEP_DPM_DEVICE_STARTED</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/ns-pepfx-_pep_device_started">PEP_DPM_DEVICE_STARTED</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/ns-pepfx-_pep_register_crashdump_device">PEP_DPM_REGISTER_DEVICE</a>
  
 
  

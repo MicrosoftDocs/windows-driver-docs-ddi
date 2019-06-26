@@ -64,13 +64,13 @@ A handle to the display device (graphics context).
 
 *hVideoProcessor* [in]
 
-A handle to the video processor object that was created through a call to the <a href="https://msdn.microsoft.com/741045a2-0a91-490a-907d-5f4900a4a0ae">CreateVideoProcessor</a> function.
+A handle to the video processor object that was created through a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor">CreateVideoProcessor</a> function.
 
 ### -param *
 
 pColorspace [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh450970">D3D11_1DDI_VIDEO_PROCESSOR_COLOR_SPACE</a> structure that specifies the color space.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_video_processor_color_space">D3D11_1DDI_VIDEO_PROCESSOR_COLOR_SPACE</a> structure that specifies the color space.
 
 
 ## -returns
@@ -86,7 +86,7 @@ This callback function does not return a value.
 
 
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/hh450970">D3D11_1DDI_VIDEO_PROCESSOR_COLOR_SPACE</a> structure includes the following members:
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_video_processor_color_space">D3D11_1DDI_VIDEO_PROCESSOR_COLOR_SPACE</a> structure includes the following members:
 
 <ul>
 <li>
@@ -122,11 +122,11 @@ If this member is set to one, the format that is used is the extended xvYCC form
 
 
 
-<a href="https://msdn.microsoft.com/741045a2-0a91-490a-907d-5f4900a4a0ae">CreateVideoProcessor</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor">CreateVideoProcessor</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450970">D3D11_1DDI_VIDEO_PROCESSOR_COLOR_SPACE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_video_processor_color_space">D3D11_1DDI_VIDEO_PROCESSOR_COLOR_SPACE</a>
  
 
  

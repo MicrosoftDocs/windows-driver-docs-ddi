@@ -61,17 +61,17 @@ In multi-adapter operation, this indicates which physical adapter of the device 
 
 ### -field Configuration
 
-The decode profile and bitstream encryption.  For more information, see the  <a href="https://msdn.microsoft.com/33BD5E1F-75F3-44DC-AE83-A22992CAB6B5">D3D12DDI_VIDEO_DECODE_CONFIGURATION</a> enumeration.
+The decode profile and bitstream encryption.  For more information, see the  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d12umddi/ne-d3d12umddi-d3d12ddi_video_decode_configuration_flags_0020">D3D12DDI_VIDEO_DECODE_CONFIGURATION</a> enumeration.
 
 
 ### -field DecodeSample
 
-The source decoded as sample description.  For more information, see the  <a href="https://msdn.microsoft.com/B9918A06-6C10-4AD7-97EC-4FA0BC5319AD">D3D12DDI_VIDEO_SAMPLE_DESCRIPTION</a> structure.
+The source decoded as sample description.  For more information, see the  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d12umddi/ns-d3d12umddi-d3d12ddi_video_sample_description_0020">D3D12DDI_VIDEO_SAMPLE_DESCRIPTION</a> structure.
 
 
 ### -field OutputFormat
 
-The output sample description.  For more information, see the  <a href="https://msdn.microsoft.com/47C0C369-B31B-4291-A420-A1E75BA990CF">D3D12DDI_VIDEO_FORMAT_DESCRIPTION</a> structure.
+The output sample description.  For more information, see the  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d12umddi/ns-d3d12umddi-d3d12ddi_video_format_description_0020">D3D12DDI_VIDEO_FORMAT_DESCRIPTION</a> structure.
 
 
 ### -field FrameRate
@@ -86,7 +86,7 @@ The average bits per second data compression rate for the compressed video strea
 
 ### -field SupportFlags
 
-The returned supported flags. For more information, see the <a href="https://msdn.microsoft.com/7E272786-ECD4-4DF0-A36A-B27454E3E896">D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_FLAGS</a> enumeration.
+The returned supported flags. For more information, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d12umddi/ne-d3d12umddi-d3d12ddi_video_decode_conversion_support_flags_0020">D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_FLAGS</a> enumeration.
 
 
 ### -field ScaleSupport
@@ -98,7 +98,7 @@ The returned supported output size range for decode conversion.  For more inform
 
 
 
-The check is made through <a href="https://msdn.microsoft.com/6875B754-115F-481D-8D46-2A383BA6B5E7">pfnGetCaps</a> with the <a href="https://msdn.microsoft.com/C74697BF-A191-4371-9F23-7F655EBC53B3">D3D12DDICAPS_TYPE</a> set to a value of <b>D3D12DDICAPS_TYPE_VIDEO_DECODE_CONVERSION_SUPPORT</b>.
+The check is made through <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d12umddi/nc-d3d12umddi-pfnd3d12ddi_video_getcaps">pfnGetCaps</a> with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d12umddi/ne-d3d12umddi-d3d12ddicaps_type">D3D12DDICAPS_TYPE</a> set to a value of <b>D3D12DDICAPS_TYPE_VIDEO_DECODE_CONVERSION_SUPPORT</b>.
 
 If the color space and format conversion is reported, the <i>SupportedFlags</i> has the <b>D3D12DDI_VIDEO_DECODE_SUPPORT_FLAGS_SUPPORTED</b> flag set.
 
@@ -112,23 +112,23 @@ Callers should check the <i>ScaleSupport</i> parameter to understand if the scal
 
 
 
-<a href="https://msdn.microsoft.com/C74697BF-A191-4371-9F23-7F655EBC53B3">D3D12DDICAPS_TYPE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d12umddi/ne-d3d12umddi-d3d12ddicaps_type">D3D12DDICAPS_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/33BD5E1F-75F3-44DC-AE83-A22992CAB6B5">D3D12DDI_VIDEO_DECODE_CONFIGURATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d12umddi/ne-d3d12umddi-d3d12ddi_video_decode_configuration_flags_0020">D3D12DDI_VIDEO_DECODE_CONFIGURATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/7E272786-ECD4-4DF0-A36A-B27454E3E896">D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_FLAGS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d12umddi/ne-d3d12umddi-d3d12ddi_video_decode_conversion_support_flags_0020">D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_FLAGS</a>
 
 
 
-<a href="https://msdn.microsoft.com/47C0C369-B31B-4291-A420-A1E75BA990CF">D3D12DDI_VIDEO_FORMAT_DESCRIPTION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d12umddi/ns-d3d12umddi-d3d12ddi_video_format_description_0020">D3D12DDI_VIDEO_FORMAT_DESCRIPTION</a>
 
 
 
-<a href="https://msdn.microsoft.com/B9918A06-6C10-4AD7-97EC-4FA0BC5319AD">D3D12DDI_VIDEO_SAMPLE_DESCRIPTION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d12umddi/ns-d3d12umddi-d3d12ddi_video_sample_description_0020">D3D12DDI_VIDEO_SAMPLE_DESCRIPTION</a>
 
 
 

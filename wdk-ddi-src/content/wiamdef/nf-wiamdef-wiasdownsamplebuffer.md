@@ -69,7 +69,7 @@ WIAS_GET_DOWNSAMPLED_SIZE_ONLY
 
 </td>
 <td>
-Do not copy the downsampled data to the destination buffer. Instead, set the following members of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549546">WIAS_DOWN_SAMPLE_INFO</a> structure: <b>ulDownSampledHeight</b>, <b>ulDownSampleWidth</b>, <b>ulAlignedHeight</b>, <b>ulAlignedWidth</b>.
+Do not copy the downsampled data to the destination buffer. Instead, set the following members of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/ns-wiamindr_lh-_wias_down_sample_info">WIAS_DOWN_SAMPLE_INFO</a> structure: <b>ulDownSampledHeight</b>, <b>ulDownSampleWidth</b>, <b>ulAlignedHeight</b>, <b>ulAlignedWidth</b>.
 
 </td>
 </tr>
@@ -79,7 +79,7 @@ Do not copy the downsampled data to the destination buffer. Instead, set the fol
 
 ### -param pInfo [in, out]
 
-Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549546">WIAS_DOWN_SAMPLE_INFO</a> structure that contains all of the information needed for the downsampling operation.
+Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/ns-wiamindr_lh-_wias_down_sample_info">WIAS_DOWN_SAMPLE_INFO</a> structure that contains all of the information needed for the downsampling operation.
 
 
 ## -returns
@@ -181,7 +181,7 @@ More generally, if the original image has a resolution of R<i>in</i> dpi, and is
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549546">WIAS_DOWN_SAMPLE_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/ns-wiamindr_lh-_wias_down_sample_info">WIAS_DOWN_SAMPLE_INFO</a>
  
 
  

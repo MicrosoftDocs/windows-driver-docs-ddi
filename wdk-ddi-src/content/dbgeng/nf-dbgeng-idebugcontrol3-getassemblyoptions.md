@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <b>GetAssemblyOptions</b> method returns the assembly and disassembly options that affect how the <a href="https://msdn.microsoft.com/fa52a1f0-9397-48a5-acbd-ce5347c0baef">debugger engine</a> assembles and disassembles processor instructions for the target.
+The <b>GetAssemblyOptions</b> method returns the assembly and disassembly options that affect how the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/introduction">debugger engine</a> assembles and disassembles processor instructions for the target.
 
 
 ## -parameters
@@ -56,14 +56,14 @@ The <b>GetAssemblyOptions</b> method returns the assembly and disassembly option
 
 ### -param Options [out]
 
-Receives a bit-set that contains the assembly and disassembly options.  For a description of these options, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff541443">DEBUG_ASMOPT_XXX</a>.
+Receives a bit-set that contains the assembly and disassembly options.  For a description of these options, see <a href="https://docs.microsoft.com/previous-versions/ff541443(v=vs.85)">DEBUG_ASMOPT_XXX</a>.
 
 
 ## -returns
 
 
 
-This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+This method can also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 <table>
 <tr>
@@ -91,7 +91,7 @@ The method was successful.
 
 
 
-For more information about using assembly with the debugger engine API, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff538127">Assembling and Disassembling Instructions</a>.
+For more information about using assembly with the debugger engine API, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/assembling-and-disassembling-instructions">Assembling and Disassembling Instructions</a>.
 
 
 
@@ -101,35 +101,35 @@ For more information about using assembly with the debugger engine API, see <a h
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562128">.asm (Change Disassembly Options)</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/-asm--change-disassembly-options-">.asm (Change Disassembly Options)</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537852">AddAssemblyOptions</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-addassemblyoptions">AddAssemblyOptions</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538121">Assemble</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-assemble">Assemble</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541443">DEBUG_ASMOPT_XXX</a>
+<a href="https://docs.microsoft.com/previous-versions/ff541443(v=vs.85)">DEBUG_ASMOPT_XXX</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541948">Disassemble</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-disassemble">Disassemble</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550519">IDebugControl3</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugcontrol3">IDebugControl3</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554483">RemoveAssemblyOptions</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-removeassemblyoptions">RemoveAssemblyOptions</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556626">SetAssemblyOptions</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-setassemblyoptions">SetAssemblyOptions</a>
  
 
  

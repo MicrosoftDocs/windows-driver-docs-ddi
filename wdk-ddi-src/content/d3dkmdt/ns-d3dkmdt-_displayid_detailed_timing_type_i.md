@@ -61,7 +61,7 @@ The DISPLAYID_DETAILED_TIMING_TYPE_I structure specifies an additional target mo
 
 ### -field AspectRatio
 
-[in] The display aspect ratio, which must be one of the values in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554017">DISPLAYID_DETAILED_TIMING_TYPE_I_ASPECT_RATIO</a> enumeration.
+[in] The display aspect ratio, which must be one of the values in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmdt/ne-d3dkmdt-_displayid_detailed_timing_type_i_aspect_ratio">DISPLAYID_DETAILED_TIMING_TYPE_I_ASPECT_RATIO</a> enumeration.
 
 
 ### -field Reserved
@@ -71,18 +71,18 @@ The DISPLAYID_DETAILED_TIMING_TYPE_I structure specifies an additional target mo
 
 ### -field ScanningType
 
-[in] The frame scanning type. Must be one of the values in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554019">DISPLAYID_DETAILED_TIMING_TYPE_I_SCANNING_MODE</a> enumeration.
+[in] The frame scanning type. Must be one of the values in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmdt/ne-d3dkmdt-_displayid_detailed_timing_type_i_scanning_mode">DISPLAYID_DETAILED_TIMING_TYPE_I_SCANNING_MODE</a> enumeration.
 
 
 ### -field StereoMode
 
-[in] The display stereo vision mode. Must be one of the values in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554023">DISPLAYID_DETAILED_TIMING_TYPE_I_STEREO_MODE</a> enumeration.
+[in] The display stereo vision mode. Must be one of the values in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmdt/ne-d3dkmdt-_displayid_detailed_timing_type_i_stereo_mode">DISPLAYID_DETAILED_TIMING_TYPE_I_STEREO_MODE</a> enumeration.
 
 
 ### -field PreferredTiming
 
 
-       [in] Indicates whether the first 128-byte block of a monitor's Extended Display Identification Data <a href="https://msdn.microsoft.com/0dd010e7-3e10-422a-adcb-8fe7df9e29ab">Extended Display Identification Data (EDID)</a> contains detailed timing data. This must be 1 if the display conforms to EDID version 1.3 and later.
+       [in] Indicates whether the first 128-byte block of a monitor's Extended Display Identification Data <a href="https://docs.microsoft.com/windows-hardware/drivers/">Extended Display Identification Data (EDID)</a> contains detailed timing data. This must be 1 if the display conforms to EDID version 1.3 and later.
       
 
 
@@ -103,7 +103,7 @@ The DISPLAYID_DETAILED_TIMING_TYPE_I structure specifies an additional target mo
 
 ### -field HorizontalSyncPolarity
 
-[in] The horizontal sync polarity, which must be one of the values in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554026">DISPLAYID_DETAILED_TIMING_TYPE_I_SYNC_POLARITY</a> enumeration.
+[in] The horizontal sync polarity, which must be one of the values in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmdt/ne-d3dkmdt-_displayid_detailed_timing_type_i_sync_polarity">DISPLAYID_DETAILED_TIMING_TYPE_I_SYNC_POLARITY</a> enumeration.
 
 
 ### -field HorizontalSyncWidth
@@ -128,7 +128,7 @@ The DISPLAYID_DETAILED_TIMING_TYPE_I structure specifies an additional target mo
 
 ### -field VerticalSyncPolarity
 
-[in] The vertical sync polarity. Must be one of the values in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554026">DISPLAYID_DETAILED_TIMING_TYPE_I_SYNC_POLARITY</a> enumeration.
+[in] The vertical sync polarity. Must be one of the values in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmdt/ne-d3dkmdt-_displayid_detailed_timing_type_i_sync_polarity">DISPLAYID_DETAILED_TIMING_TYPE_I_SYNC_POLARITY</a> enumeration.
 
 
 ### -field VerticalSyncWidth
@@ -154,19 +154,19 @@ The graphics kernel subsystem also validates that each registry value meets the 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554017">DISPLAYID_DETAILED_TIMING_TYPE_I_ASPECT_RATIO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmdt/ne-d3dkmdt-_displayid_detailed_timing_type_i_aspect_ratio">DISPLAYID_DETAILED_TIMING_TYPE_I_ASPECT_RATIO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554019">DISPLAYID_DETAILED_TIMING_TYPE_I_SCANNING_MODE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmdt/ne-d3dkmdt-_displayid_detailed_timing_type_i_scanning_mode">DISPLAYID_DETAILED_TIMING_TYPE_I_SCANNING_MODE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554023">DISPLAYID_DETAILED_TIMING_TYPE_I_STEREO_MODE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmdt/ne-d3dkmdt-_displayid_detailed_timing_type_i_stereo_mode">DISPLAYID_DETAILED_TIMING_TYPE_I_STEREO_MODE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554026">DISPLAYID_DETAILED_TIMING_TYPE_I_SYNC_POLARITY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmdt/ne-d3dkmdt-_displayid_detailed_timing_type_i_sync_polarity">DISPLAYID_DETAILED_TIMING_TYPE_I_SYNC_POLARITY</a>
  
 
  

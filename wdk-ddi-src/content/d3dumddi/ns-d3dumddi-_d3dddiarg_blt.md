@@ -66,7 +66,7 @@ The D3DDDIARG_BLT structure describes the parameters of a bit-block transfer (bi
 
 ### -field SrcRect
 
-[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure for the source rectangle. 
+[in] A <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a> structure for the source rectangle. 
 
 
 ### -field hDstResource
@@ -81,7 +81,7 @@ The D3DDDIARG_BLT structure describes the parameters of a bit-block transfer (bi
 
 ### -field DstRect
 
-[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure for the destination rectangle. 
+[in] A <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a> structure for the destination rectangle. 
 
 
 ### -field ColorKey
@@ -91,7 +91,7 @@ The D3DDDIARG_BLT structure describes the parameters of a bit-block transfer (bi
 
 ### -field Flags
 
-[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff544379">D3DDDI_BLTFLAGS</a> structure that identifies the type of bitblt to perform. Note that some bit-field flags in this structure are mutually exclusive with other flags. For more information about these flags, see the following Remarks section.
+[in] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddi_bltflags">D3DDDI_BLTFLAGS</a> structure that identifies the type of bitblt to perform. Note that some bit-field flags in this structure are mutually exclusive with other flags. For more information about these flags, see the following Remarks section.
 
 
 ## -remarks
@@ -110,15 +110,15 @@ The <b>SrcColorKey</b> and <b>DstColorKey</b> bit-field flags are never set simu
 
 
 
-<a href="https://msdn.microsoft.com/e87576c6-0173-4d8e-bbaf-b82e2907140a">Blt</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_blt">Blt</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544379">D3DDDI_BLTFLAGS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddi_bltflags">D3DDDI_BLTFLAGS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a>
  
 
  

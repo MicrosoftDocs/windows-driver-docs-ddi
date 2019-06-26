@@ -46,12 +46,12 @@ req.typenames:
 ## -description
 
 
-The <b>IInterFilterCommunicator</b> interface is implemented in an object that resides in the PrintFilterPipelineSvc service and is made available to filters through methods in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554286">IPrintPipelineFilter</a> interface.<b>IInterFilterCommunicator</b> inherits from the <b>IUnknown</b> interface.
+The <b>IInterFilterCommunicator</b> interface is implemented in an object that resides in the PrintFilterPipelineSvc service and is made available to filters through methods in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/filterpipeline/nn-filterpipeline-iprintpipelinefilter">IPrintPipelineFilter</a> interface.<b>IInterFilterCommunicator</b> inherits from the <b>IUnknown</b> interface.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInterFilterCommunicator</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IInterFilterCommunicator</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IInterFilterCommunicator</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IInterFilterCommunicator</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -66,7 +66,7 @@ The <b>IInterFilterCommunicator</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551054">IInterFilterCommunicator::RequestReader</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/filterpipeline/nf-filterpipeline-iinterfiltercommunicator-requestreader">IInterFilterCommunicator::RequestReader</a>
 </td>
 <td align="left" width="63%">
 The <b>RequestReader</b> method retrieves the reader interface for an <b>IInterFilterCommunicator</b> object. 
@@ -75,7 +75,7 @@ The <b>RequestReader</b> method retrieves the reader interface for an <b>IInterF
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551057">IInterFilterCommunicator::RequestWriter</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/filterpipeline/nf-filterpipeline-iinterfiltercommunicator-requestwriter">IInterFilterCommunicator::RequestWriter</a>
 </td>
 <td align="left" width="63%">
 The <b>RequestWriter</b> method retrieves the writer interface for an <b>IInterFilterCommunicator</b> object.

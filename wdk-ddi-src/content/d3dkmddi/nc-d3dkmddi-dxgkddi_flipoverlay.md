@@ -56,12 +56,12 @@ The <i>DxgkDdiFlipOverlay</i> function displays a new allocation by using the sp
 
 ### -param hOverlay [in]
 
-[in] A handle to the overlay to be flipped. The display miniport driver's <a href="https://msdn.microsoft.com/1ccdd16d-fd76-4039-b538-86c77b4e8cbb">DxgkDdiCreateOverlay</a> function previously provided this handle to the Microsoft DirectX graphics kernel subsystem in the <b>hOverlay</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557572">DXGKARG_CREATEOVERLAY</a> structure. 
+[in] A handle to the overlay to be flipped. The display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_createoverlay">DxgkDdiCreateOverlay</a> function previously provided this handle to the Microsoft DirectX graphics kernel subsystem in the <b>hOverlay</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_createoverlay">DXGKARG_CREATEOVERLAY</a> structure. 
 
 
 ### -param pFlipOverlay [in]
 
-[in] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff557590">DXGKARG_FLIPOVERLAY</a> structure that describes the new allocation to display by using the overlay.
+[in] A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_flipoverlay">DXGKARG_FLIPOVERLAY</a> structure that describes the new allocation to display by using the overlay.
 
 
 ## -returns
@@ -92,15 +92,15 @@ The <i>DxgkDdiFlipOverlay</i> function displays a new allocation by using the sp
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557572">DXGKARG_CREATEOVERLAY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_createoverlay">DXGKARG_CREATEOVERLAY</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557590">DXGKARG_FLIPOVERLAY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_flipoverlay">DXGKARG_FLIPOVERLAY</a>
 
 
 
-<a href="https://msdn.microsoft.com/1ccdd16d-fd76-4039-b538-86c77b4e8cbb">DxgkDdiCreateOverlay</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_createoverlay">DxgkDdiCreateOverlay</a>
  
 
  

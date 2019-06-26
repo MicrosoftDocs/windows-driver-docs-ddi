@@ -62,7 +62,7 @@ Handle to a file object for an open file, directory, storage device, or volume w
 
 ### -param IoStatusBlock [out]
 
-Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550671">IO_STATUS_BLOCK</a> structure that receives the final completion status and information about the operation. 
+Pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure that receives the final completion status and information about the operation. 
 
 
 ### -param FsInformation [in]
@@ -90,7 +90,7 @@ Type of volume information to be set. One of the following:
 
 </td>
 <td>
-Set <a href="https://msdn.microsoft.com/library/windows/hardware/ff540258">FILE_FS_CONTROL_INFORMATION</a> for the volume. 
+Set <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_fs_control_information">FILE_FS_CONTROL_INFORMATION</a> for the volume. 
 
 </td>
 </tr>
@@ -100,7 +100,7 @@ Set <a href="https://msdn.microsoft.com/library/windows/hardware/ff540258">FILE_
 
 </td>
 <td>
-Set <a href="https://msdn.microsoft.com/library/windows/hardware/ff540271">FILE_FS_LABEL_INFORMATION</a> for the volume. 
+Set <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_file_fs_label_information">FILE_FS_LABEL_INFORMATION</a> for the volume. 
 
 </td>
 </tr>
@@ -110,7 +110,7 @@ Set <a href="https://msdn.microsoft.com/library/windows/hardware/ff540271">FILE_
 
 </td>
 <td>
-Set <a href="https://msdn.microsoft.com/library/windows/hardware/ff540274">FILE_FS_OBJECTID_INFORMATION</a> for the volume. 
+Set <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_file_fs_objectid_information">FILE_FS_OBJECTID_INFORMATION</a> for the volume. 
 
 </td>
 </tr>
@@ -177,11 +177,11 @@ To query volume information, call <a href="https://msdn.microsoft.com/library/wi
 
 To change information about a file, call <b>ZwSetVolumeInformationFile</b>. 
 
-Minifilters should use <a href="https://msdn.microsoft.com/library/windows/hardware/ff544516">FltSetInformationFile</a> instead of <b>ZwSetVolumeInformationFile</b>. 
+Minifilters should use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltsetinformationfile">FltSetInformationFile</a> instead of <b>ZwSetVolumeInformationFile</b>. 
 
-<div class="alert"><b>Note</b>  If the call to the <b>ZwSetVolumeInformationFile</b>function occurs in user mode, you should use the name "<a href="https://msdn.microsoft.com/library/windows/hardware/ff557671">NtSetInformationFile</a>" instead of "<b>ZwSetVolumeInformationFile</b>".</div>
+<div class="alert"><b>Note</b>  If the call to the <b>ZwSetVolumeInformationFile</b>function occurs in user mode, you should use the name "<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-ntsetinformationfile">NtSetInformationFile</a>" instead of "<b>ZwSetVolumeInformationFile</b>".</div>
 <div> </div>
-For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
+For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>.
 
 
 
@@ -191,27 +191,27 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540258">FILE_FS_CONTROL_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_fs_control_information">FILE_FS_CONTROL_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540271">FILE_FS_LABEL_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_file_fs_label_information">FILE_FS_LABEL_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540274">FILE_FS_OBJECTID_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_file_fs_objectid_information">FILE_FS_OBJECTID_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544516">FltSetInformationFile</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltsetinformationfile">FltSetInformationFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549415">IRP_MJ_SET_VOLUME_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-set-volume-information">IRP_MJ_SET_VOLUME_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 
 
@@ -219,7 +219,7 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567096">ZwSetInformationFile</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-ntsetinformationfile">ZwSetInformationFile</a>
  
 
  

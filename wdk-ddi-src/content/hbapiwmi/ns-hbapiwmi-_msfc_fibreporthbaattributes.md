@@ -61,12 +61,12 @@ Unique identifier for the port. This identifier must be unique among all ports o
 
 ### -field HBAStatus
 
-Contains the status of the operation. For a list of allowed values and their descriptions, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>.
+Contains the status of the operation. For a list of allowed values and their descriptions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/hba-status">HBA_STATUS</a>.
 
 
 ### -field Attributes
 
-Contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff562510">MSFC_HBAPortAttributesResults</a> that contains information about the port attributes. 
+Contains a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hbapiwmi/ns-hbapiwmi-_msfc_hbaportattributesresults">MSFC_HBAPortAttributesResults</a> that contains information about the port attributes. 
 
 
 ## -see-also
@@ -74,11 +74,11 @@ Contains a structure of type <a href="https://msdn.microsoft.com/library/windows
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/hba-status">HBA_STATUS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562510">MSFC_HBAPortAttributesResults</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hbapiwmi/ns-hbapiwmi-_msfc_hbaportattributesresults">MSFC_HBAPortAttributesResults</a>
  
 
  

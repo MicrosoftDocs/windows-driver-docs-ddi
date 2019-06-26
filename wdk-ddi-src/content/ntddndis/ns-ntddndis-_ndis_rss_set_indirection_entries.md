@@ -61,7 +61,7 @@ The <b>NDIS_RSS_SET_INDIRECTION_ENTRIES</b> structure represents a set of action
 ### -field Header
 
 The 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
      <b>NDIS_RSS_SET_INDIRECTION_ENTRIES</b> structure. Set the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to <b>NDIS_OBJECT_TYPE_RSS_SET_INDIRECTION_ENTRIES</b>. 
@@ -83,12 +83,12 @@ An opaque number that needs to be added to the pointer during array traversal.
 
 ### -field RssEntryTableOffset
 
-The offset of the <a href="https://msdn.microsoft.com/4430E19F-C603-4C52-8FC8-C36197FD2996">NDIS_RSS_SET_INDIRECTION_ENTRY</a> array from the beginning of this structure.
+The offset of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_rss_set_indirection_entry">NDIS_RSS_SET_INDIRECTION_ENTRY</a> array from the beginning of this structure.
 
 
 ### -field NumberOfRssEntries
 
-The number of formatted <a href="https://msdn.microsoft.com/4430E19F-C603-4C52-8FC8-C36197FD2996">NDIS_RSS_SET_INDIRECTION_ENTRY</a> structures in the array.
+The number of formatted <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_rss_set_indirection_entry">NDIS_RSS_SET_INDIRECTION_ENTRY</a> structures in the array.
 
 
 ## -see-also
@@ -96,15 +96,15 @@ The number of formatted <a href="https://msdn.microsoft.com/4430E19F-C603-4C52-8
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566583">NDIS_NIC_SWITCH_CAPABILITIES</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_nic_switch_capabilities">NDIS_NIC_SWITCH_CAPABILITIES</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/4430E19F-C603-4C52-8FC8-C36197FD2996">NDIS_RSS_SET_INDIRECTION_ENTRY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_rss_set_indirection_entry">NDIS_RSS_SET_INDIRECTION_ENTRY</a>
 
 
 

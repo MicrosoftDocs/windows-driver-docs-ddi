@@ -101,7 +101,7 @@ Only providers that are currently visible and that can be set as home provider s
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh831863">NDIS_WWAN_GET_VISIBLE_PROVIDERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndiswwan/ns-ndiswwan-_ndis_wwan_get_visible_providers">NDIS_WWAN_GET_VISIBLE_PROVIDERS</a>
  
 
  

@@ -90,11 +90,11 @@ For more information about security and access control, see the documentation on
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552998">RtlInitializeSid</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-rtlinitializesid">RtlInitializeSid</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_sid">SID</a>
  
 
  

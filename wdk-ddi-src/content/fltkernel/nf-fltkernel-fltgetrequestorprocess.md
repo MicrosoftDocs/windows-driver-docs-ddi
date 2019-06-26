@@ -56,7 +56,7 @@ The <b>FltGetRequestorProcess</b> routine returns a process pointer for the thre
 
 ### -param CallbackData [in]
 
-Pointer to the callback data structure (<a href="https://msdn.microsoft.com/library/windows/hardware/ff544620">FLT_CALLBACK_DATA</a>) for the I/O operation. 
+Pointer to the callback data structure (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>) for the I/O operation. 
 
 
 ## -returns
@@ -82,11 +82,11 @@ Pointer to the callback data structure (<a href="https://msdn.microsoft.com/libr
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544620">FLT_CALLBACK_DATA</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543118">FltGetRequestorProcessId</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltgetrequestorprocessid">FltGetRequestorProcessId</a>
  
 
  

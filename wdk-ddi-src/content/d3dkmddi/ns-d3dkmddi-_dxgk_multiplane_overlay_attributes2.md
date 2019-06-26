@@ -57,7 +57,7 @@ req.typenames: DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES2
 
 ### -field Flags
 
-Specifies a combination of flip operations by performing a bitwise OR operation on the values in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh780304">DXGK_MULTIPLANE_OVERLAY_FLAGS</a> enumeration.
+Specifies a combination of flip operations by performing a bitwise OR operation on the values in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgk_multiplane_overlay_flags">DXGK_MULTIPLANE_OVERLAY_FLAGS</a> enumeration.
 
 
 ### -field SrcRect
@@ -81,27 +81,27 @@ The driver and hardware can use the <b>ClipRect</b> member to apply a common str
 
 ### -field Rotation
 
-Specifies the clockwise rotation of the overlay plane, given as a value from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544646">D3DDDI_ROTATION</a> enumeration.
+Specifies the clockwise rotation of the overlay plane, given as a value from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dukmdt/ne-d3dukmdt-_d3dddi_rotation">D3DDDI_ROTATION</a> enumeration.
 
 
 ### -field Blend
 
-Specifies the blend mode that applies to this overlay plane and the plane beneath it, given as a value from the <a href="https://msdn.microsoft.com/library/windows/hardware/hh780302">DXGK_MULTIPLANE_OVERLAY_BLEND</a> enumeration.
+Specifies the blend mode that applies to this overlay plane and the plane beneath it, given as a value from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgk_multiplane_overlay_blend">DXGK_MULTIPLANE_OVERLAY_BLEND</a> enumeration.
 
 
 ### -field VideoFrameFormat
 
-Specifies the overlay plane's video frame format, given as a value from the <a href="https://msdn.microsoft.com/library/windows/hardware/hh780308">DXGK_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT</a> enumeration.
+Specifies the overlay plane's video frame format, given as a value from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ne-d3dkmddi-_dxgk_multiplane_overlay_video_frame_format">DXGK_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT</a> enumeration.
 
 
 ### -field ColorSpaceType
 
-Specifies the color space configuration, given as a value from the <a href="https://msdn.microsoft.com/library/windows/hardware/dn906320">D3DDDI_COLOR_SPACE_TYPE</a> enumeration.
+Specifies the color space configuration, given as a value from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dukmdt/ne-d3dukmdt-d3dddi_color_space_type">D3DDDI_COLOR_SPACE_TYPE</a> enumeration.
 
 
 ### -field StereoFormat
 
-Specifies the overlay plane's video frame format, given as a value from the <a href="https://msdn.microsoft.com/library/windows/hardware/hh780307">DXGK_MULTIPLANE_OVERLAY_STEREO_FORMAT</a> enumeration.
+Specifies the overlay plane's video frame format, given as a value from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ne-d3dkmddi-_dxgk_multiplane_overlay_stereo_format">DXGK_MULTIPLANE_OVERLAY_STEREO_FORMAT</a> enumeration.
 
 
 ### -field StereoLeftViewFrame0
@@ -116,12 +116,12 @@ Reserved for system use. Must always be <b>FALSE</b>.
 
 ### -field StereoFlipMode
 
-Specifies the overlay plane's stereo flip mode, given as a value from the <a href="https://msdn.microsoft.com/library/windows/hardware/hh780306">DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE</a> enumeration.
+Specifies the overlay plane's stereo flip mode, given as a value from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ne-d3dkmddi-_dxgk_multiplane_overlay_stereo_flip_mode">DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE</a> enumeration.
 
 
 ### -field StretchQuality
 
-Specifies the overlay plane's stretch quality, given as a value from the <a href="https://msdn.microsoft.com/library/windows/hardware/dn305134">DXGK_MULTIPLANE_OVERLAY_STRETCH_QUALITY</a> enumeration.
+Specifies the overlay plane's stretch quality, given as a value from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ne-d3dkmddi-_dxgk_multiplane_overlay_stretch_quality">DXGK_MULTIPLANE_OVERLAY_STRETCH_QUALITY</a> enumeration.
 
 
 ### -field Reserved1
@@ -136,35 +136,35 @@ Specifies the color key value used when color key blending is enabled for legacy
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn906320">D3DDDI_COLOR_SPACE_TYPE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dukmdt/ne-d3dukmdt-d3dddi_color_space_type">D3DDDI_COLOR_SPACE_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544646">D3DDDI_ROTATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dukmdt/ne-d3dukmdt-_d3dddi_rotation">D3DDDI_ROTATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh780302">DXGK_MULTIPLANE_OVERLAY_BLEND</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgk_multiplane_overlay_blend">DXGK_MULTIPLANE_OVERLAY_BLEND</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh780304">DXGK_MULTIPLANE_OVERLAY_FLAGS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgk_multiplane_overlay_flags">DXGK_MULTIPLANE_OVERLAY_FLAGS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh780306">DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ne-d3dkmddi-_dxgk_multiplane_overlay_stereo_flip_mode">DXGK_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh780307">DXGK_MULTIPLANE_OVERLAY_STEREO_FORMAT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ne-d3dkmddi-_dxgk_multiplane_overlay_stereo_format">DXGK_MULTIPLANE_OVERLAY_STEREO_FORMAT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn305134">DXGK_MULTIPLANE_OVERLAY_STRETCH_QUALITY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ne-d3dkmddi-_dxgk_multiplane_overlay_stretch_quality">DXGK_MULTIPLANE_OVERLAY_STRETCH_QUALITY</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh780308">DXGK_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ne-d3dkmddi-_dxgk_multiplane_overlay_video_frame_format">DXGK_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT</a>
  
 
  

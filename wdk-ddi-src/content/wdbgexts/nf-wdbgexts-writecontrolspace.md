@@ -97,11 +97,11 @@ This function can only be called in kernel-mode debugging.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553527">ReadControlSpace</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdbgexts/nf-wdbgexts-readcontrolspace">ReadControlSpace</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553532">ReadControlSpace64</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdbgexts/nf-wdbgexts-readcontrolspace64">ReadControlSpace64</a>
  
 
  

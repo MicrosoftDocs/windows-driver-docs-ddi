@@ -70,7 +70,7 @@ A handle to the display device (graphics context).
 
 *pData* [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543299">D3DDDIARG_SETDEPTHSTENCIL</a> structure that specifies the depth buffer.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_setdepthstencil">D3DDDIARG_SETDEPTHSTENCIL</a> structure that specifies the depth buffer.
 
 
 ## -returns
@@ -96,11 +96,11 @@ The user-mode display driver should store the depth buffer in the driver's conte
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543299">D3DDDIARG_SETDEPTHSTENCIL</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_setdepthstencil">D3DDDIARG_SETDEPTHSTENCIL</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>
  
 
  

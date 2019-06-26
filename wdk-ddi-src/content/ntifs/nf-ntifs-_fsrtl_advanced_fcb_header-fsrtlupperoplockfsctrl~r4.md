@@ -56,7 +56,7 @@ The <b>FsRtlUpperOplockFsctrl</b> routine processes opportunistic lock (oplock) 
 
 ### -param Oplock [in]
 
-An opaque oplock pointer for the file. This pointer must have been initialized by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff546150">FsRtlInitializeOplock</a>.
+An opaque oplock pointer for the file. This pointer must have been initialized by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializeoplock">FsRtlInitializeOplock</a>.
 
 
 ### -param Irp [in]
@@ -66,7 +66,7 @@ A pointer to the IRP for the I/O operation.
 
 ### -param OpenCount [in]
 
-Number of user handles for the file, if an exclusive oplock is being requested. Setting a nonzero value for a level 2, R, or RH oplock request indicates that there are byte-range locks on the file. For information about oplock types, see <a href="https://msdn.microsoft.com/e9a45ae0-0ec8-4d6c-8486-ae88bdaa1f8c">Oplock Semantics Overview</a>.
+Number of user handles for the file, if an exclusive oplock is being requested. Setting a nonzero value for a level 2, R, or RH oplock request indicates that there are byte-range locks on the file. For information about oplock types, see <a href="https://docs.microsoft.com/windows-hardware/drivers/image/overview">Oplock Semantics Overview</a>.
 
 
 ### -param LowerOplockState [in]
@@ -122,7 +122,7 @@ A bitmask for the associated oplock operations. A file system or filter driver s
 
 #### OPLOCK_FSCTRL_FLAG_ALL_KEYS_MATCH (0x00000001)
 
-Specifies that the file system verified that all oplock keys on any currently open handles match. By specifying this flag, you allow the oplock package to grant an oplock of level RW or RWH when more than one open handle to the file exists. For more information about oplock types, see the <a href="https://msdn.microsoft.com/e9a45ae0-0ec8-4d6c-8486-ae88bdaa1f8c">Oplock Semantics Overview</a> page.
+Specifies that the file system verified that all oplock keys on any currently open handles match. By specifying this flag, you allow the oplock package to grant an oplock of level RW or RWH when more than one open handle to the file exists. For more information about oplock types, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/image/overview">Oplock Semantics Overview</a> page.
 
 
 ## -returns
@@ -143,7 +143,7 @@ Specifies that the file system verified that all oplock keys on any currently op
 </dl>
 </td>
 <td width="60%">
-For an IRP_MJ_CREATE request, STATUS_SUCCESS indicates that the requested filter opportunistic lock (oplock) was granted. For a FSCTL operation, the meaning of STATUS_SUCCESS depends on the FSCTL code. For more information, see the Remarks section in <a href="https://msdn.microsoft.com/library/windows/hardware/ff547113">FsRtlOplockFsctrlEx</a>.
+For an IRP_MJ_CREATE request, STATUS_SUCCESS indicates that the requested filter opportunistic lock (oplock) was granted. For a FSCTL operation, the meaning of STATUS_SUCCESS depends on the FSCTL code. For more information, see the Remarks section in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtloplockfsctrlex">FsRtlOplockFsctrlEx</a>.
 
 </td>
 </tr>
@@ -165,7 +165,7 @@ The I/O operation was canceled. STATUS_CANCELLED is an error code.
 </dl>
 </td>
 <td width="60%">
-The FSCTL code for the I/O operation was not a valid values oplock request. Valid request types are  listed in the Remarks section of <a href="https://msdn.microsoft.com/library/windows/hardware/ff547113">FsRtlOplockFsctrlEx</a>. STATUS_INVALID_PARAMETER is an error code.
+The FSCTL code for the I/O operation was not a valid values oplock request. Valid request types are  listed in the Remarks section of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtloplockfsctrlex">FsRtlOplockFsctrlEx</a>. STATUS_INVALID_PARAMETER is an error code.
 
 </td>
 </tr>
@@ -187,7 +187,7 @@ The oplock could not be granted. The level of the requested upper file system op
 </dl>
 </td>
 <td width="60%">
-Used only for FSCTL operations. The meaning of STATUS_PENDING depends on the FSCTL code. For more information, see the Remarks section in <a href="https://msdn.microsoft.com/library/windows/hardware/ff547113">FsRtlOplockFsctrlEx</a>. STATUS_PENDING is a success code.
+Used only for FSCTL operations. The meaning of STATUS_PENDING depends on the FSCTL code. For more information, see the Remarks section in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtloplockfsctrlex">FsRtlOplockFsctrlEx</a>. STATUS_PENDING is a success code.
 
 </td>
 </tr>
@@ -214,11 +214,11 @@ An oplock acknowledgement
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265176">FsRtlCheckUpperOplock</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlcheckupperoplock">FsRtlCheckUpperOplock</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547113">FsRtlOplockFsctrlEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtloplockfsctrlex">FsRtlOplockFsctrlEx</a>
  
 
  

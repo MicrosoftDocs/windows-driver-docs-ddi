@@ -56,7 +56,7 @@ The D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION structure describes the shared primary 
 
 ### -field AdapterLuid
 
-[in] The locally unique identifier (<a href="https://msdn.microsoft.com/library/windows/hardware/ff557080">LUID</a>) of the graphics adapter on which the GDI shared primary surface exists. 
+[in] The locally unique identifier (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/igpupvdev/ns-igpupvdev-_luid">LUID</a>) of the graphics adapter on which the GDI shared primary surface exists. 
 
 
 ### -field VidPnSourceId
@@ -66,7 +66,7 @@ The D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION structure describes the shared primary 
 
 ### -field LockRect
 
-[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff569236">RECTL</a> structure that indicates the upper-left and lower-right points of a rectangle on the shared primary surface; the operating system disables all sprites that intersect with this rectangle. If the OpenGL ICD specifies zero for each member of RECTL, the operating system disables all sprites on the shared primary surface.
+[in] A <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-_rectl">RECTL</a> structure that indicates the upper-left and lower-right points of a rectangle on the shared primary surface; the operating system disables all sprites that intersect with this rectangle. If the OpenGL ICD specifies zero for each member of RECTL, the operating system disables all sprites on the shared primary surface.
 
 
 ## -see-also
@@ -74,11 +74,11 @@ The D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION structure describes the shared primary 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547208">D3DKMTSharedPrimaryLockNotification</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/nf-d3dkmthk-d3dkmtsharedprimarylocknotification">D3DKMTSharedPrimaryLockNotification</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569236">RECTL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-_rectl">RECTL</a>
  
 
  

@@ -47,7 +47,7 @@ req.typenames:
 ## -description
 
 
-<b>DxgkCbReserveGpuVirtualAddressRange</b> allows the kernel mode driver to reserve a graphics processing unit (GPU) virtual address range during creation of a process. Reserving the GPU virtual address range is only possible during process creation (i.e. within the call to <a href="https://msdn.microsoft.com/E5AAEEB1-C29E-4AA7-9F8E-2C2DCFADED81">DxgkDdiCreateProcess</a>) and is invalid at any other time.
+<b>DxgkCbReserveGpuVirtualAddressRange</b> allows the kernel mode driver to reserve a graphics processing unit (GPU) virtual address range during creation of a process. Reserving the GPU virtual address range is only possible during process creation (i.e. within the call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_createprocess">DxgkDdiCreateProcess</a>) and is invalid at any other time.
 
 Reservation is possible on both regular process as well as the system process where the system device and context lives.
 
@@ -69,7 +69,7 @@ A handle to the display adapter.
 
 ### -param pArgs [in, out]
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/dn906819">DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE</a> structure that describes the operation.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkargcb_reservegpuvirtualaddressrange">DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE</a> structure that describes the operation.
 
 
 ## -returns
@@ -87,11 +87,11 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/dn906819">DXGKA
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn906819">DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkargcb_reservegpuvirtualaddressrange">DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE</a>
 
 
 
-<a href="https://msdn.microsoft.com/E5AAEEB1-C29E-4AA7-9F8E-2C2DCFADED81">DxgkDdiCreateProcess</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_createprocess">DxgkDdiCreateProcess</a>
  
 
  

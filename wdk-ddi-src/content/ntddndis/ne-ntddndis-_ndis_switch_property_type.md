@@ -82,24 +82,24 @@ The <b>PropertyType</b> member of the following structures is an <b>NDIS_SWITCH_
 <ul>
 <li>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598249">NDIS_SWITCH_PROPERTY_DELETE_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_switch_property_delete_parameters">NDIS_SWITCH_PROPERTY_DELETE_PARAMETERS</a>
 
 
 </li>
 <li>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598253">NDIS_SWITCH_PROPERTY_ENUM_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_switch_property_enum_parameters">NDIS_SWITCH_PROPERTY_ENUM_PARAMETERS</a>
 
 
 </li>
 <li>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598255">NDIS_SWITCH_PROPERTY_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_switch_property_parameters">NDIS_SWITCH_PROPERTY_PARAMETERS</a>
 
 
 </li>
 </ul>
-For more information about extensible switch  policies, see <a href="https://msdn.microsoft.com/8AB85E48-EF37-4D42-873B-34D4835AF22E">Hyper-V Extensible Switch Policies</a>.
+For more information about extensible switch  policies, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/hyper-v-extensible-switch-policies">Hyper-V Extensible Switch Policies</a>.
 
 
 
@@ -115,15 +115,15 @@ For more information about extensible switch  policies, see <a href="https://msd
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598249">NDIS_SWITCH_PROPERTY_DELETE_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_switch_property_delete_parameters">NDIS_SWITCH_PROPERTY_DELETE_PARAMETERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598253">NDIS_SWITCH_PROPERTY_ENUM_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_switch_property_enum_parameters">NDIS_SWITCH_PROPERTY_ENUM_PARAMETERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598255">NDIS_SWITCH_PROPERTY_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_switch_property_parameters">NDIS_SWITCH_PROPERTY_PARAMETERS</a>
  
 
  

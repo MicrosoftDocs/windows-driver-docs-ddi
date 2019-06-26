@@ -56,7 +56,7 @@ UCX invokes this callback function to the stop  time tracking functionality in t
 
 ### -param UcxController [in]
 
- A handle to the UCX controller that the client driver received in a previous call to  the <a href="https://msdn.microsoft.com/library/windows/hardware/mt188033">UcxControllerCreate</a> method.
+ A handle to the UCX controller that the client driver received in a previous call to  the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/mt188033(v=vs.85)">UcxControllerCreate</a> method.
 
 
 ### -param WdfRequest [in]
@@ -67,13 +67,13 @@ A framework request object that contains the request to stop time tracking.
 ### -param OutputBufferLength [in]
 
 The length, in bytes, of the request's output buffer, if an output buffer
-        is available. This value is the size of the <a href="https://msdn.microsoft.com/FFD7979B-48E9-433C-86A9-255F4F422BBA">USB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION</a> structure. 
+        is available. This value is the size of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbioctl/ns-usbioctl-_usb_stop_tracking_for_time_sync_information">USB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION</a> structure. 
 
 
 ### -param InputBufferLength [in]
 
 The length, in bytes, of the request's input buffer, if an input buffer
-        is available. This value is the size of the <a href="https://msdn.microsoft.com/FFD7979B-48E9-433C-86A9-255F4F422BBA">USB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION</a> structure.
+        is available. This value is the size of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbioctl/ns-usbioctl-_usb_stop_tracking_for_time_sync_information">USB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION</a> structure.
 
 
 ## -returns
@@ -90,7 +90,7 @@ This callback function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/232AC14B-CE3C-44AC-9428-5594993CD749">IOCTL_USB_STOP_TRACKING_FOR_TIME_SYNC</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbioctl/ni-usbioctl-ioctl_usb_stop_tracking_for_time_sync">IOCTL_USB_STOP_TRACKING_FOR_TIME_SYNC</a>
  
 
  

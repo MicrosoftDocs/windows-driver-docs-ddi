@@ -66,17 +66,17 @@ The DXVADDI_VIDEODESC structure describes a video stream.
 
 ### -field SampleFormat
 
-[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff562904">DXVADDI_EXTENDEDFORMAT</a> structure that describes the extended format of the video sample.
+[in] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_dxvaddi_extendedformat">DXVADDI_EXTENDEDFORMAT</a> structure that describes the extended format of the video sample.
 
 
 ### -field Format
 
-[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff544312">D3DDDIFORMAT</a> structure that describes the extended format of the video sample.
+[in] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dukmdt/ne-d3dukmdt-_d3dddiformat">D3DDDIFORMAT</a> structure that describes the extended format of the video sample.
 
 
 ### -field InputSampleFreq
 
-[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff562911">DXVADDI_FREQUENCY</a> structure that defines the frequency of incoming video.
+[in] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_dxvaddi_frequency">DXVADDI_FREQUENCY</a> structure that defines the frequency of incoming video.
 
 
 ### -field OutputFrameFreq
@@ -99,15 +99,15 @@ The DXVADDI_VIDEODESC structure describes a video stream.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544312">D3DDDIFORMAT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dukmdt/ne-d3dukmdt-_d3dddiformat">D3DDDIFORMAT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562904">DXVADDI_EXTENDEDFORMAT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_dxvaddi_extendedformat">DXVADDI_EXTENDEDFORMAT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562911">DXVADDI_FREQUENCY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_dxvaddi_frequency">DXVADDI_FREQUENCY</a>
  
 
  

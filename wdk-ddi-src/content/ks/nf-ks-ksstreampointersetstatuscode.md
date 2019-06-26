@@ -57,7 +57,7 @@ The<b> KsStreamPointerSetStatusCode</b> function allows specification of a succe
 
 ### -param StreamPointer [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff567139">KSSTREAM_POINTER</a> structure. This pointer points to the frame contained in the IRP.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksstream_pointer">KSSTREAM_POINTER</a> structure. This pointer points to the frame contained in the IRP.
 
 
 ### -param Status [in]
@@ -80,7 +80,7 @@ The error code with which to complete the IRP.
 
 Note that the IRP contains the frame to which <i>StreamPointer</i> points.
 
-Also see <a href="https://msdn.microsoft.com/4bac68a0-34d2-431a-9ed9-8a42751a736f">Stream Pointers</a>.
+Also see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/stream-pointers">Stream Pointers</a>.
 
 
 
@@ -90,7 +90,7 @@ Also see <a href="https://msdn.microsoft.com/4bac68a0-34d2-431a-9ed9-8a42751a736
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563535">KSPIN_DISPATCH</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_kspin_dispatch">KSPIN_DISPATCH</a>
  
 
  

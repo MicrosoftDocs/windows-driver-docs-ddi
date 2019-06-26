@@ -48,7 +48,7 @@ req.typenames:
 
 
 The 
-  <b>NdisFreeMemoryWithTag</b> function is deprecated for all NDIS versions.  Use <a href="https://msdn.microsoft.com/library/windows/hardware/ff561606">NdisAllocateMemoryWithTagPriority</a> instead.
+  <b>NdisFreeMemoryWithTag</b> function is deprecated for all NDIS versions.  Use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisallocatememorywithtagpriority">NdisAllocateMemoryWithTagPriority</a> instead.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The
 ### -param VirtualAddress [in]
 
 A pointer to the base virtual address of the allocated memory. This address was returned by the 
-     <a href="https://msdn.microsoft.com/0dae26f7-0c00-4a5c-a447-825290ab6570">
+     <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff550767(v=vs.85)">
      NdisAllocateMemoryWithTag</a> function.
 
 
@@ -115,7 +115,7 @@ When a caller of
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550767">NdisAllocateMemoryWithTag</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff550767(v=vs.85)">NdisAllocateMemoryWithTag</a>
  
 
  

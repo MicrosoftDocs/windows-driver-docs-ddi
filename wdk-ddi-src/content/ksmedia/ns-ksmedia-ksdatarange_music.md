@@ -56,7 +56,7 @@ The KSDATARANGE_MUSIC structure specifies a range of DirectMusic MIDI formats.
 
 ### -field DataRange
 
-Specifies the MajorFormat and SubFormat GUIDs as well as the Specifier GUID for the DirectMusic data. This member is an initialized <a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a> structure.
+Specifies the MajorFormat and SubFormat GUIDs as well as the Specifier GUID for the DirectMusic data. This member is an initialized <a href="https://docs.microsoft.com/previous-versions/ff561658(v=vs.85)">KSDATARANGE</a> structure.
 
 
 ### -field Technology
@@ -127,9 +127,9 @@ Specifies which channels an internal synthesizer device responds to, where the l
 
 
 
-For examples of data ranges that use the KSDATARANGE_MUSIC structure, see <a href="https://msdn.microsoft.com/392eadf7-9c6e-4527-bc84-a2916623c154">MIDI Stream Data Range</a> and <a href="https://msdn.microsoft.com/e3423901-330e-4a86-a921-6678e1c45a97">DirectMusic Stream Data Range</a>.
+For examples of data ranges that use the KSDATARANGE_MUSIC structure, see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/midi-stream-data-range">MIDI Stream Data Range</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/directmusic-stream-data-range">DirectMusic Stream Data Range</a>.
 
-For information about data ranges and intersection handling, see <a href="https://msdn.microsoft.com/7206afdb-8a34-4b5a-8cea-87119f426161">Data-Intersection Handlers</a>.
+For information about data ranges and intersection handling, see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/data-intersection-handlers">Data-Intersection Handlers</a>.
 
 
 
@@ -139,7 +139,7 @@ For information about data ranges and intersection handling, see <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a>
+<a href="https://docs.microsoft.com/previous-versions/ff561658(v=vs.85)">KSDATARANGE</a>
  
 
  

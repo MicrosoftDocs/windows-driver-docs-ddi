@@ -103,7 +103,7 @@ sizeof(NDIS_WWAN_SERVICE_ACTIVATION_STATUS)
  
 
 For more information about these members, see 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field uStatus
@@ -226,7 +226,7 @@ The operation failed because the device is in the process of initializing. Retry
 ### -field ServiceActivationStatus
 
 A formatted 
-     <a href="https://msdn.microsoft.com/1bd81e55-6438-4bff-ab50-3de3457d2e99">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_service_activation_status">
      WWAN_SERVICE_ACTIVATION_STATUS</a> object that represents the status of service activation on the
      device.
 
@@ -236,11 +236,11 @@ A formatted
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/1bd81e55-6438-4bff-ab50-3de3457d2e99">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_service_activation_status">
    WWAN_SERVICE_ACTIVATION_STATUS</a>
  
 

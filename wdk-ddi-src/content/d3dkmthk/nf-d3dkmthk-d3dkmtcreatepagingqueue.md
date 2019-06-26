@@ -54,7 +54,7 @@ req.typenames:
 
 *pData* [in, out]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn906792">D3DKMT_CREATEPAGINGQUEUE</a> structure that describes the operation.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_createpagingqueue">D3DKMT_CREATEPAGINGQUEUE</a> structure that describes the operation.
 
 ## -returns
 
@@ -69,7 +69,7 @@ This function might also return other <b>NTSTATUS</b> values.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn906792">D3DKMT_CREATEPAGINGQUEUE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_createpagingqueue">D3DKMT_CREATEPAGINGQUEUE</a>
  
 
  

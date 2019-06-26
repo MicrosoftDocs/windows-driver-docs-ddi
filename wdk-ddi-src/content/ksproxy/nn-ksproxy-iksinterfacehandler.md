@@ -46,12 +46,12 @@ req.typenames:
 ## -description
 
 
-The <b>IKsInterfaceHandler</b> interface provides methods that marshal samples into the kernel based on the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563537">KSPIN_INTERFACE</a> structure specified for the established connection. The IID for this interface is IID_IKsInterfaceHandler.
+The <b>IKsInterfaceHandler</b> interface provides methods that marshal samples into the kernel based on the <a href="https://docs.microsoft.com/previous-versions/ff563537(v=vs.85)">KSPIN_INTERFACE</a> structure specified for the established connection. The IID for this interface is IID_IKsInterfaceHandler.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsInterfaceHandler</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IKsInterfaceHandler</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsInterfaceHandler</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IKsInterfaceHandler</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -66,7 +66,7 @@ The <b>IKsInterfaceHandler</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2ff69f59-5fbd-43fd-afe5-9717d7928d2a">KsCompleteIo</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nf-ksproxy-iksinterfacehandler-kscompleteio">KsCompleteIo</a>
 </td>
 <td align="left" width="63%">
 Cleans up extended headers and releases media samples. 
@@ -75,7 +75,7 @@ Cleans up extended headers and releases media samples.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3f0982d8-4ac3-40f6-8587-624c26d25510">KsProcessMediaSamples</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nf-ksproxy-iksinterfacehandler-ksprocessmediasamples">KsProcessMediaSamples</a>
 </td>
 <td align="left" width="63%">
 Queries for the extended header size if a data handler is specified. 
@@ -84,7 +84,7 @@ Queries for the extended header size if a data handler is specified.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/71e4be0a-a5a6-469a-948b-bc5277bc8cbe">KsSetPin</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nf-ksproxy-iksinterfacehandler-kssetpin">KsSetPin</a>
 </td>
 <td align="left" width="63%">
 Informs an interface handler about the pin with which to communicate when passing data.
@@ -102,7 +102,7 @@ In order to keep the proxy neutral with regard to the interface used to stream d
 
 Each interface handler can marshal media samples using its own method. The standard interface handler that KS proxy implements uses IOCTL_KS_WRITE_STREAM for the receive operation and IOCTL_KS_READ_STREAM for the send operation, but a custom interface handler can use some other method.
 
-When a pin is connected, the proxy uses the GUID in the <b>Set</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563537">KSPIN_INTERFACE</a> structure to determine what interface handler to load. The interface handler is registered as a COM server under that GUID class. The interface handler must handle all variations of the interface within the interface set. Bridge pins are not expected to stream data, and interface handlers are not loaded for them.
+When a pin is connected, the proxy uses the GUID in the <b>Set</b> member of the <a href="https://docs.microsoft.com/previous-versions/ff563537(v=vs.85)">KSPIN_INTERFACE</a> structure to determine what interface handler to load. The interface handler is registered as a COM server under that GUID class. The interface handler must handle all variations of the interface within the interface set. Bridge pins are not expected to stream data, and interface handlers are not loaded for them.
 
 On an interface handler create request through <b>CoCreateInstance</b>, the server is always presented an outer <b>IUnknown</b> with which to create the COM object. This <b>IUnknown</b> is an interface on the pin object that is loading this interface handler. The <b>IUnknown</b> interface pointer can be used to query information or interfaces, such as the <b>IKsControl</b> interface, from the pin, although the kernel-mode pin may not have been created at the time the interface handler is loaded. No reference should be left on the outer object through acquiring any interfaces, as it will result in a circular reference count. Using the interfaces without a reference count is acceptable, because the outer object owns the handler and, by definition, is destroyed when the outer object's reference count reaches zero.
 
@@ -116,11 +116,11 @@ For more information about <b>CoCreateInstance</b>, see the Microsoft Windows SD
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559766">IKsControl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nn-ksproxy-ikscontrol">IKsControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563537">KSPIN_INTERFACE</a>
+<a href="https://docs.microsoft.com/previous-versions/ff563537(v=vs.85)">KSPIN_INTERFACE</a>
  
 
  

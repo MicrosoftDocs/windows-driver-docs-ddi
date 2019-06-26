@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <b>IoSynchronousPageWrite</b> routine is reserved for system use. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff539045">CcCopyWrite</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff539181">CcPrepareMdlWrite</a>, and <a href="https://msdn.microsoft.com/library/windows/hardware/ff548330">IoBuildSynchronousFsdRequest</a>. 
+The <b>IoSynchronousPageWrite</b> routine is reserved for system use. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff539045">CcCopyWrite</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff539181">CcPrepareMdlWrite</a>, and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iobuildsynchronousfsdrequest">IoBuildSynchronousFsdRequest</a>. 
 
 
 ## -parameters

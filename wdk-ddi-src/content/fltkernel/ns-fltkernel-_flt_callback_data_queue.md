@@ -46,7 +46,7 @@ req.typenames: FLT_CALLBACK_DATA_QUEUE, *PFLT_CALLBACK_DATA_QUEUE
 ## -description
 
 
-FLT_CALLBACK_DATA_QUEUE is an opaque structure that is used to specify the callback routines for a minifilter's callback data queue. Do not set the members of this structure directly. Use <a href="https://msdn.microsoft.com/library/windows/hardware/ff541802">FltCbdqInitialize</a> to initialize this structure. 
+FLT_CALLBACK_DATA_QUEUE is an opaque structure that is used to specify the callback routines for a minifilter's callback data queue. Do not set the members of this structure directly. Use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltcbdqinitialize">FltCbdqInitialize</a> to initialize this structure. 
 
 
 
@@ -59,27 +59,27 @@ FLT_CALLBACK_DATA_QUEUE is an opaque structure that is used to specify the callb
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541796">FltCbdqDisable</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltcbdqdisable">FltCbdqDisable</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541799">FltCbdqEnable</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltcbdqenable">FltCbdqEnable</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541802">FltCbdqInitialize</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltcbdqinitialize">FltCbdqInitialize</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541815">FltCbdqInsertIo</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltcbdqinsertio">FltCbdqInsertIo</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541821">FltCbdqRemoveIo</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltcbdqremoveio">FltCbdqRemoveIo</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541825">FltCbdqRemoveNextIo</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltcbdqremovenextio">FltCbdqRemoveNextIo</a>
  
 
  

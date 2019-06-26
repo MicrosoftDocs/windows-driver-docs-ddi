@@ -85,7 +85,7 @@ New hardware is connected, which generates an interrupt.
 
 </li>
 <li>
-The miniport driver's interrupt handler (<a href="https://msdn.microsoft.com/523471e3-cf1e-48d2-b5f0-2f8d19ad71e0">HwVidInterrupt</a>) queues a DPC routine (<a href="https://msdn.microsoft.com/d4b443a2-3665-4e7c-b84a-5388a8fe8681">HwVidDpcRoutine</a>) by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff570339">VideoPortQueueDpc</a>.
+The miniport driver's interrupt handler (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nc-video-pvideo_hw_interrupt">HwVidInterrupt</a>) queues a DPC routine (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nc-video-pminiport_dpc_routine">HwVidDpcRoutine</a>) by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportqueuedpc">VideoPortQueueDpc</a>.
 
 </li>
 <li>
@@ -93,7 +93,7 @@ The asynchronously executed DPC contains a call to <b>VideoPortEnumerateChildren
 
 </li>
 </ul>
-<b>VideoPortEnumerateChildren</b> causes <a href="https://msdn.microsoft.com/175030c1-95d9-4a3b-976c-16e04852cb91">HwVidGetVideoChildDescriptor</a> to be called, allowing the Plug and Play Manager to enumerate all of the adapter's child devices.
+<b>VideoPortEnumerateChildren</b> causes <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nc-video-pvideo_hw_get_child_descriptor">HwVidGetVideoChildDescriptor</a> to be called, allowing the Plug and Play Manager to enumerate all of the adapter's child devices.
 
 
 
@@ -103,19 +103,19 @@ The asynchronously executed DPC contains a call to <b>VideoPortEnumerateChildren
 
 
 
-<a href="https://msdn.microsoft.com/d4b443a2-3665-4e7c-b84a-5388a8fe8681">HwVidDpcRoutine</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nc-video-pminiport_dpc_routine">HwVidDpcRoutine</a>
 
 
 
-<a href="https://msdn.microsoft.com/175030c1-95d9-4a3b-976c-16e04852cb91">HwVidGetVideoChildDescriptor</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nc-video-pvideo_hw_get_child_descriptor">HwVidGetVideoChildDescriptor</a>
 
 
 
-<a href="https://msdn.microsoft.com/523471e3-cf1e-48d2-b5f0-2f8d19ad71e0">HwVidInterrupt</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nc-video-pvideo_hw_interrupt">HwVidInterrupt</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570339">VideoPortQueueDpc</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportqueuedpc">VideoPortQueueDpc</a>
  
 
  

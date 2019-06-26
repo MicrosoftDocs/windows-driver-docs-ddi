@@ -56,12 +56,12 @@ The <i>ClfsLogUnpinnedCallback</i> function implements any actions that the clie
 
 ### -param LogFile [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff554316">LOG_FILE_OBJECT</a> structure that represents the CLFS log stream whose tail has become unpinned.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_file_object">LOG_FILE_OBJECT</a> structure that represents the CLFS log stream whose tail has become unpinned.
 
 
 ### -param ClientData [in]
 
-A pointer to client-supplied information. You specify this data in the <b>LogUnpinnedCallbackData</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541841">CLFS_MGMT_CLIENT_REGISTRATION</a> structure.
+A pointer to client-supplied information. You specify this data in the <b>LogUnpinnedCallbackData</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_clfs_mgmt_client_registration">CLFS_MGMT_CLIENT_REGISTRATION</a> structure.
 
 
 ## -returns
@@ -77,9 +77,9 @@ None
 
 
 
-If a client called the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541627">ClfsMgmtHandleLogFileFull</a> routine and CLFS management subsequently called the client's <a href="https://msdn.microsoft.com/library/windows/hardware/ff541562">ClfsLogGrowthCompleteCallback</a> function with a value of <b>TRUE</b> for the <i>LogIsPinned</i> parameter, then the <i>ClfsLogUnpinnedCallback</i> function will be invoked when the log becomes unpinned. 
+If a client called the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-clfsmgmthandlelogfilefull">ClfsMgmtHandleLogFileFull</a> routine and CLFS management subsequently called the client's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pclfs_client_lff_handler_complete_callback">ClfsLogGrowthCompleteCallback</a> function with a value of <b>TRUE</b> for the <i>LogIsPinned</i> parameter, then the <i>ClfsLogUnpinnedCallback</i> function will be invoked when the log becomes unpinned. 
 
-When a client uses the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541642">ClfsMgmtRegisterManagedClient</a> routine to register with CLFS management, the client provides both a pointer to the <i>ClfsLogUnpinnedCallback</i> function and the custom data that will be passed as a parameter to the <i>ClfsLogUnpinnedCallback</i> function when this function is called.
+When a client uses the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-clfsmgmtregistermanagedclient">ClfsMgmtRegisterManagedClient</a> routine to register with CLFS management, the client provides both a pointer to the <i>ClfsLogUnpinnedCallback</i> function and the custom data that will be passed as a parameter to the <i>ClfsLogUnpinnedCallback</i> function when this function is called.
 
 The <i>ClfsLogUnpinnedCallback</i> function should only perform a minimal amount of processing before returning. For example, it might create and queue a work item to inform the client that it can resume processing.
 
@@ -93,11 +93,11 @@ The <i>ClfsLogGrowthCompleteCallback</i> function is called before the <i>ClfsLo
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541841">CLFS_MGMT_CLIENT_REGISTRATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_clfs_mgmt_client_registration">CLFS_MGMT_CLIENT_REGISTRATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541627">ClfsMgmtHandleLogFileFull</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-clfsmgmthandlelogfilefull">ClfsMgmtHandleLogFileFull</a>
  
 
  

@@ -46,7 +46,7 @@ req.typenames: CLS_SCAN_CONTEXT, *PCLS_SCAN_CONTEXT, PPCLS_SCAN_CONTEXT
 ## -description
 
 
-The <b>CLFS_SCAN_CONTEXT</b> structure holds context information to support a scan of the containers in a Common Log File System (CLFS) log. The client allocates this structure by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff541527">ClfsCreateScanContext</a>. Then, the client passes the structure repeatedly to <a href="https://msdn.microsoft.com/library/windows/hardware/ff541737">ClfsScanLogContainers</a>. 
+The <b>CLFS_SCAN_CONTEXT</b> structure holds context information to support a scan of the containers in a Common Log File System (CLFS) log. The client allocates this structure by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-clfscreatescancontext">ClfsCreateScanContext</a>. Then, the client passes the structure repeatedly to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-clfsscanlogcontainers">ClfsScanLogContainers</a>. 
 
 
 ## -struct-fields
@@ -56,12 +56,12 @@ The <b>CLFS_SCAN_CONTEXT</b> structure holds context information to support a sc
 
 ### -field cidNode
 
-A <a href="https://msdn.microsoft.com/99132138-b7ba-47a1-ac40-353d5d70db42">CLFS_NODE_ID</a> structure that contains the scan context's node identity and type.
+A <a href="https://docs.microsoft.com/windows/desktop/api/clfs/ns-clfs-_clfs_node_id">CLFS_NODE_ID</a> structure that contains the scan context's node identity and type.
 
 
 ### -field plfoLog
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff554316">LOG_FILE_OBJECT</a> structure that represents a CLFS log.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_file_object">LOG_FILE_OBJECT</a> structure that represents a CLFS log.
 
 
 ### -field cIndex
@@ -134,5 +134,5 @@ The scan is closed. No containers are scanned.
 
 ### -field pinfoContainer
 
-A pointer to an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff541782">CLFS_CONTAINER_INFORMATION</a> structures. The <i>cContainers</i> parameter specifies the number of elements in this array. 
+A pointer to an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_cls_container_information">CLFS_CONTAINER_INFORMATION</a> structures. The <i>cContainers</i> parameter specifies the number of elements in this array. 
 

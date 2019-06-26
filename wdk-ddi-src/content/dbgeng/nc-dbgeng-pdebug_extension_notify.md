@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The engine calls the <b>DebugExtensionNotify</b> callback function to inform the extension <a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">DLL</a> when a session changes its active or accessible status.
+The engine calls the <b>DebugExtensionNotify</b> callback function to inform the extension <a href="https://docs.microsoft.com/windows-hardware/drivers/">DLL</a> when a session changes its active or accessible status.
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
 <th>C++</th>
@@ -148,7 +148,7 @@ After the extension DLL is initialized, the engine will use this function to not
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540476">DebugExtensionInitialize</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nc-dbgeng-pdebug_extension_initialize">DebugExtensionInitialize</a>
  
 
  

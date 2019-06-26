@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-<b>ChangerReinitializeUnit</b> handles the device-specific aspects of a device-control IRP with the IOCTL code <a href="https://msdn.microsoft.com/library/windows/hardware/ff559419">IOCTL_CHANGER_REINITIALIZE_TRANSPORT</a>. 
+<b>ChangerReinitializeUnit</b> handles the device-specific aspects of a device-control IRP with the IOCTL code <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddchgr/ni-ntddchgr-ioctl_changer_reinitialize_transport">IOCTL_CHANGER_REINITIALIZE_TRANSPORT</a>. 
 
 
 ## -parameters
@@ -90,9 +90,9 @@ If the changer does not support recalibrating a transport element, ChangerReinit
 
 This routine is required.
 
-<b>ChangerReinitializeUnit</b> causes the changer to recalibrate its transport element. Depending on the changer, this may return the transport to a "home" position. The changer class driver typically calls <b>ChangerReinitializeUnit</b> after the changer has been powered on or a calling application has initiated a recovery operation. The CHANGER_DEVICE_REINITIALIZE_CAPABLE flag in <b>Features0</b> of <a href="https://msdn.microsoft.com/library/windows/hardware/ff554979">GET_CHANGER_PARAMETERS</a> indicates whether the changer's transport supports recalibration in those circumstances.
+<b>ChangerReinitializeUnit</b> causes the changer to recalibrate its transport element. Depending on the changer, this may return the transport to a "home" position. The changer class driver typically calls <b>ChangerReinitializeUnit</b> after the changer has been powered on or a calling application has initiated a recovery operation. The CHANGER_DEVICE_REINITIALIZE_CAPABLE flag in <b>Features0</b> of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddchgr/ns-ntddchgr-_get_changer_parameters">GET_CHANGER_PARAMETERS</a> indicates whether the changer's transport supports recalibration in those circumstances.
 
-The changer class driver checks the input buffer length in the I/O stack location before calling <b>ChangerReinitializeUnit</b>. <i>Irp</i><b>->SystemBuffer</b> points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551457">CHANGER_ELEMENT</a> structure that indicates the element to recalibrate. 
+The changer class driver checks the input buffer length in the I/O stack location before calling <b>ChangerReinitializeUnit</b>. <i>Irp</i><b>->SystemBuffer</b> points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddchgr/ns-ntddchgr-_changer_element">CHANGER_ELEMENT</a> structure that indicates the element to recalibrate. 
 
 <b>ChangerReinitializeUnit</b> builds an SRB with a CDB to position the transport element and sends it to the system port driver.
 
@@ -106,15 +106,15 @@ The changer class driver checks the input buffer length in the I/O stack locatio
 
 
 
-<a href="https://msdn.microsoft.com/35b40514-a7a6-4860-a633-fe273ef21ba2">, IOCTL_CHANGER_REINITIALIZE_TRANSPORT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddchgr/ni-ntddchgr-ioctl_changer_reinitialize_transport">, IOCTL_CHANGER_REINITIALIZE_TRANSPORT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551457">CHANGER_ELEMENT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddchgr/ns-ntddchgr-_changer_element">CHANGER_ELEMENT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554979">GET_CHANGER_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddchgr/ns-ntddchgr-_get_changer_parameters">GET_CHANGER_PARAMETERS</a>
  
 
  

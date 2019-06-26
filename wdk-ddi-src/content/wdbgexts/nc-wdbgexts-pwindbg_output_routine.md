@@ -70,7 +70,7 @@ The wdbgexts.h header declares a macro, <b>dprintf</b> that  prints the formatte
 
 #### - [arguments] [in]
 
-Specifies arguments for the format string, as in <b>printf</b>. The number of arguments specified should match the number of conversion characters in <i>FormatString</i>. Each argument is an expression that will be evaluated by the default expression evaluator (MASM or C++). For details, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552280">Numerical Expression Syntax</a>. 
+Specifies arguments for the format string, as in <b>printf</b>. The number of arguments specified should match the number of conversion characters in <i>FormatString</i>. Each argument is an expression that will be evaluated by the default expression evaluator (MASM or C++). For details, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/numerical-expression-syntax">Numerical Expression Syntax</a>. 
 
 
 #### - format [in]

@@ -64,7 +64,7 @@ A handle to a framework device object.
 
 ### -param PhysicalDevice [in]
 
-A pointer to a caller-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a> structure that represents a physical device object (PDO).
+A pointer to a caller-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure that represents a physical device object (PDO).
 
 
 ## -returns
@@ -84,7 +84,7 @@ A system bug check occurs if the driver supplies an invalid object handle.
 
 The <i>PhysicalDevice</i> parameter points to a PDO of a device that <b>WdfPdoRemoveEjectionRelationsPhysicalDevice</b> removes from the list of devices that must be ejected when the device represented by the <i>Device</i> parameter is ejected.
 
-For more information, see <a href="https://msdn.microsoft.com/7820bb71-7218-4c5f-af2b-f41e1b5f696d">Supporting Ejectable Devices</a>.
+For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/supporting-ejectable-devices">Supporting Ejectable Devices</a>.
 
 
 #### Examples
@@ -115,11 +115,11 @@ status = WdfPdoRemoveEjectionRelationsPhysicalDevice(
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548770">WdfPdoAddEjectionRelationsPhysicalDevice</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfpdo/nf-wdfpdo-wdfpdoaddejectionrelationsphysicaldevice">WdfPdoAddEjectionRelationsPhysicalDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548771">WdfPdoClearEjectionRelationsDevices</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfpdo/nf-wdfpdo-wdfpdoclearejectionrelationsdevices">WdfPdoClearEjectionRelationsDevices</a>
  
 
  

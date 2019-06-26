@@ -80,7 +80,7 @@ triage logs to the current directory.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450948">IWDTFDriverSetupSystemAction2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtfdriversetupsystemaction/nn-wdtfdriversetupsystemaction-iwdtfdriversetupsystemaction2">IWDTFDriverSetupSystemAction2</a>
  
 
  

@@ -79,7 +79,7 @@ DEBUG_GSEL_NO_SYMBOL_LOADS
 
 </td>
 <td>
-The <a href="https://msdn.microsoft.com/fa52a1f0-9397-48a5-acbd-ce5347c0baef">debugger engine</a> will only search for the file among the modules whose symbols have already been loaded.  Symbols for the other modules will not be loaded.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/introduction">debugger engine</a> will only search for the file among the modules whose symbols have already been loaded.  Symbols for the other modules will not be loaded.
 
 If this option is not set, the debugger engine will load the symbols for all modules until it finds the file specified in <i>File</i>.
 
@@ -123,7 +123,7 @@ To use the default set of flags, set <i>Flags</i> to DEBUG_GSEL_DEFAULT.  This h
 
 ### -param Entries [out, optional]
 
-Receives the locations in the target's memory that correspond to the source lines queried for.  Each entry in this array is of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff541680">DEBUG_SYMBOL_SOURCE_ENTRY</a> and contains the source line number along with a location in the target's memory.
+Receives the locations in the target's memory that correspond to the source lines queried for.  Each entry in this array is of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/ns-dbgeng-_debug_symbol_source_entry">DEBUG_SYMBOL_SOURCE_ENTRY</a> and contains the source line number along with a location in the target's memory.
 
 
 ### -param EntriesCount [in]
@@ -147,7 +147,7 @@ Receives the number of locations that match the query found in the target's memo
 
 
 
-These methods can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+These methods can also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 <table>
 <tr>
@@ -199,7 +199,7 @@ The query yielded no results.  This includes the case where the symbol informati
 
 These methods can be used by debugger applications to fetch locations in the target's memory for setting breakpoints or matching source code with disassembled instructions.  For example, setting the flags DEBUG_GSEL_ALLOW_HIGHER and DEBUG_GSEL_NEAREST_ONLY will return the target's memory location for the first piece of code starting at the specified line.
 
-For more information about source files, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff560141">Using Source Files</a>.
+For more information about source files, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/using-source-files">Using Source Files</a>.
 
 
 
@@ -209,15 +209,15 @@ For more information about source files, see <a href="https://msdn.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541680">DEBUG_SYMBOL_SOURCE_ENTRY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/ns-dbgeng-_debug_symbol_source_entry">DEBUG_SYMBOL_SOURCE_ENTRY</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548339">GetSourceFileLineOffsets</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols3-getsourcefilelineoffsets">GetSourceFileLineOffsets</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550870">IDebugSymbols3</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugsymbols3">IDebugSymbols3</a>
  
 
  

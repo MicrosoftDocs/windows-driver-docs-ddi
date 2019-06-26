@@ -49,7 +49,7 @@ req.typenames:
 
 The 
   <b>FwpmBfeStateGet0</b> function retrieves the current state of the filter engine.
-<div class="alert"><b>Note</b>  <b>FwpmBfeStateGet0</b> is a specific version of <b>FwpmBfeStateGet</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
+<div class="alert"><b>Note</b>  <b>FwpmBfeStateGet0</b> is a specific version of <b>FwpmBfeStateGet</b>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
 ## -parameters
 
@@ -129,7 +129,7 @@ A callout driver calls the
     to open a session to the filter engine, the filter engine must  be currently running.
 
 Before calling <b>FwpmBfeStateGet0</b>, the callout driver  must call the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff550062">FwpmBfeStateSubscribeChanges0</a> function to register a callback function that is called whenever the
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpmk/nf-fwpmk-fwpmbfestatesubscribechanges0">FwpmBfeStateSubscribeChanges0</a> function to register a callback function that is called whenever the
     state of the filter engine changes.
 
 
@@ -140,7 +140,7 @@ Before calling <b>FwpmBfeStateGet0</b>, the callout driver  must call the
 
 
 
-<a href="https://msdn.microsoft.com/375af8a1-9e05-4830-9074-6313b4e082d9">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpmk/nf-fwpmk-fwpmbfestatesubscribechanges0">
    FwpmBfeStateSubscribeChanges0</a>
  
 

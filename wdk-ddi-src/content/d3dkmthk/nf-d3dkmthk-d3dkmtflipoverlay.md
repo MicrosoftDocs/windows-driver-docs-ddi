@@ -55,7 +55,7 @@ The <b>D3DKMTFlipOverlay</b> function changes the allocation to display on the o
 
 *pData* [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548002">D3DKMT_FLIPOVERLAY</a> structure that describes how to change the display on the overlay.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_flipoverlay">D3DKMT_FLIPOVERLAY</a> structure that describes how to change the display on the overlay.
 
 ## -returns
 
@@ -66,13 +66,13 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 | **STATUS_SUCCESS** | The kernel-mode overlay object was successfully flipped. |
 | **STATUS_DEVICE_REMOVED** | The graphics adapter was stopped or the display device was reset. |
 | **STATUS_INVALID_PARAMETER** | Parameters were validated and determined to be incorrect. |
-| **STATUS_NO_MEMORY** | [D3DKMTFlipOverlay](https://msdn.microsoft.com/library/windows/hardware/ff546949)  could not complete because of insufficient memory. |
+| **STATUS_NO_MEMORY** | [D3DKMTFlipOverlay](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/nf-d3dkmthk-d3dkmtflipoverlay)  could not complete because of insufficient memory. |
 
 This function might also return other <b>NTSTATUS</b> values.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548002">D3DKMT_FLIPOVERLAY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_flipoverlay">D3DKMT_FLIPOVERLAY</a>
  
 
  

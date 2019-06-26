@@ -61,12 +61,12 @@ The ID for the node that represents the audio device.
 
 ### -param pKsDataFormatWfx [in]
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff537095">KSDATAFORMAT_WAVEFORMATEX</a> structure that represents the audio data format for the audio device.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-ksdataformat_waveformatex">KSDATAFORMAT_WAVEFORMATEX</a> structure that represents the audio data format for the audio device.
 
 
 ### -param pBufferSizeRange [out]
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/hh450864">KSAUDIOENGINE_BUFFER_SIZE_RANGE</a> structure that represents the minimum and maximum buffer size that the hardware audio engine can support at the time when it is called.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-_tagksaudioengine_buffer_size_range">KSAUDIOENGINE_BUFFER_SIZE_RANGE</a> structure that represents the minimum and maximum buffer size that the hardware audio engine can support at the time when it is called.
 
 
 ## -returns
@@ -85,7 +85,7 @@ code.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn302040">IMiniportAudioEngineNode</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iminiportaudioenginenode">IMiniportAudioEngineNode</a>
  
 
  

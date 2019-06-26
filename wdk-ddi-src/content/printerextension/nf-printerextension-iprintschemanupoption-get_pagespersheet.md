@@ -60,7 +60,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451302">IPrintSchemaNUpOption</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprintschemanupoption">IPrintSchemaNUpOption</a>
  
 
  

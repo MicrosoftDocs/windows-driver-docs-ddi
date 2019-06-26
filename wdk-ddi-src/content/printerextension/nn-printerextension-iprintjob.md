@@ -53,7 +53,7 @@ This interface also provides a method that allows a print job to be cancelled.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintJob</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IPrintJob</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintJob</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintJob</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -69,7 +69,7 @@ The <b>IPrintJob</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265404">RequestCancel</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nf-printerextension-iprintjob-requestcancel">RequestCancel</a>
 </td>
 <td align="left" width="63%">
 Requests the cancellation of a print job.
@@ -78,7 +78,7 @@ Requests the cancellation of a print job.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265407">Status</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nf-printerextension-iprintjob-get_status">Status</a>
 </td>
 <td align="left" width="63%">
 Gets the current status of the print job.
@@ -96,7 +96,7 @@ Gets the current status of the print job.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn895599">Id</a>
+<a href="https://docs.microsoft.com/windows-hardware/customize/desktop/unattend/microsoft-windows-shwebsvc-id">Id</a>
 
 
 </td>
@@ -112,7 +112,7 @@ Gets the print job identifier (ID).
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh971602">Name</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nf-printerextension-iprintschemaelement-get_name">Name</a>
 
 
 </td>
@@ -128,7 +128,7 @@ Gets the name of the print job.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265403">PrintedPages</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nf-printerextension-iprintjob-get_printedpages">PrintedPages</a>
 
 
 </td>
@@ -144,7 +144,7 @@ Gets the number of pages that have been printed.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265410">SubmissionTime</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nf-printerextension-iprintjob-get_submissiontime">SubmissionTime</a>
 
 
 </td>
@@ -160,7 +160,7 @@ Gets the submission time, in the “DATE” format, provided in the user’s loc
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265411">TotalPages</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nf-printerextension-iprintjob-get_totalpages">TotalPages</a>
 
 
 </td>
@@ -180,9 +180,9 @@ Gets the total number of pages that the document contains.
 
 
 
-The <b>IPrintJob</b> interface provides a wrapper around select properties of the spooler’s <a href="https://msdn.microsoft.com/library/windows/desktop/dd145019(v=vs.85).aspx">JOB_INFO_1</a> structure.
+The <b>IPrintJob</b> interface provides a wrapper around select properties of the spooler’s <a href="https://docs.microsoft.com/windows/desktop/printdocs/job-info-1">JOB_INFO_1</a> structure.
 
-<b>IPrintJob</b> also helps to make it possible to perform job management from a UWP device app or from a printer extension. For more information, see <a href="https://msdn.microsoft.com/D1236DD2-D4AD-4615-9036-7EC75D6CADCE">Job Management</a>.
+<b>IPrintJob</b> also helps to make it possible to perform job management from a UWP device app or from a printer extension. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/job-management">Job Management</a>.
 
 
 
@@ -192,11 +192,11 @@ The <b>IPrintJob</b> interface provides a wrapper around select properties of th
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/desktop/dd145019(v=vs.85).aspx">JOB_INFO_1</a>
+<a href="https://docs.microsoft.com/windows/desktop/printdocs/job-info-1">JOB_INFO_1</a>
 
 
 
-<a href="https://msdn.microsoft.com/D1236DD2-D4AD-4615-9036-7EC75D6CADCE">Job Management</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/print/job-management">Job Management</a>
  
 
  

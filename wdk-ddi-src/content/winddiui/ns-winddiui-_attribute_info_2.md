@@ -46,7 +46,7 @@ req.typenames: ATTRIBUTE_INFO_2, *PATTRIBUTE_INFO_2
 ## -description
 
 
-The ATTRIBUTE_INFO_2 structure is used as a parameter for a printer interface DLL's <a href="https://msdn.microsoft.com/library/windows/hardware/ff548581">DrvQueryJobAttributes</a> function. All member values are function-supplied.
+The ATTRIBUTE_INFO_2 structure is used as a parameter for a printer interface DLL's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winddiui/nf-winddiui-drvqueryjobattributes">DrvQueryJobAttributes</a> function. All member values are function-supplied.
 
 
 ## -struct-fields
@@ -194,9 +194,9 @@ The print processor should not use monochrome color optimization.
 
 The EMF print processor uses the flag specified for <b>dwColorOptimization</b> to determine whether to request GDI to perform monochrome color optimization. If monochrome color optimization is enabled, the print job can be switched between monochrome and color rendering as appropriate.
 
-If you are creating a Unidrv rendering plug-in to generate color watermarks, note that when the <b>dwColorOptimization</b> member is set to COLOR_OPTIMIZATION, color watermarks are printed in black and white when they are printed on black-and-white documents. To ensure that color watermarks print correctly with color and black-and-white documents, disable color optimization. Color optimization also can be controlled by the Unidrv *<b>ChangeColorModeOnDoc?</b> color attribute (see <a href="https://msdn.microsoft.com/c8de0186-9cf5-43e5-81e7-33351a34c13c">Color Attributes</a>), and by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549468">GdiEndPageEMF</a> function. 
+If you are creating a Unidrv rendering plug-in to generate color watermarks, note that when the <b>dwColorOptimization</b> member is set to COLOR_OPTIMIZATION, color watermarks are printed in black and white when they are printed on black-and-white documents. To ensure that color watermarks print correctly with color and black-and-white documents, disable color optimization. Color optimization also can be controlled by the Unidrv *<b>ChangeColorModeOnDoc?</b> color attribute (see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/color-attributes">Color Attributes</a>), and by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winppi/nf-winppi-gdiendpageemf">GdiEndPageEMF</a> function. 
 
-For more information about other structure members, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff545090">ATTRIBUTE_INFO_1</a>.
+For more information about other structure members, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winddiui/ns-winddiui-_attribute_info_1">ATTRIBUTE_INFO_1</a>.
 
 
 
@@ -206,15 +206,15 @@ For more information about other structure members, see <a href="https://msdn.mi
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545090">ATTRIBUTE_INFO_1</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winddiui/ns-winddiui-_attribute_info_1">ATTRIBUTE_INFO_1</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548581">DrvQueryJobAttributes</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winddiui/nf-winddiui-drvqueryjobattributes">DrvQueryJobAttributes</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549468">GdiEndPageEMF</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winppi/nf-winppi-gdiendpageemf">GdiEndPageEMF</a>
  
 
  

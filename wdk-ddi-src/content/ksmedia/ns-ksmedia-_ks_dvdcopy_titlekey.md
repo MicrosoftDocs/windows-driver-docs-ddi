@@ -196,9 +196,9 @@ Reserved. Do not use.
 
 
 
-The KS_DVDCOPY_TITLEKEY structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565148">KSPROPERTY_DVDCOPY_TITLE_KEY</a> property.
+The KS_DVDCOPY_TITLEKEY structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-dvdcopy-title-key">KSPROPERTY_DVDCOPY_TITLE_KEY</a> property.
 
-For more information, see <a href="https://msdn.microsoft.com/ff9cf8c8-7c8f-485c-b2ab-7567a5eeb87b">DVD Copyright Protection</a>.
+For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/dvd-copyright-protection">DVD Copyright Protection</a>.
 
 
 
@@ -208,7 +208,7 @@ For more information, see <a href="https://msdn.microsoft.com/ff9cf8c8-7c8f-485c
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565148">KSPROPERTY_DVDCOPY_TITLE_KEY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-dvdcopy-title-key">KSPROPERTY_DVDCOPY_TITLE_KEY</a>
  
 
  

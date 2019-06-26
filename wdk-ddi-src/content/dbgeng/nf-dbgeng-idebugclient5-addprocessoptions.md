@@ -50,7 +50,7 @@ req.typenames:
 ## -description
 
 
-The <b>AddProcessOptions</b> method adds the process options to those options that affect the <a href="https://msdn.microsoft.com/295b05a3-e27f-4761-a562-7e87e25bfd3b">current process</a>.
+The <b>AddProcessOptions</b> method adds the process options to those options that affect the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/c">current process</a>.
 
 
 ## -parameters
@@ -60,14 +60,14 @@ The <b>AddProcessOptions</b> method adds the process options to those options th
 
 ### -param Options [in]
 
-Specifies the process options to add to those affecting the current process.  For details on these process options, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff541534">DEBUG_PROCESS_XXX</a>.
+Specifies the process options to add to those affecting the current process.  For details on these process options, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-process-xxx">DEBUG_PROCESS_XXX</a>.
 
 
 ## -returns
 
 
 
-This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 <table>
 <tr>
@@ -95,13 +95,13 @@ The method was successful.
 
 
 
-This method is available only in <a href="https://msdn.microsoft.com/d290c203-4cb3-423c-a41f-baabb3c9a3c1">live user-mode debugging</a>.
+This method is available only in <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/l">live user-mode debugging</a>.
 
 Some of the process options are global options, others are specific to the current process.
 
-If any process options are modified, the engine will notify the <a href="https://msdn.microsoft.com/1e32bd40-8c77-4c6b-913c-6ec26707ed36">event callbacks</a> by calling their <a href="https://msdn.microsoft.com/library/windows/hardware/ff550683">IDebugEventCallbacks::ChangeEngineState</a> method with the DEBUG_CES_PROCESS_OPTIONS flag set.
+If any process options are modified, the engine will notify the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/e">event callbacks</a> by calling their <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugeventcallbacks-changeenginestate">IDebugEventCallbacks::ChangeEngineState</a> method with the DEBUG_CES_PROCESS_OPTIONS flag set.
 
-For more information about creating and attaching to live user-mode targets, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff552020">Live User-Mode Targets</a>.
+For more information about creating and attaching to live user-mode targets, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/live-user-mode-targets">Live User-Mode Targets</a>.
 
 
 
@@ -111,39 +111,39 @@ For more information about creating and attaching to live user-mode targets, see
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541534">DEBUG_PROCESS_XXX</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-process-xxx">DEBUG_PROCESS_XXX</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548163">GetProcessOptions</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient5-getprocessoptions">GetProcessOptions</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549827">IDebugClient</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugclient">IDebugClient</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550481">IDebugClient2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugclient2">IDebugClient2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550488">IDebugClient3</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugclient3">IDebugClient3</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550494">IDebugClient4</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugclient4">IDebugClient4</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550497">IDebugClient5</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugclient5">IDebugClient5</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554505">RemoveProcessOptions</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient5-removeprocessoptions">RemoveProcessOptions</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556765">SetProcessOptions</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient5-setprocessoptions">SetProcessOptions</a>
  
 
  

@@ -47,8 +47,8 @@ req.typenames: NDIS_NET_BUFFER_LIST_INFO, *PNDIS_NET_BUFFER_LIST_INFO
 
 
 The <b>NDIS_NET_BUFFER_LIST_INFO</b> enumeration identifies information that is common to all 
-  <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structures in a 
-  <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure.
+  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures in a 
+  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
 
 
 ## -enum-fields
@@ -60,8 +60,8 @@ The <b>NDIS_NET_BUFFER_LIST_INFO</b> enumeration identifies information that is 
 
 Identifies checksum information that is used in offloading checksum tasks from the TCP/IP protocol
      to a miniport driver. When 
-     <b>TcpIpChecksumNetBufferListInfo</b> is specified, the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a> macro returns an 
-     <a href="https://msdn.microsoft.com/989ecf50-18c4-4977-b845-b3fea0cade47">
+     <b>TcpIpChecksumNetBufferListInfo</b> is specified, the <a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-list-info">NET_BUFFER_LIST_INFO</a> macro returns an 
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_tcp_ip_checksum_net_buffer_list_info">
      NDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO</a> structure. This structure contains a union that allows
      the checksum information to be accessed as a single <b>PVOID</b> value or as bit fields.
 
@@ -76,8 +76,8 @@ Identifies a <b>ULONG</b> value that is the number of data bytes that were trans
 
 Identifies Internet Protocol security (IPsec) information that is used in offloading IPsec tasks
      from the TCP/IP protocol to a miniport driver. When 
-     <b>IPsecOffloadV1NetBufferListInfo</b> is specified, <a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a> returns an 
-     <a href="https://msdn.microsoft.com/990b3df6-5ef7-4201-a09d-d94822d0a8bb">
+     <b>IPsecOffloadV1NetBufferListInfo</b> is specified, <a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-list-info">NET_BUFFER_LIST_INFO</a> returns an 
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_ipsec_offload_v1_net_buffer_list_info">
      NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO</a> structure.
 
 
@@ -85,8 +85,8 @@ Identifies Internet Protocol security (IPsec) information that is used in offloa
 
 Specifies Internet protocol security offload version 2 (IPsecV2) information that is used in
       offloading IPsec tasks from the TCP/IP protocol to a miniport driver. When you specify 
-      <b>IPsecOffloadV2NetBufferListInfo</b>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a> returns an 
-      <a href="https://msdn.microsoft.com/f528ae2f-54fc-4edc-99bf-b1958837584b">
+      <b>IPsecOffloadV2NetBufferListInfo</b>, <a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-list-info">NET_BUFFER_LIST_INFO</a> returns an 
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_ipsec_offload_v2_net_buffer_list_info">
       NDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO</a> structure.
 
 
@@ -95,15 +95,15 @@ Specifies Internet protocol security offload version 2 (IPsecV2) information tha
 Identifies information that is used in offloading the segmentation of a large TCP packet from the
      TCP/IP protocol to a miniport adapter for large send offload version 1 (LSOV1) and large send offload
      version 2 (LSOV2). When 
-     <b>TcpLargeSendNetBufferListInfo</b> is specified, <a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a> returns an 
-     <a href="https://msdn.microsoft.com/48827a51-d364-43f6-864b-b63395168429">
+     <b>TcpLargeSendNetBufferListInfo</b> is specified, <a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-list-info">NET_BUFFER_LIST_INFO</a> returns an 
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_tcp_large_send_offload_net_buffer_list_info">
      NDIS_TCP_LARGE_SEND_OFFLOAD_NET_BUFFER_LIST_INFO</a> structure. This structure contains a union that
      enables the information to be accessed as a single PVOID value or as bit fields.
      
 
 Before passing a large TCP packet to a miniport driver for segmentation, the TCP/IP protocol writes
      the values in the 
-     <b>LsoV1Transmit</b> member of the <a href="https://msdn.microsoft.com/48827a51-d364-43f6-864b-b63395168429">
+     <b>LsoV1Transmit</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_tcp_large_send_offload_net_buffer_list_info">
      NDIS_TCP_LARGE_SEND_OFFLOAD_NET_BUFFER_LIST_INFO</a> structure for LSOV1
      or the 
      <b>LsoV2Transmit</b> member for LSOV2. Before completing the send of a large TCP packet that it has
@@ -131,9 +131,9 @@ Reserved.
 
 Identifies 802.1Q information about a packet. When 
      <b>Ieee8021QNetBufferListInfo</b> is specified, 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a> returns the 
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-list-info">NET_BUFFER_LIST_INFO</a> returns the 
      <b>Value</b> member of an 
-     <a href="https://msdn.microsoft.com/4314d3f9-2457-41f6-844c-197e5d05b0fe">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_net_buffer_list_8021q_info">
      NDIS_NET_BUFFER_LIST_8021Q_INFO</a> structure. This structure can specify 802.1p priority and VLAN
      identifier information. 802.1p priority information is used to establish packet priority in shared-media
      802 networks. Miniport drivers that support the 802.1Q tag in hardware must use the
@@ -144,12 +144,12 @@ Identifies 802.1Q information about a packet. When
 ### -field NetBufferListCancelId
 
 Identifies a <b>ULONG_PTR</b> value that is a cancellation identifier for the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure. To cancel the
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure. To cancel the
      pending transmission of a marked <b>NET_BUFFER_LIST</b> structure, a protocol driver passes the packet's
      cancellation identifier to 
-     <a href="https://msdn.microsoft.com/7b61db73-ddd4-4d46-b378-9a82fdf041ea">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndiscancelsendnetbufferlists">
      NdisCancelSendNetBufferLists</a>. Drivers must call 
-     <a href="https://msdn.microsoft.com/a26e9602-058b-401b-85be-9d80e4ef213b">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisgeneratepartialcancelid">
      NdisGeneratePartialCancelId</a> to obtain a value that the driver must use as the high-order byte of a
      cancellation identifier.
 
@@ -158,8 +158,8 @@ Identifies a <b>ULONG_PTR</b> value that is a cancellation identifier for the
 
 Identifies a PVOID value that is the address of a driver-allocated buffer. This buffer contains
      any media-specific out-of-band data that accompanies the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structures that are associated with
-     the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure. If a protocol driver allocated the out-of-band data, it configured the
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures that are associated with
+     the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure. If a protocol driver allocated the out-of-band data, it configured the
      data for a send operation. If a miniport driver allocated the data, it configured the data for a receive
      indication.
 
@@ -190,7 +190,7 @@ On the receive path,
 
 On the transmit path, 
      <b>NetBufferListHashValue</b> identifies a <b>ULONG</b> value that is the RSS hash value that TCP/IP calculated,
-     if any. In this case, all <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structures in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure that TCP/IP submitted
+     if any. In this case, all <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure that TCP/IP submitted
      belong to the same UDP or TCP connection. Therefore, this hash value applies to all <b>NET_BUFFER</b>
      structures that are in the <b>NET_BUFFER_LIST</b> structure.
 
@@ -217,16 +217,16 @@ Reserved for use by the Windows Filtering Platform (WFP). No drivers, including 
 
 Specifies IPsecV2 tunnel information that is used in offloading IPsec tasks from the TCP/IP protocol
       to a miniport driver. When you specify 
-      <b>IPsecOffloadV2TunnelNetBufferListInfo</b>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a> returns an 
-      <a href="https://msdn.microsoft.com/3ca223a1-75d2-48b6-b4c2-f20e6fc57111">
+      <b>IPsecOffloadV2TunnelNetBufferListInfo</b>, <a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-list-info">NET_BUFFER_LIST_INFO</a> returns an 
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_ipsec_offload_v2_tunnel_net_buffer_list_info">
       NDIS_IPSEC_OFFLOAD_V2_TUNNEL_NET_BUFFER_LIST_INFO</a> structure.
 
 
 ### -field IPsecOffloadV2HeaderNetBufferListInfo
 
 Specifies IPsecV2 header information that is used in offloading IPsec tasks from the TCP/IP protocol
-      to a miniport driver. When you specify <b>IPsecOffloadV2HeaderNetBufferListInfo</b>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a> returns an 
-      <a href="https://msdn.microsoft.com/657c7941-5475-4351-a429-94003a5c21d9">
+      to a miniport driver. When you specify <b>IPsecOffloadV2HeaderNetBufferListInfo</b>, <a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-list-info">NET_BUFFER_LIST_INFO</a> returns an 
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_ipsec_offload_v2_header_net_buffer_list_info">
       NDIS_IPSEC_OFFLOAD_V2_HEADER_NET_BUFFER_LIST_INFO</a> structure.
 
 
@@ -238,11 +238,11 @@ Reserved.
 ### -field NetBufferListFilteringInfo
 
 Specifies filtering information that is used in the virtual machine queue (VMQ) interface, the single root I/O virtualization (SR-IOV) interface, and NDIS packet coalescing. When you specify 
-     <b>NetBufferListFilteringInfo</b>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a> returns an 
-     <a href="https://msdn.microsoft.com/992a4c77-e22f-4123-81e8-86c8030accfa">
+     <b>NetBufferListFilteringInfo</b>, <a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-list-info">NET_BUFFER_LIST_INFO</a> returns an 
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_net_buffer_list_filtering_info">
      NDIS_NET_BUFFER_LIST_FILTERING_INFO</a> structure.
 
-Starting with NDIS 6.20, receive indications made by miniport drivers that support VMQ, SR-IOV, or packet coalesing must include an <a href="https://msdn.microsoft.com/library/windows/hardware/ff566567">NDIS_NET_BUFFER_LIST_FILTERING_INFO</a> structure. The miniport drivers must set the VMQ queue identifier in the 
+Starting with NDIS 6.20, receive indications made by miniport drivers that support VMQ, SR-IOV, or packet coalesing must include an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_net_buffer_list_filtering_info">NDIS_NET_BUFFER_LIST_FILTERING_INFO</a> structure. The miniport drivers must set the VMQ queue identifier in the 
      <b>QueueId</b> member of the <b>
      NDIS_NET_BUFFER_LIST_FILTERING_INFO</b> structure.  The driver also sets the <b>FilterId</b> member of the <b>NDIS_NET_BUFFER_LIST_FILTERING_INFO</b> structure to zero. 
 
@@ -252,9 +252,9 @@ Starting with NDIS 6.20, receive indications made by miniport drivers that suppo
 ### -field MediaSpecificInformationEx
 
 Identifies a pointer to a driver-allocated 
-     <a href="https://msdn.microsoft.com/f2c74fc3-45e2-4541-81a1-eb022e24cede">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_nbl_media_specific_information_ex">
      NDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX</a> structure. This structure identifies any media-specific
-     out-of-band data that accompanies the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structures that are associated with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
+     out-of-band data that accompanies the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures that are associated with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
      structure. NDIS 6.20 and later drivers should use the <b>
      NDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX</b> structure
      to specify media specific information. Any driver in an NDIS driver stack can allocate and manage
@@ -288,12 +288,12 @@ Reserved for NDIS.
 
 ### -field SwitchForwardingDetail
 
-Identifies a pointer to a driver-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/hh598211">NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO</a> structure. This structure specifies the information for forwarding a packet to one or more  ports of a Hyper-V extensible switch. The driver allocates this structure by calling <a href="https://msdn.microsoft.com/C8A80DB2-4273-4FBA-82D4-4E8146812B16">AllocateNetBufferListForwardingContext</a> and frees the structure by calling <a href="https://msdn.microsoft.com/08AE3160-276F-4D1F-9D02-AD5AF38CDED2">FreeNetBufferListForwardingContext</a>.
+Identifies a pointer to a driver-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_switch_forwarding_detail_net_buffer_list_info">NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO</a> structure. This structure specifies the information for forwarding a packet to one or more  ports of a Hyper-V extensible switch. The driver allocates this structure by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-ndis_switch_allocate_net_buffer_list_forwarding_context">AllocateNetBufferListForwardingContext</a> and frees the structure by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-ndis_switch_free_net_buffer_list_forwarding_context">FreeNetBufferListForwardingContext</a>.
 
 
 ### -field VirtualSubnetInfo
 
-Identifies a pointer to a driver-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/jj614359">NDIS_NET_BUFFER_LIST_VIRTUAL_SUBNET_INFO</a> structure. 
+Identifies a pointer to a driver-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_net_buffer_list_virtual_subnet_info">NDIS_NET_BUFFER_LIST_VIRTUAL_SUBNET_INFO</a> structure. 
 
 
 ### -field IMReserved
@@ -303,17 +303,17 @@ Reserved for NDIS.
 
 ### -field TcpRecvSegCoalesceInfo
 
-Identifies a pointer to a driver-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/hh451655">NDIS_RSC_NBL_INFO</a> union containing receive segment coalescing (RSC) counter information. For more information, see the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451655">NDIS_RSC_NBL_INFO</a> documentation.
+Identifies a pointer to a driver-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_rsc_nbl_info">NDIS_RSC_NBL_INFO</a> union containing receive segment coalescing (RSC) counter information. For more information, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_rsc_nbl_info">NDIS_RSC_NBL_INFO</a> documentation.
 
 
 ### -field RscTcpTimestampDelta
 
-Identifies a **ULONG** value containing RSC timestamp information. For more information, see the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451655">NDIS_RSC_NBL_INFO</a> documentation.
+Identifies a **ULONG** value containing RSC timestamp information. For more information, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_rsc_nbl_info">NDIS_RSC_NBL_INFO</a> documentation.
 
 
 ### -field TcpSendOffloadsSupplementalNetBufferListInfo
 
-Identifies a pointer to a driver-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/jj991957">NDIS_TCP_SEND_OFFLOADS_SUPPLEMENTAL_NET_BUFFER_LIST_INFO</a> structure containing additional out-of-band information for encapsulated packets.
+Identifies a pointer to a driver-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_tcp_send_offloads_supplemental_net_buffer_list_info">NDIS_TCP_SEND_OFFLOADS_SUPPLEMENTAL_NET_BUFFER_LIST_INFO</a> structure containing additional out-of-band information for encapsulated packets.
 
 
 ### -field GftOffloadInformation
@@ -354,12 +354,12 @@ The maximum value for this enumeration. This value might change in future versio
 
 
 The <b>NDIS_NET_BUFFER_LIST_INFO</b> enumeration is used in the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
 
 Use these enumeration values with the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a> macro to set and
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-list-info">NET_BUFFER_LIST_INFO</a> macro to set and
     get values in the 
-    <b>NetBufferListInfo</b> array in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>.
+    <b>NetBufferListInfo</b> array in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>.
 
 
 
@@ -369,76 +369,76 @@ Use these enumeration values with the
 
 
 
-<a href="https://msdn.microsoft.com/990b3df6-5ef7-4201-a09d-d94822d0a8bb">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_ipsec_offload_v1_net_buffer_list_info">
    NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/657c7941-5475-4351-a429-94003a5c21d9">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_ipsec_offload_v2_header_net_buffer_list_info">
    NDIS_IPSEC_OFFLOAD_V2_HEADER_NET_BUFFER_LIST_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/f528ae2f-54fc-4edc-99bf-b1958837584b">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_ipsec_offload_v2_net_buffer_list_info">
    NDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/3ca223a1-75d2-48b6-b4c2-f20e6fc57111">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_ipsec_offload_v2_tunnel_net_buffer_list_info">
    NDIS_IPSEC_OFFLOAD_V2_TUNNEL_NET_BUFFER_LIST_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/f2c74fc3-45e2-4541-81a1-eb022e24cede">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_nbl_media_specific_information_ex">
    NDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX</a>
 
 
 
-<a href="https://msdn.microsoft.com/4314d3f9-2457-41f6-844c-197e5d05b0fe">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_net_buffer_list_8021q_info">
    NDIS_NET_BUFFER_LIST_8021Q_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/992a4c77-e22f-4123-81e8-86c8030accfa">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_net_buffer_list_filtering_info">
    NDIS_NET_BUFFER_LIST_FILTERING_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj614359">NDIS_NET_BUFFER_LIST_VIRTUAL_SUBNET_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_net_buffer_list_virtual_subnet_info">NDIS_NET_BUFFER_LIST_VIRTUAL_SUBNET_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598211">NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_switch_forwarding_detail_net_buffer_list_info">NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/989ecf50-18c4-4977-b845-b3fea0cade47">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_tcp_ip_checksum_net_buffer_list_info">
    NDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/48827a51-d364-43f6-864b-b63395168429">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_tcp_large_send_offload_net_buffer_list_info">
    NDIS_TCP_LARGE_SEND_OFFLOAD_NET_BUFFER_LIST_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-list-info">NET_BUFFER_LIST_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561623">NdisCancelSendNetBufferLists</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndiscancelsendnetbufferlists">NdisCancelSendNetBufferLists</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562623">NdisGeneratePartialCancelId</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisgeneratepartialcancelid">NdisGeneratePartialCancelId</a>
  
 
  

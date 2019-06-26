@@ -56,7 +56,7 @@ The KSPROPERTY_DROPPEDFRAMES_CURRENT_S structure describes the dropped frame inf
 
 ### -field Property
 
-Specifies an initialized <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
+Specifies an initialized <a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
 
 
 ### -field PictureNumber
@@ -78,7 +78,7 @@ Specifies the average size of frames captured. This value is provided by the min
 
 
 
-For more information about updating <b>PictureNumber</b> and <b>DropCount</b> see <a href="https://msdn.microsoft.com/0adea8fe-1669-4daf-a858-05e014f00a72">Capturing Video</a>.
+For more information about updating <b>PictureNumber</b> and <b>DropCount</b> see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/capturing-video">Capturing Video</a>.
 
 
 
@@ -88,15 +88,15 @@ For more information about updating <b>PictureNumber</b> and <b>DropCount</b> se
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
+<a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565135">KSPROPERTY_DROPPEDFRAMES_CURRENT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-droppedframes-current">KSPROPERTY_DROPPEDFRAMES_CURRENT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567806">PROPSETID_VIDCAP_DROPPEDFRAMES</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/propsetid-vidcap-droppedframes">PROPSETID_VIDCAP_DROPPEDFRAMES</a>
  
 
  

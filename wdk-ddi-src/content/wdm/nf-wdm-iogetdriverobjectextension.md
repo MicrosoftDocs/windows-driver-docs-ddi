@@ -87,7 +87,7 @@ Drivers call <b>IoGetDriverObjectExtension</b> to retrieve a pointer to a previo
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548233">IoAllocateDriverObjectExtension</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ioallocatedriverobjectextension">IoAllocateDriverObjectExtension</a>
  
 
  

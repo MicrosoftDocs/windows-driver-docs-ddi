@@ -46,7 +46,7 @@ req.typenames: NFC_CX_HARDWARE_EVENT, *PNFC_CX_HARDWARE_EVENT
 ## -description
 
 
-The NFC_CX_HARDWARE_EVENT structure is an input parameter to <a href="https://msdn.microsoft.com/5D108897-93D9-4C67-9138-86C608AD8C4C">NfcCxHardwareEvent.</a>
+The NFC_CX_HARDWARE_EVENT structure is an input parameter to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/nfccx/nf-nfccx-nfccxhardwareevent">NfcCxHardwareEvent.</a>
 
 
 
@@ -57,12 +57,12 @@ The NFC_CX_HARDWARE_EVENT structure is an input parameter to <a href="https://ms
 
 ### -field HardwareStatus
 
-An <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS </a> value.
+An <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS </a> value.
 
 
 ### -field HostAction
 
-An <a href="https://msdn.microsoft.com/library/windows/hardware/dn905544">NFC_CX_HOST_ACTION</a>-typed enumerator.
+An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/nfccx/ne-nfccx-_nfc_cx_host_action">NFC_CX_HOST_ACTION</a>-typed enumerator.
 
 
 ## -see-also
@@ -70,7 +70,7 @@ An <a href="https://msdn.microsoft.com/library/windows/hardware/dn905544">NFC_CX
 
 
 
-<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/nfc/nfc-class-extension-">NFC class extension design guide</a>
 
 
 

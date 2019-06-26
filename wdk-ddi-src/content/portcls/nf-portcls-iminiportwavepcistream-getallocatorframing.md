@@ -56,7 +56,7 @@ The <code>GetAllocatorFraming</code> method gets the preferred allocator-framing
 
 ### -param AllocatorFraming [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff560979">KSALLOCATOR_FRAMING</a> structure into which the method writes the miniport driver's allocator-framing preferences for this stream.
+Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksallocator_framing">KSALLOCATOR_FRAMING</a> structure into which the method writes the miniport driver's allocator-framing preferences for this stream.
 
 
 ## -returns
@@ -72,9 +72,9 @@ Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff5609
 
 
 
-The miniport driver should not assume that the actual allocator-framing parameters for the stream match those specified in the <code>GetAllocatorFraming</code> call. The port driver interprets the allocation-framing parameters from the <code>GetAllocatorFraming</code> as the miniport driver's preferences. Other factors might outweigh these preferences, however, when the <a href="https://msdn.microsoft.com/827997e2-6f07-4635-ac35-4ad026b82eae">SysAudio system driver</a> builds the audio filter graph.
+The miniport driver should not assume that the actual allocator-framing parameters for the stream match those specified in the <code>GetAllocatorFraming</code> call. The port driver interprets the allocation-framing parameters from the <code>GetAllocatorFraming</code> as the miniport driver's preferences. Other factors might outweigh these preferences, however, when the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/kernel-mode-wdm-audio-components">SysAudio system driver</a> builds the audio filter graph.
 
-See the discussion of allocator framing in <a href="https://msdn.microsoft.com/6d83c015-cf8f-40b4-bf28-de865a5bfe2d">WavePci Latency</a>.
+See the discussion of allocator framing in <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/wavepci-latency">WavePci Latency</a>.
 
 
 
@@ -84,11 +84,11 @@ See the discussion of allocator framing in <a href="https://msdn.microsoft.com/6
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536725">IMiniportWavePciStream</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iminiportwavepcistream">IMiniportWavePciStream</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560979">KSALLOCATOR_FRAMING</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksallocator_framing">KSALLOCATOR_FRAMING</a>
  
 
  

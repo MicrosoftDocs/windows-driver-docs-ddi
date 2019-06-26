@@ -66,12 +66,12 @@ Specifies the end time of the sample.
 
 ### -field SampleFormat
 
-Specifies the format of the sample as defined by a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564045">DXVA_SampleFormat</a> structure.
+Specifies the format of the sample as defined by a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ne-dxva-_dxva_sampleformat">DXVA_SampleFormat</a> structure.
 
 
 ### -field lpDDSSrcSurface
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551733">DD_SURFACE_LOCAL</a> structure.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_surface_local">DD_SURFACE_LOCAL</a> structure.
 
 
 ## -see-also
@@ -79,15 +79,15 @@ Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff5517
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551733">DD_SURFACE_LOCAL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ddrawint/ns-ddrawint-_dd_surface_local">DD_SURFACE_LOCAL</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563912">DXVA_DeinterlaceBlt</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ns-dxva-_dxva_deinterlaceblt">DXVA_DeinterlaceBlt</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564045">DXVA_SampleFormat</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ne-dxva-_dxva_sampleformat">DXVA_SampleFormat</a>
  
 
  

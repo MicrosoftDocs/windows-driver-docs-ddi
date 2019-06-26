@@ -60,11 +60,11 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406391">IWDTFDeviceDepot2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nn-wdtf-iwdtfdevicedepot2">IWDTFDeviceDepot2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439367">IWDTFTarget2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nn-wdtf-iwdtftarget2">IWDTFTarget2</a>
  
 
  

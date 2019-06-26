@@ -46,7 +46,7 @@ req.typenames: DXGK_EVENT_TYPE, *PDXGK_EVENT_TYPE
 ## -description
 
 
-The DXGK_EVENT_TYPE enumeration indicates the event type in a call to the display miniport driver's <a href="https://msdn.microsoft.com/fdefde51-0e90-4324-9c14-e8259fc872b3">DxgkDdiNotifyAcpiEvent</a> function.
+The DXGK_EVENT_TYPE enumeration indicates the event type in a call to the display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_notify_acpi_event">DxgkDdiNotifyAcpiEvent</a> function.
 
 
 ## -enum-fields
@@ -85,7 +85,7 @@ Supported by WDDM 2.1 and later drivers.
 
 
 
-<a href="https://msdn.microsoft.com/fdefde51-0e90-4324-9c14-e8259fc872b3">DxgkDdiNotifyAcpiEvent</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_notify_acpi_event">DxgkDdiNotifyAcpiEvent</a>
  
 
  

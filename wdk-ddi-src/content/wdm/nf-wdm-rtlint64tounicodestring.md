@@ -172,11 +172,11 @@ The specified code base is not valid. The only valid values are 0, 2, 8, 10, and
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561736">RtlAppendUnicodeStringToString</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlappendunicodestringtostring">RtlAppendUnicodeStringToString</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562973">RtlUnicodeStringToInteger</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlunicodestringtointeger">RtlUnicodeStringToInteger</a>
 
 
 

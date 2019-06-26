@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <code>AddContentHandlers</code> method provides the system with a list of functions that handle protected content. Note that this method is identical in operation to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536347">DrmAddContentHandlers</a> function, and its parameter definitions and return value are also identical.
+The <code>AddContentHandlers</code> method provides the system with a list of functions that handle protected content. Note that this method is identical in operation to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/drmk/nf-drmk-drmaddcontenthandlers">DrmAddContentHandlers</a> function, and its parameter definitions and return value are also identical.
 
 
 ## -parameters
@@ -75,7 +75,7 @@ The <code>AddContentHandlers</code> method provides the system with a list of fu
 
 
 
-See return value definition in <a href="https://msdn.microsoft.com/library/windows/hardware/ff536347">DrmAddContentHandlers</a>.
+See return value definition in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/drmk/nf-drmk-drmaddcontenthandlers">DrmAddContentHandlers</a>.
 
 
 
@@ -84,7 +84,7 @@ See return value definition in <a href="https://msdn.microsoft.com/library/windo
 
 
 
-See comments in <a href="https://msdn.microsoft.com/library/windows/hardware/ff536347">DrmAddContentHandlers</a>.
+See comments in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/drmk/nf-drmk-drmaddcontenthandlers">DrmAddContentHandlers</a>.
 
 
 
@@ -94,11 +94,11 @@ See comments in <a href="https://msdn.microsoft.com/library/windows/hardware/ff5
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536347">DrmAddContentHandlers</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/drmk/nf-drmk-drmaddcontenthandlers">DrmAddContentHandlers</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536573">IDrmPort2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-idrmport2">IDrmPort2</a>
  
 
  

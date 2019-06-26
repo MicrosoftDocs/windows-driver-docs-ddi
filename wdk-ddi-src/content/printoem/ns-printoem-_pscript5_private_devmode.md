@@ -61,14 +61,14 @@ Reserved for system use.
 
 ### -field wSize
 
-The size, in bytes, of the private portion of Pscript5's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a> structure.
+The size, in bytes, of the private portion of Pscript5's <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodew">DEVMODEW</a> structure.
 
 
 ## -remarks
 
 
 
-This structure and associated macro are available in Windows 2000 and later. For information about the public and private sections of the DEVMODEW structure, see <a href="https://msdn.microsoft.com/26212e3b-a591-4ed6-b441-b130d8d4d948">The DEVMODEW Structure</a>. 
+This structure and associated macro are available in Windows 2000 and later. For information about the public and private sections of the DEVMODEW structure, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/the-devmodew-structure">The DEVMODEW Structure</a>. 
 
 Printoem.h defines a macro that you can use to determine the size of the private portion of Pscript5's DEVMODEW structure.
 
@@ -111,7 +111,7 @@ The preceding example starts with the address of the public DEVMODEW structure (
 
 </li>
 <li>
-Verify that the private portion of your plug-in's DEVMODEW structure begins with a valid <a href="https://msdn.microsoft.com/library/windows/hardware/ff559588">OEM_DMEXTRAHEADER</a> structure.
+Verify that the private portion of your plug-in's DEVMODEW structure begins with a valid <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/ns-printoem-_oem_dmextraheader">OEM_DMEXTRAHEADER</a> structure.
 
 </li>
 </ol>
@@ -123,7 +123,7 @@ Verify that the private portion of your plug-in's DEVMODEW structure begins with
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563565">UNIDRV_PRIVATE_DEVMODE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/ns-printoem-_unidrv_private_devmode">UNIDRV_PRIVATE_DEVMODE</a>
  
 
  

@@ -56,7 +56,7 @@ The UDE client driver's implementation to reset the emulated host controller or 
 
 ### -param UdecxWdfDevice [in]
 
-A handle to a framework device object that represents the controller. The client driver initialized this object in the previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/mt627990">UdecxWdfDeviceAddUsbDeviceEmulation</a>.
+A handle to a framework device object that represents the controller. The client driver initialized this object in the previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/udecxwdfdevice/nf-udecxwdfdevice-udecxwdfdeviceaddusbdeviceemulation">UdecxWdfDeviceAddUsbDeviceEmulation</a>.
 
 
 ## -returns
@@ -73,8 +73,8 @@ This callback function does not return a value.
 
 
 The USB device emulation  class extension (UdeCx) invokes this callback function to notify the client driver that it must handle a reset request including resetting all downstream devices attached to the emulated host controller.
-This call is asynchronous. The client driver signals completion with status information by calling <a href="https://msdn.microsoft.com/library/windows/hardware/mt627991">UdecxWdfDeviceResetComplete</a>.
-If the client specified <b>UdeWdfDeviceResetActionResetEachUsbDevice</b> in <a href="https://msdn.microsoft.com/library/windows/hardware/mt628008">UDECX_WDF_DEVICE_CONFIG</a> (during the <a href="https://msdn.microsoft.com/library/windows/hardware/mt627990">UdecxWdfDeviceAddUsbDeviceEmulation</a> call), this callback is never used. Instead, each connected attached device receives an <i>EVT_UDECX_WDF_DEVICE_RESET</i> callback.
+This call is asynchronous. The client driver signals completion with status information by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/udecxwdfdevice/nf-udecxwdfdevice-udecxwdfdeviceresetcomplete">UdecxWdfDeviceResetComplete</a>.
+If the client specified <b>UdeWdfDeviceResetActionResetEachUsbDevice</b> in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/udecxwdfdevice/ns-udecxwdfdevice-_udecx_wdf_device_config">UDECX_WDF_DEVICE_CONFIG</a> (during the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/udecxwdfdevice/nf-udecxwdfdevice-udecxwdfdeviceaddusbdeviceemulation">UdecxWdfDeviceAddUsbDeviceEmulation</a> call), this callback is never used. Instead, each connected attached device receives an <i>EVT_UDECX_WDF_DEVICE_RESET</i> callback.
 
 
 
@@ -85,11 +85,11 @@ If the client specified <b>UdeWdfDeviceResetActionResetEachUsbDevice</b> in <a h
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/usbcon/">Architecture: USB Device Emulation (UDE)</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/usbcon/">Write a UDE client driver</a>
  
 
  

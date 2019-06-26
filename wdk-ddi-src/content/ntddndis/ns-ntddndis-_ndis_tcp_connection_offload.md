@@ -58,7 +58,7 @@ The NDIS_TCP_CONNECTION_OFFLOAD structure provides connection offload informatio
 ### -field Header
 
 The 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
      NDIS_TCP_CONNECTION_OFFLOAD structure. Set the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to 
@@ -137,15 +137,15 @@ The NDIS_TCP_CONNECTION_OFFLOAD structure specifies the current or supported ser
     adapter provides for TCP chimney offload.
 
 The NDIS_TCP_CONNECTION_OFFLOAD structure is used in the 
-    <a href="https://msdn.microsoft.com/9ce875fc-ed3f-43e9-bfbc-081f02cb1999">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_miniport_adapter_offload_attributes">
     NDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES</a> structure, 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff564832">NDIS_BIND_PARAMETERS</a> structure, 
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_bind_parameters">NDIS_BIND_PARAMETERS</a> structure, 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-connection-offload-current-config">
     OID_TCP_CONNECTION_OFFLOAD_CURRENT_CONFIG</a> OID, 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-connection-offload-hardware-capabilities">
     OID_TCP_CONNECTION_OFFLOAD_HARDWARE_CAPABILITIES</a> OID, NDIS_STATUS_OFFLOAD_RESUME status indication,
     and 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff567828">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-tcp-connection-offload-hardware-capabilities">
     NDIS_STATUS_TCP_CONNECTION_OFFLOAD_HARDWARE_CAPABILITIES</a> status indication. (For information on
     NDIS_STATUS_OFFLOAD_RESUME, see 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/full-tcp-offload">NDIS 6.0 TCP chimney offload
@@ -206,10 +206,10 @@ An offload target must support either IPv4 or IPv6 (or both). Offload targets ca
 An offload target should not support any IPv4 options. The offload target must forward any received
        IP datagrams that contain IPv4 options to the TCP/IP driver stack. The offload target indicates such
        IP datagrams to the TCP/IP driver stack by calling 
-       <a href="https://msdn.microsoft.com/b87dba3e-c18f-4ea2-8bd5-ec3cdafc534b">
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismindicatereceivenetbufferlists">
        NdisMIndicateReceiveNetBufferLists</a>. The TCP/IP driver stack processes the IPv4 options and
        returns the datagrams to the offload target's 
-       <a href="https://msdn.microsoft.com/e5702476-60a3-4bfc-b959-198e98f0f9ba">
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/nc-ndischimney-w_tcp_offload_forward_handler">
        MiniportTcpOffloadForward</a> function. (For information on 
        <i>
        MiniportTcpOffloadForward</i>, see 
@@ -237,29 +237,29 @@ Note that an offload target cannot directly indicate new offload capabilities. I
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564832">NDIS_BIND_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_bind_parameters">NDIS_BIND_PARAMETERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/9ce875fc-ed3f-43e9-bfbc-081f02cb1999">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_miniport_adapter_offload_attributes">
    NDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566599">NDIS_OFFLOAD</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_offload">NDIS_OFFLOAD</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567828">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-tcp-connection-offload-hardware-capabilities">
    NDIS_STATUS_TCP_CONNECTION_OFFLOAD_HARDWARE_CAPABILITIES</a>
 
 
 
-<a href="https://msdn.microsoft.com/b87dba3e-c18f-4ea2-8bd5-ec3cdafc534b">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismindicatereceivenetbufferlists">
    NdisMIndicateReceiveNetBufferLists</a>
 
 

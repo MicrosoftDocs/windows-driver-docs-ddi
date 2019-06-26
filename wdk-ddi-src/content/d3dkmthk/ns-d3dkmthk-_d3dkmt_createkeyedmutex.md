@@ -46,7 +46,7 @@ req.typenames: D3DKMT_CREATEKEYEDMUTEX
 ## -description
 
 
-The D3DKMT_CREATEKEYEDMUTEX structure describes a keyed mutex that the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546845">D3DKMTCreateKeyedMutex</a> function creates. 
+The D3DKMT_CREATEKEYEDMUTEX structure describes a keyed mutex that the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/nf-d3dkmthk-d3dkmtcreatekeyedmutex">D3DKMTCreateKeyedMutex</a> function creates. 
 
 
 ## -struct-fields
@@ -74,7 +74,7 @@ The D3DKMT_CREATEKEYEDMUTEX structure describes a keyed mutex that the <a href="
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546845">D3DKMTCreateKeyedMutex</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/nf-d3dkmthk-d3dkmtcreatekeyedmutex">D3DKMTCreateKeyedMutex</a>
  
 
  

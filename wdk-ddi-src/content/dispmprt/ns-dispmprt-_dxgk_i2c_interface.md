@@ -46,7 +46,7 @@ req.typenames: DXGK_I2C_INTERFACE, *PDXGK_I2C_INTERFACE
 ## -description
 
 
-The DXGK_I2C_INTERFACE structure contains pointers to functions in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567386">I2C interface</a>, which is implemented by the display miniport driver.
+The DXGK_I2C_INTERFACE structure contains pointers to functions in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">I2C interface</a>, which is implemented by the display miniport driver.
 
 
 ## -struct-fields
@@ -81,19 +81,19 @@ A pointer to an interface dereference function that is implemented by the displa
 
 ### -field DxgkDdiI2CTransmitDataToDisplay
 
-A pointer to the display miniport driver's <a href="https://msdn.microsoft.com/67a08982-5d2f-4cd8-be14-76977fde0aac">DxgkDdiI2CTransmitDataToDisplay</a> function.
+A pointer to the display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_i2c_transmit_data_to_display">DxgkDdiI2CTransmitDataToDisplay</a> function.
 
 
 ### -field DxgkDdiI2CReceiveDataFromDisplay
 
-A pointer to the display miniport driver's <a href="https://msdn.microsoft.com/7b412180-e453-4ae4-95a5-e5393e1d9197">DxgkDdiI2CReceiveDataFromDisplay</a> function.
+A pointer to the display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_i2c_receive_data_from_display">DxgkDdiI2CReceiveDataFromDisplay</a> function.
 
 
 ## -remarks
 
 
 
-A kernel-mode component that needs to use the I2C interface calls the display miniport driver's <a href="https://msdn.microsoft.com/d8255f36-be3a-4b19-ac8d-8748ac9b6a24">DxgkDdiQueryInterface</a> function.
+A kernel-mode component that needs to use the I2C interface calls the display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_query_interface">DxgkDdiQueryInterface</a> function.
 
 
 

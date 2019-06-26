@@ -48,7 +48,7 @@ product:
 ## -description
 
 
-<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_ROAMING_START_PARAMETERS structure specifies the reason why the Native 802.11 miniport
+<div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_ROAMING_START_PARAMETERS structure specifies the reason why the Native 802.11 miniport
   driver is performing a roaming operation. The driver includes a DOT11_ROAMING_START_PARAMETERS structure
   when the driver makes an
   <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-dot11-roaming-start">
@@ -116,7 +116,7 @@ If the IEEE 802.11
      <b>AdhocBSSID</b> member contains the basic service set (BSS) identifier (BSSID) of the independent BSS
      (IBSS) network that the 802.11 station is attempting to roam to.
 
-<div class="alert"><b>Note</b>  IBSS (Ad hoc) and SoftAP are deprecated. Starting with Windows 8.1 and Windows Server 2012 R2, use <a href="https://msdn.microsoft.com/library/windows/hardware/mt244265">Wi-Fi Direct</a>.</div>
+<div class="alert"><b>Note</b>  IBSS (Ad hoc) and SoftAP are deprecated. Starting with Windows 8.1 and Windows Server 2012 R2, use <a href="https://docs.microsoft.com/windows-hardware/drivers/partnerapps/wi-fi-direct">Wi-Fi Direct</a>.</div>
 <div> </div>
 If the
      <b>dot11DesiredBSSType</b> MIB object is set to
@@ -135,7 +135,7 @@ If the
      <b>AdhocSSID</b> member contains the service set identifier (SSID) of the IBSS network that the 802.11
      station is attempting to roam to.
 
-<div class="alert"><b>Note</b>  IBSS (Ad hoc) and SoftAP are deprecated. Starting with Windows 8.1 and Windows Server 2012 R2, use <a href="https://msdn.microsoft.com/library/windows/hardware/mt244265">Wi-Fi Direct</a>.</div>
+<div class="alert"><b>Note</b>  IBSS (Ad hoc) and SoftAP are deprecated. Starting with Windows 8.1 and Windows Server 2012 R2, use <a href="https://docs.microsoft.com/windows-hardware/drivers/partnerapps/wi-fi-direct">Wi-Fi Direct</a>.</div>
 <div> </div>
 If the
      <b>dot11DesiredBSSType</b> MIB object is set to
@@ -154,7 +154,7 @@ For more information about the IEEE 802.11
 ### -field uRoamingReason
 
 The reason that the 802.11 station is roaming, which is formatted as a
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff547652">DOT11_ASSOC_STATUS</a> value.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/dot11-assoc-status-status-codes">DOT11_ASSOC_STATUS</a> value.
 
 
 ## -remarks
@@ -162,14 +162,14 @@ The reason that the 802.11 station is roaming, which is formatted as a
 
 
 For more information about the roaming operation, see
-    <a href="https://msdn.microsoft.com/b52e134e-4f26-4797-af57-dd7da177c193">Roaming Operations</a>.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/roaming-operations">Roaming Operations</a>.
 
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547652">DOT11_ASSOC_STATUS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/dot11-assoc-status-status-codes">DOT11_ASSOC_STATUS</a>
 
 
 

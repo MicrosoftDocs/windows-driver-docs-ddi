@@ -56,17 +56,17 @@ The <b>KeInsertQueueDpc</b> routine queues a DPC for execution.
 
 ### -param Dpc [in, out]
 
-Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551882">KDPC</a> structure for the DPC object. This structure must have been initialized by either <a href="https://msdn.microsoft.com/library/windows/hardware/ff552130">KeInitializeDpc</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff552166">KeInitializeThreadedDpc</a>.
+Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">KDPC</a> structure for the DPC object. This structure must have been initialized by either <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-keinitializedpc">KeInitializeDpc</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-keinitializethreadeddpc">KeInitializeThreadedDpc</a>.
 
 
 ### -param SystemArgument1 [in, optional]
 
-Specifies driver-determined context data. This value is passed as the <i>SystemArgument1</i> parameter to the DPC object's <a href="https://msdn.microsoft.com/library/windows/hardware/ff542972">CustomDpc</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff542976">CustomThreadedDpc</a> routine. 
+Specifies driver-determined context data. This value is passed as the <i>SystemArgument1</i> parameter to the DPC object's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-kdeferred_routine">CustomDpc</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff542976">CustomThreadedDpc</a> routine. 
 
 
 ### -param SystemArgument2 [in, optional]
 
-Specifies driver-determined context data. This value is passed as the <i>SystemArgument2</i> parameter to the DPC object's <a href="https://msdn.microsoft.com/library/windows/hardware/ff542972">CustomDpc</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff542976">CustomThreadedDpc</a> routine. 
+Specifies driver-determined context data. This value is passed as the <i>SystemArgument2</i> parameter to the DPC object's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-kdeferred_routine">CustomDpc</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff542976">CustomThreadedDpc</a> routine. 
 
 
 ## -returns
@@ -82,7 +82,7 @@ If the specified DPC object is not currently in a DPC queue, <b>KeInsertQueueDpc
 
 
 
-If the specified DPC object has already been queued, no operation is performed except to return <b>FALSE</b>. Otherwise, the DPC object is inserted in a DPC queue. For more information about DPC queues, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558754">Organization of DPC Queues</a>.
+If the specified DPC object has already been queued, no operation is performed except to return <b>FALSE</b>. Otherwise, the DPC object is inserted in a DPC queue. For more information about DPC queues, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/organization-of-dpc-queues">Organization of DPC Queues</a>.
 
 Note that a particular DPC object and the function that it represents can each be queued for execution only once at any particular time. 
 
@@ -94,7 +94,7 @@ Note that a particular DPC object and the function that it represents can each b
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542972">CustomDpc</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-kdeferred_routine">CustomDpc</a>
 
 
 
@@ -102,11 +102,11 @@ Note that a particular DPC object and the function that it represents can each b
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552130">KeInitializeDpc</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-keinitializedpc">KeInitializeDpc</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553169">KeRemoveQueueDpc</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-keremovequeuedpc">KeRemoveQueueDpc</a>
  
 
  

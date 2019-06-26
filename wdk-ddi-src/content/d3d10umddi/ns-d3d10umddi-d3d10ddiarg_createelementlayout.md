@@ -56,7 +56,7 @@ The D3D10DDIARG_CREATEELEMENTLAYOUT structure describes the element layout to cr
 
 ### -field pVertexElements
 
-[in] An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff541717">D3D10DDIARG_INPUT_ELEMENT_DESC</a> structures that describes each element in the element layout. 
+[in] An array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ns-d3d10umddi-d3d10ddiarg_input_element_desc">D3D10DDIARG_INPUT_ELEMENT_DESC</a> structures that describes each element in the element layout. 
 
 
 ### -field NumElements
@@ -69,15 +69,15 @@ The D3D10DDIARG_CREATEELEMENTLAYOUT structure describes the element layout to cr
 
 
 
-<a href="https://msdn.microsoft.com/9fc80cea-8e4a-467a-b232-74333d2ceb5f">CalcPrivateElementLayoutSize</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_calcprivateelementlayoutsize">CalcPrivateElementLayoutSize</a>
 
 
 
-<a href="https://msdn.microsoft.com/5af2189a-a064-4c62-be09-733c1d632983">CreateElementLayout</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_createelementlayout">CreateElementLayout</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541717">D3D10DDIARG_INPUT_ELEMENT_DESC</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ns-d3d10umddi-d3d10ddiarg_input_element_desc">D3D10DDIARG_INPUT_ELEMENT_DESC</a>
  
 
  

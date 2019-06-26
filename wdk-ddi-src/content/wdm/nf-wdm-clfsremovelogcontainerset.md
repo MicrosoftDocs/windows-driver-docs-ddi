@@ -57,7 +57,7 @@ The <b>ClfsRemoveLogContainerSet</b> routine atomically removes a set of contain
 
 ### -param plfoLog [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff554316">LOG_FILE_OBJECT</a> structure that represents the CLFS log from which the containers will be removed. The caller previously obtained this pointer by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff540792">ClfsCreateLogFile</a>. 
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_file_object">LOG_FILE_OBJECT</a> structure that represents the CLFS log from which the containers will be removed. The caller previously obtained this pointer by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-clfscreatelogfile">ClfsCreateLogFile</a>. 
 
 
 ### -param cContainers [in]
@@ -90,7 +90,7 @@ A Boolean value that specifies whether the container removal is forced (<b>TRUE<
 
 Forced container removal (<i>fForce</i> = <b>TRUE</b>) succeeds only if the containers to be removed are not part of the active log.
 
-For an explanation of CLFS concepts and terminology, see <a href="https://msdn.microsoft.com/a9685648-b08c-48ca-b020-e683068f2ea2">Common Log File System</a>. 
+For an explanation of CLFS concepts and terminology, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-common-log-file-system">Common Log File System</a>. 
 
 
 
@@ -100,19 +100,19 @@ For an explanation of CLFS concepts and terminology, see <a href="https://msdn.m
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540770">ClfsAddLogContainerSet</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-clfsaddlogcontainerset">ClfsAddLogContainerSet</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540792">ClfsCreateLogFile</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-clfscreatelogfile">ClfsCreateLogFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/5c49bf4f-acc6-4c0f-bbc2-bafb68ea1a74">ClfsRemoveLogContainer </a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-clfsremovelogcontainer">ClfsRemoveLogContainer </a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554316">LOG_FILE_OBJECT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_file_object">LOG_FILE_OBJECT</a>
 
 
 

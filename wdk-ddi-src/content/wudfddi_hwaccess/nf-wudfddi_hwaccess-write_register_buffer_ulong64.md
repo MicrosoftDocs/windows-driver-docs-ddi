@@ -58,7 +58,7 @@ The <b>WRITE_REGISTER_BUFFER_ULONG64</b> function writes a number of ULONG64 val
 
 ### -param pDevice [in]
 
-Specifies a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451197">IWDFDevice3</a> interface for the device object of the device to access.
+Specifies a pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nn-wudfddi-iwdfdevice3">IWDFDevice3</a> interface for the device object of the device to access.
 
 
 ### -param Register [in]
@@ -91,7 +91,7 @@ This function does not return a value.
 
 The size of the buffer must be large enough to contain at least the specified number of bytes.
 
-For more information, see <a href="https://msdn.microsoft.com/A0640E60-B0DF-4CAD-B292-CC1875EF7F7D">Reading and Writing to Device Registers in UMDF 1.x Drivers</a>.
+For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/reading-and-writing-to-device-registers-in-umdf-1-x-drivers">Reading and Writing to Device Registers in UMDF 1.x Drivers</a>.
 
 
 

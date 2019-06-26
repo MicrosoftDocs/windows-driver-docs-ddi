@@ -47,7 +47,7 @@ req.typenames: IDE_DEVICE_PARAMETERS, *PIDE_DEVICE_PARAMETERS
 
 
 The IDE_DEVICE_PARAMETERS structure contains configuration information that the port driver provides to the miniport driver to configure a device.
-<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -struct-fields
 
@@ -149,7 +149,7 @@ Indicates that the device supports Media Status Notification.
 
 ### -field AddressTranslation
 
-Contains an enumeration value of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff550290">ATA_ADDRESS_TRANSLATION</a> that specifies the sort of address translation used during data transfers.
+Contains an enumeration value of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/ne-irb-ata_address_translation">ATA_ADDRESS_TRANSLATION</a> that specifies the sort of address translation used during data transfers.
 
 
 ### -field MaxLba
@@ -211,7 +211,7 @@ Indicates the selected transfer modes on the device. The miniport driver must se
 
 
 
-The port driver passes a IDE_DEVICE_PARAMETERS structure to the miniport driver when it calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff557467">IdeHwInitialize</a>.
+The port driver passes a IDE_DEVICE_PARAMETERS structure to the miniport driver when it calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/nc-irb-ide_hw_initialize">IdeHwInitialize</a>.
 
 
 
@@ -221,15 +221,15 @@ The port driver passes a IDE_DEVICE_PARAMETERS structure to the miniport driver 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550290">ATA_ADDRESS_TRANSLATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/ne-irb-ata_address_translation">ATA_ADDRESS_TRANSLATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559096">IDE_DEVICE_TYPE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/ne-irb-ide_device_type">IDE_DEVICE_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557467">IdeHwInitialize</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/nc-irb-ide_hw_initialize">IdeHwInitialize</a>
  
 
  

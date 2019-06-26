@@ -47,7 +47,7 @@ req.typenames:
 ## -description
 
 
-The <b>KsPinPropertyHandler</b> function performs standard handling of the static members of<b> the </b><a href="https://msdn.microsoft.com/library/windows/hardware/ff566584">KSPROPSETID_Pin</a> property set. This handling does not include <a href="https://msdn.microsoft.com/library/windows/hardware/ff565193">KSPROPERTY_PIN_CINSTANCES</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff565198">KSPROPERTY_PIN_DATAINTERSECTION</a>. 
+The <b>KsPinPropertyHandler</b> function performs standard handling of the static members of<b> the </b><a href="https://docs.microsoft.com/windows-hardware/drivers/stream/kspropsetid-pin">KSPROPSETID_Pin</a> property set. This handling does not include <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-pin-cinstances">KSPROPERTY_PIN_CINSTANCES</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-pin-dataintersection">KSPROPERTY_PIN_DATAINTERSECTION</a>. 
 
 
 ## -parameters
@@ -67,7 +67,7 @@ Specifies the specific property information.
 
 ### -param Data [in, out]
 
-Specifies the data parameter mapped to a system address. This is the same parameter passed to a property handler through a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564263">KsPropertyHandler</a> callback.
+Specifies the data parameter mapped to a system address. This is the same parameter passed to a property handler through a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-kspropertyhandler">KsPropertyHandler</a> callback.
 
 
 ### -param DescriptorsCount [in]

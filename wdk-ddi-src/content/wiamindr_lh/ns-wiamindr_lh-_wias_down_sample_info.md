@@ -46,7 +46,7 @@ req.typenames: WIAS_DOWN_SAMPLE_INFO, *PWIAS_DOWN_SAMPLE_INFO
 ## -description
 
 
-The WIAS_DOWN_SAMPLE_INFO structure stores information used by the downsampling helper function, <a href="https://msdn.microsoft.com/library/windows/hardware/ff549185">wiasDownSampleBuffer</a>.
+The WIAS_DOWN_SAMPLE_INFO structure stores information used by the downsampling helper function, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiasdownsamplebuffer">wiasDownSampleBuffer</a>.
 
 
 ## -struct-fields
@@ -119,7 +119,7 @@ Points to the destination buffer.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549185">wiasDownSampleBuffer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiasdownsamplebuffer">wiasDownSampleBuffer</a>
  
 
  

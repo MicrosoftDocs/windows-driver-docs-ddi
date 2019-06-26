@@ -46,7 +46,7 @@ req.typenames: D3DDDIARG_RESOLVESHAREDRESOURCE
 ## -description
 
 
-The D3DDDIARG_RESOLVESHAREDRESOURCE structure specifies the resource that the user-mode display driver's <a href="https://msdn.microsoft.com/8ad9130e-bade-4fd2-b345-b6361fd001ef">ResolveSharedResource</a> function uses as a synchronized shared surface or a GDI interoperable surface. 
+The D3DDDIARG_RESOLVESHAREDRESOURCE structure specifies the resource that the user-mode display driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_resolvesharedresource">ResolveSharedResource</a> function uses as a synchronized shared surface or a GDI interoperable surface. 
 
 
 ## -struct-fields
@@ -64,7 +64,7 @@ The D3DDDIARG_RESOLVESHAREDRESOURCE structure specifies the resource that the us
 
 
 
-<a href="https://msdn.microsoft.com/8ad9130e-bade-4fd2-b345-b6361fd001ef">ResolveSharedResource</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_resolvesharedresource">ResolveSharedResource</a>
  
 
  

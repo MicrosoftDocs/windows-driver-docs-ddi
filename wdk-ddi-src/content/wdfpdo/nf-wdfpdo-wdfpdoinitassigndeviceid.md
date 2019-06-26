@@ -49,7 +49,7 @@ req.typenames:
 
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
-The <b>WdfPdoInitAssignDeviceID</b> method updates the <a href="https://msdn.microsoft.com/a71b64bc-319e-4133-810b-7fd417cf0af8">device ID</a> for a child device.
+The <b>WdfPdoInitAssignDeviceID</b> method updates the <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-ids">device ID</a> for a child device.
 
 
 ## -parameters
@@ -59,7 +59,7 @@ The <b>WdfPdoInitAssignDeviceID</b> method updates the <a href="https://msdn.mic
 
 ### -param DeviceInit [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a> structure.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdfdevice_init">WDFDEVICE_INIT</a> structure.
 
 
 ### -param DeviceID [in]
@@ -103,7 +103,7 @@ The driver could not allocate space to store the device ID string.
 </table>
  
 
-The method might also return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
+The method might also return other <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS values</a>.
 
 
 
@@ -114,7 +114,7 @@ The method might also return other <a href="https://msdn.microsoft.com/library/w
 
 A device ID is typically the first item in the list of hardware IDs that a device reports. For more information about device IDs and hardware IDs, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-identification-strings">Device Identification Strings</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/install/how-setup-selects-drivers">How Setup Selects Drivers</a>.
 
-The driver must call <b>WdfPdoInitAssignDeviceID</b> before calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff545926">WdfDeviceCreate</a>. For more information about calling <b>WdfDeviceCreate</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/creating-a-framework-device-object">Creating a Framework Device Object</a>.
+The driver must call <b>WdfPdoInitAssignDeviceID</b> before calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nf-wdfdevice-wdfdevicecreate">WdfDeviceCreate</a>. For more information about calling <b>WdfDeviceCreate</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/creating-a-framework-device-object">Creating a Framework Device Object</a>.
 
 
 #### Examples
@@ -145,15 +145,15 @@ status = WdfPdoInitAssignDeviceID(
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548776">WdfPdoInitAddCompatibleID</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfpdo/nf-wdfpdo-wdfpdoinitaddcompatibleid">WdfPdoInitAddCompatibleID</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548784">WdfPdoInitAddHardwareID</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfpdo/nf-wdfpdo-wdfpdoinitaddhardwareid">WdfPdoInitAddHardwareID</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548799">WdfPdoInitAssignInstanceID</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfpdo/nf-wdfpdo-wdfpdoinitassigninstanceid">WdfPdoInitAssignInstanceID</a>
  
 
  

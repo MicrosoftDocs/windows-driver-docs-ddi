@@ -47,7 +47,7 @@ req.typenames: IDE_MINIPORT_RESOURCES, *PIDE_MINIPORT_RESOURCES
 
 
 The IDE_MINIPORT_RESOURCES structure is used by the port driver to provide the miniport driver with resources.
-<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -struct-fields
 
@@ -61,14 +61,14 @@ Contains the number of access ranges pointed to by <b>IdeAccessRange</b>. Each i
 
 ### -field IdeAccessRange
 
-Pointer to the first address range in a series of contiguous address ranges defined by a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff559019">IDE_ACCESS_RANGE</a>. The value in the <b>NumberOfAccessRanges</b> member indicates how many address ranges are provided. The port driver populates each <b>IDE_ACCESS_RANGE</b> structure with the address ranges allocated for the controller.
+Pointer to the first address range in a series of contiguous address ranges defined by a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/ns-irb-_ide_access_range">IDE_ACCESS_RANGE</a>. The value in the <b>NumberOfAccessRanges</b> member indicates how many address ranges are provided. The port driver populates each <b>IDE_ACCESS_RANGE</b> structure with the address ranges allocated for the controller.
 
 
 ## -remarks
 
 
 
-The port driver passes this structure to the miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff557465">IdeHwControl</a> routine.
+The port driver passes this structure to the miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/nc-irb-ide_hw_control">IdeHwControl</a> routine.
 
 
 
@@ -78,11 +78,11 @@ The port driver passes this structure to the miniport driver's <a href="https://
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559019">IDE_ACCESS_RANGE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/ns-irb-_ide_access_range">IDE_ACCESS_RANGE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557465">IdeHwControl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/nc-irb-ide_hw_control">IdeHwControl</a>
  
 
  

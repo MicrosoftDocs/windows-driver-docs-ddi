@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <b>pfnDestroyContextCb</b> function destroys the context that was created through a call to the <a href="https://msdn.microsoft.com/f3f5d6bc-3bc6-4214-830a-cffff01069cc">pfnCreateContextCb</a> function.
+The <b>pfnDestroyContextCb</b> function destroys the context that was created through a call to the <a href="https://docs.microsoft.com/previous-versions/ff568895(v=vs.85)">pfnCreateContextCb</a> function.
 
 
 ## -parameters
@@ -70,7 +70,7 @@ A handle to a display device (that is, the graphics context).
 
 *pData* [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff544169">D3DDDICB_DESTROYCONTEXT</a> structure that contains a handle to the context to destroy.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddicb_destroycontext">D3DDDICB_DESTROYCONTEXT</a> structure that contains a handle to the context to destroy.
 
 
 ## -returns
@@ -98,7 +98,7 @@ If the specified context has not finished the work that is currently queued to i
 
 <b>pfnDestroyContextCb</b> returns an error if the context to destroy currently owns a synchronization object.
 
-<b>Direct3D Version 11 Note:  </b>For more information about how the driver calls <b>pfnDestroyContextCb</b>, see <a href="https://msdn.microsoft.com/014a5e44-f8c4-45c0-96e8-d82f37b8b28d">Changes from Direct3D 10</a>.
+<b>Direct3D Version 11 Note:  </b>For more information about how the driver calls <b>pfnDestroyContextCb</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/changes-from-direct3d-10">Changes from Direct3D 10</a>.
 
 The following code example shows how to destroy the default context for a display device.
 
@@ -117,11 +117,11 @@ The following code example shows how to destroy the default context for a displa
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544169">D3DDDICB_DESTROYCONTEXT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddicb_destroycontext">D3DDDICB_DESTROYCONTEXT</a>
 
 
 
-<a href="https://msdn.microsoft.com/f3f5d6bc-3bc6-4214-830a-cffff01069cc">pfnCreateContextCb</a>
+<a href="https://docs.microsoft.com/previous-versions/ff568895(v=vs.85)">pfnCreateContextCb</a>
  
 
  

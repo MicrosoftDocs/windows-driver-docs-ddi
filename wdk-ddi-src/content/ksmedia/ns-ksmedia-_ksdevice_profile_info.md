@@ -42,83 +42,46 @@ req.typenames: KSDEVICE_PROFILE_INFO, *PKSDEVICE_PROFILE_INFO
 
 # _KSDEVICE_PROFILE_INFO structure
 
-
 ## -description
 
-
-The <b>KSDEVICE_PROFILE_INFO</b> is a generic structure designed to handle profile information for various device types.
-
+The **KSDEVICE_PROFILE_INFO** is a generic structure designed to handle profile information for various device types.
 
 ## -struct-fields
 
-
-
-
 ### -field Type
 
-Defines the type of profile. Currently, the only defined type is <b>KSDEVICE_PROFILE_TYPE_CAMERA</b>.
+Defines the type of profile. Currently, the only defined type is **KSDEVICE_PROFILE_TYPE_CAMERA**.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>#define KSDEVICE_PROFILE_TYPE_CAMERA    0x00000001</pre>
-</td>
-</tr>
-</table></span></div>
+```cpp
+#define KSDEVICE_PROFILE_TYPE_CAMERA    0x00000001
+```
 
 ### -field Size
 
 This must be set to sizeof(KSDEVICE_PROFILE_INFO) structure.
 
-
 ### -field Camera
-
-<b>Info</b>
-
-Structure of <a href="https://msdn.microsoft.com/library/windows/hardware/dn925214">KSCAMERA_PROFILE_INFO</a> defining the profile information of a camera.
-
-<b>Reserved</b>
-
-Unused.  Must be set to 0.
-
-<b>ConcurrencyCount</b>
-
-Number of <a href="https://msdn.microsoft.com/library/windows/hardware/dn925213">KSCAMERA_PROFILE_CONCURRENCYINFO</a> structures in the <b>Concurrency</b> array.
-
-For Windows 10 this must be less than or equal 1.
-
-A value of 0 with <b>Concurrency</b> set to <b>NULL</b>, indicates this profile is non-concurrent.
-
-<b>Concurrency</b>
-
-An array of <b>KSCAMERA_PROFILE_CONCURRENCYINFO</b> structures describing the concurrency support for this profile.
-
-If <b>CountOfConcurrency</b> is 0, this parameter must be <b>NULL</b>.
-
-If <b>CountOfConcurrency</b> is greater than 0, this parameter must not be <b>NULL</b>.
-
 
 ### -field Camera.Info
 
- 
-
+Structure of [KSCAMERA_PROFILE_INFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-_kscamera_profile_info) defining the profile information of a camera.
 
 ### -field Camera.Reserved
 
- 
-
+Unused.  Must be set to 0.
 
 ### -field Camera.ConcurrencyCount
 
- 
+Number of [KSCAMERA_PROFILE_CONCURRENCYINFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-_kscamera_profile_concurrencyinfo) structures in the **Concurrency** array.
 
+For Windows 10 this must be less than or equal 1.
+
+A value of 0 with **Concurrency** set to **NULL**, indicates this profile is non-concurrent.
 
 ### -field Camera.Concurrency
 
- 
+An array of **KSCAMERA_PROFILE_CONCURRENCYINFO** structures describing the concurrency support for this profile.
 
+If **CountOfConcurrency** is 0, this parameter must be **NULL**.
 
-
+If **CountOfConcurrency** is greater than 0, this parameter must not be **NULL**.

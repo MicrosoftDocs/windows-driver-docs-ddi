@@ -104,7 +104,7 @@ Minidrivers typically use this function when initializing item properties. The o
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549358">wiasSetItemPropAttribs</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiassetitempropattribs">wiasSetItemPropAttribs</a>
  
 
  

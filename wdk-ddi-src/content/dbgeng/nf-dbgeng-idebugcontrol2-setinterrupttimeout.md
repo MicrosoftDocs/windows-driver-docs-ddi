@@ -48,7 +48,7 @@ req.typenames:
 ## -description
 
 
-The <b>SetInterruptTimeout</b> method sets the number of seconds that the <a href="https://msdn.microsoft.com/fa52a1f0-9397-48a5-acbd-ce5347c0baef">debugger engine</a> should wait when requesting a break into the debugger.
+The <b>SetInterruptTimeout</b> method sets the number of seconds that the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/introduction">debugger engine</a> should wait when requesting a break into the debugger.
 
 
 ## -parameters
@@ -65,7 +65,7 @@ Specifies the number of seconds that the engine should wait for the target when 
 
 
 
-This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 <table>
 <tr>
@@ -93,9 +93,9 @@ The method was successful.
 
 
 
-The engine requests a break into the debugger when <a href="https://msdn.microsoft.com/library/windows/hardware/ff556722">SetInterrupt</a> is called with the DEBUG_INTERRUPT_ACTIVE flag.  
+The engine requests a break into the debugger when <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-setinterrupt">SetInterrupt</a> is called with the DEBUG_INTERRUPT_ACTIVE flag.  
 
-If an interrupt times out, the engine will generate a synthetic exception event.  This event will be sent to <a href="https://msdn.microsoft.com/9090a465-b6ab-4e99-8155-b0abdb729468">event callback objects</a>'s <a href="https://msdn.microsoft.com/library/windows/hardware/ff550717">IDebugEventCallbacks::Exception</a> method.
+If an interrupt times out, the engine will generate a synthetic exception event.  This event will be sent to <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/using-callback-objects">event callback objects</a>'s <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugeventcallbacks-exception">IDebugEventCallbacks::Exception</a> method.
 
 Most targets do not support interrupt time-outs.  Live user-mode debugging is one of the targets that does support them.
 
@@ -107,27 +107,27 @@ Most targets do not support interrupt time-outs.  Live user-mode debugging is on
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546955">GetInterruptTimeout</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-getinterrupttimeout">GetInterruptTimeout</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550508">IDebugControl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugcontrol">IDebugControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550512">IDebugControl2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugcontrol2">IDebugControl2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550519">IDebugControl3</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugcontrol3">IDebugControl3</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550717">IDebugEventCallbacks::Exception</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugeventcallbacks-exception">IDebugEventCallbacks::Exception</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556722">SetInterrupt</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-setinterrupt">SetInterrupt</a>
  
 
  

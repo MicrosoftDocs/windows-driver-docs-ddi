@@ -105,7 +105,7 @@ The miniport driver returns a VIDEO_HARDWARE_STATE structure in the VRP <b>Outpu
 
 ### -status-block
 
-If the miniport driver successfully saves the adapter state, it sets the <b>Information</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569732">STATUS_BLOCK</a> structure to <b>sizeof</b>(VIDEO_HARDWARE_STATE); otherwise, the miniport driver sets this member to zero.
+If the miniport driver successfully saves the adapter state, it sets the <b>Information</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/ns-video-_status_block">STATUS_BLOCK</a> structure to <b>sizeof</b>(VIDEO_HARDWARE_STATE); otherwise, the miniport driver sets this member to zero.
 
 
 ## -see-also
@@ -113,7 +113,7 @@ If the miniport driver successfully saves the adapter state, it sets the <b>Info
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569732">STATUS_BLOCK</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/ns-video-_status_block">STATUS_BLOCK</a>
  
 
  

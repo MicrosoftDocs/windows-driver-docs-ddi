@@ -72,7 +72,7 @@ The Pipeline Manager uses the <code>ShutdownOperation</code> method to shut down
 
 
 
-The <code>ShutdownOperation</code> method is called by the pipeline manager if the job is canceled or an error occurs. Filters do not have to block this call until they completely finish using any resources. You should set up an internal state to indicate when filters need to cancel a job. Filters must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff554306">IPrintPipelineManagerControl::FilterFinished</a> when the filters are finished, which can be later.
+The <code>ShutdownOperation</code> method is called by the pipeline manager if the job is canceled or an error occurs. Filters do not have to block this call until they completely finish using any resources. You should set up an internal state to indicate when filters need to cancel a job. Filters must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/filterpipeline/nf-filterpipeline-iprintpipelinemanagercontrol-filterfinished">IPrintPipelineManagerControl::FilterFinished</a> when the filters are finished, which can be later.
 
 
 
@@ -82,11 +82,11 @@ The <code>ShutdownOperation</code> method is called by the pipeline manager if t
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554286">IPrintPipelineFilter</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/filterpipeline/nn-filterpipeline-iprintpipelinefilter">IPrintPipelineFilter</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554306">IPrintPipelineManagerControl::FilterFinished</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/filterpipeline/nf-filterpipeline-iprintpipelinemanagercontrol-filterfinished">IPrintPipelineManagerControl::FilterFinished</a>
  
 
  

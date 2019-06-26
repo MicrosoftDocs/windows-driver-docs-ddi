@@ -49,7 +49,7 @@ req.typenames:
 ## -description
 
 
-The <b>GetTotalNumberThreads</b> method returns the total number of <a href="https://msdn.microsoft.com/6182ca34-ee5e-47e9-82fe-29266397e3a8">threads</a> for all the <a href="https://msdn.microsoft.com/6182ca34-ee5e-47e9-82fe-29266397e3a8">processes</a> in the current target, in addition to the largest number of threads in any process for the current target.
+The <b>GetTotalNumberThreads</b> method returns the total number of <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/controlling-threads-and-processes">threads</a> for all the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/controlling-threads-and-processes">processes</a> in the current target, in addition to the largest number of threads in any process for the current target.
 
 
 ## -parameters
@@ -71,7 +71,7 @@ Receives the largest number of threads in any process for the current target.
 
 
 
-This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 <table>
 <tr>
@@ -99,7 +99,7 @@ The method was successful.
 
 
 
-For more information about threads, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558896">Threads and Processes</a>.
+For more information about threads, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/threads-and-processes">Threads and Processes</a>.
 
 
 

@@ -58,7 +58,7 @@ The NET_PNP_EVENT_NOTIFICATION structure describes a network Plug and Play (PnP)
 ### -field Header
 
 The 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
      NET_PNP_EVENT_NOTIFICATION structure. NDIS sets the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to NDIS_OBJECT_TYPE_DEFAULT, the 
@@ -75,7 +75,7 @@ The source port of the event notification. If the status indication is not speci
 ### -field NetPnPEvent
 
 A
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568751">NET_PNP_EVENT</a> structure that describes the
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_pnp_event">NET_PNP_EVENT</a> structure that describes the
      event.
 
 
@@ -99,7 +99,7 @@ An **NDIS_NIC_SWITCH_VPORT_ID** value that uniquely identifies the virtual port 
 A value of **NDIS_DEFAULT_VPORT_ID** specifies the default VPort on the switch. The default VPort is always attached to the PCI Express (PCIe) Physical Function (PF) of the network adapter.
 
 > [!NOTE]
-> A nondefault VPort with the specified <b>VPortId</b> value must have previously been created through an OID method request of <a href="https://msdn.microsoft.com/library/windows/hardware/hh451816">OID_NIC_SWITCH_CREATE_VPORT</a>.
+> A nondefault VPort with the specified <b>VPortId</b> value must have previously been created through an OID method request of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-nic-switch-create-vport">OID_NIC_SWITCH_CREATE_VPORT</a>.
 
 
 ## -remarks
@@ -110,7 +110,7 @@ When the operating system issues a system PnP event or a power management event 
 
 The 
     <b>NetPnPEvent</b> member is a 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568751">NET_PNP_EVENT</a> structure. The 
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_pnp_event">NET_PNP_EVENT</a> structure. The 
     <b>NetEvent</b> member of this NET_PNP_EVENT structure specifies an event code that identifies the network
     PnP event, NDIS PnP event, or power management event.
 
@@ -127,9 +127,9 @@ NDIS also issues PnP event notifications for NDIS PnP events such as
     <b>NetEventPortDeactivation</b>.
 
 NDIS passes a pointer to a NET_PNP_EVENT_NOTIFICATION structure to the 
-    <a href="https://msdn.microsoft.com/5c52b2d2-3fba-4d28-8172-7b6854386061">FilterNetPnPEvent</a> function of
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_net_pnp_event">FilterNetPnPEvent</a> function of
     overlying filter drivers and to the 
-    <a href="https://msdn.microsoft.com/3f50bcba-c7d2-4d81-bd8b-6080e08fbe74">ProtocolNetPnPEvent</a> function of
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_net_pnp_event">ProtocolNetPnPEvent</a> function of
     overlying protocol drivers.
 
 
@@ -140,19 +140,19 @@ NDIS passes a pointer to a NET_PNP_EVENT_NOTIFICATION structure to the
 
 
 
-<a href="https://msdn.microsoft.com/5c52b2d2-3fba-4d28-8172-7b6854386061">FilterNetPnPEvent</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_net_pnp_event">FilterNetPnPEvent</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568751">NET_PNP_EVENT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_pnp_event">NET_PNP_EVENT</a>
 
 
 
-<a href="https://msdn.microsoft.com/3f50bcba-c7d2-4d81-bd8b-6080e08fbe74">ProtocolNetPnPEvent</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_net_pnp_event">ProtocolNetPnPEvent</a>
  
 
  

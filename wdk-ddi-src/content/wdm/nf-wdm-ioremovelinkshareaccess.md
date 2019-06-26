@@ -83,7 +83,7 @@ None
 
 
 
-This routine is a reciprocal to <a href="https://msdn.microsoft.com/C92E53C8-3411-4E6E-B48E-B16F6B815488">IoUpdateLinkShareAccess</a>.
+This routine is a reciprocal to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ioupdatelinkshareaccess">IoUpdateLinkShareAccess</a>.
 
 <b>IoRemoveLinkShareAccess</b> is not an atomic operation. Therefore, drivers calling this routine must protect the shared file object passed to <b>IoRemoveLinkShareAccess</b> by means of some kind of lock, such as a mutex or a resource lock, in order to prevent corruption of the shared access counts.
 
@@ -97,15 +97,15 @@ Callers of <b>IoRemoveLinkShareAccess</b> must be running at IRQL = PASSIVE_LEVE
 
 
 
-<a href="https://msdn.microsoft.com/1C34237E-D4AF-4F12-9FF2-9382BADCC9D3">IoCheckLinkShareAccess</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iochecklinkshareaccess">IoCheckLinkShareAccess</a>
 
 
 
-<a href="https://msdn.microsoft.com/206D74F6-09D5-4C04-8A0A-A7765E64BB27">IoSetLinkShareAccess</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iosetlinkshareaccess">IoSetLinkShareAccess</a>
 
 
 
-<a href="https://msdn.microsoft.com/C92E53C8-3411-4E6E-B48E-B16F6B815488">IoUpdateLinkShareAccess</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ioupdatelinkshareaccess">IoUpdateLinkShareAccess</a>
  
 
  

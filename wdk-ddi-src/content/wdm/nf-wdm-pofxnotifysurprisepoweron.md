@@ -56,7 +56,7 @@ The <b>PoFxNotifySurprisePowerOn</b> routine notifies the power management frame
 
 ### -param Pdo [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">physical device object</a> (PDO). This parameter points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a> structure that represents the physical device that was turned on as a side effect. The caller is always the bus driver that enumerated the PDO.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/">physical device object</a> (PDO). This parameter points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure that represents the physical device that was turned on as a side effect. The caller is always the bus driver that enumerated the PDO.
 
 
 ## -returns
@@ -76,7 +76,7 @@ Device drivers should not call this routine. This routine should be called only 
 
 A bus driver calls this routine to inform PoFx that a device that is not currently being used was incidentally turned on at the same time as a second device. For example, the first device might share a power rail with the second device. Thus, power cannot be supplied to the second device without supplying power, as a side effect, to the first device. Because the first device is not being used, this device should be configured to consume as little power as possible.
 
-To request a transition to a D0 power state, a device driver sends an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551744">IRP_MN_SET_POWER</a> request down its device stack. Through the PDO in this stack, the bus driver that is the parent of this device receives the request and responds by supplying power to the device. However, if the bus driver cannot turn on this device without also turning on a second, unused device, the bus driver can call <b>PoFxNotifySurprisePowerOn</b> to reduce the power consumed by the unused device.
+To request a transition to a D0 power state, a device driver sends an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-set-power">IRP_MN_SET_POWER</a> request down its device stack. Through the PDO in this stack, the bus driver that is the parent of this device receives the request and responds by supplying power to the device. However, if the bus driver cannot turn on this device without also turning on a second, unused device, the bus driver can call <b>PoFxNotifySurprisePowerOn</b> to reduce the power consumed by the unused device.
 
 On entry to <b>PoFxNotifySurprisePowerOn</b>, the device represented by the <i>Pdo</i> parameter is in an uninitialized D0 power state. In this state, all of the components in the device are typically turned on. In response to the <b>PoFxNotifySurprisePowerOn</b> call, PoFx configures the device in an initialized D0 state. During this configuration, PoFx switches as many components as it can to low-power Fx power states. If possible, PoFx configures the device in a "hot D3" state, which is really a D0 state in which all of the individual components in the device are turned off.
 
@@ -84,7 +84,7 @@ On entry to <b>PoFxNotifySurprisePowerOn</b>, the device represented by the <i>P
 
 If the bus driver fails to call this routine when the device is turned on, the device hardware might stay in the fully on state for an indefinite time, during which PoFx assumes that the device remains in the D3 (fully off) power state.
 
-Call <b>PoFxNotifySurprisePowerOn</b> only if the device was turned on incidentally, as a side effect of turning on some other device. If the bus driver restores power to a device in response to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh450949">DevicePowerRequiredCallback</a> callback or an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551744">IRP_MN_SET_POWER</a> request for a D0 transition, call the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439526">PoFxReportDevicePoweredOn</a> routine instead to inform PoFx when power is restored to the device.
+Call <b>PoFxNotifySurprisePowerOn</b> only if the device was turned on incidentally, as a side effect of turning on some other device. If the bus driver restores power to a device in response to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-po_fx_device_power_required_callback">DevicePowerRequiredCallback</a> callback or an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-set-power">IRP_MN_SET_POWER</a> request for a D0 transition, call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-pofxreportdevicepoweredon">PoFxReportDevicePoweredOn</a> routine instead to inform PoFx when power is restored to the device.
 
 
 
@@ -94,19 +94,19 @@ Call <b>PoFxNotifySurprisePowerOn</b> only if the device was turned on incidenta
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450949">DevicePowerRequiredCallback</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-po_fx_device_power_required_callback">DevicePowerRequiredCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551744">IRP_MN_SET_POWER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-set-power">IRP_MN_SET_POWER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439526">PoFxReportDevicePoweredOn</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-pofxreportdevicepoweredon">PoFxReportDevicePoweredOn</a>
  
 
  

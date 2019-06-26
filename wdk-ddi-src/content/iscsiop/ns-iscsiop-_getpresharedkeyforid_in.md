@@ -46,7 +46,7 @@ req.typenames: GetPresharedKeyForId_IN, *PGetPresharedKeyForId_IN
 ## -description
 
 
-The GetPresharedKeyForId_IN structure holds the input data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554970">GetPresharedKeyForId</a> method. This method is required if the initiator supports Internet Key Exchange (IKE). It can help to determine whether IKE identification payload is configured with a preshared key.
+The GetPresharedKeyForId_IN structure holds the input data for the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/getpresharedkeyforid">GetPresharedKeyForId</a> method. This method is required if the initiator supports Internet Key Exchange (IKE). It can help to determine whether IKE identification payload is configured with a preshared key.
 
 
 ## -struct-fields
@@ -136,15 +136,15 @@ You must implement this method if the initiator supports IKE.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554970">GetPresharedKeyForId</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/getpresharedkeyforid">GetPresharedKeyForId</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554975">GetPresharedKeyForId_OUT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/iscsiop/ns-iscsiop-_getpresharedkeyforid_out">GetPresharedKeyForId_OUT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563135">MSiSCSI_SecurityConfigOperations WMI Class</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msiscsi-securityconfigoperations-wmi-class">MSiSCSI_SecurityConfigOperations WMI Class</a>
  
 
  

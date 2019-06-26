@@ -46,11 +46,11 @@ req.typenames:
 ## -description
 
 
-The IOCTL_GET_NUM_DEVICE_INPUT_BUFFERS request obtains the size of the input report queue for a <a href="https://msdn.microsoft.com/dcbee8e3-d03a-45c8-92e4-0897b9f55177">top-level collection</a>. 
+The IOCTL_GET_NUM_DEVICE_INPUT_BUFFERS request obtains the size of the input report queue for a <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/top-level-collections">top-level collection</a>. 
 
-The input report queue is implemented as a ring buffer. If a collection transmits data to the HID class driver faster than the input reports are read, reports can be lost. The size of the input report queue can be adjusted using <a href="https://msdn.microsoft.com/library/windows/hardware/ff542087">IOCTL_SET_NUM_DEVICE_INPUT_BUFFERS</a>. 
+The input report queue is implemented as a ring buffer. If a collection transmits data to the HID class driver faster than the input reports are read, reports can be lost. The size of the input report queue can be adjusted using <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hidclass/ni-hidclass-ioctl_set_num_device_input_buffers">IOCTL_SET_NUM_DEVICE_INPUT_BUFFERS</a>. 
 
-For general information about HIDClass devices, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db-8cff-9fac30209952">HID Collections</a>. 
+For general information about HIDClass devices, see <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-collections">HID Collections</a>. 
 
 
 ## -ioctlparameters
@@ -116,7 +116,7 @@ The HID class driver sets the following fields of <b>Irp->IoStatus</b>:
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539686">HidD_SetNumInputBuffers</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hidsdi/nf-hidsdi-hidd_setnuminputbuffers">HidD_SetNumInputBuffers</a>
  
 
  

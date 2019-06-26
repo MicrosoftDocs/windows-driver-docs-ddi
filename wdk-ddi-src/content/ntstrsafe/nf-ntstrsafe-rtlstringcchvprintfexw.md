@@ -154,7 +154,7 @@ A <b>va_list</b>-typed argument list. Arguments contained in the argument list w
 
 
 
-The function returns one of the NTSTATUS values that are listed in the following table. For information about how to test NTSTATUS values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565436">Using NTSTATUS Values</a>.
+The function returns one of the NTSTATUS values that are listed in the following table. For information about how to test NTSTATUS values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-ntstatus-values">Using NTSTATUS Values</a>.
 
 <table>
 <tr>
@@ -236,7 +236,7 @@ _<b>vsnwprintf</b>
 </ul>
 All of these functions accept a format string and its arguments, provided as a <b>va_list</b>-typed argument list, and return a formatted string. <b>RtlStringCchVPrintfExW</b> and <b>RtlStringCchVPrintfExA</b> receive the size, in characters, of the destination buffer to ensure that they do not write past the end of the buffer.
 
-<b>RtlStringCchVPrintfExW</b> and <b>RtlStringCchVPrintfExA</b> add to the functionality of <a href="https://msdn.microsoft.com/library/windows/hardware/ff562865">RtlStringCchVPrintf</a> by returning a pointer to the end of the destination string, as well as the number of characters left unused in that string. Flags can be passed to the function for additional control.
+<b>RtlStringCchVPrintfExW</b> and <b>RtlStringCchVPrintfExA</b> add to the functionality of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntstrsafe/nf-ntstrsafe-rtlstringcchvprintfa">RtlStringCchVPrintf</a> by returning a pointer to the end of the destination string, as well as the number of characters left unused in that string. Flags can be passed to the function for additional control.
 
 For more information about <b>va_list</b>-typed argument lists, see the Microsoft Windows SDK documentation.
 
@@ -283,7 +283,7 @@ If  <i>pszDest</i> and <i>pszFormat</i> point to overlapping strings or if any a
 
 Neither <i>pszSrc</i> nor <i>pszDest</i> can be <b>NULL</b> unless the STRSAFE_IGNORE_NULLS flag is set, in which case either or both can be <b>NULL</b>. If <i>pszDest</i> is <b>NULL</b>, <i>pszSrc</i> must either be <b>NULL</b> or point to an empty string.
 
-For more information about the safe string functions, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565508">Using Safe String Functions</a>.
+For more information about the safe string functions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-safe-string-functions">Using Safe String Functions</a>.
 
 
 
@@ -293,15 +293,15 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562832">RtlStringCbVPrintfEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntstrsafe/nf-ntstrsafe-rtlstringcbvprintfexa">RtlStringCbVPrintfEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562864">RtlStringCchPrintfEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntstrsafe/nf-ntstrsafe-rtlstringcchprintfexa">RtlStringCchPrintfEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562865">RtlStringCchVPrintf</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntstrsafe/nf-ntstrsafe-rtlstringcchvprintfa">RtlStringCchVPrintf</a>
  
 
  

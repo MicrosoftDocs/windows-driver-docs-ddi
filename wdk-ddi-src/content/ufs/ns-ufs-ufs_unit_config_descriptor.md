@@ -46,7 +46,7 @@ req.typenames: UFS_UNIT_CONFIG_DESCRIPTOR, *PUFS_UNIT_CONFIG_DESCRIPTOR
 ## -description
 
 
-The <b>UFS_UNIT_CONFIG_DESCRIPTOR</b> structure describes the user configurable parameters within the <a href="https://msdn.microsoft.com/B65A2268-6959-4630-97DA-C0CFD37D9174">UFS_CONFIG_DESCRIPTOR</a>.
+The <b>UFS_UNIT_CONFIG_DESCRIPTOR</b> structure describes the user configurable parameters within the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ufs/ns-ufs-ufs_config_descriptor">UFS_CONFIG_DESCRIPTOR</a>.
 
 
 ## -struct-fields

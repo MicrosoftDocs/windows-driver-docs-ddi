@@ -148,7 +148,7 @@ If this pointer is supplied, EPF_PUSH_TYPE_DLGPROC must be set in <b>Flags</b>.
 
 ### -field DUMMYUNIONNAME.pfnCallBack
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564313">_CPSUICALLBACK</a>-typed callback function to handle the CPSUICB_REASON_PUSHBUTTON reason. For more information, see the following Remarks section.
+Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/compstui/nc-compstui-_cpsuicallback">_CPSUICALLBACK</a>-typed callback function to handle the CPSUICB_REASON_PUSHBUTTON reason. For more information, see the following Remarks section.
 
 If this pointer is supplied, EPF_PUSH_TYPE_DLGPROC must be cleared in <b>Flags</b>.
 
@@ -198,7 +198,7 @@ Reserved, must be initialized to zero.
 
 
 
-An extended push button is a CPSUI-defined type of push button that can be associated with an <a href="https://msdn.microsoft.com/library/windows/hardware/ff559656">OPTITEM</a> structure. An OPTITEM structure can have one extended push button or one extended check box associated with it.
+An extended push button is a CPSUI-defined type of push button that can be associated with an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/compstui/ns-compstui-_optitem">OPTITEM</a> structure. An OPTITEM structure can have one extended push button or one extended check box associated with it.
 
 When you use the EXTPUSH structure to create a push button, you can optionally create an additional dialog box that opens when the user clicks on the button. To create this dialog box, you should specify a pointer to a dialog box procedure in the <b>DlgProc</b> member, and include a dialog template specification in either the <b>DlgTemplateID</b> or the <b>hDlgTemplate</b> member.
 
@@ -206,9 +206,9 @@ If EPF_USE_HDLGTEMPLATE is set in <b>Flags</b>, CPSUI creates the dialog box by 
 
 If EPF_USE_HDLGTEMPLATE is not set in <b>Flags</b>, CPSUI creates the dialog box by calling <b>DialogBoxParam</b> (described in the Windows SDK documentation), passing the contents of the <b>DlgProc</b> and <b>DlgTemplateID</b> members.
 
-When the dialog box procedure is called with a <i>uMsg</i> value of WM_INITDIALOG, the <i>lParam</i> value is the address of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547088">CPSUICBPARAM</a> structure, with the <b>Reason</b> member set to CPSUICB_REASON_EXTPUSH. (For more information about the <i>uMsg</i> and <i>lParam</i> parameters, see <b>DialogProc</b> in the Windows SDK documentation.)
+When the dialog box procedure is called with a <i>uMsg</i> value of WM_INITDIALOG, the <i>lParam</i> value is the address of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/compstui/ns-compstui-_cpsuicbparam">CPSUICBPARAM</a> structure, with the <b>Reason</b> member set to CPSUICB_REASON_EXTPUSH. (For more information about the <i>uMsg</i> and <i>lParam</i> parameters, see <b>DialogProc</b> in the Windows SDK documentation.)
 
-If you do not need CPSUI to display a dialog box when the user clicks on the button, you can specify the address of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564313">_CPSUICALLBACK</a>-typed callback function in the <b>pfnCallBack</b> member. When a user clicks on the button, CPSUI calls the callback function. The accompanying CPSUICBPARAM structure's <b>Reason</b> member will be set to CPSUICB_REASON_EXTPUSH.
+If you do not need CPSUI to display a dialog box when the user clicks on the button, you can specify the address of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/compstui/nc-compstui-_cpsuicallback">_CPSUICALLBACK</a>-typed callback function in the <b>pfnCallBack</b> member. When a user clicks on the button, CPSUI calls the callback function. The accompanying CPSUICBPARAM structure's <b>Reason</b> member will be set to CPSUICB_REASON_EXTPUSH.
 
 
 
@@ -218,7 +218,7 @@ If you do not need CPSUI to display a dialog box when the user clicks on the but
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548781">EXTCHKBOX</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/compstui/ns-compstui-_extchkbox">EXTCHKBOX</a>
  
 
  

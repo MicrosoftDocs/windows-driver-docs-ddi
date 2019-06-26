@@ -124,7 +124,7 @@ WdfStringGetUnicodeString(
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550046">WdfStringCreate</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfstring/nf-wdfstring-wdfstringcreate">WdfStringCreate</a>
  
 
  

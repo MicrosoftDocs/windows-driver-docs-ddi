@@ -93,7 +93,7 @@ A pointer to a location that receives the data that is assigned to the registry 
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549925">WdfRegistryQueryULong</a> was not called at IRQL = PASSIVE_LEVEL. 
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfregistry/nf-wdfregistry-wdfregistryqueryulong">WdfRegistryQueryULong</a> was not called at IRQL = PASSIVE_LEVEL. 
 
 </td>
 </tr>
@@ -155,7 +155,7 @@ The registry value was not available.
 </table>
  
 
-This method also might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
+This method also might return other <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS values</a>.
 
 A bug check occurs if the driver supplies an invalid object handle.
 
@@ -168,7 +168,7 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
-For more information about registry-key objects, see <a href="https://msdn.microsoft.com/278a5ccb-dd43-4b26-999f-9207a4ede9dc">Using the Registry in WDF Drivers</a>.
+For more information about registry-key objects, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-the-registry-in-wdf-drivers">Using the Registry in WDF Drivers</a>.
 
 
 #### Examples
@@ -205,23 +205,23 @@ status = WdfRegistryQueryULong(
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549920">WdfRegistryQueryMemory</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfregistry/nf-wdfregistry-wdfregistryquerymemory">WdfRegistryQueryMemory</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549921">WdfRegistryQueryMultiString</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfregistry/nf-wdfregistry-wdfregistryquerymultistring">WdfRegistryQueryMultiString</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549923">WdfRegistryQueryString</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfregistry/nf-wdfregistry-wdfregistryquerystring">WdfRegistryQueryString</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549927">WdfRegistryQueryUnicodeString</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfregistry/nf-wdfregistry-wdfregistryqueryunicodestring">WdfRegistryQueryUnicodeString</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549928">WdfRegistryQueryValue</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfregistry/nf-wdfregistry-wdfregistryqueryvalue">WdfRegistryQueryValue</a>
  
 
  

@@ -115,9 +115,9 @@ The maximum value for this enumeration. This value might change in future versio
 
 
 The NDIS_SHARED_MEMORY_USAGE enumeration is used in the 
-    <a href="https://msdn.microsoft.com/286b08f6-179e-426e-ae65-b108529d049a">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_shared_memory_parameters">
     NDIS_SHARED_MEMORY_PARAMETERS</a> and 
-    <a href="https://msdn.microsoft.com/5c14a6ed-3180-41d6-a09a-b3ae0a0c8b36">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_scatter_gather_list_parameters">
     NDIS_SCATTER_GATHER_LIST_PARAMETERS</a> structures.
 
 
@@ -128,12 +128,12 @@ The NDIS_SHARED_MEMORY_USAGE enumeration is used in the
 
 
 
-<a href="https://msdn.microsoft.com/5c14a6ed-3180-41d6-a09a-b3ae0a0c8b36">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_scatter_gather_list_parameters">
    NDIS_SCATTER_GATHER_LIST_PARAMETERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567303">NDIS_SHARED_MEMORY_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_shared_memory_parameters">NDIS_SHARED_MEMORY_PARAMETERS</a>
  
 
  

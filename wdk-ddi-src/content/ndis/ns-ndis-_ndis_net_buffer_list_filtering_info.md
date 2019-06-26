@@ -48,7 +48,7 @@ req.typenames: NDIS_NET_BUFFER_LIST_FILTERING_INFO, *PNDIS_NET_BUFFER_LIST_FILTE
 
 The <b>NDIS_NET_BUFFER_LIST_FILTERING_INFO</b> structure defines filtering information that is associated
   with a 
-  <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure.
+  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
 
 
 ## -struct-fields
@@ -87,7 +87,7 @@ A USHORT value that contains an identifier for a virtual machine  queue (VMQ) re
 
 A USHORT value that contains the identifier for a virtual port (VPort). A value of DEFAULT_VPORT_ID specifies the default VPort on the NIC switch. 
 
-The VPort with the specified VPortId value must have previously been created through a set request of <a href="https://msdn.microsoft.com/library/windows/hardware/hh451816">OID_NIC_SWITCH_CREATE_VPORT</a>.
+The VPort with the specified VPortId value must have previously been created through a set request of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-nic-switch-create-vport">OID_NIC_SWITCH_CREATE_VPORT</a>.
 
 <div class="alert"><b>Note</b>  For the VMQ interface, this member must be set to NDIS_DEFAULT_VPORT_ID.</div>
 <div> </div>
@@ -105,19 +105,19 @@ A PVOID type value that is in a union with the
 
 Starting with NDIS 6.20, miniport drivers  use the <b>NDIS_NET_BUFFER_LIST_FILTERING_INFO</b> structure to specify receive
     filter information that accompanies the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structures that are associated with a 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures that are associated with a 
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
 
 To access the <b>NDIS_NET_BUFFER_LIST_FILTERING_INFO</b> structure from the NET_BUFFER_LIST OOB data, an NDIS
     driver calls the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a> macro and specifies
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-list-info">NET_BUFFER_LIST_INFO</a> macro and specifies
     the 
     <b>NetBufferListFilteringInfo</b>  information type.
 
 To access the identifier values directly, use the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568406">
-    NET_BUFFER_LIST_RECEIVE_FILTER_ID</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/hh439946">NET_BUFFER_LIST_RECEIVE_FILTER_VPORT_ID</a>, or 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568407">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-list-receive-filter-id">
+    NET_BUFFER_LIST_RECEIVE_FILTER_ID</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-list-receive-filter-vport-id">NET_BUFFER_LIST_RECEIVE_FILTER_VPORT_ID</a>, or 
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-list-receive-queue-id">
     NET_BUFFER_LIST_RECEIVE_QUEUE_ID</a> macros.
 
 
@@ -128,28 +128,28 @@ To access the identifier values directly, use the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568406">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-list-receive-filter-id">
    NET_BUFFER_LIST_RECEIVE_FILTER_ID</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439946">NET_BUFFER_LIST_RECEIVE_FILTER_VPORT_ID</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-list-receive-filter-vport-id">NET_BUFFER_LIST_RECEIVE_FILTER_VPORT_ID</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568407">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-list-receive-queue-id">
    NET_BUFFER_LIST_RECEIVE_QUEUE_ID</a>
  
 

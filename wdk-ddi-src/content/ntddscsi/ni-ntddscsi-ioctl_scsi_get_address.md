@@ -52,7 +52,7 @@ Returns the address information, such as the target ID (TID) and the logical uni
 This request must be directed to a class driver or to a PDO created by the port driver.
 
 
-<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -ioctlparameters
 
@@ -71,12 +71,12 @@ None.
 
 ### -output-buffer
 
-Updated <a href="https://msdn.microsoft.com/library/windows/hardware/ff565299">SCSI_ADDRESS</a> information is returned to the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>.
+Updated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddscsi/ns-ntddscsi-_scsi_address">SCSI_ADDRESS</a> information is returned to the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>.
 
 
 ### -output-buffer-length
 
-<b>Parameters.DeviceIoControl.OutputBufferLength</b> in the I/O stack location indicates the size, in bytes, of the buffer, which must be >= <b>sizeof</b>(<a href="https://msdn.microsoft.com/library/windows/hardware/ff565299">SCSI_ADDRESS</a>).
+<b>Parameters.DeviceIoControl.OutputBufferLength</b> in the I/O stack location indicates the size, in bytes, of the buffer, which must be >= <b>sizeof</b>(<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddscsi/ns-ntddscsi-_scsi_address">SCSI_ADDRESS</a>).
 
 
 ### -in-out-buffer
@@ -107,7 +107,7 @@ The <b>Information</b> field contains the number of bytes returned in the output
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565299">SCSI_ADDRESS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddscsi/ns-ntddscsi-_scsi_address">SCSI_ADDRESS</a>
  
 
  

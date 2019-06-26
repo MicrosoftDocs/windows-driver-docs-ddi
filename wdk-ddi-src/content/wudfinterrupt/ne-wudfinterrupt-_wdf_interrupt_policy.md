@@ -48,7 +48,7 @@ req.typenames: WDF_INTERRUPT_POLICY, *PWDF_INTERRUPT_POLICY
 
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/hh464032">WDF_INTERRUPT_POLICY</a> enumeration type identifies the affinity policies that the Plug and Play (PnP) manager can use when it assigns a device's interrupts to the processors of a multiprocessor system.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfinterrupt/ne-wudfinterrupt-_wdf_interrupt_policy">WDF_INTERRUPT_POLICY</a> enumeration type identifies the affinity policies that the Plug and Play (PnP) manager can use when it assigns a device's interrupts to the processors of a multiprocessor system.
 
 
 ## -enum-fields
@@ -90,7 +90,7 @@ The PnP manager should assign different message-based interrupts to different pr
 
 
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/hh464032">WDF_INTERRUPT_POLICY</a> enumeration type is used as input to the <a href="https://msdn.microsoft.com/EDBCBB37-41A4-4234-BE8C-4C8739BC287B">IWDFInterrupt::SetPolicy</a> method.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfinterrupt/ne-wudfinterrupt-_wdf_interrupt_policy">WDF_INTERRUPT_POLICY</a> enumeration type is used as input to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfinterrupt-setpolicy">IWDFInterrupt::SetPolicy</a> method.
 
 
 
@@ -100,7 +100,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/hh464032">WDF_I
 
 
 
-<a href="https://msdn.microsoft.com/EDBCBB37-41A4-4234-BE8C-4C8739BC287B">IWDFInterrupt::SetPolicy</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfinterrupt-setpolicy">IWDFInterrupt::SetPolicy</a>
  
 
  

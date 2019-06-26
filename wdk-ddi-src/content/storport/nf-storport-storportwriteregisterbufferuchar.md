@@ -57,7 +57,7 @@ The <b>StorPortWriteRegisterBufferUchar</b> routine transfers a given number of 
 
 ### -param h
 
-<p>A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="https://msdn.microsoft.com/library/Ff567108(v=VS.85).aspx"><b>StorPortInitialize</b></a>. The port driver frees this memory when it removes the device. </p>
+<p>A pointer to the hardware device extension. This is a per HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the mapped access ranges for the HBA. This area is available to the miniport driver immediately after the miniport driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportinitialize"><b>StorPortInitialize</b></a>. The port driver frees this memory when it removes the device. </p>
 
 
 ### -param r
@@ -84,7 +84,7 @@ Pointer to the register. The given <i>Register</i> must be in a mapped memory-sp
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564845">ScsiPortWriteRegisterBufferUchar</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/srb/nf-srb-scsiportwriteregisterbufferuchar">ScsiPortWriteRegisterBufferUchar</a>
  
 
  

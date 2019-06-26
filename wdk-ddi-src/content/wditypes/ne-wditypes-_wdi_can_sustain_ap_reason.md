@@ -46,7 +46,7 @@ req.typenames: WDI_CAN_SUSTAIN_AP_REASON
 ## -description
 
 
-The WDI_CAN_SUSTAIN_AP_REASON enumeration defines the reasons the port is ready to receive a <a href="https://msdn.microsoft.com/library/windows/hardware/dn925964">OID_WDI_TASK_START_AP</a> request.
+The WDI_CAN_SUSTAIN_AP_REASON enumeration defines the reasons the port is ready to receive a <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wdi-task-start-ap">OID_WDI_TASK_START_AP</a> request.
 
 
 ## -enum-fields

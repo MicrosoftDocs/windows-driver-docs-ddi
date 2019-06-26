@@ -50,7 +50,7 @@ req.typenames:
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugBreakpoint2</b> interface inherits from <a href="https://msdn.microsoft.com/library/windows/hardware/ff549812">IDebugBreakpoint</a>. <b>IDebugBreakpoint2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugBreakpoint2</b> interface inherits from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugbreakpoint">IDebugBreakpoint</a>. <b>IDebugBreakpoint2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -65,7 +65,7 @@ The <b>IDebugBreakpoint2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545690">GetCommandWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugbreakpoint2-getcommandwide">GetCommandWide</a>
 </td>
 <td align="left" width="63%">
 Returns the command string that is executed when a breakpoint is triggered.
@@ -75,7 +75,7 @@ Returns the command string that is executed when a breakpoint is triggered.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548053">GetOffsetExpressionWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugbreakpoint2-getoffsetexpressionwide">GetOffsetExpressionWide</a>
 </td>
 <td align="left" width="63%">
 Returns the expression string that evaluates to the location that triggers a breakpoint.
@@ -85,7 +85,7 @@ Returns the expression string that evaluates to the location that triggers a bre
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556638">SetCommandWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugbreakpoint2-setcommandwide">SetCommandWide</a>
 </td>
 <td align="left" width="63%">
  Sets the command that is executed when a breakpoint is triggered.
@@ -95,7 +95,7 @@ Returns the expression string that evaluates to the location that triggers a bre
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556748">SetOffsetExpressionWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugbreakpoint2-setoffsetexpressionwide">SetOffsetExpressionWide</a>
 </td>
 <td align="left" width="63%">
  Sets an expression string that evaluates to the location that triggers a breakpoint.
@@ -111,7 +111,7 @@ Returns the expression string that evaluates to the location that triggers a bre
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549812">IDebugBreakpoint</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugbreakpoint">IDebugBreakpoint</a>
  
 
  

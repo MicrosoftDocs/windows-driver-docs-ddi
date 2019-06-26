@@ -73,7 +73,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/42A31C23-9C02-48F6-83CC-CA017F76DE18">IDebugBreakpoint3</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugbreakpoint3">IDebugBreakpoint3</a>
  
 
  

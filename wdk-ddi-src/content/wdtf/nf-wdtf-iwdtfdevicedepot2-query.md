@@ -78,10 +78,10 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 The <b>Query</b> method provides the <i>SDEL</i> 
-parameter in a call to the <a href="https://msdn.microsoft.com/468cb35d-f816-4233-ba07-8dc47b77d442">IWDTFTarget2::Eval</a> 
-method for every instance of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439367">IWDTFTarget2</a> interface 
-in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439458">IWDTFTargets2</a> collection. 
-Use the <a href="https://msdn.microsoft.com/84c2a1d6-6bec-4aeb-b858-c29f50d74390">Simple Data 
+parameter in a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nf-wdtf-iwdtftarget2-eval">IWDTFTarget2::Eval</a> 
+method for every instance of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nn-wdtf-iwdtftarget2">IWDTFTarget2</a> interface 
+in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nn-wdtf-iwdtftargets2">IWDTFTargets2</a> collection. 
+Use the <a href="https://docs.microsoft.com/windows-hardware/drivers/wdtf/simple-data-evaluation-language-overview">Simple Data 
 Evaluation Language</a> to specify this parameter. 
 Every target that returns <b>VARIANT_TRUE</b> is added to a new 
 instance of the <b>IWDTFTargets2</b> collection 
@@ -95,7 +95,7 @@ interface.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406391">IWDTFDeviceDepot2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nn-wdtf-iwdtfdevicedepot2">IWDTFDeviceDepot2</a>
  
 
  

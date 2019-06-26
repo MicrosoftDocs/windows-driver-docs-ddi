@@ -60,7 +60,7 @@ Serializes a submitted <b>IPortableDeviceValues</b> interface to an allocated by
 
 ### -param pSource [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff597597">IPortableDeviceValues</a> interface to serialize.
+Pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portabledevicetypes/nn-portabledevicetypes-iportabledevicevalues">IPortableDeviceValues</a> interface to serialize.
 
 
 ### -param ppBuffer [out]
@@ -137,7 +137,7 @@ None.
 
 
 
-<a href="https://msdn.microsoft.com/b52a063f-0455-4e49-a355-ea12d68c4835">IWpdSerializer Interface</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portabledevicetypes/nn-portabledevicetypes-iwpdserializer">IWpdSerializer Interface</a>
  
 
  

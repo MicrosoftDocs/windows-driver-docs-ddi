@@ -69,11 +69,11 @@ Specifies the 10-bit bus number. This member specifies bits 0-10 of the node add
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537020">BUS_GENERATION_NODE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/61883/ns-61883-_bus_generation_node">BUS_GENERATION_NODE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537346">IO_ADDRESS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/1394/ns-1394-_io_address">IO_ADDRESS</a>
  
 
  

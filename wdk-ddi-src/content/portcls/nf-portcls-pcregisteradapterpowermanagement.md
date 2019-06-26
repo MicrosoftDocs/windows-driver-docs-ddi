@@ -57,12 +57,12 @@ The <b>PcRegisterAdapterPowerManagement</b> function registers the adapter's pow
 
 ### -param Unknown
 
-<p>Pointer to an adapter driver object's <a href="https://msdn.microsoft.com/library/ms680509(v=VS.85).aspx"><b>IUnknown</b></a> interface. The PortCls system driver queries this object for its <a href="https://msdn.microsoft.com/library/Ff536485(v=VS.85).aspx">IAdapterPowerManagement</a> interface.</p>
+<p>Pointer to an adapter driver object's <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown"><b>IUnknown</b></a> interface. The PortCls system driver queries this object for its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iadapterpowermanagement">IAdapterPowerManagement</a> interface.</p>
 
 
 ### -param pvContext1 [in]
 
-Pointer to the adapter's <a href="https://msdn.microsoft.com/f697e0db-1db0-4a81-94d8-0ca079885480">functional device object (FDO)</a>. This parameter is a pointer to a system structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a> but is cast to type PVOID.
+Pointer to the adapter's <a href="https://docs.microsoft.com/windows-hardware/drivers/">functional device object (FDO)</a>. This parameter is a pointer to a system structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> but is cast to type PVOID.
 
 
 ## -returns
@@ -79,11 +79,11 @@ Pointer to the adapter's <a href="https://msdn.microsoft.com/f697e0db-1db0-4a81-
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536485">IAdapterPowerManagement</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iadapterpowermanagement">IAdapterPowerManagement</a>
  
 
  

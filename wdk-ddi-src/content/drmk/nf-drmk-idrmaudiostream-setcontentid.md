@@ -61,7 +61,7 @@ Specifies the DRM content ID. This parameter is an identifier that the DRM syste
 
 ### -param DrmRights [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff536355">DRMRIGHTS</a> structure specifying the rights granted by the content provider to the user for playing and copying DRM-protected content in this stream.
+Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/drmk/ns-drmk-tagdrmrights">DRMRIGHTS</a> structure specifying the rights granted by the content provider to the user for playing and copying DRM-protected content in this stream.
 
 
 ## -returns
@@ -79,11 +79,11 @@ Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff5363
 
 The DRM system can call the <code>SetContentId</code> method at any time during the lifetime of a KS audio stream.
 
-A KS audio filter completes the execution of a call to the <code>SetContentId</code> method synchronously. If the function returns STATUS_SUCCESS, this indicates that all the downstream KS audio nodes (see <a href="https://msdn.microsoft.com/library/windows/hardware/ff536219">Audio Topology Nodes</a>) of a KS audio stream have also been successfully configured with the specified DRM content ID and DRM content rights. (The term <i>downstream node</i> refers to either a direct or an indirect sink for an audio stream.)
+A KS audio filter completes the execution of a call to the <code>SetContentId</code> method synchronously. If the function returns STATUS_SUCCESS, this indicates that all the downstream KS audio nodes (see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/audio-topology-nodes">Audio Topology Nodes</a>) of a KS audio stream have also been successfully configured with the specified DRM content ID and DRM content rights. (The term <i>downstream node</i> refers to either a direct or an indirect sink for an audio stream.)
 
 If the KS audio filter cannot enforce the specified DRM content rights, the <code>SetContentId</code> method returns the error code STATUS_NOT_IMPLEMENTED. In this case, the KS audio stream's previously set DRM content ID and DRM content rights remain set on the stream.
 
-For more information about using this method, see <a href="https://msdn.microsoft.com/7ce19196-5180-421f-b6be-ac4a235a8c16">Digital Rights Management</a>.
+For more information about using this method, see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/digital-rights-management">Digital Rights Management</a>.
 
 
 
@@ -93,31 +93,31 @@ For more information about using this method, see <a href="https://msdn.microsof
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536355">DRMRIGHTS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/drmk/ns-drmk-tagdrmrights">DRMRIGHTS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536348">DrmCreateContentMixed</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/drmk/nf-drmk-drmcreatecontentmixed">DrmCreateContentMixed</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536349">DrmDestroyContent</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/drmk/nf-drmk-drmdestroycontent">DrmDestroyContent</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536352">DrmForwardContentToFileObject</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/drmk/nf-drmk-drmforwardcontenttofileobject">DrmForwardContentToFileObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536353">DrmForwardContentToInterface</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/drmk/nf-drmk-drmforwardcontenttointerface">DrmForwardContentToInterface</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536354">DrmGetContentRights</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/drmk/nf-drmk-drmgetcontentrights">DrmGetContentRights</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536568">IDrmAudioStream</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/drmk/nn-drmk-idrmaudiostream">IDrmAudioStream</a>
  
 
  

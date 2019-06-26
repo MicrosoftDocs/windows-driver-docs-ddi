@@ -54,23 +54,23 @@ Represents the context for the activation of a UWP device app for printers.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh846191">IPrinterExtensionContextCollection</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprinterextensioncontextcollection">IPrinterExtensionContextCollection</a>
 
 
 
-<a href="https://msdn.microsoft.com/F2279727-168D-451B-8EDB-8A4A36ACA08F">IPrinterExtensionContextCollection::Count</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nf-printerextension-iprinterextensioncontextcollection-get_count">IPrinterExtensionContextCollection::Count</a>
 
 
 
-<a href="https://msdn.microsoft.com/5E3DC6C7-E370-4120-81B7-2093812AD009">IPrinterExtensionContextCollection::GetAt</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nf-printerextension-iprinterextensioncontextcollection-getat">IPrinterExtensionContextCollection::GetAt</a>
 
 
 
-<a href="https://msdn.microsoft.com/947063C6-563A-4BB7-918E-479941B4583F">IPrinterExtensionEvent::OnPrinterQueuesEnumerated</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nf-printerextension-iprinterextensionevent-onprinterqueuesenumerated">IPrinterExtensionEvent::OnPrinterQueuesEnumerated</a>
 
 
 
-<a href="https://msdn.microsoft.com/4E20303A-BEB3-4928-BA5A-356D978FA2BE">V4 Printer Driver Property Bags</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/print/v4-driver-property-bags">V4 Printer Driver Property Bags</a>
  
 
  

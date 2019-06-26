@@ -56,7 +56,7 @@ The PDEV_ADJUST_PAPER_MARGIN structure specifies the imageable printing area.
 
 ### -field rcImageableArea
 
-Is a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569236">RECTL</a> structure that specifies the rectangular region that can be printed in. This region is specified in units of 0.001 mm.
+Is a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-_rectl">RECTL</a> structure that specifies the rectangular region that can be printed in. This region is specified in units of 0.001 mm.
 
 
 ## -remarks
@@ -65,7 +65,7 @@ Is a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569236">RECT
 
 This structure is available in Windows XP and later. 
 
-The <i>pBuf</i> parameter of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553189">IPrintOemPS2::GetPDEVAdjustment</a> method can point to a structure of this type.
+The <i>pBuf</i> parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintoemps2-getpdevadjustment">IPrintOemPS2::GetPDEVAdjustment</a> method can point to a structure of this type.
 
 
 
@@ -75,11 +75,11 @@ The <i>pBuf</i> parameter of the <a href="https://msdn.microsoft.com/library/win
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553189">IPrintOemPS2::GetPDEVAdjustment</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintoemps2-getpdevadjustment">IPrintOemPS2::GetPDEVAdjustment</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569236">RECTL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-_rectl">RECTL</a>
  
 
  

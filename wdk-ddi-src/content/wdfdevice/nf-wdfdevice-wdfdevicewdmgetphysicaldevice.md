@@ -66,7 +66,7 @@ A handle to a framework device object.
 
 
 
-<b>WdfDeviceWdmGetPhysicalDevice</b> returns a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a> structure.
+<b>WdfDeviceWdmGetPhysicalDevice</b> returns a pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure.
 
 A bug check occurs if the driver supplies an invalid object handle.
 
@@ -77,12 +77,12 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
-The pointer that the <b>WdfDeviceWdmGetPhysicalDevice</b> method returns is valid until the framework device object is deleted. If the driver provides an <a href="https://msdn.microsoft.com/aba2efca-7d1f-4594-af65-13356f0e3f8b">EvtCleanupCallback</a> function for the framework device object, the pointer is valid until the callback function returns.
+The pointer that the <b>WdfDeviceWdmGetPhysicalDevice</b> method returns is valid until the framework device object is deleted. If the driver provides an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfobject/nc-wdfobject-evt_wdf_object_context_cleanup">EvtCleanupCallback</a> function for the framework device object, the pointer is valid until the callback function returns.
 
 
 #### Examples
 
-For a code example that uses <b>WdfDeviceWdmGetPhysicalDevice</b>, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff546934">WdfDeviceWdmGetAttachedDevice</a>.
+For a code example that uses <b>WdfDeviceWdmGetPhysicalDevice</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nf-wdfdevice-wdfdevicewdmgetattacheddevice">WdfDeviceWdmGetAttachedDevice</a>.
 
 <div class="code"></div>
 

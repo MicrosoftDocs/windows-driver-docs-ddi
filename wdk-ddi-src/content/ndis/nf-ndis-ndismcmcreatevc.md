@@ -59,14 +59,14 @@ req.typenames:
 ### -param MiniportAdapterHandle [in]
 
 Specifies the NDIS-supplied handle originally input to 
-     <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>.
 
 
 ### -param NdisAfHandle [in]
 
 Specifies the handle that identifies the client that is the target of an incoming call. The MCM
      driver obtained this handle as an input parameter to its 
-     <a href="https://msdn.microsoft.com/7422c205-bc41-4121-b430-ff9e6b49dc2e">ProtocolCmOpenAf</a> function.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cm_open_af">ProtocolCmOpenAf</a> function.
 
 
 ### -param MiniportVcContext [in]
@@ -140,7 +140,7 @@ The given
 <td width="60%">
 The client failed the creation of the VC for some reason, and NDIS has propagated the error
        status returned by its 
-       <a href="https://msdn.microsoft.com/b086dd24-74f5-474a-8684-09bf92ac731b">ProtocolCoCreateVc</a> function to
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_co_create_vc">ProtocolCoCreateVc</a> function to
        the MCM driver.
 
 </td>
@@ -180,11 +180,11 @@ When an MCM driver processes the offer of an incoming call directed to one of it
     <b>NdisMCmCreateVc</b> succeeds, the MCM driver can proceed in notifying the appropriate client, passing
     the returned value at 
     <i>NdisVcHandle</i> to 
-    <a href="https://msdn.microsoft.com/24102e1f-375e-4bf4-8a43-6527b90c8564">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismcmdispatchincomingcall">
     NdisMCmDispatchIncomingCall</a>.
 
 The driver writer determines whether an MCM driver has an (internal) 
-    <a href="https://msdn.microsoft.com/99eaba29-ce17-4e79-878e-5fdf7411e56c">MiniportCoCreateVc</a> function that the
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_co_create_vc">MiniportCoCreateVc</a> function that the
     driver calls in the context of setting up connections for outgoing and incoming calls.
 
 Only connection-oriented miniport drivers that provide integrated call-management support can call 
@@ -200,36 +200,36 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 
 
-<a href="https://msdn.microsoft.com/99eaba29-ce17-4e79-878e-5fdf7411e56c">MiniportCoCreateVc</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_co_create_vc">MiniportCoCreateVc</a>
 
 
 
-<a href="https://msdn.microsoft.com/df690a05-359d-44f0-b063-4fc21d6c4d76">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisallocatefromnpagedlookasidelist">
    NdisAllocateFromNPagedLookasideList</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561635">NdisClMakeCall</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisclmakecall">NdisClMakeCall</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561696">NdisCoCreateVc</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndiscocreatevc">NdisCoCreateVc</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562819">NdisMCmDeleteVc</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismcmdeletevc">NdisMCmDeleteVc</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562830">NdisMCmDispatchIncomingCall</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismcmdispatchincomingcall">NdisMCmDispatchIncomingCall</a>
 
 
 
-<a href="https://msdn.microsoft.com/3e3e7a0e-a8d2-40b2-895b-187d24867080">ProtocolCmRegisterSap</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cm_reg_sap">ProtocolCmRegisterSap</a>
 
 
 
-<a href="https://msdn.microsoft.com/b086dd24-74f5-474a-8684-09bf92ac731b">ProtocolCoCreateVc</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_co_create_vc">ProtocolCoCreateVc</a>
  
 
  

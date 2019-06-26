@@ -56,7 +56,7 @@ The KSPROPERTY_TUNER_STANDARD_MODE_S structure describes whether the tuning devi
 
 ### -field Property
 
-Specifies an initialized <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
+Specifies an initialized <a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
 
 
 ### -field AutoDetect
@@ -69,15 +69,15 @@ A Boolean value that indicates whether the tuning device can automatically detec
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
+<a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565909">KSPROPERTY_TUNER_STANDARD_MODE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-tuner-standard-mode">KSPROPERTY_TUNER_STANDARD_MODE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567800">PROPSETID_TUNER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/propsetid-tuner">PROPSETID_TUNER</a>
  
 
  

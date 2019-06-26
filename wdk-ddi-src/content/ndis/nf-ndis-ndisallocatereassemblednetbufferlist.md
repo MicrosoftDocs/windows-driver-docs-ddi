@@ -49,7 +49,7 @@ req.typenames:
 
 Call the 
   <b>NdisAllocateReassembledNetBufferList</b> function to reassemble a fragmented 
-  <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure.
+  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure.
 
 
 ## -parameters
@@ -64,10 +64,10 @@ A pointer to the NET_BUFFER_LIST structure to reassemble.
 ### -param NetBufferAndNetBufferListPoolHandle [in, optional]
 
 A NET_BUFFER_LIST structure pool handle that was previously returned from the 
-     <a href="https://msdn.microsoft.com/b117b472-0c26-41a9-b364-3d0cfbd26cc9">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisallocatenetbufferlistpool">
      NdisAllocateNetBufferListPool</a> function. The 
      <b>fAllocateNetBuffer</b> member of the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/hh205394">NET_BUFFER_LIST_POOL_PARAMETERS</a> structure that the caller passed to 
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_list_pool_parameters">NET_BUFFER_LIST_POOL_PARAMETERS</a> structure that the caller passed to 
      <b>NdisAllocateNetBufferListPool</b> must have been set to <b>TRUE</b>, and the 
      <b>DataSize</b> member set to zero. If this parameter is <b>NULL</b>, NDIS uses an internal pool.
 
@@ -75,7 +75,7 @@ A NET_BUFFER_LIST structure pool handle that was previously returned from the
 ### -param StartOffset [in]
 
 The amount of data to skip at the beginning of each source 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structure. This amount is in addition
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure. This amount is in addition
      to the value that is specified in the 
      <b>DataOffset</b> member of the NET_BUFFER structure.
 
@@ -116,19 +116,19 @@ If the reassemble operation succeeds,
 
 
 <b>NdisAllocateReassembledNetBufferList</b> allocates, initializes, and returns a new 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure that includes one 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structure and one MDL chain. The new
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure that includes one 
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure and one MDL chain. The new
     NET_BUFFER_LIST structure describes the same data as the fragmented source NET_BUFFER_LIST structure that
     the driver passed at 
     <i>FragmentedNetBufferList</i>. After skipping the number of bytes specified in 
     <i>StartOffset</i> in every fragmented NET_BUFFER structure, NDIS concatenates the remaining data in each
     fragmented NET_BUFFER structure into one reassembled NET_BUFFER structure. Reassembled NET_BUFFER_LIST
     structures do not include an initial 
-    <a href="https://msdn.microsoft.com/e5d70be6-daa5-4d2e-94fd-5739edd8821e">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_list_context">
     NET_BUFFER_LIST_CONTEXT</a> structure.
 
 Call the 
-    <a href="https://msdn.microsoft.com/bcbb0c56-1500-45b2-bd20-03726ef7da77">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisfreereassemblednetbufferlist">
     NdisFreeReassembledNetBufferList</a> function to free a reassembled NET_BUFFER_LIST structure and all
     of the associated NET_BUFFER structures and MDL chains.
 
@@ -140,28 +140,28 @@ Call the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568389">NET_BUFFER_LIST_CONTEXT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_list_context">NET_BUFFER_LIST_CONTEXT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh205394">NET_BUFFER_LIST_POOL_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_list_pool_parameters">NET_BUFFER_LIST_POOL_PARAMETERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/b117b472-0c26-41a9-b364-3d0cfbd26cc9">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisallocatenetbufferlistpool">
    NdisAllocateNetBufferListPool</a>
 
 
 
-<a href="https://msdn.microsoft.com/bcbb0c56-1500-45b2-bd20-03726ef7da77">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisfreereassemblednetbufferlist">
    NdisFreeReassembledNetBufferList</a>
  
 

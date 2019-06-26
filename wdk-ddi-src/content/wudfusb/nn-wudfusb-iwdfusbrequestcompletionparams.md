@@ -53,7 +53,7 @@ The <b>IWDFUsbRequestCompletionParams</b> interface exposes the parameters objec
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFUsbRequestCompletionParams</b> interface inherits from <a href="https://msdn.microsoft.com/library/windows/hardware/ff560292">IWDFRequestCompletionParams</a>. <b>IWDFUsbRequestCompletionParams</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFUsbRequestCompletionParams</b> interface inherits from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nn-wudfddi-iwdfrequestcompletionparams">IWDFRequestCompletionParams</a>. <b>IWDFUsbRequestCompletionParams</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -68,37 +68,37 @@ The <b>IWDFUsbRequestCompletionParams</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560348">IWDFUsbRequestCompletionParams::GetCompletedUsbRequestType</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nf-wudfusb-iwdfusbrequestcompletionparams-getcompletedusbrequesttype">IWDFUsbRequestCompletionParams::GetCompletedUsbRequestType</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/ce20ed09-2f4d-4cc0-9185-a3a72dd73165">GetCompletedUsbRequestType</a> method retrieves the type of operation that the request to be completed contains.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nf-wudfusb-iwdfusbrequestcompletionparams-getcompletedusbrequesttype">GetCompletedUsbRequestType</a> method retrieves the type of operation that the request to be completed contains.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560351">IWDFUsbRequestCompletionParams::GetDeviceControlTransferParameters</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nf-wudfusb-iwdfusbrequestcompletionparams-getdevicecontroltransferparameters">IWDFUsbRequestCompletionParams::GetDeviceControlTransferParameters</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/0c3fd576-48de-454b-8015-51767b21f17e">GetDeviceControlTransferParameters</a> method retrieves parameters that are associated with the completion of a device I/O control request.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nf-wudfusb-iwdfusbrequestcompletionparams-getdevicecontroltransferparameters">GetDeviceControlTransferParameters</a> method retrieves parameters that are associated with the completion of a device I/O control request.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560352">IWDFUsbRequestCompletionParams::GetPipeReadParameters</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nf-wudfusb-iwdfusbrequestcompletionparams-getpipereadparameters">IWDFUsbRequestCompletionParams::GetPipeReadParameters</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/e5e3dfa0-49cc-4c2d-828e-fa5c95d3db8c">GetPipeReadParameters</a> method retrieves parameters that are associated with the completion of a read request.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nf-wudfusb-iwdfusbrequestcompletionparams-getpipereadparameters">GetPipeReadParameters</a> method retrieves parameters that are associated with the completion of a read request.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560356">IWDFUsbRequestCompletionParams::GetPipeWriteParameters</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nf-wudfusb-iwdfusbrequestcompletionparams-getpipewriteparameters">IWDFUsbRequestCompletionParams::GetPipeWriteParameters</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/c6824215-0c16-471e-aea9-1b5cbeb2286b">GetPipeWriteParameters</a> method retrieves parameters that are associated with the completion of a write request.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nf-wudfusb-iwdfusbrequestcompletionparams-getpipewriteparameters">GetPipeWriteParameters</a> method retrieves parameters that are associated with the completion of a write request.
 
 </td>
 </tr>

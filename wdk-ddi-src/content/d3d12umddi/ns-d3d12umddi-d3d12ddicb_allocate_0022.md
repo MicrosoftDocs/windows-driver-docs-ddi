@@ -81,7 +81,7 @@ The number of allocations.
 
 ### -field pAllocationInfo
 
-Allocation as a <a href="https://msdn.microsoft.com/A600C402-EB77-4C44-8349-96DAF11B807C">D3D12DDI_ALLOCATION_INFO_0022</a> structure. 
+Allocation as a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d12umddi/ns-d3d12umddi-d3d12ddi_allocation_info_0022">D3D12DDI_ALLOCATION_INFO_0022</a> structure. 
 
 
 ## -see-also
@@ -89,7 +89,7 @@ Allocation as a <a href="https://msdn.microsoft.com/A600C402-EB77-4C44-8349-96DA
 
 
 
-<a href="https://msdn.microsoft.com/A600C402-EB77-4C44-8349-96DAF11B807C">D3D12DDI_ALLOCATION_INFO_0022</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d12umddi/ns-d3d12umddi-d3d12ddi_allocation_info_0022">D3D12DDI_ALLOCATION_INFO_0022</a>
  
 
  

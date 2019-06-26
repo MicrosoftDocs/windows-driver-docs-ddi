@@ -46,7 +46,7 @@ req.typenames: GetBindingSupport_OUT, *PGetBindingSupport_OUT
 ## -description
 
 
-The GetBindingSupport_OUT structure is used by a WMI provider to report the output parameter data of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553910">GetBindingSupport</a> WMI method to the WMI client. 
+The GetBindingSupport_OUT structure is used by a WMI provider to report the output parameter data of the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/getbindingsupport">GetBindingSupport</a> WMI method to the WMI client. 
 
 
 ## -struct-fields
@@ -56,19 +56,19 @@ The GetBindingSupport_OUT structure is used by a WMI provider to report the outp
 
 ### -field HBAStatus
 
-Contains the status of the operation. For a list of allowed values and their descriptions, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>. 
+Contains the status of the operation. For a list of allowed values and their descriptions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/hba-status">HBA_STATUS</a>. 
 
 
 ### -field BindType
 
-Contains a bitmap that indicates the ability of an HBA and its miniport driver to provide a specific set of features related to persistent binding. For a list of values that this parameter can have, see the description of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff556046">HBA_BIND_TYPE</a> WMI class qualifier. 
+Contains a bitmap that indicates the ability of an HBA and its miniport driver to provide a specific set of features related to persistent binding. For a list of values that this parameter can have, see the description of the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/hba-bind-type">HBA_BIND_TYPE</a> WMI class qualifier. 
 
 
 ## -remarks
 
 
 
-The WMI tool suite generates a declaration of the GetBindingSupport_OUT structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562509">MSFC_HBAFCPInfo WMI Class</a>.
+The WMI tool suite generates a declaration of the GetBindingSupport_OUT structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msfc-hbafcpinfo-wmi-class">MSFC_HBAFCPInfo WMI Class</a>.
 
 
 
@@ -78,7 +78,7 @@ The WMI tool suite generates a declaration of the GetBindingSupport_OUT structur
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553910">GetBindingSupport</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/getbindingsupport">GetBindingSupport</a>
  
 
  

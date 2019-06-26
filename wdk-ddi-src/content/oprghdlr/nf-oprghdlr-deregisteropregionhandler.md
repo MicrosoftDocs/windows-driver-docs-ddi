@@ -47,7 +47,7 @@ req.typenames:
 ## -description
 
 
-The <b>DeRegisterOpRegionHandler</b> routine deregisters an operation region handler with the <a href="https://msdn.microsoft.com/38ca54e0-defe-48b2-ab00-a5f688c2eb01">ACPI driver</a>.
+The <b>DeRegisterOpRegionHandler</b> routine deregisters an operation region handler with the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/acpi-driver">ACPI driver</a>.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ Pointer to the physical device object (PDO) that represents the ACPI device that
 
 ### -param OperationRegionObject [in]
 
-Specifies the operation region object returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff536158">RegisterOpRegionHandler</a> for the operation region handler.
+Specifies the operation region object returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/oprghdlr/nf-oprghdlr-registeropregionhandler">RegisterOpRegionHandler</a> for the operation region handler.
 
 
 ## -returns
@@ -119,9 +119,9 @@ An internal error occurred.
 
 
 
-This routine is used in combination with <a href="https://msdn.microsoft.com/library/windows/hardware/ff536158">RegisterOpRegionHandler</a>. To deregister an operation region handler, the caller must specify the operation region object returned by <b>RegisterOpRegionHandler</b> when it registered the operation region handler.
+This routine is used in combination with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/oprghdlr/nf-oprghdlr-registeropregionhandler">RegisterOpRegionHandler</a>. To deregister an operation region handler, the caller must specify the operation region object returned by <b>RegisterOpRegionHandler</b> when it registered the operation region handler.
 
-For more information about operation regions, see <a href="https://msdn.microsoft.com/windows/hardware/drivers/acpi/supporting-an-operation-region">Supporting an Operation Region</a>. 
+For more information about operation regions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/acpi/supporting-an-operation-region">Supporting an Operation Region</a>. 
 
 
 
@@ -131,11 +131,11 @@ For more information about operation regions, see <a href="https://msdn.microsof
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536153">ACPI_OP_REGION_HANDLER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/oprghdlr/nc-oprghdlr-acpi_op_region_handler">ACPI_OP_REGION_HANDLER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536158">RegisterOpRegionHandler</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/oprghdlr/nf-oprghdlr-registeropregionhandler">RegisterOpRegionHandler</a>
  
 
  

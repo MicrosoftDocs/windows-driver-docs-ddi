@@ -86,7 +86,7 @@ Specifies that chroma samples are aligned on multiples of the luma samples verti
 
 ### -field DXVA_VideoChromaSubsampling_Vertically_AlignedChromaPlanes
 
-Specifies that the Pb and Pr (or Cb and Cr) planes have the same phase alignment. This enumerator can only be set to 0 in the <b>VideoChromaSubsampling</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563967">DXVA_ExtendedFormat</a> structure if the data is vertically cosited.
+Specifies that the Pb and Pr (or Cb and Cr) planes have the same phase alignment. This enumerator can only be set to 0 in the <b>VideoChromaSubsampling</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ns-dxva-_dxva_extendedformat">DXVA_ExtendedFormat</a> structure if the data is vertically cosited.
 
 
 ### -field DXVA_VideoChromaSubsampling_MPEG2
@@ -121,7 +121,7 @@ A bitwise OR of the DXVA_VideoChromaSubsampling_Horizontally_Cosited, and DXVA_V
 
 
 
-The enumerators of DXVA_VideoChromaSubsampling can be ORed together to create a value in the <b>VideoChromaSubsampling</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563967">DXVA_ExtendedFormat</a> structure.
+The enumerators of DXVA_VideoChromaSubsampling can be ORed together to create a value in the <b>VideoChromaSubsampling</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ns-dxva-_dxva_extendedformat">DXVA_ExtendedFormat</a> structure.
 
 Cosite variations indicate that the chroma samples are aligned with the luma samples. Typically, 4:2:0 data with chroma is aligned in one or more directions with the luma data. Note that 4:4:4, 4:2:2 and 4:1:1 data are always cosited in both directions.
 
@@ -133,7 +133,7 @@ Cosite variations indicate that the chroma samples are aligned with the luma sam
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563967">DXVA_ExtendedFormat</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ns-dxva-_dxva_extendedformat">DXVA_ExtendedFormat</a>
  
 
  

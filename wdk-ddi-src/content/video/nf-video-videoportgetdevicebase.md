@@ -61,9 +61,9 @@ Pointer to the miniport driver's device extension.
 
 ### -param IoAddress
 
-The base physical address of the range to map. You get this bus-relative value by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff570311">VideoPortGetDeviceData</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff570316">VideoPortGetRegistryParameters</a>, or <a href="https://msdn.microsoft.com/library/windows/hardware/ff570302">VideoPortGetAccessRanges</a>. Otherwise, this value is a driver-supplied, default base address for the device memory or I/O ports.
+The base physical address of the range to map. You get this bus-relative value by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportgetdevicedata">VideoPortGetDeviceData</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportgetregistryparameters">VideoPortGetRegistryParameters</a>, or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportgetaccessranges">VideoPortGetAccessRanges</a>. Otherwise, this value is a driver-supplied, default base address for the device memory or I/O ports.
 
-You must have successfully claimed the range described by <i>IoAddress</i> and <i>NumberOfUchars</i> in the registry through a preceding call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff570377">VideoPortVerifyAccessRanges</a> or <b>VideoPortGetAccessRanges</b>.
+You must have successfully claimed the range described by <i>IoAddress</i> and <i>NumberOfUchars</i> in the registry through a preceding call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportverifyaccessranges">VideoPortVerifyAccessRanges</a> or <b>VideoPortGetAccessRanges</b>.
 
 
 ### -param NumberOfUchars
@@ -80,7 +80,7 @@ The location of the <i>IoAddress</i> range. This parameter can be one of the fol
 | VIDEO_MEMORY_SPACE_DENSE | Obsolete. | 
 | VIDEO_MEMORY_SPACE_IO | The address range is in I/O space, not in memory space. | 
 | VIDEO_MEMORY_SPACE_MEMORY | The address range is in memory space, not in I/O space. | 
-| VIDEO_MEMORY_SPACE_P6CACHE | The processor aggregates a sequence of write operations, sends them to a cache line, and later flushes the cache. This flag is meaningful only when VIDEO_MEMORY_SPACE_IO is not set. Designates the video memory as write-combined (WC). For information about WC caching, see the [Write-Combining Memory in Video Miniport Drivers](https://msdn.microsoft.com/library/windows/hardware/dn642116) website article. | 
+| VIDEO_MEMORY_SPACE_P6CACHE | The processor aggregates a sequence of write operations, sends them to a cache line, and later flushes the cache. This flag is meaningful only when VIDEO_MEMORY_SPACE_IO is not set. Designates the video memory as write-combined (WC). For information about WC caching, see the [Write-Combining Memory in Video Miniport Drivers](https://docs.microsoft.com/previous-versions/windows/hardware/design/dn642116(v=vs.85)) website article. | 
 
 ## -returns
 
@@ -95,9 +95,9 @@ If successful, <b>VideoPortGetDeviceBase</b> returns the base virtual address of
 
 
 
-You can pass the mapped virtual addresses to the <b>VideoPortRead</b><i>Xxx</i>, <b>VideoPortWrite</b><i>Xxx</i>, and <b>VideoPort</b><i>Xxx</i><b>Memory</b> functions, except for <a href="https://msdn.microsoft.com/library/windows/hardware/ff570331">VideoPortMapMemory</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff570376">VideoPortUnmapMemory</a>.
+You can pass the mapped virtual addresses to the <b>VideoPortRead</b><i>Xxx</i>, <b>VideoPortWrite</b><i>Xxx</i>, and <b>VideoPort</b><i>Xxx</i><b>Memory</b> functions, except for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportmapmemory">VideoPortMapMemory</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportunmapmemory">VideoPortUnmapMemory</a>.
 
-You must call <b>VideoPortGetDeviceBase</b> from the miniport driver's <a href="https://msdn.microsoft.com/8c880eff-4b4c-439e-9239-f2343c1fe084">HwVidFindAdapter</a>, <a href="https://msdn.microsoft.com/81c3f484-427e-43b8-b7dd-12017533560b">HwVidQueryDeviceCallback</a>, or <a href="https://msdn.microsoft.com/90020700-b9c8-42e6-bafa-908cbc3eb233">HwVidQueryNamedValueCallback</a> function.
+You must call <b>VideoPortGetDeviceBase</b> from the miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nc-video-pvideo_hw_find_adapter">HwVidFindAdapter</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nc-video-pminiport_query_device_routine">HwVidQueryDeviceCallback</a>, or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nc-video-pminiport_get_registry_routine">HwVidQueryNamedValueCallback</a> function.
 
 Before <i>HwVidFindAdapter</i> returns control, you should store both the mapped base address returned by <b>VideoPortGetDeviceBase</b> and the length of the mapped access range in the adapter's device extension (pointed to by <i>HwDeviceExtension</i>) for later use.
 
@@ -117,11 +117,11 @@ The driver must not access addresses that are outside the range delimited by <i>
 
 </li>
 </ul>
-<b>VideoPortGetDeviceBase</b> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff570331">VideoPortMapMemory</a> can both be called by the video miniport driver to map video memory into a virtual address space. If you call both of these functions to map the same physical addresses, or if you call one of the functions more than once to map the same physical addresses, you might have more than one virtual-address range that maps to the same physical-address range. In that case, you must set the VIDEO_MEMORY_SPACE_P6CACHE flag of the <i>InIoSpace</i> parameter to the same value in all of those calls.
+<b>VideoPortGetDeviceBase</b> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportmapmemory">VideoPortMapMemory</a> can both be called by the video miniport driver to map video memory into a virtual address space. If you call both of these functions to map the same physical addresses, or if you call one of the functions more than once to map the same physical addresses, you might have more than one virtual-address range that maps to the same physical-address range. In that case, you must set the VIDEO_MEMORY_SPACE_P6CACHE flag of the <i>InIoSpace</i> parameter to the same value in all of those calls.
 
-Every universal memory architecture (UMA) display device uses a frame buffer that is located in main memory rather than on a PCI bus. In this case, do not call <b>VideoPortMapMemory</b> to map the frame buffer. To map a UMA frame buffer into system space, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff554618">MmMapIoSpace</a>.
+Every universal memory architecture (UMA) display device uses a frame buffer that is located in main memory rather than on a PCI bus. In this case, do not call <b>VideoPortMapMemory</b> to map the frame buffer. To map a UMA frame buffer into system space, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-mmmapiospace">MmMapIoSpace</a>.
 
-If a miniport driver does not support an adapter that it has mapped a logical range for, it must perform two steps before it returns control to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> function: call <a href="https://msdn.microsoft.com/library/windows/hardware/ff570300">VideoPortFreeDeviceBase</a> to unmap the previously mapped range from system space, and call <a href="https://msdn.microsoft.com/library/windows/hardware/ff570302">VideoPortGetAccessRanges</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff570377">VideoPortVerifyAccessRanges</a> to release its claims on the range in the registry. 
+If a miniport driver does not support an adapter that it has mapped a logical range for, it must perform two steps before it returns control to the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> function: call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportfreedevicebase">VideoPortFreeDeviceBase</a> to unmap the previously mapped range from system space, and call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportgetaccessranges">VideoPortGetAccessRanges</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportverifyaccessranges">VideoPortVerifyAccessRanges</a> to release its claims on the range in the registry. 
 
 
 
@@ -131,51 +131,51 @@ If a miniport driver does not support an adapter that it has mapped a logical ra
 
 
 
-<a href="https://msdn.microsoft.com/8c880eff-4b4c-439e-9239-f2343c1fe084">HwVidFindAdapter</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nc-video-pvideo_hw_find_adapter">HwVidFindAdapter</a>
 
 
 
-<a href="https://msdn.microsoft.com/81c3f484-427e-43b8-b7dd-12017533560b">HwVidQueryDeviceCallback</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nc-video-pminiport_query_device_routine">HwVidQueryDeviceCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/90020700-b9c8-42e6-bafa-908cbc3eb233">HwVidQueryNamedValueCallback</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nc-video-pminiport_get_registry_routine">HwVidQueryNamedValueCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570285">VideoPortCompareMemory</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportcomparememory">VideoPortCompareMemory</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570300">VideoPortFreeDeviceBase</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportfreedevicebase">VideoPortFreeDeviceBase</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570302">VideoPortGetAccessRanges</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportgetaccessranges">VideoPortGetAccessRanges</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570311">VideoPortGetDeviceData</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportgetdevicedata">VideoPortGetDeviceData</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570316">VideoPortGetRegistryParameters</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportgetregistryparameters">VideoPortGetRegistryParameters</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570332">VideoPortMoveMemory</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportmovememory">VideoPortMoveMemory</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570377">VideoPortVerifyAccessRanges</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportverifyaccessranges">VideoPortVerifyAccessRanges</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570492">VideoPortZeroDeviceMemory</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportzerodevicememory">VideoPortZeroDeviceMemory</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570493">VideoPortZeroMemory</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportzeromemory">VideoPortZeroMemory</a>
  
 
  

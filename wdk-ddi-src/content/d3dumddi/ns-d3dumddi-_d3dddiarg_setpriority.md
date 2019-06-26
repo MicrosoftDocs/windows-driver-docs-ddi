@@ -80,7 +80,7 @@ The priority level at which a texture is set determines its eviction order from 
 
 
 
-<a href="https://msdn.microsoft.com/61ac2d28-7aed-4796-8d09-591db936013b">SetPriority</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_setpriority">SetPriority</a>
  
 
  

@@ -156,7 +156,7 @@ Indicates a pipe that is not to be used for video or still streaming.
 
 The camera minidriver indicates pipe stream associations by identifying all streams associated with a particular pipe. If there is more than one stream association, USBCAMD creates a virtual still pin. The still stream pin always follows the video stream pin (that is, the video stream pin is the first stream pin). 
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff557605">CamConfigureEx</a> routine uses the <b>USBCAMD_Pipe_Config_Descriptor</b> structure to establish a connection between pipes and streams. An array of USBCAMD_Pipe_Config_Descriptor structures is passed into <b>CamConfigureEx</b>, along with the array size, which is equal to the number of pipes found.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbcamdi/nc-usbcamdi-pcam_configure_routine_ex">CamConfigureEx</a> routine uses the <b>USBCAMD_Pipe_Config_Descriptor</b> structure to establish a connection between pipes and streams. An array of USBCAMD_Pipe_Config_Descriptor structures is passed into <b>CamConfigureEx</b>, along with the array size, which is equal to the number of pipes found.
 
 The camera minidriver must set the <b>PipeConfigFlags</b> member to the value USBCAMD_DONT_CARE_PIPE if a particular pipe should not be used by USBCAMD. For example, when using an audio and video isochronous pipe, and a camera device that supports stills and video, the <b>PipeConfigFlags</b> member in the first structure should be set to USBCAMD_DONT_CARE_PIPE. The second <b>USBCAMD_Pipe_Config_Descriptor</b> structure should have its <b>StreamAssociation</b> member value set to USBCAMD_VIDEO_STILL_STREAM and its <b>PipeConfigFlags</b> member value set to USBCAMD_MULTIPLEX_PIPE.
 
@@ -172,7 +172,7 @@ The USBCAMD library requires that the camera must have a single configuration de
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557605">CamConfigureEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbcamdi/nc-usbcamdi-pcam_configure_routine_ex">CamConfigureEx</a>
  
 
  

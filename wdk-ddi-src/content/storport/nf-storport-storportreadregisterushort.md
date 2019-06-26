@@ -69,7 +69,7 @@ A Pointer to the register where the data is to be read.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff564744">ScsiPortReadRegisterUshort</a>. For a buffered version of this routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff567481">StorPortReadRegisterBufferUshort</a>.
+For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/srb/nf-srb-scsiportreadregisterushort">ScsiPortReadRegisterUshort</a>. For a buffered version of this routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportreadregisterbufferushort">StorPortReadRegisterBufferUshort</a>.
 
 
 
@@ -79,11 +79,11 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564744">ScsiPortReadRegisterUshort</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/srb/nf-srb-scsiportreadregisterushort">ScsiPortReadRegisterUshort</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567481">StorPortReadRegisterBufferUshort</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportreadregisterbufferushort">StorPortReadRegisterBufferUshort</a>
  
 
  

@@ -48,7 +48,7 @@ product:
 ## -description
 
 
-<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_CIPHER_ALGORITHM_LIST structure defines a list of
+<div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_CIPHER_ALGORITHM_LIST structure defines a list of
   <a href="..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md">DOT11_CIPHER_ALGORITHM</a> structures that
   can be enabled on the 802.11 station.
 
@@ -134,7 +134,7 @@ The list of cipher algorithms is sorted by preference.
 
 
 A miniport driver returns the DOT11_CIPHER_ALGORITHM_LIST structure when it is queried by either
-    <a href="https://msdn.microsoft.com/library/gg157261.aspx">
+    <a href="https://docs.microsoft.com/previous-versions/windows/embedded/gg157261(v=winembedded.80)">
     OID_DOT11_SUPPORTED_UNICAST_ALGORITHM_PAIR</a> or
     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-supported-multicast-algorithm-pair">
     OID_DOT11_SUPPORTED_MULTICAST_ALGORITHM_PAIR</a>.
@@ -207,7 +207,7 @@ Return NDIS_STATUS_SUCCESS from its
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/gg157261.aspx">
+<a href="https://docs.microsoft.com/previous-versions/windows/embedded/gg157261(v=winembedded.80)">
    OID_DOT11_SUPPORTED_UNICAST_ALGORITHM_PAIR</a>
 
 

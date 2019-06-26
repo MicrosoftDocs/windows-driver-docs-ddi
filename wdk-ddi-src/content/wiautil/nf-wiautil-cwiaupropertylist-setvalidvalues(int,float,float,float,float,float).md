@@ -85,4 +85,4 @@ This method does not return a value.
 
 [CWiauPropertyList::SendToWia](nf-wiautil-cwiaupropertylist-sendtowia.md)
 
-[CWiauPropertyList::SetValidValues(INT,FLOAT,FLOAT,INT,PFLOAT)](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-cwiaupropertylist-setvalidvalues%28int_float_float_int_pfloat%29)
+[CWiauPropertyList::SetValidValues(INT,FLOAT,FLOAT,INT,PFLOAT)](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-cwiaupropertylist-setvalidvalues(int_float_float_int_pfloat))

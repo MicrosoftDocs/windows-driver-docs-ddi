@@ -46,7 +46,7 @@ req.typenames: D3DDDICB_EVICT
 ## -description
 
 
-<b>D3DKMT_EVICT</b> is used with <a href="https://msdn.microsoft.com/5E66A522-BC1C-4E7C-8732-87D40F99BBDA">pfnEvictCb</a> to subtract one from the residency reference count.
+<b>D3DKMT_EVICT</b> is used with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_evictcb">pfnEvictCb</a> to subtract one from the residency reference count.
 
 Once this count reaches zero, it will remove the allocation from the device residency list.
   
@@ -69,7 +69,7 @@ Once this count reaches zero, it will remove the allocation from the device resi
 
 ### -field Flags
 
-[in] Specifies eviction behavior as documented in <a href="https://msdn.microsoft.com/library/windows/hardware/dn906322">D3DDDI_EVICT_FLAGS</a>. 
+[in] Specifies eviction behavior as documented in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dukmdt/ns-d3dukmdt-d3dddi_evict_flags">D3DDDI_EVICT_FLAGS</a>. 
 
 
 ### -field NumBytesToTrim
@@ -82,11 +82,11 @@ Once this count reaches zero, it will remove the allocation from the device resi
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn906322">D3DDDI_EVICT_FLAGS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dukmdt/ns-d3dukmdt-d3dddi_evict_flags">D3DDDI_EVICT_FLAGS</a>
 
 
 
-<a href="https://msdn.microsoft.com/5E66A522-BC1C-4E7C-8732-87D40F99BBDA">pfnEvictCb</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_evictcb">pfnEvictCb</a>
  
 
  

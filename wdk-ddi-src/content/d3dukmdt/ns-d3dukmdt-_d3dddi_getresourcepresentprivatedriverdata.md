@@ -46,7 +46,7 @@ req.typenames: D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA
 ## -description
 
 
-<b>D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA</b> is used with <a href="https://msdn.microsoft.com/D4F0F272-60DC-4060-9762-3DB49236CE62">pfnGetResourcePresentPrivateDriverDataCb</a> to query the resource private data, which is associated with the resource during Present. 
+<b>D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA</b> is used with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_getresourcepresentprivatedriverdatacb">pfnGetResourcePresentPrivateDriverDataCb</a> to query the resource private data, which is associated with the resource during Present. 
 
 
 
@@ -79,7 +79,7 @@ req.typenames: D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA
 
 
 
-<a href="https://msdn.microsoft.com/D4F0F272-60DC-4060-9762-3DB49236CE62">pfnGetResourcePresentPrivateDriverDataCb</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_getresourcepresentprivatedriverdatacb">pfnGetResourcePresentPrivateDriverDataCb</a>
  
 
  

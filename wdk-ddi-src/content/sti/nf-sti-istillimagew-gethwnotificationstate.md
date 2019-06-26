@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <b>IStillImage::GetHwNotificationState</b> method indicates whether applications will be notified when <a href="https://msdn.microsoft.com/5f9be89c-8442-4894-b2f6-a4d3558464bf">Still Image Device Events</a> occur on a specified device.
+The <b>IStillImage::GetHwNotificationState</b> method indicates whether applications will be notified when <a href="https://docs.microsoft.com/windows-hardware/drivers/image/still-image-device-events">Still Image Device Events</a> occur on a specified device.
 
 
 ## -parameters
@@ -56,7 +56,7 @@ The <b>IStillImage::GetHwNotificationState</b> method indicates whether applicat
 
 ### -param pwszDeviceName [in]
 
-Caller-supplied pointer to a string representing an internal device name, obtained by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff543790">IStillImage::GetSTILaunchInformation</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff543784">IStillImage::GetDeviceList</a>.
+Caller-supplied pointer to a string representing an internal device name, obtained by calling <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff543790(v=vs.85)">IStillImage::GetSTILaunchInformation</a> or <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff543784(v=vs.85)">IStillImage::GetDeviceList</a>.
 
 
 ### -param pbCurrentState [out]
@@ -77,7 +77,7 @@ If the operation succeeds, the method returns S_OK. Otherwise, it returns one of
 
 
 
-Before calling <b>IStillImage::GetHwNotificationState</b>, clients of the <b>IStillImage</b> COM interface must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff543804">IStillImage::StiCreateInstance</a> to obtain an <b>IStillImage</b> interface pointer.
+Before calling <b>IStillImage::GetHwNotificationState</b>, clients of the <b>IStillImage</b> COM interface must call <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff543804(v=vs.85)">IStillImage::StiCreateInstance</a> to obtain an <b>IStillImage</b> interface pointer.
 
 
 
@@ -87,11 +87,11 @@ Before calling <b>IStillImage::GetHwNotificationState</b>, clients of the <b>ISt
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543780">IStillImage::EnableHwNotifications</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff543780(v=vs.85)">IStillImage::EnableHwNotifications</a>
 
 
 
-<a href="https://msdn.microsoft.com/a9ceee48-cbb5-4448-83b4-9c19fe89fcb9">IStillImageW</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_image/index">IStillImageW</a>
  
 
  

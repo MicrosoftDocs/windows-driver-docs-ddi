@@ -46,7 +46,7 @@ req.typenames: PCI_MSIX_TABLE_CONFIG_INTERFACE, *PPCI_MSIX_TABLE_CONFIG_INTERFAC
 ## -description
 
 
-The <b>PCI_MSIX_TABLE_CONFIG_INTERFACE</b> structure enables device drivers to modify their MSI-X interrupt settings. This structure  describes the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558787">GUID_MSIX_TABLE_CONFIG_INTERFACE</a> interface.
+The <b>PCI_MSIX_TABLE_CONFIG_INTERFACE</b> structure enables device drivers to modify their MSI-X interrupt settings. This structure  describes the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_pci_msix_table_config_interface">GUID_MSIX_TABLE_CONFIG_INTERFACE</a> interface.
 
 
 ## -struct-fields
@@ -71,27 +71,27 @@ A pointer to interface-specific context information.
 
 ### -field InterfaceReference
 
-A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff547833">InterfaceReference</a> routine that increments the interface's reference count.
+A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pinterface_reference">InterfaceReference</a> routine that increments the interface's reference count.
 
 
 ### -field InterfaceDereference
 
-A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff547829">InterfaceDereference</a> routine that decrements the interface's reference count.
+A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pinterface_dereference">InterfaceDereference</a> routine that decrements the interface's reference count.
 
 
 ### -field SetTableEntry
 
-A pointer to the interface's <a href="https://msdn.microsoft.com/library/windows/hardware/gg604857">SetTableEntry</a> routine.
+A pointer to the interface's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pci_msix_set_entry">SetTableEntry</a> routine.
 
 
 ### -field MaskTableEntry
 
-A pointer to the interface's <a href="https://msdn.microsoft.com/library/windows/hardware/gg604852">MaskTableEntry</a> routine.
+A pointer to the interface's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pci_msix_maskunmask_entry">MaskTableEntry</a> routine.
 
 
 ### -field UnmaskTableEntry
 
-A pointer to the interface's <a href="https://msdn.microsoft.com/library/windows/hardware/gg604859">UnmaskTableEntry</a> routine.
+A pointer to the interface's <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/gg604859(v=vs.85)">UnmaskTableEntry</a> routine.
 
 
 ### -field GetTableEntry
@@ -108,7 +108,7 @@ Reserved for future use.
 
 
 
-A driver obtains a pointer to the <b>PCI_MSIX_TABLE_CONFIG_INTERFACE</b> structure by sending an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551687">IRP_MN_QUERY_INTERFACE</a> IRP to its bus driver with <b>InterfaceType</b> set to <a href="https://msdn.microsoft.com/library/windows/hardware/ff558787">GUID_MSIX_TABLE_CONFIG_INTERFACE</a>.
+A driver obtains a pointer to the <b>PCI_MSIX_TABLE_CONFIG_INTERFACE</b> structure by sending an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-interface">IRP_MN_QUERY_INTERFACE</a> IRP to its bus driver with <b>InterfaceType</b> set to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_pci_msix_table_config_interface">GUID_MSIX_TABLE_CONFIG_INTERFACE</a>.
 
 
 
@@ -118,31 +118,31 @@ A driver obtains a pointer to the <b>PCI_MSIX_TABLE_CONFIG_INTERFACE</b> structu
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558787">GUID_MSIX_TABLE_CONFIG_INTERFACE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_pci_msix_table_config_interface">GUID_MSIX_TABLE_CONFIG_INTERFACE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551687">IRP_MN_QUERY_INTERFACE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-interface">IRP_MN_QUERY_INTERFACE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547829">InterfaceDereference</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pinterface_dereference">InterfaceDereference</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547833">InterfaceReference</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pinterface_reference">InterfaceReference</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/gg604852">MaskTableEntry</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pci_msix_maskunmask_entry">MaskTableEntry</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/gg604857">SetTableEntry</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pci_msix_set_entry">SetTableEntry</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/gg604859">UnmaskTableEntry</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/gg604859(v=vs.85)">UnmaskTableEntry</a>
  
 
  

@@ -66,7 +66,7 @@ The D3DDDIARG_RENAME structure describes a resource or a surface within the reso
 
 ### -field hCookie
 
-[in] A handle that represents the renamed surface instance that the <a href="https://msdn.microsoft.com/c8f76ebe-947a-45e4-abbc-f6020da929e8">LockAsync</a> function previously returned. 
+[in] A handle that represents the renamed surface instance that the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_lockasync">LockAsync</a> function previously returned. 
 
 
 ### -field GpuVirtualAddress
@@ -81,11 +81,11 @@ This member is available beginning with Windows 7.
 
 
 
-<a href="https://msdn.microsoft.com/c8f76ebe-947a-45e4-abbc-f6020da929e8">LockAsync</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_lockasync">LockAsync</a>
 
 
 
-<a href="https://msdn.microsoft.com/60f733e1-d376-4372-b1cc-39508b3a98e5">Rename</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_rename">Rename</a>
  
 
  

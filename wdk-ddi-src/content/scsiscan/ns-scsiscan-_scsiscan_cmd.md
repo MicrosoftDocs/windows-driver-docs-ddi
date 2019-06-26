@@ -46,7 +46,7 @@ req.typenames: SCSISCAN_CMD, *PSCSISCAN_CMD
 ## -description
 
 
-The SCSISCAN_CMD structure is used as a parameter to <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>, when the specified I/O control code is <a href="https://msdn.microsoft.com/library/windows/hardware/ff542877">IOCTL_SCSISCAN_CMD</a>.
+The SCSISCAN_CMD structure is used as a parameter to <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>, when the specified I/O control code is <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/scsiscan/ni-scsiscan-ioctl_scsiscan_cmd">IOCTL_SCSISCAN_CMD</a>.
 
 
 ## -struct-fields
@@ -71,7 +71,7 @@ Caller-supplied SRB_FLAGS-prefixed bit flag specifying the requested operation. 
 
 ### -field CdbLength
 
-Length, in bytes, of the <a href="https://msdn.microsoft.com/ac439eb8-b491-4215-877d-5ee177fbdb39">CDB</a> contained in the <b>Cdb</b> member.
+Length, in bytes, of the <a href="https://docs.microsoft.com/windows-hardware/drivers/">CDB</a> contained in the <b>Cdb</b> member.
 
 
 ### -field SenseLength
@@ -91,12 +91,12 @@ Reserved. Do not use.
 
 ### -field TransferLength
 
-Length, in bytes, of the buffer to be transferred. This should match the value specified for the <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> function's <i>nOutBufferSize</i> parameter.
+Length, in bytes, of the buffer to be transferred. This should match the value specified for the <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function's <i>nOutBufferSize</i> parameter.
 
 
 ### -field Cdb
 
-Caller-supplied <a href="https://msdn.microsoft.com/ac439eb8-b491-4215-877d-5ee177fbdb39">CDB</a> data. (The CDB structure is declared in <i>scsi.h</i>.)
+Caller-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/">CDB</a> data. (The CDB structure is declared in <i>scsi.h</i>.)
 
 
 ### -field pSrbStatus

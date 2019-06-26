@@ -135,7 +135,7 @@ The user manually sets the flash settings.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj156041">KSPROPERTY_CAMERACONTROL_FLASH_PROPERTY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-cameracontrol-flash-property">KSPROPERTY_CAMERACONTROL_FLASH_PROPERTY</a>
  
 
  

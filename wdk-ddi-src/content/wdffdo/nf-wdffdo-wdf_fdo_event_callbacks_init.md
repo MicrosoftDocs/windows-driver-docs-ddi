@@ -48,7 +48,7 @@ req.typenames:
 
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
-The <b>WDF_FDO_EVENT_CALLBACKS_INIT</b> function initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551311">WDF_FDO_EVENT_CALLBACKS</a> structure.
+The <b>WDF_FDO_EVENT_CALLBACKS_INIT</b> function initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdffdo/ns-wdffdo-_wdf_fdo_event_callbacks">WDF_FDO_EVENT_CALLBACKS</a> structure.
 
 
 ## -parameters
@@ -58,7 +58,7 @@ The <b>WDF_FDO_EVENT_CALLBACKS_INIT</b> function initializes a <a href="https://
 
 ### -param Callbacks [out]
 
-A pointer to the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff551311">WDF_FDO_EVENT_CALLBACKS</a> structure. 
+A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdffdo/ns-wdffdo-_wdf_fdo_event_callbacks">WDF_FDO_EVENT_CALLBACKS</a> structure. 
 
 
 ## -returns
@@ -74,12 +74,12 @@ None
 
 
 
-The <b>WDF_FDO_EVENT_CALLBACKS_INIT</b> function zeros the specified <a href="https://msdn.microsoft.com/library/windows/hardware/ff551311">WDF_FDO_EVENT_CALLBACKS</a> structure and sets the structure's <b>Size</b> member.
+The <b>WDF_FDO_EVENT_CALLBACKS_INIT</b> function zeros the specified <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdffdo/ns-wdffdo-_wdf_fdo_event_callbacks">WDF_FDO_EVENT_CALLBACKS</a> structure and sets the structure's <b>Size</b> member.
 
 
 #### Examples
 
-For a code example that uses <b>WDF_FDO_EVENT_CALLBACKS_INIT</b>, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff547268">WdfFdoInitSetEventCallbacks</a>.
+For a code example that uses <b>WDF_FDO_EVENT_CALLBACKS_INIT</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdffdo/nf-wdffdo-wdffdoinitseteventcallbacks">WdfFdoInitSetEventCallbacks</a>.
 
 <div class="code"></div>
 
@@ -90,7 +90,7 @@ For a code example that uses <b>WDF_FDO_EVENT_CALLBACKS_INIT</b>, see <a href="h
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547268">WdfFdoInitSetEventCallbacks</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdffdo/nf-wdffdo-wdffdoinitseteventcallbacks">WdfFdoInitSetEventCallbacks</a>
  
 
  

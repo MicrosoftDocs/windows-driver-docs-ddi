@@ -46,7 +46,7 @@ req.typenames: SetBindingSupport_IN, *PSetBindingSupport_IN
 ## -description
 
 
-The SetBindingSupport_IN structure is used to deliver input parameter data to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565565">SetBindingSupport</a> WMI method.
+The SetBindingSupport_IN structure is used to deliver input parameter data to the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/setbindingsupport">SetBindingSupport</a> WMI method.
 
 
 ## -struct-fields
@@ -68,7 +68,7 @@ Contains a bitmap that indicates the ability of an HBA and its miniport driver t
 
 
 
-The WMI tool suite generates a declaration of the SetBindingSupport_IN structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562509">MSFC_HBAFCPInfo WMI Class</a>.
+The WMI tool suite generates a declaration of the SetBindingSupport_IN structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msfc-hbafcpinfo-wmi-class">MSFC_HBAFCPInfo WMI Class</a>.
 
 
 
@@ -78,7 +78,7 @@ The WMI tool suite generates a declaration of the SetBindingSupport_IN structure
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565565">SetBindingSupport</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/setbindingsupport">SetBindingSupport</a>
  
 
  

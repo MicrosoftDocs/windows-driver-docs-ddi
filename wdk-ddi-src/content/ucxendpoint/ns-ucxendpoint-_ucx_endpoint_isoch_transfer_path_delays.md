@@ -70,7 +70,7 @@ The maximum delay in milliseconds from the time an isochronous transfer is compl
 
 
 
-<a href="https://msdn.microsoft.com/E400CCAE-8F0F-4814-8B63-EB4E116543A2">EVT_UCX_ENDPOINT_GET_ISOCH_TRANSFER_PATH_DELAYS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucxendpoint/nc-ucxendpoint-evt_ucx_endpoint_get_isoch_transfer_path_delays">EVT_UCX_ENDPOINT_GET_ISOCH_TRANSFER_PATH_DELAYS</a>
  
 
  

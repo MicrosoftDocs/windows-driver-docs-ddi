@@ -249,7 +249,7 @@ Open a file with a reparse point and bypass normal reparse point processing for 
 FILE_DELETE_ON_CLOSE
 </td>
 <td>
-The system deletes the file when the last handle to the file is passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff566417">NtClose</a>. If this flag is set, the DELETE flag must be set in the <i>DesiredAccess</i> parameter.
+The system deletes the file when the last handle to the file is passed to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-ntclose">NtClose</a>. If this flag is set, the DELETE flag must be set in the <i>DesiredAccess</i> parameter.
 </td>
 </tr>
 <tr>

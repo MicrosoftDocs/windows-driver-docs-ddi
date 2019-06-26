@@ -56,12 +56,12 @@ The <i>DxgkDdiSetPalette</i> function programs the color registers for palettize
 
 ### -param hAdapter [in]
 
-[in] A handle to a context block that is associated with a display adapter. The display miniport driver previously provided this handle to the Microsoft DirectX graphics kernel subsystem in the <i>MiniportDeviceContext</i> output parameter of the <a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a> function.
+[in] A handle to a context block that is associated with a display adapter. The display miniport driver previously provided this handle to the Microsoft DirectX graphics kernel subsystem in the <i>MiniportDeviceContext</i> output parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function.
 
 
 ### -param pSetPalette [in]
 
-[in] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff557655">DXGKARG_SETPALETTE</a> structure that describes the palette to set for the display. 
+[in] A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmdt/ns-d3dkmdt-_dxgkarg_setpalette">DXGKARG_SETPALETTE</a> structure that describes the palette to set for the display. 
 
 
 ## -returns
@@ -77,7 +77,7 @@ The <i>DxgkDdiSetPalette</i> function programs the color registers for palettize
 
 
 
-Implementation of the <i>DxgkDdiSetPalette</i> function in the Windows Vista display driver model replaces <a href="https://msdn.microsoft.com/library/windows/hardware/ff567842">IOCTL_VIDEO_SET_COLOR_REGISTERS</a> functionality in the Windows 2000 display driver model.
+Implementation of the <i>DxgkDdiSetPalette</i> function in the Windows Vista display driver model replaces <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddvdeo/ni-ntddvdeo-ioctl_video_set_color_registers">IOCTL_VIDEO_SET_COLOR_REGISTERS</a> functionality in the Windows 2000 display driver model.
 
 <i>DxgkDdiSetPalette</i> should be made pageable.
 
@@ -89,15 +89,15 @@ Implementation of the <i>DxgkDdiSetPalette</i> function in the Windows Vista dis
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546155">D3DKMDT_PALETTEDATA</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmdt/ns-d3dkmdt-_d3dkmdt_palettedata">D3DKMDT_PALETTEDATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557655">DXGKARG_SETPALETTE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmdt/ns-d3dkmdt-_dxgkarg_setpalette">DXGKARG_SETPALETTE</a>
 
 
 
-<a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a>
  
 
  

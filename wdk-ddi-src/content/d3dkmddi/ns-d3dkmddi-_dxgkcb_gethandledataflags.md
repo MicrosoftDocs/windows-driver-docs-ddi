@@ -76,7 +76,7 @@ A member in the union that DXGKCB_GETHANDLEDATAFLAGS contains that can hold a 32
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557534">DXGKARGCB_GETHANDLEDATA</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkargcb_gethandledata">DXGKARGCB_GETHANDLEDATA</a>
  
 
  

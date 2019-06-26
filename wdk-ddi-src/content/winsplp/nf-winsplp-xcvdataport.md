@@ -110,7 +110,7 @@ Caller-supplied pointer to a location to receive the minimum size, in bytes, req
 
 
 
-If the operation succeeds, this function should return ERROR_SUCCESS. Otherwise, it should return an ERROR_-prefixed Win32 error code. The print monitor UI DLL receives this value in the <i>pdwStatus</i> location specified for <a href="https://msdn.microsoft.com/library/windows/hardware/ff564255">XcvData</a>.
+If the operation succeeds, this function should return ERROR_SUCCESS. Otherwise, it should return an ERROR_-prefixed Win32 error code. The print monitor UI DLL receives this value in the <i>pdwStatus</i> location specified for <a href="https://docs.microsoft.com/previous-versions/ff564255(v=vs.85)">XcvData</a>.
 
 
 
@@ -121,7 +121,7 @@ If the operation succeeds, this function should return ERROR_SUCCESS. Otherwise,
 
 Port monitor server DLLs are required to define an <b>XcvDataPort</b> function so they can receive information from, and return information to, a port monitor UI DLL. The function's address must be included in a <a href="..\winsplp\ns-winsplp-_monitor2.md">MONITOR2</a> structure.
 
-The <b>XcvDataPort</b> function is called by the spooler's <a href="https://msdn.microsoft.com/library/windows/hardware/ff564255">XcvData</a> function. The function parameters for <b>XcvDataPort</b> and <b>XcvData</b> are almost identical. (<b>XcvData</b> has an additional parameter, <i>pdwStatus</i>, that is not present in <b>XcvDataPort</b>.)
+The <b>XcvDataPort</b> function is called by the spooler's <a href="https://docs.microsoft.com/previous-versions/ff564255(v=vs.85)">XcvData</a> function. The function parameters for <b>XcvDataPort</b> and <b>XcvData</b> are almost identical. (<b>XcvData</b> has an additional parameter, <i>pdwStatus</i>, that is not present in <b>XcvDataPort</b>.)
 
 The string pointed to by <i>pszDataName</i> specifies the operation to be performed. The function must recognize the following data name strings:
 
@@ -193,7 +193,7 @@ Validate the contents of the buffer pointed to by the <i>pInputData</i> paramete
 
 </li>
 </ul>
-If you are writing a port monitor that will communicate with TCPMON, see <a href="https://msdn.microsoft.com/7b2b1cff-ab8f-44e0-9327-dc60a0072bf5">TCPMON Xcv Interface</a>.
+If you are writing a port monitor that will communicate with TCPMON, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/tcpmon-xcv-interface">TCPMON Xcv Interface</a>.
 
 
 
@@ -216,7 +216,7 @@ If you are writing a port monitor that will communicate with TCPMON, see <a href
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564255">XcvData</a>
+<a href="https://docs.microsoft.com/previous-versions/ff564255(v=vs.85)">XcvData</a>
 
 
 

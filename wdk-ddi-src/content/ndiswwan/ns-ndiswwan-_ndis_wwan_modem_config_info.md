@@ -102,7 +102,7 @@ sizeof(NDIS_WWAN_MODEM_CONFIG_INFO)
  
 
 For more information about these members, see 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field uStatus
@@ -174,7 +174,7 @@ The operation failed because the device does not support this OID.
 
 ### -field ModemConfigInfo
 
-A formatted <a href="https://msdn.microsoft.com/14FBFA51-F4A5-417A-8905-241CEA543774">WWAN_MODEM_CONFIG_INFO</a> structure that represents the modem's configuration information.
+A formatted <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_modem_config_info">WWAN_MODEM_CONFIG_INFO</a> structure that represents the modem's configuration information.
 
 
 ## -see-also
@@ -182,7 +182,7 @@ A formatted <a href="https://msdn.microsoft.com/14FBFA51-F4A5-417A-8905-241CEA54
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
@@ -194,7 +194,7 @@ A formatted <a href="https://msdn.microsoft.com/14FBFA51-F4A5-417A-8905-241CEA54
 
 
 
-<a href="https://msdn.microsoft.com/14FBFA51-F4A5-417A-8905-241CEA543774">WWAN_MODEM_CONFIG_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_modem_config_info">WWAN_MODEM_CONFIG_INFO</a>
  
 
  

@@ -46,7 +46,7 @@ req.typenames: DXGKARG_COMMITVIDPN
 ## -description
 
 
-The DXGKARG_COMMITVIDPN structure holds arguments for the <a href="https://msdn.microsoft.com/979b86e9-f3ff-4022-8c00-b6afc2b1f747">DxgkDdiCommitVidPn</a> function. The <i>DxgkDdiCommitVidPn</i> function makes a specified video present network (VidPN) active on a display adapter.
+The DXGKARG_COMMITVIDPN structure holds arguments for the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_commitvidpn">DxgkDdiCommitVidPn</a> function. The <i>DxgkDdiCommitVidPn</i> function makes a specified video present network (VidPN) active on a display adapter.
 
 
 ## -struct-fields
@@ -66,7 +66,7 @@ The constant D3DDDI_ID_ALL or the identifier of a particular video present sourc
 
 ### -field MonitorConnectivityChecks
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff546082">D3DKMDT_MONITOR_CONNECTIVITY_CHECKS</a> enumerator (<b>D3DKMDT_MCC_IGNORE</b> or <b>D3DKMDT_MCC_ENFORCE</b>) that specifies whether to verify that video outputs in the new topology have monitors connected. If this member is equal to <b>D3DKMDT_MCC_ENFORCE</b> and one of the video outputs in the new VidPN's topology does not have a monitor connected, <i>DxgkDdiCommitVidPn</i> must leave the currently active VidPN in place and return STATUS_GRAPHICS_INVALID_VIDPN_TOPOLOGY. If this member is equal to D3DKMDT_MCC_IGNORE, <i>DxgkDdiCommitVidPn</i> can make the new VidPN active without checking to see whether any video outputs have monitors connected.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmdt/ne-d3dkmdt-_d3dkmdt_monitor_connectivity_checks">D3DKMDT_MONITOR_CONNECTIVITY_CHECKS</a> enumerator (<b>D3DKMDT_MCC_IGNORE</b> or <b>D3DKMDT_MCC_ENFORCE</b>) that specifies whether to verify that video outputs in the new topology have monitors connected. If this member is equal to <b>D3DKMDT_MCC_ENFORCE</b> and one of the video outputs in the new VidPN's topology does not have a monitor connected, <i>DxgkDdiCommitVidPn</i> must leave the currently active VidPN in place and return STATUS_GRAPHICS_INVALID_VIDPN_TOPOLOGY. If this member is equal to D3DKMDT_MCC_IGNORE, <i>DxgkDdiCommitVidPn</i> can make the new VidPN active without checking to see whether any video outputs have monitors connected.
 
 
 ### -field hPrimaryAllocation
@@ -76,7 +76,7 @@ A handle to the primary allocation associated with the video present source iden
 
 ### -field Flags
 
-[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff557556">DXGKARG_COMMITVIDPN_FLAGS</a> structure that identifies details about a call to the <a href="https://msdn.microsoft.com/979b86e9-f3ff-4022-8c00-b6afc2b1f747">DxgkDdiCommitVidPn</a> function.
+[in] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_commitvidpn_flags">DXGKARG_COMMITVIDPN_FLAGS</a> structure that identifies details about a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_commitvidpn">DxgkDdiCommitVidPn</a> function.
 
 
 ## -remarks
@@ -93,11 +93,11 @@ The D3DDDI_ID_ALL constant is defined in <i>D3dukmddi.h</i>.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546082">D3DKMDT_MONITOR_CONNECTIVITY_CHECKS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmdt/ne-d3dkmdt-_d3dkmdt_monitor_connectivity_checks">D3DKMDT_MONITOR_CONNECTIVITY_CHECKS</a>
 
 
 
-<a href="https://msdn.microsoft.com/979b86e9-f3ff-4022-8c00-b6afc2b1f747">DxgkDdiCommitVidPn</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_commitvidpn">DxgkDdiCommitVidPn</a>
  
 
  

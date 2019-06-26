@@ -56,7 +56,7 @@ The<b> KsFilterAcquireControl </b>function acquires the filter control mutex for
 
 ### -param Filter [in]
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff562522">KSFILTER</a> for which to acquire the control mutex.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksfilter">KSFILTER</a> for which to acquire the control mutex.
 
 
 ## -returns
@@ -72,7 +72,7 @@ None
 
 
 
-This function is an inline call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff560908">KsAcquireControl</a> with the appropriate typecasting. Minidrivers that manipulate the filter control mutex should call this function instead of calling <b>KsAcquireControl </b>directly. For more information, see <a href="https://msdn.microsoft.com/011edaaa-7449-41c3-8cfb-0d319901af8b">Mutexes in AVStream</a>.
+This function is an inline call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksacquirecontrol">KsAcquireControl</a> with the appropriate typecasting. Minidrivers that manipulate the filter control mutex should call this function instead of calling <b>KsAcquireControl </b>directly. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/mutexes-in-avstream">Mutexes in AVStream</a>.
 
 
 
@@ -82,15 +82,15 @@ This function is an inline call to <a href="https://msdn.microsoft.com/library/w
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562522">KSFILTER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksfilter">KSFILTER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560908">KsAcquireControl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksacquirecontrol">KsAcquireControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562551">KsFilterReleaseControl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksfilterreleasecontrol">KsFilterReleaseControl</a>
  
 
  

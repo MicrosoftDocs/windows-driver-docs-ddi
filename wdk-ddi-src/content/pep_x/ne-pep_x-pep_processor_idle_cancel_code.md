@@ -66,7 +66,7 @@ The processor can enter the selected idle state only after one or more secondary
 
 ### -field PepIdleCancelNoCState
 
-The selected idle state corresponds to a C-state that is not supported. The PEP previously received a <a href="https://msdn.microsoft.com/library/windows/hardware/mt186800">PEP_NOTIFY_PPM_CST_STATES</a> notification that supplied a list of the supported C-states for this processor.
+The selected idle state corresponds to a C-state that is not supported. The PEP previously received a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/ns-pepfx-_pep_ppm_cst_states">PEP_NOTIFY_PPM_CST_STATES</a> notification that supplied a list of the supported C-states for this processor.
 
 
 ### -field PepIdleCancelMax
@@ -78,7 +78,7 @@ Reserved for use by the operating system.
 
 
 
-The <b>CancelCode</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/mt629119">PEP_PPM_IDLE_CANCEL</a> structure contains a <b>PEP_PROCESSOR_IDLE_CANCEL_CODE</b> enumeration value.
+The <b>CancelCode</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pep_x/ns-pep_x-_pep_ppm_idle_cancel">PEP_PPM_IDLE_CANCEL</a> structure contains a <b>PEP_PROCESSOR_IDLE_CANCEL_CODE</b> enumeration value.
 
 
 
@@ -88,11 +88,11 @@ The <b>CancelCode</b> member of the <a href="https://msdn.microsoft.com/library/
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt186800">PEP_NOTIFY_PPM_CST_STATES</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/ns-pepfx-_pep_ppm_cst_states">PEP_NOTIFY_PPM_CST_STATES</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt629119">PEP_PPM_IDLE_CANCEL</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pep_x/ns-pep_x-_pep_ppm_idle_cancel">PEP_PPM_IDLE_CANCEL</a>
  
 
  

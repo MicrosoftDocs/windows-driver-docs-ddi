@@ -56,12 +56,12 @@ Notifies UFX about the port type that was detected.
 
 ### -param UfxDevice [in]
 
-A handle to a UFX device object that the driver created by calling <a href="https://msdn.microsoft.com/library/windows/hardware/mt187951">UfxDeviceCreate</a>.
+A handle to a UFX device object that the driver created by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ufxclient/nf-ufxclient-ufxdevicecreate">UfxDeviceCreate</a>.
 
 
 ### -param PortType [in]
 
-Contains an enumeration value of type <a href="https://msdn.microsoft.com/library/windows/hardware/mt188004">USBFN_PORT_TYPE</a>.
+Contains an enumeration value of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbfnbase/ne-usbfnbase-_usbfn_port_type">USBFN_PORT_TYPE</a>.
 
 
 ## -returns
@@ -79,7 +79,7 @@ This method does not return a value.
 
 The client driver calls <b>UfxDevicePortDetectComplete</b> when port detection is complete. On some platforms, UFX may use the reported port type to notify the battery manager of the maximum current it can draw from the USB port.
 
-The client driver typically calls <b>UfxDevicePortDetectComplete</b> from its <a href="https://msdn.microsoft.com/library/windows/hardware/mt187855">EVT_UFX_DEVICE_PORT_DETECT</a> callback function, as shown in this example.
+The client driver typically calls <b>UfxDevicePortDetectComplete</b> from its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ufxclient/nc-ufxclient-evt_ufx_device_port_detect">EVT_UFX_DEVICE_PORT_DETECT</a> callback function, as shown in this example.
 
 <div class="code"><span codelanguage=""><table>
 <tr>

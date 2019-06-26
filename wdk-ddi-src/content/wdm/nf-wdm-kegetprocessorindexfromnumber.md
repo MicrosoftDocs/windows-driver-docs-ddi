@@ -56,7 +56,7 @@ The <b>KeGetProcessorIndexFromNumber</b> routine converts a group number and a g
 
 ### -param ProcNumber [in]
 
-A pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff559913">PROCESSOR_NUMBER</a> structure that contains a group number and a group-relative processor number.
+A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/miniport/ns-miniport-_processor_number">PROCESSOR_NUMBER</a> structure that contains a group number and a group-relative processor number.
 
 
 ## -returns
@@ -76,9 +76,9 @@ This routine accepts as input a <b>PROCESSOR_NUMBER</b> structure that identifie
 
 For example, if a multiprocessor system contains two groups, and each group contains 64 logical processors, the processor numbers in each group range from 0 to 63, but the systemwide processor indexes range from 0 to 127.
 
-To obtain the total number of active logical processors in the system, call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552993">KeQueryActiveProcessorCountEx</a> routine and set this routine's <i>GroupNumber</i> parameter to ALL_PROCESSOR_GROUPS.
+To obtain the total number of active logical processors in the system, call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-kequeryactiveprocessorcountex">KeQueryActiveProcessorCountEx</a> routine and set this routine's <i>GroupNumber</i> parameter to ALL_PROCESSOR_GROUPS.
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff552100">KeGetProcessorNumberFromIndex</a> routine converts a systemwide processor index to a group number and a group-relative processor number.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kegetprocessornumberfromindex">KeGetProcessorNumberFromIndex</a> routine converts a systemwide processor index to a group number and a group-relative processor number.
 
 
 
@@ -88,15 +88,15 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff552100">KeGet
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552100">KeGetProcessorNumberFromIndex</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kegetprocessornumberfromindex">KeGetProcessorNumberFromIndex</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552993">KeQueryActiveProcessorCountEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-kequeryactiveprocessorcountex">KeQueryActiveProcessorCountEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559913">PROCESSOR_NUMBER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/miniport/ns-miniport-_processor_number">PROCESSOR_NUMBER</a>
  
 
  

@@ -91,7 +91,7 @@ typedef struct _NDIS_PM_PROTOCOL_OFFLOAD {
 ### -field Header
 
 The 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
      structure (NDIS_PM_PROTOCOL_OFFLOAD). The driver sets the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to NDIS_OBJECT_TYPE_DEFAULT, the 
@@ -137,14 +137,14 @@ Specifies the highest priority protocol offload.
 ### -field ProtocolOffloadType
 
 An 
-     <a href="https://msdn.microsoft.com/ab9f98d3-1792-43be-b838-f9dd3953889c">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ne-ntddndis-_ndis_pm_protocol_offload_type">
      NDIS_PM_PROTOCOL_OFFLOAD_TYPE</a> value that contains the type of protocol offload.
 
 
 ### -field FriendlyName
 
 An 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566753">NDIS_PM_COUNTED_STRING</a> structure
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_pm_counted_string">NDIS_PM_COUNTED_STRING</a> structure
      that contains the user-readable description of the low power protocol offload.
 
 
@@ -152,7 +152,7 @@ An
 
 A ULONG value that contains an NDIS-provided value that identifies the offloaded protocol. Before
      NDIS sends the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569763">OID_PM_ADD_PROTOCOL_OFFLOAD</a> OID
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-pm-add-protocol-offload">OID_PM_ADD_PROTOCOL_OFFLOAD</a> OID
      request down to the underlying NDIS drivers or completes the request to the overlying driver, NDIS sets 
      <b>ProtocolOffloadId</b> to a value that is unique among the protocol offloads on a network adapter.
 
@@ -299,7 +299,7 @@ A <b>ULONGLONG</b> value that contains a replay counter.
 
 
 The <b>NDIS_PM_PROTOCOL_OFFLOAD</b> structure is used in the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff569763">OID_PM_ADD_PROTOCOL_OFFLOAD</a> and 
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-pm-add-protocol-offload">OID_PM_ADD_PROTOCOL_OFFLOAD</a> and 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-pm-protocol-offload-list">
     OID_PM_PROTOCOL_OFFLOAD_LIST</a> OIDs.
 
@@ -311,19 +311,19 @@ The <b>NDIS_PM_PROTOCOL_OFFLOAD</b> structure is used in the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566753">NDIS_PM_COUNTED_STRING</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_pm_counted_string">NDIS_PM_COUNTED_STRING</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566765">NDIS_PM_PROTOCOL_OFFLOAD_TYPE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ne-ntddndis-_ndis_pm_protocol_offload_type">NDIS_PM_PROTOCOL_OFFLOAD_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569763">OID_PM_ADD_PROTOCOL_OFFLOAD</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-pm-add-protocol-offload">OID_PM_ADD_PROTOCOL_OFFLOAD</a>
 
 
 

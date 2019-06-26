@@ -97,7 +97,7 @@ The NET_BUFFER structure specifies data that is transmitted or received over the
 ### -field NetBufferHeader
 
 A 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568387">NET_BUFFER_HEADER</a> structure.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_header">NET_BUFFER_HEADER</a> structure.
 
 
 ### -field ChecksumBias
@@ -147,7 +147,7 @@ The physical address of the data portion of a frame. This member should be to ze
       NDIS_NBL_FLAGS_SPLIT_AT_UPPER_LAYER_PROTOCOL_HEADER or
       NDIS_NBL_FLAGS_SPLIT_AT_UPPER_LAYER_PROTOCOL_PAYLOAD flag is set in the 
       <b>NblFlags</b> member of the 
-      <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure that is
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure that is
       associated with the NET_BUFFER.
 
 <div class="alert"><b>Note</b>  A miniport driver can set the 
@@ -159,7 +159,7 @@ The physical address of the data portion of a frame. This member should be to ze
 ### -field SharedMemoryInfo
 
 A pointer to an 
-      <a href="https://msdn.microsoft.com/492bb1cd-fc3e-4e85-9074-32ebbf1fb837">
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_shared_memory">
       NET_BUFFER_SHARED_MEMORY</a> structure.
 
 
@@ -177,24 +177,24 @@ NDIS drivers can call the following functions to allocate and initialize a NET_B
 <ul>
 <li>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561607">NdisAllocateNetBuffer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisallocatenetbuffer">NdisAllocateNetBuffer</a>
 
 
 </li>
 <li>
 
-<a href="https://msdn.microsoft.com/b872eff3-2d0a-4f01-874d-e00e09195801">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisallocatenetbufferandnetbufferlist">
        NdisAllocateNetBufferAndNetBufferList</a>
 
 
 </li>
 </ul>
 NDIS drivers can call the 
-    <a href="https://msdn.microsoft.com/b117b472-0c26-41a9-b364-3d0cfbd26cc9">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisallocatenetbufferlistpool">
     NdisAllocateNetBufferListPool</a> function and then set the 
     <b>fAllocateNetBuffer</b> member of the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/hh205394">NET_BUFFER_LIST_POOL_PARAMETERS</a> structure to <b>TRUE</b> when allocating a 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure pool. In this
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_list_pool_parameters">NET_BUFFER_LIST_POOL_PARAMETERS</a> structure to <b>TRUE</b> when allocating a 
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure pool. In this
     case, a NET_BUFFER structure is preallocated with each NET_BUFFER_LIST structure that the driver
     allocates from the pool.
 
@@ -207,14 +207,14 @@ To access additional data space in the MDL chain, NDIS drivers can call the foll
 <ul>
 <li>
 
-<a href="https://msdn.microsoft.com/4b58a1dc-8a5a-464b-a2a2-deb952febe25">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisretreatnetbufferdatastart">
        NdisRetreatNetBufferDataStart</a>
 
 
 </li>
 <li>
 
-<a href="https://msdn.microsoft.com/76a1294f-d098-4751-9b59-923993379c6e">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisretreatnetbufferlistdatastart">
        NdisRetreatNetBufferListDataStart</a>
 
 
@@ -233,48 +233,48 @@ NDIS drivers typically use the
 To access members of the NET_BUFFER structure, use the following macros and functions:
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568416">NET_BUFFER_NEXT_NB</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-next-nb">NET_BUFFER_NEXT_NB</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568386">NET_BUFFER_FIRST_MDL</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-first-mdl">NET_BUFFER_FIRST_MDL</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568383">NET_BUFFER_DATA_OFFSET</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-data-offset">NET_BUFFER_DATA_OFFSET</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568382">NET_BUFFER_DATA_LENGTH</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-data-length">NET_BUFFER_DATA_LENGTH</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568417">NET_BUFFER_PROTOCOL_RESERVED</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-protocol-reserved">NET_BUFFER_PROTOCOL_RESERVED</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568415">NET_BUFFER_MINIPORT_RESERVED</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-miniport-reserved">NET_BUFFER_MINIPORT_RESERVED</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568378">NET_BUFFER_CHECKSUM_BIAS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-checksum-bias">NET_BUFFER_CHECKSUM_BIAS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568379">NET_BUFFER_CURRENT_MDL</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-current-mdl">NET_BUFFER_CURRENT_MDL</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568380">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-current-mdl-offset">
        NET_BUFFER_CURRENT_MDL_OFFSET</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562657">NdisGetPoolFromNetBuffer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisgetpoolfromnetbuffer">NdisGetPoolFromNetBuffer</a>
 
 
 For more information on how to use net buffers, see 
-    <a href="https://msdn.microsoft.com/97cddcd1-7242-4cc5-9af9-fe82a2ef995f">NET_BUFFER Architecture</a>.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-architecture">NET_BUFFER Architecture</a>.
 
 
 
@@ -284,88 +284,88 @@ For more information on how to use net buffers, see
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568378">NET_BUFFER_CHECKSUM_BIAS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-checksum-bias">NET_BUFFER_CHECKSUM_BIAS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568379">NET_BUFFER_CURRENT_MDL</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-current-mdl">NET_BUFFER_CURRENT_MDL</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568380">NET_BUFFER_CURRENT_MDL_OFFSET</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-current-mdl-offset">NET_BUFFER_CURRENT_MDL_OFFSET</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568382">NET_BUFFER_DATA_LENGTH</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-data-length">NET_BUFFER_DATA_LENGTH</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568383">NET_BUFFER_DATA_OFFSET</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-data-offset">NET_BUFFER_DATA_OFFSET</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568386">NET_BUFFER_FIRST_MDL</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-first-mdl">NET_BUFFER_FIRST_MDL</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568387">NET_BUFFER_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_header">NET_BUFFER_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh205394">NET_BUFFER_LIST_POOL_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_list_pool_parameters">NET_BUFFER_LIST_POOL_PARAMETERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568415">NET_BUFFER_MINIPORT_RESERVED</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-miniport-reserved">NET_BUFFER_MINIPORT_RESERVED</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568416">NET_BUFFER_NEXT_NB</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-next-nb">NET_BUFFER_NEXT_NB</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568417">NET_BUFFER_PROTOCOL_RESERVED</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/net-buffer-protocol-reserved">NET_BUFFER_PROTOCOL_RESERVED</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561607">NdisAllocateNetBuffer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisallocatenetbuffer">NdisAllocateNetBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/b872eff3-2d0a-4f01-874d-e00e09195801">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisallocatenetbufferandnetbufferlist">
    NdisAllocateNetBufferAndNetBufferList</a>
 
 
 
-<a href="https://msdn.microsoft.com/b117b472-0c26-41a9-b364-3d0cfbd26cc9">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisallocatenetbufferlistpool">
    NdisAllocateNetBufferListPool</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562657">NdisGetPoolFromNetBuffer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisgetpoolfromnetbuffer">NdisGetPoolFromNetBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/33890582-5eba-4cc1-a0d9-ec07f18da453">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismsendnetbufferlistscomplete">
    NdisMSendNetBufferListsComplete</a>
 
 
 
-<a href="https://msdn.microsoft.com/4b58a1dc-8a5a-464b-a2a2-deb952febe25">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisretreatnetbufferdatastart">
    NdisRetreatNetBufferDataStart</a>
 
 
 
-<a href="https://msdn.microsoft.com/76a1294f-d098-4751-9b59-923993379c6e">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisretreatnetbufferlistdatastart">
    NdisRetreatNetBufferListDataStart</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563664">SCATTER_GATHER_LIST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_scatter_gather_list">SCATTER_GATHER_LIST</a>
  
 
  

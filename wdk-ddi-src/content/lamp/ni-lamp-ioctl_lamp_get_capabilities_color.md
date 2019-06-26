@@ -67,7 +67,7 @@ The <b>IOCTL_LAMP_GET_CAPABILITIES_COLOR</b>
 
 ### -input-buffer
 
-<code>Irp->AssociatedIrp.SystemBuffer</code> points to a buffer of type <a href="https://msdn.microsoft.com/library/windows/hardware/dn936998">LAMP_CAPABILITIES_COLOR</a>.
+<code>Irp->AssociatedIrp.SystemBuffer</code> points to a buffer of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/lamp/ns-lamp-lamp_capabilities_color">LAMP_CAPABILITIES_COLOR</a>.
 
 
 ### -input-buffer-length
@@ -114,7 +114,7 @@ The driver sets <code>Irp->IoStatus.Status</code> to <b>STATUS_SUCCESS</b> or th
 
 
 
-The payload of this IOCTL is a <a href="https://msdn.microsoft.com/library/windows/hardware/dn936998">LAMP_CAPABILITIES_COLOR</a> structure.
+The payload of this IOCTL is a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/lamp/ns-lamp-lamp_capabilities_color">LAMP_CAPABILITIES_COLOR</a> structure.
 
 The <b>IsSupported</b> field indicates whether the lamp can emit color light. If the hardware does not support color light, the driver should set this field to <b>FALSE</b>.
 

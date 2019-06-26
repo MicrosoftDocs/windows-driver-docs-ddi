@@ -48,12 +48,12 @@ req.typenames:
 
 The IAdapterPowerManagement3 interface inherits from <b>IUnknown</b>, and it is used for receiving power management messages.
 
-To register this interface with PortCls, the adapter driver must call  <a href="https://msdn.microsoft.com/library/windows/hardware/ff537724">PcRegisterAdapterPowerManagement</a>.
-<div class="alert"><b>Note</b>  If you want to fill the <a href="https://go.microsoft.com/fwlink/p/?linkid=143127">caps structure</a> for your device, your adapter driver can call <b>PcRegisterAdapterPowerManagement</b> from within the <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521(v=vs.85).aspx">AddDevice</a> routine, or before your driver calls <b>AddDevice.</b></div><div> </div>
+To register this interface with PortCls, the adapter driver must call  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-pcregisteradapterpowermanagement">PcRegisterAdapterPowerManagement</a>.
+<div class="alert"><b>Note</b>  If you want to fill the <a href="https://go.microsoft.com/fwlink/p/?linkid=143127">caps structure</a> for your device, your adapter driver can call <b>PcRegisterAdapterPowerManagement</b> from within the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-driver_add_device">AddDevice</a> routine, or before your driver calls <b>AddDevice.</b></div><div> </div>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAdapterPowerManagement3</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IAdapterPowerManagement3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAdapterPowerManagement3</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IAdapterPowerManagement3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -68,7 +68,7 @@ The <b>IAdapterPowerManagement3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj200331">D3ExitLatencyChanged</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iadapterpowermanagement3-d3exitlatencychanged">D3ExitLatencyChanged</a>
 </td>
 <td align="left" width="63%">
 PortCls calls the D3ExitLatencyChanged method while the device is in sleep (D3) power state, to provide a new exit latency value.
@@ -77,7 +77,7 @@ PortCls calls the D3ExitLatencyChanged method while the device is in sleep (D3) 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj200332">PowerChangeState3</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/jj200332(v=vs.85)">PowerChangeState3</a>
 </td>
 <td align="left" width="63%">
 PortCls calls the PowerChangeState3 method to request a change to the new power state. This request is passed on to the adapter driver.
@@ -92,11 +92,11 @@ PortCls calls the PowerChangeState3 method to request a change to the new power 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536486">IAdapterPowerManagement2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iadapterpowermanagement2">IAdapterPowerManagement2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537724">PcRegisterAdapterPowerManagement</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-pcregisteradapterpowermanagement">PcRegisterAdapterPowerManagement</a>
  
 
  

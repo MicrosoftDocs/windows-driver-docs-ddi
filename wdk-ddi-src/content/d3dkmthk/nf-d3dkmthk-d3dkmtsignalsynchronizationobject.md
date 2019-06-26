@@ -55,7 +55,7 @@ The <b>D3DKMTSignalSynchronizationObject</b> function inserts a signal for the s
 
 *pData* [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff548353">D3DKMT_SIGNALSYNCHRONIZATIONOBJECT</a> structure that describes the synchronization objects and context stream that signaling is set up for.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_signalsynchronizationobject">D3DKMT_SIGNALSYNCHRONIZATIONOBJECT</a> structure that describes the synchronization objects and context stream that signaling is set up for.
 
 ## -returns
 
@@ -71,4 +71,4 @@ This function might also return other NTSTATUS values.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548353">D3DKMT_SIGNALSYNCHRONIZATIONOBJECT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_signalsynchronizationobject">D3DKMT_SIGNALSYNCHRONIZATIONOBJECT</a>

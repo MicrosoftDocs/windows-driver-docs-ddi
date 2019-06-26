@@ -69,11 +69,11 @@ Specifies a recurrence interval, also 64-bit.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561805">KSEVENT_CLOCK_INTERVAL_MARK</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksevent-clock-interval-mark">KSEVENT_CLOCK_INTERVAL_MARK</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561811">KSEVENT_CLOCK_POSITION_MARK</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksevent-clock-position-mark">KSEVENT_CLOCK_POSITION_MARK</a>
  
 
  

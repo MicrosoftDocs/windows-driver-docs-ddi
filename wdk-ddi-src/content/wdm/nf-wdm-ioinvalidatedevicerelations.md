@@ -77,9 +77,9 @@ None
 
 
 
-For some relation types, such as <b>BusRelations</b>, this routine causes the PnP manager or power manager to gather updated relations information by sending an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551670">IRP_MN_QUERY_DEVICE_RELATIONS</a> request to the drivers for the device. For other relation types, such as <b>EjectionRelations</b>, the PnP manager does not need to gather new relation information immediately; the PnP manager queries drivers for ejection relations only when it is preparing to eject a device.
+For some relation types, such as <b>BusRelations</b>, this routine causes the PnP manager or power manager to gather updated relations information by sending an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-device-relations">IRP_MN_QUERY_DEVICE_RELATIONS</a> request to the drivers for the device. For other relation types, such as <b>EjectionRelations</b>, the PnP manager does not need to gather new relation information immediately; the PnP manager queries drivers for ejection relations only when it is preparing to eject a device.
 
-After a bus driver calls <b>IoInvalidateDeviceRelations</b> to inform the PnP manager that a device has disappeared, the bus driver must continue to handle PnP IRPs for that device until it receives an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551738">IRP_MN_REMOVE_DEVICE</a> request. In response to this IRP, the bus driver returns STATUS_NO_SUCH_DEVICE. Until the bus driver successfully completes the <b>IRP_MN_REMOVE_DEVICE</b> request, the bus driver can access the device extension to check its flags for the device.
+After a bus driver calls <b>IoInvalidateDeviceRelations</b> to inform the PnP manager that a device has disappeared, the bus driver must continue to handle PnP IRPs for that device until it receives an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-remove-device">IRP_MN_REMOVE_DEVICE</a> request. In response to this IRP, the bus driver returns STATUS_NO_SUCH_DEVICE. Until the bus driver successfully completes the <b>IRP_MN_REMOVE_DEVICE</b> request, the bus driver can access the device extension to check its flags for the device.
 
 
 
@@ -89,11 +89,11 @@ After a bus driver calls <b>IoInvalidateDeviceRelations</b> to inform the PnP ma
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551670">IRP_MN_QUERY_DEVICE_RELATIONS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-device-relations">IRP_MN_QUERY_DEVICE_RELATIONS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551738">IRP_MN_REMOVE_DEVICE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-remove-device">IRP_MN_REMOVE_DEVICE</a>
  
 
  

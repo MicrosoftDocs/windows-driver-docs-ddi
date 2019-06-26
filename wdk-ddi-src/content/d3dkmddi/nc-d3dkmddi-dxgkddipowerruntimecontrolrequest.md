@@ -56,7 +56,7 @@ Called by the Power Engine Plug-in (PEP) to exchange information with the displa
 
 ### -param DriverContext [in]
 
-A handle to a context block associated with a display adapter. The display miniport driver's <a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a> function previously provided this handle to the DirectX graphics kernel subsystem.
+A handle to a context block associated with a display adapter. The display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function previously provided this handle to the DirectX graphics kernel subsystem.
 
 
 ### -param PowerControlCode [in]
@@ -102,7 +102,7 @@ Returns STATUS_SUCCESS if it succeeds. Otherwise, it returns one of the error co
 
 
 
-The operating system calls <i>DxgkDdiPowerRuntimeControlRequest</i> only if the display miniport driver indicates support by setting <a href="https://msdn.microsoft.com/library/windows/hardware/ff561062">DXGK_DRIVERCAPS</a>.<b>SupportRuntimePowerManagement</b> to <b>TRUE</b>.
+The operating system calls <i>DxgkDdiPowerRuntimeControlRequest</i> only if the display miniport driver indicates support by setting <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgk_drivercaps">DXGK_DRIVERCAPS</a>.<b>SupportRuntimePowerManagement</b> to <b>TRUE</b>.
 
 <h3><a id="GUIDs_used_by_the_Power_Engine_Plugin__PEP_"></a><a id="guids_used_by_the_power_engine_plugin__pep_"></a><a id="GUIDS_USED_BY_THE_POWER_ENGINE_PLUGIN__PEP_"></a>GUIDs used by the Power Engine Plugin (PEP)</h3>
 The PEP uses the following GUIDs that are defined in D3dkmddi.h to exchange information with the display miniport driver. The display port driver uses these  GUIDs to issue Event Tracing for Windows (ETW) events, which are useful to profile driver performance issues.
@@ -166,13 +166,13 @@ Used after the DirectX graphics kernel subsystem registers the device for runtim
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/12008d80-8bcb-4289-97ea-d3325731a95f">DxgkCbSetPowerComponentActive</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkcb_setpowercomponentactive">DxgkCbSetPowerComponentActive</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/8FF86746-15A2-4BDF-98AF-23B5F9960DB9">DxgkCbSetPowerComponentLatency</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkcb_setpowercomponentlatency">DxgkCbSetPowerComponentLatency</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/9D567380-2E77-4A63-8674-E19A13C7B8BC">DxgkCbSetPowerComponentResidency</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkcb_setpowercomponentresidency">DxgkCbSetPowerComponentResidency</a>
 </li>
 </ul>
 </dd>
@@ -192,7 +192,7 @@ Used immediately before the DirectX graphics kernel subsystem unregisters the de
 <h3><a id="Synchronization"></a><a id="synchronization"></a><a id="SYNCHRONIZATION"></a>Synchronization</h3>
 This function can be called simultaneously from multiple execution threads.
 
-The operating system guarantees that this function follows the zero level synchronization mode as defined in <a href="https://msdn.microsoft.com/2baf91e8-fafb-40e2-a24c-cbf04fe45274">Threading and Synchronization Zero Level</a>.
+The operating system guarantees that this function follows the zero level synchronization mode as defined in <a href="https://docs.microsoft.com/windows-hardware/drivers/display/threading-and-synchronization-zero-level">Threading and Synchronization Zero Level</a>.
 
 
 
@@ -202,27 +202,27 @@ The operating system guarantees that this function follows the zero level synchr
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557621">DXGKARG_QUERYADAPTERINFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_queryadapterinfo">DXGKARG_QUERYADAPTERINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561062">DXGK_DRIVERCAPS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgk_drivercaps">DXGK_DRIVERCAPS</a>
 
 
 
-<a href="https://msdn.microsoft.com/12008d80-8bcb-4289-97ea-d3325731a95f">DxgkCbSetPowerComponentActive</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkcb_setpowercomponentactive">DxgkCbSetPowerComponentActive</a>
 
 
 
-<a href="https://msdn.microsoft.com/8FF86746-15A2-4BDF-98AF-23B5F9960DB9">DxgkCbSetPowerComponentLatency</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkcb_setpowercomponentlatency">DxgkCbSetPowerComponentLatency</a>
 
 
 
-<a href="https://msdn.microsoft.com/9D567380-2E77-4A63-8674-E19A13C7B8BC">DxgkCbSetPowerComponentResidency</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkcb_setpowercomponentresidency">DxgkCbSetPowerComponentResidency</a>
 
 
 
-<a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a>
  
 
  

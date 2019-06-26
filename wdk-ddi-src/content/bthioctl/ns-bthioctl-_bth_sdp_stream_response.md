@@ -75,9 +75,9 @@ The first byte of the SDP record stream.
 
 
 This structure is returned with a raw stream to the output buffer of the 
-    <a href="https://msdn.microsoft.com/30daf70e-34d1-45f7-a69b-503e275b83af">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthioctl/ni-bthioctl-ioctl_bth_sdp_attribute_search">
     IOCTL_BTH_SDP_ATTRIBUTE_SEARCH</a> and 
-    <a href="https://msdn.microsoft.com/f0955e88-df80-4f53-bc5f-5a38a840aab4">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthioctl/ni-bthioctl-ioctl_bth_sdp_service_attribute_search">
     IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH</a> IOCTLs.
 
 The 
@@ -93,11 +93,11 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536687">IOCTL_BTH_SDP_ATTRIBUTE_SEARCH</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthioctl/ni-bthioctl-ioctl_bth_sdp_attribute_search">IOCTL_BTH_SDP_ATTRIBUTE_SEARCH</a>
 
 
 
-<a href="https://msdn.microsoft.com/f0955e88-df80-4f53-bc5f-5a38a840aab4">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthioctl/ni-bthioctl-ioctl_bth_sdp_service_attribute_search">
    IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH</a>
  
 

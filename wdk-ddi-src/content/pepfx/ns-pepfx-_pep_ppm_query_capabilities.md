@@ -85,7 +85,7 @@ The <b>PEP_PPM_QUERY_CAPABILITIES</b> structure contains information about the p
 
 
 
-This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186820">PEP_NOTIFY_PPM_QUERY_CAPABILITIES</a> notification. All four members contain output values that the PEP writes to the structure in response to this notification.
+This structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/ns-pepfx-_pep_ppm_query_capabilities">PEP_NOTIFY_PPM_QUERY_CAPABILITIES</a> notification. All four members contain output values that the PEP writes to the structure in response to this notification.
 
 
 
@@ -95,7 +95,7 @@ This structure is used by the <a href="https://msdn.microsoft.com/library/window
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt186820">PEP_NOTIFY_PPM_QUERY_CAPABILITIES</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/ns-pepfx-_pep_ppm_query_capabilities">PEP_NOTIFY_PPM_QUERY_CAPABILITIES</a>
  
 
  

@@ -59,7 +59,7 @@ req.typenames:
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugClient5</b> interface inherits from <a href="https://msdn.microsoft.com/library/windows/hardware/ff550494">IDebugClient4</a>. <b>IDebugClient5</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugClient5</b> interface inherits from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugclient4">IDebugClient4</a>. <b>IDebugClient5</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IDebugClient5</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538148">AttachKernelWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient5-attachkernelwide">AttachKernelWide</a>
 </td>
 <td align="left" width="63%">
 Connects the debugger engine to a kernel target.
@@ -83,7 +83,7 @@ Connects the debugger engine to a kernel target.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539240">ConnectProcessServerWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient5-connectprocessserverwide">ConnectProcessServerWide</a>
 </td>
 <td align="left" width="63%">
 Connects to a process server.
@@ -92,7 +92,7 @@ Connects to a process server.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539323">CreateProcess2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient5-createprocess2">CreateProcess2</a>
 </td>
 <td align="left" width="63%">
 Executes the given command to create a new process. (ANSI version)
@@ -101,7 +101,7 @@ Executes the given command to create a new process. (ANSI version)
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540038">CreateProcess2Wide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient5-createprocess2wide">CreateProcess2Wide</a>
 </td>
 <td align="left" width="63%">
 Executes the given command to create a new process. (Unicode version)
@@ -110,7 +110,7 @@ Executes the given command to create a new process. (Unicode version)
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540055">CreateProcessAndAttach2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient5-createprocessandattach2">CreateProcessAndAttach2</a>
 </td>
 <td align="left" width="63%">
 Creates a process from a specified command line, then attach to that process or another user-mode process. (ANSI version)
@@ -119,7 +119,7 @@ Creates a process from a specified command line, then attach to that process or 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540062">CreateProcessAndAttach2Wide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient5-createprocessandattach2wide">CreateProcessAndAttach2Wide</a>
 </td>
 <td align="left" width="63%">
 Creates a process from a specified command line, then attach to that process or another user-mode process. (Unicode version)
@@ -128,7 +128,7 @@ Creates a process from a specified command line, then attach to that process or 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546607">GetEventCallbacksWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient5-geteventcallbackswide">GetEventCallbacksWide</a>
 </td>
 <td align="left" width="63%">
 Returns the event callbacks object registered with this client.
@@ -137,7 +137,7 @@ Returns the event callbacks object registered with this client.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546844">GetIdentityWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient5-getidentitywide">GetIdentityWide</a>
 </td>
 <td align="left" width="63%">
 Returns a string describing the computer and user this client represents.
@@ -146,7 +146,7 @@ Returns a string describing the computer and user this client represents.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546973">GetKernelConnectionOptionsWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient5-getkernelconnectionoptionswide">GetKernelConnectionOptionsWide</a>
 </td>
 <td align="left" width="63%">
 Returns the connection options for the current kernel target.
@@ -155,7 +155,7 @@ Returns the connection options for the current kernel target.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547896">GetNumberEventCallbacks</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient5-getnumbereventcallbacks">GetNumberEventCallbacks</a>
 </td>
 <td align="left" width="63%">
 Returns the  number of event callbacks that are interested in the given events.
@@ -164,7 +164,7 @@ Returns the  number of event callbacks that are interested in the given events.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547923">GetNumberInputCallbacks</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient5-getnumberinputcallbacks">GetNumberInputCallbacks</a>
 </td>
 <td align="left" width="63%">
 Returns the number of input callbacks registered over all clients.
@@ -173,7 +173,7 @@ Returns the number of input callbacks registered over all clients.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547931">GetNumberOutputCallbacks</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient5-getnumberoutputcallbacks">GetNumberOutputCallbacks</a>
 </td>
 <td align="left" width="63%">
 Returns the number of output callbacks registered over all clients.
@@ -182,7 +182,7 @@ Returns the number of output callbacks registered over all clients.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548074">GetOutputCallbacksWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient5-getoutputcallbackswide">GetOutputCallbacksWide</a>
 </td>
 <td align="left" width="63%">
 Returns the output callbacks object registered with the client.
@@ -212,7 +212,7 @@ Returns the output callbacks object registered with the client.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553224">OutputIdentityWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient5-outputidentitywide">OutputIdentityWide</a>
 </td>
 <td align="left" width="63%">
 Formats and outputs a string describing the computer and user this client represents.
@@ -221,7 +221,7 @@ Formats and outputs a string describing the computer and user this client repres
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553250">OutputServersWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient5-outputserverswide">OutputServersWide</a>
 </td>
 <td align="left" width="63%">
 Lists the servers running on a given computer.
@@ -251,7 +251,7 @@ Lists the servers running on a given computer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556674">SetEventCallbacksWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient5-seteventcallbackswide">SetEventCallbacksWide</a>
 </td>
 <td align="left" width="63%">
 Registers an event callbacks object with this client.
@@ -260,7 +260,7 @@ Registers an event callbacks object with this client.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556732">SetKernelConnectionOptionsWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient5-setkernelconnectionoptionswide">SetKernelConnectionOptionsWide</a>
 </td>
 <td align="left" width="63%">
 Updates some of the connection options for a live kernel target.
@@ -269,7 +269,7 @@ Updates some of the connection options for a live kernel target.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556753">SetOutputCallbacksWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient5-setoutputcallbackswide">SetOutputCallbacksWide</a>
 </td>
 <td align="left" width="63%">
 Registers an output callbacks object with this client.
@@ -299,7 +299,7 @@ Registers an output callbacks object with this client.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558812">StartProcessServerWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient5-startprocessserverwide">StartProcessServerWide</a>
 </td>
 <td align="left" width="63%">
 Starts a process server.
@@ -308,7 +308,7 @@ Starts a process server.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558814">StartServerWide</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient5-startserverwide">StartServerWide</a>
 </td>
 <td align="left" width="63%">
 Starts a debugging server.
@@ -323,7 +323,7 @@ Starts a debugging server.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550494">IDebugClient4</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugclient4">IDebugClient4</a>
  
 
  

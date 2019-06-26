@@ -76,7 +76,7 @@ A member in the union that is contained in D3DDDI_UNLOCKASYNCFLAGS that can hold
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543394">D3DDDIARG_UNLOCK</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_unlock">D3DDDIARG_UNLOCK</a>
  
 
  

@@ -105,7 +105,7 @@ The <b>Information</b> field is set to zero. The <b>Status</b> field is set to S
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560540">IOCTL_STORAGE_EJECTION_CONTROL</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ni-ntddstor-ioctl_storage_ejection_control">IOCTL_STORAGE_EJECTION_CONTROL</a>
  
 
  

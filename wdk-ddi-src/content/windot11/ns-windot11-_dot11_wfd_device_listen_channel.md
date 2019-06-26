@@ -48,7 +48,7 @@ product:
 ## -description
 
 
-<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The <b>DOT11_WFD_DEVICE_LISTEN_CHANNEL</b> structure describes the Wi-Fi Direct device's listen channel when responding to a <a href="https://msdn.microsoft.com/library/windows/hardware/hh738803">OID_DOT11_WFD_DEVICE_LISTEN_CHANNEL</a> set or query request.
+<div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The <b>DOT11_WFD_DEVICE_LISTEN_CHANNEL</b> structure describes the Wi-Fi Direct device's listen channel when responding to a <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-wfd-device-listen-channel">OID_DOT11_WFD_DEVICE_LISTEN_CHANNEL</a> set or query request.
 
 
 ## -syntax
@@ -94,12 +94,12 @@ Specifies the type, revision and size of the <b>DOT11_WFD_DEVICE_LISTEN_CHANNEL<
 
 ### -field ChannelNumber
 
-The device listen channel.   Windows may use <a href="https://msdn.microsoft.com/library/windows/hardware/hh738803">OID_DOT11_WFD_DEVICE_LISTEN_CHANNEL</a> to specify a listen channel (for example 1, 6, or 11). Wi-Fi Direct devices may treat this value as a hint to the device, which may adopt the specified channel, or continue to use the default listen channel. The Wi-Fi Direct device may also change the listen channel at any time.
+The device listen channel.   Windows may use <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-wfd-device-listen-channel">OID_DOT11_WFD_DEVICE_LISTEN_CHANNEL</a> to specify a listen channel (for example 1, 6, or 11). Wi-Fi Direct devices may treat this value as a hint to the device, which may adopt the specified channel, or continue to use the default listen channel. The Wi-Fi Direct device may also change the listen channel at any time.
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh738803">OID_DOT11_WFD_DEVICE_LISTEN_CHANNEL</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-wfd-device-listen-channel">OID_DOT11_WFD_DEVICE_LISTEN_CHANNEL</a>
 
 
 

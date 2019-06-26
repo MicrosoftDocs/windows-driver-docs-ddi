@@ -70,7 +70,7 @@ A handle to the display device (graphics context).
 
 *pData* [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543313">D3DDDIARG_SETINDICES</a> structure that describes parameters for setting the current index buffer.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_setindices">D3DDDIARG_SETINDICES</a> structure that describes parameters for setting the current index buffer.
 
 
 ## -returns
@@ -86,7 +86,7 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 
 
-The Microsoft Direct3D runtime supplies a handle value of zero in the <b>hIndexBuffer</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543313">D3DDDIARG_SETINDICES</a> structure that is pointed to by the <i>pData</i> parameter to clear the current index buffer. The driver should handle subsequent attempts to draw indexed primitives (before a new current index buffer is established) so that a crash does not occur. The debug version of your driver should display informative messages to the debug output stream when this error condition is detected.
+The Microsoft Direct3D runtime supplies a handle value of zero in the <b>hIndexBuffer</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_setindices">D3DDDIARG_SETINDICES</a> structure that is pointed to by the <i>pData</i> parameter to clear the current index buffer. The driver should handle subsequent attempts to draw indexed primitives (before a new current index buffer is established) so that a crash does not occur. The debug version of your driver should display informative messages to the debug output stream when this error condition is detected.
 
 
 
@@ -96,11 +96,11 @@ The Microsoft Direct3D runtime supplies a handle value of zero in the <b>hIndexB
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543313">D3DDDIARG_SETINDICES</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_setindices">D3DDDIARG_SETINDICES</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>
  
 
  

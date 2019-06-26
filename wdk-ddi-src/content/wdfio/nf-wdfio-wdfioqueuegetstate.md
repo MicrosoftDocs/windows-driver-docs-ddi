@@ -78,7 +78,7 @@ A pointer to a location that receives the number of I/O requests that have been 
 
 
 
-<b>WdfIoQueueGetState</b> returns a <a href="https://msdn.microsoft.com/library/windows/hardware/Ff552373">WDF_IO_QUEUE_STATE</a>-typed value, which can contain the bitwise OR of several <b>WDF_IO_QUEUE_STATE</b> enumerators. 
+<b>WdfIoQueueGetState</b> returns a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfio/ne-wdfio-_wdf_io_queue_state">WDF_IO_QUEUE_STATE</a>-typed value, which can contain the bitwise OR of several <b>WDF_IO_QUEUE_STATE</b> enumerators. 
 
 A bug check occurs if the driver supplies an invalid object handle.
 
@@ -96,27 +96,27 @@ After calling <b>WdfIoQueueGetState</b>, your driver can pass the received state
 <ul>
 <li>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552363">WDF_IO_QUEUE_DRAINED</a>, which returns <b>TRUE</b> if the queue is drained.
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfio/nf-wdfio-wdf_io_queue_drained">WDF_IO_QUEUE_DRAINED</a>, which returns <b>TRUE</b> if the queue is drained.
 
 </li>
 <li>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552368">WDF_IO_QUEUE_IDLE</a>, which returns <b>TRUE</b> if the queue is idle.
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfio/nf-wdfio-wdf_io_queue_idle">WDF_IO_QUEUE_IDLE</a>, which returns <b>TRUE</b> if the queue is idle.
 
 </li>
 <li>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552369">WDF_IO_QUEUE_PURGED</a>, which returns <b>TRUE</b> if the queue is purged.
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfio/nf-wdfio-wdf_io_queue_purged">WDF_IO_QUEUE_PURGED</a>, which returns <b>TRUE</b> if the queue is purged.
 
 </li>
 <li>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552371">WDF_IO_QUEUE_READY</a>, which returns <b>TRUE</b> if the queue is ready.
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfio/nf-wdfio-wdf_io_queue_ready">WDF_IO_QUEUE_READY</a>, which returns <b>TRUE</b> if the queue is ready.
 
 </li>
 <li>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552375">WDF_IO_QUEUE_STOPPED</a>, which returns <b>TRUE</b> if the queue is stopped.
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfio/nf-wdfio-wdf_io_queue_stopped">WDF_IO_QUEUE_STOPPED</a>, which returns <b>TRUE</b> if the queue is stopped.
 
 </li>
 </ul>
@@ -159,11 +159,11 @@ IsQueueIdle(
 
 
 
-<a href="https://msdn.microsoft.com/14999036-c137-4056-b6f7-53a8476fd385">EvtIoQueueState</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfio/nc-wdfio-evt_wdf_io_queue_state">EvtIoQueueState</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/Ff552373">WDF_IO_QUEUE_STATE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfio/ne-wdfio-_wdf_io_queue_state">WDF_IO_QUEUE_STATE</a>
  
 
  

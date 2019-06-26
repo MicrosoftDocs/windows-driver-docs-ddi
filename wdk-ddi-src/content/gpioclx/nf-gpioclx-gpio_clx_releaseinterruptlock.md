@@ -57,7 +57,7 @@ The <b>GPIO_CLX_ReleaseInterruptLock</b> method releases an interrupt lock on th
 
 ### -param Context [in]
 
-A pointer to the GPIO controller driver's <a href="https://msdn.microsoft.com/4BE99C71-9BA6-44E3-A54F-DE8C3440A474">device context</a>. The GPIO framework extension (GpioClx) passes this pointer value as a parameter to the callback functions that are implemented by the GPIO controller driver.
+A pointer to the GPIO controller driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/gpio/gpio-device-contexts">device context</a>. The GPIO framework extension (GpioClx) passes this pointer value as a parameter to the callback functions that are implemented by the GPIO controller driver.
 
 
 ### -param BankId [in]
@@ -78,7 +78,7 @@ None.
 
 
 
-This method releases the interrupt lock that the caller acquired in a previous call to the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439482">GPIO_CLX_AcquireInterruptLock</a> method.
+This method releases the interrupt lock that the caller acquired in a previous call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/gpioclx/nf-gpioclx-gpio_clx_acquireinterruptlock">GPIO_CLX_AcquireInterruptLock</a> method.
 
 If the previous call to the <b>GPIO_CLX_AcquireInterruptLock</b> method raised the calling thread's IRQL, <b>GPIO_CLX_ReleaseInterruptLock</b> restores this IRQL to its original level.
 
@@ -92,7 +92,7 @@ If the <i>Context</i> parameter is NULL or points to an invalid GPIO device cont
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439482">GPIO_CLX_AcquireInterruptLock</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/gpioclx/nf-gpioclx-gpio_clx_acquireinterruptlock">GPIO_CLX_AcquireInterruptLock</a>
  
 
  

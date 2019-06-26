@@ -46,7 +46,7 @@ req.typenames: DXGKARG_SETTIMINGSFROMVIDPN
 ## -description
 
 
-Used to hold the arguments for <a href="https://msdn.microsoft.com/7E991251-1738-41AD-83D6-60DD7E183D68">DXGKDDI_SETTIMINGSFROMVIDPN</a>.
+Used to hold the arguments for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_settimingsfromvidpn">DXGKDDI_SETTIMINGSFROMVIDPN</a>.
 
 
 ## -struct-fields

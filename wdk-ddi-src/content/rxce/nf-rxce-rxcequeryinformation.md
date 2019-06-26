@@ -188,11 +188,11 @@ For some values of <i>InformationClass</i>, <b>RxCeQueryInformation</b> calls <b
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553456">RxCeQueryAdapterStatus</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/rxce/nf-rxce-rxcequeryadapterstatus">RxCeQueryAdapterStatus</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553474">RxCeQueryTransportInformation</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/rxce/nf-rxce-rxcequerytransportinformation">RxCeQueryTransportInformation</a>
  
 
  

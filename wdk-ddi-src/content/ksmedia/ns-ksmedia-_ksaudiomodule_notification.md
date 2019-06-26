@@ -42,76 +42,51 @@ req.typenames: KSAUDIOMODULE_NOTIFICATION, *PKSAUDIOMODULE_NOTIFICATION
 
 # _KSAUDIOMODULE_NOTIFICATION structure
 
-
 ## -description
 
-
-The <b>KSAUDIOMODULE_NOTIFICATION</b> structure describes the  properties associated with audio  modules change notification.
-
+The **KSAUDIOMODULE_NOTIFICATION** structure describes the  properties associated with audio  modules change notification.
 
 ## -struct-fields
-
-
-
 
 ### -field ProviderId
 
 A structure that specifies the ProviderId of the audio module notification.
 
-
 ### -field ProviderId.DeviceId
 
-Specifies the DeviceId of the audio module notification. The DeviceId matches the value returned in <a href="https://msdn.microsoft.com/CD9C5FCD-FB2A-4B21-A15E-BA520C3311A7">KSPROPERTY_AUDIOMODULE_NOTIFICATION_DEVICE_ID</a>.
-
+Specifies the DeviceId of the audio module notification. The DeviceId matches the value returned in [KSPROPERTY_AUDIOMODULE_NOTIFICATION_DEVICE_ID](https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-audiomodule-notification-device-id).
 
 ### -field ProviderId.ClassId
 
-The ClassId of the audio module. The ClassId is an identifier that establishes what type of module this is. The value and mapping is established by the ISV and IHV. 
-
+The ClassId of the audio module. The ClassId is an identifier that establishes what type of module this is. The value and mapping is established by the ISV and IHV.
 
 ### -field ProviderId.InstanceId
 
-The InstanceId of the audio module.  The InstanceId is a unique identifier that distinguishes this instance of a module from another instance of an module. 
-
+The InstanceId of the audio module.  The InstanceId is a unique identifier that distinguishes this instance of a module from another instance of an module.
 
 ### -field ProviderId.Reserved
 
 This member is reserved.
 
-
 ### -field Alignment
 
-Specifies the value that is used for alignment. 
-
+Specifies the value that is used for alignment.
 
 ## -remarks
 
+The Audio module notification KSNOTIFICATIONID_AudioModule is defined in Ksmedia.h as shown here.
 
+```cpp
+//
+// Audio module notification definitions.
+//
 
-The Audio module notification KSNOTIFICATIONID_AudioModule is defined in Ksmedia.h as shown here. 
-
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>// 
-// Audio module notification definitions. 
-// 
-
-#define STATIC_KSNOTIFICATIONID_AudioModule \ 
+#define STATIC_KSNOTIFICATIONID_AudioModule \
     0x9C2220F0, 0xD9A6, 0x4D5C, 0xA0, 0x36, 0x57, 0x38, 0x57, 0xFD, 0x50, 0xD2 
 
-DEFINE_GUIDSTRUCT("9C2220F0-D9A6-4D5C-A036-573857FD50D2", KSNOTIFICATIONID_AudioModule); 
+DEFINE_GUIDSTRUCT("9C2220F0-D9A6-4D5C-A036-573857FD50D2", KSNOTIFICATIONID_AudioModule);
 
-#define KSNOTIFICATIONID_AudioModule DEFINE_GUIDNAMED(KSNOTIFICATIONID_AudioModule)</pre>
-</td>
-</tr>
-</table></span></div>
+#define KSNOTIFICATIONID_AudioModule DEFINE_GUIDNAMED(KSNOTIFICATIONID_AudioModule)
+```
 
-
-For more information about audio modules, see  <a href="https://msdn.microsoft.com/windows/hardware/drivers/audio/implementing-audio-module-communication">Implementing Audio Module Discovery</a>. 
-
-
-
+For more information about audio modules, see [Implementing Audio Module Discovery](https://docs.microsoft.com/windows-hardware/drivers/audio/implementing-audio-module-communication).

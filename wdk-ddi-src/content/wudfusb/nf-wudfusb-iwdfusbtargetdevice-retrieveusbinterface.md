@@ -63,7 +63,7 @@ The index of the interface to retrieve.
 
 ### -param ppUsbInterface [out]
 
-A pointer to a variable that receives a pointer to the specified <a href="https://msdn.microsoft.com/library/windows/hardware/ff560312">IWDFUsbInterface</a> interface for the USB device.
+A pointer to a variable that receives a pointer to the specified <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nn-wudfusb-iwdfusbinterface">IWDFUsbInterface</a> interface for the USB device.
 
 
 ## -returns
@@ -85,7 +85,7 @@ A pointer to a variable that receives a pointer to the specified <a href="https:
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/9dfa8686-a815-417c-9488-dd86de0e15a2">RetrieveUsbInterface</a> successfully retrieved the specified USB interface for the USB device. 
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nf-wudfusb-iwdfusbtargetdevice-retrieveusbinterface">RetrieveUsbInterface</a> successfully retrieved the specified USB interface for the USB device. 
 
 </td>
 </tr>
@@ -97,7 +97,7 @@ A pointer to a variable that receives a pointer to the specified <a href="https:
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/9dfa8686-a815-417c-9488-dd86de0e15a2">RetrieveUsbInterface</a> encountered an allocation failure.
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nf-wudfusb-iwdfusbtargetdevice-retrieveusbinterface">RetrieveUsbInterface</a> encountered an allocation failure.
 
 </td>
 </tr>
@@ -122,14 +122,14 @@ This value corresponds to the error code that the WinUsb API returned.
 
 
 
-The driver can call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560366">IWDFUsbTargetDevice::GetNumInterfaces</a> method to retrieve the total number of USB interfaces that are available. 
+The driver can call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nf-wudfusb-iwdfusbtargetdevice-getnuminterfaces">IWDFUsbTargetDevice::GetNumInterfaces</a> method to retrieve the total number of USB interfaces that are available. 
 
-The driver can use the interface pointer that <b>RetrieveUsbInterface</b> retrieves, to call the methods that the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560312">IWDFUsbInterface</a> interface provides. For more information about using these methods, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/working-with-usb-interfaces-in-umdf-1-x-drivers">Working with USB Interfaces in UMDF</a>.
+The driver can use the interface pointer that <b>RetrieveUsbInterface</b> retrieves, to call the methods that the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nn-wudfusb-iwdfusbinterface">IWDFUsbInterface</a> interface provides. For more information about using these methods, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/working-with-usb-interfaces-in-umdf-1-x-drivers">Working with USB Interfaces in UMDF</a>.
 
 
 #### Examples
 
-For a code example of how to use the <b>RetrieveUsbInterface</b> method, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff560390">IWDFUsbTargetFactory::CreateUsbTargetDevice</a>.
+For a code example of how to use the <b>RetrieveUsbInterface</b> method, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nf-wudfusb-iwdfusbtargetfactory-createusbtargetdevice">IWDFUsbTargetFactory::CreateUsbTargetDevice</a>.
 
 <div class="code"></div>
 
@@ -140,19 +140,19 @@ For a code example of how to use the <b>RetrieveUsbInterface</b> method, see <a 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560312">IWDFUsbInterface</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nn-wudfusb-iwdfusbinterface">IWDFUsbInterface</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560362">IWDFUsbTargetDevice</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nn-wudfusb-iwdfusbtargetdevice">IWDFUsbTargetDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560366">IWDFUsbTargetDevice::GetNumInterfaces</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nf-wudfusb-iwdfusbtargetdevice-getnuminterfaces">IWDFUsbTargetDevice::GetNumInterfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539068">USBD_INTERFACE_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usb/ns-usb-_usbd_interface_information">USBD_INTERFACE_INFORMATION</a>
  
 
  

@@ -47,7 +47,7 @@ req.typenames:
 ## -description
 
 
-The <b>KsReleaseCachedMdl</b> function is used to release the MDL acquired by the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186387">KsAcquireCachedMdl</a> call.
+The <b>KsReleaseCachedMdl</b> function is used to release the MDL acquired by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksacquirecachedmdl">KsAcquireCachedMdl</a> call.
 
 
 ## -parameters
@@ -62,12 +62,12 @@ The GUID extracted from the <b>MFSampleExtension_MDLCacheCookie</b> attribute it
 
 ### -param MdlAddr [in]
 
-MDL address retrieved in the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186387">KsAcquireCachedMdl</a> call. This should not be touched after the <b>KsReleaseCachedMdl</b> call.
+MDL address retrieved in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksacquirecachedmdl">KsAcquireCachedMdl</a> call. This should not be touched after the <b>KsReleaseCachedMdl</b> call.
 
 
 ### -param ReleaseContext [in]
 
-The context passed as an output in the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186387">KsAcquireCachedMdl</a> call.
+The context passed as an output in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksacquirecachedmdl">KsAcquireCachedMdl</a> call.
 
 
 ## -returns

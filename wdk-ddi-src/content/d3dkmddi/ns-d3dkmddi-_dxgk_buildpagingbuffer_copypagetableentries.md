@@ -61,7 +61,7 @@ The number of elements in the <b>pRanges</b> array.
 
 ### -field pRanges
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn894165">DXGK_BUILDPAGINGBUFFER_COPY_RANGE</a> structure describing each range of page table entries to copy.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgk_buildpagingbuffer_copy_range">DXGK_BUILDPAGINGBUFFER_COPY_RANGE</a> structure describing each range of page table entries to copy.
 
 
 ## -see-also
@@ -69,11 +69,11 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn89
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557540">DXGKARG_BUILDPAGINGBUFFER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_buildpagingbuffer">DXGKARG_BUILDPAGINGBUFFER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn894165">DXGK_BUILDPAGINGBUFFER_COPY_RANGE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgk_buildpagingbuffer_copy_range">DXGK_BUILDPAGINGBUFFER_COPY_RANGE</a>
  
 
  

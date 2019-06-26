@@ -99,7 +99,7 @@ This function should be used by minidrivers when they need to move from one appl
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549264">wiasGetRootItem</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiasgetrootitem">wiasGetRootItem</a>
  
 
  

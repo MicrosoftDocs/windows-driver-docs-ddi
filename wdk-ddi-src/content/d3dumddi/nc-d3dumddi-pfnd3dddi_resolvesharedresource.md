@@ -70,7 +70,7 @@ A handle to the display device (that is, the graphics context) that is associate
 
 *pData* [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543274">D3DDDIARG_RESOLVESHAREDRESOURCE</a> structure that contains a handle to the surface. 
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_resolvesharedresource">D3DDDIARG_RESOLVESHAREDRESOURCE</a> structure that contains a handle to the surface. 
 
 
 ## -returns
@@ -112,11 +112,11 @@ The driver implements <i>ResolveSharedResource</i> to appropriately manage resou
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543274">D3DDDIARG_RESOLVESHAREDRESOURCE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_resolvesharedresource">D3DDDIARG_RESOLVESHAREDRESOURCE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>
  
 
  

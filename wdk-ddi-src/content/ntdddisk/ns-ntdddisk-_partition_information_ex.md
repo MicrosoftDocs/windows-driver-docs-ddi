@@ -50,7 +50,7 @@ PARTITION_INFORMATION_EX is the extended version of the [PARTITION_INFORMATION](
 
 ### -field PartitionStyle
 
-Takes a [PARTITION_STYLE](https://msdn.microsoft.com/library/windows/hardware/ff563773) enumerated value that specifies the type of partition table that contains the partition.
+Takes a [PARTITION_STYLE](https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff563773(v=vs.85)) enumerated value that specifies the type of partition table that contains the partition.
 
 ### -field StartingOffset
 

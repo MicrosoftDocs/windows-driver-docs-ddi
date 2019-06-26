@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <code>IPrintPipelineManagerControl</code> interface is passed to each filter in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554291">IPrintPipelineFilter::InitializeFilter</a> method. Filters use this interface to:
+The <code>IPrintPipelineManagerControl</code> interface is passed to each filter in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/filterpipeline/nf-filterpipeline-iprintpipelinefilter-initializefilter">IPrintPipelineFilter::InitializeFilter</a> method. Filters use this interface to:
 <ul>
 <li>
 Request shutdown in low-memory situations.
@@ -60,7 +60,7 @@ Report when the filters are finished processing.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintPipelineManagerControl</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IPrintPipelineManagerControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintPipelineManagerControl</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintPipelineManagerControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -75,7 +75,7 @@ The <b>IPrintPipelineManagerControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554306">IPrintPipelineManagerControl::FilterFinished</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/filterpipeline/nf-filterpipeline-iprintpipelinemanagercontrol-filterfinished">IPrintPipelineManagerControl::FilterFinished</a>
 </td>
 <td align="left" width="63%">
 The <code>FilterFinished</code> method reports that a filter is finished processing.
@@ -84,7 +84,7 @@ The <code>FilterFinished</code> method reports that a filter is finished process
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554308">IPrintPipelineManagerControl::RequestShutdown</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/filterpipeline/nf-filterpipeline-iprintpipelinemanagercontrol-requestshutdown">IPrintPipelineManagerControl::RequestShutdown</a>
 </td>
 <td align="left" width="63%">
 The <code>RequestShutdown</code> method requests that a pipeline be shut down.

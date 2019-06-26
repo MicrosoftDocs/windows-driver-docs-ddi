@@ -61,22 +61,22 @@ The D3DKMT_GETDEVICESTATE structure describes parameters for retrieving the stat
 
 ### -field StateType
 
-[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff547922">D3DKMT_DEVICESTATE_TYPE</a>-typed value that indicates the type of status to retrieve for the device.
+[in] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ne-d3dkmthk-_d3dkmt_devicestate_type">D3DKMT_DEVICESTATE_TYPE</a>-typed value that indicates the type of status to retrieve for the device.
 
 
 ### -field ExecutionState
 
-[out] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff547900">D3DKMT_DEVICEEXECUTION_STATE</a>-typed value that indicates the execution status of the device. The union that is contained in D3DKMT_GETDEVICESTATE holds a value from this enumeration if the <b>StateType</b> member is D3DKMT_DEVICESTATE_EXECUTION. 
+[out] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ne-d3dkmthk-_d3dkmt_deviceexecution_state">D3DKMT_DEVICEEXECUTION_STATE</a>-typed value that indicates the execution status of the device. The union that is contained in D3DKMT_GETDEVICESTATE holds a value from this enumeration if the <b>StateType</b> member is D3DKMT_DEVICESTATE_EXECUTION. 
 
 
 ### -field PresentState
 
-[in/out] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff547905">D3DKMT_DEVICEPRESENT_STATE</a> structure that describes parameters for retrieving the present status of the device. The union that is contained in D3DKMT_GETDEVICESTATE holds a structure of this type if the <b>StateType</b> member is D3DKMT_DEVICESTATE_PRESENT. 
+[in/out] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_devicepresent_state">D3DKMT_DEVICEPRESENT_STATE</a> structure that describes parameters for retrieving the present status of the device. The union that is contained in D3DKMT_GETDEVICESTATE holds a structure of this type if the <b>StateType</b> member is D3DKMT_DEVICESTATE_PRESENT. 
 
 
 ### -field ResetState
 
-[out] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff547915">D3DKMT_DEVICERESET_STATE</a> structure that describes the reset status of the device. The union that is contained in D3DKMT_GETDEVICESTATE holds a structure of this type if the <b>StateType</b> member is D3DKMT_DEVICESTATE_RESET. 
+[out] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_devicereset_state">D3DKMT_DEVICERESET_STATE</a> structure that describes the reset status of the device. The union that is contained in D3DKMT_GETDEVICESTATE holds a structure of this type if the <b>StateType</b> member is D3DKMT_DEVICESTATE_RESET. 
 
 
 ### -field PresentStateDWM
@@ -101,23 +101,23 @@ The D3DKMT_GETDEVICESTATE structure describes parameters for retrieving the stat
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546959">D3DKMTGetDeviceState</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/nf-d3dkmthk-d3dkmtgetdevicestate">D3DKMTGetDeviceState</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547900">D3DKMT_DEVICEEXECUTION_STATE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ne-d3dkmthk-_d3dkmt_deviceexecution_state">D3DKMT_DEVICEEXECUTION_STATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547905">D3DKMT_DEVICEPRESENT_STATE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_devicepresent_state">D3DKMT_DEVICEPRESENT_STATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547915">D3DKMT_DEVICERESET_STATE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_devicereset_state">D3DKMT_DEVICERESET_STATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547922">D3DKMT_DEVICESTATE_TYPE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ne-d3dkmthk-_d3dkmt_devicestate_type">D3DKMT_DEVICESTATE_TYPE</a>
  
 
  

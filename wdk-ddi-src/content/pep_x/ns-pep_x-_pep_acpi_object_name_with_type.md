@@ -56,19 +56,19 @@ The <b>PEP_ACPI_OBJECT_NAME_WITH_TYPE</b> structure that specifies both the path
 
 ### -field Name
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/mt629110">PEP_ACPI_OBJECT_NAME</a> structure that contains the four-character name of the ACPI object.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/ns-pepfx-_pep_acpi_object_name">PEP_ACPI_OBJECT_NAME</a> structure that contains the four-character name of the ACPI object.
 
 
 ### -field Type
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/mt186685">PEP_ACPI_OBJECT_TYPE</a> enumeration value that indicates the type of ACPI object. Currently, the only supported object type is a control method.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/ne-pepfx-_pep_acpi_object_type">PEP_ACPI_OBJECT_TYPE</a> enumeration value that indicates the type of ACPI object. Currently, the only supported object type is a control method.
 
 
 ## -remarks
 
 
 
-The <b>Objects</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186658">PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE</a> structure is the first element in an array of <b>PEP_ACPI_OBJECT_NAME_WITH_TYPE</b> structures.
+The <b>Objects</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/ns-pepfx-_pep_acpi_enumerate_device_namespace">PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE</a> structure is the first element in an array of <b>PEP_ACPI_OBJECT_NAME_WITH_TYPE</b> structures.
 
 
 
@@ -78,15 +78,15 @@ The <b>Objects</b> member of the <a href="https://msdn.microsoft.com/library/win
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt186658">PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/ns-pepfx-_pep_acpi_enumerate_device_namespace">PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt629110">PEP_ACPI_OBJECT_NAME</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/ns-pepfx-_pep_acpi_object_name">PEP_ACPI_OBJECT_NAME</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt186685">PEP_ACPI_OBJECT_TYPE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/ne-pepfx-_pep_acpi_object_type">PEP_ACPI_OBJECT_TYPE</a>
  
 
  

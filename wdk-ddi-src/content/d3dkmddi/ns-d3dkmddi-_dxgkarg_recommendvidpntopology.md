@@ -46,7 +46,7 @@ req.typenames: DXGKARG_RECOMMENDVIDPNTOPOLOGY
 ## -description
 
 
-The DXGKARG_RECOMMENDVIDPNTOPOLOGY structure contains arguments for the display miniport driver's <a href="https://msdn.microsoft.com/a7c31d2c-3893-4d25-837d-d4650aeb1cd1">DxgkDdiRecommendVidPnTopology</a> function.
+The DXGKARG_RECOMMENDVIDPNTOPOLOGY structure contains arguments for the display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_recommendvidpntopology">DxgkDdiRecommendVidPnTopology</a> function.
 
 
 ## -struct-fields
@@ -67,7 +67,7 @@ D3DDDI_ID_ALL or the identifier of a particular video present source on the disp
 ### -field RequestReason
 
 
-      A value from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562023">DXGK_RECOMMENDVIDPNTOPOLOGY_REASON</a> enumeration that indicates the reason that the <a href="https://msdn.microsoft.com/a7c31d2c-3893-4d25-837d-d4650aeb1cd1">DxgkDdiRecommendVidPnTopology</a> function is being called.
+      A value from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ne-d3dkmddi-_dxgk_recommendvidpntopology_reason">DXGK_RECOMMENDVIDPNTOPOLOGY_REASON</a> enumeration that indicates the reason that the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_recommendvidpntopology">DxgkDdiRecommendVidPnTopology</a> function is being called.
      
 
 
@@ -81,11 +81,11 @@ A handle to a VidPN topology object that represents the fallback VidPN topology 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562023">DXGK_RECOMMENDVIDPNTOPOLOGY_REASON</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ne-d3dkmddi-_dxgk_recommendvidpntopology_reason">DXGK_RECOMMENDVIDPNTOPOLOGY_REASON</a>
 
 
 
-<a href="https://msdn.microsoft.com/a7c31d2c-3893-4d25-837d-d4650aeb1cd1">DxgkDdiRecommendVidPnTopology</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_recommendvidpntopology">DxgkDdiRecommendVidPnTopology</a>
  
 
  

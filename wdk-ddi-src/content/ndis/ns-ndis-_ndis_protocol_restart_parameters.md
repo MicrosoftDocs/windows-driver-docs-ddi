@@ -48,7 +48,7 @@ req.typenames: NDIS_PROTOCOL_RESTART_PARAMETERS, *PNDIS_PROTOCOL_RESTART_PARAMET
 
 The NDIS_PROTOCOL_RESTART_PARAMETERS structure defines restart parameters for a protocol driver when
   NDIS calls the 
-  <a href="https://msdn.microsoft.com/3f50bcba-c7d2-4d81-bd8b-6080e08fbe74">ProtocolNetPnPEvent</a> function to
+  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_net_pnp_event">ProtocolNetPnPEvent</a> function to
   indicate a 
   <b>NetEventRestart</b> event.
 
@@ -61,7 +61,7 @@ The NDIS_PROTOCOL_RESTART_PARAMETERS structure defines restart parameters for a 
 ### -field Header
 
 The 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
      NDIS_PROTOCOL_RESTART_PARAMETERS structure. NDIS sets the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to NDIS_OBJECT_TYPE_PROTOCOL_RESTART_PARAMETERS, the 
@@ -88,7 +88,7 @@ The length, in bytes, of the buffer in the
 ### -field RestartAttributes
 
 A pointer to the first entry in a list of 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff567255">NDIS_RESTART_ATTRIBUTES</a> structures.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_restart_attributes">NDIS_RESTART_ATTRIBUTES</a> structures.
      Use the 
      <b>Next</b> member of the NDIS_RESTART_ATTRIBUTES structure to get the next structure in the list.
 
@@ -104,7 +104,7 @@ The NDIS network interface index of the highest-level interface that is stacked 
 ### -field BoundIfNetluid
 
 The NDIS 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a> value (that is also the network interface
+     <a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a> value (that is also the network interface
      name (<i>ifName</i> in 
      RFC 2863)) of the highest-level interface that is stacked on the miniport
      adapter. That is, if there are virtual miniports or filter modules that are installed over the miniport
@@ -122,7 +122,7 @@ Reserved for future use.
 
 
 NDIS passes an NDIS_PROTOCOL_RESTART_PARAMETERS structure to a protocol driver when it calls the 
-    <a href="https://msdn.microsoft.com/3f50bcba-c7d2-4d81-bd8b-6080e08fbe74">ProtocolNetPnPEvent</a> function to
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_net_pnp_event">ProtocolNetPnPEvent</a> function to
     indicate a 
     <b>NetEventRestart</b> event.
 
@@ -140,15 +140,15 @@ Each name that is specified in the buffer in the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567255">NDIS_RESTART_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_restart_attributes">NDIS_RESTART_ATTRIBUTES</a>
 
 
 
-<a href="https://msdn.microsoft.com/3f50bcba-c7d2-4d81-bd8b-6080e08fbe74">ProtocolNetPnPEvent</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_net_pnp_event">ProtocolNetPnPEvent</a>
  
 
  

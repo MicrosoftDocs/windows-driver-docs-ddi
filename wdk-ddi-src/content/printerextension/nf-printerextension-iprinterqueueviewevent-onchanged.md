@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-Provides an <a href="https://msdn.microsoft.com/library/windows/hardware/dn265397">IPrintJobCollection</a> object that provides a snapshot of a range of print jobs in the queue.
+Provides an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprintjobcollection">IPrintJobCollection</a> object that provides a snapshot of a range of print jobs in the queue.
 
 
 ## -parameters
@@ -56,7 +56,7 @@ Provides an <a href="https://msdn.microsoft.com/library/windows/hardware/dn26539
 
 ### -param pCollection [in]
 
-An <a href="https://msdn.microsoft.com/library/windows/hardware/dn265397">IPrintJobCollection</a> object.
+An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprintjobcollection">IPrintJobCollection</a> object.
 
 
 ### -param ulViewOffset [in]
@@ -87,7 +87,7 @@ This method returns the appropriate <b>HRESULT</b> value.
 
 
 
-The job range is controlled by the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265392">IPrinterQueueView</a> interface. Additionally, this method provides the current number of jobs in the print queue, and the indices of the job range being monitored. Information about the number of jobs, and the indices of the jobs is provided in response to the <a href="https://msdn.microsoft.com/DB3C0439-EB82-4E49-8FEA-003C1B4A9EE0">IPrinterQueueView::SetViewRange</a> method being invoked.
+The job range is controlled by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprinterqueueview">IPrinterQueueView</a> interface. Additionally, this method provides the current number of jobs in the print queue, and the indices of the job range being monitored. Information about the number of jobs, and the indices of the jobs is provided in response to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nf-printerextension-iprinterqueueview-setviewrange">IPrinterQueueView::SetViewRange</a> method being invoked.
 
 
 
@@ -97,19 +97,19 @@ The job range is controlled by the <a href="https://msdn.microsoft.com/library/w
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265397">IPrintJobCollection</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprintjobcollection">IPrintJobCollection</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265392">IPrinterQueueView</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprinterqueueview">IPrinterQueueView</a>
 
 
 
-<a href="https://msdn.microsoft.com/DB3C0439-EB82-4E49-8FEA-003C1B4A9EE0">IPrinterQueueView::SetViewRange</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nf-printerextension-iprinterqueueview-setviewrange">IPrinterQueueView::SetViewRange</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265393">IPrinterQueueViewEvent</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprinterqueueviewevent">IPrinterQueueViewEvent</a>
  
 
  

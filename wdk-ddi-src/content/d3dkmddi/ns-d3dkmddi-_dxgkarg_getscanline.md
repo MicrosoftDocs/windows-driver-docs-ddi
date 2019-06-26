@@ -73,7 +73,7 @@ The DXGKARG_GETSCANLINE structure contains information about a video present tar
 
 
 
-A video present path represents a connection between a video present source (view) and a video present target (output) on a display adapter. For more information about video present networks, paths, sources, and targets, see <a href="https://msdn.microsoft.com/62a92f00-b1da-41c2-99af-eef8140b064e">Introduction to Video Present Networks</a>.
+A video present path represents a connection between a video present source (view) and a video present target (output) on a display adapter. For more information about video present networks, paths, sources, and targets, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/introduction-to-video-present-networks">Introduction to Video Present Networks</a>.
 
 
 
@@ -83,7 +83,7 @@ A video present path represents a connection between a video present source (vie
 
 
 
-<a href="https://msdn.microsoft.com/e37bb3c6-a0b6-409f-8a82-20ec7a931c6a">DxgkDdiGetScanLine</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_getscanline">DxgkDdiGetScanLine</a>
  
 
  

@@ -209,7 +209,7 @@ For more information about normalized file name information, see [FLT_FILE_NAME_
 
 [FLT_FILE_NAME_INFORMATION](ns-fltkernel-_flt_file_name_information.md)
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544636">FLT_FILE_NAME_OPTIONS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/flt-file-name-options">FLT_FILE_NAME_OPTIONS</a>
 
 [FltGetDestinationFileNameInformation](nf-fltkernel-fltgetdestinationfilenameinformation.md)
 

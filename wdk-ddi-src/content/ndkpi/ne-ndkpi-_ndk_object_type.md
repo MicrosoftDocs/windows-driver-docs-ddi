@@ -61,52 +61,52 @@ Specifies  an undefined NDK  object.
 
 ### -field NdkObjectTypeAdapter
 
-Specifies an NDK adapter object (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439848">NDK_ADAPTER</a>).
+Specifies an NDK adapter object (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/ns-ndkpi-_ndk_adapter">NDK_ADAPTER</a>).
 
 
 ### -field NdkObjectTypeQp
 
-Specifies an NDK queue pair (QP) object (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439933">NDK_QP</a>).
+Specifies an NDK queue pair (QP) object (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/ns-ndkpi-_ndk_qp">NDK_QP</a>).
 
 
 ### -field NdkObjectTypeCq
 
-Specifies an NDK completion queue (CQ) object (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439854">NDK_CQ</a>).
+Specifies an NDK completion queue (CQ) object (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/ns-ndkpi-_ndk_cq">NDK_CQ</a>).
 
 
 ### -field NdkObjectTypeMr
 
-Specifies an NDK memory region (MR) object (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439922">NDK_MR</a>).
+Specifies an NDK memory region (MR) object (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/ns-ndkpi-_ndk_mr">NDK_MR</a>).
 
 
 ### -field NdkObjectTypeMw
 
-Specifies an NDK memory window (MW) object (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439926">NDK_MW</a>).
+Specifies an NDK memory window (MW) object (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/ns-ndkpi-_ndk_mw">NDK_MW</a>).
 
 
 ### -field NdkObjectTypePd
 
-Specifies an NDK protection domain (PD) object (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439931">NDK_PD</a>).
+Specifies an NDK protection domain (PD) object (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/ns-ndkpi-_ndk_pd">NDK_PD</a>).
 
 
 ### -field NdkObjectTypeSharedEndpoint
 
-Specifies an NDK shared endpoint object (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439937">NDK_SHARED_ENDPOINT</a>).
+Specifies an NDK shared endpoint object (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/ns-ndkpi-_ndk_shared_endpoint">NDK_SHARED_ENDPOINT</a>).
 
 
 ### -field NdkObjectTypeConnector
 
-Specifies an NDK connector object (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439852">NDK_CONNECTOR</a>).
+Specifies an NDK connector object (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/ns-ndkpi-_ndk_connector">NDK_CONNECTOR</a>).
 
 
 ### -field NdkObjectTypeListener
 
-Specifies an NDK listener object (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439918">NDK_LISTENER</a>).
+Specifies an NDK listener object (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/ns-ndkpi-_ndk_listener">NDK_LISTENER</a>).
 
 
 ### -field NdkObjectTypeSrq
 
-Specifies an NDK shared receive queue (SRQ) object (<a href="https://msdn.microsoft.com/library/windows/hardware/hh439939">NDK_SRQ</a>).
+Specifies an NDK shared receive queue (SRQ) object (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/ns-ndkpi-_ndk_srq">NDK_SRQ</a>).
 
 
 ### -field NdkObjectTypeMax
@@ -120,7 +120,7 @@ The maximum value for this enumeration. This value might change in future versio
 
 
 
-NDK objects include an <a href="https://msdn.microsoft.com/library/windows/hardware/hh439928">NDK_OBJECT_HEADER</a> structure that packages the object type,  version, and other information.
+NDK objects include an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/ns-ndkpi-_ndk_object_header">NDK_OBJECT_HEADER</a> structure that packages the object type,  version, and other information.
 
 
 
@@ -130,47 +130,47 @@ NDK objects include an <a href="https://msdn.microsoft.com/library/windows/hardw
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439848">NDK_ADAPTER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/ns-ndkpi-_ndk_adapter">NDK_ADAPTER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439852">NDK_CONNECTOR</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/ns-ndkpi-_ndk_connector">NDK_CONNECTOR</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439854">NDK_CQ</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/ns-ndkpi-_ndk_cq">NDK_CQ</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439918">NDK_LISTENER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/ns-ndkpi-_ndk_listener">NDK_LISTENER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439922">NDK_MR</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/ns-ndkpi-_ndk_mr">NDK_MR</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439926">NDK_MW</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/ns-ndkpi-_ndk_mw">NDK_MW</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439928">NDK_OBJECT_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/ns-ndkpi-_ndk_object_header">NDK_OBJECT_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439931">NDK_PD</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/ns-ndkpi-_ndk_pd">NDK_PD</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439933">NDK_QP</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/ns-ndkpi-_ndk_qp">NDK_QP</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439937">NDK_SHARED_ENDPOINT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/ns-ndkpi-_ndk_shared_endpoint">NDK_SHARED_ENDPOINT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439939">NDK_SRQ</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/ns-ndkpi-_ndk_srq">NDK_SRQ</a>
  
 
  

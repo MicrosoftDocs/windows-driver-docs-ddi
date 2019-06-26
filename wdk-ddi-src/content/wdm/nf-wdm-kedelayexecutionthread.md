@@ -127,7 +127,7 @@ Note that the NT_SUCCESS macro recognizes all of these status values as "success
 
 The expiration time is computed and the current thread is put in a wait state. When the specified interval has passed, the thread exits the wait state and is put in the ready state, becoming eligible for execution.
 
-The <i>Alertable</i> parameter determines when the thread can be alerted and its wait state consequently aborted. For additional information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565592">Waits and APCs</a>.
+The <i>Alertable</i> parameter determines when the thread can be alerted and its wait state consequently aborted. For additional information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/waits-and-apcs">Waits and APCs</a>.
 
 If the <i>WaitMode</i> parameter is <b>UserMode</b>, the kernel stack can be swapped out during the wait. Consequently, a caller must <u>never</u> attempt to pass parameters on the stack when calling <b>KeDelayExecutionThread</b> using the <b>UserMode</b> argument.
 
@@ -139,7 +139,7 @@ Where possible, <i>Alertable</i> should be set to <b>FALSE</b> and <i>WaitMode</
 
 The expiration time of the delay is expressed as either an absolute time at which the delay is to expire, or a time relative to the current system time. If the <i>Interval</i> parameter value is positive, the expiration time is an absolute time. If this value is negative, the expiration time is a relative time.
 
-Expiration times are measured relative to the system clock, and the accuracy with which the operating system can detect when a timer expires is limited by the granularity of the system clock. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/jj602805">Timer Accuracy</a>.
+Expiration times are measured relative to the system clock, and the accuracy with which the operating system can detect when a timer expires is limited by the granularity of the system clock. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/timer-accuracy">Timer Accuracy</a>.
 
 
 
@@ -149,7 +149,7 @@ Expiration times are measured relative to the system clock, and the accuracy wit
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553068">KeQuerySystemTime</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kequerysystemtime">KeQuerySystemTime</a>
  
 
  

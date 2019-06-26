@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <code>Init</code> method initializes the <a href="https://msdn.microsoft.com/154dc921-424f-4021-8f17-5482ceef99a8">WaveRT miniport driver</a> object.
+The <code>Init</code> method initializes the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/wavert-miniport-driver">WaveRT miniport driver</a> object.
 
 
 ## -parameters
@@ -61,12 +61,12 @@ Pointer to the <b>IUnknown</b> interface of the adapter driver object whose mini
 
 ### -param ResourceList [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536976">IResourceList</a> interface of a resource-list object. This object specifies the list of hardware resources that the adapter driver has allocated to the miniport driver. The WaveRT port driver can examine the contents of the resource list, but it does not modify the list.
+Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iresourcelist">IResourceList</a> interface of a resource-list object. This object specifies the list of hardware resources that the adapter driver has allocated to the miniport driver. The WaveRT port driver can examine the contents of the resource list, but it does not modify the list.
 
 
 ### -param Port [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536920">IPortWaveRT</a> interface of the WaveRT port driver. The caller specifies a valid, non-NULL pointer value for this parameter.
+Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iportwavert">IPortWaveRT</a> interface of the WaveRT port driver. The caller specifies a valid, non-NULL pointer value for this parameter.
 
 
 ## -returns
@@ -82,7 +82,7 @@ Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff53
 
 
 
-For more information about the <i>ResourceList</i> parameter, see the <a href="https://msdn.microsoft.com/1735a8e8-56d0-4981-aca7-7bb4c2f22c00">IPort::Init </a> topic. The <i>ResourceList</i> and <i>Port</i> parameters follow the reference-counting conventions for COM objects.
+For more information about the <i>ResourceList</i> parameter, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iport-init">IPort::Init </a> topic. The <i>ResourceList</i> and <i>Port</i> parameters follow the reference-counting conventions for COM objects.
 
 
 
@@ -92,11 +92,11 @@ For more information about the <i>ResourceList</i> parameter, see the <a href="h
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536737">IMiniportWaveRT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iminiportwavert">IMiniportWaveRT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536920">IPortWaveRT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iportwavert">IPortWaveRT</a>
  
 
  

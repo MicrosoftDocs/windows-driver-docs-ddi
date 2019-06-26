@@ -161,7 +161,7 @@ If a device is currently proximate when this IOCTL is successfully completed, th
 
 
 
-<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfp-design-guide">Near field proximity design guide (Tap and Do, NFP provider model, driver requirements)</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/nfc/nfp-design-guide">Near field proximity design guide (Tap and Do, NFP provider model, driver requirements)</a>
  
 
  

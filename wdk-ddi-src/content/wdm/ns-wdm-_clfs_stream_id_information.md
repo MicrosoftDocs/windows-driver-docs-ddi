@@ -73,7 +73,7 @@ A stream identifier is unique within a given CLFS log.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541679">ClfsQueryLogFileInformation</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-clfsquerylogfileinformation">ClfsQueryLogFileInformation</a>
  
 
  

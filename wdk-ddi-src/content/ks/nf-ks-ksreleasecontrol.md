@@ -75,9 +75,9 @@ None
 
 <i>Object</i> should be either a filter or a pin cast to PVOID.
 
-Minidrivers typically do not call <b>KsReleaseControl</b> directly, but instead call <a href="https://msdn.microsoft.com/library/windows/hardware/ff562551">KsFilterReleaseControl</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff563526">KsPinReleaseControl</a>. These versions automatically provide the necessary typecasting to PVOID.
+Minidrivers typically do not call <b>KsReleaseControl</b> directly, but instead call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksfilterreleasecontrol">KsFilterReleaseControl</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-kspinreleasecontrol">KsPinReleaseControl</a>. These versions automatically provide the necessary typecasting to PVOID.
 
-For more information, see <a href="https://msdn.microsoft.com/011edaaa-7449-41c3-8cfb-0d319901af8b">Mutexes in AVStream</a>. 
+For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/mutexes-in-avstream">Mutexes in AVStream</a>. 
 
 
 
@@ -87,23 +87,23 @@ For more information, see <a href="https://msdn.microsoft.com/011edaaa-7449-41c3
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560908">KsAcquireControl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksacquirecontrol">KsAcquireControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562523">KsFilterAcquireControl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksfilteracquirecontrol">KsFilterAcquireControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562551">KsFilterReleaseControl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksfilterreleasecontrol">KsFilterReleaseControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563485">KsPinAcquireControl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-kspinacquirecontrol">KsPinAcquireControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563526">KsPinReleaseControl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-kspinreleasecontrol">KsPinReleaseControl</a>
  
 
  

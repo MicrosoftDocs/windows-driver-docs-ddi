@@ -5,7 +5,7 @@ description: The KBUGCHECK_ADD_PAGES structure describes one or more pages of dr
 old-location: kernel\kbugcheck_add_pages.htm
 tech.root: kernel
 ms.assetid: 91d5b91b-6151-4da7-b0a8-74a2e99474b5
-ms.date: 05/03/2018
+ms.date: 05/08/2019
 ms.keywords: "*PKBUGCHECK_ADD_PAGES, KBUGCHECK_ADD_PAGES, KBUGCHECK_ADD_PAGES structure [Kernel-Mode Driver Architecture], PKBUGCHECK_ADD_PAGES, PKBUGCHECK_ADD_PAGES structure pointer [Kernel-Mode Driver Architecture], _KBUGCHECK_ADD_PAGES, kernel.kbugcheck_add_pages, kstruct_c_4d14d1f9-fada-4eaa-afc7-88228745fcc1.xml, wdm/KBUGCHECK_ADD_PAGES, wdm/PKBUGCHECK_ADD_PAGES"
 ms.topic: struct
 req.header: wdm.h
@@ -44,7 +44,7 @@ req.typenames: KBUGCHECK_ADD_PAGES, *PKBUGCHECK_ADD_PAGES
 
 ## -description
 
-The <b>KBUGCHECK_ADD_PAGES</b> structure describes one or more pages of driver-supplied data to be written by a KbCallbackAddPages callback routine to the crash dump file. 
+The <b>KBUGCHECK_ADD_PAGES</b> structure describes one or more pages of driver-supplied data to be written by a [KBUGCHECK_REASON_CALLBACK_ROUTINE](nc-wdm-kbugcheck_reason_callback_routine.md) callback function to the crash dump file.
 
 ## -struct-fields
 
@@ -54,8 +54,7 @@ Contains private context data for the exclusive use of the callback routine. The
 
 ### -field Flags
 
-
-Contains flags that describe the add-page request. The callback routine must set the value of this member. Set this member to the bitwise OR of one or more of the following flag bits: 
+Contains flags that describe the add-page request. The callback routine must set the value of this member. Set this member to the bitwise OR of one or more of the following flag bits:
 
 #### KB_ADD_PAGES_FLAG_VIRTUAL_ADDRESS
 
@@ -75,11 +74,9 @@ The callback routine must set either the KB_ADD_PAGES_FLAG_VIRTUAL_ADDRESS flag 
 
 Contains a bug check code, which specifies the reason for the bug check. The callback routine can use this information to decide whether to add any pages to the crash dump file. For a full list of bug check codes, see the Bugcodes.h header file included in the WDK.
 
-
 ### -field Address
 
 Specifies the physical or virtual address of the page or pages that the callback routine requests be added to the crash dump file.
-
 
 ### -field Count
 
@@ -89,7 +86,7 @@ Specifies the number of contiguous pages to add to the crash dump file, starting
 
 In a call to the <i>KbCallbackAddPages</i> callback routine, the operating system sets the <i>Reason</i> parameter to <b>KbCallbackAddPages</b>, and sets the <i>ReasonSpecificData</i> parameter to point to a <b>KBUGCHECK_ADD_PAGES</b> structure.
 
-For more information about how this structure is used, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>.
+For more information about how this structure is used, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a> and [KBUGCHECK_REASON_CALLBACK_ROUTINE](nc-wdm-kbugcheck_reason_callback_routine.md) callback function.
 
 ## -see-also
 

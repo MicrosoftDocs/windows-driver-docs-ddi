@@ -46,7 +46,7 @@ req.typenames: DRIVER_UPGRADE_INFO_1, *PDRIVER_UPGRADE_INFO_1
 ## -description
 
 
-The DRIVER_UPGRADE_INFO_1 structure is used as an input to a printer interface DLL's <a href="https://msdn.microsoft.com/library/windows/hardware/ff548648">DrvUpgradePrinter</a> function.
+The DRIVER_UPGRADE_INFO_1 structure is used as an input to a printer interface DLL's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winddiui/nf-winddiui-drvupgradeprinter">DrvUpgradePrinter</a> function.
 
 
 ## -struct-fields
@@ -69,11 +69,11 @@ Pointer to a NULL-terminated string that specifies the local directory in which 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548527">DRIVER_UPGRADE_INFO_2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winddiui/ns-winddiui-_driver_upgrade_info_2">DRIVER_UPGRADE_INFO_2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548648">DrvUpgradePrinter</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winddiui/nf-winddiui-drvupgradeprinter">DrvUpgradePrinter</a>
  
 
  

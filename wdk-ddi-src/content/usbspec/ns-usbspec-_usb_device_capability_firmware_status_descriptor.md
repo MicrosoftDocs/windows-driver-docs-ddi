@@ -37,7 +37,7 @@ ms.custom: RS5
 
 ## -description
 
-For information about the descriptions, see USB 3.2 ENGINEERING CHANGE NOTICE document here: [USB 3.2 Specification](http://www.usb.org/developers/docs/usb_32_062818.zip).
+For information about the descriptions, see USB 3.2 ENGINEERING CHANGE NOTICE document here: [USB 3.2 Specification](https://www.usb.org/developers/docs/usb_32_062818.zip).
 
 ## -struct-fields
 

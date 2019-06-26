@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <b>MmUnmapLockedPages</b> routine releases a mapping that was set up by a preceding call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554622">MmMapLockedPages</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff554629">MmMapLockedPagesSpecifyCache</a> routine.
+The <b>MmUnmapLockedPages</b> routine releases a mapping that was set up by a preceding call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-mmmaplockedpages">MmMapLockedPages</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-mmmaplockedpagesspecifycache">MmMapLockedPagesSpecifyCache</a> routine.
 
 
 ## -parameters
@@ -89,11 +89,11 @@ Note that if the call to <b>MmMapLockedPages</b> or <b>MmMapLockedPagesSpecifyCa
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554622">MmMapLockedPages</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-mmmaplockedpages">MmMapLockedPages</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554629">MmMapLockedPagesSpecifyCache</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-mmmaplockedpagesspecifycache">MmMapLockedPagesSpecifyCache</a>
  
 
  

@@ -46,7 +46,7 @@ req.typenames: D3D11_1_DDI_FLUSH_FLAGS
 ## -description
 
 
-In calls to the <a href="https://msdn.microsoft.com/6f4bda19-2d51-4058-ba68-cbb5deb44a54">Flush(D3D11_1)</a> function,  indicates whether the driver should continue to submit command buffers. Used by Windows Display Driver Model (WDDM) 1.2 and later user-mode display drivers.
+In calls to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_flush">Flush(D3D11_1)</a> function,  indicates whether the driver should continue to submit command buffers. Used by Windows Display Driver Model (WDDM) 1.2 and later user-mode display drivers.
 
 
 ## -enum-fields
@@ -63,7 +63,7 @@ The driver should not submit command buffers if there have been no new commands 
 
 The driver should free as much memory as it can. However, it should not free any memory that the driver requires to continue operating. Using this constant value therefore should not introduce new opportunities to run out of memory.
 
-The driver must no longer call <a href="https://msdn.microsoft.com/8BB6A7A3-E102-4069-BFC2-9605DDE9F020">Video memory offer and reclaim</a> DDIs on the memory that it frees.
+The driver must no longer call <a href="https://docs.microsoft.com/windows-hardware/drivers/display/video-memory-offer-and-reclaim">Video memory offer and reclaim</a> DDIs on the memory that it frees.
 
 Supported starting with Windows 8.1 for WDDM 1.3 and later user-mode display drivers.
 
@@ -73,7 +73,7 @@ Supported starting with Windows 8.1 for WDDM 1.3 and later user-mode display dr
 
 
 
-<a href="https://msdn.microsoft.com/6f4bda19-2d51-4058-ba68-cbb5deb44a54">Flush(D3D11_1)</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_flush">Flush(D3D11_1)</a>
  
 
  

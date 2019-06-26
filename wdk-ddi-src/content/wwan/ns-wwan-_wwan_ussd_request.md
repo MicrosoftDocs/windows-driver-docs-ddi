@@ -69,11 +69,11 @@ The USSD string that accompanies the request.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh464139">WWAN_USSD_REQUEST_TYPE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ne-wwan-_wwan_ussd_request_type">WWAN_USSD_REQUEST_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh464141">WWAN_USSD_STRING</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_ussd_string">WWAN_USSD_STRING</a>
  
 
  

@@ -81,7 +81,7 @@ Reserved for NDIS.
 
 
 The NDIS_RSS_PROCESSOR structure is used in the 
-    <a href="https://msdn.microsoft.com/7f40a815-0247-428c-a46f-d3cdbf7e8058">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_rss_processor_info">
     NDIS_RSS_PROCESSOR_INFO</a> structure.
 
 
@@ -92,7 +92,7 @@ The NDIS_RSS_PROCESSOR structure is used in the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567274">NDIS_RSS_PROCESSOR_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_rss_processor_info">NDIS_RSS_PROCESSOR_INFO</a>
  
 
  

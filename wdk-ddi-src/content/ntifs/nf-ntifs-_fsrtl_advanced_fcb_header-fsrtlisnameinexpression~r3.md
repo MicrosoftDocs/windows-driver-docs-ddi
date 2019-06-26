@@ -152,7 +152,7 @@ Matches zero or more characters until encountering and matching the final . in t
 
 </div>
 <div> </div>
-For information about other string-handling routines, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563884">Strings</a>.
+For information about other string-handling routines, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">Strings</a>.
 
 
 
@@ -162,7 +162,7 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546803">FsRtlIsDbcsInExpression</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlisdbcsinexpression">FsRtlIsDbcsInExpression</a>
 
 
 

@@ -69,7 +69,7 @@ The D3DDDIARG_ZRANGE structure specifies z-range minimum and maximum values.
 
 
 
-<a href="https://msdn.microsoft.com/29ccde7c-801c-4e90-bc39-8581f262cc65">SetZRange</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_setzrange">SetZRange</a>
  
 
  

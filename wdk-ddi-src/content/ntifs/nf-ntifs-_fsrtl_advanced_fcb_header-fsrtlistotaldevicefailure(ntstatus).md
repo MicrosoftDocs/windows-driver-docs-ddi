@@ -77,7 +77,7 @@ If <b>FsRtlIsTotalDeviceFailure</b> returns <b>TRUE</b>, a higher-level driver, 
 
 <b>FsRtlIsTotalDeviceFailure</b> does not return <b>TRUE</b> for either of the status values STATUS_DEVICE_DATA_ERROR and STATUS_CRC_ERROR, which are assumed to indicate a sector failure rather than a total disk failure.
 
-For more information about handling device failure, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff544310">Error Handling</a>.
+For more information about handling device failure, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">Error Handling</a>.
 
 
 
@@ -87,15 +87,15 @@ For more information about handling device failure, see <a href="https://msdn.mi
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546860">FsRtlIsNtstatusExpected</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlisntstatusexpected">FsRtlIsNtstatusExpected</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546988">FsRtlNormalizeNtstatus</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnormalizentstatus">FsRtlNormalizeNtstatus</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550527">IoWriteErrorLogEntry</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-iowriteerrorlogentry">IoWriteErrorLogEntry</a>
  
 
  

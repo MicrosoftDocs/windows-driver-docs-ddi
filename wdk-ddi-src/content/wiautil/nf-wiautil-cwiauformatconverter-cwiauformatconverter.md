@@ -70,11 +70,11 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/b30c3336-ddc6-459d-97c4-244ca0b50cfc">CWiauFormatConverter</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff540363(v=vs.85)">CWiauFormatConverter</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540385">CWiauFormatConverter::~CWiauFormatConverter</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-cwiauformatconverter-~cwiauformatconverter">CWiauFormatConverter::~CWiauFormatConverter</a>
  
 
  

@@ -205,27 +205,27 @@ System-alarm ACEs are not currently supported. The <b>AceType</b> member cannot 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538796">ACCESS_ALLOWED_ACE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_access_allowed_ace">ACCESS_ALLOWED_ACE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538831">ACCESS_DENIED_ACE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_access_denied_ace">ACCESS_DENIED_ACE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/ace">ACE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538866">ACL</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_acl">ACL</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556769">SYSTEM_ALARM_ACE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_system_alarm_ace">SYSTEM_ALARM_ACE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556771">SYSTEM_AUDIT_ACE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_system_audit_ace">SYSTEM_AUDIT_ACE</a>
  
 
  

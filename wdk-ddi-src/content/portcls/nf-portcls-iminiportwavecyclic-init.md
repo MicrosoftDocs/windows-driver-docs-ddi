@@ -61,12 +61,12 @@ Pointer to the <b>IUnknown</b> interface of the adapter object whose miniport ob
 
 ### -param ResourceList [in]
 
-Pointer to <a href="https://msdn.microsoft.com/library/windows/hardware/ff536976">IResourceList</a> interface of the resource list object that is to be supplied to the miniport driver during initialization. After passing this reference to the miniport driver, the port driver is free to examine the contents of the resource list but will not modify the contents of this list. For more information, see the following Remarks section.
+Pointer to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iresourcelist">IResourceList</a> interface of the resource list object that is to be supplied to the miniport driver during initialization. After passing this reference to the miniport driver, the port driver is free to examine the contents of the resource list but will not modify the contents of this list. For more information, see the following Remarks section.
 
 
 ### -param Port [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536899">IPortWaveCyclic</a> object that is bound to this miniport driver. The caller specifies a valid, non-NULL pointer for this parameter.
+Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iportwavecyclic">IPortWaveCyclic</a> object that is bound to this miniport driver. The caller specifies a valid, non-NULL pointer for this parameter.
 
 
 ## -returns
@@ -82,9 +82,9 @@ Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff53
 
 
 
-The <i>UnknownAdapter</i> and <i>ResourceList</i> parameters are the same pointer values that the adapter driver earlier passed as parameters to the <b>IPortWaveCyclic</b> object's <code>Init</code> method (see <a href="https://msdn.microsoft.com/library/windows/hardware/ff536943">IPort::Init</a>).
+The <i>UnknownAdapter</i> and <i>ResourceList</i> parameters are the same pointer values that the adapter driver earlier passed as parameters to the <b>IPortWaveCyclic</b> object's <code>Init</code> method (see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iport-init">IPort::Init</a>).
 
-The <i>UnknownAdapter</i>, <i>ResourceList</i>, and <i>Port</i> parameters follow the <a href="https://msdn.microsoft.com/e6b19110-37e2-4d23-a528-6393c12ab650">reference-counting conventions for COM objects</a>.
+The <i>UnknownAdapter</i>, <i>ResourceList</i>, and <i>Port</i> parameters follow the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/reference-counting-conventions-for-com-objects">reference-counting conventions for COM objects</a>.
 
 
 
@@ -94,19 +94,19 @@ The <i>UnknownAdapter</i>, <i>ResourceList</i>, and <i>Port</i> parameters follo
 
 
 
-<a href="https://msdn.microsoft.com/12f19ef8-ce7c-4a04-814a-a8c34beca1b9">IMiniportWavweCyclic</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iminiportwavecyclic">IMiniportWavweCyclic</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536943">IPort::Init</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iport-init">IPort::Init</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536899">IPortWaveCyclic</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iportwavecyclic">IPortWaveCyclic</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536976">IResourceList</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iresourcelist">IResourceList</a>
  
 
  

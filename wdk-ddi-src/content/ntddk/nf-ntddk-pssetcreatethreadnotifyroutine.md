@@ -56,7 +56,7 @@ The <b>PsSetCreateThreadNotifyRoutine</b> routine registers a driver-supplied ca
 
 ### -param NotifyRoutine [in]
 
-A pointer to the driver's implementation of <a href="https://msdn.microsoft.com/library/windows/hardware/mt764087">PCREATE_THREAD_NOTIFY_ROUTINE</a> routine. 
+A pointer to the driver's implementation of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nc-ntddk-pcreate_thread_notify_routine">PCREATE_THREAD_NOTIFY_ROUTINE</a> routine. 
 
 
 ## -returns
@@ -91,7 +91,7 @@ Highest-level drivers can call <b>PsSetCreateThreadNotifyRoutine</b> to set up t
 </table></span></div>
 For example, an IFS or highest-level system-profiling driver might register such a thread-creation callback to track the system-wide creation and deletion of threads against the driver's internal state.
 
-A driver must remove any callbacks it registers before it unloads. You can remove the callback by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559947">PsRemoveCreateThreadNotifyRoutine</a> routine.
+A driver must remove any callbacks it registers before it unloads. You can remove the callback by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-psremovecreatethreadnotifyroutine">PsRemoveCreateThreadNotifyRoutine</a> routine.
 
 
 
@@ -101,27 +101,27 @@ A driver must remove any callbacks it registers before it unloads. You can remov
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559935">PsGetCurrentProcessId</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-psgetcurrentprocessid">PsGetCurrentProcessId</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559937">PsGetCurrentThreadId</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-psgetcurrentthreadid">PsGetCurrentThreadId</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559945">PsIsSystemThread</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-psissystemthread">PsIsSystemThread</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559947">PsRemoveCreateThreadNotifyRoutine</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-psremovecreatethreadnotifyroutine">PsRemoveCreateThreadNotifyRoutine</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559951">PsSetCreateProcessNotifyRoutine</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-pssetcreateprocessnotifyroutine">PsSetCreateProcessNotifyRoutine</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559957">PsSetLoadImageNotifyRoutine</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-pssetloadimagenotifyroutine">PsSetLoadImageNotifyRoutine</a>
  
 
  

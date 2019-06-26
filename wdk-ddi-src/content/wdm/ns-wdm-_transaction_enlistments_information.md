@@ -46,7 +46,7 @@ req.typenames: TRANSACTION_ENLISTMENTS_INFORMATION, *PTRANSACTION_ENLISTMENTS_IN
 ## -description
 
 
-The <b>TRANSACTION_ENLISTMENTS_INFORMATION</b> structure contains information about the enlistments that are associated with a <a href="https://msdn.microsoft.com/124105bd-70be-49b1-8ea4-af6ba1f3cf16">transaction object</a>.
+The <b>TRANSACTION_ENLISTMENTS_INFORMATION</b> structure contains information about the enlistments that are associated with a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/transaction-objects">transaction object</a>.
 
 
 ## -struct-fields
@@ -61,14 +61,14 @@ The number of enlistments that are associated with a transaction object. This is
 
 ### -field EnlistmentPair
 
-A caller-allocated array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff564793">TRANSACTION_ENLISTMENT_PAIR</a> structures. 
+A caller-allocated array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_transaction_enlistment_pair">TRANSACTION_ENLISTMENT_PAIR</a> structures. 
 
 
 ## -remarks
 
 
 
-The <b>TRANSACTION_ENLISTMENTS_INFORMATION</b> structure is used with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567057">ZwQueryInformationTransaction</a> routine. This routine fills in the structure's members.
+The <b>TRANSACTION_ENLISTMENTS_INFORMATION</b> structure is used with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ntqueryinformationtransaction">ZwQueryInformationTransaction</a> routine. This routine fills in the structure's members.
 
 
 
@@ -78,15 +78,15 @@ The <b>TRANSACTION_ENLISTMENTS_INFORMATION</b> structure is used with the <a hre
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564793">TRANSACTION_ENLISTMENT_PAIR</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_transaction_enlistment_pair">TRANSACTION_ENLISTMENT_PAIR</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564800">TRANSACTION_INFORMATION_CLASS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_transaction_information_class">TRANSACTION_INFORMATION_CLASS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567057">ZwQueryInformationTransaction</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ntqueryinformationtransaction">ZwQueryInformationTransaction</a>
  
 
  

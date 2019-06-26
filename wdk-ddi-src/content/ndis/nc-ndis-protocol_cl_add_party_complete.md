@@ -50,7 +50,7 @@ The
   <i>ProtocolClAddPartyComplete</i> function is required for connection-oriented NDIS clients that set up
   multipoint connections. Such clients must have 
   <i>ProtocolClAddPartyComplete</i> functions to complete the asynchronous operations that they initiate with 
-  <a href="https://msdn.microsoft.com/library/windows/hardware/ff561625">NdisClAddParty</a>. Otherwise, such a protocol
+  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndiscladdparty">NdisClAddParty</a>. Otherwise, such a protocol
   driver's registered 
   <i>ProtocolClAddPartyComplete</i> function can simply return control.
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>PROTOCOL_CL_ADD_PARTY_COMPLETE</b> type. For more
@@ -94,7 +94,7 @@ The client passed an invalid
 #### NDIS_STATUS_XXX
 
 The call manager's 
-       <a href="https://msdn.microsoft.com/06aa5ff6-974c-43dd-8395-bc1a1a8421d5">ProtocolCmAddParty</a> function
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cm_add_party">ProtocolCmAddParty</a> function
        returned a CM-determined value to indicate why it could not add the party to the VC.
 
 
@@ -115,7 +115,7 @@ If
 ### -param CallParameters [in]
 
 Pointer to a structure of type 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>, originally set up by
+     <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff545384(v=vs.85)">CO_CALL_PARAMETERS</a>, originally set up by
      the client for its call to 
      <b>NdisClAddParty</b> but possibly modified subsequently by the call manager.
 
@@ -136,7 +136,7 @@ None
 A call to 
     <i>ProtocolClAddPartyComplete</i> indicates completion of the asynchronous operation initiated when the
     client called 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561625">NdisClAddParty</a>. If the input 
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndiscladdparty">NdisClAddParty</a>. If the input 
     <i>Status</i> is set to anything other than NDIS_STATUS_SUCCESS, 
     <i>ProtocolClAddPartyComplete</i> can release or reuse the client-allocated buffers at 
     <i>ProtocolPartyContext</i> and at 
@@ -147,7 +147,7 @@ If the attempt to add a party succeeded,
     <i>NdisPartyHandle</i> for subsequent calls to NDIS library functions concerning this party in the
     client's 
     <i>ProtocolPartyContext</i> area. For example, the client must pass this handle in a subsequent call to 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561629">NdisClDropParty</a> eventually unless the
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndiscldropparty">NdisClDropParty</a> eventually unless the
     remote party that it represents closes its connection first.
 
 The structure at 
@@ -167,13 +167,13 @@ Depending on the signaling protocol of the call manager, the traffic parameters 
     <i>CallParameters</i> can be identical for all parties on any particular multipoint connection. That is,
     as the client of such a call manager adds parties on a multipoint connection that the client originally
     set up with 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561635">NdisClMakeCall</a>, it can supply only the
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisclmakecall">NdisClMakeCall</a>, it can supply only the
     target address of each party and leave the traffic parameters as originally set up for the multipoint VC
     each time it calls 
     <b>NdisClAddParty</b>.
 
 <h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>
-To define a <i>ProtocolClAddPartyComplete</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
+To define a <i>ProtocolClAddPartyComplete</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/code-analysis-for-drivers">Code Analysis for Drivers</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
 
 For example, to define a <i>ProtocolClAddPartyComplete</i> function that is named "MyClAddPartyComplete", use the <b>PROTOCOL_CL_ADD_PARTY_COMPLETE</b> type as shown in this code example:
 
@@ -207,7 +207,7 @@ VOID
 </td>
 </tr>
 </table></span></div>
-The <b>PROTOCOL_CL_ADD_PARTY_COMPLETE</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_CL_ADD_PARTY_COMPLETE</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/232c4272-0bf0-4a4e-9560-3bceeca8a3e3">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
+The <b>PROTOCOL_CL_ADD_PARTY_COMPLETE</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_CL_ADD_PARTY_COMPLETE</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
 For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
 
@@ -219,35 +219,35 @@ For information about  _Use_decl_annotations_, see <a href="https://go.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff545384(v=vs.85)">CO_CALL_PARAMETERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561625">NdisClAddParty</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndiscladdparty">NdisClAddParty</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561629">NdisClDropParty</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndiscldropparty">NdisClDropParty</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561635">NdisClMakeCall</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisclmakecall">NdisClMakeCall</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561651">NdisCmAddPartyComplete</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndiscmaddpartycomplete">NdisCmAddPartyComplete</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562798">NdisMCmAddPartyComplete</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismcmaddpartycomplete">NdisMCmAddPartyComplete</a>
 
 
 
-<a href="https://msdn.microsoft.com/3815ca4b-f4bc-4de9-a28a-5d3ee20bcdd8">ProtocolClIncomingDropParty</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cl_incoming_drop_party">ProtocolClIncomingDropParty</a>
 
 
 
-<a href="https://msdn.microsoft.com/06aa5ff6-974c-43dd-8395-bc1a1a8421d5">ProtocolCmAddParty</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cm_add_party">ProtocolCmAddParty</a>
  
 
  

@@ -64,7 +64,7 @@ The D3DKMT_FENCE_PRESENTHISTORYTOKEN structure identifies a fence present-histor
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548188">D3DKMT_PRESENTHISTORYTOKEN</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_presenthistorytoken">D3DKMT_PRESENTHISTORYTOKEN</a>
  
 
  

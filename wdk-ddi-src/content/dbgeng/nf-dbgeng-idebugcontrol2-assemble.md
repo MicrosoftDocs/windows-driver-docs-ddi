@@ -63,7 +63,7 @@ Specifies the location in the target's memory to place the assembled instruction
 
 ### -param Instr [in]
 
-Specifies the instruction to assemble.  The instruction is assembled according to the target's effective processor type (returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff556657">SetEffectiveProcessorType</a>).
+Specifies the instruction to assemble.  The instruction is assembled according to the target's effective processor type (returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-seteffectiveprocessortype">SetEffectiveProcessorType</a>).
 
 
 ### -param EndOffset [out]
@@ -94,7 +94,7 @@ The method was successful.
 </table>
  
 
-This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+This method can also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 
 
@@ -106,11 +106,11 @@ This method can also return error values.  See <a href="https://msdn.microsoft.c
 The assembly language depends on the effective processor type of the target machine.  For information about the assembly language, see the processor documentation.
 
 <div class="alert"><b>Note</b>  
-      The <b>Assemble</b> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff538126">AssembleWide</a> methods are not supported on some architectures, and on some other architectures not all instructions are supported.</div>
+      The <b>Assemble</b> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol4-assemblewide">AssembleWide</a> methods are not supported on some architectures, and on some other architectures not all instructions are supported.</div>
 <div> </div>
-The assembly language options--returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff545605">GetAssemblyOptions</a>--affect the operation of this method.
+The assembly language options--returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-getassemblyoptions">GetAssemblyOptions</a>--affect the operation of this method.
 
-For an overview of using assembly in debugger applications, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff540661">Debugging in Assembly Mode</a>.  For more information about using assembly with the <a href="https://msdn.microsoft.com/e4d53375-c82e-493b-9ccb-444c211fbc79">debugger engine API</a>, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff538127">Assembling and Disassembling Instructions</a>.
+For an overview of using assembly in debugger applications, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debugging-in-assembly-mode">Debugging in Assembly Mode</a>.  For more information about using assembly with the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/d">debugger engine API</a>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/assembling-and-disassembling-instructions">Assembling and Disassembling Instructions</a>.
 
 
 
@@ -120,23 +120,23 @@ For an overview of using assembly in debugger applications, see <a href="https:/
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541948">Disassemble</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-disassemble">Disassemble</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545605">GetAssemblyOptions</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-getassemblyoptions">GetAssemblyOptions</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550508">IDebugControl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugcontrol">IDebugControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550512">IDebugControl2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugcontrol2">IDebugControl2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550519">IDebugControl3</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugcontrol3">IDebugControl3</a>
  
 
  

@@ -56,7 +56,7 @@ The KSRTAUDIO_SETWRITEPACKET_INFO structure describes information associated wit
 
 ### -field PacketNumber
 
- The number of the packet written by the OS to the WaveRT buffer. Depending on the values returned by the driver in the KSPROPERTY_RTAUDIO_GETPACKETCOUNT property, the PacketNumber may skip values. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/mt171559">KSPROPERTY_RTAUDIO_PACKETCOUNT</a>. 
+ The number of the packet written by the OS to the WaveRT buffer. Depending on the values returned by the driver in the KSPROPERTY_RTAUDIO_GETPACKETCOUNT property, the PacketNumber may skip values. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-rtaudio-packetcount">KSPROPERTY_RTAUDIO_PACKETCOUNT</a>. 
 
 
 
@@ -82,7 +82,7 @@ The length of the EOS packet if <i>KSSTREAM_HEADER_OPTIONSF_ENDOFSTREAM</i> is s
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt786975">KSPROPERTY_RTAUDIO_SETWRITEPACKET</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-rtaudio-setwritepacket">KSPROPERTY_RTAUDIO_SETWRITEPACKET</a>
  
 
  

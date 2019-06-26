@@ -49,7 +49,7 @@ req.typenames:
 
 The 
   <b>NdisMFreePort</b> function frees an NDIS port that was previously allocated with the 
-  <a href="https://msdn.microsoft.com/library/windows/hardware/ff562779">NdisMAllocatePort</a> function.
+  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismallocateport">NdisMAllocatePort</a> function.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ The
 
 The miniport adapter handle that NDIS passed to the 
      <i>MiniportAdapterHandle</i> parameter of the 
-     <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_initialize">
      MiniportInitializeEx</a> function.
 
 ### -param PortNumber [in]
@@ -70,9 +70,9 @@ The number of the NDIS port that NDIS should free. The
      <i>PortNumber</i> value is an NDIS_PORT_NUMBER value, which has a ULONG data type. NDIS provided the port
      number in the 
      <b>PortNumber</b> member of the 
-     <a href="https://msdn.microsoft.com/fd602dd6-c216-413a-a4da-292739774937">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_port_characteristics">
      NDIS_PORT_CHARACTERISTICS</a> structure when the miniport driver called the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff562779">NdisMAllocatePort</a> function. 
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismallocateport">NdisMAllocatePort</a> function. 
      
 
 The port number can be a number from 1 through 0xffffff. You cannot set 
@@ -146,9 +146,9 @@ The port number that was supplied at the
 
 
 If a miniport driver allocated a port by calling the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff562779">NdisMAllocatePort</a> function, the driver
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismallocateport">NdisMAllocatePort</a> function, the driver
     must free the port before it returns from its 
-    <a href="https://msdn.microsoft.com/b8d452b4-bef3-4991-87cf-fac15bedfde4">MiniportHaltEx</a> function. If the miniport
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_halt">MiniportHaltEx</a> function. If the miniport
     driver activated the port by issuing a 
     <b>NetEventPortActivation</b> Plug and Play (PnP) event, the driver must issue a 
     <b>NetEventPortDeactivation</b> PnP event for the port before freeing the port.
@@ -165,27 +165,27 @@ The miniport driver must not attempt to free the default port.
 
 
 
-<a href="https://msdn.microsoft.com/a9edf83f-9226-4c75-a04e-1879a05df24c">Default NDIS Port</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/default-ndis-port">Default NDIS Port</a>
 
 
 
-<a href="https://msdn.microsoft.com/ae7b608d-6105-4fdc-b805-0f0101d7c218">Freeing an NDIS Port</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/freeing-an-ndis-port">Freeing an NDIS Port</a>
 
 
 
-<a href="https://msdn.microsoft.com/b8d452b4-bef3-4991-87cf-fac15bedfde4">MiniportHaltEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_halt">MiniportHaltEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566791">NDIS_PORT_CHARACTERISTICS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_port_characteristics">NDIS_PORT_CHARACTERISTICS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562779">NdisMAllocatePort</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismallocateport">NdisMAllocatePort</a>
  
 
  

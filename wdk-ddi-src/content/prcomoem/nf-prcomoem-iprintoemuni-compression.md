@@ -56,7 +56,7 @@ The <code>IPrintOemUni::Compression</code> method can be used with Unidrv-suppor
 
 ### -param pdevobj
 
-Caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547573">DEVOBJ</a> structure.
+Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/ns-printoem-_devobj">DEVOBJ</a> structure.
 
 
 ### -param pInBuf
@@ -140,7 +140,7 @@ The method is not implemented.
 
 The <code>IPrintOemUni::Compression</code> method is used by rendering plug-ins to compress scan line data before it is sent to the print spooler. The method's purpose is to provide support for printer-specific compression methods that are not supported by Unidrv.
 
-If the <code>IPrintOemUni::Compression</code> method is defined, and if the printer's <a href="https://msdn.microsoft.com/f67c673d-c6f0-49f0-850a-d8b00e99ddd4">GPD</a> file contains a CmdEnableOEMComp command entry, Unidrv calls the method each time a scan line is ready to be sent to the print spooler. (For information about the CmdEnableOEMComp command, see <a href="https://msdn.microsoft.com/fd88d009-7612-49cc-810a-b0d09b4b75b3">Raster Data Compression Commands</a>.)
+If the <code>IPrintOemUni::Compression</code> method is defined, and if the printer's <a href="https://docs.microsoft.com/windows-hardware/drivers/">GPD</a> file contains a CmdEnableOEMComp command entry, Unidrv calls the method each time a scan line is ready to be sent to the print spooler. (For information about the CmdEnableOEMComp command, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/raster-data-compression-commands">Raster Data Compression Commands</a>.)
 
 The <i>pInBuf</i> and <i>dwInLen</i> parameter values describe a buffer containing a scan line of image data to be compressed. The <i>pOutBuf</i> and <i>dwOutLen</i> parameter values describe the buffer into which the <code>IPrintOemUni::Compression</code> method should place the compressed data.
 
@@ -152,7 +152,7 @@ If, after Unidrv tries all enabled compression methods, the compressed data retu
 
 If possible, the method's compression algorithm should use the received <i>dwOutLen</i> value to determine whether it can stop the algorithm before completion, to save time if another compression method has already created a better result.
 
-The <code>IPrintOemUni::Compression</code> method is optional. If a rendering plug-in implements this method, the plug-in's <a href="https://msdn.microsoft.com/library/windows/hardware/ff554253">IPrintOemUni::GetImplementedMethod</a> method must return S_OK when it receives "Compression" as input.
+The <code>IPrintOemUni::Compression</code> method is optional. If a rendering plug-in implements this method, the plug-in's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintoemuni-getimplementedmethod">IPrintOemUni::GetImplementedMethod</a> method must return S_OK when it receives "Compression" as input.
 
 
 

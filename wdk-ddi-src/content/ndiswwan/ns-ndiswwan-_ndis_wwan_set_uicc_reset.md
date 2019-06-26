@@ -102,12 +102,12 @@ sizeof(NDIS_WWAN_SET_UICC_RESET)
  
 
 For more information about these members, see 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field SetUiccReset
 
-A formatted <a href="https://msdn.microsoft.com/33711459-70C8-43D2-974D-B90EC0DD8ED6">WWAN_SET_UICC_RESET</a> structure that represents the passthrough action the host specifies for the miniport adapter after it resets the UICC.
+A formatted <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_set_uicc_reset">WWAN_SET_UICC_RESET</a> structure that represents the passthrough action the host specifies for the miniport adapter after it resets the UICC.
 
 
 ## -see-also
@@ -119,7 +119,7 @@ A formatted <a href="https://msdn.microsoft.com/33711459-70C8-43D2-974D-B90EC0DD
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
@@ -127,7 +127,7 @@ A formatted <a href="https://msdn.microsoft.com/33711459-70C8-43D2-974D-B90EC0DD
 
 
 
-<a href="https://msdn.microsoft.com/33711459-70C8-43D2-974D-B90EC0DD8ED6">WWAN_SET_UICC_RESET</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_set_uicc_reset">WWAN_SET_UICC_RESET</a>
  
 
  

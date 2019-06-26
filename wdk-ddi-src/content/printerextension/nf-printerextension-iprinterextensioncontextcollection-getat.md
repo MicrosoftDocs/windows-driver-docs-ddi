@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-Gets a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/hh406649">IPrinterExtensionContext</a> object.
+Gets a pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprinterextensioncontext">IPrinterExtensionContext</a> object.
 
 
 ## -parameters
@@ -56,12 +56,12 @@ Gets a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardwar
 
 ### -param ulIndex [in]
 
-The index of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406649">IPrinterExtensionContext</a> object within the collection.
+The index of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprinterextensioncontext">IPrinterExtensionContext</a> object within the collection.
 
 
 ### -param ppContext [out, retval]
 
-Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/hh406649">IPrinterExtensionContext</a> interface.
+Pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprinterextensioncontext">IPrinterExtensionContext</a> interface.
 
 
 ## -returns
@@ -78,11 +78,11 @@ This method returns an <b>HRESULT</b> value.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406649">IPrinterExtensionContext</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprinterextensioncontext">IPrinterExtensionContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh846191">IPrinterExtensionContextCollection</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprinterextensioncontextcollection">IPrinterExtensionContextCollection</a>
  
 
  

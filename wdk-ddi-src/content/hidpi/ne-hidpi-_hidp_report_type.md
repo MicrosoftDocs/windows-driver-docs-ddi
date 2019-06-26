@@ -74,19 +74,19 @@ Indicates a feature report.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539693">HIDP_BUTTON_CAPS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hidpi/ns-hidpi-_hidp_button_caps">HIDP_BUTTON_CAPS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539832">HIDP_VALUE_CAPS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hidpi/ns-hidpi-_hidp_value_caps">HIDP_VALUE_CAPS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539718">HidP_GetData</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hidpi/nf-hidpi-hidp_getdata">HidP_GetData</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539783">HidP_SetData</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hidpi/nf-hidpi-hidp_setdata">HidP_SetData</a>
  
 
  

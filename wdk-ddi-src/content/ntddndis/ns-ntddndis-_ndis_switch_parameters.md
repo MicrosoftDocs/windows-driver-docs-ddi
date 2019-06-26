@@ -56,7 +56,7 @@ The <b>NDIS_SWITCH_PARAMETERS</b> structure contains the configuration data for 
 
 ### -field Header
 
-The type, revision, and size of the <b>NDIS_SWITCH_PARAMETERS</b> structure. This member is formatted as an <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure.
+The type, revision, and size of the <b>NDIS_SWITCH_PARAMETERS</b> structure. This member is formatted as an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure.
 
 The <b>Type</b> member of <b>Header</b> must be set to NDIS_OBJECT_TYPE_DEFAULT. To specify the version of the <b>NDIS_SWITCH_PARAMETERS</b> structure, the <b>Revision</b> member of <b>Header</b> must be set to the following value: 
 
@@ -82,7 +82,7 @@ A ULONG value that contains a bitwise <b>OR</b> of flags. This member is reserve
 
  An <b>NDIS_SWITCH_NAME</b> value that specifies the unique internal name of the extensible switch.
 
-The internal switch name is used by WMI-based policy management applications. For more information, see <a href="https://msdn.microsoft.com/F58A4BC0-C5C6-440D-BEA3-2224F7051BA5">Managing Hyper-V Extensible Switch Policies</a>.
+The internal switch name is used by WMI-based policy management applications. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/managing-hyper-v-extensible-switch-extensibility-policies">Managing Hyper-V Extensible Switch Policies</a>.
 
 
 ### -field SwitchFriendlyName
@@ -97,7 +97,7 @@ A UINT32 value that specifies the number of ports configured on the extensible s
 
 ### -field IsActive
 
-A BOOLEAN that if TRUE indicates that the Hyper-V extensible switch activation has finished and it is safe to query for other switch configuration such as enumerating ports, NICs, and properties. If FALSE, the extension must wait for the <a href="https://msdn.microsoft.com/b68fb279-c1d4-4f0b-8b04-b17a01a65560">NetEventSwitchActivate</a> PNP event to be issued before querying for switch configuration. 
+A BOOLEAN that if TRUE indicates that the Hyper-V extensible switch activation has finished and it is safe to query for other switch configuration such as enumerating ports, NICs, and properties. If FALSE, the extension must wait for the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_pnp_event">NetEventSwitchActivate</a> PNP event to be issued before querying for switch configuration. 
 
 
 ## -remarks
@@ -105,31 +105,31 @@ A BOOLEAN that if TRUE indicates that the Hyper-V extensible switch activation h
 
 
 The <b>NDIS_SWITCH_PARAMETERS</b> structure is used in the 
-    OID request of <a href="https://msdn.microsoft.com/library/windows/hardware/hh598270">OID_SWITCH_PARAMETERS</a>.
+    OID request of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-switch-parameters">OID_SWITCH_PARAMETERS</a>.
 
 This structure is also passed in the <i>vSwitch</i> parameter of the following callout functions for Windows Filtering Platform callout drivers:<ul>
 <li>
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451269">FWPS_VSWITCH_INTERFACE_EVENT_CALLBACK0</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_vswitch_interface_event_callback0">FWPS_VSWITCH_INTERFACE_EVENT_CALLBACK0</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451271">FWPS_VSWITCH_LIFETIME_EVENT_CALLBACK0</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_vswitch_lifetime_event_callback0">FWPS_VSWITCH_LIFETIME_EVENT_CALLBACK0</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451272">FWPS_VSWITCH_POLICY_EVENT_CALLBACK0</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_vswitch_policy_event_callback0">FWPS_VSWITCH_POLICY_EVENT_CALLBACK0</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451276">FWPS_VSWITCH_PORT_EVENT_CALLBACK0</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_vswitch_port_event_callback0">FWPS_VSWITCH_PORT_EVENT_CALLBACK0</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451281">FWPS_VSWITCH_RUNTIME_STATE_RESTORE_CALLBACK0</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_vswitch_runtime_state_restore_callback0">FWPS_VSWITCH_RUNTIME_STATE_RESTORE_CALLBACK0</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451286">FWPS_VSWITCH_RUNTIME_STATE_SAVE_CALLBACK0</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_vswitch_runtime_state_save_callback0">FWPS_VSWITCH_RUNTIME_STATE_SAVE_CALLBACK0</a>
 </li>
 </ul>
 
 
-<div class="alert"><b>Note</b>  The <b>NDIS_SWITCH_NAME</b> and  <b>NDIS_SWITCH_FRIENDLYNAME</b> data types are type-defined by the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451419">IF_COUNTED_STRING</a> structure. A string that is defined by this structure does not have to be null-terminated. However, the length of the string must be set in the <b>Length</b> member of this structure. If the string is null-terminated, the <b>Length</b> member must not include the terminating null character.
+<div class="alert"><b>Note</b>  The <b>NDIS_SWITCH_NAME</b> and  <b>NDIS_SWITCH_FRIENDLYNAME</b> data types are type-defined by the <a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ns-ifdef-_if_counted_string_lh">IF_COUNTED_STRING</a> structure. A string that is defined by this structure does not have to be null-terminated. However, the length of the string must be set in the <b>Length</b> member of this structure. If the string is null-terminated, the <b>Length</b> member must not include the terminating null character.
 
 </div>
 <div> </div>
@@ -145,43 +145,43 @@ This structure is also passed in the <i>vSwitch</i> parameter of the following c
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451271">FWPS_VSWITCH_LIFETIME_EVENT_CALLBACK0</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_vswitch_lifetime_event_callback0">FWPS_VSWITCH_LIFETIME_EVENT_CALLBACK0</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451272">FWPS_VSWITCH_POLICY_EVENT_CALLBACK0</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_vswitch_policy_event_callback0">FWPS_VSWITCH_POLICY_EVENT_CALLBACK0</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451276">FWPS_VSWITCH_PORT_EVENT_CALLBACK0</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_vswitch_port_event_callback0">FWPS_VSWITCH_PORT_EVENT_CALLBACK0</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451281">FWPS_VSWITCH_RUNTIME_STATE_RESTORE_CALLBACK0</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_vswitch_runtime_state_restore_callback0">FWPS_VSWITCH_RUNTIME_STATE_RESTORE_CALLBACK0</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451286">FWPS_VSWITCH_RUNTIME_STATE_SAVE_CALLBACK0</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_vswitch_runtime_state_save_callback0">FWPS_VSWITCH_RUNTIME_STATE_SAVE_CALLBACK0</a>
 
 
 
-<a href="https://msdn.microsoft.com/63EAA278-9CE6-4C75-8221-E1666F143815">IF_COUNTEDFWPS_VSWITCH_INTERFACE_EVENT_CALLBACK0</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_vswitch_interface_event_callback0">IF_COUNTEDFWPS_VSWITCH_INTERFACE_EVENT_CALLBACK0</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/b68fb279-c1d4-4f0b-8b04-b17a01a65560">NetEventSwitchActivate</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_pnp_event">NetEventSwitchActivate</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598270">OID_SWITCH_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-switch-parameters">OID_SWITCH_PARAMETERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/44B59154-C5CA-42F0-A972-021833E29D81">_STRING</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ns-ifdef-_if_counted_string_lh">_STRING</a>
  
 
  

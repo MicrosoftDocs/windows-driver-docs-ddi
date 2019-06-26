@@ -79,7 +79,7 @@ Indicates a SuperSpeed USB 3.0-compliant device.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt627971">UdecxUsbDeviceInitSetSpeed</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/udecxusbdevice/nf-udecxusbdevice-udecxusbdeviceinitsetspeed">UdecxUsbDeviceInitSetSpeed</a>
  
 
  

@@ -94,7 +94,7 @@ Pointer to the USHORT data to be transferred.
 
 
 
-Only miniport drivers of VGA-compatible SVGA adapters have <i>SvgaHwIoPortXxx</i> functions. (See <a href="https://msdn.microsoft.com/library/windows/hardware/ff569908">SVGA Functions</a>.)
+Only miniport drivers of VGA-compatible SVGA adapters have <i>SvgaHwIoPortXxx</i> functions. (See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">SVGA Functions</a>.)
 
 <i>SvgaHwIoPortUshort</i> intercepts any range access attempted by a full-screen MS-DOS application issuing either or both of the instructions <b>OUT DX, AX</b> and <b>IN AX, DX</b>.
 
@@ -114,31 +114,31 @@ If one or more application-issued x86 <b>IN</b> or <b>OUT</b> instructions might
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564131">EMULATOR_ACCESS_ENTRY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/miniport/ns-miniport-_emulator_access_entry">EMULATOR_ACCESS_ENTRY</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569908">SVGA Functions</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">SVGA Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/cfb8d6d9-0210-4800-979c-7c6a6bbfe633">SvgaHwIoPortUshortString</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nc-video-pdriver_io_port_ushort_string">SvgaHwIoPortUshortString</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570498">VIDEO_ACCESS_RANGE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/ns-video-_video_access_range">VIDEO_ACCESS_RANGE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570531">VIDEO_PORT_CONFIG_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/ns-video-_video_port_config_info">VIDEO_PORT_CONFIG_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570310">VideoPortGetDeviceBase</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportgetdevicebase">VideoPortGetDeviceBase</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570366">VideoPortSetTrappedEmulatorPorts</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportsettrappedemulatorports">VideoPortSetTrappedEmulatorPorts</a>
  
 
  

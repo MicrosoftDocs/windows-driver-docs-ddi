@@ -63,7 +63,7 @@ A pointer to the IRP.
 
 
 
-<b>IoGetNextIrpStackLocation</b> returns a pointer to the next-lower-level driver's <a href="https://msdn.microsoft.com/62c8ee00-c7cb-4aa1-90ab-b8bedbd818ee">I/O stack location</a> in the given IRP.
+<b>IoGetNextIrpStackLocation</b> returns a pointer to the next-lower-level driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/i-o-stack-locations">I/O stack location</a> in the given IRP.
 
 
 
@@ -74,9 +74,9 @@ A pointer to the IRP.
 
 Each driver that passes IRPs on to lower drivers must set up the stack location for the next lower driver. A driver calls <b>IoGetNextIrpStackLocation</b> to get a pointer to the next-lower driver's I/O stack location.
 
-If a driver is passing the same parameters that it received to the next-lower driver, it should call <a href="https://msdn.microsoft.com/library/windows/hardware/ff548387">IoCopyCurrentIrpStackLocationToNext</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff550355">IoSkipCurrentIrpStackLocation</a> instead of getting a pointer to the next-lower stack location and copying the parameters manually.
+If a driver is passing the same parameters that it received to the next-lower driver, it should call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iocopycurrentirpstacklocationtonext">IoCopyCurrentIrpStackLocationToNext</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer">IoSkipCurrentIrpStackLocation</a> instead of getting a pointer to the next-lower stack location and copying the parameters manually.
 
-The return value is a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff550659">IO_STACK_LOCATION</a> structure. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff551821">I/O Stack Locations</a>.
+The return value is a pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_io_stack_location">IO_STACK_LOCATION</a> structure. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/i-o-stack-locations">I/O Stack Locations</a>.
 
 
 
@@ -86,27 +86,27 @@ The return value is a pointer to an <a href="https://msdn.microsoft.com/library/
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550659">IO_STACK_LOCATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_io_stack_location">IO_STACK_LOCATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548336">IoCallDriver</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iocalldriver">IoCallDriver</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548387">IoCopyCurrentIrpStackLocationToNext</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iocopycurrentirpstacklocationtonext">IoCopyCurrentIrpStackLocationToNext</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549174">IoGetCurrentIrpStackLocation</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iogetcurrentirpstacklocation">IoGetCurrentIrpStackLocation</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550321">IoSetNextIrpStackLocation</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iosetnextirpstacklocation">IoSetNextIrpStackLocation</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550355">IoSkipCurrentIrpStackLocation</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer">IoSkipCurrentIrpStackLocation</a>
  
 
  

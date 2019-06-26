@@ -46,7 +46,7 @@ req.typenames: DXGK_DESCRIBEALLOCATIONFLAGS
 ## -description
 
 
-Used in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557575">DXGKARG_DESCRIBEALLOCATION</a>.<b>Flags</b> member to describe whether an existing allocation is being queried for its display mode.
+Used in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_describeallocation">DXGKARG_DESCRIBEALLOCATION</a>.<b>Flags</b> member to describe whether an existing allocation is being queried for its display mode.
 
 
 ## -struct-fields
@@ -78,7 +78,7 @@ Setting this member to zero is equivalent to setting the remaining 31 bits (0xFF
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557575">DXGKARG_DESCRIBEALLOCATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_describeallocation">DXGKARG_DESCRIBEALLOCATION</a>
  
 
  

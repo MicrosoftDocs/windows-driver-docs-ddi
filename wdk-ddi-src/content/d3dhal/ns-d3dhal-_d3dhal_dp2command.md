@@ -46,7 +46,7 @@ req.typenames: D3DHAL_DP2COMMAND, *LPD3DHAL_DP2COMMAND
 ## -description
 
 
-One or more D3DHAL_DP2COMMAND structures are parsed from the command buffer by the <a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a> callback, which uses the information it receives to draw one or more primitives. Each structure specifies either a primitive to draw or a state change to process.
+One or more D3DHAL_DP2COMMAND structures are parsed from the command buffer by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a> callback, which uses the information it receives to draw one or more primitives. Each structure specifies either a primitive to draw or a state change to process.
 
 
 ## -struct-fields
@@ -56,7 +56,7 @@ One or more D3DHAL_DP2COMMAND structures are parsed from the command buffer by t
 
 ### -field bCommand
 
-Specifies a primitive to draw or a state change to process. This member can be one of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545678">D3DHAL_DP2OPERATION</a> enumerated values. 
+Specifies a primitive to draw or a state change to process. This member can be one of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dhal/ne-d3dhal-_d3dhal_dp2operation">D3DHAL_DP2OPERATION</a> enumerated values. 
 
 
 ### -field bReserved
@@ -87,11 +87,11 @@ D3DDP2OP_TEXTURESTAGESTATE
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545678">D3DHAL_DP2OPERATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dhal/ne-d3dhal-_d3dhal_dp2operation">D3DHAL_DP2OPERATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a>
  
 
  

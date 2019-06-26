@@ -47,7 +47,7 @@ req.typenames:
 ## -description
 
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff545598">ISensorDriver::OnClientUnsubscribeFromEvents</a> method notifies the sensor driver that a client application no longer requests event notifications.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sensorsclassextension/nf-sensorsclassextension-isensordriver-onclientunsubscribefromevents">ISensorDriver::OnClientUnsubscribeFromEvents</a> method notifies the sensor driver that a client application no longer requests event notifications.
 
 
 ## -parameters
@@ -98,13 +98,13 @@ The sensor class extension is shutting down.
 
 </li>
 <li>
-The cleanup work from a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff545512">ISensorClassExtension::CleanupFile</a> has completed.
+The cleanup work from a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sensorsclassextension/nf-sensorsclassextension-isensorclassextension-cleanupfile">ISensorClassExtension::CleanupFile</a> has completed.
 
 </li>
 </ul>
 You can use this call as a signal to update the reference count of applications requesting events for the specified sensor.
 
-For more information about how to use this method, see <a href="https://msdn.microsoft.com/1895EC5C-08C1-4976-83F2-CD5A2B55338D">Filtering data</a>.
+For more information about how to use this method, see <a href="https://docs.microsoft.com/windows-hardware/drivers/sensors/filtering-data">Filtering data</a>.
 
 The ClientData structure is defined as follows.
 
@@ -116,7 +116,7 @@ The ClientData structure is defined as follows.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545566">ISensorDriver</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sensorsclassextension/nn-sensorsclassextension-isensordriver">ISensorDriver</a>
  
 
  

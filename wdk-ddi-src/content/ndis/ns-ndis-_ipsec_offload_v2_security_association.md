@@ -75,7 +75,7 @@ Specifies ESN SA.
 ### -field Operation
 
 The IPsec operation for which the SA is to be used. The 
-     <a href="https://msdn.microsoft.com/bb26c8af-1564-4cf8-ab40-b50b4811466d">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ne-ndis-_ipsec_offload_v2_operation">
      IPSEC_OFFLOAD_V2_OPERATION</a> enumeration defines the supported operations.
 
 
@@ -87,7 +87,7 @@ A 32 bit security parameters index (SPI) for the SA.
 ### -field AuthenticationAlgorithm
 
 The integrity (authentication) algorithm for the SA, formatted as an 
-     <a href="https://msdn.microsoft.com/787e5a98-ba77-42d4-8624-abcc02fccf53">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ipsec_offload_v2_algorithm_info">
      IPSEC_OFFLOAD_V2_ALGORITHM_INFO</a> structure.
 
 
@@ -116,7 +116,7 @@ The sequence number high-order extension. This sequence number high-order extens
 
 The IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION structure is an element in the 
     <b>SecAssoc</b> variable-length array in the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff556977">IPSEC_OFFLOAD_V2_ADD_SA</a> structure.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ipsec_offload_v2_add_sa">IPSEC_OFFLOAD_V2_ADD_SA</a> structure.
     The number of SAs in the IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION structure is specified in the 
     <b>NumExtHdrs</b> member of IPSEC_OFFLOAD_V2_ADD_SA.
 
@@ -150,16 +150,16 @@ A
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556977">IPSEC_OFFLOAD_V2_ADD_SA</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ipsec_offload_v2_add_sa">IPSEC_OFFLOAD_V2_ADD_SA</a>
 
 
 
-<a href="https://msdn.microsoft.com/787e5a98-ba77-42d4-8624-abcc02fccf53">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ipsec_offload_v2_algorithm_info">
    IPSEC_OFFLOAD_V2_ALGORITHM_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556984">IPSEC_OFFLOAD_V2_OPERATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ne-ndis-_ipsec_offload_v2_operation">IPSEC_OFFLOAD_V2_OPERATION</a>
  
 
  

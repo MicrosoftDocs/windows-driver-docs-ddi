@@ -56,7 +56,7 @@ The <b>IStillImage::GetDeviceValue</b> method returns registry information assoc
 
 ### -param pwszDeviceName [in]
 
-Caller-supplied pointer to a string representing an internal device name, obtained by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff543790">IStillImage::GetSTILaunchInformation</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff543784">IStillImage::GetDeviceList</a>.
+Caller-supplied pointer to a string representing an internal device name, obtained by calling <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff543790(v=vs.85)">IStillImage::GetSTILaunchInformation</a> or <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff543784(v=vs.85)">IStillImage::GetDeviceList</a>.
 
 
 ### -param pValueName [in]
@@ -92,11 +92,11 @@ If the operation succeeds, the method returns S_OK. Otherwise, it returns one of
 
 
 
-The purpose of the <b>IStillImage::GetDeviceValue</b> method is to return the values currently assigned to device-specific <a href="https://msdn.microsoft.com/cedc8afc-54c4-485e-989c-481fe30d899b">Registry Entries for Still Image Devices</a>. The method calls <b>RegQueryValueEx</b> (described in the Microsoft Windows SDK documentation).
+The purpose of the <b>IStillImage::GetDeviceValue</b> method is to return the values currently assigned to device-specific <a href="https://docs.microsoft.com/windows-hardware/drivers/image/registry-entries-for-still-image-devices">Registry Entries for Still Image Devices</a>. The method calls <b>RegQueryValueEx</b> (described in the Microsoft Windows SDK documentation).
 
 The <b>IStillImage::GetDeviceValue</b> method can return either an ANSI or a Unicode string. It can return a Unicode string only if your code is built as Unicode with Unicode defined.
 
-Before calling <b>IStillImage::GetDeviceValue</b>, clients of the <b>IStillImage</b> COM interface must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff543804">IStillImage::StiCreateInstance</a> to obtain an <b>IStillImage</b> interface pointer.
+Before calling <b>IStillImage::GetDeviceValue</b>, clients of the <b>IStillImage</b> COM interface must call <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff543804(v=vs.85)">IStillImage::StiCreateInstance</a> to obtain an <b>IStillImage</b> interface pointer.
 
 
 
@@ -106,11 +106,11 @@ Before calling <b>IStillImage::GetDeviceValue</b>, clients of the <b>IStillImage
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543801">IStillImage::SetDeviceValue</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff543801(v=vs.85)">IStillImage::SetDeviceValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/a9ceee48-cbb5-4448-83b4-9c19fe89fcb9">IStillImageW</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_image/index">IStillImageW</a>
  
 
  

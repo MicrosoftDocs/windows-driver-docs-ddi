@@ -95,7 +95,7 @@ This function is specifically for events that pass data back through a callback 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560992">KSBUFFER_ITEM</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksbuffer_item">KSBUFFER_ITEM</a>
  
 
  

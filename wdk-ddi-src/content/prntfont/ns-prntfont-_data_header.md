@@ -69,7 +69,7 @@ DATA_CTT_SIG
 
 </td>
 <td>
-This data section contains <a href="https://msdn.microsoft.com/ac439eb8-b491-4215-877d-5ee177fbdb39">CTT</a>-formatted glyph set information.
+This data section contains <a href="https://docs.microsoft.com/windows-hardware/drivers/">CTT</a>-formatted glyph set information.
 
 </td>
 </tr>
@@ -79,7 +79,7 @@ DATA_GTT_SIG
 
 </td>
 <td>
-This data section contains <a href="https://msdn.microsoft.com/f67c673d-c6f0-49f0-850a-d8b00e99ddd4">GTT</a>-formatted glyph set information.
+This data section contains <a href="https://docs.microsoft.com/windows-hardware/drivers/">GTT</a>-formatted glyph set information.
 
 </td>
 </tr>
@@ -99,7 +99,7 @@ DATA_UFM_SIG
 
 </td>
 <td>
-This data section contains <a href="https://msdn.microsoft.com/0a51fa2b-3d09-4a5f-9fff-40604877a414">UFM</a>-formatted font metrics.
+This data section contains <a href="https://docs.microsoft.com/windows-hardware/drivers/">UFM</a>-formatted font metrics.
 
 </td>
 </tr>
@@ -133,7 +133,7 @@ If the data section contains variable data, this value must be zero.
 
 ### -field dwDataSize
 
-Specifies the size, in bytes, of all the information represented by this DATA_HEADER structure. For example, if <b>dwSignature</b> is DATA_UFM_SIG, this value represents the size, in bytes, of the font's <a href="https://msdn.microsoft.com/library/windows/hardware/ff563587">UNIFM_HDR</a> structure and all associated structures. The size value does not include any byte padding required to align the next DATA_HEADER structure to a DWORD.
+Specifies the size, in bytes, of all the information represented by this DATA_HEADER structure. For example, if <b>dwSignature</b> is DATA_UFM_SIG, this value represents the size, in bytes, of the font's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prntfont/ns-prntfont-_unifm_hdr">UNIFM_HDR</a> structure and all associated structures. The size value does not include any byte padding required to align the next DATA_HEADER structure to a DWORD.
 
 
 ### -field dwReserved
@@ -145,7 +145,7 @@ Not used. Must be set to zero.
 
 
 
-If <b>dwSignature</b> is DATA_VAR_SIG, the data section contains variable data that Unidrv sends to the printer the first time the font is selected. Typically, this data consists of a font header and corresponding font identifier, along with downloadable glyph information for all the glyphs supported by the font. <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">PCL</a> soft font information includes printer control language commands for loading the font header and glyph definitions for all supported glyphs. Unidrv does not validate variable data. Data validation should be performed by the font installer.
+If <b>dwSignature</b> is DATA_VAR_SIG, the data section contains variable data that Unidrv sends to the printer the first time the font is selected. Typically, this data consists of a font header and corresponding font identifier, along with downloadable glyph information for all the glyphs supported by the font. <a href="https://docs.microsoft.com/windows-hardware/drivers/">PCL</a> soft font information includes printer control language commands for loading the font header and glyph definitions for all supported glyphs. Unidrv does not validate variable data. Data validation should be performed by the font installer.
 
 Each DATA_HEADER structure must be DWORD-aligned.
 
@@ -157,7 +157,7 @@ Each DATA_HEADER structure must be DWORD-aligned.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563587">UNIFM_HDR</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prntfont/ns-prntfont-_unifm_hdr">UNIFM_HDR</a>
  
 
  

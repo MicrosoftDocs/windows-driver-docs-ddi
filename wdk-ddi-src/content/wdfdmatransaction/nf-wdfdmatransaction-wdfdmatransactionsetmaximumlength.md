@@ -59,18 +59,18 @@ The <b>WdfDmaTransactionSetMaximumLength</b> method sets the maximum length for 
 
 ### -param DmaTransaction [in]
 
-A handle to a DMA transaction object that the driver obtained from a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff547027">WdfDmaTransactionCreate</a>.
+A handle to a DMA transaction object that the driver obtained from a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdmatransaction/nf-wdfdmatransaction-wdfdmatransactioncreate">WdfDmaTransactionCreate</a>.
 
 
 ### -param MaximumLength [in]
 
-The maximum size, in bytes, that the device can handle in a single DMA transfer operation. If your driver must run on versions of the Microsoft Windows operating systems that support a maximum of 16 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554406">map registers</a>, <i>MaximumLength</i> must be less than 65536.
+The maximum size, in bytes, that the device can handle in a single DMA transfer operation. If your driver must run on versions of the Microsoft Windows operating systems that support a maximum of 16 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/map-registers">map registers</a>, <i>MaximumLength</i> must be less than 65536.
 
 The <i>MaximumLength</i> value applies only to the specified DMA transaction, as follows:
 
 <ul>
 <li>
-If the specified value is less than the default value that the driver specified in its <a href="https://msdn.microsoft.com/library/windows/hardware/ff551290">WDF_DMA_ENABLER_CONFIG</a> structure, the specified value overrides the default value. 
+If the specified value is less than the default value that the driver specified in its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdmaenabler/ns-wdfdmaenabler-_wdf_dma_enabler_config">WDF_DMA_ENABLER_CONFIG</a> structure, the specified value overrides the default value. 
 
 </li>
 <li>
@@ -98,7 +98,7 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 Your driver  must initialize the DMA transaction before calling <b>WdfDmaTransactionSetMaximumLength</b>.
 
-For information about initializing a DMA transaction, see <a href="https://msdn.microsoft.com/1982c3fa-9e4a-4b26-8902-321223d9159f">Creating and Initializing a DMA Transaction</a>.
+For information about initializing a DMA transaction, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/creating-and-initializing-a-dma-transaction">Creating and Initializing a DMA Transaction</a>.
 
 
 #### Examples
@@ -126,11 +126,11 @@ The following code example sets the maximum transfer length to a driver-defined 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551290">WDF_DMA_ENABLER_CONFIG</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdmaenabler/ns-wdfdmaenabler-_wdf_dma_enabler_config">WDF_DMA_ENABLER_CONFIG</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547027">WdfDmaTransactionCreate</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdmatransaction/nf-wdfdmatransaction-wdfdmatransactioncreate">WdfDmaTransactionCreate</a>
  
 
  

@@ -56,19 +56,19 @@ The <b>WppRecorderGetTriageInfo</b> method
 
 ### -param WppCb
 
-<p>Pointer to a <a href="https://msdn.microsoft.com/library/Dn895242(v=VS.85).aspx"><b>WPP_TRIAGE_INFO</b></a> structure.</p>
+<p>Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wpprecorder/ns-wpprecorder-_wpp_triage_info"><b>WPP_TRIAGE_INFO</b></a> structure.</p>
 
 
 ### -param WppTriageInfo [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn895242">WPP_TRIAGE_INFO</a> structure.
+Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wpprecorder/ns-wpprecorder-_wpp_triage_info">WPP_TRIAGE_INFO</a> structure.
 
 
 ## -returns
 
 
 
-Returns STATUS_SUCCESS if the operation succeeds. Otherwise, one of appropriate <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> values
+Returns STATUS_SUCCESS if the operation succeeds. Otherwise, one of appropriate <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> values
 
 
 

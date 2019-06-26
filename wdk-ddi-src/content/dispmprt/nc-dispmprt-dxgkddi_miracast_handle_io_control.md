@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-Called by the operating system to request that the display miniport driver process a synchronous I/O control request in response to a user-mode display driver call to the <a href="https://msdn.microsoft.com/df63ec18-79e0-40a6-a412-46071eb8a7fe">MiracastIoControl</a> function.
+Called by the operating system to request that the display miniport driver process a synchronous I/O control request in response to a user-mode display driver call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdispumdddi/nc-netdispumdddi-pfn_miracast_io_control">MiracastIoControl</a> function.
 
 
 ## -parameters
@@ -56,22 +56,22 @@ Called by the operating system to request that the display miniport driver proce
 
 ### -param DriverContext [in]
 
-A handle to a context block that is associated with a display adapter. The display miniport driver's <a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a> function previously provided this handle to the DirectX graphics kernel subsystem.
+A handle to a context block that is associated with a display adapter. The display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function previously provided this handle to the DirectX graphics kernel subsystem.
 
 
 ### -param MiracastContext [in]
 
-The Miracast device context, supplied by the operating system. This context was provided by the display miniport driver in a call to the <a href="https://msdn.microsoft.com/BFF952CE-AA0F-4622-BBFC-946A45859FB7">DxgkDdiMiracastCreateContext</a> function.
+The Miracast device context, supplied by the operating system. This context was provided by the display miniport driver in a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_miracast_create_context">DxgkDdiMiracastCreateContext</a> function.
 
 
 ### -param InputBufferSize [in]
 
-Supplied by the operating system as the size, in bytes, of the input buffer pointed to by <i>pInputBuffer</i>. This value originated as the user-mode <a href="https://msdn.microsoft.com/df63ec18-79e0-40a6-a412-46071eb8a7fe">MiracastIoControl</a> function's <i>InputBufferSize</i> parameter.
+Supplied by the operating system as the size, in bytes, of the input buffer pointed to by <i>pInputBuffer</i>. This value originated as the user-mode <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdispumdddi/nc-netdispumdddi-pfn_miracast_io_control">MiracastIoControl</a> function's <i>InputBufferSize</i> parameter.
 
 
 ### -param *pInputBuffer [in]
 
-Supplied by the operating system as a pointer to the input buffer. This value originated as the user-mode <a href="https://msdn.microsoft.com/df63ec18-79e0-40a6-a412-46071eb8a7fe">MiracastIoControl</a> function's <i>InputBufferSize</i> parameter.
+Supplied by the operating system as a pointer to the input buffer. This value originated as the user-mode <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdispumdddi/nc-netdispumdddi-pfn_miracast_io_control">MiracastIoControl</a> function's <i>InputBufferSize</i> parameter.
 
 <i>InputBufferSize</i> specifies the size of the buffer.
 
@@ -80,11 +80,11 @@ Supplied by the operating system as a pointer to the input buffer. This value or
 
 Supplied by the operating system as the size, in bytes, of the output buffer pointed to by <i>pOutputBuffer</i>.
 
-This value originated as the user-mode <a href="https://msdn.microsoft.com/df63ec18-79e0-40a6-a412-46071eb8a7fe">MiracastIoControl</a> function's <i>OutputBufferSize</i> parameter.
+This value originated as the user-mode <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdispumdddi/nc-netdispumdddi-pfn_miracast_io_control">MiracastIoControl</a> function's <i>OutputBufferSize</i> parameter.
 
 ### -param *pOutputBuffer [out]
 
-Supplied by the operating system as a pointer to the output buffer. This value originated as the user-mode <a href="https://msdn.microsoft.com/df63ec18-79e0-40a6-a412-46071eb8a7fe">MiracastIoControl</a> function's <i>pOutputBuffer</i> parameter.
+Supplied by the operating system as a pointer to the output buffer. This value originated as the user-mode <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdispumdddi/nc-netdispumdddi-pfn_miracast_io_control">MiracastIoControl</a> function's <i>pOutputBuffer</i> parameter.
 
 <i>OutBufferSize</i> specifies the size of the buffer.
 
@@ -111,18 +111,18 @@ Returns <b>STATUS_SUCCESS</b> if it succeeds. Otherwise, it returns one of the e
 
 
 
-The operating system guarantees that a call to <i>DxgkDdiMiracastIoControl</i> occurs in the same process space as the user-mode <a href="https://msdn.microsoft.com/df63ec18-79e0-40a6-a412-46071eb8a7fe">MiracastIoControl</a> request is called in. 
+The operating system guarantees that a call to <i>DxgkDdiMiracastIoControl</i> occurs in the same process space as the user-mode <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdispumdddi/nc-netdispumdddi-pfn_miracast_io_control">MiracastIoControl</a> request is called in. 
 
-Even though the operating system merely copies the values of the input and output buffer sizes from the respective parameters of <a href="https://msdn.microsoft.com/df63ec18-79e0-40a6-a412-46071eb8a7fe">MiracastIoControl</a>, the display miniport driver is responsible for checking buffer sizes before using the buffers. Also, the driver should perform probing operations within a try/except calling block, using <a href="https://msdn.microsoft.com/library/windows/hardware/ff559876">ProbeForRead</a> and/or <a href="https://msdn.microsoft.com/library/windows/hardware/ff559879">ProbeForWrite</a> functions, to verify any user-mode memory that input buffers point to.
+Even though the operating system merely copies the values of the input and output buffer sizes from the respective parameters of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdispumdddi/nc-netdispumdddi-pfn_miracast_io_control">MiracastIoControl</a>, the display miniport driver is responsible for checking buffer sizes before using the buffers. Also, the driver should perform probing operations within a try/except calling block, using <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-probeforread">ProbeForRead</a> and/or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-probeforwrite">ProbeForWrite</a> functions, to verify any user-mode memory that input buffers point to.
 
-This I/O control operation is processed synchronously with a call to the user-mode <a href="https://msdn.microsoft.com/df63ec18-79e0-40a6-a412-46071eb8a7fe">MiracastIoControl</a> function.
+This I/O control operation is processed synchronously with a call to the user-mode <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdispumdddi/nc-netdispumdddi-pfn_miracast_io_control">MiracastIoControl</a> function.
 
 <h3><a id="Synchronization"></a><a id="synchronization"></a><a id="SYNCHRONIZATION"></a>Synchronization</h3>
-The operating system groups the <a href="https://msdn.microsoft.com/BFF952CE-AA0F-4622-BBFC-946A45859FB7">DxgkDdiMiracastCreateContext</a>, <a href="https://msdn.microsoft.com/2DEEB379-C9E8-45E4-920D-D94F8C27A4EF">DxgkDdiMiracastDestroyContext</a>, and <i>DxgkDdiMiracastIoControl</i> functions as a <i>Miracast</i> class. 
+The operating system groups the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_miracast_create_context">DxgkDdiMiracastCreateContext</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_miracast_destroy_context">DxgkDdiMiracastDestroyContext</a>, and <i>DxgkDdiMiracastIoControl</i> functions as a <i>Miracast</i> class. 
 
-The threading and synchronization level for this function is set by how the user-mode driver sets the <i>HardwareAccess</i> parameter in a call to the <a href="https://msdn.microsoft.com/df63ec18-79e0-40a6-a412-46071eb8a7fe">MiracastIoControl</a> function:<ul>
-<li>If <i>HardwareAccess</i> is <b>FALSE</b>, then the operating system guarantees that <i>DxgkDdiMiracastIoControl</i> follows the second-level synchronization mode as defined in <a href="https://msdn.microsoft.com/2b7c1eae-6527-469e-a2fa-74d2a1246bd3">Threading and Synchronization Second Level</a>. <i>DxgkDdiMiracastIoControl</i> can be called when other level 0, 1, or non-Miracast classes of level 2 functions are being called on another thread context. However, only one of the level 2 Miracast-class functions can be called at a time.</li>
-<li>If <i>HardwareAccess</i> is <b>TRUE</b>, then <i>DxgkDdiMiracastIoControl</i> follows the third-level synchronization mode as defined in <a href="https://msdn.microsoft.com/780d37d9-40c6-4737-9042-473810868227">Threading and Synchronization Third Level</a>. Note that the flushing of the GPU will create substantial processing overhead.</li>
+The threading and synchronization level for this function is set by how the user-mode driver sets the <i>HardwareAccess</i> parameter in a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdispumdddi/nc-netdispumdddi-pfn_miracast_io_control">MiracastIoControl</a> function:<ul>
+<li>If <i>HardwareAccess</i> is <b>FALSE</b>, then the operating system guarantees that <i>DxgkDdiMiracastIoControl</i> follows the second-level synchronization mode as defined in <a href="https://docs.microsoft.com/windows-hardware/drivers/display/threading-and-synchronization-second-level">Threading and Synchronization Second Level</a>. <i>DxgkDdiMiracastIoControl</i> can be called when other level 0, 1, or non-Miracast classes of level 2 functions are being called on another thread context. However, only one of the level 2 Miracast-class functions can be called at a time.</li>
+<li>If <i>HardwareAccess</i> is <b>TRUE</b>, then <i>DxgkDdiMiracastIoControl</i> follows the third-level synchronization mode as defined in <a href="https://docs.microsoft.com/windows-hardware/drivers/display/threading-and-synchronization-third-level">Threading and Synchronization Third Level</a>. Note that the flushing of the GPU will create substantial processing overhead.</li>
 </ul>
 
 
@@ -134,23 +134,23 @@ The threading and synchronization level for this function is set by how the user
 
 
 
-<a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/BFF952CE-AA0F-4622-BBFC-946A45859FB7">DxgkDdiMiracastCreateContext</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_miracast_create_context">DxgkDdiMiracastCreateContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/df63ec18-79e0-40a6-a412-46071eb8a7fe">MiracastIoControl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdispumdddi/nc-netdispumdddi-pfn_miracast_io_control">MiracastIoControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559876">ProbeForRead</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-probeforread">ProbeForRead</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559879">ProbeForWrite</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-probeforwrite">ProbeForWrite</a>
  
 
  

@@ -116,15 +116,15 @@ The <b>RxLogEventWithAnnotation</b> routine needs to allocate memory in order to
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554515">RxLogEventDirect</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/rxprocs/nf-rxprocs-rxlogeventdirect">RxLogEventDirect</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554519">RxLogEventWithAnnotation</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/rxprocs/nf-rxprocs-rxlogeventwithannotation">RxLogEventWithAnnotation</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557368">_RxLog</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/rxlog/nf-rxlog-_rxlog">_RxLog</a>
  
 
  

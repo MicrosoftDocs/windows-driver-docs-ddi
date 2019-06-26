@@ -143,7 +143,7 @@ Activity identifiers provide a method of linking separate events in a common thr
 
 Callers of <b>EtwActivityIdControl</b> must be running at IRQL < DISPATCH_LEVEL, unless the <i>ControlCode</i> is EVENT_ACTIVITY_CTRL_CREATE_ID, in which case the function can be called at any IRQL.
 
-Use the <a href="https://msdn.microsoft.com/library/windows/hardware/dn268326">EtwActivityIdControlKernel</a> function to  query or set  activity identifiers  kernel threads. 
+Use the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/previsioning-framework/dn268326(v=vs.85)">EtwActivityIdControlKernel</a> function to  query or set  activity identifiers  kernel threads. 
 
 
 
@@ -153,7 +153,7 @@ Use the <a href="https://msdn.microsoft.com/library/windows/hardware/dn268326">E
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn268326">EtwActivityIdControlKernel</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/previsioning-framework/dn268326(v=vs.85)">EtwActivityIdControlKernel</a>
  
 
  

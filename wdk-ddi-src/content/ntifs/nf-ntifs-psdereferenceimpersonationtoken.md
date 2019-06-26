@@ -84,11 +84,11 @@ For more information about security and access control, see the documentation on
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551907">PsImpersonateClient</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-psimpersonateclient">PsImpersonateClient</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551929">PsReferenceImpersonationToken</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-psreferenceimpersonationtoken">PsReferenceImpersonationToken</a>
  
 
  

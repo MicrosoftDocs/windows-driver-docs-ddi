@@ -70,7 +70,7 @@ The maximum size, in bytes, of data that will be collected on the client machine
 
 Remote information is not available for local pipes or for the server end of a remote pipe.
 
-For information about pipes, see <a href="https://msdn.microsoft.com/7cb8cbe4-eec8-4dda-9cb7-8d37abcee6f4">Pipes</a>.
+For information about pipes, see <a href="https://docs.microsoft.com/windows/desktop/ipc/pipes">Pipes</a>.
 
 
 

@@ -58,7 +58,7 @@ The <b>GdiEndPageEMF</b> function ends EMF playback operations for a physical pa
 
 ### -param SpoolFileHandle
 
-Caller-supplied spool file handle, obtained by a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff549517">GdiGetSpoolFileHandle</a>.
+Caller-supplied spool file handle, obtained by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winppi/nf-winppi-gdigetspoolfilehandle">GdiGetSpoolFileHandle</a>.
 
 
 ### -param dwOptimization
@@ -87,17 +87,17 @@ If the operation succeeds, the function returns <b>TRUE</b>. Otherwise the funct
 
 
 
-The <b>GdiEndPageEMF</b> function is exported by gdi32.dll for use within a print processor's <a href="https://msdn.microsoft.com/library/windows/hardware/ff560724">PrintDocumentOnPrintProcessor</a> function.
+The <b>GdiEndPageEMF</b> function is exported by gdi32.dll for use within a print processor's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-printdocumentonprintprocessor">PrintDocumentOnPrintProcessor</a> function.
 
 The <b>GdiEndPageEMF</b> function ends the processing of a physical page and causes it to be ejected from the printer. A print processor should call <b>GdiEndPageEMF</b> at the following times:
 
 <ul>
 <li>
-After the appropriate number of document pages have been placed on the physical page by making calls to <a href="https://msdn.microsoft.com/library/windows/hardware/ff549524">GdiPlayPageEMF</a>. Note that <b>GdiPlayPageEMF</b> does not actually print on the device context, but instead prepares a data structure that describes the text and graphics that are to be printed on the physical page(s). The text and graphics are printed to the device context when <b>GdiEndPageEMF</b> is called.
+After the appropriate number of document pages have been placed on the physical page by making calls to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winppi/nf-winppi-gdiplaypageemf">GdiPlayPageEMF</a>. Note that <b>GdiPlayPageEMF</b> does not actually print on the device context, but instead prepares a data structure that describes the text and graphics that are to be printed on the physical page(s). The text and graphics are printed to the device context when <b>GdiEndPageEMF</b> is called.
 
 </li>
 <li>
-Whenever a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff549478">GdiGetDevmodeForPage</a> indicates a document page's <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a> structure is different from the previous page's DEVMODE structure.
+Whenever a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winppi/nf-winppi-gdigetdevmodeforpage">GdiGetDevmodeForPage</a> indicates a document page's <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodew">DEVMODEW</a> structure is different from the previous page's DEVMODE structure.
 
 </li>
 </ul>
@@ -105,9 +105,9 @@ If this function is called with the <i>dwOptimization </i>parameter set to EMF_P
 
 If you are creating a Unidrv rendering plug-in to generate color watermarks, be advised that color optimization causes color watermarks to be printed in black and white when they are printed on black-and-white documents. To ensure that color watermarks print correctly with color and black-and-white documents, disable color optimization.
 
-The color optimization controlled by the <i>dwOptimization</i> parameter can also be controlled by setting the <b>dwColorOptimization</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545091">ATTRIBUTE_INFO_2</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff545093">ATTRIBUTE_INFO_3</a> structures. This optimization also can be controlled by the Unidrv *<b>ChangeColorModeOnDoc?</b> color attribute (see <a href="https://msdn.microsoft.com/c8de0186-9cf5-43e5-81e7-33351a34c13c">Color Attributes</a>).
+The color optimization controlled by the <i>dwOptimization</i> parameter can also be controlled by setting the <b>dwColorOptimization</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winddiui/ns-winddiui-_attribute_info_2">ATTRIBUTE_INFO_2</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winddiui/ns-winddiui-_attribute_info_3">ATTRIBUTE_INFO_3</a> structures. This optimization also can be controlled by the Unidrv *<b>ChangeColorModeOnDoc?</b> color attribute (see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/color-attributes">Color Attributes</a>).
 
-For additional information, see <a href="https://msdn.microsoft.com/2ad62308-ab42-4475-ac42-f753d5091251">Using GDI Functions in Print Processors</a>.
+For additional information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/using-gdi-functions-in-print-processors">Using GDI Functions in Print Processors</a>.
 
 
 
@@ -117,11 +117,11 @@ For additional information, see <a href="https://msdn.microsoft.com/2ad62308-ab4
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549524">GdiPlayPageEMF</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winppi/nf-winppi-gdiplaypageemf">GdiPlayPageEMF</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549543">GdiStartPageEMF</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winppi/nf-winppi-gdistartpageemf">GdiStartPageEMF</a>
  
 
  

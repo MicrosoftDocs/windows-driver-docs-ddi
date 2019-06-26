@@ -47,7 +47,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The PSYM_DUMP_FIELD_CALLBACK callback function is called by the debugger engine during the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550906">IG_DUMP_SYMBOL_INFO</a> Ioctl operation with information about a member in the specified symbol.
+The PSYM_DUMP_FIELD_CALLBACK callback function is called by the debugger engine during the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdbgexts/ns-wdbgexts-_sym_dump_param">IG_DUMP_SYMBOL_INFO</a> Ioctl operation with information about a member in the specified symbol.
 
 
 ## -parameters
@@ -57,7 +57,7 @@ The PSYM_DUMP_FIELD_CALLBACK callback function is called by the debugger engine 
 
 ### -param *pField
 
-Specifies the field for which this callback function is being called.  The debugger engine fills in the contents of this parameter before making the call.  See <a href="https://msdn.microsoft.com/library/windows/hardware/ff545316">FIELD_INFO</a> for details about the members of this parameter.
+Specifies the field for which this callback function is being called.  The debugger engine fills in the contents of this parameter before making the call.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdbgexts/ns-wdbgexts-_field_info">FIELD_INFO</a> for details about the members of this parameter.
 
 
 ### -param UserContext
@@ -78,7 +78,7 @@ If the function is successful, it should return STATUS_SUCCESS.  Otherwise, it s
 
 
 
-If you are writing a WdbgExts extension, include wdbgexts.h. If you are writing a DbgEng extension that uses this function prototype, include wdbgexts.h before dbgeng.h (see <a href="https://msdn.microsoft.com/library/windows/hardware/ff561480">Writing DbgEng Extension Code</a> for details). STATUS_SUCCESS and other status and error codes are defined in ntstatus.h.
+If you are writing a WdbgExts extension, include wdbgexts.h. If you are writing a DbgEng extension that uses this function prototype, include wdbgexts.h before dbgeng.h (see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/writing-dbgeng-extension-code">Writing DbgEng Extension Code</a> for details). STATUS_SUCCESS and other status and error codes are defined in ntstatus.h.
 
 
 
@@ -89,15 +89,15 @@ If you are writing a WdbgExts extension, include wdbgexts.h. If you are writing 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545316">FIELD_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdbgexts/ns-wdbgexts-_field_info">FIELD_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550906">IG_DUMP_SYMBOL_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdbgexts/ns-wdbgexts-_sym_dump_param">IG_DUMP_SYMBOL_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551084">Ioctl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdbgexts/nc-wdbgexts-pwindbg_ioctl_routine">Ioctl</a>
  
 
  

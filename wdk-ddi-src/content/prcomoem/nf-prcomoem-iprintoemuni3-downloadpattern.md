@@ -56,12 +56,12 @@ The <code>IPrintOemUni3::DownloadPattern</code> method downloads a pattern to a 
 
 ### -param pdevobj
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547573">DEVOBJ</a> structure.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/ns-printoem-_devobj">DEVOBJ</a> structure.
 
 
 ### -param psoPattern
 
-A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569901">SURFOBJ</a> structure that contains the pattern to download.
+A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_surfobj">SURFOBJ</a> structure that contains the pattern to download.
 
 
 ### -param lPatternID
@@ -94,11 +94,11 @@ You should implement this method if you want your rendering plug-in, rather than
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556273">DrvRealizeBrush</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/nf-winddi-drvrealizebrush">DrvRealizeBrush</a>
 
 
 
-<a href="https://msdn.microsoft.com/cf5705fb-8420-4eec-99d4-d56f192da581">IPrintOemUni3</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nn-prcomoem-iprintoemuni3">IPrintOemUni3</a>
  
 
  

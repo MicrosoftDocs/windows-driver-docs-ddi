@@ -46,7 +46,7 @@ req.typenames: BAND_TABLE_ENTRY, *PBAND_TABLE_ENTRY
 ## -description
 
 
-Banding information entries in <a href="https://msdn.microsoft.com/library/windows/hardware/hh439573">BAND_TABLE</a> are represented as <b>BAND_TABLE_ENTRY</b> structures. These entries contain location and security properties for a band configuration.
+Banding information entries in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ehstorbandmgmt/ns-ehstorbandmgmt-_band_table">BAND_TABLE</a> are represented as <b>BAND_TABLE_ENTRY</b> structures. These entries contain location and security properties for a band configuration.
 
 
 ## -struct-fields
@@ -66,7 +66,7 @@ The band location information.
 
 ### -field SecurityInfo
 
-The band security information. This includes encryption algorithm information when selected in <a href="https://msdn.microsoft.com/library/windows/hardware/hh439719">ENUMERATE_BANDS_PARAMETERS</a>.
+The band security information. This includes encryption algorithm information when selected in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ehstorbandmgmt/ns-ehstorbandmgmt-_enumerate_bands_parameters">ENUMERATE_BANDS_PARAMETERS</a>.
 
 
 ## -see-also
@@ -74,19 +74,19 @@ The band security information. This includes encryption algorithm information wh
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439557">BAND_LOCATION_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ehstorbandmgmt/ns-ehstorbandmgmt-_band_location_info">BAND_LOCATION_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439568">BAND_SECURITY_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ehstorbandmgmt/ns-ehstorbandmgmt-_band_security_info">BAND_SECURITY_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439573">BAND_TABLE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ehstorbandmgmt/ns-ehstorbandmgmt-_band_table">BAND_TABLE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439719">ENUMERATE_BANDS_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ehstorbandmgmt/ns-ehstorbandmgmt-_enumerate_bands_parameters">ENUMERATE_BANDS_PARAMETERS</a>
  
 
  

@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-CPSUI's <b>GetCPSUIUserData</b> function retrieves data that was previously stored using the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562624">SetCPSUIUserData</a> function.
+CPSUI's <b>GetCPSUIUserData</b> function retrieves data that was previously stored using the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/compstui/nf-compstui-setcpsuiuserdata">SetCPSUIUserData</a> function.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ Caller-supplied handle to a property sheet dialog box. For more information, see
 
 
 
-If the operation succeeds, the function returns the value that was previously supplied to <a href="https://msdn.microsoft.com/library/windows/hardware/ff562624">SetCPSUIUserData</a>; otherwise the function returns zero.
+If the operation succeeds, the function returns the value that was previously supplied to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/compstui/nf-compstui-setcpsuiuserdata">SetCPSUIUserData</a>; otherwise the function returns zero.
 
 
 
@@ -72,7 +72,7 @@ If the operation succeeds, the function returns the value that was previously su
 
 
 
-The <b>GetCPSUIUserData</b> function should only be called from within a dialog box procedure that has been associated with a dialog box by using a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547607">DLGPAGE</a> or an <a href="https://msdn.microsoft.com/library/windows/hardware/ff548795">EXTPUSH</a> structure.
+The <b>GetCPSUIUserData</b> function should only be called from within a dialog box procedure that has been associated with a dialog box by using a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/compstui/ns-compstui-_dlgpage">DLGPAGE</a> or an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/compstui/ns-compstui-_extpush">EXTPUSH</a> structure.
 
 The handle specified for <i>hDlg</i> must be the handle received as input to the dialog box procedure. (Dialog box procedures are described in the Microsoft Windows SDK documentation.)
 

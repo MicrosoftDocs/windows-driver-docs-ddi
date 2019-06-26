@@ -63,12 +63,12 @@ Caller-supplied pointer to a NULL-terminated Unicode string containing the print
 
 ### -param pDevmode [in]
 
-Caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a> structure that is passed to the print processor or printer driver.
+Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodew">DEVMODEW</a> structure that is passed to the print processor or printer driver.
 
 
 ### -param pAttributeInfo [out]
 
-Caller-supplied pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff545093">ATTRIBUTE_INFO_3</a> structure that receives information about the print job.
+Caller-supplied pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winddiui/ns-winddiui-_attribute_info_3">ATTRIBUTE_INFO_3</a> structure that receives information about the print job.
 
 
 ## -returns
@@ -85,15 +85,15 @@ Caller-supplied pointer to an <a href="https://msdn.microsoft.com/library/window
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545093">ATTRIBUTE_INFO_3</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winddiui/ns-winddiui-_attribute_info_3">ATTRIBUTE_INFO_3</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodew">DEVMODEW</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550459">GetJobAttributesEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-getjobattributesex">GetJobAttributesEx</a>
  
 
  

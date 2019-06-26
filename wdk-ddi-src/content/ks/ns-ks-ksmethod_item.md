@@ -61,7 +61,7 @@ Specifies the identifier of this method within its method set.
 
 ### -field MethodHandler
 
-Pointer to a minidriver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff567191">KStrMethodHandler</a> callback routine.
+Pointer to a minidriver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nc-ks-pfnkshandler">KStrMethodHandler</a> callback routine.
 
 
 ### -field MethodSupported
@@ -81,7 +81,7 @@ Specifies the minimum size buffer required to specify the method data buffer. Th
 
 ### -field SupportHandler
 
-Pointer to a minidriver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff567206">KStrSupportHandler</a> callback routine.
+Pointer to a minidriver-supplied <a href="https://docs.microsoft.com/previous-versions/ff567206(v=vs.85)">KStrSupportHandler</a> callback routine.
 
 
 ### -field Flags
@@ -151,7 +151,7 @@ Indicates that the method is to be processed in source mode. An MDL is allocated
 
 
 
-A minidriver uses the KSMETHOD_ITEM structure to define methods in a method set. The minidriver implements methods and uses the <b>MethodHandler</b> member to point to these methods. A client can then use the IOCTL_KS_METHOD request along with the KSMETHOD structure to execute methods on a kernel streaming object that the minidriver handles. For more information, see <a href="https://msdn.microsoft.com/1d7bd6f4-0aaf-4d77-8132-f551fd2ecbd2">KS Methods</a>.
+A minidriver uses the KSMETHOD_ITEM structure to define methods in a method set. The minidriver implements methods and uses the <b>MethodHandler</b> member to point to these methods. A client can then use the IOCTL_KS_METHOD request along with the KSMETHOD structure to execute methods on a kernel streaming object that the minidriver handles. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ks-methods">KS Methods</a>.
 
 
 
@@ -161,15 +161,15 @@ A minidriver uses the KSMETHOD_ITEM structure to define methods in a method set.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561944">KSFASTMETHOD_ITEM</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksfastmethod_item">KSFASTMETHOD_ITEM</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563398">KSMETHOD</a>
+<a href="https://docs.microsoft.com/previous-versions/ff563398(v=vs.85)">KSMETHOD</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567206">KStrSupportHandler</a>
+<a href="https://docs.microsoft.com/previous-versions/ff567206(v=vs.85)">KStrSupportHandler</a>
  
 
  

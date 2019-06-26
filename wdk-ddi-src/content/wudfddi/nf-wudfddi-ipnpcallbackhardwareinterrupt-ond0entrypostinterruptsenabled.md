@@ -63,12 +63,12 @@ A driver's <b>OnD0EntryPostInterruptsEnabled</b> event callback function perform
 
 ### -param PreviousState [in]
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff552421">WDF_POWER_DEVICE_STATE</a>-typed enumerator that identifies the previous device power state.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/ne-wdfdevice-_wdf_power_device_state">WDF_POWER_DEVICE_STATE</a>-typed enumerator that identifies the previous device power state.
 
 
 #### - pInterrupt [in]
 
-A pointer to <a href="https://msdn.microsoft.com/library/windows/hardware/hh451197">IWDFDevice3</a> interface.
+A pointer to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nn-wudfddi-iwdfdevice3">IWDFDevice3</a> interface.
 
 
 ## -returns
@@ -84,7 +84,7 @@ If successful, <b>OnD0EntryPostInterruptsEnabled</b> returns S_OK. Otherwise, it
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/432907e7-05a3-4a99-a291-33bd1eefa94c">Enabling and Disabling Interrupts</a>.
+For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/enabling-and-disabling-interrupts">Enabling and Disabling Interrupts</a>.
 
 
 
@@ -94,11 +94,11 @@ For more information, see <a href="https://msdn.microsoft.com/432907e7-05a3-4a99
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439744">IPnpCallbackHardwareInterrupt</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nn-wudfddi-ipnpcallbackhardwareinterrupt">IPnpCallbackHardwareInterrupt</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439755">OnD0ExitPreInterruptsDisabled</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-ipnpcallbackhardwareinterrupt-ond0exitpreinterruptsdisabled">OnD0ExitPreInterruptsDisabled</a>
  
 
  

@@ -70,7 +70,7 @@ A handle to the display device (graphics context).
 
 *pData* [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543124">D3DDDIARG_FLIPOVERLAY</a> structure that describes the new allocation to display by using the overlay.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_flipoverlay">D3DDDIARG_FLIPOVERLAY</a> structure that describes the new allocation to display by using the overlay.
 
 
 ## -returns
@@ -96,11 +96,11 @@ Overlays are independent from the resources that are displayed by using the over
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543124">D3DDDIARG_FLIPOVERLAY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_flipoverlay">D3DDDIARG_FLIPOVERLAY</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>
  
 
  

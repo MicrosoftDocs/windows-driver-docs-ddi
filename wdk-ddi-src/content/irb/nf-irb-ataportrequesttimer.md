@@ -47,7 +47,7 @@ req.typenames:
 
 
 The <b>AtaPortRequestTimer</b> routine requests a timer callback.
-<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -parameters
 
@@ -94,7 +94,7 @@ The ATA port driver passes a pointer to the channel extension to the timer routi
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550234">AtaPortStallExecution</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/nf-irb-ataportstallexecution">AtaPortStallExecution</a>
  
 
  

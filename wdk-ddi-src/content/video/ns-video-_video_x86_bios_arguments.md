@@ -81,7 +81,7 @@ Are the seven x86 microprocessor registers.
 
 
 
-MS-DOS INT10s are usually "set mode" requests for the video adapter. Each value is put in the appropriate register and an INT10 call is performed by <a href="https://msdn.microsoft.com/library/windows/hardware/ff570321">VideoPortInt10</a>.
+MS-DOS INT10s are usually "set mode" requests for the video adapter. Each value is put in the appropriate register and an INT10 call is performed by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportint10">VideoPortInt10</a>.
 
 A miniport driver should <i>not</i> set a segment:offset-type pointer in any member of this structure. Such an address is interpreted as an unsigned DWORD value.
 
@@ -93,7 +93,7 @@ A miniport driver should <i>not</i> set a segment:offset-type pointer in any mem
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570321">VideoPortInt10</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportint10">VideoPortInt10</a>
  
 
  

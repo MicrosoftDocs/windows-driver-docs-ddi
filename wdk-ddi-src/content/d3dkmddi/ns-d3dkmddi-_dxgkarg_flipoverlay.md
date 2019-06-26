@@ -84,7 +84,7 @@ The DXGKARG_FLIPOVERLAY structure describes a new allocation to display for the 
 
 
 
-<a href="https://msdn.microsoft.com/9e35a48b-1741-4ee2-8e15-6ce51ad4c0ad">DxgkDdiFlipOverlay</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_flipoverlay">DxgkDdiFlipOverlay</a>
  
 
  

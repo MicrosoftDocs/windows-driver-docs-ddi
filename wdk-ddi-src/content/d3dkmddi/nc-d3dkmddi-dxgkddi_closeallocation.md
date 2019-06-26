@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <i>DxgkDdiCloseAllocation</i> function unbinds device-specific allocations that the <a href="https://msdn.microsoft.com/551154d7-950d-40e5-810b-8d803c1731ca">DxgkDdiOpenAllocation</a> function created.
+The <i>DxgkDdiCloseAllocation</i> function unbinds device-specific allocations that the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_openallocationinfo">DxgkDdiOpenAllocation</a> function created.
 
 
 ## -parameters
@@ -56,12 +56,12 @@ The <i>DxgkDdiCloseAllocation</i> function unbinds device-specific allocations t
 
 ### -param hDevice [in]
 
-[in] A handle to the graphics context device that allocations are unbound from. The display miniport driver's <a href="https://msdn.microsoft.com/a7027735-0ec4-4fad-81fb-1c3aca4ebf2d">DxgkDdiCreateDevice</a> function previously provided this handle to the Microsoft DirectX graphics kernel subsystem in the <b>hDevice</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557570">DXGKARG_CREATEDEVICE</a> structure. 
+[in] A handle to the graphics context device that allocations are unbound from. The display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_createdevice">DxgkDdiCreateDevice</a> function previously provided this handle to the Microsoft DirectX graphics kernel subsystem in the <b>hDevice</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_createdevice">DXGKARG_CREATEDEVICE</a> structure. 
 
 
 ### -param pCloseAllocation [in]
 
-[in] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff557543">DXGKARG_CLOSEALLOCATION</a> structure that contains information about unbinding allocations.
+[in] A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_closeallocation">DXGKARG_CLOSEALLOCATION</a> structure that contains information about unbinding allocations.
 
 
 ## -returns
@@ -77,9 +77,9 @@ The <i>DxgkDdiCloseAllocation</i> function unbinds device-specific allocations t
 
 
 
-Before the display miniport driver receives a call to its <a href="https://msdn.microsoft.com/cade544a-f9c6-4635-ab57-d09d694ca315">DxgkDdiDestroyAllocation</a> function to release allocations, the driver calls the <i>DxgkDdiCloseAllocation</i> function to close all bindings to those allocations. 
+Before the display miniport driver receives a call to its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_destroyallocation">DxgkDdiDestroyAllocation</a> function to release allocations, the driver calls the <i>DxgkDdiCloseAllocation</i> function to close all bindings to those allocations. 
 
-For a resource that contains multiple allocations, the DirectX graphics kernel subsystem directs <i>DxgkDdiCloseAllocation</i> to simultaneously close all of the allocations by specifying the handles to the device-specific allocations in the <b>pOpenHandleList</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557543">DXGKARG_CLOSEALLOCATION</a> structure. 
+For a resource that contains multiple allocations, the DirectX graphics kernel subsystem directs <i>DxgkDdiCloseAllocation</i> to simultaneously close all of the allocations by specifying the handles to the device-specific allocations in the <b>pOpenHandleList</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_closeallocation">DXGKARG_CLOSEALLOCATION</a> structure. 
 
 <i>DxgkDdiCloseAllocation</i> should be made pageable.
 
@@ -91,23 +91,23 @@ For a resource that contains multiple allocations, the DirectX graphics kernel s
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557543">DXGKARG_CLOSEALLOCATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_closeallocation">DXGKARG_CLOSEALLOCATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557570">DXGKARG_CREATEDEVICE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_createdevice">DXGKARG_CREATEDEVICE</a>
 
 
 
-<a href="https://msdn.microsoft.com/a7027735-0ec4-4fad-81fb-1c3aca4ebf2d">DxgkDdiCreateDevice</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_createdevice">DxgkDdiCreateDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/cade544a-f9c6-4635-ab57-d09d694ca315">DxgkDdiDestroyAllocation</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_destroyallocation">DxgkDdiDestroyAllocation</a>
 
 
 
-<a href="https://msdn.microsoft.com/551154d7-950d-40e5-810b-8d803c1731ca">DxgkDdiOpenAllocation</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_openallocationinfo">DxgkDdiOpenAllocation</a>
  
 
  

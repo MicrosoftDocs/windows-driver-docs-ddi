@@ -59,7 +59,7 @@ Repartitions a disk as specified. (Floppy drivers need not handle this request.)
 
 ### -input-buffer
 
-The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552662">DRIVE_LAYOUT_INFORMATION_EX</a> values to be set. 
+The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdddisk/ns-ntdddisk-_drive_layout_information_ex">DRIVE_LAYOUT_INFORMATION_EX</a> values to be set. 
 
 
 ### -input-buffer-length
@@ -74,7 +74,7 @@ Returns updated DRIVE_LAYOUT_INFORMATION_EX, possibly with modified partition nu
 
 ### -output-buffer-length
 
-Length of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552662">DRIVE_LAYOUT_INFORMATION_EX</a>.
+Length of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdddisk/ns-ntdddisk-_drive_layout_information_ex">DRIVE_LAYOUT_INFORMATION_EX</a>.
 
 
 ### -in-out-buffer
@@ -105,7 +105,7 @@ The <b>Information</b> field is set to the size, in bytes, of the returned infor
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552662">DRIVE_LAYOUT_INFORMATION_EX</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdddisk/ns-ntdddisk-_drive_layout_information_ex">DRIVE_LAYOUT_INFORMATION_EX</a>
  
 
  

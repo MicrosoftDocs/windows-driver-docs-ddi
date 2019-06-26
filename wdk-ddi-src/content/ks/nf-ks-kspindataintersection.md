@@ -47,7 +47,7 @@ req.typenames:
 ## -description
 
 
-The <b>KsPinDataIntersection</b> function handles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565198">KSPROPERTY_PIN_DATAINTERSECTION</a> property through a callback function and performs much of the initial validation of the parameters that are passed. <b>KsPinDataIntersection</b> calls the minidriver-defined <a href="https://msdn.microsoft.com/library/windows/hardware/ff567182">KStrIntersectHandler</a> callback function with each potential data range after matching it to the list of data ranges assigned to that pin factory.
+The <b>KsPinDataIntersection</b> function handles the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-pin-dataintersection">KSPROPERTY_PIN_DATAINTERSECTION</a> property through a callback function and performs much of the initial validation of the parameters that are passed. <b>KsPinDataIntersection</b> calls the minidriver-defined <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nc-ks-pfnksintersecthandler">KStrIntersectHandler</a> callback function with each potential data range after matching it to the list of data ranges assigned to that pin factory.
 
 
 ## -parameters
@@ -82,7 +82,7 @@ Specifies the pointer to the list of pin information structures.
 
 ### -param IntersectHandler [in]
 
-Specifies the minidriver-defined <a href="https://msdn.microsoft.com/library/windows/hardware/ff567182">KStrIntersectHandler</a> callback function to compare a data range.
+Specifies the minidriver-defined <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nc-ks-pfnksintersecthandler">KStrIntersectHandler</a> callback function to compare a data range.
 
 
 ## -returns
@@ -91,7 +91,7 @@ Specifies the minidriver-defined <a href="https://msdn.microsoft.com/library/win
 
 The <b>KsPinDataIntersection</b> function returns STATUS_SUCCESS if a matching range is found, STATUS_NO_MATCH if no matching range was found, or an error specific to the property being handled. The minidriver-defined <i><u>KStrIntersectHandler</u></i> intersection handler provided to <b>KsPinDataIntersection</b> is called with each data range supplied by the caller until either a match is found or an error occurs.
 
-Note that the minidriver-defined <a href="https://msdn.microsoft.com/library/windows/hardware/ff567182">KStrIntersectHandler</a> callback function has its own set of return values.
+Note that the minidriver-defined <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nc-ks-pfnksintersecthandler">KStrIntersectHandler</a> callback function has its own set of return values.
 
 
 
@@ -102,7 +102,7 @@ Note that the minidriver-defined <a href="https://msdn.microsoft.com/library/win
 
 
 
-A match can occur under three conditions: if the major format of the range passed is a wildcard or matches a pin factory range, if the subformat is a wildcard or matches, and if the specifier is a wildcard or matches. Since the data range size may be variable, it is not validated beyond checking that it is at least the size of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a> structure.
+A match can occur under three conditions: if the major format of the range passed is a wildcard or matches a pin factory range, if the subformat is a wildcard or matches, and if the specifier is a wildcard or matches. Since the data range size may be variable, it is not validated beyond checking that it is at least the size of a <a href="https://docs.microsoft.com/previous-versions/ff561658(v=vs.85)">KSDATARANGE</a> structure.
 
 
 
@@ -112,11 +112,11 @@ A match can occur under three conditions: if the major format of the range passe
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561658">KSDATARANGE</a>
+<a href="https://docs.microsoft.com/previous-versions/ff561658(v=vs.85)">KSDATARANGE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567182">KStrIntersectHandler</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nc-ks-pfnksintersecthandler">KStrIntersectHandler</a>
  
 
  

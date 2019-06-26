@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-This IOCTL is used by the radio management application or service to set the radio power state of the proximity device. The MediaRadioOn field is used to indicate the request power state. When the proximity radio power state is disabled, the driver should disable the proximity device interfaces (GUID_DEVINTERFACE_NFP and GUID_DEVINTERFACE_SMARTCARD_READER interfaces) and disable the P2P and reader/writer modes of the device. If the proximity radio power state is enabled, the driver should enable the proximity device interfaces and enable P2P and reader/writer modes of the controller. For more information about optimizing power modes on this device, see <a href="https://msdn.microsoft.com/7B45730F-A49D-45E0-B314-0464141E3C8B">NFC Power Management</a>.
+This IOCTL is used by the radio management application or service to set the radio power state of the proximity device. The MediaRadioOn field is used to indicate the request power state. When the proximity radio power state is disabled, the driver should disable the proximity device interfaces (GUID_DEVINTERFACE_NFP and GUID_DEVINTERFACE_SMARTCARD_READER interfaces) and disable the P2P and reader/writer modes of the device. If the proximity radio power state is enabled, the driver should enable the proximity device interfaces and enable P2P and reader/writer modes of the controller. For more information about optimizing power modes on this device, see <a href="https://docs.microsoft.com/windows-hardware/drivers/nfc/nfc-power-management">NFC Power Management</a>.
 
 
 ## -ioctlparameters
@@ -57,7 +57,7 @@ This IOCTL is used by the radio management application or service to set the rad
 ### -input-buffer
 
 
-<a href="https://msdn.microsoft.com/22FE29AC-790D-40D2-949F-9C132F67AEAB"> NFCRM_SET_RADIO_STATE structure</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/nfcradiodev/ns-nfcradiodev-_nfcrm_set_radio_state"> NFCRM_SET_RADIO_STATE structure</a>
 
 
 

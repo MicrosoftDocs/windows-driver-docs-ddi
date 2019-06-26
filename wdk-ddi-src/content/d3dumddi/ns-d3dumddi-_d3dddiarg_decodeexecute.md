@@ -56,7 +56,7 @@ The D3DDDIARG_DECODEEXECUTE structure describes a Microsoft DirectX Video Accele
 
 ### -field hDecode
 
-[in] A handle to the DirectX VA decode device. The user-mode display driver returns this handle in a call to its <a href="https://msdn.microsoft.com/4d9a062a-2fdf-4e55-a335-c03c5d5665ff">CreateDecodeDevice</a> function.
+[in] A handle to the DirectX VA decode device. The user-mode display driver returns this handle in a call to its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_createdecodedevice">CreateDecodeDevice</a> function.
 
 
 ### -field NumCompBuffers
@@ -66,7 +66,7 @@ The D3DDDIARG_DECODEEXECUTE structure describes a Microsoft DirectX Video Accele
 
 ### -field pCompressedBuffers
 
-[in] A pointer to a list of <a href="https://msdn.microsoft.com/library/windows/hardware/ff562896">DXVADDI_DECODEBUFFERDESC</a> structures that describe the compressed buffers that are passed from the host decoder to the accelerator.
+[in] A pointer to a list of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_dxvaddi_decodebufferdesc">DXVADDI_DECODEBUFFERDESC</a> structures that describe the compressed buffers that are passed from the host decoder to the accelerator.
 
 
 ## -see-also
@@ -74,15 +74,15 @@ The D3DDDIARG_DECODEEXECUTE structure describes a Microsoft DirectX Video Accele
 
 
 
-<a href="https://msdn.microsoft.com/4d9a062a-2fdf-4e55-a335-c03c5d5665ff">CreateDecodeDevice</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_createdecodedevice">CreateDecodeDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562896">DXVADDI_DECODEBUFFERDESC</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_dxvaddi_decodebufferdesc">DXVADDI_DECODEBUFFERDESC</a>
 
 
 
-<a href="https://msdn.microsoft.com/e12496c0-e3e4-437e-9f84-a30ee99b4541">DecodeExecute</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_decodeexecute">DecodeExecute</a>
  
 
  

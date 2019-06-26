@@ -64,7 +64,7 @@ A handle to a framework device object that represents the device's physical devi
 
 ### -param AddressDescription [in, out]
 
-A pointer to a caller-allocated buffer that will receive the address description. The address description must contain a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551219">WDF_CHILD_ADDRESS_DESCRIPTION_HEADER</a> structure.
+A pointer to a caller-allocated buffer that will receive the address description. The address description must contain a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfchildlist/ns-wdfchildlist-_wdf_child_address_description_header">WDF_CHILD_ADDRESS_DESCRIPTION_HEADER</a> structure.
 
 
 ## -returns
@@ -104,7 +104,7 @@ The <i>Device</i> handle does not represent a device that was <a href="https://d
 </table>
  
 
-The method might also return other<a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505"> NTSTATUS values</a>.
+The method might also return other<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values"> NTSTATUS values</a>.
 
 A system bug check occurs if the driver supplies an invalid object handle.
 
@@ -116,15 +116,15 @@ A system bug check occurs if the driver supplies an invalid object handle.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551220">WDF_CHILD_ADDRESS_DESCRIPTION_HEADER_INIT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfchildlist/nf-wdfchildlist-wdf_child_address_description_header_init">WDF_CHILD_ADDRESS_DESCRIPTION_HEADER_INIT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545648">WdfChildListRetrieveAddressDescription</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfchildlist/nf-wdfchildlist-wdfchildlistretrieveaddressdescription">WdfChildListRetrieveAddressDescription</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548824">WdfPdoRetrieveIdentificationDescription</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfpdo/nf-wdfpdo-wdfpdoretrieveidentificationdescription">WdfPdoRetrieveIdentificationDescription</a>
  
 
  

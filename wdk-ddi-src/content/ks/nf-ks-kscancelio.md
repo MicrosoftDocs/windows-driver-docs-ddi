@@ -90,7 +90,7 @@ If the IRP being canceled has a driver-supplied cancel routine, the cancel spin 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560934">KsAddIrpToCancelableQueue</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksaddirptocancelablequeue">KsAddIrpToCancelableQueue</a>
  
 
  

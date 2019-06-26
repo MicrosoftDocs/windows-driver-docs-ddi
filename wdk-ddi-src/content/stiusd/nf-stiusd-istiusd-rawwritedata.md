@@ -97,11 +97,11 @@ A still image minidriver typically implements this method by calling <b>WriteFil
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543764">IStiDevice::RawWriteData</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sti/nf-sti-istidevice-rawwritedata">IStiDevice::RawWriteData</a>
 
 
 
-<a href="https://msdn.microsoft.com/62740263-5bbb-48e1-be3d-9ee9cb37d6b9">IStiUSD</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_image/index">IStiUSD</a>
  
 
  

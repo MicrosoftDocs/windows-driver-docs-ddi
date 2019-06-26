@@ -132,13 +132,13 @@ If the caller specifies the current process in the <i>ProcessHandle</i> paramete
 
 
 
-To obtain a process handle that a driver can specify for the <i>ProcessHandle</i> parameter, the driver can call <a href="https://msdn.microsoft.com/library/windows/hardware/ff567022">ZwOpenProcess</a>. The handle must be a *kernel handle*, a handle that can only be accessed in kernel mode. A handle is a kernel handle if it is created with the OBJ_KERNEL_HANDLE flag. For more info see [InitializeObjectAttributes](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfwdm/nf-wudfwdm-initializeobjectattributes).
+To obtain a process handle that a driver can specify for the <i>ProcessHandle</i> parameter, the driver can call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-ntopenprocess">ZwOpenProcess</a>. The handle must be a *kernel handle*, a handle that can only be accessed in kernel mode. A handle is a kernel handle if it is created with the OBJ_KERNEL_HANDLE flag. For more info see [InitializeObjectAttributes](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfwdm/nf-wudfwdm-initializeobjectattributes).
 
 Drivers must not specify the current process if resources have not been freed from the kernel stack, because the operating system will not unwind the kernel stack for the calling thread.
 
-<div class="alert"><b>Note</b>  If the call to this function occurs in user mode, you should use the name "<a href="https://msdn.microsoft.com/library/windows/hardware/ff557699">NtTerminateProcess</a>" instead of "<b>ZwTerminateProcess</b>".</div>
+<div class="alert"><b>Note</b>  If the call to this function occurs in user mode, you should use the name "<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-zwterminateprocess">NtTerminateProcess</a>" instead of "<b>ZwTerminateProcess</b>".</div>
 <div> </div>
-For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
+For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>.
 
 
 
@@ -148,11 +148,11 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567022">ZwOpenProcess</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-ntopenprocess">ZwOpenProcess</a>
  
 
  

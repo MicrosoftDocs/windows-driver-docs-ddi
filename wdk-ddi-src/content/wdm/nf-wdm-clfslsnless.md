@@ -57,12 +57,12 @@ The <b>ClfsLsnLess</b> routine determines whether one LSN is less than another L
 
 ### -param plsn1 [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541824">CLFS_LSN</a> structure that supplies one of the LSNs to be compared.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_cls_lsn">CLFS_LSN</a> structure that supplies one of the LSNs to be compared.
 
 
 ### -param plsn2 [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541824">CLFS_LSN</a> structure that supplies the other LSN to be compared.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_cls_lsn">CLFS_LSN</a> structure that supplies the other LSN to be compared.
 
 
 ## -returns
@@ -80,9 +80,9 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 CLFS_LSN_NULL (the smallest LSN) and CLFS_LSN_INVALID (larger than any valid LSN) are valid arguments to <b>ClfsLsnLess</b>. 
 
-LSNs from different streams are not comparable. Do not use <a href="https://msdn.microsoft.com/library/windows/hardware/ff541590">ClfsLsnEqual</a>, <b>ClfsLsnLess</b> and the like to compare LSNs from different streams.
+LSNs from different streams are not comparable. Do not use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-clfslsnequal">ClfsLsnEqual</a>, <b>ClfsLsnLess</b> and the like to compare LSNs from different streams.
 
-For an explanation of CLFS concepts and terminology, see <a href="https://msdn.microsoft.com/a9685648-b08c-48ca-b020-e683068f2ea2">Common Log File System</a>.
+For an explanation of CLFS concepts and terminology, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-common-log-file-system">Common Log File System</a>.
 
 
 
@@ -92,15 +92,15 @@ For an explanation of CLFS concepts and terminology, see <a href="https://msdn.m
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541590">ClfsLsnEqual</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-clfslsnequal">ClfsLsnEqual</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541595">ClfsLsnGreater</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-clfslsngreater">ClfsLsnGreater</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541609">ClfsLsnNull</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-clfslsnnull">ClfsLsnNull</a>
  
 
  

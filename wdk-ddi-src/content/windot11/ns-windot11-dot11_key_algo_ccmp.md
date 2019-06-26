@@ -48,7 +48,7 @@ product:
 ## -description
 
 
-<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_KEY_ALGO_CCMP structure defines a cipher key that is used by the AES-CCMP algorithm for
+<div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_KEY_ALGO_CCMP structure defines a cipher key that is used by the AES-CCMP algorithm for
   data encryption and decryption.
 
 
@@ -73,7 +73,7 @@ typedef struct DOT11_KEY_ALGO_CCMP {
 
 The initial 48-bit value of the AES-CCMP Packet Number (PN), which is used for replay protection.
      For more information about the PN, see
-     <a href="https://msdn.microsoft.com/38270d9f-b927-4e4e-ac7f-319c60ae6224">AES-CCMP</a>.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/aes-ccmp">AES-CCMP</a>.
 
 
 ### -field ulCCMPKeyLength
@@ -116,7 +116,7 @@ Initialize the PN counter used for the send path to any value.
 
 
 
-<a href="https://msdn.microsoft.com/38270d9f-b927-4e4e-ac7f-319c60ae6224">AES-CCMP</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/aes-ccmp">AES-CCMP</a>
 
 
 

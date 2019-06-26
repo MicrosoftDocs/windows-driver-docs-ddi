@@ -46,7 +46,7 @@ req.typenames: TRANSACTIONMANAGER_LOG_INFORMATION, *PTRANSACTIONMANAGER_LOG_INFO
 ## -description
 
 
-The <b>TRANSACTIONMANAGER_LOG_INFORMATION</b> structure contains information about a <a href="https://msdn.microsoft.com/af53cda4-e2ab-47df-9311-a4da2a2ee08d">transaction manager object</a>.
+The <b>TRANSACTIONMANAGER_LOG_INFORMATION</b> structure contains information about a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/transaction-manager-objects">transaction manager object</a>.
 
 
 ## -struct-fields
@@ -56,14 +56,14 @@ The <b>TRANSACTIONMANAGER_LOG_INFORMATION</b> structure contains information abo
 
 ### -field LogIdentity
 
-A GUID that KTM uses to identify restart records in a transaction manager object's log stream. For more information about restart records, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff566409">Writing Restart Records to a CLFS Stream</a>.
+A GUID that KTM uses to identify restart records in a transaction manager object's log stream. For more information about restart records, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/writing-restart-records-to-a-clfs-stream">Writing Restart Records to a CLFS Stream</a>.
 
 
 ## -remarks
 
 
 
-The <b>TRANSACTIONMANAGER_LOG_INFORMATION</b> structure is used with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567058">ZwQueryInformationTransactionManager</a> routine.
+The <b>TRANSACTIONMANAGER_LOG_INFORMATION</b> structure is used with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ntqueryinformationtransactionmanager">ZwQueryInformationTransactionManager</a> routine.
 
 
 
@@ -73,11 +73,11 @@ The <b>TRANSACTIONMANAGER_LOG_INFORMATION</b> structure is used with the <a href
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564762">TRANSACTIONMANAGER_INFORMATION_CLASS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_transactionmanager_information_class">TRANSACTIONMANAGER_INFORMATION_CLASS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567058">ZwQueryInformationTransactionManager</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ntqueryinformationtransactionmanager">ZwQueryInformationTransactionManager</a>
  
 
  

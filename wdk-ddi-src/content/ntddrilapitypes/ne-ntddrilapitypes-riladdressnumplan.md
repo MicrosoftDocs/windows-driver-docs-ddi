@@ -101,7 +101,7 @@ enum RILADDRESSNUMPLAN {
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn946509">Cellular COM enumerations</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/cellular/dn946509(v=vs.85)">Cellular COM enumerations</a>
 
 
 

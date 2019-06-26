@@ -124,7 +124,7 @@ Whether thread context is retained in this processor idle state. Set this flag b
 
 ##### CStateType
 
-The C-state type of the processor idle state. Set this bitfield to zero if this idle state does not correspond to an ACPI-defined C-state. Otherwise, set this bitfield to the C-state number. That is, set <b>CStateType</b> = 1 for C1, set <b>CStateType</b> = 2 for C2, and so on. For more information about C-states, see section 8.1, "Processor Power States", of the [ACPI 5.0 specification](https://www.uefi.org/specifications).
+The C-state type of the processor idle state. Set this bitfield to zero if this idle state does not correspond to an ACPI-defined C-state. Otherwise, set this bitfield to the C-state number. That is, set <b>CStateType</b> = 1 for C1, set <b>CStateType</b> = 2 for C2, and so on. For more information about C-states, see section 8.1, "Processor Power States", of the [ACPI 5.0 specification](https://uefi.org/specifications).
 
 
 
@@ -137,7 +137,7 @@ Reserved for future use.
 
 
 
-The <b>IdleStates</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/mt629121">PEP_PPM_QUERY_IDLE_STATES</a> structure is the first element in an array of <b>PEP_PROCESSOR_IDLE_STATE</b> structures.
+The <b>IdleStates</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pep_x/ns-pep_x-_pep_ppm_query_idle_states">PEP_PPM_QUERY_IDLE_STATES</a> structure is the first element in an array of <b>PEP_PROCESSOR_IDLE_STATE</b> structures.
 
 
 
@@ -147,7 +147,7 @@ The <b>IdleStates</b> member of the <a href="https://msdn.microsoft.com/library/
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt629121">PEP_PPM_QUERY_IDLE_STATES</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pep_x/ns-pep_x-_pep_ppm_query_idle_states">PEP_PPM_QUERY_IDLE_STATES</a>
  
 
  

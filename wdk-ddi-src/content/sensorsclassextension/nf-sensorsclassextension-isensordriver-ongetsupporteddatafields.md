@@ -47,7 +47,7 @@ req.typenames:
 ## -description
 
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff545620">ISensorDriver::OnGetSupportedDataFields</a> method retrieves the list of data fields that the specified sensor can provide.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sensorsclassextension/nf-sensorsclassextension-isensordriver-ongetsupporteddatafields">ISensorDriver::OnGetSupportedDataFields</a> method retrieves the list of data fields that the specified sensor can provide.
 
 
 ## -parameters
@@ -92,7 +92,7 @@ All drivers must support SENSOR_DATA_TYPE_TIMESTAMP as a required data field.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545566">ISensorDriver</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sensorsclassextension/nn-sensorsclassextension-isensordriver">ISensorDriver</a>
  
 
  

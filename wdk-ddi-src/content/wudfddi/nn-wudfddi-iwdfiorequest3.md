@@ -53,7 +53,7 @@ To obtain the <b>IWDFIoRequest3</b> interface, drivers call <b>IWDFIoRequest::Qu
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFIoRequest3</b> interface inherits from <a href="https://msdn.microsoft.com/library/windows/hardware/ff558988">IWDFIoRequest2</a>. <b>IWDFIoRequest3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFIoRequest3</b> interface inherits from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nn-wudfddi-iwdfiorequest2">IWDFIoRequest2</a>. <b>IWDFIoRequest3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -68,43 +68,43 @@ The <b>IWDFIoRequest3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451341">GetUserModeDriverInitiatedIo</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfiorequest3-getusermodedriverinitiatedio">GetUserModeDriverInitiatedIo</a>
 </td>
 <td align="left" width="63%">
 
    The 
-  <a href="https://msdn.microsoft.com/library/windows/hardware/hh451341">GetUserModeDriverInitiatedIo</a> method determines whether an I/O request is marked as initiated by a UMDF driver.
+  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfiorequest3-getusermodedriverinitiatedio">GetUserModeDriverInitiatedIo</a> method determines whether an I/O request is marked as initiated by a UMDF driver.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451345">RetrieveActivityId</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfiorequest3-retrieveactivityid">RetrieveActivityId</a>
 </td>
 <td align="left" width="63%">
 
    The 
-  <a href="https://msdn.microsoft.com/library/windows/hardware/hh451345">RetrieveActivityId</a> method retrieves the current activity identifier associated with an I/O request.
+  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfiorequest3-retrieveactivityid">RetrieveActivityId</a> method retrieves the current activity identifier associated with an I/O request.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451350">SetActivityId</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfiorequest3-setactivityid">SetActivityId</a>
 </td>
 <td align="left" width="63%">
 
    The 
-  <a href="https://msdn.microsoft.com/library/windows/hardware/hh451350">SetActivityId</a> method associates an activity identifier with an I/O request.
+  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfiorequest3-setactivityid">SetActivityId</a> method associates an activity identifier with an I/O request.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451354">SetUserModeDriverInitiatedIo</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfiorequest3-setusermodedriverinitiatedio">SetUserModeDriverInitiatedIo</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451354">SetUserModeDriverInitiatedIo</a> method 
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfiorequest3-setusermodedriverinitiatedio">SetUserModeDriverInitiatedIo</a> method 
    
   indicates to kernel-mode drivers that sit below the UMDF driver in the same device stack that a particular request should be treated as though it came from a UMDF driver.
 
@@ -118,7 +118,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451354">SetUs
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558988">IWDFIoRequest2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nn-wudfddi-iwdfiorequest2">IWDFIoRequest2</a>
  
 
  

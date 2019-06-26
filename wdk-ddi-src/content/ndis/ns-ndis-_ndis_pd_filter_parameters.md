@@ -56,7 +56,7 @@ This structure holds metadata for a packet filter.
 
 ### -field Header
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for the <b>NDIS_PD_FILTER_PARAMETERS</b> structure. Set the members of this structure as follows:
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the <b>NDIS_PD_FILTER_PARAMETERS</b> structure. Set the members of this structure as follows:
 
 <ul>
 <li><b>Type</b> = <b>NDIS_OBJECT_TYPE_DEFAULT</b></li>
@@ -128,7 +128,7 @@ This structure must be aligned on an 8-byte boundary.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
  
 
  

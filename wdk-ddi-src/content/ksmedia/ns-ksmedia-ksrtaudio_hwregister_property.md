@@ -46,7 +46,7 @@ req.typenames: KSRTAUDIO_HWREGISTER_PROPERTY, *PKSRTAUDIO_HWREGISTER_PROPERTY
 ## -description
 
 
-The KSRTAUDIO_HWREGISTRY_PROPERTY structure appends a register base address to a KSPROPERTY structure.  This structure is used by the client to request the hardware position register via <a href="https://msdn.microsoft.com/library/windows/hardware/ff537381">KSPROPERTY_RTAUDIO_POSITIONREGISTER</a> or request the hardware clock register via <a href="https://msdn.microsoft.com/library/windows/hardware/ff537376">KSPROPERTY_RTAUDIO_CLOCKREGISTER</a>.
+The KSRTAUDIO_HWREGISTRY_PROPERTY structure appends a register base address to a KSPROPERTY structure.  This structure is used by the client to request the hardware position register via <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-rtaudio-positionregister">KSPROPERTY_RTAUDIO_POSITIONREGISTER</a> or request the hardware clock register via <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-rtaudio-clockregister">KSPROPERTY_RTAUDIO_CLOCKREGISTER</a>.
 
 
 ## -struct-fields
@@ -56,7 +56,7 @@ The KSRTAUDIO_HWREGISTRY_PROPERTY structure appends a register base address to a
 
 ### -field Property
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a> structure that the client initializes appropriately prior to calling KSPROPERTY_RTAUDIO_POSITIONREGISTER or KSPROPERTY_RTAUDIO_CLOCKREGISTER.
+A <a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a> structure that the client initializes appropriately prior to calling KSPROPERTY_RTAUDIO_POSITIONREGISTER or KSPROPERTY_RTAUDIO_CLOCKREGISTER.
 
 
 ### -field BaseAddress
@@ -68,7 +68,7 @@ Specifies the buffer base address.  Unless the client specifies a base address, 
 
 
 
-The client uses the KSRTAUDIO_HWREGISTER_PROPERTY structure to request the hardware position register or the hardware clock register from the driver.  The driver returns a <a href="https://msdn.microsoft.com/library/windows/hardware/ff537497">KSRTAUDIO_HWREGISTER</a> structure containing information about the requested hardware register.
+The client uses the KSRTAUDIO_HWREGISTER_PROPERTY structure to request the hardware position register or the hardware clock register from the driver.  The driver returns a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-ksrtaudio_hwregister">KSRTAUDIO_HWREGISTER</a> structure containing information about the requested hardware register.
 
 
 
@@ -78,19 +78,19 @@ The client uses the KSRTAUDIO_HWREGISTER_PROPERTY structure to request the hardw
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
+<a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537376">KSPROPERTY_RTAUDIO_CLOCKREGISTER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-rtaudio-clockregister">KSPROPERTY_RTAUDIO_CLOCKREGISTER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537381">KSPROPERTY_RTAUDIO_POSITIONREGISTER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-rtaudio-positionregister">KSPROPERTY_RTAUDIO_POSITIONREGISTER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537497">KSRTAUDIO_HWREGISTER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-ksrtaudio_hwregister">KSRTAUDIO_HWREGISTER</a>
  
 
  

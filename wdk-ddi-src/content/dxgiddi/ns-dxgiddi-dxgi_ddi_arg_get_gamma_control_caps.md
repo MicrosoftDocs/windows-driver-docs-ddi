@@ -56,12 +56,12 @@ The DXGI_DDI_ARG_GET_GAMMA_CONTROL_CAPS structure contains gamma capabilities.
 
 ### -field hDevice
 
-[in] A handle to the display device (graphics context) from which the driver retrieves gamma capabilities. The Direct3D runtime passes this handle to the driver in the <b>hDrvDevice</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541664">D3D10DDIARG_CREATEDEVICE</a> structure when the runtime calls the driver's <a href="https://msdn.microsoft.com/c69eedb1-c975-412c-aa9f-cf64a702f937">CreateDevice(D3D10)</a> function to create the display device. 
+[in] A handle to the display device (graphics context) from which the driver retrieves gamma capabilities. The Direct3D runtime passes this handle to the driver in the <b>hDrvDevice</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ns-d3d10umddi-d3d10ddiarg_createdevice">D3D10DDIARG_CREATEDEVICE</a> structure when the runtime calls the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_createdevice">CreateDevice(D3D10)</a> function to create the display device. 
 
 
 ### -field pGammaCapabilities
 
-[in/out] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff557521">DXGI_GAMMA_CONTROL_CAPABILIITES</a> structure that describes gamma capabilities. 
+[in/out] A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxgitype/ns-dxgitype-dxgi_gamma_control_capabilities">DXGI_GAMMA_CONTROL_CAPABILIITES</a> structure that describes gamma capabilities. 
 
 
 ## -see-also
@@ -69,11 +69,11 @@ The DXGI_DDI_ARG_GET_GAMMA_CONTROL_CAPS structure contains gamma capabilities.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557521">DXGI_GAMMA_CONTROL_CAPABILIITES</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxgitype/ns-dxgitype-dxgi_gamma_control_capabilities">DXGI_GAMMA_CONTROL_CAPABILIITES</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566790">GetGammaCapsDXGI</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxgiddi/ns-dxgiddi-dxgi_ddi_base_functions">GetGammaCapsDXGI</a>
  
 
  

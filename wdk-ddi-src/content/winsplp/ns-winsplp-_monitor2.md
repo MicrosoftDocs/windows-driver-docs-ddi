@@ -62,11 +62,11 @@ Pointer to the print monitor's [OpenPort](https://docs.microsoft.com/windows-har
 
 ### -field pfnOpenPortEx
 
-A language monitor's [OpenPortEx](https://docs.microsoft.com/previous-versions/ff559596(v%3Dvs.85)) function opens a printer port.
+A language monitor's [OpenPortEx](https://docs.microsoft.com/previous-versions/ff559596(v=vs.85)) function opens a printer port.
 
 ### -field pfnStartDocPort
 
-A print monitor's [StartDocPort](https://docs.microsoft.com/previous-versions/ff562710(v%3Dvs.85)) function performs the tasks required to start a print job on the specified port.
+A print monitor's [StartDocPort](https://docs.microsoft.com/previous-versions/ff562710(v=vs.85)) function performs the tasks required to start a print job on the specified port.
 
 ### -field pfnWritePort
 
@@ -78,7 +78,7 @@ Pointer to the print monitor's [ReadPort](https://docs.microsoft.com/windows-har
 
 ### -field pfnEndDocPort
 
-A print monitor's [EndDocPort](https://docs.microsoft.com/previous-versions/ff548742(v%3Dvs.85)) function performs the tasks required to end a print job on the specified port.
+A print monitor's [EndDocPort](https://docs.microsoft.com/previous-versions/ff548742(v=vs.85)) function performs the tasks required to end a print job on the specified port.
 
 ### -field pfnClosePort
 
@@ -92,11 +92,11 @@ The [AddPort](https://docs.microsoft.com/previous-versions/ff545022(v=vs.85)) fu
 
 ### -field pfnAddPortEx
 
-(Obsolete. Must be NULL.) Pointer to the print monitor's [AddPortEx](https://docs.microsoft.com/previous-versions/ff545025(v%3dvs.85)) function. (Port monitors only.)
+(Obsolete. Must be NULL.) Pointer to the print monitor's [AddPortEx](https://docs.microsoft.com/previous-versions/ff545025(v=vs.85)) function. (Port monitors only.)
 
 ### -field pfnConfigurePort
 
-The [ConfigurePort](https://docs.microsoft.com/previous-versions/ff546286(v%3Dvs.85)) function is obsolete and is for use only with Windows NT 4.0 and previous versions. For later versions of Windows, use [ConfigurePortUI](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-configureportui).
+The [ConfigurePort](https://docs.microsoft.com/previous-versions/ff546286(v=vs.85)) function is obsolete and is for use only with Windows NT 4.0 and previous versions. For later versions of Windows, use [ConfigurePortUI](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-configureportui).
 
 **ConfigurePort** is a port management function that configures the specified port.
 
@@ -108,11 +108,11 @@ The [DeletePort](https://docs.microsoft.com/windows/desktop/printdocs/deleteport
 
 ### -field pfnGetPrinterDataFromPort
 
-Pointer to the print monitor's [GetPrinterDataFromPort](https://docs.microsoft.com/previous-versions/ff550506(v%3Dvs.85)) function.
+Pointer to the print monitor's [GetPrinterDataFromPort](https://docs.microsoft.com/previous-versions/ff550506(v=vs.85)) function.
 
 ### -field pfnSetPortTimeOuts
 
-A port monitor server DLL's [SetPortTimeOuts](https://docs.microsoft.com/previous-versions/ff562630(v%3Dvs.85)) function sets port time-out values for an open port.
+A port monitor server DLL's [SetPortTimeOuts](https://docs.microsoft.com/previous-versions/ff562630(v=vs.85)) function sets port time-out values for an open port.
 
 ### -field pfnXcvOpenPort
 
@@ -128,11 +128,11 @@ Pointer to the print monitor's [XcvClosePort](https://docs.microsoft.com/windows
 
 ### -field pfnShutdown
 
-Pointer to the print monitor's [Shutdown](https://docs.microsoft.com/previous-versions/ff562646(v%3Dvs.85)) function.
+Pointer to the print monitor's [Shutdown](https://docs.microsoft.com/previous-versions/ff562646(v=vs.85)) function.
 
 ### -field pfnSendRecvBidiDataFromPort
 
-Pointer to the print monitor's [SendRecvBidiDataFromPort](https://docs.microsoft.com/previous-versions/ff562071(v%3Dvs.85)) function.
+Pointer to the print monitor's [SendRecvBidiDataFromPort](https://docs.microsoft.com/previous-versions/ff562071(v=vs.85)) function.
 
 ### -field pfnNotifyUsedPorts
 

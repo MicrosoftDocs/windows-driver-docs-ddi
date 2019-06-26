@@ -56,7 +56,7 @@ An <b>MDL</b> structure is a partially opaque structure that represents a memory
 
 ### -field Next
 
-Pointer to the next MDL in an MDL chain. For more information about MDL chains, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565421">Using MDLs</a>.
+Pointer to the next MDL in an MDL chain. For more information about MDL chains, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-mdls">Using MDLs</a>.
 
 
 ### -field Size
@@ -100,7 +100,7 @@ Pointer to the next MDL in an MDL chain. For more information about MDL chains, 
 
 
 
-An MDL describes the layout of a virtual memory buffer in physical memory. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565421">Using MDLs</a>.
+An MDL describes the layout of a virtual memory buffer in physical memory. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-mdls">Using MDLs</a>.
 
 
 
@@ -110,27 +110,27 @@ An MDL describes the layout of a virtual memory buffer in physical memory. For m
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548263">IoAllocateMdl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ioallocatemdl">IoAllocateMdl</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554530">MmGetMdlByteCount</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-mmgetmdlbytecount">MmGetMdlByteCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554533">MmGetMdlByteOffset</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer">MmGetMdlByteOffset</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554537">MmGetMdlPfnArray</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer">MmGetMdlPfnArray</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554539">MmGetMdlVirtualAddress</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer">MmGetMdlVirtualAddress</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554568">MmInitializeMdl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mm-bad-pointer">MmInitializeMdl</a>
  
 
  

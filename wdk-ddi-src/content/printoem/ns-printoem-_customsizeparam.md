@@ -83,7 +83,7 @@ The custom page size parameters include Width, Height, WidthOffset, HeightOffset
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548692">EATTRIBUTE_DATATYPE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/ne-printoem-_eattribute_datatype">EATTRIBUTE_DATATYPE</a>
  
 
  

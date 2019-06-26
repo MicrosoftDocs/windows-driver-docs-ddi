@@ -58,7 +58,7 @@ The <b>NDIS_RSS_PROCESSOR_INFO</b> structure specifies information about the CPU
 ### -field Header
 
 The 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
      <b>NDIS_RSS_PROCESSOR_INFO</b> structure. NDIS sets the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to <b>NDIS_OBJECT_TYPE_RSS_PROCESSOR_INFO</b>. NDIS also sets the 
@@ -118,7 +118,7 @@ The preferred NUMA node, which is the node closest to the NIC
 ### -field RssProcessorArrayOffset
 
 The offset, in bytes, from the start of the structure to an array of 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff567271">NDIS_RSS_PROCESSOR</a> structures, with each
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_rss_processor">NDIS_RSS_PROCESSOR</a> structures, with each
      entry describing an RSS processor on the system. The 
      <b>RssProcessorCount</b> member contains the number of <b>NDIS_RSS_PROCESSOR</b> structures in the array. The 
      <b>RssProcessorEntrySize</b> member contains the size of the <b>NDIS_RSS_PROCESSOR</b> structures in the
@@ -127,13 +127,13 @@ The offset, in bytes, from the start of the structure to an array of
 
 ### -field RssProcessorCount
 
-The number of elements in the array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff567271">NDIS_RSS_PROCESSOR</a> structures that follows this
+The number of elements in the array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_rss_processor">NDIS_RSS_PROCESSOR</a> structures that follows this
      structure.
 
 
 ### -field RssProcessorEntrySize
 
-The size, in bytes, of elements in the array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff567271">NDIS_RSS_PROCESSOR</a> structures that follows this
+The size, in bytes, of elements in the array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_rss_processor">NDIS_RSS_PROCESSOR</a> structures that follows this
      structure.
 
 
@@ -152,7 +152,7 @@ Reserved.
 
 
 NDIS network drivers use the <b>NDIS_RSS_PROCESSOR_INFO</b> structure in calls to the 
-    <a href="https://msdn.microsoft.com/0da022d5-7294-4780-bab8-119ff6385abf">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisgetrssprocessorinformation">
     NdisGetRssProcessorInformation</a> function. After 
     <b>NdisGetRssProcessorInformation</b> returns, this structure contains information about the set of
     processors that will be used for receive side scaling (RSS).
@@ -165,19 +165,19 @@ NDIS network drivers use the <b>NDIS_RSS_PROCESSOR_INFO</b> structure in calls t
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567271">NDIS_RSS_PROCESSOR</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_rss_processor">NDIS_RSS_PROCESSOR</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj849980">NDIS_RSS_PROFILE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/jj849980(v=vs.85)">NDIS_RSS_PROFILE</a>
 
 
 
-<a href="https://msdn.microsoft.com/0da022d5-7294-4780-bab8-119ff6385abf">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisgetrssprocessorinformation">
    NdisGetRssProcessorInformation</a>
  
 

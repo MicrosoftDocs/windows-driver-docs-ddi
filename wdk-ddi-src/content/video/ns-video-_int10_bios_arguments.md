@@ -89,7 +89,7 @@ Are two of the x86 microprocessor segment registers.
 
 
 
-The first seven members of the INT10_BIOS_ARGUMENTS structure are identical to those of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff570553">VIDEO_x86_BIOS_ARGUMENTS</a> structure.
+The first seven members of the INT10_BIOS_ARGUMENTS structure are identical to those of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/ns-video-_video_x86_bios_arguments">VIDEO_x86_BIOS_ARGUMENTS</a> structure.
 
 
 
@@ -99,11 +99,11 @@ The first seven members of the INT10_BIOS_ARGUMENTS structure are identical to t
 
 
 
-<a href="https://msdn.microsoft.com/994a73bc-81a1-4d73-959c-cc89b242c073">Int10CallBios</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nc-video-pint10_call_bios">Int10CallBios</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570553">VIDEO_x86_BIOS_ARGUMENTS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/ns-video-_video_x86_bios_arguments">VIDEO_x86_BIOS_ARGUMENTS</a>
  
 
  

@@ -46,7 +46,7 @@ req.typenames: IPPARAMS, *PIPPARAMS
 ## -description
 
 
-The IPPARAMS structure is used as an input parameter to a rendering plug-in's <a href="https://msdn.microsoft.com/library/windows/hardware/ff554261">IPrintOemUni::ImageProcessing</a> method.
+The IPPARAMS structure is used as an input parameter to a rendering plug-in's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintoemuni-imageprocessing">IPrintOemUni::ImageProcessing</a> method.
 
 
 ## -struct-fields
@@ -61,7 +61,7 @@ Specifies the size, in bytes of the IPPARAMS structure. Supplied by Unidrv.
 
 ### -field ptOffset
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a> structure containing the banded image's offset from the upper left corner of the drawing area. Supplied by Unidrv.
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagpoint">POINT</a> structure containing the banded image's offset from the upper left corner of the drawing area. Supplied by Unidrv.
 
 
 ### -field pHalftoneOption
@@ -76,7 +76,7 @@ Specifies whether image banding is active. If <b>TRUE</b>, image banding is acti
 
 ### -field bBlankBand
 
-Specifies whether a blank band was drawn in the source bitmap supplied to <a href="https://msdn.microsoft.com/library/windows/hardware/ff554261">IPrintOemUni::ImageProcessing</a>. A value of <b>TRUE</b> indicates that nothing was drawn in the source bitmap supplied to <b>IPrintOemUni::ImageProcessing</b>. A <b>TRUE</b> value also indicates that data in the source bitmap is invalid and should not be processed. Supplied by Unidrv.
+Specifies whether a blank band was drawn in the source bitmap supplied to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintoemuni-imageprocessing">IPrintOemUni::ImageProcessing</a>. A value of <b>TRUE</b> indicates that nothing was drawn in the source bitmap supplied to <b>IPrintOemUni::ImageProcessing</b>. A <b>TRUE</b> value also indicates that data in the source bitmap is invalid and should not be processed. Supplied by Unidrv.
 
 
 ## -see-also
@@ -84,11 +84,11 @@ Specifies whether a blank band was drawn in the source bitmap supplied to <a hre
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554261">IPrintOemUni::ImageProcessing</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintoemuni-imageprocessing">IPrintOemUni::ImageProcessing</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569161">POINT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagpoint">POINT</a>
  
 
  

@@ -46,7 +46,7 @@ req.typenames: DXGK_HISTORY_BUFFER_HEADER
 ## -description
 
 
-Specifies how data is stored in a <a href="https://msdn.microsoft.com/library/windows/hardware/dn439361">DXGK_HISTORY_BUFFER</a> history buffer.
+Specifies how data is stored in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgk_history_buffer">DXGK_HISTORY_BUFFER</a> history buffer.
 
 
 ## -struct-fields
@@ -56,9 +56,9 @@ Specifies how data is stored in a <a href="https://msdn.microsoft.com/library/wi
 
 ### -field RenderCbSequence
 
-The value of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544247">D3DDDICB_RENDERFLAGS</a>.<b>Value</b> member that is to be used in a call to the <a href="https://msdn.microsoft.com/f242162e-6237-469c-b178-5a51dcf69e32">pfnRenderCb</a> function.
+The value of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddicb_renderflags">D3DDDICB_RENDERFLAGS</a>.<b>Value</b> member that is to be used in a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_rendercb">pfnRenderCb</a> function.
 
-The display miniport driver should compute this value and enter it into <b>DXGK_HISTORY_BUFFER_HEADER</b> before calling <a href="https://msdn.microsoft.com/f242162e-6237-469c-b178-5a51dcf69e32">pfnRenderCb</a>.
+The display miniport driver should compute this value and enter it into <b>DXGK_HISTORY_BUFFER_HEADER</b> before calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_rendercb">pfnRenderCb</a>.
 
 
 ### -field NumTimestamps
@@ -98,15 +98,15 @@ Only the time stamp portion of the history buffer, along with  the number of tim
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544247">D3DDDICB_RENDERFLAGS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddicb_renderflags">D3DDDICB_RENDERFLAGS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn439361">DXGK_HISTORY_BUFFER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgk_history_buffer">DXGK_HISTORY_BUFFER</a>
 
 
 
-<a href="https://msdn.microsoft.com/f242162e-6237-469c-b178-5a51dcf69e32">pfnRenderCb</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_rendercb">pfnRenderCb</a>
  
 
  

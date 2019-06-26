@@ -57,7 +57,7 @@ The <b>ClfsLsnNull</b> routine determines whether a specified LSN is equal to th
 
 ### -param plsn [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541824">CLFS_LSN</a> structure that supplies the LSN to be tested.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_cls_lsn">CLFS_LSN</a> structure that supplies the LSN to be tested.
 
 
 ## -returns
@@ -73,7 +73,7 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 
 
 
-For an explanation of CLFS concepts and terminology, see <a href="https://msdn.microsoft.com/a9685648-b08c-48ca-b020-e683068f2ea2">Common Log File System</a>. 
+For an explanation of CLFS concepts and terminology, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-common-log-file-system">Common Log File System</a>. 
 
 
 
@@ -83,15 +83,15 @@ For an explanation of CLFS concepts and terminology, see <a href="https://msdn.m
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541590">ClfsLsnEqual</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-clfslsnequal">ClfsLsnEqual</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541595">ClfsLsnGreater</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-clfslsngreater">ClfsLsnGreater</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541608">ClfsLsnLess</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-clfslsnless">ClfsLsnLess</a>
  
 
  

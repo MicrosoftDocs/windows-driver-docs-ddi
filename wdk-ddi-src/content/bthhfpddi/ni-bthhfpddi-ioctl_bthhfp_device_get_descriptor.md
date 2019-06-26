@@ -48,7 +48,7 @@ req.typenames:
 
 The audio driver issues the <b>IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR</b> 
    control code to get information about an enabled GUID_DEVINTERFACE_BLUETOOTH_HFP_SCO_HCIBYPASS device interface.
-<div class="alert"><b>Note</b>  This IOCTL supersedes <a href="https://msdn.microsoft.com/library/windows/hardware/dn265110">IOCTL_BTHHFP_DEVICE_GET_KSNODETYPES</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/dn265107">IOCTL_BTHHFP_DEVICE_GET_CONTAINERID</a> which have now been deprecated.</div><div> </div>
+<div class="alert"><b>Note</b>  This IOCTL supersedes <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthhfpddi/ni-bthhfpddi-ioctl_bthhfp_device_get_ksnodetypes">IOCTL_BTHHFP_DEVICE_GET_KSNODETYPES</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthhfpddi/ni-bthhfpddi-ioctl_bthhfp_device_get_containerid">IOCTL_BTHHFP_DEVICE_GET_CONTAINERID</a> which have now been deprecated.</div><div> </div>
 
 ## -ioctlparameters
 
@@ -67,7 +67,7 @@ None.
 
 ### -output-buffer
 
-A buffer containing a <a href="https://msdn.microsoft.com/library/windows/hardware/dn302030">BTHHFP_DESCRIPTOR</a> structure followed by any other data referenced by the structure. This is true, if the output buffer size is sufficient and the request succeeds. In particular, the buffer includes storage for the string referenced by the <i>FriendlyName</i> field of the <b>BTHHFP_DESCRIPTOR</b> structure.
+A buffer containing a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthhfpddi/ns-bthhfpddi-_bthhfp_descriptor">BTHHFP_DESCRIPTOR</a> structure followed by any other data referenced by the structure. This is true, if the output buffer size is sufficient and the request succeeds. In particular, the buffer includes storage for the string referenced by the <i>FriendlyName</i> field of the <b>BTHHFP_DESCRIPTOR</b> structure.
 
 
 ### -output-buffer-length
@@ -118,15 +118,15 @@ The audio driver sends this request once with an output buffer size of zero (0) 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn302027">Bluetooth HFP DDI IOCTLs</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/bluetooth-hfp-ddi-ioctls">Bluetooth HFP DDI IOCTLs</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265107">IOCTL_BTHHFP_DEVICE_GET_CONTAINERID</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthhfpddi/ni-bthhfpddi-ioctl_bthhfp_device_get_containerid">IOCTL_BTHHFP_DEVICE_GET_CONTAINERID</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265110">IOCTL_BTHHFP_DEVICE_GET_KSNODETYPES</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthhfpddi/ni-bthhfpddi-ioctl_bthhfp_device_get_ksnodetypes">IOCTL_BTHHFP_DEVICE_GET_KSNODETYPES</a>
  
 
  

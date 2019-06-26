@@ -48,7 +48,7 @@ req.typenames:
 
 
 <b>NdisCmCloseAddressFamilyComplete</b> returns the final status of a client's request, for which the CM's 
-  <a href="https://msdn.microsoft.com/a7a02813-62e4-49c5-abb6-a90f4e092b9f">ProtocolCmCloseAf</a> function returned
+  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cm_close_af">ProtocolCmCloseAf</a> function returned
   NDIS_STATUS_PENDING, to close the AF.
 
 
@@ -65,7 +65,7 @@ The call manager sets this to NDIS_STATUS_SUCCESS.
 ### -param NdisAfHandle [in]
 
 Specifies the NDIS-supplied handle passed to the call manager's 
-     <a href="https://msdn.microsoft.com/7422c205-bc41-4121-b430-ff9e6b49dc2e">ProtocolCmOpenAf</a> function when this
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cm_open_af">ProtocolCmOpenAf</a> function when this
      client originally opened the address family.
 
 
@@ -84,13 +84,13 @@ None
 
 A stand-alone call manager must call 
     <b>NdisCmCloseAddressFamilyComplete</b> if its 
-    <a href="https://msdn.microsoft.com/a7a02813-62e4-49c5-abb6-a90f4e092b9f">ProtocolCmCloseAf</a> function previously
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cm_close_af">ProtocolCmCloseAf</a> function previously
     returned NDIS_STATUS_PENDING for the given 
     <i>NdisAfHandle</i> . The client, which initiated the pended close-AF operation with a call to 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561626">NdisClCloseAddressFamily</a>, cannot
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisclcloseaddressfamily">NdisClCloseAddressFamily</a>, cannot
     release the resources it allocated to track communications on the AF until the CM's call to 
     <b>NdisCmCloseAddressFamilyComplete</b> causes a call to that client's 
-    <a href="https://msdn.microsoft.com/7597e124-34e4-4326-98b3-c65dbe90ae6f">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cl_close_af_complete">
     ProtocolClCloseAfComplete</a> function.
 
 After a call to 
@@ -110,24 +110,24 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561626">NdisClCloseAddressFamily</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisclcloseaddressfamily">NdisClCloseAddressFamily</a>
 
 
 
-<a href="https://msdn.microsoft.com/be551557-06db-4fc9-bdcb-030e621e205a">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismcmcloseaddressfamilycomplete">
    NdisMCmCloseAddressFamilyComplete</a>
 
 
 
-<a href="https://msdn.microsoft.com/7597e124-34e4-4326-98b3-c65dbe90ae6f">ProtocolClCloseAfComplete</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cl_close_af_complete">ProtocolClCloseAfComplete</a>
 
 
 
-<a href="https://msdn.microsoft.com/a7a02813-62e4-49c5-abb6-a90f4e092b9f">ProtocolCmCloseAf</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cm_close_af">ProtocolCmCloseAf</a>
 
 
 
-<a href="https://msdn.microsoft.com/7422c205-bc41-4121-b430-ff9e6b49dc2e">ProtocolCmOpenAf</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cm_open_af">ProtocolCmOpenAf</a>
  
 
  

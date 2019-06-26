@@ -47,7 +47,7 @@ req.typenames:
 
 
 
-     An IEC-61883 client driver uses the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550766">IRP_MJ_INTERNAL_DEVICE_CONTROL</a> IRP with <b>IoControlCode</b> IOCTL_61883_CLASS to communicate with 1394 driver stack using the IEC-61883 protocol. The driver has access to all operations provided by the IEC-61883 protocol driver through this request.
+     An IEC-61883 client driver uses the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mj-internal-device-control">IRP_MJ_INTERNAL_DEVICE_CONTROL</a> IRP with <b>IoControlCode</b> IOCTL_61883_CLASS to communicate with 1394 driver stack using the IEC-61883 protocol. The driver has access to all operations provided by the IEC-61883 protocol driver through this request.
 
 
 ## -ioctlparameters
@@ -57,7 +57,7 @@ req.typenames:
 
 ### -input-buffer
 
-<b>Parameters->Others.Argument1</b> points to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff537008">AV_61883_REQUEST</a> structure. The <b>Function</b> member of the request structure specifies the type of request. The union member of the request structure specifies the request-type-specific parameters of the request. The parameters and their meaning are documented with each request.
+<b>Parameters->Others.Argument1</b> points to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/61883/ns-61883-_av_61883_request">AV_61883_REQUEST</a> structure. The <b>Function</b> member of the request structure specifies the type of request. The union member of the request structure specifies the request-type-specific parameters of the request. The parameters and their meaning are documented with each request.
 
 
 ### -input-buffer-length
@@ -111,7 +111,7 @@ The information the IEC-61883 protocol driver returns in the I/O Status Block is
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537008">AV_61883_REQUEST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/61883/ns-61883-_av_61883_request">AV_61883_REQUEST</a>
  
 
  

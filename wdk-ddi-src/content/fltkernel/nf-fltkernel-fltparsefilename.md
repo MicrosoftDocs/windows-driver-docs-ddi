@@ -129,9 +129,9 @@ The following is an example of a short name for a file:
 
 <i>FinalComponent</i>: "TestRe~1.txt" 
 
-For more information about file name normalization and file name parsing, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff544633">FLT_FILE_NAME_INFORMATION</a>. 
+For more information about file name normalization and file name parsing, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/ns-fltkernel-_flt_file_name_information">FLT_FILE_NAME_INFORMATION</a>. 
 
-To parse the contents of a FLT_FILE_NAME_INFORMATION structure, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff543417">FltParseFileNameInformation</a>. 
+To parse the contents of a FLT_FILE_NAME_INFORMATION structure, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltparsefilenameinformation">FltParseFileNameInformation</a>. 
 
 
 
@@ -141,11 +141,11 @@ To parse the contents of a FLT_FILE_NAME_INFORMATION structure, call <a href="ht
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544633">FLT_FILE_NAME_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/ns-fltkernel-_flt_file_name_information">FLT_FILE_NAME_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543417">FltParseFileNameInformation</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltparsefilenameinformation">FltParseFileNameInformation</a>
 
 
 

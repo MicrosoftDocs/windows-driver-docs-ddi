@@ -176,7 +176,7 @@ This <i>error</i> status means that the function received an invalid input param
 <li>The destination buffer pointer is <b>NULL</b>, or its length is zero, but a nonzero length source string is present.</li>
 <li>The <i>cbToCopy</i> parameter's value is greater than NTSTRSAFE_UNICODE_STRING_MAX_CCH * sizeof(WCHAR).</li>
 </ul>
-For information about how to test NTSTATUS values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565436">Using NTSTATUS Values</a>.
+For information about how to test NTSTATUS values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-ntstatus-values">Using NTSTATUS Values</a>.
 
 
 
@@ -187,13 +187,13 @@ For information about how to test NTSTATUS values, see <a href="https://msdn.mic
 
 The <b>RtlUnicodeStringCbCopyStringNEx</b> function uses the destination buffer's size to ensure that the copy operation does not write past the end of the buffer. By default, the function does <u>not</u> terminate the resultant string with a null character value (that is, with zero). As an option, the caller can use the STRSAFE_FILL_BEHIND flag and a fill byte value of zero to null-terminate a resultant string that does not occupy the entire destination buffer.
 
-<b>RtlUnicodeStringCbCopyStringNEx</b> adds to the functionality of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562918">RtlUnicodeStringCbCopyStringN</a> function by returning a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that identifies the end of the destination string and the number of bytes left unused in that string. You can pass flags <b>RtlUnicodeStringCbCopyStringNEx</b> for additional control.
+<b>RtlUnicodeStringCbCopyStringNEx</b> adds to the functionality of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntstrsafe/nf-ntstrsafe-rtlunicodestringcbcopystringn">RtlUnicodeStringCbCopyStringN</a> function by returning a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that identifies the end of the destination string and the number of bytes left unused in that string. You can pass flags <b>RtlUnicodeStringCbCopyStringNEx</b> for additional control.
 
 If the source and destination strings overlap, the behavior of the function is undefined.
 
 The <i>pszSrc</i> and <i>DestinationString</i> pointers cannot be <b>NULL</b> unless the STRSAFE_IGNORE_NULLS flag is set in <i>dwFlags</i>. If STRSAFE_IGNORE_NULLS is set, one or both of these pointers can be <b>NULL</b>. If the <i>DestinationString</i> pointer is <b>NULL</b>, the <i>pszSrc</i> pointer must be <b>NULL</b> or point to an empty string.
 
-For more information about the safe string functions, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565508">Using Safe String Functions</a>.
+For more information about the safe string functions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-safe-string-functions">Using Safe String Functions</a>.
 
 
 
@@ -203,11 +203,11 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562918">RtlUnicodeStringCbCopyStringN</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntstrsafe/nf-ntstrsafe-rtlunicodestringcbcopystringn">RtlUnicodeStringCbCopyStringN</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562938">RtlUnicodeStringCchCopyStringNEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntstrsafe/nf-ntstrsafe-rtlunicodestringcchcopystringnex">RtlUnicodeStringCchCopyStringNEx</a>
 
 
 

@@ -66,7 +66,7 @@ The CPU number that is assigned to the processor. The value is in the range from
 The physical package ID of the processor. The value is in the range from zero through the number
      in the 
      <b>NumPhysicalPackages</b> member of the 
-     <a href="https://msdn.microsoft.com/f59b9394-7742-423d-9a6e-3a429ccb0740">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_system_processor_info">
      NDIS_SYSTEM_PROCESSOR_INFO</a> structure minus one.
 
 
@@ -88,7 +88,7 @@ The hyper-threading ID of the processor. The value is in the range from zero thr
 
 
 The NDIS_PROCESSOR_INFO structure is used in the 
-    <a href="https://msdn.microsoft.com/f59b9394-7742-423d-9a6e-3a429ccb0740">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_system_processor_info">
     NDIS_SYSTEM_PROCESSOR_INFO</a> structure.
 
 
@@ -99,11 +99,11 @@ The NDIS_PROCESSOR_INFO structure is used in the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566811">NDIS_PROCESSOR_INFO_EX</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_processor_info_ex">NDIS_PROCESSOR_INFO_EX</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567871">NDIS_SYSTEM_PROCESSOR_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_system_processor_info">NDIS_SYSTEM_PROCESSOR_INFO</a>
  
 
  

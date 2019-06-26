@@ -68,7 +68,7 @@ Receives the index of the pseudo-register.
 
 
 
-This list does not contain all the errors that might occur.  For a list of possible errors, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff549771">HRESULT Values</a>.
+This list does not contain all the errors that might occur.  For a list of possible errors, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">HRESULT Values</a>.
 
 <table>
 <tr>
@@ -96,9 +96,9 @@ The method was successful.
 
 
 
-For the names of all the pseudo-registers, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff553485">Pseudo-Register Syntax</a>.
+For the names of all the pseudo-registers, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/pseudo-register-syntax">Pseudo-Register Syntax</a>.
 
-For an overview of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550825">IDebugRegisters</a> interface and other register-related methods, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554369">Registers</a>.
+For an overview of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugregisters">IDebugRegisters</a> interface and other register-related methods, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/registers">Registers</a>.
 
 
 
@@ -108,11 +108,11 @@ For an overview of the <a href="https://msdn.microsoft.com/library/windows/hardw
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548189">GetPseudoDescription</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugregisters2-getpseudodescription">GetPseudoDescription</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550835">IDebugRegisters2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugregisters2">IDebugRegisters2</a>
  
 
  

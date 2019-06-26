@@ -68,7 +68,7 @@ Specifies a handle to the depth buffer.
 
 
 
-The driver should carry out the following tasks in response to a D3DDP2OP_SETRENDERTARGET opcode in the <a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a> command stream:
+The driver should carry out the following tasks in response to a D3DDP2OP_SETRENDERTARGET opcode in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a> command stream:
 
 <ol>
 <li>
@@ -94,7 +94,7 @@ D3DDP2OP_SETRENDERTARGET
 
 
 
-<a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a>
  
 
  

@@ -74,7 +74,7 @@ A 32-bit value that describes the 16.16 fixed-point number.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562917">DXVADDI_PROCAMPVALUES</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_dxvaddi_procampvalues">DXVADDI_PROCAMPVALUES</a>
  
 
  

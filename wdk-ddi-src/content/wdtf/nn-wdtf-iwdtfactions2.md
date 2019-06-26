@@ -68,7 +68,7 @@ The <b>IWDTFActions2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn938485">Add</a>
+<a href="https://docs.microsoft.com/windows-hardware/test/wpt/add">Add</a>
 </td>
 <td align="left" width="63%">
 Add a single action to the collection.
@@ -77,7 +77,7 @@ Add a single action to the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406339">Clear</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">Clear</a>
 </td>
 <td align="left" width="63%">
 Removes all items from the collection.
@@ -86,7 +86,7 @@ Removes all items from the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406383">DisableObjectErrorLogging</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nf-wdtf-iwdtfconfig2-disableobjecterrorlogging">DisableObjectErrorLogging</a>
 </td>
 <td align="left" width="63%">
 Disable object error logging for all actions in the collection.
@@ -95,7 +95,7 @@ Disable object error logging for all actions in the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406315">DisableObjectLogging</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nf-wdtf-iwdtfaction2-disableobjectlogging">DisableObjectLogging</a>
 </td>
 <td align="left" width="63%">
 Disable object logging for all actions in the collection.
@@ -104,7 +104,7 @@ Disable object logging for all actions in the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406317">EnableObjectErrorLogging</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nf-wdtf-iwdtfaction2-enableobjecterrorlogging">EnableObjectErrorLogging</a>
 </td>
 <td align="left" width="63%">
 Enable object error logging for all actions in the collection.
@@ -113,7 +113,7 @@ Enable object error logging for all actions in the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406319">EnableObjectLogging</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nf-wdtf-iwdtfaction2-enableobjectlogging">EnableObjectLogging</a>
 </td>
 <td align="left" width="63%">
 Enable object logging for all actions in the collection.
@@ -122,7 +122,7 @@ Enable object logging for all actions in the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439492">Remove</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nf-wdtf-iwdtftargets2-remove">Remove</a>
 </td>
 <td align="left" width="63%">
 Remove an action from the collection.
@@ -140,7 +140,7 @@ Remove an action from the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439300">_NewEnum</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nf-wdtf-iwdtfstrings2-get__newenum">_NewEnum</a>
 
 
 </td>
@@ -157,7 +157,7 @@ loop structure implicitly uses.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/hh406342(v=vs.85)">Count</a>
 
 
 </td>
@@ -173,7 +173,7 @@ Gets the number of actions in this collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">Item</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nf-wdtf-iwdtfnumbers2-get_item">Item</a>
 
 
 </td>

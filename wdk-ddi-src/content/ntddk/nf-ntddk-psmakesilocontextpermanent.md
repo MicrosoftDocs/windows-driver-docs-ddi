@@ -61,7 +61,7 @@ The silo in which the slot resides. This parameter is required and it cannot be 
 
 ### -param ContextSlot [in]
 
-The slot to make read-only. The slot must be previously allocated by the <a href="https://msdn.microsoft.com/library/windows/hardware/mt735056">PsAllocSiloContextSlot</a> routine.
+The slot to make read-only. The slot must be previously allocated by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-psallocsilocontextslot">PsAllocSiloContextSlot</a> routine.
 
 
 ## -returns
@@ -118,7 +118,7 @@ The operation completed successfully.
 
 
 
-Before calling this routine, the slot must contain a valid object. After it completes, the <a href="https://msdn.microsoft.com/library/windows/hardware/mt735081">PsReplaceSiloContext</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/mt735080">PsRemoveSiloContext</a> routines will fail with <b>STATUS_NOT_SUPPORTED</b>. 
+Before calling this routine, the slot must contain a valid object. After it completes, the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-psreplacesilocontext">PsReplaceSiloContext</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-psremovesilocontext">PsRemoveSiloContext</a> routines will fail with <b>STATUS_NOT_SUPPORTED</b>. 
 
 
 

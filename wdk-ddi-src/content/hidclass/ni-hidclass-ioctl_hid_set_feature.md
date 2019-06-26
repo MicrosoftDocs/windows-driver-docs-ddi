@@ -46,9 +46,9 @@ req.typenames:
 ## -description
 
 
-The IOCTL_HID_SET_FEATURE request sends a feature report to a <a href="https://msdn.microsoft.com/dcbee8e3-d03a-45c8-92e4-0897b9f55177">top-level collection</a>.
+The IOCTL_HID_SET_FEATURE request sends a feature report to a <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/top-level-collections">top-level collection</a>.
 
-For general information about HIDClass devices, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db-8cff-9fac30209952">HID Collections</a>. 
+For general information about HIDClass devices, see <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-collections">HID Collections</a>. 
 
 
 ## -ioctlparameters
@@ -66,7 +66,7 @@ The <b>Irp->AssociatedIrp.SystemBuffer</b> member points to the input buffer tha
 
 <b>Minidriver handling</b>
 
-<b>Irp->UserBuffer</b> points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff539949">HID_XFER_PACKET</a> structure that the HID class driver uses to input the following members:
+<b>Irp->UserBuffer</b> points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hidclass/ns-hidclass-_hid_xfer_packet">HID_XFER_PACKET</a> structure that the HID class driver uses to input the following members:
 
 
 
@@ -92,7 +92,7 @@ The input buffer size, in bytes, must be large enough to hold the output report 
 
 <b>Minidriver handling</b>
 
- The size of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff539949">HID_XFER_PACKET</a> structure.
+ The size of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hidclass/ns-hidclass-_hid_xfer_packet">HID_XFER_PACKET</a> structure.
 
 
 ### -output-buffer
@@ -160,27 +160,27 @@ HID minidrivers that call other drivers with this IOCTL to carry out the I/O, sh
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538910">HidD_GetFeature</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hidsdi/nf-hidsdi-hidd_getfeature">HidD_GetFeature</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538945">HidD_GetInputReport</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hidsdi/nf-hidsdi-hidd_getinputreport">HidD_GetInputReport</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539684">HidD_SetFeature</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hidsdi/nf-hidsdi-hidd_setfeature">HidD_SetFeature</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539690">HidD_SetOutputReport</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hidsdi/nf-hidsdi-hidd_setoutputreport">HidD_SetOutputReport</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541126">IOCTL_HID_GET_INPUT_REPORT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hidclass/ni-hidclass-ioctl_hid_get_input_report">IOCTL_HID_GET_INPUT_REPORT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541196">IOCTL_HID_SET_OUTPUT_REPORT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hidclass/ni-hidclass-ioctl_hid_set_output_report">IOCTL_HID_SET_OUTPUT_REPORT</a>
  
 
  

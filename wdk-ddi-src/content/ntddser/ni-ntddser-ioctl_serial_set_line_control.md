@@ -48,7 +48,7 @@ req.typenames:
 
 The <b>IOCTL_SERIAL_SET_LINE_CONTROL</b> request sets the line control register (LCR). The line control register controls the data size, the number of stop bits, and the parity.
 
-To obtain the value of the line control register, a client can use an <a href="https://msdn.microsoft.com/library/windows/hardware/ff546582">IOCTL_SERIAL_GET_LINE_CONTROL</a> request.
+To obtain the value of the line control register, a client can use an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddser/ni-ntddser-ioctl_serial_get_line_control">IOCTL_SERIAL_GET_LINE_CONTROL</a> request.
 
 
 ## -ioctlparameters
@@ -58,7 +58,7 @@ To obtain the value of the line control register, a client can use an <a href="h
 
 ### -input-buffer
 
-The <b>AssociatedIrp.SystemBuffer</b> points to a client-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/jj680686">SERIAL_LINE_CONTROL</a> structure that is used to input line control information.
+The <b>AssociatedIrp.SystemBuffer</b> points to a client-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddser/ns-ntddser-_serial_line_control">SERIAL_LINE_CONTROL</a> structure that is used to input line control information.
 
 
 ### -input-buffer-length
@@ -106,11 +106,11 @@ The <b>Status</b> member is set to one of the <a href="https://docs.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546582">IOCTL_SERIAL_GET_LINE_CONTROL</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddser/ni-ntddser-ioctl_serial_get_line_control">IOCTL_SERIAL_GET_LINE_CONTROL</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj680686">SERIAL_LINE_CONTROL</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddser/ns-ntddser-_serial_line_control">SERIAL_LINE_CONTROL</a>
  
 
  

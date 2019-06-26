@@ -56,7 +56,7 @@ req.typenames:
 
 ### -param HwDeviceExtension
 
-Pointer to the miniport driver's per-adapter storage area. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff543119">Device Extensions</a>.
+Pointer to the miniport driver's per-adapter storage area. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/device-extensions">Device Extensions</a>.
 
 
 ## -returns
@@ -72,7 +72,7 @@ None
 
 
 
-<i>HwVidTimer</i> is an optional miniport driver function to which calls are enabled with <a href="https://msdn.microsoft.com/library/windows/hardware/ff570370">VideoPortStartTimer</a> and disabled with <a href="https://msdn.microsoft.com/library/windows/hardware/ff570371">VideoPortStopTimer</a>.
+<i>HwVidTimer</i> is an optional miniport driver function to which calls are enabled with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportstarttimer">VideoPortStartTimer</a> and disabled with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportstoptimer">VideoPortStopTimer</a>.
 
 Any miniport driver can have a <i>HwVidTimer</i> function. For example, a <i>HwVidTimer</i> function could be used to read the state of the "VGA" registers on a high-end video adapter so that the miniport driver can emulate VGA-compatible behavior.
 
@@ -90,11 +90,11 @@ Note that the <i>HwVidTimer</i> function <i>must not</i> disable the timer with 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570370">VideoPortStartTimer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportstarttimer">VideoPortStartTimer</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570371">VideoPortStopTimer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportstoptimer">VideoPortStopTimer</a>
  
 
  

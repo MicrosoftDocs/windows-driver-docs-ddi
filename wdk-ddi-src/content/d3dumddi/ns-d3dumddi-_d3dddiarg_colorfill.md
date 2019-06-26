@@ -66,7 +66,7 @@ The D3DDDIARG_COLORFILL structure describes the parameters of a color-fill opera
 
 ### -field DstRect
 
-[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff569236">RECTL</a> structure that indicates the upper-left and lower-right points of a rectangle on the surface to color fill. 
+[in] A <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-_rectl">RECTL</a> structure that indicates the upper-left and lower-right points of a rectangle on the surface to color fill. 
 
 
 ### -field Color
@@ -76,7 +76,7 @@ A D3DCOLOR data type for the A8R8G8B8 fill color.
 
 ### -field Flags
 
-[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff544394">D3DDDI_COLORFILLFLAGS</a> structure that identifies the type of color-fill operation to perform. 
+[in] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddi_colorfillflags">D3DDDI_COLORFILLFLAGS</a> structure that identifies the type of color-fill operation to perform. 
 
 
 ## -see-also
@@ -84,15 +84,15 @@ A D3DCOLOR data type for the A8R8G8B8 fill color.
 
 
 
-<a href="https://msdn.microsoft.com/c120421d-6a10-4d37-b936-98dac75e236b">ColorFill</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_colorfill">ColorFill</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544394">D3DDDI_COLORFILLFLAGS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddi_colorfillflags">D3DDDI_COLORFILLFLAGS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569236">RECTL</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-_rectl">RECTL</a>
  
 
  

@@ -64,11 +64,11 @@ If TRUE, this is a hint that the network interface should utilize mechanisms for
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn931088">NDIS_WWAN_NETWORK_IDLE_HINT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndiswwan/ns-ndiswwan-_ndis_wwan_network_idle_hint">NDIS_WWAN_NETWORK_IDLE_HINT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn931089">OID_WWAN_NETWORK_IDLE_HINT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-network-idle-hint">OID_WWAN_NETWORK_IDLE_HINT</a>
  
 
  

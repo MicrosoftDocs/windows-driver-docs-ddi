@@ -47,7 +47,7 @@ req.typenames: IDE_POWER_STATE
 
 
 The IDE_POWER_STATE enumeration type indicates that power state of the device.
-<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -enum-fields
 
@@ -73,7 +73,7 @@ Indicates a device power level of 3.
 
 
 
-The IDE_POWER_STATE enumeration type is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550220">AtaPortRequestPowerStateChange</a> routine to request a power state transition for a device.
+The IDE_POWER_STATE enumeration type is used in conjunction with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/nf-irb-ataportrequestpowerstatechange">AtaPortRequestPowerStateChange</a> routine to request a power state transition for a device.
 
 
 
@@ -83,7 +83,7 @@ The IDE_POWER_STATE enumeration type is used in conjunction with the <a href="ht
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550220">AtaPortRequestPowerStateChange</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/nf-irb-ataportrequestpowerstatechange">AtaPortRequestPowerStateChange</a>
  
 
  

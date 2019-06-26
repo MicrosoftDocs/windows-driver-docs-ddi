@@ -56,5 +56,5 @@ The SM_AddPort_OUT structure is used to receive output parameters from the SM_Re
 
 ### -field HBAStatus
 
-The status of the operation. For a list of allowed values and their descriptions, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>.
+The status of the operation. For a list of allowed values and their descriptions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/hba-status">HBA_STATUS</a>.
 

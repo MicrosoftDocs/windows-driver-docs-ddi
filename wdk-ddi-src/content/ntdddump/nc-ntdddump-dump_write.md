@@ -56,7 +56,7 @@ The <i>Dump_Write</i> callback routine is called before the write to the dump po
 
 ### -param FilterExtension [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff553862">FILTER_EXTENSION</a> structure.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdddump/ns-ntdddump-_filter_extension">FILTER_EXTENSION</a> structure.
 
 
 ### -param DiskByteOffset [in, out]
@@ -66,7 +66,7 @@ The value, in bytes, relative to the destination partition for the crash dump or
 
 ### -param Mdl [in, out]
 
-A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff554414">MDL</a> structure that describes the data buffer. If the <b>MDL</b> is modified, the size of the write operation cannot change.
+A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_mdl">MDL</a> structure that describes the data buffer. If the <b>MDL</b> is modified, the size of the write operation cannot change.
 
 
 ## -returns
@@ -84,7 +84,7 @@ If the routine succeeds, it must return STATUS_SUCCESS. Otherwise, it must retur
 
 Filter drivers can read the data that needs to be written. However, filter drivers cannot write to the buffer, as this could change the contents of the code or data that is being used by the crash dump process. Also, filter drivers are not allowed to change the size of the data.
 
-To safely modify the data for the dump write, a filter driver should allocate a secondary buffer. The buffer's size will be the value of the <b>MaxPagesPerWrite</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff553865">FILTER_INITIALIZATION_DATA</a> multiplied by <b>PAGE_SIZE</b>. The data for the current buffer described by <i>Mdl</i> is copied into the secondary buffer and processed. After the filter is finished handling the dump data in the secondary buffer, the  <a href="https://msdn.microsoft.com/library/windows/hardware/ff554414">MDL</a> pointed to by <i>Mdl</i> is updated with the address of the secondary buffer. The starting address of the secondary buffer set in the <b>MDL</b> must be page aligned.
+To safely modify the data for the dump write, a filter driver should allocate a secondary buffer. The buffer's size will be the value of the <b>MaxPagesPerWrite</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdddump/ns-ntdddump-_filter_initialization_data">FILTER_INITIALIZATION_DATA</a> multiplied by <b>PAGE_SIZE</b>. The data for the current buffer described by <i>Mdl</i> is copied into the secondary buffer and processed. After the filter is finished handling the dump data in the secondary buffer, the  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_mdl">MDL</a> pointed to by <i>Mdl</i> is updated with the address of the secondary buffer. The starting address of the secondary buffer set in the <b>MDL</b> must be page aligned.
 
 
 
@@ -94,15 +94,15 @@ To safely modify the data for the dump write, a filter driver should allocate a 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439713">Dump_Read</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdddump/nc-ntdddump-dump_read">Dump_Read</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553862">FILTER_EXTENSION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdddump/ns-ntdddump-_filter_extension">FILTER_EXTENSION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553865">FILTER_INITIALIZATION_DATA</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdddump/ns-ntdddump-_filter_initialization_data">FILTER_INITIALIZATION_DATA</a>
  
 
  

@@ -61,7 +61,7 @@ The <b>WdfVerifierKeBugCheck</b> function creates a bug check.
 
 ### -param BugCheckCode [in]
 
-One of the <a href="https://msdn.microsoft.com/DBA85578-97CF-4BD7-A67D-1C7AD2E9B2BB">bug check codes</a> that are defined in <i>Bugcodes.h</i>.
+One of the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/bug-check-code-reference2">bug check codes</a> that are defined in <i>Bugcodes.h</i>.
 
 
 ### -param BugCheckParameter1 [in]
@@ -97,16 +97,16 @@ None
 
 
 
-If your Kernel-Mode Driver Framework (KMDF) driver calls <b>WdfVerifierKeBugCheck</b>, the operating system halts and displays a <a href="https://msdn.microsoft.com/8cc42643-e231-49dd-96b0-6cb528d5d7a9">blue screen</a> unless a <a href="https://msdn.microsoft.com/e2490442-9d90-454b-95e0-db8c5d7fa19a">debugger</a> is running.
+If your Kernel-Mode Driver Framework (KMDF) driver calls <b>WdfVerifierKeBugCheck</b>, the operating system halts and displays a <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/blue-screen-data">blue screen</a> unless a <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/using-a-debugger">debugger</a> is running.
 
-If your  User-Mode Driver Framework (UMDF) driver (version 2.0 or later) calls <b>WdfVerifierKeBugCheck</b>, the framework does not use  the parameters that the driver supplies.   In this case, the framework breaks into the debugger if one is connected. If a debugger is not connected, the framework generates an exception, and the default UMDF exception handler creates a minidump file. For more information about unhandled exceptions in the driver host process, see <a href="https://msdn.microsoft.com/44e4e5df-d968-4973-8a36-e93c75320ff6">How UMDF Reports Errors</a>.
+If your  User-Mode Driver Framework (UMDF) driver (version 2.0 or later) calls <b>WdfVerifierKeBugCheck</b>, the framework does not use  the parameters that the driver supplies.   In this case, the framework breaks into the debugger if one is connected. If a debugger is not connected, the framework generates an exception, and the default UMDF exception handler creates a minidump file. For more information about unhandled exceptions in the driver host process, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/how-umdf-reports-errors">How UMDF Reports Errors</a>.
 
-For more information about debugging your driver, see <a href="https://msdn.microsoft.com/e648a7c9-0fdc-477e-b1cd-bec5dd8f5386">Debugging WDF Drivers</a>.
+For more information about debugging your driver, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/debugging-a-wdf-driver">Debugging WDF Drivers</a>.
 
 
 #### Examples
 
-The following code example creates a bug check that uses the <a href="https://msdn.microsoft.com/bc60b4b3-aded-4c67-bbaa-aad1b6b38d30">MULTIPLE_IRP_COMPLETE_REQUESTS</a> bug check code.
+The following code example creates a bug check that uses the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/bug-check-0x44--multiple-irp-complete-requests">MULTIPLE_IRP_COMPLETE_REQUESTS</a> bug check code.
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -132,7 +132,7 @@ The following code example creates a bug check that uses the <a href="https://ms
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551164">WdfVerifierDbgBreakPoint</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfverifier/nf-wdfverifier-wdfverifierdbgbreakpoint">WdfVerifierDbgBreakPoint</a>
  
 
  

@@ -49,7 +49,7 @@ req.typenames:
 
 The 
   <b>NdisFreeRWLock</b> function frees a read/write lock that was previously allocated with the 
-  <a href="https://msdn.microsoft.com/library/windows/hardware/ff561615">NdisAllocateRWLock</a> function.
+  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisallocaterwlock">NdisAllocateRWLock</a> function.
 
 
 ## -parameters
@@ -60,7 +60,7 @@ The
 ### -param Lock [in]
 
 A pointer to an opaque 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff567279">NDIS_RW_LOCK_EX</a> variable that represents a
+     <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff567279(v=vs.85)">NDIS_RW_LOCK_EX</a> variable that represents a
      lock. The caller can use this lock to gain write or read access to resources that are shared among
      non-ISR driver threads.
 
@@ -80,12 +80,12 @@ None
 
 NDIS drivers call the 
     <b>NdisFreeRWLock</b> function to free the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff567279">NDIS_RW_LOCK_EX</a> structure and any associated
+    <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff567279(v=vs.85)">NDIS_RW_LOCK_EX</a> structure and any associated
     resources that were previously allocated with the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561615">NdisAllocateRWLock</a> function.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisallocaterwlock">NdisAllocateRWLock</a> function.
 
 A driver must call the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff564523">NdisReleaseRWLock</a> function to release a
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisreleaserwlock">NdisReleaseRWLock</a> function to release a
     read/write lock before it calls the 
     <b>NdisFreeRWLock</b> function.
 
@@ -97,15 +97,15 @@ A driver must call the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567279">NDIS_RW_LOCK_EX</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff567279(v=vs.85)">NDIS_RW_LOCK_EX</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561615">NdisAllocateRWLock</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisallocaterwlock">NdisAllocateRWLock</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564523">NdisReleaseRWLock</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisreleaserwlock">NdisReleaseRWLock</a>
  
 
  

@@ -57,7 +57,7 @@ To get this interface, call CoCreateInstance and pass in a class identifier (CLS
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortableDeviceClassExtension</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IPortableDeviceClassExtension</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortableDeviceClassExtension</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPortableDeviceClassExtension</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IPortableDeviceClassExtension</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550945">Initialize</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/previsioning-framework/ff550945(v=vs.85)">Initialize</a>
 </td>
 <td align="left" width="63%">
 Serializes a submitted <b>IPortableDeviceValues</b> interface to an allocated byte array. The byte array returned is allocated for the caller and should be freed by the caller using <b>CoTaskMemFree</b>.
@@ -81,7 +81,7 @@ Serializes a submitted <b>IPortableDeviceValues</b> interface to an allocated by
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597581">ProcessLibraryMessage</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portabledeviceclassextension/nf-portabledeviceclassextension-iportabledeviceclassextension-processlibrarymessage">ProcessLibraryMessage</a>
 </td>
 <td align="left" width="63%">
 Deserializes a byte array to an <b>IPortableDeviceValues</b> interface.
@@ -90,7 +90,7 @@ Deserializes a byte array to an <b>IPortableDeviceValues</b> interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597582">Uninitialize</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portabledeviceclassextension/nf-portabledeviceclassextension-iportabledeviceclassextension-uninitialize">Uninitialize</a>
 </td>
 <td align="left" width="63%">
 Calculates the buffer size that is needed to hold the serialized data.
@@ -105,7 +105,7 @@ Calculates the buffer size that is needed to hold the serialized data.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597566">Driver Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff597566(v=vs.85)">Driver Interfaces</a>
  
 
  

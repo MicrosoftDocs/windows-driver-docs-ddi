@@ -57,12 +57,12 @@ The <b>GetNextTagged</b> method returns the GUID for the next block of tagged da
 
 ### -param Handle [in]
 
-Specifies the handle identifying the enumeration.  This is the handle returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff558801">StartEnumTagged</a>.
+Specifies the handle identifying the enumeration.  This is the handle returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugdataspaces4-startenumtagged">StartEnumTagged</a>.
 
 
 ### -param Tag [out]
 
-Receives the GUID identifying the tagged data.  The data may be retrieved by passing this GUID to <a href="https://msdn.microsoft.com/library/windows/hardware/ff554336">ReadTagged</a>.
+Receives the GUID identifying the tagged data.  The data may be retrieved by passing this GUID to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugdataspaces4-readtagged">ReadTagged</a>.
 
 
 ### -param Size [out]
@@ -74,7 +74,7 @@ Receives the size of the data identified by the GUID <i>Tag</i>.
 
 
 
-This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+This method can also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 <table>
 <tr>
@@ -114,19 +114,19 @@ There are no more blocks of tagged data available in this enumeration.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550537">IDebugDataSpaces3</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugdataspaces3">IDebugDataSpaces3</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550546">IDebugDataSpaces4</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugdataspaces4">IDebugDataSpaces4</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554336">ReadTagged</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugdataspaces4-readtagged">ReadTagged</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558801">StartEnumTagged</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugdataspaces4-startenumtagged">StartEnumTagged</a>
  
 
  

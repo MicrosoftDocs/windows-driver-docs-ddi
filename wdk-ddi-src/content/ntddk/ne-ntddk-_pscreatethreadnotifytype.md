@@ -46,7 +46,7 @@ req.typenames: PSCREATETHREADNOTIFYTYPE
 ## -description
 
 
-Indicates the type of thread notification. This enumeration is used in <a href="https://msdn.microsoft.com/library/windows/hardware/dn957857">PsSetCreateThreadNotifyRoutineEx</a> to register callback notifications associated with thread creation or deletion.
+Indicates the type of thread notification. This enumeration is used in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-pssetcreatethreadnotifyroutineex">PsSetCreateThreadNotifyRoutineEx</a> to register callback notifications associated with thread creation or deletion.
 
 
 ## -enum-fields
@@ -62,7 +62,7 @@ The driver-registered callback function is executed on the new non-system thread
 
 ### -field PsCreateThreadNotifySubsystems
 
-Indicates that the driver-registered callback function is invoked for threads of all subsystems.  Drivers can call <a href="https://msdn.microsoft.com/ca292efc-1ea9-4c0f-b0a7-1cfb35d69f81">NtQueryInformationThread</a> to determine the underlying subsystem. The query retrieves a  <a href="https://msdn.microsoft.com/library/windows/hardware/mt805892">SUBSYSTEM_INFORMATION_TYPE</a> value.
+Indicates that the driver-registered callback function is invoked for threads of all subsystems.  Drivers can call <a href="https://docs.microsoft.com/windows/desktop/api/winternl/nf-winternl-ntqueryinformationthread">NtQueryInformationThread</a> to determine the underlying subsystem. The query retrieves a  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ne-ntddk-_subsystem_information_type">SUBSYSTEM_INFORMATION_TYPE</a> value.
 
 
 ## -see-also
@@ -70,15 +70,15 @@ Indicates that the driver-registered callback function is invoked for threads of
 
 
 
-<a href="https://msdn.microsoft.com/ca292efc-1ea9-4c0f-b0a7-1cfb35d69f81">NtQueryInformationThread</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winternl/nf-winternl-ntqueryinformationthread">NtQueryInformationThread</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn957857">PsSetCreateThreadNotifyRoutineEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-pssetcreatethreadnotifyroutineex">PsSetCreateThreadNotifyRoutineEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt805892">SUBSYSTEM_INFORMATION_TYPE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ne-ntddk-_subsystem_information_type">SUBSYSTEM_INFORMATION_TYPE</a>
  
 
  

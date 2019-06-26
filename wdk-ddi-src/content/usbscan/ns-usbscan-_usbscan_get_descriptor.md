@@ -46,7 +46,7 @@ req.typenames: USBSCAN_GET_DESCRIPTOR, *PUSBSCAN_GET_DESCRIPTOR
 ## -description
 
 
-The USBSCAN_GET_DESCRIPTOR structure is used as a parameter to <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>, when the specified I/O control code is <a href="https://msdn.microsoft.com/library/windows/hardware/ff542864">IOCTL_GET_USB_DESCRIPTOR</a>.
+The USBSCAN_GET_DESCRIPTOR structure is used as a parameter to <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>, when the specified I/O control code is <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbscan/ni-usbscan-ioctl_get_usb_descriptor">IOCTL_GET_USB_DESCRIPTOR</a>.
 
 
 ## -struct-fields
@@ -56,7 +56,7 @@ The USBSCAN_GET_DESCRIPTOR structure is used as a parameter to <a href="https://
 
 ### -field DescriptorType
 
-Same as the <i>DescriptorType</i> parameter to <a href="https://msdn.microsoft.com/library/windows/hardware/ff538943">UsbBuildGetDescriptorRequest</a>.
+Same as the <i>DescriptorType</i> parameter to <a href="https://docs.microsoft.com/previous-versions/ff538943(v=vs.85)">UsbBuildGetDescriptorRequest</a>.
 
 
 ### -field Index

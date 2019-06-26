@@ -87,7 +87,7 @@ REG_RESOURCE_REQUIREMENTS_LIST
 
 REG_FULL_RESOURCE_DESCRIPTOR
 
-These parameter types are explained in <a href="https://msdn.microsoft.com/library/windows/hardware/ff567109">ZwSetValueKey</a>.
+These parameter types are explained in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-zwsetvaluekey">ZwSetValueKey</a>.
 
 
 ### -param Data [in]
@@ -153,7 +153,7 @@ If the given key has no existing value entry with a name matching the given <i>V
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536965">IRegistryKey</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iregistrykey">IRegistryKey</a>
 
 
 
@@ -161,7 +161,7 @@ If the given key has no existing value entry with a name matching the given <i>V
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567109">ZwSetValueKey</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-zwsetvaluekey">ZwSetValueKey</a>
  
 
  

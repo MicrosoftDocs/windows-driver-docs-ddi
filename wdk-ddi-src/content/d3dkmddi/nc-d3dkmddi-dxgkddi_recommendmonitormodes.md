@@ -56,12 +56,12 @@ The <i>DxgkDdiRecommendMonitorModes</i> function inspects the monitor source mod
 
 ### -param hAdapter 
 
-[in] A handle to a context block that is associated with a display adapter. The display miniport driver previously provided this handle to the Microsoft DirectX graphics kernel subsystem in the <i>MiniportDeviceContext</i> output parameter of the <a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a> function.
+[in] A handle to a context block that is associated with a display adapter. The display miniport driver previously provided this handle to the Microsoft DirectX graphics kernel subsystem in the <i>MiniportDeviceContext</i> output parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function.
 
 
 ### -param pRecommendMonitorModes
 
-[in] A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff557636">DXGKARG_RECOMMENDMONITORMODES</a> structure that contains function arguments.
+[in] A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_recommendmonitormodes">DXGKARG_RECOMMENDMONITORMODES</a> structure that contains function arguments.
 
 
 ## -returns
@@ -94,7 +94,7 @@ The miniport driver should pass through any error code that it gets from the ope
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568435">Monitor Source Mode Set Interface</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">Monitor Source Mode Set Interface</a>
  
 
  

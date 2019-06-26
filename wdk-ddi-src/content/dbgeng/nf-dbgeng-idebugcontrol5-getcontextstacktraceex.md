@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The GetContextStackTraceEx method returns the frames at the top of the call stack, starting with an arbitrary <a href="https://msdn.microsoft.com/3690903c-4281-4c65-98b0-00ca22206168">register context</a> and returning the reconstructed register context for each stack frame. The GetContextStackTraceEx method provides inline frame support. For more information about working with inline functions, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh406275">Debugging Optimized Code and Inline Functions</a>.
+The GetContextStackTraceEx method returns the frames at the top of the call stack, starting with an arbitrary <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/changing-contexts">register context</a> and returning the reconstructed register context for each stack frame. The GetContextStackTraceEx method provides inline frame support. For more information about working with inline functions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debugging-optimized-code-and-inline-functions-external">Debugging Optimized Code and Inline Functions</a>.
 
 
 ## -parameters
@@ -117,7 +117,7 @@ The method was successful.
 </table>
  
 
-This method can also return error values.  For more information, see <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a>.
+This method can also return error values.  For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a>.
 
 
 
@@ -126,7 +126,7 @@ This method can also return error values.  For more information, see <a href="ht
 
 
 
-The stack trace returned to <i>Frames</i> and <i>FrameContexts</i> can be printed using <a href="https://msdn.microsoft.com/library/windows/hardware/dn818566">OutputContextStackTraceEx</a>.
+The stack trace returned to <i>Frames</i> and <i>FrameContexts</i> can be printed using <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol5-outputcontextstacktraceex">OutputContextStackTraceEx</a>.
 
 It is common for stack unwinds to restore only a subset of the registers.  For example, stack unwinds will not always restore the volatile register state because the volatile registers are scratch registers and code does not need to preserve them.  Registers that are not restored on unwind are left as the last value restored, so care should be taken when using the register state that might not be restored by an unwind. 
 
@@ -138,19 +138,19 @@ It is common for stack unwinds to restore only a subset of the registers.  For e
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn818565">GetStackTraceEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol5-getstacktraceex">GetStackTraceEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn818562">IDebugControl5</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugcontrol5">IDebugControl5</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn818566">OutputContextStackTraceEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol5-outputcontextstacktraceex">OutputContextStackTraceEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/1061015f-cb0c-490b-b256-e0dedb659f22">k, kb, kc, kd, kp, kP, kv (Display Stack Backtrace)</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/k--kb--kc--kd--kp--kp--kv--display-stack-backtrace-">k, kb, kc, kd, kp, kP, kv (Display Stack Backtrace)</a>
  
 
  

@@ -56,7 +56,7 @@ The <b>PEP_ACPI_SPB_I2C_RESOURCE</b> structure describes an ACPI I2C serial bus 
 
 ### -field SpbCommon
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/mt186695">PEP_ACPI_SPB_RESOURCE</a> structure describing this resource.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/ns-pepfx-_pep_acpi_spb_resource">PEP_ACPI_SPB_RESOURCE</a> structure describing this resource.
 
 
 ### -field ConnectionSpeed
@@ -74,7 +74,7 @@ The I2C bus address for this connection.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt186695">PEP_ACPI_SPB_RESOURCE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/ns-pepfx-_pep_acpi_spb_resource">PEP_ACPI_SPB_RESOURCE</a>
  
 
  

@@ -57,17 +57,17 @@ The <b>ClfsReadLogRecord</b> routine reads a target record in a CLFS stream and 
 
 ### -param pvMarshalContext [in]
 
-A pointer to an opaque context that represents a marshalling area. The caller previously obtained this pointer by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff541520">ClfsCreateMarshallingArea</a>.
+A pointer to an opaque context that represents a marshalling area. The caller previously obtained this pointer by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-clfscreatemarshallingarea">ClfsCreateMarshallingArea</a>.
 
 
 ### -param plsnFirst [in, out]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff541824">CLFS_LSN</a> structure that supplies the LSN of the target record in the log.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_cls_lsn">CLFS_LSN</a> structure that supplies the LSN of the target record in the log.
 
 
 ### -param peContextMode [in]
 
-A value from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541783">CLFS_CONTEXT_MODE</a> enumeration that specifies the initial mode (ClfsContextUndoNext, ClfsContextPrevious, or ClfsContextForward) of the read context returned in <i>ppvReadContext</i>.
+A value from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_clfs_context_mode">CLFS_CONTEXT_MODE</a> enumeration that specifies the initial mode (ClfsContextUndoNext, ClfsContextPrevious, or ClfsContextForward) of the read context returned in <i>ppvReadContext</i>.
 
 
 ### -param ppvReadBuffer [out]
@@ -125,7 +125,7 @@ A pointer to a <b>CLFS_LSN</b> structure that receives the previous LSN of the t
 
 ### -param ppvReadContext [out]
 
-A pointer to a variable that receives a pointer to an opaque read context. The client repeatedly passes this context to  <a href="https://msdn.microsoft.com/library/windows/hardware/ff541690">ClfsReadNextLogRecord</a> to read the remaining records in a sequence. After the client has read all the records in the sequence, it calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff541767">ClfsTerminateReadLog</a> to free the read context.
+A pointer to a variable that receives a pointer to an opaque read context. The client repeatedly passes this context to  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-clfsreadnextlogrecord">ClfsReadNextLogRecord</a> to read the remaining records in a sequence. After the client has read all the records in the sequence, it calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-clfsterminatereadlog">ClfsTerminateReadLog</a> to free the read context.
 
 
 ## -returns
@@ -143,9 +143,9 @@ A pointer to a variable that receives a pointer to an opaque read context. The c
 
 You must call <b>ClfsTerminateReadLog</b> when you have finished using the read context in order to avoid a memory leak.
 
-For an explanation of CLFS concepts and terminology, see <a href="https://msdn.microsoft.com/a9685648-b08c-48ca-b020-e683068f2ea2">Common Log File System</a>.
+For an explanation of CLFS concepts and terminology, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-common-log-file-system">Common Log File System</a>.
 
-For information about reading records from CLFS streams, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff560785">Reading Data Records from a CLFS Stream</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff560786">Reading Restart Records from a CLFS Stream</a>.
+For information about reading records from CLFS streams, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/reading-data-records-from-a-clfs-stream">Reading Data Records from a CLFS Stream</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/reading-restart-records-from-a-clfs-stream">Reading Restart Records from a CLFS Stream</a>.
 
 Read contexts are not thread-safe. Clients are responsible for serializing access to read contexts. 
 
@@ -157,11 +157,11 @@ Read contexts are not thread-safe. Clients are responsible for serializing acces
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541690">ClfsReadNextLogRecord</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-clfsreadnextlogrecord">ClfsReadNextLogRecord</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541767">ClfsTerminateReadLog</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-clfsterminatereadlog">ClfsTerminateReadLog</a>
  
 
  

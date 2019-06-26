@@ -68,7 +68,7 @@ Specifies a value greater than zero, indicating the number of bytes to be mapped
 
 ### -param CacheType [in]
 
-Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff554430">MEMORY_CACHING_TYPE</a> value, which indicates the cache attribute to use to map the physical address range. The MEMORY_CACHING_TYPE enumeration type is defined in Wudfwdm.h.
+Specifies a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_memory_caching_type">MEMORY_CACHING_TYPE</a> value, which indicates the cache attribute to use to map the physical address range. The MEMORY_CACHING_TYPE enumeration type is defined in Wudfwdm.h.
 
 
 ### -param pPseudoBaseAddress [out]
@@ -89,13 +89,13 @@ The method returns S_OK if the operation succeeds. Otherwise, this method return
 
 
 
-A driver must call this method during device start-up if it receives translated resources of type <b>CmResourceTypeMemory</b> in a <a href="https://msdn.microsoft.com/96bf7bab-b8f5-439c-8717-ea6956ed0213">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure. <b>MapIoSpace</b> maps the physical address returned in the resource list to a framework-managed address referred to as the pseudo base address.
+A driver must call this method during device start-up if it receives translated resources of type <b>CmResourceTypeMemory</b> in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_cm_partial_resource_descriptor">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure. <b>MapIoSpace</b> maps the physical address returned in the resource list to a framework-managed address referred to as the pseudo base address.
 
- The driver can then use the pseudo base address to access device registers with READ_REGISTER_<i>Xxx</i> and WRITE_REGISTER_<i>Xxx</i> functions. For  an example, see <a href="https://msdn.microsoft.com/A0640E60-B0DF-4CAD-B292-CC1875EF7F7D">Reading and Writing to Device Registers in UMDF 1.x Drivers</a>.
+ The driver can then use the pseudo base address to access device registers with READ_REGISTER_<i>Xxx</i> and WRITE_REGISTER_<i>Xxx</i> functions. For  an example, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/reading-and-writing-to-device-registers-in-umdf-1-x-drivers">Reading and Writing to Device Registers in UMDF 1.x Drivers</a>.
 
 A driver that calls <b>MapIoSpace</b> must set the <b>UmdfDirectHardwareAccess</b> INF directive to <b>AllowDirectHardwareAccess</b>.
 
- If the driver sets the <b>UmdfRegisterAccessMode</b> INF directive to <b>RegisterAccessUsingUserModeMapping</b>, calling <b>MapIoSpace</b> also maps the given physical address range to a user-mode base address range that the driver can subsequently access by calling <a href="https://msdn.microsoft.com/library/windows/hardware/hh451219">GetHardwareRegisterMappedAddress</a>.
+ If the driver sets the <b>UmdfRegisterAccessMode</b> INF directive to <b>RegisterAccessUsingUserModeMapping</b>, calling <b>MapIoSpace</b> also maps the given physical address range to a user-mode base address range that the driver can subsequently access by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfdevice3-gethardwareregistermappedaddress">GetHardwareRegisterMappedAddress</a>.
 
  For more information about  INF directives that UMDF drivers can use, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/specifying-wdf-directives-in-inf-files">Specifying WDF Directives in INF Files</a>.
 
@@ -105,7 +105,7 @@ The PHYSICAL_ADDRESS type is defined in Wudfwdm.h, as follows:<pre class="syntax
 
 #### Examples
 
-In the following code example, a UMDF driver uses its <a href="https://msdn.microsoft.com/830D706A-016C-4637-829F-2014AD1A1309">IPnpCallbackHardware2::OnPrepareHardware</a> callback function to examine its memory-mapped register resources and map them into user-mode address space. The example then implements  a <b>WriteToDevice</b> method that accesses the memory locations. The driver then calls <a href="https://msdn.microsoft.com/library/windows/hardware/hh451237">UnmapIoSpace</a> from its <a href="https://msdn.microsoft.com/652B92C2-EF04-482A-BB57-9F64F947EE4F">IPnpCallbackHardware2::OnReleaseHardware</a> callback. The driver’s INF file must enable UMDF hardware access feature by setting the <b>UmdfDirectHardwareAccess</b> directive to <b>AllowDirectHardwareAccess</b>.
+In the following code example, a UMDF driver uses its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-ipnpcallbackhardware2-onpreparehardware">IPnpCallbackHardware2::OnPrepareHardware</a> callback function to examine its memory-mapped register resources and map them into user-mode address space. The example then implements  a <b>WriteToDevice</b> method that accesses the memory locations. The driver then calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfdevice3-unmapiospace">UnmapIoSpace</a> from its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-ipnpcallbackhardware2-onreleasehardware">IPnpCallbackHardware2::OnReleaseHardware</a> callback. The driver’s INF file must enable UMDF hardware access feature by setting the <b>UmdfDirectHardwareAccess</b> directive to <b>AllowDirectHardwareAccess</b>.
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -216,7 +216,7 @@ CMyDevice::OnReleaseHardware(
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451197">IWDFDevice3</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nn-wudfddi-iwdfdevice3">IWDFDevice3</a>
  
 
  

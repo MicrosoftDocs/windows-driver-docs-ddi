@@ -60,7 +60,7 @@ req.typenames:
 ### -param NdisAfHandle [in]
 
 Specifies the NDIS-supplied handle returned by 
-     <a href="https://msdn.microsoft.com/54170917-60b4-4d8f-bf92-df7d7dc0faee">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisclopenaddressfamilyex">
      NdisClOpenAddressFamilyEx</a>.
 
 
@@ -72,7 +72,7 @@ When
       <b>
       NdisClCloseAddressFamily</b> returns anything other than NDIS_STATUS_PENDING, the client should make
       an internal call to its 
-      <a href="https://msdn.microsoft.com/7597e124-34e4-4326-98b3-c65dbe90ae6f">
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cl_close_af_complete">
       ProtocolClCloseAfComplete</a> function. Otherwise, NDIS calls the client's 
       <i>
       ProtocolClCloseAfComplete</i> function when this operation is completed.
@@ -80,12 +80,12 @@ When
 If 
       <b>
       NdisClCloseAddressFamily</b> returns NDIS_STATUS_PENDING, a client that is waiting for its 
-      <a href="https://msdn.microsoft.com/7597e124-34e4-4326-98b3-c65dbe90ae6f">
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cl_close_af_complete">
       ProtocolClCloseAfComplete</a> function to be called should not block the current thread since this
       could cause a deadlock. This is particularly important when a client calls 
       <b>NdisClCloseAddressFamily</b> in the
       context of handling an 
-      <a href="https://msdn.microsoft.com/1967f663-86ce-4e9d-9498-61951bdf4db0">
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndiscmnotifycloseaddressfamily">
       NdisCmNotifyCloseAddressFamily</a> request. In this case, the call manager may not close the address
       family until after the client has returned from handling the 
       <b>NdisCmNotifyCloseAddressFamily</b> request. If the client blocks the
@@ -101,24 +101,24 @@ If
 
 A client commonly calls 
     <b>NdisClCloseAddressFamily</b> from its    
-    <a href="https://msdn.microsoft.com/19fa7be2-acb9-42f6-bd9f-5be3e3c8b5fa">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_unbind_adapter_ex">
     ProtocolUnbindAdapterEx</a> function, after it closes all the client's open VCs on the binding with
     calls to 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561627">NdisClCloseCall</a> and/or 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561628">NdisClDeregisterSap</a>. A client can
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisclclosecall">NdisClCloseCall</a> and/or 
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisclderegistersap">NdisClDeregisterSap</a>. A client can
     also call 
     <b>NdisClCloseAddressFamily</b> in the
     context of processing an 
-    <a href="https://msdn.microsoft.com/1967f663-86ce-4e9d-9498-61951bdf4db0">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndiscmnotifycloseaddressfamily">
     NdisCmNotifyCloseAddressFamily</a> request.
 
 NDIS calls a client's 
-    <a href="https://msdn.microsoft.com/19fa7be2-acb9-42f6-bd9f-5be3e3c8b5fa">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_unbind_adapter_ex">
     ProtocolUnbindAdapterEx</a> function whenever an underlying NIC to which that client is bound is being
     removed from the machine or is being reconfigured. A PnP reconfiguration of the underlying miniport
     driver causes the call manager or MCM driver to reregister the address family it supports over that NIC.
     This, in turn, causes a subsequent call to the client's 
-    <a href="https://msdn.microsoft.com/272d99da-ef08-4ebd-90e7-74e99410b3f5">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_co_af_register_notify">
     ProtocolCoAfRegisterNotify</a> function. In either scenario, the client's 
     <i>
     ProtocolUnbindAdapterEx</i> function must call 
@@ -129,9 +129,9 @@ NDIS calls a client's
 
 As a general guideline, a client should release all the resources it allocated for connection-oriented
     communications through the miniport driver before its 
-    <a href="https://msdn.microsoft.com/19fa7be2-acb9-42f6-bd9f-5be3e3c8b5fa">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_unbind_adapter_ex">
     ProtocolUnbindAdapterEx</a> function calls 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561640">NdisCloseAdapterEx</a>.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndiscloseadapterex">NdisCloseAdapterEx</a>.
 
 The 
     <i>NdisAfHandle</i> passed to 
@@ -142,11 +142,11 @@ Before a call to
     <b>NdisClCloseAddressFamily</b>, the
     client may use the 
     <i>NdisAfHandle</i> while the AF is open or while a 
-    <a href="https://msdn.microsoft.com/0f595daa-9822-4ca6-8f25-e6f82030d4ea">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cl_notify_close_af">
     ProtocolClNotifyCloseAf</a> operation is pending. If the 
     <i>
     ProtocolClNotifyCloseAf</i> function returns NDIS_STATUS_PENDING, use the handle in the 
-    <a href="https://msdn.microsoft.com/5d2bbf08-ea5c-4dad-8c30-9a655d25222a">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisclnotifycloseaddressfamilycomplete">
     NdisClNotifyCloseAddressFamilyComplete</a> call after the close operation completes.
 
 
@@ -157,31 +157,31 @@ Before a call to
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561627">NdisClCloseCall</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisclclosecall">NdisClCloseCall</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561628">NdisClDeregisterSap</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisclderegistersap">NdisClDeregisterSap</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561639">NdisClOpenAddressFamilyEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisclopenaddressfamilyex">NdisClOpenAddressFamilyEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/7597e124-34e4-4326-98b3-c65dbe90ae6f">ProtocolClCloseAfComplete</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cl_close_af_complete">ProtocolClCloseAfComplete</a>
 
 
 
-<a href="https://msdn.microsoft.com/a7a02813-62e4-49c5-abb6-a90f4e092b9f">ProtocolCmCloseAf</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cm_close_af">ProtocolCmCloseAf</a>
 
 
 
-<a href="https://msdn.microsoft.com/272d99da-ef08-4ebd-90e7-74e99410b3f5">ProtocolCoAfRegisterNotify</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_co_af_register_notify">ProtocolCoAfRegisterNotify</a>
 
 
 
-<a href="https://msdn.microsoft.com/19fa7be2-acb9-42f6-bd9f-5be3e3c8b5fa">ProtocolUnbindAdapterEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_unbind_adapter_ex">ProtocolUnbindAdapterEx</a>
  
 
  

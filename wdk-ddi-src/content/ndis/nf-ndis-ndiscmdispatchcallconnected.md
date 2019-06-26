@@ -60,8 +60,8 @@ req.typenames:
 ### -param NdisVcHandle [in]
 
 Specifies the handle to the VC that represents the connection, which was created with 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff561696">NdisCoCreateVc</a> when the call manager's 
-     <a href="https://msdn.microsoft.com/1755804c-d82f-465d-862f-8a2340516f8e">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndiscocreatevc">NdisCoCreateVc</a> when the call manager's 
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_co_receive_net_buffer_lists">
      ProtocolCoReceiveNetBufferLists</a> function was notified of the incoming call.
 
 
@@ -79,14 +79,14 @@ None
 
 
 A stand-alone CM's 
-    <a href="https://msdn.microsoft.com/353e929b-17c8-47e8-82fd-b646e93a5b9a">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cm_incoming_call_complete">
     ProtocolCmIncomingCallComplete</a> function calls 
     <b>NdisCmDispatchCallConnected</b> to complete the final handshake for an incoming call from a remote
     node, which the client has already accepted.
 
 A call to 
     <b>NdisCmDispatchCallConnected</b> causes NDIS to call the client's 
-    <a href="https://msdn.microsoft.com/675b2066-6a65-47cf-bde7-3c843f97c960">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cl_call_connected">
     ProtocolClCallConnected</a> function.
 
 Only stand-alone call managers, which register themselves with NDIS as protocol drivers, can call 
@@ -102,24 +102,24 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561664">NdisCmDispatchIncomingCall</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndiscmdispatchincomingcall">NdisCmDispatchIncomingCall</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562826">NdisMCmDispatchCallConnected</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismcmdispatchcallconnected">NdisMCmDispatchCallConnected</a>
 
 
 
-<a href="https://msdn.microsoft.com/675b2066-6a65-47cf-bde7-3c843f97c960">ProtocolClCallConnected</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cl_call_connected">ProtocolClCallConnected</a>
 
 
 
-<a href="https://msdn.microsoft.com/353e929b-17c8-47e8-82fd-b646e93a5b9a">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cm_incoming_call_complete">
    ProtocolCmIncomingCallComplete</a>
 
 
 
-<a href="https://msdn.microsoft.com/1755804c-d82f-465d-862f-8a2340516f8e">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_co_receive_net_buffer_lists">
    ProtocolCoReceiveNetBufferLists</a>
  
 

@@ -66,7 +66,7 @@ A handle to a framework device object.
 
 ### -param DeviceProperty [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn265632">WDF_DEVICE_PROPERTY_DATA</a> structure that identifies the device property to be retrieved.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/ns-wdfdevice-_wdf_device_property_data">WDF_DEVICE_PROPERTY_DATA</a> structure that identifies the device property to be retrieved.
 
 
 ### -param BufferLength [in]
@@ -127,7 +127,7 @@ The specified <i>DeviceProperty</i> value is invalid.
 </table>
  
 
-The method might return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
+The method might return other <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS values</a>.
 
 A bug check occurs if the driver supplies an invalid object handle.
 
@@ -138,13 +138,13 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
-You can use <b>WdfDeviceQueryPropertyEx</b> to retrieve any property that is exposed through the unified property model, whereas the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546820">WdfDeviceQueryProperty</a> method only allows querying a subset of the unified property model.
+You can use <b>WdfDeviceQueryPropertyEx</b> to retrieve any property that is exposed through the unified property model, whereas the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nf-wdfdevice-wdfdevicequeryproperty">WdfDeviceQueryProperty</a> method only allows querying a subset of the unified property model.
 
 Before receiving device property data, drivers typically call the <b>WdfDeviceQueryPropertyEx</b> method just to obtain the required buffer size. For some properties, the data size can change between when the required size is returned and when the driver calls <b>WdfDeviceQueryPropertyEx</b> again. Therefore, drivers should call <b>WdfDeviceQueryPropertyEx</b> inside a loop that executes until the return status is not STATUS_BUFFER_TOO_SMALL. 
 
-It is best to use <b>WdfDeviceQueryPropertyEx</b> only if the required buffer size is known and unchanging, because in that case the driver has to call <b>WdfDeviceQueryPropertyEx</b> only once. If the required buffer size is unknown or varies, the driver should call <a href="https://msdn.microsoft.com/library/windows/hardware/dn265599">WdfDeviceAllocAndQueryPropertyEx</a>. 
+It is best to use <b>WdfDeviceQueryPropertyEx</b> only if the required buffer size is known and unchanging, because in that case the driver has to call <b>WdfDeviceQueryPropertyEx</b> only once. If the required buffer size is unknown or varies, the driver should call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nf-wdfdevice-wdfdeviceallocandquerypropertyex">WdfDeviceAllocAndQueryPropertyEx</a>. 
 
-For information about related methods, see <a href="https://msdn.microsoft.com/C81988F9-E0DA-439F-B770-DAD86E33D5F3">Accessing the Unified Device Property Model</a>.
+For information about related methods, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/accessing-the-unified-device-property-model">Accessing the Unified Device Property Model</a>.
 
 
 
@@ -154,11 +154,11 @@ For information about related methods, see <a href="https://msdn.microsoft.com/C
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265607">WdfDeviceQueryInterfaceProperty</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nf-wdfdevice-wdfdevicequeryinterfaceproperty">WdfDeviceQueryInterfaceProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546820">WdfDeviceQueryProperty</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nf-wdfdevice-wdfdevicequeryproperty">WdfDeviceQueryProperty</a>
  
 
  

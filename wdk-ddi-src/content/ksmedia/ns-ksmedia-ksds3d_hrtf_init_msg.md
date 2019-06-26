@@ -96,7 +96,7 @@ Specifies the total number of samples over which to mute and cross-fade the filt
 
 ### -field OutputOverlapBufferLength
 
-Specifies the number of samples over which to cross-fade the output channels after a transition across azimuth angle zero. This member is used when cross-fading of the output channels is enabled by the <b>CrossFadeOutput</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff537108">KSDS3D_HRTF_PARAMS_MSG</a>.
+Specifies the number of samples over which to cross-fade the output channels after a transition across azimuth angle zero. This member is used when cross-fading of the output channels is enabled by the <b>CrossFadeOutput</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-ksds3d_hrtf_params_msg">KSDS3D_HRTF_PARAMS_MSG</a>.
 
 
 ### -field Reserved
@@ -108,11 +108,11 @@ Reserved. Set to zero.
 
 
 
-This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537355">KSPROPERTY_HRTF3D_INITIALIZE</a> property.
+This structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-hrtf3d-initialize">KSPROPERTY_HRTF3D_INITIALIZE</a> property.
 
 The <b>Quality</b> values FULL_FILTER and LIGHT_FILTER correspond to the GUID_DS3DALG_HRTF_FULL and GUID_DS3DALG_HRTF_LIGHT settings that are described in the Microsoft Windows SDK documentation.
 
-For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff537482">KSPROPSETID_Hrtf3d</a>.
+For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/kspropsetid-hrtf3d">KSPROPSETID_Hrtf3d</a>.
 
 
 
@@ -122,15 +122,15 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537108">KSDS3D_HRTF_PARAMS_MSG</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-ksds3d_hrtf_params_msg">KSDS3D_HRTF_PARAMS_MSG</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537355">KSPROPERTY_HRTF3D_INITIALIZE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-hrtf3d-initialize">KSPROPERTY_HRTF3D_INITIALIZE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537482">KSPROPSETID_Hrtf3d</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/kspropsetid-hrtf3d">KSPROPSETID_Hrtf3d</a>
  
 
  

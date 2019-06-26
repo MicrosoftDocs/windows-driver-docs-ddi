@@ -84,7 +84,7 @@ If logging an event requires additional computing, the <b>EtwEventEnabled</b>
      logging is disabled.
 
 If the event descriptor is not available, use the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff545595">EtwProviderEnabled</a> function instead.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-etwproviderenabled">EtwProviderEnabled</a> function instead.
 
 
 
@@ -94,7 +94,7 @@ If the event descriptor is not available, use the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545595">EtwProviderEnabled</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-etwproviderenabled">EtwProviderEnabled</a>
  
 
  

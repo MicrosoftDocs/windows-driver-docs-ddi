@@ -46,9 +46,9 @@ req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ## -description
 
 
-The <code>IPortTopology</code> interface provides generic port driver support to a topology miniport driver. The PortCls system driver implements this interface and exposes it to the adapter driver that implements the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536712">IMiniportTopology</a> object. An adapter driver creates an <code>IPortTopology</code> object by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff537715">PcNewPort</a> and specifying REFIID <b>IID_IPortTopology</b>. <code>IPortTopology</code> inherits from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536842">IPort</a> interface.
+The <code>IPortTopology</code> interface provides generic port driver support to a topology miniport driver. The PortCls system driver implements this interface and exposes it to the adapter driver that implements the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iminiporttopology">IMiniportTopology</a> object. An adapter driver creates an <code>IPortTopology</code> object by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-pcnewport">PcNewPort</a> and specifying REFIID <b>IID_IPortTopology</b>. <code>IPortTopology</code> inherits from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iport">IPort</a> interface.
 
-An adapter driver forms a miniport/port driver pair by binding an <b>IMiniportTopology</b> object to an <code>IPortTopology</code> object. The PortCls system driver registers this pair with the system as a <a href="https://msdn.microsoft.com/1b3d35e9-5858-407c-9cd0-06307d82ce58">topology filter</a>.
+An adapter driver forms a miniport/port driver pair by binding an <b>IMiniportTopology</b> object to an <code>IPortTopology</code> object. The PortCls system driver registers this pair with the system as a <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/topology-filters">topology filter</a>.
 
 The <code>IPortTopology</code> interface supports only the methods that it inherits from the <b>IPort</b> interface.
 

@@ -52,7 +52,7 @@ The <b>D3DKMTCreateKeyedMutex</b> function creates a keyed mutex object.
 
 *pData* [in, out]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547834">D3DKMT_CREATEKEYEDMUTEX</a> structure that describes a keyed mutex object to create. 
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_createkeyedmutex">D3DKMT_CREATEKEYEDMUTEX</a> structure that describes a keyed mutex object to create. 
 
 ## -returns
 
@@ -63,11 +63,11 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 | **STATUS_SUCCESS** | The keyed mutex object was successfully created. | 
 | **STATUS_DEVICE_REMOVED** | The graphics adapter was stopped or the display device was reset. | 
 | **STATUS_INVALID_PARAMETER** | Parameters were validated and determined to be incorrect. | 
-| **STATUS_NO_MEMORY** | [D3DKMTCreateKeyedMutex](https://msdn.microsoft.com/library/windows/hardware/ff546845)  could not complete because of insufficient memory. |  
+| **STATUS_NO_MEMORY** | [D3DKMTCreateKeyedMutex](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/nf-d3dkmthk-d3dkmtcreatekeyedmutex)  could not complete because of insufficient memory. |  
 
 This function might also return other <b>NTSTATUS</b> values.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547834">D3DKMT_CREATEKEYEDMUTEX</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_createkeyedmutex">D3DKMT_CREATEKEYEDMUTEX</a>
  

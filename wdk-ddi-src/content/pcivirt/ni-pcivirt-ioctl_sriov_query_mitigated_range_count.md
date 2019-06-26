@@ -46,7 +46,7 @@ req.typenames: SRIOV_PF_EVENT, *PSRIOV_PF_EVENT
 ##  Major Code:
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548649">IRP_MJ_DEVICE_CONTROL</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-device-control">IRP_MJ_DEVICE_CONTROL</a>
 
 ## -description
 
@@ -61,22 +61,22 @@ req.typenames: SRIOV_PF_EVENT, *PSRIOV_PF_EVENT
 
 ### -input-buffer
 
-A pointer to a <a href="https://msdn.microsoft.com/7de35a35-2b90-421d-bbde-4c5cb760070a">SRIOV_MITIGATED_RANGE_COUNT_INPUT</a> structure. Set the <b>VfIndex</b> member to 0.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pcivirt/ns-pcivirt-_sriov_mitigated_range_count_input">SRIOV_MITIGATED_RANGE_COUNT_INPUT</a> structure. Set the <b>VfIndex</b> member to 0.
 
 
 ### -input-buffer-length
 
-The size of the <a href="https://msdn.microsoft.com/7de35a35-2b90-421d-bbde-4c5cb760070a">SRIOV_MITIGATED_RANGE_COUNT_INPUT</a> structure.
+The size of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pcivirt/ns-pcivirt-_sriov_mitigated_range_count_input">SRIOV_MITIGATED_RANGE_COUNT_INPUT</a> structure.
 
 
 ### -output-buffer
 
-A pointer to a <a href="https://msdn.microsoft.com/b89c0758-beed-4c29-b966-78cb319258b1">SRIOV_MITIGATED_RANGE_COUNT_OUTPUT</a> structure that is filled by the physical function (PF) driver with  ranges of memory-mapped I/O space.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pcivirt/ns-pcivirt-_sriov_mitigated_range_count_output">SRIOV_MITIGATED_RANGE_COUNT_OUTPUT</a> structure that is filled by the physical function (PF) driver with  ranges of memory-mapped I/O space.
 
 
 ### -output-buffer-length
 
-The size of the <a href="https://msdn.microsoft.com/b89c0758-beed-4c29-b966-78cb319258b1">SRIOV_MITIGATED_RANGE_COUNT_OUTPUT</a> structure.
+The size of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pcivirt/ns-pcivirt-_sriov_mitigated_range_count_output">SRIOV_MITIGATED_RANGE_COUNT_OUTPUT</a> structure.
 
 
 ### -in-out-buffer
@@ -101,7 +101,7 @@ The size of the <a href="https://msdn.microsoft.com/b89c0758-beed-4c29-b966-78cb
 
 TBD
 
-<b>Irp->IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> code.
+<b>Irp->IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> code.
 
 
 ## -remarks

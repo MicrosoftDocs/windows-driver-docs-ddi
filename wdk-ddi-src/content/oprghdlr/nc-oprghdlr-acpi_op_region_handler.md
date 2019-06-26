@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-An ACPI_OP_REGION_HANDLER-typed routine is supplied by an ACPI device function driver to provide access by the <a href="https://msdn.microsoft.com/38ca54e0-defe-48b2-ab00-a5f688c2eb01">ACPI driver</a> to the device's operation region.
+An ACPI_OP_REGION_HANDLER-typed routine is supplied by an ACPI device function driver to provide access by the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/acpi-driver">ACPI driver</a> to the device's operation region.
 
 
 ## -parameters
@@ -89,7 +89,7 @@ Read from the operation region memory buffer.
 
 ### -param OperationRegionObject
 
-Specifies the operation region object returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff536158">RegisterOpRegionHandler</a> for the operation region handler.
+Specifies the operation region object returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/oprghdlr/nf-oprghdlr-registeropregionhandler">RegisterOpRegionHandler</a> for the operation region handler.
 
 
 ### -param Address
@@ -178,7 +178,7 @@ An internal error occurred.
 
 When the ACPI driver calls an operation region handler, it specifies values for <i>Address</i> and <i>Size</i> that ensure that the access is within the operation region that is defined in the ACPI BIOS for the ACPI device. The ACPI device function driver must ensure that the operation region memory buffer it allocates is at least as large, in bytes, as the operation region defined for the ACPI device.
 
-For more information about operation region handlers, see <a href="https://msdn.microsoft.com/windows/hardware/drivers/acpi/supporting-an-operation-region">Supporting an Operation Region</a>.
+For more information about operation region handlers, see <a href="https://docs.microsoft.com/windows-hardware/drivers/acpi/supporting-an-operation-region">Supporting an Operation Region</a>.
 
 An ACPI_OP_REGION_HANDLER-typed routine runs at the caller's IRQL.
 
@@ -192,11 +192,11 @@ For detailed information about constraints on operation regions, see the <a href
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536135">DeRegisterOpRegionHandler</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/oprghdlr/nf-oprghdlr-deregisteropregionhandler">DeRegisterOpRegionHandler</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536158">RegisterOpRegionHandler</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/oprghdlr/nf-oprghdlr-registeropregionhandler">RegisterOpRegionHandler</a>
  
 
  

@@ -56,12 +56,12 @@ An AVStream minidriver's <i>AVStrMiniFrameReturn</i> routine is called when an i
 
 ### -param Pin [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563483">KSPIN</a> structure representing the pin on which the frame was injected.
+Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_kspin">KSPIN</a> structure representing the pin on which the frame was injected.
 
 
 ### -param Data [in, optional]
 
-Pointer to the buffer originally specified in the call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff563529">KsPinSubmitFrame</a>.
+Pointer to the buffer originally specified in the call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-kspinsubmitframe">KsPinSubmitFrame</a>.
 
 
 ### -param OPTIONAL
@@ -69,7 +69,7 @@ Pointer to the buffer originally specified in the call to <a href="https://msdn.
 
 ### -param Mdl [in, optional]
 
-Pointer to a memory descriptor list describing the injected frame as in the call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff563530">KsPinSubmitFrameMdl</a><b>.</b>
+Pointer to a memory descriptor list describing the injected frame as in the call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-kspinsubmitframemdl">KsPinSubmitFrameMdl</a><b>.</b>
 
 
 ### -param Context [in, optional]
@@ -84,7 +84,7 @@ Contains a copy of <i>Irp->IoStatus.Status</i> for the IRP to which the requeste
 
 #### - Size [in, optional]
 
-Specifies the size in bytes of <i>Data</i> as originally specified in <a href="https://msdn.microsoft.com/library/windows/hardware/ff563529">KsPinSubmitFrame</a>.
+Specifies the size in bytes of <i>Data</i> as originally specified in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-kspinsubmitframe">KsPinSubmitFrame</a>.
 
 
 ## -returns
@@ -100,7 +100,7 @@ None
 
 
 
-The minidriver specifies this routine's address in the <i>FrameReturn</i> parameter of a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff563522">KsPinRegisterFrameReturnCallback</a>.
+The minidriver specifies this routine's address in the <i>FrameReturn</i> parameter of a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-kspinregisterframereturncallback">KsPinRegisterFrameReturnCallback</a>.
 
 
 
@@ -110,11 +110,11 @@ The minidriver specifies this routine's address in the <i>FrameReturn</i> parame
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563522">KsPinRegisterFrameReturnCallback</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-kspinregisterframereturncallback">KsPinRegisterFrameReturnCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563530">KsPinSubmitFrameMdl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-kspinsubmitframemdl">KsPinSubmitFrameMdl</a>
  
 
  

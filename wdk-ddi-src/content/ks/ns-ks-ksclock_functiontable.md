@@ -56,29 +56,29 @@ The KSCLOCK_FUNCTIONTABLE structure describes a function table for the master cl
 
 ### -field GetTime
 
-Pointer to a driver-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff567161">KStrClockGetTime</a> routine.
+Pointer to a driver-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nc-ks-pfnksclock_gettime">KStrClockGetTime</a> routine.
 
 
 ### -field GetPhysicalTime
 
-Pointer to a driver-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff567160">KStrClockGetPhysicalTime</a> routine.
+Pointer to a driver-allocated <a href="https://docs.microsoft.com/previous-versions/ff567160(v=vs.85)">KStrClockGetPhysicalTime</a> routine.
 
 
 ### -field GetCorrelatedTime
 
-Pointer to a driver-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff567159">KStrClockGetCorrelatedTime</a> routine.
+Pointer to a driver-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nc-ks-pfnksclock_correlatedtime">KStrClockGetCorrelatedTime</a> routine.
 
 
 ### -field GetCorrelatedPhysicalTime
 
-Pointer to a driver-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff567157">KStrClockGetCorrelatedPhysicalTime</a> routine. 
+Pointer to a driver-allocated <a href="https://docs.microsoft.com/previous-versions/ff567157(v=vs.85)">KStrClockGetCorrelatedPhysicalTime</a> routine. 
 
 
 ## -remarks
 
 
 
-Supply this structure in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564466">KSPROPERTY_CLOCK_FUNCTIONTABLE</a> request. The property request then returns pointers to the requested routines.
+Supply this structure in a <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-clock-functiontable">KSPROPERTY_CLOCK_FUNCTIONTABLE</a> request. The property request then returns pointers to the requested routines.
 
 The function pointers returned in this structure are valid until the clock's file object is released.
 
@@ -90,7 +90,7 @@ The function pointers returned in this structure are valid until the clock's fil
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564466">KSPROPERTY_CLOCK_FUNCTIONTABLE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-clock-functiontable">KSPROPERTY_CLOCK_FUNCTIONTABLE</a>
  
 
  

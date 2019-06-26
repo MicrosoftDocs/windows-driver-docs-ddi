@@ -71,7 +71,7 @@ None
 
 To exit a guarded region entered with <b>KeEnterGuardedRegion</b>, call the <b>KeLeaveGuardedRegion</b> routine. Guarded regions can be nested. APCs are not reenabled until the thread exits the outermost guarded region.
 
-For more information about guarded regions, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff542925">Critical Regions and Guarded Regions</a>. 
+For more information about guarded regions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/critical-regions-and-guarded-regions">Critical Regions and Guarded Regions</a>. 
 
 
 
@@ -81,7 +81,7 @@ For more information about guarded regions, see <a href="https://msdn.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552967">KeLeaveGuardedRegion</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-keleaveguardedregion">KeLeaveGuardedRegion</a>
  
 
  

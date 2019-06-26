@@ -57,12 +57,12 @@ The<b> KsFilterCreatePinFactory</b> function creates a new pin factory on the sp
 
 ### -param Filter [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff562522">KSFILTER</a> structure for which to create a new pin factory.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksfilter">KSFILTER</a> structure for which to create a new pin factory.
 
 
 ### -param PinDescriptor [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563534">KSPIN_DESCRIPTOR_EX</a> structure that describes the pins this factory will create.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_kspin_descriptor_ex">KSPIN_DESCRIPTOR_EX</a> structure that describes the pins this factory will create.
 
 
 ### -param PinID [out]
@@ -83,7 +83,7 @@ A pointer to the location containing the ID of the new factory.
 
 
 
-Note that the filter control mutex must be held before calling this function. For more information, see <a href="https://msdn.microsoft.com/011edaaa-7449-41c3-8cfb-0d319901af8b">Mutexes in AVStream</a>. 
+Note that the filter control mutex must be held before calling this function. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/mutexes-in-avstream">Mutexes in AVStream</a>. 
 
 
 
@@ -93,7 +93,7 @@ Note that the filter control mutex must be held before calling this function. Fo
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562528">KsFilterCreateNode</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksfiltercreatenode">KsFilterCreateNode</a>
  
 
  

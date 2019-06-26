@@ -56,7 +56,7 @@ The SM_AddLink_OUT structure is used to receive output parameters from the SM_Ad
 
 ### -field HBAStatus
 
-A value associated with the WMI class qualifier <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a> that indicates the result of an HBA query operation.
+A value associated with the WMI class qualifier <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/hba-status">HBA_STATUS</a> that indicates the result of an HBA query operation.
 
 
 ## -remarks

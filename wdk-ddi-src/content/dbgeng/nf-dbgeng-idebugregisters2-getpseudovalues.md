@@ -81,7 +81,7 @@ DEBUG_REGSRC_EXPLICIT
 
 </td>
 <td>
-Fetch register information from the current explicit <a href="https://msdn.microsoft.com/3690903c-4281-4c65-98b0-00ca22206168">register context</a>.
+Fetch register information from the current explicit <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/changing-contexts">register context</a>.
 
 </td>
 </tr>
@@ -118,14 +118,14 @@ Specifies the index of the first pseudo-register whose value will be returned.  
 
 ### -param Values [out]
 
-Receives the values of the specified pseudo-registers.  The number of elements that this array holds is <i>Count</i>.  See <a href="https://msdn.microsoft.com/library/windows/hardware/ff541719">DEBUG_VALUE</a> for a description of this parameter type.
+Receives the values of the specified pseudo-registers.  The number of elements that this array holds is <i>Count</i>.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/ns-dbgeng-_debug_value">DEBUG_VALUE</a> for a description of this parameter type.
 
 
 ## -returns
 
 
 
-This list does not contain all the errors that might occur.  For a list of possible errors, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff549771">HRESULT Values</a>.
+This list does not contain all the errors that might occur.  For a list of possible errors, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">HRESULT Values</a>.
 
 <table>
 <tr>
@@ -153,7 +153,7 @@ The method was successful.
 
 
 
-For an overview of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550825">IDebugRegisters</a> interface and other register-related methods, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554369">Registers</a>.
+For an overview of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugregisters">IDebugRegisters</a> interface and other register-related methods, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/registers">Registers</a>.
 
 
 
@@ -163,15 +163,15 @@ For an overview of the <a href="https://msdn.microsoft.com/library/windows/hardw
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541719">DEBUG_VALUE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/ns-dbgeng-_debug_value">DEBUG_VALUE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550835">IDebugRegisters2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugregisters2">IDebugRegisters2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556767">SetPseudoValues</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugregisters2-setpseudovalues">SetPseudoValues</a>
  
 
  

@@ -71,14 +71,14 @@ The <b>IsInEndPoint</b> method determines whether a USB pipe (endpoint) is an IN
 
 
 
-If the USB pipe is an IN pipe, a UMDF driver can call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559233">IWDFIoTarget::FormatRequestForRead</a> method to format a read request. The framework can then send the request to the USB pipe.
+If the USB pipe is an IN pipe, a UMDF driver can call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfiotarget-formatrequestforread">IWDFIoTarget::FormatRequestForRead</a> method to format a read request. The framework can then send the request to the USB pipe.
 
 <div class="alert"><b>Note</b>    The meaning of IN and OUT is opposite in WDF and USB.</div>
 <div> </div>
 
 #### Examples
 
-For a code example of how to use the <b>IsInEndPoint</b> method, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff560334">IWDFUsbInterface::GetNumEndPoints</a>.
+For a code example of how to use the <b>IsInEndPoint</b> method, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nf-wudfusb-iwdfusbinterface-getnumendpoints">IWDFUsbInterface::GetNumEndPoints</a>.
 
 <div class="code"></div>
 
@@ -89,11 +89,11 @@ For a code example of how to use the <b>IsInEndPoint</b> method, see <a href="ht
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559233">IWDFIoTarget::FormatRequestForRead</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfiotarget-formatrequestforread">IWDFIoTarget::FormatRequestForRead</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560391">IWDFUsbTargetPipe</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nn-wudfusb-iwdfusbtargetpipe">IWDFUsbTargetPipe</a>
  
 
  

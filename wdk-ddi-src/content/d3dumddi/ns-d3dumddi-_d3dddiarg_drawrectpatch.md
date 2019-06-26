@@ -63,7 +63,7 @@ The D3DDDIARG_DRAWRECTPATCH structure describes a rectangular patch to draw.
 
 
 
-The <b>Handle</b> member refers to the patch surface, so that the next time the patch surface is drawn, the Microsoft Direct3D runtime is not required to re-specify the D3DRECTPATCH_INFO data structure for the patch surface. The user-mode display driver can precompute and cache forward-difference coefficients and any other information, which allows subsequent calls to the driver's <a href="https://msdn.microsoft.com/c0e3046c-f2af-4406-ac5a-c3e44f40b1fd">DrawRectPatch</a> function that use the same handle to run more efficiently.
+The <b>Handle</b> member refers to the patch surface, so that the next time the patch surface is drawn, the Microsoft Direct3D runtime is not required to re-specify the D3DRECTPATCH_INFO data structure for the patch surface. The user-mode display driver can precompute and cache forward-difference coefficients and any other information, which allows subsequent calls to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_drawrectpatch">DrawRectPatch</a> function that use the same handle to run more efficiently.
 
 
 
@@ -73,7 +73,7 @@ The <b>Handle</b> member refers to the patch surface, so that the next time the 
 
 
 
-<a href="https://msdn.microsoft.com/c0e3046c-f2af-4406-ac5a-c3e44f40b1fd">DrawRectPatch</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_drawrectpatch">DrawRectPatch</a>
  
 
  

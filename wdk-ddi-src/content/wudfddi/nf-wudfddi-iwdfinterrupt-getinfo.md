@@ -65,7 +65,7 @@ The <b>GetInfo</b> method retrieves information about a specified interrupt.
 
 #### - Info
 
-A pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/hh464020">WDF_INTERRUPT_INFO</a> structure that the driver has previously initialized by calling <a href="https://msdn.microsoft.com/library/windows/hardware/hh464024">WDF_INTERRUPT_INFO_INIT</a>.
+A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfinterrupt/ns-wudfinterrupt-_wdf_interrupt_info">WDF_INTERRUPT_INFO</a> structure that the driver has previously initialized by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfinterrupt/nf-wudfinterrupt-wdf_interrupt_info_init">WDF_INTERRUPT_INFO_INIT</a>.
 
 
 ## -returns
@@ -81,11 +81,11 @@ This method does not return a value.
 
 
 
-The <b>GetInfo</b> method can obtain interrupt information only if your driver calls it after the framework has called the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/hh439734">OnPrepareHardware</a> callback function and before the framework has called the driver's <a href="https://msdn.microsoft.com/library/windows/hardware/hh439739">OnReleaseHardware</a> callback function.
+The <b>GetInfo</b> method can obtain interrupt information only if your driver calls it after the framework has called the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-ipnpcallbackhardware2-onpreparehardware">OnPrepareHardware</a> callback function and before the framework has called the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-ipnpcallbackhardware2-onreleasehardware">OnReleaseHardware</a> callback function.
 
-For information about the order in which a driver's callback functions are called, see <a href="https://msdn.microsoft.com/ca36eee5-482c-4cfe-a515-be9d3743e241">PnP and Power Management Scenarios in UMDF</a>.
+For information about the order in which a driver's callback functions are called, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/pnp-and-power-management-scenarios-in-umdf">PnP and Power Management Scenarios in UMDF</a>.
 
-For more information about handling interrupts in UMDF drivers, see <a href="https://msdn.microsoft.com/25D526CF-7C37-4D10-B099-352933F92F98">Accessing Hardware and Handling Interrupts</a>.
+For more information about handling interrupts in UMDF drivers, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/accessing-hardware-and-handling-interrupts">Accessing Hardware and Handling Interrupts</a>.
 
 
 #### Examples
@@ -115,23 +115,23 @@ pInterrupt>GetInfo(&Info);
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451283">IWDFInterrupt</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nn-wudfddi-iwdfinterrupt">IWDFInterrupt</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439734">OnPrepareHardware</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-ipnpcallbackhardware2-onpreparehardware">OnPrepareHardware</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439739">OnReleaseHardware</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-ipnpcallbackhardware2-onreleasehardware">OnReleaseHardware</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh464020">WDF_INTERRUPT_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfinterrupt/ns-wudfinterrupt-_wdf_interrupt_info">WDF_INTERRUPT_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh464024">WDF_INTERRUPT_INFO_INIT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfinterrupt/nf-wudfinterrupt-wdf_interrupt_info_init">WDF_INTERRUPT_INFO_INIT</a>
  
 
  

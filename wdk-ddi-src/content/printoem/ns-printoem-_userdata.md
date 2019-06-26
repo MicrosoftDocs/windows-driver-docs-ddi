@@ -46,7 +46,7 @@ req.typenames: USERDATA, *PUSERDATA
 ## -description
 
 
-The USERDATA structure is used by <a href="https://msdn.microsoft.com/0a51fa2b-3d09-4a5f-9fff-40604877a414">Unidrv</a> and <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">Pscript</a> to specify additional information about printer features. A USERDATA structure pointer is supplied as the <b>UserData</b> member for each <a href="https://msdn.microsoft.com/library/windows/hardware/ff559656">OPTITEM</a> structure.
+The USERDATA structure is used by <a href="https://docs.microsoft.com/windows-hardware/drivers/">Unidrv</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/">Pscript</a> to specify additional information about printer features. A USERDATA structure pointer is supplied as the <b>UserData</b> member for each <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/compstui/ns-compstui-_optitem">OPTITEM</a> structure.
 
 
 ## -struct-fields

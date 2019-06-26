@@ -64,7 +64,7 @@ A handle to a framework device object.
 
 ### -param BusInformation [in]
 
-A pointer to a caller-allocated <a href="https://msdn.microsoft.com/library/windows/hardware/ff559608">PNP_BUS_INFORMATION</a> structure that describes the bus.
+A pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_pnp_bus_information">PNP_BUS_INFORMATION</a> structure that describes the bus.
 
 
 ## -returns
@@ -82,7 +82,7 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
-Child devices can obtain the information that <b>WdfDeviceSetBusInformationForChildren</b> supplies by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff547254">WdfFdoInitQueryProperty</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff546820">WdfDeviceQueryProperty</a>.
+Child devices can obtain the information that <b>WdfDeviceSetBusInformationForChildren</b> supplies by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdffdo/nf-wdffdo-wdffdoinitqueryproperty">WdfFdoInitQueryProperty</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nf-wdfdevice-wdfdevicequeryproperty">WdfDeviceQueryProperty</a>.
 
 
 #### Examples
@@ -116,7 +116,7 @@ WdfDeviceSetBusInformationForChildren(
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559608">PNP_BUS_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_pnp_bus_information">PNP_BUS_INFORMATION</a>
  
 
  

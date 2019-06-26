@@ -91,19 +91,19 @@ Size of the injection data.
 ### -field Time
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn925095">GNSS_AGNSS_INJECTTIME</a> contains the format for AGNSS time injection.
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/gnssdriver/ns-gnssdriver-gnss_agnss_injecttime">GNSS_AGNSS_INJECTTIME</a> contains the format for AGNSS time injection.
 
 
 ### -field Position
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn925094">GNSS_AGNSS_INJECTPOSITION</a> contains  the format for AGNSS position injection.
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/gnssdriver/ns-gnssdriver-gnss_agnss_injectposition">GNSS_AGNSS_INJECTPOSITION</a> contains  the format for AGNSS position injection.
 
 
 ### -field BlobData
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn925093">GNSS_AGNSS_INJECTBLOB</a>  contains the format for AGNSS extended ephemeris injection.
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/gnssdriver/ns-gnssdriver-gnss_agnss_injectblob">GNSS_AGNSS_INJECTBLOB</a>  contains the format for AGNSS extended ephemeris injection.
 
 
 #### - Unused[512]

@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <code>IPrintOemDriverUni::DrvGetGPDData</code> method is provided by the Unidrv driver so that rendering plug-ins can obtain data defined in a printer's <a href="https://msdn.microsoft.com/f67c673d-c6f0-49f0-850a-d8b00e99ddd4">GPD</a> file.
+The <code>IPrintOemDriverUni::DrvGetGPDData</code> method is provided by the Unidrv driver so that rendering plug-ins can obtain data defined in a printer's <a href="https://docs.microsoft.com/windows-hardware/drivers/">GPD</a> file.
 
 
 ## -parameters
@@ -56,7 +56,7 @@ The <code>IPrintOemDriverUni::DrvGetGPDData</code> method is provided by the Uni
 
 ### -param pdevobj
 
-Caller-supplied pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff547573">DEVOBJ</a> structure.
+Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/ns-printoem-_devobj">DEVOBJ</a> structure.
 
 
 ### -param dwType

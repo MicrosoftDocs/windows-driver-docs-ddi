@@ -58,14 +58,14 @@ The WSK_PROVIDER_BASIC_DISPATCH structure specifies the WSK subsystem's dispatch
 ### -field WskControlSocket
 
 A pointer to the WSK subsystem's 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571127">WskControlSocket</a> function for the
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_control_socket">WskControlSocket</a> function for the
      socket.
 
 
 ### -field WskCloseSocket
 
 A pointer to the WSK subsystem's 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571124">WskCloseSocket</a> function for the
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_close_socket">WskCloseSocket</a> function for the
      socket.
 
 
@@ -75,21 +75,21 @@ A pointer to the WSK subsystem's
 
 A WSK application receives a pointer to a WSK_PROVIDER_BASIC_DISPATCH structure when the WSK
     application calls the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff571149">WskSocket</a> function to create a basic socket. The
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_socket">WskSocket</a> function to create a basic socket. The
     pointer is contained in the 
     <b>Dispatch</b> member of the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff571182">WSK_SOCKET</a> structure that is received from the
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/ns-wsk-_wsk_socket">WSK_SOCKET</a> structure that is received from the
     WSK subsystem.
 
 The WSK_PROVIDER_BASIC_DISPATCH structure is also included in the 
-    <a href="https://msdn.microsoft.com/70a86809-07f2-4723-9e50-4dbdd31ff900">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/ns-wsk-_wsk_provider_connection_dispatch">
     WSK_PROVIDER_CONNECTION_DISPATCH</a>, 
-    <a href="https://msdn.microsoft.com/fa8d3395-b800-4e5c-af03-b21520f69158">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/ns-wsk-_wsk_provider_datagram_dispatch">
     WSK_PROVIDER_DATAGRAM_DISPATCH</a>, and 
-    <a href="https://msdn.microsoft.com/56df7cb9-9ae7-4249-9583-a9259e604238">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/ns-wsk-_wsk_provider_listen_dispatch">
     WSK_PROVIDER_LISTEN_DISPATCH</a> structures. The 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff571127">WskControlSocket</a> and 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff571124">WskCloseSocket</a> functions that are included
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_control_socket">WskControlSocket</a> and 
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_close_socket">WskCloseSocket</a> functions that are included
     in the WSK_PROVIDER_BASIC_DISPATCH structure are supported by all of the 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/winsock-kernel-socket-categories">socket categories</a>.
 
@@ -101,33 +101,33 @@ The WSK_PROVIDER_BASIC_DISPATCH structure is also included in the
 
 
 
-<a href="https://msdn.microsoft.com/70a86809-07f2-4723-9e50-4dbdd31ff900">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/ns-wsk-_wsk_provider_connection_dispatch">
    WSK_PROVIDER_CONNECTION_DISPATCH</a>
 
 
 
-<a href="https://msdn.microsoft.com/fa8d3395-b800-4e5c-af03-b21520f69158">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/ns-wsk-_wsk_provider_datagram_dispatch">
    WSK_PROVIDER_DATAGRAM_DISPATCH</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571176">WSK_PROVIDER_LISTEN_DISPATCH</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/ns-wsk-_wsk_provider_listen_dispatch">WSK_PROVIDER_LISTEN_DISPATCH</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571182">WSK_SOCKET</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/ns-wsk-_wsk_socket">WSK_SOCKET</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571124">WskCloseSocket</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_close_socket">WskCloseSocket</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571127">WskControlSocket</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_control_socket">WskControlSocket</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571149">WskSocket</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_socket">WskSocket</a>
  
 
  

@@ -59,7 +59,7 @@ The co-installer's <b>WdfPreDeviceInstall</b> function performs any operations t
 
 ### -param InfPath [in]
 
-A pointer to a null-terminated wide-character string that contains the directory path to the driver's INF file. The driver's installer can obtain this string by calling <a href="https://msdn.microsoft.com/1fbe6289-2ca8-4ca8-b004-ecf513f9b0bd">GetCurrentDirectory</a>, which is described in the Microsoft Windows SDK.
+A pointer to a null-terminated wide-character string that contains the directory path to the driver's INF file. The driver's installer can obtain this string by calling <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-getcurrentdirectory">GetCurrentDirectory</a>, which is described in the Microsoft Windows SDK.
 
 
 ### -param InfSectionName [in, optional]
@@ -80,13 +80,13 @@ A pointer to a null-terminated wide-character string that contains the <i>Wdf-in
 
 
 
-The installer for the framework-based drivers of a non-PnP device must call <b>WdfPreDeviceInstall</b> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff548839">WdfPreDeviceInstallEx</a> before the installer calls <a href="https://msdn.microsoft.com/47288924-3294-4a50-b27d-7df80d5c957c">CreateService</a>.
+The installer for the framework-based drivers of a non-PnP device must call <b>WdfPreDeviceInstall</b> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfinstaller/nf-wdfinstaller-wdfpredeviceinstallex">WdfPreDeviceInstallEx</a> before the installer calls <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-createservicea">CreateService</a>.
 
-To obtain the address of the co-installer's <b>WdfPreDeviceInstall</b> function, the installer must call <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a> after the installer has called <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a> to load the co-installer.
+To obtain the address of the co-installer's <b>WdfPreDeviceInstall</b> function, the installer must call <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a> after the installer has called <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a> to load the co-installer.
 
 If the co-installer determines that the computer must be restarted to complete the driver installation (typically because an older version of the framework was previously installed), <b>WdfPreDeviceInstall</b> informs the Plug and Play (PnP) manager. The PnP manager then prompts the user that a restart is necessary. 
 
-For more information about the <b>WdfPreDeviceInstall</b> function and installers for framework-based drivers of non-PnP devices, see <a href="https://msdn.microsoft.com/99676d85-feb2-482c-a91b-cfc48be5904c">Installing a Non-PnP Driver</a>. For more information about <a href="https://msdn.microsoft.com/47288924-3294-4a50-b27d-7df80d5c957c">CreateService</a>, <a href="https://msdn.microsoft.com/a0d7fc09-f888-4f46-a571-d3719a627597">GetProcAddress</a>, and <a href="https://msdn.microsoft.com/d936b4dd-058c-48e1-834b-b47ef6d8ef65">LoadLibrary</a>, see the Microsoft Windows SDK documentation.
+For more information about the <b>WdfPreDeviceInstall</b> function and installers for framework-based drivers of non-PnP devices, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/installing-a-non-pnp-driver">Installing a Non-PnP Driver</a>. For more information about <a href="https://docs.microsoft.com/windows/desktop/api/winsvc/nf-winsvc-createservicea">CreateService</a>, <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress">GetProcAddress</a>, and <a href="https://docs.microsoft.com/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya">LoadLibrary</a>, see the Microsoft Windows SDK documentation.
 
 
 #### Examples
@@ -102,7 +102,7 @@ For a code example that uses the <b>WdfPreDeviceInstall</b> function, see the in
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548829">WdfPostDeviceInstall</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfinstaller/nf-wdfinstaller-wdfpostdeviceinstall">WdfPostDeviceInstall</a>
  
 
  

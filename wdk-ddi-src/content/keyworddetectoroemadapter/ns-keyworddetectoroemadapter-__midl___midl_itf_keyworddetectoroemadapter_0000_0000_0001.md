@@ -46,7 +46,7 @@ req.typenames: SOUNDDETECTOR_PATTERNHEADER
 ## -description
 
 
-The <b>SOUNDDETECTOR_PATTERNHEADER</b> structure specifies the pattern header for the sound detector in the  <a href="https://msdn.microsoft.com/library/windows/hardware/dn932151">KSPROPERTY_SOUNDDETECTOR_PATTERNS</a> property.
+The <b>SOUNDDETECTOR_PATTERNHEADER</b> structure specifies the pattern header for the sound detector in the  <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-sounddetector-patterns">KSPROPERTY_SOUNDDETECTOR_PATTERNS</a> property.
 
 
 ## -struct-fields
@@ -69,7 +69,7 @@ The keyword pattern format, expressed as a GUID.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn932151">KSPROPERTY_SOUNDDETECTOR_PATTERNS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-sounddetector-patterns">KSPROPERTY_SOUNDDETECTOR_PATTERNS</a>
  
 
  

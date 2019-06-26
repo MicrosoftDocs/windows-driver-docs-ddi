@@ -46,7 +46,7 @@ req.typenames: SetFC3MgmtInfo_OUT, *PSetFC3MgmtInfo_OUT
 ## -description
 
 
-The SetFC3MgmtInfo_OUT structure is used to report the output parameter data of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565657">SetFC3MgmtInfo</a> WMI method to the WMI client.
+The SetFC3MgmtInfo_OUT structure is used to report the output parameter data of the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/setfc3mgmtinfo">SetFC3MgmtInfo</a> WMI method to the WMI client.
 
 
 ## -struct-fields
@@ -56,14 +56,14 @@ The SetFC3MgmtInfo_OUT structure is used to report the output parameter data of 
 
 ### -field HBAStatus
 
-Contains the status of the operation. For a list of allowed values and their descriptions, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>. 
+Contains the status of the operation. For a list of allowed values and their descriptions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/hba-status">HBA_STATUS</a>. 
 
 
 ## -remarks
 
 
 
-The WMI tool suite generates a declaration of the SetFC3MgmtInfo_OUT structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562506">MSFC_HBAAdapterMethods WMI Class</a>.
+The WMI tool suite generates a declaration of the SetFC3MgmtInfo_OUT structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msfc-hbaadaptermethods-wmi-class">MSFC_HBAAdapterMethods WMI Class</a>.
 
 
 
@@ -73,7 +73,7 @@ The WMI tool suite generates a declaration of the SetFC3MgmtInfo_OUT structure i
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565657">SetFC3MgmtInfo</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/setfc3mgmtinfo">SetFC3MgmtInfo</a>
  
 
  

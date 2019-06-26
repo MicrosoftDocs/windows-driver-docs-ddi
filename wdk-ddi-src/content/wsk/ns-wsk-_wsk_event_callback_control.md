@@ -71,7 +71,7 @@ A pointer to a
 A ULONG value that contains a bitwise OR of event flags for the event callback functions that are
      being enabled or disabled. For information about the event flags for the standard WSK event callback
      functions, see 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff570834">SO_WSK_EVENT_CALLBACK</a>.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/so-wsk-event-callback">SO_WSK_EVENT_CALLBACK</a>.
 
 
 ## -remarks
@@ -88,11 +88,11 @@ A WSK application can enable any combination of event callback functions for a s
 
 For more information about statically enabling certain event callback functions for all of the sockets
     that are created by a WSK application, see 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff571181">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wsk-set-static-event-callbacks">
     WSK_SET_STATIC_EVENT_CALLBACKS</a>.
 
 For more information about enabling and disabling a socket's event callback functions, see 
-    <a href="https://msdn.microsoft.com/library/windows/desktop/aa363707">Enabling and
+    <a href="https://docs.microsoft.com/windows/desktop/api/evntprov/nc-evntprov-penablecallback">Enabling and
     Disabling Event Callback Functions</a>.
 
 
@@ -103,20 +103,20 @@ For more information about enabling and disabling a socket's event callback func
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570834">SO_WSK_EVENT_CALLBACK</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/so-wsk-event-callback">SO_WSK_EVENT_CALLBACK</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571181">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/wsk-set-static-event-callbacks">
    WSK_SET_STATIC_EVENT_CALLBACKS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571126">WskControlClient</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_control_client">WskControlClient</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571127">WskControlSocket</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wsk/nc-wsk-pfn_wsk_control_socket">WskControlSocket</a>
  
 
  

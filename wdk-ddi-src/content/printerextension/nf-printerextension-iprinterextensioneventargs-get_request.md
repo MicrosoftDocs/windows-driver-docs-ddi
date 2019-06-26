@@ -47,7 +47,7 @@ req.typenames:
 ## -description
 
 
-Gets the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439517">IPrinterExtensionRequest</a> object for the current event.
+Gets the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprinterextensionrequest">IPrinterExtensionRequest</a> object for the current event.
 
 This interface is used to complete or cancel the event.
 
@@ -62,11 +62,11 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh973207">IPrinterExtensionEventArgs</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprinterextensioneventargs">IPrinterExtensionEventArgs</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439517">IPrinterExtensionRequest</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprinterextensionrequest">IPrinterExtensionRequest</a>
  
 
  

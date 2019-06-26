@@ -84,7 +84,7 @@ The PCCONNECTION_DESCRIPTOR structure name is an alias for KSTOPOLOGY_CONNECTION
 typedef KSTOPOLOGY_CONNECTION PCCONNECTION_DESCRIPTOR, *PPCCONNECTION_DESCRIPTOR;
 ```
 
-Note that for the parameter descriptions, the [PCFILTER_NODE](https://docs.microsoft.com/previous-versions//ff537695(v=vs.85)) is used with PCCONNECTION_DESCRIPTOR instead of KSFILTER_NODE.
+Note that for the parameter descriptions, the [PCFILTER_NODE](https://docs.microsoft.com/previous-versions/ff537695(v=vs.85)) is used with PCCONNECTION_DESCRIPTOR instead of KSFILTER_NODE.
 
 The [PCCONNECTION_DESCRIPTOR](https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff537688(v=vs.85)) structure specifies a single connection inside a filter. The connection can be one of the following:
 
@@ -106,7 +106,7 @@ A simple node with a single input and a single output typically numbers its inpu
 
 More complex nodes might require standardized pin IDs in order to allow clients to more easily determine the assignment of functions to specific pins. For example, the [KSNODETYPE_ACOUSTIC_ECHO_CANCEL](https://docs.microsoft.com/windows-hardware/drivers/audio/ksnodetype-acoustic-echo-cancel) node uses standardized IDs for its four pins.
 
-When the pin on one end of a connection is an input or output pin on the filter rather than a logical pin on a node, set the **FromNode** or **ToNode** member (depending on which end of the connection you are specifying) to the null node-ID value, [PCFILTER_NODE](https://docs.microsoft.com/previous-versions//ff537695(v=vs.85)).
+When the pin on one end of a connection is an input or output pin on the filter rather than a logical pin on a node, set the **FromNode** or **ToNode** member (depending on which end of the connection you are specifying) to the null node-ID value, [PCFILTER_NODE](https://docs.microsoft.com/previous-versions/ff537695(v=vs.85)).
 
 Avoid confusing logical pins, which are used solely to describe connection points on nodes within a filter, with the external pins that filters use to connect to other filters. Logical pins are rarely used outside of the **PCCONNECTION_DESCRIPTOR** structure. In this document, the term *pin* refers to a pin on a KS filter rather than a logical pin on a node unless noted otherwise.
 

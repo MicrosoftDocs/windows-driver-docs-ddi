@@ -51,55 +51,55 @@ The NDIS_MINIPORT_ADAPTER_ATTRIBUTES structure is a placeholder for the followin
 <dl>
 <dd>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/7e8b5dbf-2d56-4278-8953-8e21ba1cee06">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_miniport_add_device_registration_attributes">
      NDIS_MINIPORT_ADD_DEVICE_REGISTRATION_ATTRIBUTES</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/8f0d539a-50c5-4ecd-b62d-6b32fe7cfaba">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_miniport_adapter_registration_attributes">
      NDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/5423d073-02a5-468b-b91e-713ac67a5253">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_miniport_adapter_general_attributes">
      NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/9ce875fc-ed3f-43e9-bfbc-081f02cb1999">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_miniport_adapter_offload_attributes">
      NDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/f841c7f9-9ad3-4b53-b2d9-0d66d6e64b8b">
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff565926(v=vs.85)">
      NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/b0662a2c-feb6-4d66-89c9-586c2859b78b">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_miniport_adapter_hardware_assist_attributes">
      NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451558">NDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_miniport_adapter_ndk_attributes">NDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES</a>
 
 
 </dd>
@@ -112,54 +112,54 @@ The NDIS_MINIPORT_ADAPTER_ATTRIBUTES structure is a placeholder for the followin
 
 ### -field Header
 
-An <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure.
+An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure.
 
 
 ### -field AddDeviceRegistrationAttributes
 
 An 
-     <a href="https://msdn.microsoft.com/7e8b5dbf-2d56-4278-8953-8e21ba1cee06">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_miniport_add_device_registration_attributes">
      NDIS_MINIPORT_ADD_DEVICE_REGISTRATION_ATTRIBUTES</a> structure.
 
 
 ### -field RegistrationAttributes
 
 An 
-     <a href="https://msdn.microsoft.com/8f0d539a-50c5-4ecd-b62d-6b32fe7cfaba">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_miniport_adapter_registration_attributes">
      NDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES</a> structure.
 
 
 ### -field GeneralAttributes
 
 An 
-     <a href="https://msdn.microsoft.com/5423d073-02a5-468b-b91e-713ac67a5253">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_miniport_adapter_general_attributes">
      NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES</a> structure.
 
 
 ### -field OffloadAttributes
 
 An 
-     <a href="https://msdn.microsoft.com/9ce875fc-ed3f-43e9-bfbc-081f02cb1999">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_miniport_adapter_offload_attributes">
      NDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES</a> structure.
 
 
 ### -field Native_802_11_Attributes
 
 An 
-     <a href="https://msdn.microsoft.com/f841c7f9-9ad3-4b53-b2d9-0d66d6e64b8b">
+     <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff565926(v=vs.85)">
      NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES</a> structure.
 
 
 ### -field HardwareAssistAttributes
 
 An 
-      <a href="https://msdn.microsoft.com/b0662a2c-feb6-4d66-89c9-586c2859b78b">
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_miniport_adapter_hardware_assist_attributes">
       NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES</a> structure.
 
 
 ### -field NDKAttributes
 
-An <a href="https://msdn.microsoft.com/library/windows/hardware/hh451558">NDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES</a> structure.
+An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_miniport_adapter_ndk_attributes">NDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES</a> structure.
 
 
 ### -field PacketDirectAttributes
@@ -175,7 +175,7 @@ An <a href="https://msdn.microsoft.com/library/windows/hardware/hh451558">NDIS_M
 
 Miniport drivers pass these structures to the 
     <i>MiniportAttributes</i> parameter of the 
-    <a href="https://msdn.microsoft.com/861626af-23ea-40dc-a91a-7da42d4b0a1c">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismsetminiportattributes">
     NdisMSetMiniportAttributes</a> function.
 
 
@@ -186,45 +186,45 @@ Miniport drivers pass these structures to the
 
 
 
-<a href="https://msdn.microsoft.com/5423d073-02a5-468b-b91e-713ac67a5253">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_miniport_adapter_general_attributes">
    NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES</a>
 
 
 
-<a href="https://msdn.microsoft.com/b0662a2c-feb6-4d66-89c9-586c2859b78b">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_miniport_adapter_hardware_assist_attributes">
    NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES</a>
 
 
 
-<a href="https://msdn.microsoft.com/f841c7f9-9ad3-4b53-b2d9-0d66d6e64b8b">
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff565926(v=vs.85)">
    NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451558">NDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_miniport_adapter_ndk_attributes">NDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES</a>
 
 
 
-<a href="https://msdn.microsoft.com/9ce875fc-ed3f-43e9-bfbc-081f02cb1999">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_miniport_adapter_offload_attributes">
    NDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES</a>
 
 
 
-<a href="https://msdn.microsoft.com/8f0d539a-50c5-4ecd-b62d-6b32fe7cfaba">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_miniport_adapter_registration_attributes">
    NDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES</a>
 
 
 
-<a href="https://msdn.microsoft.com/7e8b5dbf-2d56-4278-8953-8e21ba1cee06">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_miniport_add_device_registration_attributes">
    NDIS_MINIPORT_ADD_DEVICE_REGISTRATION_ATTRIBUTES</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563672">NdisMSetMiniportAttributes</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismsetminiportattributes">NdisMSetMiniportAttributes</a>
  
 
  

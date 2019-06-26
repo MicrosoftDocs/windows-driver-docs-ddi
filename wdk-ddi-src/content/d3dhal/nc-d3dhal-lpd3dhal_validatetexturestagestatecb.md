@@ -58,7 +58,7 @@ The <b>D3dValidateTextureStageState</b> function returns the number of passes wh
 
 *pvtssd* [in]
 
-Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff545964">D3DHAL_VALIDATETEXTURESTAGESTATEDATA</a> structure that contains the information required for the driver to determine and return the number of passes required to perform the blending operations.
+Points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dhal/ns-d3dhal-_d3dhal_validatetexturestagestatedata">D3DHAL_VALIDATETEXTURESTAGESTATEDATA</a> structure that contains the information required for the driver to determine and return the number of passes required to perform the blending operations.
 
 
 ## -returns
@@ -124,11 +124,11 @@ Requests that are likely to fail <b>D3dValidateTextureStageState</b>:
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545964">D3DHAL_VALIDATETEXTURESTAGESTATEDATA</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dhal/ns-d3dhal-_d3dhal_validatetexturestagestatedata">D3DHAL_VALIDATETEXTURESTAGESTATEDATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a>
  
 
  

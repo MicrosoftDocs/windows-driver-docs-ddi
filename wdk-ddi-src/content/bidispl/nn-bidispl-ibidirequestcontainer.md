@@ -51,7 +51,7 @@ The <b>IBidiRequestContainer</b> interface allows an application or other object
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBidiRequestContainer</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IBidiRequestContainer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBidiRequestContainer</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IBidiRequestContainer</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -66,7 +66,7 @@ The <b>IBidiRequestContainer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/69a97816-2994-4eec-b2ab-a545195e3776">AddRequest</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bidispl/nf-bidispl-ibidirequestcontainer-addrequest">AddRequest</a>
 </td>
 <td align="left" width="63%">
 Adds a request to the request list.
@@ -75,7 +75,7 @@ Adds a request to the request list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1aa7b934-c56b-4bfb-800e-950e1dbd5ba3">GetEnumObject</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bidispl/nf-bidispl-ibidirequestcontainer-getenumobject">GetEnumObject</a>
 </td>
 <td align="left" width="63%">
 Enumerates the number of requests in the list.
@@ -84,7 +84,7 @@ Enumerates the number of requests in the list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4215ca86-9ceb-451d-8e67-992a8a3f9bab">GetRequestCount</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bidispl/nf-bidispl-ibidirequestcontainer-getrequestcount">GetRequestCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of requests in the list.
@@ -99,15 +99,15 @@ Gets the number of requests in the list.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_print/index">Bidirectional Communication Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/print/bidirectional-communication-schema">Bidirectional Communication Schema</a>
 
 
 
-<a href="https://msdn.microsoft.com/42b5e6cf-b434-4734-86f3-b3b9d15ea468">Print Spooler Components</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/print/print-spooler-components">Print Spooler Components</a>
  
 
  

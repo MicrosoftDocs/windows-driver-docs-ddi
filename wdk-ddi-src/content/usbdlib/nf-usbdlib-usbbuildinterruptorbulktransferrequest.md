@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <b>UsbBuildInterruptOrBulkTransferRequest</b> macro formats an <a href="https://msdn.microsoft.com/library/windows/hardware/ff538923">URB</a> to send or receive data on a bulk pipe, or to receive data from an interrupt pipe.
+The <b>UsbBuildInterruptOrBulkTransferRequest</b> macro formats an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usb/ns-usb-_urb">URB</a> to send or receive data on a bulk pipe, or to receive data from an interrupt pipe.
 
 
 ## -parameters
@@ -56,12 +56,12 @@ The <b>UsbBuildInterruptOrBulkTransferRequest</b> macro formats an <a href="http
 
 ### -param urb [in, out]
 
-Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff538923">URB</a> to be formatted as an interrupt or bulk transfer request.
+Pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usb/ns-usb-_urb">URB</a> to be formatted as an interrupt or bulk transfer request.
 
 
 ### -param length [in]
 
-Specifies the size, in bytes, of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff538923">URB</a>.
+Specifies the size, in bytes, of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usb/ns-usb-_urb">URB</a>.
 
 
 ### -param pipeHandle [in]
@@ -113,7 +113,7 @@ Reserved. Must be set to <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538923">URB</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usb/ns-usb-_urb">URB</a>
 
 
 
@@ -121,7 +121,7 @@ Reserved. Must be set to <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539280">USB_DEVICE_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbspec/ns-usbspec-_usb_device_descriptor">USB_DEVICE_DESCRIPTOR</a>
  
 
  

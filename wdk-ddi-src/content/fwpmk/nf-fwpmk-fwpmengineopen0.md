@@ -49,7 +49,7 @@ req.typenames:
 
 The 
   <b>FwpmEngineOpen0</b> function opens a session to the filter engine.
-<div class="alert"><b>Note</b>  <b>FwpmEngineOpen0</b> is a specific version of <b>FwpmEngineOpen</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
+<div class="alert"><b>Note</b>  <b>FwpmEngineOpen0</b> is a specific version of <b>FwpmEngineOpen</b>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
 ## -parameters
 
@@ -80,7 +80,7 @@ A pointer to a <b>SEC_WINNT_AUTH_IDENTITY_W</b> structure that contains the auth
 ### -param session [in, optional]
 
 A pointer to an 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff550083">FWPM_SESSION0</a> structure that defines
+     <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550083(v=vs.85)">FWPM_SESSION0</a> structure that defines
      session-specific parameters for the session being opened. This pointer is optional and can be
      <b>NULL</b>.
 
@@ -137,22 +137,22 @@ An error occurred.
 
 A callout driver calls the 
     <b>FwpmEngineOpen0</b> function to open a session to the filter engine. A handle to an open session to the
-    filter engine is a required parameter to most of the <a href="https://msdn.microsoft.com/0436f559-20e6-4199-8391-10eb7d85df23">Windows Filtering Platform</a>
+    filter engine is a required parameter to most of the <a href="https://docs.microsoft.com/windows/desktop/FWP/windows-filtering-platform-start-page">Windows Filtering Platform</a>
 <a href="https://answers.microsoft.com/windows/forum/windows_xp-performance/computer-management-storage-disk-management/f93a4e9b-5516-4e5c-9cd3-f04453ec963f"> management functions</a>.
 
 Callout drivers normally do not need to open a session to the filter engine because callout drivers
-    typically do not call any of the <a href="https://msdn.microsoft.com/0436f559-20e6-4199-8391-10eb7d85df23">Windows Filtering Platform</a> management functions.
+    typically do not call any of the <a href="https://docs.microsoft.com/windows/desktop/FWP/windows-filtering-platform-start-page">Windows Filtering Platform</a> management functions.
 
 For a callout driver to successfully open a session to the filter engine, the filter engine
     must be currently running at the time that the callout driver calls the 
     <b>FwpmEngineOpen0</b> function. A callout driver can call the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff550061">FwpmBfeStateGet0</a> function to obtain the
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpmk/nf-fwpmk-fwpmbfestateget0">FwpmBfeStateGet0</a> function to obtain the
     current state of the filter engine. Before calling <b>FwpmBfeStateGet0</b>, the callout driver must call the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff550062">FwpmBfeStateSubscribeChanges0</a> function to register a callback function that will be called whenever
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpmk/nf-fwpmk-fwpmbfestatesubscribechanges0">FwpmBfeStateSubscribeChanges0</a> function to register a callback function that will be called whenever
     there is a change in the state of the filter engine.
 
 After a callout driver has finished accessing the filter engine, it calls the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff550072">FwpmEngineClose0</a> function to close the
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpmk/nf-fwpmk-fwpmengineclose0">FwpmEngineClose0</a> function to close the
     open session to the filter engine.
 
 
@@ -163,28 +163,28 @@ After a callout driver has finished accessing the filter engine, it calls the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550061">FwpmBfeStateGet0</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpmk/nf-fwpmk-fwpmbfestateget0">FwpmBfeStateGet0</a>
 
 
 
-<a href="https://msdn.microsoft.com/375af8a1-9e05-4830-9074-6313b4e082d9">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpmk/nf-fwpmk-fwpmbfestatesubscribechanges0">
    FwpmBfeStateSubscribeChanges0</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550067">FwpmCalloutAdd0</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpmk/nf-fwpmk-fwpmcalloutadd0">FwpmCalloutAdd0</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550069">FwpmCalloutDeleteById0</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpmk/nf-fwpmk-fwpmcalloutdeletebyid0">FwpmCalloutDeleteById0</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550071">FwpmCalloutDeleteByKey0</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpmk/nf-fwpmk-fwpmcalloutdeletebykey0">FwpmCalloutDeleteByKey0</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550072">FwpmEngineClose0</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpmk/nf-fwpmk-fwpmengineclose0">FwpmEngineClose0</a>
 
 
 

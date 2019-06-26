@@ -48,7 +48,7 @@ req.typenames: KSATTRIBUTE_AUDIOSIGNALPROCESSING_MODE, *PKSATTRIBUTE_AUDIOSIGNAL
 
 The KSATTRIBUTE_AUDIOSIGNALPROCESSING_MODE structure specifies an audio signal processing mode.
 
-This structure is used to by mode aware drivers with  <a href="https://msdn.microsoft.com/library/windows/hardware/ff561656">KSDATAFORMAT</a> which contain a  <a href="https://msdn.microsoft.com/library/windows/hardware/ff563441">KSMULTIPLE_ITEM</a> of <a href="https://msdn.microsoft.com/library/windows/hardware/ff560987">KSATTRIBUTE</a> structures that reference a KSATTRIBUTE_AUDIOSIGNALPROCESSING_MODE. The KSATTRIBUTE_AUDIOSIGNALPROCESSING_MODE AttributeHeader.Attribute member is set to KSATTRIBUTEID_AUDIOSIGNALPROCESSING_MODE, and the KSATTRIBUTE_AUDIOSIGNALPROCESSING_MODE SignalProcessingMode member is set to AUDIO_SIGNALPROCESSINGMODE_DEFAULT or other processing modes that the driver supports. For more information, see <a href="https://msdn.microsoft.com/44b55a5a-ec58-4c1e-b780-e20829fe3edf">KS Data Formats and Data Ranges</a>.
+This structure is used to by mode aware drivers with  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksdataformat">KSDATAFORMAT</a> which contain a  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksmultiple_item">KSMULTIPLE_ITEM</a> of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksattribute">KSATTRIBUTE</a> structures that reference a KSATTRIBUTE_AUDIOSIGNALPROCESSING_MODE. The KSATTRIBUTE_AUDIOSIGNALPROCESSING_MODE AttributeHeader.Attribute member is set to KSATTRIBUTEID_AUDIOSIGNALPROCESSING_MODE, and the KSATTRIBUTE_AUDIOSIGNALPROCESSING_MODE SignalProcessingMode member is set to AUDIO_SIGNALPROCESSINGMODE_DEFAULT or other processing modes that the driver supports. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ks-data-formats-and-data-ranges">KS Data Formats and Data Ranges</a>.
 
 
 ## -struct-fields
@@ -58,10 +58,10 @@ This structure is used to by mode aware drivers with  <a href="https://msdn.micr
 
 ### -field AttributeHeader
 
-The AttributeHeader member specifies the attribute header using a <a href="https://msdn.microsoft.com/library/windows/hardware/ff560987">KSATTRIBUTE</a> data type.
+The AttributeHeader member specifies the attribute header using a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksattribute">KSATTRIBUTE</a> data type.
 
 
 ### -field SignalProcessingMode
 
-The SignalProcessingMode member specifies the unique GUIDs of the SignalProcessingMode. For more information, see <a href="https://msdn.microsoft.com/104275F8-2302-484B-B673-7448CAA1F793">Audio Signal Processing Modes</a>.
+The SignalProcessingMode member specifies the unique GUIDs of the SignalProcessingMode. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/audio-signal-processing-modes">Audio Signal Processing Modes</a>.
 

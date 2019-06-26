@@ -81,4 +81,4 @@ This method does not return a value.
 
 [CWiauPropertyList::SendToWia](nf-wiautil-cwiaupropertylist-sendtowia.md)
 
-[CWiauPropertyList::SetValidValues(LONG, range)](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-cwiaupropertylist-setvalidvalues%28int_long_long_long_long_long%29)
+[CWiauPropertyList::SetValidValues(LONG, range)](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-cwiaupropertylist-setvalidvalues(int_long_long_long_long_long))

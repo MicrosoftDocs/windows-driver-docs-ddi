@@ -58,12 +58,12 @@ Sets the number of bytes transferred for the URB contained within a framework  r
 
 ### -param Request [in]
 
-A handle to a framework request object that contains the <a href="https://msdn.microsoft.com/library/windows/hardware/ff538923">URB</a> for the transfer.
+A handle to a framework request object that contains the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usb/ns-usb-_urb">URB</a> for the transfer.
 
 
 ### -param BytesCompleted
 
-<p>The number of transferred bytes to set in the <a href="https://msdn.microsoft.com/library/Ff538923(v=VS.85).aspx"><b>URB</b></a>. This value must not be greater than the transfer buffer length.</p>
+<p>The number of transferred bytes to set in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usb/ns-usb-_urb"><b>URB</b></a>. This value must not be greater than the transfer buffer length.</p>
 
 
 
@@ -82,11 +82,11 @@ This function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/usbcon/">Architecture: USB Device Emulation (UDE)</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/usbcon/">Write a UDE client driver</a>
  
 
  

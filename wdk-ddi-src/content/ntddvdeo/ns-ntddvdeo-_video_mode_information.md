@@ -142,11 +142,11 @@ Is a set of flags indicating certain behavior for the device. The flags and thei
 |:--|:--|:--|:--|
 | VIDEO_MODE_COLOR | 0x0001 | 0 | 0 = Mono-compatible<br/>1 = Color | 
 | VIDEO_MODE_GRAPHICS | 0x0002 | 1 | 0 = Text mode<br/>1 = Graphics | 
-| VIDEO_MODE_PALETTE_DRIVEN | 0x0004 | 2 | 0 = Colors are direct<br/>1 = Colors are indexed to a [palette](https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c)  | 
+| VIDEO_MODE_PALETTE_DRIVEN | 0x0004 | 2 | 0 = Colors are direct<br/>1 = Colors are indexed to a [palette](https://docs.microsoft.com/windows-hardware/drivers/)  | 
 | VIDEO_MODE_MANAGED_PALETTE | 0x0008 | 3 | 0 = Palette is fixed (must be queried from miniport driver)<br/>1 = Palette is settable | 
 | VIDEO_MODE_INTERLACED | 0x0010 | 4 | 0 = Non-interlaced mode<br/>1 = Interlaced mode | 
 | VIDEO_MODE_NO_OFF_SCREEN | 0x0020 | 5 | 0 = Offscreen memory is available<br/>1 = Offscreen memory cannot be used to store information | 
-| VIDEO_MODE_NO_64_BIT_ACCESS | 0x0040 | 6 | 0 = 64-bit memory writes to [frame buffer](https://msdn.microsoft.com/f697e0db-1db0-4a81-94d8-0ca079885480) are handled properly<br/>1 = 64-bit memory writes to frame buffer are not handled |
+| VIDEO_MODE_NO_64_BIT_ACCESS | 0x0040 | 6 | 0 = 64-bit memory writes to [frame buffer](https://docs.microsoft.com/windows-hardware/drivers/) are handled properly<br/>1 = 64-bit memory writes to frame buffer are not handled |
 
 ### -field VideoMemoryBitmapWidth
 
@@ -167,7 +167,7 @@ Is a set of flags indicating certain behavior for the device. These private flag
 
 
 
-The video miniport driver returns an array of VIDEO_MODE_INFORMATION structures in response to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff567816">IOCTL_VIDEO_QUERY_AVAIL_MODES</a> request, with each structure containing information about one mode of the adapter. The miniport driver returns one VIDEO_MODE_INFORMATION structure that contains information about the adapter's current mode in response to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff567819">IOCTL_VIDEO_QUERY_CURRENT_MODE</a> request.
+The video miniport driver returns an array of VIDEO_MODE_INFORMATION structures in response to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddvdeo/ni-ntddvdeo-ioctl_video_query_avail_modes">IOCTL_VIDEO_QUERY_AVAIL_MODES</a> request, with each structure containing information about one mode of the adapter. The miniport driver returns one VIDEO_MODE_INFORMATION structure that contains information about the adapter's current mode in response to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddvdeo/ni-ntddvdeo-ioctl_video_query_current_mode">IOCTL_VIDEO_QUERY_CURRENT_MODE</a> request.
 
 
 <dl>
@@ -191,15 +191,15 @@ The video miniport driver returns an array of VIDEO_MODE_INFORMATION structures 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567816">IOCTL_VIDEO_QUERY_AVAIL_MODES</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddvdeo/ni-ntddvdeo-ioctl_video_query_avail_modes">IOCTL_VIDEO_QUERY_AVAIL_MODES</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567819">IOCTL_VIDEO_QUERY_CURRENT_MODE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddvdeo/ni-ntddvdeo-ioctl_video_query_current_mode">IOCTL_VIDEO_QUERY_CURRENT_MODE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570507">VIDEO_MEMORY_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddvdeo/ns-ntddvdeo-_video_memory_information">VIDEO_MEMORY_INFORMATION</a>
  
 
  

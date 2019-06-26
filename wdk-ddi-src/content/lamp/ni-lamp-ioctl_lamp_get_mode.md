@@ -67,12 +67,12 @@ The <b>IOCTL_LAMP_GET_MODE</b>
 
 ### -input-buffer
 
-<code>Irp->AssociatedIrp.SystemBuffer</code> points to a buffer of type <a href="https://msdn.microsoft.com/library/windows/hardware/dn937009">LAMP_MODE</a>.
+<code>Irp->AssociatedIrp.SystemBuffer</code> points to a buffer of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/lamp/ne-lamp-lamp_mode">LAMP_MODE</a>.
 
 
 ### -input-buffer-length
 
-Length of <a href="https://msdn.microsoft.com/library/windows/hardware/dn937009">LAMP_MODE</a>.
+Length of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/lamp/ne-lamp-lamp_mode">LAMP_MODE</a>.
 
 
 ### -output-buffer

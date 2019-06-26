@@ -56,12 +56,12 @@ The USB device emulation class extension (UdeCx) invokes this callback function 
 
 ### -param UdecxWdfDevice [in]
 
-A handle to a framework device object that represents the controller to which the USB device is attached. The client driver initialized this object in a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/mt627990">UdecxWdfDeviceAddUsbDeviceEmulation</a>.
+A handle to a framework device object that represents the controller to which the USB device is attached. The client driver initialized this object in a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/udecxwdfdevice/nf-udecxwdfdevice-udecxwdfdeviceaddusbdeviceemulation">UdecxWdfDeviceAddUsbDeviceEmulation</a>.
 
 
 ### -param UdecxUsbDevice [in]
 
-A handle to UDE device object. The client driver created this object in a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/mt595959">UdecxUsbDeviceCreate</a>.
+A handle to UDE device object. The client driver created this object in a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/udecxusbdevice/nf-udecxusbdevice-udecxusbdevicecreate">UdecxUsbDeviceCreate</a>.
 
 
 ## -returns
@@ -77,11 +77,11 @@ If the operation is successful, the callback function must return STATUS_SUCCESS
 
 
 
-The client driver registered the function in a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/mt627972">UdecxUsbDeviceInitSetStateChangeCallbacks</a> by supplying a function pointer to its implementation.
+The client driver registered the function in a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/udecxusbdevice/nf-udecxusbdevice-udecxusbdeviceinitsetstatechangecallbacks">UdecxUsbDeviceInitSetStateChangeCallbacks</a> by supplying a function pointer to its implementation.
 
 In the callback implementation, the client driver for the USB device is expected to perform steps to enter working state. 
 
-The power request may be completed asynchronously by returning STATUS_PENDING, and then later completing it by calling <a href="https://msdn.microsoft.com/library/windows/hardware/mt627974">UdecxUsbDeviceLinkPowerExitComplete</a> with the actual completion code.
+The power request may be completed asynchronously by returning STATUS_PENDING, and then later completing it by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/udecxusbdevice/nf-udecxusbdevice-udecxusbdevicelinkpowerexitcomplete">UdecxUsbDeviceLinkPowerExitComplete</a> with the actual completion code.
 
 
 
@@ -92,23 +92,23 @@ The power request may be completed asynchronously by returning STATUS_PENDING, a
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/usbcon/">Architecture: USB Device Emulation (UDE)</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595911">EVT_UDECX_USB_DEVICE_D0_EXIT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/udecxusbdevice/nc-udecxusbdevice-evt_udecx_usb_device_d0_exit">EVT_UDECX_USB_DEVICE_D0_EXIT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt627974">UdecxUsbDeviceLinkPowerExitComplete</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/udecxusbdevice/nf-udecxusbdevice-udecxusbdevicelinkpowerexitcomplete">UdecxUsbDeviceLinkPowerExitComplete</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt627982">UdecxUsbDeviceSignalWake</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/udecxusbdevice/nf-udecxusbdevice-udecxusbdevicesignalwake">UdecxUsbDeviceSignalWake</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/usbcon/">Write a UDE client driver</a>
  
 
  

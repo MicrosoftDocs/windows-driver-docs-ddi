@@ -47,7 +47,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The POS_CX_EVENT_ATTRIBUTES describes the priority and access rights for the POS events coming from the device. The values are a combination of the values defined in <a href="https://msdn.microsoft.com/library/windows/hardware/mt593143">POS_CX_EVENT_DEST</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/mt593144">POS_CX_EVENT_PRIORITY</a>.
+The POS_CX_EVENT_ATTRIBUTES describes the priority and access rights for the POS events coming from the device. The values are a combination of the values defined in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/poscx/ne-poscx-_pos_cx_event_dest">POS_CX_EVENT_DEST</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/poscx/ne-poscx-_pos_cx_event_priority">POS_CX_EVENT_PRIORITY</a>.
 
 
 ## -enum-fields
@@ -84,11 +84,11 @@ Control level priority delivered in FIFO to ALL open handles on the driver.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt593143">POS_CX_EVENT_DEST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/poscx/ne-poscx-_pos_cx_event_dest">POS_CX_EVENT_DEST</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt593144">POS_CX_EVENT_PRIORITY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/poscx/ne-poscx-_pos_cx_event_priority">POS_CX_EVENT_PRIORITY</a>
  
 
  

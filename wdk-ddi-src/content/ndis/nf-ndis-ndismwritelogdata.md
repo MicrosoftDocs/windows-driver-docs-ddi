@@ -59,7 +59,7 @@ req.typenames:
 ### -param LogHandle [in]
 
 Specifies the handle returned by 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff563572">NdisMCreateLog</a>.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismcreatelog">NdisMCreateLog</a>.
 
 
 ### -param LogBuffer [in]
@@ -130,7 +130,7 @@ The driver must release any spin lock it is holding before calling
     <b>NdisMWriteLogData</b>.
 
 <b>NdisMWriteLogData</b> does not recognize boundaries between log records, nor does the Win32 function, 
-    <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>, which applications can call with IOCTL_NDIS_GET_LOG_DATA to retrieve data written
+    <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>, which applications can call with IOCTL_NDIS_GET_LOG_DATA to retrieve data written
     to an NDIS log file by an NDIS miniport driver. 
     <b>NdisMWriteLogData</b> writes all miniport driver-supplied data at 
     <i>LogBuffer</i> into the log file as a byte stream. 
@@ -149,29 +149,29 @@ Consequently, an application reading an NDIS log must collect retrieved data int
 
 
 
-<a href="https://msdn.microsoft.com/df690a05-359d-44f0-b063-4fc21d6c4d76">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisallocatefromnpagedlookasidelist">
    NdisAllocateFromNPagedLookasideList</a>
 
 
 
-<a href="https://msdn.microsoft.com/aac4049c-a876-4bbb-ba3b-fa36c299e1c7">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisallocatememorywithtagpriority">
    NdisAllocateMemoryWithTagPriority</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562790">NdisMCloseLog</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismcloselog">NdisMCloseLog</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563572">NdisMCreateLog</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismcreatelog">NdisMCreateLog</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563584">NdisMFlushLog</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismflushlog">NdisMFlushLog</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564524">NdisReleaseSpinLock</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisreleasespinlock">NdisReleaseSpinLock</a>
  
 
  

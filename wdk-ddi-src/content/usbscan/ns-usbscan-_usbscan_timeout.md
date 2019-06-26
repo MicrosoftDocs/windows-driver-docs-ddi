@@ -75,7 +75,7 @@ Specifies the number of seconds to wait for an interrupt to occur.
 
 A value of zero means to wait forever for the read or write operation or interrupt.
 
-The USBSCAN_TIMEOUT structure is used as a parameter to <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>, when the specified I/O control code is <a href="https://msdn.microsoft.com/library/windows/hardware/ff542908">IOCTL_SET_TIMEOUT</a>.
+The USBSCAN_TIMEOUT structure is used as a parameter to <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>, when the specified I/O control code is <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbscan/ni-usbscan-ioctl_set_timeout">IOCTL_SET_TIMEOUT</a>.
 
 
 
@@ -85,7 +85,7 @@ The USBSCAN_TIMEOUT structure is used as a parameter to <a href="https://msdn.mi
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542908">IOCTL_SET_TIMEOUT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbscan/ni-usbscan-ioctl_set_timeout">IOCTL_SET_TIMEOUT</a>
  
 
  

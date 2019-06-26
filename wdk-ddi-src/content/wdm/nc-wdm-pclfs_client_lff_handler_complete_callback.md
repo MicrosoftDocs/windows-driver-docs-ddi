@@ -56,7 +56,7 @@ The <i>ClfsLogGrowthCompleteCallback</i> function implements the actions that th
 
 ### -param LogFile [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff554316">LOG_FILE_OBJECT</a> structure that represents the CLFS log stream whose log has finished growing.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_file_object">LOG_FILE_OBJECT</a> structure that represents the CLFS log stream whose log has finished growing.
 
 
 ### -param OperationStatus [in]
@@ -87,7 +87,7 @@ None
 
 
 
-Because a call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff541627">ClfsMgmtHandleLogFileFull</a> completes asynchronously, any actions that the client will take when the log file full condition has been handled belong in the <i>ClfsLogGrowthCompleteCallback</i> function.
+Because a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-clfsmgmthandlelogfilefull">ClfsMgmtHandleLogFileFull</a> completes asynchronously, any actions that the client will take when the log file full condition has been handled belong in the <i>ClfsLogGrowthCompleteCallback</i> function.
 
 If a call to the <b>ClfsMgmtHandleLogFileFull</b> routine returned returns STATUS_PENDING, then the <i>ClfsLogGrowthCompleteCallback</i> function will be invoked when the operation completes. If a different status was returned, then the <i>ClfsLogGrowthCompleteCallback</i> function will not be invoked.
 
@@ -103,7 +103,7 @@ If the value of the <i>OperationStatus</i> parameter is STATUS_SUCCESS, create a
 
 </li>
 </ol>
-When a client uses the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541642">ClfsMgmtRegisterManagedClient</a> routine to register with CLFS management, the client provides both a pointer to the <i>ClfsLogGrowthCompleteCallback</i> function and the custom data that will be passed as a parameter to the <i>ClfsLogGrowthCompleteCallback</i> function when this function is called.
+When a client uses the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-clfsmgmtregistermanagedclient">ClfsMgmtRegisterManagedClient</a> routine to register with CLFS management, the client provides both a pointer to the <i>ClfsLogGrowthCompleteCallback</i> function and the custom data that will be passed as a parameter to the <i>ClfsLogGrowthCompleteCallback</i> function when this function is called.
 
 
 
@@ -113,11 +113,11 @@ When a client uses the <a href="https://msdn.microsoft.com/library/windows/hardw
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541627">ClfsMgmtHandleLogFileFull</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-clfsmgmthandlelogfilefull">ClfsMgmtHandleLogFileFull</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541642">ClfsMgmtRegisterManagedClient</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-clfsmgmtregistermanagedclient">ClfsMgmtRegisterManagedClient</a>
  
 
  

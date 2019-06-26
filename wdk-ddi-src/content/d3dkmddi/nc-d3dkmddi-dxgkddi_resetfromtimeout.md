@@ -56,7 +56,7 @@ The <i>DxgkDdiResetFromTimeout</i> function resets the graphics processing unit 
 
 ### -param hAdapter [in]
 
-[in] A handle to a context block that is associated with a display adapter. The display miniport driver previously provided this handle to the Microsoft DirectX graphics kernel subsystem in the <i>MiniportDeviceContext</i> output parameter of the <a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a> function.
+[in] A handle to a context block that is associated with a display adapter. The display miniport driver previously provided this handle to the Microsoft DirectX graphics kernel subsystem in the <i>MiniportDeviceContext</i> output parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function.
 
 
 ## -returns
@@ -74,7 +74,7 @@ The <i>DxgkDdiResetFromTimeout</i> function resets the graphics processing unit 
 
 The GPU scheduler calls <i>DxgkDdiResetFromTimeout</i> when it detects that a hardware time-out occurred. The time-out is typically a delayed response to a preempt request. <i>DxgkDdiResetFromTimeout</i> should reset the GPU. 
 
-For more information about time-outs in this situation, see <a href="https://msdn.microsoft.com/3690ad06-002a-4939-9b04-b87245678464">Thread Synchronization and TDR</a>.
+For more information about time-outs in this situation, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/thread-synchronization-and-tdr">Thread Synchronization and TDR</a>.
 
 <i>DxgkDdiResetFromTimeout</i> should be made pageable.
 
@@ -86,15 +86,15 @@ For more information about time-outs in this situation, see <a href="https://msd
 
 
 
-<a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/6c583a48-baa4-429f-b2fc-5f86859617cc">DxgkDdiReleaseSwizzlingRange</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_releaseswizzlingrange">DxgkDdiReleaseSwizzlingRange</a>
 
 
 
-<a href="https://msdn.microsoft.com/433babb7-9a53-4079-9a65-43a5ed0c201a">DxgkDdiRestartFromTimeout</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_restartfromtimeout">DxgkDdiRestartFromTimeout</a>
  
 
  

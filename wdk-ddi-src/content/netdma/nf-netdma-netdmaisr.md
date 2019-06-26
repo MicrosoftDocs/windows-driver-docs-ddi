@@ -62,7 +62,7 @@ in Windows 8 and later.</div><div> </div>The
 
 A handle that identifies the DMA channel. The DMA provider driver received this handle from the
      NetDMA interface in a call to the 
-     <a href="https://msdn.microsoft.com/42bc0e08-3d85-424f-aaa4-4df788d3706a">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdma/nc-netdma-dma_channel_allocate_handler">
      ProviderAllocateDmaChannel</a> function.
 
 
@@ -96,7 +96,7 @@ DMA provider drivers call the
 
 If the NET_DMA_INTERRUPT_ON_COMPLETION flag in the 
     <b>ControlFlags</b> member of the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff568734">NET_DMA_DESCRIPTOR</a> structure is set, the
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdma/ns-netdma-_net_dma_descriptor">NET_DMA_DESCRIPTOR</a> structure is set, the
     DMA engine should generate an interrupt for the DMA channel after it processes the DMA descriptor. When
     this flag is cleared, the DMA engine does not generate an interrupt.
 
@@ -114,11 +114,11 @@ A DMA provider driver should do as little work as possible in its ISR handler. T
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568734">NET_DMA_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdma/ns-netdma-_net_dma_descriptor">NET_DMA_DESCRIPTOR</a>
 
 
 
-<a href="https://msdn.microsoft.com/42bc0e08-3d85-424f-aaa4-4df788d3706a">ProviderAllocateDmaChannel</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdma/nc-netdma-dma_channel_allocate_handler">ProviderAllocateDmaChannel</a>
  
 
  

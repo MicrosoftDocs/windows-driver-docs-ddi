@@ -83,17 +83,17 @@ Indicates the required backward reference samples for the defined deinterlace mo
 
 Indicates the Direct3D surface format of the output frames. Usually a deinterlace algorithm outputs frames in a surface format that matches the input sample format. This member ensures that the VMR or other video renderer will be able to supply the correct output frame surfaces to the deinterlace hardware.
 
-Note that if the <b>DXVA_Deinterlace_YUV2RGB</b> enumerator is returned in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564076">DXVA_VideoProcessCaps</a> enumeration, the VMR will assume that valid output formats are specified by this member, in addition to a D3DFMT_X8R8G8B8 format.
+Note that if the <b>DXVA_Deinterlace_YUV2RGB</b> enumerator is returned in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ne-dxva-_dxva_videoprocesscaps">DXVA_VideoProcessCaps</a> enumeration, the VMR will assume that valid output formats are specified by this member, in addition to a D3DFMT_X8R8G8B8 format.
 
 
 ### -field VideoProcessingCaps
 
-Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564076">DXVA_VideoProcessCaps</a> enumeration indicating the operation that can be performed concurrently with the requested deinterlace. 
+Specifies a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ne-dxva-_dxva_videoprocesscaps">DXVA_VideoProcessCaps</a> enumeration indicating the operation that can be performed concurrently with the requested deinterlace. 
 
 
 ### -field DeinterlaceTechnology
 
-Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563960">DXVA_DeinterlaceTech</a> enumeration indicating the deinterlacing technology used by this deinterlacing device.
+Specifies a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ne-dxva-_dxva_deinterlacetech">DXVA_DeinterlaceTech</a> enumeration indicating the deinterlacing technology used by this deinterlacing device.
 
 
 ## -remarks
@@ -110,11 +110,11 @@ The driver receives the DXVA_DeinterlaceCaps structure with the <b>Size</b> memb
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563960">DXVA_DeinterlaceTech</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ne-dxva-_dxva_deinterlacetech">DXVA_DeinterlaceTech</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564076">DXVA_VideoProcessCaps</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ne-dxva-_dxva_videoprocesscaps">DXVA_VideoProcessCaps</a>
  
 
  

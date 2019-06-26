@@ -79,7 +79,7 @@ The <b>PcGetPhysicalDeviceObject</b> function returns STATUS_SUCCESS if the func
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536208">Audio Port Class Functions</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/audio-port-class-functions">Audio Port Class Functions</a>
  
 
  

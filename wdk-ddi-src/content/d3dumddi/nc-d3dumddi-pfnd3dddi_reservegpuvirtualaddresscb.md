@@ -77,7 +77,7 @@ A handle to the display device.
 
 *pData* [in, out]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn906327">D3DDDI_RESERVEGPUVIRTUALADDRESS</a> structure that describes the operation to perform.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dukmdt/ns-d3dukmdt-d3dddi_reservegpuvirtualaddress">D3DDDI_RESERVEGPUVIRTUALADDRESS</a> structure that describes the operation to perform.
 
 
 
@@ -96,7 +96,7 @@ If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn906327">D3DDDI_RESERVEGPUVIRTUALADDRESS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dukmdt/ns-d3dukmdt-d3dddi_reservegpuvirtualaddress">D3DDDI_RESERVEGPUVIRTUALADDRESS</a>
  
 
  

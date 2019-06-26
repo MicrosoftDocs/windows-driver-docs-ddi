@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <b>StorPortReleaseSpinLock</b> routine releases a spinlock acquired by <a href="https://msdn.microsoft.com/library/windows/hardware/ff567025">StorPortAcquireSpinLock</a>.
+The <b>StorPortReleaseSpinLock</b> routine releases a spinlock acquired by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportacquirespinlock">StorPortAcquireSpinLock</a>.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ The <b>StorPortReleaseSpinLock</b> routine releases a spinlock acquired by <a hr
 
 ### -param LockHandle [in, out]
 
-Pointer to a lock handle returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff567025">StorPortAcquireSpinLock</a>.
+Pointer to a lock handle returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportacquirespinlock">StorPortAcquireSpinLock</a>.
 
 
 ## -returns
@@ -78,7 +78,7 @@ None.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567025">StorPortAcquireSpinLock</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportacquirespinlock">StorPortAcquireSpinLock</a>
  
 
  

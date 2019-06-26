@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-<b>ExQueueWorkItem</b> inserts a given work item into a queue from which a system worker thread removes the item and gives control to the routine that the caller supplied to <a href="https://msdn.microsoft.com/library/windows/hardware/ff545327">ExInitializeWorkItem</a>. 
+<b>ExQueueWorkItem</b> inserts a given work item into a queue from which a system worker thread removes the item and gives control to the routine that the caller supplied to <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mmcreatemdl">ExInitializeWorkItem</a>. 
 <div class="alert"><b>Note</b>  Use this routine with extreme caution. (See the following Remarks section.)</div><div> </div>
 
 ## -parameters
@@ -56,7 +56,7 @@ req.typenames:
 
 ### -param WorkItem [in, out]
 
-Pointer to the work item. This work item must have been initialized by a preceding call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff545327">ExInitializeWorkItem</a>. 
+Pointer to the work item. This work item must have been initialized by a preceding call to <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mmcreatemdl">ExInitializeWorkItem</a>. 
 
 
 ### -param QueueType [in]
@@ -107,9 +107,9 @@ None
 
 
 
-<div class="alert"><b>Note</b>   Device drivers must use <a href="https://msdn.microsoft.com/library/windows/hardware/ff549466">IoQueueWorkItem</a> instead of <b>ExQueueWorkItem</b>. Drivers should use <b>ExQueueWorkItem</b>, and the associated <a href="https://msdn.microsoft.com/library/windows/hardware/ff545327">ExInitializeWorkItem</a>, only in cases where the specified work item is not associated with a device object or device stack. In all other cases, drivers should use <a href="https://msdn.microsoft.com/library/windows/hardware/ff548276">IoAllocateWorkItem</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff549133">IoFreeWorkItem</a>, and <b>IoQueueWorkItem</b> because only these routines ensure that the device object associated with the specified work item remains available until the work item has been processed.</div>
+<div class="alert"><b>Note</b>   Device drivers must use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ioqueueworkitem">IoQueueWorkItem</a> instead of <b>ExQueueWorkItem</b>. Drivers should use <b>ExQueueWorkItem</b>, and the associated <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mmcreatemdl">ExInitializeWorkItem</a>, only in cases where the specified work item is not associated with a device object or device stack. In all other cases, drivers should use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ioallocateworkitem">IoAllocateWorkItem</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iofreeworkitem">IoFreeWorkItem</a>, and <b>IoQueueWorkItem</b> because only these routines ensure that the device object associated with the specified work item remains available until the work item has been processed.</div>
 <div> </div>
-The callback routine that was specified in the <i>Routine</i> parameter to <a href="https://msdn.microsoft.com/library/windows/hardware/ff545327">ExInitializeWorkItem</a> is called in a system context at IRQL PASSIVE_LEVEL. This caller-supplied routine is responsible for freeing the work item when it is no longer needed by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff544590">ExFreePool</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff544593">ExFreePoolWithTag</a>.
+The callback routine that was specified in the <i>Routine</i> parameter to <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mmcreatemdl">ExInitializeWorkItem</a> is called in a system context at IRQL PASSIVE_LEVEL. This caller-supplied routine is responsible for freeing the work item when it is no longer needed by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-exfreepool">ExFreePool</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-exfreepoolwithtag">ExFreePoolWithTag</a>.
 
 System worker threads are a limited resource. Drivers must not permanently reserve a work item for the driver's use. Work items are designed for operations that complete quickly. Drivers should free any work items that they allocate as soon as possible.
 
@@ -137,31 +137,31 @@ Threads at either priority remain interruptible.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544590">ExFreePool</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-exfreepool">ExFreePool</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544593">ExFreePoolWithTag</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-exfreepoolwithtag">ExFreePoolWithTag</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545327">ExInitializeWorkItem</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mmcreatemdl">ExInitializeWorkItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548276">IoAllocateWorkItem</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ioallocateworkitem">IoAllocateWorkItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549133">IoFreeWorkItem</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iofreeworkitem">IoFreeWorkItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549466">IoQueueWorkItem</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ioqueueworkitem">IoQueueWorkItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557304">WORK_QUEUE_ITEM</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_work_queue_item">WORK_QUEUE_ITEM</a>
  
 
  

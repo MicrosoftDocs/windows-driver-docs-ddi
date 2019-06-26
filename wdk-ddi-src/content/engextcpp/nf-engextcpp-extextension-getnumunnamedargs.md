@@ -71,7 +71,7 @@ The <b>GetNumUnnamedArgs</b> method returns the number of unnamed arguments in t
 
 The indices of the unnamed arguments returned by <b>GetNumUnnamedArgs</b> range from zero to the number of unnamed arguments minus one (unnamed args - 1).
 
-For an overview of argument parsing in the EngExtCpp extensions framework, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff553340">Parsing Extension Arguments</a>.
+For an overview of argument parsing in the EngExtCpp extensions framework, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/parsing-extension-arguments">Parsing Extension Arguments</a>.
 
 This method should only be called during the execution of an extension command provided by this class.
 

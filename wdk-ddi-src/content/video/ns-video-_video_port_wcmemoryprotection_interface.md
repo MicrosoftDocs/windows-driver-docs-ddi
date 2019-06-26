@@ -81,12 +81,12 @@ Pointer to the video port driver-implemented dereference routine for this interf
 
 ### -field VideoPortProtectWCMemory
 
-Pointer to the video port driver's <a href="https://msdn.microsoft.com/0cee4f4d-4d9c-44be-94ad-459000f2adb1">VideoPortProtectWCMemory</a> callback routine.
+Pointer to the video port driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nc-video-protect_wc_memory">VideoPortProtectWCMemory</a> callback routine.
 
 
 ### -field VideoPortRestoreWCMemory
 
-Pointer to the video port driver's <a href="https://msdn.microsoft.com/8fa0be0c-04ce-41ab-93dd-6dc9e8daa356">VideoPortRestoreWCMemory</a> callback routine.
+Pointer to the video port driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nc-video-restore_wc_memory">VideoPortRestoreWCMemory</a> callback routine.
 
 
 ## -see-also
@@ -94,19 +94,19 @@ Pointer to the video port driver's <a href="https://msdn.microsoft.com/8fa0be0c-
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn895657">INTERFACE</a>
+<a href="https://docs.microsoft.com/windows-hardware/customize/desktop/unattend/microsoft-windows-netbt-interfaces-interface">INTERFACE</a>
 
 
 
-<a href="https://msdn.microsoft.com/0cee4f4d-4d9c-44be-94ad-459000f2adb1">VideoPortProtectWCMemory</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nc-video-protect_wc_memory">VideoPortProtectWCMemory</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570337">VideoPortQueryServices</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportqueryservices">VideoPortQueryServices</a>
 
 
 
-<a href="https://msdn.microsoft.com/8fa0be0c-04ce-41ab-93dd-6dc9e8daa356">VideoPortRestoreWCMemory</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nc-video-restore_wc_memory">VideoPortRestoreWCMemory</a>
  
 
  

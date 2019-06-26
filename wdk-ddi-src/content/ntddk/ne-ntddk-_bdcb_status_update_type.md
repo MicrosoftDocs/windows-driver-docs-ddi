@@ -78,11 +78,11 @@ Windows will start loading driver dependencies next.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406363">BDCB_STATUS_UPDATE_CONTEXT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_bdcb_status_update_context">BDCB_STATUS_UPDATE_CONTEXT</a>
 
 
 
-<a href="https://msdn.microsoft.com/28BA4B54-F493-4D79-89DF-D890EBCF1E9C">BOOT_DRIVER_CALLBACK_FUNCTION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-ioregisterbootdrivercallback">BOOT_DRIVER_CALLBACK_FUNCTION</a>
  
 
  

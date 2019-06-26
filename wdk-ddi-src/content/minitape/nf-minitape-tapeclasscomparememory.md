@@ -93,7 +93,7 @@ A tape miniclass driver uses <b>TapeClassCompareMemory</b> to compare memory in 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567956">TapeMiniVerifyInquiry</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/minitape/nc-minitape-tape_verify_inquiry_routine">TapeMiniVerifyInquiry</a>
  
 
  

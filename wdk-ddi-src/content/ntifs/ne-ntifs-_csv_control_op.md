@@ -34,7 +34,7 @@ targetos: Windows
 
 ## -description
 
-Specifies the type of CSV control operation to use with the [FSCTL_CSV_CONTROL](https://msdn.microsoft.com/6CCCD5CA-FF29-41D4-B687-E403CADABF84) control code.
+Specifies the type of CSV control operation to use with the [FSCTL_CSV_CONTROL](https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_csv_control) control code.
 
 ## -enum-fields
 
@@ -92,18 +92,18 @@ Enables caching of the CSV file.
 
 ## -remarks
 
-An alternative to calling the [FSCTL_CSV_CONTROL](https://msdn.microsoft.com/6CCCD5CA-FF29-41D4-B687-E403CADABF84) control code with this enumeration is to use the [**CSV_CONTROL_PARAM**](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_csv_control_param) structure, which encapsulates a member of this enumeration type.
+An alternative to calling the [FSCTL_CSV_CONTROL](https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_csv_control) control code with this enumeration is to use the [**CSV_CONTROL_PARAM**](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_csv_control_param) structure, which encapsulates a member of this enumeration type.
 
 ## -see-also
 
-[File Management Enumerations](https://msdn.microsoft.com/library/windows/desktop/aa364231)
+[File Management Enumerations](https://docs.microsoft.com/windows/desktop/FileIO/file-management-enumerations)
 
-[CSV_CONTROL_PARAM](https://msdn.microsoft.com/library/windows/desktop/dn280466)
+[CSV_CONTROL_PARAM](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_csv_control_param)
 
-[CSV_QUERY_FILE_REVISION](https://msdn.microsoft.com/library/windows/desktop/dn280469)
+[CSV_QUERY_FILE_REVISION](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_csv_query_file_revision)
 
-[CSV_QUERY_MDS_PATH](https://msdn.microsoft.com/library/windows/desktop/dn280470) 
+[CSV_QUERY_MDS_PATH](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_csv_query_mds_path) 
 
-[CSV_QUERY_REDIRECT_STATE](https://msdn.microsoft.com/library/windows/desktop/dn280471)
+[CSV_QUERY_REDIRECT_STATE](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_csv_query_redirect_state)
 
-[FSCTL_CSV_CONTROL](https://msdn.microsoft.com/library/windows/desktop/dn280516)
+[FSCTL_CSV_CONTROL](https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_csv_control)

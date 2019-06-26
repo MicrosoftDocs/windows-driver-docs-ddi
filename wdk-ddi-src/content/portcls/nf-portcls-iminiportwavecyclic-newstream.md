@@ -56,7 +56,7 @@ The <code>NewStream</code> method creates a new instance of a logical stream tha
 
 ### -param Stream [out]
 
-Output pointer for the new stream. This parameter points to a caller-allocated pointer variable into which the method writes a pointer to the stream object's <a href="https://msdn.microsoft.com/library/windows/hardware/ff536715">IMiniportWaveCyclicStream</a> interface. The caller specifies a valid, non-<b>NULL</b> pointer value for this parameter.
+Output pointer for the new stream. This parameter points to a caller-allocated pointer variable into which the method writes a pointer to the stream object's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iminiportwavecyclicstream">IMiniportWaveCyclicStream</a> interface. The caller specifies a valid, non-<b>NULL</b> pointer value for this parameter.
 
 
 ### -param OuterUnknown [in, optional]
@@ -66,12 +66,12 @@ Pointer to the <b>IUnknown</b> interface of an object that needs to aggregate th
 
 ### -param PoolType [in]
 
-Specifies the type of memory pool from which the storage for the DMA-channel object should be allocated. This parameter will be one of the nonpaged pool types defined in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559707">POOL_TYPE</a> enumeration.
+Specifies the type of memory pool from which the storage for the DMA-channel object should be allocated. This parameter will be one of the nonpaged pool types defined in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_pool_type">POOL_TYPE</a> enumeration.
 
 
 ### -param Pin [in]
 
-Number of the pin that is to be opened. If the WaveCyclic miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff536765">IMiniport::GetDescription</a> method outputs a filter descriptor that specifies a total of <i>n</i> pin factories on the filter, then valid values for parameter <i>Pin</i> are in the range 0 to <i>n</i>-1.
+Number of the pin that is to be opened. If the WaveCyclic miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iminiport-getdescription">IMiniport::GetDescription</a> method outputs a filter descriptor that specifies a total of <i>n</i> pin factories on the filter, then valid values for parameter <i>Pin</i> are in the range 0 to <i>n</i>-1.
 
 
 ### -param Capture [in]
@@ -81,17 +81,17 @@ Specifies whether to create a capture stream or a render stream. This parameter 
 
 ### -param DataFormat [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561656">KSDATAFORMAT</a> structure indicating the format to use for this instance.
+Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksdataformat">KSDATAFORMAT</a> structure indicating the format to use for this instance.
 
 
 ### -param DmaChannel [out]
 
-Output pointer to the DMA channel. This parameter points to a caller-allocated pointer variable into which the method writes a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536547">IDmaChannel</a> interface of the miniport driver's DMA-channel object. The caller specifies a valid, non-<b>NULL</b> pointer value for this parameter. For more information, see the following Remarks section.
+Output pointer to the DMA channel. This parameter points to a caller-allocated pointer variable into which the method writes a pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-idmachannel">IDmaChannel</a> interface of the miniport driver's DMA-channel object. The caller specifies a valid, non-<b>NULL</b> pointer value for this parameter. For more information, see the following Remarks section.
 
 
 ### -param ServiceGroup [out]
 
-Output pointer for the service group. This parameter points to a caller-allocated pointer variable into which the method writes a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536994">IServiceGroup</a> interface of the stream's service group object. This is the service group that is being registered for interrupt notification. The caller specifies a valid, non-<b>NULL</b> pointer value for this parameter.
+Output pointer for the service group. This parameter points to a caller-allocated pointer variable into which the method writes a pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iservicegroup">IServiceGroup</a> interface of the stream's service group object. This is the service group that is being registered for interrupt notification. The caller specifies a valid, non-<b>NULL</b> pointer value for this parameter.
 
 
 ## -returns
@@ -107,35 +107,35 @@ Output pointer for the service group. This parameter points to a caller-allocate
 
 
 
-The <code>NewStream</code> method sets the initial state of the stream to KSSTATE_STOP and its initial position to zero. (See <a href="https://msdn.microsoft.com/library/windows/hardware/ff536720">IMiniportWaveCyclicStream::SetState</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff536716">IMiniportWaveCyclicStream::GetPosition</a>.)
+The <code>NewStream</code> method sets the initial state of the stream to KSSTATE_STOP and its initial position to zero. (See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iminiportwavecyclicstream-setstate">IMiniportWaveCyclicStream::SetState</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iminiportwavecyclicstream-getposition">IMiniportWaveCyclicStream::GetPosition</a>.)
 
 The port driver calls only the following methods on the <i>DmaChannel</i> object:
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536554">IDmaChannel::AllocatedBufferSize</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-idmachannel-allocatedbuffersize">IDmaChannel::AllocatedBufferSize</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536556">IDmaChannel::BufferSize</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-idmachannel-buffersize">IDmaChannel::BufferSize</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536557">IDmaChannel::CopyFrom</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-idmachannel-copyfrom">IDmaChannel::CopyFrom</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536558">IDmaChannel::CopyTo</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-idmachannel-copyto">IDmaChannel::CopyTo</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536563">IDmaChannel::SetBufferSize</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-idmachannel-setbuffersize">IDmaChannel::SetBufferSize</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536564">IDmaChannel::SystemAddress</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-idmachannel-systemaddress">IDmaChannel::SystemAddress</a>
 
 
-The <i>Stream</i>, <i>OuterUnknown</i>, <i>DmaChannel</i>, and <i>ServiceGroup</i> parameters follow the <a href="https://msdn.microsoft.com/e6b19110-37e2-4d23-a528-6393c12ab650">reference-counting conventions for COM objects</a>.
+The <i>Stream</i>, <i>OuterUnknown</i>, <i>DmaChannel</i>, and <i>ServiceGroup</i> parameters follow the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/reference-counting-conventions-for-com-objects">reference-counting conventions for COM objects</a>.
 
 
 
@@ -145,31 +145,31 @@ The <i>Stream</i>, <i>OuterUnknown</i>, <i>DmaChannel</i>, and <i>ServiceGroup</
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536547">IDmaChannel</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-idmachannel">IDmaChannel</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536765">IMiniport::GetDescription</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iminiport-getdescription">IMiniport::GetDescription</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536714">IMiniportWaveCyclic</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iminiportwavecyclic">IMiniportWaveCyclic</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536715">IMiniportWaveCyclicStream</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iminiportwavecyclicstream">IMiniportWaveCyclicStream</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536994">IServiceGroup</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iservicegroup">IServiceGroup</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561656">KSDATAFORMAT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksdataformat">KSDATAFORMAT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559707">POOL_TYPE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_pool_type">POOL_TYPE</a>
  
 
  

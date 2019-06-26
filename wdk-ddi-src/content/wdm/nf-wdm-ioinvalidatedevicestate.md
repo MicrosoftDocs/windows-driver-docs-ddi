@@ -88,7 +88,7 @@ PNP_DEVICE_RESOURCE_REQUIREMENTS_CHANGED
 
 For descriptions of the preceding constants, see [PNP_DEVICE_STATE](https://docs.microsoft.com/windows-hardware/drivers/kernel/handling-an-irp-mn-surprise-removal-request#about-pnpdevicestate).
 
-In response to this routine, the PnP manager sends an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551698">IRP_MN_QUERY_PNP_DEVICE_STATE</a> request to the device stack, to determine the current PnP state of the device.
+In response to this routine, the PnP manager sends an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-pnp-device-state">IRP_MN_QUERY_PNP_DEVICE_STATE</a> request to the device stack, to determine the current PnP state of the device.
 
 
 
@@ -98,7 +98,7 @@ In response to this routine, the PnP manager sends an <a href="https://msdn.micr
 
 
 
-[IRP_MN_QUERY_PNP_DEVICE_STATE](https://msdn.microsoft.com/library/windows/hardware/ff551698)
+[IRP_MN_QUERY_PNP_DEVICE_STATE](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-pnp-device-state)
 
 
 

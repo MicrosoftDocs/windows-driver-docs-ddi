@@ -49,10 +49,10 @@ req.typenames:
 
 Call the 
   <b>NdisFreeCloneNetBufferList</b> function to free a 
-  <a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a> structure and all associated 
-  <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structures and MDL chains that were
+  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure and all associated 
+  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structures and MDL chains that were
   previously allocated by calling the 
-  <a href="https://msdn.microsoft.com/357605a1-5c57-44ed-97b3-f466f9a7182c">
+  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisallocateclonenetbufferlist">
   NdisAllocateCloneNetBufferList</a> function.
 
 
@@ -85,7 +85,7 @@ Reserved for NDIS.
 #### NDIS_CLONE_FLAGS_USE_ORIGINAL_MDLS
 
 If this flag is set, NDIS did not allocate new MDLs for the cloned NET_BUFFER_LIST in the 
-       <a href="https://msdn.microsoft.com/357605a1-5c57-44ed-97b3-f466f9a7182c">
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisallocateclonenetbufferlist">
        NdisAllocateCloneNetBufferList</a> function. Instead, the cloned NET_BUFFER_LIST used the same MDL
        chain as in the original NET_BUFFER_LIST. If NDIS_CLONE_FLAGS_USE_ORIGINAL_MDLS is cleared, NDIS
        allocated new MDLs to reference the original data buffers.
@@ -106,7 +106,7 @@ None
 
 The caller must specifiy the same flags that it specified in the 
     <i>AllocateCloneFlags</i> parameter when it called the 
-    <a href="https://msdn.microsoft.com/357605a1-5c57-44ed-97b3-f466f9a7182c">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisallocateclonenetbufferlist">
     NdisAllocateCloneNetBufferList</a> function.
 
 
@@ -117,15 +117,15 @@ The caller must specifiy the same flags that it specified in the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/357605a1-5c57-44ed-97b3-f466f9a7182c">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisallocateclonenetbufferlist">
    NdisAllocateCloneNetBufferList</a>
  
 

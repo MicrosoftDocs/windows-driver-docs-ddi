@@ -68,7 +68,7 @@ The number of seconds since the last response.
 
 
 
-This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 <table>
 <tr>
@@ -106,11 +106,11 @@ When the client object connects to a session, the most recent output from the se
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn818568">IDebugControl6</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugcontrol6">IDebugControl6</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558852">Synchronizing with the Target Computer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/synchronizing-with-the-target-computer">Synchronizing with the Target Computer</a>
  
 
  

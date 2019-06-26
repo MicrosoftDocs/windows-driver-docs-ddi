@@ -157,11 +157,11 @@ Allocate <code>VolumeNameSize</code> bytes of pool for <b>Buffer</b> and set <b>
 
 </li>
 </ol>
-To get the volume GUID name for a given volume, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff543230">FltGetVolumeGuidName</a>. 
+To get the volume GUID name for a given volume, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltgetvolumeguidname">FltGetVolumeGuidName</a>. 
 
-To get an opaque volume pointer for a volume with a given name, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff543220">FltGetVolumeFromName</a>. 
+To get an opaque volume pointer for a volume with a given name, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltgetvolumefromname">FltGetVolumeFromName</a>. 
 
-For more information about how to name a volume, see <a href="https://msdn.microsoft.com/fb37f862-70d6-4514-b481-16f664346422">Supporting Mount Manager Requests in a Storage Class Driver</a>. 
+For more information about how to name a volume, see <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/supporting-mount-manager-requests-in-a-storage-class-driver">Supporting Mount Manager Requests in a Storage Class Driver</a>. 
 
 
 
@@ -171,15 +171,15 @@ For more information about how to name a volume, see <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540492">FilterGetDosName</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filtergetdosname">FilterGetDosName</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543220">FltGetVolumeFromName</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltgetvolumefromname">FltGetVolumeFromName</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543230">FltGetVolumeGuidName</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltgetvolumeguidname">FltGetVolumeGuidName</a>
 
 
 

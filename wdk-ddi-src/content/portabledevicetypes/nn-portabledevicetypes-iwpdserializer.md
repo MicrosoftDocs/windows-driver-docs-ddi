@@ -48,7 +48,7 @@ ms.custom: RS5
 
 
 
-Used by the device driver to serialize <a href="https://msdn.microsoft.com/library/windows/hardware/ff597597">IPortableDeviceValues</a> interfaces to and from the raw data buffers used to communicate with the application.
+Used by the device driver to serialize <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portabledevicetypes/nn-portabledevicetypes-iportabledevicevalues">IPortableDeviceValues</a> interfaces to and from the raw data buffers used to communicate with the application.
 
 Applications do not need to use this interface, because the data is serialized and deserialized automatically when calling the <b>IPortableDevice::SendCommand</b> method. (See the Windows Portable Devices (WPD) Software Development Kit (SDK) for a description of this method.)
 
@@ -59,7 +59,7 @@ To get this interface, call CoCreateInstance and pass in a class identifier (CLS
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWpdSerializer</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWpdSerializer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWpdSerializer</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWpdSerializer</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IWpdSerializer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597644">GetBufferFromIPortableDeviceValues</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portabledevicetypes/nf-portabledevicetypes-iwpdserializer-getbufferfromiportabledevicevalues">GetBufferFromIPortableDeviceValues</a>
 </td>
 <td align="left" width="63%">
 Serializes a submitted <b>IPortableDeviceValues</b> interface to an allocated byte array. The byte array returned is allocated for the caller and should be freed by the caller using CoTaskMemFree.
@@ -83,7 +83,7 @@ Serializes a submitted <b>IPortableDeviceValues</b> interface to an allocated by
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597645">GetIPortableDeviceValuesFromBuffer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portabledevicetypes/nf-portabledevicetypes-iwpdserializer-getiportabledevicevaluesfrombuffer">GetIPortableDeviceValuesFromBuffer</a>
 </td>
 <td align="left" width="63%">
 Deserializes a byte array to an <b>IPortableDeviceValues</b> interface.
@@ -92,7 +92,7 @@ Deserializes a byte array to an <b>IPortableDeviceValues</b> interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597646">GetSerializedSize</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portabledevicetypes/nf-portabledevicetypes-iwpdserializer-getserializedsize">GetSerializedSize</a>
 </td>
 <td align="left" width="63%">
 Calculates the buffer size that is needed to hold the serialized data.
@@ -101,7 +101,7 @@ Calculates the buffer size that is needed to hold the serialized data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597647">WriteIPortableDeviceValuesToBuffer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portabledevicetypes/nf-portabledevicetypes-iwpdserializer-writeiportabledevicevaluestobuffer">WriteIPortableDeviceValuesToBuffer</a>
 </td>
 <td align="left" width="63%">
 Serializes an <b>IPortableDeviceValues</b> interface to a caller-allocated byte array.
@@ -116,7 +116,7 @@ Serializes an <b>IPortableDeviceValues</b> interface to a caller-allocated byte 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597566">Driver Interfaces</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff597566(v=vs.85)">Driver Interfaces</a>
  
 
  

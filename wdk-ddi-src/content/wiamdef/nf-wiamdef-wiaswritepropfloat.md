@@ -83,23 +83,23 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549320">wiasReadPropFloat</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiasreadpropfloat">wiasReadPropFloat</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549500">wiasWritePropBin</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiaswritepropbin">wiasWritePropBin</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549512">wiasWritePropGuid</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiaswritepropguid">wiasWritePropGuid</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549515">wiasWritePropLong</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiaswriteproplong">wiasWritePropLong</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549525">wiasWritePropStr</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiaswritepropstr">wiasWritePropStr</a>
  
 
  

@@ -48,7 +48,7 @@ req.typenames: PrintJobStatus
 
 This enumeration is a one-to-one mapping to the spooler flags suppled in the JOB_INFO_X structures.
 
-For example, <a href="https://msdn.microsoft.com/library/windows/desktop/dd145019(v=vs.85).aspx">JOB_INFO_1</a> has the same set of status flags as shown in the following list.
+For example, <a href="https://docs.microsoft.com/windows/desktop/printdocs/job-info-1">JOB_INFO_1</a> has the same set of status flags as shown in the following list.
 
 
 ## -enum-fields
@@ -142,11 +142,11 @@ It is possible for a job to have multiple  flag values specified simultaneously.
 
 
 
-<a href="https://msdn.microsoft.com/3C806C3B-78A1-44B6-A9AC-E7258D216637">IPrintJob::Status</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nf-printerextension-iprintjob-get_status">IPrintJob::Status</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/desktop/dd145019(v=vs.85).aspx">JOB_INFO_1</a>
+<a href="https://docs.microsoft.com/windows/desktop/printdocs/job-info-1">JOB_INFO_1</a>
  
 
  

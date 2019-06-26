@@ -66,7 +66,7 @@ typedef NTSTATUS ( *PTERMINATE_IEEE_MODE)(
 
 ### -param Context [in]
 
-Pointer to the device extension of a parallel device's physical device object (<a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">PDO</a>).
+Pointer to the device extension of a parallel device's physical device object (<a href="https://docs.microsoft.com/windows-hardware/drivers/">PDO</a>).
 
 
 ## -returns
@@ -103,7 +103,7 @@ To obtain a pointer to the system-supplied PTERMINATE_IEEE_MODE callback, a kern
 
 The PTERMINATE_IEEE_MODE callback runs in the caller's thread at the IRQL of the caller.
 
-For more information, see <a href="https://msdn.microsoft.com/2ff53ed0-dbb7-4c8f-b6e4-5f7d20124a7c">Setting and Clearing a Communication Mode for a Parallel Device</a>.
+For more information, see <a href="https://docs.microsoft.com/previous-versions/ff544797(v=vs.85)">Setting and Clearing a Communication Mode for a Parallel Device</a>.
 
 
 

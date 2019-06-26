@@ -47,12 +47,12 @@ req.typenames:
 ## -description
 
 
-The <b>IKsControl</b> interface provides user-mode methods that control a KS filter or KS pin. See the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559766">IKsControl</a> AVStream COM interface for information about the user-mode equivalent of this interface. 
+The <b>IKsControl</b> interface provides user-mode methods that control a KS filter or KS pin. See the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nn-ksproxy-ikscontrol">IKsControl</a> AVStream COM interface for information about the user-mode equivalent of this interface. 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsControl</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IKsControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsControl</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IKsControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -67,7 +67,7 @@ The <b>IKsControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561744">KsEvent</a>
+<a href="https://docs.microsoft.com/previous-versions/ff561744(v=vs.85)">KsEvent</a>
 </td>
 <td align="left" width="63%">
 Enables or disables an event.
@@ -76,7 +76,7 @@ Enables or disables an event.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563398">KsMethod</a>
+<a href="https://docs.microsoft.com/previous-versions/ff563398(v=vs.85)">KsMethod</a>
 </td>
 <td align="left" width="63%">
 Sends a method to a KS object.
@@ -85,7 +85,7 @@ Sends a method to a KS object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KsProperty</a>
+<a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KsProperty</a>
 </td>
 <td align="left" width="63%">
 Sets a property or retrieves property information.
@@ -109,7 +109,7 @@ The IID for this interface is IID_IKsControl.
 
 
 
-<a href="https://msdn.microsoft.com/33eb0244-e0f3-4db7-b6df-2668e826fbd8">IKsControl (AVStream COM Interface)</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nn-ks-ikscontrol">IKsControl (AVStream COM Interface)</a>
  
 
  

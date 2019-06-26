@@ -83,7 +83,7 @@ The client driver must receive data in this buffer and   adjust <i>BufferLength<
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn946592">SmcCxGetSmartcardReplyBuffer</a>
+<a href="https://docs.microsoft.com/previous-versions/dn946592(v=vs.85)">SmcCxGetSmartcardReplyBuffer</a>
  
 
  

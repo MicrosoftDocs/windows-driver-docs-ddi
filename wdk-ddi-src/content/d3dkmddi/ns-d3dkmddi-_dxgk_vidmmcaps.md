@@ -80,7 +80,7 @@ Supported starting with Windows 8.
 
 ### -field CrossAdapterResource
 
-Specifies whether the driver supports cross-adapter resources in a <a href="https://msdn.microsoft.com/ECBB0AA7-50C2-41C8-9DC6-6EEFC5CEEB15">hybrid system</a>.
+Specifies whether the driver supports cross-adapter resources in a <a href="https://docs.microsoft.com/windows-hardware/drivers/display/using-cross-adapter-resources-in-a-hybrid-system">hybrid system</a>.
 
 Supported starting with Windows 8.1.
 
@@ -181,7 +181,7 @@ Note that this version of the <b>Reserved</b> member is available only if DXGKDD
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561062">DXGK_DRIVERCAPS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgk_drivercaps">DXGK_DRIVERCAPS</a>
  
 
  

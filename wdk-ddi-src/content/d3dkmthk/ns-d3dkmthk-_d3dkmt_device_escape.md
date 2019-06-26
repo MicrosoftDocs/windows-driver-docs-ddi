@@ -50,7 +50,7 @@ req.typenames: D3DKMT_DEVICE_ESCAPE
    Do not use the D3DKMT_DEVICE_ESCAPE structure or D3DKMT_DEVICEESCAPE_TYPE enumeration. They are for testing purposes only.
    
 
-The D3DKMT_DEVICE_ESCAPE structure describes how to control the display device in a call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546940">D3DKMTEscape</a> function.
+The D3DKMT_DEVICE_ESCAPE structure describes how to control the display device in a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/nf-d3dkmthk-d3dkmtescape">D3DKMTEscape</a> function.
 
 
 ## -struct-fields
@@ -79,11 +79,11 @@ The D3DKMT_DEVICE_ESCAPE structure describes how to control the display device i
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546940">D3DKMTEscape</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/nf-d3dkmthk-d3dkmtescape">D3DKMTEscape</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547970">D3DKMT_ESCAPE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_escape">D3DKMT_ESCAPE</a>
  
 
  

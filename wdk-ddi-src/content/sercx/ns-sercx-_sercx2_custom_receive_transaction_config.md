@@ -56,39 +56,39 @@ The <b>SERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG</b> structure contains informati
 
 ### -field Size
 
-The size, in bytes, of this structure. The <a href="https://msdn.microsoft.com/library/windows/hardware/dn265251">SerCx2CustomReceiveTransactionCreate</a> method uses this member to determine which version of the structure the caller is using. The size of this structure might change in future versions of the Sercx.h header file.
+The size, in bytes, of this structure. The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sercx/nf-sercx-sercx2customreceivetransactioncreate">SerCx2CustomReceiveTransactionCreate</a> method uses this member to determine which version of the structure the caller is using. The size of this structure might change in future versions of the Sercx.h header file.
 
 
 ### -field EvtSerCx2CustomReceiveTransactionInitialize
 
-A pointer to the driver-implemented <a href="https://msdn.microsoft.com/B3C23236-2A35-456A-B461-AEC688ACA5B7">EvtSerCx2CustomReceiveTransactionInitialize</a> event callback function. This member is optional and can be set to <b>NULL</b> to indicate that the driver does not implement the function.
+A pointer to the driver-implemented <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sercx/nc-sercx-evt_sercx2_custom_receive_transaction_initialize">EvtSerCx2CustomReceiveTransactionInitialize</a> event callback function. This member is optional and can be set to <b>NULL</b> to indicate that the driver does not implement the function.
 
 
 ### -field EvtSerCx2CustomReceiveTransactionStart
 
-A pointer to the driver-implemented <a href="https://msdn.microsoft.com/F90250CC-EDBF-4DB7-B889-4BF6325FB0CD">EvtSerCx2CustomReceiveTransactionStart</a> event callback function. This member must point to a valid function.
+A pointer to the driver-implemented <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sercx/nc-sercx-evt_sercx2_custom_receive_transaction_start">EvtSerCx2CustomReceiveTransactionStart</a> event callback function. This member must point to a valid function.
 
 
 ### -field EvtSerCx2CustomReceiveTransactionCleanup
 
-A pointer to the driver-implemented <a href="https://msdn.microsoft.com/72AF3D52-D109-42A7-9F25-14A3F5EDC94A">EvtSerCx2CustomReceiveTransactionCleanup</a> event callback function. This member is optional and can be set to <b>NULL</b> to indicate that the driver does not implement the function.
+A pointer to the driver-implemented <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sercx/nc-sercx-evt_sercx2_custom_receive_transaction_cleanup">EvtSerCx2CustomReceiveTransactionCleanup</a> event callback function. This member is optional and can be set to <b>NULL</b> to indicate that the driver does not implement the function.
 
 
 ### -field EvtSerCx2CustomReceiveTransactionEnableNewDataNotification
 
-A pointer to the driver-implemented <a href="https://msdn.microsoft.com/C3E446AB-17AA-4FD8-8245-16D95134B0E7">EvtSerCx2CustomReceiveTransactionEnableNewDataNotification</a> event callback function. This member is optional and can be set to <b>NULL</b> to indicate that the driver does not implement the function.
+A pointer to the driver-implemented <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/dn265201(v=vs.85)">EvtSerCx2CustomReceiveTransactionEnableNewDataNotification</a> event callback function. This member is optional and can be set to <b>NULL</b> to indicate that the driver does not implement the function.
 
 
 ### -field EvtSerCx2CustomReceiveTransactionQueryProgress
 
-A pointer to the driver-implemented <a href="https://msdn.microsoft.com/B0B08257-E867-4E22-949E-555AD44C2DDE">EvtSerCx2CustomReceiveTransactionQueryProgress</a> event callback function. This member must point to a valid function.
+A pointer to the driver-implemented <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/dn265203(v=vs.85)">EvtSerCx2CustomReceiveTransactionQueryProgress</a> event callback function. This member must point to a valid function.
 
 
 ## -remarks
 
 
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/dn265251">SerCx2CustomReceiveTransactionCreate</a> method accepts a pointer to a <b>SERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG</b> structure as an input parameter. Before calling <b>SerCx2CustomReceiveTransactionInitialize</b>, call the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265316">SERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG_INIT</a> function to initialize this structure.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sercx/nf-sercx-sercx2customreceivetransactioncreate">SerCx2CustomReceiveTransactionCreate</a> method accepts a pointer to a <b>SERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG</b> structure as an input parameter. Before calling <b>SerCx2CustomReceiveTransactionInitialize</b>, call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sercx/nf-sercx-sercx2_custom_receive_transaction_config_init">SERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG_INIT</a> function to initialize this structure.
 
 
 
@@ -98,31 +98,31 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/dn265251">SerCx
 
 
 
-<a href="https://msdn.microsoft.com/72AF3D52-D109-42A7-9F25-14A3F5EDC94A">EvtSerCx2CustomReceiveTransactionCleanup</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sercx/nc-sercx-evt_sercx2_custom_receive_transaction_cleanup">EvtSerCx2CustomReceiveTransactionCleanup</a>
 
 
 
-<a href="https://msdn.microsoft.com/C3E446AB-17AA-4FD8-8245-16D95134B0E7">EvtSerCx2CustomReceiveTransactionEnableNewDataNotification</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/dn265201(v=vs.85)">EvtSerCx2CustomReceiveTransactionEnableNewDataNotification</a>
 
 
 
-<a href="https://msdn.microsoft.com/B3C23236-2A35-456A-B461-AEC688ACA5B7">EvtSerCx2CustomReceiveTransactionInitialize</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sercx/nc-sercx-evt_sercx2_custom_receive_transaction_initialize">EvtSerCx2CustomReceiveTransactionInitialize</a>
 
 
 
-<a href="https://msdn.microsoft.com/B0B08257-E867-4E22-949E-555AD44C2DDE">EvtSerCx2CustomReceiveTransactionQueryProgress</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/dn265203(v=vs.85)">EvtSerCx2CustomReceiveTransactionQueryProgress</a>
 
 
 
-<a href="https://msdn.microsoft.com/F90250CC-EDBF-4DB7-B889-4BF6325FB0CD">EvtSerCx2CustomReceiveTransactionStart</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sercx/nc-sercx-evt_sercx2_custom_receive_transaction_start">EvtSerCx2CustomReceiveTransactionStart</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265316">SERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG_INIT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sercx/nf-sercx-sercx2_custom_receive_transaction_config_init">SERCX2_CUSTOM_RECEIVE_TRANSACTION_CONFIG_INIT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265251">SerCx2CustomReceiveTransactionCreate</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sercx/nf-sercx-sercx2customreceivetransactioncreate">SerCx2CustomReceiveTransactionCreate</a>
  
 
  

@@ -70,7 +70,7 @@ KSNOTIFICATIONID_AudioModule
 
 #### - PPCNOTIFICATION* [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/EEE091E4-29D1-4C6F-B543-C54736660CCA">PCNOTIFICATION_BUFFER</a> structure to send to the listening audio module UWP clients. 
+Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/ns-portcls-_pcnotification_buffer">PCNOTIFICATION_BUFFER</a> structure to send to the listening audio module UWP clients. 
 
 
 ## -returns
@@ -88,11 +88,11 @@ This function returns void.
 
 Pointer to the PCNOTIFICATION structure to send to Audio Module clients.
 
-The expected format of the payload is a <a href="https://msdn.microsoft.com/92A9462C-0E8C-4012-9374-3437BB220502">KSAUDIOMODULE_NOTIFICATION</a> structure. The miniport driver can optionally send additional information immediately following the <b>KSAUDIOMODULE_NOTIFICATION</b> structure that will be untouched and sent to the Audio Module clients.
+The expected format of the payload is a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-_ksaudiomodule_notification">KSAUDIOMODULE_NOTIFICATION</a> structure. The miniport driver can optionally send additional information immediately following the <b>KSAUDIOMODULE_NOTIFICATION</b> structure that will be untouched and sent to the Audio Module clients.
 
 
 
-For more information about audio modules, see <a href="https://msdn.microsoft.com/windows/hardware/drivers/audio/implementing-audio-module-communication">Implementing Audio Module Discovery</a>. 
+For more information about audio modules, see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/implementing-audio-module-communication">Implementing Audio Module Discovery</a>. 
 
 
 
@@ -102,7 +102,7 @@ For more information about audio modules, see <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/03F65E4E-C942-4748-8D3E-938A6AC51B2A">IPortClsNotifications</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iportclsnotifications">IPortClsNotifications</a>
  
 
  

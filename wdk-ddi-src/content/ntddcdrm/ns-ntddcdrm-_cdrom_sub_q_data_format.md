@@ -46,7 +46,7 @@ req.typenames: CDROM_SUB_Q_DATA_FORMAT, *PCDROM_SUB_Q_DATA_FORMAT
 ## -description
 
 
-The CDROM_SUB_Q_DATA_FORMAT structure is used with device control IRPs of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff559363">IOCTL_CDROM_READ_Q_CHANNEL</a>. 
+The CDROM_SUB_Q_DATA_FORMAT structure is used with device control IRPs of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_read_q_channel">IOCTL_CDROM_READ_Q_CHANNEL</a>. 
 
 
 ## -struct-fields
@@ -64,7 +64,7 @@ Specifies which subset of the Q data the read operation should return, as follow
 
 #### IOCTL_CDROM_CURRENT_POSITION
 
-Indicates that the read operation should return position information such as the track number, the index number, the absolute address, and the track relative address. If the IOCTL_CDROM_Q_CHANNEL device control IRP specifies this format, the information is returned in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567596">SUB_Q_CURRENT_POSITION</a> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567595">SUB_Q_CHANNEL_DATA</a> structure.
+Indicates that the read operation should return position information such as the track number, the index number, the absolute address, and the track relative address. If the IOCTL_CDROM_Q_CHANNEL device control IRP specifies this format, the information is returned in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdrm/ns-ntddcdrm-_sub_q_current_position">SUB_Q_CURRENT_POSITION</a> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdrm/ns-ntddcdrm-_sub_q_channel_data">SUB_Q_CHANNEL_DATA</a> structure.
 
 
 
@@ -72,7 +72,7 @@ Indicates that the read operation should return position information such as the
 
 #### IOCTL_CDROM_MEDIA_CATALOG
 
-Indicates that the read operation should return the media catalog number. If the IOCTL_CDROM_Q_CHANNEL device control IRP specifies this format, the information is returned in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567600">SUB_Q_MEDIA_CATALOG_NUMBER</a> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567595">SUB_Q_CHANNEL_DATA</a> structure.
+Indicates that the read operation should return the media catalog number. If the IOCTL_CDROM_Q_CHANNEL device control IRP specifies this format, the information is returned in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdrm/ns-ntddcdrm-_sub_q_media_catalog_number">SUB_Q_MEDIA_CATALOG_NUMBER</a> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdrm/ns-ntddcdrm-_sub_q_channel_data">SUB_Q_CHANNEL_DATA</a> structure.
 
 
 
@@ -80,7 +80,7 @@ Indicates that the read operation should return the media catalog number. If the
 
 #### IOCTL_CDROM_TRACK_ISRC
 
-Indicates that the read operation should return the ISO/IEC 3901 Track International Standard Recording Code (ISRC). This code gives a unique number to an audio track. If the IOCTL_CDROM_Q_CHANNEL device control IRP specifies this format, the information is returned in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567601">SUB_Q_TRACK_ISRC</a> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567595">SUB_Q_CHANNEL_DATA</a> structure.
+Indicates that the read operation should return the ISO/IEC 3901 Track International Standard Recording Code (ISRC). This code gives a unique number to an audio track. If the IOCTL_CDROM_Q_CHANNEL device control IRP specifies this format, the information is returned in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdrm/ns-ntddcdrm-_sub_q_track_isrc">SUB_Q_TRACK_ISRC</a> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdrm/ns-ntddcdrm-_sub_q_channel_data">SUB_Q_CHANNEL_DATA</a> structure.
 
 
 ### -field Track
@@ -102,23 +102,23 @@ The CDROM_SUB_Q_DATA_FORMAT structure indicates the track from which to read the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559363">IOCTL_CDROM_READ_Q_CHANNEL</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdrm/ni-ntddcdrm-ioctl_cdrom_read_q_channel">IOCTL_CDROM_READ_Q_CHANNEL</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567595">SUB_Q_CHANNEL_DATA</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdrm/ns-ntddcdrm-_sub_q_channel_data">SUB_Q_CHANNEL_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567596">SUB_Q_CURRENT_POSITION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdrm/ns-ntddcdrm-_sub_q_current_position">SUB_Q_CURRENT_POSITION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567600">SUB_Q_MEDIA_CATALOG_NUMBER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdrm/ns-ntddcdrm-_sub_q_media_catalog_number">SUB_Q_MEDIA_CATALOG_NUMBER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567601">SUB_Q_TRACK_ISRC</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdrm/ns-ntddcdrm-_sub_q_track_isrc">SUB_Q_TRACK_ISRC</a>
  
 
  

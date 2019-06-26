@@ -120,7 +120,7 @@ The method was successful.  However, the buffer <i>Buffer</i> was not large enou
 </table>
  
 
-This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 
 
@@ -131,9 +131,9 @@ This method may also return error values.  See <a href="https://msdn.microsoft.c
 
 The number of bytes this method attempts to read is the smaller of the size of the buffer and the size of the variable.
 
-This is a convenience method.  The same result can be obtained by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff549457">GetTypeSize</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff554359">ReadVirtual</a>.
+This is a convenience method.  The same result can be obtained by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols3-gettypesize">GetTypeSize</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugdataspaces4-readvirtual">ReadVirtual</a>.
 
-For more information about types, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558931">Types</a>.
+For more information about types, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/types">Types</a>.
 
 
 

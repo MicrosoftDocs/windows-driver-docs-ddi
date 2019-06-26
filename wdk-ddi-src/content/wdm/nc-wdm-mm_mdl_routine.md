@@ -47,7 +47,7 @@ req.typenames:
 
 
 A driver-supplied callback routine that is invoked after a memory descriptor
-    list (MDL)  is mapped by calling the <a href="https://msdn.microsoft.com/4272f7a2-9379-40dd-a0a1-784dd25bc8bc">MmMapMdl</a> function.
+    list (MDL)  is mapped by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-mmmapmdl">MmMapMdl</a> function.
 
 
 ## -parameters
@@ -80,7 +80,7 @@ This callback function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/4272f7a2-9379-40dd-a0a1-784dd25bc8bc">MmMapMdl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-mmmapmdl">MmMapMdl</a>
  
 
  

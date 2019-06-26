@@ -56,7 +56,7 @@ The <b>KsSetCorrelatedPhysicalTime</b> method sets the physical time with the co
 
 ### -param CorrelatedTime [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561033">KSCORRELATED_TIME</a> structure that contains the physical clock time along with the correlated system time to which to set the underlying clock. 
+Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-kscorrelated_time">KSCORRELATED_TIME</a> structure that contains the physical clock time along with the correlated system time to which to set the underlying clock. 
 
 
 ## -returns
@@ -72,7 +72,7 @@ Returns NOERROR if successful; otherwise, returns an error code.
 
 
 
-The proxy uses the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564461">KSPROPERTY_CLOCK_CORRELATEDPHYSICALTIME</a> property to set the correlated time. 
+The proxy uses the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-clock-correlatedphysicaltime">KSPROPERTY_CLOCK_CORRELATEDPHYSICALTIME</a> property to set the correlated time. 
 
 
 
@@ -82,15 +82,15 @@ The proxy uses the <a href="https://msdn.microsoft.com/library/windows/hardware/
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559733">IKsClockPropertySet::KsGetCorrelatedPhysicalTime</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nf-ksproxy-iksclockpropertyset-ksgetcorrelatedphysicaltime">IKsClockPropertySet::KsGetCorrelatedPhysicalTime</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561033">KSCORRELATED_TIME</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-kscorrelated_time">KSCORRELATED_TIME</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564461">KSPROPERTY_CLOCK_CORRELATEDPHYSICALTIME</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-clock-correlatedphysicaltime">KSPROPERTY_CLOCK_CORRELATEDPHYSICALTIME</a>
  
 
  

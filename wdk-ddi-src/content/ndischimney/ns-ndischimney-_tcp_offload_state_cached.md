@@ -60,7 +60,7 @@ The TCP_OFFLOAD_STATE_CACHED structure contains the cached variables of a TCP co
 ### -field Header
 
 An 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569062">OFFLOAD_STATE_HEADER</a> structure. NDIS
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/ns-ndischimney-_offload_state_header">OFFLOAD_STATE_HEADER</a> structure. NDIS
      sets the 
      <b>Length</b> member of 
      <b>Header</b> to the size, in bytes, of the TCP_OFFLOAD_STATE_CACHED structure. The 
@@ -124,7 +124,7 @@ The default receive window (from socket option SO_RCVBUF).
 
 When non-<b>NULL</b>, the optimum number of data bytes that the offload target should supply in a single
      call to the 
-     <a href="https://msdn.microsoft.com/a45dede9-6559-4207-a49f-d9627054433a">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/nc-ndischimney-ndis_tcp_offload_receive_indicate">
      NdisTcpOffloadReceiveHandler</a> function. This number, which is typically between tens and hundreds
      of bytes, is a suggestion--not a requirement. The offload target can indicate more or less than 
      <b>RcvIndicationSize</b> data bytes. However, for optimum performance, the offload target should indicate     
@@ -164,7 +164,7 @@ This member specifies, in clock ticks, the maximum time that the offload target 
      <b>MaxRT</b> is non-zero, 
      <b>MaxRT</b> overrides 
      <b>TcpMaximumRetransmissions</b> in the 
-     <a href="https://msdn.microsoft.com/d8c9fdf9-47aa-4492-b20a-4a53de191d97">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/ns-ndischimney-_ndis_tcp_connection_offload_parameters">
      NDIS_TASK_TCP_CONNECTION_OFFLOAD</a> structure. The default value for is 
      <b>MaxRT</b> is zero, which means that 
      <b>TcpMaximumRetransmissions</b> sets the maximum number of times that the offload target should
@@ -212,11 +212,11 @@ If the TCP connection is over IPv6, then this member prioritizes values for pack
 
 A 3-bit priority value. If the offload target supports 802.1p packet information, it must insert
      this priority value into the 
-     <a href="https://msdn.microsoft.com/70dedf56-0591-4296-ad29-df3c48d06987">tag header</a> of all packets that it transmits
+     <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff564233(v=vs.85)">tag header</a> of all packets that it transmits
      on the offloaded TCP connection. If the offload target does not support 802.1p packet information, it
      should ignore 
      <b>UserPriority</b> . For more information about supporting 802.1p packet information, see 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff570937">802.1Q
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/ns-ndischimney-_tcp_offload_state_cached">802.1Q
      and 802.1p Processing on an Offloaded TCP Connection</a>.
 
 
@@ -228,10 +228,10 @@ Cached variables are owned and maintained by the host stack. An offload target m
     value of a cached variable unless requested to do so by the host stack. If the value of a cached variable
     changes, the host stack requests an update of the variable, which causes NDIS to call the offload
     target's 
-    <a href="https://msdn.microsoft.com/b98b2e21-8b28-4da0-9cc9-6fa8cb6e5be7">MiniportUpdateOffload</a> function.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/nc-ndischimney-w_update_offload_handler">MiniportUpdateOffload</a> function.
     When the host stack terminates the offload of one or more state objects by causing NDIS to call the
     offload target's 
-    <a href="https://msdn.microsoft.com/1b808e3c-2d64-44c9-88d3-0a0311e1dc99">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/nc-ndischimney-w_terminate_offload_handler">
     MiniportTerminateOffload</a> function, the offload target does not return the value of offloaded
     constant variables to the host stack.
 
@@ -251,9 +251,9 @@ Reset that connection's delegated KeepaliveTimeoutDelta variable when the host s
 </li>
 </ul>
 When passed to an offload target, a TCP_OFFLOAD_STATE_CACHED structure is associated with an 
-    <a href="https://msdn.microsoft.com/ebc98e65-5d11-4c3d-aea1-dfad1434c093">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/ns-ndischimney-_ndis_miniport_offload_block_list">
     NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a> structure, which contains a header that is formatted as an 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure. The 
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure. The 
     <b>Revision</b> member of the NDIS_OBJECT_HEADER structure, in this case, specifies the revision number of
     the TCP_OFFLOAD_STATE_CACHED structure.
 
@@ -265,27 +265,27 @@ When passed to an offload target, a TCP_OFFLOAD_STATE_CACHED structure is associ
 
 
 
-<a href="https://msdn.microsoft.com/1b808e3c-2d64-44c9-88d3-0a0311e1dc99">MiniportTerminateOffload</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/nc-ndischimney-w_terminate_offload_handler">MiniportTerminateOffload</a>
 
 
 
-<a href="https://msdn.microsoft.com/b98b2e21-8b28-4da0-9cc9-6fa8cb6e5be7">MiniportUpdateOffload</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/nc-ndischimney-w_update_offload_handler">MiniportUpdateOffload</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569062">OFFLOAD_STATE_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/ns-ndischimney-_offload_state_header">OFFLOAD_STATE_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570938">TCP_OFFLOAD_STATE_CONST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/ns-ndischimney-_tcp_offload_state_const">TCP_OFFLOAD_STATE_CONST</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570939">TCP_OFFLOAD_STATE_DELEGATED</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/ns-ndischimney-_tcp_offload_state_delegated">TCP_OFFLOAD_STATE_DELEGATED</a>
  
 
  

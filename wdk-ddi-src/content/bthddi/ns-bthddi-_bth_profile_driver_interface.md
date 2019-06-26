@@ -60,37 +60,37 @@ The BTH_PROFILE_DRIVER_INTERFACE structure provides functions to allocate, free,
 A structure that describes the 
      <b>BTH_PROFILE_DRIVER_INTERFACE</b> interface for use by profile drivers. For more information about this
      structure, see 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/dn895657">INTERFACE</a>.
+     <a href="https://docs.microsoft.com/windows-hardware/customize/desktop/unattend/microsoft-windows-netbt-interfaces-interface">INTERFACE</a>.
 
 
 ### -field BthAllocateBrb
 
 Pointer to the 
-     <a href="https://msdn.microsoft.com/e1ac9d4c-75e2-4d37-86d7-3c3f1486222e">BthAllocateBrb</a> function.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/nc-bthddi-pfnbth_allocate_brb">BthAllocateBrb</a> function.
 
 
 ### -field BthFreeBrb
 
 Pointer to the 
-     <a href="https://msdn.microsoft.com/fc24cdaf-0695-4e10-82be-a7f7a916f550">BthFreeBrb</a> function.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/nc-bthddi-pfnbth_free_brb">BthFreeBrb</a> function.
 
 
 ### -field BthInitializeBrb
 
 Pointer to the 
-     <a href="https://msdn.microsoft.com/0b822d28-edaa-40cc-a678-112a356d9022">BthInitializeBrb</a> function.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/nc-bthddi-pfnbth_initialize_brb">BthInitializeBrb</a> function.
 
 
 ### -field BthReuseBrb
 
 Pointer to the 
-     <a href="https://msdn.microsoft.com/cdf156a1-1556-441a-ae3d-9a49daf47990">BthReuseBrb</a> function.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/nc-bthddi-pfnbth_reuse_brb">BthReuseBrb</a> function.
 
 
 ### -field IsBluetoothVersionAvailable
 
 Pointer to the 
-     <a href="https://msdn.microsoft.com/10662237-18b4-4f37-a704-985b2db0d689">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/nc-bthddi-pfnbth_is_bluetooth_version_available">
      IsBluetoothVersionAvailable</a> function.
 
 
@@ -113,27 +113,27 @@ All the members of this structure, other than the
 
 
 
-<a href="https://msdn.microsoft.com/e1ac9d4c-75e2-4d37-86d7-3c3f1486222e">BthAllocateBrb</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/nc-bthddi-pfnbth_allocate_brb">BthAllocateBrb</a>
 
 
 
-<a href="https://msdn.microsoft.com/fc24cdaf-0695-4e10-82be-a7f7a916f550">BthFreeBrb</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/nc-bthddi-pfnbth_free_brb">BthFreeBrb</a>
 
 
 
-<a href="https://msdn.microsoft.com/0b822d28-edaa-40cc-a678-112a356d9022">BthInitializeBrb</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/nc-bthddi-pfnbth_initialize_brb">BthInitializeBrb</a>
 
 
 
-<a href="https://msdn.microsoft.com/cdf156a1-1556-441a-ae3d-9a49daf47990">BthReuseBrb</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/nc-bthddi-pfnbth_reuse_brb">BthReuseBrb</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn895657">INTERFACE</a>
+<a href="https://docs.microsoft.com/windows-hardware/customize/desktop/unattend/microsoft-windows-netbt-interfaces-interface">INTERFACE</a>
 
 
 
-<a href="https://msdn.microsoft.com/10662237-18b4-4f37-a704-985b2db0d689">IsBluetoothVersionAvailable</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/nc-bthddi-pfnbth_is_bluetooth_version_available">IsBluetoothVersionAvailable</a>
  
 
  

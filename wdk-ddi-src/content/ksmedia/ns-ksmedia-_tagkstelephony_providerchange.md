@@ -46,7 +46,7 @@ req.typenames: KSTELEPHONY_PROVIDERCHANGE, *PKSTELEPHONY_PROVIDERCHANGE
 ## -description
 
 
-The <b>KSTELEPHONY_PROVIDERCHANGE</b> structure specifies the phone call type and provider change operation to use for the <a href="https://msdn.microsoft.com/library/windows/hardware/mt169876">KSPROPERTY_TELEPHONY_PROVIDERCHANGE</a> property.
+The <b>KSTELEPHONY_PROVIDERCHANGE</b> structure specifies the phone call type and provider change operation to use for the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-telephony-providerchange">KSPROPERTY_TELEPHONY_PROVIDERCHANGE</a> property.
 
 
 ## -struct-fields

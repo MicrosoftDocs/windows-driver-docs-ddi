@@ -67,7 +67,7 @@ This operation can be performed in either of the following ways:
 
 <ul>
 <li>
-Call <a href="https://msdn.microsoft.com/library/windows/hardware/ff544516">FltSetInformationFile</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff567096">ZwSetInformationFile</a>, passing FileAllocationInformation as the value of <i>FileInformationClass</i> and passing a caller-allocated, FILE_ALLOCATION_INFORMATION-structured buffer as the value of <i>FileInformation</i>. The <i>FileHandle</i> parameter specifies the file whose allocation size is to be set. 
+Call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltsetinformationfile">FltSetInformationFile</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-ntsetinformationfile">ZwSetInformationFile</a>, passing FileAllocationInformation as the value of <i>FileInformationClass</i> and passing a caller-allocated, FILE_ALLOCATION_INFORMATION-structured buffer as the value of <i>FileInformation</i>. The <i>FileHandle</i> parameter specifies the file whose allocation size is to be set. 
 
 </li>
 <li>
@@ -77,13 +77,13 @@ Create an IRP with major function code IRP_MJ_SET_INFORMATION.
 </ul>
 This operation is valid only for files. It is undefined for directories. 
 
-File system minifilters must use <a href="https://msdn.microsoft.com/library/windows/hardware/ff544516">FltSetInformationFile</a>, not <a href="https://msdn.microsoft.com/library/windows/hardware/ff567096">ZwSetInformationFile</a>, to set the allocation size for a file. 
+File system minifilters must use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltsetinformationfile">FltSetInformationFile</a>, not <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-ntsetinformationfile">ZwSetInformationFile</a>, to set the allocation size for a file. 
 
 FILE_WRITE_DATA access is required to set this information. 
 
 A file's allocation size and end-of-file position are independent of each other, with the following exception: The end-of-file position must always be less than or equal to the allocation size. If the allocation size is set to a value that is less than the end-of-file position, the end-of-file position is automatically adjusted to match the allocation size. 
 
-The size of the <i>FileInformation</i> buffer passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff544516">FltSetInformationFile</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff567096">ZwSetInformationFile</a> must be >= <b>sizeof</b>(FILE_ALLOCATION_INFORMATION). 
+The size of the <i>FileInformation</i> buffer passed to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltsetinformationfile">FltSetInformationFile</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-ntsetinformationfile">ZwSetInformationFile</a> must be >= <b>sizeof</b>(FILE_ALLOCATION_INFORMATION). 
 
 This structure must be aligned on a LONGLONG (8-byte) boundary. 
 
@@ -95,19 +95,19 @@ This structure must be aligned on a LONGLONG (8-byte) boundary.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545780">FILE_END_OF_FILE_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_file_end_of_file_information">FILE_END_OF_FILE_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544516">FltSetInformationFile</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltsetinformationfile">FltSetInformationFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549366">IRP_MJ_SET_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-set-information">IRP_MJ_SET_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567096">ZwSetInformationFile</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-ntsetinformationfile">ZwSetInformationFile</a>
  
 
  

@@ -94,7 +94,7 @@ Receives a pointer to the allocated ECP context structure.  If the routine faile
 
 ## -remarks
 
-By default, the **FltAllocateExtraCreateParameter** routine allocates paged memory pool for a user-defined ECP context structure.  If the FSRTL_ALLOCATE_ECP_FLAG_NONPAGED_POOL bitmask is used as described above, a non-paged memory pool is allocated.  Once this pool has been allocated and the ECP context structure has been initialized, the [FltInsertExtraCreateParameter](https://msdn.microsoft.com/library/windows/hardware/ff543305) routine is used to insert the ECP context structure (ECP list element) into an ECP list structure (ECP list).
+By default, the **FltAllocateExtraCreateParameter** routine allocates paged memory pool for a user-defined ECP context structure.  If the FSRTL_ALLOCATE_ECP_FLAG_NONPAGED_POOL bitmask is used as described above, a non-paged memory pool is allocated.  Once this pool has been allocated and the ECP context structure has been initialized, the [FltInsertExtraCreateParameter](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltinsertextracreateparameter) routine is used to insert the ECP context structure (ECP list element) into an ECP list structure (ECP list).
 
 Memory pool that is allocated by the **FltAllocateExtraCreateParameter** routine is not automatically freed by the operating system.  This memory pool must eventually be released by using one of the following methods:
 
@@ -106,7 +106,7 @@ Memory pool that is allocated by the **FltAllocateExtraCreateParameter** routine
 
 ## -see-also
 
-[ECP_LIST](https://msdn.microsoft.com/library/windows/hardware/ff540148)
+[ECP_LIST](https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff540148(v=vs.85))
 
 [FltAllocateExtraCreateParameterFromLookasideList](nf-fltkernel-fltallocateextracreateparameterfromlookasidelist.md)
 

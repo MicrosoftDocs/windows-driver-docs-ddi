@@ -73,7 +73,7 @@ If the lookaside list has not reached the system-determined maximum number of en
     <b>NdisFreeToNPagedLookasideList</b> either calls the driver's 
     <i>Free</i> function, specified in the 
     <i>Free</i> parameter if the driver provided one to the 
-    <a href="https://msdn.microsoft.com/d240f2cc-18a6-4c2d-889f-e25a9486d5fe">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisinitializenpagedlookasidelist">
     NdisInitializeNPagedLookasideList</a> function, or it frees the given entry itself.
 
 
@@ -84,17 +84,17 @@ If the lookaside list has not reached the system-determined maximum number of en
 
 
 
-<a href="https://msdn.microsoft.com/df690a05-359d-44f0-b063-4fc21d6c4d76">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisallocatefromnpagedlookasidelist">
    NdisAllocateFromNPagedLookasideList</a>
 
 
 
-<a href="https://msdn.microsoft.com/0622d3db-8d28-4c15-a3d8-1092487b8096">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisdeletenpagedlookasidelist">
    NdisDeleteNPagedLookasideList</a>
 
 
 
-<a href="https://msdn.microsoft.com/d240f2cc-18a6-4c2d-889f-e25a9486d5fe">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisinitializenpagedlookasidelist">
    NdisInitializeNPagedLookasideList</a>
  
 

@@ -46,7 +46,7 @@ req.typenames: DXGKARG_CONTROLINTERRUPT2
 ## -description
 
 
-The DXGKARG_CONTROLINTERRUPT2 structure is used in <a href="https://msdn.microsoft.com/library/windows/hardware/mt667971">DxgkDdi_ControlInterrupt2</a> calls to describe the state of interrupts. 
+The DXGKARG_CONTROLINTERRUPT2 structure is used in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_controlinterrupt2">DxgkDdi_ControlInterrupt2</a> calls to describe the state of interrupts. 
 
 
 ## -struct-fields
@@ -74,7 +74,7 @@ Indicates whether VSYNCs are enabled if interrupts are also enabled for the driv
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt667971">DxgkDdi_ControlInterrupt2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_controlinterrupt2">DxgkDdi_ControlInterrupt2</a>
  
 
  

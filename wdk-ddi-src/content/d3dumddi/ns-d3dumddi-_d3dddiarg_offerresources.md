@@ -46,7 +46,7 @@ req.typenames: D3DDDIARG_OFFERRESOURCES
 ## -description
 
 
- Describes video memory resources that the user-mode display driver offers for reuse. Used with the <a href="https://msdn.microsoft.com/68551AD7-AC0C-4138-948F-33773F02DA41">OfferResources</a>  function.
+ Describes video memory resources that the user-mode display driver offers for reuse. Used with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_offerresources">OfferResources</a>  function.
 
 
 ## -struct-fields
@@ -66,14 +66,14 @@ req.typenames: D3DDDIARG_OFFERRESOURCES
 
 ### -field Priority
 
-[in] A value of type <a href="https://msdn.microsoft.com/library/windows/hardware/hh439275">D3DDDI_OFFER_PRIORITY</a> that indicates the importance of the resources pointed to by <b>pResources</b>.
+[in] A value of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dukmdt/ne-d3dukmdt-_d3dddi_offer_priority">D3DDDI_OFFER_PRIORITY</a> that indicates the importance of the resources pointed to by <b>pResources</b>.
 
 
 ## -remarks
 
 
 
-This structure is pointed to by  the <i>pData</i> parameter of the <a href="https://msdn.microsoft.com/68551AD7-AC0C-4138-948F-33773F02DA41">OfferResources</a> routine.
+This structure is pointed to by  the <i>pData</i> parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_offerresources">OfferResources</a> routine.
 
 
 
@@ -83,11 +83,11 @@ This structure is pointed to by  the <i>pData</i> parameter of the <a href="http
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439275">D3DDDI_OFFER_PRIORITY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dukmdt/ne-d3dukmdt-_d3dddi_offer_priority">D3DDDI_OFFER_PRIORITY</a>
 
 
 
-<a href="https://msdn.microsoft.com/68551AD7-AC0C-4138-948F-33773F02DA41">OfferResources</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_offerresources">OfferResources</a>
  
 
  

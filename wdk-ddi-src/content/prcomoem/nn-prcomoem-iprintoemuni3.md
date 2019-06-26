@@ -48,14 +48,14 @@ req.typenames:
 
 This section describes the methods defined for the <b>IPrintOemUni3</b> COM interface.
 
-The <b>IPrintOemUni3</b> COM interface includes its own methods as well as those that belong to <a href="https://msdn.microsoft.com/097366a0-2ded-435c-9b63-2b736b716032">IPrintOemUni</a> COM interface and the <a href="https://msdn.microsoft.com/789ca699-89b3-41d3-9167-812f1a9eb3bc">IPrintOemUni2</a> COM interface.
+The <b>IPrintOemUni3</b> COM interface includes its own methods as well as those that belong to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nn-prcomoem-iprintoemuni">IPrintOemUni</a> COM interface and the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nn-prcomoem-iprintoemuni2">IPrintOemUni2</a> COM interface.
 
 The <b>IPrintOemUni3</b> COM interface is available in Windows Vista and later.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintOemUni3</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IPrintOemUni3</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintOemUni3</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IPrintOemUni3</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IPrintOemUni3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7604a6df-c73a-4114-916f-1e777a323731">DownloadPattern</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintoemuni3-downloadpattern">DownloadPattern</a>
 </td>
 <td align="left" width="63%">
 The <code>IPrintOemUni3::DownloadPattern</code> method downloads a pattern to a printer.
@@ -79,7 +79,7 @@ The <code>IPrintOemUni3::DownloadPattern</code> method downloads a pattern to a 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a1de8e8f-eca1-4630-b689-585027184a08">GetImplementedMethod</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintoemuni3-getimplementedmethod">GetImplementedMethod</a>
 </td>
 <td align="left" width="63%">
 The <code>IPrintOemUni3::GetImplementedMethod</code> method is used by Unidrv to determine which <b>IPrintOemUni</b> interface methods a rendering plug-in has implemented.
@@ -88,16 +88,16 @@ The <code>IPrintOemUni3::GetImplementedMethod</code> method is used by Unidrv to
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bb7d7248-9520-4bc8-8483-b05b78608fc7">GetPDEVAdjustment</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintoemuni3-getpdevadjustment">GetPDEVAdjustment</a>
 </td>
 <td align="left" width="63%">
-The <code>IPrintOemUni3::GetPDEVAdjustment</code> method enables a plug-in to override specific <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">PDEV</a> settings.
+The <code>IPrintOemUni3::GetPDEVAdjustment</code> method enables a plug-in to override specific <a href="https://docs.microsoft.com/windows-hardware/drivers/">PDEV</a> settings.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e75fdfa5-2b25-4d89-b3ef-40cb445f874f">SetBandSize</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintoemuni3-setbandsize">SetBandSize</a>
 </td>
 <td align="left" width="63%">
 The <code>IPrintOemUni3::SetBandSize</code> method can be used with Unidrv-supported printers to specify the desired band size on the printed output.

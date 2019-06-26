@@ -72,11 +72,11 @@ If the operation succeeds, the function returns <b>TRUE</b>. Otherwise the funct
 
 
 
-A print provider's <a href="https://msdn.microsoft.com/library/windows/hardware/ff561930">RefreshPrinterChangeNotification</a> function should call <code>RouterFreePrinterNotifyInfo</code> to deallocate structures previously allocated by <a href="https://msdn.microsoft.com/library/windows/hardware/ff562007">RouterAllocPrinterNotifyInfo</a>, but only if <b>RefreshPrinterChangeNotification</b> encounters a error. If <b>RefreshPrinterChangeNotification</b> succeeds, you should assume that the client application will deallocate the structures.
+A print provider's <a href="https://docs.microsoft.com/previous-versions/ff561930(v=vs.85)">RefreshPrinterChangeNotification</a> function should call <code>RouterFreePrinterNotifyInfo</code> to deallocate structures previously allocated by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-routerallocprinternotifyinfo">RouterAllocPrinterNotifyInfo</a>, but only if <b>RefreshPrinterChangeNotification</b> encounters a error. If <b>RefreshPrinterChangeNotification</b> succeeds, you should assume that the client application will deallocate the structures.
 
 Besides deallocating the specified PRINTER_NOTIFY_INFO structure and its associated PRINTER_NOTIFY_INFO_DATA structure array, the function also deallocates buffer space pointed to by <i>pBuf</i> in any element of the PRINTER_NOTIFY_INFO_DATA structure array.
 
-For additional information, see <a href="https://msdn.microsoft.com/e75c6f89-9cef-4900-af89-edf1f7f786c7">Supporting Printer Change Notifications</a>.
+For additional information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/supporting-printer-change-notifications">Supporting Printer Change Notifications</a>.
 
 
 
@@ -86,11 +86,11 @@ For additional information, see <a href="https://msdn.microsoft.com/e75c6f89-9ce
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561930">RefreshPrinterChangeNotification</a>
+<a href="https://docs.microsoft.com/previous-versions/ff561930(v=vs.85)">RefreshPrinterChangeNotification</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562007">RouterAllocPrinterNotifyInfo</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-routerallocprinternotifyinfo">RouterAllocPrinterNotifyInfo</a>
  
 
  

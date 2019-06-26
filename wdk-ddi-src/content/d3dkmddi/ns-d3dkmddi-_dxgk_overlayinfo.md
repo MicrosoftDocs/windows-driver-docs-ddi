@@ -71,7 +71,7 @@ The DXGK_OVERLAYINFO structure describes parameters that are required to create 
 
 ### -field DstRect
 
-[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that contains the overlay destination rectangle, in device coordinates.
+[in] A <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a> structure that contains the overlay destination rectangle, in device coordinates.
 
 
 ### -field SrcRect
@@ -94,23 +94,23 @@ The DXGK_OVERLAYINFO structure describes parameters that are required to create 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557572">DXGKARG_CREATEOVERLAY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_createoverlay">DXGKARG_CREATEOVERLAY</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559496">DXGKARG_UPDATEOVERLAY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_updateoverlay">DXGKARG_UPDATEOVERLAY</a>
 
 
 
-<a href="https://msdn.microsoft.com/1ccdd16d-fd76-4039-b538-86c77b4e8cbb">DxgkDdiCreateOverlay</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_createoverlay">DxgkDdiCreateOverlay</a>
 
 
 
-<a href="https://msdn.microsoft.com/b131dbb9-1e11-4d04-97cb-e15ec2b025c7">DxgkDdiUpdateOverlay</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_updateoverlay">DxgkDdiUpdateOverlay</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a>
  
 
  

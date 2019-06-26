@@ -57,8 +57,8 @@ A bitmask of flags that control the attributes of the lock.
 
 ## -remarks
 
-<b>FltReleasePushLock</b> releases a push lock that was previously acquired by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff541667">FltAcquirePushLockExclusive</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff541672">FltAcquirePushLockShared</a>. 
+<b>FltReleasePushLock</b> releases a push lock that was previously acquired by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltacquirepushlockexclusive">FltAcquirePushLockExclusive</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltacquirepushlockshared">FltAcquirePushLockShared</a>. 
 
-Because <b>FltReleasePushLock</b> reenables normal kernel APC delivery, it is not necessary to call <a href="https://msdn.microsoft.com/library/windows/hardware/ff552964">KeLeaveCriticalRegion</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff545908">FsRtlExitFileSystem</a> after calling <b>FltReleasePushLock</b>. 
+Because <b>FltReleasePushLock</b> reenables normal kernel APC delivery, it is not necessary to call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-keleavecriticalregion">KeLeaveCriticalRegion</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/fsrtlexitfilesystem">FsRtlExitFileSystem</a> after calling <b>FltReleasePushLock</b>. 
 
 ## -see-also

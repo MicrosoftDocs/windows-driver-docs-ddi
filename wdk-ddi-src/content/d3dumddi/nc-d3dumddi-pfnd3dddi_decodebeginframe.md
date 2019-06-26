@@ -64,7 +64,7 @@ A handle to the display device (graphics context).
 
 *pData* [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542987">D3DDDIARG_DECODEBEGINFRAME</a> structure that describes information for the DirectX VA decoder to start decoding a frame.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_decodebeginframe">D3DDDIARG_DECODEBEGINFRAME</a> structure that describes information for the DirectX VA decoder to start decoding a frame.
 
 
 ## -returns
@@ -76,13 +76,13 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 | **Return code** | **Description** | 
 |:--|:--|
 | **S_OK** | Decoding successfully began. | 
-| **E_OUTOFMEMORY** | [DecodeBeginFrame](https://msdn.microsoft.com/3e6153aa-7b21-429d-8908-1ff3a4d25e17)  could not allocate the required memory for it to complete. | 
+| **E_OUTOFMEMORY** | [DecodeBeginFrame](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_decodebeginframe)  could not allocate the required memory for it to complete. | 
 
 ## -remarks
 
 
 
-The <b>DecodeBeginFrame</b> function notifies the user-mode display driver that its <a href="https://msdn.microsoft.com/e12496c0-e3e4-437e-9f84-a30ee99b4541">DecodeExecute</a> function can be called on the specified decode device.
+The <b>DecodeBeginFrame</b> function notifies the user-mode display driver that its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_decodeexecute">DecodeExecute</a> function can be called on the specified decode device.
 
 
 
@@ -92,15 +92,15 @@ The <b>DecodeBeginFrame</b> function notifies the user-mode display driver that 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542987">D3DDDIARG_DECODEBEGINFRAME</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_decodebeginframe">D3DDDIARG_DECODEBEGINFRAME</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>
 
 
 
-<a href="https://msdn.microsoft.com/e12496c0-e3e4-437e-9f84-a30ee99b4541">DecodeExecute</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_decodeexecute">DecodeExecute</a>
  
 
  

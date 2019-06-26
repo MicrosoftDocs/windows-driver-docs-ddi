@@ -58,9 +58,9 @@ NDIS calls a driver's
 
 ### -param NdisDriverHandle [in]
 
-A handle that identifies a driver. NDIS returns this handle to the driver when it returns from the driver registration function (<a href="https://msdn.microsoft.com/bed68aa8-499d-41fd-997b-a46316913cc8">
-     NdisMRegisterMiniportDriver</a> for miniport drivers, <a href="https://msdn.microsoft.com/b48571eb-13a2-4541-80ac-c8d31f378d37">
-     NdisRegisterProtocolDriver</a> for protocol drivers, and <a href="https://msdn.microsoft.com/14381de2-36d9-4ec8-9d4e-7af3e6d8ecf3">
+A handle that identifies a driver. NDIS returns this handle to the driver when it returns from the driver registration function (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismregisterminiportdriver">
+     NdisMRegisterMiniportDriver</a> for miniport drivers, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisregisterprotocoldriver">
+     NdisRegisterProtocolDriver</a> for protocol drivers, and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisfregisterfilterdriver">
      NdisFRegisterFilterDriver</a> for filter drivers).
 
 
@@ -135,7 +135,7 @@ The driver's attempt to register options failed. Usually, such an error status i
 <i>XxxSetOptions</i> registers optional services and can allocate other driver resources. To register
     optional 
     <i>MiniportXxx</i>, <i>ProtocolXxx</i>, or <i>FilterXxx</i> functions, the driver calls the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff564550">NdisSetOptionalHandlers</a> function.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndissetoptionalhandlers">NdisSetOptionalHandlers</a> function.
     The driver passes the handle from the 
     <i>NdisDriverHandle</i> parameter at the 
     <i>NdisHandle</i> parameter of 
@@ -145,28 +145,28 @@ The driver's attempt to register options failed. Usually, such an error status i
 Miniport drivers can apply to the optional services defined in the following characteristics structures:<dl>
 <dd>
 
-<a href="https://msdn.microsoft.com/9348c338-9fb4-4eee-a50f-f709748da56b">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_miniport_co_characteristics">
        NDIS_MINIPORT_CO_CHARACTERISTICS</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/97820a22-aa20-4d47-a4c2-0c0d50540823">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_miniport_pnp_characteristics">
        NDIS_MINIPORT_PNP_CHARACTERISTICS</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/12d541e1-04dd-4512-827e-d27f16260fe3">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_co_call_manager_optional_handlers">
        NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/e80a9999-2e4e-4da0-8aae-54ee71d9249d">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/ns-ndischimney-_ndis_provider_chimney_offload_generic_characteristics">
       NDIS_PROVIDER_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS</a>(see 
       <a href="https://docs.microsoft.com/windows-hardware/drivers/network/full-tcp-offload">NDIS 6.0 TCP chimney offload
       documentation</a>)
@@ -174,7 +174,7 @@ Miniport drivers can apply to the optional services defined in the following cha
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/3eabbad5-b84b-4034-a0b6-d4d515cbc117">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/ns-ndischimney-_ndis_provider_chimney_offload_tcp_characteristics">
       NDIS_PROVIDER_CHIMNEY_OFFLOAD_TCP_CHARACTERISTICS</a>(see 
       <a href="https://docs.microsoft.com/windows-hardware/drivers/network/full-tcp-offload">NDIS 6.0 TCP chimney offload
       documentation</a>)
@@ -186,21 +186,21 @@ Miniport drivers can apply to the optional services defined in the following cha
 Protocol drivers can apply to the optional services defined in the following characteristics structures:<dl>
 <dd>
 
-<a href="https://msdn.microsoft.com/855e3231-502c-4c6f-99f9-7ad85354ccd5">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_protocol_co_characteristics">
        NDIS_PROTOCOL_CO_CHARACTERISTICS</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/1f2285bb-be70-4496-905d-89106bf3712a">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_co_client_optional_handlers">
        NDIS_CO_CLIENT_OPTIONAL_HANDLERS</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/12d541e1-04dd-4512-827e-d27f16260fe3">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_co_call_manager_optional_handlers">
        NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS</a>
 
 
@@ -212,7 +212,7 @@ There are no optional filter driver services in the current Windows version.
 
 NDIS can call the driver's other 
     <i>MiniportXxx</i>,  <i>ProtocolXxx</i>, or <i>FilterXxx</i> functions at any time after 
-    <i>XxxSetOptions</i> returns. The driver should be prepared to be called back at its initialization function:(<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> for miniport drivers, <a href="https://msdn.microsoft.com/1958722e-012e-4110-a82c-751744bcf9b5">ProtocolBindAdapterEx</a> for protocol drivers, and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_attach">FilterAttach</a> for filter drivers).
+    <i>XxxSetOptions</i> returns. The driver should be prepared to be called back at its initialization function:(<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> for miniport drivers, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_bind_adapter_ex">ProtocolBindAdapterEx</a> for protocol drivers, and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_attach">FilterAttach</a> for filter drivers).
 
 For miniport drivers, the
 miniport adapters are in the 
@@ -234,7 +234,7 @@ NDIS calls
     <i>XxxSetOptions</i> at IRQL = PASSIVE_LEVEL.
 
 <h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>
-To define a <i>XxxSetOptions</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
+To define a <i>XxxSetOptions</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/code-analysis-for-drivers">Code Analysis for Drivers</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
 
 In the Ndis.h header file, the SET_OPTIONS callback function is further defined as follows:<pre class="syntax" xml:space="preserve"><code>typedef SET_OPTIONS (*SET_OPTIONS_HANDLER);
 typedef SET_OPTIONS (MINIPORT_SET_OPTIONS);
@@ -271,7 +271,7 @@ NDIS_STATUS
 </td>
 </tr>
 </table></span></div>
-The <b>SET_OPTIONS</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>SET_OPTIONS</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/232c4272-0bf0-4a4e-9560-3bceeca8a3e3">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
+The <b>SET_OPTIONS</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>SET_OPTIONS</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
 For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
 
@@ -283,34 +283,34 @@ For information about  _Use_decl_annotations_, see <a href="https://go.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/12d541e1-04dd-4512-827e-d27f16260fe3">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_co_call_manager_optional_handlers">
    NDIS_CO_CALL_MANAGER_OPTIONAL_HANDLERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/1f2285bb-be70-4496-905d-89106bf3712a">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_co_client_optional_handlers">
    NDIS_CO_CLIENT_OPTIONAL_HANDLERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/855e3231-502c-4c6f-99f9-7ad85354ccd5">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_protocol_co_characteristics">
    NDIS_PROTOCOL_CO_CHARACTERISTICS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563715">NdisOpenAdapterEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564520">NdisRegisterProtocolDriver</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisregisterprotocoldriver">NdisRegisterProtocolDriver</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564550">NdisSetOptionalHandlers</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndissetoptionalhandlers">NdisSetOptionalHandlers</a>
 
 
 
-<a href="https://msdn.microsoft.com/1958722e-012e-4110-a82c-751744bcf9b5">ProtocolBindAdapterEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_bind_adapter_ex">ProtocolBindAdapterEx</a>
  
 
  

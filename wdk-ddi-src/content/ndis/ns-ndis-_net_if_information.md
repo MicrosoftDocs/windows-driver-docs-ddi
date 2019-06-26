@@ -58,7 +58,7 @@ The NET_IF_INFORMATION structure provides NDIS with information about a register
 ### -field Header
 
 The 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
      interface information structure (NET_IF_INFORMATION). The provider sets the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to NDIS_OBJECT_TYPE_DEFAULT, the 
@@ -109,7 +109,7 @@ Reserved for NDIS.
 ### -field PhysicalLocation
 
 The physical location for the hardware that is associated with an interface specified in a 
-     <a href="https://msdn.microsoft.com/e5661e05-a83f-4632-af98-2a021eeb7d80">
+     <a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ns-ifdef-_net_physical_location_lh">
      NET_PHYSICAL_LOCATION</a> structure.
 
 
@@ -128,21 +128,21 @@ The NDIS port number for the interface.
 ### -field AccessType
 
 A 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568739">NET_IF_ACCESS_TYPE</a> NDIS network interface
+     <a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ne-ifdef-_net_if_access_type">NET_IF_ACCESS_TYPE</a> NDIS network interface
      access type.
 
 
 ### -field DirectionType
 
 A 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568742">NET_IF_DIRECTION_TYPE</a> NDIS network
+     <a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ne-ifdef-_net_if_direction_type">NET_IF_DIRECTION_TYPE</a> NDIS network
      interface direction type.
 
 
 ### -field ConnectionType
 
 A 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568741">NET_IF_CONNECTION_TYPE</a> NDIS network
+     <a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ne-ifdef-_net_if_connection_type">NET_IF_CONNECTION_TYPE</a> NDIS network
      interface connection type.
 
 
@@ -165,7 +165,7 @@ The length, in bytes, of the physical address or MAC address. This length is the
 The offset of the current physical address, in bytes, from the beginning of this structure. The
      current physical address is an array of bytes. The length of the array is specified in the 
      <b>PhysAddressLength</b> member. The current physical address is the same value that the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569069">OID_802_3_CURRENT_ADDRESS</a> OID
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-802-3-current-address">OID_802_3_CURRENT_ADDRESS</a> OID
      returns.
 
 
@@ -174,7 +174,7 @@ The offset of the current physical address, in bytes, from the beginning of this
 The offset of the permanent physical address, in bytes, from the beginning of this structure. The
      permanent physical address is an array of bytes. The length of the array is specified in the 
      <b>PhysAddressLength</b> member. The permanent physical address is the same value that the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569074">OID_802_3_PERMANENT_ADDRESS</a> OID
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-802-3-permanent-address">OID_802_3_PERMANENT_ADDRESS</a> OID
      returns.
 
 
@@ -197,9 +197,9 @@ The offset of the beginning of the friendly name, in bytes, from the beginning o
 
 The GUID that is associated with the interface. The interface provider generates the interface
      GUID for the interface. The provider can call the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff545658">ExUuidCreate</a> routine to create the GUID. The
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-exuuidcreate">ExUuidCreate</a> routine to create the GUID. The
      interface GUID should be associated with the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a> value that is assigned to the interface.
+     <a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a> value that is assigned to the interface.
      If the provider retains information about the interface in persistent storage, it should save the GUID
      and reuse the GUID when it reregisters the interface after the computer restarts.
 
@@ -215,7 +215,7 @@ The GUID that is associated with the network that the interface belongs to. If t
 
 The statistics that the interface supports. For more information, see the 
      <b>SupportedStatistics</b> member of the 
-     <a href="https://msdn.microsoft.com/5423d073-02a5-468b-b91e-713ac67a5253">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_miniport_adapter_general_attributes">
      NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES</a> structure .
 
 
@@ -223,13 +223,13 @@ The statistics that the interface supports. For more information, see the
 
 The 
      <b>NdisMedium</b><i>Xxx</i> type that the interface supports. For more information, see 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff565910">NDIS_MEDIUM</a>.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ne-ntddndis-_ndis_medium">NDIS_MEDIUM</a>.
 
 
 ### -field PhysicalMediumType
 
 The physical medium type for the interface. For more information, see 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569621">OID_GEN_PHYSICAL_MEDIUM</a>
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-physical-medium">OID_GEN_PHYSICAL_MEDIUM</a>
 
 
 
@@ -240,7 +240,7 @@ The physical medium type for the interface. For more information, see
 A network interface provider initializes a NET_IF_INFORMATION structure to provide NDIS with
     information about a registered interface. To register an interface, a provider passes a pointer to a
     NET_IF_INFORMATION structure to the 
-    <a href="https://msdn.microsoft.com/d0b0ada7-afb1-4cb7-ada6-7c5c7abe7d19">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisifregisterinterface">
     NdisIfRegisterInterface</a> function.
 
 The interface provider should allocate enough memory for the structure and the arrays that the 
@@ -257,56 +257,56 @@ The interface provider should allocate enough memory for the structure and the a
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545658">ExUuidCreate</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-exuuidcreate">ExUuidCreate</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565910">NDIS_MEDIUM</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ne-ntddndis-_ndis_medium">NDIS_MEDIUM</a>
 
 
 
-<a href="https://msdn.microsoft.com/5423d073-02a5-468b-b91e-713ac67a5253">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_miniport_adapter_general_attributes">
    NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568739">NET_IF_ACCESS_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ne-ifdef-_net_if_access_type">NET_IF_ACCESS_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568741">NET_IF_CONNECTION_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ne-ifdef-_net_if_connection_type">NET_IF_CONNECTION_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568742">NET_IF_DIRECTION_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ne-ifdef-_net_if_direction_type">NET_IF_DIRECTION_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ns-ifdef-net_luid_lh">NET_LUID</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568750">NET_PHYSICAL_LOCATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ns-ifdef-_net_physical_location_lh">NET_PHYSICAL_LOCATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562715">NdisIfRegisterInterface</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisifregisterinterface">NdisIfRegisterInterface</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569069">OID_802_3_CURRENT_ADDRESS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-802-3-current-address">OID_802_3_CURRENT_ADDRESS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569074">OID_802_3_PERMANENT_ADDRESS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-802-3-permanent-address">OID_802_3_PERMANENT_ADDRESS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569621">OID_GEN_PHYSICAL_MEDIUM</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-physical-medium">OID_GEN_PHYSICAL_MEDIUM</a>
 
 
 

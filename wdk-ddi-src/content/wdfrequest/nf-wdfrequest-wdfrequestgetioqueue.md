@@ -81,7 +81,7 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
-For more information about <b>WdfRequestGetIoQueue</b>, see <a href="https://msdn.microsoft.com/a686ea00-6987-480a-a4ce-892e1efbed87">Obtaining Information About an I/O Request</a>.
+For more information about <b>WdfRequestGetIoQueue</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/obtaining-information-about-an-i-o-request">Obtaining Information About an I/O Request</a>.
 
 
 #### Examples
@@ -108,7 +108,7 @@ device = WdfIoQueueGetDevice(WdfRequestGetIoQueue(Request));</pre>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547421">WdfIoQueueGetDevice</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfio/nf-wdfio-wdfioqueuegetdevice">WdfIoQueueGetDevice</a>
  
 
  

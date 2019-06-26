@@ -66,7 +66,7 @@ Specifies the number of events in the event set.
 
 ### -field EventItem
 
-Points to the beginning of the array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff561862">KSEVENT_ITEM</a> structures that describe each event in the event set. The size of the array is in the <b>EventsCount</b> member.
+Points to the beginning of the array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksevent_item">KSEVENT_ITEM</a> structures that describe each event in the event set. The size of the array is in the <b>EventsCount</b> member.
 
 
 ## -remarks
@@ -83,7 +83,7 @@ Microsoft provides several system-defined kernel streaming event set GUIDs. Mini
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561862">KSEVENT_ITEM</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksevent_item">KSEVENT_ITEM</a>
  
 
  

@@ -56,7 +56,7 @@ The <b>MmPageEntireDriver</b> routine causes all of a driver's code and data to 
 
 ### -param AddressWithinSection [in]
 
-Pointer to a virtual address within the driver (for example, the address of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine).
+Pointer to a virtual address within the driver (for example, the address of the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine).
 
 
 ## -returns
@@ -72,11 +72,11 @@ Pointer to a virtual address within the driver (for example, the address of the 
 
 
 
-Use this routine to force a driver to be completely pageable. Drivers that call <b>MmPageEntireDriver</b> must not have an <a href="https://msdn.microsoft.com/library/windows/hardware/ff547958">InterruptService</a> routine (ISR) registered for any interrupts. If the interrupt occurs while the driver is paged out, the system issues a bug check.
+Use this routine to force a driver to be completely pageable. Drivers that call <b>MmPageEntireDriver</b> must not have an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-kservice_routine">InterruptService</a> routine (ISR) registered for any interrupts. If the interrupt occurs while the driver is paged out, the system issues a bug check.
 
-The effect of a call to <b>MmPageEntireDriver</b> can be undone by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff554680">MmResetDriverPaging</a>.
+The effect of a call to <b>MmPageEntireDriver</b> can be undone by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-mmresetdriverpaging">MmResetDriverPaging</a>.
 
-If the driver is already completely pageable, calling <b>MmPageEntireDriver</b> has no effect. For more information about paging an entire driver, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554346">Making Drivers Pageable</a>.
+If the driver is already completely pageable, calling <b>MmPageEntireDriver</b> has no effect. For more information about paging an entire driver, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/making-drivers-pageable">Making Drivers Pageable</a>.
 
 
 
@@ -86,23 +86,23 @@ If the driver is already completely pageable, calling <b>MmPageEntireDriver</b> 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554601">MmLockPagableCodeSection</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-mmlockpagablecodesection">MmLockPagableCodeSection</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554607">MmLockPagableDataSection</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-mmlockpagabledatasection">MmLockPagableDataSection</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554610">MmLockPagableSectionByHandle</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-mmlockpagablesectionbyhandle">MmLockPagableSectionByHandle</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554680">MmResetDriverPaging</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-mmresetdriverpaging">MmResetDriverPaging</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556377">MmUnlockPagableImageSection</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-mmunlockpagableimagesection">MmUnlockPagableImageSection</a>
  
 
  

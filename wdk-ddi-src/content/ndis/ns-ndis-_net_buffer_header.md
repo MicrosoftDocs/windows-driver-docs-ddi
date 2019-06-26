@@ -47,7 +47,7 @@ req.typenames: NET_BUFFER_HEADER, *PNET_BUFFER_HEADER
 
 
 The NET_BUFFER_HEADER structure specifies header information for the 
-  <a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a> structure.
+  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer">NET_BUFFER</a> structure.
 
 
 ## -struct-fields
@@ -58,7 +58,7 @@ The NET_BUFFER_HEADER structure specifies header information for the
 ### -field NetBufferData
 
 A 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568381">NET_BUFFER_DATA</a> structure.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_data">NET_BUFFER_DATA</a> structure.
 
 
 ### -field Link
@@ -80,11 +80,11 @@ NDIS maintains the information in the NET_BUFFER_HEADER union.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568376">NET_BUFFER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer">NET_BUFFER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568381">NET_BUFFER_DATA</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_data">NET_BUFFER_DATA</a>
  
 
  

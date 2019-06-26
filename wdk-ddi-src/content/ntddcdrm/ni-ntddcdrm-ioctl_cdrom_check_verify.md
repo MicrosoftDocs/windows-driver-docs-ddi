@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-In Microsoft Windows 2000 and later operating systems, this IOCTL is replaced by <a href="https://msdn.microsoft.com/library/windows/hardware/ff560535">IOCTL_STORAGE_CHECK_VERIFY</a>. The only difference between the two IOCTLs is the base value. 
+In Microsoft Windows 2000 and later operating systems, this IOCTL is replaced by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ni-ntddstor-ioctl_storage_check_verify">IOCTL_STORAGE_CHECK_VERIFY</a>. The only difference between the two IOCTLs is the base value. 
 
 
 ## -ioctlparameters

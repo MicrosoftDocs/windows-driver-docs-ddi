@@ -110,11 +110,11 @@ The following code example removes each item from a collection and deletes each 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545770">WdfCollectionGetItem</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfcollection/nf-wdfcollection-wdfcollectiongetitem">WdfCollectionGetItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545775">WdfCollectionGetLastItem</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfcollection/nf-wdfcollection-wdfcollectiongetlastitem">WdfCollectionGetLastItem</a>
  
 
  

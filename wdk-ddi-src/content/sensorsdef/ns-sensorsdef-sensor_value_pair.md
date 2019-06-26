@@ -46,7 +46,7 @@ req.typenames: SENSOR_VALUE_PAIR, *PSENSOR_VALUE_PAIR
 ## -description
 
 
-This structure pairs the property keys listed in the <a href="https://msdn.microsoft.com/library/windows/hardware/dn946698">Sensor properties</a> section with the data that each key represents.
+This structure pairs the property keys listed in the <a href="https://docs.microsoft.com/windows-hardware/drivers/sensors/sensor-properties2">Sensor properties</a> section with the data that each key represents.
 
 
 ## -struct-fields
@@ -56,7 +56,7 @@ This structure pairs the property keys listed in the <a href="https://msdn.micro
 
 ### -field Key
 
-A property key that is associated with a sensor. For a list of the valid property keys, see <a href="https://msdn.microsoft.com/library/windows/hardware/dn946698">Sensor properties</a>.
+A property key that is associated with a sensor. For a list of the valid property keys, see <a href="https://docs.microsoft.com/windows-hardware/drivers/sensors/sensor-properties2">Sensor properties</a>.
 
 
 ### -field Value

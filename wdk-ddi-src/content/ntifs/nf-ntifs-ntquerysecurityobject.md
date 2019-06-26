@@ -62,7 +62,7 @@ Handle for the object whose security descriptor is to be queried. This handle mu
 
 ### -param SecurityInformation [in]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff556635">SECURITY_INFORMATION</a> value specifying the information to be queried.
+Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/security-information">SECURITY_INFORMATION</a> value specifying the information to be queried.
 
 <table>
 <tr>
@@ -115,7 +115,7 @@ Indicates the system ACL (SACL) of the object is being queried. Requires ACCESS_
 
 ### -param SecurityDescriptor [out]
 
-Caller-allocated buffer that <b>NtQuerySecurityObject</b> fills with a copy of the specified security descriptor. The <a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a> structure is returned in self-relative format. 
+Caller-allocated buffer that <b>NtQuerySecurityObject</b> fills with a copy of the specified security descriptor. The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a> structure is returned in self-relative format. 
 
 
 ### -param Length [in]
@@ -199,11 +199,11 @@ The NTFS file system imposes a 64K limit on the size of the security descriptor 
 
 For more information about security and access control, see the documentation on these topics in the Windows SDK.
 
-Minifilters should call <a href="https://msdn.microsoft.com/library/windows/hardware/ff543441">FltQuerySecurityObject</a> instead of <b>NtQuerySecurityObject</b>. 
+Minifilters should call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltquerysecurityobject">FltQuerySecurityObject</a> instead of <b>NtQuerySecurityObject</b>. 
 
 <div class="alert"><b>Note</b>  If the call to the <b>NtQuerySecurityObject</b> function occurs in user mode, you should use the name "<b>NtQuerySecurityObject</b>" instead of "<b>ZwQuerySecurityObject</b>".</div>
 <div> </div>
-For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>.
+For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i></b> versions of a routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>.
 
 
 
@@ -213,19 +213,19 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543441">FltQuerySecurityObject</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltquerysecurityobject">FltQuerySecurityObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563689">SECURITY_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556635">SECURITY_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/security-information">SECURITY_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 
 

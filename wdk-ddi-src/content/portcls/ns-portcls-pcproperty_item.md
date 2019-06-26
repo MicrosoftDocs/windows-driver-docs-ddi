@@ -56,7 +56,7 @@ The <b>PCPROPERTY_ITEM</b> structure describes a property that is supported by a
 
 ### -field Set
 
-Specifies the property set. This member is a pointer to a GUID that uniquely identifies the property set. See the list of property-set GUIDs in <a href="https://msdn.microsoft.com/library/windows/hardware/ff536197">Audio Drivers Property Sets</a>.
+Specifies the property set. This member is a pointer to a GUID that uniquely identifies the property set. See the list of property-set GUIDs in <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/audio-drivers-property-sets">Audio Drivers Property Sets</a>.
 
 
 ### -field Id
@@ -181,9 +181,9 @@ See the following Remarks section.
 
 
 
-The <b>PCPROPERTY_ITEM</b> structure specifies a particular property item in an automation table. The <a href="https://msdn.microsoft.com/library/windows/hardware/ff537685">PCAUTOMATION_TABLE</a> structure points to an array of <b>PCPROPERTY_ITEM</b> structures.
+The <b>PCPROPERTY_ITEM</b> structure specifies a particular property item in an automation table. The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/ns-portcls-pcautomation_table">PCAUTOMATION_TABLE</a> structure points to an array of <b>PCPROPERTY_ITEM</b> structures.
 
-When calling the <b>Handler</b> routine, the caller passes in a single call parameter, which is a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff537723">PCPROPERTY_REQUEST</a> structure. This structure is allocated by the caller, and the caller frees it under either of the following conditions:
+When calling the <b>Handler</b> routine, the caller passes in a single call parameter, which is a pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/ns-portcls-_pcproperty_request">PCPROPERTY_REQUEST</a> structure. This structure is allocated by the caller, and the caller frees it under either of the following conditions:
 
 <ol>
 <li>
@@ -191,13 +191,13 @@ If the <b>Handler</b> routine returns any status code other than STATUS_PENDING,
 
 </li>
 <li>
-The <b>Handler</b> routine can also return STATUS_PENDING, in which case the miniport driver is obliged to call <a href="https://msdn.microsoft.com/library/windows/hardware/ff537687">PcCompletePendingPropertyRequest</a> at a later time to complete the pending property request. The <b>PcCompletePendingPropertyRequest</b> function frees the structure. After calling <b>PcCompletePendingPropertyRequest</b>, the miniport driver should not attempt to access the structure.
+The <b>Handler</b> routine can also return STATUS_PENDING, in which case the miniport driver is obliged to call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-pccompletependingpropertyrequest">PcCompletePendingPropertyRequest</a> at a later time to complete the pending property request. The <b>PcCompletePendingPropertyRequest</b> function frees the structure. After calling <b>PcCompletePendingPropertyRequest</b>, the miniport driver should not attempt to access the structure.
 
 </li>
 </ol>
 If the miniport driver attempts to access the structure after it has been freed, this action is likely to cause a bug check or to corrupt another driver's memory.
 
-For more information about serialization and raw serialization of a property set, see <a href="https://msdn.microsoft.com/a385929e-1934-4d88-aaf9-ff1ddbfd30f7">KS Properties</a>.
+For more information about serialization and raw serialization of a property set, see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ks-properties">KS Properties</a>.
 
 
 
@@ -207,11 +207,11 @@ For more information about serialization and raw serialization of a property set
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537723">PCPROPERTY_REQUEST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/ns-portcls-_pcproperty_request">PCPROPERTY_REQUEST</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537687">PcCompletePendingPropertyRequest</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-pccompletependingpropertyrequest">PcCompletePendingPropertyRequest</a>
  
 
  

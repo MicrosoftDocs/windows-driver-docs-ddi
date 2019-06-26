@@ -53,7 +53,7 @@ The <b>IWDFNamedPropertyStore</b> interface exposes a property-store object.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFNamedPropertyStore</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWDFNamedPropertyStore</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFNamedPropertyStore</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWDFNamedPropertyStore</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -68,37 +68,37 @@ The <b>IWDFNamedPropertyStore</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560182">IWDFNamedPropertyStore::GetNameAt</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfnamedpropertystore-getnameat">IWDFNamedPropertyStore::GetNameAt</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/f6ebf45b-b411-4684-b430-0b17a56ec0c0">GetNameAt</a> method retrieves the name of a property.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfnamedpropertystore-getnameat">GetNameAt</a> method retrieves the name of a property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560188">IWDFNamedPropertyStore::GetNameCount</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfnamedpropertystore-getnamecount">IWDFNamedPropertyStore::GetNameCount</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/9891e360-ca09-4ebb-8cf4-d08b3456910c">GetNameCount</a> method retrieves the number of properties in a property store.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfnamedpropertystore-getnamecount">GetNameCount</a> method retrieves the number of properties in a property store.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560190">IWDFNamedPropertyStore::GetNamedValue</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfnamedpropertystore-getnamedvalue">IWDFNamedPropertyStore::GetNamedValue</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/9581e3af-f7f8-4365-8bb2-daedcb7a3280">GetNamedValue</a> method retrieves the value of a property.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfnamedpropertystore-getnamedvalue">GetNamedValue</a> method retrieves the value of a property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560195">IWDFNamedPropertyStore::SetNamedValue</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfnamedpropertystore-setnamedvalue">IWDFNamedPropertyStore::SetNamedValue</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/1fd075c9-7d0e-4670-bac0-b7b8ba0a714f">SetNamedValue</a> method sets the value of a property.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfnamedpropertystore-setnamedvalue">SetNamedValue</a> method sets the value of a property.
 
 </td>
 </tr>

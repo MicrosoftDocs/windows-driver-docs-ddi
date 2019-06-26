@@ -80,7 +80,7 @@ The alignment offset, in bytes. This value must be a power of 2, such as 2, 4, 8
 
 
 
-Drivers can use <b>WDF_ALIGN_SIZE_UP</b> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff551214">WDF_ALIGN_SIZE_DOWN</a> to calculate a buffer size that is aligned to a specified alignment offset. This calculation is useful if your driver must allocate multiple contiguous buffers, if each buffer must begin at an address alignment boundary.
+Drivers can use <b>WDF_ALIGN_SIZE_UP</b> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfcore/nf-wdfcore-wdf_align_size_down">WDF_ALIGN_SIZE_DOWN</a> to calculate a buffer size that is aligned to a specified alignment offset. This calculation is useful if your driver must allocate multiple contiguous buffers, if each buffer must begin at an address alignment boundary.
 
 If the value of either input parameter is too large, arithmetic overflow causes <b>WDF_ALIGN_SIZE_UP</b> to return an invalid value that is smaller than <i>Length</i>. Your code should test for this condition.
 
@@ -113,7 +113,7 @@ if (bufferSizeAligned < bufferSize)
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551214">WDF_ALIGN_SIZE_DOWN</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfcore/nf-wdfcore-wdf_align_size_down">WDF_ALIGN_SIZE_DOWN</a>
  
 
  

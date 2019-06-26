@@ -46,7 +46,7 @@ req.typenames: LogoutFromTarget_OUT, *PLogoutFromTarget_OUT
 ## -description
 
 
-The LogoutFromTarget_OUT structure holds the output data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561602">LogoutFromTarget</a> method.
+The LogoutFromTarget_OUT structure holds the output data for the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/logoutfromtarget">LogoutFromTarget</a> method.
 
 
 ## -struct-fields
@@ -56,7 +56,7 @@ The LogoutFromTarget_OUT structure holds the output data for the <a href="https:
 
 ### -field Status
 
-On output from <b>LogoutFromTarget</b>, the status of the logoff operation. For a list of status qualifiers, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>.
+On output from <b>LogoutFromTarget</b>, the status of the logoff operation. For a list of status qualifiers, see <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/iscsi-status-qualifiers">ISCSI_STATUS_QUALIFIERS</a>.
 
 
 ## -remarks
@@ -73,23 +73,23 @@ You must implement this method.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/iscsi-status-qualifiers">ISCSI_STATUS_QUALIFIERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/logintotarget">LoginToTarget</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561602">LogoutFromTarget</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/logoutfromtarget">LogoutFromTarget</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562191">LogoutFromTarget_IN</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/iscsiop/ns-iscsiop-_logoutfromtarget_in">LogoutFromTarget_IN</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563091">MSiSCSI_Operations WMI Class</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msiscsi-operations-wmi-class">MSiSCSI_Operations WMI Class</a>
  
 
  

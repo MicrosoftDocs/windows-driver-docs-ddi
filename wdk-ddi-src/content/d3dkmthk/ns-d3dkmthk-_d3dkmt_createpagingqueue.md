@@ -46,7 +46,7 @@ req.typenames: D3DKMT_CREATEPAGINGQUEUE
 ## -description
 
 
-<b>D3DKMT_CREATEPAGINGQUEUE</b> is used with <a href="https://msdn.microsoft.com/library/windows/hardware/dn906771">D3DKMTCreatePagingQueue</a> to create a device paging queue that can be used to synchronize with video memory management operations for the device, such as making the device resource resident.
+<b>D3DKMT_CREATEPAGINGQUEUE</b> is used with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/nf-d3dkmthk-d3dkmtcreatepagingqueue">D3DKMTCreatePagingQueue</a> to create a device paging queue that can be used to synchronize with video memory management operations for the device, such as making the device resource resident.
 
 
 ## -struct-fields
@@ -88,7 +88,7 @@ req.typenames: D3DKMT_CREATEPAGINGQUEUE
 
 
 
-A device can have multiple paging queues created for it. Paging queues can be destroyed either explicitly by calling <a href="https://msdn.microsoft.com/library/windows/hardware/dn906773">D3DKMTDestroyPagingQueue</a>, or by implicitly destroying the device they belong to. After the latter, paging queue handles will become invalid.
+A device can have multiple paging queues created for it. Paging queues can be destroyed either explicitly by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/nf-d3dkmthk-d3dkmtdestroypagingqueue">D3DKMTDestroyPagingQueue</a>, or by implicitly destroying the device they belong to. After the latter, paging queue handles will become invalid.
 
 
 
@@ -98,11 +98,11 @@ A device can have multiple paging queues created for it. Paging queues can be de
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn906771">D3DKMTCreatePagingQueue</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/nf-d3dkmthk-d3dkmtcreatepagingqueue">D3DKMTCreatePagingQueue</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn906773">D3DKMTDestroyPagingQueue</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/nf-d3dkmthk-d3dkmtdestroypagingqueue">D3DKMTDestroyPagingQueue</a>
  
 
  

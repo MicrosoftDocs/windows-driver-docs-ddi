@@ -66,7 +66,7 @@ Reserved for future use.
 
 ### -param pwszEventName [out]
 
-Caller-supplied pointer to a buffer that is large enough to receive a string representation of a GUID. The GUID represents the <a href="https://msdn.microsoft.com/5f9be89c-8442-4894-b2f6-a4d3558464bf">Still Image Device Events</a> for which the application was started.
+Caller-supplied pointer to a buffer that is large enough to receive a string representation of a GUID. The GUID represents the <a href="https://docs.microsoft.com/windows-hardware/drivers/image/still-image-device-events">Still Image Device Events</a> for which the application was started.
 
 
 ## -returns
@@ -82,9 +82,9 @@ If the operation succeeds, the method returns S_OK. Otherwise, it returns one of
 
 
 
-If the still image event monitor started the application, the <i>pwszDeviceName</i> and <i>pwszEventName</i> values identify the <b>/StiDevice</b> and <b>/StiEvent</b> command-line arguments (see the description of <a href="https://msdn.microsoft.com/library/windows/hardware/ff543798">IStillImage::RegisterLaunchApplication</a>). If the event monitor did not start the application, the method returns STIERR_GENERIC.
+If the still image event monitor started the application, the <i>pwszDeviceName</i> and <i>pwszEventName</i> values identify the <b>/StiDevice</b> and <b>/StiEvent</b> command-line arguments (see the description of <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff543798(v=vs.85)">IStillImage::RegisterLaunchApplication</a>). If the event monitor did not start the application, the method returns STIERR_GENERIC.
 
-Before calling <b>IStillImage::GetSTILaunchInformation</b>, clients of the <b>IStillImage</b> COM interface must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff543804">IStillImage::StiCreateInstance</a> to obtain an <b>IStillImage</b> interface pointer.
+Before calling <b>IStillImage::GetSTILaunchInformation</b>, clients of the <b>IStillImage</b> COM interface must call <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff543804(v=vs.85)">IStillImage::StiCreateInstance</a> to obtain an <b>IStillImage</b> interface pointer.
 
 
 

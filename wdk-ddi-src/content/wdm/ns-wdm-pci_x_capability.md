@@ -96,7 +96,7 @@ typedef struct {
 
 ### -field Header
 
-Contains a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff537454">PCI_CAPABILITIES_HEADER</a> that identifies the capability and provides a link to the next capability description.
+Contains a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_pci_capabilities_header">PCI_CAPABILITIES_HEADER</a> that identifies the capability and provides a link to the next capability description.
 
 
 ### -field Command
@@ -222,7 +222,7 @@ Indicates when 1 that the device has received a split completion error message. 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537454">PCI_CAPABILITIES_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_pci_capabilities_header">PCI_CAPABILITIES_HEADER</a>
 
 
 

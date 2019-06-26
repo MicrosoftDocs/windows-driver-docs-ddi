@@ -46,7 +46,7 @@ req.typenames: RemoveConnectionFromSession_IN, *PRemoveConnectionFromSession_IN
 ## -description
 
 
-The RemoveConnectionFromSession_IN structure holds the input data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563973">RemoveConnectionFromSession</a> method, which is used to remove a connection from a session.
+The RemoveConnectionFromSession_IN structure holds the input data for the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/removeconnectionfromsession">RemoveConnectionFromSession</a> method, which is used to remove a connection from a session.
 
 
 ## -struct-fields
@@ -56,7 +56,7 @@ The RemoveConnectionFromSession_IN structure holds the input data for the <a hre
 
 ### -field UniqueSessionId
 
-A 64-bit integer that uniquely identifies the session. The <a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a> methods both return this value in their <i>UniqueSessionId</i> parameter. Do not confuse this value with the values in the ISID and TSID members.
+A 64-bit integer that uniquely identifies the session. The <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/logintotarget">LoginToTarget</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/addconnectiontosession">AddConnectionToSession</a> methods both return this value in their <i>UniqueSessionId</i> parameter. Do not confuse this value with the values in the ISID and TSID members.
 
 
 ### -field UniqueConnectionId
@@ -78,15 +78,15 @@ You must implement this class.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/addconnectiontosession">AddConnectionToSession</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/logintotarget">LoginToTarget</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563973">RemoveConnectionFromSession</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/removeconnectionfromsession">RemoveConnectionFromSession</a>
  
 
  

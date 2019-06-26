@@ -46,7 +46,7 @@ req.typenames: KSDS3D_ITD_PARAMS_MSG, *PKSDS3D_ITD_PARAMS_MSG
 ## -description
 
 
-The KSDS3D_ITD_PARAMS_MSG structure specifies the parameters used by the interaural time delay (ITD) algorithm in a 3D node (<a href="https://msdn.microsoft.com/library/windows/hardware/ff537148">KSNODETYPE_3D_EFFECTS</a>).
+The KSDS3D_ITD_PARAMS_MSG structure specifies the parameters used by the interaural time delay (ITD) algorithm in a 3D node (<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksnodetype-3d-effects">KSNODETYPE_3D_EFFECTS</a>).
 
 
 ## -struct-fields
@@ -61,7 +61,7 @@ Specifies whether to enable the ITD algorithm. A nonzero value enables the algor
 
 ### -field LeftParams
 
-Specifies the ITD parameters for the left channel (channel 0). This parameter is a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff537110">KSDS3D_ITD_PARAMS</a>.
+Specifies the ITD parameters for the left channel (channel 0). This parameter is a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-ksds3d_itd_params">KSDS3D_ITD_PARAMS</a>.
 
 
 ### -field RightParams
@@ -78,7 +78,7 @@ Reserved. Set to zero.
 
 
 
-This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537358">KSPROPERTY_ITD3D_PARAMS</a> property request.
+This structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-itd3d-params">KSPROPERTY_ITD3D_PARAMS</a> property request.
 
 The <i>Enabled</i> parameter should track the DirectSound buffer's 3D mode: Disable ITD processing when the 3D mode is disabled, and enable it when the 3D mode is enabled. For more information, see the description of the <b>DirectSound3DBuffer::SetMode</b> method in the Microsoft Windows SDK documentation.
 
@@ -90,15 +90,15 @@ The <i>Enabled</i> parameter should track the DirectSound buffer's 3D mode: Disa
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537110">KSDS3D_ITD_PARAMS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-ksds3d_itd_params">KSDS3D_ITD_PARAMS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537148">KSNODETYPE_3D_EFFECTS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksnodetype-3d-effects">KSNODETYPE_3D_EFFECTS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537358">KSPROPERTY_ITD3D_PARAMS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-itd3d-params">KSPROPERTY_ITD3D_PARAMS</a>
  
 
  

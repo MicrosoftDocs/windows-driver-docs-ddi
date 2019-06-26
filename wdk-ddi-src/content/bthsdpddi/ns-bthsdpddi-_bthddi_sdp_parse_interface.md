@@ -59,82 +59,82 @@ The BTHDDI_SDP_PARSE_INTERFACE structure provides functions for parsing SDP reco
 A structure that describes the 
      <b>BTHDDI_SDP_NODE_INTERFACE</b> interface for use by profile drivers. For more information about this
      structure, see 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/dn895657">INTERFACE</a>.
+     <a href="https://docs.microsoft.com/windows-hardware/customize/desktop/unattend/microsoft-windows-netbt-interfaces-interface">INTERFACE</a>.
 
 
 ### -field SdpValidateStream
 
 A pointer to the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536847">SdpValidateStream</a> function.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthsdpddi/nc-bthsdpddi-pvalidatestream">SdpValidateStream</a> function.
 
 
 ### -field SdpConvertStreamToTree
 
 A pointer to the 
-     <a href="https://msdn.microsoft.com/3b285a32-c1bc-4103-aa2e-0f6c8f5cc7ec">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthsdpddi/nc-bthsdpddi-pconvertstreamtotree">
      SdpConvertStreamToTree</a> function.
 
 
 ### -field SdpConvertTreeToStream
 
 A pointer to the 
-     <a href="https://msdn.microsoft.com/6e3cc0ae-e214-4096-834b-b435ee0fcb46">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthsdpddi/nc-bthsdpddi-pconverttreetostream">
      SdpConvertTreeToStream</a> function.
 
 
 ### -field SdpFreeTree
 
 A pointer to the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536839">SdpFreeTree</a> function.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sdplib/nf-sdplib-sdpfreetree">SdpFreeTree</a> function.
 
 
 ### -field SdpByteSwapUuid128
 
 A pointer to the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536793">SdpByteSwapUuid128</a> function.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthsdpddi/nc-bthsdpddi-pbyteswapuuid128">SdpByteSwapUuid128</a> function.
 
 
 ### -field SdpByteSwapUint128
 
 A pointer to the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536788">SdpByteSwapUint128</a> function.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthsdpddi/nc-bthsdpddi-pbyteswapuint128">SdpByteSwapUint128</a> function.
 
 
 ### -field SdpByteSwapUint64
 
 A pointer to the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536790">SdpByteSwapUint64</a> function.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthsdpddi/nc-bthsdpddi-pbyteswapuint64">SdpByteSwapUint64</a> function.
 
 
 ### -field SdpRetrieveUuid128
 
 A pointer to the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536846">SdpRetrieveUuid128</a> function.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthsdpddi/nc-bthsdpddi-pretrieveuuid128">SdpRetrieveUuid128</a> function.
 
 
 ### -field SdpRetrieveUint128
 
 A pointer to the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536843">SdpRetrieveUint128</a> function.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthsdpddi/nc-bthsdpddi-pretrieveuint64">SdpRetrieveUint128</a> function.
 
 
 ### -field SdpRetrieveUint64
 
 A pointer to the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536845">SdpRetrieveUint64</a> function.
+     <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff536845(v=vs.85)">SdpRetrieveUint64</a> function.
 
 
 ### -field SdpFindAttributeInTree
 
 A pointer to the 
-     <a href="https://msdn.microsoft.com/26c71c08-3b9a-474f-a232-d7f675582d27">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sdplib/nf-sdplib-sdpfindattributeintree">
      SdpFindAttributeInTree</a> function.
 
 
 ### -field SdpGetNextElement
 
 A pointer to the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff536841">SdpGetNextElement</a> function.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthsdpddi/nc-bthsdpddi-pgetnextelement">SdpGetNextElement</a> function.
 
 
 ### -field Reserved1
@@ -176,55 +176,55 @@ All the members of this structure, other than the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn895657">INTERFACE</a>
+<a href="https://docs.microsoft.com/windows-hardware/customize/desktop/unattend/microsoft-windows-netbt-interfaces-interface">INTERFACE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536788">SdpByteSwapUint128</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthsdpddi/nc-bthsdpddi-pbyteswapuint128">SdpByteSwapUint128</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536790">SdpByteSwapUint64</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthsdpddi/nc-bthsdpddi-pbyteswapuint64">SdpByteSwapUint64</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536793">SdpByteSwapUuid128</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthsdpddi/nc-bthsdpddi-pbyteswapuuid128">SdpByteSwapUuid128</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536794">SdpConvertStreamToTree</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthsdpddi/nc-bthsdpddi-pconvertstreamtotree">SdpConvertStreamToTree</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536796">SdpConvertTreeToStream</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthsdpddi/nc-bthsdpddi-pconverttreetostream">SdpConvertTreeToStream</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536838">SdpFindAttributeInTree</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sdplib/nf-sdplib-sdpfindattributeintree">SdpFindAttributeInTree</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536839">SdpFreeTree</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sdplib/nf-sdplib-sdpfreetree">SdpFreeTree</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536841">SdpGetNextElement</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthsdpddi/nc-bthsdpddi-pgetnextelement">SdpGetNextElement</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536843">SdpRetrieveUint128</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthsdpddi/nc-bthsdpddi-pretrieveuint64">SdpRetrieveUint128</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536845">SdpRetrieveUint64</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff536845(v=vs.85)">SdpRetrieveUint64</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536846">SdpRetrieveUuid128</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthsdpddi/nc-bthsdpddi-pretrieveuuid128">SdpRetrieveUuid128</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536847">SdpValidateStream</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthsdpddi/nc-bthsdpddi-pvalidatestream">SdpValidateStream</a>
  
 
  

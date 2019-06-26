@@ -56,7 +56,7 @@ The <b>RemoveSyntheticSymbol</b> method removes a synthetic symbol from a module
 
 ### -param Id [in]
 
-Specifies the synthetic symbol to remove.  This must be the same value returned in the <i>Id</i> parameter of <a href="https://msdn.microsoft.com/library/windows/hardware/ff537943">AddSyntheticSymbol</a>.  See <a href="https://msdn.microsoft.com/library/windows/hardware/ff541511">DEBUG_MODULE_AND_ID</a> for details about the type of this parameter.
+Specifies the synthetic symbol to remove.  This must be the same value returned in the <i>Id</i> parameter of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols3-addsyntheticsymbol">AddSyntheticSymbol</a>.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/ns-dbgeng-_debug_module_and_id">DEBUG_MODULE_AND_ID</a> for details about the type of this parameter.
 
 
 ## -returns
@@ -93,7 +93,7 @@ No synthetic symbol was found at the specified location.  This is returned if a 
 </table>
  
 
-This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 
 
@@ -102,7 +102,7 @@ This method may also return error values.  See <a href="https://msdn.microsoft.c
 
 
 
-If the module containing a synthetic symbol is reloaded - for example, by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff554379">Reload</a> with the <i>Module</i> parameter set to the name of the module - the synthetic symbol will be discarded.
+If the module containing a synthetic symbol is reloaded - for example, by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols3-reload">Reload</a> with the <i>Module</i> parameter set to the name of the module - the synthetic symbol will be discarded.
 
 For more information about synthetic symbols, see Synthetic Symbols.
 
@@ -114,15 +114,15 @@ For more information about synthetic symbols, see Synthetic Symbols.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537943">AddSyntheticSymbol</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols3-addsyntheticsymbol">AddSyntheticSymbol</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550870">IDebugSymbols3</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugsymbols3">IDebugSymbols3</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554536">RemoveSyntheticModule</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols3-removesyntheticmodule">RemoveSyntheticModule</a>
  
 
  

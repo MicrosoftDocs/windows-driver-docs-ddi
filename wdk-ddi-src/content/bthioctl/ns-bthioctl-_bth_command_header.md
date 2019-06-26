@@ -72,10 +72,10 @@ The size, in bytes, of the command payload, which is the data that follows the B
 
 The BTH_COMMAND_HEADER structure specifies header information in the 
     <b>HciHeader</b> member of the 
-    <a href="https://msdn.microsoft.com/c37844d9-206a-4060-8b46-9afe691fe8f9">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthioctl/ns-bthioctl-_bth_vendor_specific_command">
     BTH_VENDOR_SPECIFIC_COMMAND</a> structure. It also provides the header information for the output of
     the 
-    <a href="https://msdn.microsoft.com/3b182835-ca62-482c-b82a-28c59f23fb55">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthioctl/ni-bthioctl-ioctl_bth_hci_vendor_command">
     IOCTL_BTH_HCI_VENDOR_COMMAND</a> IOCTL.
 
 
@@ -86,11 +86,11 @@ The BTH_COMMAND_HEADER structure specifies header information in the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536656">BTH_VENDOR_SPECIFIC_COMMAND</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthioctl/ns-bthioctl-_bth_vendor_specific_command">BTH_VENDOR_SPECIFIC_COMMAND</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536686">IOCTL_BTH_HCI_VENDOR_COMMAND</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthioctl/ni-bthioctl-ioctl_bth_hci_vendor_command">IOCTL_BTH_HCI_VENDOR_COMMAND</a>
  
 
  

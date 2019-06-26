@@ -46,7 +46,7 @@ req.typenames: DEBUG_SPECIFIC_FILTER_PARAMETERS, *PDEBUG_SPECIFIC_FILTER_PARAMET
 ## -description
 
 
-The DEBUG_SPECIFIC_FILTER_PARAMETERS structure contains the parameters for a <a href="https://msdn.microsoft.com/1f8f738b-7b2b-419a-949e-b71f937de02d">specific event filter</a>.
+The DEBUG_SPECIFIC_FILTER_PARAMETERS structure contains the parameters for a <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-filter-xxx">specific event filter</a>.
 
 
 ## -struct-fields
@@ -56,12 +56,12 @@ The DEBUG_SPECIFIC_FILTER_PARAMETERS structure contains the parameters for a <a 
 
 ### -field ExecutionOption
 
-The <a href="https://msdn.microsoft.com/1f8f738b-7b2b-419a-949e-b71f937de02d">break status</a> of the specific event filter.  For possible values, see <b>DEBUG_FILTER_XXX</b>.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-filter-xxx">break status</a> of the specific event filter.  For possible values, see <b>DEBUG_FILTER_XXX</b>.
 
 
 ### -field ContinueOption
 
-The <a href="https://msdn.microsoft.com/1f8f738b-7b2b-419a-949e-b71f937de02d">handling status</a> of the specific event filter.  For possible values, see <b>DEBUG_FILTER_XXX</b>.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-filter-xxx">handling status</a> of the specific event filter.  For possible values, see <b>DEBUG_FILTER_XXX</b>.
 
 
 ### -field TextSize
@@ -86,11 +86,11 @@ Specifies the size, in characters, of the specific event filter argument.  This 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548398">GetSpecificFilterParameters</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-getspecificfilterparameters">GetSpecificFilterParameters</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556795">SetSpecificFilterParameters</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-setspecificfilterparameters">SetSpecificFilterParameters</a>
  
 
  

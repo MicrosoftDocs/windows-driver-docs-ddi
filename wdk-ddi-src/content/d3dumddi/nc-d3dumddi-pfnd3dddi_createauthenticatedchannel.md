@@ -63,7 +63,7 @@ A handle to the display device (graphics context).
 
 *pData* [in, out]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542918">D3DDDIARG_CREATEAUTHENTICATEDCHANNEL</a> structure. On input, this structure contains information that the driver can use. On output, the driver specifies information in the structure that the Direct3D runtime can use. 
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_createauthenicatedchannel">D3DDDIARG_CREATEAUTHENTICATEDCHANNEL</a> structure. On input, this structure contains information that the driver can use. On output, the driver specifies information in the structure that the Direct3D runtime can use. 
 
 
 ## -returns
@@ -74,17 +74,17 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 | **Return code** | **Description** | 
 |:--|:--|
 | **S_OK** | The channel is successfully created. | 
-| **E_OUTOFMEMORY** | [CreateAuthenticatedChannel](https://msdn.microsoft.com/0a565bff-fc6f-41c1-a6fd-3a82dd0d7889)  could not allocate the required memory for it to complete. | 
-| **D3DDDIERR_NOTAVAILABLE** | The driver does not support the channel type that is specified in the ChannelType member of the [D3DDDIARG_CREATEAUTHENTICATEDCHANNEL](https://msdn.microsoft.com/library/windows/hardware/ff542918) structure that the pData parameter points to. |
+| **E_OUTOFMEMORY** | [CreateAuthenticatedChannel](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_createauthenticatedchannel)  could not allocate the required memory for it to complete. | 
+| **D3DDDIERR_NOTAVAILABLE** | The driver does not support the channel type that is specified in the ChannelType member of the [D3DDDIARG_CREATEAUTHENTICATEDCHANNEL](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_createauthenicatedchannel) structure that the pData parameter points to. |
 
 
 ## -remarks
 
 
 
-The runtime passes the handle to the authenticated channel that the driver returns in the <b>ChannelType</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff542918">D3DDDIARG_CREATEAUTHENTICATEDCHANNEL</a> structure in all subsequent calls that require the handle. 
+The runtime passes the handle to the authenticated channel that the driver returns in the <b>ChannelType</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_createauthenicatedchannel">D3DDDIARG_CREATEAUTHENTICATEDCHANNEL</a> structure in all subsequent calls that require the handle. 
 
-The driver must keep track of the display device (<i>hDevice</i>) that was used to create the authenticated channel. The driver should fail all subsequent calls that use this created authenticated channel (for example, the <a href="https://msdn.microsoft.com/627f9689-1059-4f88-9005-9c7600dad686">AuthenticatedChannelKeyExchange</a> function) if the display device that is specified in those calls is different from the display device that was used to create the authenticated channel. 
+The driver must keep track of the display device (<i>hDevice</i>) that was used to create the authenticated channel. The driver should fail all subsequent calls that use this created authenticated channel (for example, the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_authenticatedchannelkeyexchange">AuthenticatedChannelKeyExchange</a> function) if the display device that is specified in those calls is different from the display device that was used to create the authenticated channel. 
 
 
 
@@ -94,7 +94,7 @@ The driver must keep track of the display device (<i>hDevice</i>) that was used 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542918">D3DDDIARG_CREATEAUTHENTICATEDCHANNEL</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_createauthenicatedchannel">D3DDDIARG_CREATEAUTHENTICATEDCHANNEL</a>
  
 
  

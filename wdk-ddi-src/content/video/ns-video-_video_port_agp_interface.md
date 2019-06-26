@@ -81,42 +81,42 @@ Pointer to the video port driver-implemented dereference routine for this interf
 
 ### -field AgpReservePhysical
 
-Pointer to the video port driver-implemented <a href="https://msdn.microsoft.com/b3e21c94-acd5-4767-8ba5-70b2dcfb2aaa">AgpReservePhysical</a> routine.
+Pointer to the video port driver-implemented <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/videoagp/nc-videoagp-pagp_reserve_physical">AgpReservePhysical</a> routine.
 
 
 ### -field AgpReleasePhysical
 
-Pointer to the video port driver-implemented <a href="https://msdn.microsoft.com/4da0f5cb-a017-4df5-958b-c76b7a08495a">AgpReleasePhysical</a> routine.
+Pointer to the video port driver-implemented <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/videoagp/nc-videoagp-pagp_release_physical">AgpReleasePhysical</a> routine.
 
 
 ### -field AgpCommitPhysical
 
-Pointer to the video port driver-implemented <a href="https://msdn.microsoft.com/3c3a6936-7435-4a42-99e6-2c048613af23">AgpCommitPhysical</a> routine.
+Pointer to the video port driver-implemented <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/videoagp/nc-videoagp-pagp_commit_physical">AgpCommitPhysical</a> routine.
 
 
 ### -field AgpFreePhysical
 
-Pointer to the video port driver-implemented <a href="https://msdn.microsoft.com/bb0e3330-5601-47dd-afc6-94a70b42daaf">AgpFreePhysical</a> routine.
+Pointer to the video port driver-implemented <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/videoagp/nc-videoagp-pagp_free_physical">AgpFreePhysical</a> routine.
 
 
 ### -field AgpReserveVirtual
 
-Pointer to the video port driver-implemented <a href="https://msdn.microsoft.com/966dfc6c-6830-4872-b411-2801e3a4b753">AgpReserveVirtual</a> routine.
+Pointer to the video port driver-implemented <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/videoagp/nc-videoagp-pagp_reserve_virtual">AgpReserveVirtual</a> routine.
 
 
 ### -field AgpReleaseVirtual
 
-Pointer to the video port driver-implemented <a href="https://msdn.microsoft.com/4e880b39-e0ee-4801-86b7-ffc06ed415ab">AgpReleaseVirtual</a> routine.
+Pointer to the video port driver-implemented <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/videoagp/nc-videoagp-pagp_release_virtual">AgpReleaseVirtual</a> routine.
 
 
 ### -field AgpCommitVirtual
 
-Pointer to the video port driver-implemented <a href="https://msdn.microsoft.com/8a3e7fcd-d838-47ad-a42b-7eb070f81418">AgpCommitVirtual</a> routine.
+Pointer to the video port driver-implemented <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/videoagp/nc-videoagp-pagp_commit_virtual">AgpCommitVirtual</a> routine.
 
 
 ### -field AgpFreeVirtual
 
-Pointer to the video port driver-implemented <a href="https://msdn.microsoft.com/a6f689ab-8cf1-4207-af2b-30957500c190">AgpFreeVirtual</a> routine.
+Pointer to the video port driver-implemented <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/videoagp/nc-videoagp-pagp_free_virtual">AgpFreeVirtual</a> routine.
 
 
 ### -field AgpAllocationLimit
@@ -128,7 +128,7 @@ Specifies the maximum total number of bytes of AGP memory that a miniport driver
 
 
 
-PnP video miniport drivers that can use AGP must fill in the <b>Size</b> and <b>Version</b> members, and then call the <a href="https://msdn.microsoft.com/library/windows/hardware/ff570337">VideoPortQueryServices</a> function, which initializes the remaining members of this structure.
+PnP video miniport drivers that can use AGP must fill in the <b>Size</b> and <b>Version</b> members, and then call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportqueryservices">VideoPortQueryServices</a> function, which initializes the remaining members of this structure.
 
 
 
@@ -138,11 +138,11 @@ PnP video miniport drivers that can use AGP must fill in the <b>Size</b> and <b>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn895657">INTERFACE</a>
+<a href="https://docs.microsoft.com/windows-hardware/customize/desktop/unattend/microsoft-windows-netbt-interfaces-interface">INTERFACE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570337">VideoPortQueryServices</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportqueryservices">VideoPortQueryServices</a>
  
 
  

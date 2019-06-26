@@ -23,9 +23,9 @@ Here are the required and optional routines that you must implement in your driv
     The following routines are required for all drivers:
 
     -    [DriverEntry](../wdm/nc-wdm-driver_initialize.md)
-    -    [AddDevice](https://msdn.microsoft.com/library/windows/hardware/ff540521)
+    -    [AddDevice](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-driver_add_device)
     -    [DispatchXxx (routines beginning with "Dispatch" such as DispatchCreate)](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-driver_dispatch) 
-    -    [DriverUnload](https://msdn.microsoft.com/library/windows/hardware/ff564886)
+    -    [DriverUnload](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-driver_unload)
 
     The other routines are optional, but you may need to implement them depending on your driver type and the location of your driver in the device stack.
 

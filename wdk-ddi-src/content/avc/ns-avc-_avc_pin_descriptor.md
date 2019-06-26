@@ -71,18 +71,18 @@ An optional output parameter specifying a data range intersect handler associate
 
 ### -field Context
 
-An optional output parameter specifying a value to be passed to the <b>IntersectHandler</b> when it is called during format negotiation. For more information about what an intersect handler is, see <a href="https://msdn.microsoft.com/44281574-8258-47a3-857d-fd44bb949f17">DataRange Intersections in AVStream</a>.
+An optional output parameter specifying a value to be passed to the <b>IntersectHandler</b> when it is called during format negotiation. For more information about what an intersect handler is, see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/data-range-intersections-in-avstream">DataRange Intersections in AVStream</a>.
 
 
 ## -remarks
 
 
 
-This structure is used with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff554160">AVC_FUNCTION_GET_PIN_DESCRIPTOR</a> function code.
+This structure is used with the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/avc-function-get-pin-descriptor">AVC_FUNCTION_GET_PIN_DESCRIPTOR</a> function code.
 
 This structure is used only as a member inside the AVC_MULTIFUNC_IRB structure. It is not used by itself.
 
-See <a href="https://msdn.microsoft.com/3b4ec139-ff01-40bd-8e29-92f554180585">How to Use Avc.sys</a> For information about building and sending an AV/C command.
+See <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/using-avc-sys">How to Use Avc.sys</a> For information about building and sending an AV/C command.
 
 A description of the members of the <b>KSPIN_DESCRIPTOR</b> structure used in AVC_PIN_DESCRIPTOR follows:
 
@@ -125,15 +125,15 @@ A description of the members of the <b>KSPIN_DESCRIPTOR</b> structure used in AV
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556379">AV/C Intersect Handler</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/avc/nc-avc-pfnavcintersecthandler">AV/C Intersect Handler</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554177">AVC_MULTIFUNC_IRB</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/avc/ns-avc-_avc_multifunc_irb">AVC_MULTIFUNC_IRB</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563533">KSPIN_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-kspin_descriptor">KSPIN_DESCRIPTOR</a>
  
 
  

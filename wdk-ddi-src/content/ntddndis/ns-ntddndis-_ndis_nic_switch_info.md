@@ -56,7 +56,7 @@ The <b>NDIS_NIC_SWITCH_INFO</b> structure specifies the information about a netw
 
 ### -field Header
 
-The type, revision, and size of the <b>NDIS_NIC_SWITCH_INFO</b> structure. This member is formatted as an <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure.
+The type, revision, and size of the <b>NDIS_NIC_SWITCH_INFO</b> structure. This member is formatted as an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure.
 
 The miniport driver must set the <b>Type</b> member of <b>Header</b> to NDIS_OBJECT_TYPE_DEFAULT. To specify the version of the <b>NDIS_NIC_SWITCH_INFO</b> structure, the driver must set the <b>Revision</b> member of <b>Header</b> to the following value: 
 
@@ -80,7 +80,7 @@ A ULONG value that contains a bitwise OR of configuration flags that are enabled
 
 ### -field SwitchType
 
-An <a href="https://msdn.microsoft.com/library/windows/hardware/hh451589">NDIS_NIC_SWITCH_TYPE</a> value that specifies the type of the switch.
+An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ne-ntddndis-_ndis_nic_switch_type">NDIS_NIC_SWITCH_TYPE</a> value that specifies the type of the switch.
 
 
 ### -field SwitchId
@@ -106,7 +106,7 @@ A ULONG value that specifies the number of PCI Express (PCIe) Virtual Functions 
 
 ### -field NumAllocatedVFs
 
-A ULONG value that specifies the number of VFs that have been allocated on the network adapter switch specified by <b>SwitchId</b>. VFs are allocated  through OID set requests of <a href="https://msdn.microsoft.com/library/windows/hardware/hh451814">OID_NIC_SWITCH_ALLOCATE_VF</a>. 
+A ULONG value that specifies the number of VFs that have been allocated on the network adapter switch specified by <b>SwitchId</b>. VFs are allocated  through OID set requests of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-nic-switch-allocate-vf">OID_NIC_SWITCH_ALLOCATE_VF</a>. 
 
 
 
@@ -117,7 +117,7 @@ A ULONG value that specifies the  number of virtual ports (VPorts) that are conf
 This ULONG value is the sum of the following:
 
 <ul>
-<li>The maximum number of VPorts that can be created through OID set requests of <a href="https://msdn.microsoft.com/library/windows/hardware/hh451816">OID_NIC_SWITCH_CREATE_VPORT</a>.</li>
+<li>The maximum number of VPorts that can be created through OID set requests of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-nic-switch-create-vport">OID_NIC_SWITCH_CREATE_VPORT</a>.</li>
 <li>The default VPort attached to the Physical Function (PF).</li>
 </ul>
 
@@ -125,14 +125,14 @@ This ULONG value is the sum of the following:
 
 A ULONG value that specifies the number of VPorts that have been created on the network adapter switch specified by <b>SwitchId</b>. 
 
-<div class="alert"><b>Note</b>  This ULONG value includes the default VPort, in addition to the nondefault VPorts created through OID set requests of <a href="https://msdn.microsoft.com/library/windows/hardware/hh451816">OID_NIC_SWITCH_CREATE_VPORT</a>.</div>
+<div class="alert"><b>Note</b>  This ULONG value includes the default VPort, in addition to the nondefault VPorts created through OID set requests of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-nic-switch-create-vport">OID_NIC_SWITCH_CREATE_VPORT</a>.</div>
 <div> </div>
 
 ### -field NumQueuePairsForDefaultVPort
 
 A ULONG value that specifies the number of queue pairs allocated for the default VPort.  The  default VPort is always attached to the PF.
 
-A queue pair consists of a transmit queue and receive queue. The miniport driver associates one or more queue pairs with the default VPort at the time of switch creation through an OID method request of <a href="https://msdn.microsoft.com/library/windows/hardware/hh451815">OID_NIC_SWITCH_CREATE_SWITCH</a>. 
+A queue pair consists of a transmit queue and receive queue. The miniport driver associates one or more queue pairs with the default VPort at the time of switch creation through an OID method request of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-nic-switch-create-switch">OID_NIC_SWITCH_CREATE_SWITCH</a>. 
 
 <div class="alert"><b>Note</b>  Starting with NDIS 6.30, there can only be one queue pair that can be configured for the default VPort.</div>
 <div> </div>
@@ -141,7 +141,7 @@ A queue pair consists of a transmit queue and receive queue. The miniport driver
 
 A ULONG value that specifies the number of queue pairs allocated for the nondefault VPorts. A nondefault VPort can be attached to either the PF or any VF of the network adapter.
 
-The miniport driver associates one or more queue pairs with a nondefault VPort through an OID method request of <a href="https://msdn.microsoft.com/library/windows/hardware/hh451816">OID_NIC_SWITCH_CREATE_VPORT</a>.
+The miniport driver associates one or more queue pairs with a nondefault VPort through an OID method request of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-nic-switch-create-vport">OID_NIC_SWITCH_CREATE_VPORT</a>.
 
 
 ### -field NumActiveDefaultVPortMacAddresses
@@ -168,13 +168,13 @@ A ULONG value that specifies the number of VLAN identifier filters that are curr
 
 
 
-The <b>NDIS_NIC_SWITCH_INFO</b> structure is used in OID query requests of <a href="https://msdn.microsoft.com/library/windows/hardware/hh451819">OID_NIC_SWITCH_ENUM_SWITCHES</a>. This OID request is used to enumerate the network adapter switches on a network adapter. When this OID request is issued, one or more <b>NDIS_NIC_SWITCH_INFO</b> structures are returned within an <a href="https://msdn.microsoft.com/library/windows/hardware/hh451584">NDIS_NIC_SWITCH_INFO_ARRAY</a> structure.
+The <b>NDIS_NIC_SWITCH_INFO</b> structure is used in OID query requests of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-nic-switch-enum-switches">OID_NIC_SWITCH_ENUM_SWITCHES</a>. This OID request is used to enumerate the network adapter switches on a network adapter. When this OID request is issued, one or more <b>NDIS_NIC_SWITCH_INFO</b> structures are returned within an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_nic_switch_info_array">NDIS_NIC_SWITCH_INFO_ARRAY</a> structure.
 
-<div class="alert"><b>Note</b>  Starting with NDIS 6.30, only the <b>NDIS_NIC_SWITCH_INFO</b> that describes the information about the default network adapter switch is returned through an OID request of <a href="https://msdn.microsoft.com/library/windows/hardware/hh451819">OID_NIC_SWITCH_ENUM_SWITCHES</a>.</div>
+<div class="alert"><b>Note</b>  Starting with NDIS 6.30, only the <b>NDIS_NIC_SWITCH_INFO</b> that describes the information about the default network adapter switch is returned through an OID request of <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-nic-switch-enum-switches">OID_NIC_SWITCH_ENUM_SWITCHES</a>.</div>
 <div> </div>
 An <b>NDIS_NIC_SWITCH_INFO</b> structure contains information about a network adapter switch that was previously created through an OID method request of OID_NIC_SWITCH_CREATE_SWITCH. 
 
-For more information about the SR-IOV interface, see 	<a href="https://msdn.microsoft.com/B241F468-F568-4500-9356-E576CEBA8F3B">Overview of Single Root I/O Virtualization (SR-IOV)</a>.
+For more information about the SR-IOV interface, see 	<a href="https://docs.microsoft.com/windows-hardware/drivers/network/overview-of-single-root-i-o-virtualization--sr-iov-">Overview of Single Root I/O Virtualization (SR-IOV)</a>.
 
 
 
@@ -188,19 +188,19 @@ For more information about the SR-IOV interface, see 	<a href="https://msdn.micr
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451584">NDIS_NIC_SWITCH_INFO_ARRAY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_nic_switch_info_array">NDIS_NIC_SWITCH_INFO_ARRAY</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451815">OID_NIC_SWITCH_CREATE_SWITCH</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-nic-switch-create-switch">OID_NIC_SWITCH_CREATE_SWITCH</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451816">OID_NIC_SWITCH_CREATE_VPORT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-nic-switch-create-vport">OID_NIC_SWITCH_CREATE_VPORT</a>
  
 
  

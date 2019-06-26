@@ -46,7 +46,7 @@ req.typenames: KSPROPERTY_CAMERACONTROL_NODE_S2, *PKSPROPERTY_CAMERACONTROL_NODE
 ## -description
 
 
-The KSPROPERTY_CAMERACONTROL_NODE_S2 structure describes node-based properties in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567802">PROPSETID_VIDCAP_CAMERACONTROL</a> property set that use two values at the same time. This structure specifies property values in requests to the USB video class driver.
+The KSPROPERTY_CAMERACONTROL_NODE_S2 structure describes node-based properties in the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/propsetid-vidcap-cameracontrol">PROPSETID_VIDCAP_CAMERACONTROL</a> property set that use two values at the same time. This structure specifies property values in requests to the USB video class driver.
 
 
 ## -struct-fields
@@ -56,7 +56,7 @@ The KSPROPERTY_CAMERACONTROL_NODE_S2 structure describes node-based properties i
 
 ### -field NodeProperty
 
-Specifies an initialized <a href="https://msdn.microsoft.com/library/windows/hardware/ff566720">KSP_NODE</a> structure that describes the property set, property ID, request type, and node ID. 
+Specifies an initialized <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksp_node">KSP_NODE</a> structure that describes the property set, property ID, request type, and node ID. 
 
 
 ### -field Value1
@@ -179,7 +179,7 @@ Specifies the second value of the property. This member is read/write.
 
 
 
-This structure is used by <a href="https://msdn.microsoft.com/library/windows/hardware/ff564425">KSPROPERTY_CAMERACONTROL_PANTILT</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff564427">KSPROPERTY_CAMERACONTROL_PANTILT_RELATIVE</a> for node-based get/set property requests.
+This structure is used by <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-cameracontrol-pantilt">KSPROPERTY_CAMERACONTROL_PANTILT</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-cameracontrol-pantilt-relative">KSPROPERTY_CAMERACONTROL_PANTILT_RELATIVE</a> for node-based get/set property requests.
 
 
 

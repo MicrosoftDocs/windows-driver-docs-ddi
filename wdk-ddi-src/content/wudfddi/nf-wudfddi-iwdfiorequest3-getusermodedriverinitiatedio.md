@@ -73,9 +73,9 @@ The method returns <b>TRUE</b> if the request is marked as UMDF driver-initiated
 
 
 
-For additional information, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh451354">SetUserModeDriverInitiatedIo</a>.
+For additional information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfiorequest3-setusermodedriverinitiatedio">SetUserModeDriverInitiatedIo</a>.
 
-The UMDF 2 equivalent of this method is <a href="https://msdn.microsoft.com/library/windows/hardware/dn265618">WdfRequestGetUserModeInitiatedIo</a>.
+The UMDF 2 equivalent of this method is <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfrequest/nf-wdfrequest-wdfrequestgetusermodedriverinitiatedio">WdfRequestGetUserModeInitiatedIo</a>.
 
 
 
@@ -85,11 +85,11 @@ The UMDF 2 equivalent of this method is <a href="https://msdn.microsoft.com/libr
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451337">IWDFIoRequest3</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nn-wudfddi-iwdfiorequest3">IWDFIoRequest3</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451354">SetUserModeDriverInitiatedIo</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfiorequest3-setusermodedriverinitiatedio">SetUserModeDriverInitiatedIo</a>
  
 
  

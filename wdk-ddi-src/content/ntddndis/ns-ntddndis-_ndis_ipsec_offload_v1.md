@@ -48,8 +48,8 @@ req.typenames: NDIS_IPSEC_OFFLOAD_V1, *PNDIS_IPSEC_OFFLOAD_V1
 
 The <b>NDIS_IPSEC_OFFLOAD_V1</b> structure provides Internet protocol security (IPsec) task offload
   information in the 
-  <a href="https://msdn.microsoft.com/library/windows/hardware/ff566599">NDIS_OFFLOAD</a> structure.
-<div class="alert"><b>Note</b>  <b>NDIS_IPSEC_OFFLOAD_V1</b> is only for NDIS 6.0. For NDIS 6.1 and later, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff565808">NDIS_IPSEC_OFFLOAD_V2</a>.</div><div> </div>
+  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_offload">NDIS_OFFLOAD</a> structure.
+<div class="alert"><b>Note</b>  <b>NDIS_IPSEC_OFFLOAD_V1</b> is only for NDIS 6.0. For NDIS 6.1 and later, use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_ipsec_offload_v2">NDIS_IPSEC_OFFLOAD_V2</a>.</div><div> </div>
 
 ## -struct-fields
 
@@ -97,7 +97,7 @@ A ULONG value that a miniport driver sets to indicate that the NIC can perform I
 
 The types of UDP-encapsulated ESP data packets that the NIC can parse. For a description of the
        UDP-encapsulation types, see 
-       <a href="https://msdn.microsoft.com/126d2fd5-778e-43ff-87f6-5b0b54a83bac">UDP-ESP Encapsulation Types</a>.
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/network/udp-esp-encapsulation-types">UDP-ESP Encapsulation Types</a>.
        This member can be one or more of the following flags:
        
 
@@ -319,27 +319,27 @@ A ULONG value that a miniport driver sets to indicate that the NIC can encrypt a
 
 The <b>NDIS_IPSEC_OFFLOAD_V1</b> structure is used in the 
     <b>IPsecV1</b> member of the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff566599">NDIS_OFFLOAD</a> structure. The
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_offload">NDIS_OFFLOAD</a> structure. The
     NDIS_IPSEC_OFFLOAD_V1 structure specifies the current or supported services that a miniport adapter
     provides for Internet protocol security (IPsec).
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566599">NDIS_OFFLOAD</a> is used in the 
-    <a href="https://msdn.microsoft.com/9ce875fc-ed3f-43e9-bfbc-081f02cb1999">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_offload">NDIS_OFFLOAD</a> is used in the 
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_miniport_adapter_offload_attributes">
     NDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES</a> structure, 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff564832">NDIS_BIND_PARAMETERS</a> structure, 
-    <a href="https://msdn.microsoft.com/d46a1e62-9d03-4ab9-86f6-81b06c04d0f6">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_bind_parameters">NDIS_BIND_PARAMETERS</a> structure, 
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_filter_attach_parameters">
     NDIS_FILTER_ATTACH_PARAMETERS</a> structure, 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-offload-current-config">
     OID_TCP_OFFLOAD_CURRENT_CONFIG</a> OID, and the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff567424">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-task-offload-current-config">
     NDIS_STATUS_TASK_OFFLOAD_CURRENT_CONFIG</a> status indication.
 
 For 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-tcp-offload-current-config">OID_TCP_OFFLOAD_CURRENT_CONFIG</a>,
-    the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566599">NDIS_OFFLOAD</a> structure specifies the task offload capabilities that a miniport adapter supports. If
+    the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_offload">NDIS_OFFLOAD</a> structure specifies the task offload capabilities that a miniport adapter supports. If
     the current offloads capabilities change, a miniport driver reports the new capabilities in an 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff567424">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-task-offload-current-config">
     NDIS_STATUS_TASK_OFFLOAD_CURRENT_CONFIG</a> status indication.
 
 The 
@@ -354,7 +354,7 @@ In response to an
     (NDIS_ENCAPSULATION_IEEE_802_3). The other types of encapsulation are optional.
 
 For an 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff567424">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-task-offload-current-config">
     NDIS_STATUS_TASK_OFFLOAD_CURRENT_CONFIG</a> status indication, the miniport driver provides a bitwise
     OR of the encapsulation flags, which indicate the current capabilities, in the 
     <b>Encapsulation</b> member.
@@ -372,37 +372,37 @@ The following flags are defined for the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564832">NDIS_BIND_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_bind_parameters">NDIS_BIND_PARAMETERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565481">NDIS_FILTER_ATTACH_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_filter_attach_parameters">NDIS_FILTER_ATTACH_PARAMETERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565808">NDIS_IPSEC_OFFLOAD_V2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_ipsec_offload_v2">NDIS_IPSEC_OFFLOAD_V2</a>
 
 
 
-<a href="https://msdn.microsoft.com/9ce875fc-ed3f-43e9-bfbc-081f02cb1999">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_miniport_adapter_offload_attributes">
    NDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566599">NDIS_OFFLOAD</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_offload">NDIS_OFFLOAD</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567424">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-task-offload-current-config">
    NDIS_STATUS_TASK_OFFLOAD_CURRENT_CONFIG</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
 
 
 

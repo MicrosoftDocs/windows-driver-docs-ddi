@@ -60,7 +60,7 @@ The NEIGHBOR_OFFLOAD_STATE_CONST structure contains the constant variables of a 
 ### -field Header
 
 An 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff569062">OFFLOAD_STATE_HEADER</a> structure. NDIS
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/ns-ndischimney-_offload_state_header">OFFLOAD_STATE_HEADER</a> structure. NDIS
      sets the 
      <b>Length</b> member of 
      <b>Header</b> to the size, in bytes, of the NEIGHBOR_OFFLOAD_STATE_CONST structure. The 
@@ -95,7 +95,7 @@ An unsigned 12-bit binary number that identifies the virtual LAN (VLAN) to which
 
 When <b>NULL</b>, the offload target should use any VLAN IDs that have been configured for its network
      interface. The offload target's 
-     <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> function
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> function
      reads such VLAN IDs from the registry.
 
 
@@ -105,7 +105,7 @@ When <b>NULL</b>, the offload target should use any VLAN IDs that have been conf
 
 For a description of how an offload target uses the 
     <b>VlanId</b> member, see 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff570937">802.1Q
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/ns-ndischimney-_tcp_offload_state_cached">802.1Q
     and 802.1p Processing on an Offloaded TCP Connection</a>.
 
 
@@ -116,20 +116,20 @@ For a description of how an offload target uses the
 
 
 
-<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568323">NEIGHBOR_OFFLOAD_STATE_CACHED</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/ns-ndischimney-_neighbor_offload_state_cached">NEIGHBOR_OFFLOAD_STATE_CACHED</a>
 
 
 
-<a href="https://msdn.microsoft.com/94a35d0f-3585-45d0-bba8-0b4a8ebbe883">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/ns-ndischimney-_neighbor_offload_state_delegated">
    NEIGHBOR_OFFLOAD_STATE_DELEGATED</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569062">OFFLOAD_STATE_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndischimney/ns-ndischimney-_offload_state_header">OFFLOAD_STATE_HEADER</a>
  
 
  

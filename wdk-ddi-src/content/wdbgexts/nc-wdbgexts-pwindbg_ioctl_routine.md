@@ -108,7 +108,7 @@ IG_KD_CONTEXT
 </td>
 <td>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546962">GetKdContext</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdbgexts/nf-wdbgexts-getkdcontext">GetKdContext</a>
 
 
 </td>
@@ -121,7 +121,7 @@ IG_READ_CONTROL_SPACE
 </td>
 <td>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553527">ReadControlSpace</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdbgexts/nf-wdbgexts-readcontrolspace">ReadControlSpace</a>
 
 
 <b>ReadControlSpace64 </b>
@@ -147,7 +147,7 @@ IG_READ_IO_SPACE
 </td>
 <td>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553574">ReadIoSpace</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdbgexts/nf-wdbgexts-readiospace">ReadIoSpace</a>
 
 
 <b>ReadIoSpace64 </b>
@@ -162,7 +162,7 @@ IG_WRITE_IO_SPACE
 </td>
 <td>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561406">WriteIoSpace</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdbgexts/nf-wdbgexts-writeiospace">WriteIoSpace</a>
 
 
 <b>WriteIoSpace64 </b>
@@ -177,7 +177,7 @@ IG_READ_PHYSICAL
 </td>
 <td>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554313">ReadPhysical</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugdataspaces4-readphysical">ReadPhysical</a>
 
 
 </td>
@@ -190,7 +190,7 @@ IG_WRITE_PHYSICAL
 </td>
 <td>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561432">WritePhysical</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdbgexts/nf-wdbgexts-writephysical">WritePhysical</a>
 
 
 </td>
@@ -203,7 +203,7 @@ IG_READ_IO_SPACE_EX
 </td>
 <td>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553580">ReadIoSpaceEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdbgexts/nf-wdbgexts-readiospaceex">ReadIoSpaceEx</a>
 
 
 <b>ReadIoSpaceEx64 </b>
@@ -218,7 +218,7 @@ IG_WRITE_IO_SPACE_EX
 </td>
 <td>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561413">WriteIoSpaceEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdbgexts/nf-wdbgexts-writeiospaceex">WriteIoSpaceEx</a>
 
 
 <b>WriteIoSpaceEx64 </b>
@@ -233,7 +233,7 @@ IG_SET_THREAD
 </td>
 <td>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556830">SetThreadForOperation</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdbgexts/nf-wdbgexts-setthreadforoperation">SetThreadForOperation</a>
 
 
 <b>SetThreadForOperation64 </b>
@@ -248,7 +248,7 @@ IG_READ_MSR
 </td>
 <td>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554292">ReadMsr</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugdataspaces4-readmsr">ReadMsr</a>
 
 
 </td>
@@ -261,7 +261,7 @@ IG_WRITE_MSR
 </td>
 <td>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561424">WriteMsr</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdbgexts/nf-wdbgexts-writemsr">WriteMsr</a>
 
 
 </td>
@@ -274,7 +274,7 @@ IG_GET_DEBUGGER_DATA
 </td>
 <td>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546573">GetDebuggerData</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdbgexts/nf-wdbgexts-getdebuggerdata">GetDebuggerData</a>
 
 
 </td>
@@ -289,7 +289,7 @@ IG_GET_KERNEL_VERSION
 <td></td>
 <td>
 
-<a href="https://msdn.microsoft.com/692e58b5-74ea-48f3-a9c2-81953b7d600d">DBGKD_GET_VERSION64</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdbgexts/ns-wdbgexts-_dbgkd_get_version64">DBGKD_GET_VERSION64</a>
 
 
 </td>
@@ -312,7 +312,7 @@ IG_GET_SET_SYMPATH
 </td>
 <td>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548291">GetSetSympath</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdbgexts/nf-wdbgexts-getsetsympath">GetSetSympath</a>
 
 
 </td>
@@ -349,7 +349,7 @@ IG_GET_BUS_DATA
 <td></td>
 <td>
 
-<a href="https://msdn.microsoft.com/aca1fe96-20c7-4a51-a331-583b107f62e0">GETSETBUSDATA</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdbgexts/ns-wdbgexts-_getsetbusdata">GETSETBUSDATA</a>
 
 
 </td>
@@ -363,7 +363,7 @@ IG_SET_BUS_DATA
 <td></td>
 <td>
 
-<a href="https://msdn.microsoft.com/aca1fe96-20c7-4a51-a331-583b107f62e0">GETSETBUSDATA</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdbgexts/ns-wdbgexts-_getsetbusdata">GETSETBUSDATA</a>
 
 
 </td>
@@ -371,14 +371,14 @@ IG_SET_BUS_DATA
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550906">IG_DUMP_SYMBOL_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdbgexts/ns-wdbgexts-_sym_dump_param">IG_DUMP_SYMBOL_INFO</a>
 
 
 </td>
 <td></td>
 <td>
 
-<a href="https://msdn.microsoft.com/5a00f401-89e5-4863-ab14-a8ab7eec1869">SYM_DUMP_PARAM</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdbgexts/ns-wdbgexts-_sym_dump_param">SYM_DUMP_PARAM</a>
 
 
 </td>
@@ -525,7 +525,7 @@ IG_POINTER_SEARCH_PHYSICAL
 <td></td>
 <td>
 
-<a href="https://msdn.microsoft.com/fdb8376b-fbda-4bee-895e-a306fd0f632a">POINTER_SEARCH_PHYSICAL</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdbgexts/ns-wdbgexts-_pointer_search_physical">POINTER_SEARCH_PHYSICAL</a>
 
 
 </td>
@@ -542,7 +542,7 @@ IG_GET_THREAD_OS_INFO
 </td>
 <td>
 
-<a href="https://msdn.microsoft.com/5cd1ba71-af2f-4662-b37d-88f4e4aa7624">WDBGEXTS_THREAD_OS_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdbgexts/ns-wdbgexts-_wdbgexts_thread_os_info">WDBGEXTS_THREAD_OS_INFO</a>
 
 
 </td>

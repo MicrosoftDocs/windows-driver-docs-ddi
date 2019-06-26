@@ -86,63 +86,63 @@ Callers of <b>RtlInitializeSplayLinks</b> must be running at IRQL <= DISPATCH_LE
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545293">ExInitializeFastMutex</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-exinitializefastmutex">ExInitializeFastMutex</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552214">RtlDeleteNoSplay</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-rtldeletenosplay">RtlDeleteNoSplay</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553017">RtlInsertAsLeftChild</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-rtlinsertasleftchild">RtlInsertAsLeftChild</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553022">RtlInsertAsRightChild</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-rtlinsertasrightchild">RtlInsertAsRightChild</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553054">RtlIsLeftChild</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-rtlisleftchild">RtlIsLeftChild</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553066">RtlIsRightChild</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-rtlisrightchild">RtlIsRightChild</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553072">RtlIsRoot</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-rtlisroot">RtlIsRoot</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553080">RtlLeftChild</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-rtlleftchild">RtlLeftChild</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553165">RtlParent</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-rtlparent">RtlParent</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553186">RtlRealPredecessor</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-rtlrealpredecessor">RtlRealPredecessor</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553188">RtlRealSuccessor</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-rtlrealsuccessor">RtlRealSuccessor</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553200">RtlRightChild</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-rtlrightchild">RtlRightChild</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553226">RtlSplay</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-rtlsplay">RtlSplay</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553237">RtlSubtreePredecessor</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-rtlsubtreepredecessor">RtlSubtreePredecessor</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553239">RtlSubtreeSuccessor</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-rtlsubtreesuccessor">RtlSubtreeSuccessor</a>
  
 
  

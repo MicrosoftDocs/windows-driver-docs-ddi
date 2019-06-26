@@ -89,7 +89,7 @@ If <i>Count</i> <= THREAD_WAIT_OBJECTS, <i>WaitBlockArray</i> can be <b>NULL</b>
 
 ### -param Irp [in, optional]
 
-A pointer to the original IRP that corresponds to the I/O operation that was issued by the user and that can be canceled by the user.  The caller must ensure that the IRP will remain valid for the duration of this routine and that the IRP must not have a cancel routine set (for example, <a href="https://msdn.microsoft.com/library/windows/hardware/ff549674">IoSetCancelRoutine</a> must not have been called on the IRP).  Note that the IRP must be held by the caller, it cannot be passed to a lower-level driver.
+A pointer to the original IRP that corresponds to the I/O operation that was issued by the user and that can be canceled by the user.  The caller must ensure that the IRP will remain valid for the duration of this routine and that the IRP must not have a cancel routine set (for example, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iosetcancelroutine">IoSetCancelRoutine</a> must not have been called on the IRP).  Note that the IRP must be held by the caller, it cannot be passed to a lower-level driver.
 
 
 ## -returns
@@ -185,7 +185,7 @@ Note that the NT_SUCCESS macro returns <b>FALSE</b> ("failure") for the STATUS_C
 
 The <b>FsRtlCancellableWaitForMultipleObjects</b> routine executes a cancelable wait operation on dispatcher objects.  If the thread is terminated by the user or by the application, or if <a href="https://go.microsoft.com/fwlink/p/?linkid=64526">CancelSynchronousIo</a> posts a cancel request on a threaded IRP (synchronous IRP) associated with the thread, the wait is canceled.
 
-The <b>FsRtlCancellableWaitForMultipleObjects</b> routine was designed  for support of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn613954">I/O Completion/Cancellation Guidelines</a> starting with Windows Vista. The goal of these guidelines is to allow users (or applications) to quickly terminate applications.  This, in turn, requires that applications have the ability to quickly terminate threads that are executing I/O as well as any current I/O operations. This routine provides a way for user threads to block (that is, wait) in the kernel for I/O completion, dispatcher objects, or synchronization variables in a way that allows the wait to be readily canceled. This routine also permits the thread's wait to be terminated if the thread is terminated by a user or an application.
+The <b>FsRtlCancellableWaitForMultipleObjects</b> routine was designed  for support of the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/design/dn613954(v=vs.85)">I/O Completion/Cancellation Guidelines</a> starting with Windows Vista. The goal of these guidelines is to allow users (or applications) to quickly terminate applications.  This, in turn, requires that applications have the ability to quickly terminate threads that are executing I/O as well as any current I/O operations. This routine provides a way for user threads to block (that is, wait) in the kernel for I/O completion, dispatcher objects, or synchronization variables in a way that allows the wait to be readily canceled. This routine also permits the thread's wait to be terminated if the thread is terminated by a user or an application.
 
 For example, a redirector may need to create one or more secondary IRPs in order to process a user-mode IRP and synchronously wait for the secondary IRPs to complete. One way to do this is to set up an event that will be signaled by the completion routine of the secondary IRP and then wait for the event to be signaled. Then, to perform a cancelable wait operation, <b>FsRtlCancellableWaitForMultipleObjects</b> is called passing in the event associated with the secondary IRP, as well as the original user-mode IRP.  The thread's wait for the event to be signaled is canceled if a pending termination event occurs or if the original user-mode IRP is canceled.
 
@@ -193,13 +193,13 @@ Note that terminating the wait does not automatically cancel any I/O operation t
 
 Each thread object has a built-in array of wait blocks that can be used to wait on several objects concurrently. Whenever possible, the built-in array of wait blocks should be used in a wait-multiple operation because no additional wait block storage needs to be allocated and later deallocated. However, if the number of objects that must be waited on concurrently is greater than the number of built-in wait blocks, use the <i>WaitBlockArray</i> parameter to specify an alternate set of wait blocks to be used in the wait operation. Drivers only need to allocate a sufficiently-large memory buffer for <i>WaitBlockArray</i>. The buffer does not need to be initialized, and the drivers can treat it as an opaque structure. The buffer can be freed once the routine returns.
 
-If either <i>Count</i> is greater than MAXIMUM_WAIT_OBJECTS or if <i>WaitBlockArray</i> is <b>NULL</b> and Count is greater than THREAD_WAIT_OBJECTS, the system issues <a href="https://msdn.microsoft.com/library/windows/hardware/ff560236">Bug Check 0xC: MAXIMUM_WAIT_OBJECTS_EXCEEDED</a>.
+If either <i>Count</i> is greater than MAXIMUM_WAIT_OBJECTS or if <i>WaitBlockArray</i> is <b>NULL</b> and Count is greater than THREAD_WAIT_OBJECTS, the system issues <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/bug-check-0xc--maximum-wait-objects-exceeded">Bug Check 0xC: MAXIMUM_WAIT_OBJECTS_EXCEEDED</a>.
 
 A special consideration applies when the <i>ObjectArray</i> parameter passed to <b>FsRtlCancellableWaitForMultipleObjects</b> is a mutex. If the dispatcher object that is waited on is a mutex, APC delivery is the same as for all other dispatcher objects during the wait. However, once <b>FsRtlCancellableWaitForMultipleObjects</b> returns with STATUS_SUCCESS and the thread actually holds the mutex, only special kernel-mode APCs are delivered. Delivery of all other APCs, both kernel-mode and user-mode, is disabled. This restriction on the delivery of APCs persists until the mutex is released.
 
 A mutex can be recursively acquired only MINLONG times.  If this limit is exceeded, the routine raises a STATUS_MUTANT_LIMIT_EXCEEDED exception.
 
-<b>FsRtlCancellableWaitForMultipleObjects</b> must be called at IRQL PASSIVE_LEVEL if the optional <i>Irp</i> parameter points to a valid IRP. If the <i>Irp</i> parameter is not used, the routine can be called at IRQL less or equal to APC_LEVEL. Normal kernel APCs can be disabled by the caller, if needed, by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552021">KeEnterCriticalRegion</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff545900">FsRtlEnterFileSystem</a> routines. However, special kernel APCs must not be disabled. 
+<b>FsRtlCancellableWaitForMultipleObjects</b> must be called at IRQL PASSIVE_LEVEL if the optional <i>Irp</i> parameter points to a valid IRP. If the <i>Irp</i> parameter is not used, the routine can be called at IRQL less or equal to APC_LEVEL. Normal kernel APCs can be disabled by the caller, if needed, by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-keentercriticalregion">KeEnterCriticalRegion</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/fsrtlenterfilesystem">FsRtlEnterFileSystem</a> routines. However, special kernel APCs must not be disabled. 
 
 <b>FsRtlCancellableWaitForMultipleObjects</b> will assert on debug builds if the IRQL is greater or equal to APC_LEVEL and the <i>Irp</i> parameter points to a valid IRP.
 
@@ -211,7 +211,7 @@ A mutex can be recursively acquired only MINLONG times.  If this limit is exceed
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545293">ExInitializeFastMutex</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-exinitializefastmutex">ExInitializeFastMutex</a>
 
 
 
@@ -219,23 +219,23 @@ A mutex can be recursively acquired only MINLONG times.  If this limit is exceed
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552137">KeInitializeEvent</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-keinitializeevent">KeInitializeEvent</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552147">KeInitializeMutex</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-keinitializemutex">KeInitializeMutex</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552150">KeInitializeSemaphore</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-keinitializesemaphore">KeInitializeSemaphore</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552168">KeInitializeTimer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-keinitializetimer">KeInitializeTimer</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553324">KeWaitForMultipleObjects</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kewaitformultipleobjects">KeWaitForMultipleObjects</a>
 
 
 
@@ -243,7 +243,7 @@ A mutex can be recursively acquired only MINLONG times.  If this limit is exceed
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553350">KeWaitForSingleObject</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kewaitforsingleobject">KeWaitForSingleObject</a>
  
 
  

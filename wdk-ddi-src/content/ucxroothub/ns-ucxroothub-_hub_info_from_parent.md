@@ -61,7 +61,7 @@ A pointer to the WDM device object of the parent that represents the I/O target.
 
 ### -field DeviceDescriptor
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff539280">USB_DEVICE_DESCRIPTOR</a> structure that contains the device descriptor.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbspec/ns-usbspec-_usb_device_descriptor">USB_DEVICE_DESCRIPTOR</a> structure that contains the device descriptor.
 
 
 ### -field U1ExitLatency
@@ -118,7 +118,7 @@ The total TP propagation delay.
 
 ### -field HubFlags
 
-A bitwise-OR of <a href="https://msdn.microsoft.com/library/windows/hardware/mt188025">PARENT_HUB_FLAGS</a> flags.
+A bitwise-OR of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucxroothub/ns-ucxroothub-_parent_hub_flags">PARENT_HUB_FLAGS</a> flags.
 
 
 ### -field SublinkSpeedAttr

@@ -56,7 +56,7 @@ The <b>GetBreakpointByIndex2</b>  method returns the breakpoint located at the s
 
 ### -param Index [in]
 
-Specifies the zero-based index of the breakpoint to return.  This is specific to the current process.  The value of <i>Index</i> should be between zero and the total number of breakpoints minus one. The total number of breakpoints can be determined by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff547880">GetNumberBreakpoints</a>.
+Specifies the zero-based index of the breakpoint to return.  This is specific to the current process.  The value of <i>Index</i> should be between zero and the total number of breakpoints minus one. The total number of breakpoints can be determined by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-getnumberbreakpoints">GetNumberBreakpoints</a>.
 
 
 ### -param Bp [out]
@@ -68,7 +68,7 @@ Receives the returned breakpoint.
 
 
 
-This method can also return other error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+This method can also return other error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 <table>
 <tr>
@@ -117,11 +117,11 @@ The index and returned breakpoint are specific to the current process.  The same
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547880">GetNumberBreakpoints</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-getnumberbreakpoints">GetNumberBreakpoints</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550526">IDebugControl4</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugcontrol4">IDebugControl4</a>
  
 
  

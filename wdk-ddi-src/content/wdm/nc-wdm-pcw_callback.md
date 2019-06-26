@@ -66,7 +66,7 @@ A pointer to a PCW_CALLBACK_INFORMATION union that supplies details about the re
 
 ### -param Context [in, optional]
 
-A pointer to the callback context. This value is supplied by the provider when calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff550323">PcwRegister</a>.
+A pointer to the callback context. This value is supplied by the provider when calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-pcwregister">PcwRegister</a>.
 
 
 ## -returns
@@ -258,7 +258,7 @@ In the <i>DriverEntry</i> routine of the KCS example, the <i>KcsGeometricWaveCal
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550323">PcwRegister</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-pcwregister">PcwRegister</a>
 
 
 

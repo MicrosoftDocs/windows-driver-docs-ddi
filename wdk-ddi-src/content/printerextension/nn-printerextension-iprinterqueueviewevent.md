@@ -66,10 +66,10 @@ The <b>IPrinterQueueViewEvent</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265394">OnChanged</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nf-printerextension-iprinterqueueviewevent-onchanged">OnChanged</a>
 </td>
 <td align="left" width="63%">
-Provides an <a href="https://msdn.microsoft.com/library/windows/hardware/dn265397">IPrintJobCollection</a> object that provides a snapshot of a range of print jobs in the queue.
+Provides an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprintjobcollection">IPrintJobCollection</a> object that provides a snapshot of a range of print jobs in the queue.
 
 </td>
 </tr>
@@ -80,7 +80,7 @@ Provides an <a href="https://msdn.microsoft.com/library/windows/hardware/dn26539
 
 
 
-<b>IPrinterQueueViewEvent</b> also helps to make it possible to perform job management from a UWP device app or from a printer extension. For more information, see <a href="https://msdn.microsoft.com/D1236DD2-D4AD-4615-9036-7EC75D6CADCE">Job Management</a>.
+<b>IPrinterQueueViewEvent</b> also helps to make it possible to perform job management from a UWP device app or from a printer extension. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/print/job-management">Job Management</a>.
 
 
 
@@ -90,7 +90,7 @@ Provides an <a href="https://msdn.microsoft.com/library/windows/hardware/dn26539
 
 
 
-<a href="https://msdn.microsoft.com/D1236DD2-D4AD-4615-9036-7EC75D6CADCE">Job Management</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/print/job-management">Job Management</a>
  
 
  

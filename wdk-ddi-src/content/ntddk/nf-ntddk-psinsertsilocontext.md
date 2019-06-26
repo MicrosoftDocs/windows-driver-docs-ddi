@@ -61,12 +61,12 @@ A pointer to a silo.  This parameter is required and it cannot be <b>NULL</b>.
 
 ### -param ContextSlot [in]
 
-A slot allocated by the <a href="https://msdn.microsoft.com/library/windows/hardware/mt735056">PsAllocSiloContextSlot</a> routine. 
+A slot allocated by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-psallocsilocontextslot">PsAllocSiloContextSlot</a> routine. 
 
 
 ### -param SiloContext [in]
 
-A pointer to the object created by the <a href="https://msdn.microsoft.com/library/windows/hardware/mt735058">PsCreateSiloContext</a> routine. The object must be created using the same silo pointer as the one specified in this routine. This parameter is required and it cannot be <b>NULL</b>. 
+A pointer to the object created by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-pscreatesilocontext">PsCreateSiloContext</a> routine. The object must be created using the same silo pointer as the one specified in this routine. This parameter is required and it cannot be <b>NULL</b>. 
 
 
 ## -returns

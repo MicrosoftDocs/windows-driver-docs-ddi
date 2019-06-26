@@ -56,120 +56,120 @@ The FLT_PARAMETERS union defines the request-type-specific parameters associated
 
 
 
-This structure is stored in the <b>Parameters</b> field of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544638">FLT_IO_PARAMETER_BLOCK</a> structure for the operation. (A pointer to the FLT_IO_PARAMETER_BLOCK structure is stored in the <b>Iopb</b> field of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544620">FLT_CALLBACK_DATA</a> structure for the operation.) 
+This structure is stored in the <b>Parameters</b> field of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/ns-fltkernel-_flt_io_parameter_block">FLT_IO_PARAMETER_BLOCK</a> structure for the operation. (A pointer to the FLT_IO_PARAMETER_BLOCK structure is stored in the <b>Iopb</b> field of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a> structure for the operation.) 
 
 For the specific FLT_PARAMETERS union component used in each type of I/O operation, see the following reference entries. 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544687">FLT_PARAMETERS for IRP_MJ_CREATE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-create">FLT_PARAMETERS for IRP_MJ_CREATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544692">FLT_PARAMETERS for IRP_MJ_DEVICE_CONTROL and IRP_MJ_INTERNAL_DEVICE_CONTROL</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-device-control-and-irp-mj-internal-device-co">FLT_PARAMETERS for IRP_MJ_DEVICE_CONTROL and IRP_MJ_INTERNAL_DEVICE_CONTROL</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544695">FLT_PARAMETERS for IRP_MJ_DIRECTORY_CONTROL</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-directory-control">FLT_PARAMETERS for IRP_MJ_DIRECTORY_CONTROL</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544705">FLT_PARAMETERS for IRP_MJ_FILE_SYSTEM_CONTROL</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-file-system-control">FLT_PARAMETERS for IRP_MJ_FILE_SYSTEM_CONTROL</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544709">FLT_PARAMETERS for IRP_MJ_LOCK_CONTROL</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-lock-control">FLT_PARAMETERS for IRP_MJ_LOCK_CONTROL</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544742">FLT_PARAMETERS for IRP_MJ_PNP</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-pnp">FLT_PARAMETERS for IRP_MJ_PNP</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544751">FLT_PARAMETERS for IRP_MJ_QUERY_EA</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-query-ea">FLT_PARAMETERS for IRP_MJ_QUERY_EA</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544756">FLT_PARAMETERS for IRP_MJ_QUERY_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-query-information">FLT_PARAMETERS for IRP_MJ_QUERY_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544759">FLT_PARAMETERS for IRP_MJ_QUERY_QUOTA</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-query-quota">FLT_PARAMETERS for IRP_MJ_QUERY_QUOTA</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544765">FLT_PARAMETERS for IRP_MJ_QUERY_SECURITY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-query-security">FLT_PARAMETERS for IRP_MJ_QUERY_SECURITY</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544768">FLT_PARAMETERS for IRP_MJ_QUERY_VOLUME_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-query-volume-information">FLT_PARAMETERS for IRP_MJ_QUERY_VOLUME_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544770">FLT_PARAMETERS for IRP_MJ_READ</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-read">FLT_PARAMETERS for IRP_MJ_READ</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544781">FLT_PARAMETERS for IRP_MJ_SET_EA</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-set-ea">FLT_PARAMETERS for IRP_MJ_SET_EA</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544789">FLT_PARAMETERS for IRP_MJ_SET_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-set-information">FLT_PARAMETERS for IRP_MJ_SET_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544792">FLT_PARAMETERS for IRP_MJ_SET_QUOTA</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-set-quota">FLT_PARAMETERS for IRP_MJ_SET_QUOTA</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544794">FLT_PARAMETERS for IRP_MJ_SET_SECURITY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-set-security">FLT_PARAMETERS for IRP_MJ_SET_SECURITY</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544798">FLT_PARAMETERS for IRP_MJ_SET_VOLUME_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-set-volume-information">FLT_PARAMETERS for IRP_MJ_SET_VOLUME_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544808">FLT_PARAMETERS for IRP_MJ_WRITE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-write">FLT_PARAMETERS for IRP_MJ_WRITE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544678">FLT_PARAMETERS for IRP_MJ_ACQUIRE_FOR_MOD_WRITE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-acquire-for-mod-write">FLT_PARAMETERS for IRP_MJ_ACQUIRE_FOR_MOD_WRITE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544684">FLT_PARAMETERS for IRP_MJ_ACQUIRE_FOR_SECTION_SYNCHRONIZATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-acquire-for-section-synchronization">FLT_PARAMETERS for IRP_MJ_ACQUIRE_FOR_SECTION_SYNCHRONIZATION</a>
 
 [FLT_PARAMETERS for IRP_MJ_QUERY_OPEN](https://docs.microsoft.com/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-query-open)
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544700">FLT_PARAMETERS for IRP_MJ_FAST_IO_CHECK_IF_POSSIBLE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-fast-io-check-if-possible">FLT_PARAMETERS for IRP_MJ_FAST_IO_CHECK_IF_POSSIBLE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544713">FLT_PARAMETERS for IRP_MJ_MDL_READ</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-mdl-read">FLT_PARAMETERS for IRP_MJ_MDL_READ</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544719">FLT_PARAMETERS for IRP_MJ_MDL_READ_COMPLETE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-mdl-read-complete">FLT_PARAMETERS for IRP_MJ_MDL_READ_COMPLETE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544725">FLT_PARAMETERS for IRP_MJ_MDL_WRITE_COMPLETE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-mdl-write-complete">FLT_PARAMETERS for IRP_MJ_MDL_WRITE_COMPLETE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544731">FLT_PARAMETERS for IRP_MJ_NETWORK_QUERY_OPEN</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-network-query-open">FLT_PARAMETERS for IRP_MJ_NETWORK_QUERY_OPEN</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544749">FLT_PARAMETERS for IRP_MJ_PREPARE_MDL_WRITE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-prepare-mdl-write">FLT_PARAMETERS for IRP_MJ_PREPARE_MDL_WRITE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544774">FLT_PARAMETERS for IRP_MJ_RELEASE_FOR_MOD_WRITE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-release-for-mod-write">FLT_PARAMETERS for IRP_MJ_RELEASE_FOR_MOD_WRITE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544804">FLT_PARAMETERS for IRP_MJ_VOLUME_MOUNT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-volume-mount">FLT_PARAMETERS for IRP_MJ_VOLUME_MOUNT</a>
 
 
 The following I/O operations do not have parameters:
@@ -192,15 +192,15 @@ The following I/O operations do not have parameters:
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544620">FLT_CALLBACK_DATA</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544638">FLT_IO_PARAMETER_BLOCK</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/ns-fltkernel-_flt_io_parameter_block">FLT_IO_PARAMETER_BLOCK</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544383">FltSetCallbackDataDirty</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltsetcallbackdatadirty">FltSetCallbackDataDirty</a>
  
 
  

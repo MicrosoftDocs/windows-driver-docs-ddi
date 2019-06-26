@@ -83,9 +83,9 @@ The power, in microwatts, that the component consumes in this F-state. Set this 
 
 
 
- The <a href="https://msdn.microsoft.com/library/windows/hardware/hh920427">STOR_POFX_COMPONENT</a> structure contains an array of <b>STOR_POFX_COMPONENT_IDLE_STATE</b> structures. Each array element specifies the attributes of an F-state. Element 0 describes F0, element 1 describes F1, and so on.
+ The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/ns-storport-_stor_pofx_component">STOR_POFX_COMPONENT</a> structure contains an array of <b>STOR_POFX_COMPONENT_IDLE_STATE</b> structures. Each array element specifies the attributes of an F-state. Element 0 describes F0, element 1 describes F1, and so on.
 
-When the miniport driver registers a device with the Storport power management framework, the driver supplies an array of <a href="https://msdn.microsoft.com/library/windows/hardware/hh920427">STOR_POFX_COMPONENT</a> structures. Each array element describes the power attributes of a component in the device.
+When the miniport driver registers a device with the Storport power management framework, the driver supplies an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/ns-storport-_stor_pofx_component">STOR_POFX_COMPONENT</a> structures. Each array element describes the power attributes of a component in the device.
 
 
 
@@ -95,7 +95,7 @@ When the miniport driver registers a device with the Storport power management f
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh920427">STOR_POFX_COMPONENT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/ns-storport-_stor_pofx_component">STOR_POFX_COMPONENT</a>
  
 
  

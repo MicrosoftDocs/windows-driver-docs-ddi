@@ -88,27 +88,27 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549399">wiasSetValidListFloat</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiassetvalidlistfloat">wiasSetValidListFloat</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549409">wiasSetValidListGuid</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiassetvalidlistguid">wiasSetValidListGuid</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549414">wiasSetValidListLong</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiassetvalidlistlong">wiasSetValidListLong</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549421">wiasSetValidListStr</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiassetvalidliststr">wiasSetValidListStr</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549425">wiasSetValidRangeFloat</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiassetvalidrangefloat">wiasSetValidRangeFloat</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549434">wiasSetValidRangeLong</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiassetvalidrangelong">wiasSetValidRangeLong</a>
  
 
  

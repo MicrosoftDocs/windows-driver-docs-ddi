@@ -76,7 +76,7 @@ A pointer to the array that describes the counters.
 
 ### -field Callback
 
-A pointer to the optional <a href="https://msdn.microsoft.com/5058fc17-1016-45bc-a6ea-5e2458824e7b">PcwCallback</a> function that notifies the provider about events related to this counter set.
+A pointer to the optional <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pcw_callback">PcwCallback</a> function that notifies the provider about events related to this counter set.
 
 
 ### -field CallbackContext
@@ -88,7 +88,7 @@ A pointer to the callback context.
 
 
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff550323">PcwRegister</a> function takes, as a parameter, a pointer to this structure to serve as the registration handle.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-pcwregister">PcwRegister</a> function takes, as a parameter, a pointer to this structure to serve as the registration handle.
 
 
 
@@ -98,15 +98,15 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff550323">PcwRe
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550338">PCW_COUNTER_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_pcw_counter_descriptor">PCW_COUNTER_DESCRIPTOR</a>
 
 
 
-<a href="https://msdn.microsoft.com/5058fc17-1016-45bc-a6ea-5e2458824e7b">PcwCallback</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pcw_callback">PcwCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550323">PcwRegister</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-pcwregister">PcwRegister</a>
  
 
  

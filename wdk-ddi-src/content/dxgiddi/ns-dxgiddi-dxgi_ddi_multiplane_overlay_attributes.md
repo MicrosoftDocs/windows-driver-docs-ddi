@@ -56,34 +56,34 @@ Used by the user-mode display driver to specify overlay plane attributes.
 
 ### -field Flags
 
-Specifies a flip operation as one of the applicable values in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh780289">DXGI_DDI_MULTIPLANE_OVERLAY_FLAGS</a> enumeration.
+Specifies a flip operation as one of the applicable values in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxgiddi/ne-dxgiddi-dxgi_ddi_multiplane_overlay_flags">DXGI_DDI_MULTIPLANE_OVERLAY_FLAGS</a> enumeration.
 
 
 ### -field SrcRect
 
-Specifies the source rectangle, of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>, relative to the source resource.
+Specifies the source rectangle, of type <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a>, relative to the source resource.
 
 
 ### -field DstRect
 
-Specifies the destination rectangle, of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>, relative to the monitor resolution.
+Specifies the destination rectangle, of type <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a>, relative to the monitor resolution.
 
 
 ### -field ClipRect
 
-Specifies any additional clipping, of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>, relative to the <b>DstRect</b> rectangle, after the data has been stretched according to the values of <b>SrcRect</b> and <b>DstRect</b>.
+Specifies any additional clipping, of type <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a>, relative to the <b>DstRect</b> rectangle, after the data has been stretched according to the values of <b>SrcRect</b> and <b>DstRect</b>.
 
 The driver and hardware can use the <b>ClipRect</b> member to apply a common stretch factor as the clipping changes when an app occludes part of the <b>DstRect</b> destination rectangle.
 
 
 ### -field Rotation
 
-Specifies the clockwise rotation of the overlay plane, given as a value from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557502">DXGI_DDI_MODE_ROTATION</a> enumeration.
+Specifies the clockwise rotation of the overlay plane, given as a value from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxgiddi/ne-dxgiddi-dxgi_ddi_mode_rotation">DXGI_DDI_MODE_ROTATION</a> enumeration.
 
 
 ### -field Blend
 
-Specifies the blend mode that applies to this overlay plane and the plane beneath it, given as a value from the <a href="https://msdn.microsoft.com/library/windows/hardware/hh780284">DXGI_DDI_MULTIPLANE_OVERLAY_BLEND</a> enumeration.
+Specifies the blend mode that applies to this overlay plane and the plane beneath it, given as a value from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxgiddi/ne-dxgiddi-dxgi_ddi_multiplane_overlay_blend">DXGI_DDI_MULTIPLANE_OVERLAY_BLEND</a> enumeration.
 
 
 ### -field DirtyRectCount
@@ -93,7 +93,7 @@ The number of dirty rectangles specified for the overlay plane. If zero, the ent
 
 ### -field pDirtyRects
 
-A pointer to an array of dirty rectangles (<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>s), relative to the source rectangle <b>SrcRect</b>, that indicate the portion of the overlay plane that has changed.
+A pointer to an array of dirty rectangles (<a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a>s), relative to the source rectangle <b>SrcRect</b>, that indicate the portion of the overlay plane that has changed.
 
 The driver can use this member to perform optimizations, though it's not required to use the dirty rectangle info. However, the driver should never fail a function call based on the provided dirty rectangles.
 
@@ -110,19 +110,19 @@ An optional pointer to a buffer that specifies the filters that the driver and h
 
 ### -field VideoFrameFormat
 
-Specifies the overlay plane's video frame format, given as a value from the <a href="https://msdn.microsoft.com/library/windows/hardware/hh780293">DXGI_DDI_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT</a> enumeration.
+Specifies the overlay plane's video frame format, given as a value from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxgiddi/ne-dxgiddi-dxgi_ddi_multiplane_overlay_video_frame_format">DXGI_DDI_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT</a> enumeration.
 
 <div class="alert"><b>Note</b>  This value must always be <b>DXGI_DDI_MULIIPLANE_OVERLAY_VIDEO_FRAME_FORMAT_PROGRESSIVE</b>. The operating system does not support the other enumeration values.</div>
 <div> </div>
 
 ### -field YCbCrFlags
 
-Specifies YUV range and conversion info as one of the applicable values in the <a href="https://msdn.microsoft.com/library/windows/hardware/hh780294">DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS</a> enumeration.
+Specifies YUV range and conversion info as one of the applicable values in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxgiddi/ne-dxgiddi-dxgi_ddi_multiplane_overlay_ycbcr_flags">DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS</a> enumeration.
 
 
 ### -field StereoFormat
 
-Specifies the overlay plane's video frame format, given as a value from the <a href="https://msdn.microsoft.com/library/windows/hardware/hh780292">DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FORMAT</a> enumeration.
+Specifies the overlay plane's video frame format, given as a value from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxgiddi/ne-dxgiddi-dxgi_ddi_multiplane_overlay_stereo_format">DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FORMAT</a> enumeration.
 
 <div class="alert"><b>Note</b>  This value must always be <b>DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FORMAT_MONO</b>. The operating system does not support the other enumeration values.</div>
 <div> </div>
@@ -139,14 +139,14 @@ Reserved for system use. Must always be <b>FALSE</b>.
 
 ### -field StereoFlipMode
 
-Specifies the overlay plane's stereo flip mode, given as a value from the <a href="https://msdn.microsoft.com/library/windows/hardware/hh780291">DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE</a> enumeration.
+Specifies the overlay plane's stereo flip mode, given as a value from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxgiddi/ne-dxgiddi-dxgi_ddi_multiplane_overlay_stereo_flip_mode">DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE</a> enumeration.
 
 <div class="alert"><b>Note</b>  This value must always be <b>DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_NONE</b>. The operating system does not support the other enumeration values.</div>
 <div> </div>
 
 ### -field StretchQuality
 
-Specifies the overlay plane's stretch quality, given as a value from the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265377">DXGI_DDI_MULTIPLANE_OVERLAY_STRETCH_QUALITY</a> enumeration.
+Specifies the overlay plane's stretch quality, given as a value from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxgiddi/ne-dxgiddi-dxgi_ddi_multiplane_overlay_stretch_quality">DXGI_DDI_MULTIPLANE_OVERLAY_STRETCH_QUALITY</a> enumeration.
 
 
 ## -see-also
@@ -154,39 +154,39 @@ Specifies the overlay plane's stretch quality, given as a value from the <a href
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557502">DXGI_DDI_MODE_ROTATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxgiddi/ne-dxgiddi-dxgi_ddi_mode_rotation">DXGI_DDI_MODE_ROTATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh780284">DXGI_DDI_MULTIPLANE_OVERLAY_BLEND</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxgiddi/ne-dxgiddi-dxgi_ddi_multiplane_overlay_blend">DXGI_DDI_MULTIPLANE_OVERLAY_BLEND</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh780289">DXGI_DDI_MULTIPLANE_OVERLAY_FLAGS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxgiddi/ne-dxgiddi-dxgi_ddi_multiplane_overlay_flags">DXGI_DDI_MULTIPLANE_OVERLAY_FLAGS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh780291">DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxgiddi/ne-dxgiddi-dxgi_ddi_multiplane_overlay_stereo_flip_mode">DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh780292">DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FORMAT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxgiddi/ne-dxgiddi-dxgi_ddi_multiplane_overlay_stereo_format">DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FORMAT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265377">DXGI_DDI_MULTIPLANE_OVERLAY_STRETCH_QUALITY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxgiddi/ne-dxgiddi-dxgi_ddi_multiplane_overlay_stretch_quality">DXGI_DDI_MULTIPLANE_OVERLAY_STRETCH_QUALITY</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh780293">DXGI_DDI_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxgiddi/ne-dxgiddi-dxgi_ddi_multiplane_overlay_video_frame_format">DXGI_DDI_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh780294">DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxgiddi/ne-dxgiddi-dxgi_ddi_multiplane_overlay_ycbcr_flags">DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a>
  
 
  

@@ -61,22 +61,22 @@ Gets the value of the specified system environment variables using
 
 ### -input-buffer
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/mt791533">SYSENV_VARIABLE</a> structure that specifies the variable..
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddsysenv/ns-ntddsysenv-_sysenv_variable">SYSENV_VARIABLE</a> structure that specifies the variable..
 
 
 ### -input-buffer-length
 
-The size of the <a href="https://msdn.microsoft.com/library/windows/hardware/mt791533">SYSENV_VARIABLE</a> structure.
+The size of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddsysenv/ns-ntddsysenv-_sysenv_variable">SYSENV_VARIABLE</a> structure.
 
 
 ### -output-buffer
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/mt791532">SYSENV_VALUE</a> structure that receives the value of the variable.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddsysenv/ns-ntddsysenv-_sysenv_value">SYSENV_VALUE</a> structure that receives the value of the variable.
 
 
 ### -output-buffer-length
 
-The size of the <a href="https://msdn.microsoft.com/library/windows/hardware/mt791532">SYSENV_VALUE</a> structure.
+The size of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddsysenv/ns-ntddsysenv-_sysenv_value">SYSENV_VALUE</a> structure.
 
 
 ### -in-out-buffer
@@ -99,7 +99,7 @@ The size of the <a href="https://msdn.microsoft.com/library/windows/hardware/mt7
 
 ### -status-block
 
-<b>Irp->IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> code. 
+<b>Irp->IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> code. 
 
 
 ## -see-also
@@ -107,19 +107,19 @@ The size of the <a href="https://msdn.microsoft.com/library/windows/hardware/mt7
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542894">Creating IOCTL Requests in Drivers</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/creating-ioctl-requests-in-drivers">Creating IOCTL Requests in Drivers</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548651">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfiotarget/nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548656">WdfIoTargetSendInternalIoctlSynchronously</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfiotarget/nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously">WdfIoTargetSendInternalIoctlSynchronously</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548660">WdfIoTargetSendIoctlSynchronously</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfiotarget/nf-wdfiotarget-wdfiotargetsendioctlsynchronously">WdfIoTargetSendIoctlSynchronously</a>
  
 
  

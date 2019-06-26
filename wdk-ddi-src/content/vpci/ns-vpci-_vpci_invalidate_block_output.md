@@ -46,10 +46,10 @@ req.typenames: VPCI_INVALIDATE_BLOCK_OUTPUT, *PVPCI_INVALIDATE_BLOCK_OUTPUT
 ## -description
 
 
-The <b>VPCI_INVALIDATE_BLOCK_OUTPUT</b> structure is used in an <a href="https://msdn.microsoft.com/library/windows/hardware/hh439301">IOCTL_VPCI_INVALIDATE_BLOCK</a> IOCTL request.
+The <b>VPCI_INVALIDATE_BLOCK_OUTPUT</b> structure is used in an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vpci/ni-vpci-ioctl_vpci_invalidate_block">IOCTL_VPCI_INVALIDATE_BLOCK</a> IOCTL request.
 
 The driver for a PCI Express (PCIe) virtual function (VF) issues the <b>IOCTL_VPCI_INVALIDATE_BLOCK</b> IOCTL request in order be notified of changes to data in one or more VF configuration blocks. When the IOCTL request is completed, the <b>VPCI_INVALIDATE_BLOCK_OUTPUT</b> structure specifies which VF configuration blocks have been changed.
-<div class="alert"><b>Note</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/hh439301">IOCTL_VPCI_INVALIDATE_BLOCK</a> IOCTL request is issued by the driver of a PCIe  VF on a device that supports the single root I/O virtualization (SR-IOV) interface.</div><div> </div>
+<div class="alert"><b>Note</b>  The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vpci/ni-vpci-ioctl_vpci_invalidate_block">IOCTL_VPCI_INVALIDATE_BLOCK</a> IOCTL request is issued by the driver of a PCIe  VF on a device that supports the single root I/O virtualization (SR-IOV) interface.</div><div> </div>
 
 ## -struct-fields
 
@@ -95,7 +95,7 @@ However, we recommend that IHVs reserve the first 64 VF configuration blocks for
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439301">IOCTL_VPCI_INVALIDATE_BLOCK</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vpci/ni-vpci-ioctl_vpci_invalidate_block">IOCTL_VPCI_INVALIDATE_BLOCK</a>
  
 
  

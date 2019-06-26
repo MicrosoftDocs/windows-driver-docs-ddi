@@ -110,11 +110,11 @@ If an existing value has the same key specified by the <i>key</i> parameter, it 
 
 
 
-<a href="https://msdn.microsoft.com/4a97301a-12cc-442f-a080-446ec9e1e245">IPortableDeviceValues Interface</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portabledevicetypes/nn-portabledevicetypes-iportabledevicevalues">IPortableDeviceValues Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/6e5a0d31-3a89-4188-bf5f-6c7636c7106f">IPortableDeviceValues::GetErrorValue</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portabledevicetypes/nf-portabledevicetypes-iportabledevicevalues-geterrorvalue">IPortableDeviceValues::GetErrorValue</a>
  
 
  

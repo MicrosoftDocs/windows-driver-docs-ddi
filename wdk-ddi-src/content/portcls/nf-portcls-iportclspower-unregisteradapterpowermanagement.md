@@ -56,7 +56,7 @@ The <code>UnregisterAdapterPowerManagement</code> method unregisters the adapter
 
 ### -param _DeviceObject [in]
 
-Specifies a pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a> structure that represents the functional device object of the adapter.
+Specifies a pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure that represents the functional device object of the adapter.
 
 
 ## -returns
@@ -72,7 +72,7 @@ The <code>UnregisterAdapterPowerManagement</code> method returns STATUS_SUCCESS 
 
 
 
-The <code>UnregisterAdapterPowerManagement</code> method unregisters the adapter's power management interface that was registered by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536874">IPortClsPower::RegisterAdapterPowerManagement</a> method.
+The <code>UnregisterAdapterPowerManagement</code> method unregisters the adapter's power management interface that was registered by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iportclspower-registeradapterpowermanagement">IPortClsPower::RegisterAdapterPowerManagement</a> method.
 
 
 
@@ -82,15 +82,15 @@ The <code>UnregisterAdapterPowerManagement</code> method unregisters the adapter
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536844">IPortClsPower</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iportclspower">IPortClsPower</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536874">IPortClsPower::RegisterAdapterPowerManagement</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iportclspower-registeradapterpowermanagement">IPortClsPower::RegisterAdapterPowerManagement</a>
  
 
  

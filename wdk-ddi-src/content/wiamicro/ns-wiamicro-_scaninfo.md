@@ -391,7 +391,7 @@ Specifies whether data alignment is needed for the scanner. The value can be:
 
 ### -field DelayBetweenRead
 
-Specifies the time delay in milliseconds between <a href="https://msdn.microsoft.com/library/windows/hardware/dn915807">Scan</a> function calls that the scanner can support.
+Specifies the time delay in milliseconds between <a href="https://docs.microsoft.com/windows-hardware/customize/desktop/unattend/security-malware-windows-defender-scan">Scan</a> function calls that the scanner can support.
 
 
 ### -field MaxBufferSize
@@ -411,14 +411,14 @@ Specifies an array of reserved bits.
 
 ### -field pMicroDriverContext
 
-Points to the microdriver's context. <i>This member is defined only for Microsoft Windows XP and later</i>. The microdriver allocates the buffer pointed to by this member. The buffer should be allocated in CMD_INITIALIZE, and freed in CMD_UNINITIALIZE. (See <a href="https://msdn.microsoft.com/library/windows/hardware/ff547067">Required Commands</a>.) The WIA Flatbed driver knows nothing of this pointer, and hence will not alter the memory pointed to by this member.
+Points to the microdriver's context. <i>This member is defined only for Microsoft Windows XP and later</i>. The microdriver allocates the buffer pointed to by this member. The buffer should be allocated in CMD_INITIALIZE, and freed in CMD_UNINITIALIZE. (See <a href="https://docs.microsoft.com/windows-hardware/drivers/image/required-commands">Required Commands</a>.) The WIA Flatbed driver knows nothing of this pointer, and hence will not alter the memory pointed to by this member.
 
 
 ## -remarks
 
 
 
-This structure is used as a parameter in the microdriver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff548129">SetPixelWindow</a>, and <a href="https://msdn.microsoft.com/library/windows/hardware/dn915807">Scan</a> functions.
+This structure is used as a parameter in the microdriver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamicro/nf-wiamicro-setpixelwindow">SetPixelWindow</a>, and <a href="https://docs.microsoft.com/windows-hardware/customize/desktop/unattend/security-malware-windows-defender-scan">Scan</a> functions.
 
 
 
@@ -428,11 +428,11 @@ This structure is used as a parameter in the microdriver's <a href="https://msdn
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn915807">Scan</a>
+<a href="https://docs.microsoft.com/windows-hardware/customize/desktop/unattend/security-malware-windows-defender-scan">Scan</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548129">SetPixelWindow</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamicro/nf-wiamicro-setpixelwindow">SetPixelWindow</a>
  
 
  

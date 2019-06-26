@@ -76,7 +76,7 @@ The zero-based index into the resource, which is specified by the handle in the 
 
 ### -field PlaneAttributes
 
-A structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/hh780283">DXGI_DDI_MULTIPLANE_OVERLAY_ATTRIBUTES</a>  that specifies overlay plane attributes.
+A structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxgiddi/ns-dxgiddi-dxgi_ddi_multiplane_overlay_attributes">DXGI_DDI_MULTIPLANE_OVERLAY_ATTRIBUTES</a>  that specifies overlay plane attributes.
 
 
 ## -see-also
@@ -84,7 +84,7 @@ A structure of type <a href="https://msdn.microsoft.com/library/windows/hardware
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh780283">DXGI_DDI_MULTIPLANE_OVERLAY_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxgiddi/ns-dxgiddi-dxgi_ddi_multiplane_overlay_attributes">DXGI_DDI_MULTIPLANE_OVERLAY_ATTRIBUTES</a>
  
 
  

@@ -129,7 +129,7 @@ The client should send another IOCTL each time the pended one is completed.  The
 <li>
 The following actions are required when using this IOCTL:<ul>
 <li>
-If this IOCTL is received on a handle that hasn’t previously succeeded an <a href="https://msdn.microsoft.com/library/windows/hardware/jj853321">IOCTL_NFP_SET_PAYLOAD</a>, the driver MUST complete it with STATUS_INVALID_DEVICE_STATE.
+If this IOCTL is received on a handle that hasn’t previously succeeded an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/nfpdev/ni-nfpdev-ioctl_nfp_set_payload">IOCTL_NFP_SET_PAYLOAD</a>, the driver MUST complete it with STATUS_INVALID_DEVICE_STATE.
 
 </li>
 <li>
@@ -187,7 +187,7 @@ The driver MUST support CancelIo of the pended IOCTL.
 
 
 
-<a href="https://msdn.microsoft.com/windows/hardware/drivers/nfc/nfp-design-guide">Near field proximity design guide (Tap and Do, NFP provider model, driver requirements)</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/nfc/nfp-design-guide">Near field proximity design guide (Tap and Do, NFP provider model, driver requirements)</a>
  
 
  

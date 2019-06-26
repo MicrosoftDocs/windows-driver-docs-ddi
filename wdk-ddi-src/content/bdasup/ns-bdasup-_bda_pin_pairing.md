@@ -99,19 +99,19 @@ Array of joint values. The value given to a joint corresponds to the index of an
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556523">BDA_FILTER_TEMPLATE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bdasup/ns-bdasup-_bda_filter_template">BDA_FILTER_TEMPLATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556558">BDA_TEMPLATE_CONNECTION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bdatypes/ns-bdatypes-_bda_template_connection">BDA_TEMPLATE_CONNECTION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563534">KSPIN_DESCRIPTOR_EX</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_kspin_descriptor_ex">KSPIN_DESCRIPTOR_EX</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567148">KSTOPOLOGY_CONNECTION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-kstopology_connection">KSTOPOLOGY_CONNECTION</a>
  
 
  

@@ -73,11 +73,11 @@ This method returns an <b>HRESULT</b> value.
 
 
 
-<a href="https://msdn.microsoft.com/A0F4DB51-D68E-4516-833A-7E984247796B">IPrinterExtensionEvent</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprinterextensionevent">IPrinterExtensionEvent</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh973207">IPrinterExtensionEventArgs</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprinterextensioneventargs">IPrinterExtensionEventArgs</a>
  
 
  

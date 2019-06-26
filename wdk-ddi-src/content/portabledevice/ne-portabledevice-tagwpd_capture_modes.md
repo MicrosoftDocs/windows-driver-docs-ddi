@@ -92,11 +92,11 @@ This enumeration is used by the <a href="https://docs.microsoft.com/windows/desk
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597672">Structures and Enumeration Types</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff597672(v=vs.85)">Structures and Enumeration Types</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597900">WPD Properties and Attributes</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff597900(v=vs.85)">WPD Properties and Attributes</a>
  
 
  

@@ -49,7 +49,7 @@ req.typenames:
 
 The 
   <b>FwpmEngineClose0</b> function closes a previously opened session to the filter engine.
-<div class="alert"><b>Note</b>  <b>FwpmEngineClose0</b> is a specific version of <b>FwpmEngineClose</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
+<div class="alert"><b>Note</b>  <b>FwpmEngineClose0</b> is a specific version of <b>FwpmEngineClose</b>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
 ## -parameters
 
@@ -108,7 +108,7 @@ An error occurred.
 A callout driver calls the 
     <b>FwpmEngineClose0</b> function to close a session to the filter engine that was previously opened by a
     call to the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff550075">FwpmEngineOpen0</a> function.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpmk/nf-fwpmk-fwpmengineopen0">FwpmEngineOpen0</a> function.
 
 
 
@@ -118,7 +118,7 @@ A callout driver calls the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550075">FwpmEngineOpen0</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpmk/nf-fwpmk-fwpmengineopen0">FwpmEngineOpen0</a>
  
 
  

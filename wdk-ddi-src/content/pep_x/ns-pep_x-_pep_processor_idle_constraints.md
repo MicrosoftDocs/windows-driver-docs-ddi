@@ -66,14 +66,14 @@ Whether the processor must be able to respond to interrupts in the selected idle
 
 ### -field Type
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/mt629126">PEP_PROCESSOR_IDLE_TYPE</a> enumeration value that indicates whether these idle constraints apply to just the current processor (<b>Type</b> = <b>PepIdleTypeProcessor</b>) or to all processors in the hardware platform (<b>Type</b> = <b>PepIdleTypePlatform</b>).
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pep_x/ne-pep_x-pep_processor_idle_type">PEP_PROCESSOR_IDLE_TYPE</a> enumeration value that indicates whether these idle constraints apply to just the current processor (<b>Type</b> = <b>PepIdleTypeProcessor</b>) or to all processors in the hardware platform (<b>Type</b> = <b>PepIdleTypePlatform</b>).
 
 
 ## -remarks
 
 
 
-The <b>Constraints</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/mt629120">PEP_PPM_IDLE_SELECT</a> structure is a pointer to a <b>PEP_PROCESSOR_IDLE_CONSTRAINTS</b> structure.
+The <b>Constraints</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pep_x/ns-pep_x-_pep_ppm_idle_select">PEP_PPM_IDLE_SELECT</a> structure is a pointer to a <b>PEP_PROCESSOR_IDLE_CONSTRAINTS</b> structure.
 
 
 
@@ -83,11 +83,11 @@ The <b>Constraints</b> member of the <a href="https://msdn.microsoft.com/library
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt629120">PEP_PPM_IDLE_SELECT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pep_x/ns-pep_x-_pep_ppm_idle_select">PEP_PPM_IDLE_SELECT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt629126">PEP_PROCESSOR_IDLE_TYPE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pep_x/ne-pep_x-pep_processor_idle_type">PEP_PROCESSOR_IDLE_TYPE</a>
  
 
  

@@ -56,14 +56,14 @@ The<b> KsGetFilterFromFileObject </b>function returns the AVStream filter object
 
 ### -param FileObject [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545834">FILE_OBJECT</a> for which to return the associated AVStream filter object.
+A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_file_object">FILE_OBJECT</a> for which to return the associated AVStream filter object.
 
 
 ## -returns
 
 
 
-<b>KsGetFilterFromFileObject</b> returns a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562522">KSFILTER</a> structure associated with <i>FileObject</i>.
+<b>KsGetFilterFromFileObject</b> returns a pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksfilter">KSFILTER</a> structure associated with <i>FileObject</i>.
 
 
 
@@ -72,9 +72,9 @@ A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff
 
 
 
-It is the responsibility of the minidriver to verify that <i>FileObject</i> is a file object associated with an AVStream filter. Do this by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff562651">KsGetObjectTypeFromFileObject</a> before calling <b>KsGetFilterFromFileObject</b>.
+It is the responsibility of the minidriver to verify that <i>FileObject</i> is a file object associated with an AVStream filter. Do this by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksgetobjecttypefromfileobject">KsGetObjectTypeFromFileObject</a> before calling <b>KsGetFilterFromFileObject</b>.
 
-<b>KsGetFilterFromFileObject</b> is an inline call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff562648">KsGetObjectFromFileObject</a>. The difference is that <b>KsGetFilterFromFileObject</b> typecasts the return as type pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff562522">KSFILTER</a> structure. 
+<b>KsGetFilterFromFileObject</b> is an inline call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksgetobjectfromfileobject">KsGetObjectFromFileObject</a>. The difference is that <b>KsGetFilterFromFileObject</b> typecasts the return as type pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksfilter">KSFILTER</a> structure. 
 
 
 
@@ -84,15 +84,15 @@ It is the responsibility of the minidriver to verify that <i>FileObject</i> is a
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562617">KsGetDeviceForDeviceObject</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksgetdevicefordeviceobject">KsGetDeviceForDeviceObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562648">KsGetObjectFromFileObject</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksgetobjectfromfileobject">KsGetObjectFromFileObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562651">KsGetObjectTypeFromFileObject</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksgetobjecttypefromfileobject">KsGetObjectTypeFromFileObject</a>
  
 
  

@@ -61,7 +61,7 @@ Physical address of the root page table being invalidated.
 
 ### -field hProcess
 
-KMD process handle,  returned from <a href="https://msdn.microsoft.com/E5AAEEB1-C29E-4AA7-9F8E-2C2DCFADED81">DxgkDdiCreateProcess</a>, that the page table belongs to. 
+KMD process handle,  returned from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_createprocess">DxgkDdiCreateProcess</a>, that the page table belongs to. 
 
 
 ### -field StartVirtualAddress

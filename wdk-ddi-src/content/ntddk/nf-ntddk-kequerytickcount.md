@@ -71,7 +71,7 @@ The <i>TickCount</i> value increases by one at each interval timer interrupt whi
 
 The preferred method of determining elapsed time is by using <i>TickCount</i> for relative timing and time stamps.
 
-To determine the absolute elapsed time multiply the returned <i>TickCount</i> by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553075">KeQueryTimeIncrement</a> return value using compiler support for 64-bit integer operations.
+To determine the absolute elapsed time multiply the returned <i>TickCount</i> by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kequerytimeincrement">KeQueryTimeIncrement</a> return value using compiler support for 64-bit integer operations.
 
 You should not make any assumptions about the length of a tick, because it might vary depending on hardware and other considerations. 
 
@@ -83,15 +83,15 @@ You should not make any assumptions about the length of a tick, because it might
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553025">KeQueryInterruptTime</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kequeryinterrupttime">KeQueryInterruptTime</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553053">KeQueryPerformanceCounter</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-kequeryperformancecounter">KeQueryPerformanceCounter</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553075">KeQueryTimeIncrement</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kequerytimeincrement">KeQueryTimeIncrement</a>
  
 
  

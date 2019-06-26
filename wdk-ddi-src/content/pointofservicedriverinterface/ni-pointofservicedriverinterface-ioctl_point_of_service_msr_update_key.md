@@ -56,7 +56,7 @@ This I/O control function sets a new encryption key.
 
 ### -input-buffer
 
-Pointer to the input buffer, a <a href="https://msdn.microsoft.com/library/windows/hardware/dn772191">MSR_UPDATE_KEY</a> variable.
+Pointer to the input buffer, a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pointofservicedriverinterface/ns-pointofservicedriverinterface-_msr_update_key">MSR_UPDATE_KEY</a> variable.
 
 
 ### -input-buffer-length

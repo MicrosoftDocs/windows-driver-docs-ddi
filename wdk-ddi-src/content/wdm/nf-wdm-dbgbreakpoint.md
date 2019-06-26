@@ -74,7 +74,7 @@ The <b>DbgBreakPoint</b> routine is the kernel-mode equivalent of <b>DebugBreak<
 
 This routine raises an exception that is handled by the kernel debugger if one is installed; otherwise, it is handled by the debug system. If a debugger is not connected to the system, the exception can be handled in the standard way.
 
-In kernel mode, a break exception that is not handled will cause a bug check. You can, however, connect a kernel-mode debugger to a target computer that has stopped responding and has kernel debugging enabled. For more information, see <a href="https://msdn.microsoft.com/938ef180-84de-442f-9b6c-1138c2fc8d5a">Windows Debugging</a>.
+In kernel mode, a break exception that is not handled will cause a bug check. You can, however, connect a kernel-mode debugger to a target computer that has stopped responding and has kernel debugging enabled. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/index">Windows Debugging</a>.
 
 
 
@@ -84,15 +84,15 @@ In kernel mode, a break exception that is not handled will cause a bug check. Yo
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543629">DbgBreakPointWithStatus</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-dbgbreakpointwithstatus">DbgBreakPointWithStatus</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548063">KdBreakPoint</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/previsioning-framework/ff548063(v=vs.85)">KdBreakPoint</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548065">KdBreakPointWithStatus</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kdbreakpointwithstatus">KdBreakPointWithStatus</a>
  
 
  

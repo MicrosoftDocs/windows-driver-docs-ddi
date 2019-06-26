@@ -58,14 +58,14 @@ The <b>CmSetCallbackObjectContext</b> routine associates specified context infor
 
 A pointer to the registry key object that the driver is providing context information for. The driver obtains this pointer from the <b>ResultObject</b> member of one of the following structures:
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560920">REG_CREATE_KEY_INFORMATION</a>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560922">REG_CREATE_KEY_INFORMATION_V1</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_create_key_information">REG_CREATE_KEY_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_create_key_information_v1">REG_CREATE_KEY_INFORMATION_V1</a>
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560957">REG_OPEN_KEY_INFORMATION</a>
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560959">REG_OPEN_KEY_INFORMATION_V1</a>
 
 ### -param Cookie [in]
 
-A pointer to a LARGE_INTEGER value that identifies the callback routine to associate the context with. The <a href="https://msdn.microsoft.com/library/windows/hardware/ff541921">CmRegisterCallbackEx</a> routine provided this value when you registered the callback routine.
+A pointer to a LARGE_INTEGER value that identifies the callback routine to associate the context with. The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-cmregistercallbackex">CmRegisterCallbackEx</a> routine provided this value when you registered the callback routine.
 
 
 ### -param NewContext [in]
@@ -82,7 +82,7 @@ A pointer to a location that receives a pointer to context information that the 
 
 
 
-<b>CmSetCallbackObjectContext</b> returns STATUS_SUCCESS or another appropriate <a href="https://msdn.microsoft.com/fe823930-e3ff-4c95-a640-bb6470c95d1d">NTSTATUS</a>-typed value. 
+<b>CmSetCallbackObjectContext</b> returns STATUS_SUCCESS or another appropriate <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-ntstatus-values">NTSTATUS</a>-typed value. 
 
 
 
@@ -93,11 +93,11 @@ A pointer to a location that receives a pointer to context information that the 
 
 The <b>CmSetCallbackObjectContext</b> routine is available starting with Windows Vista.
 
-A driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a> routine can call <b>CmSetCallbackObjectContext</b> for any registry key object after the object has been created or opened (that is, during a post-notification for a create operation, an open operation, or any subsequent notification up to the pre-notification of handle closure).
+A driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-ex_callback_function">RegistryCallback</a> routine can call <b>CmSetCallbackObjectContext</b> for any registry key object after the object has been created or opened (that is, during a post-notification for a create operation, an open operation, or any subsequent notification up to the pre-notification of handle closure).
 
-If a driver calls <b>CmSetCallbackObjectContext</b>, the driver's <i>RegistryCallback</i> routine will receive a <b>RegNtCallbackObjectContextCleanup</b> notification after the key object's handle has been closed or after the driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff541928">CmUnRegisterCallback</a> to unregister the <i>RegistryCallback</i> routine. When the <i>RegistryCallback</i> routine receives this notification, the routine should release any resources that it allocated for the object's context.
+If a driver calls <b>CmSetCallbackObjectContext</b>, the driver's <i>RegistryCallback</i> routine will receive a <b>RegNtCallbackObjectContextCleanup</b> notification after the key object's handle has been closed or after the driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-cmunregistercallback">CmUnRegisterCallback</a> to unregister the <i>RegistryCallback</i> routine. When the <i>RegistryCallback</i> routine receives this notification, the routine should release any resources that it allocated for the object's context.
 
-For more information about <b>CmSetCallbackObjectContext</b> and filtering registry operations, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff545879">Filtering Registry Calls</a>.
+For more information about <b>CmSetCallbackObjectContext</b> and filtering registry operations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/filtering-registry-calls">Filtering Registry Calls</a>.
 
 
 
@@ -107,19 +107,19 @@ For more information about <b>CmSetCallbackObjectContext</b> and filtering regis
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541921">CmRegisterCallbackEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-cmregistercallbackex">CmRegisterCallbackEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541928">CmUnRegisterCallback</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-cmunregistercallback">CmUnRegisterCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560920">REG_CREATE_KEY_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_create_key_information">REG_CREATE_KEY_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560922">REG_CREATE_KEY_INFORMATION_V1</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_create_key_information_v1">REG_CREATE_KEY_INFORMATION_V1</a>
 
 
 
@@ -131,7 +131,7 @@ For more information about <b>CmSetCallbackObjectContext</b> and filtering regis
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-ex_callback_function">RegistryCallback</a>
  
 
  

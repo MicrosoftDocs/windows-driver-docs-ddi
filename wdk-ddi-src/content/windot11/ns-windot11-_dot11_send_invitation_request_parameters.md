@@ -48,7 +48,7 @@ product:
 ## -description
 
 
-<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The request parameters for an inivitation request are specified in a <b>DOT11_SEND_INVITATION_REQUEST_PARAMETERS</b> structure. This structure is sent with an <a href="https://msdn.microsoft.com/library/windows/hardware/hh451806">OID_DOT11_WFD_SEND_INVITATION_REQUEST</a> request to the miniport.
+<div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The request parameters for an inivitation request are specified in a <b>DOT11_SEND_INVITATION_REQUEST_PARAMETERS</b> structure. This structure is sent with an <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-wfd-send-invitation-request">OID_DOT11_WFD_SEND_INVITATION_REQUEST</a> request to the miniport.
 
 
 ## -syntax
@@ -116,7 +116,7 @@ The destination address of the WFD device receiving the invitation request packe
 
 ### -field uSendTimeout
 
-The maximum time, in milliseconds, allowed to send the invitation request. If the time-out expires before the miniport has successfully transmitted the invitation request, it should indicate the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439779">NDIS_STATUS_DOT11_WFD_INVITATION_REQUEST_SEND_COMPLETE</a> with a failure status.
+The maximum time, in milliseconds, allowed to send the invitation request. If the time-out expires before the miniport has successfully transmitted the invitation request, it should indicate the <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-dot11-wfd-invitation-request-send-complete">NDIS_STATUS_DOT11_WFD_INVITATION_REQUEST_SEND_COMPLETE</a> with a failure status.
 
 
 ### -field MinimumConfigTimeout
@@ -171,11 +171,11 @@ The length, in bytes, of the array of IEs provided at <b>uIEsOffset</b>.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451806">OID_DOT11_WFD_SEND_INVITATION_REQUEST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-wfd-send-invitation-request">OID_DOT11_WFD_SEND_INVITATION_REQUEST</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439779">NDIS_STATUS_DOT11_WFD_INVITATION_REQUEST_SEND_COMPLETE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-dot11-wfd-invitation-request-send-complete">NDIS_STATUS_DOT11_WFD_INVITATION_REQUEST_SEND_COMPLETE</a>
 
 
 

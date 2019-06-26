@@ -56,7 +56,7 @@ The client driver's implementation that completes all outstanding I/O requests o
 
 ### -param UcxController [in]
 
- A handle to the UCX controller that the client driver received in a previous call to  the <a href="https://msdn.microsoft.com/library/windows/hardware/mt188033">UcxControllerCreate</a> method.
+ A handle to the UCX controller that the client driver received in a previous call to  the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/mt188033(v=vs.85)">UcxControllerCreate</a> method.
 
 
 ### -param UcxEndpoint
@@ -86,12 +86,12 @@ This callback function does not return a value.
 
 
 
-The UCX client driver registers this callback function with the USB host controller extension (UCX) by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/mt188039">UcxEndpointCreate</a>
+The UCX client driver registers this callback function with the USB host controller extension (UCX) by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucxendpoint/nf-ucxendpoint-ucxendpointcreate">UcxEndpointCreate</a>
  method.
 
-Typically, this function calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff548442">WdfIoQueuePurge</a>.
+Typically, this function calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfio/nf-wdfio-wdfioqueuepurge">WdfIoQueuePurge</a>.
 
-After UCX calls this function, the client driver fails subsequent I/O requests until UCX calls the client driver's <a href="https://msdn.microsoft.com/library/windows/hardware/mt187829">EVT_UCX_ENDPOINT_START</a> callback function.
+After UCX calls this function, the client driver fails subsequent I/O requests until UCX calls the client driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucxendpoint/nc-ucxendpoint-evt_ucx_endpoint_start">EVT_UCX_ENDPOINT_START</a> callback function.
 
 
 #### Examples
@@ -124,7 +124,7 @@ Endpoint_UcxEvtEndpointPurge(
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548442">WdfIoQueuePurge</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfio/nf-wdfio-wdfioqueuepurge">WdfIoQueuePurge</a>
  
 
  

@@ -73,8 +73,8 @@ The receive link speed in bits per second. A value of -1 in this member indicate
 
 
 The NDIS_LINK_SPEED structure specifies link speeds in the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff569594">OID_GEN_LINK_SPEED_EX</a> and 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff569602">OID_GEN_MAX_LINK_SPEED</a> OIDs.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-link-speed-ex">OID_GEN_LINK_SPEED_EX</a> and 
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-max-link-speed">OID_GEN_MAX_LINK_SPEED</a> OIDs.
 
 
 
@@ -84,11 +84,11 @@ The NDIS_LINK_SPEED structure specifies link speeds in the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569594">OID_GEN_LINK_SPEED_EX</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-link-speed-ex">OID_GEN_LINK_SPEED_EX</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569602">OID_GEN_MAX_LINK_SPEED</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-max-link-speed">OID_GEN_MAX_LINK_SPEED</a>
  
 
  

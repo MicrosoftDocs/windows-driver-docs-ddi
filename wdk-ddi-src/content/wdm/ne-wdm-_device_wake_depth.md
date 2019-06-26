@@ -93,7 +93,7 @@ Reserved for use by the operating system.
 
 
 
-The <i>DeepestWakeableDstate</i> parameter of the <a href="https://msdn.microsoft.com/library/windows/hardware/hh967712">GetIdleWakeInfo</a> routine is a pointer to a variable of type <b>DEVICE_WAKE_DEPTH</b>.
+The <i>DeepestWakeableDstate</i> parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-get_idle_wake_info">GetIdleWakeInfo</a> routine is a pointer to a variable of type <b>DEVICE_WAKE_DEPTH</b>.
 
 The drivers for most devices have no reason to arm a wake signal when the device is in D0. These drivers can treat the <b>DeviceWakeDepthD0</b> output value as equivalent to a call to the <i>GetIdleWakeInfo</i> routine that fails and returns an error status.
 
@@ -105,7 +105,7 @@ The drivers for most devices have no reason to arm a wake signal when the device
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh967712">GetIdleWakeInfo</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-get_idle_wake_info">GetIdleWakeInfo</a>
  
 
  

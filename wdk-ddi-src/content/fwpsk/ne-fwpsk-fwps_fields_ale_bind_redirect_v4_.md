@@ -48,7 +48,7 @@ req.typenames: FWPS_FIELDS_ALE_BIND_REDIRECT_V4
 
 The FWPS_FIELDS_ALE_BIND_REDIRECT_V4 enumeration type specifies the data field identifiers for the
   FWPS_LAYER_ALE_BIND_REDIRECT_V4 
-  <a href="https://msdn.microsoft.com/library/windows/desktop/aa366492">run-time filtering layer</a>.
+  <a href="https://docs.microsoft.com/windows/desktop/FWP/management-filtering-layer-identifiers-">run-time filtering layer</a>.
 
 
 ## -enum-fields
@@ -74,7 +74,7 @@ The local IP address.
 ### -field FWPS_FIELD_ALE_BIND_REDIRECT_V4_IP_LOCAL_ADDRESS_TYPE
 
 The local IP address type. The possible values are defined by the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568757">NL_ADDRESS_TYPE</a> enumeration.
+     <a href="https://docs.microsoft.com/windows/desktop/api/nldef/ne-nldef-nl_address_type">NL_ADDRESS_TYPE</a> enumeration.
 
 
 ### -field FWPS_FIELD_ALE_BIND_REDIRECT_V4_IP_LOCAL_PORT
@@ -91,7 +91,7 @@ The IP protocol number, as specified in RFC 1700.
 
 A bitwise OR of a combination of filtering condition flags. For information about the possible
      flags, see 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff549942">Filtering Condition Flags</a>.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/filtering-condition-flags">Filtering Condition Flags</a>.
 
 
 ### -field FWPS_FIELD_ALE_BIND_REDIRECT_V4_ALE_PACKAGE_ID
@@ -126,7 +126,7 @@ The maximum value for this enumeration. This value might change in future versio
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568757">NL_ADDRESS_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nldef/ne-nldef-nl_address_type">NL_ADDRESS_TYPE</a>
  
 
  

@@ -54,7 +54,7 @@ req.typenames:
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugClient</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDebugClient</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugClient</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IDebugClient</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>IDebugClient</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537917">AddProcessOptions</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient5-addprocessoptions">AddProcessOptions</a>
 </td>
 <td align="left" width="63%">
 Adds the process options to those options that affect the current process.
@@ -79,7 +79,7 @@ Adds the process options to those options that affect the current process.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538145">AttachKernel</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient5-attachkernel">AttachKernel</a>
 </td>
 <td align="left" width="63%">
 Connects the debugger engine to a kernel target.
@@ -89,7 +89,7 @@ Connects the debugger engine to a kernel target.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538150">AttachProcess</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient5-attachprocess">AttachProcess</a>
 </td>
 <td align="left" width="63%">
 Connects the debugger engine to a user-mode process.
@@ -98,7 +98,7 @@ Connects the debugger engine to a user-mode process.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539237">ConnectProcessServer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient5-connectprocessserver">ConnectProcessServer</a>
 </td>
 <td align="left" width="63%">
 Connects to a process server.
@@ -107,7 +107,7 @@ Connects to a process server.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539245">ConnectSession</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient5-connectsession">ConnectSession</a>
 </td>
 <td align="left" width="63%">
 Joins the client to an existing debugger session.
@@ -116,7 +116,7 @@ Joins the client to an existing debugger session.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539320">CreateClient</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient5-createclient">CreateClient</a>
 </td>
 <td align="left" width="63%">
 Creates a new client object for the current thread.
@@ -125,7 +125,7 @@ Creates a new client object for the current thread.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539321">CreateProcess</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient5-createprocess">CreateProcess</a>
 </td>
 <td align="left" width="63%">
 Creates a process from the specified command line.
@@ -135,7 +135,7 @@ Creates a process from the specified command line.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540048">CreateProcessAndAttach</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient5-createprocessandattach">CreateProcessAndAttach</a>
 </td>
 <td align="left" width="63%">
  Create a process from a specified command line, then attaches to another user-mode process.
@@ -144,7 +144,7 @@ Creates a process from the specified command line.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541851">DetachProcesses</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient5-detachprocesses">DetachProcesses</a>
 </td>
 <td align="left" width="63%">
 Detaches the debugger engine from all processes in all targets, resuming all their threads.
@@ -154,7 +154,7 @@ Detaches the debugger engine from all processes in all targets, resuming all the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541969">DisconnectProcessServer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient5-disconnectprocessserver">DisconnectProcessServer</a>
 </td>
 <td align="left" width="63%">
 Disconnects the debugger engine from a process server.
@@ -163,7 +163,7 @@ Disconnects the debugger engine from a process server.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541970">DispatchCallbacks</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient5-dispatchcallbacks">DispatchCallbacks</a>
 </td>
 <td align="left" width="63%">
 Enables the debugger engine to use the current thread for callbacks.
@@ -173,7 +173,7 @@ Enables the debugger engine to use the current thread for callbacks.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543004">EndSession</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient5-endsession">EndSession</a>
 </td>
 <td align="left" width="63%">
 Ends the current debugger session.
@@ -182,25 +182,25 @@ Ends the current debugger session.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543265">ExitDispatch</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient5-exitdispatch">ExitDispatch</a>
 </td>
 <td align="left" width="63%">
-Causes the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541970">DispatchCallbacks</a> method to return.
+Causes the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient5-dispatchcallbacks">DispatchCallbacks</a> method to return.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545475">FlushCallbacks</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient5-flushcallbacks">FlushCallbacks</a>
 </td>
 <td align="left" width="63%">
- Forces any remaining buffered output to be delivered to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550801">IDebugOutputCallbacks</a> object registered with this client.
+ Forces any remaining buffered output to be delivered to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugoutputcallbacks">IDebugOutputCallbacks</a> object registered with this client.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546601">GetEventCallbacks</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient5-geteventcallbacks">GetEventCallbacks</a>
 </td>
 <td align="left" width="63%">
 Returns the event callbacks object registered with this client.
@@ -210,7 +210,7 @@ Returns the event callbacks object registered with this client.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546679">GetExitCode</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient5-getexitcode">GetExitCode</a>
 </td>
 <td align="left" width="63%">
 Returns the exit code of the current process if that process has already run through to completion.
@@ -220,7 +220,7 @@ Returns the exit code of the current process if that process has already run thr
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546831">GetIdentity</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient5-getidentity">GetIdentity</a>
 </td>
 <td align="left" width="63%">
 Returns a string describing the computer and user this client represents.
@@ -230,7 +230,7 @@ Returns a string describing the computer and user this client represents.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546892">GetInputCallbacks</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient5-getinputcallbacks">GetInputCallbacks</a>
 </td>
 <td align="left" width="63%">
 Returns the input callbacks object registered with this client.
@@ -239,7 +239,7 @@ Returns the input callbacks object registered with this client.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546970">GetKernelConnectionOptions</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient5-getkernelconnectionoptions">GetKernelConnectionOptions</a>
 </td>
 <td align="left" width="63%">
 Returns the connection options for the current kernel target.
@@ -249,7 +249,7 @@ Returns the connection options for the current kernel target.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548066">GetOtherOutputMask</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient5-getotheroutputmask">GetOtherOutputMask</a>
 </td>
 <td align="left" width="63%">
 Returns the output mask for another client.
@@ -259,7 +259,7 @@ Returns the output mask for another client.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548071">GetOutputCallbacks</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient5-getoutputcallbacks">GetOutputCallbacks</a>
 </td>
 <td align="left" width="63%">
 Returns the output callbacks object registered with the client.
@@ -276,7 +276,7 @@ Returns the output callbacks object registered with the client.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548080">GetOutputMask</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient5-getoutputmask">GetOutputMask</a>
 </td>
 <td align="left" width="63%">
 Returns the output mask currently set for the client.
@@ -292,7 +292,7 @@ Returns the output mask currently set for the client.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548163">GetProcessOptions</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient5-getprocessoptions">GetProcessOptions</a>
 </td>
 <td align="left" width="63%">
 Retrieves the process options affecting the current process.
@@ -302,7 +302,7 @@ Retrieves the process options affecting the current process.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548243">GetRunningProcessDescription</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient5-getrunningprocessdescription">GetRunningProcessDescription</a>
 </td>
 <td align="left" width="63%">
 Returns a description of the process that includes the executable image name, the service names, the MTS package names, and the command line.
@@ -311,7 +311,7 @@ Returns a description of the process that includes the executable image name, th
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548254">GetRunningProcessSystemIdByExecutableName</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient5-getrunningprocesssystemidbyexecutablename">GetRunningProcessSystemIdByExecutableName</a>
 </td>
 <td align="left" width="63%">
  Searches for a process with a given executable file name and return its process ID.
@@ -321,7 +321,7 @@ Returns a description of the process that includes the executable image name, th
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548265">GetRunningProcessSystemIds</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient5-getrunningprocesssystemids">GetRunningProcessSystemIds</a>
 </td>
 <td align="left" width="63%">
  Returns the process IDs for each running process.
@@ -330,7 +330,7 @@ Returns a description of the process that includes the executable image name, th
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552322">OpenDumpFile</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient5-opendumpfile">OpenDumpFile</a>
 </td>
 <td align="left" width="63%">
 Opens a dump file as a debugger target.
@@ -340,7 +340,7 @@ Opens a dump file as a debugger target.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553219">OutputIdentity</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient5-outputidentity">OutputIdentity</a>
 </td>
 <td align="left" width="63%">
  Formats and outputs a string describing the computer and user this client represents.
@@ -350,7 +350,7 @@ Opens a dump file as a debugger target.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553247">OutputServers</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient5-outputservers">OutputServers</a>
 </td>
 <td align="left" width="63%">
 Lists the servers running on a given computer.
@@ -360,7 +360,7 @@ Lists the servers running on a given computer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554505">RemoveProcessOptions</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient5-removeprocessoptions">RemoveProcessOptions</a>
 </td>
 <td align="left" width="63%">
 Removes process options from those options that affect the current process.
@@ -370,7 +370,7 @@ Removes process options from those options that affect the current process.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556671">SetEventCallbacks</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient5-seteventcallbacks">SetEventCallbacks</a>
 </td>
 <td align="left" width="63%">
 Registers an event callbacks object with this client.
@@ -380,7 +380,7 @@ Registers an event callbacks object with this client.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556721">SetInputCallbacks</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient5-setinputcallbacks">SetInputCallbacks</a>
 </td>
 <td align="left" width="63%">
 Registers an input callbacks object with the client.
@@ -389,7 +389,7 @@ Registers an input callbacks object with the client.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556729">SetKernelConnectionOptions</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient5-setkernelconnectionoptions">SetKernelConnectionOptions</a>
 </td>
 <td align="left" width="63%">
 Updates some of the connection options for a live kernel target.
@@ -399,7 +399,7 @@ Updates some of the connection options for a live kernel target.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556750">SetOtherOutputMask</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient5-setotheroutputmask">SetOtherOutputMask</a>
 </td>
 <td align="left" width="63%">
 Sets the output mask for another client.
@@ -409,7 +409,7 @@ Sets the output mask for another client.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556751">SetOutputCallbacks</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient5-setoutputcallbacks">SetOutputCallbacks</a>
 </td>
 <td align="left" width="63%">
 Registers an output callbacks object with this client.
@@ -425,7 +425,7 @@ Registers an output callbacks object with this client.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556756">SetOutputMask</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient5-setoutputmask">SetOutputMask</a>
 </td>
 <td align="left" width="63%">
 Sets the output mask for the client.
@@ -441,7 +441,7 @@ Sets the output mask for the client.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556765">SetProcessOptions</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient5-setprocessoptions">SetProcessOptions</a>
 </td>
 <td align="left" width="63%">
 Sets the process options affecting the current process.
@@ -450,7 +450,7 @@ Sets the process options affecting the current process.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558810">StartProcessServer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient5-startprocessserver">StartProcessServer</a>
 </td>
 <td align="left" width="63%">
 Starts a process server.
@@ -459,7 +459,7 @@ Starts a process server.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558813">StartServer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient5-startserver">StartServer</a>
 </td>
 <td align="left" width="63%">
  Starts a debugging server.
@@ -469,7 +469,7 @@ Starts a process server.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558867">TerminateProcesses</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient5-terminateprocesses">TerminateProcesses</a>
 </td>
 <td align="left" width="63%">
 Attempts to terminate all processes in all targets.
@@ -478,7 +478,7 @@ Attempts to terminate all processes in all targets.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561380">WriteDumpFile</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient5-writedumpfile">WriteDumpFile</a>
 </td>
 <td align="left" width="63%">
 Creates a user-mode or kernel-mode crash dump file.
@@ -494,19 +494,19 @@ Creates a user-mode or kernel-mode crash dump file.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550481">IDebugClient2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugclient2">IDebugClient2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550488">IDebugClient3</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugclient3">IDebugClient3</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550494">IDebugClient4</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugclient4">IDebugClient4</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550497">IDebugClient5</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugclient5">IDebugClient5</a>
  
 
  

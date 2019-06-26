@@ -57,7 +57,7 @@ The<b> KsPinAcquireProcessingMutex </b>function acquires the processing mutex fo
 
 ### -param Pin [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563483">KSPIN</a> structure for which to acquire the processing mutex.
+A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_kspin">KSPIN</a> structure for which to acquire the processing mutex.
 
 
 ## -returns
@@ -73,7 +73,7 @@ None
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/011edaaa-7449-41c3-8cfb-0d319901af8b">Mutexes in AVStream</a>.
+For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/mutexes-in-avstream">Mutexes in AVStream</a>.
 
 
 
@@ -83,19 +83,19 @@ For more information, see <a href="https://msdn.microsoft.com/011edaaa-7449-41c3
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563485">KsPinAcquireControl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-kspinacquirecontrol">KsPinAcquireControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563526">KsPinReleaseControl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-kspinreleasecontrol">KsPinReleaseControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563527">KsPinReleaseProcessingMutex</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-kspinreleaseprocessingmutex">KsPinReleaseProcessingMutex</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566780">KsReleaseControl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksreleasecontrol">KsReleaseControl</a>
  
 
  

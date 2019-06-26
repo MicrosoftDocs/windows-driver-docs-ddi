@@ -58,7 +58,7 @@ Initiates a non-Plug and Play (PnP) controller reset operation by queuing an eve
 
 ### -param Controller [in]
 
-A handle to the controller object to reset. The client driver retrieved the handle in a previous call to <a href="https://msdn.microsoft.com/library/windows/hardware/mt188033">UcxControllerCreate</a>.
+A handle to the controller object to reset. The client driver retrieved the handle in a previous call to <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/mt188033(v=vs.85)">UcxControllerCreate</a>.
 
 
 ## -returns
@@ -75,7 +75,7 @@ If the operation is successful, the method returns TRUE. Otherwise it returns FA
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt188033">UcxControllerCreate</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/mt188033(v=vs.85)">UcxControllerCreate</a>
  
 
  

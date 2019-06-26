@@ -57,7 +57,7 @@ The NDIS_PORT_STATE structure specifies the port state information for an NDIS p
 ### -field Header
 
 The 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
      NDIS_PORT_STATE structure. Set the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to NDIS_OBJECT_TYPE_ DEFAULT, the 
@@ -87,7 +87,7 @@ The receive link speed of the port, in bits per second. A value of -1 in this me
 ### -field Direction
 
 A 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568742">NET_IF_DIRECTION_TYPE</a> NDIS network
+     <a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ne-ifdef-_net_if_direction_type">NET_IF_DIRECTION_TYPE</a> NDIS network
      interface direction type.
 
 
@@ -231,9 +231,9 @@ Reserved for NDIS.
 
 
 The NDIS_PORT_STATE structure is used in the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff567415">NDIS_STATUS_PORT_STATE</a> status
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-port-state">NDIS_STATUS_PORT_STATE</a> status
     indication to indicate a change in the state of a port and is used in response to an 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff569624">OID_GEN_PORT_STATE</a> OID query.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-port-state">OID_GEN_PORT_STATE</a> OID query.
 
 
 
@@ -243,15 +243,15 @@ The NDIS_PORT_STATE structure is used in the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567415">NDIS_STATUS_PORT_STATE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/ndis-status-port-state">NDIS_STATUS_PORT_STATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568742">NET_IF_DIRECTION_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ne-ifdef-_net_if_direction_type">NET_IF_DIRECTION_TYPE</a>
 
 
 
@@ -259,7 +259,7 @@ The NDIS_PORT_STATE structure is used in the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569624">OID_GEN_PORT_STATE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-gen-port-state">OID_GEN_PORT_STATE</a>
  
 
  

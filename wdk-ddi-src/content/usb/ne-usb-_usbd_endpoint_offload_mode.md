@@ -74,7 +74,7 @@ Endpoint offloading is handled in the USB device or host controller hardware.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406230">USBD_QueryUsbCapability</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/hh406230(v=vs.85)">USBD_QueryUsbCapability</a>
  
 
  

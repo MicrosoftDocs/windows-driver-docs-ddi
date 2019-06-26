@@ -218,11 +218,11 @@ The miniport driver should send all applicable status indications such as
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567915">NDIS_WWAN_RADIO_STATE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndiswwan/ns-ndiswwan-_ndis_wwan_radio_state">NDIS_WWAN_RADIO_STATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571224">WWAN_RADIO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ne-wwan-_wwan_radio">WWAN_RADIO</a>
  
 
  

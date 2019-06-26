@@ -68,7 +68,7 @@ Specifies the angle in degrees of the outside sound projection cone.
 
 
 
-This structure is used to set or get the data value for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537318">KSPROPERTY_DIRECTSOUND3DBUFFER_CONEANGLES</a> property. DirectSound uses this property to implement the <b>IDirectSound3DBuffer::GetConeAngles</b> and <b>IDirectSound3DBuffer::SetConeAngles</b> methods, which are described in the Microsoft Windows SDK documentation.
+This structure is used to set or get the data value for the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-directsound3dbuffer-coneangles">KSPROPERTY_DIRECTSOUND3DBUFFER_CONEANGLES</a> property. DirectSound uses this property to implement the <b>IDirectSound3DBuffer::GetConeAngles</b> and <b>IDirectSound3DBuffer::SetConeAngles</b> methods, which are described in the Microsoft Windows SDK documentation.
 
 
 
@@ -78,7 +78,7 @@ This structure is used to set or get the data value for the <a href="https://msd
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537318">KSPROPERTY_DIRECTSOUND3DBUFFER_CONEANGLES</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-directsound3dbuffer-coneangles">KSPROPERTY_DIRECTSOUND3DBUFFER_CONEANGLES</a>
  
 
  

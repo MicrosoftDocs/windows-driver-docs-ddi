@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-Exposes a collection of <a href="https://msdn.microsoft.com/library/windows/hardware/hh451335">IPrintSchemaOption</a> objects.
+Exposes a collection of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprintschemaoption">IPrintSchemaOption</a> objects.
 
 
 ## -inheritance
@@ -67,10 +67,10 @@ The <b>IPrintSchemaOptionCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406567">GetAt</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/radio/hh406567(v=vs.85)">GetAt</a>
 </td>
 <td align="left" width="63%">
-Gets a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/hh451335">IPrintSchemaOption</a> object.
+Gets a pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprintschemaoption">IPrintSchemaOption</a> object.
 
 </td>
 </tr>
@@ -85,7 +85,7 @@ Gets a pointer to an <a href="https://msdn.microsoft.com/library/windows/hardwar
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/hh406342(v=vs.85)">Count</a>
 
 
 </td>
@@ -94,14 +94,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Gets a count of the number of <a href="https://msdn.microsoft.com/library/windows/hardware/hh451335">IPrintSchemaOption</a> objects in the collection.
+Gets a count of the number of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprintschemaoption">IPrintSchemaOption</a> objects in the collection.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh973226">NewEnum</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/hh973226(v=vs.85)">NewEnum</a>
 
 
 </td>
@@ -122,11 +122,11 @@ Gets a pointer to the enumerants of <b>IPrintSchemaOptionCollection</b> objects.
 
 
 
-<a href="https://msdn.microsoft.com/ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451335">IPrintSchemaOption</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprintschemaoption">IPrintSchemaOption</a>
  
 
  

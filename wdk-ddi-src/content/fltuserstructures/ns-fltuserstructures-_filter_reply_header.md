@@ -78,11 +78,11 @@ This structure is allocated by a user-mode application. It is a container for a 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541621">FILTER_MESSAGE_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltuserstructures/ns-fltuserstructures-_filter_message_header">FILTER_MESSAGE_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541508">FilterReplyMessage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fltuser/nf-fltuser-filterreplymessage">FilterReplyMessage</a>
  
 
  

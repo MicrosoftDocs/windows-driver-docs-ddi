@@ -46,7 +46,7 @@ req.typenames: URS_CONFIG, *PURS_CONFIG
 ## -description
 
 
-Contains pointers to event callback functions implemented by the URS client driver for a USB dual-role controller. Initialize this structure by calling <a href="https://msdn.microsoft.com/library/windows/hardware/mt628021">URS_CONFIG_INIT</a>.
+Contains pointers to event callback functions implemented by the URS client driver for a USB dual-role controller. Initialize this structure by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ursdevice/nf-ursdevice-urs_config_init">URS_CONFIG_INIT</a>.
 
 
 ## -struct-fields
@@ -61,17 +61,17 @@ The size of this structure.
 
 ### -field HostInterfaceType
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/mt628023">URS_HOST_INTERFACE_TYPE</a> type value that indicates the type of USB host controller: EHCI, xHCI, or other.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/urstypes/ne-urstypes-_urs_host_interface_type">URS_HOST_INTERFACE_TYPE</a> type value that indicates the type of USB host controller: EHCI, xHCI, or other.
 
 
 ### -field EvtUrsFilterRemoveResourceRequirements
 
-A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/mt595921">EVT_URS_DEVICE_FILTER_RESOURCE_REQUIREMENTS</a> callback function.
+A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ursdevice/nc-ursdevice-evt_urs_device_filter_resource_requirements">EVT_URS_DEVICE_FILTER_RESOURCE_REQUIREMENTS</a> callback function.
 
 
 ### -field EvtUrsSetRole
 
-A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/mt595922">EVT_URS_SET_ROLE</a> callback function.
+A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ursdevice/nc-ursdevice-evt_urs_set_role">EVT_URS_SET_ROLE</a> callback function.
 
 
 ## -see-also
@@ -79,11 +79,11 @@ A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/mt5
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt628021">URS_CONFIG_INIT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ursdevice/nf-ursdevice-urs_config_init">URS_CONFIG_INIT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt628012">UrsDeviceInitialize</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ursdevice/nf-ursdevice-ursdeviceinitialize">UrsDeviceInitialize</a>
  
 
  

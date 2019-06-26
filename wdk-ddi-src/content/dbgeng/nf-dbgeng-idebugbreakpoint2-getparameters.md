@@ -57,7 +57,7 @@ The <b>GetParameters</b> method returns the parameters for a breakpoint.
 
 ### -param Params [out]
 
-The breakpoint's parameters.  For more information about the parameters, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff541459">DEBUG_BREAKPOINT_PARAMETERS</a>.
+The breakpoint's parameters.  For more information about the parameters, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/ns-dbgeng-_debug_breakpoint_parameters">DEBUG_BREAKPOINT_PARAMETERS</a>.
 
 
 ## -returns
@@ -83,7 +83,7 @@ The method was successful.
 </table>
  
 
-This method can also return error values.  For more information, see <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a>.
+This method can also return error values.  For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a>.
 
 
 
@@ -92,9 +92,9 @@ This method can also return error values.  For more information, see <a href="ht
 
 
 
-The <b>GetParameters</b> method is a convenience method that returns most of the parameters that the other <a href="https://msdn.microsoft.com/library/windows/hardware/ff549812">IDebugBreakpoint</a> methods return.
+The <b>GetParameters</b> method is a convenience method that returns most of the parameters that the other <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugbreakpoint">IDebugBreakpoint</a> methods return.
 
-For a list of the parameters and flags that this method retrieves, and for other ways to read and write these parameters and flags, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff539284">Controlling Breakpoint Flags and Parameters</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff560075">Using Breakpoints</a>.
+For a list of the parameters and flags that this method retrieves, and for other ways to read and write these parameters and flags, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/controlling-breakpoint-flags-and-parameters">Controlling Breakpoint Flags and Parameters</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/using-breakpoints2">Using Breakpoints</a>.
 
 
 

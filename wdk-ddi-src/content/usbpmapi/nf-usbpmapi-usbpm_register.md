@@ -56,7 +56,7 @@ Registers the client driver with the Policy Manager to report hub arrival/remova
 [Out] A pointer to a location that receives a handle to the registration operation.
 
 ## -returns
-Returns STATUS_SUCCESS if the operation succeeds. Otherwise, returns an appropriate [NTSTATUS](https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505) value.
+Returns STATUS_SUCCESS if the operation succeeds. Otherwise, returns an appropriate [NTSTATUS](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values) value.
 
 ## -remarks
 The client driver's callback functions might start getting invoked before **UsbPm_Register** returns. The _ClientHandle_ value is set to a valid value before callback functions are invoked. 

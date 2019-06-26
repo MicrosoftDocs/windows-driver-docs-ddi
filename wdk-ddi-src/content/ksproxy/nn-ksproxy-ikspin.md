@@ -56,7 +56,7 @@ The IID for this interface is IID_IKsPin.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsPin</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IKsPin</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsPin</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IKsPin</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,7 +71,7 @@ The <b>IKsPin</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/68faba0a-8057-4259-b93d-c19899637356">KsCreateSinkPinHandle</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nf-ksproxy-ikspin-kscreatesinkpinhandle">KsCreateSinkPinHandle</a>
 </td>
 <td align="left" width="63%">
 For proxy use and not recommended for application use. Creates a pin handle and stores it in the KS pin object. 
@@ -80,7 +80,7 @@ For proxy use and not recommended for application use. Creates a pin handle and 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/92e0355c-b89f-46c2-b406-e3c73fc37000">KsDecrementPendingIoCount</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nf-ksproxy-ikspin-ksdecrementpendingiocount">KsDecrementPendingIoCount</a>
 </td>
 <td align="left" width="63%">
 Decrements the number of I/O operations that are in progress on a pin.
@@ -89,7 +89,7 @@ Decrements the number of I/O operations that are in progress on a pin.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e527a659-7ed5-4262-bed2-3bab58919401">KsDeliver</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nf-ksproxy-ikspin-ksdeliver">KsDeliver</a>
 </td>
 <td align="left" width="63%">
 Delivers a media sample from an output pin to an input pin. 
@@ -98,7 +98,7 @@ Delivers a media sample from an output pin to an input pin.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3fca9bf5-5430-4877-846e-e796e54991a2">KsGetCurrentCommunication</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nf-ksproxy-ikspin-ksgetcurrentcommunication">KsGetCurrentCommunication</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current communication direction, interface, and medium of a pin. 
@@ -107,7 +107,7 @@ Retrieves the current communication direction, interface, and medium of a pin.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e79ae2ac-6636-491d-8c98-70a5ff3a23ef">KsIncrementPendingIoCount</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nf-ksproxy-ikspin-ksincrementpendingiocount">KsIncrementPendingIoCount</a>
 </td>
 <td align="left" width="63%">
 Increments the number of I/O operations that are in progress on a pin.
@@ -116,7 +116,7 @@ Increments the number of I/O operations that are in progress on a pin.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/df3bbc09-14aa-4243-887b-d88d02a59f73">KsMediaSamplesCompleted</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nf-ksproxy-ikspin-ksmediasamplescompleted">KsMediaSamplesCompleted</a>
 </td>
 <td align="left" width="63%">
 Informs a pin that a stream segment completed. Used by interface handlers.
@@ -125,7 +125,7 @@ Informs a pin that a stream segment completed. Used by interface handlers.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/fd833d0b-2f81-4002-8280-38e17e528af6">KsPeekAllocator</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nf-ksproxy-ikspin-kspeekallocator">KsPeekAllocator</a>
 </td>
 <td align="left" width="63%">
 For proxy use and not recommended for application use. Returns a pointer to a <b>IMemAllocator</b> interface for a pin's assigned allocator.
@@ -134,7 +134,7 @@ For proxy use and not recommended for application use. Returns a pointer to a <b
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/059bef5a-1db7-4fd7-a19b-c34df81f4447">KsPropagateAcquire</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nf-ksproxy-ikspin-kspropagateacquire">KsPropagateAcquire</a>
 </td>
 <td align="left" width="63%">
 For proxy use and not recommended for application use.
@@ -150,7 +150,7 @@ For proxy use and not recommended for application use. Receives quality-manageme
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e8b0a1c0-c018-4556-b43c-fae4f7cf43de">KsQueryInterfaces</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nf-ksproxy-ikspin-ksqueryinterfaces">KsQueryInterfaces</a>
 </td>
 <td align="left" width="63%">
 Retrieves interfaces that a pin supports.
@@ -159,7 +159,7 @@ Retrieves interfaces that a pin supports.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/de6efd10-7f97-422a-abd4-c21c4cbc1dd7">KsQueryMediums</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nf-ksproxy-ikspin-ksquerymediums">KsQueryMediums</a>
 </td>
 <td align="left" width="63%">
 Retrieves mediums that a pin supports.
@@ -187,7 +187,7 @@ Obsolete. Do not use.
 
 
 
-An interface handler (<a href="https://msdn.microsoft.com/library/windows/hardware/ff559855">IKsInterfaceHandler</a>) uses many of the <b>IKsPin</b> methods to route media samples of a particular media type. 
+An interface handler (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nn-ksproxy-iksinterfacehandler">IKsInterfaceHandler</a>) uses many of the <b>IKsPin</b> methods to route media samples of a particular media type. 
     
 
 
@@ -198,7 +198,7 @@ An interface handler (<a href="https://msdn.microsoft.com/library/windows/hardwa
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559855">IKsInterfaceHandler</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nn-ksproxy-iksinterfacehandler">IKsInterfaceHandler</a>
  
 
  

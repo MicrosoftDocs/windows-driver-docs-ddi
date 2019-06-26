@@ -91,11 +91,11 @@ These IRPs will normally result in a call to one of the <b>MRxQueryFileInfo, MRx
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550770">MRxQueryFileInfo</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/mrxqueryfileinfo">MRxQueryFileInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550776">MRxQuerySdInfo</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/mrxquerysdinfo">MRxQuerySdInfo</a>
 
 
 

@@ -47,7 +47,7 @@ req.typenames:
 ## -description
 
 
-The <b>PcDestroyContent</b> function deletes a DRM content ID that was created by <a href="https://msdn.microsoft.com/library/windows/hardware/ff537689">PcCreateContentMixed</a>. Note that this function call is identical in operation to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536349">DrmDestroyContent</a> function, and its parameter definitions and return value are also identical.
+The <b>PcDestroyContent</b> function deletes a DRM content ID that was created by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-pccreatecontentmixed">PcCreateContentMixed</a>. Note that this function call is identical in operation to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/drmk/nf-drmk-drmdestroycontent">DrmDestroyContent</a> function, and its parameter definitions and return value are also identical.
 
 
 ## -parameters
@@ -64,7 +64,7 @@ Specifies a nonzero DRM content ID assigned to a KS audio stream by <b>DrmCreate
 
 
 
-See return value definition in <a href="https://msdn.microsoft.com/library/windows/hardware/ff536349">DrmDestroyContent</a>.
+See return value definition in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/drmk/nf-drmk-drmdestroycontent">DrmDestroyContent</a>.
 
 
 
@@ -73,7 +73,7 @@ See return value definition in <a href="https://msdn.microsoft.com/library/windo
 
 
 
-For more information, see the comments in <a href="https://msdn.microsoft.com/library/windows/hardware/ff536349">DrmDestroyContent</a>.
+For more information, see the comments in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/drmk/nf-drmk-drmdestroycontent">DrmDestroyContent</a>.
 
 
 
@@ -83,11 +83,11 @@ For more information, see the comments in <a href="https://msdn.microsoft.com/li
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536349">DrmDestroyContent</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/drmk/nf-drmk-drmdestroycontent">DrmDestroyContent</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537689">PcCreateContentMixed</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-pccreatecontentmixed">PcCreateContentMixed</a>
  
 
  

@@ -48,7 +48,7 @@ req.typenames: FWPS_FIELDS_IPFORWARD_V6
 
 The FWPS_FIELDS_IPFORWARD_V6 enumeration type specifies the data field identifiers for the
   FWPS_LAYER_IPFORWARD_V6 and FWPS_LAYER_IPFORWARD_V6_DISCARD 
-  <a href="https://msdn.microsoft.com/library/windows/desktop/aa366492">run-time filtering layers</a>.
+  <a href="https://docs.microsoft.com/windows/desktop/FWP/management-filtering-layer-identifiers-">run-time filtering layers</a>.
 
 
 ## -enum-fields
@@ -69,12 +69,12 @@ The destination IP address.
 ### -field FWPS_FIELD_IPFORWARD_V6_IP_DESTINATION_ADDRESS_TYPE
 
 The destination IP address type. The possible values are defined by the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568757">NL_ADDRESS_TYPE</a> enumeration.
+     <a href="https://docs.microsoft.com/windows/desktop/api/nldef/ne-nldef-nl_address_type">NL_ADDRESS_TYPE</a> enumeration.
 
 
 ### -field FWPS_FIELD_IPFORWARD_V6_IP_LOCAL_INTERFACE
 
-The locally unique identifier (<a href="https://msdn.microsoft.com/library/windows/hardware/ff557080">LUID</a>) for the network interface associated with the
+The locally unique identifier (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/igpupvdev/ns-igpupvdev-_luid">LUID</a>) for the network interface associated with the
      local IP address.
 
 
@@ -107,13 +107,13 @@ The index of the destination logical network interface, as enumerated by the net
 
 A bitwise OR of a combination of filtering condition flags. For information about the possible
      flags, see 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff549942">Filtering Condition Flags</a>.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/filtering-condition-flags">Filtering Condition Flags</a>.
 
 
 ### -field FWPS_FIELD_IPFORWARD_V6_IP_PHYSICAL_ARRIVAL_INTERFACE
 
 The 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff557080">LUID</a> for the physical network interface that the
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/igpupvdev/ns-igpupvdev-_luid">LUID</a> for the physical network interface that the
      packet first arrived on.
      
 
@@ -132,7 +132,7 @@ The profile identifier (network category) of the arrival interface. The possible
 ### -field FWPS_FIELD_IPFORWARD_V6_IP_PHYSICAL_NEXTHOP_INTERFACE
 
 The 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff557080">LUID</a> for the physical network interface that will be
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/igpupvdev/ns-igpupvdev-_luid">LUID</a> for the physical network interface that will be
      used to continue forwarding of the outbound packet.
      
 
@@ -166,11 +166,11 @@ The maximum value for this enumeration. This value might change in future versio
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557080">LUID</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/igpupvdev/ns-igpupvdev-_luid">LUID</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568757">NL_ADDRESS_TYPE</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/nldef/ne-nldef-nl_address_type">NL_ADDRESS_TYPE</a>
  
 
  

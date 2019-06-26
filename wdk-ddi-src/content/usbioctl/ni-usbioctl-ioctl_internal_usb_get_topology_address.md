@@ -59,22 +59,22 @@ The <b>IOCTL_INTERNAL_USB_GET_TOPOLOGY_ADDRESS</b>
 
 ### -input-buffer
 
-<b>Parameters.Others.Argument1</b> points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540164">USB_TOPOLOGY_ADDRESS</a> structure to receive the device topology information.
+<b>Parameters.Others.Argument1</b> points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbioctl/ns-usbioctl-_usb_topology_address">USB_TOPOLOGY_ADDRESS</a> structure to receive the device topology information.
 
 
 ### -input-buffer-length
 
-The size of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540164">USB_TOPOLOGY_ADDRESS</a> structure.
+The size of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbioctl/ns-usbioctl-_usb_topology_address">USB_TOPOLOGY_ADDRESS</a> structure.
 
 
 ### -output-buffer
 
-<b>Parameters.Others.Argument1</b> points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540164">USB_TOPOLOGY_ADDRESS</a> structure containing the device topology information.
+<b>Parameters.Others.Argument1</b> points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbioctl/ns-usbioctl-_usb_topology_address">USB_TOPOLOGY_ADDRESS</a> structure containing the device topology information.
 
 
 ### -output-buffer-length
 
-The size of a <a href="https://msdn.microsoft.com/library/windows/hardware/ff540164">USB_TOPOLOGY_ADDRESS</a> structure.
+The size of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbioctl/ns-usbioctl-_usb_topology_address">USB_TOPOLOGY_ADDRESS</a> structure.
 
 
 ### -in-out-buffer

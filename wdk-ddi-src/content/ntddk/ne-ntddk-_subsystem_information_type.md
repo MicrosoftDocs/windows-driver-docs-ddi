@@ -46,7 +46,7 @@ req.typenames: SUBSYSTEM_INFORMATION_TYPE, *PSUBSYSTEM_INFORMATION_TYPE
 ## -description
 
 
-Indicates the type of subsystem for a process or thread. This enumeration is used in <a href="https://msdn.microsoft.com/0eae7899-c40b-4a5f-9e9c-adae021885e7">NtQueryInformationProcess</a>  and <a href="https://msdn.microsoft.com/ca292efc-1ea9-4c0f-b0a7-1cfb35d69f81">NtQueryInformationThread</a> calls. 
+Indicates the type of subsystem for a process or thread. This enumeration is used in <a href="https://docs.microsoft.com/windows/desktop/api/winternl/nf-winternl-ntqueryinformationprocess">NtQueryInformationProcess</a>  and <a href="https://docs.microsoft.com/windows/desktop/api/winternl/nf-winternl-ntqueryinformationthread">NtQueryInformationThread</a> calls. 
 
 
 ## -enum-fields
@@ -61,7 +61,7 @@ The subsystem type for the process or thread is Win32.
 
 ### -field SubsystemInformationTypeWSL
 
-The subsystem type for the process or thread is Windows Subsystem for Linux (WSL). For this process, these members of  the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559960">PS_CREATE_NOTIFY_INFO</a> structure are set as follows:
+The subsystem type for the process or thread is Windows Subsystem for Linux (WSL). For this process, these members of  the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_ps_create_notify_info">PS_CREATE_NOTIFY_INFO</a> structure are set as follows:
 
 <ul>
 <li>The <b>FileObject</b> member is the NTFS file object from LxFs or DriveFs, the file system that is used for interoperability with Windows. </li>
@@ -81,11 +81,11 @@ Reserved.
 
 
 
-<a href="https://msdn.microsoft.com/0eae7899-c40b-4a5f-9e9c-adae021885e7">NtQueryInformationProcess</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winternl/nf-winternl-ntqueryinformationprocess">NtQueryInformationProcess</a>
 
 
 
-<a href="https://msdn.microsoft.com/ca292efc-1ea9-4c0f-b0a7-1cfb35d69f81">NtQueryInformationThread</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winternl/nf-winternl-ntqueryinformationthread">NtQueryInformationThread</a>
  
 
  

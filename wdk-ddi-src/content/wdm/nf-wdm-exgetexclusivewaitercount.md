@@ -98,7 +98,7 @@ A pointer to the resource to be tested.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545290">ExGetSharedWaiterCount</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-exgetsharedwaitercount">ExGetSharedWaiterCount</a>
 
 
 

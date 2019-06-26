@@ -57,7 +57,7 @@ The <b>RemoveTypeOptions</b> method turns off some type formatting options for o
 
 ### -param Options [in]
 
-Specifies the type formatting options to turn off.  <i>Options</i> is a bit-set; the new value of the options will equal the old value AND NOT the value of <i>Options</i>.  For a description of the bit flags, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff541712">DEBUG_TYPEOPTS_XXX</a>.
+Specifies the type formatting options to turn off.  <i>Options</i> is a bit-set; the new value of the options will equal the old value AND NOT the value of <i>Options</i>.  For a description of the bit flags, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-typeopts-xxx">DEBUG_TYPEOPTS_XXX</a>.
 
 
 ## -returns
@@ -83,7 +83,7 @@ The method was successful.
 </table>
  
 
-This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 
 
@@ -92,9 +92,9 @@ This method may also return error values.  See <a href="https://msdn.microsoft.c
 
 
 
-After the type options have been changed, for each client the engine sends out notification to that client's <a href="https://msdn.microsoft.com/library/windows/hardware/ff550550">IDebugEventCallbacks</a> by passing the DEBUG_CES_TYPE_OPTIONS flag to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550692">IDebugEventCallbacks::ChangeSymbolState</a> method.
+After the type options have been changed, for each client the engine sends out notification to that client's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugeventcallbacks">IDebugEventCallbacks</a> by passing the DEBUG_CES_TYPE_OPTIONS flag to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugeventcallbacks-changesymbolstate">IDebugEventCallbacks::ChangeSymbolState</a> method.
 
-For more information about types, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558931">Types</a>.
+For more information about types, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/types">Types</a>.
 
 
 
@@ -104,23 +104,23 @@ For more information about types, see <a href="https://msdn.microsoft.com/librar
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537949">AddTypeOptions</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols3-addtypeoptions">AddTypeOptions</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549428">GetTypeOptions</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols3-gettypeoptions">GetTypeOptions</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550864">IDebugSymbols2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugsymbols2">IDebugSymbols2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550870">IDebugSymbols3</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugsymbols3">IDebugSymbols3</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556874">SetTypeOptions</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols3-settypeoptions">SetTypeOptions</a>
  
 
  

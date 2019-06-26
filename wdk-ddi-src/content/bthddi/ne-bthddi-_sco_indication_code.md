@@ -49,7 +49,7 @@ req.typenames: SCO_INDICATION_CODE, *PSCO_INDICATION_CODE
 The SCO_INDICATION_CODE enumeration type describes the type of an incoming SCO connection or bonding
   state change. The Bluetooth driver stack passes a value from this enumeration in the 
   <i>Indication</i> argument of a profile driver's 
-  <a href="https://msdn.microsoft.com/abc9fc88-6852-4bfb-8271-7a73a508c397">SCO Callback Function</a>.
+  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/nc-bthddi-pfnsco_indication_callback">SCO Callback Function</a>.
 
 
 ## -enum-fields
@@ -72,8 +72,8 @@ This value indicates that the profile driver can release one reference to its de
 
 This value indicates to a profile driver that a remote device is trying to connect to the local
      radio. Profile drivers accept or reject this request by 
-     <a href="https://msdn.microsoft.com/53a692e7-9c71-4dca-9331-32ac97b94179">building and sending</a> a 
-     <a href="https://social.msdn.microsoft.com/Forums/0a9a4323-d046-4d27-9d22-4974dbab30a4/windows-bluetooth-sco-brbscoopenchannelresponse?forum=wdk">
+     <a href="https://docs.microsoft.com/previous-versions/ff536657(v=vs.85)">building and sending</a> a 
+     <a href="https://social.msdn.microsoft.com/Forums/0a9a4323-d046-4d27-9d22-4974dbab30a4/home?forum=windows-bluetooth-sco-brbscoopenchannelresponse">
      BRB_SCO_OPEN_CHANNEL_RESPONSE</a> request.
 
 
@@ -88,15 +88,15 @@ This value indicates to a profile driver that a remote device is disconnecting f
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536628">BRB_SCO_REGISTER_SERVER</a>
+<a href="https://docs.microsoft.com/previous-versions/ff536628(v=vs.85)">BRB_SCO_REGISTER_SERVER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536751">IOCTL_INTERNAL_BTH_SUBMIT_BRB</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthioctl/ni-bthioctl-ioctl_internal_bth_submit_brb">IOCTL_INTERNAL_BTH_SUBMIT_BRB</a>
 
 
 
-<a href="https://msdn.microsoft.com/abc9fc88-6852-4bfb-8271-7a73a508c397">SCO Callback Function</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/nc-bthddi-pfnsco_indication_callback">SCO Callback Function</a>
  
 
  

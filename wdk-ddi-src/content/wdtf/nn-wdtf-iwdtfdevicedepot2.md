@@ -67,7 +67,7 @@ The <b>IWDTFDeviceDepot2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406403">Query</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nf-wdtf-iwdtfdevicedepot2-query">Query</a>
 </td>
 <td align="left" width="63%">
 Returns a subset of the devices in the DeviceDepot.
@@ -76,7 +76,7 @@ Returns a subset of the devices in the DeviceDepot.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439488">QuerySingle</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nf-wdtf-iwdtftargets2-querysingle">QuerySingle</a>
 </td>
 <td align="left" width="63%">
 Returns a single target device from the DeviceDepot.
@@ -94,7 +94,7 @@ Returns a single target device from the DeviceDepot.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439300">_NewEnum</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nf-wdtf-iwdtfstrings2-get__newenum">_NewEnum</a>
 
 
 </td>
@@ -110,7 +110,7 @@ Gets the iteration enumerator for the collection of devices in the DeviceDepot.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/hh406342(v=vs.85)">Count</a>
 
 
 </td>
@@ -126,7 +126,7 @@ Gets the number of devices that are currently provided by the DeviceDepot.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">Item</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nf-wdtf-iwdtfnumbers2-get_item">Item</a>
 
 
 </td>
@@ -142,7 +142,7 @@ Gets an individual device in the DeviceDepot.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406413">RootDevice</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nf-wdtf-iwdtfdevicedepot2-get_rootdevice">RootDevice</a>
 
 
 </td>
@@ -158,7 +158,7 @@ Gets the root device.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406421">WDTF</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nf-wdtf-iwdtfdevicedepot2-get_wdtf">WDTF</a>
 
 
 </td>

@@ -59,7 +59,7 @@ The
 ### -param ProviderCharacteristics [in]
 
 A pointer to a caller-provided 
-     <a href="https://msdn.microsoft.com/f295bea2-20d8-4c71-b78b-77d43840be2a">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_if_provider_characteristics">
      NDIS_IF_PROVIDER_CHARACTERISTICS</a> structure. This structure defines the characteristics of the
      provider, including the entry points for its provider callback functions.
 
@@ -117,7 +117,7 @@ The operation failed because of insufficient resources.
 </td>
 <td width="60%">
 <b>NdisIfRegisterProvider</b> failed to register the provider because the 
-       <a href="https://msdn.microsoft.com/f295bea2-20d8-4c71-b78b-77d43840be2a">
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_if_provider_characteristics">
        NDIS_IF_PROVIDER_CHARACTERISTICS</a> structure at the 
        <i>ProviderCharacteristics</i> parameter contained invalid member data.
 
@@ -150,26 +150,26 @@ NDIS drivers call the
     <b>NdisIfRegisterProvider</b> function once during initialization to register as an NDIS interface
     provider. For example, the driver can call 
     <b>NdisIfRegisterProvider</b> from its 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a> routine. An interface provider is a
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine. An interface provider is a
     software component that manages network interfaces to support the MIB (
     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/overview-of-ndis-network-interfaces">RFC 2863</a>).
 
 To handle interface provider OID requests, interface providers provide entry points for callback
     functions in the 
-    <a href="https://msdn.microsoft.com/f295bea2-20d8-4c71-b78b-77d43840be2a">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_if_provider_characteristics">
     NDIS_IF_PROVIDER_CHARACTERISTICS</a> structure at the 
     <i>ProviderCharacteristics</i> parameter of 
     <b>NdisIfRegisterProvider</b>.
 
 NDIS interface providers call the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff562715">NdisIfRegisterInterface</a> function
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisifregisterinterface">NdisIfRegisterInterface</a> function
     to register a network interface. A provider can register multiple interfaces.
 
 If 
     <b>NdisIfRegisterProvider</b> succeeds, it returns a handle at the location that the 
     <i>pNdisProviderHandle</i> parameter points to. The interface provider should retain this handle for use
     in subsequent calls that require an interface provider handle. For example, a driver must call 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff562703">NdisIfDeregisterProvider</a> before
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisifderegisterprovider">NdisIfDeregisterProvider</a> before
     the driver unloads.
 
 A component that is no longer an interface provider can call the 
@@ -185,20 +185,20 @@ A component that is no longer an interface provider can call the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a>
 
 
 
-<a href="https://msdn.microsoft.com/f295bea2-20d8-4c71-b78b-77d43840be2a">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_if_provider_characteristics">
    NDIS_IF_PROVIDER_CHARACTERISTICS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562703">NdisIfDeregisterProvider</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisifderegisterprovider">NdisIfDeregisterProvider</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562715">NdisIfRegisterInterface</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisifregisterinterface">NdisIfRegisterInterface</a>
  
 
  

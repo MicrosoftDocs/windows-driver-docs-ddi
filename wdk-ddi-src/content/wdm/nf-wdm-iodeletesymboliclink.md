@@ -73,15 +73,15 @@ Pointer to a buffered Unicode string that is the user-visible name for the symbo
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549043">IoCreateSymbolicLink</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iocreatesymboliclink">IoCreateSymbolicLink</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549050">IoCreateUnprotectedSymbolicLink</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iocreateunprotectedsymboliclink">IoCreateUnprotectedSymbolicLink</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549076">IoDeassignArcName</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-iodeassignarcname">IoDeassignArcName</a>
  
 
  

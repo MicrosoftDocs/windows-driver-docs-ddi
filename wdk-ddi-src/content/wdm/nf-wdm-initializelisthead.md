@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <b>InitializeListHead</b> routine initializes a <a href="https://msdn.microsoft.com/library/windows/hardware/ff554296">LIST_ENTRY</a> structure that represents the head of a doubly linked list.
+The <b>InitializeListHead</b> routine initializes a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_list_entry">LIST_ENTRY</a> structure that represents the head of a doubly linked list.
 
 
 ## -parameters
@@ -56,7 +56,7 @@ The <b>InitializeListHead</b> routine initializes a <a href="https://msdn.micros
 
 ### -param ListHead [out]
 
-Pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff554296">LIST_ENTRY</a> structure that serves as the list header. 
+Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_list_entry">LIST_ENTRY</a> structure that serves as the list header. 
 
 
 ## -returns
@@ -74,7 +74,7 @@ None
 
 The <b>InitializeListHead</b> routine sets the <b>Flink</b> and <b>Blink</b> members of <i>ListHead</i> to point to <i>ListHead</i>.
 
-For information about using this routine when implementing a doubly linked list, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563802">Singly and Doubly Linked Lists</a>.
+For information about using this routine when implementing a doubly linked list, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/singly-and-doubly-linked-lists">Singly and Doubly Linked Lists</a>.
 
 Callers of <b>InitializeListHead</b> can be running at any IRQL. If <b>InitializeListHead</b> is called at IRQL >= DISPATCH_LEVEL the storage for <i>ListHead</i> must be resident.
 
@@ -106,39 +106,39 @@ Callers of <b>InitializeListHead</b> can be running at any IRQL. If <b>Initializ
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547820">InsertHeadList</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-insertheadlist">InsertHeadList</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547823">InsertTailList</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-inserttaillist">InsertTailList</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551789">IsListEmpty</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-islistempty">IsListEmpty</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552160">KeInitializeSpinLock</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-keinitializespinlock">KeInitializeSpinLock</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559712">PopEntryList</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-popentrylist">PopEntryList</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559964">PushEntryList</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-pushentrylist">PushEntryList</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561029">RemoveEntryList</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-removeentrylist">RemoveEntryList</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561032">RemoveHeadList</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-removeheadlist">RemoveHeadList</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561036">RemoveTailList</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-removetaillist">RemoveTailList</a>
  
 
  

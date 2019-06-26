@@ -48,7 +48,7 @@ req.typenames:
 
 The <b>IOCTL_SERIAL_SET_BREAK_ON</b> request sets the line control break signal active.
 
-To set the line control break signal inactive, a client can use an <a href="https://msdn.microsoft.com/library/windows/hardware/ff546680">IOCTL_SERIAL_SET_BREAK_OFF</a> request.
+To set the line control break signal inactive, a client can use an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddser/ni-ntddser-ioctl_serial_set_break_off">IOCTL_SERIAL_SET_BREAK_OFF</a> request.
 
 
 ## -ioctlparameters
@@ -106,7 +106,7 @@ The <b>Status</b> member is set to one of the <a href="https://docs.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546680">IOCTL_SERIAL_SET_BREAK_OFF</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddser/ni-ntddser-ioctl_serial_set_break_off">IOCTL_SERIAL_SET_BREAK_OFF</a>
  
 
  

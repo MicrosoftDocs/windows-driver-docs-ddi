@@ -102,7 +102,7 @@ sizeof(NDIS_WWAN_SMS_CONFIGURATION)
  
 
 For more information about these members, see 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field uStatus
@@ -174,7 +174,7 @@ WWAN_STATUS_SMS_FORMAT_NOT_SUPPORTED
 
 </td>
 <td>
-The operation failed because the SMS format specified in <a href="https://msdn.microsoft.com/library/windows/hardware/ff571244">WWAN_SMS_CONFIGURATION</a> is not supported.
+The operation failed because the SMS format specified in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_sms_configuration">WWAN_SMS_CONFIGURATION</a> is not supported.
 
 </td>
 </tr>
@@ -185,7 +185,7 @@ The operation failed because the SMS format specified in <a href="https://msdn.m
 ### -field SmsConfiguration
 
 A formatted 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff571244">WWAN_SMS_CONFIGURATION</a> object that
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_sms_configuration">WWAN_SMS_CONFIGURATION</a> object that
      represents the SMS configuration of the MB device.
 
 
@@ -194,11 +194,11 @@ A formatted
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571244">WWAN_SMS_CONFIGURATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_sms_configuration">WWAN_SMS_CONFIGURATION</a>
  
 
  

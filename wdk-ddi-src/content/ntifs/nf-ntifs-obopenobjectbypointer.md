@@ -91,13 +91,13 @@ The handle can only be accessed in kernel mode. This flag must be specified if t
 
 ### -param PassedAccessState [in, optional]
 
-Pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff538840">ACCESS_STATE</a> structure containing the object's subject context, granted access types, and remaining desired access types. This parameter is optional and can be <b>NULL</b>. In a create dispatch routine, this pointer can be found in <i>IrpSp->Parameters.Create.SecurityContext->AccessState</i>, where <b>IrpSp</b> is a pointer to the caller's own stack location in the IRP. (For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>.) 
+Pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_access_state">ACCESS_STATE</a> structure containing the object's subject context, granted access types, and remaining desired access types. This parameter is optional and can be <b>NULL</b>. In a create dispatch routine, this pointer can be found in <i>IrpSp->Parameters.Create.SecurityContext->AccessState</i>, where <b>IrpSp</b> is a pointer to the caller's own stack location in the IRP. (For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-create">IRP_MJ_CREATE</a>.) 
 
 
 ### -param DesiredAccess [in]
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a> value specifying the desired access to the object. This parameter is optional and can be zero. 
+<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> value specifying the desired access to the object. This parameter is optional and can be zero. 
 
 
 ### -param ObjectType [in, optional]
@@ -217,7 +217,7 @@ The object handle could not be created. This is an error code.
 
 If the <i>Object</i> parameter points to a file object (that is, a FILE_OBJECT structure), <b>ObOpenObjectByPointer</b> can only be called after at least one handle has been created for the file object. Callers can check the <b>Flags</b> member of the FILE_OBJECT structure that the <i>Object</i> parameter points to. If the FO_HANDLE_CREATED flag is set, this means that one or more handles have been created for the file object, so it is safe to call <b>ObOpenObjectByPointer</b>. 
 
-Any handle obtained by calling <b>ObOpenObjectByPointer</b> must eventually be released by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff566417">ZwClose</a>. 
+Any handle obtained by calling <b>ObOpenObjectByPointer</b> must eventually be released by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-ntclose">ZwClose</a>. 
 
 Driver routines that run in a process context other than that of the system process must set the OBJ_KERNEL_HANDLE flag in the <i>HandleAttributes</i> parameter. This restricts the use of the handle returned by <b>ObOpenObjectByPointer</b> to processes running in kernel mode. Otherwise, the handle can be accessed by the process in whose context the driver is running. 
 
@@ -231,31 +231,31 @@ If the <i>AccessMode</i> parameter is <b>KernelMode</b>, the requested access is
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538840">ACCESS_STATE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_access_state">ACCESS_STATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-create">IRP_MJ_CREATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558678">ObReferenceObject</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-obfreferenceobject">ObReferenceObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558679">ObReferenceObjectByHandle</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-obreferenceobjectbyhandle">ObReferenceObjectByHandle</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558686">ObReferenceObjectByPointer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-obreferenceobjectbypointer">ObReferenceObjectByPointer</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566417">ZwClose</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-ntclose">ZwClose</a>
  
 
  

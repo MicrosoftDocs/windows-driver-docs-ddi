@@ -46,7 +46,7 @@ req.typenames: SetRADIUSSharedSecret_OUT, *PSetRADIUSSharedSecret_OUT
 ## -description
 
 
-The SetRADIUSSharedSecret_OUT structure holds the output data for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565815">SetRADIUSSharedSecret</a> method.
+The SetRADIUSSharedSecret_OUT structure holds the output data for the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/setradiussharedsecret">SetRADIUSSharedSecret</a> method.
 
 
 ## -struct-fields
@@ -56,7 +56,7 @@ The SetRADIUSSharedSecret_OUT structure holds the output data for the <a href="h
 
 ### -field Status
 
-On output, the status of the <b>SetRADIUSSharedSecret</b> operation. For a list of status qualifiers, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>.
+On output, the status of the <b>SetRADIUSSharedSecret</b> operation. For a list of status qualifiers, see <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/iscsi-status-qualifiers">ISCSI_STATUS_QUALIFIERS</a>.
 
 
 ## -remarks
@@ -73,15 +73,15 @@ You must implement this method.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/iscsi-status-qualifiers">ISCSI_STATUS_QUALIFIERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565815">SetRADIUSSharedSecret</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/setradiussharedsecret">SetRADIUSSharedSecret</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565831">SetRADIUSSharedSecret_IN</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/iscsiop/ns-iscsiop-_setradiussharedsecret_in">SetRADIUSSharedSecret_IN</a>
  
 
  

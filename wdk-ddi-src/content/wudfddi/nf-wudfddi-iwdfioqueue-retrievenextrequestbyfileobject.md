@@ -63,12 +63,12 @@ The <b>RetrieveNextRequestByFileObject</b> method retrieves from an I/O queue th
 
 ### -param ppRequest [out]
 
-A pointer to a buffer that receives a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558985">IWDFIoRequest</a> interface for the next request object whose file object matches the supplied file object, or receives <b>NULL</b> if the queue is empty or if the next request is not found.
+A pointer to a buffer that receives a pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nn-wudfddi-iwdfiorequest">IWDFIoRequest</a> interface for the next request object whose file object matches the supplied file object, or receives <b>NULL</b> if the queue is empty or if the next request is not found.
 
 
 #### - pFileObject [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff558912">IWDFFile</a> interface for the file object that is used to retrieve the next I/O request whose file object matches this supplied file object. 
+A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nn-wudfddi-iwdffile">IWDFFile</a> interface for the file object that is used to retrieve the next I/O request whose file object matches this supplied file object. 
 
 
 ## -returns
@@ -100,7 +100,7 @@ The next I/O request was successfully retrieved from the I/O queue.
 </dl>
 </td>
 <td width="60%">
-The queue is not dispatching requests. This situation occurs if the device undergoes a power state transition and all of the queues are stopped from dispatching requests or if the driver explicitly called <a href="https://msdn.microsoft.com/library/windows/hardware/ff558980">IWDFIoQueue::Stop</a> to stop dispatching requests. This situation can also occur if the driver attempts to remove a request from a manual queue that is power managed and that is powered down or if the queue is paused.
+The queue is not dispatching requests. This situation occurs if the device undergoes a power state transition and all of the queues are stopped from dispatching requests or if the driver explicitly called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfioqueue-stop">IWDFIoQueue::Stop</a> to stop dispatching requests. This situation can also occur if the driver attempts to remove a request from a manual queue that is power managed and that is powered down or if the queue is paused.
 
 </td>
 </tr>
@@ -145,7 +145,7 @@ If multiple I/O requests whose file objects match the file object that the <i>pF
 
 #### Examples
 
-For a code example of how to use the <b>RetrieveNextRequestByFileObject</b> method, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff558967">IWDFIoQueue::RetrieveNextRequest</a>.
+For a code example of how to use the <b>RetrieveNextRequestByFileObject</b> method, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfioqueue-retrievenextrequest">IWDFIoQueue::RetrieveNextRequest</a>.
 
 <div class="code"></div>
 
@@ -156,23 +156,23 @@ For a code example of how to use the <b>RetrieveNextRequestByFileObject</b> meth
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558912">IWDFFile</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nn-wudfddi-iwdffile">IWDFFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558943">IWDFIoQueue</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nn-wudfddi-iwdfioqueue">IWDFIoQueue</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558967">IWDFIoQueue::RetrieveNextRequest</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfioqueue-retrievenextrequest">IWDFIoQueue::RetrieveNextRequest</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558980">IWDFIoQueue::Stop</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfioqueue-stop">IWDFIoQueue::Stop</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558985">IWDFIoRequest</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nn-wudfddi-iwdfiorequest">IWDFIoRequest</a>
  
 
  

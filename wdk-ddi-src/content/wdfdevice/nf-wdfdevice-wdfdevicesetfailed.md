@@ -66,7 +66,7 @@ A handle to a framework device object.
 
 ### -param FailedAction [in]
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff551253">WDF_DEVICE_FAILED_ACTION</a>-typed enumerator that indicates whether the framework should attempt to reload the specified device's drivers.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/ne-wdfdevice-_wdf_device_failed_action">WDF_DEVICE_FAILED_ACTION</a>-typed enumerator that indicates whether the framework should attempt to reload the specified device's drivers.
 
 
 ## -returns
@@ -86,7 +86,7 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 If a driver encounters an unrecoverable hardware or software error, it must call <b>WdfDeviceSetFailed</b> so that the system can unload the device's drivers.
 
-Starting in UMDF version 2.15, a UMDF driver can request that the underlying bus driver re-enumerate it by calling <b>WdfDeviceSetFailed</b> with <i>FailedAction</i> set to <b>WdfDeviceFailedAttemptRestart</b>. The bus driver must support the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546570">GUID_REENUMERATE_SELF_INTERFACE_STANDARD</a> interface.
+Starting in UMDF version 2.15, a UMDF driver can request that the underlying bus driver re-enumerate it by calling <b>WdfDeviceSetFailed</b> with <i>FailedAction</i> set to <b>WdfDeviceFailedAttemptRestart</b>. The bus driver must support the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff546570(v=vs.85)">GUID_REENUMERATE_SELF_INTERFACE_STANDARD</a> interface.
 
 Alternatively, a UMDF driver can set <i>FailedAction</i> to <b>WdfDeviceFailedNoRestart</b>.
 

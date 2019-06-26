@@ -56,12 +56,12 @@ req.typenames:
 
 ### -param UcxController [in]
 
- A handle to the UCX controller that the client driver received in a previous call to  the <a href="https://msdn.microsoft.com/library/windows/hardware/mt188033">UcxControllerCreate</a> method.
+ A handle to the UCX controller that the client driver received in a previous call to  the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/mt188033(v=vs.85)">UcxControllerCreate</a> method.
 
 
 ### -param UcxControllerTransportCharacteristics [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/9F267427-8D70-45D5-A8E6-67A1C6B73CDB">UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS</a> structure that the client driver for the host controller fills with transport characteristics.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucxcontroller/ns-ucxcontroller-_ucx_controller_transport_characteristics">UCX_CONTROLLER_TRANSPORT_CHARACTERISTICS</a> structure that the client driver for the host controller fills with transport characteristics.
 
 
 ## -returns
@@ -77,9 +77,9 @@ If the operation is successful, the callback function must return STATUS_SUCCESS
 
 
 
-The UCX client driver registers its implementation with the USB host controller extension (UCX) by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/mt188033">UcxControllerCreate</a> method.
+The UCX client driver registers its implementation with the USB host controller extension (UCX) by calling the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/mt188033(v=vs.85)">UcxControllerCreate</a> method.
 
-This callback function is optional. Whenever transport characteristics change, the client driver is responsible for notifying UCX that one of the characteristics have changed using a new function <a href="https://msdn.microsoft.com/DB49DF98-8A5B-4528-B312-63CE3DFABEF2">UcxControllerNotifyTransportCharacteristicsChange</a>. 
+This callback function is optional. Whenever transport characteristics change, the client driver is responsible for notifying UCX that one of the characteristics have changed using a new function <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucxcontroller/nf-ucxcontroller-ucxcontrollernotifytransportcharacteristicschange">UcxControllerNotifyTransportCharacteristicsChange</a>. 
 
 
 
@@ -89,7 +89,7 @@ This callback function is optional. Whenever transport characteristics change, t
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt188033">UcxControllerCreate</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/mt188033(v=vs.85)">UcxControllerCreate</a>
  
 
  

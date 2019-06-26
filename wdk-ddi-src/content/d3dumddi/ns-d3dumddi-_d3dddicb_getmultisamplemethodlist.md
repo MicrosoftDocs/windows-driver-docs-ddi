@@ -71,12 +71,12 @@ The D3DDDICB_GETMULTISAMPLEMETHODLIST structure describes parameters to retrieve
 
 ### -field Format
 
-[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff544312">D3DDDIFORMAT</a>-typed value that indicates the pixel format of the allocation.
+[in] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dukmdt/ne-d3dukmdt-_d3dddiformat">D3DDDIFORMAT</a>-typed value that indicates the pixel format of the allocation.
 
 
 ### -field pMethodList
 
-[out] An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff544594">D3DDDI_MULTISAMPLINGMETHOD</a> structures that describe the list of multiple-sampling methods that are used for the allocation or <b>NULL</b>.
+[out] An array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dukmdt/ns-d3dukmdt-_d3dddi_multisamplingmethod">D3DDDI_MULTISAMPLINGMETHOD</a> structures that describe the list of multiple-sampling methods that are used for the allocation or <b>NULL</b>.
 
 
 ### -field MethodCount
@@ -98,15 +98,15 @@ If the runtime returns a non-<b>NULL</b> value in the <b>pMethodList</b> member,
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544312">D3DDDIFORMAT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dukmdt/ne-d3dukmdt-_d3dddiformat">D3DDDIFORMAT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544594">D3DDDI_MULTISAMPLINGMETHOD</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dukmdt/ns-d3dukmdt-_d3dddi_multisamplingmethod">D3DDDI_MULTISAMPLINGMETHOD</a>
 
 
 
-<a href="https://msdn.microsoft.com/2e3f9ee9-83a0-4b81-a22b-594e5bd4d046">pfnGetMultisampleMethodListCb</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_getmultisamplemethodlistcb">pfnGetMultisampleMethodListCb</a>
  
 
  

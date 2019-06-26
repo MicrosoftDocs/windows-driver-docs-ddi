@@ -56,7 +56,7 @@ The D3DDDICB_FLIPOVERLAY structure describes a new allocation to display for the
 
 ### -field hKernelOverlay
 
-[in] A D3DKMT_HANDLE data type that represents the kernel-mode handle that is returned by the <a href="https://msdn.microsoft.com/fbd5b3af-0963-4e41-8be3-41e3e1ecf8bc">pfnCreateOverlayCb</a> function and that identifies the kernel-mode overlay object to be flipped.
+[in] A D3DKMT_HANDLE data type that represents the kernel-mode handle that is returned by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_createoverlaycb">pfnCreateOverlayCb</a> function and that identifies the kernel-mode overlay object to be flipped.
 
 
 ### -field hSource
@@ -79,11 +79,11 @@ The D3DDDICB_FLIPOVERLAY structure describes a new allocation to display for the
 
 
 
-<a href="https://msdn.microsoft.com/fbd5b3af-0963-4e41-8be3-41e3e1ecf8bc">pfnCreateOverlayCb</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_createoverlaycb">pfnCreateOverlayCb</a>
 
 
 
-<a href="https://msdn.microsoft.com/91e4876a-82c0-4e74-84c8-4b7a6abe0756">pfnFlipOverlayCb</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_flipoverlaycb">pfnFlipOverlayCb</a>
  
 
  

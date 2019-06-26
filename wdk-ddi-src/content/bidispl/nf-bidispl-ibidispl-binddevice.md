@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <b>BindDevice</b> method binds a printer to a bidi request. This method is similar to the <a href="https://msdn.microsoft.com/8bbb46a8-2bba-4d15-a2e2-4770b52d2505">OpenPrinter</a> function.
+The <b>BindDevice</b> method binds a printer to a bidi request. This method is similar to the <a href="https://docs.microsoft.com/windows-hardware/drivers/print/openprinter">OpenPrinter</a> function.
 
 
 ## -parameters
@@ -74,7 +74,7 @@ The access privileges for the printer. This parameter can be one of the followin
 </dl>
 </td>
 <td width="60%">
-Permits users to perform all administrative tasks and basic printing operations except for SYNCHRONIZE. This is the same as PRINTER_ALL_ACCESS in <a href="https://msdn.microsoft.com/8bbb46a8-2bba-4d15-a2e2-4770b52d2505">OpenPrinter</a>.
+Permits users to perform all administrative tasks and basic printing operations except for SYNCHRONIZE. This is the same as PRINTER_ALL_ACCESS in <a href="https://docs.microsoft.com/windows-hardware/drivers/print/openprinter">OpenPrinter</a>.
 
 </td>
 </tr>
@@ -84,7 +84,7 @@ Permits users to perform all administrative tasks and basic printing operations 
 </dl>
 </td>
 <td width="60%">
-Permits users to perform basic printing operations. This is the same as PRINTER_ACCESS_USE in <a href="https://msdn.microsoft.com/8bbb46a8-2bba-4d15-a2e2-4770b52d2505">OpenPrinter</a>.
+Permits users to perform basic printing operations. This is the same as PRINTER_ACCESS_USE in <a href="https://docs.microsoft.com/windows-hardware/drivers/print/openprinter">OpenPrinter</a>.
 
 </td>
 </tr>
@@ -96,7 +96,7 @@ Permits users to perform basic printing operations. This is the same as PRINTER_
 
 
 
-The method returns one of the following values. For more information about COM error codes, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff544310">Error Handling</a>.
+The method returns one of the following values. For more information about COM error codes, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">Error Handling</a>.
 
 <table>
 <tr>
@@ -147,19 +147,19 @@ The <b>HRESULT</b> contains an error code corresponding to the last error.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_print/index">Bidirectional Communication Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/print/bidirectional-communication-schema">Bidirectional Communication Schema</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dd144980">IBidiSpl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bidispl/nn-bidispl-ibidispl">IBidiSpl</a>
 
 
 
-<a href="https://msdn.microsoft.com/8bbb46a8-2bba-4d15-a2e2-4770b52d2505">OpenPrinter</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/print/openprinter">OpenPrinter</a>
  
 
  

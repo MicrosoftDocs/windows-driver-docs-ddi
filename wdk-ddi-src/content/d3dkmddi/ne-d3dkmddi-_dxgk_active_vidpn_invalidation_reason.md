@@ -66,7 +66,7 @@ Indicates that the user pressed a keyboard shortcut to change the set of monitor
 
 ### -field DXGK_AVIR_USERMODE
 
-Indicates that a call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547023">D3DKMTInvalidateActiveVidPn</a> function has been made in user mode.
+Indicates that a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/nf-d3dkmthk-d3dkmtinvalidateactivevidpn">D3DKMTInvalidateActiveVidPn</a> function has been made in user mode.
 
 
 ## -see-also
@@ -74,7 +74,7 @@ Indicates that a call to the <a href="https://msdn.microsoft.com/library/windows
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547023">D3DKMTInvalidateActiveVidPN</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/nf-d3dkmthk-d3dkmtinvalidateactivevidpn">D3DKMTInvalidateActiveVidPN</a>
  
 
  

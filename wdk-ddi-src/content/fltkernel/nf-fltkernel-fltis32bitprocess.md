@@ -56,7 +56,7 @@ The <b>FltIs32bitProcess</b> routine checks whether the originator of the curren
 
 ### -param CallbackData [in, optional]
 
-Pointer to the callback data structure for the current I/O operation (<a href="https://msdn.microsoft.com/library/windows/hardware/ff544620">FLT_CALLBACK_DATA</a>). This parameter is optional and can be <b>NULL</b>. 
+Pointer to the callback data structure for the current I/O operation (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>). This parameter is optional and can be <b>NULL</b>. 
 
 
 ## -returns
@@ -72,7 +72,7 @@ Pointer to the callback data structure for the current I/O operation (<a href="h
 
 
 
-Minifilter drivers call <b>FltIs32bitProcess</b> to determine whether an I/O request is likely to contain data elements that need to be converted, or "thunked," before they can be used in a 64-bit driver. For more information about thunking and other 64-bit driver issues, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff559923">Programming Issues for 64-Bit Drivers</a>. 
+Minifilter drivers call <b>FltIs32bitProcess</b> to determine whether an I/O request is likely to contain data elements that need to be converted, or "thunked," before they can be used in a 64-bit driver. For more information about thunking and other 64-bit driver issues, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/programming-issues-for-64-bit-drivers">Programming Issues for 64-Bit Drivers</a>. 
 
 On a 32-bit system, <b>FltIs32bitProcess</b> always returns <b>TRUE</b>. 
 
@@ -96,11 +96,11 @@ If none of the above conditions is <b>true</b>, <b>FltIs32bitProcess</b> returns
 
 </li>
 </ul>
-To determine whether a callback data structure represents an IRP-based I/O operation, use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544654">FLT_IS_IRP_OPERATION</a> macro. 
+To determine whether a callback data structure represents an IRP-based I/O operation, use the <a href="https://docs.microsoft.com/previous-versions/ff544654(v=vs.85)">FLT_IS_IRP_OPERATION</a> macro. 
 
-To determine whether a callback data structure represents a fast I/O operation, use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544645">FLT_IS_FASTIO_OPERATION</a> macro. 
+To determine whether a callback data structure represents a fast I/O operation, use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">FLT_IS_FASTIO_OPERATION</a> macro. 
 
-To determine whether a callback data structure represents a file system filter (FSFilter) callback operation, use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544648">FLT_IS_FS_FILTER_OPERATION</a> macro.
+To determine whether a callback data structure represents a file system filter (FSFilter) callback operation, use the <a href="https://docs.microsoft.com/previous-versions/ff544648(v=vs.85)">FLT_IS_FS_FILTER_OPERATION</a> macro.
 
 
 
@@ -110,19 +110,19 @@ To determine whether a callback data structure represents a file system filter (
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544645">FLT_IS_FASTIO_OPERATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">FLT_IS_FASTIO_OPERATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544648">FLT_IS_FS_FILTER_OPERATION</a>
+<a href="https://docs.microsoft.com/previous-versions/ff544648(v=vs.85)">FLT_IS_FS_FILTER_OPERATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544654">FLT_IS_IRP_OPERATION</a>
+<a href="https://docs.microsoft.com/previous-versions/ff544654(v=vs.85)">FLT_IS_IRP_OPERATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549372">IoIs32bitProcess</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iois32bitprocess">IoIs32bitProcess</a>
  
 
  

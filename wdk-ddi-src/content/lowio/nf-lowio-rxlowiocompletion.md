@@ -78,19 +78,19 @@ If the <i>RxContext</i> parameter indicates this is asynchronous I/O, then <b>Rx
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554751">RX_CONTEXT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/rxcontx/ns-rxcontx-_rx_context">RX_CONTEXT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554529">RxLowIoGetBufferAddress</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/lowio/nf-lowio-rxlowiogetbufferaddress">RxLowIoGetBufferAddress</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554549">RxMapSystemBuffer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/rxprocs/nf-rxprocs-rxmapsystembuffer">RxMapSystemBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554591">RxNewMapUserBuffer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/rxnewmapuserbuffer">RxNewMapUserBuffer</a>
  
 
  

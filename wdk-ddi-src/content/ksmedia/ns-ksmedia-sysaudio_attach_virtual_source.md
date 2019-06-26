@@ -56,7 +56,7 @@ The SYSAUDIO_ATTACH_VIRTUAL_SOURCE structure is used to attach a mixer-line virt
 
 ### -field Property
 
-Specifies the property. This parameter is a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>.
+Specifies the property. This parameter is a structure of type <a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>.
 
 
 ### -field MixerPinId
@@ -73,7 +73,7 @@ Reserved. Set to zero.
 
 
 
-This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537413">KSPROPERTY_SYSAUDIO_ATTACH_VIRTUAL_SOURCE</a> property.
+This structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-sysaudio-attach-virtual-source">KSPROPERTY_SYSAUDIO_ATTACH_VIRTUAL_SOURCE</a> property.
 
 
 
@@ -83,7 +83,7 @@ This structure is used by the <a href="https://msdn.microsoft.com/library/window
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537413">KSPROPERTY_SYSAUDIO_ATTACH_VIRTUAL_SOURCE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-sysaudio-attach-virtual-source">KSPROPERTY_SYSAUDIO_ATTACH_VIRTUAL_SOURCE</a>
  
 
  

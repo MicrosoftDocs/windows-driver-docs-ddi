@@ -102,23 +102,23 @@ When the minidriver has completed using the string it received from this functio
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549308">wiasReadPropBin</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiasreadpropbin">wiasReadPropBin</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549320">wiasReadPropFloat</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiasreadpropfloat">wiasReadPropFloat</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549325">wiasReadPropGuid</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiasreadpropguid">wiasReadPropGuid</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549330">wiasReadPropLong</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiasreadproplong">wiasReadPropLong</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549525">wiasWritePropStr</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiaswritepropstr">wiasWritePropStr</a>
  
 
  

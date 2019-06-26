@@ -46,7 +46,7 @@ req.typenames: IO_ALLOCATION_ACTION, *PIO_ALLOCATION_ACTION
 ## -description
 
 
-The <b>IO_ALLOCATION_ACTION</b> enumerated type is used to specify return values for <a href="https://msdn.microsoft.com/library/windows/hardware/ff540504">AdapterControl</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff542049">ControllerControl</a> routines.
+The <b>IO_ALLOCATION_ACTION</b> enumerated type is used to specify return values for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-driver_control">AdapterControl</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff542049">ControllerControl</a> routines.
 
 
 ## -enum-fields

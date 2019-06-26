@@ -50,7 +50,7 @@ req.typenames:
 The 
   <b>FwpsStreamContinue0</b> function resumes the processing of an inbound data stream that was previously
   deferred.
-<div class="alert"><b>Note</b>  <b>FwpsStreamContinue0</b> is a specific version of <b>FwpsStreamContinue</b>. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
+<div class="alert"><b>Note</b>  <b>FwpsStreamContinue0</b> is a specific version of <b>FwpsStreamContinue</b>. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
 
 ## -parameters
 
@@ -62,15 +62,15 @@ The
 A run-time identifier that specifies the data flow that is being resumed. The run-time identifier
      for a data flow is provided to a callout driver through the FWPS_METADATA_FIELD_FLOW_HANDLE metadata
      value that the filter engine provided to the callout driver's 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> callout function.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_netvista/">classifyFn</a> callout function.
 
 
 ### -param calloutId [in]
 
 The run-time identifier for the callout that deferred the inbound data stream. This identifier was
      returned when the callout driver called either the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff551140">FwpsCalloutRegister0</a> or 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff551143">FwpsCalloutRegister1</a> functions to
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpscalloutregister0">FwpsCalloutRegister0</a> or 
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpscalloutregister1">FwpsCalloutRegister1</a> functions to
      register the callout with the filter engine.
 
 
@@ -80,9 +80,9 @@ The run-time identifier for the filtering layer at which the data stream is bein
      value must be either FWPS_LAYER_STREAM_V4 or FWPS_LAYER_STREAM_V6. The run-time identifier for the layer
      at which the data stream is being processed is provided to a callout in the 
      <b>layerId</b> member of the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff552401">FWPS_INCOMING_VALUES0</a> structure that
+     <a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_incoming_values0_">FWPS_INCOMING_VALUES0</a> structure that
      the filter engine passed to the callout driver's 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> callout function.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_netvista/">classifyFn</a> callout function.
 
 
 ### -param streamFlags [in]
@@ -90,9 +90,9 @@ The run-time identifier for the filtering layer at which the data stream is bein
 Flags that specify characteristics of the inbound data stream that is being resumed. A callout
      driver should specify the same stream flags that were set in the 
      <b>streamFlags</b> member of the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff552419">FWPS_STREAM_DATA0</a> structure that the
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/ns-fwpsk-fwps_stream_data0_">FWPS_STREAM_DATA0</a> structure that the
      filter engine passed to the callout driver's 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> callout function when the
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_netvista/">classifyFn</a> callout function when the
      callout deferred the data stream.
 
 
@@ -143,9 +143,9 @@ An error occurred.
 A callout driver calls the 
     <b>FwpsStreamContinue0</b> function to resume processing an inbound data stream that was previously
     deferred. A data stream is deferred when a callout's 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a> callout function sets the 
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_netvista/">classifyFn</a> callout function sets the 
     <b>streamAction</b> member of the 
-    <a href="https://msdn.microsoft.com/2c0539f0-116e-4344-9584-db7416d258e0">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/ns-fwpsk-fwps_stream_callout_io_packet0_">
     FWPS_STREAM_CALLOUT_IO_PACKET0</a> structure to FWPS_STREAM_ACTION_DEFER. The <b>FwpsStreamContinue0</b> function cannot be called from within a callout's <i>classifyFn</i> context.
 
 
@@ -156,24 +156,24 @@ A callout driver calls the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552401">FWPS_INCOMING_VALUES0</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/fwpstypes/ns-fwpstypes-fwps_incoming_values0_">FWPS_INCOMING_VALUES0</a>
 
 
 
-<a href="https://msdn.microsoft.com/2c0539f0-116e-4344-9584-db7416d258e0">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/ns-fwpsk-fwps_stream_callout_io_packet0_">
    FWPS_STREAM_CALLOUT_IO_PACKET0</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551140">FwpsCalloutRegister0</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpscalloutregister0">FwpsCalloutRegister0</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551143">FwpsCalloutRegister1</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpscalloutregister1">FwpsCalloutRegister1</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_netvista/">classifyFn</a>
  
 
  

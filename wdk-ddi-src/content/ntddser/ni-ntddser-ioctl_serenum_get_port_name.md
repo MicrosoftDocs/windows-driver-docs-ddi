@@ -47,7 +47,7 @@ req.typenames:
 
 
 
-The IOCTL_SERENUM_GET_PORT_NAME request returns the value of the <b>PortName</b> (or <b>Identifier</b>) entry value for the RS-232 port -- see <a href="https://msdn.microsoft.com/57bd090a-20fe-41c6-b730-0479f6ae0982">Registry Settings for a Plug and Play Serial Device</a>.
+The IOCTL_SERENUM_GET_PORT_NAME request returns the value of the <b>PortName</b> (or <b>Identifier</b>) entry value for the RS-232 port -- see <a href="https://docs.microsoft.com/previous-versions/ff546972(v=vs.85)">Registry Settings for a Plug and Play Serial Device</a>.
 
 
 

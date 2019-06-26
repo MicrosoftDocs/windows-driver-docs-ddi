@@ -61,7 +61,7 @@ Caller-supplied instance handle of the calling process. This handle is obtained 
 
 ### -param pwszDeviceName [in]
 
-Caller-supplied pointer to a string representing an internal device name, obtained by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff543790">IStillImage::GetSTILaunchInformation</a>.
+Caller-supplied pointer to a string representing an internal device name, obtained by calling <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff543790(v=vs.85)">IStillImage::GetSTILaunchInformation</a>.
 
 
 ### -param dwVersion
@@ -71,7 +71,7 @@ Caller-supplied STI version number. This value must be STI_VERSION, defined in <
 
 ### -param dwMode
 
-Caller-supplied constant value indicating the <a href="https://msdn.microsoft.com/79af0d8f-dd04-4ff4-a047-f415562a16a5">Transfer Modes</a> in which the device is to be used. The following values are valid.
+Caller-supplied constant value indicating the <a href="https://docs.microsoft.com/windows-hardware/drivers/image/transfer-modes">Transfer Modes</a> in which the device is to be used. The following values are valid.
 
 <table>
 <tr>
@@ -125,7 +125,7 @@ If the operation succeeds, the method returns S_OK. Otherwise, it returns one of
 
 
 
-The <b>IStiDevice::Initialize</b> method initializes the COM object instance that was created by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff543778">IStillImage::CreateDevice</a>.
+The <b>IStiDevice::Initialize</b> method initializes the COM object instance that was created by calling <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff543778(v=vs.85)">IStillImage::CreateDevice</a>.
 
 Because <b>IStiDevice::Initialize</b> is called by <b>IStillImage::CreateDevice</b>, clients of the <b>IStiDevice</b> interface do not typically call this method directly.
 

@@ -56,7 +56,7 @@ The <b>OutputContextStackTrace</b> method prints the call stack specified by an 
 
 ### -param OutputControl [in]
 
-Specifies where to send the output.  For possible values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff541517">DEBUG_OUTCTL_XXX</a>.
+Specifies where to send the output.  For possible values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/debug-outctl-xxx">DEBUG_OUTCTL_XXX</a>.
 
 
 ### -param Frames [in]
@@ -211,7 +211,7 @@ Displays each parameter and its type and value on a new line.
 
 
 
-This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 <table>
 <tr>
@@ -239,7 +239,7 @@ The method was successful.
 
 
 
-The array of stack frames can be obtained using <a href="https://msdn.microsoft.com/library/windows/hardware/ff545748">GetContextStackTrace</a>.
+The array of stack frames can be obtained using <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol4-getcontextstacktrace">GetContextStackTrace</a>.
 
 
 
@@ -249,19 +249,19 @@ The array of stack frames can be obtained using <a href="https://msdn.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545748">GetContextStackTrace</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol4-getcontextstacktrace">GetContextStackTrace</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550526">IDebugControl4</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugcontrol4">IDebugControl4</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553252">OutputStackTrace</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-outputstacktrace">OutputStackTrace</a>
 
 
 
-<a href="https://msdn.microsoft.com/1061015f-cb0c-490b-b256-e0dedb659f22">k, kb, kc, kd, kp, kP, kv (Display Stack Backtrace)</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/k--kb--kc--kd--kp--kp--kv--display-stack-backtrace-">k, kb, kc, kd, kp, kP, kv (Display Stack Backtrace)</a>
  
 
  

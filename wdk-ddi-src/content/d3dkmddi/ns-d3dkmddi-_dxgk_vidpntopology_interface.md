@@ -56,71 +56,71 @@ The DXGK_VIDPNTOPOLOGY_INTERFACE structure contains pointers to functions that b
 
 ### -field pfnGetNumPaths
 
-A pointer to the <a href="https://msdn.microsoft.com/60960774-3f90-4eeb-a408-fa37122f22ea">pfnGetNumPaths</a> function.
+A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_vidpntopology_getnumpaths">pfnGetNumPaths</a> function.
 
 
 ### -field pfnGetNumPathsFromSource
 
-A pointer to the <a href="https://msdn.microsoft.com/6c5ee84d-e106-47fc-88bd-b184e9cdd561">pfnGetNumPathsFromSource</a> function.
+A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_vidpntopology_getnumpathsfromsource">pfnGetNumPathsFromSource</a> function.
 
 
 ### -field pfnEnumPathTargetsFromSource
 
-A pointer to the <a href="https://msdn.microsoft.com/ca925b3c-8141-419d-99a1-43764ec07315">pfnEnumPathTargetsFromSource</a> function.
+A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_vidpntopology_enumpathtargetsfromsource">pfnEnumPathTargetsFromSource</a> function.
 
 
 ### -field pfnGetPathSourceFromTarget
 
-A pointer to the <a href="https://msdn.microsoft.com/c3e7b025-2382-4a81-8d78-9333b62b556a">pfnGetPathSourceFromTarget</a> function.
+A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_vidpntopology_getpathsourcefromtarget">pfnGetPathSourceFromTarget</a> function.
 
 
 ### -field pfnAcquirePathInfo
 
-A pointer to the <a href="https://msdn.microsoft.com/27a03106-a5b5-489c-968a-81b3ea9940cb">pfnAcquirePathInfo</a> function.
+A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_vidpntopology_acquirepathinfo">pfnAcquirePathInfo</a> function.
 
 
 ### -field pfnAcquireFirstPathInfo
 
-A pointer to the <a href="https://msdn.microsoft.com/b5dc35dc-f4fb-4209-9a4d-50dc11f16216">pfnAcquireFirstPathInfo</a> function.
+A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_vidpntopology_acquirefirstpathinfo">pfnAcquireFirstPathInfo</a> function.
 
 
 ### -field pfnAcquireNextPathInfo
 
-A pointer to the <a href="https://msdn.microsoft.com/9f09ac0e-057c-48fb-a246-35e8ed7ddfc2">pfnAcquireNextPathInfo</a> function.
+A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_vidpntopology_acquirenextpathinfo">pfnAcquireNextPathInfo</a> function.
 
 
 ### -field pfnUpdatePathSupportInfo
 
-A pointer to the <a href="https://msdn.microsoft.com/affe9ab2-49ef-4284-b441-49c311158827">pfnUpdatePathSupportInfo</a> function.
+A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_vidpntopology_updatepathsupportinfo">pfnUpdatePathSupportInfo</a> function.
 
 
 ### -field pfnReleasePathInfo
 
-A pointer to the <a href="https://msdn.microsoft.com/fdd34377-6b11-4005-93f1-ab42be7633c2">pfnReleasePathInfo</a> function.
+A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_vidpntopology_releasepathinfo">pfnReleasePathInfo</a> function.
 
 
 ### -field pfnCreateNewPathInfo
 
-A pointer to the <a href="https://msdn.microsoft.com/2d9a4e10-514d-4ea9-9d60-0bbb7cdca29d">pfnCreateNewPathInfo</a> function.
+A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_vidpntopology_createnewpathinfo">pfnCreateNewPathInfo</a> function.
 
 
 ### -field pfnAddPath
 
 
-A pointer to the <a href="https://msdn.microsoft.com/893e0be1-aa29-429a-a3ca-a9f19053fd92">pfnAddPath</a> function.
+A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_vidpntopology_addpath">pfnAddPath</a> function.
      
 
 
 ### -field pfnRemovePath
 
-A pointer to the <a href="https://msdn.microsoft.com/463973e0-c443-417a-86ff-0b78773d40cc">pfnRemovePath</a> function.
+A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_vidpntopology_removepath">pfnRemovePath</a> function.
 
 
 ## -remarks
 
 
 
-The display miniport driver calls the <a href="https://msdn.microsoft.com/2bc43cd0-97a2-4120-8e6f-425664d3d28c">pfnGetTopology</a> function of the VidPn interface to obtain a handle to a VidPN topology object and a pointer to a DXGK_VIDPNTOPOLOGY_INTERFACE structure. The structure contains pointers to functions that the display miniport driver can call to inspect and alter the VidPN topology object.
+The display miniport driver calls the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_vidpn_gettopology">pfnGetTopology</a> function of the VidPn interface to obtain a handle to a VidPN topology object and a pointer to a DXGK_VIDPNTOPOLOGY_INTERFACE structure. The structure contains pointers to functions that the display miniport driver can call to inspect and alter the VidPN topology object.
 
 
 

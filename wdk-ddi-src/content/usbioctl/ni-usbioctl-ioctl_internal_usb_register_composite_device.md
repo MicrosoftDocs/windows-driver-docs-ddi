@@ -66,15 +66,15 @@ This request is sent by a driver that replaces the Microsoft-provided composite 
 
 ### -input-buffer
 
-<b>Parameters.Others.Argument1</b> is a pointer to a caller-allocated and initialized <a href="https://msdn.microsoft.com/library/windows/hardware/hh450898">REGISTER_COMPOSITE_DEVICE</a> structure that contains information about the parent driver. To initialize the structure, call the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406229">USBD_BuildRegisterCompositeDevice</a> routine.
+<b>Parameters.Others.Argument1</b> is a pointer to a caller-allocated and initialized <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbdlib/ns-usbdlib-_register_composite_device">REGISTER_COMPOSITE_DEVICE</a> structure that contains information about the parent driver. To initialize the structure, call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbdlib/nf-usbdlib-usbd_buildregistercompositedevice">USBD_BuildRegisterCompositeDevice</a> routine.
 
 
-       The <b>AssociatedIrp.SystemBuffer</b> member points to a caller-allocated buffer that is large enough to hold an array of function handles (typed USBD_FUNCTION_HANDLE) for functions in the USB composite device. The number of elements in the array is indicated by the <b>FunctionCount</b> member of <a href="https://msdn.microsoft.com/library/windows/hardware/hh450898">REGISTER_COMPOSITE_DEVICE</a>. To obtain the number of functions, inspect the descriptors returned by a get-configuration request.
+       The <b>AssociatedIrp.SystemBuffer</b> member points to a caller-allocated buffer that is large enough to hold an array of function handles (typed USBD_FUNCTION_HANDLE) for functions in the USB composite device. The number of elements in the array is indicated by the <b>FunctionCount</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbdlib/ns-usbdlib-_register_composite_device">REGISTER_COMPOSITE_DEVICE</a>. To obtain the number of functions, inspect the descriptors returned by a get-configuration request.
 
 
 ### -input-buffer-length
 
-The size of a <a href="https://msdn.microsoft.com/library/windows/hardware/hh450898">REGISTER_COMPOSITE_DEVICE</a> structure.
+The size of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbdlib/ns-usbdlib-_register_composite_device">REGISTER_COMPOSITE_DEVICE</a> structure.
 
 
 ### -output-buffer
@@ -116,13 +116,13 @@ In case of an error,  <b>Irp->IoStatus.Status</b> contains an appropriate error 
 
 
 
-The purpose of <b>IOCTL_INTERNAL_USB_REGISTER_COMPOSITE_DEVICE</b> is for the composite driver to send a registration request to the USB driver stack. In the registration request, the composite driver specifies the number of functions supported by the device. Therefore, you must send the <b>IOCTL_INTERNAL_USB_REGISTER_COMPOSITE_DEVICE</b> request  after determining the number of functions.  Typically, that information is retrieved in the composite driver's start-device routine (<a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a>). Note that number of interfaces in a configuration <i>can</i> indicate the number of functions, but not always. Certain multi-function devices expose multiple interfaces related to one function. To obtain the number of functions, you must inspect various descriptors that are related to a particular configuration. Those descriptors can be obtained through a get-descriptor request. 
+The purpose of <b>IOCTL_INTERNAL_USB_REGISTER_COMPOSITE_DEVICE</b> is for the composite driver to send a registration request to the USB driver stack. In the registration request, the composite driver specifies the number of functions supported by the device. Therefore, you must send the <b>IOCTL_INTERNAL_USB_REGISTER_COMPOSITE_DEVICE</b> request  after determining the number of functions.  Typically, that information is retrieved in the composite driver's start-device routine (<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-start-device">IRP_MN_START_DEVICE</a>). Note that number of interfaces in a configuration <i>can</i> indicate the number of functions, but not always. Certain multi-function devices expose multiple interfaces related to one function. To obtain the number of functions, you must inspect various descriptors that are related to a particular configuration. Those descriptors can be obtained through a get-descriptor request. 
 
-In response to the registration request, the USB driver stack provides a list of handles for the functions in the device. For a code example, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh450897">How to Register a Composite Device</a>.
+In response to the registration request, the USB driver stack provides a list of handles for the functions in the device. For a code example, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">How to Register a Composite Device</a>.
 
-After the composite driver is registered, the driver can configure the remote wake-up feature. By using the function handle, the composite driver can send a request (see <a href="https://msdn.microsoft.com/library/windows/hardware/hh450856">IOCTL_INTERNAL_USB_REQUEST_REMOTE_WAKE_NOTIFICATION</a>)  to get remote wake-up notifications from the USB driver stack, when the associated function sends a resume signal. 
+After the composite driver is registered, the driver can configure the remote wake-up feature. By using the function handle, the composite driver can send a request (see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbioctl/ni-usbioctl-ioctl_internal_usb_request_remote_wake_notification">IOCTL_INTERNAL_USB_REQUEST_REMOTE_WAKE_NOTIFICATION</a>)  to get remote wake-up notifications from the USB driver stack, when the associated function sends a resume signal. 
 
-In order to remove the composite driver's association with the USB driver stack and release all resources that are allocated for registration, the driver must send the <a href="https://msdn.microsoft.com/library/windows/hardware/hh450855">IOCTL_INTERNAL_USB_UNREGISTER_COMPOSITE_DEVICE</a> request. 
+In order to remove the composite driver's association with the USB driver stack and release all resources that are allocated for registration, the driver must send the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbioctl/ni-usbioctl-ioctl_internal_usb_unregister_composite_device">IOCTL_INTERNAL_USB_UNREGISTER_COMPOSITE_DEVICE</a> request. 
 
 
 
@@ -132,11 +132,11 @@ In order to remove the composite driver's association with the USB driver stack 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450897">How to Register a Composite Device</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">How to Register a Composite Device</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450855">IOCTL_INTERNAL_USB_UNREGISTER_COMPOSITE_DEVICE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbioctl/ni-usbioctl-ioctl_internal_usb_unregister_composite_device">IOCTL_INTERNAL_USB_UNREGISTER_COMPOSITE_DEVICE</a>
  
 
  

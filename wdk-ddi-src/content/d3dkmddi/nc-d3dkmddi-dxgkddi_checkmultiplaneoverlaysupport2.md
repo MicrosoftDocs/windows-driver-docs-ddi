@@ -61,7 +61,7 @@ Identifies the adapter containing the overlay hardware.
 
 ### -param pCheckMultiPlaneOverlaySupport
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn914469">DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2</a> structure that describes the surfaces and display options to present.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_checkmultiplaneoverlaysupport2">DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2</a> structure that describes the surfaces and display options to present.
 
 
 ## -returns
@@ -87,7 +87,7 @@ The kernel mode driver reports whether the specified configuration is supported.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn914469">DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_checkmultiplaneoverlaysupport2">DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2</a>
  
 
  

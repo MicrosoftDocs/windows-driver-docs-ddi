@@ -265,9 +265,9 @@ The NTDDI_<i>XXX</i> constants are defined in the Sdkddkver.h header file. The p
 
 The <b>RtlIsServicePackVersionInstalled</b> routine compares the version that the <i>Version</i> parameter specifies to the version of the currently running Windows operating system.
 
-Use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561954">RtlIsNtDdiVersionAvailable</a> routine to determine if a major version of Windows is running.
+Use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlisntddiversionavailable">RtlIsNtDdiVersionAvailable</a> routine to determine if a major version of Windows is running.
 
-For more information about <b>RtlIsServicePackVersionInstalled</b> and <b>RtlIsNtDdiVersionAvailable</b>, see <a href="https://msdn.microsoft.com/7d02148d-502d-4b49-9c56-9fff498dd2af">Header File Changes in the Windows Driver Kit</a>.
+For more information about <b>RtlIsServicePackVersionInstalled</b> and <b>RtlIsNtDdiVersionAvailable</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/gettingstarted/header-files-in-the-windows-driver-kit">Header File Changes in the Windows Driver Kit</a>.
 
 The Windows kernel implements <b>RtlIsServicePackVersionInstalled</b> only in Windows Vista and later versions of Windows. However, a compatibility library, Rtlver.lib, implements a version of <b>RtlIsServicePackVersionInstalled</b> that runs in Windows 2000 and later versions of Windows. For kernel-mode drivers that include the Wdm.h header file, calls to <b>RtlIsServicePackVersionInstalled</b> go to the version of this routine that is implemented in Rtlver.lib.
 
@@ -279,15 +279,15 @@ The Windows kernel implements <b>RtlIsServicePackVersionInstalled</b> only in Wi
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559941">PsGetVersion</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-psgetversion">PsGetVersion</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561954">RtlIsNtDdiVersionAvailable</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlisntddiversionavailable">RtlIsNtDdiVersionAvailable</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563026">RtlVerifyVersionInfo</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlverifyversioninfo">RtlVerifyVersionInfo</a>
  
 
  

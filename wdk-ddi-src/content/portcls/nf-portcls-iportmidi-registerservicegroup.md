@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <code>RegisterServiceGroup</code> method registers the service group to be used for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536893">IPortMidi::Notify</a> method.
+The <code>RegisterServiceGroup</code> method registers the service group to be used for the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iportmidi-notify">IPortMidi::Notify</a> method.
 
 
 ## -parameters
@@ -56,7 +56,7 @@ The <code>RegisterServiceGroup</code> method registers the service group to be u
 
 ### -param ServiceGroup [in]
 
-Pointer to the miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff536994">IServiceGroup</a> object that is being registered.
+Pointer to the miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iservicegroup">IServiceGroup</a> object that is being registered.
 
 
 ## -returns
@@ -72,7 +72,7 @@ Pointer to the miniport driver's <a href="https://msdn.microsoft.com/library/win
 
 
 
-The <i>ServiceGroup</i> parameter follows the <a href="https://msdn.microsoft.com/e6b19110-37e2-4d23-a528-6393c12ab650">reference-counting conventions for COM objects</a>.
+The <i>ServiceGroup</i> parameter follows the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/reference-counting-conventions-for-com-objects">reference-counting conventions for COM objects</a>.
 
 
 
@@ -82,15 +82,15 @@ The <i>ServiceGroup</i> parameter follows the <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536891">IPortMidi</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iportmidi">IPortMidi</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536893">IPortMidi::Notify</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iportmidi-notify">IPortMidi::Notify</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536994">IServiceGroup</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iservicegroup">IServiceGroup</a>
  
 
  

@@ -71,7 +71,7 @@ SD card drivers should not issue CMD55 (APP_CMD) commands through the SD bus int
 
 
 
-<a href="https://msdn.microsoft.com/7c49c394-d0b3-4594-a623-0a13825bdcec">SDCMD_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sddef/ns-sddef-_sdcmd_descriptor">SDCMD_DESCRIPTOR</a>
  
 
  

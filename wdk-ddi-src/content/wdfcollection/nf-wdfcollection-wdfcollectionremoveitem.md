@@ -94,7 +94,7 @@ For more information about object collections, see <a href="https://docs.microso
 
 #### Examples
 
-For a code example that uses <b>WdfCollectionRemoveItem</b>, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff545763">WdfCollectionGetFirstItem</a>.
+For a code example that uses <b>WdfCollectionRemoveItem</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfcollection/nf-wdfcollection-wdfcollectiongetfirstitem">WdfCollectionGetFirstItem</a>.
 
 <div class="code"></div>
 
@@ -105,7 +105,7 @@ For a code example that uses <b>WdfCollectionRemoveItem</b>, see <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545784">WdfCollectionRemove</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfcollection/nf-wdfcollection-wdfcollectionremove">WdfCollectionRemove</a>
  
 
  

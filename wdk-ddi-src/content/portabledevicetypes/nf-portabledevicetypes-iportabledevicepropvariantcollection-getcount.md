@@ -116,7 +116,7 @@ None.
 
 
 
-<a href="https://msdn.microsoft.com/e097ee45-d8df-406d-80ca-93f128c19416">IPortableDevicePropVariantCollection Interface</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portabledevicetypes/nn-portabledevicetypes-iportabledevicepropvariantcollection">IPortableDevicePropVariantCollection Interface</a>
  
 
  

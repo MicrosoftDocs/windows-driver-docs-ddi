@@ -94,11 +94,11 @@ The driver can use this semantic value for its own internal purposes.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj542437">UMDEtwLogMapAllocation</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/umdprovider/nf-umdprovider-umdetwlogmapallocation">UMDEtwLogMapAllocation</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj542438">UMDEtwLogUnmapAllocation</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/umdprovider/nf-umdprovider-umdetwlogunmapallocation">UMDEtwLogUnmapAllocation</a>
  
 
  

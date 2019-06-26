@@ -85,7 +85,7 @@ To prevent deadlock, the caller should release any currently held synchronizatio
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539191">CcReadAhead</a>
+<a href="https://docs.microsoft.com/previous-versions/ff539191(v=vs.85)">CcReadAhead</a>
 
 
 

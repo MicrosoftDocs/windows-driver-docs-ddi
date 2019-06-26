@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <b>FsRtlSupportsPerFileContexts</b> macro checks if per file context information is supported by the file system that is associated with a specified <a href="https://msdn.microsoft.com/library/windows/hardware/ff545834">FILE_OBJECT</a>.
+The <b>FsRtlSupportsPerFileContexts</b> macro checks if per file context information is supported by the file system that is associated with a specified <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_file_object">FILE_OBJECT</a>.
 
 
 ## -parameters
@@ -77,11 +77,11 @@ None
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545834">FILE_OBJECT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_file_object">FILE_OBJECT</a>
 
 
 
-<a href="https://msdn.microsoft.com/6be3ff10-47e4-47f5-8f15-88a80a16f451">Tracking Per-File Context in a Legacy File System Filter Driver</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/tracking-per-file-context-in-a-legacy-file-system-filter-driver">Tracking Per-File Context in a Legacy File System Filter Driver</a>
  
 
  

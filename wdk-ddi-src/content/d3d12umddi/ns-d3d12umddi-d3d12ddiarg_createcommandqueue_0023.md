@@ -66,5 +66,5 @@ A mask for a node.
 
 ### -field QueueCreationFlags
 
-Command queue creation flag, as a <a href="https://msdn.microsoft.com/6BA4B1B4-07D6-4498-BDA4-C559FB3E8843">D3D12DDI_COMMAND_QUEUE_CREATION_FLAGS</a> value. 
+Command queue creation flag, as a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d12umddi/ne-d3d12umddi-d3d12ddi_command_queue_creation_flags">D3D12DDI_COMMAND_QUEUE_CREATION_FLAGS</a> value. 
 

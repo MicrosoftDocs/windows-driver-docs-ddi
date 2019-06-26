@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <b>Copy</b> method sets the typed data represented by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544162">ExtRemoteTyped</a> object by copying the information from another object.
+The <b>Copy</b> method sets the typed data represented by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nl-engextcpp-extremotetyped">ExtRemoteTyped</a> object by copying the information from another object.
 
 
 ## -parameters
@@ -72,7 +72,7 @@ This method does not return a value.
 
 
 
-The typed data can also be copied using the <a href="https://msdn.microsoft.com/7cc91411-3332-4a33-8873-832f71fd3281">ExtRemoteTyped::Copy ExtRemoteTyped</a> method.
+The typed data can also be copied using the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-extremotetyped-copy(constextremotetyped_)">ExtRemoteTyped::Copy ExtRemoteTyped</a> method.
 
 
 
@@ -82,15 +82,15 @@ The typed data can also be copied using the <a href="https://msdn.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541706">DEBUG_TYPED_DATA</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdbgexts/ns-wdbgexts-_debug_typed_data">DEBUG_TYPED_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544162">ExtRemoteTyped</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nl-engextcpp-extremotetyped">ExtRemoteTyped</a>
 
 
 
-<a href="https://msdn.microsoft.com/f7a63a6a-24fa-4c93-ac2e-c44f7984a2c8">ExtRemoteTyped::operator=</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/previsioning-framework/ff544357(v=vs.85)">ExtRemoteTyped::operator=</a>
  
 
  

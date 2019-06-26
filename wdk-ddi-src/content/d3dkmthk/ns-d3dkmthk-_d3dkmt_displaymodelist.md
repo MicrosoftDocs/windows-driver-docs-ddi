@@ -66,5 +66,5 @@ Describes a list of display modes.
 
 ### -field pModeList
 
-[out] An array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff547942">D3DKMT_DISPLAYMODE</a> structures that represent the list of display modes.
+[out] An array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_displaymode">D3DKMT_DISPLAYMODE</a> structures that represent the list of display modes.
 

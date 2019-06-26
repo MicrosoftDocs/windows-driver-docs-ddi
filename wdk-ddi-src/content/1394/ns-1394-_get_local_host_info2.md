@@ -125,7 +125,7 @@ Port drivers that return the HOST_INFO_PACKET_BASED flag support the IsochAlloca
 
 Some host controllers automatically strip the packet header off an isochronous packet. If a host controller does not automatically strip the header, the port driver returns the HOST_INFO_SUPPORTS_ISO_HDR flag. Some host controllers allow a driver to configure the host controller to strip off a given number of quadlets; for such controllers the port driver returns the HOST_INFO_SUPPORTS_ISOCH_STRIPPING flag. The driver should check this flag before calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff537649">REQUEST_ISOCH_ALLOCATE_RESOURCES</a> with the RESOURCE_STRIP_ADDITIONAL_QUADLETS flag.
 
-If a host controller supports synchronizing <a href="https://msdn.microsoft.com/library/windows/hardware/ff537655">REQUEST_ISOCH_LISTEN</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff537660">REQUEST_ISOCH_TALK</a> requests to the isochronous cycle time, the port driver returns the HOST_INFO_SUPPORTS_START_ON_CYCLE. Drivers should check this flag before attempting to issue an REQUEST_ISOCH_ALLOCATE_RESOURCES request using the RESOURCE_SYNCH_ON_TIME flag, or before attaching a buffer whose <a href="https://msdn.microsoft.com/library/windows/hardware/ff537401">ISOCH_DESCRIPTOR</a> has the DESCRIPTOR_SYNCH_ON_TIME flag set.
+If a host controller supports synchronizing <a href="https://msdn.microsoft.com/library/windows/hardware/ff537655">REQUEST_ISOCH_LISTEN</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff537660">REQUEST_ISOCH_TALK</a> requests to the isochronous cycle time, the port driver returns the HOST_INFO_SUPPORTS_START_ON_CYCLE. Drivers should check this flag before attempting to issue an REQUEST_ISOCH_ALLOCATE_RESOURCES request using the RESOURCE_SYNCH_ON_TIME flag, or before attaching a buffer whose <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/1394/ns-1394-_isoch_descriptor">ISOCH_DESCRIPTOR</a> has the DESCRIPTOR_SYNCH_ON_TIME flag set.
 
 
 
@@ -135,11 +135,11 @@ If a host controller supports synchronizing <a href="https://msdn.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537157">GET_LOCAL_HOST_INFO7</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/1394/ns-1394-_get_local_host_info7_w2k">GET_LOCAL_HOST_INFO7</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537401">ISOCH_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/1394/ns-1394-_isoch_descriptor">ISOCH_DESCRIPTOR</a>
 
 
 

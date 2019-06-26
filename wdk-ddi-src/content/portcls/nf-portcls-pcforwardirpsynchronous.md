@@ -47,7 +47,7 @@ req.typenames:
 ## -description
 
 
-The <b>PcForwardIrpSynchronous</b> function is used by IRP handlers to forward Plug and Play IRPs to the <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">physical device object (PDO)</a>.
+The <b>PcForwardIrpSynchronous</b> function is used by IRP handlers to forward Plug and Play IRPs to the <a href="https://docs.microsoft.com/windows-hardware/drivers/">physical device object (PDO)</a>.
 
 
 ## -parameters
@@ -57,12 +57,12 @@ The <b>PcForwardIrpSynchronous</b> function is used by IRP handlers to forward P
 
 ### -param DeviceObject [in]
 
-Pointer to the audio device's device object. This parameter must point to a system structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>.
+Pointer to the audio device's device object. This parameter must point to a system structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>.
 
 
 ### -param Irp [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550694">IRP</a> that is to be forwarded
+Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_irp">IRP</a> that is to be forwarded
 
 
 ## -returns
@@ -80,7 +80,7 @@ Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff55
 
 <b>PcForwardIrpSynchronous</b> causes the next PDO to receive the IRP and block until the IRP has been completed by the physical device driver. At that point, <b>PcForwardIrpSynchronous</b> unblocks and returns to the caller. The caller (an IRP handler) should eventually return--possibly with a status of STATUS_PENDING. In general, any IRP handler that calls this function must specify the action IRP_ACTION_FINISH upon returning. Any other action would result in the IRP being forwarded to the physical device a second time.
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff537686">PcCompleteIrp</a> function is used when an IRP handler returns STATUS_PENDING and the IRP must be completed later.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-pccompleteirp">PcCompleteIrp</a> function is used when an IRP handler returns STATUS_PENDING and the IRP must be completed later.
 
 
 
@@ -90,15 +90,15 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff537686">PcCom
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543147">DEVICE_OBJECT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550694">IRP</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_irp">IRP</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537686">PcCompleteIrp</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-pccompleteirp">PcCompleteIrp</a>
  
 
  

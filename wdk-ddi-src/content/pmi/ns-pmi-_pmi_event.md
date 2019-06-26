@@ -61,7 +61,7 @@ A value that specifies the version of this structure. For Windows 7, Windows Ser
 
 ### -field EventType
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/ff543880">PMI_EVENT_TYPE</a> enumeration value that specifies the PMI event type.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pmi/ne-pmi-pmi_event_type">PMI_EVENT_TYPE</a> enumeration value that specifies the PMI event type.
 
 
 ## -remarks
@@ -88,7 +88,7 @@ The power supply that is monitored by the power meter has exceeded or fallen bel
 
 </li>
 </ul>
-A user-mode service or application registers for notification of these events through an <a href="https://msdn.microsoft.com/library/windows/hardware/ff543847">IOCTL_PMI_REGISTER_EVENT_NOTIFY</a> I/O control (IOCTL) query request. 
+A user-mode service or application registers for notification of these events through an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pmi/ni-pmi-ioctl_pmi_register_event_notify">IOCTL_PMI_REGISTER_EVENT_NOTIFY</a> I/O control (IOCTL) query request. 
 
 The PMI_EVENT structure does not contain the current PMI data for the event. Depending on the value of the <b>EventType</b> member, the caller can retrieve the current PMI data through a PMI IOCTL query request. The following table describes the PMI IOCTL to use to query the changed data from a power meter for a query request.
 
@@ -96,7 +96,7 @@ The PMI_EVENT structure does not contain the current PMI data for the event. Dep
 <tr>
 <th>EventType value</th>
 <th>PMI IOCTL </th>
-<th>I/O request packet (<a href="https://msdn.microsoft.com/library/windows/hardware/ff550694">IRP</a>)</th>
+<th>I/O request packet (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_irp">IRP</a>)</th>
 </tr>
 <tr>
 <td>
@@ -105,12 +105,12 @@ The PMI_EVENT structure does not contain the current PMI data for the event. Dep
 </td>
 <td>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543837">IOCTL_PMI_GET_CAPABILITIES</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pmi/ni-pmi-ioctl_pmi_get_capabilities">IOCTL_PMI_GET_CAPABILITIES</a>
 
 
 </td>
 <td>
-The <b>AssociatedIrp.SystemBuffer</b> member is set to the address of an initiator-allocated buffer that contains any <a href="https://msdn.microsoft.com/library/windows/hardware/ff543864">PMI_CAPABILITIES_TYPE</a> enumeration value.
+The <b>AssociatedIrp.SystemBuffer</b> member is set to the address of an initiator-allocated buffer that contains any <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pmi/ne-pmi-pmi_capabilities_type">PMI_CAPABILITIES_TYPE</a> enumeration value.
 
 </td>
 </tr>
@@ -121,12 +121,12 @@ The <b>AssociatedIrp.SystemBuffer</b> member is set to the address of an initiat
 </td>
 <td>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543842">IOCTL_PMI_GET_CONFIGURATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pmi/ni-pmi-ioctl_pmi_get_configuration">IOCTL_PMI_GET_CONFIGURATION</a>
 
 
 </td>
 <td>
-The <b>AssociatedIrp.SystemBuffer</b> member is set to the address of an initiator-allocated buffer that contains any <a href="https://msdn.microsoft.com/library/windows/hardware/ff543869">PMI_CONFIGURATION_TYPE</a> enumeration value.
+The <b>AssociatedIrp.SystemBuffer</b> member is set to the address of an initiator-allocated buffer that contains any <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pmi/ne-pmi-pmi_configuration_type">PMI_CONFIGURATION_TYPE</a> enumeration value.
 
 </td>
 </tr>
@@ -137,12 +137,12 @@ The <b>AssociatedIrp.SystemBuffer</b> member is set to the address of an initiat
 </td>
 <td>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543842">IOCTL_PMI_GET_CONFIGURATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pmi/ni-pmi-ioctl_pmi_get_configuration">IOCTL_PMI_GET_CONFIGURATION</a>
 
 
 </td>
 <td>
-The <b>AssociatedIrp.SystemBuffer</b> member is set to the address of an initiator-allocated buffer that contains the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543869">PMI_CONFIGURATION_TYPE</a> enumeration value or <b>PmiThresholdConfiguration</b>.
+The <b>AssociatedIrp.SystemBuffer</b> member is set to the address of an initiator-allocated buffer that contains the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pmi/ne-pmi-pmi_configuration_type">PMI_CONFIGURATION_TYPE</a> enumeration value or <b>PmiThresholdConfiguration</b>.
 
 </td>
 </tr>
@@ -153,12 +153,12 @@ The <b>AssociatedIrp.SystemBuffer</b> member is set to the address of an initiat
 </td>
 <td>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543842">IOCTL_PMI_GET_CONFIGURATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pmi/ni-pmi-ioctl_pmi_get_configuration">IOCTL_PMI_GET_CONFIGURATION</a>
 
 
 </td>
 <td>
-The <b>AssociatedIrp.SystemBuffer</b> member is set to the address of an initiator-allocated buffer that contains the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543869">PMI_CONFIGURATION_TYPE</a> enumeration value or <b>PmiBudgetConfiguration</b>.
+The <b>AssociatedIrp.SystemBuffer</b> member is set to the address of an initiator-allocated buffer that contains the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pmi/ne-pmi-pmi_configuration_type">PMI_CONFIGURATION_TYPE</a> enumeration value or <b>PmiBudgetConfiguration</b>.
 
 </td>
 </tr>
@@ -169,12 +169,12 @@ The <b>AssociatedIrp.SystemBuffer</b> member is set to the address of an initiat
 </td>
 <td>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543842">IOCTL_PMI_GET_CONFIGURATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pmi/ni-pmi-ioctl_pmi_get_configuration">IOCTL_PMI_GET_CONFIGURATION</a>
 
 
 </td>
 <td>
-The <b>AssociatedIrp.SystemBuffer</b> member is set to the address of an initiator-allocated buffer that contains the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543869">PMI_CONFIGURATION_TYPE</a> enumeration value or <b>PmiMeasurementConfiguration</b>.
+The <b>AssociatedIrp.SystemBuffer</b> member is set to the address of an initiator-allocated buffer that contains the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pmi/ne-pmi-pmi_configuration_type">PMI_CONFIGURATION_TYPE</a> enumeration value or <b>PmiMeasurementConfiguration</b>.
 
 </td>
 </tr>
@@ -189,31 +189,31 @@ The <b>AssociatedIrp.SystemBuffer</b> member is set to the address of an initiat
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543837">IOCTL_PMI_GET_CAPABILITIES</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pmi/ni-pmi-ioctl_pmi_get_capabilities">IOCTL_PMI_GET_CAPABILITIES</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543842">IOCTL_PMI_GET_CONFIGURATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pmi/ni-pmi-ioctl_pmi_get_configuration">IOCTL_PMI_GET_CONFIGURATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543847">IOCTL_PMI_REGISTER_EVENT_NOTIFY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pmi/ni-pmi-ioctl_pmi_register_event_notify">IOCTL_PMI_REGISTER_EVENT_NOTIFY</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550694">IRP</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_irp">IRP</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543864">PMI_CAPABILITIES_TYPE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pmi/ne-pmi-pmi_capabilities_type">PMI_CAPABILITIES_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543869">PMI_CONFIGURATION_TYPE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pmi/ne-pmi-pmi_configuration_type">PMI_CONFIGURATION_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543880">PMI_EVENT_TYPE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pmi/ne-pmi-pmi_event_type">PMI_EVENT_TYPE</a>
  
 
  

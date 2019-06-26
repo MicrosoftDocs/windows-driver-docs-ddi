@@ -68,7 +68,7 @@ A handle to a framework request object.
 
 
 
-<b>WdfRequestGetFileObject</b> returns a handle to the framework file object, if the framework has created a file object for the specified request. Otherwise, this method returns <b>NULL</b>. (A driver typically tests for a <b>NULL</b> return value only if it sets the <a href="https://msdn.microsoft.com/e0887061-eafe-4dba-bb7a-58bf949e2d08">WdfFileObjectCanBeOptional</a> bit flag in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551319">WDF_FILEOBJECT_CONFIG</a> structure.)
+<b>WdfRequestGetFileObject</b> returns a handle to the framework file object, if the framework has created a file object for the specified request. Otherwise, this method returns <b>NULL</b>. (A driver typically tests for a <b>NULL</b> return value only if it sets the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/ne-wdfdevice-_wdf_fileobject_class">WdfFileObjectCanBeOptional</a> bit flag in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/ns-wdfdevice-_wdf_fileobject_config">WDF_FILEOBJECT_CONFIG</a> structure.)
 
 A bug check occurs if the driver supplies an invalid object handle.
 
@@ -85,15 +85,15 @@ The <b>WdfRequestGetFileObject</b> method returns <b>NULL</b> if either:
 
 <ul>
 <li>
-Your driver has not called <a href="https://msdn.microsoft.com/library/windows/hardware/ff546107">WdfDeviceInitSetFileObjectConfig</a> and specified a <a href="https://msdn.microsoft.com/library/windows/hardware/ff551315">WDF_FILEOBJECT_CLASS</a> value that causes the framework to create file objects.
+Your driver has not called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nf-wdfdevice-wdfdeviceinitsetfileobjectconfig">WdfDeviceInitSetFileObjectConfig</a> and specified a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/ne-wdfdevice-_wdf_fileobject_class">WDF_FILEOBJECT_CLASS</a> value that causes the framework to create file objects.
 
 </li>
 <li>
-Another driver sent a read, write, or I/O control request to your driver without first sending a request type of <a href="https://msdn.microsoft.com/91c036a0-7fce-4c7d-a217-eb1c487a15d0">WdfRequestTypeCreate</a>.
+Another driver sent a read, write, or I/O control request to your driver without first sending a request type of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfrequest/ne-wdfrequest-_wdf_request_type">WdfRequestTypeCreate</a>.
 
 </li>
 </ul>
-For more information about <b>WdfRequestGetFileObject</b> and framework file objects, see <a href="https://msdn.microsoft.com/93ec5dd7-8ef0-4cea-9253-ea5d7869d4b8">Framework File Objects</a>.
+For more information about <b>WdfRequestGetFileObject</b> and framework file objects, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/framework-file-objects">Framework File Objects</a>.
 
 
 #### Examples
@@ -130,11 +130,11 @@ MyEvtIoWrite(
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551315">WDF_FILEOBJECT_CLASS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/ne-wdfdevice-_wdf_fileobject_class">WDF_FILEOBJECT_CLASS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546107">WdfDeviceInitSetFileObjectConfig</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nf-wdfdevice-wdfdeviceinitsetfileobjectconfig">WdfDeviceInitSetFileObjectConfig</a>
  
 
  

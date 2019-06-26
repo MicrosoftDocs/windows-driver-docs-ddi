@@ -89,7 +89,7 @@ For more information about how ATL implements this functionality, see the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406331">IWDTFActions2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">IWDTFActions2</a>
  
 
  

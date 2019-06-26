@@ -91,7 +91,7 @@ The D3D10_DDI_VIEWPORT structure describes a viewport.
 
 
 
-<a href="https://msdn.microsoft.com/f5a55dd3-a8c4-4741-b99e-105021d79603">SetViewports</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_setviewports">SetViewports</a>
  
 
  

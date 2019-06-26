@@ -56,7 +56,7 @@ The KSNODEPROPERTY_AUDIO_CHANNEL structure specifies a property of a channel in 
 
 ### -field NodeProperty
 
-Specifies both the target node and the property to get or set. This member is a structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff537143">KSNODEPROPERTY</a>.
+Specifies both the target node and the property to get or set. This member is a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-ksnodeproperty">KSNODEPROPERTY</a>.
 
 
 ### -field Channel
@@ -76,11 +76,11 @@ Reserved for internal use by operating system. Do not use.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537143">KSNODEPROPERTY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-ksnodeproperty">KSNODEPROPERTY</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh831855">KSPROPERTY_AUDIOENGINE_VOLUMELEVEL</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-audioengine-volumelevel">KSPROPERTY_AUDIOENGINE_VOLUMELEVEL</a>
  
 
  

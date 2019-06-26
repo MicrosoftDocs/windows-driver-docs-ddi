@@ -56,7 +56,7 @@ The <code>IPrintCoreHelperUni::CreateGDLSnapshot</code> method creates a GDL sna
 
 ### -param pDevmode [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff552837">DEVMODEW</a> structure. If this pointer is provided, <code>IPrintCoreHelperUni::CreateGDLSnapshot</code>  should use the DEVMODEW structure that is pointed to by <i>pDevmode</i> instead of the default or current DEVMODEW structure. If this method is called from the plug-in provider, there is no default DEVMODEW structure and the <i>pDevmode</i> parameter is required.
+A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodew">DEVMODEW</a> structure. If this pointer is provided, <code>IPrintCoreHelperUni::CreateGDLSnapshot</code>  should use the DEVMODEW structure that is pointed to by <i>pDevmode</i> instead of the default or current DEVMODEW structure. If this method is called from the plug-in provider, there is no default DEVMODEW structure and the <i>pDevmode</i> parameter is required.
 
 
 ### -param cbSize [in]
@@ -88,11 +88,11 @@ A pointer to a stream that supplies the XML version of the GDL snapshot.
 
 
 
-<a href="https://msdn.microsoft.com/e581d190-8185-45c1-80c7-ff8eb305360e">IPrintCoreHelperUni</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nn-prcomoem-iprintcorehelperuni">IPrintCoreHelperUni</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552917">IPrintCoreHelperUni::CreateDefaultGDLSnapshot</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintcorehelperuni-createdefaultgdlsnapshot">IPrintCoreHelperUni::CreateDefaultGDLSnapshot</a>
  
 
  

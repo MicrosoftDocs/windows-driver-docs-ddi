@@ -61,7 +61,7 @@ The video compressor supports quality settings.
 
 ### -field KS_CompressionCaps_CanCrunch
 
-The video compressor can compress the video to a specified data rate. If a minidriver supports this capability, the <b>dwBitRate</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567700">KS_VIDEOINFOHEADER</a> structure specifies the default data rate.
+The video compressor can compress the video to a specified data rate. If a minidriver supports this capability, the <b>dwBitRate</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-tagks_videoinfoheader">KS_VIDEOINFOHEADER</a> structure specifies the default data rate.
 
 
 ### -field KS_CompressionCaps_CanKeyFrame
@@ -84,11 +84,11 @@ The video compressor supports a user-specified window size (that is, the number 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565979">KSPROPERTY_VIDEOCOMPRESSION_GETINFO_S</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-ksproperty_videocompression_getinfo_s">KSPROPERTY_VIDEOCOMPRESSION_GETINFO_S</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567700">KS_VIDEOINFOHEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-tagks_videoinfoheader">KS_VIDEOINFOHEADER</a>
  
 
  

@@ -222,7 +222,7 @@ The HBA supports SLP discovery.
 
 ### -field GenerationalGuid
 
-The generational GUID. This GUID is the GUID value that the <a href="https://msdn.microsoft.com/library/windows/hardware/ff565678">SetGenerationalGuid</a> method in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563091">MSiSCSI_Operations WMI Class</a> last set.
+The generational GUID. This GUID is the GUID value that the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/setgenerationalguid">SetGenerationalGuid</a> method in the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msiscsi-operations-wmi-class">MSiSCSI_Operations WMI Class</a> last set.
 
 
 ### -field MaxCDBLength
@@ -289,15 +289,15 @@ You must implement this class.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563017">MSiSCSI_HBAInformation WMI Class</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msiscsi-hbainformation-wmi-class">MSiSCSI_HBAInformation WMI Class</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563091">MSiSCSI_Operations WMI Class</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msiscsi-operations-wmi-class">MSiSCSI_Operations WMI Class</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565678">SetGenerationalGuid</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/setgenerationalguid">SetGenerationalGuid</a>
  
 
  

@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <b>IoGetBaseFileSystemDeviceObject</b> routine is reserved for system use. See <a href="https://msdn.microsoft.com/library/windows/hardware/ff548365">IoGetDeviceAttachmentBaseRef</a>. 
+The <b>IoGetBaseFileSystemDeviceObject</b> routine is reserved for system use. See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-iogetdeviceattachmentbaseref">IoGetDeviceAttachmentBaseRef</a>. 
 
 
 ## -parameters

@@ -56,7 +56,7 @@ The <b>IWDFUsbTargetPipe</b> interface exposes a USB pipe (endpoint), which is a
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFUsbTargetPipe</b> interface inherits from <a href="https://msdn.microsoft.com/library/windows/hardware/ff559170">IWDFIoTarget</a>. <b>IWDFUsbTargetPipe</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFUsbTargetPipe</b> interface inherits from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nn-wudfddi-iwdfiotarget">IWDFIoTarget</a>. <b>IWDFUsbTargetPipe</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -71,82 +71,82 @@ The <b>IWDFUsbTargetPipe</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560397">IWDFUsbTargetPipe::Abort</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nf-wudfusb-iwdfusbtargetpipe-abort">IWDFUsbTargetPipe::Abort</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/f756988d-8b21-4c2e-8c85-68f4eaa2c4f9">Abort</a> method aborts all pending transfers on a USB pipe.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nf-wudfusb-iwdfusbtargetpipe-abort">Abort</a> method aborts all pending transfers on a USB pipe.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560400">IWDFUsbTargetPipe::Flush</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nf-wudfusb-iwdfusbtargetpipe-flush">IWDFUsbTargetPipe::Flush</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/windows/hardware/hh463886">Flush</a> method discards any data that WinUsb saved when the device returned more data than the client requested.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfworkitem-flush">Flush</a> method discards any data that WinUsb saved when the device returned more data than the client requested.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560403">IWDFUsbTargetPipe::GetInformation</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nf-wudfusb-iwdfusbtargetpipe-getinformation">IWDFUsbTargetPipe::GetInformation</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/b1462a64-debf-441f-8964-4644074e5e53">GetInformation</a> method retrieves information about a USB pipe (endpoint).
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nf-wudfusb-iwdfusbtargetpipe-getinformation">GetInformation</a> method retrieves information about a USB pipe (endpoint).
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560406">IWDFUsbTargetPipe::GetType</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nf-wudfusb-iwdfusbtargetpipe-gettype">IWDFUsbTargetPipe::GetType</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/windows/hardware/jj991813">GetType</a> method retrieves the type of a USB pipe.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/extsfns/nf-extsfns-idebugfaentrytags-gettype">GetType</a> method retrieves the type of a USB pipe.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560410">IWDFUsbTargetPipe::IsInEndPoint</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nf-wudfusb-iwdfusbtargetpipe-isinendpoint">IWDFUsbTargetPipe::IsInEndPoint</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/c1cba1fa-3952-4f2f-829f-2f5983349df8">IsInEndPoint</a> method determines whether a USB pipe (endpoint) is an IN pipe.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nf-wudfusb-iwdfusbtargetpipe-isinendpoint">IsInEndPoint</a> method determines whether a USB pipe (endpoint) is an IN pipe.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560414">IWDFUsbTargetPipe::IsOutEndPoint</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nf-wudfusb-iwdfusbtargetpipe-isoutendpoint">IWDFUsbTargetPipe::IsOutEndPoint</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/cb6c5b25-ea21-44cb-8b67-c5266c8bc1e4">IsOutEndPoint</a> method determines whether a USB pipe (endpoint) is an OUT pipe.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nf-wudfusb-iwdfusbtargetpipe-isoutendpoint">IsOutEndPoint</a> method determines whether a USB pipe (endpoint) is an OUT pipe.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560416">IWDFUsbTargetPipe::Reset</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nf-wudfusb-iwdfusbtargetpipe-reset">IWDFUsbTargetPipe::Reset</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/library/windows/hardware/dn926942">Reset</a> method resets the data toggle and clears the stall condition on a USB pipe.
+The <a href="https://docs.microsoft.com/windows-hardware/test/wpt/reset">Reset</a> method resets the data toggle and clears the stall condition on a USB pipe.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560418">IWDFUsbTargetPipe::RetrievePipePolicy</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nf-wudfusb-iwdfusbtargetpipe-retrievepipepolicy">IWDFUsbTargetPipe::RetrievePipePolicy</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/578f7633-307e-4cda-b8fe-ae73a095976f">RetrievePipePolicy</a> method retrieves a WinUsb pipe policy.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nf-wudfusb-iwdfusbtargetpipe-retrievepipepolicy">RetrievePipePolicy</a> method retrieves a WinUsb pipe policy.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560421">IWDFUsbTargetPipe::SetPipePolicy</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nf-wudfusb-iwdfusbtargetpipe-setpipepolicy">IWDFUsbTargetPipe::SetPipePolicy</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/3c8f5c4a-a1a3-41a9-ae55-f83048aab0ec">SetPipePolicy</a> method sets the WinUsb pipe policy.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nf-wudfusb-iwdfusbtargetpipe-setpipepolicy">SetPipePolicy</a> method sets the WinUsb pipe policy.
 
 </td>
 </tr>

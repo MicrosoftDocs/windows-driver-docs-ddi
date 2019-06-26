@@ -56,7 +56,7 @@ The DXGK_TARGETMODE_DETAIL_TIMING structure describes a video present target's a
 
 ### -field VideoStandard
 
-[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff546632">D3DKMDT_VIDEO_SIGNAL_STANDARD</a>-typed value that indicates the supported video signal standard.
+[in] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmdt/ne-d3dkmdt-_d3dkmdt_video_signal_standard">D3DKMDT_VIDEO_SIGNAL_STANDARD</a>-typed value that indicates the supported video signal standard.
 
 
 ### -field TimingId
@@ -66,7 +66,7 @@ The DXGK_TARGETMODE_DETAIL_TIMING structure describes a video present target's a
 
 ### -field DetailTiming
 
-[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/ff554014">DISPLAYID_DETAILED_TIMING_TYPE_I</a>-typed value that indicates the target mode data for a video present target.
+[in] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmdt/ns-d3dkmdt-_displayid_detailed_timing_type_i">DISPLAYID_DETAILED_TIMING_TYPE_I</a>-typed value that indicates the target mode data for a video present target.
 
 
 ## -see-also
@@ -74,11 +74,11 @@ The DXGK_TARGETMODE_DETAIL_TIMING structure describes a video present target's a
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546632">D3DKMDT_VIDEO_SIGNAL_STANDARD</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmdt/ne-d3dkmdt-_d3dkmdt_video_signal_standard">D3DKMDT_VIDEO_SIGNAL_STANDARD</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554014">DISPLAYID_DETAILED_TIMING_TYPE_I</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmdt/ns-d3dkmdt-_displayid_detailed_timing_type_i">DISPLAYID_DETAILED_TIMING_TYPE_I</a>
  
 
  

@@ -58,7 +58,7 @@ A UMDF-based driver's <b>OnRemoteTargetRemoveCanceled</b> event callback functio
 
 ### -param pWdfRemoteTarget [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560247">IWDFRemoteTarget</a> interface of a remote target object that represents a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/general-i-o-targets-in-umdf">remote I/O target</a>. The driver obtains this pointer when it calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff556928">IWDFDevice2::CreateRemoteTarget</a>.
+A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nn-wudfddi-iwdfremotetarget">IWDFRemoteTarget</a> interface of a remote target object that represents a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/general-i-o-targets-in-umdf">remote I/O target</a>. The driver obtains this pointer when it calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfdevice2-createremotetarget">IWDFDevice2::CreateRemoteTarget</a>.
 
 
 ## -returns
@@ -78,7 +78,7 @@ If your driver provides an <b>OnRemoteTargetRemoveCanceled</b> event callback fu
 
 <ol>
 <li>
-Call <a href="https://msdn.microsoft.com/library/windows/hardware/ff560278">IWDFRemoteTarget::Reopen</a>.
+Call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfremotetarget-reopen">IWDFRemoteTarget::Reopen</a>.
 
 </li>
 <li>
@@ -88,7 +88,7 @@ Do any driver-specific actions that your driver requires to restart I/O to the r
 </ol>
 If the driver does not provide this callback function, the framework calls <b>IWDFRemoteTarget::Reopen</b> for the driver.
 
-For more information about the <b>OnRemoteTargetRemoveCanceled</b> event callback function, see <a href="https://msdn.microsoft.com/479487b2-5ce5-4522-b195-58ee50d210b6">Controlling a General I/O Target's State in UMDF</a>.
+For more information about the <b>OnRemoteTargetRemoveCanceled</b> event callback function, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/controlling-a-general-i-o-target-s-state-in-umdf">Controlling a General I/O Target's State in UMDF</a>.
 
 
 
@@ -98,15 +98,15 @@ For more information about the <b>OnRemoteTargetRemoveCanceled</b> event callbac
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556894">IRemoteTargetCallbackRemoval</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nn-wudfddi-iremotetargetcallbackremoval">IRemoteTargetCallbackRemoval</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556897">IRemoteTargetCallbackRemoval::OnRemoteTargetQueryRemove</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iremotetargetcallbackremoval-onremotetargetqueryremove">IRemoteTargetCallbackRemoval::OnRemoteTargetQueryRemove</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556900">IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveComplete</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iremotetargetcallbackremoval-onremotetargetremovecomplete">IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveComplete</a>
  
 
  

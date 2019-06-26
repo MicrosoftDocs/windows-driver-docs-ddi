@@ -89,7 +89,7 @@ Framework child-list objects (WDFCHILDLIST)
 
 </li>
 <li>
-Framework device objects  (WDFDEVICE), unless the driver has called <a href="https://msdn.microsoft.com/library/windows/hardware/ff545841">WdfControlDeviceInitAllocate</a> and created a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-control-device-objects">control device object</a>, which the driver must sometimes delete
+Framework device objects  (WDFDEVICE), unless the driver has called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfcontrol/nf-wdfcontrol-wdfcontroldeviceinitallocate">WdfControlDeviceInitAllocate</a> and created a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-control-device-objects">control device object</a>, which the driver must sometimes delete
 
 </li>
 <li>
@@ -105,7 +105,7 @@ Framework interrupt objects (WDFINTERRUPT)
 
 </li>
 <li>
-Framework queue objects (WDFQUEUE), if an object represents a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/creating-i-o-queues">default I/O queue</a> or if the driver has called <a href="https://msdn.microsoft.com/library/windows/hardware/ff545920">WdfDeviceConfigureRequestDispatching</a> to set up the queue to receive all I/O requests of a particular type
+Framework queue objects (WDFQUEUE), if an object represents a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/creating-i-o-queues">default I/O queue</a> or if the driver has called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nf-wdfdevice-wdfdeviceconfigurerequestdispatching">WdfDeviceConfigureRequestDispatching</a> to set up the queue to receive all I/O requests of a particular type
 
 </li>
 <li>
@@ -136,11 +136,11 @@ Resource requirements list object
 
 </li>
 </ul>
-See <a href="https://msdn.microsoft.com/799284a5-91c0-47b0-8f20-75a5f8e2284d">Summary of Framework Objects</a> for a complete list of framework objects.
+See <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/summary-of-framework-objects">Summary of Framework Objects</a> for a complete list of framework objects.
 
 The <b>WdfObjectDelete</b> method can return before the framework has deleted the object and its child objects. The order in which the framework deletes child objects is not predictable.
 
-For more information about <b>WdfObjectDelete</b> and the cleanup rules for a framework object hierarchy, see <a href="https://msdn.microsoft.com/33efc3a8-ac46-4626-ba0f-beb1eaa9ee47">Framework Object Life Cycle</a>.
+For more information about <b>WdfObjectDelete</b> and the cleanup rules for a framework object hierarchy, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/framework-object-life-cycle">Framework Object Life Cycle</a>.
 
 The <b>WdfObjectDelete</b> method must be called at IRQL <= DISPATCH_LEVEL. If your driver is deleting a control device object, <b>WdfObjectDelete</b> must be called at IRQL = PASSIVE_LEVEL. Similarly, if your driver is deleting a common buffer, <b>WdfObjectDelete</b> must be called at IRQL = PASSIVE_LEVEL.
 
@@ -166,11 +166,11 @@ The following code example deletes a framework object and its child objects.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545841">WdfControlDeviceInitAllocate</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfcontrol/nf-wdfcontrol-wdfcontroldeviceinitallocate">WdfControlDeviceInitAllocate</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548730">WdfObjectCreate</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfobject/nf-wdfobject-wdfobjectcreate">WdfObjectCreate</a>
  
 
  

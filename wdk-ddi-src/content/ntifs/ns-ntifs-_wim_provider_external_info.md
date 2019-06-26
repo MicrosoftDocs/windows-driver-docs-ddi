@@ -106,9 +106,9 @@ An identifier for the object contained within the WIM.  Conventionally a hash of
 
 
 
-The backing source for a file is set with a <a href="https://msdn.microsoft.com/library/windows/hardware/dn632443">FSCTL_SET_EXTERNAL_BACKING</a> control code request. The WIM file backing the file specified in the request is set in the <b>DataSourceId</b> member of <b>WIM_PROVIDER_EXTERNAL_INFO</b>.
+The backing source for a file is set with a <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-set-external-backing">FSCTL_SET_EXTERNAL_BACKING</a> control code request. The WIM file backing the file specified in the request is set in the <b>DataSourceId</b> member of <b>WIM_PROVIDER_EXTERNAL_INFO</b>.
 
-The <b>Flags</b> and <b>ResourceHash</b> members are valid when the provider info is returned from a <a href="https://msdn.microsoft.com/library/windows/hardware/dn632441">FSCTL_GET_EXTERNAL_BACKING</a> request.
+The <b>Flags</b> and <b>ResourceHash</b> members are valid when the provider info is returned from a <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-get-external-backing">FSCTL_GET_EXTERNAL_BACKING</a> request.
 
 
 
@@ -118,11 +118,11 @@ The <b>Flags</b> and <b>ResourceHash</b> members are valid when the provider inf
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn632441">FSCTL_GET_EXTERNAL_BACKING</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-get-external-backing">FSCTL_GET_EXTERNAL_BACKING</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn632443">FSCTL_SET_EXTERNAL_BACKING</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-set-external-backing">FSCTL_SET_EXTERNAL_BACKING</a>
  
 
  

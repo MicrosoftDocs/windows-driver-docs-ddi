@@ -56,7 +56,7 @@ The <code>AddMember</code> method adds a member to the service group.
 
 ### -param pServiceSink [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537006">IServiceSink</a> interface of the new member of the service group
+Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iservicesink">IServiceSink</a> interface of the new member of the service group
 
 
 ## -returns
@@ -72,7 +72,7 @@ Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff53
 
 
 
-The <code>AddMember</code> method calls <b>AddRef</b> on the <i>pServiceSink</i> object. When the object is later removed, the <b>RemoveMember</b> method calls <b>Release</b> on the <i>pServiceSink</i> object. This behavior is in accordance with the <a href="https://msdn.microsoft.com/e6b19110-37e2-4d23-a528-6393c12ab650">reference-counting conventions for COM objects</a>.
+The <code>AddMember</code> method calls <b>AddRef</b> on the <i>pServiceSink</i> object. When the object is later removed, the <b>RemoveMember</b> method calls <b>Release</b> on the <i>pServiceSink</i> object. This behavior is in accordance with the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/reference-counting-conventions-for-com-objects">reference-counting conventions for COM objects</a>.
 
 
 
@@ -82,11 +82,11 @@ The <code>AddMember</code> method calls <b>AddRef</b> on the <i>pServiceSink</i>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536994">IServiceGroup</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iservicegroup">IServiceGroup</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537006">IServiceSink</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iservicesink">IServiceSink</a>
  
 
  

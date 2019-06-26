@@ -72,7 +72,7 @@ The <b>GetRequestorProcessId</b> method retrieves the identifier of the process 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558985">IWDFIoRequest</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nn-wudfddi-iwdfiorequest">IWDFIoRequest</a>
  
 
  

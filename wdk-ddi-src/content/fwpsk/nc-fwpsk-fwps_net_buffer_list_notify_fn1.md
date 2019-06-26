@@ -49,7 +49,7 @@ req.typenames:
 The filter engine calls the <i>
   FWPS_NET_BUFFER_LIST_NOTIFY_FN1</i> callout function to notify the callout driver about events that are
   associated with packets tagged by the callout.<div class="alert"><b>Note</b>  <i>
-  FWPS_NET_BUFFER_LIST_NOTIFY_FN1</i> is the specific version of <i>FWPS_NET_BUFFER_LIST_NOTIFY_FN</i> used in Windows 8 and later. See <a href="https://msdn.microsoft.com/FBDF53E5-F7DE-4DEB-AC18-6D2BB59FE670">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7, <a href="https://msdn.microsoft.com/library/windows/hardware/ff552406">FWPS_NET_BUFFER_LIST_NOTIFY_FN0</a> is available.</div>
+  FWPS_NET_BUFFER_LIST_NOTIFY_FN1</i> is the specific version of <i>FWPS_NET_BUFFER_LIST_NOTIFY_FN</i> used in Windows 8 and later. See <a href="https://docs.microsoft.com/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information. For Windows 7, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_net_buffer_list_notify_fn0">FWPS_NET_BUFFER_LIST_NOTIFY_FN0</a> is available.</div>
 <div> </div>
 
 
@@ -63,7 +63,7 @@ The filter engine calls the <i>
 
 A value that indicates the type of notification that the filter engine is sending to the callout.
      This parameter will be set to one of the values of the 
-     <a href="https://msdn.microsoft.com/14225920-2f51-4fef-9501-812e3aff8905">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/ne-fwpsk-fwps_net_buffer_list_event_type0_">
      FWPS_NET_BUFFER_LIST_EVENT_TYPE0</a> enumeration.
 
 
@@ -142,11 +142,11 @@ An error occurred.
 
 
 
-This function is associated with a callout driver by a call to <a href="https://msdn.microsoft.com/library/windows/hardware/hh439674">FwpsNetBufferListAssociateContext1</a>. A callout driver can use a single notification function to
+This function is associated with a callout driver by a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsnetbufferlistassociatecontext1">FwpsNetBufferListAssociateContext1</a>. A callout driver can use a single notification function to
     handle messages for multiple associated buffer lists by using the context and context tag to
     differentiate between instances.
 
-This function is identical to <a href="https://msdn.microsoft.com/library/windows/hardware/ff552406">FWPS_NET_BUFFER_LIST_NOTIFY_FN0</a>, except that the return type is <b>NTSTATUS</b> instead of <b>VOID</b>.
+This function is identical to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_net_buffer_list_notify_fn0">FWPS_NET_BUFFER_LIST_NOTIFY_FN0</a>, except that the return type is <b>NTSTATUS</b> instead of <b>VOID</b>.
 
 
 
@@ -156,24 +156,24 @@ This function is identical to <a href="https://msdn.microsoft.com/library/window
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543875">Callout Driver Callout Functions</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_netvista/">Callout Driver Callout Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/14225920-2f51-4fef-9501-812e3aff8905">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/ne-fwpsk-fwps_net_buffer_list_event_type0_">
      FWPS_NET_BUFFER_LIST_EVENT_TYPE0</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552406">FWPS_NET_BUFFER_LIST_NOTIFY_FN0</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nc-fwpsk-fwps_net_buffer_list_notify_fn0">FWPS_NET_BUFFER_LIST_NOTIFY_FN0</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439674">FwpsNetBufferListAssociateContext1</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsnetbufferlistassociatecontext1">FwpsNetBufferListAssociateContext1</a>
 
 
 
-<a href="https://msdn.microsoft.com/a151256b-d69f-4abb-bf68-644f157dfdd7">Using Packet Tagging</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/using-packet-tagging">Using Packet Tagging</a>
  
 
  

@@ -46,7 +46,7 @@ req.typenames: PMI_EVENT_TYPE
 ## -description
 
 
-The PMI_EVENT_TYPE enumeration defines the type of PMI power meter event that is returned through the successful completion of an <a href="https://msdn.microsoft.com/library/windows/hardware/ff543847">IOCTL_PMI_REGISTER_EVENT_NOTIFY</a> request.
+The PMI_EVENT_TYPE enumeration defines the type of PMI power meter event that is returned through the successful completion of an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pmi/ni-pmi-ioctl_pmi_register_event_notify">IOCTL_PMI_REGISTER_EVENT_NOTIFY</a> request.
 
 
 ## -enum-fields
@@ -88,7 +88,7 @@ The maximum number of PMI event types.
 
 
 
-The <b>EventType</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff543876">PMI_EVENT</a> structure contains information about the type of PMI event data that is referenced by the <b>Event</b> member of that structure. This structure is returned through a successful completion of an <a href="https://msdn.microsoft.com/library/windows/hardware/ff543847">IOCTL_PMI_REGISTER_EVENT_NOTIFY</a> request.
+The <b>EventType</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pmi/ns-pmi-_pmi_event">PMI_EVENT</a> structure contains information about the type of PMI event data that is referenced by the <b>Event</b> member of that structure. This structure is returned through a successful completion of an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pmi/ni-pmi-ioctl_pmi_register_event_notify">IOCTL_PMI_REGISTER_EVENT_NOTIFY</a> request.
 
 
 
@@ -98,11 +98,11 @@ The <b>EventType</b> member of the <a href="https://msdn.microsoft.com/library/w
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543847">IOCTL_PMI_REGISTER_EVENT_NOTIFY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pmi/ni-pmi-ioctl_pmi_register_event_notify">IOCTL_PMI_REGISTER_EVENT_NOTIFY</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543876">PMI_EVENT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pmi/ns-pmi-_pmi_event">PMI_EVENT</a>
  
 
  

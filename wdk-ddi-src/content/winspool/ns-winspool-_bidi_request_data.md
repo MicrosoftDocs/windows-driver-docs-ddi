@@ -66,7 +66,7 @@ Pointer to a memory location containing the first byte of the schema string.
 
 ### -field data
 
-Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff545177">BIDI_DATA</a> structure containing the data associated with the schema.
+Specifies a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winspool/ns-winspool-_bidi_data">BIDI_DATA</a> structure containing the data associated with the schema.
 
 
 ## -see-also
@@ -74,11 +74,11 @@ Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54517
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545177">BIDI_DATA</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winspool/ns-winspool-_bidi_data">BIDI_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545193">BIDI_REQUEST_CONTAINER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winspool/ns-winspool-_bidi_request_container">BIDI_REQUEST_CONTAINER</a>
  
 
  

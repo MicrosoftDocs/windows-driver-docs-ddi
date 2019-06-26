@@ -47,7 +47,7 @@ req.typenames:
 ## -description
 
 
-The <b>ChangerClassFreePool</b> routine frees pool memory previously allocated using <a href="https://msdn.microsoft.com/library/windows/hardware/ff551402">ChangerClassAllocatePool</a>. 
+The <b>ChangerClassFreePool</b> routine frees pool memory previously allocated using <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/mcd/nf-mcd-changerclassallocatepool">ChangerClassAllocatePool</a>. 
 
 
 ## -parameters
@@ -74,7 +74,7 @@ None
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551402">ChangerClassAllocatePool</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/mcd/nf-mcd-changerclassallocatepool">ChangerClassAllocatePool</a>
  
 
  

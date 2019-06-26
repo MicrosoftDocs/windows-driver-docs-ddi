@@ -50,7 +50,7 @@ req.typenames:
 
 
 The <b>AtaPortGetDeviceBase</b> routine returns a mapped logical base address that is used to communicate with an HBA.
-<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+<div class="alert"><b>Note</b>  The ATA port driver and ATA miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -parameters
 
@@ -69,7 +69,7 @@ Specifies the base address to map.
 
 ### -param NumberOfBytes [in]
 
-Specifies the size, in bytes, of the range that the mappings should cover. The value for this parameter can be obtained from the <b>IdeAccessRange</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559119">IDE_MINIPORT_RESOURCES</a> structure.
+Specifies the size, in bytes, of the range that the mappings should cover. The value for this parameter can be obtained from the <b>IdeAccessRange</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/ns-irb-_ide_miniport_resources">IDE_MINIPORT_RESOURCES</a> structure.
 
 
 ## -returns
@@ -95,15 +95,15 @@ Miniport drivers must use logical addresses that have been mapped into system sp
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550182">AtaPortReadPortUchar</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/nf-irb-ataportreadportuchar">AtaPortReadPortUchar</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550184">AtaPortReadPortUlong</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/nf-irb-ataportreadportulong">AtaPortReadPortUlong</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550185">AtaPortReadPortUshort</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/nf-irb-ataportreadportushort">AtaPortReadPortUshort</a>
  
 
  

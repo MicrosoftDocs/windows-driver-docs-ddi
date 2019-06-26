@@ -47,7 +47,7 @@ req.typenames:
 ## -description
 
 
-The <b>DxApi</b> function accepts commands from the hardware decoder's video capture driver to access the <a href="https://msdn.microsoft.com/cfe77d14-32d2-44b7-8121-20ae7e4fe79e">DxApi interface functions</a> that are implemented in a <a href="https://msdn.microsoft.com/3a540bfe-f340-4f12-acee-323b97683074">video miniport driver</a>.
+The <b>DxApi</b> function accepts commands from the hardware decoder's video capture driver to access the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">DxApi interface functions</a> that are implemented in a <a href="https://docs.microsoft.com/windows-hardware/drivers/display/video-miniport-drivers-in-the-windows-2000-display-driver-model">video miniport driver</a>.
 
 
 ## -parameters
@@ -98,91 +98,91 @@ Indicates the size in bytes of the output buffer.
 The following function identifiers are defined for the <b>DxApi</b> function in the <i>ddkmapi.h</i> header file: 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550599">DD_DXAPI_ADDVPCAPTUREBUFFER</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550599(v=vs.85)">DD_DXAPI_ADDVPCAPTUREBUFFER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550606">DD_DXAPI_CLOSEHANDLE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550606(v=vs.85)">DD_DXAPI_CLOSEHANDLE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550612">DD_DXAPI_FLIP_OVERLAY</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550612(v=vs.85)">DD_DXAPI_FLIP_OVERLAY</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550618">DD_DXAPI_FLIP_VP</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550618(v=vs.85)">DD_DXAPI_FLIP_VP</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550622">DD_DXAPI_FLUSHVPCAPTUREBUFFERS</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550622(v=vs.85)">DD_DXAPI_FLUSHVPCAPTUREBUFFERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550642">DD_DXAPI_GET_CURRENT_VP_AUTOFLIP_SURFACE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550642(v=vs.85)">DD_DXAPI_GET_CURRENT_VP_AUTOFLIP_SURFACE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550650">DD_DXAPI_GET_LAST_VP_AUTOFLIP_SURFACE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550650(v=vs.85)">DD_DXAPI_GET_LAST_VP_AUTOFLIP_SURFACE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550660">DD_DXAPI_GET_POLARITY</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550660(v=vs.85)">DD_DXAPI_GET_POLARITY</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550673">DD_DXAPI_GET_SURFACE_STATE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550673(v=vs.85)">DD_DXAPI_GET_SURFACE_STATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550686">DD_DXAPI_GET_VP_FIELD_NUMBER</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550686(v=vs.85)">DD_DXAPI_GET_VP_FIELD_NUMBER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550629">DD_DXAPI_GETKERNELCAPS</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550629(v=vs.85)">DD_DXAPI_GETKERNELCAPS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550637">DD_DXAPI_GETVERSIONNUMBER</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550637(v=vs.85)">DD_DXAPI_GETVERSIONNUMBER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550695">DD_DXAPI_LOCK</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550695(v=vs.85)">DD_DXAPI_LOCK</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550702">DD_DXAPI_OPENDIRECTDRAW</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550702(v=vs.85)">DD_DXAPI_OPENDIRECTDRAW</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550711">DD_DXAPI_OPENSURFACE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550711(v=vs.85)">DD_DXAPI_OPENSURFACE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551498">DD_DXAPI_OPENVIDEOPORT</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff551498(v=vs.85)">DD_DXAPI_OPENVIDEOPORT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551500">DD_DXAPI_OPENVPCAPTUREDEVICE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff551500(v=vs.85)">DD_DXAPI_OPENVPCAPTUREDEVICE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551502">DD_DXAPI_REGISTER_CALLBACK</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff551502(v=vs.85)">DD_DXAPI_REGISTER_CALLBACK</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551504">DD_DXAPI_SET_SURFACE_STATE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff551504(v=vs.85)">DD_DXAPI_SET_SURFACE_STATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551507">DD_DXAPI_SET_VP_FIELD_NUMBER</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff551507(v=vs.85)">DD_DXAPI_SET_VP_FIELD_NUMBER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551510">DD_DXAPI_SET_VP_SKIP_FIELD</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff551510(v=vs.85)">DD_DXAPI_SET_VP_SKIP_FIELD</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551514">DD_DXAPI_UNREGISTER_CALLBACK</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff551514(v=vs.85)">DD_DXAPI_UNREGISTER_CALLBACK</a>
 
 
 
@@ -193,91 +193,91 @@ The following function identifiers are defined for the <b>DxApi</b> function in 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550599">DD_DXAPI_ADDVPCAPTUREBUFFER</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550599(v=vs.85)">DD_DXAPI_ADDVPCAPTUREBUFFER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550606">DD_DXAPI_CLOSEHANDLE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550606(v=vs.85)">DD_DXAPI_CLOSEHANDLE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550612">DD_DXAPI_FLIP_OVERLAY</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550612(v=vs.85)">DD_DXAPI_FLIP_OVERLAY</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550618">DD_DXAPI_FLIP_VP</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550618(v=vs.85)">DD_DXAPI_FLIP_VP</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550622">DD_DXAPI_FLUSHVPCAPTUREBUFFERS</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550622(v=vs.85)">DD_DXAPI_FLUSHVPCAPTUREBUFFERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550629">DD_DXAPI_GETKERNELCAPS</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550629(v=vs.85)">DD_DXAPI_GETKERNELCAPS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550637">DD_DXAPI_GETVERSIONNUMBER</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550637(v=vs.85)">DD_DXAPI_GETVERSIONNUMBER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550642">DD_DXAPI_GET_CURRENT_VP_AUTOFLIP_SURFACE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550642(v=vs.85)">DD_DXAPI_GET_CURRENT_VP_AUTOFLIP_SURFACE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550650">DD_DXAPI_GET_LAST_VP_AUTOFLIP_SURFACE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550650(v=vs.85)">DD_DXAPI_GET_LAST_VP_AUTOFLIP_SURFACE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550660">DD_DXAPI_GET_POLARITY</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550660(v=vs.85)">DD_DXAPI_GET_POLARITY</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550673">DD_DXAPI_GET_SURFACE_STATE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550673(v=vs.85)">DD_DXAPI_GET_SURFACE_STATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550686">DD_DXAPI_GET_VP_FIELD_NUMBER</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550686(v=vs.85)">DD_DXAPI_GET_VP_FIELD_NUMBER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550695">DD_DXAPI_LOCK</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550695(v=vs.85)">DD_DXAPI_LOCK</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550702">DD_DXAPI_OPENDIRECTDRAW</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550702(v=vs.85)">DD_DXAPI_OPENDIRECTDRAW</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550711">DD_DXAPI_OPENSURFACE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff550711(v=vs.85)">DD_DXAPI_OPENSURFACE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551498">DD_DXAPI_OPENVIDEOPORT</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff551498(v=vs.85)">DD_DXAPI_OPENVIDEOPORT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551500">DD_DXAPI_OPENVPCAPTUREDEVICE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff551500(v=vs.85)">DD_DXAPI_OPENVPCAPTUREDEVICE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551502">DD_DXAPI_REGISTER_CALLBACK</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff551502(v=vs.85)">DD_DXAPI_REGISTER_CALLBACK</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551504">DD_DXAPI_SET_SURFACE_STATE</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff551504(v=vs.85)">DD_DXAPI_SET_SURFACE_STATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551507">DD_DXAPI_SET_VP_FIELD_NUMBER</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff551507(v=vs.85)">DD_DXAPI_SET_VP_FIELD_NUMBER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551510">DD_DXAPI_SET_VP_SKIP_FIELD</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff551510(v=vs.85)">DD_DXAPI_SET_VP_SKIP_FIELD</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551514">DD_DXAPI_UNREGISTER_CALLBACK</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff551514(v=vs.85)">DD_DXAPI_UNREGISTER_CALLBACK</a>
  
 
  

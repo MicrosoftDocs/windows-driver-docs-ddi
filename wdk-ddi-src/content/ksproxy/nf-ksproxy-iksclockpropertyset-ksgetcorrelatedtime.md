@@ -56,7 +56,7 @@ The <b>KsGetCorrelatedTime</b> method retrieves the current time and the correla
 
 ### -param CorrelatedTime [out]
 
-Pointer to a variable that receives a <a href="https://msdn.microsoft.com/library/windows/hardware/ff561033">KSCORRELATED_TIME</a> structure that contains the current clock time along with the correlated system time.
+Pointer to a variable that receives a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-kscorrelated_time">KSCORRELATED_TIME</a> structure that contains the current clock time along with the correlated system time.
 
 
 ## -returns
@@ -74,7 +74,7 @@ Returns NOERROR if successful; otherwise, returns an error code.
 
 The <b>KsGetCorrelatedTime</b> method retrieves the current time and the correlated system in an atomic operation. 
 
-The proxy uses the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564465">KSPROPERTY_CLOCK_CORRELATEDTIME</a> property to retrieve the correlated time. 
+The proxy uses the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-clock-correlatedtime">KSPROPERTY_CLOCK_CORRELATEDTIME</a> property to retrieve the correlated time. 
 
 
 
@@ -84,15 +84,15 @@ The proxy uses the <a href="https://msdn.microsoft.com/library/windows/hardware/
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559756">IKsClockPropertySet::KsSetCorrelatedTime</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nf-ksproxy-iksclockpropertyset-kssetcorrelatedtime">IKsClockPropertySet::KsSetCorrelatedTime</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561033">KSCORRELATED_TIME</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-kscorrelated_time">KSCORRELATED_TIME</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564465">KSPROPERTY_CLOCK_CORRELATEDTIME</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-clock-correlatedtime">KSPROPERTY_CLOCK_CORRELATEDTIME</a>
  
 
  

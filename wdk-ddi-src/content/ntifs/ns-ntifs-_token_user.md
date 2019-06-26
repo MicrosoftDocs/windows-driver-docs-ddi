@@ -73,27 +73,27 @@ Unlike TOKEN_GROUPS structures, TOKEN_USER structures cannot be passed to <b>SeF
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556740">SID</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_sid">SID</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556742">SID_AND_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_sid_and_attributes">SID_AND_ATTRIBUTES</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556654">SeFilterToken</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-sefiltertoken">SeFilterToken</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556690">SeQueryInformationToken</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-sequeryinformationtoken">SeQueryInformationToken</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556834">TOKEN_GROUPS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_token_groups">TOKEN_GROUPS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556838">TOKEN_INFORMATION_CLASS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ne-ntifs-_token_information_class">TOKEN_INFORMATION_CLASS</a>
 
 
 

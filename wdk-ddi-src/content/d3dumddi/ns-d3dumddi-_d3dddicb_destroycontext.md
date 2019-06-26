@@ -56,7 +56,7 @@ The D3DDDICB_DESTROYCONTEXT structure contains the handle to a context to destro
 
 ### -field hContext
 
-[in] A handle that the <a href="https://msdn.microsoft.com/f3f5d6bc-3bc6-4214-830a-cffff01069cc">pfnCreateContextCb</a> function returns and that identifies the context to destroy. 
+[in] A handle that the <a href="https://docs.microsoft.com/previous-versions/ff568895(v=vs.85)">pfnCreateContextCb</a> function returns and that identifies the context to destroy. 
 
 
 ## -see-also
@@ -64,11 +64,11 @@ The D3DDDICB_DESTROYCONTEXT structure contains the handle to a context to destro
 
 
 
-<a href="https://msdn.microsoft.com/f3f5d6bc-3bc6-4214-830a-cffff01069cc">pfnCreateContextCb</a>
+<a href="https://docs.microsoft.com/previous-versions/ff568895(v=vs.85)">pfnCreateContextCb</a>
 
 
 
-<a href="https://msdn.microsoft.com/6b65d75b-544b-4153-b821-d59d6f85673d">pfnDestroyContextCb</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_destroycontextcb">pfnDestroyContextCb</a>
  
 
  

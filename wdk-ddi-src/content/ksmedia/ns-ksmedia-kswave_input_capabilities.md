@@ -93,7 +93,7 @@ Indicates the number of active connections.
 
 
 
-This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566521">KSPROPERTY_WAVE_INPUT_CAPABILITIES</a> property.
+This structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-wave-input-capabilities">KSPROPERTY_WAVE_INPUT_CAPABILITIES</a> property.
 
 
 
@@ -103,7 +103,7 @@ This structure is used by the <a href="https://msdn.microsoft.com/library/window
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566521">KSPROPERTY_WAVE_INPUT_CAPABILITIES</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-wave-input-capabilities">KSPROPERTY_WAVE_INPUT_CAPABILITIES</a>
  
 
  

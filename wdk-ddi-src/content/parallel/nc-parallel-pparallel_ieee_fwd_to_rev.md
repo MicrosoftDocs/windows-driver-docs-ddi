@@ -66,7 +66,7 @@ typedef NTSTATUS ( *PPARALLEL_IEEE_FWD_TO_REV)(
 
 ### -param Context [in]
 
-Pointer to a device extension of a parallel device's physical device object (<a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">PDO</a>).
+Pointer to a device extension of a parallel device's physical device object (<a href="https://docs.microsoft.com/windows-hardware/drivers/">PDO</a>).
 
 
 ## -returns

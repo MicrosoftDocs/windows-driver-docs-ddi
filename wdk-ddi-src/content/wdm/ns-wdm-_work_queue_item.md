@@ -94,11 +94,11 @@ Pointer to context information to be passed to the callback routine specified in
 
 
 
-To initialize a WORK_QUEUE_ITEM structure, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff545327">ExInitializeWorkItem</a>. 
+To initialize a WORK_QUEUE_ITEM structure, call <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mmcreatemdl">ExInitializeWorkItem</a>. 
 
-To post the initialized work item to a system work queue, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff540216">ExQueueWorkItem</a>. 
+To post the initialized work item to a system work queue, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-exqueueworkitem">ExQueueWorkItem</a>. 
 
-<b>ExInitializeWorkItem</b><i> and </i><b>ExQueueWorkItem</b><i> can only be used in cases where the specified work item is not associated with any device object or device stack. In all other cases, drivers should use </i><a href="https://msdn.microsoft.com/library/windows/hardware/ff548276">IoAllocateWorkItem</a><i>, </i><a href="https://msdn.microsoft.com/library/windows/hardware/ff549133">IoFreeWorkItem</a><i>, and </i><a href="https://msdn.microsoft.com/library/windows/hardware/ff549466">IoQueueWorkItem</a><i>, because only these routines ensure that the device object associated with the specified work item remains available until the work item has been processed. </i>
+<b>ExInitializeWorkItem</b><i> and </i><b>ExQueueWorkItem</b><i> can only be used in cases where the specified work item is not associated with any device object or device stack. In all other cases, drivers should use </i><a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ioallocateworkitem">IoAllocateWorkItem</a><i>, </i><a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iofreeworkitem">IoFreeWorkItem</a><i>, and </i><a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ioqueueworkitem">IoQueueWorkItem</a><i>, because only these routines ensure that the device object associated with the specified work item remains available until the work item has been processed. </i>
 
 
 
@@ -108,23 +108,23 @@ To post the initialized work item to a system work queue, call <a href="https://
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545327">ExInitializeWorkItem</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/mmcreatemdl">ExInitializeWorkItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540216">ExQueueWorkItem</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-exqueueworkitem">ExQueueWorkItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548276">IoAllocateWorkItem</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ioallocateworkitem">IoAllocateWorkItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549133">IoFreeWorkItem</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iofreeworkitem">IoFreeWorkItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549466">IoQueueWorkItem</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ioqueueworkitem">IoQueueWorkItem</a>
  
 
  

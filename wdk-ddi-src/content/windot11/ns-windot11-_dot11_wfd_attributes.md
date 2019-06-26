@@ -48,7 +48,7 @@ product:
 ## -description
 
 
-<div class="alert"><b>Important</b>  The <a href="https://msdn.microsoft.com/library/windows/hardware/ff560689">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://msdn.microsoft.com/6EF92E34-7BC9-465E-B05D-2BCB29165A18">WLAN Universal Windows driver model</a>.</div><div> </div>The <b>DOT11_WFD_ATTRIBUTES</b> structure is returned in an <a href="https://msdn.microsoft.com/library/windows/hardware/ff565926">NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES</a> indication. The structure defines the  attributes related to Wi-Fi Direct (WFD) operation modes.
+<div class="alert"><b>Important</b>  The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="https://docs.microsoft.com/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The <b>DOT11_WFD_ATTRIBUTES</b> structure is returned in an <a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff565926(v=vs.85)">NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES</a> indication. The structure defines the  attributes related to Wi-Fi Direct (WFD) operation modes.
 
 
 ## -syntax
@@ -169,7 +169,7 @@ A pointer to an array of 802.11d country or region strings that are supported by
 
 The maximum number of  Discovery Filters supported by the WFD device for discovery operations. This must be at least 2.
 
-The Discovery filters list that the WFD device must apply for device discovery is specified when <a href="https://msdn.microsoft.com/library/windows/hardware/hh451795">OID_DOT11_WFD_DISCOVER_REQUEST</a> is set.
+The Discovery filters list that the WFD device must apply for device discovery is specified when <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-wfd-discover-request">OID_DOT11_WFD_DISCOVER_REQUEST</a> is set.
 
 
 ### -field uGORoleClientTableSize
@@ -179,7 +179,7 @@ The maximum number of associations that each WFD GO port supports simultaneously
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451795">OID_DOT11_WFD_DISCOVER_REQUEST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-dot11-wfd-discover-request">OID_DOT11_WFD_DISCOVER_REQUEST</a>
 
 
 
@@ -187,7 +187,7 @@ The maximum number of associations that each WFD GO port supports simultaneously
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565926">NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/wireless/ff565926(v=vs.85)">NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES</a>
 
 
 

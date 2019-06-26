@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <b>SetProperties</b> method sets the name or description (or both) of a tag in a <a href="https://msdn.microsoft.com/B52DFB0E-0035-40C2-B2F5-5E16B16931C2">DebugFailureAnalysisTags</a> object. 
+The <b>SetProperties</b> method sets the name or description (or both) of a tag in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/extsfns/nn-extsfns-idebugfaentrytags">DebugFailureAnalysisTags</a> object. 
 
 
 ## -parameters
@@ -88,23 +88,23 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise it returns an error c
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj991811">GetProperties</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/extsfns/nf-extsfns-idebugfaentrytags-getproperties">GetProperties</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983404">IDebugFAEntryTags</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/extsfns/nn-extsfns-idebugfaentrytags">IDebugFAEntryTags</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983405">IDebugFailureAnalysis2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/extsfns/nn-extsfns-idebugfailureanalysis2">IDebugFailureAnalysis2</a>
 
 
 
-<a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">Writing an Analysis Extension Plug-in to Extend !analyze</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983432">_EFN_Analyze</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/extsfns/nc-extsfns-ext_analysis_plugin">_EFN_Analyze</a>
  
 
  

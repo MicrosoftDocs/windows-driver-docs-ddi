@@ -50,8 +50,8 @@ req.typenames: IP_OFFLOAD_STATS, *PIP_OFFLOAD_STATS
 
 The IP_OFFLOAD_STATS structure contains statistics that an offload target supplies in response to a
   query of 
-  <a href="https://msdn.microsoft.com/library/windows/hardware/ff569758">OID_IP4_OFFLOAD_STATS</a> or 
-  <a href="https://msdn.microsoft.com/library/windows/hardware/ff569759">OID_IP6_OFFLOAD_STATS</a>.
+  <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-ip4-offload-stats">OID_IP4_OFFLOAD_STATS</a> or 
+  <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-ip6-offload-stats">OID_IP6_OFFLOAD_STATS</a>.
 
 
 ## -struct-fields
@@ -153,21 +153,21 @@ If an offload target has multiple network interfaces, it must maintain separate 
     statistics counters for that network interface.
 
 If an offload target's TCP chimney capabilities are enabled (see 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff558995">NDIS_TASK_OFFLOAD</a>) and if at least one
+    <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff558995(v=vs.85)">NDIS_TASK_OFFLOAD</a>) and if at least one
     neighbor state object has been offloaded to the offload target, the offload target can process a received
     packet that has a corrupted IP header in one of two ways:
 
 <ul>
 <li>
 The offload target can indicate the packet through the non-offload interface by calling the 
-      <a href="https://msdn.microsoft.com/b87dba3e-c18f-4ea2-8bd5-ec3cdafc534b">
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismindicatereceivenetbufferlists">
       NdisMIndicateReceiveNetBufferLists</a> function. In this case, the offload target must not increment
       the InHeaderErrors counter. This is the recommended approach.
 
 </li>
 <li>
 Alternatively, the offload target can drop the corrupted packet 
-      <a href="https://msdn.microsoft.com/library/windows/hardware/ff558995">NDIS_TASK_OFFLOAD</a> and increment the
+      <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff558995(v=vs.85)">NDIS_TASK_OFFLOAD</a> and increment the
       InHeaderErrors counter.
 
 </li>
@@ -193,20 +193,20 @@ All of the counters that supply the values for the IP_OFFLOAD_STATS structure wr
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558995">NDIS_TASK_OFFLOAD</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff558995(v=vs.85)">NDIS_TASK_OFFLOAD</a>
 
 
 
-<a href="https://msdn.microsoft.com/b87dba3e-c18f-4ea2-8bd5-ec3cdafc534b">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismindicatereceivenetbufferlists">
    NdisMIndicateReceiveNetBufferLists</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569758">OID_IP4_OFFLOAD_STATS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-ip4-offload-stats">OID_IP4_OFFLOAD_STATS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569759">OID_IP6_OFFLOAD_STATS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-ip6-offload-stats">OID_IP6_OFFLOAD_STATS</a>
  
 
  

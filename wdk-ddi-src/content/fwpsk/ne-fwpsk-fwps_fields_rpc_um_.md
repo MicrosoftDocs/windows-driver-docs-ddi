@@ -48,7 +48,7 @@ req.typenames: FWPS_FIELDS_RPC_UM
 
 The FWPS_FIELDS_RPC_UM enumeration type specifies the data field identifiers for the
   FWPS_LAYER_RPC_UM 
-  <a href="https://msdn.microsoft.com/library/windows/desktop/aa366492">run-time filtering layer</a>.
+  <a href="https://docs.microsoft.com/windows/desktop/FWP/management-filtering-layer-identifiers-">run-time filtering layer</a>.
 
 
 ## -enum-fields

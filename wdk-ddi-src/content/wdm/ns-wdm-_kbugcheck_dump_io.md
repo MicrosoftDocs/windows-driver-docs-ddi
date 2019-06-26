@@ -62,7 +62,7 @@ Specifies the length of the buffer, in bytes, that is specified by the <b>Buffer
 
 ### -field Type
 
-Specifies the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551871">KBUGCHECK_DUMP_IO_TYPE</a> value that signifies the type of data to be written to the dump file.
+Specifies the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_kbugcheck_dump_io_type">KBUGCHECK_DUMP_IO_TYPE</a> value that signifies the type of data to be written to the dump file.
 
 ## -remarks
 
@@ -72,4 +72,4 @@ For information about how this structure is used, see <a href="https://docs.micr
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551871">KBUGCHECK_DUMP_IO_TYPE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_kbugcheck_dump_io_type">KBUGCHECK_DUMP_IO_TYPE</a>

@@ -101,7 +101,7 @@ Specifies the starting address of the buffer.
 
 
 
-This structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566514">KSPROPERTY_WAVE_BUFFER</a> property.
+This structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-wave-buffer">KSPROPERTY_WAVE_BUFFER</a> property.
 
 
 
@@ -111,7 +111,7 @@ This structure is used by the <a href="https://msdn.microsoft.com/library/window
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566514">KSPROPERTY_WAVE_BUFFER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-wave-buffer">KSPROPERTY_WAVE_BUFFER</a>
  
 
  

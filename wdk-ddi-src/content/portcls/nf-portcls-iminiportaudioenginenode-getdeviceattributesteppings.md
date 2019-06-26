@@ -61,12 +61,12 @@ The ID for the node that represents the audio device.
 
 ### -param targetType [in]
 
-An  <a href="https://msdn.microsoft.com/library/windows/hardware/dn302034">eChannelTargetType</a> enumerated value that specifies the type of target node. For example, a Volume or a Mute node.
+An  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/ne-portcls-echanneltargettype">eChannelTargetType</a> enumerated value that specifies the type of target node. For example, a Volume or a Mute node.
 
 
 ### -param pKsPropStepLong [out]
 
-A structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff565631(v=vs.85).aspx">KSPROPERTY_STEPPING_LONG</a> that contains information about the allowed stepping value for the device attribute.
+A structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksproperty_stepping_long">KSPROPERTY_STEPPING_LONG</a> that contains information about the allowed stepping value for the device attribute.
 
 
 ### -param ui32DataSize [in]
@@ -90,15 +90,15 @@ returns an appropriate error code.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn302040">IMiniportAudioEngineNode</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iminiportaudioenginenode">IMiniportAudioEngineNode</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565631(v=vs.85).aspx">KSPROPERTY_STEPPING_LONG</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksproperty_stepping_long">KSPROPERTY_STEPPING_LONG</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn302034">eChannelTargetType</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/ne-portcls-echanneltargettype">eChannelTargetType</a>
  
 
  

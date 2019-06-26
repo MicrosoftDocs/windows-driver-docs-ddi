@@ -47,7 +47,7 @@ req.typenames:
 ## -description
 
 
-The <b>ExDeleteTimer</b> routine deletes a timer object that was previously allocated by the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265179">ExAllocateTimer</a> routine.
+The <b>ExDeleteTimer</b> routine deletes a timer object that was previously allocated by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-exallocatetimer">ExAllocateTimer</a> routine.
 
 
 ## -parameters
@@ -57,7 +57,7 @@ The <b>ExDeleteTimer</b> routine deletes a timer object that was previously allo
 
 ### -param Timer [in]
 
-A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/exxxxtimer-routines-and-ex-timer-objects">EX_TIMER</a> structure. This structure is a timer object that was previously allocated by the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265179">ExAllocateTimer</a> routine.
+A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/exxxxtimer-routines-and-ex-timer-objects">EX_TIMER</a> structure. This structure is a timer object that was previously allocated by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-exallocatetimer">ExAllocateTimer</a> routine.
 
 
 ### -param Cancel [in]
@@ -72,7 +72,7 @@ Whether to wait for the timer to finish expiring if the timer has already starte
 
 ### -param Parameters [in]
 
-A pointer to an <a href="https://msdn.microsoft.com/library/windows/hardware/dn265194">EXT_DELETE_PARAMETERS</a> structure. The calling driver previously called the <a href="https://msdn.microsoft.com/library/windows/hardware/dn265182">ExInitializeDeleteTimerParameters</a> routine to initialize this structure.
+A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_ext_delete_parameters">EXT_DELETE_PARAMETERS</a> structure. The calling driver previously called the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-exinitializedeletetimerparameters">ExInitializeDeleteTimerParameters</a> routine to initialize this structure.
 
 
 ## -returns
@@ -88,7 +88,7 @@ This routine returns <b>TRUE</b> if <i>Cancel</i> is <b>TRUE</b> and the timer w
 
 
 
-After your driver calls this routine, the timer object pointed to by <i>Timer</i> might no longer be valid. However, the <i>Timer</i> parameter value passed to an <a href="https://msdn.microsoft.com/library/windows/hardware/dn265190">ExTimerCallback</a> callback routine, if the driver implements this routine, is always a valid pointer to a timer object.
+After your driver calls this routine, the timer object pointed to by <i>Timer</i> might no longer be valid. However, the <i>Timer</i> parameter value passed to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-ext_callback">ExTimerCallback</a> callback routine, if the driver implements this routine, is always a valid pointer to a timer object.
 
 If <i>Cancel</i> is <b>TRUE</b>, a return value of <b>FALSE</b> indicates that the timer was never set, or that the timer was set but expired before it could be canceled.  If <i>Cancel</i> is <b>FALSE</b>, the routine always returns <b>FALSE</b>.
 
@@ -96,7 +96,7 @@ This routine can block if <i>Wait</i> is <b>TRUE</b>. If <b>ExDeleteTimer</b> is
 
 If <i>Wait</i> is <b>TRUE</b>, the routine must be called at IRQL <= APC_LEVEL. If <i>Wait</i> is <b>FALSE</b>, the routine can be called at IRQL <= DISPATCH_LEVEL.
 
-For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/dn265175">Deleting a System-Allocated Timer Object</a>.
+For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/deleting-a-system-allocated-timer-object">Deleting a System-Allocated Timer Object</a>.
 
 
 
@@ -106,7 +106,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265194">EXT_DELETE_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_ext_delete_parameters">EXT_DELETE_PARAMETERS</a>
 
 
 
@@ -114,19 +114,19 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265179">ExAllocateTimer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-exallocatetimer">ExAllocateTimer</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265182">ExInitializeDeleteTimerParameters</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-exinitializedeletetimerparameters">ExInitializeDeleteTimerParameters</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265190">ExTimerCallback</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-ext_callback">ExTimerCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn265192">ExTimerDeleteCallback</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-ext_delete_callback">ExTimerDeleteCallback</a>
  
 
  

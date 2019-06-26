@@ -82,15 +82,15 @@ A <b>NULL</b>-terminated string that contains the NDIS isolation name. The isola
 
 This structure is used in:<ul>
 <li>
-The <b>IsolationIdName</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn383684">NDIS_ROUTING_DOMAIN_ISOLATION_ENTRY</a> structure.
+The <b>IsolationIdName</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_routing_domain_isolation_entry">NDIS_ROUTING_DOMAIN_ISOLATION_ENTRY</a> structure.
 
 </li>
 <li>
-The <b>RoutingDomainName</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn383681">NDIS_ROUTING_DOMAIN_ENTRY</a> structure.
+The <b>RoutingDomainName</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_routing_domain_entry">NDIS_ROUTING_DOMAIN_ENTRY</a> structure.
 
 </li>
 <li>
-The <b>RoutingDomainName</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/dn383688">NDIS_SWITCH_PORT_PROPERTY_ROUTING_DOMAIN</a> structure.
+The <b>RoutingDomainName</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_switch_port_property_routing_domain">NDIS_SWITCH_PORT_PROPERTY_ROUTING_DOMAIN</a> structure.
 
 </li>
 </ul>
@@ -104,19 +104,19 @@ The <b>RoutingDomainName</b> member of the <a href="https://msdn.microsoft.com/l
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn383677">NDIS_ISOLATION_MODE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ne-ntddndis-_ndis_isolation_mode">NDIS_ISOLATION_MODE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn383681">NDIS_ROUTING_DOMAIN_ENTRY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_routing_domain_entry">NDIS_ROUTING_DOMAIN_ENTRY</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn383684">NDIS_ROUTING_DOMAIN_ISOLATION_ENTRY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_routing_domain_isolation_entry">NDIS_ROUTING_DOMAIN_ISOLATION_ENTRY</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn383688">NDIS_SWITCH_PORT_PROPERTY_ROUTING_DOMAIN</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_switch_port_property_routing_domain">NDIS_SWITCH_PORT_PROPERTY_ROUTING_DOMAIN</a>
  
 
  

@@ -56,7 +56,7 @@ The <b>FsRtlRemovePerFileContext</b> routine returns a pointer to a <a href="htt
 
 ### -param PerFileContextPointer [in]
 
-A pointer to an opaque pointer that is used by the file system runtime library (FSRTL) package to track file contexts. To obtain this pointer from a file object, use the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546051">FsRtlGetPerFileContextPointer</a> macro.
+A pointer to an opaque pointer that is used by the file system runtime library (FSRTL) package to track file contexts. To obtain this pointer from a file object, use the <a href="https://docs.microsoft.com/previous-versions/ff546051(v=vs.85)">FsRtlGetPerFileContextPointer</a> macro.
 
 
 ### -param OwnerId [in, optional]
@@ -112,7 +112,7 @@ Do not use this routine inside your IRP_CLOSE handler. You will not be notified 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546051">FsRtlGetPerFileContextPointer</a>
+<a href="https://docs.microsoft.com/previous-versions/ff546051(v=vs.85)">FsRtlGetPerFileContextPointer</a>
 
 
 
@@ -124,7 +124,7 @@ Do not use this routine inside your IRP_CLOSE handler. You will not be notified 
 
 
 
-<a href="https://msdn.microsoft.com/6be3ff10-47e4-47f5-8f15-88a80a16f451">Tracking Per-File Context in a Legacy File System Filter Driver</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/tracking-per-file-context-in-a-legacy-file-system-filter-driver">Tracking Per-File Context in a Legacy File System Filter Driver</a>
  
 
  

@@ -48,19 +48,19 @@ req.typenames: NDIS_DEVICE_POWER_STATE, *PNDIS_DEVICE_POWER_STATE
 
 The <b>NDIS_DEVICE_POWER_STATE</b> enumeration defines device power state values. For more information about device power states, see:<dl>
 <dd>
-<a href="https://msdn.microsoft.com/969aadc9-e797-4a07-9714-8c2c5a6357da">Device Power States for Network Adapters</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/device-power-states-for-network-adapters">Device Power States for Network Adapters</a>
 </dd>
 <dd>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543162">Device Power States</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/device-power-states">Device Power States</a>
 </dd>
 <dd>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543210">Device Working State D0</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/device-working-state-d0">Device Working State D0</a>
 </dd>
 <dd>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543186">Device Low-Power States</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/device-sleeping-states">Device Low-Power States</a>
 </dd>
 <dd>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561073">Required Support for Device Power States</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/required-support-for-device-power-states">Required Support for Device Power States</a>
 </dd>
 </dl>
 
@@ -111,7 +111,7 @@ Depending on the capabilities of the network adapter and its miniport driver, th
 
 <div class="alert"><b>Note</b>  If the wake-up signal is generated from D0, the signal does not cause a system wake-up. However, the wake-up signal can be used to signal a run-time event.</div>
 <div> </div>
-<b>NDIS_DEVICE_POWER_STATE</b> enumeration values are used in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566748">NDIS_PM_CAPABILITIES</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/hh451683">NDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS</a>,  and <a href="https://msdn.microsoft.com/library/windows/hardware/ff568751">NET_PNP_EVENT</a> structures, the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451492">NdisMIdleNotificationConfirm</a> function, and the <a href="https://msdn.microsoft.com/library/windows/hardware/ff569774">OID_PNP_CAPABILITIES</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff569778">OID_PNP_QUERY_POWER</a>, and <a href="https://msdn.microsoft.com/library/windows/hardware/ff569780">OID_PNP_SET_POWER</a> OID requests.
+<b>NDIS_DEVICE_POWER_STATE</b> enumeration values are used in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_pm_capabilities">NDIS_PM_CAPABILITIES</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_sriov_set_vf_power_state_parameters">NDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS</a>,  and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_pnp_event">NET_PNP_EVENT</a> structures, the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismidlenotificationconfirm">NdisMIdleNotificationConfirm</a> function, and the <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-pnp-capabilities">OID_PNP_CAPABILITIES</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-pnp-query-power">OID_PNP_QUERY_POWER</a>, and <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-pnp-set-power">OID_PNP_SET_POWER</a> OID requests.
 
 
 
@@ -121,31 +121,31 @@ Depending on the capabilities of the network adapter and its miniport driver, th
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566748">NDIS_PM_CAPABILITIES</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_pm_capabilities">NDIS_PM_CAPABILITIES</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451683">NDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_sriov_set_vf_power_state_parameters">NDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568751">NET_PNP_EVENT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_pnp_event">NET_PNP_EVENT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451492">NdisMIdleNotificationConfirm</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismidlenotificationconfirm">NdisMIdleNotificationConfirm</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569774">OID_PNP_CAPABILITIES</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-pnp-capabilities">OID_PNP_CAPABILITIES</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569778">OID_PNP_QUERY_POWER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-pnp-query-power">OID_PNP_QUERY_POWER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569780">OID_PNP_SET_POWER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-pnp-set-power">OID_PNP_SET_POWER</a>
  
 
  

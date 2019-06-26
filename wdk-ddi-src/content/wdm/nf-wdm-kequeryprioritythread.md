@@ -82,19 +82,19 @@ Thread priorities range from 0 to 31, where 0 is the lowest priority and 31 is t
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552084">KeGetCurrentThread</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kegetcurrentthread">KeGetCurrentThread</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553246">KeSetBasePriorityThread</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-kesetbaseprioritythread">KeSetBasePriorityThread</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553265">KeSetPriorityThread</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kesetprioritythread">KeSetPriorityThread</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559936">PsGetCurrentThread</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-psgetcurrentthread">PsGetCurrentThread</a>
  
 
  

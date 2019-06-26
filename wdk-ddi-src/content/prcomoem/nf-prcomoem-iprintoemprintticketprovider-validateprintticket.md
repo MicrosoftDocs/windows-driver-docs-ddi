@@ -82,7 +82,7 @@ If necessary, the <code>IPrintOemPrintTicketProvider::ValidatePrintTicket</code>
 
 
 
-<a href="https://msdn.microsoft.com/a32b5ec9-b4f2-4f33-879d-252806bd34ed">IPrintOemPrintTicketProvider</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nn-prcomoem-iprintoemprintticketprovider">IPrintOemPrintTicketProvider</a>
  
 
  

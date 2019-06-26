@@ -56,11 +56,11 @@ The DXVA_ConfigPictureDecode structure is sent by the host decoder to the accele
 
 ### -field dwFunction
 
-Indicates the type of query or response when using probing and locking commands. The most significant 24 bits of <b>dwFunction</b> is the <a href="https://msdn.microsoft.com/bfb1a98e-b9f0-4baa-b486-b2ff33a8bac5">DXVA_ConfigQueryOrReplyFlag</a> variable.
+Indicates the type of query or response when using probing and locking commands. The most significant 24 bits of <b>dwFunction</b> is the <a href="https://docs.microsoft.com/windows-hardware/drivers/display/dxva-configqueryorreplyflag-and-dxva-configqueryorreplyfunc-variables">DXVA_ConfigQueryOrReplyFlag</a> variable.
 
 The least significant 4 bits of the <i>DXVA_ConfigQueryOrReplyFlag</i> variable contains status indicators for the query or response being performed.
 
-The least significant 8 bits of <b>dwFunction</b> is the <a href="https://msdn.microsoft.com/6db9fa71-7bc2-4eb6-afcb-b16df48f7e8b">bDXVA_Func variable</a> that, in this case, is equal to 1.
+The least significant 8 bits of <b>dwFunction</b> is the <a href="https://docs.microsoft.com/windows-hardware/drivers/display/bdxva-func-variable">bDXVA_Func variable</a> that, in this case, is equal to 1.
 
 
 ### -field dwReservedBits
@@ -75,12 +75,12 @@ Indicates a GUID associated with the encryption protocol type for bitstream data
 
 ### -field guidConfigMBcontrolEncryption
 
-Indicates a GUID associated with the encryption protocol type for <a href="https://msdn.microsoft.com/7a416992-04d3-4307-83b3-9fb94c17d60e">macroblock control buffers</a>. The value DXVA_NoEncrypt (a GUID name defined in <i>dxva.h</i>) indicates that encryption is not applied. This is DXVA_NoEncrypt if <b>bConfigBitstreamRaw</b> is 1. 
+Indicates a GUID associated with the encryption protocol type for <a href="https://docs.microsoft.com/windows-hardware/drivers/display/macroblock-oriented-picture-decoding">macroblock control buffers</a>. The value DXVA_NoEncrypt (a GUID name defined in <i>dxva.h</i>) indicates that encryption is not applied. This is DXVA_NoEncrypt if <b>bConfigBitstreamRaw</b> is 1. 
 
 
 ### -field guidConfigResidDiffEncryption
 
-Indicates a GUID associated with the encryption protocol type for residual difference decoding data buffers (buffers containing spatial-domain data or sets of transform-domain coefficients for accelerator-based <a href="https://msdn.microsoft.com/5a140cc0-ecc5-46ff-be3f-3c92f0f67dca">IDCT</a>). This is DXVA_NoEncrypt if <b>bConfigBitstreamRaw</b> is 1. (DXVA_NoEncrypt is a GUID defined in <i>dxva.h</i> that indicates encryption is not applied.)
+Indicates a GUID associated with the encryption protocol type for residual difference decoding data buffers (buffers containing spatial-domain data or sets of transform-domain coefficients for accelerator-based <a href="https://docs.microsoft.com/windows-hardware/drivers/">IDCT</a>). This is DXVA_NoEncrypt if <b>bConfigBitstreamRaw</b> is 1. (DXVA_NoEncrypt is a GUID defined in <i>dxva.h</i> that indicates encryption is not applied.)
 
 
 ### -field bConfigBitstreamRaw
@@ -97,7 +97,7 @@ Specifies whether macroblock control commands are in raster scan order or in arb
 
 ### -field bConfigResidDiffHost
 
-Contains the host residual difference configuration (See <a href="https://msdn.microsoft.com/7a416992-04d3-4307-83b3-9fb94c17d60e">Macroblock-Oriented Picture Decoding</a> for more information). A value of 1 specifies that some residual difference decoding data may be sent as blocks in the spatial domain from the host. A value of zero specifies that spatial domain data will not be sent. This member is zero if <b>bConfigBitstreamRaw</b> is 1. It is preferred that an accelerator support both zero and 1.
+Contains the host residual difference configuration (See <a href="https://docs.microsoft.com/windows-hardware/drivers/display/macroblock-oriented-picture-decoding">Macroblock-Oriented Picture Decoding</a> for more information). A value of 1 specifies that some residual difference decoding data may be sent as blocks in the spatial domain from the host. A value of zero specifies that spatial domain data will not be sent. This member is zero if <b>bConfigBitstreamRaw</b> is 1. It is preferred that an accelerator support both zero and 1.
 
 
 ### -field bConfigSpatialResid8
@@ -130,7 +130,7 @@ If <b>bConfigIntraResidUnsigned</b> is 1, spatial domain blocks for intra macrob
 </ul>
 The <b>bConfigSpatialResid8</b> member must be zero if <b>bConfigResidDiffHost</b> is zero. There is no preference for one particular value of <b>bConfigSpatialResid8</b> when <b>bConfigResidDiffHost</b> is 1.
 
-<div class="alert"><b>Note</b>    For <a href="https://msdn.microsoft.com/5a140cc0-ecc5-46ff-be3f-3c92f0f67dca">intra pictures</a> with <i>BPP</i> equal to 8, spatial-domain blocks must be sent using 8-bit samples. For intra pictures with <i>BPP</i> greater than 8, spatial-domain blocks must be sent using 16-bit samples. (The <i>BPP</i> variable is the number of bits per sample for the uncompressed video, generally a value of 8.)<p class="note">If <b>bConfigIntraResidUnsigned</b> is zero, these samples are sent as signed integer values relative to a constant reference value of 2<sup>(BPP-1)</sup>. If <b>bConfigIntraResidUnsigned</b> is 1, these samples are sent as unsigned integer values relative to a constant reference value of zero.
+<div class="alert"><b>Note</b>    For <a href="https://docs.microsoft.com/windows-hardware/drivers/">intra pictures</a> with <i>BPP</i> equal to 8, spatial-domain blocks must be sent using 8-bit samples. For intra pictures with <i>BPP</i> greater than 8, spatial-domain blocks must be sent using 16-bit samples. (The <i>BPP</i> variable is the number of bits per sample for the uncompressed video, generally a value of 8.)<p class="note">If <b>bConfigIntraResidUnsigned</b> is zero, these samples are sent as signed integer values relative to a constant reference value of 2<sup>(BPP-1)</sup>. If <b>bConfigIntraResidUnsigned</b> is 1, these samples are sent as unsigned integer values relative to a constant reference value of zero.
 
 </div>
 <div> </div>
@@ -201,7 +201,7 @@ The preferred value for an accelerator to support is 1 if <b>bConfigResidDiffAcc
 
 ### -field bConfigSpecificIDCT
 
-Indicates the use of a specific <a href="https://msdn.microsoft.com/5a140cc0-ecc5-46ff-be3f-3c92f0f67dca">IDCT</a> method for off-host IDCT. A value of 1 indicates use of the IDCT specified in Annex W of ITU-T Recommendation H.263. A value of zero indicates that any compliant IDCT can be used for off-host IDCT. (Values other than zero and 1 are reserved for future use.)
+Indicates the use of a specific <a href="https://docs.microsoft.com/windows-hardware/drivers/">IDCT</a> method for off-host IDCT. A value of 1 indicates use of the IDCT specified in Annex W of ITU-T Recommendation H.263. A value of zero indicates that any compliant IDCT can be used for off-host IDCT. (Values other than zero and 1 are reserved for future use.)
 
 This member must be zero if <b>bConfigResidDiffAccelerator</b> is zero (simply indicating host-based residual difference decoding).
 
@@ -210,7 +210,7 @@ This member must be zero if <b>bConfigResidDiffAccelerator</b> is zero (simply i
 
 ### -field bConfig4GroupedCoefs
 
-A value of 1 indicates that transform coefficients for off-host IDCT will be sent using the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564053">DXVA_TCoef4Group</a> structure rather than the <a href="https://msdn.microsoft.com/library/windows/hardware/ff564060">DXVA_TCoefSingle</a> structure. This is zero if <b>bConfigResidDiffAccelerator</b> is zero or if <b>bConfigHostInverseScan</b> is 1.
+A value of 1 indicates that transform coefficients for off-host IDCT will be sent using the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ns-dxva-_dxva_tcoef4group">DXVA_TCoef4Group</a> structure rather than the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ns-dxva-_dxva_tcoefsingle">DXVA_TCoefSingle</a> structure. This is zero if <b>bConfigResidDiffAccelerator</b> is zero or if <b>bConfigHostInverseScan</b> is 1.
 
 The preferred value for an accelerator to support is zero if <b>bConfigResidDiffAccelerator</b> is 1.
 
@@ -229,27 +229,27 @@ For some types of bitstreams, forcing macroblock control commands within each ma
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563983">DXVA_MBctrl_I_HostResidDiff_1</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ns-dxva-_dxva_mbctrl_i_hostresiddiff_1">DXVA_MBctrl_I_HostResidDiff_1</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563989">DXVA_MBctrl_I_OffHostIDCT_1</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ns-dxva-_dxva_mbctrl_i_offhostidct_1">DXVA_MBctrl_I_OffHostIDCT_1</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563993">DXVA_MBctrl_P_HostResidDiff_1</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ns-dxva-_dxva_mbctrl_p_hostresiddiff_1">DXVA_MBctrl_P_HostResidDiff_1</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563997">DXVA_MBctrl_P_OffHostIDCT_1</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ns-dxva-_dxva_mbctrl_p_offhostidct_1">DXVA_MBctrl_P_OffHostIDCT_1</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564053">DXVA_TCoef4Group</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ns-dxva-_dxva_tcoef4group">DXVA_TCoef4Group</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564060">DXVA_TCoefSingle</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ns-dxva-_dxva_tcoefsingle">DXVA_TCoefSingle</a>
  
 
  

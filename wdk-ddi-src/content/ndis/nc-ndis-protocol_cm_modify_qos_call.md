@@ -64,13 +64,13 @@ The
 
 Specifies the handle to a call manager-allocated context area in which the call manager maintains
      its per-VC state. The call manager supplied this handle to NDIS for its 
-     <a href="https://msdn.microsoft.com/b086dd24-74f5-474a-8684-09bf92ac731b">ProtocolCoCreateVc</a> function.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_co_create_vc">ProtocolCoCreateVc</a> function.
 
 
 ### -param CallParameters [in]
 
 Pointer to a 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a> structure that contains
+     <a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff545384(v=vs.85)">CO_CALL_PARAMETERS</a> structure that contains
      the new call parameters, as specified by a connection-oriented client, for the VC.
 
 
@@ -108,7 +108,7 @@ Indicates that the call manager successfully changed the parameters of the call 
 Indicates that the call manager will complete the request to modify the call parameters
        asynchronously. When the call manager has completed all operations necessary to modify the call
        parameters, it must call 
-       <a href="https://msdn.microsoft.com/8489dc63-8e92-45c9-b4a8-593b511743b0">
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndiscmmodifycallqoscomplete">
        NdisCmModifyCallQoSComplete</a>.
 
 </td>
@@ -165,16 +165,16 @@ Indicates that the call parameters could not be set to the call parameters provi
     connection. If the call manager is required to communicate with network control agents (in other words, a
     networking switch) it should use a virtual connection to the network control agents that it established
     in its 
-    <a href="https://msdn.microsoft.com/1958722e-012e-4110-a82c-751744bcf9b5">ProtocolBindAdapterEx</a> function.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_bind_adapter_ex">ProtocolBindAdapterEx</a> function.
     Stand-alone call managers communicated to the network agents by calling 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561728">NdisCoSendNetBufferLists</a>.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndiscosendnetbufferlists">NdisCoSendNetBufferLists</a>.
     Miniport drivers with integrated call-management support never call 
     <b>NdisCoSendNetBufferLists</b>. Instead, such a driver simply transfers the data over the network to the
     target network agent.
 
 After communicating with the network and if the changes were successful, the call manager must then
     call 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561649">NdisCmActivateVc</a> with the new call
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndiscmactivatevc">NdisCmActivateVc</a> with the new call
     parameters. This notifies NDIS and/or the connection-oriented miniport driver that the call parameters
     have changed and provides the miniport driver with an opportunity to validate those parameters.
 
@@ -183,7 +183,7 @@ If either the network cannot accept the new call parameters or the underlying mi
     before any modifications were attempted, and return NDIS_STATUS_FAILURE.
 
 <h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>
-To define a <i>ProtocolCmModifyCallQoS</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
+To define a <i>ProtocolCmModifyCallQoS</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/code-analysis-for-drivers">Code Analysis for Drivers</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
 
 For example, to define a <i>ProtocolCmModifyCallQoS</i> function that is named "MyCmModifyCallQoS", use the <b>PROTOCOL_CM_MODIFY_QOS_CALL</b> type as shown in this code example:
 
@@ -215,7 +215,7 @@ NDIS_STATUS
 </td>
 </tr>
 </table></span></div>
-The <b>PROTOCOL_CM_MODIFY_QOS_CALL</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_CM_MODIFY_QOS_CALL</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/232c4272-0bf0-4a4e-9560-3bceeca8a3e3">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
+The <b>PROTOCOL_CM_MODIFY_QOS_CALL</b> function type is defined in the Ndis.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition.  The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>PROTOCOL_CM_MODIFY_QOS_CALL</b> function type in the header file are used.  For more information about the requirements for function declarations, see <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/declaring-functions-by-using-function-role-types-for-ndis-drivers">Declaring Functions by Using Function Role Types for NDIS Drivers</a>.
 
 For information about  _Use_decl_annotations_, see <a href="https://go.microsoft.com/fwlink/p/?linkid=286697">Annotating Function Behavior</a>. 
 
@@ -227,19 +227,19 @@ For information about  _Use_decl_annotations_, see <a href="https://go.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561649">NdisCmActivateVc</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndiscmactivatevc">NdisCmActivateVc</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561679">NdisCmModifyCallQoSComplete</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndiscmmodifycallqoscomplete">NdisCmModifyCallQoSComplete</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561728">NdisCoSendNetBufferLists</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndiscosendnetbufferlists">NdisCoSendNetBufferLists</a>
 
 
 
-<a href="https://msdn.microsoft.com/b086dd24-74f5-474a-8684-09bf92ac731b">ProtocolCoCreateVc</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_co_create_vc">ProtocolCoCreateVc</a>
  
 
  

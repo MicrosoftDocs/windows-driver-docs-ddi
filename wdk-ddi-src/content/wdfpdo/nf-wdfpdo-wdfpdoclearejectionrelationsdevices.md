@@ -77,7 +77,7 @@ A system bug check occurs if the driver supplies an invalid object handle.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/7820bb71-7218-4c5f-af2b-f41e1b5f696d">Supporting Ejectable Devices</a>.
+For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/supporting-ejectable-devices">Supporting Ejectable Devices</a>.
 
 
 #### Examples
@@ -102,11 +102,11 @@ The following code example clears the specified device's list of ejection relati
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548770">WdfPdoAddEjectionRelationsPhysicalDevice</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfpdo/nf-wdfpdo-wdfpdoaddejectionrelationsphysicaldevice">WdfPdoAddEjectionRelationsPhysicalDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548814">WdfPdoRemoveEjectionRelationsPhysicalDevice</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfpdo/nf-wdfpdo-wdfpdoremoveejectionrelationsphysicaldevice">WdfPdoRemoveEjectionRelationsPhysicalDevice</a>
  
 
  

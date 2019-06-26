@@ -56,7 +56,7 @@ The KSPROPERTY_DESCRIPTION structure specifies the size and type of values conta
 
 ### -field AccessFlags
 
-Specifies the access allowed to this property. A basic-support request sets this member to the bitwise OR of the flags for all the access types that the handler supports for this property. For a list of possible flag values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>.
+Specifies the access allowed to this property. A basic-support request sets this member to the bitwise OR of the flags for all the access types that the handler supports for this property. For a list of possible flag values, see <a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>.
 
 
 ### -field DescriptionSize
@@ -66,12 +66,12 @@ Specifies total size in bytes of the KSPROPERTY_DESCRIPTION structure and any va
 
 ### -field PropTypeSet
 
-A structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff562676">KSIDENTIFIER</a>. If supported by the specific property, specifies the type of values contained in this property. This group is uniquely specified by a GUID, such that new types of values may be created without overlapping with extensions to this set. The value types indicate the type of the value (like VT_BOOL, VT_UI4 in the standard set). This is GUID_NULL, with an identifier of zero, if values information is not supported by this property.
+A structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksidentifier">KSIDENTIFIER</a>. If supported by the specific property, specifies the type of values contained in this property. This group is uniquely specified by a GUID, such that new types of values may be created without overlapping with extensions to this set. The value types indicate the type of the value (like VT_BOOL, VT_UI4 in the standard set). This is GUID_NULL, with an identifier of zero, if values information is not supported by this property.
 
 
 ### -field MembersListCount
 
-Specifies the number of <a href="https://msdn.microsoft.com/library/windows/hardware/ff565189">KSPROPERTY_MEMBERSHEADER</a> structures to follow this header.
+Specifies the number of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksproperty_membersheader">KSPROPERTY_MEMBERSHEADER</a> structures to follow this header.
 
 
 ### -field Reserved
@@ -85,11 +85,11 @@ Reserved for future use. Set to zero.
 
 A driver returns the <b>KSPROPERTY_DESCRIPTION</b> structure in response to a basic support property request from a client.
 
-The property values type set is specified by a KSIDENTIFIER structure. The basic set supported is <a href="https://msdn.microsoft.com/library/windows/hardware/ff566576">KSPROPSETID_General</a>. The identifiers within that set are the standard VARENUM types used for OLE.
+The property values type set is specified by a KSIDENTIFIER structure. The basic set supported is <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/kspropsetid-general">KSPROPSETID_General</a>. The identifiers within that set are the standard VARENUM types used for OLE.
 
-The values information that may follow the KSPROPERTY_DESCRIPTION structure is described by a list of <a href="https://msdn.microsoft.com/library/windows/hardware/ff565190">KSPROPERTY_MEMBERSLIST</a> structures, each of which contains data range information.
+The values information that may follow the KSPROPERTY_DESCRIPTION structure is described by a list of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksproperty_memberslist">KSPROPERTY_MEMBERSLIST</a> structures, each of which contains data range information.
 
-For more information, see <a href="https://msdn.microsoft.com/a385929e-1934-4d88-aaf9-ff1ddbfd30f7">KS Properties</a>.
+For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ks-properties">KS Properties</a>.
 
 
 
@@ -99,19 +99,19 @@ For more information, see <a href="https://msdn.microsoft.com/a385929e-1934-4d88
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562676">KSIDENTIFIER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksidentifier">KSIDENTIFIER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565176">KSPROPERTY_ITEM</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksproperty_item">KSPROPERTY_ITEM</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565189">KSPROPERTY_MEMBERSHEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksproperty_membersheader">KSPROPERTY_MEMBERSHEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565966">KSPROPERTY_VALUES</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksproperty_values">KSPROPERTY_VALUES</a>
  
 
  

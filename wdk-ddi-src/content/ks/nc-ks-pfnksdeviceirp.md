@@ -49,15 +49,15 @@ req.typenames:
 An AVStream minidriver's IRP handler routine is called when these IRPs is dispatched by the device.
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551705">IRP_MN_QUERY_REMOVE_DEVICE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-remove-device">IRP_MN_QUERY_REMOVE_DEVICE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551725">IRP_MN_QUERY_STOP_DEVICE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-stop-device">IRP_MN_QUERY_STOP_DEVICE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551687">IRP_MN_QUERY_INTERFACE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-interface">IRP_MN_QUERY_INTERFACE</a>
 
 
 
@@ -68,7 +68,7 @@ An AVStream minidriver's IRP handler routine is called when these IRPs is dispat
 
 ### -param Device [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561681">KSDEVICE</a> that dispatched the IRP.
+Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksdevice">KSDEVICE</a> that dispatched the IRP.
 
 
 ### -param Irp [in]
@@ -96,12 +96,12 @@ Should return STATUS_SUCCESS or the error code that was returned from the attemp
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551705">IRP_MN_QUERY_REMOVE_DEVICE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-remove-device">IRP_MN_QUERY_REMOVE_DEVICE</a>
 </td>
 <td>
-The minidriver specifies this routine's address in the <b>QueryRemove</b> member of its <a href="https://msdn.microsoft.com/library/windows/hardware/ff561693">KSDEVICE_DISPATCH</a> structure.
+The minidriver specifies this routine's address in the <b>QueryRemove</b> member of its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksdevice_dispatch">KSDEVICE_DISPATCH</a> structure.
 
-This routine is called when an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551705">IRP_MN_QUERY_REMOVE_DEVICE</a> is dispatched by the device. It will usually be provided by minidrivers that want to prevent removal of the device or by minidrivers that must disallow activity that would otherwise prevent them from committing to a device removal operation. If this routine is not provided, AVStream will assume that the device can commit to a removal.
+This routine is called when an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-remove-device">IRP_MN_QUERY_REMOVE_DEVICE</a> is dispatched by the device. It will usually be provided by minidrivers that want to prevent removal of the device or by minidrivers that must disallow activity that would otherwise prevent them from committing to a device removal operation. If this routine is not provided, AVStream will assume that the device can commit to a removal.
 
 The routine is called at IRQL = PASSIVE_LEVEL and may not return STATUS_PENDING; a success code indicates that the device can commit to a removal and an error code indicates that it cannot.
 
@@ -113,10 +113,10 @@ This routine is optional.
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551725">IRP_MN_QUERY_STOP_DEVICE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-stop-device">IRP_MN_QUERY_STOP_DEVICE</a>
 </td>
 <td>
-The minidriver specifies a pointer to this routine in the <b>QueryStop</b> member of its <a href="https://msdn.microsoft.com/library/windows/hardware/ff561693">KSDEVICE_DISPATCH</a> structure.
+The minidriver specifies a pointer to this routine in the <b>QueryStop</b> member of its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksdevice_dispatch">KSDEVICE_DISPATCH</a> structure.
 
 Use <i>AVStrMiniQueryStop</i> to prevent the stopping of the device or to disallow activity that would prevent the minidriver from committing to a stop operation. If this routine is not specified, AVStream assumes that the minidriver can commit to a stop operation.
 
@@ -128,12 +128,12 @@ Success indicates that the device can commit to a stop and an error code indicat
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551687">IRP_MN_QUERY_INTERFACE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-interface">IRP_MN_QUERY_INTERFACE</a>
 </td>
 <td>
-A driver or system component sends this IRP to get information about an interface exported by your driver. For more information about the IRP, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff551687">IRP_MN_QUERY_INTERFACE</a>.
+A driver or system component sends this IRP to get information about an interface exported by your driver. For more information about the IRP, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-interface">IRP_MN_QUERY_INTERFACE</a>.
 
-The minidriver specifies this routine's address in the <b>QueryInterface</b> member of its <a href="https://msdn.microsoft.com/library/windows/hardware/ff561693">KSDEVICE_DISPATCH</a> structure.
+The minidriver specifies this routine's address in the <b>QueryInterface</b> member of its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksdevice_dispatch">KSDEVICE_DISPATCH</a> structure.
 
 This routine is optional.
 
@@ -150,11 +150,11 @@ This routine is optional.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561681">KSDEVICE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksdevice">KSDEVICE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561693">KSDEVICE_DISPATCH</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksdevice_dispatch">KSDEVICE_DISPATCH</a>
  
 
  

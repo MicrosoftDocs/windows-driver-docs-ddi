@@ -84,11 +84,11 @@ Do not use. Reserved for future use.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406359">BDCB_IMAGE_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_bdcb_image_information">BDCB_IMAGE_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/28BA4B54-F493-4D79-89DF-D890EBCF1E9C">BOOT_DRIVER_CALLBACK_FUNCTION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-ioregisterbootdrivercallback">BOOT_DRIVER_CALLBACK_FUNCTION</a>
  
 
  

@@ -47,7 +47,7 @@ req.typenames: SYSENV_VALUE, *PSYSENV_VALUE
 
 
 Stores the value of a system environment variable using
-    SysEnv device. This structure is used in the <a href="https://msdn.microsoft.com/library/windows/hardware/mt791526">IOCTL_SYSENV_GET_VARIABLE</a> request.
+    SysEnv device. This structure is used in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddsysenv/ni-ntddsysenv-ioctl_sysenv_get_variable">IOCTL_SYSENV_GET_VARIABLE</a> request.
 
 
 ## -struct-fields
@@ -82,7 +82,7 @@ The value of the system environment variable.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt791526">IOCTL_SYSENV_GET_VARIABLE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddsysenv/ni-ntddsysenv-ioctl_sysenv_get_variable">IOCTL_SYSENV_GET_VARIABLE</a>
  
 
  

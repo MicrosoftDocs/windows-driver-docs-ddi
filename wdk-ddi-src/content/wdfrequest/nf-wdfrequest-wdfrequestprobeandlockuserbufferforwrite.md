@@ -146,7 +146,7 @@ There is insufficient memory to complete the operation.
 </table>
  
 
-This method might also return other <a href="https://msdn.microsoft.com/library/windows/hardware/ff557697">NTSTATUS values</a>.
+This method might also return other <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS values</a>.
 
 
 
@@ -164,18 +164,18 @@ The user output buffer typically receives information that the driver has read f
 
 Only a top-level driver can call the <b>WdfRequestProbeAndLockUserBufferForWrite</b> method, because the method requires the process context of the process that created the I/O request.
 
-The user-mode buffer that the <i>Buffer</i> parameter specifies can be the buffer that <a href="https://msdn.microsoft.com/library/windows/hardware/ff550024">WdfRequestRetrieveUnsafeUserOutputBuffer</a> retrieves, or it can be a different user-mode output buffer. For example, an I/O control code that uses the buffered access method might pass a structure that contains an embedded pointer to a user-mode buffer. In such a case, the driver can use<b>WdfRequestProbeAndLockUserBufferForWrite</b> to obtain a memory object for the buffer. 
+The user-mode buffer that the <i>Buffer</i> parameter specifies can be the buffer that <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfrequest/nf-wdfrequest-wdfrequestretrieveunsafeuseroutputbuffer">WdfRequestRetrieveUnsafeUserOutputBuffer</a> retrieves, or it can be a different user-mode output buffer. For example, an I/O control code that uses the buffered access method might pass a structure that contains an embedded pointer to a user-mode buffer. In such a case, the driver can use<b>WdfRequestProbeAndLockUserBufferForWrite</b> to obtain a memory object for the buffer. 
 
 The buffer length that the <i>Length</i> parameter specifies must not be larger than the buffer's actual size. Otherwise, drivers can access memory outside of the buffer, which is a security risk.
 
-If <b>WdfRequestProbeAndLockUserBufferForWrite</b> returns STATUS_SUCCESS, the driver receives a handle to a framework memory object that represents the user-mode buffer. To access the buffer, the driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff548715">WdfMemoryGetBuffer</a>.
+If <b>WdfRequestProbeAndLockUserBufferForWrite</b> returns STATUS_SUCCESS, the driver receives a handle to a framework memory object that represents the user-mode buffer. To access the buffer, the driver must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfmemory/nf-wdfmemory-wdfmemorygetbuffer">WdfMemoryGetBuffer</a>.
 
 For more information about <b>WdfRequestProbeAndLockUserBufferForWrite</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/accessing-data-buffers-in-wdf-drivers">Accessing Data Buffers in Framework-Based Drivers</a>.
 
 
 #### Examples
 
-For a code example that uses <b>WdfRequestProbeAndLockUserBufferForWrite</b>, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff549987">WdfRequestProbeAndLockUserBufferForRead</a>.
+For a code example that uses <b>WdfRequestProbeAndLockUserBufferForWrite</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfrequest/nf-wdfrequest-wdfrequestprobeandlockuserbufferforread">WdfRequestProbeAndLockUserBufferForRead</a>.
 
 <div class="code"></div>
 
@@ -186,15 +186,15 @@ For a code example that uses <b>WdfRequestProbeAndLockUserBufferForWrite</b>, se
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548715">WdfMemoryGetBuffer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfmemory/nf-wdfmemory-wdfmemorygetbuffer">WdfMemoryGetBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549987">WdfRequestProbeAndLockUserBufferForRead</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfrequest/nf-wdfrequest-wdfrequestprobeandlockuserbufferforread">WdfRequestProbeAndLockUserBufferForRead</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550024">WdfRequestRetrieveUnsafeUserOutputBuffer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfrequest/nf-wdfrequest-wdfrequestretrieveunsafeuseroutputbuffer">WdfRequestRetrieveUnsafeUserOutputBuffer</a>
  
 
  

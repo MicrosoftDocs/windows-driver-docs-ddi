@@ -102,7 +102,7 @@ The plug-in does not intend to override the default namespace that the core driv
 
 
 
-The plug-in should specify the name of the private namespace URI that the core driver should use to handle any features that are defined in the GPD file or PPD file that the core driver does not recognize. The plug-in might specify a set of namespaces as a result of the call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553151">IPrintOemPrintTicketProvider::BindPrinter</a> method. The purpose of the <code>IPrintOemPrintTicketProvider::QueryDeviceDefaultNamespace</code> is to inform the core driver about which of these namespaces is to be used as the default namespace. The core driver associates all of the features that it does not recognize with this default namespace, and places any such features in the print ticket. 
+The plug-in should specify the name of the private namespace URI that the core driver should use to handle any features that are defined in the GPD file or PPD file that the core driver does not recognize. The plug-in might specify a set of namespaces as a result of the call to the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff553151(v=vs.85)">IPrintOemPrintTicketProvider::BindPrinter</a> method. The purpose of the <code>IPrintOemPrintTicketProvider::QueryDeviceDefaultNamespace</code> is to inform the core driver about which of these namespaces is to be used as the default namespace. The core driver associates all of the features that it does not recognize with this default namespace, and places any such features in the print ticket. 
 
 <div class="alert"><b>Note</b>    When <code>IPrintOemPrintTicketProvider::QueryDeviceDefaultNamespace</code> returns, the core driver is responsible for adding the private namespace URI that the plug-in has specified (in *<i>pbstrNamespaceUri</i>) to the root node of the DOM document. The core driver also must define a prefix for the private namespace that the plug-in should use when the plug-in adds a new node to the print ticket under the plug-in's private namespace. The plug-in should not define its own prefix for this default private namespace URI.</div>
 <div> </div>
@@ -114,11 +114,11 @@ The plug-in should specify the name of the private namespace URI that the core d
 
 
 
-<a href="https://msdn.microsoft.com/a32b5ec9-b4f2-4f33-879d-252806bd34ed">IPrintOemPrintTicketProvider</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nn-prcomoem-iprintoemprintticketprovider">IPrintOemPrintTicketProvider</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553151">IPrintOemPrintTicketProvider::BindPrinter</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff553151(v=vs.85)">IPrintOemPrintTicketProvider::BindPrinter</a>
  
 
  

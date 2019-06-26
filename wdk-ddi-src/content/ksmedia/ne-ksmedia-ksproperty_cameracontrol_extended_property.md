@@ -151,7 +151,7 @@ This enumerates the [KSPROPERTY_CAMERACONTROL_EXTENDED_ZOOM](https://docs.micros
 
 ### -field KSPROPERTY_CAMERACONTROL_EXTENDED_MCC
 
-This enumerates the [KSPROPERTY_CAMERACONTROL_EXTENDED_MCC](https://docs.microsoft.com/previous-versions/dn917949(v%3Dvs.85)) control.
+This enumerates the [KSPROPERTY_CAMERACONTROL_EXTENDED_MCC](https://docs.microsoft.com/previous-versions/dn917949(v=vs.85)) control.
 
 ### -field KSPROPERTY_CAMERACONTROL_EXTENDED_ISO_ADVANCED
 

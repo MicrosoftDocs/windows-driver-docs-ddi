@@ -74,49 +74,49 @@ The <b>ExtRemoteList</b> class includes the following methods:
 <dl>
 <dd>
 
-<a href="https://msdn.microsoft.com/db670175-ad3b-4bed-b9ad-625494319256">ExtRemoteList::ExtRemoteList (ExtRemoteData)</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-extremotelist-extremotelist(extremotedata__ulong_bool)">ExtRemoteList::ExtRemoteList (ExtRemoteData)</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/c23487bb-c385-4633-b27c-12a49492f339">ExtRemoteList::ExtRemoteList (ULONG64)</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-extremotelist-extremotelist(ulong64_ulong_bool)">ExtRemoteList::ExtRemoteList (ULONG64)</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/d7d9163b-54bb-4753-96a3-f92eddbe25f5">StartHead</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-extremotelist-starthead">StartHead</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/fe9aec87-a464-4ea9-b9ca-3dbb91bb4e3e">StartTail</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-extremotelist-starttail">StartTail</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/412a77c8-eb10-43c5-bc45-2c61858463a7">HasNode</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-extremotelist-hasnode">HasNode</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/20c4ec7e-6dc1-4a4f-99d1-bb53213771a5">GetNodeOffset</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-extremotelist-getnodeoffset">GetNodeOffset</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926903">Next</a>
+<a href="https://docs.microsoft.com/windows-hardware/test/wpt/next-ienumprofile">Next</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/0dc65a1a-2188-417b-9f5c-4a3d2dc0bbb0">Prev</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-extremotelist-prev">Prev</a>
 
 
 </dd>
@@ -153,7 +153,7 @@ The maximum number of nodes that can be returned when iterating over the list.  
 </dd>
 <dt><a id="m_Node"></a><a id="m_node"></a><a id="M_NODE"></a><b>m_Node</b></dt>
 <dd>
-The pointer to the current item in the list.  <b>m_Node</b> is not set until an iteration is initialized using <a href="https://msdn.microsoft.com/d7d9163b-54bb-4753-96a3-f92eddbe25f5">StartHead</a> or <a href="https://msdn.microsoft.com/fe9aec87-a464-4ea9-b9ca-3dbb91bb4e3e">StartTail</a>.  <b>m_Node</b> is of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff544008">ExtRemoteData</a>, which describes the pointer.
+The pointer to the current item in the list.  <b>m_Node</b> is not set until an iteration is initialized using <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-extremotelist-starthead">StartHead</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-extremotelist-starttail">StartTail</a>.  <b>m_Node</b> is of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-extremotedata-extremotedata(pcstr_ulong64_ulong)">ExtRemoteData</a>, which describes the pointer.
 
 </dd>
 <dt><a id="m_CurIter"></a><a id="m_curiter"></a><a id="M_CURITER"></a><b>m_CurIter</b></dt>
@@ -168,15 +168,15 @@ The number of steps taken in the current list iteration.  For doubly-linked list
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544008">ExtRemoteData</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-extremotedata-extremotedata(pcstr_ulong64_ulong)">ExtRemoteData</a>
 
 
 
-<a href="https://msdn.microsoft.com/d7d9163b-54bb-4753-96a3-f92eddbe25f5">StartHead</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-extremotelist-starthead">StartHead</a>
 
 
 
-<a href="https://msdn.microsoft.com/fe9aec87-a464-4ea9-b9ca-3dbb91bb4e3e">StartTail</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-extremotelist-starttail">StartTail</a>
  
 
  

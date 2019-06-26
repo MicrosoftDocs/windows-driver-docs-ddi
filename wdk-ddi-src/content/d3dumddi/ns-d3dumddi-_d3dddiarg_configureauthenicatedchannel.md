@@ -46,7 +46,7 @@ req.typenames: D3DDDIARG_CONFIGUREAUTHENTICATEDCHANNEL
 ## -description
 
 
-The D3DDDIARG_CONFIGUREAUTHENTICATEDCHANNEL structure describes the state that is set within an authenticated channel by using the <a href="https://msdn.microsoft.com/95485e96-fa4f-4c88-b88b-97b79f507abd">ConfigureAuthenticatedChannel</a> function. 
+The D3DDDIARG_CONFIGUREAUTHENTICATEDCHANNEL structure describes the state that is set within an authenticated channel by using the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_configureauthenicatedchannel">ConfigureAuthenticatedChannel</a> function. 
 
 
 ## -struct-fields
@@ -66,7 +66,7 @@ The D3DDDIARG_CONFIGUREAUTHENTICATEDCHANNEL structure describes the state that i
 
 ### -field pOutputData
 
-[in/out] A pointer to a buffer that describes the information that the <a href="https://msdn.microsoft.com/95485e96-fa4f-4c88-b88b-97b79f507abd">ConfigureAuthenticatedChannel</a> function returns. 
+[in/out] A pointer to a buffer that describes the information that the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_configureauthenicatedchannel">ConfigureAuthenticatedChannel</a> function returns. 
 
 
 ## -remarks
@@ -91,7 +91,7 @@ The <b>SequenceNumber</b> member specifies a unique number that the driver can u
 </ul>
 The <b>pOutputData</b> member points to a D3DAUTHENTICATEDCHANNEL_CONFIGURE_OUTPUT structure that contains the configuration type and the sequence number of the output buffer to prevent against replay attacks. 
 
-Configuration state that an authenticated channel sets cannot be disabled by another authenticated channel. A call to the driver's <a href="https://msdn.microsoft.com/95485e96-fa4f-4c88-b88b-97b79f507abd">ConfigureAuthenticatedChannel</a> function with such an attempt   fails. 
+Configuration state that an authenticated channel sets cannot be disabled by another authenticated channel. A call to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_configureauthenicatedchannel">ConfigureAuthenticatedChannel</a> function with such an attempt   fails. 
 
 
 
@@ -101,7 +101,7 @@ Configuration state that an authenticated channel sets cannot be disabled by ano
 
 
 
-<a href="https://msdn.microsoft.com/95485e96-fa4f-4c88-b88b-97b79f507abd">ConfigureAuthenticatedChannel</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_configureauthenicatedchannel">ConfigureAuthenticatedChannel</a>
  
 
  

@@ -78,7 +78,7 @@ Specifies the array to be populated by the converted values.  The types of these
 
 #### - OutType [in]
 
-Specifies the array of desired types for the converted values. For possible values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff541719">DEBUG_VALUE</a>.  The number of elements that this array holds is <i>Count</i>.
+Specifies the array of desired types for the converted values. For possible values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/ns-dbgeng-_debug_value">DEBUG_VALUE</a>.  The number of elements that this array holds is <i>Count</i>.
 
 
 ## -returns
@@ -104,7 +104,7 @@ The method was successful.
 </table>
  
 
-This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 
 
@@ -123,23 +123,23 @@ This method converts an array of values of one type into values of another type.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539158">CoerceValue</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-coercevalue">CoerceValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541719">DEBUG_VALUE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/ns-dbgeng-_debug_value">DEBUG_VALUE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550508">IDebugControl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugcontrol">IDebugControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550512">IDebugControl2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugcontrol2">IDebugControl2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550519">IDebugControl3</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugcontrol3">IDebugControl3</a>
  
 
  

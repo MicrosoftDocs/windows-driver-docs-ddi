@@ -50,23 +50,23 @@ Initializes the UCSI extension (UcmUcsiCx).
 ## -parameters
 
 ### -param WdfDevice
-A handle to a framework device object that the client driver received in a previous call to [**WdfDeviceCreate**](https://msdn.microsoft.com/library/windows/hardware/ff545926).
+A handle to a framework device object that the client driver received in a previous call to [**WdfDeviceCreate**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nf-wdfdevice-wdfdevicecreate).
 
 ### -param Config
 A pointer to a caller-supplied [**UCMUCSI_DEVICE_CONFIG**](ns-ucmucsidevice-_ucmucsi_device_config.md) structure that is initialized by calling [**UCMUCSI_DEVICE_CONFIG_INIT**](nf-ucmucsidevice-ucmucsi_device_config_init.md).
 
 ## -returns
-Returns STATUS_SUCCESS if the operation succeeds. Otherwise, returns an appropriate [NTSTATUS](https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505) code.
+Returns STATUS_SUCCESS if the operation succeeds. Otherwise, returns an appropriate [NTSTATUS](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values) code.
 
 ## -remarks
-The client driver must call **UcmUcsiDeviceInitialize** in the driver's [**EVT_WDF_DRIVER_DEVICE_ADD**](https://msdn.microsoft.com/library/windows/hardware/ff541693) implementation after calling [**WdfDeviceCreate**](https://msdn.microsoft.com/library/windows/hardware/ff545926) successfully.
+The client driver must call **UcmUcsiDeviceInitialize** in the driver's [**EVT_WDF_DRIVER_DEVICE_ADD**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add) implementation after calling [**WdfDeviceCreate**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nf-wdfdevice-wdfdevicecreate) successfully.
 
 ## -see-also
 
-[**EVT_WDF_DRIVER_DEVICE_ADD**](https://msdn.microsoft.com/library/windows/hardware/ff541693)
+[**EVT_WDF_DRIVER_DEVICE_ADD**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add)
 
 [**UCMUCSI_DEVICE_CONFIG**](ns-ucmucsidevice-_ucmucsi_device_config.md)
 
 [**UCMUCSI_DEVICE_CONFIG_INIT**](nf-ucmucsidevice-ucmucsi_device_config_init.md)
 
-[**WdfDeviceCreate**](https://msdn.microsoft.com/library/windows/hardware/ff545926)
+[**WdfDeviceCreate**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nf-wdfdevice-wdfdevicecreate)

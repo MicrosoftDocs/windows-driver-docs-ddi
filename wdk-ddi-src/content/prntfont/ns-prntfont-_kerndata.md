@@ -66,14 +66,14 @@ Specifies the number of elements in the <b>KernPair</b> array.
 
 ### -field KernPair
 
-Is an array of <a href="https://msdn.microsoft.com/library/windows/hardware/ff565630">FD_KERNINGPAIR</a> structures.
+Is an array of <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_fd_kerningpair">FD_KERNINGPAIR</a> structures.
 
 
 ## -remarks
 
 
 
-A .ufm file's KERNDATA structures are accessed by a pointer in the file's <a href="https://msdn.microsoft.com/library/windows/hardware/ff563587">UNIFM_HDR</a> structure.
+A .ufm file's KERNDATA structures are accessed by a pointer in the file's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prntfont/ns-prntfont-_unifm_hdr">UNIFM_HDR</a> structure.
 
 
 
@@ -83,11 +83,11 @@ A .ufm file's KERNDATA structures are accessed by a pointer in the file's <a hre
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565630">FD_KERNINGPAIR</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-winddi-_fd_kerningpair">FD_KERNINGPAIR</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563587">UNIFM_HDR</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prntfont/ns-prntfont-_unifm_hdr">UNIFM_HDR</a>
  
 
  

@@ -69,7 +69,7 @@ Array of palette colors.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567675">KS_RGBQUAD</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-tagks_rgbquad">KS_RGBQUAD</a>
  
 
  

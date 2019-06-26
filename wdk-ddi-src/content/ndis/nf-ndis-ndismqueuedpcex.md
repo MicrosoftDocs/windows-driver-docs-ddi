@@ -59,7 +59,7 @@ NDIS miniport drivers call the
 ### -param NdisInterruptHandle [in]
 
 An interrupt handle that the miniport driver obtained in a previous call to the 
-     <a href="https://msdn.microsoft.com/db0b3d51-5bbb-45fb-8c45-dda8c2212b5f">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismregisterinterruptex">
      NdisMRegisterInterruptEx</a> function.
 
 
@@ -68,9 +68,9 @@ An interrupt handle that the miniport driver obtained in a previous call to the
 An MSI message ID for the DPC. If the DPC is for a line-based interrupt, this parameter is not
      used and it should be set to zero. Otherwise, 
      <i>MessageId</i> is an index to the 
-     <a href="https://msdn.microsoft.com/e5007381-2436-4eb6-85cd-7145361ab793">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_io_interrupt_message_info_entry">
      IO_INTERRUPT_MESSAGE_INFO_ENTRY</a> structure inside a 
-     <a href="https://msdn.microsoft.com/d740d55e-6549-494d-9b2a-39d5c2e670d3">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_io_interrupt_message_info">
      IO_INTERRUPT_MESSAGE_INFO</a> structure. NDIS passes a pointer to the associated
      IO_INTERRUPT_MESSAGE_INFO structure at the 
      <b>MessageInfoTable</b> member when the driver successfully registers for MSI with the 
@@ -89,8 +89,8 @@ A bitmap that indicates target processors. NDIS should schedule a DPC for each t
 
 A pointer to a caller-specified context area. NDIS passes this pointer to the 
      <i>MiniportDpcContext</i> parameter of the 
-     <a href="https://msdn.microsoft.com/345715fb-878c-44d8-bf78-f3add10dd02b">MiniportInterruptDPC</a> and 
-     <a href="https://msdn.microsoft.com/c1eca20b-eda1-442c-8644-798fa864d5d7">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_interrupt_dpc">MiniportInterruptDPC</a> and 
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_message_interrupt_dpc">
      MiniportMessageInterruptDPC</a> functions.
 
 
@@ -116,21 +116,21 @@ If the driver requested a DPC for a CPU, and NDIS indicates that it did not sche
 
 NDIS 6.20 and later miniport drivers call 
     <b>NdisMQueueDpcEx</b> to request DPC calls for other processors. NDIS calls the 
-    <a href="https://msdn.microsoft.com/345715fb-878c-44d8-bf78-f3add10dd02b">MiniportInterruptDPC</a> or 
-    <a href="https://msdn.microsoft.com/c1eca20b-eda1-442c-8644-798fa864d5d7">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_interrupt_dpc">MiniportInterruptDPC</a> or 
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_message_interrupt_dpc">
     MiniportMessageInterruptDPC</a> function to complete the deferred processing of an interrupt.
 
 <b>NdisMQueueDpcEx</b> is the same as the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff563637">NdisMQueueDpc</a> function except that the 
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismqueuedpc">NdisMQueueDpc</a> function except that the 
     <i>TargetProcessors</i> parameter has a type of KGROUP_AFFINITY. Therefore, 
     <b>NdisMQueueDpcEx</b> can schedule DPCs on processors in any processor group. To schedule DPCs in more
     than one processor group, you can use multiple calls to 
     <b>NdisMQueueDpcEx</b>.
 
 <div class="alert"><b>Note</b>  The 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff563637">NdisMQueueDpc</a>, 
-    <a href="https://msdn.microsoft.com/810503b9-75cd-4b38-ab1f-de240968ded6">MiniportInterrupt</a>, and 
-    <a href="https://msdn.microsoft.com/ec2e6f49-dc40-48e8-96dc-c9440a6662a3">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismqueuedpc">NdisMQueueDpc</a>, 
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_isr">MiniportInterrupt</a>, and 
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_message_interrupt">
     MiniportMessageInterrupt</a> functions have a 
     <i>TargetProcessors</i> parameter that is a ULONG. This parameter specifies the first 32 processors in
     processor group 0.</div>
@@ -146,27 +146,27 @@ NDIS 6.20 and later miniport drivers call
 
 
 
-<a href="https://msdn.microsoft.com/810503b9-75cd-4b38-ab1f-de240968ded6">MiniportInterrupt</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_isr">MiniportInterrupt</a>
 
 
 
-<a href="https://msdn.microsoft.com/345715fb-878c-44d8-bf78-f3add10dd02b">MiniportInterruptDPC</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_interrupt_dpc">MiniportInterruptDPC</a>
 
 
 
-<a href="https://msdn.microsoft.com/ec2e6f49-dc40-48e8-96dc-c9440a6662a3">MiniportMessageInterrupt</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_message_interrupt">MiniportMessageInterrupt</a>
 
 
 
-<a href="https://msdn.microsoft.com/c1eca20b-eda1-442c-8644-798fa864d5d7">MiniportMessageInterruptDPC</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_message_interrupt_dpc">MiniportMessageInterruptDPC</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563637">NdisMQueueDpc</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismqueuedpc">NdisMQueueDpc</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563649">NdisMRegisterInterruptEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismregisterinterruptex">NdisMRegisterInterruptEx</a>
  
 
  

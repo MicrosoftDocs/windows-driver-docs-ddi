@@ -206,7 +206,7 @@ A string of Unicode characters naming a value entry of the key.
 
 
 
-A kernel-mode driver can obtain a <b>KEY_VALUE_BASIC_INFORMATION</b> that describes a registry key by calling the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567069">ZwQueryValueKey</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff566453">ZwEnumerateValueKey</a> routine.
+A kernel-mode driver can obtain a <b>KEY_VALUE_BASIC_INFORMATION</b> that describes a registry key by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-zwqueryvaluekey">ZwQueryValueKey</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-zwenumeratevaluekey">ZwEnumerateValueKey</a> routine.
 
 
 
@@ -216,23 +216,23 @@ A kernel-mode driver can obtain a <b>KEY_VALUE_BASIC_INFORMATION</b> that descri
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554217">KEY_VALUE_FULL_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_key_value_full_information">KEY_VALUE_FULL_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554218">KEY_VALUE_INFORMATION_CLASS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_key_value_information_class">KEY_VALUE_INFORMATION_CLASS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554220">KEY_VALUE_PARTIAL_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_key_value_partial_information">KEY_VALUE_PARTIAL_INFORMATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566453">ZwEnumerateValueKey</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-zwenumeratevaluekey">ZwEnumerateValueKey</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567069">ZwQueryValueKey</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-zwqueryvaluekey">ZwQueryValueKey</a>
  
 
  

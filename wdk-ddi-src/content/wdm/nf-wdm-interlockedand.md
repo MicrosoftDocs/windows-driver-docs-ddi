@@ -89,11 +89,11 @@ Interlocked operations cannot be used on non-cached memory.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547928">InterlockedOr</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-interlockedor">InterlockedOr</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547933">InterlockedXor</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-interlockedxor">InterlockedXor</a>
  
 
  

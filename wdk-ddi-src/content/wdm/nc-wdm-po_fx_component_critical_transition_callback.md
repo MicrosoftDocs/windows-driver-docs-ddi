@@ -56,7 +56,7 @@ The <i>ComponentCriticalTransitionCallback</i> callback routine handles a transi
 
 ### -param Context [in]
 
-A pointer to the device context. The device driver uses this context to store information about the current power state of the device. This context is driver-defined and is opaque to PoFx. The driver specified this pointer in the <b>DeviceContext</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186877">PO_FX_CORE_DEVICE</a> structure that the driver used to register the device with the Windows <a href="https://msdn.microsoft.com/B08F8ABF-FD43-434C-A345-337FBB799D9B">power management framework</a> (PoFx).
+A pointer to the device context. The device driver uses this context to store information about the current power state of the device. This context is driver-defined and is opaque to PoFx. The driver specified this pointer in the <b>DeviceContext</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/ns-pepfx-_po_fx_core_device">PO_FX_CORE_DEVICE</a> structure that the driver used to register the device with the Windows <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">power management framework</a> (PoFx).
 
 
 ### -param Component [in]
@@ -84,7 +84,7 @@ None.
 
 This callback routine is implemented by a device driver, and is called by PoFx. PoFx calls this routine to notify the driver of power transitions of device components.
 
-The <b>ComponentCriticalTransitionCallback</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/mt186877">PO_FX_CORE_DEVICE</a> structure is a pointer to a <i>ComponentCriticalTransitionCallback</i> callback routine. A pointer to a <b>PO_FX_CORE_DEVICE</b> structure is passed as an input parameter in the PoFxRegisterCoreDevice call that registers a core device with the Windows <a href="https://msdn.microsoft.com/B08F8ABF-FD43-434C-A345-337FBB799D9B">power management framework</a> (PoFx).
+The <b>ComponentCriticalTransitionCallback</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/ns-pepfx-_po_fx_core_device">PO_FX_CORE_DEVICE</a> structure is a pointer to a <i>ComponentCriticalTransitionCallback</i> callback routine. A pointer to a <b>PO_FX_CORE_DEVICE</b> structure is passed as an input parameter in the PoFxRegisterCoreDevice call that registers a core device with the Windows <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">power management framework</a> (PoFx).
 
 To handle calls to this routine, the device driver saves or restores the register state or other hardware context of the specified component in the device.
 
@@ -92,7 +92,7 @@ If <i>Active</i> = TRUE, PoFx has called this routine <i>after</i> the component
 
 If <i>Active</i> = FALSE, PoFx has called this routine <i>before</i> the component starts a pending transition from F0 to a low-power F<i>x</i> state. In this call, the routine saves the component's hardware context so that this context can later be restored.
 
-For more information about F<i>x</i> component power states, see <a href="https://msdn.microsoft.com/library/windows/hardware/hh450935">Component-Level Power Management</a>.
+For more information about F<i>x</i> component power states, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/component-level-power-management">Component-Level Power Management</a>.
 
 
 
@@ -104,7 +104,7 @@ For more information about F<i>x</i> component power states, see <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt186877">PO_FX_CORE_DEVICE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/ns-pepfx-_po_fx_core_device">PO_FX_CORE_DEVICE</a>
  
 
  

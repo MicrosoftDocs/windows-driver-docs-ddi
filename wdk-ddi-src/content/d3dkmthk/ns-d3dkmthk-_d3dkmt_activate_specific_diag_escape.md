@@ -56,7 +56,7 @@ Indicates an escape type that is to be activated or deactivated.
 
 ### -field Type
 
-The <a href="https://msdn.microsoft.com/db57ae5e-7060-4d45-99a5-e54c82b0aa05">D3DKMT_ESCAPETYPE</a> escape type  that needs to be activated or deactivated.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_escape">D3DKMT_ESCAPETYPE</a> escape type  that needs to be activated or deactivated.
 
 
 ### -field Activate
@@ -69,7 +69,7 @@ If <b>TRUE</b>, the escape type is to be activated. If <b>FALSE</b>, the escape 
 
 
 
-<a href="https://msdn.microsoft.com/db57ae5e-7060-4d45-99a5-e54c82b0aa05">D3DKMT_ESCAPETYPE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_escape">D3DKMT_ESCAPETYPE</a>
  
 
  

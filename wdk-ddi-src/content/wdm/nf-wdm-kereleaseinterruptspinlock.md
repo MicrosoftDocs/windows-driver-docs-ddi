@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <b>KeReleaseInterruptSpinLock</b> routine releases an interrupt spin lock acquired by <a href="https://msdn.microsoft.com/library/windows/hardware/ff551914">KeAcquireInterruptSpinLock</a>.
+The <b>KeReleaseInterruptSpinLock</b> routine releases an interrupt spin lock acquired by <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff551914(v=vs.85)">KeAcquireInterruptSpinLock</a>.
 
 
 ## -parameters
@@ -56,7 +56,7 @@ The <b>KeReleaseInterruptSpinLock</b> routine releases an interrupt spin lock ac
 
 ### -param Interrupt [in, out]
 
-Specifies the value of the <i>Interrupt</i> parameter passed to <a href="https://msdn.microsoft.com/library/windows/hardware/ff551914">KeAcquireInterruptSpinLock</a>.
+Specifies the value of the <i>Interrupt</i> parameter passed to <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff551914(v=vs.85)">KeAcquireInterruptSpinLock</a>.
 
 
 ### -param OldIrql [in]
@@ -87,11 +87,11 @@ The <b>KeReleaseInterruptSpinLock</b> releases the interrupt spin lock, and lowe
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551914">KeAcquireInterruptSpinLock</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff551914(v=vs.85)">KeAcquireInterruptSpinLock</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553302">KeSynchronizeExecution</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kesynchronizeexecution">KeSynchronizeExecution</a>
  
 
  

@@ -73,7 +73,7 @@ A pointer to the size of the buffer.
 
 
 
-This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 <table>
 <tr>
@@ -116,7 +116,7 @@ Some of the engine commands produce
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549827">IDebugClient</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugclient">IDebugClient</a>
  
 
  

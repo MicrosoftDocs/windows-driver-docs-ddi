@@ -61,7 +61,7 @@ Adds an ISR callback routine to the I8042prt keyboard ISR
 </ul>
 The initialization and ISR callbacks are optional and are provided by an upper-level filter driver for a PS/2-style keyboard device.
 
-After I8042prt receives an <a href="https://msdn.microsoft.com/library/windows/hardware/ff541273">IOCTL_INTERNAL_KEYBOARD_CONNECT</a> request, it sends a synchronous IOCTL_INTERNAL_I8042_HOOK_KEYBOARD request to the top of the keyboard device stack.
+After I8042prt receives an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/kbdmou/ni-kbdmou-ioctl_internal_keyboard_connect">IOCTL_INTERNAL_KEYBOARD_CONNECT</a> request, it sends a synchronous IOCTL_INTERNAL_I8042_HOOK_KEYBOARD request to the top of the keyboard device stack.
 
 After Kbfiltr receives the hook keyboard request, Kbfiltr filters the request in the following way:
 
@@ -84,13 +84,13 @@ For more information about this request and the callbacks, see the following top
 <dl>
 <dd>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539965">I8042prt Callback Routines</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">I8042prt Callback Routines</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/a939a2f1-740d-4d6e-a908-cfbefc0808a2">Kbfiltr Callback Routines</a>
+<a href="https://docs.microsoft.com/previous-versions/ff542302(v=vs.85)">Kbfiltr Callback Routines</a>
 
 
 </dd>
@@ -122,7 +122,7 @@ Pointer to an optional callback that is called by the I8042prt keyboard ISR.
 
 ### -input-buffer-length
 
-The <b>Parameters.DeviceIoControl.InputBufferLength</b> member is set to a value that is greater than or equal to the size, in bytes, of an <a href="https://msdn.microsoft.com/library/windows/hardware/ff541039">INTERNAL_I8042_HOOK_KEYBOARD</a> structure.
+The <b>Parameters.DeviceIoControl.InputBufferLength</b> member is set to a value that is greater than or equal to the size, in bytes, of an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdd8042/ns-ntdd8042-_internal_i8042_hook_keyboard">INTERNAL_I8042_HOOK_KEYBOARD</a> structure.
 
 
 ### -output-buffer
@@ -175,11 +175,11 @@ The request completed successfully.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541039">INTERNAL_I8042_HOOK_KEYBOARD</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdd8042/ns-ntdd8042-_internal_i8042_hook_keyboard">INTERNAL_I8042_HOOK_KEYBOARD</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541273">IOCTL_INTERNAL_KEYBOARD_CONNECT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/kbdmou/ni-kbdmou-ioctl_internal_keyboard_connect">IOCTL_INTERNAL_KEYBOARD_CONNECT</a>
  
 
  

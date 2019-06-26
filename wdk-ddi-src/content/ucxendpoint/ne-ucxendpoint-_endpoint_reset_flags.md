@@ -64,11 +64,11 @@ The transfer state must be preserved after the endpoint reset operation is compl
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt188021">ENDPOINT_RESET</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucxendpoint/ns-ucxendpoint-_endpoint_reset">ENDPOINT_RESET</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt187828">EVT_UCX_ENDPOINT_RESET</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucxendpoint/nc-ucxendpoint-evt_ucx_endpoint_reset">EVT_UCX_ENDPOINT_RESET</a>
  
 
  

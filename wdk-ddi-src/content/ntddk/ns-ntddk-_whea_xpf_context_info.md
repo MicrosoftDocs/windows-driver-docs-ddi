@@ -200,11 +200,11 @@ The <b>VariableInfo</b> member of the <a href="https://msdn.microsoft.com/librar
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560631">WHEA_X64_REGISTER_STATE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_whea_x64_register_state">WHEA_X64_REGISTER_STATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560634">WHEA_X86_REGISTER_STATE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_whea_x86_register_state">WHEA_X86_REGISTER_STATE</a>
 
 
 

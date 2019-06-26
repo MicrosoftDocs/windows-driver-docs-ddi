@@ -56,7 +56,7 @@ The D3DDDI_OVERLAYINFOFLAGS structure identifies the type of overlay operation t
 
 ### -field DstColorKey
 
-A UINT value that specifies whether to perform destination color keying by using the value in the <b>DstColorKeyLow</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff544621">D3DDDI_OVERLAYINFO</a> structure. That is, any pixel in the destination surface that matches the color key should be replaced with the corresponding pixel from the source resource, and all of the destination pixels that do not match the color key should not be replaced. 
+A UINT value that specifies whether to perform destination color keying by using the value in the <b>DstColorKeyLow</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddi_overlayinfo">D3DDDI_OVERLAYINFO</a> structure. That is, any pixel in the destination surface that matches the color key should be replaced with the corresponding pixel from the source resource, and all of the destination pixels that do not match the color key should not be replaced. 
 
 Setting this member is equivalent to setting the first bit of the 32-bit <b>Value</b> member (0x00000001).
 
@@ -84,7 +84,7 @@ Setting this member is equivalent to setting the fourth bit of the 32-bit <b>Val
 
 ### -field Bob
 
-A UINT value that specifies whether the overlay should deinterlace by using the <a href="https://msdn.microsoft.com/ef3220bd-841d-4187-bc86-11b999eae2bd">bob-style deinterlacing algorithm</a>.
+A UINT value that specifies whether the overlay should deinterlace by using the <a href="https://docs.microsoft.com/windows-hardware/drivers/display/bob-deinterlacing-algorithm">bob-style deinterlacing algorithm</a>.
 
 Setting this member is equivalent to setting the fifth bit of the 32-bit <b>Value</b> member (0x00000010).
 
@@ -157,7 +157,7 @@ A member in the union that is contained in D3DDDI_OVERLAYINFOFLAGS that can hold
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544621">D3DDDI_OVERLAYINFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddi_overlayinfo">D3DDDI_OVERLAYINFO</a>
  
 
  

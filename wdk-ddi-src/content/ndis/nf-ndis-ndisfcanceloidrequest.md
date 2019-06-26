@@ -66,7 +66,7 @@ The NDIS handle that identifies this filter module. NDIS passed the handle to th
 ### -param RequestId [in]
 
 A cancellation identifier for the request. This identifier specifies the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a> structures that are being
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structures that are being
      canceled.
 
 
@@ -87,11 +87,11 @@ Filter drivers call
     <b>NdisFCancelOidRequest</b> to cancel a previously issued request. The request can be originated by the
     filter driver or by overlying drivers. The pointer passed at 
     <i>OidRequest</i> must be the same pointer that was passed in the call to the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff561830">NdisFOidRequest</a> function.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisfoidrequest">NdisFOidRequest</a> function.
 
 The filter driver can call 
     <b>NdisFCancelOidRequest</b> from the 
-    <a href="https://msdn.microsoft.com/e7e3f67e-5353-4355-bf19-8a8041cafc84">FilterCancelOidRequest</a> function
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_cancel_oid_request">FilterCancelOidRequest</a> function
     to pass on the cancellation to underlying drivers.
 
 
@@ -106,15 +106,15 @@ The filter driver can call
 
 
 
-<a href="https://msdn.microsoft.com/e7e3f67e-5353-4355-bf19-8a8041cafc84">FilterCancelOidRequest</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-filter_cancel_oid_request">FilterCancelOidRequest</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566710">NDIS_OID_REQUEST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561830">NdisFOidRequest</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisfoidrequest">NdisFOidRequest</a>
  
 
  

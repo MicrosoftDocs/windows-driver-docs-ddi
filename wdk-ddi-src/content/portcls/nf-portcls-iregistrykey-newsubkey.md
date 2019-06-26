@@ -66,7 +66,7 @@ Pointer to the <b>IUnknown</b> interface of an object that needs to aggregate th
 
 ### -param DesiredAccess [in]
 
-Specifies the type of access that the caller requires to the subkey that is being opened or created. This parameter is of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>. For more information, see the following Remarks section.
+Specifies the type of access that the caller requires to the subkey that is being opened or created. This parameter is of type <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>. For more information, see the following Remarks section.
 
 
 ### -param SubKeyName [in]
@@ -99,11 +99,11 @@ Output pointer for the disposition value. This parameter points to a caller-allo
 
 The <code>NewSubKey</code> method either opens the specified registry key if it already exists, or creates a new key in the registry if it does not exist. The method outputs a pointer to the <b>IRegistryKey</b> interface of the new key through the <i>RegistrySubKey</i> parameter. The method also outputs a status value through the optional <i>Disposition</i> parameter to indicate whether the key was opened or created.
 
-The <i>DesiredAccess</i>, <i>CreateOptions</i>, and <i>Disposition</i> parameters take on the values that are defined for the parameters with the same names in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff537716">PcNewRegistryKey</a> call.
+The <i>DesiredAccess</i>, <i>CreateOptions</i>, and <i>Disposition</i> parameters take on the values that are defined for the parameters with the same names in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-pcnewregistrykey">PcNewRegistryKey</a> call.
 
-The <i>DesiredAccess</i> parameter is an access-control mask that specifies the type of access control that the caller needs to have to the subkey when accessing it through the <i>RegistrySubKey</i> object. This mask should not be confused with the ACL (access control list) that controls access by users to the registry subkey. When the <b>PcNewRegistryKey</b> function or <a href="https://msdn.microsoft.com/library/windows/hardware/ff536945">IPort::NewRegistryKey</a> method creates a registry key of type <b>GeneralRegistryKey</b>, the <i>ObjectAttributes</i> parameter specifies the key's attributes, including a security descriptor that contains the ACL. When the <code>NewSubKey</code> method creates a new registry subkey, however, that subkey simply inherits the ACL from its parent key. The <code>NewSubKey</code> method provides no means to specify an ACL that differs from that of the parent key.
+The <i>DesiredAccess</i> parameter is an access-control mask that specifies the type of access control that the caller needs to have to the subkey when accessing it through the <i>RegistrySubKey</i> object. This mask should not be confused with the ACL (access control list) that controls access by users to the registry subkey. When the <b>PcNewRegistryKey</b> function or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iport-newregistrykey">IPort::NewRegistryKey</a> method creates a registry key of type <b>GeneralRegistryKey</b>, the <i>ObjectAttributes</i> parameter specifies the key's attributes, including a security descriptor that contains the ACL. When the <code>NewSubKey</code> method creates a new registry subkey, however, that subkey simply inherits the ACL from its parent key. The <code>NewSubKey</code> method provides no means to specify an ACL that differs from that of the parent key.
 
-The <i>RegistrySubKey</i> and <i>OuterUnknown</i> parameters follow the <a href="https://msdn.microsoft.com/e6b19110-37e2-4d23-a528-6393c12ab650">reference-counting conventions for COM objects</a>.
+The <i>RegistrySubKey</i> and <i>OuterUnknown</i> parameters follow the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/reference-counting-conventions-for-com-objects">reference-counting conventions for COM objects</a>.
 
 
 
@@ -113,19 +113,19 @@ The <i>RegistrySubKey</i> and <i>OuterUnknown</i> parameters follow the <a href=
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536945">IPort::NewRegistryKey</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iport-newregistrykey">IPort::NewRegistryKey</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536965">IRegistryKey</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iregistrykey">IRegistryKey</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537716">PcNewRegistryKey</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-pcnewregistrykey">PcNewRegistryKey</a>
 
 
 

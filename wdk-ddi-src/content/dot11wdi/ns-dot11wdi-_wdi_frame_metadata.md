@@ -98,23 +98,23 @@ RX metadata.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554296">LIST_ENTRY</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_list_entry">LIST_ENTRY</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt297642">WDI_FRAME_ID</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/wdi-frame-id">WDI_FRAME_ID</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn926112">WDI_RX_METADATA</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dot11wdi/ns-dot11wdi-_wdi_rx_metadata">WDI_RX_METADATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn898195">WDI_TX_METADATA</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dot11wdi/ns-dot11wdi-_wdi_tx_metadata">WDI_TX_METADATA</a>
  
 
  

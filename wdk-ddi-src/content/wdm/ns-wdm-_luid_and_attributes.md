@@ -137,19 +137,19 @@ typedef LUID_AND_ATTRIBUTES_ARRAY *PLUID_AND_ATTRIBUTES_ARRAY;
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557080">LUID</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/igpupvdev/ns-igpupvdev-_luid">LUID</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551860">PRIVILEGE_SET</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff551860(v=vs.85)">PRIVILEGE_SET</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556654">SeFilterToken</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-sefiltertoken">SeFilterToken</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556686">SePrivilegeCheck</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-seprivilegecheck">SePrivilegeCheck</a>
  
 
  

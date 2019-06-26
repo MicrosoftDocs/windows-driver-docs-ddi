@@ -49,7 +49,7 @@ req.typenames:
 
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
-The <b>WdfIoResourceListGetCount</b> method returns the number of resource descriptors that are contained in a resource requirements list's <a href="https://msdn.microsoft.com/c7a6997b-34f9-4dd9-b384-2321a8b5ce54">logical configuration</a>.
+The <b>WdfIoResourceListGetCount</b> method returns the number of resource descriptors that are contained in a resource requirements list's <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/hardware-resources">logical configuration</a>.
 
 
 ## -parameters
@@ -84,7 +84,7 @@ For more information about resource requirements lists and logical configuration
 
 #### Examples
 
-For a code example that uses <b>WdfIoResourceListGetCount</b>, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff548553">WdfIoResourceRequirementsListGetIoResList</a>.
+For a code example that uses <b>WdfIoResourceListGetCount</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfresource/nf-wdfresource-wdfioresourcerequirementslistgetioreslist">WdfIoResourceRequirementsListGetIoResList</a>.
 
 <div class="code"></div>
 
@@ -95,7 +95,7 @@ For a code example that uses <b>WdfIoResourceListGetCount</b>, see <a href="http
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548553">WdfIoResourceRequirementsListGetIoResList</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfresource/nf-wdfresource-wdfioresourcerequirementslistgetioreslist">WdfIoResourceRequirementsListGetIoResList</a>
  
 
  

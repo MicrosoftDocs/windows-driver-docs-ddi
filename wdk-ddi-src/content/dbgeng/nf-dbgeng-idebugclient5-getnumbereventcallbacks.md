@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <b>GetNumberEventCallbacks</b> method returns the number of event callbacks that are interested in the given <a href="https://msdn.microsoft.com/library/windows/hardware/ff543067">events</a>.
+The <b>GetNumberEventCallbacks</b> method returns the number of event callbacks that are interested in the given <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/events">events</a>.
 
 
 ## -parameters
@@ -56,7 +56,7 @@ The <b>GetNumberEventCallbacks</b> method returns the number of event callbacks 
 
 ### -param EventFlags [in]
 
-Specifies a set of events used to filter out some of the event callbacks; only event callbacks that have indicated an interest in one of the events in <i>EventFlags</i> will be counted.  See <a href="https://msdn.microsoft.com/library/windows/hardware/ff541478">DEBUG_EVENT_XXX</a> for a list of the events.
+Specifies a set of events used to filter out some of the event callbacks; only event callbacks that have indicated an interest in one of the events in <i>EventFlags</i> will be counted.  See <a href="https://docs.microsoft.com/previous-versions/ff541478(v=vs.85)">DEBUG_EVENT_XXX</a> for a list of the events.
 
 
 ### -param Count [out]
@@ -68,7 +68,7 @@ Receives the number of event callbacks that are interested in at least one of th
 
 
 
-This method may also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+This method may also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 <table>
 <tr>
@@ -96,9 +96,9 @@ The method was successful.
 
 
 
-Each client can have at most one event callback registered with it.  When a callback is registered with a client, its <a href="https://msdn.microsoft.com/library/windows/hardware/ff550737">IDebugEventCallbacks::GetInterestMask</a> method is called to allow the client to specify which events it is interested in.
+Each client can have at most one event callback registered with it.  When a callback is registered with a client, its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugeventcallbacks-getinterestmask">IDebugEventCallbacks::GetInterestMask</a> method is called to allow the client to specify which events it is interested in.
 
-For more information about callbacks, see <a href="https://msdn.microsoft.com/9090a465-b6ab-4e99-8155-b0abdb729468">Callbacks</a>.
+For more information about callbacks, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/using-callback-objects">Callbacks</a>.
 
 
 
@@ -108,27 +108,27 @@ For more information about callbacks, see <a href="https://msdn.microsoft.com/90
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546601">GetEventCallbacks</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient5-geteventcallbacks">GetEventCallbacks</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547923">GetNumberInputCallbacks</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient5-getnumberinputcallbacks">GetNumberInputCallbacks</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547931">GetNumberOutputCallbacks</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient5-getnumberoutputcallbacks">GetNumberOutputCallbacks</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550497">IDebugClient5</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugclient5">IDebugClient5</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550550">IDebugEventCallbacks</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugeventcallbacks">IDebugEventCallbacks</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556671">SetEventCallbacks</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient5-seteventcallbacks">SetEventCallbacks</a>
  
 
  

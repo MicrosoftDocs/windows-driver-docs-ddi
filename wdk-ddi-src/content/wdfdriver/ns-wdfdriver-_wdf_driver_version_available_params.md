@@ -75,7 +75,7 @@ A numeric value that represents the Kernel-Mode Driver Framework library's minor
 
 
 
-The WDF_DRIVER_VERSION_AVAILABLE_PARAMS structure is used as input to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547190">WdfDriverIsVersionAvailable</a> method. Drivers should call <a href="https://msdn.microsoft.com/library/windows/hardware/ff551309">WDF_DRIVER_VERSION_AVAILABLE_PARAMS_INIT</a> to initialize this structure before calling <b>WdfDriverIsVersionAvailable</b>.
+The WDF_DRIVER_VERSION_AVAILABLE_PARAMS structure is used as input to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdriver/nf-wdfdriver-wdfdriverisversionavailable">WdfDriverIsVersionAvailable</a> method. Drivers should call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdriver/nf-wdfdriver-wdf_driver_version_available_params_init">WDF_DRIVER_VERSION_AVAILABLE_PARAMS_INIT</a> to initialize this structure before calling <b>WdfDriverIsVersionAvailable</b>.
 
 
 
@@ -85,11 +85,11 @@ The WDF_DRIVER_VERSION_AVAILABLE_PARAMS structure is used as input to the <a hre
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551309">WDF_DRIVER_VERSION_AVAILABLE_PARAMS_INIT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdriver/nf-wdfdriver-wdf_driver_version_available_params_init">WDF_DRIVER_VERSION_AVAILABLE_PARAMS_INIT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547190">WdfDriverIsVersionAvailable</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdriver/nf-wdfdriver-wdfdriverisversionavailable">WdfDriverIsVersionAvailable</a>
  
 
  

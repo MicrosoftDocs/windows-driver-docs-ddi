@@ -46,7 +46,7 @@ req.typenames: NV_FEATURE_PARAMETER, *PNV_FEATURE_PARAMETER
 ## -description
 
 
-The NV_FEATURE_PARAMETER structure is used in conjunction with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff560517">IOCTL_SCSI_MINIPORT_NVCACHE</a> request to get NV Cache Manager feature support information from the device. The NV Cache Manager feature parameters structure is returned by the miniport driver upon the successful return from the NRB_NVCACHE_INFO function, as requested in the Function field of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff563241">NVCACHE_REQUEST_BLOCK</a> structure.
+The NV_FEATURE_PARAMETER structure is used in conjunction with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddscsi/ni-ntddscsi-ioctl_scsi_miniport_nvcache">IOCTL_SCSI_MINIPORT_NVCACHE</a> request to get NV Cache Manager feature support information from the device. The NV Cache Manager feature parameters structure is returned by the miniport driver upon the successful return from the NRB_NVCACHE_INFO function, as requested in the Function field of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddscsi/ns-ntddscsi-_nvcache_request_block">NVCACHE_REQUEST_BLOCK</a> structure.
 
 The values in these fields come from the IDENTIFY DEVICE command in section 7.16 of the <a href="https://go.microsoft.com/fwlink/p/?linkid=74996">ATA8-ACS specification</a>.
 
@@ -111,7 +111,7 @@ Taken from word 219, bits 0 through 7 of the IDENTIFY DEVICE data, this field co
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563241">NVCACHE_REQUEST_BLOCK</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddscsi/ns-ntddscsi-_nvcache_request_block">NVCACHE_REQUEST_BLOCK</a>
  
 
  

@@ -119,7 +119,7 @@ The <i>Destination</i> and <i>Source</i> buffers must be resident if the caller 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561738">RtlAppendUnicodeToString</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlappendunicodetostring">RtlAppendUnicodeToString</a>
  
 
  

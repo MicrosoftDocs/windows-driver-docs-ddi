@@ -46,7 +46,7 @@ req.typenames:
 
 ## -description
 
-<b>D3DKMTSignalSynchronizationObjectFromGpu</b> is used to signal a monitored fence. When a particular graphics processing unit (GPU) engine is not capable of writing a new monitored fence value directly using its GPU virtual address, the driver needs to flush its command buffer and issue a signal from GPU packet using <a href="https://msdn.microsoft.com/library/windows/hardware/dn906785">D3DKMTSignalSynchronizationObjectFromGpu2</a>. For Windows Display Driver Model (WDDM) v2 drivers, existing <a href="https://msdn.microsoft.com/library/windows/hardware/ff547219">D3DKMTSignalSynchronizationObject</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff547227">D3DKMTSignalSynchronizationObject2</a> callbacks are deprecated and will eventually be removed.  
+<b>D3DKMTSignalSynchronizationObjectFromGpu</b> is used to signal a monitored fence. When a particular graphics processing unit (GPU) engine is not capable of writing a new monitored fence value directly using its GPU virtual address, the driver needs to flush its command buffer and issue a signal from GPU packet using <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/nf-d3dkmthk-d3dkmtsignalsynchronizationobjectfromgpu2">D3DKMTSignalSynchronizationObjectFromGpu2</a>. For Windows Display Driver Model (WDDM) v2 drivers, existing <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/nf-d3dkmthk-d3dkmtsignalsynchronizationobject">D3DKMTSignalSynchronizationObject</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/nf-d3dkmthk-d3dkmtsignalsynchronizationobject2">D3DKMTSignalSynchronizationObject2</a> callbacks are deprecated and will eventually be removed.  
 
 ## -parameters
 
@@ -54,7 +54,7 @@ req.typenames:
 
 *pData* [in]
 
-A <a href="https://msdn.microsoft.com/library/windows/hardware/dn906804">D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU</a> structure that provides the details of the requested operation.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_signalsynchronizationobjectfromgpu">D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU</a> structure that provides the details of the requested operation.
 
 ## -returns
 
@@ -69,19 +69,19 @@ This function might also return other <b>NTSTATUS</b> values.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547219">D3DKMTSignalSynchronizationObject</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/nf-d3dkmthk-d3dkmtsignalsynchronizationobject">D3DKMTSignalSynchronizationObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547227">D3DKMTSignalSynchronizationObject2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/nf-d3dkmthk-d3dkmtsignalsynchronizationobject2">D3DKMTSignalSynchronizationObject2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn906785">D3DKMTSignalSynchronizationObjectFromGpu2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/nf-d3dkmthk-d3dkmtsignalsynchronizationobjectfromgpu2">D3DKMTSignalSynchronizationObjectFromGpu2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn906804">D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_signalsynchronizationobjectfromgpu">D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU</a>
  
 
  

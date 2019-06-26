@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <b>NtRenameTransactionManager</b> routine changes the identity of the transaction manager object that is stored in the <a href="https://msdn.microsoft.com/4da3cb49-dc20-4713-813b-ff458c99ab90">CLFS</a> log file stream contained in the log file name.
+The <b>NtRenameTransactionManager</b> routine changes the identity of the transaction manager object that is stored in the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/windows-kernel-mode-clfs-library">CLFS</a> log file stream contained in the log file name.
 
 
 ## -parameters
@@ -63,6 +63,6 @@ The <b>NtRenameTransactionManager</b> routine changes the identity of the transa
 ## -see-also
 
 
-<a href="https://msdn.microsoft.com/B4124FF4-50CC-474A-B42F-17BCF698AB59">TmRenameTransactionManager</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-tmrenametransactionmanager">TmRenameTransactionManager</a>
 
 

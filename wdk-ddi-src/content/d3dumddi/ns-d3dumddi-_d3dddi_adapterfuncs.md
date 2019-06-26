@@ -56,17 +56,17 @@ The D3DDDI_ADAPTERFUNCS structure contains functions that the user-mode display 
 
 ### -field pfnGetCaps
 
-A pointer to the driver's <a href="https://msdn.microsoft.com/cf6c61ce-7b53-46d0-b3ff-ed5b2b964c65">GetCaps</a> function that queries for capabilities of the graphics hardware.
+A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_getcaps">GetCaps</a> function that queries for capabilities of the graphics hardware.
 
 
 ### -field pfnCreateDevice
 
-A pointer to the driver's <a href="https://msdn.microsoft.com/ce35bdac-af90-471f-af93-0e665be6c7f6">CreateDevice</a> function that creates a representation of a display device that handles a collection of rendering state.
+A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_createdevice">CreateDevice</a> function that creates a representation of a display device that handles a collection of rendering state.
 
 
 ### -field pfnCloseAdapter
 
-A pointer to the driver's <a href="https://msdn.microsoft.com/9dc7f71a-753d-41ca-8eaa-bff6536e834f">CloseAdapter</a> function that releases resources for a graphics adapter object.
+A pointer to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_closeadapter">CloseAdapter</a> function that releases resources for a graphics adapter object.
 
 
 ## -remarks
@@ -89,23 +89,23 @@ typedef HRESULT (APIENTRY *PFND3DDDI_CLOSEADAPTER)(IN HANDLE hAdapter);
 
 
 
-<a href="https://msdn.microsoft.com/9dc7f71a-753d-41ca-8eaa-bff6536e834f">CloseAdapter</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_closeadapter">CloseAdapter</a>
 
 
 
-<a href="https://msdn.microsoft.com/ce35bdac-af90-471f-af93-0e665be6c7f6">CreateDevice</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_createdevice">CreateDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543226">D3DDDIARG_OPENADAPTER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_openadapter">D3DDDIARG_OPENADAPTER</a>
 
 
 
-<a href="https://msdn.microsoft.com/cf6c61ce-7b53-46d0-b3ff-ed5b2b964c65">GetCaps</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_getcaps">GetCaps</a>
 
 
 
-<a href="https://msdn.microsoft.com/41dc9ee4-e9bc-4ebd-9b90-6446ded6ea16">OpenAdapter</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_openadapter">OpenAdapter</a>
  
 
  

@@ -65,12 +65,12 @@ The size, in bytes, of this structure.
 
 ### -field OnWorkItemFunc
 
-The address of an <a href="https://msdn.microsoft.com/4CCA1F5E-C92E-4D8D-A8C0-B8E9A0F29703">OnWorkItem</a> callback function.
+The address of an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfworkitem/nc-wudfworkitem-wudf_workitem_function">OnWorkItem</a> callback function.
 
 
 ### -field AutomaticSerialization
 
-A Boolean value that, if TRUE, indicates that the framework will synchronize execution of the <a href="https://msdn.microsoft.com/4CCA1F5E-C92E-4D8D-A8C0-B8E9A0F29703">OnWorkItem</a> callback function with callback functions from other objects that are underneath the work-item object's parent object. If FALSE, the framework does not synchronize execution of the <i>OnWorkItem</i> callback function.
+A Boolean value that, if TRUE, indicates that the framework will synchronize execution of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfworkitem/nc-wudfworkitem-wudf_workitem_function">OnWorkItem</a> callback function with callback functions from other objects that are underneath the work-item object's parent object. If FALSE, the framework does not synchronize execution of the <i>OnWorkItem</i> callback function.
 
 
 
@@ -79,9 +79,9 @@ A Boolean value that, if TRUE, indicates that the framework will synchronize exe
 
 
 
-Your driver must initialize the <b>WUDF_WORKITEM_CONFIG</b> structure by calling <a href="https://msdn.microsoft.com/library/windows/hardware/hh464097">WUDF_WORKITEM_CONFIG_INIT</a>. Your driver can then pass the structure to the <a href="https://msdn.microsoft.com/B34EABF4-C659-4DB4-AEC6-94F544D79221">IWDFDevice3::CreateWorkItem</a> method as an input parameter.
+Your driver must initialize the <b>WUDF_WORKITEM_CONFIG</b> structure by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfworkitem/nf-wudfworkitem-wudf_workitem_config_init">WUDF_WORKITEM_CONFIG_INIT</a>. Your driver can then pass the structure to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfdevice3-createworkitem">IWDFDevice3::CreateWorkItem</a> method as an input parameter.
 
-Setting the <b>AutomaticSerialization</b> member of <b>WUDF_WORKITEM_CONFIG</b> to TRUE has no effect if the driver did not enable automatic callback synchronization by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff556991">IWDFDeviceInitialize::SetLockingConstraint</a>.
+Setting the <b>AutomaticSerialization</b> member of <b>WUDF_WORKITEM_CONFIG</b> to TRUE has no effect if the driver did not enable automatic callback synchronization by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfdeviceinitialize-setlockingconstraint">IWDFDeviceInitialize::SetLockingConstraint</a>.
 
 
 
@@ -91,15 +91,15 @@ Setting the <b>AutomaticSerialization</b> member of <b>WUDF_WORKITEM_CONFIG</b> 
 
 
 
-<a href="https://msdn.microsoft.com/B34EABF4-C659-4DB4-AEC6-94F544D79221">IWDFDevice3::CreateWorkItem</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfdevice3-createworkitem">IWDFDevice3::CreateWorkItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/4CCA1F5E-C92E-4D8D-A8C0-B8E9A0F29703">OnWorkItem</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfworkitem/nc-wudfworkitem-wudf_workitem_function">OnWorkItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh464097">WUDF_WORKITEM_CONFIG_INIT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfworkitem/nf-wudfworkitem-wudf_workitem_config_init">WUDF_WORKITEM_CONFIG_INIT</a>
  
 
  

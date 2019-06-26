@@ -61,22 +61,22 @@ NDIS drivers call the
 
 An NDIS handle that the caller obtained during initialization. For example, a miniport driver can
      use the NDIS handle that it obtained from the 
-     <a href="https://msdn.microsoft.com/bed68aa8-499d-41fd-997b-a46316913cc8">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismregisterminiportdriver">
      NdisMRegisterMiniportDriver</a> or 
-     <a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a> function.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a> function.
      Other NDIS drivers can use the handles from the following functions:
      
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564520">NdisRegisterProtocolDriver</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisregisterprotocoldriver">NdisRegisterProtocolDriver</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563715">NdisOpenAdapterEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562608">NdisFRegisterFilterDriver</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisfregisterfilterdriver">NdisFRegisterFilterDriver</a>
 
 
 
@@ -99,7 +99,7 @@ A string, delimited by single quotation marks, with up to four characters, usual
 ### -param Priority [in]
 
 The importance of this request. For more information, see 
-     <a href="https://msdn.microsoft.com/33087a37-e6fc-4b21-aa9e-e4617eeccd29">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-exallocatepoolwithtagpriority">
      ExAllocatePoolWithTagPriority</a>.
 
 
@@ -119,7 +119,7 @@ The importance of this request. For more information, see
 
 To free memory that was allocated with 
     <b>NdisAllocateMemoryWithTagPriority</b>, call the 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/ff562581">NdisFreeMemoryWithTagPriority</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff562577">NdisFreeMemory</a> function.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisfreememorywithtagpriority">NdisFreeMemoryWithTagPriority</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisfreememory">NdisFreeMemory</a> function.
 
 
 
@@ -129,7 +129,7 @@ To free memory that was allocated with
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544523">ExAllocatePoolWithTagPriority</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-exallocatepoolwithtagpriority">ExAllocatePoolWithTagPriority</a>
 
 
 
@@ -137,35 +137,35 @@ To free memory that was allocated with
 
 
 
-<a href="https://msdn.microsoft.com/b146fa81-005b-4a6c-962d-4cb023ea790e">MiniportInitializeEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-miniport_initialize">MiniportInitializeEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550767">NdisAllocateMemoryWithTag</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/network/ff550767(v=vs.85)">NdisAllocateMemoryWithTag</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562608">NdisFRegisterFilterDriver</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisfregisterfilterdriver">NdisFRegisterFilterDriver</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562577">NdisFreeMemory</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisfreememory">NdisFreeMemory</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562581">NdisFreeMemoryWithTagPriority</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisfreememorywithtagpriority">NdisFreeMemoryWithTagPriority</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563654">NdisMRegisterMiniportDriver</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismregisterminiportdriver">NdisMRegisterMiniportDriver</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563715">NdisOpenAdapterEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564520">NdisRegisterProtocolDriver</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisregisterprotocoldriver">NdisRegisterProtocolDriver</a>
  
 
  

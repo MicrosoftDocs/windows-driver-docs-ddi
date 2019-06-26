@@ -108,22 +108,22 @@ This flag is OR-ed with the bit-values defined in GNSS_FIXDETAIL_* mask.
 
 ### -field SingleShotParam
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/dn925218">GNSS_SINGLESHOT_PARAM</a> structure defines the parameters for a single-shot fix session.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/gnssdriver/ns-gnssdriver-gnss_singleshot_param">GNSS_SINGLESHOT_PARAM</a> structure defines the parameters for a single-shot fix session.
 
 
 ### -field DistanceParam
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/dn925105">GNSS_DISTANCETRACKING_PARAM</a> structure defines the parameters for a distance-based tracking fix session.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/gnssdriver/ns-gnssdriver-gnss_distancetracking_param">GNSS_DISTANCETRACKING_PARAM</a> structure defines the parameters for a distance-based tracking fix session.
 
 
 ### -field ContinuousParam
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/dn925099">GNSS_CONTINUOUSTRACKING_PARAM</a> structure defines the parameters for a continuous tracking fix session.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/gnssdriver/ns-gnssdriver-gnss_continuoustracking_param">GNSS_CONTINUOUSTRACKING_PARAM</a> structure defines the parameters for a continuous tracking fix session.
 
 
 ### -field LkgFixParam
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/dn925182">GNSS_LKGFIX_PARAM</a>  structure is not used currently by the system.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/gnssdriver/ns-gnssdriver-gnss_lkgfix_param">GNSS_LKGFIX_PARAM</a>  structure is not used currently by the system.
 
 
 ### -field UnusedParam

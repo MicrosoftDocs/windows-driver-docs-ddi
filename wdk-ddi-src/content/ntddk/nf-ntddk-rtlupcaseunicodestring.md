@@ -84,11 +84,11 @@ If the operation succeeds, <b>RtlUpcaseUnicodeString</b> returns STATUS_SUCCESS.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561903">RtlFreeUnicodeString</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlfreeunicodestring">RtlFreeUnicodeString</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563003">RtlUpcaseUnicodeChar</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlupcaseunicodechar">RtlUpcaseUnicodeChar</a>
  
 
  

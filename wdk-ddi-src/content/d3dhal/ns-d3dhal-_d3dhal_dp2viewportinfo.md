@@ -74,7 +74,7 @@ Specify the width and height, respectively, of the subrectangle where the applic
 
 
 
-The <a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a> callback parses a D3DHAL_DP2VIEWPORTINFO structure from the command buffer and updates the driver's viewport description when <a href="https://msdn.microsoft.com/library/windows/hardware/ff545454">D3DHAL_DP2COMMAND</a> is set to D3DDP2OP_VIEWPORTINFO.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a> callback parses a D3DHAL_DP2VIEWPORTINFO structure from the command buffer and updates the driver's viewport description when <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dhal/ns-d3dhal-_d3dhal_dp2command">D3DHAL_DP2COMMAND</a> is set to D3DDP2OP_VIEWPORTINFO.
 
 One D3DHAL_DP2VIEWPORTINFO structure follows the D3DHAL_DP2COMMAND structure in the command buffer.
 
@@ -94,11 +94,11 @@ D3DDP2OP_VIEWPORTINFO
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545454">D3DHAL_DP2COMMAND</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dhal/ns-d3dhal-_d3dhal_dp2command">D3DHAL_DP2COMMAND</a>
 
 
 
-<a href="https://msdn.microsoft.com/6128ff7a-0d2c-48df-8b5e-cab33c5a74f5">D3dDrawPrimitives2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a>
  
 
  

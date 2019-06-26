@@ -72,7 +72,7 @@ None.
 
        Otherwise, the driver returns with an error status of STATUS_BUFFER_TOO_SMALL.
 
-The device driver returns the <a href="https://msdn.microsoft.com/library/windows/hardware/ff552613">DISK_GEOMETRY</a> structure in the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>. 
+The device driver returns the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdddisk/ns-ntdddisk-_disk_geometry">DISK_GEOMETRY</a> structure in the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>. 
 
 
 ### -output-buffer-length
@@ -100,7 +100,7 @@ The device driver returns the <a href="https://msdn.microsoft.com/library/window
 
 ### -status-block
 
-<b>Irp->IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NTSTATUS</a> code. 
+<b>Irp->IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> code. 
 
 
 ## -see-also
@@ -108,7 +108,7 @@ The device driver returns the <a href="https://msdn.microsoft.com/library/window
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552613">DISK_GEOMETRY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdddisk/ns-ntdddisk-_disk_geometry">DISK_GEOMETRY</a>
  
 
  

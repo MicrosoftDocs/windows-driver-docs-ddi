@@ -47,7 +47,7 @@ req.typenames:
 ## -description
 
 
-The <b>KsSetDefaultClockTime</b> function sets the current time of the clock. It modifies the current time returned by the clock. The owner of the default clock is expected to serialize access to this function and to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566820">KsSetDefaultClockState</a> function.
+The <b>KsSetDefaultClockTime</b> function sets the current time of the clock. It modifies the current time returned by the clock. The owner of the default clock is expected to serialize access to this function and to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-kssetdefaultclockstate">KsSetDefaultClockState</a> function.
 
 The function can be called at DISPATCH_LEVEL.
 
@@ -81,7 +81,7 @@ None
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562614">KsGetDefaultClockTime</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksgetdefaultclocktime">KsGetDefaultClockTime</a>
  
 
  

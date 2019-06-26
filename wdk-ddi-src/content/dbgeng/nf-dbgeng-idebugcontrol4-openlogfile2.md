@@ -46,7 +46,7 @@ req.typenames:
 ## -description
 
 
-The <b>OpenLogFile2</b>  method opens a log file that will receive output from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff539140">client objects</a>.
+The <b>OpenLogFile2</b>  method opens a log file that will receive output from the <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/client-objects">client objects</a>.
 
 
 ## -parameters
@@ -98,7 +98,7 @@ Alternatively, <i>Flags</i> can be set to DEBUG_LOG_DEFAULT for the default set 
 
 
 
-This method can also return error values.  See <a href="https://msdn.microsoft.com/713f3ee2-2f5b-415e-9908-90f5ae428b43">Return Values</a> for more details.
+This method can also return error values.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/hresult-values">Return Values</a> for more details.
 
 <table>
 <tr>
@@ -128,7 +128,7 @@ The method was successful.
 
 Only one log file can be open at a time.  If there is already a log file open, it will be closed.
 
-For more information about log files, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff560116">Using Input and Output</a>.
+For more information about log files, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/using-input-and-output">Using Input and Output</a>.
 
 
 
@@ -138,35 +138,35 @@ For more information about log files, see <a href="https://msdn.microsoft.com/li
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563986">.logappend (Append Log File)</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/-logappend--append-log-file-">.logappend (Append Log File)</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564018">.logopen (Open Log File)</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/-logopen--open-log-file-">.logopen (Open Log File)</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539148">CloseLogFile</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-closelogfile">CloseLogFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547025">GetLogFile2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol4-getlogfile2">GetLogFile2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547066">GetLogMask</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-getlogmask">GetLogMask</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550526">IDebugControl4</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugcontrol4">IDebugControl4</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553154">OpenLogFile</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-openlogfile">OpenLogFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556734">SetLogMask</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-setlogmask">SetLogMask</a>
  
 
  

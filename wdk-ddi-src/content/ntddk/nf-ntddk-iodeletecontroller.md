@@ -76,7 +76,7 @@ None
 
 This routine must be called when a driver that created a controller object is being unloaded or when the driver encounters a fatal error during device start-up, such as being unable to properly initialize a physical device.
 
-A driver must release certain resources for which the driver supplied storage in its controller extension before it calls <b>IoDeleteController</b>. For example, if the driver stores the pointer to its interrupt object(s) in the controller extension, it must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff549089">IoDisconnectInterrupt</a> before <b>IoDeleteController</b>. 
+A driver must release certain resources for which the driver supplied storage in its controller extension before it calls <b>IoDeleteController</b>. For example, if the driver stores the pointer to its interrupt object(s) in the controller extension, it must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iodisconnectinterrupt">IoDisconnectInterrupt</a> before <b>IoDeleteController</b>. 
 
 
 
@@ -86,11 +86,11 @@ A driver must release certain resources for which the driver supplied storage in
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548395">IoCreateController</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-iocreatecontroller">IoCreateController</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549089">IoDisconnectInterrupt</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iodisconnectinterrupt">IoDisconnectInterrupt</a>
  
 
  

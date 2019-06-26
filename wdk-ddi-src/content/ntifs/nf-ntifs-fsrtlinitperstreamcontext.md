@@ -56,7 +56,7 @@ The <b>FsRtlInitPerStreamContext</b> macro initializes a filter driver context s
 
 ### -param _fc
 
-<p>Pointer to a caller-allocated FSRTL_PER_STREAM_CONTEXT structure to be used to maintain context information for a file stream. This structure can be used as is or embedded in a driver-defined per-stream context structure. Both structure types are commonly allocated by calling <a href="https://msdn.microsoft.com/library/Ff544520(v=VS.85).aspx"><b>ExAllocatePoolWithTag</b></a>. </p>
+<p>Pointer to a caller-allocated FSRTL_PER_STREAM_CONTEXT structure to be used to maintain context information for a file stream. This structure can be used as is or embedded in a driver-defined per-stream context structure. Both structure types are commonly allocated by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-exallocatepoolwithtag"><b>ExAllocatePoolWithTag</b></a>. </p>
 
 
 ### -param _owner
@@ -66,7 +66,7 @@ The <b>FsRtlInitPerStreamContext</b> macro initializes a filter driver context s
 
 ### -param _inst
 
-<p>Pointer to a filter driver − allocated variable that can be used to distinguish among per-stream context structures created by the same filter driver. The format of this variable is filter driver − specific. Filter writers should choose a value that is both meaningful and convenient, such as the address of the stream context object for the file stream. (To get this address from a file object, use the <a href="https://msdn.microsoft.com/library/Ff546056(v=VS.85).aspx"><b>FsRtlGetPerStreamContextPointer</b></a> macro.) This parameter is optional and can be <b>NULL</b>. </p>
+<p>Pointer to a filter driver − allocated variable that can be used to distinguish among per-stream context structures created by the same filter driver. The format of this variable is filter driver − specific. Filter writers should choose a value that is both meaningful and convenient, such as the address of the stream context object for the file stream. (To get this address from a file object, use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-fsrtlgetperstreamcontextpointer"><b>FsRtlGetPerStreamContextPointer</b></a> macro.) This parameter is optional and can be <b>NULL</b>. </p>
 
 
 ### -param _cb
@@ -98,7 +98,7 @@ VOID (*PFREE_FUNCTION) (
       <i>Buffer</i>
     </dt>
     
-      <p>Pointer to the per-stream context structure to be freed. The <i>FreeCallback</i> routine typically casts this pointer to the appropriate structure pointer type and frees it by calling <a href="https://msdn.microsoft.com/library/Ff544590(v=VS.85).aspx"><b>ExFreePool</b></a>. </p>
+      <p>Pointer to the per-stream context structure to be freed. The <i>FreeCallback</i> routine typically casts this pointer to the appropriate structure pointer type and frees it by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-exfreepool"><b>ExFreePool</b></a>. </p>
     
   </dl>
 
@@ -121,9 +121,9 @@ The <i>FreeCallback</i> routine is called at IRQL <= APC_LEVEL. Usually, it is c
 <div> </div>
 To associate an initialized per-stream context structure with a file stream, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff546194">FsRtlInsertPerStreamContext</a>. 
 
-After the context structure has been associated with a file stream, it can be retrieved by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff546945">FsRtlLookupPerStreamContext</a> or removed by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff547238">FsRtlRemovePerStreamContext</a>. 
+After the context structure has been associated with a file stream, it can be retrieved by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-fsrtllookupperstreamcontext">FsRtlLookupPerStreamContext</a> or removed by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff547238">FsRtlRemovePerStreamContext</a>. 
 
-For more information, see <a href="https://msdn.microsoft.com/d908ee30-a433-460c-8c14-883702b4f810">Tracking Per-Stream Context in a Legacy File System Filter Driver</a>. 
+For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/tracking-per-stream-context-in-a-legacy-file-system-filter-driver">Tracking Per-Stream Context in a Legacy File System Filter Driver</a>. 
 
 
 
@@ -133,11 +133,11 @@ For more information, see <a href="https://msdn.microsoft.com/d908ee30-a433-460c
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544520">ExAllocatePoolWithTag</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-exallocatepoolwithtag">ExAllocatePoolWithTag</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544590">ExFreePool</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-exfreepool">ExFreePool</a>
 
 
 
@@ -145,7 +145,7 @@ For more information, see <a href="https://msdn.microsoft.com/d908ee30-a433-460c
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546056">FsRtlGetPerStreamContextPointer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-fsrtlgetperstreamcontextpointer">FsRtlGetPerStreamContextPointer</a>
 
 
 
@@ -153,7 +153,7 @@ For more information, see <a href="https://msdn.microsoft.com/d908ee30-a433-460c
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546945">FsRtlLookupPerStreamContext</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-fsrtllookupperstreamcontext">FsRtlLookupPerStreamContext</a>
 
 
 
@@ -165,7 +165,7 @@ For more information, see <a href="https://msdn.microsoft.com/d908ee30-a433-460c
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547285">FsRtlSupportsPerStreamContexts</a>
+<a href="https://docs.microsoft.com/previous-versions/ff547285(v=vs.85)">FsRtlSupportsPerStreamContexts</a>
 
 
 

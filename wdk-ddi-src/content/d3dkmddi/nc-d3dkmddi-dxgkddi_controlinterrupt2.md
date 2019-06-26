@@ -56,12 +56,12 @@ The <i>DxgkDdi_ControlInterrupt2</i> function enables or disables the given inte
 
 ### -param hAdapter [in]
 
-[in] A handle to the adapter object for the graphics processing unit (GPU). The driver returned this handle in the <i>MiniportDeviceContext</i> parameter from a call to its <a href="https://msdn.microsoft.com/5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea">DxgkDdiAddDevice</a> function.
+[in] A handle to the adapter object for the graphics processing unit (GPU). The driver returned this handle in the <i>MiniportDeviceContext</i> parameter from a call to its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function.
 
 
 ### -param InterruptControl [in]
 
-[in] A <a href="https://msdn.microsoft.com/library/windows/hardware/mt654042">DXGKARG_CONTROLINTERRUPT2</a>-type value that supplies the interrupt type, as well as the VSYNC state.
+[in] A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_controlinterrupt2">DXGKARG_CONTROLINTERRUPT2</a>-type value that supplies the interrupt type, as well as the VSYNC state.
 
 
 ## -returns
@@ -73,4 +73,4 @@ The <i>DxgkDdi_ControlInterrupt2</i> function enables or disables the given inte
 | **Return code** | **Description** | 
 |:--|:--|
 | **STATUS_SUCCESS** | The interrupt type was successfully enabled or disabled on the graphics hardware. | 
-| **STATUS_NOT_IMPLEMENTED** | [DxgkDdi_ControlInterrupt2](https://msdn.microsoft.com/library/windows/hardware/mt667971)  does not support enabling or disabling the specified interrupt type. | 
+| **STATUS_NOT_IMPLEMENTED** | [DxgkDdi_ControlInterrupt2](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_controlinterrupt2)  does not support enabling or disabling the specified interrupt type. | 

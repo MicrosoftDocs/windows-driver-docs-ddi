@@ -58,7 +58,7 @@ The <b>GetDefaultIoTarget</b> method retrieves the interface of the default I/O 
 
 ### -param ppWdfIoTarget [out]
 
-A pointer to a variable that receives a pointer to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559170">IWDFIoTarget</a> interface for the default I/O target object.
+A pointer to a variable that receives a pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nn-wudfddi-iwdfiotarget">IWDFIoTarget</a> interface for the default I/O target object.
 
 
 ## -returns
@@ -74,7 +74,7 @@ None
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/cf1b39c3-4c82-411b-8eef-117ac0fe793e">Initializing a General I/O Target in UMDF</a>.
+For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/initializing-a-general-i-o-target-in-umdf">Initializing a General I/O Target in UMDF</a>.
 
 
 
@@ -84,11 +84,11 @@ For more information, see <a href="https://msdn.microsoft.com/cf1b39c3-4c82-411b
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556917">IWDFDevice</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nn-wudfddi-iwdfdevice">IWDFDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559170">IWDFIoTarget</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nn-wudfddi-iwdfiotarget">IWDFIoTarget</a>
  
 
  

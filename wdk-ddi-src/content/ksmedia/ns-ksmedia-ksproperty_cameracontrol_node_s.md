@@ -46,7 +46,7 @@ req.typenames: KSPROPERTY_CAMERACONTROL_NODE_S, PKSPROPERTY_CAMERACONTROL_NODE_S
 ## -description
 
 
-The KSPROPERTY_CAMERACONTROL_NODE_S structure describes node-based properties in the <a href="https://msdn.microsoft.com/library/windows/hardware/ff567802">PROPSETID_VIDCAP_CAMERACONTROL</a> property set. This structure specifies property values in requests to the USB Video Class driver.
+The KSPROPERTY_CAMERACONTROL_NODE_S structure describes node-based properties in the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/propsetid-vidcap-cameracontrol">PROPSETID_VIDCAP_CAMERACONTROL</a> property set. This structure specifies property values in requests to the USB Video Class driver.
 
 
 ## -struct-fields
@@ -56,7 +56,7 @@ The KSPROPERTY_CAMERACONTROL_NODE_S structure describes node-based properties in
 
 ### -field NodeProperty
 
-Specifies an initialized <a href="https://msdn.microsoft.com/library/windows/hardware/ff566720">KSP_NODE</a> structure that describes the property set, property ID, request type, and node ID. 
+Specifies an initialized <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksp_node">KSP_NODE</a> structure that describes the property set, property ID, request type, and node ID. 
 
 
 ### -field Value
@@ -174,7 +174,7 @@ Indicates that the device settings are in relative values.
 
 
 
-See related information about the <a href="https://msdn.microsoft.com/84b5302d-c4c1-4519-bb94-66e80879ce26">USB Video Class Driver</a>.
+See related information about the <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/usb-video-class-driver">USB Video Class Driver</a>.
 
 
 
@@ -184,15 +184,15 @@ See related information about the <a href="https://msdn.microsoft.com/84b5302d-c
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
+<a href="https://docs.microsoft.com/previous-versions/ff564262(v=vs.85)">KSPROPERTY</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564439">KSPROPERTY_CAMERACONTROL_S</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-ksproperty_cameracontrol_s">KSPROPERTY_CAMERACONTROL_S</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567802">PROPSETID_VIDCAP_CAMERACONTROL</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/propsetid-vidcap-cameracontrol">PROPSETID_VIDCAP_CAMERACONTROL</a>
  
 
  

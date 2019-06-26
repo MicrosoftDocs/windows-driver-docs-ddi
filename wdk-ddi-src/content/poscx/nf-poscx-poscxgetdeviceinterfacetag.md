@@ -47,7 +47,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-PosCxGetDeviceInterfaceTag returns the device interface tag that is set in <a href="https://msdn.microsoft.com/library/windows/hardware/mt593129">PosCxOpen</a>.
+PosCxGetDeviceInterfaceTag returns the device interface tag that is set in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/poscx/nf-poscx-poscxopen">PosCxOpen</a>.
 
 
 ## -parameters
@@ -57,7 +57,7 @@ PosCxGetDeviceInterfaceTag returns the device interface tag that is set in <a hr
 
 ### -param fileObject [in]
 
-      A handle to a framework file object that identifies the caller, usually acquired with <a href="https://msdn.microsoft.com/library/windows/hardware/ff549963">WdfRequestGetFileObject</a>.
+      A handle to a framework file object that identifies the caller, usually acquired with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfrequest/nf-wdfrequest-wdfrequestgetfileobject">WdfRequestGetFileObject</a>.
 
 
 ## -returns
@@ -74,7 +74,7 @@ PosCxGetDeviceInterfaceTag returns the device interface tag that is set in <a hr
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt593129">PosCxOpen</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/poscx/nf-poscx-poscxopen">PosCxOpen</a>
  
 
  

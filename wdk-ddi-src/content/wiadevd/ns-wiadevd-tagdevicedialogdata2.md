@@ -103,7 +103,7 @@ Pointer to the <b>IWiaItem2</b> interface of the WIA item that transfers data to
 
 
 
-The DEVICEDIALOGDATA2 structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545053">IWiaUIExtension2::DeviceDialog</a> method.
+The DEVICEDIALOGDATA2 structure is used by the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff545053(v=vs.85)">IWiaUIExtension2::DeviceDialog</a> method.
 
 The <b>DeviceDialog</b> method must allocate the <b>BSTR</b> pointer array specified in <i>pbstrFilePaths</i> by calling the <a href="https://go.microsoft.com/fwlink/p/?linkid=121997">CoTaskMemAlloc</a> function, and it must allocate each string pointed to by the array by calling the <a href="https://go.microsoft.com/fwlink/p/?linkid=121998">SysAllocString</a> function. The calling program is responsible for freeing the storage for the pointer array and strings.
 
@@ -147,7 +147,7 @@ To access information about an <b>IWiaItem2</b> object's properties, the <b>Devi
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545053">IWiaUIExtension2::DeviceDialog</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff545053(v=vs.85)">IWiaUIExtension2::DeviceDialog</a>
 
 
 

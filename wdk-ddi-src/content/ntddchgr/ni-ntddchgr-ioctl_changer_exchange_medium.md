@@ -60,7 +60,7 @@ Moves a piece of media from a source element to one destination and the piece of
 ### -input-buffer
 
 
-        The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains the <a href="https://msdn.microsoft.com/library/windows/hardware/ff551464">CHANGER_EXCHANGE_MEDIUM</a> data, which indicates the source, both destinations, and whether either or both media should be flipped, assuming the device supports two-sided media. 
+        The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddchgr/ns-ntddchgr-_changer_exchange_medium">CHANGER_EXCHANGE_MEDIUM</a> data, which indicates the source, both destinations, and whether either or both media should be flipped, assuming the device supports two-sided media. 
 
 
 ### -input-buffer-length
@@ -106,11 +106,11 @@ The <b>Information</b> field is set to zero. The <b>Status</b> field is set to S
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551464">CHANGER_EXCHANGE_MEDIUM</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddchgr/ns-ntddchgr-_changer_exchange_medium">CHANGER_EXCHANGE_MEDIUM</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551421">ChangerExchangeMedium</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/mcd/nf-mcd-changerexchangemedium">ChangerExchangeMedium</a>
  
 
  

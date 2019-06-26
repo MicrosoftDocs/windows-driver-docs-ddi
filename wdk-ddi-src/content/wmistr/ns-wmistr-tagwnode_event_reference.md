@@ -56,7 +56,7 @@ The <b>WNODE_EVENT_REFERENCE</b> structure contains information that WMI can use
 
 ### -field WnodeHeader
 
-Is a <a href="https://msdn.microsoft.com/library/windows/hardware/ff566375">WNODE_HEADER</a> structure that contains information common to all <b>WNODE_<i>XXX</i></b> structures, such as the buffer size, the provider ID, the GUID that represents a data block associated with a request, and flags that provide information about the <b>WNODE_<i>XXX</i></b> data being passed or returned.
+Is a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wmistr/ns-wmistr-_wnode_header">WNODE_HEADER</a> structure that contains information common to all <b>WNODE_<i>XXX</i></b> structures, such as the buffer size, the provider ID, the GUID that represents a data block associated with a request, and flags that provide information about the <b>WNODE_<i>XXX</i></b> data being passed or returned.
 
 
 ### -field TargetGuid
@@ -88,9 +88,9 @@ Indicates the dynamic instance name of the event as a counted Unicode string. Th
 
 
 
-If the amount of data for an event exceeds the maximum size set in the registry, a driver can generate a <b>WNODE_EVENT_REFERENCE</b> that specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff566373">WNODE_EVENT_ITEM</a> that WMI can query to obtain the event. For more information about defining and generating WMI events, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff547139">Implementing WMI</a>.
+If the amount of data for an event exceeds the maximum size set in the registry, a driver can generate a <b>WNODE_EVENT_REFERENCE</b> that specifies a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wmistr/ns-wmistr-tagwnode_event_item">WNODE_EVENT_ITEM</a> that WMI can query to obtain the event. For more information about defining and generating WMI events, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/implementing-wmi">Implementing WMI</a>.
 
-The <b>ProviderId</b> member of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff566375">WNODE_HEADER</a> structure for use in a <b>WNODE_EVENT_REFERENCE</b> structure should be initialized using <a href="https://msdn.microsoft.com/library/windows/hardware/ff550433">IoWMIDeviceObjectToProviderId</a>.
+The <b>ProviderId</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wmistr/ns-wmistr-_wnode_header">WNODE_HEADER</a> structure for use in a <b>WNODE_EVENT_REFERENCE</b> structure should be initialized using <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iowmideviceobjecttoproviderid">IoWMIDeviceObjectToProviderId</a>.
 
 
 
@@ -100,15 +100,15 @@ The <b>ProviderId</b> member of the <a href="https://msdn.microsoft.com/library/
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550433">IoWMIDeviceObjectToProviderId</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iowmideviceobjecttoproviderid">IoWMIDeviceObjectToProviderId</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566373">WNODE_EVENT_ITEM</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wmistr/ns-wmistr-tagwnode_event_item">WNODE_EVENT_ITEM</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566375">WNODE_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wmistr/ns-wmistr-_wnode_header">WNODE_HEADER</a>
  
 
  

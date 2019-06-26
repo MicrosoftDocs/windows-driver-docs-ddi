@@ -102,7 +102,7 @@ sizeof(NDIS_WWAN_DEVICE_SERVICE_SUBSCRIPTION)
  
 
 For more information about these members, see 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff566588">NDIS_OBJECT_HEADER</a>.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>.
 
 
 ### -field uStatus
@@ -116,7 +116,7 @@ This can be any WWAN_STATUS code.
 
 A formatted WWAN_LIST_HEADER object that represents a list of device services and the number of services  in the list.  This is the list of device services for which the device would indicate NDIS_STATUS_WWAN_DEVICE_SERVICE_EVENT notifications.
 
-This member points to the list of the GUIDs by using the WWAN_LIST_HEADER structure, and should contain 0 elements when indicated to mark completion of a set <a href="https://msdn.microsoft.com/library/windows/hardware/hh440096">OID_WWAN_SUBSCRIBE_DEVICE_SERVICE_EVENTS</a> request.
+This member points to the list of the GUIDs by using the WWAN_LIST_HEADER structure, and should contain 0 elements when indicated to mark completion of a set <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-subscribe-device-service-events">OID_WWAN_SUBSCRIBE_DEVICE_SERVICE_EVENTS</a> request.
 
 
 ## -see-also
@@ -124,11 +124,11 @@ This member points to the list of the GUIDs by using the WWAN_LIST_HEADER struct
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh440096">OID_WWAN_SUBSCRIBE_DEVICE_SERVICE_EVENTS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-subscribe-device-service-events">OID_WWAN_SUBSCRIBE_DEVICE_SERVICE_EVENTS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff571208">WWAN_LIST_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_list_header">WWAN_LIST_HEADER</a>
  
 
  

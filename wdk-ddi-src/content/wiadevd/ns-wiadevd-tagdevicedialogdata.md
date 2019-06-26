@@ -93,7 +93,7 @@ Array of IWiaItem interface pointers. Array must
 
 
 
-The DEVICEDIALOGDATA structure is used by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff545069">IWiaUIExtension::DeviceDialog</a> method.
+The DEVICEDIALOGDATA structure is used by the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff545069(v=vs.85)">IWiaUIExtension::DeviceDialog</a> method.
 
 The array specified in <i>ppIWiaItems</i> must be allocated using <b>CoTaskMemAlloc</b>. All interface pointers indicated in the array must be initialized using the <b>AddRef</b> COM method. See the Windows SDK documentation for descriptions of these functions.
 
@@ -107,7 +107,7 @@ The <b>IWiaPropertyStorage</b> interface is used to access information about the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545069">IWiaUIExtension::DeviceDialog</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff545069(v=vs.85)">IWiaUIExtension::DeviceDialog</a>
  
 
  

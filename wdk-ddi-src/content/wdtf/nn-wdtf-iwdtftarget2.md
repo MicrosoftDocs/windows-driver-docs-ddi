@@ -67,7 +67,7 @@ The <b>IWDTFTarget2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439396">Eval</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nf-wdtf-iwdtftarget2-eval">Eval</a>
 </td>
 <td align="left" width="63%">
 Evaluates whether this target matches an SDEL statement.
@@ -76,7 +76,7 @@ Evaluates whether this target matches an SDEL statement.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439398">GetInterface</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nf-wdtf-iwdtftarget2-getinterface">GetInterface</a>
 </td>
 <td align="left" width="63%">
 Returns an action for the target.
@@ -85,7 +85,7 @@ Returns an action for the target.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439400">GetRelations</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nf-wdtf-iwdtftarget2-getrelations">GetRelations</a>
 </td>
 <td align="left" width="63%">
 Returns a collection of related targets.
@@ -94,7 +94,7 @@ Returns a collection of related targets.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff597624">GetValue</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portabledevicetypes/nf-portabledevicetypes-iportabledevicevalues-getvalue">GetValue</a>
 </td>
 <td align="left" width="63%">
 Returns a value from the target that is associated with a specified attribute.
@@ -103,7 +103,7 @@ Returns a value from the target that is associated with a specified attribute.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439407">GetValueBool</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nf-wdtf-iwdtftarget2-getvaluebool">GetValueBool</a>
 </td>
 <td align="left" width="63%">
 Returns a boolean value from the target that is associated with a specified attribute.
@@ -112,7 +112,7 @@ Returns a boolean value from the target that is associated with a specified attr
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439410">GetValueLongNumber</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nf-wdtf-iwdtftarget2-getvaluelongnumber">GetValueLongNumber</a>
 </td>
 <td align="left" width="63%">
 Returns a long number value from the target that is associated with a specified attribute.
@@ -121,7 +121,7 @@ Returns a long number value from the target that is associated with a specified 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439416">GetValueLongNumbers</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nf-wdtf-iwdtftarget2-getvaluelongnumbers">GetValueLongNumbers</a>
 </td>
 <td align="left" width="63%">
 Returns a collection of long number values from the target that are associated with a specified attribute.
@@ -130,7 +130,7 @@ Returns a collection of long number values from the target that are associated w
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439421">GetValueNumber</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nf-wdtf-iwdtftarget2-getvaluenumber">GetValueNumber</a>
 </td>
 <td align="left" width="63%">
 Returns a number value from the target that is associated with a specified attribute.
@@ -139,7 +139,7 @@ Returns a number value from the target that is associated with a specified attri
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439426">GetValueNumbers</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nf-wdtf-iwdtftarget2-getvaluenumbers">GetValueNumbers</a>
 </td>
 <td align="left" width="63%">
 Returns a collection of number values from the target that are associated with a specified attribute.
@@ -148,7 +148,7 @@ Returns a collection of number values from the target that are associated with a
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439431">GetValueString</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nf-wdtf-iwdtftarget2-getvaluestring">GetValueString</a>
 </td>
 <td align="left" width="63%">
 Returns a string value from the target that is associated with a specified attribute.
@@ -157,7 +157,7 @@ Returns a string value from the target that is associated with a specified attri
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439437">GetValueStrings</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nf-wdtf-iwdtftarget2-getvaluestrings">GetValueStrings</a>
 </td>
 <td align="left" width="63%">
 Returns a collection of string values from the target that are associated with a specified attribute.
@@ -166,7 +166,7 @@ Returns a collection of string values from the target that are associated with a
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439441">HasContext</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nf-wdtf-iwdtftarget2-hascontext">HasContext</a>
 </td>
 <td align="left" width="63%">
 Determines whether a given context exists for the target.
@@ -175,7 +175,7 @@ Determines whether a given context exists for the target.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439447">HasInterface</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nf-wdtf-iwdtftarget2-hasinterface">HasInterface</a>
 </td>
 <td align="left" width="63%">
 Determines whether the target supports a given interface.
@@ -193,7 +193,7 @@ Determines whether the target supports a given interface.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439393">Context</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nf-wdtf-iwdtftarget2-put_context">Context</a>
 
 
 </td>
@@ -209,7 +209,7 @@ Gets and sets a name-value pair that represents user data for the target.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439450">Type</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nf-wdtf-iwdtftarget2-get_type">Type</a>
 
 
 </td>
@@ -225,7 +225,7 @@ Gets a value that identifies the depot that the target comes from.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406421">WDTF</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nf-wdtf-iwdtfdevicedepot2-get_wdtf">WDTF</a>
 
 
 </td>
@@ -249,11 +249,11 @@ The <b>IWDTFTarget2</b> interface abstracts the notion of a testable item,
 which is the central focus of the WDTF object model.
 You can retrieve instances of the <b>IWDTFTarget2</b> interface only 
 through other interfaces (such as the 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406391">IWDTFDeviceDepot2</a> interface or
-the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439331">IWDTFSystemDepot2</a> interface). 
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nn-wdtf-iwdtfdevicedepot2">IWDTFDeviceDepot2</a> interface or
+the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nn-wdtf-iwdtfsystemdepot2">IWDTFSystemDepot2</a> interface). 
 
 The lifetime of a target is tied to its creator; that is, if you retrieve a target 
-from the <a href="https://msdn.microsoft.com/library/windows/hardware/hh406304">DeviceDepot</a> property, 
+from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nf-wdtf-iwdtf2-get_devicedepot">DeviceDepot</a> property, 
 the target will exist as long as the <b>DeviceDepot</b> 
 property exists.
 
@@ -262,7 +262,7 @@ Even if you add a target to a collection, you really just add a reference to the
 
 <b>Implementation Details</b>
 
-ProgID: (Use the <a href="https://msdn.microsoft.com/3034f790-471f-46c2-915a-15074ae72960">IWDTF</a> 
+ProgID: (Use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">IWDTF</a> 
 aggregation interface to instantiate)
 
 TraceLevel Path: HKCR\WDTF.Target.1\

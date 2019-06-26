@@ -56,79 +56,79 @@ The KSDEVICE_DISPATCH structure describes the callbacks that a client can provid
 
 ### -field Add
 
-Optional. Can be <b>NULL</b>. A pointer to a minidriver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff554276">AVStrMiniDeviceAdd</a> callback routine.
+Optional. Can be <b>NULL</b>. A pointer to a minidriver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nc-ks-pfnksdevicecreate">AVStrMiniDeviceAdd</a> callback routine.
 
 
 ### -field Start
 
-Optional. Can be <b>NULL</b>. A pointer to a minidriver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff556297">AVStrMiniDeviceStart</a> callback routine.
+Optional. Can be <b>NULL</b>. A pointer to a minidriver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nc-ks-pfnksdevicepnpstart">AVStrMiniDeviceStart</a> callback routine.
 
 
 ### -field PostStart
 
-Optional. Can be <b>NULL</b>. A pointer to a minidriver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff554284">AVStrMiniDevicePostStart</a> callback routine.
+Optional. Can be <b>NULL</b>. A pointer to a minidriver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nc-ks-pfnksdevice">AVStrMiniDevicePostStart</a> callback routine.
 
 
 ### -field QueryStop
 
-Optional. Can be <b>NULL</b>. A pointer to a minidriver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff554299">AVStrMiniDeviceQueryStop</a> callback routine.
+Optional. Can be <b>NULL</b>. A pointer to a minidriver-supplied <a href="https://docs.microsoft.com/previous-versions/ff554299(v=vs.85)">AVStrMiniDeviceQueryStop</a> callback routine.
 
 
 ### -field CancelStop
 
-Optional. Can be <b>NULL</b>. A pointer to a minidriver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff554281">AVStrMiniDeviceCancelStop</a> callback routine.
+Optional. Can be <b>NULL</b>. A pointer to a minidriver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nc-ks-pfnksdeviceirpvoid">AVStrMiniDeviceCancelStop</a> callback routine.
 
 
 ### -field Stop
 
-Optional. Can be <b>NULL</b>. A pointer to a minidriver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff556301">AVStrMiniDeviceStop</a> callback routine.
+Optional. Can be <b>NULL</b>. A pointer to a minidriver-supplied <a href="https://docs.microsoft.com/previous-versions/ff556301(v=vs.85)">AVStrMiniDeviceStop</a> callback routine.
 
 
 ### -field QueryRemove
 
-Optional. Can be <b>NULL</b>. A pointer to a minidriver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff554297">AVStrMiniDeviceQueryRemove</a> callback routine.
+Optional. Can be <b>NULL</b>. A pointer to a minidriver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nc-ks-pfnksdeviceirp">AVStrMiniDeviceQueryRemove</a> callback routine.
 
 
 ### -field CancelRemove
 
-Optional. Can be <b>NULL</b>. A pointer to a minidriver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff554278">AVStrMiniDeviceCancelRemove</a> callback routine.
+Optional. Can be <b>NULL</b>. A pointer to a minidriver-supplied <a href="https://docs.microsoft.com/previous-versions/ff554278(v=vs.85)">AVStrMiniDeviceCancelRemove</a> callback routine.
 
 
 ### -field Remove
 
-Optional. Can be <b>NULL</b>. A pointer to a minidriver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff554305">AVStrMiniDeviceRemove</a> callback routine.
+Optional. Can be <b>NULL</b>. A pointer to a minidriver-supplied <a href="https://docs.microsoft.com/previous-versions/ff554305(v=vs.85)">AVStrMiniDeviceRemove</a> callback routine.
 
 
 ### -field QueryCapabilities
 
-Optional. Can be <b>NULL</b>. A pointer to a minidriver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff554285">AVStrMiniDeviceQueryCapabilities</a> callback routine.
+Optional. Can be <b>NULL</b>. A pointer to a minidriver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nc-ks-pfnksdevicequerycapabilities">AVStrMiniDeviceQueryCapabilities</a> callback routine.
 
 
 ### -field SurpriseRemoval
 
-Optional. Can be <b>NULL</b>. A pointer to a minidriver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff556304">AVStrMiniDeviceSurpriseRemoval</a> callback routine.
+Optional. Can be <b>NULL</b>. A pointer to a minidriver-supplied <a href="https://docs.microsoft.com/previous-versions/ff556304(v=vs.85)">AVStrMiniDeviceSurpriseRemoval</a> callback routine.
 
 
 ### -field QueryPower
 
-Optional. can be <b>NULL</b>. A pointer to a minidriver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff554293">AVStrMiniDeviceQueryPower</a> callback routine.
+Optional. can be <b>NULL</b>. A pointer to a minidriver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nc-ks-pfnksdevicequerypower">AVStrMiniDeviceQueryPower</a> callback routine.
 
 
 ### -field SetPower
 
-Optional. Can be <b>NULL</b>. A pointer to a minidriver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff554309">AVStrMiniDeviceSetPower</a> callback routine.
+Optional. Can be <b>NULL</b>. A pointer to a minidriver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nc-ks-pfnksdevicesetpower">AVStrMiniDeviceSetPower</a> callback routine.
 
 
 ### -field QueryInterface
 
-Optional. Can be <b>NULL</b>. A pointer to a minidriver-supplied <a href="https://msdn.microsoft.com/library/windows/hardware/ff554290">AVStrMiniDeviceQueryInterface</a> callback routine.
+Optional. Can be <b>NULL</b>. A pointer to a minidriver-supplied <a href="https://docs.microsoft.com/previous-versions/ff554290(v=vs.85)">AVStrMiniDeviceQueryInterface</a> callback routine.
 
 
 ## -remarks
 
 
 
-In describing a device with the <a href="https://msdn.microsoft.com/library/windows/hardware/ff561691">KSDEVICE_DESCRIPTOR</a> structure, clients include a pointer to a dispatch table defined by this structure. Any member of this structure may be <b>NULL</b> indicating that the minidriver receives no notification for that particular message.
+In describing a device with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksdevice_descriptor">KSDEVICE_DESCRIPTOR</a> structure, clients include a pointer to a dispatch table defined by this structure. Any member of this structure may be <b>NULL</b> indicating that the minidriver receives no notification for that particular message.
 
 
 
@@ -138,7 +138,7 @@ In describing a device with the <a href="https://msdn.microsoft.com/library/wind
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561691">KSDEVICE_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksdevice_descriptor">KSDEVICE_DESCRIPTOR</a>
  
 
  

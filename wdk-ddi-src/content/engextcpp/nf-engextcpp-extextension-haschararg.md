@@ -74,9 +74,9 @@ Specifies the name of the argument.
 
 This method will work for all types of named arguments.  In particular, it can be used to detect the presence of a named argument of Boolean type.
 
-This is a convenience method and is restricted to arguments whose name is a single character.  For arguments whose names are longer than a single character, use <a href="https://msdn.microsoft.com/library/windows/hardware/ff549721">HasArg</a>.
+This is a convenience method and is restricted to arguments whose name is a single character.  For arguments whose names are longer than a single character, use <a href="https://docs.microsoft.com/previous-versions/windows/hardware/previsioning-framework/ff549721(v=vs.85)">HasArg</a>.
 
-For an overview of argument parsing in the EngExtCpp extensions framework, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff553340">Parsing Extension Arguments</a>.
+For an overview of argument parsing in the EngExtCpp extensions framework, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/parsing-extension-arguments">Parsing Extension Arguments</a>.
 
 This method should only be called during the execution of an extension command provided by this class.
 
@@ -92,7 +92,7 @@ This method should only be called during the execution of an extension command p
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549721">HasArg</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/previsioning-framework/ff549721(v=vs.85)">HasArg</a>
  
 
  

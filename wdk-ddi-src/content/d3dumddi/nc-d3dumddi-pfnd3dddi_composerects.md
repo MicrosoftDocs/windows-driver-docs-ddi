@@ -63,7 +63,7 @@ A handle to the display device (graphics context).
 
 *pData* [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff542912">D3DDDIARG_COMPOSERECTS</a> structure that specifies the parameters that are used to compose rectangular areas.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_composerects">D3DDDIARG_COMPOSERECTS</a> structure that specifies the parameters that are used to compose rectangular areas.
 
 
 ## -returns
@@ -75,7 +75,7 @@ A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff54
 | **Return code** | **Description** | 
 |:--|:--|
 | **S_OK** | The rectangular areas were successfully composed. | 
-| **E_OUTOFMEMORY** | [ComposeRects](https://msdn.microsoft.com/b6a6b549-7590-4b27-b759-631fa62a76d2)  could not allocate the required memory for it to complete. | 
+| **E_OUTOFMEMORY** | [ComposeRects](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_composerects)  could not allocate the required memory for it to complete. | 
 
 
 
@@ -145,11 +145,11 @@ for (UINT i=0; i < COMPOSERECTS.NumDstRects; i++) {
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542912">D3DDDIARG_COMPOSERECTS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_composerects">D3DDDIARG_COMPOSERECTS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544519">D3DDDI_DEVICEFUNCS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>
  
 
  

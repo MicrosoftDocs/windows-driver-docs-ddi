@@ -53,7 +53,7 @@ req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 
 The <b>IOCTL_INTERNAL_UNLOCK_PORT</b> request deselects a parallel device and frees the parallel device's parent parallel port.
 
-For more information, see <a href="https://msdn.microsoft.com/dbfa962e-9de8-4a9c-b962-24b53c41f35d">Locking and Unlocking a ParallelPort for Use by a Parallel Device</a>.
+For more information, see <a href="https://docs.microsoft.com/previous-versions/ff544195(v=vs.85)">Locking and Unlocking a ParallelPort for Use by a Parallel Device</a>.
 
 
 ## -ioctlparameters

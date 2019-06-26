@@ -88,7 +88,7 @@ An intermediate driver should not arbitrarily call <b>IoCancelIrp</b> unless tha
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549674">IoSetCancelRoutine</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iosetcancelroutine">IoSetCancelRoutine</a>
  
 
  

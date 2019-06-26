@@ -56,7 +56,7 @@ The <b>HasUnnamedArg</b> method indicates whether a specified unnamed argument i
 
 ### -param Index [in]
 
-Specifies the index of the argument.  <i>Index</i> should be between zero and the number of unnamed arguments returned by <a href="https://msdn.microsoft.com/library/windows/hardware/ff548001">GetNumUnnamedArgs</a> minus one (unnamed arguments - 1).
+Specifies the index of the argument.  <i>Index</i> should be between zero and the number of unnamed arguments returned by <a href="https://docs.microsoft.com/previous-versions/windows/hardware/previsioning-framework/ff548001(v=vs.85)">GetNumUnnamedArgs</a> minus one (unnamed arguments - 1).
 
 
 ## -returns
@@ -72,7 +72,7 @@ Specifies the index of the argument.  <i>Index</i> should be between zero and th
 
 
 
-This method will work for all types of unnamed arguments. For an overview of argument parsing in the EngExtCpp extensions framework, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff553340">Parsing Extension Arguments</a>.
+This method will work for all types of unnamed arguments. For an overview of argument parsing in the EngExtCpp extensions framework, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/parsing-extension-arguments">Parsing Extension Arguments</a>.
 
 This method should only be called during the execution of an extension command provided by this class.
 
@@ -88,7 +88,7 @@ This method should only be called during the execution of an extension command p
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548001">GetNumUnnamedArgs</a>
+<a href="https://docs.microsoft.com/previous-versions/windows/hardware/previsioning-framework/ff548001(v=vs.85)">GetNumUnnamedArgs</a>
  
 
  

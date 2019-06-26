@@ -46,7 +46,7 @@ req.typenames: PosBarcodeScannerErrorOccurredEventData
 ## -description
 
 
-This structure contains the error data that is passed to the <a href="https://msdn.microsoft.com/library/windows/hardware/dn757464">BarcodeScannerErrorOccurred</a> event.
+This structure contains the error data that is passed to the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/previsioning-framework/dn757464(v=vs.85)">BarcodeScannerErrorOccurred</a> event.
 
 
 ## -struct-fields
@@ -56,7 +56,7 @@ This structure contains the error data that is passed to the <a href="https://ms
 
 ### -field Header
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/dn772232">PosEventDataHeader</a> structure that describes the amount of memory, in bytes, of the <b>PosBarcodeScannerErrorOccurredEventData</b> structure and trailing error message and scan data.
+The <a href="https://docs.microsoft.com/previous-versions/windows/hardware/previsioning-framework/dn772232(v=vs.85)">PosEventDataHeader</a> structure that describes the amount of memory, in bytes, of the <b>PosBarcodeScannerErrorOccurredEventData</b> structure and trailing error message and scan data.
 
 
 ### -field IsRetriable
@@ -66,7 +66,7 @@ Indicates whether <a href="https://go.microsoft.com/fwlink/p/?LinkId=314125">Rea
 
 ### -field Severity
 
-Contains a value in the <a href="https://msdn.microsoft.com/a8c592fa-2736-49e4-8d4d-8729baef9c49">UnifiedPosErrorSeverity</a> enumeration indicating the severity of the error. 
+Contains a value in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pointofservicecommontypes/ne-pointofservicecommontypes-driverunifiedposerrorseverity">UnifiedPosErrorSeverity</a> enumeration indicating the severity of the error. 
 
 
 ### -field VendorErrorCode
@@ -76,7 +76,7 @@ Contains a vendor-specific error code.
 
 ### -field Reason
 
-Contains a value in the <a href="https://msdn.microsoft.com/2bbf5fcf-666e-4265-95cf-7e04670d59da">UnifiedPosErrorReason</a> enumeration indicating the reason for the error.
+Contains a value in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pointofservicecommontypes/ne-pointofservicecommontypes-driverunifiedposerrorreason">UnifiedPosErrorReason</a> enumeration indicating the reason for the error.
 
 
 ### -field ExtendedReason

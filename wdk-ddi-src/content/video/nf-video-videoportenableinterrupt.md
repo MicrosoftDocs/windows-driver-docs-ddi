@@ -76,7 +76,7 @@ If <b>VideoPortEnableInterrupt</b> succeeds, it returns NO_ERROR. Otherwise, it 
 
 If you need to disable interrupts for the display adapter, write hardware-specific code to prevent the display adapter from generating interrupts. To subsequently enable interrupts, write hardware-specific code to allow the display adapter to resume generating interrupts.
 
-You should not call <a href="https://msdn.microsoft.com/library/windows/hardware/ff570294">VideoPortDisableInterrupt</a> or <b>VideoPortEnableInterrupt</b> for the following reasons:
+You should not call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportdisableinterrupt">VideoPortDisableInterrupt</a> or <b>VideoPortEnableInterrupt</b> for the following reasons:
 
 <ul>
 <li>
@@ -92,7 +92,7 @@ On a multiprocessor machine, a call to <b>VideoPortEnableInterrupt</b> might run
 
 </li>
 </ul>
-If the video miniport driver has not registered an <a href="https://msdn.microsoft.com/523471e3-cf1e-48d2-b5f0-2f8d19ad71e0">HwVidInterrupt</a> routine for the display adapter, <b>VideoPortEnableInterrupt</b> returns ERROR_INVALID_FUNCTION. 
+If the video miniport driver has not registered an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nc-video-pvideo_hw_interrupt">HwVidInterrupt</a> routine for the display adapter, <b>VideoPortEnableInterrupt</b> returns ERROR_INVALID_FUNCTION. 
 
 
 
@@ -102,19 +102,19 @@ If the video miniport driver has not registered an <a href="https://msdn.microso
 
 
 
-<a href="https://msdn.microsoft.com/523471e3-cf1e-48d2-b5f0-2f8d19ad71e0">HwVidInterrupt</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nc-video-pvideo_hw_interrupt">HwVidInterrupt</a>
 
 
 
-<a href="https://msdn.microsoft.com/04e3bac6-c905-4c95-bd1b-e85b46c4296d">HwVidSynchronizeExecutionCallback</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nc-video-pminiport_synchronize_routine">HwVidSynchronizeExecutionCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570505">VIDEO_HW_INITIALIZATION_DATA</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/ns-video-_video_hw_initialization_data">VIDEO_HW_INITIALIZATION_DATA</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570294">VideoPortDisableInterrupt</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportdisableinterrupt">VideoPortDisableInterrupt</a>
  
 
  

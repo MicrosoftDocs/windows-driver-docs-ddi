@@ -46,7 +46,7 @@ req.typenames: GetBindingCapability_OUT, *PGetBindingCapability_OUT
 ## -description
 
 
-The GetBindingCapability_OUT structure is used by a WMI provider to report the output parameter data of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff553902">GetBindingCapability</a> WMI method to the WMI client.
+The GetBindingCapability_OUT structure is used by a WMI provider to report the output parameter data of the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/getbindingcapability">GetBindingCapability</a> WMI method to the WMI client.
 
 
 ## -struct-fields
@@ -56,7 +56,7 @@ The GetBindingCapability_OUT structure is used by a WMI provider to report the o
 
 ### -field HBAStatus
 
-Contains the status of the operation. For a list of allowed values and their descriptions, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>. 
+Contains the status of the operation. For a list of allowed values and their descriptions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/hba-status">HBA_STATUS</a>. 
 
 
 ### -field BindType
@@ -68,7 +68,7 @@ Indicates the ability of an HBA and its miniport driver to provide a specific se
 
 
 
-The WMI tool suite generates a declaration of the GetBindingCapability_OUT structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://msdn.microsoft.com/library/windows/hardware/ff562509">MSFC_HBAFCPInfo WMI Class</a>.
+The WMI tool suite generates a declaration of the GetBindingCapability_OUT structure in <i>Hbapiwmi.h </i>when it compiles the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/msfc-hbafcpinfo-wmi-class">MSFC_HBAFCPInfo WMI Class</a>.
 
 
 
@@ -78,7 +78,7 @@ The WMI tool suite generates a declaration of the GetBindingCapability_OUT struc
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553902">GetBindingCapability</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/getbindingcapability">GetBindingCapability</a>
  
 
  

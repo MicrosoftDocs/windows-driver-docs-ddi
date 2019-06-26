@@ -182,7 +182,7 @@ The host memory buffer could not be allocated.
 
 
         
-      The caller should subsequently call <a href="https://msdn.microsoft.com/686D141E-E6EA-4BB6-8556-0ECAC592E8F0">StorPortFreeHostMemoryBuffer</a> when it is
+      The caller should subsequently call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportfreehostmemorybuffer">StorPortFreeHostMemoryBuffer</a> when it is
     done with the host memory buffer.
 
 
@@ -193,7 +193,7 @@ The host memory buffer could not be allocated.
 
 
 
-<a href="https://msdn.microsoft.com/686D141E-E6EA-4BB6-8556-0ECAC592E8F0">StorPortFreeHostMemoryBuffer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportfreehostmemorybuffer">StorPortFreeHostMemoryBuffer</a>
  
 
  

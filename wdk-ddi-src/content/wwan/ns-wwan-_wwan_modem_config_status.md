@@ -56,12 +56,12 @@ The <b>WWAN_MODEM_CONFIG_STATUS</b> structure represents a modem's configuration
 
 ### -field ConfigState
 
-The modem's config state. For a list of defined values, see <a href="https://msdn.microsoft.com/A22EA7A7-2C28-4117-A2B8-A7D3D4C9F11B">WWAN_MODEM_CONFIG_STATE</a>.
+The modem's config state. For a list of defined values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ne-wwan-_wwan_modem_config_state">WWAN_MODEM_CONFIG_STATE</a>.
 
 
 ### -field ConfigReason
 
-The reason why the modem's config state change was triggered. For a list of defined values, see <a href="https://msdn.microsoft.com/2CF2C69B-A5DF-4A78-BC15-EB80FAC51831">WWAN_MODEM_CONFIG_REASON</a>.
+The reason why the modem's config state change was triggered. For a list of defined values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ne-wwan-_wwan_modem_config_reason">WWAN_MODEM_CONFIG_REASON</a>.
 
 
 ### -field PreviousConfigID
@@ -103,15 +103,15 @@ If the same config file is selected as the currently activated one, the MBB driv
 
 
 
-<a href="https://msdn.microsoft.com/14FBFA51-F4A5-417A-8905-241CEA543774">WWAN_MODEM_CONFIG_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_modem_config_info">WWAN_MODEM_CONFIG_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/2CF2C69B-A5DF-4A78-BC15-EB80FAC51831">WWAN_MODEM_CONFIG_REASON</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ne-wwan-_wwan_modem_config_reason">WWAN_MODEM_CONFIG_REASON</a>
 
 
 
-<a href="https://msdn.microsoft.com/A22EA7A7-2C28-4117-A2B8-A7D3D4C9F11B">WWAN_MODEM_CONFIG_STATE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ne-wwan-_wwan_modem_config_state">WWAN_MODEM_CONFIG_STATE</a>
  
 
  

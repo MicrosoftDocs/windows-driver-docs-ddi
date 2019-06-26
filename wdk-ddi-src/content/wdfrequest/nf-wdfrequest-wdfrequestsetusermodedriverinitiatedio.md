@@ -82,7 +82,7 @@ This method does not return a value.
 
 
 
-If a UMDF driver calls this method with the <i>IsUserModeDriverInitiated</i> parameter set to <b>TRUE</b>, the framework sets the <b>IRP_UM_DRIVER_INITIATED_IO</b> flag in the <b>Flags</b> member of the WDM <a href="https://msdn.microsoft.com/library/windows/hardware/ff550694">IRP</a> structure before forwarding the request to kernel-mode drivers.
+If a UMDF driver calls this method with the <i>IsUserModeDriverInitiated</i> parameter set to <b>TRUE</b>, the framework sets the <b>IRP_UM_DRIVER_INITIATED_IO</b> flag in the <b>Flags</b> member of the WDM <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_irp">IRP</a> structure before forwarding the request to kernel-mode drivers.
 
 A kernel-mode driver that resides below the UMDF driver in the same device stack can check for this flag to determine if the request should be treated as though initiated by a UMDF driver.
 
@@ -100,7 +100,7 @@ Requests that the driver created on its own are already marked as having origina
 
 
 
-<a href="https://msdn.microsoft.com/3F2B060F-3818-4BBC-9BF7-7A82128274E0">WdfRequestGetUserModeDriverInitiatedIo</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfrequest/nf-wdfrequest-wdfrequestgetusermodedriverinitiatedio">WdfRequestGetUserModeDriverInitiatedIo</a>
  
 
  

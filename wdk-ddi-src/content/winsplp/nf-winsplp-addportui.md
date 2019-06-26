@@ -92,7 +92,7 @@ If the operation succeeds, the function should return <b>TRUE</b>. Otherwise Set
 
 
 
-Port monitor UI DLLs are required to define an <b>AddPortUI</b> function and include the function's address in a <a href="https://msdn.microsoft.com/library/windows/hardware/ff557541">MONITORUI</a> structure.
+Port monitor UI DLLs are required to define an <b>AddPortUI</b> function and include the function's address in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/ns-winsplp-_monitorui">MONITORUI</a> structure.
 
 The spooler calls <b>AddPortUI</b> from within its AddPort function. The first three arguments received by <b>AddPortUI</b> are the arguments received by AddPort. (The AddPort function is described in the Microsoft Windows SDK documentation.)
 
@@ -109,7 +109,7 @@ where <i>ServerName</i> and <i>MonitorName</i> are the server and monitor names 
 
 The call to OpenPrinter requires a PRINTER_DEFAULTS structure, which is described in the Windows SDK documentation. The structure's <b>DesiredAccess</b> member must be set to SERVER_ACCESS_ADMINISTER. Its <b>pDatatype</b> and <b>pDevMode</b> members can be <b>NULL</b>.
 
-This call causes the print monitor server DLL's <a href="https://msdn.microsoft.com/library/windows/hardware/ff564259">XcvOpenPort</a> function to be called.
+This call causes the print monitor server DLL's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-xcvopenport">XcvOpenPort</a> function to be called.
 
 </li>
 <li>
@@ -117,25 +117,25 @@ Obtain a port name from the user by displaying a dialog box.
 
 </li>
 <li>
-Call <a href="https://msdn.microsoft.com/library/windows/hardware/ff564255">XcvData</a>, specifying the following input arguments:<ul>
+Call <a href="https://docs.microsoft.com/previous-versions/ff564255(v=vs.85)">XcvData</a>, specifying the following input arguments:<ul>
 <li>The handle received from OpenPrinter</li>
 <li>The port name received from the user</li>
 <li>A customized data name string, such as "PortExists"</li>
 </ul>
 
 
-This call causes the server DLL's <a href="https://msdn.microsoft.com/library/windows/hardware/ff564258">XcvDataPort</a> function to be called. The <b>XcvDataPort</b> function should return a value that indicates whether the specified port name has already been used. If it has, the UI DLL should request another name from the user and call <a href="https://msdn.microsoft.com/library/windows/hardware/ff564255">XcvData</a> again.
+This call causes the server DLL's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-xcvdataport">XcvDataPort</a> function to be called. The <b>XcvDataPort</b> function should return a value that indicates whether the specified port name has already been used. If it has, the UI DLL should request another name from the user and call <a href="https://docs.microsoft.com/previous-versions/ff564255(v=vs.85)">XcvData</a> again.
 
 </li>
 <li>
-After a valid new port name has been received, call <a href="https://msdn.microsoft.com/library/windows/hardware/ff564255">XcvData</a> again, this time specifying the following input arguments:<ul>
+After a valid new port name has been received, call <a href="https://docs.microsoft.com/previous-versions/ff564255(v=vs.85)">XcvData</a> again, this time specifying the following input arguments:<ul>
 <li>The handle received from OpenPrinter</li>
 <li>The validated port name received from the user</li>
 <li>A data name string of "AddPort"</li>
 </ul>
 
 
-This call causes the server DLL's <a href="https://msdn.microsoft.com/library/windows/hardware/ff564258">XcvDataPort</a> function to be called again.
+This call causes the server DLL's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-xcvdataport">XcvDataPort</a> function to be called again.
 
 </li>
 <li>
@@ -143,11 +143,11 @@ Obtain port configuration parameters from the user by displaying a dialog box.
 
 </li>
 <li>
-Call <a href="https://msdn.microsoft.com/library/windows/hardware/ff564255">XcvData</a> one or more times, specifying customized data name strings, to send each configuration parameter to the server DLL. Each <b>XcvData</b> call causes the server's <a href="https://msdn.microsoft.com/library/windows/hardware/ff564258">XcvDataPort</a> function to be called.
+Call <a href="https://docs.microsoft.com/previous-versions/ff564255(v=vs.85)">XcvData</a> one or more times, specifying customized data name strings, to send each configuration parameter to the server DLL. Each <b>XcvData</b> call causes the server's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-xcvdataport">XcvDataPort</a> function to be called.
 
 </li>
 <li>
-Call ClosePrinter, specifying the handle received from OpenPrinter. This causes the server DLL's <a href="https://msdn.microsoft.com/library/windows/hardware/ff564254">XcvClosePort</a> function to be called.
+Call ClosePrinter, specifying the handle received from OpenPrinter. This causes the server DLL's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-xcvcloseport">XcvClosePort</a> function to be called.
 
 </li>
 </ol>
@@ -159,23 +159,23 @@ Call ClosePrinter, specifying the handle received from OpenPrinter. This causes 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557541">MONITORUI</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/ns-winsplp-_monitorui">MONITORUI</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564254">XcvClosePort</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-xcvcloseport">XcvClosePort</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564255">XcvData</a>
+<a href="https://docs.microsoft.com/previous-versions/ff564255(v=vs.85)">XcvData</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564258">XcvDataPort</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-xcvdataport">XcvDataPort</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564259">XcvOpenPort</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-xcvopenport">XcvOpenPort</a>
  
 
  

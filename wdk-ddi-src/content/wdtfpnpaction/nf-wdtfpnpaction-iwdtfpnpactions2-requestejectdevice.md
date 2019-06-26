@@ -83,7 +83,7 @@ See the MSDN documentation for details.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451094">IWDTFPNPActions2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">IWDTFPNPActions2</a>
  
 
  

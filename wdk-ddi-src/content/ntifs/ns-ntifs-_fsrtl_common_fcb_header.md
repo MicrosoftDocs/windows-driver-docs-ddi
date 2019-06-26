@@ -46,7 +46,7 @@ req.typenames: FSRTL_COMMON_FCB_HEADER
 ## -description
 
 
-Do not use the FSRTL_COMMON_FCB_HEADER structure outside of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547334">FSRTL_ADVANCED_FCB_HEADER</a> structure.  The FSRTL_COMMON_FCB_HEADER structure contains context information that a file system maintains about a file, directory, volume, or alternate data stream.  
+Do not use the FSRTL_COMMON_FCB_HEADER structure outside of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_fsrtl_advanced_fcb_header">FSRTL_ADVANCED_FCB_HEADER</a> structure.  The FSRTL_COMMON_FCB_HEADER structure contains context information that a file system maintains about a file, directory, volume, or alternate data stream.  
 
 
 ## -struct-fields
@@ -110,7 +110,7 @@ The Cache Manager sets this flag to indicate that a view is mapped to a file.
 
 #### FSRTL_FLAG_ADVANCED_HEADER
 
-This flag indicates that the file system is using <a href="https://msdn.microsoft.com/library/windows/hardware/ff547334">FSRTL_ADVANCED_FCB_HEADER</a> instead of FSRTL_COMMON_FCB_HEADER in its file control block (FCB) structures. This flag is required because use of the FSRTL_COMMON_FCB_HEADER structure outside of the FSRTL_ADVANCED_FCB_HEADER structure is deprecated.
+This flag indicates that the file system is using <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_fsrtl_advanced_fcb_header">FSRTL_ADVANCED_FCB_HEADER</a> instead of FSRTL_COMMON_FCB_HEADER in its file control block (FCB) structures. This flag is required because use of the FSRTL_COMMON_FCB_HEADER structure outside of the FSRTL_ADVANCED_FCB_HEADER structure is deprecated.
 
 
 
@@ -161,7 +161,7 @@ The FCB for the file is bad, or an opportunistic lock (also called  "oplock") ex
 </table>
  
 
-For more information about these values, see the reference entries for <a href="https://msdn.microsoft.com/library/windows/hardware/ff545697">FsRtlAreThereCurrentFileLocks</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff545791">FsRtlCopyRead</a>, and <a href="https://msdn.microsoft.com/library/windows/hardware/ff545797">FsRtlCopyWrite</a>. 
+For more information about these values, see the reference entries for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-fsrtlaretherecurrentfilelocks">FsRtlAreThereCurrentFileLocks</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlcopyread">FsRtlCopyRead</a>, and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlcopywrite">FsRtlCopyWrite</a>. 
 
 
 ### -field Flags2
@@ -191,7 +191,7 @@ If this flag is set, the Cache Manager will flush and purge the cache map when a
 
 #### FSRTL_FLAG2_SUPPORTS_FILTER_CONTEXTS
 
-This flag indicates that the file system is using <a href="https://msdn.microsoft.com/library/windows/hardware/ff547334">FSRTL_ADVANCED_FCB_HEADER</a> instead of FSRTL_COMMON_FCB_HEADER in its FCB structures. This flag is required because use of the FSRTL_COMMON_FCB_HEADER structure outside of the FSRTL_ADVANCED_FCB_HEADER structure is deprecated.
+This flag indicates that the file system is using <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_fsrtl_advanced_fcb_header">FSRTL_ADVANCED_FCB_HEADER</a> instead of FSRTL_COMMON_FCB_HEADER in its FCB structures. This flag is required because use of the FSRTL_COMMON_FCB_HEADER structure outside of the FSRTL_ADVANCED_FCB_HEADER structure is deprecated.
 
 
 
@@ -207,7 +207,7 @@ Reserved for system use. Drivers must set this bit-field to zero.
 
 ### -field Version
 
-Reserved for system use.  This bit-field is set by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547257">FsRtlSetupAdvancedHeader</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff547263">FsRtlSetupAdvancedHeaderEx</a> macro.  Starting with Windows Vista, the value of this bit-field is FSRTL_FCB_HEADER_V1 or greater; otherwise, the value is FSRTL_FCB_HEADER_V0.  See <a href="https://msdn.microsoft.com/library/windows/hardware/ff547334">FSRTL_ADVANCED_FCB_HEADER</a> for more information.
+Reserved for system use.  This bit-field is set by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff547257">FsRtlSetupAdvancedHeader</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-fsrtlsetupadvancedheaderex">FsRtlSetupAdvancedHeaderEx</a> macro.  Starting with Windows Vista, the value of this bit-field is FSRTL_FCB_HEADER_V1 or greater; otherwise, the value is FSRTL_FCB_HEADER_V0.  See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_fsrtl_advanced_fcb_header">FSRTL_ADVANCED_FCB_HEADER</a> for more information.
 
 
 ### -field Resource
@@ -245,7 +245,7 @@ Valid data length of the file stream.
 
 
 
-File systems must set the <b>FsContext</b> member of every file object to point to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff547334">FSRTL_ADVANCED_FCB_HEADER</a> structure.  This structure can be embedded inside of a file-system-specific stream context object structure (the remainder of this structure is file-system-specific). Usually, the FSRTL_ADVANCED_FCB_HEADER  structure is a file control block (FCB). However, on some file systems that support multiple data streams, such as NTFS, it is a stream control block (SCB).
+File systems must set the <b>FsContext</b> member of every file object to point to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_fsrtl_advanced_fcb_header">FSRTL_ADVANCED_FCB_HEADER</a> structure.  This structure can be embedded inside of a file-system-specific stream context object structure (the remainder of this structure is file-system-specific). Usually, the FSRTL_ADVANCED_FCB_HEADER  structure is a file control block (FCB). However, on some file systems that support multiple data streams, such as NTFS, it is a stream control block (SCB).
 
 <div class="alert"><b>Note</b>   To support filter manager and filter contexts, file systems must use the FSRTL_ADVANCED_FCB_HEADER structure in their stream context objects. All Microsoft file systems use this structure, and all third-party file system developers must do so as well.  FCBs and SCBs for all classes of open requests, including volume open requests, must include this structure.</div>
 <div> </div>
@@ -263,7 +263,7 @@ If the file is used as a paging file, the FSRTL_ADVANCED_FCB_HEADER structure mu
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547334">FSRTL_ADVANCED_FCB_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_fsrtl_advanced_fcb_header">FSRTL_ADVANCED_FCB_HEADER</a>
 
 
 
@@ -271,15 +271,15 @@ If the file is used as a paging file, the FSRTL_ADVANCED_FCB_HEADER structure mu
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545697">FsRtlAreThereCurrentFileLocks</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-fsrtlaretherecurrentfilelocks">FsRtlAreThereCurrentFileLocks</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545791">FsRtlCopyRead</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlcopyread">FsRtlCopyRead</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545797">FsRtlCopyWrite</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlcopywrite">FsRtlCopyWrite</a>
 
 
 
