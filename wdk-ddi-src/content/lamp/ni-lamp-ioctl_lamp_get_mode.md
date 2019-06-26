@@ -42,70 +42,39 @@ req.typenames:
 
 # IOCTL_LAMP_GET_MODE IOCTL
 
-
 ## -description
 
+The **IOCTL_LAMP_GET_MODE** control code queries the mode with which the lamp is currently configured.
 
-The <b>IOCTL_LAMP_GET_MODE</b> 
-   control code queries the mode with which the lamp is currently configured.
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>#define IOCTL_LAMP_GET_MODE \
-    CTL_CODE(IOCTL_LAMP_BASE, 0x0002, METHOD_BUFFERED, FILE_ANY_ACCESS)</pre>
-</td>
-</tr>
-</table></span></div>
+```cpp
+#define IOCTL_LAMP_GET_MODE \
+    CTL_CODE(IOCTL_LAMP_BASE, 0x0002, METHOD_BUFFERED, FILE_ANY_ACCESS)
+```
 
 ## -ioctlparameters
 
-
-
-
 ### -input-buffer
 
-<code>Irp->AssociatedIrp.SystemBuffer</code> points to a buffer of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/lamp/ne-lamp-lamp_mode">LAMP_MODE</a>.
-
+`Irp->AssociatedIrp.SystemBuffer` points to a buffer of type [LAMP_MODE](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/lamp/ne-lamp-lamp_mode).
 
 ### -input-buffer-length
 
-Length of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/lamp/ne-lamp-lamp_mode">LAMP_MODE</a>.
-
+Length of [LAMP_MODE](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/lamp/ne-lamp-lamp_mode).
 
 ### -output-buffer
 
-<code>Irp->AssociatedIrp.SystemBuffer</code> is filled with a <b>LAMP_MODE</b> value.
-
+`Irp->AssociatedIrp.SystemBuffer` is filled with a **LAMP_MODE** value.
 
 ### -output-buffer-length
 
-<code>IO_STACK_LOCATION.Parameters.DeviceIoControl.OutputBufferLength</code> is the length of the buffer in bytes passed in the <code>Irp->AssociatedIrp.SystemBuffer</code> field.
-
+`IO_STACK_LOCATION.Parameters.DeviceIoControl.OutputBufferLength` is the length of the buffer in bytes passed in the `Irp->AssociatedIrp.SystemBuffer` field.
 
 ### -in-out-buffer
 
-
-
-
-
-
-
-
 ### -inout-buffer-length
-
-
-
-
-
-
-
 
 ### -status-block
 
-The driver sets <code>Irp->IoStatus.Status</code> to <b>STATUS_SUCCESS</b> or the appropriate error status. It will set <code>Irp->IoStatus.Information</code> to the number of bytes required to hold a <b>DWORD</b> value.
+The driver sets `Irp->IoStatus.Status` to **STATUS_SUCCESS** or the appropriate error status. It will set `Irp->IoStatus.Information` to the number of bytes required to hold a **DWORD** value.
 
-If the device has been acquired by a camera driver, the lamp driver should return a   <b>STATUS_RESOURCE_IN_USE</b> error via <code>Irp->IoStatus.Status</code>.
-
+If the device has been acquired by a camera driver, the lamp driver should return a **STATUS_RESOURCE_IN_USE** error via `Irp->IoStatus.Status`.
