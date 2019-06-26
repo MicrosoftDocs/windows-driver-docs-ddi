@@ -73,7 +73,7 @@ Specifies that the callback is executed to get the amount of data the driver wan
 
 ### -field KbCallbackRemovePages
 
-The callback function removes one or more pages of driver-supplied data from the crash dump file. For more information, see [**KBUGCHECK_REMOVE_PAGES**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_kbugcheck_remove_pages).
+The callback function removes one or more pages of driver-supplied data from the crash dump file. For more information, see <b><a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_kbugcheck_remove_pages">KBUGCHECK_REMOVE_PAGES</a></b>.
 
 ### -field KbCallbackTriageDumpData
 
