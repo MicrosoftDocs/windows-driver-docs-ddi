@@ -82,7 +82,8 @@ Minifilter drivers that only retrieve short or opened file name information shou
 
 After calling **FltGetFileNameInformation**, **FltGetFileNameInformationUnsafe**, or **FltGetDestinationFileNameInformation** in the preoperation callback routine, the minifilter driver must store the returned *FileNameInformation* pointer in the preoperation callback routine's *CompletionContext* structure so that the postoperation callback can pass this pointer in the *FileNameInformation* parameter to **FltGetTunneledName**.
 
-> [!NOTE] File name tunneling affects only create, hard-link, and rename operations in this way. It does not affect other I/O operations, such as read and write.
+> [!NOTE]
+> File name tunneling affects only create, hard-link, and rename operations in this way. It does not affect other I/O operations, such as read and write.
 
 The following paired operations can cause the file name *name* to be tunneled:
 
