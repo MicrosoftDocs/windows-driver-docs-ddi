@@ -5,7 +5,7 @@ description: The FsRtlAreThereCurrentFileLocks macro checks whether any byte ran
 old-location: ifsk\fsrtlaretherecurrentfilelocks.htm
 tech.root: ifsk
 ms.assetid: 2d8789e1-721d-4abe-9864-0f7fdeb24482
-ms.date: 06/20/2019
+ms.date: 06/27/2019
 ms.keywords: FsRtlAreThereCurrentFileLocks, FsRtlAreThereCurrentFileLocks function [Installable File System Drivers], fsrtlref_c3102eee-b523-418a-8977-a875e0eb76b7.xml, ifsk.fsrtlaretherecurrentfilelocks, ntifs/FsRtlAreThereCurrentFileLocks
 ms.topic: macro
 req.header: ntifs.h
@@ -59,7 +59,7 @@ This macro acts like a BOOLEAN function, returning **TRUE** if any byte range lo
 File systems and filter drivers often call **FsRtlAreThereCurrentFileLocks** from their FastIoCheckIfPossible routines.
 
 > [!NOTE]
-If a byte-range lock has existed since the specified file was opened, the **FsRtlAreThereCurrentFileLocks** routine returns **TRUE**,  unless the relevant FILE_LOCK is reinitialized. If a lock was established, and then released, the use of **FsRtlAreThereCurrentFileLocks**  can prevent the assignment of oplocks unnecessarily. Use [**FsRtlAreThereCurrentOrInProgressFileLocks**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlaretherecurrentorinprogressfilelocks) to avoid this problem.
+> If a byte-range lock has existed since the specified file was opened, the **FsRtlAreThereCurrentFileLocks** routine returns **TRUE**,  unless the relevant FILE_LOCK is reinitialized. If a lock was established, and then released, the use of **FsRtlAreThereCurrentFileLocks**  can prevent the assignment of oplocks unnecessarily. Use [**FsRtlAreThereCurrentOrInProgressFileLocks**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlaretherecurrentorinprogressfilelocks) to avoid this problem.
 
 ## -see-also
 
