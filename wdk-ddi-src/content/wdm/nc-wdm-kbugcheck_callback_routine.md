@@ -46,6 +46,9 @@ req.typenames:
 
 The <i>BugCheckCallback</i> routine is executed whenever the system issues a bug check.
 
+> [!NOTE]
+> The [*KBUGCHECK_REASON_CALLBACK_ROUTINE*](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-kbugcheck_reason_callback_routine) callback function offers more functionality than this older callback.
+
 ## -parameters
 
 ### -param Buffer [in]
