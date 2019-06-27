@@ -73,7 +73,7 @@ Reserved for future use. Do not use.
 Array of [STORAGE_PHYSICAL_NODE_DATA](ns-ntddstor-_storage_physical_node_data.md) structures that describe the physical device data of each storage node. The number of structures in the array is determined by *NodeCount*.
 
 
-## remarks
+## -remarks
 
 The STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR structure is returned from an [IOCTL_STORAGE_QUERY_PROPERTY](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ni-ntddstor-ioctl_storage_query_property) request that has a **PropertyId** of StorageAdapterPhysicalTopologyProperty or StorageDevicePhysicalTopologyProperty. 
 
