@@ -376,7 +376,7 @@ For internal use only. Must be NULL.
 
 ### -field fpXcvData
 
-(Optional. Can be NULL.) Pointer to the provider's [XcvData](href="https://msdn.microsoft.com/library/windows/hardware/ff564255) function.
+(Optional. Can be NULL.) Pointer to the provider's [XcvData](https://docs.microsoft.com/en-us/previous-versions/ff564255(v=vs.85)) function.
 
 ### -field fpAddPrinterDriverEx
 
@@ -408,7 +408,7 @@ For internal use only. Must be NULL.
 
 ### -field fpSendRecvBidiData
 
-(Optional. Can be NULL.) Pointer to the provider's [SendRecvBidiData](href="https://msdn.microsoft.com/library/windows/hardware/ff562068) function. If this parameter is NULL, it means that the provider does not support bidi communication.
+(Optional. Can be NULL.) Pointer to the provider's [SendRecvBidiData](https://docs.microsoft.com/en-us/previous-versions//ff562068(v=vs.85)) function. If this parameter is NULL, it means that the provider does not support bidi communication.
 
 ### -field fpAddPrinterConnection2
 
@@ -482,6 +482,6 @@ Function pointers are listed in the order they are specified within the PRINTPRO
 
 [RefreshPrinterChangeNotification](https://docs.microsoft.com/previous-versions/ff561930(v=vs.85))
 
-[SendRecvBidiData](href="https://msdn.microsoft.com/library/windows/hardware/ff562068)
+[SendRecvBidiData](https://docs.microsoft.com/en-us/previous-versions//ff562068(v=vs.85))
 
-[XcvData](href="https://msdn.microsoft.com/library/windows/hardware/ff564255)
+[XcvData](https://docs.microsoft.com/en-us/previous-versions/ff564255(v=vs.85))
