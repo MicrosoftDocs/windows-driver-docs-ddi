@@ -42,70 +42,39 @@ req.typenames:
 
 # IOCTL_LAMP_SET_EMITTING_LIGHT IOCTL
 
-
 ## -description
 
+The **IOCTL_LAMP_SET_EMITTING_LIGHT** control code turns the lamp on or off.
 
-The <b>IOCTL_LAMP_SET_EMITTING_LIGHT</b> 
-   control code turns the lamp on or off.
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>#define IOCTL_LAMP_SET_EMITTING_LIGHT \
-    CTL_CODE(IOCTL_LAMP_BASE, 0x0009, METHOD_BUFFERED, FILE_ANY_ACCESS)</pre>
-</td>
-</tr>
-</table></span></div>
+```cpp
+#define IOCTL_LAMP_SET_EMITTING_LIGHT \
+    CTL_CODE(IOCTL_LAMP_BASE, 0x0009, METHOD_BUFFERED, FILE_ANY_ACCESS)
+```
 
 ## -ioctlparameters
 
-
-
-
 ### -input-buffer
 
-<code>Irp->AssociatedIrp.SystemBuffer</code> points to a buffer of type <b>BOOLEAN</b>, with <b>TRUE</b> indicating a request to turn the lamp on; <b>FALSE</b> otherwise.
-
+`Irp->AssociatedIrp.SystemBuffer` points to a buffer of type **BOOLEAN**, with **TRUE** indicating a request to turn the lamp on; **FALSE** otherwise.
 
 ### -input-buffer-length
 
-Length of a <b>BOOLEAN</b>.
-
+Length of a **BOOLEAN**.
 
 ### -output-buffer
 
 None.
 
-
 ### -output-buffer-length
 
 None.
 
-
 ### -in-out-buffer
-
-
-
-
-
-
-
 
 ### -inout-buffer-length
 
-
-
-
-
-
-
-
 ### -status-block
 
-The driver sets <code>Irp->IoStatus.Status</code> to <b>STATUS_SUCCESS</b> or the appropriate error status.
+The driver sets `Irp->IoStatus.Status` to **STATUS_SUCCESS** or the appropriate error status.
 
-If the device has been acquired by a camera driver, the lamp driver should return a <b>STATUS_RESOURCE_IN_USE</b> error via <code>Irp->IoStatus.Status</code>.
-
+If the device has been acquired by a camera driver, the lamp driver should return a **STATUS_RESOURCE_IN_USE** error via `Irp->IoStatus.Status`.
