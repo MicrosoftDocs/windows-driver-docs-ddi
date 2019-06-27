@@ -46,11 +46,7 @@ req.typenames:
 
 Driver-implemented callback functions that the system executes when it issues a bug check.
 
-The <i>KbCallbackAddPages</i> routine adds one or more pages of data to the crash dump file when the operating system issues a bug check.
-
-The <i>KbCallbackDumpIo</i> routine is executed each time the system writes data to a crash dump file.
-
-The <i>KbCallbackSecondaryDumpData</i> routine provides data to the system to append to the crash dump file when the system issues a bug check.
+See [**KBUGCHECK_CALLBACK_REASON**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_kbugcheck_callback_reason) for information on available callback types.
 
 ## -parameters
 
