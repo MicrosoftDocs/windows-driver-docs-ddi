@@ -42,47 +42,24 @@ req.typenames: BDA_PID_UNMAP, *PBDA_PID_UNMAP
 
 # _BDA_PID_UNMAP structure
 
-
 ## -description
 
-
-The BDA_PID_UNMAP structure describes packet types to stop filtering from the input stream of a packet identifier (PID) filter. These packet types are identified with PIDs. 
-
+The BDA_PID_UNMAP structure describes packet types to stop filtering from the input stream of a packet identifier (PID) filter. These packet types are identified with PIDs.
 
 ## -struct-fields
 
-
-
-
 ### -field ulcPIDs
 
-Number of PIDs in the <b>aulPIDs</b> array. 
-
+Number of PIDs in the **aulPIDs** array.
 
 ### -field aulPIDs
 
-Array of PIDs that identify packets to unmap from the output of a PID filter. 
-
+Array of PIDs that identify packets to unmap from the output of a PID filter.
 
 ## -see-also
 
+[BDA_PID_MAP](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bdatypes/ns-bdatypes-_bda_pid_map)
 
+[KSPROPSETID_BdaPIDFilter](https://docs.microsoft.com/windows-hardware/drivers/stream/kspropsetid-bdapidfilter)
 
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bdatypes/ns-bdatypes-_bda_pid_map">BDA_PID_MAP</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/stream/kspropsetid-bdapidfilter">KSPROPSETID_BdaPIDFilter</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/directshow/media-sample-content">MEDIA_SAMPLE_CONTENT</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567763">PID_MAP</a>
- 
-
- 
-
+[MEDIA_SAMPLE_CONTENT](https://docs.microsoft.com/windows/desktop/directshow/media-sample-content)
