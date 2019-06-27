@@ -75,7 +75,7 @@ void
 
 #### DeviceThermalState
 
-[out] Return value: Avstream-determined thermal state. If the state changes the pipeline is notified of the change. The pipeline notifies any app registered for thermal notifications. For more information, see the [ActiveCooling](https://msdn.microsoft.com/library/windows/hardware/hh698235(d=robot)) routine.
+[out] Return value: Avstream-determined thermal state. If the state changes the pipeline is notified of the change. The pipeline notifies any app registered for thermal notifications. 
 
 ### -field PassiveCooling
 
@@ -104,4 +104,4 @@ void
 
 #### DeviceThermalState
 
-[out] Return value: Avstream-determined thermal state. If the state changes the pipeline is notified of the change. The pipeline notifies any app registered for thermal notifications. For more information, see the [PassiveCooling](https://msdn.microsoft.com/library/windows/hardware/hh698270(d=robot)) routine.
+[out] Return value: Avstream-determined thermal state. If the state changes the pipeline is notified of the change. The pipeline notifies any app registered for thermal notifications.

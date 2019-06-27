@@ -42,68 +42,27 @@ req.typenames:
 
 # IWiaMiniDrvTransferCallback interface
 
-
 ## -description
-
 
 This is a Callback interface that is called by the WIA mini-driver for stream-based transfers.
 
-
 ## -inheritance
-
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWiaMiniDrvTransferCallback</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWiaMiniDrvTransferCallback</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
 
 ## -members
 
-The <b>IWiaMiniDrvTransferCallback</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiaminidrvtransfercallback-getnextstream">GetNextStream</a>
-</td>
-<td align="left" width="63%">
-Called by the WIA mini-driver to obtain a stream for the current data transfer (download or upload).
+The **IWiaMiniDrvTransferCallback** interface has these methods.
 
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiaminidrvtransfercallback-sendmessage">SendMessage</a>
-</td>
-<td align="left" width="63%">
-Periodically called by the WIA mini-driver during a data transfer, to update the WIA application client about the progress and status of the transfer.
-
-</td>
-</tr>
-</table> 
-
+| Method | Description |
+| --- | --- |
+| [GetNextStream](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiaminidrvtransfercallback-getnextstream) | Called by the WIA mini-driver to obtain a stream for the current data transfer (download or upload). |
+| [SendMessage](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiaminidrvtransfercallback-sendmessage) | Periodically called by the WIA mini-driver during a data transfer, to update the WIA application client about the progress and status of the transfer. |
 
 ## -see-also
 
+[Cancellation of Data Transfers in Windows Vista](https://docs.microsoft.com/windows-hardware/drivers/image/cancellation-of-data-transfers-in-windows-vista)
 
+[Data Transfer Between Legacy Application and Windows Vista Driver](https://docs.microsoft.com/windows-hardware/drivers/image/data-transfer-between-legacy-application-and-windows-vista-driver)
 
+[IStream Transfer Driver Example](https://docs.microsoft.com/windows-hardware/drivers/image/istream-transfer-driver-example)
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/image/cancellation-of-data-transfers-in-windows-vista">Cancellation of Data Transfers in Windows Vista</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/image/data-transfer-between-legacy-application-and-windows-vista-driver">Data Transfer Between Legacy Application and Windows Vista Driver</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/image/istream-transfer-driver-example">IStream Transfer Driver Example</a>
-
-
-
-<a href="https://msdn.microsoft.com/windows/hardware/gg463512">Introduction to WIA 2.0</a>
- 
-
- 
-
+[Introduction to WIA](https://docs.microsoft.com/windows-hardware/drivers/image/introduction-to-wia)

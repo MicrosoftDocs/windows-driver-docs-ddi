@@ -42,136 +42,96 @@ req.typenames: MstStatisticsEntryType
 
 # _MsrStatisticsEntryType enumeration
 
-
 ## -description
-
 
 This enumeration defines the kinds of magnetic stripe reader statistics.
 
-
 ## -enum-fields
-
-
-
 
 ### -field MsrStatisticsEntryType_Invalid
 
 Reserved for internal use.
 
-
 ### -field MsrStatisticsEntryType_HoursPoweredCount
 
 Number of hours that the device has been powered on.
-
 
 ### -field MsrStatisticsEntryType_CommunicationErrorCount
 
 Number of communication errors.
 
-
 ### -field MsrStatisticsEntryType_GoodReadCount
 
 Number of successful reads
-
-
 
 ### -field MsrStatisticsEntryType_FailedReadCount
 
 Number of failed reads
 
-
-
 ### -field MsrStatisticsEntryType_UnreadableCardCount
 
 Number of unreadable cards
-
-
 
 ### -field MsrStatisticsEntryType_GoodWriteCount
 
 Number of successful writes. Do not use.
 
-
 ### -field MsrStatisticsEntryType_FailedWriteCount
 
 Number of failed writes. Do not use.
-
 
 ### -field MsrStatisticsEntryType_MissingStartSentinelTrack1Count
 
 Number of missing start sentinel errors on track 1. May indicate an empty track.
 
-
 ### -field MsrStatisticsEntryType_ParityLRCErrorTrack1Count
 
 Number of Parity or LRC errors on track 1
-
-
 
 ### -field MsrStatisticsEntryType_MissingStartSentinelTrack2Count
 
 Number of missing start sentinel errors on track 2. May indicate an empty track.
 
-
 ### -field MsrStatisticsEntryType_ParityLRCErrorTrack2Count
 
 Number of Parity or LRC errors on track 2
-
-
 
 ### -field MsrStatisticsEntryType_MissingStartSentinelTrack3Count
 
 Number of missing start sentinel errors on track 3. May indicate an empty track.
 
-
 ### -field MsrStatisticsEntryType_ParityLRCErrorTrack3Count
 
 Number of Parity or LRC errors on track 3
-
-
 
 ### -field MsrStatisticsEntryType_MissingStartSentinelTrack4Count
 
 Number of missing start sentinel errors on track 4. May indicate an empty track.
 
-
 ### -field MsrStatisticsEntryType_ParityLRCErrorTrack4Count
 
 Number of Parity or LRC errors on track 4
-
-
 
 ### -field MsrStatisticsEntryType_GoodCardAuthenticationDataCount
 
 Number of successful card authentication data reads
 
-
-
 ### -field MsrStatisticsEntryType_FailedCardAuthenticationDataCount
 
 Number of failed card authentication data reads
 
-
-
 ### -field MsrStatisticsEntryType_ChallengeRequestCount
 
-Number of successful calls to <a href="https://msdn.microsoft.com/f94ce49d-ab87-4d8f-8fc7-af8899b37ca1">RetrieveDeviceAuthenticationDataAsync</a>.
-
+Number of successful calls to **RetrieveDeviceAuthenticationDataAsync**.
 
 ### -field MsrStatisticsEntryType_GoodDeviceAuthenticationCount
 
 Number of successful card authentication attempts
 
-
-
 ### -field MsrStatisticsEntryType_FailedDeviceAuthenticationCount
 
 Number of failed card authentication attempts
 
-
-
 ### -field MsrStatisticsEntryType_Count
 
 Count of entry types
-
-
