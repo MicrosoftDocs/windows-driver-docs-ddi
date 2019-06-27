@@ -44,7 +44,7 @@ req.typenames:
 
 ## -description
 
-The <b>KeRegisterBugCheckReasonCallback</b> function registers one of the callback routines defined in the [**KBUGCHECK_CALLBACK_REASON**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_kbugcheck_callback_reason) enumeration, which executes when the operating system issues a bug check.
+The <b>KeRegisterBugCheckReasonCallback</b> function registers a callback routine that executes when the operating system issues a bug check.
 
 ## -parameters
 
