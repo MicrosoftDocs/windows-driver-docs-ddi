@@ -5,7 +5,7 @@ description: The FsRtlAreThereCurrentFileLocks macro checks whether any byte ran
 old-location: ifsk\fsrtlaretherecurrentfilelocks.htm
 tech.root: ifsk
 ms.assetid: 2d8789e1-721d-4abe-9864-0f7fdeb24482
-ms.date: 04/16/2018
+ms.date: 06/27/2019
 ms.keywords: FsRtlAreThereCurrentFileLocks, FsRtlAreThereCurrentFileLocks function [Installable File System Drivers], fsrtlref_c3102eee-b523-418a-8977-a875e0eb76b7.xml, ifsk.fsrtlaretherecurrentfilelocks, ntifs/FsRtlAreThereCurrentFileLocks
 ms.topic: macro
 req.header: ntifs.h
@@ -42,49 +42,29 @@ req.typenames:
 
 # FsRtlAreThereCurrentFileLocks macro
 
-
 ## -description
 
-
-The<b> FsRtlAreThereCurrentFileLocks</b> macro checks whether any byte range locks exist for the specified file. 
-
+The **FsRtlAreThereCurrentFileLocks** macro checks whether any byte range locks exist for the specified file.
 
 ## -parameters
 
-
-
-
 ### -param FL
 
-<p>Pointer to the FILE_LOCK structure for the file. This structure must have been initialized by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock"><b>FsRtlAllocateFileLock</b></a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock"><b>FsRtlInitializeFileLock</b></a>.</p>
-
-
-
-
-
+Pointer to the [FILE_LOCK](https://docs.microsoft.com/windows-hardware/drivers/ifs/file-lock) structure for the file. This structure must have been initialized by a previous call to [**FsRtlAllocateFileLock**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock) or [**FsRtlInitializeFileLock**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock).
 
 ## -remarks
 
+This macro acts like a BOOLEAN function, returning **TRUE** if any byte range locks exist for the specified file or **FALSE** if none exist.
 
+File systems and filter drivers often call **FsRtlAreThereCurrentFileLocks** from their FastIoCheckIfPossible routines.
 
-File systems and filter drivers often call <b>FsRtlAreThereCurrentFileLocks</b> from their FastIoCheckIfPossible routines. 
-
-<div class="alert"><b>Note</b>  If a byte-range lock has existed since the specified file was opened, the <b>FsRtlAreThereCurrentFileLocks </b>routine returns <b>TRUE</b>,  unless the relevant FILE_LOCK is reinitialized. If a lock was established, and then released, the use of <b>FsRtlAreThereCurrentFileLocks</b>  can prevent the assignment of oplocks unnecessarily. Use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlaretherecurrentorinprogressfilelocks">FsRtlAreThereCurrentOrInProgressFileLocks</a> to avoid this problem.</div>
-<div> </div>
-
-
+> [!NOTE]
+> If a byte-range lock has existed since the specified file was opened, the **FsRtlAreThereCurrentFileLocks** routine returns **TRUE**,  unless the relevant FILE_LOCK is reinitialized. If a lock was established, and then released, the use of **FsRtlAreThereCurrentFileLocks**  can prevent the assignment of oplocks unnecessarily. Use [**FsRtlAreThereCurrentOrInProgressFileLocks**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlaretherecurrentorinprogressfilelocks) to avoid this problem.
 
 ## -see-also
 
+[**FsRtlAllocateFileLock**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock)
 
+[**FsRtlAreThereCurrentOrInProgressFileLocks**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlaretherecurrentorinprogressfilelocks)
 
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock">FsRtlAllocateFileLock</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock">FsRtlInitializeFileLock</a>
- 
-
- 
-
+[**FsRtlInitializeFileLock**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock)
