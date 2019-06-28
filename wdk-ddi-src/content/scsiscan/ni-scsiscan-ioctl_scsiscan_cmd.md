@@ -42,80 +42,48 @@ req.typenames:
 
 # IOCTL_SCSISCAN_CMD IOCTL
 
-
 ## -description
-
 
 Creates a customized SCSI control descriptor block (CDB) and sends it to the kernel-mode still image driver for SCSI buses.
 
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
-Pointer to a <b>SCSISCAN_CMD</b> structure.
-
+Pointer to a **SCSISCAN_CMD** structure.
 
 ### -input-buffer-length
 
 Size of the input buffer.
 
-
 ### -output-buffer
 
 Pointer to a data buffer. Depending on the type of I/O operation, this buffer might supply or receive data.
-
 
 ### -output-buffer-length
 
 Size of the output buffer.
 
-
 ### -in-out-buffer
-
-
-
-
-
-
-
 
 ### -inout-buffer-length
 
-
-
-
-
-
-
-
 ### -status-block
 
-<b>Irp->IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> code. 
-
+**Irp->IoStatus.Status** is set to STATUS_SUCCESS if the request is successful. Otherwise, **Status** to the appropriate error condition as a [NTSTATUS](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values) code.
 
 ## -remarks
 
+When the **DeviceloControl** function is called with the IOCTL_SCSISCAN_CMD I/O control code, the caller must specify the address of a [SCSISCAN_CMD](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/scsiscan/ns-scsiscan-_scsiscan_cmd) structure as the function's *lpInBuffer* parameter. This structure specifies the type of operation being requested. The kernel-mode driver constructs a SCSI Request Block (SRB) from the SCSISCAN_CMD structure's contents.
 
+For SCSI commands that involve data transfers, the [DeviceIoControl](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol) function's *lpOutBuffer* must point to a data buffer. For read operations, this buffer will receive data read from the device. For write operations, the buffer must contain the data to be written.
 
-When the <b>DeviceloControl</b> function is called with the IOCTL_SCSISCAN_CMD I/O control code, the caller must specify the address of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/scsiscan/ns-scsiscan-_scsiscan_cmd">SCSISCAN_CMD</a> structure as the function's <i>lpInBuffer</i> parameter. This structure specifies the type of operation being requested. The kernel-mode driver constructs a SCSI Request Block (SRB) from the SCSISCAN_CMD structure's contents.
+For more information, see [Accessing Kernel-Mode Drivers for Still Image Devices](https://docs.microsoft.com/windows-hardware/drivers/image/accessing-kernel-mode-drivers-for-still-image-devices).
 
-For SCSI commands that involve data transfers, the <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function's <i>lpOutBuffer</i> must point to a data buffer. For read operations, this buffer will receive data read from the device. For write operations, the buffer must contain the data to be written.
+### Code example
 
-For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/image/accessing-kernel-mode-drivers-for-still-image-devices">Accessing Kernel-Mode Drivers for Still Image Devices</a>.
-
-<b>Code example</b>
-
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>SCSISCAN_CMD  Cmd;
+```cpp
+SCSISCAN_CMD  Cmd;
 UCHAR         SrbStatus;
 
 // Construct the SCSISCAN_CMD structure and
@@ -172,32 +140,15 @@ if (SRB_STATUS_SUCCESS != SRB_STATUS(SrbStatus))
       );
     }
   }
-}</pre>
-</td>
-</tr>
-</table></span></div>
-
-
+}
+```
 
 ## -see-also
 
+[Creating IOCTL Requests in Drivers](https://docs.microsoft.com/windows-hardware/drivers/kernel/creating-ioctl-requests-in-drivers)
 
+[WdfIoTargetSendInternalIoctlOthersSynchronously](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfiotarget/nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously)
 
+[WdfIoTargetSendInternalIoctlSynchronously](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfiotarget/nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously)
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/creating-ioctl-requests-in-drivers">Creating IOCTL Requests in Drivers</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfiotarget/nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfiotarget/nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously">WdfIoTargetSendInternalIoctlSynchronously</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfiotarget/nf-wdfiotarget-wdfiotargetsendioctlsynchronously">WdfIoTargetSendIoctlSynchronously</a>
- 
-
- 
-
+[WdfIoTargetSendIoctlSynchronously](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfiotarget/nf-wdfiotarget-wdfiotargetsendioctlsynchronously)

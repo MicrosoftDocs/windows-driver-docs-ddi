@@ -42,110 +42,61 @@ req.typenames:
 
 # IOCTL_SCSISCAN_SET_TIMEOUT IOCTL
 
-
 ## -description
 
-
-The <b>IOCTL_SCSISCAN_SET_TIMEOUT</b> control code modifies the time-out value used by the kernel-mode still image driver for SCSI buses when it accesses a device.
-
+The **IOCTL_SCSISCAN_SET_TIMEOUT** control code modifies the time-out value used by the kernel-mode still image driver for SCSI buses when it accesses a device.
 
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
 The location containing a time-out value, in half seconds.
 
-
 ### -input-buffer-length
 
 Size of the input buffer
-
 
 ### -output-buffer
 
 Set to NULL.
 
-
 ### -output-buffer-length
 
 Set to 0.
 
-
 ### -in-out-buffer
-
-
-
-
-
-
-
 
 ### -inout-buffer-length
 
-
-
-
-
-
-
-
 ### -status-block
 
-<b>Irp->IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> code. 
-
+**Irp->IoStatus.Status** is set to STATUS_SUCCESS if the request is successful. Otherwise, **Status** to the appropriate error condition as a [NTSTATUS](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values) code.
 
 ## -remarks
 
-
-
-When the kernel-mode SCSI still image driver sends a SCSI command to a device, by default the driver waits 30 seconds before timing out the operation. You can change the time-out value for a device by calling the <b>DeviceloControl</b> function with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/scsiscan/ni-scsiscan-ioctl_scsiscan_cmd">IOCTL_SCSISCAN_CMD</a> control code. The specified time-out value stays in effect until the device is closed.
+When the kernel-mode SCSI still image driver sends a SCSI command to a device, by default the driver waits 30 seconds before timing out the operation. You can change the time-out value for a device by calling the **DeviceloControl** function with the [IOCTL_SCSISCAN_CMD](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/scsiscan/ni-scsiscan-ioctl_scsiscan_cmd) control code. The specified time-out value stays in effect until the device is closed.
 
 Time-out values are specified in half seconds. Thus a specified value of 100 causes the driver to wait 50 seconds before timing out the device.
 
-For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/image/accessing-kernel-mode-drivers-for-still-image-devices">Accessing Kernel-Mode Drivers for Still Image Devices</a>.
+For more information, see [Accessing Kernel-Mode Drivers for Still Image Devices](https://docs.microsoft.com/windows-hardware/drivers/image/accessing-kernel-mode-drivers-for-still-image-devices).
 
-<b>Code example</b>
+### Code example
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>ULONG timeout = 240;
+```cpp
+ULONG timeout = 240;
 fRet = DeviceIoControl( m_DeviceDataHandle,
         (DWORD)IOCTL_SCSISCAN_SET_TIMEOUT,
         &timeout,
         sizeof(ULONG),
-        NULL, NULL, &dwBytesReturned, NULL);</pre>
-</td>
-</tr>
-</table></span></div>
-
-
+        NULL, NULL, &dwBytesReturned, NULL);
+```
 
 ## -see-also
 
+[Creating IOCTL Requests in Drivers](https://docs.microsoft.com/windows-hardware/drivers/kernel/creating-ioctl-requests-in-drivers)
 
+[WdfIoTargetSendInternalIoctlOthersSynchronously](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfiotarget/nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously)
 
+[WdfIoTargetSendInternalIoctlSynchronously](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfiotarget/nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously)
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/creating-ioctl-requests-in-drivers">Creating IOCTL Requests in Drivers</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfiotarget/nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfiotarget/nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously">WdfIoTargetSendInternalIoctlSynchronously</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfiotarget/nf-wdfiotarget-wdfiotargetsendioctlsynchronously">WdfIoTargetSendIoctlSynchronously</a>
- 
-
- 
-
+[WdfIoTargetSendIoctlSynchronously](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfiotarget/nf-wdfiotarget-wdfiotargetsendioctlsynchronously)
