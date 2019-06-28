@@ -42,89 +42,50 @@ req.typenames: UNIDRV_PRIVATE_DEVMODE, *PUNIDRV_PRIVATE_DEVMODE
 
 # _UNIDRV_PRIVATE_DEVMODE structure
 
-
 ## -description
-
 
 The UNIDRV_PRIVATE_DEVMODE structure enables Unidrv plug-ins to determine the size of the private portion of Unidrv's DEVMODEW structure.
 
-
 ## -struct-fields
-
-
-
 
 ### -field wReserved
 
 Reserved for system use.
 
-
 ### -field wSize
 
-The size, in bytes, of the private portion of Unidrv's <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodew">DEVMODEW</a> structure.
-
+The size, in bytes, of the private portion of Unidrv's [DEVMODEW](https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-_devicemodew) structure.
 
 ## -remarks
 
-
-
-This structure and associated macro are available in Windows 2000 and later. For information about the public and private sections of the DEVMODEW structure, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/the-devmodew-structure">The DEVMODEW Structure</a>.
+For information about the public and private sections of the DEVMODEW structure, see [The DEVMODEW Structure](https://docs.microsoft.com/windows-hardware/drivers/display/the-devmodew-structure).
 
 Printoem.h defines a macro for determining the size of the private portion of Unidrv's DEVMODEW structure.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>#define GET_UNIDRV_PRIVATE_DEVMODE_SIZE(pdm)\
-( ( (pdm)->dmDriverExtra > (FIELD_OFFSET(UNIDRV_PRIVATE_DEVMODE, wSize) + sizeof(WORD)) ) ? \
-((PUNIDRV_PRIVATE_DEVMODE)((PBYTE)(pdm) + (pdm)-> dmSize)) -> wSize : 0 )</pre>
-</td>
-</tr>
-</table></span></div>
-The pdm argument in the <b>GET_UNIDRV_PRIVATE_DEVMODE_SIZE</b> macro is a pointer to a DEVMODEW structure. The macro determines whether the value of the <b>dmDriverExtra</b> member of the DEVMODEW structure is larger than the byte offset of the <b>wSize</b> member of the UNIDRV_PRIVATE_DEVMODE structure. If so, the macro returns the value of the <b>wSize</b> member in the UNIDRV_PRIVATE_DEVMODE structure. If not, the macro returns zero.
+```cpp
+#define GET_UNIDRV_PRIVATE_DEVMODE_SIZE(pdm)\
+    ( ( (pdm)->dmDriverExtra > (FIELD_OFFSET(UNIDRV_PRIVATE_DEVMODE, wSize) + sizeof(WORD)) ) ? \
+    ((PUNIDRV_PRIVATE_DEVMODE)((PBYTE)(pdm) + (pdm)-> dmSize)) -> wSize : 0 )
+```
+
+The pdm argument in the **GET_UNIDRV_PRIVATE_DEVMODE_SIZE** macro is a pointer to a DEVMODEW structure. The macro determines whether the value of the **dmDriverExtra** member of the DEVMODEW structure is larger than the byte offset of the **wSize** member of the UNIDRV_PRIVATE_DEVMODE structure. If so, the macro returns the value of the **wSize** member in the UNIDRV_PRIVATE_DEVMODE structure. If not, the macro returns zero.
 
 To safely determine the address of the private portion of your plug-in's DEVMODEW structure, do the following:
 
-<ol>
-<li>
-Call the <b>GET_UNIDRV_PRIVATE_DEVMODE_SIZE</b> macro, passing the address of the DEVMODEW structure in the call.
+1. Call the **GET_UNIDRV_PRIVATE_DEVMODE_SIZE** macro, passing the address of the DEVMODEW structure in the call.
 
-</li>
-<li>
-Verify that (pdm)->dmDriverExtra is larger than the value returned by the macro. (The macro returns the value of the <b>wSize</b> member of the UNIDRV_PRIVATE_DEVMODE structure.)
+2. Verify that (pdm)->dmDriverExtra is larger than the value returned by the macro. (The macro returns the value of the **wSize** member of the UNIDRV_PRIVATE_DEVMODE structure.)
 
-</li>
-<li>Determine the address of the private portion of your plug-in's DEVMODEW structure as follows.<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>pdmPlugin = (PBYTE)(pdm) + (pdm)->dmSize + wSize;</pre>
-</td>
-</tr>
-</table></span></div>
-The preceding example starts with the address of the public DEVMODEW structure (pdm), adds the number of bytes of this structure (pdm->dmSize), and then adds the size in bytes of the Unidrv private DEVMODEW structure (<b>wSize</b>). A plug-in's private DEVMODEW data begins at this memory address. If there are multiple plug-ins chained together, the address returned by this example is that of the first plug-in's private DEVMODEW data. The second plug-in's private DEVMODEW data follows the first plug-in's private DEVMODEW data, the third plug-in's private DEVMODEW data follows that of the second plug-in's private DEVMODEW data, and so on. A plug-in developer who needs to determine the address of the <i>n</i>-th plug-in's private DEVMODEW data must know the sizes of the private DEVMODEW data for the first <i>n</i> - 1 plug-ins.
+3. Determine the address of the private portion of your plug-in's DEVMODEW structure as follows.
 
-</li>
-<li>
-Verify that the private portion of your plug-in's DEVMODEW structure begins with a valid <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/ns-printoem-_oem_dmextraheader">OEM_DMEXTRAHEADER</a> structure.
+    ```cpp
+    pdmPlugin = (PBYTE)(pdm) + (pdm)->dmSize + wSize;
+    ```
 
-</li>
-</ol>
+    The preceding example starts with the address of the public DEVMODEW structure (pdm), adds the number of bytes of this structure (pdm->dmSize), and then adds the size in bytes of the Unidrv private DEVMODEW structure (**wSize**). A plug-in's private DEVMODEW data begins at this memory address. If there are multiple plug-ins chained together, the address returned by this example is that of the first plug-in's private DEVMODEW data. The second plug-in's private DEVMODEW data follows the first plug-in's private DEVMODEW data, the third plug-in's private DEVMODEW data follows that of the second plug-in's private DEVMODEW data, and so on. A plug-in developer who needs to determine the address of the *n*-th plug-in's private DEVMODEW data must know the sizes of the private DEVMODEW data for the first *n* - 1 plug-ins.
 
-
+4. Verify that the private portion of your plug-in's DEVMODEW structure begins with a valid [OEM_DMEXTRAHEADER](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/ns-printoem-_oem_dmextraheader) structure.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/ns-printoem-_pscript5_private_devmode">PSCRIPT5_PRIVATE_DEVMODE</a>
- 
-
- 
-
+[PSCRIPT5_PRIVATE_DEVMODE](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/ns-printoem-_pscript5_private_devmode)
