@@ -42,69 +42,47 @@ req.typenames:
 
 # IStillImageW::LaunchApplicationForDevice
 
-
 ## -description
 
-
-The <b>IStillImage::LaunchApplicationForDevice</b> method starts a specified application for a specified still image device.
-
+The **IStillImage::LaunchApplicationForDevice** method starts a specified application for a specified still image device.
 
 ## -parameters
 
-
-
-
 ### -param pwszDeviceName [in]
 
-Caller-supplied pointer to a string representing an internal device name, obtained by calling <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff543790(v=vs.85)">IStillImage::GetSTILaunchInformation</a> or <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff543784(v=vs.85)">IStillImage::GetDeviceList</a>.
-
+Caller-supplied pointer to a string representing an internal device name, obtained by calling [IStillImage::GetSTILaunchInformation](https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff543790(v=vs.85)) or [IStillImage::GetDeviceList](https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff543784(v=vs.85)).
 
 ### -param pwszAppName [in]
 
-Caller-supplied pointer to a string representing the short name of an application that was registered by calling <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff543798(v=vs.85)">IStillImage::RegisterLaunchApplication</a>.
-
+Caller-supplied pointer to a string representing the short name of an application that was registered by calling [IStillImage::RegisterLaunchApplication](https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff543798(v=vs.85)).
 
 ### -param pStiNotify [in]
 
-Caller-supplied pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sti/ns-sti-_stinotify">STINOTIFY</a> structure describing a device event. Typically,  the event's GUID is obtained by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sti/nf-sti-istidevice-getlastnotificationdata">IStiDevice::GetLastNotificationData</a>.
-
+Caller-supplied pointer to an [STINOTIFY](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sti/ns-sti-_stinotify) structure describing a device event. Typically,  the event's GUID is obtained by calling [IStiDevice::GetLastNotificationData](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sti/nf-sti-istidevice-getlastnotificationdata).
 
 ## -returns
 
-
-
-If the operation succeeds, the method returns S_OK. Otherwise, it returns one of the STIERR-prefixed error codes defined in <i>stierr.h</i>.
-
-
-
+If the operation succeeds, the method returns S_OK. Otherwise, it returns one of the STIERR-prefixed error codes defined in *stierr.h*.
 
 ## -remarks
 
+The **IStillImage::LaunchApplicationForDevice** method can only start applications that have registered themselves by calling [IStillImage::RegisterLaunchApplication](https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff543798(v=vs.85)). The specified event must be one that the specified device supports. The method mimics the occurrence of a device event, and is useful for applications that intercept events from devices and reroute them. (When a user starts the scanner, such an application might, for example, ask the user whether she wants to store the scanned image, make a copy, or send a fax.)
 
+Before calling **IStillImage::LaunchApplicationForDevice**, clients of the **IStillImage** COM interface must call [IStillImage::StiCreateInstance](https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff543804(v=vs.85)) to obtain an **IStillImage** interface pointer.
 
-The <b>IStillImage::LaunchApplicationForDevice</b> method can only start applications that have registered themselves by calling <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff543798(v=vs.85)">IStillImage::RegisterLaunchApplication</a>. The specified event must be one that the specified device supports. The method mimics the occurrence of a device event, and is useful for applications that intercept events from devices and reroute them. (When a user starts the scanner, such an application might, for example, ask the user whether she wants to store the scanned image, make a copy, or send a fax.)
+### Examples
 
-Before calling <b>IStillImage::LaunchApplicationForDevice</b>, clients of the <b>IStillImage</b> COM interface must call <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff543804(v=vs.85)">IStillImage::StiCreateInstance</a> to obtain an <b>IStillImage</b> interface pointer.
-
-
-#### Examples
-
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT hRes;
+```cpp
+HRESULT hRes;
 hRes = pStiDevice->GetLastNotificationData(&pNotify);
 if (!SUCCEEDED(hRes))
 {
     DisplayOutput("->GetLastNotificationData returned %xh %u",
         hReturn,hReturn);
 }
- 
+
 // Process or filter events here
- 
+
 // Send event on to app
 hRes = pSti->LaunchApplicationForDevice(pStiInfoPtr->szDeviceInternalName,
      L"AppName",
@@ -113,9 +91,5 @@ if (!SUCCEEDED(hRes))
 {
     DisplayOutput("->LaunchApplicationForDevice on %S returned %xh %u",
         pStiInfoPtr->szDeviceInternalName,hReturn,hReturn);
-}</pre>
-</td>
-</tr>
-</table></span></div>
-
-
+}
+```

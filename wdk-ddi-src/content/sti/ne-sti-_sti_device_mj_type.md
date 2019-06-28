@@ -42,56 +42,35 @@ req.typenames: STI_DEVICE_MJ_TYPE
 
 # _STI_DEVICE_MJ_TYPE enumeration
 
-
 ## -description
-
 
 The STI_DEVICE_TYPE type identifies the device type of a still image device.
 
 The DWORD is divided into a HIWORD containing the major device type, and a LOWORD containing a vendor-defined subtype.
 
-
 ## -enum-fields
-
-
-
 
 ### -field StiDeviceTypeDefault
 
 Default type.
 
-
 ### -field StiDeviceTypeScanner
 
 Scanner.
-
 
 ### -field StiDeviceTypeDigitalCamera
 
 Digital camera.
 
-
 ### -field StiDeviceTypeStreamingVideo
 
 Streaming video.
 
-
 ## -remarks
-
-
 
 The following macros are used to extract the major device type and subtype:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>GET_STIDEVICE_TYPE(dwDevType)
-GET_STIDEVICE_SUBTYPE(dwDevType)</pre>
-</td>
-</tr>
-</table></span></div>
-
-
+```cpp
+GET_STIDEVICE_TYPE(dwDevType)
+GET_STIDEVICE_SUBTYPE(dwDevType)
+```
