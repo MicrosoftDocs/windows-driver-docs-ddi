@@ -42,159 +42,109 @@ req.typenames: UNIFM_HDR, *PUNIFM_HDR
 
 # _UNIFM_HDR structure
 
-
 ## -description
 
-
-The UNIFM_HDR structure is used to define the contents of <a href="https://docs.microsoft.com/windows-hardware/drivers/print/customized-font-management">Unidrv font metrics files</a> (.ufm files).
-
+The UNIFM_HDR structure is used to define the contents of [Unidrv font metrics files](https://docs.microsoft.com/windows-hardware/drivers/print/customized-font-management) (.ufm files).
 
 ## -struct-fields
-
-
-
 
 ### -field dwSize
 
 Specifies the total size, in bytes, of the .ufm file. Note that this is the total size of all structures used to define the file. This value is not the size of the UNIFM_HDR structure.
 
-
 ### -field dwVersion
 
-Specifies the file version number, as defined in prntfont.h by a constant with a name format of UNIFM_VERSION_<i>x</i>_<i>x</i>.
-
+Specifies the file version number, as defined in prntfont.h by a constant with a name format of UNIFM_VERSION_*x*_*x*.
 
 ### -field ulDefaultCodepage
 
 Specifies the code page identifier for the font's default code page. For more information, see the following Remarks section.
 
-
 ### -field lGlyphSetDataRCID
 
 Specifies an RC_GTT resource identifier that identifies a .gtt (Glyph Translation Table) file, or one of the CC_-prefixed code conversion identifiers defined in prntfont.h. For more information, see the following Remarks section.
 
-
 ### -field loUnidrvInfo
 
-Specifies the byte offset from the beginning of the .ufm (Unidrv Font Metrics) file to the location of the file's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prntfont/ns-prntfont-_unidrvinfo">UNIDRVINFO</a> structure.
-
+Specifies the byte offset from the beginning of the .ufm (Unidrv Font Metrics) file to the location of the file's [UNIDRVINFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prntfont/ns-prntfont-_unidrvinfo) structure.
 
 ### -field loIFIMetrics
 
-Specifies the byte offset from the beginning of the .ufm file to the location of the file's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prntfont/ns-prntfont-_printifi32">PRINTIFI32</a> structure.
-
+Specifies the byte offset from the beginning of the .ufm file to the location of the file's [PRINTIFI32](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prntfont/ns-prntfont-_printifi32) structure.
 
 ### -field loExtTextMetric
 
-Specifies the byte offset from the beginning of the .ufm file to the location of the file's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prntfont/ns-prntfont-_exttextmetric">EXTTEXTMETRIC</a> structure.
-
+Specifies the byte offset from the beginning of the .ufm file to the location of the file's [EXTTEXTMETRIC](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prntfont/ns-prntfont-_exttextmetric) structure.
 
 ### -field loWidthTable
 
-Specifies the byte offset from the beginning of the .ufm file to the location of the file's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prntfont/ns-prntfont-_widthtable">WIDTHTABLE</a> structure.
-
+Specifies the byte offset from the beginning of the .ufm file to the location of the file's [WIDTHTABLE](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prntfont/ns-prntfont-_widthtable) structure.
 
 ### -field loKernPair
 
-Specifies the byte offset from the beginning of the .ufm file to the location of the file's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prntfont/ns-prntfont-_kerndata">KERNDATA</a> structure.
-
+Specifies the byte offset from the beginning of the .ufm file to the location of the file's [KERNDATA](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prntfont/ns-prntfont-_kerndata) structure.
 
 ### -field dwReserved
 
 Not used.
 
-
 ## -remarks
-
-
 
 A UNIFM_HDR structure must be the first structure contained in a .ufm file.
 
-If <b>lGlyphSetDataRCID</b> is not CC_DEFAULT, then the following rules apply:
+If **lGlyphSetDataRCID** is not CC_DEFAULT, then the following rules apply:
 
-<ul>
-<li>
-If <b>lGlyphSetDataRCID</b> contains an RC_GTT resource identifier, the code page number specified for <b>ulDefaultCodepage</b> must be the same code page number that is contained in the .gtt (Glyph Translation Table) file's first <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prntfont/ns-prntfont-_uni_codepageinfo">UNI_CODEPAGEINFO</a> structure.
+- If **lGlyphSetDataRCID** contains an RC_GTT resource identifier, the code page number specified for **ulDefaultCodepage** must be the same code page number that is contained in the .gtt (Glyph Translation Table) file's first [UNI_CODEPAGEINFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prntfont/ns-prntfont-_uni_codepageinfo) structure.
 
-</li>
-<li>
-If <b>lGlyphSetDataRCID</b> contains one of the CC_-prefixed code conversion identifiers (other than CC_DEFAULT), the code page number specified for <b>ulDefaultCodepage</b> must be the code page number that is associated with the CC_-prefixed identifier. (These code page numbers are listed in Prntfont.h, next to each CC_-prefixed identifier.)
+- If **lGlyphSetDataRCID** contains one of the CC_-prefixed code conversion identifiers (other than CC_DEFAULT), the code page number specified for **ulDefaultCodepage** must be the code page number that is associated with the CC_-prefixed identifier. (These code page numbers are listed in Prntfont.h, next to each CC_-prefixed identifier.)
 
-The character conversion codes predefined by the system, listed in Prntfont.h, are as follows:
+    The character conversion codes predefined by the system, listed in Prntfont.h, are as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>//
-// System predefined character conversion
-//
-// UNIDRV is going to support  following system predefined character conversion.
-// By speciffying these number in UNIFM.dwGlyphSetDataRCID;
-//
+    ```cpp
+    //
+    // System predefined character conversion
+    //
+    // UNIDRV is going to support  following system predefined character conversion.
+    // By speciffying these number in UNIFM.dwGlyphSetDataRCID;
+    //
 
-#define CC_NOPRECNV 0x0000FFFF // Not use predefined
+    #define CC_NOPRECNV 0x0000FFFF // Not use predefined
 
-//
-// ANSI
-//
-#define CC_DEFAULT  0 // Default Character Conversion
-#define CC_CP437   -1 // Unicode to IBM Codepage 437
-#define CC_CP850   -2 // Unicode to IBM Codepage 850
-#define CC_CP863   -3 // Unicode to IBM Codepage 863
+    //
+    // ANSI
+    //
+    #define CC_DEFAULT  0 // Default Character Conversion
+    #define CC_CP437   -1 // Unicode to IBM Codepage 437
+    #define CC_CP850   -2 // Unicode to IBM Codepage 850
+    #define CC_CP863   -3 // Unicode to IBM Codepage 863
 
-//
-// East Asia
-//
+    //
+    // East Asia
+    //
 
-#define CC_BIG5     -10 // Unicode to Chinese Big 5. Codepage 950.
-#define CC_ISC      -11 // Unicode to Korean Industrial Standard. Codepage 949.
-#define CC_JIS      -12 // Unicode to JIS X0208. Codepage 932.
-#define CC_JIS_ANK  -13 // Unicode to JIS X0208 except ANK. Codepage 932.
-#define CC_NS86     -14 // Big-5 to National Standstand conversion. Codepage 950
-#define CC_TCA      -15 // Big-5 to Taipei Computer Association. Codepage 950.
-#define CC_GB2312   -16 // Unicode to GB2312. Codepage 936
-#define CC_SJIS     -17 // Unicode to Shift-JIS. Codepage 932.
-#define CC_WANSUNG  -18 // Unicode to Extented Wansung. Codepage 949.</pre>
-</td>
-</tr>
-</table></span></div>
-</li>
-</ul>
-If <b>lGlyphSetDataRCID</b> is CC_DEFAULT, there are no restrictions on the value specified for <b>ulDefaultCodepage</b>, but a default code page must be specified.
+    #define CC_BIG5     -10 // Unicode to Chinese Big 5. Codepage 950.
+    #define CC_ISC      -11 // Unicode to Korean Industrial Standard. Codepage 949.
+    #define CC_JIS      -12 // Unicode to JIS X0208. Codepage 932.
+    #define CC_JIS_ANK  -13 // Unicode to JIS X0208 except ANK. Codepage 932.
+    #define CC_NS86     -14 // Big-5 to National Standstand conversion. Codepage 950
+    #define CC_TCA      -15 // Big-5 to Taipei Computer Association. Codepage 950.
+    #define CC_GB2312   -16 // Unicode to GB2312. Codepage 936
+    #define CC_SJIS     -17 // Unicode to Shift-JIS. Codepage 932.
+    #define CC_WANSUNG  -18 // Unicode to Extented Wansung. Codepage 949.
+    ```
 
-
-
+If **lGlyphSetDataRCID** is CC_DEFAULT, there are no restrictions on the value specified for **ulDefaultCodepage**, but a default code page must be specified.
 
 ## -see-also
 
+[EXTTEXTMETRIC](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prntfont/ns-prntfont-_exttextmetric)
 
+[KERNDATA](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prntfont/ns-prntfont-_kerndata)
 
+[PRINTIFI32](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prntfont/ns-prntfont-_printifi32)
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prntfont/ns-prntfont-_exttextmetric">EXTTEXTMETRIC</a>
+[UNIDRVINFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prntfont/ns-prntfont-_unidrvinfo)
 
+[UNI_CODEPAGEINFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prntfont/ns-prntfont-_uni_codepageinfo)
 
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prntfont/ns-prntfont-_kerndata">KERNDATA</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prntfont/ns-prntfont-_printifi32">PRINTIFI32</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prntfont/ns-prntfont-_unidrvinfo">UNIDRVINFO</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prntfont/ns-prntfont-_uni_codepageinfo">UNI_CODEPAGEINFO</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prntfont/ns-prntfont-_widthtable">WIDTHTABLE</a>
- 
-
- 
-
+[WIDTHTABLE](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prntfont/ns-prntfont-_widthtable)
