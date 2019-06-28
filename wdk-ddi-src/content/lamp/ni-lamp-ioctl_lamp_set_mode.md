@@ -42,71 +42,39 @@ req.typenames:
 
 # IOCTL_LAMP_SET_MODE IOCTL
 
-
 ## -description
 
+The **IOCTL_LAMP_SET_MODE** control code sets the mode in which the lamp operates.
 
-The <b>IOCTL_LAMP_SET_MODE</b> 
-   control code sets the mode in which the lamp operates.
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>#define IOCTL_LAMP_SET_MODE \
-    CTL_CODE(IOCTL_LAMP_BASE, 0x0003, METHOD_BUFFERED, FILE_ANY_ACCESS)</pre>
-</td>
-</tr>
-</table></span></div>
+```cpp
+#define IOCTL_LAMP_SET_MODE \
+    CTL_CODE(IOCTL_LAMP_BASE, 0x0003, METHOD_BUFFERED, FILE_ANY_ACCESS)
+```
 
 ## -ioctlparameters
 
-
-
-
 ### -input-buffer
 
-<code>Irp->AssociatedIrp.SystemBuffer</code> points to a buffer of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/lamp/ne-lamp-lamp_mode">LAMP_MODE</a>.
-
+`Irp->AssociatedIrp.SystemBuffer` points to a buffer of type [LAMP_MODE](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/lamp/ne-lamp-lamp_mode).
 
 ### -input-buffer-length
 
-Length of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/lamp/ne-lamp-lamp_mode">LAMP_MODE</a>.
-
+Length of a [LAMP_MODE](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/lamp/ne-lamp-lamp_mode).
 
 ### -output-buffer
 
 None.
 
-
 ### -output-buffer-length
 
 None.
 
-
 ### -in-out-buffer
-
-
-
-
-
-
-
 
 ### -inout-buffer-length
 
-
-
-
-
-
-
-
 ### -status-block
 
-The driver sets <code>Irp->IoStatus.Status</code> to <b>STATUS_SUCCESS</b> or the appropriate error status.
+The driver sets `Irp->IoStatus.Status` to **STATUS_SUCCESS** or the appropriate error status.
 
-If the device has been acquired by a camera driver, the lamp driver should return a <b>STATUS_RESOURCE_IN_USE</b> error via <code>Irp->IoStatus.Status</code>.
-
-
+If the device has been acquired by a camera driver, the lamp driver should return a **STATUS_RESOURCE_IN_USE** error via `Irp->IoStatus.Status`.

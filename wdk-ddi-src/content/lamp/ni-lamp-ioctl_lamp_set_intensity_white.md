@@ -42,70 +42,39 @@ req.typenames:
 
 # IOCTL_LAMP_SET_INTENSITY_WHITE IOCTL
 
-
 ## -description
 
+The **IOCTL_LAMP_SET_INTENSITY_WHITE** control code sets the lamp to the specified light intensity.
 
-The <b>IOCTL_LAMP_SET_INTENSITY_WHITE</b> 
-   control code sets the lamp to the specified light intensity.
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>#define IOCTL_LAMP_SET_INTENSITY_WHITE \
-    CTL_CODE(IOCTL_LAMP_BASE, 0x0005, METHOD_BUFFERED, FILE_ANY_ACCESS)</pre>
-</td>
-</tr>
-</table></span></div>
+```cpp
+#define IOCTL_LAMP_SET_INTENSITY_WHITE \
+    CTL_CODE(IOCTL_LAMP_BASE, 0x0005, METHOD_BUFFERED, FILE_ANY_ACCESS)
+```
 
 ## -ioctlparameters
 
-
-
-
 ### -input-buffer
 
-<code>Irp->AssociatedIrp.SystemBuffer</code> points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/lamp/ns-lamp-lamp_intensity_white">LAMP_INTENSITY_WHITE</a> structure.
-
+`Irp->AssociatedIrp.SystemBuffer` points to a [LAMP_INTENSITY_WHITE](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/lamp/ns-lamp-lamp_intensity_white) structure.
 
 ### -input-buffer-length
 
-Length of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/lamp/ns-lamp-lamp_intensity_white">LAMP_INTENSITY_WHITE</a> structure.
-
+Length of a [LAMP_INTENSITY_WHITE](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/lamp/ns-lamp-lamp_intensity_white) structure.
 
 ### -output-buffer
 
 None.
 
-
 ### -output-buffer-length
 
 None.
 
-
 ### -in-out-buffer
-
-
-
-
-
-
-
 
 ### -inout-buffer-length
 
-
-
-
-
-
-
-
 ### -status-block
 
-The driver sets <code>Irp->IoStatus.Status</code> to <b>STATUS_SUCCESS</b> or the appropriate error status.
+The driver sets `Irp->IoStatus.Status` to **STATUS_SUCCESS** or the appropriate error status.
 
-If the device has been acquired by a camera driver, the lamp driver should return a  <b>STATUS_RESOURCE_IN_USE</b> error via <code>Irp->IoStatus.Status</code>.
-
+If the device has been acquired by a camera driver, the lamp driver should return a  **STATUS_RESOURCE_IN_USE** error via `Irp->IoStatus.Status`.
