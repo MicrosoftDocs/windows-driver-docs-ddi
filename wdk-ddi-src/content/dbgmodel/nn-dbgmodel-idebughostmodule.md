@@ -37,11 +37,11 @@ ms.custom: RS5
 
 ## -description
 
-An (IDebugHostSymbol derived) interface to a particular module.
+An ([IDebugHostSymbol](nn-dbgmodel-idebughostsymbol.md) derived) interface to a particular module.
 
 
 ## -inheritance
-IDebugHostModule interits from IDebugHostSymbol. 
+IDebugHostModule interits from [IDebugHostSymbol](nn-dbgmodel-idebughostsymbol.md). 
 ## -members
 
 <p>IDebugHostModule has these methods.</p>

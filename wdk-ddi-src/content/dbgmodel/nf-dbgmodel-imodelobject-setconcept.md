@@ -47,7 +47,7 @@ The SetConcept method will place a specified concept on the object instance spec
 
 For the set of concepts (interfaces) that are supported by the data model, see [Debugger Data Model C++ Concepts](https://docs.microsoft.com/windows-hardware/drivers/debugger/data-model-cpp-concepts).
 
-For information on the IKeyStore interface, see [IKeyStore interface](nn-dbgmodel-ikeystore.md).
+For information on the [IKeyStore](nn-dbgmodel-ikeystore.md) interface, see [IKeyStore interface](nn-dbgmodel-ikeystore.md).
 
 ## -parameters
 

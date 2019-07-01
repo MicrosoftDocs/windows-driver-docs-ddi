@@ -42,7 +42,7 @@ A reference to a key on a data model object.
 This version 2 of the interface supports all of the previous methods with identical signatures and includes additional new methods that provide added functionality. The new methods are listed in the header at the end of the section for that interface.
 
 ## -inheritance
-IModelKeyReference2 interits from IModelKeyReference. 
+IModelKeyReference2 interits from [IModelKeyReference](nn-dbgmodel-imodelkeyreference.md). 
 ## -members
 
 <p>IModelKeyReference2 has these methods.</p>
@@ -101,7 +101,7 @@ IModelKeyReference2 interits from IModelKeyReference.
 
 **Key References** 
 
-A key reference is, in essence, a handle to a key on a particular object. A client can retrieve such handle via methods such as GetKeyReference and use the handle later to get or set the value of the key without necessarily holding onto the original object. This type of object is an implementation of the IModelKeyReference or IModelKeyReference2 interface which is boxed into an IModelObject. The model object will return a kind of ObjectKeyReference when queried and then intrinsic value is a VT_UNKNOWN which is guaranteed to be queryable for IModelKeyReference. In process, it is guaranteed to be statically castable to IModelKeyReference. 
+A key reference is, in essence, a handle to a key on a particular object. A client can retrieve such handle via methods such as GetKeyReference and use the handle later to get or set the value of the key without necessarily holding onto the original object. This type of object is an implementation of the [IModelKeyReference](nn-dbgmodel-imodelkeyreference.md) or IModelKeyReference2 interface which is boxed into an [IModelObject](nn-dbgmodel-imodelobject.md). The model object will return a kind of ObjectKeyReference when queried and then intrinsic value is a VT_UNKNOWN which is guaranteed to be queryable for [IModelKeyReference](nn-dbgmodel-imodelkeyreference.md). In process, it is guaranteed to be statically castable to [IModelKeyReference](nn-dbgmodel-imodelkeyreference.md). 
 
 ## -see-also
 

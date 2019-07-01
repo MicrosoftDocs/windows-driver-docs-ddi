@@ -43,14 +43,14 @@ ms.custom: RS5
 
 ## -description
 
-The CreateScript method is called to create a new script. The script provider must return a new and empty script represented by the returned IDataModelScript interface whenever this method is called. Note that this method is called regardless of whether a user interface is creating a new blank script for editing by the user or whether the debugger application is loading a script from disk. The provider does not get involved in file I/O. It merely handles the requests from the hosting application via streams passed to methods on IDataModelScript. 
+The CreateScript method is called to create a new script. The script provider must return a new and empty script represented by the returned [IDataModelScript](nn-dbgmodel-idatamodelscript.md) interface whenever this method is called. Note that this method is called regardless of whether a user interface is creating a new blank script for editing by the user or whether the debugger application is loading a script from disk. The provider does not get involved in file I/O. It merely handles the requests from the hosting application via streams passed to methods on [IDataModelScript](nn-dbgmodel-idatamodelscript.md). 
 
 
 ## -parameters
 
 ### -param script
 
-A new and empty script will be returned here as a component implementing the IDataModelScript interface.
+A new and empty script will be returned here as a component implementing the [IDataModelScript](nn-dbgmodel-idatamodelscript.md) interface.
 
 ## -returns
 

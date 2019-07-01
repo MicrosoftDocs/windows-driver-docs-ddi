@@ -52,7 +52,7 @@ For more details about this context/state and its meaning, see the documentation
 
 ### -param dataModelObject
 
-The IModelObject representing the data model for which state is being retrieved from an instance object. This is, in effect, a hash key to the associated state object.
+The [IModelObject](nn-dbgmodel-imodelobject.md) representing the data model for which state is being retrieved from an instance object. This is, in effect, a hash key to the associated state object.
 
 ### -param context
 The state which was associated with the instance is returned here. The exact meaning of this (and any other interfaces, etc... it supports) is up to the data model that made the call to set the state.

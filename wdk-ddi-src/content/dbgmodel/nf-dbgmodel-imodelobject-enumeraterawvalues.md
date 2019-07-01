@@ -54,7 +54,7 @@ Indicates the kind of native symbol to fetch (e.g.: a base class or a data membe
 An optional set of flags specifying the behavior of the search for the native construct.
 
 ### -param enumerator
-An enumerator which will enumerate every native child of the kind specified by the kind argument as an IRawEnumerator interface. 
+An enumerator which will enumerate every native child of the kind specified by the kind argument as an [IRawEnumerator](nn-dbgmodel-irawenumerator.md) interface. 
 
 
 ## -returns

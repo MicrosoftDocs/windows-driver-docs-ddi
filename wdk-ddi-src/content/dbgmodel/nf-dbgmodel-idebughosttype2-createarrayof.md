@@ -43,7 +43,7 @@ ms.custom: RS5
 
 ## -description
 
-For any given type, this returns a new IDebugHostType which is an array of this type.
+For any given type, this returns a new [IDebugHostType](nn-dbgmodel-idebughosttype.md) which is an array of this type.
 The dimensions of the array must be supplied via the "dimensions" and "pDimensions" arguments.
 
 ## -parameters

@@ -51,7 +51,7 @@ The GetIntrinsicValueAs method behaves much as the GetIntrinsicValue method exce
 The type of value to convert to is passed here as a VARTYPE. Legal values are VT_I1 through VT_I8, VT_U1 through VT_U8, VT_R4 through VT_R8, and VT_BOOL. String conversions cannot be performed through this method.
 
 ### -param intrinsicData
-The value boxed inside the IModelObject converted to the type described by the vt argument is returned here. The pointer must point to a VARIANT structure which does not contain a freeable value. It is the responsibility of the caller to clear this VARIANT with VariantClear when finished with it.
+The value boxed inside the [IModelObject](nn-dbgmodel-imodelobject.md) converted to the type described by the vt argument is returned here. The pointer must point to a VARIANT structure which does not contain a freeable value. It is the responsibility of the caller to clear this VARIANT with VariantClear when finished with it.
 
 ## -returns
 This method returns HRESULT that indicates success or failure.

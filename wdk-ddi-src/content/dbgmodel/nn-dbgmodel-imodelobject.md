@@ -47,9 +47,9 @@ There are several different things that can be held in (or boxed into) an IModel
 
 • Synthetic Objects - An IModelObject can be a dynamic object -- a dictionary if you will: a collection of key / value / metadata tuples and a set of concepts which define behaviors that aren't simply represented by key / value pairs.
 
-• Properties - An IModelObject can represent a property: something whose value can be retrieved or altered with a method call. A property within an IModelObject is effectively an IModelPropertyAccessor interface boxed into an IModelObject
+• Properties - An IModelObject can represent a property: something whose value can be retrieved or altered with a method call. A property within an IModelObject is effectively an [IModelPropertyAccessor](nn-dbgmodel-imodelpropertyaccessor.md) interface boxed into an IModelObject
 
-• Methods - An IModelObject can represent a method: something you can call with a set of arguments and get a return value. A method within an IModelObject is effectively an IModelMethod interface boxed into an IModelObject
+• Methods - An IModelObject can represent a method: something you can call with a set of arguments and get a return value. A method within an IModelObject is effectively an [IModelMethod](nn-dbgmodel-imodelmethod.md) interface boxed into an IModelObject
 
 An IModelObject is not an object in isolation. In addition to representing one of the types of objects shown above, each object has the notion of a chain of parent data models. This chain behaves much like a | JavaScript prototype chain. Instead of a linear chain of prototypes like JavaScript has, each data model object defines a linear chain of parent models. Each of those parent models in turn has another linear chain of its own set of parents. In essence, each object is an aggregation of the capabilities (properties, etc...) of both itself and every object in this tree. When a specific property is queried, if the object it is queried on does not support that property, the query is passed in linear order to each parent in turn. This creates a behavior where the search for a property is resolved by a depth-first search of the aggregate tree. 
 

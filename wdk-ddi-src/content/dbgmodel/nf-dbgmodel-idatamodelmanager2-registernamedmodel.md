@@ -54,7 +54,7 @@ While the string passed in the modelName argument can be anything (it is just a 
 
 An example of such a name is Debugger.Models.Process. This is the name under which the debugger's notion of a process is registered. A client which extends process and itself is extensible might register its extensibility point as Debugger.Models.Process.NamedExtensionPoint where NamedExtensionPoint refers to the semantics being added to process. 
 
-Note that if a given data model is registered under a name, the implementation of IDataModelConcept for that data model must have a GetName method which returns the name registered via calling this RegisterNamedModel method. 
+Note that if a given data model is registered under a name, the implementation of [IDataModelConcept](nn-dbgmodel-idatamodelconcept.md) for that data model must have a GetName method which returns the name registered via calling this RegisterNamedModel method. 
 
 ## -parameters
 

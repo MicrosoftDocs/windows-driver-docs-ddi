@@ -42,7 +42,7 @@ An interface to a particular symbol.
 This version 2 of the interface supports all of the previous methods with identical signatures and includes additional new methods that provide added functionality. The new methods are listed in the header at the end of the section for that interface.
 
 ## -inheritance
-IDebugHostSymbol2 interits from IDebugHostSymbol. 
+IDebugHostSymbol2 interits from [IDebugHostSymbol](nn-dbgmodel-idebughostsymbol.md). 
 ## -members
 
 <p>IDebugHostSymbol2 has these methods.</p>
@@ -103,7 +103,7 @@ IDebugHostSymbol2 interits from IDebugHostSymbol.
 
 ## -remarks
 
-Every symbol that can be returned from the data model host will derive in some fashion from IDebugHostSymbol. This is the core interface that every symbol implements regardless of the kind of symbol. Depending on the kind of symbol, a given symbol may implement a set of other interfaces which return attributes more unique to the particular kind of symbol represented by this interface.
+Every symbol that can be returned from the data model host will derive in some fashion from [IDebugHostSymbol](nn-dbgmodel-idebughostsymbol.md). This is the core interface that every symbol implements regardless of the kind of symbol. Depending on the kind of symbol, a given symbol may implement a set of other interfaces which return attributes more unique to the particular kind of symbol represented by this interface.
 
 ## -see-also
 

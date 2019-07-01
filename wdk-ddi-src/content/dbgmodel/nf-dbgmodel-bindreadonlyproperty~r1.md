@@ -54,11 +54,11 @@ Usage: BindProperty(get_lambda)
 ## -parameters
 
 ### -param getFunctor
-A functor of signature (PCWSTR, IModelObject *, IModelObject **) which will act as the getter for the newly created read-only property accessor.
+A functor of signature (PCWSTR, [IModelObject](nn-dbgmodel-imodelobject.md) *, [IModelObject](nn-dbgmodel-imodelobject.md) **) which will act as the getter for the newly created read-only property accessor.
 
 
 ## -returns
-This function returns Microsoft::WRL::ComPtr<IModelPropertyAccessor>.
+This function returns Microsoft::WRL::ComPtr<[IModelPropertyAccessor](nn-dbgmodel-imodelpropertyaccessor.md)>.
 ## -remarks
 
 ## -see-also

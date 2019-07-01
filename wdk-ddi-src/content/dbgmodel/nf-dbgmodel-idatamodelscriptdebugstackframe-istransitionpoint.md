@@ -43,7 +43,7 @@ ms.custom: RS5
 
 ## -description
 
-The IDataModelScriptDebugStack interface represents a segment of a call stack -- that portion of the call stack which is contained within the context of one script. If the debugger is capable of detecting the transition from one script to another (or one script provider to another), it can indicate this by implementing the IsTransitionPoint method and returning true or false as appropriate. The call stack frame which entered the script where the segment applies should be considered a transition point. All other frames are not. 
+The [IDataModelScriptDebugStack](nn-dbgmodel-idatamodelscriptdebugstack.md) interface represents a segment of a call stack -- that portion of the call stack which is contained within the context of one script. If the debugger is capable of detecting the transition from one script to another (or one script provider to another), it can indicate this by implementing the IsTransitionPoint method and returning true or false as appropriate. The call stack frame which entered the script where the segment applies should be considered a transition point. All other frames are not. 
 
 It is perfectly legal for any script debugger which is incapable of doing cross-script debugging or detection to simply return E_NOTIMPL from this method. In such cases, the debug interface may only be able to show a stack backtrace for the current script even if the overall call stack spans multiple scripts. 
 

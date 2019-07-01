@@ -37,11 +37,11 @@ ms.custom: RS5
 
 ## -description
 
-An (IDebugHostSymbol derived) interface to a base class.
+An ([IDebugHostSymbol](nn-dbgmodel-idebughostsymbol.md) derived) interface to a base class.
 
 
 ## -inheritance
-IDebugHostBaseClass interits from IDebugHostSymbol. 
+IDebugHostBaseClass interits from [IDebugHostSymbol](nn-dbgmodel-idebughostsymbol.md). 
 ## -members
 
 <p>IDebugHostBaseClass has these methods.</p>

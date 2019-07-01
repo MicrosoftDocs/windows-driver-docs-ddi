@@ -43,7 +43,7 @@ ms.custom: RS5
 ## -description
 The GetValue method returns the value of the constant packed into a VARIANT. 
 
-It is important to note that the GetType method on IDebugHostSymbol may return a specific type symbol for the constant. In such cases, there is no guarantee that the packing of the constant value as defined by the type symbol is the same as the packing as returned by the GetValue method here. 
+It is important to note that the GetType method on [IDebugHostSymbol](nn-dbgmodel-idebughostsymbol.md) may return a specific type symbol for the constant. In such cases, there is no guarantee that the packing of the constant value as defined by the type symbol is the same as the packing as returned by the GetValue method here. 
 
 ## -parameters
 

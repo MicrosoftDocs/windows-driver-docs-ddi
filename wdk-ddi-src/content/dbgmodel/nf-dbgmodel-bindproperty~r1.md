@@ -51,13 +51,13 @@ Usage: BindProperty(get_lambda, set_lambda)
 ## -parameters
 
 ### -param getFunctor
-A functor of signature (PCWSTR, IModelObject *, IModelObject **) which will act as the getter for the newly created property accessor.
+A functor of signature (PCWSTR, [IModelObject](nn-dbgmodel-imodelobject.md) *, [IModelObject](nn-dbgmodel-imodelobject.md) **) which will act as the getter for the newly created property accessor.
 
 ### -param setFunctor
-A functor of signature (PCWSTR, IModelObject *, IModelObject *) which will act as the setter for the newly created property accessor.
+A functor of signature (PCWSTR, [IModelObject](nn-dbgmodel-imodelobject.md) *, [IModelObject](nn-dbgmodel-imodelobject.md) *) which will act as the setter for the newly created property accessor.
 
 ## -returns
-This function returns Microsoft::WRL::ComPtr<IModelPropertyAccessor>.
+This function returns Microsoft::WRL::ComPtr<[IModelPropertyAccessor](nn-dbgmodel-imodelpropertyaccessor.md)>.
 
 ## -remarks
 

@@ -37,7 +37,7 @@ ms.custom: RS5
 
 ## -description
 
-An interface which enumerates the raw children (e.g.: base classes, fields, etc...) of an object (and their values and associated metadata).  A raw enumerator can be acquired through the EnumerateRawValues or EnumerateRawReferences methods on IModelObject.
+An interface which enumerates the raw children (e.g.: base classes, fields, etc...) of an object (and their values and associated metadata).  A raw enumerator can be acquired through the EnumerateRawValues or EnumerateRawReferences methods on [IModelObject](nn-dbgmodel-imodelobject.md).
 
 
 ## -inheritance

@@ -39,7 +39,7 @@ ms.custom: RS5
 
 The symbols interface to the underlying debugger.
 
-The IDebugHostSymbols interface is the main starting point to access symbols in the debug target. This interface can be queried from an instance of IDebugHost. 
+The IDebugHostSymbols interface is the main starting point to access symbols in the debug target. This interface can be queried from an instance of [IDebugHost](nn-dbgmodel-idebughost.md). 
 
 
 ## -inheritance

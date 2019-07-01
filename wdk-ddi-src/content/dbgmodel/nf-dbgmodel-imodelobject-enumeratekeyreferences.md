@@ -43,13 +43,13 @@ ms.custom: RS5
 
 ## -description
 
-The EnumerateKeyReferences method behaves similar to the EnumerateKeyValues method excepting that it returns references to the keys it enumerates (given by an IModelKeyReference interface boxed into an IModelObject) instead of the value of the key. Such references can be used to get or set the underlying value of the keys. 
+The EnumerateKeyReferences method behaves similar to the EnumerateKeyValues method excepting that it returns references to the keys it enumerates (given by an [IModelKeyReference](nn-dbgmodel-imodelkeyreference.md) interface boxed into an [IModelObject](nn-dbgmodel-imodelobject.md)) instead of the value of the key. Such references can be used to get or set the underlying value of the keys. 
 
 ## -parameters
 
 ### -param enumerator
 
-An enumerator for references to all keys on the object (and all of its parent models) and metadata is returned in this argument as an IKeyEnumerator.
+An enumerator for references to all keys on the object (and all of its parent models) and metadata is returned in this argument as an [IKeyEnumerator](nn-dbgmodel-ikeyenumerator.md).
 
 
 ## -returns

@@ -43,7 +43,7 @@ ms.custom: RS5
 
 ## -description
 
-The GetKind method returns what kind of object is boxed inside the IModelObject. Such kind is defined by the [ModelObjectKind enumeration](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgmodel/ne-dbgmodel-modelobjectkind).
+The GetKind method returns what kind of object is boxed inside the [IModelObject](nn-dbgmodel-imodelobject.md). Such kind is defined by the [ModelObjectKind enumeration](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgmodel/ne-dbgmodel-modelobjectkind).
 
 ## -parameters
 

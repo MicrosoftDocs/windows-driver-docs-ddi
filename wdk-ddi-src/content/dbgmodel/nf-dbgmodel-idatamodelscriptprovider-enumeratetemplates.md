@@ -52,7 +52,7 @@ A script provider which has no template content may return E_NOTIMPL here.
 
 ### -param enumerator
 
-An enumerator which enumerates all template content of the script provider must be returned here as a component implementing the IDataModelScriptTemplateEnumerator interface.
+An enumerator which enumerates all template content of the script provider must be returned here as a component implementing the [IDataModelScriptTemplateEnumerator](nn-dbgmodel-idatamodelscripttemplateenumerator.md) interface.
 
 
 ## -returns

@@ -44,28 +44,28 @@ Defines the kind of a symbol.
 Unspecified symbol type.
 
 ### -field SymbolModule 
-The symbol is a module and can be queried for IDebugHostModule.
+The symbol is a module and can be queried for [IDebugHostModule](nn-dbgmodel-idebughostmodule.md).
 
 ### -field SymbolType 
-The symbol is a type and can be queried for IDebugHostType.
+The symbol is a type and can be queried for [IDebugHostType](nn-dbgmodel-idebughosttype.md).
 
 ### -field SymbolField 
-The symbol is a field (a data member within a structure or class) and can be queried for IDebugHostField.
+The symbol is a field (a data member within a structure or class) and can be queried for [IDebugHostField](nn-dbgmodel-idebughostfield.md).
 
 ### -field SymbolConstant 
-The symbol is a constant value and can be queried for IDebugHostConstant.
+The symbol is a constant value and can be queried for [IDebugHostConstant](nn-dbgmodel-idebughostconstant.md).
 
 ### -field SymbolData 
-The symbol is data which is not a member of a structure or class and is queryable for IDebugHostData.
+The symbol is data which is not a member of a structure or class and is queryable for [IDebugHostData](nn-dbgmodel-idebughostdata.md).
 
 ### -field SymbolBaseClass 
-The symbol is a base class and is queryable for IDebugHostBaseClass.
+The symbol is a base class and is queryable for [IDebugHostBaseClass](nn-dbgmodel-idebughostbaseclass.md).
 
 ### -field SymbolPublic 
-The symbol is an entry in a module's publics table (having no type information) and is queryable for IDebugHostPublic.
+The symbol is an entry in a module's publics table (having no type information) and is queryable for [IDebugHostPublic](nn-dbgmodel-idebughostpublic.md).
 
 ### -field SymbolFunction 
-The symbol is a function and is queryable for IDebugHostData.
+The symbol is a function and is queryable for [IDebugHostData](nn-dbgmodel-idebughostdata.md).
 
 ## -remarks
 

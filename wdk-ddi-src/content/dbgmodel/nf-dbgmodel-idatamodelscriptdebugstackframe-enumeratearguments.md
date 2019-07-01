@@ -45,7 +45,7 @@ ms.custom: RS5
 
 Enumerates arguments to the function in this frame.
 
-The EnumerateArguments method returns a variable set (represented by an IDataModelScriptDebugVariableSetEnumerator interface) for all function arguments of the function called in the stack frame represented by the IDataModelScriptDebugStackFrame interface on which this method was called. 
+The EnumerateArguments method returns a variable set (represented by an [IDataModelScriptDebugVariableSetEnumerator](nn-dbgmodel-idatamodelscriptdebugvariablesetenumerator.md) interface) for all function arguments of the function called in the stack frame represented by the [IDataModelScriptDebugStackFrame](nn-dbgmodel-idatamodelscriptdebugstackframe.md) interface on which this method was called. 
 
 ## -parameters
 

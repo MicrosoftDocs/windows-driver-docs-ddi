@@ -43,7 +43,7 @@ ms.custom: RS5
 
 ## -description
 
-The GetLocationKind method returns what kind of location the symbol is at according to the LocationKind enumeration. The description of this enumeration can be found in the documentation for IDebugHostField. 
+The GetLocationKind method returns what kind of location the symbol is at according to the LocationKind enumeration. The description of this enumeration can be found in the documentation for [IDebugHostField](nn-dbgmodel-idebughostfield.md). 
 
 ## -parameters
 
