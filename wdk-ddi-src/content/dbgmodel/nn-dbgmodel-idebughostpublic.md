@@ -37,13 +37,13 @@ ms.custom: RS5
 
 ## -description
 
-An (IDebugHostSymbol derived) interface to a public symbol (address/name only).
+An ([IDebugHostSymbol](nn-dbgmodel-idebughostsymbol.md) derived) interface to a public symbol (address/name only).
 
 Represents a symbol within the publics table of a PDB. This does not have type information associated with it. It is a name and address.
 
 
 ## -inheritance
-IDebugHostPublic interits from IDebugHostSymbol. 
+IDebugHostPublic interits from [IDebugHostSymbol](nn-dbgmodel-idebughostsymbol.md). 
 ## -members
 
 <p>IDebugHostPublic has these methods.</p>

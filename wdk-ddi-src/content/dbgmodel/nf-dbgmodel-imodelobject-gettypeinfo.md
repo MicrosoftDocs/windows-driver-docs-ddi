@@ -48,7 +48,7 @@ The GetTypeInfo method will return the native type of the given object. If the o
 
 ### -param type
 
-The native type of the object represented by the this pointer will be returned here as an IDebugHostType interface.
+The native type of the object represented by the this pointer will be returned here as an [IDebugHostType](nn-dbgmodel-idebughosttype.md) interface.
 
 ## -returns
 

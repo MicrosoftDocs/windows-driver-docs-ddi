@@ -49,7 +49,7 @@ The GetDefaultTemplateContent method returns an interface for the default templa
 
 ### -param templateContent
 
-The default template content for the script provider is returned here as a component implementing the IDataModelScriptTemplate interface.
+The default template content for the script provider is returned here as a component implementing the [IDataModelScriptTemplate](nn-dbgmodel-idatamodelscripttemplate.md) interface.
 
 
 ## -returns

@@ -43,7 +43,7 @@ ms.custom: RS5
 
 ## -description
 
-The SetBreakpoint method sets a breakpoint within the script. Note that the implementation is free to adjust the inpassed line and column positions to move forward to an appropriate code position. The actual line and column numbers where the breakpoint was placed can be retrieved by method calls on the returned IDataModelScriptDebugBreakpoint interface. 
+The SetBreakpoint method sets a breakpoint within the script. Note that the implementation is free to adjust the inpassed line and column positions to move forward to an appropriate code position. The actual line and column numbers where the breakpoint was placed can be retrieved by method calls on the returned [IDataModelScriptDebugBreakpoint](nn-dbgmodel-idatamodelscriptdebugbreakpoint.md) interface. 
 
 Note that it is the responsibility of the implementation to "remember" all of the breakpoints which have been set and assign a unique identifier to each. That identifier must be unique within the domain of a single script. 
 
@@ -58,7 +58,7 @@ The one based line number of the location in source code where the breakpoint is
 The one based column number on the given line where the breakpoint is being set.
 
 ### -param breakpoint
-An IDataModelScriptDebugBreakpoint interface representing the newly created breakpoint is returned here.
+An [IDataModelScriptDebugBreakpoint](nn-dbgmodel-idatamodelscriptdebugbreakpoint.md) interface representing the newly created breakpoint is returned here.
 
 
 ## -returns

@@ -53,10 +53,10 @@ Usage: BindProperty(this, &MyClass::GetMyProperty, &MyClass::SetMyProperty)
 The instance of a given class to which the newly created read-only property accessor will be bound.
 
 ### -param getMethod
-A pointer-to-member function pointer of signature (PCWSTR, IModelObject *, IModelObject**) which will act as the getter for the newly created read-only property accessor.
+A pointer-to-member function pointer of signature (PCWSTR, [IModelObject](nn-dbgmodel-imodelobject.md) *, [IModelObject](nn-dbgmodel-imodelobject.md)**) which will act as the getter for the newly created read-only property accessor.
 
 ## -returns
-This function returns Microsoft::WRL::ComPtr<IModelPropertyAccessor>.
+This function returns Microsoft::WRL::ComPtr<[IModelPropertyAccessor](nn-dbgmodel-imodelpropertyaccessor.md)>.
 ## -remarks
 
 ## -see-also

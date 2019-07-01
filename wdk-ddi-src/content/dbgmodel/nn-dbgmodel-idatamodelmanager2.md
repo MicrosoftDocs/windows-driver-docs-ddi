@@ -44,7 +44,7 @@ This interface is never directly implemented by a client.
 This version 2 of the interface supports all of the previous methods with identical signatures and includes additional new methods that provide added functionality. The new methods are listed in the header at the end of the section for that interface.
 
 ## -inheritance
-IDataModelManager2 interits from IDataModelManager. 
+IDataModelManager2 interits from [IDataModelManager](nn-dbgmodel-idatamodelmanager.md). 
 ## -members
 
 <p>IDataModelManager2 has these methods.</p>

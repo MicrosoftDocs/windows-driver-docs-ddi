@@ -51,7 +51,7 @@ The script provider may call the ReportError method an arbitrary number of times
 ## -parameters
 
 ### -param errClass
-The class of error which is being reported as a member of the ErrorClass enumeration. Further information about this enumeration can be found in the documentation for IDebugHostErrorSink.
+The class of error which is being reported as a member of the ErrorClass enumeration. Further information about this enumeration can be found in the documentation for [IDebugHostErrorSink](nn-dbgmodel-idebughosterrorsink.md).
 
 ### -param hrFail
 The HRESULT of the error which occurred. If the domain of the error was not an HRESULT, it should be converted to such by the most appropriate means.

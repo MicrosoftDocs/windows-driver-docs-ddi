@@ -47,7 +47,7 @@ It is required that a script provider notify the debug host upon certain operati
 
 Enumerant	| Description
 |-------|--------|
-ScriptRename	| Indicates that the name of the script has changed. This notification should be made during a Rename call on the IDataModelScript. The host may then query back the name of the script via a GetName method. The placement of the context namespace (as returned by GetNamespaceObject) may completely change as a result of this notification.
+ScriptRename	| Indicates that the name of the script has changed. This notification should be made during a Rename call on the [IDataModelScript](nn-dbgmodel-idatamodelscript.md). The host may then query back the name of the script via a GetName method. The placement of the context namespace (as returned by GetNamespaceObject) may completely change as a result of this notification.
 
 
 ## -parameters

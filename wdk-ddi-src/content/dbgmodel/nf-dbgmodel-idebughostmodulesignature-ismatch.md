@@ -43,7 +43,7 @@ ms.custom: RS5
 
 ## -description
 
-The IsMatch method compares a particular module (as given by an IDebugHostModule symbol) against a signature, comparing the module name and version to the name and version range indicated in the signature. An indication of whether the given module symbol matches the signature is returned. 
+The IsMatch method compares a particular module (as given by an [IDebugHostModule](nn-dbgmodel-idebughostmodule.md) symbol) against a signature, comparing the module name and version to the name and version range indicated in the signature. An indication of whether the given module symbol matches the signature is returned. 
 
 ## -parameters
 

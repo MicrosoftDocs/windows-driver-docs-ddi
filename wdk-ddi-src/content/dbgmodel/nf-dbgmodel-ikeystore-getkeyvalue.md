@@ -43,7 +43,7 @@ ms.custom: RS5
 
 ## -description
 
-The GetKeyValue method is the first method a client will go to in order to find the value of a particular key within the metadata store. If the key specified by the key argument exists within the store (or it's parent store), the value of that key and any metadata associated with it will be returned. If the value of the key is a property accessor (an IModelPropertyAccessor boxed into an IModelObject), the GetValue method of the property accessor will automatically be called by GetKeyValue and the underlying value of the property returned. 
+The GetKeyValue method is the first method a client will go to in order to find the value of a particular key within the metadata store. If the key specified by the key argument exists within the store (or it's parent store), the value of that key and any metadata associated with it will be returned. If the value of the key is a property accessor (an [IModelPropertyAccessor](nn-dbgmodel-imodelpropertyaccessor.md) boxed into an [IModelObject](nn-dbgmodel-imodelobject.md)), the GetValue method of the property accessor will automatically be called by GetKeyValue and the underlying value of the property returned. 
 
 ## -parameters
 

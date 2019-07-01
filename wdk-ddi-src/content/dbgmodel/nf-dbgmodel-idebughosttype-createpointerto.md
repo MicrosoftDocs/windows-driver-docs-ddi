@@ -43,7 +43,7 @@ ms.custom: RS5
 
 ## -description
 
-For any given type, this returns a new IDebugHostType which is a pointer to this type.
+For any given type, this returns a new [IDebugHostType](nn-dbgmodel-idebughosttype.md) which is a pointer to this type.
 The kind of pointer is supplied by the "kind" argument.
 
 ## -parameters

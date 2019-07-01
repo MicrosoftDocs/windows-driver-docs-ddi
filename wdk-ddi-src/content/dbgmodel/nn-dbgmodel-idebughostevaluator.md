@@ -74,7 +74,7 @@ IDebugHostEvaluator interits from IUnknown.
 
 ## -remarks
 
-One of the most important pieces of functionality which the debug host provides to clients is access to its language based expression evaluator. The IDebugHostEvaluator and IDebugHostEvaluator2 interfaces are the means to access that functionality from the debug host. 
+One of the most important pieces of functionality which the debug host provides to clients is access to its language based expression evaluator. The IDebugHostEvaluator and [IDebugHostEvaluator2](nn-dbgmodel-idebughostevaluator2.md) interfaces are the means to access that functionality from the debug host. 
 
 ## -see-also
 

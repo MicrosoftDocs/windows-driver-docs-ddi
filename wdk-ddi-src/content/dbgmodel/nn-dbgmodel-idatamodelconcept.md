@@ -37,7 +37,7 @@ ms.custom: RS5
 
 ## -description
 
-Any object which represents a data model which is registered under a name or  is registered for a particular type signature must implement this concept and add it to the data model  object via IModelObject::SetConcept.
+Any object which represents a data model which is registered under a name or  is registered for a particular type signature must implement this concept and add it to the data model  object via [IModelObject](nn-dbgmodel-imodelobject.md)::SetConcept.
 
 Clients which create data models implement this interface.  It is most frequently consumed by the data model manager itself.
 

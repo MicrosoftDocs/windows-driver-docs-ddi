@@ -43,7 +43,7 @@ ms.custom: RS5
 
 ## -description
 
-The GetKey method is analogous to the GetKey method on IModelObject. It will return the value of the specified key if it exists in the key store or the key store's parent store. Note that if the value of the key is a property accessor, the GetValue method will not be called on the property accessor. The actual IModelPropertyAccessor boxed into an IModelObject will be returned. It is typical that a client will call GetKeyValue for this reason. 
+The GetKey method is analogous to the GetKey method on [IModelObject](nn-dbgmodel-imodelobject.md). It will return the value of the specified key if it exists in the key store or the key store's parent store. Note that if the value of the key is a property accessor, the GetValue method will not be called on the property accessor. The actual [IModelPropertyAccessor](nn-dbgmodel-imodelpropertyaccessor.md) boxed into an [IModelObject](nn-dbgmodel-imodelobject.md) will be returned. It is typical that a client will call GetKeyValue for this reason. 
 
 ## -parameters
 

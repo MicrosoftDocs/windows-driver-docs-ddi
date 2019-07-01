@@ -43,7 +43,7 @@ ms.custom: RS5
 
 ## -description
 
-The SetKeyValue method on a key reference behaves as the SetKeyValue method on IModelObject would. It will assign the value of the key. If the original key was a property accessor, this will call the underlying SetValue method on the property accessor rather than replacing the property accessor itself. 
+The SetKeyValue method on a key reference behaves as the SetKeyValue method on [IModelObject](nn-dbgmodel-imodelobject.md) would. It will assign the value of the key. If the original key was a property accessor, this will call the underlying SetValue method on the property accessor rather than replacing the property accessor itself. 
 
 ## -parameters
 

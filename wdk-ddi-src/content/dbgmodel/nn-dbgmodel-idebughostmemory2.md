@@ -42,7 +42,7 @@ The memory access interface to the underlying debugger.
 This version 2 of the interface supports all of the previous methods with identical signatures and includes additional new methods that provide added functionality. The new methods are listed in the header at the end of the section for that interface.
 
 ## -inheritance
-IDebugHostMemory2 interits from IDebugHostMemory. 
+IDebugHostMemory2 interits from [IDebugHostMemory](nn-dbgmodel-idebughostmemory.md). 
 ## -members
 
 <p>IDebugHostMemory2 has these methods.</p>

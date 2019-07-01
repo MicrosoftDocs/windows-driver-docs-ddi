@@ -40,7 +40,7 @@ Defines the kind of a type.
 ## -enum-fields
 
 ### -field TypeUDT
-A user defined type (a struct, class, union, etc...). A model object which has a native type whose kind is TypeUDT has a canonical representation of ObjectTargetObject where the type is always kept inside the corresponding IModelObject.
+A user defined type (a struct, class, union, etc...). A model object which has a native type whose kind is TypeUDT has a canonical representation of ObjectTargetObject where the type is always kept inside the corresponding [IModelObject](nn-dbgmodel-imodelobject.md).
 
 
 ### -field TypePointer 
@@ -60,7 +60,7 @@ A function.
 
 
 ### -field TypeTypedef 
-A typedef. A model object which has a native type whose kind would otherwise be TypeTypedef has a canonical representation identical to the canonical representation of the final type underlying the typedef. This appears completely transparent to the end user of the object and the type information unless the explicit typedef methods of IDebugHostType2 are utilized to query typedef information or there is an explicit data model registered against the typedef. Note that the GetTypeKind method will never return TypeTypedef. Every method will return what the final type underlying the typedef would return. There are typedef specific methods on IDebugHostType2 which can be used to get the typedef specific information.
+A typedef. A model object which has a native type whose kind would otherwise be TypeTypedef has a canonical representation identical to the canonical representation of the final type underlying the typedef. This appears completely transparent to the end user of the object and the type information unless the explicit typedef methods of [IDebugHostType2](nn-dbgmodel-idebughosttype2.md) are utilized to query typedef information or there is an explicit data model registered against the typedef. Note that the GetTypeKind method will never return TypeTypedef. Every method will return what the final type underlying the typedef would return. There are typedef specific methods on [IDebugHostType2](nn-dbgmodel-idebughosttype2.md) which can be used to get the typedef specific information.
 
 
 ### -field TypeEnum 
@@ -68,7 +68,7 @@ An enum. A model object which has a native type whose kind is TypeEnum has a can
 
 
 ### -field TypeIntrinsic 
-An intrinsic (base type). A model object which has a native type whose kind is TypeIntrinsic has a canonical representation of ObjectIntrinsic. The type information may or may not be kept -- particularly if the underlying type is fully described by the variant data type (VT_*) of the intrinsic data stored in the IModelObject
+An intrinsic (base type). A model object which has a native type whose kind is TypeIntrinsic has a canonical representation of ObjectIntrinsic. The type information may or may not be kept -- particularly if the underlying type is fully described by the variant data type (VT_*) of the intrinsic data stored in the [IModelObject](nn-dbgmodel-imodelobject.md)
 
 
 ### -TypeExtendedArray

@@ -51,7 +51,7 @@ The GetTargetInfo method is effectively a combination of the GetLocation and Get
 The abstract location of the native object represented by the this pointer will be returned here.
 
 ### -param type
-The native type of the object represented by the this pointer will be returned here as an IDebugHostType interface.
+The native type of the object represented by the this pointer will be returned here as an [IDebugHostType](nn-dbgmodel-idebughosttype.md) interface.
 
 
 ## -returns

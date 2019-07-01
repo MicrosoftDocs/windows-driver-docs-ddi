@@ -43,15 +43,15 @@ ms.custom: RS5
 
 ## -description
 
-The Evaluate method evaluates an expression (of the language of the script provider) in the context of the stack frame represented by the IDataModelScriptDebugStackFrame interface on which this method was called. The result of the expression evaluation must be marshaled out of the script provider as an IModelObject. The properties and other constructs on the resulting IModelObject must all be able to be acquired while the debugger is in a break state. 
+The Evaluate method evaluates an expression (of the language of the script provider) in the context of the stack frame represented by the [IDataModelScriptDebugStackFrame](nn-dbgmodel-idatamodelscriptdebugstackframe.md) interface on which this method was called. The result of the expression evaluation must be marshaled out of the script provider as an [IModelObject](nn-dbgmodel-imodelobject.md). The properties and other constructs on the resulting [IModelObject](nn-dbgmodel-imodelobject.md) must all be able to be acquired while the debugger is in a break state. 
 
 ## -parameters
 
 ### -param pwszExpression
-An expression (of the language of the script provider) to evaluate in the context of the stack frame represented by the IDataModelScriptDebugStackFrame on which this method was called.
+An expression (of the language of the script provider) to evaluate in the context of the stack frame represented by the [IDataModelScriptDebugStackFrame](nn-dbgmodel-idatamodelscriptdebugstackframe.md) on which this method was called.
 
 ### -param ppResult
-The result of the expression evaluation. The script provider construct must be marshaled out to an IModelObject representation and all properties and constructs on that object must be able to be acquired while the debugger is in a break state.
+The result of the expression evaluation. The script provider construct must be marshaled out to an [IModelObject](nn-dbgmodel-imodelobject.md) representation and all properties and constructs on that object must be able to be acquired while the debugger is in a break state.
 
 
 ## -returns
