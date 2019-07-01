@@ -51,7 +51,7 @@ The GetIterator method on the iterable concept returns an iterator interface whi
 The instance (this pointer) for which to acquire an iterator.
 
 ### -param iterator
-An implementation of IModelIterator which iterates the instance object is returned here.
+An implementation of [IModelIterator](nn-dbgmodel-imodeliterator.md) which iterates the instance object is returned here.
 
 
 ## -returns

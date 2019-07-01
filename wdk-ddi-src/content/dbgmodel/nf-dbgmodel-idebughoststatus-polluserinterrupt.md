@@ -47,7 +47,7 @@ The PollUserInterrupt method is used to inquire whether the user of the debug ho
 
 It is important that any caller of data model APIs which receives an error of E_ABORT propagate that error outward and not swallow just it. 
 
-Certain hosts (in particular, Debugging Tools for Windows) may opt to fail inquiries which occur while an interrupt is pending. In such circumstances, many method calls to IDebugHost* interfaces will return E_ABORT until control has returned to the debug host. 
+Certain hosts (in particular, Debugging Tools for Windows) may opt to fail inquiries which occur while an interrupt is pending. In such circumstances, many method calls to [IDebugHost](nn-dbgmodel-idebughost.md)* interfaces will return E_ABORT until control has returned to the debug host. 
 
 
 ## -parameters

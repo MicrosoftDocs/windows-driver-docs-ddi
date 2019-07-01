@@ -83,13 +83,13 @@ typedef MYSTRUCT *PMYSTRUCT;
 typedef PMYSTRUCT PTRMYSTRUCT;
 ```
 
-An IDebugHostType for 'either PMYSTRUCT or PTRMYSTRUCT will report the following information: 
+An [IDebugHostType](nn-dbgmodel-idebughosttype.md) for 'either PMYSTRUCT or PTRMYSTRUCT will report the following information: 
 
 - The GetTypeKind method will return TypePointer. The final underlying type MYSTRUCT * is indeed a pointer.
 
 - The 'GetBaseType method will return a type for MYSTRUCT. The underlying type of MYSTRUCT * is MYSTRUCT.
 
-The only difference here is how the typedef specific methods on IDebugHostType2 behave. Those methods are: 
+The only difference here is how the typedef specific methods on [IDebugHostType2](nn-dbgmodel-idebughosttype2.md) behave. Those methods are: 
 
 ```cpp
 STDMETHOD(IsTypedef)(_Out_ bool* isTypedef) PURE;

@@ -51,7 +51,7 @@ The GetNext method moves the enumerator to the next variable in the set and retu
 The name of the variable in the set is returned here as a string allocated by the SysAllocString function. The caller is responsible for freeing the returned string via SysFreeString.
 
 ### -param variableValue
-The current value of the variable is returned here. The value must be marshaled out to an IModelObject representation. Every property or other construct on the IModelObject must be able to be acquired while the debugger is in a break state.
+The current value of the variable is returned here. The value must be marshaled out to an [IModelObject](nn-dbgmodel-imodelobject.md) representation. Every property or other construct on the [IModelObject](nn-dbgmodel-imodelobject.md) must be able to be acquired while the debugger is in a break state.
 
 ### -param variableMetadata
 Optional metadata about the variable and its presentation may be returned here.

@@ -43,7 +43,7 @@ ms.custom: RS5
 
 ## -description
 
-The SetConcept method on a dynamic concept provider is effectively an override of the SetConcept method on IModelObject. The dynamic provider will assign the concept. This may make the object iterable, indexable, string convertible, etc... Note that a provider which does not allow the creation of concepts on it should return E_NOPTIMPL here. 
+The SetConcept method on a dynamic concept provider is effectively an override of the SetConcept method on [IModelObject](nn-dbgmodel-imodelobject.md). The dynamic provider will assign the concept. This may make the object iterable, indexable, string convertible, etc... Note that a provider which does not allow the creation of concepts on it should return E_NOPTIMPL here. 
 
 ## -parameters
 

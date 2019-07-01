@@ -96,7 +96,7 @@ IDataModelScriptDebugStackFrame interits from IUnknown.
 
 ## -remarks
 
-A particular frame of the call stack when broken into the script debugger can be retrieved via a call to the GetStackFrame method on the IDataModelScriptDebugStack interface representing the stack segment where the break occurred. The IDataModelScriptDebugStackFrame interface which is returned to represent this frame. 
+A particular frame of the call stack when broken into the script debugger can be retrieved via a call to the GetStackFrame method on the [IDataModelScriptDebugStack](nn-dbgmodel-idatamodelscriptdebugstack.md) interface representing the stack segment where the break occurred. The IDataModelScriptDebugStackFrame interface which is returned to represent this frame. 
 
 ## -see-also
 

@@ -48,7 +48,7 @@ The EnumerateKeyValues method is the first method a client will turn to in order
 ## -parameters
 
 ### -param enumerator
-An enumerator for all keys on the object (and all of its parent models) and their values and metadata is returned in this argument as an IKeyEnumerator.
+An enumerator for all keys on the object (and all of its parent models) and their values and metadata is returned in this argument as an [IKeyEnumerator](nn-dbgmodel-ikeyenumerator.md).
 
 ## -returns
 This method returns HRESULT that indicates success or failure.

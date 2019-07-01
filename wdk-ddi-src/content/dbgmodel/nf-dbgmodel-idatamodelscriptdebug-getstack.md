@@ -49,7 +49,7 @@ The GetStack method gets the current call stack at the break position. This meth
 
 ### -param stack
 
-A component implementing IDataModelScriptDebugStack is returned here representing the call stack state at the position of the break.
+A component implementing [IDataModelScriptDebugStack](nn-dbgmodel-idatamodelscriptdebugstack.md) is returned here representing the call stack state at the position of the break.
 
 ## -returns
 

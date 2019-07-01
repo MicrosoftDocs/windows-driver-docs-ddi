@@ -42,7 +42,7 @@ ms.custom: RS5
 
 
 ## -description
-The GetKeyValue method on a key reference behaves as the GetKeyValue method on IModelObject would. It returns the value of the underlying key and any metadata associated with the key. If the value of the key happens to be a property accessor, this will call the underlying GetValue method on the property accessor automatically. 
+The GetKeyValue method on a key reference behaves as the GetKeyValue method on [IModelObject](nn-dbgmodel-imodelobject.md) would. It returns the value of the underlying key and any metadata associated with the key. If the value of the key happens to be a property accessor, this will call the underlying GetValue method on the property accessor automatically. 
 
 ## -parameters
 

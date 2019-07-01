@@ -43,7 +43,7 @@ This version 2 of the interface supports all of the previous methods with identi
 
 
 ## -inheritance
-IDebugHostEvaluator2 interits from IDebugHostEvaluator. 
+IDebugHostEvaluator2 interits from [IDebugHostEvaluator](nn-dbgmodel-idebughostevaluator.md). 
 ## -members
 
 <p>IDebugHostEvaluator2 has these methods.</p>
@@ -80,7 +80,7 @@ IDebugHostEvaluator2 interits from IDebugHostEvaluator.
 
 ## -remarks
 
-One of the most important pieces of functionality which the debug host provides to clients is access to its language based expression evaluator. The IDebugHostEvaluator and IDebugHostEvaluator2 interfaces are the means to access that functionality from the debug host. 
+One of the most important pieces of functionality which the debug host provides to clients is access to its language based expression evaluator. The [IDebugHostEvaluator](nn-dbgmodel-idebughostevaluator.md) and IDebugHostEvaluator2 interfaces are the means to access that functionality from the debug host. 
 
 ## -see-also
 

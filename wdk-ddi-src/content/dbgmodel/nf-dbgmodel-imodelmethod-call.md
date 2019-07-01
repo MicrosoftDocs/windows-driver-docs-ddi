@@ -43,7 +43,7 @@ ms.custom: RS5
 
 ## -description
 
-The Call method is the way in which any method defined in the data model is invoked. The caller is responsible for passing an accurate instance object (this pointer) and an arbitrary set of arguments. The result of the method and any optional metadata associated with that result is returned. Methods which do not logically return a value still must return a valid IModelObject. In such a case, the IModelObject is a boxed no value. In the event a method fails, it may return optional extended error information in the input argument (even if the returned HRESULT is a failure). It is imperative that callers check for this. 
+The Call method is the way in which any method defined in the data model is invoked. The caller is responsible for passing an accurate instance object (this pointer) and an arbitrary set of arguments. The result of the method and any optional metadata associated with that result is returned. Methods which do not logically return a value still must return a valid [IModelObject](nn-dbgmodel-imodelobject.md). In such a case, the [IModelObject](nn-dbgmodel-imodelobject.md) is a boxed no value. In the event a method fails, it may return optional extended error information in the input argument (even if the returned HRESULT is a failure). It is imperative that callers check for this. 
 
 An underlying method may choose to provide its own implementation of "overload resolution" performing different actions based on the actual types or quantity of its input arguments. The data model provides no assistance for such. 
 
@@ -56,7 +56,7 @@ The context object (instance this pointer) from which the method was fetched.
 The number of arguments being passed to the method call.
 
 ### -param ppArguments
-An array of IModelObject objects, one for each argument in the call.
+An array of [IModelObject](nn-dbgmodel-imodelobject.md) objects, one for each argument in the call.
 
 ### -param ppResult
 The return value of the call. In the event that the call semantically returns nothing, a boxed no value object will be returned. Should the call fail (as indicated by a failing HRESULT), optional extended error information may be present here.

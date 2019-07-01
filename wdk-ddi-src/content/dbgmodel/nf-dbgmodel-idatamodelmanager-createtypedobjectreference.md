@@ -45,7 +45,7 @@ ms.custom: RS5
 
 The CreateTypedObjectReference method is semantically similar to the CreateTypedObject method excepting that it creates a reference to the underlying native/language construct. The created reference is an object which has a kind of ObjectTargetObjectReference. It is not a native reference as the underlying language might support (e.g.: a C++ & or &&). It is entirely possible to have a ObjectTargetObjectReference to a C++ reference. 
 
-An object of kind ObjectTargetObjectReference can be converted to the underlying value through use of the Dereference method on IModelObject. The reference can also be passed to the underlying host's expression evaluator in order to assign back to the value in a language appropriate way. 
+An object of kind ObjectTargetObjectReference can be converted to the underlying value through use of the Dereference method on [IModelObject](nn-dbgmodel-imodelobject.md). The reference can also be passed to the underlying host's expression evaluator in order to assign back to the value in a language appropriate way. 
 
 
 ## -parameters

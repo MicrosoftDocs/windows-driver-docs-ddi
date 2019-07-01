@@ -37,13 +37,13 @@ ms.custom: RS5
 
 ## -description
 
-An (IDebugHostSymbol derived) interface to a particular type.
+An ([IDebugHostSymbol](nn-dbgmodel-idebughostsymbol.md) derived) interface to a particular type.
 
-A given language/native type is described by the IDebugHostType2 or IDebugHostType interfaces. Note that some of the methods on these interfaces only apply for specific kinds of types.
+A given language/native type is described by the [IDebugHostType2](nn-dbgmodel-idebughosttype2.md) or IDebugHostType interfaces. Note that some of the methods on these interfaces only apply for specific kinds of types.
 
 
 ## -inheritance
-IDebugHostType interits from IDebugHostSymbol. 
+IDebugHostType interits from [IDebugHostSymbol](nn-dbgmodel-idebughostsymbol.md). 
 ## -members
 
 <p>IDebugHostType has these methods.</p>

@@ -37,12 +37,12 @@ ms.custom: RS5
 
 ## -description
 
-An (IDebugHostSymbol derived) interface to a particular module.
+An ([IDebugHostSymbol](nn-dbgmodel-idebughostsymbol.md) derived) interface to a particular module.
 
 This version 2 of the interface supports all of the previous methods with identical signatures and includes additional new methods that provide added functionality. The new methods are listed in the header at the end of the section for that interface.
 
 ## -inheritance
-IDebugHostModule2 interits from IDebugHostModule. 
+IDebugHostModule2 interits from [IDebugHostModule](nn-dbgmodel-idebughostmodule.md). 
 ## -members
 
 <p>IDebugHostModule2 has these methods.</p>
@@ -121,9 +121,9 @@ IDebugHostModule2 interits from IDebugHostModule.
 
 The debugger's notion of a module that is loaded within some address space is represented in two distinct ways in the data model: 
 
-- At the type system level via the IDebugHostModule interface. Here, a module is a symbol and core attributes of the module are interface method calls
+- At the type system level via the [IDebugHostModule](nn-dbgmodel-idebughostmodule.md) interface. Here, a module is a symbol and core attributes of the module are interface method calls
 
-- Projected at the data model level via the Debugger.Models.Module data model. This is an extensible encapsulation of the type system IDebugHostModule representation of a module.
+- Projected at the data model level via the Debugger.Models.Module data model. This is an extensible encapsulation of the type system [IDebugHostModule](nn-dbgmodel-idebughostmodule.md) representation of a module.
 
 ## -see-also
 

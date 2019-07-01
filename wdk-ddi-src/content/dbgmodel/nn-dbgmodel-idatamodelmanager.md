@@ -149,7 +149,7 @@ IDataModelManager interits from IUnknown.
 
 **Object Creation / Boxing Methods**
 
-The following set of methods is used to create new objects or to box values into an IModelObject -- the core interface of the data model. 
+The following set of methods is used to create new objects or to box values into an [IModelObject](nn-dbgmodel-imodelobject.md) -- the core interface of the data model. 
 
 ```cpp
 STDMETHOD(CreateNoValue)(_Out_ IModelObject** object) PURE;

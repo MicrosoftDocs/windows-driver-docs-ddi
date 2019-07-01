@@ -43,7 +43,7 @@ ms.custom: RS5
 
 ## -description
 
-The GetKeyValue method is the first method a client will turn to in order to get the value of (and the metadata associated with) a given key by name. If the key is a property accessor -- that is it's value as an IModelObject which is a boxed IModelPropertyAccessor, the GetKeyValue method will automatically call the property accessor's GetValue method in order to retrieve the actual value. 
+The GetKeyValue method is the first method a client will turn to in order to get the value of (and the metadata associated with) a given key by name. If the key is a property accessor -- that is it's value as an [IModelObject](nn-dbgmodel-imodelobject.md) which is a boxed [IModelPropertyAccessor](nn-dbgmodel-imodelpropertyaccessor.md), the GetKeyValue method will automatically call the property accessor's GetValue method in order to retrieve the actual value. 
 
 ## -parameters
 

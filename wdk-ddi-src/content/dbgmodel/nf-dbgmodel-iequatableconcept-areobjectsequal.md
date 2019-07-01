@@ -44,7 +44,7 @@ ms.custom: RS5
 ## -description
 
 Compares this object to another (of arbitrary type) for equality.  If the comparison cannot be performed, E_NOT_SET should be returned.
-IEquatableConcept is typically implemented by the object creators.  To compare objects consider using IModelObject::IsEqualTo or IModelObject::Compare.
+[IEquatableConcept](nn-dbgmodel-iequatableconcept.md) is typically implemented by the object creators.  To compare objects consider using [IModelObject](nn-dbgmodel-imodelobject.md)::IsEqualTo or [IModelObject](nn-dbgmodel-imodelobject.md)::Compare.
 
 ## -parameters
 
@@ -64,7 +64,7 @@ This method returns HRESULT which indicates success or failure.
 
 ## -remarks
 
-Generally speaking, you will implement (but not necessarily consume) IEquatableConcept.  It can be easier to call IModelObject::IsEqualTo or IModelObject::Compare and let those methods manage the concept fetch.
+Generally speaking, you will implement (but not necessarily consume) [IEquatableConcept](nn-dbgmodel-iequatableconcept.md).  It can be easier to call [IModelObject](nn-dbgmodel-imodelobject.md)::IsEqualTo or [IModelObject](nn-dbgmodel-imodelobject.md)::Compare and let those methods manage the concept fetch.
 
 
 ## -see-also

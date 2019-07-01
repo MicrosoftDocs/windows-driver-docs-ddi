@@ -43,7 +43,7 @@ ms.custom: RS5
 
 ## -description
 
-For the "i"-th generic argument to the generic/template, this returns a new IDebugHostSymbol  which represents that argument.  For templates, this is most often an IDebugHostType; however --  it may be an IDebugHostConstant for non-template type arguments.  
+For the "i"-th generic argument to the generic/template, this returns a new [IDebugHostSymbol](nn-dbgmodel-idebughostsymbol.md)  which represents that argument.  For templates, this is most often an [IDebugHostType](nn-dbgmodel-idebughosttype.md); however --  it may be an [IDebugHostConstant](nn-dbgmodel-idebughostconstant.md) for non-template type arguments.  
 
 Note that it is possible for some compiler generated generics and templates that this method  will fail.
 

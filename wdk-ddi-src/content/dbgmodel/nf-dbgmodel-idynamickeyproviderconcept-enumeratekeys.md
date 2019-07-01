@@ -43,7 +43,7 @@ ms.custom: RS5
 
 ## -description
 
-The EnumerateKeys method on a dynamic key provider is effectively an override of the EnumerateKeys method on IModelObject. This enumerates all the keys in the dynamic provider. The returned enumerator has several restrictions that must be honored by the implementation: 
+The EnumerateKeys method on a dynamic key provider is effectively an override of the EnumerateKeys method on [IModelObject](nn-dbgmodel-imodelobject.md). This enumerates all the keys in the dynamic provider. The returned enumerator has several restrictions that must be honored by the implementation: 
 
 - It must behave as a call to EnumerateKeys and not EnumerateKeyValues or EnumerateKeyReferences. It must return the key values not resolving any underlying property accessors (if such concept exists in the provider).
 - From the perspective of a single dynamic key provider, it is illegal to enumerate multiple keys of the same name that are physically distinct keys. This can happen on different providers that are attached through the parent model chain, but it cannot happen from the perspective of a single provider.

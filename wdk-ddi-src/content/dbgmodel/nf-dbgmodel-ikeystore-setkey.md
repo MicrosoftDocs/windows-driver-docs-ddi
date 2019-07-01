@@ -43,7 +43,7 @@ ms.custom: RS5
 
 ## -description
 
-The SetKey method is analogous to the SetKey method on IModelObject. It is the only method which is capable of creating a key and associating metadata with it within the key store. 
+The SetKey method is analogous to the SetKey method on [IModelObject](nn-dbgmodel-imodelobject.md). It is the only method which is capable of creating a key and associating metadata with it within the key store. 
 
 ## -parameters
 

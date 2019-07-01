@@ -49,7 +49,7 @@ The GetNext method moves the enumerator to the next template and returns it. At 
 
 ### -param templateContent
 
-The next template in enumeration order is returned here as a component implementing the IDataModelScriptTemplate interface.
+The next template in enumeration order is returned here as a component implementing the [IDataModelScriptTemplate](nn-dbgmodel-idatamodelscripttemplate.md) interface.
 
 
 ## -returns

@@ -53,12 +53,12 @@ instance->GetKeyValue("someKey", &pValue, nullptr);
 
 will end up changing the context/this pointer from instance to newContext before calling someKey's GetValue method since the access to someKey passed through the context adjustor. 
 
-Any IModelObject which is added as a parent model to another object must individually support the IDataModelConcept concept. Failure to implement this concept may result in the AddParentModel method call failing. 
+Any [IModelObject](nn-dbgmodel-imodelobject.md) which is added as a parent model to another object must individually support the [IDataModelConcept](nn-dbgmodel-idatamodelconcept.md) concept. Failure to implement this concept may result in the AddParentModel method call failing. 
 
 ## -parameters
 
 ### -param model
-An IModelObject which will be added to the parent model chain of the given object. This IModelObject must individually support the IDataModelConcept concept.
+An [IModelObject](nn-dbgmodel-imodelobject.md) which will be added to the parent model chain of the given object. This [IModelObject](nn-dbgmodel-imodelobject.md) must individually support the [IDataModelConcept](nn-dbgmodel-idatamodelconcept.md) concept.
 
 ### -param contextObject
 If the data model has a context adjustment associated with it, the adjusted context (or a property accessor which returns the adjusted context) may be passed here.

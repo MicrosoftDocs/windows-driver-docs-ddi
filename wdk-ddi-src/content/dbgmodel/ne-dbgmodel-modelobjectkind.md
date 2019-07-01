@@ -35,7 +35,7 @@ ms.custom: RS5
 
 ## -description
 
-Describes what an IModelObject is intrinsically.
+Describes what an [IModelObject](nn-dbgmodel-imodelobject.md) is intrinsically.
 
 
 ## -enum-fields

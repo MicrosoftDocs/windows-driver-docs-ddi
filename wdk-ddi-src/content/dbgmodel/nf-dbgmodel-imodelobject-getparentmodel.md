@@ -51,7 +51,7 @@ The GetParentModel method returns the i-th parent model in the parent model chai
 A linear zero based index indicating which parent model in the chain to retrieve.
 
 ### -param model
-An IModelObject representing the i-th parent model will be returned here.
+An [IModelObject](nn-dbgmodel-imodelobject.md) representing the i-th parent model will be returned here.
 
 ### -param contextObject
 If the parent model has an associated context adjustor, the adjusted context will be returned here. See the documentation for AddParentModel for more information about this value.
