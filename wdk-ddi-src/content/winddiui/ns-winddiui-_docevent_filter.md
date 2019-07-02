@@ -42,166 +42,74 @@ req.typenames: DOCEVENT_FILTER, *PDOCEVENT_FILTER
 
 # _DOCEVENT_FILTER structure
 
-
 ## -description
 
-
-The DOCEVENT_FILTER structure contains a list of document events to which the printer driver will respond. See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winddiui/nf-winddiui-drvdocumentevent">DrvDocumentEvent</a> for a complete list of the document events.
-
+The DOCEVENT_FILTER structure contains a list of document events to which the printer driver will respond. See [DrvDocumentEvent](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winddiui/nf-winddiui-drvdocumentevent) for a complete list of the document events.
 
 ## -struct-fields
 
-
-
-
 ### -field cbSize
 
-Spooler-supplied size, in bytes, of this structure. The spooler initializes this member to <b>sizeof</b>(DOCEVENT_FILTER).
-
+Spooler-supplied size, in bytes, of this structure. The spooler initializes this member to **sizeof**(DOCEVENT_FILTER).
 
 ### -field cElementsAllocated
 
-Spooler-supplied number of elements in the <b>aDocEventCall</b> array member. The spooler initializes this member to DOCUMENTEVENT_LAST - 1. (The DOCUMENTEVENT_LAST constant is defined in header file Winddiui.h.)
-
+Spooler-supplied number of elements in the **aDocEventCall** array member. The spooler initializes this member to DOCUMENTEVENT_LAST - 1. (The DOCUMENTEVENT_LAST constant is defined in header file Winddiui.h.)
 
 ### -field cElementsNeeded
 
-Driver-supplied total number of elements needed in the <b>aDocEventCall</b> array member. The spooler initializes this member to 0XFFFFFFFF. For more information, see the following Remarks section.
-
+Driver-supplied total number of elements needed in the **aDocEventCall** array member. The spooler initializes this member to 0XFFFFFFFF. For more information, see the following Remarks section.
 
 ### -field cElementsReturned
 
-Driver-supplied number of DOCUMENTEVENT_<i>XXX </i>events that it placed in the <b>aDocEventCall</b> array member. The spooler initializes this member to 0XFFFFFFFF. For more information, see the following Remarks section.
-
+Driver-supplied number of DOCUMENTEVENT_**XXX **events that it placed in the **aDocEventCall** array member. The spooler initializes this member to 0XFFFFFFFF. For more information, see the following Remarks section.
 
 ### -field aDocEventCall
 
-Driver-filled array of DWORDs listing all of the DOCUMENTEVENT_<i>XXX</i> events to which the printer driver will respond. The spooler initializes this member to 0.
-
+Driver-filled array of DWORDs listing all of the DOCUMENTEVENT_**XXX** events to which the printer driver will respond. The spooler initializes this member to 0.
 
 ## -remarks
 
+The printer driver lists the events to which it will respond in the DOCEVENT_FILTER structure. Because this limits the number of calls to the driver the spooler needs to make, printer performance is enhanced. When the spooler makes a call to the [DrvDocumentEvent](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winddiui/nf-winddiui-drvdocumentevent) DDI with its **iEsc** parameter set to DOCUMENTEVENT_QUERYFILTER, the spooler allocates a buffer that contains a DOCEVENT_FILTER structure, including its **aDocEventCall** array. The amount of memory allocated for the buffer is:
 
+```cpp
+sizeof(DOCEVENT_FILTER) + sizeof(DWORD) * (DOCUMENTEVENT_LAST - 2)
+```
 
-The DOCEVENT_FILTER structure is defined for Windows XP and later.
+After allocating a buffer that contains a DOCEVENT_FILTER structure, the spooler initializes the structure members to the following values:
 
-The printer driver lists the events to which it will respond in the DOCEVENT_FILTER structure. Because this limits the number of calls to the driver the spooler needs to make, printer performance is enhanced. When the spooler makes a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winddiui/nf-winddiui-drvdocumentevent">DrvDocumentEvent</a> DDI with its <i>iEsc</i> parameter set to DOCUMENTEVENT_QUERYFILTER, the spooler allocates a buffer that contains a DOCEVENT_FILTER structure, including its <b>aDocEventCall</b> array. The amount of memory allocated for the buffer is: 
+| Member | Initialized to: |
+| --- | --- |
+| **cbSize** | 0 |
+| **cElementsAllocated** | DOCUMENTEVENT_LAST - 1<br>The DOCUMENTEVENT_LAST constant is defined in winddiui.h. |
+| **cElementsNeeded** | 0XFFFFFFFF |
+| **cElementsReturned** | 0XFFFFFFFF |
+| **aDocEventCall** | 0 |
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>sizeof(DOCEVENT_FILTER) + sizeof(DWORD) * (DOCUMENTEVENT_LAST - 2)
- </pre>
-</td>
-</tr>
-</table></span></div>
-After allocating a buffer that contains a DOCEVENT_FILTER structure, the spooler initializes the structure members to the following values: 
-
-<table>
-<tr>
-<th>Member</th>
-<th>Initialized to:</th>
-</tr>
-<tr>
-<td>
-<b>cbSize</b>
-
-</td>
-<td>
-0
-
-</td>
-</tr>
-<tr>
-<td>
-<b>cElementsAllocated</b>
-
-</td>
-<td>
-DOCUMENTEVENT_LAST - 1
-
-The DOCUMENTEVENT_LAST constant is defined in winddiui.h.
-
-</td>
-</tr>
-<tr>
-<td>
-<b>cElementsNeeded</b>
-
-</td>
-<td>
-0XFFFFFFFF
-
-</td>
-</tr>
-<tr>
-<td>
-<b>cElementsReturned</b>
-
-</td>
-<td>
-0XFFFFFFFF
-
-</td>
-</tr>
-<tr>
-<td>
-<b>aDocEventCall</b>
-
-</td>
-<td>
-0
-
-</td>
-</tr>
-</table>
- 
-
-After the spooler has initialized the structure members to the values shown in the preceding table, it then calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winddiui/nf-winddiui-drvdocumentevent">DrvDocumentEvent</a>. When this function returns, the spooler inspects the <b>cElementsNeeded</b> and <b>cElementsReturned</b> members to see if either has been changed. If the driver has written to one of these members, but not the other, the spooler interprets the unwritten-to member as having the value 0.
+After the spooler has initialized the structure members to the values shown in the preceding table, it then calls [DrvDocumentEvent](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winddiui/nf-winddiui-drvdocumentevent). When this function returns, the spooler inspects the **cElementsNeeded** and **cElementsReturned** members to see if either has been changed. If the driver has written to one of these members, but not the other, the spooler interprets the unwritten-to member as having the value 0.
 
 If the driver supports DOCUMENTEVENT_QUERYFILTER:
 
-<ul>
-<li>If the <b>aDocEventCall</b> array is large enough to contain all of the DOCUMENTEVENT_<i>XXX</i> events the printer driver intends to place in it, the printer driver:<ul>
-<li>Fills the array with those events.</li>
-<li>Sets the <b>cElementsReturned</b> member to that number of events (which should be less than or equal to <b>cElementsAllocated</b>).</li>
-<li>Leaves <b>cElementsNeeded</b> unchanged.</li>
-<li>Returns DOCUMENTEVENT_SUCCESS.</li>
-</ul>
-</li>
-</ul>
-In this case, the spooler uses the first <b>cElementsReturned</b> values in the <b>aDocEventCall</b> array.
+- If the **aDocEventCall** array is large enough to contain all of the DOCUMENTEVENT_**XXX** events the printer driver intends to place in it, the printer driver:
+  - Fills the array with those events
+  - Sets the **cElementsReturned** member to that number of events (which should be less than or equal to **cElementsAllocated**)
+  - Leaves **cElementsNeeded** unchanged
+  - Returns DOCUMENTEVENT_SUCCESS
 
-<div class="alert"><b>Note</b>    The DOCUMENTEVENT_CREATEDCPRE event is treated in a special way. When the spooler calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winddiui/nf-winddiui-drvdocumentevent">DrvDocumentEvent</a> with the <i>iEsc</i> parameter set to DOCUMENTEVENT_CREATEDCPRE, the spooler uses the return value to determine whether future calls to this function are necessary. Unlike other DOCUMENTEVENT_<i>XXX</i> events, the printer driver always receives calls to <b>DrvDocumentEvent</b> with DOCUMENTEVENT_CREATEDCPRE, whether this event is filtered out or not.</div>
-<div> </div>
-<ul>
-<li>
-If the <b>aDocEventCall</b> array is not large enough to contain all of the DOCUMENTEVENT_<i>XXX</i> events the printer driver intends to place in it, the printer driver should:<ul>
-<li>Set <b>cElementsNeeded</b> to the number of events to which it intends to respond (which should be greater than <b>cElementsAllocated</b>).</li>
-<li>Leave <b>cElementsReturned</b> unchanged.</li>
-<li>Return DOCUMENTEVENT_SUCCESS.</li>
-</ul>
+In this case, the spooler uses the first **cElementsReturned** values in the **aDocEventCall** array.
 
+> [!NOTE]
+> The DOCUMENTEVENT_CREATEDCPRE event is treated in a special way. When the spooler calls [DrvDocumentEvent](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winddiui/nf-winddiui-drvdocumentevent) with the **iEsc** parameter set to DOCUMENTEVENT_CREATEDCPRE, the spooler uses the return value to determine whether future calls to this function are necessary. Unlike other DOCUMENTEVENT_**XXX** events, the printer driver always receives calls to **DrvDocumentEvent** with DOCUMENTEVENT_CREATEDCPRE, whether this event is filtered out or not.
 
-In this case, the spooler then allocates a new buffer that is sufficiently large, and then makes another call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winddiui/nf-winddiui-drvdocumentevent">DrvDocumentEvent</a> with DOCUMENTEVENT_QUERYFILTER.
+- If the **aDocEventCall** array is not large enough to contain all of the DOCUMENTEVENT_**XXX** events the printer driver intends to place in it, the printer driver should:
+  - Set **cElementsNeeded** to the number of events to which it intends to respond (which should be greater than **cElementsAllocated**)
+  - Leave **cElementsReturned** unchanged
+  - Return DOCUMENTEVENT_SUCCESS
 
-</li>
-</ul>
-If the driver does not support the DOCUMENTEVENT_QUERYFILTER event, it should return DOCUMENTEVENT_UNSUPPORTED. If the driver does support DOCUMENTEVENT_QUERYFILTER, but encounters internal errors when it handles this event, it should return DOCUMENTEVENT_FAILURE. In either case, the spooler is not able to retrieve the event filter from the driver, so it continues in its behavior of calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winddiui/nf-winddiui-drvdocumentevent">DrvDocumentEvent</a> for all events.
+In this case, the spooler then allocates a new buffer that is sufficiently large, and then makes another call to [DrvDocumentEvent](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winddiui/nf-winddiui-drvdocumentevent) with DOCUMENTEVENT_QUERYFILTER.
 
-
-
+If the driver does not support the DOCUMENTEVENT_QUERYFILTER event, it should return DOCUMENTEVENT_UNSUPPORTED. If the driver does support DOCUMENTEVENT_QUERYFILTER, but encounters internal errors when it handles this event, it should return DOCUMENTEVENT_FAILURE. In either case, the spooler is not able to retrieve the event filter from the driver, so it continues in its behavior of calling [DrvDocumentEvent](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winddiui/nf-winddiui-drvdocumentevent) for all events.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winddiui/nf-winddiui-drvdocumentevent">DrvDocumentEvent</a>
- 
-
- 
-
+[DrvDocumentEvent](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winddiui/nf-winddiui-drvdocumentevent)
