@@ -42,87 +42,42 @@ req.typenames:
 
 # wiauDbgError function
 
-
 ## -description
 
-
-The <b>wiauDbgError</b> function logs an error message.
-
+The **wiauDbgError** function logs an error message.
 
 ## -parameters
 
-
-
-
 ### -param fname
 
-Pointer to a string containing the name of the function or method into which the call to <b>wiauDbgDump</b> is inserted.
-
+Pointer to a string containing the name of the function or method into which the call to **wiauDbgDump** is inserted.
 
 ### -param fmt
 
-
-
+Pointer to a format string that specifies a variable argument list, which starts with an ANSI format string containing the message and any conversion specifiers. The ellipsis (...) specifies a variable number of arguments that are to be output.
 
 ### -param param
 
-
-
-
-
-
 ####### - fmt, ...
-
-Pointer to a format string that specifies a variable argument list, which starts with an ANSI format string containing the message and any conversion specifiers. The ellipsis (...) specifies a variable number of arguments that are to be output. 
-
 
 ## -returns
 
-
-
 None
-
-
-
 
 ## -remarks
 
+The **wiauDbgError** typically is used to display an error message with no data, such as in the following example:
 
-
-The <b>wiauDbgError</b> typically is used to display an error message with no data, such as in the following example:
-
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>wiauDbgError("Read", "Attempting to read past end of buffer");</pre>
-</td>
-</tr>
-</table></span></div>
-
-
+```cpp
+wiauDbgError("Read", "Attempting to read past end of buffer");
+```
 
 ## -see-also
 
+[wiauDbgDump](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-wiaudbgdump)
 
+[wiauDbgErrorHr](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-wiaudbgerrorhr)
 
+[wiauDbgTrace](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-wiaudbgtrace)
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-wiaudbgdump">wiauDbgDump</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-wiaudbgerrorhr">wiauDbgErrorHr</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-wiaudbgtrace">wiauDbgTrace</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-wiaudbgwarning">wiauDbgWarning</a>
- 
-
- 
-
+[wiauDbgWarning](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-wiaudbgwarning)
