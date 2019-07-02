@@ -42,72 +42,40 @@ req.typenames:
 
 # wiasQueueEvent function
 
-
 ## -description
 
-
-The <b>wiasQueueEvent</b> function informs the service that the device generated an event. 
-
+The **wiasQueueEvent** function informs the service that the device generated an event.
 
 ## -parameters
 
-
-
-
 ### -param bstrDeviceId [in]
 
-Specifies the device ID. This is the value passed to the minidriver in the call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvinitializewia">IWiaMiniDrv::drvInitializeWia</a> method.
-
+Specifies the device ID. This is the value passed to the minidriver in the call to the [IWiaMiniDrv::drvInitializeWia](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvinitializewia) method.
 
 ### -param pEventGUID [in]
 
 Pointer to a buffer that contains the GUID for the event.
 
-
 ### -param bstrFullItemName [in, optional]
 
 Specifies the full item name, including path information.
 
-
 ## -returns
-
-
 
 On success, the function returns S_OK. If the function fails, it returns a standard COM error or one of the WIA_ERROR_XXX errors (described in the Microsoft Windows SDK documentation).
 
-
-
-
 ## -remarks
-
-
 
 This method should be used whenever the device must signal that an event of some type occurred. The device does this by placing the event on the event queue. For example, when a camera takes a new picture, it should generate a WIA_EVENT_ITEM_CREATED event after adding a new driver item to its tree. The camera can place this event on the event queue in this way:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>hr = wiasQueueEvent(bstrMyDeviceId,
+```cpp
+hr = wiasQueueEvent(bstrMyDeviceId,
                     &WIA_EVENT_ITEM_CREATED,
-                    bstrDescriptionString);</pre>
-</td>
-</tr>
-</table></span></div>
+                    bstrDescriptionString);
+```
+
 See the Windows SDK documentation for a complete list of WIA event identifiers.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvinitializewia">IWiaMiniDrv::drvInitializeWia</a>
- 
-
- 
-
+[IWiaMiniDrv::drvInitializeWia](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvinitializewia)
