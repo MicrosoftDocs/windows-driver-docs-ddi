@@ -42,75 +42,38 @@ req.typenames:
 
 # wiauDbgLegacyHresult2 function
 
-
 ## -description
 
-
-The <b>wiauDbgLegacyHresult2</b> function logs a default message containing an HRESULT.
-
+The **wiauDbgLegacyHresult2** function logs a default message containing an HRESULT.
 
 ## -parameters
-
-
-
 
 ### -param hInstance [in]
 
 Specifies the handle to the DLL instance.
 
-
 ### -param hr
 
 Specifies the HRESULT to be logged.
 
-
 ## -returns
-
-
 
 None
 
-
-
-
 ## -remarks
 
+A call to the **wiauDbgLegacyHresult2** function is equivalent to the following call to the [wiauDbgErrorHr](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-wiaudbgerrorhr) function:
 
+```cpp
+wiauDbgErrorHr(hr, "", "");
+```
 
-A call to the <b>wiauDbgLegacyHresult2</b> function is equivalent to the following call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-wiaudbgerrorhr">wiauDbgErrorHr</a> function:
-
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>wiauDbgErrorHr(hr, "", "");</pre>
-</td>
-</tr>
-</table></span></div>
 That is, only one line is output to the log file and/or debugger. The line has the following form:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>ERROR HRESULT = HRESULT value, Error text for HRESULT </pre>
-</td>
-</tr>
-</table></span></div>
-
-
+```cpp
+ERROR HRESULT = HRESULT value, Error text for HRESULT
+```
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-wiaudbgerrorhr">wiauDbgErrorHr</a>
- 
-
- 
-
+[wiauDbgErrorHr](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-wiaudbgerrorhr)
