@@ -42,92 +42,46 @@ req.typenames:
 
 # wiauDbgErrorHr function
 
-
 ## -description
 
-
-The <b>wiauDbgErrorHr</b> function logs a message containing an HRESULT and its error message string.
-
+The **wiauDbgErrorHr** function logs a message containing an HRESULT and its error message string.
 
 ## -parameters
-
-
-
 
 ### -param hr
 
 Specifies the HRESULT that is to be logged.
 
-
 ### -param fname
 
-Pointer to a string containing the name of the function or method into which the call to <b>wiauDbgDump</b> is inserted.
-
+Pointer to a string containing the name of the function or method into which the call to **wiauDbgDump** is inserted.
 
 ### -param fmt
 
-
-
+Pointer to a format string that specifies a variable argument list, which starts with an ANSI format string containing the message and any conversion specifiers. The ellipsis (...) specifies a variable number of arguments that are to be output.
 
 ### -param param
 
-
-
-
-
-
-####### - fmt, ...
-
-Pointer to a format string that specifies a variable argument list, which starts with an ANSI format string containing the message and any conversion specifiers. The ellipsis (...) specifies a variable number of arguments that are to be output. 
-
+#### - fmt, ...
 
 ## -returns
 
-
-
 None
-
-
-
 
 ## -remarks
 
+The **wiauDbgErrorHr** function typically logs two lines to the log file, or debugger, or both. The first line contains the text of the *fmt* parameter, including data, if provided. The second line contains the HRESULT and the message string associated with that HRESULT. The following example shows how this function might be called:
 
-
-The <b>wiauDbgErrorHr</b> function typically logs two lines to the log file, or debugger, or both. The first line contains the text of the <i>fmt</i> parameter, including data, if provided. The second line contains the HRESULT and the message string associated with that HRESULT. The following example shows how this function might be called:
-
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>wiauDbgErrorHr(hr, "AllocateBuffer", "Buffer size is %d bytes", size);</pre>
-</td>
-</tr>
-</table></span></div>
-
-
+```cpp
+wiauDbgErrorHr(hr, "AllocateBuffer", "Buffer size is %d bytes", size);
+```
 
 ## -see-also
 
+[wiauDbgDump](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-wiaudbgdump)
 
+[wiauDbgError](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-wiaudbgerror)
 
+[wiauDbgTrace](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-wiaudbgtrace)
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-wiaudbgdump">wiauDbgDump</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-wiaudbgerror">wiauDbgError</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-wiaudbgtrace">wiauDbgTrace</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-wiaudbgwarning">wiauDbgWarning</a>
- 
-
- 
-
+[wiauDbgWarning](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-wiaudbgwarning)
