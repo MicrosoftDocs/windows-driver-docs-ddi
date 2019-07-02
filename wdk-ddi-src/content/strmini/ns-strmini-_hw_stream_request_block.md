@@ -80,9 +80,7 @@ Points to an uninitialized buffer the class driver allocates for the minidriver 
 
 Pointer to an array of [KSSTREAM_HEADER](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksstream_header) structures. The number of entries in this array is specified in **NumberOfBuffers**. Each KSSTREAM_HEADER describes one block of data.
 
-This member is used when the command code is [SRB_READ_DATA](https://docs.microsoft.com/windows-hardware/drivers/stream/srb-read-data)
-
-or [SRB_WRITE_DATA](https://docs.microsoft.com/windows-hardware/drivers/stream/srb-write-data).
+This member is used when the command code is [SRB_READ_DATA](https://docs.microsoft.com/windows-hardware/drivers/stream/srb-read-data) or [SRB_WRITE_DATA](https://docs.microsoft.com/windows-hardware/drivers/stream/srb-write-data).
 
 ### -field CommandData.StreamBuffer
 
