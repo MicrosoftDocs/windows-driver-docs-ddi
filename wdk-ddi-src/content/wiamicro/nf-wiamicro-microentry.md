@@ -44,7 +44,7 @@ req.typenames:
 
 ## -description
 
-The** MicroEntry **function responds to commands sent by the WIA Flatbed driver. 
+The **MicroEntry** function responds to commands sent by the WIA Flatbed driver. 
 
 ## -parameters
 
