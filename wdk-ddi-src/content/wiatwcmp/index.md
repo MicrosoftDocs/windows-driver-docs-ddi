@@ -13,9 +13,7 @@ tech.root: image
 
 # Wiatwcmp.h header
 
-
 ## -description
-
 
 This header is used by image. For more information, see:
 

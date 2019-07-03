@@ -11,7 +11,7 @@ ms.topic: struct
 req.header: wiatwcmp.h
 req.include-header: Wiatwcmp.h
 req.target-type: Windows
-req.target-min-winverclnt: Available in Windows Me and in Windows XP and later versions of the Windows operating systems.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -42,199 +42,66 @@ req.typenames: TWAIN_CAPABILITY, *PTWAIN_CAPABILITY
 
 # _TWAIN_CAPABILITY structure
 
-
 ## -description
-
 
 The TWAIN_CAPABILITY structure holds information used when a TWAIN-compatible application communicates with a WIA driver.
 
-
 ## -struct-fields
-
-
-
 
 ### -field lSize
 
 Specifies the size, in bytes, of the TWAIN_CAPABILITY structure.
 
-
 ### -field lMSG
 
-Specifies the particular TWAIN message, which can be one of the following values: 
+Specifies the particular TWAIN message, which can be one of the following values:
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-MSG_GET
-
-</td>
-<td>
-Get a capability.
-
-</td>
-</tr>
-<tr>
-<td>
-MSG_GETCURRENT
-
-</td>
-<td>
-Get the current capability.
-
-</td>
-</tr>
-<tr>
-<td>
-MSG_GETDEFAULT
-
-</td>
-<td>
-Get the default capability.
-
-</td>
-</tr>
-<tr>
-<td>
-MSG_RESET
-
-</td>
-<td>
-Reset the capability.
-
-</td>
-</tr>
-<tr>
-<td>
-MSG_SET
-
-</td>
-<td>
-Set a capability.
-
-</td>
-</tr>
-</table>
- 
-
+| Value | Meaning |
+| --- | --- |
+| MSG_GET | Get a capability. |
+| MSG_GETCURRENT | Get the current capability. |
+| MSG_GETDEFAULT | Get the default capability. |
+| MSG_RESET | Reset the capability. |
+| MSG_SET | Set a capability. |
 
 ### -field lCapID
 
 Specifies the ID of the capability to set or get.
 
-
 ### -field lConType
 
 Specifies the capability's container type.
-
 
 ### -field lRC
 
 Specifies the TWAIN return code. This value can be on of the following:
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-TWRC_FAILURE
-
-</td>
-<td>
-The capability specified by the <b>lCapID</b> member is not supported.
-
-</td>
-</tr>
-<tr>
-<td>
-TWRC_SUCCESS
-
-</td>
-<td>
-The capability specified by the <b>lCapID</b> member is supported.
-
-</td>
-</tr>
-<tr>
-<td>
-Other TWRC_XXX return code
-
-</td>
-<td>
-See the <b>Remarks</b> section.
-
-</td>
-</tr>
-</table>
- 
-
+| Value | Meaning |
+| --- | --- |
+| TWRC_FAILURE | The capability specified by the **lCapID** member is not supported. |
+| TWRC_SUCCESS | The capability specified by the **lCapID** member is supported. |
+| TWRC_SUCCESS | See the **Remarks** section. |
 
 ### -field lCC
 
 Specifies the TWAIN condition code. This value can be one of the following:
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-TWCC_BUMMER
-
-</td>
-<td>
-The operation failed for an unknown reason.
-
-</td>
-</tr>
-<tr>
-<td>
-TWCC_SUCCESS
-
-</td>
-<td>
-The operation was successful.
-
-</td>
-</tr>
-<tr>
-<td>
-TWCC_XXX
-
-</td>
-<td>
-See the <b>Remarks</b> section.
-
-</td>
-</tr>
-</table>
- 
-
+| Value | Meaning |
+| --- | --- |
+| TWCC_BUMMER | The operation failed for an unknown reason. |
+| TWCC_SUCCESS | The operation was successful. |
+| TWCC_XXX | See the **Remarks** section. |
 
 ### -field lDataSize
 
-Specifies the size, in bytes of the data in the <b>Data</b> array.
-
+Specifies the size, in bytes of the data in the **Data** array.
 
 ### -field Data
 
-Is an array that contains the capability data. The actual size, in bytes, of the array is indicated by the <b>lDataSize</b> member.
-
+Is an array that contains the capability data. The actual size, in bytes, of the array is indicated by the **lDataSize** member.
 
 ## -remarks
 
+A TWAIN-capable application communicates with a WIA driver by way of the TWAIN compatibility later to find out whether the driver has any private capabilities, and if so, what they are. A TWAIN_CAPABILITY structure is used in this communication. For more information, see [TWAIN Compatibility](https://docs.microsoft.com/windows-hardware/drivers/image/twain-compatibility).
 
-
-A TWAIN-capable application communicates with a WIA driver by way of the TWAIN compatibility later to find out whether the driver has any private capabilities, and if so, what they are. A TWAIN_CAPABILITY structure is used in this communication. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/image/twain-compatibility">TWAIN Compatibility</a>. 
-
-The TWAIN return codes and control codes are defined in <i>twain.h</i>, which can be obtained from the TWAIN Working Group (http://www.twain.org).
-
-
-
+The TWAIN return codes and control codes are defined in *twain.h*, which can be obtained from the TWAIN Working Group (http://www.twain.org).
