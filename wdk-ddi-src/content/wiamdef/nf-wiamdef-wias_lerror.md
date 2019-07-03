@@ -11,7 +11,7 @@ ms.topic: macro
 req.header: wiamdef.h
 req.include-header: Wiautil.h
 req.target-type: Desktop
-req.target-min-winverclnt: Available in Windows Me, Windows XP, and later. Obsolete for Windows Vista and later. Use WIAS_ERROR instead.
+req.target-min-winverclnt: Obsolete, use WIAS_ERROR instead.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -44,7 +44,7 @@ req.typenames:
 
 ## -description
 
-The WIAS_LERROR macro is obsolete for Windows Vista and later. It is recommended that the [WIAS_ERROR](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wias_error) macro be used instead.
+The WIAS_LERROR macro is obsolete. It is recommended that the [WIAS_ERROR](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wias_error) macro be used instead.
 
 The WIAS_LERROR macro writes a diagnostic WIA_ERROR message to the log file.
 
@@ -70,7 +70,7 @@ The following is an example of how the macro can be used:
 WIAS_LERROR(g_pIWiaLog, WIALOG_NO_RESOURCE_ID, ("MyClass::MyMethod, This is my text and my lValue = %d", lValue));
 ```
 
-The WIAS_LERROR macro is not recommended for Windows Vista, because it does not record its output to the *Wiatrace.log* diagnostic log file. It is recommended that the [WIAS_ERROR](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wias_error) macro be used instead.
+The WIAS_LERROR macro is obsolete and not recommended for use because it does not record its output to the *Wiatrace.log* diagnostic log file. It is recommended that the [WIAS_ERROR](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wias_error) macro be used instead.
 
 ## -see-also
 

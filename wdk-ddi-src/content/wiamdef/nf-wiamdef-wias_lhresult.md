@@ -11,7 +11,7 @@ ms.topic: macro
 req.header: wiamdef.h
 req.include-header: Wiautil.h
 req.target-type: Desktop
-req.target-min-winverclnt: Available in Windows Me, Windows XP, and later. Obsolete for Windows Vista and later. Use WIAS_HRESULT instead.
+req.target-min-winverclnt: Obsolete, use WIAS_HRESULT instead.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -44,7 +44,7 @@ req.typenames:
 
 ## -description
 
-The WIAS_LHRESULT macro is obsolete for Windows Vista and later. It is recommended that the [WIAS_HRESULT](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wias_hresult) macro be used instead. The WIAS_LHRESULT macro translates an HRESULT value into a string and writes the string to the diagnostic log file.
+The WIAS_LHRESULT macro is obsolete. It is recommended that the [WIAS_HRESULT](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wias_hresult) macro be used instead. The WIAS_LHRESULT macro translates an HRESULT value into a string and writes the string to the diagnostic log file.
 
 ## -parameters
 
@@ -66,7 +66,7 @@ if (hr != S_OK)
    WIAS_LHRESULT(g_pIWiaLog, hr);
 ```
 
-The WIAS_LHRESULT macro is not recommended for Windows Vista and later operating system versions. It is recommended that the [WIAS_HRESULT](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wias_hresult) macro be used instead.
+The WIAS_LHRESULT macro is obsolete. It is recommended that the [WIAS_HRESULT](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wias_hresult) macro be used instead.
 
 ## -see-also
 
