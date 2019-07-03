@@ -11,7 +11,7 @@ ms.topic: macro
 req.header: wiautil.h
 req.include-header: Wiautil.h
 req.target-type: Desktop
-req.target-min-winverclnt: Available in Windows Me, Windows XP, and later versions of the operating system. Obsolete for Windows Vista and later. Use WIAS_TRACE instead.
+req.target-min-winverclnt: Obsolete. Use WIAS_TRACE instead.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -44,7 +44,7 @@ req.typenames:
 
 ## -description
 
-The WIAS_LTRACE macro is obsolete for Windows Vista and later. It is recommended that the [WIAS_TRACE](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wias_trace) macro be used instead.
+The WIAS_LTRACE macro is obsolete. It is recommended that the [WIAS_TRACE](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wias_trace) macro be used instead.
 
 The WIAS_LTRACE macro writes a diagnostic WIA_TRACE message to the log file.
 
@@ -83,7 +83,7 @@ WIAS_LTRACE(g_pIWiaLog, WIALOG_NO_RESOURCE_ID, WIALOG_LEVEL2,
   ("MyClass::MyMethod, This is my text and my lValue = %d", lValue));
 ```
 
-The WIAS_LTRACE macro is not recommended for Windows Vista, because it does not record its output to the *Wiatrace.log* diagnostic log file. It is recommended that the [WIAS_TRACE](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wias_trace) macro be used instead.
+Use of the WIAS_LTRACE macro is not recommended because it does not record its output to the *Wiatrace.log* diagnostic log file. It is recommended that the [WIAS_TRACE](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wias_trace) macro be used instead.
 
 ## -see-also
 
