@@ -11,7 +11,7 @@ ms.topic: struct
 req.header: wiamicro.h
 req.include-header: Wiamicro.h
 req.target-type: Windows
-req.target-min-winverclnt: Available in Windows Me and in Windows XP and later versions of the Windows operating systems.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -42,29 +42,20 @@ req.typenames: RANGEVALUE, *PRANGEVALUE
 
 # _RANGEVALUE structure
 
-
 ## -description
-
 
 The RANGEVALUE structure is used by a microdriver to communicate to the WIA Flatbed driver the legal values for a microdriver function parameter.
 
-
 ## -struct-fields
-
-
-
 
 ### -field lMin
 
 Specifies the minimum value for a parameter.
 
-
 ### -field lMax
 
 Specifies the maximum value for a parameter.
 
-
 ### -field lStep
 
 Specifies the step value for a parameter.
-
