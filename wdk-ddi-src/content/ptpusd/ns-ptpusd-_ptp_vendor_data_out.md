@@ -11,7 +11,7 @@ ms.topic: struct
 req.header: ptpusd.h
 req.include-header: Ptpusd.h
 req.target-type: Windows
-req.target-min-winverclnt: Available in Windows Me and in Windows XP and later versions of the Windows operating systems.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -42,61 +42,38 @@ req.typenames: PTP_VENDOR_DATA_OUT, *PPTP_VENDOR_DATA_OUT
 
 # _PTP_VENDOR_DATA_OUT structure
 
-
 ## -description
-
 
 The PTP_VENDOR_DATA_OUT structure contains information that the device sends to an application, in response to a command the application issued to the device.
 
-
 ## -struct-fields
-
-
-
 
 ### -field ResponseCode
 
-Specifies the response code. These codes are defined in the PIMA 15740:2000 standard.
-
+Specifies the response code. For more information, see [ISO 15740:2013 *Photography − Electronic still picture imaging − Picture Transfer Protocol (PTP) for Digital Still Photography Devices*](https://www.imaging.org/site/IST/IST/Standards/PTP_Standards.aspx).
 
 ### -field SessionId
 
 Specifies the session ID. This member is not currently used by the PTP driver and should be set to 0.
 
-
 ### -field TransactionId
 
 Specifies the transaction ID. This member is not currently used by the PTP driver and should be set to 0.
 
-
 ### -field Params
 
-Is an array consisting of PTP_MAX_PARAMS (defined in <i>Ptpusd.h</i>) elements, representing the parameters of the response.
-
+Is an array consisting of PTP_MAX_PARAMS (defined in *Ptpusd.h*) elements, representing the parameters of the response.
 
 ### -field VendorReadData
 
 Is an array containing an (optional) first byte to read from the device.
 
-
 ## -remarks
 
+See [Vendor-Extended Commands](https://docs.microsoft.com/windows-hardware/drivers/image/vendor-extended-commands) for more information and example code that uses this structure.
 
-
-See <a href="https://docs.microsoft.com/windows-hardware/drivers/image/vendor-extended-commands">Vendor-Extended Commands</a> for more information and example code that uses this structure.
-
-For more information about the response codes used in the <b>ResponseCode</b> member, see PIMA 15740:2000, <i>Photography </i>−<i> Electronic still picture imaging </i>−<i> Picture Transfer Protocol (PTP) for Digital Still Photography Devices</i>,<i> First Edition</i>, July 5, 2000, http://www.pima.net/standards/it10/PIMA15740/. 
-
-
-
+For more information about the opcodes used in the **OpCode** member, see [ISO 15740:2013 *Photography − Electronic still picture imaging − Picture Transfer Protocol (PTP) for Digital Still Photography Devices*](https://www.imaging.org/site/IST/IST/Standards/PTP_Standards.aspx).
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ptpusd/ns-ptpusd-_ptp_vendor_data_in">PTP_VENDOR_DATA_IN</a>
- 
-
- 
-
+[PTP_VENDOR_DATA_IN](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ptpusd/ns-ptpusd-_ptp_vendor_data_in)
