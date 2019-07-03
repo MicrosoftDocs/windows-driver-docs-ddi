@@ -11,7 +11,7 @@ ms.topic: struct
 req.header: wiamicro.h
 req.include-header: Wiamicro.h
 req.target-type: Windows
-req.target-min-winverclnt: Available in Windows Me and in Windows XP and later versions of the Windows operating systems.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -42,59 +42,44 @@ req.typenames: VAL, *PVAL
 
 # VAL structure
 
-
 ## -description
-
 
 The VAL structure is used by the microdriver and WIA Flatbed driver to pass information between each other.
 
-
 ## -struct-fields
-
-
-
 
 ### -field lVal
 
-Specifies a command value to return to the WIA Flatbed driver. See <a href="https://docs.microsoft.com/windows-hardware/drivers/image/wia-microdriver-commands">WIA Microdriver Commands</a> for a list of available commands for this parameter.
-
+Specifies a command value to return to the WIA Flatbed driver. See [WIA Microdriver Commands](https://docs.microsoft.com/windows-hardware/drivers/image/wia-microdriver-commands) for a list of available commands for this parameter.
 
 ### -field dblVal
 
-Specifies a command value to return to the WIA Flatbed driver. See <a href="https://docs.microsoft.com/windows-hardware/drivers/image/wia-microdriver-commands">WIA Microdriver Commands</a> for a list of available commands for this parameter.
-
+Specifies a command value to return to the WIA Flatbed driver. See [WIA Microdriver Commands](https://docs.microsoft.com/windows-hardware/drivers/image/wia-microdriver-commands) for a list of available commands for this parameter.
 
 ### -field pGuid
 
 Points to the GUID of the pressed button. If no button was pressed, this member points to GUID_NULL.
 
-
 ### -field pScanInfo
 
-Points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamicro/ns-wiamicro-_scaninfo">SCANINFO</a> structure.
-
+Points to a [SCANINFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamicro/ns-wiamicro-_scaninfo) structure.
 
 ### -field handle
 
 Points to a ShutDown event handle that will be signaled by the WIA Flatbed Driver when the driver is being unloaded or shut down. 
 
-
 ### -field ppButtonNames
 
 Specifies the address of a pointer to an array of button names.
-
 
 ### -field pHandle
 
 Points to an event handle.
 
-
 ### -field lReserved
 
 Reserved. Do not use.
 
-
 ### -field szVal
 
-Specifies the device name in ASCII form. If needed for interrupt checking, the microdriver can use this name to pass to <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> (described in the Microsoft Windows SDK documentation) in order to obtain a file handle to the device.
-
+Specifies the device name in ASCII form. If needed for interrupt checking, the microdriver can use this name to pass to [CreateFile](https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea) in order to obtain a file handle to the device.

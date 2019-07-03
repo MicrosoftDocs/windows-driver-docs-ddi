@@ -35,7 +35,6 @@ product:
 -   Windows
 targetos: Windows
 
-
 ms.custom: RS5
 ---
 

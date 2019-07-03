@@ -11,7 +11,7 @@ ms.topic: struct
 req.header: wiamicro.h
 req.include-header: Wiamicro.h
 req.target-type: Windows
-req.target-min-winverclnt: Available in Windows Me and in Windows XP and later versions of the Windows operating systems.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -42,34 +42,24 @@ req.typenames: SCANWINDOW, *PSCANWINDOW
 
 # _SCANWINDOW structure
 
-
 ## -description
-
 
 The SCANWINDOW structure is used by the WIA Flatbed driver to tell the microdriver what image area to scan.
 
-
 ## -struct-fields
-
-
-
 
 ### -field xPos
 
 Specifies the horizontal position of the left edge of the scan window in pixels.
 
-
 ### -field yPos
 
 Specifies the vertical position of the top edge of the scan window in pixels.
-
 
 ### -field xExtent
 
 Specifies the width of the scan window in pixels.
 
-
 ### -field yExtent
 
 Specifies the height of the scan window in pixels.
-
