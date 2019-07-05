@@ -1,7 +1,7 @@
 ---
 UID: NF:wia_lh.IWiaLog.hResult
 title: IWiaLog::hResult (wia_lh.h)
-description: Note that the IWiaLog interface is obsolete for Microsoft Windows XP and later, and is no longer supported.
+description: Note that the IWiaLog interface is obsolete and is no longer supported.
 old-location: image\iwialog_hresult.htm
 tech.root: image
 ms.assetid: 74d9b770-c2b6-483d-a6d7-070ac2a55133
