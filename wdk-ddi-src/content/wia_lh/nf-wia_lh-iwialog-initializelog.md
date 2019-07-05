@@ -11,7 +11,7 @@ ms.topic: method
 req.header: wia_lh.h
 req.include-header: 
 req.target-type: Desktop
-req.target-min-winverclnt: Available in Windows Me, Windows XP, and later. Obsoletefor Microsoft Windows XP and later, and is no longer supported. Instead, use the Diagnostic Log Macros.
+req.target-min-winverclnt: Obsolete and is no longer supported. Instead, use the Diagnostic Log Macros.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -42,39 +42,22 @@ req.typenames:
 
 # IWiaLog::InitializeLog
 
-
 ## -description
 
+Note that the **IWiaLog** interface is **obsolete** for Microsoft Windows XP and later, and is no longer supported. Instead, use the [Diagnostic Log Macros](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_image/index).
 
-Note that the <b>IWiaLog</b> interface is <b>obsolete</b> for Microsoft Windows XP and later, and is no longer supported. Instead, use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_image/index">Diagnostic Log Macros</a>.
-
-The <b>IWiaLog::InitializeLog</b> method initializes the <b>lWiaLog</b> interface.
-
+The **IWiaLog::InitializeLog** method initializes the **lWiaLog** interface.
 
 ## -parameters
-
-
-
 
 ### -param hInstance [in]
 
 Specifies the module handle. This parameter indicates which module is calling the method.
 
-
 ## -returns
-
-
 
 If the method succeeds, it returns S_OK. If the method fails, it returns a standard COM error code.
 
-
-
-
 ## -remarks
 
-
-
-The minidriver should call <b>CoCreateInstance</b> or <b>CoCreateInstanceEx </b>(which are described in the Microsoft Windows SDK documentation) to obtain the <b>IWiaLog</b> interface.
-
-
-
+The minidriver should call [CoCreateInstance](https://docs.microsoft.com/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) or [CoCreateInstanceEx](https://docs.microsoft.com/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstanceex) to obtain the [IWiaLog](https://docs.microsoft.com/windows/win32/api/wia_xp/nn-wia_xp-iwialog) interface.
