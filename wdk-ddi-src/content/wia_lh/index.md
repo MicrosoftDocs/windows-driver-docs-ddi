@@ -13,9 +13,7 @@ tech.root: image
 
 # Wia_Lh.h header
 
-
 ## -description
-
 
 This header is used by image. For more information, see:
 
