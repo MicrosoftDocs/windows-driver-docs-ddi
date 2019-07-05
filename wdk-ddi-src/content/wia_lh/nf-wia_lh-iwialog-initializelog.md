@@ -1,7 +1,7 @@
 ---
 UID: NF:wia_lh.IWiaLog.InitializeLog
 title: IWiaLog::InitializeLog (wia_lh.h)
-description: Note that the IWiaLog interface is obsolete for Microsoft Windows XP and later, and is no longer supported. Instead, use the Diagnostic Log Macros.The IWiaLog::InitializeLog method initializes the lWiaLog interface.
+description: Note that the IWiaLog interface is obsolete and is no longer supported. Instead, use the Diagnostic Log Macros.The IWiaLog::InitializeLog method initializes the lWiaLog interface.
 old-location: image\iwialog_initializelog.htm
 tech.root: image
 ms.assetid: ef637329-a291-445b-8ac7-6e55d5d7931e
@@ -44,7 +44,7 @@ req.typenames:
 
 ## -description
 
-Note that the **IWiaLog** interface is **obsolete** for Microsoft Windows XP and later, and is no longer supported. Instead, use the [Diagnostic Log Macros](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_image/index).
+Note that the **IWiaLog** interface is **obsolete** for and is no longer supported. Instead, use the [Diagnostic Log Macros](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_image/index).
 
 The **IWiaLog::InitializeLog** method initializes the **lWiaLog** interface.
 
