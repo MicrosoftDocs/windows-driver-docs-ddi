@@ -136,6 +136,16 @@ FLT_FILE_NAME_QUERY_FILESYSTEM_ONLY
 
 </td>
 </tr>
+<tr>
+<td>
+FLT_FILE_NAME_QUERY_ALWAYS_ALLOW_CACHE_LOOKUP
+
+</td>
+<td>
+<b>FltGetFileNameInformationUnsafe</b> queries the Filter Manager's name cache for the file name information. If the name is not found in the cache, and it is currently safe to do so, <b>FltGetFileNameInformationUnsafe</b> queries the file system for the file name information and caches the result.
+
+</td>
+</tr>
 </table>
 
 ### -param FileNameInformation [out]
