@@ -11,7 +11,7 @@ ms.topic: method
 req.header: wiamindr_lh.h
 req.include-header: Wiamindr.h
 req.target-type: Desktop
-req.target-min-winverclnt: Available in Windows Me and in Windows XP and later versions of the Windows operating systems.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -42,85 +42,56 @@ req.typenames:
 
 # IWiaDrvItem::FindItemByName
 
-
 ## -description
 
-
-The<b> IWiaDrvItem::FindItemByName</b> method locates an item in a driver item tree by the item's full name.
-
+The** IWiaDrvItem::FindItemByName** method locates an item in a driver item tree by the item's full name.
 
 ## -parameters
 
-
-
-
 ### -param __MIDL__IWiaDrvItem0007
 
+bstrFullItemName [in]
 
-
+- Specifies the full name of the item to find.
 
 ### -param __MIDL__IWiaDrvItem0008
 
+lFlags [in]
 
-
+- Reserved. Set to zero.
 
 ### -param __MIDL__IWiaDrvItem0009
 
+ppItem [out, optional]
 
-
-
-
+- Points to a memory location that will receive the address of the found **IWiaDrvItem** item.
 
 #### - bstrFullItemName [in]
 
 Specifies the full name of the item to find.
 
-
 #### - lFlags [in]
 
-Reserved. Set to zero. 
-
+Reserved. Set to zero.
 
 #### - ppItem [out, optional]
 
-Points to a memory location that will receive the address of the found <b>IWiaDrvItem</b> item. 
-
+Points to a memory location that will receive the address of the found **IWiaDrvItem** item.
 
 ## -returns
 
-
-
-If the method succeeds, it stores a pointer to the found item in <i>ppItem</i> and returns S_OK. If the method fails, it places <b>NULL</b> in <i>ppItem</i> and returns S_FALSE. If this method does not find the required item, it returns S_FALSE. If an error occurred during the search, a standard COM error code will be returned.
-
-
-
+If the method succeeds, it stores a pointer to the found item in *ppItem* and returns S_OK. If the method fails, it places **NULL** in *ppItem* and returns S_FALSE. If this method does not find the required item, it returns S_FALSE. If an error occurred during the search, a standard COM error code will be returned.
 
 ## -remarks
 
-
-
-Minidrivers call this method to find an item in a driver item tree when the item's full name is known. The item's full name is obtained in the method <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiadrvitem-getfullitemname">IWiaDrvItem::GetFullItemName</a>.
+Minidrivers call this method to find an item in a driver item tree when the item's full name is known. The item's full name is obtained in the method [IWiaDrvItem::GetFullItemName](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiadrvitem-getfullitemname).
 
 This method starts the search for the specified item at the root item in the driver item tree.
 
-
-
-
 ## -see-also
 
+[IWiaDrvItem](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nn-wiamindr_lh-iwiadrvitem)
 
+[IWiaDrvItem::FindChildItemByName](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiadrvitem-findchilditembyname)
 
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nn-wiamindr_lh-iwiadrvitem">IWiaDrvItem</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiadrvitem-findchilditembyname">IWiaDrvItem::FindChildItemByName</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiadrvitem-getfullitemname">IWiaDrvItem::GetFullItemName</a>
- 
-
- 
-
+[IWiaDrvItem::GetFullItemName](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiadrvitem-getfullitemname)
