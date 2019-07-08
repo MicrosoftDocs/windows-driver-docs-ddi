@@ -50,7 +50,9 @@ The **IWiaDrvItem::DumpItemData** method dumps private data associated with an *
 
 ### -param __MIDL__IWiaDrvItem0015
 
-bstrDrvItemData [out, optional]: Points to an allocated buffer that will receive the **IWiaDrvItem** data.
+bstrDrvItemData [out, optional]
+
+- Points to an allocated buffer that will receive the **IWiaDrvItem** data.
 
 #### - bstrDrvItemData [out, optional]
 

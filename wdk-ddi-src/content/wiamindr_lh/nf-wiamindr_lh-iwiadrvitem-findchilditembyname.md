@@ -50,11 +50,15 @@ The **IWiaDrvItem::FindChildItemByName** method searches the driver item tree fo
 
 ### -param __MIDL__IWiaDrvItem0010
 
-bstrChildItemName [in]: Specifies a string containing the name with path information of the child item to find.
+bstrChildItemName [in]
+
+- Specifies a string containing the name with path information of the child item to find.
 
 ### -param __MIDL__IWiaDrvItem0011
 
-ppIChildItem [out, optional]: Points to a memory location that will receive the address of the found **IWiaDrvItem** child item.
+ppIChildItem [out, optional]
+
+- Points to a memory location that will receive the address of the found **IWiaDrvItem** child item.
 
 #### - bstrChildItemName [in]
 
