@@ -11,7 +11,7 @@ ms.topic: method
 req.header: wiamindr_lh.h
 req.include-header: Wiamindr.h
 req.target-type: Desktop
-req.target-min-winverclnt: Available in Windows Me and in Windows XP and later versions of the Windows operating systems.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -42,59 +42,28 @@ req.typenames:
 
 # IWiaDrvItem::AddItemToFolder
 
-
 ## -description
-
 
 The AddItemToFolder method adds an IWiaDrvItem item to a folder in a driver item tree.
 
-
 ## -parameters
 
-
-
-
 ### -param __MIDL__IWiaDrvItem0004
-
-
-
-
-
 
 #### - pIParent [in, optional]
 
 Points to the IWiaDrvItem parent folder item.
 
-
 ## -returns
 
-
-
-If the method succeeds, it returns S_OK. If the method fails because an invalid <i>pIParent</i> parameter is passed, it returns E_INVALIDARG. If the method fails for another reason, it returns a standard COM error code.
-
-
-
+If the method succeeds, it returns S_OK. If the method fails because an invalid *pIParent* parameter is passed, it returns E_INVALIDARG. If the method fails for another reason, it returns a standard COM error code.
 
 ## -remarks
 
-
-
-Minidrivers typically use the AddItemToFolder method to add an item to a parent folder item in a driver item tree. The parent folder item is pointed to by the parameter <i>pIParent</i>. The item pointed to by <i>pIParent</i> must be a folder.
-
-
-
+Minidrivers typically use the AddItemToFolder method to add an item to a parent folder item in a driver item tree. The parent folder item is pointed to by the parameter *pIParent*. The item pointed to by *pIParent* must be a folder.
 
 ## -see-also
 
+[IWiaDrvItem](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nn-wiamindr_lh-iwiadrvitem)
 
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nn-wiamindr_lh-iwiadrvitem">IWiaDrvItem</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiadrvitem-removeitemfromfolder">RemoveItemFromFolder</a>
- 
-
- 
-
+[RemoveItemFromFolder](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiadrvitem-removeitemfromfolder)
