@@ -50,6 +50,8 @@ The AddItemToFolder method adds an IWiaDrvItem item to a folder in a driver item
 
 ### -param __MIDL__IWiaDrvItem0004
 
+Points to the IWiaDrvItem parent folder item.
+
 #### - pIParent [in, optional]
 
 Points to the IWiaDrvItem parent folder item.
