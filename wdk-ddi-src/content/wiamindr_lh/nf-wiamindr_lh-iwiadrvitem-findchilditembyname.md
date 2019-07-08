@@ -11,7 +11,7 @@ ms.topic: method
 req.header: wiamindr_lh.h
 req.include-header: Wiamindr.h
 req.target-type: Desktop
-req.target-min-winverclnt: Available in Windows Me and in Windows XP and later versions of the Windows operating systems.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -42,73 +42,40 @@ req.typenames:
 
 # IWiaDrvItem::FindChildItemByName
 
-
 ## -description
 
-
-The <b>IWiaDrvItem::FindChildItemByName</b> method searches the driver item tree for a specific child item.
-
+The **IWiaDrvItem::FindChildItemByName** method searches the driver item tree for a specific child item.
 
 ## -parameters
 
-
-
-
 ### -param __MIDL__IWiaDrvItem0010
 
-
-
+bstrChildItemName [in]: Specifies a string containing the name with path information of the child item to find.
 
 ### -param __MIDL__IWiaDrvItem0011
 
-
-
-
-
+ppIChildItem [out, optional]: Points to a memory location that will receive the address of the found **IWiaDrvItem** child item.
 
 #### - bstrChildItemName [in]
 
 Specifies a string containing the name with path information of the child item to find.
 
-
 #### - ppIChildItem [out, optional]
 
-Points to a memory location that will receive the address of the found <b>IWiaDrvItem</b> child item. 
-
+Points to a memory location that will receive the address of the found **IWiaDrvItem** child item.
 
 ## -returns
 
-
-
-If the method succeeds, it stores a pointer to the found child item in <i>ppIChildItem</i> and returns S_OK. If the method fails to find the child item, it returns S_FALSE. If the method fails for another reason, it returns a standard COM error code.
-
-
-
+If the method succeeds, it stores a pointer to the found child item in *ppIChildItem* and returns S_OK. If the method fails to find the child item, it returns S_FALSE. If the method fails for another reason, it returns a standard COM error code.
 
 ## -remarks
 
-
-
-Minidrivers typically use this method to search a driver item tree for a specific child item when the child item's name is known. The child item's full name is obtained in the  method <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiadrvitem-getfullitemname">IWiaDrvItem::GetFullItemName</a>.
-
-
-
+Minidrivers typically use this method to search a driver item tree for a specific child item when the child item's name is known. The child item's full name is obtained in the  method [IWiaDrvItem::GetFullItemName](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiadrvitem-getfullitemname).
 
 ## -see-also
 
+[IWiaDrvItem](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nn-wiamindr_lh-iwiadrvitem)
 
+[IWiaDrvItem::FindItemByName](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiadrvitem-finditembyname)
 
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nn-wiamindr_lh-iwiadrvitem">IWiaDrvItem</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiadrvitem-finditembyname">IWiaDrvItem::FindItemByName</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiadrvitem-getfullitemname">IWiaDrvItem::GetFullItemName</a>
- 
-
- 
-
+[IWiaDrvItem::GetFullItemName](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiadrvitem-getfullitemname)

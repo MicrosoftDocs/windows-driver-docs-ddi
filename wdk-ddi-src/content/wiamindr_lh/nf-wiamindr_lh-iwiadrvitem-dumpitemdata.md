@@ -11,7 +11,7 @@ ms.topic: method
 req.header: wiamindr_lh.h
 req.include-header: Wiamindr.h
 req.target-type: Desktop
-req.target-min-winverclnt: Available in Windows Me and in Windows XP and later versions of the Windows operating systems.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -42,44 +42,24 @@ req.typenames:
 
 # IWiaDrvItem::DumpItemData
 
-
 ## -description
 
-
-The <b>IWiaDrvItem::DumpItemData</b> method dumps private data associated with an <b>IWiaDrvItem</b> item into an allocated private buffer.
-
+The **IWiaDrvItem::DumpItemData** method dumps private data associated with an **IWiaDrvItem** item into an allocated private buffer.
 
 ## -parameters
 
-
-
-
 ### -param __MIDL__IWiaDrvItem0015
 
-
-
-
-
+bstrDrvItemData [out, optional]: Points to an allocated buffer that will receive the **IWiaDrvItem** data.
 
 #### - bstrDrvItemData [out, optional]
 
-Points to an allocated buffer that will receive the <b>IWiaDrvItem</b> data. 
-
+Points to an allocated buffer that will receive the **IWiaDrvItem** data.
 
 ## -returns
 
-
-
 If the method succeeds, it returns S_OK. If the method fails the buffer allocation, it returns E_OUTOFMEMORY. If the method fails for another reason, it returns a standard COM error code.
-
-
-
 
 ## -remarks
 
-
-
-This method is provided for Microsoft internal debugging only. It will return E_NOTIMPL on the release operating system. 
-
-
-
+This method is provided for Microsoft internal debugging only. It will return E_NOTIMPL on the release operating system.
