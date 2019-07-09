@@ -37,7 +37,7 @@ ms.custom: RS5
 # _SIDEBANDAUDIO_VOLUME_PARAMS structure
 
 ## -description
-Describes the endpoint index and volume value.
+Describes the endpoint index, channel, immediate mode of operation and volume value.
 
 ## -struct-fields
 
@@ -48,7 +48,7 @@ Describes the endpoint index and volume value.
 Indicates whether IOCTL current value is requested or IRP should complete upon next change in value.
  
 ### -field Channel
-0 based index indicating the channel number.
+0 based index indicating the channel number. 
 
 ### -field Value
 dbValue.
@@ -57,3 +57,5 @@ dbValue.
 
 ## -see-also
 [sidebandaudio.h](index.md)
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/sidebandaudio/ni-sidebandaudio-ioctl_sbaud_get_volume_status_update">IOCTL_SBAUD_GET_VOLUME_STATUS_UPDATE</a>
