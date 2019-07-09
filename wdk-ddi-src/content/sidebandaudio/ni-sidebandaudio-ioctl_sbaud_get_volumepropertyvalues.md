@@ -77,3 +77,6 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-h
 ## -remarks
 
 ## -see-also
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/audio/ksproperty-audio-volumelevel">KSPROPERTY_AUDIO_VOLUMELEVEL</a>
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-ksnodeproperty_audio_channel">KSNODEPROPERTY_AUDIO_CHANNEL</a>
