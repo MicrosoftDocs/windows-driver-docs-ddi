@@ -38,27 +38,25 @@ ms.custom: RS5
 
 ## -description
 
-This control codes used by an audio driver when cooperating with the Audio class drivers to operate a Sideband connection.
-
-
+The audio driver issues the <b>IOCTL_SBAUD_GET_SUPPORTED_FORMATS</b> control code to get information about the stream formats supported by Sideband Audio endpoint.
 
 ## -ioctlparameters
 
 ### -input-buffer
 
-<text></text>
+[SIDEBANDAUDIO_SUPPORTED_FORMATS](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sidebandaudio/ns-sidebandaudio-_sidebandaudio_supported_formats) containing endpoint index, and array of formats supported by the Audio driver.
 
 ### -input-buffer-length 
 
-<text></text>
+Size of [SIDEBANDAUDIO_SUPPORTED_FORMATS](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sidebandaudio/ns-sidebandaudio-_sidebandaudio_supported_formats) including storage for array of formats.
 
 ### -output-buffer
 
-<text></text>
+[SIDEBANDAUDIO_SUPPORTED_FORMATS](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sidebandaudio/ns-sidebandaudio-_sidebandaudio_supported_formats). The sideband driver will return intersection of the Sideband audio formats with the formats supplied dy Audio driver as input parameter.
 
 ### -output-buffer-length 
 
-<text></text>
+Size of [SIDEBANDAUDIO_SUPPORTED_FORMATS](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sidebandaudio/ns-sidebandaudio-_sidebandaudio_supported_formats) including storage for array of formats.
 
 ### -in-out-buffer
 
@@ -70,10 +68,11 @@ This control codes used by an audio driver when cooperating with the Audio class
 
 ### -status-block
 
-Irp->IoStatus.Status is set to STATUS_SUCCESS if the request is successful.
-Otherwise, Status to the appropriate error condition as a NTSTATUS code. 
-For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
+If the routine succeeds, then Status is set to STATUS_SUCCESS and the <i>Information</i> member is the number of bytes that the routine writes to the output buffer.
+
+If Status is set to STATUS_BUFFER_TOO_SMALL, then the audio driver should read the <i>Information</i> member to get the size of the buffer that the caller should allocate for this request.
 
 ## -remarks
 
 ## -see-also
+[SIDEBANDAUDIO_SUPPORTED_FORMATS](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sidebandaudio/ns-sidebandaudio-_sidebandaudio_supported_formats)
