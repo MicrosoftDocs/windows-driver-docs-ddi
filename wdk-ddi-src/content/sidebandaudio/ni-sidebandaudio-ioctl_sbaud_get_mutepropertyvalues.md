@@ -38,35 +38,33 @@ ms.custom: RS5
 
 ## -description
 
-This control codes used by an audio driver when cooperating with the Audio class drivers to operate a Sideband connection.
-
-
+Audio driver can call this IOCTL to query the mute stepped data ranges and min/max values for all of the channels. These values should then be returned for KSPROPERTY_AUDIO_MUTE basic support.
 
 ## -ioctlparameters
 
 ### -input-buffer
 
-<text></text>
+Endpoint index.
 
 ### -input-buffer-length 
 
-<text></text>
+Size of ULONG.
 
 ### -output-buffer
 
-<text></text>
+KSPROPERTY_DESCRIPTION followed by KSPROPERTY_MEMBERSHEADER and Mute stepped data ranges as documented in [KSPROPERTY_DESCRIPTION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksproperty_description) and [KSPROPERTY_MEMBERSHEADER](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksproperty_membersheader).
 
 ### -output-buffer-length 
 
-<text></text>
+Size of KSPROPERTY_DESCRIPTION in addition to all the KSPROPERTY_MEMBERSHEADER and step ranges. This size was returned in SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR::MutePropertyValuesSize.
 
 ### -in-out-buffer
 
-<text></text>
+Input Endpoint Index and output KSPROPERTY_DESCRIPTION share the same buffer.
 
 ### -inout-buffer-length 
 
-<text></text>
+Allocated buffer should be of length SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR::MutePropertyValuesSize.
 
 ### -status-block
 
@@ -77,3 +75,6 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-h
 ## -remarks
 
 ## -see-also
+[KSPROPERTY_AUDIO_MUTE](https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-audio-mute)
+
+[KSNODEPROPERTY_AUDIO_CHANNEL](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-ksnodeproperty_audio_channel)
