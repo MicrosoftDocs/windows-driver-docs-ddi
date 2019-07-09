@@ -5,7 +5,7 @@ description: A minifilter driver can register one or more routines of type PFLT_
 old-location: ifsk\pflt_post_operation_callback.htm
 tech.root: ifsk
 ms.assetid: 5bf2a533-e06b-4834-9075-62cb62fa5b06
-ms.date: 10/12/2018
+ms.date: 07/03/2019
 ms.keywords: FltCallbacks_a3bdb676-d994-4bef-9b35-c233b12c5c9c.xml, PFLT_POST_OPERATION_CALLBACK, PFLT_POST_OPERATION_CALLBACK function pointer [Installable File System Drivers], fltkernel/PFLT_POST_OPERATION_CALLBACK, ifsk.pflt_post_operation_callback
 ms.topic: callback
 req.header: fltkernel.h
@@ -42,59 +42,33 @@ req.typenames: EXpsFontRestriction
 
 # PFLT_POST_OPERATION_CALLBACK callback
 
-
 ## -description
-
 
 A minifilter driver can register one or more routines of type PFLT_POST_OPERATION_CALLBACK to perform completion processing for I/O operations.
 
-
 ## -parameters
-
-
-
 
 ### -param Data [in, out]
 
-A pointer to the callback data (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>) structure for the I/O operation.
-
+A pointer to the callback data [FLT_CALLBACK_DATA](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/ns-fltkernel-_flt_callback_data) structure for the I/O operation.
 
 ### -param FltObjects [in]
 
-A pointer to a filter manager maintained <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/ns-fltkernel-_flt_related_objects">FLT_RELATED_OBJECTS</a> structure that contains opaque pointers for the objects related to the current I/O request.
-
+A pointer to a filter manager maintained [FLT_RELATED_OBJECTS](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/ns-fltkernel-_flt_related_objects) structure that contains opaque pointers for the objects related to the current I/O request.
 
 ### -param CompletionContext [in, optional]
 
-A context pointer that was returned by the minifilter driver's pre-operation callback (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nc-fltkernel-pflt_pre_operation_callback">PFLT_PRE_OPERATION_CALLBACK</a>) routine.  The <i>CompletionContext</i> pointer provides a way to communicate information from the pre-operation callback routine to the post-operation callback routine.
-
+A context pointer that was returned by the minifilter driver's pre-operation callback [PFLT_PRE_OPERATION_CALLBACK](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nc-fltkernel-pflt_pre_operation_callback) routine.  The *CompletionContext* pointer provides a way to communicate information from the pre-operation callback routine to the post-operation callback routine.
 
 ### -param Flags [in]
 
 A bitmask of flags that specifies how the post-operation callback is to be performed.
 
-<table>
-<tr>
-<th>Flag</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-FLTFL_POST_OPERATION_DRAINING
-
-</td>
-<td>
-The filter manager sets this flag to indicate that the minifilter driver instance is being detached and that this post-operation callback routine is being called to clean up the minifilter driver's completion context. The post-operation callback should return FLT_POSTOP_FINISHED_PROCESSING. If this flag is set, the <i>Data</i> parameter points to a copy of the original callback data structure for the operation, not the original callback data structure. Additionally, when this flag is set, the post-operation callback routine is called at IRQL <= APC_LEVEL.
-
-</td>
-</tr>
-</table>
- 
-
+| Flag | Meaning |
+| ---- | ------- |
+| FLTFL_POST_OPERATION_DRAINING | The filter manager sets this flag to indicate that the minifilter driver instance is being detached and that this post-operation callback routine is being called to clean up the minifilter driver's completion context. The post-operation callback should return FLT_POSTOP_FINISHED_PROCESSING. If this flag is set, the *Data* parameter points to a copy of the original callback data structure for the operation, not the original callback data structure. Additionally, when this flag is set, the post-operation callback routine is called at IRQL <= APC_LEVEL. |
 
 ## -returns
-
-
 
 This callback routine returns one of the following status values:
 
@@ -155,129 +129,60 @@ The minifilter driver is disallowing a fast QueryOpen operation and forcing the 
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 A minifilter driver's post-operation callback routine performs completion processing for one or more types of I/O operations.
 
 Post-operation callback routines are similar to the completion routines used by legacy file system filter drivers.
 
-Post-operation callback routines are called in an arbitrary thread context, at IRQL <= DISPATCH_LEVEL.
+Post-operation callback routines are called in an arbitrary thread context, at IRQL <= DISPATCH_LEVEL. Because this callback routine can be called at IRQL DISPATCH_LEVEL, it is subject to the following constraints:
 
-Because this callback routine can be called at IRQL DISPATCH_LEVEL, it is subject to the following constraints:
+* It cannot safely call any kernel-mode routine that must run at a lower IRQL.
+* Any data structures used in this routine must be allocated from nonpaged pool.
+* It cannot be made pageable.
+* It cannot acquire resources, mutexes, or fast mutexes. However, it can acquire spin locks.
+* It cannot get, set, or delete contexts, but it can release contexts.
 
-<ul>
-<li>
-It cannot safely call any kernel-mode routine that must run at a lower IRQL.
+Any I/O completion processing that needs to be performed at IRQL < DISPATCH_LEVEL cannot be performed directly in the postoperation callback routine. Instead, it must be posted to a work queue by calling a routine such as [FltDoCompletionProcessingWhenSafe](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltdocompletionprocessingwhensafe) or [FltQueueDeferredIoWorkItem](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltqueuedeferredioworkitem).
 
-</li>
-<li>
-Any data structures used in this routine must be allocated from nonpaged pool.
+Be aware that **FltDoCompletionProcessingWhenSafe** should never be called if the *Flags* parameter of the post-operation callback has the FLTFL_POST_OPERATION_DRAINING bit set. The following are exceptions to this rule:
 
-</li>
-<li>
-It cannot be made pageable.
+* If a minifilter driver's pre-operation callback routine returns FLT_PREOP_SYNCHRONIZE for an IRP-based I/O operation, the corresponding post-operation callback routine is guaranteed to be called at IRQL <= APC_LEVEL, in the same thread context as the pre-operation callback.
+* Post-create callback routines are guaranteed to be called at IRQL PASSIVE_LEVEL, in the context of the thread that originated the IRP_MJ_CREATE operation.
 
-</li>
-<li>
-It cannot acquire resources, mutexes, or fast mutexes. However, it can acquire spin locks.
+A minifilter driver registers a post-operation callback routine for a particular type of I/O operation by storing the callback routine's entry point in the **OperationRegistration** array of the [FLT_REGISTRATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/ns-fltkernel-_flt_registration) structure. The minifilter driver passes this structure as a parameter to [FltRegisterFilter](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltregisterfilter) in its [DriverEntry](https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver) routine.
 
-</li>
-<li>
-It cannot get, set, or delete contexts, but it can release contexts.
-
-</li>
-</ul>
-Any I/O completion processing that needs to be performed at IRQL < DISPATCH_LEVEL cannot be performed directly in the postoperation callback routine. Instead, it must be posted to a work queue by calling a routine such as <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltdocompletionprocessingwhensafe">FltDoCompletionProcessingWhenSafe</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltqueuedeferredioworkitem">FltQueueDeferredIoWorkItem</a>.
-
-Be aware that <b>FltDoCompletionProcessingWhenSafe</b> should never be called if the <i>Flags</i> parameter of the post-operation callback has the FLTFL_POST_OPERATION_DRAINING bit set.  The following are exceptions to this rule:
-
-<ul>
-<li>
-If a minifilter driver's pre-operation callback routine returns FLT_PREOP_SYNCHRONIZE for an IRP-based I/O operation, the corresponding post-operation callback routine is guaranteed to be called at IRQL <= APC_LEVEL, in the same thread context as the pre-operation callback.
-
-</li>
-<li>
-Post-create callback routines are guaranteed to be called at IRQL PASSIVE_LEVEL, in the context of the thread that originated the IRP_MJ_CREATE operation.
-
-</li>
-</ul>
-A minifilter driver registers a post-operation callback routine for a particular type of I/O operation by storing the callback routine's entry point in the <b>OperationRegistration</b> array of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/ns-fltkernel-_flt_registration">FLT_REGISTRATION</a> structure.  The minifilter driver passes this structure as a parameter to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltregisterfilter">FltRegisterFilter</a> in its <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine.
-
-A minifilter driver can register a post-operation callback routine for a particular type of I/O operation without registering a pre-operation callback (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nc-fltkernel-pflt_pre_operation_callback">PFLT_PRE_OPERATION_CALLBACK</a>) routine, and vice versa.
-
-
-
+A minifilter driver can register a post-operation callback routine for a particular type of I/O operation without registering a pre-operation callback ([PFLT_PRE_OPERATION_CALLBACK](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nc-fltkernel-pflt_pre_operation_callback)) routine, and vice versa.
 
 ## -see-also
 
+[FLT_CALLBACK_DATA](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/ns-fltkernel-_flt_callback_data)
 
+[FLT_IO_PARAMETER_BLOCK](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/ns-fltkernel-_flt_io_parameter_block)
 
+[FLT_IS_FASTIO_OPERATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index)
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a>
+[FLT_IS_IRP_OPERATION](https://docs.microsoft.com/previous-versions/ff544654(v=vs.85))
 
+[FLT_IS_REISSUED_IO](https://docs.microsoft.com/previous-versions/ff544660(v=vs.85))
 
+[FLT_IS_SYSTEM_BUFFER](https://docs.microsoft.com/previous-versions/ff544663(v=vs.85))
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/ns-fltkernel-_flt_io_parameter_block">FLT_IO_PARAMETER_BLOCK</a>
+[FLT_REGISTRATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/ns-fltkernel-_flt_registration)
 
+[FLT_RELATED_OBJECTS](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/ns-fltkernel-_flt_related_objects)
 
+[FltCancelFileOpen](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltcancelfileopen)
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">FLT_IS_FASTIO_OPERATION</a>
+[FltCompletePendedPostOperation](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltcompletependedpostoperation)
 
+[FltDoCompletionProcessingWhenSafe](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltdocompletionprocessingwhensafe)
 
+[FltQueueDeferredIoWorkItem](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltqueuedeferredioworkitem)
 
-<a href="https://docs.microsoft.com/previous-versions/ff544654(v=vs.85)">FLT_IS_IRP_OPERATION</a>
+[FltRegisterFilter](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltregisterfilter)
 
+[FltSetCallbackDataDirty](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltsetcallbackdatadirty)
 
-
-<a href="https://docs.microsoft.com/previous-versions/ff544660(v=vs.85)">FLT_IS_REISSUED_IO</a>
-
-
-
-<a href="https://docs.microsoft.com/previous-versions/ff544663(v=vs.85)">FLT_IS_SYSTEM_BUFFER</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/ns-fltkernel-_flt_registration">FLT_REGISTRATION</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/ns-fltkernel-_flt_related_objects">FLT_RELATED_OBJECTS</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltcancelfileopen">FltCancelFileOpen</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltcompletependedpostoperation">FltCompletePendedPostOperation</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltdocompletionprocessingwhensafe">FltDoCompletionProcessingWhenSafe</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltqueuedeferredioworkitem">FltQueueDeferredIoWorkItem</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltregisterfilter">FltRegisterFilter</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltsetcallbackdatadirty">FltSetCallbackDataDirty</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nc-fltkernel-pflt_pre_operation_callback">PFLT_PRE_OPERATION_CALLBACK</a>
- 
-
- 
-
+[PFLT_PRE_OPERATION_CALLBACK](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nc-fltkernel-pflt_pre_operation_callback)
