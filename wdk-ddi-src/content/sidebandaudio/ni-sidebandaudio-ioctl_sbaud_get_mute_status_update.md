@@ -38,27 +38,25 @@ ms.custom: RS5
 
 ## -description
 
-This control codes used by an audio driver when cooperating with the Audio class drivers to operate a Sideband connection.
-
-
+The IOCTL_SBAUD_GET_MUTE_STATUS_UPDATE IOCTL Gets the mute level setting of the Sideband Audio endpoint.
 
 ## -ioctlparameters
 
 ### -input-buffer
 
-<text></text>
+[SIDEBANDAUDIO_MUTE_PARAMS](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sidebandaudio/ns-sidebandaudio-_sidebandaudio_mute_params) with the 0 based endpoint index and channel number along with 'immediate' parameter indicating whether to process this IOCTL immediately or pend it for future updates.
 
 ### -input-buffer-length 
 
-<text></text>
+Size of [SIDEBANDAUDIO_MUTE_PARAMS](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sidebandaudio/ns-sidebandaudio-_sidebandaudio_mute_params).
 
 ### -output-buffer
 
-<text></text>
+[SIDEBANDAUDIO_MUTE_PARAMS](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sidebandaudio/ns-sidebandaudio-_sidebandaudio_mute_params)
 
 ### -output-buffer-length 
 
-<text></text>
+Size of [SIDEBANDAUDIO_MUTE_PARAMS](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sidebandaudio/ns-sidebandaudio-_sidebandaudio_mute_params).
 
 ### -in-out-buffer
 
@@ -75,5 +73,7 @@ Otherwise, Status to the appropriate error condition as a NTSTATUS code.
 For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
+The mute update IOCTL can be used in two modes - update and immediate. If SIDEBANDAUDIO_MUTE_PARAMS::Immediate parameter is set to TRUE, the IOCTL returns immediately with the current mute value for the requested channel. If the Immediate parameter is set to FALSE, the IRP is pended by the Sideband Audio Driver (like USB Audio) until there is a change in the device mute state. Audio driver should setup a pending mute IOCTL to get notified of any changes in hardware mute state.
 
 ## -see-also
+[SIDEBANDAUDIO_MUTE_PARAMS](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sidebandaudio/ns-sidebandaudio-_sidebandaudio_mute_params)
