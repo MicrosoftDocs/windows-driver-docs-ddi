@@ -11,7 +11,7 @@ ms.topic: method
 req.header: wiamindr_lh.h
 req.include-header: Wiamindr.h
 req.target-type: Desktop
-req.target-min-winverclnt: Available in Windows Me and in Windows XP and later versions of the Windows operating systems.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -42,59 +42,32 @@ req.typenames:
 
 # IWiaDrvItem::GetItemFlags
 
-
 ## -description
 
-
-The <b>IWiaDrvItem::GetItemFlags</b> method gets the item flags of the current <b>IWiaDrvItem</b> item.
-
+The **IWiaDrvItem::GetItemFlags** method gets the item flags of the current **IWiaDrvItem** item.
 
 ## -parameters
 
+plFlags [out]
 
-
+- Points to a memory location that will receive the item flags.
 
 ### -param __MIDL__IWiaDrvItem0000
-
-
-
-
-
 
 #### - plFlags [out]
 
 Points to a memory location that will receive the item flags.
 
-
 ## -returns
 
-
-
-If the method succeeds, it places the item flag values in the location pointed to by <i>plFlags</i> and returns S_OK. If the pointer <i>plFlags</i> is invalid, the method returns E_INVALIDARG. If the method fails for another reason, it returns a standard COM error code.
-
-
-
+If the method succeeds, it places the item flag values in the location pointed to by *plFlags* and returns S_OK. If the pointer *plFlags* is invalid, the method returns E_INVALIDARG. If the method fails for another reason, it returns a standard COM error code.
 
 ## -remarks
 
-
-
-The method places the current <b>IWiaDrvItem</b> item's flag values in the location pointed to by <i>pIFlags</i>. The item's flag values were set when the item was created by the driver services library function <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiascreatedrvitem">wiasCreateDrvItem</a>.
-
-
-
+The method places the current **IWiaDrvItem** item's flag values in the location pointed to by *pIFlags*. The item's flag values were set when the item was created by the driver services library function [wiasCreateDrvItem](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiascreatedrvitem).
 
 ## -see-also
 
+[IWiaDrvItem](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nn-wiamindr_lh-iwiadrvitem)
 
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nn-wiamindr_lh-iwiadrvitem">IWiaDrvItem</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiascreatedrvitem">wiasCreateDrvItem</a>
- 
-
- 
-
+[wiasCreateDrvItem](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiascreatedrvitem)

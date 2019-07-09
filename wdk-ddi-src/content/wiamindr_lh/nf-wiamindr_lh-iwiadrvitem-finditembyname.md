@@ -44,7 +44,7 @@ req.typenames:
 
 ## -description
 
-The** IWiaDrvItem::FindItemByName** method locates an item in a driver item tree by the item's full name.
+The **IWiaDrvItem::FindItemByName** method locates an item in a driver item tree by the item's full name.
 
 ## -parameters
 
