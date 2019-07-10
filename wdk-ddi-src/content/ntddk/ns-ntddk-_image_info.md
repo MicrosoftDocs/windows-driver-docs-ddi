@@ -50,6 +50,8 @@ The IMAGE_INFO structure is used by driver's load-image routine ([PLOAD_IMAGE_NO
 
 ### -field Properties
 
+Represents all the bit values within the ```struct``` that **Properties** is unioned with.
+
 ### -field ImageAddressingMode
 
 Always set to IMAGE_ADDRESSING_MODE_32BIT.
