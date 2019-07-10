@@ -11,7 +11,7 @@ ms.topic: method
 req.header: wiamindr_lh.h
 req.include-header: Wiamindr.h
 req.target-type: Desktop
-req.target-min-winverclnt: Available in Windows Me and in Windows XP and later.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -42,97 +42,62 @@ req.typenames:
 
 # IWiaMiniDrv::drvDeleteItem
 
-
 ## -description
 
-
-The <b>IWiaMiniDrv::drvDeleteItem</b> method deletes the current driver item.
-
+The **IWiaMiniDrv::drvDeleteItem** method deletes the current driver item.
 
 ## -parameters
 
-
-
-
 ### -param __MIDL__IWiaMiniDrv0053
 
+lFlags [in]
 
-
+- Is currently unused.
 
 ### -param __MIDL__IWiaMiniDrv0054
 
+pWiasContext [in]
 
-
+- Pointer to a WIA item context.
 
 ### -param __MIDL__IWiaMiniDrv0055
 
+plDevErrVal [out]
 
-
-
-
+- Points to a memory location that will receive a status code for this method. If this method returns S_OK, the value stored will be zero. Otherwise, a minidriver-specific error code will be stored at the location pointed to by this parameter.
 
 #### - lFlags [in]
 
-Is currently unused. 
-
+Is currently unused.
 
 #### - pWiasContext [in]
 
 Pointer to a WIA item context.
 
-
 #### - plDevErrVal [out]
 
 Points to a memory location that will receive a status code for this method. If this method returns S_OK, the value stored will be zero. Otherwise, a minidriver-specific error code will be stored at the location pointed to by this parameter.
 
-
 ## -returns
 
-
-
-On success, the method should return S_OK and clear the device error value pointed to by <i>plDevErrVal</i>. If the method fails, it should return a standard COM error code and place a minidriver-specific error code value in the memory pointed to by <i>plDevErrVal</i>. The value pointed to by <i>plDevErrVal</i> can be converted to a string by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvgetdeviceerrorstr">IWiaMiniDrv::drvGetDeviceErrorStr</a>.
-
-
-
+On success, the method should return S_OK and clear the device error value pointed to by *plDevErrVal*. If the method fails, it should return a standard COM error code and place a minidriver-specific error code value in the memory pointed to by *plDevErrVal*. The value pointed to by *plDevErrVal* can be converted to a string by calling [IWiaMiniDrv::drvGetDeviceErrorStr](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvgetdeviceerrorstr).
 
 ## -remarks
 
-
-
-In order to delete a driver item, the WIA service will call the minidriver method <b>IWiaMiniDrv::drvDeleteItem</b>. In this method, the minidriver will attempt to delete the item pointed to by the WIA service context parameter <i>pWiasContext</i>. If the item is successfully deleted, the method returns S_OK and sets the device error value parameter <i>plDevErrVal</i> to zero. If a device error occurs, the method returns E_FAIL and a device-specific error value in the device error value parameter <i>plDevErrVal</i>.
+In order to delete a driver item, the WIA service will call the minidriver method **IWiaMiniDrv::drvDeleteItem**. In this method, the minidriver will attempt to delete the item pointed to by the WIA service context parameter *pWiasContext*. If the item is successfully deleted, the method returns S_OK and sets the device error value parameter *plDevErrVal* to zero. If a device error occurs, the method returns E_FAIL and a device-specific error value in the device error value parameter *plDevErrVal*.
 
 Before the WIA service calls this method, it verifies the following:
 
-<ul>
-<li>
-The item is not the root item.
+- The item is not the root item.
 
-</li>
-<li>
-If the item is a folder, it does not have any children.
+- If the item is a folder, it does not have any children.
 
-</li>
-<li>
-The item's access rights allow deletion.
+- The item's access rights allow deletion.
 
-</li>
-</ul>
 Since the WIA service verifies these conditions, it is not necessary for the minidriver to also verify them.
-
-
-
 
 ## -see-also
 
+[IWiaMiniDrv](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nn-wiamindr_lh-iwiaminidrv)
 
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nn-wiamindr_lh-iwiaminidrv">IWiaMiniDrv</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvgetdeviceerrorstr">IWiaMiniDrv::drvGetDeviceErrorStr</a>
- 
-
- 
-
+[IWiaMiniDrv::drvGetDeviceErrorStr](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvgetdeviceerrorstr)
