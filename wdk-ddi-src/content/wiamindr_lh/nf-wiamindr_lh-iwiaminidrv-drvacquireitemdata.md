@@ -113,8 +113,7 @@ A potential problem for ADF-equipped scanners is running out of paper during a s
 | Scenario | HRESULT value |
 | --- | --- |
 | The WIA_DPS_PAGES property was set to 0, and the scanner emptied its ADF with no errors.<br>The WIA_DPS_PAGES property was set to N (where N > 0), and the scanner processed N pages with no errors. | S_OK |
-| The WIA_DPS_PAGES property was set to N, and the scanner processed at least one page but ran out of paper before processing all N pages. | WIA_STATUS_END_OF_MEDIA
- |
+| The WIA_DPS_PAGES property was set to N, and the scanner processed at least one page but ran out of paper before processing all N pages. | WIA_STATUS_END_OF_MEDIA |
 | The scanner has unexpectedly detected multiple page feed, stopped scanning, and has set the [WIA_DPS_DOCUMENT_HANDLING_STATUS](https://docs.microsoft.com/windows-hardware/drivers/image/wia-dps-document-handling-status) to MULTIPLE_FEED. | WIA_ERROR_MULTI_FEED |
 | The scanner ran out of paper on the first scan, regardless of the setting of the WIA_DPS_PAGES property.<br>A paper jam or other error occurred during the scan operation. | Other error code |
 

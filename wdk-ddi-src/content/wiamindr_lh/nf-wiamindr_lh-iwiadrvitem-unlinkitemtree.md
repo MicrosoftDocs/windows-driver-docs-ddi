@@ -44,7 +44,7 @@ req.typenames:
 
 ## -description
 
-The <b>IWiaDrvItem::UnlinkItemTree</b> method unlinks the driver item tree and releases all items in the tree.
+The **IWiaDrvItem::UnlinkItemTree** method unlinks the driver item tree and releases all items in the tree.
 
 ## -parameters
 
@@ -53,6 +53,11 @@ The <b>IWiaDrvItem::UnlinkItemTree</b> method unlinks the driver item tree and r
 lFlags [in]
 
 - Indicates how the driver item tree should be unlinked. This parameter must be set to one of the following values. See the Microsoft Windows SDK documentation for a description of the WIA item type flags.
+
+  | Value | Meaning |
+  | --- | --- |
+  | WiaItemTypeDeleted | The item is marked as deleted from the tree. |
+  | WiaItemTypeDisconnected | The item represents a disconnected device. |
 
 #### - lFlags [in]
 
