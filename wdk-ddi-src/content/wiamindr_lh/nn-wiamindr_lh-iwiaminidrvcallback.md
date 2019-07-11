@@ -42,38 +42,22 @@ req.typenames:
 
 # IWiaMiniDrvCallBack interface
 
-
 ## -description
 
-
-The <b>IWiaMiniDrvCallBack</b> interface provides the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiaminidrvcallback-minidrvcallback">MiniDrvCallback</a> method, which enables minidrivers to transfer image header data and image data from the imaging device to the WIA service.
+The **IWiaMiniDrvCallBack** interface provides the [MiniDrvCallback](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiaminidrvcallback-minidrvcallback) method, which enables minidrivers to transfer image header data and image data from the imaging device to the WIA service.
 
 This method can also convey status information, such as the percentage of data transferred.
 
-
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWiaMiniDrvCallBack</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWiaMiniDrvCallBack</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
+The **IWiaMiniDrvCallBack** interface inherits from the [IUnknown](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IWiaMiniDrvCallBack** also has these types of members:
+
+- Methods
 
 ## -members
 
-The <b>IWiaMiniDrvCallBack</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiaminidrvcallback-minidrvcallback">MiniDrvCallback</a>
-</td>
-<td align="left" width="63%">
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiaminidrvcallback-minidrvcallback">MiniDrvCallback</a> method provides a callback method for WIA minidrivers to use during a callback data transfer.
+The **IWiaMiniDrvCallBack** interface has these methods.
 
-</td>
-</tr>
-</table> 
-
+| Method | Description |
+| --- | --- |
+| [MiniDrvCallback](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiaminidrvcallback-minidrvcallback) | Provides a callback method for WIA minidrivers to use during a callback data transfer. |
