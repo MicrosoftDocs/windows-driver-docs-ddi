@@ -11,7 +11,7 @@ ms.topic: struct
 req.header: wiamindr_lh.h
 req.include-header: Wiamindr.h
 req.target-type: Windows
-req.target-min-winverclnt: Available in Windows Me and in Windows XP and later versions of the Windows operating systems.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -42,53 +42,30 @@ req.typenames: WIAS_ENDORSER_INFO, *PWIAS_ENDORSER_INFO
 
 # _WIAS_ENDORSER_INFO structure
 
-
 ## -description
 
-
-The WIAS_ENDORSER_INFO structure holds custom endorser token/value pairs.
-
+The **WIAS_ENDORSER_INFO** structure holds custom endorser token/value pairs.
 
 ## -struct-fields
-
-
-
 
 ### -field ulPageCount
 
 Specifies the value that will replace the $PAGE_COUNT$ token, provided that the endorser string contains that token.
 
-
 ### -field ulNumEndorserValues
 
 Specifies the number of token/value pairs. This member will be 0 if there are no custom token/value pairs.
 
-
 ### -field pEndorserValues
 
-Points to an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/ns-wiamindr_lh-_wias_endorser_value">WIAS_ENDORSER_VALUE</a> structures, holding custom token/value pairs. If the value of the <b>ulNumEndorserValues</b> member is 0, this member should be <b>NULL</b>.
-
+Points to an array of [WIAS_ENDORSER_VALUE](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/ns-wiamindr_lh-_wias_endorser_value) structures, holding custom token/value pairs. If the value of the **ulNumEndorserValues** member is 0, this member should be **NULL**.
 
 ## -remarks
 
-
-
-Currently, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiasparseendorserstring">wiasParseEndorserString</a> recognizes three endorser tokens: $DATE$, $TIME$, $PAGE_COUNT$, $DAY$, $MONTH$, and $YEAR$. (See <i>wiamdef.h</i>.) Any other tokens and their values must be specified in the <b>pEndorserValues</b> member of this structure.
-
-
-
+Currently, [wiasParseEndorserString](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiasparseendorserstring) recognizes three endorser tokens: $DATE$, $TIME$, $PAGE_COUNT$, $DAY$, $MONTH$, and $YEAR$. (See *wiamdef.h*.) Any other tokens and their values must be specified in the **pEndorserValues** member of this structure.
 
 ## -see-also
 
+[WIAS_ENDORSER_VALUE](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/ns-wiamindr_lh-_wias_endorser_value)
 
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/ns-wiamindr_lh-_wias_endorser_value">WIAS_ENDORSER_VALUE</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiasparseendorserstring">wiasParseEndorserString</a>
- 
-
- 
-
+[wiasParseEndorserString](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiasparseendorserstring)
