@@ -1,12 +1,12 @@
 ---
-UID: NS:ksmedia.ns-ksmedia-__unnamed_struct_38
+UID: NS:ksmedia.__unnamed_struct_38
 title: INTERLEAVED_AUDIO_FORMAT_INFORMATION
 author: windows-driver-content
-description: 
+description: The INTERLEAVED_AUDIO_FORMAT_INFORMATION structure specifies how loopback audio is interleaved with the microphone audio for KSPROPERTY_INTERLEAVEDAUDIO_FORMATINFORMATION.
 tech.root: audio
 ms.assetid: a4a61253-cf10-4dc2-990d-c975520023b0
 ms.author: windowsdriverdev
-ms.date: 07/08/2019
+ms.date: 07/10/2019
 ms.topic: struct
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 
 ## -description
 
-he **INTERLEAVED_AUDIO_FORMAT_INFORMATION** structure specifies how loopback audio is interleaved with the microphone audio for [KSPROPERTY_INTERLEAVEDAUDIO_FORMATINFORMATION](https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-interleavedaudio). 
+The **INTERLEAVED_AUDIO_FORMAT_INFORMATION** structure specifies how loopback audio is interleaved with the microphone audio for [KSPROPERTY_INTERLEAVEDAUDIO_FORMATINFORMATION](https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-interleavedaudio).
 
 ## -struct-fields
 
