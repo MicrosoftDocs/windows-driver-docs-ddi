@@ -6,7 +6,7 @@ description: The INTERLEAVED_AUDIO_FORMAT_INFORMATION structure specifies how lo
 tech.root: audio
 ms.assetid: a4a61253-cf10-4dc2-990d-c975520023b0
 ms.author: windowsdriverdev
-ms.date: 07/10/2019
+ms.date: 07/11/2019
 ms.topic: struct
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ targetos: Windows
 
 ## -description
 
-The **INTERLEAVED_AUDIO_FORMAT_INFORMATION** structure specifies how loopback audio is interleaved with the microphone audio for [KSPROPERTY_INTERLEAVEDAUDIO_FORMATINFORMATION](https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-interleavedaudio).
+he **INTERLEAVED_AUDIO_FORMAT_INFORMATION** structure specifies how loopback audio is interleaved with the microphone audio for [KSPROPERTY_INTERLEAVEDAUDIO_FORMATINFORMATION](https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-interleavedaudio-formatinformation).
 
 ## -struct-fields
 
@@ -74,4 +74,6 @@ The WAVEFORMATEXTENSIBLE returned by the driver reports the channel count as a s
 
 ## -see-also
 
-[KSPROPERTY_INTERLEAVEDAUDIO_FORMATINFORMATION](https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-interleavedaudio)
+[KSPROPERTY_INTERLEAVEDAUDIO_FORMATINFORMATION](https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-interleavedaudio-formatinformation)
+
+[KSPROPERTY_INTERLEAVEDAUDIO Enumeration](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/ksmedia/ne-ksmedia-ksproperty_interleavedaudio)
