@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs.FsRtlDeregisterUncProvider
+UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlDeregisterUncProvider
 title: FsRtlDeregisterUncProvider function (ntifs.h)
 description: The FsRtlDeregisterUncProvider routine deregisters a redirector that was registered as a Universal Naming Convention (UNC) provider with the multiple UNC provider (MUP).
 old-location: ifsk\fsrtlderegisteruncprovider.htm

@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs.CcWaitForCurrentLazyWriterActivity
+UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.CcWaitForCurrentLazyWriterActivity
 title: CcWaitForCurrentLazyWriterActivity function (ntifs.h)
 description: The CcWaitForCurrentLazyWriterActivity routine puts the caller into a wait state until the current batch of lazy writer activity is completed.
 old-location: ifsk\ccwaitforcurrentlazywriteractivity.htm

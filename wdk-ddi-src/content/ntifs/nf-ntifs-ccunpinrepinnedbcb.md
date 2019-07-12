@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs.CcUnpinRepinnedBcb
+UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.CcUnpinRepinnedBcb
 title: CcUnpinRepinnedBcb function (ntifs.h)
 description: The CcUnpinRepinnedBcb routine unpins a repinned buffer control block (BCB).
 old-location: ifsk\ccunpinrepinnedbcb.htm

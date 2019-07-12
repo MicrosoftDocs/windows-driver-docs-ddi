@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs.ZwCreateEvent
+UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.ZwCreateEvent
 title: ZwCreateEvent function (ntifs.h)
 description: The ZwCreateEvent routine creates an event object, sets the initial state of the event to the specified value, and opens a handle to the object with the specified desired access.
 old-location: kernel\zwcreateevent.htm

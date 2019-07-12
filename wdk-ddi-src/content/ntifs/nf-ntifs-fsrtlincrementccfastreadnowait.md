@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs.FsRtlIncrementCcFastReadNoWait
+UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlIncrementCcFastReadNoWait
 title: FsRtlIncrementCcFastReadNoWait function (ntifs.h)
 description: The FsRtlIncrementCcFastReadNoWait routine increments the CcFastReadNoWait performance counter in a per processor control block of cache manager system counters.
 old-location: ifsk\fsrtlincrementccfastreadnowait.htm
