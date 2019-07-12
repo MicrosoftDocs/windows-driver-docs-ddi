@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs.FsRtlInsertPerFileContext
+UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlInsertPerFileContext
 title: FsRtlInsertPerFileContext function (ntifs.h)
 description: The FsRtlInsertPerFileContext routine associates a FSRTL_PER_FILE_CONTEXT object with a driver-specified context object for a file.
 old-location: ifsk\fsrtlinsertperfilecontext.htm

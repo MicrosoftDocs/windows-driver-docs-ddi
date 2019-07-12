@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs.CcZeroData
+UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.CcZeroData
 title: CcZeroData function (ntifs.h)
 description: The CcZeroData routine zeros the specified range of bytes in a cached or noncached file.
 old-location: ifsk\cczerodata.htm

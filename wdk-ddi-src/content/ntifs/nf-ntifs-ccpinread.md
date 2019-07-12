@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs.CcPinRead
+UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.CcPinRead
 title: CcPinRead function (ntifs.h)
 description: The CcPinRead routine pins the specified byte range of a cached file and reads the pinned data into a buffer in memory.
 old-location: ifsk\ccpinread.htm

@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs.FsRtlAllocateExtraCreateParameterList
+UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlAllocateExtraCreateParameterList
 title: FsRtlAllocateExtraCreateParameterList function (ntifs.h)
 description: The FsRtlAllocateExtraCreateParameterList routine allocates paged pool memory for an ECP_LIST structure and generates a pointer to that structure.
 old-location: ifsk\fsrtlallocateextracreateparameterlist.htm

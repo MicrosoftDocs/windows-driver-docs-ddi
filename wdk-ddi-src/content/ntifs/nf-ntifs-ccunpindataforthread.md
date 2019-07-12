@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs.CcUnpinDataForThread
+UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.CcUnpinDataForThread
 title: CcUnpinDataForThread function (ntifs.h)
 description: The CcUnpinDataForThread routine releases pages of a cached file whose buffer control block (BCB) was modified by an earlier call to CcSetBcbOwnerPointer.
 old-location: ifsk\ccunpindataforthread.htm
