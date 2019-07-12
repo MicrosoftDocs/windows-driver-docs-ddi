@@ -42,81 +42,46 @@ req.typenames:
 
 # IWiaMiniDrvTransferCallback::GetNextStream
 
-
 ## -description
-
 
 Called by the WIA mini-driver to obtain a stream for the current data transfer (download or upload).
 
-
 ## -parameters
-
-
-
 
 ### -param lFlags [in]
 
 Represents flag bits. This parameter is unused and should always be set to zero (0) by the caller.
 
-
 ### -param bstrItemName [in]
 
-The name of the item that will perform the data transfer. For more information, see  <a href="https://docs.microsoft.com/windows-hardware/drivers/image/wia-ipa-item-name">WIA_IPA_ITEM_NAME</a>.
-
+The name of the item that will perform the data transfer. For more information, see  [WIA_IPA_ITEM_NAME](https://docs.microsoft.com/windows-hardware/drivers/image/wia-ipa-item-name).
 
 ### -param bstrFullItemName [in]
 
-The full name of the item that will perform the data transfer. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/image/wia-ipa-full-item-name">WIA_IPA_FULL_ITEM_NAME</a>.
-
+The full name of the item that will perform the data transfer. For more information, see [WIA_IPA_FULL_ITEM_NAME](https://docs.microsoft.com/windows-hardware/drivers/image/wia-ipa-full-item-name).
 
 ### -param ppIStream [out]
 
-A pointer to an <b>IStream</b> object.
-
+A pointer to an **IStream** object.
 
 ## -returns
 
-
-
 This method returns S_OK when the call is successful. Otherwise it returns an appropriate HRESULT error code.
-
-
-
 
 ## -remarks
 
+When the client requests to skip the data transfer, the **GetNextStream** method returns WIA_STATUS_SKIP_ITEM. The WIA mini-driver must skip the current image transfer and continue with the next image transfer, if any. For example, for a download transfer, finish scanning the current image and then discard the image data.
 
-
-When the client requests to skip the data transfer, the <b>GetNextStream</b> method returns WIA_STATUS_SKIP_ITEM. The WIA mini-driver must skip the current image transfer and continue with the next image transfer, if any. For example, for a download transfer, finish scanning the current image and then discard the image data.
-
-When the current transfer sequence is cancelled, the <b>GetNextStream</b> method returns S_FALSE.
-
-
-
+When the current transfer sequence is cancelled, the **GetNextStream** method returns S_FALSE.
 
 ## -see-also
 
+[Cancellation of Data Transfers in Windows Vista](https://docs.microsoft.com/windows-hardware/drivers/image/cancellation-of-data-transfers-in-windows-vista)
 
+[Data Transfer Between Legacy Application and Windows Vista Driver](https://docs.microsoft.com/windows-hardware/drivers/image/data-transfer-between-legacy-application-and-windows-vista-driver)
 
+[IWiaMiniDrvTransferCallback](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nn-wiamindr_lh-iwiaminidrvtransfercallback)
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/image/cancellation-of-data-transfers-in-windows-vista">Cancellation of Data Transfers in Windows Vista</a>
+[WIA_IPA_FULL_ITEM_NAME](https://docs.microsoft.com/windows-hardware/drivers/image/wia-ipa-full-item-name)
 
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/image/data-transfer-between-legacy-application-and-windows-vista-driver">Data Transfer Between Legacy Application and Windows Vista Driver</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nn-wiamindr_lh-iwiaminidrvtransfercallback">IWiaMiniDrvTransferCallback</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/image/wia-ipa-full-item-name">WIA_IPA_FULL_ITEM_NAME</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/image/wia-ipa-item-name">WIA_IPA_ITEM_NAME</a>
- 
-
- 
-
+[WIA_IPA_ITEM_NAME](https://docs.microsoft.com/windows-hardware/drivers/image/wia-ipa-item-name)
