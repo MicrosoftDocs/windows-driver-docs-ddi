@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs.FsRtlIssueDeviceIoControl
+UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlIssueDeviceIoControl
 title: FsRtlIssueDeviceIoControl function (ntifs.h)
 description: The FsRtlIssueDeviceIoControl routine sends a synchronous device I/O control request to a target device object.
 old-location: ifsk\fsrtlissuedeviceiocontrol.htm
