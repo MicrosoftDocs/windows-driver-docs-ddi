@@ -46,9 +46,9 @@ Number of Audio endpoints on the devices that can be sidebanded.  This number ex
 
 ## -remarks
 A device can contain multiple audio endpoints that can be used in Sideband mode. The number of endpoints can be used to iterate through all the endpoints contained in the device using a 0 based index (0 to n-1).
-Driver should call <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/sidebandaudio/ni-sidebandaudio-ioctl_sbaud_get_endpoint_descriptor">IOCTL_SBAUD_GET_ENDPOINT_DESCRIPTOR</a> iteratively to get details about each of the endpoints.
+Driver should call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sidebandaudio/ni-sidebandaudio-ioctl_sbaud_get_endpoint_descriptor">IOCTL_SBAUD_GET_ENDPOINT_DESCRIPTOR</a> iteratively to get details about each of the endpoints.
 
 ## -see-also
 [sidebandaudio.h](index.md)
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/sidebandaudio/ni-sidebandaudio-ioctl_sbaud_get_endpoint_descriptor">IOCTL_SBAUD_GET_ENDPOINT_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sidebandaudio/ni-sidebandaudio-ioctl_sbaud_get_endpoint_descriptor">IOCTL_SBAUD_GET_ENDPOINT_DESCRIPTOR</a>
