@@ -44,19 +44,19 @@ The IOCTL_SBAUD_GET_VOLUME_STATUS_UPDATE IOCTL Gets the volume level setting of 
 ## -ioctlparameters
 
 ### -input-buffer
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/sidebandaudio/ns-sidebandaudio-_sidebandaudio_volume_params">SIDEBANDAUDIO_VOLUME_PARAMS</a> with the 0 based endpoint index and channel number along with 'immediate' parameter indicating whether to process this IOCTL immediately or pend it for future updates.
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sidebandaudio/ns-sidebandaudio-_sidebandaudio_volume_params">SIDEBANDAUDIO_VOLUME_PARAMS</a> with the 0 based endpoint index and channel number along with 'immediate' parameter indicating whether to process this IOCTL immediately or pend it for future updates.
 
 ### -input-buffer-length 
 
-Szie of <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/sidebandaudio/ns-sidebandaudio-_sidebandaudio_volume_params">SIDEBANDAUDIO_VOLUME_PARAMS</a>.
+Szie of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sidebandaudio/ns-sidebandaudio-_sidebandaudio_volume_params">SIDEBANDAUDIO_VOLUME_PARAMS</a>.
 
 ### -output-buffer
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/sidebandaudio/ns-sidebandaudio-_sidebandaudio_volume_params">SIDEBANDAUDIO_VOLUME_PARAMS</a>.
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sidebandaudio/ns-sidebandaudio-_sidebandaudio_volume_params">SIDEBANDAUDIO_VOLUME_PARAMS</a>.
 
 ### -output-buffer-length 
 
-Szie of <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/sidebandaudio/ns-sidebandaudio-_sidebandaudio_volume_params">SIDEBANDAUDIO_VOLUME_PARAMS</a>.
+Size of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sidebandaudio/ns-sidebandaudio-_sidebandaudio_volume_params">SIDEBANDAUDIO_VOLUME_PARAMS</a>.
 
 ### -in-out-buffer
 
@@ -76,4 +76,4 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-h
 The volume update IOCTL can be used in two modes - update and immediate. If SIDEBANDAUDIO_VOLUME_PARAMS::Immediate parameter is set to TRUE, the IOCTL returns immediately with the current volume value for the requested channel. If the Immediate parameter is set to FALSE, the IRP is pended by the Sideband Audio Driver (like USB Audio) until there is a change in the device volume. Audio driver should setup a pending volume IOCTL to get notified of any changes in hardware volume.
 
 ## -see-also
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/sidebandaudio/ns-sidebandaudio-_sidebandaudio_volume_params">SIDEBANDAUDIO_VOLUME_PARAMS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sidebandaudio/ns-sidebandaudio-_sidebandaudio_volume_params">SIDEBANDAUDIO_VOLUME_PARAMS</a>
