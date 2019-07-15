@@ -249,6 +249,8 @@ Callout drivers normally inject data into the network stack when they modify pac
     information about how a callout driver can modify packet data, see 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/network/callout-driver-operations">Callout Driver Operations</a>.
 
+Due to the TCP protocol locking semantics, TCP can only be injected Out of Band at any transport layer or equivalent layer, so FwpsInjectTransportReceiveAsync0 and FwpsInjectTransportSendAsync0 must be queued and run by a DPC.
+
 The injected packet can be indicated to the callout driver again. To prevent infinite looping, the
     driver should first call the 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsquerypacketinjectionstate0">FwpsQueryPacketInjectionState0</a> function before calling the 
