@@ -11,7 +11,7 @@ ms.topic: method
 req.header: wiamindr_lh.h
 req.include-header: Wiamindr.h
 req.target-type: Desktop
-req.target-min-winverclnt: Available in Windows Me and in Windows XP and later versions of the Windows operating systems.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -42,59 +42,32 @@ req.typenames:
 
 # IWiaDrvItem::GetItemName
 
-
 ## -description
 
-
-The <b>IWiaDrvItem::GetItemName</b> method gets the current <b>IWiaDrvItem</b> item name, not including path information.
-
+The **IWiaDrvItem::GetItemName** method gets the current **IWiaDrvItem** item name, not including path information.
 
 ## -parameters
 
-
-
-
 ### -param __MIDL__IWiaDrvItem0003
 
+pbstrItemName [out, optional]
 
-
-
-
+- Points to a memory location that will receive the address of the string containing the item name.
 
 #### - pbstrItemName [out, optional]
 
 Points to a memory location that will receive the address of the string containing the item name. 
 
-
 ## -returns
 
-
-
-If the method succeeds, it stores a pointer to the item's name (path information is not included) in <i>pbstrItemName</i> and returns S_OK. If the method fails to allocate the string due to insufficient memory, it returns E_OUTOFMEMORY. If the parameter <i>pbstrItemName</i> is invalid, the method returns E_INVALIDARG.If the method fails for another reason, it returns a standard COM error code.
-
-
-
+If the method succeeds, it stores a pointer to the item's name (path information is not included) in *pbstrItemName* and returns S_OK. If the method fails to allocate the string due to insufficient memory, it returns E_OUTOFMEMORY. If the parameter *pbstrItemName* is invalid, the method returns E_INVALIDARG.If the method fails for another reason, it returns a standard COM error code.
 
 ## -remarks
 
-
-
-If there is enough memory available, the method allocates a string containing the current item's name, excluding path information. The method returns a pointer to the string in <i>pbstrItemName</i>. The minidriver must deallocate the memory used by the string by calling the <b>SysFreeString</b> function, which is documented in the Microsoft Windows SDK. 
-
-
-
+If there is enough memory available, the method allocates a string containing the current item's name, excluding path information. The method returns a pointer to the string in *pbstrItemName*. The minidriver must deallocate the memory used by the string by calling the [**SysFreeString**](https://docs.microsoft.com/en-us/windows/win32/api/oleauto/nf-oleauto-sysfreestring) function.
 
 ## -see-also
 
+[IWiaDrvItem](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nn-wiamindr_lh-iwiadrvitem)
 
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nn-wiamindr_lh-iwiadrvitem">IWiaDrvItem</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiadrvitem-getfullitemname">IWiaDrvItem::GetFullItemName</a>
- 
-
- 
-
+[IWiaDrvItem::GetFullItemName](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiadrvitem-getfullitemname)

@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs.ZwDeleteFile
+UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.ZwDeleteFile
 title: ZwDeleteFile function (ntifs.h)
 description: The ZwDeleteFile routine deletes the specified file.
 old-location: kernel\zwdeletefile.htm

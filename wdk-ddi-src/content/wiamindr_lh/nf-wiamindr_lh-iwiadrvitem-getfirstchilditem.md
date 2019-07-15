@@ -11,7 +11,7 @@ ms.topic: method
 req.header: wiamindr_lh.h
 req.include-header: Wiamindr.h
 req.target-type: Desktop
-req.target-min-winverclnt: Available in Windows Me and in Windows XP and later versions of the Windows operating systems.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -42,63 +42,34 @@ req.typenames:
 
 # IWiaDrvItem::GetFirstChildItem
 
-
 ## -description
 
-
-The <b>IWiaDrvItem::GetFirstChildItem</b> method gets the first child item in an <b>IWiaDrvItem</b> folder item.
-
+The **IWiaDrvItem::GetFirstChildItem** method gets the first child item in an **IWiaDrvItem** folder item.
 
 ## -parameters
 
-
-
-
 ### -param __MIDL__IWiaDrvItem0013
 
+ppIChildItem [out, optional]
 
-
-
-
+- Points to a memory location that will receive the address of an **IWiaDrvItem** child item.
 
 #### - ppIChildItem [out, optional]
 
-Points to a memory location that will receive the address of an <b>IWiaDrvItem</b> child item.
-
+Points to a memory location that will receive the address of an **IWiaDrvItem** child item.
 
 ## -returns
 
-
-
-If the method succeeds, it stores a pointer to the first child item in <i>ppIChildItem</i> and returns S_OK. If a child item cannot be found, the method returns S_FALSE. If the item being searched is not a folder, the method returns E_INVALIDARG. If the method fails for another reason, it returns a standard COM error code.
-
-
-
+If the method succeeds, it stores a pointer to the first child item in *ppIChildItem* and returns S_OK. If a child item cannot be found, the method returns S_FALSE. If the item being searched is not a folder, the method returns E_INVALIDARG. If the method fails for another reason, it returns a standard COM error code.
 
 ## -remarks
 
-
-
 Minidrivers typically use this method to retrieve the first child item in a driver item folder. The item being searched must be a folder item.
-
-
-
 
 ## -see-also
 
+[IWiaDrvItem](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nn-wiamindr_lh-iwiadrvitem)
 
+[IWiaDrvItem::GetNextSiblingItem](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiadrvitem-getnextsiblingitem)
 
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nn-wiamindr_lh-iwiadrvitem">IWiaDrvItem</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiadrvitem-getnextsiblingitem">IWiaDrvItem::GetNextSiblingItem</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiadrvitem-getparentitem">IWiaDrvItem::GetParentItem</a>
- 
-
- 
-
+[IWiaDrvItem::GetParentItem](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiadrvitem-getparentitem)

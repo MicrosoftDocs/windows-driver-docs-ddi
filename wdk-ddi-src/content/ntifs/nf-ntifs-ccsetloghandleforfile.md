@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs.CcSetLogHandleForFile
+UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.CcSetLogHandleForFile
 title: CcSetLogHandleForFile function (ntifs.h)
 description: The CcSetLogHandleForFile routine sets a log handle for a file.
 old-location: ifsk\ccsetloghandleforfile.htm

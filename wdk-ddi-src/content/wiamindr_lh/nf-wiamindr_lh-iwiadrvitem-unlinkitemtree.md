@@ -11,7 +11,7 @@ ms.topic: method
 req.header: wiamindr_lh.h
 req.include-header: Wiamindr.h
 req.target-type: Desktop
-req.target-min-winverclnt: Available in Windows Me and in Windows XP and later versions of the Windows operating systems.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -42,72 +42,36 @@ req.typenames:
 
 # IWiaDrvItem::UnlinkItemTree
 
-
 ## -description
 
-
-The <b>IWiaDrvItem::UnlinkItemTree</b> method unlinks the driver item tree and releases all items in the tree.
-
+The **IWiaDrvItem::UnlinkItemTree** method unlinks the driver item tree and releases all items in the tree.
 
 ## -parameters
 
-
-
-
 ### -param __MIDL__IWiaDrvItem0005
 
+lFlags [in]
 
+- Indicates how the driver item tree should be unlinked. This parameter must be set to one of the following values. See the Microsoft Windows SDK documentation for a description of the WIA item type flags.
 
-
-
+  | Value | Meaning |
+  | --- | --- |
+  | WiaItemTypeDeleted | The item is marked as deleted from the tree. |
+  | WiaItemTypeDisconnected | The item represents a disconnected device. |
 
 #### - lFlags [in]
 
 Indicates how the driver item tree should be unlinked. This parameter must be set to one of the following values. See the Microsoft Windows SDK documentation for a description of the WIA item type flags.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-WiaItemTypeDeleted
-
-</td>
-<td>
-The item is marked as deleted from the tree.
-
-</td>
-</tr>
-<tr>
-<td>
-WiaItemTypeDisconnected
-
-</td>
-<td>
-The item represents a disconnected device.
-
-</td>
-</tr>
-</table>
- 
-
+| Value | Meaning |
+| --- | --- |
+| WiaItemTypeDeleted | The item is marked as deleted from the tree. |
+| WiaItemTypeDisconnected | The item represents a disconnected device. |
 
 ## -returns
 
-
-
 If the method succeeds, it returns S_OK. If the method is called on a nonroot item, it returns E_INVALIDARG. If the method fails for another reason, it returns a standard COM error code.
-
-
-
 
 ## -remarks
 
-
-
 Minidrivers must call this method on the root item in the driver item tree when they want to invalidate the tree. This is typically done when the driver is being unloaded or when the minidriver needs to rebuild the driver item tree.
-
-
-

@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs.CcInitializeCacheMap
+UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.CcInitializeCacheMap
 title: CcInitializeCacheMap function (ntifs.h)
 description: File systems call the CcInitializeCacheMap routine to cache a file.
 old-location: ifsk\ccinitializecachemap.htm

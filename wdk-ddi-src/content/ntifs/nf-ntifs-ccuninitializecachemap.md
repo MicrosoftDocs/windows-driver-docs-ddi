@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs.CcUninitializeCacheMap
+UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.CcUninitializeCacheMap
 title: CcUninitializeCacheMap function (ntifs.h)
 description: The CcUninitializeCacheMap routine stops the caching of a cached file.
 old-location: ifsk\ccuninitializecachemap.htm

@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs.CcSetAdditionalCacheAttributes
+UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.CcSetAdditionalCacheAttributes
 title: CcSetAdditionalCacheAttributes function (ntifs.h)
 description: Call the CcSetAdditionalCacheAttributes routine to enable or disable read-ahead (also called &#0034;lazy read&#0034;) or write-behind (also called &#0034;lazy write&#0034;) on a cached file.
 old-location: ifsk\ccsetadditionalcacheattributes.htm

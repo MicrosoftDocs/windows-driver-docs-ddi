@@ -1,0 +1,79 @@
+---
+UID: NS:ksmedia.__unnamed_struct_38
+title: INTERLEAVED_AUDIO_FORMAT_INFORMATION
+author: windows-driver-content
+description: The INTERLEAVED_AUDIO_FORMAT_INFORMATION structure specifies how loopback audio is interleaved with the microphone audio for KSPROPERTY_INTERLEAVEDAUDIO_FORMATINFORMATION.
+tech.root: audio
+ms.assetid: a4a61253-cf10-4dc2-990d-c975520023b0
+ms.author: windowsdriverdev
+ms.date: 07/11/2019
+ms.topic: struct
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.keywords: INTERLEAVED_AUDIO_FORMAT_INFORMATION, INTERLEAVED_AUDIO_FORMAT_INFORMATION, 
+req.header: ksmedia.h
+req.include-header:
+req.target-type:
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.lib:
+req.dll:
+req.ddi-compliance:
+req.unicode-ansi:
+req.max-support:
+req.typenames: INTERLEAVED_AUDIO_FORMAT_INFORMATION
+topic_type: 
+ - apiref
+api_type: 
+ - HeaderDef
+api_location: 
+ - ksmedia.h
+api_name: 
+ - INTERLEAVED_AUDIO_FORMAT_INFORMATION
+product: 
+ - Windows
+targetos: Windows
+---
+
+# INTERLEAVED_AUDIO_FORMAT_INFORMATION structure
+
+## -description
+
+he **INTERLEAVED_AUDIO_FORMAT_INFORMATION** structure specifies how loopback audio is interleaved with the microphone audio for [KSPROPERTY_INTERLEAVEDAUDIO_FORMATINFORMATION](https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-interleavedaudio-formatinformation).
+
+## -struct-fields
+
+### -field Size
+The size of all of the data in the  INTERLEAVED_AUDIO_FORMAT_INFORMATION structure in bytes.
+
+### -field PrimaryChannelCount
+The number of the primary channels. This is typically the number of microphone elements when interleaving the microphone and loopback audio.
+ 
+### -field PrimaryChannelStartPosition
+The array index of the first channel for the primary audio.
+
+### -field PrimaryChannelMask
+The primary channel mask, KSAUDIO_SPEAKER_MONO, KSAUDIO_SPEAKER_STEREO, etc.
+
+### -field InterleavedChannelCount
+The number of interleaved channels. This is typically the number of channels for the loopback audio associated with the primary channels.
+
+### -field InterleavedChannelStartPosition
+The array index of the first channel for the interleaved audio.
+
+### -field InterleavedChannelMask
+The interleaved channel mask, KSAUDIO_SPEAKER_MONO, KSAUDIO_SPEAKER_STEREO, etc.
+
+## -remarks
+
+The data described by this structure is intended only for the Hardware Keyword Spotter pin and provides a way to include loopback audio interleaved with the microphone audio. This is done by interleaving the Hardware Keyword Spotter pin audio and loopback audio together into a single PCM audio stream and then communicating, via this property, the channels containing loopback vs. microphone audio.
+
+The WAVEFORMATEXTENSIBLE returned by the driver reports the channel count as a sum of the primary and loopback audio, with a channel mask appropriate for the total channel count. The primary and interleaved audio must have matching bits per sample, sample rate, etc. This structure communicates all information needed to split the two streams of data. 
+
+## -see-also
+
+[KSPROPERTY_INTERLEAVEDAUDIO_FORMATINFORMATION](https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-interleavedaudio-formatinformation)
+
+[KSPROPERTY_INTERLEAVEDAUDIO Enumeration](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/ksmedia/ne-ksmedia-ksproperty_interleavedaudio)

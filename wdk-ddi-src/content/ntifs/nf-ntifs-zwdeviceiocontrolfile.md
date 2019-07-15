@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs.ZwDeviceIoControlFile
+UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.ZwDeviceIoControlFile
 title: ZwDeviceIoControlFile function (ntifs.h)
 description: The ZwDeviceIoControlFile routine sends a control code directly to a specified device driver, causing the corresponding driver to perform the specified operation.
 old-location: kernel\zwdeviceiocontrolfile.htm

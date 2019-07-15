@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs.FsRtlRemovePerFileContext
+UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlRemovePerFileContext
 title: FsRtlRemovePerFileContext function (ntifs.h)
 description: The FsRtlRemovePerFileContext routine returns a pointer to a FSRTL_PER_FILE_CONTEXT object that is associated with a file.
 old-location: ifsk\fsrtlremoveperfilecontext.htm

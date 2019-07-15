@@ -54,7 +54,7 @@ Size of ULONG.
 
 ### -output-buffer
 
-KSPROPERTY_DESCRIPTION followed by KSPROPERTY_MEMBERSHEADER and Volume stepped data ranges as documented in <a href='https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/ks/ns-ks-ksproperty_description'>KSPROPERTY_DESCRIPTION</a> and <a href='https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/ks/ns-ks-ksproperty_membersheader'>KSPROPERTY_MEMBERSHEADER</a>.
+KSPROPERTY_DESCRIPTION followed by KSPROPERTY_MEMBERSHEADER and Volume stepped data ranges as documented in <a href='https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksproperty_description'>KSPROPERTY_DESCRIPTION</a> and <a href='https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksproperty_membersheader'>KSPROPERTY_MEMBERSHEADER</a>.
 
 ### -output-buffer-length 
 
@@ -77,3 +77,6 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/windows-h
 ## -remarks
 
 ## -see-also
+<a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-audio-volumelevel">KSPROPERTY_AUDIO_VOLUMELEVEL</a>
+
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-ksnodeproperty_audio_channel">KSNODEPROPERTY_AUDIO_CHANNEL</a>

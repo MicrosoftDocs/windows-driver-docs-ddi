@@ -11,7 +11,7 @@ ms.topic: method
 req.header: wiamindr_lh.h
 req.include-header: Wiamindr.h
 req.target-type: Desktop
-req.target-min-winverclnt: Available in Windows Me and in Windows XP and later versions of the Windows operating systems.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -42,87 +42,42 @@ req.typenames:
 
 # IWiaDrvItem::RemoveItemFromFolder
 
-
 ## -description
 
-
-The <b>IWiaDrvItem::RemoveItemFromFolder</b> method removes an item from a parent folder.
-
+The **IWiaDrvItem::RemoveItemFromFolder** method removes an item from a parent folder.
 
 ## -parameters
 
-
-
-
 ### -param __MIDL__IWiaDrvItem0006
 
+lReason [in]
 
+- Specifies the reason for the removal of the item from the folder. This parameter can be set to one of the following values:
 
-
-
+  | Value | Meaning |
+  | --- | --- |
+  | WiaItemTypeDeleted | The item is marked as deleted. |
+  | WiaItemTypeDisconnected | The item is a disconnected device. |
 
 #### - lReason [in]
 
 Specifies the reason for the removal of the item from the folder. This parameter can be set to one of the following values:
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-WiaItemTypeDeleted 
-
-</td>
-<td>
-The item is marked as deleted.
-
-</td>
-</tr>
-<tr>
-<td>
-WiaItemTypeDisconnected
-
-</td>
-<td>
-The item is a disconnected device.
-
-</td>
-</tr>
-</table>
- 
-
+| Value | Meaning |
+| --- | --- |
+| WiaItemTypeDeleted | The item is marked as deleted. |
+| WiaItemTypeDisconnected | The item is a disconnected device. |
 
 ## -returns
 
-
-
-If the method succeeds, it returns S_OK. If the item to be removed is a folder and the folder is not empty, the method returns E_INVALIDARG. If <i>lReason</i> contains an invalid reason, the method returns E_INVALIDARG. If the method fails for another reason, it returns a standard COM error code.
-
-
-
+If the method succeeds, it returns S_OK. If the item to be removed is a folder and the folder is not empty, the method returns E_INVALIDARG. If *lReason* contains an invalid reason, the method returns E_INVALIDARG. If the method fails for another reason, it returns a standard COM error code.
 
 ## -remarks
 
-
-
 After the item has been removed from the folder, it can no longer be used for device access.
-
-
-
 
 ## -see-also
 
+[IWiaDrvItem](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nn-wiamindr_lh-iwiadrvitem)
 
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nn-wiamindr_lh-iwiadrvitem">IWiaDrvItem</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiadrvitem-additemtofolder">IWiaDrvItem::AddItemToFolder</a>
- 
-
- 
-
+[IWiaDrvItem::AddItemToFolder](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiadrvitem-additemtofolder)

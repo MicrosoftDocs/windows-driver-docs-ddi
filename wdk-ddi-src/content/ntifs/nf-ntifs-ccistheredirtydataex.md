@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs.CcIsThereDirtyDataEx
+UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.CcIsThereDirtyDataEx
 title: CcIsThereDirtyDataEx function (ntifs.h)
 description: The CcIsThereDirtyDataEx routine determines whether a volume contains any files that have dirty data in the system cache.
 old-location: ifsk\ccistheredirtydataex.htm

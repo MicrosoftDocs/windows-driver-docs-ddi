@@ -42,144 +42,28 @@ req.typenames:
 
 # IWiaDrvItem interface
 
-
 ## -description
 
-
-The <b>IWiaDrvItem</b> interface provides methods that a WIA minidriver can use to manage a tree of <b>IWiaDrvItem</b> items.
-
+The **IWiaDrvItem** interface provides methods that a WIA minidriver can use to manage a tree of **IWiaDrvItem** items.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWiaDrvItem</b> interface inherits from the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IWiaDrvItem</b> also has these types of members:
-<ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-</ul>
-
 ## -members
 
-The <b>IWiaDrvItem</b> interface has these methods.
-<table class="members" id="memberListMethods">
-<tr>
-<th align="left" width="37%">Method</th>
-<th align="left" width="63%">Description</th>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiadrvitem-additemtofolder">AddItemToFolder</a>
-</td>
-<td align="left" width="63%">
-The AddItemToFolder method adds an IWiaDrvItem item to a folder in a driver item tree.
+The **IWiaDrvItem** interface has these methods.
 
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiadrvitem-dumpitemdata">DumpItemData</a>
-</td>
-<td align="left" width="63%">
-The <b>IWiaDrvItem::DumpItemData</b> method dumps private data associated with an <b>IWiaDrvItem</b> item into an allocated private buffer.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiadrvitem-findchilditembyname">FindChildItemByName</a>
-</td>
-<td align="left" width="63%">
-The <b>IWiaDrvItem::FindChildItemByName</b> method searches the driver item tree for a specific child item.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiadrvitem-finditembyname">FindItemByName</a>
-</td>
-<td align="left" width="63%">
-The<b> IWiaDrvItem::FindItemByName</b> method locates an item in a driver item tree by the item's full name.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiadrvitem-getdevicespeccontext">GetDeviceSpecContext</a>
-</td>
-<td align="left" width="63%">
-The<b> IWiaDrvItem::GetDeviceSpecContext</b> method gets a device-specific context.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiadrvitem-getfirstchilditem">GetFirstChildItem</a>
-</td>
-<td align="left" width="63%">
-The <b>IWiaDrvItem::GetFirstChildItem</b> method gets the first child item in an <b>IWiaDrvItem</b> folder item.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiadrvitem-getfullitemname">GetFullItemName</a>
-</td>
-<td align="left" width="63%">
-The <b>IWiaDrvItem::GetFullItemName</b> method gets the item's full name, including path information.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiadrvitem-getitemflags">GetItemFlags</a>
-</td>
-<td align="left" width="63%">
-The <b>IWiaDrvItem::GetItemFlags</b> method gets the item flags of the current <b>IWiaDrvItem</b> item.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiadrvitem-getitemname">GetItemName</a>
-</td>
-<td align="left" width="63%">
-The <b>IWiaDrvItem::GetItemName</b> method gets the current <b>IWiaDrvItem</b> item name, not including path information.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiadrvitem-getnextsiblingitem">GetNextSiblingItem</a>
-</td>
-<td align="left" width="63%">
-The <b>IWiaDrvItem::GetNextSiblingItem</b> method gets the next sibling of the current item in an <b>IWiaDrvItem</b> folder.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiadrvitem-getparentitem">GetParentItem</a>
-</td>
-<td align="left" width="63%">
-The <b>IWiaDrvItem::GetParentItem</b> gets the parent item of the current item.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiadrvitem-removeitemfromfolder">RemoveItemFromFolder</a>
-</td>
-<td align="left" width="63%">
-The <b>IWiaDrvItem::RemoveItemFromFolder</b> method removes an item from a parent folder.
-
-</td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiadrvitem-unlinkitemtree">UnlinkItemTree</a>
-</td>
-<td align="left" width="63%">
-The <b>IWiaDrvItem::UnlinkItemTree</b> method unlinks the driver item tree and releases all items in the tree.
-
-</td>
-</tr>
-</table> 
-
+| Method | Description |
+| --- | --- |
+| [AddItemToFolder](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiadrvitem-additemtofolder) | The AddItemToFolder method adds an IWiaDrvItem item to a folder in a driver item tree. |
+| [DumpItemData](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiadrvitem-dumpitemdata) | The **IWiaDrvItem::DumpItemData** method dumps private data associated with an **IWiaDrvItem** item into an allocated private buffer. |
+| [FindChildItemByName](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiadrvitem-findchilditembyname) | The **IWiaDrvItem::FindChildItemByName** method searches the driver item tree for a specific child item. |
+| [FindItemByName](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiadrvitem-finditembyname) | The **IWiaDrvItem::FindItemByName** method locates an item in a driver item tree by the item's full name. |
+| [GetDeviceSpecContext](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiadrvitem-getdevicespeccontext) | The **IWiaDrvItem::GetDeviceSpecContext** method gets a device-specific context. |
+| [GetFirstChildItem](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiadrvitem-getfirstchilditem) | The **IWiaDrvItem::GetFirstChildItem** method gets the first child item in an **IWiaDrvItem** folder item. |
+| [GetFullItemName](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiadrvitem-getfullitemname) | The **IWiaDrvItem::GetFullItemName** method gets the item's full name, including path information. |
+| [GetItemFlags](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiadrvitem-getitemflags) | The **IWiaDrvItem::GetItemFlags** method gets the item flags of the current **IWiaDrvItem** item. |
+| [GetItemName](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiadrvitem-getitemname) | The **IWiaDrvItem::GetItemName** method gets the current **IWiaDrvItem** item name, not including path information. |
+| [GetNextSiblingItem](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiadrvitem-getnextsiblingitem) | The **IWiaDrvItem::GetNextSiblingItem** method gets the next sibling of the current item in an **IWiaDrvItem** folder. |
+| [GetParentItem](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiadrvitem-getparentitem) | The **IWiaDrvItem::GetParentItem** gets the parent item of the current item. |
+| [RemoveItemFromFolder](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiadrvitem-removeitemfromfolder) | The **IWiaDrvItem::RemoveItemFromFolder** method removes an item from a parent folder. |
+| [UnlinkItemTree](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiadrvitem-unlinkitemtree) | The **IWiaDrvItem::UnlinkItemTree** method unlinks the driver item tree and releases all items in the tree. |
