@@ -277,6 +277,8 @@ To allow IPsec to process inbound packets first, the callout that inspects the t
     FwpsGetPacketListSecurityInformation0</a> function. The callout driver must wait for the packet to be
     detunneled and then should intercept it at the transport layer or at a forward layer.
 
+Due to the TCP protocol locking semantics, TCP can only be injected Out of Band at any transport layer or equivalent layer, so FwpsInjectTransportReceiveAsync0 and FwpsInjectTransportSendAsync0 must be queued and run by a DPC.
+
 This function can be called from one of the following transport layers if the
     <b>FWPS_METADATA_FIELD_ALE_CLASSIFY_REQUIRED</b> metadata flag is not set:
 
