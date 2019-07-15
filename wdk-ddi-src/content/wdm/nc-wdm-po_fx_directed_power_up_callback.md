@@ -84,7 +84,7 @@ Register your implementation of this callback function by setting the appropriat
 When this callback is invoked, the driver typically performs the following high-level tasks:
 
 - Request a D0 IRP to power up the device.
-- After the D0 IRP completes, call [**PoFxCompleteDirectedPowerDown**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-pofxcompletedirectedpowerdown).  This implicitly completes the Directed power up transition back to PoFx.
+- After the D0 IRP completes, call [**PoFxReportDevicePoweredOn**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-pofxreportdevicepoweredon).
 - Unblock I/O queues and start processing requests normally.
 
 Once the driver completes the Directed power up call, it can resume runtime-idle (RTD3) behavior.
