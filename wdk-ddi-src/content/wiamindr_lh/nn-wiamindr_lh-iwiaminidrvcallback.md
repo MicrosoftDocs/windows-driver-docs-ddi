@@ -50,10 +50,6 @@ This method can also convey status information, such as the percentage of data t
 
 ## -inheritance
 
-The **IWiaMiniDrvCallBack** interface inherits from the [IUnknown](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) interface. **IWiaMiniDrvCallBack** also has these types of members:
-
-- Methods
-
 ## -members
 
 The **IWiaMiniDrvCallBack** interface has these methods.
