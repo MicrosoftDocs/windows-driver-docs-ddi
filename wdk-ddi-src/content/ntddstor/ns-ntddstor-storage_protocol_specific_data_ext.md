@@ -62,7 +62,7 @@ Sub-value of the protocol data value.
 
 ### -field ProtocolDataOffset
 
-The offset of the data buffer that is from the beginning of this structure. The typical value is **sizeof**(STORAGE_PROTOCOL_SPECIFIC_DATA_EXT).
+The offset of the data buffer from the beginning of this structure. The typical value is **sizeof**(STORAGE_PROTOCOL_SPECIFIC_DATA_EXT).
 
 ### -field ProtocolDataLength
 
