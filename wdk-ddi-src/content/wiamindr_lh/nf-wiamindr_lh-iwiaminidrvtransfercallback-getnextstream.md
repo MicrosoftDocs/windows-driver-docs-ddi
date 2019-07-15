@@ -76,9 +76,9 @@ When the current transfer sequence is cancelled, the **GetNextStream** method re
 
 ## -see-also
 
-[Cancellation of Data Transfers in Windows Vista](https://docs.microsoft.com/windows-hardware/drivers/image/cancellation-of-data-transfers-in-windows-vista)
+[Cancellation of Data Transfers](https://docs.microsoft.com/windows-hardware/drivers/image/cancellation-of-data-transfers-in-windows-vista)
 
-[Data Transfer Between Legacy Application and Windows Vista Driver](https://docs.microsoft.com/windows-hardware/drivers/image/data-transfer-between-legacy-application-and-windows-vista-driver)
+[Data Transfer Between Legacy Application and Windows Driver](https://docs.microsoft.com/windows-hardware/drivers/image/data-transfer-between-legacy-application-and-windows-vista-driver)
 
 [IWiaMiniDrvTransferCallback](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nn-wiamindr_lh-iwiaminidrvtransfercallback)
 

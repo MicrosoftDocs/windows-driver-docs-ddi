@@ -59,9 +59,9 @@ The **IWiaMiniDrvTransferCallback** interface has these methods.
 
 ## -see-also
 
-[Cancellation of Data Transfers in Windows Vista](https://docs.microsoft.com/windows-hardware/drivers/image/cancellation-of-data-transfers-in-windows-vista)
+[Cancellation of Data Transfers](https://docs.microsoft.com/windows-hardware/drivers/image/cancellation-of-data-transfers-in-windows-vista)
 
-[Data Transfer Between Legacy Application and Windows Vista Driver](https://docs.microsoft.com/windows-hardware/drivers/image/data-transfer-between-legacy-application-and-windows-vista-driver)
+[Data Transfer Between Legacy Application and Windows Driver](https://docs.microsoft.com/windows-hardware/drivers/image/data-transfer-between-legacy-application-and-windows-vista-driver)
 
 [IStream Transfer Driver Example](https://docs.microsoft.com/windows-hardware/drivers/image/istream-transfer-driver-example)
 
