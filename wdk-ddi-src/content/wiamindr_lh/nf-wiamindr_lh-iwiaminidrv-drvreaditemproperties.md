@@ -52,31 +52,31 @@ The **IWiaMiniDrv::drvReadItemProperties** method reads the driver item properti
 
 lFlags [in]
 
-Is reserved. Set to zero.
+- Is reserved. Set to zero.
 
 ### -param __MIDL__IWiaMiniDrv0026
 
 nPropSpec [in]
 
-Indicates the number of items in the *pPropSpec* array.
+- Indicates the number of items in the *pPropSpec* array.
 
 ### -param __MIDL__IWiaMiniDrv0027
 
 pPropSpec [in]
 
-Points to the first element of an array of [PROPSPEC](https://docs.microsoft.com/windows/win32/api/propidlbase/ns-propidlbase-propspec) structures.
+- Points to the first element of an array of [PROPSPEC](https://docs.microsoft.com/windows/win32/api/propidlbase/ns-propidlbase-propspec) structures.
 
 ### -param __MIDL__IWiaMiniDrv0028
 
 pWiasContext [in]
 
-Pointer to a WIA item context.
+- Pointer to a WIA item context.
 
 ### -param __MIDL__IWiaMiniDrv0029
 
 plDevErrVal [out]
 
-Points to a memory location that will receive a status code for this method. If this method returns S_OK, the value stored will be zero. Otherwise, a minidriver-specific error code will be stored at the location pointed to by this parameter.
+- Points to a memory location that will receive a status code for this method. If this method returns S_OK, the value stored will be zero. Otherwise, a minidriver-specific error code will be stored at the location pointed to by this parameter.
 
 #### - lFlags [in]
 
