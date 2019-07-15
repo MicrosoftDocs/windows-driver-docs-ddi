@@ -11,7 +11,7 @@ ms.topic: method
 req.header: wiamindr_lh.h
 req.include-header: Wiamindr.h
 req.target-type: Desktop
-req.target-min-winverclnt: Available in Windows Me and in Windows XP and later.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -42,135 +42,88 @@ req.typenames:
 
 # IWiaMiniDrv::drvGetCapabilities
 
-
 ## -description
 
-
-The <b>IWiaMiniDrv::drvGetCapabilities</b> method returns an array of events and commands that a device supports.
-
+The **IWiaMiniDrv::drvGetCapabilities** method returns an array of events and commands that a device supports.
 
 ## -parameters
 
-
-
-
 ### -param __MIDL__IWiaMiniDrv0048
 
+lFlags [in]
 
+- Specifies whether the array pointed to by *ppCapabilites* consists of commands, or events, or both. This parameter can be either of the following flags or of both of them combined by an OR operator.
 
+  | Flag | Meaning |
+  | --- | --- |
+  | WIA_DEVICE_COMMANDS | The array consists of device commands. |
+  | WIA_DEVICE_EVENTS | The array consists of device events. |
 
 ### -param __MIDL__IWiaMiniDrv0049
 
+pWiasContext [in]
 
-
+- Pointer to a WIA item context.
 
 ### -param __MIDL__IWiaMiniDrv0050
 
+pcelt [out]
 
-
+- Points to a memory location that will receive the number of elements in the array pointed to by the *ppCapabilities* parameter.
 
 ### -param __MIDL__IWiaMiniDrv0051
 
+plDevErrVal [out]
 
-
+- Points to a memory location that will receive a status code for this method. If this method returns S_OK, the value stored will be zero. Otherwise, a minidriver-specific error code will be stored at the location pointed to by this parameter.
 
 ### -param __MIDL__IWiaMiniDrv0052
 
+ppCapabilities [out, optional]
 
-
-
-
+- Points to a memory location that will receive the address of the first element of an array of [WIA_DEV_CAP_DRV](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/ns-wiamindr_lh-_wia_dev_cap_drv) structures that contain the GUIDs of events and commands that the device supports.
 
 #### - lFlags [in]
 
-Specifies whether the array pointed to by <i>ppCapabilites</i> consists of commands, or events, or both. This parameter can be either of the following flags or of both of them combined by an OR operator.
+Specifies whether the array pointed to by *ppCapabilites* consists of commands, or events, or both. This parameter can be either of the following flags or of both of them combined by an OR operator.
 
-<table>
-<tr>
-<th>Flag</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-WIA_DEVICE_COMMANDS
-
-</td>
-<td>
-The array consists of device commands.
-
-</td>
-</tr>
-<tr>
-<td>
-WIA_DEVICE_EVENTS
-
-</td>
-<td>
-The array consists of device events.
-
-</td>
-</tr>
-</table>
- 
-
+| Flag | Meaning |
+| --- | --- |
+| WIA_DEVICE_COMMANDS | The array consists of device commands. |
+| WIA_DEVICE_EVENTS | The array consists of device events. |
 
 #### - pWiasContext [in]
 
 Pointer to a WIA item context.
 
-
 #### - pcelt [out]
 
-Points to a memory location that will receive the number of elements in the array pointed to by the <i>ppCapabilities</i> parameter.
-
+Points to a memory location that will receive the number of elements in the array pointed to by the *ppCapabilities* parameter.
 
 #### - plDevErrVal [out]
 
 Points to a memory location that will receive a status code for this method. If this method returns S_OK, the value stored will be zero. Otherwise, a minidriver-specific error code will be stored at the location pointed to by this parameter.
 
-
 #### - ppCapabilities [out, optional]
 
-Points to a memory location that will receive the address of the first element of an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/ns-wiamindr_lh-_wia_dev_cap_drv">WIA_DEV_CAP_DRV</a> structures that contain the GUIDs of events and commands that the device supports. 
-
+Points to a memory location that will receive the address of the first element of an array of [WIA_DEV_CAP_DRV](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/ns-wiamindr_lh-_wia_dev_cap_drv) structures that contain the GUIDs of events and commands that the device supports.
 
 ## -returns
 
+On success, the method should return S_OK and clear the device error value pointed to by *plDevErrVal*. If the method fails, it should return a standard COM error code and place a minidriver-specific error code value in the memory pointed to by *plDevErrVal*.
 
-
-On success, the method should return S_OK and clear the device error value pointed to by <i>plDevErrVal</i>. If the method fails, it should return a standard COM error code and place a minidriver-specific error code value in the memory pointed to by <i>plDevErrVal</i>. 
-
-The value pointed to by <i>plDevErrVal</i> can be converted to a string by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvgetdeviceerrorstr">IWiaMiniDrv::drvGetDeviceErrorStr</a>.
-
-
-
+The value pointed to by *plDevErrVal* can be converted to a string by calling [IWiaMiniDrv::drvGetDeviceErrorStr](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvgetdeviceerrorstr).
 
 ## -remarks
 
+The WIA service calls the minidriver method **IWiaMiniDrv::drvGetCapabilities** to obtain a list of hardware command capabilities and/or device events. In response to this call, a minidriver sets *ppCapabilities* with the address of an array of pointers to GUID data. Each GUID corresponds to an event notification or a device command supported by the imaging device. When the *lFlags* parameter is set to WIA_DEVICE_COMMANDS, the array of GUIDs contains device commands. When *lFlags* is set to WIA_DEVICE_EVENTS, the array of GUIDs contains events. If *lFlags* is set to WIA_DEVICE_COMMANDS | WIA_DEVICE_EVENTS, the array of GUIDs contains both events and commands, listed in that order.
 
-
-The WIA service calls the minidriver method <b>IWiaMiniDrv::drvGetCapabilities</b> to obtain a list of hardware command capabilities and/or device events. In response to this call, a minidriver sets <i>ppCapabilities</i> with the address of an array of pointers to GUID data. Each GUID corresponds to an event notification or a device command supported by the imaging device. When the <i>lFlags</i> parameter is set to WIA_DEVICE_COMMANDS, the array of GUIDs contains device commands. When <i>lFlags</i> is set to WIA_DEVICE_EVENTS, the array of GUIDs contains events. If <i>lFlags</i> is set to WIA_DEVICE_COMMANDS | WIA_DEVICE_EVENTS, the array of GUIDs contains both events and commands, listed in that order.
-
-The <i>Wiadef.h</i> header lists several predefined commands and events.
-
-
-
+The *Wiadef.h* header lists several predefined commands and events.
 
 ## -see-also
 
+[IWiaMiniDrv](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nn-wiamindr_lh-iwiaminidrv)
 
+[IWiaMiniDrv::drvGetDeviceErrorStr](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvgetdeviceerrorstr)
 
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nn-wiamindr_lh-iwiaminidrv">IWiaMiniDrv</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvgetdeviceerrorstr">IWiaMiniDrv::drvGetDeviceErrorStr</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/ns-wiamindr_lh-_wia_dev_cap_drv">WIA_DEV_CAP_DRV</a>
- 
-
- 
-
+[WIA_DEV_CAP_DRV](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/ns-wiamindr_lh-_wia_dev_cap_drv)
