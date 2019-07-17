@@ -8,6 +8,8 @@ ms.assetid: 238d0b22-bd35-4e8d-9bb5-283af2bbb75b
 ms.date: 03/29/2018
 ms.keywords: DISK_CACHE_RETENTION_PRIORITY, DISK_CACHE_RETENTION_PRIORITY enumeration [Storage Devices], EqualPriority, KeepPrefetchedData, KeepReadData, ntdddisk/DISK_CACHE_RETENTION_PRIORITY, ntdddisk/EqualPriority, ntdddisk/KeepPrefetchedData, ntdddisk/KeepReadData, storage.disk_cache_retention_priority, structs-disk_19939b68-659e-4546-8419-7e1e141b8291.xml
 ms.topic: enum
+f1_keywords:
+ - "ntdddisk/DISK_CACHE_RETENTION_PRIORITY"
 req.header: ntdddisk.h
 req.include-header: Ntdddisk.h
 req.target-type: Windows

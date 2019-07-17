@@ -5,6 +5,8 @@ description: Used to adjust full screen gamma.
 ms.assetid: 655472c6-a8d5-4b7e-a6cf-02253582d656
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/_D3DKMT_ADJUSTFULLSCREENGAMMA"
 ms.keywords: _D3DKMT_ADJUSTFULLSCREENGAMMA, D3DKMT_ADJUSTFULLSCREENGAMMA, 
 req.header: d3dkmthk.h
 req.include-header:

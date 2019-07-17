@@ -5,6 +5,8 @@ description: A struct containing information about a particular debug event.
 ms.assetid: 33b3830f-8257-4dde-970f-2e21d7b7a831
 ms.date: 07/16/2018
 ms.topic: struct
+f1_keywords:
+ - "dbgmodel/ScriptDebugEventInformation"
 ms.keywords: ScriptDebugEventInformation, , 
 req.header: dbgmodel.h
 req.include-header:

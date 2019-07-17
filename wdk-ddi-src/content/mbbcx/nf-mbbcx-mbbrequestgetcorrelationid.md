@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 666340d8-3c73-4072-afbb-a51267d307ac
 ms.date: 06/29/2018
 ms.topic: function
+f1_keywords:
+ - "mbbcx/MbbRequestGetCorrelationId"
 ms.keywords: MbbRequestGetCorrelationId
 req.header: mbbcx.h
 req.include-header:

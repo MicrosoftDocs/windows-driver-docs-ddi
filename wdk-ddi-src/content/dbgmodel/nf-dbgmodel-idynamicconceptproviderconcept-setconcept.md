@@ -5,6 +5,8 @@ description: The SetConcept method on a dynamic concept provider is effectively 
 ms.assetid: f65dace2-4cb8-4395-a16e-6467aa9c282e
 ms.date: 09/19/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDynamicConceptProviderConcept.SetConcept"
 ms.keywords: IDynamicConceptProviderConcept::SetConcept, SetConcept, IDynamicConceptProviderConcept.SetConcept, IDynamicConceptProviderConcept::SetConcept, IDynamicConceptProviderConcept.SetConcept
 req.header: dbgmodel.h
 req.include-header:

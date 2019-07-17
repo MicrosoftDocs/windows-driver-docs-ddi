@@ -8,6 +8,8 @@ ms.assetid: 44792a1f-c6d5-4491-a06d-e00e41e40059
 ms.date: 05/02/2018
 ms.keywords: NdisMDeregisterScatterGatherDma, NdisMDeregisterScatterGatherDma function [Network Drivers Starting with Windows Vista], ndis/NdisMDeregisterScatterGatherDma, ndis_sgdma_ref_93a42580-1486-4ec8-90e6-ca6219c54884.xml, netvista.ndismderegisterscattergatherdma
 ms.topic: function
+f1_keywords:
+ - "ndis/NdisMDeregisterScatterGatherDma"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

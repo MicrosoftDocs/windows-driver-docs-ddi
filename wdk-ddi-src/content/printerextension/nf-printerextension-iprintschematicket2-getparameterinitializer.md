@@ -8,6 +8,8 @@ ms.assetid: E5403359-A757-4530-B17B-C80E8A45AA92
 ms.date: 04/20/2018
 ms.keywords: GetParameterInitializer, GetParameterInitializer method [Print Devices], GetParameterInitializer method [Print Devices],IPrintSchematicket2 interface, IPrintSchemaTicket2.GetParameterInitializer, IPrintSchemaTicket2::GetParameterInitializer, IPrintSchematicket2 interface [Print Devices],GetParameterInitializer method, IPrintSchematicket2::GetParameterInitializer, print.iprintschematicket2_getparameterinitializer, printerextension/IPrintSchematicket2::GetParameterInitializer
 ms.topic: method
+f1_keywords:
+ - "printerextension/IPrintSchematicket2.GetParameterInitializer"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop

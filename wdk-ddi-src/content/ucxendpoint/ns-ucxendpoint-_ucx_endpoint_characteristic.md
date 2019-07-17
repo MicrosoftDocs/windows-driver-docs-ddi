@@ -8,6 +8,8 @@ ms.assetid: 4785D94B-271C-4F8E-B95B-87401E32CE42
 ms.date: 05/07/2018
 ms.keywords: "*PUCX_ENDPOINT_CHARACTERISTIC, PUCX_ENDPOINT_CHARACTERISTIC, PUCX_ENDPOINT_CHARACTERISTIC structure pointer [Buses], UCX_ENDPOINT_CHARACTERISTIC, UCX_ENDPOINT_CHARACTERISTIC structure [Buses], _UCX_ENDPOINT_CHARACTERISTIC, buses.ucx_endpoint_characteristic, ucxendpoint/PUCX_ENDPOINT_CHARACTERISTIC, ucxendpoint/UCX_ENDPOINT_CHARACTERISTIC"
 ms.topic: struct
+f1_keywords:
+ - "ucxendpoint/UCX_ENDPOINT_CHARACTERISTIC"
 req.header: ucxendpoint.h
 req.include-header: Ucxclass.h
 req.target-type: Windows

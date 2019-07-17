@@ -8,6 +8,8 @@ ms.assetid: 509f4fa5-37c8-4098-aade-767aad5d6d6a
 ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectDriverDefIntRef_d7e26200-d711-4c81-92d6-d2c2c1f052b0.xml, WDF_QUERY_INTERFACE_CONFIG_INIT, WDF_QUERY_INTERFACE_CONFIG_INIT function, kmdf.wdf_query_interface_config_init, wdf.wdf_query_interface_config_init, wdfqueryinterface/WDF_QUERY_INTERFACE_CONFIG_INIT
 ms.topic: function
+f1_keywords:
+ - "wdfqueryinterface/WDF_QUERY_INTERFACE_CONFIG_INIT"
 req.header: wdfqueryinterface.h
 req.include-header: Wdf.h
 req.target-type: Universal

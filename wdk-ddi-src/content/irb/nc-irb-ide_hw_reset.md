@@ -8,6 +8,8 @@ ms.assetid: 722810c8-ddf2-4910-8cf3-af3511d8c167
 ms.date: 03/29/2018
 ms.keywords: IDE_HW_RESET, IdeHwReset, IdeHwReset routine [Storage Devices], atartns_c3c999ac-3737-48ab-be9b-99c83013b878.xml, irb/IdeHwReset, storage.idehwreset
 ms.topic: callback
+f1_keywords:
+ - "irb/IdeHwReset"
 req.header: irb.h
 req.include-header: Irb.h
 req.target-type: Desktop

@@ -8,6 +8,8 @@ ms.assetid: B98F669D-D0DE-4FF2-903C-D51E0FEEE840
 ms.date: 05/08/2018
 ms.keywords: HDAudioUnsolicitedResponseCallback, HDAudioUnsolicitedResponseCallback callback function [Audio Devices], PHDAUDIO_UNSOLICITED_RESPONSE_CALLBACK, PHDAUDIO_UNSOLICITED_RESPONSE_CALLBACK callback, audio.phdaudio_unsolicited_response_callback, hdaudio/HDAudioUnsolicitedResponseCallback
 ms.topic: callback
+f1_keywords:
+ - "hdaudio/HDAudioUnsolicitedResponseCallback"
 req.header: hdaudio.h
 req.include-header: 
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: b73ec39c-8d93-4992-8791-5070a088701a
 ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectChildListRef_9ee2403b-4dcb-41cc-9f53-9e96f6f41c4f.xml, EVT_WDF_CHILD_LIST_ADDRESS_DESCRIPTION_COPY, EVT_WDF_CHILD_LIST_ADDRESS_DESCRIPTION_COPY callback, EvtChildListAddressDescriptionCopy, EvtChildListAddressDescriptionCopy callback function, kmdf.evtchildlistaddressdescriptioncopy, wdf.evtchildlistaddressdescriptioncopy, wdfchildlist/EvtChildListAddressDescriptionCopy
 ms.topic: callback
+f1_keywords:
+ - "wdfchildlist/EvtChildListAddressDescriptionCopy"
 req.header: wdfchildlist.h
 req.include-header: Wdf.h
 req.target-type: Universal

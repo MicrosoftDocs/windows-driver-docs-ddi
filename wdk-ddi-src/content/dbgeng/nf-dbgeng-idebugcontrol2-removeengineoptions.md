@@ -8,6 +8,8 @@ ms.assetid: ec4cf252-88c4-47de-9015-bcbbd1fd5d1d
 ms.date: 05/03/2018
 ms.keywords: IDebugControl interface [Windows Debugging],RemoveEngineOptions method, IDebugControl2 interface [Windows Debugging],RemoveEngineOptions method, IDebugControl2.RemoveEngineOptions, IDebugControl2::RemoveEngineOptions, IDebugControl3 interface [Windows Debugging],RemoveEngineOptions method, IDebugControl3::RemoveEngineOptions, IDebugControl::RemoveEngineOptions, IDebugControl_b1af0528-4fc2-4ea3-90e8-c7d92b0632f4.xml, RemoveEngineOptions, RemoveEngineOptions method [Windows Debugging], RemoveEngineOptions method [Windows Debugging],IDebugControl interface, RemoveEngineOptions method [Windows Debugging],IDebugControl2 interface, RemoveEngineOptions method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::RemoveEngineOptions, dbgeng/IDebugControl3::RemoveEngineOptions, dbgeng/IDebugControl::RemoveEngineOptions, debugger.removeengineoptions
 ms.topic: method
+f1_keywords:
+ - "dbgeng/IDebugControl.RemoveEngineOptions"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h, Dbgeng.h, Dbgeng.h
 req.target-type: Desktop

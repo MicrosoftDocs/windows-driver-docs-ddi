@@ -5,6 +5,8 @@ description: The PHYSICAL_ELEMENT_STATUS_DATA_DESCRIPTOR structure contains stat
 ms.assetid: 55db36a7-f2ad-4246-a1d8-b2a589ee3c61
 ms.date: 09/10/2018
 ms.topic: struct
+f1_keywords:
+ - "scsi/_PHYSICAL_ELEMENT_STATUS_DATA_DESCRIPTOR"
 ms.keywords: _PHYSICAL_ELEMENT_STATUS_DATA_DESCRIPTOR, PHYSICAL_ELEMENT_STATUS_DATA_DESCRIPTOR, *PPHYSICAL_ELEMENT_STATUS_DATA_DESCRIPTOR, 
 req.header: scsi.h
 req.include-header: scsi.h, storport.h, minitape.h

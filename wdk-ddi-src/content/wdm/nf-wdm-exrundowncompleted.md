@@ -8,6 +8,8 @@ ms.assetid: CF1650C2-4141-4AD7-A3FC-A800B2281A8A
 ms.date: 04/30/2018
 ms.keywords: ExRundownCompleted, ExRundownCompleted routine [Kernel-Mode Driver Architecture], kernel.exrundowncompleted, wdm/ExRundownCompleted
 ms.topic: function
+f1_keywords:
+ - "wdm/ExRundownCompleted"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Universal

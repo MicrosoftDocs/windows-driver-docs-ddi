@@ -8,6 +8,8 @@ ms.assetid: bd924049-3932-4e85-908e-c3fb488b3a8c
 ms.date: 02/16/2018
 ms.keywords: DOT11EXTIHV_STOP_POST_ASSOCIATE, Dot11ExtIhvStopPostAssociate, Dot11ExtIhvStopPostAssociate callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_674652ff-a01d-493b-9b11-bff378f25f2a.xml, netvista.dot11extihvstoppostassociate, wlanihv/Dot11ExtIhvStopPostAssociate
 ms.topic: callback
+f1_keywords:
+ - "wlanihv/Dot11ExtIhvStopPostAssociate"
 req.header: wlanihv.h
 req.include-header: Wlanihv.h, Windot11.h
 req.target-type: Desktop

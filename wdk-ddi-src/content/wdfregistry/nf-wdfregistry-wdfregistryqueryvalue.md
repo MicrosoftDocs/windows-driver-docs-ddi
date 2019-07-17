@@ -8,6 +8,8 @@ ms.assetid: 1d61e35a-64c6-42e0-b20d-969ded8b9750
 ms.date: 02/26/2018
 ms.keywords: DFRegKeyObjectRef_703acb47-ac90-4715-a290-122d4ee3449e.xml, WdfRegistryQueryValue, WdfRegistryQueryValue method, kmdf.wdfregistryqueryvalue, wdf.wdfregistryqueryvalue, wdfregistry/WdfRegistryQueryValue
 ms.topic: function
+f1_keywords:
+ - "wdfregistry/WdfRegistryQueryValue"
 req.header: wdfregistry.h
 req.include-header: Wdf.h
 req.target-type: Universal

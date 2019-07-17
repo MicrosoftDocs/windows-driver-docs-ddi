@@ -5,6 +5,8 @@ description: The IModelObject interface encapsulates the notion of an object -- 
 ms.assetid: d4ac8601-7610-40af-8fe5-0ce0d96fe124
 ms.date: 07/20/2018
 ms.topic: interface
+f1_keywords:
+ - "dbgmodel/IModelObject"
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:

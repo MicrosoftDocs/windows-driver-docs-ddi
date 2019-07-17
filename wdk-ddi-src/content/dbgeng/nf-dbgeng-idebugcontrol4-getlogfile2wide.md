@@ -8,6 +8,8 @@ ms.assetid: 8c11811f-c3d3-494b-98d7-15540d5afb24
 ms.date: 05/03/2018
 ms.keywords: GetLogFile2Wide, GetLogFile2Wide method [Windows Debugging], GetLogFile2Wide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetLogFile2Wide method, IDebugControl4.GetLogFile2Wide, IDebugControl4::GetLogFile2Wide, dbgeng/IDebugControl4::GetLogFile2Wide, debugger.getlogfile2wide
 ms.topic: method
+f1_keywords:
+ - "dbgeng/IDebugControl4.GetLogFile2Wide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

@@ -5,6 +5,8 @@ description: Implemented by the client driver to create a command pool.
 ms.assetid: 04cc7078-a69b-4783-adea-21131baf49dd
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_CREATE_COMMAND_POOL_0040"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

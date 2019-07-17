@@ -8,6 +8,8 @@ ms.assetid: 10CAB3CA-83BF-421B-81F5-2B42790B8928
 ms.date: 04/30/2018
 ms.keywords: "*PPEP_PROCESSOR_IDLE_STATE, PEP_PROCESSOR_IDLE_STATE, PEP_PROCESSOR_IDLE_STATE structure [Kernel-Mode Driver Architecture], PPEP_PROCESSOR_IDLE_STATE, PPEP_PROCESSOR_IDLE_STATE structure pointer [Kernel-Mode Driver Architecture], _PEP_PROCESSOR_IDLE_STATE, kernel.pep_processor_idle_state, pep_x/PEP_PROCESSOR_IDLE_STATE, pep_x/PPEP_PROCESSOR_IDLE_STATE"
 ms.topic: struct
+f1_keywords:
+ - "pep_x/PEP_PROCESSOR_IDLE_STATE"
 req.header: pep_x.h
 req.include-header: Pepfx.h
 req.target-type: Windows

@@ -5,6 +5,8 @@ description: Set the virtual machine data.
 ms.assetid: 1fae41c4-5e88-4936-a6ea-f69668ba2bf1
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmddi/DXGKDDI_SETVIRTUALMACHINEDATA"
 req.header: d3dkmddi.h
 req.include-header:
 req.target-type:

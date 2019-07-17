@@ -8,6 +8,8 @@ ms.assetid: 9159A6ED-0D85-422D-936A-13D7EC907A7C
 ms.date: 05/07/2018
 ms.keywords: UcmInitializeDevice, UcmInitializeDevice method [Buses], buses.ucminitializedevice, ucmmanager/UcmInitializeDevice
 ms.topic: function
+f1_keywords:
+ - "ucmmanager/UcmInitializeDevice"
 req.header: ucmmanager.h
 req.include-header: Ucmcx.h
 req.target-type: Windows

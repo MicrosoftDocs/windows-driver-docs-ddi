@@ -8,6 +8,8 @@ ms.assetid: e25db70f-04bf-4fb1-8ff5-2beb4c825797
 ms.date: 04/30/2018
 ms.keywords: RtlVolumeDeviceToDosName, RtlVolumeDeviceToDosName routine [Kernel-Mode Driver Architecture], k109_a95aea8c-1156-4852-b4eb-38d2f141fcca.xml, kernel.rtlvolumedevicetodosname, ntddk/RtlVolumeDeviceToDosName
 ms.topic: function
+f1_keywords:
+ - "ntddk/RtlVolumeDeviceToDosName"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal

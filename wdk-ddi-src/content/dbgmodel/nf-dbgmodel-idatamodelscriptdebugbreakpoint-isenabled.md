@@ -5,6 +5,8 @@ description: The IsEnabled method returns whether or not the breakpoint is enabl
 ms.assetid: ff1e0637-59d8-4c5f-8d18-3e53da13d701
 ms.date: 09/10/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDataModelScriptDebugBreakpoint.IsEnabled"
 ms.keywords: IDataModelScriptDebugBreakpoint::IsEnabled, IsEnabled, IDataModelScriptDebugBreakpoint.IsEnabled, IDataModelScriptDebugBreakpoint::IsEnabled, IDataModelScriptDebugBreakpoint.IsEnabled
 req.header: dbgmodel.h
 req.include-header:

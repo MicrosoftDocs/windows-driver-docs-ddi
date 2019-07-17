@@ -8,6 +8,8 @@ ms.assetid: 3e6153aa-7b21-429d-8908-1ff3a4d25e17
 ms.date: 05/10/2018
 ms.keywords: DecodeBeginFrame, DecodeBeginFrame callback function [Display Devices], PFND3DDDI_DECODEBEGINFRAME, PFND3DDDI_DECODEBEGINFRAME callback, UserModeDisplayDriver_Functions_3fab4933-b0fb-4a3f-8316-2c698775dda5.xml, d3dumddi/DecodeBeginFrame, display.decodebeginframe
 ms.topic: callback
+f1_keywords:
+ - "d3dumddi/DecodeBeginFrame"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop

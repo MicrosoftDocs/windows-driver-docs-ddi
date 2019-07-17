@@ -5,6 +5,8 @@ description: Pfnd3dkmtMarkdeviceaserror marks a device as error.
 ms.assetid: 12dc7034-0fec-46ec-aa90-5a3068fca98e
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/PFND3DKMT_MARKDEVICEASERROR"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

@@ -8,6 +8,8 @@ ms.assetid: 96520e0c-8a60-419a-97f2-f1fe71019570
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
+f1_keywords:
+ - "ntddk/WHEA_ERROR_RECORD_HEADER_FLAGS"
 ms.keywords: WHEA_ERROR_RECORD_HEADER_FLAGS, WHEA_ERROR_RECORD_HEADER_FLAGS, *PWHEA_ERROR_RECORD_HEADER_FLAGS, 
 req.header: ntddk.h
 req.include-header:

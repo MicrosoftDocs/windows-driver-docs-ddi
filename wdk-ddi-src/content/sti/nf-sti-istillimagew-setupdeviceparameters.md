@@ -8,6 +8,8 @@ ms.assetid: 8fbbe6c8-bf65-42df-a4e4-cb683b567bf7
 ms.date: 05/03/2018
 ms.keywords: IStillImageW interface [Imaging Devices],SetupDeviceParameters method, IStillImageW.SetupDeviceParameters, IStillImageW::SetupDeviceParameters, SetupDeviceParameters, SetupDeviceParameters method [Imaging Devices], SetupDeviceParameters method [Imaging Devices],IStillImageW interface, image.istillimage_setupdeviceparameters, sti/IStillImageW::SetupDeviceParameters, stifnc_08d945b1-ff61-4018-ae0b-5b134fc4f112.xml
 ms.topic: method
+f1_keywords:
+ - "sti/IStillImageW.SetupDeviceParameters"
 req.header: sti.h
 req.include-header: Sti.h
 req.target-type: Desktop

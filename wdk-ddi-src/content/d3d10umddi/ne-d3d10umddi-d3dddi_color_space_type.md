@@ -8,6 +8,8 @@ ms.assetid: 9d3b7a33-e1ac-4ade-a5d3-d22ea4739f65
 ms.author: windowsdriverdev
 ms.date: 04/04/19
 ms.topic: enum
+f1_keywords:
+ - "d3d10umddi/D3DDDI_COLOR_SPACE_TYPE"
 ms.keywords: D3DDDI_COLOR_SPACE_TYPE, , 
 ms.prod: windows-hardware
 ms.technology: windows-devices

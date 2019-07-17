@@ -8,6 +8,8 @@ ms.assetid: 5cfef8cc-b6b8-4b97-b8da-bf579e26f64d
 ms.date: 04/30/2018
 ms.keywords: IoRegisterContainerNotification, IoRegisterContainerNotification routine [Kernel-Mode Driver Architecture], k104_f99c2826-04ed-4aa6-9f19-6f97953eda31.xml, kernel.ioregistercontainernotification, wdm/IoRegisterContainerNotification
 ms.topic: function
+f1_keywords:
+ - "wdm/IoRegisterContainerNotification"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Fltkernel.h
 req.target-type: Universal

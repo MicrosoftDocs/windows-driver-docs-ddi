@@ -8,6 +8,8 @@ ms.assetid: C18A13B1-C4DD-4147-8CA3-4F23E689ACF3
 ms.date: 02/23/2018
 ms.keywords: LineDisplayWindowDisplayBitmapData, LineDisplayWindowDisplayBitmapData structure, PLineDisplayWindowDisplayBitmapData, PLineDisplayWindowDisplayBitmapData structure pointer, _LineDisplayWindowDisplayBitmapData, pointofservicedriverinterface/LineDisplayWindowDisplayBitmapData, pointofservicedriverinterface/PLineDisplayWindowDisplayBitmapData, pos.linedisplaywindowdisplaybitmapdata
 ms.topic: struct
+f1_keywords:
+ - "pointofservicedriverinterface/LineDisplayWindowDisplayBitmapData"
 req.header: pointofservicedriverinterface.h
 req.include-header: Pointofservicedriverinterface.h
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: e87a4078-dbd4-4df2-bbfb-efbf76fc6279
 ms.date: 04/30/2018
 ms.keywords: ExIsResourceAcquiredLite, ExIsResourceAcquiredSharedLite, ExIsResourceAcquiredSharedLite routine [Kernel-Mode Driver Architecture], k102_e1ae158d-fd02-4962-813f-7bd87943f033.xml, kernel.exisresourceacquiredsharedlite, wdm/ExIsResourceAcquiredSharedLite
 ms.topic: function
+f1_keywords:
+ - "wdm/ExIsResourceAcquiredSharedLite"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

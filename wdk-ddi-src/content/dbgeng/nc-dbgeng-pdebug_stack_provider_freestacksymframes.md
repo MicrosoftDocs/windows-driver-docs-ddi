@@ -8,6 +8,8 @@ ms.assetid: E66742D4-A972-4096-8DDC-E8F42E8B8D25
 ms.date: 05/03/2018
 ms.keywords: FreeStackSymFrames, FreeStackSymFrames callback function [Windows Debugging], PDEBUG_STACK_PROVIDER_FREESTACKSYMFRAMES, PDEBUG_STACK_PROVIDER_FREESTACKSYMFRAMES callback, dbgeng/FreeStackSymFrames, debugger.freestacksymframes
 ms.topic: callback
+f1_keywords:
+ - "dbgeng/FreeStackSymFrames"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

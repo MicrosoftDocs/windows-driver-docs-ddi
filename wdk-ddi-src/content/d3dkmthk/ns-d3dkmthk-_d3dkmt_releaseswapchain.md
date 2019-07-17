@@ -5,6 +5,8 @@ description: Release the swap chain.
 ms.assetid: bce1cc2a-5e38-4a35-b2a2-44adbf5e0117
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/_D3DKMT_RELEASESWAPCHAIN"
 ms.keywords: _D3DKMT_RELEASESWAPCHAIN, D3DKMT_RELEASESWAPCHAIN,
 req.header: d3dkmthk.h
 req.include-header:

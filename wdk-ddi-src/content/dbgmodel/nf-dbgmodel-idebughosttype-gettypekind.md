@@ -5,6 +5,8 @@ description: The GetTypeKind method returns what kind of type (pointer, array, i
 ms.assetid: e91dc827-48b6-4295-abe8-78ff7bb25b29
 ms.date: 09/10/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDebugHostType.GetTypeKind"
 ms.keywords: IDebugHostType::GetTypeKind, GetTypeKind, IDebugHostType.GetTypeKind, IDebugHostType::GetTypeKind, IDebugHostType.GetTypeKind
 req.header: dbgmodel.h
 req.include-header:

@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 45a6b6cb-93b5-4b23-8931-00339b0f85ae
 ms.date: 01/18/2019
 ms.topic: function
+f1_keywords:
+ - "netadapter/NetAdapterInitFree"
 ms.keywords: NetAdapterInitFree
 req.header: netadapter.h
 req.include-header:

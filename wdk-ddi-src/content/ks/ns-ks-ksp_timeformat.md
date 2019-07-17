@@ -8,6 +8,8 @@ ms.assetid: 18ce5fc5-927c-4261-8966-bb12849b95c9
 ms.date: 04/23/2018
 ms.keywords: "*PKSP_TIMEFORMAT, KSP_TIMEFORMAT, KSP_TIMEFORMAT structure [Streaming Media Devices], PKSP_TIMEFORMAT, PKSP_TIMEFORMAT structure pointer [Streaming Media Devices], ks-struct_086a975b-f249-44e9-b1fa-4a945509722e.xml, ks/KSP_TIMEFORMAT, ks/PKSP_TIMEFORMAT, stream.ksp_timeformat"
 ms.topic: struct
+f1_keywords:
+ - "ks/KSP_TIMEFORMAT"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows

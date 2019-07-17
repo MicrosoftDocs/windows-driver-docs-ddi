@@ -8,6 +8,8 @@ ms.assetid: eeeea140-e469-476f-adce-4505817bc35e
 ms.date: 04/30/2018
 ms.keywords: PsSetCreateProcessNotifyRoutine, PsSetCreateProcessNotifyRoutine routine [Kernel-Mode Driver Architecture], k108_6ae7797a-ecbe-4665-85d5-e199f13613cd.xml, kernel.pssetcreateprocessnotifyroutine, ntddk/PsSetCreateProcessNotifyRoutine
 ms.topic: function
+f1_keywords:
+ - "ntddk/PsSetCreateProcessNotifyRoutine"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal

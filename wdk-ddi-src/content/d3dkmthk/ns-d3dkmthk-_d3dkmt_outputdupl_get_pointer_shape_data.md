@@ -5,6 +5,8 @@ description: Get pointer shape data.
 ms.assetid: 18d53057-6f91-407e-bd43-31711e645987
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/_D3DKMT_OUTPUTDUPL_GET_POINTER_SHAPE_DATA"
 ms.keywords: _D3DKMT_OUTPUTDUPL_GET_POINTER_SHAPE_DATA, D3DKMT_OUTPUTDUPL_GET_POINTER_SHAPE_DATA, 
 req.header: d3dkmthk.h
 req.include-header:

@@ -8,6 +8,8 @@ ms.assetid: 61c6c871-5b24-4034-9540-9e20b2f668ce
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
+f1_keywords:
+ - "d3d12umddi/D3D12DDICB_WAITFORSYNCHRONIZATIONOBJECT2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.keywords: D3D12DDICB_WAITFORSYNCHRONIZATIONOBJECT2, D3D12DDICB_WAITFORSYNCHRONIZATIONOBJECT2, 

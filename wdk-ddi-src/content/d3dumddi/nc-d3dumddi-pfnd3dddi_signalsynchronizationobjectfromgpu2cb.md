@@ -8,6 +8,8 @@ ms.assetid: 03F9E47D-A3CA-44A1-A136-8236309D3D36
 ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2CB, PFND3DDDI_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2CB callback, d3dumddi/pfnSignalSynchronizationObjectFromGpu2Cb, display.pfnsignalsynchronizationobjectfromgpu2cb, pfnSignalSynchronizationObjectFromGpu2Cb, pfnSignalSynchronizationObjectFromGpu2Cb callback function [Display Devices]
 ms.topic: callback
+f1_keywords:
+ - "d3dumddi/pfnSignalSynchronizationObjectFromGpu2Cb"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop

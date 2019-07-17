@@ -5,6 +5,8 @@ description: The KSRTAUDIO_PACKETVREGISTER structure contains information about 
 ms.assetid: 42c9a5a1-0d6c-447b-918e-70ab47c4720d
 ms.date: 09/28/2018
 ms.topic: struct
+f1_keywords:
+ - "ksmedia/KSRTAUDIO_PACKETVREGISTER"
 ms.keywords: KSRTAUDIO_PACKETVREGISTER, KSRTAUDIO_PACKETVREGISTER, *PKSRTAUDIO_PACKETVREGISTER, 
 req.header: ksmedia.h
 req.include-header:

@@ -5,6 +5,8 @@ description: Converts a 32 bit version from a 64 bit version.
 ms.assetid: 0b4496d2-0519-46b9-b23c-f11d012674c0
 ms.date: 10/19/2018
 ms.topic: macro
+f1_keywords:
+ - "d3dumddi/D3DDDI_VERSION32_FROM_VERSION64"
 ms.keywords: D3DDDI_VERSION32_FROM_VERSION64
 req.header: d3dumddi.h
 req.include-header:

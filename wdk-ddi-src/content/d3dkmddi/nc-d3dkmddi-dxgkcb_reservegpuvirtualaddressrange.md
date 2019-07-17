@@ -7,6 +7,8 @@ ms.assetid: 26A827F1-1094-4A7D-9C63-758925EE6273
 ms.date: 05/10/2018
 ms.keywords: DXGKCB_RESERVEGPUVIRTUALADDRESSRANGE, DXGKCB_RESERVEGPUVIRTUALADDRESSRANGE callback, DxgkCbReserveGpuVirtualAddressRange, DxgkCbReserveGpuVirtualAddressRange callback function [Display Devices], d3dkmddi/DxgkCbReserveGpuVirtualAddressRange, display.dxgkcbreservegpuvirtualaddressrange, dispmprt/DxgkCbReserveGpuVirtualAddressRange
 ms.topic: callback
+f1_keywords:
+ - "d3dkmddi/DxgkCbReserveGpuVirtualAddressRange"
 req.header: d3dkmddi.h
 req.include-header: Dispmprt.h
 req.target-type: Desktop

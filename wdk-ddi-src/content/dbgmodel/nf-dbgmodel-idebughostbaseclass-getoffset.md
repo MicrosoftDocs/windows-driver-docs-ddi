@@ -5,6 +5,8 @@ description: The GetOffset method returns the offset of the base class from the 
 ms.assetid: 13e58ad4-e518-4861-ba38-666e27350160
 ms.date: 08/14/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDebugHostBaseClass.GetOffset"
 ms.keywords: IDebugHostBaseClass::GetOffset, GetOffset, IDebugHostBaseClass.GetOffset, IDebugHostBaseClass::GetOffset, IDebugHostBaseClass.GetOffset
 req.header: dbgmodel.h
 req.include-header:

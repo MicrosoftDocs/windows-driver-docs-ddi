@@ -7,6 +7,8 @@ ms.assetid: 0d49a089-700e-42c0-a1f3-7b181b8aef96
 ms.date: 05/10/2018
 ms.keywords: DXGK_POINTERFLAGS, DXGK_POINTERFLAGS structure [Display Devices], DmStructs_e2e2d800-cf64-44f9-95a2-a5eca8b8c303.xml, _DXGK_POINTERFLAGS, d3dkmddi/DXGK_POINTERFLAGS, display.dxgk_pointerflags
 ms.topic: struct
+f1_keywords:
+ - "d3dkmddi/DXGK_POINTERFLAGS"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

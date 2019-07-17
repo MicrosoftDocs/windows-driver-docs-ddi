@@ -5,6 +5,8 @@ description: The GetDebugState method returns the current state of the script (w
 ms.assetid: 718209b9-68ab-43eb-a944-6aad95db4e3d
 ms.date: 08/21/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDataModelScriptDebug.GetDebugState"
 ms.keywords: IDataModelScriptDebug::GetDebugState, GetDebugState, IDataModelScriptDebug.GetDebugState, IDataModelScriptDebug::GetDebugState, IDataModelScriptDebug.GetDebugState
 req.header: dbgmodel.h
 req.include-header:

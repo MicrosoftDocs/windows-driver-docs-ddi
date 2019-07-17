@@ -8,6 +8,8 @@ ms.assetid: c31e4a4e-7bc7-43a2-8f86-e79012064fa2
 ms.date: 05/10/2018
 ms.keywords: D3DDDI_UNLOCKASYNCFLAGS, D3DDDI_UNLOCKASYNCFLAGS structure [Display Devices], D3D_other_Structs_d42c29f4-23e8-4b5c-8710-2e4153c857bf.xml, _D3DDDI_UNLOCKASYNCFLAGS, d3dumddi/D3DDDI_UNLOCKASYNCFLAGS, display.d3dddi_unlockasyncflags
 ms.topic: struct
+f1_keywords:
+ - "d3dumddi/D3DDDI_UNLOCKASYNCFLAGS"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

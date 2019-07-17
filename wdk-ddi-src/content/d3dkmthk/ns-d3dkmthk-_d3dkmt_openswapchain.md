@@ -5,6 +5,8 @@ description: Used to open a swap chain.
 ms.assetid: e4a4db5b-a3ab-45f2-bd3b-0bf808e2d6f8
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/_D3DKMT_OPENSWAPCHAIN"
 ms.keywords: _D3DKMT_OPENSWAPCHAIN, D3DKMT_OPENSWAPCHAIN,
 req.header: d3dkmthk.h
 req.include-header:

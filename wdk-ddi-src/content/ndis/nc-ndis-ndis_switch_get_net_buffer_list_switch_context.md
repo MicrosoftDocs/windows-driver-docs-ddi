@@ -8,6 +8,8 @@ ms.assetid: 68270219-7003-489B-8362-8D6867D571FD
 ms.date: 05/02/2018
 ms.keywords: GetNetBufferListSwitchContext, GetNetBufferListSwitchContext callback function [Network Drivers Starting with Windows Vista], NDIS_SWITCH_GET_NET_BUFFER_LIST_SWITCH_CONTEXT, NDIS_SWITCH_GET_NET_BUFFER_LIST_SWITCH_CONTEXT callback, ndis/GetNetBufferListSwitchContext, netvista.getnetbufferlistswitchcontext
 ms.topic: callback
+f1_keywords:
+ - "ndis/GetNetBufferListSwitchContext"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

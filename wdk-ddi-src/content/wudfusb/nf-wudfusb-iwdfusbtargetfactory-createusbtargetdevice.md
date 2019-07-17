@@ -8,6 +8,8 @@ ms.assetid: c5aeb5f4-be62-4418-981c-1dd4acdccf07
 ms.date: 02/26/2018
 ms.keywords: CreateUsbTargetDevice, CreateUsbTargetDevice method, CreateUsbTargetDevice method,IWDFUsbTargetFactory interface, IWDFUsbTargetFactory interface,CreateUsbTargetDevice method, IWDFUsbTargetFactory.CreateUsbTargetDevice, IWDFUsbTargetFactory::CreateUsbTargetDevice, UMDFDeviceObjectRef_fafba7c5-57d5-4b05-bc46-46807b94ec6d.xml, umdf.iwdfusbtargetfactory_createusbtargetdevice, wdf.iwdfusbtargetfactory_createusbtargetdevice, wudfusb/IWDFUsbTargetFactory::CreateUsbTargetDevice
 ms.topic: method
+f1_keywords:
+ - "wudfusb/IWDFUsbTargetFactory.CreateUsbTargetDevice"
 req.header: wudfusb.h
 req.include-header: Wudfusb.h
 req.target-type: Desktop

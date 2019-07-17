@@ -8,6 +8,8 @@ ms.assetid: 62aa20b7-ce5c-4d42-bce2-1d76a98887ed
 ms.date: 04/16/2018
 ms.keywords: "*PFLT_PARAMETERS, FLT_PARAMETERS, FLT_PARAMETERS union [Installable File System Drivers], FltSystemStructures_2ebb0ec7-76cc-49a3-b2ec-186f67369bbb.xml, PFLT_PARAMETERS, PFLT_PARAMETERS union pointer [Installable File System Drivers], _FLT_PARAMETERS, fltkernel/FLT_PARAMETERS, fltkernel/PFLT_PARAMETERS, ifsk.flt_parameters"
 ms.topic: struct
+f1_keywords:
+ - "fltkernel/FLT_PARAMETERS"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Windows

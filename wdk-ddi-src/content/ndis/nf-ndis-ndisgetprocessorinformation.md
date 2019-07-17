@@ -8,6 +8,8 @@ ms.assetid: 2cee5cf4-7dee-49d2-905c-2b9634137ce4
 ms.date: 05/02/2018
 ms.keywords: NdisGetProcessorInformation, NdisGetProcessorInformation function [Network Drivers Starting with Windows Vista], ndis/NdisGetProcessorInformation, ndis_sysinfo_ref_1479e4eb-4467-48da-bab6-1f60993f5ef2.xml, netvista.ndisgetprocessorinformation
 ms.topic: function
+f1_keywords:
+ - "ndis/NdisGetProcessorInformation"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

@@ -8,6 +8,8 @@ ms.assetid: F74DC3C3-C182-4BBA-93C8-95A73C58CFEF
 ms.date: 05/08/2018
 ms.keywords: BuildArmingPatternData, BuildArmingPatternData method [Audio Devices], BuildArmingPatternData method [Audio Devices],IKeywordDetectorOemAdapter interface, IKeywordDetectorOemAdapter interface [Audio Devices],BuildArmingPatternData method, IKeywordDetectorOemAdapter.BuildArmingPatternData, IKeywordDetectorOemAdapter::BuildArmingPatternData, audio.ikeyworddetectoroemadapter_buildarmingpatterndata, keyworddetectoroemadapter/IKeywordDetectorOemAdapter::BuildArmingPatternData
 ms.topic: method
+f1_keywords:
+ - "keyworddetectoroemadapter/IKeywordDetectorOemAdapter.BuildArmingPatternData"
 req.header: keyworddetectoroemadapter.h
 req.include-header: 
 req.target-type: Windows

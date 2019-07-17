@@ -5,6 +5,8 @@ description: The second version of the interface for the data model manager.  Th
 ms.assetid: 3cdf03e0-7682-4b98-906c-b4fcacc844a4
 ms.date: 06/11/2019
 ms.topic: interface
+f1_keywords:
+ - "dbgmodel/IDataModelManager2"
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:

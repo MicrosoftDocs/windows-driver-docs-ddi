@@ -8,6 +8,8 @@ ms.assetid: 66A66050-B2BF-47FA-A4E2-BF8816390B16
 ms.date: 05/07/2018
 ms.keywords: USBD_AssignUrbToIoStackLocation, USBD_AssignUrbToIoStackLocation routine [Buses], buses.usbd_assignurbtostacklocation, usbdlib/USBD_AssignUrbToIoStackLocation
 ms.topic: function
+f1_keywords:
+ - "usbdlib/USBD_AssignUrbToIoStackLocation"
 req.header: usbdlib.h
 req.include-header: 
 req.target-type: Desktop

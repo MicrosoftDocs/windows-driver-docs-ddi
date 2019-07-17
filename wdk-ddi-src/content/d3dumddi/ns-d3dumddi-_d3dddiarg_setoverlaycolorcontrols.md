@@ -8,6 +8,8 @@ ms.assetid: c8f04d2e-4c8c-4d1e-92e8-0f8722dbee5a
 ms.date: 05/10/2018
 ms.keywords: D3DDDIARG_SETOVERLAYCOLORCONTROLS, D3DDDIARG_SETOVERLAYCOLORCONTROLS structure [Display Devices], UMDisplayDriver_param_Structs_f6504b3e-8129-4936-add8-5bbf6ba8ee54.xml, _D3DDDIARG_SETOVERLAYCOLORCONTROLS, d3dumddi/D3DDDIARG_SETOVERLAYCOLORCONTROLS, display.d3dddiarg_setoverlaycolorcontrols
 ms.topic: struct
+f1_keywords:
+ - "d3dumddi/D3DDDIARG_SETOVERLAYCOLORCONTROLS"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

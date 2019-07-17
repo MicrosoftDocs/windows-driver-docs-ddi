@@ -8,6 +8,8 @@ ms.assetid: ad95d11e-c170-4c21-a498-45e38f41cbbb
 ms.date: 04/20/2018
 ms.keywords: "*PDCEVENT_CREATEDCPRE, DOCEVENT_CREATEDCPRE, DOCEVENT_CREATEDCPRE structure [Print Devices], PDCEVENT_CREATEDCPRE, PDCEVENT_CREATEDCPRE structure pointer [Print Devices], _DOCEVENT_CREATEDCPRE, print.docevent_createdcpre, print_interface-graphics_cb3123e7-a842-4fd8-b01a-4402c63bb43a.xml, winddiui/DOCEVENT_CREATEDCPRE, winddiui/PDCEVENT_CREATEDCPRE"
 ms.topic: struct
+f1_keywords:
+ - "winddiui/DOCEVENT_CREATEDCPRE"
 req.header: winddiui.h
 req.include-header: Winddiui.h
 req.target-type: Windows

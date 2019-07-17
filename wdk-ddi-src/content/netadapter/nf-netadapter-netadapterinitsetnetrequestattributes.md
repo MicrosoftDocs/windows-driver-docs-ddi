@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: fc8687c7-6c39-48bc-8aec-c9c694ab2cb1
 ms.date: 08/01/2018
 ms.topic: function
+f1_keywords:
+ - "netadapter/NetAdapterInitSetNetRequestAttributes"
 ms.keywords: NetAdapterInitSetNetRequestAttributes
 req.header: netadapter.h
 req.include-header:

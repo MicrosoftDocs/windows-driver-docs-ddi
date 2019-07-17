@@ -5,6 +5,8 @@ description: Contains the output parameters for the DxgkBrightnessGetNitRanges c
 ms.assetid: a63d2e7b-ce96-4ac4-a918-2649280fc421
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3dkmdt/_DXGK_BRIGHTNESS_GET_NIT_RANGES_OUT"
 ms.keywords: _DXGK_BRIGHTNESS_GET_NIT_RANGES_OUT, *PDXGK_BRIGHTNESS_GET_NIT_RANGES_OUT, DXGK_BRIGHTNESS_GET_NIT_RANGES_OUT,
 req.header: d3dkmdt.h
 req.include-header:

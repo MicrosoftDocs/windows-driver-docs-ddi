@@ -5,6 +5,8 @@ description: Used to query for device IDs.
 ms.assetid: 967c231d-1797-424b-94e7-947b7843babf
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/_D3DKMT_QUERY_DEVICE_IDS"
 ms.keywords: _D3DKMT_QUERY_DEVICE_IDS, D3DKMT_QUERY_DEVICE_IDS, 
 req.header: d3dkmthk.h
 req.include-header:

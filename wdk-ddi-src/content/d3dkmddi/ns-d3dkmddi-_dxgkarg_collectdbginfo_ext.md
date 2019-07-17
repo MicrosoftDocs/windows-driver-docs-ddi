@@ -7,6 +7,8 @@ ms.assetid: cbde31fe-06c1-44af-8940-b66e8044a5cd
 ms.date: 05/10/2018
 ms.keywords: DXGKARG_COLLECTDBGINFO_EXT, DXGKARG_COLLECTDBGINFO_EXT structure [Display Devices], DmStructs_3c280734-d3c8-4970-a6d8-8ad2b3dce913.xml, _DXGKARG_COLLECTDBGINFO_EXT, d3dkmddi/DXGKARG_COLLECTDBGINFO_EXT, display.dxgkarg_collectdbginfo_ext
 ms.topic: struct
+f1_keywords:
+ - "d3dkmddi/DXGKARG_COLLECTDBGINFO_EXT"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

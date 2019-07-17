@@ -8,6 +8,8 @@ ms.assetid: 62ece6f9-6cb7-47c6-8f52-68a6768a22c4
 ms.author: windowsdriverdev
 ms.date: 02/14/2019
 ms.topic: enum
+f1_keywords:
+ - "wditypes/WDI_SAE_REQUEST_TYPE"
 ms.keywords: WDI_SAE_REQUEST_TYPE, WDI_SAE_REQUEST_TYPE, 
 req.header: wditypes.hpp
 req.include-header:

@@ -5,6 +5,8 @@ description: Returns the CRm field for a given ARM system register encoding valu
 ms.assetid: a40eba0a-d060-4813-8b15-80f2dd1cf418
 ms.date: 09/20/2018
 ms.topic: macro
+f1_keywords:
+ - "miniport/ARM64_SYSREG_CRM"
 ms.keywords: ARM64_SYSREG_CRM
 req.header: miniport.h
 req.include-header:

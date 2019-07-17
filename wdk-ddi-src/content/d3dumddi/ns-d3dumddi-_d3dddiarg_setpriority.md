@@ -8,6 +8,8 @@ ms.assetid: d3dd52de-6d28-4d71-9b64-ba79e17bd9ee
 ms.date: 05/10/2018
 ms.keywords: D3DDDIARG_SETPRIORITY, D3DDDIARG_SETPRIORITY structure [Display Devices], UMDisplayDriver_param_Structs_e416cff1-5cad-4488-a3e2-ea0b42a7cd81.xml, _D3DDDIARG_SETPRIORITY, d3dumddi/D3DDDIARG_SETPRIORITY, display.d3dddiarg_setpriority
 ms.topic: struct
+f1_keywords:
+ - "d3dumddi/D3DDDIARG_SETPRIORITY"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

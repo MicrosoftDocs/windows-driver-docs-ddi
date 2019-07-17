@@ -7,6 +7,8 @@ ms.assetid: 1187A302-CD7D-418E-B48F-74D1FF29C991
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_UPDATEHWCONTEXTSTATE, DXGKDDI_UPDATEHWCONTEXTSTATE callback, DXGKDDI_UPDATEHWCONTEXTSTATE callback function [Display Devices], d3dkmddi/DXGKDDI_UPDATEHWCONTEXTSTATE, display.dxgkddi_updatehwcontextstate
 ms.topic: callback
+f1_keywords:
+ - "d3dkmddi/DXGKDDI_UPDATEHWCONTEXTSTATE"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Windows

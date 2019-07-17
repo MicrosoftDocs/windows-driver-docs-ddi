@@ -7,6 +7,8 @@ ms.assetid: B78E5AEF-DC31-44B2-92D8-DE7C83726E29
 ms.date: 05/10/2018
 ms.keywords: DXGK_QUERYSEGMENTIN4, DXGK_QUERYSEGMENTIN4 structure [Display Devices], _DXGK_QUERYSEGMENTIN4, d3dkmddi/DXGK_QUERYSEGMENTIN4, display.dxgk_querysegmentin4
 ms.topic: struct
+f1_keywords:
+ - "d3dkmddi/DXGK_QUERYSEGMENTIN4"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: B49FEED5-C90A-4E4F-9B73-E06E56FB4311
 ms.date: 04/20/2018
 ms.keywords: "*PBranchOfficeJobData, BranchOfficeJobData, BranchOfficeJobData structure [Print Devices], PBranchOfficeJobData, PBranchOfficeJobData structure pointer [Print Devices], print.branchofficejobdata, winsplp/BranchOfficeJobData, winsplp/PBranchOfficeJobData"
 ms.topic: struct
+f1_keywords:
+ - "winsplp/BranchOfficeJobData"
 req.header: winsplp.h
 req.include-header: 
 req.target-type: Windows

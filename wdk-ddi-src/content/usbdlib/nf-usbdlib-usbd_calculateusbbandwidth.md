@@ -8,6 +8,8 @@ ms.assetid: a54f3fb4-032a-4538-8b6d-20d6834d08c4
 ms.date: 05/07/2018
 ms.keywords: USBD_CalculateUsbBandwidth, USBD_CalculateUsbBandwidth routine [Buses], buses.usbd_calculateusbbandwidth, usbdlib/USBD_CalculateUsbBandwidth, usbfunc_a422b001-17f1-42b4-b10e-3d64d4279530.xml
 ms.topic: function
+f1_keywords:
+ - "usbdlib/USBD_CalculateUsbBandwidth"
 req.header: usbdlib.h
 req.include-header: Usbdlib.h
 req.target-type: Universal

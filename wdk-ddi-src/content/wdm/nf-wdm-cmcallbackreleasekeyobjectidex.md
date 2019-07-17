@@ -8,6 +8,8 @@ ms.assetid: 3361DAEF-AC2A-401B-80E8-0220F191587C
 ms.date: 04/30/2018
 ms.keywords: CmCallbackReleaseKeyObjectIDEx, CmCallbackReleaseKeyObjectIDEx routine [Kernel-Mode Driver Architecture], kernel.cmcallbackreleasekeyobjectidex, wdm/CmCallbackReleaseKeyObjectIDEx
 ms.topic: function
+f1_keywords:
+ - "wdm/CmCallbackReleaseKeyObjectIDEx"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

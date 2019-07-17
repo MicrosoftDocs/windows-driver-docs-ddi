@@ -8,6 +8,8 @@ ms.assetid: 284BAFE1-C632-428D-800C-60C538052C02
 ms.date: 04/30/2018
 ms.keywords: "*PPEP_PPM_IS_PROCESSOR_HALTED, PEP_PPM_IS_PROCESSOR_HALTED, PEP_PPM_IS_PROCESSOR_HALTED structure [Kernel-Mode Driver Architecture], PPEP_PPM_IS_PROCESSOR_HALTED, PPEP_PPM_IS_PROCESSOR_HALTED structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_IS_PROCESSOR_HALTED, kernel.pep_ppm_is_processor_halted, pepfx/PEP_PPM_IS_PROCESSOR_HALTED, pepfx/PPEP_PPM_IS_PROCESSOR_HALTED"
 ms.topic: struct
+f1_keywords:
+ - "pep_x/PEP_PPM_IS_PROCESSOR_HALTED"
 req.header: pep_x.h
 req.include-header: Pep_x.h
 req.target-type: Windows

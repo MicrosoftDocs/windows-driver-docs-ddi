@@ -8,6 +8,8 @@ ms.assetid: f1c70ca5-2caf-4758-99bb-221af0a79211
 ms.date: 03/29/2018
 ms.keywords: TapeClassInitialize, TapeClassInitialize routine [Storage Devices], minitape/TapeClassInitialize, storage.tapeclassinitialize, tapeclas_92bf66d9-2a7b-4853-ad25-b6f854533a4e.xml
 ms.topic: function
+f1_keywords:
+ - "minitape/TapeClassInitialize"
 req.header: minitape.h
 req.include-header: Minitape.h
 req.target-type: Desktop

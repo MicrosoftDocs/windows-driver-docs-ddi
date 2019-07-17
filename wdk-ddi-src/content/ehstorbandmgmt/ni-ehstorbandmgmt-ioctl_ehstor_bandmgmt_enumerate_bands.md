@@ -8,6 +8,8 @@ ms.assetid: 80F7546C-3683-460B-A0D9-AD41386E6195
 ms.date: 03/29/2018
 ms.keywords: IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS, IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS control, IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS control code [Storage Devices], ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS, storage.ioctl_ehstor_bandmgmt_enumerate_bands
 ms.topic: ioctl
+f1_keywords:
+ - "ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS"
 req.header: ehstorbandmgmt.h
 req.include-header: EhStorBandMgmt.h
 req.target-type: Windows

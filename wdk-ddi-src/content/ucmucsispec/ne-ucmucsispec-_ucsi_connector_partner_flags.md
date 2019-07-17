@@ -6,6 +6,8 @@ description: Used in the GET_CONNECTOR_STATUS command. See Table 4-42, Offset 21
 ms.assetid: a33b3401-1406-4ddb-9070-5211a9596479
 ms.date: 09/30/2018
 ms.topic: enum
+f1_keywords:
+ - "ucmucsispec/_UCSI_CONNECTOR_PARTNER_FLAGS"
 ms.keywords: _UCSI_CONNECTOR_PARTNER_FLAGS, UCSI_CONNECTOR_PARTNER_FLAGS, 
 req.header: ucmucsispec.h
 req.include-header: UcmUcsiCx.h 

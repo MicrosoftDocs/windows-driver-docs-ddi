@@ -8,6 +8,8 @@ ms.assetid: a6e49914-29c0-47d2-936b-17c48958cb36
 ms.date: 02/16/2018
 ms.keywords: DOT11EXT_FREE_BUFFER, Dot11ExtFreeBuffer, Dot11ExtFreeBuffer callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_af721540-28a8-43c2-a649-ce0f6fb9adce.xml, netvista.dot11extfreebuffer, wlanihv/Dot11ExtFreeBuffer
 ms.topic: callback
+f1_keywords:
+ - "wlanihv/Dot11ExtFreeBuffer"
 req.header: wlanihv.h
 req.include-header: Wlanihv.h
 req.target-type: Desktop

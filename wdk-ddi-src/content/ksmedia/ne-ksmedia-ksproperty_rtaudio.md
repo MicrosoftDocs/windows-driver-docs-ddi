@@ -5,6 +5,8 @@ description: KSPROPERTY_RTAUDIO enumerates the properties of a WaveRT audio devi
 ms.assetid: b9e2c60e-2a5f-4785-ab68-6e87a2a1385f
 ms.date: 04/30/2019
 ms.topic: enum
+f1_keywords:
+ - "ksmedia/KSPROPERTY_RTAUDIO"
 ms.keywords: KSPROPERTY_RTAUDIO, KSPROPERTY_RTAUDIO, 
 req.header: ksmedia.h
 req.include-header:

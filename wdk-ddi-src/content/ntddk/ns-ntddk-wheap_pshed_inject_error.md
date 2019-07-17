@@ -8,6 +8,8 @@ ms.assetid: f180d9d6-ebfd-46de-8e39-5f6f45886169
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
+f1_keywords:
+ - "ntddk/WHEAP_PSHED_INJECT_ERROR"
 ms.keywords: WHEAP_PSHED_INJECT_ERROR, WHEAP_PSHED_INJECT_ERROR, *PWHEAP_PSHED_INJECT_ERROR, 
 req.header: ntddk.h
 req.include-header:

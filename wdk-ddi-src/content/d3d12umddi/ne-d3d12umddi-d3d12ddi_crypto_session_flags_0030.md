@@ -7,6 +7,8 @@ ms.assetid: 0a799227-9b37-45f6-bded-e56c439e465f
 ms.date: 05/10/2018
 ms.keywords: D3D12DDI_CRYPTO_SESSION_FLAGS_0030, D3D12DDI_CRYPTO_SESSION_FLAGS_0030 enumeration [Display Devices], D3D12DDI_CRYPTO_SESSION_FLAG_0030_HARDWARE, D3D12DDI_CRYPTO_SESSION_FLAG_0030_NONE, d3d12umddi/D3D12DDI_CRYPTO_SESSION_FLAGS_0030, d3d12umddi/D3D12DDI_CRYPTO_SESSION_FLAG_0030_HARDWARE, d3d12umddi/D3D12DDI_CRYPTO_SESSION_FLAG_0030_NONE, display.d3d12ddi-crypto-session-flags-0030
 ms.topic: enum
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_CRYPTO_SESSION_FLAGS_0030"
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: Windows

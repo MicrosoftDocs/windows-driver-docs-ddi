@@ -8,6 +8,8 @@ ms.assetid: 994a73bc-81a1-4d73-959c-cc89b242c073
 ms.date: 05/10/2018
 ms.keywords: Int10CallBios, Int10CallBios callback function [Display Devices], PINT10_CALL_BIOS, PINT10_CALL_BIOS callback, VideoPort_Functions_7a9921fa-ea1e-49fa-8881-ea0792d91123.xml, display.int10callbios, video/Int10CallBios
 ms.topic: callback
+f1_keywords:
+ - "video/Int10CallBios"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

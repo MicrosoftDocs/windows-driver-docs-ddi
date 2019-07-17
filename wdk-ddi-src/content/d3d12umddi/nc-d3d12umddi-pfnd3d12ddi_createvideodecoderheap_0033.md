@@ -7,6 +7,8 @@ ms.assetid: BCCDBC42-FE6B-49C6-9E95-F0CF7F5CCB2E
 ms.date: 05/10/2018
 ms.keywords: PFND3D12DDI_CREATEVIDEODECODERHEAP_0033, PFND3D12DDI_CREATEVIDEODECODERHEAP_0033  callback, PFND3D12DDI_CREATEVIDEODECODERHEAP_0033 callback function [Display Devices], d3d12umddi/PFND3D12DDI_CREATEVIDEODECODERHEAP_0033, display.pfnd3d12ddi_createvideodecoderheap_0033_
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_CREATEVIDEODECODERHEAP_0033"
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: Windows

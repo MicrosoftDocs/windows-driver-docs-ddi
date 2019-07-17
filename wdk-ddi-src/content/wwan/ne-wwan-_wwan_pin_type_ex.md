@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: D4852EC3-AF5B-46BE-99A4-A006F71F5A24
 ms.date: 04/10/2019
 ms.topic: enum
+f1_keywords:
+ - "wwan/_WWAN_PIN_TYPE_EX"
 ms.keywords: _WWAN_PIN_TYPE_EX WWAN_PIN_TYPE_EX *PWWAN_PIN_TYPE_EX 
 req.header: wwan.h
 req.include-header:

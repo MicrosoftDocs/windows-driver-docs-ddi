@@ -5,6 +5,8 @@ description: Arguments used by the PFNDDXGIDDI_SUBMITPRESENTTOHWQUEUECB callback
 ms.assetid: 6a7a5e66-d569-44ef-8be6-a01ea4dbd3ab
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "dxgiddi/DXGIDDICB_SUBMITPRESENTTOHWQUEUE"
 ms.keywords: DXGIDDICB_SUBMITPRESENTTOHWQUEUE, DXGIDDICB_SUBMITPRESENTTOHWQUEUE, 
 req.header: dxgiddi.h
 req.include-header:

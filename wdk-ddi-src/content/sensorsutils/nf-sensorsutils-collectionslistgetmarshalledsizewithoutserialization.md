@@ -5,6 +5,8 @@ description: Returns the size of the entire collection list, including size of m
 ms.assetid: 4e1ee557-8daa-41a4-8cf7-c4bd876d8fca
 ms.date: 08/08/2018
 ms.topic: function
+f1_keywords:
+ - "sensorsutils/CollectionsListGetMarshalledSizeWithoutSerialization"
 tech.root: sensors
 ms.keywords: CollectionsListGetMarshalledSizeWithoutSerialization
 req.header: sensorsutils.h

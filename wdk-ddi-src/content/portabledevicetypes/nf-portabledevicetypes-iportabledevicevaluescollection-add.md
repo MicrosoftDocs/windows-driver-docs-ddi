@@ -8,6 +8,8 @@ ms.assetid: 1e95fb27-b6a6-41da-8765-e17bac4f35a1
 ms.date: 02/15/2018
 ms.keywords: Add, Add method, Add method,IPortableDeviceValuesCollection interface, IPortableDeviceValuesCollection interface,Add method, IPortableDeviceValuesCollection.Add, IPortableDeviceValuesCollection::Add, IPortableDeviceValuesCollectionAdd, portabledevicetypes/IPortableDeviceValuesCollection::Add, wpddk.iportabledevicevaluescollection_add
 ms.topic: method
+f1_keywords:
+ - "portabledevicetypes/IPortableDeviceValuesCollection.Add"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows

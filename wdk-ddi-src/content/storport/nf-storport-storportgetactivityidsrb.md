@@ -8,6 +8,8 @@ ms.assetid: 63E956F5-C87C-45AA-BE16-2AD07F3BA050
 ms.date: 03/29/2018
 ms.keywords: StorPortGetActivityIdSrb, StorPortGetActivityIdSrb routine [Storage Devices], storage.storportgetactivityidsrb, storport/StorPortGetActivityIdSrb
 ms.topic: function
+f1_keywords:
+ - "storport/StorPortGetActivityIdSrb"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

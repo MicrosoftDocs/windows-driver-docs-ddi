@@ -6,6 +6,8 @@ ms.assetid: 75d16f0b-ded0-49fe-b2a3-ee751f05391c
 ms.date: 08/08/2018
 tech.root: sensors
 ms.topic: function
+f1_keywords:
+ - "sensorsutils/PropertiesListCopy"
 ms.keywords: PropertiesListCopy
 req.header: sensorsutils.h
 req.include-header:

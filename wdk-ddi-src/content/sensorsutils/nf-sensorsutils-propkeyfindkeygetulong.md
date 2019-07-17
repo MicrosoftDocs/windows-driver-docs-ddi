@@ -6,6 +6,8 @@ ms.assetid: e3c390be-bebf-400d-9650-b7e3d0ff5a23
 ms.date: 08/08/2018
 tech.root: sensors
 ms.topic: function
+f1_keywords:
+ - "sensorsutils/PropKeyFindKeyGetUlong"
 ms.keywords: PropKeyFindKeyGetUlong
 req.header: sensorsutils.h
 req.include-header:

@@ -8,6 +8,8 @@ ms.assetid: 6d4e957e-ad9c-45da-8d1d-0ef5f108c692
 ms.date: 05/10/2018
 ms.keywords: AgpFreePool, AgpFreePool callback function [Display Devices], DXGKCB_AGP_FREE_POOL, DXGKCB_AGP_FREE_POOL callback, DpFunctions_ffe16de5-aa04-4f4b-bae5-de5b25682f65.xml, display.agpfreepool, dispmprt/AgpFreePool
 ms.topic: callback
+f1_keywords:
+ - "dispmprt/AgpFreePool"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Desktop

@@ -8,6 +8,8 @@ ms.assetid: de8220de-cf71-4718-876e-ef02c15fc948
 ms.date: 05/02/2018
 ms.keywords: FWPS_CALLOUT_CLASSIFY_FN2, FWPS_CALLOUT_CLASSIFY_FN2 callback, classifyFn2, classifyFn2 callback function [Network Drivers Starting with Windows Vista], fwpsk/classifyFn2, netvista.classifyfn2
 ms.topic: callback
+f1_keywords:
+ - "fwpsk/classifyFn2"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Windows

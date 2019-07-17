@@ -8,6 +8,8 @@ ms.assetid: 1ececf4f-0aa3-4f99-a021-d74c9727e9ca
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
 ms.topic: function
+f1_keywords:
+ - "dispmprt/DlGetDeviceInformation"
 ms.keywords: DlGetDeviceInformation
 req.header: dispmprt.h
 req.include-header:

@@ -8,6 +8,8 @@ ms.assetid: a2e9e398-7b47-49eb-b587-7c42a0162f90
 ms.date: 05/02/2018
 ms.keywords: NdisGetPhysicalAddressLow, NdisGetPhysicalAddressLow macro [Network Drivers Starting with Windows Vista], miniport_memory_shared_ref_20e686ee-bdd4-484d-b3c5-af6bbb764059.xml, ndis/NdisGetPhysicalAddressLow, netvista.ndisgetphysicaladdresslow
 ms.topic: macro
+f1_keywords:
+ - "ndis/NdisGetPhysicalAddressLow"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

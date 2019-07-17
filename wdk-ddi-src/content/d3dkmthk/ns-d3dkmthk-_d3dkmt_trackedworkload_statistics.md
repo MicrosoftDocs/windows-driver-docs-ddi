@@ -5,6 +5,8 @@ description: Creates a tracked workload statistic.
 ms.assetid: 206c606d-08a8-48c2-b36f-88ccde6b2272
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/_D3DKMT_TRACKEDWORKLOAD_STATISTICS"
 ms.keywords: _D3DKMT_TRACKEDWORKLOAD_STATISTICS, D3DKMT_TRACKEDWORKLOAD_STATISTICS, 
 req.header: d3dkmthk.h
 req.include-header:

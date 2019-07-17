@@ -8,6 +8,8 @@ ms.assetid: 0157FA09-C227-4BB2-BB75-0AB5802BC150
 ms.date: 05/08/2018
 ms.keywords: "*PKSRTAUDIO_GETREADPACKET_INFO, KSRTAUDIO_GETREADPACKET_INFO, KSRTAUDIO_GETREADPACKET_INFO structure [Audio Devices], PKSRTAUDIO_GETREADPACKET_INFO, PKSRTAUDIO_GETREADPACKET_INFO structure pointer [Audio Devices], audio.ksrtaudio_getreadpacket_info, ksmedia/KSRTAUDIO_GETREADPACKET_INFO, ksmedia/PKSRTAUDIO_GETREADPACKET_INFO"
 ms.topic: struct
+f1_keywords:
+ - "ksmedia/KSRTAUDIO_GETREADPACKET_INFO"
 req.header: ksmedia.h
 req.include-header: 
 req.target-type: Windows

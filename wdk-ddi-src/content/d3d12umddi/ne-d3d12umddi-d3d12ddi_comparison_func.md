@@ -5,6 +5,8 @@ description: Indicates the type of comparison to perform.
 ms.assetid: a64a089e-208d-448a-b277-51acfab2a9ca
 ms.date: 10/19/2018
 ms.topic: enum
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_COMPARISON_FUNC"
 ms.keywords: D3D12DDI_COMPARISON_FUNC, D3D12DDI_COMPARISON_FUNC, 
 req.header: d3d12umddi.h
 req.include-header:

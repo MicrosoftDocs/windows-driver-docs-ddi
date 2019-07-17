@@ -7,6 +7,8 @@ ms.assetid: 6dae69b1-ff48-4d43-bc01-e7ad7bb7acc9
 ms.date: 05/10/2018
 ms.keywords: DXGK_OPENALLOCATIONFLAGS, DXGK_OPENALLOCATIONFLAGS structure [Display Devices], DmStructs_3b5228f0-93fa-434a-b2ca-9007c372d9ed.xml, _DXGK_OPENALLOCATIONFLAGS, d3dkmddi/DXGK_OPENALLOCATIONFLAGS, display.dxgk_openallocationflags
 ms.topic: struct
+f1_keywords:
+ - "d3dkmddi/DXGK_OPENALLOCATIONFLAGS"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

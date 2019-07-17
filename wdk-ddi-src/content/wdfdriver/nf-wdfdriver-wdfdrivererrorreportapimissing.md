@@ -5,6 +5,8 @@ description:
 ms.assetid: fdd7c033-0b0a-46d7-8488-ac7d49b37676
 ms.date: 10/19/2018
 ms.topic: function
+f1_keywords:
+ - "wdfdriver/WdfDriverErrorReportApiMissing"
 ms.keywords: WdfDriverErrorReportApiMissing
 req.header: wdfdriver.h
 req.include-header:

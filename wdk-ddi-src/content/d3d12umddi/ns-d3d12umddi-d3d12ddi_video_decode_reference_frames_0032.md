@@ -7,6 +7,8 @@ ms.assetid: 58a814ab-629e-4528-a349-c469defc0a5a
 ms.date: 04/16/2018
 ms.keywords: D3D12DDI_VIDEO_DECODE_REFERENCE_FRAMES_0032, D3D12DDI_VIDEO_DECODE_REFERENCE_FRAMES_0032 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_DECODE_REFERENCE_FRAMES_0032, display.d3d12ddi-video-decode-reference-frames-0032
 ms.topic: struct
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_VIDEO_DECODE_REFERENCE_FRAMES_0032"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type: Windows

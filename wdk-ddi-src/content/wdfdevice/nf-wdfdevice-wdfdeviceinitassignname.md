@@ -8,6 +8,8 @@ ms.assetid: 70b86a0f-a77d-4c79-931d-d0407083e5b0
 ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_1acdbff1-2eb9-425c-91c8-aaa51f585d56.xml, WdfDeviceInitAssignName, WdfDeviceInitAssignName method, kmdf.wdfdeviceinitassignname, wdf.wdfdeviceinitassignname, wdfdevice/WdfDeviceInitAssignName
 ms.topic: function
+f1_keywords:
+ - "wdfdevice/WdfDeviceInitAssignName"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

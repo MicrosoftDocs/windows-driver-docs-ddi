@@ -7,6 +7,8 @@ ms.assetid: E726B4AC-F003-45B3-B467-F123DBE60D87
 ms.date: 05/10/2018
 ms.keywords: D3DKMTSubmitCommand, D3DKMTSubmitCommand function [Display Devices], d3dkmthk/D3DKMTSubmitCommand, display.d3dkmtsubmitcommand
 ms.topic: function
+f1_keywords:
+ - "d3dkmthk/D3DKMTSubmitCommand"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal

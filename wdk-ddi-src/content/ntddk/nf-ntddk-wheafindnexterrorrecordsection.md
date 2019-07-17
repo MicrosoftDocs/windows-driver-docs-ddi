@@ -8,6 +8,8 @@ ms.assetid: 36a0ca45-2601-4b7f-9f2b-35e2a7047520
 ms.date: 02/20/2018
 ms.keywords: WheaFindNextErrorRecordSection, WheaFindNextErrorRecordSection function [WHEA Drivers and Applications], ntddk/WheaFindNextErrorRecordSection, whea.wheafindnexterrorrecordsection, whearef2_9beb5b85-6c25-49e5-9abc-bcb8e343c8c9.xml
 ms.topic: function
+f1_keywords:
+ - "ntddk/WheaFindNextErrorRecordSection"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Desktop

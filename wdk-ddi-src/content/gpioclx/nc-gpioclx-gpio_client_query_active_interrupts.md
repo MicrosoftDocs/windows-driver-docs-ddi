@@ -8,6 +8,8 @@ ms.assetid: 9B47A7B2-90C3-480F-85D8-44DD7E9F0BFA
 ms.date: 02/15/2018
 ms.keywords: CLIENT_QueryActiveInterrupts, CLIENT_QueryActiveInterrupts callback, CLIENT_QueryActiveInterrupts callback function [Parallel Ports], GPIO.client_queryactiveinterrupts, GPIO_CLIENT_QUERY_ACTIVE_INTERRUPTS, gpioclx/CLIENT_QueryActiveInterrupts
 ms.topic: callback
+f1_keywords:
+ - "gpioclx/CLIENT_QueryActiveInterrupts"
 req.header: gpioclx.h
 req.include-header: 
 req.target-type: Desktop

@@ -5,6 +5,8 @@ description: The PFND3DKMT_UPDATEGPUVIRTUALADDRESS callback function allows the 
 ms.assetid: 024f77b9-705e-4fcc-88c0-1d903aa7b951
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/PFND3DKMT_UPDATEGPUVIRTUALADDRESS"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

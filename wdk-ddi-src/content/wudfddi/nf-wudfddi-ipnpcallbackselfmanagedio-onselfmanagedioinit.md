@@ -8,6 +8,8 @@ ms.assetid: 41b12fef-dbc7-4b91-a2d3-9fb1aafff237
 ms.date: 02/26/2018
 ms.keywords: IPnpCallbackSelfManagedIo interface,OnSelfManagedIoInit method, IPnpCallbackSelfManagedIo.OnSelfManagedIoInit, IPnpCallbackSelfManagedIo::OnSelfManagedIoInit, OnSelfManagedIoInit, OnSelfManagedIoInit method, OnSelfManagedIoInit method,IPnpCallbackSelfManagedIo interface, UMDFDeviceObjectRef_17a86796-71ff-4ca3-897b-da7780614f24.xml, umdf.ipnpcallbackselfmanagedio_onselfmanagedioinit, wdf.ipnpcallbackselfmanagedio_onselfmanagedioinit, wudfddi/IPnpCallbackSelfManagedIo::OnSelfManagedIoInit
 ms.topic: method
+f1_keywords:
+ - "wudfddi/IPnpCallbackSelfManagedIo.OnSelfManagedIoInit"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: e439f130-1b99-4f46-ace5-3456c09a5f67
 ms.date: 05/03/2018
 ms.keywords: IWiaLog_5b3e0d61-e0e5-4385-8256-943e437cee9d.xml, WIAS_ERROR, WIAS_ERROR macro [Imaging Devices], image.wias_error, wiamdef/WIAS_ERROR
 ms.topic: macro
+f1_keywords:
+ - "wiamdef/WIAS_ERROR"
 req.header: wiamdef.h
 req.include-header: Wiautil.h
 req.target-type: Desktop

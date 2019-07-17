@@ -5,6 +5,8 @@ description: The CPU driver name.
 ms.assetid: d7ad1d6d-e908-4460-9236-a47e3fef7d52
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/_D3DKMT_CPDRIVERNAME"
 ms.keywords: _D3DKMT_CPDRIVERNAME, D3DKMT_CPDRIVERNAME, 
 req.header: d3dkmthk.h
 req.include-header:

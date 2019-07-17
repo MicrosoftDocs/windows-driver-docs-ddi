@@ -5,6 +5,8 @@ description: PFND3D12DDI_EVICT2 instructs the OS to decrement the residency refe
 ms.assetid: 2ebce9ab-3827-4fa4-848f-58c9eb10f82a
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_EVICT2"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

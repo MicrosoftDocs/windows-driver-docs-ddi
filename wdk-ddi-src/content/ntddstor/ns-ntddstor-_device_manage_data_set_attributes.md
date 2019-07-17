@@ -8,6 +8,8 @@ ms.assetid: be0bfcef-09df-4259-a034-0d51db9819ce
 ms.date: 03/29/2018
 ms.keywords: "*PDEVICE_MANAGE_DATA_SET_ATTRIBUTES, DEVICE_DSM_FLAG_ENTIRE_DATA_SET_RANGE, DEVICE_MANAGE_DATA_SET_ATTRIBUTES, DEVICE_MANAGE_DATA_SET_ATTRIBUTES structure [Storage Devices], DeviceDsmActionFlag_NonDestructive, PDEVICE_MANAGE_DATA_SET_ATTRIBUTES, PDEVICE_MANAGE_DATA_SET_ATTRIBUTES structure pointer [Storage Devices], _DEVICE_MANAGE_DATA_SET_ATTRIBUTES, ntddstor/DEVICE_MANAGE_DATA_SET_ATTRIBUTES, ntddstor/PDEVICE_MANAGE_DATA_SET_ATTRIBUTES, storage.device_manage_data_set_attributes, structs-general_f8d2d431-7187-4532-ac05-69868909fc66.xml"
 ms.topic: struct
+f1_keywords:
+ - "ntddstor/DEVICE_MANAGE_DATA_SET_ATTRIBUTES"
 req.header: ntddstor.h
 req.include-header: Ntddstor.h
 req.target-type: Windows

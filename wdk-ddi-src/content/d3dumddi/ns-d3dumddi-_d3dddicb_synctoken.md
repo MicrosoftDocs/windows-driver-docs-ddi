@@ -5,6 +5,8 @@ description: Arguments used to create a sync token.
 ms.assetid: a2e0a873-4d80-4230-8486-bca477b4aa1c
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3dumddi/_D3DDDICB_SYNCTOKEN"
 ms.keywords: _D3DDDICB_SYNCTOKEN, D3DDDICB_SYNCTOKEN, D3DDDICB_ACQUIRERESOURCE
 req.header: d3dumddi.h
 req.include-header:

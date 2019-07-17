@@ -8,6 +8,8 @@ ms.assetid: ad1a6c18-b0c5-4289-9eec-2b8c8d8d2f07
 ms.date: 04/30/2018
 ms.keywords: RtlFindLastBackwardRunClear, RtlFindLastBackwardRunClear routine [Kernel-Mode Driver Architecture], k109_b7075a86-ffa4-4a6a-98fb-60848c037253.xml, kernel.rtlfindlastbackwardrunclear, wdm/RtlFindLastBackwardRunClear
 ms.topic: function
+f1_keywords:
+ - "wdm/RtlFindLastBackwardRunClear"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

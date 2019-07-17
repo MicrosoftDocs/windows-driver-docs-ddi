@@ -8,6 +8,8 @@ ms.assetid: 220ce3b8-2820-4753-9659-5ce7b4f4f32d
 ms.date: 04/30/2018
 ms.keywords: DrvrRtns_988f8f3d-4ee8-4351-8fc0-703a88bd8421.xml, EX_CALLBACK_FUNCTION, RegistryCallback, RegistryCallback routine [Kernel-Mode Driver Architecture], kernel.registrycallback, wdm/RegistryCallback
 ms.topic: callback
+f1_keywords:
+ - "wdm/RegistryCallback"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop

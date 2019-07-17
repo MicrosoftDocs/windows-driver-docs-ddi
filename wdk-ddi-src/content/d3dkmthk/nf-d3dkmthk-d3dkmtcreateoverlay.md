@@ -7,6 +7,8 @@ ms.assetid: f77c20a1-c05c-456b-874b-e07d6edf5982
 ms.date: 05/10/2018
 ms.keywords: D3DKMTCreateOverlay, D3DKMTCreateOverlay function [Display Devices], OpenGL_Functions_3848b4de-9ed0-4e4f-87aa-677bdbbaa7e0.xml, d3dkmthk/D3DKMTCreateOverlay, display.d3dkmtcreateoverlay
 ms.topic: function
+f1_keywords:
+ - "d3dkmthk/D3DKMTCreateOverlay"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal

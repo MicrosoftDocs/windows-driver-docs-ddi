@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 557978B2-EDEA-4C5B-87DB-9C62D2A177E4
 ms.date: 02/06/2019
 ms.topic: struct
+f1_keywords:
+ - "extension/SOUNDDETECTOR_PATTERNHEADER"
 ms.keywords: _NET_EXTENSION, NET_EXTENSION, *PNET_EXTENSION, 
 req.header: extension.h
 req.include-header:

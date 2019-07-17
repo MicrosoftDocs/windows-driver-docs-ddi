@@ -8,6 +8,8 @@ ms.assetid: 2a72d08a-a95b-4d50-a47b-e0e31ad43676
 ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_bd1ae89e-0e52-4c30-8ca4-9eaf6994a2f2.xml, WdfDeviceCreate, WdfDeviceCreate method, kmdf.wdfdevicecreate, wdf.wdfdevicecreate, wdfdevice/WdfDeviceCreate
 ms.topic: function
+f1_keywords:
+ - "wdfdevice/WdfDeviceCreate"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

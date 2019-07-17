@@ -5,6 +5,8 @@ description: The Pfnd3dkmtFreegpuvirtualaddress callback function releases a ran
 ms.assetid: c9072c10-4a54-4fa1-8bd5-c67cd876ccc6
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/PFND3DKMT_FREEGPUVIRTUALADDRESS"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

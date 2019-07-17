@@ -8,6 +8,8 @@ ms.assetid: 9c936e4e-8a49-4c6a-a8d0-b314548b5e6a
 ms.date: 02/15/2018
 ms.keywords: IOCTL_INTERNAL_INIT_1284_3_BUS, IOCTL_INTERNAL_INIT_1284_3_BUS control code [Parallel Ports], cisspd_bbc4a115-34b5-4f7b-9fd4-bbf4d4293e81.xml, parallel/IOCTL_INTERNAL_INIT_1284_3_BUS, parports.ioctl_internal_init_1284_3_bus
 ms.topic: ioctl
+f1_keywords:
+ - "parallel/IOCTL_INTERNAL_INIT_1284_3_BUS"
 req.header: parallel.h
 req.include-header: Parallel.h
 req.target-type: Windows

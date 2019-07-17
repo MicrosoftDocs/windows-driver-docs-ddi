@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 175870ff-079c-4111-97e5-30b2cea7b43e
 ms.date: 08/23/2018
 ms.topic: enum
+f1_keywords:
+ - "wwan/_WWAN_CONTEXT_LTE_ATTACH_STATE"
 ms.keywords: _WWAN_CONTEXT_LTE_ATTACH_STATE, WWAN_CONTEXT_LTE_ATTACH_STATE, *PWWAN_CONTEXT_LTE_ATTACH_STATE, 
 req.header: wwan.h
 req.include-header:

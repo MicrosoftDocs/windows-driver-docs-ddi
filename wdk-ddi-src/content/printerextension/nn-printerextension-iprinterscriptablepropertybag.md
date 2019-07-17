@@ -8,6 +8,8 @@ ms.assetid: E6F48895-7ED6-479B-BF16-42192461C56D
 ms.date: 04/20/2018
 ms.keywords: IPrinterScriptablePropertyBag, IPrinterScriptablePropertyBag interface [Print Devices], IPrinterScriptablePropertyBag interface [Print Devices],described, print.iprinterscriptablepropertybag, printerextension/IPrinterScriptablePropertyBag
 ms.topic: interface
+f1_keywords:
+ - "printerextension/IPrinterScriptablePropertyBag"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows

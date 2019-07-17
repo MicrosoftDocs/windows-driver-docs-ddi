@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 7e4fe2f1-35a4-434f-a499-3cf6917c9350
 ms.date: 02/06/2018
 ms.topic: function
+f1_keywords:
+ - "netadapter/NetAdapterGetNetLuid"
 ms.keywords: NetAdapterGetNetLuid
 req.header: netadapter.h
 req.include-header: netadaptercx.h

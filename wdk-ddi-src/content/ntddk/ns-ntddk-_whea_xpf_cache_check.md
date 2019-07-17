@@ -8,6 +8,8 @@ ms.assetid: 61dd30b9-5290-4c72-b053-586066c58108
 ms.date: 02/20/2018
 ms.keywords: "*PWHEA_XPF_CACHE_CHECK, PWHEA_XPF_CACHE_CHECK, PWHEA_XPF_CACHE_CHECK union pointer [WHEA Drivers and Applications], WHEA_XPF_CACHE_CHECK, WHEA_XPF_CACHE_CHECK union [WHEA Drivers and Applications], _WHEA_XPF_CACHE_CHECK, ntddk/PWHEA_XPF_CACHE_CHECK, ntddk/WHEA_XPF_CACHE_CHECK, whea.whea_xpf_cache_check, whearef_354fb32d-8724-4d6e-acc4-6d1a4cfd77a0.xml"
 ms.topic: struct
+f1_keywords:
+ - "ntddk/WHEA_XPF_CACHE_CHECK"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Windows

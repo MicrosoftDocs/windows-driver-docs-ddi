@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 6bf397fd-8c16-4bea-abed-9d1b71c3e66b
 ms.date: 05/21/2018
 ms.topic: callback
+f1_keywords:
+ - "vmbuskernelmodeclientlibapi/FN_VMB_CHANNEL_INIT_SET_CLIENT_CONTEXT_SIZE"
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header:
 req.target-type:

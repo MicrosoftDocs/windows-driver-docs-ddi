@@ -8,6 +8,8 @@ ms.assetid: a8e1860b-026a-4de4-8219-e3e40cfbc837
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
 ms.topic: callback
+f1_keywords:
+ - "dispmprt/DXGKDDI_QUERYMITIGATEDRANGECOUNT"
 req.header: dispmprt.h
 req.include-header:
 req.target-type:

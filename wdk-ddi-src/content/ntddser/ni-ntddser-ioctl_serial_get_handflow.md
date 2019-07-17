@@ -8,6 +8,8 @@ ms.assetid: d1d918fb-1ccb-46e6-ad28-e48daf226b3a
 ms.date: 04/23/2018
 ms.keywords: IOCTL_SERIAL_GET_HANDFLOW, IOCTL_SERIAL_GET_HANDFLOW control, IOCTL_SERIAL_GET_HANDFLOW control code [Serial Ports], ntddser/IOCTL_SERIAL_GET_HANDFLOW, serports.ioctl_serial_get_handflow, serref_caa7cdf7-cf60-4baa-88bf-43a7db423a37.xml
 ms.topic: ioctl
+f1_keywords:
+ - "ntddser/IOCTL_SERIAL_GET_HANDFLOW"
 req.header: ntddser.h
 req.include-header: Ntddser.h
 req.target-type: Windows

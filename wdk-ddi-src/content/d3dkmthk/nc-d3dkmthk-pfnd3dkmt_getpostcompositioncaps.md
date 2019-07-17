@@ -5,6 +5,8 @@ description: Pfnd3dkmtGetpostcompositioncaps retrieves post composition capabili
 ms.assetid: 4c14764f-5dfd-4ec2-9185-6aaeca02bafd
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/PFND3DKMT_GETPOSTCOMPOSITIONCAPS"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

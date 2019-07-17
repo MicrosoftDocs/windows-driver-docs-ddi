@@ -8,6 +8,8 @@ ms.assetid: 4c0ee205-2508-4414-afa5-cb6e7a358fc8
 ms.date: 05/02/2018
 ms.keywords: "*LPRILIMSSTATUS, *LPRILIMSSTATUS_V3, RILIMSSTATUS, RILIMSSTATUS_V3, RILIMSSTATUS_V3 structure [Network Drivers Starting with Windows Vista], netvista.rilimsstatus_v3, ntddrilapitypes/RILIMSSTATUS_V3"
 ms.topic: struct
+f1_keywords:
+ - "ntddrilapitypes/RILIMSSTATUS_V3"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

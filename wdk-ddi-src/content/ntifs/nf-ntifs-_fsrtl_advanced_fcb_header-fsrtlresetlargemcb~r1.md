@@ -8,6 +8,8 @@ ms.assetid: 49134501-165a-4296-b4c6-3f1e7ae9d485
 ms.date: 03/29/2018
 ms.keywords: FsRtlResetLargeMcb, FsRtlResetLargeMcb routine [Installable File System Drivers], fsrtlref_947ccacb-eef2-44d8-9b73-1b8aa930cd03.xml, ifsk.fsrtlresetlargemcb, ntifs/FsRtlResetLargeMcb
 ms.topic: function
+f1_keywords:
+ - "ntifs/FsRtlResetLargeMcb"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

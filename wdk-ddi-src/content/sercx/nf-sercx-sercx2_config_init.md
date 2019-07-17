@@ -8,6 +8,8 @@ ms.assetid: 630C7EDA-8C6A-4BD7-9287-EA15FBA34408
 ms.date: 04/23/2018
 ms.keywords: 2/SERCX2_CONFIG_INIT, SERCX2_CONFIG_INIT, SERCX2_CONFIG_INIT function [Serial Ports], serports.sercx2_config_init
 ms.topic: function
+f1_keywords:
+ - "sercx/SERCX2_CONFIG_INIT"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Desktop

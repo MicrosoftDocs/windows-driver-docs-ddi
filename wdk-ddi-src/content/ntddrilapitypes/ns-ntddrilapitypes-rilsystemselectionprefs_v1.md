@@ -8,6 +8,8 @@ ms.assetid: a2ba47e6-9dec-46b4-ac8b-a863345f228f
 ms.date: 05/02/2018
 ms.keywords: "*LPRILSYSTEMSELECTIONPREFS_V1, RILSYSTEMSELECTIONPREFS_V1, RILSYSTEMSELECTIONPREFS_V1 structure [Network Drivers Starting with Windows Vista], netvista.rilsystemselectionprefs_v1, ntddrilapitypes/RILSYSTEMSELECTIONPREFS_V1"
 ms.topic: struct
+f1_keywords:
+ - "ntddrilapitypes/RILSYSTEMSELECTIONPREFS_V1"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

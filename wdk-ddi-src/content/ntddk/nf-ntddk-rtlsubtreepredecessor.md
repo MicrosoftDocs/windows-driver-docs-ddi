@@ -8,6 +8,8 @@ ms.assetid: 19c1bea8-dba7-45a5-9620-0d6a928019ce
 ms.date: 04/16/2018
 ms.keywords: RtlSubtreePredecessor, RtlSubtreePredecessor routine [Installable File System Drivers], ifsk.rtlsubtreepredecessor, ntddk/RtlSubtreePredecessor, rtlref_0d0ea0f4-2b16-4d9c-8747-78d6ddcc90d6.xml
 ms.topic: function
+f1_keywords:
+ - "ntddk/RtlSubtreePredecessor"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal

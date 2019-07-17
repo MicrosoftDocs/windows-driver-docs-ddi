@@ -5,6 +5,8 @@ description: Increments the reference count for an interface on an object. This 
 ms.assetid: 2d12274d-75b0-4494-bec7-c962ec80e1aa
 ms.date: 09/21/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDynamicKeyProviderConcept.AddRef"
 ms.keywords: IDynamicKeyProviderConcept::AddRef, AddRef, IDynamicKeyProviderConcept.AddRef, IDynamicKeyProviderConcept::AddRef, IDynamicKeyProviderConcept.AddRef
 req.header: dbgmodel.h
 req.include-header:

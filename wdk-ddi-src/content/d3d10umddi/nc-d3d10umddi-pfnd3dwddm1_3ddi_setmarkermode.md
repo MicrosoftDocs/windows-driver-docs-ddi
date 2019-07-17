@@ -7,6 +7,8 @@ ms.assetid: 18B13509-7692-4336-937C-264B31A6FB78
 ms.date: 05/10/2018
 ms.keywords: PFND3DWDDM1_3DDI_SETMARKERMODE, PFND3DWDDM1_3DDI_SETMARKERMODE callback, SetMarkerMode, SetMarkerMode callback function [Display Devices], d3d10umddi/SetMarkerMode, display.setmarkermode
 ms.topic: callback
+f1_keywords:
+ - "d3d10umddi/SetMarkerMode"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

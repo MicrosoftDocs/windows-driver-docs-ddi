@@ -8,6 +8,8 @@ ms.assetid: 78D46903-A13D-4BC2-803F-E1656A43E865
 ms.date: 04/30/2018
 ms.keywords: SPB.spb_controller_config_init, SPB_CONTROLLER_CONFIG_INIT, SPB_CONTROLLER_CONFIG_INIT function [Buses], spbcx/SPB_CONTROLLER_CONFIG_INIT
 ms.topic: function
+f1_keywords:
+ - "spbcx/SPB_CONTROLLER_CONFIG_INIT"
 req.header: spbcx.h
 req.include-header: 
 req.target-type: Desktop

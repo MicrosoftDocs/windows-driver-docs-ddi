@@ -8,6 +8,8 @@ ms.assetid: 558b81c5-5f6b-41a5-8d89-6ee39b9c1cd1
 ms.date: 04/20/2018
 ms.keywords: AppendPrinterNotifyInfoData, AppendPrinterNotifyInfoData function [Print Devices], print.appendprinternotifyinfodata, spoolfnc_cc8f6371-6dea-497e-92db-6cd9e26e7867.xml, winsplp/AppendPrinterNotifyInfoData
 ms.topic: function
+f1_keywords:
+ - "winsplp/AppendPrinterNotifyInfoData"
 req.header: winsplp.h
 req.include-header: Winsplp.h
 req.target-type: Desktop

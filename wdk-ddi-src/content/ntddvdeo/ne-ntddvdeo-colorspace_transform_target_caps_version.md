@@ -8,6 +8,8 @@ ms.assetid: 2b727ef3-a020-421f-8669-7faf9222accd
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
 ms.topic: enum
+f1_keywords:
+ - "ntddvdeo/COLORSPACE_TRANSFORM_TARGET_CAPS_VERSION"
 ms.keywords: COLORSPACE_TRANSFORM_TARGET_CAPS_VERSION, COLORSPACE_TRANSFORM_TARGET_CAPS_VERSION, 
 req.header: ntddvdeo.h
 req.include-header:

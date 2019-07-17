@@ -5,6 +5,8 @@ description: Specifies the type of backlight optimization.
 ms.assetid: df927641-352a-472c-b4ca-dc02abdd5b0d
 ms.date: 10/19/2018
 ms.topic: enum
+f1_keywords:
+ - "ntddvdeo/_BACKLIGHT_OPTIMIZATION_LEVEL"
 ms.keywords: _BACKLIGHT_OPTIMIZATION_LEVEL, BACKLIGHT_OPTIMIZATION_LEVEL,
 req.header: ntddvdeo.h
 req.include-header:

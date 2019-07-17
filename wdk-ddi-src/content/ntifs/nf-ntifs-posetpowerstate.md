@@ -8,6 +8,8 @@ ms.assetid: 9fff319e-0428-4185-a792-d3842ab9feb8
 ms.date: 04/30/2018
 ms.keywords: PoSetPowerState, PoSetPowerState routine [Kernel-Mode Driver Architecture], kernel.posetpowerstate, portn_b6d6559d-e4c7-4fa8-b0f2-556b840391f9.xml, wdm/PoSetPowerState
 ms.topic: function
+f1_keywords:
+ - "ntifs/PoSetPowerState"
 req.header: ntifs.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

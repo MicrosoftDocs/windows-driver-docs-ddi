@@ -8,6 +8,8 @@ ms.assetid: 83e8389f-1960-4fe0-9a33-526311ecba82
 ms.date: 05/13/2019
 ms.keywords: FltApiRef_p_to_z_17d1087d-2a25-4c72-aed4-9246b4610b8b.xml, FltSendMessage, FltSendMessage function [Installable File System Drivers], fltkernel/FltSendMessage, ifsk.fltsendmessage
 ms.topic: function
+f1_keywords:
+ - "fltkernel/FltSendMessage"
 req.header: fltkernel.h
 req.include-header: FltKernel.h
 req.target-type: Universal

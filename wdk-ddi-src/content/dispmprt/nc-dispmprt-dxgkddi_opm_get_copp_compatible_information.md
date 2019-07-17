@@ -8,6 +8,8 @@ ms.assetid: 9f15df1e-bdf5-4634-97f1-78515664b594
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_OPM_GET_COPP_COMPATIBLE_INFORMATION, DXGKDDI_OPM_GET_COPP_COMPATIBLE_INFORMATION callback, Dm_Opm_functions_7873b0b1-3983-49c4-8192-b0c59d5ae01c.xml, DxgkDdiOPMGetCOPPCompatibleInformation, DxgkDdiOPMGetCOPPCompatibleInformation callback function [Display Devices], display.dxgkddiopmgetcoppcompatibleinformation, dispmprt/DxgkDdiOPMGetCOPPCompatibleInformation
 ms.topic: callback
+f1_keywords:
+ - "dispmprt/DxgkDdiOPMGetCOPPCompatibleInformation"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Desktop

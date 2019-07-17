@@ -8,6 +8,8 @@ ms.assetid: F3C17CD8-F423-46E7-891F-E428235CEF3D
 ms.date: 05/07/2018
 ms.keywords: "*PUCM_CONNECTOR_TYPEC_CONFIG, PUCM_CONNECTOR_TYPEC_CONFIG, PUCM_CONNECTOR_TYPEC_CONFIG structure pointer [Buses], UCM_CONNECTOR_TYPEC_CONFIG, UCM_CONNECTOR_TYPEC_CONFIG structure [Buses], _UCM_CONNECTOR_TYPEC_CONFIG, buses.ucm_connector_type_c_config, ucmmanager/PUCM_CONNECTOR_TYPEC_CONFIG, ucmmanager/UCM_CONNECTOR_TYPEC_CONFIG"
 ms.topic: struct
+f1_keywords:
+ - "ucmmanager/UCM_CONNECTOR_TYPEC_CONFIG"
 req.header: ucmmanager.h
 req.include-header: Ucmcx.h
 req.target-type: Windows

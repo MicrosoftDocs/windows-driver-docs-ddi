@@ -8,6 +8,8 @@ ms.assetid: 86af2b66-bf49-4ec4-8258-0093583b14f0
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
+f1_keywords:
+ - "wdm/KMUTANT"
 ms.keywords: KMUTANT, KMUTANT, *PKMUTANT, *PRKMUTANT, KMUTEX, *PKMUTEX, *PRKMUTEX, 
 req.header: wdm.h
 req.include-header:

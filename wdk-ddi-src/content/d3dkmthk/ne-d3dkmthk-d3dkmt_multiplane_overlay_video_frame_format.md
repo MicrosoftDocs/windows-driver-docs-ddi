@@ -5,6 +5,8 @@ description: Multiplane overlay video frame format.
 ms.assetid: 02f8b940-4aeb-4a44-abd7-0080a1c8edce
 ms.date: 10/19/2018
 ms.topic: enum
+f1_keywords:
+ - "d3dkmthk/D3DKMT_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT"
 ms.keywords: D3DKMT_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT, D3DKMT_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT, 
 req.header: d3dkmthk.h
 req.include-header:

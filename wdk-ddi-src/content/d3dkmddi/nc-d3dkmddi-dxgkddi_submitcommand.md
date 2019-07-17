@@ -7,6 +7,8 @@ ms.assetid: de1925ab-e444-4cf6-acd9-8fdab26afcec
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_SUBMITCOMMAND, DXGKDDI_SUBMITCOMMAND callback, DmFunctions_c23ba706-a779-4a0d-9977-1f99cecb5217.xml, DxgkDdiSubmitCommand, DxgkDdiSubmitCommand callback function [Display Devices], d3dkmddi/DxgkDdiSubmitCommand, display.dxgkddisubmitcommand
 ms.topic: callback
+f1_keywords:
+ - "d3dkmddi/DxgkDdiSubmitCommand"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Desktop

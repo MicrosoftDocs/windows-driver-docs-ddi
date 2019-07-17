@@ -5,6 +5,8 @@ description: The device list file name.
 ms.assetid: 7911f08b-39a6-424b-ba4a-ac3b697b7040
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/_D3DKMT_DLIST_DRIVER_NAME"
 ms.keywords: _D3DKMT_DLIST_DRIVER_NAME, D3DKMT_DLIST_DRIVER_NAME, 
 req.header: d3dkmthk.h
 req.include-header:

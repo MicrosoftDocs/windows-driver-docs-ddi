@@ -5,6 +5,8 @@ description: The PFND3DKMT_SETHWPROTECTIONTEARDOWNRECOVERY callback function set
 ms.assetid: 7beb2a30-1171-4ad3-8ae3-8358e55921a0
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/PFND3DKMT_SETHWPROTECTIONTEARDOWNRECOVERY"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 0d203d04-dcd7-46d6-9dc0-62880068949d
 ms.date: 08/21/2018
 ms.topic: struct
+f1_keywords:
+ - "ndiswwan/_NDIS_WWAN_NETWORK_BLACKLIST"
 ms.keywords: _NDIS_WWAN_NETWORK_BLACKLIST, NDIS_WWAN_NETWORK_BLACKLIST, *PNDIS_WWAN_NETWORK_BLACKLIST, 
 req.header: ndiswwan.h
 req.include-header:

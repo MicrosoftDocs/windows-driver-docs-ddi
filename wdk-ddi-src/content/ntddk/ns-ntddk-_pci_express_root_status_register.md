@@ -8,6 +8,8 @@ ms.assetid: e7f6a8b9-22f1-4c5b-a0b7-b87ceb2c0b1b
 ms.date: 02/24/2018
 ms.keywords: "*PPCI_EXPRESS_ROOT_STATUS_REGISTER, PCI.pci_express_root_status_register, PCI_EXPRESS_ROOT_STATUS_REGISTER, PCI_EXPRESS_ROOT_STATUS_REGISTER union [Buses], PPCI_EXPRESS_ROOT_STATUS_REGISTER, PPCI_EXPRESS_ROOT_STATUS_REGISTER union pointer [Buses], _PCI_EXPRESS_ROOT_STATUS_REGISTER, ntddk/PCI_EXPRESS_ROOT_STATUS_REGISTER, ntddk/PPCI_EXPRESS_ROOT_STATUS_REGISTER, pci_struct_ff3a211f-421b-41f3-9250-d658636bfe49.xml"
 ms.topic: struct
+f1_keywords:
+ - "ntddk/PCI_EXPRESS_ROOT_STATUS_REGISTER"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Miniport.h
 req.target-type: Windows

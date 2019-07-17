@@ -8,6 +8,8 @@ ms.assetid: 5a09a8b1-7a20-42e3-a58d-ecd4e7a0558e
 ms.date: 04/23/2018
 ms.keywords: AVStrMiniDeviceStart, AVStrMiniDeviceStart routine [Streaming Media Devices], PFNKSDEVICEPNPSTART, avstclbk_b9fd90e7-3d9b-47a3-86c4-8df35f000269.xml, ks/AVStrMiniDeviceStart, stream.avstrminidevicestart
 ms.topic: callback
+f1_keywords:
+ - "ks/AVStrMiniDeviceStart"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop

@@ -8,6 +8,8 @@ ms.assetid: bc8999e2-d305-407f-8302-6834efa698c5
 ms.date: 04/16/2018
 ms.keywords: RxpReferenceNetFcb, RxpReferenceNetFcb function [Installable File System Drivers], fcb/RxpReferenceNetFcb, ifsk.rxpreferencenetfcb, rxref_48d7801e-1459-405e-a681-2aa13e9e31cd.xml
 ms.topic: function
+f1_keywords:
+ - "fcb/RxpReferenceNetFcb"
 req.header: fcb.h
 req.include-header: Fcb.h
 req.target-type: Desktop

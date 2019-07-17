@@ -8,6 +8,8 @@ ms.assetid: 864935c4-28b8-4738-ac83-e51e6988248b
 ms.date: 04/30/2018
 ms.keywords: RtlUnicodeStringValidateEx, RtlUnicodeStringValidateEx function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringvalidateex, ntstrsafe/RtlUnicodeStringValidateEx, safestrings_dcb45919-f329-4637-b09b-f944ad034502.xml
 ms.topic: function
+f1_keywords:
+ - "ntstrsafe/RtlUnicodeStringValidateEx"
 req.header: ntstrsafe.h
 req.include-header: Ntstrsafe.h
 req.target-type: Desktop

@@ -7,6 +7,8 @@ ms.assetid: 8ba027f9-3671-461c-bae6-2da0059cf0ab
 ms.date: 05/10/2018
 ms.keywords: D3DKMT_CURRENTDISPLAYMODE, D3DKMT_CURRENTDISPLAYMODE structure [Display Devices], OpenGL_Structs_9af2b5dc-c342-4644-a3db-db9649b1fc9c.xml, _D3DKMT_CURRENTDISPLAYMODE, d3dkmthk/D3DKMT_CURRENTDISPLAYMODE, display.d3dkmt_currentdisplaymode
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/D3DKMT_CURRENTDISPLAYMODE"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

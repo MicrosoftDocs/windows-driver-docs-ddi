@@ -8,6 +8,8 @@ ms.assetid: 187719CD-5F0C-4AFD-BC00-ECD3C29A118F
 ms.date: 04/16/2018
 ms.keywords: CcSetAdditionalCacheAttributesEx, CcSetAdditionalCacheAttributesEx routine [Installable File System Drivers], ifsk.ccsetadditionalcacheattributesex, ntifs/CcSetAdditionalCacheAttributesEx
 ms.topic: function
+f1_keywords:
+ - "ntifs/CcSetAdditionalCacheAttributesEx"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

@@ -5,6 +5,8 @@ description: Interface which clients can implement if they can provide better dy
 ms.assetid: db2befcc-f796-49d1-b875-532adf3bec5a
 ms.date: 07/16/2018
 ms.topic: interface
+f1_keywords:
+ - "dbgmodel/IPreferredRuntimeTypeConcept"
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:

@@ -5,6 +5,8 @@ description: Indicates that the history retrieval has completed.
 ms.assetid: 62f81ebc-b081-42d6-a757-44d94b1da693
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "sensorscx/*PFN_SENSORSCXSENSORHISTORYRETRIEVALCOMPLETED"
 req.header: sensorscx.h
 req.include-header:
 req.target-type:

@@ -8,6 +8,8 @@ ms.assetid: FD8D6063-E6DD-4EA6-9675-774C58C08B40
 ms.date: 03/29/2018
 ms.keywords: "*PMSFC_VirtualFibrePortAttributes, MSFC_VirtualFibrePortAttributes, MSFC_VirtualFibrePortAttributes structure [Storage Devices], PMSFC_VirtualFibrePortAttributes, PMSFC_VirtualFibrePortAttributes structure pointer [Storage Devices], _MSFC_VirtualFibrePortAttributes, npivwmi/MSFC_VirtualFibrePortAttributes, npivwmi/PMSFC_VirtualFibrePortAttributes, storage.msfc_virtualfibreportattributes"
 ms.topic: struct
+f1_keywords:
+ - "npivwmi/MSFC_VirtualFibrePortAttributes"
 req.header: npivwmi.h
 req.include-header: Npivwmi.h
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: d482abdc-c6c1-4789-a1fc-39e76c32e78a
 ms.date: 02/16/2018
 ms.keywords: "*PDOT11_IHV_VERSION_INFO, DOT11_IHV_VERSION_INFO, DOT11_IHV_VERSION_INFO structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_65cab8b1-5ff7-4775-a3e9-b93e161e6bd3.xml, PDOT11_IHV_VERSION_INFO, PDOT11_IHV_VERSION_INFO structure pointer [Network Drivers Starting with Windows Vista], _DOT11_IHV_VERSION_INFO, netvista.dot11_ihv_version_info, wlanihv/DOT11_IHV_VERSION_INFO, wlanihv/PDOT11_IHV_VERSION_INFO"
 ms.topic: struct
+f1_keywords:
+ - "wlanihv/DOT11_IHV_VERSION_INFO"
 req.header: wlanihv.h
 req.include-header: Wlanihv.h
 req.target-type: Windows

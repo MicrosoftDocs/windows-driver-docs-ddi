@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: c1398d62-ed8c-4f7a-bcda-a8bab472a9cc
 ms.date: 02/08/2018
 ms.topic: function
+f1_keywords:
+ - "netpowersettings/NetPowerSettingsGetWakePatternCount"
 ms.keywords: NetPowerSettingsGetWakePatternCount
 req.header: netpowersettings.h
 req.include-header: netadaptercx.h

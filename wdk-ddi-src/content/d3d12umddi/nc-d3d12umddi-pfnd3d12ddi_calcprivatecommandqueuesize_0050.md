@@ -5,6 +5,8 @@ description: The PFND3D12DDI_CALCPRIVATECOMMANDQUEUESIZE_0050 callback function 
 ms.assetid: fb388ce0-5de8-438f-b92a-c2c82733e4fd
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_CALCPRIVATECOMMANDQUEUESIZE_0050"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

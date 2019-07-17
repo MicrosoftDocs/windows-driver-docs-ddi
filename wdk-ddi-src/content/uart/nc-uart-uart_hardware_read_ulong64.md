@@ -6,6 +6,8 @@ tech.root: serports
 ms.assetid: b94043dd-4c44-499c-8aee-6ce6f38f6310
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "uart/UART_HARDWARE_READ_ULONG64"
 req.header: uart.h
 req.include-header:
 req.target-type:

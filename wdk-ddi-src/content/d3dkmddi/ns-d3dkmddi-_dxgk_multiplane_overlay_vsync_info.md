@@ -7,6 +7,8 @@ ms.assetid: b3e93b4d-7d0a-4862-a405-2bf7f78244ef
 ms.date: 05/10/2018
 ms.keywords: DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO, DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO structure [Display Devices], _DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO, display.dxgk_multiplane_overlay_vsync_info
 ms.topic: struct
+f1_keywords:
+ - "d3dkmddi/DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: e2dc6a60-b3a6-4b2a-8a6c-aa513ca9b87b
 ms.date: 02/16/2018
 ms.keywords: "*LPRILIMSI, RILIMSI, RILIMSI structure [Network Drivers Starting with Windows Vista], netvista.rilimsi, rilapitypes/RILIMSI"
 ms.topic: struct
+f1_keywords:
+ - "ntddrilapitypes/RILIMSI"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h, Ntddrilapitypes.h
 req.target-type: Windows

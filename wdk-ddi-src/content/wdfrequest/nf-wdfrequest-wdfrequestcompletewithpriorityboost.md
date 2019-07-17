@@ -8,6 +8,8 @@ ms.assetid: c09ea33d-a20e-4535-8b5c-4645a30841a7
 ms.date: 02/26/2018
 ms.keywords: DFRequestObjectRef_a396672f-9267-489a-af15-44b4b01831b2.xml, WdfRequestCompleteWithPriorityBoost, WdfRequestCompleteWithPriorityBoost method, kmdf.wdfrequestcompletewithpriorityboost, wdf.wdfrequestcompletewithpriorityboost, wdfrequest/WdfRequestCompleteWithPriorityBoost
 ms.topic: function
+f1_keywords:
+ - "wdfrequest/WdfRequestCompleteWithPriorityBoost"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal

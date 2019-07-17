@@ -8,6 +8,8 @@ ms.assetid: c92506e7-c05c-430e-9600-4679dd00cc5f
 ms.date: 02/15/2018
 ms.keywords: GetIPortableDeviceValuesFromBuffer, GetIPortableDeviceValuesFromBuffer method, GetIPortableDeviceValuesFromBuffer method,IWpdSerializer interface, IWpdSerializer interface,GetIPortableDeviceValuesFromBuffer method, IWpdSerializer.GetIPortableDeviceValuesFromBuffer, IWpdSerializer::GetIPortableDeviceValuesFromBuffer, IWpdSerializerGetIPortableDeviceValuesFromBuffer, portabledevicetypes/IWpdSerializer::GetIPortableDeviceValuesFromBuffer, wpddk.iwpdserializer_getiportabledevicevaluesfrombuffer
 ms.topic: method
+f1_keywords:
+ - "portabledevicetypes/IWpdSerializer.GetIPortableDeviceValuesFromBuffer"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows

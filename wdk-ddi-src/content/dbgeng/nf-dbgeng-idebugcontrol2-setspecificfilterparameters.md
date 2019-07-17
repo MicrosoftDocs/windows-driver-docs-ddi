@@ -8,6 +8,8 @@ ms.assetid: 97eb6db8-3c0a-44b4-8fb4-9e42ee9f9856
 ms.date: 05/03/2018
 ms.keywords: IDebugControl interface [Windows Debugging],SetSpecificFilterParameters method, IDebugControl2 interface [Windows Debugging],SetSpecificFilterParameters method, IDebugControl2.SetSpecificFilterParameters, IDebugControl2::SetSpecificFilterParameters, IDebugControl3 interface [Windows Debugging],SetSpecificFilterParameters method, IDebugControl3::SetSpecificFilterParameters, IDebugControl::SetSpecificFilterParameters, IDebugControl_9bf01d08-9fc1-4ddf-b8dd-c6db0b568f83.xml, SetSpecificFilterParameters, SetSpecificFilterParameters method [Windows Debugging], SetSpecificFilterParameters method [Windows Debugging],IDebugControl interface, SetSpecificFilterParameters method [Windows Debugging],IDebugControl2 interface, SetSpecificFilterParameters method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::SetSpecificFilterParameters, dbgeng/IDebugControl3::SetSpecificFilterParameters, dbgeng/IDebugControl::SetSpecificFilterParameters, debugger.setspecificfilterparameters
 ms.topic: method
+f1_keywords:
+ - "dbgeng/IDebugControl.SetSpecificFilterParameters"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

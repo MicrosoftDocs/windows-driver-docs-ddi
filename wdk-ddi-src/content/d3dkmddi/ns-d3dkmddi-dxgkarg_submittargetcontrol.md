@@ -8,6 +8,8 @@ ms.assetid: c5a946d3-1e58-4705-bde0-0d4e2ce9e7a6
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
+f1_keywords:
+ - "d3dkmddi/DXGKARG_SUBMITTARGETCONTROL"
 ms.keywords: DXGKARG_SUBMITTARGETCONTROL, DXGKARG_SUBMITTARGETCONTROL, *PDXGKARG_SUBMITTARGETCONTROL, *IN_OUT_PDXGKARG_SUBMITTARGETCONTROL
 req.header: d3dkmddi.h
 req.include-header:

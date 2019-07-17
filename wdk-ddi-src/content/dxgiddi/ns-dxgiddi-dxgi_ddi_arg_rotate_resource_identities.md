@@ -8,6 +8,8 @@ ms.assetid: 904b16d1-44dc-4d7a-96cb-3fd82d378b24
 ms.date: 05/10/2018
 ms.keywords: DXGI_DDI_ARG_ROTATE_RESOURCE_IDENTITIES, DXGI_DDI_ARG_ROTATE_RESOURCE_IDENTITIES structure [Display Devices], UMDisplayDriver_Dx10param_Structs_f52f40ab-97f1-4c3f-839f-9da2dc8e7798.xml, display.dxgi_ddi_arg_rotate_resource_identities, dxgiddi/DXGI_DDI_ARG_ROTATE_RESOURCE_IDENTITIES
 ms.topic: struct
+f1_keywords:
+ - "dxgiddi/DXGI_DDI_ARG_ROTATE_RESOURCE_IDENTITIES"
 req.header: dxgiddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows

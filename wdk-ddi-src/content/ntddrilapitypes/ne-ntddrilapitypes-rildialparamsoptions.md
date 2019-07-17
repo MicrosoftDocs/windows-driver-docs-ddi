@@ -8,6 +8,8 @@ ms.assetid: 78fef8f7-e6cd-4da6-9c2a-2eaf1da6339b
 ms.date: 05/02/2018
 ms.keywords: RILDIALPARAMSOPTIONS, RILDIALPARAMSOPTIONS enumeration [Network Drivers Starting with Windows Vista], RIL_DIALOPT_ALL, RIL_DIALOPT_ANYEXECUTORFOREMERGENCY, RIL_DIALOPT_PRESENTID, RIL_DIALOPT_RESTRICTID, RIL_DIALOPT_RTTFULL, netvista.rildialparamsoptions, ntddrilapitypes/RILDIALPARAMSOPTIONS, ntddrilapitypes/RIL_DIALOPT_ALL, ntddrilapitypes/RIL_DIALOPT_ANYEXECUTORFOREMERGENCY, ntddrilapitypes/RIL_DIALOPT_PRESENTID, ntddrilapitypes/RIL_DIALOPT_RESTRICTID, ntddrilapitypes/RIL_DIALOPT_RTTFULL
 ms.topic: enum
+f1_keywords:
+ - "ntddrilapitypes/RILDIALPARAMSOPTIONS"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

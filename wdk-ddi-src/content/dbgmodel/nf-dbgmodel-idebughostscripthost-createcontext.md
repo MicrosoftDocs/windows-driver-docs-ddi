@@ -5,6 +5,8 @@ description: The CreateContext method is called by a script provider to create a
 ms.assetid: e7dbce17-bc44-4707-805e-2607263c8ce4
 ms.date: 06/10/2019
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDebugHostScriptHost.CreateContext"
 ms.keywords: IDebugHostScriptHost::CreateContext, CreateContext, IDebugHostScriptHost.CreateContext, IDebugHostScriptHost::CreateContext, IDebugHostScriptHost.CreateContext
 req.header: dbgmodel.h
 req.include-header:

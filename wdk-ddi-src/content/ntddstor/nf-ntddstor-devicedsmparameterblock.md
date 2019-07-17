@@ -6,6 +6,8 @@ tech.root: storage
 ms.assetid: 60c25727-7218-4b5e-935f-fb34fe926da5
 ms.date: 04/11/2018
 ms.topic: function
+f1_keywords:
+ - "ntddstor/DeviceDsmParameterBlock"
 ms.keywords: DeviceDsmParameterBlock
 req.header: ntddstor.h
 req.include-header:

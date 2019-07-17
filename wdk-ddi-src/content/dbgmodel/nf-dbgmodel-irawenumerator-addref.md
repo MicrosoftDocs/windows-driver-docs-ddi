@@ -5,6 +5,8 @@ description: Increments the reference count for an interface on an object. This 
 ms.assetid: 9fe59d32-e769-4b2e-8d6b-2069a6e0b884
 ms.date: 09/21/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IRawEnumerator.AddRef"
 ms.keywords: IRawEnumerator::AddRef, AddRef, IRawEnumerator.AddRef, IRawEnumerator::AddRef, IRawEnumerator.AddRef
 req.header: dbgmodel.h
 req.include-header:

@@ -8,6 +8,8 @@ ms.assetid: 5fd4046f-54c3-4dfc-8d51-0d9ebcde0bea
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_ADD_DEVICE, DXGKDDI_ADD_DEVICE callback, DmFunctions_83323c62-42ac-45f5-80c8-b914fda642b5.xml, DxgkDdiAddDevice, DxgkDdiAddDevice callback function [Display Devices], display.dxgkddiadddevice, dispmprt/DxgkDdiAddDevice
 ms.topic: callback
+f1_keywords:
+ - "dispmprt/DxgkDdiAddDevice"
 req.header: dispmprt.h
 req.include-header: 
 req.target-type: Desktop

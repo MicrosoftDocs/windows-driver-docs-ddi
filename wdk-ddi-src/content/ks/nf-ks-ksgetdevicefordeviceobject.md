@@ -8,6 +8,8 @@ ms.assetid: 2fe72d9d-1423-4db9-be38-f2bca7dbc56d
 ms.date: 04/23/2018
 ms.keywords: KsGetDeviceForDeviceObject, KsGetDeviceForDeviceObject function [Streaming Media Devices], avfunc_2bc27061-02ce-488f-94b4-087e9f264614.xml, ks/KsGetDeviceForDeviceObject, stream.ksgetdevicefordeviceobject
 ms.topic: function
+f1_keywords:
+ - "ks/KsGetDeviceForDeviceObject"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

@@ -8,6 +8,8 @@ ms.assetid: 1722e6f6-7509-4ae1-b394-3c69f4596e6d
 ms.date: 02/26/2018
 ms.keywords: DFResourceObjectRef_6cb56ab5-abf5-4915-a48f-a3c91d657806.xml, WdfIoResourceListGetDescriptor, WdfIoResourceListGetDescriptor method, kmdf.wdfioresourcelistgetdescriptor, wdf.wdfioresourcelistgetdescriptor, wdfresource/WdfIoResourceListGetDescriptor
 ms.topic: function
+f1_keywords:
+ - "wdfresource/WdfIoResourceListGetDescriptor"
 req.header: wdfresource.h
 req.include-header: Wdf.h
 req.target-type: Universal

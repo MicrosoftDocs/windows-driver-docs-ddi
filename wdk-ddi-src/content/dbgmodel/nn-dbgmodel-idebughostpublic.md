@@ -5,6 +5,8 @@ description: An (IDebugHostSymbol derived) interface to a public symbol (address
 ms.assetid: 18775b1d-4efc-422c-8920-21de383fb5b9
 ms.date: 07/13/2018
 ms.topic: interface
+f1_keywords:
+ - "dbgmodel/IDebugHostPublic"
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:

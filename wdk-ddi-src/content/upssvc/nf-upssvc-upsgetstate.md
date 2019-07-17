@@ -8,6 +8,8 @@ ms.assetid: c60284ff-ebbd-455d-949c-e6d31ce65d5d
 ms.date: 02/15/2018
 ms.keywords: UPSGetState, UPSGetState function [Battery Devices], UPS_fns_27023786-6c6e-43fe-96cb-0f298fec5ff1.xml, battery.upsgetstate, upssvc/UPSGetState
 ms.topic: function
+f1_keywords:
+ - "upssvc/UPSGetState"
 req.header: upssvc.h
 req.include-header: Upssvc.h
 req.target-type: Desktop

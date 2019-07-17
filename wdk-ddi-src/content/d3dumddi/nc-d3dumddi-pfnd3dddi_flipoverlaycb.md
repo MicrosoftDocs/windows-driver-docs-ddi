@@ -8,6 +8,8 @@ ms.assetid: 91e4876a-82c0-4e74-84c8-4b7a6abe0756
 ms.date: 05/10/2018
 ms.keywords: D3Druntime_Functions_68f39dc6-3dd7-4742-81c9-f23874c6c38f.xml, PFND3DDDI_FLIPOVERLAYCB, PFND3DDDI_FLIPOVERLAYCB callback, d3dumddi/pfnFlipOverlayCb, display.pfnflipoverlaycb, pfnFlipOverlayCb, pfnFlipOverlayCb callback function [Display Devices]
 ms.topic: callback
+f1_keywords:
+ - "d3dumddi/pfnFlipOverlayCb"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop

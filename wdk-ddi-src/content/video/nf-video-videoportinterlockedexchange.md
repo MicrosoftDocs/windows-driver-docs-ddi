@@ -8,6 +8,8 @@ ms.assetid: a01f1552-7bc5-4ae7-a195-c4cfc3553595
 ms.date: 05/10/2018
 ms.keywords: VideoPortInterlockedExchange, VideoPortInterlockedExchange function [Display Devices], VideoPort_Functions_2b2228a1-aca1-4661-ab6a-8747213bcd26.xml, display.videoportinterlockedexchange, video/VideoPortInterlockedExchange
 ms.topic: function
+f1_keywords:
+ - "video/VideoPortInterlockedExchange"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

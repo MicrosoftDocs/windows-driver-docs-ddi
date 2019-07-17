@@ -8,6 +8,8 @@ ms.assetid: 39D070BE-FF6F-4EC8-A4E4-DF45C5089AA7
 ms.date: 05/02/2018
 ms.keywords: NDIS_WDI_IDLE_NOTIFICATION_CONFIRM, NDIS_WDI_IDLE_NOTIFICATION_CONFIRM callback, NdisWdiIdleNotificationConfirm, NdisWdiIdleNotificationConfirm callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiIdleNotificationConfirm, netvista.ndiswdiidlenotificationconfirm
 ms.topic: callback
+f1_keywords:
+ - "dot11wdi/NdisWdiIdleNotificationConfirm"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows

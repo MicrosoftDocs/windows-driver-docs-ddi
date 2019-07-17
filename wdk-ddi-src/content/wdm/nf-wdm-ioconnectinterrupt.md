@@ -8,6 +8,8 @@ ms.assetid: a0f9a339-f548-47a2-92ab-ccd341592384
 ms.date: 04/30/2018
 ms.keywords: IoConnectInterrupt, IoConnectInterrupt routine [Kernel-Mode Driver Architecture], k104_efa094e0-ac29-491b-803a-8470ed39c915.xml, kernel.ioconnectinterrupt, wdm/IoConnectInterrupt
 ms.topic: function
+f1_keywords:
+ - "wdm/IoConnectInterrupt"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

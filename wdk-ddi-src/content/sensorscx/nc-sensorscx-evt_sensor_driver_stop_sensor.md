@@ -8,6 +8,8 @@ ms.assetid: 25F57CA6-09A0-438B-8866-9F9DC01B5388
 ms.date: 05/03/2018
 ms.keywords: EVT_SENSOR_DRIVER_STOP_SENSOR, EVT_SENSOR_DRIVER_STOP_SENSOR callback, EvtSensorStop, EvtSensorStop callback function [Sensor Devices], sensors.evtsensorstop, sensorscx/EvtSensorStop
 ms.topic: callback
+f1_keywords:
+ - "sensorscx/EvtSensorStop"
 req.header: sensorscx.h
 req.include-header: 
 req.target-type: Windows

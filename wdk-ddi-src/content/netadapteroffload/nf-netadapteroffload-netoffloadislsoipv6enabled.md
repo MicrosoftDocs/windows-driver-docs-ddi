@@ -8,6 +8,8 @@ ms.assetid: 74d6ba64-7825-488f-818d-e54994d56930
 ms.author: windowsdriverdev
 ms.date: 01/17/19
 ms.topic: function
+f1_keywords:
+ - "netadapteroffload/NetOffloadIsLsoIPv6Enabled"
 ms.keywords: NetOffloadIsLsoIPv6Enabled
 req.header: netadapteroffload.h
 req.include-header:

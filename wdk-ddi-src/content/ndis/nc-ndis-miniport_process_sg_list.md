@@ -8,6 +8,8 @@ ms.assetid: ddd5d14f-f886-40d0-9fc8-eeb37da63ebd
 ms.date: 05/02/2018
 ms.keywords: MINIPORT_PROCESS_SG_LIST, MINIPORT_PROCESS_SG_LIST callback, MiniportProcessSGList, MiniportProcessSGList callback function [Network Drivers Starting with Windows Vista], ndis/MiniportProcessSGList, ndis_sgdma_ref_e9dec598-19ce-4d50-98e3-508ffbb444bc.xml, netvista.miniportprocesssglist
 ms.topic: callback
+f1_keywords:
+ - "ndis/MiniportProcessSGList"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

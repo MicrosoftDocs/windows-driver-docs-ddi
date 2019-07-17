@@ -5,6 +5,8 @@ description: Retrieves pointers to the supported interfaces on an object. This m
 ms.assetid: ab261a45-8acf-4f14-aaa8-0a3895fdde88
 ms.date: 09/10/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDebugHostContext.QueryInterface"
 ms.keywords: IDebugHostContext::QueryInterface, QueryInterface, IDebugHostContext.QueryInterface, IDebugHostContext::QueryInterface, IDebugHostContext.QueryInterface
 req.header: dbgmodel.h
 req.include-header:

@@ -5,6 +5,8 @@ description: The PFND3DKMT_RELEASEKEYEDMUTEX callback function releases a keyed 
 ms.assetid: a738d7b0-4526-4549-9371-e67036b2eae8
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/PFND3DKMT_RELEASEKEYEDMUTEX"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

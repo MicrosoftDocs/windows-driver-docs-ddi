@@ -8,6 +8,8 @@ ms.assetid: 8ff1add9-4b9e-42dd-b3e2-53d891788d43
 ms.date: 04/16/2018
 ms.keywords: PsReferencePrimaryToken, PsReferencePrimaryToken routine [Installable File System Drivers], ifsk.psreferenceprimarytoken, ntifs/PsReferencePrimaryToken, psref_021aea60-1707-4817-9169-95a3dc79adb6.xml
 ms.topic: function
+f1_keywords:
+ - "ntifs/PsReferencePrimaryToken"
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal

@@ -5,6 +5,8 @@ description: The current space requirement for a ray tracing acceleration struct
 ms.assetid: f7433b53-58ae-47be-b937-9c261dda60c5
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_POSTBUILD_INFO_CURRENT_SIZE_DESC_0054"
 ms.keywords: D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_POSTBUILD_INFO_CURRENT_SIZE_DESC_0054, D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_POSTBUILD_INFO_CURRENT_SIZE_DESC_0054, 
 req.header: d3d12umddi.h
 req.include-header:

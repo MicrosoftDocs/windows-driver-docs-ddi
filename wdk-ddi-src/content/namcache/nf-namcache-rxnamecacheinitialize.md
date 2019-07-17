@@ -8,6 +8,8 @@ ms.assetid: 2a124a6e-30ff-4c0d-9a09-8cf43e65a657
 ms.date: 04/16/2018
 ms.keywords: RxNameCacheInitialize, RxNameCacheInitialize function [Installable File System Drivers], ifsk.rxnamecacheinitialize, namcache/RxNameCacheInitialize, rxref_1a97be61-3797-49f0-ad90-e426e43505c1.xml
 ms.topic: function
+f1_keywords:
+ - "namcache/RxNameCacheInitialize"
 req.header: namcache.h
 req.include-header: Namcache.h
 req.target-type: Desktop

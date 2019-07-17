@@ -8,6 +8,8 @@ ms.assetid: 52813320-90a4-4dca-9b9c-44aa22fc49de
 ms.date: 05/03/2018
 ms.keywords: IDebugDataSpaces interface [Windows Debugging],WriteVirtual method, IDebugDataSpaces2 interface [Windows Debugging],WriteVirtual method, IDebugDataSpaces2::WriteVirtual, IDebugDataSpaces3 interface [Windows Debugging],WriteVirtual method, IDebugDataSpaces3.WriteVirtual, IDebugDataSpaces3::WriteVirtual, IDebugDataSpaces4 interface [Windows Debugging],WriteVirtual method, IDebugDataSpaces4::WriteVirtual, IDebugDataSpaces::WriteVirtual, IDebugDataSpaces_2f8783ea-c7e4-438f-ad5b-898d0072a2f4.xml, WriteVirtual, WriteVirtual method [Windows Debugging], WriteVirtual method [Windows Debugging],IDebugDataSpaces interface, WriteVirtual method [Windows Debugging],IDebugDataSpaces2 interface, WriteVirtual method [Windows Debugging],IDebugDataSpaces3 interface, WriteVirtual method [Windows Debugging],IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces2::WriteVirtual, dbgeng/IDebugDataSpaces3::WriteVirtual, dbgeng/IDebugDataSpaces4::WriteVirtual, dbgeng/IDebugDataSpaces::WriteVirtual, debugger.writevirtual
 ms.topic: method
+f1_keywords:
+ - "dbgeng/IDebugDataSpaces.WriteVirtual"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

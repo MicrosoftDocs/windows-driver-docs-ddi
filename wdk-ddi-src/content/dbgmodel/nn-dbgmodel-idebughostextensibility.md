@@ -5,6 +5,8 @@ description: The extensibility interface to the underlying debugger.
 ms.assetid: ca0b53b7-9e3a-4dca-ab84-0e147006ac32
 ms.date: 07/13/2018
 ms.topic: interface
+f1_keywords:
+ - "dbgmodel/IDebugHostExtensibility"
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:

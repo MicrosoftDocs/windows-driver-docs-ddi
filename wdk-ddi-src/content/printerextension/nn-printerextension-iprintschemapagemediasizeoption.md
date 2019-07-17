@@ -8,6 +8,8 @@ ms.assetid: 631F5ECF-EA1E-4483-99F8-67C9A8C42EDF
 ms.date: 04/20/2018
 ms.keywords: IPrintSchemaPageMediaSizeOption, IPrintSchemaPageMediaSizeOption interface [Print Devices], IPrintSchemaPageMediaSizeOption interface [Print Devices],described, print.iprintschemapagemediasizeoption_interface, printerextension/IPrintSchemaPageMediaSizeOption
 ms.topic: interface
+f1_keywords:
+ - "printerextension/IPrintSchemaPageMediaSizeOption"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows

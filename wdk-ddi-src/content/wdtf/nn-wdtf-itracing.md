@@ -8,6 +8,8 @@ ms.assetid: 919f6ba4-ff8d-4836-b522-90c22a9221ea
 ms.date: 04/04/2018
 ms.keywords: ITracing, ITracing interface [Windows Device Testing Framework], ITracing interface [Windows Device Testing Framework],described, ITracing_b58b1d4d-7a2b-4162-ad9c-54439afd7b4a.xml, dtf.itracing, wdtf/ITracing
 ms.topic: interface
+f1_keywords:
+ - "wdtf/ITracing"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Windows

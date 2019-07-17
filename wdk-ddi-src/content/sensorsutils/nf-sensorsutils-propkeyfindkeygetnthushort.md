@@ -6,6 +6,8 @@ ms.assetid: 74a78f9f-10a9-4e19-98ac-ac118d3631b9
 ms.date: 08/08/2018
 tech.root: sensors
 ms.topic: function
+f1_keywords:
+ - "sensorsutils/PropKeyFindKeyGetNthUshort"
 ms.keywords: PropKeyFindKeyGetNthUshort
 req.header: sensorsutils.h
 req.include-header:

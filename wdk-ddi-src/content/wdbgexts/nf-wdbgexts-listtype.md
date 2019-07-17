@@ -8,6 +8,8 @@ ms.assetid: 5c250438-8805-4f45-b08f-65ec87b3e61a
 ms.date: 05/03/2018
 ms.keywords: ListType, ListType function [Windows Debugging], WdbgExts_Ref_aa50fe48-2a66-4d5e-aec7-d225966cfab2.xml, debugger.listtype, wdbgexts/ListType
 ms.topic: function
+f1_keywords:
+ - "wdbgexts/ListType"
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop

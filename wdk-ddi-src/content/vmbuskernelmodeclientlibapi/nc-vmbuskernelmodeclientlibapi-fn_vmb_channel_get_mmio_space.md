@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: c34ca88d-10bb-49c5-bddc-606367926b0c
 ms.date: 05/21/2018
 ms.topic: callback
+f1_keywords:
+ - "vmbuskernelmodeclientlibapi/FN_VMB_CHANNEL_GET_MMIO_SPACE"
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header:
 req.target-type:

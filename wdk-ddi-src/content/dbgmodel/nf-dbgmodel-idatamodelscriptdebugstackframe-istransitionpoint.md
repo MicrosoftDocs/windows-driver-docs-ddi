@@ -5,6 +5,8 @@ description: The IDataModelScriptDebugStack interface represents a segment of a 
 ms.assetid: 1414b5f1-bd95-46aa-90c8-efd89b75504a
 ms.date: 09/10/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDataModelScriptDebugStackFrame.IsTransitionPoint"
 ms.keywords: IDataModelScriptDebugStackFrame::IsTransitionPoint, IsTransitionPoint, IDataModelScriptDebugStackFrame.IsTransitionPoint, IDataModelScriptDebugStackFrame::IsTransitionPoint, IDataModelScriptDebugStackFrame.IsTransitionPoint
 req.header: dbgmodel.h
 req.include-header:

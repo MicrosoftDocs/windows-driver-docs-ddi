@@ -5,6 +5,8 @@ description: The PFND3DKMT_SETCONTEXTSCHEDULINGPRIORITY callback function sets t
 ms.assetid: ab05421f-7cbf-4e2b-8a26-387ecad8b482
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/PFND3DKMT_SETCONTEXTSCHEDULINGPRIORITY"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

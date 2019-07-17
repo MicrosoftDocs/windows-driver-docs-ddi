@@ -8,6 +8,8 @@ ms.assetid: eed2ed36-c081-44c7-857b-d2a9f608a022
 ms.date: 02/26/2018
 ms.keywords: DFCollectionObjectRef_76895387-58f4-46fc-b5d0-244408fe57b9.xml, WdfCollectionAdd, WdfCollectionAdd method, kmdf.wdfcollectionadd, wdf.wdfcollectionadd, wdfcollection/WdfCollectionAdd
 ms.topic: function
+f1_keywords:
+ - "wdfcollection/WdfCollectionAdd"
 req.header: wdfcollection.h
 req.include-header: Wdf.h
 req.target-type: Universal

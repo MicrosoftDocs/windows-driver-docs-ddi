@@ -8,6 +8,8 @@ ms.assetid: 1e18515c-2f24-4690-b5fd-0915ef30307b
 ms.date: 02/16/2018
 ms.keywords: DOT11EXTIHV_INIT_VIRTUAL_STATION, Dot11ExtIhvInitVirtualStation, Dot11ExtIhvInitVirtualStation callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_1daef8e4-6444-447a-b7a7-0189715a6ab9.xml, netvista.dot11extihvinitvirtualstation, wlanihv/Dot11ExtIhvInitVirtualStation
 ms.topic: callback
+f1_keywords:
+ - "wlanihv/Dot11ExtIhvInitVirtualStation"
 req.header: wlanihv.h
 req.include-header: Wlanihv.h
 req.target-type: Desktop

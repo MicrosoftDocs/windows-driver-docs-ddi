@@ -5,6 +5,8 @@ description: Emits post-build properties for a set of acceleration structures.
 ms.assetid: ae08659a-7863-4998-82f2-275aaff4f386
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_EMIT_RAYTRACING_ACCELERATION_STRUCTURE_POSTBUILD_INFO_0054"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

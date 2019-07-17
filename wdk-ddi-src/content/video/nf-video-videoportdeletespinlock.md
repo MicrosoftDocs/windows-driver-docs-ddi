@@ -8,6 +8,8 @@ ms.assetid: 74845e4d-0fa1-4625-96a7-2fddec8b901d
 ms.date: 05/10/2018
 ms.keywords: VideoPortDeleteSpinLock, VideoPortDeleteSpinLock function [Display Devices], VideoPort_Functions_d98d74d6-bf9c-441b-95e3-a3455927dd45.xml, display.videoportdeletespinlock, video/VideoPortDeleteSpinLock
 ms.topic: function
+f1_keywords:
+ - "video/VideoPortDeleteSpinLock"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

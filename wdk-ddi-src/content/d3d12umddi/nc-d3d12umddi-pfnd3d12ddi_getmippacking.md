@@ -5,6 +5,8 @@ description: Gets MIP packing info.
 ms.assetid: 9b95e67c-7a52-4ae2-814a-b0358b0cb755
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_GETMIPPACKING"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

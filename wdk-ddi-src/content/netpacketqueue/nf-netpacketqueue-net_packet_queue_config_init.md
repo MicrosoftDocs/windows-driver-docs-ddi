@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 5dd456ed-b2ec-4a60-8a43-0803a87eac84
 ms.date: 07/16/2018
 ms.topic: function
+f1_keywords:
+ - "netpacketqueue/NET_PACKET_QUEUE_CONFIG_INIT"
 ms.keywords: NET_PACKET_QUEUE_CONFIG_INIT
 req.header: netpacketqueue.h
 req.include-header:

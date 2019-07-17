@@ -8,6 +8,8 @@ ms.assetid: 0b9726a1-0658-4eda-8f27-abf647cdc046
 ms.date: 03/29/2018
 ms.keywords: IOCTL_STORAGE_EJECTION_CONTROL, IOCTL_STORAGE_EJECTION_CONTROL control, IOCTL_STORAGE_EJECTION_CONTROL control code [Storage Devices], k307_fe4c03f1-b835-4c04-bb7b-4a8bd982dcc7.xml, ntddstor/IOCTL_STORAGE_EJECTION_CONTROL, storage.ioctl_storage_ejection_control
 ms.topic: ioctl
+f1_keywords:
+ - "ntddstor/IOCTL_STORAGE_EJECTION_CONTROL"
 req.header: ntddstor.h
 req.include-header: Ntddstor.h
 req.target-type: Windows

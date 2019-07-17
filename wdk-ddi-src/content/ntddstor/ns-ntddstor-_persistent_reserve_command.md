@@ -8,6 +8,8 @@ ms.assetid: c7debd93-0fcd-43c5-a950-8154b62175bf
 ms.date: 03/29/2018
 ms.keywords: "*PPERSISTENT_RESERVE_COMMAND, PERSISTENT_RESERVE_COMMAND, PERSISTENT_RESERVE_COMMAND structure [Storage Devices], PPERSISTENT_RESERVE_COMMAND, PPERSISTENT_RESERVE_COMMAND structure pointer [Storage Devices], _PERSISTENT_RESERVE_COMMAND, ntddstor/PERSISTENT_RESERVE_COMMAND, ntddstor/PPERSISTENT_RESERVE_COMMAND, storage.persistent_reserve_command, structs-general_4fe3d6f6-6e9f-41f5-915c-2636707f429c.xml"
 ms.topic: struct
+f1_keywords:
+ - "ntddstor/PERSISTENT_RESERVE_COMMAND"
 req.header: ntddstor.h
 req.include-header: Ntddstor.h
 req.target-type: Windows

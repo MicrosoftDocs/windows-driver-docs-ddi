@@ -5,6 +5,8 @@ description:
 ms.assetid: 1a8382b7-a271-4a4c-8d0f-71c0f1ff9f3c
 ms.date: 10/19/2018
 ms.topic: enum
+f1_keywords:
+ - "d3d9types/_D3DZBUFFERTYPE"
 ms.keywords: _D3DZBUFFERTYPE, D3DZBUFFERTYPE, 
 req.header: d3d9types.h
 req.include-header:

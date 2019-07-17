@@ -8,6 +8,8 @@ ms.assetid: 6AB1BB0A-B350-44D7-B0D0-9A19FD6DEE19
 ms.date: 02/23/2018
 ms.keywords: PosCxOpen, PosCxOpen function, pos.poscxopen, poscx/PosCxOpen
 ms.topic: function
+f1_keywords:
+ - "poscx/PosCxOpen"
 req.header: poscx.h
 req.include-header: Poscx.h
 req.target-type: Windows

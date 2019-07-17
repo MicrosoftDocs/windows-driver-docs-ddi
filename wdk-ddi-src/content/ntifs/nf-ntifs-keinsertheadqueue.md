@@ -8,6 +8,8 @@ ms.assetid: 82e0bf14-b751-4919-b8d0-26fc7c5598a8
 ms.date: 04/16/2018
 ms.keywords: KeInsertHeadQueue, KeInsertHeadQueue routine [Installable File System Drivers], ifsk.keinsertheadqueue, keref_a3279265-434b-42d6-95d9-5a8a12f54c9b.xml, ntifs/KeInsertHeadQueue
 ms.topic: function
+f1_keywords:
+ - "ntifs/KeInsertHeadQueue"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

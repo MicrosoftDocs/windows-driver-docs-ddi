@@ -8,6 +8,8 @@ ms.assetid: 84e9197a-a096-42ff-af0d-3f4dab9fe0c6
 ms.date: 04/20/2018
 ms.keywords: IOCTL_USBPRINT_SOFT_RESET, IOCTL_USBPRINT_SOFT_RESET control, IOCTL_USBPRINT_SOFT_RESET control code [Print Devices], print.ioctl_usbprint_soft_reset, usbioctl_282627ce-49eb-4d8c-88a6-8d211cb91830.xml, usbprint/IOCTL_USBPRINT_SOFT_RESET
 ms.topic: ioctl
+f1_keywords:
+ - "usbprint/IOCTL_USBPRINT_SOFT_RESET"
 req.header: usbprint.h
 req.include-header: 
 req.target-type: Windows

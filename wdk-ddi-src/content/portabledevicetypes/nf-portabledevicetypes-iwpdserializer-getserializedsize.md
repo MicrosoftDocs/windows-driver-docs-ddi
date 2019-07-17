@@ -8,6 +8,8 @@ ms.assetid: 85b87586-d4aa-4590-9a4b-73439fa8cf6a
 ms.date: 02/15/2018
 ms.keywords: GetSerializedSize, GetSerializedSize method, GetSerializedSize method,IWpdSerializer interface, IWpdSerializer interface,GetSerializedSize method, IWpdSerializer.GetSerializedSize, IWpdSerializer::GetSerializedSize, IWpdSerializerGetSerializedSize, portabledevicetypes/IWpdSerializer::GetSerializedSize, wpddk.iwpdserializer_getserializedsize
 ms.topic: method
+f1_keywords:
+ - "portabledevicetypes/IWpdSerializer.GetSerializedSize"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: B44B47EA-6848-430E-9C10-F6DD460C2304
 ms.date: 04/20/2018
 ms.keywords: IPrinterScriptContext, IPrinterScriptContext interface [Print Devices], IPrinterScriptContext interface [Print Devices],described, print.iprinterscriptcontext, printerextension/IPrinterScriptContext
 ms.topic: interface
+f1_keywords:
+ - "printerextension/IPrinterScriptContext"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows

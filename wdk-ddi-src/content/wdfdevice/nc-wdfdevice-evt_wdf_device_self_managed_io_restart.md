@@ -8,6 +8,8 @@ ms.assetid: 13d7fbc6-6f93-4ef9-abd4-f2adc4e8e23a
 ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_31761962-577a-4a53-8b55-226801f42960.xml, EVT_WDF_DEVICE_SELF_MANAGED_IO_RESTART, EVT_WDF_DEVICE_SELF_MANAGED_IO_RESTART callback, EvtDeviceSelfManagedIoRestart, EvtDeviceSelfManagedIoRestart callback function, kmdf.evtdeviceselfmanagediorestart, wdf.evtdeviceselfmanagediorestart, wdfdevice/EvtDeviceSelfManagedIoRestart
 ms.topic: callback
+f1_keywords:
+ - "wdfdevice/EvtDeviceSelfManagedIoRestart"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

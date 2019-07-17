@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: b0b5cd8b-807c-42d2-9f6b-4843f82c6309
 ms.date: 07/11/2018
 ms.topic: struct
+f1_keywords:
+ - "netadapter/_NET_ADAPTER_DMA_CAPABILITIES"
 ms.keywords: _NET_ADAPTER_DMA_CAPABILITIES, *PNET_ADAPTER_DMA_CAPABILITIES, NET_ADAPTER_DMA_CAPABILITIES, 
 req.header: netadapter.h
 req.include-header: netadaptercx.h

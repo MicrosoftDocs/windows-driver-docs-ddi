@@ -8,6 +8,8 @@ ms.assetid: bbd2b6e2-e332-49ae-aa18-490fd5631479
 ms.date: 05/08/2018
 ms.keywords: IPortWaveCyclic interface [Audio Devices],NewMasterDmaChannel method, IPortWaveCyclic.NewMasterDmaChannel, IPortWaveCyclic::NewMasterDmaChannel, NewMasterDmaChannel, NewMasterDmaChannel method [Audio Devices], NewMasterDmaChannel method [Audio Devices],IPortWaveCyclic interface, audio.iportwavecyclic_newmasterdmachannel, audmp-routines_831f81bd-545d-47e5-ae1a-8ecaa631497c.xml, portcls/IPortWaveCyclic::NewMasterDmaChannel
 ms.topic: method
+f1_keywords:
+ - "portcls/IPortWaveCyclic.NewMasterDmaChannel"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal

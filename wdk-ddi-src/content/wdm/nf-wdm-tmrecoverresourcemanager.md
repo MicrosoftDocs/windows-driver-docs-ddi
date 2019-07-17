@@ -8,6 +8,8 @@ ms.assetid: d327ea40-ce4d-4218-a367-919240a5a60c
 ms.date: 04/30/2018
 ms.keywords: TmRecoverResourceManager, TmRecoverResourceManager routine [Kernel-Mode Driver Architecture], kernel.tmrecoverresourcemanager, ktm_ref_e3f0b5e1-18fc-4edf-9270-f6d01e458166.xml, wdm/TmRecoverResourceManager
 ms.topic: function
+f1_keywords:
+ - "wdm/TmRecoverResourceManager"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntifs.h
 req.target-type: Universal

@@ -8,6 +8,8 @@ ms.assetid: 52f95379-7bfd-4606-9199-ea253ccd6f35
 ms.date: 05/10/2018
 ms.keywords: D3DDDICB_CREATEOVERLAY, D3DDDICB_CREATEOVERLAY structure [Display Devices], D3D_param_Structs_d6883734-5c4a-480f-bb54-12df15297daa.xml, _D3DDDICB_CREATEOVERLAY, d3dumddi/D3DDDICB_CREATEOVERLAY, display.d3dddicb_createoverlay
 ms.topic: struct
+f1_keywords:
+ - "d3dumddi/D3DDDICB_CREATEOVERLAY"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

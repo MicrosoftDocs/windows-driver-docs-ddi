@@ -8,6 +8,8 @@ ms.assetid: 9522c504-9bdb-4388-b047-340a211463dd
 ms.date: 05/10/2018
 ms.keywords: "*PVIDEO_POWER_MANAGEMENT, PVIDEO_POWER_MANAGEMENT, PVIDEO_POWER_MANAGEMENT structure pointer [Display Devices], VIDEO_POWER_MANAGEMENT, VIDEO_POWER_MANAGEMENT structure [Display Devices], Video_Structs_d179543a-6712-4c33-a945-7bbf8a5bc1ed.xml, _VIDEO_POWER_MANAGEMENT, display.video_power_management, ntddvdeo/PVIDEO_POWER_MANAGEMENT, ntddvdeo/VIDEO_POWER_MANAGEMENT"
 ms.topic: struct
+f1_keywords:
+ - "ntddvdeo/VIDEO_POWER_MANAGEMENT"
 req.header: ntddvdeo.h
 req.include-header: Ntddvdeo.h
 req.target-type: Windows

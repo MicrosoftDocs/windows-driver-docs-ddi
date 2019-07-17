@@ -8,6 +8,8 @@ ms.assetid: c2a9bd35-ce3a-4640-9982-b470e98b4692
 ms.date: 05/03/2018
 ms.keywords: image.wiaudbglegacyerror, wiauDbgLegacyError, wiauDbgLegacyError function [Imaging Devices], wiauFncs_03e81269-0a09-42c4-8d0d-1f808e6ef69e.xml, wiautil/wiauDbgLegacyError
 ms.topic: function
+f1_keywords:
+ - "wiautil/wiauDbgLegacyError"
 req.header: wiautil.h
 req.include-header: Wiautil.h
 req.target-type: Desktop

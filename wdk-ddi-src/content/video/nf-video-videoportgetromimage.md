@@ -8,6 +8,8 @@ ms.assetid: e4930661-fb88-458b-9460-129ab057e0f4
 ms.date: 05/10/2018
 ms.keywords: VideoPortGetRomImage, VideoPortGetRomImage function [Display Devices], VideoPort_Functions_070e50af-a33d-4dc5-9bd1-9f60367f49b2.xml, display.videoportgetromimage, video/VideoPortGetRomImage
 ms.topic: function
+f1_keywords:
+ - "video/VideoPortGetRomImage"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

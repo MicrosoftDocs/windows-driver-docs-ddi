@@ -8,6 +8,8 @@ ms.assetid: 8f435a52-f087-4d36-bf95-e82f5ab061e4
 ms.date: 04/30/2018
 ms.keywords: ProbeForWrite, ProbeForWrite routine [Kernel-Mode Driver Architecture], k102_62889c29-62cb-43c2-ac19-e8b933783443.xml, kernel.probeforwrite, wdm/ProbeForWrite
 ms.topic: function
+f1_keywords:
+ - "wdm/ProbeForWrite"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

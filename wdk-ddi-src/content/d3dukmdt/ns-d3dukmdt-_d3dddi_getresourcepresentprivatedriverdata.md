@@ -8,6 +8,8 @@ ms.assetid: 4473E808-D22E-47C4-8619-7427C8BA682E
 ms.date: 05/10/2018
 ms.keywords: D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA, D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA structure [Display Devices], _D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA, d3dukmdt/D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA, display.d3dddi_getresourcepresentprivatedriverdata
 ms.topic: struct
+f1_keywords:
+ - "d3dukmdt/D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA"
 req.header: d3dukmdt.h
 req.include-header: D3dumddi.h, D3dkmddi.h
 req.target-type: Windows

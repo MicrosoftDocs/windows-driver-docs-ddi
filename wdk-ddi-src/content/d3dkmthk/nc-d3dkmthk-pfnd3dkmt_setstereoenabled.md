@@ -5,6 +5,8 @@ description: The PFND3DKMT_SETSTEREOENABLED callback function sets stereo enable
 ms.assetid: ee87c614-07b4-47a3-a6f5-afb2fdae9772
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/PFND3DKMT_SETSTEREOENABLED"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal

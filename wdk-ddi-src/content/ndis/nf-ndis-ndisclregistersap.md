@@ -8,6 +8,8 @@ ms.assetid: 33ed0839-d1e3-4872-baa8-ead7e97f8c53
 ms.date: 05/02/2018
 ms.keywords: NdisClRegisterSap, NdisClRegisterSap function [Network Drivers Starting with Windows Vista], condis_client_ref_ee22bc25-7935-458f-8016-6537d9803acb.xml, ndis/NdisClRegisterSap, netvista.ndisclregistersap
 ms.topic: function
+f1_keywords:
+ - "ndis/NdisClRegisterSap"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

@@ -8,6 +8,8 @@ ms.assetid: 75c0f546-1a58-45e8-a3eb-3075f07c426b
 ms.date: 04/30/2018
 ms.keywords: "*PHID_MINIDRIVER_REGISTRATION, HID_MINIDRIVER_REGISTRATION, HID_MINIDRIVER_REGISTRATION structure [Human Input Devices], PHID_MINIDRIVER_REGISTRATION, PHID_MINIDRIVER_REGISTRATION structure pointer [Human Input Devices], _HID_MINIDRIVER_REGISTRATION, hid.hid_minidriver_registration, hidport/HID_MINIDRIVER_REGISTRATION, hidport/PHID_MINIDRIVER_REGISTRATION, hidstrct_d0f637a8-58c0-4d83-9a2f-2e14761b6183.xml"
 ms.topic: struct
+f1_keywords:
+ - "hidport/HID_MINIDRIVER_REGISTRATION"
 req.header: hidport.h
 req.include-header: Hidport.h
 req.target-type: Windows

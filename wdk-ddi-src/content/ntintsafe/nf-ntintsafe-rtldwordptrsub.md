@@ -8,6 +8,8 @@ ms.assetid: B3268640-F256-4B64-AE95-8D30A6A7BF6C
 ms.date: 04/30/2018
 ms.keywords: RtlDWordPtrSub, RtlDWordPtrSub function [Kernel-Mode Driver Architecture], kernel.rtldwordptrsub, ntintsafe/RtlDWordPtrSub
 ms.topic: function
+f1_keywords:
+ - "ntintsafe/RtlDWordPtrSub"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop

@@ -8,6 +8,8 @@ ms.assetid: bb3269d5-1e42-4e18-9d93-ad7f3f4de3f9
 ms.date: 05/02/2018
 ms.keywords: RILIMSSIPREASON, RILIMSSIPREASON enumeration [Network Drivers Starting with Windows Vista], RIL_IMSSIPREASON_MAX, RIL_IMSSIPREASON_NOT_AUTHORIZED_FOR_SERVICE, netvista.rilimssipreason, ntddrilapitypes/RILIMSSIPREASON, ntddrilapitypes/RIL_IMSSIPREASON_MAX, ntddrilapitypes/RIL_IMSSIPREASON_NOT_AUTHORIZED_FOR_SERVICE
 ms.topic: enum
+f1_keywords:
+ - "ntddrilapitypes/RILIMSSIPREASON"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

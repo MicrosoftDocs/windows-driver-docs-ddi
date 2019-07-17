@@ -8,6 +8,8 @@ ms.assetid: 5f735c98-26a6-4644-9fd4-b832ac9379c2
 ms.date: 05/02/2018
 ms.keywords: NdisUpcaseUnicodeString, NdisUpcaseUnicodeString macro [Network Drivers Starting with Windows Vista], ndis/NdisUpcaseUnicodeString, ndis_string_ref_79578398-7b4c-4741-a39b-5e5e30b2f4b3.xml, netvista.ndisupcaseunicodestring
 ms.topic: macro
+f1_keywords:
+ - "ndis/NdisUpcaseUnicodeString"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

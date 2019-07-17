@@ -8,6 +8,8 @@ ms.assetid: 4c301656-8918-46f2-8f8f-3ceff2af8e94
 ms.date: 05/02/2018
 ms.keywords: RIL_ManageCalls_V3, RIL_ManageCalls_V3 method [Network Drivers Starting with Windows Vista], netvista.ril_managecalls_v3, rilapi/RIL_ManageCalls_V3
 ms.topic: function
+f1_keywords:
+ - "rilapi/RIL_ManageCalls_V3"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows

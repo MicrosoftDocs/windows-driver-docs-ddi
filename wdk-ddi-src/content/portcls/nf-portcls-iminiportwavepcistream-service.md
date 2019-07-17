@@ -8,6 +8,8 @@ ms.assetid: d41e0774-54b4-43cc-997d-fbd512440450
 ms.date: 05/08/2018
 ms.keywords: IMiniportWavePciStream interface [Audio Devices],Service method, IMiniportWavePciStream.Service, IMiniportWavePciStream::Service, Service, Service method [Audio Devices], Service method [Audio Devices],IMiniportWavePciStream interface, audio.iminiportwavepcistream_service, audmp-routines_c723ca89-3315-43a2-b93b-86c5bce87910.xml, portcls/IMiniportWavePciStream::Service
 ms.topic: method
+f1_keywords:
+ - "portcls/IMiniportWavePciStream.Service"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal

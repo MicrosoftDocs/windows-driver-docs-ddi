@@ -8,6 +8,8 @@ ms.assetid: 86567fc1-cf66-4709-a6e1-6b24408df963
 ms.date: 05/10/2018
 ms.keywords: GenerateMipSubLevels, GenerateMipSubLevels callback function [Display Devices], PFND3DDDI_GENERATEMIPSUBLEVELS, PFND3DDDI_GENERATEMIPSUBLEVELS callback, UserModeDisplayDriver_Functions_795601cd-37d8-4268-8e41-38806c5961e6.xml, d3dumddi/GenerateMipSubLevels, display.generatemipsublevels
 ms.topic: callback
+f1_keywords:
+ - "d3dumddi/GenerateMipSubLevels"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop

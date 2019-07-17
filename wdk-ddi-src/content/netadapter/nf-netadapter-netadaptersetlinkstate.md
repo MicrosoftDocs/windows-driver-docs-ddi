@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 5c06c275-4eb8-46ba-9b90-50ca192c9a47
 ms.date: 01/18/2019
 ms.topic: function
+f1_keywords:
+ - "netadapter/NetAdapterSetLinkLayerMtuSize"
 ms.keywords: NetAdapterSetLinkState
 req.header: netadapter.h
 req.include-header: netadaptercx.h

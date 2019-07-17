@@ -5,6 +5,8 @@ description: Returns the CRn field for a given ARM system register encoding valu
 ms.assetid: e49773c3-d777-4f0b-b14f-1bd505f55f43
 ms.date: 09/20/2018
 ms.topic: macro
+f1_keywords:
+ - "miniport/ARM64_SYSREG_CRN"
 ms.keywords: ARM64_SYSREG_CRN
 req.header: miniport.h
 req.include-header:

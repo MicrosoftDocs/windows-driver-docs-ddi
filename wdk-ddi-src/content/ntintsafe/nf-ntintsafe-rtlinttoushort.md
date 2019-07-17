@@ -8,6 +8,8 @@ ms.assetid: 52571477-80F5-4848-8BCC-AFA70140FABE
 ms.date: 04/30/2018
 ms.keywords: RtlIntToUShort, RtlIntToUShort function [Kernel-Mode Driver Architecture], kernel.rtlinttoushort, ntintsafe/RtlIntToUShort
 ms.topic: function
+f1_keywords:
+ - "ntintsafe/RtlIntToUShort"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop

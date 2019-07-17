@@ -8,6 +8,8 @@ ms.assetid: 7ED1D02B-07DB-409B-AABF-4ED1D28B3C43
 ms.date: 04/20/2018
 ms.keywords: IPrintSchemaParameterDefinition interface [Print Devices],UnitType property, IPrintSchemaParameterDefinition.UnitType, IPrintSchemaParameterDefinition.get_UnitType, IPrintSchemaParameterDefinition::UnitType, IPrintSchemaParameterDefinition::get_UnitType, UnitType property [Print Devices], UnitType property [Print Devices],IPrintSchemaParameterDefinition interface, get_UnitType, print._iprintschemaparameterdefinition_unittype, printerextension/IPrintSchemaParameterDefinition::UnitType, printerextension/IPrintSchemaParameterDefinition::get_UnitType
 ms.topic: method
+f1_keywords:
+ - "printerextension/IPrintSchemaParameterDefinition.UnitType"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows

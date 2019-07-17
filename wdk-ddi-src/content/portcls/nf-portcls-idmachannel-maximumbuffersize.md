@@ -6,6 +6,8 @@ tech.root: audio
 ms.assetid: 85d5a1be-e372-4d64-9b27-631f566094ba
 ms.date: 10/31/2018
 ms.topic: method
+f1_keywords:
+ - "portcls/IDmaChannel.MaximumBufferSize"
 ms.keywords: IDmaChannel::MaximumBufferSize, MaximumBufferSize, IDmaChannel.MaximumBufferSize, IDmaChannel::MaximumBufferSize, IDmaChannel.MaximumBufferSize
 req.header: portcls.h
 req.include-header:

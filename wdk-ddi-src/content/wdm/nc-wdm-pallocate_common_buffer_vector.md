@@ -8,6 +8,8 @@ ms.assetid: be2dd87e-6c09-4493-82ef-152dfce0917e
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
+f1_keywords:
+ - "wdm/PALLOCATE_COMMON_BUFFER_VECTOR"
 req.header: wdm.h
 req.include-header:
 req.target-type:

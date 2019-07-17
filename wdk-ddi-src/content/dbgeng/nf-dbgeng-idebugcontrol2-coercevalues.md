@@ -8,6 +8,8 @@ ms.assetid: d5374177-fddd-4f35-8cad-10be762ef4d8
 ms.date: 05/03/2018
 ms.keywords: CoerceValues, CoerceValues method [Windows Debugging], CoerceValues method [Windows Debugging],IDebugControl interface, CoerceValues method [Windows Debugging],IDebugControl2 interface, CoerceValues method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],CoerceValues method, IDebugControl2 interface [Windows Debugging],CoerceValues method, IDebugControl2.CoerceValues, IDebugControl2::CoerceValues, IDebugControl3 interface [Windows Debugging],CoerceValues method, IDebugControl3::CoerceValues, IDebugControl::CoerceValues, IDebugControl_a17ec845-aaf3-4480-a0fd-79fb515c48d5.xml, dbgeng/IDebugControl2::CoerceValues, dbgeng/IDebugControl3::CoerceValues, dbgeng/IDebugControl::CoerceValues, debugger.coercevalues
 ms.topic: method
+f1_keywords:
+ - "dbgeng/IDebugControl.CoerceValues"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

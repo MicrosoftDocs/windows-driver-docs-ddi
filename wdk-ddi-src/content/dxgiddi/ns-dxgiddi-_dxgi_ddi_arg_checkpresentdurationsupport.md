@@ -8,6 +8,8 @@ ms.assetid: FE12CFAB-3936-4453-88B5-A4CF0CA51E1A
 ms.date: 05/10/2018
 ms.keywords: DXGI_DDI_ARG_CHECKPRESENTDURATIONSUPPORT, DXGI_DDI_ARG_CHECKPRESENTDURATIONSUPPORT structure [Display Devices], _DXGI_DDI_ARG_CHECKPRESENTDURATIONSUPPORT, display.dxgi_ddi_arg_checkpresentdurationsupport, dxgiddi/DXGI_DDI_ARG_CHECKPRESENTDURATIONSUPPORT
 ms.topic: struct
+f1_keywords:
+ - "dxgiddi/DXGI_DDI_ARG_CHECKPRESENTDURATIONSUPPORT"
 req.header: dxgiddi.h
 req.include-header: 
 req.target-type: Windows

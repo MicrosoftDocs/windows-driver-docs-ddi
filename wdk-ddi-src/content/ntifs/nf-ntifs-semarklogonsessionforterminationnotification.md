@@ -8,6 +8,8 @@ ms.assetid: ca259e03-4770-48ce-a4c0-a26159a172aa
 ms.date: 04/16/2018
 ms.keywords: SeMarkLogonSessionForTerminationNotification, SeMarkLogonSessionForTerminationNotification routine [Installable File System Drivers], ifsk.semarklogonsessionforterminationnotification, ntifs/SeMarkLogonSessionForTerminationNotification, seref_417d6aa1-b506-463d-9506-3a3651873c4a.xml
 ms.topic: function
+f1_keywords:
+ - "ntifs/SeMarkLogonSessionForTerminationNotification"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

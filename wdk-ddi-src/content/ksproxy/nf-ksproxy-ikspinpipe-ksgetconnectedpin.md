@@ -8,6 +8,8 @@ ms.assetid: 9025E49D-A12B-4617-9441-13B61137853E
 ms.date: 04/23/2018
 ms.keywords: IKsPinPipe interface [Streaming Media Devices],KsGetConnectedPin method, IKsPinPipe.KsGetConnectedPin, IKsPinPipe::KsGetConnectedPin, KsGetConnectedPin, KsGetConnectedPin method [Streaming Media Devices], KsGetConnectedPin method [Streaming Media Devices],IKsPinPipe interface, ksproxy/IKsPinPipe::KsGetConnectedPin, stream.ikspinpipe_ksgetconnectedpin
 ms.topic: method
+f1_keywords:
+ - "ksproxy/IKsPinPipe.KsGetConnectedPin"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: Windows

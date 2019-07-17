@@ -8,6 +8,8 @@ ms.assetid: ff38c435-e1d4-48a9-8762-803e1619f6f1
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
 ms.topic: struct
+f1_keywords:
+ - "d3dkmddi/DKGK_GAMMA_DATA_CAP"
 ms.keywords: DKGK_GAMMA_DATA_CAP, DKGK_GAMMA_DATA_CAP, 
 req.header: d3dkmddi.h
 req.include-header:

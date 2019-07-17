@@ -8,6 +8,8 @@ ms.assetid: 1645c7e9-5ae7-41d1-92db-1f069f79ac81
 ms.date: 04/16/2018
 ms.keywords: CcPreparePinWrite, CcPreparePinWrite routine [Installable File System Drivers], ccref_00b887b5-cd87-44be-b96e-6be96df13a2b.xml, ifsk.ccpreparepinwrite, ntifs/CcPreparePinWrite
 ms.topic: function
+f1_keywords:
+ - "ntifs/CcPreparePinWrite"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

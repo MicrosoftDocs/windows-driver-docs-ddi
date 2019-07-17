@@ -8,6 +8,8 @@ ms.assetid: 25e8aec7-86af-4753-83d7-e7df5435f602
 ms.date: 04/20/2018
 ms.keywords: DrvGetDriverSetting, DrvGetDriverSetting method [Print Devices], DrvGetDriverSetting method [Print Devices],IPrintOemDriverUI interface, IPrintOemDriverUI interface [Print Devices],DrvGetDriverSetting method, IPrintOemDriverUI.DrvGetDriverSetting, IPrintOemDriverUI::DrvGetDriverSetting, prcomoem/IPrintOemDriverUI::DrvGetDriverSetting, print.iprintoemdriverui_drvgetdriversetting, print_unidrv-pscript_ui_3685add0-a9b4-43c3-9a5e-665e1f6f2034.xml
 ms.topic: method
+f1_keywords:
+ - "prcomoem/IPrintOemDriverUI.DrvGetDriverSetting"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop

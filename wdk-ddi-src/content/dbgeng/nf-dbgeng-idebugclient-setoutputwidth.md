@@ -8,6 +8,8 @@ ms.assetid: E2FAEBDD-336D-4E11-933B-88A6EA3BBDF9
 ms.date: 05/03/2018
 ms.keywords: IDebugClient interface [Windows Debugging],SetOutputWidth method, IDebugClient.SetOutputWidth, IDebugClient::SetOutputWidth, SetOutputWidth, SetOutputWidth method [Windows Debugging], SetOutputWidth method [Windows Debugging],IDebugClient interface, dbgeng/IDebugClient::SetOutputWidth, debugger.idebugclient_setoutputwidth
 ms.topic: method
+f1_keywords:
+ - "dbgeng/IDebugClient.SetOutputWidth"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

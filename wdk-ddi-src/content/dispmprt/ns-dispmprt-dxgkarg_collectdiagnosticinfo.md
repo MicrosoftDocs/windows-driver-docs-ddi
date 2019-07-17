@@ -8,6 +8,8 @@ ms.assetid: 04b03acc-2025-4e79-bb7b-46adb7492256
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
 ms.topic: struct
+f1_keywords:
+ - "dispmprt/DXGKARG_COLLECTDIAGNOSTICINFO"
 ms.keywords: DXGKARG_COLLECTDIAGNOSTICINFO, DXGKARG_COLLECTDIAGNOSTICINFO, *INOUT_PDXGKARG_COLLECTDIAGNOSTICINFO
 req.header: dispmprt.h
 req.include-header:

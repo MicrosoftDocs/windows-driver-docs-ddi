@@ -8,6 +8,8 @@ ms.assetid: 96b17a3f-1e69-47f5-aa09-59abfb5c1505
 ms.date: 05/02/2018
 ms.keywords: RIL_SetUiccServiceState, RIL_SetUiccServiceState method [Network Drivers Starting with Windows Vista], netvista.ril_setuiccservicestate, rilapi/RIL_SetUiccServiceState
 ms.topic: function
+f1_keywords:
+ - "rilapi/RIL_SetUiccServiceState"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: 7d375152-c1d2-4e6d-a6a8-7394a7ef0e35
 ms.date: 04/30/2018
 ms.keywords: TmReadOnlyEnlistment, TmReadOnlyEnlistment routine [Kernel-Mode Driver Architecture], kernel.tmreadonlyenlistment, ktm_ref_fbd80117-d891-4e06-b271-5d838e7ecab0.xml, wdm/TmReadOnlyEnlistment
 ms.topic: function
+f1_keywords:
+ - "wdm/TmReadOnlyEnlistment"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

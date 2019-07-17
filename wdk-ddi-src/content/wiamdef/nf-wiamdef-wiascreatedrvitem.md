@@ -8,6 +8,8 @@ ms.assetid: bc91133a-ae6a-447a-8519-65fbe2929521
 ms.date: 05/03/2018
 ms.keywords: image.wiascreatedrvitem, wiamdef/wiasCreateDrvItem, wiasCreateDrvItem, wiasCreateDrvItem function [Imaging Devices], wiasFncs_9bede31d-0ac0-4cc7-bdd5-7734e5f82dfc.xml
 ms.topic: function
+f1_keywords:
+ - "wiamdef/wiasCreateDrvItem"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop

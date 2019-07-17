@@ -8,6 +8,8 @@ ms.assetid: 7fc67320-6943-4e39-8474-28c24265eae2
 ms.date: 02/26/2018
 ms.keywords: DFRequestObjectRef_fb959453-1aab-4e2d-8877-356ce04b5784.xml, WdfRequestCreateFromIrp, WdfRequestCreateFromIrp method, kmdf.wdfrequestcreatefromirp, wdf.wdfrequestcreatefromirp, wdfrequest/WdfRequestCreateFromIrp
 ms.topic: function
+f1_keywords:
+ - "wdfrequest/WdfRequestCreateFromIrp"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal

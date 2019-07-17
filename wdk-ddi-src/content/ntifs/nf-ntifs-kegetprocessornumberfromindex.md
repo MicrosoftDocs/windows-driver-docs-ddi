@@ -8,6 +8,8 @@ ms.assetid: a6c9a7fa-8fef-4d6d-aab5-e712c49c0144
 ms.date: 04/30/2018
 ms.keywords: KeGetProcessorNumberFromIndex, KeGetProcessorNumberFromIndex routine [Kernel-Mode Driver Architecture], k105_c0b567bd-4436-4f6a-87a2-86d8b165e2dc.xml, kernel.kegetprocessornumberfromindex, wdm/KeGetProcessorNumberFromIndex
 ms.topic: function
+f1_keywords:
+ - "ntifs/KeGetProcessorNumberFromIndex"
 req.header: ntifs.h
 req.include-header: Ntddk.h, Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

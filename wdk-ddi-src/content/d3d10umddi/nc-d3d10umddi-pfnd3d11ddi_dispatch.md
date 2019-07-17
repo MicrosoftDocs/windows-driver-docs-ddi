@@ -7,6 +7,8 @@ ms.assetid: 6fbbf05a-efb0-4f24-8811-b87141cf2daa
 ms.date: 05/10/2018
 ms.keywords: Dispatch, Dispatch callback function [Display Devices], PFND3D11DDI_DISPATCH, PFND3D11DDI_DISPATCH callback, UserModeDisplayDriverDx11_Functions_1b4b62fc-3cc5-4506-9a61-30ee65f8ffcd.xml, d3d10umddi/Dispatch, display.dispatch
 ms.topic: callback
+f1_keywords:
+ - "d3d10umddi/Dispatch"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

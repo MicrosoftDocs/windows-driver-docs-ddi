@@ -5,6 +5,8 @@ description: Pfnd3dkmtGetmultisamplemethodlist retrieves a list of multiple-samp
 ms.assetid: a3421422-c620-44b7-8799-2115e8bbb6ac
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/PFND3DKMT_GETMULTISAMPLEMETHODLIST"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

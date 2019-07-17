@@ -7,6 +7,8 @@ ms.assetid: 4486939d-a35c-4b0b-b0d0-6402a62a4870
 ms.date: 05/10/2018
 ms.keywords: D3D11DDIARG_CREATEDEFERREDCONTEXT, D3D11DDIARG_CREATEDEFERREDCONTEXT structure [Display Devices], UMDisplayDriver_Dx11param_Structs_c66ddced-4073-4400-8142-4464ceadad74.xml, d3d10umddi/D3D11DDIARG_CREATEDEFERREDCONTEXT, display.d3d11ddiarg_createdeferredcontext
 ms.topic: struct
+f1_keywords:
+ - "d3d10umddi/D3D11DDIARG_CREATEDEFERREDCONTEXT"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows

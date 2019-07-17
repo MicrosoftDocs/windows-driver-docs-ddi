@@ -8,6 +8,8 @@ ms.assetid: 1a619b27-4367-419c-985f-588e3f556425
 ms.date: 04/20/2018
 ms.keywords: InitializeMonitorEx, InitializeMonitorEx function [Print Devices], print.initializemonitorex, spoolfnc_ffa71296-8b2a-48b3-a2c7-9765b9d7aed1.xml, winsplp/InitializeMonitorEx
 ms.topic: function
+f1_keywords:
+ - "winsplp/InitializeMonitorEx"
 req.header: winsplp.h
 req.include-header: 
 req.target-type: Windows

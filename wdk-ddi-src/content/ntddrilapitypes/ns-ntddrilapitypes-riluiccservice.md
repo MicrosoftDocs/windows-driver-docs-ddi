@@ -8,6 +8,8 @@ ms.assetid: 67c8abef-c920-4bc4-8216-8b6026a1962d
 ms.date: 05/02/2018
 ms.keywords: "*LPRILUICCSERVICE, RILUICCSERVICE, RILUICCSERVICE structure [Network Drivers Starting with Windows Vista], netvista.riluiccservice, ntddrilapitypes/RILUICCSERVICE"
 ms.topic: struct
+f1_keywords:
+ - "ntddrilapitypes/RILUICCSERVICE"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

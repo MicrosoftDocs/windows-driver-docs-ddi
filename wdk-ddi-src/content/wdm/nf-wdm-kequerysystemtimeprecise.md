@@ -8,6 +8,8 @@ ms.assetid: 4f5df2b5-e896-4519-aec9-5699155bb142
 ms.date: 04/30/2018
 ms.keywords: KeQuerySystemTimePrecise, KeQuerySystemTimePrecise routine [Kernel-Mode Driver Architecture], kernel.kequerysystemtimeprecise, wdm/KeQuerySystemTimePrecise
 ms.topic: function
+f1_keywords:
+ - "wdm/KeQuerySystemTimePrecise"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

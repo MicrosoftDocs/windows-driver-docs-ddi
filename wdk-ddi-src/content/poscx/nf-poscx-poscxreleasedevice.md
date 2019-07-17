@@ -8,6 +8,8 @@ ms.assetid: 9615915C-B729-4702-BF41-D5068B43A729
 ms.date: 02/23/2018
 ms.keywords: PosCxReleaseDevice, PosCxReleaseDevice function, pos.poscxreleasedevice, poscx/PosCxReleaseDevice
 ms.topic: function
+f1_keywords:
+ - "poscx/PosCxReleaseDevice"
 req.header: poscx.h
 req.include-header: Poscx.h
 req.target-type: Windows

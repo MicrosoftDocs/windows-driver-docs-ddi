@@ -8,6 +8,8 @@ ms.assetid: A9AB43A9-1409-4AA4-99DE-66D558F2303C
 ms.date: 05/07/2018
 ms.keywords: UcxEndpointGetStaticStreamsReferenced, UcxEndpointGetStaticStreamsReferenced method [Buses], buses._ucxendpointgetstaticstreamsreferenced, ucxendpoint/UcxEndpointGetStaticStreamsReferenced
 ms.topic: function
+f1_keywords:
+ - "ucxendpoint/UcxEndpointGetStaticStreamsReferenced"
 req.header: ucxendpoint.h
 req.include-header: Ucxclass.h, Ucxendpoint.h
 req.target-type: Windows

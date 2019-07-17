@@ -8,6 +8,8 @@ ms.assetid: b0a3ce92-b29a-4c5e-8cab-18fc92787e2e
 ms.date: 05/03/2018
 ms.keywords: GetEventSystem, GetEventSystem method [Windows Debugging], GetEventSystem method [Windows Debugging],IDebugSystemObjects3 interface, GetEventSystem method [Windows Debugging],IDebugSystemObjects4 interface, IDebugSystemObjects3 interface [Windows Debugging],GetEventSystem method, IDebugSystemObjects3::GetEventSystem, IDebugSystemObjects4 interface [Windows Debugging],GetEventSystem method, IDebugSystemObjects4.GetEventSystem, IDebugSystemObjects4::GetEventSystem, IDebugSystemObjects_6cb96e5a-e9a5-4ff7-9f36-a7770bc77ef1.xml, dbgeng/IDebugSystemObjects3::GetEventSystem, dbgeng/IDebugSystemObjects4::GetEventSystem, debugger.geteventsystem
 ms.topic: method
+f1_keywords:
+ - "dbgeng/IDebugSystemObjects3.GetEventSystem"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

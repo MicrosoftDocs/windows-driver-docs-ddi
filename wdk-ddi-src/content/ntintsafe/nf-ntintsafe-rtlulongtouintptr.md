@@ -8,6 +8,8 @@ ms.assetid: EBC36C42-50FC-4FB1-B11F-79ADAC2ABBBC
 ms.date: 04/30/2018
 ms.keywords: RtlULongToUIntPtr, RtlULongToUIntPtr function [Kernel-Mode Driver Architecture], kernel.rtlulongtouintptr, ntintsafe/RtlULongToUIntPtr
 ms.topic: function
+f1_keywords:
+ - "ntintsafe/RtlULongToUIntPtr"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop

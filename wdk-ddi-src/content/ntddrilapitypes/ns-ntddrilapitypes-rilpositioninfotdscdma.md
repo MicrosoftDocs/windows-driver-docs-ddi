@@ -8,6 +8,8 @@ ms.assetid: 0b7b2592-8a67-4eb0-8e87-354fd5f215c5
 ms.date: 02/16/2018
 ms.keywords: "*LPRILPOSITIONINFOTDSCDMA, RILPOSITIONINFOTDSCDMA, RILPOSITIONINFOTDSCDMA structure [Network Drivers Starting with Windows Vista], netvista.rilpositioninfotdscdma, rilapitypes/RILPOSITIONINFOTDSCDMA"
 ms.topic: struct
+f1_keywords:
+ - "ntddrilapitypes/RILPOSITIONINFOTDSCDMA"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h, Ntddrilapitypes.h
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: d9bf6c47-b7ce-413d-8871-4d9d68e27715
 ms.date: 02/26/2018
 ms.keywords: DFUsbRef_a179cacd-e450-4a53-93e7-4eb3a59fc605.xml, WDF_USB_CONTINUOUS_READER_CONFIG_INIT, WDF_USB_CONTINUOUS_READER_CONFIG_INIT function, kmdf.wdf_usb_continuous_reader_config_init, wdf.wdf_usb_continuous_reader_config_init, wdfusb/WDF_USB_CONTINUOUS_READER_CONFIG_INIT
 ms.topic: function
+f1_keywords:
+ - "wdfusb/WDF_USB_CONTINUOUS_READER_CONFIG_INIT"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal

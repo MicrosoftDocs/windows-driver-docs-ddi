@@ -8,6 +8,8 @@ ms.assetid: B3655B3C-4E9E-4FAC-9AAB-B7D4BFB2B91E
 ms.date: 05/02/2018
 ms.keywords: "*PNDIS_SWITCH_PORT_FEATURE_STATUS_CUSTOM, NDIS_SWITCH_PORT_FEATURE_STATUS_CUSTOM, NDIS_SWITCH_PORT_FEATURE_STATUS_CUSTOM structure [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_PORT_FEATURE_STATUS_CUSTOM, PNDIS_SWITCH_PORT_FEATURE_STATUS_CUSTOM structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_PORT_FEATURE_STATUS_CUSTOM, netvista.ndis_switch_port_feature_status_custom, ntddndis/NDIS_SWITCH_PORT_FEATURE_STATUS_CUSTOM, ntddndis/PNDIS_SWITCH_PORT_FEATURE_STATUS_CUSTOM"
 ms.topic: struct
+f1_keywords:
+ - "ntddndis/NDIS_SWITCH_PORT_FEATURE_STATUS_CUSTOM"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

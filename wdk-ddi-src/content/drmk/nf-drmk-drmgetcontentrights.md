@@ -8,6 +8,8 @@ ms.assetid: 706a5749-e288-4275-84fc-e500a848d541
 ms.date: 05/08/2018
 ms.keywords: DrmGetContentRights, DrmGetContentRights function [Audio Devices], aud-prop2_9f836831-bb65-45d1-8701-4aaa77999b81.xml, audio.drmgetcontentrights, drmk/DrmGetContentRights
 ms.topic: function
+f1_keywords:
+ - "drmk/DrmGetContentRights"
 req.header: drmk.h
 req.include-header: Drmk.h
 req.target-type: Universal

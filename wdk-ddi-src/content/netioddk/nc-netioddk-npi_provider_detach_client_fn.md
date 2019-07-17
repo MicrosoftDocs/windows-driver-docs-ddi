@@ -8,6 +8,8 @@ ms.assetid: 0f29bf89-856c-4019-a966-3e666a7fc78d
 ms.date: 05/02/2018
 ms.keywords: NPI_PROVIDER_DETACH_CLIENT_FN, NPI_PROVIDER_DETACH_CLIENT_FN callback, PNPI_PROVIDER_DETACH_CLIENT_FN, PNPI_PROVIDER_DETACH_CLIENT_FN callback function [Network Drivers Starting with Windows Vista], ProviderDetachClient, ProviderDetachClient callback function [Network Drivers Starting with Windows Vista], netioddk/ProviderDetachClient, netvista.providerdetachclient, nmrref_04fc189d-40e1-4cc5-87ea-dda2664f7e63.xml
 ms.topic: callback
+f1_keywords:
+ - "netioddk/PNPI_PROVIDER_DETACH_CLIENT_FN"
 req.header: netioddk.h
 req.include-header: Wsk.h
 req.target-type: Windows

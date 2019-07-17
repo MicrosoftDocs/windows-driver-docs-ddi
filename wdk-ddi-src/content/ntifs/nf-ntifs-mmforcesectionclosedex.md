@@ -5,6 +5,8 @@ description: The MmForceSectionClosedEx function examines the section object poi
 ms.assetid: a33c8323-40ea-4606-bec1-68b955e01c8f
 ms.date: 10/19/2018
 ms.topic: function
+f1_keywords:
+ - "ntifs/MmForceSectionClosedEx"
 ms.keywords: MmForceSectionClosedEx
 req.header: ntifs.h
 req.include-header:

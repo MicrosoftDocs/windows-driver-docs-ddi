@@ -5,6 +5,8 @@ description: Acquires a resource handle.
 ms.assetid: e4ac45bd-29c0-4114-a68c-a43978c37b89
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmddi/DXGKCB_ACQUIREHANDLEDATA"
 req.header: d3dkmddi.h
 req.include-header:
 req.target-type:

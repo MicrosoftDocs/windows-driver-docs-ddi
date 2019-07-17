@@ -5,6 +5,8 @@ description: An interface which the underlying debugger host must implement in o
 ms.assetid: d0376d3b-d770-44e6-8b8f-5d8cc361bf14
 ms.date: 07/13/2018
 ms.topic: interface
+f1_keywords:
+ - "dbgmodel/IDebugHostScriptHost"
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:

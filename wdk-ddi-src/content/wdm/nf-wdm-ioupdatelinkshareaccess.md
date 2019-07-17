@@ -8,6 +8,8 @@ ms.assetid: C92E53C8-3411-4E6E-B48E-B16F6B815488
 ms.date: 04/30/2018
 ms.keywords: IoUpdateLinkShareAccess, IoUpdateLinkShareAccess function [Kernel-Mode Driver Architecture], kernel.ioupdatelinkshareaccess, wdm/IoUpdateLinkShareAccess
 ms.topic: function
+f1_keywords:
+ - "wdm/IoUpdateLinkShareAccess"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Universal

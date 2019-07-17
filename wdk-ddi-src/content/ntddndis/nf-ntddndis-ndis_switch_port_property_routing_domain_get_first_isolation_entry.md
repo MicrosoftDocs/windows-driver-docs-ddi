@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 7d149940-7927-4a50-af03-6e4feff2ff3e
 ms.date: 04/17/2018
 ms.topic: macro
+f1_keywords:
+ - "ntddndis/NDIS_SWITCH_PORT_PROPERTY_ROUTING_DOMAIN_GET_FIRST_ISOLATION_ENTRY"
 ms.keywords: NDIS_SWITCH_PORT_PROPERTY_ROUTING_DOMAIN_GET_FIRST_ISOLATION_ENTRY
 req.header: ntddndis.h
 req.include-header: ndis.h

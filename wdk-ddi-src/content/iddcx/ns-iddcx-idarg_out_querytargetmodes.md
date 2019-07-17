@@ -8,6 +8,8 @@ ms.assetid: 427af891-1fb7-4042-89bc-a40191ec5a31
 ms.date: 05/10/2018
 ms.keywords: IDARG_OUT_QUERYTARGETMODES, IDARG_OUT_QUERYTARGETMODES structure [Display Devices], display.idarg_out_querytargetmodes, iddcx/IDARG_OUT_QUERYTARGETMODES
 ms.topic: struct
+f1_keywords:
+ - "iddcx/IDARG_OUT_QUERYTARGETMODES"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows

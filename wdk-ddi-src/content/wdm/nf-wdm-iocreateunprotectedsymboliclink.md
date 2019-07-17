@@ -8,6 +8,8 @@ ms.assetid: 21ca4ec1-fd5f-46bb-9760-3bb0cdb761b9
 ms.date: 04/30/2018
 ms.keywords: IoCreateUnprotectedSymbolicLink, IoCreateUnprotectedSymbolicLink routine [Kernel-Mode Driver Architecture], k104_72bb6571-da2d-4027-bfcd-24438e3bd08a.xml, kernel.iocreateunprotectedsymboliclink, wdm/IoCreateUnprotectedSymbolicLink
 ms.topic: function
+f1_keywords:
+ - "wdm/IoCreateUnprotectedSymbolicLink"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

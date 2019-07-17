@@ -8,6 +8,8 @@ ms.assetid: 1a4787da-2813-4a7a-820a-5c078175aba5
 ms.date: 02/26/2018
 ms.keywords: IRequestCallbackRequestCompletion interface,OnCompletion method, IRequestCallbackRequestCompletion.OnCompletion, IRequestCallbackRequestCompletion::OnCompletion, OnCompletion, OnCompletion method, OnCompletion method,IRequestCallbackRequestCompletion interface, UMDFRequestObjectRef_b3ec1892-f32f-4c52-80f6-8699a358ea8d.xml, umdf.irequestcallbackrequestcompletion_oncompletion, wdf.irequestcallbackrequestcompletion_oncompletion, wudfddi/IRequestCallbackRequestCompletion::OnCompletion
 ms.topic: method
+f1_keywords:
+ - "wudfddi/IRequestCallbackRequestCompletion.OnCompletion"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Windows

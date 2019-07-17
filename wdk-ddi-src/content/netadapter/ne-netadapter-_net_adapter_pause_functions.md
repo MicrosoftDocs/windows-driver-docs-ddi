@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 758bf862-40d5-4035-8bd4-eaa4b4246d26
 ms.date: 02/05/2018
 ms.topic: enum
+f1_keywords:
+ - "netadapter/NET_ADAPTER_PAUSE_FUNCTIONS"
 ms.keywords: _NET_ADAPTER_PAUSE_FUNCTIONS, NET_ADAPTER_PAUSE_FUNCTIONS, *PNET_ADAPTER_PAUSE_FUNCTIONS, 
 req.header: netadapter.h
 req.include-header:

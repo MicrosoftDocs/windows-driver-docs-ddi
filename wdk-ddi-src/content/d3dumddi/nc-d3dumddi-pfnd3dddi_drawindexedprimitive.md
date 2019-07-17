@@ -8,6 +8,8 @@ ms.assetid: 12bb6274-d042-43bb-b9f5-1417f42da729
 ms.date: 05/10/2018
 ms.keywords: DrawIndexedPrimitive, DrawIndexedPrimitive callback function [Display Devices], PFND3DDDI_DRAWINDEXEDPRIMITIVE, PFND3DDDI_DRAWINDEXEDPRIMITIVE callback, UserModeDisplayDriver_Functions_427fa7b5-5b52-4314-b097-aea6d27cb535.xml, d3dumddi/DrawIndexedPrimitive, display.drawindexedprimitive
 ms.topic: callback
+f1_keywords:
+ - "d3dumddi/DrawIndexedPrimitive"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop

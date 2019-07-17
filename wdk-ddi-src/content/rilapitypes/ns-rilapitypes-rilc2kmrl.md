@@ -8,6 +8,8 @@ ms.assetid: a06d81d1-9ecc-41da-b0ad-fa878fac382b
 ms.date: 02/26/2018
 ms.keywords: "*LPRILC2KMRL, RILC2KMRL, RILC2KMRL structure [Network Drivers Starting with Windows Vista], netvista.rilc2kmrl_2, rilapitypes/RILC2KMRL"
 ms.topic: struct
+f1_keywords:
+ - "rilapitypes/RILC2KMRL"
 req.header: rilapitypes.h
 req.include-header:
 req.target-type: Windows

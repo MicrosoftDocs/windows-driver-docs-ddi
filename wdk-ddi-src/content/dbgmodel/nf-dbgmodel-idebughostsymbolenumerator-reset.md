@@ -5,6 +5,8 @@ description: Resets the enumerator to its initial state.  A subsequent GetNext c
 ms.assetid: 2a2b6b49-694e-4da9-b046-f0ced9508ec4
 ms.date: 08/22/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDebugHostSymbolEnumerator.Reset"
 ms.keywords: IDebugHostSymbolEnumerator::Reset, Reset, IDebugHostSymbolEnumerator.Reset, IDebugHostSymbolEnumerator::Reset, IDebugHostSymbolEnumerator.Reset
 req.header: dbgmodel.h
 req.include-header:

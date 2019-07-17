@@ -8,6 +8,8 @@ ms.assetid: D832B534-34E2-402F-833A-C072007E3106
 ms.date: 02/15/2018
 ms.keywords: "*PGNSS_GEOFENCE_CREATE_RESPONSE, GNSS_GEOFENCE_CREATE_RESPONSE, GNSS_GEOFENCE_CREATE_RESPONSE structure [Sensor Devices], PGNSS_GEOFENCE_CREATE_RESPONSE, PGNSS_GEOFENCE_CREATE_RESPONSE structure pointer [Sensor Devices], gnss.gnss_geofence_create_response, gnssdriver/GNSS_GEOFENCE_CREATE_RESPONSE, gnssdriver/PGNSS_GEOFENCE_CREATE_RESPONSE"
 ms.topic: struct
+f1_keywords:
+ - "gnssdriver/GNSS_GEOFENCE_CREATE_RESPONSE"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows

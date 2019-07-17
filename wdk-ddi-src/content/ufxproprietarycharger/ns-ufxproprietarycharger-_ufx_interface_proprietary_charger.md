@@ -8,6 +8,8 @@ ms.assetid: 3E75EA87-FBF8-4FFB-9CD7-F8E1D5353D68
 ms.date: 05/07/2018
 ms.keywords: "*PUFX_INTERFACE_PROPRIETARY_CHARGER, PUFX_INTERFACE_PROPRIETARY_CHARGER, PUFX_INTERFACE_PROPRIETARY_CHARGER structure pointer [Buses], UFX_INTERFACE_PROPRIETARY_CHARGER, UFX_INTERFACE_PROPRIETARY_CHARGER structure [Buses], _UFX_INTERFACE_PROPRIETARY_CHARGER, buses.ufx_interface_proprietary_charger, ufxproprietarycharger/PUFX_INTERFACE_PROPRIETARY_CHARGER, ufxproprietarycharger/UFX_INTERFACE_PROPRIETARY_CHARGER"
 ms.topic: struct
+f1_keywords:
+ - "ufxproprietarycharger/UFX_INTERFACE_PROPRIETARY_CHARGER"
 req.header: ufxproprietarycharger.h
 req.include-header: Ufxproprietarycharger.h
 req.target-type: Windows

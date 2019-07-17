@@ -8,6 +8,8 @@ ms.assetid: e92f0297-8bfc-496d-a00b-e7b5711c7856
 ms.date: 04/30/2018
 ms.keywords: ZwOpenKey, ZwOpenKey routine [Kernel-Mode Driver Architecture], k111_8583b145-a6be-4e4f-8e46-ca7d48b8a07f.xml, kernel.zwopenkey, wdm/ZwOpenKey
 ms.topic: function
+f1_keywords:
+ - "wdm/ZwOpenKey"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

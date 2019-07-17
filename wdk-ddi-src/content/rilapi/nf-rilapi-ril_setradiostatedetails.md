@@ -8,6 +8,8 @@ ms.assetid: 5936bbbe-452c-4d68-ad22-e65671351f78
 ms.date: 05/02/2018
 ms.keywords: RIL_SetRadioStateDetails, RIL_SetRadioStateDetails method [Network Drivers Starting with Windows Vista], netvista.ril_setradiostatedetails, rilapi/RIL_SetRadioStateDetails
 ms.topic: function
+f1_keywords:
+ - "rilapi/RIL_SetRadioStateDetails"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows

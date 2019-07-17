@@ -5,6 +5,8 @@ description: For fields which have an address regardless of the particular type 
 ms.assetid: 07120c08-228d-4f66-8097-c5966d18f0c2
 ms.date: 09/12/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDebugHostField.GetLocation"
 ms.keywords: IDebugHostField::GetLocation, GetLocation, IDebugHostField.GetLocation, IDebugHostField::GetLocation, IDebugHostField.GetLocation
 req.header: dbgmodel.h
 req.include-header:

@@ -8,6 +8,8 @@ ms.assetid: b2ed8c88-9ffd-4601-8fd0-c9390e9ba84d
 ms.date: 03/29/2018
 ms.keywords: StorPortAllocateContiguousMemorySpecifyCacheNode, StorPortAllocateContiguousMemorySpecifyCacheNode routine [Storage Devices], storage.storportallocatecontiguousmemoryspecifycachenode, storport/StorPortAllocateContiguousMemorySpecifyCacheNode, storprt_d91d6ab4-677e-4bc0-a0b5-1c252475ecbb.xml
 ms.topic: function
+f1_keywords:
+ - "storport/StorPortAllocateContiguousMemorySpecifyCacheNode"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

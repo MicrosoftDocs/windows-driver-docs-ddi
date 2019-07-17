@@ -8,6 +8,8 @@ ms.assetid: 7e36cf90-a84a-447c-bec3-2b5175fffd7c
 ms.date: 04/20/2018
 ms.keywords: GetXpsPart, GetXpsPart method [Print Devices], GetXpsPart method [Print Devices],IXpsDocumentProvider interface, IXpsDocumentProvider interface [Print Devices],GetXpsPart method, IXpsDocumentProvider.GetXpsPart, IXpsDocumentProvider::GetXpsPart, filterpipeline/IXpsDocumentProvider::GetXpsPart, filterpipeline_e99337a9-3674-4d34-886c-684a85a8dd0d.xml, print.ixpsdocumentprovider_getxpspart
 ms.topic: method
+f1_keywords:
+ - "filterpipeline/IXpsDocumentProvider.GetXpsPart"
 req.header: filterpipeline.h
 req.include-header: 
 req.target-type: Desktop

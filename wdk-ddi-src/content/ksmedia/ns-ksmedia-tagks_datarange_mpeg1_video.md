@@ -8,6 +8,8 @@ ms.assetid: 0b715c9b-9a5a-4ef6-b3cc-c17964e55bc1
 ms.date: 04/23/2018
 ms.keywords: "*PKS_DATARANGE_MPEG1_VIDEO, KS_DATARANGE_MPEG1_VIDEO, KS_DATARANGE_MPEG1_VIDEO structure [Streaming Media Devices], PKS_DATARANGE_MPEG1_VIDEO, PKS_DATARANGE_MPEG1_VIDEO structure pointer [Streaming Media Devices], ksmedia/KS_DATARANGE_MPEG1_VIDEO, ksmedia/PKS_DATARANGE_MPEG1_VIDEO, stream.ks_datarange_mpeg1_video, tagKS_DATARANGE_MPEG1_VIDEO, vidcapstruct_caa12154-017f-4796-bc84-3c132475a75e.xml"
 ms.topic: struct
+f1_keywords:
+ - "ksmedia/KS_DATARANGE_MPEG1_VIDEO"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows

@@ -5,6 +5,8 @@ description: The GetKeyValue method on a key reference behaves as the GetKeyValu
 ms.assetid: 5637adf8-fb06-4976-a367-2d2bac546d9f
 ms.date: 08/14/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IModelKeyReference.GetKeyValue"
 ms.keywords: IModelKeyReference::GetKeyValue, GetKeyValue, IModelKeyReference.GetKeyValue, IModelKeyReference::GetKeyValue, IModelKeyReference.GetKeyValue
 req.header: dbgmodel.h
 req.include-header:

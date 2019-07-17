@@ -6,6 +6,8 @@ tech.root: pci
 ms.assetid: 86b15870-c6f5-464c-a0b2-7f10e869f383
 ms.date: 09/30/2018
 ms.topic: struct
+f1_keywords:
+ - "ntddk/_PCI_FPB_MEM_LOW_VECTOR_CONTROL_REGISTER"
 ms.keywords: _PCI_FPB_MEM_LOW_VECTOR_CONTROL_REGISTER, PCI_FPB_MEM_LOW_VECTOR_CONTROL_REGISTER, *PPCI_FPB_MEM_LOW_VECTOR_CONTROL_REGISTER, 
 req.header: ntddk.h
 req.include-header:

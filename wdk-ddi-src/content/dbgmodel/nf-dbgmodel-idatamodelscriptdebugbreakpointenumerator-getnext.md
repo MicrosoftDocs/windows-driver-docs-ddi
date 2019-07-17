@@ -5,6 +5,8 @@ description: The GetNext method moves the enumerator forward to the next breakpo
 ms.assetid: 6b07b694-39dc-4114-9d18-1656680b512b
 ms.date: 09/10/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDataModelScriptDebugBreakpointEnumerator.GetNext"
 ms.keywords: IDataModelScriptDebugBreakpointEnumerator::GetNext, GetNext, IDataModelScriptDebugBreakpointEnumerator.GetNext, IDataModelScriptDebugBreakpointEnumerator::GetNext, IDataModelScriptDebugBreakpointEnumerator.GetNext
 req.header: dbgmodel.h
 req.include-header:

@@ -7,6 +7,8 @@ ms.assetid: A600C402-EB77-4C44-8349-96DAF11B807C
 ms.date: 05/10/2018
 ms.keywords: D3D12DDI_ALLOCATION_INFO_0022, D3D12DDI_ALLOCATION_INFO_0022 structure [Display Devices], d3d12umddi/D3D12DDI_ALLOCATION_INFO_0022, display.d3d12ddi_allocation_info_0022
 ms.topic: struct
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_ALLOCATION_INFO_0022"
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows

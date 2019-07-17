@@ -8,6 +8,8 @@ ms.assetid: 60d320d2-24ca-4c7a-bdcf-ed3322a02f00
 ms.date: 05/03/2018
 ms.keywords: IOCTL_GET_PIPE_CONFIGURATION, IOCTL_GET_PIPE_CONFIGURATION control, IOCTL_GET_PIPE_CONFIGURATION control code [Imaging Devices], image.ioctl_get_pipe_configuration, stifnc_d8b8d478-b15d-402e-b449-052a25ff38fc.xml, usbscan/IOCTL_GET_PIPE_CONFIGURATION
 ms.topic: ioctl
+f1_keywords:
+ - "usbscan/IOCTL_GET_PIPE_CONFIGURATION"
 req.header: usbscan.h
 req.include-header: Usbscan.h
 req.target-type: Windows

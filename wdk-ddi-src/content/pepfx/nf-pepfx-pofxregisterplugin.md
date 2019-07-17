@@ -8,6 +8,8 @@ ms.assetid: BB50112E-6706-419C-9686-79F0F76926C3
 ms.date: 04/30/2018
 ms.keywords: PoFxRegisterPlugin, PoFxRegisterPlugin routine [Kernel-Mode Driver Architecture], kernel.pofxregisterplugin, pepfx/PoFxRegisterPlugin
 ms.topic: function
+f1_keywords:
+ - "pepfx/PoFxRegisterPlugin"
 req.header: pepfx.h
 req.include-header: Pep_x.h
 req.target-type: Windows

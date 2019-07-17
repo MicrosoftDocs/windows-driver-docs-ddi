@@ -8,6 +8,8 @@ ms.assetid: dbc2163c-6465-4c4d-a597-c941168515be
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
 ms.topic: struct
+f1_keywords:
+ - "dispmprt/_DXGKARG_GETDEVICELOCATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.keywords: _DXGKARG_GETDEVICELOCATION, DXGKARG_GETDEVICELOCATION, *PDXGKARG_GETDEVICELOCATION, 

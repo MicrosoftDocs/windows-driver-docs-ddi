@@ -8,6 +8,8 @@ ms.assetid: 3418dd2b-63cb-411f-9bae-390148885907
 ms.date: 05/10/2018
 ms.keywords: DXGK_BRIGHTNESS_GET_CAPS, DXGK_BRIGHTNESS_GET_CAPS callback, DxgkDdiGetBrightnessCaps, DxgkDdiGetBrightnessCaps callback function [Display Devices], display.dxgkddigetbrightnesscaps, dispmprt/DxgkDdiGetBrightnessCaps
 ms.topic: callback
+f1_keywords:
+ - "dispmprt/DxgkDdiGetBrightnessCaps"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Desktop

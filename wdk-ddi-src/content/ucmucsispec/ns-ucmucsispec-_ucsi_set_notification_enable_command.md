@@ -6,6 +6,8 @@ ms.assetid: bb43d333-b0a4-4c5a-9932-cdae5da2ce61
 tech.root: usbref
 ms.date: 09/30/2018
 ms.topic: struct
+f1_keywords:
+ - "ucmucsispec/_UCSI_SET_NOTIFICATION_ENABLE_COMMAND"
 ms.keywords: _UCSI_SET_NOTIFICATION_ENABLE_COMMAND, UCSI_SET_NOTIFICATION_ENABLE_COMMAND, *PUCSI_SET_NOTIFICATION_ENABLE_COMMAND, 
 req.header: ucmucsispec.h
 req.include-header: UcmUcsiCx.h 

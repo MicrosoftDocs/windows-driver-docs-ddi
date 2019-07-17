@@ -8,6 +8,8 @@ ms.assetid: be353d10-1d8a-4fea-a415-e1729184e451
 ms.date: 04/30/2018
 ms.keywords: IoAdjustPagingPathCount, IoAdjustPagingPathCount routine [Kernel-Mode Driver Architecture], k104_f52acd6d-f3f6-43c2-a339-3060a12a6298.xml, kernel.ioadjustpagingpathcount, wdm/IoAdjustPagingPathCount
 ms.topic: macro
+f1_keywords:
+ - "wdm/IoAdjustPagingPathCount"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop

@@ -8,6 +8,8 @@ ms.assetid: 72567e37-f37f-43f6-8a3a-3d184cb8de13
 ms.date: 02/16/2018
 ms.keywords: "*LPRILUMTSMRL, RILUMTSMRL, RILUMTSMRL structure [Network Drivers Starting with Windows Vista], netvista.rilumtsmrl, rilapitypes/RILUMTSMRL"
 ms.topic: struct
+f1_keywords:
+ - "ntddrilapitypes/RILUMTSMRL"
 req.header: ntddrilapitypes.h
 req.include-header: Ntddrilapitypes.h
 req.target-type: Windows

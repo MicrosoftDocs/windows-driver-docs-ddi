@@ -8,6 +8,8 @@ ms.assetid: 7b45811c-4e5f-4344-b0b3-15d36b912b5b
 ms.date: 03/29/2018
 ms.keywords: StorPortReadPortBufferUshort, StorPortReadPortBufferUshort routine [Storage Devices], storage.storportreadportbufferushort, storport/StorPortReadPortBufferUshort, storprt_8bb9a625-864a-4566-a570-87425b6bc9af.xml
 ms.topic: macro
+f1_keywords:
+ - "storport/StorPortReadPortBufferUshort"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

@@ -5,6 +5,8 @@ description: The PFND3DKMT_SUBMITCOMMAND callback function is used to submit com
 ms.assetid: 1c4650b3-31ef-4432-908d-fb8511727686
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/PFND3DKMT_SUBMITCOMMAND"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

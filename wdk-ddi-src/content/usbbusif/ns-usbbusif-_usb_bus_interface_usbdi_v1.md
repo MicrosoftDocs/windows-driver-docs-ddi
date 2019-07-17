@@ -8,6 +8,8 @@ ms.assetid: 9c90c182-86ac-43e5-9e77-0ea2da76e6b9
 ms.date: 05/07/2018
 ms.keywords: "*PUSB_BUS_INTERFACE_USBDI_V1, PUSB_BUS_INTERFACE_USBDI_V1, PUSB_BUS_INTERFACE_USBDI_V1 structure pointer [Buses], USB_BUS_INTERFACE_USBDI_V1, USB_BUS_INTERFACE_USBDI_V1 structure [Buses], _USB_BUS_INTERFACE_USBDI_V1, buses.usb_bus_interface_usbdi_v1, usbbusif/PUSB_BUS_INTERFACE_USBDI_V1, usbbusif/USB_BUS_INTERFACE_USBDI_V1, usbinterKR_baeecc46-78ee-409a-9017-b6e74b3340e0.xml"
 ms.topic: struct
+f1_keywords:
+ - "usbbusif/USB_BUS_INTERFACE_USBDI_V1"
 req.header: usbbusif.h
 req.include-header: Usbbusif.h
 req.target-type: Windows

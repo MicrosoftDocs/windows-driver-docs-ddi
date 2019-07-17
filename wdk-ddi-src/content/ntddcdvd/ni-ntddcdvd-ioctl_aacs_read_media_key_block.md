@@ -8,6 +8,8 @@ ms.assetid: 08852f41-1836-4c55-bf6f-0246caa2c8bd
 ms.date: 03/29/2018
 ms.keywords: IOCTL_AACS_READ_MEDIA_KEY_BLOCK, IOCTL_AACS_READ_MEDIA_KEY_BLOCK control, IOCTL_AACS_READ_MEDIA_KEY_BLOCK control code [Storage Devices], k307_0e90884e-4c78-4fd5-b30c-eed14d73ba5e.xml, ntddcdvd/IOCTL_AACS_READ_MEDIA_KEY_BLOCK, storage.ioctl_aacs_read_media_key_block
 ms.topic: ioctl
+f1_keywords:
+ - "ntddcdvd/IOCTL_AACS_READ_MEDIA_KEY_BLOCK"
 req.header: ntddcdvd.h
 req.include-header: Ntddcdvd.h
 req.target-type: Windows

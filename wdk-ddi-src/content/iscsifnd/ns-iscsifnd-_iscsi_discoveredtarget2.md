@@ -8,6 +8,8 @@ ms.assetid: 77fb2942-5836-44cb-9a5e-e45f6a022264
 ms.date: 03/29/2018
 ms.keywords: "*PISCSI_DiscoveredTarget2, ISCSI_DiscoveredTarget2, ISCSI_DiscoveredTarget2 structure [Storage Devices], PISCSI_DiscoveredTarget2, PISCSI_DiscoveredTarget2 structure pointer [Storage Devices], _ISCSI_DiscoveredTarget2, iscsifnd/ISCSI_DiscoveredTarget2, iscsifnd/PISCSI_DiscoveredTarget2, storage.iscsi_discoveredtarget2, structs-iSCSI_5a9fcec3-8447-441c-a2d9-1416c1bbe07e.xml"
 ms.topic: struct
+f1_keywords:
+ - "iscsifnd/ISCSI_DiscoveredTarget2"
 req.header: iscsifnd.h
 req.include-header: Iscsifnd.h
 req.target-type: Windows

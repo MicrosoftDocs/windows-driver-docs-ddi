@@ -8,6 +8,8 @@ ms.assetid: 6f9b79a0-0947-4f69-b2b6-f35ad2ee70d5
 ms.date: 05/02/2018
 ms.keywords: RIL_StartModemLogs, RIL_StartModemLogs method [Network Drivers Starting with Windows Vista], netvista.ril_startmodemlogs, rilapi/RIL_StartModemLogs
 ms.topic: function
+f1_keywords:
+ - "rilapi/RIL_StartModemLogs"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows

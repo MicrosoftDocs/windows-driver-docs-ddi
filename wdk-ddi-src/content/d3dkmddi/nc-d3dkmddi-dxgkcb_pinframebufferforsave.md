@@ -5,6 +5,8 @@ description: Implemented by the client driver to pin down the entire frame buffe
 ms.assetid: ed0ba03e-321c-4d52-827f-578a5a0e83f3
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmddi/DXGKCB_PINFRAMEBUFFERFORSAVE"
 req.header: d3dkmddi.h
 req.include-header:
 req.target-type:

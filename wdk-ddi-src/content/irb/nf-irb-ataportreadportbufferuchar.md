@@ -8,6 +8,8 @@ ms.assetid: 7bb8ed1d-fc6c-4475-9770-603be930be7a
 ms.date: 03/29/2018
 ms.keywords: AtaPortReadPortBufferUchar, AtaPortReadPortBufferUchar routine [Storage Devices], atartns_1c072aa8-585a-4f8c-be16-be8c1dbc6258.xml, irb/AtaPortReadPortBufferUchar, storage.ataportreadportbufferuchar
 ms.topic: function
+f1_keywords:
+ - "irb/AtaPortReadPortBufferUchar"
 req.header: irb.h
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop

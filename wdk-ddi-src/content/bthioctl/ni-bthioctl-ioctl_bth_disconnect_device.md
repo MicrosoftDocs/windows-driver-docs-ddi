@@ -8,6 +8,8 @@ ms.assetid: 03c7f389-60a4-4c98-881d-a58926644275
 ms.date: 04/27/2018
 ms.keywords: IOCTL_BTH_DISCONNECT_DEVICE, IOCTL_BTH_DISCONNECT_DEVICE control, IOCTL_BTH_DISCONNECT_DEVICE control code [Bluetooth Devices], bltooth.ioctl_bth_disconnect_device, bth_ioctls_03f58c9a-06b9-45b9-b817-3ef86058af5e.xml, bthioctl/IOCTL_BTH_DISCONNECT_DEVICE
 ms.topic: ioctl
+f1_keywords:
+ - "bthioctl/IOCTL_BTH_DISCONNECT_DEVICE"
 req.header: bthioctl.h
 req.include-header: Bthioctl.h
 req.target-type: Windows

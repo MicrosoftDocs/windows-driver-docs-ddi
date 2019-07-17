@@ -8,6 +8,8 @@ ms.assetid: 6c9e3e30-1598-4537-bc76-da5ffc552de3
 ms.author: windowsdriverdev
 ms.date: 04/11/2019
 ms.topic: struct
+f1_keywords:
+ - "eventdetectoroemadapter/DETECTIONEVENT"
 ms.keywords: DETECTIONEVENT, DETECTIONEVENT, 
 req.header: eventdetectoroemadapter.h
 req.include-header:

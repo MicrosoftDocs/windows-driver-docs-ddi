@@ -8,6 +8,8 @@ ms.assetid: f633a967-46b5-4532-b372-b9739f2146a2
 ms.date: 03/29/2018
 ms.keywords: StorPortReadRegisterBufferUchar, StorPortReadRegisterBufferUchar routine [Storage Devices], storage.storportreadregisterbufferuchar, storport/StorPortReadRegisterBufferUchar, storprt_361bfb77-1197-40cb-81ec-fc198e6454e9.xml
 ms.topic: macro
+f1_keywords:
+ - "storport/StorPortReadRegisterBufferUchar"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

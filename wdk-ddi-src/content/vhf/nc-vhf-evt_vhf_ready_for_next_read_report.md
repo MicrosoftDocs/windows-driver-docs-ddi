@@ -8,6 +8,8 @@ ms.assetid: 02DDBE00-C342-474B-8D06-FBB929BA4760
 ms.date: 04/30/2018
 ms.keywords: EVT_VHF_READY_FOR_NEXT_READ_REPORT, EVT_VHF_READY_FOR_NEXT_READ_REPORT callback, EvtVhfReadyForNextReadReport, EvtVhfReadyForNextReadReport callback function [Human Input Devices], hid.evtvhfreadyfornextreadreport, vhf/EvtVhfReadyForNextReadReport
 ms.topic: callback
+f1_keywords:
+ - "vhf/EvtVhfReadyForNextReadReport"
 req.header: vhf.h
 req.include-header: 
 req.target-type: Desktop

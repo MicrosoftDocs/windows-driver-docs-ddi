@@ -8,6 +8,8 @@ ms.assetid: AF001441-4031-4E29-B459-1597BFCAEF4C
 ms.date: 04/30/2018
 ms.keywords: "*PPEP_PPM_CST_STATE, PEP_PPM_CST_STATE, PEP_PPM_CST_STATE structure [Kernel-Mode Driver Architecture], PPEP_PPM_CST_STATE, PPEP_PPM_CST_STATE structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_CST_STATE, kernel.pep_ppm_cst_state, pepfx/PEP_PPM_CST_STATE, pepfx/PPEP_PPM_CST_STATE"
 ms.topic: struct
+f1_keywords:
+ - "pep_x/PEP_PPM_CST_STATE"
 req.header: pep_x.h
 req.include-header: Pep_x.h
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: 5009e4d8-5299-4eeb-a70d-5be87694b1d0
 ms.date: 05/08/2018
 ms.keywords: ISynthSinkDMus interface [Audio Devices],SyncToMaster method, ISynthSinkDMus.SyncToMaster, ISynthSinkDMus::SyncToMaster, SyncToMaster, SyncToMaster method [Audio Devices], SyncToMaster method [Audio Devices],ISynthSinkDMus interface, audio.isynthsinkdmus_synctomaster, audmp-routines_35d431eb-a92c-4e73-b75c-8a3a1f0451ce.xml, dmusicks/ISynthSinkDMus::SyncToMaster
 ms.topic: method
+f1_keywords:
+ - "dmusicks/ISynthSinkDMus.SyncToMaster"
 req.header: dmusicks.h
 req.include-header: Dmusicks.h
 req.target-type: Desktop

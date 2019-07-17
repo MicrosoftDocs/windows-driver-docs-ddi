@@ -5,6 +5,8 @@ description: Create geometry shader with stream output.
 ms.assetid: 2a8743e2-330a-4fcf-b924-46150bc66d4e
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_CREATE_GEOMETRY_SHADER_WITH_STREAM_OUTPUT_0010"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

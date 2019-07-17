@@ -8,6 +8,8 @@ ms.assetid: 132951ef-7bb3-417e-a7b7-eb21f08aa846
 ms.date: 04/16/2018
 ms.keywords: IoRegisterFsRegistrationChange, IoRegisterFsRegistrationChange routine [Installable File System Drivers], ifsk.ioregisterfsregistrationchange, ioref_6b4dc0bd-0821-4016-8eb7-c448c0247785.xml, ntifs/IoRegisterFsRegistrationChange
 ms.topic: function
+f1_keywords:
+ - "ntifs/IoRegisterFsRegistrationChange"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

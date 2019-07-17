@@ -8,6 +8,8 @@ ms.assetid: 93f915ab-1f9e-453c-b76e-8260eecd7298
 ms.date: 05/03/2018
 ms.keywords: ComCallbacks_46bf959d-52a9-4b0a-b074-d28b76de343d.xml, Exception, Exception method [Windows Debugging], Exception method [Windows Debugging],IDebugEventCallbacks interface, IDebugEventCallbacks interface [Windows Debugging],Exception method, IDebugEventCallbacks.Exception, IDebugEventCallbacks::Exception, dbgeng/IDebugEventCallbacks::Exception, debugger.idebugeventcallbacks_exception
 ms.topic: method
+f1_keywords:
+ - "dbgeng/IDebugEventCallbacks.Exception"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

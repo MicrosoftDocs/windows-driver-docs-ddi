@@ -8,6 +8,8 @@ ms.assetid: ed441ca2-ca98-4c8c-9c2f-4258c535ebac
 ms.date: 04/16/2018
 ms.keywords: FltCallbacks_e4045561-4dc3-44eb-b5c6-086e767f9c22.xml, PFLT_TRANSACTION_NOTIFICATION_CALLBACK, TransactionNotificationCallback, TransactionNotificationCallback routine [Installable File System Drivers], fltkernel/TransactionNotificationCallback, ifsk.pflt_transaction_notification_callback
 ms.topic: callback
+f1_keywords:
+ - "fltkernel/TransactionNotificationCallback"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Desktop

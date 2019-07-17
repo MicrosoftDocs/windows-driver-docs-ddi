@@ -8,6 +8,8 @@ ms.assetid: 9e998e54-b4c9-41ed-bba8-6f11c013f681
 ms.date: 02/26/2018
 ms.keywords: GetDefaultIoQueue, GetDefaultIoQueue method, GetDefaultIoQueue method,IWDFDevice interface, IWDFDevice interface,GetDefaultIoQueue method, IWDFDevice.GetDefaultIoQueue, IWDFDevice::GetDefaultIoQueue, UMDFDeviceObjectRef_b4c10b3b-eba4-4e6c-8f9e-80c32705f43d.xml, umdf.iwdfdevice_getdefaultioqueue, wdf.iwdfdevice_getdefaultioqueue, wudfddi/IWDFDevice::GetDefaultIoQueue
 ms.topic: method
+f1_keywords:
+ - "wudfddi/IWDFDevice.GetDefaultIoQueue"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

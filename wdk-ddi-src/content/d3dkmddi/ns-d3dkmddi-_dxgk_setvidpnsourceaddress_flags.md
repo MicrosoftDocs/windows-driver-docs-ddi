@@ -7,6 +7,8 @@ ms.assetid: cdc4aec6-45d4-4a5b-aa52-7830494a12b6
 ms.date: 05/10/2018
 ms.keywords: DXGK_SETVIDPNSOURCEADDRESS_FLAGS, DXGK_SETVIDPNSOURCEADDRESS_FLAGS structure [Display Devices], DmStructs_45e34e9d-e410-44f4-a41a-aad748f01688.xml, _DXGK_SETVIDPNSOURCEADDRESS_FLAGS, d3dkmddi/DXGK_SETVIDPNSOURCEADDRESS_FLAGS, display.dxgk_setvidpnsourceaddress_flags
 ms.topic: struct
+f1_keywords:
+ - "d3dkmddi/DXGK_SETVIDPNSOURCEADDRESS_FLAGS"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

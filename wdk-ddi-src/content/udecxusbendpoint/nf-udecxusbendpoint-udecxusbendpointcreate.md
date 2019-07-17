@@ -8,6 +8,8 @@ ms.assetid: F97642A2-FE77-41D0-A194-8DE6F9B17BB0
 ms.date: 05/07/2018
 ms.keywords: UdecxUsbEndpointCreate, UdecxUsbEndpointCreate function [Buses], buses.udecxusbendpointcreate, udecxusbendpoint/UdecxUsbEndpointCreate
 ms.topic: function
+f1_keywords:
+ - "udecxusbendpoint/UdecxUsbEndpointCreate"
 req.header: udecxusbendpoint.h
 req.include-header: Udecx.h
 req.target-type: Windows

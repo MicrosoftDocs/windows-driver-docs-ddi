@@ -8,6 +8,8 @@ ms.assetid: 67D61FBA-15E9-4157-9286-72D51DE18275
 ms.date: 04/30/2018
 ms.keywords: RtlIntPtrToUChar, RtlIntPtrToUChar function [Kernel-Mode Driver Architecture], kernel.rtlintptrtouchar, ntintsafe/RtlIntPtrToUChar
 ms.topic: function
+f1_keywords:
+ - "ntintsafe/RtlIntPtrToUChar"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop

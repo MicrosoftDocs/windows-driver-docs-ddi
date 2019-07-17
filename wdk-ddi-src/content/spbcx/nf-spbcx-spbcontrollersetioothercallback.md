@@ -8,6 +8,8 @@ ms.assetid: 605E2353-8C82-4005-BB72-4CB44146A253
 ms.date: 04/30/2018
 ms.keywords: SPB.spbcontrollersetioothercallback, SpbControllerSetIoOtherCallback, SpbControllerSetIoOtherCallback method [Buses], spbcx/SpbControllerSetIoOtherCallback
 ms.topic: function
+f1_keywords:
+ - "spbcx/SpbControllerSetIoOtherCallback"
 req.header: spbcx.h
 req.include-header: 
 req.target-type: Universal

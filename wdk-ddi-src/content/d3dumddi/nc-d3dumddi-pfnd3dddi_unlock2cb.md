@@ -8,6 +8,8 @@ ms.assetid: 642C6A05-DA8C-453A-B1AA-030C59F32DA5
 ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_UNLOCK2CB, PFND3DDDI_UNLOCK2CB callback, d3dumddi/pfnUnlock2Cb, display.pfnunlock2cb, pfnUnlock2Cb, pfnUnlock2Cb callback function [Display Devices]
 ms.topic: callback
+f1_keywords:
+ - "d3dumddi/pfnUnlock2Cb"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop

@@ -5,6 +5,8 @@ description: The GetEventFilter method returns whether "break on event" is enabl
 ms.assetid: 1e875e1d-418a-4838-9084-584b29a0d42b
 ms.date: 08/21/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDataModelScriptDebug.GetEventFilter"
 ms.keywords: IDataModelScriptDebug::GetEventFilter, GetEventFilter, IDataModelScriptDebug.GetEventFilter, IDataModelScriptDebug::GetEventFilter, IDataModelScriptDebug.GetEventFilter
 req.header: dbgmodel.h
 req.include-header:

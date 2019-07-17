@@ -5,6 +5,8 @@ description: Retrieves the rolling statistics for the tracked workload.
 ms.assetid: d0f745bc-f54b-4f16-8f43-eb435c51d7cc
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/PFND3DKMT_GETTRACKEDWORKLOADSTATISTICS"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

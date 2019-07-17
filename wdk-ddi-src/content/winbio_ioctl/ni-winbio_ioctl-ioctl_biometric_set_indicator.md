@@ -8,6 +8,8 @@ ms.assetid: 5aaaf178-a137-4a98-a77f-b426514a8cd9
 ms.date: 02/20/2018
 ms.keywords: IOCTL_BIOMETRIC_SET_INDICATOR, IOCTL_BIOMETRIC_SET_INDICATOR control, IOCTL_BIOMETRIC_SET_INDICATOR control code [Biometric Devices], biometric.ioctl_biometric_set_indicator, biometric_ref_46e6f908-83fd-4e5b-9cc4-183da4f178d2.xml, winbio_ioctl/IOCTL_BIOMETRIC_SET_INDICATOR
 ms.topic: ioctl
+f1_keywords:
+ - "winbio_ioctl/IOCTL_BIOMETRIC_SET_INDICATOR"
 req.header: winbio_ioctl.h
 req.include-header: 
 req.target-type: Windows

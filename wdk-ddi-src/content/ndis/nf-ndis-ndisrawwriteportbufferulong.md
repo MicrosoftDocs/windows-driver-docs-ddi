@@ -8,6 +8,8 @@ ms.assetid: f97aa977-289b-4a46-b724-9a5c1b468b74
 ms.date: 05/02/2018
 ms.keywords: NdisRawWritePortBufferUlong, NdisRawWritePortBufferUlong macro [Network Drivers Starting with Windows Vista], miniport_port_raw_ref_6d507471-8935-42d8-8e13-8b82496bca57.xml, ndis/NdisRawWritePortBufferUlong, netvista.ndisrawwriteportbufferulong
 ms.topic: macro
+f1_keywords:
+ - "ndis/NdisRawWritePortBufferUlong"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

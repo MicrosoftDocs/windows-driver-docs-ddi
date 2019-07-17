@@ -8,6 +8,8 @@ ms.assetid: 92e4ea13-156b-4d5e-8268-ddb45f6d7b50
 ms.date: 05/03/2018
 ms.keywords: FilterPreviewImage, FilterPreviewImage method [Imaging Devices], FilterPreviewImage method [Imaging Devices],IWiaImageFilter interface, IWiaErrorHandler_22a9ad6b-b9f4-49e5-9c62-2d32fbaf3d02.xml, IWiaImageFilter interface [Imaging Devices],FilterPreviewImage method, IWiaImageFilter.FilterPreviewImage, IWiaImageFilter::FilterPreviewImage, image.iwiaimagefilter_filterpreviewimage, wia_lh/IWiaImageFilter::FilterPreviewImage
 ms.topic: method
+f1_keywords:
+ - "wia_lh/IWiaImageFilter.FilterPreviewImage"
 req.header: wia_lh.h
 req.include-header: Wia_lh.h
 req.target-type: Desktop

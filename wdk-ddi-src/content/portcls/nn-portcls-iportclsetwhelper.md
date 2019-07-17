@@ -8,6 +8,8 @@ ms.assetid: 7BF9E3AB-D508-4FB8-8C47-C0B338933A56
 ms.date: 05/08/2018
 ms.keywords: IPortClsEtwHelper, IPortClsEtwHelper interface [Audio Devices], IPortClsEtwHelper interface [Audio Devices],described, audio.iportclsetwhelper, portcls/IPortClsEtwHelper
 ms.topic: interface
+f1_keywords:
+ - "portcls/IPortClsEtwHelper"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Windows

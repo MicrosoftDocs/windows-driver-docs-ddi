@@ -8,6 +8,8 @@ ms.assetid: c0ef8f34-9276-4372-a99d-9541a943b6e2
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
 ms.topic: enum
+f1_keywords:
+ - "dispmprt/_DXGK_VGPU_CAPABILITY_TYPE"
 ms.keywords: _DXGK_VGPU_CAPABILITY_TYPE, DXGK_VGPU_CAPABILITY_TYPE, 
 ms.prod: windows-hardware
 ms.technology: windows-devices

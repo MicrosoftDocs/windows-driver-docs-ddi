@@ -8,6 +8,8 @@ ms.assetid: 730312DE-5F11-46C8-8298-55AA5756C995
 ms.date: 04/30/2018
 ms.keywords: "*PPEP_LOW_POWER_EPOCH, PEP_LOW_POWER_EPOCH, PEP_LOW_POWER_EPOCH structure [Kernel-Mode Driver Architecture], PPEP_LOW_POWER_EPOCH, PPEP_LOW_POWER_EPOCH structure pointer [Kernel-Mode Driver Architecture], _PEP_LOW_POWER_EPOCH, kernel.pep_low_power_epoch, pepfx/PEP_LOW_POWER_EPOCH, pepfx/PPEP_LOW_POWER_EPOCH"
 ms.topic: struct
+f1_keywords:
+ - "pepfx/PEP_LOW_POWER_EPOCH"
 req.header: pepfx.h
 req.include-header: Pep_x.h
 req.target-type: Windows

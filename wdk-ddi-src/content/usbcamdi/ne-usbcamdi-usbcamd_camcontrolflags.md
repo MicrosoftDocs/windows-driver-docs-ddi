@@ -5,6 +5,8 @@ description:
 ms.assetid: bd137228-b5a9-4e97-8a89-d42ac59a3d7d
 ms.date: 10/19/2018
 ms.topic: enum
+f1_keywords:
+ - "usbcamdi/USBCAMD_CamControlFlags"
 ms.keywords: USBCAMD_CamControlFlags, USBCAMD_CamControlFlags, 
 req.header: usbcamdi.h
 req.include-header:

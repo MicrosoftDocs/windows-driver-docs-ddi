@@ -8,6 +8,8 @@ ms.assetid: cb7c97e5-081e-44fc-a759-9a1ae81de41c
 ms.date: 02/26/2018
 ms.keywords: DFIOTargetRef_9a471005-a4c8-4918-bc4c-4147bd6018f0.xml, EVT_WDF_IO_TARGET_QUERY_REMOVE, EVT_WDF_IO_TARGET_QUERY_REMOVE callback, EvtIoTargetQueryRemove, EvtIoTargetQueryRemove callback function, kmdf.evtiotargetqueryremove, wdf.evtiotargetqueryremove, wdfiotarget/EvtIoTargetQueryRemove
 ms.topic: callback
+f1_keywords:
+ - "wdfiotarget/EvtIoTargetQueryRemove"
 req.header: wdfiotarget.h
 req.include-header: Wdf.h
 req.target-type: Universal

@@ -8,6 +8,8 @@ ms.assetid: 38d12545-6ee4-49d2-93ba-c9c1fa89c968
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
 ms.topic: function
+f1_keywords:
+ - "iddcx/IddCxAdapterDisplayConfigUpdate"
 ms.keywords: IddCxAdapterDisplayConfigUpdate
 req.header: iddcx.h
 req.include-header:

@@ -6,6 +6,8 @@ description:
 ms.assetid: 09830007-9bad-4247-b468-074a69f8f8c0
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3d12umddi/D3D12DDIARG_META_COMMAND_REQUIRED_PARAMETER_INFO"
 ms.keywords: D3D12DDIARG_META_COMMAND_REQUIRED_PARAMETER_INFO, D3D12DDIARG_META_COMMAND_REQUIRED_PARAMETER_INFO, 
 req.header: d3d12umddi.h
 req.include-header:

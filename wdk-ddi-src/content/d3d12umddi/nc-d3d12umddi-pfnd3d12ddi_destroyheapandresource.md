@@ -5,6 +5,8 @@ description: Destroy heap and resource.
 ms.assetid: 12c5cdc3-981a-4a34-af3c-b62ff7872877
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_DESTROYHEAPANDRESOURCE"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: aae4a208-75b7-4b11-868b-c4620497d171
 ms.date: 02/16/2018
 ms.topic: function
+f1_keywords:
+ - "netadapter/NET_ADAPTER_TX_CAPABILITIES_INIT_FOR_DMA"
 ms.keywords: NET_ADAPTER_TX_CAPABILITIES_INIT_FOR_DMA
 req.header: netadapter.h
 req.include-header: netadaptercx.h

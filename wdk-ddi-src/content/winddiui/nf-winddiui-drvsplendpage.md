@@ -8,6 +8,8 @@ ms.assetid: 09c3db82-7890-48c8-a91f-3d1f3f01ef84
 ms.date: 04/20/2018
 ms.keywords: DrvSplEndPage, DrvSplEndPage function [Print Devices], print.drvsplendpage, print_interface-graphics_e5fbdcf3-d462-4ae9-8187-546a87189e19.xml, winddiui/DrvSplEndPage
 ms.topic: function
+f1_keywords:
+ - "winddiui/DrvSplEndPage"
 req.header: winddiui.h
 req.include-header: 
 req.target-type: Windows

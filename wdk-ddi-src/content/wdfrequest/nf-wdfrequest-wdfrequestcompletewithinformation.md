@@ -8,6 +8,8 @@ ms.assetid: dc8f5570-5bdd-492a-a830-e166f146879a
 ms.date: 02/26/2018
 ms.keywords: DFRequestObjectRef_29eec73c-aa09-4814-85f9-61979df03412.xml, WdfRequestCompleteWithInformation, WdfRequestCompleteWithInformation method, kmdf.wdfrequestcompletewithinformation, wdf.wdfrequestcompletewithinformation, wdfrequest/WdfRequestCompleteWithInformation
 ms.topic: function
+f1_keywords:
+ - "wdfrequest/WdfRequestCompleteWithInformation"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal

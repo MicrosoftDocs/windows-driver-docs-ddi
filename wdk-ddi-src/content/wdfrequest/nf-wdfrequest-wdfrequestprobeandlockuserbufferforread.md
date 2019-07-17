@@ -8,6 +8,8 @@ ms.assetid: 68fbaa04-ca7a-46b4-a7ca-c3d44443c2af
 ms.date: 02/26/2018
 ms.keywords: DFRequestObjectRef_01a2309b-8cae-4a38-9e47-68619f422af2.xml, WdfRequestProbeAndLockUserBufferForRead, WdfRequestProbeAndLockUserBufferForRead method, kmdf.wdfrequestprobeandlockuserbufferforread, wdf.wdfrequestprobeandlockuserbufferforread, wdfrequest/WdfRequestProbeAndLockUserBufferForRead
 ms.topic: function
+f1_keywords:
+ - "wdfrequest/WdfRequestProbeAndLockUserBufferForRead"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal

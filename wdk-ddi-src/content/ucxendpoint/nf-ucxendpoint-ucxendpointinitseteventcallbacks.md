@@ -8,6 +8,8 @@ ms.assetid: 4F5FB073-0803-4112-964E-431930D14A88
 ms.date: 05/07/2018
 ms.keywords: UcxEndpointInitSetEventCallbacks, UcxEndpointInitSetEventCallbacks method [Buses], buses._ucxendpointinitseteventcallbacks
 ms.topic: function
+f1_keywords:
+ - "ucxendpoint/UcxEndpointInitSetEventCallbacks"
 req.header: ucxendpoint.h
 req.include-header: Ucxclass.h, Ucxendpoint.h
 req.target-type: Windows

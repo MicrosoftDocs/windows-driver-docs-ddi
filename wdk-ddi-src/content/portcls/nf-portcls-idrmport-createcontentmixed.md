@@ -6,6 +6,8 @@ tech.root: audio
 ms.assetid: 26ea9bd4-5540-4be7-bf34-8a56e2812ccd
 ms.date: 02/20/2019
 ms.topic: method
+f1_keywords:
+ - "portcls/IDrmPort.CreateContentMixed"
 ms.keywords: IDrmPort::CreateContentMixed, CreateContentMixed, IDrmPort.CreateContentMixed, IDrmPort::CreateContentMixed, IDrmPort.CreateContentMixed
 req.header: portcls.h
 req.include-header:

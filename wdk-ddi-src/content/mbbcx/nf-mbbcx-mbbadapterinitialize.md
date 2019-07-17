@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 0f2afaaf-e43d-4b08-9200-0ca2d18428c1
 ms.date: 06/29/2018
 ms.topic: function
+f1_keywords:
+ - "mbbcx/MbbAdapterInitialize"
 ms.keywords: MbbAdapterInitialize
 req.header: mbbcx.h
 req.include-header:

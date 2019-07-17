@@ -8,6 +8,8 @@ ms.assetid: 9d250950-7ecf-4433-9aaf-7696abb5b66c
 ms.date: 03/29/2018
 ms.keywords: IOCTL_CDROM_STOP_AUDIO, IOCTL_CDROM_STOP_AUDIO control, IOCTL_CDROM_STOP_AUDIO control code [Storage Devices], k307_f800aa8a-b12c-4373-9e6a-0b2a12182540.xml, ntddcdrm/IOCTL_CDROM_STOP_AUDIO, storage.ioctl_cdrom_stop_audio
 ms.topic: ioctl
+f1_keywords:
+ - "ntddcdrm/IOCTL_CDROM_STOP_AUDIO"
 req.header: ntddcdrm.h
 req.include-header: Ntddcdrm.h
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: 881e85a2-4ba2-4940-94c0-61a2d335e52a
 ms.date: 02/16/2018
 ms.keywords: "*LPRILPOSITIONINFO, *LPRILPOSITIONINFO_V2, RILPOSITIONINFO, RILPOSITIONINFO_V2, RILPOSITIONINFO_V2 structure [Network Drivers Starting with Windows Vista], netvista.rilpositioninfo_v2, rilapitypes/RILPOSITIONINFO_V2"
 ms.topic: struct
+f1_keywords:
+ - "ntddrilapitypes/RILPOSITIONINFO_V2"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h, Ntddrilapitypes.h
 req.target-type: Windows

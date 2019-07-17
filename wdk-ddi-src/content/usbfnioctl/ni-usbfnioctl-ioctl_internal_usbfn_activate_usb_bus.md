@@ -8,6 +8,8 @@ ms.assetid: A9CBD73D-2A51-4925-9B88-7D2ED97A59DA
 ms.date: 05/07/2018
 ms.keywords: IOCTL_INTERNAL_USBFN_ACTIVATE_USB_BUS, IOCTL_INTERNAL_USBFN_ACTIVATE_USB_BUS control, IOCTL_INTERNAL_USBFN_ACTIVATE_USB_BUS control code [Buses], buses.ioctl_internal_usbfn_activate_usb_bus, usbfnioctl/IOCTL_INTERNAL_USBFN_ACTIVATE_USB_BUS
 ms.topic: ioctl
+f1_keywords:
+ - "usbfnioctl/IOCTL_INTERNAL_USBFN_ACTIVATE_USB_BUS"
 req.header: usbfnioctl.h
 req.include-header: Usbfnioctl.h
 req.target-type: Windows

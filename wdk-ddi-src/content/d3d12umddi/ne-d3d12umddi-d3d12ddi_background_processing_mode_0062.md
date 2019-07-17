@@ -8,6 +8,8 @@ ms.assetid: 4df549ee-92a9-4b7b-9145-8b532047771c
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
 ms.topic: enum
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_BACKGROUND_PROCESSING_MODE_0062"
 ms.keywords: D3D12DDI_BACKGROUND_PROCESSING_MODE_0062, D3D12DDI_BACKGROUND_PROCESSING_MODE_0062, 
 req.header: d3d12umddi.h
 req.include-header:

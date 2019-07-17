@@ -8,6 +8,8 @@ ms.assetid: DFD953F7-06DF-4FBD-8BEC-3A15943D6462
 ms.date: 04/23/2018
 ms.keywords: 2/SerCx2PioReceiveCreate, SerCx2PioReceiveCreate, SerCx2PioReceiveCreate method [Serial Ports], serports.sercx2pioreceivecreate
 ms.topic: function
+f1_keywords:
+ - "sercx/SerCx2PioReceiveCreate"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Universal

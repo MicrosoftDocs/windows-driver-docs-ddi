@@ -8,6 +8,8 @@ ms.assetid: 4F46B3C5-9751-4594-9FFD-D3E6180FAFBD
 ms.date: 04/20/2018
 ms.keywords: IPrintSchemaPageImageableSize interface [Print Devices],ImageableSizeHeightInMicrons property, IPrintSchemaPageImageableSize.ImageableSizeHeightInMicrons, IPrintSchemaPageImageableSize.get_ImageableSizeHeightInMicrons, IPrintSchemaPageImageableSize::ImageableSizeHeightInMicrons, IPrintSchemaPageImageableSize::get_ImageableSizeHeightInMicrons, ImageableSizeHeightInMicrons property [Print Devices], ImageableSizeHeightInMicrons property [Print Devices],IPrintSchemaPageImageableSize interface, get_ImageableSizeHeightInMicrons, print.iprintschemapageimageablesize_imageablesizeheightinmicrons, printerextension/IPrintSchemaPageImageableSize::ImageableSizeHeightInMicrons, printerextension/IPrintSchemaPageImageableSize::get_ImageableSizeHeightInMicrons
 ms.topic: method
+f1_keywords:
+ - "printerextension/IPrintSchemaPageImageableSize.ImageableSizeHeightInMicrons"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows

@@ -6,6 +6,8 @@ tech.root: serports
 ms.assetid: 96750920-c761-499b-8ee9-39465e031d07
 ms.date: 10/19/2018
 ms.topic: enum
+f1_keywords:
+ - "uart/UART_STATUS"
 ms.keywords: UART_STATUS, UART_STATUS, *PUART_STATUS,
 req.header: uart.h
 req.include-header:

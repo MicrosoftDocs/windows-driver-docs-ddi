@@ -5,6 +5,8 @@ description: Destroys a blend state.
 ms.assetid: eb4b3ebd-be63-41cf-af25-9c58ffe69deb
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_DESTROYBLENDSTATE"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

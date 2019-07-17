@@ -7,6 +7,8 @@ ms.assetid: f6967f07-564b-4730-9950-4703b541165b
 ms.date: 05/10/2018
 ms.keywords: D3DKMTCreateProtectedSession, D3DKMTCreateProtectedSession method [Display Devices], d3dkmthk/D3DKMTCreateProtectedSession, display.d3dkmtcreateprotectedsession
 ms.topic: function
+f1_keywords:
+ - "d3dkmthk/D3DKMTCreateProtectedSession"
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: Windows

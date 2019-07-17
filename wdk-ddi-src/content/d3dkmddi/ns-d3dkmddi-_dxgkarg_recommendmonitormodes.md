@@ -7,6 +7,8 @@ ms.assetid: 283f398e-4162-4c46-847b-834f8f303052
 ms.date: 05/10/2018
 ms.keywords: DXGKARG_RECOMMENDMONITORMODES, DXGKARG_RECOMMENDMONITORMODES structure [Display Devices], DmStructs_151c48fa-735a-4962-9fe7-446830441f1c.xml, _DXGKARG_RECOMMENDMONITORMODES, d3dkmddi/DXGKARG_RECOMMENDMONITORMODES, display.dxgkarg_recommendmonitormodes
 ms.topic: struct
+f1_keywords:
+ - "d3dkmddi/DXGKARG_RECOMMENDMONITORMODES"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: 693207c2-70d7-45be-ae22-436555225928
 ms.date: 05/03/2018
 ms.keywords: IDebugControl4, IDebugControl4 interface [Windows Debugging], IDebugControl4 interface [Windows Debugging],described, dbgeng/IDebugControl4, debugger.idebugcontrol4
 ms.topic: interface
+f1_keywords:
+ - "dbgeng/IDebugControl4"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: 1EBEBD5D-E0E5-48A3-8CDA-C336575E53C6
 ms.date: 03/29/2018
 ms.keywords: StorPortPoFxPowerControl, StorPortPoFxPowerControl routine [Storage Devices], storage.storportpofxpowercontrol, storport/StorPortPoFxPowerControl
 ms.topic: function
+f1_keywords:
+ - "storport/StorPortPoFxPowerControl"
 req.header: storport.h
 req.include-header: 
 req.target-type: Universal

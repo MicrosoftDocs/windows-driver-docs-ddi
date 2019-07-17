@@ -7,6 +7,8 @@ ms.assetid: a883d80a-0240-4a2a-b3d8-ca87080717ee
 ms.date: 05/10/2018
 ms.keywords: D3DKMT_PRESENT_REDIRECTED, D3DKMT_PRESENT_REDIRECTED structure [Display Devices], _D3DKMT_PRESENT_REDIRECTED, d3dkmthk/D3DKMT_PRESENT_REDIRECTED, display.d3dkmt-present-redirected
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/D3DKMT_PRESENT_REDIRECTED"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type: Windows

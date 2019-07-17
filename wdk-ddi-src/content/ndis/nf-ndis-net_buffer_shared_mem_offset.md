@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: a2656c0b-edea-4f07-be1f-3d80ab369193
 ms.date: 04/13/2018
 ms.topic: macro
+f1_keywords:
+ - "ndis/NET_BUFFER_SHARED_MEM_OFFSET"
 ms.keywords: NET_BUFFER_SHARED_MEM_OFFSET
 req.header: ndis.h
 req.include-header:

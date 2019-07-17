@@ -8,6 +8,8 @@ ms.assetid: B42852F3-BF64-44F8-8D9C-361D623CE35A
 ms.date: 02/15/2018
 ms.keywords: 1394/IRB_REQ_ISOCH_TALK, IEEE.irb_req_isoch_talk, IRB_REQ_ISOCH_TALK, IRB_REQ_ISOCH_TALK structure [Buses], _IRB_REQ_ISOCH_TALK
 ms.topic: struct
+f1_keywords:
+ - "1394/IRB_REQ_ISOCH_TALK"
 req.header: 1394.h
 req.include-header: 
 req.target-type: Windows

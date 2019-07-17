@@ -5,6 +5,8 @@ description: The PFND3DKMT_DESTROYOVERLAY callback function disables overlay har
 ms.assetid: 28e665a1-8278-49ed-bfe8-2a28596967df
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/PFND3DKMT_DESTROYOVERLAY"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

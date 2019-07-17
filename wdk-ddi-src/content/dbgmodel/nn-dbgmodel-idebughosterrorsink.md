@@ -5,6 +5,8 @@ description: An interface to which errors will be sinked.
 ms.assetid: b82fbfe5-75c6-4c4c-8670-c2021dfa4c0d
 ms.date: 07/13/2018
 ms.topic: interface
+f1_keywords:
+ - "dbgmodel/IDebugHostErrorSink"
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:

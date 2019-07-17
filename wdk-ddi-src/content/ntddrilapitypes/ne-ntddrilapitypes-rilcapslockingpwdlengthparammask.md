@@ -8,6 +8,8 @@ ms.assetid: c6e89030-835e-4f7f-8bec-6cd19f598f9d
 ms.date: 05/02/2018
 ms.keywords: RILCAPSLOCKINGPWDLENGTHPARAMMASK, RILCAPSLOCKINGPWDLENGTHPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_CLPL_ALL, RIL_PARAM_CLPL_PASSWORDLENGTH, netvista.rilcapslockingpwdlengthparammask, ntddrilapitypes/RILCAPSLOCKINGPWDLENGTHPARAMMASK, ntddrilapitypes/RIL_PARAM_CLPL_ALL, ntddrilapitypes/RIL_PARAM_CLPL_PASSWORDLENGTH
 ms.topic: enum
+f1_keywords:
+ - "ntddrilapitypes/RILCAPSLOCKINGPWDLENGTHPARAMMASK"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

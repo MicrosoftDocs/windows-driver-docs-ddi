@@ -8,6 +8,8 @@ ms.assetid: 6F1A1545-5B64-4481-B795-0B6433304C06
 ms.date: 05/07/2018
 ms.keywords: UdecxUsbDevicePlugIn, UdecxUsbDevicePlugIn function [Buses], buses.udecxusbdeviceplugin, udecxusbdevice/UdecxUsbDevicePlugIn
 ms.topic: function
+f1_keywords:
+ - "udecxusbdevice/UdecxUsbDevicePlugIn"
 req.header: udecxusbdevice.h
 req.include-header: Udecx.h
 req.target-type: Windows

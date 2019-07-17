@@ -8,6 +8,8 @@ ms.assetid: 314fdeea-10be-4cb3-8bd7-9b1b4b12e534
 ms.date: 05/03/2018
 ms.keywords: ComOther_894f45d2-9f7b-4d8d-85e3-9240d020ebbe.xml, ExpandSymbol, ExpandSymbol method [Windows Debugging], ExpandSymbol method [Windows Debugging],IDebugSymbolGroup interface, ExpandSymbol method [Windows Debugging],IDebugSymbolGroup2 interface, IDebugSymbolGroup interface [Windows Debugging],ExpandSymbol method, IDebugSymbolGroup.ExpandSymbol, IDebugSymbolGroup2 interface [Windows Debugging],ExpandSymbol method, IDebugSymbolGroup2::ExpandSymbol, IDebugSymbolGroup::ExpandSymbol, dbgeng/IDebugSymbolGroup2::ExpandSymbol, dbgeng/IDebugSymbolGroup::ExpandSymbol, debugger.expandsymbol
 ms.topic: method
+f1_keywords:
+ - "dbgeng/IDebugSymbolGroup.ExpandSymbol"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

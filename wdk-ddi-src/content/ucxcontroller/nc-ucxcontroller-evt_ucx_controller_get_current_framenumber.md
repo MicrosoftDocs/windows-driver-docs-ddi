@@ -8,6 +8,8 @@ ms.assetid: 2755d0fd-9801-4d54-89cb-54f8b984288c
 ms.date: 05/07/2018
 ms.keywords: EVT_UCX_CONTROLLER_GET_CURRENT_FRAMENUMBER, EVT_UCX_CONTROLLER_GET_CURRENT_FRAMENUMBER callback, EvtUcxControllerGetCurrentFrameNumber, EvtUcxControllerGetCurrentFrameNumber callback function [Buses], PEVT_UCX_CONTROLLER_GET_CURRENT_FRAMENUMBER, PEVT_UCX_CONTROLLER_GET_CURRENT_FRAMENUMBER callback function pointer [Buses], buses.evt_ucx_controller_get_current_framenumber, ucxcontroller/EvtUcxControllerGetCurrentFrameNumber
 ms.topic: callback
+f1_keywords:
+ - "ucxcontroller/PEVT_UCX_CONTROLLER_GET_CURRENT_FRAMENUMBER"
 req.header: ucxcontroller.h
 req.include-header: Ucxclass.h
 req.target-type: Windows

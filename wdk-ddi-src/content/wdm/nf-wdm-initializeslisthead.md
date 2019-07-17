@@ -8,6 +8,8 @@ ms.assetid: 258addec-7231-494c-aa70-5966e9a57132
 ms.date: 04/30/2018
 ms.keywords: ExInitializeSListHead, InitializeSListHead, InitializeSListHead routine [Kernel-Mode Driver Architecture], k102_6d3b712b-2dd5-4962-ad16-a296bdc4de2b.xml, kernel.exinitializeslisthead, wdm/InitializeSListHead
 ms.topic: function
+f1_keywords:
+ - "wdm/InitializeSListHead"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop

@@ -5,6 +5,8 @@ description: Arguments used in the DXGKCB_ALLOCATEPAGESFORMDL callback function,
 ms.assetid: c41ff98e-5704-441d-b73f-1fad90895555
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3dkmddi/_DXGKARGCB_ALLOCATEPAGESFORMDL"
 ms.keywords: _DXGKARGCB_ALLOCATEPAGESFORMDL, DXGKARGCB_ALLOCATEPAGESFORMDL, *INOUT_PDXGKARGCB_ALLOCATEPAGESFORMDL
 req.header: d3dkmddi.h
 req.include-header:

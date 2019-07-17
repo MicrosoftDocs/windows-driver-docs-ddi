@@ -8,6 +8,8 @@ ms.assetid: 7D88B513-5289-4347-BD25-BDFEB86CE62F
 ms.date: 05/02/2018
 ms.keywords: MINIPORT_WDI_FREE_ADAPTER, MINIPORT_WDI_FREE_ADAPTER callback, MiniportWdiFreeAdapter, MiniportWdiFreeAdapter callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiFreeAdapter, netvista.miniportwdifreeadapter
 ms.topic: callback
+f1_keywords:
+ - "dot11wdi/MiniportWdiFreeAdapter"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows

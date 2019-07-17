@@ -8,6 +8,8 @@ ms.assetid: 17fe6e28-59ce-4678-8268-b49cef09a3db
 ms.date: 02/24/2018
 ms.keywords: "*PSRIOV_QUERY_VF_LUID, *PSRIOV_QUERY_VF_LUID callback function pointer [Buses], PCI.sriov_query_vf_luid, SRIOV_QUERY_VF_LUID, SriovQueryVfLuid, SriovQueryVfLuid callback function [Buses], pcivirt/SriovQueryVfLuid"
 ms.topic: callback
+f1_keywords:
+ - "pcivirt/*PSRIOV_QUERY_VF_LUID"
 req.header: pcivirt.h
 req.include-header:
 req.target-type: Windows

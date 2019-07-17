@@ -8,6 +8,8 @@ ms.assetid: 702d3698-396d-4609-a082-74290d2ccb41
 ms.date: 05/08/2018
 ms.keywords: "*PKSDS3D_BUFFER_CONE_ANGLES, KSDS3D_BUFFER_CONE_ANGLES, KSDS3D_BUFFER_CONE_ANGLES structure [Audio Devices], PKSDS3D_BUFFER_CONE_ANGLES, PKSDS3D_BUFFER_CONE_ANGLES structure pointer [Audio Devices], aud-prop_6b484499-7859-4c81-828d-35c2dc0dc070.xml, audio.ksds3d_buffer_cone_angles, ksmedia/KSDS3D_BUFFER_CONE_ANGLES, ksmedia/PKSDS3D_BUFFER_CONE_ANGLES"
 ms.topic: struct
+f1_keywords:
+ - "ksmedia/KSDS3D_BUFFER_CONE_ANGLES"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: 4f8ed150-b378-49c3-955c-a1e69ab8c1a9
 ms.date: 05/02/2018
 ms.keywords: "*LPRILUICCSLOTINFO, RILUICCSLOTINFO, RILUICCSLOTINFO structure [Network Drivers Starting with Windows Vista], netvista.riluiccslotinfo, ntddrilapitypes/RILUICCSLOTINFO"
 ms.topic: struct
+f1_keywords:
+ - "ntddrilapitypes/RILUICCSLOTINFO"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: 7924405f-9862-4704-bff1-05e0285592b9
 ms.date: 03/29/2018
 ms.keywords: FsRtlNotifyFilterReportChange, FsRtlNotifyFilterReportChange function [Installable File System Drivers], fsrtlref_c4a79c57-aa80-40f3-9882-76ed887c99cb.xml, ifsk.fsrtlnotifyfilterreportchange, ntifs/FsRtlNotifyFilterReportChange
 ms.topic: function
+f1_keywords:
+ - "ntifs/FsRtlNotifyFilterReportChange"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

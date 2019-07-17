@@ -7,6 +7,8 @@ ms.assetid: 31ff5dfc-72b1-4ce1-af83-cad3816a785c
 ms.date: 05/10/2018
 ms.keywords: D3D11_1DDI_VIDEO_CONTENT_PROTECTION_CAPS, D3D11_1DDI_VIDEO_CONTENT_PROTECTION_CAPS structure [Display Devices], d3d10umddi/D3D11_1DDI_VIDEO_CONTENT_PROTECTION_CAPS, display.d3d11_1ddi_video_content_protection_caps
 ms.topic: struct
+f1_keywords:
+ - "d3d10umddi/D3D11_1DDI_VIDEO_CONTENT_PROTECTION_CAPS"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows

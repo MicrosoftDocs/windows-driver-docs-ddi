@@ -7,6 +7,8 @@ ms.assetid: 968b04a7-8869-410c-a6fc-83d57726858f
 ms.date: 05/10/2018
 ms.keywords: PFND3D10DDI_SETERROR_CB, PFND3D10DDI_SETERROR_CB callback, d3d10state_functions_1d57cbc9-ec37-47ce-ab4f-71535419375a.xml, d3d10umddi/pfnSetErrorCb, display.pfnseterrorcb, pfnSetErrorCb, pfnSetErrorCb callback function [Display Devices]
 ms.topic: callback
+f1_keywords:
+ - "d3d10umddi/pfnSetErrorCb"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

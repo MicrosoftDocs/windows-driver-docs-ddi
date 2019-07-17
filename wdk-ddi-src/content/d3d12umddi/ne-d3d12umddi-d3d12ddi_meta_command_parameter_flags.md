@@ -5,6 +5,8 @@ description: The available meta-command parameter flags.
 ms.assetid: ea52d577-cd40-48f1-a630-4fa1070551d5
 ms.date: 10/19/2018
 ms.topic: enum
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_META_COMMAND_PARAMETER_FLAGS"
 ms.keywords: D3D12DDI_META_COMMAND_PARAMETER_FLAGS, D3D12DDI_META_COMMAND_PARAMETER_FLAGS, 
 req.header: d3d12umddi.h
 req.include-header:

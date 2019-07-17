@@ -8,6 +8,8 @@ ms.assetid: 5d2ccc29-4022-467c-9f37-d49badcceba4
 ms.date: 02/15/2018
 ms.keywords: "*PHWN_CLIENT_SET_STATE, *PHWN_CLIENT_SET_STATE callback function pointer, HWN_CLIENT_SET_STATE, HwnClientSetState, HwnClientSetState callback function, gpiobtn.hwn_client_set_state, hwnclx/HwnClientSetState"
 ms.topic: callback
+f1_keywords:
+ - "hwnclx/*PHWN_CLIENT_SET_STATE"
 req.header: hwnclx.h
 req.include-header:
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: 136aa2af-e3bf-48b6-9511-348510eedfb5
 ms.date: 02/26/2018
 ms.keywords: GetDataBuffer, GetDataBuffer method, GetDataBuffer method,IWDFMemory interface, IWDFMemory interface,GetDataBuffer method, IWDFMemory.GetDataBuffer, IWDFMemory::GetDataBuffer, UMDFMemoryObjectRef_910791a8-4fd9-47ff-93f9-f8f496e95272.xml, umdf.iwdfmemory_getdatabuffer, wdf.iwdfmemory_getdatabuffer, wudfddi/IWDFMemory::GetDataBuffer
 ms.topic: method
+f1_keywords:
+ - "wudfddi/IWDFMemory.GetDataBuffer"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

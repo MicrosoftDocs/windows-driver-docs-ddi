@@ -8,6 +8,8 @@ ms.assetid: 1DD9A0A2-7D19-419A-8653-C16FDB28299E
 ms.date: 04/30/2018
 ms.keywords: "*PPEP_UNMASKED_INTERRUPT_INFORMATION, PEP_UNMASKED_INTERRUPT_INFORMATION, PEP_UNMASKED_INTERRUPT_INFORMATION structure [Kernel-Mode Driver Architecture], PPEP_UNMASKED_INTERRUPT_INFORMATION, PPEP_UNMASKED_INTERRUPT_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _PEP_UNMASKED_INTERRUPT_INFORMATION, kernel.pep_unmasked_interrupt_information, pepfx/PEP_UNMASKED_INTERRUPT_INFORMATION, pepfx/PPEP_UNMASKED_INTERRUPT_INFORMATION"
 ms.topic: struct
+f1_keywords:
+ - "pepfx/PEP_UNMASKED_INTERRUPT_INFORMATION"
 req.header: pepfx.h
 req.include-header: Pep_x.h
 req.target-type: Windows

@@ -7,6 +7,8 @@ ms.assetid: 249ca05c-406d-4d47-a266-222f7be1a883
 ms.date: 05/10/2018
 ms.keywords: D3DKMTDestroyAllocation, D3DKMTDestroyAllocation function [Display Devices], OpenGL_Functions_ecc5579c-3b0a-4c2c-9978-9f2591444c03.xml, d3dkmthk/D3DKMTDestroyAllocation, display.d3dkmtdestroyallocation
 ms.topic: function
+f1_keywords:
+ - "d3dkmthk/D3DKMTDestroyAllocation"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal

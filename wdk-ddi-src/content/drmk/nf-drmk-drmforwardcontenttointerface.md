@@ -8,6 +8,8 @@ ms.assetid: 13326eae-3160-42e5-9254-089c8cdc97a3
 ms.date: 05/08/2018
 ms.keywords: DrmForwardContentToInterface, DrmForwardContentToInterface function [Audio Devices], aud-prop2_c065f793-db14-4fc9-8804-f6d86754e106.xml, audio.drmforwardcontenttointerface, drmk/DrmForwardContentToInterface
 ms.topic: function
+f1_keywords:
+ - "drmk/DrmForwardContentToInterface"
 req.header: drmk.h
 req.include-header: Drmk.h
 req.target-type: Universal

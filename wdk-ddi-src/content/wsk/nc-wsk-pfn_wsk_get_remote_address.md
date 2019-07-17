@@ -8,6 +8,8 @@ ms.assetid: a2d65d55-744b-4851-b1fa-7087e0f06452
 ms.date: 05/02/2018
 ms.keywords: PFN_WSK_GET_REMOTE_ADDRESS, PFN_WSK_GET_REMOTE_ADDRESS callback, WskGetRemoteAddress, WskGetRemoteAddress callback function [Network Drivers Starting with Windows Vista], netvista.wskgetremoteaddress, wsk/WskGetRemoteAddress, wskref_5d771d25-f0bc-4292-a3cc-96704c0a39f3.xml
 ms.topic: callback
+f1_keywords:
+ - "wsk/WskGetRemoteAddress"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Universal

@@ -8,6 +8,8 @@ ms.assetid: c364490f-2bdf-4ba2-9828-bdfb0816fe3f
 ms.author: windowsdriverdev
 ms.date: 02/04/2019
 ms.topic: struct
+f1_keywords:
+ - "netringiterator/NET_RING_FRAGMENT_ITERATOR"
 ms.keywords: NET_RING_FRAGMENT_ITERATOR, NET_RING_FRAGMENT_ITERATOR, 
 req.header: netringiterator.h
 req.include-header:

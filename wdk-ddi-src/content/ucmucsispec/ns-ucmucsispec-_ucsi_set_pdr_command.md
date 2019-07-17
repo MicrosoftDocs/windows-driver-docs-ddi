@@ -6,6 +6,8 @@ ms.assetid: 795c8e74-6b3e-4027-89aa-06070d4119a2
 tech.root: usbref
 ms.date: 09/30/2018
 ms.topic: struct
+f1_keywords:
+ - "ucmucsispec/_UCSI_SET_PDR_COMMAND"
 ms.keywords: _UCSI_SET_PDR_COMMAND, UCSI_SET_PDR_COMMAND, *PUCSI_SET_PDR_COMMAND, 
 req.header: ucmucsispec.h
 req.include-header: UcmUcsiCx.h 

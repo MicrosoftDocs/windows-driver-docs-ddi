@@ -8,6 +8,8 @@ ms.assetid: 0c0dca35-3590-4c24-a2a7-8dd0378c525f
 ms.date: 02/15/2018
 ms.keywords: "*PNOTIFICATION_INFO, *PNOTIFICATION_INFO_WXP, 1394/NOTIFICATION_INFO, 1394/PNOTIFICATION_INFO, 1394stct_db1356d4-c42d-46a4-bbc4-ed8452dc2212.xml, IEEE.notification_info, NOTIFICATION_INFO, NOTIFICATION_INFO structure [Buses], NOTIFICATION_INFO_W2K, NOTIFICATION_INFO_WXP, PNOTIFICATION_INFO, PNOTIFICATION_INFO structure pointer [Buses], _NOTIFICATION_INFO_WXP"
 ms.topic: struct
+f1_keywords:
+ - "1394/NOTIFICATION_INFO"
 req.header: 1394.h
 req.include-header: 1394.h
 req.target-type: Windows

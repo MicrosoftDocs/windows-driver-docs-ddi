@@ -8,6 +8,8 @@ ms.assetid: fbd6fa74-eb39-4240-947e-1edec1365a83
 ms.date: 02/15/2018
 ms.keywords: "*POPCR, 61883/OPCR, 61883/POPCR, 61883_structures_271facde-3b80-421f-a3d2-1f0e9b8e1782.xml, IEEE.opcr, OPCR, OPCR structure [Buses], POPCR, POPCR structure pointer [Buses], _OPCR"
 ms.topic: struct
+f1_keywords:
+ - "61883/OPCR"
 req.header: 61883.h
 req.include-header: 61883.h
 req.target-type: Windows

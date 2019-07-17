@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 1ad27440-ca21-4600-a115-285cd72baf2c
 ms.date: 02/08/2018
 ms.topic: function
+f1_keywords:
+ - "netrequest/NetRequestRetrieveInputOutputBuffer"
 ms.keywords: NetRequestRetrieveInputOutputBuffer
 req.header: netrequest.h
 req.include-header: netadaptercx.h

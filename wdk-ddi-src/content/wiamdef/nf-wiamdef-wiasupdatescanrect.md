@@ -8,6 +8,8 @@ ms.assetid: f8184ae1-878f-46fc-bddc-66c065bc9e75
 ms.date: 05/03/2018
 ms.keywords: image.wiasupdatescanrect, wiamdef/wiasUpdateScanRect, wiasFncs_ef2b5686-5026-469b-8133-d2c37fddb732.xml, wiasUpdateScanRect, wiasUpdateScanRect function [Imaging Devices]
 ms.topic: function
+f1_keywords:
+ - "wiamdef/wiasUpdateScanRect"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop

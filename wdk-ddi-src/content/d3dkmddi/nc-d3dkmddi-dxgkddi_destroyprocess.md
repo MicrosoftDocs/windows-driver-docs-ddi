@@ -7,6 +7,8 @@ ms.assetid: C5117F9B-876D-4F74-B528-47698666B44B
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_DESTROYPROCESS, DXGKDDI_DESTROYPROCESS callback, DxgkDdiDestroyProcess, DxgkDdiDestroyProcess callback function [Display Devices], d3dkmddi/DxgkDdiDestroyProcess, display.dxgkddidestroyprocess, dispmprt/DxgkDdiDestroyProcess
 ms.topic: callback
+f1_keywords:
+ - "d3dkmddi/DxgkDdiDestroyProcess"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Desktop

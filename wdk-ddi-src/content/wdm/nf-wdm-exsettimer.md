@@ -8,6 +8,8 @@ ms.assetid: 0320AB36-CA88-40E7-859E-B940401474DD
 ms.date: 04/30/2018
 ms.keywords: ExSetTimer, ExSetTimer routine [Kernel-Mode Driver Architecture], kernel.exsettimer, wdm/ExSetTimer
 ms.topic: function
+f1_keywords:
+ - "wdm/ExSetTimer"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

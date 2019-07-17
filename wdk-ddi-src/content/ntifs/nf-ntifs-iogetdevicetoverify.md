@@ -8,6 +8,8 @@ ms.assetid: 3dcd33ac-845a-4519-b697-5917687a9672
 ms.date: 04/16/2018
 ms.keywords: IoGetDeviceToVerify, IoGetDeviceToVerify routine [Installable File System Drivers], ifsk.iogetdevicetoverify, k104_47163b80-0b35-40e0-9a30-3f5e2fe51bba.xml, ntifs/IoGetDeviceToVerify
 ms.topic: function
+f1_keywords:
+ - "ntifs/IoGetDeviceToVerify"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

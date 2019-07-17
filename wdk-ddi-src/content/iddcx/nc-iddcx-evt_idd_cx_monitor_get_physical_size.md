@@ -8,6 +8,8 @@ ms.assetid: 7dbf3d45-c850-4949-b13b-6548869070f3
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
 ms.topic: callback
+f1_keywords:
+ - "iddcx/EVT_IDD_CX_MONITOR_GET_PHYSICAL_SIZE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 req.header: iddcx.h

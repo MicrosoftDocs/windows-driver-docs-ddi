@@ -5,6 +5,8 @@ description: Specifies the resources needed to end access to a Render Pass.
 ms.assetid: f6732ebf-4a19-4054-8100-ec3f3ed0b7c6
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_RENDER_PASS_ENDING_ACCESS_0053"
 ms.keywords: D3D12DDI_RENDER_PASS_ENDING_ACCESS_0053, D3D12DDI_RENDER_PASS_ENDING_ACCESS_0053, 
 req.header: d3d12umddi.h
 req.include-header:

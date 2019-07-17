@@ -8,6 +8,8 @@ ms.assetid: 8C6356A2-9E4A-4654-9FB3-EC11894A24AB
 ms.date: 04/30/2018
 ms.keywords: RtlULongLongToChar, RtlULongLongToChar function [Kernel-Mode Driver Architecture], kernel.rtlulonglongtochar, ntintsafe/RtlULongLongToChar
 ms.topic: function
+f1_keywords:
+ - "ntintsafe/RtlULongLongToChar"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop

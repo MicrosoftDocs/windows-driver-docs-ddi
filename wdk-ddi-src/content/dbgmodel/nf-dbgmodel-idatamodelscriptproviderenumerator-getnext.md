@@ -5,6 +5,8 @@ description: Gets the next script provider which is being enumerated and moves t
 ms.assetid: d405006e-12bd-4540-be64-48e98a8651c1
 ms.date: 10/05/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDataModelScriptProviderEnumerator.GetNext"
 ms.keywords: IDataModelScriptProviderEnumerator::GetNext, GetNext, IDataModelScriptProviderEnumerator.GetNext, IDataModelScriptProviderEnumerator::GetNext, IDataModelScriptProviderEnumerator.GetNext
 req.header: dbgmodel.h
 req.include-header:

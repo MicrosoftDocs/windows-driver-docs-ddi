@@ -8,6 +8,8 @@ ms.assetid: 03ebdeed-10f0-4633-a9cd-4db683a8c3a7
 ms.date: 04/30/2018
 ms.keywords: PGET_LOCATION_STRING, PnpGetLocationString, PnpGetLocationString routine [Kernel-Mode Driver Architecture], drvr_interface_86bd2a9c-408f-430f-9ab7-5c368600de1e.xml, kernel.pnpgetlocationstring, ntddk/PnpGetLocationString
 ms.topic: callback
+f1_keywords:
+ - "ntddk/PnpGetLocationString"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Desktop

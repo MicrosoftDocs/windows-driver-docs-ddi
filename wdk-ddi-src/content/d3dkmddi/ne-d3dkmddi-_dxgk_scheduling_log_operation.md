@@ -5,6 +5,8 @@ description: Describes the log operations.
 ms.assetid: d1e9190a-1454-4faa-801b-a449a2864d1f
 ms.date: 10/19/2018
 ms.topic: enum
+f1_keywords:
+ - "d3dkmddi/_DXGK_SCHEDULING_LOG_OPERATION"
 ms.keywords: _DXGK_SCHEDULING_LOG_OPERATION, DXGK_SCHEDULING_LOG_OPERATION,
 req.header: d3dkmddi.h
 req.include-header:

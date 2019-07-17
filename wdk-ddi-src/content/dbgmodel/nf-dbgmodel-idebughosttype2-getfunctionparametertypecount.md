@@ -5,6 +5,8 @@ description: The GetFunctionParameterTypeCount method returns the number of argu
 ms.assetid: 262bfb7d-2a10-49f0-860a-f885bbe184e9
 ms.date: 09/20/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDebugHostType2.GetFunctionParameterTypeCount"
 ms.keywords: IDebugHostType2::GetFunctionParameterTypeCount, GetFunctionParameterTypeCount, IDebugHostType2.GetFunctionParameterTypeCount, IDebugHostType2::GetFunctionParameterTypeCount, IDebugHostType2.GetFunctionParameterTypeCount
 req.header: dbgmodel.h
 req.include-header:

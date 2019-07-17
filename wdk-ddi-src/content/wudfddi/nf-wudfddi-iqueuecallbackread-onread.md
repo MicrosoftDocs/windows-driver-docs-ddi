@@ -8,6 +8,8 @@ ms.assetid: e11a823d-0b08-42fd-b093-4c464c152afe
 ms.date: 02/26/2018
 ms.keywords: IQueueCallbackRead interface,OnRead method, IQueueCallbackRead.OnRead, IQueueCallbackRead::OnRead, OnRead, OnRead method, OnRead method,IQueueCallbackRead interface, UMDFQueueObjectRef_56f5bb6c-4b65-4ab9-961a-278bfc6dbfe9.xml, umdf.iqueuecallbackread_onread, wdf.iqueuecallbackread_onread, wudfddi/IQueueCallbackRead::OnRead
 ms.topic: method
+f1_keywords:
+ - "wudfddi/IQueueCallbackRead.OnRead"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Windows

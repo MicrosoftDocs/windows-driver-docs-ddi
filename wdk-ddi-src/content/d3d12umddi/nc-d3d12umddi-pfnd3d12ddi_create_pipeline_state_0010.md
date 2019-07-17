@@ -5,6 +5,8 @@ description: The pfnCreatePipelineState callback function creates a pipeline sta
 ms.assetid: 5117d701-25c0-4c9d-9672-63028925fd0e
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_CREATE_PIPELINE_STATE_0010"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

@@ -5,6 +5,8 @@ description: The GetDefaultTemplateContent method returns an interface for the d
 ms.assetid: 62471d06-62bf-4dd7-a132-0305c629a6c6
 ms.date: 08/20/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDataModelScriptProvider.GetDefaultTemplateContent"
 ms.keywords: IDataModelScriptProvider::GetDefaultTemplateContent, GetDefaultTemplateContent, IDataModelScriptProvider.GetDefaultTemplateContent, IDataModelScriptProvider::GetDefaultTemplateContent, IDataModelScriptProvider.GetDefaultTemplateContent
 req.header: dbgmodel.h
 req.include-header:

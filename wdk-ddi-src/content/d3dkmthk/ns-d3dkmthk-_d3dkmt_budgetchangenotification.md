@@ -5,6 +5,8 @@ description: Arguments used to create a budget change notification.
 ms.assetid: 3ae29775-2cc2-44af-8d11-a8b06fc5122e
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/_D3DKMT_BUDGETCHANGENOTIFICATION"
 ms.keywords: _D3DKMT_BUDGETCHANGENOTIFICATION, D3DKMT_BUDGETCHANGENOTIFICATION, 
 req.header: d3dkmthk.h
 req.include-header:

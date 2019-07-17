@@ -8,6 +8,8 @@ ms.assetid: FF204AC6-0D01-4C19-A852-0CC12095C43C
 ms.date: 02/15/2018
 ms.keywords: "*PCAD_POWER_SOURCE_INFO, CAD_POWER_SOURCE_INFO, CAD_POWER_SOURCE_INFO structure [Battery Devices], _CAD_POWER_SOURCE_INFO, battery.cad_power_source_info, charging/BATTERY_INFORMATION"
 ms.topic: struct
+f1_keywords:
+ - "charging/BATTERY_INFORMATION"
 req.header: charging.h
 req.include-header: Charging.h
 req.target-type: Windows

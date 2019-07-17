@@ -8,6 +8,8 @@ ms.assetid: d2ac3147-fe34-4643-b735-c795b6ba4768
 ms.date: 05/02/2018
 ms.keywords: RIL_RemoveCallForwarding, RIL_RemoveCallForwarding method [Network Drivers Starting with Windows Vista], netvista.ril_removecallforwarding, rilapi/RIL_RemoveCallForwarding
 ms.topic: function
+f1_keywords:
+ - "rilapi/RIL_RemoveCallForwarding"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows

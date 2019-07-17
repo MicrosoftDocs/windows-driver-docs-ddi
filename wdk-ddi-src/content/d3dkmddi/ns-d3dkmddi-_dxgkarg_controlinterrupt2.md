@@ -7,6 +7,8 @@ ms.assetid: 881F93B2-999F-4E3A-A71D-731946E8AA97
 ms.date: 05/10/2018
 ms.keywords: DXGKARG_CONTROLINTERRUPT2, DXGKARG_CONTROLINTERRUPT2 structure [Display Devices], DXGKARG_CONTROLINTTERUPT2, DXGKARG_CONTROLINTTERUPT2 structure [Display Devices], _DXGKARG_CONTROLINTERRUPT2, d3dkmddi/DXGKARG_CONTROLINTERRUPT2, display.dxgkarg_controlinterrupt2
 ms.topic: struct
+f1_keywords:
+ - "d3dkmddi/DXGKARG_CONTROLINTTERUPT2"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

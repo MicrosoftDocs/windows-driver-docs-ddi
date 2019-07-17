@@ -6,6 +6,8 @@ tech.root: pci
 ms.assetid: aa8427fa-e129-4673-9adb-786ee3563d2e
 ms.date: 09/30/2018
 ms.topic: struct
+f1_keywords:
+ - "ntddk/_PCI_FPB_RID_VECTOR_CONTROL2_REGISTER"
 ms.keywords: _PCI_FPB_RID_VECTOR_CONTROL2_REGISTER, PCI_FPB_RID_VECTOR_CONTROL2_REGISTER, *PPCI_FPB_RID_VECTOR_CONTROL2_REGISTER, 
 req.header: ntddk.h
 req.include-header:

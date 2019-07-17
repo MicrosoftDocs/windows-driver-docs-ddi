@@ -8,6 +8,8 @@ ms.assetid: 9D41810A-7698-4462-802D-79EF793C9A9D
 ms.date: 03/29/2018
 ms.keywords: StorPortGetDataInBufferMdl, StorPortGetDataInBufferMdl routine [Storage Devices], storage.storportgetdatainbuffermdl, storport/StorPortGetDataInBufferMdl
 ms.topic: function
+f1_keywords:
+ - "storport/StorPortGetDataInBufferMdl"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

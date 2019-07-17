@@ -5,6 +5,8 @@ description: An I2C request.
 ms.assetid: 6c58320f-2dee-43a2-acbf-f0233f3eb6fd
 ms.date: 04/19/2018
 ms.topic: struct
+f1_keywords:
+ - "sensorsdriversutils/_I2C_REQUEST"
 ms.keywords: _I2C_REQUEST, I2C_REQUEST, *PI2C_REQUEST,
 req.header: sensorsdriversutils.h
 req.include-header:

@@ -8,6 +8,8 @@ ms.assetid: E98A121A-514A-4437-A542-E8629697B7EA
 ms.date: 04/20/2018
 ms.keywords: IPrinterQueue, IPrinterQueue interface [Print Devices],SendBidiQuery method, IPrinterQueue.SendBidiQuery, IPrinterQueue::SendBidiQuery, SendBidiQuery, SendBidiQuery method [Print Devices], SendBidiQuery method [Print Devices],IPrinterQueue interface, print.iprinterqueue_sendbidiquery, printerextension/IPrinterQueue::SendBidiQuery
 ms.topic: method
+f1_keywords:
+ - "printerextension/IPrinterQueue.SendBidiQuery"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop

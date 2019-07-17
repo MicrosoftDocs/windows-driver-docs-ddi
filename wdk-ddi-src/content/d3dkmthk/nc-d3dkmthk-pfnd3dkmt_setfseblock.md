@@ -5,6 +5,8 @@ description: The PFND3DKMT_SETFSEBLOCK callback function sets FSE block.
 ms.assetid: b0a3d6d7-9b7d-46eb-b3a5-a2faf0e1c9a6
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/PFND3DKMT_SETFSEBLOCK"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

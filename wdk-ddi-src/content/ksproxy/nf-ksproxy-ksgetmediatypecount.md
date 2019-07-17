@@ -8,6 +8,8 @@ ms.assetid: 157cb12c-1b2d-45b5-8541-e16ee3449064
 ms.date: 04/23/2018
 ms.keywords: KsGetMediaTypeCount, KsGetMediaTypeCount function [Streaming Media Devices], ksproxy/KsGetMediaTypeCount, ksproxy_77c6249c-2b35-4d9e-afff-b01cf5518a73.xml, stream.ksgetmediatypecount
 ms.topic: function
+f1_keywords:
+ - "ksproxy/KsGetMediaTypeCount"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: Desktop

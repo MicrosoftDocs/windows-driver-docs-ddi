@@ -7,6 +7,8 @@ ms.assetid: D0326C98-F187-4F62-AE60-60F0B38AB0D4
 ms.date: 05/10/2018
 ms.keywords: PFND3D12DDI_ALLOCATE_CB_0022, PFND3D12DDI_ALLOCATE_CB_0022 callback, d3d12umddi/pfnAllocateCb, display.pfnd3d12ddi_allocate_cb_0022, pfnAllocateCb, pfnAllocateCb callback function [Display Devices]
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/pfnAllocateCb"
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows

@@ -5,6 +5,8 @@ description: Constructs a location from an offset into the virtual address space
 ms.assetid: 51c5c136-c904-4883-852b-d4a284443d8a
 ms.date: 09/28/2018
 ms.topic: function
+f1_keywords:
+ - "dbgmodel/Location"
 ms.keywords: Location
 req.header: dbgmodel.h
 req.include-header:

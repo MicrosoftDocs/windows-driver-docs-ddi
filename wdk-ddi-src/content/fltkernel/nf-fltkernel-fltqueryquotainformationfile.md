@@ -8,6 +8,8 @@ ms.assetid: B460BE83-7050-469A-9AD6-68A47F03EB4B
 ms.date: 04/16/2018
 ms.keywords: FltQueryQuotaInformationFile, FltQueryQuotaInformationFile function [Installable File System Drivers], fltkernel/FltQueryQuotaInformationFile, ifsk.fltqueryquotainformationfile
 ms.topic: function
+f1_keywords:
+ - "fltkernel/FltQueryQuotaInformationFile"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

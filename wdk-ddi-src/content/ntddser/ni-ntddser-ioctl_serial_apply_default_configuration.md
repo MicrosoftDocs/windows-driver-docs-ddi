@@ -8,6 +8,8 @@ ms.assetid: 59AA6029-906C-480F-8F18-82C271A2BE88
 ms.date: 04/23/2018
 ms.keywords: IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION, IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION control, IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION control code [Serial Ports], ntddser/IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION, serports.ioctl_serial_apply_default_configuration
 ms.topic: ioctl
+f1_keywords:
+ - "ntddser/IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION"
 req.header: ntddser.h
 req.include-header: Ntddser.h
 req.target-type: Windows

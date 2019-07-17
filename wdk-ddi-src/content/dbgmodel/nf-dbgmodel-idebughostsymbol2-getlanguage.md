@@ -5,6 +5,8 @@ description: If the symbol can identify the language for which it applies, this 
 ms.assetid: b97fb7f8-ccd2-4450-b1fb-a3ea218889ec
 ms.date: 09/28/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDebugHostSymbol2.GetLanguage"
 ms.keywords: IDebugHostSymbol2::GetLanguage, GetLanguage, IDebugHostSymbol2.GetLanguage, IDebugHostSymbol2::GetLanguage, IDebugHostSymbol2.GetLanguage
 req.header: dbgmodel.h
 req.include-header:

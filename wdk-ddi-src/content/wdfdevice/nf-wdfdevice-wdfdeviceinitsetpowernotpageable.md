@@ -8,6 +8,8 @@ ms.assetid: c0f39e50-8bf1-4ac9-8610-18915b375797
 ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_b7acdb97-66a4-497f-b9fb-4335d9147c1a.xml, WdfDeviceInitSetPowerNotPageable, WdfDeviceInitSetPowerNotPageable method, kmdf.wdfdeviceinitsetpowernotpageable, wdf.wdfdeviceinitsetpowernotpageable, wdfdevice/WdfDeviceInitSetPowerNotPageable
 ms.topic: function
+f1_keywords:
+ - "wdfdevice/WdfDeviceInitSetPowerNotPageable"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

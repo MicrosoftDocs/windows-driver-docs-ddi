@@ -8,6 +8,8 @@ ms.assetid: 4789e848-bb95-43e1-9768-8f94a475f9c8
 ms.date: 05/10/2018
 ms.keywords: IddCxDeviceInitConfig, IddCxDeviceInitConfig method [Display Devices], display.iddcxdeviceinitconfig, iddcx/IddCxDeviceInitConfig
 ms.topic: function
+f1_keywords:
+ - "iddcx/IddCxDeviceInitConfig"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows

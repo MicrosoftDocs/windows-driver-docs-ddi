@@ -8,6 +8,8 @@ ms.assetid: 023ca2d0-45a2-423e-bd88-e40792ef0e49
 ms.date: 04/30/2018
 ms.keywords: "*PREG_KEY_HANDLE_CLOSE_INFORMATION, PREG_KEY_HANDLE_CLOSE_INFORMATION, PREG_KEY_HANDLE_CLOSE_INFORMATION structure pointer [Kernel-Mode Driver Architecture], REG_KEY_HANDLE_CLOSE_INFORMATION, REG_KEY_HANDLE_CLOSE_INFORMATION structure [Kernel-Mode Driver Architecture], _REG_KEY_HANDLE_CLOSE_INFORMATION, kernel.reg_key_handle_close_information, kstruct_d_26822436-a385-4b98-8179-18c661ebdb1f.xml, wdm/PREG_KEY_HANDLE_CLOSE_INFORMATION, wdm/REG_KEY_HANDLE_CLOSE_INFORMATION"
 ms.topic: struct
+f1_keywords:
+ - "wdm/REG_KEY_HANDLE_CLOSE_INFORMATION"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows

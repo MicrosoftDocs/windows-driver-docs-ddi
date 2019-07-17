@@ -5,6 +5,8 @@ description: Compares two symbols for equality.
 ms.assetid: abdc73ad-ae24-43cd-9b66-9f063a554cda
 ms.date: 09/20/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDebugHostSymbol2.CompareAgainst"
 ms.keywords: IDebugHostSymbol2::CompareAgainst, CompareAgainst, IDebugHostSymbol2.CompareAgainst, IDebugHostSymbol2::CompareAgainst, IDebugHostSymbol2.CompareAgainst
 req.header: dbgmodel.h
 req.include-header:

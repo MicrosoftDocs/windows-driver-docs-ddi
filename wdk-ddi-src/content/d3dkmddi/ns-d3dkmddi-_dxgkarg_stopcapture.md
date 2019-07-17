@@ -7,6 +7,8 @@ ms.assetid: 09b1275f-9755-44f7-ab8a-1b6797bfefde
 ms.date: 05/10/2018
 ms.keywords: DXGKARG_STOPCAPTURE, DXGKARG_STOPCAPTURE structure [Display Devices], DmStructs_52028d90-8c11-425c-80ca-533664035fa5.xml, _DXGKARG_STOPCAPTURE, d3dkmddi/DXGKARG_STOPCAPTURE, display.dxgkarg_stopcapture
 ms.topic: struct
+f1_keywords:
+ - "d3dkmddi/DXGKARG_STOPCAPTURE"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

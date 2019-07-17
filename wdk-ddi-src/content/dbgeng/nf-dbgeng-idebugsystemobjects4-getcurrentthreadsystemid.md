@@ -8,6 +8,8 @@ ms.assetid: b2e4d14c-a97f-4f57-b0ce-5a52a82c1690
 ms.date: 05/03/2018
 ms.keywords: GetCurrentThreadSystemId, GetCurrentThreadSystemId method [Windows Debugging], GetCurrentThreadSystemId method [Windows Debugging],IDebugSystemObjects interface, GetCurrentThreadSystemId method [Windows Debugging],IDebugSystemObjects2 interface, GetCurrentThreadSystemId method [Windows Debugging],IDebugSystemObjects3 interface, GetCurrentThreadSystemId method [Windows Debugging],IDebugSystemObjects4 interface, IDebugSystemObjects interface [Windows Debugging],GetCurrentThreadSystemId method, IDebugSystemObjects2 interface [Windows Debugging],GetCurrentThreadSystemId method, IDebugSystemObjects2::GetCurrentThreadSystemId, IDebugSystemObjects3 interface [Windows Debugging],GetCurrentThreadSystemId method, IDebugSystemObjects3::GetCurrentThreadSystemId, IDebugSystemObjects4 interface [Windows Debugging],GetCurrentThreadSystemId method, IDebugSystemObjects4.GetCurrentThreadSystemId, IDebugSystemObjects4::GetCurrentThreadSystemId, IDebugSystemObjects::GetCurrentThreadSystemId, IDebugSystemObjects_67dfdace-712e-4652-96bd-d4f073c2bf0f.xml, dbgeng/IDebugSystemObjects2::GetCurrentThreadSystemId, dbgeng/IDebugSystemObjects3::GetCurrentThreadSystemId, dbgeng/IDebugSystemObjects4::GetCurrentThreadSystemId, dbgeng/IDebugSystemObjects::GetCurrentThreadSystemId, debugger.getcurrentthreadsystemid
 ms.topic: method
+f1_keywords:
+ - "dbgeng/IDebugSystemObjects.GetCurrentThreadSystemId"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

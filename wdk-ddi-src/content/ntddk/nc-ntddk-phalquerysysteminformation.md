@@ -5,6 +5,8 @@ description:
 ms.assetid: 1470096d-c598-4724-9107-10678ae46a71
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "ntddk/pHalQuerySystemInformation"
 req.header: ntddk.h
 req.include-header:
 req.target-type: Desktop

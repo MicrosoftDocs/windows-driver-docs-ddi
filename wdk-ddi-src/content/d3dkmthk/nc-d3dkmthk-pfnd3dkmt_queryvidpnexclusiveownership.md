@@ -5,6 +5,8 @@ description: The PFND3DKMT_QUERYVIDPNEXCLUSIVEOWNERSHIP callback function querie
 ms.assetid: af3082f5-6afd-4a93-b0d4-a5411e0f41df
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/PFND3DKMT_QUERYVIDPNEXCLUSIVEOWNERSHIP"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

@@ -8,6 +8,8 @@ ms.assetid: b8c37df8-ba86-4cfd-add0-49ba9c90f04a
 ms.date: 05/10/2018
 ms.keywords: DXGK_BRIGHTNESS_SET_BACKLIGHT_OPTIMIZATION, DXGK_BRIGHTNESS_SET_BACKLIGHT_OPTIMIZATION callback, DxgkDdiSetBacklightOptimization, DxgkDdiSetBacklightOptimization callback function [Display Devices], display.dxgkddisetbacklightoptimization, dispmprt/DxgkDdiSetBacklightOptimization
 ms.topic: callback
+f1_keywords:
+ - "dispmprt/DxgkDdiSetBacklightOptimization"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Desktop

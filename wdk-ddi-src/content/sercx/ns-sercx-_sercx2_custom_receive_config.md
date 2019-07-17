@@ -8,6 +8,8 @@ ms.assetid: 815DB069-4AB5-4C00-BB7A-BAAA4050C8CF
 ms.date: 04/23/2018
 ms.keywords: "*PSERCX2_CUSTOM_RECEIVE_CONFIG, 2/PSERCX2_CUSTOM_RECEIVE_CONFIG, 2/SERCX2_CUSTOM_RECEIVE_CONFIG, PSERCX2_CUSTOM_RECEIVE_CONFIG, PSERCX2_CUSTOM_RECEIVE_CONFIG structure pointer [Serial Ports], SERCX2_CUSTOM_RECEIVE_CONFIG, SERCX2_CUSTOM_RECEIVE_CONFIG structure [Serial Ports], _SERCX2_CUSTOM_RECEIVE_CONFIG, serports.sercx2_custom_receive_config"
 ms.topic: struct
+f1_keywords:
+ - "sercx/SERCX2_CUSTOM_RECEIVE_CONFIG"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Windows

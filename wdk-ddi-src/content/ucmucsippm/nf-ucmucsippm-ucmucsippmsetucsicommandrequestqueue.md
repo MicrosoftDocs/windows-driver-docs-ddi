@@ -6,6 +6,8 @@ description: Provides a framework queue object that is used to dispatch UCSI com
 ms.assetid: 6f3d5025-84ec-484a-aa88-e4ac86118c73
 ms.date: 09/30/2018
 ms.topic: function
+f1_keywords:
+ - "ucmucsippm/UcmUcsiPpmSetUcsiCommandRequestQueue"
 ms.keywords: UcmUcsiPpmSetUcsiCommandRequestQueue
 req.header: Ucmucsippm.h
 req.include-header: UcmUcsiCx.h

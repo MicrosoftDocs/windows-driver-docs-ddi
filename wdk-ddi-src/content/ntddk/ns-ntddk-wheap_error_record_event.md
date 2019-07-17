@@ -8,6 +8,8 @@ ms.assetid: d2786911-c3c1-4660-8876-ec68ecc94e4f
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
+f1_keywords:
+ - "ntddk/WHEAP_ERROR_RECORD_EVENT"
 ms.keywords: WHEAP_ERROR_RECORD_EVENT, WHEAP_ERROR_RECORD_EVENT, *PWHEAP_ERROR_RECORD_EVENT, 
 req.header: ntddk.h
 req.include-header:

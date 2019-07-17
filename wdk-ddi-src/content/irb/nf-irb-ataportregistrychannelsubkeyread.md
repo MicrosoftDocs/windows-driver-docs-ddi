@@ -8,6 +8,8 @@ ms.assetid: 50fc7a8c-64ee-4a0c-9106-a071a7cefc34
 ms.date: 03/29/2018
 ms.keywords: AtaPortRegistryChannelSubKeyRead, AtaPortRegistryChannelSubkeyRead, AtaPortRegistryChannelSubkeyRead routine [Storage Devices], atartns_35b220a8-6f27-43c3-90b7-fc0ef628b270.xml, irb/AtaPortRegistryChannelSubkeyRead, storage.ataportregistrychannelsubkeyread
 ms.topic: function
+f1_keywords:
+ - "irb/AtaPortRegistryChannelSubkeyRead"
 req.header: irb.h
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop

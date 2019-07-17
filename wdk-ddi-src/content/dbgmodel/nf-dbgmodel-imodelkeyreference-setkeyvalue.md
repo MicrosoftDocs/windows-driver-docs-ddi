@@ -5,6 +5,8 @@ description: The SetKeyValue method on a key reference behaves as the SetKeyValu
 ms.assetid: adb5bf4c-161a-4bbc-82b8-a23dcf101b55
 ms.date: 08/14/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IModelKeyReference.SetKeyValue"
 ms.keywords: IModelKeyReference::SetKeyValue, SetKeyValue, IModelKeyReference.SetKeyValue, IModelKeyReference::SetKeyValue, IModelKeyReference.SetKeyValue
 req.header: dbgmodel.h
 req.include-header:

@@ -8,6 +8,8 @@ ms.assetid: f101fc66-40a9-4077-b651-cef0a0e247d4
 ms.date: 04/16/2018
 ms.keywords: RtlCreateUnicodeString, RtlCreateUnicodeString routine [Installable File System Drivers], ifsk.rtlcreateunicodestring, ntifs/RtlCreateUnicodeString, rtlref_8d7cd5ce-a1c9-48a0-86a9-86120954d328.xml
 ms.topic: function
+f1_keywords:
+ - "ntifs/RtlCreateUnicodeString"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

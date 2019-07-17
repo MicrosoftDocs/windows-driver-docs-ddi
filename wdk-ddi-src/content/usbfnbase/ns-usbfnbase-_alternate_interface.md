@@ -8,6 +8,8 @@ ms.assetid: F57FA113-F664-4B10-8457-DF6D266264E9
 ms.date: 05/07/2018
 ms.keywords: "*PALTERNATE_INTERFACE, ALTERNATE_INTERFACE, ALTERNATE_INTERFACE structure [Buses], PALTERNATE_INTERFACE, PALTERNATE_INTERFACE structure pointer [Buses], _ALTERNATE_INTERFACE, buses.alternate_interface, usbfnbase/ALTERNATE_INTERFACE, usbfnbase/PALTERNATE_INTERFACE"
 ms.topic: struct
+f1_keywords:
+ - "usbfnbase/ALTERNATE_INTERFACE"
 req.header: usbfnbase.h
 req.include-header: Usbfnbase.h
 req.target-type: Windows

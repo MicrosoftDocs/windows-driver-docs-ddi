@@ -8,6 +8,8 @@ ms.assetid: 539d32a5-4566-4b8e-b9de-da8d5be3c2f2
 ms.date: 05/10/2018
 ms.keywords: DXVA2_Structs_87cc7918-2fb5-4b73-a62c-ab9a3817c154.xml, DXVADDI_VIDEOPROCESSORINPUT, DXVADDI_VIDEOPROCESSORINPUT structure [Display Devices], _DXVADDI_VIDEOPROCESSORINPUT, d3dumddi/DXVADDI_VIDEOPROCESSORINPUT, display.dxvaddi_videoprocessorinput
 ms.topic: struct
+f1_keywords:
+ - "d3dumddi/DXVADDI_VIDEOPROCESSORINPUT"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

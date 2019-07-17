@@ -8,6 +8,8 @@ ms.assetid: 3a216c35-f6b7-483f-a330-d0a66edb9205
 ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_704347eb-35c6-4735-bd2a-e6a988ff2896.xml, WdfDeviceInitSetPowerPageable, WdfDeviceInitSetPowerPageable method, kmdf.wdfdeviceinitsetpowerpageable, wdf.wdfdeviceinitsetpowerpageable, wdfdevice/WdfDeviceInitSetPowerPageable
 ms.topic: function
+f1_keywords:
+ - "wdfdevice/WdfDeviceInitSetPowerPageable"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

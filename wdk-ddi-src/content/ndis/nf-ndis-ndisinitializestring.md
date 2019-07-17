@@ -8,6 +8,8 @@ ms.assetid: c6945d7d-5152-4968-a628-7850b8083a82
 ms.date: 05/02/2018
 ms.keywords: NdisInitializeString, NdisInitializeString function [Network Drivers Starting with Windows Vista], ndis/NdisInitializeString, ndis_string_ref_886eff5e-5f5a-49f2-91d3-e87128cf0542.xml, netvista.ndisinitializestring
 ms.topic: function
+f1_keywords:
+ - "ndis/NdisInitializeString"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

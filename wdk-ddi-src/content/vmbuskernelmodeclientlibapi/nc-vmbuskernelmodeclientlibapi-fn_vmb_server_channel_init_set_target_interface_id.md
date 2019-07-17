@@ -5,6 +5,8 @@ description: The VmbServerChannelInitSetTargetInterfaceId function sets the targ
 ms.assetid: 895117ce-880e-4f45-95bc-a283087490d1
 ms.date: 09/13/2018
 ms.topic: callback
+f1_keywords:
+ - "vmbuskernelmodeclientlibapi/FN_VMB_SERVER_CHANNEL_INIT_SET_TARGET_INTERFACE_ID"
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header:
 req.target-type:

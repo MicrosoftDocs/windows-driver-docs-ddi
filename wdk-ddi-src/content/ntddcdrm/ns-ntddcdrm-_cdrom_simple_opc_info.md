@@ -8,6 +8,8 @@ ms.assetid: CE6D2C98-C4C3-4D76-B49E-1B9344B88666
 ms.date: 03/29/2018
 ms.keywords: "*PCDROM_SIMPLE_OPC_INFO, CDROM_SIMPLE_OPC_INFO, CDROM_SIMPLE_OPC_INFO structure [Storage Devices], PCDROM_SIMPLE_OPC_INFO, PCDROM_SIMPLE_OPC_INFO structure pointer [Storage Devices], _CDROM_SIMPLE_OPC_INFO, ntddcdrm/CDROM_SIMPLE_OPC_INFO, ntddcdrm/PCDROM_SIMPLE_OPC_INFO, storage.cdrom_simple_opc_info"
 ms.topic: struct
+f1_keywords:
+ - "ntddcdrm/CDROM_SIMPLE_OPC_INFO"
 req.header: ntddcdrm.h
 req.include-header: Ntddcdrm.h
 req.target-type: Windows

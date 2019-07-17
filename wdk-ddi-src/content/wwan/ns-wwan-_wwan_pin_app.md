@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 1061618C-EE4E-466A-AAB1-238798EC7C76
 ms.date: 04/10/2019
 ms.topic: struct
+f1_keywords:
+ - "wwan/_WWAN_PIN_APP"
 ms.keywords: _WWAN_PIN_APP, WWAN_PIN_APP, *PWWAN_PIN_APP, 
 req.header: wwan.h
 req.include-header:

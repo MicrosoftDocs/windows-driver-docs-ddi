@@ -8,6 +8,8 @@ ms.assetid: 93EC2651-3C52-4810-9F7A-A81BC7DA20AF
 ms.date: 05/08/2018
 ms.keywords: FreeNotificationBuffer, FreeNotificationBuffer method [Audio Devices], FreeNotificationBuffer method [Audio Devices],IPortClsNotifications interface, IPortClsNotifications interface [Audio Devices],FreeNotificationBuffer method, IPortClsNotifications.FreeNotificationBuffer, IPortClsNotifications::FreeNotificationBuffer, audio.iportclsnotifications_freenotification, portcls/IPortClsNotifications::FreeNotificationBuffer
 ms.topic: method
+f1_keywords:
+ - "portcls/IPortClsNotifications.FreeNotificationBuffer"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal

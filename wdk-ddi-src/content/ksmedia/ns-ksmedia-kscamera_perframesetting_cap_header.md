@@ -8,6 +8,8 @@ ms.assetid: 7478E83E-0657-4547-993A-84AECBB2562D
 ms.date: 04/30/2019
 ms.keywords: "*PKSCAMERA_PERFRAMESETTING_CAP_HEADER, KSCAMERA_PERFRAMESETTING_CAP_HEADER, KSCAMERA_PERFRAMESETTING_CAP_HEADER structure [Streaming Media Devices], PKSCAMERA_PERFRAMESETTING_CAP_HEADER, PKSCAMERA_PERFRAMESETTING_CAP_HEADER structure pointer [Streaming Media Devices], ksmedia/KSCAMERA_PERFRAMESETTING_CAP_HEADER, ksmedia/PKSCAMERA_PERFRAMESETTING_CAP_HEADER, stream.kscamera_perframesetting_cap_header"
 ms.topic: struct
+f1_keywords:
+ - "ksmedia/KSCAMERA_PERFRAMESETTING_CAP_HEADER"
 req.header: ksmedia.h
 req.include-header: 
 req.target-type: Windows

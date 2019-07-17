@@ -8,6 +8,8 @@ ms.assetid: b1076b17-9175-4823-abb7-1c864670e8d5
 ms.date: 05/03/2018
 ms.keywords: GetOutputMask, GetOutputMask method [Windows Debugging], GetOutputMask method [Windows Debugging],IDebugClient interface, GetOutputMask method [Windows Debugging],IDebugClient2 interface, GetOutputMask method [Windows Debugging],IDebugClient3 interface, GetOutputMask method [Windows Debugging],IDebugClient4 interface, GetOutputMask method [Windows Debugging],IDebugClient5 interface, IDebugClient interface [Windows Debugging],GetOutputMask method, IDebugClient2 interface [Windows Debugging],GetOutputMask method, IDebugClient2.GetOutputMask, IDebugClient2::GetOutputMask, IDebugClient3 interface [Windows Debugging],GetOutputMask method, IDebugClient3::GetOutputMask, IDebugClient4 interface [Windows Debugging],GetOutputMask method, IDebugClient4::GetOutputMask, IDebugClient5 interface [Windows Debugging],GetOutputMask method, IDebugClient5::GetOutputMask, IDebugClient::GetOutputMask, IDebugClient_ff2626fe-2299-4008-b655-0b7dbd46ef8b.xml, dbgeng/IDebugClient2::GetOutputMask, dbgeng/IDebugClient3::GetOutputMask, dbgeng/IDebugClient4::GetOutputMask, dbgeng/IDebugClient5::GetOutputMask, dbgeng/IDebugClient::GetOutputMask, debugger.getoutputmask
 ms.topic: method
+f1_keywords:
+ - "dbgeng/IDebugClient.GetOutputMask"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

@@ -8,6 +8,8 @@ ms.assetid: 94e7c36a-e45c-4d98-aeb7-f23769347ca5
 ms.date: 05/07/2018
 ms.keywords: UcmTcpciPortControllerStart, UcmTcpciPortControllerStart method [Buses], buses.ucmtcpciportcontrollerstart, ucmtcpciportcontroller/UcmTcpciPortControllerStart
 ms.topic: function
+f1_keywords:
+ - "ucmtcpciportcontroller/UcmTcpciPortControllerStart"
 req.header: ucmtcpciportcontroller.h
 req.include-header: 
 req.target-type: Windows

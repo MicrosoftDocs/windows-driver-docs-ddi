@@ -5,6 +5,8 @@ description: The GetValue method returns the value of the constant packed into a
 ms.assetid: 8cf871cc-c21e-44ee-bd5a-bf3b4b1ad7b4
 ms.date: 10/03/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDebugHostConstant.GetValue"
 ms.keywords: IDebugHostConstant::GetValue, GetValue, IDebugHostConstant.GetValue, IDebugHostConstant::GetValue, IDebugHostConstant.GetValue
 req.header: dbgmodel.h
 req.include-header:

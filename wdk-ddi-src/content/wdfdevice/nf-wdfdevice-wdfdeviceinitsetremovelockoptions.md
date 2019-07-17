@@ -8,6 +8,8 @@ ms.assetid: 0BCF4141-BE4E-42C0-8986-BE039B27F5D5
 ms.date: 02/26/2018
 ms.keywords: WdfDeviceInitSetRemoveLockOptions, WdfDeviceInitSetRemoveLockOptions method, kmdf.wdfdeviceinitsetremovelockoptions, wdf.wdfdeviceinitsetremovelockoptions, wdfdevice/WdfDeviceInitSetRemoveLockOptions
 ms.topic: function
+f1_keywords:
+ - "wdfdevice/WdfDeviceInitSetRemoveLockOptions"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

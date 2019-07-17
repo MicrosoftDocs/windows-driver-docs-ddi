@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: c20c2586-8d1d-484f-99ce-5eaf44f37886
 ms.date: 02/05/2018
 ms.topic: enum
+f1_keywords:
+ - "netadapter/NET_ADAPTER_STATISTICS_FLAGS"
 ms.keywords: _NET_ADAPTER_STATISTICS_FLAGS, NET_ADAPTER_STATISTICS_FLAGS, 
 req.header: netadapter.h
 req.include-header:

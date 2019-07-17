@@ -5,6 +5,8 @@ description: The UnregisterScriptProvider method undoes a call to the RegisterSc
 ms.assetid: ab48f873-3651-41c6-9b7d-6fa720e052ee
 ms.date: 08/20/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDataModelScriptManager.UnregisterScriptProvider"
 ms.keywords: IDataModelScriptManager::UnregisterScriptProvider, UnregisterScriptProvider, IDataModelScriptManager.UnregisterScriptProvider, IDataModelScriptManager::UnregisterScriptProvider, IDataModelScriptManager.UnregisterScriptProvider
 req.header: dbgmodel.h
 req.include-header:

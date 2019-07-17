@@ -5,6 +5,8 @@ description: Flags that represent the correct GPU configuration including the ap
 ms.assetid: d9c090e6-85f7-4fa1-b156-268155f18142
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/_D3DKMT_TRACKEDWORKLOADSTATEFLAGS"
 ms.keywords: _D3DKMT_TRACKEDWORKLOADSTATEFLAGS, D3DKMT_TRACKEDWORKLOADSTATEFLAGS, 
 req.header: d3dkmthk.h
 req.include-header:

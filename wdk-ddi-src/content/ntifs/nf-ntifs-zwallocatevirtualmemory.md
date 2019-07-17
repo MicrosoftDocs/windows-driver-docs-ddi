@@ -8,6 +8,8 @@ ms.assetid: bb82c90d-9bd3-4a23-b171-06a3208e424b
 ms.date: 04/30/2018
 ms.keywords: NtAllocateVirtualMemory, ZwAllocateVirtualMemory, ZwAllocateVirtualMemory routine [Kernel-Mode Driver Architecture], k111_76257300-f41b-4dad-a81f-8ea1b187244a.xml, kernel.zwallocatevirtualmemory, ntifs/NtAllocateVirtualMemory, ntifs/ZwAllocateVirtualMemory
 ms.topic: function
+f1_keywords:
+ - "ntifs/ZwAllocateVirtualMemory"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

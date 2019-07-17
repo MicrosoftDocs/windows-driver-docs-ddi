@@ -5,6 +5,8 @@ description: For types which are pointers, the GetPointerKind method returns the
 ms.assetid: cd03e7b1-769d-4316-a8f3-06467173ca70
 ms.date: 08/22/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDebugHostType.GetPointerKind"
 ms.keywords: IDebugHostType::GetPointerKind, GetPointerKind, IDebugHostType.GetPointerKind, IDebugHostType::GetPointerKind, IDebugHostType.GetPointerKind
 req.header: dbgmodel.h
 req.include-header:

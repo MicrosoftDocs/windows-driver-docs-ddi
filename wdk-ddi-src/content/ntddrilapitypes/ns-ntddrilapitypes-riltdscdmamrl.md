@@ -8,6 +8,8 @@ ms.assetid: 26399c62-c17a-40ad-964e-144badc55614
 ms.date: 02/16/2018
 ms.keywords: "*LPRILTDSCDMAMRL, RILTDSCDMAMRL, RILTDSCDMAMRL structure [Network Drivers Starting with Windows Vista], netvista.riltdscdmamrl, rilapitypes/RILTDSCDMAMRL"
 ms.topic: struct
+f1_keywords:
+ - "ntddrilapitypes/RILTDSCDMAMRL"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h, Ntddrilapitypes.h
 req.target-type: Windows

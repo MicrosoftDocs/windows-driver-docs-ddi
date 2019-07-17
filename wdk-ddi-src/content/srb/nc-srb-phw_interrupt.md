@@ -8,6 +8,8 @@ ms.assetid: d61892c6-f6ca-4077-909e-a21076375e5a
 ms.date: 03/29/2018
 ms.keywords: "(*PHW_INTERRUPT), (*PHW_INTERRUPT) callback function [Storage Devices], ide_minikr_d0fa2a3d-deef-45c5-9251-a3c30c7af434.xml, srb/(*PHW_INTERRUPT), storage.phw_interrupt"
 ms.topic: callback
+f1_keywords:
+ - "srb/(*PHW_INTERRUPT)"
 req.header: srb.h
 req.include-header: Storport.h, Srb.h, Storport.h
 req.target-type: Desktop

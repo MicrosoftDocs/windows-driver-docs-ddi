@@ -8,6 +8,8 @@ ms.assetid: E48BDF14-5B56-45AF-9DD2-F019C8B7D7E5
 ms.date: 04/30/2018
 ms.keywords: IO_ACCESS_MODE, IO_ACCESS_MODE enumeration [Kernel-Mode Driver Architecture], RandomAccess, SequentialAccess, _IO_ACCESS_MODE, kernel.io_access_mode, wdm/IO_ACCESS_MODE, wdm/RandomAccess, wdm/SequentialAccess
 ms.topic: enum
+f1_keywords:
+ - "wdm/IO_ACCESS_MODE"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddsfio.h
 req.target-type: Windows

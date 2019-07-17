@@ -8,6 +8,8 @@ ms.assetid: 0973d8d8-53df-47aa-be65-71045c2e6006
 ms.date: 05/03/2018
 ms.keywords: GetPseudoIndexByName, GetPseudoIndexByName method [Windows Debugging], GetPseudoIndexByName method [Windows Debugging],IDebugRegisters2 interface, IDebugRegisters2 interface [Windows Debugging],GetPseudoIndexByName method, IDebugRegisters2.GetPseudoIndexByName, IDebugRegisters2::GetPseudoIndexByName, IDebugRegisters_95580025-4059-4a5b-bd68-d7ebfa20607e.xml, dbgeng/IDebugRegisters2::GetPseudoIndexByName, debugger.getpseudoindexbyname
 ms.topic: method
+f1_keywords:
+ - "dbgeng/IDebugRegisters2.GetPseudoIndexByName"
 req.header: dbgeng.h
 req.include-header: DbgEng.h
 req.target-type: Desktop

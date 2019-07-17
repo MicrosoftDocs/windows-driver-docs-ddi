@@ -7,6 +7,8 @@ ms.assetid: 7A55FB51-BDC2-4215-895E-3250579BEAF0
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_SUBMITCOMMANDVIRTUAL, DXGKDDI_SUBMITCOMMANDVIRTUAL callback, DxgkDdiSubmitCommandVirtual, DxgkDdiSubmitCommandVirtual callback function [Display Devices], d3dkmddi/DxgkDdiSubmitCommandVirtual, display.dxgkddisubmitcommandvirtual
 ms.topic: callback
+f1_keywords:
+ - "d3dkmddi/DxgkDdiSubmitCommandVirtual"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Desktop

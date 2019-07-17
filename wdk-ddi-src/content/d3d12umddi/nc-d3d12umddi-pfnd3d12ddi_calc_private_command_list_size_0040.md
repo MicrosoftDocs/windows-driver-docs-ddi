@@ -5,6 +5,8 @@ description: The CalcPrivateCommandListSize function determines the size of the 
 ms.assetid: e49f46eb-58ad-4bf8-820a-2e33cfd099fb
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_CALC_PRIVATE_COMMAND_LIST_SIZE_0040"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

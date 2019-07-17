@@ -8,6 +8,8 @@ ms.assetid: 981596AB-0E39-49B3-8586-B2D9C2762D80
 ms.date: 04/23/2018
 ms.keywords: IKsPinPipe interface [Streaming Media Devices],KsGetPinFramingCache method, IKsPinPipe.KsGetPinFramingCache, IKsPinPipe::KsGetPinFramingCache, KsGetPinFramingCache, KsGetPinFramingCache method [Streaming Media Devices], KsGetPinFramingCache method [Streaming Media Devices],IKsPinPipe interface, ksproxy/IKsPinPipe::KsGetPinFramingCache, stream.ikspinpipe_ksgetpinframingcache
 ms.topic: method
+f1_keywords:
+ - "ksproxy/IKsPinPipe.KsGetPinFramingCache"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: Windows

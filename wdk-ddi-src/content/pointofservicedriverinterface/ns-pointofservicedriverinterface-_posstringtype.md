@@ -8,6 +8,8 @@ ms.assetid: 26cf79d7-1df3-40a3-8536-b672f9bf13a8
 ms.date: 02/23/2018
 ms.keywords: PosStringType, PosStringType structure, _PosStringType, pointofservicedriverinterface/PosStringType, pos.posstringtype
 ms.topic: struct
+f1_keywords:
+ - "pointofservicedriverinterface/PosStringType"
 req.header: pointofservicedriverinterface.h
 req.include-header: PointOfServiceDriverInterface.h
 req.target-type: Windows

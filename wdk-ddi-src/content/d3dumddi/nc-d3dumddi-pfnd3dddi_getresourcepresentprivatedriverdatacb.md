@@ -8,6 +8,8 @@ ms.assetid: D4F0F272-60DC-4060-9762-3DB49236CE62
 ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATACB, PFND3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATACB callback, d3dumddi/pfnGetResourcePresentPrivateDriverDataCb, display.pfngetresourcepresentprivatedriverdatacb, pfnGetResourcePresentPrivateDriverDataCb, pfnGetResourcePresentPrivateDriverDataCb callback function [Display Devices]
 ms.topic: callback
+f1_keywords:
+ - "d3dumddi/pfnGetResourcePresentPrivateDriverDataCb"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop

@@ -7,6 +7,8 @@ ms.assetid: 2ff9e226-2981-4670-9164-7138f25528a0
 ms.date: 05/10/2018
 ms.keywords: PFND3D11DDI_STATE_CS_UAV_CB, PFND3D11DDI_STATE_CS_UAV_CB callback, d3d10umddi/pfnStateCsUavCb, d3d11state_functions_2818f407-e0b4-4923-ae5e-43b1450d4a82.xml, display.pfnstatecsuavcb, pfnStateCsUavCb, pfnStateCsUavCb callback function [Display Devices]
 ms.topic: callback
+f1_keywords:
+ - "d3d10umddi/pfnStateCsUavCb"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

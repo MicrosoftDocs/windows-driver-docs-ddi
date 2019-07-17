@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 75774f8a-eeea-4bcd-a15b-2d28a7938e42
 ms.date: 01/30/2019
 ms.topic: function
+f1_keywords:
+ - "checksum/BATTERY_INFORMATION"
 ms.keywords: NetExtensionGetPacketChecksum
 req.header: checksum.h
 req.include-header: netadaptercx.h

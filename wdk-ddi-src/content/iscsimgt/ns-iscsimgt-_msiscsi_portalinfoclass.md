@@ -8,6 +8,8 @@ ms.assetid: 400ff6fc-6eb7-4b3f-afec-7d0b69039ed1
 ms.date: 03/29/2018
 ms.keywords: "*PMSiSCSI_PortalInfoClass, MSiSCSI_PortalInfoClass, MSiSCSI_PortalInfoClass structure [Storage Devices], PMSiSCSI_PortalInfoClass, PMSiSCSI_PortalInfoClass structure pointer [Storage Devices], _MSiSCSI_PortalInfoClass, iscsimgt/MSiSCSI_PortalInfoClass, iscsimgt/PMSiSCSI_PortalInfoClass, storage.msiscsi_portalinfoclass, structs-iSCSI_dec2f67f-5b12-4432-8c64-eef6efeb7e6a.xml"
 ms.topic: struct
+f1_keywords:
+ - "iscsimgt/MSiSCSI_PortalInfoClass"
 req.header: iscsimgt.h
 req.include-header: Iscsimgt.h
 req.target-type: Windows

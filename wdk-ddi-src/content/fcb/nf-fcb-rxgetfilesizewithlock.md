@@ -8,6 +8,8 @@ ms.assetid: f58c2a7a-0782-47a7-84e6-98df541c875d
 ms.date: 04/16/2018
 ms.keywords: RxGetFileSizeWithLock, RxGetFileSizeWithLock function [Installable File System Drivers], fcb/RxGetFileSizeWithLock, ifsk.rxgetfilesizewithlock, rxref_15aee1e0-d82a-45ea-ad0b-e610347c62fe.xml
 ms.topic: function
+f1_keywords:
+ - "fcb/RxGetFileSizeWithLock"
 req.header: fcb.h
 req.include-header: Mrxfcb.h, Fcb.h
 req.target-type: Desktop

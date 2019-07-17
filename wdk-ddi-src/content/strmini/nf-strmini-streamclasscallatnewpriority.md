@@ -8,6 +8,8 @@ ms.assetid: 86c4e9da-7c71-4d79-b8e2-f602489da647
 ms.date: 04/23/2018
 ms.keywords: StreamClassCallAtNewPriority, StreamClassCallAtNewPriority routine [Streaming Media Devices], strclass-routines_6335ceee-08a1-4078-a9ce-aaa15d8158cd.xml, stream.streamclasscallatnewpriority, strmini/StreamClassCallAtNewPriority
 ms.topic: function
+f1_keywords:
+ - "strmini/StreamClassCallAtNewPriority"
 req.header: strmini.h
 req.include-header: Strmini.h
 req.target-type: Desktop

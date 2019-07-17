@@ -7,6 +7,8 @@ ms.assetid: 1bf91677-fa9e-4738-b8ea-efce90a52859
 ms.date: 05/10/2018
 ms.keywords: "*INOUT_PDXGKARG_PRESENT, DXGKARG_PRESENT, DXGKARG_PRESENT structure [Display Devices], DmStructs_cbe9fbba-047c-468e-bb52-0f90c4e2b75c.xml, _DXGKARG_PRESENT, d3dkmddi/DXGKARG_PRESENT, display.dxgkarg_present"
 ms.topic: struct
+f1_keywords:
+ - "d3dkmddi/DXGKARG_PRESENT"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: f9b0cf3f-cbb6-4b44-81c1-b60ae525ec17
 ms.date: 05/10/2018
 ms.keywords: IddCxSwapChainReleaseAndAcquireBuffer, IddCxSwapChainReleaseAndAcquireBuffer method [Display Devices], display.iddcxswapchainreleaseandacquirebuffer, iddcx/IddCxSwapChainReleaseAndAcquireBuffer
 ms.topic: function
+f1_keywords:
+ - "iddcx/IddCxSwapChainReleaseAndAcquireBuffer"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows

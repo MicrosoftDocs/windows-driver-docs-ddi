@@ -8,6 +8,8 @@ ms.assetid: 33890582-5eba-4cc1-a0d9-ec07f18da453
 ms.date: 05/02/2018
 ms.keywords: NdisMSendNetBufferListsComplete, NdisMSendNetBufferListsComplete function [Network Drivers Starting with Windows Vista], ndis/NdisMSendNetBufferListsComplete, ndis_sendrcv_ref_11bdd96b-0ba8-475a-ba6e-03492e2993d7.xml, netvista.ndismsendnetbufferlistscomplete
 ms.topic: function
+f1_keywords:
+ - "ndis/NdisMSendNetBufferListsComplete"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

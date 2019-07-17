@@ -5,6 +5,8 @@ description: DirectX video acceleration input format capabilities.
 ms.assetid: 56871d88-815b-4aa6-90eb-1dfddea7692c
 ms.date: 10/19/2018
 ms.topic: enum
+f1_keywords:
+ - "d3dumddi/_DXVAHDDDI_INPUT_FORMAT_CAPS"
 ms.keywords: _DXVAHDDDI_INPUT_FORMAT_CAPS, DXVAHDDDI_INPUT_FORMAT_CAPS, 
 req.header: d3dumddi.h
 req.include-header:

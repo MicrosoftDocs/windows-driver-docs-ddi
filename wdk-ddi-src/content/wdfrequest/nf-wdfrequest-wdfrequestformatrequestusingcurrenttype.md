@@ -8,6 +8,8 @@ ms.assetid: 51af6f9e-1e38-4af2-9db8-cfad41e2f435
 ms.date: 02/26/2018
 ms.keywords: DFRequestObjectRef_c84fc560-9492-448a-9886-754c2857eba5.xml, WdfRequestFormatRequestUsingCurrentType, WdfRequestFormatRequestUsingCurrentType method, kmdf.wdfrequestformatrequestusingcurrenttype, wdf.wdfrequestformatrequestusingcurrenttype, wdfrequest/WdfRequestFormatRequestUsingCurrentType
 ms.topic: function
+f1_keywords:
+ - "wdfrequest/WdfRequestFormatRequestUsingCurrentType"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal

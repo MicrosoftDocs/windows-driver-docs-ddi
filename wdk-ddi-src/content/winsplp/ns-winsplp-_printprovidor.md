@@ -8,6 +8,8 @@ ms.assetid: c030cb9d-23c0-4d0e-970f-f447e9af7528
 ms.date: 04/03/2019
 ms.keywords: "*LPPRINTPROVIDOR, LPPRINTPROVIDOR, LPPRINTPROVIDOR structure pointer [Print Devices], PRINTPROVIDOR, PRINTPROVIDOR structure [Print Devices], _PRINTPROVIDOR, print.printprovidor, spoolfnc_4fb8242e-e0a0-47e5-b01f-2a20932d4d84.xml, winsplp/LPPRINTPROVIDOR, winsplp/PRINTPROVIDOR"
 ms.topic: struct
+f1_keywords:
+ - "winsplp/PRINTPROVIDOR"
 ms.custom: RS5, 19H1
 req.header: winsplp.h
 req.include-header: Winsplp.h

@@ -8,6 +8,8 @@ ms.assetid: 604be66a-bec7-48db-b038-aaaf78043965
 ms.date: 04/23/2018
 ms.keywords: "*PKSTOPOLOGY_CONNECTION, KSTOPOLOGY_CONNECTION, KSTOPOLOGY_CONNECTION structure [Streaming Media Devices], PCCONNECTION_DESCRIPTOR, PCCONNECTION_DESCRIPTOR structure, PKSTOPOLOGY_CONNECTION, PKSTOPOLOGY_CONNECTION structure pointer [Streaming Media Devices], ks-struct_b688f291-7064-492b-8ab6-5f167941ebbf.xml, ks/KSTOPOLOGY_CONNECTION, ks/PKSTOPOLOGY_CONNECTION, stream.kstopology_connection"
 ms.topic: struct
+f1_keywords:
+ - "ks/KSTOPOLOGY_CONNECTION"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows

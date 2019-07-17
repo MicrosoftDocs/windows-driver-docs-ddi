@@ -8,6 +8,8 @@ ms.assetid: 5cad43c7-00f0-4590-997c-f956afe07e55
 ms.date: 03/29/2018
 ms.keywords: AtaPortGetDeviceBase, AtaPortGetDeviceBase routine [Storage Devices], atartns_94ad1c8e-3a7b-4eeb-97d1-5b57284be6f3.xml, irb/AtaPortGetDeviceBase, storage.ataportgetdevicebase
 ms.topic: function
+f1_keywords:
+ - "irb/AtaPortGetDeviceBase"
 req.header: irb.h
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop

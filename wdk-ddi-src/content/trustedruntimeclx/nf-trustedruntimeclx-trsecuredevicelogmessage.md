@@ -5,6 +5,8 @@ description:
 ms.assetid: 16b1cdbb-3e55-406e-8755-cc5e944ad1cb
 ms.date: 10/19/2018
 ms.topic: function
+f1_keywords:
+ - "trustedruntimeclx/TrSecureDeviceLogMessage"
 ms.keywords: TrSecureDeviceLogMessage
 req.header: trustedruntimeclx.h
 req.include-header:

@@ -8,6 +8,8 @@ ms.assetid: 225da110-cd59-4803-bde8-26e275b3ddbd
 ms.date: 05/10/2018
 ms.keywords: DXVA_VideoProcessCaps, DXVA_VideoProcessCaps enumeration [Display Devices], DXVA_VideoProcess_AlphaBlend, DXVA_VideoProcess_AlphaBlendExtended, DXVA_VideoProcess_None, DXVA_VideoProcess_StretchX, DXVA_VideoProcess_StretchY, DXVA_VideoProcess_SubRects, DXVA_VideoProcess_SubStreams, DXVA_VideoProcess_SubStreamsExtended, DXVA_VideoProcess_YUV2RGB, DXVA_VideoProcess_YUV2RGBExtended, _DXVA_VideoProcessCaps, display.dxva_videoprocesscaps, dxva/DXVA_VideoProcessCaps, dxva/DXVA_VideoProcess_AlphaBlend, dxva/DXVA_VideoProcess_AlphaBlendExtended, dxva/DXVA_VideoProcess_None, dxva/DXVA_VideoProcess_StretchX, dxva/DXVA_VideoProcess_StretchY, dxva/DXVA_VideoProcess_SubRects, dxva/DXVA_VideoProcess_SubStreams, dxva/DXVA_VideoProcess_SubStreamsExtended, dxva/DXVA_VideoProcess_YUV2RGB, dxva/DXVA_VideoProcess_YUV2RGBExtended, dxvaref_4298738a-dc13-47b4-bb3d-84e90661542b.xml
 ms.topic: enum
+f1_keywords:
+ - "dxva/DXVA_VideoProcessCaps"
 req.header: dxva.h
 req.include-header: Dxva.h
 req.target-type: Windows

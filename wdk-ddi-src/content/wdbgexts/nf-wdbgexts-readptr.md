@@ -8,6 +8,8 @@ ms.assetid: e3999ecc-9884-4ae6-8e01-be4538b1d53a
 ms.date: 05/03/2018
 ms.keywords: ReadPtr, ReadPtr function [Windows Debugging], WdbgExts_Ref_4eaec659-6522-4d7f-b64a-ad771f93eb56.xml, debugger.readptr, wdbgexts/ReadPtr
 ms.topic: function
+f1_keywords:
+ - "wdbgexts/ReadPtr"
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop

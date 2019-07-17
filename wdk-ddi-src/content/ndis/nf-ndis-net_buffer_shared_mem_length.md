@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: e6b22dc4-658d-4609-9020-1b0349de13fe
 ms.date: 04/13/2018
 ms.topic: macro
+f1_keywords:
+ - "ndis/NET_BUFFER_SHARED_MEM_LENGTH"
 ms.keywords: NET_BUFFER_SHARED_MEM_LENGTH
 req.header: ndis.h
 req.include-header:

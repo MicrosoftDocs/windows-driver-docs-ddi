@@ -8,6 +8,8 @@ ms.assetid: C4D09CAD-833A-43A0-AC03-EEDE8270EA12
 ms.date: 05/02/2018
 ms.keywords: MINIPORT_WDI_OPEN_ADAPTER, MINIPORT_WDI_OPEN_ADAPTER callback, MiniportWdiOpenAdapter, MiniportWdiOpenAdapter callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiOpenAdapter, netvista.miniportwdiopenadapter
 ms.topic: callback
+f1_keywords:
+ - "dot11wdi/MiniportWdiOpenAdapter"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows

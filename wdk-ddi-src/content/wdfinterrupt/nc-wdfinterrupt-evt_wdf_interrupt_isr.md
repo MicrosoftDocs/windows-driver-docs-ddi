@@ -8,6 +8,8 @@ ms.assetid: 6f28a66a-9c17-4020-bfe2-295c22af6ba7
 ms.date: 02/26/2018
 ms.keywords: DFInterruptObjectRef_0a8902c4-d292-418f-bab3-d7fc36d69fd5.xml, EVT_WDF_INTERRUPT_ISR, EVT_WDF_INTERRUPT_ISR callback, EvtInterruptIsr, EvtInterruptIsr callback function, kmdf.evtinterruptisr, wdf.evtinterruptisr, wdfinterrupt/EvtInterruptIsr
 ms.topic: callback
+f1_keywords:
+ - "wdfinterrupt/EvtInterruptIsr"
 req.header: wdfinterrupt.h
 req.include-header: Wdf.h
 req.target-type: Universal

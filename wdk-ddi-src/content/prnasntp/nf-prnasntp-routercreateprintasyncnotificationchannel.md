@@ -8,6 +8,8 @@ ms.assetid: 11f9a438-861f-42ef-b4f5-f64b0b9d658a
 ms.date: 04/20/2018
 ms.keywords: RouterCreatePrintAsyncNotificationChannel, RouterCreatePrintAsyncNotificationChannel , RouterCreatePrintAsyncNotificationChannel function [Print Devices], print.routercreateprintasyncnotificationchannel, prnasntp/RouterCreatePrintAsyncNotificationChannel, spoolfnc_24cb45ed-2f72-4a13-9a40-c1197c41aae7.xml
 ms.topic: function
+f1_keywords:
+ - "prnasntp/RouterCreatePrintAsyncNotificationChannel"
 req.header: prnasntp.h
 req.include-header: Prnasntp.h
 req.target-type: Desktop

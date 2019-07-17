@@ -6,6 +6,8 @@ ms.assetid: dd820f7c-1250-4af6-85e9-71f96bae27bc
 ms.date: 08/08/2018
 tech.root: sensors
 ms.topic: function
+f1_keywords:
+ - "sensorsutils/SerializationBufferFree"
 ms.keywords: SerializationBufferFree
 req.header: sensorsutils.h
 req.include-header:

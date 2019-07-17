@@ -8,6 +8,8 @@ ms.assetid: 6862B0FD-9A7B-40BF-8123-673EE443DE84
 ms.date: 05/08/2018
 ms.keywords: IOCTL_BTHHFP_DEVICE_GET_KSNODETYPES, IOCTL_BTHHFP_DEVICE_GET_KSNODETYPES control, IOCTL_BTHHFP_DEVICE_GET_KSNODETYPES control code [Audio Devices], audio.ioctl_bthhfp_device_get_ksnodetypes, bthhfpddi/IOCTL_BTHHFP_DEVICE_GET_KSNODETYPES
 ms.topic: ioctl
+f1_keywords:
+ - "bthhfpddi/IOCTL_BTHHFP_DEVICE_GET_KSNODETYPES"
 req.header: bthhfpddi.h
 req.include-header: 
 req.target-type: Windows

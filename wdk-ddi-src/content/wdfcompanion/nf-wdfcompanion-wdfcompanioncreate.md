@@ -8,6 +8,8 @@ ms.assetid: 78b9eccf-34ef-40ae-b7fc-6fa8400f8c2a
 ms.date: 02/26/2018
 ms.keywords: WdfCompanionCreate, WdfCompanionCreate method, wdf.wdfcompanioncreate, wdfcompanion/WdfCompanionCreate
 ms.topic: function
+f1_keywords:
+ - "wdfcompanion/WdfCompanionCreate"
 req.header: wdfcompanion.h
 req.include-header: 
 req.target-type: Windows

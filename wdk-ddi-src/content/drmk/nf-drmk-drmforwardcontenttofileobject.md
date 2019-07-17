@@ -8,6 +8,8 @@ ms.assetid: 84d81ae3-708d-48ee-99c5-b79f085a9592
 ms.date: 05/08/2018
 ms.keywords: DrmForwardContentToFileObject, DrmForwardContentToFileObject function [Audio Devices], aud-prop2_f0deebf5-ef63-406b-a424-b084e775333c.xml, audio.drmforwardcontenttofileobject, drmk/DrmForwardContentToFileObject
 ms.topic: function
+f1_keywords:
+ - "drmk/DrmForwardContentToFileObject"
 req.header: drmk.h
 req.include-header: Drmk.h
 req.target-type: Universal

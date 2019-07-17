@@ -8,6 +8,8 @@ ms.assetid: 3312e6ca-bf2c-4a53-bd86-d36d708ed596
 ms.date: 02/26/2018
 ms.keywords: DFIOTargetRef_a3147001-4aa4-4fc2-8000-c6b1fcc4e972.xml, WdfIoTargetWdmGetTargetFileHandle, WdfIoTargetWdmGetTargetFileHandle method, kmdf.wdfiotargetwdmgettargetfilehandle, wdf.wdfiotargetwdmgettargetfilehandle, wdfiotarget/WdfIoTargetWdmGetTargetFileHandle
 ms.topic: function
+f1_keywords:
+ - "wdfiotarget/WdfIoTargetWdmGetTargetFileHandle"
 req.header: wdfiotarget.h
 req.include-header: Wdf.h
 req.target-type: Universal

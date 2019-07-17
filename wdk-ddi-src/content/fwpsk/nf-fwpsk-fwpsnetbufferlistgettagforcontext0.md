@@ -8,6 +8,8 @@ ms.assetid: f4b9b6ab-2251-4b8a-baf5-16c845a1a4db
 ms.date: 05/02/2018
 ms.keywords: FwpsNetBufferListGetTagForContext0, FwpsNetBufferListGetTagForContext0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsNetBufferListGetTagForContext0, netvista.fwpsnetbufferlistgettagforcontext0, wfp_ref_2_funct_3_fwps_J-Q_f81dda7b-70fb-42ae-8641-c9bb2a9e7982.xml
 ms.topic: function
+f1_keywords:
+ - "fwpsk/FwpsNetBufferListGetTagForContext0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal

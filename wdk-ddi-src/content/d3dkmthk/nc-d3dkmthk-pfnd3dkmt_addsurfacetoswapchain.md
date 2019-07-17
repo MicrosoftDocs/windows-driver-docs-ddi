@@ -5,6 +5,8 @@ description: Implemented by the client driver to add a surface to the swapchain.
 ms.assetid: cad91f7c-de5e-4432-9bb6-0e9b6f5f8902
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/PFND3DKMT_ADDSURFACETOSWAPCHAIN"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

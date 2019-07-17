@@ -8,6 +8,8 @@ ms.assetid: 140a92a8-4b82-47d0-855c-6bc1f9a3d167
 ms.date: 05/10/2018
 ms.keywords: DXGI_DDI_ARG_QUERYRESOURCERESIDENCY, DXGI_DDI_ARG_QUERYRESOURCERESIDENCY structure [Display Devices], UMDisplayDriver_Dx10param_Structs_c6e97d75-9ef8-4ae5-9b1f-c4a25234b906.xml, display.dxgi_ddi_arg_queryresourceresidency, dxgiddi/DXGI_DDI_ARG_QUERYRESOURCERESIDENCY
 ms.topic: struct
+f1_keywords:
+ - "dxgiddi/DXGI_DDI_ARG_QUERYRESOURCERESIDENCY"
 req.header: dxgiddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows

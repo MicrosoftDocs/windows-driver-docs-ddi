@@ -8,6 +8,8 @@ ms.assetid: 83e7d4be-df76-4dc8-a8e2-91d279127ef1
 ms.date: 04/30/2018
 ms.keywords: MmSizeOfMdl, MmSizeOfMdl routine [Kernel-Mode Driver Architecture], k106_7cddc848-8b01-4a6a-b5b1-977f2386fc21.xml, kernel.mmsizeofmdl, wdm/MmSizeOfMdl
 ms.topic: function
+f1_keywords:
+ - "wdm/MmSizeOfMdl"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

@@ -8,6 +8,8 @@ ms.assetid: 579462C6-2C0B-41AC-836D-2D3448080AD8
 ms.date: 02/15/2018
 ms.keywords: GPIO.ioctl_gpio_write_pins, IOCTL_GPIO_WRITE_PINS, IOCTL_GPIO_WRITE_PINS control, IOCTL_GPIO_WRITE_PINS control code [Parallel Ports], gpio/IOCTL_GPIO_WRITE_PINS
 ms.topic: ioctl
+f1_keywords:
+ - "gpio/IOCTL_GPIO_WRITE_PINS"
 req.header: gpio.h
 req.include-header: 
 req.target-type: Windows

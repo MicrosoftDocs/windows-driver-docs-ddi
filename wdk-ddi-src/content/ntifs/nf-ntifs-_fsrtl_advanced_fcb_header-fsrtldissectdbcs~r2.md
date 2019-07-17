@@ -8,6 +8,8 @@ ms.assetid: c5c400af-9e59-4cf0-b66f-985fcdcbc75c
 ms.date: 03/29/2018
 ms.keywords: FsRtlDissectDbcs, FsRtlDissectDbcs routine [Installable File System Drivers], fsrtlref_95d6ca19-1a11-4fc9-85a5-ea3cf307d2d0.xml, ifsk.fsrtldissectdbcs, ntifs/FsRtlDissectDbcs
 ms.topic: function
+f1_keywords:
+ - "ntifs/FsRtlDissectDbcs"
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal

@@ -8,6 +8,8 @@ ms.assetid: 586688EC-51B1-488E-BFC6-7796C37593BF
 ms.date: 04/30/2018
 ms.keywords: PsSetCreateThreadNotifyRoutineEx, PsSetCreateThreadNotifyRoutineEx routine [Kernel-Mode Driver Architecture], kernel.pssetcreatethreadnotifyroutineex, ntddk/PsSetCreateThreadNotifyRoutineEx
 ms.topic: function
+f1_keywords:
+ - "ntddk/PsSetCreateThreadNotifyRoutineEx"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal

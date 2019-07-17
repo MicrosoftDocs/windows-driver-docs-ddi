@@ -8,6 +8,8 @@ ms.assetid: 3210b28b-cbaa-4ad9-9ca8-3b5f03aee41e
 ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectFdoPdoRef_89ca471c-ee81-4799-9b58-410aedd12f87.xml, EVT_WDF_DEVICE_RESOURCES_QUERY, EVT_WDF_DEVICE_RESOURCES_QUERY callback, EvtDeviceResourcesQuery, EvtDeviceResourcesQuery callback function, kmdf.evtdeviceresourcesquery, wdf.evtdeviceresourcesquery, wdfpdo/EvtDeviceResourcesQuery
 ms.topic: callback
+f1_keywords:
+ - "wdfpdo/EvtDeviceResourcesQuery"
 req.header: wdfpdo.h
 req.include-header: Wdf.h
 req.target-type: Universal

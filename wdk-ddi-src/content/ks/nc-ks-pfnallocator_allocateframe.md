@@ -8,6 +8,8 @@ ms.assetid: 1b6eec23-82b4-4e8f-89d0-e76d6449906e
 ms.date: 04/23/2018
 ms.keywords: KStrAllocateFrame, KStrAllocateFrame routine [Streaming Media Devices], PFNALLOCATOR_ALLOCATEFRAME, ks/KStrAllocateFrame, ksfunc_a90af96e-53df-43f5-b847-ba1876b788fd.xml, stream.kstrallocateframe
 ms.topic: callback
+f1_keywords:
+ - "ks/KStrAllocateFrame"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop

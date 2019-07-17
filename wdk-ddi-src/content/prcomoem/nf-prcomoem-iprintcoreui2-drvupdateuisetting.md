@@ -8,6 +8,8 @@ ms.assetid: 64cbb304-51f6-4db4-93cb-a64ea5e03599
 ms.date: 04/20/2018
 ms.keywords: DrvUpdateUISetting, DrvUpdateUISetting method [Print Devices], DrvUpdateUISetting method [Print Devices],IPrintCoreUI2 interface, IPrintCoreUI2 interface [Print Devices],DrvUpdateUISetting method, IPrintCoreUI2.DrvUpdateUISetting, IPrintCoreUI2::DrvUpdateUISetting, prcomoem/IPrintCoreUI2::DrvUpdateUISetting, print.iprintcoreui2_drvupdateuisetting, print_unidrv-pscript_ui_47ba2d93-a51d-4140-8932-9c4caee1ca21.xml
 ms.topic: method
+f1_keywords:
+ - "prcomoem/IPrintCoreUI2.DrvUpdateUISetting"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop

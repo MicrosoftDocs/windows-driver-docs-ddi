@@ -5,6 +5,8 @@ description: Implemented by the client driver to allocate physical memory pages 
 ms.assetid: fcfd09f8-109f-4123-9090-dc4ca89a6513
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmddi/DXGKCB_ALLOCATEPAGESFORMDL"
 req.header: d3dkmddi.h
 req.include-header:
 req.target-type:

@@ -8,6 +8,8 @@ ms.assetid: 1A1E2644-7411-4D69-8D45-B19D707221AB
 ms.date: 05/10/2018
 ms.keywords: DXGI_DDI_ARG_PRESENTSURFACE, DXGI_DDI_ARG_PRESENTSURFACE structure [Display Devices], display.dxgi_ddi_arg_presentsurface, dxgiddi/DXGI_DDI_ARG_PRESENTSURFACE
 ms.topic: struct
+f1_keywords:
+ - "dxgiddi/DXGI_DDI_ARG_PRESENTSURFACE"
 req.header: dxgiddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows

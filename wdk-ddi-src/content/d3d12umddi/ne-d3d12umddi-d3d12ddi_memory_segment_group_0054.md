@@ -8,6 +8,8 @@ ms.assetid: 39ab502e-f391-4ed4-be4d-711fa3a9adcd
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
 ms.topic: enum
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_MEMORY_SEGMENT_GROUP_0054"
 ms.keywords: D3D12DDI_MEMORY_SEGMENT_GROUP_0054, D3D12DDI_MEMORY_SEGMENT_GROUP_0054, 
 ms.prod: windows-hardware
 ms.technology: windows-devices

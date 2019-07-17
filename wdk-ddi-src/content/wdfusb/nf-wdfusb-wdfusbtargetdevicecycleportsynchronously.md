@@ -8,6 +8,8 @@ ms.assetid: 8dee089c-1f1a-4090-8c43-8362bb684139
 ms.date: 02/26/2018
 ms.keywords: DFUsbRef_9ef45eea-9dd8-4423-add8-0906374ff620.xml, WdfUsbTargetDeviceCyclePortSynchronously, WdfUsbTargetDeviceCyclePortSynchronously method, kmdf.wdfusbtargetdevicecycleportsynchronously, wdf.wdfusbtargetdevicecycleportsynchronously, wdfusb/WdfUsbTargetDeviceCyclePortSynchronously
 ms.topic: function
+f1_keywords:
+ - "wdfusb/WdfUsbTargetDeviceCyclePortSynchronously"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal

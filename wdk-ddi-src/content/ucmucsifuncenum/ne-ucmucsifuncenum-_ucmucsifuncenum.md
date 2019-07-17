@@ -6,6 +6,8 @@ description: Defines values for all export functions called by a client driver o
 ms.assetid: 52d0d6bb-f1e5-4033-a329-49f424623f72
 ms.date: 10/19/2018
 ms.topic: enum
+f1_keywords:
+ - "ucmucsifuncenum/_UCMUCSIFUNCENUM"
 ms.keywords: _UCMUCSIFUNCENUM, UCMUCSIFUNCENUM, 
 req.header: ucmucsifuncenum.h
 req.include-header: UcmUcsiCx.h

@@ -8,6 +8,8 @@ ms.assetid: b6ab28e1-08d5-49ee-931a-8e2fe68bd75e
 ms.date: 02/26/2018
 ms.keywords: IPnpCallback, IPnpCallback interface, IPnpCallback interface,described, UMDFDeviceObjectRef_1e101e13-802b-4196-a76c-ed4103d6fbe3.xml, umdf.ipnpcallback, wdf.ipnpcallback, wudfddi/IPnpCallback
 ms.topic: interface
+f1_keywords:
+ - "wudfddi/IPnpCallback"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Windows

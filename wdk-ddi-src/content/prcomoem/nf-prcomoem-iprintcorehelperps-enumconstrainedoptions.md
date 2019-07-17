@@ -8,6 +8,8 @@ ms.assetid: 106119cd-80ed-4d26-a7c1-fda5a49b080c
 ms.date: 04/20/2018
 ms.keywords: EnumConstrainedOptions, EnumConstrainedOptions method [Print Devices], EnumConstrainedOptions method [Print Devices],IPrintCoreHelperPS interface, IPrintCoreHelperPS interface [Print Devices],EnumConstrainedOptions method, IPrintCoreHelperPS.EnumConstrainedOptions, IPrintCoreHelperPS::EnumConstrainedOptions, prcomoem/IPrintCoreHelperPS::EnumConstrainedOptions, print.iprintcorehelperps_enumconstrainedoptions, print_unidrv-pscript_allplugins_28f1a9b6-ab12-4cdc-8682-b411cc920996.xml
 ms.topic: method
+f1_keywords:
+ - "prcomoem/IPrintCoreHelperPS.EnumConstrainedOptions"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop

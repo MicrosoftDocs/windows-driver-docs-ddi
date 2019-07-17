@@ -8,6 +8,8 @@ ms.assetid: 304C8AF5-EA4E-4401-A8EC-6E1B279038E8
 ms.date: 04/20/2018
 ms.keywords: IPrinterExtensionContext interface [Print Devices],PrinterQueue property, IPrinterExtensionContext.PrinterQueue, IPrinterExtensionContext.get_PrinterQueue, IPrinterExtensionContext::PrinterQueue, IPrinterExtensionContext::get_PrinterQueue, PrinterQueue property [Print Devices], PrinterQueue property [Print Devices],IPrinterExtensionContext interface, get_PrinterQueue, print.iprinterextensioncontext_printerqueue, printerextension/IPrinterExtensionContext::PrinterQueue, printerextension/IPrinterExtensionContext::get_PrinterQueue
 ms.topic: method
+f1_keywords:
+ - "printerextension/IPrinterExtensionContext.PrinterQueue"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows

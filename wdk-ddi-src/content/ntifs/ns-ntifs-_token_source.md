@@ -8,6 +8,8 @@ ms.assetid: 0820f6f2-bec2-4d38-9a95-cfff6151ef02
 ms.date: 04/16/2018
 ms.keywords: "*PTOKEN_SOURCE, PTOKEN_SOURCE, PTOKEN_SOURCE structure pointer [Installable File System Drivers], TOKEN_SOURCE, TOKEN_SOURCE structure [Installable File System Drivers], _TOKEN_SOURCE, ifsk.token_source, ntifs/PTOKEN_SOURCE, ntifs/TOKEN_SOURCE, securitystructures_caf23dc4-0bfe-40e1-9b94-b58bb0eb893e.xml"
 ms.topic: struct
+f1_keywords:
+ - "ntifs/TOKEN_SOURCE"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows

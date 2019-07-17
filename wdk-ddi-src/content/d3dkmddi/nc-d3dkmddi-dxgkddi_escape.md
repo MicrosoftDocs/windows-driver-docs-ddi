@@ -7,6 +7,8 @@ ms.assetid: 79a524cd-dec1-4ea8-a660-d9d9c644e162
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_ESCAPE, DXGKDDI_ESCAPE callback, DmFunctions_41056daa-dfeb-4ba3-b453-b8d5dd94e8a3.xml, DxgkDdiEscape, DxgkDdiEscape callback function [Display Devices], d3dkmddi/DxgkDdiEscape, display.dxgkddiescape
 ms.topic: callback
+f1_keywords:
+ - "d3dkmddi/DxgkDdiEscape"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Desktop

@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: b3f8ea58-f66e-4e5d-bd2c-4dcedca81d95
 ms.date: 05/22/2018
 ms.topic: enum
+f1_keywords:
+ - "ntddndis/_NDIS_RFC6877_464XLAT_OFFLOAD_OPTIONS"
 ms.keywords: _NDIS_RFC6877_464XLAT_OFFLOAD_OPTIONS, NDIS_RFC6877_464XLAT_OFFLOAD_OPTIONS, 
 req.header: ntddndis.h
 req.include-header: ndis.h

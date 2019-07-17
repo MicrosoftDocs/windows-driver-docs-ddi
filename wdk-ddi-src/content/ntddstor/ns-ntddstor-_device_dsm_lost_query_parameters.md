@@ -6,6 +6,8 @@ tech.root: storage
 ms.assetid: 202e9749-20af-409f-93d6-52ad52fa9b49
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "ntddstor/_DEVICE_DSM_LOST_QUERY_PARAMETERS"
 ms.keywords: _DEVICE_DSM_LOST_QUERY_PARAMETERS, DEVICE_DSM_LOST_QUERY_PARAMETERS, *PDEVICE_DSM_LOST_QUERY_PARAMETERS, 
 req.header: ntddstor.h
 req.include-header:

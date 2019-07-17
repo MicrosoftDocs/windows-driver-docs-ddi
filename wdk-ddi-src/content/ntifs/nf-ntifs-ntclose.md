@@ -8,6 +8,8 @@ ms.assetid: 35f335db-416b-4a17-b84c-d440b34ed199
 ms.date: 04/30/2018
 ms.keywords: NtClose, ZwClose, ZwClose routine [Kernel-Mode Driver Architecture], k111_6311836b-aa48-46f1-a64b-d94d5bb95f16.xml, kernel.zwclose, wdm/NtClose, wdm/ZwClose
 ms.topic: function
+f1_keywords:
+ - "ntifs/ZwClose"
 req.header: ntifs.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

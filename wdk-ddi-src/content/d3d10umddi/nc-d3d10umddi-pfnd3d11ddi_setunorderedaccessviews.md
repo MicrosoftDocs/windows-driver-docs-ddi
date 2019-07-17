@@ -7,6 +7,8 @@ ms.assetid: ab8c529b-19e2-4a2a-af68-0e3998829788
 ms.date: 05/10/2018
 ms.keywords: CsSetUnorderedAccessViews, CsSetUnorderedAccessViews callback function [Display Devices], PFND3D11DDI_SETUNORDEREDACCESSVIEWS, PFND3D11DDI_SETUNORDEREDACCESSVIEWS callback, UserModeDisplayDriverDx11_Functions_2e3d1f2b-5113-4cbe-afa8-11f4caf88859.xml, d3d10umddi/CsSetUnorderedAccessViews, display.cssetunorderedaccessviews
 ms.topic: callback
+f1_keywords:
+ - "d3d10umddi/CsSetUnorderedAccessViews"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

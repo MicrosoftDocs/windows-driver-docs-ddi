@@ -8,6 +8,8 @@ ms.assetid: caed780c-06a1-4697-b102-bffb134ecf84
 ms.date: 05/10/2018
 ms.keywords: D3dContextDestroy, D3dContextDestroy callback function [Display Devices], LPD3DHAL_CONTEXTDESTROYCB, LPD3DHAL_CONTEXTDESTROYCB callback, d3dfncs_95c72dbe-9292-4501-ae28-f76316ce01e5.xml, d3dhal/D3dContextDestroy, display.d3dcontextdestroy
 ms.topic: callback
+f1_keywords:
+ - "d3dhal/D3dContextDestroy"
 req.header: d3dhal.h
 req.include-header: D3dhal.h
 req.target-type: Desktop

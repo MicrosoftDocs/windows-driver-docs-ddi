@@ -8,6 +8,8 @@ ms.assetid: 3A9CF1BD-77F1-4F4C-AEB5-0E77B67C45D3
 ms.date: 02/26/2018
 ms.keywords: WdfIoQueueStopAndPurge, WdfIoQueueStopAndPurge method, kmdf.wdfioqueuestopandpurge, wdf.wdfioqueuestopandpurge, wdfio/WdfIoQueueStopAndPurge
 ms.topic: function
+f1_keywords:
+ - "wdfio/WdfIoQueueStopAndPurge"
 req.header: wdfio.h
 req.include-header: Wdf.h
 req.target-type: Universal

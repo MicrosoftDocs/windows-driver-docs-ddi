@@ -8,6 +8,8 @@ ms.assetid: 57d019b0-7914-42f6-a888-16042aa97444
 ms.date: 03/29/2018
 ms.keywords: PSTORAGE_DESCRIPTOR_HEADER, PSTORAGE_DESCRIPTOR_HEADER structure pointer [Storage Devices], STORAGE_DESCRIPTOR_HEADER, STORAGE_DESCRIPTOR_HEADER structure [Storage Devices], _STORAGE_DESCRIPTOR_HEADER, ntddstor/PSTORAGE_DESCRIPTOR_HEADER, ntddstor/STORAGE_DESCRIPTOR_HEADER, storage.storage_descriptor_header, structs-general_9ba3bf25-17dc-41e1-9b3e-971d2ddd4780.xml
 ms.topic: struct
+f1_keywords:
+ - "ntddstor/STORAGE_DESCRIPTOR_HEADER"
 req.header: ntddstor.h
 req.include-header: Ntddstor.h
 req.target-type: Windows

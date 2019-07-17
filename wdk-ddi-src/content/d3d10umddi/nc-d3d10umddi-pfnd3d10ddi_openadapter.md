@@ -7,6 +7,8 @@ ms.assetid: 50c10021-2bad-4e3c-99cc-24cf31fbc95d
 ms.date: 05/10/2018
 ms.keywords: OpenAdapter10, OpenAdapter10 callback function [Display Devices], PFND3D10DDI_OPENADAPTER, PFND3D10DDI_OPENADAPTER callback, UserModeDisplayDriverDx10_Functions_686164e4-0e8b-40ab-8095-cdc3efb34866.xml, d3d10umddi/OpenAdapter10, display.openadapter10
 ms.topic: callback
+f1_keywords:
+ - "d3d10umddi/OpenAdapter10"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Universal

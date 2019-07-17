@@ -8,6 +8,8 @@ ms.assetid: c7f70139-1a23-4dee-a34e-6b8313cf8e23
 ms.date: 04/04/2018
 ms.keywords: Count property [Windows Device Testing Framework], Count property [Windows Device Testing Framework],IWDTFTargets2 interface, IWDTFTargets2 interface [Windows Device Testing Framework],Count property, IWDTFTargets2.Count, IWDTFTargets2.get_Count, IWDTFTargets2::Count, IWDTFTargets2::get_Count, Microsoft.WDTF.IWDTFTargets2.Count, Microsoft::WDTF::IWDTFTargets2::Count, dtf.iwdtftargets2_count, get_Count, wdtf/IWDTFTargets2::Count, wdtf/IWDTFTargets2::get_Count
 ms.topic: method
+f1_keywords:
+ - "wdtf/IWDTFTargets2.Count"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Windows

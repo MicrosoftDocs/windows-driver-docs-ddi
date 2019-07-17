@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 92d4e786-7fac-43c2-910a-1c7c5873855f
 ms.date: 01/24/2019
 ms.topic: callback
+f1_keywords:
+ - "netpacketqueue/EVT_PACKET_QUEUE_CANCEL"
 req.header: netpacketqueue.h
 req.include-header:
 req.target-type: Universal

@@ -8,6 +8,8 @@ ms.assetid: C1B7EE25-B95B-4EAA-8826-269099352FDF
 ms.date: 04/20/2018
 ms.keywords: IPrintAsyncNotifyRegistration interface [Print Devices],UnregisterForNotifications method, IPrintAsyncNotifyRegistration.UnregisterForNotifications, IPrintAsyncNotifyRegistration::UnregisterForNotifications, UnregisterForNotifications, UnregisterForNotifications method [Print Devices], UnregisterForNotifications method [Print Devices],IPrintAsyncNotifyRegistration interface, print.iprintasyncnotifyregistration_unregisterfornotifications, prnasntp/IPrintAsyncNotifyRegistration::UnregisterForNotifications
 ms.topic: method
+f1_keywords:
+ - "prnasntp/IPrintAsyncNotifyRegistration.UnregisterForNotifications"
 req.header: prnasntp.h
 req.include-header: 
 req.target-type: Windows

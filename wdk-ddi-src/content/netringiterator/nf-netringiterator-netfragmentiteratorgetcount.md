@@ -8,6 +8,8 @@ ms.assetid: 3be60cc3-78a8-4c97-91c7-796868da6465
 ms.author: windowsdriverdev
 ms.date: 02/04/2019
 ms.topic: function
+f1_keywords:
+ - "netringiterator/NetFragmentIteratorGetCount"
 ms.keywords: NetFragmentIteratorGetCount
 req.header: netringiterator.h
 req.include-header:

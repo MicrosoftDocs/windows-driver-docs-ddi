@@ -8,6 +8,8 @@ ms.assetid: 8cd2d7ae-ebbe-41c6-8773-7a517bc6f714
 ms.date: 04/30/2018
 ms.keywords: ObDereferenceObject, ObDereferenceObject routine [Kernel-Mode Driver Architecture], k107_bc67abd9-66b2-4cd7-81c0-48ad0fa6c87d.xml, kernel.obdereferenceobject, wdm/ObDereferenceObject
 ms.topic: macro
+f1_keywords:
+ - "wdm/ObDereferenceObject"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Fltkernel.h
 req.target-type: Universal

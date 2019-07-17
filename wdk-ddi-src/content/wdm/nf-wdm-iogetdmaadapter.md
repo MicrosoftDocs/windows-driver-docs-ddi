@@ -8,6 +8,8 @@ ms.assetid: fa108ef4-54b8-4c6a-9d77-25e6b9e2c09d
 ms.date: 04/30/2018
 ms.keywords: IoGetDmaAdapter, IoGetDmaAdapter routine [Kernel-Mode Driver Architecture], k104_36398d16-2a22-4a85-a260-265aa9c54bbd.xml, kernel.iogetdmaadapter, wdm/IoGetDmaAdapter
 ms.topic: function
+f1_keywords:
+ - "wdm/IoGetDmaAdapter"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

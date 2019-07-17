@@ -8,6 +8,8 @@ ms.assetid: d7f2d3c0-f2c9-4624-b3e1-9fbbf64c7186
 ms.date: 05/02/2018
 ms.keywords: FwpsAllocateNetBufferAndNetBufferList0, FwpsAllocateNetBufferAndNetBufferList0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsAllocateNetBufferAndNetBufferList0, netvista.fwpsallocatenetbufferandnetbufferlist0, wfp_ref_2_funct_3_fwps_A-B_9a88a8c9-a5fb-48a9-bc42-ae30de234468.xml
 ms.topic: function
+f1_keywords:
+ - "fwpsk/FwpsAllocateNetBufferAndNetBufferList0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal

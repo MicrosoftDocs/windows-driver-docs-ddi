@@ -7,6 +7,8 @@ ms.assetid: 853c4e73-b571-4b68-8690-bbef7a726c8e
 ms.date: 05/10/2018
 ms.keywords: D3DKMTShareObjects, D3DKMTShareObjects function [Display Devices], d3dkmthk/D3DKMTShareObjects, display.d3dkmtshareobjects
 ms.topic: function
+f1_keywords:
+ - "d3dkmthk/D3DKMTShareObjects"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal

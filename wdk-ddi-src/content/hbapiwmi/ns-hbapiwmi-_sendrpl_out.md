@@ -8,6 +8,8 @@ ms.assetid: 36ca3d6e-7012-4bbb-a2a0-e19708aa1058
 ms.date: 03/29/2018
 ms.keywords: "*PSendRPL_OUT, PSendRPL_OUT, PSendRPL_OUT structure pointer [Storage Devices], SendRPL_OUT, SendRPL_OUT structure [Storage Devices], _SendRPL_OUT, hbapiwmi/PSendRPL_OUT, hbapiwmi/SendRPL_OUT, storage.sendrpl_out, structs-Fibre_aef41c84-1718-4e82-aeae-d0280d6cf3b1.xml"
 ms.topic: struct
+f1_keywords:
+ - "hbapiwmi/SendRPL_OUT"
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h
 req.target-type: Windows

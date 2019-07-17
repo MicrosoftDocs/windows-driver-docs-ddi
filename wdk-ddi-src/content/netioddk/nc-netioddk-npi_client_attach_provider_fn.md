@@ -8,6 +8,8 @@ ms.assetid: 8f8abdb1-d018-4404-a80a-74017c324a0f
 ms.date: 05/02/2018
 ms.keywords: ClientAttachProvider, ClientAttachProvider callback function [Network Drivers Starting with Windows Vista], NPI_CLIENT_ATTACH_PROVIDER_FN, NPI_CLIENT_ATTACH_PROVIDER_FN callback, PNPI_CLIENT_ATTACH_PROVIDER_FN, PNPI_CLIENT_ATTACH_PROVIDER_FN callback function [Network Drivers Starting with Windows Vista], netioddk/ClientAttachProvider, netvista.clientattachprovider, nmrref_36b8ce1f-6570-40a1-b6f9-5d6782aac61d.xml
 ms.topic: callback
+f1_keywords:
+ - "netioddk/PNPI_CLIENT_ATTACH_PROVIDER_FN"
 req.header: netioddk.h
 req.include-header: Wsk.h
 req.target-type: Windows

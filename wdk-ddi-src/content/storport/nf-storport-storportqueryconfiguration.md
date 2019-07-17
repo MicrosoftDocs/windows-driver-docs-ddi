@@ -8,6 +8,8 @@ ms.assetid: f5f37d7a-4171-4273-9076-32d7cce1c508
 ms.author: windowsdriverdev
 ms.date: 03/06/2019
 ms.topic: function
+f1_keywords:
+ - "storport/StorPortQueryConfiguration"
 ms.keywords: StorPortQueryConfiguration
 req.header: storport.h
 req.include-header:

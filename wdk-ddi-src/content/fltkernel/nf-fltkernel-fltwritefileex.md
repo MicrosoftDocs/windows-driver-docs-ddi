@@ -8,6 +8,8 @@ ms.assetid: 18B2B486-5525-4132-96E8-EEA74342E0EA
 ms.date: 04/16/2018
 ms.keywords: FltWriteFileEx, FltWriteFileEx function [Installable File System Drivers], fltkernel/FltWriteFileEx, ifsk.fltwritefileex
 ms.topic: function
+f1_keywords:
+ - "fltkernel/FltWriteFileEx"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

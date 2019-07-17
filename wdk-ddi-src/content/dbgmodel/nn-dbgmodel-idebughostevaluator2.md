@@ -5,6 +5,8 @@ description: The expression evaluator interface to the underlying debugger.
 ms.assetid: 12192b1b-57b6-4a5b-b2a9-2de8e13ea5c3
 ms.date: 06/11/2019
 ms.topic: interface
+f1_keywords:
+ - "dbgmodel/IDebugHostEvaluator2"
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:

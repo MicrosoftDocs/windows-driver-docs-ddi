@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 0978e6f0-945f-4994-955e-6511788a3ec4
 ms.date: 06/29/2018
 ms.topic: function
+f1_keywords:
+ - "mbbcx/MbbRequestComplete"
 ms.keywords: MbbRequestComplete
 req.header: mbbcx.h
 req.include-header:

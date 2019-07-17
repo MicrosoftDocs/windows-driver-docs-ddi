@@ -5,6 +5,8 @@ description:
 ms.assetid: 5f3641ff-b865-4fbf-ad63-f72a552f85c6
 ms.date: 10/19/2018
 ms.topic: macro
+f1_keywords:
+ - "treevariableservice/EFI_SET_VARIABLE_GET_VARIABLE_NAME"
 ms.keywords: EFI_SET_VARIABLE_GET_VARIABLE_NAME
 req.header: treevariableservice.h
 req.include-header:

@@ -7,6 +7,8 @@ ms.assetid: 320618F6-DE98-45D0-8015-DE24689D24D2
 ms.date: 05/10/2018
 ms.keywords: PFND3DWDDM2_0DDI_VIDEOPROCESSORSETOUTPUTSHADERUSAGE, PFND3DWDDM2_0DDI_VIDEOPROCESSORSETOUTPUTSHADERUSAGE callback, d3d10umddi/pfnVideoProcessorSetOutputShaderUsage, display.videoprocessorsetoutputshaderusage, pfnVideoProcessorSetOutputShaderUsage, pfnVideoProcessorSetOutputShaderUsage callback function [Display Devices]
 ms.topic: callback
+f1_keywords:
+ - "d3d10umddi/pfnVideoProcessorSetOutputShaderUsage"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

@@ -8,6 +8,8 @@ ms.assetid: D89713A8-7CE7-4A87-AED7-62ACF7D1BA06
 ms.date: 04/16/2018
 ms.keywords: RtlInitializeGenericTableAvl, RtlInitializeGenericTableAvl routine [Installable File System Drivers], ifsk.rtlinitializegenerictableavl, ntddk/RtlInitializeGenericTableAvl
 ms.topic: function
+f1_keywords:
+ - "ntddk/RtlInitializeGenericTableAvl"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h, Fltkernel.h
 req.target-type: Universal

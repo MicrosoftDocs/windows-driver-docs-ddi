@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 7f4cd2b7-046e-49d9-a834-e77d94ba1dc8
 ms.date: 09/13/2018
 ms.topic: struct
+f1_keywords:
+ - "vmbuskernelmodeclientlibapi/_KMCL_CLIENT_INTERFACE_V1"
 ms.keywords: _KMCL_CLIENT_INTERFACE_V1, KMCL_CLIENT_INTERFACE_V1, *PKMCL_CLIENT_INTERFACE_V1, 
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header:

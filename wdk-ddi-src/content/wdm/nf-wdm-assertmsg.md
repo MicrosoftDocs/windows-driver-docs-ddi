@@ -8,6 +8,8 @@ ms.assetid: 88c0cd30-607b-48f4-b2b6-3c21be1ce31a
 ms.date: 02/23/2018
 ms.keywords: ASSERTMSG, ASSERTMSG function [Driver Development Tools], DebugFns_998b520e-90e6-440f-94d4-55ff0b6e102f.xml, devtest.assertmsg, ntddk/ASSERTMSG
 ms.topic: macro
+f1_keywords:
+ - "wdm/ASSERTMSG"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Desktop

@@ -8,6 +8,8 @@ ms.assetid: 0ba827cf-f3ad-497a-b36a-171be267db39
 ms.author: windowsdriverdev
 ms.date: 03-07-2019
 ms.topic: ioctl
+f1_keywords:
+ - "ntddscsi/IOCTL_MINIPORT_SIGNATURE_ENDURANCE_INFO"
 req.header: ntddscsi.h
 req.include-header:
 req.target-type:

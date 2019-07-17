@@ -6,6 +6,8 @@ tech.root: serports
 ms.assetid: c0c52445-f45a-4032-9fee-af6206d77809
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "uart/UART_RX_READY"
 req.header: uart.h
 req.include-header:
 req.target-type:

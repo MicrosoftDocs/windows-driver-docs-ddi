@@ -8,6 +8,8 @@ ms.assetid: 383ed544-c8c8-42a0-a7de-57f0f4072611
 ms.date: 05/02/2018
 ms.keywords: "*LPRILMSGINSTATUS, RILMSGINSTATUS, RILMSGINSTATUS structure [Network Drivers Starting with Windows Vista], netvista.rilmsginstatus, ntddrilapitypes/RILMSGINSTATUS"
 ms.topic: struct
+f1_keywords:
+ - "ntddrilapitypes/RILMSGINSTATUS"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

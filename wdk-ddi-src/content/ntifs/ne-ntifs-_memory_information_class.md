@@ -8,6 +8,8 @@ ms.assetid: 7E3B531F-935C-41D6-94F7-DB18F82B9109
 ms.date: 04/30/2018
 ms.keywords: MEMORY_INFORMATION_CLASS, MEMORY_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], MemoryBasicInformation, _MEMORY_INFORMATION_CLASS, kernel.memory_information_class, ntifs/MEMORY_INFORMATION_CLASS, ntifs/MemoryBasicInformation
 ms.topic: enum
+f1_keywords:
+ - "ntifs/MEMORY_INFORMATION_CLASS"
 req.header: ntifs.h
 req.include-header: 
 req.target-type: Windows

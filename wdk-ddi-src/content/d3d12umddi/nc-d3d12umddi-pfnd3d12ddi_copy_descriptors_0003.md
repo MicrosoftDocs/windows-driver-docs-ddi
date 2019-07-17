@@ -5,6 +5,8 @@ description: Copy descriptors.
 ms.assetid: 0409bbc2-7e61-4dd0-bfa6-6309565741e6
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_COPY_DESCRIPTORS_0003"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

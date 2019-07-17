@@ -8,6 +8,8 @@ ms.assetid: 903bcdc5-9d42-4067-a054-057edc95ccf7
 ms.date: 05/02/2018
 ms.keywords: MINIPORT_CO_OID_REQUEST, MINIPORT_CO_OID_REQUEST callback, MiniportCoOidRequest, MiniportCoOidRequest callback function [Network Drivers Starting with Windows Vista], condis_request_ref_fff124d4-8671-441b-817f-30b4275dca68.xml, ndis/MiniportCoOidRequest, netvista.miniportcooidrequest
 ms.topic: callback
+f1_keywords:
+ - "ndis/MiniportCoOidRequest"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

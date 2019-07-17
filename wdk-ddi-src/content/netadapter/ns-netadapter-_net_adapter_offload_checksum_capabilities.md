@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: edf69542-3428-4919-ac04-872429a873d8
 ms.date: 01/18/2019
 ms.topic: struct
+f1_keywords:
+ - "netadapter/_NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES"
 ms.keywords: _NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES, NET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES, *PNET_ADAPTER_OFFLOAD_CHECKSUM_CAPABILITIES, 
 req.header: netadapter.h
 req.include-header:

@@ -8,6 +8,8 @@ ms.assetid: 7293940B-A316-43C5-A5E8-6ED70EC6FDF8
 ms.date: 04/16/2018
 ms.keywords: "*PFSCTL_OFFLOAD_WRITE_OUTPUT, FSCTL_OFFLOAD_WRITE_OUTPUT, FSCTL_OFFLOAD_WRITE_OUTPUT structure [Installable File System Drivers], OFFLOAD_READ_FLAG_FILE_TOO_SMALL, PFSCTL_OFFLOAD_WRITE_OUTPUT, PFSCTL_OFFLOAD_WRITE_OUTPUT structure pointer [Installable File System Drivers], _FSCTL_OFFLOAD_WRITE_OUTPUT, ifsk.fsctl_offload_write_output, ntifs/FSCTL_OFFLOAD_WRITE_OUTPUT, ntifs/PFSCTL_OFFLOAD_WRITE_OUTPUT"
 ms.topic: struct
+f1_keywords:
+ - "ntifs/FSCTL_OFFLOAD_WRITE_OUTPUT"
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Windows

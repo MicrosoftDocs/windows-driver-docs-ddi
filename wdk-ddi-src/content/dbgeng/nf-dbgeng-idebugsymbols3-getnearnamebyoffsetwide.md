@@ -8,6 +8,8 @@ ms.assetid: 943a9139-f3b8-468e-9357-26b7b6bfed32
 ms.date: 05/03/2018
 ms.keywords: GetNearNameByOffsetWide, GetNearNameByOffsetWide method [Windows Debugging], GetNearNameByOffsetWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetNearNameByOffsetWide method, IDebugSymbols3.GetNearNameByOffsetWide, IDebugSymbols3::GetNearNameByOffsetWide, dbgeng/IDebugSymbols3::GetNearNameByOffsetWide, debugger.getnearnamebyoffsetwide
 ms.topic: method
+f1_keywords:
+ - "dbgeng/IDebugSymbols3.GetNearNameByOffsetWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

@@ -5,6 +5,8 @@ description: The Populate method is called by the client in order to change or s
 ms.assetid: 87ffd7d9-adea-48bb-a982-22265dbb1f1f
 ms.date: 08/20/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDataModelScript.Populate"
 ms.keywords: IDataModelScript::Populate, Populate, IDataModelScript.Populate, IDataModelScript::Populate, IDataModelScript.Populate
 req.header: dbgmodel.h
 req.include-header:

@@ -8,6 +8,8 @@ ms.assetid: 333b1b11-cc6e-4546-9638-e5dcb4c2607c
 ms.date: 04/29/2019
 ms.keywords: KS_TUNER_STRATEGY, KS_TUNER_STRATEGY enumeration [Streaming Media Devices], KS_TUNER_STRATEGY_DRIVER_TUNES, KS_TUNER_STRATEGY_PLL, KS_TUNER_STRATEGY_SIGNAL_STRENGTH, ksmedia/KS_TUNER_STRATEGY, ksmedia/KS_TUNER_STRATEGY_DRIVER_TUNES, ksmedia/KS_TUNER_STRATEGY_PLL, ksmedia/KS_TUNER_STRATEGY_SIGNAL_STRENGTH, stream.ks_tuner_strategy, vidcapstruct_99c03903-7b57-44ea-8c11-a3017931dfca.xml
 ms.topic: enum
+f1_keywords:
+ - "ksmedia/KS_TUNER_STRATEGY"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows

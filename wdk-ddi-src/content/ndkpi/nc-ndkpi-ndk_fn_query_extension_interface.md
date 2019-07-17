@@ -8,6 +8,8 @@ ms.assetid: 439C990E-6978-4D0F-8453-6EB2FED1DB77
 ms.date: 05/02/2018
 ms.keywords: NDK_FN_QUERY_EXTENSION_INTERFACE, NDK_FN_QUERY_EXTENSION_INTERFACE callback, NdkQqueryExtensionInterface, NdkQqueryExtensionInterface callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkQqueryExtensionInterface, netvista.ndk_fn_query_extension_interface
 ms.topic: callback
+f1_keywords:
+ - "ndkpi/NdkQqueryExtensionInterface"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows

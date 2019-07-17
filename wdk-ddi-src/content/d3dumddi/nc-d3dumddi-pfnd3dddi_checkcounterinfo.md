@@ -8,6 +8,8 @@ ms.assetid: 98B8EE79-18D2-4C57-964B-74DB550C1330
 ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_CHECKCOUNTERINFO, PFND3DDDI_CHECKCOUNTERINFO callback, d3dumddi/pfnCheckCounterInfo, display.pfncheckcounterinfo, pfnCheckCounterInfo, pfnCheckCounterInfo callback function [Display Devices]
 ms.topic: callback
+f1_keywords:
+ - "d3dumddi/pfnCheckCounterInfo"
 req.header: d3dumddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

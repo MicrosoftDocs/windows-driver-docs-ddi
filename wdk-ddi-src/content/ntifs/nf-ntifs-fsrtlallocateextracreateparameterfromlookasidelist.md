@@ -8,6 +8,8 @@ ms.assetid: 6dd1aa9d-58e6-484b-b372-4c1d9f6d04f3
 ms.date: 04/16/2018
 ms.keywords: FsRtlAllocateExtraCreateParameterFromLookasideList, FsRtlAllocateExtraCreateParameterFromLookasideList routine [Installable File System Drivers], fsrtlref_c85ee3ff-e71f-4c6e-bc37-4187cad9855f.xml, ifsk.fsrtlallocateextracreateparameterfromlookasidelist, ntifs/FsRtlAllocateExtraCreateParameterFromLookasideList
 ms.topic: function
+f1_keywords:
+ - "ntifs/FsRtlAllocateExtraCreateParameterFromLookasideList"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

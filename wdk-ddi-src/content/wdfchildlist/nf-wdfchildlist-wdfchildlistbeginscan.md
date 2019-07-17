@@ -8,6 +8,8 @@ ms.assetid: 08951cde-d9d2-4de6-bb63-7c3e7cf1f92f
 ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectChildListRef_b503df87-d0b1-472d-9981-4896fe81f7d8.xml, WdfChildListBeginScan, WdfChildListBeginScan method, kmdf.wdfchildlistbeginscan, wdf.wdfchildlistbeginscan, wdfchildlist/WdfChildListBeginScan
 ms.topic: function
+f1_keywords:
+ - "wdfchildlist/WdfChildListBeginScan"
 req.header: wdfchildlist.h
 req.include-header: Wdf.h
 req.target-type: Universal

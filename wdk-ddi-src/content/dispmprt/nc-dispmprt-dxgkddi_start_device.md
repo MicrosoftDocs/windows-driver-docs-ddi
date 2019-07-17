@@ -8,6 +8,8 @@ ms.assetid: ffacbb39-2581-4207-841d-28ce57fbc64d
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_START_DEVICE, DXGKDDI_START_DEVICE callback, DmFunctions_3b4ea5b7-9ccb-408f-9f37-693965ee99cf.xml, DxgkDdiStartDevice, DxgkDdiStartDevice callback function [Display Devices], display.dxgkddistartdevice, dispmprt/DxgkDdiStartDevice
 ms.topic: callback
+f1_keywords:
+ - "dispmprt/DxgkDdiStartDevice"
 req.header: dispmprt.h
 req.include-header: 
 req.target-type: Desktop

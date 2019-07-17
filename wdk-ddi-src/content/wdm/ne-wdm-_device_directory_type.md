@@ -5,6 +5,8 @@ description: The directory from which the driver is loaded.
 ms.assetid: d49e913a-dadb-4669-b3a4-e08a60b2a767
 ms.date: 10/19/2018
 ms.topic: enum
+f1_keywords:
+ - "wdm/_DEVICE_DIRECTORY_TYPE"
 ms.keywords: _DEVICE_DIRECTORY_TYPE, DEVICE_DIRECTORY_TYPE, *PDEVICE_DIRECTORY_TYPE, 
 req.header: wdm.h
 req.include-header:

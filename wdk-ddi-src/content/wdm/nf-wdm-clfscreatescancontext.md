@@ -8,6 +8,8 @@ ms.assetid: f3392e43-8463-4d21-9206-34d09f3c7f59
 ms.date: 04/30/2018
 ms.keywords: ClfsCreateScanContext, ClfsCreateScanContext routine [Kernel-Mode Driver Architecture], Clfs_475944a4-914e-4532-a066-ee7ff9109756.xml, kernel.clfscreatescancontext, wdm/ClfsCreateScanContext
 ms.topic: function
+f1_keywords:
+ - "wdm/ClfsCreateScanContext"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop

@@ -8,6 +8,8 @@ ms.assetid: 475e352a-b6ea-4e37-ad46-e94284caa105
 ms.date: 04/16/2018
 ms.keywords: KeRemoveQueue, KeRemoveQueue routine [Installable File System Drivers], ifsk.keremovequeue, keref_99014b0b-5ca1-4cda-8422-fc3819f42d8b.xml, ntifs/KeRemoveQueue
 ms.topic: function
+f1_keywords:
+ - "ntifs/KeRemoveQueue"
 req.header: ntifs.h
 req.include-header: Ntifs.h, FltKernel.h
 req.target-type: Universal

@@ -8,6 +8,8 @@ ms.assetid: 068232d3-b160-4090-b72c-63d9a31c1567
 ms.date: 05/02/2018
 ms.keywords: NdisMUnmapIoSpace, NdisMUnmapIoSpace function [Network Drivers Starting with Windows Vista], miniport_memory_mapped_ref_b10c4068-0218-4349-8d87-5a9d9a32aac7.xml, ndis/NdisMUnmapIoSpace, netvista.ndismunmapiospace
 ms.topic: function
+f1_keywords:
+ - "ndis/NdisMUnmapIoSpace"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

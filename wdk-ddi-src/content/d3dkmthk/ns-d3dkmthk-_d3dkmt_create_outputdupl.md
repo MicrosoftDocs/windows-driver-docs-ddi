@@ -5,6 +5,8 @@ description: Reserved for system use. Do not use in your driver.
 ms.assetid: c3d26e7c-7d05-4965-a725-8a9269c80a7c
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/_D3DKMT_CREATE_OUTPUTDUPL"
 ms.keywords: _D3DKMT_CREATE_OUTPUTDUPL, D3DKMT_CREATE_OUTPUTDUPL, 
 req.header: d3dkmthk.h
 req.include-header:

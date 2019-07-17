@@ -8,6 +8,8 @@ ms.assetid: 44a5b4dd-c654-4af1-afd6-6e59d2cd1ff8
 ms.date: 02/26/2018
 ms.keywords: DFTimerObjectRef_de3c1624-3004-46e3-b6b4-d47768cd8239.xml, WDF_TIMER_CONFIG_INIT_PERIODIC, WDF_TIMER_CONFIG_INIT_PERIODIC function, kmdf.wdf_timer_config_init_periodic, wdf.wdf_timer_config_init_periodic, wdftimer/WDF_TIMER_CONFIG_INIT_PERIODIC
 ms.topic: function
+f1_keywords:
+ - "wdftimer/WDF_TIMER_CONFIG_INIT_PERIODIC"
 req.header: wdftimer.h
 req.include-header: Wdf.h
 req.target-type: Universal

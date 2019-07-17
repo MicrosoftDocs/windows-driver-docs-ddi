@@ -5,6 +5,8 @@ description: The FindModuleByName method will look through the given host contex
 ms.assetid: 7ff45667-8b89-46a9-8167-d90976dae181
 ms.date: 10/05/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDebugHostSymbols.FindModuleByName"
 ms.keywords: IDebugHostSymbols::FindModuleByName, FindModuleByName, IDebugHostSymbols.FindModuleByName, IDebugHostSymbols::FindModuleByName, IDebugHostSymbols.FindModuleByName
 req.header: dbgmodel.h
 req.include-header:

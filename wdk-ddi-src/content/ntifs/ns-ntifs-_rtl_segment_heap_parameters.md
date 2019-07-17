@@ -5,6 +5,8 @@ description: The RTL_SEGMENT_HEAP_PARAMETERS structure contains the segment heap
 ms.assetid: e80c7205-d460-4335-8124-53112d5d7619
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "ntifs/_RTL_SEGMENT_HEAP_PARAMETERS"
 ms.keywords: _RTL_SEGMENT_HEAP_PARAMETERS, RTL_SEGMENT_HEAP_PARAMETERS, *PRTL_SEGMENT_HEAP_PARAMETERS, 
 req.header: ntifs.h
 req.include-header:

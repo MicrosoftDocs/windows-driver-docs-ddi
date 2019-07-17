@@ -8,6 +8,8 @@ ms.assetid: 89eac71d-c3f9-48b2-9174-26e4ccbe1d6e
 ms.date: 04/30/2018
 ms.keywords: IOCTL_HID_GET_DEVICE_DESCRIPTOR, IOCTL_HID_GET_DEVICE_DESCRIPTOR control, IOCTL_HID_GET_DEVICE_DESCRIPTOR control code [Human Input Devices], hid.ioctl_hid_get_device_descriptor, hidioreq_4994292a-eb5e-4a7e-a1bf-b105836c3b59.xml, hidport/IOCTL_HID_GET_DEVICE_DESCRIPTOR
 ms.topic: ioctl
+f1_keywords:
+ - "hidport/IOCTL_HID_GET_DEVICE_DESCRIPTOR"
 req.header: hidport.h
 req.include-header: Hidport.h
 req.target-type: Windows

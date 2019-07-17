@@ -7,6 +7,8 @@ ms.assetid: 9154848b-ecbe-4f21-9d27-9013f97c5dde
 ms.date: 05/10/2018
 ms.keywords: D3DKMT_SETVIDPNSOURCEOWNER, D3DKMT_SETVIDPNSOURCEOWNER structure [Display Devices], OpenGL_Structs_942045f1-1a3a-4c4a-b533-ec70fcad6d8f.xml, _D3DKMT_SETVIDPNSOURCEOWNER, d3dkmthk/D3DKMT_SETVIDPNSOURCEOWNER, display.d3dkmt_setvidpnsourceowner
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/D3DKMT_SETVIDPNSOURCEOWNER"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

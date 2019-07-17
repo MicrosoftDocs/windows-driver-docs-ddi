@@ -5,6 +5,8 @@ description: Converts a 16 bit minor from a 64 bit version.
 ms.assetid: 04deb1e2-0828-4878-a925-01e95f029aa0
 ms.date: 10/19/2018
 ms.topic: macro
+f1_keywords:
+ - "d3dumddi/D3DDDI_MINOR16_FROM_VERSION64"
 ms.keywords: D3DDDI_MINOR16_FROM_VERSION64
 req.header: d3dumddi.h
 req.include-header:

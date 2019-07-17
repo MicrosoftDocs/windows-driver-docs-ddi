@@ -7,6 +7,8 @@ ms.assetid: 571ed880-a4c6-4eb1-a254-c1faf2a589d2
 ms.date: 05/10/2018
 ms.keywords: D3D11_1DDIARG_SIGNATURE_ENTRY, D3D11_1DDIARG_SIGNATURE_ENTRY structure [Display Devices], d3d10umddi/D3D11_1DDIARG_SIGNATURE_ENTRY, display.d3d11_1ddiarg_signature_entry
 ms.topic: struct
+f1_keywords:
+ - "d3d10umddi/D3D11_1DDIARG_SIGNATURE_ENTRY"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows

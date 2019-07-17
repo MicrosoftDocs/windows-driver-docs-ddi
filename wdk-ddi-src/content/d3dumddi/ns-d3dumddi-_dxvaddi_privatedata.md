@@ -8,6 +8,8 @@ ms.assetid: 51e520db-fbec-4c6b-a23c-4d401de9ae63
 ms.date: 05/10/2018
 ms.keywords: DXVA2_Structs_8d49dc5e-8eff-4b7a-aa44-20b4f784a70f.xml, DXVADDI_PRIVATEDATA, DXVADDI_PRIVATEDATA structure [Display Devices], _DXVADDI_PRIVATEDATA, d3dumddi/DXVADDI_PRIVATEDATA, display.dxvaddi_privatedata
 ms.topic: struct
+f1_keywords:
+ - "d3dumddi/DXVADDI_PRIVATEDATA"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

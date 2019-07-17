@@ -5,6 +5,8 @@ description: Indicates that the application will have no future dependencies on 
 ms.assetid: 19119cc2-5c96-48ca-81fc-634eaf99bf36
 ms.date: 10/19/2018
 ms.topic: enum
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_RENDER_PASS_ENDING_ACCESS_TYPE"
 ms.keywords: D3D12DDI_RENDER_PASS_ENDING_ACCESS_TYPE, D3D12DDI_RENDER_PASS_ENDING_ACCESS_TYPE, 
 req.header: d3d12umddi.h
 req.include-header:

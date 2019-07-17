@@ -8,6 +8,8 @@ ms.assetid: dd5fd1f2-7040-40ee-bf9c-42e77c9738da
 ms.date: 03/29/2018
 ms.keywords: "*PRemoveConnectionFromSession_IN, PRemoveConnectionFromSession_IN, PRemoveConnectionFromSession_IN structure pointer [Storage Devices], RemoveConnectionFromSession_IN, RemoveConnectionFromSession_IN structure [Storage Devices], _RemoveConnectionFromSession_IN, iscsiop/PRemoveConnectionFromSession_IN, iscsiop/RemoveConnectionFromSession_IN, storage.removeconnectionfromsession_in, structs-iSCSI_7dca8bd4-ebf8-4ccc-996a-852fabba5df3.xml"
 ms.topic: struct
+f1_keywords:
+ - "iscsiop/RemoveConnectionFromSession_IN"
 req.header: iscsiop.h
 req.include-header: Iscsiop.h
 req.target-type: Windows

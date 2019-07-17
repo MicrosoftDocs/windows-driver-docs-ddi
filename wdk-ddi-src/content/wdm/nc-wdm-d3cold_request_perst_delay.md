@@ -5,6 +5,8 @@ description: Enables the function device object (FDO) to convey its requirement 
 ms.assetid: c81274ad-e9e9-4ad2-a6e0-fac03e792071
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "wdm/D3COLD_REQUEST_PERST_DELAY"
 req.header: wdm.h
 req.include-header:
 req.target-type:

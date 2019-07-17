@@ -8,6 +8,8 @@ ms.assetid: DF9CA4A8-4B2A-4DED-9514-422AC5E0940D
 ms.date: 02/23/2018
 ms.keywords: PosCxPutPendingEventMemory, PosCxPutPendingEventMemory function, pos.poscxputpendingeventmemory, poscx/PosCxPutPendingEventMemory
 ms.topic: function
+f1_keywords:
+ - "poscx/PosCxPutPendingEventMemory"
 req.header: poscx.h
 req.include-header: Poscx.h
 req.target-type: Windows

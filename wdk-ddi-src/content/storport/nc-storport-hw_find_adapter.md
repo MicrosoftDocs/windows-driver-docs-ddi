@@ -8,6 +8,8 @@ ms.assetid: 8642d0b8-ebc8-4053-b35e-3a81108a2f7f
 ms.date: 03/29/2018
 ms.keywords: HW_FIND_ADAPTER, HwStorFindAdapter, HwStorFindAdapter routine [Storage Devices], storage.hwstorfindadapter, stormini_844ef988-84c8-4f93-b732-eb0a2e8d611a.xml, storport/HwStorFindAdapter
 ms.topic: callback
+f1_keywords:
+ - "storport/HwStorFindAdapter"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

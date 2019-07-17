@@ -8,6 +8,8 @@ ms.assetid: ADEEB57F-79FF-4AA7-84AF-FED413E47057
 ms.date: 05/02/2018
 ms.keywords: "*PWWAN_GSM_NMR, PWWAN_GSM_NMR, PWWAN_GSM_NMR structure pointer [Network Drivers Starting with Windows Vista], WWAN_GSM_NMR, WWAN_GSM_NMR structure [Network Drivers Starting with Windows Vista], _WWAN_GSM_NMR, netvista.wwan_gsm_nmr, wwan/PWWAN_GSM_NMR, wwan/WWAN_GSM_NMR"
 ms.topic: struct
+f1_keywords:
+ - "wwan/WWAN_GSM_NMR"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows

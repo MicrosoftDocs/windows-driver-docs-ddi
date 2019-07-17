@@ -6,6 +6,8 @@ ms.assetid: 8dc6e964-d55a-4b06-b571-985e1c302e84
 ms.date: 08/08/2018
 tech.root: sensors
 ms.topic: function
+f1_keywords:
+ - "sensorsutils/PropKeyFindKeyGetDouble"
 ms.keywords: PropKeyFindKeyGetDouble
 req.header: sensorsutils.h
 req.include-header:

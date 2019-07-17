@@ -8,6 +8,8 @@ ms.assetid: 195B9FA2-F7B2-4EA0-9D53-63E438666760
 ms.date: 02/15/2018
 ms.keywords: GPIO.gpio_clx_releaseinterruptlock, GPIO_CLX_ReleaseInterruptLock, GPIO_CLX_ReleaseInterruptLock method [Parallel Ports], gpioclx/GPIO_CLX_ReleaseInterruptLock
 ms.topic: function
+f1_keywords:
+ - "gpioclx/GPIO_CLX_ReleaseInterruptLock"
 req.header: gpioclx.h
 req.include-header: 
 req.target-type: Universal

@@ -5,6 +5,8 @@ description: Describes a Request Data Object (RDO).
 ms.assetid: 53d143ae-6a32-4944-a238-e5bd7814ab99
 ms.date: 09/30/2018
 ms.topic: struct
+f1_keywords:
+ - "usbctypes/_USBC_PD_REQUEST_DATA_OBJECT"
 ms.keywords: _USBC_PD_REQUEST_DATA_OBJECT, USBC_PD_REQUEST_DATA_OBJECT, *PUSBC_PD_REQUEST_DATA_OBJECT, 
 req.header: usbctypes.h
 req.include-header: usbctypes.h

@@ -8,6 +8,8 @@ ms.assetid: 3cfb7f31-93ae-47a2-8da8-becfbe045f5e
 ms.date: 05/02/2018
 ms.keywords: NdisIfGetNetLuidFromInterfaceIndex, NdisIfGetNetLuidFromInterfaceIndex function [Network Drivers Starting with Windows Vista], ndis/NdisIfGetNetLuidFromInterfaceIndex, net_if_functions_ref_eb50b72f-9bb0-4c02-88d3-dbb0fb1d82d1.xml, netvista.ndisifgetnetluidfrominterfaceindex
 ms.topic: function
+f1_keywords:
+ - "ndis/NdisIfGetNetLuidFromInterfaceIndex"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

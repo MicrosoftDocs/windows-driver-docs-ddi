@@ -8,6 +8,8 @@ ms.assetid: fb0650ee-24a6-4f64-9f16-dded0ccc79cd
 ms.date: 05/08/2018
 ms.keywords: IInterruptSync interface [Audio Devices],RegisterServiceRoutine method, IInterruptSync.RegisterServiceRoutine, IInterruptSync::RegisterServiceRoutine, RegisterServiceRoutine, RegisterServiceRoutine method [Audio Devices], RegisterServiceRoutine method [Audio Devices],IInterruptSync interface, audio.iinterruptsync_registerserviceroutine, audmp-routines_92919bdc-00aa-4911-ac3c-58a0807c7212.xml, portcls/IInterruptSync::RegisterServiceRoutine
 ms.topic: method
+f1_keywords:
+ - "portcls/IInterruptSync.RegisterServiceRoutine"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal

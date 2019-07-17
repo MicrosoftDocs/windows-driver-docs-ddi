@@ -8,6 +8,8 @@ ms.assetid: F307A139-B55A-4C29-BE2F-14C243115F8C
 ms.date: 05/07/2018
 ms.keywords: PFN_UFX_PROPRIETARY_CHARGER_RESET_OPERATION, PFN_UFX_PROPRIETARY_CHARGER_RESET_OPERATION callback function pointer [Buses], UFX_PROPRIETARY_CHARGER_RESET_OPERATION, UFX_PROPRIETARY_CHARGER_RESET_OPERATION callback, UfxProprietaryChargerReset, UfxProprietaryChargerReset callback function [Buses], buses.ufx_proprietary_charger_reset_operation, ufxproprietarycharger/UfxProprietaryChargerReset
 ms.topic: callback
+f1_keywords:
+ - "ufxproprietarycharger/PFN_UFX_PROPRIETARY_CHARGER_RESET_OPERATION"
 req.header: ufxproprietarycharger.h
 req.include-header: 
 req.target-type: Windows

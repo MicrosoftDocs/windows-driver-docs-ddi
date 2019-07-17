@@ -5,6 +5,8 @@ description: The pfnCheckResourceAllocationInfo callback function supports check
 ms.assetid: 88c3cb14-acf1-4391-a8f0-059a2533a183
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_CHECKRESOURCEALLOCATIONINFO_0003"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

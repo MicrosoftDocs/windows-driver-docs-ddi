@@ -7,6 +7,8 @@ ms.assetid: 4bb88e3c-2309-42f5-bc22-4c7182358e6e
 ms.date: 05/10/2018
 ms.keywords: PFND3D10DDI_STATE_RS_SCISSOR_CB, PFND3D10DDI_STATE_RS_SCISSOR_CB callback, d3d10state_functions_8690a3ee-bc2c-4164-808b-c308a1784893.xml, d3d10umddi/pfnStateRsScissorCb, display.pfnstatersscissorcb, pfnStateRsScissorCb, pfnStateRsScissorCb callback function [Display Devices]
 ms.topic: callback
+f1_keywords:
+ - "d3d10umddi/pfnStateRsScissorCb"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

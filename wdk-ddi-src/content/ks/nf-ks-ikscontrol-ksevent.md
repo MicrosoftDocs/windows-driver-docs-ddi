@@ -8,6 +8,8 @@ ms.assetid: 9e4b86cf-308f-4d9b-be28-966312dc4e43
 ms.date: 04/23/2018
 ms.keywords: IKsControl interface [Streaming Media Devices],KsEvent method, IKsControl.KsEvent, IKsControl::KsEvent, KsEvent, KsEvent method [Streaming Media Devices], KsEvent method [Streaming Media Devices],IKsControl interface, avintfc_359de56d-5fcc-47ea-838c-cd110493856c.xml, ks/IKsControl::KsEvent, stream.ikscontrol_ksevent2
 ms.topic: method
+f1_keywords:
+ - "ks/IKsControl.KsEvent"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: DesktopMobile

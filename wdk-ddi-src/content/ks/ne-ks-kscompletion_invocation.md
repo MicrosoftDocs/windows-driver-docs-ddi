@@ -8,6 +8,8 @@ ms.assetid: 2BD1A2F8-BAA2-40A3-9C97-667780A6F395
 ms.date: 04/23/2018
 ms.keywords: KSCOMPLETION_INVOCATION, KSCOMPLETION_INVOCATION enumeration [Streaming Media Devices], KsInvokeOnCancel, KsInvokeOnError, KsInvokeOnSuccess, ks/KSCOMPLETION_INVOCATION, ks/KsInvokeOnCancel, ks/KsInvokeOnError, ks/KsInvokeOnSuccess, stream.kscompletion_invocation
 ms.topic: enum
+f1_keywords:
+ - "ks/KSCOMPLETION_INVOCATION"
 req.header: ks.h
 req.include-header: 
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: F6935F5F-B6A8-4495-835D-151A26633F04
 ms.date: 05/07/2018
 ms.keywords: IOCTL_INTERNAL_USBFN_RESERVED, IOCTL_INTERNAL_USBFN_RESERVED control, IOCTL_INTERNAL_USBFN_RESERVED control code [Buses], buses.ioctl_internal_usbfn_reserved, usbfnioctl/IOCTL_INTERNAL_USBFN_RESERVED
 ms.topic: ioctl
+f1_keywords:
+ - "usbfnioctl/IOCTL_INTERNAL_USBFN_RESERVED"
 req.header: usbfnioctl.h
 req.include-header: Usbfnioctl.h
 req.target-type: Windows

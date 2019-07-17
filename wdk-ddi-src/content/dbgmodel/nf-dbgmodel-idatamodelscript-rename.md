@@ -5,6 +5,8 @@ description: The Rename method assigns a new name to the script.
 ms.assetid: b6bb9297-1c8a-4f4c-a5c7-dfa62408be9d
 ms.date: 08/20/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDataModelScript.Rename"
 ms.keywords: IDataModelScript::Rename, Rename, IDataModelScript.Rename, IDataModelScript::Rename, IDataModelScript.Rename
 req.header: dbgmodel.h
 req.include-header:

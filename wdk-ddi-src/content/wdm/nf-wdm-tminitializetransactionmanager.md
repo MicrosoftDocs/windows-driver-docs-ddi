@@ -8,6 +8,8 @@ ms.assetid: A44B4B93-4EC7-4FC3-B64F-BF1FF19D067E
 ms.date: 04/30/2018
 ms.keywords: TmInitializeTransactionManager, TmInitializeTransactionManager , TmInitializeTransactionManager routine [Kernel-Mode Driver Architecture], kernel.tminitializetransactionmanager_, wdm/TmInitializeTransactionManager
 ms.topic: function
+f1_keywords:
+ - "wdm/TmInitializeTransactionManager"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Universal

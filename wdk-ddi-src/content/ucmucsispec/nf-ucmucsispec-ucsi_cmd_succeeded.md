@@ -6,6 +6,8 @@ description: On successful completion of a UCSI command the PPM firmware fills t
 ms.assetid: def7eb0c-429a-4778-8304-94f23e917b02
 ms.date: 09/30/2018
 ms.topic: function
+f1_keywords:
+ - "ucmucsispec/UCSI_CMD_SUCCEEDED"
 ms.keywords: UCSI_CMD_SUCCEEDED
 req.header: ucmucsispec.h
 req.include-header: UcmUcsiCx.h 

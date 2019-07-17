@@ -8,6 +8,8 @@ ms.assetid: 50b4bee4-3a8c-45a1-9a3f-b416aa8a19e5
 ms.date: 04/24/2018
 ms.keywords: ExtRemoteData interface [Windows Debugging],Set method, ExtRemoteData.Set, ExtRemoteData::Set, ExtRemoteData::Set(ULONG64,ULONG), Set, Set method [Windows Debugging], Set method [Windows Debugging],ExtRemoteData interface, debugger.extremotedata_set_offset_bytes, engextcpp/ExtRemoteData::Set
 ms.topic: method
+f1_keywords:
+ - "engextcpp/ExtRemoteData.Set"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop

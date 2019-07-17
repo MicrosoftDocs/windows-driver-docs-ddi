@@ -8,6 +8,8 @@ ms.assetid: 356D4CFD-E256-4920-AAB7-D6399F357591
 ms.date: 04/16/2018
 ms.keywords: FltReadFileEx, FltReadFileEx function [Installable File System Drivers], fltkernel/FltReadFileEx, ifsk.fltreadfileex
 ms.topic: function
+f1_keywords:
+ - "fltkernel/FltReadFileEx"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

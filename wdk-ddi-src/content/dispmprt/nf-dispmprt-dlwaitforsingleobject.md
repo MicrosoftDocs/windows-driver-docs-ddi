@@ -8,6 +8,8 @@ ms.assetid: 658613b3-9f6f-40a4-86e1-27b61a5aadef
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
 ms.topic: function
+f1_keywords:
+ - "dispmprt/DlWaitForSingleObject"
 ms.keywords: DlWaitForSingleObject
 req.header: dispmprt.h
 req.include-header:

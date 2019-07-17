@@ -8,6 +8,8 @@ ms.assetid: ECAB84B8-1C39-473C-A6AE-41D1EBDB1FF4
 ms.date: 02/26/2018
 ms.keywords: "*PWDF_INTERRUPT_PRIORITY, PWDF_INTERRUPT_PRIORITY, PWDF_INTERRUPT_PRIORITY enumeration pointer, WDF_INTERRUPT_PRIORITY, WDF_INTERRUPT_PRIORITY enumeration, WdfIrqPriorityHigh, WdfIrqPriorityLow, WdfIrqPriorityNormal, WdfIrqPriorityUndefined, _WDF_INTERRUPT_PRIORITY, umdf.wdf_interrupt_priority, wdf.wdf_interrupt_priority_umdf, wudfinterrupt/PWDF_INTERRUPT_PRIORITY, wudfinterrupt/WDF_INTERRUPT_PRIORITY, wudfinterrupt/WdfIrqPriorityHigh, wudfinterrupt/WdfIrqPriorityLow, wudfinterrupt/WdfIrqPriorityNormal, wudfinterrupt/WdfIrqPriorityUndefined"
 ms.topic: enum
+f1_keywords:
+ - "wudfinterrupt/WDF_INTERRUPT_PRIORITY"
 req.header: wudfinterrupt.h
 req.include-header: 
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: 78a216c7-b208-49fb-bb8e-6758b3cb13ad
 ms.date: 05/10/2018
 ms.keywords: IDARG_IN_GETDIRTYRECTS, IDARG_IN_GETDIRTYRECTS structure [Display Devices], display.idarg_in_getdirtyrects, iddcx/IDARG_IN_GETDIRTYRECTS
 ms.topic: struct
+f1_keywords:
+ - "iddcx/IDARG_IN_GETDIRTYRECTS"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows

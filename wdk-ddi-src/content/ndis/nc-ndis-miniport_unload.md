@@ -8,6 +8,8 @@ ms.assetid: 25c803cf-f8a6-4e41-a731-c3ae7f1db211
 ms.date: 05/02/2018
 ms.keywords: MINIPORT_UNLOAD, MINIPORT_UNLOAD callback, MiniportDriverUnload, MiniportDriverUnload callback function [Network Drivers Starting with Windows Vista], miniport_functions_ref_8f9795d0-00aa-4059-8dbf-8f7eed303cae.xml, ndis/MiniportDriverUnload, netvista.miniportdriverunload
 ms.topic: callback
+f1_keywords:
+ - "ndis/MiniportDriverUnload"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

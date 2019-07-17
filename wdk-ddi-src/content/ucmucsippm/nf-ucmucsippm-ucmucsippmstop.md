@@ -6,6 +6,8 @@ description: Instructs the class extension to stop sending requests to the clien
 ms.assetid: 851fee56-96fc-4ec0-b9e6-7933463eac61
 ms.date: 09/30/2018
 ms.topic: function
+f1_keywords:
+ - "ucmucsippm/UcmUcsiPpmStop"
 ms.keywords: UcmUcsiPpmStop
 req.header: ucmucsippm.h
 req.include-header: UcmUcsiCx.h

@@ -5,6 +5,8 @@ description: The PFND3DKMT_SETVIDPNSOURCEHWPROTECTION callback function sets Vid
 ms.assetid: 344b5493-91fd-4c43-b8ba-ee7d918cb9c6
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/PFND3DKMT_SETVIDPNSOURCEHWPROTECTION"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

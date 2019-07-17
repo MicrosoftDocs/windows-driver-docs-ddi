@@ -7,6 +7,8 @@ ms.assetid: 9B6EA552-B576-45F3-A0BD-7EB721638D7F
 ms.date: 05/10/2018
 ms.keywords: D3DKMT_CREATEHWCONTEXT, D3DKMT_CREATEHWCONTEXT structure [Display Devices], _D3DKMT_CREATEHWCONTEXT, d3dkmthk/D3DKMT_CREATEHWCONTEXT, display.d3dkmt_createhwcontext
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/D3DKMT_CREATEHWCONTEXT"
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: Windows

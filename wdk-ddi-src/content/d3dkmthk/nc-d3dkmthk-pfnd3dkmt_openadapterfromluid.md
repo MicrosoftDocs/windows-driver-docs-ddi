@@ -5,6 +5,8 @@ description: Pfnd3dkmtOpenadapterfromluid maps a locally unique identifier (LUID
 ms.assetid: 14e613a4-3b9a-4c8c-aa87-c75ed773b7a1
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/PFND3DKMT_OPENADAPTERFROMLUID"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: ee42c2b6-078c-493e-8b47-67aecffc7be7
 ms.date: 02/27/2018
 ms.topic: macro
+f1_keywords:
+ - "netdatapathdescriptor/NET_PACKET_GET_FRAGMENT"
 ms.keywords: NET_PACKET_GET_FRAGMENT
 req.header: netdatapathdescriptor.h
 req.include-header: netadaptercx.h

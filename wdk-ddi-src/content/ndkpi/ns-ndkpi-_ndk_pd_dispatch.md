@@ -8,6 +8,8 @@ ms.assetid: 3BAD6CF9-8DCD-470F-9C2E-C7C9C0B29ADA
 ms.date: 05/02/2018
 ms.keywords: NDK_PD_DISPATCH, NDK_PD_DISPATCH structure [Network Drivers Starting with Windows Vista], _NDK_PD_DISPATCH, ndkpi/NDK_PD_DISPATCH, netvista.ndk_pd_dispatch
 ms.topic: struct
+f1_keywords:
+ - "ndkpi/NDK_PD_DISPATCH"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows

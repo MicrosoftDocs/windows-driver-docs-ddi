@@ -8,6 +8,8 @@ ms.assetid: F1E869AE-2FAF-402F-9C50-58D81E0EFF69
 ms.date: 05/03/2018
 ms.keywords: SENSOR_STATE, SENSOR_STATE enumeration [Sensor Devices], SensorState_Active, SensorState_Error, SensorState_Idle, SensorState_Initializing, sensors.sensor_state, sensorsdef/SENSOR_STATE, sensorsdef/SensorState_Active, sensorsdef/SensorState_Error, sensorsdef/SensorState_Idle, sensorsdef/SensorState_Initializing
 ms.topic: enum
+f1_keywords:
+ - "sensorsdef/SENSOR_STATE"
 req.header: sensorsdef.h
 req.include-header: 
 req.target-type: Windows

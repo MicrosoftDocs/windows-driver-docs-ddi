@@ -8,6 +8,8 @@ ms.assetid: 2cd5afcd-1d69-475f-95ea-165a405d8ee8
 ms.date: 05/02/2018
 ms.keywords: RILMSGDCSPARAMMASK, RILMSGDCSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_MDCS_ALL, RIL_PARAM_MDCS_ALPHABET, RIL_PARAM_MDCS_FLAGS, RIL_PARAM_MDCS_INDICATION, RIL_PARAM_MDCS_LANGUAGE, RIL_PARAM_MDCS_MSGCLASS, netvista.rilmsgdcsparammask, ntddrilapitypes/RILMSGDCSPARAMMASK, ntddrilapitypes/RIL_PARAM_MDCS_ALL, ntddrilapitypes/RIL_PARAM_MDCS_ALPHABET, ntddrilapitypes/RIL_PARAM_MDCS_FLAGS, ntddrilapitypes/RIL_PARAM_MDCS_INDICATION, ntddrilapitypes/RIL_PARAM_MDCS_LANGUAGE, ntddrilapitypes/RIL_PARAM_MDCS_MSGCLASS
 ms.topic: enum
+f1_keywords:
+ - "ntddrilapitypes/RILMSGDCSPARAMMASK"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

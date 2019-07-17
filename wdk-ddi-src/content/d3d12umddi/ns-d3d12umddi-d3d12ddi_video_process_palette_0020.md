@@ -7,6 +7,8 @@ ms.assetid: 25AA9012-64A1-4E61-956F-7F30CE0639EA
 ms.date: 05/10/2018
 ms.keywords: D3D12DDI_VIDEO_PROCESS_PALETTE_0020, D3D12DDI_VIDEO_PROCESS_PALETTE_0020 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_PROCESS_PALETTE_0020, display.d3d12ddi_video_process_palette
 ms.topic: struct
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_VIDEO_PROCESS_PALETTE_0020"
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows

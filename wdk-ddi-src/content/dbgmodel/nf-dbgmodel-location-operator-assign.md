@@ -5,6 +5,8 @@ description: The copy assignment operator for the location function.
 ms.assetid: 76ea5143-73e8-476a-8913-d47fea290a48
 ms.date: 09/28/2018
 ms.topic: function
+f1_keywords:
+ - "dbgmodel/operator="
 ms.keywords: operator=
 req.header: dbgmodel.h
 req.include-header:

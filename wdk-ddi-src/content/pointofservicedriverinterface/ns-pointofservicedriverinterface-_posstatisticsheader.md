@@ -8,6 +8,8 @@ ms.assetid: 75567f14-07fe-4861-9f78-e4de6d0bb023
 ms.date: 02/23/2018
 ms.keywords: PosStatisticsHeader, PosStatisticsHeader structure, _PosStatisticsHeader, pointofservicedriverinterface/PosStatisticsHeader, pos.posstatisticsheader
 ms.topic: struct
+f1_keywords:
+ - "pointofservicedriverinterface/PosStatisticsHeader"
 req.header: pointofservicedriverinterface.h
 req.include-header: PointOfServiceDriverInterface.h
 req.target-type: Windows

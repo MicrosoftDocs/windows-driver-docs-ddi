@@ -5,6 +5,8 @@ description: Describes the ACPI PLD interface instance Unicode descriptor buffer
 ms.assetid: c3ded0b4-c497-4b7c-bc88-fec4cbdf8aef
 ms.date: 10/02/2018
 ms.topic: struct
+f1_keywords:
+ - "acpitabl/_ACPI_PLD_INTERFACE_INSTANCE_UNICODE_BUFFER"
 ms.keywords: _ACPI_PLD_INTERFACE_INSTANCE_UNICODE_BUFFER, ACPI_PLD_INTERFACE_INSTANCE_UNICODE_BUFFER, *PACPI_PLD_INTERFACE_INSTANCE_UNICODE_BUFFER, 
 req.header: acpitabl.h
 req.include-header:

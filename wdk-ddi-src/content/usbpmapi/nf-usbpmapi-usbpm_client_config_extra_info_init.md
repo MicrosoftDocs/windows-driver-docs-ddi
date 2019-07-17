@@ -5,6 +5,8 @@ description: Initializes a **USBPM_CLIENT_CONFIG_EXTRA_INFO** structure.
 ms.assetid: 01f43080-0135-4de2-8c65-bb70a4a0e7ef
 ms.date: 09/30/2018
 ms.topic: function
+f1_keywords:
+ - "usbpmapi/USBPM_CLIENT_CONFIG_EXTRA_INFO_INIT"
 ms.keywords: USBPM_CLIENT_CONFIG_EXTRA_INFO_INIT
 tech.root: usbref
 req.header: usbpmapi.h

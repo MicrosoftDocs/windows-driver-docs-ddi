@@ -8,6 +8,8 @@ ms.assetid: 9547DCCE-6B3C-434F-A8CA-1AA59AB7152A
 ms.date: 05/02/2018
 ms.keywords: NDK_FN_CLOSE_OBJECT, NDK_FN_CLOSE_OBJECT callback, NdkCloseObject, NdkCloseObject callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCloseObject, netvista.ndk_fn_close_object
 ms.topic: callback
+f1_keywords:
+ - "ndkpi/NdkCloseObject"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows

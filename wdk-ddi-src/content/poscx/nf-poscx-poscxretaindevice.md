@@ -8,6 +8,8 @@ ms.assetid: 0DF5E1DA-35BA-406A-A708-461534373F12
 ms.date: 02/23/2018
 ms.keywords: PosCxRetainDevice, PosCxRetainDevice function, pos.poscxretaindevice, poscx/PosCxRetainDevice
 ms.topic: function
+f1_keywords:
+ - "poscx/PosCxRetainDevice"
 req.header: poscx.h
 req.include-header: Poscx.h
 req.target-type: Windows

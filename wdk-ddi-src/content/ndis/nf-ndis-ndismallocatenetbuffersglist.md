@@ -8,6 +8,8 @@ ms.assetid: 3fd8d121-a249-433a-a93d-4027a4bfcb61
 ms.date: 05/02/2018
 ms.keywords: NdisMAllocateNetBufferSGList, NdisMAllocateNetBufferSGList function [Network Drivers Starting with Windows Vista], ndis/NdisMAllocateNetBufferSGList, ndis_sgdma_ref_7d06207d-de5d-41a8-b6e8-4ecab32123a1.xml, netvista.ndismallocatenetbuffersglist
 ms.topic: function
+f1_keywords:
+ - "ndis/NdisMAllocateNetBufferSGList"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

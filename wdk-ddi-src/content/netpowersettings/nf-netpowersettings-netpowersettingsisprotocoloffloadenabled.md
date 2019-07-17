@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 94a24518-1a0e-40be-b270-8c3e68222ac4
 ms.date: 02/08/2018
 ms.topic: function
+f1_keywords:
+ - "netpowersettings/NetPowerSettingsIsProtocolOffloadEnabled"
 ms.keywords: NetPowerSettingsIsProtocolOffloadEnabled
 req.header: netpowersettings.h
 req.include-header: netadaptercx.h

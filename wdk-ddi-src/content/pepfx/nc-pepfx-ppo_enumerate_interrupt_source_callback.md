@@ -8,6 +8,8 @@ ms.assetid: 1E6841D8-88A0-4EDB-89EF-3878AF8B0072
 ms.date: 02/24/2018
 ms.keywords: EnumerateInterruptSource, EnumerateInterruptSource routine [Kernel-Mode Driver Architecture], PO_ENUMERATE_INTERRUPT_SOURCE_CALLBACK, kernel.enumerateinterruptsource, pepfx/EnumerateInterruptSource
 ms.topic: callback
+f1_keywords:
+ - "pepfx/EnumerateInterruptSource"
 req.header: pepfx.h
 req.include-header: Pep_x.h
 req.target-type: Windows

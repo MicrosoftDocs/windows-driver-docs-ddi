@@ -8,6 +8,8 @@ ms.assetid: f61be32a-2537-4b7f-8f22-4149b00a15a4
 ms.date: 05/07/2018
 ms.keywords: USBD_GetPdoRegistryParameter, USBD_GetPdoRegistryParameter routine [Buses], buses.usbd_getpdoregistryparameter, usbdlib/USBD_GetPdoRegistryParameter, usbfunc_b85b350e-68ad-4256-b4df-f61ea0367b62.xml
 ms.topic: function
+f1_keywords:
+ - "usbdlib/USBD_GetPdoRegistryParameter"
 req.header: usbdlib.h
 req.include-header: 
 req.target-type: Universal

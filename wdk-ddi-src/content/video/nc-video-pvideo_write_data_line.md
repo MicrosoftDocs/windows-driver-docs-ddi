@@ -8,6 +8,8 @@ ms.assetid: 3f860619-a479-4291-b3f3-ea4d309beee7
 ms.date: 05/10/2018
 ms.keywords: PVIDEO_WRITE_DATA_LINE, PVIDEO_WRITE_DATA_LINE callback, VideoMiniport_Functions_35effeac-fbe1-44b9-905f-111460800d86.xml, WriteDataLine, WriteDataLine callback function [Display Devices], display.writedataline, video/WriteDataLine
 ms.topic: callback
+f1_keywords:
+ - "video/WriteDataLine"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

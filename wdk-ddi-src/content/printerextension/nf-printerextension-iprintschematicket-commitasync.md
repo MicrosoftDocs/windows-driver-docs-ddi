@@ -8,6 +8,8 @@ ms.assetid: CFEDCABF-A875-4A69-954D-267765350E9D
 ms.date: 04/20/2018
 ms.keywords: CommitAsync, CommitAsync method [Print Devices], CommitAsync method [Print Devices],IPrintSchemaTicket interface, IPrintSchemaTicket, IPrintSchemaTicket interface [Print Devices],CommitAsync method, IPrintSchemaTicket.CommitAsync, IPrintSchemaTicket::CommitAsync, print.iprintschematicket_commitasync, printerextension/IPrintSchemaTicket::CommitAsync
 ms.topic: method
+f1_keywords:
+ - "printerextension/IPrintSchemaTicket.CommitAsync"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop

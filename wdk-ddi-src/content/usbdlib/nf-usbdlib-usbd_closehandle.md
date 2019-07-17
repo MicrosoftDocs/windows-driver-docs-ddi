@@ -8,6 +8,8 @@ ms.assetid: 6876E96D-E249-4B7C-A496-27E3F4A7F7E2
 ms.date: 06/24/2019
 ms.keywords: USBD_CloseHandle, USBD_CloseHandle routine [Buses], buses.usbd_unregister, usbdlib/USBD_CloseHandle
 ms.topic: function
+f1_keywords:
+ - "usbdlib/USBD_CloseHandle"
 req.header: usbdlib.h
 req.include-header: 
 req.target-type: Desktop

@@ -8,6 +8,8 @@ ms.assetid: 4E30CD53-C078-40D7-BEF8-A39F57D71D42
 ms.date: 04/30/2018
 ms.keywords: PsGetCurrentServerSilo, PsGetCurrentServerSilo routine [Kernel-Mode Driver Architecture], kernel.psgetcurrentserversilo, ntddk/PsGetCurrentServerSilo
 ms.topic: function
+f1_keywords:
+ - "ntddk/PsGetCurrentServerSilo"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows

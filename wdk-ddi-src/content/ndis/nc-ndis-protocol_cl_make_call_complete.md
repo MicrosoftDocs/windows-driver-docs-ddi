@@ -8,6 +8,8 @@ ms.assetid: 6bb69f78-8dab-46a7-84fb-7bc17e894535
 ms.date: 05/02/2018
 ms.keywords: PROTOCOL_CL_MAKE_CALL_COMPLETE, PROTOCOL_CL_MAKE_CALL_COMPLETE callback, ProtocolClMakeCallComplete, ProtocolClMakeCallComplete callback function [Network Drivers Starting with Windows Vista], condis_client_ref_1c839b17-947a-44cb-85d1-d6246b82a827.xml, ndis/ProtocolClMakeCallComplete, netvista.protocolclmakecallcomplete
 ms.topic: callback
+f1_keywords:
+ - "ndis/ProtocolClMakeCallComplete"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

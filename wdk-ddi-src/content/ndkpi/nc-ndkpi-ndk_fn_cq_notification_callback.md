@@ -8,6 +8,8 @@ ms.assetid: 88035020-9585-41EC-9C63-29DDED779C39
 ms.date: 05/02/2018
 ms.keywords: NDK_FN_CQ_NOTIFICATION_CALLBACK, NDK_FN_CQ_NOTIFICATION_CALLBACK callback, NdkCqNotificationCallback, NdkCqNotificationCallback callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCqNotificationCallback, netvista.ndk_fn_cq_notification_callback
 ms.topic: callback
+f1_keywords:
+ - "ndkpi/NdkCqNotificationCallback"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows

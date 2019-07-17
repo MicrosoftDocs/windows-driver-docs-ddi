@@ -7,6 +7,8 @@ ms.assetid: 6b1d6465-83bd-42c4-be1f-d7a2cfb74483
 ms.date: 05/10/2018
 ms.keywords: "*INOUT_DXGKARG_QUERYDEPENDENTENGINEGROUP, DXGKARG_QUERYDEPENDENTENGINEGROUP, DXGKARG_QUERYDEPENDENTENGINEGROUP structure [Display Devices], _DXGKARG_QUERYDEPENDENTENGINEGROUP, d3dkmddi/DXGKARG_QUERYDEPENDENTENGINEGROUP, display.dxgkarg_querydependentenginegroup"
 ms.topic: struct
+f1_keywords:
+ - "d3dkmddi/DXGKARG_QUERYDEPENDENTENGINEGROUP"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: 76a1294f-d098-4751-9b59-923993379c6e
 ms.date: 05/02/2018
 ms.keywords: NdisRetreatNetBufferListDataStart, NdisRetreatNetBufferListDataStart function [Network Drivers Starting with Windows Vista], ndis/NdisRetreatNetBufferListDataStart, ndis_netbuf_functions_ref_9a59d1c8-f5b1-490b-b091-84c709b82605.xml, netvista.ndisretreatnetbufferlistdatastart
 ms.topic: function
+f1_keywords:
+ - "ndis/NdisRetreatNetBufferListDataStart"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

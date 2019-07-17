@@ -8,6 +8,8 @@ ms.assetid: 5eb004d1-7cf8-45a3-aad5-2932b1a83bb8
 ms.date: 05/10/2018
 ms.keywords: PFN_DATARATE_NOTIFICATION, PFN_DATARATE_NOTIFICATION callback, display.pfndataratenotify, netdispumdddi/pfnDataRateNotify, pfnDataRateNotify, pfnDataRateNotify callback function [Display Devices]
 ms.topic: callback
+f1_keywords:
+ - "netdispumdddi/pfnDataRateNotify"
 req.header: netdispumdddi.h
 req.include-header: Netdispumdddi.h
 req.target-type: Desktop

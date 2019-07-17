@@ -8,6 +8,8 @@ ms.assetid: 6bba2af7-723d-4dfa-8efc-ec57e991a837
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
 ms.topic: callback
+f1_keywords:
+ - "dispmprt/DXGKDDI_SETVIRTUALFUNCTIONPOWERSTATE"
 req.header: dispmprt.h
 req.include-header:
 req.target-type:

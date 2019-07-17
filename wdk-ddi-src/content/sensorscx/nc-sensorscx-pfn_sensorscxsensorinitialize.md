@@ -5,6 +5,8 @@ description: Sets the enumeration properties of a sensor.
 ms.assetid: 43a6c35f-14ef-422d-a5f4-3fd318571a0d
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "sensorscx/*PFN_SENSORSCXSENSORINITIALIZE"
 req.header: sensorscx.h
 req.include-header:
 req.target-type:

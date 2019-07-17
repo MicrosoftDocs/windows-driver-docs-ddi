@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 2ce5d3bd-0719-4b5b-a416-370d743dce56
 ms.date: 02/05/2018
 ms.topic: callback
+f1_keywords:
+ - "netadapter/EvtNetAdapterPreviewWakePattern"
 req.header: netadapter.h
 req.include-header:
 req.target-type: Universal

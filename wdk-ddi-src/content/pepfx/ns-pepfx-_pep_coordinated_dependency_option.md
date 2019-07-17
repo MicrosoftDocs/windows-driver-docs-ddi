@@ -8,6 +8,8 @@ ms.assetid: DE95A3E9-3542-49EE-AA62-3430A6B2D7C7
 ms.date: 04/30/2018
 ms.keywords: "*PPEP_COORDINATED_DEPENDENCY_OPTION, PEP_COORDINATED_DEPENDENCY_OPTION, PEP_COORDINATED_DEPENDENCY_OPTION structure [Kernel-Mode Driver Architecture], PPEP_COORDINATED_DEPENDENCY_OPTION, PPEP_COORDINATED_DEPENDENCY_OPTION structure pointer [Kernel-Mode Driver Architecture], _PEP_COORDINATED_DEPENDENCY_OPTION, kernel.pep_coordinated_dependency_option, pepfx/PEP_COORDINATED_DEPENDENCY_OPTION, pepfx/PPEP_COORDINATED_DEPENDENCY_OPTION"
 ms.topic: struct
+f1_keywords:
+ - "pepfx/PEP_COORDINATED_DEPENDENCY_OPTION"
 req.header: pepfx.h
 req.include-header: Pep_x.h
 req.target-type: Windows

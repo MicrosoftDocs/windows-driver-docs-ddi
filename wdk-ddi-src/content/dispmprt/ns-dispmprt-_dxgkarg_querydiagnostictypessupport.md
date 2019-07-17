@@ -5,6 +5,8 @@ description: Arguments for the DxgkddiQueryDiagnosticTypesSupport callback funct
 ms.assetid: 05382c90-2195-4352-b12a-b9fcaec51033
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "dispmprt/_DXGKARG_QUERYDIAGNOSTICTYPESSUPPORT"
 ms.keywords: _DXGKARG_QUERYDIAGNOSTICTYPESSUPPORT, *PDXGKARG_QUERYDIAGNOSTICTYPESSUPPORT, DXGKARG_QUERYDIAGNOSTICTYPESSUPPORT,
 req.header: dispmprt.h
 req.include-header:

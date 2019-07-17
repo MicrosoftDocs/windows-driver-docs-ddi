@@ -8,6 +8,8 @@ ms.assetid: 9f54c7e2-0c8a-46ee-9318-6db934c1aab6
 ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_fc945165-b31d-4d35-b3be-5586c280d8ca.xml, EVT_WDF_DEVICE_POWER_STATE_CHANGE_NOTIFICATION, EVT_WDF_DEVICE_POWER_STATE_CHANGE_NOTIFICATION callback, EvtDevicePowerStateChange, EvtDevicePowerStateChange callback function, kmdf.evtdevicepowerstatechange, wdf.evtdevicepowerstatechange, wdfdevice/EvtDevicePowerStateChange
 ms.topic: callback
+f1_keywords:
+ - "wdfdevice/EvtDevicePowerStateChange"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

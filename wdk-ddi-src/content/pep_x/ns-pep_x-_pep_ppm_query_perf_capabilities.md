@@ -8,6 +8,8 @@ ms.assetid: 562EA523-A74D-4D46-8C01-12C745106F86
 ms.date: 04/30/2018
 ms.keywords: "*PPEP_PPM_QUERY_PERF_CAPABILITIES, PEP_PPM_QUERY_PERF_CAPABILITIES, PEP_PPM_QUERY_PERF_CAPABILITIES structure [Kernel-Mode Driver Architecture], PPEP_PPM_QUERY_PERF_CAPABILITIES, PPEP_PPM_QUERY_PERF_CAPABILITIES structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_QUERY_PERF_CAPABILITIES, kernel.pep_ppm_query_perf_capabilities, pepfx/PEP_PPM_QUERY_PERF_CAPABILITIES, pepfx/PPEP_PPM_QUERY_PERF_CAPABILITIES"
 ms.topic: struct
+f1_keywords:
+ - "pep_x/PEP_PPM_QUERY_PERF_CAPABILITIES"
 req.header: pep_x.h
 req.include-header: Pep_x.h
 req.target-type: Windows

@@ -7,6 +7,8 @@ ms.assetid: 428F23B4-3032-4BD9-A1C1-104BB2648F89
 ms.date: 05/10/2018
 ms.keywords: PFND3D12DDI_CHECKEXISITINGRESOURCEALLOCATIONINFO_0022, PFND3D12DDI_CHECKEXISITINGRESOURCEALLOCATIONINFO_0022 callback, d3d12umddi/pfnCheckExistingResourceAllocationInfo, display.pfnd3d12ddi_checkexisitingresourceallocationinfo_0022, pfnCheckExistingResourceAllocationInfo, pfnCheckExistingResourceAllocationInfo callback function [Display Devices]
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/pfnCheckExistingResourceAllocationInfo"
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows

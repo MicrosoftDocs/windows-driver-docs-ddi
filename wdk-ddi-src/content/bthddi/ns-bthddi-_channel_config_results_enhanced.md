@@ -8,6 +8,8 @@ ms.assetid: E7A2FC77-86B0-4990-93DC-2A04E33A426C
 ms.date: 04/27/2018
 ms.keywords: "*PCHANNEL_CONFIG_RESULTS_ENHANCED, CHANNEL_CONFIG_RESULTS_ENHANCED, CHANNEL_CONFIG_RESULTS_ENHANCED structure [Bluetooth Devices], PCHANNEL_CONFIG_RESULTS_ENHANCED, PCHANNEL_CONFIG_RESULTS_ENHANCED structure pointer [Bluetooth Devices], _CHANNEL_CONFIG_RESULTS_ENHANCED, bltooth.channel_config_results_enhanced, bthddi/CHANNEL_CONFIG_RESULTS_ENHANCED, bthddi/PCHANNEL_CONFIG_RESULTS_ENHANCED"
 ms.topic: struct
+f1_keywords:
+ - "bthddi/CHANNEL_CONFIG_RESULTS_ENHANCED"
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows

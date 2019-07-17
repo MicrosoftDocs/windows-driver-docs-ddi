@@ -8,6 +8,8 @@ ms.assetid: BC66C993-F571-4EB9-8163-65B038ECE754
 ms.date: 05/02/2018
 ms.keywords: NDIS_WDI_TX_TRANSFER_COMPLETE_IND, NDIS_WDI_TX_TRANSFER_COMPLETE_IND callback, NdisWdiTxTransferCompleteIndication, NdisWdiTxTransferCompleteIndication callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiTxTransferCompleteIndication, netvista.ndiswditxtransfercompleteindication
 ms.topic: callback
+f1_keywords:
+ - "dot11wdi/NdisWdiTxTransferCompleteIndication"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows

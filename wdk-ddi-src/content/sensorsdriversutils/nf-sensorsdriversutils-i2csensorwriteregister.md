@@ -5,6 +5,8 @@ description: The I2CSensorWriteRegister function writes to the device register(s
 ms.assetid: 066fda1c-63c2-451b-bead-6787eeaf49b0
 ms.date: 04/19/2018
 ms.topic: function
+f1_keywords:
+ - "sensorsdriversutils/I2CSensorWriteRegister"
 ms.keywords: I2CSensorWriteRegister
 req.header: sensorsdriversutils.h
 req.include-header:

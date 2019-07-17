@@ -8,6 +8,8 @@ ms.assetid: edf59add-0155-4619-9c7c-fdb63b954f85
 ms.date: 05/10/2018
 ms.keywords: D3DKMDT_SHAREDPRIMARYSURFACEDATA, D3DKMDT_SHAREDPRIMARYSURFACEDATA structure [Display Devices], DmStructs_5296d822-1a79-459e-809c-2d7381a964b8.xml, _D3DKMDT_SHAREDPRIMARYSURFACEDATA, d3dkmdt/D3DKMDT_SHAREDPRIMARYSURFACEDATA, display.d3dkmdt_sharedprimarysurfacedata
 ms.topic: struct
+f1_keywords:
+ - "d3dkmdt/D3DKMDT_SHAREDPRIMARYSURFACEDATA"
 req.header: d3dkmdt.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

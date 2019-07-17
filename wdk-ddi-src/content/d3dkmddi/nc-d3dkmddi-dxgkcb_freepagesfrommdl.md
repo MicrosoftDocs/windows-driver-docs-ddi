@@ -5,6 +5,8 @@ description: Implemented by the client driver to frees all the physical pages th
 ms.assetid: 8d18ed12-1cbd-4908-ba06-d87e83fc175d
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmddi/DXGKCB_FREEPAGESFROMMDL"
 req.header: d3dkmddi.h
 req.include-header:
 req.target-type:

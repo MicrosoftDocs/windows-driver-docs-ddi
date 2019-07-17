@@ -8,6 +8,8 @@ ms.assetid: fc6b46af-d3e3-4a49-a354-c0effee6a005
 ms.date: 05/03/2018
 ms.keywords: IStiDevice interface [Imaging Devices],RawReadCommand method, IStiDevice.RawReadCommand, IStiDevice::RawReadCommand, RawReadCommand, RawReadCommand method [Imaging Devices], RawReadCommand method [Imaging Devices],IStiDevice interface, image.istidevice_rawreadcommand, sti/IStiDevice::RawReadCommand, stifnc_cdfe25e7-b5c4-4ed0-b8f5-363c83f1bbba.xml
 ms.topic: method
+f1_keywords:
+ - "sti/IStiDevice.RawReadCommand"
 req.header: sti.h
 req.include-header: Sti.h
 req.target-type: Desktop

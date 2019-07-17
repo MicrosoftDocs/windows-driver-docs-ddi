@@ -7,6 +7,8 @@ ms.assetid: 78ee9813-e23e-4d46-acc4-f2fa88559b03
 ms.date: 05/10/2018
 ms.keywords: PFND3D10DDI_QUERYGETDATA, PFND3D10DDI_QUERYGETDATA callback, QueryGetData, QueryGetData callback function [Display Devices], UserModeDisplayDriverDx10_Functions_c1a88bca-7df5-4640-9134-fc893e5c8a0d.xml, d3d10umddi/QueryGetData, display.querygetdata
 ms.topic: callback
+f1_keywords:
+ - "d3d10umddi/QueryGetData"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

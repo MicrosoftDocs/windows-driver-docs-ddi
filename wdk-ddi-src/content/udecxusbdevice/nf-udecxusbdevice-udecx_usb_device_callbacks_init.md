@@ -8,6 +8,8 @@ ms.assetid: ACBF5E07-9F36-4DF9-B72B-1BF159CE27A7
 ms.date: 05/07/2018
 ms.keywords: UDECX_USB_DEVICE_CALLBACKS_INIT, UDECX_USB_DEVICE_CALLBACKS_INIT method [Buses], buses.udecx_usb_device_callbacks_init, udecxusbdevice/UDECX_USB_DEVICE_CALLBACKS_INIT
 ms.topic: function
+f1_keywords:
+ - "udecxusbdevice/UDECX_USB_DEVICE_CALLBACKS_INIT"
 req.header: udecxusbdevice.h
 req.include-header: Udecx.h
 req.target-type: Windows

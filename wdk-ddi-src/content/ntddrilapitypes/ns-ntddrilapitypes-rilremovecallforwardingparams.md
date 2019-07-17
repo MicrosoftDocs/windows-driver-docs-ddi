@@ -8,6 +8,8 @@ ms.assetid: f6eaaa56-8444-496b-8b14-63bb2368d6ba
 ms.date: 05/02/2018
 ms.keywords: "*LPRILREMOVECALLFORWARDINGPARAMS, RILREMOVECALLFORWARDINGPARAMS, RILREMOVECALLFORWARDINGPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilremovecallforwardingparams, ntddrilapitypes/RILREMOVECALLFORWARDINGPARAMS"
 ms.topic: struct
+f1_keywords:
+ - "ntddrilapitypes/RILREMOVECALLFORWARDINGPARAMS"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: 20322156-316B-4FE5-A804-14506C8CEB49
 ms.date: 03/29/2018
 ms.keywords: IOCTL_EHSTOR_DEVICE_GET_AUTHZ_STATE, IOCTL_EHSTOR_DEVICE_GET_AUTHZ_STATE control, IOCTL_EHSTOR_DEVICE_GET_AUTHZ_STATE control code [Storage Devices], ehstorioctl/IOCTL_EHSTOR_DEVICE_GET_AUTHZ_STATE, storage.ioctl_ehstor_device_get_authz_state
 ms.topic: ioctl
+f1_keywords:
+ - "ehstorioctl/IOCTL_EHSTOR_DEVICE_GET_AUTHZ_STATE"
 req.header: ehstorioctl.h
 req.include-header: EhStorIoctl.h
 req.target-type: Windows

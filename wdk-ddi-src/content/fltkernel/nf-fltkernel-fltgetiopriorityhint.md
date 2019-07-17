@@ -8,6 +8,8 @@ ms.assetid: 51c2068b-3dde-4e63-985c-51b8f7020948
 ms.date: 04/16/2018
 ms.keywords: FltApiRef_e_to_o_55aba7ac-700d-4cca-9ad1-abf80293041d.xml, FltGetIoPriorityHint, FltGetIoPriorityHint routine [Installable File System Drivers], fltkernel/FltGetIoPriorityHint, ifsk.fltgetiopriorityhint
 ms.topic: function
+f1_keywords:
+ - "fltkernel/FltGetIoPriorityHint"
 req.header: fltkernel.h
 req.include-header: FltKernel.h
 req.target-type: Universal

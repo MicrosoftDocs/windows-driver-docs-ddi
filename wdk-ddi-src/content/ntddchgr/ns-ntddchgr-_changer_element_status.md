@@ -8,6 +8,8 @@ ms.assetid: 3debcf76-bb84-48ec-933e-03e099ad764f
 ms.date: 03/29/2018
 ms.keywords: "*PCHANGER_ELEMENT_STATUS, CHANGER_ELEMENT_STATUS, CHANGER_ELEMENT_STATUS structure [Storage Devices], PCHANGER_ELEMENT_STATUS, PCHANGER_ELEMENT_STATUS structure pointer [Storage Devices], _CHANGER_ELEMENT_STATUS, ntddchgr/CHANGER_ELEMENT_STATUS, ntddchgr/PCHANGER_ELEMENT_STATUS, storage.changer_element_status, structs-changer_6dd054a8-1224-42f1-ab26-29b2c108ce27.xml"
 ms.topic: struct
+f1_keywords:
+ - "ntddchgr/CHANGER_ELEMENT_STATUS"
 req.header: ntddchgr.h
 req.include-header: 
 req.target-type: Windows

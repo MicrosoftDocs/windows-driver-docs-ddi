@@ -5,6 +5,8 @@ description: The extent to which a UMD efficiently supports Render Pass.
 ms.assetid: 7cd2f2a1-af74-44e6-b094-06e6c02443c7
 ms.date: 10/19/2018
 ms.topic: enum
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_RENDER_PASS_TIER"
 ms.keywords: D3D12DDI_RENDER_PASS_TIER, D3D12DDI_RENDER_PASS_TIER, 
 req.header: d3d12umddi.h
 req.include-header:

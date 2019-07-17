@@ -8,6 +8,8 @@ ms.assetid: 9dbe9f82-a042-4d9e-b8e5-98725fb55e06
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: enum
+f1_keywords:
+ - "wdm/IO_NOTIFICATION_EVENT_CATEGORY"
 ms.keywords: IO_NOTIFICATION_EVENT_CATEGORY, IO_NOTIFICATION_EVENT_CATEGORY, 
 req.header: wdm.h
 req.include-header:

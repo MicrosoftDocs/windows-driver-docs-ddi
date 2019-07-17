@@ -8,6 +8,8 @@ ms.assetid: a3489a6a-e993-4f89-9242-714323ec64ec
 ms.date: 05/08/2018
 ms.keywords: IPortWavePci, IPortWavePci interface [Audio Devices], IPortWavePci interface [Audio Devices],described, audio.iportwavepci, audmp-routines_4948783a-44c9-42c3-ba67-c3c66a0a2951.xml, portcls/IPortWavePci
 ms.topic: interface
+f1_keywords:
+ - "portcls/IPortWavePci"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Windows

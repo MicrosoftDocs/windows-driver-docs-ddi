@@ -8,6 +8,8 @@ ms.assetid: 49f4fcb3-5e97-4243-90f7-249d4a76dadc
 ms.author: windowsdriverdev
 ms.date: 04/04/19
 ms.topic: enum
+f1_keywords:
+ - "d3d10umddi/DXGI_COLOR_SPACE_TYPE"
 ms.keywords: DXGI_COLOR_SPACE_TYPE, , 
 ms.prod: windows-hardware
 ms.technology: windows-devices

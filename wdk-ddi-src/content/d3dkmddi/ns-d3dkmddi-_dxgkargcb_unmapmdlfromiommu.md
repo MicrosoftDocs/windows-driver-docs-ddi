@@ -5,6 +5,8 @@ description: Arguments used by the DxgkcbUnmapmdlFromIommu callback function to 
 ms.assetid: 39dc2658-d3dc-43fa-a29d-806db351d4d7
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3dkmddi/_DXGKARGCB_UNMAPMDLFROMIOMMU"
 ms.keywords: _DXGKARGCB_UNMAPMDLFROMIOMMU, DXGKARGCB_UNMAPMDLFROMIOMMU,
 req.header: d3dkmddi.h
 req.include-header:

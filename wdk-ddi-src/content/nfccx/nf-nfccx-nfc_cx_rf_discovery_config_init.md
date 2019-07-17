@@ -8,6 +8,8 @@ ms.assetid: C8A6A286-8F62-4A55-9AED-263317088706
 ms.date: 02/15/2018
 ms.keywords: NFC_CX_RF_DISCOVERY_CONFIG_INIT, NFC_CX_RF_DISCOVERY_CONFIG_INIT function [Near-Field Proximity Drivers], nfccx/NFC_CX_RF_DISCOVERY_CONFIG_INIT, nfpdrivers.nfc_cx_rf_discovery_config_init
 ms.topic: function
+f1_keywords:
+ - "nfccx/NFC_CX_RF_DISCOVERY_CONFIG_INIT"
 req.header: nfccx.h
 req.include-header: Ncidef.h
 req.target-type: Desktop

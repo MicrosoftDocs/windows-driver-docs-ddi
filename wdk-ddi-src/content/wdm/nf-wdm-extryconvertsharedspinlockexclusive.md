@@ -8,6 +8,8 @@ ms.assetid: 6B97865A-D589-4116-8492-109BEEE93ECA
 ms.date: 04/30/2018
 ms.keywords: ExTryConvertSharedSpinLockExclusive, ExTryConvertSharedSpinLockExclusive routine [Kernel-Mode Driver Architecture], kernel.extryconvertsharedspinlockexclusive_, wdm/ExTryConvertSharedSpinLockExclusive
 ms.topic: function
+f1_keywords:
+ - "wdm/ExTryConvertSharedSpinLockExclusive"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Universal

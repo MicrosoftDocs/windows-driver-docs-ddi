@@ -8,6 +8,8 @@ ms.assetid: fe8b08d4-4cc1-49cd-b0f8-29e8b198b0d1
 ms.date: 02/26/2018
 ms.keywords: RILSUBSCRIBERINFOPARAMMASK, RILSUBSCRIBERINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_SI_ALL, RIL_PARAM_SI_DESCRIPTION, RIL_PARAM_SI_SERVICE, netvista.rilsubscriberinfoparammask_2, rilapitypes/RILSUBSCRIBERINFOPARAMMASK, rilapitypes/RIL_PARAM_SI_ALL, rilapitypes/RIL_PARAM_SI_DESCRIPTION, rilapitypes/RIL_PARAM_SI_SERVICE
 ms.topic: enum
+f1_keywords:
+ - "rilapitypes/RILSUBSCRIBERINFOPARAMMASK"
 req.header: rilapitypes.h
 req.include-header:
 req.target-type: Windows

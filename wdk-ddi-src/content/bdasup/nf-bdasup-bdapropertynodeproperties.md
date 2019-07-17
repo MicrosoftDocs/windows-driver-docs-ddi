@@ -8,6 +8,8 @@ ms.assetid: 1f50bf08-6134-4a97-8c9c-adc9ad697154
 ms.date: 04/23/2018
 ms.keywords: BdaPropertyNodeProperties, BdaPropertyNodeProperties function [Streaming Media Devices], bdaref_fc328c79-7b0b-4646-91cd-3e4957b30b2a.xml, bdasup/BdaPropertyNodeProperties, stream.bdapropertynodeproperties
 ms.topic: function
+f1_keywords:
+ - "bdasup/BdaPropertyNodeProperties"
 req.header: bdasup.h
 req.include-header: Bdasup.h
 req.target-type: Desktop

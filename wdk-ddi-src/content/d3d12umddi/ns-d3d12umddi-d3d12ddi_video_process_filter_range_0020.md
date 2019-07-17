@@ -7,6 +7,8 @@ ms.assetid: D77D1542-2730-456A-BC99-3507C4377C77
 ms.date: 04/16/2018
 ms.keywords: D3D12DDI_VIDEO_PROCESS_FILTER_RANGE_0020, D3D12DDI_VIDEO_PROCESS_FILTER_RANGE_0020 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_PROCESS_FILTER_RANGE_0020, display.d3d12ddi_video_process_filter_range
 ms.topic: struct
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_VIDEO_PROCESS_FILTER_RANGE_0020"
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows

@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 12b97789-3b90-475a-ac7c-cb4a08e9dea3
 ms.date: 02/08/2018
 ms.topic: function
+f1_keywords:
+ - "netrequest/NetRequestWdmGetNdisOidRequest"
 ms.keywords: NetRequestWdmGetNdisOidRequest
 req.header: netrequest.h
 req.include-header: netadaptercx.h

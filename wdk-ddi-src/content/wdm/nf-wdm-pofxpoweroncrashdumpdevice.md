@@ -8,6 +8,8 @@ ms.assetid: 41560DC4-EE5E-4756-8540-ACC19835A9DA
 ms.date: 04/30/2018
 ms.keywords: PoFxPowerOnCrashdumpDevice, PoFxPowerOnCrashdumpDevice routine [Kernel-Mode Driver Architecture], kernel.pofxpoweroncrashdumpdevice, wdm/PoFxPowerOnCrashdumpDevice
 ms.topic: function
+f1_keywords:
+ - "wdm/PoFxPowerOnCrashdumpDevice"
 req.header: wdm.h
 req.include-header: Pepfx.h
 req.target-type: Windows

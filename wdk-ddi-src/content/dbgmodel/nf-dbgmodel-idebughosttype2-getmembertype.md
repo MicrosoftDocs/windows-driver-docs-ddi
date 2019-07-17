@@ -5,6 +5,8 @@ description: For types which are pointer-to-member (as indicated by a type kind 
 ms.assetid: 7813d8e7-962b-41e3-8635-9a9961952d05
 ms.date: 09/20/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDebugHostType2.GetMemberType"
 ms.keywords: IDebugHostType2::GetMemberType, GetMemberType, IDebugHostType2.GetMemberType, IDebugHostType2::GetMemberType, IDebugHostType2.GetMemberType
 req.header: dbgmodel.h
 req.include-header:

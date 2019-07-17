@@ -8,6 +8,8 @@ ms.assetid: 82f922a1-34c1-475b-b12a-210ae602a4bd
 ms.date: 02/26/2018
 ms.keywords: DFRequestObjectRef_60149f5d-5523-4b88-9bba-464be280b2b7.xml, WdfRequestGetStatus, WdfRequestGetStatus method, kmdf.wdfrequestgetstatus, wdf.wdfrequestgetstatus, wdfrequest/WdfRequestGetStatus
 ms.topic: function
+f1_keywords:
+ - "wdfrequest/WdfRequestGetStatus"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal

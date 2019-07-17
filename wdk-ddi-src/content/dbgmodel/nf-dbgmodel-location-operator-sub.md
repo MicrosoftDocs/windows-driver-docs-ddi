@@ -5,6 +5,8 @@ description: Subtraction operator for the location function.
 ms.assetid: aa145b1c-88f7-451d-b8d8-a34177d76b28
 ms.date: 09/28/2018
 ms.topic: function
+f1_keywords:
+ - "dbgmodel/operator-"
 ms.keywords: operator-
 req.header: dbgmodel.h
 req.include-header:

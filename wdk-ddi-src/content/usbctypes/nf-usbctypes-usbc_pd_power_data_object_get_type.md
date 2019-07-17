@@ -5,6 +5,8 @@ description: Retrieves the type of Power Data Object (PDO).
 ms.assetid: 5953ae1b-9880-4200-bc7a-3666396fb4d5
 ms.date: 09/30/2018
 ms.topic: function
+f1_keywords:
+ - "usbctypes/USBC_PD_POWER_DATA_OBJECT_GET_TYPE"
 ms.keywords: USBC_PD_POWER_DATA_OBJECT_GET_TYPE
 req.header: usbctypes.h
 req.include-header: usbctypes.h

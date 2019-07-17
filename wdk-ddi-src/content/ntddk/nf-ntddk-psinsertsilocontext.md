@@ -8,6 +8,8 @@ ms.assetid: 31C7A629-3B5E-44BA-AE03-3331E3200FC6
 ms.date: 04/30/2018
 ms.keywords: PsInsertSiloContext, PsInsertSiloContext routine [Kernel-Mode Driver Architecture], kernel.psinsertsilocontext, ntddk/PsInsertSiloContext
 ms.topic: function
+f1_keywords:
+ - "ntddk/PsInsertSiloContext"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows

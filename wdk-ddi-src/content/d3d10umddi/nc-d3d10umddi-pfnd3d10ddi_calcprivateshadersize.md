@@ -7,6 +7,8 @@ ms.assetid: 76cdddb0-b927-4547-ae1d-f5105905633b
 ms.date: 05/10/2018
 ms.keywords: CalcPrivateShaderSize, CalcPrivateShaderSize callback function [Display Devices], PFND3D10DDI_CALCPRIVATESHADERSIZE, PFND3D10DDI_CALCPRIVATESHADERSIZE callback, UserModeDisplayDriverDx10_Functions_32a6a3cc-1a0d-4a20-a985-0e0e50daa914.xml, d3d10umddi/CalcPrivateShaderSize, display.calcprivateshadersize
 ms.topic: callback
+f1_keywords:
+ - "d3d10umddi/CalcPrivateShaderSize"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

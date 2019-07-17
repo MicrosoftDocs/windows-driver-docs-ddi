@@ -5,6 +5,8 @@ description: The display adapter verifier video memory management flags.
 ms.assetid: 2ff91540-b19a-43e9-843c-85e4d2454d87
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/_D3DKMT_ADAPTER_VERIFIER_VIDMM_FLAGS"
 ms.keywords: _D3DKMT_ADAPTER_VERIFIER_VIDMM_FLAGS, D3DKMT_ADAPTER_VERIFIER_VIDMM_FLAGS, 
 req.header: d3dkmthk.h
 req.include-header:

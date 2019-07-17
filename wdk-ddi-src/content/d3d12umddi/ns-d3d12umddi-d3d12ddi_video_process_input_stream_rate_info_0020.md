@@ -7,6 +7,8 @@ ms.assetid: 3F92B206-BA05-4ECC-854B-8D1EA9D7FD19
 ms.date: 05/10/2018
 ms.keywords: D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_RATE_INFO_0020, D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_RATE_INFO_0020 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_RATE_INFO_0020, display.d3d12ddi_video_process_input_stream_rate_info
 ms.topic: struct
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_RATE_INFO_0020"
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows

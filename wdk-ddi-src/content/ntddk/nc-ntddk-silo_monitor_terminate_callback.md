@@ -8,6 +8,8 @@ ms.assetid: 1F87D6AC-3603-4A34-BAAB-8B43ADF9E595
 ms.date: 04/30/2018
 ms.keywords: SILO_MONITOR_TERMINATE_CALLBACK, SILO_MONITOR_TERMINATE_CALLBACK callback, TerminateCallback, TerminateCallback callback function [Kernel-Mode Driver Architecture], kernel.silo_monitor_terminate_callback, ntddk/TerminateCallback
 ms.topic: callback
+f1_keywords:
+ - "ntddk/TerminateCallback"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows

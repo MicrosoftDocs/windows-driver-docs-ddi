@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: b7d23f6f-cc08-4e0b-aca9-9e8234465acb
 ms.date: 05/17/2018
 ms.topic: callback
+f1_keywords:
+ - "vmbuskernelmodeclientlibapi/FN_VMB_CHANNEL_ALLOCATE"
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header:
 req.target-type:

@@ -5,6 +5,8 @@ description: Arguments used to describe display mode behaviors that the OS reque
 ms.assetid: 708d7d44-6261-438f-93e7-f12e338e870e
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3dkmddi/_DXGKARG_CONTROLMODEBEHAVIOR"
 ms.keywords: _DXGKARG_CONTROLMODEBEHAVIOR, DXGKARG_CONTROLMODEBEHAVIOR, *INOUT_PDXGKARG_CONTROLMODEBEHAVIOR
 req.header: d3dkmddi.h
 req.include-header:

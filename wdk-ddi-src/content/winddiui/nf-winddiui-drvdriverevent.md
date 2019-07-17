@@ -8,6 +8,8 @@ ms.assetid: 84d1f438-b6ee-4199-89ae-9384601203b3
 ms.date: 04/20/2018
 ms.keywords: DrvDriverEvent, DrvDriverEvent function [Print Devices], print.drvdriverevent, print_interface-graphics_41c98198-e5b7-4725-9b93-d467ec38e4c3.xml, winddiui/DrvDriverEvent
 ms.topic: function
+f1_keywords:
+ - "winddiui/DrvDriverEvent"
 req.header: winddiui.h
 req.include-header: Winddiui.h
 req.target-type: Desktop

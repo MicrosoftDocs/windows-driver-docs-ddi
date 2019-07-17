@@ -8,6 +8,8 @@ ms.assetid: da2ec371-052a-4ea1-9336-9e32df936227
 ms.date: 05/08/2018
 ms.keywords: DrmAddContentHandlers, DrmAddContentHandlers function [Audio Devices], aud-prop2_94f530fb-9766-4d61-a002-b1c7bd5183d5.xml, audio.drmaddcontenthandlers, drmk/DrmAddContentHandlers
 ms.topic: function
+f1_keywords:
+ - "drmk/DrmAddContentHandlers"
 req.header: drmk.h
 req.include-header: Drmk.h
 req.target-type: Universal

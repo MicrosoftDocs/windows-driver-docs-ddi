@@ -8,6 +8,8 @@ ms.assetid: 045c509b-852d-405c-9615-8a2f351bf8c7
 ms.date: 05/08/2018
 ms.keywords: GetKInterrupt, GetKInterrupt method [Audio Devices], GetKInterrupt method [Audio Devices],IInterruptSync interface, IInterruptSync interface [Audio Devices],GetKInterrupt method, IInterruptSync.GetKInterrupt, IInterruptSync::GetKInterrupt, audio.iinterruptsync_getkinterrupt, audmp-routines_7782adef-dc02-4876-bd48-812f8b3e58da.xml, portcls/IInterruptSync::GetKInterrupt
 ms.topic: method
+f1_keywords:
+ - "portcls/IInterruptSync.GetKInterrupt"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal

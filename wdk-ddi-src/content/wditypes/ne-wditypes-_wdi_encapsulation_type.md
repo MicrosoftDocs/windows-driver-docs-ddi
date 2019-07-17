@@ -8,6 +8,8 @@ ms.assetid: 6EDCC69B-F156-416B-9824-5E26F9834D14
 ms.date: 05/02/2018
 ms.keywords: WDI_ENCAPSULATION_802_1H, WDI_ENCAPSULATION_RFC_1042, WDI_ENCAPSULATION_TYPE, WDI_ENCAPSULATION_TYPE enumeration [Device and Driver Installation], _WDI_ENCAPSULATION_TYPE, netvista.wdi_encapsulation_type, netvista.wifi_encapsulation_type, wditypes/WDI_ENCAPSULATION_802_1H, wditypes/WDI_ENCAPSULATION_RFC_1042, wditypes/WDI_ENCAPSULATION_TYPE
 ms.topic: enum
+f1_keywords:
+ - "wditypes/WDI_ENCAPSULATION_TYPE"
 req.header: wditypes.hpp
 req.include-header: 
 req.target-type: Windows

@@ -5,6 +5,8 @@ description: Holds the parameters used in the D3D12DDI_RENDER_PASS_ENDING_ACCESS
 ms.assetid: b8f4b925-15e6-48d4-8186-0005219796d8
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_RENDER_PASS_ENDING_ACCESS_RESOLVE_PARAMETERS"
 ms.keywords: D3D12DDI_RENDER_PASS_ENDING_ACCESS_RESOLVE_PARAMETERS, D3D12DDI_RENDER_PASS_ENDING_ACCESS_RESOLVE_PARAMETERS, 
 req.header: d3d12umddi.h
 req.include-header:

@@ -5,6 +5,8 @@ description: Used to calculate the pipeline state size.
 ms.assetid: f7db5cd7-0b95-44f1-b855-e0e7f33eb910
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_CALC_PRIVATE_PIPELINE_STATE_SIZE_0001"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

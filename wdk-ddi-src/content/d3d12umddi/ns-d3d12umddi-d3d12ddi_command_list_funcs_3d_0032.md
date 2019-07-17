@@ -7,6 +7,8 @@ ms.assetid: 9acd83c1-7e9e-4906-bb07-4f9699f76e96
 ms.date: 05/10/2018
 ms.keywords: D3D12DDI_COMMAND_LIST_FUNCS_3D_0032, D3D12DDI_COMMAND_LIST_FUNCS_3D_0032 structure [Display Devices], d3d12umddi/D3D12DDI_COMMAND_LIST_FUNCS_3D_0032, display.d3d12ddi-command-list-funcs-3d-0032
 ms.topic: struct
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_COMMAND_LIST_FUNCS_3D_0032"
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: Windows

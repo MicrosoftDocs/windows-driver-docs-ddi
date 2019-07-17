@@ -8,6 +8,8 @@ ms.assetid: 5297881a-34ba-4fa7-a116-a890ce8b7434
 ms.date: 04/04/2018
 ms.keywords: ContinueAsync, ContinueAsync method [Windows Device Testing Framework], ContinueAsync method [Windows Device Testing Framework],IWDTFSimpleIOStressAction2 interface, IWDTFSimpleIOStressAction2 interface [Windows Device Testing Framework],ContinueAsync method, IWDTFSimpleIOStressAction2.ContinueAsync, IWDTFSimpleIOStressAction2::ContinueAsync, Microsoft.WDTF.IWDTFSimpleIOStressAction2.ContinueAsync, Microsoft::WDTF::IWDTFSimpleIOStressAction2::ContinueAsync, dtf.iwdtfsimpleiostressaction2_continueasync, wdtfinterfaces/IWDTFSimpleIOStressAction2::ContinueAsync
 ms.topic: method
+f1_keywords:
+ - "wdtfinterfaces/IWDTFSimpleIOStressAction2.ContinueAsync"
 req.header: wdtfinterfaces.h
 req.include-header: 
 req.target-type: Desktop

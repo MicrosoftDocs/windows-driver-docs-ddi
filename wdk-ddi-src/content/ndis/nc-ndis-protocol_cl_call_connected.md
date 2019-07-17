@@ -8,6 +8,8 @@ ms.assetid: 675b2066-6a65-47cf-bde7-3c843f97c960
 ms.date: 05/02/2018
 ms.keywords: PROTOCOL_CL_CALL_CONNECTED, PROTOCOL_CL_CALL_CONNECTED callback, ProtocolClCallConnected, ProtocolClCallConnected callback function [Network Drivers Starting with Windows Vista], condis_client_ref_ddc435b4-ff27-4ced-b513-9bba45302496.xml, ndis/ProtocolClCallConnected, netvista.protocolclcallconnected
 ms.topic: callback
+f1_keywords:
+ - "ndis/ProtocolClCallConnected"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

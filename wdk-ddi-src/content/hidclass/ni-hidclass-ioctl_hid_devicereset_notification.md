@@ -8,6 +8,8 @@ ms.assetid: 3A9047BE-C974-45E1-89C7-BF0A5F58DD8B
 ms.date: 04/30/2018
 ms.keywords: IOCTL_HID_DEVICERESET_NOTIFICATION, IOCTL_HID_DEVICERESET_NOTIFICATION control, IOCTL_HID_DEVICERESET_NOTIFICATION control code [Human Input Devices], hid.ioctl_hid_devicereset_notification, hidclass/IOCTL_HID_DEVICERESET_NOTIFICATION
 ms.topic: ioctl
+f1_keywords:
+ - "hidclass/IOCTL_HID_DEVICERESET_NOTIFICATION"
 req.header: hidclass.h
 req.include-header: Hidclass.h
 req.target-type: Windows

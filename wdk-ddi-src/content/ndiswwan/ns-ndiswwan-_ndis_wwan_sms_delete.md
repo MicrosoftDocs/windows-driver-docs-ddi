@@ -8,6 +8,8 @@ ms.assetid: ea13c900-40b2-492b-b14b-85e346208ad8
 ms.date: 05/02/2018
 ms.keywords: "*PNDIS_WWAN_SMS_DELETE, NDIS_WWAN_SMS_DELETE, NDIS_WWAN_SMS_DELETE structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SMS_DELETE, PNDIS_WWAN_SMS_DELETE structure pointer [Network Drivers Starting with Windows Vista], WwanRef_aae03f3f-21d1-42d4-b2dd-008fc07c9964.xml, _NDIS_WWAN_SMS_DELETE, ndiswwan/NDIS_WWAN_SMS_DELETE, ndiswwan/PNDIS_WWAN_SMS_DELETE, netvista.ndis_wwan_sms_delete"
 ms.topic: struct
+f1_keywords:
+ - "ndiswwan/NDIS_WWAN_SMS_DELETE"
 req.header: ndiswwan.h
 req.include-header: Ndiswwan.h
 req.target-type: Windows

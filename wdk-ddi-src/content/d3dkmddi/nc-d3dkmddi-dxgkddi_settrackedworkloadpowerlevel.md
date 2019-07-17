@@ -5,6 +5,8 @@ description: Called by the workload tracker to modify the power level on a conte
 ms.assetid: 57ba5418-457e-4859-adf7-1c3d842de2bc
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmddi/DXGKDDI_SETTRACKEDWORKLOADPOWERLEVEL"
 req.header: d3dkmddi.h
 req.include-header:
 req.target-type:

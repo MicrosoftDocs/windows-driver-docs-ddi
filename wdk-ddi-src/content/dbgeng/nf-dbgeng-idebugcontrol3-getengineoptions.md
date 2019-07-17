@@ -8,6 +8,8 @@ ms.assetid: a64645da-e11a-4568-9865-64eb7463892c
 ms.date: 05/03/2018
 ms.keywords: GetEngineOptions, GetEngineOptions method [Windows Debugging], GetEngineOptions method [Windows Debugging],IDebugControl interface, GetEngineOptions method [Windows Debugging],IDebugControl2 interface, GetEngineOptions method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetEngineOptions method, IDebugControl2 interface [Windows Debugging],GetEngineOptions method, IDebugControl2::GetEngineOptions, IDebugControl3 interface [Windows Debugging],GetEngineOptions method, IDebugControl3.GetEngineOptions, IDebugControl3::GetEngineOptions, IDebugControl::GetEngineOptions, IDebugControl_75edd4f2-c81d-408d-a61a-3c2fcf5932e6.xml, dbgeng/IDebugControl2::GetEngineOptions, dbgeng/IDebugControl3::GetEngineOptions, dbgeng/IDebugControl::GetEngineOptions, debugger.getengineoptions
 ms.topic: method
+f1_keywords:
+ - "dbgeng/IDebugControl.GetEngineOptions"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

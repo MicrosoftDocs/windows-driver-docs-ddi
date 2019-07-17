@@ -8,6 +8,8 @@ ms.assetid: d06ae137-d7e8-4e17-82fb-37e5c5e8ad1e
 ms.date: 05/10/2018
 ms.keywords: VideoPortStartTimer, VideoPortStartTimer function [Display Devices], VideoPort_Functions_1efc50e1-c79e-4ee2-acdf-35cdea97a3b9.xml, display.videoportstarttimer, video/VideoPortStartTimer
 ms.topic: function
+f1_keywords:
+ - "video/VideoPortStartTimer"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

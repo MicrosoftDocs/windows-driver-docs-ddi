@@ -8,6 +8,8 @@ ms.assetid: 057E822B-0C55-4E4A-9207-48FB583E8EAF
 ms.date: 04/23/2018
 ms.keywords: KSPEEKOPERATION, KSPEEKOPERATION enumeration [Streaming Media Devices], KsPeekOperation_AddRef, KsPeekOperation_PeekOnly, ksproxy/KSPEEKOPERATION, ksproxy/KsPeekOperation_AddRef, ksproxy/KsPeekOperation_PeekOnly, stream.kspeekoperation
 ms.topic: enum
+f1_keywords:
+ - "ksproxy/KSPEEKOPERATION"
 req.header: ksproxy.h
 req.include-header: 
 req.target-type: Windows

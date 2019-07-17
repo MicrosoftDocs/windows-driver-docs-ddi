@@ -8,6 +8,8 @@ ms.assetid: 774acafb-c929-483a-82b0-2a358054dc7f
 ms.date: 03/29/2018
 ms.keywords: "*PSendLIRR_IN, PSendLIRR_IN, PSendLIRR_IN structure pointer [Storage Devices], SendLIRR_IN, SendLIRR_IN structure [Storage Devices], _SendLIRR_IN, hbapiwmi/PSendLIRR_IN, hbapiwmi/SendLIRR_IN, storage.sendlirr_in, structs-Fibre_6f0fd3c1-9eb5-4042-b12e-8dd225d966b1.xml"
 ms.topic: struct
+f1_keywords:
+ - "hbapiwmi/SendLIRR_IN"
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h
 req.target-type: Windows

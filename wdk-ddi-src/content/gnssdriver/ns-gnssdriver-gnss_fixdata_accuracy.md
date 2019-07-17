@@ -8,6 +8,8 @@ ms.assetid: 3C08FE5D-1385-4FE3-98C9-9FC530C6C755
 ms.date: 02/15/2018
 ms.keywords: "*PGNSS_FIXDATA_ACCURACY, GNSS_FIXDATA_ACCURACY, GNSS_FIXDATA_ACCURACY structure [Sensor Devices], PGNSS_FIXDATA_ACCURACY, PGNSS_FIXDATA_ACCURACY structure pointer [Sensor Devices], gnss.gnss_fixdata_accuracy, gnssdriver/GNSS_FIXDATA_ACCURACY, gnssdriver/PGNSS_FIXDATA_ACCURACY"
 ms.topic: struct
+f1_keywords:
+ - "gnssdriver/GNSS_FIXDATA_ACCURACY"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows

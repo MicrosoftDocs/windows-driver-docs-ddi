@@ -8,6 +8,8 @@ ms.assetid: 1376CB84-05F6-4903-B245-A00CFA9B228E
 ms.date: 05/07/2018
 ms.keywords: UcmConnectorCreate, UcmConnectorCreate method [Buses], buses.ucmconnectorcreate, ucmmanager/UcmConnectorCreate
 ms.topic: function
+f1_keywords:
+ - "ucmmanager/UcmConnectorCreate"
 req.header: ucmmanager.h
 req.include-header: Ucmcx.h
 req.target-type: Windows

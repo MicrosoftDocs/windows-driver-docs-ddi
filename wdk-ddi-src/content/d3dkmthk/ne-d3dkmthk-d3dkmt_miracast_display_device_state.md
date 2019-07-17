@@ -5,6 +5,8 @@ description: Miracast display device state.
 ms.assetid: 266068fa-5ac9-4c83-8425-cb4efcfd6bce
 ms.date: 10/19/2018
 ms.topic: enum
+f1_keywords:
+ - "d3dkmthk/D3DKMT_MIRACAST_DISPLAY_DEVICE_STATE"
 ms.keywords: D3DKMT_MIRACAST_DISPLAY_DEVICE_STATE, D3DKMT_MIRACAST_DISPLAY_DEVICE_STATE, 
 req.header: d3dkmthk.h
 req.include-header:

@@ -5,6 +5,8 @@ description: Gets the available tracked workload index.
 ms.assetid: 8a64867d-86b3-4d6e-a029-06ae7437133b
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/_D3DKMT_GETAVAILABLETRACKEDWORKLOADINDEX"
 ms.keywords: _D3DKMT_GETAVAILABLETRACKEDWORKLOADINDEX, D3DKMT_GETAVAILABLETRACKEDWORKLOADINDEX, 
 req.header: d3dkmthk.h
 req.include-header:

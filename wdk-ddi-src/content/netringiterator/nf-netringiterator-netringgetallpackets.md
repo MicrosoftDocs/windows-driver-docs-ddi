@@ -8,6 +8,8 @@ ms.assetid: a218f2b3-25a7-45e0-88f7-48ed7f92a289
 ms.author: windowsdriverdev
 ms.date: 02/01/2019
 ms.topic: function
+f1_keywords:
+ - "netringiterator/NetRingGetAllPackets"
 ms.keywords: NetRingGetAllPackets
 req.header: netringiterator.h
 req.include-header:

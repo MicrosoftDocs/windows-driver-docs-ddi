@@ -8,6 +8,8 @@ ms.assetid: a06bbe25-9841-4aeb-9d51-257dd1472027
 ms.date: 04/16/2018
 ms.keywords: CcUnpinData, CcUnpinData routine [Installable File System Drivers], ccref_ba560a38-4d3b-409f-b1ea-19c3a117615e.xml, ifsk.ccunpindata, ntifs/CcUnpinData
 ms.topic: function
+f1_keywords:
+ - "ntifs/CcUnpinData"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

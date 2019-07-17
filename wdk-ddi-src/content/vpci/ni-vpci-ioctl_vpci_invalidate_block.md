@@ -8,6 +8,8 @@ ms.assetid: 66D1626A-7F22-48B8-8DB3-7B6E1634BABE
 ms.date: 02/24/2018
 ms.keywords: IOCTL_VPCI_INVALIDATE_BLOCK, IOCTL_VPCI_INVALIDATE_BLOCK control code, PCI.IOCTL_VPCI_INVALIDATE_BLOCK, vpci/IOCTL_VPCI_INVALIDATE_BLOCK
 ms.topic: ioctl
+f1_keywords:
+ - "vpci/IOCTL_VPCI_INVALIDATE_BLOCK"
 req.header: vpci.h
 req.include-header: Wdm.h
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: 770659f4-701f-47dc-b20f-e51c85cdee4b
 ms.date: 05/07/2018
 ms.keywords: "_URB_CONTROL_DESCRIPTOR_REQUEST, _URB_CONTROL_DESCRIPTOR_REQUEST structure [Buses], buses._urb_control_descriptor_request, usb/_URB_CONTROL_DESCRIPTOR_REQUEST, usbstrct_f28020e9-3fa4-466c-8cc5-5630d3b06d9c.xml"
 ms.topic: struct
+f1_keywords:
+ - "usb/_URB_CONTROL_DESCRIPTOR_REQUEST"
 req.header: usb.h
 req.include-header: Usb.h
 req.target-type: Windows

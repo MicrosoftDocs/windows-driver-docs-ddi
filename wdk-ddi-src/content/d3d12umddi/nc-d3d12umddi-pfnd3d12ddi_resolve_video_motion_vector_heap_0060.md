@@ -8,6 +8,8 @@ ms.assetid: 45c9cf09-be26-45e3-a78f-c27778448da8
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_RESOLVE_VIDEO_MOTION_VECTOR_HEAP_0060"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 req.header: d3d12umddi.h

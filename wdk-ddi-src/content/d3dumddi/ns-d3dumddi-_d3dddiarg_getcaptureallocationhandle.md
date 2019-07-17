@@ -8,6 +8,8 @@ ms.assetid: 588ebf7a-db83-4eb8-8403-04b215bed12b
 ms.date: 05/10/2018
 ms.keywords: D3DDDIARG_GETCAPTUREALLOCATIONHANDLE, D3DDDIARG_GETCAPTUREALLOCATIONHANDLE structure [Display Devices], UMDisplayDriver_param_Structs_8fece49c-e3e6-4683-b4af-517da6f73cc7.xml, _D3DDDIARG_GETCAPTUREALLOCATIONHANDLE, d3dumddi/D3DDDIARG_GETCAPTUREALLOCATIONHANDLE, display.d3dddiarg_getcaptureallocationhandle
 ms.topic: struct
+f1_keywords:
+ - "d3dumddi/D3DDDIARG_GETCAPTUREALLOCATIONHANDLE"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

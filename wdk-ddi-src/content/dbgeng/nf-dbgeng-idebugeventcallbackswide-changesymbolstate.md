@@ -8,6 +8,8 @@ ms.assetid: ea331612-5c48-4320-a658-101c3d93e7be
 ms.date: 05/03/2018
 ms.keywords: ChangeSymbolState, ChangeSymbolState method [Windows Debugging], ChangeSymbolState method [Windows Debugging],IDebugEventCallbacksWide interface, IDebugEventCallbacksWide interface [Windows Debugging],ChangeSymbolState method, IDebugEventCallbacksWide.ChangeSymbolState, IDebugEventCallbacksWide::ChangeSymbolState, dbgeng/IDebugEventCallbacksWide::ChangeSymbolState, debugger.idebugeventcallbackswide_changesymbolstate
 ms.topic: method
+f1_keywords:
+ - "dbgeng/IDebugEventCallbacksWide.ChangeSymbolState"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

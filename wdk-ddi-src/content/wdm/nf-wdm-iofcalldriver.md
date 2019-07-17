@@ -5,6 +5,8 @@ description: Call **IoCallDriver** instead. Sends an IRP to the driver associate
 ms.assetid: e241d188-273d-430a-9c27-403ddc6fa450
 ms.date: 04/30/2018
 ms.topic: function
+f1_keywords:
+ - "wdm/IofCallDriver"
 ms.keywords: IofCallDriver, IoCallDriver, IoCallDriver routine [Kernel-Mode Driver Architecture], k104_8579a946-2f96-455f-825c-c3f86caba99c.xml, kernel.iocalldriver, wdm/IoCallDriver
 req.header: wdm.h
 req.include-header:  Wdm.h, Ntddk.h, Ntifs.h

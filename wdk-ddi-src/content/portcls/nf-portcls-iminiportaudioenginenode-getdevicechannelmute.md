@@ -8,6 +8,8 @@ ms.assetid: 60CEBF40-25D3-49F0-A4BF-40440E1A3EE6
 ms.date: 05/08/2018
 ms.keywords: GetDeviceChannelMute, GetDeviceChannelMute method [Audio Devices], GetDeviceChannelMute method [Audio Devices],IMiniportAudioEngineNode interface, IMiniportAudioEngineNode interface [Audio Devices],GetDeviceChannelMute method, IMiniportAudioEngineNode.GetDeviceChannelMute, IMiniportAudioEngineNode::GetDeviceChannelMute, audio.iminiportaudioenginenode_getdevicechannelmute, portcls/IMiniportAudioEngineNode::GetDeviceChannelMute
 ms.topic: method
+f1_keywords:
+ - "portcls/IMiniportAudioEngineNode.GetDeviceChannelMute"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Universal

@@ -8,6 +8,8 @@ ms.assetid: 4054c805-5307-41f4-a7ff-65743ae4be69
 ms.date: 04/20/2018
 ms.keywords: OEMPaint, OEMPaint function [Print Devices], print.oempaint, print_unidrv-pscript_rendering_c9624a47-02fd-4eba-80d9-4035713ac594.xml, printoem/OEMPaint
 ms.topic: function
+f1_keywords:
+ - "printoem/OEMPaint"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows

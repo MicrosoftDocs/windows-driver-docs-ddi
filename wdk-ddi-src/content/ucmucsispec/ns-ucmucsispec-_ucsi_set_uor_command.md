@@ -6,6 +6,8 @@ ms.assetid: 7c2d1d18-6d86-43b3-aed9-e2660ee0d210
 tech.root: usbref
 ms.date: 09/30/2018
 ms.topic: struct
+f1_keywords:
+ - "ucmucsispec/_UCSI_SET_UOR_COMMAND"
 ms.keywords: _UCSI_SET_UOR_COMMAND, UCSI_SET_UOR_COMMAND, *PUCSI_SET_UOR_COMMAND, 
 req.header: ucmucsispec.h
 req.include-header: UcmUcsiCx.h 

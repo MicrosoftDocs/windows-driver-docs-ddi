@@ -8,6 +8,8 @@ ms.assetid: a776069c-0cbb-4ae9-bf6b-1d300dbcec34
 ms.date: 02/26/2018
 ms.keywords: IWDFDeviceInitialize, IWDFDeviceInitialize interface, IWDFDeviceInitialize interface,described, UMDFDeviceObjectRef_b63038ef-0e6e-4417-96de-0c3f5ec1866e.xml, umdf.iwdfdeviceinitialize, wdf.iwdfdeviceinitialize, wudfddi/IWDFDeviceInitialize
 ms.topic: interface
+f1_keywords:
+ - "wudfddi/IWDFDeviceInitialize"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

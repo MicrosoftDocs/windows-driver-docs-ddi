@@ -8,6 +8,8 @@ ms.assetid: 37e96d41-3a8c-429a-a8fd-463f9be5555f
 ms.date: 05/07/2018
 ms.keywords: GET_ISO_URB_SIZE, GET_ISO_URB_SIZE macro [Buses], buses.get_iso_urb_size, usbdlib/GET_ISO_URB_SIZE, usbfunc_949a4f14-4bc8-4ba1-821c-f81c6bcec0fa.xml
 ms.topic: macro
+f1_keywords:
+ - "usbdlib/GET_ISO_URB_SIZE"
 req.header: usbdlib.h
 req.include-header: Usbdlib.h
 req.target-type: Windows

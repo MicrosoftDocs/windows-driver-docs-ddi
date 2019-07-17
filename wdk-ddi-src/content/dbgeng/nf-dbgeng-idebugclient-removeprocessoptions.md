@@ -8,6 +8,8 @@ ms.assetid: 8b2cf167-d1bd-440e-beb4-5159b8b13073
 ms.date: 05/03/2018
 ms.keywords: IDebugClient interface [Windows Debugging],RemoveProcessOptions method, IDebugClient.RemoveProcessOptions, IDebugClient2 interface [Windows Debugging],RemoveProcessOptions method, IDebugClient2::RemoveProcessOptions, IDebugClient3 interface [Windows Debugging],RemoveProcessOptions method, IDebugClient3::RemoveProcessOptions, IDebugClient4 interface [Windows Debugging],RemoveProcessOptions method, IDebugClient4::RemoveProcessOptions, IDebugClient5 interface [Windows Debugging],RemoveProcessOptions method, IDebugClient5::RemoveProcessOptions, IDebugClient::RemoveProcessOptions, IDebugClient_eafb8a9c-18a4-4737-8ece-955596338fe5.xml, RemoveProcessOptions, RemoveProcessOptions method [Windows Debugging], RemoveProcessOptions method [Windows Debugging],IDebugClient interface, RemoveProcessOptions method [Windows Debugging],IDebugClient2 interface, RemoveProcessOptions method [Windows Debugging],IDebugClient3 interface, RemoveProcessOptions method [Windows Debugging],IDebugClient4 interface, RemoveProcessOptions method [Windows Debugging],IDebugClient5 interface, dbgeng/IDebugClient2::RemoveProcessOptions, dbgeng/IDebugClient3::RemoveProcessOptions, dbgeng/IDebugClient4::RemoveProcessOptions, dbgeng/IDebugClient5::RemoveProcessOptions, dbgeng/IDebugClient::RemoveProcessOptions, debugger.removeprocessoptions
 ms.topic: method
+f1_keywords:
+ - "dbgeng/IDebugClient.RemoveProcessOptions"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

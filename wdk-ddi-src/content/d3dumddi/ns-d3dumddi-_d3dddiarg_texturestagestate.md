@@ -8,6 +8,8 @@ ms.assetid: 4810ec13-ec58-4ed6-ae4f-6690bd72cd8a
 ms.date: 05/10/2018
 ms.keywords: D3DDDIARG_TEXTURESTAGESTATE, D3DDDIARG_TEXTURESTAGESTATE structure [Display Devices], UMDisplayDriver_param_Structs_320d722f-2fbb-4fca-a06c-02e1be6e0190.xml, _D3DDDIARG_TEXTURESTAGESTATE, d3dumddi/D3DDDIARG_TEXTURESTAGESTATE, display.d3dddiarg_texturestagestate
 ms.topic: struct
+f1_keywords:
+ - "d3dumddi/D3DDDIARG_TEXTURESTAGESTATE"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

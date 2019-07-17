@@ -5,6 +5,8 @@ description: Defines the kind of an intrinsic (basic) type.  This is distinct fr
 ms.assetid: c1a4180d-3606-46d5-811c-ee0e7cd5a96c
 ms.date: 07/16/2018
 ms.topic: enum
+f1_keywords:
+ - "dbgmodel/IntrinsicKind"
 ms.keywords: IntrinsicKind, , 
 req.header: dbgmodel.h
 req.include-header:

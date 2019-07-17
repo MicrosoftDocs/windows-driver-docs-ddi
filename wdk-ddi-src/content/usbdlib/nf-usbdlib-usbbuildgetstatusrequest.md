@@ -8,6 +8,8 @@ ms.assetid: 7a5fcb4f-fc9a-4ebb-93ef-b83461557b22
 ms.date: 05/07/2018
 ms.keywords: UsbBuildGetStatusRequest, UsbBuildGetStatusRequest routine [Buses], buses.usbbuildgetstatusrequest, usbdlib/UsbBuildGetStatusRequest, usbfunc_a99bf737-8bb6-4000-af2b-ac076a4ffc8e.xml
 ms.topic: macro
+f1_keywords:
+ - "usbdlib/UsbBuildGetStatusRequest"
 req.header: usbdlib.h
 req.include-header: Usbdlib.h
 req.target-type: Desktop

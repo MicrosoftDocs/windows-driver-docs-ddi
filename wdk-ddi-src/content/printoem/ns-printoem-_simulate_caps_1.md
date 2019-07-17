@@ -8,6 +8,8 @@ ms.assetid: 17f5d8bf-a3e7-4ff5-9019-24c66875b786
 ms.date: 04/20/2018
 ms.keywords: "*PSIMULATE_CAPS_1, PSIMULATE_CAPS_1, PSIMULATE_CAPS_1 structure pointer [Print Devices], SIMULATE_CAPS_1, SIMULATE_CAPS_1 structure [Print Devices], _SIMULATE_CAPS_1, print.simulate_caps_1, print_interface-graphics_cb1ba0de-be04-4b11-a746-97fd3f2bc213.xml, printoem/PSIMULATE_CAPS_1, printoem/SIMULATE_CAPS_1"
 ms.topic: struct
+f1_keywords:
+ - "printoem/SIMULATE_CAPS_1"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows

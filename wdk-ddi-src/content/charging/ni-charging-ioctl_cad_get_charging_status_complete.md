@@ -8,6 +8,8 @@ ms.assetid: 715F1DF3-C3CF-4662-8095-22ECA0E45796
 ms.date: 02/15/2018
 ms.keywords: IOCTL_CAD_GET_CHARGING_STATUS_COMPLETE, IOCTL_CAD_GET_CHARGING_STATUS_COMPLETE control, IOCTL_CAD_GET_CHARGING_STATUS_COMPLETE control code [Battery Devices], battery.ioctl_cad_get_charging_status_complete, charging/IOCTL_CAD_GET_CHARGING_STATUS_COMPLETE
 ms.topic: ioctl
+f1_keywords:
+ - "charging/IOCTL_CAD_GET_CHARGING_STATUS_COMPLETE"
 req.header: charging.h
 req.include-header: 
 req.target-type: Windows

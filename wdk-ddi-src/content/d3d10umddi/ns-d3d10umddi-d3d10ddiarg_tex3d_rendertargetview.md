@@ -7,6 +7,8 @@ ms.assetid: 2feff5f5-a104-4738-94be-add08fd99037
 ms.date: 05/10/2018
 ms.keywords: D3D10DDIARG_TEX3D_RENDERTARGETVIEW, D3D10DDIARG_TEX3D_RENDERTARGETVIEW structure [Display Devices], UMDisplayDriver_Dx10param_Structs_705e661d-890a-45db-a805-60d2c2cbde6f.xml, d3d10umddi/D3D10DDIARG_TEX3D_RENDERTARGETVIEW, display.d3d10ddiarg_tex3d_rendertargetview
 ms.topic: struct
+f1_keywords:
+ - "d3d10umddi/D3D10DDIARG_TEX3D_RENDERTARGETVIEW"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows

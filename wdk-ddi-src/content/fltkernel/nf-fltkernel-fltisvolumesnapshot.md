@@ -8,6 +8,8 @@ ms.assetid: eb35e108-577e-4897-8f8c-f3c54753c1f7
 ms.date: 04/16/2018
 ms.keywords: FltApiRef_e_to_o_652c8b18-8114-460b-852f-9c6bc8ff687f.xml, FltIsVolumeSnapshot, FltIsVolumeSnapshot routine [Installable File System Drivers], fltkernel/FltIsVolumeSnapshot, ifsk.fltisvolumesnapshot
 ms.topic: function
+f1_keywords:
+ - "fltkernel/FltIsVolumeSnapshot"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

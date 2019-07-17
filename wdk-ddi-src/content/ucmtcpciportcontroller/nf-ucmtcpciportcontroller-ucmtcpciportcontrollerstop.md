@@ -8,6 +8,8 @@ ms.assetid: 5d1dd418-5a2f-448f-ae65-695c4f97ff29
 ms.date: 05/07/2018
 ms.keywords: UcmTcpciPortControllerStop, UcmTcpciPortControllerStop method [Buses], buses.ucmtcpciportcontrollerstop, ucmtcpciportcontroller/UcmTcpciPortControllerStop
 ms.topic: function
+f1_keywords:
+ - "ucmtcpciportcontroller/UcmTcpciPortControllerStop"
 req.header: ucmtcpciportcontroller.h
 req.include-header: 
 req.target-type: Windows

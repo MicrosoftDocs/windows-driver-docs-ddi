@@ -8,6 +8,8 @@ ms.assetid: d61d7f58-281c-4c82-a579-aaedbf507bae
 ms.date: 04/20/2018
 ms.keywords: IBidiSpl interface [Print Devices],MultiSendRecv method, IBidiSpl.MultiSendRecv, IBidiSpl::MultiSendRecv, MultiSendRecv, MultiSendRecv method [Print Devices], MultiSendRecv method [Print Devices],IBidiSpl interface, _win32_IBidiSpl_MultiSendRecv, bidispl/IBidiSpl::MultiSendRecv, gdi.ibidispl_ibidispl__multisendrecv, print.ibidispl_ibidispl__multisendrecv
 ms.topic: method
+f1_keywords:
+ - "bidispl/IBidiSpl.MultiSendRecv"
 req.header: bidispl.h
 req.include-header: 
 req.target-type: Desktop

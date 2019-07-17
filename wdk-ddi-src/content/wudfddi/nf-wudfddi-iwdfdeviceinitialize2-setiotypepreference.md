@@ -8,6 +8,8 @@ ms.assetid: 7d79f34d-42aa-4ac7-a63d-2f17ee0dfcf0
 ms.date: 02/26/2018
 ms.keywords: IWDFDeviceInitialize2 interface,SetIoTypePreference method, IWDFDeviceInitialize2.SetIoTypePreference, IWDFDeviceInitialize2::SetIoTypePreference, SetIoTypePreference, SetIoTypePreference method, SetIoTypePreference method,IWDFDeviceInitialize2 interface, UMDFDeviceObjectRef_33317875-3e52-47fc-9d6b-0e886f802dde.xml, umdf.iwdfdeviceinitialize2_setiotypepreference, wdf.iwdfdeviceinitialize2_setiotypepreference, wudfddi/IWDFDeviceInitialize2::SetIoTypePreference
 ms.topic: method
+f1_keywords:
+ - "wudfddi/IWDFDeviceInitialize2.SetIoTypePreference"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

@@ -8,6 +8,8 @@ ms.assetid: eaff92d2-d866-4096-8528-0672255ced60
 ms.date: 04/16/2018
 ms.keywords: RxpTrackDereference, RxpTrackDereference function [Installable File System Drivers], fcb/RxpTrackDereference, ifsk.rxptrackdereference, rxref_60f3cce5-bd6b-47b9-a6cc-85b5ee027934.xml
 ms.topic: function
+f1_keywords:
+ - "fcb/RxpTrackDereference"
 req.header: fcb.h
 req.include-header: Fcb.h
 req.target-type: Desktop

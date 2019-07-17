@@ -8,6 +8,8 @@ ms.assetid: 3f7f904c-1d5e-4647-a566-1ec447a4cd13
 ms.date: 02/15/2018
 ms.keywords: IOCTL_ACPI_EVAL_METHOD, IOCTL_ACPI_EVAL_METHOD control, IOCTL_ACPI_EVAL_METHOD control code [ACPI Devices], acpi-meth-eval-ref_6908d1cb-5ac2-4251-8363-25530ebd542a.xml, acpi.ioctl_acpi_eval_method, acpiioct/IOCTL_ACPI_EVAL_METHOD
 ms.topic: ioctl
+f1_keywords:
+ - "acpiioct/IOCTL_ACPI_EVAL_METHOD"
 req.header: acpiioct.h
 req.include-header: Acpiioct.h
 req.target-type: Windows

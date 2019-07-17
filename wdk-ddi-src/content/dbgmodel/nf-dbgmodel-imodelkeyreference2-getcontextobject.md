@@ -5,6 +5,8 @@ description: The GetContextObject method returns the context (this pointer) whic
 ms.assetid: b54a6fc4-daaa-4832-ad64-0b4830f4353e
 ms.date: 08/14/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IModelKeyReference2.GetContextObject"
 ms.keywords: IModelKeyReference2::GetContextObject, GetContextObject, IModelKeyReference2.GetContextObject, IModelKeyReference2::GetContextObject, IModelKeyReference2.GetContextObject
 req.header: dbgmodel.h
 req.include-header:

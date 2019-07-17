@@ -8,6 +8,8 @@ ms.assetid: a1625eb2-a38b-4517-b873-f33b5ced8705
 ms.date: 04/23/2018
 ms.keywords: "*PKSPROCESSPIN, KSPROCESSPIN, KSPROCESSPIN structure [Streaming Media Devices], PKSPROCESSPIN, PKSPROCESSPIN structure pointer [Streaming Media Devices], _KSPROCESSPIN, avstruct_a374bc58-a61f-4d3b-9b20-de14b7cc423f.xml, ks/KSPROCESSPIN, ks/PKSPROCESSPIN, stream.ksprocesspin"
 ms.topic: struct
+f1_keywords:
+ - "ks/KSPROCESSPIN"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows

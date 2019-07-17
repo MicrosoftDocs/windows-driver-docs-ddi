@@ -8,6 +8,8 @@ ms.assetid: EC94E27C-C863-49F0-B13C-B661E96991B7
 ms.date: 02/23/2018
 ms.keywords: RECORDER_LOG_CREATE_PARAMS_INIT_APPEND_POINTER, RECORDER_LOG_CREATE_PARAMS_INIT_APPEND_POINTER function [Driver Development Tools], devtest.recorder_log_create_params_init_append_pointer, wpprecorder/RECORDER_LOG_CREATE_PARAMS_INIT_APPEND_POINTER
 ms.topic: function
+f1_keywords:
+ - "wpprecorder/RECORDER_LOG_CREATE_PARAMS_INIT_APPEND_POINTER"
 req.header: wpprecorder.h
 req.include-header: 
 req.target-type: Windows

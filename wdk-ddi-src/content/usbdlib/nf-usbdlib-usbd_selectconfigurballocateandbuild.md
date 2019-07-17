@@ -8,6 +8,8 @@ ms.assetid: 2B2F721C-9201-472B-8629-352CB212235C
 ms.date: 05/07/2018
 ms.keywords: USBD_SelectConfigUrbAllocateAndBuild, USBD_SelectConfigUrbAllocateAndBuild routine [Buses], buses.usbd_selectconfigurballocateandbuild, usbdlib/USBD_SelectConfigUrbAllocateAndBuild
 ms.topic: function
+f1_keywords:
+ - "usbdlib/USBD_SelectConfigUrbAllocateAndBuild"
 req.header: usbdlib.h
 req.include-header: 
 req.target-type: Desktop

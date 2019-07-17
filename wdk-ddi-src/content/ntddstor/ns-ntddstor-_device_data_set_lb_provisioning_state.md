@@ -8,6 +8,8 @@ ms.assetid: 99FBD363-0999-4AEE-A222-69C0FB71D248
 ms.date: 03/29/2018
 ms.keywords: "*PDEVICE_DATA_SET_LB_PROVISIONING_STATE, DEVICE_DATA_SET_LB_PROVISIONING_STATE, DEVICE_DATA_SET_LB_PROVISIONING_STATE structure [Storage Devices], PDEVICE_DATA_SET_LB_PROVISIONING_STATE, PDEVICE_DATA_SET_LB_PROVISIONING_STATE structure pointer [Storage Devices], _DEVICE_DATA_SET_LB_PROVISIONING_STATE, ntddstor/DEVICE_DATA_SET_LB_PROVISIONING_STATE, ntddstor/PDEVICE_DATA_SET_LB_PROVISIONING_STATE, storage.device_data_set_lb_provisioning_state"
 ms.topic: struct
+f1_keywords:
+ - "ntddstor/DEVICE_DATA_SET_LB_PROVISIONING_STATE"
 req.header: ntddstor.h
 req.include-header: Ntddstor.h
 req.target-type: Windows

@@ -5,6 +5,8 @@ description: Implemented by the client driver to retrieve the D3D12DDI_DEVICE_FU
 ms.assetid: af03fe9b-c950-4045-9234-0e8700262854
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_FILLDDITTABLE"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

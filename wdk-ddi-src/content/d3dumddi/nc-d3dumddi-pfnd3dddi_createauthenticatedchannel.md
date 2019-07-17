@@ -8,6 +8,8 @@ ms.assetid: 0a565bff-fc6f-41c1-a6fd-3a82dd0d7889
 ms.date: 05/10/2018
 ms.keywords: CreateAuthenticatedChannel, CreateAuthenticatedChannel callback function [Display Devices], PFND3DDDI_CREATEAUTHENTICATEDCHANNEL, PFND3DDDI_CREATEAUTHENTICATEDCHANNEL callback, UserModeDisplayDriver_Functions_5645674c-e4e5-4b9c-9cbf-588b829df423.xml, d3dumddi/CreateAuthenticatedChannel, display.createauthenticatedchannel
 ms.topic: callback
+f1_keywords:
+ - "d3dumddi/CreateAuthenticatedChannel"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop

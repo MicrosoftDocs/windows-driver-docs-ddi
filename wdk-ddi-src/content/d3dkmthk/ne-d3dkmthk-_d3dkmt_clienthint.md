@@ -5,6 +5,8 @@ description: Client hints.
 ms.assetid: dc5a7042-db2b-4a45-8000-8b81e18df5db
 ms.date: 10/19/2018
 ms.topic: enum
+f1_keywords:
+ - "d3dkmthk/_D3DKMT_CLIENTHINT"
 ms.keywords: _D3DKMT_CLIENTHINT, D3DKMT_CLIENTHINT, 
 req.header: d3dkmthk.h
 req.include-header:

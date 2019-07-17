@@ -8,6 +8,8 @@ ms.assetid: 4b1028a1-8c86-4958-a19f-32c490dda790
 ms.date: 04/23/2018
 ms.keywords: KStrClockGetPhysicalTime, KStrClockGetTime, PFNKSCLOCK_GETTIME, SystemClockGetTime, SystemClockGetTime routine [Streaming Media Devices], ks/SystemClockGetTime, ksfunc_a60a332c-ffc8-4969-9e81-cccaac9b5c0a.xml, stream.kstrclockgettime
 ms.topic: callback
+f1_keywords:
+ - "ks/SystemClockGetTime"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop

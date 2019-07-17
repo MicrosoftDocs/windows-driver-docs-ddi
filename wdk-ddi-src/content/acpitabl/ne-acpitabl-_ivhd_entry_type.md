@@ -5,6 +5,8 @@ description: Enumerates the I/O Virtualization Hardware Definition (IVHD) entry 
 ms.assetid: 0d338e2b-c212-4a24-9152-f176a7391ef3
 ms.date: 10/01/2018
 ms.topic: enum
+f1_keywords:
+ - "acpitabl/_IVHD_ENTRY_TYPE"
 ms.keywords: _IVHD_ENTRY_TYPE, IVRS_TABLE_TYPE, 
 req.header: acpitabl.h
 req.include-header:

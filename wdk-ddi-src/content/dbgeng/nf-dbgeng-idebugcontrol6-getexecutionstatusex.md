@@ -8,6 +8,8 @@ ms.assetid: C14A3106-AEF7-4BA2-9E21-32D8B2D5BD7E
 ms.date: 05/03/2018
 ms.keywords: GetExecutionStatusEx, GetExecutionStatusEx method [Windows Debugging], GetExecutionStatusEx method [Windows Debugging],IDebugControl6 interface, IDebugControl6 interface [Windows Debugging],GetExecutionStatusEx method, IDebugControl6.GetExecutionStatusEx, IDebugControl6::GetExecutionStatusEx, dbgeng/IDebugControl6::GetExecutionStatusEx, debugger.idebugcontrol6_getexecutionstatusex
 ms.topic: method
+f1_keywords:
+ - "dbgeng/IDebugControl6.GetExecutionStatusEx"
 req.header: dbgeng.h
 req.include-header: 
 req.target-type: Desktop

@@ -8,6 +8,8 @@ ms.assetid: B6C3E94F-AFC9-45EC-91F1-F0E3586DBDA1
 ms.date: 02/26/2018
 ms.keywords: WdfUsbTargetDeviceQueryUsbCapability, WdfUsbTargetDeviceQueryUsbCapability method, kmdf.wdfusbtargetdevicequeryusbcapability, wdf.wdfusbtargetdevicequeryusbcapability, wdfusb/WdfUsbTargetDeviceQueryUsbCapability
 ms.topic: function
+f1_keywords:
+ - "wdfusb/WdfUsbTargetDeviceQueryUsbCapability"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal

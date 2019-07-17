@@ -8,6 +8,8 @@ ms.assetid: e8db3009-7941-4fcc-a888-22c887bf59d5
 ms.date: 04/30/2018
 ms.keywords: CmCallbackGetKeyObjectID, CmCallbackGetKeyObjectID routine [Kernel-Mode Driver Architecture], ConfigMgrRef_dbab8a69-78b4-4ae8-8409-e62e62ea8b9e.xml, kernel.cmcallbackgetkeyobjectid, wdm/CmCallbackGetKeyObjectID
 ms.topic: function
+f1_keywords:
+ - "wdm/CmCallbackGetKeyObjectID"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

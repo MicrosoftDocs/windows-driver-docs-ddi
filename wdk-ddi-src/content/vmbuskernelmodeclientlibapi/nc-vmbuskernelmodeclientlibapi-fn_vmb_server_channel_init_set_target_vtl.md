@@ -5,6 +5,8 @@ description: The VmbServerChannelInitSetTargetVtl function sets the target VTL f
 ms.assetid: dde46e18-27a0-4d4d-85bc-1bd05d61d5a1
 ms.date: 09/13/2018
 ms.topic: callback
+f1_keywords:
+ - "vmbuskernelmodeclientlibapi/FN_VMB_SERVER_CHANNEL_INIT_SET_TARGET_VTL"
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header:
 req.target-type:

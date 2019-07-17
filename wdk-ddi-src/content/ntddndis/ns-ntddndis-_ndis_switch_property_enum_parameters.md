@@ -8,6 +8,8 @@ ms.assetid: f133f6cc-6e09-4eb8-b6fe-50d207391621
 ms.date: 05/02/2018
 ms.keywords: "*PNDIS_SWITCH_PROPERTY_ENUM_PARAMETERS, NDIS_SWITCH_PROPERTY_ENUM_PARAMETERS, NDIS_SWITCH_PROPERTY_ENUM_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_PROPERTY_ENUM_PARAMETERS, PNDIS_SWITCH_PROPERTY_ENUM_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_PROPERTY_ENUM_PARAMETERS, netvista.ndis_switch_property_enum_parameters, ntddndis/NDIS_SWITCH_PROPERTY_ENUM_PARAMETERS, ntddndis/PNDIS_SWITCH_PROPERTY_ENUM_PARAMETERS"
 ms.topic: struct
+f1_keywords:
+ - "ntddndis/NDIS_SWITCH_PROPERTY_ENUM_PARAMETERS"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

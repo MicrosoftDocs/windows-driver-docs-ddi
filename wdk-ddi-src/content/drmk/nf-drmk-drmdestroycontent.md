@@ -8,6 +8,8 @@ ms.assetid: 197f74f8-050e-4b0b-a95d-f640c565c17e
 ms.date: 05/08/2018
 ms.keywords: DrmDestroyContent, DrmDestroyContent function [Audio Devices], aud-prop2_cfaec95c-a7e5-4488-a56d-323ebc577d90.xml, audio.drmdestroycontent, drmk/DrmDestroyContent
 ms.topic: function
+f1_keywords:
+ - "drmk/DrmDestroyContent"
 req.header: drmk.h
 req.include-header: Drmk.h
 req.target-type: Universal

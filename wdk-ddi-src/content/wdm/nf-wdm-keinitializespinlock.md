@@ -8,6 +8,8 @@ ms.assetid: 84962db0-55ed-443c-84e3-2d8f3e9ec1d7
 ms.date: 04/30/2018
 ms.keywords: KeInitializeSpinLock, KeInitializeSpinLock routine [Kernel-Mode Driver Architecture], k105_715eff59-827a-4d41-8e3a-2ce0d1f1181d.xml, kernel.keinitializespinlock, wdm/KeInitializeSpinLock
 ms.topic: function
+f1_keywords:
+ - "wdm/KeInitializeSpinLock"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 588df434-c3f8-4a4a-a9ae-330a825c1d48
 ms.date: 02/09/2018
 ms.topic: function
+f1_keywords:
+ - "netrxqueue/NetRxQueueInitGetQueueId"
 ms.keywords: NetRxQueueInitGetQueueId
 req.header: netrxqueue.h
 req.include-header: netadaptercx.h

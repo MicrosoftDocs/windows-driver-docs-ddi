@@ -5,6 +5,8 @@ description: Compares this object to another (of arbitrary type) for equality.  
 ms.assetid: 846d56f6-e5e2-411d-ae4b-5dc1e31e3221
 ms.date: 09/26/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IEquatableConcept.AreObjectsEqual"
 ms.keywords: IEquatableConcept::AreObjectsEqual, AreObjectsEqual, IEquatableConcept.AreObjectsEqual, IEquatableConcept::AreObjectsEqual, IEquatableConcept.AreObjectsEqual
 req.header: dbgmodel.h
 req.include-header:

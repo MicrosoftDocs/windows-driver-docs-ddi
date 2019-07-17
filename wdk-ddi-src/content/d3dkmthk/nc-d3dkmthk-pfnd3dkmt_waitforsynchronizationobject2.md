@@ -5,6 +5,8 @@ description: The PFND3DKMT_WAITFORSYNCHRONIZATIONOBJECT2 callback function inser
 ms.assetid: 452cf763-07c3-4338-ae71-7e7dbd52dc29
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/PFND3DKMT_WAITFORSYNCHRONIZATIONOBJECT2"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

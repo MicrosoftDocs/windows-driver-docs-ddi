@@ -8,6 +8,8 @@ ms.assetid: 023b0a03-a572-459b-a1eb-b25fcde6ecc5
 ms.date: 05/08/2018
 ms.keywords: IUnregisterSubdevice, IUnregisterSubdevice interface [Audio Devices], IUnregisterSubdevice interface [Audio Devices],described, audio.iunregistersubdevice, audmp-routines_1af8aada-2816-4e82-abe4-579ba672866b.xml, portcls/IUnregisterSubdevice
 ms.topic: interface
+f1_keywords:
+ - "portcls/IUnregisterSubdevice"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Windows

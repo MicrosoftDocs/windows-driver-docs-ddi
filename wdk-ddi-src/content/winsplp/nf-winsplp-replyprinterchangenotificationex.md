@@ -8,6 +8,8 @@ ms.assetid: A3A906C0-FA96-4008-B904-1DA333B59833
 ms.date: 04/20/2018
 ms.keywords: ReplyPrinterChangeNotificationEx, ReplyPrinterChangeNotificationEx function [Print Devices], print.replyprinterchangenotificationex, winsplp/ReplyPrinterChangeNotificationEx
 ms.topic: function
+f1_keywords:
+ - "winsplp/ReplyPrinterChangeNotificationEx"
 req.header: winsplp.h
 req.include-header: 
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: 18322d1f-9fc9-43f0-925e-616731845792
 ms.date: 05/03/2018
 ms.keywords: "*PRANGEVALUE, MicroDrv_8569166c-7a4e-47eb-beed-57c715102258.xml, PRANGEVALUE, PRANGEVALUE structure pointer [Imaging Devices], RANGEVALUE, RANGEVALUE structure [Imaging Devices], _RANGEVALUE, image.rangevalue, wiamicro/PRANGEVALUE, wiamicro/RANGEVALUE"
 ms.topic: struct
+f1_keywords:
+ - "wiamicro/RANGEVALUE"
 req.header: wiamicro.h
 req.include-header: Wiamicro.h
 req.target-type: Windows

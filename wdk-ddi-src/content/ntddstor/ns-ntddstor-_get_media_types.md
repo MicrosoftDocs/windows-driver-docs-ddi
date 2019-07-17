@@ -8,6 +8,8 @@ ms.assetid: e803505f-37a0-4b20-bd6f-ce0f79eead03
 ms.date: 03/29/2018
 ms.keywords: "*PGET_MEDIA_TYPES, GET_MEDIA_TYPES, GET_MEDIA_TYPES structure [Storage Devices], PGET_MEDIA_TYPES, PGET_MEDIA_TYPES structure pointer [Storage Devices], _GET_MEDIA_TYPES, ntddstor/GET_MEDIA_TYPES, ntddstor/PGET_MEDIA_TYPES, storage.get_media_types, structs-general_68f75a58-b2a5-4d6a-b9ba-0019e36034ef.xml"
 ms.topic: struct
+f1_keywords:
+ - "ntddstor/GET_MEDIA_TYPES"
 req.header: ntddstor.h
 req.include-header: Ntddstor.h, Minitape.h
 req.target-type: Windows

@@ -7,6 +7,8 @@ ms.assetid: 87B4873E-DD44-47E9-8E6A-5BA91218188F
 ms.date: 04/16/2018
 ms.keywords: D3D12DDI_DEVICE_FUNCS_CORE_0010, D3D12DDI_DEVICE_FUNCS_CORE_0010 structure [Display Devices], d3d12umddi/D3D12DDI_DEVICE_FUNCS_CORE_0010, display.d3d12ddi_device_funcs_core_0010
 ms.topic: struct
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_DEVICE_FUNCS_CORE_0010"
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows

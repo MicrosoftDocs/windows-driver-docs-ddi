@@ -8,6 +8,8 @@ ms.assetid: D79F1D98-E326-4401-86B8-2C3D071DF27C
 ms.date: 02/26/2018
 ms.keywords: PFN_WDFDEVICEWRITETOHARDWARE, WdfDeviceWriteToHardware, WdfDeviceWriteToHardware method, wdf.wdfdevicewritetohardware, wdfdevice/WdfDeviceWriteToHardware, wdfhwaccess/WdfDeviceWriteToHardware
 ms.topic: function
+f1_keywords:
+ - "wdfdevice/WdfDeviceWriteToHardware"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

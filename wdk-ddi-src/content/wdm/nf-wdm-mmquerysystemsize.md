@@ -8,6 +8,8 @@ ms.assetid: ca4b3154-e1a1-44d1-b085-9cb5d5ed1a4a
 ms.date: 04/30/2018
 ms.keywords: MmQuerySystemSize, MmQuerySystemSize routine [Kernel-Mode Driver Architecture], k106_9456af05-c1ea-43b0-a342-bc88a8de874b.xml, kernel.mmquerysystemsize, wdm/MmQuerySystemSize
 ms.topic: function
+f1_keywords:
+ - "wdm/MmQuerySystemSize"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

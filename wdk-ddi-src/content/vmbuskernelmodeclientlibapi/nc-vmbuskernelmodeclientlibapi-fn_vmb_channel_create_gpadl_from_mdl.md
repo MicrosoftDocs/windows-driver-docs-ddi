@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 910ee2ef-69af-448c-b911-b9cfe782eb74
 ms.date: 05/21/2018
 ms.topic: callback
+f1_keywords:
+ - "vmbuskernelmodeclientlibapi/FN_VMB_CHANNEL_CREATE_GPADL_FROM_MDL"
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header:
 req.target-type:

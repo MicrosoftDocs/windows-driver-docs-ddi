@@ -5,6 +5,8 @@ description: Initalizes a marshalling area for a physical or client log file str
 ms.assetid: 00a9624d-0cc9-4429-8050-74934176bbdd
 ms.date: 10/19/2018
 ms.topic: function
+f1_keywords:
+ - "wdm/ClfsCreateMarshallingAreaEx"
 ms.keywords: ClfsCreateMarshallingAreaEx
 req.header: wdm.h
 req.include-header:

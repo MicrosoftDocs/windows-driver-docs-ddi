@@ -5,6 +5,8 @@ description: Specifies the graphics state.
 ms.assetid: 6fce2772-69de-4545-ab56-1513da715dfa
 ms.date: 10/19/2018
 ms.topic: enum
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_GRAPHICS_STATES"
 ms.keywords: D3D12DDI_GRAPHICS_STATES, D3D12DDI_GRAPHICS_STATES, 
 req.header: d3d12umddi.h
 req.include-header:

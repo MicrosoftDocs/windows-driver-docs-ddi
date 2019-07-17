@@ -7,6 +7,8 @@ ms.assetid: 371e0353-3e4d-4688-95cf-d5f24b2ed7b3
 ms.date: 05/10/2018
 ms.keywords: D3DKMT_DESTROYPROTECTEDSESSION, D3DKMT_DESTROYPROTECTEDSESSION structure [Display Devices], _D3DKMT_DESTROYPROTECTEDSESSION, d3dkmthk/D3DKMT_DESTROYPROTECTEDSESSION, display.d3dkmt-destroyprotectedsession
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/D3DKMT_DESTROYPROTECTEDSESSION"
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: Windows

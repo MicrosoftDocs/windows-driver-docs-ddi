@@ -5,6 +5,8 @@ description: The GetLocation method will return the location of the native objec
 ms.assetid: d66a6e6d-bd87-46fe-a09e-04b7d5632180
 ms.date: 06/10/2019
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IModelObject.GetLocation"
 ms.keywords: IModelObject::GetLocation, GetLocation, IModelObject.GetLocation, IModelObject::GetLocation, IModelObject.GetLocation
 req.header: dbgmodel.h
 req.include-header:

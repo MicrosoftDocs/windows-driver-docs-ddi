@@ -8,6 +8,8 @@ ms.assetid: 12970111-3d25-4004-9c6d-8582ef7afef3
 ms.date: 04/20/2018
 ms.keywords: IFixedPage interface [Print Devices],SetPagePart method, IFixedPage.SetPagePart, IFixedPage::SetPagePart, SetPagePart, SetPagePart method [Print Devices], SetPagePart method [Print Devices],IFixedPage interface, filterpipeline/IFixedPage::SetPagePart, filterpipeline_03059a3d-9aac-4ff2-8506-7754327942f6.xml, print.ifixedpage_setpagepart
 ms.topic: method
+f1_keywords:
+ - "filterpipeline/IFixedPage.SetPagePart"
 req.header: filterpipeline.h
 req.include-header: 
 req.target-type: Desktop

@@ -8,6 +8,8 @@ ms.assetid: a38c089b-a5f4-4fd2-ab94-ead53228c5e9
 ms.date: 05/02/2018
 ms.keywords: RIL_ReadMsg, RIL_ReadMsg method [Network Drivers Starting with Windows Vista], netvista.ril_readmsg, rilapi/RIL_ReadMsg
 ms.topic: function
+f1_keywords:
+ - "rilapi/RIL_ReadMsg"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows

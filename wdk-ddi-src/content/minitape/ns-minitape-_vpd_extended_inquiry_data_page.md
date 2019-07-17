@@ -5,6 +5,8 @@ description:
 ms.assetid: b31b52e6-cc4a-49ed-b961-287c672451fd
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "minitape/_VPD_EXTENDED_INQUIRY_DATA_PAGE"
 ms.keywords: _VPD_EXTENDED_INQUIRY_DATA_PAGE, VPD_EXTENDED_INQUIRY_DATA_PAGE, *PVPD_EXTENDED_INQUIRY_DATA_PAGE, 
 req.header: minitape.h
 req.include-header:

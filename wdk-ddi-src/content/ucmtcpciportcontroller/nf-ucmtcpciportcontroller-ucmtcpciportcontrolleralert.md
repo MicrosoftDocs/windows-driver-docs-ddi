@@ -8,6 +8,8 @@ ms.assetid: 38700667-d872-4c08-b846-236e94318dba
 ms.date: 05/07/2018
 ms.keywords: UcmTcpciPortControllerAlert, UcmTcpciPortControllerAlert method [Buses], buses.ucmtcpciportcontrolleralert, ucmtcpciportcontroller/UcmTcpciPortControllerAlert
 ms.topic: function
+f1_keywords:
+ - "ucmtcpciportcontroller/UcmTcpciPortControllerAlert"
 req.header: ucmtcpciportcontroller.h
 req.include-header: 
 req.target-type: Windows

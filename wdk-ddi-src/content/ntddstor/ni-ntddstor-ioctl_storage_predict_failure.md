@@ -8,6 +8,8 @@ ms.assetid: 56e178d9-e6bb-43d4-b062-da4e699c4efc
 ms.date: 03/29/2018
 ms.keywords: IOCTL_STORAGE_PREDICT_FAILURE, IOCTL_STORAGE_PREDICT_FAILURE control, IOCTL_STORAGE_PREDICT_FAILURE control code [Storage Devices], k307_396b070a-af8a-4271-9d17-efb385869570.xml, ntddstor/IOCTL_STORAGE_PREDICT_FAILURE, storage.ioctl_storage_predict_failure
 ms.topic: ioctl
+f1_keywords:
+ - "ntddstor/IOCTL_STORAGE_PREDICT_FAILURE"
 req.header: ntddstor.h
 req.include-header: Ntddstor.h
 req.target-type: Windows

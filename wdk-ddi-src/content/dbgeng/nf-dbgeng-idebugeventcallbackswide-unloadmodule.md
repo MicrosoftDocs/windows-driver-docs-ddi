@@ -8,6 +8,8 @@ ms.assetid: 05f3fa93-389e-4ecc-b7c0-71f43691232f
 ms.date: 05/03/2018
 ms.keywords: IDebugEventCallbacksWide interface [Windows Debugging],UnloadModule method, IDebugEventCallbacksWide.UnloadModule, IDebugEventCallbacksWide::UnloadModule, UnloadModule, UnloadModule method [Windows Debugging], UnloadModule method [Windows Debugging],IDebugEventCallbacksWide interface, dbgeng/IDebugEventCallbacksWide::UnloadModule, debugger.idebugeventcallbackswide_unloadmodule
 ms.topic: method
+f1_keywords:
+ - "dbgeng/IDebugEventCallbacksWide.UnloadModule"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

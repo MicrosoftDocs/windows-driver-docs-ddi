@@ -8,6 +8,8 @@ ms.assetid: a9eaf2ec-5224-48e3-837b-279c1a44da68
 ms.date: 02/26/2018
 ms.keywords: RILADDRESSPARAMMASK, RILADDRESSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_A_ADDRESS, RIL_PARAM_A_ALL, RIL_PARAM_A_NUMPLAN, RIL_PARAM_A_TYPE, netvista.riladdressparammask_2, rilapitypes/RILADDRESSPARAMMASK, rilapitypes/RIL_PARAM_A_ADDRESS, rilapitypes/RIL_PARAM_A_ALL, rilapitypes/RIL_PARAM_A_NUMPLAN, rilapitypes/RIL_PARAM_A_TYPE
 ms.topic: enum
+f1_keywords:
+ - "rilapitypes/RILADDRESSPARAMMASK"
 req.header: rilapitypes.h
 req.include-header:
 req.target-type: Windows

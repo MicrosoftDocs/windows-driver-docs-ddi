@@ -8,6 +8,8 @@ ms.assetid: 18692c0d-8b74-495d-b66a-2873837ff797
 ms.date: 04/30/2018
 ms.keywords: IoWMIDeviceObjectToInstanceName, IoWMIDeviceObjectToInstanceName routine [Kernel-Mode Driver Architecture], k104_9341dc2b-c948-44bd-891d-a530a8676259.xml, kernel.iowmideviceobjecttoinstancename, wdm/IoWMIDeviceObjectToInstanceName
 ms.topic: function
+f1_keywords:
+ - "wdm/IoWMIDeviceObjectToInstanceName"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

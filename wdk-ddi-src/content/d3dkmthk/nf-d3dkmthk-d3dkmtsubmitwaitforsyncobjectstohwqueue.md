@@ -7,6 +7,8 @@ ms.assetid: E068ECD0-059A-46E1-9D9E-64EA81B73BD6
 ms.date: 05/10/2018
 ms.keywords: D3DKMTSubmitWaitForSyncObjectsToHwQueue, D3DKMTSubmitWaitForSyncObjectsToHwQueue function [Display Devices], d3dkmthk/D3DKMTSubmitWaitForSyncObjectsToHwQueue, display.d3dkmtsubmitwaitforsyncobjectstohwqueue
 ms.topic: function
+f1_keywords:
+ - "d3dkmthk/D3DKMTSubmitWaitForSyncObjectsToHwQueue"
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: Windows

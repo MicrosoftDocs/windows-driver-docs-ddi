@@ -8,6 +8,8 @@ ms.assetid: a32e2442-a6a8-4c1a-ab70-40fdb525bafb
 ms.date: 03/29/2018
 ms.keywords: "*PSM_RemoveTarget_IN, PSM_RemoveTarget_IN, PSM_RemoveTarget_IN structure pointer [Storage Devices], SM_RemoveTarget_IN, SM_RemoveTarget_IN structure [Storage Devices], _SM_RemoveTarget_IN, hbapiwmi/PSM_RemoveTarget_IN, hbapiwmi/SM_RemoveTarget_IN, storage.sm_removetarget_in, structs-Fibre_6efe773b-e240-40d4-bcf6-c6d141061ac3.xml"
 ms.topic: struct
+f1_keywords:
+ - "hbapiwmi/SM_RemoveTarget_IN"
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h
 req.target-type: Windows

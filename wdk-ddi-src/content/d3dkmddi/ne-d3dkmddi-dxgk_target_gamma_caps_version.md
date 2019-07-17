@@ -8,6 +8,8 @@ ms.assetid: c28d7da0-a519-48c7-be21-c17553fc1b84
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
 ms.topic: enum
+f1_keywords:
+ - "d3dkmddi/DXGK_TARGET_GAMMA_CAPS_VERSION"
 ms.keywords: DXGK_TARGET_GAMMA_CAPS_VERSION, DXGK_TARGET_GAMMA_CAPS_VERSION, 
 req.header: d3dkmddi.h
 req.include-header:

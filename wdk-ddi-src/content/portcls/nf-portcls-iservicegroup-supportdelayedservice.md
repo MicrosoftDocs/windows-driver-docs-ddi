@@ -8,6 +8,8 @@ ms.assetid: ca9fc65f-299d-4d23-b98e-471daf07f413
 ms.date: 05/08/2018
 ms.keywords: IServiceGroup interface [Audio Devices],SupportDelayedService method, IServiceGroup.SupportDelayedService, IServiceGroup::SupportDelayedService, SupportDelayedService, SupportDelayedService method [Audio Devices], SupportDelayedService method [Audio Devices],IServiceGroup interface, audio.iservicegroup_supportdelayedservice, audmp-routines_6eb53e77-9437-43b5-8a5c-e33e15cb9cf3.xml, portcls/IServiceGroup::SupportDelayedService
 ms.topic: method
+f1_keywords:
+ - "portcls/IServiceGroup.SupportDelayedService"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal

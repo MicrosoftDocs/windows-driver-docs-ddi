@@ -8,6 +8,8 @@ ms.assetid: ebe9bec3-6c38-48d8-b9af-03aadbc09d98
 ms.date: 04/16/2018
 ms.keywords: RxCeQueryAdapterStatus, RxCeQueryAdapterStatus function [Installable File System Drivers], ifsk.rxcequeryadapterstatus, rxce/RxCeQueryAdapterStatus, rxref_0813f428-95ae-47df-969c-c00563f3b3c8.xml
 ms.topic: function
+f1_keywords:
+ - "rxce/RxCeQueryAdapterStatus"
 req.header: rxce.h
 req.include-header: Rxce.h
 req.target-type: Desktop

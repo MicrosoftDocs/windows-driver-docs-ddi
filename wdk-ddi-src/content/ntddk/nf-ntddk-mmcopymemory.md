@@ -8,6 +8,8 @@ ms.assetid: 2B5492CD-B24D-44B5-BDAE-0B43A1AF1FCA
 ms.date: 04/30/2018
 ms.keywords: MmCopyMemory, MmCopyMemory routine [Kernel-Mode Driver Architecture], kernel.mmcopymemory, ntddk/MmCopyMemory
 ms.topic: function
+f1_keywords:
+ - "ntddk/MmCopyMemory"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Universal

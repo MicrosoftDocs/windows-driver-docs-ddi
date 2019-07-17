@@ -8,6 +8,8 @@ ms.assetid: 9b7afb56-7abb-4f20-b69d-12a28d7e3617
 ms.date: 04/20/2018
 ms.keywords: IPrintOemUI2, IPrintOemUI2 interface [Print Devices], IPrintOemUI2 interface [Print Devices],described, prcomoem/IPrintOemUI2, print.iprintoemui2_interface, print_unidrv-pscript_ui_838f6394-df99-4045-9059-6ff480212733.xml
 ms.topic: interface
+f1_keywords:
+ - "prcomoem/IPrintOemUI2"
 req.header: prcomoem.h
 req.include-header: 
 req.target-type: Windows

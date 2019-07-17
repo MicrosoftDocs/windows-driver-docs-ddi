@@ -8,6 +8,8 @@ ms.assetid: 41f7c240-4e50-4d6c-82aa-902ab05bf715
 ms.date: 04/30/2018
 ms.keywords: HidP_SetData, HidP_SetData routine [Human Input Devices], hid.hidp_setdata, hidfunc_4b2f18db-e7a2-432d-abd6-51240a0ffc91.xml, hidpi/HidP_SetData
 ms.topic: function
+f1_keywords:
+ - "hidpi/HidP_SetData"
 req.header: hidpi.h
 req.include-header: Hidpi.h
 req.target-type: Universal

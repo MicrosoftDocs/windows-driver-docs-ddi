@@ -8,6 +8,8 @@ ms.assetid: 9a6aca10-f0b2-4476-93c7-b3670d239b15
 ms.date: 01/11/2018
 ms.keywords: wdf.wdfobjectacquirelock, PFN_WDFOBJECTACQUIRELOCK, WdfObjectAcquireLock callback function, WdfObjectAcquireLock, wdfsync/WdfObjectAcquireLock, DFSynchroRef_d6a841c3-cbcb-4072-861a-5666dc2b4b02.xml, kmdf.wdfobjectacquirelock
 ms.topic: callback
+f1_keywords:
+ - "wdfsync/WdfObjectAcquireLock"
 req.header: wdfsync.h
 req.include-header: Wdf.h
 req.target-type: Universal

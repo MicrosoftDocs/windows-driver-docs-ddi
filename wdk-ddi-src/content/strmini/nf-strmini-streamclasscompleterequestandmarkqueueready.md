@@ -8,6 +8,8 @@ ms.assetid: 10d08fe7-13ab-4bdb-ab91-bac3822de8ee
 ms.date: 04/23/2018
 ms.keywords: StreamClassCompleteRequestAndMarkQueueReady, StreamClassCompleteRequestAndMarkQueueReady routine [Streaming Media Devices], strclass-routines_c94691a3-a806-4b2a-a566-7a4a9d209a6c.xml, stream.streamclasscompleterequestandmarkqueueready, strmini/StreamClassCompleteRequestAndMarkQueueReady
 ms.topic: function
+f1_keywords:
+ - "strmini/StreamClassCompleteRequestAndMarkQueueReady"
 req.header: strmini.h
 req.include-header: Strmini.h
 req.target-type: Desktop

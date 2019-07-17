@@ -5,6 +5,8 @@ description: Reserved for future use. Triggers a bus scan at the parent of the F
 ms.assetid: 9508f992-23b7-49d8-8eb7-3bd5214a6835
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "wdm/FPGA_BUS_SCAN"
 req.header: wdm.h
 req.include-header:
 req.target-type:

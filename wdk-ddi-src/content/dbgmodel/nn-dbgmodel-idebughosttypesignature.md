@@ -5,6 +5,8 @@ description: Represents a type signature against which type instances can be mat
 ms.assetid: d4a331e4-18cf-49f4-a7a3-4e3cde4adb05
 ms.date: 07/13/2018
 ms.topic: interface
+f1_keywords:
+ - "dbgmodel/IDebugHostTypeSignature"
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:

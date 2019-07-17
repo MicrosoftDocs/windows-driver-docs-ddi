@@ -5,6 +5,8 @@ description: Implemented by the client driver to query protected session info fr
 ms.assetid: d446a771-1b71-458a-9dbb-f36f8838ba19
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/PFND3DKMT_QUERYPROTECTEDSESSIONINFOFROMNTHANDLE"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

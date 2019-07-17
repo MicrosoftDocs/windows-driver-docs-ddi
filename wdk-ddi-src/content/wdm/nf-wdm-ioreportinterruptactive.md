@@ -8,6 +8,8 @@ ms.assetid: 41C3AC04-14AF-4C37-9557-F9FF494F234B
 ms.date: 04/30/2018
 ms.keywords: IoReportInterruptActive, IoReportInterruptActive routine [Kernel-Mode Driver Architecture], kernel.ioreportinterruptactive, wdm/IoReportInterruptActive
 ms.topic: function
+f1_keywords:
+ - "wdm/IoReportInterruptActive"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Universal

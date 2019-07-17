@@ -5,6 +5,8 @@ description: Enumerates all child symbols of the given type, name, and extended 
 ms.assetid: 8479d24b-be5f-4c21-adea-699af64adeb2
 ms.date: 06/10/2019
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDebugHostSymbol2.EnumerateChildrenEx"
 ms.keywords: IDebugHostSymbol2::EnumerateChildrenEx, EnumerateChildrenEx, IDebugHostSymbol2.EnumerateChildrenEx, IDebugHostSymbol2::EnumerateChildrenEx, IDebugHostSymbol2.EnumerateChildrenEx
 req.header: dbgmodel.h
 req.include-header:

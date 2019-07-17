@@ -7,6 +7,8 @@ ms.assetid: 999820D0-FDEB-49FD-920A-75FD9886492A
 ms.date: 05/10/2018
 ms.keywords: DXGK_GPUMMUCAPS, DXGK_GPUMMUCAPS structure [Display Devices], _DXGK_GPUMMUCAPS, d3dkmddi/DXGK_GPUMMUCAPS, display.dxgk_gpummucaps
 ms.topic: struct
+f1_keywords:
+ - "d3dkmddi/DXGK_GPUMMUCAPS"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

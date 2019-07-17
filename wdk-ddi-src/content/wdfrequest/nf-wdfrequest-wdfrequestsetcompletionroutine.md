@@ -8,6 +8,8 @@ ms.assetid: c60f3dd5-2a74-4d7c-8804-35b9dd91dce4
 ms.date: 02/26/2018
 ms.keywords: DFRequestObjectRef_4dea9104-1bfd-4add-b991-f02d57f840cb.xml, WdfRequestSetCompletionRoutine, WdfRequestSetCompletionRoutine method, kmdf.wdfrequestsetcompletionroutine, wdf.wdfrequestsetcompletionroutine, wdfrequest/WdfRequestSetCompletionRoutine
 ms.topic: function
+f1_keywords:
+ - "wdfrequest/WdfRequestSetCompletionRoutine"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal

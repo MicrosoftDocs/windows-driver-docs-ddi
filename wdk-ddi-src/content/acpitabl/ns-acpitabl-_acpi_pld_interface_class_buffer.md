@@ -5,6 +5,8 @@ description: Describes the ACPI PLD interface class descriptor buffer, revision 
 ms.assetid: f817f194-41c2-4193-a803-768e5914c91a
 ms.date: 10/02/2018
 ms.topic: struct
+f1_keywords:
+ - "acpitabl/_ACPI_PLD_INTERFACE_CLASS_BUFFER"
 ms.keywords: _ACPI_PLD_INTERFACE_CLASS_BUFFER, ACPI_PLD_INTERFACE_CLASS_BUFFER, *PACPI_PLD_INTERFACE_CLASS_BUFFER, 
 req.header: acpitabl.h
 req.include-header:

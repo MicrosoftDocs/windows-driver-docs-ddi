@@ -8,6 +8,8 @@ ms.assetid: 75ffe04a-4d77-4486-8fc7-35b0b6144b99
 ms.date: 04/20/2018
 ms.keywords: PDEV_USE_TRUE_COLOR, PDEV_USE_TRUE_COLOR structure [Print Devices], _PDEV_USE_TRUE_COLOR, print.pdev_use_true_color, print_unidrv-pscript_rendering_bac188d1-ddd5-44e6-b2f1-7c617d6c4b6f.xml, printoem/PDEV_USE_TRUE_COLOR
 ms.topic: struct
+f1_keywords:
+ - "printoem/PDEV_USE_TRUE_COLOR"
 req.header: printoem.h
 req.include-header: Prcomoem.h
 req.target-type: Windows

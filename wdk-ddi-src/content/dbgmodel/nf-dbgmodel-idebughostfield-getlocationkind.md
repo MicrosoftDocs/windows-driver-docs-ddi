@@ -5,6 +5,8 @@ description: The GetLocationKind method returns what kind of location the symbol
 ms.assetid: 34e162cb-39d8-4d70-88f6-99fa71da87d5
 ms.date: 09/12/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDebugHostField.GetLocationKind"
 ms.keywords: IDebugHostField::GetLocationKind, GetLocationKind, IDebugHostField.GetLocationKind, IDebugHostField::GetLocationKind, IDebugHostField.GetLocationKind
 req.header: dbgmodel.h
 req.include-header:

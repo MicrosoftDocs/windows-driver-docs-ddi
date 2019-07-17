@@ -8,6 +8,8 @@ ms.assetid: 249D8FCF-6B63-467B-AEAA-BCF4900CFA48
 ms.date: 02/26/2018
 ms.keywords: WDF_READ_REGISTER_BUFFER_ULONG, WDF_READ_REGISTER_BUFFER_ULONG function, wdf.wdf_read_register_buffer_ulong, wdfhwaccess/WDF_READ_REGISTER_BUFFER_ULONG
 ms.topic: function
+f1_keywords:
+ - "wdfhwaccess/WDF_READ_REGISTER_BUFFER_ULONG"
 req.header: wdfhwaccess.h
 req.include-header: 
 req.target-type: Universal

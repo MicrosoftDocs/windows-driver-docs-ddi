@@ -8,6 +8,8 @@ ms.assetid: a9e2537d-4d67-4495-b391-55f885b7041a
 ms.date: 05/08/2018
 ms.keywords: PcRegisterAdapterPowerManagement, PcRegisterAdapterPowerManagement function [Audio Devices], audio.pcregisteradapterpowermanagement, audpc-routines_524bed01-a6ba-492c-9e18-7495de15be46.xml, portcls/PcRegisterAdapterPowerManagement
 ms.topic: function
+f1_keywords:
+ - "portcls/PcRegisterAdapterPowerManagement"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal

@@ -5,6 +5,8 @@ description: The SetBreakpoint method sets a breakpoint within the script.
 ms.assetid: 8eb84a9d-7f1a-4b23-92d0-bd00022b85d7
 ms.date: 08/21/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDataModelScriptDebug2.SetBreakpoint"
 ms.keywords: IDataModelScriptDebug2::SetBreakpoint, SetBreakpoint, IDataModelScriptDebug2.SetBreakpoint, IDataModelScriptDebug2::SetBreakpoint, IDataModelScriptDebug2.SetBreakpoint
 req.header: dbgmodel.h
 req.include-header:

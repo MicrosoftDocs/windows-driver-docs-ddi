@@ -5,6 +5,8 @@ description: The SetValue method is the setter for the property accessor. It is 
 ms.assetid: 9a9eea9b-4297-4a5a-aff1-fd658d79b9f8
 ms.date: 08/13/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IModelPropertyAccessor.SetValue"
 ms.keywords: IModelPropertyAccessor::SetValue, SetValue, IModelPropertyAccessor.SetValue, IModelPropertyAccessor::SetValue, IModelPropertyAccessor.SetValue
 req.header: dbgmodel.h
 req.include-header:

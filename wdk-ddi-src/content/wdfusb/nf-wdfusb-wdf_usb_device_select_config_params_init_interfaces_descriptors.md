@@ -8,6 +8,8 @@ ms.assetid: 45f024d2-f500-49aa-9a9d-3ec16ff7e99b
 ms.date: 02/26/2018
 ms.keywords: DFUsbRef_294960b9-c686-4701-bed5-aff84f9bc990.xml, WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_INTERFACES_DESCRIPTORS, WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_INTERFACES_DESCRIPTORS function, kmdf.wdf_usb_device_select_config_params_init_interfaces_descriptors, wdf.wdf_usb_device_select_config_params_init_interfaces_descriptors, wdfusb/WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_INTERFACES_DESCRIPTORS
 ms.topic: function
+f1_keywords:
+ - "wdfusb/WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_INTERFACES_DESCRIPTORS"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal

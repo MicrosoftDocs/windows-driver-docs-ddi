@@ -8,6 +8,8 @@ ms.assetid: 8f8c47c3-1917-4252-b812-711ef52d22d7
 ms.date: 04/16/2018
 ms.keywords: FsRtlLookupPerStreamContext, FsRtlLookupPerStreamContext function [Installable File System Drivers], fsrtlref_8284a485-5669-4a4f-a2cf-d566b82299fb.xml, ifsk.fsrtllookupperstreamcontext, ntifs/FsRtlLookupPerStreamContext
 ms.topic: macro
+f1_keywords:
+ - "ntifs/FsRtlLookupPerStreamContext"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Desktop

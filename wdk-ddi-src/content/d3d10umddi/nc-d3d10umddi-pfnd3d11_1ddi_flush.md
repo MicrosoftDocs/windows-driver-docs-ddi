@@ -7,6 +7,8 @@ ms.assetid: 6f4bda19-2d51-4058-ba68-cbb5deb44a54
 ms.date: 05/10/2018
 ms.keywords: Flush(D3D11_1), Flush(D3D11_1) callback function [Display Devices], PFND3D11_1DDI_FLUSH, PFND3D11_1DDI_FLUSH callback, d3d10umddi/Flush(D3D11_1), display.flush_d3d11_1_
 ms.topic: callback
+f1_keywords:
+ - "d3d10umddi/Flush(D3D11_1)"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

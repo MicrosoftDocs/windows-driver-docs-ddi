@@ -8,6 +8,8 @@ ms.assetid: 96f1e6c2-f2cc-44f0-af9c-4a17ab22bdf4
 ms.date: 05/02/2018
 ms.keywords: RILSENDMSGACKPARAMS_V1, RILSENDMSGACKPARAMS_V1 structure [Network Drivers Starting with Windows Vista], netvista.rilsendmsgackparams_v1, ntddrilapitypes/RILSENDMSGACKPARAMS_V1
 ms.topic: struct
+f1_keywords:
+ - "rilapitypes/RILSENDMSGACKPARAMS_V1"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

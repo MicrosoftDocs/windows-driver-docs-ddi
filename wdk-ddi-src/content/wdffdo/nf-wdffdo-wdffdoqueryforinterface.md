@@ -8,6 +8,8 @@ ms.assetid: 12bbc77b-c1cd-4899-aff2-e18e0d58b6b9
 ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectFdoPdoRef_949fcc50-3604-4970-9516-666da06e3c9e.xml, WdfFdoQueryForInterface, WdfFdoQueryForInterface method, kmdf.wdffdoqueryforinterface, wdf.wdffdoqueryforinterface, wdffdo/WdfFdoQueryForInterface
 ms.topic: function
+f1_keywords:
+ - "wdffdo/WdfFdoQueryForInterface"
 req.header: wdffdo.h
 req.include-header: Wdf.h
 req.target-type: Universal

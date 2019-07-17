@@ -8,6 +8,8 @@ ms.assetid: b90a94d1-c6f3-483c-b5fc-edfee27094ab
 ms.date: 04/20/2018
 ms.keywords: IPrintOemUni interface [Print Devices],SendFontCmd method, IPrintOemUni.SendFontCmd, IPrintOemUni::SendFontCmd, SendFontCmd, SendFontCmd method [Print Devices], SendFontCmd method [Print Devices],IPrintOemUni interface, prcomoem/IPrintOemUni::SendFontCmd, print.iprintoemuni_sendfontcmd, print_unidrv-pscript_rendering_18926c40-665b-4ea9-9343-7939619d093a.xml
 ms.topic: method
+f1_keywords:
+ - "prcomoem/IPrintOemUni.SendFontCmd"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop

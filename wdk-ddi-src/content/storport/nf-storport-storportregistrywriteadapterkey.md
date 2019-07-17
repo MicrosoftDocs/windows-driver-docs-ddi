@@ -8,6 +8,8 @@ ms.assetid: 85D43276-53A1-4CEE-99FE-23ED8BECB316
 ms.date: 03/29/2018
 ms.keywords: StorPortRegistryReadAdapterKey, StorPortRegistryWriteAdapterKey, StorPortRegistryWriteAdapterKey routine [Storage Devices], storage.storportregistryreadadapterkey, storport/StorPortRegistryWriteAdapterKey
 ms.topic: function
+f1_keywords:
+ - "storport/StorPortRegistryWriteAdapterKey"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

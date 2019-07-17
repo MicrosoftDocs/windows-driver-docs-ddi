@@ -8,6 +8,8 @@ ms.assetid: b2edfcdb-28b9-4322-8bfb-4d5d2c2d1519
 ms.date: 05/02/2018
 ms.keywords: "*LPRILSIGNALQUALITY, RILSIGNALQUALITY, RILSIGNALQUALITY structure [Network Drivers Starting with Windows Vista], netvista.rilsignalquality, ntddrilapitypes/RILSIGNALQUALITY"
 ms.topic: struct
+f1_keywords:
+ - "rilapitypes/RILSIGNALQUALITY"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

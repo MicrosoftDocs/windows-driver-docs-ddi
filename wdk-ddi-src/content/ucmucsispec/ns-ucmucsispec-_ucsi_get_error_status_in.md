@@ -6,6 +6,8 @@ ms.assetid: 94622279-e077-4ded-a143-32223bcc23fb
 tech.root: usbref
 ms.date: 09/30/2018
 ms.topic: struct
+f1_keywords:
+ - "ucmucsispec/_UCSI_GET_ERROR_STATUS_IN"
 ms.keywords: _UCSI_GET_ERROR_STATUS_IN, UCSI_GET_ERROR_STATUS_IN, *PUCSI_GET_ERROR_STATUS_IN, 
 req.header: ucmucsispec.h
 req.include-header: UcmUcsiCx.h 

@@ -5,6 +5,8 @@ description: Notifies the GPU scheduler of a particular Present N, and the GPU s
 ms.assetid: a2d25102-5181-4fb7-abcc-fb0669d9d95c
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmddi/DXGKDDI_NOTIFYFOCUSPRESENT"
 req.header: d3dkmddi.h
 req.include-header:
 req.target-type:

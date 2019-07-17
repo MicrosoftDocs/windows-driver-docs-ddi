@@ -8,6 +8,8 @@ ms.assetid: ca5039ff-d34a-4a61-b288-64f0c1f31b91
 ms.date: 05/08/2018
 ms.keywords: IPortWaveRTStream, IPortWaveRTStream interface [Audio Devices], IPortWaveRTStream interface [Audio Devices],described, audio.iportwavertstream, audmp-routines_485f04fa-bdd1-4b92-bb3b-4f8653393811.xml, portcls/IPortWaveRTStream
 ms.topic: interface
+f1_keywords:
+ - "portcls/IPortWaveRTStream"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Windows

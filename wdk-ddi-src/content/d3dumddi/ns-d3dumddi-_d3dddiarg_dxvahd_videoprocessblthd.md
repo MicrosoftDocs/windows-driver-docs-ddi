@@ -8,6 +8,8 @@ ms.assetid: 16eb6131-89d5-48da-b5f8-f51b9c37e061
 ms.date: 05/10/2018
 ms.keywords: D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD, D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD structure [Display Devices], UMDisplayDriver_param_Structs_8a72018a-706f-4c26-adca-109365e03ff1.xml, _D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD, d3dumddi/D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD, display.d3dddiarg_dxvahd_videoprocessblthd
 ms.topic: struct
+f1_keywords:
+ - "d3dumddi/D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

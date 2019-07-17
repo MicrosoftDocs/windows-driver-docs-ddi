@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 2fe56738-0b96-4dc2-a2d2-7cddc802e232
 ms.date: 02/05/2018
 ms.topic: enum
+f1_keywords:
+ - "netadapter/NET_ADAPTER_WAKEUP_EVENTS_FLAGS"
 ms.keywords: _NET_ADAPTER_WAKEUP_EVENTS_FLAGS, NET_ADAPTER_WAKEUP_EVENTS_FLAGS, 
 req.header: netadapter.h
 req.include-header:

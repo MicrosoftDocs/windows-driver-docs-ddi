@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: a46c5a52-6393-421c-8495-8e8b20b60fba
 ms.date: 02/08/2018
 ms.topic: function
+f1_keywords:
+ - "netpowersettings/NetPowerSettingsGetEnabledMediaSpecificWakeUpEvents"
 ms.keywords: NetPowerSettingsGetEnabledMediaSpecificWakeUpEvents
 req.header: netpowersettings.h
 req.include-header: netadaptercx.h

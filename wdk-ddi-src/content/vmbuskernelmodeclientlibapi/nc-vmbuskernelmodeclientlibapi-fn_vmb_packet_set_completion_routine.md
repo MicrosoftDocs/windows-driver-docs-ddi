@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: e59dd45b-4158-4f05-a513-e1e97e82228c
 ms.date: 05/22/2018
 ms.topic: callback
+f1_keywords:
+ - "vmbuskernelmodeclientlibapi/FN_VMB_PACKET_SET_COMPLETION_ROUTINE"
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header:
 req.target-type:

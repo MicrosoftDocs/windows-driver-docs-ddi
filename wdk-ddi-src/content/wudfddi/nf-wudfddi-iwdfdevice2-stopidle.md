@@ -8,6 +8,8 @@ ms.assetid: 1a4907c9-8e3b-4fb6-a7d4-89985e470e48
 ms.date: 02/26/2018
 ms.keywords: IWDFDevice2 interface,StopIdle method, IWDFDevice2.StopIdle, IWDFDevice2::StopIdle, StopIdle, StopIdle method, StopIdle method,IWDFDevice2 interface, UMDFDeviceObjectRef_8b32ad46-c35a-4b3a-8779-fa183d9cbb72.xml, umdf.iwdfdevice2_stopidle, wdf.iwdfdevice2_stopidle, wudfddi/IWDFDevice2::StopIdle
 ms.topic: method
+f1_keywords:
+ - "wudfddi/IWDFDevice2.StopIdle"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

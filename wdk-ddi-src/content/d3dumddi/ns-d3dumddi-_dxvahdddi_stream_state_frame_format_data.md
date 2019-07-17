@@ -8,6 +8,8 @@ ms.assetid: e04e21e7-6d13-4705-8cc9-cc1b00bf04e4
 ms.date: 05/10/2018
 ms.keywords: DXVA2_Structs_5dd1d1dc-aadc-4772-888e-f16eac3dd935.xml, DXVAHDDDI_STREAM_STATE_FRAME_FORMAT_DATA, DXVAHDDDI_STREAM_STATE_FRAME_FORMAT_DATA structure [Display Devices], _DXVAHDDDI_STREAM_STATE_FRAME_FORMAT_DATA, d3dumddi/DXVAHDDDI_STREAM_STATE_FRAME_FORMAT_DATA, display.dxvahdddi_stream_state_frame_format_data
 ms.topic: struct
+f1_keywords:
+ - "d3dumddi/DXVAHDDDI_STREAM_STATE_FRAME_FORMAT_DATA"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: 4803e816-c59a-42b2-adc1-7a197ae16d42
 ms.date: 04/16/2018
 ms.keywords: SeQuerySecurityDescriptorInfo, SeQuerySecurityDescriptorInfo routine [Installable File System Drivers], ifsk.sequerysecuritydescriptorinfo, ntifs/SeQuerySecurityDescriptorInfo, seref_c8ecba25-bc67-4314-a262-3dbae1407205.xml
 ms.topic: function
+f1_keywords:
+ - "ntifs/SeQuerySecurityDescriptorInfo"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

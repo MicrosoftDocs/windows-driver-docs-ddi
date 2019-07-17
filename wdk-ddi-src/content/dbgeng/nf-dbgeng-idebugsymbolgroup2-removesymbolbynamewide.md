@@ -8,6 +8,8 @@ ms.assetid: 12261b88-681e-4623-b5af-abaae756e3e1
 ms.date: 05/03/2018
 ms.keywords: IDebugSymbolGroup2 interface [Windows Debugging],RemoveSymbolByNameWide method, IDebugSymbolGroup2.RemoveSymbolByNameWide, IDebugSymbolGroup2::RemoveSymbolByNameWide, RemoveSymbolByNameWide, RemoveSymbolByNameWide method [Windows Debugging], RemoveSymbolByNameWide method [Windows Debugging],IDebugSymbolGroup2 interface, dbgeng/IDebugSymbolGroup2::RemoveSymbolByNameWide, debugger.removesymbolbynamewide
 ms.topic: method
+f1_keywords:
+ - "dbgeng/IDebugSymbolGroup2.RemoveSymbolByNameWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

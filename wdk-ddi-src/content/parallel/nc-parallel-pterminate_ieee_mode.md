@@ -8,6 +8,8 @@ ms.assetid: 35c4f348-aeaa-4e6e-8cc5-62d78beaa434
 ms.date: 02/15/2018
 ms.keywords: PTERMINATE_IEEE_MODE, PTERMINATE_IEEE_MODE function pointer [Parallel Ports], cisspd_97e0ba9c-746e-4f7a-8d52-a321d6a18a4b.xml, parallel/PTERMINATE_IEEE_MODE, parports.pterminate_ieee_mode
 ms.topic: callback
+f1_keywords:
+ - "parallel/PTERMINATE_IEEE_MODE"
 req.header: parallel.h
 req.include-header: Parallel.h
 req.target-type: Desktop

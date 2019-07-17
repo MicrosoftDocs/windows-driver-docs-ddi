@@ -7,6 +7,8 @@ ms.assetid: 36AAD6F2-3220-4F9A-AA10-BA8D87948D09
 ms.date: 05/10/2018
 ms.keywords: D3D12DDI_EXTENDED_FEATURES_FUNCS_0020, D3D12DDI_EXTENDED_FEATURES_FUNCS_0020 structure [Display Devices], d3d12umddi/D3D12DDI_EXTENDED_FEATURES_FUNCS_0020, display.d3d12ddi_extended_features_funcs_0020
 ms.topic: struct
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_EXTENDED_FEATURES_FUNCS_0020"
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows

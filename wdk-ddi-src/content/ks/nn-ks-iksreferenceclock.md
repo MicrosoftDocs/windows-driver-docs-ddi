@@ -8,6 +8,8 @@ ms.assetid: 92a84bf3-34bf-4ee7-97c0-f5e6427c0464
 ms.date: 04/23/2018
 ms.keywords: IKsReferenceClock, IKsReferenceClock interface [Streaming Media Devices], IKsReferenceClock interface [Streaming Media Devices],described, avintfc_7146002a-d8ab-4789-b752-863f8b2d94d2.xml, ks/IKsReferenceClock, stream.iksreferenceclock
 ms.topic: interface
+f1_keywords:
+ - "ks/IKsReferenceClock"
 req.header: ks.h
 req.include-header: 
 req.target-type: Windows

@@ -5,6 +5,8 @@ description:
 ms.assetid: c0f9c4f7-d6bd-427d-954f-43539797fcd8
 ms.date: 10/19/2018
 ms.topic: function
+f1_keywords:
+ - "trustedruntimeclx/TrSecureDeviceQueryOSService"
 ms.keywords: TrSecureDeviceQueryOSService
 req.header: trustedruntimeclx.h
 req.include-header:

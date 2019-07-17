@@ -8,6 +8,8 @@ ms.assetid: a066d78b-f6c7-484a-9d62-3578bbd063a2
 ms.date: 04/16/2018
 ms.keywords: FsRtlLookupPerFileObjectContext, FsRtlLookupPerFileObjectContext function [Installable File System Drivers], fsrtlref_1b9542db-9037-400a-97e2-1bcfddcd1957.xml, ifsk.fsrtllookupperfileobjectcontext, ntifs/FsRtlLookupPerFileObjectContext
 ms.topic: function
+f1_keywords:
+ - "ntifs/FsRtlLookupPerFileObjectContext"
 req.header: ntifs.h
 req.include-header: Fltkernel.h, Ntifs.h
 req.target-type: Universal

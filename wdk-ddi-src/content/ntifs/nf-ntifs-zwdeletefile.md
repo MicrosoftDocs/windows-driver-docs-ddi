@@ -8,6 +8,8 @@ ms.assetid: e6ad3bc5-9e19-4d32-bc08-b894ac802f41
 ms.date: 04/30/2018
 ms.keywords: NtDeleteFile, ZwDeleteFile, ZwDeleteFile routine [Kernel-Mode Driver Architecture], k111_4f0117b0-323a-46b6-a1c0-74de4db2ca4d.xml, kernel.zwdeletefile, ntifs/NtDeleteFile, ntifs/ZwDeleteFile
 ms.topic: function
+f1_keywords:
+ - "ntifs/ZwDeleteFile"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

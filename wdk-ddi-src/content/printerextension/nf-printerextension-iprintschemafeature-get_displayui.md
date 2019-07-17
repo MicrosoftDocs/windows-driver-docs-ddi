@@ -8,6 +8,8 @@ ms.assetid: 47E8BF6E-7CBE-43B9-9F3F-D91E88FB02D4
 ms.date: 04/20/2018
 ms.keywords: DisplayUI property [Print Devices], DisplayUI property [Print Devices],IPrintSchemaFeature interface, IPrintSchemaFeature interface [Print Devices],DisplayUI property, IPrintSchemaFeature.DisplayUI, IPrintSchemaFeature.get_DisplayUI, IPrintSchemaFeature::DisplayUI, IPrintSchemaFeature::get_DisplayUI, get_DisplayUI, print.iprintschemafeature_displayui, printerextension/IPrintSchemaFeature::DisplayUI, printerextension/IPrintSchemaFeature::get_DisplayUI
 ms.topic: method
+f1_keywords:
+ - "printerextension/IPrintSchemaFeature.DisplayUI"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows

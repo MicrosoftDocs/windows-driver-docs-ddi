@@ -8,6 +8,8 @@ ms.assetid: 55674946-A2DA-4695-8673-6BF3123FB5FC
 ms.date: 02/26/2018
 ms.keywords: WdfDmaTransactionStopSystemTransfer, WdfDmaTransactionStopSystemTransfer method, kmdf.wdfdmatransactionstopsystemtransfer, wdf.wdfdmatransactionstopsystemtransfer, wdfdmatransaction/WdfDmaTransactionStopSystemTransfer
 ms.topic: function
+f1_keywords:
+ - "wdfdmatransaction/WdfDmaTransactionStopSystemTransfer"
 req.header: wdfdmatransaction.h
 req.include-header: Wdf.h
 req.target-type: Universal

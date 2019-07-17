@@ -8,6 +8,8 @@ ms.assetid: B847EE03-65C0-4046-BD0A-0441C487056F
 ms.date: 05/03/2018
 ms.keywords: IDebugClient5 interface [Windows Debugging],SetOutputLinePrefixWide method, IDebugClient5.SetOutputLinePrefixWide, IDebugClient5::SetOutputLinePrefixWide, SetOutputLinePrefixWide, SetOutputLinePrefixWide method [Windows Debugging], SetOutputLinePrefixWide method [Windows Debugging],IDebugClient5 interface, dbgeng/IDebugClient5::SetOutputLinePrefixWide, debugger.idebugclient5_setoutputlineprefixwide
 ms.topic: method
+f1_keywords:
+ - "dbgeng/IDebugClient5.SetOutputLinePrefixWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

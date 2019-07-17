@@ -8,6 +8,8 @@ ms.assetid: 2d5f1b31-d8fe-40a3-ac23-cc442f3adbe5
 ms.date: 04/23/2018
 ms.keywords: "*PKSP_NODE, KSP_NODE, KSP_NODE structure [Streaming Media Devices], PKSP_NODE, PKSP_NODE structure pointer [Streaming Media Devices], ks-struct_e93685c5-c84a-469a-ad2c-2407cb2e383b.xml, ks/KSP_NODE, ks/PKSP_NODE, stream.ksp_node"
 ms.topic: struct
+f1_keywords:
+ - "ks/KSP_NODE"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: 49560022-a690-4259-b725-f8927af31804
 ms.date: 04/30/2018
 ms.keywords: NtEnumerateTransactionObject, ZwEnumerateTransactionObject, ZwEnumerateTransactionObject routine [Kernel-Mode Driver Architecture], kernel.zwenumeratetransactionobject, ktm_ref_f9c45fce-5dbe-4dad-9943-3f31fb692c65.xml, wdm/NtEnumerateTransactionObject, wdm/ZwEnumerateTransactionObject
 ms.topic: function
+f1_keywords:
+ - "wdm/ZwEnumerateTransactionObject"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

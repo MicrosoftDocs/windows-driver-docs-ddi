@@ -8,6 +8,8 @@ ms.assetid: 37c19ee9-4741-448c-bcbe-12437f4f3b4d
 ms.date: 03/29/2018
 ms.keywords: StorPortReady, StorPortReady routine [Storage Devices], storage.storportready, storport/StorPortReady, storprt_6938d8e3-03f8-4f40-a867-07b64d91a6a2.xml
 ms.topic: function
+f1_keywords:
+ - "storport/StorPortReady"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

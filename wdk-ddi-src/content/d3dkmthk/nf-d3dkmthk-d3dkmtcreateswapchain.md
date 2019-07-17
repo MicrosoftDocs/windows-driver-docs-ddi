@@ -5,6 +5,8 @@ description: Creates swap chain resources.
 ms.assetid: 0d40686e-8a64-4bb3-afa0-83719a597e61
 ms.date: 10/19/2018
 ms.topic: function
+f1_keywords:
+ - "d3dkmthk/D3DKMTCreateSwapChain"
 ms.keywords: D3DKMTCreateSwapChain
 req.header: d3dkmthk.h
 req.include-header:

@@ -8,6 +8,8 @@ ms.assetid: 4dc38fcd-4b87-4c34-8ae2-685bf47e3fde
 ms.date: 04/30/2018
 ms.keywords: NtDeviceIoControlFile, ZwDeviceIoControlFile, ZwDeviceIoControlFile routine [Kernel-Mode Driver Architecture], k111_03e754fc-b6b5-4266-9be1-452d5ba5331c.xml, kernel.zwdeviceiocontrolfile, ntifs/NtDeviceIoControlFile, ntifs/ZwDeviceIoControlFile
 ms.topic: function
+f1_keywords:
+ - "ntifs/ZwDeviceIoControlFile"
 req.header: ntifs.h
 req.include-header: Ntifs.h, Ntddk.h
 req.target-type: Universal

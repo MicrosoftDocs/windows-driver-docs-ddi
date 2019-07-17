@@ -8,6 +8,8 @@ ms.assetid: bbc26c03-c154-4b1e-883e-2942b59ded02
 ms.date: 05/10/2018
 ms.keywords: "*LPDDPIXELFORMAT, DDPIXELFORMAT, DDPIXELFORMAT structure [Display Devices], LPDDPIXELFORMAT, LPDDPIXELFORMAT structure pointer [Display Devices], _DDPIXELFORMAT, ddstrcts_861a4798-418e-492a-b4cb-c4f1ce794a71.xml, display.ddpixelformat, ksmedia/DDPIXELFORMAT, ksmedia/LPDDPIXELFORMAT"
 ms.topic: struct
+f1_keywords:
+ - "ksmedia/DDPIXELFORMAT"
 req.header: ksmedia.h
 req.include-header: Ddraw.h
 req.target-type: Windows

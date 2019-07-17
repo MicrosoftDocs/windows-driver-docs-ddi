@@ -8,6 +8,8 @@ ms.assetid: e6b55c00-3abf-42fa-8dfc-8bd5e5731362
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
 ms.topic: struct
+f1_keywords:
+ - "dispmprt/_DXGKARG_GETVIRTUALGPUINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.keywords: _DXGKARG_GETVIRTUALGPUINFO, DXGKARG_GETVIRTUALGPUINFO, *PDXGKARG_GETVIRTUALGPUINFO, 

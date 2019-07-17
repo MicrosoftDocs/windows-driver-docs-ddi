@@ -5,6 +5,8 @@ description: Allows the kernel mode on the host to signal an event, which is cre
 ms.assetid: fbb456a6-4ffc-4d65-a3d6-e3d78b573ae3
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmddi/DXGKCB_SIGNALEVENT"
 req.header: d3dkmddi.h
 req.include-header: d3dkmddi.h
 req.target-type:

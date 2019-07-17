@@ -7,6 +7,8 @@ ms.assetid: C86C7D1C-541F-4EC3-B4C8-126826BE3529
 ms.date: 05/10/2018
 ms.keywords: PFND3DWDDM2_0DDI_QUERYVIDEOCAPABILITIES, PFND3DWDDM2_0DDI_QUERYVIDEOCAPABILITIES callback, d3d10umddi/pfnQueryVideoCapabilities, display.queryvideocapabilities, pfnQueryVideoCapabilities, pfnQueryVideoCapabilities callback function [Display Devices]
 ms.topic: callback
+f1_keywords:
+ - "d3d10umddi/pfnQueryVideoCapabilities"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

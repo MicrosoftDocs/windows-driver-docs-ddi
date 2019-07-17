@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 11EE757F-0442-4F46-BEF0-8206CFDCC60B
 ms.date: 04/11/2019
 ms.topic: struct
+f1_keywords:
+ - "wwan/_WWAN_MODEM_LOGGING_CONFIG"
 ms.keywords: _WWAN_MODEM_LOGGING_CONFIG, WWAN_MODEM_LOGGING_CONFIG, *PWWAN_MODEM_LOGGING_CONFIG, 
 req.header: wwan.h
 req.include-header:

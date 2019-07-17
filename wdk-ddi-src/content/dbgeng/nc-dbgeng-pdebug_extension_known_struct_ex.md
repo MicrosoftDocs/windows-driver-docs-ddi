@@ -8,6 +8,8 @@ ms.assetid: 830BCD4C-0C3A-45F8-84E9-4F8596B8E1E8
 ms.date: 05/03/2018
 ms.keywords: DebugExtensionKnownStructEx, DebugExtensionKnownStructEx callback function [Windows Debugging], PDEBUG_EXTENSION_KNOWN_STRUCT_EX, PDEBUG_EXTENSION_KNOWN_STRUCT_EX callback, dbgeng/DebugExtensionKnownStructEx, debugger.debugextensionknownstructex
 ms.topic: callback
+f1_keywords:
+ - "dbgeng/DebugExtensionKnownStructEx"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

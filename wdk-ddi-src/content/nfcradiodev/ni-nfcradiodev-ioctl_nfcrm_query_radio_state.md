@@ -8,6 +8,8 @@ ms.assetid: BEFA6568-3E89-4626-AAC2-A0C628E5429F
 ms.date: 02/15/2018
 ms.keywords: IOCTL_NFCRM_QUERY_RADIO_STATE, IOCTL_NFCRM_QUERY_RADIO_STATE control, IOCTL_NFCRM_QUERY_RADIO_STATE control code [Near-Field Proximity Drivers], nfcradiodev/IOCTL_NFCRM_QUERY_RADIO_STATE, nfpdrivers.ioctl_nfcrm_query_radio_state
 ms.topic: ioctl
+f1_keywords:
+ - "nfcradiodev/IOCTL_NFCRM_QUERY_RADIO_STATE"
 req.header: nfcradiodev.h
 req.include-header: 
 req.target-type: Windows

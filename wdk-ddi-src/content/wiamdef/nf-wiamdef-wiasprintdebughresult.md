@@ -8,6 +8,8 @@ ms.assetid: f9dc5379-0efa-4743-9460-bfb16945768b
 ms.date: 05/03/2018
 ms.keywords: image.wiasprintdebughresult, wiamdef/wiasPrintDebugHResult, wiasFncs_932e688a-da37-4a53-91ff-f0c0abca4f98.xml, wiasPrintDebugHResult, wiasPrintDebugHResult function [Imaging Devices]
 ms.topic: function
+f1_keywords:
+ - "wiamdef/wiasPrintDebugHResult"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop

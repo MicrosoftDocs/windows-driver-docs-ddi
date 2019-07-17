@@ -7,6 +7,8 @@ ms.assetid: fdd34377-6b11-4005-93f1-ab42be7633c2
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_VIDPNTOPOLOGY_RELEASEPATHINFO, DXGKDDI_VIDPNTOPOLOGY_RELEASEPATHINFO callback, VidPnFunctions_2bbba27c-cbbe-40ea-9ba6-0da2d7d237d5.xml, d3dkmddi/pfnReleasePathInfo, display.dxgk_vidpntopology_interface_pfnreleasepathinfo, pfnReleasePathInfo, pfnReleasePathInfo callback function [Display Devices]
 ms.topic: callback
+f1_keywords:
+ - "d3dkmddi/pfnReleasePathInfo"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Desktop

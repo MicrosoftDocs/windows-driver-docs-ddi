@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 43552ec5-82e4-4ba8-af21-900c32c782b7
 ms.date: 02/01/2019
 ms.topic: function
+f1_keywords:
+ - "netrequestqueue/NET_REQUEST_QUEUE_TYPE"
 ms.keywords: NetRequestQueueCreate
 req.header: netrequestqueue.h
 req.include-header: netadaptercx.h

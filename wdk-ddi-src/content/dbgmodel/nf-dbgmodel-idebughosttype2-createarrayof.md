@@ -5,6 +5,8 @@ description: For any given type, this returns a new IDebugHostType which is an a
 ms.assetid: de060e4e-fb8c-4d0d-a718-32000a15ae5b
 ms.date: 09/20/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDebugHostType2.CreateArrayOf"
 ms.keywords: IDebugHostType2::CreateArrayOf, CreateArrayOf, IDebugHostType2.CreateArrayOf, IDebugHostType2::CreateArrayOf, IDebugHostType2.CreateArrayOf
 req.header: dbgmodel.h
 req.include-header:

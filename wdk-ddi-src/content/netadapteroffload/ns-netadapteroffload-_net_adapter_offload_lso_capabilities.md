@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 73c5e8ec-69ef-4c3d-9864-c728f86b3551
 ms.date: 01/17/2019
 ms.topic: struct
+f1_keywords:
+ - "netadapteroffload/_NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES"
 ms.keywords: _NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES, NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES, *PNET_ADAPTER_OFFLOAD_LSO_CAPABILITIES, 
 req.header: netadapteroffload.h
 req.include-header:

@@ -8,6 +8,8 @@ ms.assetid: 5001f623-5b53-4ae7-9b5b-dc3bd5bdcc70
 ms.date: 05/02/2018
 ms.keywords: "*LPRILOPENUICCLOGICALCHANNELINFO, RILOPENUICCLOGICALCHANNELINFO, RILOPENUICCLOGICALCHANNELINFO structure [Network Drivers Starting with Windows Vista], netvista.rilopenuicclogicalchannelinfo, ntddrilapitypes/RILOPENUICCLOGICALCHANNELINFO"
 ms.topic: struct
+f1_keywords:
+ - "rilapitypes/RILOPENUICCLOGICALCHANNELINFO"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

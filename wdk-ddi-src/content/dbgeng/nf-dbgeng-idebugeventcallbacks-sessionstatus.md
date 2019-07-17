@@ -8,6 +8,8 @@ ms.assetid: 127c4e48-87db-4735-8d3d-e01fed6a9cf0
 ms.date: 05/03/2018
 ms.keywords: ComCallbacks_72cb31db-cc24-41b7-b891-65921c50ce12.xml, IDebugEventCallbacks interface [Windows Debugging],SessionStatus method, IDebugEventCallbacks.SessionStatus, IDebugEventCallbacks::SessionStatus, SessionStatus, SessionStatus method [Windows Debugging], SessionStatus method [Windows Debugging],IDebugEventCallbacks interface, dbgeng/IDebugEventCallbacks::SessionStatus, debugger.idebugeventcallbacks_sessionstatus
 ms.topic: method
+f1_keywords:
+ - "dbgeng/IDebugEventCallbacks.SessionStatus"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

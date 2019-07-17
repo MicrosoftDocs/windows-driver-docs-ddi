@@ -8,6 +8,8 @@ ms.assetid: 31e88a5b-d97c-482a-aab0-dd987b15d657
 ms.date: 05/02/2018
 ms.keywords: NdisCoDeleteVc, NdisCoDeleteVc function [Network Drivers Starting with Windows Vista], condis_protocol_ref_19f96afa-aa63-44e4-817a-8b701c6d12c6.xml, ndis/NdisCoDeleteVc, netvista.ndiscodeletevc
 ms.topic: function
+f1_keywords:
+ - "ndis/NdisCoDeleteVc"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

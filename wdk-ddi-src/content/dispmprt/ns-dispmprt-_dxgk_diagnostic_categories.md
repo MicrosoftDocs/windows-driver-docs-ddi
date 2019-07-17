@@ -5,6 +5,8 @@ description: Structure with a bit-field for each defined category of diagnostic.
 ms.assetid: ba2233ae-fe9b-4cd1-a9a6-7a26c95d5dae
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "dispmprt/_DXGK_DIAGNOSTIC_CATEGORIES"
 ms.keywords: _DXGK_DIAGNOSTIC_CATEGORIES, DXGK_DIAGNOSTIC_CATEGORIES,
 req.header: dispmprt.h
 req.include-header:

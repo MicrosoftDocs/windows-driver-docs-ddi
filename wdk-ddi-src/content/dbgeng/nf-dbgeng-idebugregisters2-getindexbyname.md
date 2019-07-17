@@ -8,6 +8,8 @@ ms.assetid: a012b235-ed50-4009-a7ee-01783f9e3597
 ms.date: 05/03/2018
 ms.keywords: GetIndexByName, GetIndexByName method [Windows Debugging], GetIndexByName method [Windows Debugging],IDebugRegisters interface, GetIndexByName method [Windows Debugging],IDebugRegisters2 interface, IDebugRegisters interface [Windows Debugging],GetIndexByName method, IDebugRegisters2 interface [Windows Debugging],GetIndexByName method, IDebugRegisters2.GetIndexByName, IDebugRegisters2::GetIndexByName, IDebugRegisters::GetIndexByName, IDebugRegisters_5b85eaa4-3c90-47e0-9f7f-7f493617fa37.xml, dbgeng/IDebugRegisters2::GetIndexByName, dbgeng/IDebugRegisters::GetIndexByName, debugger.getindexbyname
 ms.topic: method
+f1_keywords:
+ - "dbgeng/IDebugRegisters.GetIndexByName"
 req.header: dbgeng.h
 req.include-header: DbgEng.h
 req.target-type: Desktop

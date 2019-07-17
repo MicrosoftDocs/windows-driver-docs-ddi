@@ -5,6 +5,8 @@ description: The GetStackFrame gets a particular stack frame from the stack segm
 ms.assetid: 95deead2-10cc-46cd-82c0-93ebf775f29b
 ms.date: 09/11/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDataModelScriptDebugStack.GetStackFrame"
 ms.keywords: IDataModelScriptDebugStack::GetStackFrame, GetStackFrame, IDataModelScriptDebugStack.GetStackFrame, IDataModelScriptDebugStack::GetStackFrame, IDataModelScriptDebugStack.GetStackFrame
 req.header: dbgmodel.h
 req.include-header:

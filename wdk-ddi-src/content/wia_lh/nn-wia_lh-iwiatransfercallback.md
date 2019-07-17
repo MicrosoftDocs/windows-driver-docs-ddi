@@ -8,6 +8,8 @@ ms.assetid: c85e5faa-b14b-4775-a5cc-cec5e20dc974
 ms.date: 05/03/2018
 ms.keywords: IWiaTransferCallback, IWiaTransferCallback interface [Imaging Devices], IWiaTransferCallback interface [Imaging Devices],described, IWiaTransfercallback_ae8874d9-135f-4627-bbec-51cebd6c3d69.xml, image.iwiatransfercallback_interface, wia_lh/IWiaTransferCallback
 ms.topic: interface
+f1_keywords:
+ - "wia_lh/IWiaTransferCallback"
 req.header: wia_lh.h
 req.include-header: 
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: 1b2384c3-6438-4456-b4fc-44211b8a3fb1
 ms.date: 02/26/2018
 ms.keywords: DFQueueObjectRef_ddc761b3-266a-4942-94ed-8ecca07575d1.xml, WDF_IO_QUEUE_DRAINED, WDF_IO_QUEUE_DRAINED function, kmdf.wdf_io_queue_drained, wdf.wdf_io_queue_drained, wdfio/WDF_IO_QUEUE_DRAINED
 ms.topic: function
+f1_keywords:
+ - "wdfio/WDF_IO_QUEUE_DRAINED"
 req.header: wdfio.h
 req.include-header: Wdf.h
 req.target-type: Universal

@@ -5,6 +5,8 @@ description: Supplies information for enumerating all graphics adapters on the s
 ms.assetid: 9db2a84b-4aac-48df-81f6-4cb681b3c7f4
 ms.date: 11/21/2018
 ms.topic: function
+f1_keywords:
+ - "d3dkmthk/D3DKMTEnumAdapters2"
 ms.keywords: D3DKMTEnumAdapters2
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h

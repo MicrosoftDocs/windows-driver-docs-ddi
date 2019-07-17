@@ -8,6 +8,8 @@ ms.assetid: 61ac2d28-7aed-4796-8d09-591db936013b
 ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_SETPRIORITY, PFND3DDDI_SETPRIORITY callback, SetPriority, SetPriority callback function [Display Devices], UserModeDisplayDriver_Functions_6e8f2a2a-f88b-45b6-9c59-b942cb44664b.xml, d3dumddi/SetPriority, display.setpriority
 ms.topic: callback
+f1_keywords:
+ - "d3dumddi/SetPriority"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop

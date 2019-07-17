@@ -8,6 +8,8 @@ ms.assetid: DC73A00D-F7FA-492A-ABAF-04A5CFD85881
 ms.date: 02/15/2018
 ms.keywords: CLIENT_ReleaseController, CLIENT_ReleaseController callback, CLIENT_ReleaseController callback function [Parallel Ports], GPIO.client_releasecontroller, GPIO_CLIENT_RELEASE_CONTROLLER, gpioclx/CLIENT_ReleaseController
 ms.topic: callback
+f1_keywords:
+ - "gpioclx/CLIENT_ReleaseController"
 req.header: gpioclx.h
 req.include-header: 
 req.target-type: Desktop

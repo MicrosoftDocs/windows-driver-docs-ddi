@@ -8,6 +8,8 @@ ms.assetid: bc3c494d-890c-4699-a272-62cbcc234cdd
 ms.date: 04/30/2018
 ms.keywords: NtQuerySecurityObject, ZwQuerySecurityObject, ZwQuerySecurityObject routine [Kernel-Mode Driver Architecture], k111_50bbb447-b993-4020-a8d7-e54f0b31e84e.xml, kernel.zwquerysecurityobject, ntifs/NtQuerySecurityObject, ntifs/ZwQuerySecurityObject
 ms.topic: function
+f1_keywords:
+ - "ntifs/ZwQuerySecurityObject"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

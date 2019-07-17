@@ -8,6 +8,8 @@ ms.assetid: 932e5520-0ebf-4cfa-893a-a7eb969cb697
 ms.date: 04/20/2018
 ms.keywords: "*POIEXT, OIEXT, OIEXT structure [Print Devices], POIEXT, POIEXT structure pointer [Print Devices], _OIEXT, compstui/OIEXT, compstui/POIEXT, cpsuifnc_3abbb233-5393-4e23-a206-0474cfd6d7f1.xml, print.oiext"
 ms.topic: struct
+f1_keywords:
+ - "compstui/OIEXT"
 req.header: compstui.h
 req.include-header: Compstui.h
 req.target-type: Windows

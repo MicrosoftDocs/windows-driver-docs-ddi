@@ -8,6 +8,8 @@ ms.assetid: d2071ea0-737d-4a61-90d6-614d77983f0b
 ms.date: 02/26/2018
 ms.keywords: DFMemoryObjectRef_53623d93-01bb-4062-b066-e884beed3f32.xml, WdfMemoryCreate, WdfMemoryCreate method, kmdf.wdfmemorycreate, wdf.wdfmemorycreate, wdfmemory/WdfMemoryCreate
 ms.topic: function
+f1_keywords:
+ - "wdfmemory/WdfMemoryCreate"
 req.header: wdfmemory.h
 req.include-header: Wdf.h
 req.target-type: Universal

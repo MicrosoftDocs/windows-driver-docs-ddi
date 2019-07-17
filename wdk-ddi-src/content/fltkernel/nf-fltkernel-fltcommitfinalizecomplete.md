@@ -8,6 +8,8 @@ ms.assetid: e1bfef9f-87c8-49e0-bbc4-6bc5ea103758
 ms.date: 04/16/2018
 ms.keywords: FltApiRef_a_to_d_f2b874db-f5fb-405b-a3a5-b5877c88548d.xml, FltCommitFinalizeComplete, FltCommitFinalizeComplete routine [Installable File System Drivers], fltkernel/FltCommitFinalizeComplete, ifsk.fltcommitfinalizecomplete
 ms.topic: function
+f1_keywords:
+ - "fltkernel/FltCommitFinalizeComplete"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

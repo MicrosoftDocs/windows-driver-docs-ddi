@@ -8,6 +8,8 @@ ms.assetid: 291442df-21e1-4acf-a107-0a18f28e30ad
 ms.date: 04/30/2018
 ms.keywords: KeReleaseInterruptSpinLock, KeReleaseInterruptSpinLock routine [Kernel-Mode Driver Architecture], k105_673f3ed1-bb95-413b-b56b-e9fdea636e8f.xml, kernel.kereleaseinterruptspinlock, wdm/KeReleaseInterruptSpinLock
 ms.topic: function
+f1_keywords:
+ - "wdm/KeReleaseInterruptSpinLock"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

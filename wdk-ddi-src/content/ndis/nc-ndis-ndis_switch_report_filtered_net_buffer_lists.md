@@ -8,6 +8,8 @@ ms.assetid: 06E7FC94-628D-4601-8173-F118043A13FB
 ms.date: 05/02/2018
 ms.keywords: NDIS_SWITCH_REPORT_FILTERED_NET_BUFFER_LISTS, NDIS_SWITCH_REPORT_FILTERED_NET_BUFFER_LISTS callback, ReportFilteredNetBufferLists, ReportFilteredNetBufferLists callback function [Network Drivers Starting with Windows Vista], ndis/ReportFilteredNetBufferLists, netvista.reportfilterednetbufferlists
 ms.topic: callback
+f1_keywords:
+ - "ndis/ReportFilteredNetBufferLists"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

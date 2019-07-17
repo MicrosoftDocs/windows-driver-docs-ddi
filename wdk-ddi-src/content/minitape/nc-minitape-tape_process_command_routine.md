@@ -8,6 +8,8 @@ ms.assetid: 6675d840-8b13-44ef-bbdb-84d683240175
 ms.date: 03/29/2018
 ms.keywords: "(*TAPE_PROCESS_COMMAND_ROUTINE), (*TAPE_PROCESS_COMMAND_ROUTINE) routine [Storage Devices], TAPE_PROCESS_COMMAND_ROUTINE, minitape/(*TAPE_PROCESS_COMMAND_ROUTINE), storage.tapeminicreatepartition, tapemini_34ae90ec-7f62-45f3-91e4-d64acfdbd797.xml"
 ms.topic: callback
+f1_keywords:
+ - "minitape/(*TAPE_PROCESS_COMMAND_ROUTINE)"
 req.header: minitape.h
 req.include-header: Minitape.h
 req.target-type: Desktop

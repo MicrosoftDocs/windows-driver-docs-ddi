@@ -5,6 +5,8 @@ description: Pfnd3dkmtMapgpuvirtualaddress maps a graphics processing unit (GPU)
 ms.assetid: 261e50b0-8a71-4f06-84d5-b5601c469aac
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/PFND3DKMT_MAPGPUVIRTUALADDRESS"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

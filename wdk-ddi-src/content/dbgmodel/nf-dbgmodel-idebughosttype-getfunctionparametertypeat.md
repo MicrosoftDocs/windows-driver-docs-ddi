@@ -5,6 +5,8 @@ description: The GetFunctionParameterTypeAt method returns the type of the i-th 
 ms.assetid: 27151f01-f037-4fab-bbe5-909f753eddbe
 ms.date: 08/22/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDebugHostType.GetFunctionParameterTypeAt"
 ms.keywords: IDebugHostType::GetFunctionParameterTypeAt, GetFunctionParameterTypeAt, IDebugHostType.GetFunctionParameterTypeAt, IDebugHostType::GetFunctionParameterTypeAt, IDebugHostType.GetFunctionParameterTypeAt
 req.header: dbgmodel.h
 req.include-header:

@@ -8,6 +8,8 @@ ms.assetid: 4f3e1dcd-1885-4b9f-b033-19d91178d8ab
 ms.date: 05/03/2018
 ms.keywords: GetDeviceInfo, GetDeviceInfo method [Imaging Devices], GetDeviceInfo method [Imaging Devices],IStillImageW interface, IStillImageW interface [Imaging Devices],GetDeviceInfo method, IStillImageW.GetDeviceInfo, IStillImageW::GetDeviceInfo, image.istillimage_getdeviceinfo, sti/IStillImageW::GetDeviceInfo, stifnc_a6d46551-9c0a-41f2-a5ed-ca5bc4d1b8c1.xml
 ms.topic: method
+f1_keywords:
+ - "sti/IStillImageW.GetDeviceInfo"
 req.header: sti.h
 req.include-header: Sti.h
 req.target-type: Desktop

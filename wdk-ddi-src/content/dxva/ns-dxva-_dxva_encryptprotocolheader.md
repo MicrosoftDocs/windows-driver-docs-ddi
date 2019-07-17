@@ -8,6 +8,8 @@ ms.assetid: 924da940-f609-4302-b454-87243200808e
 ms.date: 05/10/2018
 ms.keywords: "*LPDXVA_EncryptProtocolHeader, DXVA_EncryptProtocolHeader, DXVA_EncryptProtocolHeader structure [Display Devices], LPDXVA_EncryptProtocolHeader, LPDXVA_EncryptProtocolHeader structure pointer [Display Devices], _DXVA_EncryptProtocolHeader, display.dxva_encryptprotocolheader, dxva/DXVA_EncryptProtocolHeader, dxva/LPDXVA_EncryptProtocolHeader, dxvaref_19bd4a66-c03f-44c3-98b6-875da968fa50.xml"
 ms.topic: struct
+f1_keywords:
+ - "dxva/DXVA_EncryptProtocolHeader"
 req.header: dxva.h
 req.include-header: Dxva.h
 req.target-type: Windows

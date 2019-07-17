@@ -8,6 +8,8 @@ ms.assetid: a2e31a1a-59e4-4a83-b866-944ef1693f65
 ms.date: 03/29/2018
 ms.keywords: "*PDVD_REGION, DVD_REGION, DVD_REGION structure [Storage Devices], PDVD_REGION, PDVD_REGION structure pointer [Storage Devices], _DVD_REGION, ntddcdvd/DVD_REGION, ntddcdvd/PDVD_REGION, storage.dvd_region, structs-DVD_b1569a34-c55e-482b-b87e-30becd20e2c1.xml"
 ms.topic: struct
+f1_keywords:
+ - "ntddcdvd/DVD_REGION"
 req.header: ntddcdvd.h
 req.include-header: Ntddcdvd.h
 req.target-type: Windows

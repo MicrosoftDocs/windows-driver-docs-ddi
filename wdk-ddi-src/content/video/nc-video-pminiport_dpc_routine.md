@@ -8,6 +8,8 @@ ms.assetid: d4b443a2-3665-4e7c-b84a-5388a8fe8681
 ms.date: 05/10/2018
 ms.keywords: HwVidDpcRoutine, HwVidDpcRoutine callback function [Display Devices], PMINIPORT_DPC_ROUTINE, PMINIPORT_DPC_ROUTINE callback, VideoMiniport_Functions_5d605867-89d7-44a9-b08b-c49ffaa90244.xml, display.hwviddpcroutine, video/HwVidDpcRoutine
 ms.topic: callback
+f1_keywords:
+ - "video/HwVidDpcRoutine"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

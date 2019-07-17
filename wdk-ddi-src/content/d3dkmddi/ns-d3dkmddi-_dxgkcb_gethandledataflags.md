@@ -7,6 +7,8 @@ ms.assetid: 01689a2f-115a-4db8-b53d-38717c10a0ff
 ms.date: 05/10/2018
 ms.keywords: DXGKCB_GETHANDLEDATAFLAGS, DXGKCB_GETHANDLEDATAFLAGS structure [Display Devices], DmStructs_a0288df8-0513-4823-9445-cd86ff45a186.xml, _DXGKCB_GETHANDLEDATAFLAGS, d3dkmddi/DXGKCB_GETHANDLEDATAFLAGS, display.dxgkcb_gethandledataflags
 ms.topic: struct
+f1_keywords:
+ - "d3dkmddi/DXGKCB_GETHANDLEDATAFLAGS"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

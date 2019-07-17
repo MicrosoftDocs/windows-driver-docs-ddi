@@ -7,6 +7,8 @@ ms.assetid: 052507ec-4a26-4bb6-8876-c03a9c81f412
 ms.date: 05/10/2018
 ms.keywords: D3DKMTGetScanLine, D3DKMTGetScanLine function [Display Devices], OpenGL_Functions_3a2d269d-0867-42fb-9268-86c560531de4.xml, d3dkmthk/D3DKMTGetScanLine, display.d3dkmtgetscanline
 ms.topic: function
+f1_keywords:
+ - "d3dkmthk/D3DKMTGetScanLine"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal

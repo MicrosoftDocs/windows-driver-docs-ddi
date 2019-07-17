@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: d55a038d-2f2e-45f4-b306-afe5703c5357
 ms.date: 06/25/2018
 ms.topic: struct
+f1_keywords:
+ - "ndiswwan/_NDIS_WWAN_MPDP_INFO"
 ms.keywords: _NDIS_WWAN_MPDP_INFO, NDIS_WWAN_MPDP_INFO, *PNDIS_WWAN_MPDP_INFO, 
 req.header: ndiswwan.h
 req.include-header:

@@ -8,6 +8,8 @@ ms.assetid: C63125FA-7ADF-406A-A729-67C6ACA47D96
 ms.date: 05/10/2018
 ms.keywords: DXGI_DDI_ARG_GETMULTIPLANEOVERLAYGROUPCAPS, DXGI_DDI_ARG_GETMULTIPLANEOVERLAYGROUPCAPS structure [Display Devices], _DXGI_DDI_ARG_GETMULTIPLANEOVERLAYGROUPCAPS, display.dxgi_ddi_arg_getmultiplaneoverlaygroupcaps, dxgiddi/DXGI_DDI_ARG_GETMULTIPLANEOVERLAYGROUPCAPS
 ms.topic: struct
+f1_keywords:
+ - "dxgiddi/DXGI_DDI_ARG_GETMULTIPLANEOVERLAYGROUPCAPS"
 req.header: dxgiddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: 6c425b5d-8d9f-4438-b9e4-256dcc8878c5
 ms.date: 04/23/2018
 ms.keywords: PIPE_TERMINATION, PIPE_TERMINATION structure [Streaming Media Devices], PPIPE_TERMINATION, PPIPE_TERMINATION structure pointer [Streaming Media Devices], _PIPE_TERMINATION, ksproxy/PIPE_TERMINATION, ksproxy/PPIPE_TERMINATION, ksproxy_ee6f14a8-dda3-4b28-b6a9-e99bafd7e921.xml, stream.pipe_termination
 ms.topic: struct
+f1_keywords:
+ - "ksproxy/PIPE_TERMINATION"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: Windows

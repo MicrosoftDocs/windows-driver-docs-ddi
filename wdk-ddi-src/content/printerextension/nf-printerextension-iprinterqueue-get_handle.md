@@ -8,6 +8,8 @@ ms.assetid: FE8A8822-28C8-4255-86A4-A77F17C1C281
 ms.date: 04/20/2018
 ms.keywords: Handle property [Print Devices], Handle property [Print Devices],IPrinterQueue interface, IPrinterQueue interface [Print Devices],Handle property, IPrinterQueue.Handle, IPrinterQueue.get_Handle, IPrinterQueue::Handle, IPrinterQueue::get_Handle, get_Handle, print.iprinterqueue_handle, printerextension/IPrinterQueue::Handle, printerextension/IPrinterQueue::get_Handle
 ms.topic: method
+f1_keywords:
+ - "printerextension/IPrinterQueue.Handle"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows

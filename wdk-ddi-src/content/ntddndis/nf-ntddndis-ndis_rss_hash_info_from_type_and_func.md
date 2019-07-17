@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: f25dc03e-97b0-43fa-93d4-dd58090b530a
 ms.date: 04/16/2018
 ms.topic: macro
+f1_keywords:
+ - "ntddndis/NDIS_RSS_HASH_INFO_FROM_TYPE_AND_FUNC"
 ms.keywords: NDIS_RSS_HASH_INFO_FROM_TYPE_AND_FUNC
 req.header: ntddndis.h
 req.include-header: ndis.h

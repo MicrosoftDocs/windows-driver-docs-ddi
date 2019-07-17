@@ -8,6 +8,8 @@ ms.assetid: 10af500f-bb3b-427f-86b1-ee075ffc7ac6
 ms.date: 05/02/2018
 ms.keywords: "*PWSK_DATA_INDICATION, PWSK_DATA_INDICATION, PWSK_DATA_INDICATION structure pointer [Network Drivers Starting with Windows Vista], WSK_DATA_INDICATION, WSK_DATA_INDICATION structure [Network Drivers Starting with Windows Vista], _WSK_DATA_INDICATION, netvista.wsk_data_indication, wsk/PWSK_DATA_INDICATION, wsk/WSK_DATA_INDICATION, wskref_89ac35f7-4945-4b2d-90d6-177d9bca7361.xml"
 ms.topic: struct
+f1_keywords:
+ - "wsk/WSK_DATA_INDICATION"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Windows

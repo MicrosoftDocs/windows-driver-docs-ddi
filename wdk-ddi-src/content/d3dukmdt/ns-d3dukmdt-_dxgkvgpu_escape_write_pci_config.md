@@ -8,6 +8,8 @@ ms.assetid: 2B0902DB-B59C-4DC5-A944-02ACE9DA16DC
 ms.date: 05/10/2018
 ms.keywords: DXGKVGPU_ESCAPE_WRITE_PCI_CONFIG, DXGKVGPU_ESCAPE_WRITE_PCI_CONFIG structure [Display Devices], _DXGKVGPU_ESCAPE_WRITE_PCI_CONFIG, d3dukmdt/DXGKVGPU_ESCAPE_WRITE_PCI_CONFIG, display.dxgkvgpu_escape_write_pci_config
 ms.topic: struct
+f1_keywords:
+ - "d3dukmdt/DXGKVGPU_ESCAPE_WRITE_PCI_CONFIG"
 req.header: d3dukmdt.h
 req.include-header: 
 req.target-type: Windows

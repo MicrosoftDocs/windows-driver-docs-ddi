@@ -8,6 +8,8 @@ ms.assetid: eece67ed-faff-4166-8fa0-d501df9c1363
 ms.date: 03/29/2018
 ms.keywords: StorPortSynchronizeAccess, StorPortSynchronizeAccess routine [Storage Devices], storage.storportsynchronizeaccess, storport/StorPortSynchronizeAccess, storprt_25ee1679-940a-4758-9828-123a9ad24268.xml
 ms.topic: function
+f1_keywords:
+ - "storport/StorPortSynchronizeAccess"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

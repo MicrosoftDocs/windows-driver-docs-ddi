@@ -8,6 +8,8 @@ ms.assetid: 5B6893D4-51ED-483C-87F4-0404C48E100F
 ms.date: 04/23/2018
 ms.keywords: 2/SerCx2SystemDmaTransmitGetDmaEnabler, SerCx2SystemDmaTransmitGetDmaEnabler, SerCx2SystemDmaTransmitGetDmaEnabler method [Serial Ports], serports.sercx2systemdmatransmitgetdmaenabler
 ms.topic: function
+f1_keywords:
+ - "sercx/SerCx2SystemDmaTransmitGetDmaEnabler"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Universal

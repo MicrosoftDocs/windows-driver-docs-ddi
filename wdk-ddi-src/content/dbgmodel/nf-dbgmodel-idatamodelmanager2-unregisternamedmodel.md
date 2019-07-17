@@ -5,6 +5,8 @@ description: The UnregisterNamedModel method undoes a prior call to RegisterName
 ms.assetid: 0bdd2601-f489-4b9d-9b9f-41f058044dc8
 ms.date: 09/11/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDataModelManager2.UnregisterNamedModel"
 ms.keywords: IDataModelManager2::UnregisterNamedModel, UnregisterNamedModel, IDataModelManager2.UnregisterNamedModel, IDataModelManager2::UnregisterNamedModel, IDataModelManager2.UnregisterNamedModel
 req.header: dbgmodel.h
 req.include-header:

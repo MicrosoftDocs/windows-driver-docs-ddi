@@ -8,6 +8,8 @@ ms.assetid: 05615730-dbeb-496a-b4a8-a16830b31586
 ms.date: 04/23/2018
 ms.keywords: KsPinGetLeadingEdgeStreamPointer, KsPinGetLeadingEdgeStreamPointer function [Streaming Media Devices], avfunc_0eb1faec-c090-4647-8306-84cff42ddf9c.xml, ks/KsPinGetLeadingEdgeStreamPointer, stream.kspingetleadingedgestreampointer
 ms.topic: function
+f1_keywords:
+ - "ks/KsPinGetLeadingEdgeStreamPointer"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

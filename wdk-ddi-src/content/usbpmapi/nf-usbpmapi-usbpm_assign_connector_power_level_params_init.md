@@ -5,6 +5,8 @@ description: Initializes a **USBPM_ASSIGN_CONNECTOR_POWER_LEVEL_PARAMS** structu
 ms.assetid: b95baed4-5f1d-4e0c-a6eb-a68ee5c462a5
 ms.date: 09/30/2018
 ms.topic: function
+f1_keywords:
+ - "usbpmapi/USBPM_ASSIGN_CONNECTOR_POWER_LEVEL_PARAMS_INIT"
 ms.keywords: USBPM_ASSIGN_CONNECTOR_POWER_LEVEL_PARAMS_INIT
 tech.root: usbref
 req.header: usbpmapi.h

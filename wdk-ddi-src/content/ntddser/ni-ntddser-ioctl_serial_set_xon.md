@@ -8,6 +8,8 @@ ms.assetid: 082a02dc-93c2-495d-bc20-cb3510c00d78
 ms.date: 04/23/2018
 ms.keywords: IOCTL_SERIAL_SET_XON, IOCTL_SERIAL_SET_XON control, IOCTL_SERIAL_SET_XON control code [Serial Ports], ntddser/IOCTL_SERIAL_SET_XON, serports.ioctl_serial_set_xon, serref_1c7446da-0080-45f4-af38-c674b874883d.xml
 ms.topic: ioctl
+f1_keywords:
+ - "ntddser/IOCTL_SERIAL_SET_XON"
 req.header: ntddser.h
 req.include-header: Ntddser.h
 req.target-type: Windows

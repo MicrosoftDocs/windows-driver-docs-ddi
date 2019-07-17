@@ -8,6 +8,8 @@ ms.assetid: ebf5ccbe-3325-4d3d-86c9-230776f2c9ef
 ms.date: 04/30/2018
 ms.keywords: RtlInitializeCorrelationVector, RtlInitializeCorrelationVector function [Kernel-Mode Driver Architecture], kernel.rtlinitializecorrelationvector, ntddk/RtlInitializeCorrelationVector
 ms.topic: function
+f1_keywords:
+ - "ntddk/RtlInitializeCorrelationVector"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows

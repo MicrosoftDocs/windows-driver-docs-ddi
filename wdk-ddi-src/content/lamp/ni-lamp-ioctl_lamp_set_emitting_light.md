@@ -8,6 +8,8 @@ ms.assetid: E3B85C82-EC55-4A88-BFCA-91123F8311D1
 ms.date: 04/23/2018
 ms.keywords: IOCTL_LAMP_SET_EMITTING_LIGHT, IOCTL_LAMP_SET_EMITTING_LIGHT control, IOCTL_LAMP_SET_EMITTING_LIGHT control code [Streaming Media Devices], lamp/IOCTL_LAMP_SET_EMITTING_LIGHT, stream.ioctl_lamp_set_emitting_light
 ms.topic: ioctl
+f1_keywords:
+ - "lamp/IOCTL_LAMP_SET_EMITTING_LIGHT"
 req.header: lamp.h
 req.include-header: 
 req.target-type: Windows

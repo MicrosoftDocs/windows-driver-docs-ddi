@@ -8,6 +8,8 @@ ms.assetid: 74C32E55-79C6-449A-AFA3-27858CF4EA6B
 ms.date: 03/29/2018
 ms.keywords: StorPortInterlockedPushEntrySList, StorPortInterlockedPushEntrySList routine [Storage Devices], storage.storportinterlockedpushentryslist, storport/StorPortInterlockedPushEntrySList
 ms.topic: function
+f1_keywords:
+ - "storport/StorPortInterlockedPushEntrySList"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

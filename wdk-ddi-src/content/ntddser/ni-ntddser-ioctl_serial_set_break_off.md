@@ -8,6 +8,8 @@ ms.assetid: aa64da58-cb50-485e-afbc-3a0408b4ecf2
 ms.date: 04/23/2018
 ms.keywords: IOCTL_SERIAL_SET_BREAK_OFF, IOCTL_SERIAL_SET_BREAK_OFF control, IOCTL_SERIAL_SET_BREAK_OFF control code [Serial Ports], ntddser/IOCTL_SERIAL_SET_BREAK_OFF, serports.ioctl_serial_set_break_off, serref_1a347f28-6dfb-4b5d-afb8-9bb8ffad9f36.xml
 ms.topic: ioctl
+f1_keywords:
+ - "ntddser/IOCTL_SERIAL_SET_BREAK_OFF"
 req.header: ntddser.h
 req.include-header: Ntddser.h
 req.target-type: Windows

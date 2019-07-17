@@ -8,6 +8,8 @@ ms.assetid: 7d0f1609-5a24-4d38-9e9e-0c8e2de679a2
 ms.date: 04/20/2018
 ms.keywords: "_CPSUICALLBACK, _CPSUICALLBACK callback, _CPSUICALLBACK callback function [Print Devices], compstui/_CPSUICALLBACK, cpsuifnc_a5a532ac-20be-43d5-a9fb-40b918f44d51.xml, print._cpsuicallback"
 ms.topic: callback
+f1_keywords:
+ - "compstui/_CPSUICALLBACK"
 req.header: compstui.h
 req.include-header: Compstui.h
 req.target-type: Desktop

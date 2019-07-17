@@ -8,6 +8,8 @@ ms.assetid: efb3617d-86be-4380-ad1a-0a333d248168
 ms.date: 02/26/2018
 ms.keywords: DFResourceObjectRef_1d064295-4660-4112-9512-9c5ff7196485.xml, WdfIoResourceRequirementsListAppendIoResList, WdfIoResourceRequirementsListAppendIoResList method, kmdf.wdfioresourcerequirementslistappendioreslist, wdf.wdfioresourcerequirementslistappendioreslist, wdfresource/WdfIoResourceRequirementsListAppendIoResList
 ms.topic: function
+f1_keywords:
+ - "wdfresource/WdfIoResourceRequirementsListAppendIoResList"
 req.header: wdfresource.h
 req.include-header: Wdf.h
 req.target-type: Universal

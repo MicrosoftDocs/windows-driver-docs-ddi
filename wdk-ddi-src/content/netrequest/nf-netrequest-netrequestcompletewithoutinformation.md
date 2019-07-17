@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 706adc5b-3eb4-4876-ad86-6d335a0860ca
 ms.date: 02/08/2018
 ms.topic: function
+f1_keywords:
+ - "netrequest/NetRequestCompleteWithoutInformation"
 ms.keywords: NetRequestCompleteWithoutInformation
 req.header: netrequest.h
 req.include-header: netadaptercx.h

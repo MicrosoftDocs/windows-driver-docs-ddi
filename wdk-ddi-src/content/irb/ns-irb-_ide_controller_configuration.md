@@ -8,6 +8,8 @@ ms.assetid: 89b7f66e-3a3a-4723-a409-3b3030c1a45b
 ms.date: 03/29/2018
 ms.keywords: "*PIDE_CONTROLLER_CONFIGURATION, IDE_CONTROLLER_CONFIGURATION, IDE_CONTROLLER_CONFIGURATION structure [Storage Devices], PIDE_CONTROLLER_CONFIGURATION, PIDE_CONTROLLER_CONFIGURATION structure pointer [Storage Devices], _IDE_CONTROLLER_CONFIGURATION, irb/IDE_CONTROLLER_CONFIGURATION, irb/PIDE_CONTROLLER_CONFIGURATION, storage.ide_controller_configuration, structs-ATA_c72d9d21-e06b-43e0-8854-8b682e2e0778.xml"
 ms.topic: struct
+f1_keywords:
+ - "irb/IDE_CONTROLLER_CONFIGURATION"
 req.header: irb.h
 req.include-header: Irb.h
 req.target-type: Windows

@@ -7,6 +7,8 @@ ms.assetid: 2536fafc-3b62-42a6-8b53-60fa8d61d5a9
 ms.date: 05/10/2018
 ms.keywords: DXGK_GDIARG_TRANSPARENTBLT, DXGK_GDIARG_TRANSPARENTBLT structure [Display Devices], DmStructs_bb046cac-9272-4bf2-a3a7-33cc7035f3fb.xml, _DXGK_GDIARG_TRANSPARENTBLT, d3dkmddi/DXGK_GDIARG_TRANSPARENTBLT, display.dxgk_gdiarg_transparentblt
 ms.topic: struct
+f1_keywords:
+ - "d3dkmddi/DXGK_GDIARG_TRANSPARENTBLT"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

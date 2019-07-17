@@ -5,6 +5,8 @@ description: pfnSubmitPresentToHwQueueCb is invoked by user mode drivers to subm
 ms.assetid: 7973174e-6d3d-4fa2-8a91-ab1d03e348b4
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/PFND3DKMT_SUBMITPRESENTTOHWQUEUE"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

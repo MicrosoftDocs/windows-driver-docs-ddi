@@ -8,6 +8,8 @@ ms.assetid: 6C358D49-970D-4687-B16E-7D1B44CB0A8E
 ms.date: 05/03/2018
 ms.keywords: IDebugControl5, IDebugControl5 interface [Windows Debugging], IDebugControl5 interface [Windows Debugging],described, dbgeng/IDebugControl5, debugger.idebugcontrol5
 ms.topic: interface
+f1_keywords:
+ - "dbgeng/IDebugControl5"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

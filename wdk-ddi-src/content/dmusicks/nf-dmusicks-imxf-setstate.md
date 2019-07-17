@@ -6,6 +6,8 @@ tech.root: audio
 ms.assetid: 86b217d6-9f15-41f0-a8ae-70e1e10dd140
 ms.date: 10/31/2018
 ms.topic: method
+f1_keywords:
+ - "dmusicks/IMXF.SetState"
 ms.keywords: IMXF::SetState, SetState, IMXF.SetState, IMXF::SetState, IMXF.SetState
 req.header: dmusicks.h
 req.include-header:

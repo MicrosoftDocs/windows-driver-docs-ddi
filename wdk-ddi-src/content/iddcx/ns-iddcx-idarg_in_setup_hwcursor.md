@@ -8,6 +8,8 @@ ms.assetid: 1e2c959c-0ebd-4464-ad47-96f432cb5c6b
 ms.date: 05/10/2018
 ms.keywords: IDARG_IN_SETUP_HWCURSOR, IDARG_IN_SETUP_HWCURSOR structure [Display Devices], display.idarg_in_setup_hwcursor, iddcx/IDARG_IN_SETUP_HWCURSOR
 ms.topic: struct
+f1_keywords:
+ - "iddcx/IDARG_IN_SETUP_HWCURSOR"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows

@@ -5,6 +5,8 @@ description: Retrieves the current state of a connector. Unlike connector proper
 ms.assetid: dc7c8d73-70bc-4021-83b3-1519fab014fa
 ms.date: 09/30/2018
 ms.topic: function
+f1_keywords:
+ - "usbpmapi/UsbPm_RetrieveConnectorState"
 ms.keywords: UsbPm_RetrieveConnectorState
 tech.root: usbref
 req.header: usbpmapi.h

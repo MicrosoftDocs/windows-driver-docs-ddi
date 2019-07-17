@@ -8,6 +8,8 @@ ms.assetid: 74de7f2a-8738-472b-8a22-983a82e29fcb
 ms.date: 05/07/2018
 ms.keywords: "*PUCMTCPCI_DEVICE_CONFIG, PUCMTCPCI_DEVICE_CONFIG, PUCMTCPCI_DEVICE_CONFIG structure pointer [Buses], UCMTCPCI_DEVICE_CONFIG, UCMTCPCI_DEVICE_CONFIG structure [Buses], _UCMTCPCI_DEVICE_CONFIG, buses.ucmtcpci_device_config, ucmtcpcidevice/PUCMTCPCI_DEVICE_CONFIG, ucmtcpcidevice/UCMTCPCI_DEVICE_CONFIG"
 ms.topic: struct
+f1_keywords:
+ - "ucmtcpcidevice/UCMTCPCI_DEVICE_CONFIG"
 req.header: ucmtcpcidevice.h
 req.include-header: 
 req.target-type: Windows

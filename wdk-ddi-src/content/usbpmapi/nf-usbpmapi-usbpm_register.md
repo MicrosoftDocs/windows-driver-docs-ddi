@@ -5,6 +5,8 @@ description: Registers the client driver with the Policy Manager to report hub a
 ms.assetid: 6560279e-9174-49ba-9a59-341baec7494a
 ms.date: 09/30/2018
 ms.topic: function
+f1_keywords:
+ - "usbpmapi/UsbPm_Register"
 ms.keywords: UsbPm_Register
 tech.root: usbref
 req.header: usbpmapi.h

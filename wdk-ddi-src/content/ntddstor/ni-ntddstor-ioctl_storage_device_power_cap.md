@@ -8,6 +8,8 @@ ms.assetid: 88DEC1F2-F0E7-4E95-9A46-D9E8EF72B1BB
 ms.date: 03/29/2018
 ms.keywords: IOCTL_STORAGE_DEVICE_POWER_CAP, IOCTL_STORAGE_DEVICE_POWER_CAP control, IOCTL_STORAGE_DEVICE_POWER_CAP control code [Storage Devices], ntddstor/IOCTL_STORAGE_DEVICE_POWER_CAP, storage.ioctl_storage_device_power_cap
 ms.topic: ioctl
+f1_keywords:
+ - "ntddstor/IOCTL_STORAGE_DEVICE_POWER_CAP"
 req.header: ntddstor.h
 req.include-header: Ntddstor.h
 req.target-type: Windows

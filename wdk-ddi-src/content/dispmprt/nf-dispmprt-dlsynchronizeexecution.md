@@ -8,6 +8,8 @@ ms.assetid: e7eb6f58-dbf7-47ab-85f1-72d6aba64a09
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
 ms.topic: function
+f1_keywords:
+ - "dispmprt/DlSynchronizeExecution"
 ms.keywords: DlSynchronizeExecution
 req.header: dispmprt.h
 req.include-header:

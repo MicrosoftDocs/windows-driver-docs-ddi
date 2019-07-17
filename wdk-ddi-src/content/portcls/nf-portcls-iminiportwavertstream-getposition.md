@@ -6,6 +6,8 @@ tech.root: audio
 ms.assetid: f5d1cef6-64ab-478e-9ad9-6f3b84633f99
 ms.date: 10/31/2018
 ms.topic: method
+f1_keywords:
+ - "portcls/IMiniportWaveRTStream.GetPosition"
 ms.keywords: IMiniportWaveRTStream::GetPosition, GetPosition, IMiniportWaveRTStream.GetPosition, IMiniportWaveRTStream::GetPosition, IMiniportWaveRTStream.GetPosition
 req.header: portcls.h
 req.include-header:

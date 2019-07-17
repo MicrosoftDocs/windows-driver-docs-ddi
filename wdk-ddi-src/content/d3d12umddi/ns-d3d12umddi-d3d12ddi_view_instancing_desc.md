@@ -7,6 +7,8 @@ ms.assetid: 4d942de6-d829-499c-80cf-3cff8266aee4
 ms.date: 05/10/2018
 ms.keywords: D3D12DDI_VIEW_INSTANCING_DESC, D3D12DDI_VIEW_INSTANCING_DESC structure [Display Devices], d3d12umddi/D3D12DDI_VIEW_INSTANCING_DESC, display.d3d12ddi-view-instancing-desc
 ms.topic: struct
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_VIEW_INSTANCING_DESC"
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: Windows

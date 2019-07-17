@@ -7,6 +7,8 @@ ms.assetid: 4a973ecd-341f-4766-9fed-f56e55f8deae
 ms.date: 05/10/2018
 ms.keywords: DXGK_MONITORFREQUENCYRANGESET_INTERFACE, DXGK_MONITORFREQUENCYRANGESET_INTERFACE structure [Display Devices], DmStructs_7ff19615-df83-4d5e-91c2-8a94a1cfeea3.xml, _DXGK_MONITORFREQUENCYRANGESET_INTERFACE, d3dkmddi/DXGK_MONITORFREQUENCYRANGESET_INTERFACE, display.dxgk_monitorfrequencyrangeset_interface
 ms.topic: struct
+f1_keywords:
+ - "d3dkmddi/DXGK_MONITORFREQUENCYRANGESET_INTERFACE"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

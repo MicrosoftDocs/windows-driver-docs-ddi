@@ -8,6 +8,8 @@ ms.assetid: 1958722e-012e-4110-a82c-751744bcf9b5
 ms.date: 05/02/2018
 ms.keywords: PROTOCOL_BIND_ADAPTER_EX, PROTOCOL_BIND_ADAPTER_EX callback, ProtocolBindAdapterEx, ProtocolBindAdapterEx callback function [Network Drivers Starting with Windows Vista], ndis/ProtocolBindAdapterEx, netvista.protocolbindadapterex, protocol_functions_ref_82268bd4-3e45-48ba-8b80-df47fbde11e1.xml
 ms.topic: callback
+f1_keywords:
+ - "ndis/ProtocolBindAdapterEx"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

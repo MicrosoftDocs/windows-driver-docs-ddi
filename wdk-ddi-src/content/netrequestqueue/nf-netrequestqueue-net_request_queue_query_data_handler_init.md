@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 61193100-87c9-4e2b-b268-cb6ae36e6503
 ms.date: 02/09/2018
 ms.topic: function
+f1_keywords:
+ - "netrequestqueue/NET_REQUEST_QUEUE_QUERY_DATA_HANDLER_INIT"
 ms.keywords: NET_REQUEST_QUEUE_QUERY_DATA_HANDLER_INIT
 req.header: netrequestqueue.h
 req.include-header:

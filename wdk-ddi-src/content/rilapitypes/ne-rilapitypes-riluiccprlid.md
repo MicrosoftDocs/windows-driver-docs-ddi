@@ -8,6 +8,8 @@ ms.assetid: fab3455a-c09f-4a08-a76d-4d80468accd2
 ms.date: 05/02/2018
 ms.keywords: RILUICCPRLID, RILUICCPRLID enumeration [Network Drivers Starting with Windows Vista], netvista.riluiccprlid, ntddrilapitypes/RILUICCPRLID
 ms.topic: enum
+f1_keywords:
+ - "rilapitypes/RILUICCPRLID"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

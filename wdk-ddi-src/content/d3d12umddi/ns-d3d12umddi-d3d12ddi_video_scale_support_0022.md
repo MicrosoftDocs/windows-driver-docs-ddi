@@ -7,6 +7,8 @@ ms.assetid: 70FFDE9E-2029-4C84-9DEE-C2E81FEE5590
 ms.date: 05/10/2018
 ms.keywords: D3D12DDI_VIDEO_SCALE_SUPPORT_0022, D3D12DDI_VIDEO_SCALE_SUPPORT_0022 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_SCALE_SUPPORT_0022, display.d3d12ddi_video_scale_support
 ms.topic: struct
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_VIDEO_SCALE_SUPPORT_0022"
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: 6c9c8270-78c4-4bc2-a0e4-5c5e245326ad
 ms.date: 05/03/2018
 ms.keywords: GetSourcePathWide, GetSourcePathWide method [Windows Debugging], GetSourcePathWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetSourcePathWide method, IDebugSymbols3.GetSourcePathWide, IDebugSymbols3::GetSourcePathWide, dbgeng/IDebugSymbols3::GetSourcePathWide, debugger.getsourcepathwide
 ms.topic: method
+f1_keywords:
+ - "dbgeng/IDebugSymbols3.GetSourcePathWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

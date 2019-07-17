@@ -7,6 +7,8 @@ ms.assetid: 7d746cac-42fd-4fb3-9384-ea690c2235f8
 ms.date: 05/10/2018
 ms.keywords: D3DKMT_OPENKEYEDMUTEX2, D3DKMT_OPENKEYEDMUTEX2 structure [Display Devices], _D3DKMT_OPENKEYEDMUTEX2, d3dkmthk/D3DKMT_OPENKEYEDMUTEX2, display.d3dkmt_openkeyedmutex2
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/D3DKMT_OPENKEYEDMUTEX2"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

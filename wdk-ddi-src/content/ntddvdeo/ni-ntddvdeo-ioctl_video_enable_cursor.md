@@ -8,6 +8,8 @@ ms.assetid: 727add49-3224-4bc0-8d98-971e282c575a
 ms.date: 05/10/2018
 ms.keywords: IOCTL_VIDEO_ENABLE_CURSOR, IOCTL_VIDEO_ENABLE_CURSOR control, IOCTL_VIDEO_ENABLE_CURSOR control code [Display Devices], Video_IOCTLs_adcda61e-67fe-4c4e-a6df-015ff1d95c36.xml, display.ioctl_video_enable_cursor, ntddvdeo/IOCTL_VIDEO_ENABLE_CURSOR
 ms.topic: ioctl
+f1_keywords:
+ - "ntddvdeo/IOCTL_VIDEO_ENABLE_CURSOR"
 req.header: ntddvdeo.h
 req.include-header: 
 req.target-type: Windows

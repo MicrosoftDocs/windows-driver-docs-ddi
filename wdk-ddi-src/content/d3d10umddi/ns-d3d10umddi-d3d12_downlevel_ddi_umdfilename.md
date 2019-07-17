@@ -8,6 +8,8 @@ ms.assetid: 127b2cb2-7877-4bb9-9aa3-6c9e7d5d4e4b
 ms.author: windowsdriverdev
 ms.date: 04/04/19
 ms.topic: struct
+f1_keywords:
+ - "d3d10umddi/D3D12_DOWNLEVEL_DDI_UMDFILENAME"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.keywords: D3D12_DOWNLEVEL_DDI_UMDFILENAME, D3D12_DOWNLEVEL_DDI_UMDFILENAME, 

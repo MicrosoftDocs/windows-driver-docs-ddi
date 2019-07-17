@@ -8,6 +8,8 @@ ms.assetid: 634c2177-8e6f-4967-a555-928eb512fce3
 ms.date: 02/16/2018
 ms.keywords: "*LPRILUICCLOCK, RILUICCLOCK, RILUICCLOCK structure [Network Drivers Starting with Windows Vista], netvista.riluicclock, rilapitypes/RILUICCLOCK"
 ms.topic: struct
+f1_keywords:
+ - "ntddrilapitypes/RILUICCLOCK"
 req.header: ntddrilapitypes.h
 req.include-header: Ntddrilapitypes.h
 req.target-type: Windows

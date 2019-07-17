@@ -5,6 +5,8 @@ description: The NotifyDestruct method on a dynamic concept provider is a callba
 ms.assetid: b2e5af39-288c-45c5-b2de-0c5e8069a25a
 ms.date: 09/19/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDynamicConceptProviderConcept.NotifyDestruct"
 ms.keywords: IDynamicConceptProviderConcept::NotifyDestruct, NotifyDestruct, IDynamicConceptProviderConcept.NotifyDestruct, IDynamicConceptProviderConcept::NotifyDestruct, IDynamicConceptProviderConcept.NotifyDestruct
 req.header: dbgmodel.h
 req.include-header:

@@ -5,6 +5,8 @@ description: The addition operator for the location function.
 ms.assetid: 1e19ed69-4afb-4e43-9dc7-912e7f89001d
 ms.date: 09/28/2018
 ms.topic: function
+f1_keywords:
+ - "dbgmodel/operator+"
 ms.keywords: operator+
 req.header: dbgmodel.h
 req.include-header:

@@ -8,6 +8,8 @@ ms.assetid: 7c2bc90a-c724-4787-b604-f7257a83aae7
 ms.date: 04/16/2018
 ms.keywords: FltCallbacks_d5ac42d8-4a17-49c0-b46f-f0c055ded4f3.xml, NormalizeNameComponentExCallback, NormalizeNameComponentExCallback routine [Installable File System Drivers], PFLT_NORMALIZE_NAME_COMPONENT_EX, fltkernel/NormalizeNameComponentExCallback, ifsk.pflt_normalize_name_component_ex
 ms.topic: callback
+f1_keywords:
+ - "fltkernel/NormalizeNameComponentExCallback"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Desktop

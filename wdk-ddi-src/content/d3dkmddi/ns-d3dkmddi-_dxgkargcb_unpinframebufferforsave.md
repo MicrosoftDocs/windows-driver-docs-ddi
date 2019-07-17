@@ -5,6 +5,8 @@ description: Argument used by the DxgkcbUnpinFrameBufferForSave callback functio
 ms.assetid: 56070ab5-2945-498b-8565-c3bf51488bb4
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3dkmddi/_DXGKARGCB_UNPINFRAMEBUFFERFORSAVE"
 ms.keywords: _DXGKARGCB_UNPINFRAMEBUFFERFORSAVE, DXGKARGCB_UNPINFRAMEBUFFERFORSAVE,
 req.header: d3dkmddi.h
 req.include-header:

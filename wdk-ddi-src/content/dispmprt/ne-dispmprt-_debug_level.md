@@ -8,6 +8,8 @@ ms.assetid: 87404085-816f-4ca3-abf7-ae5955b54a99
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
 ms.topic: enum
+f1_keywords:
+ - "dispmprt/_DEBUG_LEVEL"
 ms.keywords: _DEBUG_LEVEL, DEBUG_LEVEL, 
 ms.prod: windows-hardware
 ms.technology: windows-devices

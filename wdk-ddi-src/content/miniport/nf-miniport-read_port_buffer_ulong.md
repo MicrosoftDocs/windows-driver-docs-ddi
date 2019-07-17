@@ -8,6 +8,8 @@ ms.assetid: a63028d8-f90e-4f86-81f5-27bc727ecad7
 ms.date: 04/30/2018
 ms.keywords: READ_PORT_BUFFER_ULONG, READ_PORT_BUFFER_ULONG routine [Kernel-Mode Driver Architecture], k103_ccd1ed9a-a7f9-4ea4-abc4-44ff756ea274.xml, kernel.read_port_buffer_ulong, wdm/READ_PORT_BUFFER_ULONG
 ms.topic: function
+f1_keywords:
+ - "miniport/READ_PORT_BUFFER_ULONG"
 req.header: miniport.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Miniport.h
 req.target-type: Universal

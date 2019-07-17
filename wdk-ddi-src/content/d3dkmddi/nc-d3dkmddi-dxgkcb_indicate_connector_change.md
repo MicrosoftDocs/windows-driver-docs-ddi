@@ -7,6 +7,8 @@ ms.assetid: D3C76DC0-7A6B-4E1E-8277-F6410D4B474B
 ms.date: 05/10/2018
 ms.keywords: DXGKCB_INDICATE_CONNECTOR_CHANGE, DXGKCB_INDICATE_CONNECTOR_CHANGE callback, DXGKCB_INDICATE_CONNECTOR_CHANGE callback function [Display Devices], d3dkmddi/DXGKCB_INDICATE_CONNECTOR_CHANGE, display.dxgkcb_indicate_connector_change
 ms.topic: callback
+f1_keywords:
+ - "d3dkmddi/*DXGKCB_INDICATE_CONNECTOR_CHANGE"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Windows

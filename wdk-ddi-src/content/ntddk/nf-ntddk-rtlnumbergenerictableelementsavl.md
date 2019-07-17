@@ -8,6 +8,8 @@ ms.assetid: CC67993A-99B1-41DC-9278-7A475EF87089
 ms.date: 04/16/2018
 ms.keywords: RtlNumberGenericTableElementsAvl, RtlNumberGenericTableElementsAvl routine [Installable File System Drivers], ifsk.rtlnumbergenerictableelementsavl, ntddk/RtlNumberGenericTableElementsAvl
 ms.topic: function
+f1_keywords:
+ - "ntddk/RtlNumberGenericTableElementsAvl"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal

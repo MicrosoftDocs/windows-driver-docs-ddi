@@ -8,6 +8,8 @@ ms.assetid: f4c8de23-dc92-41b0-82ee-2622d3942c0e
 ms.date: 04/23/2018
 ms.keywords: KsFilterCreatePinFactory, KsFilterCreatePinFactory function [Streaming Media Devices], avfunc_845b66c4-755e-43db-afdc-db929b6bd1c6.xml, ks/KsFilterCreatePinFactory, stream.ksfiltercreatepinfactory
 ms.topic: function
+f1_keywords:
+ - "ks/KsFilterCreatePinFactory"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

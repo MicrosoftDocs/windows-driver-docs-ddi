@@ -7,6 +7,8 @@ ms.assetid: aeab6bf1-bb6f-427e-a566-942b3fb061b2
 ms.date: 05/10/2018
 ms.keywords: D3DKMT_SETGAMMARAMP, D3DKMT_SETGAMMARAMP structure [Display Devices], OpenGL_Structs_3f9b4d19-5367-43bb-94a7-288d375412d7.xml, _D3DKMT_SETGAMMARAMP, d3dkmthk/D3DKMT_SETGAMMARAMP, display.d3dkmt_setgammaramp
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/D3DKMT_SETGAMMARAMP"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

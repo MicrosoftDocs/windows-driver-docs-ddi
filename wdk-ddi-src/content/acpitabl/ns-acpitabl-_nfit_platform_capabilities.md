@@ -5,6 +5,8 @@ description: Describes the NVDIMM Firmware Interface Table (NFIT) platform capab
 ms.assetid: 1bf6d972-fd4f-443d-9718-28fe825e7b56
 ms.date: 10/02/2018
 ms.topic: struct
+f1_keywords:
+ - "acpitabl/_NFIT_PLATFORM_CAPABILITIES"
 ms.keywords: _NFIT_PLATFORM_CAPABILITIES, NFIT_PLATFORM_CAPABILITIES, *PNFIT_PLATFORM_CAPABILITIES, 
 req.header: acpitabl.h
 req.include-header:

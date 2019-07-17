@@ -8,6 +8,8 @@ ms.assetid: D6C03D60-9FC4-4EF1-A7DD-4A91990D5CF1
 ms.date: 04/23/2018
 ms.keywords: "*PKSCAMERA_EXTENDEDPROP_CAMERAOFFSET, KSCAMERA_EXTENDEDPROP_CAMERAOFFSET, KSCAMERA_EXTENDEDPROP_CAMERAOFFSET structure [Streaming Media Devices], PKSCAMERA_EXTENDEDPROP_CAMERAOFFSET, PKSCAMERA_EXTENDEDPROP_CAMERAOFFSET structure pointer [Streaming Media Devices], ksmedia/KSCAMERA_EXTENDEDPROP_CAMERAOFFSET, ksmedia/PKSCAMERA_EXTENDEDPROP_CAMERAOFFSET, stream.kscamera_extendedprop_cameraoffset, tagKSCAMERA_EXTENDEDPROP_CAMERAOFFSET"
 ms.topic: struct
+f1_keywords:
+ - "ksmedia/KSCAMERA_EXTENDEDPROP_CAMERAOFFSET"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: 23B8E247-C521-4CBD-ABB3-9A10ECAFAE84
 ms.date: 04/20/2018
 ms.keywords: IPrinterExtensionEventArgs interface [Print Devices],WindowParent property, IPrinterExtensionEventArgs.WindowParent, IPrinterExtensionEventArgs.get_WindowParent, IPrinterExtensionEventArgs::WindowParent, IPrinterExtensionEventArgs::get_WindowParent, WindowParent property [Print Devices], WindowParent property [Print Devices],IPrinterExtensionEventArgs interface, get_WindowParent, print.iprinterextensioneventargs_windowparent, printerextension/IPrinterExtensionEventArgs::WindowParent, printerextension/IPrinterExtensionEventArgs::get_WindowParent
 ms.topic: method
+f1_keywords:
+ - "printerextension/IPrinterExtensionEventArgs.WindowParent"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows

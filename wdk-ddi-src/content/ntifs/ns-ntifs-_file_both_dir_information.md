@@ -8,6 +8,8 @@ ms.assetid: 892b8eda-0b8e-40ab-940b-a0a423aaa5b8
 ms.date: 04/16/2018
 ms.keywords: "*PFILE_BOTH_DIR_INFORMATION, FILE_BOTH_DIR_INFORMATION, FILE_BOTH_DIR_INFORMATION structure [Installable File System Drivers], PFILE_BOTH_DIR_INFORMATION, PFILE_BOTH_DIR_INFORMATION structure pointer [Installable File System Drivers], _FILE_BOTH_DIR_INFORMATION, fileinformationstructures_6e3069a3-7938-4c57-b741-594c3b70a986.xml, ifsk.file_both_dir_information, ntifs/FILE_BOTH_DIR_INFORMATION, ntifs/PFILE_BOTH_DIR_INFORMATION"
 ms.topic: struct
+f1_keywords:
+ - "ntifs/FILE_BOTH_DIR_INFORMATION"
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Windows

@@ -5,6 +5,8 @@ description: The EvaluateExpression method allows requests the debug host to eva
 ms.assetid: 3a5d84d6-39ba-46c0-a4e7-4e8134aa1b1a
 ms.date: 09/12/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDebugHostEvaluator.EvaluateExpression"
 ms.keywords: IDebugHostEvaluator::EvaluateExpression, EvaluateExpression, IDebugHostEvaluator.EvaluateExpression, IDebugHostEvaluator::EvaluateExpression, IDebugHostEvaluator.EvaluateExpression
 req.header: dbgmodel.h
 req.include-header:

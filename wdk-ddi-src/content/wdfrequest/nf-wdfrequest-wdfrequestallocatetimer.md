@@ -8,6 +8,8 @@ ms.assetid: e77aece7-df27-42d8-8e25-6907a5401ff9
 ms.date: 02/26/2018
 ms.keywords: DFRequestObjectRef_ae292896-d156-44ae-b0cd-3f807fbc1765.xml, WdfRequestAllocateTimer, WdfRequestAllocateTimer method, kmdf.wdfrequestallocatetimer, wdf.wdfrequestallocatetimer, wdfrequest/WdfRequestAllocateTimer
 ms.topic: function
+f1_keywords:
+ - "wdfrequest/WdfRequestAllocateTimer"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal

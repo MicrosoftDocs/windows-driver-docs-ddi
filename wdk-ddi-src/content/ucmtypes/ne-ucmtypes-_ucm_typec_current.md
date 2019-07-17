@@ -8,6 +8,8 @@ ms.assetid: 5A603C0E-BBB8-4909-B7B0-EAADF428CB5F
 ms.date: 05/07/2018
 ms.keywords: UCM_TYPEC_CURRENT, UCM_TYPEC_CURRENT enumeration [Buses], UcmTypeCCurrent1500mA, UcmTypeCCurrent3000mA, UcmTypeCCurrentDefaultUsb, UcmTypeCCurrentInvalid, _UCM_TYPEC_CURRENT, buses.ucm_type_c_current, ucmtypes/UCM_TYPEC_CURRENT, ucmtypes/UcmTypeCCurrent1500mA, ucmtypes/UcmTypeCCurrent3000mA, ucmtypes/UcmTypeCCurrentDefaultUsb, ucmtypes/UcmTypeCCurrentInvalid
 ms.topic: enum
+f1_keywords:
+ - "ucmtypes/UCM_TYPEC_CURRENT"
 req.header: ucmtypes.h
 req.include-header: Ucmcx.h
 req.target-type: Windows

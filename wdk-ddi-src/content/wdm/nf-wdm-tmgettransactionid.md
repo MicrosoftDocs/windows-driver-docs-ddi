@@ -8,6 +8,8 @@ ms.assetid: 8ff4dd86-d828-4e1d-bde5-ab312187a8d7
 ms.date: 04/30/2018
 ms.keywords: TmGetTransactionId, TmGetTransactionId routine [Kernel-Mode Driver Architecture], kernel.tmgettransactionid, ktm_ref_cbb12580-5399-4d81-ab6c-9d0235208681.xml, wdm/TmGetTransactionId
 ms.topic: function
+f1_keywords:
+ - "wdm/TmGetTransactionId"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

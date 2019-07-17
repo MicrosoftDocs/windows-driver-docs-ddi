@@ -8,6 +8,8 @@ ms.assetid: 25f4a9c2-7146-422c-bd55-2520e7d8619b
 ms.date: 04/16/2018
 ms.keywords: "*PTOKEN_OWNER, PTOKEN_OWNER, PTOKEN_OWNER structure pointer [Installable File System Drivers], TOKEN_OWNER, TOKEN_OWNER structure [Installable File System Drivers], _TOKEN_OWNER, ifsk.token_owner, ntifs/PTOKEN_OWNER, ntifs/TOKEN_OWNER, securitystructures_1be454bb-1b55-4fe5-bdbb-85bfcf9dc9c8.xml"
 ms.topic: struct
+f1_keywords:
+ - "ntifs/TOKEN_OWNER"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows

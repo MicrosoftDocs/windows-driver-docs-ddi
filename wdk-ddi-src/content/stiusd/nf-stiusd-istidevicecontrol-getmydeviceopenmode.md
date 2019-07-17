@@ -8,6 +8,8 @@ ms.assetid: 814e739f-6147-4287-876e-db6fc41c5aa1
 ms.date: 05/03/2018
 ms.keywords: GetMyDeviceOpenMode, GetMyDeviceOpenMode method [Imaging Devices], GetMyDeviceOpenMode method [Imaging Devices],IStiDeviceControl interface, IStiDeviceControl interface [Imaging Devices],GetMyDeviceOpenMode method, IStiDeviceControl.GetMyDeviceOpenMode, IStiDeviceControl::GetMyDeviceOpenMode, image.istidevicecontrol_getmydeviceopenmode, stifnc_a3082d9f-d152-4494-b11f-e9d2bd1efe63.xml, stiusd/IStiDeviceControl::GetMyDeviceOpenMode
 ms.topic: method
+f1_keywords:
+ - "stiusd/IStiDeviceControl.GetMyDeviceOpenMode"
 req.header: stiusd.h
 req.include-header: Stiusd.h
 req.target-type: Desktop

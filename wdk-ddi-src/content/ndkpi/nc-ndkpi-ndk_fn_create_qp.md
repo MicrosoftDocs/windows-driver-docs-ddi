@@ -8,6 +8,8 @@ ms.assetid: 8B601E53-9BE9-4D84-819E-3B0BD07560BC
 ms.date: 05/02/2018
 ms.keywords: NDK_FN_CREATE_QP, NDK_FN_CREATE_QP callback, NdkCreateQp, NdkCreateQp callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCreateQp, netvista.ndk_fn_create_qp
 ms.topic: callback
+f1_keywords:
+ - "ndkpi/NdkCreateQp"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows

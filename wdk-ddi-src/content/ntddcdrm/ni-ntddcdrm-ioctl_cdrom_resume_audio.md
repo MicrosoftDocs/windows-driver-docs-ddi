@@ -8,6 +8,8 @@ ms.assetid: 50bf3cf3-5225-45c9-9f14-bfcd84574a83
 ms.date: 03/29/2018
 ms.keywords: IOCTL_CDROM_RESUME_AUDIO, IOCTL_CDROM_RESUME_AUDIO control, IOCTL_CDROM_RESUME_AUDIO control code [Storage Devices], k307_64959ad0-32bd-4b0d-b1a0-2983efcd74fa.xml, ntddcdrm/IOCTL_CDROM_RESUME_AUDIO, storage.ioctl_cdrom_resume_audio
 ms.topic: ioctl
+f1_keywords:
+ - "ntddcdrm/IOCTL_CDROM_RESUME_AUDIO"
 req.header: ntddcdrm.h
 req.include-header: Ntddcdrm.h
 req.target-type: Windows

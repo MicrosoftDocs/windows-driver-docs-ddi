@@ -8,6 +8,8 @@ ms.assetid: eb21d8ef-4ad5-48b3-8619-3ed5040652b0
 ms.date: 03/29/2018
 ms.keywords: ScsiPortReadPortUshort, ScsiPortReadPortUshort routine [Storage Devices], scsiprt_3b90fdff-db04-43ca-9c62-8552eed87feb.xml, srb/ScsiPortReadPortUshort, storage.scsiportreadportushort
 ms.topic: function
+f1_keywords:
+ - "srb/ScsiPortReadPortUshort"
 req.header: srb.h
 req.include-header: Miniport.h, Scsi.h, Storport.h
 req.target-type: Desktop

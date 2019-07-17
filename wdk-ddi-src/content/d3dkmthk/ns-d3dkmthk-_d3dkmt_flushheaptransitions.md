@@ -5,6 +5,8 @@ description: Used to flush heap transitions.
 ms.assetid: 07563d96-9dc3-4c86-9cf9-2cfb3c7ba386
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/_D3DKMT_FLUSHHEAPTRANSITIONS"
 ms.keywords: _D3DKMT_FLUSHHEAPTRANSITIONS, D3DKMT_FLUSHHEAPTRANSITIONS, 
 req.header: d3dkmthk.h
 req.include-header:

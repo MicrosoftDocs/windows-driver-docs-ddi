@@ -8,6 +8,8 @@ ms.assetid: d6f5c6e5-d944-42a6-bfc2-decc7606cba1
 ms.date: 04/23/2018
 ms.keywords: BdaInitFilter, BdaInitFilter function [Streaming Media Devices], bdaref_9ad4e7ef-1880-4233-83c5-4d066c8f26e5.xml, bdasup/BdaInitFilter, stream.bdainitfilter
 ms.topic: function
+f1_keywords:
+ - "bdasup/BdaInitFilter"
 req.header: bdasup.h
 req.include-header: Bdasup.h
 req.target-type: Desktop

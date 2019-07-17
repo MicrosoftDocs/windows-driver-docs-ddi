@@ -8,6 +8,8 @@ ms.assetid: BA86280E-8324-4D98-B16C-504D427A6A4B
 ms.date: 05/07/2018
 ms.keywords: UfxDeviceCreate, UfxDeviceCreate method [Buses], buses.ufxdevicecreate, ufxclient/UfxDeviceCreate
 ms.topic: function
+f1_keywords:
+ - "ufxclient/UfxDeviceCreate"
 req.header: ufxclient.h
 req.include-header: 
 req.target-type: Windows

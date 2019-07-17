@@ -8,6 +8,8 @@ ms.assetid: 5b46253c-c111-4675-898e-78b81ecbddb8
 ms.date: 02/15/2018
 ms.keywords: "*PPARALLEL_1284_COMMAND, PARALLEL_1284_COMMAND, PARALLEL_1284_COMMAND structure [Parallel Ports], PPARALLEL_1284_COMMAND, PPARALLEL_1284_COMMAND structure pointer [Parallel Ports], _PARALLEL_1284_COMMAND, cisspd_082268fb-79fd-46df-85a7-89dd56098ed0.xml, parallel/PARALLEL_1284_COMMAND, parallel/PPARALLEL_1284_COMMAND, parports.parallel_1284_command"
 ms.topic: struct
+f1_keywords:
+ - "parallel/PARALLEL_1284_COMMAND"
 req.header: parallel.h
 req.include-header: Parallel.h
 req.target-type: Windows

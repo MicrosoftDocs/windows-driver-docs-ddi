@@ -8,6 +8,8 @@ ms.assetid: E9C5B866-1EB0-4043-B22F-DF2F4CFAE64C
 ms.date: 04/30/2018
 ms.keywords: "*PSPB_TRANSFER_BUFFER, PSPB_TRANSFER_BUFFER, PSPB_TRANSFER_BUFFER structure pointer [Buses], SPB.spb_transfer_buffer, SPB_TRANSFER_BUFFER, SPB_TRANSFER_BUFFER structure [Buses], spb/PSPB_TRANSFER_BUFFER, spb/SPB_TRANSFER_BUFFER"
 ms.topic: struct
+f1_keywords:
+ - "spb/SPB_TRANSFER_BUFFER"
 req.header: spb.h
 req.include-header: 
 req.target-type: Windows

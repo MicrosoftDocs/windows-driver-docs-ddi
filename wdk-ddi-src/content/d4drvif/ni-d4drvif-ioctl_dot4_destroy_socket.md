@@ -8,6 +8,8 @@ ms.assetid: D6479299-F00D-4709-B8D6-3840E285953A
 ms.date: 04/20/2018
 ms.keywords: IOCTL_DOT4_DESTROY_SOCKET, IOCTL_DOT4_DESTROY_SOCKET control, IOCTL_DOT4_DESTROY_SOCKET control code [Print Devices], d4drvif/IOCTL_DOT4_DESTROY_SOCKET, print.ioctl_ioctl_dot4_destroy_socket
 ms.topic: ioctl
+f1_keywords:
+ - "d4drvif/IOCTL_DOT4_DESTROY_SOCKET"
 req.header: d4drvif.h
 req.include-header: 
 req.target-type: Windows

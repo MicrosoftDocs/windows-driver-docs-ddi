@@ -5,6 +5,8 @@ description: The search block size flag to use in the video motion estimator ope
 ms.assetid: 8debc339-75b7-43a8-bc74-44c00b28dc49
 ms.date: 10/19/2018
 ms.topic: enum
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_VIDEO_MOTION_ESTIMATOR_SEARCH_BLOCK_SIZE_FLAGS_0053"
 ms.keywords: D3D12DDI_VIDEO_MOTION_ESTIMATOR_SEARCH_BLOCK_SIZE_FLAGS_0053, D3D12DDI_VIDEO_MOTION_ESTIMATOR_SEARCH_BLOCK_SIZE_FLAGS_0053, 
 req.header: d3d12umddi.h
 req.include-header:

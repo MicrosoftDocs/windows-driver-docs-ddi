@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: dc9fa1f8-b145-4cea-a856-6bd9e54394ca
 ms.date: 08/22/2018
 ms.topic: struct
+f1_keywords:
+ - "wwan/_WWAN_SET_CONTEXT_V2"
 ms.keywords: _WWAN_SET_CONTEXT_V2, WWAN_SET_CONTEXT_V2, *PWWAN_SET_CONTEXT_V2, 
 req.header: wwan.h
 req.include-header:

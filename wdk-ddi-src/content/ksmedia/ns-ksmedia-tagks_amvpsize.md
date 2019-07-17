@@ -8,6 +8,8 @@ ms.assetid: 31430419-8f83-4f46-b398-841895f415d5
 ms.date: 04/23/2018
 ms.keywords: "*PKS_AMVPSIZE, KS_AMVPSIZE, KS_AMVPSIZE structure [Streaming Media Devices], PKS_AMVPSIZE, PKS_AMVPSIZE structure pointer [Streaming Media Devices], dvdref_fa534150-3678-4def-945b-59d23ea84e83.xml, ksmedia/KS_AMVPSIZE, ksmedia/PKS_AMVPSIZE, stream.ks_amvpsize, tagKS_AMVPSIZE"
 ms.topic: struct
+f1_keywords:
+ - "ksmedia/KS_AMVPSIZE"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows

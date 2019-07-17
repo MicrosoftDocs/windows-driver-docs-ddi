@@ -5,6 +5,8 @@ description: Defines different Type-C current levels, as defined in the Type-C s
 ms.assetid: 6c185578-e418-4f66-a2d4-c50dea27beaf
 ms.date: 09/30/2018
 ms.topic: enum
+f1_keywords:
+ - "usbctypes/_USBC_CURRENT"
 ms.keywords: _USBC_CURRENT, USBC_CURRENT, 
 req.header: usbctypes.h
 req.include-header: usbctypes.h

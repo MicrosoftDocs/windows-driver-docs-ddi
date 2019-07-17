@@ -6,6 +6,8 @@ tech.root: storage
 ms.assetid: f56640ac-4a31-4384-86bf-423fb7c5cd21
 ms.date: 10/19/2018
 ms.topic: function
+f1_keywords:
+ - "storport/StorPortAllocateDmaMemory"
 ms.keywords: StorPortAllocateDmaMemory
 req.header: storport.h
 req.include-header:

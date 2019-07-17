@@ -8,6 +8,8 @@ ms.assetid: 3b61a424-33f8-4b33-aaef-f68f0026ce27
 ms.date: 05/02/2018
 ms.keywords: "*PNET_BUFFER_LIST, NET_BUFFER_LIST, NET_BUFFER_LIST structure [Network Drivers Starting with Windows Vista], PNET_BUFFER_LIST, PNET_BUFFER_LIST structure pointer [Network Drivers Starting with Windows Vista], _NET_BUFFER_LIST, ndis/NET_BUFFER_LIST, ndis/PNET_BUFFER_LIST, ndis_netbuf_structures_ref_7320b98f-6600-44e4-a6e8-a7d7becaaa32.xml, netvista.net_buffer_list"
 ms.topic: struct
+f1_keywords:
+ - "ndis/NET_BUFFER_LIST"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

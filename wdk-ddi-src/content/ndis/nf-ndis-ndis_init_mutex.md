@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: b55ee6e6-ae83-43fb-af92-1f005057d4ae
 ms.date: 04/16/2018
 ms.topic: macro
+f1_keywords:
+ - "ndis/NDIS_INIT_MUTEX"
 ms.keywords: NDIS_INIT_MUTEX
 req.header: ndis.h
 req.include-header:

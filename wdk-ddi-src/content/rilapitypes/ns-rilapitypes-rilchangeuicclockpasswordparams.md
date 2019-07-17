@@ -8,6 +8,8 @@ ms.assetid: 00e2fe6f-fd8b-45d1-9fd2-d90c515c3571
 ms.date: 05/02/2018
 ms.keywords: "*LPRILCHANGEUICCLOCKPASSWORDPARAMS, RILCHANGEUICCLOCKPASSWORDPARAMS, RILCHANGEUICCLOCKPASSWORDPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilchangeuicclockpasswordparams, ntddrilapitypes/RILCHANGEUICCLOCKPASSWORDPARAMS"
 ms.topic: struct
+f1_keywords:
+ - "rilapitypes/RILCHANGEUICCLOCKPASSWORDPARAMS"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

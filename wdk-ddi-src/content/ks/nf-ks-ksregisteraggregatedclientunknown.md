@@ -8,6 +8,8 @@ ms.assetid: b0e18e39-2435-4823-aab4-ba52d218294a
 ms.date: 04/23/2018
 ms.keywords: KsRegisterAggregatedClientUnknown, KsRegisterAggregatedClientUnknown function [Streaming Media Devices], avfunc_1b7f6d25-4aae-4580-b8d2-5050c9ffede1.xml, ks/KsRegisterAggregatedClientUnknown, stream.ksregisteraggregatedclientunknown
 ms.topic: function
+f1_keywords:
+ - "ks/KsRegisterAggregatedClientUnknown"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

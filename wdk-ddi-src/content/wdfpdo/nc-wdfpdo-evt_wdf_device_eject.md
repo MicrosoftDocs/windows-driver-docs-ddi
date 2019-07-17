@@ -8,6 +8,8 @@ ms.assetid: fc3f3a15-9a79-4275-9ba4-b01ab8851390
 ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectFdoPdoRef_38feba70-59b4-4981-af2d-0fc0fa4ff68a.xml, EVT_WDF_DEVICE_EJECT, EVT_WDF_DEVICE_EJECT callback, EvtDeviceEject, EvtDeviceEject callback function, kmdf.evtdeviceeject, wdf.evtdeviceeject, wdfpdo/EvtDeviceEject
 ms.topic: callback
+f1_keywords:
+ - "wdfpdo/EvtDeviceEject"
 req.header: wdfpdo.h
 req.include-header: Wdf.h
 req.target-type: Universal

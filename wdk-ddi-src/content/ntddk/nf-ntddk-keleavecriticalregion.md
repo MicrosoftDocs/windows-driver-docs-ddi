@@ -8,6 +8,8 @@ ms.assetid: d3e90c3b-5ead-40d1-9143-a2b1fc8c255d
 ms.date: 04/30/2018
 ms.keywords: KeLeaveCriticalRegion, KeLeaveCriticalRegion routine [Kernel-Mode Driver Architecture], k105_f9344044-a57f-4ee4-800c-a03edcc27196.xml, kernel.keleavecriticalregion, wdm/KeLeaveCriticalRegion
 ms.topic: function
+f1_keywords:
+ - "ntddk/KeLeaveCriticalRegion"
 req.header: ntddk.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

@@ -8,6 +8,8 @@ ms.assetid: 53e5e234-c256-4581-b109-307f2f17522f
 ms.date: 03/29/2018
 ms.keywords: AtaPortReleaseRequestSenseIrb, AtaPortReleaseRequestSenseIrb routine [Storage Devices], atartns_b46ae59d-b5b8-49fb-9458-742eefacd197.xml, irb/AtaPortReleaseRequestSenseIrb, storage.ataportreleaserequestsenseirb
 ms.topic: function
+f1_keywords:
+ - "irb/AtaPortReleaseRequestSenseIrb"
 req.header: irb.h
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop

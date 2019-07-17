@@ -8,6 +8,8 @@ ms.assetid: 0529922e-06be-4cc7-85e5-fa2158fd95cc
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
 ms.topic: struct
+f1_keywords:
+ - "d3d12umddi/D3D12DDIARG_CREATE_VIDEO_MOTION_ESTIMATOR_0060"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.keywords: D3D12DDIARG_CREATE_VIDEO_MOTION_ESTIMATOR_0060, D3D12DDIARG_CREATE_VIDEO_MOTION_ESTIMATOR_0060, 

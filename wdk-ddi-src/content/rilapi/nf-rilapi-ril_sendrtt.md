@@ -8,6 +8,8 @@ ms.assetid: d655aa2e-ec58-4f9b-a349-a19e7c78469a
 ms.date: 05/02/2018
 ms.keywords: RIL_SendRTT, RIL_SendRTT method [Network Drivers Starting with Windows Vista], netvista.ril_sendrtt, rilapi/RIL_SendRTT
 ms.topic: function
+f1_keywords:
+ - "rilapi/RIL_SendRTT"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows

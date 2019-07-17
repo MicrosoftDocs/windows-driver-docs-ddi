@@ -6,6 +6,8 @@ ms.assetid: bf02670a-4932-47fd-8ed0-4ee9429454d4
 tech.root: usbref
 ms.date: 09/30/2018
 ms.topic: struct
+f1_keywords:
+ - "ucmucsispec/_UCSI_MESSAGE_IN"
 ms.keywords: _UCSI_MESSAGE_IN, UCSI_MESSAGE_IN, *PUCSI_MESSAGE_IN, 
 req.header: ucmucsispec.h
 req.include-header: UcmUcsiCx.h 

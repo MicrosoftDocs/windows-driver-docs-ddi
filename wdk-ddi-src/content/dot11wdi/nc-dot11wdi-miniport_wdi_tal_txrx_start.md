@@ -8,6 +8,8 @@ ms.assetid: 6F88F4B1-8D2A-41CC-8D60-C1CF91ED072A
 ms.date: 05/02/2018
 ms.keywords: MINIPORT_WDI_TAL_TXRX_START, MINIPORT_WDI_TAL_TXRX_START callback, MiniportWdiTalTxRxStart, MiniportWdiTalTxRxStart callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTalTxRxStart, netvista.miniportwditaltxrxstart
 ms.topic: callback
+f1_keywords:
+ - "dot11wdi/MiniportWdiTalTxRxStart"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: 05298ffe-75e5-444e-9843-54dd063f59f5
 ms.date: 02/26/2018
 ms.keywords: WdfCompanionCreateTaskQueue, WdfCompanionCreateTaskQueue method, wdf.wdfcompanioncreatetaskqueue, wdfcompanion/WdfCompanionCreateTaskQueue
 ms.topic: function
+f1_keywords:
+ - "wdfcompanion/WdfCompanionCreateTaskQueue"
 req.header: wdfcompanion.h
 req.include-header: 
 req.target-type: Windows

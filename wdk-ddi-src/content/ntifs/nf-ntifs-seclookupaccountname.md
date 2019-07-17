@@ -8,6 +8,8 @@ ms.assetid: 5b1c3cc4-6185-4299-86ed-662a2b445042
 ms.date: 04/16/2018
 ms.keywords: SecLookupAccountName, SecLookupAccountName function [Installable File System Drivers], ifsk.seclookupaccountname, ksecddref_1f4959e5-ea3b-440d-af1b-df05782eefce.xml, ntifs/SecLookupAccountName
 ms.topic: function
+f1_keywords:
+ - "ntifs/SecLookupAccountName"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

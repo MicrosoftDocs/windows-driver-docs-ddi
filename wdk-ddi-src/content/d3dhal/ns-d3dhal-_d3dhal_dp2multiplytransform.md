@@ -8,6 +8,8 @@ ms.assetid: 3c7c0d40-a51e-4656-b262-233f0af8db0f
 ms.date: 05/10/2018
 ms.keywords: "*LPD3DHAL_DP2MULTIPLYTRANSFORM, D3DHAL_DP2MULTIPLYTRANSFORM, D3DHAL_DP2MULTIPLYTRANSFORM structure [Display Devices], LPD3DHAL_DP2MULTIPLYTRANSFORM, LPD3DHAL_DP2MULTIPLYTRANSFORM structure pointer [Display Devices], _D3DHAL_DP2MULTIPLYTRANSFORM, d3dhal/D3DHAL_DP2MULTIPLYTRANSFORM, d3dhal/LPD3DHAL_DP2MULTIPLYTRANSFORM, d3dstrct_5091bd4f-cace-4f31-8849-8f6ee65c7ec1.xml, display.d3dhal_dp2multiplytransform"
 ms.topic: struct
+f1_keywords:
+ - "d3dhal/D3DHAL_DP2MULTIPLYTRANSFORM"
 req.header: d3dhal.h
 req.include-header: D3dhal.h
 req.target-type: Windows

@@ -7,6 +7,8 @@ ms.assetid: a09cfc9a-26e8-4984-b5c6-7ead5aa4644e
 ms.date: 05/10/2018
 ms.keywords: "*IN_CONST_PDXGKARG_SETDISPLAYPRIVATEDRIVERFORMAT, DXGKARG_SETDISPLAYPRIVATEDRIVERFORMAT, DXGKARG_SETDISPLAYPRIVATEDRIVERFORMAT structure [Display Devices], DmStructs_adfa4bbe-5e14-4a2a-acee-6d80b408f6ac.xml, _DXGKARG_SETDISPLAYPRIVATEDRIVERFORMAT, d3dkmddi/DXGKARG_SETDISPLAYPRIVATEDRIVERFORMAT, display.dxgkarg_setdisplayprivatedriverformat"
 ms.topic: struct
+f1_keywords:
+ - "d3dkmddi/DXGKARG_SETDISPLAYPRIVATEDRIVERFORMAT"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

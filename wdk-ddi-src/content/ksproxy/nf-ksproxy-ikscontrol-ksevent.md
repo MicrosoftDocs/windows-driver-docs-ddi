@@ -8,6 +8,8 @@ ms.assetid: b1ff6569-9568-40d8-b2a9-e63ce44720a2
 ms.date: 04/23/2018
 ms.keywords: IKsControl interface [Streaming Media Devices],KsEvent method, IKsControl.KsEvent, IKsControl::KsEvent, KsEvent, KsEvent method [Streaming Media Devices], KsEvent method [Streaming Media Devices],IKsControl interface, ksproxy/IKsControl::KsEvent, ksproxy_d7ef7fda-b615-4aa9-8528-aa66de81da5b.xml, stream.ikscontrol_ksevent
 ms.topic: method
+f1_keywords:
+ - "ksproxy/IKsControl.KsEvent"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: DesktopMobile

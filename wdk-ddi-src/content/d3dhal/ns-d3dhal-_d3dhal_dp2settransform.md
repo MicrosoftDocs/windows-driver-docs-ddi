@@ -8,6 +8,8 @@ ms.assetid: 7905f5bd-15f5-4b4f-bc00-91acb2371dc0
 ms.date: 05/10/2018
 ms.keywords: "*LPD3DHAL_DP2SETTRANSFORM, D3DHAL_DP2SETTRANSFORM, D3DHAL_DP2SETTRANSFORM structure [Display Devices], LPD3DHAL_DP2SETTRANSFORM, LPD3DHAL_DP2SETTRANSFORM structure pointer [Display Devices], _D3DHAL_DP2SETTRANSFORM, d3dhal/D3DHAL_DP2SETTRANSFORM, d3dhal/LPD3DHAL_DP2SETTRANSFORM, d3dstrct_0392a6fc-4098-4c82-92fa-5684be9fa195.xml, display.d3dhal_dp2settransform"
 ms.topic: struct
+f1_keywords:
+ - "d3dhal/D3DHAL_DP2SETTRANSFORM"
 req.header: d3dhal.h
 req.include-header: D3dhal.h
 req.target-type: Windows

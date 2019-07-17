@@ -8,6 +8,8 @@ ms.assetid: 744189F3-07D1-42F2-986C-70BEBE760123
 ms.date: 02/26/2018
 ms.keywords: WDF_WRITE_PORT_BUFFER_UCHAR, WDF_WRITE_PORT_BUFFER_UCHAR function, wdf.wdf_write_port_buffer_uchar, wdfhwaccess/WDF_WRITE_PORT_BUFFER_UCHAR
 ms.topic: function
+f1_keywords:
+ - "wdfhwaccess/WDF_WRITE_PORT_BUFFER_UCHAR"
 req.header: wdfhwaccess.h
 req.include-header: 
 req.target-type: Universal

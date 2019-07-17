@@ -8,6 +8,8 @@ ms.assetid: fb7d97d2-8c02-44c8-8cf5-e9c3b3b718bb
 ms.date: 04/30/2018
 ms.keywords: ClfsFlushToLsn, ClfsFlushToLsn routine [Kernel-Mode Driver Architecture], Clfs_80676b51-aa14-42bf-92ae-d11cf0a694b5.xml, kernel.clfsflushtolsn, wdm/ClfsFlushToLsn
 ms.topic: function
+f1_keywords:
+ - "wdm/ClfsFlushToLsn"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop

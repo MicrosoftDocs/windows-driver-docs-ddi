@@ -5,6 +5,8 @@ description: Contains info about virtual address flags.
 ms.assetid: 6086c0b9-6550-4400-8551-2d29d142c2e5
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/_D3DKMT_VIRTUALADDRESSFLAGS"
 ms.keywords: _D3DKMT_VIRTUALADDRESSFLAGS, D3DKMT_VIRTUALADDRESSFLAGS, 
 req.header: d3dkmthk.h
 req.include-header:

@@ -8,6 +8,8 @@ ms.assetid: 936a3a49-ec36-421f-8554-c9ad37907a6d
 ms.date: 05/03/2018
 ms.keywords: image.wiaureggetdword, wiauFncs_a58ebb21-21ce-4815-9dd6-5a1906412a2f.xml, wiauRegGetDword, wiauRegGetDword function [Imaging Devices], wiauRegGetDwordA, wiauRegGetDwordW, wiautil/wiauRegGetDword
 ms.topic: function
+f1_keywords:
+ - "wiautil/wiauRegGetDword"
 req.header: wiautil.h
 req.include-header: Wiautil.h
 req.target-type: Desktop

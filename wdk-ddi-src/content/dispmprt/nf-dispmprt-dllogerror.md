@@ -8,6 +8,8 @@ ms.assetid: b440bac9-d91a-48d6-ac7a-695341fe589e
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
 ms.topic: function
+f1_keywords:
+ - "dispmprt/DlLogError"
 ms.keywords: DlLogError
 req.header: dispmprt.h
 req.include-header:

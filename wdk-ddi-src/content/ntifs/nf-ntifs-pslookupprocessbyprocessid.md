@@ -8,6 +8,8 @@ ms.assetid: f9c4bcab-5584-4b26-b4ff-6067d7ef1890
 ms.date: 04/16/2018
 ms.keywords: PsLookupProcessByProcessId, PsLookupProcessByProcessId routine [Installable File System Drivers], ifsk.pslookupprocessbyprocessid, ntifs/PsLookupProcessByProcessId, psref_809b3ca8-eb8a-4ee0-9d74-b33b10664834.xml
 ms.topic: function
+f1_keywords:
+ - "ntifs/PsLookupProcessByProcessId"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

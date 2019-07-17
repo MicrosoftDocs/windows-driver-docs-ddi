@@ -5,6 +5,8 @@ description: Contains the output parameters for the DxgkBrightnessGet3 callback 
 ms.assetid: fa213718-aa84-4751-b3a9-767441024a94
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3dkmdt/_DXGK_BRIGHTNESS_GET_OUT"
 ms.keywords: _DXGK_BRIGHTNESS_GET_OUT, DXGK_BRIGHTNESS_GET_OUT, *PDXGK_BRIGHTNESS_GET_OUT,
 req.header: d3dkmdt.h
 req.include-header:

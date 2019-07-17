@@ -8,6 +8,8 @@ ms.assetid: 2b5a7fed-5c3d-4831-8274-14f9f70e3fe3
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
 ms.topic: struct
+f1_keywords:
+ - "dispmprt/_DXGKDDI_SRIOV_INTERFACE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.keywords: _DXGKDDI_SRIOV_INTERFACE, DXGKDDI_SRIOV_INTERFACE, *PDXGKDDI_SRIOV_INTERFACE, 

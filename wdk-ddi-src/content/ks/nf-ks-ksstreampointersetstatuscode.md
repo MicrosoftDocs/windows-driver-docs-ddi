@@ -8,6 +8,8 @@ ms.assetid: 88d554d9-55b7-42d4-b799-f8cb2029b1ae
 ms.date: 04/23/2018
 ms.keywords: KsStreamPointerSetStatusCode, KsStreamPointerSetStatusCode function [Streaming Media Devices], avfunc_48c373d0-2d32-4ad3-b8de-3008e2e11f59.xml, ks/KsStreamPointerSetStatusCode, stream.ksstreampointersetstatuscode
 ms.topic: function
+f1_keywords:
+ - "ks/KsStreamPointerSetStatusCode"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

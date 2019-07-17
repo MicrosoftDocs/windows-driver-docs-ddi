@@ -8,6 +8,8 @@ ms.assetid: 8abdfee5-0772-4a2a-b6e5-d5055a4f86f8
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
 ms.topic: function
+f1_keywords:
+ - "dispmprt/DlQueryPerformanceCounter"
 ms.keywords: DlQueryPerformanceCounter
 req.header: dispmprt.h
 req.include-header:

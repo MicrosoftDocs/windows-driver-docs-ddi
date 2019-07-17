@@ -8,6 +8,8 @@ ms.assetid: B8D1E882-FBFA-4CB1-83D3-CB817F111F20
 ms.date: 03/29/2018
 ms.keywords: StorPortGetRequestCryptoInfo, StorPortGetRequestCryptoInfo routine [Storage Devices], storage.storportgetrequestcryptoinfo, storport/StorPortGetRequestCryptoInfo
 ms.topic: function
+f1_keywords:
+ - "storport/StorPortGetRequestCryptoInfo"
 req.header: storport.h
 req.include-header: 
 req.target-type: Universal

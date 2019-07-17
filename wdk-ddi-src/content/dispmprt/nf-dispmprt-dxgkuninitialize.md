@@ -8,6 +8,8 @@ ms.assetid: 5cbff717-75d4-46bc-9b0b-b02a1da7a601
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
 ms.topic: function
+f1_keywords:
+ - "dispmprt/DxgkUnInitialize"
 ms.keywords: DxgkUnInitialize
 req.header: dispmprt.h
 req.include-header:

@@ -5,6 +5,8 @@ description: The PollUserInterrupt method is used to inquire whether the user of
 ms.assetid: 47cffc73-e8d3-4aa4-b2d5-9c91db2eba80
 ms.date: 09/20/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDebugHostStatus.PollUserInterrupt"
 ms.keywords: IDebugHostStatus::PollUserInterrupt, PollUserInterrupt, IDebugHostStatus.PollUserInterrupt, IDebugHostStatus::PollUserInterrupt, IDebugHostStatus.PollUserInterrupt
 req.header: dbgmodel.h
 req.include-header:

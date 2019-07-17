@@ -8,6 +8,8 @@ ms.assetid: 7470af45-3ebe-44d4-8066-62a69636c20e
 ms.date: 03/29/2018
 ms.keywords: "*PSCSI_PASS_THROUGH, PSCSI_PASS_THROUGH, PSCSI_PASS_THROUGH structure pointer [Storage Devices], SCSI_PASS_THROUGH, SCSI_PASS_THROUGH structure [Storage Devices], _SCSI_PASS_THROUGH, ntddscsi/PSCSI_PASS_THROUGH, ntddscsi/SCSI_PASS_THROUGH, storage.scsi_pass_through, structs-scsibus_6d017ae1-d61d-49b8-bfaf-b6b15341732b.xml"
 ms.topic: struct
+f1_keywords:
+ - "ntddscsi/SCSI_PASS_THROUGH"
 req.header: ntddscsi.h
 req.include-header: Ntddscsi.h
 req.target-type: Windows

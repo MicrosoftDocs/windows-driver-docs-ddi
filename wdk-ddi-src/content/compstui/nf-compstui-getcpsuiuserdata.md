@@ -8,6 +8,8 @@ ms.assetid: 2a0a74cd-2dcf-4485-8941-7f205dcecede
 ms.date: 04/20/2018
 ms.keywords: GetCPSUIUserData, GetCPSUIUserData function [Print Devices], compstui/GetCPSUIUserData, cpsuifnc_78057e6d-1a47-4b92-9d43-881ab0935169.xml, print.getcpsuiuserdata
 ms.topic: function
+f1_keywords:
+ - "compstui/GetCPSUIUserData"
 req.header: compstui.h
 req.include-header: Compstui.h
 req.target-type: Desktop

@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 221de4f4-5f43-49a2-9a3f-9d7d699c1662
 ms.date: 04/17/2018
 ms.topic: macro
+f1_keywords:
+ - "ntddndis/NDIS_ISOLATION_PARAMETERS_GET_FIRST_ROUTING_DOMAIN_ENTRY"
 ms.keywords: NDIS_ISOLATION_PARAMETERS_GET_FIRST_ROUTING_DOMAIN_ENTRY
 req.header: ntddndis.h
 req.include-header: ndis.h

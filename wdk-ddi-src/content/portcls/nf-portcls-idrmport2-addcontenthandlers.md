@@ -8,6 +8,8 @@ ms.assetid: b65608f4-de9a-4bed-a966-586e50c50e45
 ms.date: 05/08/2018
 ms.keywords: AddContentHandlers, AddContentHandlers method [Audio Devices], AddContentHandlers method [Audio Devices],IDrmPort2 interface, IDrmPort2 interface [Audio Devices],AddContentHandlers method, IDrmPort2.AddContentHandlers, IDrmPort2::AddContentHandlers, audio.idrmport2_addcontenthandlers, audmp-routines_f2bbb2e7-eed1-4ffd-93d9-050dcb6b0b60.xml, portcls/IDrmPort2::AddContentHandlers
 ms.topic: method
+f1_keywords:
+ - "portcls/IDrmPort2.AddContentHandlers"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal

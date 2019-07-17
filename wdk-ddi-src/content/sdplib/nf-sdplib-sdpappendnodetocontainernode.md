@@ -8,6 +8,8 @@ ms.assetid: beec5516-6191-4b70-8c80-ddbaedbad5c0
 ms.date: 04/27/2018
 ms.keywords: SdpAppendNodeToContainerNode, SdpAppendNodeToContainerNode function [Bluetooth Devices], bltooth.sdpappendnodetocontainernode, bth_funcs_dce0f01b-3dab-48d4-8230-ad3bb0d1c210.xml, sdplib/SdpAppendNodeToContainerNode
 ms.topic: function
+f1_keywords:
+ - "sdplib/SdpAppendNodeToContainerNode"
 req.header: sdplib.h
 req.include-header: BthSdpddi.h
 req.target-type: Desktop

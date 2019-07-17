@@ -8,6 +8,8 @@ ms.assetid: 7244a63b-404f-45e0-b2f7-6c4ea70e4a21
 ms.date: 04/30/2018
 ms.keywords: IoFreeErrorLogEntry, IoFreeErrorLogEntry routine [Kernel-Mode Driver Architecture], k104_33f7cbb2-e145-46f1-99a0-b53381704aad.xml, kernel.iofreeerrorlogentry, wdm/IoFreeErrorLogEntry
 ms.topic: function
+f1_keywords:
+ - "wdm/IoFreeErrorLogEntry"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

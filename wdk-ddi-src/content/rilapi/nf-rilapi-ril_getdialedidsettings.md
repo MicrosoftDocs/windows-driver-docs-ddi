@@ -8,6 +8,8 @@ ms.assetid: 088fd502-a209-4fec-bec0-9f47f61022ee
 ms.date: 05/02/2018
 ms.keywords: RIL_GetDialedIdSettings, RIL_GetDialedIdSettings method [Network Drivers Starting with Windows Vista], netvista.ril_getdialedidsettings, rilapi/RIL_GetDialedIdSettings
 ms.topic: function
+f1_keywords:
+ - "rilapi/RIL_GetDialedIdSettings"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows

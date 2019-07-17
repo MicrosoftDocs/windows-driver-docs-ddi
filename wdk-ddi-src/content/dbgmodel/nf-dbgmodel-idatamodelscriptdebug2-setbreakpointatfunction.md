@@ -5,6 +5,8 @@ description: Sets a breakpoint on the function given by the supplied name.
 ms.assetid: d8f17c0d-caf6-41ee-8ed9-6ec4837908f2
 ms.date: 09/11/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDataModelScriptDebug2.SetBreakpointAtFunction"
 ms.keywords: IDataModelScriptDebug2::SetBreakpointAtFunction, SetBreakpointAtFunction, IDataModelScriptDebug2.SetBreakpointAtFunction, IDataModelScriptDebug2::SetBreakpointAtFunction, IDataModelScriptDebug2.SetBreakpointAtFunction
 req.header: dbgmodel.h
 req.include-header:

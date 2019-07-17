@@ -8,6 +8,8 @@ ms.assetid: 523471e3-cf1e-48d2-b5f0-2f8d19ad71e0
 ms.date: 05/10/2018
 ms.keywords: HwVidInterrupt, HwVidInterrupt callback function [Display Devices], PVIDEO_HW_INTERRUPT, PVIDEO_HW_INTERRUPT callback, VideoMiniport_Functions_9c3ff1cb-9812-461c-8ac5-b6cbdbe63c59.xml, display.hwvidinterrupt, video/HwVidInterrupt
 ms.topic: callback
+f1_keywords:
+ - "video/HwVidInterrupt"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

@@ -5,6 +5,8 @@ description: The OS calls the DXGKDDI_QUERYDIAGNOSTICTYPESSUPPORT callback funct
 ms.assetid: ad14a3b9-d0bf-4292-8e53-7f51544d96c5
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "dispmprt/DXGKDDI_QUERYDIAGNOSTICTYPESSUPPORT"
 req.header: dispmprt.h
 req.include-header:
 req.target-type:

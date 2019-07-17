@@ -8,6 +8,8 @@ ms.assetid: f77469d3-ce48-4e17-9fff-1af56296f61f
 ms.date: 05/02/2018
 ms.keywords: "*PNDIS_PORT_ARRAY, NDIS_PORT_ARRAY, NDIS_PORT_ARRAY structure [Network Drivers Starting with Windows Vista], PNDIS_PORT_ARRAY, PNDIS_PORT_ARRAY structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PORT_ARRAY, ndis_ports_ref_1bba9fc6-0cd9-40f7-92ad-20979dcaa400.xml, netvista.ndis_port_array, ntddndis/NDIS_PORT_ARRAY, ntddndis/PNDIS_PORT_ARRAY"
 ms.topic: struct
+f1_keywords:
+ - "ntddndis/NDIS_PORT_ARRAY"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

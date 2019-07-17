@@ -5,6 +5,8 @@ description: The PFND3DKMT_SETVIDPNSOURCEOWNER callback function sets and releas
 ms.assetid: 3773cd36-d9ba-46b4-9851-389da4f37d69
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/PFND3DKMT_SETVIDPNSOURCEOWNER"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

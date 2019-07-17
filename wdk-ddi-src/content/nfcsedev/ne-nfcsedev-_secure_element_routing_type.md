@@ -8,6 +8,8 @@ ms.assetid: 1420D957-546E-4795-A545-B098C411CCA5
 ms.date: 02/15/2018
 ms.keywords: "*PSECURE_ELEMENT_ROUTING_TYPE, RoutingTypeAid, RoutingTypeProtocol, RoutingTypeTech, SECURE_ELEMENT_ROUTING_TYPE, _SECURE_ELEMENT_ROUTING_TYPE, _SECURE_ELEMENT_ROUTING_TYPE enumeration [Near-Field Proximity Drivers], nfcsedev/RoutingTypeAid, nfcsedev/RoutingTypeProtocol, nfcsedev/RoutingTypeTech, nfcsedev/_SECURE_ELEMENT_ROUTING_TYPE, nfpdrivers._secure_element_routing_type"
 ms.topic: enum
+f1_keywords:
+ - "nfcsedev/SECURE_ELEMENT_ROUTING_TYPE"
 req.header: nfcsedev.h
 req.include-header: 
 req.target-type: Windows

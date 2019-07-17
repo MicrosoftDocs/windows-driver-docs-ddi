@@ -5,6 +5,8 @@ description: Performs a ray tracing acceleration structure build on the GPU.
 ms.assetid: c85f6b3b-0420-4acd-8f4a-891e4432fb4a
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_0054"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

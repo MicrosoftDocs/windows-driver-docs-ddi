@@ -6,6 +6,8 @@ ms.assetid: 2cbd9c0e-f5a8-4b63-9879-3e8d775717b5
 tech.root: usbref
 ms.date: 09/30/2018
 ms.topic: struct
+f1_keywords:
+ - "ucmucsispec/_UCSI_GET_CONNECTOR_CAPABILITY_IN"
 ms.keywords: _UCSI_GET_CONNECTOR_CAPABILITY_IN, UCSI_GET_CONNECTOR_CAPABILITY_IN, *PUCSI_GET_CONNECTOR_CAPABILITY_IN, 
 req.header: ucmucsispec.h
 req.include-header: UcmUcsiCx.h 

@@ -5,6 +5,8 @@ description: Checks resource allocation handle.
 ms.assetid: 627c14f1-f793-40a8-b52d-ba98f90d2d1b
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_CHECKRESOURCEALLOCATIONHANDLE"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

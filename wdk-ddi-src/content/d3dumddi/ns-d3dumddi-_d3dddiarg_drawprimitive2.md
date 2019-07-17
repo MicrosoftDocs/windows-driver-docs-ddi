@@ -8,6 +8,8 @@ ms.assetid: fb9668a8-54b5-4d07-8682-af2b593308a5
 ms.date: 05/10/2018
 ms.keywords: D3DDDIARG_DRAWPRIMITIVE2, D3DDDIARG_DRAWPRIMITIVE2 structure [Display Devices], UMDisplayDriver_param_Structs_76f6de24-fe57-4907-a84a-692ab80e2dab.xml, _D3DDDIARG_DRAWPRIMITIVE2, d3dumddi/D3DDDIARG_DRAWPRIMITIVE2, display.d3dddiarg_drawprimitive2
 ms.topic: struct
+f1_keywords:
+ - "d3dumddi/D3DDDIARG_DRAWPRIMITIVE2"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

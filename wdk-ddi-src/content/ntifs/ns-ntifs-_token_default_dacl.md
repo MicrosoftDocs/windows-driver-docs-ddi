@@ -8,6 +8,8 @@ ms.assetid: db4c23e1-4a49-4864-9eab-36abb2581e58
 ms.date: 04/16/2018
 ms.keywords: "*PTOKEN_DEFAULT_DACL, PTOKEN_DEFAULT_DACL, PTOKEN_DEFAULT_DACL structure pointer [Installable File System Drivers], TOKEN_DEFAULT_DACL, TOKEN_DEFAULT_DACL structure [Installable File System Drivers], _TOKEN_DEFAULT_DACL, ifsk.token_default_dacl, ntifs/PTOKEN_DEFAULT_DACL, ntifs/TOKEN_DEFAULT_DACL, securitystructures_a79d9155-eff5-457f-8036-c3d718b36c4e.xml"
 ms.topic: struct
+f1_keywords:
+ - "ntifs/TOKEN_DEFAULT_DACL"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows

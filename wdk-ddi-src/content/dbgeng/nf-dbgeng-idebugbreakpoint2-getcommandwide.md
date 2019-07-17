@@ -8,6 +8,8 @@ ms.assetid: 050a4243-6ad8-4aa4-8ffb-40fe9fc07b51
 ms.date: 05/03/2018
 ms.keywords: GetCommandWide, GetCommandWide method [Windows Debugging], GetCommandWide method [Windows Debugging],IDebugBreakpoint2 interface, IDebugBreakpoint2 interface [Windows Debugging],GetCommandWide method, IDebugBreakpoint2.GetCommandWide, IDebugBreakpoint2::GetCommandWide, dbgeng/IDebugBreakpoint2::GetCommandWide, debugger.getcommandwide
 ms.topic: method
+f1_keywords:
+ - "dbgeng/IDebugBreakpoint2.GetCommandWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

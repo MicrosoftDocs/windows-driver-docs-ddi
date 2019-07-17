@@ -5,6 +5,8 @@ description: Retrieves the amount of stack memory required to invoke a ray traci
 ms.assetid: 2e7904b0-d29b-411a-99fb-d2468d216b30
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_GET_SHADER_STACK_SIZE_0054"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

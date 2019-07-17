@@ -8,6 +8,8 @@ ms.assetid: 20c4ec7e-6dc1-4a4f-99d1-bb53213771a5
 ms.date: 05/03/2018
 ms.keywords: EngExtCpp_Ref_efff4521-d480-48a4-8466-f7db3c052aa1.xml, ExtRemoteList class [Windows Debugging],GetNodeOffset method, ExtRemoteList.GetNodeOffset, ExtRemoteList::GetNodeOffset, GetNodeOffset, GetNodeOffset method [Windows Debugging], GetNodeOffset method [Windows Debugging],ExtRemoteList class, debugger.extremotelist_getnodeoffset
 ms.topic: method
+f1_keywords:
+ - "engextcpp/ExtRemoteList.GetNodeOffset"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop

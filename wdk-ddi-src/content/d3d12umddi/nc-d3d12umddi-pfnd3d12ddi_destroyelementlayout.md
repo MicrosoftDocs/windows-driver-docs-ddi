@@ -5,6 +5,8 @@ description: Destroy element layout.
 ms.assetid: d980a8a5-a2ea-41a1-aaca-e8db6f646cf8
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_DESTROYELEMENTLAYOUT"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

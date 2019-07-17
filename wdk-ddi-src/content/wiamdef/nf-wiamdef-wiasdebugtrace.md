@@ -8,6 +8,8 @@ ms.assetid: db39c7f6-d966-4538-8ee9-d3623995535c
 ms.date: 05/03/2018
 ms.keywords: image.wiasdebugtrace, wiamdef/wiasDebugTrace, wiasDebugTrace, wiasDebugTrace function [Imaging Devices], wiasFncs_b6582555-3674-4261-a542-9a6388649bb0.xml
 ms.topic: function
+f1_keywords:
+ - "wiamdef/wiasDebugTrace"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop

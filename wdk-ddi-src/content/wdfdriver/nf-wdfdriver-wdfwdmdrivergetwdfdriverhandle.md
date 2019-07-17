@@ -8,6 +8,8 @@ ms.assetid: 2126d36c-42c1-4e29-bf82-9f5682482557
 ms.date: 02/26/2018
 ms.keywords: DFDriverObjectRef_9cf5a70f-e2df-4302-9558-c8cd066cf8e4.xml, WdfWdmDriverGetWdfDriverHandle, WdfWdmDriverGetWdfDriverHandle method, kmdf.wdfwdmdrivergetwdfdriverhandle, wdf.wdfwdmdrivergetwdfdriverhandle, wdfdriver/WdfWdmDriverGetWdfDriverHandle
 ms.topic: function
+f1_keywords:
+ - "wdfdriver/WdfWdmDriverGetWdfDriverHandle"
 req.header: wdfdriver.h
 req.include-header: Wdf.h
 req.target-type: Universal

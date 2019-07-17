@@ -8,6 +8,8 @@ ms.assetid: f4e796d6-2eff-43f6-8afd-b74e3136deb3
 ms.date: 05/02/2018
 ms.keywords: RILCALLRTTMODE, RILCALLRTTMODE enumeration [Network Drivers Starting with Windows Vista], RIL_RTTMODE_FULL, RIL_RTTMODE_MAX, netvista.rilcallrttmode, ntddrilapitypes/RILCALLRTTMODE, ntddrilapitypes/RIL_RTTMODE_FULL, ntddrilapitypes/RIL_RTTMODE_MAX
 ms.topic: enum
+f1_keywords:
+ - "rilapitypes/RILCALLRTTMODE"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

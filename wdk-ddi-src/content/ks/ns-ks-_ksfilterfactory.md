@@ -8,6 +8,8 @@ ms.assetid: c40e25f8-e6e5-43bc-895d-a6b247d07470
 ms.date: 04/23/2018
 ms.keywords: "*PKSFILTERFACTORY, KSFILTERFACTORY, KSFILTERFACTORY structure [Streaming Media Devices], PKSFILTERFACTORY, PKSFILTERFACTORY structure pointer [Streaming Media Devices], _KSFILTERFACTORY, avstruct_def7ad6b-4cda-4677-abbc-3f8a458fbc87.xml, ks/KSFILTERFACTORY, ks/PKSFILTERFACTORY, stream.ksfilterfactory"
 ms.topic: struct
+f1_keywords:
+ - "ks/KSFILTERFACTORY"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows

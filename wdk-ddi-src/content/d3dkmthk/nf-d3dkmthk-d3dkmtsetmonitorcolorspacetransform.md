@@ -7,6 +7,8 @@ ms.assetid: cb831371-4684-4756-bc01-6c42e5af7e1b
 ms.date: 05/10/2018
 ms.keywords: D3DKMTSetMonitorColorSpaceTransform, D3DKMTSetMonitorColorSpaceTransform method [Display Devices], d3dkmthk/D3DKMTSetMonitorColorSpaceTransform, display.d3dkmtsetmonitorcolorspacetransform
 ms.topic: function
+f1_keywords:
+ - "d3dkmthk/D3DKMTSetMonitorColorSpaceTransform"
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: Windows

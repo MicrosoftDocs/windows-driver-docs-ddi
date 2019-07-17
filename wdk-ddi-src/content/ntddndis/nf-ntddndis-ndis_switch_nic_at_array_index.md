@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: f70d852b-c2d1-42f9-b69a-e86089262e92
 ms.date: 04/17/2018
 ms.topic: macro
+f1_keywords:
+ - "ntddndis/NDIS_SWITCH_NIC_AT_ARRAY_INDEX"
 ms.keywords: NDIS_SWITCH_NIC_AT_ARRAY_INDEX
 req.header: ntddndis.h
 req.include-header: ndis.h

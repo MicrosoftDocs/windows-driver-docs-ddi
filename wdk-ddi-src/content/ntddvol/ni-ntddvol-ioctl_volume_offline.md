@@ -8,6 +8,8 @@ ms.assetid: 09a1faa7-9ce4-44ac-afb0-27ffeabc9d71
 ms.date: 03/29/2018
 ms.keywords: IOCTL_VOLUME_OFFLINE, IOCTL_VOLUME_OFFLINE control, IOCTL_VOLUME_OFFLINE control code [Storage Devices], k307_34afa35b-2242-4ec3-9e42-f50e9837fab0.xml, ntddvol/IOCTL_VOLUME_OFFLINE, storage.ioctl_volume_offline
 ms.topic: ioctl
+f1_keywords:
+ - "ntddvol/IOCTL_VOLUME_OFFLINE"
 req.header: ntddvol.h
 req.include-header: Ntddvol.h
 req.target-type: Windows

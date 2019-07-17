@@ -7,6 +7,8 @@ ms.assetid: 33399b7c-ce67-4c49-be26-2b2d759ff5a0
 ms.date: 05/10/2018
 ms.keywords: DXGK_FLIPCAPS, DXGK_FLIPCAPS structure [Display Devices], DmStructs_11bba63e-8001-41d2-9c60-978024921994.xml, _DXGK_FLIPCAPS, d3dkmddi/DXGK_FLIPCAPS, display.dxgk_flipcaps
 ms.topic: struct
+f1_keywords:
+ - "d3dkmddi/DXGK_FLIPCAPS"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: 58df87d5-1e7b-4ec8-8e88-631bbd78757a
 ms.date: 05/02/2018
 ms.keywords: RIL_EnumerateSlots, RIL_EnumerateSlots method [Network Drivers Starting with Windows Vista], netvista.ril_enumerateslots, rilapi/RIL_EnumerateSlots
 ms.topic: function
+f1_keywords:
+ - "rilapi/RIL_EnumerateSlots"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: bb252dd5-9bf3-41bd-ab46-9524735970c5
 ms.date: 04/30/2018
 ms.keywords: RtlIncrementCorrelationVector, RtlIncrementCorrelationVector function [Kernel-Mode Driver Architecture], kernel.rtlincrementcorrelationvector, ntddk/RtlIncrementCorrelationVector
 ms.topic: function
+f1_keywords:
+ - "ntddk/RtlIncrementCorrelationVector"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows

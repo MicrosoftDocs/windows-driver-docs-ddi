@@ -8,6 +8,8 @@ ms.assetid: d5d4d13c-93d9-4531-85ff-d3fa0e52ecc1
 ms.date: 04/30/2018
 ms.keywords: NtLockFile, ZwLockFile, ZwLockFile routine [Kernel-Mode Driver Architecture], k111_267331a3-5339-46ce-a0b6-d7b2e0aba68f.xml, kernel.zwlockfile, ntifs/NtLockFile, ntifs/ZwLockFile
 ms.topic: function
+f1_keywords:
+ - "ntifs/ZwLockFile"
 req.header: ntifs.h
 req.include-header: Ntifs.h, FltKernel.h
 req.target-type: Universal

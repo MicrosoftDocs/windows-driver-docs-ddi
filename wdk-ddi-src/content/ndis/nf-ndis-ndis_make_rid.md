@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 54c60b0f-619c-45e9-bc2f-0598f915dca3
 ms.date: 04/16/2018
 ms.topic: macro
+f1_keywords:
+ - "ndis/NDIS_MAKE_RID"
 ms.keywords: NDIS_MAKE_RID
 req.header: ndis.h
 req.include-header:

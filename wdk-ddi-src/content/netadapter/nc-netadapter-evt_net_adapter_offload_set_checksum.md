@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 054d73bb-6832-41f6-b654-89d29bbc1892
 ms.date: 07/19/2018
 ms.topic: callback
+f1_keywords:
+ - "netadapter/EVT_NET_ADAPTER_OFFLOAD_SET_CHECKSUM"
 req.header: netadapter.h
 req.include-header:
 req.target-type: Universal

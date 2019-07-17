@@ -8,6 +8,8 @@ ms.assetid: 0dd32160-93d4-4fb8-aed1-9267f38e9909
 ms.date: 05/10/2018
 ms.keywords: IddCxSwapChainReportFrameStatistics, IddCxSwapChainReportFrameStatistics method [Display Devices], display.iddcxswapchainreportframestatistics, iddcx/IddCxSwapChainReportFrameStatistics
 ms.topic: function
+f1_keywords:
+ - "iddcx/IddCxSwapChainReportFrameStatistics"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows

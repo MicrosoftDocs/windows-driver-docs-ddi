@@ -8,6 +8,8 @@ ms.assetid: DA1F45F5-5B15-4DAD-A746-E467FE1BAE42
 ms.date: 05/03/2018
 ms.keywords: GetDebuggeeType2, GetDebuggeeType2 method [Windows Debugging], GetDebuggeeType2 method [Windows Debugging],IDebugControl7 interface, IDebugControl7 interface [Windows Debugging],GetDebuggeeType2 method, IDebugControl7.GetDebuggeeType2, IDebugControl7::GetDebuggeeType2, dbgeng/IDebugControl7::GetDebuggeeType2, debugger.idebugcontrol7_getdebuggeetype2
 ms.topic: method
+f1_keywords:
+ - "dbgeng/IDebugControl7.GetDebuggeeType2"
 req.header: dbgeng.h
 req.include-header: 
 req.target-type: Desktop

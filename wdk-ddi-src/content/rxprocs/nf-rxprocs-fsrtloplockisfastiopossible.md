@@ -8,6 +8,8 @@ ms.assetid: ba482fbf-862c-48b4-b8f9-aaab6c5527ee
 ms.date: 04/16/2018
 ms.keywords: FsRtlOplockIsFastIoPossible, FsRtlOplockIsFastIoPossible function [Installable File System Drivers], fsrtlref_94131dc4-e2ee-4ec0-92b9-39cd8a7d6e41.xml, ifsk.fsrtloplockisfastiopossible, rxprocs/FsRtlOplockIsFastIoPossible
 ms.topic: macro
+f1_keywords:
+ - "rxprocs/FsRtlOplockIsFastIoPossible"
 req.header: rxprocs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

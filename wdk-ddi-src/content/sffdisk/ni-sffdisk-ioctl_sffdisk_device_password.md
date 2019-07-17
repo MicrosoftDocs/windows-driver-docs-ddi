@@ -8,6 +8,8 @@ ms.assetid: 76b65ada-06b8-411e-83e9-62088f697f02
 ms.date: 02/15/2018
 ms.keywords: IOCTL_SFFDISK_DEVICE_PASSWORD, IOCTL_SFFDISK_DEVICE_PASSWORD control, IOCTL_SFFDISK_DEVICE_PASSWORD control code [Buses], SD.ioctl_sffdisk_device_password, sd-ioctls_409f2592-46a6-4658-bc4f-d15c10452007.xml, sffdisk/IOCTL_SFFDISK_DEVICE_PASSWORD
 ms.topic: ioctl
+f1_keywords:
+ - "sffdisk/IOCTL_SFFDISK_DEVICE_PASSWORD"
 req.header: sffdisk.h
 req.include-header: Sffdisk.h
 req.target-type: Windows

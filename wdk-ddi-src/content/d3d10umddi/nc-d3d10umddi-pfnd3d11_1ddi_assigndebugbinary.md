@@ -7,6 +7,8 @@ ms.assetid: eb1e3c27-71c1-4920-9aa4-3253306fa3f4
 ms.date: 05/10/2018
 ms.keywords: AssignDebugBinary, AssignDebugBinary callback function [Display Devices], PFND3D11_1DDI_ASSIGNDEBUGBINARY, PFND3D11_1DDI_ASSIGNDEBUGBINARY callback, d3d10umddi/AssignDebugBinary, display.assigndebugbinary, display.assigndebugbinary_d3d11_1_, display.pfnassigndebugbinary
 ms.topic: callback
+f1_keywords:
+ - "d3d10umddi/AssignDebugBinary"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

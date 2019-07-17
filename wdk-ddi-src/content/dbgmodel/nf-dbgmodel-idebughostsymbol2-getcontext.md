@@ -5,6 +5,8 @@ description: The GetContext method returns the context where the symbol is valid
 ms.assetid: e86ac202-8116-42d8-be1a-f7772b0833e6
 ms.date: 09/20/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDebugHostSymbol2.GetContext"
 ms.keywords: IDebugHostSymbol2::GetContext, GetContext, IDebugHostSymbol2.GetContext, IDebugHostSymbol2::GetContext, IDebugHostSymbol2.GetContext
 req.header: dbgmodel.h
 req.include-header:

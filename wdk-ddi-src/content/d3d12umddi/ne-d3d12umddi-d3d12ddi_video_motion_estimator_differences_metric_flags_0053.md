@@ -5,6 +5,8 @@ description: Indicates the differences metric flags to capture during video moti
 ms.assetid: 2e95acd3-35d2-4fdf-b7f0-765350b976fb
 ms.date: 10/19/2018
 ms.topic: enum
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_VIDEO_MOTION_ESTIMATOR_DIFFERENCES_METRIC_FLAGS_0053"
 ms.keywords: D3D12DDI_VIDEO_MOTION_ESTIMATOR_DIFFERENCES_METRIC_FLAGS_0053, D3D12DDI_VIDEO_MOTION_ESTIMATOR_DIFFERENCES_METRIC_FLAGS_0053, 
 req.header: d3d12umddi.h
 req.include-header:

@@ -5,6 +5,8 @@ description: The SetKeyValue method is the first method a client will turn to in
 ms.assetid: ea5bb8e0-a226-4dd2-90e3-0fc7cebf9cd5
 ms.date: 08/13/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IModelObject.SetKeyValue"
 ms.keywords: IModelObject::SetKeyValue, SetKeyValue, IModelObject.SetKeyValue, IModelObject::SetKeyValue, IModelObject.SetKeyValue
 req.header: dbgmodel.h
 req.include-header:

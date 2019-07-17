@@ -5,6 +5,8 @@ description:
 ms.assetid: 7c474d05-45db-4467-864d-013e41610b63
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "treetpmservice/_TPM_INVOKE_GENERIC_IN"
 ms.keywords: _TPM_INVOKE_GENERIC_IN, TPM_INVOKE_GENERIC_IN, *PTPM_INVOKE_GENERIC_IN, 
 req.header: treetpmservice.h
 req.include-header:

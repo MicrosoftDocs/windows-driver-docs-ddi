@@ -8,6 +8,8 @@ ms.assetid: 6173896B-FF8C-42A0-A42A-963F6311C059
 ms.date: 04/23/2018
 ms.keywords: 2/EvtSerCx2PioReceiveCancelReadyNotification, EVT_SERCX2_PIO_RECEIVE_CANCEL_READY_NOTIFICATION, EVT_SERCX2_PIO_RECEIVE_CANCEL_READY_NOTIFICATION callback, EvtSerCx2PioReceiveCancelReadyNotification, EvtSerCx2PioReceiveCancelReadyNotification callback function [Serial Ports], serports.evtsercx2pioreceivecancelreadynotification
 ms.topic: callback
+f1_keywords:
+ - "sercx/EvtSerCx2PioReceiveCancelReadyNotification"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Desktop

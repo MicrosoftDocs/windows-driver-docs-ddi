@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: cd019582-dae3-4e6f-bdfe-fd5eb43255bb
 ms.date: 04/12/2018
 ms.topic: macro
+f1_keywords:
+ - "ndis/NET_BUFFER_CHECKSUM_BIAS"
 ms.keywords: NET_BUFFER_CHECKSUM_BIAS
 req.header: ndis.h
 req.include-header:

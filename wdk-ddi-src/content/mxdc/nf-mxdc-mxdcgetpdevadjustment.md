@@ -8,6 +8,8 @@ ms.assetid: 4839337b-0328-4919-8f49-d7847743845c
 ms.date: 04/20/2018
 ms.keywords: MxdcGetPDEVAdjustment, MxdcGetPDEVAdjustment function [Print Devices], mxdc/MxdcGetPDEVAdjustment, print.mxdcgetpdevadjustment, print_xpsdrv_7e324989-1809-44e8-8b5b-c64f83740cd5.xml
 ms.topic: function
+f1_keywords:
+ - "mxdc/MxdcGetPDEVAdjustment"
 req.header: mxdc.h
 req.include-header: Mxdc.h
 req.target-type: Desktop

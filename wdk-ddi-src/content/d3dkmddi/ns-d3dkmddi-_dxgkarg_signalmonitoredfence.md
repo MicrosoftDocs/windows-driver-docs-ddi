@@ -5,6 +5,8 @@ description: Arguments used to add a GPU instruction to signal the paging monito
 ms.assetid: 15e5d633-9227-4ada-a7bc-91d8e1983e02
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3dkmddi/_DXGKARG_SIGNALMONITOREDFENCE"
 ms.keywords: _DXGKARG_SIGNALMONITOREDFENCE, DXGKARG_SIGNALMONITOREDFENCE, *INOUT_PDXGKARG_SIGNALMONITOREDFENCE
 req.header: d3dkmddi.h
 req.include-header:

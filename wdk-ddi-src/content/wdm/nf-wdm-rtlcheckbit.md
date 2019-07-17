@@ -8,6 +8,8 @@ ms.assetid: 2c9842de-a256-46ed-84b4-b8a595c01a62
 ms.date: 04/30/2018
 ms.keywords: RtlCheckBit, RtlCheckBit routine [Kernel-Mode Driver Architecture], k109_1f4676c1-d031-4a2c-8d74-afa9d3a0ed10.xml, kernel.rtlcheckbit, wdm/RtlCheckBit
 ms.topic: macro
+f1_keywords:
+ - "wdm/RtlCheckBit"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop

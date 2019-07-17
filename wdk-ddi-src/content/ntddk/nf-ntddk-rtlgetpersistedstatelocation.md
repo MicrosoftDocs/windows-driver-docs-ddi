@@ -5,6 +5,8 @@ description: Retrieves the redirected location for the specified SourceID from t
 ms.assetid: 028aab59-4047-484e-a06b-5ef03b5d0cdb
 ms.date: 10/19/2018
 ms.topic: function
+f1_keywords:
+ - "ntddk/RtlGetPersistedStateLocation"
 ms.keywords: RtlGetPersistedStateLocation
 req.header: ntddk.h
 req.include-header:

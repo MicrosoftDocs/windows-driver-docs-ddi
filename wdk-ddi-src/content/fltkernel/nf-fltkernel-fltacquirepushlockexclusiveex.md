@@ -5,6 +5,8 @@ description: The FltAcquirePushLockExclusiveEx routine acquires the given push l
 ms.assetid: 522e77d0-1de3-472c-abb1-5f147f247d6e
 ms.date: 10/19/2018
 ms.topic: function
+f1_keywords:
+ - "fltkernel/FltAcquirePushLockExclusiveEx"
 ms.keywords: FltAcquirePushLockExclusiveEx
 req.header: fltkernel.h
 req.include-header:

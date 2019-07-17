@@ -8,6 +8,8 @@ ms.assetid: 887aab56-2f3f-4aaa-96fa-c597bc540a92
 ms.date: 02/15/2018
 ms.keywords: GetAt, GetAt method, GetAt method,IPortableDeviceValues interface, IPortableDeviceValues interface,GetAt method, IPortableDeviceValues.GetAt, IPortableDeviceValues::GetAt, IPortableDeviceValuesGetAt, portabledevicetypes/IPortableDeviceValues::GetAt, wpddk.iportabledevicevalues_getat
 ms.topic: method
+f1_keywords:
+ - "portabledevicetypes/IPortableDeviceValues.GetAt"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows

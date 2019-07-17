@@ -8,6 +8,8 @@ ms.assetid: ab2222ed-3166-4984-b76c-5499879f91d5
 ms.date: 04/23/2018
 ms.keywords: CamStartCaptureEx, CamStartCaptureEx routine [Streaming Media Devices], PCAM_START_CAPTURE_ROUTINE_EX, stream.camstartcaptureex, usbcamdi/CamStartCaptureEx, usbcmdpr_b6e64f48-1afd-40b0-adbe-dc5afb83d045.xml
 ms.topic: callback
+f1_keywords:
+ - "usbcamdi/CamStartCaptureEx"
 req.header: usbcamdi.h
 req.include-header: Usbcamdi.h
 req.target-type: Desktop

@@ -8,6 +8,8 @@ ms.assetid: c7da2e62-6d80-47d8-8f4e-2bbcbf730cef
 ms.date: 02/15/2018
 ms.keywords: GetGuidValue, GetGuidValue method, GetGuidValue method,IPortableDeviceValues interface, IPortableDeviceValues interface,GetGuidValue method, IPortableDeviceValues.GetGuidValue, IPortableDeviceValues::GetGuidValue, IPortableDeviceValuesGetGuidValue, portabledevicetypes/IPortableDeviceValues::GetGuidValue, wpddk.iportabledevicevalues_getguidvalue
 ms.topic: method
+f1_keywords:
+ - "portabledevicetypes/IPortableDeviceValues.GetGuidValue"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows

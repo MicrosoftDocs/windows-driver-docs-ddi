@@ -8,6 +8,8 @@ ms.assetid: 2a385a7a-e4c9-41ff-aaf2-7a4607fa2b2b
 ms.date: 04/16/2018
 ms.keywords: IoAcquireVpbSpinLock, IoAcquireVpbSpinLock routine [Installable File System Drivers], ifsk.ioacquirevpbspinlock, ioref_b5833043-4673-46ff-850c-bd71da7defef.xml, ntifs/IoAcquireVpbSpinLock
 ms.topic: function
+f1_keywords:
+ - "ntifs/IoAcquireVpbSpinLock"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

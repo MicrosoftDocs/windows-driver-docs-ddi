@@ -8,6 +8,8 @@ ms.assetid: bf5f520e-4bbc-4b9f-9e6c-b430cb9e3b28
 ms.date: 02/16/2018
 ms.keywords: "*PDOT11_DISASSOCIATION_PARAMETERS, DOT11_DISASSOCIATION_PARAMETERS, DOT11_DISASSOCIATION_PARAMETERS structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_289b81c2-13d2-484b-9306-6ca3dc961675.xml, PDOT11_DISASSOCIATION_PARAMETERS, PDOT11_DISASSOCIATION_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_disassociation_parameters, windot11/DOT11_DISASSOCIATION_PARAMETERS, windot11/PDOT11_DISASSOCIATION_PARAMETERS"
 ms.topic: struct
+f1_keywords:
+ - "windot11/DOT11_DISASSOCIATION_PARAMETERS"
 req.header: windot11.h
 req.include-header: Ndis.h
 req.target-type: Windows

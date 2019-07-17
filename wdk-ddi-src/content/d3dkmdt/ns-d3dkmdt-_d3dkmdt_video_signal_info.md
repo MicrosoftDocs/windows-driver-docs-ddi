@@ -8,6 +8,8 @@ ms.assetid: 38d0a655-265b-46e0-8af3-de6757025588
 ms.date: 05/10/2018
 ms.keywords: D3DKMDT_VIDEO_SIGNAL_INFO, D3DKMDT_VIDEO_SIGNAL_INFO structure [Display Devices], DmStructs_10882170-8ccd-481d-bb36-b0a1f706e395.xml, _D3DKMDT_VIDEO_SIGNAL_INFO, d3dkmdt/D3DKMDT_VIDEO_SIGNAL_INFO, display.d3dkmdt_video_signal_info
 ms.topic: struct
+f1_keywords:
+ - "d3dkmdt/D3DKMDT_VIDEO_SIGNAL_INFO"
 req.header: d3dkmdt.h
 req.include-header: D3dkmdt.h
 req.target-type: Windows

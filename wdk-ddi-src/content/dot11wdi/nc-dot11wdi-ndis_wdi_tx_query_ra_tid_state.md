@@ -8,6 +8,8 @@ ms.assetid: 76949336-3349-4869-83C7-60D7D8A6BE24
 ms.date: 05/02/2018
 ms.keywords: NDIS_WDI_TX_QUERY_RA_TID_STATE, NDIS_WDI_TX_QUERY_RA_TID_STATE callback, NdisWdiTxQueryRATIDState, NdisWdiTxQueryRATIDState callback function [Network Drivers Starting with Windows Vista], dot11wdi/NdisWdiTxQueryRATIDState, netvista.ndiswditxqueryratidstate
 ms.topic: callback
+f1_keywords:
+ - "dot11wdi/NdisWdiTxQueryRATIDState"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows

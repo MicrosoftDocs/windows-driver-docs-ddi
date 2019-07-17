@@ -8,6 +8,8 @@ ms.assetid: d6d90a4a-a67d-4ef3-82b8-7146970e30f3
 ms.date: 05/07/2018
 ms.keywords: USBD_ParseDescriptors, USBD_ParseDescriptors routine [Buses], buses.usbd_parsedescriptors, usbdlib/USBD_ParseDescriptors, usbfunc_a66c16e5-451c-4d5b-a621-4c4969200acd.xml
 ms.topic: function
+f1_keywords:
+ - "usbdlib/USBD_ParseDescriptors"
 req.header: usbdlib.h
 req.include-header: Usbdlib.h
 req.target-type: Universal

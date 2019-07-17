@@ -8,6 +8,8 @@ ms.assetid: F886F470-BAAB-41C6-8431-01BF99236F81
 ms.date: 05/07/2018
 ms.keywords: "*PUSB_NODE_CONNECTION_INFORMATION_EX_V2, PUSB_NODE_CONNECTION_INFORMATION_EX_V2, PUSB_NODE_CONNECTION_INFORMATION_EX_V2 structure pointer [Buses], USB_NODE_CONNECTION_INFORMATION_EX_V2, USB_NODE_CONNECTION_INFORMATION_EX_V2 structure [Buses], _USB_NODE_CONNECTION_INFORMATION_EX_V2, buses._usb_node_connection_information_ex_v2, usbioctl/PUSB_NODE_CONNECTION_INFORMATION_EX_V2, usbioctl/USB_NODE_CONNECTION_INFORMATION_EX_V2"
 ms.topic: struct
+f1_keywords:
+ - "usbioctl/USB_NODE_CONNECTION_INFORMATION_EX_V2"
 req.header: usbioctl.h
 req.include-header: Usbioctl.h
 req.target-type: Windows

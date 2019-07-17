@@ -8,6 +8,8 @@ ms.assetid: 9a56ac86-2d39-4367-8e64-b6f6bc0da0ea
 ms.date: 03/29/2018
 ms.keywords: IOCTL_DISK_PERFORMANCE_OFF, IOCTL_DISK_PERFORMANCE_OFF control, IOCTL_DISK_PERFORMANCE_OFF control code [Storage Devices], k307_af1f6a33-e2e5-4ba0-96ad-f1d84c30ef76.xml, ntdddisk/IOCTL_DISK_PERFORMANCE_OFF, storage.ioctl_disk_performance_off
 ms.topic: ioctl
+f1_keywords:
+ - "ntdddisk/IOCTL_DISK_PERFORMANCE_OFF"
 req.header: ntdddisk.h
 req.include-header: Ntdddisk.h
 req.target-type: Windows

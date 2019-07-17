@@ -8,6 +8,8 @@ ms.assetid: DA9C020F-18E7-4C6C-AEBB-81B099C80CD0
 ms.date: 04/30/2018
 ms.keywords: "*PPO_FX_COMPONENT_PERF_INFO, PO_FX_COMPONENT_PERF_INFO, PO_FX_COMPONENT_PERF_INFO structure [Kernel-Mode Driver Architecture], PPO_FX_COMPONENT_PERF_INFO, PPO_FX_COMPONENT_PERF_INFO structure pointer [Kernel-Mode Driver Architecture], _PO_FX_COMPONENT_PERF_INFO, kernel.po_fx_component_perf_info, wdm/PO_FX_COMPONENT_PERF_INFO, wdm/PPO_FX_COMPONENT_PERF_INFO"
 ms.topic: struct
+f1_keywords:
+ - "wdm/PO_FX_COMPONENT_PERF_INFO"
 req.header: wdm.h
 req.include-header: Wudfwdm.h
 req.target-type: Windows

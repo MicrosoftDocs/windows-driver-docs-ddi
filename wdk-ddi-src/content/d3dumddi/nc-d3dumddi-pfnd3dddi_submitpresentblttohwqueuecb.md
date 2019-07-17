@@ -5,6 +5,8 @@ description: Implemented by the client driver to submit a present blt to the har
 ms.assetid: e699bb81-9414-4396-a08b-11ae38b3d8c2
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dumddi/PFND3DDDI_SUBMITPRESENTBLTTOHWQUEUECB"
 req.header: d3dumddi.h
 req.include-header:
 req.target-type:

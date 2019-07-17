@@ -8,6 +8,8 @@ ms.assetid: 5a82dfe6-8844-4b18-8f54-7bf143fcd2ff
 ms.date: 05/02/2018
 ms.keywords: NdisMEnableVirtualization, NdisMEnableVirtualization function [Network Drivers Starting with Windows Vista], ndis/NdisMEnableVirtualization, netvista.ndismenablevirtualization
 ms.topic: function
+f1_keywords:
+ - "ndis/NdisMEnableVirtualization"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

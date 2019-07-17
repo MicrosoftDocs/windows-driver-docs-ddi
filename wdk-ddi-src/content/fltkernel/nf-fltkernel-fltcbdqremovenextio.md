@@ -8,6 +8,8 @@ ms.assetid: 4f207ef2-e999-4410-aaa1-5d32c4f22864
 ms.date: 04/16/2018
 ms.keywords: FltApiRef_a_to_d_fec6e01e-c699-45cf-b9fb-c4dea9b2e462.xml, FltCbdqRemoveNextIo, FltCbdqRemoveNextIo function [Installable File System Drivers], fltkernel/FltCbdqRemoveNextIo, ifsk.fltcbdqremovenextio
 ms.topic: function
+f1_keywords:
+ - "fltkernel/FltCbdqRemoveNextIo"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

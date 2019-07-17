@@ -8,6 +8,8 @@ ms.assetid: c1057dcf-2988-460d-b006-f6cf16ec969e
 ms.date: 04/23/2018
 ms.keywords: "*PKSSTREAM_HEADER, KSSTREAM_HEADER, KSSTREAM_HEADER structure [Streaming Media Devices], PKSSTREAM_HEADER, PKSSTREAM_HEADER structure pointer [Streaming Media Devices], ks-struct_6f951af2-bee6-49ee-9df5-5291b5d00045.xml, ks/KSSTREAM_HEADER, ks/PKSSTREAM_HEADER, stream.ksstream_header"
 ms.topic: struct
+f1_keywords:
+ - "ks/KSSTREAM_HEADER"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows

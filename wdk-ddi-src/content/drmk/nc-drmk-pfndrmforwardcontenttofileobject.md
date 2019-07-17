@@ -8,6 +8,8 @@ ms.assetid: 00ACCBFF-FEDE-4223-8503-4D75426E2BD6
 ms.date: 05/08/2018
 ms.keywords: DRMForwardContentToFileObject, DRMForwardContentToFileObject callback function [Audio Devices], PFNDRMFORWARDCONTENTTOFILEOBJECT, PFNDRMFORWARDCONTENTTOFILEOBJECT callback, PfnDRMForwardContentToFileObject, PfnDRMForwardContentToFileObject callback function [Audio Devices], audio.pfndrmforwardcontenttofileobject, drmk/PfnDRMForwardContentToFileObject
 ms.topic: callback
+f1_keywords:
+ - "drmk/DRMForwardContentToFileObject"
 req.header: drmk.h
 req.include-header: 
 req.target-type: Windows

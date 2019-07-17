@@ -5,6 +5,8 @@ description: Arguments used to submit a command to the hardware queue.
 ms.assetid: 914e7a49-0336-4c99-850f-95defcc4218e
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3dkmddi/_DXGKARG_SUBMITCOMMANDTOHWQUEUE"
 ms.keywords: _DXGKARG_SUBMITCOMMANDTOHWQUEUE, DXGKARG_SUBMITCOMMANDTOHWQUEUE,
 req.header: d3dkmddi.h
 req.include-header:

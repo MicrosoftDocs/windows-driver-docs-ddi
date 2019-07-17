@@ -5,6 +5,8 @@ description: An interface to a particular symbol.
 ms.assetid: 9170580b-516a-49c6-ba3a-f5af85a20242
 ms.date: 07/13/2018
 ms.topic: interface
+f1_keywords:
+ - "dbgmodel/IDebugHostSymbol"
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:

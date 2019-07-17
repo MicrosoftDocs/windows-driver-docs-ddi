@@ -8,6 +8,8 @@ ms.assetid: 4780d0ea-a54a-4125-b3b6-2210a14eff71
 ms.date: 05/03/2018
 ms.keywords: ISensorDriver interface [Sensor Devices],OnProcessWpdMessage method, ISensorDriver.OnProcessWpdMessage, ISensorDriver::OnProcessWpdMessage, OnProcessWpdMessage, OnProcessWpdMessage method [Sensor Devices], OnProcessWpdMessage method [Sensor Devices],ISensorDriver interface, sensors.isensordriver_onprocesswpdmessage, sensorsclassextension/ISensorDriver::OnProcessWpdMessage
 ms.topic: method
+f1_keywords:
+ - "sensorsclassextension/OnProcessWpdMessage"
 req.header: sensorsclassextension.h
 req.include-header: 
 req.target-type: Windows

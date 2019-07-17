@@ -8,6 +8,8 @@ ms.assetid: 064f50e7-bae8-4c29-9802-47efdb749652
 ms.date: 05/03/2018
 ms.keywords: EngExtCpp_Ref_10a1810d-2e15-490a-baeb-8881106f41a6.xml, ExtRemoteData class [Windows Debugging],GetLong method, ExtRemoteData.GetLong, ExtRemoteData::GetLong, GetLong, GetLong method [Windows Debugging], GetLong method [Windows Debugging],ExtRemoteData class, debugger.extremotedata_getlong
 ms.topic: method
+f1_keywords:
+ - "engextcpp/ExtRemoteData.GetLong"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop

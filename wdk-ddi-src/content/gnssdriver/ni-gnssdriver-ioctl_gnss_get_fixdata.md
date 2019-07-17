@@ -8,6 +8,8 @@ ms.assetid: 037B5AD9-39C2-4F50-8E63-0736EA37FEF9
 ms.date: 02/15/2018
 ms.keywords: IOCTL_GNSS_GET_FIXDATA, IOCTL_GNSS_GET_FIXDATA control, IOCTL_GNSS_GET_FIXDATA control code [Sensor Devices], gnss.ioctl_gnss_get_fixdata, gnssdriver/IOCTL_GNSS_GET_FIXDATA
 ms.topic: ioctl
+f1_keywords:
+ - "gnssdriver/IOCTL_GNSS_GET_FIXDATA"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows

@@ -5,6 +5,8 @@ description: Arguments used to create a tracked workload.
 ms.assetid: 53b93ab8-dbbe-4ef7-a7af-a4cae8d5221b
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/_D3DKMT_CREATETRACKEDWORKLOAD"
 ms.keywords: _D3DKMT_CREATETRACKEDWORKLOAD, D3DKMT_CREATETRACKEDWORKLOAD, 
 req.header: d3dkmthk.h
 req.include-header:

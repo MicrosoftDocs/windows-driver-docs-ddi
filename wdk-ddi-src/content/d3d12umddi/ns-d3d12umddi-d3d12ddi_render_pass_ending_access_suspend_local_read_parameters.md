@@ -5,6 +5,8 @@ description: Specifies the kernel size of the read, or how many surrounding pixe
 ms.assetid: 273be09f-d09b-4dc0-9740-679a8502d58d
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_RENDER_PASS_ENDING_ACCESS_SUSPEND_LOCAL_READ_PARAMETERS"
 ms.keywords: D3D12DDI_RENDER_PASS_ENDING_ACCESS_SUSPEND_LOCAL_READ_PARAMETERS, D3D12DDI_RENDER_PASS_ENDING_ACCESS_SUSPEND_LOCAL_READ_PARAMETERS, 
 req.header: d3d12umddi.h
 req.include-header:

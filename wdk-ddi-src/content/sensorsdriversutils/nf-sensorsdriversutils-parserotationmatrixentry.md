@@ -5,6 +5,8 @@ description: The ParseRotationMatrixEntry function parses a string of three floa
 ms.assetid: 9f24b18a-f57f-45d4-8372-ea31ae0ead11
 ms.date: 04/19/2018
 ms.topic: function
+f1_keywords:
+ - "sensorsdriversutils/ParseRotationMatrixEntry"
 ms.keywords: ParseRotationMatrixEntry
 req.header: sensorsdriversutils.h
 req.include-header:

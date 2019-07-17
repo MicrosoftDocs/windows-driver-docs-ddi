@@ -8,6 +8,8 @@ ms.assetid: 605C58C2-9A4F-4185-BB5C-95C9F5180C05
 ms.date: 02/26/2018
 ms.keywords: Enable, Enable method, Enable method,IWDFInterrupt interface, IWDFInterrupt interface,Enable method, IWDFInterrupt.Enable, IWDFInterrupt::Enable, umdf.iwdfinterrupt_enable, wdf.iwdfinterrupt_enable, wudfddi/IWDFInterrupt::Enable
 ms.topic: method
+f1_keywords:
+ - "wudfddi/IWDFInterrupt.Enable"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Desktop

@@ -8,6 +8,8 @@ ms.assetid: cbb027f2-be7d-4de4-abbe-a37b7430153f
 ms.date: 04/16/2018
 ms.keywords: RtlInsertAsLeftChild, RtlInsertAsLeftChild routine [Installable File System Drivers], ifsk.rtlinsertasleftchild, ntddk/RtlInsertAsLeftChild, rtlref_228b3b79-ee0c-4361-ac36-223991ed3615.xml
 ms.topic: function
+f1_keywords:
+ - "ntddk/RtlInsertAsLeftChild"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Desktop

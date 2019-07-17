@@ -8,6 +8,8 @@ ms.assetid: 6ea2e6dd-9794-4214-8fb1-db563f49b33a
 ms.date: 02/26/2018
 ms.keywords: DFIOTargetRef_72899f0c-58db-461c-b02c-5e99d5a0f875.xml, WdfIoTargetOpen, WdfIoTargetOpen method, kmdf.wdfiotargetopen, wdf.wdfiotargetopen, wdfiotarget/WdfIoTargetOpen
 ms.topic: function
+f1_keywords:
+ - "wdfiotarget/WdfIoTargetOpen"
 req.header: wdfiotarget.h
 req.include-header: Wdf.h
 req.target-type: Universal

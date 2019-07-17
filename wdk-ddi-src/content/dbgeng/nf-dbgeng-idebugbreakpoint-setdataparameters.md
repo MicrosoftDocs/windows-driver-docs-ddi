@@ -8,6 +8,8 @@ ms.assetid: 66878652-be29-479f-8e00-a9d8ab1b0db7
 ms.date: 05/03/2018
 ms.keywords: ComOther_250724e6-5ae3-4755-87de-3804e4e6f4ed.xml, IDebugBreakpoint interface [Windows Debugging],SetDataParameters method, IDebugBreakpoint.SetDataParameters, IDebugBreakpoint2 interface [Windows Debugging],SetDataParameters method, IDebugBreakpoint2::SetDataParameters, IDebugBreakpoint::SetDataParameters, SetDataParameters, SetDataParameters method [Windows Debugging], SetDataParameters method [Windows Debugging],IDebugBreakpoint interface, SetDataParameters method [Windows Debugging],IDebugBreakpoint2 interface, dbgeng/IDebugBreakpoint2::SetDataParameters, dbgeng/IDebugBreakpoint::SetDataParameters, debugger.setdataparameters
 ms.topic: method
+f1_keywords:
+ - "dbgeng/IDebugBreakpoint.SetDataParameters"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

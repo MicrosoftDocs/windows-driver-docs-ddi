@@ -8,6 +8,8 @@ ms.assetid: dccc4be0-0724-44b6-8476-276b46acee6a
 ms.date: 02/26/2018
 ms.keywords: IPnpCallbackSelfManagedIo interface,OnSelfManagedIoRestart method, IPnpCallbackSelfManagedIo.OnSelfManagedIoRestart, IPnpCallbackSelfManagedIo::OnSelfManagedIoRestart, OnSelfManagedIoRestart, OnSelfManagedIoRestart method, OnSelfManagedIoRestart method,IPnpCallbackSelfManagedIo interface, UMDFDeviceObjectRef_c570a334-c420-443d-8844-b4ff2bf35f47.xml, umdf.ipnpcallbackselfmanagedio_onselfmanagediorestart, wdf.ipnpcallbackselfmanagedio_onselfmanagediorestart, wudfddi/IPnpCallbackSelfManagedIo::OnSelfManagedIoRestart
 ms.topic: method
+f1_keywords:
+ - "wudfddi/IPnpCallbackSelfManagedIo.OnSelfManagedIoRestart"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Windows

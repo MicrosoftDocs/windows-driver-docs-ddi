@@ -8,6 +8,8 @@ ms.assetid: 54954874-d67a-4e8b-b791-105e8018f8ca
 ms.date: 02/26/2018
 ms.keywords: IWDFRemoteInterfaceInitialize, IWDFRemoteInterfaceInitialize interface, IWDFRemoteInterfaceInitialize interface,described, UMDFIoTargetObjectRef_0536631b-c316-41e7-856b-94a3c991c318.xml, umdf.iwdfremoteinterfaceinitialize, wdf.iwdfremoteinterfaceinitialize, wudfddi/IWDFRemoteInterfaceInitialize
 ms.topic: interface
+f1_keywords:
+ - "wudfddi/IWDFRemoteInterfaceInitialize"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Desktop

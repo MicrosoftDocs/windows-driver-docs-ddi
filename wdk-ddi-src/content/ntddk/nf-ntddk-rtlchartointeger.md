@@ -8,6 +8,8 @@ ms.assetid: a08cb12a-c574-4871-9bba-f8f3a766f377
 ms.date: 04/30/2018
 ms.keywords: RtlCharToInteger, RtlCharToInteger routine [Kernel-Mode Driver Architecture], k109_0c8d9b78-6363-4884-a475-4f402ea3643a.xml, kernel.rtlchartointeger, ntddk/RtlCharToInteger
 ms.topic: function
+f1_keywords:
+ - "ntddk/RtlCharToInteger"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal

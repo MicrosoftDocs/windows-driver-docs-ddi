@@ -8,6 +8,8 @@ ms.assetid: 27e1f112-a961-4464-9048-b56394930453
 ms.date: 02/16/2018
 ms.keywords: DOT11EXTIHV_CONTROL, Dot11ExtIhvControl, Dot11ExtIhvControl callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_49f041a3-e60a-4d60-92e2-9c12a4c1db5d.xml, netvista.dot11extihvcontrol, wlanihv/Dot11ExtIhvControl
 ms.topic: callback
+f1_keywords:
+ - "wlanihv/Dot11ExtIhvControl"
 req.header: wlanihv.h
 req.include-header: Wlanihv.h
 req.target-type: Desktop

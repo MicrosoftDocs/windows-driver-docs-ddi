@@ -8,6 +8,8 @@ ms.assetid: c3e7c79f-2a0d-4011-887d-0f01537cd6e6
 ms.date: 04/30/2018
 ms.keywords: IoForwardIrpSynchronously, IoForwardIrpSynchronously routine [Kernel-Mode Driver Architecture], k104_130c736e-6408-4484-b306-91ba275eaac0.xml, kernel.ioforwardirpsynchronously, wdm/IoForwardIrpSynchronously
 ms.topic: function
+f1_keywords:
+ - "wdm/IoForwardIrpSynchronously"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

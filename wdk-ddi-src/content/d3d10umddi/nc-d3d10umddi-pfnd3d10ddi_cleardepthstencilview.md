@@ -7,6 +7,8 @@ ms.assetid: 0474c154-1bec-4602-880c-ffdc48c738f0
 ms.date: 05/10/2018
 ms.keywords: ClearDepthStencilView, ClearDepthStencilView callback function [Display Devices], PFND3D10DDI_CLEARDEPTHSTENCILVIEW, PFND3D10DDI_CLEARDEPTHSTENCILVIEW callback, UserModeDisplayDriverDx10_Functions_580c85a3-3ad9-415c-925c-2ca103d10237.xml, d3d10umddi/ClearDepthStencilView, display.cleardepthstencilview
 ms.topic: callback
+f1_keywords:
+ - "d3d10umddi/ClearDepthStencilView"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

@@ -8,6 +8,8 @@ ms.assetid: 8ffb790e-6f18-4064-bec6-930d2f891f03
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
+f1_keywords:
+ - "ntddk/WHEA_AMD_EXTENDED_REGISTERS"
 ms.keywords: WHEA_AMD_EXTENDED_REGISTERS, WHEA_AMD_EXTENDED_REGISTERS, *PWHEA_AMD_EXTENDED_REGISTERS, 
 req.header: ntddk.h
 req.include-header:

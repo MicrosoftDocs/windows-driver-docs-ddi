@@ -5,6 +5,8 @@ description:
 ms.assetid: 3c04887d-df3a-4084-965f-ac007e984aad
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "winppi/EMFPLAYPROC"
 req.header: winppi.h
 req.include-header:
 req.target-type:

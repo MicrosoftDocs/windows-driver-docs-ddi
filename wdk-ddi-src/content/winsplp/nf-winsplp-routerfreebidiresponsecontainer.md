@@ -8,6 +8,8 @@ ms.assetid: 3998eed5-398e-4835-b917-54f5ae814ddf
 ms.date: 04/20/2018
 ms.keywords: RouterFreeBidiResponseContainer, RouterFreeBidiResponseContainer function [Print Devices], print.routerfreebidiresponsecontainer, spoolfnc_065c8a3a-5790-45f5-bf79-3af94fdd0571.xml, winsplp/RouterFreeBidiResponseContainer
 ms.topic: function
+f1_keywords:
+ - "winsplp/RouterFreeBidiResponseContainer"
 req.header: winsplp.h
 req.include-header: Winsplp.h
 req.target-type: Desktop

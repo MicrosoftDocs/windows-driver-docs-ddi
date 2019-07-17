@@ -8,6 +8,8 @@ ms.assetid: c81c957c-7fa8-46f3-83df-05827a72c94c
 ms.author: windowsdriverdev
 ms.date: 04/03/2019
 ms.topic: ioctl
+f1_keywords:
+ - "usbprint/IOCTL_USBPRINT_GET_PROTOCOL"
 ms.custom: 19H1 
 req.header: usbprint.h
 req.include-header:

@@ -8,6 +8,8 @@ ms.assetid: ee54b382-7b69-4d8d-8728-fe2bff7884cf
 ms.date: 04/23/2018
 ms.keywords: BdaStartChanges, BdaStartChanges function [Streaming Media Devices], bdaref_16498957-566e-405d-b573-3a2eb75a6bcb.xml, bdasup/BdaStartChanges, stream.bdastartchanges
 ms.topic: function
+f1_keywords:
+ - "bdasup/BdaStartChanges"
 req.header: bdasup.h
 req.include-header: Bdasup.h
 req.target-type: Desktop

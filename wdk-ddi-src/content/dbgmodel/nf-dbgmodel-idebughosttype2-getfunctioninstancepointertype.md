@@ -5,6 +5,8 @@ description: Indicates what the type of the instance ("this") pointer passed to 
 ms.assetid: 1caa5327-25be-4a4a-aa23-c145b71b428e
 ms.date: 10/04/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDebugHostType2.GetFunctionInstancePointerType"
 ms.keywords: IDebugHostType2::GetFunctionInstancePointerType, GetFunctionInstancePointerType, IDebugHostType2.GetFunctionInstancePointerType, IDebugHostType2::GetFunctionInstancePointerType, IDebugHostType2.GetFunctionInstancePointerType
 req.header: dbgmodel.h
 req.include-header:

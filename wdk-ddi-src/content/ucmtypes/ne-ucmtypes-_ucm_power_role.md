@@ -8,6 +8,8 @@ ms.assetid: 005B2A80-F6F8-42DA-86C3-277676B9168A
 ms.date: 05/07/2018
 ms.keywords: UCM_POWER_ROLE, UCM_POWER_ROLE enumeration [Buses], UcmPowerRoleInvalid, UcmPowerRoleSink, UcmPowerRoleSource, _UCM_POWER_ROLE, buses.ucm_power_role, ucmtypes/UCM_POWER_ROLE, ucmtypes/UcmPowerRoleInvalid, ucmtypes/UcmPowerRoleSink, ucmtypes/UcmPowerRoleSource
 ms.topic: enum
+f1_keywords:
+ - "ucmtypes/UCM_POWER_ROLE"
 req.header: ucmtypes.h
 req.include-header: Ucmcx.h
 req.target-type: Windows

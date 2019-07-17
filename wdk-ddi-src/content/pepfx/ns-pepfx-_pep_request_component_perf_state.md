@@ -8,6 +8,8 @@ ms.assetid: 8334434D-D2FC-4967-8234-3C097908C70B
 ms.date: 04/30/2018
 ms.keywords: "*PPEP_REQUEST_COMPONENT_PERF_STATE, PEP_REQUEST_COMPONENT_PERF_STATE, PEP_REQUEST_COMPONENT_PERF_STATE structure [Kernel-Mode Driver Architecture], PPEP_REQUEST_COMPONENT_PERF_STATE, PPEP_REQUEST_COMPONENT_PERF_STATE structure pointer [Kernel-Mode Driver Architecture], _PEP_REQUEST_COMPONENT_PERF_STATE, kernel.pep_request_component_perf_state, pepfx/PEP_REQUEST_COMPONENT_PERF_STATE, pepfx/PPEP_REQUEST_COMPONENT_PERF_STATE"
 ms.topic: struct
+f1_keywords:
+ - "pepfx/PEP_REQUEST_COMPONENT_PERF_STATE"
 req.header: pepfx.h
 req.include-header: Pep_x.h
 req.target-type: Windows

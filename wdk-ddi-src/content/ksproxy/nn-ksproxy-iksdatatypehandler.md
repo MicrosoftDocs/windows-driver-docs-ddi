@@ -8,6 +8,8 @@ ms.assetid: ef08d375-1ac6-489f-9fd4-f791ce82c553
 ms.date: 04/23/2018
 ms.keywords: IKsDataTypeHandler, IKsDataTypeHandler interface [Streaming Media Devices], IKsDataTypeHandler interface [Streaming Media Devices],described, ksproxy/IKsDataTypeHandler, ksproxy_fd2ab182-1556-438e-bc5e-fe1339d0d865.xml, stream.iksdatatypehandler
 ms.topic: interface
+f1_keywords:
+ - "ksproxy/IKsDataTypeHandler"
 req.header: ksproxy.h
 req.include-header: 
 req.target-type: Windows

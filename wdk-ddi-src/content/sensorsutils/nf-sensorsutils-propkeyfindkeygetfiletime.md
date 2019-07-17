@@ -6,6 +6,8 @@ ms.assetid: 87d6d150-2b52-468a-b6da-45179bf823cb
 ms.date: 08/08/2018
 tech.root: sensors
 ms.topic: function
+f1_keywords:
+ - "sensorsutils/PropKeyFindKeyGetFileTime"
 ms.keywords: PropKeyFindKeyGetFileTime
 req.header: sensorsutils.h
 req.include-header:

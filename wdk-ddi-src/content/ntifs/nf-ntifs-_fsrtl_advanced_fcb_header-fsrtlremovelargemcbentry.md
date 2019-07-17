@@ -8,6 +8,8 @@ ms.assetid: c0608442-59ba-4431-94d5-7514555d0b4f
 ms.date: 04/16/2018
 ms.keywords: FsRtlRemoveLargeMcbEntry, FsRtlRemoveLargeMcbEntry routine [Installable File System Drivers], fsrtlref_d80cc918-81da-4aae-b8ba-b2aea9519af3.xml, ifsk.fsrtlremovelargemcbentry, ntifs/FsRtlRemoveLargeMcbEntry
 ms.topic: function
+f1_keywords:
+ - "ntifs/FsRtlRemoveLargeMcbEntry"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

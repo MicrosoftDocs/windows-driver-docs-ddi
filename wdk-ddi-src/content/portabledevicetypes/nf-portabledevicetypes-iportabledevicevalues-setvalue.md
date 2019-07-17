@@ -8,6 +8,8 @@ ms.assetid: 43670b44-7554-4cef-9b8d-aa66c16edf13
 ms.date: 02/15/2018
 ms.keywords: IPortableDeviceValues interface,SetValue method, IPortableDeviceValues.SetValue, IPortableDeviceValues::SetValue, IPortableDeviceValuesSetValue, SetValue, SetValue method, SetValue method,IPortableDeviceValues interface, portabledevicetypes/IPortableDeviceValues::SetValue, wpddk.iportabledevicevalues_setvalue
 ms.topic: method
+f1_keywords:
+ - "portabledevicetypes/IPortableDeviceValues.SetValue"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows

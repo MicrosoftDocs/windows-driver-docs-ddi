@@ -8,6 +8,8 @@ ms.assetid: 50e0ef5d-0577-4b5c-b541-fc78079a953c
 ms.date: 05/02/2018
 ms.keywords: PFN_WSK_ABORT_EVENT, PFN_WSK_ABORT_EVENT callback, WskAbortEvent, WskAbortEvent callback function [Network Drivers Starting with Windows Vista], netvista.wskabortevent, wsk/WskAbortEvent, wskref_592d9a56-6a77-4c24-aaec-e70f84d23e49.xml
 ms.topic: callback
+f1_keywords:
+ - "wsk/WskAbortEvent"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Windows

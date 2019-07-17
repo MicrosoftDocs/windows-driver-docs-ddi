@@ -8,6 +8,8 @@ ms.assetid: 543EB710-9BF5-428E-B5CE-7088B98586EA
 ms.date: 03/29/2018
 ms.keywords: IOCTL_EHSTOR_BANDMGMT_GET_BAND_METADATA, IOCTL_EHSTOR_BANDMGMT_GET_BAND_METADATA control, IOCTL_EHSTOR_BANDMGMT_GET_BAND_METADATA control code [Storage Devices], ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_GET_BAND_METADATA, storage.ioctl_ehstor_bandmgmt_get_band_metadata
 ms.topic: ioctl
+f1_keywords:
+ - "ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_GET_BAND_METADATA"
 req.header: ehstorbandmgmt.h
 req.include-header: EhStorBandMgmt.h
 req.target-type: Windows

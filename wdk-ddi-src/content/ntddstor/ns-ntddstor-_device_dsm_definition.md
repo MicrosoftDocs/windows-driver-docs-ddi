@@ -6,6 +6,8 @@ tech.root: storage
 ms.assetid: a43aff7d-1731-469d-8681-8c8aaaeff1a1
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "ntddstor/_DEVICE_DSM_DEFINITION"
 ms.keywords: _DEVICE_DSM_DEFINITION, DEVICE_DSM_DEFINITION, *PDEVICE_DSM_DEFINITION, 
 req.header: ntddstor.h
 req.include-header:

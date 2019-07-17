@@ -5,6 +5,8 @@ description: Any script provider implementing a bridge between a dynamic languag
 ms.assetid: efec4d86-2d7b-4c57-adec-3ecff8c3ce7d
 ms.date: 07/13/2018
 ms.topic: interface
+f1_keywords:
+ - "dbgmodel/IDataModelScriptProvider"
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:

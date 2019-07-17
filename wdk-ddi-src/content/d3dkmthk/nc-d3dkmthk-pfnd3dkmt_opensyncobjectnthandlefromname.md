@@ -5,6 +5,8 @@ description: The PFND3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME callback function open
 ms.assetid: c7fe8045-ff2e-4cfc-a909-b2fae49e0eb4
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/PFND3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

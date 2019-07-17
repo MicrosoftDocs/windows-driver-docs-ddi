@@ -8,6 +8,8 @@ ms.assetid: efc9eb0e-0e83-46db-a450-79b9472fedff
 ms.date: 04/30/2018
 ms.keywords: MmMapIoSpace, MmMapIoSpace routine [Kernel-Mode Driver Architecture], k106_65fbb44b-6b8a-408d-8945-8d2eba25ca7c.xml, kernel.mmmapiospace, wdm/MmMapIoSpace
 ms.topic: function
+f1_keywords:
+ - "wdm/MmMapIoSpace"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

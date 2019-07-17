@@ -8,6 +8,8 @@ ms.assetid: d08b2435-fb6f-49cd-8da3-c49676623357
 ms.date: 02/15/2018
 ms.keywords: "*PHWN_CLIENT_INITIALIZE_DEVICE, *PHWN_CLIENT_INITIALIZE_DEVICE callback function pointer, HWN_CLIENT_INITIALIZE_DEVICE, HwnClientInitializeDevice, HwnClientInitializeDevice callback function, gpiobtn.hwn_client_initialize_device, hwnclx/HwnClientInitializeDevice"
 ms.topic: callback
+f1_keywords:
+ - "hwnclx/*PHWN_CLIENT_INITIALIZE_DEVICE"
 req.header: hwnclx.h
 req.include-header:
 req.target-type: Windows

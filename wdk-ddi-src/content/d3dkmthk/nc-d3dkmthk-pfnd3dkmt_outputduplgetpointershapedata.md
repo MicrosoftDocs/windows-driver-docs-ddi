@@ -5,6 +5,8 @@ description: The PFND3DKMT_OUTPUTDUPLGETPOINTERSHAPEDATA callback function gets 
 ms.assetid: 0c69e0f9-143e-4254-897f-a27a7562cda7
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/PFND3DKMT_OUTPUTDUPLGETPOINTERSHAPEDATA"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

@@ -5,6 +5,8 @@ description: The GetArrayDimensions method returns a set of descriptors, one for
 ms.assetid: a5950b75-3dea-4076-bcff-71d530899c98
 ms.date: 09/07/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDebugHostType.GetArrayDimensions"
 ms.keywords: IDebugHostType::GetArrayDimensions, GetArrayDimensions, IDebugHostType.GetArrayDimensions, IDebugHostType::GetArrayDimensions, IDebugHostType.GetArrayDimensions
 req.header: dbgmodel.h
 req.include-header:

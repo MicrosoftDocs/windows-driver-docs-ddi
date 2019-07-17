@@ -8,6 +8,8 @@ ms.assetid: dc0f8dba-afdd-47f4-ba7f-72c510e80052
 ms.date: 05/10/2018
 ms.keywords: DestroyVideoProcessDevice, DestroyVideoProcessDevice callback function [Display Devices], PFND3DDDI_DESTROYVIDEOPROCESSDEVICE, PFND3DDDI_DESTROYVIDEOPROCESSDEVICE callback, UserModeDisplayDriver_Functions_a10d05fa-387f-469f-b516-17378f2bd655.xml, d3dumddi/DestroyVideoProcessDevice, display.destroyvideoprocessdevice
 ms.topic: callback
+f1_keywords:
+ - "d3dumddi/DestroyVideoProcessDevice"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop

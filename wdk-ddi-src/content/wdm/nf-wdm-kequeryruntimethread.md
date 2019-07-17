@@ -8,6 +8,8 @@ ms.assetid: 300720f6-8049-4558-ba8b-ecdbb8a59dbd
 ms.date: 04/30/2018
 ms.keywords: KeQueryRuntimeThread, KeQueryRuntimeThread routine [Kernel-Mode Driver Architecture], k105_e8f1a28f-98f1-447c-bb72-1d1da6b50f01.xml, kernel.kequeryruntimethread, wdm/KeQueryRuntimeThread
 ms.topic: function
+f1_keywords:
+ - "wdm/KeQueryRuntimeThread"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

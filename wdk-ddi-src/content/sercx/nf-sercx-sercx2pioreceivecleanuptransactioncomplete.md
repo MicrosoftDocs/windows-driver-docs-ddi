@@ -8,6 +8,8 @@ ms.assetid: 8C0874CD-EAFD-4443-B394-AAA4DD265835
 ms.date: 04/23/2018
 ms.keywords: 2/SerCx2PioReceiveCleanupTransactionComplete, SerCx2PioReceiveCleanupTransactionComplete, SerCx2PioReceiveCleanupTransactionComplete method [Serial Ports], serports.sercx2pioreceivecleanuptransactioncomplete
 ms.topic: function
+f1_keywords:
+ - "sercx/SerCx2PioReceiveCleanupTransactionComplete"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Universal

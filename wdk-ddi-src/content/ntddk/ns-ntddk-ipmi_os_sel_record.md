@@ -8,6 +8,8 @@ ms.assetid: 933266fe-8aa7-4315-b79c-eda96e2f4539
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
+f1_keywords:
+ - "ntddk/IPMI_OS_SEL_RECORD"
 ms.keywords: IPMI_OS_SEL_RECORD, IPMI_OS_SEL_RECORD, *PIPMI_OS_SEL_RECORD, 
 req.header: ntddk.h
 req.include-header:

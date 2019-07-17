@@ -5,6 +5,8 @@ description:
 ms.assetid: 3cbc7c1d-7540-44a7-bb02-85f0556c308d
 ms.date: 10/05/2018
 ms.topic: ioctl
+f1_keywords:
+ - "sidebandaudio/IOCTL_SBAUD_GET_DEVICE_DESCRIPTOR"
 req.header: sidebandaudio.h
 req.include-header:
 req.target-type:

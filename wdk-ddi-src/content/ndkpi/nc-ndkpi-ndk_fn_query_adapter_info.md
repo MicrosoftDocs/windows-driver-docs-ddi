@@ -8,6 +8,8 @@ ms.assetid: A307584E-CBF6-4CEB-8A0F-D519DA7599D3
 ms.date: 05/02/2018
 ms.keywords: NDK_FN_QUERY_ADAPTER_INFO, NDK_FN_QUERY_ADAPTER_INFO callback, NdkQueryAdapterInfo, NdkQueryAdapterInfo callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkQueryAdapterInfo, netvista.ndk_fn_query_adapter_info
 ms.topic: callback
+f1_keywords:
+ - "ndkpi/NdkQueryAdapterInfo"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows

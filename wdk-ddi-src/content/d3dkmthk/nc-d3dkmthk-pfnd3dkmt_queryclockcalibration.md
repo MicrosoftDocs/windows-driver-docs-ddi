@@ -5,6 +5,8 @@ description: The PFND3DKMT_QUERYCLOCKCALIBRATION callback function queries clock
 ms.assetid: 1bbde800-aeee-4460-92e5-8097bf0349f9
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/PFND3DKMT_QUERYCLOCKCALIBRATION"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

@@ -8,6 +8,8 @@ ms.assetid: 06e0c073-325b-4069-9202-836cfebf5f62
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
 ms.topic: struct
+f1_keywords:
+ - "dispmprt/_DXGKARG_RESUMEVIRTUALGPU"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.keywords: _DXGKARG_RESUMEVIRTUALGPU, DXGKARG_RESUMEVIRTUALGPU, *PDXGKARG_RESUMEVIRTUALGPU, 

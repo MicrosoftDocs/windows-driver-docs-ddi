@@ -8,6 +8,8 @@ ms.assetid: 92CEEAF3-BD70-4B1C-8385-00720A195E50
 ms.date: 05/07/2018
 ms.keywords: EVT_UDECX_USB_DEVICE_D0_ENTRY, EVT_UDECX_USB_DEVICE_D0_ENTRY callback, EvtUsbDeviceLinkPowerEntry, EvtUsbDeviceLinkPowerEntry callback function [Buses], buses.evt_udecx_usb_device_d0_entry, udecxusbdevice/EvtUsbDeviceLinkPowerEntry
 ms.topic: callback
+f1_keywords:
+ - "udecxusbdevice/EvtUsbDeviceLinkPowerEntry"
 req.header: udecxusbdevice.h
 req.include-header: Udecx.h
 req.target-type: Windows

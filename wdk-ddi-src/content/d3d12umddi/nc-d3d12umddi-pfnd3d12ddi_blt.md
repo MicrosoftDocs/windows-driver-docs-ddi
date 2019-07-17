@@ -6,6 +6,8 @@ tech.root: display
 ms.assetid: 170ad11a-c97a-4f30-9d0d-73e3a5e3a9ad
 ms.date: 11/28/2018
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_BLT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 req.header: d3d12umddi.h

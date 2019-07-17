@@ -8,6 +8,8 @@ ms.assetid: e3be12e4-84f3-4bd5-af9a-26ad89948e50
 ms.date: 04/16/2018
 ms.keywords: FsRtlInitializeExtraCreateParameter, FsRtlInitializeExtraCreateParameter routine [Installable File System Drivers], fsrtlref_266d4d18-e024-42e8-8ca1-fa8b6fabef9b.xml, ifsk.fsrtlinitializeextracreateparameter, ntifs/FsRtlInitializeExtraCreateParameter
 ms.topic: function
+f1_keywords:
+ - "ntifs/FsRtlInitializeExtraCreateParameter"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

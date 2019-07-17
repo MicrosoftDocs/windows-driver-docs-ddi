@@ -5,6 +5,8 @@ description:
 ms.assetid: 6b3f171b-de8f-4a5d-b72f-2c1534a6bf7a
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "tcpxcv/_PORT_DATA_LIST_1"
 ms.keywords: _PORT_DATA_LIST_1, PORT_DATA_LIST_1, *PPORT_DATA_LIST_1, 
 req.header: tcpxcv.h
 req.include-header:

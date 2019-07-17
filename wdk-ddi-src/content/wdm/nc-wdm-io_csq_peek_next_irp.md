@@ -8,6 +8,8 @@ ms.assetid: 0968fea0-4c66-497f-8a01-baacc90b2458
 ms.date: 04/30/2018
 ms.keywords: CsqPeekNextIrp, CsqPeekNextIrp routine [Kernel-Mode Driver Architecture], DrvrRtns_83ba77b2-17fa-4fdc-bfaf-c41289f54da9.xml, IO_CSQ_PEEK_NEXT_IRP, kernel.csqpeeknextirp, wdm/CsqPeekNextIrp
 ms.topic: callback
+f1_keywords:
+ - "wdm/CsqPeekNextIrp"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop

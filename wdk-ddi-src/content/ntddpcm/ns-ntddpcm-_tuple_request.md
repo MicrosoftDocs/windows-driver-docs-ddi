@@ -8,6 +8,8 @@ ms.assetid: c702d3aa-d586-4206-93be-30537c55edcf
 ms.date: 02/15/2018
 ms.keywords: "*PTUPLE_REQUEST, PCMCIA.tuple_request, PTUPLE_REQUEST, PTUPLE_REQUEST structure pointer [Buses], TUPLE_REQUEST, TUPLE_REQUEST structure [Buses], _TUPLE_REQUEST, memcdref_9d88760a-943f-4537-ad46-738d5f41421e.xml, ntddpcm/PTUPLE_REQUEST, ntddpcm/TUPLE_REQUEST"
 ms.topic: struct
+f1_keywords:
+ - "ntddpcm/TUPLE_REQUEST"
 req.header: ntddpcm.h
 req.include-header: Ntddpcm.h
 req.target-type: Windows

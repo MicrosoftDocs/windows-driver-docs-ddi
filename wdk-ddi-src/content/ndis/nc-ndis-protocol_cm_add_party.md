@@ -8,6 +8,8 @@ ms.assetid: 06aa5ff6-974c-43dd-8395-bc1a1a8421d5
 ms.date: 05/02/2018
 ms.keywords: PROTOCOL_CM_ADD_PARTY, PROTOCOL_CM_ADD_PARTY callback, ProtocolCmAddParty, ProtocolCmAddParty callback function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_06efc681-bd3d-4bcc-938e-5ba45ce97279.xml, ndis/ProtocolCmAddParty, netvista.protocolcmaddparty
 ms.topic: callback
+f1_keywords:
+ - "ndis/ProtocolCmAddParty"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

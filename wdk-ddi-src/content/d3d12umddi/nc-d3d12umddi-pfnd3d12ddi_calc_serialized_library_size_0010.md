@@ -5,6 +5,8 @@ description: Calculates serialized library size.
 ms.assetid: 40e47e56-5a99-431d-b821-a610a8c66601
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_CALC_SERIALIZED_LIBRARY_SIZE_0010"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

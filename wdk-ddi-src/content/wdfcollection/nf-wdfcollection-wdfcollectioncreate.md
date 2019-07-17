@@ -8,6 +8,8 @@ ms.assetid: b185b1ca-6fd9-4508-b001-d1853f2948c2
 ms.date: 02/26/2018
 ms.keywords: DFCollectionObjectRef_0c567e7a-209b-4ac2-a721-0c2ee4122aaa.xml, WdfCollectionCreate, WdfCollectionCreate method, kmdf.wdfcollectioncreate, wdf.wdfcollectioncreate, wdfcollection/WdfCollectionCreate
 ms.topic: function
+f1_keywords:
+ - "wdfcollection/WdfCollectionCreate"
 req.header: wdfcollection.h
 req.include-header: Wdf.h
 req.target-type: Universal

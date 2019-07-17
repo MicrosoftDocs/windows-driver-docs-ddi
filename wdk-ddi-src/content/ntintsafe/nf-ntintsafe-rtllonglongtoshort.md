@@ -8,6 +8,8 @@ ms.assetid: F9FCB214-D56A-4BCC-BB7A-40833836D333
 ms.date: 04/30/2018
 ms.keywords: RtlLongLongToShort, RtlLongLongToShort function [Kernel-Mode Driver Architecture], kernel.rtllonglongtoshort, ntintsafe/RtlLongLongToShort
 ms.topic: function
+f1_keywords:
+ - "ntintsafe/RtlLongLongToShort"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop

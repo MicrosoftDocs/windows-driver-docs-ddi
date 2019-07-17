@@ -8,6 +8,8 @@ ms.assetid: e9b04da0-31d8-41e0-8b30-f22ba71d1ec8
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
 ms.topic: ioctl
+f1_keywords:
+ - "ntddvdeo/IOCTL_COLORSPACE_TRANSFORM_SET"
 req.header: ntddvdeo.h
 req.include-header:
 req.target-type:

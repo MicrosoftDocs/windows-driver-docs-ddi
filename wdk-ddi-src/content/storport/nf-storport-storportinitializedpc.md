@@ -8,6 +8,8 @@ ms.assetid: 0a67304f-c746-46c1-87c4-5d027219e41f
 ms.date: 03/29/2018
 ms.keywords: StorPortInitializeDpc, StorPortInitializeDpc routine [Storage Devices], storage.storportinitializedpc, storport/StorPortInitializeDpc, storprt_984c8e07-f6c8-452f-a333-dd23a0fdf9f7.xml
 ms.topic: function
+f1_keywords:
+ - "storport/StorPortInitializeDpc"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

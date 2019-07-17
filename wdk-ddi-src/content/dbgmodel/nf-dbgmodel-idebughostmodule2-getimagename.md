@@ -5,6 +5,8 @@ description: The GetImageName method returns the image name of the module.
 ms.assetid: 1849fc25-812b-46dd-b4ec-1c027ec68c6d
 ms.date: 09/18/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDebugHostModule2.GetImageName"
 ms.keywords: IDebugHostModule2::GetImageName, GetImageName, IDebugHostModule2.GetImageName, IDebugHostModule2::GetImageName, IDebugHostModule2.GetImageName
 req.header: dbgmodel.h
 req.include-header:

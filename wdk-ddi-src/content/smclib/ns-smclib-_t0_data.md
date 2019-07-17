@@ -8,6 +8,8 @@ ms.assetid: CC827018-F6B2-48DF-BF0A-36654F866BD9
 ms.date: 02/22/2018
 ms.keywords: "*PT0_DATA, PT0_DATA, PT0_DATA structure pointer [Smart Card Reader Devices], T0_DATA, T0_DATA structure [Smart Card Reader Devices], _T0_DATA, smartcrd.t0_data, smclib/PT0_DATA, smclib/T0_DATA"
 ms.topic: struct
+f1_keywords:
+ - "smclib/T0_DATA"
 req.header: smclib.h
 req.include-header: Smclib.h
 req.target-type: Windows

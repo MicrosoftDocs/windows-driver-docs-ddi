@@ -8,6 +8,8 @@ ms.assetid: 2F69C228-FF2D-4277-A4C9-14FBADA1CD31
 ms.date: 05/02/2018
 ms.keywords: "*PNDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS, NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS, NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], PNDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS, PNDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS, dot11wdi/NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS, dot11wdi/PNDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS, netvista.ndis_miniport_driver_wdi_characteristics"
 ms.topic: struct
+f1_keywords:
+ - "dot11wdi/NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS"
 req.header: dot11wdi.h
 req.include-header: Ndis.h
 req.target-type: Windows

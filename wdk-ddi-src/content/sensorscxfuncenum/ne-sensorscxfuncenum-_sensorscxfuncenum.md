@@ -5,6 +5,8 @@ description: The _SENSORSCXFUNCENUM enumeration contains a list of all WDF API f
 ms.assetid: 818344e1-f99a-40a5-ae64-ab49d86530af
 ms.date: 04/19/2018
 ms.topic: enum
+f1_keywords:
+ - "sensorscxfuncenum/_SENSORSCXFUNCENUM"
 ms.keywords: _SENSORSCXFUNCENUM, SENSORSCXFUNCENUM,
 req.header: sensorscxfuncenum.h
 req.include-header:

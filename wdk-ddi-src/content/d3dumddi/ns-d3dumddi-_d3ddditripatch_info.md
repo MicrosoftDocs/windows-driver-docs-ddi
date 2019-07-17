@@ -5,6 +5,8 @@ description: Contains tri-patch info.
 ms.assetid: 8c4e7b1f-6618-4ffe-ad51-0311681c35e3
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3dumddi/_D3DDDITRIPATCH_INFO"
 ms.keywords: _D3DDDITRIPATCH_INFO, D3DDDITRIPATCH_INFO, 
 req.header: d3dumddi.h
 req.include-header:

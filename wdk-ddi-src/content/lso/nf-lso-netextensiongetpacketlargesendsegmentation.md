@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: cd6668b9-37f0-4b67-a1b1-970465f894b8
 ms.date: 01/30/2019
 ms.topic: function
+f1_keywords:
+ - "lso/RxLowIoGetBufferAddress"
 ms.keywords: NetExtensionGetPacketLargeSendSegmentation
 req.header: lso.h
 req.include-header: netadaptercx.h

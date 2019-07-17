@@ -8,6 +8,8 @@ ms.assetid: b80a1823-6d91-440f-89e4-f7248579cc8f
 ms.date: 05/10/2018
 ms.keywords: CreatePixelShader, CreatePixelShader callback function [Display Devices], PFND3DDDI_CREATEPIXELSHADER, PFND3DDDI_CREATEPIXELSHADER callback, UserModeDisplayDriver_Functions_4e9d378f-d5aa-4b5d-9a66-ff2dd2f8fae8.xml, d3dumddi/CreatePixelShader, display.createpixelshader
 ms.topic: callback
+f1_keywords:
+ - "d3dumddi/CreatePixelShader"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop

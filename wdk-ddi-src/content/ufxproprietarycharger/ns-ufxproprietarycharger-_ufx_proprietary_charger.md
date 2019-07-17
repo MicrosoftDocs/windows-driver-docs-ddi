@@ -8,6 +8,8 @@ ms.assetid: FAAEDAFE-69A8-4092-8301-DB159FD3583D
 ms.date: 05/07/2018
 ms.keywords: "*PUFX_PROPRIETARY_CHARGER, PUFX_PROPRIETARY_CHARGER, PUFX_PROPRIETARY_CHARGER structure pointer [Buses], UFX_PROPRIETARY_CHARGER, UFX_PROPRIETARY_CHARGER structure [Buses], _UFX_PROPRIETARY_CHARGER, buses.ufx_proprietary_charger, ufxproprietarycharger/PUFX_PROPRIETARY_CHARGER, ufxproprietarycharger/UFX_PROPRIETARY_CHARGER"
 ms.topic: struct
+f1_keywords:
+ - "ufxproprietarycharger/UFX_PROPRIETARY_CHARGER"
 req.header: ufxproprietarycharger.h
 req.include-header: 
 req.target-type: Windows

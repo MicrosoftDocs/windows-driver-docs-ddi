@@ -5,6 +5,8 @@ description: The CreateIntrinsicObject method is the method which boxes intrinsi
 ms.assetid: 0fc6ec51-85d8-4df2-b26e-33b0bd5ed172
 ms.date: 07/17/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDataModelManager.CreateIntrinsicObject"
 ms.keywords: IDataModelManager::CreateIntrinsicObject, CreateIntrinsicObject, IDataModelManager.CreateIntrinsicObject, IDataModelManager::CreateIntrinsicObject, IDataModelManager.CreateIntrinsicObject
 req.header: dbgmodel.h
 req.include-header:

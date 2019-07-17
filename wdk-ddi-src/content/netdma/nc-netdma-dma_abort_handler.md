@@ -8,6 +8,8 @@ ms.assetid: b9c23f36-0885-49fd-b92e-dac38d5f363f
 ms.date: 05/02/2018
 ms.keywords: DMA_ABORT_HANDLER, DMA_ABORT_HANDLER callback, ProviderAbortDma, ProviderAbortDma callback function [Network Drivers Starting with Windows Vista], netdma/ProviderAbortDma, netdma_ref_b030a880-2a65-4fef-9f91-4a4bc4fa17b5.xml, netvista.providerabortdma
 ms.topic: callback
+f1_keywords:
+ - "netdma/ProviderAbortDma"
 req.header: netdma.h
 req.include-header: Netdma.h
 req.target-type: Windows

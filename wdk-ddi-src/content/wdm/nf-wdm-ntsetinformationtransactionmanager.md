@@ -8,6 +8,8 @@ ms.assetid: a1e2f40f-5aea-4c8b-8692-95721ad4bc9d
 ms.date: 04/30/2018
 ms.keywords: NtSetInformationTransactionManager, NtSetInformationTransactionManager routine [Kernel-Mode Driver Architecture], kernel.ntsetinformationtransactionmanager, ntx_b4f057ac-bca8-44e6-874e-4f33bd487a20.xml, wdm/NtSetInformationTransactionManager
 ms.topic: function
+f1_keywords:
+ - "wdm/NtSetInformationTransactionManager"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Windows

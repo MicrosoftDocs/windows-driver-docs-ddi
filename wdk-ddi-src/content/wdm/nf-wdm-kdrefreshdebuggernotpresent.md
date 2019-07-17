@@ -8,6 +8,8 @@ ms.assetid: 3b43943d-99b7-4d60-96fe-019f4ba2b809
 ms.date: 02/23/2018
 ms.keywords: DebugFns_77b08eed-2f06-4ede-b02f-f1a7a5ab9ba5.xml, KdRefreshDebuggerNotPresent, KdRefreshDebuggerNotPresent function [Driver Development Tools], devtest.kdrefreshdebuggernotpresent, ntddk/KdRefreshDebuggerNotPresent
 ms.topic: function
+f1_keywords:
+ - "wdm/KdRefreshDebuggerNotPresent"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Universal

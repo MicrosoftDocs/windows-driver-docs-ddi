@@ -8,6 +8,8 @@ ms.assetid: BE22A848-1A3B-45A7-815D-F7A389A81651
 ms.date: 04/30/2018
 ms.keywords: RtlLongPtrToUInt, RtlLongPtrToUInt function [Kernel-Mode Driver Architecture], kernel.rtllongptrtouint, ntintsafe/RtlLongPtrToUInt
 ms.topic: function
+f1_keywords:
+ - "ntintsafe/RtlLongPtrToUInt"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop

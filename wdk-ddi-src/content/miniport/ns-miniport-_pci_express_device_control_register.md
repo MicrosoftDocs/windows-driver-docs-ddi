@@ -8,6 +8,8 @@ ms.assetid: 888f88db-2149-4da2-acdb-4bf88a5362dd
 ms.date: 02/24/2018
 ms.keywords: "*PPCI_EXPRESS_DEVICE_CONTROL_REGISTER, PCI.pci_express_device_control_register, PCI_EXPRESS_DEVICE_CONTROL_REGISTER, PCI_EXPRESS_DEVICE_CONTROL_REGISTER union [Buses], PPCI_EXPRESS_DEVICE_CONTROL_REGISTER, PPCI_EXPRESS_DEVICE_CONTROL_REGISTER union pointer [Buses], _PCI_EXPRESS_DEVICE_CONTROL_REGISTER, ntddk/PCI_EXPRESS_DEVICE_CONTROL_REGISTER, ntddk/PPCI_EXPRESS_DEVICE_CONTROL_REGISTER, pci_struct_344c5f1d-566f-4755-ba52-57635c4fabfe.xml"
 ms.topic: struct
+f1_keywords:
+ - "miniport/PCI_EXPRESS_DEVICE_CONTROL_REGISTER"
 req.header: miniport.h
 req.include-header: Ntddk.h, Miniport.h
 req.target-type: Windows

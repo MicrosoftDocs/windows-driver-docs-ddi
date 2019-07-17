@@ -5,6 +5,8 @@ description: Specifies the kernel submission type in the GPU work submission to 
 ms.assetid: 9e42f4e6-bdd8-4b9e-9038-08edececb86e
 ms.date: 10/19/2018
 ms.topic: enum
+f1_keywords:
+ - "d3dkmddi/_DXGK_KERNEL_SUBMISSION_TYPE"
 ms.keywords: _DXGK_KERNEL_SUBMISSION_TYPE, DXGK_KERNEL_SUBMISSION_TYPE, 
 req.header: d3dkmddi.h
 req.include-header:

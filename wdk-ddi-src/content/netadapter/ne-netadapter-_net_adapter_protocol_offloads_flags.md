@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 06a56aed-bad4-499c-adb6-3aa677ea2e88
 ms.date: 02/05/2018
 ms.topic: enum
+f1_keywords:
+ - "netadapter/NET_ADAPTER_PROTOCOL_OFFLOADS_FLAGS"
 ms.keywords: _NET_ADAPTER_PROTOCOL_OFFLOADS_FLAGS, NET_ADAPTER_PROTOCOL_OFFLOADS_FLAGS, 
 req.header: netadapter.h
 req.include-header:

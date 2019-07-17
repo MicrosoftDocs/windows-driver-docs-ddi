@@ -7,6 +7,8 @@ ms.assetid: 5a231d7e-7e47-40ad-99d1-82661dec41d0
 ms.date: 05/10/2018
 ms.keywords: PFND3D10DDI_QUERYEND, PFND3D10DDI_QUERYEND callback, QueryEnd, QueryEnd callback function [Display Devices], UserModeDisplayDriverDx10_Functions_9897bbe4-a58c-430b-815a-eb4360ce8043.xml, d3d10umddi/QueryEnd, display.queryend
 ms.topic: callback
+f1_keywords:
+ - "d3d10umddi/QueryEnd"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

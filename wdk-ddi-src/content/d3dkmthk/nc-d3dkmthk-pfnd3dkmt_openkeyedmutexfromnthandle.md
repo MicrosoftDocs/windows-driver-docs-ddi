@@ -5,6 +5,8 @@ description: Implemented by the client driver to open a keyed mutex from an NT h
 ms.assetid: a09976ec-ba90-4f25-9ffa-c39fdfaa4ac2
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/PFND3DKMT_OPENKEYEDMUTEXFROMNTHANDLE"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

@@ -8,6 +8,8 @@ ms.assetid: 8ddcb9cb-d184-4ec8-a321-599394a8512e
 ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_490bda33-9f36-43ab-9108-8622a3ea79b0.xml, EVT_WDF_FILE_CLOSE, EVT_WDF_FILE_CLOSE callback, EvtFileClose, EvtFileClose callback function, kmdf.evtfileclose, wdf.evtfileclose, wdfdevice/EvtFileClose
 ms.topic: callback
+f1_keywords:
+ - "wdfdevice/EvtFileClose"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

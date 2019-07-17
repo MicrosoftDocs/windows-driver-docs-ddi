@@ -8,6 +8,8 @@ ms.assetid: 485583b2-2736-4ecf-b58c-65b4d4f47a20
 ms.date: 02/26/2018
 ms.keywords: DFRegKeyObjectRef_2928cd6b-7fb0-46aa-bcc4-4def625bb2fe.xml, WdfRegistryRemoveValue, WdfRegistryRemoveValue method, kmdf.wdfregistryremovevalue, wdf.wdfregistryremovevalue, wdfregistry/WdfRegistryRemoveValue
 ms.topic: function
+f1_keywords:
+ - "wdfregistry/WdfRegistryRemoveValue"
 req.header: wdfregistry.h
 req.include-header: Wdf.h
 req.target-type: Universal

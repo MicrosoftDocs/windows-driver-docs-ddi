@@ -8,6 +8,8 @@ ms.assetid: eb0402a8-22ce-417f-9b19-25b357451307
 ms.date: 04/20/2018
 ms.keywords: DrvConvertDevMode, DrvConvertDevMode function [Print Devices], print.drvconvertdevmode, print_interface-graphics_ceabaf66-f730-4243-85a7-ffcee065192b.xml, winddiui/DrvConvertDevMode
 ms.topic: function
+f1_keywords:
+ - "winddiui/DrvConvertDevMode"
 req.header: winddiui.h
 req.include-header: Winddiui.h
 req.target-type: Desktop

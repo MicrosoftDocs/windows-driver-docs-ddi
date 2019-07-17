@@ -8,6 +8,8 @@ ms.assetid: E4626CF9-5E76-4C48-9B38-274178E41E30
 ms.date: 04/16/2018
 ms.keywords: PsIsDiskCountersEnabled, PsIsDiskCountersEnabled routine [Installable File System Drivers], ifsk.psisdiskcountersenabled, ntifs/PsIsDiskCountersEnabled
 ms.topic: function
+f1_keywords:
+ - "ntifs/PsIsDiskCountersEnabled"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

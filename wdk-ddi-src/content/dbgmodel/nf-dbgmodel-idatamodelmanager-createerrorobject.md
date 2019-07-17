@@ -5,6 +5,8 @@ description: The CreateErrorObject method creates an "error object". The data mo
 ms.assetid: a57fdf58-d8f5-4044-be00-5225670ec3ac
 ms.date: 07/17/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDataModelManager.CreateErrorObject"
 ms.keywords: IDataModelManager::CreateErrorObject, CreateErrorObject, IDataModelManager.CreateErrorObject, IDataModelManager::CreateErrorObject, IDataModelManager.CreateErrorObject
 req.header: dbgmodel.h
 req.include-header:

@@ -8,6 +8,8 @@ ms.assetid: 56ed3c4f-bcfa-417d-a276-9934e3bc1666
 ms.date: 02/26/2018
 ms.keywords: DFUsbRef_80432bbe-cb71-4bd1-9c0b-a71ea1f5c809.xml, WdfUsbTargetPipeConfigContinuousReader, WdfUsbTargetPipeConfigContinuousReader method, kmdf.wdfusbtargetpipeconfigcontinuousreader, wdf.wdfusbtargetpipeconfigcontinuousreader, wdfusb/WdfUsbTargetPipeConfigContinuousReader
 ms.topic: function
+f1_keywords:
+ - "wdfusb/WdfUsbTargetPipeConfigContinuousReader"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal

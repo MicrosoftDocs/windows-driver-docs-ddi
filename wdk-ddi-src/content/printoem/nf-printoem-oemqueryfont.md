@@ -8,6 +8,8 @@ ms.assetid: cee6b2dd-e79b-4372-8371-c57fe950de88
 ms.date: 04/20/2018
 ms.keywords: OEMQueryFont, OEMQueryFont function [Print Devices], print.oemqueryfont, print_unidrv-pscript_rendering_52b50b2d-ab61-420f-be04-7285a5504be6.xml, printoem/OEMQueryFont
 ms.topic: function
+f1_keywords:
+ - "printoem/OEMQueryFont"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows

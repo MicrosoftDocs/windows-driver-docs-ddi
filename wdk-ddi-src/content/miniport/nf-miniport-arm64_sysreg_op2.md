@@ -5,6 +5,8 @@ description: Returns the op2 field for a given ARM system register encoding valu
 ms.assetid: 8b4861fd-8c92-4284-934e-0a1e595a98a5
 ms.date: 09/20/2018
 ms.topic: macro
+f1_keywords:
+ - "miniport/ARM64_SYSREG_OP2"
 ms.keywords: ARM64_SYSREG_OP2
 req.header: miniport.h
 req.include-header:

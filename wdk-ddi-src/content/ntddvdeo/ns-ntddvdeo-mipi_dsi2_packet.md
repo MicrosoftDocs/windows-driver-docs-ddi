@@ -8,6 +8,8 @@ ms.assetid: bb5cc8cf-1a2e-482a-8f30-47a79e72f6b4
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
 ms.topic: struct
+f1_keywords:
+ - "ntddvdeo/MIPI_DSI2_PACKET"
 ms.keywords: MIPI_DSI2_PACKET, MIPI_DSI2_PACKET, 
 req.header: ntddvdeo.h
 req.include-header:

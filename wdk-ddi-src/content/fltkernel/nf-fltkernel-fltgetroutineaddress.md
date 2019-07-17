@@ -8,6 +8,8 @@ ms.assetid: b2b74e79-5840-41a0-8af3-3d13e209aea7
 ms.date: 04/16/2018
 ms.keywords: FltApiRef_e_to_o_81848969-38e3-4f2f-bdc3-45027ea28202.xml, FltGetRoutineAddress, FltGetRoutineAddress routine [Installable File System Drivers], fltkernel/FltGetRoutineAddress, ifsk.fltgetroutineaddress
 ms.topic: function
+f1_keywords:
+ - "fltkernel/FltGetRoutineAddress"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

@@ -8,6 +8,8 @@ ms.assetid: db3b9173-f0fe-4d51-a17e-a7b55839cbb6
 ms.date: 05/02/2018
 ms.keywords: RILPHONEBOOKMAILADDRESSPARAMMASK, RILPHONEBOOKMAILADDRESSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_PBEA_ALL, netvista.rilphonebookmailaddressparammask, ntddrilapitypes/RILPHONEBOOKMAILADDRESSPARAMMASK, ntddrilapitypes/RIL_PARAM_PBEA_ALL
 ms.topic: enum
+f1_keywords:
+ - "ntddrilapitypes/RILPHONEBOOKMAILADDRESSPARAMMASK"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

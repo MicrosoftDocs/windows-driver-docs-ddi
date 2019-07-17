@@ -8,6 +8,8 @@ ms.assetid: C840CDA4-36C8-4D7C-88EB-19292429C45C
 ms.date: 04/30/2018
 ms.keywords: RtlInt8ToULongLong, RtlInt8ToULongLong function [Kernel-Mode Driver Architecture], kernel.rtlint8toulonglong, ntintsafe/RtlInt8ToULongLong
 ms.topic: function
+f1_keywords:
+ - "ntintsafe/RtlInt8ToULongLong"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop

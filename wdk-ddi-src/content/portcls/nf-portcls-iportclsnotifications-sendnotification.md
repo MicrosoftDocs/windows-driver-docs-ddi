@@ -8,6 +8,8 @@ ms.assetid: 0683C30D-0AAD-4859-BA30-908FA747CC35
 ms.date: 05/08/2018
 ms.keywords: IPortClsNotifications interface [Audio Devices],SendNotification method, IPortClsNotifications.SendNotification, IPortClsNotifications::SendNotification, SendNotification, SendNotification method [Audio Devices], SendNotification method [Audio Devices],IPortClsNotifications interface, audio.iportclsnotifications_sendnotification, portcls/IPortClsNotifications::SendNotification
 ms.topic: method
+f1_keywords:
+ - "portcls/IPortClsNotifications.SendNotification"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal

@@ -5,6 +5,8 @@ description: Creates an identity mapping for the provided MDL in the provided do
 ms.assetid: cdd44fd5-20c2-488a-bfcb-001f1b4490cb
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "wdm/IOMMU_MAP_IDENTITY_RANGE"
 req.header: wdm.h
 req.include-header:
 req.target-type:

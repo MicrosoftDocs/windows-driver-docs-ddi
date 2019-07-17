@@ -8,6 +8,8 @@ ms.assetid: a27ec86b-85b3-4d65-a77a-fb6292b935d0
 ms.date: 04/16/2018
 ms.keywords: FltApiRef_e_to_o_00dccf3a-3f69-4c6c-b5c6-1d7371e4afbc.xml, FltIsIoCanceled, FltIsIoCanceled routine [Installable File System Drivers], fltkernel/FltIsIoCanceled, ifsk.fltisiocanceled
 ms.topic: function
+f1_keywords:
+ - "fltkernel/FltIsIoCanceled"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

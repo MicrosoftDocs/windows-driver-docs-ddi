@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 63C14301-2D71-4F19-937E-4FBC1A43DFBC
 ms.date: 04/05/2019
 ms.topic: enum
+f1_keywords:
+ - "wwan/_WWAN_5G_FREQUENCY_RANGE"
 ms.keywords: _WWAN_5G_FREQUENCY_RANGE, WWAN_5G_FREQUENCY_RANGE, *PWWAN_5G_FREQUENCY_RANGE, 
 req.header: wwan.h
 req.include-header:

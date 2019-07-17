@@ -8,6 +8,8 @@ ms.assetid: EB3C395F-235A-4B9A-B777-E4E8CD8AFC3C
 ms.date: 05/02/2018
 ms.keywords: NDK_FN_CLOSE_COMPLETION, NDK_FN_CLOSE_COMPLETION callback, NdkCloseCompletion, NdkCloseCompletion callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCloseCompletion, netvista.ndk_fn_close_completion
 ms.topic: callback
+f1_keywords:
+ - "ndkpi/NdkCloseCompletion"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows

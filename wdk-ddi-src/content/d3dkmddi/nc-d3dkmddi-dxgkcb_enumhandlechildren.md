@@ -7,6 +7,8 @@ ms.assetid: 36307e63-9e94-4441-92c6-fd4293ea8fa9
 ms.date: 05/10/2018
 ms.keywords: DXGKCB_ENUMHANDLECHILDREN, DXGKCB_ENUMHANDLECHILDREN callback, DpFunctions_9690e256-00e7-4c6e-88cc-d2e1c32580a2.xml, DxgkCbEnumHandleChildren, DxgkCbEnumHandleChildren callback function [Display Devices], d3dkmddi/DxgkCbEnumHandleChildren, display.dxgkcbenumhandlechildren
 ms.topic: callback
+f1_keywords:
+ - "d3dkmddi/DxgkCbEnumHandleChildren"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Desktop

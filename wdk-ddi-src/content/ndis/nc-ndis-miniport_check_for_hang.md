@@ -8,6 +8,8 @@ ms.assetid: ead0af85-0584-49de-82cc-8a059ebfdf4f
 ms.date: 05/02/2018
 ms.keywords: MINIPORT_CHECK_FOR_HANG, MINIPORT_CHECK_FOR_HANG callback, MiniportCheckForHangEx, MiniportCheckForHangEx callback function [Network Drivers Starting with Windows Vista], miniport_functions_ref_4dac5544-94b0-4be6-aa81-709bff9163a7.xml, ndis/MiniportCheckForHangEx, netvista.miniportcheckforhangex
 ms.topic: callback
+f1_keywords:
+ - "ndis/MiniportCheckForHangEx"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

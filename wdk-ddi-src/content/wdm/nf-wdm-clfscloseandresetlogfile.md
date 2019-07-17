@@ -8,6 +8,8 @@ ms.assetid: 5b52a012-1e3e-4d1f-8780-a7015b2f3c5f
 ms.date: 04/30/2018
 ms.keywords: ClfsCloseAndResetLogFile, ClfsCloseAndResetLogFile routine [Kernel-Mode Driver Architecture], Clfs_79ba6a07-3da2-40e8-9e7c-6b299ef55d63.xml, kernel.clfscloseandresetlogfile, wdm/ClfsCloseAndResetLogFile
 ms.topic: function
+f1_keywords:
+ - "wdm/ClfsCloseAndResetLogFile"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop

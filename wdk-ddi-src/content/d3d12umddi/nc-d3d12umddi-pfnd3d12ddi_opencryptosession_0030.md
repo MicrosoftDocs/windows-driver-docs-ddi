@@ -7,6 +7,8 @@ ms.assetid: 37A4A739-019E-41E6-B7B8-8F61E915C845
 ms.date: 05/10/2018
 ms.keywords: PFND3D12DDI_OPENCRYPTOSESSION_0030, PFND3D12DDI_OPENCRYPTOSESSION_0030 callback, PFND3D12DDI_OPENCRYPTOSESSION_0030 callback function [Display Devices], d3d12umddi/PFND3D12DDI_OPENCRYPTOSESSION_0030, display.pfnd3d12ddi_opencryptosession_0030
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_OPENCRYPTOSESSION_0030"
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: Windows

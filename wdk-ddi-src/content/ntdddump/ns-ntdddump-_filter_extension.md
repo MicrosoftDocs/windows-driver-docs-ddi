@@ -8,6 +8,8 @@ ms.assetid: 1113e917-3273-4ba7-8702-fe90a22fb024
 ms.date: 03/29/2018
 ms.keywords: "*PFILTER_EXTENSION, FILTER_EXTENSION, FILTER_EXTENSION structure [Storage Devices], PFILTER_EXTENSION, PFILTER_EXTENSION structure pointer [Storage Devices], _FILTER_EXTENSION, ntdddump/FILTER_EXTENSION, ntdddump/PFILTER_EXTENSION, storage.filter_extension, structs-filter_c9e640bb-9678-4e2f-9341-0d26b36e65e6.xml"
 ms.topic: struct
+f1_keywords:
+ - "ntdddump/FILTER_EXTENSION"
 req.header: ntdddump.h
 req.include-header: Ntdddump.h
 req.target-type: Windows

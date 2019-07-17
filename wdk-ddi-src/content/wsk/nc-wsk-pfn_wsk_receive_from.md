@@ -8,6 +8,8 @@ ms.assetid: 769fea0d-e35a-4385-8027-f1518c25b637
 ms.date: 05/02/2018
 ms.keywords: PFN_WSK_RECEIVE_FROM, PFN_WSK_RECEIVE_FROM callback, WskReceiveFrom, WskReceiveFrom callback function [Network Drivers Starting with Windows Vista], netvista.wskreceivefrom, wsk/WskReceiveFrom, wskref_5c6ab859-3010-468f-8cb2-820cbb641a19.xml
 ms.topic: callback
+f1_keywords:
+ - "wsk/WskReceiveFrom"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Universal

@@ -8,6 +8,8 @@ ms.assetid: 16ce3db9-0295-4adc-9dc3-492b711adf2e
 ms.date: 05/10/2018
 ms.keywords: IOCTL_VIDEO_QUERY_CURRENT_MODE, IOCTL_VIDEO_QUERY_CURRENT_MODE control, IOCTL_VIDEO_QUERY_CURRENT_MODE control code [Display Devices], Video_IOCTLs_18538d0f-5243-4326-850d-9fedf30e17cb.xml, display.ioctl_video_query_current_mode, ntddvdeo/IOCTL_VIDEO_QUERY_CURRENT_MODE
 ms.topic: ioctl
+f1_keywords:
+ - "ntddvdeo/IOCTL_VIDEO_QUERY_CURRENT_MODE"
 req.header: ntddvdeo.h
 req.include-header: 
 req.target-type: Windows

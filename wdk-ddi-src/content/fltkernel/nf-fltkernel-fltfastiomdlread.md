@@ -8,6 +8,8 @@ ms.assetid: 1DF810B5-D4C3-4F67-B913-C2B2132DFDE2
 ms.date: 04/16/2018
 ms.keywords: FltFastIoMdlRead, FsRtlMdlReadDev, FsRtlMdlReadDev routine [Installable File System Drivers], fltkernel/FsRtlMdlReadDev, ifsk.fltfastiomdlread
 ms.topic: function
+f1_keywords:
+ - "fltkernel/FsRtlMdlReadDev"
 req.header: fltkernel.h
 req.include-header: Ntifs.h
 req.target-type: Universal

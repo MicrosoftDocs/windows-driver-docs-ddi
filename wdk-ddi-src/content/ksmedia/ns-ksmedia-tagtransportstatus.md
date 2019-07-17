@@ -8,6 +8,8 @@ ms.assetid: 2896fd39-5c33-4c79-8adb-f6862b7b4314
 ms.date: 04/23/2018
 ms.keywords: "*PTRANSPORTSTATUS, PTRANSPORTSTATUS, PTRANSPORTSTATUS structure pointer [Streaming Media Devices], TRANSPORTSTATUS, TRANSPORTSTATUS structure [Streaming Media Devices], ksmedia/PTRANSPORTSTATUS, ksmedia/TRANSPORTSTATUS, stream.transportstatus, tagTRANSPORTSTATUS, vidcapstruct_12a98ac2-58b9-47ce-ae09-30c8feeec2f0.xml"
 ms.topic: struct
+f1_keywords:
+ - "ksmedia/TRANSPORTSTATUS"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: ED0FD042-EB42-4F4B-AF9C-B8F56909ED66
 ms.date: 04/20/2018
 ms.keywords: IPrintSchemaOptionCollection, IPrintSchemaOptionCollection interface [Print Devices], IPrintSchemaOptionCollection interface [Print Devices],described, print.iprintschemaoptioncollection, printerextension/IPrintSchemaOptionCollection
 ms.topic: interface
+f1_keywords:
+ - "printerextension/IPrintSchemaOptionCollection"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows

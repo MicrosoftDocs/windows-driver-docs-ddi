@@ -7,6 +7,8 @@ ms.assetid: 463831c1-d9b2-404d-91f3-78f495668fdf
 ms.date: 05/10/2018
 ms.keywords: D3DKMTPollDisplayChildren, D3DKMTPollDisplayChildren function [Display Devices], OpenGL_Functions_dc39afab-758a-423a-9058-9d9ec091d4b2.xml, d3dkmthk/D3DKMTPollDisplayChildren, display.d3dkmtpolldisplaychildren
 ms.topic: function
+f1_keywords:
+ - "d3dkmthk/D3DKMTPollDisplayChildren"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal

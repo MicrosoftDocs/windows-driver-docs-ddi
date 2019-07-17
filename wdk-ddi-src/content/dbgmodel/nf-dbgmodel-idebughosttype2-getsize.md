@@ -5,6 +5,8 @@ description: The GetSize method returns the size of the type (as if one had done
 ms.assetid: 9e7cd050-5830-43ba-af50-9978acdc9944
 ms.date: 10/04/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDebugHostType2.GetSize"
 ms.keywords: IDebugHostType2::GetSize, GetSize, IDebugHostType2.GetSize, IDebugHostType2::GetSize, IDebugHostType2.GetSize
 req.header: dbgmodel.h
 req.include-header:

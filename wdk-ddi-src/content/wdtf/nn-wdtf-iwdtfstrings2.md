@@ -8,6 +8,8 @@ ms.assetid: ea7ebda9-9588-4c72-bac6-2bae1f80538e
 ms.date: 04/04/2018
 ms.keywords: IWDTFStrings2, IWDTFStrings2 interface [Windows Device Testing Framework], IWDTFStrings2 interface [Windows Device Testing Framework],described, Microsoft.WDTF.IWDTFStrings2, dtf.iwdtfstrings2, wdtf/IWDTFStrings2
 ms.topic: interface
+f1_keywords:
+ - "wdtf/IWDTFStrings2"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Windows

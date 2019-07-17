@@ -8,6 +8,8 @@ ms.assetid: 93f94a42-bffb-4e4d-a560-b0da5d7d0019
 ms.date: 05/02/2018
 ms.keywords: NdisMConfigMSIXTableEntry, NdisMConfigMSIXTableEntry function [Network Drivers Starting with Windows Vista], ndis/NdisMConfigMSIXTableEntry, ndis_msix_ref_421b54e0-bc38-45d0-9eb8-cbc4e4570836.xml, netvista.ndismconfigmsixtableentry
 ms.topic: function
+f1_keywords:
+ - "ndis/NdisMConfigMSIXTableEntry"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

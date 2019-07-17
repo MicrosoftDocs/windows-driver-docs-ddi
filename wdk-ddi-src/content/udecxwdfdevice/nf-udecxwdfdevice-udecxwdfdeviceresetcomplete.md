@@ -8,6 +8,8 @@ ms.assetid: B5873B19-17EF-4DF8-A3E7-7E7F6440A2B7
 ms.date: 05/07/2018
 ms.keywords: UdecxWdfDeviceResetComplete, UdecxWdfDeviceResetComplete function [Buses], buses.udecxwdfdeviceresetcomplete, udecxwdfdevice/UdecxWdfDeviceResetComplete
 ms.topic: function
+f1_keywords:
+ - "udecxwdfdevice/UdecxWdfDeviceResetComplete"
 req.header: udecxwdfdevice.h
 req.include-header: Udecx.h
 req.target-type: Windows

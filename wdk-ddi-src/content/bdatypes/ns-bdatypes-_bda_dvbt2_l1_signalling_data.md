@@ -8,6 +8,8 @@ ms.assetid: 34BD68C3-446A-4074-8F5C-E670BE09083A
 ms.date: 04/23/2018
 ms.keywords: "*PBDA_DVBT2_L1_SIGNALLING_DATA, BDA_DVBT2_L1_SIGNALLING_DATA, BDA_DVBT2_L1_SIGNALLING_DATA structure [Streaming Media Devices], PBDA_DVBT2_L1_SIGNALLING_DATA, PBDA_DVBT2_L1_SIGNALLING_DATA structure pointer [Streaming Media Devices], _BDA_DVBT2_L1_SIGNALLING_DATA, bdatypes/BDA_DVBT2_L1_SIGNALLING_DATA, bdatypes/PBDA_DVBT2_L1_SIGNALLING_DATA, stream.bda_dvbt2_l1_signalling_data"
 ms.topic: struct
+f1_keywords:
+ - "bdatypes/BDA_DVBT2_L1_SIGNALLING_DATA"
 req.header: bdatypes.h
 req.include-header: 
 req.target-type: Windows

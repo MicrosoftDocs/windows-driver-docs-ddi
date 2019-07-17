@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: cfe5c009-9245-4d41-992d-5cc5ce2ab711
 ms.date: 07/02/2018
 ms.topic: struct
+f1_keywords:
+ - "mbbcx/_MBB_DEVICE_CONFIG"
 ms.keywords: _MBB_DEVICE_CONFIG, MBB_DEVICE_CONFIG, *PMBB_DEVICE_CONFIG, 
 req.header: mbbcx.h
 req.include-header:

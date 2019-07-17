@@ -5,6 +5,8 @@ description:
 ms.assetid: 23793977-ce47-48ab-abf8-2b02ebd3bdd3
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "trustedruntimeclx/EVT_TR_ENUMERATE_SECURE_SERVICES"
 req.header: trustedruntimeclx.h
 req.include-header:
 req.target-type:

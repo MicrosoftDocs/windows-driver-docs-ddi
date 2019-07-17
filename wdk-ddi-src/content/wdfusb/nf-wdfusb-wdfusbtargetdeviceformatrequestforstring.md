@@ -8,6 +8,8 @@ ms.assetid: f1875578-33c1-4d9e-865b-f1f5391f4aca
 ms.date: 02/26/2018
 ms.keywords: DFUsbRef_ff5bebaa-3db1-4f9a-bac4-2e5e5c297d03.xml, WdfUsbTargetDeviceFormatRequestForString, WdfUsbTargetDeviceFormatRequestForString method, kmdf.wdfusbtargetdeviceformatrequestforstring, wdf.wdfusbtargetdeviceformatrequestforstring, wdfusb/WdfUsbTargetDeviceFormatRequestForString
 ms.topic: function
+f1_keywords:
+ - "wdfusb/WdfUsbTargetDeviceFormatRequestForString"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal

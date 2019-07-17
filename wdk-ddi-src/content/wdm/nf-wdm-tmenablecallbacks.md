@@ -8,6 +8,8 @@ ms.assetid: d3f79cda-349a-4a42-a2a9-d9be3a695c1c
 ms.date: 04/30/2018
 ms.keywords: TmEnableCallbacks, TmEnableCallbacks routine [Kernel-Mode Driver Architecture], kernel.tmenablecallbacks, ktm_ref_0d901be3-7a5f-4296-b0fc-b8bdf84c43ec.xml, wdm/TmEnableCallbacks
 ms.topic: function
+f1_keywords:
+ - "wdm/TmEnableCallbacks"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

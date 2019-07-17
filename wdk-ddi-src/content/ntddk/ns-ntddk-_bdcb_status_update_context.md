@@ -8,6 +8,8 @@ ms.assetid: 5DB29B81-2D7A-44FA-B5A9-FEF87C6A926D
 ms.date: 04/30/2018
 ms.keywords: "*PBDCB_STATUS_UPDATE_CONTEXT, BDCB_STATUS_UPDATE_CONTEXT, BDCB_STATUS_UPDATE_CONTEXT structure [Kernel-Mode Driver Architecture], PBDCB_STATUS_UPDATE_CONTEXT, PBDCB_STATUS_UPDATE_CONTEXT structure pointer [Kernel-Mode Driver Architecture], _BDCB_STATUS_UPDATE_CONTEXT, kernel.bdcb_status_update_context, ntddk/BDCB_STATUS_UPDATE_CONTEXT, ntddk/PBDCB_STATUS_UPDATE_CONTEXT"
 ms.topic: struct
+f1_keywords:
+ - "ntddk/BDCB_STATUS_UPDATE_CONTEXT"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Windows

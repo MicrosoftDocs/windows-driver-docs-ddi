@@ -8,6 +8,8 @@ ms.assetid: 29735ea8-6125-4958-8d78-12d1f13b16ea
 ms.date: 03/29/2018
 ms.keywords: StorPortFreeContiguousMemorySpecifyCache, StorPortFreeContiguousMemorySpecifyCache routine [Storage Devices], storage.storportfreecontiguousmemoryspecifycache, storport/StorPortFreeContiguousMemorySpecifyCache, storprt_4ad11a47-ebb2-4eb9-a7cb-ce0b47d2ab3a.xml
 ms.topic: function
+f1_keywords:
+ - "storport/StorPortFreeContiguousMemorySpecifyCache"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

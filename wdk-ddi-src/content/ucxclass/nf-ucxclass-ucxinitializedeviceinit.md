@@ -8,6 +8,8 @@ ms.assetid: A92A3E2E-1C73-40BD-808A-CBC14404F3E9
 ms.date: 05/07/2018
 ms.keywords: UcxInitializeDeviceInit, UcxInitializeDeviceInit method [Buses], buses._ucxinitializedeviceinit, ucxclass/UcxInitializeDeviceInit
 ms.topic: function
+f1_keywords:
+ - "ucxclass/UcxInitializeDeviceInit"
 req.header: ucxclass.h
 req.include-header: 
 req.target-type: Windows

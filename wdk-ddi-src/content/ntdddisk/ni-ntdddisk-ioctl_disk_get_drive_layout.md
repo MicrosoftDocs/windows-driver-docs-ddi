@@ -8,6 +8,8 @@ ms.assetid: f3f78e70-1111-41a1-af12-1f57055d0ca1
 ms.date: 03/29/2018
 ms.keywords: IOCTL_DISK_GET_DRIVE_LAYOUT, IOCTL_DISK_GET_DRIVE_LAYOUT control, IOCTL_DISK_GET_DRIVE_LAYOUT control code [Storage Devices], k307_85ebcb24-3ad1-4961-bc03-d32faf9fa0fd.xml, ntdddisk/IOCTL_DISK_GET_DRIVE_LAYOUT, storage.ioctl_disk_get_drive_layout
 ms.topic: ioctl
+f1_keywords:
+ - "ntdddisk/IOCTL_DISK_GET_DRIVE_LAYOUT"
 req.header: ntdddisk.h
 req.include-header: Ntdddisk.h
 req.target-type: Windows

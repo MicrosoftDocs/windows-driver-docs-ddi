@@ -5,6 +5,8 @@ description: Creates a render target view.
 ms.assetid: 0070a035-8fba-4aaa-b70f-2641ad32e906
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_CREATE_RENDER_TARGET_VIEW_0002"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

@@ -5,6 +5,8 @@ description: Describes a pipeline library.
 ms.assetid: 11272f41-4642-43aa-8cd8-c9f0f86ca737
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_LIBRARY_REFERENCE_0010"
 ms.keywords: D3D12DDI_LIBRARY_REFERENCE_0010, D3D12DDI_LIBRARY_REFERENCE_0010, 
 req.header: d3d12umddi.h
 req.include-header:

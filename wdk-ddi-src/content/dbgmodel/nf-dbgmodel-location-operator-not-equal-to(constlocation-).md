@@ -5,6 +5,8 @@ description: Not equal to comparison operator for the location function.
 ms.assetid: 474f5a04-76f9-4784-82ed-bb35527f320a
 ms.date: 10/02/2018
 ms.topic: function
+f1_keywords:
+ - "dbgmodel/operator!="
 ms.keywords: operator!=
 req.header: dbgmodel.h
 req.include-header:

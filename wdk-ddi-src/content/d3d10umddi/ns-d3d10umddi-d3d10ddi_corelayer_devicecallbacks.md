@@ -7,6 +7,8 @@ ms.assetid: cced2221-7e8c-432a-9963-3b1de67037a3
 ms.date: 05/10/2018
 ms.keywords: D3D10DDI_CORELAYER_DEVICECALLBACKS, D3D10DDI_CORELAYER_DEVICECALLBACKS structure [Display Devices], UMDisplayDriver_Dx10param_Structs_4c7782a0-4963-4f18-802e-98c8eb39c1a1.xml, d3d10umddi/D3D10DDI_CORELAYER_DEVICECALLBACKS, display.d3d10ddi_corelayer_devicecallbacks
 ms.topic: struct
+f1_keywords:
+ - "d3d10umddi/D3D10DDI_CORELAYER_DEVICECALLBACKS"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows

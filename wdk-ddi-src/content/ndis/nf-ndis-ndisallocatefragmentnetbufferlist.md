@@ -8,6 +8,8 @@ ms.assetid: 40b6596b-7ab8-4336-8c38-21b9f32d8558
 ms.date: 05/02/2018
 ms.keywords: NdisAllocateFragmentNetBufferList, NdisAllocateFragmentNetBufferList function [Network Drivers Starting with Windows Vista], ndis/NdisAllocateFragmentNetBufferList, ndis_netbuf_functions_ref_9155bd3d-f4c1-4655-b9a3-256ff64093cf.xml, netvista.ndisallocatefragmentnetbufferlist
 ms.topic: function
+f1_keywords:
+ - "ndis/NdisAllocateFragmentNetBufferList"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

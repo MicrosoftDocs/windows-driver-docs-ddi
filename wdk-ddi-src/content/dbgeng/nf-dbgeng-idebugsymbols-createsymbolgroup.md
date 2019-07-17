@@ -8,6 +8,8 @@ ms.assetid: f55aa290-5e57-48d8-9454-370c494bbd65
 ms.date: 05/03/2018
 ms.keywords: CreateSymbolGroup, CreateSymbolGroup method [Windows Debugging], CreateSymbolGroup method [Windows Debugging],IDebugSymbols interface, CreateSymbolGroup method [Windows Debugging],IDebugSymbols2 interface, CreateSymbolGroup method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],CreateSymbolGroup method, IDebugSymbols.CreateSymbolGroup, IDebugSymbols2 interface [Windows Debugging],CreateSymbolGroup method, IDebugSymbols2::CreateSymbolGroup, IDebugSymbols3 interface [Windows Debugging],CreateSymbolGroup method, IDebugSymbols3::CreateSymbolGroup, IDebugSymbols::CreateSymbolGroup, IDebugSymbols_fe8b31b2-0c5c-4dde-9d60-a353893e3f65.xml, dbgeng/IDebugSymbols2::CreateSymbolGroup, dbgeng/IDebugSymbols3::CreateSymbolGroup, dbgeng/IDebugSymbols::CreateSymbolGroup, debugger.createsymbolgroup
 ms.topic: method
+f1_keywords:
+ - "dbgeng/IDebugSymbols.CreateSymbolGroup"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

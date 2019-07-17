@@ -8,6 +8,8 @@ ms.assetid: ad8b8740-35bc-4aa4-a190-00d1a78e447a
 ms.date: 02/24/2018
 ms.keywords: "*PPCI_EXPRESS_SERIAL_NUMBER_CAPABILITY, PCI.pci_express_serial_number_capability, PCI_EXPRESS_SERIAL_NUMBER_CAPABILITY, PCI_EXPRESS_SERIAL_NUMBER_CAPABILITY structure [Buses], PPCI_EXPRESS_SERIAL_NUMBER_CAPABILITY, PPCI_EXPRESS_SERIAL_NUMBER_CAPABILITY structure pointer [Buses], _PCI_EXPRESS_SERIAL_NUMBER_CAPABILITY, pci_struct_0d9ab097-6980-40b4-8c25-02ad8239588b.xml, wdm/PCI_EXPRESS_SERIAL_NUMBER_CAPABILITY, wdm/PPCI_EXPRESS_SERIAL_NUMBER_CAPABILITY"
 ms.topic: struct
+f1_keywords:
+ - "miniport/PCI_EXPRESS_SERIAL_NUMBER_CAPABILITY"
 req.header: miniport.h
 req.include-header: Ntddk.h, Wdm.h, Miniport.h
 req.target-type: Windows

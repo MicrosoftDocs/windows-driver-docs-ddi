@@ -5,6 +5,8 @@ description: Used to set the hardware protection tear down recovery.
 ms.assetid: 8e287296-7d3b-4ff6-9550-21feafb039e4
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/_D3DKMT_SETHWPROTECTIONTEARDOWNRECOVERY"
 ms.keywords: _D3DKMT_SETHWPROTECTIONTEARDOWNRECOVERY, D3DKMT_SETHWPROTECTIONTEARDOWNRECOVERY, 
 req.header: d3dkmthk.h
 req.include-header:

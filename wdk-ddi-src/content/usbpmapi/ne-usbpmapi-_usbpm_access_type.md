@@ -5,6 +5,8 @@ description: Defines the access types for calling Policy Manager functions.
 ms.assetid: 16469a5c-1c6a-4fa3-9189-17ba7d51291d
 ms.date: 09/30/2018
 ms.topic: enum
+f1_keywords:
+ - "usbpmapi/USBPM_ACCESS_TYPE"
 ms.keywords: _USBPM_ACCESS_TYPE, USBPM_ACCESS_TYPE, *PUSBPM_ACCESS_TYPE, 
 tech.root: usbref
 req.header: usbpmapi.h

@@ -8,6 +8,8 @@ ms.assetid: 52ddeb83-8ac3-4e9d-84d8-dddfcc404b6e
 ms.date: 04/04/2018
 ms.keywords: DisableSimulatedBattery, DisableSimulatedBattery method [Windows Device Testing Framework], DisableSimulatedBattery method [Windows Device Testing Framework],IWDTFSimulatedBatterySystemAction interface, IWDTFSimulatedBatterySystemAction interface [Windows Device Testing Framework],DisableSimulatedBattery method, IWDTFSimulatedBatterySystemAction.DisableSimulatedBattery, IWDTFSimulatedBatterySystemAction::DisableSimulatedBattery, dtf.iwdtfsimulatedbatterysystemaction_disablesimulatedbattery, wdtfsimulatedbatterysystemaction/IWDTFSimulatedBatterySystemAction::DisableSimulatedBattery
 ms.topic: method
+f1_keywords:
+ - "wdtfsimulatedbatterysystemaction/IWDTFSimulatedBatterySystemAction.DisableSimulatedBattery"
 req.header: wdtfsimulatedbatterysystemaction.h
 req.include-header: 
 req.target-type: Desktop

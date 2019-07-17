@@ -8,6 +8,8 @@ ms.assetid: c44e16f1-2ecd-4dad-b3c3-c6b6a3dcbb84
 ms.date: 02/26/2018
 ms.keywords: DFUsbRef_840aad44-522b-426d-ad95-457dee6c44dd.xml, WDF_USB_CONTROL_SETUP_PACKET_INIT_CLASS, WDF_USB_CONTROL_SETUP_PACKET_INIT_CLASS function, kmdf.wdf_usb_control_setup_packet_init_class, wdf.wdf_usb_control_setup_packet_init_class, wdfusb/WDF_USB_CONTROL_SETUP_PACKET_INIT_CLASS
 ms.topic: function
+f1_keywords:
+ - "wdfusb/WDF_USB_CONTROL_SETUP_PACKET_INIT_CLASS"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal

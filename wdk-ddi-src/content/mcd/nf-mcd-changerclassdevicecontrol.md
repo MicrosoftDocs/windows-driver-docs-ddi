@@ -8,6 +8,8 @@ ms.assetid: 9107fa7b-b061-4505-aef7-be04587a4199
 ms.date: 03/29/2018
 ms.keywords: ChangerClassDeviceControl, ChangerClassDeviceControl routine [Storage Devices], chgrclas_0338541c-8796-485d-aa1c-20335ea4c6c5.xml, mcd/ChangerClassDeviceControl, storage.changerclassdevicecontrol
 ms.topic: function
+f1_keywords:
+ - "mcd/ChangerClassDeviceControl"
 req.header: mcd.h
 req.include-header: Mcd.h, Ntddchgr.h
 req.target-type: Desktop

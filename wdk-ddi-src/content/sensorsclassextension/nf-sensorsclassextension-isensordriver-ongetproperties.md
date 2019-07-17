@@ -8,6 +8,8 @@ ms.assetid: 8c7f378c-b4e6-4074-8b6a-571068b5ab80
 ms.date: 05/03/2018
 ms.keywords: ISensorDriver interface [Sensor Devices],OnGetProperties method, ISensorDriver.OnGetProperties, ISensorDriver::OnGetProperties, OnGetProperties, OnGetProperties method [Sensor Devices], OnGetProperties method [Sensor Devices],ISensorDriver interface, sensors.isensordriver_ongetproperties, sensorsclassextension/ISensorDriver::OnGetProperties
 ms.topic: method
+f1_keywords:
+ - "sensorsclassextension/OnGetProperties"
 req.header: sensorsclassextension.h
 req.include-header: 
 req.target-type: Windows

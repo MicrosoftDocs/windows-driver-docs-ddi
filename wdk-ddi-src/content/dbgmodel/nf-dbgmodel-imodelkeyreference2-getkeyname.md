@@ -5,6 +5,8 @@ description: The GetKeyName method returns the name of the key to which this key
 ms.assetid: bfb61278-8eac-47e5-9900-aed8b31370c5
 ms.date: 08/14/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IModelKeyReference2.GetKeyName"
 ms.keywords: IModelKeyReference2::GetKeyName, GetKeyName, IModelKeyReference2.GetKeyName, IModelKeyReference2::GetKeyName, IModelKeyReference2.GetKeyName
 req.header: dbgmodel.h
 req.include-header:

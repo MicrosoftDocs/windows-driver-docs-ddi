@@ -8,6 +8,8 @@ ms.assetid: 79c6438c-ba8c-4fc5-8c3f-5865a51869b7
 ms.date: 04/16/2018
 ms.keywords: IoCreateStreamFileObjectLite, IoCreateStreamFileObjectLite routine [Installable File System Drivers], ifsk.iocreatestreamfileobjectlite, ioref_0e35141f-7028-47b0-8dc1-0bd9d1c4e0be.xml, ntifs/IoCreateStreamFileObjectLite
 ms.topic: function
+f1_keywords:
+ - "ntifs/IoCreateStreamFileObjectLite"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

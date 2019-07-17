@@ -8,6 +8,8 @@ ms.assetid: c4fd9a56-8743-4099-b261-43c1afc2a5f1
 ms.date: 04/30/2018
 ms.keywords: TmReferenceEnlistmentKey, TmReferenceEnlistmentKey routine [Kernel-Mode Driver Architecture], kernel.tmreferenceenlistmentkey, ktm_ref_9e57ee05-1004-4d3d-9fa6-9eb473057bbf.xml, wdm/TmReferenceEnlistmentKey
 ms.topic: function
+f1_keywords:
+ - "wdm/TmReferenceEnlistmentKey"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

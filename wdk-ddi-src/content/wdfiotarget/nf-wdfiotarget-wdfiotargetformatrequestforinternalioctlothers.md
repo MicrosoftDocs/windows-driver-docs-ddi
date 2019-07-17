@@ -8,6 +8,8 @@ ms.assetid: e843eb33-f688-4963-9f35-244b4ed0ef7a
 ms.date: 02/26/2018
 ms.keywords: DFIOTargetRef_bf839577-4858-4b98-adf3-cee7e8f01bd5.xml, WdfIoTargetFormatRequestForInternalIoctlOthers, WdfIoTargetFormatRequestForInternalIoctlOthers method, kmdf.wdfiotargetformatrequestforinternalioctlothers, wdf.wdfiotargetformatrequestforinternalioctlothers, wdfiotarget/WdfIoTargetFormatRequestForInternalIoctlOthers
 ms.topic: function
+f1_keywords:
+ - "wdfiotarget/WdfIoTargetFormatRequestForInternalIoctlOthers"
 req.header: wdfiotarget.h
 req.include-header: Wdf.h
 req.target-type: Universal

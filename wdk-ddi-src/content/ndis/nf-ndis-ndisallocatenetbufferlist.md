@@ -8,6 +8,8 @@ ms.assetid: 9c821aac-9abd-4041-a15e-64306ada1c02
 ms.date: 05/02/2018
 ms.keywords: NdisAllocateNetBufferList, NdisAllocateNetBufferList function [Network Drivers Starting with Windows Vista], ndis/NdisAllocateNetBufferList, ndis_netbuf_functions_ref_85e4ad07-739d-4c37-b436-d9ca95c9db92.xml, netvista.ndisallocatenetbufferlist
 ms.topic: function
+f1_keywords:
+ - "ndis/NdisAllocateNetBufferList"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

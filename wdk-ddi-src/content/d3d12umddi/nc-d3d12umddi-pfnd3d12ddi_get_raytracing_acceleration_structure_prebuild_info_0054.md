@@ -5,6 +5,8 @@ description: Queries the driver for resource requirements to build an accelerati
 ms.assetid: 09c3edcb-ed66-41ed-9db1-edca88369c43
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_GET_RAYTRACING_ACCELERATION_STRUCTURE_PREBUILD_INFO_0054"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

@@ -8,6 +8,8 @@ ms.assetid: A0D35ECE-5B7F-4F60-9178-75673C9A945F
 ms.date: 04/30/2018
 ms.keywords: RtlLongLongSub, RtlLongLongSub function [Kernel-Mode Driver Architecture], kernel.rtllonglongsub, ntintsafe/RtlLongLongSub
 ms.topic: function
+f1_keywords:
+ - "ntintsafe/RtlLongLongSub"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop

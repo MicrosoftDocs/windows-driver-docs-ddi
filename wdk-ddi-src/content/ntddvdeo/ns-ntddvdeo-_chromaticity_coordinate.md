@@ -6,6 +6,8 @@ tech.root: display
 ms.assetid: 8c0d0af8-0733-4178-99db-82a9dc8db0ee
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "ntddvdeo/_CHROMATICITY_COORDINATE"
 ms.keywords: _CHROMATICITY_COORDINATE, CHROMATICITY_COORDINATE,
 req.header: ntddvdeo.h
 req.include-header:

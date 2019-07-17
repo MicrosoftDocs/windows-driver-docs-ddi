@@ -8,6 +8,8 @@ ms.assetid: abc9fc88-6852-4bfb-8271-7a73a508c397
 ms.date: 04/27/2018
 ms.keywords: PFNSCO_INDICATION_CALLBACK, PFNSCO_INDICATION_CALLBACK callback, SCOIndicationCallback, SCOIndicationCallback callback function [Bluetooth Devices], bltooth.sco_callback_function, bth_funcs_05d035df-348d-42c0-8041-5d3822b0346e.xml, bthddi/SCOIndicationCallback
 ms.topic: callback
+f1_keywords:
+ - "bthddi/SCOIndicationCallback"
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Desktop

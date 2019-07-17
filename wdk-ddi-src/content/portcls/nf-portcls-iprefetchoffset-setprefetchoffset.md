@@ -8,6 +8,8 @@ ms.assetid: fef8e8b8-7e79-4d88-b643-9b371e4297fd
 ms.date: 05/08/2018
 ms.keywords: IPreFetchOffset interface [Audio Devices],SetPreFetchOffset method, IPreFetchOffset.SetPreFetchOffset, IPreFetchOffset::SetPreFetchOffset, SetPreFetchOffset, SetPreFetchOffset method [Audio Devices], SetPreFetchOffset method [Audio Devices],IPreFetchOffset interface, audio.iprefetchoffset_setprefetchoffset, audmp-routines_7fb7bb20-d9e0-4022-9de4-1c5952bfccf8.xml, portcls/IPreFetchOffset::SetPreFetchOffset
 ms.topic: method
+f1_keywords:
+ - "portcls/IPreFetchOffset.SetPreFetchOffset"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal

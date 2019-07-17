@@ -8,6 +8,8 @@ ms.assetid: 28C73FBA-9122-4CFD-959E-495062CEEF41
 ms.date: 05/08/2018
 ms.keywords: IMiniportWaveRTOutputStream interface [Audio Devices],SetWritePacket method, IMiniportWaveRTOutputStream.SetWritePacket, IMiniportWaveRTOutputStream::SetWritePacket, SetWritePacket, SetWritePacket method [Audio Devices], SetWritePacket method [Audio Devices],IMiniportWaveRTOutputStream interface, audio.iminiportwavertoutputstream_setwritepacket, portcls/IMiniportWaveRTOutputStream::SetWritePacket
 ms.topic: method
+f1_keywords:
+ - "portcls/IMiniportWaveRTOutputStream.SetWritePacket"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Windows

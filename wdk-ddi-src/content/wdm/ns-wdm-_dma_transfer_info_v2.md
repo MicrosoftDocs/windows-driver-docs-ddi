@@ -5,6 +5,8 @@ description: Contains the allocation requirements for a scatter/gather list that
 ms.assetid: b6466a0d-273f-4bc0-a4fe-f79fcb4ba5b6
 ms.date: 09/30/2018
 ms.topic: struct
+f1_keywords:
+ - "wdm/_DMA_TRANSFER_INFO_V2"
 ms.keywords: _DMA_TRANSFER_INFO_V2, DMA_TRANSFER_INFO_V2, *PDMA_TRANSFER_INFO_V2, 
 req.header: wdm.h
 req.include-header:

@@ -8,6 +8,8 @@ ms.assetid: b76f2f3d-46ff-4a85-b3b2-1924946fa45d
 ms.date: 05/03/2018
 ms.keywords: IStillImageW interface [Imaging Devices],RegisterLaunchApplication method, IStillImageW.RegisterLaunchApplication, IStillImageW::RegisterLaunchApplication, RegisterLaunchApplication, RegisterLaunchApplication method [Imaging Devices], RegisterLaunchApplication method [Imaging Devices],IStillImageW interface, image.istillimage_registerlaunchapplication, sti/IStillImageW::RegisterLaunchApplication, stifnc_606c7e24-38e2-450e-a9d5-3d7018ccf9b9.xml
 ms.topic: method
+f1_keywords:
+ - "sti/IStillImageW.RegisterLaunchApplication"
 req.header: sti.h
 req.include-header: Sti.h
 req.target-type: Desktop

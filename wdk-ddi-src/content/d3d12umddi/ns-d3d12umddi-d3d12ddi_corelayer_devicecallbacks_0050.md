@@ -5,6 +5,8 @@ description: The D3D12DDI_CORELAYER_DEVICECALLBACKS_0050 structure contains Micr
 ms.assetid: 92e47a76-7001-40e0-ba83-c01cf4fd1f9e
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_CORELAYER_DEVICECALLBACKS_0050"
 ms.keywords: D3D12DDI_CORELAYER_DEVICECALLBACKS_0050, D3D12DDI_CORELAYER_DEVICECALLBACKS_0050, 
 req.header: d3d12umddi.h
 req.include-header:

@@ -5,6 +5,8 @@ description: Structure that identifies, in bit-field flags, information about a 
 ms.assetid: 88f11f54-cc67-418b-baf7-112cc49f0498
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/_D3DKMT_SUBMITCOMMANDFLAGS"
 ms.keywords: _D3DKMT_SUBMITCOMMANDFLAGS, D3DKMT_SUBMITCOMMANDFLAGS, 
 req.header: d3dkmthk.h
 req.include-header:

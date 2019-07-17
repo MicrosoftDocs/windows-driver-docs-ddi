@@ -8,6 +8,8 @@ ms.assetid: c0f94079-7398-4998-b2b2-471aa8c538a1
 ms.date: 05/02/2018
 ms.keywords: FWPS_CALLOUT_NOTIFY_FN0, FWPS_CALLOUT_NOTIFY_FN0 callback, fwpsk/notifyFn0, netvista.notifyfn0, notifyFn0, notifyFn0 callback function [Network Drivers Starting with Windows Vista], wfp_ref_2_funct_4_callout_67d79632-69ad-41a2-8a0e-21f4020b0550.xml
 ms.topic: callback
+f1_keywords:
+ - "fwpsk/notifyFn0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Windows

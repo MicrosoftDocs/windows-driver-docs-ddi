@@ -5,6 +5,8 @@ description: Defines the _HMAT_TABLE structure.
 ms.assetid: aac4942e-3354-44ec-a4d2-0637f8a5a629
 ms.date: 10/01/2018
 ms.topic: struct
+f1_keywords:
+ - "acpitabl/_HMAT_TABLE"
 ms.keywords: _HMAT_TABLE, HMAT_TABLE, *PHMAT_TABLE, 
 req.header: acpitabl.h
 req.include-header:

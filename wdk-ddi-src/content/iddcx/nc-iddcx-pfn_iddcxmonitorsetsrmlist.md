@@ -5,6 +5,8 @@ description: Implemented by the client driver to pass a HDCP SRM list to the GPU
 ms.assetid: 38dfb1cf-f2fd-462f-bce0-a95505cead96
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "iddcx/PFN_IDDCXMONITORSETSRMLIST"
 req.header: iddcx.h
 req.include-header:
 req.target-type:

@@ -8,6 +8,8 @@ ms.assetid: e75c17d2-fdf7-4dba-9892-74c764956924
 ms.date: 05/03/2018
 ms.keywords: ExtRemoteTyped class [Windows Debugging],Set method, ExtRemoteTyped.Set, ExtRemoteTyped.Set(bool,ULONG64,ULONG,ULONG64), ExtRemoteTyped::Set, ExtRemoteTyped::Set(bool,ULONG64,ULONG,ULONG64), Set, Set method [Windows Debugging], Set method [Windows Debugging],ExtRemoteTyped class, debugger.extremotetyped_set_bool
 ms.topic: method
+f1_keywords:
+ - "engextcpp/ExtRemoteTyped.Set"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop

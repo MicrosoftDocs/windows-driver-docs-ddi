@@ -8,6 +8,8 @@ ms.assetid: 6efc418b-cb45-409d-9ad7-9dbdfeba59bb
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: function
+f1_keywords:
+ - "ntddk/WheaRemoveErrorSource"
 ms.keywords: WheaRemoveErrorSource
 req.header: ntddk.h
 req.include-header:

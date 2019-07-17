@@ -8,6 +8,8 @@ ms.assetid: 41687454-5468-4351-BEAF-2FB6BD80BEFC
 ms.date: 04/30/2018
 ms.keywords: RtlULongPtrToIntPtr, RtlULongPtrToIntPtr function [Kernel-Mode Driver Architecture], kernel.rtlulongptrtointptr, ntintsafe/RtlULongPtrToIntPtr
 ms.topic: function
+f1_keywords:
+ - "ntintsafe/RtlULongPtrToIntPtr"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop

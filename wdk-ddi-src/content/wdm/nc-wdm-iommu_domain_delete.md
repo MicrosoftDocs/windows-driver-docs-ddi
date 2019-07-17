@@ -5,6 +5,8 @@ description: Deletes an existing domain.
 ms.assetid: 9fa16237-16ff-4318-84dd-53a57f1a636f
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "wdm/IOMMU_DOMAIN_DELETE"
 req.header: wdm.h
 req.include-header:
 req.target-type:

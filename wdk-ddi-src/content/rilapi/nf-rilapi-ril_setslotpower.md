@@ -8,6 +8,8 @@ ms.assetid: c7e12c2a-3382-478b-a306-7c86c93d45d0
 ms.date: 05/02/2018
 ms.keywords: RIL_SetSlotPower, RIL_SetSlotPower method [Network Drivers Starting with Windows Vista], netvista.ril_setslotpower, rilapi/RIL_SetSlotPower
 ms.topic: function
+f1_keywords:
+ - "rilapi/RIL_SetSlotPower"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows

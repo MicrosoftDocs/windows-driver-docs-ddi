@@ -8,6 +8,8 @@ ms.assetid: b25ecc96-1ed2-4d8f-8dc8-0fafe58eca24
 ms.date: 05/02/2018
 ms.keywords: "*LPRILEMERGENCYMODECONTROLPARAMS, RILEMERGENCYMODECONTROLPARAMS, RILEMERGENCYMODECONTROLPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilemergencymodecontrolparams, ntddrilapitypes/RILEMERGENCYMODECONTROLPARAMS"
 ms.topic: struct
+f1_keywords:
+ - "ntddrilapitypes/RILEMERGENCYMODECONTROLPARAMS"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

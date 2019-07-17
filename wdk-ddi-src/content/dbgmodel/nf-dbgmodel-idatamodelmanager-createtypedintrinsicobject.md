@@ -5,6 +5,8 @@ description: The CreateTypedintrinsicObject method is similar to the CreateIntri
 ms.assetid: 389a450e-6cea-408e-aeaa-ff90b572158c
 ms.date: 07/17/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDataModelManager.CreateTypedIntrinsicObject"
 ms.keywords: IDataModelManager::CreateTypedIntrinsicObject, CreateTypedIntrinsicObject, IDataModelManager.CreateTypedIntrinsicObject, IDataModelManager::CreateTypedIntrinsicObject, IDataModelManager.CreateTypedIntrinsicObject
 req.header: dbgmodel.h
 req.include-header:

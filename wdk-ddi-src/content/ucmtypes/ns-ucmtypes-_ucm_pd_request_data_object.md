@@ -8,6 +8,8 @@ ms.assetid: 2F5CC46B-3BFC-4C69-A9C8-C4BC4864E84B
 ms.date: 05/07/2018
 ms.keywords: "*PUCM_PD_REQUEST_DATA_OBJECT, PUCM_PD_REQUEST_DATA_OBJECT, PUCM_PD_REQUEST_DATA_OBJECT union pointer [Buses], UCM_PD_REQUEST_DATA_OBJECT, UCM_PD_REQUEST_DATA_OBJECT union [Buses], _UCM_PD_REQUEST_DATA_OBJECT, buses.ucm_pd_request_data_object, ucmtypes/PUCM_PD_REQUEST_DATA_OBJECT, ucmtypes/UCM_PD_REQUEST_DATA_OBJECT"
 ms.topic: struct
+f1_keywords:
+ - "ucmtypes/UCM_PD_REQUEST_DATA_OBJECT"
 req.header: ucmtypes.h
 req.include-header: Ucmcx.h
 req.target-type: Windows

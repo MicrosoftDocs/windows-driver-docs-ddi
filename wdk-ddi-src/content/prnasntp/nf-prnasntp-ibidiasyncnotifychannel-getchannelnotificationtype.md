@@ -8,6 +8,8 @@ ms.assetid: EB0F515D-A2FF-4744-ABC8-8FFD9DD08F24
 ms.date: 04/20/2018
 ms.keywords: GetChannelNotificationType, GetChannelNotificationType method [Print Devices], GetChannelNotificationType method [Print Devices],IBidiAsyncNotifyChannel interface, IBidiAsyncNotifyChannel interface [Print Devices],GetChannelNotificationType method, IBidiAsyncNotifyChannel.GetChannelNotificationType, IBidiAsyncNotifyChannel::GetChannelNotificationType, print.ibidiasyncnotifychannel_getchannelnotificationtype, prnasntp/IBidiAsyncNotifyChannel::GetChannelNotificationType
 ms.topic: method
+f1_keywords:
+ - "prnasntp/IBidiAsyncNotifyChannel.GetChannelNotificationType"
 req.header: prnasntp.h
 req.include-header: 
 req.target-type: Windows

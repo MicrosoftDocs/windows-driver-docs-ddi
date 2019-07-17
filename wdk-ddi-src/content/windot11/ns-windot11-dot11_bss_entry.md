@@ -8,6 +8,8 @@ ms.assetid: 50661fc9-2f1f-4c9a-bc15-1cdf7c1f6d01
 ms.date: 02/16/2018
 ms.keywords: "*PDOT11_BSS_ENTRY, DOT11_BSS_ENTRY, DOT11_BSS_ENTRY structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_f884f12d-d267-4ae3-b632-6c318b515880.xml, PDOT11_BSS_ENTRY, PDOT11_BSS_ENTRY structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_bss_entry, windot11/DOT11_BSS_ENTRY, windot11/PDOT11_BSS_ENTRY"
 ms.topic: struct
+f1_keywords:
+ - "windot11/DOT11_BSS_ENTRY"
 req.header: windot11.h
 req.include-header: Ndis.h
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: 462165e5-2823-4559-bd3e-18850d442cdb
 ms.date: 04/30/2018
 ms.keywords: IoWMIExecuteMethod, IoWMIExecuteMethod routine [Kernel-Mode Driver Architecture], k104_9625e06a-3c5a-4950-80be-cc3fb536453c.xml, kernel.iowmiexecutemethod, wdm/IoWMIExecuteMethod
 ms.topic: function
+f1_keywords:
+ - "wdm/IoWMIExecuteMethod"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

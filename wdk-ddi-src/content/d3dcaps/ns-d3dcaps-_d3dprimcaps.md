@@ -8,6 +8,8 @@ ms.assetid: fa725534-ccc3-4e71-a83f-b25fd4c72c14
 ms.date: 05/10/2018
 ms.keywords: "*LPD3DPRIMCAPS, D3DPRIMCAPS, D3DPRIMCAPS structure [Display Devices], LPD3DPRIMCAPS, LPD3DPRIMCAPS structure pointer [Display Devices], _D3DPrimCaps, d3dcaps/D3DPRIMCAPS, d3dcaps/LPD3DPRIMCAPS, d3dstrct_671f3c02-cad3-47bc-871e-df1388f8cf1a.xml, display.d3dprimcaps"
 ms.topic: struct
+f1_keywords:
+ - "d3dcaps/D3DPRIMCAPS"
 req.header: d3dcaps.h
 req.include-header: D3dcaps.h
 req.target-type: Windows

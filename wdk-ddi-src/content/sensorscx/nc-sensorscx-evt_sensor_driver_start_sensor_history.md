@@ -5,6 +5,8 @@ description: Starts recording history in the sensor.
 ms.assetid: f2c80711-989b-48ff-a7f2-01635de2841d
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "sensorscx/EVT_SENSOR_DRIVER_START_SENSOR_HISTORY"
 req.header: sensorscx.h
 req.include-header:
 req.target-type:

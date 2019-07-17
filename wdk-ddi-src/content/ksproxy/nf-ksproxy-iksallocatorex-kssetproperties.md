@@ -8,6 +8,8 @@ ms.assetid: 17145801-5EE4-4022-997A-03B14C794D2F
 ms.date: 04/23/2018
 ms.keywords: IKsAllocatorEx interface [Streaming Media Devices],KsSetProperties method, IKsAllocatorEx.KsSetProperties, IKsAllocatorEx::KsSetProperties, KsSetProperties, KsSetProperties method [Streaming Media Devices], KsSetProperties method [Streaming Media Devices],IKsAllocatorEx interface, ksproxy/IKsAllocatorEx::KsSetProperties, stream.iksallocatorex_kssetproperties
 ms.topic: method
+f1_keywords:
+ - "ksproxy/IKsAllocatorEx.KsSetProperties"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: Windows

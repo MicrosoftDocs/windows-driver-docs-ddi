@@ -8,6 +8,8 @@ ms.assetid: e3ba9bdd-2741-4a6c-9613-1ced31fc3dbf
 ms.date: 05/02/2018
 ms.keywords: RIL3GPP2ISDNALERTING, RIL3GPP2ISDNALERTING enumeration [Network Drivers Starting with Windows Vista], RIL_3GPP2ISDNALERTING_INTERGROUP, RIL_3GPP2ISDNALERTING_MAX, RIL_3GPP2ISDNALERTING_NORMAL, RIL_3GPP2ISDNALERTING_PINGRING, RIL_3GPP2ISDNALERTING_SPECIAL, netvista.ril3gpp2isdnalerting, ntddrilapitypes/RIL3GPP2ISDNALERTING, ntddrilapitypes/RIL_3GPP2ISDNALERTING_INTERGROUP, ntddrilapitypes/RIL_3GPP2ISDNALERTING_MAX, ntddrilapitypes/RIL_3GPP2ISDNALERTING_NORMAL, ntddrilapitypes/RIL_3GPP2ISDNALERTING_PINGRING, ntddrilapitypes/RIL_3GPP2ISDNALERTING_SPECIAL
 ms.topic: enum
+f1_keywords:
+ - "ntddrilapitypes/RIL3GPP2ISDNALERTING"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

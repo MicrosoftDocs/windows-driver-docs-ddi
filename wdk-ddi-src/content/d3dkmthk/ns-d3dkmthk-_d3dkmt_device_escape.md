@@ -7,6 +7,8 @@ ms.assetid: 274bdd80-e898-42c7-8adc-8eae4e895b5f
 ms.date: 05/10/2018
 ms.keywords: D3DKMT_DEVICE_ESCAPE, D3DKMT_DEVICE_ESCAPE structure [Display Devices], OpenGL_Structs_38febe04-ae75-475a-ab69-81995acb567b.xml, _D3DKMT_DEVICE_ESCAPE, d3dkmthk/D3DKMT_DEVICE_ESCAPE, display.d3dkmt_device_escape
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/D3DKMT_DEVICE_ESCAPE"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

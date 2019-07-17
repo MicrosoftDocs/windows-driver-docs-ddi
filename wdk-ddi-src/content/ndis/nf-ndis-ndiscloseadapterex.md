@@ -8,6 +8,8 @@ ms.assetid: 8e3c6373-e39d-4f9b-b874-e3a9c93791b9
 ms.date: 05/02/2018
 ms.keywords: NdisCloseAdapterEx, NdisCloseAdapterEx function [Network Drivers Starting with Windows Vista], ndis/NdisCloseAdapterEx, netvista.ndiscloseadapterex, protocol_ndis_functions_ref_f349b273-d8c6-4711-af43-59646c41536c.xml
 ms.topic: function
+f1_keywords:
+ - "ndis/NdisCloseAdapterEx"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

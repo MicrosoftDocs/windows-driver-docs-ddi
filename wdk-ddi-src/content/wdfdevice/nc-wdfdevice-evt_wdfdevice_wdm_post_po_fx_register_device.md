@@ -8,6 +8,8 @@ ms.assetid: 4CE227F5-9ED4-4484-AFBF-44D1260EB99D
 ms.date: 02/26/2018
 ms.keywords: EVT_WDFDEVICE_WDM_POST_PO_FX_REGISTER_DEVICE, EVT_WDFDEVICE_WDM_POST_PO_FX_REGISTER_DEVICE callback, EvtDeviceWdmPostPoFxRegisterDevice, EvtDeviceWdmPostPoFxRegisterDevice callback function, kmdf.evtdevicewdmpostpofxregisterdevice, wdf.evtdevicewdmpostpofxregisterdevice, wdfdevice/EvtDeviceWdmPostPoFxRegisterDevice
 ms.topic: callback
+f1_keywords:
+ - "wdfdevice/EvtDeviceWdmPostPoFxRegisterDevice"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

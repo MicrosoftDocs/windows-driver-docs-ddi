@@ -8,6 +8,8 @@ ms.assetid: cf79661f-afe8-4154-8302-e5018172c6ec
 ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectFdoPdoRef_2578889b-85d3-4706-8907-817328ce8ad5.xml, WdfPdoInitAddCompatibleID, WdfPdoInitAddCompatibleID method, kmdf.wdfpdoinitaddcompatibleid, wdf.wdfpdoinitaddcompatibleid, wdfpdo/WdfPdoInitAddCompatibleID
 ms.topic: function
+f1_keywords:
+ - "wdfpdo/WdfPdoInitAddCompatibleID"
 req.header: wdfpdo.h
 req.include-header: Wdf.h
 req.target-type: Universal

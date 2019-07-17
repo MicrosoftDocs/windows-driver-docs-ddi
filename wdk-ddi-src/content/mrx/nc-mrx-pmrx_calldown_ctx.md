@@ -8,6 +8,8 @@ ms.assetid: b5985fc4-dd1a-455d-b2ad-3dc2dfec2e6e
 ms.date: 04/16/2018
 ms.keywords: MRxStart, MRxStart routine [Installable File System Drivers], PMRX_CALLDOWN_CTX, ifsk.mrxstart, mrx/MRxStart, mrxref_e76b85d0-b290-4206-a16c-5d5ed9a5cfff.xml
 ms.topic: callback
+f1_keywords:
+ - "mrx/MRxStart"
 req.header: mrx.h
 req.include-header: Mrx.h
 req.target-type: Desktop

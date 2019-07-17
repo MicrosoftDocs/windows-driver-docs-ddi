@@ -5,6 +5,8 @@ description: Creates a new DMA remapping device domain (a container for a set of
 ms.assetid: 70cce6f5-5adb-4646-b98d-e42d8e8f0389
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "wdm/IOMMU_DOMAIN_CREATE"
 req.header: wdm.h
 req.include-header:
 req.target-type:

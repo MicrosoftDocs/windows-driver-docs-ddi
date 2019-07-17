@@ -8,6 +8,8 @@ ms.assetid: 0C5E2279-79D0-40A2-BA5B-66994A22E963
 ms.date: 04/20/2018
 ms.keywords: EnumJobNamedProperties, EnumJobNamedProperties function [Print Devices], print.enumjobnamedproperties, winspool/EnumJobNamedProperties
 ms.topic: function
+f1_keywords:
+ - "winspool/EnumJobNamedProperties"
 req.header: winspool.h
 req.include-header: 
 req.target-type: Windows

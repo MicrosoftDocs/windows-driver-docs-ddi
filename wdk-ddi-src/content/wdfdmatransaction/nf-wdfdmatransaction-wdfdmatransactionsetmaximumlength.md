@@ -8,6 +8,8 @@ ms.assetid: b195c6df-79c4-427d-b722-309f43a4e150
 ms.date: 02/26/2018
 ms.keywords: DFDmaObjectRef_966c396e-c161-46d6-856e-9bc9aa30c610.xml, WdfDmaTransactionSetMaximumLength, WdfDmaTransactionSetMaximumLength method, kmdf.wdfdmatransactionsetmaximumlength, wdf.wdfdmatransactionsetmaximumlength, wdfdmatransaction/WdfDmaTransactionSetMaximumLength
 ms.topic: function
+f1_keywords:
+ - "wdfdmatransaction/WdfDmaTransactionSetMaximumLength"
 req.header: wdfdmatransaction.h
 req.include-header: Wdf.h
 req.target-type: Universal

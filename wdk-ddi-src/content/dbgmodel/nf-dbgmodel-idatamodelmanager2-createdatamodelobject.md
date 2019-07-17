@@ -5,6 +5,8 @@ description: The CreateDataModelObject method is a simple helper wrapper to crea
 ms.assetid: 18106e3b-de00-4fbd-9af6-5f6011fa095b
 ms.date: 06/10/2019
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDataModelManager2.CreateDataModelObject"
 ms.keywords: IDataModelManager2::CreateDataModelObject, CreateDataModelObject, IDataModelManager2.CreateDataModelObject, IDataModelManager2::CreateDataModelObject, IDataModelManager2.CreateDataModelObject
 req.header: dbgmodel.h
 req.include-header:

@@ -8,6 +8,8 @@ ms.assetid: 6D460EBF-1D5D-4A99-90EE-FCBBC56B8EA4
 ms.date: 05/10/2018
 ms.keywords: D3DDDICB_UPDATEGPUVIRTUALADDRESS, D3DDDICB_UPDATEGPUVIRTUALADDRESS structure [Display Devices], _D3DDDICB_UPDATEGPUVIRTUALADDRESS, d3dumddi/D3DDDICB_UPDATEGPUVIRTUALADDRESS, display.d3dddicb_updategpuvirtualaddress
 ms.topic: struct
+f1_keywords:
+ - "d3dumddi/D3DDDICB_UPDATEGPUVIRTUALADDRESS"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

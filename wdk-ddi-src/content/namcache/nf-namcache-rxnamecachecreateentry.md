@@ -8,6 +8,8 @@ ms.assetid: 1cfe2d2d-99fa-4dc2-b517-5026fd72d5d4
 ms.date: 04/16/2018
 ms.keywords: RxNameCacheCreateEntry, RxNameCacheCreateEntry function [Installable File System Drivers], ifsk.rxnamecachecreateentry, namcache/RxNameCacheCreateEntry, rxref_a1245999-8aba-4012-a143-609517c2686b.xml
 ms.topic: function
+f1_keywords:
+ - "namcache/RxNameCacheCreateEntry"
 req.header: namcache.h
 req.include-header: Namcache.h
 req.target-type: Desktop

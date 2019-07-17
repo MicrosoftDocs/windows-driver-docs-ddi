@@ -8,6 +8,8 @@ ms.assetid: dc2f64dc-204a-41c5-af32-341e7dd06782
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
 ms.topic: function
+f1_keywords:
+ - "dispmprt/DlAllocateCommonBuffer"
 ms.keywords: DlAllocateCommonBuffer
 req.header: dispmprt.h
 req.include-header:

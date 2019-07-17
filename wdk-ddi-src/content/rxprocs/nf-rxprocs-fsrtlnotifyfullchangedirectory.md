@@ -8,6 +8,8 @@ ms.assetid: 42e5340e-0be4-49d1-a219-88b7425a41ef
 ms.date: 04/16/2018
 ms.keywords: FsRtlNotifyFullChangeDirectory, FsRtlNotifyFullChangeDirectory routine [Installable File System Drivers], fsrtlref_551aff27-746f-49a4-b427-fa273249c36e.xml, ifsk.fsrtlnotifyfullchangedirectory, rxprocs/FsRtlNotifyFullChangeDirectory
 ms.topic: macro
+f1_keywords:
+ - "rxprocs/FsRtlNotifyFullChangeDirectory"
 req.header: rxprocs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

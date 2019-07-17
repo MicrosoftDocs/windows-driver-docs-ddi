@@ -8,6 +8,8 @@ ms.assetid: bddb19cb-7705-470b-ad22-14fd72f3db11
 ms.date: 04/23/2018
 ms.keywords: "*PKS_DATARANGE_VIDEO2, KS_DATARANGE_VIDEO2, KS_DATARANGE_VIDEO2 structure [Streaming Media Devices], PKS_DATARANGE_VIDEO2, PKS_DATARANGE_VIDEO2 structure pointer [Streaming Media Devices], ksmedia/KS_DATARANGE_VIDEO2, ksmedia/PKS_DATARANGE_VIDEO2, stream.ks_datarange_video2, tagKS_DATARANGE_VIDEO2, vidcapstruct_f014ea98-b1a5-4d05-aea3-b13e7a3f5918.xml"
 ms.topic: struct
+f1_keywords:
+ - "ksmedia/KS_DATARANGE_VIDEO2"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows

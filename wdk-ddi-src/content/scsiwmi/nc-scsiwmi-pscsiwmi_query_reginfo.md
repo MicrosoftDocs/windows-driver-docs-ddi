@@ -8,6 +8,8 @@ ms.assetid: 416f8629-324f-4698-bbe9-699f5d53011e
 ms.date: 03/29/2018
 ms.keywords: HwScsiWmiQueryReginfo, HwScsiWmiQueryReginfo callback function [Storage Devices], PSCSIWMI_QUERY_REGINFO, PSCSIWMI_QUERY_REGINFO callback, Scsimini_16dc5cef-69cd-488a-b941-9819951a3652.xml, scsiwmi/HwScsiWmiQueryReginfo, storage.hwscsiwmiqueryreginfo
 ms.topic: callback
+f1_keywords:
+ - "scsiwmi/HwScsiWmiQueryReginfo"
 req.header: scsiwmi.h
 req.include-header: Scsiwmi.h
 req.target-type: Desktop

@@ -8,6 +8,8 @@ ms.assetid: 38B760D9-CB6E-45AD-A83F-3C26D1B31A30
 ms.date: 04/20/2018
 ms.keywords: FreePrintPropertyValue, FreePrintPropertyValue function [Print Devices], print.freeprintpropertyvalue, winspool/FreePrintPropertyValue
 ms.topic: function
+f1_keywords:
+ - "winspool/FreePrintPropertyValue"
 req.header: winspool.h
 req.include-header: Winspool.h
 req.target-type: Desktop

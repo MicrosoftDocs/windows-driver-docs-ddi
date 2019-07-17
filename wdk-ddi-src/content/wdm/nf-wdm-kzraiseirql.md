@@ -5,6 +5,8 @@ description: Raises the hardware priority to the specified IRQL value, thereby m
 ms.assetid: 61da4441-a9bd-47dc-bc54-23699213701a
 ms.date: 09/30/2018
 ms.topic: function
+f1_keywords:
+ - "wdm/KzRaiseIrql"
 ms.keywords: KzRaiseIrql, KeRaiseIrql
 req.header: wdm.h
 req.include-header:

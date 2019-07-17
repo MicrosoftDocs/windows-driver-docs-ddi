@@ -8,6 +8,8 @@ ms.assetid: B5B89AAC-169B-42B0-8FC8-AB436EFC3579
 ms.date: 05/08/2018
 ms.keywords: "*PKSTELEPHONY_CALLINFO, KSTELEPHONY_CALLINFO, KSTELEPHONY_CALLINFO structure [Audio Devices], PKSTELEPHONY_CALLINFO, PKSTELEPHONY_CALLINFO structure pointer [Audio Devices], _tagKSTELEPHONY_CALLINFO, audio.kstelephony_callinfo, ksmedia/KSTELEPHONY_CALLINFO, ksmedia/PKSTELEPHONY_CALLINFO"
 ms.topic: struct
+f1_keywords:
+ - "ksmedia/KSTELEPHONY_CALLINFO"
 req.header: ksmedia.h
 req.include-header: 
 req.target-type: Windows

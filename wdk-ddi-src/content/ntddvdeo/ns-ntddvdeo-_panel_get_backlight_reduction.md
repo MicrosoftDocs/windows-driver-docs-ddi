@@ -6,6 +6,8 @@ tech.root: display
 ms.assetid: b8f0ee27-16bc-4666-8055-acdad9c57a47
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "ntddvdeo/_PANEL_GET_BACKLIGHT_REDUCTION"
 ms.keywords: _PANEL_GET_BACKLIGHT_REDUCTION, *PPANEL_GET_BACKLIGHT_REDUCTION, PANEL_GET_BACKLIGHT_REDUCTION,
 req.header: ntddvdeo.h
 req.include-header:

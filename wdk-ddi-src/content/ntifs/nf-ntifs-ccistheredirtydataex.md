@@ -8,6 +8,8 @@ ms.assetid: 88378f82-2975-4b53-9dde-53ab81df3c53
 ms.date: 04/16/2018
 ms.keywords: CcIsThereDirtyDataEx, CcIsThereDirtyDataEx routine [Installable File System Drivers], ccref_13ae1f3e-b2ea-4bc6-a1cb-0101afd58d04.xml, ifsk.ccistheredirtydataex, ntifs/CcIsThereDirtyDataEx
 ms.topic: function
+f1_keywords:
+ - "ntifs/CcIsThereDirtyDataEx"
 req.header: ntifs.h
 req.include-header: Ntifs.h, FltKernel.h
 req.target-type: Universal

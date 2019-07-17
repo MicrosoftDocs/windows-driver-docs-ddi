@@ -6,6 +6,8 @@ ms.assetid: f37e8d1a-48dc-403c-a95e-1b3572dc14ac
 ms.date: 08/08/2018
 tech.root: sensors
 ms.topic: function
+f1_keywords:
+ - "sensorsutils/GetPerformanceTime"
 ms.keywords: GetPerformanceTime
 req.header: sensorsutils.h
 req.include-header:

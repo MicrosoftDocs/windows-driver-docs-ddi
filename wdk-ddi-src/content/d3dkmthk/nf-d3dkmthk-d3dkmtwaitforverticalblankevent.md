@@ -7,6 +7,8 @@ ms.assetid: aa40633e-1881-4bf4-a57b-f7ee3ce23438
 ms.date: 05/10/2018
 ms.keywords: D3DKMTWaitForVerticalBlankEvent, D3DKMTWaitForVerticalBlankEvent function [Display Devices], OpenGL_Functions_9e2c6684-7429-43d7-b43a-0f11aea6807f.xml, d3dkmthk/D3DKMTWaitForVerticalBlankEvent, display.d3dkmtwaitforverticalblankevent
 ms.topic: function
+f1_keywords:
+ - "d3dkmthk/D3DKMTWaitForVerticalBlankEvent"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal

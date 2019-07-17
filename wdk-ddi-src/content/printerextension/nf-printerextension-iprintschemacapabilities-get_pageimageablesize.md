@@ -8,6 +8,8 @@ ms.assetid: 5FA7613C-8714-481D-8439-9F3334D2E9E5
 ms.date: 04/20/2018
 ms.keywords: IPrintSchemaCapabilities interface [Print Devices],PageImageableSize property, IPrintSchemaCapabilities.PageImageableSize, IPrintSchemaCapabilities.get_PageImageableSize, IPrintSchemaCapabilities::PageImageableSize, IPrintSchemaCapabilities::get_PageImageableSize, PageImageableSize property [Print Devices], PageImageableSize property [Print Devices],IPrintSchemaCapabilities interface, get_PageImageableSize, print.iprintschemacapabilities_pageimageablesize, printerextension/IPrintSchemaCapabilities::PageImageableSize, printerextension/IPrintSchemaCapabilities::get_PageImageableSize
 ms.topic: method
+f1_keywords:
+ - "printerextension/IPrintSchemaCapabilities.PageImageableSize"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows

@@ -7,6 +7,8 @@ ms.assetid: c3cc08ea-22db-4fae-a180-76f3babd1c5c
 ms.date: 05/10/2018
 ms.keywords: ClearView, ClearView callback function [Display Devices], PFND3D11_1DDI_CLEARVIEW, PFND3D11_1DDI_CLEARVIEW callback, d3d10umddi/ClearView, display.clearview, display.clearview_d3d11_1_, display.pfnclearview
 ms.topic: callback
+f1_keywords:
+ - "d3d10umddi/ClearView"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

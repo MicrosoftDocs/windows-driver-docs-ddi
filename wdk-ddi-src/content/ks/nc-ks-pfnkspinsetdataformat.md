@@ -8,6 +8,8 @@ ms.assetid: f38222e8-f432-4a28-ba2f-2e4f60edd762
 ms.date: 04/23/2018
 ms.keywords: AVStrMiniPinSetDataFormat, AVStrMiniPinSetDataFormat routine [Streaming Media Devices], PFNKSPINSETDATAFORMAT, avstclbk_c72cee40-d3d3-45df-8ece-2eb0a8b52e38.xml, ks/AVStrMiniPinSetDataFormat, stream.avstrminipinsetdataformat
 ms.topic: callback
+f1_keywords:
+ - "ks/AVStrMiniPinSetDataFormat"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop

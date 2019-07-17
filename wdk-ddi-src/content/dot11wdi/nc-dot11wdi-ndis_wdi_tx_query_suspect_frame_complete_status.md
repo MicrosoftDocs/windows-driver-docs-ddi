@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: b3a6744f-f739-4dcc-b995-482875e552b0
 ms.date: 04/02/2018
 ms.topic: callback
+f1_keywords:
+ - "dot11wdi/NDIS_WDI_TX_QUERY_SUSPECT_FRAME_COMPLETE_STATUS"
 req.header: dot11wdi.h
 req.include-header:
 req.target-type:

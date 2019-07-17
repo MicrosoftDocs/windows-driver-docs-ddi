@@ -8,6 +8,8 @@ ms.assetid: 292e8a75-2035-4333-8a3c-28e79549d374
 ms.date: 02/26/2018
 ms.keywords: "*PWDF_REQUEST_REUSE_PARAMS, DFRequestObjectRef_07ccbf40-797b-41c5-9f81-87c1494a69ce.xml, PWDF_REQUEST_REUSE_PARAMS, PWDF_REQUEST_REUSE_PARAMS structure pointer, WDF_REQUEST_REUSE_PARAMS, WDF_REQUEST_REUSE_PARAMS structure, _WDF_REQUEST_REUSE_PARAMS, kmdf.wdf_request_reuse_params, wdf.wdf_request_reuse_params, wdfrequest/PWDF_REQUEST_REUSE_PARAMS, wdfrequest/WDF_REQUEST_REUSE_PARAMS"
 ms.topic: struct
+f1_keywords:
+ - "wdfrequest/WDF_REQUEST_REUSE_PARAMS"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Windows

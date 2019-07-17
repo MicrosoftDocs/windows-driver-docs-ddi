@@ -8,6 +8,8 @@ ms.assetid: 3fed5867-ad54-4114-b227-d7cab3661d28
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
+f1_keywords:
+ - "ntddk/WHEAP_PFA_MEMORY_REMOVE_MONITOR"
 ms.keywords: WHEAP_PFA_MEMORY_REMOVE_MONITOR, WHEAP_PFA_MEMORY_REMOVE_MONITOR, *PWHEAP_PFA_MEMORY_REMOVE_MONITOR, 
 req.header: ntddk.h
 req.include-header:

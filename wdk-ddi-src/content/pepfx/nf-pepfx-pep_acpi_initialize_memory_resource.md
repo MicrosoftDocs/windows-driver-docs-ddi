@@ -8,6 +8,8 @@ ms.assetid: 44EC5408-626A-4FDA-A777-C1A733D690F1
 ms.date: 04/30/2018
 ms.keywords: PEP_ACPI_INITIALIZE_MEMORY_RESOURCE, PEP_ACPI_INITIALIZE_MEMORY_RESOURCE function [Kernel-Mode Driver Architecture], kernel.pep_acpi_initialize_memory_resource, pepfx/PEP_ACPI_INITIALIZE_MEMORY_RESOURCE
 ms.topic: function
+f1_keywords:
+ - "pepfx/PEP_ACPI_INITIALIZE_MEMORY_RESOURCE"
 req.header: pepfx.h
 req.include-header: Pep_x.h
 req.target-type: Windows

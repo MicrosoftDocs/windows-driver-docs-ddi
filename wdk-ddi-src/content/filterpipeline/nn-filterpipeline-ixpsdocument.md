@@ -8,6 +8,8 @@ ms.assetid: 1d4a9ad3-6ac1-44c3-9ddd-0dc5f996d70d
 ms.date: 04/20/2018
 ms.keywords: IXpsDocument, IXpsDocument interface [Print Devices], IXpsDocument interface [Print Devices],described, filterpipeline/IXpsDocument, filterpipeline_d2db5467-7b2d-439c-8ad1-3ffb607a3167.xml, print.ixpsdocument
 ms.topic: interface
+f1_keywords:
+ - "filterpipeline/IXpsDocument"
 req.header: filterpipeline.h
 req.include-header: Filterpipeline.h
 req.target-type: Windows

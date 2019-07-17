@@ -8,6 +8,8 @@ ms.assetid: 56c2ddc0-9f25-4d4f-9f6e-d8c96c9acc91
 ms.date: 05/03/2018
 ms.keywords: IStiDeviceControl interface [Imaging Devices],Release method, IStiDeviceControl.Release, IStiDeviceControl::Release, Release, Release method [Imaging Devices], Release method [Imaging Devices],IStiDeviceControl interface, image.istidevicecontrol_release, stifnc_c0e50ea5-46e3-4b30-92b4-be6906647671.xml, stiusd/IStiDeviceControl::Release
 ms.topic: method
+f1_keywords:
+ - "stiusd/IStiDeviceControl.Release"
 req.header: stiusd.h
 req.include-header: Stiusd.h
 req.target-type: Desktop

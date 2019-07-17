@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 9e3bbfd8-0cc1-4d71-b648-c937b9e6b762
 ms.date: 02/08/2018
 ms.topic: function
+f1_keywords:
+ - "netrequest/NetRequestGetId"
 ms.keywords: NetRequestGetId
 req.header: netrequest.h
 req.include-header: netadaptercx.h

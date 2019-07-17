@@ -8,6 +8,8 @@ ms.assetid: 4C7884AB-C763-4FAF-8799-E0113B3F3AE0
 ms.date: 04/30/2018
 ms.keywords: IoSetActivityIdThread, IoSetActivityIdThread routine [Kernel-Mode Driver Architecture], kernel.iosetactivityidthread, ntddk/IoSetActivityIdThread
 ms.topic: function
+f1_keywords:
+ - "ntddk/IoSetActivityIdThread"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal

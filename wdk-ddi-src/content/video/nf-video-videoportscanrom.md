@@ -8,6 +8,8 @@ ms.assetid: 7787237c-5afd-46f2-ac75-6c0b41d37352
 ms.date: 05/10/2018
 ms.keywords: VideoPortScanRom, VideoPortScanRom function [Display Devices], VideoPort_Functions_7bcf750d-48d5-4b3b-911f-90efd1f0eed1.xml, display.videoportscanrom, video/VideoPortScanRom
 ms.topic: function
+f1_keywords:
+ - "video/VideoPortScanRom"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

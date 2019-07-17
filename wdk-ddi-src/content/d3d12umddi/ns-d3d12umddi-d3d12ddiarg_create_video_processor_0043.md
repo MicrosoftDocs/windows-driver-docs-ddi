@@ -5,6 +5,8 @@ description: Used to create a video processor.
 ms.assetid: ad4d456a-1dd6-4444-b8c4-877b317d559e
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3d12umddi/D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0043"
 ms.keywords: D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0043, D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0043,
 req.header: d3d12umddi.h
 req.include-header:

@@ -8,6 +8,8 @@ ms.assetid: 1314ffb5-e6e2-4c22-bc67-388da3bcbe79
 ms.date: 04/30/2018
 ms.keywords: RtlIsServicePackVersionInstalled, RtlIsServicePackVersionInstalled routine [Kernel-Mode Driver Architecture], k109_1552acd9-7036-45d2-bd1c-57b7a2154ecb.xml, kernel.rtlisservicepackversioninstalled, wdm/RtlIsServicePackVersionInstalled
 ms.topic: function
+f1_keywords:
+ - "wdm/RtlIsServicePackVersionInstalled"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

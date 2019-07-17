@@ -8,6 +8,8 @@ ms.assetid: d2668856-a25d-4329-b230-f36992f8f9a4
 ms.date: 02/26/2018
 ms.keywords: IWDFObject, IWDFObject interface, IWDFObject interface,described, UMDFBaseObjectRef_b2026a30-0f91-4793-8622-093ca142f794.xml, umdf.iwdfobject, wdf.iwdfobject, wudfddi/IWDFObject
 ms.topic: interface
+f1_keywords:
+ - "wudfddi/IWDFObject"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Desktop

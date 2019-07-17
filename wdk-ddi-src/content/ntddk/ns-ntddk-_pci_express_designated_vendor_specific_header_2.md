@@ -5,6 +5,8 @@ description: Represents the Designated Vendor-Specific Extended Capability Heade
 ms.assetid: 8510cb71-231c-4389-a9bd-753b773c426e
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "ntddk/_PCI_EXPRESS_DESIGNATED_VENDOR_SPECIFIC_HEADER_2"
 ms.keywords: _PCI_EXPRESS_DESIGNATED_VENDOR_SPECIFIC_HEADER_2, *PPCI_EXPRESS_DESIGNATED_VENDOR_SPECIFIC_HEADER_2, PCI_EXPRESS_DESIGNATED_VENDOR_SPECIFIC_HEADER_2, 
 req.header: ntddk.h
 req.include-header:

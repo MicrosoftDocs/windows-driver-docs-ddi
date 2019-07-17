@@ -6,6 +6,8 @@ tech.root: storage
 ms.assetid: 72c878ff-ba84-4805-8850-f96af298e249
 ms.date: 09/20/2018
 ms.topic: macro
+f1_keywords:
+ - "ntddstor/DEVICE_DSM_ROUND_UP"
 ms.keywords: DEVICE_DSM_ROUND_UP
 req.header: ntddstor.h
 req.include-header:

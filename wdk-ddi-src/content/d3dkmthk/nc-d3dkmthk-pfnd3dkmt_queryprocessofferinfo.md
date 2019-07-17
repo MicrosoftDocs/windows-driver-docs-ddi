@@ -5,6 +5,8 @@ description: The PFND3DKMT_QUERYPROCESSOFFERINFO callback function queries the p
 ms.assetid: 607cf96a-6c35-4eab-adc4-1eb12f2c1eae
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/PFND3DKMT_QUERYPROCESSOFFERINFO"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

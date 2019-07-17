@@ -8,6 +8,8 @@ ms.assetid: E5051F79-E523-4A2B-965F-4D2C3BB5847F
 ms.date: 05/02/2018
 ms.keywords: NDK_FN_INITIALIZE_FAST_REGISTER_MR, NDK_FN_INITIALIZE_FAST_REGISTER_MR callback, NdkInitializeFastRegisterMr, NdkInitializeFastRegisterMr callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkInitializeFastRegisterMr, netvista.ndk_fn_initialize_fast_register_mr
 ms.topic: callback
+f1_keywords:
+ - "ndkpi/NdkInitializeFastRegisterMr"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows

@@ -5,6 +5,8 @@ description: Implemented by the client driver to submit a present Blt to hardwar
 ms.assetid: 3341a253-26f4-4897-a3c0-c66f37288b44
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "dxgiddi/PFNDDXGIDDI_SUBMITPRESENTBLTTOHWQUEUECB"
 req.header: dxgiddi.h
 req.include-header:
 req.target-type:

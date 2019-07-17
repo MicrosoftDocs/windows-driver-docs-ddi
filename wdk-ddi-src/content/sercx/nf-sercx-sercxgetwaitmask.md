@@ -8,6 +8,8 @@ ms.assetid: 57A8E522-D787-4663-B2E3-46E8430388B7
 ms.date: 04/23/2018
 ms.keywords: 1/SerCxGetWaitMask, SerCxGetWaitMask, SerCxGetWaitMask method [Serial Ports], serports.sercxgetwaitmask
 ms.topic: function
+f1_keywords:
+ - "sercx/SerCxGetWaitMask"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Universal

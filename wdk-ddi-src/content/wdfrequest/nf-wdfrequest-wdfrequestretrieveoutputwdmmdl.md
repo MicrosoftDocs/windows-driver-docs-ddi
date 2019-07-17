@@ -8,6 +8,8 @@ ms.assetid: 3f95caad-92e5-4d0f-bd9e-8873b05f2aaa
 ms.date: 02/26/2018
 ms.keywords: DFRequestObjectRef_e3ef5371-4d09-406c-9a72-c420822e9fdd.xml, WdfRequestRetrieveOutputWdmMdl, WdfRequestRetrieveOutputWdmMdl method, kmdf.wdfrequestretrieveoutputwdmmdl, wdf.wdfrequestretrieveoutputwdmmdl, wdfrequest/WdfRequestRetrieveOutputWdmMdl
 ms.topic: function
+f1_keywords:
+ - "wdfrequest/WdfRequestRetrieveOutputWdmMdl"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal

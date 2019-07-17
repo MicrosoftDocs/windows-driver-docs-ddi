@@ -5,6 +5,8 @@ description: The FindSymbolByRVA method will find a single matching symbol at th
 ms.assetid: 1c0fb339-0086-4ab4-987f-d6fc673c37cf
 ms.date: 09/18/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDebugHostModule2.FindContainingSymbolByRVA"
 ms.keywords: IDebugHostModule2::FindContainingSymbolByRVA, FindContainingSymbolByRVA, IDebugHostModule2.FindContainingSymbolByRVA, IDebugHostModule2::FindContainingSymbolByRVA, IDebugHostModule2.FindContainingSymbolByRVA
 req.header: dbgmodel.h
 req.include-header:

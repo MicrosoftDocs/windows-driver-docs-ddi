@@ -8,6 +8,8 @@ ms.assetid: cad48019-3777-4f1c-9872-c837604f47bc
 ms.date: 04/16/2018
 ms.keywords: "*PFILE_FS_LABEL_INFORMATION, FILE_FS_LABEL_INFORMATION, FILE_FS_LABEL_INFORMATION structure [Installable File System Drivers], PFILE_FS_LABEL_INFORMATION, PFILE_FS_LABEL_INFORMATION structure pointer [Installable File System Drivers], _FILE_FS_LABEL_INFORMATION, fileinformationstructures_ac9398f2-2488-43b4-8fdb-76ae1f84066c.xml, ifsk.file_fs_label_information, ntddk/FILE_FS_LABEL_INFORMATION, ntddk/PFILE_FS_LABEL_INFORMATION"
 ms.topic: struct
+f1_keywords:
+ - "ntddk/FILE_FS_LABEL_INFORMATION"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h, Fltkernel.h
 req.target-type: Windows

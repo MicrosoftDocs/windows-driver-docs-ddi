@@ -8,6 +8,8 @@ ms.assetid: 91b07a5c-ed25-4268-bd6d-273ae8b1ac28
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_OPM_GET_RANDOM_NUMBER, DXGKDDI_OPM_GET_RANDOM_NUMBER callback, Dm_Opm_functions_a7d335ef-61bf-452a-a811-20048ff28dbf.xml, DxgkDdiOPMGetRandomNumber, DxgkDdiOPMGetRandomNumber callback function [Display Devices], display.dxgkddiopmgetrandomnumber, dispmprt/DxgkDdiOPMGetRandomNumber
 ms.topic: callback
+f1_keywords:
+ - "dispmprt/DxgkDdiOPMGetRandomNumber"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Desktop

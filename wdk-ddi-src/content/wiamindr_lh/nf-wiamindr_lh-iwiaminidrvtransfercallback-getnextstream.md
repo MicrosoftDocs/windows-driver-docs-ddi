@@ -8,6 +8,8 @@ ms.assetid: FF33471A-692B-4568-BF37-1870DEC367D0
 ms.date: 05/03/2018
 ms.keywords: GetNextStream, GetNextStream method [Imaging Devices], GetNextStream method [Imaging Devices],IWiaMiniDrvTransferCallback interface, IWiaMiniDrvTransferCallback interface [Imaging Devices],GetNextStream method, IWiaMiniDrvTransferCallback.GetNextStream, IWiaMiniDrvTransferCallback::GetNextStream, image.iwiaminidrvtransfercallback_getnextstream, wiamindr_lh/IWiaMiniDrvTransferCallback::GetNextStream
 ms.topic: method
+f1_keywords:
+ - "wiamindr_lh/IWiaMiniDrvTransferCallback.GetNextStream"
 req.header: wiamindr_lh.h
 req.include-header: 
 req.target-type: Desktop

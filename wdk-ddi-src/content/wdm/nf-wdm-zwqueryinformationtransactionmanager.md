@@ -8,6 +8,8 @@ ms.assetid: c87e0635-ad0a-4832-97ed-30c731559fb9
 ms.date: 04/30/2018
 ms.keywords: NtQueryInformationTransactionManager, ZwQueryInformationTransactionManager, ZwQueryInformationTransactionManager routine [Kernel-Mode Driver Architecture], kernel.zwqueryinformationtransactionmanager, ktm_ref_3311322f-0cc0-4198-8c80-1b203403b080.xml, wdm/NtQueryInformationTransactionManager, wdm/ZwQueryInformationTransactionManager
 ms.topic: function
+f1_keywords:
+ - "wdm/ZwQueryInformationTransactionManager"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

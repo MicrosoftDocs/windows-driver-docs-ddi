@@ -5,6 +5,8 @@ description: Initializes a **USBPM_HUB_CONNECTOR_HANDLES** structure.
 ms.assetid: 0d6bdd1f-9bab-47c4-889d-d9a2bed47e20
 ms.date: 09/30/2018
 ms.topic: function
+f1_keywords:
+ - "usbpmapi/USBPM_HUB_CONNECTOR_HANDLES_INIT"
 ms.keywords: USBPM_HUB_CONNECTOR_HANDLES_INIT
 tech.root: usbref
 req.header: usbpmapi.h

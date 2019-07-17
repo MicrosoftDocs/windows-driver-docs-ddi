@@ -5,6 +5,8 @@ description: pfnMakeResidentCb is used to instruct the OS to add a resource to t
 ms.assetid: 77df8a7f-140c-44f3-ba77-c80c102dbc7e
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_MAKERESIDENT_CB"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

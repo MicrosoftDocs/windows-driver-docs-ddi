@@ -8,6 +8,8 @@ ms.assetid: 991208ee-d245-41d1-a5e6-0e79368e37a8
 ms.date: 04/30/2019
 ms.keywords: "*PKSPROPERTY_TVAUDIO_CAPS_S, KSPROPERTY_TVAUDIO_CAPS_S, KSPROPERTY_TVAUDIO_CAPS_S structure [Streaming Media Devices], PKSPROPERTY_TVAUDIO_CAPS_S, PKSPROPERTY_TVAUDIO_CAPS_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_TVAUDIO_CAPS_S, ksmedia/PKSPROPERTY_TVAUDIO_CAPS_S, stream.ksproperty_tvaudio_caps_s, vidcapstruct_dd4243d2-9778-4dae-99e2-0d32a73ab0d4.xml"
 ms.topic: struct
+f1_keywords:
+ - "ksmedia/KSPROPERTY_TVAUDIO_CAPS_S"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: DF4ECD03-2C2F-44B3-82BE-E57B333AF069
 ms.date: 05/02/2018
 ms.keywords: WDI_SCAN_TYPE, WDI_SCAN_TYPE enumeration [Device and Driver Installation], WDI_SCAN_TYPE_ACTIVE_ONLY, WDI_SCAN_TYPE_AUTO, WDI_SCAN_TYPE_PASSIVE_ONLY, _WDI_SCAN_TYPE, netvista.wdi_scan_type, netvista.wifi_scan_type, wditypes/WDI_SCAN_TYPE, wditypes/WDI_SCAN_TYPE_ACTIVE_ONLY, wditypes/WDI_SCAN_TYPE_AUTO, wditypes/WDI_SCAN_TYPE_PASSIVE_ONLY
 ms.topic: enum
+f1_keywords:
+ - "wditypes/WDI_SCAN_TYPE"
 req.header: wditypes.hpp
 req.include-header: 
 req.target-type: Windows

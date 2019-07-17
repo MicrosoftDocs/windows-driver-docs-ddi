@@ -8,6 +8,8 @@ ms.assetid: 7ec30c51-5e07-496b-96af-8eafb564d98d
 ms.date: 02/26/2018
 ms.keywords: IPnpCallbackSelfManagedIo interface,OnSelfManagedIoSuspend method, IPnpCallbackSelfManagedIo.OnSelfManagedIoSuspend, IPnpCallbackSelfManagedIo::OnSelfManagedIoSuspend, OnSelfManagedIoSuspend, OnSelfManagedIoSuspend method, OnSelfManagedIoSuspend method,IPnpCallbackSelfManagedIo interface, UMDFDeviceObjectRef_87fc0596-4d08-4c55-88b0-e2ad9d085745.xml, umdf.ipnpcallbackselfmanagedio_onselfmanagediosuspend, wdf.ipnpcallbackselfmanagedio_onselfmanagediosuspend, wudfddi/IPnpCallbackSelfManagedIo::OnSelfManagedIoSuspend
 ms.topic: method
+f1_keywords:
+ - "wudfddi/IPnpCallbackSelfManagedIo.OnSelfManagedIoSuspend"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Windows

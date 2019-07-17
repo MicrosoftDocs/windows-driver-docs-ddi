@@ -8,6 +8,8 @@ ms.assetid: 743AA179-3FD1-4528-9A78-5ECC53642D55
 ms.date: 04/23/2018
 ms.keywords: "*PSERCX_ACTIVITY, 1/PSERCX_ACTIVITY, 1/SERCX_ACTIVITY, PSERCX_ACTIVITY, PSERCX_ACTIVITY structure pointer [Serial Ports], SERCX_ACTIVITY, SERCX_ACTIVITY structure [Serial Ports], _SERCX_ACTIVITY, serports.sercx_activity"
 ms.topic: struct
+f1_keywords:
+ - "sercx/SERCX_ACTIVITY"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Windows

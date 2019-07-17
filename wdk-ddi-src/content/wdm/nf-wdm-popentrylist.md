@@ -8,6 +8,8 @@ ms.assetid: b24ec573-4164-4016-a19d-574ebd75ec8f
 ms.date: 04/30/2018
 ms.keywords: PopEntryList, PopEntryList routine [Kernel-Mode Driver Architecture], k109_a5d1634c-e1ab-43ac-ab3f-d0993263f5bb.xml, kernel.popentrylist, wdm/PopEntryList
 ms.topic: function
+f1_keywords:
+ - "wdm/PopEntryList"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Wudfwdm.h
 req.target-type: Desktop

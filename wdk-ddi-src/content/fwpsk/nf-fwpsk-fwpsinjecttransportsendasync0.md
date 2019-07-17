@@ -8,6 +8,8 @@ ms.assetid: 1298a825-16c4-49ab-b038-19247975ea46
 ms.date: 05/02/2018
 ms.keywords: FwpsInjectTransportSendAsync0, FwpsInjectTransportSendAsync0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsInjectTransportSendAsync0, netvista.fwpsinjecttransportsendasync0, wfp_ref_2_funct_3_fwps_I_76082863-1d74-4916-9766-c65b745dca60.xml
 ms.topic: function
+f1_keywords:
+ - "fwpsk/FwpsInjectTransportSendAsync0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal

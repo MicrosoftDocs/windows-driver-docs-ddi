@@ -8,6 +8,8 @@ ms.assetid: 4a343e55-9150-4411-bf37-f410b94ca0aa
 ms.date: 05/02/2018
 ms.keywords: RILCALLINFOMULTIPARTY, RILCALLINFOMULTIPARTY enumeration [Network Drivers Starting with Windows Vista], RIL_CALL_MAX, RIL_CALL_MULTIPARTY, netvista.rilcallinfomultiparty, ntddrilapitypes/RILCALLINFOMULTIPARTY, ntddrilapitypes/RIL_CALL_MAX, ntddrilapitypes/RIL_CALL_MULTIPARTY
 ms.topic: enum
+f1_keywords:
+ - "ntddrilapitypes/RILCALLINFOMULTIPARTY"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

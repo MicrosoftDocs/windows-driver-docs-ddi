@@ -8,6 +8,8 @@ ms.assetid: d74d5b61-f8e8-4ee0-83d2-cfb003189ef4
 ms.date: 05/03/2018
 ms.keywords: EngExtCpp_Ref_167b764a-f061-46c2-97ce-71c22ddd9b6f.xml, ExtRemoteTyped interface [Windows Debugging],GetFieldOffset method, ExtRemoteTyped.GetFieldOffset, ExtRemoteTyped::GetFieldOffset, GetFieldOffset, GetFieldOffset method [Windows Debugging], GetFieldOffset method [Windows Debugging],ExtRemoteTyped interface, debugger.extremotetyped_getfieldoffset
 ms.topic: method
+f1_keywords:
+ - "engextcpp/ExtRemoteTyped.GetFieldOffset"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop

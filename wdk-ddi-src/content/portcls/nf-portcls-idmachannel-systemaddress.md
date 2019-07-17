@@ -6,6 +6,8 @@ tech.root: audio
 ms.assetid: 90bbf083-1820-4841-9572-4fc6fad6e897
 ms.date: 10/31/2018
 ms.topic: method
+f1_keywords:
+ - "portcls/IDmaChannel.SystemAddress"
 ms.keywords: IDmaChannel::SystemAddress, SystemAddress, IDmaChannel.SystemAddress, IDmaChannel::SystemAddress, IDmaChannel.SystemAddress
 req.header: portcls.h
 req.include-header:

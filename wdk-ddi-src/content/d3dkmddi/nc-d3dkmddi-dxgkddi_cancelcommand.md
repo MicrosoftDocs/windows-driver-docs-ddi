@@ -7,6 +7,8 @@ ms.assetid: c290c313-14ee-4554-9bb1-8adec1892426
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_CANCELCOMMAND, DXGKDDI_CANCELCOMMAND callback, DxgkDdiCancelCommand, DxgkDdiCancelCommand callback function [Display Devices], d3dkmddi/DxgkDdiCancelCommand, display.dxgkddicancelcommand
 ms.topic: callback
+f1_keywords:
+ - "d3dkmddi/DxgkDdiCancelCommand"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Desktop

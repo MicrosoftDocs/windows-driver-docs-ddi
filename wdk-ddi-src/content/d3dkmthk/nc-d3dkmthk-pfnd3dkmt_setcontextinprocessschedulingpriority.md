@@ -5,6 +5,8 @@ description: The PFND3DKMT_SETCONTEXTINPROCESSSCHEDULINGPRIORITY callback functi
 ms.assetid: f449b34a-48be-498b-856b-fd9f2f48008f
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/PFND3DKMT_SETCONTEXTINPROCESSSCHEDULINGPRIORITY"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

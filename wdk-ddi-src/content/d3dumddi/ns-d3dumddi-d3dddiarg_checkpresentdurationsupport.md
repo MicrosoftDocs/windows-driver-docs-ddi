@@ -8,6 +8,8 @@ ms.assetid: D72D6C06-DD6A-4051-9AD0-FD1E240C164A
 ms.date: 05/10/2018
 ms.keywords: D3DDDIARG_CHECKPRESENTDURATIONSUPPORT, D3DDDIARG_CHECKPRESENTDURATIONSUPPORT structure [Display Devices], d3dumddi/D3DDDIARG_CHECKPRESENTDURATIONSUPPORT, display.d3dddiarg_checkpresentdurationsupport
 ms.topic: struct
+f1_keywords:
+ - "d3dumddi/D3DDDIARG_CHECKPRESENTDURATIONSUPPORT"
 req.header: d3dumddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows

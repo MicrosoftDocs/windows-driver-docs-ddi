@@ -8,6 +8,8 @@ ms.assetid: 4A109CDF-C5DE-4BAE-AA4E-294EA5CE86C5
 ms.date: 02/26/2018
 ms.keywords: IWDFInterrupt interface,TryToAcquireInterruptLock method, IWDFInterrupt.TryToAcquireInterruptLock, IWDFInterrupt::TryToAcquireInterruptLock, TryToAcquireInterruptLock, TryToAcquireInterruptLock method, TryToAcquireInterruptLock method,IWDFInterrupt interface, umdf.iwdfinterrupt_trytoacquireinterruptlock, wdf.iwdfinterrupt_trytoacquireinterruptlock, wudfddi/IWDFInterrupt::TryToAcquireInterruptLock
 ms.topic: method
+f1_keywords:
+ - "wudfddi/IWDFInterrupt.TryToAcquireInterruptLock"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Desktop

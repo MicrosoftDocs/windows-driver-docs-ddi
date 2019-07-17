@@ -7,6 +7,8 @@ ms.assetid: a92865bc-620f-434d-a185-b837924599fc
 ms.date: 05/10/2018
 ms.keywords: D3DKMT_ADAPTERTYPE, D3DKMT_ADAPTERTYPE structure [Display Devices], _D3DKMT_ADAPTERTYPE, d3dkmthk/D3DKMT_ADAPTERTYPE, display.d3dkmt_adaptertype
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/D3DKMT_ADAPTERTYPE"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

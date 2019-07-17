@@ -5,6 +5,8 @@ description: Reserved for future use. Toggles the error reporting for the FPGA d
 ms.assetid: b7e4aaab-52a9-4d9d-892b-6f02f1172127
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "wdm/FPGA_CONTROL_ERROR_REPORTING"
 req.header: wdm.h
 req.include-header:
 req.target-type:

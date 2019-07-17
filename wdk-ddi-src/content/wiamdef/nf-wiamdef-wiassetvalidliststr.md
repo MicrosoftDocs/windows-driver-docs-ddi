@@ -8,6 +8,8 @@ ms.assetid: d2745d91-6696-4946-9f90-a9cb48c7980f
 ms.date: 05/03/2018
 ms.keywords: image.wiassetvalidliststr, wiamdef/wiasSetValidListStr, wiasFncs_c18aeb74-5c44-43ea-be9e-5132f45a5f77.xml, wiasSetValidListStr, wiasSetValidListStr function [Imaging Devices]
 ms.topic: function
+f1_keywords:
+ - "wiamdef/wiasSetValidListStr"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop

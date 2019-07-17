@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: ba1d5634-2c2b-4680-8212-5e76193d21a8
 ms.date: 01/18/2019
 ms.topic: function
+f1_keywords:
+ - "netadapter/NetAdapterInitAllocate"
 ms.keywords: NetAdapterInitAllocate
 req.header: netadapter.h
 req.include-header:

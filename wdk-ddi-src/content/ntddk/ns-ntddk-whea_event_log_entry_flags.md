@@ -8,6 +8,8 @@ ms.assetid: 417a74d6-611c-4da9-be6c-42ed204dfe0f
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
+f1_keywords:
+ - "ntddk/WHEA_EVENT_LOG_ENTRY_FLAGS"
 ms.keywords: WHEA_EVENT_LOG_ENTRY_FLAGS, WHEA_EVENT_LOG_ENTRY_FLAGS, *PWHEA_EVENT_LOG_ENTRY_FLAGS, 
 req.header: ntddk.h
 req.include-header:

@@ -8,6 +8,8 @@ ms.assetid: 697F4A4C-349E-46E5-B891-215C4AFFC4B6
 ms.date: 05/10/2018
 ms.keywords: DXGKVGPU_ESCAPE_INITIALIZE, DXGKVGPU_ESCAPE_INITIALIZE structure [Display Devices], _DXGKVGPU_ESCAPE_INITIALIZE, d3dukmdt/DXGKVGPU_ESCAPE_INITIALIZE, display.dxgkvgpu_escape_initialize
 ms.topic: struct
+f1_keywords:
+ - "d3dukmdt/DXGKVGPU_ESCAPE_INITIALIZE"
 req.header: d3dukmdt.h
 req.include-header:
 req.target-type: Windows

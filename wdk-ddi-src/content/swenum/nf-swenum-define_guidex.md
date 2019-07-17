@@ -5,6 +5,8 @@ description:
 ms.assetid: aa3c1f4a-1a4b-4cad-b54e-260022c29681
 ms.date: 10/19/2018
 ms.topic: function
+f1_keywords:
+ - "swenum/DEFINE_GUIDEX"
 ms.keywords: DEFINE_GUIDEX
 req.header: swenum.h
 req.include-header:

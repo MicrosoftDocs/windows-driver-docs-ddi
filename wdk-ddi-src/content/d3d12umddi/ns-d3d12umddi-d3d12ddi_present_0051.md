@@ -5,6 +5,8 @@ description: Arguments that describe allocations that content is copied to and f
 ms.assetid: 517113ed-c43c-4041-9714-5c0d8e89d276
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_PRESENT_0051"
 ms.keywords: D3D12DDI_PRESENT_0051, D3D12DDI_PRESENT_0051, 
 req.header: d3d12umddi.h
 req.include-header:

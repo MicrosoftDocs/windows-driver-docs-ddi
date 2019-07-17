@@ -8,6 +8,8 @@ ms.assetid: DC23B286-8A52-4642-B345-D76802C83C55
 ms.date: 05/07/2018
 ms.keywords: UcxEndpointSetWdfIoQueue, UcxEndpointSetWdfIoQueue method [Buses], buses._ucxendpointsetwdfioqueue
 ms.topic: function
+f1_keywords:
+ - "ucxendpoint/UcxEndpointSetWdfIoQueue"
 req.header: ucxendpoint.h
 req.include-header: Ucxclass.h, Ucxendpoint.h
 req.target-type: Windows

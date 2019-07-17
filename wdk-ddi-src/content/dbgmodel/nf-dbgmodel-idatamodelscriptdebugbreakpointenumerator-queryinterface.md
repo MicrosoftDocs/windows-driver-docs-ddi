@@ -5,6 +5,8 @@ description: Retrieves pointers to the supported interfaces on an object. This m
 ms.assetid: d44a0cdb-77d2-4208-b780-bd9662577dc5
 ms.date: 09/10/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDataModelScriptDebugBreakpointEnumerator.QueryInterface"
 ms.keywords: IDataModelScriptDebugBreakpointEnumerator::QueryInterface, QueryInterface, IDataModelScriptDebugBreakpointEnumerator.QueryInterface, IDataModelScriptDebugBreakpointEnumerator::QueryInterface, IDataModelScriptDebugBreakpointEnumerator.QueryInterface
 req.header: dbgmodel.h
 req.include-header:

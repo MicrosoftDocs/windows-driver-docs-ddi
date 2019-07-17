@@ -5,6 +5,8 @@ description: 3d vector class used in sensor driver development.
 ms.assetid: 200dc7a1-716c-4c0a-bed0-4e5f05c7888b
 ms.date: 08/01/2018
 ms.topic: method
+f1_keywords:
+ - "math3dhelper/CVEC3D.CVEC3D"
 tech.root: sensors
 ms.keywords: CVEC3D::CVEC3D, CVEC3D, CVEC3D.CVEC3D, CVEC3D::CVEC3D, CVEC3D.CVEC3D
 req.header: math3dhelper.h

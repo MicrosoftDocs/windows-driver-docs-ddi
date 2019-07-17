@@ -7,6 +7,8 @@ ms.assetid: a55f9aee-c6a5-4391-aad1-4003e58692cd
 ms.date: 05/10/2018
 ms.keywords: D3D10DDI_MAPPED_SUBRESOURCE, D3D10DDI_MAPPED_SUBRESOURCE structure [Display Devices], UMDisplayDriver_Dx10param_Structs_19502bf4-94a6-48d5-8294-c058c254540f.xml, d3d10umddi/D3D10DDI_MAPPED_SUBRESOURCE, display.d3d10ddi_mapped_subresource
 ms.topic: struct
+f1_keywords:
+ - "d3d10umddi/D3D10DDI_MAPPED_SUBRESOURCE"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows

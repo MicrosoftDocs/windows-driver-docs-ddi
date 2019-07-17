@@ -8,6 +8,8 @@ ms.assetid: 7bc753b1-5e09-431b-b226-fb7194dd6947
 ms.date: 05/02/2018
 ms.keywords: NdisInterlockedAddLargeStatistic, NdisInterlockedAddLargeStatistic macro [Network Drivers Starting with Windows Vista], ndis/NdisInterlockedAddLargeStatistic, ndis_interlocked_ref_f1b7622e-acc8-45d7-b85e-c39058b595fe.xml, netvista.ndisinterlockedaddlargestatistic
 ms.topic: macro
+f1_keywords:
+ - "ndis/NdisInterlockedAddLargeStatistic"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

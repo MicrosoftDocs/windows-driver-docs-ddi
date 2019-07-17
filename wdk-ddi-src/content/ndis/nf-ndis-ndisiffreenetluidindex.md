@@ -8,6 +8,8 @@ ms.assetid: eba881f8-e946-44a8-9624-37f63471fb65
 ms.date: 05/02/2018
 ms.keywords: NdisIfFreeNetLuidIndex, NdisIfFreeNetLuidIndex function [Network Drivers Starting with Windows Vista], ndis/NdisIfFreeNetLuidIndex, net_if_functions_ref_040908da-c299-4265-9639-f2e65776f26b.xml, netvista.ndisiffreenetluidindex
 ms.topic: function
+f1_keywords:
+ - "ndis/NdisIfFreeNetLuidIndex"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

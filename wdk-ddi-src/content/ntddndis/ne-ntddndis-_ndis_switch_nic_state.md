@@ -8,6 +8,8 @@ ms.assetid: 06FFECB3-0883-41CA-9BD3-A6A1D95D5F8C
 ms.date: 05/02/2018
 ms.keywords: NDIS_SWITCH_NIC_STATE, NDIS_SWITCH_NIC_STATE enumeration [Network Drivers Starting with Windows Vista], NdisSwitchNicStateConnected, NdisSwitchNicStateCreated, NdisSwitchNicStateDeleted, NdisSwitchNicStateDisconnected, NdisSwitchNicStateUnknown, _NDIS_SWITCH_NIC_STATE, netvista.ndis_switch_nic_state, ntddndis/NDIS_SWITCH_NIC_STATE, ntddndis/NdisSwitchNicStateConnected, ntddndis/NdisSwitchNicStateCreated, ntddndis/NdisSwitchNicStateDeleted, ntddndis/NdisSwitchNicStateDisconnected, ntddndis/NdisSwitchNicStateUnknown
 ms.topic: enum
+f1_keywords:
+ - "ntddndis/NDIS_SWITCH_NIC_STATE"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

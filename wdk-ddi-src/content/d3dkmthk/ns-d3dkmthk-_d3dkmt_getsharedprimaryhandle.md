@@ -7,6 +7,8 @@ ms.assetid: 59c45a0e-54c3-4301-8e65-409d6c728325
 ms.date: 05/10/2018
 ms.keywords: D3DKMT_GETSHAREDPRIMARYHANDLE, D3DKMT_GETSHAREDPRIMARYHANDLE structure [Display Devices], OpenGL_Structs_322563d8-5546-4b10-bd74-101f3ffb633a.xml, _D3DKMT_GETSHAREDPRIMARYHANDLE, d3dkmthk/D3DKMT_GETSHAREDPRIMARYHANDLE, display.d3dkmt_getsharedprimaryhandle
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/D3DKMT_GETSHAREDPRIMARYHANDLE"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

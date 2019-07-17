@@ -8,6 +8,8 @@ ms.assetid: 7A3DC90E-628C-4FFC-807D-8F23BDC97742
 ms.date: 04/23/2018
 ms.keywords: 2/SerCx2CompleteWait, SerCx2CompleteWait, SerCx2CompleteWait method [Serial Ports], serports.sercx2completewait
 ms.topic: function
+f1_keywords:
+ - "sercx/SerCx2CompleteWait"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Universal

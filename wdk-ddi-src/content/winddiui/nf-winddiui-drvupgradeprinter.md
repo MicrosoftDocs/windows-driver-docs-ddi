@@ -8,6 +8,8 @@ ms.assetid: 5a8a764d-48bf-48f9-831a-ac22767aeca6
 ms.date: 04/20/2018
 ms.keywords: DrvUpgradePrinter, DrvUpgradePrinter function [Print Devices], print.drvupgradeprinter, print_interface-graphics_ab060948-18bc-4b0f-a504-320083fcb173.xml, winddiui/DrvUpgradePrinter
 ms.topic: function
+f1_keywords:
+ - "winddiui/DrvUpgradePrinter"
 req.header: winddiui.h
 req.include-header: Winddiui.h
 req.target-type: Desktop

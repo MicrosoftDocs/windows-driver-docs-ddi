@@ -5,6 +5,8 @@ description: Used to create a protected video streaming session.
 ms.assetid: 76a03a4a-cab3-4c4c-9a07-58db32c3382d
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3d12umddi/D3D12DDICB_CREATE_PROTECTED_SESSION_0030"
 ms.keywords: D3D12DDICB_CREATE_PROTECTED_SESSION_0030, D3D12DDICB_CREATE_PROTECTED_SESSION_0030,
 req.header: d3d12umddi.h
 req.include-header:

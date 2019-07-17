@@ -8,6 +8,8 @@ ms.assetid: 84155e3f-8090-4b0d-a101-25ecd126bc37
 ms.date: 04/16/2018
 ms.keywords: RxpUnregisterMinirdr, RxpUnregisterMinirdr function [Installable File System Drivers], ifsk.rxpunregisterminirdr, mrx/RxpUnregisterMinirdr, rxref_3d8dd57c-4753-47c7-afda-efbd54882c74.xml
 ms.topic: function
+f1_keywords:
+ - "mrx/RxpUnregisterMinirdr"
 req.header: mrx.h
 req.include-header: Mrx.h
 req.target-type: Desktop

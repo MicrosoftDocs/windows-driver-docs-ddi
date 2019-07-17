@@ -8,6 +8,8 @@ ms.assetid: e3885241-c6a4-417f-a7cf-38d221307f8e
 ms.date: 04/30/2019
 ms.keywords: "*PKSPROPERTY_ALLOCATOR_CONTROL_CAPTURE_INTERLEAVE_S, KSPROPERTY_ALLOCATOR_CONTROL_CAPTURE_INTERLEAVE_S, KSPROPERTY_ALLOCATOR_CONTROL_CAPTURE_INTERLEAVE_S structure [Streaming Media Devices], PKSPROPERTY_ALLOCATOR_CONTROL_CAPTURE_INTERLEAVE_S, PKSPROPERTY_ALLOCATOR_CONTROL_CAPTURE_INTERLEAVE_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_ALLOCATOR_CONTROL_CAPTURE_INTERLEAVE_S, ksmedia/PKSPROPERTY_ALLOCATOR_CONTROL_CAPTURE_INTERLEAVE_S, stream.ksproperty_allocator_control_capture_interleave_s, vidcapstruct_d012cbc9-457f-4689-943a-5dcf5eb33c46.xml"
 ms.topic: struct
+f1_keywords:
+ - "ksmedia/KSPROPERTY_ALLOCATOR_CONTROL_CAPTURE_INTERLEAVE_S"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows

@@ -5,6 +5,8 @@ description: The GetParentModel method returns the i-th parent model in the pare
 ms.assetid: 14e98994-5d68-40a2-9891-df34e3e6c93f
 ms.date: 08/09/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IModelObject.GetParentModel"
 ms.keywords: IModelObject::GetParentModel, GetParentModel, IModelObject.GetParentModel, IModelObject::GetParentModel, IModelObject.GetParentModel
 req.header: dbgmodel.h
 req.include-header:

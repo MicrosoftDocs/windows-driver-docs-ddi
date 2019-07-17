@@ -8,6 +8,8 @@ ms.assetid: 9dc7f71a-753d-41ca-8eaa-bff6536e834f
 ms.date: 05/10/2018
 ms.keywords: CloseAdapter, CloseAdapter callback function [Display Devices], PFND3DDDI_CLOSEADAPTER, PFND3DDDI_CLOSEADAPTER callback, UserModeDisplayDriver_Functions_ccc1793f-15b1-480f-8835-38326b749308.xml, d3dumddi/CloseAdapter, display.closeadapter
 ms.topic: callback
+f1_keywords:
+ - "d3dumddi/CloseAdapter"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop

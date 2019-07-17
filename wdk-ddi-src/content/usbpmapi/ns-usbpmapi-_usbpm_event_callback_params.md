@@ -5,6 +5,8 @@ description: Contains the details of the events related to changes in policy man
 ms.assetid: aa4fb292-590e-486a-af06-d6414892e68c
 ms.date: 09/30/2018
 ms.topic: struct
+f1_keywords:
+ - "usbpmapi/_USBPM_EVENT_CALLBACK_PARAMS"
 tech.root: usbref
 ms.keywords: _USBPM_EVENT_CALLBACK_PARAMS, USBPM_EVENT_CALLBACK_PARAMS, *PUSBPM_EVENT_CALLBACK_PARAMS, 
 req.header: usbpmapi.h

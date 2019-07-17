@@ -8,6 +8,8 @@ ms.assetid: b4d01c1f-8267-490e-a808-87d9be666a94
 ms.date: 05/10/2018
 ms.keywords: DXVA_ExtendedFormat, DXVA_ExtendedFormat structure [Display Devices], _DXVA_ExtendedFormat, display.dxva_extendedformat, dxva/DXVA_ExtendedFormat, dxvaref_3e46e283-492a-4ec5-8213-ff05215b0676.xml
 ms.topic: struct
+f1_keywords:
+ - "dxva/DXVA_ExtendedFormat"
 req.header: dxva.h
 req.include-header: Dxva.h
 req.target-type: Windows

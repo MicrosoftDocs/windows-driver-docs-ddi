@@ -8,6 +8,8 @@ ms.assetid: dc542e81-9078-4e14-8c8d-9cfaeb5b5495
 ms.date: 02/23/2018
 ms.keywords: PosBarcodeScannerImagePreviewEventData, PosBarcodeScannerImagePreviewEventData structure, PosEventDataHeader, PosEventDataHeader structure, _PosEventDataHeader, pointofservicedriverinterface/PosBarcodeScannerImagePreviewEventData, pointofservicedriverinterface/PosEventDataHeader, pos.posbarcodescannerimageprevieweventdata
 ms.topic: struct
+f1_keywords:
+ - "pointofservicedriverinterface/PosEventDataHeader"
 req.header: pointofservicedriverinterface.h
 req.include-header: PointOfServiceDriverInterface.h
 req.target-type: Windows

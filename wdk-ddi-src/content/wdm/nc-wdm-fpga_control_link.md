@@ -5,6 +5,8 @@ description: Reserved for future use.
 ms.assetid: 3e495043-8ab0-4119-abb3-a8b3c4cf9ca3
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "wdm/FPGA_CONTROL_LINK"
 req.header: wdm.h
 req.include-header:
 req.target-type:

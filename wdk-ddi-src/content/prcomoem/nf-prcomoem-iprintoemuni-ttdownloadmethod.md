@@ -8,6 +8,8 @@ ms.assetid: bf8c2baf-eaca-4d0e-a6d6-dba67b2f85db
 ms.date: 04/20/2018
 ms.keywords: IPrintOemUni interface [Print Devices],TTDownloadMethod method, IPrintOemUni.TTDownloadMethod, IPrintOemUni::TTDownloadMethod, TTDownloadMethod, TTDownloadMethod method [Print Devices], TTDownloadMethod method [Print Devices],IPrintOemUni interface, prcomoem/IPrintOemUni::TTDownloadMethod, print.iprintoemuni_ttdownloadmethod, print_unidrv-pscript_rendering_8a4dc2b9-3318-492d-8585-9fb5e6d8fd9d.xml
 ms.topic: method
+f1_keywords:
+ - "prcomoem/IPrintOemUni.TTDownloadMethod"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop

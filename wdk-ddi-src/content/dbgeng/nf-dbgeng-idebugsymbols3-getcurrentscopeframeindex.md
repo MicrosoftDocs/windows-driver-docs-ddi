@@ -8,6 +8,8 @@ ms.assetid: 735934c5-70c4-4bd5-a5ff-e2d313191b69
 ms.date: 05/03/2018
 ms.keywords: GetCurrentScopeFrameIndex, GetCurrentScopeFrameIndex method [Windows Debugging], GetCurrentScopeFrameIndex method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetCurrentScopeFrameIndex method, IDebugSymbols3.GetCurrentScopeFrameIndex, IDebugSymbols3::GetCurrentScopeFrameIndex, IDebugSymbols_293a8676-cbda-4b24-a6e0-d80f365cb283.xml, dbgeng/IDebugSymbols3::GetCurrentScopeFrameIndex, debugger.getcurrentscopeframeindex
 ms.topic: method
+f1_keywords:
+ - "dbgeng/IDebugSymbols3.GetCurrentScopeFrameIndex"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

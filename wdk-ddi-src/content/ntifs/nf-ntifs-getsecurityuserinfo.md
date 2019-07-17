@@ -8,6 +8,8 @@ ms.assetid: 2f26ff14-dd2c-4e80-aea5-38a7dd16d904
 ms.date: 04/16/2018
 ms.keywords: GetSecurityUserInfo, GetSecurityUserInfo function [Installable File System Drivers], IFSMiscRef_e375e4a8-9702-41b8-b848-0dcbc0a7d9bd.xml, ifsk.getsecurityuserinfo, ntifs/GetSecurityUserInfo
 ms.topic: function
+f1_keywords:
+ - "ntifs/GetSecurityUserInfo"
 req.header: ntifs.h
 req.include-header: Ntifs.h, FltKernel.h
 req.target-type: Universal

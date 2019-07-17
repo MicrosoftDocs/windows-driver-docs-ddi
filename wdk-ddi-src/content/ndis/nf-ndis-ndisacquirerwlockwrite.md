@@ -8,6 +8,8 @@ ms.assetid: 124302d7-0776-4025-b71f-ce6300f97f49
 ms.date: 05/02/2018
 ms.keywords: NdisAcquireRWLockWrite, NdisAcquireRWLockWrite function [Network Drivers Starting with Windows Vista], ndis/NdisAcquireRWLockWrite, ndis_processor_group_ref_f957b48a-4c09-4348-897c-51813ede9b19.xml, netvista.ndisacquirerwlockwrite
 ms.topic: function
+f1_keywords:
+ - "ndis/NdisAcquireRWLockWrite"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

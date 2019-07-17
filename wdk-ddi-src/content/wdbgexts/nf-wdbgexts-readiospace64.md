@@ -8,6 +8,8 @@ ms.assetid: 7578df0d-67ea-4a8c-a89c-6a9d95bff33a
 ms.date: 05/03/2018
 ms.keywords: ReadIoSpace64, ReadIoSpace64 function [Windows Debugging], WdbgExts_Ref_5e2a7cc2-0dc4-4970-9d6a-c9a2c5130577.xml, debugger.readiospace64, wdbgexts/ReadIoSpace64
 ms.topic: function
+f1_keywords:
+ - "wdbgexts/ReadIoSpace64"
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop

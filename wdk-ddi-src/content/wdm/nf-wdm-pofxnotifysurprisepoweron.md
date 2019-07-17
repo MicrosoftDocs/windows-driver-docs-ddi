@@ -8,6 +8,8 @@ ms.assetid: AB9C7D32-D536-4B2B-9C85-DF5A0031798C
 ms.date: 04/30/2018
 ms.keywords: PoFxNotifySurprisePowerOn, PoFxNotifySurprisePowerOn routine [Kernel-Mode Driver Architecture], kernel.pofxnotifysurprisepoweron, wdm/PoFxNotifySurprisePowerOn
 ms.topic: function
+f1_keywords:
+ - "wdm/PoFxNotifySurprisePowerOn"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Universal

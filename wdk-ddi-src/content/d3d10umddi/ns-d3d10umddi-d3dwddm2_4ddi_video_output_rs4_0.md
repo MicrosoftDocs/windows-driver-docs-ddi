@@ -5,6 +5,8 @@ description: This structure is not implemented.
 ms.assetid: 091b9d97-1656-4f02-b90c-d3663ee9bc11
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3d10umddi/D3DWDDM2_4DDI_VIDEO_OUTPUT_RS4_0"
 ms.keywords: D3DWDDM2_4DDI_VIDEO_OUTPUT_RS4_0, D3DWDDM2_4DDI_VIDEO_OUTPUT_RS4_0,
 req.header: d3d10umddi.h
 req.include-header:

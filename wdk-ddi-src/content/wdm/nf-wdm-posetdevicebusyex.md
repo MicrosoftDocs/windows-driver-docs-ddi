@@ -8,6 +8,8 @@ ms.assetid: 3f4d01fe-84cb-424e-9107-e29c4e25d85c
 ms.date: 04/30/2018
 ms.keywords: PoSetDeviceBusyEx, PoSetDeviceBusyEx routine [Kernel-Mode Driver Architecture], kernel.posetdevicebusyex, portn_62143669-4381-4b4b-8d23-8b315d882c65.xml, wdm/PoSetDeviceBusyEx
 ms.topic: function
+f1_keywords:
+ - "wdm/PoSetDeviceBusyEx"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

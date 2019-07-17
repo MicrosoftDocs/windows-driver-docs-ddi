@@ -5,6 +5,8 @@ description: The AcquireSubNamespace method helps in the construction of somethi
 ms.assetid: 2cb6ec25-f9aa-419f-80f5-845a327ea7c2
 ms.date: 08/21/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDataModelManager2.AcquireSubNamespace"
 ms.keywords: IDataModelManager2::AcquireSubNamespace, AcquireSubNamespace, IDataModelManager2.AcquireSubNamespace, IDataModelManager2::AcquireSubNamespace, IDataModelManager2.AcquireSubNamespace
 req.header: dbgmodel.h
 req.include-header:

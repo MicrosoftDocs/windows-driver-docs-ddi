@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: e8adef03-c1cf-46f6-8d22-21056ab1d539
 ms.date: 02/06/2018
 ms.topic: function
+f1_keywords:
+ - "netadapter/NetAdapterDeviceInitConfig"
 ms.keywords: NetAdapterDeviceInitConfig
 req.header: netadapter.h
 req.include-header: netadaptercx.h

@@ -8,6 +8,8 @@ ms.assetid: 6db90186-a663-4710-8209-abd5ef2b361a
 ms.date: 03/29/2018
 ms.keywords: ScsiPortReadRegisterBufferUshort, ScsiPortReadRegisterBufferUshort routine [Storage Devices], scsiprt_f6e36a20-066b-4b3e-bf94-9182e84dc2eb.xml, srb/ScsiPortReadRegisterBufferUshort, storage.scsiportreadregisterbufferushort
 ms.topic: function
+f1_keywords:
+ - "srb/ScsiPortReadRegisterBufferUshort"
 req.header: srb.h
 req.include-header: Miniport.h, Scsi.h, Storport.h
 req.target-type: Desktop

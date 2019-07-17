@@ -8,6 +8,8 @@ ms.assetid: d8e6091e-92ca-49c7-8ee6-502e1567b609
 ms.date: 02/15/2018
 ms.keywords: ChangeType, ChangeType method, ChangeType method,IPortableDevicePropVariantCollection interface, IPortableDevicePropVariantCollection interface,ChangeType method, IPortableDevicePropVariantCollection.ChangeType, IPortableDevicePropVariantCollection::ChangeType, IPortableDevicePropVariantCollectionChangeType, portabledevicetypes/IPortableDevicePropVariantCollection::ChangeType, wpddk.iportabledevicepropvariantcollection_changetype
 ms.topic: method
+f1_keywords:
+ - "portabledevicetypes/IPortableDevicePropVariantCollection.ChangeType"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows

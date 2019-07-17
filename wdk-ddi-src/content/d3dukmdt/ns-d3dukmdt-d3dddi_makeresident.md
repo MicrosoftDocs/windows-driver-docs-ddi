@@ -8,6 +8,8 @@ ms.assetid: 16F04DFD-3AF6-48E0-9BCF-9FE0FC397F91
 ms.date: 05/10/2018
 ms.keywords: D3DDDI_MAKERESIDENT, D3DDDI_MAKERESIDENT structure [Display Devices], d3dukmdt/D3DDDI_MAKERESIDENT, display.d3dddi_makeresident
 ms.topic: struct
+f1_keywords:
+ - "d3dukmdt/D3DDDI_MAKERESIDENT"
 req.header: d3dukmdt.h
 req.include-header: D3dumddi.h, D3dkmddi.h
 req.target-type: Windows

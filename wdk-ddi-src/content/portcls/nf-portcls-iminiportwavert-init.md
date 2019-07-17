@@ -8,6 +8,8 @@ ms.assetid: f25be064-6ad4-42e8-87a5-188978d093fb
 ms.date: 05/08/2018
 ms.keywords: IMiniportWaveRT interface [Audio Devices],Init method, IMiniportWaveRT.Init, IMiniportWaveRT::Init, Init, Init method [Audio Devices], Init method [Audio Devices],IMiniportWaveRT interface, audio.iminiportwavert_init, audmp-routines_3304baaf-f3bf-43f1-908b-5cf47b084ee1.xml, portcls/IMiniportWaveRT::Init
 ms.topic: method
+f1_keywords:
+ - "portcls/IMiniportWaveRT.Init"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Universal

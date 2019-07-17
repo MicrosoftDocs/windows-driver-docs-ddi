@@ -5,6 +5,8 @@ description:
 ms.assetid: d75797b3-0670-4a27-84b9-72359631cade
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "trustedruntimeclx/EVT_TR_CREATE_SECURE_DEVICE_CONTEXT"
 req.header: trustedruntimeclx.h
 req.include-header:
 req.target-type:

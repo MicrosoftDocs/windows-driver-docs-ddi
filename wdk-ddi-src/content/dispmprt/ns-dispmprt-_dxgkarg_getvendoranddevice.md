@@ -8,6 +8,8 @@ ms.assetid: bbe8ab64-b48d-44f6-b79b-6b90d3b33c1f
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
 ms.topic: struct
+f1_keywords:
+ - "dispmprt/_DXGKARG_GETVENDORANDDEVICE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.keywords: _DXGKARG_GETVENDORANDDEVICE, DXGKARG_GETVENDORANDDEVICE, *PDXGKARG_GETVENDORANDDEVICE, 

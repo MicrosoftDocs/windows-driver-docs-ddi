@@ -7,6 +7,8 @@ ms.assetid: 5ff63606-ced1-4482-b967-41db4746ac1d
 ms.date: 05/10/2018
 ms.keywords: D3DKMT_OPENRESOURCE, D3DKMT_OPENRESOURCE structure [Display Devices], OpenGL_Structs_b069a94a-b78c-4fbf-b78d-7c5b0d025655.xml, _D3DKMT_OPENRESOURCE, d3dkmthk/D3DKMT_OPENRESOURCE, display.d3dkmt_openresource
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/D3DKMT_OPENRESOURCE"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

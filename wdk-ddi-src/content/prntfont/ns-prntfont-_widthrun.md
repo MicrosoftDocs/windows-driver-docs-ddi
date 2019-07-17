@@ -8,6 +8,8 @@ ms.assetid: 18cc608e-b94d-4588-98e9-c22a7949a3b6
 ms.date: 04/20/2018
 ms.keywords: "*PWIDTHRUN, PWIDTHRUN, PWIDTHRUN structure pointer [Print Devices], WIDTHRUN, WIDTHRUN structure [Print Devices], _WIDTHRUN, print.widthrun, print_unidrv-pscript_fonts_68b08066-7503-4496-bfab-001aba659926.xml, prntfont/PWIDTHRUN, prntfont/WIDTHRUN"
 ms.topic: struct
+f1_keywords:
+ - "prntfont/WIDTHRUN"
 req.header: prntfont.h
 req.include-header: Prntfont.h
 req.target-type: Windows

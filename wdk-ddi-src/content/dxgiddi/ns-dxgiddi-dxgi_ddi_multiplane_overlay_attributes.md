@@ -8,6 +8,8 @@ ms.assetid: 0bd7f866-d103-449a-b614-d123c040b2da
 ms.date: 05/10/2018
 ms.keywords: DXGI_DDI_MULTIPLANE_OVERLAY_ATTRIBUTES, DXGI_DDI_MULTIPLANE_OVERLAY_ATTRIBUTES structure [Display Devices], display.dxgi_ddi_multiplane_overlay_attributes, dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_ATTRIBUTES
 ms.topic: struct
+f1_keywords:
+ - "dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_ATTRIBUTES"
 req.header: dxgiddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows

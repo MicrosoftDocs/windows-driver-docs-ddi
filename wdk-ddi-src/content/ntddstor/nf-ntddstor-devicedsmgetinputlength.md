@@ -6,6 +6,8 @@ tech.root: storage
 ms.assetid: 689bb265-239d-442c-b2ae-be648cf8d641
 ms.date: 04/11/2018
 ms.topic: function
+f1_keywords:
+ - "ntddstor/DeviceDsmGetInputLength"
 ms.keywords: DeviceDsmGetInputLength
 req.header: ntddstor.h
 req.include-header:

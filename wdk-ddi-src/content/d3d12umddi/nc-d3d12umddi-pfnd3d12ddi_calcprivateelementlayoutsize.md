@@ -5,6 +5,8 @@ description: The CalcPrivateElementLayoutSize function determines the size of th
 ms.assetid: 0de50da1-011c-4595-bd82-c0f17e11f595
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_CALCPRIVATEELEMENTLAYOUTSIZE"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

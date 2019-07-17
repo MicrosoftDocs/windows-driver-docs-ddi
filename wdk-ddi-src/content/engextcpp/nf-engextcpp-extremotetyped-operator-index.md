@@ -8,6 +8,8 @@ ms.assetid: b75a0cec-fda6-45a3-ac60-915fc5862456
 ms.date: 04/24/2018
 ms.keywords: ExtRemoteTyped class [Windows Debugging],operator[] method, ExtRemoteTyped.operator[], ExtRemoteTyped.operator[](LONG), ExtRemoteTyped::Operator[], ExtRemoteTyped::operator[], debugger.extremotetyped_operatorarray_long, operator[], operator[] method [Windows Debugging], operator[] method [Windows Debugging],ExtRemoteTyped class
 ms.topic: method
+f1_keywords:
+ - "engextcpp/ExtRemoteTyped.operator[]"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop

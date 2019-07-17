@@ -8,6 +8,8 @@ ms.assetid: b356e3ac-451d-4a10-94e2-d03fcf76cb29
 ms.date: 02/26/2018
 ms.keywords: CreateWdfFile, CreateWdfFile method, CreateWdfFile method,IWDFDevice interface, IWDFDevice interface,CreateWdfFile method, IWDFDevice.CreateWdfFile, IWDFDevice::CreateWdfFile, UMDFDeviceObjectRef_d5f035e1-d7ea-474e-9dc4-bc6b64baea2c.xml, umdf.iwdfdevice_createwdffile, wdf.iwdfdevice_createwdffile, wudfddi/IWDFDevice::CreateWdfFile
 ms.topic: method
+f1_keywords:
+ - "wudfddi/IWDFDevice.CreateWdfFile"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

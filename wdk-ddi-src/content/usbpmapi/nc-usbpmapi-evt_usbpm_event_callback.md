@@ -5,6 +5,8 @@ description: Sends notifications about hub arrival/removal and connector state c
 ms.assetid: 5b0fd114-b3ee-484e-9d4f-f8eb4b07d6ca
 ms.date: 09/30/2018
 ms.topic: callback
+f1_keywords:
+ - "usbpmapi/EVT_USBPM_EVENT_CALLBACK"
 tech.root: usbref
 req.header: usbpmapi.h
 req.include-header:

@@ -8,6 +8,8 @@ ms.assetid: b2ed86c5-cd4f-4aaa-a062-4c7ae4e088df
 ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_SETTEXTURE, PFND3DDDI_SETTEXTURE callback, SetTexture, SetTexture callback function [Display Devices], UserModeDisplayDriver_Functions_f85a8797-cbcc-40df-a339-af69ce128e95.xml, d3dumddi/SetTexture, display.settexture
 ms.topic: callback
+f1_keywords:
+ - "d3dumddi/SetTexture"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop

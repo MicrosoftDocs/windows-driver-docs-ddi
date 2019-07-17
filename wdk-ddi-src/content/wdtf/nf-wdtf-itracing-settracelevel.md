@@ -8,6 +8,8 @@ ms.assetid: 3b0b43c4-24b9-41e7-9861-6733c79bf40a
 ms.date: 04/04/2018
 ms.keywords: ITracing interface [Windows Device Testing Framework],SetTraceLevel method, ITracing.SetTraceLevel, ITracing::SetTraceLevel, ITracing_e998383b-984d-4f24-b684-06e81e453714.xml, SetTraceLevel, SetTraceLevel method [Windows Device Testing Framework], SetTraceLevel method [Windows Device Testing Framework],ITracing interface, dtf.itracing_settracelevel, wdtf/ITracing::SetTraceLevel
 ms.topic: method
+f1_keywords:
+ - "wdtf/ITracing.SetTraceLevel"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Desktop

@@ -8,6 +8,8 @@ ms.assetid: 571308bc-1e8e-437a-8819-8b28251a3f03
 ms.date: 03/29/2018
 ms.keywords: IOCTL_DISK_GET_DRIVE_GEOMETRY, IOCTL_DISK_GET_DRIVE_GEOMETRY control, IOCTL_DISK_GET_DRIVE_GEOMETRY control code [Storage Devices], k307_e6bc4a05-f2cf-40f7-9632-b78da2087662.xml, ntdddisk/IOCTL_DISK_GET_DRIVE_GEOMETRY, storage.ioctl_disk_get_drive_geometry
 ms.topic: ioctl
+f1_keywords:
+ - "ntdddisk/IOCTL_DISK_GET_DRIVE_GEOMETRY"
 req.header: ntdddisk.h
 req.include-header: Ntdddisk.h
 req.target-type: Windows

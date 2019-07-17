@@ -8,6 +8,8 @@ ms.assetid: DB18BD9D-4BAA-48D8-BA30-E4F7EF4CDEE5
 ms.date: 05/08/2018
 ms.keywords: IPositionNotify, IPositionNotify interface [Audio Devices], IPositionNotify interface [Audio Devices],described, audio.ipositionnotify, dmusicks/IPositionNotify
 ms.topic: interface
+f1_keywords:
+ - "dmusicks/IPositionNotify"
 req.header: dmusicks.h
 req.include-header: 
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: 46c4a592-b3d4-479d-b5db-06202b5be290
 ms.date: 05/10/2018
 ms.keywords: IddCxSwapChainFinishedProcessingFrame, IddCxSwapChainFinishedProcessingFrame method [Display Devices], display.iddcxswapchainfinishedprocessingframe, iddcx/IddCxSwapChainFinishedProcessingFrame
 ms.topic: function
+f1_keywords:
+ - "iddcx/IddCxSwapChainFinishedProcessingFrame"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows

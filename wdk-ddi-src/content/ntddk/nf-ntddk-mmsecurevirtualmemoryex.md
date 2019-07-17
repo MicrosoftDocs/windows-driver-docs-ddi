@@ -8,6 +8,8 @@ ms.assetid: b8dbb7ce-6bc8-4899-92b6-7499b26e8539
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: function
+f1_keywords:
+ - "ntddk/MmSecureVirtualMemoryEx"
 ms.keywords: MmSecureVirtualMemoryEx
 req.header: ntddk.h
 req.include-header:

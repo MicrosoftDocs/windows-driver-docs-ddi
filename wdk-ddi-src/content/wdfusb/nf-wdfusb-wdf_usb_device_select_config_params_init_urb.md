@@ -8,6 +8,8 @@ ms.assetid: 087888ce-e08a-4f9f-adac-419a638e65bd
 ms.date: 02/26/2018
 ms.keywords: DFUsbRef_bb81c111-ac7f-4f37-bda6-c09ebc32e5fd.xml, WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_URB, WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_URB function, kmdf.wdf_usb_device_select_config_params_init_urb, wdf.wdf_usb_device_select_config_params_init_urb, wdfusb/WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_URB
 ms.topic: function
+f1_keywords:
+ - "wdfusb/WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_URB"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal

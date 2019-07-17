@@ -5,6 +5,8 @@ description: Indicates if the execution of tracked workload should attempt to pr
 ms.assetid: 3e508c6e-cf67-423d-bc1b-7566dbce965e
 ms.date: 10/19/2018
 ms.topic: enum
+f1_keywords:
+ - "d3dkmthk/_D3DKMT_TRACKEDWORKLOADPOLICY"
 ms.keywords: _D3DKMT_TRACKEDWORKLOADPOLICY, D3DKMT_TRACKEDWORKLOADPOLICY, 
 req.header: d3dkmthk.h
 req.include-header:

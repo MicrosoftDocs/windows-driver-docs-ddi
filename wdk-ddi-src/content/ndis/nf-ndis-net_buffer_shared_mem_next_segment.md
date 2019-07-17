@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 8576525d-ec6f-4986-924e-8550b47a0ba3
 ms.date: 04/13/2018
 ms.topic: macro
+f1_keywords:
+ - "ndis/NET_BUFFER_SHARED_MEM_NEXT_SEGMENT"
 ms.keywords: NET_BUFFER_SHARED_MEM_NEXT_SEGMENT
 req.header: ndis.h
 req.include-header:

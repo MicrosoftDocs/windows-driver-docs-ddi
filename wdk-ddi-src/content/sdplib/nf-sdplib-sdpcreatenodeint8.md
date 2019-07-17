@@ -8,6 +8,8 @@ ms.assetid: 52829c1e-31df-4a53-8cd1-5050e564aa2e
 ms.date: 04/27/2018
 ms.keywords: SdpCreateNodeInt8, SdpCreateNodeInt8 function [Bluetooth Devices], bltooth.sdpcreatenodeint8, bth_funcs_445898ae-3a2a-49f7-bfff-30e8c0773227.xml, sdplib/SdpCreateNodeInt8
 ms.topic: function
+f1_keywords:
+ - "sdplib/SdpCreateNodeInt8"
 req.header: sdplib.h
 req.include-header: BthSdpddi.h
 req.target-type: Desktop

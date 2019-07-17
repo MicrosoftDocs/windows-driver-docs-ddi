@@ -7,6 +7,8 @@ ms.assetid: 7ddd110c-2521-4df6-a936-e702a0f15312
 ms.date: 05/10/2018
 ms.keywords: DXGK_VIDPN_INTERFACE, DXGK_VIDPN_INTERFACE structure [Display Devices], DmStructs_0fb940db-3ede-4eac-938b-89e34a9b337d.xml, _DXGK_VIDPN_INTERFACE, d3dkmddi/DXGK_VIDPN_INTERFACE, display.dxgk_vidpn_interface
 ms.topic: struct
+f1_keywords:
+ - "d3dkmddi/DXGK_VIDPN_INTERFACE"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

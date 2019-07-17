@@ -8,6 +8,8 @@ ms.assetid: d5fa83d6-d733-4fff-89a9-f519ed608e57
 ms.date: 03/29/2018
 ms.keywords: StorPortGetUncachedExtension, StorPortGetUncachedExtension routine [Storage Devices], storage.storportgetuncachedextension, storport/StorPortGetUncachedExtension, storprt_f3acfe04-374f-47d9-8e8f-7f7f8ee8a1d3.xml
 ms.topic: function
+f1_keywords:
+ - "storport/StorPortGetUncachedExtension"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

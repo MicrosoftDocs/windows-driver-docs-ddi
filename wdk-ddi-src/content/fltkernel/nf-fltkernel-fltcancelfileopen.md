@@ -8,6 +8,8 @@ ms.assetid: adc1a1fd-ddbc-4ed5-85e3-4d4e85d710b1
 ms.date: 04/16/2018
 ms.keywords: FltApiRef_a_to_d_6000a551-04a6-47d6-b2d8-816decb93d89.xml, FltCancelFileOpen, FltCancelFileOpen routine [Installable File System Drivers], fltkernel/FltCancelFileOpen, ifsk.fltcancelfileopen
 ms.topic: function
+f1_keywords:
+ - "fltkernel/FltCancelFileOpen"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

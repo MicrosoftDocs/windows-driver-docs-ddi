@@ -8,6 +8,8 @@ ms.assetid: c6bf2f5a-1682-4437-93b1-1a7e5794befd
 ms.date: 02/15/2018
 ms.keywords: IOCTL_INTERNAL_PARALLEL_SET_CHIP_MODE, IOCTL_INTERNAL_PARALLEL_SET_CHIP_MODE control code [Parallel Ports], cisspd_f9ea9799-8d87-44e2-89d6-ae1fc0a4f673.xml, parallel/IOCTL_INTERNAL_PARALLEL_SET_CHIP_MODE, parports.ioctl_internal_parallel_set_chip_mode
 ms.topic: ioctl
+f1_keywords:
+ - "parallel/IOCTL_INTERNAL_PARALLEL_SET_CHIP_MODE"
 req.header: parallel.h
 req.include-header: Parallel.h
 req.target-type: Windows

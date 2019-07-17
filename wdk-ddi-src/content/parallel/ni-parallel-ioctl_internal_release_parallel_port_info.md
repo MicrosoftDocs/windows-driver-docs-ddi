@@ -8,6 +8,8 @@ ms.assetid: 1a28e6db-b140-42aa-be52-fb5655983383
 ms.date: 02/15/2018
 ms.keywords: IOCTL_INTERNAL_RELEASE_PARALLEL_PORT_INFO, IOCTL_INTERNAL_RELEASE_PARALLEL_PORT_INFO control code [Parallel Ports], cisspd_3bbcd68f-ea0d-46c8-8aab-0e33dcb4afad.xml, parallel/IOCTL_INTERNAL_RELEASE_PARALLEL_PORT_INFO, parports.ioctl_internal_release_parallel_port_info
 ms.topic: ioctl
+f1_keywords:
+ - "parallel/IOCTL_INTERNAL_RELEASE_PARALLEL_PORT_INFO"
 req.header: parallel.h
 req.include-header: Parallel.h
 req.target-type: Windows

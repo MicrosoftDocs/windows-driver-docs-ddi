@@ -5,6 +5,8 @@ description: Creates a meta-command.
 ms.assetid: 9fafcd8c-e783-4d28-af99-b784cb687430
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_CREATE_META_COMMAND_0052"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

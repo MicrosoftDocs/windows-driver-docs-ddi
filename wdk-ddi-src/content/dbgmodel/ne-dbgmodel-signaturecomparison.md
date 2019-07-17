@@ -5,6 +5,8 @@ description: Describes how a type or two signatures compare.
 ms.assetid: 7157f5fb-4bdc-4380-aaef-882cb4c79993
 ms.date: 07/16/2018
 ms.topic: enum
+f1_keywords:
+ - "dbgmodel/SignatureComparison"
 ms.keywords: SignatureComparison, , 
 req.header: dbgmodel.h
 req.include-header:

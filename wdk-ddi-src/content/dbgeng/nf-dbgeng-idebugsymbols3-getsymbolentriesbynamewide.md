@@ -8,6 +8,8 @@ ms.assetid: 90f02bfa-58dc-4499-985f-a60336eee341
 ms.date: 05/03/2018
 ms.keywords: GetSymbolEntriesByNameWide, GetSymbolEntriesByNameWide method [Windows Debugging], GetSymbolEntriesByNameWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetSymbolEntriesByNameWide method, IDebugSymbols3.GetSymbolEntriesByNameWide, IDebugSymbols3::GetSymbolEntriesByNameWide, dbgeng/IDebugSymbols3::GetSymbolEntriesByNameWide, debugger.getsymbolentriesbynamewide
 ms.topic: method
+f1_keywords:
+ - "dbgeng/IDebugSymbols3.GetSymbolEntriesByNameWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

@@ -8,6 +8,8 @@ ms.assetid: e6c398b4-f38f-4819-96f9-cefc3a728dbc
 ms.date: 04/16/2018
 ms.keywords: "*PSE_EXPORTS, PSE_EXPORTS, PSE_EXPORTS structure pointer [Installable File System Drivers], SE_EXPORTS, SE_EXPORTS structure [Installable File System Drivers], SeExports, SeExports structure [Installable File System Drivers], _SE_EXPORTS, ifsk.seexports, ntifs/PSE_EXPORTS, ntifs/SeExports, securitystructures_39c83c22-bf3d-4755-ac4c-6bd31f8829d3.xml"
 ms.topic: struct
+f1_keywords:
+ - "ntifs/SE_EXPORTS"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows

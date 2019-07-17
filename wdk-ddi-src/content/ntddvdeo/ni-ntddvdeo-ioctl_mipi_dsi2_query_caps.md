@@ -8,6 +8,8 @@ ms.assetid: 8472c449-74ee-4590-a94b-7d726e1707db
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
 ms.topic: ioctl
+f1_keywords:
+ - "ntddvdeo/IOCTL_MIPI_DSI2_QUERY_CAPS"
 req.header: ntddvdeo.h
 req.include-header:
 req.target-type:

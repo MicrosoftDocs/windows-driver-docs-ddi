@@ -8,6 +8,8 @@ ms.assetid: A08294EC-7A1B-4A2D-A425-D19ABDCB9DCA
 ms.date: 02/24/2018
 ms.keywords: GET_VIRTUAL_DEVICE_LOCATION, GetLocation, GetLocation routine, PCI.getlocation, wdm/GetLocation
 ms.topic: callback
+f1_keywords:
+ - "wdm/GetLocation"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop

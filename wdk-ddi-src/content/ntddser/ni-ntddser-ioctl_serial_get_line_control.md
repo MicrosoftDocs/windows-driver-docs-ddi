@@ -8,6 +8,8 @@ ms.assetid: 72585a00-ee43-44fa-a6f4-baa9fe5a2e3f
 ms.date: 04/23/2018
 ms.keywords: IOCTL_SERIAL_GET_LINE_CONTROL, IOCTL_SERIAL_GET_LINE_CONTROL control, IOCTL_SERIAL_GET_LINE_CONTROL control code [Serial Ports], ntddser/IOCTL_SERIAL_GET_LINE_CONTROL, serports.ioctl_serial_get_line_control, serref_46b42112-a960-44dc-8ce7-3c8d68746fe9.xml
 ms.topic: ioctl
+f1_keywords:
+ - "ntddser/IOCTL_SERIAL_GET_LINE_CONTROL"
 req.header: ntddser.h
 req.include-header: Ntddser.h
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: b0616127-6bbe-4f9b-87c6-3c7bebe60863
 ms.date: 03/29/2018
 ms.keywords: FsRtlNotifyFullReportChange, FsRtlNotifyFullReportChange routine [Installable File System Drivers], fsrtlref_1107429f-a697-40a9-8336-b9a145b476b9.xml, ifsk.fsrtlnotifyfullreportchange, ntifs/FsRtlNotifyFullReportChange
 ms.topic: function
+f1_keywords:
+ - "ntifs/FsRtlNotifyFullReportChange"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

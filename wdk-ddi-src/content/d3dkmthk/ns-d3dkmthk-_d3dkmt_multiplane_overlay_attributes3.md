@@ -5,6 +5,8 @@ description: Contains multiplane overlay attributes.
 ms.assetid: df7e60d8-a1f8-4bca-9e7f-70c575b5cc96
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/_D3DKMT_MULTIPLANE_OVERLAY_ATTRIBUTES3"
 ms.keywords: _D3DKMT_MULTIPLANE_OVERLAY_ATTRIBUTES3, D3DKMT_MULTIPLANE_OVERLAY_ATTRIBUTES3, 
 req.header: d3dkmthk.h
 req.include-header:

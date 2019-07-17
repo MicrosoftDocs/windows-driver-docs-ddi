@@ -8,6 +8,8 @@ ms.assetid: 26f3412d-ea2c-428f-982a-0e9ab7630518
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: enum
+f1_keywords:
+ - "ntpoapi/PO_INTERNAL_WAKE_SOURCE_TYPE"
 ms.keywords: PO_INTERNAL_WAKE_SOURCE_TYPE, PO_INTERNAL_WAKE_SOURCE_TYPE, *PPO_INTERNAL_WAKE_SOURCE_TYPE, 
 req.header: ntpoapi.h
 req.include-header:

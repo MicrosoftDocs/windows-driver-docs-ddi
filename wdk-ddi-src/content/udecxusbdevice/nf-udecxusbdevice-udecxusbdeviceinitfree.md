@@ -8,6 +8,8 @@ ms.assetid: BBFB8DAD-C187-4EB9-8EB0-BE28284437E1
 ms.date: 05/07/2018
 ms.keywords: UdecxUsbDeviceInitFree, UdecxUsbDeviceInitFree function [Buses], buses.udecxusbdeviceinitfree, udecxusbdevice/UdecxUsbDeviceInitFree
 ms.topic: function
+f1_keywords:
+ - "udecxusbdevice/UdecxUsbDeviceInitFree"
 req.header: udecxusbdevice.h
 req.include-header: Udecx.h
 req.target-type: Windows

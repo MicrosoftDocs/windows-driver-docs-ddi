@@ -8,6 +8,8 @@ ms.assetid: ee8bf34e-f7f6-4b1a-8089-2f7a7333c403
 ms.date: 04/23/2018
 ms.keywords: KsGateRemoveOnInputFromAnd, KsGateRemoveOnInputFromAnd function [Streaming Media Devices], avfunc_216ba85c-20fe-4160-a76f-53cab6693641.xml, ks/KsGateRemoveOnInputFromAnd, stream.ksgateremoveoninputfromand
 ms.topic: function
+f1_keywords:
+ - "ks/KsGateRemoveOnInputFromAnd"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop

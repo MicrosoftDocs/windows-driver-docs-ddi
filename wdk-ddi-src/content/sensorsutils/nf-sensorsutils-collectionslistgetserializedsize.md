@@ -5,6 +5,8 @@ description: This routine returns the larger of the two sizes to provide for suf
 ms.assetid: e5b38220-cc8d-425c-b1a8-d61983d36e2a
 ms.date: 08/08/2018
 ms.topic: function
+f1_keywords:
+ - "sensorsutils/CollectionsListGetSerializedSize"
 tech.root: sensors
 ms.keywords: CollectionsListGetSerializedSize
 req.header: sensorsutils.h

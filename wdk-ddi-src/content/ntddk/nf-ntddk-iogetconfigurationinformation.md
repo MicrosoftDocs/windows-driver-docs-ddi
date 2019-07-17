@@ -8,6 +8,8 @@ ms.assetid: 1d577588-72cf-44f2-b1bb-ebab0ee52fd6
 ms.date: 04/30/2018
 ms.keywords: IoGetConfigurationInformation, IoGetConfigurationInformation routine [Kernel-Mode Driver Architecture], k104_5f9c4d01-9724-4e1d-8154-3737f0809068.xml, kernel.iogetconfigurationinformation, ntddk/IoGetConfigurationInformation
 ms.topic: function
+f1_keywords:
+ - "ntddk/IoGetConfigurationInformation"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal

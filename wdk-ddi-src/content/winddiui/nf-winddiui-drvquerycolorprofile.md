@@ -8,6 +8,8 @@ ms.assetid: f6eec5a1-7d73-415f-84d9-1ec3f512abaf
 ms.date: 04/20/2018
 ms.keywords: DrvQueryColorProfile, DrvQueryColorProfile function [Print Devices], print.drvquerycolorprofile, print_interface-graphics_fce84759-2add-41bc-b4e5-c2b66e3abf04.xml, winddiui/DrvQueryColorProfile
 ms.topic: function
+f1_keywords:
+ - "winddiui/DrvQueryColorProfile"
 req.header: winddiui.h
 req.include-header: Winddiui.h
 req.target-type: Desktop

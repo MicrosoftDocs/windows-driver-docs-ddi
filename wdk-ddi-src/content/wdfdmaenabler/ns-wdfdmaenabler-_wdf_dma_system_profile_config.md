@@ -8,6 +8,8 @@ ms.assetid: 80131AB6-4A2B-4D99-9289-CE9FE26E0695
 ms.date: 02/26/2018
 ms.keywords: "*PWDF_DMA_SYSTEM_PROFILE_CONFIG, PWDF_DMA_SYSTEM_PROFILE_CONFIG, PWDF_DMA_SYSTEM_PROFILE_CONFIG structure pointer, WDF_DMA_SYSTEM_PROFILE_CONFIG, WDF_DMA_SYSTEM_PROFILE_CONFIG structure, _WDF_DMA_SYSTEM_PROFILE_CONFIG, kmdf.wdf_dma_system_profile_config, wdf.wdf_dma_system_profile_config, wdfdmaenabler/PWDF_DMA_SYSTEM_PROFILE_CONFIG, wdfdmaenabler/WDF_DMA_SYSTEM_PROFILE_CONFIG"
 ms.topic: struct
+f1_keywords:
+ - "wdfdmaenabler/WDF_DMA_SYSTEM_PROFILE_CONFIG"
 req.header: wdfdmaenabler.h
 req.include-header: Wdf.h
 req.target-type: Windows

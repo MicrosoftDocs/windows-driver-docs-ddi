@@ -8,6 +8,8 @@ ms.assetid: 13d5914e-b42f-41ce-b86b-b7d638244558
 ms.date: 02/26/2018
 ms.keywords: "*LPRILNETWORKCODE, RILNETWORKCODE, RILNETWORKCODE structure [Network Drivers Starting with Windows Vista], netvista.rilnetworkcode_2, rilapitypes/RILNETWORKCODE"
 ms.topic: struct
+f1_keywords:
+ - "rilapitypes/RILNETWORKCODE"
 req.header: rilapitypes.h
 req.include-header:
 req.target-type: Windows

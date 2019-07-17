@@ -8,6 +8,8 @@ ms.assetid: 797e0821-2354-4dd5-b2ee-428d654feb40
 ms.date: 04/23/2018
 ms.keywords: KsReleaseIrpOnCancelableQueue, KsReleaseIrpOnCancelableQueue function [Streaming Media Devices], ks/KsReleaseIrpOnCancelableQueue, ksfunc_90599c85-7874-4eca-9177-45dcacbeacc7.xml, stream.ksreleaseirponcancelablequeue
 ms.topic: function
+f1_keywords:
+ - "ks/KsReleaseIrpOnCancelableQueue"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

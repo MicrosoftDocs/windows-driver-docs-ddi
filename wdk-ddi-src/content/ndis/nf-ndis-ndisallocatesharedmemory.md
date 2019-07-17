@@ -8,6 +8,8 @@ ms.assetid: 1e4919df-7897-44c3-876f-0f1acfe6d5af
 ms.date: 05/02/2018
 ms.keywords: NdisAllocateSharedMemory, NdisAllocateSharedMemory function [Network Drivers Starting with Windows Vista], ndis/NdisAllocateSharedMemory, ndis_shared_memory_ref_252ce78e-6920-4825-9537-c1ddd2f9f900.xml, netvista.ndisallocatesharedmemory
 ms.topic: function
+f1_keywords:
+ - "ndis/NdisAllocateSharedMemory"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

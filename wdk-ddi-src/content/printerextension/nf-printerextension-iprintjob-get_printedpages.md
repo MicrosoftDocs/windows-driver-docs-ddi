@@ -8,6 +8,8 @@ ms.assetid: 37F09500-1EDB-459D-8845-789734081B0C
 ms.date: 04/20/2018
 ms.keywords: IPrintJob interface [Print Devices],PrintedPages property, IPrintJob.PrintedPages, IPrintJob.get_PrintedPages, IPrintJob::PrintedPages, IPrintJob::get_PrintedPages, PrintedPages property [Print Devices], PrintedPages property [Print Devices],IPrintJob interface, get_PrintedPages, print.iprintjob_printedpages, printerextension/IPrintJob::PrintedPages, printerextension/IPrintJob::get_PrintedPages
 ms.topic: method
+f1_keywords:
+ - "printerextension/IPrintJob.PrintedPages"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows

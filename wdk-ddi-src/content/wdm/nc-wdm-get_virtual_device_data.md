@@ -8,6 +8,8 @@ ms.assetid: 2DE7417D-C616-4D1F-835D-29F477410F1E
 ms.date: 02/24/2018
 ms.keywords: GET_VIRTUAL_DEVICE_DATA, GetVirtualFunctionData, GetVirtualFunctionData routine, PCI.getvirtualfunctiondata, wdm/GetVirtualFunctionData
 ms.topic: callback
+f1_keywords:
+ - "wdm/GetVirtualFunctionData"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop

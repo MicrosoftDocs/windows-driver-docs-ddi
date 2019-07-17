@@ -8,6 +8,8 @@ ms.assetid: 92a50a96-8bfb-4d5d-8f24-dd29794e55b1
 ms.date: 05/02/2018
 ms.keywords: NdisGroupActiveProcessorMask, NdisGroupActiveProcessorMask function [Network Drivers Starting with Windows Vista], ndis/NdisGroupActiveProcessorMask, ndis_processor_group_ref_36161079-d4a1-44ad-b7c8-1bc565efda8e.xml, netvista.ndisgroupactiveprocessormask
 ms.topic: function
+f1_keywords:
+ - "ndis/NdisGroupActiveProcessorMask"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

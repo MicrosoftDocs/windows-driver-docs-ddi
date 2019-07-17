@@ -8,6 +8,8 @@ ms.assetid: C8633689-0900-42BB-9D0D-6F95CBA13A37
 ms.date: 02/26/2018
 ms.keywords: WDF_READ_REGISTER_UCHAR, WDF_READ_REGISTER_UCHAR function, wdf.wdf_read_register_uchar, wdfhwaccess/WDF_READ_REGISTER_UCHAR
 ms.topic: function
+f1_keywords:
+ - "wdfhwaccess/WDF_READ_REGISTER_UCHAR"
 req.header: wdfhwaccess.h
 req.include-header: 
 req.target-type: Universal

@@ -8,6 +8,8 @@ ms.assetid: cc43f704-e1f8-4d62-8cdf-11575ec0b473
 ms.date: 04/23/2018
 ms.keywords: IKsControl interface [Streaming Media Devices],KsProperty method, IKsControl.KsProperty, IKsControl::KsProperty, KsProperty, KsProperty method [Streaming Media Devices], KsProperty method [Streaming Media Devices],IKsControl interface, ksproxy/IKsControl::KsProperty, ksproxy_463b7e97-4356-4d2e-b005-6f81219bda64.xml, stream.ikscontrol_ksproperty
 ms.topic: method
+f1_keywords:
+ - "ksproxy/IKsControl.KsProperty"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: DesktopMobile

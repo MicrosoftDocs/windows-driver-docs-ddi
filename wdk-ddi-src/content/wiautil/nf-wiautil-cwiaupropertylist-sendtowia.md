@@ -8,6 +8,8 @@ ms.assetid: 2f7d6975-4c90-4351-bf68-89786bafcc8e
 ms.date: 09/07/2018
 ms.keywords: CWiauPropertyList interface [Imaging Devices],SendToWia method, CWiauPropertyList.SendToWia, CWiauPropertyList::SendToWia, SendToWia, SendToWia method [Imaging Devices], SendToWia method [Imaging Devices],CWiauPropertyList interface, image.cwiaupropertylist_sendtowia, wiauFncs_d77b66a2-1c98-4608-9269-ab1e09a98405.xml, wiautil/CWiauPropertyList::SendToWia
 ms.topic: method
+f1_keywords:
+ - "wiautil/CWiauPropertyList.SendToWia"
 req.header: wiautil.h
 req.include-header: Wiautil.h, Wiamindr.h
 req.target-type: Desktop

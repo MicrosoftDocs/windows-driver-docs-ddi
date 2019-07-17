@@ -8,6 +8,8 @@ ms.assetid: 8C2C074B-3D59-416A-BCBD-2A0117F86776
 ms.date: 04/30/2018
 ms.keywords: "*PPEP_PROCESSOR_IDLE_DEPENDENCY, PEP_PROCESSOR_IDLE_DEPENDENCY, PEP_PROCESSOR_IDLE_DEPENDENCY structure [Kernel-Mode Driver Architecture], PPEP_PROCESSOR_IDLE_DEPENDENCY, PPEP_PROCESSOR_IDLE_DEPENDENCY structure pointer [Kernel-Mode Driver Architecture], _PEP_PROCESSOR_IDLE_DEPENDENCY, kernel.pep_processor_idle_dependency, pepfx/PEP_PROCESSOR_IDLE_DEPENDENCY, pepfx/PPEP_PROCESSOR_IDLE_DEPENDENCY"
 ms.topic: struct
+f1_keywords:
+ - "pepfx/PEP_PROCESSOR_IDLE_DEPENDENCY"
 req.header: pepfx.h
 req.include-header: Pep_x.h
 req.target-type: Windows

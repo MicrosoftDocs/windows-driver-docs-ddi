@@ -8,6 +8,8 @@ ms.assetid: 29b05fa7-0393-47df-a77e-63745c0cd1e1
 ms.date: 03/29/2018
 ms.keywords: "*PSM_AddPort_IN, PSM_AddPort_IN, PSM_AddPort_IN structure pointer [Storage Devices], SM_AddPort_IN, SM_AddPort_IN structure [Storage Devices], _SM_AddPort_IN, hbapiwmi/PSM_AddPort_IN, hbapiwmi/SM_AddPort_IN, storage.sm_addport_in, structs-Fibre_c9c9fceb-e4ec-414c-98f8-e9867b69add5.xml"
 ms.topic: struct
+f1_keywords:
+ - "hbapiwmi/SM_AddPort_IN"
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h
 req.target-type: Windows

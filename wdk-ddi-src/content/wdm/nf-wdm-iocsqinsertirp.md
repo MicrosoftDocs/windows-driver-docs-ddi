@@ -8,6 +8,8 @@ ms.assetid: ddfc0241-eab0-462b-8e1b-32bb9bcb3671
 ms.date: 04/30/2018
 ms.keywords: IoCsqInsertIrp, IoCsqInsertIrp routine [Kernel-Mode Driver Architecture], k104_cecd79a7-3c42-45a2-99f7-54ca2a3e0358.xml, kernel.iocsqinsertirp, wdm/IoCsqInsertIrp
 ms.topic: function
+f1_keywords:
+ - "wdm/IoCsqInsertIrp"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

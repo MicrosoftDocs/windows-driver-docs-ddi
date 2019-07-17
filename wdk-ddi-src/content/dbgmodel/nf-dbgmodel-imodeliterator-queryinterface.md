@@ -5,6 +5,8 @@ description: Retrieves pointers to the supported interfaces on an object. This m
 ms.assetid: 7689b08e-7cfa-4e76-a303-721dd06b0223
 ms.date: 08/13/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IModelIterator.QueryInterface"
 ms.keywords: IModelIterator::QueryInterface, QueryInterface, IModelIterator.QueryInterface, IModelIterator::QueryInterface, IModelIterator.QueryInterface
 req.header: dbgmodel.h
 req.include-header:

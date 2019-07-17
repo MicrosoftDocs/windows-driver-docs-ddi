@@ -8,6 +8,8 @@ ms.assetid: ea74a539-d0a0-41ea-9fe1-8d7880a4187d
 ms.date: 02/26/2018
 ms.keywords: IWDFDriverCreatedFile, IWDFDriverCreatedFile interface, IWDFDriverCreatedFile interface,described, UMDFDriverCreatedFileObjectRef_5299de07-06ff-484c-a60f-4abe8828a725.xml, umdf.iwdfdrivercreatedfile, wdf.iwdfdrivercreatedfile, wudfddi/IWDFDriverCreatedFile
 ms.topic: interface
+f1_keywords:
+ - "wudfddi/IWDFDriverCreatedFile"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Desktop

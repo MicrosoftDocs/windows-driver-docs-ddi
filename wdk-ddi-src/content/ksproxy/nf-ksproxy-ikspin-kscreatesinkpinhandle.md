@@ -8,6 +8,8 @@ ms.assetid: 68faba0a-8057-4259-b93d-c19899637356
 ms.date: 04/23/2018
 ms.keywords: IKsPin interface [Streaming Media Devices],KsCreateSinkPinHandle method, IKsPin.KsCreateSinkPinHandle, IKsPin::KsCreateSinkPinHandle, KsCreateSinkPinHandle, KsCreateSinkPinHandle method [Streaming Media Devices], KsCreateSinkPinHandle method [Streaming Media Devices],IKsPin interface, ksproxy/IKsPin::KsCreateSinkPinHandle, ksproxy_8d4ac125-ae14-4abf-97cb-74fd33e5029c.xml, stream.ikspin_kscreatesinkpinhandle
 ms.topic: method
+f1_keywords:
+ - "ksproxy/IKsPin.KsCreateSinkPinHandle"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: Desktop

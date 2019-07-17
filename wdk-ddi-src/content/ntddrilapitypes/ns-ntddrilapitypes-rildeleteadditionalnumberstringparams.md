@@ -8,6 +8,8 @@ ms.assetid: 89ae70b9-56d9-4169-8bbd-0eb2d916a928
 ms.date: 05/02/2018
 ms.keywords: "*LPRILDELETEADDITIONALNUMBERSTRINGPARAMS, RILDELETEADDITIONALNUMBERSTRINGPARAMS, RILDELETEADDITIONALNUMBERSTRINGPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rildeleteadditionalnumberstringparams, ntddrilapitypes/RILDELETEADDITIONALNUMBERSTRINGPARAMS"
 ms.topic: struct
+f1_keywords:
+ - "ntddrilapitypes/RILDELETEADDITIONALNUMBERSTRINGPARAMS"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

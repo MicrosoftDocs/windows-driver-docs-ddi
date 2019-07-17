@@ -5,6 +5,8 @@ description: Pfnd3dkmtInvalidateactivevidpn invalidates the active video present
 ms.assetid: 9f286769-6655-46ef-93bc-5b9e0337c724
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/PFND3DKMT_INVALIDATEACTIVEVIDPN"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

@@ -8,6 +8,8 @@ ms.assetid: 5b6c3fc5-4220-4a4b-9412-8bfc8141ea90
 ms.date: 05/02/2018
 ms.keywords: NdisMSleep, NdisMSleep function [Network Drivers Starting with Windows Vista], ndis/NdisMSleep, ndis_delay_ref_81af917a-626a-493f-97ed-c4ce48999b12.xml, netvista.ndismsleep
 ms.topic: function
+f1_keywords:
+ - "ndis/NdisMSleep"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

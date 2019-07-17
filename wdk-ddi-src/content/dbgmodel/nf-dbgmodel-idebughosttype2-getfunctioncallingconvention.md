@@ -5,6 +5,8 @@ description: The GetFunctionCallingConvention method returns the calling convent
 ms.assetid: 0719f5b4-abea-4cf9-942f-6d9da5edf4fd
 ms.date: 09/20/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDebugHostType2.GetFunctionCallingConvention"
 ms.keywords: IDebugHostType2::GetFunctionCallingConvention, GetFunctionCallingConvention, IDebugHostType2.GetFunctionCallingConvention, IDebugHostType2::GetFunctionCallingConvention, IDebugHostType2.GetFunctionCallingConvention
 req.header: dbgmodel.h
 req.include-header:

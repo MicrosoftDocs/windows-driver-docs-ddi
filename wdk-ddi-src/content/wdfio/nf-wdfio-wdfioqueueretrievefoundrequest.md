@@ -8,6 +8,8 @@ ms.assetid: 34447879-1a2e-45de-b754-121a5956330a
 ms.date: 02/26/2018
 ms.keywords: DFQueueObjectRef_17174143-5657-4500-bd07-bf9487e8048e.xml, WdfIoQueueRetrieveFoundRequest, WdfIoQueueRetrieveFoundRequest method, kmdf.wdfioqueueretrievefoundrequest, wdf.wdfioqueueretrievefoundrequest, wdfio/WdfIoQueueRetrieveFoundRequest
 ms.topic: function
+f1_keywords:
+ - "wdfio/WdfIoQueueRetrieveFoundRequest"
 req.header: wdfio.h
 req.include-header: Wdf.h
 req.target-type: Universal

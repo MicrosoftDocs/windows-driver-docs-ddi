@@ -8,6 +8,8 @@ ms.assetid: 88664809-b5ce-466a-894b-529443cb1b0e
 ms.date: 05/02/2018
 ms.keywords: "*LPRILNITZINFO_V1, RILNITZINFO_V1, RILNITZINFO_V1 structure [Network Drivers Starting with Windows Vista], netvista.rilnitzinfo_v1, ntddrilapitypes/RILNITZINFO_V1"
 ms.topic: struct
+f1_keywords:
+ - "ntddrilapitypes/RILNITZINFO_V1"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

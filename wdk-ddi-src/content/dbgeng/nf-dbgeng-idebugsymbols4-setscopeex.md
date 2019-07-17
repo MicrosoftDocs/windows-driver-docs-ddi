@@ -8,6 +8,8 @@ ms.assetid: 22844EBB-9BE7-47C0-BE1F-075473430F11
 ms.date: 05/03/2018
 ms.keywords: IDebugSymbols4 interface [Windows Debugging],SetScopeEx method, IDebugSymbols4.SetScopeEx, IDebugSymbols4::SetScopeEx, SetScopeEx, SetScopeEx method [Windows Debugging], SetScopeEx method [Windows Debugging],IDebugSymbols4 interface, dbgeng/IDebugSymbols4::SetScopeEx, debugger.idebugsymbols4_setscopeex
 ms.topic: method
+f1_keywords:
+ - "dbgeng/IDebugSymbols4.SetScopeEx"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

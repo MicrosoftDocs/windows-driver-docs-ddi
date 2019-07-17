@@ -8,6 +8,8 @@ ms.assetid: 07181f26-8fcc-4a0d-8ce6-bfaaea785ef6
 ms.date: 05/02/2018
 ms.keywords: RIL_GetSMSC, RIL_GetSMSC method [Network Drivers Starting with Windows Vista], netvista.ril_getsmsc, rilapi/RIL_GetSMSC
 ms.topic: function
+f1_keywords:
+ - "rilapi/RIL_GetSMSC"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows

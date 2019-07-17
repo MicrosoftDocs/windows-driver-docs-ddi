@@ -8,6 +8,8 @@ ms.assetid: 1902df2a-6325-46d5-871a-5af6f3ce7f18
 ms.date: 05/02/2018
 ms.keywords: RIL_Deinitialize, RIL_Deinitialize method [Network Drivers Starting with Windows Vista], netvista.ril_deinitialize, rilapi/RIL_Deinitialize
 ms.topic: function
+f1_keywords:
+ - "rilapi/RIL_Deinitialize"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows

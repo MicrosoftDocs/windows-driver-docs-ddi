@@ -8,6 +8,8 @@ ms.assetid: fe033614-b1a0-490b-b45b-a8d8de650dbf
 ms.date: 04/23/2018
 ms.keywords: KsTopologyPropertyHandler, KsTopologyPropertyHandler function [Streaming Media Devices], ks/KsTopologyPropertyHandler, ksfunc_d007eab3-23b3-42ea-a1d9-b2be806cb4ea.xml, stream.kstopologypropertyhandler
 ms.topic: function
+f1_keywords:
+ - "ks/KsTopologyPropertyHandler"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

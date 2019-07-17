@@ -8,6 +8,8 @@ ms.assetid: 4b7aba14-bc6a-4d3d-bcc5-53fd122794a1
 ms.date: 04/30/2018
 ms.keywords: CmGetCallbackVersion, CmGetCallbackVersion routine [Kernel-Mode Driver Architecture], ConfigMgrRef_f15e2e9c-8b84-40b2-abb4-b37a6d38f920.xml, kernel.cmgetcallbackversion, wdm/CmGetCallbackVersion
 ms.topic: function
+f1_keywords:
+ - "wdm/CmGetCallbackVersion"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

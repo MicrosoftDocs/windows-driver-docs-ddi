@@ -5,6 +5,8 @@ description: The CreateTypedObjectReference method is semantically similar to th
 ms.assetid: d8400c87-6e6d-419e-b02b-dde4270c94bb
 ms.date: 09/11/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDataModelManager2.CreateTypedObjectReference"
 ms.keywords: IDataModelManager2::CreateTypedObjectReference, CreateTypedObjectReference, IDataModelManager2.CreateTypedObjectReference, IDataModelManager2::CreateTypedObjectReference, IDataModelManager2.CreateTypedObjectReference
 req.header: dbgmodel.h
 req.include-header:

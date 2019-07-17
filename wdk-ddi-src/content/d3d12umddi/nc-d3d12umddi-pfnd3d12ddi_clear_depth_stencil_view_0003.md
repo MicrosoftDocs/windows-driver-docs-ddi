@@ -6,6 +6,8 @@ tech.root: display
 ms.assetid: f927db61-5d0c-4e5b-a3c1-811e2acf7f4d
 ms.date: 11/28/2018
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_CLEAR_DEPTH_STENCIL_VIEW_0003"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 req.header: d3d12umddi.h

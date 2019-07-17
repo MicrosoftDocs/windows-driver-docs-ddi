@@ -8,6 +8,8 @@ ms.assetid: fa0f20e1-7d63-48e8-8270-8dab566f5947
 ms.date: 03/29/2018
 ms.keywords: "*PHBAFCPBindingEntry, HBAFCPBindingEntry, HBAFCPBindingEntry structure [Storage Devices], PHBAFCPBindingEntry, PHBAFCPBindingEntry structure pointer [Storage Devices], _HBAFCPBindingEntry, hbapiwmi/HBAFCPBindingEntry, hbapiwmi/PHBAFCPBindingEntry, storage.hbafcpbindingentry, structs-Fibre_1b8c019a-3cec-4aa3-b43c-8f52168c7a03.xml"
 ms.topic: struct
+f1_keywords:
+ - "hbapiwmi/HBAFCPBindingEntry"
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h, Hbaapi.h, Hbaapi.h
 req.target-type: Windows

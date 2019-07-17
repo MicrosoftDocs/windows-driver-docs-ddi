@@ -8,6 +8,8 @@ ms.assetid: 788714e3-c031-490f-a19f-709bd0392cba
 ms.date: 03/29/2018
 ms.keywords: FsRtlInitializeMcb, FsRtlInitializeMcb function [Installable File System Drivers], fsrtlref_cce0e584-5fd6-4fc8-8a61-b6bef61207dd.xml, ifsk.fsrtlinitializemcb, ntifs/FsRtlInitializeMcb
 ms.topic: function
+f1_keywords:
+ - "ntifs/FsRtlInitializeMcb"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows

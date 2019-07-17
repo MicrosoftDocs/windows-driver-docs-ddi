@@ -8,6 +8,8 @@ ms.assetid: 890A0ACB-9717-4BF8-87B5-A6C1FAD661C2
 ms.date: 02/23/2018
 ms.keywords: PosCxIsPosApp, PosCxIsPosApp function, pos.poscxisposapp, poscx/PosCxIsPosApp
 ms.topic: function
+f1_keywords:
+ - "poscx/PosCxIsPosApp"
 req.header: poscx.h
 req.include-header: Poscx.h
 req.target-type: Windows

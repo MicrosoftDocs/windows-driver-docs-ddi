@@ -5,6 +5,8 @@ description: Used to specify what type of UAV access to perform within the Rende
 ms.assetid: 818b0fec-d52b-419f-b14e-86db6fc07e1a
 ms.date: 10/19/2018
 ms.topic: enum
+f1_keywords:
+ - "d3d12umddi/D3D12DDIARG_RENDER_PASS_UAV_ACCESS_FLAGS"
 ms.keywords: D3D12DDIARG_RENDER_PASS_UAV_ACCESS_FLAGS, D3D12DDIARG_RENDER_PASS_UAV_ACCESS_FLAGS, 
 req.header: d3d12umddi.h
 req.include-header:

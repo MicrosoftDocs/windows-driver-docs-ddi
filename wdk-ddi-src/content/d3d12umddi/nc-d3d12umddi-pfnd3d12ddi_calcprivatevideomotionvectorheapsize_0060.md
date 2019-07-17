@@ -8,6 +8,8 @@ ms.assetid: 5f8f7d0d-b272-4c83-813e-69110acc9c29
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_CALCPRIVATEVIDEOMOTIONVECTORHEAPSIZE_0060"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 req.header: d3d12umddi.h

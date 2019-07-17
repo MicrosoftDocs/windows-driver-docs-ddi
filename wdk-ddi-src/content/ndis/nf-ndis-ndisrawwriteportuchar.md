@@ -8,6 +8,8 @@ ms.assetid: 9fcbf570-d272-4373-86ca-8466fb5fc18c
 ms.date: 05/02/2018
 ms.keywords: NdisRawWritePortUchar, NdisRawWritePortUchar macro [Network Drivers Starting with Windows Vista], miniport_port_raw_ref_00cc5f8f-4965-4cc3-bdc6-25dcf2128582.xml, ndis/NdisRawWritePortUchar, netvista.ndisrawwriteportuchar
 ms.topic: macro
+f1_keywords:
+ - "ndis/NdisRawWritePortUchar"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

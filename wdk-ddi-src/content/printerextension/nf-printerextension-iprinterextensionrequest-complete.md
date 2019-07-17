@@ -8,6 +8,8 @@ ms.assetid: 2182A3E0-6CFD-4B29-BE78-EE38CA630FA1
 ms.date: 04/20/2018
 ms.keywords: Complete, Complete method [Print Devices], Complete method [Print Devices],IPrinterExtensionRequest interface, IPrinterExtensionRequest interface [Print Devices],Complete method, IPrinterExtensionRequest.Complete, IPrinterExtensionRequest::Complete, print.iprinterextensionrequest_complete, printerextension/IPrinterExtensionRequest::Complete
 ms.topic: method
+f1_keywords:
+ - "printerextension/IPrinterExtensionRequest.Complete"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop

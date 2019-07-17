@@ -5,6 +5,8 @@ description: Retrieves the properties of a hub. Properties are static informatio
 ms.assetid: 341977b0-e13f-431e-8b11-5407662bdb8e
 ms.date: 09/30/2018
 ms.topic: function
+f1_keywords:
+ - "usbpmapi/UsbPm_RetrieveHubProperties"
 ms.keywords: UsbPm_RetrieveHubProperties
 tech.root: usbref
 req.header: usbpmapi.h

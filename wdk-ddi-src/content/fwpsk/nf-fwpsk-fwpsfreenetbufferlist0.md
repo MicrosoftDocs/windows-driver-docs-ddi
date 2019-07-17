@@ -8,6 +8,8 @@ ms.assetid: 7e337d7a-a408-4574-8da3-ea333fdbde8b
 ms.date: 05/02/2018
 ms.keywords: FwpsFreeNetBufferList0, FwpsFreeNetBufferList0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsFreeNetBufferList0, netvista.fwpsfreenetbufferlist0, wfp_ref_2_funct_3_fwps_D-H_2104bcba-b5f2-4476-9b9e-9783269618f0.xml
 ms.topic: function
+f1_keywords:
+ - "fwpsk/FwpsFreeNetBufferList0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal

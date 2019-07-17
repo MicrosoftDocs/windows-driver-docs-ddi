@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 116afdd8-6a36-43d0-a8f3-3724d317a758
 ms.date: 04/12/2018
 ms.topic: macro
+f1_keywords:
+ - "ndis/NET_BUFFER_DATA_PHYSICAL_ADDRESS"
 ms.keywords: NET_BUFFER_DATA_PHYSICAL_ADDRESS
 req.header: ndis.h
 req.include-header:

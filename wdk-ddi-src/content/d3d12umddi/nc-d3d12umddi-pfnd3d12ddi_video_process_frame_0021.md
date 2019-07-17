@@ -7,6 +7,8 @@ ms.assetid: C4908916-D91F-4E89-A17B-87ABF3546C6A
 ms.date: 05/10/2018
 ms.keywords: PFND3D12DDI_VIDEO_PROCESS_FRAME_0021, PFND3D12DDI_VIDEO_PROCESS_FRAME_0021 callback, d3d12umddi/pfnProcessFrame, display.pfnd3d12ddi_video_process_frame, pfnProcessFrame, pfnProcessFrame callback function [Display Devices]
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/pfnProcessFrame"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type: Windows

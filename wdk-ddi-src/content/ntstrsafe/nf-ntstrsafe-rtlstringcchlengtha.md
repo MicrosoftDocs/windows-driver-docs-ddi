@@ -8,6 +8,8 @@ ms.assetid: 37d9309d-b105-4e56-b236-530ed49ca116
 ms.date: 04/30/2018
 ms.keywords: RtlStringCchLength, RtlStringCchLengthA, RtlStringCchLengthW, RtlStringCchLengthW function [Kernel-Mode Driver Architecture], kernel.rtlstringcchlength, ntstrsafe/RtlStringCchLengthA, ntstrsafe/RtlStringCchLengthW, safestrings_530fb488-be05-467f-a8c5-22016fb49325.xml
 ms.topic: function
+f1_keywords:
+ - "ntstrsafe/RtlStringCchLengthW"
 req.header: ntstrsafe.h
 req.include-header: Ntstrsafe.h
 req.target-type: Desktop

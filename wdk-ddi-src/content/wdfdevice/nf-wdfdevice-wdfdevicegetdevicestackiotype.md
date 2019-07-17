@@ -8,6 +8,8 @@ ms.assetid: E697F53C-2642-4E3F-AA8C-D0802B39D187
 ms.date: 02/26/2018
 ms.keywords: WdfDeviceGetDeviceStackIoType, WdfDeviceGetDeviceStackIoType method, wdf.wdfdevicegetdevicestackiotype, wdfdevice/WdfDeviceGetDeviceStackIoType
 ms.topic: function
+f1_keywords:
+ - "wdfdevice/WdfDeviceGetDeviceStackIoType"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

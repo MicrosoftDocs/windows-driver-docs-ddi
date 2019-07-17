@@ -8,6 +8,8 @@ ms.assetid: d6631aa7-e3ba-4768-a55a-6a66d1ee84c6
 ms.date: 05/02/2018
 ms.keywords: NdisGroupActiveProcessorCount, NdisGroupActiveProcessorCount function [Network Drivers Starting with Windows Vista], ndis/NdisGroupActiveProcessorCount, ndis_processor_group_ref_43adb4cc-e1a6-4a67-ada7-47b38078e357.xml, netvista.ndisgroupactiveprocessorcount
 ms.topic: function
+f1_keywords:
+ - "ndis/NdisGroupActiveProcessorCount"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

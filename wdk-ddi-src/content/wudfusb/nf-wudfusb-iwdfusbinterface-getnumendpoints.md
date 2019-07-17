@@ -8,6 +8,8 @@ ms.assetid: 60ec8b38-8ab2-45d8-92ab-5943fd9bba79
 ms.date: 02/26/2018
 ms.keywords: GetNumEndPoints, GetNumEndPoints method, GetNumEndPoints method,IWDFUsbInterface interface, IWDFUsbInterface interface,GetNumEndPoints method, IWDFUsbInterface.GetNumEndPoints, IWDFUsbInterface::GetNumEndPoints, UMDFUSBref_ae1352c4-217e-49fd-9275-6c80103af753.xml, umdf.iwdfusbinterface_getnumendpoints, wdf.iwdfusbinterface_getnumendpoints, wudfusb/IWDFUsbInterface::GetNumEndPoints
 ms.topic: method
+f1_keywords:
+ - "wudfusb/IWDFUsbInterface.GetNumEndPoints"
 req.header: wudfusb.h
 req.include-header: Wudfusb.h
 req.target-type: Desktop

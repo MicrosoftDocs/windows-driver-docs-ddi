@@ -5,6 +5,8 @@ description: Copies content from a source multiplane overlay allocation to a des
 ms.assetid: acf7922c-f3f8-4873-b8f0-df30700a32db
 ms.date: 10/19/2018
 ms.topic: function
+f1_keywords:
+ - "d3dkmthk/D3DKMTPresentMultiPlaneOverlay"
 ms.keywords: D3DKMTPresentMultiPlaneOverlay
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h

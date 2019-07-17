@@ -8,6 +8,8 @@ ms.assetid: 8aced7c9-e1be-4ec0-8b59-77cee011a71e
 ms.date: 05/10/2018
 ms.keywords: IDDCX_CURSOR_SHAPE_TYPE, IDDCX_CURSOR_SHAPE_TYPE enumeration [Display Devices], IDDCX_CURSOR_SHAPE_TYPE_ALPHA, IDDCX_CURSOR_SHAPE_TYPE_MASKED_COLOR, IDDCX_CURSOR_SHAPE_TYPE_UNINITIALIZED, display.iddcx_cursor_shape_type, iddcx/IDDCX_CURSOR_SHAPE_TYPE, iddcx/IDDCX_CURSOR_SHAPE_TYPE_ALPHA, iddcx/IDDCX_CURSOR_SHAPE_TYPE_MASKED_COLOR, iddcx/IDDCX_CURSOR_SHAPE_TYPE_UNINITIALIZED
 ms.topic: enum
+f1_keywords:
+ - "iddcx/IDDCX_CURSOR_SHAPE_TYPE"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows

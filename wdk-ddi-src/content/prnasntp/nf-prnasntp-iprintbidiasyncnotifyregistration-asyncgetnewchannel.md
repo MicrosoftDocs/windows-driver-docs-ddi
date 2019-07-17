@@ -8,6 +8,8 @@ ms.assetid: A5E2FA41-0871-4416-B501-051BD67A60AF
 ms.date: 04/20/2018
 ms.keywords: AsyncGetNewChannel, AsyncGetNewChannel method [Print Devices], AsyncGetNewChannel method [Print Devices],IPrintBidiAsyncNotifyRegistration interface, IPrintBidiAsyncNotifyRegistration interface [Print Devices],AsyncGetNewChannel method, IPrintBidiAsyncNotifyRegistration.AsyncGetNewChannel, IPrintBidiAsyncNotifyRegistration::AsyncGetNewChannel, print.iprintbidiasyncnotifyregistration_asyncgetnewchannel, prnasntp/IPrintBidiAsyncNotifyRegistration::AsyncGetNewChannel
 ms.topic: method
+f1_keywords:
+ - "prnasntp/IPrintBidiAsyncNotifyRegistration.AsyncGetNewChannel"
 req.header: prnasntp.h
 req.include-header: 
 req.target-type: Windows

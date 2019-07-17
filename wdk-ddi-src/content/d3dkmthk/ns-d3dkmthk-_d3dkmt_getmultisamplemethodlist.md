@@ -7,6 +7,8 @@ ms.assetid: 138f6f75-3986-42f8-840c-d48edb271203
 ms.date: 05/10/2018
 ms.keywords: D3DKMT_GETMULTISAMPLEMETHODLIST, D3DKMT_GETMULTISAMPLEMETHODLIST structure [Display Devices], OpenGL_Structs_ccb62d63-4a70-4fb4-b6db-d8a5e585b222.xml, _D3DKMT_GETMULTISAMPLEMETHODLIST, d3dkmthk/D3DKMT_GETMULTISAMPLEMETHODLIST, display.d3dkmt_getmultisamplemethodlist
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/D3DKMT_GETMULTISAMPLEMETHODLIST"
 req.header: d3dkmthk.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

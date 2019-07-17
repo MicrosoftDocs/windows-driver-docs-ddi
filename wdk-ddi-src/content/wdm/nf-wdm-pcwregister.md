@@ -8,6 +8,8 @@ ms.assetid: 40fdb77c-bd6b-4ecd-a9c8-fd5e5b2adc80
 ms.date: 02/23/2018
 ms.keywords: PcwRegister, PcwRegister function [Driver Development Tools], devtest.pcwregister, km_pcw_5204b626-3251-4c63-bd89-be1470980960.xml, wdm/PcwRegister
 ms.topic: function
+f1_keywords:
+ - "wdm/PcwRegister"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Universal

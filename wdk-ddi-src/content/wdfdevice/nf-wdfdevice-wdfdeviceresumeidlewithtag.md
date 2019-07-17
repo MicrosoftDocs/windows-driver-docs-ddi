@@ -7,6 +7,8 @@ ms.assetid: 065393BE-CEDF-4B82-AE43-844DDB932DF0
 ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_6078e8e8-7d4e-4714-a1b4-74fc973a678c.xml, WdfDeviceResumeIdleWithTag, WdfDeviceResumeIdleWithTag method, kmdf.WdfDeviceResumeIdleWithTag, wdf.WdfDeviceResumeIdleWithTag, wdfdevice/WdfDeviceResumeIdleWithTag
 ms.topic: macro
+f1_keywords:
+ - "wdfdevice/WdfDeviceResumeIdleWithTag"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

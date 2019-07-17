@@ -8,6 +8,8 @@ ms.assetid: b5f7c4ed-0596-4e88-b987-fd454e4b4971
 ms.date: 04/23/2018
 ms.keywords: KsFilterGetAndGate, KsFilterGetAndGate function [Streaming Media Devices], avfunc_58886874-f3f3-4e2d-a69c-e85260dcc702.xml, ks/KsFilterGetAndGate, stream.ksfiltergetandgate
 ms.topic: function
+f1_keywords:
+ - "ks/KsFilterGetAndGate"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

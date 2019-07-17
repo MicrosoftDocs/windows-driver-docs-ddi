@@ -5,6 +5,8 @@ description: Implemented by the client driver to get process device removal supp
 ms.assetid: a9c7b426-d67d-44d5-948d-017c0ee855cc
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/PFND3DKMT_GETPROCESSDEVICEREMOVALSUPPORT"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

@@ -7,6 +7,8 @@ ms.assetid: EFC9E2D0-1995-4FE9-840C-7B33081AEF2F
 ms.date: 05/10/2018
 ms.keywords: PFND3D12DDI_SHADERCACHEGETVALUE_CB_0021, PFND3D12DDI_SHADERCACHEGETVALUE_CB_0021 callback, d3d12umddi/pfnShaderCacheGetValueCb, display.pfnd3d12ddi_shadercachegetvalue_cb_0021, pfnShaderCacheGetValueCb, pfnShaderCacheGetValueCb callback function [Display Devices]
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/pfnShaderCacheGetValueCb"
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: c750d3de-8481-42d5-a290-00e49d5fe82b
 ms.date: 05/03/2018
 ms.keywords: WdbgExts_Ref_81d45454-9dd4-46f1-823b-1a2345890106.xml, WriteIoSpace64, WriteIoSpace64 function [Windows Debugging], debugger.writeiospace64, wdbgexts/WriteIoSpace64
 ms.topic: function
+f1_keywords:
+ - "wdbgexts/WriteIoSpace64"
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop

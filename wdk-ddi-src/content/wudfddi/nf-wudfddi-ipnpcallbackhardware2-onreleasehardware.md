@@ -8,6 +8,8 @@ ms.assetid: 652B92C2-EF04-482A-BB57-9F64F947EE4F
 ms.date: 02/26/2018
 ms.keywords: IPnpCallbackHardware2 interface,OnReleaseHardware method, IPnpCallbackHardware2.OnReleaseHardware, IPnpCallbackHardware2::OnReleaseHardware, OnReleaseHardware, OnReleaseHardware method, OnReleaseHardware method,IPnpCallbackHardware2 interface, umdf.ipnpcallbackhardware2_onreleasehardware, wdf.ipnpcallbackhardware2_onreleasehardware, wudfddi/IPnpCallbackHardware2::OnReleaseHardware
 ms.topic: method
+f1_keywords:
+ - "wudfddi/IPnpCallbackHardware2.OnReleaseHardware"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Desktop

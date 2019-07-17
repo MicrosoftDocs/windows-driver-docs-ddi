@@ -8,6 +8,8 @@ ms.assetid: 0FC4D7BA-4292-4D87-8982-D20D267D6FA5
 ms.date: 02/15/2018
 ms.keywords: "*PBBRT_TABLE, BBRT_TABLE, BBRT_TABLE structure [ACPI Devices], PBBRT_TABLE, PBBRT_TABLE structure pointer [ACPI Devices], _BBRT_TABLE, acpi.bbrt_table, acpitabl/BBRT_TABLE, acpitabl/PBBRT_TABLE"
 ms.topic: struct
+f1_keywords:
+ - "acpitabl/BBRT_TABLE"
 req.header: acpitabl.h
 req.include-header: Acpitabl.h
 req.target-type: Windows

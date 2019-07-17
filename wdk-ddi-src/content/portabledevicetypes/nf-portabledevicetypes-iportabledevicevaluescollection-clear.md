@@ -8,6 +8,8 @@ ms.assetid: 510458d4-1b3a-4aea-ae52-ad32db6d8db4
 ms.date: 02/15/2018
 ms.keywords: Clear, Clear method, Clear method,IPortableDeviceValuesCollection interface, IPortableDeviceValuesCollection interface,Clear method, IPortableDeviceValuesCollection.Clear, IPortableDeviceValuesCollection::Clear, IPortableDeviceValuesCollectionClear, portabledevicetypes/IPortableDeviceValuesCollection::Clear, wpddk.iportabledevicevaluescollection_clear
 ms.topic: method
+f1_keywords:
+ - "portabledevicetypes/IPortableDeviceValuesCollection.Clear"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows

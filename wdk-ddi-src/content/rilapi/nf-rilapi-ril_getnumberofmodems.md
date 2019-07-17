@@ -8,6 +8,8 @@ ms.assetid: 81747f24-d1ed-412a-b0ae-95b737059b0d
 ms.date: 05/02/2018
 ms.keywords: RIL_GetNumberOfModems, RIL_GetNumberOfModems method [Network Drivers Starting with Windows Vista], netvista.ril_getnumberofmodems, rilapi/RIL_GetNumberOfModems
 ms.topic: function
+f1_keywords:
+ - "rilapi/RIL_GetNumberOfModems"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows

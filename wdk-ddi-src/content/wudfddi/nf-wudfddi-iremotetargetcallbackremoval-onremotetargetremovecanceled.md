@@ -8,6 +8,8 @@ ms.assetid: 26a6e9e7-f1bb-4174-a640-f665cecfd191
 ms.date: 02/26/2018
 ms.keywords: IRemoteTargetCallbackRemoval interface,OnRemoteTargetRemoveCanceled method, IRemoteTargetCallbackRemoval.OnRemoteTargetRemoveCanceled, IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveCanceled, OnRemoteTargetRemoveCanceled, OnRemoteTargetRemoveCanceled method, OnRemoteTargetRemoveCanceled method,IRemoteTargetCallbackRemoval interface, UMDFIoTargetObjectRef_aa4d89fd-ad91-46ea-a55d-4c89d65da13e.xml, umdf.iremotetargetcallbackremoval_onremotetargetremovecanceled, wdf.iremotetargetcallbackremoval_onremotetargetremovecanceled, wudfddi/IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveCanceled
 ms.topic: method
+f1_keywords:
+ - "wudfddi/IRemoteTargetCallbackRemoval.OnRemoteTargetRemoveCanceled"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

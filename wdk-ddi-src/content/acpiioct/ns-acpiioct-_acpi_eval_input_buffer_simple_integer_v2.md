@@ -8,6 +8,8 @@ ms.assetid: 47771F52-5927-40DC-907E-0FC9C3FD451A
 ms.date: 02/15/2018
 ms.keywords: "*PACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V2, ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V2, ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V2 structure [ACPI Devices], PACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V2, PACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V2 structure pointer [ACPI Devices], _ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V2, acpi.acpi_eval_input_buffer_simple_integer_v2, acpiioct/ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V2, acpiioct/PACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V2"
 ms.topic: struct
+f1_keywords:
+ - "acpiioct/ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V2"
 req.header: acpiioct.h
 req.include-header: Acpiioct.h
 req.target-type: Windows

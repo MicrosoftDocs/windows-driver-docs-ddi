@@ -5,6 +5,8 @@ description: The GetModelForType method returns the data model which is the cano
 ms.assetid: feaec7e1-6dda-43c6-95c9-7ccbca6472fb
 ms.date: 09/11/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDataModelManager2.GetModelForType"
 ms.keywords: IDataModelManager2::GetModelForType, GetModelForType, IDataModelManager2.GetModelForType, IDataModelManager2::GetModelForType, IDataModelManager2.GetModelForType
 req.header: dbgmodel.h
 req.include-header:

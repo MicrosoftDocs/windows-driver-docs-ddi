@@ -8,6 +8,8 @@ ms.assetid: f90af220-6e48-49dd-b785-55da37894906
 ms.date: 05/02/2018
 ms.keywords: "*LPRILPHONEBOOKADDITIONALNUMBER, RILPHONEBOOKADDITIONALNUMBER, RILPHONEBOOKADDITIONALNUMBER structure [Network Drivers Starting with Windows Vista], netvista.rilphonebookadditionalnumber, ntddrilapitypes/RILPHONEBOOKADDITIONALNUMBER"
 ms.topic: struct
+f1_keywords:
+ - "rilapitypes/RILPHONEBOOKADDITIONALNUMBER"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

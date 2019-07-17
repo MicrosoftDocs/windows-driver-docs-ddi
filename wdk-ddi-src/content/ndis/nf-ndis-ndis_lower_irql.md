@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 378ea89f-cad9-410d-88b3-14bd1109e399
 ms.date: 04/16/2018
 ms.topic: macro
+f1_keywords:
+ - "ndis/NDIS_LOWER_IRQL"
 ms.keywords: NDIS_LOWER_IRQL
 req.header: ndis.h
 req.include-header:

@@ -8,6 +8,8 @@ ms.assetid: 1aa7b934-c56b-4bfb-800e-950e1dbd5ba3
 ms.date: 04/20/2018
 ms.keywords: GetEnumObject, GetEnumObject method [Print Devices], GetEnumObject method [Print Devices],IBidiRequestContainer interface, IBidiRequestContainer interface [Print Devices],GetEnumObject method, IBidiRequestContainer.GetEnumObject, IBidiRequestContainer::GetEnumObject, _win32_IBidiRequestContainer_GetEnumObject, bidispl/IBidiRequestContainer::GetEnumObject, gdi.ibidirequestcontainer_ibidirequestcontainer__getenumobject, print.ibidirequestcontainer_ibidirequestcontainer__getenumobject
 ms.topic: method
+f1_keywords:
+ - "bidispl/IBidiRequestContainer.GetEnumObject"
 req.header: bidispl.h
 req.include-header: 
 req.target-type: Desktop

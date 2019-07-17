@@ -8,6 +8,8 @@ ms.assetid: 44246bf3-ec90-48b5-b444-7398b483b192
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: ioctl
+f1_keywords:
+ - "ntddk/IOCTL_IPMI_INTERNAL_RECORD_SEL_EVENT"
 req.header: ntddk.h
 req.include-header:
 req.target-type:

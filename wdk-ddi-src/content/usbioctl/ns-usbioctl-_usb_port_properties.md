@@ -8,6 +8,8 @@ ms.assetid: BCADC907-3770-4FBE-AEB3-96F93502E899
 ms.date: 05/07/2018
 ms.keywords: "*PUSB_PORT_PROPERTIES, PUSB_PORT_PROPERTIES, PUSB_PORT_PROPERTIES union pointer [Buses], USB_PORT_PROPERTIES, USB_PORT_PROPERTIES union [Buses], _USB_PORT_PROPERTIES, buses.usb_port_properties, usbioctl/PUSB_PORT_PROPERTIES, usbioctl/USB_PORT_PROPERTIES"
 ms.topic: struct
+f1_keywords:
+ - "usbioctl/USB_PORT_PROPERTIES"
 req.header: usbioctl.h
 req.include-header: Usbioctl.h
 req.target-type: Windows

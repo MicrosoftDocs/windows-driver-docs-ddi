@@ -8,6 +8,8 @@ ms.assetid: 405D1D3F-FC01-4223-8E28-B3FD3F0516F7
 ms.date: 02/26/2018
 ms.keywords: EVT_WDF_DMA_TRANSACTION_CONFIGURE_DMA_CHANNEL, EVT_WDF_DMA_TRANSACTION_CONFIGURE_DMA_CHANNEL callback, EvtDmaTransactionConfigureDmaChannel, EvtDmaTransactionConfigureDmaChannel callback function, kmdf.evtdmatransactionconfiguredmachannel, wdf.evtdmatransactionconfiguredmachannel, wdfdmatransaction/EvtDmaTransactionConfigureDmaChannel
 ms.topic: callback
+f1_keywords:
+ - "wdfdmatransaction/EvtDmaTransactionConfigureDmaChannel"
 req.header: wdfdmatransaction.h
 req.include-header: Wdf.h
 req.target-type: Universal

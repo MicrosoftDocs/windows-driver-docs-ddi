@@ -8,6 +8,8 @@ ms.assetid: 559bdc65-282e-42b2-998a-276202376c1e
 ms.date: 04/20/2018
 ms.keywords: IXpsRasterizationFactory, IXpsRasterizationFactory interface [Print Devices], IXpsRasterizationFactory interface [Print Devices],described, print.ixpsrasterizationfactory_interface, print_xpsrast_50eb7bf8-2753-47e1-b63b-81639ac26bb7.xml, xpsrassvc/IXpsRasterizationFactory
 ms.topic: interface
+f1_keywords:
+ - "xpsrassvc/IXpsRasterizationFactory"
 req.header: xpsrassvc.h
 req.include-header: 
 req.target-type: Windows

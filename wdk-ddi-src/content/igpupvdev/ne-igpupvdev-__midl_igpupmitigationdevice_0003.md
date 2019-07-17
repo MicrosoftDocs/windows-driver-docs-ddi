@@ -5,6 +5,8 @@ description:
 ms.assetid: 1420249b-f3b4-48cb-bb1c-6d8b1973d318
 ms.date: 10/19/2018
 ms.topic: enum
+f1_keywords:
+ - "igpupvdev/__MIDL_IGPUPMitigationDevice_0003"
 ms.keywords: __MIDL_IGPUPMitigationDevice_0003, GPUP_SAVE_RESTORE_PAUSE_STATE,
 req.header: igpupvdev.h
 req.include-header:

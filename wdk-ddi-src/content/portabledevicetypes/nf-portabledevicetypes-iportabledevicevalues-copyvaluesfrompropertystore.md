@@ -8,6 +8,8 @@ ms.assetid: 2010802f-3803-46f9-9f19-11fd1f593fc8
 ms.date: 02/15/2018
 ms.keywords: CopyValuesFromPropertyStore, CopyValuesFromPropertyStore method, CopyValuesFromPropertyStore method,IPortableDeviceValues interface, IPortableDeviceValues interface,CopyValuesFromPropertyStore method, IPortableDeviceValues.CopyValuesFromPropertyStore, IPortableDeviceValues::CopyValuesFromPropertyStore, IPortableDeviceValuesCopyValuesFromPropertyStore, portabledevicetypes/IPortableDeviceValues::CopyValuesFromPropertyStore, wpddk.iportabledevicevalues_copyvaluesfrompropertystore
 ms.topic: method
+f1_keywords:
+ - "portabledevicetypes/IPortableDeviceValues.CopyValuesFromPropertyStore"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows

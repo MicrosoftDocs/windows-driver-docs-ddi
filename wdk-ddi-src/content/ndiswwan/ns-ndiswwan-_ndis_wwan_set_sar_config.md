@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 1d92e287-b6d5-4eb6-9d34-963331b04a00
 ms.date: 08/20/2018
 ms.topic: struct
+f1_keywords:
+ - "ndiswwan/_NDIS_WWAN_SET_SAR_CONFIG"
 ms.keywords: _NDIS_WWAN_SET_SAR_CONFIG, NDIS_WWAN_SET_SAR_CONFIG, *PNDIS_WWAN_SET_SAR_CONFIG, 
 req.header: ndiswwan.h
 req.include-header:

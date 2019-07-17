@@ -5,6 +5,8 @@ description: If a client wants to take over the storage of keys and values for a
 ms.assetid: b3cb8b59-ea20-4db7-badc-25dac000bcaa
 ms.date: 07/13/2018
 ms.topic: interface
+f1_keywords:
+ - "dbgmodel/IDynamicConceptProviderConcept"
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:

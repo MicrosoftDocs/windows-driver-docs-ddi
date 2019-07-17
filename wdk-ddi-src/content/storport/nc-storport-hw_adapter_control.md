@@ -8,6 +8,8 @@ ms.assetid: e1944f1b-97db-4ac2-848e-e69359c09589
 ms.date: 03/29/2018
 ms.keywords: HW_ADAPTER_CONTROL, HwStorAdapterControl, HwStorAdapterControl routine [Storage Devices], storage.hwstoradaptercontrol, stormini_19cbc8b1-9908-4b4d-a62b-712fb97e6bbd.xml, storport/HwStorAdapterControl
 ms.topic: callback
+f1_keywords:
+ - "storport/HwStorAdapterControl"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

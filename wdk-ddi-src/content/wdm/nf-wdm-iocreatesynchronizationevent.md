@@ -8,6 +8,8 @@ ms.assetid: ce068ad0-3826-4f5d-a41c-2c3a40200f30
 ms.date: 04/30/2018
 ms.keywords: IoCreateSynchronizationEvent, IoCreateSynchronizationEvent routine [Kernel-Mode Driver Architecture], k104_413cbfff-08a2-44b5-acdc-0e23d382a3d3.xml, kernel.iocreatesynchronizationevent, wdm/IoCreateSynchronizationEvent
 ms.topic: function
+f1_keywords:
+ - "wdm/IoCreateSynchronizationEvent"
 req.header: wdm.h
 req.include-header: Ntddk.h
 req.target-type: Universal

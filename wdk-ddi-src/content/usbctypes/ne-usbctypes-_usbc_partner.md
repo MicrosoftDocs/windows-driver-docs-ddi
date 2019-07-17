@@ -5,6 +5,8 @@ description: Defines values for the type of connector partner detected on the US
 ms.assetid: c5dd981e-327f-45d2-8d0a-507cd118b1ae
 ms.date: 09/30/2018
 ms.topic: enum
+f1_keywords:
+ - "usbctypes/_USBC_PARTNER"
 ms.keywords: _USBC_PARTNER, USBC_PARTNER, 
 req.header: usbctypes.h
 req.include-header: usbctypes.h

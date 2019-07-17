@@ -8,6 +8,8 @@ ms.assetid: 10AFDC4B-75E5-4E88-A614-60043848C570
 ms.date: 04/23/2018
 ms.keywords: "*PKSSCATTER_GATHER, KSSCATTER_GATHER, KSSCATTER_GATHER structure [Streaming Media Devices], PKSSCATTER_GATHER, PKSSCATTER_GATHER structure pointer [Streaming Media Devices], stream.ksscatter_gather, strmini/KSSCATTER_GATHER, strmini/PKSSCATTER_GATHER"
 ms.topic: struct
+f1_keywords:
+ - "strmini/KSSCATTER_GATHER"
 req.header: strmini.h
 req.include-header: 
 req.target-type: Windows

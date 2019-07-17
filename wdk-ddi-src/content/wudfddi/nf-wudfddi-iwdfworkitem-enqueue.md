@@ -8,6 +8,8 @@ ms.assetid: 61A889D5-122F-4091-90D6-EDD43D52A14A
 ms.date: 02/26/2018
 ms.keywords: Enqueue, Enqueue method, Enqueue method,IWDFWorkItem interface, IWDFWorkItem interface,Enqueue method, IWDFWorkItem.Enqueue, IWDFWorkItem::Enqueue, umdf.iwdfworkitem_enqueue, wdf.iwdfworkitem_enqueue, wudfddi/IWDFWorkItem::Enqueue
 ms.topic: method
+f1_keywords:
+ - "wudfddi/IWDFWorkItem.Enqueue"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Desktop

@@ -8,6 +8,8 @@ ms.assetid: 3ddf62f1-ce5d-4d55-9964-8d1786ac2997
 ms.date: 04/30/2018
 ms.keywords: InterlockedXor, InterlockedXor routine [Kernel-Mode Driver Architecture], k102_7b4b6df0-2179-4a6a-941d-5aaa95609cd8.xml, kernel.interlockedxor, wdm/InterlockedXor
 ms.topic: function
+f1_keywords:
+ - "wdm/InterlockedXor"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Miniport.h
 req.target-type: Desktop

@@ -8,6 +8,8 @@ ms.assetid: 525a44a5-4271-4079-917e-48eb679cb96d
 ms.date: 04/30/2018
 ms.keywords: HidP_MaxDataListLength, HidP_MaxDataListLength routine [Human Input Devices], hid.hidp_maxdatalistlength, hidfunc_2c103c6f-6177-47b3-9d52-9e15c97d758d.xml, hidpi/HidP_MaxDataListLength
 ms.topic: function
+f1_keywords:
+ - "hidpi/HidP_MaxDataListLength"
 req.header: hidpi.h
 req.include-header: Hidpi.h
 req.target-type: Universal

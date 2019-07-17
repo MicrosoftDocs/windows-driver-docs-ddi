@@ -8,6 +8,8 @@ ms.assetid: a80d361e-81d3-483c-8ddb-d5e5a69c8ba4
 ms.date: 04/30/2018
 ms.keywords: READ_REGISTER_BUFFER_ULONG, READ_REGISTER_BUFFER_ULONG routine [Kernel-Mode Driver Architecture], k103_8349c675-ef3b-441a-b11c-730cc43ee09a.xml, kernel.read_register_buffer_ulong, wdm/READ_REGISTER_BUFFER_ULONG
 ms.topic: function
+f1_keywords:
+ - "miniport/READ_REGISTER_BUFFER_ULONG"
 req.header: miniport.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Miniport.h, Wudfwdm.h
 req.target-type: Universal

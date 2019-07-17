@@ -8,6 +8,8 @@ ms.assetid: 06459A1F-A14B-43BA-9771-47205CC3F388
 ms.date: 04/20/2018
 ms.keywords: IPrinterQueue2, IPrinterQueue2 interface [Print Devices], IPrinterQueue2 interface [Print Devices],described, print.iprinterqueue2, printerextension/IPrinterQueue2
 ms.topic: interface
+f1_keywords:
+ - "printerextension/IPrinterQueue2"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows

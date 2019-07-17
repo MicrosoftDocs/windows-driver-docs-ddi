@@ -5,6 +5,8 @@ description: The hardware reserved memory ranges that was queried by the call th
 ms.assetid: c78d4d75-1775-407f-ac32-2e29a34389cd
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3dkmddi/_DXGK_HARDWARERESERVEDRANGES"
 ms.keywords: _DXGK_HARDWARERESERVEDRANGES, DXGK_HARDWARERESERVEDRANGES,
 req.header: d3dkmddi.h
 req.include-header:

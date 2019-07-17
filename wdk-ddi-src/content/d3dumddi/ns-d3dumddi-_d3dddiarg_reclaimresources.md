@@ -8,6 +8,8 @@ ms.assetid: 58e8738c-b10a-4c93-b179-03efcb65412d
 ms.date: 05/10/2018
 ms.keywords: D3DDDIARG_RECLAIMRESOURCES, D3DDDIARG_RECLAIMRESOURCES structure [Display Devices], _D3DDDIARG_RECLAIMRESOURCES, d3dumddi/D3DDDIARG_RECLAIMRESOURCES, display.d3dddiarg_reclaimresources
 ms.topic: struct
+f1_keywords:
+ - "d3dumddi/D3DDDIARG_RECLAIMRESOURCES"
 req.header: d3dumddi.h
 req.include-header: 
 req.target-type: Windows

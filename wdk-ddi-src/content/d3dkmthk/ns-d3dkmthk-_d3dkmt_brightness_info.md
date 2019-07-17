@@ -7,6 +7,8 @@ ms.assetid: a620b0b2-85ce-4373-a50c-299d8ce7a91c
 ms.date: 05/10/2018
 ms.keywords: D3DKMT_BRIGHTNESS_INFO, D3DKMT_BRIGHTNESS_INFO structure [Display Devices], _D3DKMT_BRIGHTNESS_INFO, d3dkmthk/D3DKMT_BRIGHTNESS_INFO, display.d3dkmt_brightness_info
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/D3DKMT_BRIGHTNESS_INFO"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

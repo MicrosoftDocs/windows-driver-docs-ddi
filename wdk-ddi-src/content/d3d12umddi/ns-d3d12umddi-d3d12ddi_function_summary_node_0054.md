@@ -5,6 +5,8 @@ description: A list of shader entry points for a subobject association.
 ms.assetid: 77e28a0a-44f7-44e7-8c98-5af6b97717f3
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_FUNCTION_SUMMARY_NODE_0054"
 ms.keywords: D3D12DDI_FUNCTION_SUMMARY_NODE_0054, D3D12DDI_FUNCTION_SUMMARY_NODE_0054, 
 req.header: d3d12umddi.h
 req.include-header:

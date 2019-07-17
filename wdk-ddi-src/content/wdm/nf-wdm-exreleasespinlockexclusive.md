@@ -8,6 +8,8 @@ ms.assetid: D10C65A6-96E7-4BE0-BDD5-EFD129DC424C
 ms.date: 03/28/2018
 ms.keywords: ExReleaseSpinLockExclusive, ExReleaseSpinLockExclusive routine [Kernel-Mode Driver Architecture], kernel.exreleasespinlockexclusive_, wdm/ExReleaseSpinLockExclusive
 ms.topic: function
+f1_keywords:
+ - "wdm/ExReleaseSpinLockExclusive"
 req.header: wdm.h
 req.include-header:
 req.target-type: Universal

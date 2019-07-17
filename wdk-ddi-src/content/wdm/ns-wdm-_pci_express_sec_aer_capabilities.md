@@ -8,6 +8,8 @@ ms.assetid: fdfc0157-699e-4927-8186-b76b2e2bbda1
 ms.date: 02/24/2018
 ms.keywords: "*PPCI_EXPRESS_SEC_AER_CAPABILITIES, PCI.pci_express_sec_aer_capabilities, PCI_EXPRESS_SEC_AER_CAPABILITIES, PCI_EXPRESS_SEC_AER_CAPABILITIES union [Buses], PPCI_EXPRESS_SEC_AER_CAPABILITIES, PPCI_EXPRESS_SEC_AER_CAPABILITIES union pointer [Buses], _PCI_EXPRESS_SEC_AER_CAPABILITIES, pci_struct_22bcb7f0-e690-414b-ba51-37c8783a6fad.xml, wdm/PCI_EXPRESS_SEC_AER_CAPABILITIES, wdm/PPCI_EXPRESS_SEC_AER_CAPABILITIES"
 ms.topic: struct
+f1_keywords:
+ - "wdm/PCI_EXPRESS_SEC_AER_CAPABILITIES"
 req.header: wdm.h
 req.include-header: Ntddk.h, Wdm.h, Miniport.h
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: c8b4fef4-cfbb-4cdd-b762-062b8ae4a423
 ms.date: 04/23/2018
 ms.keywords: KsSetDefaultClockTime, KsSetDefaultClockTime function [Streaming Media Devices], ks/KsSetDefaultClockTime, ksfunc_737648d0-8fc4-405c-96c8-61778e6758e9.xml, stream.kssetdefaultclocktime
 ms.topic: function
+f1_keywords:
+ - "ks/KsSetDefaultClockTime"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

@@ -5,6 +5,8 @@ description: The name of the Miracast (wireless display) companion driver.
 ms.assetid: 2b1f8967-a5f9-4d21-9a72-bec52b5f7c12
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/_D3DKMT_MIRACASTCOMPANIONDRIVERNAME"
 ms.keywords: _D3DKMT_MIRACASTCOMPANIONDRIVERNAME, D3DKMT_MIRACASTCOMPANIONDRIVERNAME, 
 req.header: d3dkmthk.h
 req.include-header:

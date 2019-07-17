@@ -8,6 +8,8 @@ ms.assetid: 71f9d0c2-ffc9-4fe1-ae95-f38a1d1e82df
 ms.date: 03/29/2018
 ms.keywords: "*PFILTER_INITIALIZATION_DATA, DUMP_FILTER_CRITICAL, DUMP_FILTER_FLAG_SYSTEM_SUPPORT_READ, DUMP_FILTER_MAJOR_VERSION, DUMP_FILTER_MAJOR_VERSION_1, FILTER_INITIALIZATION_DATA, FILTER_INITIALIZATION_DATA structure [Storage Devices], PFILTER_INITIALIZATION_DATA, PFILTER_INITIALIZATION_DATA structure pointer [Storage Devices], _FILTER_INITIALIZATION_DATA, ntdddump/FILTER_INITIALIZATION_DATA, ntdddump/PFILTER_INITIALIZATION_DATA, storage.filter_initialization_data, structs-filter_5efcc842-8111-4808-9b70-14d63dd91ba5.xml"
 ms.topic: struct
+f1_keywords:
+ - "ntdddump/FILTER_INITIALIZATION_DATA"
 req.header: ntdddump.h
 req.include-header: Ntdddump.h
 req.target-type: Windows

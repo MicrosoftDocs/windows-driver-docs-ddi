@@ -5,6 +5,8 @@ description: The PFND3DKMT_PINDIRECTFLIPRESOURCES callback function pins direct 
 ms.assetid: 7cb8aa84-fd33-4667-af4d-6ceb20e5edf5
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/PFND3DKMT_PINDIRECTFLIPRESOURCES"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal

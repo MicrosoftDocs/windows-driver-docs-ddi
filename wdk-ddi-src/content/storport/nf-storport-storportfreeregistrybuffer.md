@@ -8,6 +8,8 @@ ms.assetid: 19e6bf4a-8951-44a6-ac04-f286d8979e40
 ms.date: 03/29/2018
 ms.keywords: StorPortFreeRegistryBuffer, StorPortFreeRegistryBuffer routine [Storage Devices], storage.storportfreeregistrybuffer, storport/StorPortFreeRegistryBuffer, storprt_a81ec7f6-e78c-4bf0-9289-2a833623664d.xml
 ms.topic: function
+f1_keywords:
+ - "storport/StorPortFreeRegistryBuffer"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

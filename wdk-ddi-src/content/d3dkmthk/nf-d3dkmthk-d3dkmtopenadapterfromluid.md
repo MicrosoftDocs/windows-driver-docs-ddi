@@ -7,6 +7,8 @@ ms.assetid: 1007c8ba-c503-4522-aef8-23b89bec3d62
 ms.date: 05/10/2018
 ms.keywords: D3DKMTOpenAdapterFromLuid, D3DKMTOpenAdapterFromLuid function [Display Devices], d3dkmthk/D3DKMTOpenAdapterFromLuid, display.d3dkmtopenadapterfromluid
 ms.topic: function
+f1_keywords:
+ - "d3dkmthk/D3DKMTOpenAdapterFromLuid"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal

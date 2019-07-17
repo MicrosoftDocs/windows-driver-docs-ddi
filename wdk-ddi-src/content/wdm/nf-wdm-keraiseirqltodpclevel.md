@@ -8,6 +8,8 @@ ms.assetid: ac82e003-ec05-4b8b-a4fb-64498fb17f9b
 ms.date: 04/30/2018
 ms.keywords: KeRaiseIrqlToDpcLevel, KeRaiseIrqlToDpcLevel routine [Kernel-Mode Driver Architecture], k105_64c33a5b-8efa-4d97-9569-2ea68a227d17.xml, kernel.keraiseirqltodpclevel, wdm/KeRaiseIrqlToDpcLevel
 ms.topic: function
+f1_keywords:
+ - "wdm/KeRaiseIrqlToDpcLevel"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Universal

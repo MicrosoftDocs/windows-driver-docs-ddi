@@ -8,6 +8,8 @@ ms.assetid: d48484eb-a7bf-4ca7-9d18-4c4c166db90c
 ms.date: 02/26/2018
 ms.keywords: "*PWDF_USB_DEVICE_SELECT_CONFIG_PARAMS, DFUsbRef_1f6335f1-ec4c-413e-b176-46b1bdf70d46.xml, PWDF_USB_DEVICE_SELECT_CONFIG_PARAMS, PWDF_USB_DEVICE_SELECT_CONFIG_PARAMS structure pointer, WDF_USB_DEVICE_SELECT_CONFIG_PARAMS, WDF_USB_DEVICE_SELECT_CONFIG_PARAMS structure, _WDF_USB_DEVICE_SELECT_CONFIG_PARAMS, kmdf.wdf_usb_device_select_config_params, wdf.wdf_usb_device_select_config_params, wdfusb/PWDF_USB_DEVICE_SELECT_CONFIG_PARAMS, wdfusb/WDF_USB_DEVICE_SELECT_CONFIG_PARAMS"
 ms.topic: struct
+f1_keywords:
+ - "wdfusb/WDF_USB_DEVICE_SELECT_CONFIG_PARAMS"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Windows

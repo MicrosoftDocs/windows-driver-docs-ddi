@@ -8,6 +8,8 @@ ms.assetid: c4c65d1f-2531-4804-8a86-160b1ddfd692
 ms.date: 05/10/2018
 ms.keywords: DXVA2_Structs_1384e44e-aa25-470a-93bb-3e20b5885bdb.xml, DXVADDI_PVP_BLOCK128, DXVADDI_PVP_BLOCK128 structure [Display Devices], DXVADDI_PVP_KEY128, DXVADDI_PVP_KEY128 structure [Display Devices], _DXVADDI_PVP_BLOCK128, d3dumddi/DXVADDI_PVP_KEY128, display.dxvaddi_pvp_key128
 ms.topic: struct
+f1_keywords:
+ - "d3dumddi/DXVADDI_PVP_BLOCK128"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

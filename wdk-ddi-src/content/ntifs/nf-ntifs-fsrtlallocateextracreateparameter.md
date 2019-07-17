@@ -8,6 +8,8 @@ ms.assetid: 644680a9-ec56-4d65-890f-fbc11badf2b7
 ms.date: 04/16/2018
 ms.keywords: FsRtlAllocateExtraCreateParameter, FsRtlAllocateExtraCreateParameter routine [Installable File System Drivers], fsrtlref_97f1c552-b822-4fda-9327-8d127f42080b.xml, ifsk.fsrtlallocateextracreateparameter, ntifs/FsRtlAllocateExtraCreateParameter
 ms.topic: function
+f1_keywords:
+ - "ntifs/FsRtlAllocateExtraCreateParameter"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

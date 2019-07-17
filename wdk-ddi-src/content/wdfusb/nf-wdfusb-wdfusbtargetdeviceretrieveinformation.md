@@ -8,6 +8,8 @@ ms.assetid: 68fc8d8b-3ba2-4f22-8a7e-29971a38544b
 ms.date: 02/26/2018
 ms.keywords: DFUsbRef_dd8528c2-9697-4cc3-88f2-ba198fbe7594.xml, WdfUsbTargetDeviceRetrieveInformation, WdfUsbTargetDeviceRetrieveInformation method, kmdf.wdfusbtargetdeviceretrieveinformation, wdf.wdfusbtargetdeviceretrieveinformation, wdfusb/WdfUsbTargetDeviceRetrieveInformation
 ms.topic: function
+f1_keywords:
+ - "wdfusb/WdfUsbTargetDeviceRetrieveInformation"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal

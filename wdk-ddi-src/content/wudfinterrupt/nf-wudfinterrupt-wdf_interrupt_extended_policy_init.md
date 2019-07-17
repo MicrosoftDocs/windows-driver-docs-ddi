@@ -8,6 +8,8 @@ ms.assetid: 6CD02F5B-0E34-46F5-8AEA-3B30293E1875
 ms.date: 02/26/2018
 ms.keywords: WDF_INTERRUPT_EXTENDED_POLICY_INIT, WDF_INTERRUPT_EXTENDED_POLICY_INIT function, umdf.wdf_interrupt_extended_policy_init, wdf.wdf_interrupt_extended_policy_init_umdf, wudfinterrupt/WDF_INTERRUPT_EXTENDED_POLICY_INIT
 ms.topic: function
+f1_keywords:
+ - "wudfinterrupt/WDF_INTERRUPT_EXTENDED_POLICY_INIT"
 req.header: wudfinterrupt.h
 req.include-header: 
 req.target-type: Desktop

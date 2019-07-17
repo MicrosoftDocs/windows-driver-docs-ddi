@@ -8,6 +8,8 @@ ms.assetid: 85ae47d8-228c-4fff-9be0-bf56868b9319
 ms.date: 05/10/2018
 ms.keywords: IDDCX_FRAME_STATISTICS_FLAGS, IDDCX_FRAME_STATISTICS_FLAGS enumeration [Display Devices], IDDCX_FRAME_STATISTICS_FLAGS_NONE, IDDCX_FRAME_STATISTICS_FLAGS_REDUCED_COLOR_FIDELITY, display.iddcx_frame_statistics_flags, iddcx/IDDCX_FRAME_STATISTICS_FLAGS, iddcx/IDDCX_FRAME_STATISTICS_FLAGS_NONE, iddcx/IDDCX_FRAME_STATISTICS_FLAGS_REDUCED_COLOR_FIDELITY
 ms.topic: enum
+f1_keywords:
+ - "iddcx/IDDCX_FRAME_STATISTICS_FLAGS"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows

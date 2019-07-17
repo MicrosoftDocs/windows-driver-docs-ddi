@@ -8,6 +8,8 @@ ms.assetid: 68ad19a5-4694-4b75-8062-75b06bdc16ed
 ms.date: 04/30/2018
 ms.keywords: IoDeleteSymbolicLink, IoDeleteSymbolicLink routine [Kernel-Mode Driver Architecture], k104_6ff2f570-3573-4d12-b338-cca69515ef1a.xml, kernel.iodeletesymboliclink, wdm/IoDeleteSymbolicLink
 ms.topic: function
+f1_keywords:
+ - "wdm/IoDeleteSymbolicLink"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

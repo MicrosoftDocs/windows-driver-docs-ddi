@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: babd5f84-dcc0-4800-a73b-3dbf580700e0
 ms.date: 02/08/2018
 ms.topic: function
+f1_keywords:
+ - "netpowersettings/NetPowerSettingsGetWakePattern"
 ms.keywords: NetPowerSettingsGetWakePattern
 req.header: netpowersettings.h
 req.include-header: netadaptercx.h

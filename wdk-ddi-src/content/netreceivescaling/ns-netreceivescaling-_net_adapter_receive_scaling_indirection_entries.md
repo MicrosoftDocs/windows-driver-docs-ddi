@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 62dc57e0-7c2d-415a-8ab9-3fc973b5be87
 ms.date: 07/13/2018
 ms.topic: struct
+f1_keywords:
+ - "netreceivescaling/_NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRIES"
 ms.keywords: _NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRIES, NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRIES, *PNET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRIES, 
 req.header: netreceivescaling.h
 req.include-header:

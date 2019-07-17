@@ -8,6 +8,8 @@ ms.assetid: E1F16454-C8E6-4291-83BB-F4CF18F6DF10
 ms.date: 03/29/2018
 ms.keywords: FsRtlMdlReadEx, FsRtlMdlReadEx routine [Installable File System Drivers], ifsk.fsrtlmdlreadex, ntifs/FsRtlMdlReadEx
 ms.topic: function
+f1_keywords:
+ - "ntifs/FsRtlMdlReadEx"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

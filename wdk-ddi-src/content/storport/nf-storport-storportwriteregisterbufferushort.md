@@ -8,6 +8,8 @@ ms.assetid: 13da18b3-682f-485a-9d74-0bbff4254862
 ms.date: 03/29/2018
 ms.keywords: StorPortWriteRegisterBufferUshort, StorPortWriteRegisterBufferUshort routine [Storage Devices], storage.storportwriteregisterbufferushort, storport/StorPortWriteRegisterBufferUshort, storprt_8b227304-10e5-46fc-93e1-41b1c91068b1.xml
 ms.topic: macro
+f1_keywords:
+ - "storport/StorPortWriteRegisterBufferUshort"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

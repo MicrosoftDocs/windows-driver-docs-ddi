@@ -8,6 +8,8 @@ ms.assetid: ffacfd4e-9ceb-477a-8b2f-17d7c590fd81
 ms.date: 05/08/2018
 ms.keywords: PcRegisterPhysicalConnectionToExternal, PcRegisterPhysicalConnectionToExternal function [Audio Devices], audio.pcregisterphysicalconnectiontoexternal, audpc-routines_8e03485f-aca9-4e06-981b-fa9593472499.xml, portcls/PcRegisterPhysicalConnectionToExternal
 ms.topic: function
+f1_keywords:
+ - "portcls/PcRegisterPhysicalConnectionToExternal"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal

@@ -8,6 +8,8 @@ ms.assetid: 7eaed9d2-20fa-4cf1-b924-fbe1443535e9
 ms.date: 04/20/2018
 ms.keywords: GdiGetPageHandle, GdiGetPageHandle function [Print Devices], gdifnc_3a8cdbd2-c73f-4b24-b984-9237b20327e1.xml, print.gdigetpagehandle, winppi/GdiGetPageHandle
 ms.topic: function
+f1_keywords:
+ - "winppi/GdiGetPageHandle"
 req.header: winppi.h
 req.include-header: Winppi.h
 req.target-type: Universal

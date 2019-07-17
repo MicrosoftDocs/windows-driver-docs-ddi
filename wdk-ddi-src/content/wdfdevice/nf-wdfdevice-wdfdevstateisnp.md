@@ -8,6 +8,8 @@ ms.assetid: 49584600-e470-4be8-9111-3e890a9fedfd
 ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_ed6dd7ac-b5e3-49b2-a4d8-08e4e9377321.xml, WdfDevStateIsNP, WdfDevStateIsNP method, kmdf.wdfdevstateisnp, wdf.wdfdevstateisnp, wdfdevice/WdfDevStateIsNP
 ms.topic: function
+f1_keywords:
+ - "wdfdevice/WdfDevStateIsNP"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

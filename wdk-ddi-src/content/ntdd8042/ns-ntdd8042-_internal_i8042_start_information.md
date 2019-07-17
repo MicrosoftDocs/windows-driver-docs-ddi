@@ -8,6 +8,8 @@ ms.assetid: 8ceaa9de-195f-4a89-bc3e-323256097248
 ms.date: 04/30/2018
 ms.keywords: "*PINTERNAL_I8042_START_INFORMATION, INTERNAL_I8042_START_INFORMATION, INTERNAL_I8042_START_INFORMATION structure [Human Input Devices], PINTERNAL_I8042_START_INFORMATION, PINTERNAL_I8042_START_INFORMATION structure pointer [Human Input Devices], _INTERNAL_I8042_START_INFORMATION, hid.internal_i8042_start_information, i8042ref_bf7bcffd-5c6b-47b4-be53-2b543990b2fa.xml, ntdd8042/INTERNAL_I8042_START_INFORMATION, ntdd8042/PINTERNAL_I8042_START_INFORMATION"
 ms.topic: struct
+f1_keywords:
+ - "ntdd8042/INTERNAL_I8042_START_INFORMATION"
 req.header: ntdd8042.h
 req.include-header: Ntdd8042.h
 req.target-type: Windows

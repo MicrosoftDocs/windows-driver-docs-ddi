@@ -7,6 +7,8 @@ ms.assetid: 39BF7EBF-DD13-41F0-9F54-78E5D82CAB4F
 ms.date: 05/10/2018
 ms.keywords: DXGKARG_UPDATEHWCONTEXTSTATE, DXGKARG_UPDATEHWCONTEXTSTATE structure [Display Devices], _DXGKARG_UPDATEHWCONTEXTSTATE, d3dkmddi/DXGKARG_UPDATEHWCONTEXTSTATE, display.dxgkarg_updatehwcontextstate
 ms.topic: struct
+f1_keywords:
+ - "d3dkmddi/DXGKARG_UPDATEHWCONTEXTSTATE"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Windows

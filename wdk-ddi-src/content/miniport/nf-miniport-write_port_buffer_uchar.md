@@ -8,6 +8,8 @@ ms.assetid: 59a7b11a-c6b6-4452-9518-1e5c7c07ec18
 ms.date: 04/30/2018
 ms.keywords: WRITE_PORT_BUFFER_UCHAR, WRITE_PORT_BUFFER_UCHAR routine [Kernel-Mode Driver Architecture], k103_189a5664-0e12-4e18-a52c-6d04c3e8a7fd.xml, kernel.write_port_buffer_uchar, wdm/WRITE_PORT_BUFFER_UCHAR
 ms.topic: function
+f1_keywords:
+ - "miniport/WRITE_PORT_BUFFER_UCHAR"
 req.header: miniport.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Miniport.h
 req.target-type: Universal

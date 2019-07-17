@@ -7,6 +7,8 @@ ms.assetid: 4792107C-BAAA-48B5-AC9A-829C05795303
 ms.date: 05/10/2018
 ms.keywords: "*IN_OUT_PDXGKARG_GETMULTIPLANEOVERLAYCAPS, DXGKARG_GETMULTIPLANEOVERLAYCAPS, DXGKARG_GETMULTIPLANEOVERLAYCAPS structure [Display Devices], _DXGKARG_GETMULTIPLANEOVERLAYCAPS, d3dkmddi/DXGKARG_GETMULTIPLANEOVERLAYCAPS, display.dxgkarg_getmultiplaneoverlaycaps"
 ms.topic: struct
+f1_keywords:
+ - "d3dkmddi/DXGKARG_GETMULTIPLANEOVERLAYCAPS"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Windows

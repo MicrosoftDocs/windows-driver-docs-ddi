@@ -8,6 +8,8 @@ ms.assetid: 852f310d-e346-49c3-8648-639fb817b70e
 ms.author: windowsdriverdev
 ms.date: 02/04/2019
 ms.topic: function
+f1_keywords:
+ - "netringiterator/NetFragmentIteratorHasAny"
 ms.keywords: NetFragmentIteratorHasAny
 req.header: netringiterator.h
 req.include-header:

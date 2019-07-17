@@ -7,6 +7,8 @@ ms.assetid: 56228a1d-ca3b-4bd4-850c-af736e91494c
 ms.date: 05/10/2018
 ms.keywords: D3D11_1DDI_AES_CTR_IV, D3D11_1DDI_AES_CTR_IV structure [Display Devices], d3d10umddi/D3D11_1DDI_AES_CTR_IV, display.d3d11_1ddi_aes_ctr_iv
 ms.topic: struct
+f1_keywords:
+ - "d3d10umddi/D3D11_1DDI_AES_CTR_IV"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows

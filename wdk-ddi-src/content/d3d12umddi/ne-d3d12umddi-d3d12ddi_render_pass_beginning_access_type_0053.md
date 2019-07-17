@@ -5,6 +5,8 @@ description: Declares the type of resource access to begin a Render Pass.
 ms.assetid: 2db80a0c-b883-4e13-9763-37b135923a26
 ms.date: 10/19/2018
 ms.topic: enum
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_RENDER_PASS_BEGINNING_ACCESS_TYPE_0053"
 ms.keywords: D3D12DDI_RENDER_PASS_BEGINNING_ACCESS_TYPE_0053, D3D12DDI_RENDER_PASS_BEGINNING_ACCESS_TYPE_0053, 
 req.header: d3d12umddi.h
 req.include-header:

@@ -8,6 +8,8 @@ ms.assetid: a3df8ce0-4414-49d1-a02c-3f5a3efc0de2
 ms.date: 03/29/2018
 ms.keywords: "*PIDEREGISTERS, IDEREGISTERS, IDEREGISTERS structure [Storage Devices], PIDEREGISTERS, PIDEREGISTERS structure pointer [Storage Devices], _IDEREGISTERS, irb/IDEREGISTERS, irb/PIDEREGISTERS, storage.ideregisters, structs-ATA_8e024553-553c-4a64-9f74-7259f530b3b5.xml"
 ms.topic: struct
+f1_keywords:
+ - "irb/IDEREGISTERS"
 req.header: irb.h
 req.include-header: Irb.h
 req.target-type: Windows

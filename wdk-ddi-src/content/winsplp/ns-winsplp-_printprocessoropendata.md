@@ -8,6 +8,8 @@ ms.assetid: d7160747-d81c-407a-bbf0-7ec5b3210c13
 ms.date: 04/20/2018
 ms.keywords: "*LPPRINTPROCESSOROPENDATA, *PPRINTPROCESSOROPENDATA, LPPRINTPROCESSOROPENDATA, LPPRINTPROCESSOROPENDATA structure pointer [Print Devices], PPRINTPROCESSOROPENDATA, PPRINTPROCESSOROPENDATA structure pointer [Print Devices], PRINTPROCESSOROPENDATA, PRINTPROCESSOROPENDATA structure [Print Devices], _PRINTPROCESSOROPENDATA, print.printprocessoropendata, spoolfnc_d24c3eae-da3e-473a-bd25-5ec09d23fe89.xml, winsplp/LPPRINTPROCESSOROPENDATA, winsplp/PPRINTPROCESSOROPENDATA, winsplp/PRINTPROCESSOROPENDATA"
 ms.topic: struct
+f1_keywords:
+ - "winsplp/PRINTPROCESSOROPENDATA"
 req.header: winsplp.h
 req.include-header: Winsplp.h
 req.target-type: Windows

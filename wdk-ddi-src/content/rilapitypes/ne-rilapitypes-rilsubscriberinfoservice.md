@@ -8,6 +8,8 @@ ms.assetid: 32ae6058-586d-44b4-b2b1-be61875e2f9f
 ms.date: 02/26/2018
 ms.keywords: RILSUBSCRIBERINFOSERVICE, RILSUBSCRIBERINFOSERVICE enumeration [Network Drivers Starting with Windows Vista], RIL_SERVICE_FAX, RIL_SERVICE_MAX, RIL_SERVICE_OTHER, RIL_SERVICE_VOICE, netvista.rilsubscriberinfoservice_2, rilapitypes/RILSUBSCRIBERINFOSERVICE, rilapitypes/RIL_SERVICE_FAX, rilapitypes/RIL_SERVICE_MAX, rilapitypes/RIL_SERVICE_OTHER, rilapitypes/RIL_SERVICE_VOICE
 ms.topic: enum
+f1_keywords:
+ - "rilapitypes/RILSUBSCRIBERINFOSERVICE"
 req.header: rilapitypes.h
 req.include-header:
 req.target-type: Windows

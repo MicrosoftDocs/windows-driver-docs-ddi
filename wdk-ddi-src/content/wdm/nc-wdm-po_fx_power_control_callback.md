@@ -8,6 +8,8 @@ ms.assetid: 110DAD1A-606B-4973-8724-03B531B2AEA9
 ms.date: 04/30/2018
 ms.keywords: PO_FX_POWER_CONTROL_CALLBACK, PowerControlCallback, PowerControlCallback routine [Kernel-Mode Driver Architecture], kernel.powercontrolcallback, wdm/PowerControlCallback
 ms.topic: callback
+f1_keywords:
+ - "wdm/PowerControlCallback"
 req.header: wdm.h
 req.include-header: Wudfwdm.h
 req.target-type: Desktop

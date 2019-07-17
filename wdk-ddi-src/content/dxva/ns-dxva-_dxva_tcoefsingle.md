@@ -8,6 +8,8 @@ ms.assetid: 665a9819-d319-414d-9a31-ee565b293197
 ms.date: 05/10/2018
 ms.keywords: "*LPDXVA_TCoefSingle, DXVA_TCoefSingle, DXVA_TCoefSingle structure [Display Devices], LPDXVA_TCoefSingle, LPDXVA_TCoefSingle structure pointer [Display Devices], _DXVA_TCoefSingle, display.dxva_tcoefsingle, dxva/DXVA_TCoefSingle, dxva/LPDXVA_TCoefSingle, dxvaref_2b92ced3-3856-466f-b95a-84dd78426a0e.xml"
 ms.topic: struct
+f1_keywords:
+ - "dxva/DXVA_TCoefSingle"
 req.header: dxva.h
 req.include-header: Dxva.h
 req.target-type: Windows

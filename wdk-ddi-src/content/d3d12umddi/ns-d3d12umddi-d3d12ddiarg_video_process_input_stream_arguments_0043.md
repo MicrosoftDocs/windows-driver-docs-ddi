@@ -5,6 +5,8 @@ description: Specifies input stream parameters for an input stream passed to PFN
 ms.assetid: 816940cd-6653-44fb-b529-e75e4de72356
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3d12umddi/D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0043"
 ms.keywords: D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0043, D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0043,
 req.header: d3d12umddi.h
 req.include-header:

@@ -5,6 +5,8 @@ description: Checks the serialized driver identifier to see if it matches the sp
 ms.assetid: 241eb409-0ff3-4638-bdc3-fe655e7b1e7d
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_CHECK_DRIVER_MATCHING_IDENTIFIER_0054"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

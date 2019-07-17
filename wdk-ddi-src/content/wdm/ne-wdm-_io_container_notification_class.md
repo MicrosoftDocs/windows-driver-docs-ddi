@@ -8,6 +8,8 @@ ms.assetid: cc2ce023-ebb1-4a8e-a06a-e2f11a89d258
 ms.date: 04/30/2018
 ms.keywords: IO_CONTAINER_NOTIFICATION_CLASS, IO_CONTAINER_NOTIFICATION_CLASS enumeration [Kernel-Mode Driver Architecture], IoMaxContainerNotificationClass, IoSessionStateNotification, _IO_CONTAINER_NOTIFICATION_CLASS, kernel.io_container_notification_class, sysenum_c77c6805-11ce-4368-9c82-085ce99a2a97.xml, wdm/IO_CONTAINER_NOTIFICATION_CLASS, wdm/IoMaxContainerNotificationClass, wdm/IoSessionStateNotification
 ms.topic: enum
+f1_keywords:
+ - "wdm/IO_CONTAINER_NOTIFICATION_CLASS"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Fltkernel.h
 req.target-type: Windows

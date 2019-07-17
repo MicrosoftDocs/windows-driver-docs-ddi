@@ -8,6 +8,8 @@ ms.assetid: 69D251D9-1B33-49FD-8D48-EFCBD6640632
 ms.date: 02/26/2018
 ms.keywords: WdfDmaTransactionAllocateResources, WdfDmaTransactionAllocateResources method, kmdf.wdfdmatransactionallocateresources, wdf.wdfdmatransactionallocateresources, wdfdmatransaction/WdfDmaTransactionAllocateResources
 ms.topic: function
+f1_keywords:
+ - "wdfdmatransaction/WdfDmaTransactionAllocateResources"
 req.header: wdfdmatransaction.h
 req.include-header: Wdf.h
 req.target-type: Universal

@@ -8,6 +8,8 @@ ms.assetid: 54c0fed2-a553-4321-bf61-0f71d18ab7c5
 ms.date: 04/30/2018
 ms.keywords: TmPrePrepareEnlistment, TmPrePrepareEnlistment routine [Kernel-Mode Driver Architecture], kernel.tmpreprepareenlistment, ktm_ref_b27bc92e-86df-4457-9a8a-bf56eb7d1ac8.xml, wdm/TmPrePrepareEnlistment
 ms.topic: function
+f1_keywords:
+ - "wdm/TmPrePrepareEnlistment"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

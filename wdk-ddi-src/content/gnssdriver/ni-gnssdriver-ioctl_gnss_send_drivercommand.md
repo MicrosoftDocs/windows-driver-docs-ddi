@@ -8,6 +8,8 @@ ms.assetid: CC991E95-D7E2-4B40-9D51-EA38C6732C7B
 ms.date: 02/15/2018
 ms.keywords: IOCTL_GNSS_SEND_DRIVERCOMMAND, IOCTL_GNSS_SEND_DRIVERCOMMAND control, IOCTL_GNSS_SEND_DRIVERCOMMAND control code [Sensor Devices], gnss.ioctl_gnss_send_drivercommand, gnssdriver/IOCTL_GNSS_SEND_DRIVERCOMMAND
 ms.topic: ioctl
+f1_keywords:
+ - "gnssdriver/IOCTL_GNSS_SEND_DRIVERCOMMAND"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: 8c2d5cfe-6538-4588-9873-56f356d98511
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
+f1_keywords:
+ - "ntddk/WHEAP_STARTED_REPORT_HW_ERROR"
 ms.keywords: WHEAP_STARTED_REPORT_HW_ERROR, WHEAP_STARTED_REPORT_HW_ERROR, *PWHEAP_STARTED_REPORT_HW_ERROR, 
 req.header: ntddk.h
 req.include-header:

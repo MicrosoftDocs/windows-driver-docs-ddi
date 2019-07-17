@@ -8,6 +8,8 @@ ms.assetid: c01b94b2-aabf-47dd-952a-06e481579614
 ms.date: 02/26/2018
 ms.keywords: DFDmaObjectRef_972816f8-bfd1-487d-8ac4-7ef75dcdfa97.xml, EVT_WDF_PROGRAM_DMA, EVT_WDF_PROGRAM_DMA callback, EvtProgramDma, EvtProgramDma callback function, kmdf.evtprogramdma, wdf.evtprogramdma, wdfdmatransaction/EvtProgramDma
 ms.topic: callback
+f1_keywords:
+ - "wdfdmatransaction/EvtProgramDma"
 req.header: wdfdmatransaction.h
 req.include-header: Wdf.h
 req.target-type: Universal

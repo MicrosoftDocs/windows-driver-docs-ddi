@@ -8,6 +8,8 @@ ms.assetid: 65780036-2a4b-4fa4-bafb-b6966689120c
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
 ms.topic: enum
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_SHADING_RATE_0062"
 ms.keywords: D3D12DDI_SHADING_RATE_0062, D3D12DDI_SHADING_RATE_0062, 
 req.header: d3d12umddi.h
 req.include-header:

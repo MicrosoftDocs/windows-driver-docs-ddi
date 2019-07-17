@@ -8,6 +8,8 @@ ms.assetid: 5bc5a24f-5f28-4502-8776-b1cf15fd8283
 ms.date: 05/02/2018
 ms.keywords: PROTOCOL_STATUS_EX, PROTOCOL_STATUS_EX callback, ProtocolStatusEx, ProtocolStatusEx callback function [Network Drivers Starting with Windows Vista], ndis/ProtocolStatusEx, ndis_status_ref_c14c8c6e-b2ed-41a7-a4da-c7415ee8b290.xml, netvista.protocolstatusex
 ms.topic: callback
+f1_keywords:
+ - "ndis/ProtocolStatusEx"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

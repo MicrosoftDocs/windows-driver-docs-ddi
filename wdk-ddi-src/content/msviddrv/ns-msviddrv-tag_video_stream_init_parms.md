@@ -8,6 +8,8 @@ ms.assetid: 0FEC5054-8045-4CE5-AA59-AE3D23568308
 ms.date: 04/23/2018
 ms.keywords: "*LPVIDEO_STREAM_INIT_PARMS, LPVIDEO_STREAM_INIT_PARMS, LPVIDEO_STREAM_INIT_PARMS structure pointer [Streaming Media Devices], VIDEO_STREAM_INIT_PARMS, VIDEO_STREAM_INIT_PARMS structure [Streaming Media Devices], msviddrv/LPVIDEO_STREAM_INIT_PARMS, msviddrv/VIDEO_STREAM_INIT_PARMS, stream.video_stream_init_parms, tag_video_stream_init_parms"
 ms.topic: struct
+f1_keywords:
+ - "msviddrv/VIDEO_STREAM_INIT_PARMS"
 req.header: msviddrv.h
 req.include-header: 
 req.target-type: Windows

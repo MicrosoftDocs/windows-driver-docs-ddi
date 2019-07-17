@@ -5,6 +5,8 @@ description: The PFND3DKMT_REGISTERBUDGETCHANGENOTIFICATION callback function re
 ms.assetid: 687701f6-6188-4b9c-8011-51f2d9d1ebf5
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/PFND3DKMT_REGISTERBUDGETCHANGENOTIFICATION"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

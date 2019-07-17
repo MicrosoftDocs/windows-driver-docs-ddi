@@ -8,6 +8,8 @@ ms.assetid: 952935E2-3216-40E5-8A4E-AA5D5E584F12
 ms.date: 05/10/2018
 ms.keywords: D3DDDICB_RECLAIMALLOCATIONS2, D3DDDICB_RECLAIMALLOCATIONS2 structure [Display Devices], _D3DDDICB_RECLAIMALLOCATIONS2, d3dumddi/D3DDDICB_RECLAIMALLOCATIONS2, display.d3dddicb_reclaimallocations2
 ms.topic: struct
+f1_keywords:
+ - "d3dumddi/D3DDDICB_RECLAIMALLOCATIONS2"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

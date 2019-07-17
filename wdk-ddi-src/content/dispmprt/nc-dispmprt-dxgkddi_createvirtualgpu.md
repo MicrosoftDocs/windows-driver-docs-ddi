@@ -8,6 +8,8 @@ ms.assetid: fd92587b-1513-4e31-91d4-4f2a9f1eeb14
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
 ms.topic: callback
+f1_keywords:
+ - "dispmprt/DXGKDDI_CREATEVIRTUALGPU"
 req.header: dispmprt.h
 req.include-header:
 req.target-type:

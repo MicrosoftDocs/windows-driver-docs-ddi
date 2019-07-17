@@ -8,6 +8,8 @@ ms.assetid: d3c6749b-2661-40a6-b4a7-937710bc36fe
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
+f1_keywords:
+ - "wdm/PO_FX_DEVICE_V3"
 ms.keywords: PO_FX_DEVICE_V3, PO_FX_DEVICE_V3, *PPO_FX_DEVICE_V3, *PPO_FX_DEVICE, PO_FX_DEVICE
 req.header: wdm.h
 req.include-header:

@@ -5,6 +5,8 @@ description: Implemented by the client driver to open heap and resource.
 ms.assetid: aca4ecce-657a-4288-b761-2c6463d039d8
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_OPENHEAPANDRESOURCE_0003"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

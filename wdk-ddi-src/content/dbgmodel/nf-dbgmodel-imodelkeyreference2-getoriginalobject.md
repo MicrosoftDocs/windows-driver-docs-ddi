@@ -5,6 +5,8 @@ description: The GetOriginalObject method returns the instance object from which
 ms.assetid: ed57ca76-772c-48ee-b7d3-ab1107569859
 ms.date: 08/14/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IModelKeyReference2.GetOriginalObject"
 ms.keywords: IModelKeyReference2::GetOriginalObject, GetOriginalObject, IModelKeyReference2.GetOriginalObject, IModelKeyReference2::GetOriginalObject, IModelKeyReference2.GetOriginalObject
 req.header: dbgmodel.h
 req.include-header:

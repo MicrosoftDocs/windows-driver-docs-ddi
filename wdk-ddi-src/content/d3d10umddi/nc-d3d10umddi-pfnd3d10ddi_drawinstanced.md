@@ -7,6 +7,8 @@ ms.assetid: c539cf8b-e056-476a-9b23-7e360917a7d9
 ms.date: 05/10/2018
 ms.keywords: DrawInstanced, DrawInstanced callback function [Display Devices], PFND3D10DDI_DRAWINSTANCED, PFND3D10DDI_DRAWINSTANCED callback, UserModeDisplayDriverDx10_Functions_15fe8a07-36ca-4ab1-8570-01250eed4866.xml, d3d10umddi/DrawInstanced, display.drawinstanced
 ms.topic: callback
+f1_keywords:
+ - "d3d10umddi/DrawInstanced"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

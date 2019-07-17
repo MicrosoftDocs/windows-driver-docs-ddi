@@ -5,6 +5,8 @@ description: The PFND3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT3 callback function chec
 ms.assetid: 4126253d-6fa7-42ab-8948-f055516f3b26
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/PFND3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT3"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

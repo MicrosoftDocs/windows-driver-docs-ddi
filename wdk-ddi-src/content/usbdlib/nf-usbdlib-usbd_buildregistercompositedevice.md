@@ -8,6 +8,8 @@ ms.assetid: 6683C688-CCDD-498B-AA60-81430DC3BCA4
 ms.date: 05/07/2018
 ms.keywords: USBD_BuildRegisterCompositeDevice, USBD_BuildRegisterCompositeDevice routine [Buses], buses.usbd_buildregistercompositedriver, usbdlib/ USBD_BuildRegisterCompositeDevice
 ms.topic: function
+f1_keywords:
+ - "usbdlib/USBD_BuildRegisterCompositeDevice"
 req.header: usbdlib.h
 req.include-header: 
 req.target-type: Desktop

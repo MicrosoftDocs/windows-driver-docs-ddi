@@ -8,6 +8,8 @@ ms.assetid: dcedbdd0-178b-4e44-aaaa-25a5b219324a
 ms.date: 05/02/2018
 ms.keywords: "*PNDIS_SWITCH_PROPERTY_DELETE_PARAMETERS, NDIS_SWITCH_PROPERTY_DELETE_PARAMETERS, NDIS_SWITCH_PROPERTY_DELETE_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_PROPERTY_DELETE_PARAMETERS, PNDIS_SWITCH_PROPERTY_DELETE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_PROPERTY_DELETE_PARAMETERS, netvista.ndis_switch_property_delete_parameters, ntddndis/NDIS_SWITCH_PROPERTY_DELETE_PARAMETERS, ntddndis/PNDIS_SWITCH_PROPERTY_DELETE_PARAMETERS"
 ms.topic: struct
+f1_keywords:
+ - "ntddndis/NDIS_SWITCH_PROPERTY_DELETE_PARAMETERS"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

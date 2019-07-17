@@ -8,6 +8,8 @@ ms.assetid: 76b0d865-a620-4ced-904c-d1d613dbadd1
 ms.date: 05/03/2018
 ms.keywords: GetEventFilterTextWide, GetEventFilterTextWide method [Windows Debugging], GetEventFilterTextWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetEventFilterTextWide method, IDebugControl4.GetEventFilterTextWide, IDebugControl4::GetEventFilterTextWide, dbgeng/IDebugControl4::GetEventFilterTextWide, debugger.geteventfiltertextwide
 ms.topic: method
+f1_keywords:
+ - "dbgeng/IDebugControl4.GetEventFilterTextWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

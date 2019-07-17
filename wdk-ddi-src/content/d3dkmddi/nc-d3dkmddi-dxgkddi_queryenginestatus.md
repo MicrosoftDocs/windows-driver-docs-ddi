@@ -7,6 +7,8 @@ ms.assetid: 87c99fcb-d25a-41b1-a1f3-9cf9ab7b141e
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_QUERYENGINESTATUS, DXGKDDI_QUERYENGINESTATUS callback, DxgkDdiQueryEngineStatus, DxgkDdiQueryEngineStatus callback function [Display Devices], d3dkmddi/DxgkDdiQueryEngineStatus, display.dxgkddiqueryenginestatus
 ms.topic: callback
+f1_keywords:
+ - "d3dkmddi/DxgkDdiQueryEngineStatus"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Desktop

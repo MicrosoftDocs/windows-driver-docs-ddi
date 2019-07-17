@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: ee6af893-986d-4286-8c74-37dabc5ac834
 ms.date: 08/20/2018
 ms.topic: struct
+f1_keywords:
+ - "ndiswwan/_NDIS_WWAN_SET_SAR_TRANSMISSION_STATUS"
 ms.keywords: _NDIS_WWAN_SET_SAR_TRANSMISSION_STATUS, NDIS_WWAN_SET_SAR_TRANSMISSION_STATUS, *PNDIS_WWAN_SET_SAR_TRANSMISSION_STATUS, 
 req.header: ndiswwan.h
 req.include-header:

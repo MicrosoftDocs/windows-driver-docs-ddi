@@ -8,6 +8,8 @@ ms.assetid: c3003169-8437-4f43-b777-fcb4d43d4d72
 ms.date: 04/16/2018
 ms.keywords: FsRtlFastCheckLockForRead, FsRtlFastCheckLockForRead routine [Installable File System Drivers], fsrtlref_b0a3dc82-d734-44b8-8762-7e10478f60c6.xml, ifsk.fsrtlfastchecklockforread, ntifs/FsRtlFastCheckLockForRead
 ms.topic: function
+f1_keywords:
+ - "ntifs/FsRtlFastCheckLockForRead"
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal

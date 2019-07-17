@@ -5,6 +5,8 @@ description: The VmbServerChannelInitSetSaveRestorePacketCallbacks function sets
 ms.assetid: b79bf865-ba3d-4309-8991-a9b8e2ba335f
 ms.date: 09/13/2018
 ms.topic: callback
+f1_keywords:
+ - "vmbuskernelmodeclientlibapi/FN_VMB_SERVER_CHANNEL_INIT_SET_SAVE_RESTORE_PACKET_CALLBACKS"
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header:
 req.target-type:

@@ -8,6 +8,8 @@ ms.assetid: 17362701-67C9-4275-B072-CB17111A838F
 ms.date: 04/23/2018
 ms.keywords: 1/EvtSerCxReceiveCancel, EVT_SERCX_RECEIVE_CANCEL, EVT_SERCX_RECEIVE_CANCEL callback, EvtSerCxReceiveCancel, EvtSerCxReceiveCancel callback function [Serial Ports], serports.evtsercxreceivecancel
 ms.topic: callback
+f1_keywords:
+ - "sercx/EvtSerCxReceiveCancel"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Desktop

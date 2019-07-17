@@ -8,6 +8,8 @@ ms.assetid: 0ca9aa92-7b9f-4fd4-a41e-663ac1aa5799
 ms.date: 05/10/2018
 ms.keywords: IOCTL_VIDEO_QUERY_CURSOR_POSITION, IOCTL_VIDEO_QUERY_CURSOR_POSITION control, IOCTL_VIDEO_QUERY_CURSOR_POSITION control code [Display Devices], Video_IOCTLs_f9790f8c-b853-4231-b058-a09bd42e15de.xml, display.ioctl_video_query_cursor_position, ntddvdeo/IOCTL_VIDEO_QUERY_CURSOR_POSITION
 ms.topic: ioctl
+f1_keywords:
+ - "ntddvdeo/IOCTL_VIDEO_QUERY_CURSOR_POSITION"
 req.header: ntddvdeo.h
 req.include-header: 
 req.target-type: Windows

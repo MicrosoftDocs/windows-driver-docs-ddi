@@ -8,6 +8,8 @@ ms.assetid: f2781f6b-cc3e-427c-8181-908639613270
 ms.date: 05/03/2018
 ms.keywords: EngExtCpp_Ref_f1ca75e4-6dea-4237-b76a-04b3af234060.xml, ExtRemoteData class [Windows Debugging],GetFloat method, ExtRemoteData.GetFloat, ExtRemoteData::GetFloat, GetFloat, GetFloat method [Windows Debugging], GetFloat method [Windows Debugging],ExtRemoteData class, debugger.extremotedata_getfloat
 ms.topic: method
+f1_keywords:
+ - "engextcpp/ExtRemoteData.GetFloat"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop

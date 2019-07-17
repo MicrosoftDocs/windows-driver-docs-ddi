@@ -8,6 +8,8 @@ ms.assetid: 61575632-62f8-47d3-9249-5f5416191dfa
 ms.date: 05/08/2018
 ms.keywords: GetPosition, GetPosition method [Audio Devices], GetPosition method [Audio Devices],IMiniportWavePciStream interface, IMiniportWavePciStream interface [Audio Devices],GetPosition method, IMiniportWavePciStream.GetPosition, IMiniportWavePciStream::GetPosition, audio.iminiportwavepcistream_getposition, audmp-routines_32855554-86ce-4549-af40-700b7b8fcaad.xml, portcls/IMiniportWavePciStream::GetPosition
 ms.topic: method
+f1_keywords:
+ - "portcls/IMiniportWavePciStream.GetPosition"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal

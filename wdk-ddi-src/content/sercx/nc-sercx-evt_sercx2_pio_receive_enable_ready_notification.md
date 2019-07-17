@@ -8,6 +8,8 @@ ms.assetid: DDD17DF3-9457-40D1-BE18-0A1CAED1389B
 ms.date: 04/23/2018
 ms.keywords: 2/EvtSerCx2PioReceiveEnableReadyNotification, EVT_SERCX2_PIO_RECEIVE_ENABLE_READY_NOTIFICATION, EVT_SERCX2_PIO_RECEIVE_ENABLE_READY_NOTIFICATION callback, EvtSerCx2PioReceiveEnableReadyNotification, EvtSerCx2PioReceiveEnableReadyNotification callback function [Serial Ports], serports.evtsercx2pioreceiveenablereadynotification
 ms.topic: callback
+f1_keywords:
+ - "sercx/EvtSerCx2PioReceiveEnableReadyNotification"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Desktop

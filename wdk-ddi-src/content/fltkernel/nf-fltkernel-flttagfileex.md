@@ -8,6 +8,8 @@ ms.assetid: ca975b09-cf73-4768-a314-3ff0e5ba211c
 ms.author: windowsdriverdev
 ms.date: 3/12/2019
 ms.topic: function
+f1_keywords:
+ - "fltkernel/FltTagFileEx"
 ms.keywords: FltTagFileEx, FltTagFile
 req.header: fltkernel.h
 req.include-header:

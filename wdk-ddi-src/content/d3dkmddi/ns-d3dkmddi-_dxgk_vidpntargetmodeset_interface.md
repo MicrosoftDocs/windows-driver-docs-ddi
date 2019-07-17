@@ -7,6 +7,8 @@ ms.assetid: 556d3134-942b-475c-adac-3087a512f481
 ms.date: 05/10/2018
 ms.keywords: DXGK_VIDPNTARGETMODESET_INTERFACE, DXGK_VIDPNTARGETMODESET_INTERFACE structure [Display Devices], DmStructs_f73ff16c-04e3-491b-9f0a-de50563abea4.xml, _DXGK_VIDPNTARGETMODESET_INTERFACE, d3dkmddi/DXGK_VIDPNTARGETMODESET_INTERFACE, display.dxgk_vidpntargetmodeset_interface
 ms.topic: struct
+f1_keywords:
+ - "d3dkmddi/DXGK_VIDPNTARGETMODESET_INTERFACE"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

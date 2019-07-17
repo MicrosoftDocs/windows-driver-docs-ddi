@@ -8,6 +8,8 @@ ms.assetid: D2790496-1F86-4EF0-8AFE-77AC0C89EE05
 ms.date: 02/23/2018
 ms.keywords: devtest.wpprecordergettriageinfo, imp_WppRecorderGetTriageInfo, imp_WppRecorderGetTriageInfo function [Driver Development Tools], wpprecorder/imp_WppRecorderGetTriageInfo
 ms.topic: function
+f1_keywords:
+ - "wpprecorder/imp_WppRecorderGetTriageInfo"
 req.header: wpprecorder.h
 req.include-header: 
 req.target-type: Desktop

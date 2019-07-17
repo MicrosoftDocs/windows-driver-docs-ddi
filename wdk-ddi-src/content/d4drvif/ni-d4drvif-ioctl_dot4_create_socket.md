@@ -8,6 +8,8 @@ ms.assetid: CF5BF5D1-FF78-4461-AC0D-A7A7529FB59E
 ms.date: 04/20/2018
 ms.keywords: IOCTL_DOT4_CREATE_SOCKET, IOCTL_DOT4_CREATE_SOCKET control, IOCTL_DOT4_CREATE_SOCKET control code [Print Devices], d4drvif/IOCTL_DOT4_CREATE_SOCKET, print.ioctl_ioctl_dot4_create_socket
 ms.topic: ioctl
+f1_keywords:
+ - "d4drvif/IOCTL_DOT4_CREATE_SOCKET"
 req.header: d4drvif.h
 req.include-header: 
 req.target-type: Windows

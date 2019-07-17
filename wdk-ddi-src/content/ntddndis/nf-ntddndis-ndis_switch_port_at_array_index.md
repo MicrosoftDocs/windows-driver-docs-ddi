@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: f5a90214-4af2-45bb-b62d-cf4297250dd0
 ms.date: 04/17/2018
 ms.topic: macro
+f1_keywords:
+ - "ntddndis/NDIS_SWITCH_PORT_AT_ARRAY_INDEX"
 ms.keywords: NDIS_SWITCH_PORT_AT_ARRAY_INDEX
 req.header: ntddndis.h
 req.include-header: ndis.h

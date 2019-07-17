@@ -8,6 +8,8 @@ ms.assetid: b52bafee-d541-4396-be0a-06956d07fb2b
 ms.date: 02/24/2018
 ms.keywords: "*PSRIOV_GET_RESOURCE_FOR_BAR, *PSRIOV_GET_RESOURCE_FOR_BAR callback function pointer [Buses], PCI.sriov_get_resource_for_bar, SRIOV_GET_RESOURCE_FOR_BAR, SriovGetResourceForBar, SriovGetResourceForBar callback function [Buses], pcivirt/SriovGetResourceForBar"
 ms.topic: callback
+f1_keywords:
+ - "pcivirt/*PSRIOV_GET_RESOURCE_FOR_BAR"
 req.header: pcivirt.h
 req.include-header:
 req.target-type: Windows

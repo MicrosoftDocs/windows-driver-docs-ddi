@@ -5,6 +5,8 @@ description: D3DDDICB_RECLAIMALLOCATIONS3 is used with pfnReclaimAllocations3Cb 
 ms.assetid: 11306f6b-dfb5-4357-9bf2-14c4c4034594
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3dumddi/_D3DDDICB_RECLAIMALLOCATIONS3"
 ms.keywords: _D3DDDICB_RECLAIMALLOCATIONS3, D3DDDICB_RECLAIMALLOCATIONS3, 
 req.header: d3dumddi.h
 req.include-header:

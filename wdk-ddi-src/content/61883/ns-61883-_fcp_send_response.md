@@ -8,6 +8,8 @@ ms.assetid: 65C76CA1-F7F2-4DFD-B928-0595A137BF28
 ms.date: 02/15/2018
 ms.keywords: "*PFCP_SEND_RESPONSE, 61883/FCP_SEND_RESPONSE, 61883/PFCP_SEND_RESPONSE, FCP_SEND_RESPONSE, FCP_SEND_RESPONSE structure [Buses], IEEE.fcp_send_response, PFCP_SEND_RESPONSE, PFCP_SEND_RESPONSE structure pointer [Buses], _FCP_SEND_RESPONSE"
 ms.topic: struct
+f1_keywords:
+ - "61883/FCP_SEND_RESPONSE"
 req.header: 61883.h
 req.include-header: 
 req.target-type: Windows

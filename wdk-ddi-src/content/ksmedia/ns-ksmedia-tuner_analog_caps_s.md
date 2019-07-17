@@ -8,6 +8,8 @@ ms.assetid: 350ec4b2-a96a-420a-bb52-d09cc8c5029e
 ms.date: 04/30/2019
 ms.keywords: "*PTUNER_ANALOG_CAPS_S, PTUNER_ANALOG_CAPS_S, PTUNER_ANALOG_CAPS_S structure pointer [Streaming Media Devices], TUNER_ANALOG_CAPS_S, TUNER_ANALOG_CAPS_S structure [Streaming Media Devices], ksmedia/PTUNER_ANALOG_CAPS_S, ksmedia/TUNER_ANALOG_CAPS_S, stream.tuner_analog_caps_s, vidcapstruct_47de7e8b-b88a-4ae7-87eb-ed9fa008eccb.xml"
 ms.topic: struct
+f1_keywords:
+ - "ksmedia/TUNER_ANALOG_CAPS_S"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows

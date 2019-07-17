@@ -8,6 +8,8 @@ ms.assetid: 17d5ab30-141a-4b7b-93f1-113fb1a39ba6
 ms.date: 02/16/2018
 ms.keywords: DOT11EXTIHV_PROCESS_SESSION_CHANGE, Dot11ExtIhvProcessSessionChange, Dot11ExtIhvProcessSessionChange callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_158881c6-a8ae-4155-a2e6-549a47c3fce1.xml, netvista.dot11extihvprocesssessionchange, wlanihv/Dot11ExtIhvProcessSessionChange
 ms.topic: callback
+f1_keywords:
+ - "wlanihv/Dot11ExtIhvProcessSessionChange"
 req.header: wlanihv.h
 req.include-header: Wlanihv.h
 req.target-type: Desktop

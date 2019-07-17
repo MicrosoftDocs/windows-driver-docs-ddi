@@ -8,6 +8,8 @@ ms.assetid: ABF392BD-7B05-417E-AFD8-4EE7E64F9FC2
 ms.date: 04/30/2018
 ms.keywords: RtlUIntAdd, RtlUIntAdd function [Kernel-Mode Driver Architecture], kernel.rtluintadd, ntintsafe/RtlUIntAdd
 ms.topic: function
+f1_keywords:
+ - "ntintsafe/RtlUIntAdd"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop

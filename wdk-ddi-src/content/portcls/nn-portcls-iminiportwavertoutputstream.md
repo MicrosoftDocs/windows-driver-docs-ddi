@@ -8,6 +8,8 @@ ms.assetid: 40210313-1216-4E1A-B696-B23D2ACED605
 ms.date: 05/08/2018
 ms.keywords: IMiniportWaveRTOutputStream, IMiniportWaveRTOutputStream interface [Audio Devices], IMiniportWaveRTOutputStream interface [Audio Devices],described, audio.iminiportwavertoutputstream, portcls/IMiniportWaveRTOutputStream
 ms.topic: interface
+f1_keywords:
+ - "portcls/IMiniportWaveRTOutputStream"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: F7AA10E3-5F56-4751-A603-54A0BFB00927
 ms.date: 05/07/2018
 ms.keywords: UcxStaticStreamsCreate, UcxStaticStreamsCreate method [Buses], buses._ucxstaticstreamscreate, ucxsstreams/UcxStaticStreamsCreate
 ms.topic: function
+f1_keywords:
+ - "ucxsstreams/UcxStaticStreamsCreate"
 req.header: ucxsstreams.h
 req.include-header: Ucxclass.h, Ucxstreams.h
 req.target-type: Windows

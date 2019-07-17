@@ -5,6 +5,8 @@ description: The PFND3D12DDI_CREATEDEPTHSTENCILSTATE_0003 callback function crea
 ms.assetid: 10f04c3d-f9bd-45fa-886d-662e9cd58fd4
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_CREATEDEPTHSTENCILSTATE_0003"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

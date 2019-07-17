@@ -8,6 +8,8 @@ ms.assetid: 1500E2C2-240F-4087-9275-9FD4170B8BED
 ms.date: 05/08/2018
 ms.keywords: IPortClsRuntimePower interface [Audio Devices],RegisterPowerControlCallback method, IPortClsRuntimePower.RegisterPowerControlCallback, IPortClsRuntimePower::RegisterPowerControlCallback, RegisterPowerControlCallback, RegisterPowerControlCallback method [Audio Devices], RegisterPowerControlCallback method [Audio Devices],IPortClsRuntimePower interface, audio.iportclsruntimepower_registerpowercontrolcallback, portcls/IPortClsRuntimePower::RegisterPowerControlCallback
 ms.topic: method
+f1_keywords:
+ - "portcls/IPortClsRuntimePower.RegisterPowerControlCallback"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Universal

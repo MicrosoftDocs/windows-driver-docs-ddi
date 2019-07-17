@@ -7,6 +7,8 @@ ms.assetid: e052e3bc-688e-4aa8-b987-88ed6963774a
 ms.date: 05/10/2018
 ms.keywords: DXGK_ENGINESTATUS, DXGK_ENGINESTATUS structure [Display Devices], _DXGK_ENGINESTATUS, d3dkmddi/DXGK_ENGINESTATUS, display.dxgk_enginestatus
 ms.topic: struct
+f1_keywords:
+ - "d3dkmddi/DXGK_ENGINESTATUS"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

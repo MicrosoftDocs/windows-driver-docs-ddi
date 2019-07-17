@@ -6,6 +6,8 @@ tech.root: audio
 ms.assetid: 882d841c-1e16-4bb6-a9e2-df8fbe5728c9
 ms.date: 10/31/2018
 ms.topic: method
+f1_keywords:
+ - "portcls/IAdapterPnpManagement.PnpCancelStop"
 ms.keywords: IAdapterPnpManagement::PnpCancelStop, PnpCancelStop, IAdapterPnpManagement.PnpCancelStop, IAdapterPnpManagement::PnpCancelStop, IAdapterPnpManagement.PnpCancelStop
 req.header: portcls.h
 req.include-header:

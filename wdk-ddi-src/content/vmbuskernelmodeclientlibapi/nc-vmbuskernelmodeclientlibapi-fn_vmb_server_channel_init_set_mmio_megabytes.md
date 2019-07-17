@@ -5,6 +5,8 @@ description: The VmbServerChannelInitSetMmioMegabytes function specifies the amo
 ms.assetid: d08cc2fd-2418-4047-b34c-09519ae0b531
 ms.date: 09/13/2018
 ms.topic: callback
+f1_keywords:
+ - "vmbuskernelmodeclientlibapi/FN_VMB_SERVER_CHANNEL_INIT_SET_MMIO_MEGABYTES"
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header:
 req.target-type:

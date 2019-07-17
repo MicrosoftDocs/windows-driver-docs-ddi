@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: be7b7bab-1eaf-4c31-bb61-029876eae12c
 ms.date: 04/17/2018
 ms.topic: macro
+f1_keywords:
+ - "ndis/NDIS_SWITCH_PORT_DESTINATION_AT_ARRAY_INDEX"
 ms.keywords: NDIS_SWITCH_PORT_DESTINATION_AT_ARRAY_INDEX
 req.header: ndis.h
 req.include-header:

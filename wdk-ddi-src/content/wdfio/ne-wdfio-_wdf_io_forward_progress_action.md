@@ -8,6 +8,8 @@ ms.assetid: 4d63c908-8ae3-4df4-826f-9d87ea6c24ad
 ms.date: 02/26/2018
 ms.keywords: DFQueueObjectRef_d1ee566a-9887-44de-aef5-a13f64e7603c.xml, WDF_IO_FORWARD_PROGRESS_ACTION, WDF_IO_FORWARD_PROGRESS_ACTION enumeration, WdfIoForwardProgressActionFailRequest, WdfIoForwardProgressActionInvalid, WdfIoForwardProgressActionUseReservedRequest, _WDF_IO_FORWARD_PROGRESS_ACTION, kmdf.wdf_io_forward_progress_action, wdf.wdf_io_forward_progress_action, wdfio/WDF_IO_FORWARD_PROGRESS_ACTION, wdfio/WdfIoForwardProgressActionFailRequest, wdfio/WdfIoForwardProgressActionInvalid, wdfio/WdfIoForwardProgressActionUseReservedRequest
 ms.topic: enum
+f1_keywords:
+ - "wdfio/WDF_IO_FORWARD_PROGRESS_ACTION"
 req.header: wdfio.h
 req.include-header: Wdf.h
 req.target-type: Windows

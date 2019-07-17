@@ -8,6 +8,8 @@ ms.assetid: 265912e2-2076-4435-811f-70a3dd1a0bd7
 ms.date: 05/10/2018
 ms.keywords: D3DDDIARG_SETPALETTE, D3DDDIARG_SETPALETTE structure [Display Devices], UMDisplayDriver_param_Structs_6fb950bf-0a0f-4d87-950d-7030251ed074.xml, _D3DDDIARG_SETPALETTE, d3dumddi/D3DDDIARG_SETPALETTE, display.d3dddiarg_setpalette
 ms.topic: struct
+f1_keywords:
+ - "d3dumddi/D3DDDIARG_SETPALETTE"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

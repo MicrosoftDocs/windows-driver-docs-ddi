@@ -8,6 +8,8 @@ ms.assetid: 45a041c9-029a-4fa1-91c6-562e56a30b3e
 ms.date: 05/03/2018
 ms.keywords: GetNameByOffsetWide, GetNameByOffsetWide method [Windows Debugging], GetNameByOffsetWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetNameByOffsetWide method, IDebugSymbols3.GetNameByOffsetWide, IDebugSymbols3::GetNameByOffsetWide, dbgeng/IDebugSymbols3::GetNameByOffsetWide, debugger.getnamebyoffsetwide
 ms.topic: method
+f1_keywords:
+ - "dbgeng/IDebugSymbols3.GetNameByOffsetWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

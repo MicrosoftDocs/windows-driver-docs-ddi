@@ -5,6 +5,8 @@ description: The InitTransformationMatrix function reads the rotation matrix fro
 ms.assetid: 691a3ff7-8db6-4519-8768-909f05a09e6c
 ms.date: 04/19/2018
 ms.topic: function
+f1_keywords:
+ - "sensorsdriversutils/InitTransformationMatrix"
 ms.keywords: InitTransformationMatrix
 req.header: sensorsdriversutils.h
 req.include-header:

@@ -8,6 +8,8 @@ ms.assetid: 08509C28-DDD4-4060-A16A-857A6BF6F6E1
 ms.date: 04/23/2018
 ms.keywords: "*PKSIDEFAULTCLOCK, KSIDEFAULTCLOCK, KSIDEFAULTCLOCK structure [Streaming Media Devices], PKSIDEFAULTCLOCK, PKSIDEFAULTCLOCK structure pointer [Streaming Media Devices], ksi/KSIDEFAULTCLOCK, ksi/PKSIDEFAULTCLOCK, stream.ksidefaultclock"
 ms.topic: struct
+f1_keywords:
+ - "ksi/KSIDEFAULTCLOCK"
 req.header: ksi.h
 req.include-header: 
 req.target-type: Windows

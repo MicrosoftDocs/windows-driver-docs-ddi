@@ -8,6 +8,8 @@ ms.assetid: EFA83238-77DF-474D-8F8F-2400C9B23A00
 ms.date: 05/07/2018
 ms.keywords: UrsDeviceInitInitialize, UrsDeviceInitInitialize method [Buses], buses.ursdeviceinitinitialize, ursdevice/UrsDeviceInitInitialize
 ms.topic: function
+f1_keywords:
+ - "ursdevice/UrsDeviceInitInitialize"
 req.header: ursdevice.h
 req.include-header: Urscx.h
 req.target-type: Windows

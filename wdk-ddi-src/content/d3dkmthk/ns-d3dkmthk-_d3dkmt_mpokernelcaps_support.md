@@ -5,6 +5,8 @@ description: Structure used to indicate whether MPO kernel capabilities are supp
 ms.assetid: 56715a9d-d89f-4764-af78-bdc54135139f
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/_D3DKMT_MPOKERNELCAPS_SUPPORT"
 ms.keywords: _D3DKMT_MPOKERNELCAPS_SUPPORT, D3DKMT_MPOKERNELCAPS_SUPPORT, 
 req.header: d3dkmthk.h
 req.include-header:

@@ -8,6 +8,8 @@ ms.assetid: 83e181cd-bbec-4142-8d97-4f67285b6bb4
 ms.date: 04/16/2018
 ms.keywords: RxChangeBufferingState, RxChangeBufferingState function [Installable File System Drivers], ifsk.rxchangebufferingstate, rxprocs/RxChangeBufferingState, rxref_be2316b0-d89d-4f61-bd09-05d631d1cfdd.xml
 ms.topic: function
+f1_keywords:
+ - "rxprocs/RxChangeBufferingState"
 req.header: rxprocs.h
 req.include-header: Rxprocs.h, Struchdr.h, Fcb.h
 req.target-type: Desktop

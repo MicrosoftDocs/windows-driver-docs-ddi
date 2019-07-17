@@ -8,6 +8,8 @@ ms.assetid: 82A01880-AC8D-4285-A780-EE195F186B71
 ms.date: 02/15/2018
 ms.keywords: "*PBUS_RESET_DATA, 1394/BUS_RESET_DATA, 1394/PBUS_RESET_DATA, BUS_RESET_DATA, BUS_RESET_DATA structure [Buses], IEEE.bus_reset_data, PBUS_RESET_DATA, PBUS_RESET_DATA structure pointer [Buses], _BUS_RESET_DATA"
 ms.topic: struct
+f1_keywords:
+ - "1394/BUS_RESET_DATA"
 req.header: 1394.h
 req.include-header: 1394.h
 req.target-type: Windows

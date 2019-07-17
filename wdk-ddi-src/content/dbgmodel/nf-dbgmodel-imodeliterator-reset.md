@@ -5,6 +5,8 @@ description: The Reset method on an iterator returned from the iterable concept 
 ms.assetid: 53ee9efd-4581-4e1e-8fbe-385e7b137f64
 ms.date: 08/13/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IModelIterator.Reset"
 ms.keywords: IModelIterator::Reset, Reset, IModelIterator.Reset, IModelIterator::Reset, IModelIterator.Reset
 req.header: dbgmodel.h
 req.include-header:

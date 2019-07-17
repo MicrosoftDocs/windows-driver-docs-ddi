@@ -5,6 +5,8 @@ description: Describes the ACPI PLD spatial descriptor buffer, revision 1 (Micro
 ms.assetid: 101db2e2-cf2f-49d9-81c2-f9377775930a
 ms.date: 10/02/2018
 ms.topic: struct
+f1_keywords:
+ - "acpitabl/_ACPI_PLD_SPATIAL_BUFFER"
 ms.keywords: _ACPI_PLD_SPATIAL_BUFFER, ACPI_PLD_SPATIAL_BUFFER, *PACPI_PLD_SPATIAL_BUFFER, 
 req.header: acpitabl.h
 req.include-header:

@@ -8,6 +8,8 @@ ms.assetid: d0b0ada7-afb1-4cb7-ada6-7c5c7abe7d19
 ms.date: 05/02/2018
 ms.keywords: NdisIfRegisterInterface, NdisIfRegisterInterface function [Network Drivers Starting with Windows Vista], ndis/NdisIfRegisterInterface, net_if_functions_ref_baca325c-667d-4472-9c91-dbc8fd41d033.xml, netvista.ndisifregisterinterface
 ms.topic: function
+f1_keywords:
+ - "ndis/NdisIfRegisterInterface"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

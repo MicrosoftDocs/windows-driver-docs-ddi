@@ -8,6 +8,8 @@ ms.assetid: 4cb90f37-c7ce-4f78-9e68-cbe4aaf6ea72
 ms.date: 04/30/2018
 ms.keywords: WRITE_REGISTER_BUFFER_UCHAR, WRITE_REGISTER_BUFFER_UCHAR routine [Kernel-Mode Driver Architecture], k103_29b68153-db95-4017-ab96-d05e6c984503.xml, kernel.write_register_buffer_uchar, wdm/WRITE_REGISTER_BUFFER_UCHAR
 ms.topic: function
+f1_keywords:
+ - "wdm/WRITE_REGISTER_BUFFER_UCHAR"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Miniport.h, Wudfwdm.h
 req.target-type: Universal

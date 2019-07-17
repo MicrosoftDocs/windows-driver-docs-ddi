@@ -8,6 +8,8 @@ ms.assetid: E8F9A1B0-5E87-4CB0-8C9E-5C2494F07C39
 ms.date: 04/30/2018
 ms.keywords: RtlULongPtrSub, RtlULongPtrSub function [Kernel-Mode Driver Architecture], kernel.rtlulongptrsub, ntintsafe/RtlULongPtrSub
 ms.topic: function
+f1_keywords:
+ - "ntintsafe/RtlULongPtrSub"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop

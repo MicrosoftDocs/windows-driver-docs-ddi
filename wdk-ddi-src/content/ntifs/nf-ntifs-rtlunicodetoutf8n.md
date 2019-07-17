@@ -8,6 +8,8 @@ ms.assetid: fdbb5d74-25d5-4920-849c-8d4adce1d216
 ms.date: 04/30/2018
 ms.keywords: RtlUnicodeToUTF8N, RtlUnicodeToUTF8N routine [Kernel-Mode Driver Architecture], k109_8c33089a-9b47-4c33-9468-56a16caea229.xml, kernel.rtlunicodetoutf8n, wdm/RtlUnicodeToUTF8N
 ms.topic: function
+f1_keywords:
+ - "ntifs/RtlUnicodeToUTF8N"
 req.header: ntifs.h
 req.include-header: Ntifs.h, Wdm.h, Ntifs.h
 req.target-type: Universal

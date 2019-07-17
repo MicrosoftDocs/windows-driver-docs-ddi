@@ -8,6 +8,8 @@ ms.assetid: d1570dc0-1587-4d02-a655-724c999d10a2
 ms.date: 05/02/2018
 ms.keywords: "*LPRILMSGBCGENERAL, RILMSGBCGENERAL, RILMSGBCGENERAL structure [Network Drivers Starting with Windows Vista], netvista.rilmsgbcgeneral, ntddrilapitypes/RILMSGBCGENERAL"
 ms.topic: struct
+f1_keywords:
+ - "rilapitypes/RILMSGBCGENERAL"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

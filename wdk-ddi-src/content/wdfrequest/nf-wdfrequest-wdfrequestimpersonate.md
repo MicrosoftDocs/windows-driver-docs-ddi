@@ -8,6 +8,8 @@ ms.assetid: E5267F04-D693-453B-BAD2-C61F89B07F6E
 ms.date: 02/26/2018
 ms.keywords: WdfRequestImpersonate, WdfRequestImpersonate method, wdf.wdfrequestimpersonate, wdfrequest/WdfRequestImpersonate
 ms.topic: function
+f1_keywords:
+ - "wdfrequest/WdfRequestImpersonate"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal

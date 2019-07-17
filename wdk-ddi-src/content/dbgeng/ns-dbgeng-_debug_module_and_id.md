@@ -8,6 +8,8 @@ ms.assetid: d65ad0fa-1dd8-42b4-866b-cb2522080cde
 ms.date: 05/03/2018
 ms.keywords: "*PDEBUG_MODULE_AND_ID, DEBUG_MODULE_AND_ID, DEBUG_MODULE_AND_ID structure [Windows Debugging], PDEBUG_MODULE_AND_ID, PDEBUG_MODULE_AND_ID structure pointer [Windows Debugging], Structures_d53c2a34-f855-45a0-918b-0a8dfb936828.xml, _DEBUG_MODULE_AND_ID, dbgeng/DEBUG_MODULE_AND_ID, dbgeng/PDEBUG_MODULE_AND_ID, debugger.debug_module_and_id"
 ms.topic: struct
+f1_keywords:
+ - "dbgeng/DEBUG_MODULE_AND_ID"
 req.header: dbgeng.h
 req.include-header: DbgEng.h
 req.target-type: Windows

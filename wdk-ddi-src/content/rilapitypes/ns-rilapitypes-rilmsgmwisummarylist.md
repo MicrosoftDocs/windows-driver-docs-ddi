@@ -8,6 +8,8 @@ ms.assetid: b698f9df-5a67-4ddf-9956-21fbd4f6f385
 ms.date: 05/02/2018
 ms.keywords: "*LPRILMSGMWISUMMARYLIST, RILMSGMWISUMMARYLIST, RILMSGMWISUMMARYLIST structure [Network Drivers Starting with Windows Vista], netvista.rilmsgmwisummarylist, ntddrilapitypes/RILMSGMWISUMMARYLIST"
 ms.topic: struct
+f1_keywords:
+ - "rilapitypes/RILMSGMWISUMMARYLIST"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

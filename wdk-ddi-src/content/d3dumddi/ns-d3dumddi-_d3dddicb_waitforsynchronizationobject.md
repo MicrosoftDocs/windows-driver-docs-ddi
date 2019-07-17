@@ -8,6 +8,8 @@ ms.assetid: 8f235fc4-924b-4cc4-858d-5009e69fae47
 ms.date: 05/10/2018
 ms.keywords: D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT, D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT structure [Display Devices], D3D_param_Structs_170af521-644c-4790-94dc-6836d880d620.xml, _D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT, d3dumddi/D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT, display.d3dddicb_waitforsynchronizationobject
 ms.topic: struct
+f1_keywords:
+ - "d3dumddi/D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

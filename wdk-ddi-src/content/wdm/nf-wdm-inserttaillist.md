@@ -8,6 +8,8 @@ ms.assetid: 9eb470c8-ee37-497e-982e-d32b4b9b7348
 ms.date: 04/30/2018
 ms.keywords: InsertTailList, InsertTailList routine [Kernel-Mode Driver Architecture], k109_8f31d6a6-89a0-440c-9397-2bef61a5878f.xml, kernel.inserttaillist, wdm/InsertTailList
 ms.topic: function
+f1_keywords:
+ - "wdm/InsertTailList"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Wudfwdm.h
 req.target-type: Desktop

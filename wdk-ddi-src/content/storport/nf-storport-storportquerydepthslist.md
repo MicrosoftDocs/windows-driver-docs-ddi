@@ -8,6 +8,8 @@ ms.assetid: 5E1CE999-8173-49B6-8CF7-F3A5B193A230
 ms.date: 03/29/2018
 ms.keywords: StorPortQueryDepthSList, StorPortQueryDepthSList routine [Storage Devices], storage.storportquerydepthslist, storport/StorPortQueryDepthSList
 ms.topic: function
+f1_keywords:
+ - "storport/StorPortQueryDepthSList"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

@@ -8,6 +8,8 @@ ms.assetid: 2b189ece-6c49-42e2-8ef2-b3db516fc844
 ms.date: 03/29/2018
 ms.keywords: "*PGetPortAttributesByWWN_IN, GetPortAttributesByWWN_IN, GetPortAttributesByWWN_IN structure [Storage Devices], PGetPortAttributesByWWN_IN, PGetPortAttributesByWWN_IN structure pointer [Storage Devices], _GetPortAttributesByWWN_IN, hbapiwmi/GetPortAttributesByWWN_IN, hbapiwmi/PGetPortAttributesByWWN_IN, storage.getportattributesbywwn_in, structs-Fibre_0093904b-888e-48de-ba79-5302d0ed6b75.xml"
 ms.topic: struct
+f1_keywords:
+ - "hbapiwmi/GetPortAttributesByWWN_IN"
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h
 req.target-type: Windows

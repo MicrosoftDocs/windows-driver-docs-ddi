@@ -8,6 +8,8 @@ ms.assetid: 61540bd2-8496-4972-854c-968b53c90788
 ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_c2bdf168-0e3f-40c9-9e88-77faf7241bcb.xml, WdfDeviceInitFree, WdfDeviceInitFree method, kmdf.wdfdeviceinitfree, wdf.wdfdeviceinitfree, wdfdevice/WdfDeviceInitFree
 ms.topic: function
+f1_keywords:
+ - "wdfdevice/WdfDeviceInitFree"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

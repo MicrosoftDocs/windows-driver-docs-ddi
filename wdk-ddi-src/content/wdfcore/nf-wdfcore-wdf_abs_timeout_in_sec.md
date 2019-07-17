@@ -8,6 +8,8 @@ ms.assetid: 492bdc23-7e55-4e6d-9d7c-189a94934049
 ms.date: 02/26/2018
 ms.keywords: DFTimerObjectRef_681839d3-3160-4f57-beeb-b5fe66dad3fe.xml, WDF_ABS_TIMEOUT_IN_SEC, WDF_ABS_TIMEOUT_IN_SEC function, kmdf.wdf_abs_timeout_in_sec, wdf.wdf_abs_timeout_in_sec, wdfcore/WDF_ABS_TIMEOUT_IN_SEC
 ms.topic: function
+f1_keywords:
+ - "wdfcore/WDF_ABS_TIMEOUT_IN_SEC"
 req.header: wdfcore.h
 req.include-header: Wdf.h
 req.target-type: Universal

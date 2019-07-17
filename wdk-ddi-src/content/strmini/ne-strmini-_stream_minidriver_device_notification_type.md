@@ -8,6 +8,8 @@ ms.assetid: 34DAA236-ACD0-4C25-BB45-00A81D2F131D
 ms.date: 04/23/2018
 ms.keywords: "*PSTREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE, DeleteDeviceEvent, DeviceNotificationMaximum, DeviceRequestComplete, PSTREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE, PSTREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE enumeration pointer [Streaming Media Devices], ReadyForNextDeviceRequest, STREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE, STREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE enumeration [Streaming Media Devices], SignalDeviceEvent, SignalMultipleDeviceEvents, SignalMultipleDeviceInstanceEvents, _STREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE, stream.stream_minidriver_device_notification_type, strmini/DeleteDeviceEvent, strmini/DeviceNotificationMaximum, strmini/DeviceRequestComplete, strmini/PSTREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE, strmini/ReadyForNextDeviceRequest, strmini/STREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE, strmini/SignalDeviceEvent, strmini/SignalMultipleDeviceEvents, strmini/SignalMultipleDeviceInstanceEvents"
 ms.topic: enum
+f1_keywords:
+ - "strmini/STREAM_MINIDRIVER_DEVICE_NOTIFICATION_TYPE"
 req.header: strmini.h
 req.include-header: 
 req.target-type: Windows

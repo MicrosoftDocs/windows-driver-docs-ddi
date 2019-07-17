@@ -8,6 +8,8 @@ ms.assetid: DC31EABA-CE58-4B6F-ADCD-0BF72A92C6AB
 ms.date: 03/29/2018
 ms.keywords: IOCTL_CDROM_ENABLE_STREAMING, IOCTL_CDROM_ENABLE_STREAMING control, IOCTL_CDROM_ENABLE_STREAMING control code [Storage Devices], ntddcdrm/IOCTL_CDROM_ENABLE_STREAMING, storage.ioctl_cdrom_enable_streaming
 ms.topic: ioctl
+f1_keywords:
+ - "ntddcdrm/IOCTL_CDROM_ENABLE_STREAMING"
 req.header: ntddcdrm.h
 req.include-header: Winioctl.h
 req.target-type: Windows

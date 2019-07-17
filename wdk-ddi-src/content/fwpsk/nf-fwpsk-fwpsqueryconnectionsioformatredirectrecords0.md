@@ -8,6 +8,8 @@ ms.assetid: AE24409D-AA60-4694-8855-AB2B0F6B1635
 ms.date: 05/02/2018
 ms.keywords: FwpsQueryConnectionSioFormatRedirectRecords0, FwpsQueryConnectionSioFormatRedirectRecords0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsQueryConnectionSioFormatRedirectRecords0, netvista.fwpsqueryconnectionsioformatredirectrecords0
 ms.topic: function
+f1_keywords:
+ - "fwpsk/FwpsQueryConnectionSioFormatRedirectRecords0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal

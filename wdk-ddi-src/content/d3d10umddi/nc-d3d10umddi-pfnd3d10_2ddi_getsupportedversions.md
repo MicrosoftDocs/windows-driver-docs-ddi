@@ -7,6 +7,8 @@ ms.assetid: b38683f3-42f2-4f5e-9482-f72e9f2e0a34
 ms.date: 05/10/2018
 ms.keywords: GetSupportedVersions, GetSupportedVersions callback function [Display Devices], PFND3D10_2DDI_GETSUPPORTEDVERSIONS, PFND3D10_2DDI_GETSUPPORTEDVERSIONS callback, UserModeDisplayDriverDx11_Functions_065e47e6-c02d-4091-b614-a93aa834cbfb.xml, d3d10umddi/GetSupportedVersions, display.getsupportedversions
 ms.topic: callback
+f1_keywords:
+ - "d3d10umddi/GetSupportedVersions"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h, Prdrvcom.h
 req.target-type: Desktop

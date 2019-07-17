@@ -8,6 +8,8 @@ ms.assetid: 6fd51647-e7e4-4c9a-ae87-00eb3e1d3fbb
 ms.date: 04/20/2018
 ms.keywords: IXpsPartIterator, IXpsPartIterator interface [Print Devices], IXpsPartIterator interface [Print Devices],described, filterpipeline/IXpsPartIterator, filterpipeline_75476300-7fcc-46a5-8a48-abde1dcd5e36.xml, print.ixpspartiterator
 ms.topic: interface
+f1_keywords:
+ - "filterpipeline/IXpsPartIterator"
 req.header: filterpipeline.h
 req.include-header: Filterpipeline.h
 req.target-type: Windows

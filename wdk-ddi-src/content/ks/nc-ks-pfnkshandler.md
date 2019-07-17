@@ -8,6 +8,8 @@ ms.assetid: 717ac510-b456-43b9-9500-b07e942f424c
 ms.date: 04/23/2018
 ms.keywords: KStrGetPropertyHandler, KStrHandler, KStrHandler routine [Streaming Media Devices], KStrMethodHandler, KStrSetPropertyHandler, KStrSupportHandler, PFNKSHANDLER, ks/KStrHandler, ksfunc_53b62198-4059-4715-b405-c6f55d736a09.xml, stream.kstrmethodhandler
 ms.topic: callback
+f1_keywords:
+ - "ks/KStrHandler"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop

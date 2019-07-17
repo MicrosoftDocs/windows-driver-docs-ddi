@@ -8,6 +8,8 @@ ms.assetid: 737EDB43-FAFF-4EFD-A7A1-206D646F23E1
 ms.date: 05/07/2018
 ms.keywords: IOCTL_INTERNAL_USBFN_BUS_EVENT_NOTIFICATION, IOCTL_INTERNAL_USBFN_BUS_EVENT_NOTIFICATION control, IOCTL_INTERNAL_USBFN_BUS_EVENT_NOTIFICATION control code [Buses], buses.ioctl_internal_usbfn_bus_event_notification, usbfnioctl/IOCTL_INTERNAL_USBFN_BUS_EVENT_NOTIFICATION
 ms.topic: ioctl
+f1_keywords:
+ - "usbfnioctl/IOCTL_INTERNAL_USBFN_BUS_EVENT_NOTIFICATION"
 req.header: usbfnioctl.h
 req.include-header: 
 req.target-type: Windows

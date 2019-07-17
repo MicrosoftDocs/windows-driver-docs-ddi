@@ -8,6 +8,8 @@ ms.assetid: 76d6c066-f455-45d4-ac39-76d1420fe8c9
 ms.date: 05/02/2018
 ms.keywords: "*LPRILCALLINFO, *LPRILCALLINFO_V5, RILCALLINFO, RILCALLINFO_V5, RILCALLINFO_V5 structure [Network Drivers Starting with Windows Vista], netvista.rilcallinfo_v5, ntddrilapitypes/RILCALLINFO_V5"
 ms.topic: struct
+f1_keywords:
+ - "rilapitypes/RILCALLINFO_V5"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

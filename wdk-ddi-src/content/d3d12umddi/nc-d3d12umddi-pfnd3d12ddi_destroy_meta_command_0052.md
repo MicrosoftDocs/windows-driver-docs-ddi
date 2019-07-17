@@ -7,6 +7,8 @@ author: mimisasouvanh
 ms.author: misaso
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_DESTROY_META_COMMAND_0052"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

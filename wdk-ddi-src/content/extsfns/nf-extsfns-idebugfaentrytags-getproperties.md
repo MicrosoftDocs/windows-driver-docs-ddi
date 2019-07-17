@@ -8,6 +8,8 @@ ms.assetid: 140EAE7D-E349-4096-8578-6CF011C1FBA7
 ms.date: 05/03/2018
 ms.keywords: GetProperties, GetProperties method [Windows Debugging], GetProperties method [Windows Debugging],IDebugFAEntryTags interface, IDebugFAEntryTags interface [Windows Debugging],GetProperties method, IDebugFAEntryTags.GetProperties, IDebugFAEntryTags::GetProperties, debugger.idebugfaentrytags_getproperties, extsfns/IDebugFAEntryTags::GetProperties
 ms.topic: method
+f1_keywords:
+ - "extsfns/IDebugFAEntryTags.GetProperties"
 req.header: extsfns.h
 req.include-header: 
 req.target-type: Desktop

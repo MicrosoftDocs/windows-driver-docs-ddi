@@ -7,6 +7,8 @@ ms.assetid: 534c292a-b3ef-41aa-868a-f5e57b90d789
 ms.date: 05/10/2018
 ms.keywords: CreateDomainShader, CreateDomainShader callback function [Display Devices], PFND3D11DDI_CREATEDOMAINSHADER, PFND3D11DDI_CREATEDOMAINSHADER callback, UserModeDisplayDriverDx11_Functions_e9e86a57-1f64-42a8-a871-d3f42f1c6819.xml, d3d10umddi/CreateDomainShader, display.createdomainshader
 ms.topic: callback
+f1_keywords:
+ - "d3d10umddi/CreateDomainShader"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

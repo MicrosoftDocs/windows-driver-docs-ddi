@@ -8,6 +8,8 @@ ms.assetid: 0D239C0E-96C8-49F9-BDFD-182F3F7C3976
 ms.date: 05/03/2018
 ms.keywords: IDebugSymbols5, IDebugSymbols5 interface [Windows Debugging], IDebugSymbols5 interface [Windows Debugging],described, dbgeng/IDebugSymbols5, debugger.idebugsymbols5
 ms.topic: interface
+f1_keywords:
+ - "dbgeng/IDebugSymbols5"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

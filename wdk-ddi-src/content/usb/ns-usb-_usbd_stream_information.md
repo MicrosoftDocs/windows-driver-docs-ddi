@@ -8,6 +8,8 @@ ms.assetid: AFB502BF-4BC2-439E-BF1F-5D1DE3172362
 ms.date: 05/07/2018
 ms.keywords: "*PUSBD_STREAM_INFORMATION, PUSBD_STREAM_INFORMATION, PUSBD_STREAM_INFORMATION structure pointer [Buses], USBD_STREAM_INFORMATION, USBD_STREAM_INFORMATION structure [Buses], _USBD_STREAM_INFORMATION, buses.usbd_stream_information, usb/PUSBD_STREAM_INFORMATION, usb/USBD_STREAM_INFORMATION"
 ms.topic: struct
+f1_keywords:
+ - "usb/USBD_STREAM_INFORMATION"
 req.header: usb.h
 req.include-header: 
 req.target-type: Windows

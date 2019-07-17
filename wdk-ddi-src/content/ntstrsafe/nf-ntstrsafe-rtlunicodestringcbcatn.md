@@ -8,6 +8,8 @@ ms.assetid: 246c2abd-ad07-4910-968c-dbd5fefff5bc
 ms.date: 04/30/2018
 ms.keywords: RtlUnicodeStringCbCatN, RtlUnicodeStringCbCatN function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringcbcatn, ntstrsafe/RtlUnicodeStringCbCatN, safestrings_3c51b953-50f8-4fb8-829a-f41951a0a1a8.xml
 ms.topic: function
+f1_keywords:
+ - "ntstrsafe/RtlUnicodeStringCbCatN"
 req.header: ntstrsafe.h
 req.include-header: Ntstrsafe.h
 req.target-type: Desktop

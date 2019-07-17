@@ -5,6 +5,8 @@ description: Defines the kind of execution to do.
 ms.assetid: f39e999b-9d77-496b-841d-c89d13b776d3
 ms.date: 07/16/2018
 ms.topic: enum
+f1_keywords:
+ - "dbgmodel/ScriptExecutionKind"
 ms.keywords: ScriptExecutionKind, , 
 req.header: dbgmodel.h
 req.include-header:

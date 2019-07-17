@@ -8,6 +8,8 @@ ms.assetid: c754f540-19ff-491f-89ec-63d3306c4068
 ms.date: 05/10/2018
 ms.keywords: DXVA_DeinterlaceQueryAvailableModes, DXVA_DeinterlaceQueryAvailableModes structure [Display Devices], _DXVA_DeinterlaceQueryAvailableModes, display.dxva_deinterlacequeryavailablemodes, dxva/DXVA_DeinterlaceQueryAvailableModes, dxvaref_9c2ffe96-e286-4f0f-bb6b-57bc6ee64b2c.xml
 ms.topic: struct
+f1_keywords:
+ - "dxva/DXVA_DeinterlaceQueryAvailableModes"
 req.header: dxva.h
 req.include-header: Dxva.h
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: 4e880b39-e0ee-4801-86b7-ffc06ed415ab
 ms.date: 05/10/2018
 ms.keywords: AgpReleaseVirtual, AgpReleaseVirtual callback function [Display Devices], PAGP_RELEASE_VIRTUAL, PAGP_RELEASE_VIRTUAL callback, VideoPort_Functions_4ea0bf12-5d18-4704-9efe-7d8a65a44f1f.xml, display.agpreleasevirtual, videoagp/AgpReleaseVirtual
 ms.topic: callback
+f1_keywords:
+ - "videoagp/AgpReleaseVirtual"
 req.header: videoagp.h
 req.include-header: Video.h
 req.target-type: Desktop

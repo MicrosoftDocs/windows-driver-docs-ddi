@@ -8,6 +8,8 @@ ms.assetid: d201fdce-ae56-4ba5-a947-e3e0cecc6e17
 ms.date: 05/08/2018
 ms.keywords: "*PKSAUDIO_MIX_CAPS, KSAUDIO_MIX_CAPS, KSAUDIO_MIX_CAPS structure [Audio Devices], PKSAUDIO_MIX_CAPS, PKSAUDIO_MIX_CAPS structure pointer [Audio Devices], aud-prop_5468df9e-d7f4-4449-a59f-694100f2f825.xml, audio.ksaudio_mix_caps, ksmedia/KSAUDIO_MIX_CAPS, ksmedia/PKSAUDIO_MIX_CAPS"
 ms.topic: struct
+f1_keywords:
+ - "ksmedia/KSAUDIO_MIX_CAPS"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: fcbbd188-438a-4eaa-8034-67ca52d1fb56
 ms.date: 02/15/2018
 ms.keywords: "*PHWN_CLX_EXPORT_INDEX, AddDevicePostDeviceCreateIndex, AddDevicePreDeviceCreateIndex, HWN_CLX_EXPORT_INDEX, HWN_CLX_EXPORT_INDEX enumeration, HwNExportLastExportIndex, RegisterClientIndex, UnregisterClientIndex, _HWN_CLX_EXPORT_INDEX, gpiobtn._hwn_clx_export_index, hwnclx/AddDevicePostDeviceCreateIndex, hwnclx/AddDevicePreDeviceCreateIndex, hwnclx/HWN_CLX_EXPORT_INDEX, hwnclx/HwNExportLastExportIndex, hwnclx/RegisterClientIndex, hwnclx/UnregisterClientIndex"
 ms.topic: enum
+f1_keywords:
+ - "hwnclx/HWN_CLX_EXPORT_INDEX"
 req.header: hwnclx.h
 req.include-header:
 req.target-type: Windows

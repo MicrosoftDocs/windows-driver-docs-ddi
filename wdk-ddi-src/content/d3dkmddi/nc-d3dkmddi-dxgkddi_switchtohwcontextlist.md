@@ -5,6 +5,8 @@ description: Clarifies the order of execution of first and second contexts submi
 ms.assetid: 37f7d107-50ec-452e-b98f-a1bea73ab2d0
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmddi/DXGKDDI_SWITCHTOHWCONTEXTLIST"
 req.header: d3dkmddi.h
 req.include-header:
 req.target-type:

@@ -8,6 +8,8 @@ ms.assetid: 4d842454-4a59-4f82-9aeb-3dfbe9d8cd8a
 ms.date: 04/16/2018
 ms.keywords: RxNameCacheExpireEntryWithShortName, RxNameCacheExpireEntryWithShortName function [Installable File System Drivers], ifsk.rxnamecacheexpireentrywithshortname, namcache/RxNameCacheExpireEntryWithShortName, rxref_fcde2e61-9855-4d66-8b81-a437921d5ec5.xml
 ms.topic: function
+f1_keywords:
+ - "namcache/RxNameCacheExpireEntryWithShortName"
 req.header: namcache.h
 req.include-header: Namcache.h
 req.target-type: Desktop

@@ -8,6 +8,8 @@ ms.assetid: 2B3C52FD-80D7-4ECA-9B33-7916FB47B0B2
 ms.date: 04/16/2018
 ms.keywords: FltCloseSectionForDataScan, FltCloseSectionForDataScan routine [Installable File System Drivers], fltkernel/FltCloseSectionForDataScan, ifsk.fltclosesectionfordatascan
 ms.topic: function
+f1_keywords:
+ - "fltkernel/FltCloseSectionForDataScan"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

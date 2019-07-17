@@ -8,6 +8,8 @@ ms.assetid: 3F2B060F-3818-4BBC-9BF7-7A82128274E0
 ms.date: 02/26/2018
 ms.keywords: WdfRequestGetUserModeDriverInitiatedIo, WdfRequestGetUserModeDriverInitiatedIo method, wdf.wdfrequestgetusermodeinitiatedio, wdfrequest/WdfRequestGetUserModeDriverInitiatedIo
 ms.topic: function
+f1_keywords:
+ - "wdfrequest/WdfRequestGetUserModeDriverInitiatedIo"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal

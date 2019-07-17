@@ -8,6 +8,8 @@ ms.assetid: ea8ba463-e8dd-4952-bcad-6fe565fe3292
 ms.date: 05/10/2018
 ms.keywords: "*LPD3DLIGHTINGCAPS, D3DLIGHTINGCAPS, D3DLIGHTINGCAPS structure [Display Devices], LPD3DLIGHTINGCAPS, LPD3DLIGHTINGCAPS structure pointer [Display Devices], _D3DLIGHTINGCAPS, d3dcaps/D3DLIGHTINGCAPS, d3dcaps/LPD3DLIGHTINGCAPS, d3dstrct_98470d9f-b4ed-49ee-9c0f-34c991916de3.xml, display.d3dlightingcaps"
 ms.topic: struct
+f1_keywords:
+ - "d3dcaps/D3DLIGHTINGCAPS"
 req.header: d3dcaps.h
 req.include-header: D3dcaps.h
 req.target-type: Windows

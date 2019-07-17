@@ -8,6 +8,8 @@ ms.assetid: 4ADF74C0-F196-476F-889D-EB1A0B881920
 ms.date: 04/20/2018
 ms.keywords: IPrintSchemaAsyncOperationEvent, IPrintSchemaAsyncOperationEvent interface [Print Devices], IPrintSchemaAsyncOperationEvent interface [Print Devices],described, print.iprintschemaasyncoperationevent_interface, printerextension/IPrintSchemaAsyncOperationEvent
 ms.topic: interface
+f1_keywords:
+ - "printerextension/IPrintSchemaAsyncOperationEvent"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows

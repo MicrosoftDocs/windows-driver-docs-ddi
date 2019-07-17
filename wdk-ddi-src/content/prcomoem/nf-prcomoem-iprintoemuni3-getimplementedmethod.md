@@ -8,6 +8,8 @@ ms.assetid: a1de8e8f-eca1-4630-b689-585027184a08
 ms.date: 04/20/2018
 ms.keywords: GetImplementedMethod, GetImplementedMethod method [Print Devices], GetImplementedMethod method [Print Devices],IPrintOemUni3 interface, IPrintOemUni3 interface [Print Devices],GetImplementedMethod method, IPrintOemUni3.GetImplementedMethod, IPrintOemUni3::GetImplementedMethod, prcomoem/IPrintOemUni3::GetImplementedMethod, print.iprintoemuni3_getimplementedmethod, print_unidrv-pscript_rendering_7ca27745-8b8c-49c6-a80f-06bdc67132d5.xml
 ms.topic: method
+f1_keywords:
+ - "prcomoem/IPrintOemUni3.GetImplementedMethod"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop

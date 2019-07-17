@@ -8,6 +8,8 @@ ms.assetid: 4d20bd03-9fde-4fcf-a90b-5933221cda93
 ms.date: 05/08/2018
 ms.keywords: IPortWaveCyclic interface [Audio Devices],NewSlaveDmaChannel method, IPortWaveCyclic.NewSlaveDmaChannel, IPortWaveCyclic::NewSlaveDmaChannel, NewSlaveDmaChannel, NewSlaveDmaChannel method [Audio Devices], NewSlaveDmaChannel method [Audio Devices],IPortWaveCyclic interface, audio.iportwavecyclic_newslavedmachannel, audmp-routines_63146fe2-162d-4457-9dda-807f1d3931ac.xml, portcls/IPortWaveCyclic::NewSlaveDmaChannel
 ms.topic: method
+f1_keywords:
+ - "portcls/IPortWaveCyclic.NewSlaveDmaChannel"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal

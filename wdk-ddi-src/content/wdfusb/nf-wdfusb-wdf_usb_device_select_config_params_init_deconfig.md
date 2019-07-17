@@ -8,6 +8,8 @@ ms.assetid: cc7ee273-e445-4cdb-b96d-b63db6e433de
 ms.date: 02/26/2018
 ms.keywords: DFUsbRef_9dcc7843-1cc0-4af0-9763-31fbac46ce41.xml, WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_DECONFIG, WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_DECONFIG function, kmdf.wdf_usb_device_select_config_params_init_deconfig, wdf.wdf_usb_device_select_config_params_init_deconfig, wdfusb/WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_DECONFIG
 ms.topic: function
+f1_keywords:
+ - "wdfusb/WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_DECONFIG"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal

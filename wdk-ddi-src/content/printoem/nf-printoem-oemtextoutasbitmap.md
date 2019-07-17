@@ -8,6 +8,8 @@ ms.assetid: 37bf1cbe-9200-4d3e-b5e6-746f18293c1a
 ms.date: 04/20/2018
 ms.keywords: OEMTextOutAsBitmap, OEMTextOutAsBitmap function [Print Devices], print.oemtextoutasbitmap, print_obsoletefunctions_17993b3a-2343-4c6f-86ea-8273abaa8c80.xml, printoem/OEMTextOutAsBitmap
 ms.topic: function
+f1_keywords:
+ - "printoem/OEMTextOutAsBitmap"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows

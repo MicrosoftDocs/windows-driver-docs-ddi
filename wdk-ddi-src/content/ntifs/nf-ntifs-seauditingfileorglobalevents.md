@@ -8,6 +8,8 @@ ms.assetid: 4797126f-c27d-4951-88e7-37c5a475e77d
 ms.date: 04/16/2018
 ms.keywords: SeAuditingFileOrGlobalEvents, SeAuditingFileOrGlobalEvents routine [Installable File System Drivers], ifsk.seauditingfileorglobalevents, ntifs/SeAuditingFileOrGlobalEvents, seref_06c1ee74-261c-4a57-b009-f76420e14055.xml
 ms.topic: function
+f1_keywords:
+ - "ntifs/SeAuditingFileOrGlobalEvents"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

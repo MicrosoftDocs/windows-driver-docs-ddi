@@ -8,6 +8,8 @@ ms.assetid: 4a917824-eef1-4945-b45e-1c940bc8a50d
 ms.date: 05/02/2018
 ms.keywords: FILTER_RESTART, FILTER_RESTART callback, FilterRestart, FilterRestart callback function [Network Drivers Starting with Windows Vista], filter_functions_ref_784a21e4-a3d3-4ada-9555-b712595f0a24.xml, ndis/FilterRestart, netvista.filterrestart
 ms.topic: callback
+f1_keywords:
+ - "ndis/FilterRestart"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

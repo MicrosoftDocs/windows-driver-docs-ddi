@@ -5,6 +5,8 @@ description: Represents a context of the debugger answers questions about (what 
 ms.assetid: d0930562-7c04-499a-89e3-d50a463b7cce
 ms.date: 07/13/2018
 ms.topic: interface
+f1_keywords:
+ - "dbgmodel/IDebugHostContext"
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:

@@ -8,6 +8,8 @@ ms.assetid: eeb2d1ad-ad99-4099-9560-8653a627aa08
 ms.date: 05/10/2018
 ms.keywords: VideoPortAcquireDeviceLock, VideoPortAcquireDeviceLock function [Display Devices], VideoPort_Functions_4c588378-53be-496c-93f0-0d285b8a1a05.xml, display.videoportacquiredevicelock, video/VideoPortAcquireDeviceLock
 ms.topic: function
+f1_keywords:
+ - "video/VideoPortAcquireDeviceLock"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

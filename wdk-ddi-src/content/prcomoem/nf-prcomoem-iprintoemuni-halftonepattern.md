@@ -8,6 +8,8 @@ ms.assetid: 1b899492-f4a7-4c13-9e19-0f086b2b6b47
 ms.date: 04/20/2018
 ms.keywords: HalftonePattern, HalftonePattern method [Print Devices], HalftonePattern method [Print Devices],IPrintOemUni interface, IPrintOemUni interface [Print Devices],HalftonePattern method, IPrintOemUni.HalftonePattern, IPrintOemUni::HalftonePattern, prcomoem/IPrintOemUni::HalftonePattern, print.iprintoemuni_halftonepattern, print_unidrv-pscript_rendering_672da2b9-981c-4c4c-a303-88377fe01741.xml
 ms.topic: method
+f1_keywords:
+ - "prcomoem/IPrintOemUni.HalftonePattern"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop

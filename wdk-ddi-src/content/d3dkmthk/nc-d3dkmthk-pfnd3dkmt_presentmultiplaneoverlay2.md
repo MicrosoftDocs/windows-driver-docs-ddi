@@ -5,6 +5,8 @@ description: The PFND3DKMT_PRESENTMULTIPLANEOVERLAY2 callback function copies co
 ms.assetid: a5465ec7-d6c0-49de-984e-28d263cc96d8
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/PFND3DKMT_PRESENTMULTIPLANEOVERLAY2"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

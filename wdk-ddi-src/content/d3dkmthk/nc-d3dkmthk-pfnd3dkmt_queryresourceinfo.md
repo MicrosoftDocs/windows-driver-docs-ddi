@@ -5,6 +5,8 @@ description: The PFND3DKMT_QUERYRESOURCEINFO callback function retrieves informa
 ms.assetid: 4e48ccbd-d20b-433f-aa1d-9c44fc5d930a
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/PFND3DKMT_QUERYRESOURCEINFO"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

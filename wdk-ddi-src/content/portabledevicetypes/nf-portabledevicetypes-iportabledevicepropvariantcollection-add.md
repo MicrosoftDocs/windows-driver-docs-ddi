@@ -8,6 +8,8 @@ ms.assetid: 38cd7931-f0c4-4905-94b3-3196a40b367c
 ms.date: 02/15/2018
 ms.keywords: Add, Add method, Add method,IPortableDevicePropVariantCollection interface, IPortableDevicePropVariantCollection interface,Add method, IPortableDevicePropVariantCollection.Add, IPortableDevicePropVariantCollection::Add, IPortableDevicePropVariantCollectionAdd, portabledevicetypes/IPortableDevicePropVariantCollection::Add, wpddk.iportabledevicepropvariantcollection_add
 ms.topic: method
+f1_keywords:
+ - "portabledevicetypes/IPortableDevicePropVariantCollection.Add"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows

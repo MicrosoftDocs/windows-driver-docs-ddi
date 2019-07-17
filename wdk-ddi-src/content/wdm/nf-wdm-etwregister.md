@@ -8,6 +8,8 @@ ms.assetid: 89a37edb-0f58-45c2-9045-b31eec5a4281
 ms.date: 02/23/2018
 ms.keywords: EtwRegister, EtwRegister function [Driver Development Tools], devtest.etwregister, etw_km_45f383e4-ef13-4662-b80e-2fc48b6755ed.xml, wdm/EtwRegister
 ms.topic: function
+f1_keywords:
+ - "wdm/EtwRegister"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Universal

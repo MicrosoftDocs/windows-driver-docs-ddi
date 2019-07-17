@@ -8,6 +8,8 @@ ms.assetid: c964b4b8-ab07-4a07-9965-5cc06c028c20
 ms.date: 05/02/2018
 ms.keywords: PROTOCOL_RECEIVE_NET_BUFFER_LISTS, PROTOCOL_RECEIVE_NET_BUFFER_LISTS callback, ProtocolReceiveNetBufferLists, ProtocolReceiveNetBufferLists callback function [Network Drivers Starting with Windows Vista], ndis/ProtocolReceiveNetBufferLists, ndis_sendrcv_ref_80c46411-a010-442f-a978-5f9227abb70a.xml, netvista.protocolreceivenetbufferlists
 ms.topic: callback
+f1_keywords:
+ - "ndis/ProtocolReceiveNetBufferLists"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

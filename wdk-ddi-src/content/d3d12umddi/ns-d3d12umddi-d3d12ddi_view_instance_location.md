@@ -7,6 +7,8 @@ ms.assetid: 1b31ac34-233b-4246-a1c3-d0aac0f35db6
 ms.date: 05/10/2018
 ms.keywords: D3D12DDI_VIEW_INSTANCE_LOCATION, D3D12DDI_VIEW_INSTANCE_LOCATION structure [Display Devices], d3d12umddi/D3D12DDI_VIEW_INSTANCE_LOCATION, display.d3d12ddi-view-instance-location
 ms.topic: struct
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_VIEW_INSTANCE_LOCATION"
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: Windows

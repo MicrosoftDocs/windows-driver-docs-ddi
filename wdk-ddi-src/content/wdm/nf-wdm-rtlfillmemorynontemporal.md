@@ -8,6 +8,8 @@ ms.assetid: dd55904e-f4ba-4501-9cb8-d653376ebb2f
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: function
+f1_keywords:
+ - "wdm/RtlFillMemoryNonTemporal"
 ms.keywords: RtlFillMemoryNonTemporal
 req.header: wdm.h
 req.include-header:

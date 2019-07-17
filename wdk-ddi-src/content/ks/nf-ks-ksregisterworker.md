@@ -8,6 +8,8 @@ ms.assetid: b9c74a56-3f2c-4b94-8fb2-6b44075ec34b
 ms.date: 04/23/2018
 ms.keywords: KsRegisterWorker, KsRegisterWorker function [Streaming Media Devices], ks/KsRegisterWorker, ksfunc_c2cb48b6-6268-4d53-a81b-07c1984f80aa.xml, stream.ksregisterworker
 ms.topic: function
+f1_keywords:
+ - "ks/KsRegisterWorker"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

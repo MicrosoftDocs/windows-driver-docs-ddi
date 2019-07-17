@@ -5,6 +5,8 @@ description: Get the memory ranges for a single MMIO (memory mapped input output
 ms.assetid: b5bdfe10-a053-4003-94e9-0205e49f05c6
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "dispmprt/DXGKDDI_GETMMIORANGES"
 req.header: dispmprt.h
 req.include-header:
 req.target-type:

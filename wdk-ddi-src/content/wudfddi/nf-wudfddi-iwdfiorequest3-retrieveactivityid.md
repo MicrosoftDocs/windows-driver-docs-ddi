@@ -8,6 +8,8 @@ ms.assetid: A90FCF3C-B648-4E97-887E-FCE58D7FA13A
 ms.date: 02/26/2018
 ms.keywords: IWDFIoRequest3 interface,RetrieveActivityId method, IWDFIoRequest3.RetrieveActivityId, IWDFIoRequest3::RetrieveActivityId, RetrieveActivityId, RetrieveActivityId method, RetrieveActivityId method,IWDFIoRequest3 interface, umdf.iwdfiorequest3_retrieveactivityid, wdf.iwdfiorequest3_retrieveactivityid, wudfddi/IWDFIoRequest3::RetrieveActivityId
 ms.topic: method
+f1_keywords:
+ - "wudfddi/IWDFIoRequest3.RetrieveActivityId"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

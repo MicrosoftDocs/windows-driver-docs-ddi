@@ -8,6 +8,8 @@ ms.assetid: DA034B30-203E-4418-B5BD-1094B3D438FE
 ms.date: 04/30/2018
 ms.keywords: PoFxStartDevicePowerManagement, PoFxStartDevicePowerManagement routine [Kernel-Mode Driver Architecture], kernel.pofxstartdevicepowermanagement, wdm/PoFxStartDevicePowerManagement
 ms.topic: function
+f1_keywords:
+ - "wdm/PoFxStartDevicePowerManagement"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Universal

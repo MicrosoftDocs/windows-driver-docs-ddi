@@ -5,6 +5,8 @@ description: Offer resources.
 ms.assetid: 794a29be-a6e8-4548-9de8-8230cb781cf8
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_OFFERRESOURCES"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

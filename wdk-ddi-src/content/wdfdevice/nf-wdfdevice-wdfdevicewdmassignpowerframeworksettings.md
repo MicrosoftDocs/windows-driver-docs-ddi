@@ -8,6 +8,8 @@ ms.assetid: 676A458E-A6E0-4F09-AAF2-21EA122EF74D
 ms.date: 02/26/2018
 ms.keywords: WdfDeviceWdmAssignPowerFrameworkSettings, WdfDeviceWdmAssignPowerFrameworkSettings method, kmdf.wdfdevicewdmassignpowerframeworksettings, wdf.wdfdevicewdmassignpowerframeworksettings, wdfdevice/WdfDeviceWdmAssignPowerFrameworkSettings
 ms.topic: function
+f1_keywords:
+ - "wdfdevice/WdfDeviceWdmAssignPowerFrameworkSettings"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

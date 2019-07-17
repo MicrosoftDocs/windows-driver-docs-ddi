@@ -8,6 +8,8 @@ ms.assetid: 805d7eff-19be-47a1-acc9-1b97e5493031
 ms.date: 04/30/2018
 ms.keywords: NtCreateSection, ZwCreateSection, ZwCreateSection routine [Kernel-Mode Driver Architecture], k111_8e0d13e2-4cd7-4b39-b1ce-41b193c495be.xml, kernel.zwcreatesection, wdm/NtCreateSection, wdm/ZwCreateSection
 ms.topic: function
+f1_keywords:
+ - "ntifs/ZwCreateSection"
 req.header: ntifs.h
 req.include-header: Wdm.h, Ntifs.h
 req.target-type: Universal

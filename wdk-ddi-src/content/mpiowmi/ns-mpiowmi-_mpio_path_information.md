@@ -8,6 +8,8 @@ ms.assetid: 12383ae0-69c8-4546-9560-08aa4a50de8e
 ms.date: 03/29/2018
 ms.keywords: "*PMPIO_PATH_INFORMATION, MPIO_PATH_INFORMATION, MPIO_PATH_INFORMATION structure [Storage Devices], PMPIO_PATH_INFORMATION, PMPIO_PATH_INFORMATION structure pointer [Storage Devices], _MPIO_PATH_INFORMATION, mpiowmi/MPIO_PATH_INFORMATION, mpiowmi/PMPIO_PATH_INFORMATION, storage.mpio_path_information, structs-scsibus_2000c93b-2c86-478c-a70e-89622ca40862.xml"
 ms.topic: struct
+f1_keywords:
+ - "mpiowmi/MPIO_PATH_INFORMATION"
 req.header: mpiowmi.h
 req.include-header: Mpiowmi.h
 req.target-type: Windows

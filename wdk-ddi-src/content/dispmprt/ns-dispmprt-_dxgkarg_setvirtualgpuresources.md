@@ -8,6 +8,8 @@ ms.assetid: 1adf321c-b791-4dee-a948-78bfd07a6d38
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
 ms.topic: struct
+f1_keywords:
+ - "dispmprt/_DXGKARG_SETVIRTUALGPURESOURCES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.keywords: _DXGKARG_SETVIRTUALGPURESOURCES, DXGKARG_SETVIRTUALGPURESOURCES, *PDXGKARG_SETVIRTUALGPURESOURCES, 

@@ -8,6 +8,8 @@ ms.assetid: 606FF5E7-CCC1-4227-8917-F5DF3ECB31A6
 ms.date: 04/20/2018
 ms.keywords: IPrinterExtensionEventArgs interface [Print Devices],WindowModal property, IPrinterExtensionEventArgs.WindowModal, IPrinterExtensionEventArgs.get_WindowModal, IPrinterExtensionEventArgs::WindowModal, IPrinterExtensionEventArgs::get_WindowModal, WindowModal property [Print Devices], WindowModal property [Print Devices],IPrinterExtensionEventArgs interface, get_WindowModal, print.iprinterextensioneventargs_windowmodal, printerextension/IPrinterExtensionEventArgs::WindowModal, printerextension/IPrinterExtensionEventArgs::get_WindowModal
 ms.topic: method
+f1_keywords:
+ - "printerextension/IPrinterExtensionEventArgs.WindowModal"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows

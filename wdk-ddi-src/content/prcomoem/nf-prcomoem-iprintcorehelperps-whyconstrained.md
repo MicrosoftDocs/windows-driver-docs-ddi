@@ -8,6 +8,8 @@ ms.assetid: 23953142-9246-41cf-91b4-75b1a3f6128e
 ms.date: 04/20/2018
 ms.keywords: IPrintCoreHelperPS interface [Print Devices],WhyConstrained method, IPrintCoreHelperPS.WhyConstrained, IPrintCoreHelperPS::WhyConstrained, WhyConstrained, WhyConstrained method [Print Devices], WhyConstrained method [Print Devices],IPrintCoreHelperPS interface, prcomoem/IPrintCoreHelperPS::WhyConstrained, print.iprintcorehelperps_whyconstrained, print_unidrv-pscript_allplugins_fc5f3f79-3a89-4e0f-9d13-4fda10a1c3b4.xml
 ms.topic: method
+f1_keywords:
+ - "prcomoem/IPrintCoreHelperPS.WhyConstrained"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop

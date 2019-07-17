@@ -8,6 +8,8 @@ ms.assetid: b1482160-49db-4490-b347-ff9396abf2ff
 ms.date: 05/02/2018
 ms.keywords: PFN_WSK_SOCKET_CONNECT, PFN_WSK_SOCKET_CONNECT callback, WskSocketConnect, WskSocketConnect callback function [Network Drivers Starting with Windows Vista], netvista.wsksocketconnect, wsk/WskSocketConnect, wskref_326c63cb-233d-4b6e-9c36-15e7f2cb1f1c.xml
 ms.topic: callback
+f1_keywords:
+ - "wsk/WskSocketConnect"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Universal

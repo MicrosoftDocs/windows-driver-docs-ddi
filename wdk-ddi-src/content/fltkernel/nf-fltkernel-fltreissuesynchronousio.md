@@ -8,6 +8,8 @@ ms.assetid: 5feba526-17f3-4969-9199-93cb2a36e937
 ms.date: 04/16/2018
 ms.keywords: FltApiRef_p_to_z_c86041cf-780e-4754-b580-6665573bdb88.xml, FltReissueSynchronousIo, FltReissueSynchronousIo function [Installable File System Drivers], fltkernel/FltReissueSynchronousIo, ifsk.fltreissuesynchronousio
 ms.topic: function
+f1_keywords:
+ - "fltkernel/FltReissueSynchronousIo"
 req.header: fltkernel.h
 req.include-header: FltKernel.h
 req.target-type: Universal

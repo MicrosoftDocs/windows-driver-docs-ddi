@@ -8,6 +8,8 @@ ms.assetid: dc58e082-25c3-45c1-ad62-718ab21a156c
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
 ms.topic: function
+f1_keywords:
+ - "dispmprt/DlEvalAcpiMethod"
 ms.keywords: DlEvalAcpiMethod
 req.header: dispmprt.h
 req.include-header:

@@ -7,6 +7,8 @@ ms.assetid: 7e224009-dccb-41e5-99e8-01f1479aa79f
 ms.date: 05/10/2018
 ms.keywords: D3DKMT_FLIPOVERLAY, D3DKMT_FLIPOVERLAY structure [Display Devices], OpenGL_Structs_a7694ad8-b12e-41ad-b7e3-159d26fe2f41.xml, _D3DKMT_FLIPOVERLAY, d3dkmthk/D3DKMT_FLIPOVERLAY, display.d3dkmt_flipoverlay
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/D3DKMT_FLIPOVERLAY"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

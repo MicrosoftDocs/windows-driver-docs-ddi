@@ -8,6 +8,8 @@ ms.assetid: 24477865-fb89-4078-99cb-1bf24249c7e2
 ms.date: 05/02/2018
 ms.keywords: NdisMCmCloseCallComplete, NdisMCmCloseCallComplete macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_78d6cea5-8d8c-49d4-ad57-c41eb63d3a4b.xml, ndis/NdisMCmCloseCallComplete, netvista.ndismcmclosecallcomplete
 ms.topic: macro
+f1_keywords:
+ - "ndis/NdisMCmCloseCallComplete"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

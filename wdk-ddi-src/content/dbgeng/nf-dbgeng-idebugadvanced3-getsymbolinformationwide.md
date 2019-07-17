@@ -8,6 +8,8 @@ ms.assetid: 8fa6a00d-ad4e-47e2-bffe-4d9d70846fd6
 ms.date: 05/03/2018
 ms.keywords: GetSymbolInformationWide, GetSymbolInformationWide method [Windows Debugging], GetSymbolInformationWide method [Windows Debugging],IDebugAdvanced3 interface, IDebugAdvanced3 interface [Windows Debugging],GetSymbolInformationWide method, IDebugAdvanced3.GetSymbolInformationWide, IDebugAdvanced3::GetSymbolInformationWide, dbgeng/IDebugAdvanced3::GetSymbolInformationWide, debugger.getsymbolinformationwide
 ms.topic: method
+f1_keywords:
+ - "dbgeng/IDebugAdvanced3.GetSymbolInformationWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

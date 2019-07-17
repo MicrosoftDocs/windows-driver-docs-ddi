@@ -8,6 +8,8 @@ ms.assetid: 18CB1032-78CB-4D65-9077-02B89E9C31B4
 ms.date: 04/30/2018
 ms.keywords: POFXCALLBACKCRITICALRESOURCE, TransitionCriticalResource, TransitionCriticalResource routine [Kernel-Mode Driver Architecture], kernel.transitioncriticalresource, pepfx/TransitionCriticalResource
 ms.topic: callback
+f1_keywords:
+ - "pep_x/TransitionCriticalResource"
 req.header: pep_x.h
 req.include-header: Pep_x.h
 req.target-type: Windows

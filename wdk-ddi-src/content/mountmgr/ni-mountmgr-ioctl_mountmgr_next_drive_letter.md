@@ -8,6 +8,8 @@ ms.assetid: 7e3c5718-180c-435d-89ea-30a5cac325b2
 ms.date: 03/29/2018
 ms.keywords: IOCTL_MOUNTMGR_NEXT_DRIVE_LETTER, IOCTL_MOUNTMGR_NEXT_DRIVE_LETTER control, IOCTL_MOUNTMGR_NEXT_DRIVE_LETTER control code [Storage Devices], k307_c77572b5-04ff-453d-91a4-9f58c65930e0.xml, mountmgr/IOCTL_MOUNTMGR_NEXT_DRIVE_LETTER, storage.ioctl_mountmgr_next_drive_letter
 ms.topic: ioctl
+f1_keywords:
+ - "mountmgr/IOCTL_MOUNTMGR_NEXT_DRIVE_LETTER"
 req.header: mountmgr.h
 req.include-header: Mountmgr.h
 req.target-type: Windows

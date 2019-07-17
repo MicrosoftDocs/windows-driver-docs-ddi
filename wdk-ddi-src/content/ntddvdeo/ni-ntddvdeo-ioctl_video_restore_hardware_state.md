@@ -8,6 +8,8 @@ ms.assetid: 94ea36b6-3390-4e67-982d-ee6c2500c0de
 ms.date: 05/10/2018
 ms.keywords: IOCTL_VIDEO_RESTORE_HARDWARE_STATE, IOCTL_VIDEO_RESTORE_HARDWARE_STATE control, IOCTL_VIDEO_RESTORE_HARDWARE_STATE control code [Display Devices], Video_IOCTLs_2660d342-9c6b-461e-80f9-0c31763689ff.xml, display.ioctl_video_restore_hardware_state, ntddvdeo/IOCTL_VIDEO_RESTORE_HARDWARE_STATE
 ms.topic: ioctl
+f1_keywords:
+ - "ntddvdeo/IOCTL_VIDEO_RESTORE_HARDWARE_STATE"
 req.header: ntddvdeo.h
 req.include-header: 
 req.target-type: Windows

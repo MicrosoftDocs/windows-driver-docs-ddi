@@ -8,6 +8,8 @@ ms.assetid: e8f4c3c9-c5b7-4fc1-9be3-0254c6cbd6f3
 ms.date: 04/30/2018
 ms.keywords: InterlockedIncrement, InterlockedIncrement routine [Kernel-Mode Driver Architecture], k102_8d625992-2e36-464d-a771-629d5f08b398.xml, kernel.interlockedincrement, wdm/InterlockedIncrement
 ms.topic: function
+f1_keywords:
+ - "miniport/InterlockedIncrement"
 req.header: miniport.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Miniport.h
 req.target-type: Universal

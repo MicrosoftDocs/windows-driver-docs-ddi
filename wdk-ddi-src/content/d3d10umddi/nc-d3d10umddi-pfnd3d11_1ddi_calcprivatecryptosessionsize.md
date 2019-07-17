@@ -7,6 +7,8 @@ ms.assetid: 9ca0fdd5-a724-4d5d-81b2-8885b2aed1ca
 ms.date: 05/10/2018
 ms.keywords: CalcPrivateCryptoSessionSize, CalcPrivateCryptoSessionSize callback function [Display Devices], PFND3D11_1DDI_CALCPRIVATECRYPTOSESSIONSIZE, PFND3D11_1DDI_CALCPRIVATECRYPTOSESSIONSIZE callback, d3d10umddi/CalcPrivateCryptoSessionSize, display.calcprivatecryptosessionsize
 ms.topic: callback
+f1_keywords:
+ - "d3d10umddi/CalcPrivateCryptoSessionSize"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

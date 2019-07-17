@@ -8,6 +8,8 @@ ms.assetid: 744d6e49-9321-4cba-a4e7-48a4abb02319
 ms.date: 04/23/2018
 ms.keywords: INIT_AVCSTRM_HEADER, INIT_AVCSTRM_HEADER macro [Streaming Media Devices], avcsref_97f7d983-5637-4ac4-ad1c-53328adca831.xml, avcstrm/INIT_AVCSTRM_HEADER, stream.init_avcstrm_header
 ms.topic: macro
+f1_keywords:
+ - "avcstrm/INIT_AVCSTRM_HEADER"
 req.header: avcstrm.h
 req.include-header: Avcstrm.h
 req.target-type: Desktop

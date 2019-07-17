@@ -8,6 +8,8 @@ ms.assetid: 29810132-5f53-4ba6-8302-6de315ecd04a
 ms.date: 05/10/2018
 ms.keywords: D3DDDI_DEVICECALLBACKS, D3DDDI_DEVICECALLBACKS structure [Display Devices], D3D_other_Structs_a835da78-4f70-4fc5-9f0f-43cef61bd304.xml, _D3DDDI_DEVICECALLBACKS, d3dumddi/D3DDDI_DEVICECALLBACKS, display.d3dddi_devicecallbacks
 ms.topic: struct
+f1_keywords:
+ - "d3dumddi/D3DDDI_DEVICECALLBACKS"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

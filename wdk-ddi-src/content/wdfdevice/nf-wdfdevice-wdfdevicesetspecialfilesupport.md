@@ -8,6 +8,8 @@ ms.assetid: 7648c486-181a-45c8-9c4b-e3158428046a
 ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_c40463ef-3c26-431e-99d8-d176b0ef7ebf.xml, WdfDeviceSetSpecialFileSupport, WdfDeviceSetSpecialFileSupport method, kmdf.wdfdevicesetspecialfilesupport, wdf.wdfdevicesetspecialfilesupport, wdfdevice/WdfDeviceSetSpecialFileSupport
 ms.topic: function
+f1_keywords:
+ - "wdfdevice/WdfDeviceSetSpecialFileSupport"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

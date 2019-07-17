@@ -8,6 +8,8 @@ ms.assetid: efd13e9e-ba25-4d1c-894c-a275374f5266
 ms.date: 04/20/2018
 ms.keywords: IPrintOemDriverUni, IPrintOemDriverUni interface [Print Devices], IPrintOemDriverUni interface [Print Devices],described, prcomoem/IPrintOemDriverUni, print.iprintoemdriveruni_interface, print_unidrv-pscript_rendering_07d60c45-4913-4cac-b65d-31737752b24f.xml
 ms.topic: interface
+f1_keywords:
+ - "prcomoem/IPrintOemDriverUni"
 req.header: prcomoem.h
 req.include-header: 
 req.target-type: Windows

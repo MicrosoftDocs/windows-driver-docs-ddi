@@ -8,6 +8,8 @@ ms.assetid: 8644b5eb-e038-4cdb-b461-d643ff929736
 ms.date: 04/23/2018
 ms.keywords: KsRemoveItemFromObjectBag, KsRemoveItemFromObjectBag function [Streaming Media Devices], avfunc_dbc6f0e3-7e24-4147-99d2-28e64a6a1ff9.xml, ks/KsRemoveItemFromObjectBag, stream.ksremoveitemfromobjectbag
 ms.topic: function
+f1_keywords:
+ - "ks/KsRemoveItemFromObjectBag"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

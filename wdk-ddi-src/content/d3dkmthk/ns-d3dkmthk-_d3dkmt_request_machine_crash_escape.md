@@ -5,6 +5,8 @@ description: Used to request a machine crash escape.
 ms.assetid: 7089efab-ccdc-4edc-99c1-9c61bbc1ec51
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/_D3DKMT_REQUEST_MACHINE_CRASH_ESCAPE"
 ms.keywords: _D3DKMT_REQUEST_MACHINE_CRASH_ESCAPE, D3DKMT_REQUEST_MACHINE_CRASH_ESCAPE, 
 req.header: d3dkmthk.h
 req.include-header:

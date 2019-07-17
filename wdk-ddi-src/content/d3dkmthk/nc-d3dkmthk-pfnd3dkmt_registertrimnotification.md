@@ -5,6 +5,8 @@ description: The PFND3DKMT_REGISTERTRIMNOTIFICATION callback function registers 
 ms.assetid: 149ad603-b237-4f6b-b185-be4a0a9590d2
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/PFND3DKMT_REGISTERTRIMNOTIFICATION"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

@@ -8,6 +8,8 @@ ms.assetid: 4d946524-8ad2-45a0-91be-861b30b0c297
 ms.date: 04/23/2018
 ms.keywords: KsDeleteFilterFactory, KsDeleteFilterFactory function [Streaming Media Devices], avfunc_60aeaa09-5563-47ea-a117-4b65a468b058.xml, ks/KsDeleteFilterFactory, stream.ksdeletefilterfactory
 ms.topic: macro
+f1_keywords:
+ - "ks/KsDeleteFilterFactory"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop

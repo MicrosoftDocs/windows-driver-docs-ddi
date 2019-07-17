@@ -8,6 +8,8 @@ ms.assetid: 9cd17a86-6652-414d-a80d-2e61c0ac99b6
 ms.date: 03/29/2018
 ms.keywords: ScsiPortCompleteRequest, ScsiPortCompleteRequest routine [Storage Devices], scsiprt_be6690c0-6cfa-4a71-9877-176ed2c742e8.xml, srb/ScsiPortCompleteRequest, storage.scsiportcompleterequest
 ms.topic: function
+f1_keywords:
+ - "srb/ScsiPortCompleteRequest"
 req.header: srb.h
 req.include-header: Miniport.h, Scsi.h
 req.target-type: Desktop

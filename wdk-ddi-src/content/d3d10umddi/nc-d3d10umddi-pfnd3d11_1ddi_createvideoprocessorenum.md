@@ -7,6 +7,8 @@ ms.assetid: 38c27502-7e8a-45a1-8a7c-315300502480
 ms.date: 05/10/2018
 ms.keywords: CreateVideoProcessorEnum, CreateVideoProcessorEnum callback function [Display Devices], PFND3D11_1DDI_CREATEVIDEOPROCESSORENUM, PFND3D11_1DDI_CREATEVIDEOPROCESSORENUM callback, d3d10umddi/CreateVideoProcessorEnum, display.createvideoprocessorenum
 ms.topic: callback
+f1_keywords:
+ - "d3d10umddi/CreateVideoProcessorEnum"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

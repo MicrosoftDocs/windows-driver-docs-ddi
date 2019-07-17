@@ -8,6 +8,8 @@ ms.assetid: 998a028a-7dd8-429a-8195-68d4b4b1b156
 ms.date: 04/16/2018
 ms.keywords: "*PFLT_FILE_NAME_INFORMATION, FLT_FILE_NAME_INFORMATION, FLT_FILE_NAME_INFORMATION structure [Installable File System Drivers], FltSystemStructures_0c108c25-effe-413b-9d2a-a215f4eebf37.xml, PFLT_FILE_NAME_INFORMATION, PFLT_FILE_NAME_INFORMATION structure pointer [Installable File System Drivers], _FLT_FILE_NAME_INFORMATION, fltkernel/FLT_FILE_NAME_INFORMATION, fltkernel/PFLT_FILE_NAME_INFORMATION, ifsk.flt_file_name_information"
 ms.topic: struct
+f1_keywords:
+ - "fltkernel/FLT_FILE_NAME_INFORMATION"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Windows

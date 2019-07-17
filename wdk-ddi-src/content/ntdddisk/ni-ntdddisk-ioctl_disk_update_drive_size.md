@@ -8,6 +8,8 @@ ms.assetid: a12c1082-c3ff-40b8-b756-be320ab98b30
 ms.date: 03/29/2018
 ms.keywords: IOCTL_DISK_UPDATE_DRIVE_SIZE, IOCTL_DISK_UPDATE_DRIVE_SIZE control, IOCTL_DISK_UPDATE_DRIVE_SIZE control code [Storage Devices], k307_52e1c8fb-a16b-41a6-a9bc-e0daec91f639.xml, ntdddisk/IOCTL_DISK_UPDATE_DRIVE_SIZE, storage.ioctl_disk_update_drive_size
 ms.topic: ioctl
+f1_keywords:
+ - "ntdddisk/IOCTL_DISK_UPDATE_DRIVE_SIZE"
 req.header: ntdddisk.h
 req.include-header: Ntdddisk.h
 req.target-type: Windows

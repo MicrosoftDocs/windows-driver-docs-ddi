@@ -5,6 +5,8 @@ description: The FindSymbolByName method will find a single global symbol of the
 ms.assetid: 05e3a31b-cab3-43fe-b764-1610ba5ca981
 ms.date: 09/18/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDebugHostModule.FindSymbolByName"
 ms.keywords: IDebugHostModule::FindSymbolByName, FindSymbolByName, IDebugHostModule.FindSymbolByName, IDebugHostModule::FindSymbolByName, IDebugHostModule.FindSymbolByName
 req.header: dbgmodel.h
 req.include-header:

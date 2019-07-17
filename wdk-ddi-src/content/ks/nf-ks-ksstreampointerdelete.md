@@ -8,6 +8,8 @@ ms.assetid: 68819fe9-fd90-4391-a129-5aa0cae1558b
 ms.date: 04/23/2018
 ms.keywords: KsStreamPointerDelete, KsStreamPointerDelete function [Streaming Media Devices], avfunc_b21da27c-abf4-4277-8a22-232c31fbfe97.xml, ks/KsStreamPointerDelete, stream.ksstreampointerdelete
 ms.topic: function
+f1_keywords:
+ - "ks/KsStreamPointerDelete"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

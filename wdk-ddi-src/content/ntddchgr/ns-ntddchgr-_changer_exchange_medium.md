@@ -8,6 +8,8 @@ ms.assetid: b0f03d83-61d3-4aa1-ae4e-a8bdc9f13a9f
 ms.date: 03/29/2018
 ms.keywords: "*PCHANGER_EXCHANGE_MEDIUM, CHANGER_EXCHANGE_MEDIUM, CHANGER_EXCHANGE_MEDIUM structure [Storage Devices], PCHANGER_EXCHANGE_MEDIUM, PCHANGER_EXCHANGE_MEDIUM structure pointer [Storage Devices], _CHANGER_EXCHANGE_MEDIUM, ntddchgr/CHANGER_EXCHANGE_MEDIUM, ntddchgr/PCHANGER_EXCHANGE_MEDIUM, storage.changer_exchange_medium, structs-changer_4af39195-5fe7-42e2-b8bd-3247391fea3f.xml"
 ms.topic: struct
+f1_keywords:
+ - "ntddchgr/CHANGER_EXCHANGE_MEDIUM"
 req.header: ntddchgr.h
 req.include-header: 
 req.target-type: Windows

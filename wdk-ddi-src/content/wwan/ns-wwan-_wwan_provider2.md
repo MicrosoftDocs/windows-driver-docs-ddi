@@ -8,6 +8,8 @@ ms.assetid: 0B9352EE-C7CE-4F9D-9373-0096222295A4
 ms.date: 05/02/2018
 ms.keywords: "*PWWAN_PROVIDER2, PWWAN_PROVIDER2, PWWAN_PROVIDER2 structure pointer [Network Drivers Starting with Windows Vista], WWAN_PROVIDER2, WWAN_PROVIDER2 structure [Network Drivers Starting with Windows Vista], _WWAN_PROVIDER2, netvista.wwan_provider2, wwan/PWWAN_PROVIDER2, wwan/WWAN_PROVIDER2"
 ms.topic: struct
+f1_keywords:
+ - "wwan/WWAN_PROVIDER2"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows

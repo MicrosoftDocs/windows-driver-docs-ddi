@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 6c80431c-c97b-41c8-969b-fd298e363e9d
 ms.date: 08/20/2018
 ms.topic: struct
+f1_keywords:
+ - "wwan/_WWAN_SET_SAR_TRANSMISSION_STATUS"
 ms.keywords: _WWAN_SET_SAR_TRANSMISSION_STATUS, WWAN_SET_SAR_TRANSMISSION_STATUS, *PWWAN_SET_SAR_TRANSMISSION_STATUS, 
 req.header: wwan.h
 req.include-header:

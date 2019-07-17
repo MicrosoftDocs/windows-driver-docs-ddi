@@ -8,6 +8,8 @@ ms.assetid: caef96b6-1b94-475d-9f78-66ae6d6ac979
 ms.date: 05/02/2018
 ms.keywords: NdisMGetDeviceProperty, NdisMGetDeviceProperty function [Network Drivers Starting with Windows Vista], miniport_ndis_functions_ref_849a967a-d488-4440-a9b5-9c7fbc247acd.xml, ndis/NdisMGetDeviceProperty, netvista.ndismgetdeviceproperty
 ms.topic: function
+f1_keywords:
+ - "ndis/NdisMGetDeviceProperty"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

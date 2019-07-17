@@ -7,6 +7,8 @@ ms.assetid: 7746d09a-7fb6-4e5d-926c-4ded6830b06d
 ms.date: 05/10/2018
 ms.keywords: DXGKCB_SETPOWERCOMPONENTIDLE, DXGKCB_SETPOWERCOMPONENTIDLE callback, DxgkCbSetPowerComponentIdle, DxgkCbSetPowerComponentIdle callback function [Display Devices], d3dkmddi/DxgkCbSetPowerComponentIdle, display.dxgkcbsetpowercomponentidle
 ms.topic: callback
+f1_keywords:
+ - "d3dkmddi/DxgkCbSetPowerComponentIdle"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Desktop

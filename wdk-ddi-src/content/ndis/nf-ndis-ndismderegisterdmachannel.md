@@ -8,6 +8,8 @@ ms.assetid: 1581cbfd-bdab-40ed-9978-f60ec220c17a
 ms.date: 05/02/2018
 ms.keywords: NdisMDeregisterDmaChannel, NdisMDeregisterDmaChannel function [Network Drivers Starting with Windows Vista], dma_ref_8babcd45-1946-4928-a0a2-2fc0871b9f90.xml, ndis/NdisMDeregisterDmaChannel, netvista.ndismderegisterdmachannel
 ms.topic: function
+f1_keywords:
+ - "ndis/NdisMDeregisterDmaChannel"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

@@ -8,6 +8,8 @@ ms.assetid: 6950B71D-B396-494E-A23C-EE37B439FD05
 ms.date: 04/16/2018
 ms.keywords: "*PSE_SID, PSE_SID, PSE_SID union pointer [Installable File System Drivers], SE_SID, SE_SID union [Installable File System Drivers], _SE_SID, ifsk.se_sid, ntifs/PSE_SID, ntifs/SE_SID"
 ms.topic: struct
+f1_keywords:
+ - "ntifs/SE_SID"
 req.header: ntifs.h
 req.include-header: 
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: 2412af5a-0dd6-4fe6-86f4-dcd298fbfd63
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
+f1_keywords:
+ - "ntddk/WHEAP_DEFERRED_EVENT"
 ms.keywords: WHEAP_DEFERRED_EVENT, WHEAP_DEFERRED_EVENT, *PWHEAP_DEFERRED_EVENT, 
 req.header: ntddk.h
 req.include-header:

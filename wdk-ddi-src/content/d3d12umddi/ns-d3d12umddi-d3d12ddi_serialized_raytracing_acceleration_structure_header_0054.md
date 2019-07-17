@@ -5,6 +5,8 @@ description: Describes the header for a serialized ray tracing acceleration stru
 ms.assetid: a71bb18f-181d-4fd2-a8fa-b411d20440ac
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_SERIALIZED_RAYTRACING_ACCELERATION_STRUCTURE_HEADER_0054"
 ms.keywords: D3D12DDI_SERIALIZED_RAYTRACING_ACCELERATION_STRUCTURE_HEADER_0054, D3D12DDI_SERIALIZED_RAYTRACING_ACCELERATION_STRUCTURE_HEADER_0054, 
 req.header: d3d12umddi.h
 req.include-header:

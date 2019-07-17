@@ -8,6 +8,8 @@ ms.assetid: 6ab11b97-e422-4ce9-b98b-51496974cb47
 ms.date: 05/02/2018
 ms.keywords: NdisMFreeSharedMemory, NdisMFreeSharedMemory function [Network Drivers Starting with Windows Vista], miniport_memory_shared_ref_1aab9bae-ae02-40ba-83ec-1dd880e207cf.xml, ndis/NdisMFreeSharedMemory, netvista.ndismfreesharedmemory
 ms.topic: function
+f1_keywords:
+ - "ndis/NdisMFreeSharedMemory"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

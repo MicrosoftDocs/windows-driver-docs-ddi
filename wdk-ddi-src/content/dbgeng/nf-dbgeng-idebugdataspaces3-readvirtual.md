@@ -8,6 +8,8 @@ ms.assetid: 083b0ab5-e2b9-4dcb-b17d-ab2ebde48665
 ms.date: 05/03/2018
 ms.keywords: IDebugDataSpaces interface [Windows Debugging],ReadVirtual method, IDebugDataSpaces2 interface [Windows Debugging],ReadVirtual method, IDebugDataSpaces2::ReadVirtual, IDebugDataSpaces3 interface [Windows Debugging],ReadVirtual method, IDebugDataSpaces3.ReadVirtual, IDebugDataSpaces3::ReadVirtual, IDebugDataSpaces4 interface [Windows Debugging],ReadVirtual method, IDebugDataSpaces4::ReadVirtual, IDebugDataSpaces::ReadVirtual, IDebugDataSpaces_8f9b4f7a-04c6-4775-9d15-a4e1c56ca48c.xml, ReadVirtual, ReadVirtual method [Windows Debugging], ReadVirtual method [Windows Debugging],IDebugDataSpaces interface, ReadVirtual method [Windows Debugging],IDebugDataSpaces2 interface, ReadVirtual method [Windows Debugging],IDebugDataSpaces3 interface, ReadVirtual method [Windows Debugging],IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces2::ReadVirtual, dbgeng/IDebugDataSpaces3::ReadVirtual, dbgeng/IDebugDataSpaces4::ReadVirtual, dbgeng/IDebugDataSpaces::ReadVirtual, debugger.readvirtual
 ms.topic: method
+f1_keywords:
+ - "dbgeng/IDebugDataSpaces.ReadVirtual"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

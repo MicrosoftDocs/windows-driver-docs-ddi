@@ -8,6 +8,8 @@ ms.assetid: 780ae330-907e-4e77-a5f9-cb44811f289f
 ms.date: 04/20/2018
 ms.keywords: OEMUpgradeRegistry, OEMUpgradeRegistry function [Print Devices], print.oemupgraderegistry, print_obsoletefunctions_5837e384-9879-4909-8dfa-f3c74486bde0.xml, printoem/OEMUpgradeRegistry
 ms.topic: function
+f1_keywords:
+ - "printoem/OEMUpgradeRegistry"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows

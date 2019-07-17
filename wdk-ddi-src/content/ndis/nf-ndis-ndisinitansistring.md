@@ -8,6 +8,8 @@ ms.assetid: e8209781-36b1-4008-94bb-82bdb16f20bf
 ms.date: 05/02/2018
 ms.keywords: NdisInitAnsiString, NdisInitAnsiString macro [Network Drivers Starting with Windows Vista], ndis/NdisInitAnsiString, ndis_string_ref_2d47b8b6-3b3e-48ca-a2be-ee1bca117ef6.xml, netvista.ndisinitansistring
 ms.topic: macro
+f1_keywords:
+ - "ndis/NdisInitAnsiString"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

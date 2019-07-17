@@ -5,6 +5,8 @@ description: The AddParentModel method adds a new parent model to the given obje
 ms.assetid: 9e84b804-6d72-41e1-a548-edf726c669fc
 ms.date: 08/08/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IModelObject.AddParentModel"
 ms.keywords: IModelObject::AddParentModel, AddParentModel, IModelObject.AddParentModel, IModelObject::AddParentModel, IModelObject.AddParentModel
 req.header: dbgmodel.h
 req.include-header:

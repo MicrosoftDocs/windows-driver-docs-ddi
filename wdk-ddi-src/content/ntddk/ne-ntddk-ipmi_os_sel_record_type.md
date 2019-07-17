@@ -8,6 +8,8 @@ ms.assetid: 4de0fd97-77ec-4e9a-bc0d-ae214718f472
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: enum
+f1_keywords:
+ - "ntddk/IPMI_OS_SEL_RECORD_TYPE"
 ms.keywords: IPMI_OS_SEL_RECORD_TYPE, IPMI_OS_SEL_RECORD_TYPE, *PIPMI_OS_SEL_RECORD_TYPE, 
 req.header: ntddk.h
 req.include-header:

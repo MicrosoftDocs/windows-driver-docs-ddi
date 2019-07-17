@@ -5,6 +5,8 @@ description: The EnumerateBreakpoints method returns an enumerator capable of en
 ms.assetid: 9b4c5b34-ce0f-49dc-b53b-1d24e48a1c6b
 ms.date: 08/21/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDataModelScriptDebug.EnumerateBreakpoints"
 ms.keywords: IDataModelScriptDebug::EnumerateBreakpoints, EnumerateBreakpoints, IDataModelScriptDebug.EnumerateBreakpoints, IDataModelScriptDebug::EnumerateBreakpoints, IDataModelScriptDebug.EnumerateBreakpoints
 req.header: dbgmodel.h
 req.include-header:

@@ -8,6 +8,8 @@ ms.assetid: 5206CEEB-C1EF-4AE0-B4BC-52E8D85AD706
 ms.date: 04/23/2018
 ms.keywords: "*PBDA_IPv4_ADDRESS, BDA_IPv4_ADDRESS, BDA_IPv4_ADDRESS structure [Streaming Media Devices], PBDA_IPv4_ADDRESS, PBDA_IPv4_ADDRESS structure pointer [Streaming Media Devices], _BDA_IPv4_ADDRESS, bdatypes/BDA_IPv4_ADDRESS, bdatypes/PBDA_IPv4_ADDRESS, stream.bda_ipv4_address"
 ms.topic: struct
+f1_keywords:
+ - "bdatypes/BDA_IPv4_ADDRESS"
 req.header: bdatypes.h
 req.include-header: 
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: 9F50CA34-DDEA-49E4-8149-B92D00476720
 ms.date: 04/23/2018
 ms.keywords: 2/SERCX2_TRANSACTION_TYPE, 2/SerCx2TransactionTypeCustom, 2/SerCx2TransactionTypeDefault, 2/SerCx2TransactionTypePio, 2/SerCx2TransactionTypeSystemDma, SERCX2_TRANSACTION_TYPE, SERCX2_TRANSACTION_TYPE enumeration [Serial Ports], SerCx2TransactionTypeCustom, SerCx2TransactionTypeDefault, SerCx2TransactionTypePio, SerCx2TransactionTypeSystemDma, _SERCX2_TRANSACTION_TYPE, serports.sercx2_transaction_type
 ms.topic: enum
+f1_keywords:
+ - "sercx/SERCX2_TRANSACTION_TYPE"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Windows

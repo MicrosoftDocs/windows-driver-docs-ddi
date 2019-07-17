@@ -8,6 +8,8 @@ ms.assetid: 9c6d3856-702c-416b-a5d2-b3578a55bbcd
 ms.date: 04/23/2018
 ms.keywords: AVStrMiniInitializeAllocator, AVStrMiniInitializeAllocator routine [Streaming Media Devices], PFNKSPININITIALIZEALLOCATOR, avstclbk_979c0a29-7e4b-463c-8ff3-62124b0d49d1.xml, ks/AVStrMiniInitializeAllocator, stream.avstrminiinitializeallocator
 ms.topic: callback
+f1_keywords:
+ - "ks/AVStrMiniInitializeAllocator"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop

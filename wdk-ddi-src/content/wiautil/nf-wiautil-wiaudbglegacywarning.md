@@ -8,6 +8,8 @@ ms.assetid: 5da7c762-ad5c-45bd-aebe-dc3526005569
 ms.date: 05/03/2018
 ms.keywords: image.wiaudbglegacywarning, wiauDbgLegacyWarning, wiauDbgLegacyWarning function [Imaging Devices], wiauFncs_03dcc80b-0d36-4130-a05d-bb407cd813cb.xml, wiautil/wiauDbgLegacyWarning
 ms.topic: function
+f1_keywords:
+ - "wiautil/wiauDbgLegacyWarning"
 req.header: wiautil.h
 req.include-header: Wiautil.h
 req.target-type: Desktop

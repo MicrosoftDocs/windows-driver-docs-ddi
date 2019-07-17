@@ -8,6 +8,8 @@ ms.assetid: bb83318c-b14f-421a-9cd4-69e270b825c7
 ms.date: 04/30/2018
 ms.keywords: SeSinglePrivilegeCheck, SeSinglePrivilegeCheck routine [Kernel-Mode Driver Architecture], k110_ee767278-7c5f-4dcd-b328-e9219b453a84.xml, kernel.sesingleprivilegecheck, ntddk/SeSinglePrivilegeCheck
 ms.topic: function
+f1_keywords:
+ - "ntddk/SeSinglePrivilegeCheck"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal

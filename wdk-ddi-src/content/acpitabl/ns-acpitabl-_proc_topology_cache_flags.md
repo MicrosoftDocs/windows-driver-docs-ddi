@@ -5,6 +5,8 @@ description: Defines the processor topology cache flags structure.
 ms.assetid: 8ecf42fd-1d73-43b3-b642-16bbd5367809
 ms.date: 10/01/2018
 ms.topic: struct
+f1_keywords:
+ - "acpitabl/_PROC_TOPOLOGY_CACHE_FLAGS"
 ms.keywords: _PROC_TOPOLOGY_CACHE_FLAGS, PROC_TOPOLOGY_CACHE_FLAGS, *PPROC_TOPOLOGY_CACHE_FLAGS, 
 req.header: acpitabl.h
 req.include-header:

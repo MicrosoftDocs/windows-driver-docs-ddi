@@ -5,6 +5,8 @@ description: The command list functions for video processing.
 ms.assetid: 8a0bc132-117d-47cf-8d7b-bd16d2280304
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_PROCESS_0043"
 ms.keywords: D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_PROCESS_0043, D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_PROCESS_0043,
 req.header: d3d12umddi.h
 req.include-header:

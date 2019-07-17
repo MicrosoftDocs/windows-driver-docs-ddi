@@ -8,6 +8,8 @@ ms.assetid: 7dcb7dd4-8d35-4715-806a-3886fe484366
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
+f1_keywords:
+ - "wdm/PGET_COMMON_BUFFER_FROM_VECTOR_BY_INDEX"
 req.header: wdm.h
 req.include-header:
 req.target-type:

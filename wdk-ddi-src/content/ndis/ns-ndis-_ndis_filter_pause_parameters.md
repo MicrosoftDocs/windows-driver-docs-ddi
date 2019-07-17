@@ -8,6 +8,8 @@ ms.assetid: 070c6d5d-9942-4bff-8894-9aa69d5e7983
 ms.date: 05/02/2018
 ms.keywords: "*PNDIS_FILTER_PAUSE_PARAMETERS, NDIS_FILTER_PAUSE_PARAMETERS, NDIS_FILTER_PAUSE_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_FILTER_PAUSE_PARAMETERS, PNDIS_FILTER_PAUSE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_FILTER_PAUSE_PARAMETERS, filter_structures_ref_78bd5df6-c235-4af1-9b2f-1ddce38a0017.xml, ndis/NDIS_FILTER_PAUSE_PARAMETERS, ndis/PNDIS_FILTER_PAUSE_PARAMETERS, netvista.ndis_filter_pause_parameters"
 ms.topic: struct
+f1_keywords:
+ - "ndis/NDIS_FILTER_PAUSE_PARAMETERS"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

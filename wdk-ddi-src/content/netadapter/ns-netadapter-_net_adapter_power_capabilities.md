@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: ffd56d81-ed07-4c28-bbb3-dd872f935da3
 ms.date: 02/06/2018
 ms.topic: struct
+f1_keywords:
+ - "netadapter/NET_ADAPTER_POWER_CAPABILITIES"
 ms.keywords: _NET_ADAPTER_POWER_CAPABILITIES, *PNET_ADAPTER_POWER_CAPABILITIES, NET_ADAPTER_POWER_CAPABILITIES, 
 req.header: netadapter.h
 req.include-header:

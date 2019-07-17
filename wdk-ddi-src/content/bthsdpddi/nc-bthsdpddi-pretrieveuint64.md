@@ -8,6 +8,8 @@ ms.assetid: cc19dd43-447d-47c7-966e-aeb8ca792aa7
 ms.date: 04/27/2018
 ms.keywords: PRETRIEVEUINT64, PRETRIEVEUINT64 callback, SdpRetrieveUint64, SdpRetrieveUint64 callback function [Bluetooth Devices], bltooth.sdpretrieveuint64, bth_funcs_1c4d2098-38e4-488f-bb47-d2923a3c1dfc.xml, sdplib/SdpRetrieveUint64
 ms.topic: callback
+f1_keywords:
+ - "bthsdpddi/SdpRetrieveUint128"
 req.header: bthsdpddi.h
 req.include-header: BthSdpddi.h
 req.target-type: Desktop

@@ -8,6 +8,8 @@ ms.assetid: 3b285a32-c1bc-4103-aa2e-0f6c8f5cc7ec
 ms.date: 04/27/2018
 ms.keywords: PCONVERTSTREAMTOTREE, PCONVERTSTREAMTOTREE callback, SdpConvertStreamToTree, SdpConvertStreamToTree callback function [Bluetooth Devices], bltooth.sdpconvertstreamtotree, bth_funcs_7155961d-c993-428b-a16e-4fdcf85e28c2.xml, bthsdpddi/SdpConvertStreamToTree
 ms.topic: callback
+f1_keywords:
+ - "bthsdpddi/SdpConvertStreamToTree"
 req.header: bthsdpddi.h
 req.include-header: BthSdpddi.h
 req.target-type: Desktop

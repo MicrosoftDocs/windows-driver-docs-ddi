@@ -8,6 +8,8 @@ ms.assetid: ab9ad8ee-9390-41a4-9a69-2e98579b2b77
 ms.date: 05/10/2018
 ms.keywords: PFN_STOP_MIRACAST_SESSION, PFN_STOP_MIRACAST_SESSION callback, StopMiracastSession, StopMiracastSession callback function [Display Devices], display.stopmiracastsession, netdispumdddi/StopMiracastSession
 ms.topic: callback
+f1_keywords:
+ - "netdispumdddi/StopMiracastSession"
 req.header: netdispumdddi.h
 req.include-header: Netdispumdddi.h
 req.target-type: Desktop

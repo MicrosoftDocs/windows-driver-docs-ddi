@@ -8,6 +8,8 @@ ms.assetid: 65A397AE-B835-4043-9A81-24055901310B
 ms.date: 02/16/2018
 ms.keywords: "*PDOT11_VWIFI_COMBINATION_V3, DOT11_VWIFI_COMBINATION_V3, DOT11_VWIFI_COMBINATION_V3 structure [Network Drivers Starting with Windows Vista], PDOT11_VWIFI_COMBINATION_V3, PDOT11_VWIFI_COMBINATION_V3 structure pointer [Network Drivers Starting with Windows Vista], _DOT11_VWIFI_COMBINATION_V3, netvista.dot11_vwifi_combination_v3, windot11/DOT11_VWIFI_COMBINATION_V3, windot11/PDOT11_VWIFI_COMBINATION_V3"
 ms.topic: struct
+f1_keywords:
+ - "windot11/DOT11_VWIFI_COMBINATION_V3"
 req.header: windot11.h
 req.include-header: Windot11.h
 req.target-type: Windows

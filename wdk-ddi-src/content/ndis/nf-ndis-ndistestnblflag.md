@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 39001bdc-f751-4c77-983c-3495efd46c87
 ms.date: 04/16/2018
 ms.topic: macro
+f1_keywords:
+ - "ndis/NdisTestNblFlag"
 ms.keywords: NdisTestNblFlag
 req.header: ndis.h
 req.include-header:

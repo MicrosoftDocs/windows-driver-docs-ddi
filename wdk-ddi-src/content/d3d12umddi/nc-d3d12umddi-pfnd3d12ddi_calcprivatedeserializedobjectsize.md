@@ -6,6 +6,8 @@ tech.root: display
 ms.assetid: a51ef44d-3323-4458-b03f-c5babe4ecc40
 ms.date: 11/28/2018
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_CALCPRIVATEDESERIALIZEDOBJECTSIZE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 req.header: d3d12umddi.h

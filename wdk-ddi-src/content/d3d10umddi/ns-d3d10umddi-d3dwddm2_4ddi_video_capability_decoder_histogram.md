@@ -5,6 +5,8 @@ description: Data structure for the associated D3DWDDM2_4DDI_VIDEO_CAPABILITY_QU
 ms.assetid: 612d483a-fc73-4781-a84c-dd9bbb8b0dd6
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3d10umddi/D3DWDDM2_4DDI_VIDEO_CAPABILITY_DECODER_HISTOGRAM"
 ms.keywords: D3DWDDM2_4DDI_VIDEO_CAPABILITY_DECODER_HISTOGRAM, D3DWDDM2_4DDI_VIDEO_CAPABILITY_DECODER_HISTOGRAM,
 req.header: d3d10umddi.h
 req.include-header:

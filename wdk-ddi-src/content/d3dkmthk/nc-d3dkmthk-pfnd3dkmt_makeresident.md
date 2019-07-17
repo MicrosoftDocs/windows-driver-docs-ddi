@@ -5,6 +5,8 @@ description: Pfnd3dkmtMakeresident adds a resource to the device residency list 
 ms.assetid: bbcacf12-0a1c-4945-b315-ff7024933ed3
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/PFND3DKMT_MAKERESIDENT"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

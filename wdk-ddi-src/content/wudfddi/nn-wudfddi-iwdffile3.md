@@ -8,6 +8,8 @@ ms.assetid: 67F55A00-2DE4-4ECE-8DAF-BBCBB156454E
 ms.date: 02/26/2018
 ms.keywords: IWDFFile3, IWDFFile3 interface, IWDFFile3 interface,described, umdf.iwdffile3, wdf.iwdffile3, wudfddi/IWDFFile3
 ms.topic: interface
+f1_keywords:
+ - "wudfddi/IWDFFile3"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Desktop

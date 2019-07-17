@@ -8,6 +8,8 @@ ms.assetid: e061c8c3-b0f9-4341-b064-91df43303f70
 ms.date: 04/16/2018
 ms.keywords: FltApiRef_e_to_o_677ca3fc-8c9e-4e3e-8ed4-00a25779913d.xml, FltFreeDeferredIoWorkItem, FltFreeDeferredIoWorkItem routine [Installable File System Drivers], fltkernel/FltFreeDeferredIoWorkItem, ifsk.fltfreedeferredioworkitem
 ms.topic: function
+f1_keywords:
+ - "fltkernel/FltFreeDeferredIoWorkItem"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

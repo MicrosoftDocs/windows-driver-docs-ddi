@@ -8,6 +8,8 @@ ms.assetid: be13bf95-eae9-4ae4-b5f3-cc1bdf3acd02
 ms.date: 04/30/2019
 ms.keywords: "*PKSPROPERTY_ALLOCATOR_CONTROL_CAPTURE_CAPS_S, KSPROPERTY_ALLOCATOR_CONTROL_CAPTURE_CAPS_S, KSPROPERTY_ALLOCATOR_CONTROL_CAPTURE_CAPS_S structure [Streaming Media Devices], PKSPROPERTY_ALLOCATOR_CONTROL_CAPTURE_CAPS_S, PKSPROPERTY_ALLOCATOR_CONTROL_CAPTURE_CAPS_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_ALLOCATOR_CONTROL_CAPTURE_CAPS_S, ksmedia/PKSPROPERTY_ALLOCATOR_CONTROL_CAPTURE_CAPS_S, stream.ksproperty_allocator_control_capture_caps_s, vidcapstruct_705f4e1a-dc90-446d-bf3c-97fe454db939.xml"
 ms.topic: struct
+f1_keywords:
+ - "ksmedia/KSPROPERTY_ALLOCATOR_CONTROL_CAPTURE_CAPS_S"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows

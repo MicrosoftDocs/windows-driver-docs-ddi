@@ -8,6 +8,8 @@ ms.assetid: f17eb108-58d1-4640-a0cc-ae568b0c844c
 ms.date: 04/16/2018
 ms.keywords: ContextCleanupCallback, ContextCleanupCallback routine [Installable File System Drivers], FltCallbacks_870edcbe-dbd7-4fad-b4f3-628bffe6fb44.xml, PFLT_CONTEXT_CLEANUP_CALLBACK, fltkernel/ContextCleanupCallback, ifsk.pflt_context_cleanup_callback
 ms.topic: callback
+f1_keywords:
+ - "fltkernel/ContextCleanupCallback"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Desktop

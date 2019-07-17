@@ -8,6 +8,8 @@ ms.assetid: 0474a8dc-e2e3-4c84-8058-6229bf0e9d62
 ms.date: 05/03/2018
 ms.keywords: IsPtr64, IsPtr64 function [Windows Debugging], WdbgExts_Ref_488f3445-c3ae-4847-8e3b-cf3892dcd365.xml, debugger.isptr64, wdbgexts/IsPtr64
 ms.topic: function
+f1_keywords:
+ - "wdbgexts/IsPtr64"
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop

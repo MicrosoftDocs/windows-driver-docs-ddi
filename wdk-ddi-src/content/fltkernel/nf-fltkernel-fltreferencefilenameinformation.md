@@ -8,6 +8,8 @@ ms.assetid: d2df37f3-78f7-4e44-9139-2c2e569bb48d
 ms.date: 04/16/2018
 ms.keywords: FltApiRef_p_to_z_c6cfa7ad-ac72-45ad-9750-c466dd6ede6e.xml, FltReferenceFileNameInformation, FltReferenceFileNameInformation function [Installable File System Drivers], fltkernel/FltReferenceFileNameInformation, ifsk.fltreferencefilenameinformation
 ms.topic: function
+f1_keywords:
+ - "fltkernel/FltReferenceFileNameInformation"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

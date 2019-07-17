@@ -8,6 +8,8 @@ ms.assetid: 362C6F7C-7B92-43A8-9BD0-F647FDD266E4
 ms.date: 02/26/2018
 ms.keywords: WdfDeviceWdmDispatchIrp, WdfDeviceWdmDispatchIrp method, kmdf.wdfdevicewdmdispatchirp, wdf.wdfdevicewdmdispatchirp, wdfdevice/WdfDeviceWdmDispatchIrp
 ms.topic: function
+f1_keywords:
+ - "wdfdevice/WdfDeviceWdmDispatchIrp"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

@@ -5,6 +5,8 @@ description: Destroys a command signature.
 ms.assetid: c114db95-eabb-4bd0-af4f-d4b72032442b
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_DESTROY_COMMAND_SIGNATURE"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

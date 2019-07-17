@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: eb6bb249-54ae-4aaf-afa0-a5aa68dd2606
 ms.date: 08/01/2018
 ms.topic: function
+f1_keywords:
+ - "netadapter/NetAdapterInitSetDatapathCallbacks"
 ms.keywords: NetAdapterInitSetDatapathCallbacks
 req.header: netadapter.h
 req.include-header:

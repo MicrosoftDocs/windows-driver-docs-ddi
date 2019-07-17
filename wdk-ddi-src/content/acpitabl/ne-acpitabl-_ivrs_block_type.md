@@ -5,6 +5,8 @@ description: Enumerates the I/O Virtualization Reporting Structure (IVRS) block 
 ms.assetid: 9b75046e-01a5-40d1-ab5c-3dcc5a6a7b3a
 ms.date: 10/01/2018
 ms.topic: enum
+f1_keywords:
+ - "acpitabl/_IVRS_BLOCK_TYPE"
 ms.keywords: _IVRS_BLOCK_TYPE, IVRS_BLOCK_TYPE, 
 req.header: acpitabl.h
 req.include-header:

@@ -8,6 +8,8 @@ ms.assetid: bfeaff04-6dd2-4889-9ab3-f20361dc2f5c
 ms.date: 05/02/2018
 ms.keywords: "*LPRILEMERGENCYNUMBERSLIST, RILEMERGENCYNUMBERSLIST, RILEMERGENCYNUMBERSLIST structure [Network Drivers Starting with Windows Vista], netvista.rilemergencynumberslist, ntddrilapitypes/RILEMERGENCYNUMBERSLIST"
 ms.topic: struct
+f1_keywords:
+ - "ntddrilapitypes/RILEMERGENCYNUMBERSLIST"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

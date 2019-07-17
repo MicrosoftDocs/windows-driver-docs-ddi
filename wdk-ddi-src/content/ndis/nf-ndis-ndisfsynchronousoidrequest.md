@@ -8,6 +8,8 @@ ms.assetid: 01B625EB-AB6D-496F-95F2-22845460324A
 ms.date: 05/02/2018
 ms.keywords: NdisFSynchronousOidRequest, NdisFSynchronousOidRequest function [Network Drivers Starting with Windows Vista], ndis/NdisFSynchronousOidRequest, netvista.ndisfsynchronousoidrequest
 ms.topic: function
+f1_keywords:
+ - "ndis/NdisFSynchronousOidRequest"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

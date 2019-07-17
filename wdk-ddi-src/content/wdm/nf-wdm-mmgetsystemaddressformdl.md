@@ -8,6 +8,8 @@ ms.assetid: e5366a28-a541-47bb-b158-af676ad46273
 ms.date: 04/30/2018
 ms.keywords: MmGetSystemAddressForMdl, MmGetSystemAddressForMdl routine [Kernel-Mode Driver Architecture], k106_fc92914d-81c3-4ae9-a12d-86003d55bb4d.xml, kernel.mmgetsystemaddressformdl, wdm/MmGetSystemAddressForMdl
 ms.topic: macro
+f1_keywords:
+ - "wdm/MmGetSystemAddressForMdl"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop

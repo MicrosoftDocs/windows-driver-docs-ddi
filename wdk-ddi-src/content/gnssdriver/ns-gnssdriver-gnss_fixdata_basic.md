@@ -8,6 +8,8 @@ ms.assetid: D293366B-13FA-438E-BEBD-1F0EAA693400
 ms.date: 02/15/2018
 ms.keywords: "*PGNSS_FIXDATA_BASIC, GNSS_FIXDATA_BASIC, GNSS_FIXDATA_BASIC structure [Sensor Devices], PGNSS_FIXDATA_BASIC, PGNSS_FIXDATA_BASIC structure pointer [Sensor Devices], gnss.gnss_fixdata_basic, gnssdriver/GNSS_FIXDATA_BASIC, gnssdriver/PGNSS_FIXDATA_BASIC"
 ms.topic: struct
+f1_keywords:
+ - "gnssdriver/GNSS_FIXDATA_BASIC"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: dc594873-2347-4ad8-9748-2d5a1fa4d8a7
 ms.date: 04/04/2018
 ms.keywords: IWDTFSimpleIOStressAction2, IWDTFSimpleIOStressAction2 interface [Windows Device Testing Framework], IWDTFSimpleIOStressAction2 interface [Windows Device Testing Framework],described, Microsoft.WDTF.IWDTFSimpleIOStressAction2, dtf.iwdtfsimpleiostressaction2, wdtfinterfaces/IWDTFSimpleIOStressAction2
 ms.topic: interface
+f1_keywords:
+ - "wdtfinterfaces/IWDTFSimpleIOStressAction2"
 req.header: wdtfinterfaces.h
 req.include-header: 
 req.target-type: Windows

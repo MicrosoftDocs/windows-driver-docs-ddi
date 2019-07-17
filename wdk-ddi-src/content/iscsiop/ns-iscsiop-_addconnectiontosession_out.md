@@ -8,6 +8,8 @@ ms.assetid: 9c7df21b-c7cd-4492-b457-6c2e82286961
 ms.date: 03/29/2018
 ms.keywords: "*PAddConnectionToSession_OUT, AddConnectionToSession_OUT, AddConnectionToSession_OUT structure [Storage Devices], PAddConnectionToSession_OUT, PAddConnectionToSession_OUT structure pointer [Storage Devices], _AddConnectionToSession_OUT, iscsiop/AddConnectionToSession_OUT, iscsiop/PAddConnectionToSession_OUT, storage.addconnectiontosession_out, structs-iSCSI_d630117d-61cb-4c93-97c3-2a0c0b13b04c.xml"
 ms.topic: struct
+f1_keywords:
+ - "iscsiop/AddConnectionToSession_OUT"
 req.header: iscsiop.h
 req.include-header: Iscsiop.h
 req.target-type: Windows

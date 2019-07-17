@@ -5,6 +5,8 @@ description: Resets the tracked workload to its initial state and resets all the
 ms.assetid: 4c219825-093b-4cf9-998d-7b8363ba2b45
 ms.date: 10/19/2018
 ms.topic: function
+f1_keywords:
+ - "d3dkmthk/D3DKMTResetTrackedWorkload"
 ms.keywords: D3DKMTResetTrackedWorkload
 req.header: d3dkmthk.h
 req.include-header:

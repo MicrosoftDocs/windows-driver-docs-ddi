@@ -5,6 +5,8 @@ description: The CreateMetadataStore method creates a key store which is used to
 ms.assetid: e2b707f0-3901-4bf4-8f47-68ab79f6999b
 ms.date: 07/20/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDataModelManager.CreateMetadataStore"
 ms.keywords: IDataModelManager::CreateMetadataStore, CreateMetadataStore, IDataModelManager.CreateMetadataStore, IDataModelManager::CreateMetadataStore, IDataModelManager.CreateMetadataStore
 req.header: dbgmodel.h
 req.include-header:

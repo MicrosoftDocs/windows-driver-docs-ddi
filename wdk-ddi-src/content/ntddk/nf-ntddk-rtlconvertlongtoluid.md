@@ -8,6 +8,8 @@ ms.assetid: bc03feaf-ee98-4b47-a659-809b5b8b9364
 ms.date: 04/30/2018
 ms.keywords: RtlConvertLongToLuid, RtlConvertLongToLuid routine [Kernel-Mode Driver Architecture], k109_be3bfbe0-7a0b-43e3-a22e-2cd6e5a92f2e.xml, kernel.rtlconvertlongtoluid, ntddk/RtlConvertLongToLuid
 ms.topic: function
+f1_keywords:
+ - "ntddk/RtlConvertLongToLuid"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Desktop

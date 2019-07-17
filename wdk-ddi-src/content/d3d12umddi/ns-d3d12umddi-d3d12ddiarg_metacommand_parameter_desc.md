@@ -5,6 +5,8 @@ description: Contains information about a meta-command parameter.
 ms.assetid: 9d97a834-e7f9-4a81-8008-4145acc17e23
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3d12umddi/D3D12DDIARG_METACOMMAND_PARAMETER_DESC"
 ms.keywords: D3D12DDIARG_METACOMMAND_PARAMETER_DESC, D3D12DDIARG_METACOMMAND_PARAMETER_DESC,
 req.header: d3d12umddi.h
 req.include-header:

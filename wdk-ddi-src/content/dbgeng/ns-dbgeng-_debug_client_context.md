@@ -8,6 +8,8 @@ ms.assetid: 69CE0535-3ADD-481C-A016-695A7303BBA5
 ms.date: 05/03/2018
 ms.keywords: "*PDEBUG_CLIENT_CONTEXT, DEBUG_CLIENT_CONTEXT, DEBUG_CLIENT_CONTEXT structure [Windows Debugging], PDEBUG_CLIENT_CONTEXT, PDEBUG_CLIENT_CONTEXT structure pointer [Windows Debugging], _DEBUG_CLIENT_CONTEXT, dbgeng/DEBUG_CLIENT_CONTEXT, dbgeng/PDEBUG_CLIENT_CONTEXT, debugger.debug_client_context"
 ms.topic: struct
+f1_keywords:
+ - "dbgeng/DEBUG_CLIENT_CONTEXT"
 req.header: dbgeng.h
 req.include-header: DbgEng.h
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: 456e2354-1362-43f7-a2b0-3b3bec49b522
 ms.date: 04/16/2018
 ms.keywords: IoGetRequestorProcess, IoGetRequestorProcess routine [Installable File System Drivers], ifsk.iogetrequestorprocess, ioref_5c1e0075-08db-4db9-aa0c-fa28dced1202.xml, ntifs/IoGetRequestorProcess
 ms.topic: function
+f1_keywords:
+ - "ntifs/IoGetRequestorProcess"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

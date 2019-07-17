@@ -5,6 +5,8 @@ description: Updates the tracked workload.
 ms.assetid: db657857-c080-4938-8c87-883bc28cd96a
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/PFND3DKMT_UPDATETRACKEDWORKLOAD"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

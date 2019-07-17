@@ -5,6 +5,8 @@ description: Returns the type (that is "int *") of the symbol if the symbol has 
 ms.assetid: 1cde171b-5adb-4447-b423-313874706cf3
 ms.date: 09/21/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDebugHostConstant.GetType"
 ms.keywords: IDebugHostConstant::GetType, GetType, IDebugHostConstant.GetType, IDebugHostConstant::GetType, IDebugHostConstant.GetType
 req.header: dbgmodel.h
 req.include-header:

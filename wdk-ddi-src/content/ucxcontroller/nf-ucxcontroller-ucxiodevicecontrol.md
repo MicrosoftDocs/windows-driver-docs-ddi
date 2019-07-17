@@ -8,6 +8,8 @@ ms.assetid: 7C1DD018-2EDF-48BB-8DFC-ADAF72A1909D
 ms.date: 05/07/2018
 ms.keywords: UcxIoDeviceControl, UcxIoDeviceControl method [Buses], buses._ucxiodevicecontrol, ucxcontroller/UcxIoDeviceControl
 ms.topic: function
+f1_keywords:
+ - "ucxcontroller/UcxIoDeviceControl"
 req.header: ucxcontroller.h
 req.include-header: Ucxclass.h
 req.target-type: Windows

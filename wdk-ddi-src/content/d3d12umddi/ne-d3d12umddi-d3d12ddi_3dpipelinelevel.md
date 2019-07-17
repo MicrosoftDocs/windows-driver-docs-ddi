@@ -8,6 +8,8 @@ ms.assetid: 39150f42-529e-4d79-bd70-10984a6783b0
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
 ms.topic: enum
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_3DPIPELINELEVEL"
 ms.keywords: D3D12DDI_3DPIPELINELEVEL, D3D12DDI_3DPIPELINELEVEL, 
 ms.prod: windows-hardware
 ms.technology: windows-devices

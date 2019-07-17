@@ -8,6 +8,8 @@ ms.assetid: 6f9b7636-8808-4783-bba7-70b31ae08238
 ms.date: 05/03/2018
 ms.keywords: EngExtCpp_Ref_2d9d9c48-9c19-4aa7-b0c5-852643eadcee.xml, ExtExtension class [Windows Debugging],OnSessionInactive method, ExtExtension.OnSessionInactive, ExtExtension::OnSessionInactive, OnSessionInactive, OnSessionInactive method [Windows Debugging], OnSessionInactive method [Windows Debugging],ExtExtension class, debugger.onsessioninactive
 ms.topic: method
+f1_keywords:
+ - "engextcpp/ExtExtension.OnSessionInactive"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop

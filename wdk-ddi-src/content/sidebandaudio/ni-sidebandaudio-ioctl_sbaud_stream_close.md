@@ -5,6 +5,8 @@ description:
 ms.assetid: 852d6e11-0845-46bc-9820-b1e1be891da7
 ms.date: 10/05/2018
 ms.topic: ioctl
+f1_keywords:
+ - "sidebandaudio/IOCTL_SBAUD_STREAM_CLOSE"
 req.header: sidebandaudio.h
 req.include-header:
 req.target-type:

@@ -8,6 +8,8 @@ ms.assetid: 4192501F-5A30-463C-924D-CD4F2C8C3764
 ms.date: 05/07/2018
 ms.keywords: IOCTL_USB_REGISTER_FOR_TRANSPORT_CHARACTERISTICS_CHANGE, IOCTL_USB_REGISTER_FOR_TRANSPORT_CHARACTERISTICS_CHANGE control, IOCTL_USB_REGISTER_FOR_TRANSPORT_CHARACTERISTICS_CHANGE control code [Buses], buses.ioctl_usb_register_for_transport_characteristics_change, usbioctl/IOCTL_USB_REGISTER_FOR_TRANSPORT_CHARACTERISTICS_CHANGE
 ms.topic: ioctl
+f1_keywords:
+ - "usbioctl/IOCTL_USB_REGISTER_FOR_TRANSPORT_CHARACTERISTICS_CHANGE"
 req.header: usbioctl.h
 req.include-header: 
 req.target-type: Windows

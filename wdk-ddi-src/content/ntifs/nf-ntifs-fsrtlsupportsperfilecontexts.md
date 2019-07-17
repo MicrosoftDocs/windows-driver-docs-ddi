@@ -8,6 +8,8 @@ ms.assetid: 28f0e98f-1f7b-4dcf-8151-e13981634617
 ms.date: 04/16/2018
 ms.keywords: FsRtlSupportsPerFileContexts, FsRtlSupportsPerFileContexts , FsRtlSupportsPerFileContexts function [Installable File System Drivers], fsrtlref_98e99a7a-c80d-43d5-a0f6-3eea35a8d20a.xml, ifsk.fsrtlsupportsperfilecontexts, ntifs/FsRtlSupportsPerFileContexts
 ms.topic: macro
+f1_keywords:
+ - "ntifs/FsRtlSupportsPerFileContexts"
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Desktop

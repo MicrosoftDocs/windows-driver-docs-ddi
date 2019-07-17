@@ -8,6 +8,8 @@ ms.assetid: F403179A-B339-432D-AAF9-E7D9965F8B00
 ms.date: 05/07/2018
 ms.keywords: "*PUSBDEVICE_HUB_INFO, P_USBDEVICE_HUB_INFO, P_USBDEVICE_HUB_INFO structure pointer [Buses], USBDEVICE_HUB_INFO, USBDEVICE_HUB_INFO structure [Buses], _USBDEVICE_HUB_INFO, buses._usbdevice_hub_info, ucxusbdevice/P_USBDEVICE_HUB_INFO, ucxusbdevice/_USBDEVICE_HUB_INFO"
 ms.topic: struct
+f1_keywords:
+ - "ucxusbdevice/USBDEVICE_HUB_INFO"
 req.header: ucxusbdevice.h
 req.include-header: Ucxclass.h
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: 7158cd6c-a662-46e8-bb7c-ea852797c39e
 ms.date: 05/10/2018
 ms.keywords: PDRIVER_IO_PORT_UCHAR_STRING, PDRIVER_IO_PORT_UCHAR_STRING callback, SvgaHwIoPortUcharString, SvgaHwIoPortUcharString callback function [Display Devices], VideoMiniport_Functions_4008d0c6-1185-46fd-acb1-60a8ddd3b45b.xml, display.svgahwioportucharstring, video/SvgaHwIoPortUcharString
 ms.topic: callback
+f1_keywords:
+ - "video/SvgaHwIoPortUcharString"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

@@ -8,6 +8,8 @@ ms.assetid: 50a0c8c9-06c6-48c9-a799-0949cf415f6e
 ms.date: 02/26/2018
 ms.keywords: IWDFUsbRequestCompletionParams, IWDFUsbRequestCompletionParams interface, IWDFUsbRequestCompletionParams interface,described, UMDFRequestObjectRef_f55ce370-f488-405f-a104-9a85fcab6cbb.xml, umdf.iwdfusbrequestcompletionparams, wdf.iwdfusbrequestcompletionparams, wudfusb/IWDFUsbRequestCompletionParams
 ms.topic: interface
+f1_keywords:
+ - "wudfusb/IWDFUsbRequestCompletionParams"
 req.header: wudfusb.h
 req.include-header: 
 req.target-type: Desktop

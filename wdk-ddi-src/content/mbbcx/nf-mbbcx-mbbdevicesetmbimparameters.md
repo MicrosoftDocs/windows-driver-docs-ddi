@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 87c11c92-f859-4b52-8aa0-7fe461cefc4c
 ms.date: 06/29/2018
 ms.topic: function
+f1_keywords:
+ - "mbbcx/MbbDeviceSetMbimParameters"
 ms.keywords: MbbDeviceSetMbimParameters
 req.header: mbbcx.h
 req.include-header:

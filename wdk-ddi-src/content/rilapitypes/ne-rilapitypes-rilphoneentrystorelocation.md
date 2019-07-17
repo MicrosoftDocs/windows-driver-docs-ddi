@@ -8,6 +8,8 @@ ms.assetid: 2a20e9c8-a8f2-4519-a22b-2444c46ba13a
 ms.date: 05/02/2018
 ms.keywords: RILPHONEENTRYSTORELOCATION, RILPHONEENTRYSTORELOCATION enumeration [Network Drivers Starting with Windows Vista], RIL_PBLOC_ALL, RIL_PBLOC_OWNNUMBERS, RIL_PBLOC_UICCFIXDIALING, RIL_PBLOC_UICCPHONEBOOK, RIL_PBLOC_UICCSERVICEDIALING, netvista.rilphoneentrystorelocation, ntddrilapitypes/RILPHONEENTRYSTORELOCATION, ntddrilapitypes/RIL_PBLOC_ALL, ntddrilapitypes/RIL_PBLOC_OWNNUMBERS, ntddrilapitypes/RIL_PBLOC_UICCFIXDIALING, ntddrilapitypes/RIL_PBLOC_UICCPHONEBOOK, ntddrilapitypes/RIL_PBLOC_UICCSERVICEDIALING
 ms.topic: enum
+f1_keywords:
+ - "rilapitypes/RILPHONEENTRYSTORELOCATION"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 49E330C5-3B2A-4996-97DE-7F34AADD4804
 ms.date: 04/10/2019
 ms.topic: struct
+f1_keywords:
+ - "wwan/_WWAN_PIN_ACTION_EX2"
 ms.keywords: _WWAN_PIN_ACTION_EX2, WWAN_PIN_ACTION_EX2, *PWWAN_PIN_ACTION_EX2, 
 req.header: wwan.h
 req.include-header:

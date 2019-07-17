@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: BA48D00B-4D26-4298-BA39-E87D27F4F299
 ms.date: 04/11/2019
 ms.topic: enum
+f1_keywords:
+ - "wwan/_WWAN_MODEM_LOGGING_LEVEL_CONFIG"
 ms.keywords: _WWAN_MODEM_LOGGING_LEVEL_CONFIG WWAN_MODEM_LOGGING_LEVEL_CONFIG *PWWAN_MODEM_LOGGING_LEVEL_CONFIG 
 req.header: wwan.h
 req.include-header:

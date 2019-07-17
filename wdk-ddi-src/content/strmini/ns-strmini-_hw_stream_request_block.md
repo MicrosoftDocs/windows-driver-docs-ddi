@@ -8,6 +8,8 @@ ms.assetid: e2a19bb1-631d-4160-9980-f3cbeb0b085a
 ms.date: 04/23/2018
 ms.keywords: "*PHW_STREAM_REQUEST_BLOCK, HW_STREAM_REQUEST_BLOCK, HW_STREAM_REQUEST_BLOCK structure [Streaming Media Devices], PHW_STREAM_REQUEST_BLOCK, PHW_STREAM_REQUEST_BLOCK structure pointer [Streaming Media Devices], _HW_STREAM_REQUEST_BLOCK, strclass-struct_4b0da124-b08a-49fe-acbc-9457db500b26.xml, stream.hw_stream_request_block, strmini/HW_STREAM_REQUEST_BLOCK, strmini/PHW_STREAM_REQUEST_BLOCK"
 ms.topic: struct
+f1_keywords:
+ - "strmini/HW_STREAM_REQUEST_BLOCK"
 req.header: strmini.h
 req.include-header: Strmini.h
 req.target-type: Windows

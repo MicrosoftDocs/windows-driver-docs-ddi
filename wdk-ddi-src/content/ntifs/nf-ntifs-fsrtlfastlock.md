@@ -8,6 +8,8 @@ ms.assetid: c3e209b5-9925-4911-8c42-0f15c1c710be
 ms.date: 04/16/2018
 ms.keywords: FsRtlFastLock, FsRtlFastLock function [Installable File System Drivers], fsrtlref_c60db87b-ac5a-4c60-83f2-7381e0156806.xml, ifsk.fsrtlfastlock, ntifs/FsRtlFastLock
 ms.topic: macro
+f1_keywords:
+ - "ntifs/FsRtlFastLock"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Desktop

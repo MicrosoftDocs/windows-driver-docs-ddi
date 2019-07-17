@@ -5,6 +5,8 @@ description: Describes the ACPI PLD interface instance ANSI descriptor buffers, 
 ms.assetid: 07cfe6a5-2680-4d04-8628-701e5a1af0dd
 ms.date: 10/02/2018
 ms.topic: struct
+f1_keywords:
+ - "acpitabl/_ACPI_PLD_INTERFACE_INSTANCE_ANSI_BUFFER"
 ms.keywords: _ACPI_PLD_INTERFACE_INSTANCE_ANSI_BUFFER, ACPI_PLD_INTERFACE_INSTANCE_ANSI_BUFFER, *PACPI_PLD_INTERFACE_INSTANCE_ANSI_BUFFER, 
 req.header: acpitabl.h
 req.include-header:

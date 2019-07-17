@@ -8,6 +8,8 @@ ms.assetid: e538f920-bf9e-484b-acea-f979bb952299
 ms.date: 05/02/2018
 ms.keywords: "*PWWAN_PIN_STATE, PWWAN_PIN_STATE, PWWAN_PIN_STATE enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_PIN_STATE, WWAN_PIN_STATE enumeration [Network Drivers Starting with Windows Vista], WwanPinStateEnter, WwanPinStateMax, WwanPinStateNone, WwanRef_6adb4dc1-c989-45b5-a27c-b553c9a5fdd0.xml, _WWAN_PIN_STATE, netvista.wwan_pin_state, wwan/PWWAN_PIN_STATE, wwan/WWAN_PIN_STATE, wwan/WwanPinStateEnter, wwan/WwanPinStateMax, wwan/WwanPinStateNone"
 ms.topic: enum
+f1_keywords:
+ - "wwan/WWAN_PIN_STATE"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows

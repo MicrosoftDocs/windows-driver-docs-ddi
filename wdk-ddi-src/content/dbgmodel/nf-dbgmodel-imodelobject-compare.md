@@ -5,6 +5,8 @@ description: The Compare method compares two model objects and returns an indica
 ms.assetid: 18bf4d91-bbd6-4c5a-8b21-962fbd94c8fb
 ms.date: 07/20/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IModelObject.Compare"
 ms.keywords: IModelObject::Compare, Compare, IModelObject.Compare, IModelObject::Compare, IModelObject.Compare
 req.header: dbgmodel.h
 req.include-header:

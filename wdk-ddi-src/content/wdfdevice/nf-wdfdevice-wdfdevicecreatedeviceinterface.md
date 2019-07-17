@@ -8,6 +8,8 @@ ms.assetid: cdfe1932-ee3d-41ea-8d7b-85c17c0f1722
 ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_467c4866-4ba7-4450-9aec-e63c3172d604.xml, WdfDeviceCreateDeviceInterface, WdfDeviceCreateDeviceInterface method, kmdf.wdfdevicecreatedeviceinterface, wdf.wdfdevicecreatedeviceinterface, wdfdevice/WdfDeviceCreateDeviceInterface
 ms.topic: function
+f1_keywords:
+ - "wdfdevice/WdfDeviceCreateDeviceInterface"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

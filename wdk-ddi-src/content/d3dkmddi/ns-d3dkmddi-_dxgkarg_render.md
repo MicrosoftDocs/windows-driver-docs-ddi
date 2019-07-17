@@ -7,6 +7,8 @@ ms.assetid: 592553cb-21db-4c8d-b855-d9bc6a2d9579
 ms.date: 05/10/2018
 ms.keywords: "*INOUT_PDXGKARG_RENDER, DXGKARG_RENDER, DXGKARG_RENDER structure [Display Devices], DmStructs_a297ffab-b45d-4c92-820c-0ef11849445e.xml, _DXGKARG_RENDER, d3dkmddi/DXGKARG_RENDER, display.dxgkarg_render"
 ms.topic: struct
+f1_keywords:
+ - "d3dkmddi/DXGKARG_RENDER"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

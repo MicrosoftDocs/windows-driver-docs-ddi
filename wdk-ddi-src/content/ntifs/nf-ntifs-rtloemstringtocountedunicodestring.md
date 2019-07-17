@@ -8,6 +8,8 @@ ms.assetid: bf36d51f-3e22-489b-a597-652f39242a30
 ms.date: 04/16/2018
 ms.keywords: RtlOemStringToCountedUnicodeString, RtlOemStringToCountedUnicodeString routine [Installable File System Drivers], ifsk.rtloemstringtocountedunicodestring, ntifs/RtlOemStringToCountedUnicodeString, rtlref_f67c05d0-0a01-44a7-9718-b3f0ef83b8f0.xml
 ms.topic: function
+f1_keywords:
+ - "ntifs/RtlOemStringToCountedUnicodeString"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

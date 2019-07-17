@@ -8,6 +8,8 @@ ms.assetid: 7f9cff3b-0780-4fc4-8b1a-b0af0506712a
 ms.date: 04/16/2018
 ms.keywords: CcPurgeCacheSection, CcPurgeCacheSection routine [Installable File System Drivers], ccref_587b0f92-f80a-42f2-b3bb-dae27208b796.xml, ifsk.ccpurgecachesection, ntifs/CcPurgeCacheSection
 ms.topic: function
+f1_keywords:
+ - "ntifs/CcPurgeCacheSection"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

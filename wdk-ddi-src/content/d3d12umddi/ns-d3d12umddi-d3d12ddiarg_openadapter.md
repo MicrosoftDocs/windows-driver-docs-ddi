@@ -7,6 +7,8 @@ ms.assetid: 1FABEEBC-358C-40EB-8F5C-F834EE57A1A8
 ms.date: 05/10/2018
 ms.keywords: D3D12DDIARG_OPENADAPTER, D3D12DDIARG_OPENADAPTER structure [Display Devices], d3d12umddi/D3D12DDIARG_OPENADAPTER, display.d3d12ddiarg_openadapter
 ms.topic: struct
+f1_keywords:
+ - "d3d12umddi/D3D12DDIARG_OPENADAPTER"
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: Windows

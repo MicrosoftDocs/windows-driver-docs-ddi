@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: a1e79d2b-fd80-4834-a1bb-a7b6cd6fa5f8
 ms.date: 04/17/2018
 ms.topic: macro
+f1_keywords:
+ - "ntddndis/NDIS_SWITCH_PROPERTY_PARAMETERS_GET_PROPERTY"
 ms.keywords: NDIS_SWITCH_PROPERTY_PARAMETERS_GET_PROPERTY
 req.header: ntddndis.h
 req.include-header: ndis.h

@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: c17368bb-9abd-4d02-a94b-76dfdc344b54
 ms.date: 01/32/2019
 ms.topic: function
+f1_keywords:
+ - "ring/RILWRITEPHONEBOOKENTRYPARAMS"
 ms.keywords: NetRingIncrementIndex
 req.header: ring.h
 req.include-header: netadaptercx.h

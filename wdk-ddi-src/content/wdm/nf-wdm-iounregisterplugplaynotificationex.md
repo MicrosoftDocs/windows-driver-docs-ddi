@@ -8,6 +8,8 @@ ms.assetid: 72545150-5fd8-4770-aab2-b49d80c1e865
 ms.date: 04/30/2018
 ms.keywords: IoUnregisterPlugPlayNotificationEx, IoUnregisterPlugPlayNotificationEx routine [Kernel-Mode Driver Architecture], k104_ed460118-9610-4e7b-98fe-3b1cfee74e4b.xml, kernel.iounregisterplugplaynotificationex, wdm/IoUnregisterPlugPlayNotificationEx
 ms.topic: function
+f1_keywords:
+ - "wdm/IoUnregisterPlugPlayNotificationEx"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

@@ -8,6 +8,8 @@ ms.assetid: 534F736D-906C-48B5-9CEE-0E37459DA03F
 ms.date: 04/30/2018
 ms.keywords: "*PPEP_ACPI_RESOURCE, PEP_ACPI_RESOURCE, PEP_ACPI_RESOURCE union [Kernel-Mode Driver Architecture], PPEP_ACPI_RESOURCE, PPEP_ACPI_RESOURCE union pointer [Kernel-Mode Driver Architecture], _PEP_ACPI_RESOURCE, kernel.pep_acpi_resource, pepfx/PEP_ACPI_RESOURCE, pepfx/PPEP_ACPI_RESOURCE"
 ms.topic: struct
+f1_keywords:
+ - "pep_x/PEP_ACPI_RESOURCE"
 req.header: pep_x.h
 req.include-header: Pep_x.h
 req.target-type: Windows

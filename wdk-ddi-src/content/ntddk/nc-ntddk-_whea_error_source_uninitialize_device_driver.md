@@ -8,6 +8,8 @@ ms.assetid: ee478611-d2a5-4651-b83b-98939cb6a400
 ms.author: windowsdriverdev
 ms.date: 3/5/2019
 ms.topic: callback
+f1_keywords:
+ - "ntddk/_WHEA_ERROR_SOURCE_UNINITIALIZE_DEVICE_DRIVER"
 req.header: ntddk.h
 req.include-header:
 req.target-type:

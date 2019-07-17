@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 37e4f6c5-df94-4af9-9950-b263594c6ead
 ms.date: 02/09/2018
 ms.topic: function
+f1_keywords:
+ - "netrequestqueue/NET_REQUEST_QUEUE_CONFIG_ADD_INITIALIZED_METHOD_HANDLER"
 ms.keywords: NET_REQUEST_QUEUE_CONFIG_ADD_INITIALIZED_METHOD_HANDLER
 req.header: netrequestqueue.h
 req.include-header:

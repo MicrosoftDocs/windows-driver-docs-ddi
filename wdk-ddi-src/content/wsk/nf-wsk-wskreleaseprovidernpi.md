@@ -8,6 +8,8 @@ ms.assetid: 6b0b995a-61db-4bdf-a896-74d91bd192e7
 ms.date: 05/02/2018
 ms.keywords: WskReleaseProviderNPI, WskReleaseProviderNPI function [Network Drivers Starting with Windows Vista], netvista.wskreleaseprovidernpi, wsk/WskReleaseProviderNPI, wskref_1ed7116e-c3a0-41dd-9d19-aa2f44eae257.xml
 ms.topic: function
+f1_keywords:
+ - "wsk/WskReleaseProviderNPI"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Universal

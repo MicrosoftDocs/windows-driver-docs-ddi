@@ -7,6 +7,8 @@ ms.assetid: 1065079d-ff48-4b68-930c-bbbd3f17d5bd
 ms.date: 05/10/2018
 ms.keywords: D3D11DDIARG_POINTERDATA, D3D11DDIARG_POINTERDATA structure [Display Devices], UMDisplayDriver_Dx11param_Structs_4e1d0abb-4385-4d8b-9687-0c913884ab46.xml, d3d10umddi/D3D11DDIARG_POINTERDATA, display.d3d11ddiarg_pointerdata
 ms.topic: struct
+f1_keywords:
+ - "d3d10umddi/D3D11DDIARG_POINTERDATA"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows

@@ -5,6 +5,8 @@ description: The CompareAgainst method compares the type signature to another ty
 ms.assetid: bf788feb-17ff-4844-b247-8083585d3ca7
 ms.date: 09/10/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDebugHostTypeSignature.CompareAgainst"
 ms.keywords: IDebugHostTypeSignature::CompareAgainst, CompareAgainst, IDebugHostTypeSignature.CompareAgainst, IDebugHostTypeSignature::CompareAgainst, IDebugHostTypeSignature.CompareAgainst
 req.header: dbgmodel.h
 req.include-header:

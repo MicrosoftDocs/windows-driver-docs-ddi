@@ -8,6 +8,8 @@ ms.assetid: 3b056910-dc33-4608-bb7d-a3f13bc546ca
 ms.date: 02/20/2018
 ms.keywords: "*PWHEA_ERROR_SEVERITY, PWHEA_ERROR_SEVERITY, PWHEA_ERROR_SEVERITY enumeration pointer [WHEA Drivers and Applications], WHEA_ERROR_SEVERITY, WHEA_ERROR_SEVERITY enumeration [WHEA Drivers and Applications], WheaErrSevCorrected, WheaErrSevFatal, WheaErrSevInformational, WheaErrSevRecoverable, _WHEA_ERROR_SEVERITY, ntddk/PWHEA_ERROR_SEVERITY, ntddk/WHEA_ERROR_SEVERITY, ntddk/WheaErrSevCorrected, ntddk/WheaErrSevFatal, ntddk/WheaErrSevInformational, ntddk/WheaErrSevRecoverable, whea.whea_error_severity, whearef_e9b0fee6-a6cf-4f61-a3b6-ef53553aa3ff.xml"
 ms.topic: enum
+f1_keywords:
+ - "ntddk/WHEA_ERROR_SEVERITY"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Windows

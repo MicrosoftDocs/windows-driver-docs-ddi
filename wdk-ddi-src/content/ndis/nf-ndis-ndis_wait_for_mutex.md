@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 06e6a4d2-4a3d-432e-8e58-ad2634fbc3b6
 ms.date: 04/16/2018
 ms.topic: macro
+f1_keywords:
+ - "ndis/NDIS_WAIT_FOR_MUTEX"
 ms.keywords: NDIS_WAIT_FOR_MUTEX
 req.header: ndis.h
 req.include-header:

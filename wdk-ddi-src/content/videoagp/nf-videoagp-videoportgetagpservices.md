@@ -8,6 +8,8 @@ ms.assetid: 3b01831d-d429-4dc5-9b12-a0e1fc58634d
 ms.date: 05/10/2018
 ms.keywords: VideoPortGetAgpServices, VideoPortGetAgpServices function [Display Devices], VideoPort_Functions_498a8f06-f24e-4116-90df-30360fa111a1.xml, display.videoportgetagpservices, videoagp/VideoPortGetAgpServices
 ms.topic: function
+f1_keywords:
+ - "videoagp/VideoPortGetAgpServices"
 req.header: videoagp.h
 req.include-header: Video.h
 req.target-type: Desktop

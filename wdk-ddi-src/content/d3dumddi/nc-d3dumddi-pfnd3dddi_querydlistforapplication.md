@@ -5,6 +5,8 @@ description: The PFND3DDDI_QUERYDLISTFORAPPLICATION callback function queries a 
 ms.assetid: 9debfb9c-534e-4342-8c36-64f403d03756
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dumddi/PFND3DDDI_QUERYDLISTFORAPPLICATION"
 req.header: d3dumddi.h
 req.include-header:
 req.target-type:

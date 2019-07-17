@@ -8,6 +8,8 @@ ms.assetid: a6534917-5fe6-449b-8e85-398d26730f66
 ms.date: 05/08/2018
 ms.keywords: IMiniportWavePciStream interface [Audio Devices],RevokeMappings method, IMiniportWavePciStream.RevokeMappings, IMiniportWavePciStream::RevokeMappings, RevokeMappings, RevokeMappings method [Audio Devices], RevokeMappings method [Audio Devices],IMiniportWavePciStream interface, audio.iminiportwavepcistream_revokemappings, audmp-routines_f995bc15-917a-416d-9066-3d5667866973.xml, portcls/IMiniportWavePciStream::RevokeMappings
 ms.topic: method
+f1_keywords:
+ - "portcls/IMiniportWavePciStream.RevokeMappings"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal

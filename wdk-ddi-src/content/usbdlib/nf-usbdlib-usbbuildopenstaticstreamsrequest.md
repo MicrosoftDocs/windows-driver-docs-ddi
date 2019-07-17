@@ -8,6 +8,8 @@ ms.assetid: B514B88E-2D1F-43F1-BF70-BC49294CFE93
 ms.date: 05/07/2018
 ms.keywords: UsbBuildOpenStaticStreamsRequest, UsbBuildOpenStaticStreamsRequest function [Buses], buses.usbbuildopenbasicstreamsrequest, usbdlib/UsbBuildOpenStaticStreamsRequest
 ms.topic: function
+f1_keywords:
+ - "usbdlib/UsbBuildOpenStaticStreamsRequest"
 req.header: usbdlib.h
 req.include-header: 
 req.target-type: Desktop

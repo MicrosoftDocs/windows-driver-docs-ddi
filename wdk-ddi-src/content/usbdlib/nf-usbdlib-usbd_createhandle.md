@@ -8,6 +8,8 @@ ms.assetid: 97757CBA-8291-40A3-B247-D41E7FEB1D7C
 ms.date: 06/24/2019
 ms.keywords: USBD_CreateHandle, USBD_CreateHandle routine [Buses], buses.usbd_register, usbdlib/USBD_CreateHandle
 ms.topic: function
+f1_keywords:
+ - "usbdlib/USBD_CreateHandle"
 req.header: usbdlib.h
 req.include-header: usbdlib.h, usb.h
 req.target-type: Desktop

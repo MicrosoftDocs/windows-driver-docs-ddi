@@ -8,6 +8,8 @@ ms.assetid: 2ca34fb7-72c1-4253-ad5b-bc829a1ba540
 ms.date: 02/26/2018
 ms.keywords: WdfDeviceRetrieveCompanionTarget, WdfDeviceRetrieveCompanionTarget method, wdf.wdfdeviceretrievecompaniontarget, wdfdevice/WdfDeviceRetrieveCompanionTarget
 ms.topic: function
+f1_keywords:
+ - "wdfdevice/WdfDeviceRetrieveCompanionTarget"
 req.header: wdfdevice.h
 req.include-header: 
 req.target-type: Windows

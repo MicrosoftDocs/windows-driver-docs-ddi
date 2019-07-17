@@ -8,6 +8,8 @@ ms.assetid: 22AA35D4-D287-443B-A49D-87C20BD436AA
 ms.date: 05/10/2018
 ms.keywords: D3DDDICB_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE, D3DDDICB_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE structure [Display Devices], _D3DDDICB_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE, d3dumddi/D3DDDICB_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE, display.d3dddicb_submitsignalsyncobjectstohwqueue
 ms.topic: struct
+f1_keywords:
+ - "d3dumddi/D3DDDICB_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE"
 req.header: d3dumddi.h
 req.include-header: 
 req.target-type: Windows

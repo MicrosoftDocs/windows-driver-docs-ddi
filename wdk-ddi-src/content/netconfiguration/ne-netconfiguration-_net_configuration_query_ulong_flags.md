@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: fd0f43ac-4895-4fe7-9eb3-7b4d7a8c052e
 ms.date: 02/07/2018
 ms.topic: enum
+f1_keywords:
+ - "netconfiguration/NET_CONFIGURATION_QUERY_ULONG_FLAGS"
 ms.keywords: _NET_CONFIGURATION_QUERY_ULONG_FLAGS, NET_CONFIGURATION_QUERY_ULONG_FLAGS, 
 req.header: netconfiguration.h
 req.include-header:

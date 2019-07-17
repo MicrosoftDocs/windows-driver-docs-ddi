@@ -8,6 +8,8 @@ ms.assetid: 220713c4-ecfe-43a2-aebf-f1b00b75e49b
 ms.date: 02/23/2018
 ms.keywords: PosBarcodeScannerDataReceivedEventData, PosBarcodeScannerDataReceivedEventData structure, _PosBarcodeScannerDataReceivedEventData, pointofservicedriverinterface/PosBarcodeScannerDataReceivedEventData, pos.posbarcodescannerdatareceivedeventdata
 ms.topic: struct
+f1_keywords:
+ - "pointofservicedriverinterface/PosBarcodeScannerDataReceivedEventData"
 req.header: pointofservicedriverinterface.h
 req.include-header: PointOfServiceDriverInterface.h
 req.target-type: Windows

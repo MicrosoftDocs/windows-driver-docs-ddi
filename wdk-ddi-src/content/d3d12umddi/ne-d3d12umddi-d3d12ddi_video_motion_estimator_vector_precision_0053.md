@@ -5,6 +5,8 @@ description: The precision of motion vector components, supported by the driver.
 ms.assetid: 950be956-a0ac-46c6-9f57-ca9371bb94c4
 ms.date: 10/19/2018
 ms.topic: enum
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_VIDEO_MOTION_ESTIMATOR_VECTOR_PRECISION_0053"
 ms.keywords: D3D12DDI_VIDEO_MOTION_ESTIMATOR_VECTOR_PRECISION_0053, D3D12DDI_VIDEO_MOTION_ESTIMATOR_VECTOR_PRECISION_0053, 
 req.header: d3d12umddi.h
 req.include-header:

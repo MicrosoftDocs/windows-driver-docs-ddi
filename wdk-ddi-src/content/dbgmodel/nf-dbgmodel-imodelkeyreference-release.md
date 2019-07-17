@@ -5,6 +5,8 @@ description: Decrements the reference count for an interface on an object.
 ms.assetid: bf89af91-0904-4f9f-99d8-56f100d90d10
 ms.date: 08/14/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IModelKeyReference.Release"
 ms.keywords: IModelKeyReference::Release, Release, IModelKeyReference.Release, IModelKeyReference::Release, IModelKeyReference.Release
 req.header: dbgmodel.h
 req.include-header:

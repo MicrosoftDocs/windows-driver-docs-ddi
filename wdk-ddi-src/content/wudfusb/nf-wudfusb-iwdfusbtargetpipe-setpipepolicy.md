@@ -8,6 +8,8 @@ ms.assetid: 3c8f5c4a-a1a3-41a9-ae55-f83048aab0ec
 ms.date: 02/26/2018
 ms.keywords: IWDFUsbTargetPipe interface,SetPipePolicy method, IWDFUsbTargetPipe.SetPipePolicy, IWDFUsbTargetPipe::SetPipePolicy, SetPipePolicy, SetPipePolicy method, SetPipePolicy method,IWDFUsbTargetPipe interface, UMDFUSBref_ab486cfe-19aa-440c-a017-e956aa4d2bb1.xml, umdf.iwdfusbtargetpipe_setpipepolicy, wdf.iwdfusbtargetpipe_setpipepolicy, wudfusb/IWDFUsbTargetPipe::SetPipePolicy
 ms.topic: method
+f1_keywords:
+ - "wudfusb/IWDFUsbTargetPipe.SetPipePolicy"
 req.header: wudfusb.h
 req.include-header: Wudfusb.h
 req.target-type: Desktop

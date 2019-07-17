@@ -8,6 +8,8 @@ ms.assetid: ff66e4b8-25f9-4c53-8755-46c860ec37d9
 ms.date: 02/15/2018
 ms.keywords: GetBoolValue, GetBoolValue method, GetBoolValue method,IPortableDeviceValues interface, IPortableDeviceValues interface,GetBoolValue method, IPortableDeviceValues.GetBoolValue, IPortableDeviceValues::GetBoolValue, IPortableDeviceValuesGetBoolValue, portabledevicetypes/IPortableDeviceValues::GetBoolValue, wpddk.iportabledevicevalues_getboolvalue
 ms.topic: method
+f1_keywords:
+ - "portabledevicetypes/IPortableDeviceValues.GetBoolValue"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows

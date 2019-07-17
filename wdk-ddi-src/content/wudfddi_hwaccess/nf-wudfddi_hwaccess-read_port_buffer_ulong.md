@@ -8,6 +8,8 @@ ms.assetid: 5E1FFE55-49EE-4D8B-8826-023C751C7520
 ms.date: 02/26/2018
 ms.keywords: READ_PORT_BUFFER_ULONG, READ_PORT_BUFFER_ULONG function, umdf.read_port_buffer_ulong, wdf.read_port_buffer_ulong, wudfddi_hwaccess/READ_PORT_BUFFER_ULONG
 ms.topic: function
+f1_keywords:
+ - "wudfddi_hwaccess/READ_PORT_BUFFER_ULONG"
 req.header: wudfddi_hwaccess.h
 req.include-header: 
 req.target-type: Desktop

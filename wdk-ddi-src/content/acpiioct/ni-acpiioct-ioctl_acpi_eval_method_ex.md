@@ -8,6 +8,8 @@ ms.assetid: 5c8a1038-efc7-424a-8ef9-fd28d0dcb13c
 ms.date: 02/15/2018
 ms.keywords: IOCTL_ACPI_EVAL_METHOD_EX, IOCTL_ACPI_EVAL_METHOD_EX control, IOCTL_ACPI_EVAL_METHOD_EX control code [ACPI Devices], acpi-meth-eval-ref_b4baf4b9-b239-4b7e-b171-775b6b59a929.xml, acpi.ioctl_acpi_eval_method_ex, acpiioct/IOCTL_ACPI_EVAL_METHOD_EX
 ms.topic: ioctl
+f1_keywords:
+ - "acpiioct/IOCTL_ACPI_EVAL_METHOD_EX"
 req.header: acpiioct.h
 req.include-header: Acpiioct.h
 req.target-type: Windows

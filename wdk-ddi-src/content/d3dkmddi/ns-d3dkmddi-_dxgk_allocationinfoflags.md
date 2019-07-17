@@ -7,6 +7,8 @@ ms.assetid: 04bd00c3-83a8-44bb-9493-cf7f43f10602
 ms.date: 05/10/2018
 ms.keywords: DXGK_ALLOCATIONINFOFLAGS, DXGK_ALLOCATIONINFOFLAGS structure [Display Devices], DmStructs_4e6e499c-8427-4c0f-977d-92f648ab027e.xml, _DXGK_ALLOCATIONINFOFLAGS, d3dkmddi/DXGK_ALLOCATIONINFOFLAGS, display.dxgk_allocationinfoflags
 ms.topic: struct
+f1_keywords:
+ - "d3dkmddi/DXGK_ALLOCATIONINFOFLAGS"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

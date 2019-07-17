@@ -8,6 +8,8 @@ ms.assetid: D97C3A17-309E-4364-8DFB-9073901D332E
 ms.date: 04/30/2018
 ms.keywords: EVT_SPB_CONTROLLER_WRITE, EVT_SPB_CONTROLLER_WRITE callback, EvtSpbControllerIoWrite, EvtSpbControllerIoWrite callback function [Buses], SPB.evtspbcontrolleriowrite, spbcx/EvtSpbControllerIoWrite
 ms.topic: callback
+f1_keywords:
+ - "spbcx/EvtSpbControllerIoWrite"
 req.header: spbcx.h
 req.include-header: 
 req.target-type: Desktop

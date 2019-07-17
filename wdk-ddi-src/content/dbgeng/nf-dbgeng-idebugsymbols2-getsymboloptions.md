@@ -8,6 +8,8 @@ ms.assetid: a9da40fa-59b7-4d2b-978f-1785a51eeaed
 ms.date: 05/03/2018
 ms.keywords: GetSymbolOptions, GetSymbolOptions method [Windows Debugging], GetSymbolOptions method [Windows Debugging],IDebugSymbols interface, GetSymbolOptions method [Windows Debugging],IDebugSymbols2 interface, GetSymbolOptions method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],GetSymbolOptions method, IDebugSymbols2 interface [Windows Debugging],GetSymbolOptions method, IDebugSymbols2.GetSymbolOptions, IDebugSymbols2::GetSymbolOptions, IDebugSymbols3 interface [Windows Debugging],GetSymbolOptions method, IDebugSymbols3::GetSymbolOptions, IDebugSymbols::GetSymbolOptions, IDebugSymbols_70c05823-d1a1-4769-8584-e191255c4deb.xml, dbgeng/IDebugSymbols2::GetSymbolOptions, dbgeng/IDebugSymbols3::GetSymbolOptions, dbgeng/IDebugSymbols::GetSymbolOptions, debugger.getsymboloptions
 ms.topic: method
+f1_keywords:
+ - "dbgeng/IDebugSymbols.GetSymbolOptions"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h, Dbghelp.h
 req.target-type: Desktop

@@ -5,6 +5,8 @@ description: Gets output duplicate metadata.
 ms.assetid: ed85a142-6f5e-42b9-bb60-dd0c5357a4c1
 ms.date: 10/19/2018
 ms.topic: function
+f1_keywords:
+ - "d3dkmthk/D3DKMTOutputDuplGetMetaData"
 ms.keywords: D3DKMTOutputDuplGetMetaData
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h

@@ -5,6 +5,8 @@ description: Output duplicate metadata types.
 ms.assetid: b78cd01c-e17c-4981-8c0e-5540a36955b3
 ms.date: 10/19/2018
 ms.topic: enum
+f1_keywords:
+ - "d3dkmthk/_D3DKMT_OUTPUTDUPL_METADATATYPE"
 ms.keywords: _D3DKMT_OUTPUTDUPL_METADATATYPE, D3DKMT_OUTPUTDUPL_METADATATYPE, 
 req.header: d3dkmthk.h
 req.include-header:

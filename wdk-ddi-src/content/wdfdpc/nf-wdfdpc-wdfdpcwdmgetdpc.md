@@ -8,6 +8,8 @@ ms.assetid: a4ca55f9-0fbd-4969-8807-baa79099cff0
 ms.date: 02/26/2018
 ms.keywords: DFDpcObjectRef_26bd69e5-277b-4af4-a5b7-659670b39fbb.xml, WdfDpcWdmGetDpc, WdfDpcWdmGetDpc method, kmdf.wdfdpcwdmgetdpc, wdf.wdfdpcwdmgetdpc, wdfdpc/WdfDpcWdmGetDpc
 ms.topic: function
+f1_keywords:
+ - "wdfdpc/WdfDpcWdmGetDpc"
 req.header: wdfdpc.h
 req.include-header: Wdf.h
 req.target-type: Universal

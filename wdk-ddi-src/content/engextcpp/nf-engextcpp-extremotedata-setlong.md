@@ -8,6 +8,8 @@ ms.assetid: d645867c-3264-45ae-b0bd-4d21e388fb97
 ms.date: 01/19/2018
 ms.keywords: ExtRemoteData class [Windows Debugging], described, ExtRemoteData::SetChar, EngExtCpp_Ref_e84c03ce-1156-481b-a429-f0a918797565.xml, SetFloat, Clear, debugger.extremotedata, ExtRemoteData::SetLong, ExtRemoteData::Clear, ExtRemoteData class [Windows Debugging], SetDouble, ExtRemoteData::SetFloat, ExtRemoteData, engextcpp/ExtRemoteData, ExtRemoteData::SetDouble, SetChar, ExtRemoteData::SetBoolean, ExtRemoteData::SetData, SetData, SetBoolean, SetLong
 ms.topic: method
+f1_keywords:
+ - "engextcpp/ExtRemoteData"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Windows

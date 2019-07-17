@@ -8,6 +8,8 @@ ms.assetid: 583fe92d-ce81-47b4-bd75-5566a5379790
 ms.date: 04/16/2018
 ms.keywords: "*PNETWORK_OPEN_ECP_CONTEXT, ECP_Structures_9cdb7dab-17df-47f3-b994-fca989b3442e.xml, NETWORK_OPEN_ECP_CONTEXT, NETWORK_OPEN_ECP_CONTEXT structure [Installable File System Drivers], PNETWORK_OPEN_ECP_CONTEXT, PNETWORK_OPEN_ECP_CONTEXT structure pointer [Installable File System Drivers], _NETWORK_OPEN_ECP_CONTEXT, ifsk.network_open_ecp_context, ntifs/NETWORK_OPEN_ECP_CONTEXT, ntifs/PNETWORK_OPEN_ECP_CONTEXT"
 ms.topic: struct
+f1_keywords:
+ - "ntifs/NETWORK_OPEN_ECP_CONTEXT"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows

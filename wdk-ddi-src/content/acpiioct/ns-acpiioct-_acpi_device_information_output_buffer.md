@@ -8,6 +8,8 @@ ms.assetid: 15AA7E06-DD7F-46B4-B2C2-604EA5150F7D
 ms.date: 02/15/2018
 ms.keywords: "*PACPI_DEVICE_INFORMATION_OUTPUT_BUFFER, ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER, ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER structure [ACPI Devices], PACPI_DEVICE_INFORMATION_OUTPUT_BUFFER, PACPI_DEVICE_INFORMATION_OUTPUT_BUFFER structure pointer [ACPI Devices], _ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER, acpi.acpi_device_information_output_buffer, acpi.acpi_get_device_information_output_buffer, acpiioct/ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER, acpiioct/PACPI_DEVICE_INFORMATION_OUTPUT_BUFFER"
 ms.topic: struct
+f1_keywords:
+ - "acpiioct/ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER"
 req.header: acpiioct.h
 req.include-header: Acpiioct.h
 req.target-type: Windows

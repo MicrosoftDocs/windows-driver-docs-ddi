@@ -8,6 +8,8 @@ ms.assetid: d9654346-1f28-4e02-8f6c-17e37ed09b92
 ms.date: 04/20/2018
 ms.keywords: ComPropSheet, ComPropSheet routine [Print Devices], PFNCOMPROPSHEET, compstui/ComPropSheet, cpsuifnc_2586427b-a3ae-4c2e-b081-06d58ec310c3.xml, print.compropsheet
 ms.topic: callback
+f1_keywords:
+ - "compstui/ComPropSheet"
 req.header: compstui.h
 req.include-header: Compstui.h
 req.target-type: Desktop

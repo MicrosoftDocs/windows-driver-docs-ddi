@@ -8,6 +8,8 @@ ms.assetid: 94c953ae-519b-4659-a4c9-a97db7dc31e9
 ms.date: 05/08/2018
 ms.keywords: "*PSYNTH_PORTPARAMS, PSYNTH_PORTPARAMS, PSYNTH_PORTPARAMS structure pointer [Audio Devices], SYNTH_PORTPARAMS, SYNTH_PORTPARAMS structure [Audio Devices], _SYNTH_PORTPARAMS, aud-prop_33f03864-8052-4dff-9613-1e8046450d16.xml, audio.synth_portparams, dmusprop/PSYNTH_PORTPARAMS, dmusprop/SYNTH_PORTPARAMS"
 ms.topic: struct
+f1_keywords:
+ - "dmusprop/SYNTH_PORTPARAMS"
 req.header: dmusprop.h
 req.include-header: Dmusprop.h
 req.target-type: Windows

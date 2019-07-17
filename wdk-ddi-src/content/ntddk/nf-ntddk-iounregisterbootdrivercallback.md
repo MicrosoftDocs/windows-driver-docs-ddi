@@ -8,6 +8,8 @@ ms.assetid: 6199672C-A4A4-4ED8-B91E-95D96A472449
 ms.date: 04/30/2018
 ms.keywords: IoUnRegisterBootDriverCallback, IoUnRegisterBootDriverCallback routine [Kernel-Mode Driver Architecture], IoUnregisterBootDriverCallback, kernel.iounregisterbootdrivercallback, ntddk/IoUnRegisterBootDriverCallback
 ms.topic: function
+f1_keywords:
+ - "ntddk/IoUnRegisterBootDriverCallback"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal

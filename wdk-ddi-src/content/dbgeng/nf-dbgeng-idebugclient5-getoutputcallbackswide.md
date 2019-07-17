@@ -8,6 +8,8 @@ ms.assetid: b93f756b-50b1-450f-8d70-5d1633b61fcf
 ms.date: 05/03/2018
 ms.keywords: GetOutputCallbacksWide, GetOutputCallbacksWide method [Windows Debugging], GetOutputCallbacksWide method [Windows Debugging],IDebugClient5 interface, IDebugClient5 interface [Windows Debugging],GetOutputCallbacksWide method, IDebugClient5.GetOutputCallbacksWide, IDebugClient5::GetOutputCallbacksWide, dbgeng/IDebugClient5::GetOutputCallbacksWide, debugger.getoutputcallbackswide
 ms.topic: method
+f1_keywords:
+ - "dbgeng/IDebugClient5.GetOutputCallbacksWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

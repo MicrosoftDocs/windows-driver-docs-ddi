@@ -8,6 +8,8 @@ ms.assetid: a52b3cfc-d6bd-4569-8b09-36dce65d017f
 ms.date: 05/02/2018
 ms.keywords: NmrProviderDetachClientComplete, NmrProviderDetachClientComplete function [Network Drivers Starting with Windows Vista], netioddk/NmrProviderDetachClientComplete, netvista.nmrproviderdetachclientcomplete, nmrref_c86f4d4f-b54f-4e31-b683-f692ff7ed1ba.xml
 ms.topic: function
+f1_keywords:
+ - "netioddk/NmrProviderDetachClientComplete"
 req.header: netioddk.h
 req.include-header: Wsk.h
 req.target-type: Desktop

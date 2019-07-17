@@ -8,6 +8,8 @@ ms.assetid: 82722a7a-bd96-434c-bffe-c51ea3b013ae
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: function
+f1_keywords:
+ - "ntddk/WheaInitializeRecordHeader"
 ms.keywords: WheaInitializeRecordHeader
 req.header: ntddk.h
 req.include-header:

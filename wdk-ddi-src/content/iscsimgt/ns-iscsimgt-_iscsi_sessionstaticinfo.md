@@ -8,6 +8,8 @@ ms.assetid: c652268f-4a31-4ec1-a668-8700cb7f4e1b
 ms.date: 03/29/2018
 ms.keywords: "*PISCSI_SessionStaticInfo, ISCSI_SessionStaticInfo, ISCSI_SessionStaticInfo structure [Storage Devices], PISCSI_SessionStaticInfo, PISCSI_SessionStaticInfo structure pointer [Storage Devices], _ISCSI_SessionStaticInfo, iscsimgt/ISCSI_SessionStaticInfo, iscsimgt/PISCSI_SessionStaticInfo, storage.iscsi_sessionstaticinfo, structs-iSCSI_94ec0954-b409-4acf-8935-7c8dc6b0d095.xml"
 ms.topic: struct
+f1_keywords:
+ - "iscsimgt/ISCSI_SessionStaticInfo"
 req.header: iscsimgt.h
 req.include-header: Iscsimgt.h
 req.target-type: Windows

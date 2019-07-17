@@ -8,6 +8,8 @@ ms.assetid: E97C3EA9-2244-458E-BE5E-6312023118A3
 ms.date: 04/30/2018
 ms.keywords: RtlInt8Add, RtlInt8Add function [Kernel-Mode Driver Architecture], kernel.rtlint8add, ntintsafe/RtlInt8Add
 ms.topic: function
+f1_keywords:
+ - "ntintsafe/RtlInt8Add"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop

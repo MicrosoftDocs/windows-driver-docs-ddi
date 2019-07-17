@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 691429b7-4abd-4a79-80bb-9dade10fda86
 ms.date: 06/29/2018
 ms.topic: function
+f1_keywords:
+ - "mbbcx/MbbDeviceReceiveDeviceServiceSessionData"
 ms.keywords: MbbDeviceReceiveDeviceServiceSessionData
 req.header: mbbcx.h
 req.include-header:

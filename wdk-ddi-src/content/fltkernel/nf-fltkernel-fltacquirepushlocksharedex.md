@@ -5,6 +5,8 @@ description: The FltAcquirePushLockSharedEx routine acquires the given push lock
 ms.assetid: 760a310c-c6eb-493c-8535-9f601fa2882f
 ms.date: 10/19/2018
 ms.topic: function
+f1_keywords:
+ - "fltkernel/FltAcquirePushLockSharedEx"
 ms.keywords: FltAcquirePushLockSharedEx
 req.header: fltkernel.h
 req.include-header:

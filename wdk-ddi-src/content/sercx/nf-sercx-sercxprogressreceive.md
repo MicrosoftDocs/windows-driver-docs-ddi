@@ -8,6 +8,8 @@ ms.assetid: A1773CCB-971E-4439-A11F-82761FF8AF71
 ms.date: 04/23/2018
 ms.keywords: 1/SerCxProgressReceive, SerCxProgressReceive, SerCxProgressReceive method [Serial Ports], serports.sercxprogressreceive
 ms.topic: function
+f1_keywords:
+ - "sercx/SerCxProgressReceive"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Universal

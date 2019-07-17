@@ -5,6 +5,8 @@ description: Contains memory requirements for a ray tracing acceleration structu
 ms.assetid: bcad8b22-709a-44fb-85ed-4b9f723576a8
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_PREBUILD_INFO_0054"
 ms.keywords: D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_PREBUILD_INFO_0054, D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_PREBUILD_INFO_0054, 
 req.header: d3d12umddi.h
 req.include-header:

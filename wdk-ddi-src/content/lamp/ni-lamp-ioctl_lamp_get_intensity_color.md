@@ -8,6 +8,8 @@ ms.assetid: 8BAAB861-677D-4945-92B7-BDBE7A29695E
 ms.date: 04/23/2018
 ms.keywords: IOCTL_LAMP_GET_INTENSITY_COLOR, IOCTL_LAMP_GET_INTENSITY_COLOR control, IOCTL_LAMP_GET_INTENSITY_COLOR control code [Streaming Media Devices], lamp/IOCTL_LAMP_GET_INTENSITY_COLOR, stream.ioctl_lamp_get_intensity_color
 ms.topic: ioctl
+f1_keywords:
+ - "lamp/IOCTL_LAMP_GET_INTENSITY_COLOR"
 req.header: lamp.h
 req.include-header: 
 req.target-type: Windows

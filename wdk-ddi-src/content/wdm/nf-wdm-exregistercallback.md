@@ -8,6 +8,8 @@ ms.assetid: 4537447a-17d5-4431-929c-7a8fda0f2986
 ms.date: 04/30/2018
 ms.keywords: ExRegisterCallback, ExRegisterCallback routine [Kernel-Mode Driver Architecture], k102_db841434-fe00-448d-b5bb-2c35d1ad0ec4.xml, kernel.exregistercallback, wdm/ExRegisterCallback
 ms.topic: function
+f1_keywords:
+ - "wdm/ExRegisterCallback"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

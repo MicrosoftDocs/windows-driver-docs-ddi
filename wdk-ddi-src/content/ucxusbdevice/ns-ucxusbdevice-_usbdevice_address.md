@@ -8,6 +8,8 @@ ms.assetid: 2CD37F1E-B96A-4D18-A756-2B9E3CB8613B
 ms.date: 05/07/2018
 ms.keywords: "*PUSBDEVICE_ADDRESS, P_USBDEVICE_ADDRESS, P_USBDEVICE_ADDRESS structure pointer [Buses], USBDEVICE_ADDRESS, USBDEVICE_ADDRESS structure [Buses], _USBDEVICE_ADDRESS, buses._usbdevice_address, ucxusbdevice/P_USBDEVICE_ADDRESS, ucxusbdevice/_USBDEVICE_ADDRESS"
 ms.topic: struct
+f1_keywords:
+ - "ucxusbdevice/USBDEVICE_ADDRESS"
 req.header: ucxusbdevice.h
 req.include-header: Ucxclass.h
 req.target-type: Windows

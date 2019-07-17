@@ -8,6 +8,8 @@ ms.assetid: 23a9ab2a-be8e-40ff-8654-adf170adc6f2
 ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectFdoPdoRef_c13c9c42-f704-4042-b70d-952ddb8a27b8.xml, WdfPdoAddEjectionRelationsPhysicalDevice, WdfPdoAddEjectionRelationsPhysicalDevice method, kmdf.wdfpdoaddejectionrelationsphysicaldevice, wdf.wdfpdoaddejectionrelationsphysicaldevice, wdfpdo/WdfPdoAddEjectionRelationsPhysicalDevice
 ms.topic: function
+f1_keywords:
+ - "wdfpdo/WdfPdoAddEjectionRelationsPhysicalDevice"
 req.header: wdfpdo.h
 req.include-header: Wdf.h
 req.target-type: Universal

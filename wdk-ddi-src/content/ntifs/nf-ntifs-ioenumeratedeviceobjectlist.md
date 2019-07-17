@@ -8,6 +8,8 @@ ms.assetid: ce6cec58-2122-49c3-8c5c-172df2c4dd04
 ms.date: 04/16/2018
 ms.keywords: IoEnumerateDeviceObjectList, IoEnumerateDeviceObjectList routine [Installable File System Drivers], ifsk.ioenumeratedeviceobjectlist, ioref_5bfd9f2c-73c0-4f69-8a5e-4cc105c2f92a.xml, ntifs/IoEnumerateDeviceObjectList
 ms.topic: function
+f1_keywords:
+ - "ntifs/IoEnumerateDeviceObjectList"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

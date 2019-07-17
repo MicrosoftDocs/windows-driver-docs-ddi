@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 15fe028f-90ad-4759-9bf4-17192cfa25f7
 ms.date: 04/13/2018
 ms.topic: function
+f1_keywords:
+ - "ndis/NET_BUFFER_LIST_SET_HASH_TYPE"
 ms.keywords: NET_BUFFER_LIST_SET_HASH_TYPE
 req.header: ndis.h
 req.include-header:

@@ -7,6 +7,8 @@ ms.assetid: 4E082193-70BA-4F36-9001-2A12014F3AC3
 ms.date: 05/10/2018
 ms.keywords: D3DWDDM2_2DDI_DEVICEFUNCS, D3DWDDM2_2DDI_DEVICEFUNCS structure [Display Devices], d3d10umddi/D3DWDDM2_2DDI_DEVICEFUNCS, display.d3dwddm2_2ddi_devicefuncs
 ms.topic: struct
+f1_keywords:
+ - "d3d10umddi/D3DWDDM2_2DDI_DEVICEFUNCS"
 req.header: d3d10umddi.h
 req.include-header: 
 req.target-type: Windows

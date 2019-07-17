@@ -8,6 +8,8 @@ ms.assetid: e3bb6ead-8129-4605-8755-3a56d4b3d8f6
 ms.date: 04/23/2018
 ms.keywords: KsReadFile, KsReadFile function [Streaming Media Devices], ks/KsReadFile, ksfunc_9264bdad-2acc-46fe-9ca3-d006bf6c3e23.xml, stream.ksreadfile
 ms.topic: function
+f1_keywords:
+ - "ks/KsReadFile"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

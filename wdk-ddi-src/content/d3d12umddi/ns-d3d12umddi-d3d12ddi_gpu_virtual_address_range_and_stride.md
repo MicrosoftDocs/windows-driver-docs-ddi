@@ -5,6 +5,8 @@ description: Describes the GPU virtual address range and stride.
 ms.assetid: 6bcbf2e2-7249-40ac-8f72-d0674e2edc5c
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_GPU_VIRTUAL_ADDRESS_RANGE_AND_STRIDE"
 ms.keywords: D3D12DDI_GPU_VIRTUAL_ADDRESS_RANGE_AND_STRIDE, D3D12DDI_GPU_VIRTUAL_ADDRESS_RANGE_AND_STRIDE, 
 req.header: d3d12umddi.h
 req.include-header:

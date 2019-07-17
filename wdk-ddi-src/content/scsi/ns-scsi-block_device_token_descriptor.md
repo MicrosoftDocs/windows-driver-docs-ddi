@@ -8,6 +8,8 @@ ms.assetid: AD4E4EF6-F033-4226-9DC6-A6E55E965B4C
 ms.date: 03/29/2018
 ms.keywords: "*PBLOCK_DEVICE_TOKEN_DESCRIPTOR, BLOCK_DEVICE_TOKEN_DESCRIPTOR, BLOCK_DEVICE_TOKEN_DESCRIPTOR structure [Storage Devices], PBLOCK_DEVICE_TOKEN_DESCRIPTOR, PBLOCK_DEVICE_TOKEN_DESCRIPTOR structure pointer [Storage Devices], scsi/BLOCK_DEVICE_TOKEN_DESCRIPTOR, scsi/PBLOCK_DEVICE_TOKEN_DESCRIPTOR, storage.block_device_token_descriptor"
 ms.topic: struct
+f1_keywords:
+ - "scsi/BLOCK_DEVICE_TOKEN_DESCRIPTOR"
 req.header: scsi.h
 req.include-header: Scsi.h, Minitape.h, Storport.h
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: 77358032-1777-46F4-BF16-5DFFAC15E672
 ms.date: 05/03/2018
 ms.keywords: ActivateAndDebugPlmBgTaskWide, ActivateAndDebugPlmBgTaskWide method [Windows Debugging], ActivateAndDebugPlmBgTaskWide method [Windows Debugging],IDebugPlmClient3 interface, IDebugPlmClient3 interface [Windows Debugging],ActivateAndDebugPlmBgTaskWide method, IDebugPlmClient3.ActivateAndDebugPlmBgTaskWide, IDebugPlmClient3::ActivateAndDebugPlmBgTaskWide, dbgeng/IDebugPlmClient3::ActivateAndDebugPlmBgTaskWide, debugger.idebugplmclient3_activateanddebugplmbgtaskwide
 ms.topic: method
+f1_keywords:
+ - "dbgeng/IDebugPlmClient3.ActivateAndDebugPlmBgTaskWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

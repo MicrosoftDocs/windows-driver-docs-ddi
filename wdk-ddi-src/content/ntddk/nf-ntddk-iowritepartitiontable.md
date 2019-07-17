@@ -8,6 +8,8 @@ ms.assetid: 406508b2-7509-4d2b-ac22-63644eedcec0
 ms.date: 03/29/2018
 ms.keywords: IoWritePartitionTable, IoWritePartitionTable routine [Storage Devices], ntddk/IoWritePartitionTable, rtns-disk_9358ac66-e3ba-43c0-856f-0f8b4c0ee832.xml, storage.iowritepartitiontable
 ms.topic: function
+f1_keywords:
+ - "ntddk/IoWritePartitionTable"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal

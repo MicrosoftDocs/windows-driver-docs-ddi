@@ -8,6 +8,8 @@ ms.assetid: 319d1d6e-a4a2-4c2c-9c30-948c5f03a2be
 ms.date: 04/30/2018
 ms.keywords: RtlUnicodeStringInit, RtlUnicodeStringInit function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringinit, ntstrsafe/RtlUnicodeStringInit, safestrings_7540072b-061a-46be-a2ea-72c4da1790dd.xml
 ms.topic: function
+f1_keywords:
+ - "ntstrsafe/RtlUnicodeStringInit"
 req.header: ntstrsafe.h
 req.include-header: Ntstrsafe.h
 req.target-type: Desktop

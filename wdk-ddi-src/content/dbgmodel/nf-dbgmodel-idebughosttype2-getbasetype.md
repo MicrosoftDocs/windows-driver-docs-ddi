@@ -5,6 +5,8 @@ description: If the type is a derivative of another single type (e.g. as MyStruc
 ms.assetid: 8d74a4b7-78d4-42e6-8435-dd0993f7fbb3
 ms.date: 09/20/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDebugHostType2.GetBaseType"
 ms.keywords: IDebugHostType2::GetBaseType, GetBaseType, IDebugHostType2.GetBaseType, IDebugHostType2::GetBaseType, IDebugHostType2.GetBaseType
 req.header: dbgmodel.h
 req.include-header:

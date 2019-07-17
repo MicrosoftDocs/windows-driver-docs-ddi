@@ -5,6 +5,8 @@ description: Pfnd3dkmtLock2 locks an entire allocation or specific pages within 
 ms.assetid: d06f98d8-dec7-4330-b3de-845205cf1ca3
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/PFND3DKMT_LOCK2"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 882ad8b4-4da6-4366-a7de-e1d37a3576a6
 ms.date: 08/08/2018
 ms.topic: struct
+f1_keywords:
+ - "ntddndis/_NDIS_TIMESTAMP_CAPABILITY_FLAGS"
 ms.keywords: _NDIS_TIMESTAMP_CAPABILITY_FLAGS, NDIS_TIMESTAMP_CAPABILITY_FLAGS, *PNDIS_TIMESTAMP_CAPABILITY_FLAGS, 
 req.header: ntddndis.h
 req.include-header: ndis.h

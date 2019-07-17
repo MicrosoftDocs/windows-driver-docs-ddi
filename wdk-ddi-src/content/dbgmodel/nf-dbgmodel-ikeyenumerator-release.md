@@ -5,6 +5,8 @@ description: Decrements the reference count for an interface on an object.
 ms.assetid: 66da07a2-92d5-4b16-a550-6678ed1570ec
 ms.date: 08/13/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IKeyEnumerator.Release"
 ms.keywords: IKeyEnumerator::Release, Release, IKeyEnumerator.Release, IKeyEnumerator::Release, IKeyEnumerator.Release
 req.header: dbgmodel.h
 req.include-header:

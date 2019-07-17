@@ -8,6 +8,8 @@ ms.assetid: 0b617fa4-da0b-4a98-a0e5-ad9fea67d980
 ms.date: 03/29/2018
 ms.keywords: AtaPortWriteRegisterBufferUchar, AtaPortWriteRegisterBufferUchar routine [Storage Devices], atartns_6722ff8e-9f8c-4b6a-88d1-305f892250bd.xml, irb/AtaPortWriteRegisterBufferUchar, storage.ataportwriteregisterbufferuchar
 ms.topic: function
+f1_keywords:
+ - "irb/AtaPortWriteRegisterBufferUchar"
 req.header: irb.h
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop

@@ -8,6 +8,8 @@ ms.assetid: f48b3b5f-000e-4e57-87b7-52ce542773f7
 ms.date: 05/02/2018
 ms.keywords: "*PNDIS_SWITCH_FORWARDING_DESTINATION_ARRAY, NDIS_SWITCH_FORWARDING_DESTINATION_ARRAY, NDIS_SWITCH_FORWARDING_DESTINATION_ARRAY structure [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_FORWARDING_DESTINATION_ARRAY, PNDIS_SWITCH_FORWARDING_DESTINATION_ARRAY structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_FORWARDING_DESTINATION_ARRAY, ndis/NDIS_SWITCH_FORWARDING_DESTINATION_ARRAY, ndis/PNDIS_SWITCH_FORWARDING_DESTINATION_ARRAY, netvista.ndis_switch_forwarding_destination_array"
 ms.topic: struct
+f1_keywords:
+ - "ndis/NDIS_SWITCH_FORWARDING_DESTINATION_ARRAY"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: 03472920-cb22-42e1-b0e5-488c0319fc03
 ms.date: 04/16/2018
 ms.keywords: "*PFILE_STREAM_INFORMATION, FILE_STREAM_INFORMATION, FILE_STREAM_INFORMATION structure [Installable File System Drivers], PFILE_STREAM_INFORMATION, PFILE_STREAM_INFORMATION structure pointer [Installable File System Drivers], _FILE_STREAM_INFORMATION, fileinformationstructures_da535f6c-5769-4564-a2e7-e5a7ff952119.xml, ifsk.file_stream_information, ntifs/FILE_STREAM_INFORMATION, ntifs/PFILE_STREAM_INFORMATION"
 ms.topic: struct
+f1_keywords:
+ - "ntifs/FILE_STREAM_INFORMATION"
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: 3da947b4-76f9-492f-b8e2-b52aa7812b26
 ms.date: 02/26/2018
 ms.keywords: DFDmaObjectRef_3546c1f6-cb96-4b6e-bafa-25a1d15b00c5.xml, EVT_WDF_DMA_ENABLER_FILL, EVT_WDF_DMA_ENABLER_FILL callback, EvtDmaEnablerFill, EvtDmaEnablerFill callback function, kmdf.evtdmaenablerfill, wdf.evtdmaenablerfill, wdfdmaenabler/EvtDmaEnablerFill
 ms.topic: callback
+f1_keywords:
+ - "wdfdmaenabler/EvtDmaEnablerFill"
 req.header: wdfdmaenabler.h
 req.include-header: Wdf.h
 req.target-type: Universal

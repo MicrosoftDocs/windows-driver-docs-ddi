@@ -8,6 +8,8 @@ ms.assetid: 87EED8B5-676C-4056-812B-B0424148FCFA
 ms.date: 04/20/2018
 ms.keywords: GetProperties, GetProperties method [Print Devices], GetProperties method [Print Devices],IPrinterQueue interface, IPrinterQueue, IPrinterQueue interface [Print Devices],GetProperties method, IPrinterQueue.GetProperties, IPrinterQueue::GetProperties, print.iprinterqueue_getproperties, printerextension/IPrinterQueue::GetProperties
 ms.topic: method
+f1_keywords:
+ - "printerextension/IPrinterQueue.GetProperties"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop

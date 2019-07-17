@@ -7,6 +7,8 @@ ms.assetid: f12ace3a-2bb4-433b-b987-2027a48f4c14
 ms.date: 05/10/2018
 ms.keywords: D3D11_1DDI_GETCAPTUREHANDLEDATA, D3D11_1DDI_GETCAPTUREHANDLEDATA structure [Display Devices], _D3D11_1DDI_GETCAPTUREHANDLEDATA, d3d10umddi/D3D11_1DDI_GETCAPTUREHANDLEDATA, display.d3d11_1ddi_getcapturehandledata
 ms.topic: struct
+f1_keywords:
+ - "d3d10umddi/D3D11_1DDI_GETCAPTUREHANDLEDATA"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows

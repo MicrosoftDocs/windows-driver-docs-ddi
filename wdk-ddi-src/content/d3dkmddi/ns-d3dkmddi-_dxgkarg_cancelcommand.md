@@ -7,6 +7,8 @@ ms.assetid: c0066718-50d0-4bd2-a1bf-678c3f6b9253
 ms.date: 05/10/2018
 ms.keywords: DXGKARG_CANCELCOMMAND, DXGKARG_CANCELCOMMAND structure [Display Devices], _DXGKARG_CANCELCOMMAND, d3dkmddi/DXGKARG_CANCELCOMMAND, display.dxgkarg_cancelcommand
 ms.topic: struct
+f1_keywords:
+ - "d3dkmddi/DXGKARG_CANCELCOMMAND"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Windows

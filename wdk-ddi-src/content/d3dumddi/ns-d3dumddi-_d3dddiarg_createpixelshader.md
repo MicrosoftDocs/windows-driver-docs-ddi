@@ -8,6 +8,8 @@ ms.assetid: dc7baff1-7e74-4666-805b-33b524c89c1d
 ms.date: 05/10/2018
 ms.keywords: D3DDDIARG_CREATEPIXELSHADER, D3DDDIARG_CREATEPIXELSHADER structure [Display Devices], UMDisplayDriver_param_Structs_c1c78eaf-3eb9-4518-9b3c-f3fd5d6ce1f7.xml, _D3DDDIARG_CREATEPIXELSHADER, d3dumddi/D3DDDIARG_CREATEPIXELSHADER, display.d3dddiarg_createpixelshader
 ms.topic: struct
+f1_keywords:
+ - "d3dumddi/D3DDDIARG_CREATEPIXELSHADER"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

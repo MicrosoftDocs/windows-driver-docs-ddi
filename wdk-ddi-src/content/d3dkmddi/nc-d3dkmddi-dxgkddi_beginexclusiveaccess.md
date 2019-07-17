@@ -5,6 +5,8 @@ description: Implemented by the client driver to begin exclusive access.
 ms.assetid: 23fc30a6-54b3-48d9-97d9-271ffc38ef5f
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmddi/DXGKDDI_BEGINEXCLUSIVEACCESS"
 req.header: d3dkmddi.h
 req.include-header:
 req.target-type:

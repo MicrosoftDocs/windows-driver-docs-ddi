@@ -8,6 +8,8 @@ ms.assetid: bfdea6dd-1f94-45ea-906c-9d17fc784a53
 ms.date: 05/10/2018
 ms.keywords: D3DDDIARG_OPENADAPTER, D3DDDIARG_OPENADAPTER structure [Display Devices], UMDisplayDriver_param_Structs_6b07c27c-40f3-497c-ba20-53a19a003ea6.xml, _D3DDDIARG_OPENADAPTER, d3dumddi/D3DDDIARG_OPENADAPTER, display.d3dddiarg_openadapter
 ms.topic: struct
+f1_keywords:
+ - "d3dumddi/D3DDDIARG_OPENADAPTER"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

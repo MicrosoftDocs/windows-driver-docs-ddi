@@ -8,6 +8,8 @@ ms.assetid: 14b47f0a-5de8-4650-8a90-40e9da8537f1
 ms.date: 03/29/2018
 ms.keywords: AtaPortWritePortUshort, AtaPortWritePortUshort routine [Storage Devices], atartns_1766efcd-f235-43ae-8fbe-ab56a858a7ee.xml, irb/AtaPortWritePortUshort, storage.ataportwriteportushort
 ms.topic: function
+f1_keywords:
+ - "irb/AtaPortWritePortUshort"
 req.header: irb.h
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop

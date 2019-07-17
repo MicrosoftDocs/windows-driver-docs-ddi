@@ -8,6 +8,8 @@ ms.assetid: fba604bc-2fab-448c-bbc7-8ea30ff6de6b
 ms.date: 02/15/2018
 ms.keywords: "*PACPI_ENUM_CHILDREN_INPUT_BUFFER, ACPI_ENUM_CHILDREN_INPUT_BUFFER, ACPI_ENUM_CHILDREN_INPUT_BUFFER structure [ACPI Devices], PACPI_ENUM_CHILDREN_INPUT_BUFFER, PACPI_ENUM_CHILDREN_INPUT_BUFFER structure pointer [ACPI Devices], _ACPI_ENUM_CHILDREN_INPUT_BUFFER, acpi-meth-eval-ref_3d8ce8a3-94f9-4ea0-9a16-f76c08928fc4.xml, acpi.acpi_enum_children_input_buffer, acpiioct/ACPI_ENUM_CHILDREN_INPUT_BUFFER, acpiioct/PACPI_ENUM_CHILDREN_INPUT_BUFFER"
 ms.topic: struct
+f1_keywords:
+ - "acpiioct/ACPI_ENUM_CHILDREN_INPUT_BUFFER"
 req.header: acpiioct.h
 req.include-header: Acpiioct.h
 req.target-type: Windows

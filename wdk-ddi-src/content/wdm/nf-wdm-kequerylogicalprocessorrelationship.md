@@ -8,6 +8,8 @@ ms.assetid: 343d965d-3e85-423e-a46b-894b19d5df4e
 ms.date: 04/30/2018
 ms.keywords: KeQueryLogicalProcessorRelationship, KeQueryLogicalProcessorRelationship routine [Kernel-Mode Driver Architecture], k105_0db645b1-dfa2-4d90-856f-975997dc09a8.xml, kernel.kequerylogicalprocessorrelationship, wdm/KeQueryLogicalProcessorRelationship
 ms.topic: function
+f1_keywords:
+ - "wdm/KeQueryLogicalProcessorRelationship"
 req.header: wdm.h
 req.include-header: Ntddk.h, Wdm.h, Ntddk.h
 req.target-type: Universal

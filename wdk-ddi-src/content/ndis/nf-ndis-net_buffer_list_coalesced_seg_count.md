@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 14659885-72c9-4050-bfa4-cd94328c294e
 ms.date: 04/12/2018
 ms.topic: macro
+f1_keywords:
+ - "ndis/NET_BUFFER_LIST_COALESCED_SEG_COUNT"
 ms.keywords: NET_BUFFER_LIST_COALESCED_SEG_COUNT
 req.header: ndis.h
 req.include-header:

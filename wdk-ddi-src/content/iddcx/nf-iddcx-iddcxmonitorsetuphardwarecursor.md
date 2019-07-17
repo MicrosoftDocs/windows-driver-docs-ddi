@@ -8,6 +8,8 @@ ms.assetid: 6182898d-d7c0-4ff2-b222-d83bd00cd1ec
 ms.date: 05/10/2018
 ms.keywords: IddCxMonitorSetupHardwareCursor, IddCxMonitorSetupHardwareCursor method [Display Devices], display.iddcxmonitorsetuphardwarecursor, iddcx/IddCxMonitorSetupHardwareCursor
 ms.topic: function
+f1_keywords:
+ - "iddcx/IddCxMonitorSetupHardwareCursor"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows

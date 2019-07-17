@@ -5,6 +5,8 @@ description: Arguments used to reset a tracked workload.
 ms.assetid: 3a2215f1-384a-4eec-9b96-f1290b561d02
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/_D3DKMT_RESETTRACKEDWORKLOAD"
 ms.keywords: _D3DKMT_RESETTRACKEDWORKLOAD, D3DKMT_RESETTRACKEDWORKLOAD, 
 req.header: d3dkmthk.h
 req.include-header:

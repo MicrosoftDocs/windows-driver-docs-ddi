@@ -8,6 +8,8 @@ ms.assetid: F4F3A591-B4BE-4367-A76A-820552F9B3B5
 ms.date: 04/16/2018
 ms.keywords: FILE_PIPE_BYTE_STREAM_MODE, FILE_PIPE_BYTE_STREAM_TYPE, FILE_PIPE_COMPLETE_OPERATION, FILE_PIPE_MESSAGE_MODE, FILE_PIPE_MESSAGE_TYPE, FILE_PIPE_QUEUE_COMPLETION, FltCreateNamedPipeFile, FltCreateNamedPipeFile function [Installable File System Drivers], fltkernel/FltCreateNamedPipeFile, ifsk.fltcreatenamedpipefile
 ms.topic: function
+f1_keywords:
+ - "fltkernel/FltCreateNamedPipeFile"
 req.header: fltkernel.h
 req.include-header: FltKernel.h
 req.target-type: Universal

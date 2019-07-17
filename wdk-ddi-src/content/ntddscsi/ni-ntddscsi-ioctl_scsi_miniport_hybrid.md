@@ -8,6 +8,8 @@ ms.assetid: 57DA022A-FAC6-4727-94E1-BCF6FEF1E945
 ms.date: 03/29/2018
 ms.keywords: IOCTL_SCSI_MINIPORT_HYBRID, IOCTL_SCSI_MINIPORT_HYBRID control, IOCTL_SCSI_MINIPORT_HYBRID control code [Storage Devices], ntddscsi/IOCTL_SCSI_MINIPORT_HYBRID, storage.ioctl_scsi_miniport_hybrid
 ms.topic: ioctl
+f1_keywords:
+ - "ntddscsi/IOCTL_SCSI_MINIPORT_HYBRID"
 req.header: ntddscsi.h
 req.include-header: Ntddscsi.h
 req.target-type: Windows

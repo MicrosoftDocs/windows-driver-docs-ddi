@@ -5,6 +5,8 @@ description: Parameters used in the D3D12DDI_RENDER_PASS_ENDING_ACCESS_0053 stru
 ms.assetid: b9e784ff-1cfd-49bc-a12e-fa60a8d30d27
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_RENDER_PASS_ENDING_ACCESS_RESOLVE_PARAMETERS_0053"
 ms.keywords: D3D12DDI_RENDER_PASS_ENDING_ACCESS_RESOLVE_PARAMETERS_0053, D3D12DDI_RENDER_PASS_ENDING_ACCESS_RESOLVE_PARAMETERS_0053, 
 req.header: d3d12umddi.h
 req.include-header:

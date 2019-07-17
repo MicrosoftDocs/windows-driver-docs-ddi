@@ -5,6 +5,8 @@ description: Each breakpoint which is created within the script via the SetBreak
 ms.assetid: 138bcb48-3c97-4633-9922-75d37e774027
 ms.date: 08/21/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDataModelScriptDebug.FindBreakpointById"
 ms.keywords: IDataModelScriptDebug::FindBreakpointById, FindBreakpointById, IDataModelScriptDebug.FindBreakpointById, IDataModelScriptDebug::FindBreakpointById, IDataModelScriptDebug.FindBreakpointById
 req.header: dbgmodel.h
 req.include-header:

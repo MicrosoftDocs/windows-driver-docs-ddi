@@ -8,6 +8,8 @@ ms.assetid: adc3e8a0-b261-47dc-ada2-bd21cb3ca954
 ms.date: 05/10/2018
 ms.keywords: D3DDDIARG_EXTENSIONEXECUTE, D3DDDIARG_EXTENSIONEXECUTE structure [Display Devices], UMDisplayDriver_param_Structs_99780923-fb21-4c84-bced-973ebfe44b1a.xml, _D3DDDIARG_EXTENSIONEXECUTE, d3dumddi/D3DDDIARG_EXTENSIONEXECUTE, display.d3dddiarg_extensionexecute
 ms.topic: struct
+f1_keywords:
+ - "d3dumddi/D3DDDIARG_EXTENSIONEXECUTE"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: c23d0d24-b043-4e39-afd3-abab6bb84769
 ms.date: 05/10/2018
 ms.keywords: IddCxAdapterInitAsync, IddCxAdapterInitAsync method [Display Devices], display.iddcxadapterinitasync, iddcx/IddCxAdapterInitAsync
 ms.topic: function
+f1_keywords:
+ - "iddcx/IddCxAdapterInitAsync"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows

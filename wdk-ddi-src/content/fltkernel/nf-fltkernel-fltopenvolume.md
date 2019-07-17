@@ -8,6 +8,8 @@ ms.assetid: 99cfa1eb-3d0f-4e27-9884-f5789ee328c3
 ms.date: 04/16/2018
 ms.keywords: FltApiRef_e_to_o_fa9d628c-94e6-46f5-9f8f-9923c554a15f.xml, FltOpenVolume, FltOpenVolume routine [Installable File System Drivers], fltkernel/FltOpenVolume, ifsk.fltopenvolume
 ms.topic: function
+f1_keywords:
+ - "fltkernel/FltOpenVolume"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

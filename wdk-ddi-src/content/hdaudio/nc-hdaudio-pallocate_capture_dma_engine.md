@@ -8,6 +8,8 @@ ms.assetid: 038e52be-04db-41c2-aa19-85bc4eb8bc57
 ms.date: 05/08/2018
 ms.keywords: AllocateCaptureDmaEngine, AllocateCaptureDmaEngine callback function [Audio Devices], PALLOCATE_CAPTURE_DMA_ENGINE, PALLOCATE_CAPTURE_DMA_ENGINE callback, aud-prop2_0eb8fa9c-157f-4979-8db1-362ec56cd3c3.xml, audio.allocatecapturedmaengine, hdaudio/AllocateCaptureDmaEngine
 ms.topic: callback
+f1_keywords:
+ - "hdaudio/AllocateCaptureDmaEngine"
 req.header: hdaudio.h
 req.include-header: Hdaudio.h
 req.target-type: Desktop

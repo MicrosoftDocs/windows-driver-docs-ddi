@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: aa582790-1277-4516-89fb-bff16ed3b8e7
 ms.date: 05/22/2018
 ms.topic: callback
+f1_keywords:
+ - "vmbuskernelmodeclientlibapi/FN_VMB_CHANNEL_SET_POINTER"
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header:
 req.target-type:

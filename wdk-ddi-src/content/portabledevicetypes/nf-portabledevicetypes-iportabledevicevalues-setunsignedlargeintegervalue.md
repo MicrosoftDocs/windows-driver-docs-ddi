@@ -8,6 +8,8 @@ ms.assetid: 717d1ea8-3315-4fa4-b066-c1529f57090f
 ms.date: 02/15/2018
 ms.keywords: IPortableDeviceValues interface,SetUnsignedLargeIntegerValue method, IPortableDeviceValues.SetUnsignedLargeIntegerValue, IPortableDeviceValues::SetUnsignedLargeIntegerValue, IPortableDeviceValuesSetUnsignedLargeIntegerValue, SetUnsignedLargeIntegerValue, SetUnsignedLargeIntegerValue method, SetUnsignedLargeIntegerValue method,IPortableDeviceValues interface, portabledevicetypes/IPortableDeviceValues::SetUnsignedLargeIntegerValue, wpddk.iportabledevicevalues_setunsignedlargeintegervalue
 ms.topic: method
+f1_keywords:
+ - "portabledevicetypes/IPortableDeviceValues.SetUnsignedLargeIntegerValue"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows

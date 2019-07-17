@@ -8,6 +8,8 @@ ms.assetid: 3E9ECB09-39DD-4A16-B096-24AAD96D52E9
 ms.date: 02/26/2018
 ms.keywords: PFN_WDFDEVICEREADFROMHARDWARE, WdfDeviceReadFromHardware, WdfDeviceReadFromHardware method, wdf.wdfdevicereadfromhardware, wdfdevice/WdfDeviceReadFromHardware, wdfhwaccess/WdfDeviceReadFromHardware
 ms.topic: function
+f1_keywords:
+ - "wdfdevice/WdfDeviceReadFromHardware"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

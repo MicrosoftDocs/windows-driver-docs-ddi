@@ -8,6 +8,8 @@ ms.assetid: 673f53e8-67ce-481d-be1b-ea4146b9776a
 ms.date: 02/26/2018
 ms.keywords: DFIOTargetRef_065d8ea7-7be0-41c4-be6b-648606404139.xml, WdfIoTargetFormatRequestForIoctl, WdfIoTargetFormatRequestForIoctl method, kmdf.wdfiotargetformatrequestforioctl, wdf.wdfiotargetformatrequestforioctl, wdfiotarget/WdfIoTargetFormatRequestForIoctl
 ms.topic: function
+f1_keywords:
+ - "wdfiotarget/WdfIoTargetFormatRequestForIoctl"
 req.header: wdfiotarget.h
 req.include-header: Wdf.h
 req.target-type: Universal

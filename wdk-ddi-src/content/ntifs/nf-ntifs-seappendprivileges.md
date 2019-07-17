@@ -8,6 +8,8 @@ ms.assetid: b7a9142a-b6db-4a64-a5e3-d03d39ac3d09
 ms.date: 04/16/2018
 ms.keywords: SeAppendPrivileges, SeAppendPrivileges routine [Installable File System Drivers], ifsk.seappendprivileges, ntifs/SeAppendPrivileges, seref_c48fbff8-669f-4138-8f55-84bc083d9af5.xml
 ms.topic: function
+f1_keywords:
+ - "ntifs/SeAppendPrivileges"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

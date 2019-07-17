@@ -8,6 +8,8 @@ ms.assetid: 14205476-3f58-4105-99a7-a3baa2eba033
 ms.date: 05/03/2018
 ms.keywords: ChangeEngineState, ChangeEngineState method [Windows Debugging], ChangeEngineState method [Windows Debugging],IDebugEventCallbacksWide interface, IDebugEventCallbacksWide interface [Windows Debugging],ChangeEngineState method, IDebugEventCallbacksWide.ChangeEngineState, IDebugEventCallbacksWide::ChangeEngineState, dbgeng/IDebugEventCallbacksWide::ChangeEngineState, debugger.idebugeventcallbackswide_changeenginestate
 ms.topic: method
+f1_keywords:
+ - "dbgeng/IDebugEventCallbacksWide.ChangeEngineState"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

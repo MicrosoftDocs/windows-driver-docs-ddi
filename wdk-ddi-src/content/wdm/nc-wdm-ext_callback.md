@@ -8,6 +8,8 @@ ms.assetid: 4BE0A753-58A6-4868-9A04-B9A0710A02A5
 ms.date: 04/30/2018
 ms.keywords: EXT_CALLBACK, ExTimerCallback, ExTimerCallback routine [Kernel-Mode Driver Architecture], kernel.extimercallback, wdm/ExTimerCallback
 ms.topic: callback
+f1_keywords:
+ - "wdm/ExTimerCallback"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop

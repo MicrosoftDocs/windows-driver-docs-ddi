@@ -5,6 +5,8 @@ description:
 ms.assetid: e8efc920-4aea-49fa-a773-bb42d06d2e34
 ms.date: 10/19/2018
 ms.topic: function
+f1_keywords:
+ - "systemrng/EntropyPoolTriggerReseedForIum"
 ms.keywords: EntropyPoolTriggerReseedForIum
 req.header: systemrng.h
 req.include-header:

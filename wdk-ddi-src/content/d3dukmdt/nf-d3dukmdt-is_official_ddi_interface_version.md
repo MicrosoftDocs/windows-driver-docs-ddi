@@ -5,6 +5,8 @@ description: Indicates whether the interface version is an official DDI.
 ms.assetid: f2f61c6f-9bb9-44f6-9880-f48d5573be8f
 ms.date: 10/19/2018
 ms.topic: macro
+f1_keywords:
+ - "d3dukmdt/IS_OFFICIAL_DDI_INTERFACE_VERSION"
 ms.keywords: IS_OFFICIAL_DDI_INTERFACE_VERSION
 req.header: d3dukmdt.h
 req.include-header:

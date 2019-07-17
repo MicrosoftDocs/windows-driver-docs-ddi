@@ -8,6 +8,8 @@ ms.assetid: 0da424f5-2970-497c-8965-af627fd582ff
 ms.date: 05/02/2018
 ms.keywords: RILDISPLAYINFOTYPE, RILDISPLAYINFOTYPE enumeration [Network Drivers Starting with Windows Vista], netvista.rildisplayinfotype, ntddrilapitypes/RILDISPLAYINFOTYPE
 ms.topic: enum
+f1_keywords:
+ - "rilapitypes/RILDISPLAYINFOTYPE"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

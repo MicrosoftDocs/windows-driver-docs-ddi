@@ -8,6 +8,8 @@ ms.assetid: 9587928C-6C40-4550-820A-B77968E3E16A
 ms.date: 02/23/2018
 ms.keywords: EVT_POS_CX_DEVICE_OWNERSHIP_CHANGE, EVT_POS_CX_DEVICE_OWNERSHIP_CHANGE callback, EvtPosCxDeviceOwnershipChange, EvtPosCxDeviceOwnershipChange callback function, pos.evt_pos_cx_device_ownership_change, poscx/EvtPosCxDeviceOwnershipChange
 ms.topic: callback
+f1_keywords:
+ - "poscx/EvtPosCxDeviceOwnershipChange"
 req.header: poscx.h
 req.include-header: Poscx.h
 req.target-type: Windows

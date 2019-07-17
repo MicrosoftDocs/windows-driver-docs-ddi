@@ -8,6 +8,8 @@ ms.assetid: 892fe11a-4dfd-43cb-8f9a-b148d81a087f
 ms.date: 05/10/2018
 ms.keywords: "*LPD3DHAL_DP2DRAWRECTPATCH, D3DHAL_DP2DRAWRECTPATCH, D3DHAL_DP2DRAWRECTPATCH structure [Display Devices], LPD3DHAL_DP2DRAWRECTPATCH, LPD3DHAL_DP2DRAWRECTPATCH structure pointer [Display Devices], _D3DHAL_DP2DRAWRECTPATCH, d3dhal/D3DHAL_DP2DRAWRECTPATCH, d3dhal/LPD3DHAL_DP2DRAWRECTPATCH, d3dstrct_beda6033-07b1-4985-8eac-6bb49bcce07e.xml, display.d3dhal_dp2drawrectpatch"
 ms.topic: struct
+f1_keywords:
+ - "d3dhal/D3DHAL_DP2DRAWRECTPATCH"
 req.header: d3dhal.h
 req.include-header: D3dhal.h
 req.target-type: Windows

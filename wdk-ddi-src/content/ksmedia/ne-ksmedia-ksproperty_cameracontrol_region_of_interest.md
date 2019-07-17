@@ -8,6 +8,8 @@ ms.assetid: 58886030-4fb6-432b-9ec1-9eb54350edb4
 ms.date: 04/23/2018
 ms.keywords: KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST, KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST enumeration [Streaming Media Devices], KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_PROPERTY_ID, ksmedia/KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST, ksmedia/KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_PROPERTY_ID, stream.ksproperty_cameracontrol_region_of_interest
 ms.topic: enum
+f1_keywords:
+ - "ksmedia/KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows

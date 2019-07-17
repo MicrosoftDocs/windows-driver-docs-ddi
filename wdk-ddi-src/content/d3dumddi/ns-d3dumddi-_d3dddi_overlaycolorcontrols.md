@@ -8,6 +8,8 @@ ms.assetid: 201fd9e8-74c3-4da0-b01d-f43f9aec4894
 ms.date: 05/10/2018
 ms.keywords: D3DDDI_OVERLAYCOLORCONTROLS, D3DDDI_OVERLAYCOLORCONTROLS structure [Display Devices], D3D_other_Structs_276dd56c-35ba-4ee4-97d7-adb8dfd59c7f.xml, _D3DDDI_OVERLAYCOLORCONTROLS, d3dumddi/D3DDDI_OVERLAYCOLORCONTROLS, display.d3dddi_overlaycolorcontrols
 ms.topic: struct
+f1_keywords:
+ - "d3dumddi/D3DDDI_OVERLAYCOLORCONTROLS"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

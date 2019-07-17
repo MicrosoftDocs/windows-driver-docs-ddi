@@ -8,6 +8,8 @@ ms.assetid: f35e1ed4-eaa9-423c-95cb-5eb96231d592
 ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectFdoPdoRef_a4198313-bd10-4b8a-a032-f253cdaccc7b.xml, WdfPdoMarkMissing, WdfPdoMarkMissing method, kmdf.wdfpdomarkmissing, wdf.wdfpdomarkmissing, wdfpdo/WdfPdoMarkMissing
 ms.topic: function
+f1_keywords:
+ - "wdfpdo/WdfPdoMarkMissing"
 req.header: wdfpdo.h
 req.include-header: Wdf.h
 req.target-type: Universal

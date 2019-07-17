@@ -5,6 +5,8 @@ description: Offer flags.
 ms.assetid: 2666f6d1-2dd4-4fa1-8951-aa05be2d3a51
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3dukmdt/D3DDDI_OFFER_FLAGS"
 ms.keywords: D3DDDI_OFFER_FLAGS, D3DDDI_OFFER_FLAGS, 
 req.header: d3dukmdt.h
 req.include-header:

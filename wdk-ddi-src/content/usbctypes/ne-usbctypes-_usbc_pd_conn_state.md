@@ -5,6 +5,8 @@ description: Defines power delivery (PD) negotiation states of a Type-C port.
 ms.assetid: 27f676a8-610a-4984-8a41-0d8cb446b726
 ms.date: 09/30/2018
 ms.topic: enum
+f1_keywords:
+ - "usbctypes/_USBC_PD_CONN_STATE"
 ms.keywords: _USBC_PD_CONN_STATE, USBC_PD_CONN_STATE, 
 req.header: usbctypes.h
 req.include-header: usbctypes.h

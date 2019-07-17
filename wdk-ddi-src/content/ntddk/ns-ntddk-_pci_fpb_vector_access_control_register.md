@@ -6,6 +6,8 @@ tech.root: pci
 ms.assetid: 18203808-fb82-474e-8471-ab492914c0db
 ms.date: 09/30/2018
 ms.topic: struct
+f1_keywords:
+ - "ntddk/_PCI_FPB_VECTOR_ACCESS_CONTROL_REGISTER"
 ms.keywords: _PCI_FPB_VECTOR_ACCESS_CONTROL_REGISTER, PCI_FPB_VECTOR_ACCESS_CONTROL_REGISTER, *PPCI_FPB_VECTOR_ACCESS_CONTROL_REGISTER, 
 req.header: ntddk.h
 req.include-header:

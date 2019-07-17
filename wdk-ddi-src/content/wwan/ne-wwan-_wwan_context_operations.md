@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 30c43b14-55c8-4f24-855d-23a3e017ad01
 ms.date: 08/22/2018
 ms.topic: enum
+f1_keywords:
+ - "wwan/_WWAN_CONTEXT_OPERATIONS"
 ms.keywords: _WWAN_CONTEXT_OPERATIONS, WWAN_CONTEXT_OPERATIONS, *PWWAN_CONTEXT_OPERATIONS, 
 req.header: wwan.h
 req.include-header:

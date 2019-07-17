@@ -8,6 +8,8 @@ ms.assetid: a551f469-96f4-42cf-826d-3557cc13ce29
 ms.date: 05/02/2018
 ms.keywords: "*LPRILUICCAPPDATACHANGE, RILUICCAPPDATACHANGE, RILUICCAPPDATACHANGE structure [Network Drivers Starting with Windows Vista], netvista.riluiccappdatachange, ntddrilapitypes/RILUICCAPPDATACHANGE"
 ms.topic: struct
+f1_keywords:
+ - "rilapitypes/RILUICCAPPDATACHANGE"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

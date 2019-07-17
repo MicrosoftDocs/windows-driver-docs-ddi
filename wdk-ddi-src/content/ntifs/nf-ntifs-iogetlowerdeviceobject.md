@@ -8,6 +8,8 @@ ms.assetid: 2446dfee-baa4-4f7b-a5a0-ff13bf45ce4b
 ms.date: 04/16/2018
 ms.keywords: IoGetLowerDeviceObject, IoGetLowerDeviceObject routine [Installable File System Drivers], ifsk.iogetlowerdeviceobject, ioref_0739069f-c14d-4b35-accd-8d65954bbc3d.xml, ntifs/IoGetLowerDeviceObject
 ms.topic: function
+f1_keywords:
+ - "ntifs/IoGetLowerDeviceObject"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

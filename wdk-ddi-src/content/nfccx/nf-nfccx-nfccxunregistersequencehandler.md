@@ -8,6 +8,8 @@ ms.assetid: 689BF221-22CA-43B4-A5EB-ECE0B78F520B
 ms.date: 02/15/2018
 ms.keywords: NfcCxUnregisterSequenceHandler, NfcCxUnregisterSequenceHandler method [Near-Field Proximity Drivers], nfccx/NfcCxUnregisterSequenceHandler, nfpdrivers._nfccxunregistersequencehandler
 ms.topic: function
+f1_keywords:
+ - "nfccx/NfcCxUnregisterSequenceHandler"
 req.header: nfccx.h
 req.include-header: Ncidef.h
 req.target-type: Windows

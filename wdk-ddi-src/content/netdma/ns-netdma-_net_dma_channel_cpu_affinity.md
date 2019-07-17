@@ -8,6 +8,8 @@ ms.assetid: 660fb475-fa0a-4e04-9a91-e60422ff9292
 ms.date: 05/02/2018
 ms.keywords: "*PNET_DMA_CHANNEL_CPU_AFFINITY, NET_DMA_CHANNEL_CPU_AFFINITY, NET_DMA_CHANNEL_CPU_AFFINITY structure [Network Drivers Starting with Windows Vista], PNET_DMA_CHANNEL_CPU_AFFINITY, PNET_DMA_CHANNEL_CPU_AFFINITY structure pointer [Network Drivers Starting with Windows Vista], _NET_DMA_CHANNEL_CPU_AFFINITY, netdma/NET_DMA_CHANNEL_CPU_AFFINITY, netdma/PNET_DMA_CHANNEL_CPU_AFFINITY, netdma_ref_49129d06-9557-4441-bad7-f86b3189a287.xml, netvista.net_dma_channel_cpu_affinity"
 ms.topic: struct
+f1_keywords:
+ - "netdma/NET_DMA_CHANNEL_CPU_AFFINITY"
 req.header: netdma.h
 req.include-header: Netdma.h
 req.target-type: Windows

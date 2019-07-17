@@ -8,6 +8,8 @@ ms.assetid: 7C48D179-35FA-44E1-B959-BD857AAA28E1
 ms.date: 03/29/2018
 ms.keywords: FsRtlPrepareMdlWriteDev, FsRtlPrepareMdlWriteDev routine [Installable File System Drivers], fltkernel/FsRtlPrepareMdlWriteDev, ifsk.fltfastiopreparemdlwrite
 ms.topic: function
+f1_keywords:
+ - "ntifs/FsRtlPrepareMdlWriteDev"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

@@ -8,6 +8,8 @@ ms.assetid: 21737c1a-dd9d-4011-85c0-7ff871265ed5
 ms.date: 04/30/2018
 ms.keywords: InterfaceReference, InterfaceReference routine [Kernel-Mode Driver Architecture], PINTERFACE_REFERENCE, drvr_interface_d7092619-d2e6-4ca6-bbd3-f857d775f73e.xml, kernel.interfacereference, wdm/InterfaceReference
 ms.topic: callback
+f1_keywords:
+ - "wdm/InterfaceReference"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Miniport.h, Wudfwdm.h
 req.target-type: Desktop

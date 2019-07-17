@@ -8,6 +8,8 @@ ms.assetid: 5dc9f04b-8d7c-4ac7-9518-8836d56d5eed
 ms.date: 03/29/2018
 ms.keywords: "*PDISK_CONTROLLER_NUMBER, DISK_CONTROLLER_NUMBER, DISK_CONTROLLER_NUMBER structure [Storage Devices], PDISK_CONTROLLER_NUMBER, PDISK_CONTROLLER_NUMBER structure pointer [Storage Devices], _DISK_CONTROLLER_NUMBER, ntdddisk/DISK_CONTROLLER_NUMBER, ntdddisk/PDISK_CONTROLLER_NUMBER, storage.disk_controller_number, structs-disk_5cf21b24-f10f-4484-bb76-22dff0b4e32c.xml"
 ms.topic: struct
+f1_keywords:
+ - "ntdddisk/DISK_CONTROLLER_NUMBER"
 req.header: ntdddisk.h
 req.include-header: Ntdddisk.h, Ntddk.h, Ntdddisk.h
 req.target-type: Windows

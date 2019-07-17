@@ -5,6 +5,8 @@ description: Creates a command list.
 ms.assetid: ff7999b0-ba8c-4302-b1b8-a65d6ccb2822
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_CREATE_COMMAND_LIST_0001"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

@@ -8,6 +8,8 @@ ms.assetid: eaeff5fe-a678-44e5-a78d-ef4816708878
 ms.date: 04/16/2018
 ms.keywords: RtlInsertAsRightChild, RtlInsertAsRightChild routine [Installable File System Drivers], ifsk.rtlinsertasrightchild, ntddk/RtlInsertAsRightChild, rtlref_e16d0af2-9299-4fda-96ad-75a39f3e505f.xml
 ms.topic: function
+f1_keywords:
+ - "ntddk/RtlInsertAsRightChild"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Desktop

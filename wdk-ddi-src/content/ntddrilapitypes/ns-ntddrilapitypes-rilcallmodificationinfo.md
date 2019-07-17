@@ -8,6 +8,8 @@ ms.assetid: 568603d9-0f96-49f7-a6f8-3c69d889cea7
 ms.date: 05/02/2018
 ms.keywords: "*LPRILCALLMODIFICATIONINFO, RILCALLMODIFICATIONINFO, RILCALLMODIFICATIONINFO structure [Network Drivers Starting with Windows Vista], netvista.rilcallmodificationinfo, ntddrilapitypes/RILCALLMODIFICATIONINFO"
 ms.topic: struct
+f1_keywords:
+ - "ntddrilapitypes/RILCALLMODIFICATIONINFO"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

@@ -7,6 +7,8 @@ ms.assetid: 1820e11c-0888-4d6d-aa75-b895c863eb43
 ms.date: 05/10/2018
 ms.keywords: D3DKMT_OUTPUTDUPLPRESENT, D3DKMT_OUTPUTDUPLPRESENT structure [Display Devices], _D3DKMT_OUTPUTDUPLPRESENT, d3dkmthk/D3DKMT_OUTPUTDUPLPRESENT, display.d3dkmt_outputduplpresent
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/D3DKMT_OUTPUTDUPLPRESENT"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

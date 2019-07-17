@@ -8,6 +8,8 @@ ms.assetid: 8418ed17-39f0-4a3b-9eb5-453c7cc2ae98
 ms.date: 04/16/2018
 ms.keywords: RxResumeBlockedOperations_Serially, RxResumeBlockedOperations_Serially , RxResumeBlockedOperations_Serially function [Installable File System Drivers], ifsk.rxresumeblockedoperations_serially, rxcontx/RxResumeBlockedOperations_Serially, rxref_b1284b31-72f0-4e0e-9602-817080b96e16.xml
 ms.topic: function
+f1_keywords:
+ - "rxcontx/RxResumeBlockedOperations_Serially"
 req.header: rxcontx.h
 req.include-header: Rxcontx.h
 req.target-type: Desktop

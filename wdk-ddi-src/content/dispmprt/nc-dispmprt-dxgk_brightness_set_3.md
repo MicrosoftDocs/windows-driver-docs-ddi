@@ -5,6 +5,8 @@ description: DxgkBrightnessSet3 Directs the driver to linearly ramp the brightne
 ms.assetid: 8466303f-b811-43e0-91e2-4322a5f3fa83
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "dispmprt/DXGK_BRIGHTNESS_SET_3"
 req.header: dispmprt.h
 req.include-header:
 req.target-type:

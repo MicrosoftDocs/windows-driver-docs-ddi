@@ -8,6 +8,8 @@ ms.assetid: 65cbed1a-35f9-44f7-941a-ffc87cc79649
 ms.date: 03/29/2018
 ms.keywords: AtaPortDeviceReady, AtaPortDeviceReady routine [Storage Devices], atartns_28cebf8c-cdda-46f4-9785-184552630769.xml, irb/AtaPortDeviceReady, storage.ataportdeviceready
 ms.topic: function
+f1_keywords:
+ - "irb/AtaPortDeviceReady"
 req.header: irb.h
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop

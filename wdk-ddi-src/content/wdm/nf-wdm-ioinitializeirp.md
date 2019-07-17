@@ -8,6 +8,8 @@ ms.assetid: 3b5cc1af-ab3b-4583-9ef9-39132789e74f
 ms.date: 04/30/2018
 ms.keywords: IoInitializeIrp, IoInitializeIrp routine [Kernel-Mode Driver Architecture], k104_5c9dc7a8-747c-4832-a31b-5936e2d3361d.xml, kernel.ioinitializeirp, wdm/IoInitializeIrp
 ms.topic: function
+f1_keywords:
+ - "wdm/IoInitializeIrp"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

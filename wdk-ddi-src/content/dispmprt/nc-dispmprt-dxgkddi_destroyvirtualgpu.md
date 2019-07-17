@@ -8,6 +8,8 @@ ms.assetid: 3c27b27a-265d-4a6e-ac2b-bb8998d2c3b8
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
 ms.topic: callback
+f1_keywords:
+ - "dispmprt/DXGKDDI_DESTROYVIRTUALGPU"
 req.header: dispmprt.h
 req.include-header:
 req.target-type:

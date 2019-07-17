@@ -8,6 +8,8 @@ ms.assetid: 3d97741f-870d-4018-870f-2c4aecf960de
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
 ms.topic: function
+f1_keywords:
+ - "dispmprt/DlEnumerateChildren"
 ms.keywords: DlEnumerateChildren
 req.header: dispmprt.h
 req.include-header:

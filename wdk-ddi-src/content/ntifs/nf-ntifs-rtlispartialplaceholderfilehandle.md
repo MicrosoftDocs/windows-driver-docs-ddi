@@ -8,6 +8,8 @@ ms.assetid: A80C5714-525F-4E07-851D-2E203DD9387A
 ms.date: 04/16/2018
 ms.keywords: RtlIsPartialPlaceholderFileHandle, RtlIsPartialPlaceholderFileHandle routine [Installable File System Drivers], ifsk.rtlispartialplaceholderfilehandle, ntifs/RtlIsPartialPlaceholderFileHandle
 ms.topic: function
+f1_keywords:
+ - "ntifs/RtlIsPartialPlaceholderFileHandle"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows

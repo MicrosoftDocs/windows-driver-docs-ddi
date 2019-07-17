@@ -7,6 +7,8 @@ ms.assetid: 7bfcef0b-1371-4e3b-b5dc-c4c548625c8f
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_MONITORDESCRIPTORSET_GETNUMDESCRIPTORS, DXGKDDI_MONITORDESCRIPTORSET_GETNUMDESCRIPTORS callback, VidPnFunctions_c2c4ad34-be07-4bd8-8576-e91b4549ca95.xml, d3dkmddi/pfnGetNumDescriptors, display.dxgk_monitordescriptorset_interface_pfngetnumdescriptors, pfnGetNumDescriptors, pfnGetNumDescriptors callback function [Display Devices]
 ms.topic: callback
+f1_keywords:
+ - "d3dkmddi/pfnGetNumDescriptors"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Desktop

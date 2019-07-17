@@ -5,6 +5,8 @@ description: This structure represents a linear range of supported millinit leve
 ms.assetid: 39ca173d-97a6-4eb3-bb6c-436801c56d1b
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3dkmdt/_DXGK_BRIGHTNESS_NIT_RANGE"
 ms.keywords: _DXGK_BRIGHTNESS_NIT_RANGE, DXGK_BRIGHTNESS_NIT_RANGE,
 req.header: d3dkmdt.h
 req.include-header:

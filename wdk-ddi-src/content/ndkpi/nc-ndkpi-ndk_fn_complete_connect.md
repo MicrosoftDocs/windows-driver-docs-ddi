@@ -8,6 +8,8 @@ ms.assetid: 85AD83CE-C00F-4D5A-BCDE-22D1B83201A8
 ms.date: 05/02/2018
 ms.keywords: NDK_FN_COMPLETE_CONNECT, NDK_FN_COMPLETE_CONNECT callback, NdkCompleteConnect, NdkCompleteConnect callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkCompleteConnect, netvista.ndk_fn_complete_connect
 ms.topic: callback
+f1_keywords:
+ - "ndkpi/NdkCompleteConnect"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows

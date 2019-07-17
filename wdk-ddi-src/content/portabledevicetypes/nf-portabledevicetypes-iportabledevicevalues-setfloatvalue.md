@@ -8,6 +8,8 @@ ms.assetid: 60e4ce74-5d8e-49d4-af16-84ea66557b60
 ms.date: 02/15/2018
 ms.keywords: IPortableDeviceValues interface,SetFloatValue method, IPortableDeviceValues.SetFloatValue, IPortableDeviceValues::SetFloatValue, IPortableDeviceValuesSetFloatValue, SetFloatValue, SetFloatValue method, SetFloatValue method,IPortableDeviceValues interface, portabledevicetypes/IPortableDeviceValues::SetFloatValue, wpddk.iportabledevicevalues_setfloatvalue
 ms.topic: method
+f1_keywords:
+ - "portabledevicetypes/IPortableDeviceValues.SetFloatValue"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows

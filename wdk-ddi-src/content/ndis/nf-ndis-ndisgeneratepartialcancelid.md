@@ -8,6 +8,8 @@ ms.assetid: a26e9602-058b-401b-85be-9d80e4ef213b
 ms.date: 05/02/2018
 ms.keywords: NdisGeneratePartialCancelId, NdisGeneratePartialCancelId function [Network Drivers Starting with Windows Vista], ndis/NdisGeneratePartialCancelId, netvista.ndisgeneratepartialcancelid, protocol_ndis_functions_ref_0d6b9e5a-d346-46a0-8f1c-d6677df53f1c.xml
 ms.topic: function
+f1_keywords:
+ - "ndis/NdisGeneratePartialCancelId"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

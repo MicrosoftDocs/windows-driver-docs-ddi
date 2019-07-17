@@ -8,6 +8,8 @@ ms.assetid: 58c1d222-72c5-4b40-9ae5-f633bac599f0
 ms.date: 04/30/2018
 ms.keywords: ClfsSetArchiveTail, ClfsSetArchiveTail routine [Kernel-Mode Driver Architecture], Clfs_f5685e7e-3098-461d-aff1-807011c36526.xml, kernel.clfssetarchivetail, wdm/ClfsSetArchiveTail
 ms.topic: function
+f1_keywords:
+ - "wdm/ClfsSetArchiveTail"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop

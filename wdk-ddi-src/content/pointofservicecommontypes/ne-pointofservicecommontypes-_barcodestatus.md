@@ -8,6 +8,8 @@ ms.assetid: b89ee18b-229d-4ec7-8c69-1b75ad0f3448
 ms.date: 02/23/2018
 ms.keywords: BarcodeStatus, BarcodeStatus enumeration, BarcodeStatusUpdateType_Extended, BarcodeStatusUpdateType_Off, BarcodeStatusUpdateType_OffOrOffline, BarcodeStatusUpdateType_Offline, BarcodeStatusUpdateType_Online, _BarcodeStatus, pointofservicecommontypes/BarcodeStatus, pointofservicecommontypes/BarcodeStatusUpdateType_Extended, pointofservicecommontypes/BarcodeStatusUpdateType_Off, pointofservicecommontypes/BarcodeStatusUpdateType_OffOrOffline, pointofservicecommontypes/BarcodeStatusUpdateType_Offline, pointofservicecommontypes/BarcodeStatusUpdateType_Online, pos.barcodestatus
 ms.topic: enum
+f1_keywords:
+ - "pointofservicecommontypes/BarcodeStatus"
 req.header: pointofservicecommontypes.h
 req.include-header: Pointofservicecommontypes.h
 req.target-type: Windows

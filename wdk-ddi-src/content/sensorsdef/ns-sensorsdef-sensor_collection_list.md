@@ -8,6 +8,8 @@ ms.assetid: B842C707-C6E0-4C56-986E-35BFD32F265D
 ms.date: 05/03/2018
 ms.keywords: "*PSENSOR_COLLECTION_LIST, PSENSOR_COLLECTION_LIST, PSENSOR_COLLECTION_LIST structure pointer [Sensor Devices], SENSOR_COLLECTION_LIST, SENSOR_COLLECTION_LIST structure [Sensor Devices], sensors.sensor_collection_list, sensorsdef/PSENSOR_COLLECTION_LIST, sensorsdef/SENSOR_COLLECTION_LIST"
 ms.topic: struct
+f1_keywords:
+ - "sensorsdef/SENSOR_COLLECTION_LIST"
 req.header: sensorsdef.h
 req.include-header: 
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: aff9cb60-d61b-47a8-aae4-6ffd2a1b7a9a
 ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_7329adf6-5814-40cb-ac9b-a7fb67b5f05c.xml, EVT_WDFDEVICE_WDM_IRP_PREPROCESS, EVT_WDFDEVICE_WDM_IRP_PREPROCESS callback, EvtDeviceWdmIrpPreprocess, EvtDeviceWdmIrpPreprocess callback function, kmdf.evtdevicewdmirppreprocess, wdf.evtdevicewdmirppreprocess, wdfdevice/EvtDeviceWdmIrpPreprocess
 ms.topic: callback
+f1_keywords:
+ - "wdfdevice/EvtDeviceWdmIrpPreprocess"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

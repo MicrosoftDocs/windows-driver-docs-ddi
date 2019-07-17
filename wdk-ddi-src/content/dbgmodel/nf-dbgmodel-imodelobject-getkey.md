@@ -5,6 +5,8 @@ description: The GetKey method will get the value of (and the metadata associate
 ms.assetid: 533111d9-50cd-4bd3-8807-6c9be2374fba
 ms.date: 08/09/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IModelObject.GetKey"
 ms.keywords: IModelObject::GetKey, GetKey, IModelObject.GetKey, IModelObject::GetKey, IModelObject.GetKey
 req.header: dbgmodel.h
 req.include-header:

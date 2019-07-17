@@ -7,6 +7,8 @@ ms.assetid: 551154d7-950d-40e5-810b-8d803c1731ca
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_OPENALLOCATIONINFO, DXGKDDI_OPENALLOCATIONINFO callback, DmFunctions_e27ad0cd-ae79-4207-abb0-68f048452101.xml, DxgkDdiOpenAllocation, DxgkDdiOpenAllocation callback function [Display Devices], d3dkmddi/DxgkDdiOpenAllocation, display.dxgkddiopenallocation
 ms.topic: callback
+f1_keywords:
+ - "d3dkmddi/DxgkDdiOpenAllocation"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Desktop

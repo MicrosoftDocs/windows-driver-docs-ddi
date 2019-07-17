@@ -8,6 +8,8 @@ ms.assetid: 159a8dd0-6efa-4f2c-921c-c427e1cf59ec
 ms.date: 04/23/2018
 ms.keywords: "*PKS_DVDCOPY_REGION, KS_DVDCOPY_REGION, KS_DVDCOPY_REGION structure [Streaming Media Devices], PKS_DVDCOPY_REGION, PKS_DVDCOPY_REGION structure pointer [Streaming Media Devices], _KS_DVDCOPY_REGION, dvdref_ff087f30-2337-4b0f-8ae1-8a42cacaa5ae.xml, ksmedia/KS_DVDCOPY_REGION, ksmedia/PKS_DVDCOPY_REGION, stream.ks_dvdcopy_region"
 ms.topic: struct
+f1_keywords:
+ - "ksmedia/KS_DVDCOPY_REGION"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows

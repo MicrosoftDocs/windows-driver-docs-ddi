@@ -8,6 +8,8 @@ ms.assetid: efaea94e-0cfd-49a7-b8dc-452aa006b024
 ms.date: 05/10/2018
 ms.keywords: IOCTL_VIDEO_SET_COLOR_REGISTERS, IOCTL_VIDEO_SET_COLOR_REGISTERS control, IOCTL_VIDEO_SET_COLOR_REGISTERS control code [Display Devices], Video_IOCTLs_29dd4eb9-3c05-4b2f-8572-66b7c599fef1.xml, display.ioctl_video_set_color_registers, ntddvdeo/IOCTL_VIDEO_SET_COLOR_REGISTERS
 ms.topic: ioctl
+f1_keywords:
+ - "ntddvdeo/IOCTL_VIDEO_SET_COLOR_REGISTERS"
 req.header: ntddvdeo.h
 req.include-header: 
 req.target-type: Windows

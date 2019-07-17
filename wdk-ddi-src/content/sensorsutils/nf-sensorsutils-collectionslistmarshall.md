@@ -5,6 +5,8 @@ description: This routine is similar to CollectionsListCopyAndMarshall, except t
 ms.assetid: e3f361d5-278a-4904-babf-7149a038b2fb
 ms.date: 08/08/2018
 ms.topic: function
+f1_keywords:
+ - "sensorsutils/CollectionsListMarshall"
 tech.root: sensors
 ms.keywords: CollectionsListMarshall
 req.header: sensorsutils.h

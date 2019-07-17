@@ -8,6 +8,8 @@ ms.assetid: fa9fedc5-cacc-409a-99f5-7103b5424b3c
 ms.date: 04/23/2018
 ms.keywords: "*PAVC_SUBUNIT_ADDR_SPEC, AVC_SUBUNIT_ADDR_SPEC, AVC_SUBUNIT_ADDR_SPEC structure [Streaming Media Devices], PAVC_SUBUNIT_ADDR_SPEC, PAVC_SUBUNIT_ADDR_SPEC structure pointer [Streaming Media Devices], _AVC_SUBUNIT_ADDR_SPEC, avc/AVC_SUBUNIT_ADDR_SPEC, avc/PAVC_SUBUNIT_ADDR_SPEC, avcref_56141f06-dd51-40cb-874a-ec136ec7683f.xml, stream.avc_subunit_addr_spec"
 ms.topic: struct
+f1_keywords:
+ - "avc/AVC_SUBUNIT_ADDR_SPEC"
 req.header: avc.h
 req.include-header: Avc.h
 req.target-type: Windows

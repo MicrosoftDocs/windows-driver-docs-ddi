@@ -8,6 +8,8 @@ ms.assetid: e964ed63-6c00-4308-955c-f8a99490a248
 ms.date: 05/03/2018
 ms.keywords: "*PDEBUG_THREAD_BASIC_INFORMATION, DEBUG_THREAD_BASIC_INFORMATION, DEBUG_THREAD_BASIC_INFORMATION structure [Windows Debugging], PDEBUG_THREAD_BASIC_INFORMATION, PDEBUG_THREAD_BASIC_INFORMATION structure pointer [Windows Debugging], Structures_e48c9daa-ce4f-4131-9ca6-cb1a7a129fcc.xml, _DEBUG_THREAD_BASIC_INFORMATION, dbgeng/DEBUG_THREAD_BASIC_INFORMATION, dbgeng/PDEBUG_THREAD_BASIC_INFORMATION, debugger.debug_thread_basic_information"
 ms.topic: struct
+f1_keywords:
+ - "dbgeng/DEBUG_THREAD_BASIC_INFORMATION"
 req.header: dbgeng.h
 req.include-header: DbgEng.h
 req.target-type: Windows

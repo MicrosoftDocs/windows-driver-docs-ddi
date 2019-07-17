@@ -8,6 +8,8 @@ ms.assetid: 765A420C-F406-4A46-BDCC-26A451549F8D
 ms.date: 03/29/2018
 ms.keywords: "*PSTOR_RICH_DEVICE_DESCRIPTION, PSTOR_RICH_DEVICE_DESCRIPTION, PSTOR_RICH_DEVICE_DESCRIPTION structure pointer [Storage Devices], STOR_RICH_DEVICE_DESCRIPTION, STOR_RICH_DEVICE_DESCRIPTION structure [Storage Devices], _STOR_RICH_DEVICE_DESCRIPTION, storage.stor_rich_device_description, storport/PSTOR_RICH_DEVICE_DESCRIPTION, storport/STOR_RICH_DEVICE_DESCRIPTION"
 ms.topic: struct
+f1_keywords:
+ - "storport/STOR_RICH_DEVICE_DESCRIPTION"
 req.header: storport.h
 req.include-header: 
 req.target-type: Windows

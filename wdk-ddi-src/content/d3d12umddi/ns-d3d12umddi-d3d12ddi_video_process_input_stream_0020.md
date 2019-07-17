@@ -7,6 +7,8 @@ ms.assetid: DB0AF7A5-8E90-45B8-AF9C-58BFF7CE066E
 ms.date: 05/10/2018
 ms.keywords: D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_0020, D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_0020 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_0020, display.d3d12ddi_video_process_input_stream
 ms.topic: struct
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_0020"
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows

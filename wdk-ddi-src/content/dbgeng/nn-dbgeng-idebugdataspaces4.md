@@ -8,6 +8,8 @@ ms.assetid: e03202a5-2e4a-43f8-8183-fdd26df6ff8f
 ms.date: 05/03/2018
 ms.keywords: IDebugDataSpaces4, IDebugDataSpaces4 interface [Windows Debugging], IDebugDataSpaces4 interface [Windows Debugging],described, dbgeng/IDebugDataSpaces4, debugger.idebugdataspaces4
 ms.topic: interface
+f1_keywords:
+ - "dbgeng/IDebugDataSpaces4"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

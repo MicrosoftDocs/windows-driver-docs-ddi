@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 7fd514f2-7f1e-449f-9037-636f1c3599d6
 ms.date: 08/03/2018
 ms.topic: function
+f1_keywords:
+ - "netadapter/NetAdapterStart"
 ms.keywords: NetAdapterStart
 req.header: netadapter.h
 req.include-header: netadaptercx.h

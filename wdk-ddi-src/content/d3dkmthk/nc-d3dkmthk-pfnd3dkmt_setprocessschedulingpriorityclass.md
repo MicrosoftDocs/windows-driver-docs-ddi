@@ -5,6 +5,8 @@ description: The PFND3DKMT_SETPROCESSSCHEDULINGPRIORITYCLASS callback function s
 ms.assetid: cd229812-8237-46b2-9e13-45248a1e65b7
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/PFND3DKMT_SETPROCESSSCHEDULINGPRIORITYCLASS"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

@@ -8,6 +8,8 @@ ms.assetid: 4edaae35-8ac4-4a7a-949b-8a86b45ff391
 ms.date: 04/30/2018
 ms.keywords: AllocateCommonBuffer, AllocateCommonBuffer callback function [Kernel-Mode Driver Architecture], PALLOCATE_COMMON_BUFFER, PALLOCATE_COMMON_BUFFER callback, kdma_0e4a27db-db3e-48db-81c2-d83a342a0cbc.xml, kernel.allocatecommonbuffer, wdm/AllocateCommonBuffer
 ms.topic: callback
+f1_keywords:
+ - "wdm/AllocateCommonBuffer"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop

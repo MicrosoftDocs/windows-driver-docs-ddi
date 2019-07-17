@@ -8,6 +8,8 @@ ms.assetid: ce983953-53fc-4a32-8072-8a9f74d11ae3
 ms.date: 04/30/2018
 ms.keywords: IoGetDriverObjectExtension, IoGetDriverObjectExtension routine [Kernel-Mode Driver Architecture], k104_37d4bd5d-6090-49b8-ab45-c898871f22e8.xml, kernel.iogetdriverobjectextension, wdm/IoGetDriverObjectExtension
 ms.topic: function
+f1_keywords:
+ - "wdm/IoGetDriverObjectExtension"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

@@ -8,6 +8,8 @@ ms.assetid: cd025bdc-7f10-4881-9620-b77570455c18
 ms.author: windowsdriverdev
 ms.date: 02/25/2019 
 ms.topic: method
+f1_keywords:
+ - "eventdetectoroemadapter/IEventDetectorOemAdapter.GetCapabilities"
 ms.keywords: IEventDetectorOemAdapter::GetCapabilities, GetCapabilities, IEventDetectorOemAdapter.GetCapabilities, IEventDetectorOemAdapter::GetCapabilities, IEventDetectorOemAdapter.GetCapabilities
 req.header: eventdetectoroemadapter.h
 req.include-header:

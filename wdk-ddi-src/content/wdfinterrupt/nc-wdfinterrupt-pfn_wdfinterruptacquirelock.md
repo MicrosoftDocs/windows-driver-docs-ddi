@@ -8,6 +8,8 @@ ms.assetid: 6a2fe0d5-bc7e-4d3e-8f47-8206fd42a36f
 ms.date: 01/11/2018
 ms.keywords: wdf.wdfinterruptacquirelock, PFN_WDFINTERRUPTACQUIRELOCK, WdfInterruptAcquireLock callback function, WdfInterruptAcquireLock, wdfinterrupt/WdfInterruptAcquireLock, DFInterruptObjectRef_9d3cd9a1-801c-437a-b1df-7e2819d1465a.xml, kmdf.wdfinterruptacquirelock
 ms.topic: callback
+f1_keywords:
+ - "wdfinterrupt/WdfInterruptAcquireLock"
 req.header: wdfinterrupt.h
 req.include-header: Wdf.h
 req.target-type: Universal

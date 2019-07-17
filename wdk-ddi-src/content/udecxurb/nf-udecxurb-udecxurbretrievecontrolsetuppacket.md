@@ -8,6 +8,8 @@ ms.assetid: 09D9AB68-12DB-442F-897B-6C6BD8B5F030
 ms.date: 05/07/2018
 ms.keywords: UdecxUrbRetrieveControlSetupPacket, UdecxUrbRetrieveControlSetupPacket function [Buses], buses.udecxurbretrievecontrolsetuppacket, udecxurb/UdecxUrbRetrieveControlSetupPacket
 ms.topic: function
+f1_keywords:
+ - "udecxurb/UdecxUrbRetrieveControlSetupPacket"
 req.header: udecxurb.h
 req.include-header: Udecx.h
 req.target-type: Windows

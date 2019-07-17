@@ -8,6 +8,8 @@ ms.assetid: 600916e1-37c2-4766-93d9-b7d32a542542
 ms.date: 03/29/2018
 ms.keywords: "*PRemoveRADIUSServer_IN, PRemoveRADIUSServer_IN, PRemoveRADIUSServer_IN structure pointer [Storage Devices], RemoveRADIUSServer_IN, RemoveRADIUSServer_IN structure [Storage Devices], _RemoveRADIUSServer_IN, iscsiop/PRemoveRADIUSServer_IN, iscsiop/RemoveRADIUSServer_IN, storage.removeradiusserver_in, structs-iSCSI_e85b2fed-4691-43c4-b71a-a81905c79564.xml"
 ms.topic: struct
+f1_keywords:
+ - "iscsiop/RemoveRADIUSServer_IN"
 req.header: iscsiop.h
 req.include-header: Iscsiop.h
 req.target-type: Windows

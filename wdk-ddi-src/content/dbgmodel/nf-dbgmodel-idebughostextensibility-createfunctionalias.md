@@ -5,6 +5,8 @@ description: The CreateFunctionAlias method creates a "function alias", a "quick
 ms.assetid: 73d90254-12bd-478b-a80e-57d15ea88ca8
 ms.date: 06/11/2019
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDebugHostExtensibility.CreateFunctionAlias"
 ms.keywords: IDebugHostExtensibility::CreateFunctionAlias, CreateFunctionAlias, IDebugHostExtensibility.CreateFunctionAlias, IDebugHostExtensibility::CreateFunctionAlias, IDebugHostExtensibility.CreateFunctionAlias
 req.header: dbgmodel.h
 req.include-header:

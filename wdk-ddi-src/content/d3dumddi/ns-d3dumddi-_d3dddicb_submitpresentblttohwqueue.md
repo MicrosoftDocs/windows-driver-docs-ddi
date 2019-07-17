@@ -5,6 +5,8 @@ description: A structure that contains information to present Blt to the hardwar
 ms.assetid: 6c2eda0a-e6df-4467-bbd8-dd55acdb457e
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3dumddi/_D3DDDICB_SUBMITPRESENTBLTTOHWQUEUE"
 ms.keywords: _D3DDDICB_SUBMITPRESENTBLTTOHWQUEUE, D3DDDICB_SUBMITPRESENTBLTTOHWQUEUE,
 req.header: d3dumddi.h
 req.include-header:

@@ -8,6 +8,8 @@ ms.assetid: bcbb0c56-1500-45b2-bd20-03726ef7da77
 ms.date: 05/02/2018
 ms.keywords: NdisFreeReassembledNetBufferList, NdisFreeReassembledNetBufferList function [Network Drivers Starting with Windows Vista], ndis/NdisFreeReassembledNetBufferList, ndis_netbuf_functions_ref_604900da-90fb-4986-880e-8fea63c240a0.xml, netvista.ndisfreereassemblednetbufferlist
 ms.topic: function
+f1_keywords:
+ - "ndis/NdisFreeReassembledNetBufferList"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

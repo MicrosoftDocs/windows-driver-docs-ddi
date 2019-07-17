@@ -8,6 +8,8 @@ ms.assetid: b56fef85-4058-4942-90c0-36646164cd3e
 ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectDriverDefIntRef_e38de652-334f-4b7a-b455-22c0eea8d8fd.xml, EVT_WDF_DEVICE_PROCESS_QUERY_INTERFACE_REQUEST, EVT_WDF_DEVICE_PROCESS_QUERY_INTERFACE_REQUEST callback, EvtDeviceProcessQueryInterfaceRequest, EvtDeviceProcessQueryInterfaceRequest callback function, kmdf.evtdeviceprocessqueryinterfacerequest, wdf.evtdeviceprocessqueryinterfacerequest, wdfqueryinterface/EvtDeviceProcessQueryInterfaceRequest
 ms.topic: callback
+f1_keywords:
+ - "wdfqueryinterface/EvtDeviceProcessQueryInterfaceRequest"
 req.header: wdfqueryinterface.h
 req.include-header: Wdf.h
 req.target-type: Universal

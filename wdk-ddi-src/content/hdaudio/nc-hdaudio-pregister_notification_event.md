@@ -8,6 +8,8 @@ ms.assetid: 44702d79-80ac-411f-ae47-bf60b9cb541d
 ms.date: 05/08/2018
 ms.keywords: PREGISTER_NOTIFICATION_EVENT, PREGISTER_NOTIFICATION_EVENT callback, RegisterNotificationEvent, RegisterNotificationEvent callback function [Audio Devices], aud-prop2_fa7a1f01-c553-40df-971b-932f8da48353.xml, audio.registernotificationevent, hdaudio/RegisterNotificationEvent
 ms.topic: callback
+f1_keywords:
+ - "hdaudio/RegisterNotificationEvent"
 req.header: hdaudio.h
 req.include-header: Hdaudio.h
 req.target-type: Desktop

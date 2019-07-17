@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 5b07ce87-fbdb-495b-8a58-60141a34e52b
 ms.date: 08/21/2018
 ms.topic: enum
+f1_keywords:
+ - "wwan/_WWAN_NETWORK_BLACKLIST_STATE"
 ms.keywords: _WWAN_NETWORK_BLACKLIST_STATE, WWAN_NETWORK_BLACKLIST_STATE, 
 req.header: wwan.h
 req.include-header:

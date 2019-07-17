@@ -8,6 +8,8 @@ ms.assetid: 48C444CD-4D8B-491A-98EB-27B8796FD3A7
 ms.date: 04/20/2018
 ms.keywords: AsyncGetNotification, AsyncGetNotification method [Print Devices], AsyncGetNotification method [Print Devices],IPrintUnidiAsyncNotifyRegistration interface, IPrintUnidiAsyncNotifyRegistration interface [Print Devices],AsyncGetNotification method, IPrintUnidiAsyncNotifyRegistration.AsyncGetNotification, IPrintUnidiAsyncNotifyRegistration::AsyncGetNotification, print.iprintunidiasyncnotifyregistration_asyncgetnotification, prnasntp/IPrintUnidiAsyncNotifyRegistration::AsyncGetNotification
 ms.topic: method
+f1_keywords:
+ - "prnasntp/IPrintUnidiAsyncNotifyRegistration.AsyncGetNotification"
 req.header: prnasntp.h
 req.include-header: 
 req.target-type: Windows

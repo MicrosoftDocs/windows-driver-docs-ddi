@@ -8,6 +8,8 @@ ms.assetid: 23d65788-23ce-4ed7-8b68-890c1c3a4100
 ms.date: 02/26/2018
 ms.keywords: DFWMIRef_db6f29cb-fcdc-4948-9ea3-9b36e9f969e8.xml, WDF_WMI_BUFFER_APPEND_STRING, WDF_WMI_BUFFER_APPEND_STRING function, kmdf.wdf_wmi_buffer_append_string, wdf.wdf_wmi_buffer_append_string, wdfwmi/WDF_WMI_BUFFER_APPEND_STRING
 ms.topic: function
+f1_keywords:
+ - "wdfwmi/WDF_WMI_BUFFER_APPEND_STRING"
 req.header: wdfwmi.h
 req.include-header: Wdf.h
 req.target-type: Universal

@@ -8,6 +8,8 @@ ms.assetid: FD88E645-7CBB-4998-BEBA-5BBE2FF167FC
 ms.date: 05/07/2018
 ms.keywords: UfxDeviceNotifyReset, UfxDeviceNotifyReset method [Buses], buses.ufxdevicenotifyreset, ufxclient/UfxDeviceNotifyReset
 ms.topic: function
+f1_keywords:
+ - "ufxclient/UfxDeviceNotifyReset"
 req.header: ufxclient.h
 req.include-header: 
 req.target-type: Windows

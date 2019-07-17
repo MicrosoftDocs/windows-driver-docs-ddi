@@ -8,6 +8,8 @@ ms.assetid: 586820c5-5662-4f2d-9413-d06b9794173a
 ms.date: 03/29/2018
 ms.keywords: ChangerSetAccess, ChangerSetAccess function [Storage Devices], chgrmini_3b7a1ae3-1724-464a-942a-54ecbae6329d.xml, mcd/ChangerSetAccess, storage.changersetaccess
 ms.topic: function
+f1_keywords:
+ - "mcd/ChangerSetAccess"
 req.header: mcd.h
 req.include-header: Mcd.h, Ntddchgr.h
 req.target-type: Desktop

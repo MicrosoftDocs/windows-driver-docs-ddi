@@ -8,6 +8,8 @@ ms.assetid: 6E1DF4F3-9ED4-4E34-A768-1B5008D61B0C
 ms.date: 05/02/2018
 ms.keywords: "*PNDIS_SWITCH_PORT_PROPERTY_ROUTING_DOMAIN, NDIS_SWITCH_PORT_PROPERTY_ROUTING_DOMAIN, NDIS_SWITCH_PORT_PROPERTY_ROUTING_DOMAIN structure [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_PORT_PROPERTY_ROUTING_DOMAIN, PNDIS_SWITCH_PORT_PROPERTY_ROUTING_DOMAIN structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_PORT_PROPERTY_ROUTING_DOMAIN, netvista.ndis_switch_port_property_routing_domain, ntddndis/NDIS_SWITCH_PORT_PROPERTY_ROUTING_DOMAIN, ntddndis/PNDIS_SWITCH_PORT_PROPERTY_ROUTING_DOMAIN"
 ms.topic: struct
+f1_keywords:
+ - "ntddndis/NDIS_SWITCH_PORT_PROPERTY_ROUTING_DOMAIN"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

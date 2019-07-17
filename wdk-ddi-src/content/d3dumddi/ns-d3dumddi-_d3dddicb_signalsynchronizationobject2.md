@@ -8,6 +8,8 @@ ms.assetid: cb8df28d-1d44-446b-83a8-b4191213973d
 ms.date: 05/10/2018
 ms.keywords: D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT2, D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT2 structure [Display Devices], _D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT2, d3dumddi/D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT2, display.d3dddicb_signalsynchronizationobject2
 ms.topic: struct
+f1_keywords:
+ - "d3dumddi/D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT2"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

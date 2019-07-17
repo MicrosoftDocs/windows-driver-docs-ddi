@@ -8,6 +8,8 @@ ms.assetid: c11d801a-4870-42c4-9374-e0f849d57cde
 ms.date: 03/29/2018
 ms.keywords: IOCTL_MOUNTMGR_DELETE_POINTS, IOCTL_MOUNTMGR_DELETE_POINTS control, IOCTL_MOUNTMGR_DELETE_POINTS control code [Storage Devices], k307_c218ecf5-b934-4cad-934c-738cde9bff2b.xml, mountmgr/IOCTL_MOUNTMGR_DELETE_POINTS, storage.ioctl_mountmgr_delete_points
 ms.topic: ioctl
+f1_keywords:
+ - "mountmgr/IOCTL_MOUNTMGR_DELETE_POINTS"
 req.header: mountmgr.h
 req.include-header: Mountmgr.h
 req.target-type: Windows

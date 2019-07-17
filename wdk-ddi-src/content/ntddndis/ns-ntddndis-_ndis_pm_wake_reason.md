@@ -8,6 +8,8 @@ ms.assetid: 9caed664-6367-4eb0-9c9f-551f8a5938bc
 ms.date: 05/02/2018
 ms.keywords: "*PNDIS_PM_WAKE_REASON, NDIS_PM_WAKE_REASON, NDIS_PM_WAKE_REASON structure [Network Drivers Starting with Windows Vista], PNDIS_PM_WAKE_REASON, PNDIS_PM_WAKE_REASON structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PM_WAKE_REASON, netvista.ndis_pm_wake_reason, ntddndis/NDIS_PM_WAKE_REASON, ntddndis/PNDIS_PM_WAKE_REASON"
 ms.topic: struct
+f1_keywords:
+ - "ntddndis/NDIS_PM_WAKE_REASON"
 req.header: ntddndis.h
 req.include-header: Ntddndis.h
 req.target-type: Windows

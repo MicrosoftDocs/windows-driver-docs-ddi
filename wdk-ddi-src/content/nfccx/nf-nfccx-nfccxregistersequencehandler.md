@@ -8,6 +8,8 @@ ms.assetid: 30957475-D02B-434D-9FAB-BBCD5732DCA5
 ms.date: 02/15/2018
 ms.keywords: NfcCxRegisterSequenceHandler, NfcCxRegisterSequenceHandler method [Near-Field Proximity Drivers], nfccx/NfcCxRegisterSequenceHandler, nfpdrivers._nfccxregistersequencehandler
 ms.topic: function
+f1_keywords:
+ - "nfccx/NfcCxRegisterSequenceHandler"
 req.header: nfccx.h
 req.include-header: Ncidef.h
 req.target-type: Windows

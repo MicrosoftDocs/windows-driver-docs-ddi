@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 8de2a456-0b0e-47f1-895b-eee5de319283
 ms.date: 04/12/2018
 ms.topic: macro
+f1_keywords:
+ - "ndis/NET_BUFFER_DATA_OFFSET"
 ms.keywords: NET_BUFFER_DATA_OFFSET
 req.header: ndis.h
 req.include-header:

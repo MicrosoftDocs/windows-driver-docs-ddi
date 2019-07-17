@@ -8,6 +8,8 @@ ms.assetid: 55B5C0B4-5359-410B-9110-79EDDBA3010C
 ms.date: 05/02/2018
 ms.keywords: GetNetBufferListDestinations, GetNetBufferListDestinations callback function [Network Drivers Starting with Windows Vista], NDIS_SWITCH_GET_NET_BUFFER_LIST_DESTINATIONS, NDIS_SWITCH_GET_NET_BUFFER_LIST_DESTINATIONS callback, ndis/GetNetBufferListDestinations, netvista.GetNetBufferListDestinations
 ms.topic: callback
+f1_keywords:
+ - "ndis/GetNetBufferListDestinations"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

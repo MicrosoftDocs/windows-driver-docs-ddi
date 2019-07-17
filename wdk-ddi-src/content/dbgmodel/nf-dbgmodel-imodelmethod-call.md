@@ -5,6 +5,8 @@ description: The Call method is the way in which any method defined in the data 
 ms.assetid: 217feb09-ddbf-407c-a8a4-1144d7dd7c41
 ms.date: 08/13/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IModelMethod.Call"
 ms.keywords: IModelMethod::Call, Call, IModelMethod.Call, IModelMethod::Call, IModelMethod.Call
 req.header: dbgmodel.h
 req.include-header:

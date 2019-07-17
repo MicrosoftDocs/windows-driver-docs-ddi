@@ -8,6 +8,8 @@ ms.assetid: 2AA67B06-F87F-47E3-A80F-154993BAF0E8
 ms.date: 05/07/2018
 ms.keywords: UdecxUsbDeviceCreate, UdecxUsbDeviceCreate function [Buses], buses.udecxusbdevicecreate, udecxusbdevice/UdecxUsbDeviceCreate
 ms.topic: function
+f1_keywords:
+ - "udecxusbdevice/UdecxUsbDeviceCreate"
 req.header: udecxusbdevice.h
 req.include-header: Udecx.h
 req.target-type: Windows

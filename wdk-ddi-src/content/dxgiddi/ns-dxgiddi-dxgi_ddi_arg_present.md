@@ -8,6 +8,8 @@ ms.assetid: 001cb9fc-d1fa-4ae5-aefd-954d307c4e89
 ms.date: 05/10/2018
 ms.keywords: DXGI_DDI_ARG_PRESENT, DXGI_DDI_ARG_PRESENT structure [Display Devices], UMDisplayDriver_Dx10param_Structs_5ad1821d-dfdb-4361-84dc-48a4a283d66a.xml, display.dxgi_ddi_arg_present, dxgiddi/DXGI_DDI_ARG_PRESENT
 ms.topic: struct
+f1_keywords:
+ - "dxgiddi/DXGI_DDI_ARG_PRESENT"
 req.header: dxgiddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows

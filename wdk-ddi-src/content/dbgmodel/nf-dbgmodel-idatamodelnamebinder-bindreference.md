@@ -5,6 +5,8 @@ description: The BindReference method is similar to BindValue in that it also pe
 ms.assetid: e1930647-984f-4aec-a07b-8c3dac9e9ae1
 ms.date: 09/12/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDataModelNameBinder.BindReference"
 ms.keywords: IDataModelNameBinder::BindReference, BindReference, IDataModelNameBinder.BindReference, IDataModelNameBinder::BindReference, IDataModelNameBinder.BindReference
 req.header: dbgmodel.h
 req.include-header:

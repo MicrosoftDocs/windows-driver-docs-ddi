@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: a82d45f6-fd89-4cb3-9a43-2dcb25a0690b
 ms.date: 04/12/2018
 ms.topic: macro
+f1_keywords:
+ - "ndis/NET_BUFFER_LIST_CONTEXT_DATA_SIZE"
 ms.keywords: NET_BUFFER_LIST_CONTEXT_DATA_SIZE
 req.header: ndis.h
 req.include-header:

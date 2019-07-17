@@ -5,6 +5,8 @@ description: Attempts a PD contract renegotiation with the specified voltage/cur
 ms.assetid: 92f98419-fa13-44be-9546-939958232033
 ms.date: 09/30/2018
 ms.topic: function
+f1_keywords:
+ - "usbpmapi/UsbPm_AssignConnectorPowerLevel"
 ms.keywords: UsbPm_AssignConnectorPowerLevel
 tech.root: usbref
 req.header: usbpmapi.h

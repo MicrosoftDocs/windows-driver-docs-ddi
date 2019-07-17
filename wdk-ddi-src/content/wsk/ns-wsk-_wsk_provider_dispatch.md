@@ -8,6 +8,8 @@ ms.assetid: 864891dd-7db5-4343-9014-c6a284f1fd7e
 ms.date: 05/02/2018
 ms.keywords: "*PWSK_PROVIDER_DISPATCH, PWSK_PROVIDER_DISPATCH, PWSK_PROVIDER_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], WSK_PROVIDER_DISPATCH, WSK_PROVIDER_DISPATCH structure [Network Drivers Starting with Windows Vista], _WSK_PROVIDER_DISPATCH, netvista.wsk_provider_dispatch, wsk/PWSK_PROVIDER_DISPATCH, wsk/WSK_PROVIDER_DISPATCH, wskref_3e9340b7-e9e6-46bd-8f28-810354655c6c.xml"
 ms.topic: struct
+f1_keywords:
+ - "wsk/WSK_PROVIDER_DISPATCH"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Windows

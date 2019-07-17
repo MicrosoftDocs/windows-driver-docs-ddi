@@ -8,6 +8,8 @@ ms.assetid: a583c4cb-53c1-4eff-bcfe-c962f736b1f8
 ms.date: 05/02/2018
 ms.keywords: MiniportQueryOffload, MiniportQueryOffload callback function [Network Drivers Starting with Windows Vista], W_QUERY_OFFLOAD_HANDLER, W_QUERY_OFFLOAD_HANDLER callback, ndischimney/MiniportQueryOffload, netvista.miniportqueryoffload, tcp_chim_miniport_func_920f9145-1dda-4899-85d7-845dd545a6bc.xml
 ms.topic: callback
+f1_keywords:
+ - "ndischimney/MiniportQueryOffload"
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
 req.target-type: Windows

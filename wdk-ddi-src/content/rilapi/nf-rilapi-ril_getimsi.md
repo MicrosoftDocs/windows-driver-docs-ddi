@@ -8,6 +8,8 @@ ms.assetid: 2bc038bb-fe8a-4a22-b4e2-d6dcf2589a12
 ms.date: 05/02/2018
 ms.keywords: RIL_GetIMSI, RIL_GetIMSI method [Network Drivers Starting with Windows Vista], netvista.ril_getimsi, rilapi/RIL_GetIMSI
 ms.topic: function
+f1_keywords:
+ - "rilapi/RIL_GetIMSI"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows

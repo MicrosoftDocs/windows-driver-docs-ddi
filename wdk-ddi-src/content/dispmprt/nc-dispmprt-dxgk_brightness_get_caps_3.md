@@ -5,6 +5,8 @@ description: Implemented by the client driver to retrieve the brightness control
 ms.assetid: 8611cbe1-4c56-4c39-b2a7-41c73262052b
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "dispmprt/DXGK_BRIGHTNESS_GET_CAPS_3"
 req.header: dispmprt.h
 req.include-header:
 req.target-type:

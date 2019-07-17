@@ -8,6 +8,8 @@ ms.assetid: 8f6927e1-2342-4816-aa43-1849c3a7702b
 ms.date: 05/10/2018
 ms.keywords: VideoPortStopTimer, VideoPortStopTimer function [Display Devices], VideoPort_Functions_335cb68f-85a0-4e57-9e91-65df281f68a4.xml, display.videoportstoptimer, video/VideoPortStopTimer
 ms.topic: function
+f1_keywords:
+ - "video/VideoPortStopTimer"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

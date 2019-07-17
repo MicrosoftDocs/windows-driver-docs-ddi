@@ -8,6 +8,8 @@ ms.assetid: 978fbe0a-ac10-4c83-870d-35d98775c233
 ms.date: 04/30/2018
 ms.keywords: IoDeassignArcName, IoDeassignArcName routine [Kernel-Mode Driver Architecture], k104_859767ed-5969-41db-a454-b7808a1ef131.xml, kernel.iodeassignarcname, ntddk/IoDeassignArcName
 ms.topic: macro
+f1_keywords:
+ - "ntddk/IoDeassignArcName"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Desktop

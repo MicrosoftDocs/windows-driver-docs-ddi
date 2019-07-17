@@ -8,6 +8,8 @@ ms.assetid: 29458793-35DA-4CE4-AAD9-E1DD90C28E5C
 ms.date: 04/23/2018
 ms.keywords: KSCAMERA_EXTENDEDPROP_ROITYPE, KSCAMERA_EXTENDEDPROP_ROITYPE enumeration [Streaming Media Devices], KSCAMERA_EXTENDEDPROP_ROITYPE_FACE, KSCAMERA_EXTENDEDPROP_ROITYPE_UNKNOWN, ksmedia/KSCAMERA_EXTENDEDPROP_ROITYPE, ksmedia/KSCAMERA_EXTENDEDPROP_ROITYPE_FACE, ksmedia/KSCAMERA_EXTENDEDPROP_ROITYPE_UNKNOWN, stream.kscamera_extendedprop_roitype
 ms.topic: enum
+f1_keywords:
+ - "ksmedia/KSCAMERA_EXTENDEDPROP_ROITYPE"
 req.header: ksmedia.h
 req.include-header: 
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: 7c28a82c-e039-4045-94cd-b47a45d15e28
 ms.date: 04/30/2018
 ms.keywords: RtlIsStateSeparationEnabled, RtlIsStateSeparationEnabled function [Kernel-Mode Driver Architecture], kernel.rtlisstateseparationenabled, ntddk/RtlIsStateSeparationEnabled
 ms.topic: function
+f1_keywords:
+ - "ntddk/RtlIsStateSeparationEnabled"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: 92E90C2A-D59C-4A38-A444-978B16170B89
 ms.date: 04/23/2018
 ms.keywords: "*PBDA_IPv4_ADDRESS_LIST, BDA_IPv4_ADDRESS_LIST, BDA_IPv4_ADDRESS_LIST structure [Streaming Media Devices], PBDA_IPv4_ADDRESS_LIST, PBDA_IPv4_ADDRESS_LIST structure pointer [Streaming Media Devices], _BDA_IPv4_ADDRESS_LIST, bdatypes/BDA_IPv4_ADDRESS_LIST, bdatypes/PBDA_IPv4_ADDRESS_LIST, stream.bda_ipv4_address_list"
 ms.topic: struct
+f1_keywords:
+ - "bdatypes/BDA_IPv4_ADDRESS_LIST"
 req.header: bdatypes.h
 req.include-header: 
 req.target-type: Windows

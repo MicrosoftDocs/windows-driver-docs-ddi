@@ -8,6 +8,8 @@ ms.assetid: 838c2371-c1f3-4415-a624-fab1d8c15d0d
 ms.date: 03/29/2018
 ms.keywords: "*PLOGINSESSIONTYPE, ISCSI_LOGINTARGET_DATA, ISCSI_LOGINTARGET_DISCOVERY, ISCSI_LOGINTARGET_INFORMATIONAL, LOGINSESSIONTYPE, LOGINSESSIONTYPE enumeration [Storage Devices], PLOGINSESSIONTYPE, PLOGINSESSIONTYPE enumeration pointer [Storage Devices], iscsiop/ISCSI_LOGINTARGET_DATA, iscsiop/ISCSI_LOGINTARGET_DISCOVERY, iscsiop/ISCSI_LOGINTARGET_INFORMATIONAL, iscsiop/LOGINSESSIONTYPE, iscsiop/PLOGINSESSIONTYPE, storage.loginsessiontype, structs-iSCSI_4af9bc0f-391e-442a-9d45-6819d130cfc0.xml"
 ms.topic: enum
+f1_keywords:
+ - "iscsiop/LOGINSESSIONTYPE"
 req.header: iscsiop.h
 req.include-header: Iscsiop.h
 req.target-type: Windows

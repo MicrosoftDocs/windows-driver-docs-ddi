@@ -8,6 +8,8 @@ ms.assetid: 532b56c9-6c24-4737-b1d6-e44802a898e3
 ms.date: 02/26/2018
 ms.keywords: DFResourceObjectRef_14bc7eb5-5cf4-49ae-83da-144ba0c9adea.xml, WdfCmResourceListRemoveByDescriptor, WdfCmResourceListRemoveByDescriptor method, kmdf.wdfcmresourcelistremovebydescriptor, wdf.wdfcmresourcelistremovebydescriptor, wdfresource/WdfCmResourceListRemoveByDescriptor
 ms.topic: function
+f1_keywords:
+ - "wdfresource/WdfCmResourceListRemoveByDescriptor"
 req.header: wdfresource.h
 req.include-header: Wdf.h
 req.target-type: Universal

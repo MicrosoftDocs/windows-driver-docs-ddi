@@ -8,6 +8,8 @@ ms.assetid: 19096AD2-5149-4AE1-94CD-9004ED8C24DC
 ms.date: 03/29/2018
 ms.keywords: "*PSTORAGE_TEMPERATURE_THRESHOLD, PSTORAGE_TEMPERATURE_THRESHOLD, PSTORAGE_TEMPERATURE_THRESHOLD structure pointer [Storage Devices], STORAGE_TEMPERATURE_THRESHOLD, STORAGE_TEMPERATURE_THRESHOLD structure [Storage Devices], _STORAGE_TEMPERATURE_THRESHOLD, ntddstor/PSTORAGE_TEMPERATURE_THRESHOLD, ntddstor/STORAGE_TEMPERATURE_THRESHOLD, storage.storage_temperature_threshold"
 ms.topic: struct
+f1_keywords:
+ - "ntddstor/STORAGE_TEMPERATURE_THRESHOLD"
 req.header: ntddstor.h
 req.include-header: Ntddstor.h
 req.target-type: Windows

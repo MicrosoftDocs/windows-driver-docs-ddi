@@ -8,6 +8,8 @@ ms.assetid: a87e9f52-a136-492e-bfb3-dfbbea8b79e0
 ms.date: 04/30/2018
 ms.keywords: RtlUpperChar, RtlUpperChar routine [Kernel-Mode Driver Architecture], k109_c1a13e9a-f863-4bcd-ae89-daee0c3d3a4b.xml, kernel.rtlupperchar, ntddk/RtlUpperChar
 ms.topic: function
+f1_keywords:
+ - "ntddk/RtlUpperChar"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal

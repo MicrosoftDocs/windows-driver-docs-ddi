@@ -8,6 +8,8 @@ ms.assetid: C33B717D-0874-47AB-8503-D6F82F713CBF
 ms.date: 04/30/2018
 ms.keywords: RtlUIntPtrToInt, RtlUIntPtrToInt function [Kernel-Mode Driver Architecture], kernel.rtluintptrtoint, ntintsafe/RtlUIntPtrToInt
 ms.topic: function
+f1_keywords:
+ - "ntintsafe/RtlUIntPtrToInt"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop

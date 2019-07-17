@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: a5f335b5-06f9-4df5-b1c4-1f803e2167ca
 ms.date: 04/13/2018
 ms.topic: macro
+f1_keywords:
+ - "ndis/NET_BUFFER_LIST_RECEIVE_QUEUE_ID"
 ms.keywords: NET_BUFFER_LIST_RECEIVE_QUEUE_ID
 req.header: ndis.h
 req.include-header:

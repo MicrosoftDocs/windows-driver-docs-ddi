@@ -8,6 +8,8 @@ ms.assetid: 38fea22b-4d9a-4b03-bbb7-c22578f60def
 ms.date: 04/30/2018
 ms.keywords: "*PCM_POWER_DATA, CM_POWER_DATA, CM_POWER_DATA structure [Kernel-Mode Driver Architecture], CM_Power_Data_s, PCM_POWER_DATA, PCM_POWER_DATA structure pointer [Kernel-Mode Driver Architecture], kernel.cm_power_data, kstruct_a_da572af5-5cb2-41f4-be3d-f2c1b715e4d7.xml, wdm/CM_POWER_DATA, wdm/PCM_POWER_DATA"
 ms.topic: struct
+f1_keywords:
+ - "wdm/CM_POWER_DATA"
 req.header: wdm.h
 req.include-header: Ntddk.h, Ntpoapi.h
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: 32cc50bc-a93b-43ec-98c7-bfaaebbe6c28
 ms.date: 02/26/2018
 ms.keywords: DFDmaObjectRef_a8d61436-75d3-4c14-a81b-6ba7adb3c442.xml, WdfDmaTransactionGetBytesTransferred, WdfDmaTransactionGetBytesTransferred method, kmdf.wdfdmatransactiongetbytestransferred, wdf.wdfdmatransactiongetbytestransferred, wdfdmatransaction/WdfDmaTransactionGetBytesTransferred
 ms.topic: function
+f1_keywords:
+ - "wdfdmatransaction/WdfDmaTransactionGetBytesTransferred"
 req.header: wdfdmatransaction.h
 req.include-header: Wdf.h
 req.target-type: Universal

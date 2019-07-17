@@ -8,6 +8,8 @@ ms.assetid: 33199207-9bb1-4761-9492-15d6287c90df
 ms.date: 05/03/2018
 ms.keywords: "* ExtKnownStructMethod, EngExtCpp_Ref_bd64fb5a-ca77-4195-b5ba-6d647c133353.xml, ExtExtension::* ExtKnownStructMethod, ExtKnownStructMethod, ExtKnownStructMethod callback, ExtKnownStructMethod callback function [Windows Debugging], debugger.extknownstructmethod, engextcpp/ExtKnownStructMethod"
 ms.topic: callback
+f1_keywords:
+ - "engextcpp/ExtKnownStructMethod"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop

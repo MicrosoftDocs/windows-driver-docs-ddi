@@ -8,6 +8,8 @@ ms.assetid: 2dd695c4-ed3e-4278-b82e-6643aaded890
 ms.date: 02/16/2018
 ms.keywords: "*LPRILEUTRAMRL, RILEUTRAMRL, RILEUTRAMRL structure [Network Drivers Starting with Windows Vista], netvista.rileutramrl, rilapitypes/RILEUTRAMRL"
 ms.topic: struct
+f1_keywords:
+ - "ntddrilapitypes/RILEUTRAMRL"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h, Ntddrilapitypes.h
 req.target-type: Windows

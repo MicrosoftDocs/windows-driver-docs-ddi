@@ -8,6 +8,8 @@ ms.assetid: 8ae4c301-5001-467f-8821-f51cdb0ff303
 ms.date: 05/03/2018
 ms.keywords: EngExtCpp_Ref_b3699ec7-ccc8-4f98-985d-cd8bad0c0e23.xml, ExtRemoteTyped, ExtRemoteTyped constructor [Windows Debugging], ExtRemoteTyped constructor [Windows Debugging],ExtRemoteTyped interface, ExtRemoteTyped interface [Windows Debugging],ExtRemoteTyped constructor, ExtRemoteTyped.ExtRemoteTyped, ExtRemoteTyped.ExtRemoteTyped(), ExtRemoteTyped::ExtRemoteTyped, debugger.extremotetyped_extremotetyped
 ms.topic: method
+f1_keywords:
+ - "engextcpp/ExtRemoteTyped.ExtRemoteTyped"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop

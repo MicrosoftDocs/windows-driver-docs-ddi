@@ -7,6 +7,8 @@ ms.assetid: 64870c9f-facf-4344-93d0-12cbcec86e11
 ms.date: 05/10/2018
 ms.keywords: GetCryptoKeyExchangeType, GetCryptoKeyExchangeType callback function [Display Devices], PFND3D11_1DDI_GETCRYPTOKEYEXCHANGETYPE, PFND3D11_1DDI_GETCRYPTOKEYEXCHANGETYPE callback, d3d10umddi/GetCryptoKeyExchangeType, display.getcryptokeyexchangetype
 ms.topic: callback
+f1_keywords:
+ - "d3d10umddi/GetCryptoKeyExchangeType"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

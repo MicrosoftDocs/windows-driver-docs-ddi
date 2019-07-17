@@ -8,6 +8,8 @@ ms.assetid: 06ec284c-a570-4690-837d-baf7eca613d7
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
+f1_keywords:
+ - "ntddk/WHEAP_FOUND_ERROR_IN_BANK_EVENT"
 ms.keywords: WHEAP_FOUND_ERROR_IN_BANK_EVENT, WHEAP_FOUND_ERROR_IN_BANK_EVENT, *PWHEAP_FOUND_ERROR_IN_BANK_EVENT, 
 req.header: ntddk.h
 req.include-header:

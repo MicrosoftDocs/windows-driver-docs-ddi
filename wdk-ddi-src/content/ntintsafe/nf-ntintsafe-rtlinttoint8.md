@@ -8,6 +8,8 @@ ms.assetid: ABE24C02-22C3-4F0A-B874-3079F70CA748
 ms.date: 04/30/2018
 ms.keywords: RtlIntToInt8, RtlIntToInt8 function [Kernel-Mode Driver Architecture], kernel.rtlinttoint8, ntintsafe/RtlIntToInt8
 ms.topic: function
+f1_keywords:
+ - "ntintsafe/RtlIntToInt8"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop

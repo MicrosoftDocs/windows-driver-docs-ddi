@@ -7,6 +7,8 @@ ms.assetid: 30687710-A813-4D3C-8612-9236D34EB9EB
 ms.date: 05/10/2018
 ms.keywords: D3DKMTDestroyHwQueue, D3DKMTDestroyHwQueue function [Display Devices], d3dkmthk/D3DKMTDestroyHwQueue, display.d3dkmtdestroyhwqueue
 ms.topic: function
+f1_keywords:
+ - "d3dkmthk/D3DKMTDestroyHwQueue"
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: Windows

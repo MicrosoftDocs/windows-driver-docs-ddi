@@ -5,6 +5,8 @@ description: The Pfnd3dkmtEvict instructs the OS to decrement the residency refe
 ms.assetid: ef46edbc-aebc-465a-90fc-7087b7fc857b
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/PFND3DKMT_EVICT"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

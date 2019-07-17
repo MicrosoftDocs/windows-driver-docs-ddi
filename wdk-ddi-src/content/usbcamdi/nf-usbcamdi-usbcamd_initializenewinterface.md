@@ -8,6 +8,8 @@ ms.assetid: d0796a9b-9823-4f13-b2df-1fc8ca74cbd1
 ms.date: 04/23/2018
 ms.keywords: USBCAMD_InitializeNewInterface, USBCAMD_InitializeNewInterface function [Streaming Media Devices], stream.usbcamd_initializenewinterface, usbcamdi/USBCAMD_InitializeNewInterface, usbcmdpr_4b43d8ab-fd5f-4199-afbc-b21801c4fab3.xml
 ms.topic: function
+f1_keywords:
+ - "usbcamdi/USBCAMD_InitializeNewInterface"
 req.header: usbcamdi.h
 req.include-header: Usbcamdi.h
 req.target-type: Desktop

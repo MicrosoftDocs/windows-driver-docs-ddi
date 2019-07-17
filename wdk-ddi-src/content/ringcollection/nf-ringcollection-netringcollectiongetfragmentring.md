@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 4A88C04C-0E0C-4B93-80CB-4C510802F7CC
 ms.date: 02/06/2019
 ms.topic: function
+f1_keywords:
+ - "ringcollection/RILWRITEPHONEBOOKENTRYPARAMS"
 ms.keywords: NetRingCollectionGetFragmentRing
 req.header: ringcollection.h
 req.include-header: netadaptercx.h

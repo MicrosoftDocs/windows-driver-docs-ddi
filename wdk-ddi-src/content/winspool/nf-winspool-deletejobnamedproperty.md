@@ -8,6 +8,8 @@ ms.assetid: 14F8C0A2-0D19-446E-8C2B-530A3AEDA879
 ms.date: 04/20/2018
 ms.keywords: DeleteJobNamedProperty, DeleteJobNamedProperty function [Print Devices], print.deletejobnamedproperty, winspool/DeleteJobNamedProperty
 ms.topic: function
+f1_keywords:
+ - "winspool/DeleteJobNamedProperty"
 req.header: winspool.h
 req.include-header: Winspool.h
 req.target-type: Desktop

@@ -8,6 +8,8 @@ ms.assetid: f5dc0f1b-3287-410d-97be-6d4f65466e65
 ms.date: 04/16/2018
 ms.keywords: KeReleaseMutant, KeReleaseMutant function [Installable File System Drivers], ifsk.kereleasemutant, keref_3bfd3822-4bbe-4d79-844e-afc6511d1bbb.xml, ntifs/KeReleaseMutant
 ms.topic: function
+f1_keywords:
+ - "ntifs/KeReleaseMutant"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows

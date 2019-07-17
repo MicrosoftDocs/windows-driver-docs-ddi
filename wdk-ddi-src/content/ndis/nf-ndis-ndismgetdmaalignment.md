@@ -8,6 +8,8 @@ ms.assetid: b683518c-b4f4-4ae4-945d-8a2d064a5390
 ms.date: 05/02/2018
 ms.keywords: NdisMGetDmaAlignment, NdisMGetDmaAlignment function [Network Drivers Starting with Windows Vista], dma_ref_75f5af9e-a351-428c-a465-ccd747fcdd37.xml, ndis/NdisMGetDmaAlignment, netvista.ndismgetdmaalignment
 ms.topic: function
+f1_keywords:
+ - "ndis/NdisMGetDmaAlignment"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

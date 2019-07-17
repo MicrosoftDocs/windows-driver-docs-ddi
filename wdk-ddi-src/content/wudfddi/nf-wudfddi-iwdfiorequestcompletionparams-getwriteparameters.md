@@ -8,6 +8,8 @@ ms.assetid: 7161ba67-d94a-4f05-bb8f-a97ef418e580
 ms.date: 02/26/2018
 ms.keywords: GetWriteParameters, GetWriteParameters method, GetWriteParameters method,IWDFIoRequestCompletionParams interface, IWDFIoRequestCompletionParams interface,GetWriteParameters method, IWDFIoRequestCompletionParams.GetWriteParameters, IWDFIoRequestCompletionParams::GetWriteParameters, UMDFRequestObjectRef_018d6259-d6c5-4004-966a-6d18bca94057.xml, umdf.iwdfiorequestcompletionparams_getwriteparameters, wdf.iwdfiorequestcompletionparams_getwriteparameters, wudfddi/IWDFIoRequestCompletionParams::GetWriteParameters
 ms.topic: method
+f1_keywords:
+ - "wudfddi/IWDFIoRequestCompletionParams.GetWriteParameters"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

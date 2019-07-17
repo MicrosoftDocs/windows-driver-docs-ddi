@@ -8,6 +8,8 @@ ms.assetid: 684a0b26-0e25-44fb-bca9-c86ac029b3b8
 ms.date: 04/23/2018
 ms.keywords: "*PKSP_BDA_NODE_PIN, KSP_BDA_NODE_PIN, KSP_BDA_NODE_PIN structure [Streaming Media Devices], PKSP_BDA_NODE_PIN, PKSP_BDA_NODE_PIN structure pointer [Streaming Media Devices], _KSP_BDA_NODE_PIN, bdamedia/KSP_BDA_NODE_PIN, bdamedia/PKSP_BDA_NODE_PIN, bdaref_5e3a84db-906c-4d12-863d-9a77b2f7d78c.xml, stream.ksp_bda_node_pin"
 ms.topic: struct
+f1_keywords:
+ - "bdamedia/KSP_BDA_NODE_PIN"
 req.header: bdamedia.h
 req.include-header: Bdamedia.h
 req.target-type: Windows

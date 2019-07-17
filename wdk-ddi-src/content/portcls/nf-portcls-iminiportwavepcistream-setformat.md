@@ -8,6 +8,8 @@ ms.assetid: c8dfa58d-f38b-4ef1-9607-575191d8ddea
 ms.date: 05/08/2018
 ms.keywords: IMiniportWavePciStream interface [Audio Devices],SetFormat method, IMiniportWavePciStream.SetFormat, IMiniportWavePciStream::SetFormat, SetFormat, SetFormat method [Audio Devices], SetFormat method [Audio Devices],IMiniportWavePciStream interface, audio.iminiportwavepcistream_setformat, audmp-routines_7b5ce806-912e-4c30-9f3e-4a2b31a12864.xml, portcls/IMiniportWavePciStream::SetFormat
 ms.topic: method
+f1_keywords:
+ - "portcls/IMiniportWavePciStream.SetFormat"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal

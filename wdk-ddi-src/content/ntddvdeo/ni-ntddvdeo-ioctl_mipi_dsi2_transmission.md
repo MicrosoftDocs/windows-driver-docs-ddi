@@ -8,6 +8,8 @@ ms.assetid: 7292a449-2c3c-4409-a031-ffe6316767f6
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
 ms.topic: ioctl
+f1_keywords:
+ - "ntddvdeo/IOCTL_MIPI_DSI2_TRANSMISSION"
 req.header: ntddvdeo.h
 req.include-header:
 req.target-type:

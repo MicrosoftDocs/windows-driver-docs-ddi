@@ -5,6 +5,8 @@ description: 3d vector class constructor used in sensor driver development, with
 ms.assetid: 7e4949a3-e1e5-4679-97ec-139dd36aaef6
 ms.date: 08/01/2018
 ms.topic: method
+f1_keywords:
+ - "math3dhelper/CVEC3D.CVEC3D"
 tech.root: sensors
 ms.keywords: CVEC3D::CVEC3D, CVEC3D, CVEC3D.CVEC3D, CVEC3D::CVEC3D(float,float,float), CVEC3D.CVEC3D(float,float,float)
 req.header: math3dhelper.h

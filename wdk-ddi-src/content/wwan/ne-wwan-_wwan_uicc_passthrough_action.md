@@ -8,6 +8,8 @@ ms.assetid: 4C9293CB-D92D-4C31-929F-16C1B8918933
 ms.date: 05/02/2018
 ms.keywords: "*PWWAN_UICC_PASSTHROUGH_ACTION, WWAN_UICC_PASSTHROUGH_ACTION, WWAN_UICC_PASSTHROUGH_ACTION enumeration [Network Drivers Starting with Windows Vista], WwanUiccPassThroughActionMaximum, WwanUiccPassThroughDisable, WwanUiccPassThroughEnable, _WWAN_UICC_PASSTHROUGH_ACTION, netvista.wwan_uicc_passthrough_action, wwan/WWAN_UICC_PASSTHROUGH_ACTION, wwan/WwanUiccPassThroughActionMaximum, wwan/WwanUiccPassThroughDisable, wwan/WwanUiccPassThroughEnable"
 ms.topic: enum
+f1_keywords:
+ - "wwan/WWAN_UICC_PASSTHROUGH_ACTION"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows

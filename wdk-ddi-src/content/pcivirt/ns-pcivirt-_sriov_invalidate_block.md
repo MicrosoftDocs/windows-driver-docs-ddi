@@ -8,6 +8,8 @@ ms.assetid: 483e6144-9752-4d47-9ed4-7e73bc0a59cc
 ms.date: 02/24/2018
 ms.keywords: "*PSRIOV_INVALIDATE_BLOCK, PCI.sriov_invalidate_block, SRIOV_INVALIDATE_BLOCK, SRIOV_INVALIDATE_BLOCK structure [Buses], _SRIOV_INVALIDATE_BLOCK, pcivirt/SRIOV_INVALIDATE_BLOCK"
 ms.topic: struct
+f1_keywords:
+ - "pcivirt/SRIOV_INVALIDATE_BLOCK"
 req.header: pcivirt.h
 req.include-header:
 req.target-type: Windows

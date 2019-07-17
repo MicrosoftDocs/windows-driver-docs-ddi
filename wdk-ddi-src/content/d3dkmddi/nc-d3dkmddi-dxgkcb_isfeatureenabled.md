@@ -8,6 +8,8 @@ ms.assetid: c16b0f26-67e7-4048-8f47-2815d87a823e
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
 ms.topic: callback
+f1_keywords:
+ - "d3dkmddi/DXGKCB_ISFEATUREENABLED"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 req.header: d3dkmddi.h

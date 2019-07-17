@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 803f83f9-0b3f-42a5-823c-dd5bbcf8f1a2
 ms.date: 04/16/2018
 ms.topic: macro
+f1_keywords:
+ - "ndis/NDIS_GET_NET_BUFFER_LIST_CANCEL_ID"
 ms.keywords: NDIS_GET_NET_BUFFER_LIST_CANCEL_ID
 req.header: ndis.h
 req.include-header:

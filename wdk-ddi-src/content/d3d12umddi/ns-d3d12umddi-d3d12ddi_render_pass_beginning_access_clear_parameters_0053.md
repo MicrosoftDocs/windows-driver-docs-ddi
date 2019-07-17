@@ -5,6 +5,8 @@ description: Parameters needed to specify whether the application has a dependen
 ms.assetid: 810a1ea6-713d-45f8-b94f-9ece79c3dd8d
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_RENDER_PASS_BEGINNING_ACCESS_CLEAR_PARAMETERS_0053"
 ms.keywords: D3D12DDI_RENDER_PASS_BEGINNING_ACCESS_CLEAR_PARAMETERS_0053, D3D12DDI_RENDER_PASS_BEGINNING_ACCESS_CLEAR_PARAMETERS_0053, 
 req.header: d3d12umddi.h
 req.include-header:

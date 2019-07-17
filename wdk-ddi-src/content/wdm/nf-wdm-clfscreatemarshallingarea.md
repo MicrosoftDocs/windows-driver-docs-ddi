@@ -8,6 +8,8 @@ ms.assetid: c841d8fb-fa42-4ce5-aedb-c7c13bcc2ba7
 ms.date: 04/30/2018
 ms.keywords: ClfsCreateMarshallingArea, ClfsCreateMarshallingArea routine [Kernel-Mode Driver Architecture], Clfs_7b5e3208-8dfb-4fbf-b2a9-77ecc5765df6.xml, kernel.clfscreatemarshallingarea, wdm/ClfsCreateMarshallingArea
 ms.topic: function
+f1_keywords:
+ - "wdm/ClfsCreateMarshallingArea"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop

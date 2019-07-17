@@ -8,6 +8,8 @@ ms.assetid: D2F7C90E-BAF4-419D-94CF-5FC39E7B6A58
 ms.date: 02/15/2018
 ms.keywords: "*PGNSS_NI_RESPONSE, GNSS_NI_RESPONSE, GNSS_NI_RESPONSE structure [Sensor Devices], PGNSS_NI_RESPONSE, PGNSS_NI_RESPONSE structure pointer [Sensor Devices], gnss.gnss_ni_response, gnssdriver/GNSS_NI_RESPONSE, gnssdriver/PGNSS_NI_RESPONSE"
 ms.topic: struct
+f1_keywords:
+ - "gnssdriver/GNSS_NI_RESPONSE"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows

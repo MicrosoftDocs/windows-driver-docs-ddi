@@ -8,6 +8,8 @@ ms.assetid: 28CF8291-E7C3-4289-909C-C89D350A9D83
 ms.date: 04/30/2018
 ms.keywords: "*PPEP_PPM_IDLE_EXECUTE_V2, PEP_PPM_IDLE_EXECUTE_V2, PEP_PPM_IDLE_EXECUTE_V2 structure [Kernel-Mode Driver Architecture], PPEP_PPM_IDLE_EXECUTE_V2, PPEP_PPM_IDLE_EXECUTE_V2 structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_IDLE_EXECUTE_V2, kernel.pep_ppm_idle_execute_v2, pepfx/PEP_PPM_IDLE_EXECUTE_V2, pepfx/PPEP_PPM_IDLE_EXECUTE_V2"
 ms.topic: struct
+f1_keywords:
+ - "pepfx/PEP_PPM_IDLE_EXECUTE_V2"
 req.header: pepfx.h
 req.include-header: Pep_x.h
 req.target-type: Windows

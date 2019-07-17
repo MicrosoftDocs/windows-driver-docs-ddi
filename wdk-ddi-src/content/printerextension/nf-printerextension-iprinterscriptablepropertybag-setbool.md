@@ -8,6 +8,8 @@ ms.assetid: 8970833A-7CBA-40EB-85A8-60E7730C052F
 ms.date: 04/20/2018
 ms.keywords: IPrinterScriptablePropertyBag interface [Print Devices],SetBool method, IPrinterScriptablePropertyBag.SetBool, IPrinterScriptablePropertyBag::SetBool, SetBool, SetBool method [Print Devices], SetBool method [Print Devices],IPrinterScriptablePropertyBag interface, print.iprinterscriptablepropertybag_setbool, printerextension/IPrinterScriptablePropertyBag::SetBool
 ms.topic: method
+f1_keywords:
+ - "printerextension/IPrinterScriptablePropertyBag.SetBool"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop

@@ -8,6 +8,8 @@ ms.assetid: ebef9742-03ea-4402-a62e-9f45f11230cd
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
 ms.topic: struct
+f1_keywords:
+ - "d3dkmddi/_DXGKARGCB_ISFEATUREENABLED"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.keywords: _DXGKARGCB_ISFEATUREENABLED, DXGKARGCB_ISFEATUREENABLED, *INOUT_PDXGKARGCB_ISFEATUREENABLED

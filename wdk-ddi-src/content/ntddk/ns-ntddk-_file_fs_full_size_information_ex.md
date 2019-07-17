@@ -6,6 +6,8 @@ tech.root: ifsk
 ms.assetid: a7d7b036-3f47-4e6d-87df-1578300e095c
 ms.date: 09/30/2018
 ms.topic: struct
+f1_keywords:
+ - "ntddk/_FILE_FS_FULL_SIZE_INFORMATION_EX"
 ms.keywords: _FILE_FS_FULL_SIZE_INFORMATION_EX, FILE_FS_FULL_SIZE_INFORMATION_EX, *PFILE_FS_FULL_SIZE_INFORMATION_EX, 
 req.header: ntddk.h
 req.include-header: wdm.h

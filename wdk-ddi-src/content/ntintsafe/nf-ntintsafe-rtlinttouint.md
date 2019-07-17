@@ -8,6 +8,8 @@ ms.assetid: 9D2C7E0F-99E2-4B95-8CB6-9158DA1D906F
 ms.date: 04/30/2018
 ms.keywords: RtlIntToUInt, RtlIntToUInt function [Kernel-Mode Driver Architecture], kernel.rtlinttouint, ntintsafe/RtlIntToUInt
 ms.topic: function
+f1_keywords:
+ - "ntintsafe/RtlIntToUInt"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop

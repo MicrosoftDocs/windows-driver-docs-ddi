@@ -8,6 +8,8 @@ ms.assetid: C87E70ED-FCB0-47B6-B6A3-A8EBC8E84058
 ms.date: 05/03/2018
 ms.keywords: GetNameByInlineContext, GetNameByInlineContext method [Windows Debugging], GetNameByInlineContext method [Windows Debugging],IDebugSymbols4 interface, IDebugSymbols4 interface [Windows Debugging],GetNameByInlineContext method, IDebugSymbols4.GetNameByInlineContext, IDebugSymbols4::GetNameByInlineContext, dbgeng/IDebugSymbols4::GetNameByInlineContext, debugger.idebugsymbols4_getnamebyinlinecontext
 ms.topic: method
+f1_keywords:
+ - "dbgeng/IDebugSymbols4.GetNameByInlineContext"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

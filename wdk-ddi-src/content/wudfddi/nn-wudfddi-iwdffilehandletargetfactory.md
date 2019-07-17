@@ -8,6 +8,8 @@ ms.assetid: b4754176-53a2-4ee4-a441-5d9a4a4a17e2
 ms.date: 02/26/2018
 ms.keywords: IWDFFileHandleTargetFactory, IWDFFileHandleTargetFactory interface, IWDFFileHandleTargetFactory interface,described, UMDFDeviceObjectRef_01a7fcc5-c259-4bad-b44c-9a20eeae1751.xml, umdf.iwdffilehandletargetfactory, wdf.iwdffilehandletargetfactory, wudfddi/IWDFFileHandleTargetFactory
 ms.topic: interface
+f1_keywords:
+ - "wudfddi/IWDFFileHandleTargetFactory"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

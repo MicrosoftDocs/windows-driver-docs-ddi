@@ -8,6 +8,8 @@ ms.assetid: 7BC27FD1-CCD8-4ABC-B973-C2242D6C243B
 ms.date: 04/30/2018
 ms.keywords: AcceptAcpiNotification, AcceptAcpiNotification routine [Kernel-Mode Driver Architecture], PEPCALLBACKNOTIFYACPI, kernel.acceptacpinotification, pepfx/AcceptAcpiNotification
 ms.topic: callback
+f1_keywords:
+ - "pep_x/AcceptAcpiNotification"
 req.header: pep_x.h
 req.include-header: Pep_x.h
 req.target-type: Windows

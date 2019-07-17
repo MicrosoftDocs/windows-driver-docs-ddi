@@ -5,6 +5,8 @@ description: The CreateTypedObject method is the method which allows a client to
 ms.assetid: 6a92ab93-a6fe-4065-a538-ce957349c311
 ms.date: 07/17/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDataModelManager.CreateTypedObject"
 ms.keywords: IDataModelManager::CreateTypedObject, CreateTypedObject, IDataModelManager.CreateTypedObject, IDataModelManager::CreateTypedObject, IDataModelManager.CreateTypedObject
 req.header: dbgmodel.h
 req.include-header:

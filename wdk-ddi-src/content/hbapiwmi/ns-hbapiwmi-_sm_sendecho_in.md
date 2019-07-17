@@ -8,6 +8,8 @@ ms.assetid: 0fce2e27-8705-4916-8c75-ecc2845c255c
 ms.date: 03/29/2018
 ms.keywords: "*PSM_SendECHO_IN, PSM_SendECHO_IN, PSM_SendECHO_IN structure pointer [Storage Devices], SM_SendECHO_IN, SM_SendECHO_IN structure [Storage Devices], _SM_SendECHO_IN, hbapiwmi/PSM_SendECHO_IN, hbapiwmi/SM_SendECHO_IN, storage.sm_sendecho_in, structs-Fibre_b5bcd1e0-9847-4425-8091-6b6dcf7581a0.xml"
 ms.topic: struct
+f1_keywords:
+ - "hbapiwmi/SM_SendECHO_IN"
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h
 req.target-type: Windows

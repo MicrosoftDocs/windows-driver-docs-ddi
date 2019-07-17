@@ -5,6 +5,8 @@ description: The PFND3DKMT_UNPINDIRECTFLIPRESOURCES callback function unpins dir
 ms.assetid: 4b2692d3-7747-490e-9f90-45f8d4cfbf72
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/PFND3DKMT_UNPINDIRECTFLIPRESOURCES"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal

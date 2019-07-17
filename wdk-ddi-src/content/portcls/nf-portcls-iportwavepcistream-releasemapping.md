@@ -8,6 +8,8 @@ ms.assetid: c4464fba-cc23-47d2-87d6-82b3eba8ddbe
 ms.date: 05/08/2018
 ms.keywords: IPortWavePciStream interface [Audio Devices],ReleaseMapping method, IPortWavePciStream.ReleaseMapping, IPortWavePciStream::ReleaseMapping, ReleaseMapping, ReleaseMapping method [Audio Devices], ReleaseMapping method [Audio Devices],IPortWavePciStream interface, audio.iportwavepcistream_releasemapping, audmp-routines_a4e274f7-02f8-4775-854f-befdc7dc6f03.xml, portcls/IPortWavePciStream::ReleaseMapping
 ms.topic: method
+f1_keywords:
+ - "portcls/IPortWavePciStream.ReleaseMapping"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal

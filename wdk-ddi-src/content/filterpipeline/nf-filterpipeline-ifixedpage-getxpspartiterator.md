@@ -8,6 +8,8 @@ ms.assetid: c4605d9c-b12c-4056-bf19-a67df3ef8c8b
 ms.date: 04/20/2018
 ms.keywords: GetXpsPartIterator, GetXpsPartIterator method [Print Devices], GetXpsPartIterator method [Print Devices],IFixedPage interface, IFixedPage interface [Print Devices],GetXpsPartIterator method, IFixedPage.GetXpsPartIterator, IFixedPage::GetXpsPartIterator, filterpipeline/IFixedPage::GetXpsPartIterator, filterpipeline_da8f4ed6-71b0-4d95-867b-7389815fd072.xml, print.ifixedpage_getxpspartiterator
 ms.topic: method
+f1_keywords:
+ - "filterpipeline/IFixedPage.GetXpsPartIterator"
 req.header: filterpipeline.h
 req.include-header: 
 req.target-type: Desktop

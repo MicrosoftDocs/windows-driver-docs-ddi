@@ -8,6 +8,8 @@ ms.assetid: 4EC3E99B-C73C-4EAC-9EBD-BB45ABFCE8EC
 ms.date: 04/23/2018
 ms.keywords: KsPersistDeviceProfile, KsPersistDeviceProfile function [Streaming Media Devices], ks/KsPersistDeviceProfile, stream.kspersistdeviceprofile
 ms.topic: function
+f1_keywords:
+ - "ks/KsPersistDeviceProfile"
 req.header: ks.h
 req.include-header: Ksmedia.h
 req.target-type: Universal

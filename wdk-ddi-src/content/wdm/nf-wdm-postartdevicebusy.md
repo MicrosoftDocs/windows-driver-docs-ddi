@@ -8,6 +8,8 @@ ms.assetid: f3801fdf-c300-4863-afb9-49fad011dc4c
 ms.date: 04/30/2018
 ms.keywords: PoStartDeviceBusy, PoStartDeviceBusy routine [Kernel-Mode Driver Architecture], kernel.postartdevicebusy, portn_b129df72-9d6a-46b7-99db-ad2e96cfeafe.xml, wdm/PoStartDeviceBusy
 ms.topic: function
+f1_keywords:
+ - "wdm/PoStartDeviceBusy"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

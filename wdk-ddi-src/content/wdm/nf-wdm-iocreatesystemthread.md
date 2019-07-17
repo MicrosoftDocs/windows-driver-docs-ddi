@@ -8,6 +8,8 @@ ms.assetid: B2879353-3917-46AA-89CC-A20F0BB78BC4
 ms.date: 04/30/2018
 ms.keywords: IoCreateSystemThread, IoCreateSystemThread routine [Kernel-Mode Driver Architecture], kernel.iocreatesystemthread, wdm/IoCreateSystemThread
 ms.topic: function
+f1_keywords:
+ - "wdm/IoCreateSystemThread"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

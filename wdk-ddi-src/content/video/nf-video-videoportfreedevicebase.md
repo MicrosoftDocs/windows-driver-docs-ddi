@@ -8,6 +8,8 @@ ms.assetid: 5b165237-f6fb-449c-878d-0ee09076d203
 ms.date: 05/10/2018
 ms.keywords: VideoPortFreeDeviceBase, VideoPortFreeDeviceBase function [Display Devices], VideoPort_Functions_cdbada9a-c5be-48e3-90e7-9414a055350c.xml, display.videoportfreedevicebase, video/VideoPortFreeDeviceBase
 ms.topic: function
+f1_keywords:
+ - "video/VideoPortFreeDeviceBase"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

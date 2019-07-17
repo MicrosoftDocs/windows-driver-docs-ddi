@@ -5,6 +5,8 @@ description: Gets the kind of symbol that this is (e.g. a field, a base class, a
 ms.assetid: 46cd353e-d25d-4cd4-b9e4-7be502a148a7
 ms.date: 09/21/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDebugHostType2.GetSymbolKind"
 ms.keywords: IDebugHostType2::GetSymbolKind, GetSymbolKind, IDebugHostType2.GetSymbolKind, IDebugHostType2::GetSymbolKind, IDebugHostType2.GetSymbolKind
 req.header: dbgmodel.h
 req.include-header:

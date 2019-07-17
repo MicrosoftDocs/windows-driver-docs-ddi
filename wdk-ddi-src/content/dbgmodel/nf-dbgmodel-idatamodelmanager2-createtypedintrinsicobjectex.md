@@ -5,6 +5,8 @@ description: The CreateTypedIntrinsicObjectEx method is semantically similar to 
 ms.assetid: 4a5450f4-d14d-41bb-b0ac-520fe1dc49f7
 ms.date: 09/11/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDataModelManager2.CreateTypedIntrinsicObjectEx"
 ms.keywords: IDataModelManager2::CreateTypedIntrinsicObjectEx, CreateTypedIntrinsicObjectEx, IDataModelManager2.CreateTypedIntrinsicObjectEx, IDataModelManager2::CreateTypedIntrinsicObjectEx, IDataModelManager2.CreateTypedIntrinsicObjectEx
 req.header: dbgmodel.h
 req.include-header:

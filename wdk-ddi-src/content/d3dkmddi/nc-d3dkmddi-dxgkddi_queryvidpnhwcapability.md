@@ -7,6 +7,8 @@ ms.assetid: 41af9528-4497-41aa-a65d-70352aa85f8c
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_QUERYVIDPNHWCAPABILITY, DXGKDDI_QUERYVIDPNHWCAPABILITY callback, DmFunctions_2e9dffd4-d8af-49f9-86d4-7a67e18df2dc.xml, DxgkDdiQueryVidPnHWCapability, DxgkDdiQueryVidPnHWCapability callback function [Display Devices], d3dkmddi/DxgkDdiQueryVidPnHWCapability, display.dxgkddiqueryvidpnhwcapability
 ms.topic: callback
+f1_keywords:
+ - "d3dkmddi/DxgkDdiQueryVidPnHWCapability"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Desktop

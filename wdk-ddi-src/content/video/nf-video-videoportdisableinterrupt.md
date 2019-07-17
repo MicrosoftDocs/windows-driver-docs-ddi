@@ -8,6 +8,8 @@ ms.assetid: 4a2be8af-e393-4c7f-9377-cb2842778104
 ms.date: 05/10/2018
 ms.keywords: VideoPortDisableInterrupt, VideoPortDisableInterrupt function [Display Devices], VideoPort_Functions_b01a5ae8-7e44-4ac8-9e11-ee266f34a4da.xml, display.videoportdisableinterrupt, video/VideoPortDisableInterrupt
 ms.topic: function
+f1_keywords:
+ - "video/VideoPortDisableInterrupt"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

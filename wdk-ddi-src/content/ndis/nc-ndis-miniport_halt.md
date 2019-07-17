@@ -8,6 +8,8 @@ ms.assetid: b8d452b4-bef3-4991-87cf-fac15bedfde4
 ms.date: 05/02/2018
 ms.keywords: MINIPORT_HALT, MINIPORT_HALT callback, MiniportHaltEx, MiniportHaltEx callback function [Network Drivers Starting with Windows Vista], miniport_functions_ref_aa826b59-f204-43ea-81b6-f1bab84a7a23.xml, ndis/MiniportHaltEx, netvista.miniporthaltex
 ms.topic: callback
+f1_keywords:
+ - "ndis/MiniportHaltEx"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

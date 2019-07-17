@@ -8,6 +8,8 @@ ms.assetid: 8541d0db-814e-4a11-8577-f575d4ddb060
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
 ms.topic: struct
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_ENCODE_0063"
 ms.keywords: D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_ENCODE_0063, D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_ENCODE_0063, 
 req.header: d3d12umddi.h
 req.include-header:

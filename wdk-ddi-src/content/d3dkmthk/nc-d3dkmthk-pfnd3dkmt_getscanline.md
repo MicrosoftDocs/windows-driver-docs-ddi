@@ -5,6 +5,8 @@ description: Pfnd3dkmtGetscanline determines whether the given video present sou
 ms.assetid: 05015761-1078-47c8-8e4b-deb02a999e6f
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/PFND3DKMT_GETSCANLINE"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

@@ -8,6 +8,8 @@ ms.assetid: 5E85D80B-4C0F-4C91-A1B5-565E09FD3743
 ms.date: 05/07/2018
 ms.keywords: UfxDeviceProprietaryChargerDetectComplete, UfxDeviceProprietaryChargerDetectComplete method [Buses], buses.ufxdeviceproprietarychargerdetectcomplete, ufxclient/UfxDeviceProprietaryChargerDetectComplete
 ms.topic: function
+f1_keywords:
+ - "ufxclient/UfxDeviceProprietaryChargerDetectComplete"
 req.header: ufxclient.h
 req.include-header: 
 req.target-type: Windows

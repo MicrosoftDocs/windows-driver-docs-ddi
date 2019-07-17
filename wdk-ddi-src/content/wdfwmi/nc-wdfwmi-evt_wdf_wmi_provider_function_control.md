@@ -8,6 +8,8 @@ ms.assetid: 89b48747-d3aa-48c7-825c-94545f378f07
 ms.date: 02/26/2018
 ms.keywords: DFWMIRef_2beaafe2-cb59-49cb-85dc-6ea2beff1b1e.xml, EVT_WDF_WMI_PROVIDER_FUNCTION_CONTROL, EVT_WDF_WMI_PROVIDER_FUNCTION_CONTROL callback, EvtWmiProviderFunctionControl, EvtWmiProviderFunctionControl callback function, kmdf.evtwmiproviderfunctioncontrol, wdf.evtwmiproviderfunctioncontrol, wdfwmi/EvtWmiProviderFunctionControl
 ms.topic: callback
+f1_keywords:
+ - "wdfwmi/EvtWmiProviderFunctionControl"
 req.header: wdfwmi.h
 req.include-header: Wdf.h
 req.target-type: Universal

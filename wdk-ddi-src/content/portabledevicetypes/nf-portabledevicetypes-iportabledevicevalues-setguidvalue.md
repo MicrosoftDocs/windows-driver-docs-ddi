@@ -8,6 +8,8 @@ ms.assetid: 08b5184b-6baa-45dc-be26-cbf7d9c96616
 ms.date: 02/15/2018
 ms.keywords: IPortableDeviceValues interface,SetGuidValue method, IPortableDeviceValues.SetGuidValue, IPortableDeviceValues::SetGuidValue, IPortableDeviceValuesSetGuidValue, SetGuidValue, SetGuidValue method, SetGuidValue method,IPortableDeviceValues interface, portabledevicetypes/IPortableDeviceValues::SetGuidValue, wpddk.iportabledevicevalues_setguidvalue
 ms.topic: method
+f1_keywords:
+ - "portabledevicetypes/IPortableDeviceValues.SetGuidValue"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows

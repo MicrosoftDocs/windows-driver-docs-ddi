@@ -8,6 +8,8 @@ ms.assetid: 58ed8f04-616f-4eea-b6e1-07f322c37dbb
 ms.date: 05/10/2018
 ms.keywords: IDDCX_CURSOR_SHAPE_INFO, IDDCX_CURSOR_SHAPE_INFO structure [Display Devices], display.iddcx_cursor_shape_info, iddcx/IDDCX_CURSOR_SHAPE_INFO
 ms.topic: struct
+f1_keywords:
+ - "iddcx/IDDCX_CURSOR_SHAPE_INFO"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows

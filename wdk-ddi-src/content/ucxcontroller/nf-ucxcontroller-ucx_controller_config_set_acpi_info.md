@@ -8,6 +8,8 @@ ms.assetid: D060CE9D-B23A-4E6C-9CC3-1DDAB0583FF8
 ms.date: 05/07/2018
 ms.keywords: UCX_CONTROLLER_CONFIG_SET_ACPI_INFO, UCX_CONTROLLER_CONFIG_SET_ACPI_INFO function [Buses], buses._ucx_controller_config_set_acpi_info, ucxcontroller/UCX_CONTROLLER_CONFIG_SET_ACPI_INFO
 ms.topic: function
+f1_keywords:
+ - "ucxcontroller/UCX_CONTROLLER_CONFIG_SET_ACPI_INFO"
 req.header: ucxcontroller.h
 req.include-header: Ucxclass.h
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: 59eb490e-66d5-4108-8d00-5503fa56665d
 ms.date: 05/03/2018
 ms.keywords: GetScope, GetScope method [Windows Debugging], GetScope method [Windows Debugging],IDebugSymbols interface, GetScope method [Windows Debugging],IDebugSymbols2 interface, GetScope method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging],GetScope method, IDebugSymbols2 interface [Windows Debugging],GetScope method, IDebugSymbols2::GetScope, IDebugSymbols3 interface [Windows Debugging],GetScope method, IDebugSymbols3.GetScope, IDebugSymbols3::GetScope, IDebugSymbols::GetScope, IDebugSymbols_500f523a-22d9-468e-8d7c-36f49bda089c.xml, dbgeng/IDebugSymbols2::GetScope, dbgeng/IDebugSymbols3::GetScope, dbgeng/IDebugSymbols::GetScope, debugger.getscope
 ms.topic: method
+f1_keywords:
+ - "dbgeng/IDebugSymbols.GetScope"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h, Ntddk.h
 req.target-type: Desktop

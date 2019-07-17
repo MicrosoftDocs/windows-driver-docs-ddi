@@ -8,6 +8,8 @@ ms.assetid: 355A600E-F207-4A3F-80AE-EA2DAE810DA3
 ms.date: 02/15/2018
 ms.keywords: "*PACPI_EVAL_OUTPUT_BUFFER_V2, ACPI_EVAL_OUTPUT_BUFFER_V2, ACPI_EVAL_OUTPUT_BUFFER_V2 structure [ACPI Devices], _ACPI_EVAL_OUTPUT_BUFFER_V2, acpi.acpi_eval_output_buffer_v2, acpiioct/ACPI_EVAL_OUTPUT_BUFFER_V2"
 ms.topic: struct
+f1_keywords:
+ - "acpiioct/ACPI_EVAL_OUTPUT_BUFFER_V2"
 req.header: acpiioct.h
 req.include-header: Acpiioct.h
 req.target-type: Windows

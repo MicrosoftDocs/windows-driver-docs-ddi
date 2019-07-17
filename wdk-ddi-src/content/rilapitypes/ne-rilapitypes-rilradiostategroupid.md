@@ -8,6 +8,8 @@ ms.assetid: 147eb9f7-da0c-41c2-83b3-766164dbc905
 ms.date: 05/02/2018
 ms.keywords: RILRADIOSTATEGROUPID, RILRADIOSTATEGROUPID enumeration [Network Drivers Starting with Windows Vista], netvista.rilradiostategroupid, ntddrilapitypes/RILRADIOSTATEGROUPID
 ms.topic: enum
+f1_keywords:
+ - "rilapitypes/RILRADIOSTATEGROUPID"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

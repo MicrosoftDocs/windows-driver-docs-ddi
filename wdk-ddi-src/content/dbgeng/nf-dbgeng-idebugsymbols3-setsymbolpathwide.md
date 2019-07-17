@@ -8,6 +8,8 @@ ms.assetid: 44ee3342-3677-4eee-8ddf-d0a01e9bb309
 ms.date: 05/03/2018
 ms.keywords: IDebugSymbols3 interface [Windows Debugging],SetSymbolPathWide method, IDebugSymbols3.SetSymbolPathWide, IDebugSymbols3::SetSymbolPathWide, SetSymbolPathWide, SetSymbolPathWide method [Windows Debugging], SetSymbolPathWide method [Windows Debugging],IDebugSymbols3 interface, dbgeng/IDebugSymbols3::SetSymbolPathWide, debugger.setsymbolpathwide
 ms.topic: method
+f1_keywords:
+ - "dbgeng/IDebugSymbols3.SetSymbolPathWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

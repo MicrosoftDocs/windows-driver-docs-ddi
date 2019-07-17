@@ -5,6 +5,8 @@ description: Trim notification.
 ms.assetid: cc23539a-b74d-40d5-b03a-6d1f0b70b71c
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/PFND3DKMT_TRIMNOTIFICATIONCALLBACK"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

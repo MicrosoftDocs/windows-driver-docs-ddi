@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 9c0e02cd-549a-481c-bd07-6210bf9fd154
 ms.date: 04/12/2018
 ms.topic: macro
+f1_keywords:
+ - "ndis/NET_BUFFER_LIST_DUP_ACK_COUNT"
 ms.keywords: NET_BUFFER_LIST_DUP_ACK_COUNT
 req.header: ndis.h
 req.include-header:

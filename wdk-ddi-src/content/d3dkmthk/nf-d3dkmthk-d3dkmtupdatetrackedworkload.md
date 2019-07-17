@@ -5,6 +5,8 @@ description: Updates the tracked workload.
 ms.assetid: c474becc-c0c4-4474-857d-69800c780087
 ms.date: 10/19/2018
 ms.topic: function
+f1_keywords:
+ - "d3dkmthk/D3DKMTUpdateTrackedWorkload"
 ms.keywords: D3DKMTUpdateTrackedWorkload
 req.header: d3dkmthk.h
 req.include-header:

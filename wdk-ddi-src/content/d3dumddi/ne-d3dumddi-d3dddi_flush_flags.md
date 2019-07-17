@@ -8,6 +8,8 @@ ms.assetid: FE5EF59E-3B37-4947-A7E8-5CBE6137D07D
 ms.date: 05/10/2018
 ms.keywords: D3DDDI_FLUSH_FLAGS, D3DDDI_FLUSH_FLAGS enumeration [Display Devices], D3DDDI_TRIM_MEMORY, d3dumddi/D3DDDI_FLUSH_FLAGS, d3dumddi/D3DDDI_TRIM_MEMORY, display.d3dddi_flush_flags
 ms.topic: enum
+f1_keywords:
+ - "d3dumddi/D3DDDI_FLUSH_FLAGS"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

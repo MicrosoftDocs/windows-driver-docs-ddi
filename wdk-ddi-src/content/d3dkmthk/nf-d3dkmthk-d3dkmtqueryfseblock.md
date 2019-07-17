@@ -5,6 +5,8 @@ description: Query FSE block.
 ms.assetid: 1017fd2f-eae0-401e-aea0-49016415907b
 ms.date: 10/19/2018
 ms.topic: function
+f1_keywords:
+ - "d3dkmthk/D3DKMTQueryFSEBlock"
 ms.keywords: D3DKMTQueryFSEBlock
 req.header: d3dkmthk.h
 req.include-header:

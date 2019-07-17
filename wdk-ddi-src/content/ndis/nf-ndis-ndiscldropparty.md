@@ -8,6 +8,8 @@ ms.assetid: f5d04730-a7eb-4670-9b47-f8c52267aea8
 ms.date: 05/02/2018
 ms.keywords: NdisClDropParty, NdisClDropParty function [Network Drivers Starting with Windows Vista], condis_client_ref_a86ff56b-e523-4d1b-a3ef-60ec953514c6.xml, ndis/NdisClDropParty, netvista.ndiscldropparty
 ms.topic: function
+f1_keywords:
+ - "ndis/NdisClDropParty"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

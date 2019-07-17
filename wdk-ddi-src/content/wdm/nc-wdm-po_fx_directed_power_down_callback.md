@@ -8,6 +8,8 @@ ms.assetid: d4d5aca2-8de7-4cb5-8626-77b0dda843bd
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
+f1_keywords:
+ - "wdm/PO_FX_DIRECTED_POWER_DOWN_CALLBACK"
 req.header: wdm.h
 req.include-header:
 req.target-type:
