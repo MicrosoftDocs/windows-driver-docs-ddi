@@ -63,7 +63,7 @@ lFlags [in]
 
 #### - lFlags [in]
 
-Indicates how the driver item tree should be unlinked. This parameter must be set to one of the following values. See the Microsoft Windows SDK documentation for a description of the WIA item type flags.
+Indicates how the driver item tree should be unlinked. This parameter must be set to one of the following values. For more information, see [WIA Item Type Flags](https://docs.microsoft.com/windows/win32/wia/-wia-wia-item-type-flags).
 
 | Value | Meaning |
 | --- | --- |
