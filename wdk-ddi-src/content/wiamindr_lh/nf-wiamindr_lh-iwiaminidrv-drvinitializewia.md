@@ -150,7 +150,7 @@ The value pointed to by *plDevErrVal* can be converted to a string by calling [I
 
 This method should initialize any private structures and create the driver item tree. For detailed information about the steps that minidrivers typically perform in this method, see [Initializing the WIA Minidriver](https://docs.microsoft.com/windows-hardware/drivers/image/initializing-the-wia-minidriver) and [Creating the WIA Driver Item Tree](https://docs.microsoft.com/windows-hardware/drivers/image/creating-the-wia-driver-item-tree).
 
-The WIA service calls the **IWiaMiniDrv::drvInitializeWia** method in response to a client's call to the **CreateDevice** function (described in the Microsoft Windows SDK documentation), which means that this method is called once for each new client connection.
+The WIA service calls the **IWiaMiniDrv::drvInitializeWia** method in response to a client's call to the [**CreateDevice**](https://docs.microsoft.com/windows/win32/api/wia_xp/nf-wia_xp-iwiadevmgr-createdevice) function, which means that this method is called once for each new client connection.
 
 For example, if the user right-clicks a WIA scanner icon in **My Computer**, the shell calls **CreateDevice**, which generates a call to the minidriver's **IWiaMiniDrv::drvInitializeWia** method. If the user then runs the WIA **Acquisition Wizard**, it also calls **CreateDevice**. Each time that **CreateDevice** is called, there is a corresponding call to the **IWiaMiniDrv::drvInitializeWia** method on the minidriver.
 
