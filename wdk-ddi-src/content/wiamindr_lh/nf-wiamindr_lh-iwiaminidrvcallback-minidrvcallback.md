@@ -57,7 +57,7 @@ Specifies a constant value that designates a callback status message. This value
 | Message | Definition |
 | --- | --- |
 | IT_MSG_DATA | Indicates that the transfer buffer contains a block of data. |
-| IT_MSG_DATA_HEADER | Received before any data transfers. Indicates that the transfer buffer points to a WIA_DATA_CALLBACK_HEADER structure (defined in the Microsoft Windows SDK documentation) that defines elements of the data transfer. |
+| IT_MSG_DATA_HEADER | Received before any data transfers. Indicates that the transfer buffer points to a [WIA_DATA_CALLBACK_HEADER](https://docs.microsoft.com/windows/win32/api/wia_xp/ns-wia_xp-wia_data_callback_header) structure that defines elements of the data transfer. |
 | IT_MSG_DEVICE_STATUS | Callback contains only status information about the device. |
 | IT_MSG_FILE_PREVIEW_DATA | Indicates preview data is being transferred to the application. |
 | IT_MSG_FILE_PREVIEW_DATA_HEADER | Indicates a header is being transferred to the application, prior to the preview data being transferred. |
