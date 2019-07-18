@@ -8,6 +8,8 @@ ms.assetid: 3fa8ea3d-cca0-402d-a3a8-1281ad4231d4
 ms.date: 02/26/2018
 ms.keywords: DFDebugRef_05774709-97ed-4fcc-b0b2-9fdac9a34094.xml, WdfVerifierKeBugCheck, WdfVerifierKeBugCheck function, kmdf.wdfverifierkebugcheck, wdf.wdfverifierkebugcheck, wdfverifier/WdfVerifierKeBugCheck
 ms.topic: function
+f1_keywords:
+ - "wdfverifier/WdfVerifierKeBugCheck"
 req.header: wdfverifier.h
 req.include-header: Wdf.h
 req.target-type: Universal

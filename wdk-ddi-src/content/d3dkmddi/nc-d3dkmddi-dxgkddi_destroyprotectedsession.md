@@ -7,6 +7,8 @@ ms.assetid: 42D4064A-1697-4772-8450-6D217C526347
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_DESTROYPROTECTEDSESSION, DXGKDDI_DESTROYPROTECTEDSESSION callback, DXGKDDI_DESTROYPROTECTEDSESSION callback function [Display Devices], d3dkmddi/DXGKDDI_DESTROYPROTECTEDSESSION, display.dxgkddi_destroyprotectedsession
 ms.topic: callback
+f1_keywords:
+ - "d3dkmddi/DXGKDDI_DESTROYPROTECTEDSESSION"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Windows

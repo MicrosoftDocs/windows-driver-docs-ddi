@@ -8,6 +8,8 @@ ms.assetid: 25475970-446a-4dbf-b916-222bc6eb6ba3
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
 ms.topic: struct
+f1_keywords:
+ - "dispmprt/_DXGK_VIRTUALGPUSEGMENTINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.keywords: _DXGK_VIRTUALGPUSEGMENTINFO, DXGK_VIRTUALGPUSEGMENTINFO, *PDXGK_VIRTUALGPUSEGMENTINFO, 

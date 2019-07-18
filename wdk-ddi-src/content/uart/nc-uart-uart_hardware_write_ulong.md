@@ -6,6 +6,8 @@ tech.root: serports
 ms.assetid: 6c4f3758-dec5-4466-968d-f4eec9eee6bf
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "uart/UART_HARDWARE_WRITE_ULONG"
 req.header: uart.h
 req.include-header:
 req.target-type:

@@ -8,6 +8,8 @@ ms.assetid: 1b7f6a39-b0d3-4a0b-b030-b7fef3ab58d6
 ms.date: 05/10/2018
 ms.keywords: D3DKMDT_SHADOWSURFACEDATA, D3DKMDT_SHADOWSURFACEDATA structure [Display Devices], DmStructs_645dbefc-137b-47c5-aa4b-de9037d71182.xml, _D3DKMDT_SHADOWSURFACEDATA, d3dkmdt/D3DKMDT_SHADOWSURFACEDATA, display.d3dkmdt_shadowsurfacedata
 ms.topic: struct
+f1_keywords:
+ - "d3dkmdt/D3DKMDT_SHADOWSURFACEDATA"
 req.header: d3dkmdt.h
 req.include-header: D3dkmdt.h
 req.target-type: Windows

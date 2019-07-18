@@ -8,6 +8,8 @@ ms.assetid: D08D9CEB-8A5C-41E6-AF05-2AE8719DD462
 ms.date: 05/08/2018
 ms.keywords: IOCTL_BTHHFP_SPEAKER_SET_VOLUME, IOCTL_BTHHFP_SPEAKER_SET_VOLUME control, IOCTL_BTHHFP_SPEAKER_SET_VOLUME control code [Audio Devices], audio.ioctl_bthhfp_speaker_set_volume, bthhfpddi/IOCTL_BTHHFP_SPEAKER_SET_VOLUME
 ms.topic: ioctl
+f1_keywords:
+ - "bthhfpddi/IOCTL_BTHHFP_SPEAKER_SET_VOLUME"
 req.header: bthhfpddi.h
 req.include-header: 
 req.target-type: Windows

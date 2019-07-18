@@ -7,6 +7,8 @@ ms.assetid: f1a2390c-0154-4bd7-954f-ca8725710d61
 ms.date: 05/10/2018
 ms.keywords: D3DKMT_ADDSURFACETOSWAPCHAIN, D3DKMT_ADDSURFACETOSWAPCHAIN structure [Display Devices], _D3DKMT_ADDSURFACETOSWAPCHAIN, d3dkmthk/D3DKMT_ADDSURFACETOSWAPCHAIN, display.d3dkmt-addsurfacetoswapchain
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/D3DKMT_ADDSURFACETOSWAPCHAIN"
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: Windows

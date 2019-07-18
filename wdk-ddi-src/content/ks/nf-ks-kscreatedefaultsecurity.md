@@ -8,6 +8,8 @@ ms.assetid: 2992a62b-7c3c-4bf5-ba3a-26c26c419f98
 ms.date: 04/23/2018
 ms.keywords: KsCreateDefaultSecurity, KsCreateDefaultSecurity function [Streaming Media Devices], ks/KsCreateDefaultSecurity, ksfunc_ab036f47-0a15-4983-98b0-7277782f29e6.xml, stream.kscreatedefaultsecurity
 ms.topic: function
+f1_keywords:
+ - "ks/KsCreateDefaultSecurity"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

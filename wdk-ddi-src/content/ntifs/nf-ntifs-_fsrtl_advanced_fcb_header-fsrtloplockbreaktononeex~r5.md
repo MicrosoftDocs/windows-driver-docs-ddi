@@ -8,6 +8,8 @@ ms.assetid: 229d4f31-7c3f-4ae2-bb67-d31c67121f61
 ms.date: 03/29/2018
 ms.keywords: FsRtlOplockBreakToNoneEx, FsRtlOplockBreakToNoneEx routine [Installable File System Drivers], fsrtlref_df3afc17-e57b-43b5-8281-4128854d2064.xml, ifsk.fsrtloplockbreaktononeex, ntifs/FsRtlOplockBreakToNoneEx
 ms.topic: function
+f1_keywords:
+ - "ntifs/FsRtlOplockBreakToNoneEx"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

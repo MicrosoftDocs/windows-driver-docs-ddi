@@ -8,6 +8,8 @@ ms.assetid: 09e698cb-09f0-40e0-90ac-0a03c4e5c17b
 ms.date: 05/03/2018
 ms.keywords: IDebugClient interface [Windows Debugging],SetOtherOutputMask method, IDebugClient2 interface [Windows Debugging],SetOtherOutputMask method, IDebugClient2.SetOtherOutputMask, IDebugClient2::SetOtherOutputMask, IDebugClient3 interface [Windows Debugging],SetOtherOutputMask method, IDebugClient3::SetOtherOutputMask, IDebugClient4 interface [Windows Debugging],SetOtherOutputMask method, IDebugClient4::SetOtherOutputMask, IDebugClient5 interface [Windows Debugging],SetOtherOutputMask method, IDebugClient5::SetOtherOutputMask, IDebugClient::SetOtherOutputMask, IDebugClient_73639f3d-f638-472e-9f30-e33de9321b29.xml, SetOtherOutputMask, SetOtherOutputMask method [Windows Debugging], SetOtherOutputMask method [Windows Debugging],IDebugClient interface, SetOtherOutputMask method [Windows Debugging],IDebugClient2 interface, SetOtherOutputMask method [Windows Debugging],IDebugClient3 interface, SetOtherOutputMask method [Windows Debugging],IDebugClient4 interface, SetOtherOutputMask method [Windows Debugging],IDebugClient5 interface, dbgeng/IDebugClient2::SetOtherOutputMask, dbgeng/IDebugClient3::SetOtherOutputMask, dbgeng/IDebugClient4::SetOtherOutputMask, dbgeng/IDebugClient5::SetOtherOutputMask, dbgeng/IDebugClient::SetOtherOutputMask, debugger.setotheroutputmask
 ms.topic: method
+f1_keywords:
+ - "dbgeng/IDebugClient.SetOtherOutputMask"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

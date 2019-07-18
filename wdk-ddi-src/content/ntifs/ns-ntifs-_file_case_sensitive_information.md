@@ -5,6 +5,8 @@ description: The FILE_CASE_SENSITIVE_INFORMATION structure is used to query or s
 ms.assetid: 4a36d9b7-8ddf-4064-b0bc-d95d6c1fb360
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "ntifs/_FILE_CASE_SENSITIVE_INFORMATION"
 ms.keywords: _FILE_CASE_SENSITIVE_INFORMATION, FILE_CASE_SENSITIVE_INFORMATION, *PFILE_CASE_SENSITIVE_INFORMATION, 
 req.header: ntifs.h
 req.include-header:

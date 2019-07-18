@@ -5,6 +5,8 @@ description: Enumerates meta-command parameters.
 ms.assetid: 3808a357-1a5b-4239-9dde-6f7b07212a91
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_ENUMERATE_META_COMMAND_PARAMETERS_0052"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

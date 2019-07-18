@@ -5,6 +5,8 @@ description: The RegisterModelForTypeSignature method is the primary method that
 ms.assetid: 41a6f6d2-749f-47e0-aad5-41ca41674320
 ms.date: 09/11/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDataModelManager2.RegisterModelForTypeSignature"
 ms.keywords: IDataModelManager2::RegisterModelForTypeSignature, RegisterModelForTypeSignature, IDataModelManager2.RegisterModelForTypeSignature, IDataModelManager2::RegisterModelForTypeSignature, IDataModelManager2.RegisterModelForTypeSignature
 req.header: dbgmodel.h
 req.include-header:

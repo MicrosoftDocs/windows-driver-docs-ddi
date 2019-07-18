@@ -5,6 +5,8 @@ description: An optional interface on scripts (objects which implement IDataMode
 ms.assetid: 29d61401-a385-4f5e-bda3-81ee79f5c5f8
 ms.date: 06/11/2019
 ms.topic: interface
+f1_keywords:
+ - "dbgmodel/IDataModelScriptDebug2"
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:

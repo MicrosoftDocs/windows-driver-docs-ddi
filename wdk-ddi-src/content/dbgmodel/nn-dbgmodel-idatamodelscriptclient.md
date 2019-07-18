@@ -5,6 +5,8 @@ description: Interface a component directly using debugger script must implement
 ms.assetid: 2eb01e40-ef25-4593-bc4f-bf689ec73a6b
 ms.date: 07/13/2018
 ms.topic: interface
+f1_keywords:
+ - "dbgmodel/IDataModelScriptClient"
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:

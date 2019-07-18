@@ -5,6 +5,8 @@ description: Gets the GPU descriptor handle that represents the start of the hea
 ms.assetid: bffa5a27-4b90-4fb9-a121-4ecbe4813b10
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_GET_GPU_DESCRIPTOR_HANDLE_FOR_HEAP_START"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

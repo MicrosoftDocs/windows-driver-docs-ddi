@@ -5,6 +5,8 @@ description: The GetKey method on a dynamic key provider is largely an override 
 ms.assetid: f4aaf952-3d3d-4d42-b6e9-bc716c93fdfb
 ms.date: 09/19/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDynamicKeyProviderConcept.GetKey"
 ms.keywords: IDynamicKeyProviderConcept::GetKey, GetKey, IDynamicKeyProviderConcept.GetKey, IDynamicKeyProviderConcept::GetKey, IDynamicKeyProviderConcept.GetKey
 req.header: dbgmodel.h
 req.include-header:

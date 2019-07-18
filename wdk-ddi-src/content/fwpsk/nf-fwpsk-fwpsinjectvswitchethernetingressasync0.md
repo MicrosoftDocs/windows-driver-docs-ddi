@@ -8,6 +8,8 @@ ms.assetid: ccb22035-08fe-44a6-88d5-bf9db7c2f499
 ms.date: 05/02/2018
 ms.keywords: FwpsInjectvSwitchEthernetIngressAsync0, FwpsInjectvSwitchEthernetIngressAsync0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsInjectvSwitchEthernetIngressAsync0, netvista.fwpsinjectvswitchingressasync0
 ms.topic: function
+f1_keywords:
+ - "fwpsk/FwpsInjectvSwitchEthernetIngressAsync0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal

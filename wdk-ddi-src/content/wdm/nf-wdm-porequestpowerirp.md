@@ -8,6 +8,8 @@ ms.assetid: 99330348-bcc2-4a89-96f8-e1b67d9ebe25
 ms.date: 04/30/2018
 ms.keywords: PoRequestPowerIrp, PoRequestPowerIrp routine [Kernel-Mode Driver Architecture], kernel.porequestpowerirp, portn_d417d88c-2f6d-4af9-b7de-455dfcc1b9df.xml, wdm/PoRequestPowerIrp
 ms.topic: function
+f1_keywords:
+ - "wdm/PoRequestPowerIrp"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

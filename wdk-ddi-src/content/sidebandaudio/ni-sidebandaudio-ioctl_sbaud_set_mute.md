@@ -5,6 +5,8 @@ description:
 ms.assetid: e674a808-de37-491b-a004-354b887285d8
 ms.date: 10/05/2018
 ms.topic: ioctl
+f1_keywords:
+ - "sidebandaudio/IOCTL_SBAUD_SET_MUTE"
 req.header: sidebandaudio.h
 req.include-header:
 req.target-type:

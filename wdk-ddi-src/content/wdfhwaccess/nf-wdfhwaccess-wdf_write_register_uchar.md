@@ -8,6 +8,8 @@ ms.assetid: 5738654A-83B1-44B4-BA45-52E2B60C852D
 ms.date: 02/26/2018
 ms.keywords: WDF_WRITE_REGISTER_UCHAR, WDF_WRITE_REGISTER_UCHAR function, wdf.wdf_write_register_uchar, wdfhwaccess/WDF_WRITE_REGISTER_UCHAR
 ms.topic: function
+f1_keywords:
+ - "wdfhwaccess/WDF_WRITE_REGISTER_UCHAR"
 req.header: wdfhwaccess.h
 req.include-header: 
 req.target-type: Universal

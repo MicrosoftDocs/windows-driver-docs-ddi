@@ -8,6 +8,8 @@ ms.assetid: DF8E428F-9F72-451E-AB3E-E6D3CBC99C8F
 ms.date: 03/29/2018
 ms.keywords: "*PSTOR_CRYPTO_OPERATION_TYPE, PSTOR_CRYPTO_OPERATION_TYPE, PSTOR_CRYPTO_OPERATION_TYPE enumeration pointer [Storage Devices], STOR_CRYPTO_OPERATION_TYPE, STOR_CRYPTO_OPERATION_TYPE enumeration [Storage Devices], _STOR_CRYPTO_OPERATION_TYPE, storage.stor_crypto_operation_type, storport/, storport/PSTOR_CRYPTO_OPERATION_TYPE, storport/STOR_CRYPTO_OPERATION_TYPE"
 ms.topic: enum
+f1_keywords:
+ - "storport/STOR_CRYPTO_OPERATION_TYPE"
 req.header: storport.h
 req.include-header: 
 req.target-type: Windows

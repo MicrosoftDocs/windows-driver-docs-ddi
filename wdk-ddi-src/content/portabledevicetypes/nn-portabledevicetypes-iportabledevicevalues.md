@@ -8,6 +8,8 @@ ms.assetid: 4a97301a-12cc-442f-a080-446ec9e1e245
 ms.date: 02/15/2018
 ms.keywords: IPortableDeviceValues, IPortableDeviceValues interface, IPortableDeviceValues interface,described, IPortableDeviceValuesInterface, portabledevicetypes/IPortableDeviceValues, wpddk.iportabledevicevalues
 ms.topic: interface
+f1_keywords:
+ - "portabledevicetypes/IPortableDeviceValues"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows

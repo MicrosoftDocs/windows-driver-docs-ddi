@@ -6,6 +6,8 @@ tech.root: serports
 ms.assetid: 2553b85b-da83-4fd8-b6f0-5ab629af1fdd
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "uart/UART_HARDWARE_READ_INDEXED_UCHAR"
 req.header: uart.h
 req.include-header:
 req.target-type:

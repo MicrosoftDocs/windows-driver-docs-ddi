@@ -8,6 +8,8 @@ ms.assetid: DC25A607-F329-44F2-8D26-A6F7E3050A33
 ms.date: 04/30/2018
 ms.keywords: RtlShortToULongLong, RtlShortToULongLong function [Kernel-Mode Driver Architecture], kernel.rtlshorttoulonglong, ntintsafe/RtlShortToULongLong
 ms.topic: function
+f1_keywords:
+ - "ntintsafe/RtlShortToULongLong"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop

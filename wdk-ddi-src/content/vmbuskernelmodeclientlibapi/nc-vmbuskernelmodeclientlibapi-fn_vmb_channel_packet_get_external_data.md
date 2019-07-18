@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: ccc4fa85-12fd-4491-af6e-29248f23f837
 ms.date: 05/21/2018
 ms.topic: callback
+f1_keywords:
+ - "vmbuskernelmodeclientlibapi/FN_VMB_CHANNEL_PACKET_GET_EXTERNAL_DATA"
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header:
 req.target-type:

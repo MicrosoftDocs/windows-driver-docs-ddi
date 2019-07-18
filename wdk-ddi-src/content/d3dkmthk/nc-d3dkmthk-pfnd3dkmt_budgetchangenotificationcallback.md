@@ -5,6 +5,8 @@ description: The PFND3DKMT_BUDGETCHANGENOTIFICATIONCALLBACK callback function no
 ms.assetid: 3e6b3195-3008-42aa-b554-654a85d9532e
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/PFND3DKMT_BUDGETCHANGENOTIFICATIONCALLBACK"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

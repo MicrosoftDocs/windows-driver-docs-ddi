@@ -8,6 +8,8 @@ ms.assetid: a4a61253-cf10-4dc2-990d-c975520023b0
 ms.author: windowsdriverdev
 ms.date: 07/11/2019
 ms.topic: struct
+f1_keywords:
+ - "ksmedia/INTERLEAVED_AUDIO_FORMAT_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.keywords: INTERLEAVED_AUDIO_FORMAT_INFORMATION, INTERLEAVED_AUDIO_FORMAT_INFORMATION, 

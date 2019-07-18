@@ -8,6 +8,8 @@ ms.assetid: 269bbb79-c730-4b78-bf46-d502f23f039b
 ms.date: 04/23/2018
 ms.keywords: KsSetDevicePnpAndBaseObject, KsSetDevicePnpAndBaseObject function [Streaming Media Devices], ks/KsSetDevicePnpAndBaseObject, ksfunc_eff06a34-a458-4426-972c-6a0fbf0f7846.xml, stream.kssetdevicepnpandbaseobject
 ms.topic: function
+f1_keywords:
+ - "ks/KsSetDevicePnpAndBaseObject"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

@@ -5,6 +5,8 @@ description: Describes the ways in which to compose rectangle areas.
 ms.assetid: 8eed3d12-86ec-4184-8087-eb5490096437
 ms.date: 10/19/2018
 ms.topic: enum
+f1_keywords:
+ - "d3dumddi/_D3DDDI_COMPOSERECTSOP"
 ms.keywords: _D3DDDI_COMPOSERECTSOP, D3DDDI_COMPOSERECTSOP, 
 req.header: d3dumddi.h
 req.include-header:

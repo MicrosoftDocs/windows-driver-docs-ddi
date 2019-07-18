@@ -8,6 +8,8 @@ ms.assetid: 3870e2c8-22cf-4f96-8c2b-4c3cac26d50f
 ms.date: 05/02/2018
 ms.keywords: NdisFreeMemoryWithTagPriority, NdisFreeMemoryWithTagPriority function [Network Drivers Starting with Windows Vista], ndis/NdisFreeMemoryWithTagPriority, ndis_shared_memory_ref_60846563-cc80-4e5e-b9da-37bcfd5239b2.xml, netvista.ndisfreememorywithtagpriority
 ms.topic: function
+f1_keywords:
+ - "ndis/NdisFreeMemoryWithTagPriority"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

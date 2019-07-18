@@ -8,6 +8,8 @@ ms.assetid: b4ab0a7b-9c5a-4295-94fc-35310ca8e05b
 ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_8cdcec0f-02df-4e8d-83e2-ae1fdc11343d.xml, WdfDeviceAssignMofResourceName, WdfDeviceAssignMofResourceName method, kmdf.wdfdeviceassignmofresourcename, wdf.wdfdeviceassignmofresourcename, wdfdevice/WdfDeviceAssignMofResourceName
 ms.topic: function
+f1_keywords:
+ - "wdfdevice/WdfDeviceAssignMofResourceName"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

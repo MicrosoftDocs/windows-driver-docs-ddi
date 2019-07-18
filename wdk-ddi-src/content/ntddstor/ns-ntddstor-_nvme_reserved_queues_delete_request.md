@@ -6,6 +6,8 @@ tech.root: storage
 ms.assetid: 322d7dfd-7e65-452c-a239-184f30d119af
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "ntddstor/_NVME_RESERVED_QUEUES_DELETE_REQUEST"
 ms.keywords: _NVME_RESERVED_QUEUES_DELETE_REQUEST, NVME_RESERVED_QUEUES_DELETE_REQUEST, *PNVME_RESERVED_QUEUES_DELETE_REQUEST, 
 req.header: ntddstor.h
 req.include-header:

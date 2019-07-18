@@ -6,6 +6,8 @@ tech.root: audio
 ms.assetid: 0ef3df3c-c340-49d5-947f-590767e6f02f
 ms.date: 10/31/2018
 ms.topic: method
+f1_keywords:
+ - "dmusicks/IMXF.PutMessage"
 ms.keywords: IMXF::PutMessage, PutMessage, IMXF.PutMessage, IMXF::PutMessage, IMXF.PutMessage
 req.header: dmusicks.h
 req.include-header:

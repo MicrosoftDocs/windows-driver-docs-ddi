@@ -6,6 +6,8 @@ ms.assetid: 585790f6-563a-41a6-a500-01d1cfac6a78
 ms.date: 08/08/2018
 tech.root: sensors
 ms.topic: function
+f1_keywords:
+ - "sensorsutils/InitPropVariantFromFloat"
 ms.keywords: InitPropVariantFromFloat
 req.header: sensorsutils.h
 req.include-header:

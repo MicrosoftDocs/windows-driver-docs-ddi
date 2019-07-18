@@ -8,6 +8,8 @@ ms.assetid: d3e2c799-f789-499f-9948-f41d7576296e
 ms.date: 05/02/2018
 ms.keywords: NdisGetVersion, NdisGetVersion function [Network Drivers Starting with Windows Vista], ndis/NdisGetVersion, ndis_configuration_ref_fcdf5ece-888e-4f1a-b855-367cbe4c68fe.xml, netvista.ndisgetversion
 ms.topic: function
+f1_keywords:
+ - "ndis/NdisGetVersion"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

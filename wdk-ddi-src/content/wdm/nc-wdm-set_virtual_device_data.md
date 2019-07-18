@@ -8,6 +8,8 @@ ms.assetid: 12CC6973-E691-425E-A8E8-839F83116D29
 ms.date: 02/24/2018
 ms.keywords: PCI.setvirtualfunctiondata, SET_VIRTUAL_DEVICE_DATA, SetVirtualFunctionData, SetVirtualFunctionData routine, wdm/SetVirtualFunctionData
 ms.topic: callback
+f1_keywords:
+ - "wdm/SetVirtualFunctionData"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop

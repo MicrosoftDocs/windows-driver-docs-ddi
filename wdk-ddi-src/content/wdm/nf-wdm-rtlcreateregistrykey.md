@@ -8,6 +8,8 @@ ms.assetid: 2214acc8-b24a-4db4-9ce3-f639291428f2
 ms.date: 04/30/2018
 ms.keywords: RtlCreateRegistryKey, RtlCreateRegistryKey routine [Kernel-Mode Driver Architecture], k109_9a163bcc-501d-453b-b426-a4267d04135c.xml, kernel.rtlcreateregistrykey, wdm/RtlCreateRegistryKey
 ms.topic: function
+f1_keywords:
+ - "wdm/RtlCreateRegistryKey"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

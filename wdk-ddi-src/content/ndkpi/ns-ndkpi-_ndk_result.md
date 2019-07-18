@@ -8,6 +8,8 @@ ms.assetid: B7898C81-E90D-4210-BEAE-1E629FCD7195
 ms.date: 05/02/2018
 ms.keywords: NDK_RESULT, NDK_RESULT structure [Network Drivers Starting with Windows Vista], _NDK_RESULT, ndkpi/NDK_RESULT, netvista.ndk_result
 ms.topic: struct
+f1_keywords:
+ - "ndkpi/NDK_RESULT"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows

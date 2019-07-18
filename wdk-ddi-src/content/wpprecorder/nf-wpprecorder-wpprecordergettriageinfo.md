@@ -8,6 +8,8 @@ ms.assetid: D2790496-1F86-4EF0-8AFE-77AC0C89EE05
 ms.date: 01/10/2018
 ms.keywords: WppRecorderGetTriageInfo
 ms.topic: macro
+f1_keywords:
+ - "wpprecorder/imp_WppRecorderGetTriageInfo"
 req.header: wpprecorder.h
 req.include-header:
 req.target-type: Desktop

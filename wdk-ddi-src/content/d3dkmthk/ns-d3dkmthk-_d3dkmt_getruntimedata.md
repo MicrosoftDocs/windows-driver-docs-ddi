@@ -5,6 +5,8 @@ description: Used to get runtime data.
 ms.assetid: cbd30292-94ee-4be6-a4b4-e0a22c2022ee
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/_D3DKMT_GETRUNTIMEDATA"
 ms.keywords: _D3DKMT_GETRUNTIMEDATA, D3DKMT_GETRUNTIMEDATA, 
 req.header: d3dkmthk.h
 req.include-header:

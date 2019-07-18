@@ -5,6 +5,8 @@ description: Query for the display adapter type.
 ms.assetid: 5e3cdd6c-94a9-4870-98f4-a97402231cbe
 ms.date: 10/19/2018
 ms.topic: enum
+f1_keywords:
+ - "d3dumddi/_D3DDDI_QUERYADAPTERTYPE"
 ms.keywords: _D3DDDI_QUERYADAPTERTYPE, D3DDDI_QUERYADAPTERTYPE,
 req.header: d3dumddi.h
 req.include-header:

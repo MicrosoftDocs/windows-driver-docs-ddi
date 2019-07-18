@@ -8,6 +8,8 @@ ms.assetid: E7975BAE-4255-4D07-A747-481D210D1244
 ms.date: 02/15/2018
 ms.keywords: "*PGPIO_MASK_INTERRUPT_PARAMETERS, GPIO.gpio_mask_interrupt_parameters, GPIO_MASK_INTERRUPT_PARAMETERS, GPIO_MASK_INTERRUPT_PARAMETERS structure [Parallel Ports], PGPIO_MASK_INTERRUPT_PARAMETERS, PGPIO_MASK_INTERRUPT_PARAMETERS structure pointer [Parallel Ports], _GPIO_MASK_INTERRUPT_PARAMETERS, gpioclx/GPIO_MASK_INTERRUPT_PARAMETERS, gpioclx/PGPIO_MASK_INTERRUPT_PARAMETERS"
 ms.topic: struct
+f1_keywords:
+ - "gpioclx/GPIO_MASK_INTERRUPT_PARAMETERS"
 req.header: gpioclx.h
 req.include-header: 
 req.target-type: Windows

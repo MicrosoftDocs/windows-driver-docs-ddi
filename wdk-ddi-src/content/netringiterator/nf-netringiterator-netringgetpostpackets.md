@@ -8,6 +8,8 @@ ms.assetid: 61882945-93a3-4e2c-8654-e4de24181b5d
 ms.author: windowsdriverdev
 ms.date: 02/01/2019
 ms.topic: function
+f1_keywords:
+ - "netringiterator/NetRingGetPostPackets"
 ms.keywords: NetRingGetPostPackets
 req.header: netringiterator.h
 req.include-header:

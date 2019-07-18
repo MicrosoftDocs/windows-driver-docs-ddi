@@ -8,6 +8,8 @@ ms.assetid: 56147D28-B832-4C5D-BFB7-60C4020CA299
 ms.date: 03/29/2018
 ms.keywords: StorPortInterlockedInsertTailList, StorPortInterlockedInsertTailList routine [Storage Devices], storage.storportinterlockedinserttaillist, storport/StorPortInterlockedInsertTailList
 ms.topic: function
+f1_keywords:
+ - "storport/StorPortInterlockedInsertTailList"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

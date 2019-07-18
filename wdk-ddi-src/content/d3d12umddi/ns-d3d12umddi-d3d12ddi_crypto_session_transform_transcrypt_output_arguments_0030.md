@@ -7,6 +7,8 @@ ms.assetid: f1edd7c9-3247-4d87-886d-cfd993483f73
 ms.date: 05/10/2018
 ms.keywords: D3D12DDI_CRYPTO_SESSION_TRANSFORM_TRANSCRYPT_OUTPUT_ARGUMENTS_0030, D3D12DDI_CRYPTO_SESSION_TRANSFORM_TRANSCRYPT_OUTPUT_ARGUMENTS_0030 structure [Display Devices], d3d12umddi/D3D12DDI_CRYPTO_SESSION_TRANSFORM_TRANSCRYPT_OUTPUT_ARGUMENTS_0030, display.d3d12ddi-crypto-session-transform-transcrypt-output-arguments-0030
 ms.topic: struct
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_CRYPTO_SESSION_TRANSFORM_TRANSCRYPT_OUTPUT_ARGUMENTS_0030"
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: Windows

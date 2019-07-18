@@ -5,6 +5,8 @@ description: The GetRawReference method finds a native construct within the give
 ms.assetid: 2a886a30-3403-4276-be7c-93348e2b9eea
 ms.date: 08/09/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IModelObject.GetRawReference"
 ms.keywords: IModelObject::GetRawReference, GetRawReference, IModelObject.GetRawReference, IModelObject::GetRawReference, IModelObject.GetRawReference
 req.header: dbgmodel.h
 req.include-header:

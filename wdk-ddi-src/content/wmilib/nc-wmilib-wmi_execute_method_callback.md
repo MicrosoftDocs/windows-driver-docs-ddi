@@ -8,6 +8,8 @@ ms.assetid: 3e671484-8f8d-4ba0-a763-37c3178487ca
 ms.date: 04/30/2018
 ms.keywords: DpWmiExecuteMethod, DpWmiExecuteMethod callback function [Kernel-Mode Driver Architecture], WMI_EXECUTE_METHOD_CALLBACK, WMI_EXECUTE_METHOD_CALLBACK callback, k903_b641484a-8f32-440d-8efc-76293ddeec2c.xml, kernel.dpwmiexecutemethod, wmilib/DpWmiExecuteMethod
 ms.topic: callback
+f1_keywords:
+ - "wmilib/DpWmiExecuteMethod"
 req.header: wmilib.h
 req.include-header: Wmilib.h
 req.target-type: Desktop

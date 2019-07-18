@@ -8,6 +8,8 @@ ms.assetid: 0728f32e-750a-4212-9b8d-f4bfe85978cb
 ms.date: 08/09/2018
 ms.keywords: ExtRemoteData, ExtRemoteData class [Windows Debugging],ExtRemoteData constructor, ExtRemoteData constructor [Windows Debugging], ExtRemoteData constructor [Windows Debugging],ExtRemoteData class, ExtRemoteData.ExtRemoteData, ExtRemoteData.ExtRemoteData(PCSTR,ULONG64,ULONG), ExtRemoteData::ExtRemoteData, ExtRemoteData::ExtRemoteData(PCSTR,ULONG64,ULONG), debugger.extremotedata_extremotedata_name_offset_bytes
 ms.topic: method
+f1_keywords:
+ - "engextcpp/ExtRemoteData.ExtRemoteData"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop

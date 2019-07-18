@@ -5,6 +5,8 @@ description: The CastToPreferredRuntimeType method is called whenever a client w
 ms.assetid: 4bb3fbdc-d1f0-4410-b289-3344d64cb051
 ms.date: 09/20/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IPreferredRuntimeTypeConcept.QueryInterface"
 ms.keywords: IPreferredRuntimeTypeConcept::QueryInterface, QueryInterface, IPreferredRuntimeTypeConcept.QueryInterface, IPreferredRuntimeTypeConcept::QueryInterface, IPreferredRuntimeTypeConcept.QueryInterface
 req.header: dbgmodel.h
 req.include-header:

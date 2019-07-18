@@ -5,6 +5,8 @@ description: TA binder which converts one instance method on a class to a read-o
 ms.assetid: c59ee365-d2da-4352-8311-a4a1d27fabdc
 ms.date: 09/28/2018
 ms.topic: function
+f1_keywords:
+ - "dbgmodel/BindReadOnlyProperty"
 ms.keywords: BindReadOnlyProperty
 req.header: dbgmodel.h
 req.include-header:

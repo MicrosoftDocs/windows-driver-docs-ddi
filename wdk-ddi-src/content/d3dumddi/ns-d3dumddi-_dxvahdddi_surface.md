@@ -8,6 +8,8 @@ ms.assetid: a0bfc9bf-777e-4da4-9414-856ec650375d
 ms.date: 05/10/2018
 ms.keywords: DXVA2_Structs_8032b044-07e9-4bb7-9367-1c3283bbf145.xml, DXVAHDDDI_SURFACE, DXVAHDDDI_SURFACE structure [Display Devices], _DXVAHDDDI_SURFACE, d3dumddi/DXVAHDDDI_SURFACE, display.dxvahdddi_surface
 ms.topic: struct
+f1_keywords:
+ - "d3dumddi/DXVAHDDDI_SURFACE"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

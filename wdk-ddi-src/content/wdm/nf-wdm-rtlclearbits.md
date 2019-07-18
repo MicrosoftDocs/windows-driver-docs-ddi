@@ -8,6 +8,8 @@ ms.assetid: 2c332700-7778-4342-b99b-093142496624
 ms.date: 04/30/2018
 ms.keywords: RtlClearBits, RtlClearBits routine [Kernel-Mode Driver Architecture], k109_ee20da99-4d30-46dc-99c1-d3d8dfa92d08.xml, kernel.rtlclearbits, wdm/RtlClearBits
 ms.topic: function
+f1_keywords:
+ - "wdm/RtlClearBits"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

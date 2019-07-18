@@ -5,6 +5,8 @@ description: Returns the module which contains this symbol if the symbol has a c
 ms.assetid: f46b325a-09c3-406f-83d7-21a6159f23c2
 ms.date: 09/21/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDebugHostPublic.GetContainingModule"
 ms.keywords: IDebugHostPublic::GetContainingModule, GetContainingModule, IDebugHostPublic.GetContainingModule, IDebugHostPublic::GetContainingModule, IDebugHostPublic.GetContainingModule
 req.header: dbgmodel.h
 req.include-header:

@@ -5,6 +5,8 @@ description: The PFND3D12DDI_ENUMERATE_META_COMMANDS_0052 callback function enum
 ms.assetid: fdf5f76e-4486-4058-beaf-1ebefe65246a
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_ENUMERATE_META_COMMANDS_0052"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

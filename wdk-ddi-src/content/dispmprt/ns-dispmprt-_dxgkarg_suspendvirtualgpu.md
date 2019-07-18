@@ -8,6 +8,8 @@ ms.assetid: 1b750c37-88b5-4ef5-9a05-c484a0e0d5a4
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
 ms.topic: struct
+f1_keywords:
+ - "dispmprt/_DXGKARG_SUSPENDVIRTUALGPU"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.keywords: _DXGKARG_SUSPENDVIRTUALGPU, DXGKARG_SUSPENDVIRTUALGPU, *PDXGKARG_SUSPENDVIRTUALGPU, 

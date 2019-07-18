@@ -8,6 +8,8 @@ ms.assetid: c82cfde4-f214-4722-8f59-d727ad5bfe7e
 ms.date: 05/02/2018
 ms.keywords: RIL_GetPersoDeactivationState, RIL_GetPersoDeactivationState method [Network Drivers Starting with Windows Vista], netvista.ril_getpersodeactivationstate, rilapi/RIL_GetPersoDeactivationState
 ms.topic: function
+f1_keywords:
+ - "rilapi/RIL_GetPersoDeactivationState"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows

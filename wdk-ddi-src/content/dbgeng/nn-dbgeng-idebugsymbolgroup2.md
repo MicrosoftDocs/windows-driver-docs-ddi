@@ -8,6 +8,8 @@ ms.assetid: d702fe69-966c-4b9a-aa0e-b8376288cb79
 ms.date: 05/03/2018
 ms.keywords: IDebugSymbolGroup2, IDebugSymbolGroup2 interface [Windows Debugging], IDebugSymbolGroup2 interface [Windows Debugging],described, dbgeng/IDebugSymbolGroup2, debugger.idebugsymbolgroup2
 ms.topic: interface
+f1_keywords:
+ - "dbgeng/IDebugSymbolGroup2"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

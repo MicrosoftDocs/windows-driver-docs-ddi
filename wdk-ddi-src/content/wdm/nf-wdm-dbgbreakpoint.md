@@ -8,6 +8,8 @@ ms.assetid: deeac910-2cc3-4a54-bf3b-aeb56d0004dc
 ms.date: 02/23/2018
 ms.keywords: DbgBreakPoint, DbgBreakPoint routine [Driver Development Tools], DebugFns_f53df634-d9a5-4b98-ad10-560e6e4e5a66.xml, devtest.dbgbreakpoint, ntddk/DbgBreakPoint
 ms.topic: function
+f1_keywords:
+ - "wdm/DbgBreakPoint"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Universal

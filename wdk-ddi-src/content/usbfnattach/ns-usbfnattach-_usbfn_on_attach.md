@@ -8,6 +8,8 @@ ms.assetid: 2CD75FA9-F77E-4AC5-870E-69CF05DB9312
 ms.date: 05/07/2018
 ms.keywords: "*PUSBFN_ON_ATTACH, PUSBFN_ON_ATTACH, PUSBFN_ON_ATTACH structure pointer [Buses], USBFN_ON_ATTACH, USBFN_ON_ATTACH structure [Buses], _USBFN_ON_ATTACH, buses.usbfn_on_attach, usbfnattach/PUSBFN_ON_ATTACH, usbfnattach/USBFN_ON_ATTACH"
 ms.topic: struct
+f1_keywords:
+ - "usbfnattach/USBFN_ON_ATTACH"
 req.header: usbfnattach.h
 req.include-header: 
 req.target-type: Windows

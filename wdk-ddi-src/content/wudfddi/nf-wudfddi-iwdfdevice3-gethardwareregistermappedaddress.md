@@ -8,6 +8,8 @@ ms.assetid: 94852404-301F-4C09-81D2-CEDEECFCD6BD
 ms.date: 02/26/2018
 ms.keywords: GetHardwareRegisterMappedAddress, GetHardwareRegisterMappedAddress method, GetHardwareRegisterMappedAddress method,IWDFDevice3 interface, IWDFDevice3 interface,GetHardwareRegisterMappedAddress method, IWDFDevice3.GetHardwareRegisterMappedAddress, IWDFDevice3::GetHardwareRegisterMappedAddress, umdf.iwdfdevice3_gethardwareregistermappedaddress, wdf.iwdfdevice3_gethardwareregistermappedaddress, wudfddi/IWDFDevice3::GetHardwareRegisterMappedAddress
 ms.topic: method
+f1_keywords:
+ - "wudfddi/IWDFDevice3.GetHardwareRegisterMappedAddress"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Desktop

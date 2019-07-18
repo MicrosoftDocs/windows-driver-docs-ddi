@@ -8,6 +8,8 @@ ms.assetid: 049BDC6E-2FB2-421F-9229-320F2ED98663
 ms.date: 04/30/2018
 ms.keywords: MmIsDriverSuspectForVerifier, MmIsDriverSuspectForVerifier routine [Kernel-Mode Driver Architecture], kernel.mmisdriversuspectforverifier, wdm/MmIsDriverSuspectForVerifier
 ms.topic: function
+f1_keywords:
+ - "wdm/MmIsDriverSuspectForVerifier"
 req.header: wdm.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal

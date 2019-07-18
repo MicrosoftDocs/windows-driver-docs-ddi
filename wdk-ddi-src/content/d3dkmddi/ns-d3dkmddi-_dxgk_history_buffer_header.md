@@ -7,6 +7,8 @@ ms.assetid: 246EBAFC-EBEB-4B58-83C1-731314CECF2E
 ms.date: 05/10/2018
 ms.keywords: DXGK_HISTORY_BUFFER_HEADER, DXGK_HISTORY_BUFFER_HEADER structure [Display Devices], _DXGK_HISTORY_BUFFER_HEADER, d3dkmddi/DXGK_HISTORY_BUFFER_HEADER, display.dxgk_history_buffer_header
 ms.topic: struct
+f1_keywords:
+ - "d3dkmddi/DXGK_HISTORY_BUFFER_HEADER"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

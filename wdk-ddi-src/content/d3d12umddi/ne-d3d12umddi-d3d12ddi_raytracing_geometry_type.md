@@ -5,6 +5,8 @@ description: Specifies the geometry type to use in a ray tracing acceleration st
 ms.assetid: 316cdada-1554-4016-b7bf-7fc1a3618950
 ms.date: 10/19/2018
 ms.topic: enum
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_RAYTRACING_GEOMETRY_TYPE"
 ms.keywords: D3D12DDI_RAYTRACING_GEOMETRY_TYPE, D3D12DDI_RAYTRACING_GEOMETRY_TYPE, 
 req.header: d3d12umddi.h
 req.include-header:

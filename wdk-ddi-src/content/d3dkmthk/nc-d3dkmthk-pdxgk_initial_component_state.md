@@ -5,6 +5,8 @@ description: The InitialComponentStateCb callback function is implemented by the
 ms.assetid: 98b7dfae-6112-4d88-8580-ac3314187e22
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/PDXGK_INITIAL_COMPONENT_STATE"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

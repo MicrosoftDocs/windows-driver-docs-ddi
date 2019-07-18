@@ -8,6 +8,8 @@ ms.assetid: f7ff16ac-fe20-4998-a8b3-d1d02c418938
 ms.date: 04/23/2018
 ms.keywords: KsGetFirstChild, KsGetFirstChild function [Streaming Media Devices], avfunc_cfdde7e3-bc8b-46df-abf4-fe43ac9b0bfc.xml, ks/KsGetFirstChild, stream.ksgetfirstchild
 ms.topic: function
+f1_keywords:
+ - "ks/KsGetFirstChild"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

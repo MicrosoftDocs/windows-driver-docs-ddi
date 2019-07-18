@@ -8,6 +8,8 @@ ms.assetid: d7729edf-e92d-4707-83e2-fece90daeacf
 ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectChildListRef_52991ad9-29ef-4ab8-b746-168fcc0b8e99.xml, WdfChildListRequestChildEject, WdfChildListRequestChildEject method, kmdf.wdfchildlistrequestchildeject, wdf.wdfchildlistrequestchildeject, wdfchildlist/WdfChildListRequestChildEject
 ms.topic: function
+f1_keywords:
+ - "wdfchildlist/WdfChildListRequestChildEject"
 req.header: wdfchildlist.h
 req.include-header: Wdf.h
 req.target-type: Universal

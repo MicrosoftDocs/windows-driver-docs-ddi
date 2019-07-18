@@ -8,6 +8,8 @@ ms.assetid: 3A184392-A68C-4AFC-AE9F-36247153ADD2
 ms.date: 02/15/2018
 ms.keywords: IOCTL_NFCSE_SUBSCRIBE_FOR_EVENT, IOCTL_NFCSE_SUBSCRIBE_FOR_EVENT control, IOCTL_NFCSE_SUBSCRIBE_FOR_EVENT control code [Near-Field Proximity Drivers], nfcsedev/IOCTL_NFCSE_SUBSCRIBE_FOR_EVENT, nfpdrivers.ioctl_nfcse_subscribe_for_event
 ms.topic: ioctl
+f1_keywords:
+ - "nfcsedev/IOCTL_NFCSE_SUBSCRIBE_FOR_EVENT"
 req.header: nfcsedev.h
 req.include-header: 
 req.target-type: Windows

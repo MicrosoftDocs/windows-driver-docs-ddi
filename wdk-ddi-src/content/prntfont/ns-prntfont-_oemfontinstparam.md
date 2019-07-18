@@ -8,6 +8,8 @@ ms.assetid: cdd3ed28-a077-4b89-9222-ba282b9c7205
 ms.date: 04/20/2018
 ms.keywords: "*POEMFONTINSTPARAM, OEMFONTINSTPARAM, OEMFONTINSTPARAM structure [Print Devices], POEMFONTINSTPARAM, POEMFONTINSTPARAM structure pointer [Print Devices], _OEMFONTINSTPARAM, print.oemfontinstparam, print_unidrv-pscript_ui_d306ca78-7f06-4ccf-a501-7470f33f96cb.xml, prntfont/OEMFONTINSTPARAM, prntfont/POEMFONTINSTPARAM"
 ms.topic: struct
+f1_keywords:
+ - "prntfont/OEMFONTINSTPARAM"
 req.header: prntfont.h
 req.include-header: Printoem.h
 req.target-type: Windows

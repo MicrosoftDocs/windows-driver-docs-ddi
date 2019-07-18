@@ -8,6 +8,8 @@ ms.assetid: 73A9E645-0B71-429F-9033-032BB83E60E4
 ms.date: 03/29/2018
 ms.keywords: StorPortReadRegisterUlong64, StorPortReadRegisterUlong64 routine [Storage Devices], storage.storportreadregisterulong64, storport/StorPortReadRegisterUlong64
 ms.topic: macro
+f1_keywords:
+ - "storport/StorPortReadRegisterUlong64"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

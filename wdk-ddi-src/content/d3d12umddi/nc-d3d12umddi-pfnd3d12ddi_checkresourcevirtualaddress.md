@@ -5,6 +5,8 @@ description: Check resource virtual address.
 ms.assetid: e54aa0b0-c2ef-44db-9053-3ceeb71cf9a8
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_CHECKRESOURCEVIRTUALADDRESS"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

@@ -8,6 +8,8 @@ ms.assetid: F77EF32F-FAB6-4800-9241-5AAA9885DEF5
 ms.date: 04/23/2018
 ms.keywords: "*PSERIAL_STATUS, PSERIAL_STATUS, PSERIAL_STATUS structure pointer [Serial Ports], SERIAL_STATUS, SERIAL_STATUS structure [Serial Ports], _SERIAL_STATUS, ntddser/PSERIAL_STATUS, ntddser/SERIAL_STATUS, serports.serial_status"
 ms.topic: struct
+f1_keywords:
+ - "ntddser/SERIAL_STATUS"
 req.header: ntddser.h
 req.include-header: 
 req.target-type: Windows

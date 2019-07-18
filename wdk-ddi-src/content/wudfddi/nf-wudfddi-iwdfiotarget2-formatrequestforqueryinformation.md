@@ -8,6 +8,8 @@ ms.assetid: 24ce2918-1d9f-41eb-add1-a50b888f0a99
 ms.date: 02/26/2018
 ms.keywords: FormatRequestForQueryInformation, FormatRequestForQueryInformation method, FormatRequestForQueryInformation method,IWDFIoTarget2 interface, IWDFIoTarget2 interface,FormatRequestForQueryInformation method, IWDFIoTarget2.FormatRequestForQueryInformation, IWDFIoTarget2::FormatRequestForQueryInformation, UMDFIoTargetObjectRef_8057f7bc-65c3-491b-9aa3-a5fc9e790524.xml, umdf.iwdfiotarget2_formatrequestforqueryinformation, wdf.iwdfiotarget2_formatrequestforqueryinformation, wudfddi/IWDFIoTarget2::FormatRequestForQueryInformation
 ms.topic: method
+f1_keywords:
+ - "wudfddi/IWDFIoTarget2.FormatRequestForQueryInformation"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

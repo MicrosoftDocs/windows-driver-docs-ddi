@@ -8,6 +8,8 @@ ms.assetid: 5E9D08FD-1F81-462F-90AA-7C4BFFB5F864
 ms.date: 04/30/2018
 ms.keywords: InitializeDmaTransferContext, InitializeDmaTransferContext callback function [Kernel-Mode Driver Architecture], PINITIALIZE_DMA_TRANSFER_CONTEXT, PINITIALIZE_DMA_TRANSFER_CONTEXT callback, kernel.initializedmatransfercontext, wdm/InitializeDmaTransferContext
 ms.topic: callback
+f1_keywords:
+ - "wdm/InitializeDmaTransferContext"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop

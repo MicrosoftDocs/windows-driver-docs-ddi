@@ -8,6 +8,8 @@ ms.assetid: a2572a43-05b5-45c1-9c4e-c40281affb63
 ms.author: windowsdriverdev
 ms.date: 3/13/2019
 ms.topic: struct
+f1_keywords:
+ - "ntddstor/STORAGE_HW_ENDURANCE_INFO"
 ms.keywords: STORAGE_HW_ENDURANCE_INFO, STORAGE_HW_ENDURANCE_INFO, *PSTORAGE_HW_ENDURANCE_INFO, 
 req.header: ntddstor.h
 req.include-header:

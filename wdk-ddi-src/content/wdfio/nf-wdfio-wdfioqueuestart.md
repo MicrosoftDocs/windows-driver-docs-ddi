@@ -8,6 +8,8 @@ ms.assetid: 1ce8a447-6205-44d0-b5d2-b78f01e15bb4
 ms.date: 02/26/2018
 ms.keywords: DFQueueObjectRef_15829d65-ee6a-455d-a0c6-cf21f5426e31.xml, WdfIoQueueStart, WdfIoQueueStart method, kmdf.wdfioqueuestart, wdf.wdfioqueuestart, wdfio/WdfIoQueueStart
 ms.topic: function
+f1_keywords:
+ - "wdfio/WdfIoQueueStart"
 req.header: wdfio.h
 req.include-header: Wdf.h
 req.target-type: Universal

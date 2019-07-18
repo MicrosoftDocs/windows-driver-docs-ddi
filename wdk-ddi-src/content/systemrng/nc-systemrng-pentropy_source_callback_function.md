@@ -5,6 +5,8 @@ description:
 ms.assetid: e9ed974c-3854-4644-8ad9-9f694082698e
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "systemrng/PENTROPY_SOURCE_CALLBACK_FUNCTION"
 req.header: systemrng.h
 req.include-header:
 req.target-type:

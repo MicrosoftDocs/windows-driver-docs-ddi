@@ -8,6 +8,8 @@ ms.assetid: 2de3980a-da78-4cdd-916b-0801f38f3637
 ms.date: 04/16/2018
 ms.keywords: SeFilterToken, SeFilterToken routine [Installable File System Drivers], ifsk.sefiltertoken, ntifs/SeFilterToken, seref_33edad21-5cc4-4bd9-86f1-b52c648fc87c.xml
 ms.topic: function
+f1_keywords:
+ - "ntifs/SeFilterToken"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

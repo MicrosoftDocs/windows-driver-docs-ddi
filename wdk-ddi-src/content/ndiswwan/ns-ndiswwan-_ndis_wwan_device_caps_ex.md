@@ -8,6 +8,8 @@ ms.assetid: FC801FA3-699F-4EE5-BED9-35CA696A5E52
 ms.date: 04/08/2019
 ms.keywords: "*PNDIS_WWAN_DEVICE_CAPS_EX, NDIS_WWAN_DEVICE_CAPS_EX, NDIS_WWAN_DEVICE_CAPS_EX structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_DEVICE_CAPS_EX, PNDIS_WWAN_DEVICE_CAPS_EX structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_DEVICE_CAPS_EX, ndiswwan/NDIS_WWAN_DEVICE_CAPS_EX, ndiswwan/PNDIS_WWAN_DEVICE_CAPS_EX, netvista.ndis_wwan_device_caps_ex"
 ms.topic: struct
+f1_keywords:
+ - "ndiswwan/NDIS_WWAN_DEVICE_CAPS_EX"
 req.header: ndiswwan.h
 req.include-header: Ndiswwan.h
 req.target-type: Windows

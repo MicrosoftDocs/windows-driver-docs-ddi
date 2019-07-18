@@ -8,6 +8,8 @@ ms.assetid: d01f926b-0bca-4941-b9a8-05af30009413
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
+f1_keywords:
+ - "ntddk/WHEA_PSHED_PLUGIN_REGISTRATION_PACKET_V2"
 ms.keywords: WHEA_PSHED_PLUGIN_REGISTRATION_PACKET_V2, WHEA_PSHED_PLUGIN_REGISTRATION_PACKET_V2, WHEA_PSHED_PLUGIN_REGISTRATION_PACKET, *PWHEA_PSHED_PLUGIN_REGISTRATION_PACKET
 req.header: ntddk.h
 req.include-header:

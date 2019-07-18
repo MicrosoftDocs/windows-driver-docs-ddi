@@ -5,6 +5,8 @@ description: pfnSubmitPresentToHwQueueCb submits a Present operation to a hardwa
 ms.assetid: 8201a3f6-ea2f-4dd3-ba74-9f45bbe5bbad
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "dxgiddi/PFNDDXGIDDI_SUBMITPRESENTTOHWQUEUECB"
 req.header: dxgiddi.h
 req.include-header:
 req.target-type:

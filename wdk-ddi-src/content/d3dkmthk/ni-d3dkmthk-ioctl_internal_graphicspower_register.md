@@ -5,6 +5,8 @@ description: For internal use only. Do not use.
 ms.assetid: 4f49199d-f3ba-455e-bda4-17d816e929ff
 ms.date: 10/19/2018
 ms.topic: ioctl
+f1_keywords:
+ - "d3dkmthk/IOCTL_INTERNAL_GRAPHICSPOWER_REGISTER"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

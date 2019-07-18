@@ -8,6 +8,8 @@ ms.assetid: a64db598-b524-43dd-9831-20cb98cf3c29
 ms.date: 02/15/2018
 ms.keywords: IOCTL_PAR_IS_PORT_FREE, IOCTL_PAR_IS_PORT_FREE control code [Parallel Ports], cisspd_3f8c9a8d-225c-48cc-b504-235c79037f99.xml, ntddpar/IOCTL_PAR_IS_PORT_FREE, parports.ioctl_par_is_port_free
 ms.topic: ioctl
+f1_keywords:
+ - "ntddpar/IOCTL_PAR_IS_PORT_FREE"
 req.header: ntddpar.h
 req.include-header: Ntddpar.h
 req.target-type: Windows

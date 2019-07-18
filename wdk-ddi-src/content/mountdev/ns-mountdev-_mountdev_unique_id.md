@@ -8,6 +8,8 @@ ms.assetid: cc6cbda8-4056-41e7-98f9-927a99e66081
 ms.date: 03/29/2018
 ms.keywords: "*PMOUNTDEV_UNIQUE_ID, MOUNTDEV_UNIQUE_ID, MOUNTDEV_UNIQUE_ID structure [Storage Devices], PMOUNTDEV_UNIQUE_ID, PMOUNTDEV_UNIQUE_ID structure pointer [Storage Devices], _MOUNTDEV_UNIQUE_ID, mountdev/MOUNTDEV_UNIQUE_ID, mountdev/PMOUNTDEV_UNIQUE_ID, storage.mountdev_unique_id, structs-mntmgr_424fff73-7b72-4068-b25b-00225f69b159.xml"
 ms.topic: struct
+f1_keywords:
+ - "mountdev/MOUNTDEV_UNIQUE_ID"
 req.header: mountdev.h
 req.include-header: Mountmgr.h
 req.target-type: Windows

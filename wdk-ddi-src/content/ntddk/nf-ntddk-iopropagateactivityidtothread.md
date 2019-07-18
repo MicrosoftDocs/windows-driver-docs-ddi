@@ -8,6 +8,8 @@ ms.assetid: 8E824793-53DF-4573-81B0-6FE925CCB4C4
 ms.date: 04/30/2018
 ms.keywords: IoPropagateActivityIdToThread, IoPropagateActivityIdToThread routine [Kernel-Mode Driver Architecture], kernel.iopropagateactivityidtothread, ntddk/IoPropagateActivityIdToThread
 ms.topic: function
+f1_keywords:
+ - "ntddk/IoPropagateActivityIdToThread"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal

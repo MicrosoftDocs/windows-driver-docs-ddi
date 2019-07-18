@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 0065bfcd-e384-4577-a55b-869be615a3de
 ms.date: 08/08/2018
 ms.topic: function
+f1_keywords:
+ - "ndis/NdisSetNblTimestampInfo"
 ms.keywords: NdisSetNblTimestampInfo
 req.header: ndis.h
 req.include-header:

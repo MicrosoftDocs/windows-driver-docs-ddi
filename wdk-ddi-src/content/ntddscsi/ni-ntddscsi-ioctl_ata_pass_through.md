@@ -8,6 +8,8 @@ ms.assetid: 350d9777-18d7-412a-ab60-1e17070a12af
 ms.date: 03/29/2018
 ms.keywords: IOCTL_ATA_PASS_THROUGH, IOCTL_ATA_PASS_THROUGH control, IOCTL_ATA_PASS_THROUGH control code [Storage Devices], k307_e93738e1-b773-452b-8776-854f9c616967.xml, ntddscsi/IOCTL_ATA_PASS_THROUGH, storage.ioctl_ata_pass_through
 ms.topic: ioctl
+f1_keywords:
+ - "ntddscsi/IOCTL_ATA_PASS_THROUGH"
 req.header: ntddscsi.h
 req.include-header: Ntddscsi.h
 req.target-type: Windows

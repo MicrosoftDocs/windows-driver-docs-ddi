@@ -5,6 +5,8 @@ description: The allocation residency status.
 ms.assetid: d4174517-650d-49f6-95f3-0959640ee88b
 ms.date: 10/19/2018
 ms.topic: enum
+f1_keywords:
+ - "d3dkmthk/_D3DKMT_ALLOCATIONRESIDENCYSTATUS"
 ms.keywords: _D3DKMT_ALLOCATIONRESIDENCYSTATUS, D3DKMT_ALLOCATIONRESIDENCYSTATUS, 
 req.header: d3dkmthk.h
 req.include-header:

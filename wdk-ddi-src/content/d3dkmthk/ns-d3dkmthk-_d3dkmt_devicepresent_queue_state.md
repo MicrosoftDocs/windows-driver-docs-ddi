@@ -7,6 +7,8 @@ ms.assetid: 0DB9F0ED-D0A9-4A8A-8E27-BC50DEDB0BD5
 ms.date: 05/10/2018
 ms.keywords: D3DKMT_DEVICEPRESENT_QUEUE_STATE, D3DKMT_DEVICEPRESENT_QUEUE_STATE structure [Display Devices], _D3DKMT_DEVICEPRESENT_QUEUE_STATE, d3dkmthk/D3DKMT_DEVICEPRESENT_QUEUE_STATE, display.d3dkmt_devicepresent_queue_state
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/D3DKMT_DEVICEPRESENT_QUEUE_STATE"
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: Windows

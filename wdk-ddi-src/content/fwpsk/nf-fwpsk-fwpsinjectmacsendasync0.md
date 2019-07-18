@@ -8,6 +8,8 @@ ms.assetid: 8B03835A-98EE-4157-BD05-C52D01EE5F5E
 ms.date: 03/26/2018
 ms.keywords: FwpsInjectMacSendAsync0, FwpsInjectMacSendAsync0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsInjectMacSendAsync0, netvista.fwpsinjectmacsendasync0
 ms.topic: function
+f1_keywords:
+ - "fwpsk/FwpsInjectMacSendAsync0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal

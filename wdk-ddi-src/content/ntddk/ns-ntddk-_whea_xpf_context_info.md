@@ -8,6 +8,8 @@ ms.assetid: 044af92b-b77c-415c-9ca5-4436bfe497e5
 ms.date: 02/20/2018
 ms.keywords: "*PWHEA_XPF_CONTEXT_INFO, PWHEA_XPF_CONTEXT_INFO, PWHEA_XPF_CONTEXT_INFO structure pointer [WHEA Drivers and Applications], WHEA_XPF_CONTEXT_INFO, WHEA_XPF_CONTEXT_INFO structure [WHEA Drivers and Applications], _WHEA_XPF_CONTEXT_INFO, ntddk/PWHEA_XPF_CONTEXT_INFO, ntddk/WHEA_XPF_CONTEXT_INFO, whea.whea_xpf_context_info, whearef_3e1bae81-9b21-4b0c-bd86-b957afb95713.xml"
 ms.topic: struct
+f1_keywords:
+ - "ntddk/WHEA_XPF_CONTEXT_INFO"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: 05971A19-4B66-41F6-9043-DA9C81FA92E5
 ms.date: 05/07/2018
 ms.keywords: UdecxUsbDeviceInitAddStringDescriptor, UdecxUsbDeviceInitAddStringDescriptor function [Buses], buses.udecxusbdeviceinitaddstringdescriptor, udecxusbdevice/UdecxUsbDeviceInitAddStringDescriptor
 ms.topic: function
+f1_keywords:
+ - "udecxusbdevice/UdecxUsbDeviceInitAddStringDescriptor"
 req.header: udecxusbdevice.h
 req.include-header: Udecx.h
 req.target-type: Windows

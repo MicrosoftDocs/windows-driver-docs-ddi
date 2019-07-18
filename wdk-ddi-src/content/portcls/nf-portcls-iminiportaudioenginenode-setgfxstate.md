@@ -8,6 +8,8 @@ ms.assetid: B073D354-14FB-477E-BBD7-8BD282696EF4
 ms.date: 05/08/2018
 ms.keywords: IMiniportAudioEngineNode interface [Audio Devices],SetGfxState method, IMiniportAudioEngineNode.SetGfxState, IMiniportAudioEngineNode::SetGfxState, SetGfxState, SetGfxState method [Audio Devices], SetGfxState method [Audio Devices],IMiniportAudioEngineNode interface, audio.iminiportaudioenginenode_setgfxstate, portcls/IMiniportAudioEngineNode::SetGfxState
 ms.topic: method
+f1_keywords:
+ - "portcls/IMiniportAudioEngineNode.SetGfxState"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Universal

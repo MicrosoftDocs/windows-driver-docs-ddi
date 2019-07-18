@@ -5,6 +5,8 @@ description: The Pfnd3dkmtFlushheaptransitions callback function flushes heap tr
 ms.assetid: a8ed0fbd-f4c0-48f9-94e7-e3ad531b59e0
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/PFND3DKMT_FLUSHHEAPTRANSITIONS"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

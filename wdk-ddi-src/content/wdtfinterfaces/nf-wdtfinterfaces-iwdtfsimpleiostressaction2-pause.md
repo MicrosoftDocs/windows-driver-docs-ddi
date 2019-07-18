@@ -8,6 +8,8 @@ ms.assetid: 9a0c66cd-3065-4532-8543-22d6f202fb74
 ms.date: 04/04/2018
 ms.keywords: IWDTFSimpleIOStressAction2 interface [Windows Device Testing Framework],Pause method, IWDTFSimpleIOStressAction2.Pause, IWDTFSimpleIOStressAction2::Pause, Microsoft.WDTF.IWDTFSimpleIOStressAction2.Pause, Microsoft::WDTF::IWDTFSimpleIOStressAction2::Pause, Pause, Pause method [Windows Device Testing Framework], Pause method [Windows Device Testing Framework],IWDTFSimpleIOStressAction2 interface, dtf.iwdtfsimpleiostressaction2_pause, wdtfinterfaces/IWDTFSimpleIOStressAction2::Pause
 ms.topic: method
+f1_keywords:
+ - "wdtfinterfaces/IWDTFSimpleIOStressAction2.Pause"
 req.header: wdtfinterfaces.h
 req.include-header: 
 req.target-type: Desktop

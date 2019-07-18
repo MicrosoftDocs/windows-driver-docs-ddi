@@ -8,6 +8,8 @@ ms.assetid: 04c1ece1-1c8f-40eb-8437-ac2fe1445095
 ms.date: 05/10/2018
 ms.keywords: "*PKMDDOD_INITIALIZATION_DATA, KMDDOD_INITIALIZATION_DATA, KMDDOD_INITIALIZATION_DATA structure [Display Devices], PKMDDOD_INITIALIZATION_DATA, PKMDDOD_INITIALIZATION_DATA structure pointer [Display Devices], _KMDDOD_INITIALIZATION_DATA, display.kmddod_initialization_data, dispmprt/KMDDOD_INITIALIZATION_DATA, dispmprt/PKMDDOD_INITIALIZATION_DATA"
 ms.topic: struct
+f1_keywords:
+ - "dispmprt/KMDDOD_INITIALIZATION_DATA"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: 5c4bf4c0-c36f-4779-a012-6364c94f37a1
 ms.date: 02/24/2018
 ms.keywords: "*PPCI_PMCSR, PCI.pci_pmcsr, PCI_PMCSR, PCI_PMCSR structure [Buses], PPCI_PMCSR, PPCI_PMCSR structure pointer [Buses], _PCI_PMCSR, pci_struct_03c3c722-9aa9-4fff-a50e-4499122d7490.xml, wdm/PCI_PMCSR, wdm/PPCI_PMCSR"
 ms.topic: struct
+f1_keywords:
+ - "miniport/PCI_PMCSR"
 req.header: miniport.h
 req.include-header: Wdm.h, Miniport.h
 req.target-type: Windows

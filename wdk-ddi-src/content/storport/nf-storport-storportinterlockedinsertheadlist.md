@@ -8,6 +8,8 @@ ms.assetid: 13874D19-4835-41B4-B58C-2B25D619607C
 ms.date: 03/29/2018
 ms.keywords: StorPortInterlockedInsertHeadList, StorPortInterlockedInsertHeadList routine [Storage Devices], storage.storportinterlockedinsertheadlist, storport/StorPortInterlockedInsertHeadList
 ms.topic: function
+f1_keywords:
+ - "storport/StorPortInterlockedInsertHeadList"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

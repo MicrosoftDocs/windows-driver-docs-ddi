@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 16a6dd6c-b8df-41a9-bb93-34ae1c085eb4
 ms.date: 07/02/2018
 ms.topic: callback
+f1_keywords:
+ - "mbbcx/EVT_MBB_DEVICE_SEND_MBIM_FRAGMENT"
 req.header: mbbcx.h
 req.include-header:
 req.target-type: Universal

@@ -8,6 +8,8 @@ ms.assetid: A1287386-E831-474A-858C-89787741FD57
 ms.date: 02/23/2018
 ms.keywords: POS_CX_ATTRIBUTES_INIT, POS_CX_ATTRIBUTES_INIT function, pos.pos_cx_attributes_init, poscx/POS_CX_ATTRIBUTES_INIT
 ms.topic: function
+f1_keywords:
+ - "poscx/POS_CX_ATTRIBUTES_INIT"
 req.header: poscx.h
 req.include-header: Poscx.h
 req.target-type: Windows

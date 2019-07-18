@@ -5,6 +5,8 @@ description: Implemented by the client driver to release the mapping that was se
 ms.assetid: 1b2a9208-b16c-4fe2-a3be-5102a6b2676e
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmddi/DXGKCB_UNMAPMDLFROMIOMMU"
 req.header: d3dkmddi.h
 req.include-header:
 req.target-type:

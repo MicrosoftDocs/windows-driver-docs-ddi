@@ -6,6 +6,8 @@ tech.root: storage
 ms.assetid: dda3243e-6416-442d-b7f6-81a2bc093f82
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "ntddstor/_DEVICE_DSM_FREE_SPACE_OUTPUT"
 ms.keywords: _DEVICE_DSM_FREE_SPACE_OUTPUT, DEVICE_DSM_FREE_SPACE_OUTPUT, *PDEVICE_DSM_FREE_SPACE_OUTPUT, 
 req.header: ntddstor.h
 req.include-header:

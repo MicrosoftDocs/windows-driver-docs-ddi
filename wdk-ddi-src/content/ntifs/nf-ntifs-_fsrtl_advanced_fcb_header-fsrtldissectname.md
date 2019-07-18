@@ -8,6 +8,8 @@ ms.assetid: d97de0e1-0724-485d-95da-b9811036a21e
 ms.date: 04/16/2018
 ms.keywords: FsRtlDissectName, FsRtlDissectName routine [Installable File System Drivers], fsrtlref_a74da803-0994-46e4-90f7-bc7728b59fe5.xml, ifsk.fsrtldissectname, ntifs/FsRtlDissectName
 ms.topic: function
+f1_keywords:
+ - "ntifs/FsRtlDissectName"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

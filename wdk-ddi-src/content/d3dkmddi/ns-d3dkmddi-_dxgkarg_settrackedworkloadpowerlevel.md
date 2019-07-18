@@ -5,6 +5,8 @@ description: Contains information about the power level of a context.
 ms.assetid: c8d248e4-3805-4e67-b11e-e5553e7561f8
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3dkmddi/_DXGKARG_SETTRACKEDWORKLOADPOWERLEVEL"
 ms.keywords: _DXGKARG_SETTRACKEDWORKLOADPOWERLEVEL, DXGKARG_SETTRACKEDWORKLOADPOWERLEVEL, *INOUT_PDXGKARG_SETTRACKEDWORKLOADPOWERLEVEL
 req.header: d3dkmddi.h
 req.include-header:

@@ -8,6 +8,8 @@ ms.assetid: 0d925862-49af-4579-b877-c9a033e73be0
 ms.date: 05/02/2018
 ms.keywords: PROTOCOL_CL_MODIFY_CALL_QOS_COMPLETE, PROTOCOL_CL_MODIFY_CALL_QOS_COMPLETE callback, ProtocolClModifyCallQoSComplete, ProtocolClModifyCallQoSComplete callback function [Network Drivers Starting with Windows Vista], condis_client_ref_19bed505-8cde-44c3-bee1-dd5cc7a26526.xml, ndis/ProtocolClModifyCallQoSComplete, netvista.protocolclmodifycallqoscomplete
 ms.topic: callback
+f1_keywords:
+ - "ndis/ProtocolClModifyCallQoSComplete"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

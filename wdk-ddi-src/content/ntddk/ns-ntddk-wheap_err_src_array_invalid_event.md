@@ -8,6 +8,8 @@ ms.assetid: 9f768fe6-4e3f-4bc5-9b8b-add0b72a8173
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
+f1_keywords:
+ - "ntddk/WHEAP_ERR_SRC_ARRAY_INVALID_EVENT"
 ms.keywords: WHEAP_ERR_SRC_ARRAY_INVALID_EVENT, WHEAP_ERR_SRC_ARRAY_INVALID_EVENT, *PWHEAP_ERR_SRC_ARRAY_INVALID_EVENT, 
 req.header: ntddk.h
 req.include-header:

@@ -8,6 +8,8 @@ ms.assetid: 21bf5426-6444-4f1d-bf36-edcd37175fc5
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
 ms.topic: struct
+f1_keywords:
+ - "d3dkmddi/_DXGK_GPUPCAPS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.keywords: _DXGK_GPUPCAPS, DXGK_GPUPCAPS, 

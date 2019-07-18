@@ -8,6 +8,8 @@ ms.assetid: a71190ac-0368-40bd-a19d-82a27986a9b3
 ms.date: 05/03/2018
 ms.keywords: GetCurrentProcessDataOffset, GetCurrentProcessDataOffset method [Windows Debugging], GetCurrentProcessDataOffset method [Windows Debugging],IDebugSystemObjects interface, GetCurrentProcessDataOffset method [Windows Debugging],IDebugSystemObjects2 interface, GetCurrentProcessDataOffset method [Windows Debugging],IDebugSystemObjects3 interface, GetCurrentProcessDataOffset method [Windows Debugging],IDebugSystemObjects4 interface, IDebugSystemObjects interface [Windows Debugging],GetCurrentProcessDataOffset method, IDebugSystemObjects2 interface [Windows Debugging],GetCurrentProcessDataOffset method, IDebugSystemObjects2.GetCurrentProcessDataOffset, IDebugSystemObjects2::GetCurrentProcessDataOffset, IDebugSystemObjects3 interface [Windows Debugging],GetCurrentProcessDataOffset method, IDebugSystemObjects3::GetCurrentProcessDataOffset, IDebugSystemObjects4 interface [Windows Debugging],GetCurrentProcessDataOffset method, IDebugSystemObjects4::GetCurrentProcessDataOffset, IDebugSystemObjects::GetCurrentProcessDataOffset, IDebugSystemObjects_f3602018-7f0a-45eb-aadc-26e0f7349737.xml, dbgeng/IDebugSystemObjects2::GetCurrentProcessDataOffset, dbgeng/IDebugSystemObjects3::GetCurrentProcessDataOffset, dbgeng/IDebugSystemObjects4::GetCurrentProcessDataOffset, dbgeng/IDebugSystemObjects::GetCurrentProcessDataOffset, debugger.getcurrentprocessdataoffset
 ms.topic: method
+f1_keywords:
+ - "dbgeng/IDebugSystemObjects.GetCurrentProcessDataOffset"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

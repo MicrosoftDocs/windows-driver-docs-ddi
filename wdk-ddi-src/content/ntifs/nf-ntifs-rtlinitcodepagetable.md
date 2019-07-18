@@ -8,6 +8,8 @@ ms.assetid: 247d2694-f43f-4c30-9831-7110a1f29935
 ms.date: 04/16/2018
 ms.keywords: RtlInitCodePageTable, RtlInitCodePageTable function [Installable File System Drivers], ifsk.rtlinitcodepagetable, ntifs/RtlInitCodePageTable, rtlref_e8e23ed7-9655-4aba-a5fa-3096995aafd9.xml
 ms.topic: function
+f1_keywords:
+ - "ntifs/RtlInitCodePageTable"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows

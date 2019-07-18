@@ -8,6 +8,8 @@ ms.assetid: FCDAEE07-B10E-491B-9BDB-49D77444281D
 ms.date: 05/02/2018
 ms.keywords: "*PWWAN_DEVICE_SERVICE_RESPONSE, PWWAN_DEVICE_SERVICE_RESPONSE, PWWAN_DEVICE_SERVICE_RESPONSE structure pointer [Network Drivers Starting with Windows Vista], WWAN_DEVICE_SERVICE_RESPONSE, WWAN_DEVICE_SERVICE_RESPONSE structure [Network Drivers Starting with Windows Vista], _WWAN_DEVICE_SERVICE_RESPONSE, netvista.wwan_device_service_response, wwan/PWWAN_DEVICE_SERVICE_RESPONSE, wwan/WWAN_DEVICE_SERVICE_RESPONSE"
 ms.topic: struct
+f1_keywords:
+ - "wwan/WWAN_DEVICE_SERVICE_RESPONSE"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows

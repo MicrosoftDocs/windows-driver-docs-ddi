@@ -8,6 +8,8 @@ ms.assetid: 94cc33bf-cd44-4892-a4e1-991eb6339cc3
 ms.date: 05/03/2018
 ms.keywords: GetStoredEventInformation, GetStoredEventInformation method [Windows Debugging], GetStoredEventInformation method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],GetStoredEventInformation method, IDebugControl4.GetStoredEventInformation, IDebugControl4::GetStoredEventInformation, IDebugControl_2d615fc9-52f1-4169-9265-430a1ce0f940.xml, dbgeng/IDebugControl4::GetStoredEventInformation, debugger.getstoredeventinformation
 ms.topic: method
+f1_keywords:
+ - "dbgeng/IDebugControl4.GetStoredEventInformation"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h, Ntddk.h
 req.target-type: Desktop

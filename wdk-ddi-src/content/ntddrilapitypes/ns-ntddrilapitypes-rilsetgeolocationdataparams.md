@@ -8,6 +8,8 @@ ms.assetid: 7736c8d6-731e-4322-aade-ecd23a4fedde
 ms.date: 05/02/2018
 ms.keywords: "*LPRILSETGEOLOCATIONDATAPARAMS, RILSETGEOLOCATIONDATAPARAMS, RILSETGEOLOCATIONDATAPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsetgeolocationdataparams, ntddrilapitypes/RILSETGEOLOCATIONDATAPARAMS"
 ms.topic: struct
+f1_keywords:
+ - "ntddrilapitypes/RILSETGEOLOCATIONDATAPARAMS"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

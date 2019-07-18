@@ -8,6 +8,8 @@ ms.assetid: 55DB2888-8427-4714-A72C-1F0C2804C3EA
 ms.date: 04/30/2018
 ms.keywords: RtlULongPtrToLongLong, RtlULongPtrToLongLong function [Kernel-Mode Driver Architecture], kernel.rtlulongptrtolonglong, ntintsafe/RtlULongPtrToLongLong
 ms.topic: function
+f1_keywords:
+ - "ntintsafe/RtlULongPtrToLongLong"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop

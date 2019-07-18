@@ -5,6 +5,8 @@ description:
 ms.assetid: 0f733ef6-7993-4514-9d2c-f2e49c8d70dd
 ms.date: 10/05/2018
 ms.topic: ioctl
+f1_keywords:
+ - "sidebandaudio/IOCTL_SBAUD_GET_MUTE_STATUS_UPDATE"
 req.header: sidebandaudio.h
 req.include-header:
 req.target-type:

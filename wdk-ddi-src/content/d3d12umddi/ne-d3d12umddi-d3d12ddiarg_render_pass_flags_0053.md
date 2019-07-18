@@ -5,6 +5,8 @@ description: Indicates the state of the Render Pass.
 ms.assetid: 1ff42584-e2d3-4f47-8dac-3262fc375491
 ms.date: 10/19/2018
 ms.topic: enum
+f1_keywords:
+ - "d3d12umddi/D3D12DDIARG_RENDER_PASS_FLAGS_0053"
 ms.keywords: D3D12DDIARG_RENDER_PASS_FLAGS_0053, D3D12DDIARG_RENDER_PASS_FLAGS_0053, 
 req.header: d3d12umddi.h
 req.include-header:

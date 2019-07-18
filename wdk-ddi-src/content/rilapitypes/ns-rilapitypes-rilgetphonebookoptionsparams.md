@@ -8,6 +8,8 @@ ms.assetid: a6c71f2d-baf7-4293-ae13-38625be3ab3f
 ms.date: 05/02/2018
 ms.keywords: "*LPRILGETPHONEBOOKOPTIONSPARAMS, RILGETPHONEBOOKOPTIONSPARAMS, RILGETPHONEBOOKOPTIONSPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilgetphonebookoptionsparams, ntddrilapitypes/RILGETPHONEBOOKOPTIONSPARAMS"
 ms.topic: struct
+f1_keywords:
+ - "rilapitypes/RILGETPHONEBOOKOPTIONSPARAMS"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

@@ -5,6 +5,8 @@ description: Used to get process device removal support.
 ms.assetid: 3f055101-a1de-4997-9c39-ebaffe736991
 ms.date: 08/03/2018
 ms.topic: function
+f1_keywords:
+ - "d3dkmthk/D3DKMTGetProcessDeviceRemovalSupport"
 ms.keywords: D3DKMTGetProcessDeviceRemovalSupport
 req.header: d3dkmthk.h
 req.include-header:

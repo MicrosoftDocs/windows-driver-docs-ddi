@@ -5,6 +5,8 @@ description: Informs the USB device emulation class extension (UdeCx) that the d
 ms.assetid: 92e5253f-4209-4501-bd25-e560e9e39f61
 ms.date: 09/30/2018
 ms.topic: function
+f1_keywords:
+ - "udecxwdfdevice/UdecxWdfDeviceNeedsReset"
 ms.keywords: UdecxWdfDeviceNeedsReset
 req.header: udecxwdfdevice.h
 req.include-header: Udecx.h

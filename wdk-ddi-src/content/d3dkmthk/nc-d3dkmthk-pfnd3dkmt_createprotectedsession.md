@@ -5,6 +5,8 @@ description: Implemented by the client driver to create a protected session.
 ms.assetid: 000fb6fc-0d6e-4c2a-ac7c-05759d7e0d28
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/PFND3DKMT_CREATEPROTECTEDSESSION"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

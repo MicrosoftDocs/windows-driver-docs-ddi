@@ -8,6 +8,8 @@ ms.assetid: C46822B9-2263-4424-853B-32C726D83950
 ms.date: 02/15/2018
 ms.keywords: 61883/CMP_PLUG_LOCATION, 61883/CMP_PlugLocal, 61883/CMP_PlugRemote, CMP_PLUG_LOCATION, CMP_PLUG_LOCATION enumeration [Buses], CMP_PlugLocal, CMP_PlugRemote, IEEE.cmp_plug_location
 ms.topic: enum
+f1_keywords:
+ - "61883/CMP_PLUG_LOCATION"
 req.header: 61883.h
 req.include-header: 
 req.target-type: Windows

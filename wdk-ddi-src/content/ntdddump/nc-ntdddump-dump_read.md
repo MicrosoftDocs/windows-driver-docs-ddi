@@ -8,6 +8,8 @@ ms.assetid: 5F95D38C-8E11-49D4-82C4-718BD846A834
 ms.date: 03/29/2018
 ms.keywords: Dump_Read, Dump_Read routine [Storage Devices], PDUMP_READ, ntdddump/Dump_Read, storage.dump_read
 ms.topic: callback
+f1_keywords:
+ - "ntdddump/Dump_Read"
 req.header: ntdddump.h
 req.include-header: Ntdddump.h
 req.target-type: Desktop

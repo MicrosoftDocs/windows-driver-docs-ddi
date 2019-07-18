@@ -8,6 +8,8 @@ ms.assetid: 968cfc99-4862-41f7-bf7e-d579a3e8061f
 ms.date: 04/16/2018
 ms.keywords: FltCallbacks_3391a3bd-55a2-4f87-b116-78c2e4f93b88.xml, NormalizeContextCleanupCallback, NormalizeContextCleanupCallback routine [Installable File System Drivers], PFLT_NORMALIZE_CONTEXT_CLEANUP, fltkernel/NormalizeContextCleanupCallback, ifsk.pflt_normalize_context_cleanup
 ms.topic: callback
+f1_keywords:
+ - "fltkernel/NormalizeContextCleanupCallback"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Desktop

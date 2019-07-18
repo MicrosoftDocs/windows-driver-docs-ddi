@@ -8,6 +8,8 @@ ms.assetid: c124c5a4-5187-4474-8896-28c729bc7d07
 ms.date: 04/16/2018
 ms.keywords: FsRtlTeardownPerFileContexts, FsRtlTeardownPerFileContexts routine [Installable File System Drivers], fsrtlref_3bd1af9f-ebc1-4cf8-9c7d-415f4bc64eb4.xml, ifsk.fsrtlteardownperfilecontexts, ntifs/FsRtlTeardownPerFileContexts
 ms.topic: function
+f1_keywords:
+ - "ntifs/FsRtlTeardownPerFileContexts"
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal

@@ -8,6 +8,8 @@ ms.assetid: 2f6325e1-4ede-41e5-87d3-833c6b52157a
 ms.date: 04/16/2018
 ms.keywords: MRxCreateSrvCall, MRxCreateSrvCall routine [Installable File System Drivers], PMRX_CREATE_SRVCALL, ifsk.mrxcreatesrvcall, mrx/MRxCreateSrvCall, mrxref_bc85d9c3-6d64-4510-ae94-0ec858c49110.xml
 ms.topic: callback
+f1_keywords:
+ - "mrx/MRxCreateSrvCall"
 req.header: mrx.h
 req.include-header: Mrx.h
 req.target-type: Desktop

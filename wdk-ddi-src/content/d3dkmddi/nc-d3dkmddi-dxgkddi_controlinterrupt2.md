@@ -7,6 +7,8 @@ ms.assetid: 0C09CAB1-3DFC-4340-8FF2-99CAF7F13156
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_CONTROLINTERRUPT2, DXGKDDI_CONTROLINTERRUPT2 callback, DxgkDdi_ControlInterrupt2, DxgkDdi_ControlInterrupt2 callback function [Display Devices], d3dkmddi/DxgkDdi_ControlInterrupt2, display.dxgkddicontrolinterrupt2
 ms.topic: callback
+f1_keywords:
+ - "d3dkmddi/DxgkDdi_ControlInterrupt2"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Desktop

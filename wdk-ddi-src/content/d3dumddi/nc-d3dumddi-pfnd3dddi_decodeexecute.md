@@ -8,6 +8,8 @@ ms.assetid: e12496c0-e3e4-437e-9f84-a30ee99b4541
 ms.date: 05/10/2018
 ms.keywords: DecodeExecute, DecodeExecute callback function [Display Devices], PFND3DDDI_DECODEEXECUTE, PFND3DDDI_DECODEEXECUTE callback, UserModeDisplayDriver_Functions_6e4181b3-2ba5-4c77-a05a-4c8bb2d0d97c.xml, d3dumddi/DecodeExecute, display.decodeexecute
 ms.topic: callback
+f1_keywords:
+ - "d3dumddi/DecodeExecute"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop

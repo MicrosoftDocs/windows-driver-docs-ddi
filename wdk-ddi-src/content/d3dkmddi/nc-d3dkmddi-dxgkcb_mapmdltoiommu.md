@@ -5,6 +5,8 @@ description: Implemented by the client driver to map physical pages described by
 ms.assetid: 8badbe56-f46c-442c-8918-5e99db889278
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmddi/DXGKCB_MAPMDLTOIOMMU"
 req.header: d3dkmddi.h
 req.include-header:
 req.target-type:

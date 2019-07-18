@@ -5,6 +5,8 @@ description: The PFND3DKMT_SHAREDPRIMARYLOCKNOTIFICATION callback function notif
 ms.assetid: ceb858a0-a82b-4649-9a97-884cdf09b822
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/PFND3DKMT_SHAREDPRIMARYLOCKNOTIFICATION"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

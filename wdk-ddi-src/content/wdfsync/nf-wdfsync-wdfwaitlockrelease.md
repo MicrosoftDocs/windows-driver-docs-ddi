@@ -8,6 +8,8 @@ ms.assetid: f7fb070b-fea4-48d9-8f89-1c01af183ef0
 ms.date: 02/26/2018
 ms.keywords: DFSynchroRef_f64028b9-9f56-4d2a-8341-1b305ab02eff.xml, WdfWaitLockRelease, WdfWaitLockRelease method, kmdf.wdfwaitlockrelease, wdf.wdfwaitlockrelease, wdfsync/WdfWaitLockRelease
 ms.topic: function
+f1_keywords:
+ - "wdfsync/WdfWaitLockRelease"
 req.header: wdfsync.h
 req.include-header: Wdf.h
 req.target-type: Universal

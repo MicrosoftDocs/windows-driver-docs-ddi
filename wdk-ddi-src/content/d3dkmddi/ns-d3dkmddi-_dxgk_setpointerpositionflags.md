@@ -7,6 +7,8 @@ ms.assetid: c834080a-1a0a-4327-b80b-6e5eb3728605
 ms.date: 05/10/2018
 ms.keywords: DXGK_SETPOINTERPOSITIONFLAGS, DXGK_SETPOINTERPOSITIONFLAGS structure [Display Devices], DmStructs_57c5d8e6-b270-4423-8d85-5db8103e2492.xml, _DXGK_SETPOINTERPOSITIONFLAGS, d3dkmddi/DXGK_SETPOINTERPOSITIONFLAGS, display.dxgk_setpointerpositionflags
 ms.topic: struct
+f1_keywords:
+ - "d3dkmddi/DXGK_SETPOINTERPOSITIONFLAGS"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

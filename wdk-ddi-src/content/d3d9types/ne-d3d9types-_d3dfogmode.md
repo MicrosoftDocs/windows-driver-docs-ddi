@@ -5,6 +5,8 @@ description:
 ms.assetid: 37898f4e-bace-4e15-818f-f8dba81f57fb
 ms.date: 10/19/2018
 ms.topic: enum
+f1_keywords:
+ - "d3d9types/_D3DFOGMODE"
 ms.keywords: _D3DFOGMODE, D3DFOGMODE, 
 req.header: d3d9types.h
 req.include-header:

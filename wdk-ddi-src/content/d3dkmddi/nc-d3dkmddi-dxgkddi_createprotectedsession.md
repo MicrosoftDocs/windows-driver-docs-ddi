@@ -7,6 +7,8 @@ ms.assetid: 0FAE7AA0-839D-4D21-BC10-46B2B651979F
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_CREATEPROTECTEDSESSION, DXGKDDI_CREATEPROTECTEDSESSION callback, DXGKDDI_CREATEPROTECTEDSESSION callback function [Display Devices], d3dkmddi/DXGKDDI_CREATEPROTECTEDSESSION, display.dxgkddi_createprotectedsession
 ms.topic: callback
+f1_keywords:
+ - "d3dkmddi/DXGKDDI_CREATEPROTECTEDSESSION"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Windows

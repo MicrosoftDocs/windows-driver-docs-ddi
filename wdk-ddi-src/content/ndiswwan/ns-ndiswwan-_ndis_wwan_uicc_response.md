@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 765B74B7-0609-4A2F-BCF7-A5BBF9C15D32
 ms.date: 04/10/2019
 ms.topic: struct
+f1_keywords:
+ - "ndiswwan/_NDIS_WWAN_UICC_RESPONSE"
 ms.keywords: _NDIS_WWAN_UICC_RESPONSE, NDIS_WWAN_UICC_RESPONSE, *PNDIS_WWAN_UICC_RESPONSE, 
 req.header: ndiswwan.h
 req.include-header:

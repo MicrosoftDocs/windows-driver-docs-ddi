@@ -8,6 +8,8 @@ ms.assetid: 3bd25a77-bce6-4cd3-808c-6df3b3033dd2
 ms.date: 04/20/2018
 ms.keywords: DrvSplStartDoc, DrvSplStartDoc function [Print Devices], print.drvsplstartdoc, print_interface-graphics_c37a0824-d460-4d62-b029-55ec4bc842d2.xml, winddiui/DrvSplStartDoc
 ms.topic: function
+f1_keywords:
+ - "winddiui/DrvSplStartDoc"
 req.header: winddiui.h
 req.include-header: 
 req.target-type: Windows

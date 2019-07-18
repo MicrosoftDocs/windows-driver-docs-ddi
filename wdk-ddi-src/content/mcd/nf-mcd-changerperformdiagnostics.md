@@ -8,6 +8,8 @@ ms.assetid: 87767b2b-8ca3-4d19-8719-673562246a41
 ms.date: 03/29/2018
 ms.keywords: ChangerPerformDiagnostics, ChangerPerformDiagnostics function [Storage Devices], chgrmini_dd38573a-a1cc-4b7b-abdf-0a200ba11d88.xml, mcd/ChangerPerformDiagnostics, storage.changerperformdiagnostics
 ms.topic: function
+f1_keywords:
+ - "mcd/ChangerPerformDiagnostics"
 req.header: mcd.h
 req.include-header: Mcd.h, Ntddchgr.h
 req.target-type: Desktop

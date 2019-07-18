@@ -5,6 +5,8 @@ description: Map heap.
 ms.assetid: 2187b018-e5d2-4a82-8232-ba9f1ae3a988
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_MAPHEAP"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

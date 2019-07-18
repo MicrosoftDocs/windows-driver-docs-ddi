@@ -5,6 +5,8 @@ description: The Execute method executes the content of the script as dictated b
 ms.assetid: 6682b609-fd29-4878-b820-f7a582b7295d
 ms.date: 08/20/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDataModelScript.Execute"
 ms.keywords: IDataModelScript::Execute, Execute, IDataModelScript.Execute, IDataModelScript::Execute, IDataModelScript.Execute
 req.header: dbgmodel.h
 req.include-header:

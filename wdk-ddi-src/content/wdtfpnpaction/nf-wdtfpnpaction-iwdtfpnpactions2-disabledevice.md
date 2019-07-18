@@ -8,6 +8,8 @@ ms.assetid: 6aa2c428-d0f7-45e4-b96f-2fbf42cfb32d
 ms.date: 04/04/2018
 ms.keywords: DisableDevice, DisableDevice method [Windows Device Testing Framework], DisableDevice method [Windows Device Testing Framework],IWDTFPNPActions2 interface, IWDTFPNPActions2 interface [Windows Device Testing Framework],DisableDevice method, IWDTFPNPActions2.DisableDevice, IWDTFPNPActions2::DisableDevice, dtf.iwdtfpnpactions2_disabledevice, wdtfpnpaction/IWDTFPNPActions2::DisableDevice
 ms.topic: method
+f1_keywords:
+ - "wdtfpnpaction/IWDTFPNPActions2.DisableDevice"
 req.header: wdtfpnpaction.h
 req.include-header: 
 req.target-type: Desktop

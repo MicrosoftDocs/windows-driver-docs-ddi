@@ -8,6 +8,8 @@ ms.assetid: 033e896d-6d4e-411e-98a4-5f94d37de0bd
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
+f1_keywords:
+ - "ntddk/WHEAP_PSHED_PLUGIN_REGISTER"
 ms.keywords: WHEAP_PSHED_PLUGIN_REGISTER, WHEAP_PSHED_PLUGIN_REGISTER, *PWHEAP_PSHED_PLUGIN_REGISTER, 
 req.header: ntddk.h
 req.include-header:

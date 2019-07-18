@@ -5,6 +5,8 @@ description: Arguments used to create a depth stencil view.
 ms.assetid: 4ea81c63-03b8-4966-9dbf-8eee2af122d2
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3d12umddi/D3D12DDIARG_CREATE_DEPTH_STENCIL_VIEW"
 ms.keywords: D3D12DDIARG_CREATE_DEPTH_STENCIL_VIEW, D3D12DDIARG_CREATE_DEPTH_STENCIL_VIEW, 
 req.header: d3d12umddi.h
 req.include-header:

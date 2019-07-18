@@ -8,6 +8,8 @@ ms.assetid: 505276EE-5D41-4AB2-82FB-FBDEF994F372
 ms.date: 04/30/2018
 ms.keywords: POFXCALLBACKPROCESSORIDLEVETO, ProcessorIdleVeto, ProcessorIdleVeto routine [Kernel-Mode Driver Architecture], ProcessorIdleVetoreadv, kernel.processoridleveto, pepfx/ProcessorIdleVeto
 ms.topic: callback
+f1_keywords:
+ - "pepfx/ProcessorIdleVeto"
 req.header: pepfx.h
 req.include-header: Pep_x.h
 req.target-type: Windows

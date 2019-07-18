@@ -5,6 +5,8 @@ description: Flushes heap transitions.
 ms.assetid: ae10b2f4-9483-4a9f-9996-74daef38ddbd
 ms.date: 10/19/2018
 ms.topic: function
+f1_keywords:
+ - "d3dkmthk/D3DKMTFlushHeapTransitions"
 ms.keywords: D3DKMTFlushHeapTransitions
 req.header: d3dkmthk.h
 req.include-header:

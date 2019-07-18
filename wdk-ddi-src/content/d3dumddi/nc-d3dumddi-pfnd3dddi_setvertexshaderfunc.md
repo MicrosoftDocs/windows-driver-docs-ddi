@@ -8,6 +8,8 @@ ms.assetid: 2cea4812-7eba-4558-9c2e-30de460be21f
 ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_SETVERTEXSHADERFUNC, PFND3DDDI_SETVERTEXSHADERFUNC callback, SetVertexShaderFunc, SetVertexShaderFunc callback function [Display Devices], UserModeDisplayDriver_Functions_aeaa5094-5619-4cf5-b2c3-c4b6aeed9b33.xml, d3dumddi/SetVertexShaderFunc, display.setvertexshaderfunc
 ms.topic: callback
+f1_keywords:
+ - "d3dumddi/SetVertexShaderFunc"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop

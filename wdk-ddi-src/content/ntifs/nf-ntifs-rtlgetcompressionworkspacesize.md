@@ -8,6 +8,8 @@ ms.assetid: f0e856f8-9c01-4219-b521-ab4a5c9bc35c
 ms.date: 04/16/2018
 ms.keywords: RtlGetCompressionWorkSpaceSize, RtlGetCompressionWorkSpaceSize function [Installable File System Drivers], ifsk.rtlgetcompressionworkspacesize, ntifs/RtlGetCompressionWorkSpaceSize, rtlref_26332738-6278-49f9-b948-87bcb7e68c83.xml
 ms.topic: function
+f1_keywords:
+ - "ntifs/RtlGetCompressionWorkSpaceSize"
 req.header: ntifs.h
 req.include-header: Fltkernel.h, Ntifs.h
 req.target-type: Universal

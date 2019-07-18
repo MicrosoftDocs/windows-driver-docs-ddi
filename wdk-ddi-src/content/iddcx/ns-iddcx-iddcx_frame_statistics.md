@@ -8,6 +8,8 @@ ms.assetid: 5099ff37-eed9-44fd-8254-3828b8c5d8bd
 ms.date: 05/10/2018
 ms.keywords: IDDCX_FRAME_STATISTICS, IDDCX_FRAME_STATISTICS structure [Display Devices], display.iddcx_frame_statistics, iddcx/IDDCX_FRAME_STATISTICS
 ms.topic: struct
+f1_keywords:
+ - "iddcx/IDDCX_FRAME_STATISTICS"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows

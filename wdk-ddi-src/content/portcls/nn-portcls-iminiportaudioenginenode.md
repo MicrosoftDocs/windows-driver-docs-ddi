@@ -8,6 +8,8 @@ ms.assetid: 58170D54-869A-49CC-865A-AB64BFB41A4B
 ms.date: 05/08/2018
 ms.keywords: IMiniportAudioEngineNode, IMiniportAudioEngineNode interface [Audio Devices], IMiniportAudioEngineNode interface [Audio Devices],described, audio.iminiportaudioenginenode, portcls/IMiniportAudioEngineNode
 ms.topic: interface
+f1_keywords:
+ - "portcls/IMiniportAudioEngineNode"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Windows

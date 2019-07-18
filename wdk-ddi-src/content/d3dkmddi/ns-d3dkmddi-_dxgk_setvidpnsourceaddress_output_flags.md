@@ -7,6 +7,8 @@ ms.assetid: CFEEB41D-050F-4372-AB54-39ABC696C89D
 ms.date: 05/10/2018
 ms.keywords: DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS, DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS structure [Display Devices], _DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS, d3dkmddi/DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS, display.dxgk_setvidpnsourceaddress_output_flags
 ms.topic: struct
+f1_keywords:
+ - "d3dkmddi/DXGK_SETVIDPNSOURCEADDRESS_OUTPUT_FLAGS"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Windows

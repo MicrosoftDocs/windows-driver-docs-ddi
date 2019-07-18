@@ -8,6 +8,8 @@ ms.assetid: A571B2C7-F97E-4717-AA22-D25DE47469E8
 ms.date: 04/30/2018
 ms.keywords: RtlByteToChar, RtlByteToChar function [Kernel-Mode Driver Architecture], kernel.rtlbytetochar, ntintsafe/RtlByteToChar
 ms.topic: function
+f1_keywords:
+ - "ntintsafe/RtlByteToChar"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop

@@ -7,6 +7,8 @@ ms.assetid: E5AAEEB1-C29E-4AA7-9F8E-2C2DCFADED81
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_CREATEPROCESS, DXGKDDI_CREATEPROCESS callback, DxgkDdiCreateProcess, DxgkDdiCreateProcess callback function [Display Devices], d3dkmddi/DxgkDdiCreateProcess, display.dxgkddicreateprocess, dispmprt/DxgkDdiCreateProcess
 ms.topic: callback
+f1_keywords:
+ - "d3dkmddi/DxgkDdiCreateProcess"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Desktop

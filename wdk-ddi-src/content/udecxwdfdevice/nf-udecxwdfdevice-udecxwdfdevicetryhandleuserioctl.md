@@ -8,6 +8,8 @@ ms.assetid: CC199F5C-BF05-4F1F-BEE4-8693F9156D8A
 ms.date: 05/07/2018
 ms.keywords: UdecxWdfDeviceTryHandleUserIoctl, UdecxWdfDeviceTryHandleUserIoctl function [Buses], buses.udecxwdfdevicetryhandleuserioctl, udecxwdfdevice/UdecxWdfDeviceTryHandleUserIoctl
 ms.topic: function
+f1_keywords:
+ - "udecxwdfdevice/UdecxWdfDeviceTryHandleUserIoctl"
 req.header: udecxwdfdevice.h
 req.include-header: Udecx.h
 req.target-type: Windows

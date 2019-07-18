@@ -8,6 +8,8 @@ ms.assetid: 54583406-9c60-4622-a78d-085c35ce7593
 ms.date: 02/26/2018
 ms.keywords: DFRegKeyObjectRef_537593c8-1f9c-4392-9228-6a0e5d89a964.xml, WdfRegistryQueryULong, WdfRegistryQueryULong method, kmdf.wdfregistryqueryulong, wdf.wdfregistryqueryulong, wdfregistry/WdfRegistryQueryULong
 ms.topic: function
+f1_keywords:
+ - "wdfregistry/WdfRegistryQueryULong"
 req.header: wdfregistry.h
 req.include-header: Wdf.h
 req.target-type: Universal

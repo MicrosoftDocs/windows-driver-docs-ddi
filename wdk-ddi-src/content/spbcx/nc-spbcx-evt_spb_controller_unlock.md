@@ -8,6 +8,8 @@ ms.assetid: 4EB36115-2783-4FD5-9CEE-1F7C971C334D
 ms.date: 04/30/2018
 ms.keywords: EVT_SPB_CONTROLLER_UNLOCK, EVT_SPB_CONTROLLER_UNLOCK callback, EvtSpbControllerUnlock, EvtSpbControllerUnlock callback function [Buses], SPB.evtspbcontrollerunlock, spbcx/EvtSpbControllerUnlock
 ms.topic: callback
+f1_keywords:
+ - "spbcx/EvtSpbControllerUnlock"
 req.header: spbcx.h
 req.include-header: 
 req.target-type: Desktop

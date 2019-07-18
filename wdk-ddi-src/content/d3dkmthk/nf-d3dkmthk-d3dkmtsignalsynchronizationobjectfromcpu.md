@@ -7,6 +7,8 @@ ms.assetid: 23DC5EB1-E606-499D-B78A-AFF95E6B00A3
 ms.date: 05/10/2018
 ms.keywords: D3DKMTSignalSynchronizationObjectFromCpu, D3DKMTSignalSynchronizationObjectFromCpu function [Display Devices], d3dkmthk/D3DKMTSignalSynchronizationObjectFromCpu, display.d3dkmtsignalsynchronizationobjectfromcpu
 ms.topic: function
+f1_keywords:
+ - "d3dkmthk/D3DKMTSignalSynchronizationObjectFromCpu"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal

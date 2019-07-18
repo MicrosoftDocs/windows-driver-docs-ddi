@@ -8,6 +8,8 @@ ms.assetid: 316b8b75-91ca-4866-b66d-3f66f20126df
 ms.date: 02/26/2018
 ms.keywords: IWDFIoRequest interface,SetCompletionCallback method, IWDFIoRequest.SetCompletionCallback, IWDFIoRequest::SetCompletionCallback, SetCompletionCallback, SetCompletionCallback method, SetCompletionCallback method,IWDFIoRequest interface, UMDFRequestObjectRef_81bdbb22-6221-472d-b2de-a1cc0b9b0c11.xml, umdf.iwdfiorequest_setcompletioncallback, wdf.iwdfiorequest_setcompletioncallback, wudfddi/IWDFIoRequest::SetCompletionCallback
 ms.topic: method
+f1_keywords:
+ - "wudfddi/IWDFIoRequest.SetCompletionCallback"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

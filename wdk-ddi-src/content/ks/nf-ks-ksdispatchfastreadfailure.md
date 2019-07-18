@@ -8,6 +8,8 @@ ms.assetid: 7e0c72ce-0959-4835-ac1a-3f37869cc81f
 ms.date: 04/23/2018
 ms.keywords: KsDispatchFastReadFailure, KsDispatchFastReadFailure function [Streaming Media Devices], KsDispatchFastWriteFailure, ks/KsDispatchFastReadFailure, ksfunc_fe3ea42f-80ae-4fbd-a2c2-55e957e913cc.xml, stream.ksdispatchfastreadfailure
 ms.topic: function
+f1_keywords:
+ - "ks/KsDispatchFastReadFailure"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

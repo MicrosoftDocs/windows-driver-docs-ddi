@@ -8,6 +8,8 @@ ms.assetid: 4c2c7b8b-4b4b-4a76-8dac-106c94f347c5
 ms.date: 05/07/2018
 ms.keywords: IOCTL_INTERNAL_USB_GET_DEVICE_HANDLE, IOCTL_INTERNAL_USB_GET_DEVICE_HANDLE control, IOCTL_INTERNAL_USB_GET_DEVICE_HANDLE control code [Buses], buses.ioctl_internal_usb_get_device_handle, usbioctl/IOCTL_INTERNAL_USB_GET_DEVICE_HANDLE
 ms.topic: ioctl
+f1_keywords:
+ - "usbioctl/IOCTL_INTERNAL_USB_GET_DEVICE_HANDLE"
 req.header: usbioctl.h
 req.include-header: Usbioctl.h
 req.target-type: Windows

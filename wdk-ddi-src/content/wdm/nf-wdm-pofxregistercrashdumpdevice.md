@@ -8,6 +8,8 @@ ms.assetid: 3237B68F-838A-4443-89FD-DC7815EAB403
 ms.date: 04/30/2018
 ms.keywords: PoFxRegisterCrashdumpDevice, PoFxRegisterCrashdumpDevice routine [Kernel-Mode Driver Architecture], kernel.pofxregistercrashdumpdevice, wdm/PoFxRegisterCrashdumpDevice
 ms.topic: function
+f1_keywords:
+ - "wdm/PoFxRegisterCrashdumpDevice"
 req.header: wdm.h
 req.include-header: Pepfx.h
 req.target-type: Windows

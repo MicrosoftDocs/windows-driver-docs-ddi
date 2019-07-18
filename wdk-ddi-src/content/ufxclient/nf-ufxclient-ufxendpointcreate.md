@@ -8,6 +8,8 @@ ms.assetid: 060CADB7-AAC9-401A-9198-FC306CE74A34
 ms.date: 05/07/2018
 ms.keywords: UfxEndpointCreate, UfxEndpointCreate method [Buses], buses.ufxendpointcreate, ufxclient/UfxEndpointCreate
 ms.topic: function
+f1_keywords:
+ - "ufxclient/UfxEndpointCreate"
 req.header: ufxclient.h
 req.include-header: 
 req.target-type: Windows

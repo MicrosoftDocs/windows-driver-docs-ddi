@@ -8,6 +8,8 @@ ms.assetid: F7C2DFCC-DB74-4E2E-B252-4897FA320C03
 ms.date: 01/11/2019
 ms.keywords: "*PPEP_COMPONENT_PLATFORM_CONSTRAINTS, PEP_COMPONENT_PLATFORM_CONSTRAINTS, PEP_COMPONENT_PLATFORM_CONSTRAINTS structure [Kernel-Mode Driver Architecture], PPEP_COMPONENT_PLATFORM_CONSTRAINTS, PPEP_COMPONENT_PLATFORM_CONSTRAINTS structure pointer [Kernel-Mode Driver Architecture], _PEP_COMPONENT_PLATFORM_CONSTRAINTS, kernel.pep_component_platform_constraints, pepfx/PEP_COMPONENT_PLATFORM_CONSTRAINTS, pepfx/PPEP_COMPONENT_PLATFORM_CONSTRAINTS"
 ms.topic: struct
+f1_keywords:
+ - "pepfx/PEP_COMPONENT_PLATFORM_CONSTRAINTS"
 req.header: pepfx.h
 req.include-header: Pep_x.h
 req.target-type: Windows

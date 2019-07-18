@@ -8,6 +8,8 @@ ms.assetid: f27f4e4f-8ce9-4ce2-94de-a106c1ec9edb
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
 ms.topic: function
+f1_keywords:
+ - "dispmprt/DlGetDmaAdapter"
 ms.keywords: DlGetDmaAdapter
 req.header: dispmprt.h
 req.include-header:

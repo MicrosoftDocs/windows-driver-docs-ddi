@@ -8,6 +8,8 @@ ms.assetid: 7d8ff1cc-e5d6-473b-bc16-e87468bb546c
 ms.date: 05/02/2018
 ms.keywords: RIL_GetPhonebookOptions, RIL_GetPhonebookOptions method [Network Drivers Starting with Windows Vista], netvista.ril_getphonebookoptions, rilapi/RIL_GetPhonebookOptions
 ms.topic: function
+f1_keywords:
+ - "rilapi/RIL_GetPhonebookOptions"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: 1395687d-643a-40b5-9ca9-bff34c0dd6d5
 ms.date: 04/30/2019
 ms.keywords: "*PKSAC3_BIT_STREAM_MODE, KSAC3_BIT_STREAM_MODE, KSAC3_BIT_STREAM_MODE structure [Audio Devices], PKSAC3_BIT_STREAM_MODE, PKSAC3_BIT_STREAM_MODE structure pointer [Audio Devices], aud-prop_b90587bf-508c-4e01-83ec-6fd925433d17.xml, audio.ksac3_bit_stream_mode, ksmedia/KSAC3_BIT_STREAM_MODE, ksmedia/PKSAC3_BIT_STREAM_MODE"
 ms.topic: struct
+f1_keywords:
+ - "ksmedia/KSAC3_BIT_STREAM_MODE"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows

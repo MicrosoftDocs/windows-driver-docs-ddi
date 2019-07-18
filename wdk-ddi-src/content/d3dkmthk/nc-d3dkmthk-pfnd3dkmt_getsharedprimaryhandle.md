@@ -5,6 +5,8 @@ description: Pfnd3dkmtGetsharedprimaryhandle retrieves the global shared handle 
 ms.assetid: 264423b0-f635-4530-a0e8-c9ac3dac9e4c
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/PFND3DKMT_GETSHAREDPRIMARYHANDLE"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

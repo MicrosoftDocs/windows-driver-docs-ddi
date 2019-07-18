@@ -8,6 +8,8 @@ ms.assetid: 2338e583-4491-492e-b7e6-fa4e23485c22
 ms.date: 04/23/2018
 ms.keywords: KsEnableEvent, KsEnableEvent function [Streaming Media Devices], ks/KsEnableEvent, ksfunc_f6611298-cc8d-40eb-86e6-1287caff3ec0.xml, stream.ksenableevent
 ms.topic: function
+f1_keywords:
+ - "ks/KsEnableEvent"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

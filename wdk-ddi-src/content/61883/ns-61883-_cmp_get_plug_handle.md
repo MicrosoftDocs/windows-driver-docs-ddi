@@ -8,6 +8,8 @@ ms.assetid: 4EDEE2EE-7B42-4CC9-8CFC-4690193C5D4D
 ms.date: 02/15/2018
 ms.keywords: "*PCMP_GET_PLUG_HANDLE, 61883/CMP_GET_PLUG_HANDLE, 61883/PCMP_GET_PLUG_HANDLE, CMP_GET_PLUG_HANDLE, CMP_GET_PLUG_HANDLE structure [Buses], IEEE.cmp_get_plug_handle, PCMP_GET_PLUG_HANDLE, PCMP_GET_PLUG_HANDLE structure pointer [Buses], _CMP_GET_PLUG_HANDLE"
 ms.topic: struct
+f1_keywords:
+ - "61883/CMP_GET_PLUG_HANDLE"
 req.header: 61883.h
 req.include-header: 
 req.target-type: Windows

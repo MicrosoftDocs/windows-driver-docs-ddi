@@ -5,6 +5,8 @@ description: The PFND3DKMT_CREATESYNCHRONIZATIONOBJECT callback function creates
 ms.assetid: 5f43b3fc-6542-45bf-b169-ab5e4bf2c0f8
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/PFND3DKMT_CREATESYNCHRONIZATIONOBJECT"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

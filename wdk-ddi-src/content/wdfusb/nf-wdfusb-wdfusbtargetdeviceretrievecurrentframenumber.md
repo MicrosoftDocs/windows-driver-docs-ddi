@@ -8,6 +8,8 @@ ms.assetid: 7f73339f-adac-4569-92e7-1b166f93db92
 ms.date: 02/26/2018
 ms.keywords: DFUsbRef_9dd2f1ce-06f7-43a2-8e65-931c03f69c6e.xml, WdfUsbTargetDeviceRetrieveCurrentFrameNumber, WdfUsbTargetDeviceRetrieveCurrentFrameNumber method, kmdf.wdfusbtargetdeviceretrievecurrentframenumber, wdf.wdfusbtargetdeviceretrievecurrentframenumber, wdfusb/WdfUsbTargetDeviceRetrieveCurrentFrameNumber
 ms.topic: function
+f1_keywords:
+ - "wdfusb/WdfUsbTargetDeviceRetrieveCurrentFrameNumber"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal

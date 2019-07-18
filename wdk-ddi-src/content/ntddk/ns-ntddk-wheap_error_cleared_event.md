@@ -8,6 +8,8 @@ ms.assetid: 34e719a1-3e41-4a1a-949a-d35201b26252
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
+f1_keywords:
+ - "ntddk/WHEAP_ERROR_CLEARED_EVENT"
 ms.keywords: WHEAP_ERROR_CLEARED_EVENT, WHEAP_ERROR_CLEARED_EVENT, *PWHEAP_ERROR_CLEARED_EVENT, 
 req.header: ntddk.h
 req.include-header:

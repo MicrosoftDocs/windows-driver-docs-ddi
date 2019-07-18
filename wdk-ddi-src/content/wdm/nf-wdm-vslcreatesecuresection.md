@@ -8,6 +8,8 @@ ms.assetid: 005e738e-dc38-404a-bd74-8aa342f8186b
 ms.date: 04/30/2018
 ms.keywords: VslCreateSecureSection, VslCreateSecureSection function [Kernel-Mode Driver Architecture], kernel.vslcreatesecuresection, wdm/VslCreateSecureSection
 ms.topic: function
+f1_keywords:
+ - "wdm/VslCreateSecureSection"
 req.header: wdm.h
 req.include-header: Wdm.h, Wdm.h
 req.target-type: Windows

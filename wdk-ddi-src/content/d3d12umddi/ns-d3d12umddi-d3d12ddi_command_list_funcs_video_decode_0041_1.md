@@ -5,6 +5,8 @@ description: Command list functions for video decode.
 ms.assetid: b16541f4-4844-4cbc-b904-2424d13e6880
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_DECODE_0041_1"
 ms.keywords: D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_DECODE_0041_1, D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_DECODE_0041_1,
 req.header: d3d12umddi.h
 req.include-header:

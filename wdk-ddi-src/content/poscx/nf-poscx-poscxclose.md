@@ -8,6 +8,8 @@ ms.assetid: 90D097B9-EE7B-49FA-B0F7-6A255D140C06
 ms.date: 02/23/2018
 ms.keywords: PosCxClose, PosCxClose function, pos.poscxclose, poscx/PosCxClose
 ms.topic: function
+f1_keywords:
+ - "poscx/PosCxClose"
 req.header: poscx.h
 req.include-header: Poscx.h
 req.target-type: Windows

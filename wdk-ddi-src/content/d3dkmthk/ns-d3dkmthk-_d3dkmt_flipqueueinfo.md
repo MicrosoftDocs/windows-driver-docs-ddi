@@ -7,6 +7,8 @@ ms.assetid: 5bf5eb72-aa51-4ab3-ab68-13e6303f12a9
 ms.date: 05/10/2018
 ms.keywords: D3DKMT_FLIPQUEUEINFO, D3DKMT_FLIPQUEUEINFO structure [Display Devices], OpenGL_Structs_db4a7b98-df53-4e1e-a990-0a2f45d71525.xml, _D3DKMT_FLIPQUEUEINFO, d3dkmthk/D3DKMT_FLIPQUEUEINFO, display.d3dkmt_flipqueueinfo
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/D3DKMT_FLIPQUEUEINFO"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

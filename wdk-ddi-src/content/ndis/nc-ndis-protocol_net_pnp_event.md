@@ -8,6 +8,8 @@ ms.assetid: 3f50bcba-c7d2-4d81-bd8b-6080e08fbe74
 ms.date: 05/02/2018
 ms.keywords: PROTOCOL_NET_PNP_EVENT, PROTOCOL_NET_PNP_EVENT callback, ProtocolNetPnPEvent, ProtocolNetPnPEvent callback function [Network Drivers Starting with Windows Vista], ndis/ProtocolNetPnPEvent, netvista.protocolnetpnpevent, protocol_functions_ref_24f290b7-d0fc-4d50-9aff-f40f4847a451.xml
 ms.topic: callback
+f1_keywords:
+ - "ndis/ProtocolNetPnPEvent"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

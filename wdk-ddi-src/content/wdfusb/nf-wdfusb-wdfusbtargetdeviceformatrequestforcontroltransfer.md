@@ -8,6 +8,8 @@ ms.assetid: 72ba7550-9153-4ff7-8478-c9cc71151a25
 ms.date: 02/26/2018
 ms.keywords: DFUsbRef_7f2ef529-05f2-46c2-861e-d9557c6bb7bc.xml, WdfUsbTargetDeviceFormatRequestForControlTransfer, WdfUsbTargetDeviceFormatRequestForControlTransfer method, kmdf.wdfusbtargetdeviceformatrequestforcontroltransfer, wdf.wdfusbtargetdeviceformatrequestforcontroltransfer, wdfusb/WdfUsbTargetDeviceFormatRequestForControlTransfer
 ms.topic: function
+f1_keywords:
+ - "wdfusb/WdfUsbTargetDeviceFormatRequestForControlTransfer"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal

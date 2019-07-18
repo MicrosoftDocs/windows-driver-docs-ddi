@@ -8,6 +8,8 @@ ms.assetid: E6665E96-5C58-4533-906A-D9525BA6824C
 ms.date: 04/30/2018
 ms.keywords: "*PPEP_POWER_CONTROL_REQUEST, PEP_POWER_CONTROL_REQUEST, PEP_POWER_CONTROL_REQUEST structure [Kernel-Mode Driver Architecture], PPEP_POWER_CONTROL_REQUEST, PPEP_POWER_CONTROL_REQUEST structure pointer [Kernel-Mode Driver Architecture], _PEP_POWER_CONTROL_REQUEST, kernel.pep_power_control_request, pepfx/PEP_POWER_CONTROL_REQUEST, pepfx/PPEP_POWER_CONTROL_REQUEST"
 ms.topic: struct
+f1_keywords:
+ - "pep_x/PEP_POWER_CONTROL_REQUEST"
 req.header: pep_x.h
 req.include-header: Pep_x.h
 req.target-type: Windows

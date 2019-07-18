@@ -8,6 +8,8 @@ ms.assetid: 590f5a1a-fd78-408e-b4f0-555f08694c43
 ms.date: 05/02/2018
 ms.keywords: NdisStallExecution, NdisStallExecution macro [Network Drivers Starting with Windows Vista], ndis/NdisStallExecution, ndis_delay_ref_de9bdd45-0bed-44cc-bdce-3ecd81842010.xml, netvista.ndisstallexecution
 ms.topic: macro
+f1_keywords:
+ - "ndis/NdisStallExecution"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

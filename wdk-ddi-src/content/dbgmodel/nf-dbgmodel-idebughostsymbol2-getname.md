@@ -5,6 +5,8 @@ description: Returns the name of the symbol if the symbol has a name.
 ms.assetid: 5d6cc64e-d661-4168-9ee7-8f5109435335
 ms.date: 09/21/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDebugHostSymbol2.GetName"
 ms.keywords: IDebugHostSymbol2::GetName, GetName, IDebugHostSymbol2.GetName, IDebugHostSymbol2::GetName, IDebugHostSymbol2.GetName
 req.header: dbgmodel.h
 req.include-header:

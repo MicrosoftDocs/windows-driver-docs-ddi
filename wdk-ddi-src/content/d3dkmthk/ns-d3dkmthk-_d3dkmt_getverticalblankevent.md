@@ -5,6 +5,8 @@ description: Used to get vertical blank events.
 ms.assetid: 938531c9-d8e4-47fb-81f6-7c5448ff3fb4
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/_D3DKMT_GETVERTICALBLANKEVENT"
 ms.keywords: _D3DKMT_GETVERTICALBLANKEVENT, D3DKMT_GETVERTICALBLANKEVENT, 
 req.header: d3dkmthk.h
 req.include-header:

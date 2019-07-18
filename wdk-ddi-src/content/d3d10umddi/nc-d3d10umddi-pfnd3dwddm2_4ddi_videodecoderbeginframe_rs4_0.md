@@ -5,6 +5,8 @@ description: Starts a DirectX Video Acceleration (DXVA) decoding operation to de
 ms.assetid: 803a326d-735e-44c3-b27b-a6330094f9af
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3d10umddi/PFND3DWDDM2_4DDI_VIDEODECODERBEGINFRAME_RS4_0"
 req.header: d3d10umddi.h
 req.include-header:
 req.target-type:

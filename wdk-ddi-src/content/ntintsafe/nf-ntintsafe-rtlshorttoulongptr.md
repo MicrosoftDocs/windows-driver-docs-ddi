@@ -8,6 +8,8 @@ ms.assetid: 0C279063-D5B1-4C82-8C0A-2B39E831BFB3
 ms.date: 04/30/2018
 ms.keywords: RtlShortToULongPtr, RtlShortToULongPtr function [Kernel-Mode Driver Architecture], kernel.rtlshorttoulongptr, ntintsafe/RtlShortToULongPtr
 ms.topic: function
+f1_keywords:
+ - "ntintsafe/RtlShortToULongPtr"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop

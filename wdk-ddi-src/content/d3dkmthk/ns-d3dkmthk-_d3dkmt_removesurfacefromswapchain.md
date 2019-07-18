@@ -7,6 +7,8 @@ ms.assetid: 249a2bfc-7326-480f-bcc0-8d5104a9c890
 ms.date: 05/10/2018
 ms.keywords: D3DKMT_REMOVESURFACEFROMSWAPCHAIN, D3DKMT_REMOVESURFACEFROMSWAPCHAIN structure [Display Devices], _D3DKMT_REMOVESURFACEFROMSWAPCHAIN, d3dkmthk/D3DKMT_REMOVESURFACEFROMSWAPCHAIN, display.d3dkmt-removesurfacefromswapchain
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/D3DKMT_REMOVESURFACEFROMSWAPCHAIN"
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: Windows

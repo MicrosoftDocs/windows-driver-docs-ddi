@@ -8,6 +8,8 @@ ms.assetid: 2C7071A4-B978-408C-9C98-67BC63F2BBCA
 ms.date: 02/15/2018
 ms.keywords: "*PNFC_CX_CE_MODE_CONFIG, NFC_CX_CE_DEFAULT, NFC_CX_CE_MODE_CONFIG, NFC_CX_CE_MODE_CONFIG enumeration [Near-Field Proximity Drivers], NFC_CX_CE_MODE_CONFIG,*PNFC_CX_CE_MODE_CONFIG, NFC_CX_CE_MODE_CONFIG,*PNFC_CX_CE_MODE_CONFIG enumeration [Near-Field Proximity Drivers], NFC_CX_CE_NFC_A, NFC_CX_CE_NFC_B, NFC_CX_CE_NFC_F, _NFC_CX_CE_MODE_CONFIG, nfccx/NFC_CX_CE_DEFAULT, nfccx/NFC_CX_CE_MODE_CONFIG, nfccx/NFC_CX_CE_NFC_A, nfccx/NFC_CX_CE_NFC_B, nfccx/NFC_CX_CE_NFC_F, nfpdrivers.nfc_cx_ce_mode_config"
 ms.topic: enum
+f1_keywords:
+ - "nfccx/NFC_CX_CE_MODE_CONFIG, *PNFC_CX_CE_MODE_CONFIG"
 req.header: nfccx.h
 req.include-header: Ncidef.h
 req.target-type: Windows

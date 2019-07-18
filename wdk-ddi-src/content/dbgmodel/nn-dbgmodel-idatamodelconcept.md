@@ -5,6 +5,8 @@ description: Any object which represents a data model which is registered under 
 ms.assetid: f7e0a833-b878-454e-8741-816375c68110
 ms.date: 07/13/2018
 ms.topic: interface
+f1_keywords:
+ - "dbgmodel/IDataModelConcept"
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:

@@ -5,6 +5,8 @@ description: The ReportError method is a callback on the error sink to notify it
 ms.assetid: c7a5bba3-dd86-4710-9da8-0e5f111ab45e
 ms.date: 09/12/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDebugHostErrorSink.ReportError"
 ms.keywords: IDebugHostErrorSink::ReportError, ReportError, IDebugHostErrorSink.ReportError, IDebugHostErrorSink::ReportError, IDebugHostErrorSink.ReportError
 req.header: dbgmodel.h
 req.include-header:

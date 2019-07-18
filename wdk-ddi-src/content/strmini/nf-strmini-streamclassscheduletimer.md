@@ -8,6 +8,8 @@ ms.assetid: 83271c19-911b-481a-bc25-c0b3816cf800
 ms.date: 04/23/2018
 ms.keywords: StreamClassScheduleTimer, StreamClassScheduleTimer routine [Streaming Media Devices], strclass-routines_73f92fc4-e9bf-40af-8dff-9c2e740dba20.xml, stream.streamclassscheduletimer, strmini/StreamClassScheduleTimer
 ms.topic: function
+f1_keywords:
+ - "strmini/StreamClassScheduleTimer"
 req.header: strmini.h
 req.include-header: Strmini.h
 req.target-type: Desktop

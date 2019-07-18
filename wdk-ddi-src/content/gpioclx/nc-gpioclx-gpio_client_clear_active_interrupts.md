@@ -8,6 +8,8 @@ ms.assetid: 8D66F806-92BA-4A70-99F6-1C221E8752A3
 ms.date: 02/15/2018
 ms.keywords: CLIENT_ClearActiveInterrupts, CLIENT_ClearActiveInterrupts callback, CLIENT_ClearActiveInterrupts callback function [Parallel Ports], GPIO.client_clearactiveinterrupts, GPIO_CLIENT_CLEAR_ACTIVE_INTERRUPTS, gpioclx/CLIENT_ClearActiveInterrupts
 ms.topic: callback
+f1_keywords:
+ - "gpioclx/CLIENT_ClearActiveInterrupts"
 req.header: gpioclx.h
 req.include-header: 
 req.target-type: Desktop

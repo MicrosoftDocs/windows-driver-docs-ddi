@@ -8,6 +8,8 @@ ms.assetid: a556ec29-9149-4185-b4b3-9aae803e62f7
 ms.date: 04/20/2018
 ms.keywords: DeletePortUI, pfnDeletePortUI, pfnDeletePortUI function [Print Devices], print.deleteportui, spoolfnc_9b9b8660-cc30-49ea-aea1-163eef7ab973.xml, winsplp/pfnDeletePortUI
 ms.topic: function
+f1_keywords:
+ - "winsplp/pfnDeletePortUI"
 req.header: winsplp.h
 req.include-header: Winsplp.h
 req.target-type: Desktop

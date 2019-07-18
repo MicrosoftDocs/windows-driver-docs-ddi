@@ -8,6 +8,8 @@ ms.assetid: 7F099F7E-6E1F-499A-AF09-80B20429B892
 ms.date: 04/20/2018
 ms.keywords: "*PDOT4_DRIVER_CMD, DOT4_DRIVER_CMD, DOT4_DRIVER_CMD structure [Print Devices], PDOT4_DRIVER_CMD, PDOT4_DRIVER_CMD structure pointer [Print Devices], _DOT4_DRIVER_CMD, d4drvif/DOT4_DRIVER_CMD, d4drvif/PDOT4_DRIVER_CMD, print.dot4_driver_cmd"
 ms.topic: struct
+f1_keywords:
+ - "d4drvif/DOT4_DRIVER_CMD"
 req.header: d4drvif.h
 req.include-header: 
 req.target-type: Windows

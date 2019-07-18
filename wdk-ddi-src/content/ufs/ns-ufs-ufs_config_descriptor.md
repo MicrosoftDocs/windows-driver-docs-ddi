@@ -8,6 +8,8 @@ ms.assetid: B65A2268-6959-4630-97DA-C0CFD37D9174
 ms.date: 03/29/2018
 ms.keywords: "*PUFS_CONFIG_DESCRIPTOR, PUFS_CONFIG_DESCRIPTOR, PUFS_CONFIG_DESCRIPTOR structure pointer [Storage Devices], UFS_CONFIG_DESCRIPTOR, UFS_CONFIG_DESCRIPTOR structure [Storage Devices], storage.ufs_config_descriptor, ufs/PUFS_CONFIG_DESCRIPTOR, ufs/UFS_CONFIG_DESCRIPTOR"
 ms.topic: struct
+f1_keywords:
+ - "ufs/UFS_CONFIG_DESCRIPTOR"
 req.header: ufs.h
 req.include-header: 
 req.target-type: Windows

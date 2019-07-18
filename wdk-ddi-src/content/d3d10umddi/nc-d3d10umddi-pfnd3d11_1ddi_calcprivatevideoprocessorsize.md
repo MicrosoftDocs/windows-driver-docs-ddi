@@ -7,6 +7,8 @@ ms.assetid: a30d98b2-3d39-456a-8363-44ccc71e58ff
 ms.date: 05/10/2018
 ms.keywords: CalcPrivateVideoProcessorSize, CalcPrivateVideoProcessorSize callback function [Display Devices], PFND3D11_1DDI_CALCPRIVATEVIDEOPROCESSORSIZE, PFND3D11_1DDI_CALCPRIVATEVIDEOPROCESSORSIZE callback, d3d10umddi/CalcPrivateVideoProcessorSize, display.calcprivatevideoprocessorsize
 ms.topic: callback
+f1_keywords:
+ - "d3d10umddi/CalcPrivateVideoProcessorSize"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

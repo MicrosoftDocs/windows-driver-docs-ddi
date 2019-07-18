@@ -5,6 +5,8 @@ description: Describes the ACPI PLD interface instance GUID descriptor buffer, r
 ms.assetid: 2a4ad06c-2d79-49e0-b830-b6956e9c55c8
 ms.date: 10/02/2018
 ms.topic: struct
+f1_keywords:
+ - "acpitabl/_ACPI_PLD_INTERFACE_INSTANCE_GUID_BUFFER"
 ms.keywords: _ACPI_PLD_INTERFACE_INSTANCE_GUID_BUFFER, ACPI_PLD_INTERFACE_INSTANCE_GUID_BUFFER, *PACPI_PLD_INTERFACE_INSTANCE_GUID_BUFFER, 
 req.header: acpitabl.h
 req.include-header:

@@ -8,6 +8,8 @@ ms.assetid: eb9a89b8-02de-4617-a2f8-f67509ab8987
 ms.date: 05/03/2018
 ms.keywords: ControlledOutputWide, ControlledOutputWide method [Windows Debugging], ControlledOutputWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],ControlledOutputWide method, IDebugControl4.ControlledOutputWide, IDebugControl4::ControlledOutputWide, dbgeng/IDebugControl4::ControlledOutputWide, debugger.controlledoutputwide
 ms.topic: method
+f1_keywords:
+ - "dbgeng/IDebugControl4.ControlledOutputWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

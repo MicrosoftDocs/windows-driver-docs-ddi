@@ -8,6 +8,8 @@ ms.assetid: D9E7D359-5FC8-44C8-ACA2-641DEFF17616
 ms.date: 05/07/2018
 ms.keywords: UFX_DEVICE_CALLBACKS_INIT, UFX_DEVICE_CALLBACKS_INIT function [Buses], buses.ufx_device_callbacks_init, ufxclient/UFX_DEVICE_CALLBACKS_INIT
 ms.topic: function
+f1_keywords:
+ - "ufxclient/UFX_DEVICE_CALLBACKS_INIT"
 req.header: ufxclient.h
 req.include-header: 
 req.target-type: Windows

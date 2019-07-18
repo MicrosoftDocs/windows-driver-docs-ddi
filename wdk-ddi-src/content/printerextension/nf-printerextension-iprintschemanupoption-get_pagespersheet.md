@@ -8,6 +8,8 @@ ms.assetid: 036F59B3-962D-446C-A736-CDA1D5199CF5
 ms.date: 04/20/2018
 ms.keywords: IPrintSchemaNUpOption interface [Print Devices],PagesPerSheet property, IPrintSchemaNUpOption.PagesPerSheet, IPrintSchemaNUpOption.get_PagesPerSheet, IPrintSchemaNUpOption::PagesPerSheet, IPrintSchemaNUpOption::get_PagesPerSheet, PagesPerSheet property [Print Devices], PagesPerSheet property [Print Devices],IPrintSchemaNUpOption interface, get_PagesPerSheet, print.iprintschemanupoption_pagespersheet, printerextension/IPrintSchemaNUpOption::PagesPerSheet, printerextension/IPrintSchemaNUpOption::get_PagesPerSheet
 ms.topic: method
+f1_keywords:
+ - "printerextension/IPrintSchemaNUpOption.PagesPerSheet"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows

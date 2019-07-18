@@ -5,6 +5,8 @@ description: Reads a number of pointer sized objects from the address space of t
 ms.assetid: 8c1d7ea2-97cf-421c-ac85-9030eb6cf582
 ms.date: 09/28/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDebugHostMemory.ReadPointers"
 ms.keywords: IDebugHostMemory::ReadPointers, ReadPointers, IDebugHostMemory.ReadPointers, IDebugHostMemory::ReadPointers, IDebugHostMemory.ReadPointers
 req.header: dbgmodel.h
 req.include-header:

@@ -8,6 +8,8 @@ ms.assetid: 1b6fcad3-a6a0-4180-8e36-ae4e597b4eb0
 ms.date: 02/23/2018
 ms.keywords: PosBarcodeScanDataTypeData, PosBarcodeScanDataTypeData structure, _PosBarcodeScanDataTypeData, pointofservicedriverinterface/PosBarcodeScanDataTypeData, pos.posbarcodescandatatypedata
 ms.topic: struct
+f1_keywords:
+ - "pointofservicedriverinterface/PosBarcodeScanDataTypeData"
 req.header: pointofservicedriverinterface.h
 req.include-header: PointOfServiceDriverInterface.h
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: E29E6F8B-F708-493B-94C3-A9DEE691ED3C
 ms.date: 05/08/2018
 ms.keywords: "*PKSAUDIOENGINE_VOLUMELEVEL, KSAUDIOENGINE_VOLUMELEVEL, KSAUDIOENGINE_VOLUMELEVEL structure [Audio Devices], PKSAUDIOENGINE_VOLUMELEVEL, PKSAUDIOENGINE_VOLUMELEVEL structure pointer [Audio Devices], _tagKSAUDIOENGINE_VOLUMELEVEL, audio.ksaudioengine_volumelevel, ksmedia/KSAUDIOENGINE_VOLUMELEVEL, ksmedia/PKSAUDIOENGINE_VOLUMELEVEL"
 ms.topic: struct
+f1_keywords:
+ - "ksmedia/KSAUDIOENGINE_VOLUMELEVEL"
 req.header: ksmedia.h
 req.include-header: 
 req.target-type: Windows

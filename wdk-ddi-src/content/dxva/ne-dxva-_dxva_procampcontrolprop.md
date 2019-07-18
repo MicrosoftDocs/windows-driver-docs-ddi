@@ -8,6 +8,8 @@ ms.assetid: ce1bae9b-1cc3-45ea-bf46-8aa7ed0362f6
 ms.date: 05/10/2018
 ms.keywords: DXVA_ProcAmpControlProp, DXVA_ProcAmpControlProp enumeration [Display Devices], DXVA_ProcAmp_Brightness, DXVA_ProcAmp_Contrast, DXVA_ProcAmp_Hue, DXVA_ProcAmp_None, DXVA_ProcAmp_Saturation, _DXVA_ProcAmpControlProp, display.dxva_procampcontrolprop, dxva/DXVA_ProcAmpControlProp, dxva/DXVA_ProcAmp_Brightness, dxva/DXVA_ProcAmp_Contrast, dxva/DXVA_ProcAmp_Hue, dxva/DXVA_ProcAmp_None, dxva/DXVA_ProcAmp_Saturation, dxvaref_0bce43bc-3bb3-4c7a-8d83-16db2a513905.xml
 ms.topic: enum
+f1_keywords:
+ - "dxva/DXVA_ProcAmpControlProp"
 req.header: dxva.h
 req.include-header: Dxva.h
 req.target-type: Windows

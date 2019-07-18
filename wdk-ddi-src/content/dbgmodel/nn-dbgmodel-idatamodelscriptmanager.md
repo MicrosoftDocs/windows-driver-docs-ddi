@@ -5,6 +5,8 @@ description: The core interface to the script management capabilities of the dat
 ms.assetid: 456082be-779f-4504-a068-4c625759cc54
 ms.date: 07/13/2018
 ms.topic: interface
+f1_keywords:
+ - "dbgmodel/IDataModelScriptManager"
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:

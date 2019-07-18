@@ -8,6 +8,8 @@ ms.assetid: 7c88ff02-e791-4642-ad40-78f2ef2cba7d
 ms.date: 05/02/2018
 ms.keywords: MINIPORT_SHUTDOWN, MINIPORT_SHUTDOWN callback, MiniportShutdownEx, MiniportShutdownEx callback function [Network Drivers Starting with Windows Vista], miniport_functions_ref_1ef84db9-b4af-4e59-9bb8-6f467a0866d5.xml, ndis/MiniportShutdownEx, netvista.miniportshutdownex
 ms.topic: callback
+f1_keywords:
+ - "ndis/MiniportShutdownEx"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

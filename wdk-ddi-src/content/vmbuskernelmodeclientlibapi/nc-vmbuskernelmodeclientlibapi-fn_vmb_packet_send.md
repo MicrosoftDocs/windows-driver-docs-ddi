@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: e701d946-e2cb-4fc4-b098-0cc6f3734305
 ms.date: 05/22/2018
 ms.topic: callback
+f1_keywords:
+ - "vmbuskernelmodeclientlibapi/FN_VMB_PACKET_SEND"
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header:
 req.target-type:

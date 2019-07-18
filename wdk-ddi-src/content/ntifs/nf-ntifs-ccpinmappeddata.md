@@ -8,6 +8,8 @@ ms.assetid: aa0903db-fced-4af9-bfc9-2769ed4962a1
 ms.date: 04/16/2018
 ms.keywords: CcPinMappedData, CcPinMappedData routine [Installable File System Drivers], ccref_3935eee3-9906-4110-812f-ca186953cfbf.xml, ifsk.ccpinmappeddata, ntifs/CcPinMappedData
 ms.topic: function
+f1_keywords:
+ - "ntifs/CcPinMappedData"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

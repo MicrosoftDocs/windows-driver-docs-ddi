@@ -8,6 +8,8 @@ ms.assetid: 8143732e-cef6-49f1-9b20-db6b6ee073e6
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_OPM_CREATE_PROTECTED_OUTPUT, DXGKDDI_OPM_CREATE_PROTECTED_OUTPUT callback, Dm_Opm_functions_207f1385-efcc-4c5c-8237-e07f594c9742.xml, DxgkDdiOPMCreateProtectedOutput, DxgkDdiOPMCreateProtectedOutput callback function [Display Devices], display.dxgkddiopmcreateprotectedoutput, dispmprt/DxgkDdiOPMCreateProtectedOutput
 ms.topic: callback
+f1_keywords:
+ - "dispmprt/DxgkDdiOPMCreateProtectedOutput"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Desktop

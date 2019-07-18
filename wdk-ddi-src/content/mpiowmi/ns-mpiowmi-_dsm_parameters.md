@@ -8,6 +8,8 @@ ms.assetid: 948331f1-1398-4e6e-85cb-27bbbd79630e
 ms.date: 03/29/2018
 ms.keywords: "*PDSM_PARAMETERS, DSM_PARAMETERS, DSM_PARAMETERS structure [Storage Devices], PDSM_PARAMETERS, PDSM_PARAMETERS structure pointer [Storage Devices], _DSM_PARAMETERS, mpiowmi/DSM_PARAMETERS, mpiowmi/PDSM_PARAMETERS, storage.dsm_parameters, structs-scsibus_e2e8b9f3-6452-4244-b9df-7301ce461764.xml"
 ms.topic: struct
+f1_keywords:
+ - "mpiowmi/DSM_PARAMETERS"
 req.header: mpiowmi.h
 req.include-header: Mpiowmi.h
 req.target-type: Windows

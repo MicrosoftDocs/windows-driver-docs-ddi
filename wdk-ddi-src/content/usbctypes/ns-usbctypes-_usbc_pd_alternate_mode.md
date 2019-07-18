@@ -5,6 +5,8 @@ description: Stores information about the alternate mode that was detected.
 ms.assetid: abdc59fd-adc4-4f06-90ca-25fb04998c44
 ms.date: 09/30/2018
 ms.topic: struct
+f1_keywords:
+ - "usbctypes/_USBC_PD_ALTERNATE_MODE"
 ms.keywords: _USBC_PD_ALTERNATE_MODE, USBC_PD_ALTERNATE_MODE, *PUSBC_PD_ALTERNATE_MODE, 
 req.header: usbctypes.h
 req.include-header: usbctypes.h

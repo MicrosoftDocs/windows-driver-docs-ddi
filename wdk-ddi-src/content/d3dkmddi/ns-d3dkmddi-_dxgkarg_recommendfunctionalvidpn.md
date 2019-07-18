@@ -7,6 +7,8 @@ ms.assetid: 58031257-5363-4e4f-b95f-aa3cd603c113
 ms.date: 05/10/2018
 ms.keywords: DXGKARG_RECOMMENDFUNCTIONALVIDPN, DXGKARG_RECOMMENDFUNCTIONALVIDPN structure [Display Devices], DmStructs_15342273-6bfe-4cee-8f8e-1d89c7683e4b.xml, _DXGKARG_RECOMMENDFUNCTIONALVIDPN, d3dkmddi/DXGKARG_RECOMMENDFUNCTIONALVIDPN, display.dxgkarg_recommendfunctionalvidpn
 ms.topic: struct
+f1_keywords:
+ - "d3dkmddi/DXGKARG_RECOMMENDFUNCTIONALVIDPN"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

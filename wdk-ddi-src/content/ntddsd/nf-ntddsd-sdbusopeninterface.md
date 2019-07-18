@@ -8,6 +8,8 @@ ms.assetid: a788cd28-81a7-4b8c-b9c5-76dd2b1cd0f3
 ms.date: 02/15/2018
 ms.keywords: SD.sdbusopeninterface, SdBusOpenInterface, SdBusOpenInterface function [Buses], ntddsd/SdBusOpenInterface, sd-rtns_44707c61-dadc-4151-b06a-8df3def56ab9.xml
 ms.topic: function
+f1_keywords:
+ - "ntddsd/SdBusOpenInterface"
 req.header: ntddsd.h
 req.include-header: Ntddsd.h
 req.target-type: Desktop

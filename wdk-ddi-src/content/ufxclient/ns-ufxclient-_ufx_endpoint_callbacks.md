@@ -8,6 +8,8 @@ ms.assetid: CED05E15-E141-4A6D-A657-CF0DF9FD1200
 ms.date: 05/07/2018
 ms.keywords: "*PUFX_ENDPOINT_CALLBACKS, PUFX_ENDPOINT_CALLBACKS, PUFX_ENDPOINT_CALLBACKS structure pointer [Buses], UFX_ENDPOINT_CALLBACKS, UFX_ENDPOINT_CALLBACKS structure [Buses], _UFX_ENDPOINT_CALLBACKS, buses.ufx_endpoint_callbacks, ufxclient/PUFX_ENDPOINT_CALLBACKS, ufxclient/UFX_ENDPOINT_CALLBACKS"
 ms.topic: struct
+f1_keywords:
+ - "ufxclient/UFX_ENDPOINT_CALLBACKS"
 req.header: ufxclient.h
 req.include-header: 
 req.target-type: Windows

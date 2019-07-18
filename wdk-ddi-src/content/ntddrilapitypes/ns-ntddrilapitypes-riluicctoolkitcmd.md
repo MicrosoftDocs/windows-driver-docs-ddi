@@ -8,6 +8,8 @@ ms.assetid: f5fc28df-ee06-4efd-8509-a05ed0ebf322
 ms.date: 05/02/2018
 ms.keywords: "*LPRILUICCTOOLKITCMD, RILUICCTOOLKITCMD, RILUICCTOOLKITCMD structure [Network Drivers Starting with Windows Vista], netvista.riluicctoolkitcmd, ntddrilapitypes/RILUICCTOOLKITCMD"
 ms.topic: struct
+f1_keywords:
+ - "ntddrilapitypes/RILUICCTOOLKITCMD"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

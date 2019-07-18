@@ -8,6 +8,8 @@ ms.assetid: c52441d8-b273-4e1f-b251-2b35afeda55d
 ms.date: 04/16/2018
 ms.keywords: MRxIsValidDirectory, MRxIsValidDirectory routine [Installable File System Drivers], PMRX_CHKDIR_CALLDOWN, ifsk.mrxisvaliddirectory, mrx/MRxIsValidDirectory, mrxref_85038658-4d92-4a54-99f1-082fbc61224d.xml
 ms.topic: callback
+f1_keywords:
+ - "mrx/MRxIsValidDirectory"
 req.header: mrx.h
 req.include-header: Mrx.h
 req.target-type: Desktop

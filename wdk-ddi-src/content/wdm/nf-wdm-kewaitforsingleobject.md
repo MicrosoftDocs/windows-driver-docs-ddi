@@ -8,6 +8,8 @@ ms.assetid: 65a1aa46-571b-46f7-b60e-ef8c6dc14d39
 ms.date: 04/30/2018
 ms.keywords: KeWaitForMutexObject, KeWaitForSingleObject, KeWaitForSingleObject routine [Kernel-Mode Driver Architecture], k105_de338bec-f7ef-4780-85e6-592a24314145.xml, kernel.kewaitforsingleobject, wdm/KeWaitForSingleObject
 ms.topic: function
+f1_keywords:
+ - "wdm/KeWaitForSingleObject"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

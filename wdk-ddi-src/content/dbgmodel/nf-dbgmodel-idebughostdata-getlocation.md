@@ -5,6 +5,8 @@ description: For data which has an address, the GetLocation method will return t
 ms.assetid: 3cee9292-712f-47f7-a5f3-ef327db222e3
 ms.date: 09/10/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDebugHostData.GetLocation"
 ms.keywords: IDebugHostData::GetLocation, GetLocation, IDebugHostData.GetLocation, IDebugHostData::GetLocation, IDebugHostData.GetLocation
 req.header: dbgmodel.h
 req.include-header:

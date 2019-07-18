@@ -8,6 +8,8 @@ ms.assetid: FC13CB2E-2027-4BCE-AEEE-346CB0784819
 ms.date: 03/19/2018
 ms.keywords: IPortClsStreamResourceManager, IPortClsStreamResourceManager interface [Audio Devices], IPortClsStreamResourceManager interface [Audio Devices], described, audio.iportclsstreamresourcemanager, portcls/IPortClsStreamResourceManager
 ms.topic: interface
+f1_keywords:
+ - "portcls/IPortClsStreamResourceManager"
 req.header: portcls.h
 req.include-header:
 req.target-type: Windows

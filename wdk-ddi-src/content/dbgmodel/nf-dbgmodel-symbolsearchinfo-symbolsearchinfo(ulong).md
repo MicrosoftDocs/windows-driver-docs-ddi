@@ -5,6 +5,8 @@ description: The search record passed to EnumerateChildrenEx in order to restric
 ms.assetid: 46053e1a-fb8b-4ec0-8a5e-aa89849257d9
 ms.date: 10/04/2018
 ms.topic: function
+f1_keywords:
+ - "dbgmodel/SymbolSearchInfo"
 ms.keywords: SymbolSearchInfo
 req.header: dbgmodel.h
 req.include-header:

@@ -5,6 +5,8 @@ description: The degree type.
 ms.assetid: 6bd9e98f-470b-4e2e-8565-0bc0fc1ddd5f
 ms.date: 10/19/2018
 ms.topic: enum
+f1_keywords:
+ - "d3dumddi/_D3DDDIDEGREETYPE"
 ms.keywords: _D3DDDIDEGREETYPE, D3DDDIDEGREETYPE, 
 req.header: d3dumddi.h
 req.include-header:

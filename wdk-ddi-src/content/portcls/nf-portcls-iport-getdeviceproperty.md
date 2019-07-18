@@ -6,6 +6,8 @@ tech.root: audio
 ms.assetid: 7ca86c00-624a-4c09-9f20-8dc11dd6a1bc
 ms.date: 10/31/2018
 ms.topic: method
+f1_keywords:
+ - "portcls/IPort.GetDeviceProperty"
 ms.keywords: IPort::GetDeviceProperty, GetDeviceProperty, IPort.GetDeviceProperty, IPort::GetDeviceProperty, IPort.GetDeviceProperty
 req.header: portcls.h
 req.include-header:

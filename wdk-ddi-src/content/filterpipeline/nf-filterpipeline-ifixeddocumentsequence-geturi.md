@@ -8,6 +8,8 @@ ms.assetid: 45017249-2ea5-43f6-9712-787f52cb6e4b
 ms.date: 04/20/2018
 ms.keywords: GetUri, GetUri method [Print Devices], GetUri method [Print Devices],IFixedDocumentSequence interface, IFixedDocumentSequence interface [Print Devices],GetUri method, IFixedDocumentSequence.GetUri, IFixedDocumentSequence::GetUri, filterpipeline/IFixedDocumentSequence::GetUri, filterpipeline_6d286919-21a8-40e8-8c6b-dd035ffe0ae1.xml, print.ifixeddocumentsequence_geturi
 ms.topic: method
+f1_keywords:
+ - "filterpipeline/IFixedDocumentSequence.GetUri"
 req.header: filterpipeline.h
 req.include-header: 
 req.target-type: Desktop

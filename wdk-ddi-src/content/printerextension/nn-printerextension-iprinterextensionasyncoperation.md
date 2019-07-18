@@ -8,6 +8,8 @@ ms.assetid: AA862667-42D6-4A82-9698-1C43E9EEC434
 ms.date: 04/20/2018
 ms.keywords: IPrinterExtensionAsyncOperation, IPrinterExtensionAsyncOperation interface [Print Devices], IPrinterExtensionAsyncOperation interface [Print Devices],described, print.iprinterextensionasyncoperation, printerextension/IPrinterExtensionAsyncOperation
 ms.topic: interface
+f1_keywords:
+ - "printerextension/IPrinterExtensionAsyncOperation"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows

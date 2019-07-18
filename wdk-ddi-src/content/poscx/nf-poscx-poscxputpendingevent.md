@@ -8,6 +8,8 @@ ms.assetid: 4E2EA8F5-2D4A-4AEB-AF59-97D6C3FB09BC
 ms.date: 02/23/2018
 ms.keywords: PosCxPutPendingEvent, PosCxPutPendingEvent function, pos.poscxputpendingevent, poscx/PosCxPutPendingEvent
 ms.topic: function
+f1_keywords:
+ - "poscx/PosCxPutPendingEvent"
 req.header: poscx.h
 req.include-header: Poscx.h
 req.target-type: Windows

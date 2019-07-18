@@ -8,6 +8,8 @@ ms.assetid: 83503353-e4f7-47ba-9a0c-71264798e983
 ms.date: 04/23/2018
 ms.keywords: "*PKSEVENTDATA, KSEVENTDATA, KSEVENTDATA structure [Streaming Media Devices], PKSEVENTDATA, PKSEVENTDATA structure pointer [Streaming Media Devices], ks-struct_e9669775-4fb9-465a-bd2b-fd02f718d7a3.xml, ks/KSEVENTDATA, ks/PKSEVENTDATA, stream.kseventdata"
 ms.topic: struct
+f1_keywords:
+ - "ks/KSEVENTDATA"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows

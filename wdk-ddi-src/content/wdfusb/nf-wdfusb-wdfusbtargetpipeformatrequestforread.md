@@ -8,6 +8,8 @@ ms.assetid: 33a6f597-2f33-4214-80c1-8bded182800a
 ms.date: 02/26/2018
 ms.keywords: DFUsbRef_5cd8eeb4-5822-44ef-ba50-e978b780463b.xml, WdfUsbTargetPipeFormatRequestForRead, WdfUsbTargetPipeFormatRequestForRead method, kmdf.wdfusbtargetpipeformatrequestforread, wdf.wdfusbtargetpipeformatrequestforread, wdfusb/WdfUsbTargetPipeFormatRequestForRead
 ms.topic: function
+f1_keywords:
+ - "wdfusb/WdfUsbTargetPipeFormatRequestForRead"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal

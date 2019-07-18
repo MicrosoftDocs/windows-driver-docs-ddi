@@ -8,6 +8,8 @@ ms.assetid: 0528EEE6-31D6-4CF6-8192-3557C28B4D10
 ms.date: 02/15/2018
 ms.keywords: "*PGNSS_NI_REQUEST_PARAM, GNSS_NI_REQUEST_PARAM, GNSS_NI_REQUEST_PARAM structure [Sensor Devices], PGNSS_NI_REQUEST_PARAM, PGNSS_NI_REQUEST_PARAM structure pointer [Sensor Devices], gnss.gnss_ni_request_param, gnssdriver/GNSS_NI_REQUEST_PARAM, gnssdriver/PGNSS_NI_REQUEST_PARAM"
 ms.topic: struct
+f1_keywords:
+ - "gnssdriver/GNSS_NI_REQUEST_PARAM"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows

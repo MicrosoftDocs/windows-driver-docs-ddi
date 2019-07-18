@@ -8,6 +8,8 @@ ms.assetid: 6208f750-4871-43b9-b848-011180d39fd8
 ms.date: 04/30/2018
 ms.keywords: RtlNumberOfSetBits, RtlNumberOfSetBits routine [Kernel-Mode Driver Architecture], k109_b8b2c3f8-3ec3-4690-90bb-e5b120b5b062.xml, kernel.rtlnumberofsetbits, wdm/RtlNumberOfSetBits
 ms.topic: function
+f1_keywords:
+ - "wdm/RtlNumberOfSetBits"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

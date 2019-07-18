@@ -5,6 +5,8 @@ description: The CreateSyntheticObject method creates an empty data model object
 ms.assetid: 039a1b6e-6b9d-47fd-9c18-c65640daca3a
 ms.date: 09/11/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDataModelManager2.CreateSyntheticObject"
 ms.keywords: IDataModelManager2::CreateSyntheticObject, CreateSyntheticObject, IDataModelManager2.CreateSyntheticObject, IDataModelManager2::CreateSyntheticObject, IDataModelManager2.CreateSyntheticObject
 req.header: dbgmodel.h
 req.include-header:

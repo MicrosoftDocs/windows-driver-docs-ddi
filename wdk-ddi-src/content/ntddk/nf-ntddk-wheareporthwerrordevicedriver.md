@@ -8,6 +8,8 @@ ms.assetid: 427af50c-a051-412f-a8d2-33fdcaca47fa
 ms.author: windowsdriverdev
 ms.date: 3/5/2019
 ms.topic: function
+f1_keywords:
+ - "ntddk/WheaReportHwErrorDeviceDriver"
 ms.keywords: WheaReportHwErrorDeviceDriver
 req.header: ntddk.h
 req.include-header:

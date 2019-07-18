@@ -8,6 +8,8 @@ ms.assetid: e3203542-177c-440a-8d41-4d70d77f804d
 ms.date: 02/26/2018
 ms.keywords: IWDFRemoteInterfaceInitialize interface,RetrieveSymbolicLink method, IWDFRemoteInterfaceInitialize.RetrieveSymbolicLink, IWDFRemoteInterfaceInitialize::RetrieveSymbolicLink, RetrieveSymbolicLink, RetrieveSymbolicLink method, RetrieveSymbolicLink method,IWDFRemoteInterfaceInitialize interface, UMDFIoTargetObjectRef_e76cdd61-351a-43f9-93a6-6991159e3d53.xml, umdf.iwdfremoteinterfaceinitialize_retrievesymboliclink, wdf.iwdfremoteinterfaceinitialize_retrievesymboliclink, wudfddi/IWDFRemoteInterfaceInitialize::RetrieveSymbolicLink
 ms.topic: method
+f1_keywords:
+ - "wudfddi/IWDFRemoteInterfaceInitialize.RetrieveSymbolicLink"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

@@ -8,6 +8,8 @@ ms.assetid: A89635EC-F5B8-4427-9AFD-9F71339595DF
 ms.date: 04/30/2018
 ms.keywords: SPB.spbtargetgetfileobject, SpbTargetGetFileObject, SpbTargetGetFileObject method [Buses], spbcx/SpbTargetGetFileObject
 ms.topic: function
+f1_keywords:
+ - "spbcx/SpbTargetGetFileObject"
 req.header: spbcx.h
 req.include-header: 
 req.target-type: Universal

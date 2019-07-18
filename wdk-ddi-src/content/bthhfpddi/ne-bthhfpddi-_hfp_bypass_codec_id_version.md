@@ -8,6 +8,8 @@ ms.assetid: A16980CD-3F2F-4A67-902A-F3D72AA042D9
 ms.date: 05/08/2018
 ms.keywords: "*PHFP_BYPASS_CODEC_ID_VERSION, HFP_BYPASS_CODEC_ID_VERSION, HFP_BYPASS_CODEC_ID_VERSION enumeration [Audio Devices], REQ_HFP_BYPASS_CODEC_ID_V1, _HFP_BYPASS_CODEC_ID_VERSION, audio.hfp_bypass_codec_id_version, bthhfpddi/HFP_BYPASS_CODEC_ID_VERSION, bthhfpddi/REQ_HFP_BYPASS_CODEC_ID_V1"
 ms.topic: enum
+f1_keywords:
+ - "bthhfpddi/HFP_BYPASS_CODEC_ID_VERSION"
 req.header: bthhfpddi.h
 req.include-header: 
 req.target-type: Windows

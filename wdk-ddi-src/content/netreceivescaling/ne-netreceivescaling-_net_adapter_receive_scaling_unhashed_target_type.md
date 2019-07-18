@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: fed6bfa6-1388-490f-a586-33ee7590cb5f
 ms.date: 07/13/2018
 ms.topic: enum
+f1_keywords:
+ - "netreceivescaling/_NET_ADAPTER_RECEIVE_SCALING_UNHASHED_TARGET_TYPE"
 ms.keywords: _NET_ADAPTER_RECEIVE_SCALING_UNHASHED_TARGET_TYPE, NET_ADAPTER_RECEIVE_SCALING_UNHASHED_TARGET_TYPE, 
 req.header: netreceivescaling.h
 req.include-header:

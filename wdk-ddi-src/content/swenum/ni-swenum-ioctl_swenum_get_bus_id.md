@@ -8,6 +8,8 @@ ms.assetid: C9A83450-12D9-4ECC-BB9A-1226DCF74439
 ms.date: 04/23/2018
 ms.keywords: IOCTL_SWENUM_GET_BUS_ID, IOCTL_SWENUM_GET_BUS_ID control, IOCTL_SWENUM_GET_BUS_ID control code [Streaming Media Devices], stream.ioctl_swenum_get_bus_id, swenum/IOCTL_SWENUM_GET_BUS_ID
 ms.topic: ioctl
+f1_keywords:
+ - "swenum/IOCTL_SWENUM_GET_BUS_ID"
 req.header: swenum.h
 req.include-header: 
 req.target-type: Windows

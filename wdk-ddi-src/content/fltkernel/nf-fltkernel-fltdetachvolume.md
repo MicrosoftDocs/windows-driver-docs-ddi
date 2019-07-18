@@ -8,6 +8,8 @@ ms.assetid: 889750fc-69a9-4fe6-8905-6a7edc5c04fb
 ms.date: 04/16/2018
 ms.keywords: FltApiRef_a_to_d_2f7a4638-6f6d-4ac6-97b6-d547d64b56b6.xml, FltDetachVolume, FltDetachVolume function [Installable File System Drivers], fltkernel/FltDetachVolume, ifsk.fltdetachvolume
 ms.topic: function
+f1_keywords:
+ - "fltkernel/FltDetachVolume"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

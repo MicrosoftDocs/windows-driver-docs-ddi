@@ -8,6 +8,8 @@ ms.assetid: 1f4c50a8-2eee-46c6-8ca0-f5858d227922
 ms.date: 04/16/2018
 ms.keywords: RxNameCacheFetchEntry, RxNameCacheFetchEntry function [Installable File System Drivers], ifsk.rxnamecachefetchentry, namcache/RxNameCacheFetchEntry, rxref_8e34b551-b8ee-44e9-a0ff-bbc680e44ad6.xml
 ms.topic: function
+f1_keywords:
+ - "namcache/RxNameCacheFetchEntry"
 req.header: namcache.h
 req.include-header: Namcache.h
 req.target-type: Desktop

@@ -5,6 +5,8 @@ description: The PFND3DKMT_SETSYNCREFRESHCOUNTWAITTARGET callback function sets 
 ms.assetid: 012ee806-e75f-49c3-aedf-395298324cbc
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/PFND3DKMT_SETSYNCREFRESHCOUNTWAITTARGET"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

@@ -8,6 +8,8 @@ ms.assetid: 6ec8d282-eedb-419e-84cb-8f4776ea7650
 ms.date: 04/20/2018
 ms.keywords: GetPagePart, GetPagePart method [Print Devices], GetPagePart method [Print Devices],IFixedPage interface, IFixedPage interface [Print Devices],GetPagePart method, IFixedPage.GetPagePart, IFixedPage::GetPagePart, filterpipeline/IFixedPage::GetPagePart, filterpipeline_925ca634-7cac-41f6-b80f-cc5c90154ae0.xml, print.ifixedpage_getpagepart
 ms.topic: method
+f1_keywords:
+ - "filterpipeline/IFixedPage.GetPagePart"
 req.header: filterpipeline.h
 req.include-header: 
 req.target-type: Desktop

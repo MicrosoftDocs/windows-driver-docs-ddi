@@ -8,6 +8,8 @@ ms.assetid: 1aa2d821-a1f6-46ca-be4c-9c8f280f9fa0
 ms.author: windowsdriverdev
 ms.date: 03/22/2019
 ms.topic: struct
+f1_keywords:
+ - "eventdetectoroemadapter/SOUNDDETECTOR_PATTERNHEADER"
 ms.keywords: SOUNDDETECTOR_PATTERNHEADER, SOUNDDETECTOR_PATTERNHEADER, 
 req.header: eventdetectoroemadapter.h
 req.include-header:

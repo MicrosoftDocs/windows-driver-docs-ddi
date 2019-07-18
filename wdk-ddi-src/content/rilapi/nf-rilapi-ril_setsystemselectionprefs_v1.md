@@ -8,6 +8,8 @@ ms.assetid: 736ba738-eb28-471c-bf65-236217f5aa11
 ms.date: 05/02/2018
 ms.keywords: RIL_SetSystemSelectionPrefs_V1, RIL_SetSystemSelectionPrefs_V1 method [Network Drivers Starting with Windows Vista], netvista.ril_setsystemselectionprefs_v1, rilapi/RIL_SetSystemSelectionPrefs_V1
 ms.topic: function
+f1_keywords:
+ - "rilapi/RIL_SetSystemSelectionPrefs_V1"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows

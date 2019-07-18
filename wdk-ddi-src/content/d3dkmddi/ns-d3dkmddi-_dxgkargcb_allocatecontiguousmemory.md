@@ -5,6 +5,8 @@ description: Arguments used in the DXGKCB_ALLOCATECONTIGUOUSMEMORY callback func
 ms.assetid: dce7b187-8ebf-4309-8769-29536b908e76
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3dkmddi/_DXGKARGCB_ALLOCATECONTIGUOUSMEMORY"
 ms.keywords: _DXGKARGCB_ALLOCATECONTIGUOUSMEMORY, DXGKARGCB_ALLOCATECONTIGUOUSMEMORY, *INOUT_PDXGKARGCB_ALLOCATECONTIGUOUSMEMORY
 req.header: d3dkmddi.h
 req.include-header:

@@ -8,6 +8,8 @@ ms.assetid: 75b11689-f940-467e-92ee-59b5e0adbf70
 ms.date: 03/29/2018
 ms.keywords: "*PMSiSCSI_MMIPSECStats, MSiSCSI_MMIPSECStats, MSiSCSI_MMIPSECStats structure [Storage Devices], PMSiSCSI_MMIPSECStats, PMSiSCSI_MMIPSECStats structure pointer [Storage Devices], _MSiSCSI_MMIPSECStats, iscsiprf/MSiSCSI_MMIPSECStats, iscsiprf/PMSiSCSI_MMIPSECStats, storage.msiscsi_mmipsecstats, structs-iSCSI_6edce57f-fce5-422a-a98f-049cc6418514.xml"
 ms.topic: struct
+f1_keywords:
+ - "iscsiprf/MSiSCSI_MMIPSECStats"
 req.header: iscsiprf.h
 req.include-header: Iscsiprf.h
 req.target-type: Windows

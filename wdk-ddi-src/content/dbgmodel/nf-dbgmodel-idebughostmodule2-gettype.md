@@ -5,6 +5,8 @@ description: Returns the type (e.g. "int *") of the symbol if the symbol has a t
 ms.assetid: 87eb7c87-71e0-4d69-84e7-12d5b28bc2dc
 ms.date: 09/21/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDebugHostModule2.GetType"
 ms.keywords: IDebugHostModule2::GetType, GetType, IDebugHostModule2.GetType, IDebugHostModule2::GetType, IDebugHostModule2.GetType
 req.header: dbgmodel.h
 req.include-header:

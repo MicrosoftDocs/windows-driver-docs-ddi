@@ -8,6 +8,8 @@ ms.assetid: a29f2ff6-1c15-4313-b3a5-73fb8d40d2d7
 ms.date: 05/02/2018
 ms.keywords: "*LPRILUICCFILES, RILUICCFILES, RILUICCFILES structure [Network Drivers Starting with Windows Vista], netvista.riluiccfiles, ntddrilapitypes/RILUICCFILES"
 ms.topic: struct
+f1_keywords:
+ - "rilapitypes/RILUICCFILES"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

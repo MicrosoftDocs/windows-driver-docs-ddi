@@ -8,6 +8,8 @@ ms.assetid: 90898f5c-ffc1-4e6c-a8f8-ba839f449082
 ms.date: 02/16/2018
 ms.keywords: "*PDOT11_EAP_RESULT, DOT11_EAP_RESULT, DOT11_EAP_RESULT structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_85e62087-2509-442a-b513-ae48577e0b77.xml, PDOT11_EAP_RESULT, PDOT11_EAP_RESULT structure pointer [Network Drivers Starting with Windows Vista], _DOT11_EAP_RESULT, netvista.dot11_eap_result, wlanihv/DOT11_EAP_RESULT, wlanihv/PDOT11_EAP_RESULT"
 ms.topic: struct
+f1_keywords:
+ - "wlanihv/DOT11_EAP_RESULT"
 req.header: wlanihv.h
 req.include-header: Winlanihv.h
 req.target-type: Windows

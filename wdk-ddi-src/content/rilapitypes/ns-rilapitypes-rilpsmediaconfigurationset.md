@@ -8,6 +8,8 @@ ms.assetid: b41f6539-293f-47ed-b720-5053574a1841
 ms.date: 05/02/2018
 ms.keywords: "*LPRILPSMEDIACONFIGURATIONSET, RILPSMEDIACONFIGURATIONSET, RILPSMEDIACONFIGURATIONSET structure [Network Drivers Starting with Windows Vista], netvista.rilpsmediaconfigurationset, ntddrilapitypes/RILPSMEDIACONFIGURATIONSET"
 ms.topic: struct
+f1_keywords:
+ - "rilapitypes/RILPSMEDIACONFIGURATIONSET"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

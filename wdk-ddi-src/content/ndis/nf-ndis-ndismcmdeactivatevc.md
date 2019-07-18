@@ -8,6 +8,8 @@ ms.assetid: e18f6326-621e-4bed-aa82-b326f3b1422d
 ms.date: 05/02/2018
 ms.keywords: NdisMCmDeactivateVc, NdisMCmDeactivateVc function [Network Drivers Starting with Windows Vista], condis_mcm_ref_c1aa796e-7965-4a4b-849b-370ae7f95697.xml, ndis/NdisMCmDeactivateVc, netvista.ndismcmdeactivatevc
 ms.topic: function
+f1_keywords:
+ - "ndis/NdisMCmDeactivateVc"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

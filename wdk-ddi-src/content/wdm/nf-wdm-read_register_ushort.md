@@ -8,6 +8,8 @@ ms.assetid: d1160b0a-9969-44ba-82e7-14048e1554c2
 ms.date: 04/30/2018
 ms.keywords: READ_REGISTER_USHORT, READ_REGISTER_USHORT routine [Kernel-Mode Driver Architecture], k103_c2fa06bd-05b9-4fbd-b47c-f264d3ed0bd7.xml, kernel.read_register_ushort, wdm/READ_REGISTER_USHORT
 ms.topic: function
+f1_keywords:
+ - "wdm/READ_REGISTER_USHORT"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Ioaccess.h, Miniport.h, Wudfwdm.h
 req.target-type: Universal

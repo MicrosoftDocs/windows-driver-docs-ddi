@@ -5,6 +5,8 @@ description:  Takes a number of pointers as held in unsigned 64-bit values, trun
 ms.assetid: 2173d16d-c22b-412e-8e46-d5cb64922239
 ms.date: 09/28/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDebugHostMemory.WritePointers"
 ms.keywords: IDebugHostMemory::WritePointers, WritePointers, IDebugHostMemory.WritePointers, IDebugHostMemory::WritePointers, IDebugHostMemory.WritePointers
 req.header: dbgmodel.h
 req.include-header:

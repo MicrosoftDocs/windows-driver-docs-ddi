@@ -8,6 +8,8 @@ ms.assetid: cf78bd7f-7d92-421f-8f68-e56db5e7c7d4
 ms.date: 04/04/2018
 ms.keywords: IWDTFActions2, IWDTFActions2 interface [Windows Device Testing Framework], IWDTFActions2 interface [Windows Device Testing Framework],described, dtf.iwdtfactions2, wdtf/IWDTFActions2
 ms.topic: interface
+f1_keywords:
+ - "wdtf/IWDTFActions2"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Windows

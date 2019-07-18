@@ -8,6 +8,8 @@ ms.assetid: 6de0bd43-8f19-47f7-adbf-76ea312bd990
 ms.date: 05/10/2018
 ms.keywords: D3DKMDT_STAGINGSURFACEDATA, D3DKMDT_STAGINGSURFACEDATA structure [Display Devices], DmStructs_94b90abc-85db-4439-a20b-9edeb1a69733.xml, _D3DKMDT_STAGINGSURFACEDATA, d3dkmdt/D3DKMDT_STAGINGSURFACEDATA, display.d3dkmdt_stagingsurfacedata
 ms.topic: struct
+f1_keywords:
+ - "d3dkmdt/D3DKMDT_STAGINGSURFACEDATA"
 req.header: d3dkmdt.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

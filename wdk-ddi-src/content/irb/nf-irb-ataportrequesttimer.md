@@ -8,6 +8,8 @@ ms.assetid: b057ae2e-53ae-4da9-8668-1ebca3c80998
 ms.date: 03/29/2018
 ms.keywords: AtaPortRequestTimer, AtaPortRequestTimer routine [Storage Devices], atartns_604a8d41-c918-4121-97ef-10d3a7fbf3b4.xml, irb/AtaPortRequestTimer, storage.ataportrequesttimer
 ms.topic: function
+f1_keywords:
+ - "irb/AtaPortRequestTimer"
 req.header: irb.h
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop

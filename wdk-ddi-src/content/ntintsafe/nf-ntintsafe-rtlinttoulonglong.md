@@ -8,6 +8,8 @@ ms.assetid: AED881EC-D417-49F5-B0B7-497FDF450968
 ms.date: 04/30/2018
 ms.keywords: RtlIntToULongLong, RtlIntToULongLong function [Kernel-Mode Driver Architecture], kernel.rtlinttoulonglong, ntintsafe/RtlIntToULongLong
 ms.topic: function
+f1_keywords:
+ - "ntintsafe/RtlIntToULongLong"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop

@@ -8,6 +8,8 @@ ms.assetid: 2b39a6e4-2e11-4b4e-9218-92336629ae80
 ms.date: 03/29/2018
 ms.keywords: StorPortGetPhysicalAddress, StorPortGetPhysicalAddress routine [Storage Devices], storage.storportgetphysicaladdress, storport/StorPortGetPhysicalAddress, storprt_fea6d754-844c-4ee9-8153-97f2f0e9ee80.xml
 ms.topic: function
+f1_keywords:
+ - "storport/StorPortGetPhysicalAddress"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

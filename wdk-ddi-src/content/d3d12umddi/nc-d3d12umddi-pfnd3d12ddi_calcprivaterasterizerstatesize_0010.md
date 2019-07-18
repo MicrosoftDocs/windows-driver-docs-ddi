@@ -5,6 +5,8 @@ description: Calculate the private rasterizer state size.
 ms.assetid: b6ff00b0-7a72-4617-878b-b2c1b775999f
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_CALCPRIVATERASTERIZERSTATESIZE_0010"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

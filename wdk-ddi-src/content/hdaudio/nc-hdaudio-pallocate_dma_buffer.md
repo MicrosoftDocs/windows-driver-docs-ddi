@@ -8,6 +8,8 @@ ms.assetid: 44fd988a-24b3-4587-88d9-30585800ffbf
 ms.date: 05/08/2018
 ms.keywords: AllocateDmaBuffer, AllocateDmaBuffer callback function [Audio Devices], PALLOCATE_DMA_BUFFER, PALLOCATE_DMA_BUFFER callback, aud-prop2_b3e6fc6b-f01f-4ca9-999a-3f9c6e196003.xml, audio.allocatedmabuffer, hdaudio/AllocateDmaBuffer
 ms.topic: callback
+f1_keywords:
+ - "hdaudio/AllocateDmaBuffer"
 req.header: hdaudio.h
 req.include-header: Hdaudio.h
 req.target-type: Desktop

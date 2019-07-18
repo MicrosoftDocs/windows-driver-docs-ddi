@@ -8,6 +8,8 @@ ms.assetid: 976ea17c-db43-487d-a378-3d65d12ddc98
 ms.date: 04/30/2018
 ms.keywords: NtRecoverResourceManager, ZwRecoverResourceManager, ZwRecoverResourceManager routine [Kernel-Mode Driver Architecture], kernel.zwrecoverresourcemanager, ktm_ref_88d3ee88-7520-4942-95cc-38e53ab14044.xml, wdm/NtRecoverResourceManager, wdm/ZwRecoverResourceManager
 ms.topic: function
+f1_keywords:
+ - "wdm/ZwRecoverResourceManager"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntifs.h
 req.target-type: Universal

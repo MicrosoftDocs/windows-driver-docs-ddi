@@ -8,6 +8,8 @@ ms.assetid: F03FFC6A-6186-4C59-97EB-0D954BF198D3
 ms.date: 04/20/2018
 ms.keywords: IPrintSchemaElement interface [Print Devices],NamespaceUri property, IPrintSchemaElement.NamespaceUri, IPrintSchemaElement.get_NamespaceUri, IPrintSchemaElement::NamespaceUri, IPrintSchemaElement::get_NamespaceUri, NamespaceUri property [Print Devices], NamespaceUri property [Print Devices],IPrintSchemaElement interface, get_NamespaceUri, print.iprintschemaelement_namespaceuri, printerextension/IPrintSchemaElement::NamespaceUri, printerextension/IPrintSchemaElement::get_NamespaceUri
 ms.topic: method
+f1_keywords:
+ - "printerextension/IPrintSchemaElement.NamespaceUri"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows

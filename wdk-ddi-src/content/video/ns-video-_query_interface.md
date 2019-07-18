@@ -8,6 +8,8 @@ ms.assetid: 0d813870-10bd-4b41-9f36-1cb45c462697
 ms.date: 05/10/2018
 ms.keywords: "*PQUERY_INTERFACE, PQUERY_INTERFACE, PQUERY_INTERFACE structure pointer [Display Devices], QUERY_INTERFACE, QUERY_INTERFACE structure [Display Devices], Video_Structs_facaef96-c0d9-4695-8541-65e5e430f182.xml, _QUERY_INTERFACE, display.query_interface, video/PQUERY_INTERFACE, video/QUERY_INTERFACE"
 ms.topic: struct
+f1_keywords:
+ - "video/QUERY_INTERFACE"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Windows

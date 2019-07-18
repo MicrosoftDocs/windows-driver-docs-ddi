@@ -7,6 +7,8 @@ ms.assetid: 191ea8ac-6646-44db-88eb-54dc51afef17
 ms.date: 05/10/2018
 ms.keywords: D3DKMT_SETDEVICELOSTSUPPORT, D3DKMT_SETDEVICELOSTSUPPORT structure [Display Devices], _D3DKMT_SETDEVICELOSTSUPPORT, d3dkmthk/D3DKMT_SETDEVICELOSTSUPPORT, display.d3dkmt-setdevicelostsupport
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/D3DKMT_SETDEVICELOSTSUPPORT"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type: Windows

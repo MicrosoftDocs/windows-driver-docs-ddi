@@ -8,6 +8,8 @@ ms.assetid: 98e603e6-2786-4bc8-ad8a-0e91b0d444d8
 ms.date: 04/20/2018
 ms.keywords: IXpsDocumentConsumer, IXpsDocumentConsumer interface [Print Devices], IXpsDocumentConsumer interface [Print Devices],described, filterpipeline/IXpsDocumentConsumer, filterpipeline_230eb0f6-427a-4986-b8ad-bc1d41853d67.xml, print.ixpsdocumentconsumer
 ms.topic: interface
+f1_keywords:
+ - "filterpipeline/IXpsDocumentConsumer"
 req.header: filterpipeline.h
 req.include-header: Filterpipeline.h
 req.target-type: Windows

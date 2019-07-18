@@ -8,6 +8,8 @@ ms.assetid: 19f79b01-1a3c-4695-96ec-2f7410f6b4aa
 ms.date: 04/30/2019
 ms.keywords: "*PKSPROPERTY_TUNER_IF_MEDIUM_S, KSPROPERTY_TUNER_IF_MEDIUM_S, KSPROPERTY_TUNER_IF_MEDIUM_S structure [Streaming Media Devices], PKSPROPERTY_TUNER_IF_MEDIUM_S, PKSPROPERTY_TUNER_IF_MEDIUM_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_TUNER_IF_MEDIUM_S, ksmedia/PKSPROPERTY_TUNER_IF_MEDIUM_S, stream.ksproperty_tuner_if_medium_s, vidcapstruct_8fb32d31-0264-49c3-b8de-3773e37441cc.xml"
 ms.topic: struct
+f1_keywords:
+ - "ksmedia/KSPROPERTY_TUNER_IF_MEDIUM_S"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows

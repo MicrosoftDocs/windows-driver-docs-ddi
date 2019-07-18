@@ -8,6 +8,8 @@ ms.assetid: fb15fd82-6214-40c0-9982-faee6c6b35b3
 ms.date: 04/20/2018
 ms.keywords: OEMDeviceCapabilities, OEMDeviceCapabilities function [Print Devices], print.oemdevicecapabilities, print_obsoletefunctions_7ab2cfd8-e7cd-4f7c-be2d-a53dbb3651c9.xml, printoem/OEMDeviceCapabilities
 ms.topic: function
+f1_keywords:
+ - "printoem/OEMDeviceCapabilities"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows

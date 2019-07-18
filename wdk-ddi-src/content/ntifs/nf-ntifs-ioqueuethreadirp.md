@@ -8,6 +8,8 @@ ms.assetid: 165eaae5-ce68-462e-902c-64120fba91c5
 ms.date: 04/16/2018
 ms.keywords: IoQueueThreadIrp, IoQueueThreadIrp function [Installable File System Drivers], ifsk.ioqueuethreadirp, ioref_e5906bb2-1a02-4405-92b6-64848786b3f0.xml, ntifs/IoQueueThreadIrp
 ms.topic: function
+f1_keywords:
+ - "ntifs/IoQueueThreadIrp"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows

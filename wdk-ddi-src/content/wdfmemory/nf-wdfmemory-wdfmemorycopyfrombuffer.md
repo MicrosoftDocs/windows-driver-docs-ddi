@@ -8,6 +8,8 @@ ms.assetid: 702d5239-48cd-4c11-90bc-a86ab27b8cfe
 ms.date: 02/26/2018
 ms.keywords: DFMemoryObjectRef_5e7dd10c-6902-4965-b868-8f3ba25d4fbc.xml, WdfMemoryCopyFromBuffer, WdfMemoryCopyFromBuffer method, kmdf.wdfmemorycopyfrombuffer, wdf.wdfmemorycopyfrombuffer, wdfmemory/WdfMemoryCopyFromBuffer
 ms.topic: function
+f1_keywords:
+ - "wdfmemory/WdfMemoryCopyFromBuffer"
 req.header: wdfmemory.h
 req.include-header: Wdf.h
 req.target-type: Universal

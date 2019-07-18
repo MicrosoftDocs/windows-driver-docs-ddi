@@ -8,6 +8,8 @@ ms.assetid: a69216f4-1272-488f-8d06-8dc3b6a88452
 ms.date: 05/03/2018
 ms.keywords: image.wiasgetchildrencontexts, wiamdef/wiasGetChildrenContexts, wiasFncs_fff487b8-2797-4df4-ae22-f25c08f21dfc.xml, wiasGetChildrenContexts, wiasGetChildrenContexts function [Imaging Devices]
 ms.topic: function
+f1_keywords:
+ - "wiamdef/wiasGetChildrenContexts"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop

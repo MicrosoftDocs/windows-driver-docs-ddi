@@ -8,6 +8,8 @@ ms.assetid: 36439793-DEE4-48A8-87C4-25BB11BA9CE5
 ms.date: 03/29/2018
 ms.keywords: FsRtlCheckUpperOplock, FsRtlCheckUpperOplock routine [Installable File System Drivers], OPLOCK_LEVEL_CACHE_HANDLE, OPLOCK_LEVEL_CACHE_READ, OPLOCK_LEVEL_CACHE_WRITE, ifsk.fsrtlcheckupperoplock, ntifs/FsRtlCheckUpperOplock
 ms.topic: function
+f1_keywords:
+ - "ntifs/FsRtlCheckUpperOplock"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

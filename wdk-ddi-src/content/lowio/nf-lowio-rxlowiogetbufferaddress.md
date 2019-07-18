@@ -8,6 +8,8 @@ ms.assetid: a4d78135-38bc-4a34-98ce-d2712829124a
 ms.date: 04/16/2018
 ms.keywords: RxLowIoGetBufferAddress, RxLowIoGetBufferAddress function [Installable File System Drivers], ifsk.rxlowiogetbufferaddress, lowio/RxLowIoGetBufferAddress, rxref_b45afb50-cf03-4450-9e96-3d8f08392eb6.xml
 ms.topic: function
+f1_keywords:
+ - "lowio/RxLowIoGetBufferAddress"
 req.header: lowio.h
 req.include-header: Rxcontx.h, Lowio.h
 req.target-type: Desktop

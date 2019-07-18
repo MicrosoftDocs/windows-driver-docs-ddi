@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 244839a5-cdc2-4b05-8a96-37c477313238
 ms.date: 04/16/2018
 ms.topic: macro
+f1_keywords:
+ - "ndis/NdisClearNblFlag"
 ms.keywords: NdisClearNblFlag
 req.header: ndis.h
 req.include-header:

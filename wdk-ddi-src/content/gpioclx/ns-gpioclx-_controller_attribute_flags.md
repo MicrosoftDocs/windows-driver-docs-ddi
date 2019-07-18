@@ -8,6 +8,8 @@ ms.assetid: 4D3DE8AE-99FB-48C8-A2FC-099CA908EC18
 ms.date: 02/15/2018
 ms.keywords: "*PCONTROLLER_ATTRIBUTE_FLAGS, CONTROLLER_ATTRIBUTE_FLAGS, CONTROLLER_ATTRIBUTE_FLAGS structure [Parallel Ports], GPIO.controller_attribute_flags, PCONTROLLER_ATTRIBUTE_FLAGS, PCONTROLLER_ATTRIBUTE_FLAGS structure pointer [Parallel Ports], _CONTROLLER_ATTRIBUTE_FLAGS, gpioclx/CONTROLLER_ATTRIBUTE_FLAGS, gpioclx/PCONTROLLER_ATTRIBUTE_FLAGS"
 ms.topic: struct
+f1_keywords:
+ - "gpioclx/CONTROLLER_ATTRIBUTE_FLAGS"
 req.header: gpioclx.h
 req.include-header: 
 req.target-type: Windows

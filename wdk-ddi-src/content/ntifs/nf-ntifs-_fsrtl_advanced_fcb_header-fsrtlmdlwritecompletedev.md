@@ -8,6 +8,8 @@ ms.assetid: 7B67BB47-6F95-4B1A-A823-F796529D5C48
 ms.date: 04/16/2018
 ms.keywords: FltFastIoMdlWriteComplete, FsRtlMdlWriteCompleteDev, FsRtlMdlWriteCompleteDev routine [Installable File System Drivers], fltkernel/FsRtlMdlWriteCompleteDev, ifsk.fltfastiomdlwritecomplete
 ms.topic: function
+f1_keywords:
+ - "ntifs/FsRtlMdlWriteCompleteDev"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

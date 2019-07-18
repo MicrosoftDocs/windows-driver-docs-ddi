@@ -8,6 +8,8 @@ ms.assetid: ab5afdc8-d4d3-4be0-a613-d92f1b847b27
 ms.date: 04/30/2018
 ms.keywords: NtLoadDriver, ZwLoadDriver, ZwLoadDriver routine [Kernel-Mode Driver Architecture], k111_b421f181-1a7d-4122-a73c-604f6b98686d.xml, kernel.zwloaddriver, wdm/NtLoadDriver, wdm/ZwLoadDriver
 ms.topic: function
+f1_keywords:
+ - "wdm/ZwLoadDriver"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

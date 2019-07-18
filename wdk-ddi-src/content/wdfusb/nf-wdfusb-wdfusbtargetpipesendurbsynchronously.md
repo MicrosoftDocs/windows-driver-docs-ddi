@@ -8,6 +8,8 @@ ms.assetid: 2ce7a843-0053-4351-ba79-161d83e245ac
 ms.date: 02/26/2018
 ms.keywords: DFUsbRef_3e797ee4-f454-4520-b4a0-84565515622f.xml, WdfUsbTargetPipeSendUrbSynchronously, WdfUsbTargetPipeSendUrbSynchronously method, kmdf.wdfusbtargetpipesendurbsynchronously, wdf.wdfusbtargetpipesendurbsynchronously, wdfusb/WdfUsbTargetPipeSendUrbSynchronously
 ms.topic: function
+f1_keywords:
+ - "wdfusb/WdfUsbTargetPipeSendUrbSynchronously"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal

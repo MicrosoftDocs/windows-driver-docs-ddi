@@ -8,6 +8,8 @@ ms.assetid: 6a60c563-582a-4919-bf0f-919deb3055d3
 ms.date: 02/26/2018
 ms.keywords: DFQueueObjectRef_85702d4a-4861-4512-a392-f106e038d3be.xml, EVT_WDF_IO_ALLOCATE_REQUEST_RESOURCES, EVT_WDF_IO_ALLOCATE_REQUEST_RESOURCES callback, EvtIoAllocateRequestResources, EvtIoAllocateRequestResources callback function, kmdf.evtioallocaterequestresources, wdf.evtioallocaterequestresources, wdfio/EvtIoAllocateRequestResources
 ms.topic: callback
+f1_keywords:
+ - "wdfio/EvtIoAllocateRequestResources"
 req.header: wdfio.h
 req.include-header: Wdf.h
 req.target-type: Universal

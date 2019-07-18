@@ -7,6 +7,8 @@ ms.assetid: F7C2847F-D095-4A79-ADBB-DA0745E3192A
 ms.date: 05/10/2018
 ms.keywords: D3DKMT_CREATEPAGINGQUEUE, D3DKMT_CREATEPAGINGQUEUE structure [Display Devices], _D3DKMT_CREATEPAGINGQUEUE, d3dkmthk/D3DKMT_CREATEPAGINGQUEUE, display.d3dkmt_createpagingqueue
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/D3DKMT_CREATEPAGINGQUEUE"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

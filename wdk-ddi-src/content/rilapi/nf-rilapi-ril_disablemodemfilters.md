@@ -8,6 +8,8 @@ ms.assetid: eb1ac5cc-f757-4aee-9a21-ed4b03d4b6a8
 ms.date: 05/02/2018
 ms.keywords: RIL_DisableModemFilters, RIL_DisableModemFilters method [Network Drivers Starting with Windows Vista], netvista.ril_disablemodemfilters, rilapi/RIL_DisableModemFilters
 ms.topic: function
+f1_keywords:
+ - "rilapi/RIL_DisableModemFilters"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows

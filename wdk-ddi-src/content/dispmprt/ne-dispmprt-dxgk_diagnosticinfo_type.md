@@ -8,6 +8,8 @@ ms.assetid: 5f03ca69-7923-4245-89b4-7300d3ba50ab
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
 ms.topic: enum
+f1_keywords:
+ - "dispmprt/DXGK_DIAGNOSTICINFO_TYPE"
 ms.keywords: DXGK_DIAGNOSTICINFO_TYPE, DXGK_DIAGNOSTICINFO_TYPE, 
 req.header: dispmprt.h
 req.include-header:

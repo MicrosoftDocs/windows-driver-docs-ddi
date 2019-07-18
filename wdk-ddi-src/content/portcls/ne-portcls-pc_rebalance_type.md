@@ -8,6 +8,8 @@ ms.assetid: CE700126-8C29-4218-9248-F722523A4DA3
 ms.date: 05/08/2018
 ms.keywords: PC_REBALANCE_TYPE, PC_REBALANCE_TYPE enumeration [Audio Devices], PcRebalanceNotSupported, PcRebalanceRemoveSubdevices, audio.pc_rebalance_type, portcls/PC_REBALANCE_TYPE, portcls/PcRebalanceNotSupported, portcls/PcRebalanceRemoveSubdevices
 ms.topic: enum
+f1_keywords:
+ - "portcls/PC_REBALANCE_TYPE"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Windows

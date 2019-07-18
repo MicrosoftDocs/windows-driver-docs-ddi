@@ -8,6 +8,8 @@ ms.assetid: db13410f-e4cb-4077-bb4b-7963e97b435c
 ms.date: 04/20/2018
 ms.keywords: IPrintCoreHelper, IPrintCoreHelper interface [Print Devices], IPrintCoreHelper interface [Print Devices],described, prcomoem/IPrintCoreHelper, print.iprintcorehelper_interface, print_unidrv-pscript_allplugins_9609acef-24e8-4802-9c70-196fef2b011f.xml
 ms.topic: interface
+f1_keywords:
+ - "prcomoem/IPrintCoreHelper"
 req.header: prcomoem.h
 req.include-header: 
 req.target-type: Windows

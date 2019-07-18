@@ -8,6 +8,8 @@ ms.assetid: DA4C7FBC-F5D5-48EA-90D6-F2249AF6401E
 ms.date: 04/30/2018
 ms.keywords: ExAcquireRundownProtection, ExAcquireRundownProtection routine [Kernel-Mode Driver Architecture], kernel.exacquirerundownprotection, wdm/ExAcquireRundownProtection
 ms.topic: function
+f1_keywords:
+ - "wdm/ExAcquireRundownProtection"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Universal

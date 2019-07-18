@@ -8,6 +8,8 @@ ms.assetid: 564afe6c-7a2e-4657-a481-24015c0be637
 ms.date: 05/10/2018
 ms.keywords: D3DDDIARG_VOLUMEBLT, D3DDDIARG_VOLUMEBLT structure [Display Devices], UMDisplayDriver_param_Structs_21157114-7596-4031-8531-019e7acc3dbe.xml, _D3DDDIARG_VOLUMEBLT, d3dumddi/D3DDDIARG_VOLUMEBLT, display.d3dddiarg_volumeblt
 ms.topic: struct
+f1_keywords:
+ - "d3dumddi/D3DDDIARG_VOLUMEBLT"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

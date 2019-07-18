@@ -5,6 +5,8 @@ description: The GetModelForTypeSignature method returns the data model that was
 ms.assetid: 4e1d21b1-2a56-444a-b727-7e7e7e9ed871
 ms.date: 07/19/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDataModelManager.GetModelForTypeSignature"
 ms.keywords: IDataModelManager::GetModelForTypeSignature, GetModelForTypeSignature, IDataModelManager.GetModelForTypeSignature, IDataModelManager::GetModelForTypeSignature, IDataModelManager.GetModelForTypeSignature
 req.header: dbgmodel.h
 req.include-header:

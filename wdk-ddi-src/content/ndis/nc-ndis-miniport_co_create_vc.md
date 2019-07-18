@@ -8,6 +8,8 @@ ms.assetid: 99eaba29-ce17-4e79-878e-5fdf7411e56c
 ms.date: 05/02/2018
 ms.keywords: MINIPORT_CO_CREATE_VC, MINIPORT_CO_CREATE_VC callback, MiniportCoCreateVc, MiniportCoCreateVc callback function [Network Drivers Starting with Windows Vista], condis_miniport_ref_73192f8d-af71-40f8-8118-52124bc38e94.xml, ndis/MiniportCoCreateVc, netvista.miniportcocreatevc
 ms.topic: callback
+f1_keywords:
+ - "ndis/MiniportCoCreateVc"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

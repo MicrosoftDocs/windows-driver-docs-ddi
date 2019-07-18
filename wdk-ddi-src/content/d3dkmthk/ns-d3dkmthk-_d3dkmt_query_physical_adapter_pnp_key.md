@@ -7,6 +7,8 @@ ms.assetid: 58E5D200-56C3-48BA-A7C9-C9DC01592554
 ms.date: 05/10/2018
 ms.keywords: D3DKMT_QUERY_PHYSICAL_ADAPTER_PNP_KEY, D3DKMT_QUERY_PHYSICAL_ADAPTER_PNP_KEY structure [Display Devices], _D3DKMT_QUERY_PHYSICAL_ADAPTER_PNP_KEY, d3dkmthk/D3DKMT_QUERY_PHYSICAL_ADAPTER_PNP_KEY, display.d3dkmt_query_physical_adapter_pnp_key
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/D3DKMT_QUERY_PHYSICAL_ADAPTER_PNP_KEY"
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: Windows

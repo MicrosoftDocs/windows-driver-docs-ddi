@@ -8,6 +8,8 @@ ms.assetid: 7bb56650-a75e-4b49-bfb3-83848ede29c0
 ms.date: 04/16/2018
 ms.keywords: CcSetLogHandleForFile, CcSetLogHandleForFile routine [Installable File System Drivers], LogHandle, Lsn, ccref_e4928c2e-41c5-4744-83c6-9c22766e9cfa.xml, ifsk.ccsetloghandleforfile, ntifs/CcSetLogHandleForFile
 ms.topic: function
+f1_keywords:
+ - "ntifs/CcSetLogHandleForFile"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

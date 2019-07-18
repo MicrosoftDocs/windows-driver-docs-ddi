@@ -8,6 +8,8 @@ ms.assetid: 400176a1-9192-424b-be37-9386cc3ffbb2
 ms.date: 04/30/2018
 ms.keywords: KeSetPriorityThread, KeSetPriorityThread routine [Kernel-Mode Driver Architecture], k105_b767dc2c-39ec-41de-8888-177d83de67c4.xml, kernel.kesetprioritythread, wdm/KeSetPriorityThread
 ms.topic: function
+f1_keywords:
+ - "wdm/KeSetPriorityThread"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

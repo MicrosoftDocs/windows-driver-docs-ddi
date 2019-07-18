@@ -8,6 +8,8 @@ ms.assetid: F8D6680D-EFA7-4DED-B808-0E738A852641
 ms.date: 04/30/2018
 ms.keywords: "*PPEP_ACPI_PREPARE_DEVICE, PEP_ACPI_PREPARE_DEVICE, PEP_ACPI_PREPARE_DEVICE structure [Kernel-Mode Driver Architecture], PPEP_ACPI_PREPARE_DEVICE, PPEP_ACPI_PREPARE_DEVICE structure pointer [Kernel-Mode Driver Architecture], _PEP_ACPI_PREPARE_DEVICE, kernel.pep_acpi_prepare_device, pepfx/PEP_ACPI_PREPARE_DEVICE, pepfx/PPEP_ACPI_PREPARE_DEVICE"
 ms.topic: struct
+f1_keywords:
+ - "pep_x/PEP_ACPI_PREPARE_DEVICE"
 req.header: pep_x.h
 req.include-header: Pep_x.h
 req.target-type: Windows

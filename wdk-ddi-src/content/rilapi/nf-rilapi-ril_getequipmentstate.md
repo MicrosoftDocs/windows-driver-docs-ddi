@@ -8,6 +8,8 @@ ms.assetid: cf7f1572-b967-4aaf-8705-99ede231484a
 ms.date: 05/02/2018
 ms.keywords: RIL_GetEquipmentState, RIL_GetEquipmentState method [Network Drivers Starting with Windows Vista], netvista.ril_getequipmentstate, rilapi/RIL_GetEquipmentState
 ms.topic: function
+f1_keywords:
+ - "rilapi/RIL_GetEquipmentState"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows

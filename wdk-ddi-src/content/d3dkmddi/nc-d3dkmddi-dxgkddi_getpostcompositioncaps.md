@@ -7,6 +7,8 @@ ms.assetid: B79959EC-A064-4B35-98EF-5B032AF5D4B4
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_GETPOSTCOMPOSITIONCAPS, DXGKDDI_GETPOSTCOMPOSITIONCAPS callback, DXGKDDI_GETPOSTCOMPOSITIONCAPS callback function [Display Devices], d3dkmddi/DXGKDDI_GETPOSTCOMPOSITIONCAPS, display.dxgkddi_getpostcompositioncaps
 ms.topic: callback
+f1_keywords:
+ - "d3dkmddi/DXGKDDI_GETPOSTCOMPOSITIONCAPS"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Windows

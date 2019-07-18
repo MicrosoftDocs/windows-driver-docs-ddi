@@ -5,6 +5,8 @@ description: Used to indicate whether independent flip is supported.
 ms.assetid: fc5bb0c3-3461-4a2b-9af3-0dbaf1f85048
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/_D3DKMT_INDEPENDENTFLIP_SUPPORT"
 ms.keywords: _D3DKMT_INDEPENDENTFLIP_SUPPORT, D3DKMT_INDEPENDENTFLIP_SUPPORT, 
 req.header: d3dkmthk.h
 req.include-header:

@@ -8,6 +8,8 @@ ms.assetid: f6762d9b-5a3d-49a3-b954-48e4e4a9eacb
 ms.date: 03/29/2018
 ms.keywords: TapeClassAllocateSrbBuffer, TapeClassAllocateSrbBuffer routine [Storage Devices], minitape/TapeClassAllocateSrbBuffer, storage.tapeclassallocatesrbbuffer, tapeclas_77717175-fd25-4cbe-8baf-8c326a5ec152.xml
 ms.topic: function
+f1_keywords:
+ - "minitape/TapeClassAllocateSrbBuffer"
 req.header: minitape.h
 req.include-header: Minitape.h
 req.target-type: Desktop

@@ -8,6 +8,8 @@ ms.assetid: bbf3ea14-1802-4433-9043-73bfc0c447bf
 ms.date: 03/29/2018
 ms.keywords: ScsiDebugPrint, ScsiDebugPrint routine [Storage Devices], scsiprt_ef011e55-85be-4ec8-8ba3-3838417bcd15.xml, srb/ScsiDebugPrint, storage.scsidebugprint
 ms.topic: function
+f1_keywords:
+ - "srb/ScsiDebugPrint"
 req.header: srb.h
 req.include-header: Miniport.h, Scsi.h, Minitape.h
 req.target-type: Desktop

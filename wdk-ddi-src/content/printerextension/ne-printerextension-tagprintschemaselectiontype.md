@@ -8,6 +8,8 @@ ms.assetid: 30BB7A95-512C-418B-B496-47832DD4C0BC
 ms.date: 04/20/2018
 ms.keywords: PrintSchemaSelectionType, PrintSchemaSelectionType enumeration [Print Devices], PrintSchemaSelectionType_PickMany, PrintSchemaSelectionType_PickOne, print.printschemaselectiontype, printerextension/PrintSchemaSelectionType, printerextension/PrintSchemaSelectionType_PickMany, printerextension/PrintSchemaSelectionType_PickOne, tagPrintSchemaSelectionType
 ms.topic: enum
+f1_keywords:
+ - "printerextension/PrintSchemaSelectionType"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows

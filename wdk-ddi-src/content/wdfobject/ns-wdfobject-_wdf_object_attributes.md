@@ -8,6 +8,8 @@ ms.assetid: 3331c2d8-3100-410d-9c75-33a3b55d5a49
 ms.date: 02/26/2018
 ms.keywords: "*PWDF_OBJECT_ATTRIBUTES, DFGenObjectRef_cfd7583f-13f6-4755-85d4-7a08401d0ea7.xml, PWDF_OBJECT_ATTRIBUTES, PWDF_OBJECT_ATTRIBUTES structure pointer, WDF_OBJECT_ATTRIBUTES, WDF_OBJECT_ATTRIBUTES structure, _WDF_OBJECT_ATTRIBUTES, kmdf.wdf_object_attributes, wdf.wdf_object_attributes, wdfobject/PWDF_OBJECT_ATTRIBUTES, wdfobject/WDF_OBJECT_ATTRIBUTES"
 ms.topic: struct
+f1_keywords:
+ - "wdfobject/WDF_OBJECT_ATTRIBUTES"
 req.header: wdfobject.h
 req.include-header: Wdf.h
 req.target-type: Windows

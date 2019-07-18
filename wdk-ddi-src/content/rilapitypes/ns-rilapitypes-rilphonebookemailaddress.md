@@ -8,6 +8,8 @@ ms.assetid: 89dc64a4-dce9-4ed2-a657-d216d502cded
 ms.date: 05/02/2018
 ms.keywords: "*LPRILPHONEBOOKEMAILADDRESS, RILPHONEBOOKEMAILADDRESS, RILPHONEBOOKEMAILADDRESS structure [Network Drivers Starting with Windows Vista], netvista.rilphonebookemailaddress, ntddrilapitypes/RILPHONEBOOKEMAILADDRESS"
 ms.topic: struct
+f1_keywords:
+ - "rilapitypes/RILPHONEBOOKEMAILADDRESS"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

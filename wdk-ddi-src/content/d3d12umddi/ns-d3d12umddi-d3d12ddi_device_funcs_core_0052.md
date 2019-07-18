@@ -5,6 +5,8 @@ description: Core device functions.
 ms.assetid: 6dbc6b20-34c1-479c-9da1-d9b8c8480e25
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_DEVICE_FUNCS_CORE_0052"
 ms.keywords: D3D12DDI_DEVICE_FUNCS_CORE_0052, D3D12DDI_DEVICE_FUNCS_CORE_0052, 
 req.header: d3d12umddi.h
 req.include-header:

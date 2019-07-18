@@ -7,6 +7,8 @@ ms.assetid: 505B3502-FC2D-47FB-B8CD-3D7DE9ED4770
 ms.date: 05/10/2018
 ms.keywords: PFND3D12DDI_VIDEO_PROCESSOR_TRIM_ALLOCATIONS_0021, PFND3D12DDI_VIDEO_PROCESSOR_TRIM_ALLOCATIONS_0021 callback, d3d12umddi/pfnProcessorTrimAllocations, display.pfnd3d12ddi_video_processor_trim_allocations, pfnProcessorTrimAllocations, pfnProcessorTrimAllocations callback function [Display Devices]
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/pfnProcessorTrimAllocations"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type: Windows

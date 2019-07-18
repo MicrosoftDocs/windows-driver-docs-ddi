@@ -8,6 +8,8 @@ ms.assetid: 3dd5aa58-e5a6-4ee3-9b88-d9cbb7eb558c
 ms.date: 02/26/2018
 ms.keywords: DFIOTargetRef_80727681-b08c-4025-aea9-d469735ea00c.xml, WdfIoTargetStop, WdfIoTargetStop method, kmdf.wdfiotargetstop, wdf.wdfiotargetstop, wdfiotarget/WdfIoTargetStop
 ms.topic: function
+f1_keywords:
+ - "wdfiotarget/WdfIoTargetStop"
 req.header: wdfiotarget.h
 req.include-header: Wdf.h
 req.target-type: Universal

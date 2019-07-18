@@ -5,6 +5,8 @@ description:
 ms.assetid: 13dc97d0-ecc4-4884-82e3-814e095e6933
 ms.date: 10/19/2018
 ms.topic: macro
+f1_keywords:
+ - "wiadef/WIA_PROP_LIST_VALUE"
 ms.keywords: WIA_PROP_LIST_VALUE
 req.header: wiadef.h
 req.include-header:

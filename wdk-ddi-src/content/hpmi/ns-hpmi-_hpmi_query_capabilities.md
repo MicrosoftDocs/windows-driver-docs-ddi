@@ -8,6 +8,8 @@ ms.assetid: 9DEEB369-8B9E-40AA-9531-6B8138E5668F
 ms.date: 05/08/2018
 ms.keywords: "*PHPMI_QUERY_CAPABILITIES, HPMI_QUERY_CAPABILITIES, HPMI_QUERY_CAPABILITIES structure [Power Metering and Budgeting Devices], PHPMI_QUERY_CAPABILITIES, PHPMI_QUERY_CAPABILITIES structure pointer [Power Metering and Budgeting Devices], _HPMI_QUERY_CAPABILITIES, hpmi/HPMI_QUERY_CAPABILITIES, hpmi/PHPMI_QUERY_CAPABILITIES, powermeter.hpmi_query_capabilities"
 ms.topic: struct
+f1_keywords:
+ - "hpmi/HPMI_QUERY_CAPABILITIES"
 req.header: hpmi.h
 req.include-header: 
 req.target-type: Windows

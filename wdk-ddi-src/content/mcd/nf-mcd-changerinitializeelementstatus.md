@@ -8,6 +8,8 @@ ms.assetid: 1f8f13e0-b0d3-4c94-bd1f-0e42bb75142d
 ms.date: 03/29/2018
 ms.keywords: ChangerInitializeElementStatus, ChangerInitializeElementStatus function [Storage Devices], chgrmini_2aa82220-731a-49b0-b3e5-1db93f8e6dc0.xml, mcd/ChangerInitializeElementStatus, storage.changerinitializeelementstatus
 ms.topic: function
+f1_keywords:
+ - "mcd/ChangerInitializeElementStatus"
 req.header: mcd.h
 req.include-header: Mcd.h, Ntddchgr.h
 req.target-type: Desktop

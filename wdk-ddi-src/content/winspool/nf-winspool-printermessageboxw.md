@@ -8,6 +8,8 @@ ms.assetid: F5E7FB7C-A38F-4DBA-9C98-9554FA80CC07
 ms.date: 04/20/2018
 ms.keywords: PrinterMessageBoxW, PrinterMessageBoxW function [Print Devices], print.printermessageboxw, winspool/PrinterMessageBoxW
 ms.topic: function
+f1_keywords:
+ - "winspool/PrinterMessageBoxW"
 req.header: winspool.h
 req.include-header: 
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: 0A44551A-F379-442D-99E9-87231F5FB178
 ms.date: 05/07/2018
 ms.keywords: USBFN_GET_ATTACH_ACTION_ABORT, USBFN_GET_ATTACH_ACTION_ABORT callback, UsbFnGetAttachActionAbort, UsbFnGetAttachActionAbort callback function [Buses], buses.usbfn_get_attach_action_abort, usbfnattach/UsbFnGetAttachActionAbort
 ms.topic: callback
+f1_keywords:
+ - "usbfnattach/USBFN_SET_DEVICE_STATE"
 req.header: usbfnattach.h
 req.include-header: 
 req.target-type: Windows

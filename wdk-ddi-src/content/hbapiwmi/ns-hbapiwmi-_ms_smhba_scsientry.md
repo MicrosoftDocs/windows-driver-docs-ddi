@@ -8,6 +8,8 @@ ms.assetid: 38779458-a561-4048-86d8-905e4e50095f
 ms.date: 03/29/2018
 ms.keywords: "*PMS_SMHBA_SCSIENTRY, MS_SMHBA_SCSIENTRY, MS_SMHBA_SCSIENTRY structure [Storage Devices], PMS_SMHBA_SCSIENTRY, PMS_SMHBA_SCSIENTRY structure pointer [Storage Devices], _MS_SMHBA_SCSIENTRY, hbapiwmi/MS_SMHBA_SCSIENTRY, hbapiwmi/PMS_SMHBA_SCSIENTRY, storage.ms_smhba_scsientry, structs-Fibre_95d0f020-6910-4764-9234-181b525abf5b.xml"
 ms.topic: struct
+f1_keywords:
+ - "hbapiwmi/MS_SMHBA_SCSIENTRY"
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: d4579703-0d51-4e23-b458-b2be43951dac
 ms.date: 04/16/2018
 ms.keywords: RtlValidSid, RtlValidSid routine [Installable File System Drivers], ifsk.rtlvalidsid, ntifs/RtlValidSid, rtlref_8d79344c-bb78-433f-be34-84e314b232a0.xml
 ms.topic: function
+f1_keywords:
+ - "ntifs/RtlValidSid"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

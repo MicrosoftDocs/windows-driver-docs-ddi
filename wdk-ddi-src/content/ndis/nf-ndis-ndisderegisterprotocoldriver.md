@@ -8,6 +8,8 @@ ms.assetid: 792f8f89-ff2c-45d1-bb15-9fcdafd14231
 ms.date: 05/02/2018
 ms.keywords: NdisDeregisterProtocolDriver, NdisDeregisterProtocolDriver function [Network Drivers Starting with Windows Vista], ndis/NdisDeregisterProtocolDriver, netvista.ndisderegisterprotocoldriver, protocol_ndis_functions_ref_98dc25bb-4e04-42bb-a8b3-a997dcb77ac3.xml
 ms.topic: function
+f1_keywords:
+ - "ndis/NdisDeregisterProtocolDriver"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

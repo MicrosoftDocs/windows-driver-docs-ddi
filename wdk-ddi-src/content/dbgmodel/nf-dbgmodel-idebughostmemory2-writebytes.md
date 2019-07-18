@@ -5,6 +5,8 @@ description: Writes a number of bytes to the address space of the target as defi
 ms.assetid: 63704020-5225-47dd-a388-151b5b02885f
 ms.date: 09/28/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDebugHostMemory2.WriteBytes"
 ms.keywords: IDebugHostMemory2::WriteBytes, WriteBytes, IDebugHostMemory2.WriteBytes, IDebugHostMemory2::WriteBytes, IDebugHostMemory2.WriteBytes
 req.header: dbgmodel.h
 req.include-header:

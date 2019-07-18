@@ -8,6 +8,8 @@ ms.assetid: bba47250-0344-4b5d-8461-d481519ba9ba
 ms.date: 04/16/2018
 ms.keywords: FltApiRef_e_to_o_6040eade-f27b-4fe5-999e-830065cafb71.xml, FltGetLowerInstance, FltGetLowerInstance routine [Installable File System Drivers], fltkernel/FltGetLowerInstance, ifsk.fltgetlowerinstance
 ms.topic: function
+f1_keywords:
+ - "fltkernel/FltGetLowerInstance"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

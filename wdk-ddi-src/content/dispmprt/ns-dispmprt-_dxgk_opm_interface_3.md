@@ -8,6 +8,8 @@ ms.assetid: 0BD6BA91-7F46-482B-B808-DEB8A23A0B84
 ms.date: 05/10/2018
 ms.keywords: "*PDXGK_OPM_INTERFACE_3, DXGK_OPM_INTERFACE_3, DXGK_OPM_INTERFACE_3 structure [Display Devices], PDXGK_OPM_INTERFACE_3, PDXGK_OPM_INTERFACE_3 structure pointer [Display Devices], _DXGK_OPM_INTERFACE_3, display.dxgk_opm_interface_3, dispmprt/DXGK_OPM_INTERFACE_3, dispmprt/PDXGK_OPM_INTERFACE_3"
 ms.topic: struct
+f1_keywords:
+ - "dispmprt/DXGK_OPM_INTERFACE_3"
 req.header: dispmprt.h
 req.include-header: 
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: 77dba83d-cc25-4609-905c-7a036cb7ced9
 ms.date: 05/03/2018
 ms.keywords: ClientFns_7beeb350-b8bd-44ea-b5c9-ca0da15146ae.xml, DebugConnect, DebugConnect function [Windows Debugging], dbgeng/DebugConnect, debugger.debugconnect
 ms.topic: function
+f1_keywords:
+ - "dbgeng/DebugConnect"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

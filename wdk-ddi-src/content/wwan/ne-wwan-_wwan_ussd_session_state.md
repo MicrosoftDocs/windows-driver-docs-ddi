@@ -8,6 +8,8 @@ ms.assetid: 5111A10F-F66F-4667-A77E-63691CCD282D
 ms.date: 05/02/2018
 ms.keywords: "*PWWAN_USSD_SESSION_STATE, WWAN_USSD_SESSION_STATE, WWAN_USSD_SESSION_STATE enumeration [Network Drivers Starting with Windows Vista], WwanUssdSessionStateExisting, WwanUssdSessionStateNew, _WWAN_USSD_SESSION_STATE, netvista.wwan_ussd_session_state, wwan/WWAN_USSD_SESSION_STATE, wwan/WwanUssdSessionStateExisting, wwan/WwanUssdSessionStateNew"
 ms.topic: enum
+f1_keywords:
+ - "wwan/WWAN_USSD_SESSION_STATE"
 req.header: wwan.h
 req.include-header: 
 req.target-type: Windows

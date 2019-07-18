@@ -8,6 +8,8 @@ ms.assetid: C297D681-D43F-4105-9E08-7FF42807E9A0
 ms.date: 05/02/2018
 ms.keywords: MINIPORT_WDI_TAL_TXRX_INITIALIZE, MINIPORT_WDI_TAL_TXRX_INITIALIZE callback, MiniportWdiTalTxRxInitialize, MiniportWdiTalTxRxInitialize callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTalTxRxInitialize, netvista.miniportwditaltxrxinitialize
 ms.topic: callback
+f1_keywords:
+ - "dot11wdi/MiniportWdiTalTxRxInitialize"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows

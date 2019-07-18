@@ -5,6 +5,8 @@ description: Queries the process offer info.
 ms.assetid: d0f123c1-9ec6-4872-8bae-1974052fafbf
 ms.date: 10/19/2018
 ms.topic: function
+f1_keywords:
+ - "d3dkmthk/D3DKMTQueryProcessOfferInfo"
 ms.keywords: D3DKMTQueryProcessOfferInfo
 req.header: d3dkmthk.h
 req.include-header:

@@ -5,6 +5,8 @@ description: The RegisterScriptProvider method informs the data model that a new
 ms.assetid: b1e9628f-51b0-41a6-a3c0-8b264f0ca490
 ms.date: 06/10/2019
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDataModelScriptManager.RegisterScriptProvider"
 ms.keywords: IDataModelScriptManager::RegisterScriptProvider, RegisterScriptProvider, IDataModelScriptManager.RegisterScriptProvider, IDataModelScriptManager::RegisterScriptProvider, IDataModelScriptManager.RegisterScriptProvider
 req.header: dbgmodel.h
 req.include-header:

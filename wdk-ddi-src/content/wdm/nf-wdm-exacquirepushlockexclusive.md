@@ -5,6 +5,8 @@ description: Acquires the given push lock for exclusive access by the calling th
 ms.assetid: ba752619-f885-4977-b0e6-7c0339373b78
 ms.date: 09/30/2018
 ms.topic: macro
+f1_keywords:
+ - "wdm/ExAcquirePushLockExclusive"
 ms.keywords: ExAcquirePushLockExclusive
 req.header: wdm.h
 req.include-header:

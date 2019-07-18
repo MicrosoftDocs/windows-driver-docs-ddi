@@ -8,6 +8,8 @@ ms.assetid: 9DE89026-872C-4537-BD99-131320B3C258
 ms.date: 02/15/2018
 ms.keywords: CLIENT_ConnectIoPins, CLIENT_ConnectIoPins callback, CLIENT_ConnectIoPins callback function [Parallel Ports], GPIO.client_connectiopins, GPIO_CLIENT_CONNECT_IO_PINS, gpioclx/CLIENT_ConnectIoPins
 ms.topic: callback
+f1_keywords:
+ - "gpioclx/CLIENT_ConnectIoPins"
 req.header: gpioclx.h
 req.include-header: 
 req.target-type: Desktop

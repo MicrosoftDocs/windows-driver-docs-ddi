@@ -8,6 +8,8 @@ ms.assetid: 0c9bf43d-9342-4d60-86d2-7388a4a80160
 ms.date: 04/30/2018
 ms.keywords: TmIsTransactionActive, TmIsTransactionActive routine [Kernel-Mode Driver Architecture], kernel.tmistransactionactive, ktm_ref_f2dfbc14-24c0-494b-bf54-506c9d2c1af4.xml, wdm/TmIsTransactionActive
 ms.topic: function
+f1_keywords:
+ - "wdm/TmIsTransactionActive"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

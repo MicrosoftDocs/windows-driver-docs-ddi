@@ -8,6 +8,8 @@ ms.assetid: 5822b642-0ba4-46ee-bb60-b109c50691eb
 ms.date: 04/30/2018
 ms.keywords: IoDetachDevice, IoDetachDevice routine [Kernel-Mode Driver Architecture], k104_e928372b-1222-4421-bea7-c2457c38a09f.xml, kernel.iodetachdevice, wdm/IoDetachDevice
 ms.topic: function
+f1_keywords:
+ - "wdm/IoDetachDevice"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

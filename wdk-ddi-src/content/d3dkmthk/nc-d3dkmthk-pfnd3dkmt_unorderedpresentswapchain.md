@@ -5,6 +5,8 @@ description: Implemented by the client driver to store information about the swa
 ms.assetid: 0de92381-b602-4ae5-adf2-eba28814fe72
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/PFND3DKMT_UNORDEREDPRESENTSWAPCHAIN"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

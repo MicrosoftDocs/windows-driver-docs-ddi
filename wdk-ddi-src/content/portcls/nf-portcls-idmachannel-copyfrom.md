@@ -6,6 +6,8 @@ tech.root: audio
 ms.assetid: 4def160a-db98-4315-87d4-beb69e650461
 ms.date: 10/31/2018 
 ms.topic: method
+f1_keywords:
+ - "portcls/IDmaChannel.CopyFrom"
 ms.keywords: IDmaChannel::CopyFrom, CopyFrom, IDmaChannel.CopyFrom, IDmaChannel::CopyFrom, IDmaChannel.CopyFrom
 req.header: portcls.h
 req.include-header:

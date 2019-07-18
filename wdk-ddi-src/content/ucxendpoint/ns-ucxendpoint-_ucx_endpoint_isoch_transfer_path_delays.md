@@ -8,6 +8,8 @@ ms.assetid: 5001C27B-EA5F-43C4-AD59-84B42041262E
 ms.date: 05/07/2018
 ms.keywords: "*PUCX_ENDPOINT_ISOCH_TRANSFER_PATH_DELAYS, PUCX_ENDPOINT_ISOCH_TRANSFER_PATH_DELAYS, PUCX_ENDPOINT_ISOCH_TRANSFER_PATH_DELAYS structure pointer [Buses], UCX_ENDPOINT_ISOCH_TRANSFER_PATH_DELAYS, UCX_ENDPOINT_ISOCH_TRANSFER_PATH_DELAYS structure [Buses], _UCX_ENDPOINT_ISOCH_TRANSFER_PATH_DELAYS, buses.ucx_endpoint_isoch_transfer_path_delays, ucxendpoint/PUCX_ENDPOINT_ISOCH_TRANSFER_PATH_DELAYS, ucxendpoint/UCX_ENDPOINT_ISOCH_TRANSFER_PATH_DELAYS"
 ms.topic: struct
+f1_keywords:
+ - "ucxendpoint/UCX_ENDPOINT_ISOCH_TRANSFER_PATH_DELAYS"
 req.header: ucxendpoint.h
 req.include-header: Ucxclass.h
 req.target-type: Windows

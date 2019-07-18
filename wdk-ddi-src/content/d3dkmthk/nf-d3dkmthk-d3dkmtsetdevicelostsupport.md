@@ -7,6 +7,8 @@ ms.assetid: 9b7469cb-d489-4428-8167-91b26e1fa348
 ms.date: 05/10/2018
 ms.keywords: D3DKMTSetDeviceLostSupport, D3DKMTSetDeviceLostSupport method [Display Devices], d3dkmthk/D3DKMTSetDeviceLostSupport, display.d3dkmtsetdevicelostsupport
 ms.topic: function
+f1_keywords:
+ - "d3dkmthk/D3DKMTSetDeviceLostSupport"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type: Windows

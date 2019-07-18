@@ -8,6 +8,8 @@ ms.assetid: 10d4cd20-c797-455c-b16d-00982be5c1b7
 ms.date: 02/26/2018
 ms.keywords: IWDFRemoteInterface, IWDFRemoteInterface interface, IWDFRemoteInterface interface, described, wdf.iwdfremoteinterface, wudfddi/IWDFRemoteInterface
 ms.topic: interface
+f1_keywords:
+ - "wudfddi/IWDFRemoteInterface"
 req.header: wudfddi.h
 req.include-header:
 req.target-type: Desktop

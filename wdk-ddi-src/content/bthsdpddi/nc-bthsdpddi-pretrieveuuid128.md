@@ -8,6 +8,8 @@ ms.assetid: 0e317aea-3625-4511-94e1-355c476c0da6
 ms.date: 04/27/2018
 ms.keywords: PRETRIEVEUUID128, PRETRIEVEUUID128 callback, SdpRetrieveUuid128, SdpRetrieveUuid128 callback function [Bluetooth Devices], bltooth.sdpretrieveuuid128, bth_funcs_a4149063-722b-45c0-a86b-ffce73b94b0d.xml, sdplib/SdpRetrieveUuid128
 ms.topic: callback
+f1_keywords:
+ - "bthsdpddi/SdpRetrieveUuid128"
 req.header: bthsdpddi.h
 req.include-header: BthSdpddi.h
 req.target-type: Desktop

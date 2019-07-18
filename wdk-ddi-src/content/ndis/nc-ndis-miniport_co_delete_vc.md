@@ -8,6 +8,8 @@ ms.assetid: ed9b6ad1-059b-47d9-b1f7-10d498c5d2d4
 ms.date: 05/02/2018
 ms.keywords: MINIPORT_CO_DELETE_VC, MINIPORT_CO_DELETE_VC callback, MiniportCoDeleteVc, MiniportCoDeleteVc callback function [Network Drivers Starting with Windows Vista], condis_miniport_ref_4a19285a-9595-4ea0-bf86-ec69474a9716.xml, ndis/MiniportCoDeleteVc, netvista.miniportcodeletevc
 ms.topic: callback
+f1_keywords:
+ - "ndis/MiniportCoDeleteVc"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

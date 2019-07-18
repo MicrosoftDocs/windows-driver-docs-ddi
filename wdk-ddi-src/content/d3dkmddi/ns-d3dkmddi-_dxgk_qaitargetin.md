@@ -7,6 +7,8 @@ ms.assetid: C6751CB1-1460-4C1A-9E5F-99448C4F9162
 ms.date: 05/10/2018
 ms.keywords: DXGK_QAITARGETIN, DXGK_QAITARGETIN structure [Display Devices], DXGK_QUERYCOLORIMETRYOVERRIDESIN, DXGK_QUERYINTEGRATEDDISPLAYIN, _DXGK_QAITARGETIN, d3dkmddi/DXGK_QAITARGETIN, display.dxgk_qaitargetin
 ms.topic: struct
+f1_keywords:
+ - "d3dkmddi/DXGK_QAITARGETIN"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Windows

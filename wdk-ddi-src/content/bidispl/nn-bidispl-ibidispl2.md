@@ -8,6 +8,8 @@ ms.assetid: 90e8a390-7d30-4bcf-8c81-438c86529ceb
 ms.date: 04/20/2018
 ms.keywords: IBidiSpl2, IBidiSpl2 interface [Print Devices], IBidiSpl2 interface [Print Devices],described, _win32_IBidiSpl2, bidispl/IBidiSpl2, gdi.ibidispl2, print.ibidispl2
 ms.topic: interface
+f1_keywords:
+ - "bidispl/IBidiSpl2"
 req.header: bidispl.h
 req.include-header: 
 req.target-type: Windows

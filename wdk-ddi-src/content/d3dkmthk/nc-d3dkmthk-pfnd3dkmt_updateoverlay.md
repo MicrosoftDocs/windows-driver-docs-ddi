@@ -5,6 +5,8 @@ description: PFND3DKMT_UPDATEOVERLAY callback function modifies a kernel-mode ov
 ms.assetid: 05fd48da-c107-4964-a042-e2662ac70828
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/PFND3DKMT_UPDATEOVERLAY"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

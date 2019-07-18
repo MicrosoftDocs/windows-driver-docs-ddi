@@ -5,6 +5,8 @@ description:
 ms.assetid: ee7e2beb-fc03-4e76-8f68-b6fb9c6d26f8
 ms.date: 10/19/2018
 ms.topic: function
+f1_keywords:
+ - "ntifs/FsRtlInitializeBaseMcbEx"
 ms.keywords: FsRtlInitializeBaseMcbEx
 req.header: ntifs.h
 req.include-header:

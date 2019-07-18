@@ -8,6 +8,8 @@ ms.assetid: a1bf6f5b-c23d-40ed-b6e2-788066fcf0fc
 ms.date: 05/03/2018
 ms.keywords: EngExtCpp_Ref_27cc32ed-e2da-4041-8dd7-e2d5a0910c5e.xml, ExtRemoteList class [Windows Debugging],Next method, ExtRemoteList.Next, ExtRemoteList::Next, Next, Next method [Windows Debugging], Next method [Windows Debugging],ExtRemoteList class, debugger.extremotelist_next
 ms.topic: method
+f1_keywords:
+ - "engextcpp/ExtRemoteList.Next"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop

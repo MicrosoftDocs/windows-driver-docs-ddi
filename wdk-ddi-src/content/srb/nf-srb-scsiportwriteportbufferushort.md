@@ -8,6 +8,8 @@ ms.assetid: ca6bd14b-533d-4451-b54f-29bc566c968d
 ms.date: 03/29/2018
 ms.keywords: ScsiPortWritePortBufferUshort, ScsiPortWritePortBufferUshort routine [Storage Devices], scsiprt_b04295df-d370-4015-a705-71652d4ab4f7.xml, srb/ScsiPortWritePortBufferUshort, storage.scsiportwriteportbufferushort
 ms.topic: function
+f1_keywords:
+ - "srb/ScsiPortWritePortBufferUshort"
 req.header: srb.h
 req.include-header: Miniport.h, Scsi.h, Storport.h
 req.target-type: Desktop

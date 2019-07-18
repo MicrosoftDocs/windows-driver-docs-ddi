@@ -8,6 +8,8 @@ ms.assetid: A5EF8214-76D9-4F4E-A9FE-9374E0EDC9D2
 ms.date: 03/19/2018
 ms.keywords: IAdapterPnpManagement, IAdapterPnpManagement interface [Audio Devices], IAdapterPnpManagement interface [Audio Devices], described, audio.iadapterpnpmanagement, portcls/IAdapterPnpManagement
 ms.topic: interface
+f1_keywords:
+ - "portcls/IAdapterPnpManagement"
 req.header: portcls.h
 req.include-header:
 req.target-type: Windows

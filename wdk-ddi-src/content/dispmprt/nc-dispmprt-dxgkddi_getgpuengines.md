@@ -8,6 +8,8 @@ ms.assetid: 2516376d-9fb4-47a5-8178-304f2b549f48
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
 ms.topic: callback
+f1_keywords:
+ - "dispmprt/DXGKDDI_GETGPUENGINES"
 req.header: dispmprt.h
 req.include-header:
 req.target-type:

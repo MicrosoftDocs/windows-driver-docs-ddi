@@ -8,6 +8,8 @@ ms.assetid: B56FEA86-E171-43DA-8207-148298E72313
 ms.date: 04/23/2018
 ms.keywords: 2/SerCx2SystemDmaReceiveCleanupTransactionComplete, SerCx2SystemDmaReceiveCleanupTransactionComplete, SerCx2SystemDmaReceiveCleanupTransactionComplete method [Serial Ports], serports.sercx2systemdmareceivecleanuptransactioncomplete
 ms.topic: function
+f1_keywords:
+ - "sercx/SerCx2SystemDmaReceiveCleanupTransactionComplete"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Universal

@@ -8,6 +8,8 @@ ms.assetid: 03df5865-a383-447b-8e80-671ba7a3a60e
 ms.date: 05/02/2018
 ms.keywords: "*LPRILSETUICCLOCKENABLEDPARAMS, RILSETUICCLOCKENABLEDPARAMS, RILSETUICCLOCKENABLEDPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsetuicclockenabledparams, ntddrilapitypes/RILSETUICCLOCKENABLEDPARAMS"
 ms.topic: struct
+f1_keywords:
+ - "rilapitypes/RILSETUICCLOCKENABLEDPARAMS"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

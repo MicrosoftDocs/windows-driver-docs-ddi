@@ -7,6 +7,8 @@ ms.assetid: 282898b1-45e1-4d85-9ab7-fd400623bdc5
 ms.date: 05/10/2018
 ms.keywords: CalcPrivateDeferredContextSize, CalcPrivateDeferredContextSize callback function [Display Devices], PFND3D11DDI_CALCPRIVATEDEFERREDCONTEXTSIZE, PFND3D11DDI_CALCPRIVATEDEFERREDCONTEXTSIZE callback, UserModeDisplayDriverDx11_Functions_577f34a4-1f2e-4666-8bce-00dc6e52c2e6.xml, d3d10umddi/CalcPrivateDeferredContextSize, display.calcprivatedeferredcontextsize
 ms.topic: callback
+f1_keywords:
+ - "d3d10umddi/CalcPrivateDeferredContextSize"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

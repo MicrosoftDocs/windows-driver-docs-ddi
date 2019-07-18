@@ -8,6 +8,8 @@ ms.assetid: 071BD24F-AA58-4A39-8059-CEF6D7105DB6
 ms.date: 04/30/2018
 ms.keywords: PCREATE_PROCESS_NOTIFY_ROUTINE_EX, PCREATE_PROCESS_NOTIFY_ROUTINE_EX callback, SetCreateProcessNotifyRoutineEx, SetCreateProcessNotifyRoutineEx callback function [Kernel-Mode Driver Architecture], kernel.pcreate_process_notify_routine_ex, ntddk/SetCreateProcessNotifyRoutineEx
 ms.topic: callback
+f1_keywords:
+ - "ntddk/SetCreateProcessNotifyRoutineEx"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal

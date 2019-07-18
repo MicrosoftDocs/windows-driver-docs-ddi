@@ -8,6 +8,8 @@ ms.assetid: 755a834b-6590-4289-99b1-058690c1ad4f
 ms.date: 05/02/2018
 ms.keywords: RIL_Dial, RIL_Dial method [Network Drivers Starting with Windows Vista], netvista.ril_dial, rilapi/RIL_Dial
 ms.topic: function
+f1_keywords:
+ - "rilapi/RIL_Dial"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: 3F4C444E-8DFC-478A-B3A9-D9E7D97CF3C4
 ms.date: 04/20/2018
 ms.keywords: DisableEvents, DisableEvents method [Print Devices], DisableEvents method [Print Devices],IPrinterExtensionManager interface, IPrinterExtensionManager interface [Print Devices],DisableEvents method, IPrinterExtensionManager.DisableEvents, IPrinterExtensionManager::DisableEvents, print.iprinterextensionmanager_disableevents, printerextension/IPrinterExtensionManager::DisableEvents
 ms.topic: method
+f1_keywords:
+ - "printerextension/IPrinterExtensionManager.DisableEvents"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop

@@ -8,6 +8,8 @@ ms.assetid: 0e3a95d0-97a1-4a2f-b0b0-8f80efc874ee
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
+f1_keywords:
+ - "ntddk/_WHEA_ERROR_SOURCE_INITIALIZE"
 req.header: ntddk.h
 req.include-header:
 req.target-type:

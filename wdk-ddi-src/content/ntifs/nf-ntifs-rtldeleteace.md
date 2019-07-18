@@ -8,6 +8,8 @@ ms.assetid: 2bf90d1d-887f-4d0c-8d79-e102a14dfe71
 ms.date: 04/16/2018
 ms.keywords: RtlDeleteAce, RtlDeleteAce routine [Installable File System Drivers], ifsk.rtldeleteace, ntifs/RtlDeleteAce, rtlref_68fe46f1-318a-48c6-9004-c338f52f41a5.xml
 ms.topic: function
+f1_keywords:
+ - "ntifs/RtlDeleteAce"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

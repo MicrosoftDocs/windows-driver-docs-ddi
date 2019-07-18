@@ -6,6 +6,8 @@ tech.root: audio
 ms.assetid: 36aeb4c5-4552-4139-bf24-475624e279dc
 ms.date: 10/31/2018 
 ms.topic: method
+f1_keywords:
+ - "portcls/IDmaChannel.GetAdapterObject"
 ms.keywords: IDmaChannel::GetAdapterObject, GetAdapterObject, IDmaChannel.GetAdapterObject, IDmaChannel::GetAdapterObject, IDmaChannel.GetAdapterObject
 req.header: portcls.h
 req.include-header:

@@ -6,6 +6,8 @@ ms.assetid: 6f80ab97-7c84-40f0-8067-e748e4f36bbe
 ms.date: 08/08/2018
 tech.root: sensors
 ms.topic: function
+f1_keywords:
+ - "sensorsutils/InitPropVariantFromCLSIDArray"
 ms.keywords: InitPropVariantFromCLSIDArray
 req.header: sensorsutils.h
 req.include-header:

@@ -8,6 +8,8 @@ ms.assetid: f412ff4e-6c65-40f8-9747-dc5059e588f6
 ms.date: 03/29/2018
 ms.keywords: "*PTRACK_DATA, PTRACK_DATA, PTRACK_DATA structure pointer [Storage Devices], TRACK_DATA, TRACK_DATA structure [Storage Devices], _TRACK_DATA, ntddcdrm/PTRACK_DATA, ntddcdrm/TRACK_DATA, storage.track_data, structs-CD-ROM_37ea4578-82b7-4b8e-be1b-28c27de349d9.xml"
 ms.topic: struct
+f1_keywords:
+ - "ntddcdrm/TRACK_DATA"
 req.header: ntddcdrm.h
 req.include-header: Ntddcdrm.h
 req.target-type: Windows

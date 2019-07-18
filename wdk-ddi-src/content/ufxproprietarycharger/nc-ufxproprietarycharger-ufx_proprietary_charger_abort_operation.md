@@ -8,6 +8,8 @@ ms.assetid: 32BCBE1C-BD0E-46D6-9C6D-6B8F1CE0E540
 ms.date: 05/07/2018
 ms.keywords: PFN_UFX_PROPRIETARY_CHARGER_ABORT_OPERATION, PFN_UFX_PROPRIETARY_CHARGER_ABORT_OPERATION callback function pointer [Buses], UFX_PROPRIETARY_CHARGER_ABORT_OPERATION, UFX_PROPRIETARY_CHARGER_ABORT_OPERATION callback, UfxProprietaryChargerAbort, UfxProprietaryChargerAbort callback function [Buses], buses.ufx_proprietary_charger_abort_operation, ufxproprietarycharger/UfxProprietaryChargerAbort
 ms.topic: callback
+f1_keywords:
+ - "ufxproprietarycharger/PFN_UFX_PROPRIETARY_CHARGER_ABORT_OPERATION"
 req.header: ufxproprietarycharger.h
 req.include-header: 
 req.target-type: Windows

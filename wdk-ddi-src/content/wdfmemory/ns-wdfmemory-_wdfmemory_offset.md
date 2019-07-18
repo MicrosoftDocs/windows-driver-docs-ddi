@@ -8,6 +8,8 @@ ms.assetid: ca891a21-e7ab-4230-bfc4-adfdb413838b
 ms.date: 02/26/2018
 ms.keywords: "*PWDFMEMORY_OFFSET, DFMemoryObjectRef_d6ea5bd1-f672-4624-9663-f1e5f70eb8b2.xml, PWDFMEMORY_OFFSET, PWDFMEMORY_OFFSET structure pointer, WDFMEMORY_OFFSET, WDFMEMORY_OFFSET structure, _WDFMEMORY_OFFSET, kmdf.wdfmemory_offset, wdf.wdfmemory_offset, wdfmemory/PWDFMEMORY_OFFSET, wdfmemory/WDFMEMORY_OFFSET"
 ms.topic: struct
+f1_keywords:
+ - "wdfmemory/WDFMEMORY_OFFSET"
 req.header: wdfmemory.h
 req.include-header: Wdf.h
 req.target-type: Windows

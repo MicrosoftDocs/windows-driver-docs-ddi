@@ -8,6 +8,8 @@ ms.assetid: D68C24E4-DCFB-44F6-92EE-9FF4A1A52841
 ms.date: 02/23/2018
 ms.keywords: PosCxGetPendingEvent, PosCxGetPendingEvent function, pos.poscxgetpendingevent, poscx/PosCxGetPendingEvent
 ms.topic: function
+f1_keywords:
+ - "poscx/PosCxGetPendingEvent"
 req.header: poscx.h
 req.include-header: Poscx.h
 req.target-type: Windows

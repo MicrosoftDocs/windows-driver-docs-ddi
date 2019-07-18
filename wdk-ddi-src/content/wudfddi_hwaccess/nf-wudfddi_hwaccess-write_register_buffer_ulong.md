@@ -8,6 +8,8 @@ ms.assetid: 0FBDC2F0-81E3-4EF3-9ECB-77AD8195E0CC
 ms.date: 02/26/2018
 ms.keywords: WRITE_REGISTER_BUFFER_ULONG, WRITE_REGISTER_BUFFER_ULONG function, umdf.write_register_buffer_ulong, wdf.write_register_buffer_ulong, wudfddi_hwaccess/WRITE_REGISTER_BUFFER_ULONG
 ms.topic: function
+f1_keywords:
+ - "wudfddi_hwaccess/WRITE_REGISTER_BUFFER_ULONG"
 req.header: wudfddi_hwaccess.h
 req.include-header: 
 req.target-type: Desktop

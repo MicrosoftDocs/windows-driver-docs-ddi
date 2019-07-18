@@ -8,6 +8,8 @@ ms.assetid: b7091dea-8a29-4ad3-a478-29bc28fd57ef
 ms.date: 03/29/2018
 ms.keywords: StorPortGetVirtualAddress, StorPortGetVirtualAddress routine [Storage Devices], storage.storportgetvirtualaddress, storport/StorPortGetVirtualAddress, storprt_5245f704-dce0-4683-8510-064ccbb4158c.xml
 ms.topic: function
+f1_keywords:
+ - "storport/StorPortGetVirtualAddress"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

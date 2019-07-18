@@ -8,6 +8,8 @@ ms.assetid: 9ae1cfd1-1ef8-4f27-b6e1-f593bdc020e8
 ms.date: 02/23/2018
 ms.keywords: PosDeviceInformation, PosDeviceInformation structure, _PosDeviceInformation, pointofservicecommontypes/PosDeviceInformation, pos.posdeviceinformation
 ms.topic: struct
+f1_keywords:
+ - "pointofservicecommontypes/PosDeviceInformation"
 req.header: pointofservicecommontypes.h
 req.include-header: PointOfServiceCommonTypes.h
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: ae4f4dfd-2a1d-4116-b56c-f7250697cf9e
 ms.date: 04/16/2018
 ms.keywords: FltApiRef_e_to_o_a5a70461-2108-4e8f-a01b-0fec773f6010.xml, FltIsEcpAcknowledged, FltIsEcpAcknowledged routine [Installable File System Drivers], fltkernel/FltIsEcpAcknowledged, ifsk.fltisecpacknowledged
 ms.topic: function
+f1_keywords:
+ - "fltkernel/FltIsEcpAcknowledged"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

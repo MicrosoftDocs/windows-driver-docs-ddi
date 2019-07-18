@@ -8,6 +8,8 @@ ms.assetid: 381A59EE-BA1C-4810-842B-1D3E4D964486
 ms.date: 04/30/2018
 ms.keywords: GPIO_PIN_IORESTRICTION_TYPE, GPIO_PIN_IORESTRICTION_TYPE enumeration [Kernel-Mode Driver Architecture], IoRestrictionInputOnly, IoRestrictionNone, IoRestrictionNoneAndPreserve, IoRestrictionOutputOnly, _GPIO_PIN_IORESTRICTION_TYPE, kernel.gpio_pin_iorestriction_type, pepfx/GPIO_PIN_IORESTRICTION_TYPE, pepfx/IoRestrictionInputOnly, pepfx/IoRestrictionNone, pepfx/IoRestrictionNoneAndPreserve, pepfx/IoRestrictionOutputOnly
 ms.topic: enum
+f1_keywords:
+ - "pepfx/GPIO_PIN_IORESTRICTION_TYPE"
 req.header: pepfx.h
 req.include-header: Pep_x.h
 req.target-type: Windows

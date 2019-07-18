@@ -8,6 +8,8 @@ ms.assetid: b3c3e792-bc8a-485e-a208-66b7d921cc15
 ms.date: 05/10/2018
 ms.keywords: GetEncryptionBltKey, GetEncryptionBltKey callback function [Display Devices], PFND3DDDI_GETENCRYPTIONBLTKEY, PFND3DDDI_GETENCRYPTIONBLTKEY callback, UserModeDisplayDriver_Functions_c20ad527-141e-404f-a52e-47b893b2a2bb.xml, d3dumddi/GetEncryptionBltKey, display.getencryptionbltkey
 ms.topic: callback
+f1_keywords:
+ - "d3dumddi/GetEncryptionBltKey"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop

@@ -5,6 +5,8 @@ description: If a given member of a data structure is a bitfield (e.g. ULONG MyB
 ms.assetid: 9dcdb1c5-dfb8-43da-aec8-4a2536cfef49
 ms.date: 09/20/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDebugHostType2.GetBitField"
 ms.keywords: IDebugHostType2::GetBitField, GetBitField, IDebugHostType2.GetBitField, IDebugHostType2::GetBitField, IDebugHostType2.GetBitField
 req.header: dbgmodel.h
 req.include-header:

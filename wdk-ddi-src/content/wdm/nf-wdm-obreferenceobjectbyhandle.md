@@ -8,6 +8,8 @@ ms.assetid: 6397d96e-f3b1-4e2f-91ce-b123c9e8de81
 ms.date: 04/30/2018
 ms.keywords: ObReferenceObjectByHandle, ObReferenceObjectByHandle routine [Kernel-Mode Driver Architecture], k107_97ce2cea-8f20-4b30-996c-9ea268951aef.xml, kernel.obreferenceobjectbyhandle, wdm/ObReferenceObjectByHandle
 ms.topic: function
+f1_keywords:
+ - "wdm/ObReferenceObjectByHandle"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

@@ -8,6 +8,8 @@ ms.assetid: 16bf65c7-26b0-404c-97c0-48eeb7c10b03
 ms.date: 05/10/2018
 ms.keywords: D3DDDIARG_SETSTREAMSOURCEFREQ, D3DDDIARG_SETSTREAMSOURCEFREQ structure [Display Devices], UMDisplayDriver_param_Structs_2f63624d-43d6-4b38-8f22-050dac4a4965.xml, _D3DDDIARG_SETSTREAMSOURCEFREQ, d3dumddi/D3DDDIARG_SETSTREAMSOURCEFREQ, display.d3dddiarg_setstreamsourcefreq
 ms.topic: struct
+f1_keywords:
+ - "d3dumddi/D3DDDIARG_SETSTREAMSOURCEFREQ"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

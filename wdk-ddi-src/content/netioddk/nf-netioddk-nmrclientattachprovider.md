@@ -8,6 +8,8 @@ ms.assetid: dca8f82b-f058-4765-890c-973f8462c2f5
 ms.date: 05/02/2018
 ms.keywords: NmrClientAttachProvider, NmrClientAttachProvider function [Network Drivers Starting with Windows Vista], netioddk/NmrClientAttachProvider, netvista.nmrclientattachprovider, nmrref_6d66009c-5262-4a75-986d-1eb91dcc61a2.xml
 ms.topic: function
+f1_keywords:
+ - "netioddk/NmrClientAttachProvider"
 req.header: netioddk.h
 req.include-header: Wsk.h
 req.target-type: Desktop

@@ -8,6 +8,8 @@ ms.assetid: cf6aeb30-732b-494c-a714-caa6326c0375
 ms.date: 02/23/2018
 ms.keywords: PcwUnregister, PcwUnregister function [Driver Development Tools], devtest.pcwunregister, km_pcw_842b91a3-a846-4d1c-adcd-7e1b3fdf4af5.xml, wdm/PcwUnregister
 ms.topic: function
+f1_keywords:
+ - "wdm/PcwUnregister"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Universal

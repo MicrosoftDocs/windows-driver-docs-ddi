@@ -5,6 +5,8 @@ description: The GetNumberOfParentModels method returns the number of parent mod
 ms.assetid: 3ef1b4c2-2f82-4455-a1de-c15d6fa6f0aa
 ms.date: 08/09/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IModelObject.GetNumberOfParentModels"
 ms.keywords: IModelObject::GetNumberOfParentModels, GetNumberOfParentModels, IModelObject.GetNumberOfParentModels, IModelObject::GetNumberOfParentModels, IModelObject.GetNumberOfParentModels
 req.header: dbgmodel.h
 req.include-header:

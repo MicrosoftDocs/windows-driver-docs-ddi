@@ -8,6 +8,8 @@ ms.assetid: 362ABECF-66D3-4B0B-913B-59F7196D6BFD
 ms.date: 02/15/2018
 ms.keywords: "*PCIP_LISTEN, 61883/CIP_LISTEN, 61883/PCIP_LISTEN, CIP_LISTEN, CIP_LISTEN structure [Buses], IEEE.cip_listen, PCIP_LISTEN, PCIP_LISTEN structure pointer [Buses], _CIP_LISTEN"
 ms.topic: struct
+f1_keywords:
+ - "61883/CIP_LISTEN"
 req.header: 61883.h
 req.include-header: 
 req.target-type: Windows

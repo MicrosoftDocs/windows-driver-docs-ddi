@@ -8,6 +8,8 @@ ms.assetid: d7f70ecd-0a11-48bf-9a8b-d2e08c280f51
 ms.date: 05/02/2018
 ms.keywords: RIL_StopDTMF, RIL_StopDTMF method [Network Drivers Starting with Windows Vista], netvista.ril_stopdtmf, rilapi/RIL_StopDTMF
 ms.topic: function
+f1_keywords:
+ - "rilapi/RIL_StopDTMF"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows

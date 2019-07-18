@@ -8,6 +8,8 @@ ms.assetid: 2810D8B3-DDB7-4B55-839B-B2D079BDC0FC
 ms.date: 05/08/2018
 ms.keywords: GetLfxState, GetLfxState method [Audio Devices], GetLfxState method [Audio Devices],IMiniportStreamAudioEngineNode interface, IMiniportStreamAudioEngineNode interface [Audio Devices],GetLfxState method, IMiniportStreamAudioEngineNode.GetLfxState, IMiniportStreamAudioEngineNode::GetLfxState, audio.iminiportstreamaudioenginenode_getlfxstate, portcls/IMiniportStreamAudioEngineNode::GetLfxState
 ms.topic: method
+f1_keywords:
+ - "portcls/IMiniportStreamAudioEngineNode.GetLfxState"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Universal

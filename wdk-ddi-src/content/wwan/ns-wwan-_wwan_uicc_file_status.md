@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: A5B1B756-4E1C-42AA-84AA-CEA847D94708
 ms.date: 04/09/2019
 ms.topic: struct
+f1_keywords:
+ - "wwan/_WWAN_UICC_FILE_STATUS"
 ms.keywords: _WWAN_UICC_FILE_STATUS, WWAN_UICC_FILE_STATUS, *PWWAN_UICC_FILE_STATUS, 
 req.header: wwan.h
 req.include-header:

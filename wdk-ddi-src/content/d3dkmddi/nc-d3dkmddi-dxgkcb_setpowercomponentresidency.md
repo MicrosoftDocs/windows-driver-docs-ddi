@@ -7,6 +7,8 @@ ms.assetid: 9D567380-2E77-4A63-8674-E19A13C7B8BC
 ms.date: 05/10/2018
 ms.keywords: DXGKCB_SETPOWERCOMPONENTRESIDENCY, DXGKCB_SETPOWERCOMPONENTRESIDENCY callback, DxgkCbSetPowerComponentResidency, DxgkCbSetPowerComponentResidency callback function [Display Devices], d3dkmddi/DxgkCbSetPowerComponentResidency, display.dxgkcbsetpowercomponentresidency
 ms.topic: callback
+f1_keywords:
+ - "d3dkmddi/DxgkCbSetPowerComponentResidency"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Desktop

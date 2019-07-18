@@ -8,6 +8,8 @@ ms.assetid: 987c3721-d8a8-4aac-8f42-6eac9b5ccdc5
 ms.date: 04/20/2018
 ms.keywords: CreateDefaultGDLSnapshot, CreateDefaultGDLSnapshot method [Print Devices], CreateDefaultGDLSnapshot method [Print Devices],IPrintCoreHelperUni interface, IPrintCoreHelperUni interface [Print Devices],CreateDefaultGDLSnapshot method, IPrintCoreHelperUni.CreateDefaultGDLSnapshot, IPrintCoreHelperUni::CreateDefaultGDLSnapshot, prcomoem/IPrintCoreHelperUni::CreateDefaultGDLSnapshot, print.iprintcorehelperuni_createdefaultgdlsnapshot, print_unidrv-pscript_allplugins_8149f1a2-7974-47b9-a0fa-9981534abb06.xml
 ms.topic: method
+f1_keywords:
+ - "prcomoem/IPrintCoreHelperUni.CreateDefaultGDLSnapshot"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop

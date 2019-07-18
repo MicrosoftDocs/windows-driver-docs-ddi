@@ -5,6 +5,8 @@ description: Implemented by the client driver to check multi-sample quality leve
 ms.assetid: 50197de3-654f-47d1-9213-d10ac78c0299
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_CHECKMULTISAMPLEQUALITYLEVELS"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

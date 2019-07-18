@@ -8,6 +8,8 @@ ms.assetid: 4b1accd8-5dbe-47d6-822e-1997a6ab5082
 ms.date: 03/29/2018
 ms.keywords: ScsiPortWritePortUshort, ScsiPortWritePortUshort routine [Storage Devices], scsiprt_e7e27190-3f51-4ede-9b4d-fcc437f46d17.xml, srb/ScsiPortWritePortUshort, storage.scsiportwriteportushort
 ms.topic: macro
+f1_keywords:
+ - "storport/ScsiPortWritePortUshort"
 req.header: storport.h
 req.include-header: Miniport.h, Scsi.h, Storport.h
 req.target-type: Desktop

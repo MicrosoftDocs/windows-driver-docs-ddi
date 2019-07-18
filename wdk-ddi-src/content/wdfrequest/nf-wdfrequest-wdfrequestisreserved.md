@@ -8,6 +8,8 @@ ms.assetid: 8cbf75c4-d54c-45e0-9abb-bef8e76fb9fe
 ms.date: 02/26/2018
 ms.keywords: DFRequestObjectRef_286c4c9a-cbec-48f1-9d78-516cbaab2d45.xml, WdfRequestIsReserved, WdfRequestIsReserved method, kmdf.wdfrequestisreserved, wdf.wdfrequestisreserved, wdfrequest/WdfRequestIsReserved
 ms.topic: function
+f1_keywords:
+ - "wdfrequest/WdfRequestIsReserved"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal

@@ -8,6 +8,8 @@ ms.assetid: 954DE5B5-F08F-4805-8CA0-8C42CB1750FA
 ms.date: 05/02/2018
 ms.keywords: "*PWWAN_NETWORK_IDLE_HINT, PWWAN_NETWORK_IDLE_HINT, PWWAN_NETWORK_IDLE_HINT structure pointer [Network Drivers Starting with Windows Vista], WWAN_NETWORK_IDLE_HINT, WWAN_NETWORK_IDLE_HINT structure [Network Drivers Starting with Windows Vista], _WWAN_NETWORK_IDLE_HINT, netvista.wwan_network_idle_hint, wwan/PWWAN_NETWORK_IDLE_HINT, wwan/WWAN_NETWORK_IDLE_HINT"
 ms.topic: struct
+f1_keywords:
+ - "wwan/WWAN_NETWORK_IDLE_HINT"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows

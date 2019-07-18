@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: D2B02C1E-3BF1-4380-8D59-C93FAF811CC8
 ms.date: 02/06/2019
 ms.topic: function
+f1_keywords:
+ - "extension/SOUNDDETECTOR_PATTERNHEADER"
 ms.keywords: NetExtensionGetData
 req.header: extension.h
 req.include-header: netadaptercx.h

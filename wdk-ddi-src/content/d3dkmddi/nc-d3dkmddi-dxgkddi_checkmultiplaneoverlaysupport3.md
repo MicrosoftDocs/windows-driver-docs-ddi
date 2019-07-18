@@ -7,6 +7,8 @@ ms.assetid: 2EA7E8C4-51E0-4BDE-B69B-1A40FEB82952
 ms.date: 04/16/2018
 ms.keywords: DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT3, DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT3 callback, DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT3 callback function [Display Devices], d3dkmddi/DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT3, display.dxgkddi_checkmultiplaneoverlaysupport3
 ms.topic: callback
+f1_keywords:
+ - "d3dkmddi/DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT3"
 req.header: d3dkmddi.h
 req.include-header:
 req.target-type: Windows

@@ -5,6 +5,8 @@ description: Called when the tracked workload commands are done.
 ms.assetid: 524f2907-19c6-420a-94a2-8366edb5574b
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/_D3DKMT_ENDTRACKEDWORKLOAD"
 ms.keywords: _D3DKMT_ENDTRACKEDWORKLOAD, D3DKMT_ENDTRACKEDWORKLOAD, 
 req.header: d3dkmthk.h
 req.include-header:

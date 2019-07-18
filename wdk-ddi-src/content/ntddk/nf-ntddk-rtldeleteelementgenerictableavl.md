@@ -8,6 +8,8 @@ ms.assetid: 700412A3-5905-4401-BA65-C2DE1613398D
 ms.date: 04/16/2018
 ms.keywords: RtlDeleteElementGenericTableAvl, RtlDeleteElementGenericTableAvl routine [Installable File System Drivers], ifsk.rtldeleteelementgenerictableavl, ntddk/RtlDeleteElementGenericTableAvl
 ms.topic: function
+f1_keywords:
+ - "ntddk/RtlDeleteElementGenericTableAvl"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal

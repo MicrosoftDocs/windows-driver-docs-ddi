@@ -5,6 +5,8 @@ description: Acquires the given push lock for shared access by the calling threa
 ms.assetid: de40a669-9154-4ad6-bed3-75e66ee2b864
 ms.date: 09/30/2018
 ms.topic: macro
+f1_keywords:
+ - "wdm/ExAcquirePushLockShared"
 ms.keywords: ExAcquirePushLockShared
 req.header: wdm.h
 req.include-header:

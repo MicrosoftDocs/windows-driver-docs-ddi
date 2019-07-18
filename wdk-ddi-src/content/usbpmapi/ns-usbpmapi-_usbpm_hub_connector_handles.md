@@ -5,6 +5,8 @@ description: Stores the connector handles for all connectors on a hub.
 ms.assetid: 09998d82-882c-4e6d-83ab-ee356198aff7
 ms.date: 09/30/2018
 ms.topic: struct
+f1_keywords:
+ - "usbpmapi/_USBPM_HUB_CONNECTOR_HANDLES"
 tech.root: usbref
 ms.keywords: _USBPM_HUB_CONNECTOR_HANDLES, USBPM_HUB_CONNECTOR_HANDLES, *PUSBPM_HUB_CONNECTOR_HANDLES, 
 req.header: usbpmapi.h

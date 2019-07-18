@@ -5,6 +5,8 @@ description: The EvaluateExtendedExpression method is similar to the EvaluateExp
 ms.assetid: 6eb4c88b-1c63-4209-a876-6ed800681533
 ms.date: 09/12/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDebugHostEvaluator2.EvaluateExtendedExpression"
 ms.keywords: IDebugHostEvaluator2::EvaluateExtendedExpression, EvaluateExtendedExpression, IDebugHostEvaluator2.EvaluateExtendedExpression, IDebugHostEvaluator2::EvaluateExtendedExpression, IDebugHostEvaluator2.EvaluateExtendedExpression
 req.header: dbgmodel.h
 req.include-header:

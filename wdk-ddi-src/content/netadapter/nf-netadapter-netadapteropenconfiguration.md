@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 42e2310c-2302-4594-96ab-574e13f99a6c
 ms.date: 02/06/2018
 ms.topic: function
+f1_keywords:
+ - "netadapter/NetAdapterOpenConfiguration"
 ms.keywords: NetAdapterOpenConfiguration
 req.header: netadapter.h
 req.include-header: netadaptercx.h

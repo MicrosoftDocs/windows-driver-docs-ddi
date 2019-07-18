@@ -8,6 +8,8 @@ ms.assetid: aaa6cfd7-ac55-49b5-b077-98e42367ce0e
 ms.date: 02/15/2018
 ms.keywords: IPortableDeviceValues interface,RemoveValue method, IPortableDeviceValues.RemoveValue, IPortableDeviceValues::RemoveValue, IPortableDeviceValuesRemoveValue, RemoveValue, RemoveValue method, RemoveValue method,IPortableDeviceValues interface, portabledevicetypes/IPortableDeviceValues::RemoveValue, wpddk.iportabledevicevalues_removevalue
 ms.topic: method
+f1_keywords:
+ - "portabledevicetypes/IPortableDeviceValues.RemoveValue"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows

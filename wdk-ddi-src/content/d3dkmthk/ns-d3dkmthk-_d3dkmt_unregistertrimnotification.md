@@ -7,6 +7,8 @@ ms.assetid: 336C5C6A-619B-4D28-9F06-A09CABF78073
 ms.date: 05/10/2018
 ms.keywords: D3DKMT_UNREGISTERTRIMNOTIFICATION, D3DKMT_UNREGISTERTRIMNOTIFICATION structure [Display Devices], _D3DKMT_UNREGISTERTRIMNOTIFICATION, d3dkmthk/D3DKMT_UNREGISTERTRIMNOTIFICATION, display.d3dkmt_unregistertrimnotification
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/D3DKMT_UNREGISTERTRIMNOTIFICATION"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

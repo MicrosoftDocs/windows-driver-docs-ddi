@@ -8,6 +8,8 @@ ms.assetid: b64ca88f-f67d-4c92-aa0c-46dbe4970834
 ms.date: 04/30/2018
 ms.keywords: NtWriteFile, ZwWriteFile, ZwWriteFile routine [Kernel-Mode Driver Architecture], k111_97437555-3cb5-497b-8ebb-c683771da9f4.xml, kernel.zwwritefile, wdm/NtWriteFile, wdm/ZwWriteFile
 ms.topic: function
+f1_keywords:
+ - "wdm/ZwWriteFile"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

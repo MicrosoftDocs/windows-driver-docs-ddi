@@ -8,6 +8,8 @@ ms.assetid: 81a205cd-a641-4f85-a217-7febf203b62d
 ms.date: 04/30/2018
 ms.keywords: KeSetTimer, KeSetTimer routine [Kernel-Mode Driver Architecture], k105_9cd3cb17-0067-4340-8226-ee75392cfdd1.xml, kernel.kesettimer, wdm/KeSetTimer
 ms.topic: function
+f1_keywords:
+ - "wdm/KeSetTimer"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

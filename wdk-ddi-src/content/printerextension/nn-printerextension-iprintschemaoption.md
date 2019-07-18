@@ -8,6 +8,8 @@ ms.assetid: B520875A-7882-43D5-A890-0F82654EFD6C
 ms.date: 04/20/2018
 ms.keywords: IPrintSchemaOption, IPrintSchemaOption interface [Print Devices], IPrintSchemaOption interface [Print Devices],described, print.iprintschemaoption_interface, printerextension/IPrintSchemaOption
 ms.topic: interface
+f1_keywords:
+ - "printerextension/IPrintSchemaOption"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows

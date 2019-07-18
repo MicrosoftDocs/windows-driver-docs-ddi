@@ -8,6 +8,8 @@ ms.assetid: 1959ae63-e4d7-4615-97c5-872b41e8839e
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
 ms.topic: struct
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_VIDEO_EXTENSION_COMMAND_CAPS_DATA_0063"
 ms.keywords: D3D12DDI_VIDEO_EXTENSION_COMMAND_CAPS_DATA_0063, D3D12DDI_VIDEO_EXTENSION_COMMAND_CAPS_DATA_0063, 
 req.header: d3d12umddi.h
 req.include-header:

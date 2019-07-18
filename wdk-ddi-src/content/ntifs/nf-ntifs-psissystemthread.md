@@ -8,6 +8,8 @@ ms.assetid: ecbea013-b876-4690-a455-ebe420a4f050
 ms.date: 04/30/2018
 ms.keywords: PsIsSystemThread, PsIsSystemThread routine [Kernel-Mode Driver Architecture], k108_eacaf1ad-4ab8-49a6-9d43-3aba7821e110.xml, kernel.psissystemthread, ntifs/PsIsSystemThread
 ms.topic: function
+f1_keywords:
+ - "ntifs/PsIsSystemThread"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

@@ -8,6 +8,8 @@ ms.assetid: 9659d669-ccf3-423a-9c81-12232a978d07
 ms.date: 05/03/2018
 ms.keywords: image.wiasgetitemtype, wiamdef/wiasGetItemType, wiasFncs_634f945c-e60b-4668-b1a7-19b398a86e7c.xml, wiasGetItemType, wiasGetItemType function [Imaging Devices]
 ms.topic: function
+f1_keywords:
+ - "wiamdef/wiasGetItemType"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop

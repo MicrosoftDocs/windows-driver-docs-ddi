@@ -8,6 +8,8 @@ ms.assetid: 9cf4286b-1ff7-4113-a2dc-d8813c633dd6
 ms.date: 03/29/2018
 ms.keywords: ScsiPortFlushDma, ScsiPortFlushDma routine [Storage Devices], scsiprt_3c2fc1a8-0f37-4735-a9b8-dcec220ee5bf.xml, srb/ScsiPortFlushDma, storage.scsiportflushdma
 ms.topic: function
+f1_keywords:
+ - "srb/ScsiPortFlushDma"
 req.header: srb.h
 req.include-header: Miniport.h, Scsi.h
 req.target-type: Desktop

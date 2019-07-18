@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 8cfd161c-6f2f-4b31-ae49-b570b3d306d6
 ms.date: 04/13/2018
 ms.topic: macro
+f1_keywords:
+ - "ndis/NET_BUFFER_PROTOCOL_RESERVED"
 ms.keywords: NET_BUFFER_PROTOCOL_RESERVED
 req.header: ndis.h
 req.include-header:

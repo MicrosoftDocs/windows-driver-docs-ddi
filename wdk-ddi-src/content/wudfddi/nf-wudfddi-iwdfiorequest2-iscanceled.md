@@ -8,6 +8,8 @@ ms.assetid: 68523fcb-bb0d-492f-b6ae-3dab4f6aa637
 ms.date: 02/26/2018
 ms.keywords: IWDFIoRequest2 interface,IsCanceled method, IWDFIoRequest2.IsCanceled, IWDFIoRequest2::IsCanceled, IsCanceled, IsCanceled method, IsCanceled method,IWDFIoRequest2 interface, UMDFRequestObjectRef_7fdd0046-2e99-4221-9e73-c1bebf6251aa.xml, umdf.iwdfiorequest2_iscanceled, wdf.iwdfiorequest2_iscanceled, wudfddi/IWDFIoRequest2::IsCanceled
 ms.topic: method
+f1_keywords:
+ - "wudfddi/IWDFIoRequest2.IsCanceled"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

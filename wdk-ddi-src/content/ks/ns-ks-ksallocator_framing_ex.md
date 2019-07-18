@@ -8,6 +8,8 @@ ms.assetid: 39101009-ba03-472b-8664-d00c7a5cd335
 ms.date: 04/23/2018
 ms.keywords: "*PKSALLOCATOR_FRAMING_EX, KSALLOCATOR_FRAMING_EX, KSALLOCATOR_FRAMING_EX structure [Streaming Media Devices], PKSALLOCATOR_FRAMING_EX, PKSALLOCATOR_FRAMING_EX structure pointer [Streaming Media Devices], ks-struct_d2aa8aab-1778-4383-b524-d52e4dd6c4c2.xml, ks/KSALLOCATOR_FRAMING_EX, ks/PKSALLOCATOR_FRAMING_EX, stream.ksallocator_framing_ex"
 ms.topic: struct
+f1_keywords:
+ - "ks/KSALLOCATOR_FRAMING_EX"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows

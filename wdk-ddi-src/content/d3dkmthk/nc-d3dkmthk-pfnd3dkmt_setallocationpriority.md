@@ -5,6 +5,8 @@ description: The PFND3DKMT_SETALLOCATIONPRIORITY callback function sets the prio
 ms.assetid: 4cdabc99-d898-449c-b27e-cfd7a7363b54
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/PFND3DKMT_SETALLOCATIONPRIORITY"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

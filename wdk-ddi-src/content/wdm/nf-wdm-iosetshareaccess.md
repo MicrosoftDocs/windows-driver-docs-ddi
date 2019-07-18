@@ -8,6 +8,8 @@ ms.assetid: a686ea04-8a6b-4c4b-be06-73a75c4fc87d
 ms.date: 04/30/2018
 ms.keywords: IoSetShareAccess, IoSetShareAccess routine [Kernel-Mode Driver Architecture], k104_c7e9d7db-409a-4385-963b-61b5c96c1ffa.xml, kernel.iosetshareaccess, wdm/IoSetShareAccess
 ms.topic: function
+f1_keywords:
+ - "wdm/IoSetShareAccess"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

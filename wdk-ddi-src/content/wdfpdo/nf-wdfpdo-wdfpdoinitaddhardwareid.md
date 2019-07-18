@@ -8,6 +8,8 @@ ms.assetid: 2b5c853d-8548-419e-bd41-be9e8364fb57
 ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectFdoPdoRef_f06f24ea-f0f8-4ce7-8b70-725de7b5c970.xml, WdfPdoInitAddHardwareID, WdfPdoInitAddHardwareID method, kmdf.wdfpdoinitaddhardwareid, wdf.wdfpdoinitaddhardwareid, wdfpdo/WdfPdoInitAddHardwareID
 ms.topic: function
+f1_keywords:
+ - "wdfpdo/WdfPdoInitAddHardwareID"
 req.header: wdfpdo.h
 req.include-header: Wdf.h
 req.target-type: Universal

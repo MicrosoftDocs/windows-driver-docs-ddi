@@ -8,6 +8,8 @@ ms.assetid: 0b9153b3-f379-40c4-87f6-1fa380070e65
 ms.date: 05/02/2018
 ms.keywords: NdisMSetBusData, NdisMSetBusData function [Network Drivers Starting with Windows Vista], hardware_configuration_ref_4fd9608c-60b9-4a86-9aa3-02d6ec17da92.xml, ndis/NdisMSetBusData, netvista.ndismsetbusdata
 ms.topic: function
+f1_keywords:
+ - "ndis/NdisMSetBusData"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

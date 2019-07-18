@@ -5,6 +5,8 @@ description: The OS calls DxgkddiControlDiagnosticReporting to apply the set of 
 ms.assetid: 71b4cc86-0fe6-459d-b317-6630565e9ae5
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "dispmprt/DXGKDDI_CONTROLDIAGNOSTICREPORTING"
 req.header: dispmprt.h
 req.include-header:
 req.target-type:

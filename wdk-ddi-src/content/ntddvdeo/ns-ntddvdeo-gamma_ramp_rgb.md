@@ -8,6 +8,8 @@ ms.assetid: fb12b170-f54b-4458-b7ac-1b58a6538ec8
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
 ms.topic: struct
+f1_keywords:
+ - "ntddvdeo/GAMMA_RAMP_RGB"
 ms.keywords: GAMMA_RAMP_RGB, GAMMA_RAMP_RGB, 
 req.header: ntddvdeo.h
 req.include-header:

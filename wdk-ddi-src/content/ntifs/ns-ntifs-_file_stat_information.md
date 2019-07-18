@@ -5,6 +5,8 @@ description: Contains metadata about a file.
 ms.assetid: b2ab854f-2c03-4ee3-ab6b-4480d6a379a3
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "ntifs/_FILE_STAT_INFORMATION"
 ms.keywords: _FILE_STAT_INFORMATION, FILE_STAT_INFORMATION, *PFILE_STAT_INFORMATION, 
 req.header: ntifs.h
 req.include-header:

@@ -8,6 +8,8 @@ ms.assetid: a017f0b7-8f4f-4797-96de-10137cb3443e
 ms.date: 04/23/2018
 ms.keywords: KsOpenDefaultDevice, KsOpenDefaultDevice function [Streaming Media Devices], ksproxy/KsOpenDefaultDevice, ksproxy_9c80d462-baaa-497b-a337-5d42e94b9c3f.xml, stream.ksopendefaultdevice
 ms.topic: function
+f1_keywords:
+ - "ksproxy/KsOpenDefaultDevice"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: Desktop

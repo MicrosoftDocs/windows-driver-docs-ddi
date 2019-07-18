@@ -8,6 +8,8 @@ ms.assetid: aeed8086-b413-428c-b275-d555523b5503
 ms.date: 04/23/2018
 ms.keywords: KsCreateTopologyNode, KsCreateTopologyNode function [Streaming Media Devices], ks/KsCreateTopologyNode, ksfunc_15092cdb-3f97-4f13-a10e-9dbc92d20776.xml, stream.kscreatetopologynode
 ms.topic: function
+f1_keywords:
+ - "ks/KsCreateTopologyNode"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

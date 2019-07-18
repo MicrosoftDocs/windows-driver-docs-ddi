@@ -8,6 +8,8 @@ ms.assetid: ADB42318-BE2F-4D70-912C-79D29DF12D72
 ms.date: 02/23/2018
 ms.keywords: LineDisplayVerticalBitmapAlignment, LineDisplayVerticalBitmapAlignment enumeration, pointofservicecommontypes/, pointofservicecommontypes/LineDisplayVerticalBitmapAlignment, pos.linedisplayverticalbitmapalignment
 ms.topic: enum
+f1_keywords:
+ - "pointofservicecommontypes/LineDisplayVerticalBitmapAlignment"
 req.header: pointofservicecommontypes.h
 req.include-header: Pointofservicecommontypes.h
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: 78ff21da-be0f-4b57-9162-1052a6c12b5c
 ms.date: 04/16/2018
 ms.keywords: RtlCompareMemoryUlong, RtlCompareMemoryUlong routine [Installable File System Drivers], ifsk.rtlcomparememoryulong, ntifs/RtlCompareMemoryUlong, rtlref_a220e168-945b-46d1-9aa7-7750bdfc39bd.xml
 ms.topic: function
+f1_keywords:
+ - "ntifs/RtlCompareMemoryUlong"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

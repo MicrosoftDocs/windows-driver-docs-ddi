@@ -6,6 +6,8 @@ ms.assetid: 873b6724-0496-40f6-b93f-fdd90e00d3cb
 tech.root: usbref
 ms.date: 09/30/2018
 ms.topic: struct
+f1_keywords:
+ - "ucmucsispec/_UCSI_SET_NEW_CAM_COMMAND"
 ms.keywords: _UCSI_SET_NEW_CAM_COMMAND, UCSI_SET_NEW_CAM_COMMAND, *PUCSI_SET_NEW_CAM_COMMAND, 
 req.header: ucmucsispec.h
 req.include-header: UcmUcsiCx.h 

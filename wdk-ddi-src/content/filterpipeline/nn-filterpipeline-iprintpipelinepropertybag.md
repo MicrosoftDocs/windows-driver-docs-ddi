@@ -8,6 +8,8 @@ ms.assetid: 3997291f-0af3-4fa8-8d36-20ff36551f42
 ms.date: 04/20/2018
 ms.keywords: IPrintPipelinePropertyBag, IPrintPipelinePropertyBag interface [Print Devices], IPrintPipelinePropertyBag interface [Print Devices],described, filterpipeline/IPrintPipelinePropertyBag, filterpipeline_e103ac79-2365-4fb3-be40-d00986bba793.xml, print.iprintpipelinepropertybag
 ms.topic: interface
+f1_keywords:
+ - "filterpipeline/IPrintPipelinePropertyBag"
 req.header: filterpipeline.h
 req.include-header: Filterpipeline.h
 req.target-type: Windows

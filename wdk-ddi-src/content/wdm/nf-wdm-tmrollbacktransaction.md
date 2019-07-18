@@ -8,6 +8,8 @@ ms.assetid: 5626a92e-bd26-41a3-8475-916efb2292ff
 ms.date: 04/30/2018
 ms.keywords: TmRollbackTransaction, TmRollbackTransaction routine [Kernel-Mode Driver Architecture], kernel.tmrollbacktransaction, ktm_ref_5ea93853-7ca0-4db2-b5ca-3329b5c7f0f0.xml, wdm/TmRollbackTransaction
 ms.topic: function
+f1_keywords:
+ - "wdm/TmRollbackTransaction"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

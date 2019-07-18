@@ -5,6 +5,8 @@ description: Returns the brightness level for the display panel.
 ms.assetid: 1bbd8248-a81a-40dd-972b-80b187da28da
 ms.date: 10/19/2018
 ms.topic: ioctl
+f1_keywords:
+ - "ntddvdeo/IOCTL_PANEL_GET_BRIGHTNESS"
 req.header: ntddvdeo.h
 req.include-header:
 req.target-type:

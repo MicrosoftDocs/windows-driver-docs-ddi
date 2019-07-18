@@ -8,6 +8,8 @@ ms.assetid: 11C90E96-2A5D-4CD8-AC96-115CFEF3CE12
 ms.date: 05/03/2018
 ms.keywords: EVT_SENSOR_DRIVER_SET_BATCH_LATENCY, EVT_SENSOR_DRIVER_SET_BATCH_LATENCY callback, EvtSensorSetBatchLatency, EvtSensorSetBatchLatency callback function [Sensor Devices], sensors.evtsensorsetbatchlatency, sensorscx/EvtSensorSetBatchLatency
 ms.topic: callback
+f1_keywords:
+ - "sensorscx/EvtSensorSetBatchLatency"
 req.header: sensorscx.h
 req.include-header: 
 req.target-type: Windows

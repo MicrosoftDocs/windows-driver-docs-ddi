@@ -8,6 +8,8 @@ ms.assetid: bd2e8fe0-7daf-4fdd-ac3a-893df6d0f10f
 ms.date: 03/29/2018
 ms.keywords: AtaPortReadRegisterBufferUshort, AtaPortReadRegisterBufferUshort routine [Storage Devices], atartns_4943b97d-90a0-44d9-adfa-d3bce57e88c9.xml, irb/AtaPortReadRegisterBufferUshort, storage.ataportreadregisterbufferushort
 ms.topic: function
+f1_keywords:
+ - "irb/AtaPortReadRegisterBufferUshort"
 req.header: irb.h
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop

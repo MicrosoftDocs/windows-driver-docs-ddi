@@ -5,6 +5,8 @@ description:
 ms.assetid: cda9100c-5b0f-4bf8-8d85-d920d23d8ceb
 ms.date: 10/19/2018
 ms.topic: macro
+f1_keywords:
+ - "printoem/GET_PSCRIPT5_PRIVATE_DEVMODE_SIZE"
 ms.keywords: GET_PSCRIPT5_PRIVATE_DEVMODE_SIZE
 req.header: printoem.h
 req.include-header:

@@ -8,6 +8,8 @@ ms.assetid: c67c15a4-3dbf-4317-b6d5-e52f426e7619
 ms.date: 04/20/2018
 ms.keywords: EnumFeatures, EnumFeatures method [Print Devices], EnumFeatures method [Print Devices],IPrintCoreHelperPS interface, IPrintCoreHelperPS interface [Print Devices],EnumFeatures method, IPrintCoreHelperPS.EnumFeatures, IPrintCoreHelperPS::EnumFeatures, prcomoem/IPrintCoreHelperPS::EnumFeatures, print.iprintcorehelperps_enumfeatures, print_unidrv-pscript_allplugins_06a6f78b-fa5d-496e-b276-f32bba7c2502.xml
 ms.topic: method
+f1_keywords:
+ - "prcomoem/IPrintCoreHelperPS.EnumFeatures"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop

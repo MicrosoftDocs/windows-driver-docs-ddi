@@ -7,6 +7,8 @@ ms.assetid: AACF0C99-D6E2-4C7C-BAE6-BF558FDAFDE0
 ms.date: 05/10/2018
 ms.keywords: DXGK_PHYSICALADAPTERFLAGS, DXGK_PHYSICALADAPTERFLAGS structure [Display Devices], _DXGK_PHYSICALADAPTERFLAGS, d3dkmddi/DXGK_PHYSICALADAPTERFLAGS, display.dxgk_physicaladapterflags
 ms.topic: struct
+f1_keywords:
+ - "d3dkmddi/DXGK_PHYSICALADAPTERFLAGS"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

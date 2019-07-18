@@ -8,6 +8,8 @@ ms.assetid: A0705B79-BD13-4AB7-8647-A7AF905B97CC
 ms.date: 04/20/2018
 ms.keywords: IPrintSchemaCapabilities interface [Print Devices],JobCopiesAllDocumentsMaxValue property, IPrintSchemaCapabilities.JobCopiesAllDocumentsMaxValue, IPrintSchemaCapabilities.get_JobCopiesAllDocumentsMaxValue, IPrintSchemaCapabilities::JobCopiesAllDocumentsMaxValue, IPrintSchemaCapabilities::get_JobCopiesAllDocumentsMaxValue, JobCopiesAllDocumentsMaxValue property [Print Devices], JobCopiesAllDocumentsMaxValue property [Print Devices],IPrintSchemaCapabilities interface, get_JobCopiesAllDocumentsMaxValue, print.iprintschemacapabilities_get_jobcopiesalldocumentsmaxvalue, printerextension/IPrintSchemaCapabilities::JobCopiesAllDocumentsMaxValue, printerextension/IPrintSchemaCapabilities::get_JobCopiesAllDocumentsMaxValue
 ms.topic: method
+f1_keywords:
+ - "printerextension/IPrintSchemaCapabilities.JobCopiesAllDocumentsMaxValue"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: 39FFE334-1696-43EF-81FA-C9B05F8FB644
 ms.date: 04/30/2018
 ms.keywords: SPB.spb_transfer_list_entry_init_buffer_list, SPB_TRANSFER_LIST_ENTRY_INIT_BUFFER_LIST, SPB_TRANSFER_LIST_ENTRY_INIT_BUFFER_LIST function [Buses], spb/SPB_TRANSFER_LIST_ENTRY_INIT_BUFFER_LIST
 ms.topic: function
+f1_keywords:
+ - "spb/SPB_TRANSFER_LIST_ENTRY_INIT_BUFFER_LIST"
 req.header: spb.h
 req.include-header: 
 req.target-type: Desktop

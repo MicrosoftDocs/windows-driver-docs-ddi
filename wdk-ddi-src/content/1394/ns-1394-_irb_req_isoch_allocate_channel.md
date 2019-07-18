@@ -8,6 +8,8 @@ ms.assetid: CE38C189-34C7-40FC-81BE-9688AC9A7420
 ms.date: 02/15/2018
 ms.keywords: 1394/IRB_REQ_ISOCH_ALLOCATE_CHANNEL, IEEE.irb_req_isoch_allocate_channel, IRB_REQ_ISOCH_ALLOCATE_CHANNEL, IRB_REQ_ISOCH_ALLOCATE_CHANNEL structure [Buses], _IRB_REQ_ISOCH_ALLOCATE_CHANNEL
 ms.topic: struct
+f1_keywords:
+ - "1394/IRB_REQ_ISOCH_ALLOCATE_CHANNEL"
 req.header: 1394.h
 req.include-header: 
 req.target-type: Windows

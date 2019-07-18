@@ -7,6 +7,8 @@ ms.assetid: d5a66102-782a-482e-8119-48015820d0c7
 ms.date: 05/10/2018
 ms.keywords: D3DKMTOpenResourceFromNtHandle, D3DKMTOpenResourceFromNtHandle callback function [Display Devices], PFND3DKMT_OPENRESOURCEFROMNTHANDLE, PFND3DKMT_OPENRESOURCEFROMNTHANDLE callback, d3dkmthk/D3DKMTOpenResourceFromNtHandle, display.d3dkmtopenresourcefromnthandle
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/D3DKMTOpenResourceFromNtHandle"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal

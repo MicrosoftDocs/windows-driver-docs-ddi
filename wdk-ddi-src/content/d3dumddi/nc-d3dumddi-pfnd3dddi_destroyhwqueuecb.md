@@ -8,6 +8,8 @@ ms.assetid: F3578E0E-2249-4BC2-B776-E6356D523059
 ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_DESTROYHWQUEUECB, PFND3DDDI_DESTROYHWQUEUECB callback, PFND3DDDI_DESTROYHWQUEUECB callback function [Display Devices], d3dumddi/PFND3DDDI_DESTROYHWQUEUECB, display.pfnd3dddi_destroyhwqueuecb
 ms.topic: callback
+f1_keywords:
+ - "d3dumddi/PFND3DDDI_DESTROYHWQUEUECB"
 req.header: d3dumddi.h
 req.include-header: 
 req.target-type: Windows

@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 66232a58-73fc-4f3a-9682-0dd9f10dc901
 ms.date: 01/31/2019
 ms.topic: struct
+f1_keywords:
+ - "ring/RILWRITEPHONEBOOKENTRYPARAMS"
 ms.keywords: _NET_RING, NET_RING, *PNET_RING, 
 req.header: ring.h
 req.include-header:

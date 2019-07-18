@@ -7,6 +7,8 @@ ms.assetid: f2a234f3-aec9-4fe5-b720-bed9747d5a7f
 ms.date: 05/10/2018
 ms.keywords: DXGK_ENUM_PIVOT, DXGK_ENUM_PIVOT structure [Display Devices], DmStructs_7a6fa02d-2223-4052-9911-cf9be1ab931a.xml, _DXGK_ENUM_PIVOT, d3dkmddi/DXGK_ENUM_PIVOT, display.dxgk_enum_pivot
 ms.topic: struct
+f1_keywords:
+ - "d3dkmddi/DXGK_ENUM_PIVOT"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

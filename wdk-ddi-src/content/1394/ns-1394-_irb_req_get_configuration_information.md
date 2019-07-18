@@ -8,6 +8,8 @@ ms.assetid: 639B72C4-F99D-4983-8539-00A93398465F
 ms.date: 02/15/2018
 ms.keywords: 1394/IRB_REQ_GET_CONFIGURATION_INFORMATION, IEEE.irb_req_get_configuration_information, IRB_REQ_GET_CONFIGURATION_INFORMATION, IRB_REQ_GET_CONFIGURATION_INFORMATION structure [Buses], _IRB_REQ_GET_CONFIGURATION_INFORMATION
 ms.topic: struct
+f1_keywords:
+ - "1394/IRB_REQ_GET_CONFIGURATION_INFORMATION"
 req.header: 1394.h
 req.include-header: 
 req.target-type: Windows

@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 58680bce-dbd5-43c2-aca8-0e922ef51155
 ms.date: 04/13/2018
 ms.topic: macro
+f1_keywords:
+ - "ndis/NET_BUFFER_LIST_SWITCH_FORWARDING_DETAIL"
 ms.keywords: NET_BUFFER_LIST_SWITCH_FORWARDING_DETAIL
 req.header: ndis.h
 req.include-header:

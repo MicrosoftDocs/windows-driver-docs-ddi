@@ -8,6 +8,8 @@ ms.assetid: AB97C5AC-E5B8-4C2B-ADA1-73E27E4B81D5
 ms.date: 04/23/2018
 ms.keywords: "*PBDA_SCAN_CAPABILTIES, BDA_SCAN_CAPABILTIES, BDA_SCAN_CAPABILTIES structure [Streaming Media Devices], PBDA_SCAN_CAPABILTIES, PBDA_SCAN_CAPABILTIES structure pointer [Streaming Media Devices], _BDA_SCAN_CAPABILTIES, bdatypes/BDA_SCAN_CAPABILTIES, bdatypes/PBDA_SCAN_CAPABILTIES, stream.bda_scan_capabilties"
 ms.topic: struct
+f1_keywords:
+ - "bdatypes/BDA_SCAN_CAPABILTIES"
 req.header: bdatypes.h
 req.include-header: 
 req.target-type: Windows

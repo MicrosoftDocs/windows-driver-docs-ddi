@@ -7,6 +7,8 @@ ms.assetid: 69554ec0-3d5e-4a53-8b45-2f821ddbfd3c
 ms.date: 05/10/2018
 ms.keywords: DXGKCB_NOTIFY_INTERRUPT_DATA_FLAGS, DXGKCB_NOTIFY_INTERRUPT_DATA_FLAGS structure [Display Devices], DmStructs_bfff264e-44a2-458c-ab0d-c103d4b76f71.xml, _DXGKCB_NOTIFY_INTERRUPT_DATA_FLAGS, d3dkmddi/DXGKCB_NOTIFY_INTERRUPT_DATA_FLAGS, display.dxgkcb_notify_interrupt_data_flags
 ms.topic: struct
+f1_keywords:
+ - "d3dkmddi/DXGKCB_NOTIFY_INTERRUPT_DATA_FLAGS"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

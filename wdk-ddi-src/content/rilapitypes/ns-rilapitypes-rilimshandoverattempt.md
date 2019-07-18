@@ -8,6 +8,8 @@ ms.assetid: 22491e3c-fa23-473d-b3e6-92c776b81204
 ms.date: 05/02/2018
 ms.keywords: "*LPRILIMSHANDOVERATTEMPT, RILIMSHANDOVERATTEMPT, RILIMSHANDOVERATTEMPT structure [Network Drivers Starting with Windows Vista], netvista.rilimshandoverattempt, ntddrilapitypes/RILIMSHANDOVERATTEMPT"
 ms.topic: struct
+f1_keywords:
+ - "rilapitypes/RILIMSHANDOVERATTEMPT"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

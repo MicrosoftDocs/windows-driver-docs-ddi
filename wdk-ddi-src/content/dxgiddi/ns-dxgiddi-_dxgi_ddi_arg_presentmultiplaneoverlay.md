@@ -8,6 +8,8 @@ ms.assetid: 3d965c9b-1d71-4ef5-9b76-391b36b1d8c7
 ms.date: 05/10/2018
 ms.keywords: DXGI_DDI_ARG_PRESENTMULTIPLANEOVERLAY, DXGI_DDI_ARG_PRESENTMULTIPLANEOVERLAY structure [Display Devices], _DXGI_DDI_ARG_PRESENTMULTIPLANEOVERLAY, display.dxgi_ddi_arg_presentmultiplaneoverlay, dxgiddi/DXGI_DDI_ARG_PRESENTMULTIPLANEOVERLAY
 ms.topic: struct
+f1_keywords:
+ - "dxgiddi/DXGI_DDI_ARG_PRESENTMULTIPLANEOVERLAY"
 req.header: dxgiddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: 5d2f79ba-0fdb-4743-938d-d99b135c68bb
 ms.date: 05/02/2018
 ms.keywords: RIL_GetUiccToolkitProfile, RIL_GetUiccToolkitProfile method [Network Drivers Starting with Windows Vista], netvista.ril_getuicctoolkitprofile, rilapi/RIL_GetUiccToolkitProfile
 ms.topic: function
+f1_keywords:
+ - "rilapi/RIL_GetUiccToolkitProfile"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows

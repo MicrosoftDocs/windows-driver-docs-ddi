@@ -8,6 +8,8 @@ ms.assetid: 43172627-2A05-44AD-8B39-8FC384F9F44E
 ms.date: 04/30/2019
 ms.keywords: SOUNDDETECTOR_PATTERNHEADER, SOUNDDETECTOR_PATTERNHEADER structure [Audio Devices], audio.sounddetector_patternheader, ksmedia/SOUNDDETECTOR_PATTERNHEADER
 ms.topic: struct
+f1_keywords:
+ - "ksmedia/SOUNDDETECTOR_PATTERNHEADER"
 req.header: ksmedia.h
 req.include-header: Keyworddetectoroemadapter.h
 req.target-type: Windows

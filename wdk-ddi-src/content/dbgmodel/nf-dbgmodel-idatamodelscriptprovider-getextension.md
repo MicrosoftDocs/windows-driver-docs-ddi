@@ -5,6 +5,8 @@ description: The GetExtension method returns the file extension for scripts mana
 ms.assetid: e9f079fa-3ce1-4a05-a46e-f5b5268d2a6f
 ms.date: 08/20/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDataModelScriptProvider.GetExtension"
 ms.keywords: IDataModelScriptProvider::GetExtension, GetExtension, IDataModelScriptProvider.GetExtension, IDataModelScriptProvider::GetExtension, IDataModelScriptProvider.GetExtension
 req.header: dbgmodel.h
 req.include-header:

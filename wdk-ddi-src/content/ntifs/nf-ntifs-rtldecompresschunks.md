@@ -8,6 +8,8 @@ ms.assetid: 1bc13892-a7fb-43f9-8e65-70c11baca9ce
 ms.date: 04/16/2018
 ms.keywords: RtlDecompressChunks, RtlDecompressChunks function [Installable File System Drivers], ifsk.rtldecompresschunks, ntifs/RtlDecompressChunks, rtlref_0fadf009-d363-4001-9981-7eb646be1a8b.xml
 ms.topic: function
+f1_keywords:
+ - "ntifs/RtlDecompressChunks"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows

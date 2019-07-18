@@ -8,6 +8,8 @@ ms.assetid: b11be48b-e791-4599-80da-2446791f3816
 ms.date: 02/23/2018
 ms.keywords: IOCTL_POINT_OF_SERVICE_CHECK_HEALTH, IOCTL_POINT_OF_SERVICE_CHECK_HEALTH control, IOCTL_POINT_OF_SERVICE_CHECK_HEALTH control code, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_CHECK_HEALTH, pos.ioctl_point_of_service_check_health
 ms.topic: ioctl
+f1_keywords:
+ - "pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_CHECK_HEALTH"
 req.header: pointofservicedriverinterface.h
 req.include-header: Pointofservicedriverinterface.h
 req.target-type: Windows

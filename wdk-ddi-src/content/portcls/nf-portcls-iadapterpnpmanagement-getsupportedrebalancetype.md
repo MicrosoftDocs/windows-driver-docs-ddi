@@ -6,6 +6,8 @@ tech.root: audio
 ms.assetid: 7feb6a3f-cb3f-4aaa-8386-d7c803201a6c
 ms.date: 10/31/2018
 ms.topic: method
+f1_keywords:
+ - "portcls/IAdapterPnpManagement.GetSupportedRebalanceType"
 ms.keywords: IAdapterPnpManagement::GetSupportedRebalanceType, GetSupportedRebalanceType, IAdapterPnpManagement.GetSupportedRebalanceType, IAdapterPnpManagement::GetSupportedRebalanceType, IAdapterPnpManagement.GetSupportedRebalanceType
 req.header: portcls.h
 req.include-header:

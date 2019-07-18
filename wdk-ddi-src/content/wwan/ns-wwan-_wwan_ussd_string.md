@@ -8,6 +8,8 @@ ms.assetid: 9DE6CE5D-9570-4728-ACED-D6863812A3F4
 ms.date: 05/02/2018
 ms.keywords: "*PWWAN_USSD_STRING, PWWAN_USSD_STRING, PWWAN_USSD_STRING structure pointer [Network Drivers Starting with Windows Vista], WWAN_USSD_STRING, WWAN_USSD_STRING structure [Network Drivers Starting with Windows Vista], _WWAN_USSD_STRING, netvista.wwan_ussd_string, wwan/PWWAN_USSD_STRING, wwan/WWAN_USSD_STRING"
 ms.topic: struct
+f1_keywords:
+ - "wwan/WWAN_USSD_STRING"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows

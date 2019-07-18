@@ -8,6 +8,8 @@ ms.assetid: 76e59376-58a4-4e35-bac4-ec5938c88cd7
 ms.date: 05/02/2018
 ms.keywords: NDIS_TIMER_FUNCTION, NDIS_TIMER_FUNCTION callback, NdisTimerFunction, NdisTimerFunction callback function [Network Drivers Starting with Windows Vista], ndis/NdisTimerFunction, ndis_timer_ref_9040f7c2-905a-457d-a7c3-07253e2fb3da.xml, netvista.nettimercallback
 ms.topic: callback
+f1_keywords:
+ - "ndis/NdisTimerFunction"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

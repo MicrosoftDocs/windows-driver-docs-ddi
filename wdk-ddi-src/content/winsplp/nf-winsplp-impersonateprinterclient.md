@@ -8,6 +8,8 @@ ms.assetid: 8e110b2a-9d13-4e2e-8f27-5a48d838fb3c
 ms.date: 04/20/2018
 ms.keywords: ImpersonatePrinterClient, ImpersonatePrinterClient function [Print Devices], print.impersonateprinterclient, spoolfnc_2eb48193-850d-43dc-8e9b-025c8187c49e.xml, winsplp/ImpersonatePrinterClient
 ms.topic: function
+f1_keywords:
+ - "winsplp/ImpersonatePrinterClient"
 req.header: winsplp.h
 req.include-header: Winsplp.h
 req.target-type: Desktop

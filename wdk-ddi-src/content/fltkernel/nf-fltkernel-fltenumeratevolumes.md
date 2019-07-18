@@ -8,6 +8,8 @@ ms.assetid: 67038ff5-c450-460b-b158-f5d817fdc972
 ms.date: 04/16/2018
 ms.keywords: FltApiRef_e_to_o_20e817de-0825-4c5f-a831-2815c216344e.xml, FltEnumerateVolumes, FltEnumerateVolumes routine [Installable File System Drivers], fltkernel/FltEnumerateVolumes, ifsk.fltenumeratevolumes
 ms.topic: function
+f1_keywords:
+ - "fltkernel/FltEnumerateVolumes"
 req.header: fltkernel.h
 req.include-header: FltKernel.h
 req.target-type: Universal

@@ -5,6 +5,8 @@ description: Represents additional decode parameters.
 ms.assetid: 24258007-5a94-4292-92d7-36e280c73fc8
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3d10umddi/D3DWDDM2_4DDI_VIDEO_DECODER_BUFFER_DESC"
 ms.keywords: D3DWDDM2_4DDI_VIDEO_DECODER_BUFFER_DESC, D3DWDDM2_4DDI_VIDEO_DECODER_BUFFER_DESC,
 req.header: d3d10umddi.h
 req.include-header:

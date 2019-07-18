@@ -8,6 +8,8 @@ ms.assetid: b80f6e20-410d-4984-8535-782a84c6af7e
 ms.date: 04/23/2018
 ms.keywords: GetCorrelatedPhysicalTime, GetCorrelatedPhysicalTime method [Streaming Media Devices], GetCorrelatedPhysicalTime method [Streaming Media Devices],IKsReferenceClock interface, IKsReferenceClock interface [Streaming Media Devices],GetCorrelatedPhysicalTime method, IKsReferenceClock.GetCorrelatedPhysicalTime, IKsReferenceClock::GetCorrelatedPhysicalTime, avintfc_d0686a3a-47ab-4dbc-87ec-ee56e357b4ea.xml, ks/IKsReferenceClock::GetCorrelatedPhysicalTime, stream.iksreferenceclock_getcorrelatedphysicaltime
 ms.topic: method
+f1_keywords:
+ - "ks/IKsReferenceClock.GetCorrelatedPhysicalTime"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

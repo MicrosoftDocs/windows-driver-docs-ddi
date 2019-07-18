@@ -8,6 +8,8 @@ ms.assetid: 351BC859-E703-4F75-B691-A503C08560CF
 ms.date: 02/15/2018
 ms.keywords: "*PLPIT, LPIT, LPIT structure [ACPI Devices], PLPIT, PLPIT structure pointer [ACPI Devices], _LPIT, acpi.lpit, acpitabl/LPIT, acpitabl/PLPIT"
 ms.topic: struct
+f1_keywords:
+ - "acpitabl/LPIT"
 req.header: acpitabl.h
 req.include-header: Acpitabl.h
 req.target-type: Windows

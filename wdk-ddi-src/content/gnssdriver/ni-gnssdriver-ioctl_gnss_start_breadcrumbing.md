@@ -8,6 +8,8 @@ ms.assetid: 0BC08081-5A7B-48B7-98D5-A6155CAE5CC9
 ms.date: 02/15/2018
 ms.keywords: IOCTL_GNSS_START_BREADCRUMBING, IOCTL_GNSS_START_BREADCRUMBING control, IOCTL_GNSS_START_BREADCRUMBING control code [Sensor Devices], gnss.ioctl_gnss_start_breadcrumbing, gnssdriver/IOCTL_GNSS_START_BREADCRUMBING
 ms.topic: ioctl
+f1_keywords:
+ - "gnssdriver/IOCTL_GNSS_START_BREADCRUMBING"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows

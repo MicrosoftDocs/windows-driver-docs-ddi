@@ -8,6 +8,8 @@ ms.assetid: d43eb58b-d61c-4f66-ab25-6e45b6d5901d
 ms.date: 04/27/2018
 ms.keywords: SdpCreateNodeInt32, SdpCreateNodeInt32 function [Bluetooth Devices], bltooth.sdpcreatenodeint32, bth_funcs_3587efcb-fb15-4d2e-9be2-82f792aa514d.xml, sdplib/SdpCreateNodeInt32
 ms.topic: function
+f1_keywords:
+ - "sdplib/SdpCreateNodeInt32"
 req.header: sdplib.h
 req.include-header: BthSdpddi.h
 req.target-type: Desktop

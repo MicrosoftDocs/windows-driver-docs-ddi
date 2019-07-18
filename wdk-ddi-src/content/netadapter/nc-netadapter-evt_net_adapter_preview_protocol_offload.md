@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 0e0d97a7-16a7-4d5f-8f19-a4fc52608842
 ms.date: 02/05/2018
 ms.topic: callback
+f1_keywords:
+ - "netadapter/EVT_NET_ADAPTER_PREVIEW_PROTOCOL_OFFLOAD"
 req.header: netadapter.h
 req.include-header:
 req.target-type: Universal

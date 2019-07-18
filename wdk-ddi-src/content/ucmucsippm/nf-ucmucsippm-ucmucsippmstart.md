@@ -6,6 +6,8 @@ description: Instructs the class extension to start sending requests to the clie
 ms.assetid: b0899727-573a-4cd6-b1b4-3ca6b682bffa
 ms.date: 09/30/2018
 ms.topic: function
+f1_keywords:
+ - "ucmucsippm/UcmUcsiPpmStart"
 ms.keywords: UcmUcsiPpmStart
 req.header: Ucmucsippm.h
 req.include-header: UcmUcsiCx.h

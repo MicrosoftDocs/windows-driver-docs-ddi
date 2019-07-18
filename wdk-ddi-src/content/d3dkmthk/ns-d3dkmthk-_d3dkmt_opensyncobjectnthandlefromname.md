@@ -7,6 +7,8 @@ ms.assetid: 6435D3B7-A1B7-4417-8272-C505A5FA500E
 ms.date: 05/10/2018
 ms.keywords: D3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME, D3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME structure [Display Devices], _D3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME, d3dkmthk/D3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME, display.d3dkmt_opensyncobjectnthandlefromname
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/D3DKMT_OPENSYNCOBJECTNTHANDLEFROMNAME"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

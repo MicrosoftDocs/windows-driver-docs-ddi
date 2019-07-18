@@ -5,6 +5,8 @@ description: The D3D12DDICB_OFFERALLOCATIONS structure is used to offer allocati
 ms.assetid: 126b026e-1e18-4991-91f2-e25666ec72a2
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3dumddi/_D3D12DDICB_OFFERALLOCATIONS"
 ms.keywords: _D3D12DDICB_OFFERALLOCATIONS, D3D12DDICB_OFFERALLOCATIONS, 
 req.header: d3dumddi.h
 req.include-header:

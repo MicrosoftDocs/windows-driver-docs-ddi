@@ -8,6 +8,8 @@ ms.assetid: 5AD76955-A44C-4231-9394-0B6595CFB33D
 ms.date: 04/30/2018
 ms.keywords: ExGetFirmwareEnvironmentVariable, ExGetFirmwareEnvironmentVariable routine [Kernel-Mode Driver Architecture], kernel.exgetfirmwareenvironmentvariable, wdm/ExGetFirmwareEnvironmentVariable
 ms.topic: function
+f1_keywords:
+ - "wdm/ExGetFirmwareEnvironmentVariable"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

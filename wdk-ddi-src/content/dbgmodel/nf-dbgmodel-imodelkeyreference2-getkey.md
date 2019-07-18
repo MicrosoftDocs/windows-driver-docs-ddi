@@ -5,6 +5,8 @@ description: The GetKey method on a key reference behaves as the GetKey method o
 ms.assetid: edcad7fa-c729-4d9b-b083-c350e346ac50
 ms.date: 08/14/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IModelKeyReference2.GetKey"
 ms.keywords: IModelKeyReference2::GetKey, GetKey, IModelKeyReference2.GetKey, IModelKeyReference2::GetKey, IModelKeyReference2.GetKey
 req.header: dbgmodel.h
 req.include-header:

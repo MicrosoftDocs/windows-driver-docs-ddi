@@ -8,6 +8,8 @@ ms.assetid: d9c123d2-5f03-46dd-873c-bf3f6781bcc4
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
 ms.topic: struct
+f1_keywords:
+ - "dispmprt/_DXGK_VGPU_PROFILE_CAPABILITY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.keywords: _DXGK_VGPU_PROFILE_CAPABILITY, DXGK_VGPU_PROFILE_CAPABILITY, *PDXGK_VGPU_PROFILE_CAPABILITY, 

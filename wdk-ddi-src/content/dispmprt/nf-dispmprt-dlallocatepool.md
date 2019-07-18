@@ -8,6 +8,8 @@ ms.assetid: 89dbd943-dc4d-489b-96ed-0486536903cf
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
 ms.topic: function
+f1_keywords:
+ - "dispmprt/DlAllocatePool"
 ms.keywords: DlAllocatePool
 req.header: dispmprt.h
 req.include-header:

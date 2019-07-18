@@ -8,6 +8,8 @@ ms.assetid: a46d7ba9-24fc-4e06-9655-3fc6531d6891
 ms.date: 05/03/2018
 ms.keywords: CallExtensionWide, CallExtensionWide method [Windows Debugging], CallExtensionWide method [Windows Debugging],IDebugControl4 interface, IDebugControl4 interface [Windows Debugging],CallExtensionWide method, IDebugControl4.CallExtensionWide, IDebugControl4::CallExtensionWide, dbgeng/IDebugControl4::CallExtensionWide, debugger.callextensionwide
 ms.topic: method
+f1_keywords:
+ - "dbgeng/IDebugControl4.CallExtensionWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

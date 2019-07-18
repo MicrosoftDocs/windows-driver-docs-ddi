@@ -8,6 +8,8 @@ ms.assetid: 3746D618-C92C-43AB-A45A-2188D572105D
 ms.date: 02/26/2018
 ms.keywords: WdfDeviceInitSetIoTypeEx, WdfDeviceInitSetIoTypeEx method, wdf.wdfdeviceinitassigniotype, wdf.wdfdeviceinitsetiotypeex, wdfdevice/WdfDeviceInitSetIoTypeEx
 ms.topic: function
+f1_keywords:
+ - "wdfdevice/WdfDeviceInitSetIoTypeEx"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

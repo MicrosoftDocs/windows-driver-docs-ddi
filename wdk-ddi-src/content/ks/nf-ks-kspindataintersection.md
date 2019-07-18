@@ -8,6 +8,8 @@ ms.assetid: e4bf090d-35ec-42fd-8b6e-ce51734adba5
 ms.date: 04/23/2018
 ms.keywords: KsPinDataIntersection, KsPinDataIntersection function [Streaming Media Devices], ks/KsPinDataIntersection, ksfunc_33b743b3-4045-49cb-a5d4-f6aede715223.xml, stream.kspindataintersection
 ms.topic: function
+f1_keywords:
+ - "ks/KsPinDataIntersection"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

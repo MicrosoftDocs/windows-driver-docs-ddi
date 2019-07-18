@@ -8,6 +8,8 @@ ms.assetid: 06f6abf1-9b44-4cf3-96d3-2017e0f6adda
 ms.date: 02/20/2018
 ms.keywords: "*PWINBIO_DIAGNOSTICS, PWINBIO_DIAGNOSTICS, PWINBIO_DIAGNOSTICS structure pointer [Biometric Devices], WINBIO_DIAGNOSTICS, WINBIO_DIAGNOSTICS structure [Biometric Devices], _WINBIO_DIAGNOSTICS, biometric.winbio_diagnostics, biometric_ref_eca83e57-bec6-4d83-8596-978b73eed6de.xml, winbio_ioctl/PWINBIO_DIAGNOSTICS, winbio_ioctl/WINBIO_DIAGNOSTICS"
 ms.topic: struct
+f1_keywords:
+ - "winbio_ioctl/WINBIO_DIAGNOSTICS"
 req.header: winbio_ioctl.h
 req.include-header: 
 req.target-type: Windows

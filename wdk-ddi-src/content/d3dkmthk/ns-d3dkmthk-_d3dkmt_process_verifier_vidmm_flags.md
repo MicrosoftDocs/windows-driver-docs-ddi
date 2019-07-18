@@ -5,6 +5,8 @@ description: The process verifier video memory management flags.
 ms.assetid: 335545ed-2804-49fa-8373-f7ab3afa7e62
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/_D3DKMT_PROCESS_VERIFIER_VIDMM_FLAGS"
 ms.keywords: _D3DKMT_PROCESS_VERIFIER_VIDMM_FLAGS, D3DKMT_PROCESS_VERIFIER_VIDMM_FLAGS, 
 req.header: d3dkmthk.h
 req.include-header:

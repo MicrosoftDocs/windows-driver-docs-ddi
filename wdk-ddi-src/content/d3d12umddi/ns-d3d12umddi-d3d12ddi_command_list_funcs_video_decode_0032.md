@@ -7,6 +7,8 @@ ms.assetid: 5e49e21c-57b8-4864-b4e5-a9baa8df129d
 ms.date: 04/16/2018
 ms.keywords: D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_DECODE_0032, D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_DECODE_0032 structure [Display Devices], d3d12umddi/D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_DECODE_0032, display.d3d12ddi-command-list-funcs-video-decode-0032
 ms.topic: struct
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_DECODE_0032"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type: Windows

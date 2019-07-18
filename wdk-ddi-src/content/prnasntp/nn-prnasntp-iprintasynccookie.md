@@ -8,6 +8,8 @@ ms.assetid: CF323800-F4C3-4CDB-B4EC-13359E262BF3
 ms.date: 04/20/2018
 ms.keywords: IPrintAsyncCookie, IPrintAsyncCookie interface [Print Devices], IPrintAsyncCookie interface [Print Devices],described, print.iprintasynccookie, prnasntp/IPrintAsyncCookie
 ms.topic: interface
+f1_keywords:
+ - "prnasntp/IPrintAsyncCookie"
 req.header: prnasntp.h
 req.include-header: 
 req.target-type: Windows

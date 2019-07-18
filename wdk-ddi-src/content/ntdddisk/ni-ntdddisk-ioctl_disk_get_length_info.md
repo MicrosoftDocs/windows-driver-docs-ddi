@@ -8,6 +8,8 @@ ms.assetid: 62d31b13-bc4a-4b2f-82be-551a61cae218
 ms.date: 03/29/2018
 ms.keywords: IOCTL_DISK_GET_LENGTH_INFO, IOCTL_DISK_GET_LENGTH_INFO control, IOCTL_DISK_GET_LENGTH_INFO control code [Storage Devices], k307_50fea771-4937-481d-9a1b-f4d69bb939bb.xml, ntdddisk/IOCTL_DISK_GET_LENGTH_INFO, storage.ioctl_disk_get_length_info
 ms.topic: ioctl
+f1_keywords:
+ - "ntdddisk/IOCTL_DISK_GET_LENGTH_INFO"
 req.header: ntdddisk.h
 req.include-header: Ntdddisk.h
 req.target-type: Windows

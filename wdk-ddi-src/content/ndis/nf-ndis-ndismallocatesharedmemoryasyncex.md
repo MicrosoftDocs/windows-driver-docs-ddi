@@ -8,6 +8,8 @@ ms.assetid: ccbe98ca-7da9-4159-ac1a-c25ec6745ff4
 ms.date: 05/02/2018
 ms.keywords: NdisMAllocateSharedMemoryAsyncEx, NdisMAllocateSharedMemoryAsyncEx function [Network Drivers Starting with Windows Vista], ndis/NdisMAllocateSharedMemoryAsyncEx, ndis_sgdma_ref_73efae25-05b5-496f-8c7a-83a6d9f091cc.xml, netvista.ndismallocatesharedmemoryasyncex
 ms.topic: function
+f1_keywords:
+ - "ndis/NdisMAllocateSharedMemoryAsyncEx"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

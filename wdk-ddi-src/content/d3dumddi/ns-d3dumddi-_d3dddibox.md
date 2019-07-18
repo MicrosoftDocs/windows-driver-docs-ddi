@@ -8,6 +8,8 @@ ms.assetid: 3CE49C9F-EFFC-4F43-A939-623B28FD5EFB
 ms.date: 05/10/2018
 ms.keywords: D3DDDIBOX, D3DDDIBOX structure [Display Devices], _D3DDDIBOX, d3dumddi/D3DDDIBOX, display.d3dddibox
 ms.topic: struct
+f1_keywords:
+ - "d3dumddi/D3DDDIBOX"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

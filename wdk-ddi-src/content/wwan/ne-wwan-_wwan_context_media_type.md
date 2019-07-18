@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 1ec0496c-61a8-4148-9a13-6964f68555cb
 ms.date: 08/22/2018
 ms.topic: enum
+f1_keywords:
+ - "wwan/_WWAN_CONTEXT_MEDIA_TYPE"
 ms.keywords: _WWAN_CONTEXT_MEDIA_TYPE, WWAN_CONTEXT_MEDIA_TYPE, *PWWAN_CONTEXT_MEDIA_TYPE, 
 req.header: wwan.h
 req.include-header:

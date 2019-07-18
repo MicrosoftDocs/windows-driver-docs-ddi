@@ -5,6 +5,8 @@ description: The GetTypedefFinalBaseType method will return the final type that 
 ms.assetid: 20ba8d09-b4a6-4ede-aac3-8d95a5d079b2
 ms.date: 09/20/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDebugHostType2.GetTypedefFinalBaseType"
 ms.keywords: IDebugHostType2::GetTypedefFinalBaseType, GetTypedefFinalBaseType, IDebugHostType2.GetTypedefFinalBaseType, IDebugHostType2::GetTypedefFinalBaseType, IDebugHostType2.GetTypedefFinalBaseType
 req.header: dbgmodel.h
 req.include-header:

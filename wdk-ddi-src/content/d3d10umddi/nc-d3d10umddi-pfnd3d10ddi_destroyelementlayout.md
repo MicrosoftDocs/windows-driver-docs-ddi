@@ -7,6 +7,8 @@ ms.assetid: 8b6a07b5-5358-45d3-af42-84f8a6327535
 ms.date: 05/10/2018
 ms.keywords: DestroyElementLayout, DestroyElementLayout callback function [Display Devices], PFND3D10DDI_DESTROYELEMENTLAYOUT, PFND3D10DDI_DESTROYELEMENTLAYOUT callback, UserModeDisplayDriverDx10_Functions_7d64849d-bfd1-489c-99d2-de9be6f04ab4.xml, d3d10umddi/DestroyElementLayout, display.destroyelementlayout
 ms.topic: callback
+f1_keywords:
+ - "d3d10umddi/DestroyElementLayout"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

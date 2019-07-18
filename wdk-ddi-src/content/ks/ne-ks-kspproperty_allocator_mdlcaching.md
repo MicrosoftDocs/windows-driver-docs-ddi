@@ -8,6 +8,8 @@ ms.assetid: 91BB915F-E964-41D9-8D2A-3D5EF6F5B398
 ms.date: 04/23/2018
 ms.keywords: KSPPROPERTY_ALLOCATOR_MDLCACHING, KSPPROPERTY_ALLOCATOR_MDLCACHING enumeration [Streaming Media Devices], KSPROPERTY_ALLOCATOR_CLEANUP_CACHEDMDLPAGES, ks/KSPPROPERTY_ALLOCATOR_MDLCACHING, ks/KSPROPERTY_ALLOCATOR_CLEANUP_CACHEDMDLPAGES, stream.kspproperty_allocator_mdlcaching
 ms.topic: enum
+f1_keywords:
+ - "ks/KSPPROPERTY_ALLOCATOR_MDLCACHING"
 req.header: ks.h
 req.include-header: 
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: 377845f7-772f-4361-8fcb-10c432fa7abf
 ms.date: 05/10/2018
 ms.keywords: DXVA_COPPStatusDisplayData, DXVA_COPPStatusDisplayData structure [Display Devices], _DXVA_COPPStatusDisplayData, display.dxva_coppstatusdisplaydata, dxva/DXVA_COPPStatusDisplayData, dxvaref_93230a15-ba58-4da6-8577-eb1f2bf8528e.xml
 ms.topic: struct
+f1_keywords:
+ - "dxva/DXVA_COPPStatusDisplayData"
 req.header: dxva.h
 req.include-header: Dxva.h
 req.target-type: Windows

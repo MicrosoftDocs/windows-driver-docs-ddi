@@ -8,6 +8,8 @@ ms.assetid: 80786A5A-E585-4092-814F-B940DD6967C6
 ms.date: 05/07/2018
 ms.keywords: UfxDeviceNotifySuspend, UfxDeviceNotifySuspend method [Buses], buses.ufxdevicenotifysuspend, ufxclient/UfxDeviceNotifySuspend
 ms.topic: function
+f1_keywords:
+ - "ufxclient/UfxDeviceNotifySuspend"
 req.header: ufxclient.h
 req.include-header: 
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: 406044A5-D1C0-4771-8CDB-CCBC0B801281
 ms.date: 02/26/2018
 ms.keywords: WdfIoQueueStopAndPurgeSynchronously, WdfIoQueueStopAndPurgeSynchronously method, kmdf.wdfioqueuestopandpurgesynchronously, wdf.wdfioqueuestopandpurgesynchronously, wdfio/WdfIoQueueStopAndPurgeSynchronously
 ms.topic: function
+f1_keywords:
+ - "wdfio/WdfIoQueueStopAndPurgeSynchronously"
 req.header: wdfio.h
 req.include-header: Wdf.h
 req.target-type: Universal

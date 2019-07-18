@@ -7,6 +7,8 @@ ms.assetid: 9FDE47A4-1784-41EB-9F60-76368D6DFEED
 ms.date: 05/10/2018
 ms.keywords: DXGK_BUILDPAGINGBUFFER_FLUSHTLB, DXGK_BUILDPAGINGBUFFER_FLUSHTLB structure [Display Devices], _DXGK_BUILDPAGINGBUFFER_FLUSHTLB, d3dkmddi/DXGK_BUILDPAGINGBUFFER_FLUSHTLB, display.dxgk_buildpagingbuffer_flushtlb
 ms.topic: struct
+f1_keywords:
+ - "d3dkmddi/DXGK_BUILDPAGINGBUFFER_FLUSHTLB"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: 69022797-432a-410b-8cbf-e1ef7111e7ea
 ms.date: 05/10/2018
 ms.keywords: D3Druntime_Functions_25ad9d8e-34e0-4b1e-9a3a-4d170322fbca.xml, PFND3DDDI_LOCKCB, PFND3DDDI_LOCKCB callback, d3dumddi/pfnLockCb, display.pfnlockcb, pfnLockCb, pfnLockCb callback function [Display Devices]
 ms.topic: callback
+f1_keywords:
+ - "d3dumddi/pfnLockCb"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop

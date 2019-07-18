@@ -8,6 +8,8 @@ ms.assetid: 2AC0B5CF-67FB-462F-9118-E30FEDE9A019
 ms.date: 05/10/2018
 ms.keywords: "*PDXGK_DISPLAY_DESCRIPTOR_TYPE, DXGK_DDT_EDID, DXGK_DDT_INVALID, DXGK_DISPLAY_DESCRIPTOR_TYPE, DXGK_DISPLAY_DESCRIPTOR_TYPE enumeration [Display Devices], PDXGK_DISPLAY_DESCRIPTOR_TYPE, PDXGK_DISPLAY_DESCRIPTOR_TYPE enumeration pointer [Display Devices], _DXGK_DISPLAY_DESCRIPTOR_TYPE, d3dkmdt/DXGK_DDT_EDID, d3dkmdt/DXGK_DDT_INVALID, d3dkmdt/DXGK_DISPLAY_DESCRIPTOR_TYPE, d3dkmdt/PDXGK_DISPLAY_DESCRIPTOR_TYPE, display.dxgk_display_descriptor_type"
 ms.topic: enum
+f1_keywords:
+ - "d3dkmdt/DXGK_DISPLAY_DESCRIPTOR_TYPE"
 req.header: d3dkmdt.h
 req.include-header: 
 req.target-type: Windows

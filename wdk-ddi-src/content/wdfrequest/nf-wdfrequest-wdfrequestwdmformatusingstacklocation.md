@@ -8,6 +8,8 @@ ms.assetid: 9ee3d748-f9aa-43d6-b472-7b55d2034fc7
 ms.date: 02/26/2018
 ms.keywords: DFRequestObjectRef_a210a31a-e3a5-4bbd-af19-5be5f7651757.xml, WdfRequestWdmFormatUsingStackLocation, WdfRequestWdmFormatUsingStackLocation method, kmdf.wdfrequestwdmformatusingstacklocation, wdf.wdfrequestwdmformatusingstacklocation, wdfrequest/WdfRequestWdmFormatUsingStackLocation
 ms.topic: function
+f1_keywords:
+ - "wdfrequest/WdfRequestWdmFormatUsingStackLocation"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal

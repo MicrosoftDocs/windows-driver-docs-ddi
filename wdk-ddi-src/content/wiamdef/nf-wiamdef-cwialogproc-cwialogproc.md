@@ -8,6 +8,8 @@ ms.assetid: FB963A5D-ACB2-4720-95D1-0CA1661A99C9
 ms.date: 05/03/2018
 ms.keywords: CWiaLogProc, CWiaLogProc interface [Imaging Devices],CWiaLogProc method, CWiaLogProc method [Imaging Devices], CWiaLogProc method [Imaging Devices],CWiaLogProc interface, CWiaLogProc.CWiaLogProc, CWiaLogProc::CWiaLogProc, image.cwialogproc_cwialogproc, wiamdef/CWiaLogProc::CWiaLogProc
 ms.topic: method
+f1_keywords:
+ - "wiamdef/CWiaLogProc.CWiaLogProc"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Windows

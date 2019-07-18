@@ -8,6 +8,8 @@ ms.assetid: 80a077b6-7190-4416-a86d-992375fe8de0
 ms.author: windowsdriverdev
 ms.date: 04/04/19
 ms.topic: struct
+f1_keywords:
+ - "d3d10umddi/D3DWDDM2_6DDI_DEVICEFUNCS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.keywords: D3DWDDM2_6DDI_DEVICEFUNCS, D3DWDDM2_6DDI_DEVICEFUNCS, 

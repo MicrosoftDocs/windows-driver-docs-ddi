@@ -8,6 +8,8 @@ ms.assetid: 2dba21d8-512b-4a1a-9cf9-0240c94a69a0
 ms.date: 05/02/2018
 ms.keywords: FILTER_OID_REQUEST_COMPLETE, FILTER_OID_REQUEST_COMPLETE callback, FilterOidRequestComplete, FilterOidRequestComplete callback function [Network Drivers Starting with Windows Vista], ndis/FilterOidRequestComplete, ndis_request_ref_c1c43e8e-536a-4d7a-9341-c39c33778db3.xml, netvista.filteroidrequestcomplete
 ms.topic: callback
+f1_keywords:
+ - "ndis/FilterOidRequestComplete"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

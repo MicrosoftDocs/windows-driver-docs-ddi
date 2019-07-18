@@ -8,6 +8,8 @@ ms.assetid: 54ca9dc8-8095-4b62-9ebc-f297abb429ca
 ms.date: 04/30/2018
 ms.keywords: IoCreateDevice, IoCreateDevice routine [Kernel-Mode Driver Architecture], k104_1e38a631-7e65-4b4b-8d51-3150a8073511.xml, kernel.iocreatedevice, wdm/IoCreateDevice
 ms.topic: function
+f1_keywords:
+ - "wdm/IoCreateDevice"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

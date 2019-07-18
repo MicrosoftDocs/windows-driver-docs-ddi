@@ -8,6 +8,8 @@ ms.assetid: dba0ac90-a895-4daf-ba7c-b7a8a32fed19
 ms.date: 04/20/2018
 ms.keywords: GetPrintTicket, GetPrintTicket method [Print Devices], GetPrintTicket method [Print Devices],IFixedDocumentSequence interface, IFixedDocumentSequence interface [Print Devices],GetPrintTicket method, IFixedDocumentSequence.GetPrintTicket, IFixedDocumentSequence::GetPrintTicket, filterpipeline/IFixedDocumentSequence::GetPrintTicket, filterpipeline_f94c6c29-91ba-4820-ad22-12cc9604993c.xml, print.ifixeddocumentsequence_getprintticket
 ms.topic: method
+f1_keywords:
+ - "filterpipeline/IFixedDocumentSequence.GetPrintTicket"
 req.header: filterpipeline.h
 req.include-header: 
 req.target-type: Desktop

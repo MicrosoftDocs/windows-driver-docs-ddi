@@ -8,6 +8,8 @@ ms.assetid: 24149E73-6BA8-4C5E-8649-25A90A3D01AF
 ms.date: 05/02/2018
 ms.keywords: NDIS_NDK_CONNECTIONS, NDIS_NDK_CONNECTIONS structure [Network Drivers Starting with Windows Vista], PNDIS_NDK_CONNECTIONS, PNDIS_NDK_CONNECTIONS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NDK_CONNECTIONS, netvista.ndis_ndk_connections, ntddndis/NDIS_NDK_CONNECTIONS, ntddndis/PNDIS_NDK_CONNECTIONS
 ms.topic: struct
+f1_keywords:
+ - "ntddndis/NDIS_NDK_CONNECTIONS"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: C2AE51AE-EEB6-49BB-A6E4-BBCE6A25C905
 ms.date: 05/07/2018
 ms.keywords: UdecxUrbRetrieveBuffer, UdecxUrbRetrieveBuffer function [Buses], buses.udecxurbretrievebuffer, udecxurb/UdecxUrbRetrieveBuffer
 ms.topic: function
+f1_keywords:
+ - "udecxurb/UdecxUrbRetrieveBuffer"
 req.header: udecxurb.h
 req.include-header: Udecx.h
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: 684a60e5-f8c4-4ab4-bf55-e50469a67265
 ms.date: 04/16/2018
 ms.keywords: FsRtlUninitializeLargeMcb, FsRtlUninitializeLargeMcb routine [Installable File System Drivers], fsrtlref_6bd92101-b025-4469-8e05-52afbb5cf75e.xml, ifsk.fsrtluninitializelargemcb, ntifs/FsRtlUninitializeLargeMcb
 ms.topic: function
+f1_keywords:
+ - "ntifs/FsRtlUninitializeLargeMcb"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

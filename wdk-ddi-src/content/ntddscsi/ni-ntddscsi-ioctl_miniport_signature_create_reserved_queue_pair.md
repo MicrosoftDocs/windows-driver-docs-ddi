@@ -5,6 +5,8 @@ description:
 ms.assetid: 48859d1c-b9c2-4d44-944f-43b88d528964
 ms.date: 10/19/2018
 ms.topic: ioctl
+f1_keywords:
+ - "ntddscsi/IOCTL_MINIPORT_SIGNATURE_CREATE_RESERVED_QUEUE_PAIR"
 req.header: ntddscsi.h
 req.include-header:
 req.target-type:

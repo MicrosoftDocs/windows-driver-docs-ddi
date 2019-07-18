@@ -8,6 +8,8 @@ ms.assetid: 38df72bd-5206-4655-846c-ae925ed648eb
 ms.date: 04/04/2018
 ms.keywords: IWDTFSimulatedBatterySystemAction, IWDTFSimulatedBatterySystemAction interface [Windows Device Testing Framework], IWDTFSimulatedBatterySystemAction interface [Windows Device Testing Framework],described, dtf.iwdtfsimulatedbatterysystemaction, wdtfsimulatedbatterysystemaction/IWDTFSimulatedBatterySystemAction
 ms.topic: interface
+f1_keywords:
+ - "wdtfsimulatedbatterysystemaction/IWDTFSimulatedBatterySystemAction"
 req.header: wdtfsimulatedbatterysystemaction.h
 req.include-header: 
 req.target-type: Windows

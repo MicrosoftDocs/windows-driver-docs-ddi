@@ -8,6 +8,8 @@ ms.assetid: bfccd901-9ce7-4873-ba9a-0e4718fd7d19
 ms.date: 05/02/2018
 ms.keywords: NdisCancelDirectOidRequest, NdisCancelDirectOidRequest function [Network Drivers Starting with Windows Vista], ndis/NdisCancelDirectOidRequest, ndis_request_direct_ref_71cb0f66-b7f7-49b5-b006-ca50eff45bcb.xml, netvista.ndiscanceldirectoidrequest
 ms.topic: function
+f1_keywords:
+ - "ndis/NdisCancelDirectOidRequest"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

@@ -8,6 +8,8 @@ ms.assetid: c8743f5a-fc23-4029-a60d-637935fda781
 ms.date: 04/04/2018
 ms.keywords: GetValueNumbers, GetValueNumbers method [Windows Device Testing Framework], GetValueNumbers method [Windows Device Testing Framework],IWDTFTarget2 interface, IWDTFTarget2 interface [Windows Device Testing Framework],GetValueNumbers method, IWDTFTarget2.GetValueNumbers, IWDTFTarget2::GetValueNumbers, Microsoft.WDTF.IWDTFTarget2.GetValueNumbers, Microsoft::WDTF::IWDTFTarget2::GetValueNumbers, dtf.iwdtftarget2_getvaluenumbers, wdtf/IWDTFTarget2::GetValueNumbers
 ms.topic: method
+f1_keywords:
+ - "wdtf/IWDTFTarget2.GetValueNumbers"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Desktop

@@ -8,6 +8,8 @@ ms.assetid: 2ed2196f-a966-4766-9acd-f0beca20ed26
 ms.date: 04/27/2018
 ms.keywords: "*PBTH_COMMAND_HEADER, BTH_COMMAND_HEADER, BTH_COMMAND_HEADER structure [Bluetooth Devices], PBTH_COMMAND_HEADER, PBTH_COMMAND_HEADER structure pointer [Bluetooth Devices], _BTH_COMMAND_HEADER, bltooth.bth_command_header, bth_ref_cfbf5d5d-0362-4b8d-9f64-c9f1ad20284b.xml, bthioctl/BTH_COMMAND_HEADER, bthioctl/PBTH_COMMAND_HEADER"
 ms.topic: struct
+f1_keywords:
+ - "bthioctl/BTH_COMMAND_HEADER"
 req.header: bthioctl.h
 req.include-header: Bthioctl.h
 req.target-type: Windows

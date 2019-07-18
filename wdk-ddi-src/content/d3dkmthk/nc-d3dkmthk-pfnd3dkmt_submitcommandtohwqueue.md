@@ -5,6 +5,8 @@ description: Implemented by the client driver to submit a command to queue hardw
 ms.assetid: 4d21d4b5-4b23-44d0-be9c-25d2abbcf628
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/PFND3DKMT_SUBMITCOMMANDTOHWQUEUE"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

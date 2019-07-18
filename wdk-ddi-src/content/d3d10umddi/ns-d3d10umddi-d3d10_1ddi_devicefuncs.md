@@ -7,6 +7,8 @@ ms.assetid: 6de52d56-deca-4623-81a7-a043b8a85dc5
 ms.date: 05/10/2018
 ms.keywords: D3D10_1DDI_DEVICEFUNCS, D3D10_1DDI_DEVICEFUNCS structure [Display Devices], UMDisplayDriver_Dx10param_Structs_5790b9b0-0f52-4018-bdf7-edd33f423364.xml, d3d10umddi/D3D10_1DDI_DEVICEFUNCS, display.d3d10_1ddi_devicefuncs
 ms.topic: struct
+f1_keywords:
+ - "d3d10umddi/D3D10_1DDI_DEVICEFUNCS"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows

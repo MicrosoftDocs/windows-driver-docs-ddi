@@ -6,6 +6,8 @@ tech.root: storage
 ms.assetid: deb9e6b6-d744-4c3a-a6f4-d1b452401a08
 ms.date: 04/11/2018
 ms.topic: function
+f1_keywords:
+ - "ntddstor/DeviceDsmGetOutputLength"
 ms.keywords: DeviceDsmGetOutputLength
 req.header: ntddstor.h
 req.include-header:

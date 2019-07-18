@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: a701a508-aaf8-4272-bdb5-d5d57b33ae08
 ms.date: 02/05/2018
 ms.topic: enum
+f1_keywords:
+ - "netadapter/NET_PACKET_FILTER_TYPES_FLAGS"
 ms.keywords: _NET_PACKET_FILTER_TYPES_FLAGS, NET_PACKET_FILTER_TYPES_FLAGS, 
 req.header: netadapter.h
 req.include-header:

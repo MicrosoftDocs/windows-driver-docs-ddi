@@ -8,6 +8,8 @@ ms.assetid: 8259117b-87ef-410a-955b-6f99966574a6
 ms.date: 04/23/2018
 ms.keywords: AVStrMiniFilterReset, AVStrMiniFilterReset routine [Streaming Media Devices], PFNKSFILTERVOID, avstclbk_71a3cd5d-faa7-4a7f-a341-deacfbcda051.xml, ks/AVStrMiniFilterReset, stream.avstrminifilterreset
 ms.topic: callback
+f1_keywords:
+ - "ks/AVStrMiniFilterReset"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop

@@ -8,6 +8,8 @@ ms.assetid: e2ea9c59-cc63-4ced-a225-e0c9667dd574
 ms.date: 05/03/2018
 ms.keywords: IStillImageW interface [Imaging Devices],SetDeviceValue method, IStillImageW.SetDeviceValue, IStillImageW::SetDeviceValue, SetDeviceValue, SetDeviceValue method [Imaging Devices], SetDeviceValue method [Imaging Devices],IStillImageW interface, image.istillimage_setdevicevalue, sti/IStillImageW::SetDeviceValue, stifnc_74822300-cad0-43db-80b9-d3f868afcd19.xml
 ms.topic: method
+f1_keywords:
+ - "sti/IStillImageW.SetDeviceValue"
 req.header: sti.h
 req.include-header: Sti.h
 req.target-type: Desktop

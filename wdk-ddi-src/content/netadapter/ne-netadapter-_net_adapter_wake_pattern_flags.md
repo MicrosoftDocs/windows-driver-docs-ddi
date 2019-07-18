@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: ef1fc7e0-e739-4915-a5ac-924bdfd78cb8
 ms.date: 02/05/2018
 ms.topic: enum
+f1_keywords:
+ - "netadapter/NET_ADAPTER_WAKE_PATTERN_FLAGS"
 ms.keywords: _NET_ADAPTER_WAKE_PATTERN_FLAGS, NET_ADAPTER_WAKE_PATTERN_FLAGS, 
 req.header: netadapter.h
 req.include-header:

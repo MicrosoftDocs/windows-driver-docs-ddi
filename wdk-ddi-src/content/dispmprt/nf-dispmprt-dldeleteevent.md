@@ -8,6 +8,8 @@ ms.assetid: f3e77a38-ee36-4bed-ac45-5272cdeba95c
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
 ms.topic: function
+f1_keywords:
+ - "dispmprt/DlDeleteEvent"
 ms.keywords: DlDeleteEvent
 req.header: dispmprt.h
 req.include-header:

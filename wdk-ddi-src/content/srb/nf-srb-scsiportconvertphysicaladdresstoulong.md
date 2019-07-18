@@ -8,6 +8,8 @@ ms.assetid: 55c258d2-922a-430a-ba6b-b05a078b712d
 ms.date: 03/29/2018
 ms.keywords: ScsiPortConvertPhysicalAddressToUlong, ScsiPortConvertPhysicalAddressToUlong routine [Storage Devices], scsiprt_5417817d-81ab-4ba9-96f6-589991aecfce.xml, srb/ScsiPortConvertPhysicalAddressToUlong, storage.scsiportconvertphysicaladdresstoulong
 ms.topic: function
+f1_keywords:
+ - "srb/ScsiPortConvertPhysicalAddressToUlong"
 req.header: srb.h
 req.include-header: Miniport.h, Scsi.h
 req.target-type: Desktop

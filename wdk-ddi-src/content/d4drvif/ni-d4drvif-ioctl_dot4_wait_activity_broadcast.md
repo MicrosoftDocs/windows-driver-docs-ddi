@@ -8,6 +8,8 @@ ms.assetid: 4E39AC46-BE78-4503-AA3A-D45BC79DBDEF
 ms.date: 04/20/2018
 ms.keywords: IOCTL_DOT4_WAIT_ACTIVITY_BROADCAST, IOCTL_DOT4_WAIT_ACTIVITY_BROADCAST control, IOCTL_DOT4_WAIT_ACTIVITY_BROADCAST control code [Print Devices], d4drvif/IOCTL_DOT4_WAIT_ACTIVITY_BROADCAST, print.ioctl_ioctl_dot4_wait_activity_broadcast
 ms.topic: ioctl
+f1_keywords:
+ - "d4drvif/IOCTL_DOT4_WAIT_ACTIVITY_BROADCAST"
 req.header: d4drvif.h
 req.include-header: 
 req.target-type: Windows

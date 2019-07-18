@@ -8,6 +8,8 @@ ms.assetid: 5DC3C7C8-E7D1-4874-AF8D-8E6FD48DF046
 ms.date: 02/26/2018
 ms.keywords: WdfDeviceInitSetReleaseHardwareOrderOnFailure, WdfDeviceInitSetReleaseHardwareOrderOnFailure method, kmdf.wdfdeviceinitsetreleasehardwareorderonfailure, wdf.wdfdeviceinitsetreleasehardwareorderonfailure, wdfdevice/WdfDeviceInitSetReleaseHardwareOrderOnFailure
 ms.topic: function
+f1_keywords:
+ - "wdfdevice/WdfDeviceInitSetReleaseHardwareOrderOnFailure"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

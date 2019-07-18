@@ -8,6 +8,8 @@ ms.assetid: 8126af29-a7ee-4ab7-8902-45b4baf33b9e
 ms.date: 05/08/2018
 ms.keywords: GetPhysicalPagesCount, GetPhysicalPagesCount method [Audio Devices], GetPhysicalPagesCount method [Audio Devices],IPortWaveRTStream interface, IPortWaveRTStream interface [Audio Devices],GetPhysicalPagesCount method, IPortWaveRTStream.GetPhysicalPagesCount, IPortWaveRTStream::GetPhysicalPagesCount, audio.iportwavertstream_getphysicalpagescount, audmp-routines_bdc74102-0337-436b-b3ac-68187fb323a4.xml, portcls/IPortWaveRTStream::GetPhysicalPagesCount
 ms.topic: method
+f1_keywords:
+ - "portcls/IPortWaveRTStream.GetPhysicalPagesCount"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Universal

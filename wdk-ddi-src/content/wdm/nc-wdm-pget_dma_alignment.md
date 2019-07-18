@@ -8,6 +8,8 @@ ms.assetid: c96ed5ad-34d8-4530-8d00-483e5aee7261
 ms.date: 04/30/2018
 ms.keywords: GetDmaAlignment, GetDmaAlignment callback function [Kernel-Mode Driver Architecture], PGET_DMA_ALIGNMENT, PGET_DMA_ALIGNMENT callback, kdma_3b830c2d-6c3d-477c-b781-c9d1a7dbe5bf.xml, kernel.getdmaalignment, wdm/GetDmaAlignment
 ms.topic: callback
+f1_keywords:
+ - "wdm/GetDmaAlignment"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop

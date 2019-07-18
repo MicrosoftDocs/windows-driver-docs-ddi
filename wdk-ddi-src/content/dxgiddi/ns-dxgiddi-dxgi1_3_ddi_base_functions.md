@@ -8,6 +8,8 @@ ms.assetid: F857BA54-A572-4376-83F3-573F90033261
 ms.date: 05/10/2018
 ms.keywords: DXGI1_3_DDI_BASE_FUNCTIONS, DXGI1_3_DDI_BASE_FUNCTIONS structure [Display Devices], display.dxgi1_3_ddi_base_functions, dxgiddi/DXGI1_3_DDI_BASE_FUNCTIONS
 ms.topic: struct
+f1_keywords:
+ - "dxgiddi/DXGI1_3_DDI_BASE_FUNCTIONS"
 req.header: dxgiddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows

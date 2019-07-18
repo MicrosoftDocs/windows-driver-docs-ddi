@@ -5,6 +5,8 @@ description: Specifies result flags for the ReclaimAllocations callback function
 ms.assetid: 5d484da2-3a78-4061-ac72-55101957707f
 ms.date: 10/19/2018
 ms.topic: enum
+f1_keywords:
+ - "d3dukmdt/_D3DDDI_RECLAIM_RESULT"
 ms.keywords: _D3DDDI_RECLAIM_RESULT, D3DDDI_RECLAIM_RESULT, 
 req.header: d3dukmdt.h
 req.include-header:

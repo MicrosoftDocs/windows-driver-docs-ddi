@@ -8,6 +8,8 @@ ms.assetid: 9bc709cb-1adb-4b70-b8cb-9168ccb7b259
 ms.date: 04/04/2018
 ms.keywords: IAction, IAction interface [Windows Device Testing Framework], IAction interface [Windows Device Testing Framework],described, IAction_d82d1b27-acd4-43f6-b020-a9a9fa5dbe60.xml, Microsoft.WDTF.IAction, dtf.iaction, wdtf/IAction
 ms.topic: interface
+f1_keywords:
+ - "wdtf/IAction"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Windows

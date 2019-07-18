@@ -8,6 +8,8 @@ ms.assetid: AA3E273F-FCC0-4633-8A4C-194DA1C0E0D7
 ms.date: 04/30/2018
 ms.keywords: "*PPEP_KERNEL_INFORMATION, *PPEP_KERNEL_INFORMATION_STRUCT_V3, PEP_KERNEL_INFORMATION, PEP_KERNEL_INFORMATION_STRUCT_V3, PEP_KERNEL_INFORMATION_STRUCT_V3 structure [Kernel-Mode Driver Architecture], PPEP_KERNEL_INFORMATION_STRUCT_V3, PPEP_KERNEL_INFORMATION_STRUCT_V3 structure pointer [Kernel-Mode Driver Architecture], _PEP_KERNEL_INFORMATION_STRUCT_V3, kernel.pep_kernel_information_struct_v3, pepfx/PEP_KERNEL_INFORMATION_STRUCT_V3, pepfx/PPEP_KERNEL_INFORMATION_STRUCT_V3"
 ms.topic: struct
+f1_keywords:
+ - "pepfx/PEP_KERNEL_INFORMATION_STRUCT_V3"
 req.header: pepfx.h
 req.include-header: Pep_x.h
 req.target-type: Windows

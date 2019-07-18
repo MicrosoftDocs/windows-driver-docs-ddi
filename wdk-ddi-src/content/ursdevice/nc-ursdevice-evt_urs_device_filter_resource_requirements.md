@@ -8,6 +8,8 @@ ms.assetid: E5CFA6CF-1EB3-41FA-BAE4-A030737F220D
 ms.date: 05/07/2018
 ms.keywords: EVT_URS_DEVICE_FILTER_RESOURCE_REQUIREMENTS, EVT_URS_DEVICE_FILTER_RESOURCE_REQUIREMENTS callback, EvtUrsDeviceFilterResourceRequirements, EvtUrsDeviceFilterResourceRequirements callback function [Buses], PFN_URS_DEVICE_FILTER_RESOURCE_REQUIREMENTS, PFN_URS_DEVICE_FILTER_RESOURCE_REQUIREMENTS callback function pointer [Buses], buses.evt_urs_device_filter_resource_requirements, ursdevice/EvtUrsDeviceFilterResourceRequirements
 ms.topic: callback
+f1_keywords:
+ - "ursdevice/PFN_URS_DEVICE_FILTER_RESOURCE_REQUIREMENTS"
 req.header: ursdevice.h
 req.include-header: Urscx.h
 req.target-type: Windows

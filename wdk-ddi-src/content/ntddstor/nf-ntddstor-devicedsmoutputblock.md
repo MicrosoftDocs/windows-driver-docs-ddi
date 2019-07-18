@@ -6,6 +6,8 @@ tech.root: storage
 ms.assetid: a33581ae-15ac-4957-99a0-58ed8c8dbd24
 ms.date: 04/11/2018
 ms.topic: function
+f1_keywords:
+ - "ntddstor/DeviceDsmOutputBlock"
 ms.keywords: DeviceDsmOutputBlock
 req.header: ntddstor.h
 req.include-header:

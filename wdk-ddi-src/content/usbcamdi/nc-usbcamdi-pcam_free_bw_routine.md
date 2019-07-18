@@ -8,6 +8,8 @@ ms.assetid: 360fd299-bb8a-4fbb-899d-0e5fbe228d80
 ms.date: 04/23/2018
 ms.keywords: CamFreeBandwidth, CamFreeBandwidth callback function [Streaming Media Devices], PCAM_FREE_BW_ROUTINE, PCAM_FREE_BW_ROUTINE callback, stream.camfreebandwidth, usbcamdi/CamFreeBandwidth, usbcmdpr_bf8779db-a06c-49b8-aa2f-e558a53bfa93.xml
 ms.topic: callback
+f1_keywords:
+ - "usbcamdi/CamFreeBandwidth"
 req.header: usbcamdi.h
 req.include-header: Usbcamdi.h
 req.target-type: Desktop

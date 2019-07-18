@@ -8,6 +8,8 @@ ms.assetid: ece51af6-7368-4ce2-aa45-d82d86b151c8
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
 ms.topic: struct
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_COMMAND_LIST_FUNCS_3D_0062"
 ms.keywords: D3D12DDI_COMMAND_LIST_FUNCS_3D_0062, D3D12DDI_COMMAND_LIST_FUNCS_3D_0062, 
 req.header: d3d12umddi.h
 req.include-header:

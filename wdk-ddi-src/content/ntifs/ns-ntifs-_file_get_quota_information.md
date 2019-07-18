@@ -8,6 +8,8 @@ ms.assetid: 4c4d57bd-28b3-4db3-a172-bc1a27dd10b2
 ms.date: 04/16/2018
 ms.keywords: "*PFILE_GET_QUOTA_INFORMATION, FILE_GET_QUOTA_INFORMATION, FILE_GET_QUOTA_INFORMATION structure [Installable File System Drivers], PFILE_GET_QUOTA_INFORMATION, PFILE_GET_QUOTA_INFORMATION structure pointer [Installable File System Drivers], _FILE_GET_QUOTA_INFORMATION, fileinformationstructures_e64ee968-bf98-422e-9bed-837b984fbc33.xml, ifsk.file_get_quota_information, ntifs/FILE_GET_QUOTA_INFORMATION, ntifs/PFILE_GET_QUOTA_INFORMATION"
 ms.topic: struct
+f1_keywords:
+ - "ntifs/FILE_GET_QUOTA_INFORMATION"
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Windows

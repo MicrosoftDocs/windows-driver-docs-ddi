@@ -5,6 +5,8 @@ description: Describes allocation contexts that content is copied to and from.
 ms.assetid: d706dd0f-3664-4233-ade2-870d03c2317b
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_PRESENT_CONTEXTS_0051"
 ms.keywords: D3D12DDI_PRESENT_CONTEXTS_0051, D3D12DDI_PRESENT_CONTEXTS_0051, 
 req.header: d3d12umddi.h
 req.include-header:

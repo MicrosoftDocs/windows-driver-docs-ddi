@@ -8,6 +8,8 @@ ms.assetid: 76a0fc34-a3e9-4f97-9c60-e7d179b1e6c3
 ms.date: 04/16/2018
 ms.keywords: RtlTimeToSecondsSince1980, RtlTimeToSecondsSince1980 routine [Installable File System Drivers], ifsk.rtltimetosecondssince1980, ntifs/RtlTimeToSecondsSince1980, rtlref_14f6e0b0-4291-46ce-aadc-ee8dc169a8cf.xml
 ms.topic: function
+f1_keywords:
+ - "ntifs/RtlTimeToSecondsSince1980"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

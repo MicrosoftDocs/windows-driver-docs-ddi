@@ -8,6 +8,8 @@ ms.assetid: 228b95b0-1087-422f-a995-809743c6103e
 ms.date: 04/30/2018
 ms.keywords: HidP_GetButtonCaps, HidP_GetButtonCaps routine [Human Input Devices], hid.hidp_getbuttoncaps, hidfunc_57425ae7-03dd-42b7-b9b3-0581569ab442.xml, hidpi/HidP_GetButtonCaps
 ms.topic: function
+f1_keywords:
+ - "hidpi/HidP_GetButtonCaps"
 req.header: hidpi.h
 req.include-header: Hidpi.h
 req.target-type: Universal

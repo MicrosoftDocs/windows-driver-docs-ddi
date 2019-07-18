@@ -8,6 +8,8 @@ ms.assetid: 9ca488b1-30d3-44dc-acb3-87d97e439393
 ms.date: 02/15/2018
 ms.keywords: IOCTL_INTERNAL_PARALLEL_DISCONNECT_INTERRUPT, IOCTL_INTERNAL_PARALLEL_DISCONNECT_INTERRUPT control code [Parallel Ports], cisspd_d98e5171-686e-41de-96fd-4615eaad82f3.xml, parallel/IOCTL_INTERNAL_PARALLEL_DISCONNECT_INTERRUPT, parports.ioctl_internal_parallel_disconnect_interrupt
 ms.topic: ioctl
+f1_keywords:
+ - "parallel/IOCTL_INTERNAL_PARALLEL_DISCONNECT_INTERRUPT"
 req.header: parallel.h
 req.include-header: Parallel.h
 req.target-type: Windows

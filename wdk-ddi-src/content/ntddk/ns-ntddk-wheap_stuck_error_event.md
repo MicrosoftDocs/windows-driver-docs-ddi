@@ -8,6 +8,8 @@ ms.assetid: 2242c293-a853-40d3-87bc-9e74dc36f6de
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
+f1_keywords:
+ - "ntddk/WHEAP_STUCK_ERROR_EVENT"
 ms.keywords: WHEAP_STUCK_ERROR_EVENT, WHEAP_STUCK_ERROR_EVENT, *PWHEAP_STUCK_ERROR_EVENT, 
 req.header: ntddk.h
 req.include-header:

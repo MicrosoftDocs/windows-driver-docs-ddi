@@ -8,6 +8,8 @@ ms.assetid: 1e5b71cf-98c4-42bc-984d-6278ff30e8c1
 ms.date: 05/03/2018
 ms.keywords: GetSymbolTypeNameWide, GetSymbolTypeNameWide method [Windows Debugging], GetSymbolTypeNameWide method [Windows Debugging],IDebugSymbolGroup2 interface, IDebugSymbolGroup2 interface [Windows Debugging],GetSymbolTypeNameWide method, IDebugSymbolGroup2.GetSymbolTypeNameWide, IDebugSymbolGroup2::GetSymbolTypeNameWide, dbgeng/IDebugSymbolGroup2::GetSymbolTypeNameWide, debugger.getsymboltypenamewide
 ms.topic: method
+f1_keywords:
+ - "dbgeng/IDebugSymbolGroup2.GetSymbolTypeNameWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

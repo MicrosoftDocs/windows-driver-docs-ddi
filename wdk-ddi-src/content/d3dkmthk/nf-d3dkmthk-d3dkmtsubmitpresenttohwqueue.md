@@ -5,6 +5,8 @@ description: SubmitPresentToHwQueue submits a Blt Present operation to a hardwar
 ms.assetid: d43c7da0-ce52-408c-8b74-5941ecde7898
 ms.date: 10/19/2018
 ms.topic: function
+f1_keywords:
+ - "d3dkmthk/D3DKMTSubmitPresentToHwQueue"
 ms.keywords: D3DKMTSubmitPresentToHwQueue
 req.header: d3dkmthk.h
 req.include-header:

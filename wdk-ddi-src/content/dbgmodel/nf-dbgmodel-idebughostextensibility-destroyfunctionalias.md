@@ -5,6 +5,8 @@ description: The DestroyFunctionAlias method undoes a prior call to the CreateFu
 ms.assetid: 804810be-bb3a-41e8-b239-919625eb6f0c
 ms.date: 09/12/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDebugHostExtensibility.DestroyFunctionAlias"
 ms.keywords: IDebugHostExtensibility::DestroyFunctionAlias, DestroyFunctionAlias, IDebugHostExtensibility.DestroyFunctionAlias, IDebugHostExtensibility::DestroyFunctionAlias, IDebugHostExtensibility.DestroyFunctionAlias
 req.header: dbgmodel.h
 req.include-header:

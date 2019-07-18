@@ -8,6 +8,8 @@ ms.assetid: b47976ad-fdde-48cb-bb30-4eaf25489143
 ms.date: 05/02/2018
 ms.keywords: NdisMCmDispatchCallConnected, NdisMCmDispatchCallConnected macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_3d3199be-36e5-445e-986d-984a4f778da0.xml, ndis/NdisMCmDispatchCallConnected, netvista.ndismcmdispatchcallconnected
 ms.topic: macro
+f1_keywords:
+ - "ndis/NdisMCmDispatchCallConnected"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

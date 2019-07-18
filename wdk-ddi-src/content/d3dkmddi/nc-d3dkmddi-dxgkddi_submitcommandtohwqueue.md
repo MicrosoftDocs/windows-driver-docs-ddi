@@ -5,6 +5,8 @@ description: Invoked by the DirectX graphics kernel to append a DMA buffer to a 
 ms.assetid: 4dec4717-b938-4960-8347-991e100537eb
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmddi/DXGKDDI_SUBMITCOMMANDTOHWQUEUE"
 req.header: d3dkmddi.h
 req.include-header:
 req.target-type:

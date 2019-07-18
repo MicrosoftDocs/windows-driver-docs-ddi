@@ -8,6 +8,8 @@ ms.assetid: 1f6b4d93-fca8-40da-b87e-c95169f142ea
 ms.date: 04/23/2018
 ms.keywords: KsMoveIrpsOnCancelableQueue, KsMoveIrpsOnCancelableQueue function [Streaming Media Devices], ks/KsMoveIrpsOnCancelableQueue, ksfunc_e01b21f7-96b7-4a6c-b6cb-3667d7b6b4dc.xml, stream.ksmoveirpsoncancelablequeue
 ms.topic: function
+f1_keywords:
+ - "ks/KsMoveIrpsOnCancelableQueue"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

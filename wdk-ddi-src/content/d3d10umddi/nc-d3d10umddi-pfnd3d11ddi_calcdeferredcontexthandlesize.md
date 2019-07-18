@@ -7,6 +7,8 @@ ms.assetid: d26c26ef-be8e-434a-b3d3-623ed539c541
 ms.date: 05/10/2018
 ms.keywords: CalcDeferredContextHandleSize, CalcDeferredContextHandleSize callback function [Display Devices], PFND3D11DDI_CALCDEFERREDCONTEXTHANDLESIZE, PFND3D11DDI_CALCDEFERREDCONTEXTHANDLESIZE callback, UserModeDisplayDriverDx11_Functions_f5e77e2c-2925-4556-b80a-84636a4b326a.xml, d3d10umddi/CalcDeferredContextHandleSize, display.calcdeferredcontexthandlesize
 ms.topic: callback
+f1_keywords:
+ - "d3d10umddi/CalcDeferredContextHandleSize"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

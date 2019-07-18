@@ -7,6 +7,8 @@ ms.assetid: 35fe914b-13e8-4658-9ea6-af1eb9068f6f
 ms.date: 05/10/2018
 ms.keywords: D3D11_1DDI_VIDEO_DECODER_DESC, D3D11_1DDI_VIDEO_DECODER_DESC structure [Display Devices], d3d10umddi/D3D11_1DDI_VIDEO_DECODER_DESC, display.d3d11_1ddi_video_decoder_desc
 ms.topic: struct
+f1_keywords:
+ - "d3d10umddi/D3D11_1DDI_VIDEO_DECODER_DESC"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows

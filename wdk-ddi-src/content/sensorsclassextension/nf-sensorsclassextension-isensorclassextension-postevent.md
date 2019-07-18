@@ -8,6 +8,8 @@ ms.assetid: 201a4558-8755-4a28-9982-c02ce5b5d8e7
 ms.date: 05/03/2018
 ms.keywords: ISensorClassExtension interface [Sensor Devices],PostEvent method, ISensorClassExtension.PostEvent, ISensorClassExtension::PostEvent, PostEvent, PostEvent method [Sensor Devices], PostEvent method [Sensor Devices],ISensorClassExtension interface, sensors.isensorclassextension_postevent, sensorsclassextension/ISensorClassExtension::PostEvent
 ms.topic: method
+f1_keywords:
+ - "sensorsclassextension/PostEvent"
 req.header: sensorsclassextension.h
 req.include-header: 
 req.target-type: Windows

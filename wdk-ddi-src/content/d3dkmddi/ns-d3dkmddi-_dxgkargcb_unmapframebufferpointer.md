@@ -5,6 +5,8 @@ description: Arguments used by the DxgkcbUnmapFrameBufferPointer callback functi
 ms.assetid: 16f1a189-7470-43ff-9b5f-15b87a120eaf
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3dkmddi/_DXGKARGCB_UNMAPFRAMEBUFFERPOINTER"
 ms.keywords: _DXGKARGCB_UNMAPFRAMEBUFFERPOINTER, DXGKARGCB_UNMAPFRAMEBUFFERPOINTER,
 req.header: d3dkmddi.h
 req.include-header:

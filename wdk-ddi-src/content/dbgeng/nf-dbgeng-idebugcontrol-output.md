@@ -8,6 +8,8 @@ ms.assetid: 2c748325-3718-4fcc-98a3-3318d361ba6e
 ms.date: 05/03/2018
 ms.keywords: IDebugControl interface [Windows Debugging],Output method, IDebugControl.Output, IDebugControl2 interface [Windows Debugging],Output method, IDebugControl2::Output, IDebugControl3 interface [Windows Debugging],Output method, IDebugControl3::Output, IDebugControl::Output, IDebugControl_4b29317b-e521-4deb-84dc-fc4bb7d6ca90.xml, Output, Output method [Windows Debugging], Output method [Windows Debugging],IDebugControl interface, Output method [Windows Debugging],IDebugControl2 interface, Output method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl2::Output, dbgeng/IDebugControl3::Output, dbgeng/IDebugControl::Output, debugger.output
 ms.topic: method
+f1_keywords:
+ - "dbgeng/IDebugControl.Output"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

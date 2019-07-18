@@ -8,6 +8,8 @@ ms.assetid: 8f85bc55-d05b-4075-9ae5-ba5a5516eeb4
 ms.date: 04/23/2018
 ms.keywords: "*PKS_DVDCOPY_TITLEKEY, KS_DVDCOPY_TITLEKEY, KS_DVDCOPY_TITLEKEY structure [Streaming Media Devices], PKS_DVDCOPY_TITLEKEY, PKS_DVDCOPY_TITLEKEY structure pointer [Streaming Media Devices], _KS_DVDCOPY_TITLEKEY, dvdref_58692699-8652-436a-92d5-2284c4d30265.xml, ksmedia/KS_DVDCOPY_TITLEKEY, ksmedia/PKS_DVDCOPY_TITLEKEY, stream.ks_dvdcopy_titlekey"
 ms.topic: struct
+f1_keywords:
+ - "ksmedia/KS_DVDCOPY_TITLEKEY"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows

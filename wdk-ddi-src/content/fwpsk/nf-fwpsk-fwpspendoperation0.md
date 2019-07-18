@@ -8,6 +8,8 @@ ms.assetid: 03423785-83c5-4908-8c06-3be1b226c29e
 ms.date: 05/02/2018
 ms.keywords: FwpsPendOperation0, FwpsPendOperation0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsPendOperation0, netvista.fwpspendoperation0, wfp_ref_2_funct_3_fwps_J-Q_4e19462a-e31a-4d06-af83-68b11a00dd7a.xml
 ms.topic: function
+f1_keywords:
+ - "fwpsk/FwpsPendOperation0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal

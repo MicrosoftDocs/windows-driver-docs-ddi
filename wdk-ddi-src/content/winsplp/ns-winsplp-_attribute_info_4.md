@@ -8,6 +8,8 @@ ms.assetid: 09071fff-834b-452b-ae1e-b75c9f191b15
 ms.date: 04/20/2018
 ms.keywords: "*PATTRIBUTE_INFO_4, ATTRIBUTE_INFO_4, ATTRIBUTE_INFO_4 structure [Print Devices], PATTRIBUTE_INFO_4, PATTRIBUTE_INFO_4 structure pointer [Print Devices], _ATTRIBUTE_INFO_4, print.attribute_info_4, print_interface-graphics_7fa07014-1d16-48c0-be12-cb5026d8f285.xml, winddiui/ATTRIBUTE_INFO_4, winddiui/PATTRIBUTE_INFO_4"
 ms.topic: struct
+f1_keywords:
+ - "winsplp/ATTRIBUTE_INFO_4"
 req.header: winsplp.h
 req.include-header: Winddiui.h, Winsplp.h
 req.target-type: Windows

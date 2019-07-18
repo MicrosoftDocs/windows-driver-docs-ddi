@@ -8,6 +8,8 @@ ms.assetid: 13466A7E-D39B-4E60-AD02-2E6EFE27495A
 ms.date: 04/23/2018
 ms.keywords: 1/SerCxDeviceInitConfig, SerCxDeviceInitConfig, SerCxDeviceInitConfig method [Serial Ports], serports.sercxdeviceinitconfig
 ms.topic: function
+f1_keywords:
+ - "sercx/SerCxDeviceInitConfig"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Universal

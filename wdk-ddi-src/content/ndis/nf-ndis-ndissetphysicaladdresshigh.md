@@ -8,6 +8,8 @@ ms.assetid: bbe58583-ea65-4920-9056-ab46bd881618
 ms.date: 05/02/2018
 ms.keywords: NdisSetPhysicalAddressHigh, NdisSetPhysicalAddressHigh macro [Network Drivers Starting with Windows Vista], miniport_memory_shared_ref_4644a620-5ec7-449e-9886-ddee46d9ff2a.xml, ndis/NdisSetPhysicalAddressHigh, netvista.ndissetphysicaladdresshigh
 ms.topic: macro
+f1_keywords:
+ - "ndis/NdisSetPhysicalAddressHigh"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

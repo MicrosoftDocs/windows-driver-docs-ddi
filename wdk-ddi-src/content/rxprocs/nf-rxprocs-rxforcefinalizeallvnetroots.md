@@ -8,6 +8,8 @@ ms.assetid: 39b64fc0-70e6-4bca-ac45-817b27681487
 ms.date: 04/16/2018
 ms.keywords: RxForceFinalizeAllVNetRoots, RxForceFinalizeAllVNetRoots function [Installable File System Drivers], ifsk.rxforcefinalizeallvnetroots, rxprocs/RxForceFinalizeAllVNetRoots, rxref_4202642f-d7a8-4649-8395-4f2e423ca062.xml
 ms.topic: function
+f1_keywords:
+ - "rxprocs/RxForceFinalizeAllVNetRoots"
 req.header: rxprocs.h
 req.include-header: Rxprocs.h
 req.target-type: Desktop

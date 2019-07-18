@@ -5,6 +5,8 @@ description: The PFND3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT callback function chang
 ms.assetid: 4d9010e6-7243-420a-933d-330cfca11f89
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/PFND3DKMT_SETDISPLAYPRIVATEDRIVERFORMAT"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

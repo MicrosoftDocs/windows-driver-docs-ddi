@@ -8,6 +8,8 @@ ms.assetid: FF5D7B10-86AE-4C01-AFA9-C0C94E566428
 ms.date: 04/30/2018
 ms.keywords: RtlIntPtrToULongLong, RtlIntPtrToULongLong function [Kernel-Mode Driver Architecture], kernel.rtlintptrtoulonglong, ntintsafe/RtlIntPtrToULongLong
 ms.topic: function
+f1_keywords:
+ - "ntintsafe/RtlIntPtrToULongLong"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop

@@ -8,6 +8,8 @@ ms.assetid: 825e2b61-6b51-4553-88e1-0aff2e9e3cce
 ms.date: 05/10/2018
 ms.keywords: VideoPortGetAssociatedDeviceExtension, VideoPortGetAssociatedDeviceExtension function [Display Devices], VideoPort_Functions_7116b537-1296-4136-b62c-ce5918eea10d.xml, display.videoportgetassociateddeviceextension, video/VideoPortGetAssociatedDeviceExtension
 ms.topic: function
+f1_keywords:
+ - "video/VideoPortGetAssociatedDeviceExtension"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

@@ -8,6 +8,8 @@ ms.assetid: f6727247-e704-42d7-b4f1-ce7d20e317bb
 ms.date: 04/30/2018
 ms.keywords: RtlMoveMemory, RtlMoveMemory routine [Kernel-Mode Driver Architecture], k109_5731ba5b-a7a5-4883-87cf-543768a29a93.xml, kernel.rtlmovememory, wdm/RtlMoveMemory
 ms.topic: macro
+f1_keywords:
+ - "wdm/RtlMoveMemory"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

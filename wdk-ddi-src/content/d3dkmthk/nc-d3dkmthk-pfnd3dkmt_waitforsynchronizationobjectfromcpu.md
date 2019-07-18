@@ -5,6 +5,8 @@ description: The PFND3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU callback function
 ms.assetid: f83db141-f319-4cc3-9544-b0d98f0ce76a
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/PFND3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

@@ -8,6 +8,8 @@ ms.assetid: 49E4189A-2183-4033-BF17-ADFAC1CF1EF2
 ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_UPDATEALLOCATIONPROPERTYCB, PFND3DDDI_UPDATEALLOCATIONPROPERTYCB callback, d3dumddi/pfnUpdateAllocationPropertyCb, display.pfnupdateallocationpropertycb, pfnUpdateAllocationPropertyCb, pfnUpdateAllocationPropertyCb callback function [Display Devices]
 ms.topic: callback
+f1_keywords:
+ - "d3dumddi/pfnUpdateAllocationPropertyCb"
 req.header: d3dumddi.h
 req.include-header:
 req.target-type: Windows

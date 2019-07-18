@@ -8,6 +8,8 @@ ms.assetid: 96DF01F1-2584-4152-8EB9-D2515CA42B03
 ms.date: 05/07/2018
 ms.keywords: UdecxUsbDeviceInitAddDescriptorWithIndex, UdecxUsbDeviceInitAddDescriptorWithIndex function [Buses], buses.udecxusbdeviceinitadddescriptorwithindex, udecxusbdevice/UdecxUsbDeviceInitAddDescriptorWithIndex
 ms.topic: function
+f1_keywords:
+ - "udecxusbdevice/UdecxUsbDeviceInitAddDescriptorWithIndex"
 req.header: udecxusbdevice.h
 req.include-header: Udecx.h
 req.target-type: Windows

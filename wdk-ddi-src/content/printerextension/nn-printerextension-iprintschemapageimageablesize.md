@@ -8,6 +8,8 @@ ms.assetid: C8E9278D-D24A-4EEC-8F68-D77C76ECCC40
 ms.date: 04/20/2018
 ms.keywords: IPrintSchemaPageImageableSize, IPrintSchemaPageImageableSize interface [Print Devices], IPrintSchemaPageImageableSize interface [Print Devices],described, print.iprintschemapageimageablesize_interface, printerextension/IPrintSchemaPageImageableSize
 ms.topic: interface
+f1_keywords:
+ - "printerextension/IPrintSchemaPageImageableSize"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows

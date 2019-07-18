@@ -8,6 +8,8 @@ ms.assetid: B1599F21-D6DD-497D-9CD8-6C637ABAA33A
 ms.date: 04/20/2018
 ms.keywords: Completed, Completed method [Print Devices], Completed method [Print Devices],IPrintSchemaAsyncOperationEvent interface, IPrintSchemaAsyncOperationEvent interface [Print Devices],Completed method, IPrintSchemaAsyncOperationEvent.Completed, IPrintSchemaAsyncOperationEvent::Completed, print.iprintschemaasyncoperationevent_completed, printerextension/IPrintSchemaAsyncOperationEvent::Completed
 ms.topic: method
+f1_keywords:
+ - "printerextension/IPrintSchemaAsyncOperationEvent.Completed"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop

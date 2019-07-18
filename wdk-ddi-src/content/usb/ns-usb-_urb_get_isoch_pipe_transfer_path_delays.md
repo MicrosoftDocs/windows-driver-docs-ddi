@@ -8,6 +8,8 @@ ms.assetid: 70B74088-C537-4104-A535-F41A24BB72A5
 ms.date: 05/07/2018
 ms.keywords: "_URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS, _URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS structure [Buses], buses._urb_get_isoch_pipe_transfer_path_delays, usb/_URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS"
 ms.topic: struct
+f1_keywords:
+ - "usb/_URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS"
 req.header: usb.h
 req.include-header: 
 req.target-type: Windows

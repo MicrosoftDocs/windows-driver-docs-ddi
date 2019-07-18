@@ -5,6 +5,8 @@ description: Stops recording history in the sensor.
 ms.assetid: 6275f6dc-9c05-4fb1-a66e-60abd6052654
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "sensorscx/EVT_SENSOR_DRIVER_STOP_SENSOR_HISTORY"
 req.header: sensorscx.h
 req.include-header:
 req.target-type:

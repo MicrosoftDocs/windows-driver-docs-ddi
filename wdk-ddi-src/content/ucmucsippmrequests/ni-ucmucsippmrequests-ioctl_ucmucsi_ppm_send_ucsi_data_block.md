@@ -6,6 +6,8 @@ description: Sends a UCSI data block to the client driver.
 ms.assetid: 0b86749f-d0a5-4dbb-a95e-3404259ba09c
 ms.date: 09/30/2018
 ms.topic: ioctl
+f1_keywords:
+ - "ucmucsippmrequests/IOCTL_UCMUCSI_PPM_SEND_UCSI_DATA_BLOCK"
 req.header: Ucmucsippmrequests.h
 req.include-header: UcmUcsiCx.h
 req.target-type:

@@ -6,6 +6,8 @@ tech.root: storage
 ms.assetid: 22dca47e-9542-486a-bbf3-053cbd3fccd9
 ms.date: 04/06/2018
 ms.topic: function
+f1_keywords:
+ - "ntddstor/DeviceDsmAddDataSetRange"
 ms.keywords: DeviceDsmAddDataSetRange
 req.header: ntddstor.h
 req.include-header:

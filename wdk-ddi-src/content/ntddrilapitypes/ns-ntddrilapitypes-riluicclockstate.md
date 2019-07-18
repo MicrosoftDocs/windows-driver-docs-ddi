@@ -8,6 +8,8 @@ ms.assetid: bc27f7b8-8de0-4eae-a22b-0e5c76378b1a
 ms.date: 02/16/2018
 ms.keywords: "*LPRILUICCLOCKSTATE, RILUICCLOCKSTATE, RILUICCLOCKSTATE structure [Network Drivers Starting with Windows Vista], netvista.riluicclockstate, rilapitypes/RILUICCLOCKSTATE"
 ms.topic: struct
+f1_keywords:
+ - "ntddrilapitypes/RILUICCLOCKSTATE"
 req.header: ntddrilapitypes.h
 req.include-header: Ntddrilapitypes.h
 req.target-type: Windows

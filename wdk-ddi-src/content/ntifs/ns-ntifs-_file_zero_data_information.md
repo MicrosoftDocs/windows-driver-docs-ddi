@@ -8,6 +8,8 @@ ms.assetid: 64F1A14F-2152-4095-A594-B2AE3B87C638
 ms.date: 04/16/2018
 ms.keywords: "*PFILE_ZERO_DATA_INFORMATION, FILE_ZERO_DATA_INFORMATION, FILE_ZERO_DATA_INFORMATION structure [Installable File System Drivers], PFILE_ZERO_DATA_INFORMATION, PFILE_ZERO_DATA_INFORMATION structure pointer [Installable File System Drivers], _FILE_ZERO_DATA_INFORMATION, ifsk.file_zero_data_information, ntifs/FILE_ZERO_DATA_INFORMATION, ntifs/PFILE_ZERO_DATA_INFORMATION"
 ms.topic: struct
+f1_keywords:
+ - "ntifs/FILE_ZERO_DATA_INFORMATION"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows

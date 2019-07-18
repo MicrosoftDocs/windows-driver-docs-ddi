@@ -8,6 +8,8 @@ ms.assetid: 8f52557f-b65d-479d-aab4-1e4f7298c8f9
 ms.date: 02/26/2018
 ms.keywords: DFDmaObjectRef_012a66e9-0ed7-458f-9068-c7d2ce58d86a.xml, WdfDmaTransactionExecute, WdfDmaTransactionExecute method, kmdf.wdfdmatransactionexecute, wdf.wdfdmatransactionexecute, wdfdmatransaction/WdfDmaTransactionExecute
 ms.topic: function
+f1_keywords:
+ - "wdfdmatransaction/WdfDmaTransactionExecute"
 req.header: wdfdmatransaction.h
 req.include-header: Wdf.h
 req.target-type: Universal

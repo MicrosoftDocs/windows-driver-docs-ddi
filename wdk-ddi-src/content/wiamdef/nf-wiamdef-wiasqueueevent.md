@@ -8,6 +8,8 @@ ms.assetid: 1ea82b64-e0e0-445b-8200-70cd6920d29b
 ms.date: 05/03/2018
 ms.keywords: image.wiasqueueevent, wiamdef/wiasQueueEvent, wiasFncs_a853cdf1-8d80-4bb6-9c41-c7190e9e9202.xml, wiasQueueEvent, wiasQueueEvent function [Imaging Devices]
 ms.topic: function
+f1_keywords:
+ - "wiamdef/wiasQueueEvent"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop

@@ -8,6 +8,8 @@ ms.assetid: 4c3b08d2-bb25-40bd-b2fc-1b9ea2d452b3
 ms.date: 02/26/2018
 ms.keywords: DFGenObjectRef_a9194b33-b67b-43bb-8d50-d918576769c0.xml, EVT_WDF_OBJECT_CONTEXT_DESTROY, EVT_WDF_OBJECT_CONTEXT_DESTROY callback, EvtDestroyCallback, EvtDestroyCallback callback function, kmdf.evtdestroycallback, wdf.evtdestroycallback, wdfobject/EvtDestroyCallback
 ms.topic: callback
+f1_keywords:
+ - "wdfobject/EvtDestroyCallback"
 req.header: wdfobject.h
 req.include-header: Wdf.h
 req.target-type: Universal

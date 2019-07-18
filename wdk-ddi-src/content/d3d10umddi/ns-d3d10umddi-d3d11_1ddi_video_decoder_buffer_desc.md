@@ -7,6 +7,8 @@ ms.assetid: aff44ad9-7ade-4b01-8e41-11d686728faa
 ms.date: 02/20/2018
 ms.keywords: D3D11_1DDI_VIDEO_DECODERR_BUFFER_DESC, D3D11_1DDI_VIDEO_DECODER_BUFFER_DESC structure [Display Devices], display.d3d11_1ddi_video_decoderr_buffer_desc, d3d10umddi/D3D11_1DDI_VIDEO_DECODERR_BUFFER_DESC, D3D11_1DDI_VIDEO_DECODER_BUFFER_DESC, D3D11_1DDI_VIDEO_DECODERR_BUFFER_DESC structure [Display Devices]
 ms.topic: struct
+f1_keywords:
+ - "d3d10umddi/D3D11_1DDI_VIDEO_DECODER_BUFFER_DESC"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows

@@ -5,6 +5,8 @@ description: Opens a swap chain.
 ms.assetid: 9c22ba58-1f78-42ea-a320-8e5ce0cf1943
 ms.date: 10/19/2018
 ms.topic: function
+f1_keywords:
+ - "d3dkmthk/D3DKMTOpenSwapChain"
 ms.keywords: D3DKMTOpenSwapChain
 req.header: d3dkmthk.h
 req.include-header:

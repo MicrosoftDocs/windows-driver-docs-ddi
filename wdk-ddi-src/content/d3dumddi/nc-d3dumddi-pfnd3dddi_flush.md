@@ -8,6 +8,8 @@ ms.assetid: 0c1a9a60-de17-41d1-b31d-c1d3c95d8121
 ms.date: 05/10/2018
 ms.keywords: Flush, Flush callback function [Display Devices], PFND3DDDI_FLUSH, PFND3DDDI_FLUSH callback, UserModeDisplayDriver_Functions_a39b804f-2f41-473f-8160-4c23655c24ec.xml, d3dumddi/Flush, display.flush
 ms.topic: callback
+f1_keywords:
+ - "d3dumddi/Flush"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop

@@ -5,6 +5,8 @@ description: The PFND3D12DDI_PRESENT_0051 callback function copies content from 
 ms.assetid: 191033a4-5f8c-409b-9097-a9f096267844
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_PRESENT_0051"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

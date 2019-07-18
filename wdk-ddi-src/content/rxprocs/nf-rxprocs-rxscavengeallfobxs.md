@@ -8,6 +8,8 @@ ms.assetid: dd849f18-6271-483a-9c00-b7fe50109989
 ms.date: 04/16/2018
 ms.keywords: RxScavengeAllFobxs, RxScavengeAllFobxs function [Installable File System Drivers], ifsk.rxscavengeallfobxs, rxprocs/RxScavengeAllFobxs, rxref_d983b334-0cc7-42ab-abc7-79f1bc0876cd.xml
 ms.topic: function
+f1_keywords:
+ - "rxprocs/RxScavengeAllFobxs"
 req.header: rxprocs.h
 req.include-header: Rxprocs.h
 req.target-type: Desktop

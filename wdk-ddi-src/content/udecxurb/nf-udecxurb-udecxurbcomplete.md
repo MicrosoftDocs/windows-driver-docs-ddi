@@ -8,6 +8,8 @@ ms.assetid: F0B014F3-AE40-466B-BD9A-0D01DF70DCFF
 ms.date: 05/07/2018
 ms.keywords: UdecxUrbComplete, UdecxUrbComplete function [Buses], buses.udecxurbcomplete, udecxurb/UdecxUrbComplete
 ms.topic: function
+f1_keywords:
+ - "udecxurb/UdecxUrbComplete"
 req.header: udecxurb.h
 req.include-header: Udecx.h
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: ca46be9e-31f6-4118-8958-4eb2c8450e8c
 ms.date: 04/30/2018
 ms.keywords: RtlFreeAnsiString, RtlFreeAnsiString routine [Kernel-Mode Driver Architecture], k109_0213924f-caca-4411-b5cc-d93282f01948.xml, kernel.rtlfreeansistring, wdm/RtlFreeAnsiString
 ms.topic: function
+f1_keywords:
+ - "wdm/RtlFreeAnsiString"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

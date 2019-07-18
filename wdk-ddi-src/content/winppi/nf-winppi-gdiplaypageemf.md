@@ -8,6 +8,8 @@ ms.assetid: e0122858-0c9d-4aa8-a394-89d65fb98fda
 ms.date: 04/20/2018
 ms.keywords: GdiPlayPageEMF, GdiPlayPageEMF function [Print Devices], gdifnc_b1c27aba-d367-481a-8012-6c2f957ff11e.xml, print.gdiplaypageemf, winppi/GdiPlayPageEMF
 ms.topic: function
+f1_keywords:
+ - "winppi/GdiPlayPageEMF"
 req.header: winppi.h
 req.include-header: Winppi.h
 req.target-type: Universal

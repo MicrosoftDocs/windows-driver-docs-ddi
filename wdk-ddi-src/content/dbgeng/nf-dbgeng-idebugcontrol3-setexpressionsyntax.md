@@ -8,6 +8,8 @@ ms.assetid: ab98312f-0240-498f-992a-b05cbcc64c04
 ms.date: 05/03/2018
 ms.keywords: IDebugControl3 interface [Windows Debugging],SetExpressionSyntax method, IDebugControl3.SetExpressionSyntax, IDebugControl3::SetExpressionSyntax, IDebugControl_6f1ebcec-908b-4f00-b9cf-e7a036bc05e5.xml, SetExpressionSyntax, SetExpressionSyntax method [Windows Debugging], SetExpressionSyntax method [Windows Debugging],IDebugControl3 interface, dbgeng/IDebugControl3::SetExpressionSyntax, debugger.setexpressionsyntax
 ms.topic: method
+f1_keywords:
+ - "dbgeng/IDebugControl3.SetExpressionSyntax"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

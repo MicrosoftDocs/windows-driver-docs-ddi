@@ -5,6 +5,8 @@ description: Returns a handle to a directory on disk specific to the specified d
 ms.assetid: d0a01cd6-cf1a-4737-a8cc-770a42ff8fcb
 ms.date: 10/19/2018
 ms.topic: function
+f1_keywords:
+ - "wdm/IoGetDeviceDirectory"
 ms.keywords: IoGetDeviceDirectory
 req.header: wdm.h
 req.include-header:

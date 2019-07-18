@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 665010d3-f177-470c-a721-188c81a4cae7
 ms.date: 01/31/2019
 ms.topic: function
+f1_keywords:
+ - "ring/RILWRITEPHONEBOOKENTRYPARAMS"
 ms.keywords: NetRingGetRangeCount
 req.header: ring.h
 req.include-header: netadaptercx.h

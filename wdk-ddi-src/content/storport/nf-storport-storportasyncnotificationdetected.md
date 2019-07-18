@@ -8,6 +8,8 @@ ms.assetid: 558F652C-6D1A-4BAF-9C2C-3F4FE24651D2
 ms.date: 03/29/2018
 ms.keywords: RAID_ASYNC_NOTIFY_FLAG_DEVICE_OPERATION, RAID_ASYNC_NOTIFY_FLAG_DEVICE_STATUS, RAID_ASYNC_NOTIFY_FLAG_MEDIA_STATUS, StorPortAsyncNotificationDetected, StorPortAsyncNotificationDetected routine [Storage Devices], storage.storportasyncnotificationdetected, storport/StorPortAsyncNotificationDetected
 ms.topic: function
+f1_keywords:
+ - "storport/StorPortAsyncNotificationDetected"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

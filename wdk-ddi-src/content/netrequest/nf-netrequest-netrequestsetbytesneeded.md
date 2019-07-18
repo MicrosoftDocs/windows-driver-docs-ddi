@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 605c07f1-bc0a-4a84-adf9-b86c6ffcecca
 ms.date: 02/08/2018
 ms.topic: function
+f1_keywords:
+ - "netrequest/NetRequestSetBytesNeeded"
 ms.keywords: NetRequestSetBytesNeeded
 req.header: netrequest.h
 req.include-header: netadaptercx.h

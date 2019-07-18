@@ -8,6 +8,8 @@ ms.assetid: 195F4143-4889-4788-BAF5-2F1ED6E4E50A
 ms.date: 05/02/2018
 ms.keywords: MINIPORT_WDI_RX_GET_MPDUS, MINIPORT_WDI_RX_GET_MPDUS callback, MiniportWdiRxGetMpdus, MiniportWdiRxGetMpdus callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiRxGetMpdus, netvista.miniportwdirxgetmpdus
 ms.topic: callback
+f1_keywords:
+ - "dot11wdi/MiniportWdiRxGetMpdus"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows

@@ -5,6 +5,8 @@ description: Establishes a session key for a cryptographic session object.
 ms.assetid: 29deaace-55a0-406e-949e-c3aca2b8097c
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3d10umddi/PFND3DWDDM2_4DDI_NEGOTIATECRYPTOSESSIONKEYEXCHANGE"
 req.header: d3d10umddi.h
 req.include-header: S3d10umddi.h
 req.target-type: Windows

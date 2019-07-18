@@ -5,6 +5,8 @@ description: Arguments used in the DXGKDDI_SETTARGETADJUSTEDCOLORIMETRY2 callbac
 ms.assetid: 5d6faac0-b479-4a4b-8d10-6607607fa5d5
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "dispmprt/_DXGKARG_SETTARGETADJUSTEDCOLORIMETRY2"
 ms.keywords: _DXGKARG_SETTARGETADJUSTEDCOLORIMETRY2, DXGKARG_SETTARGETADJUSTEDCOLORIMETRY2, *PDXGKARG_SETTARGETADJUSTEDCOLORIMETRY2, 
 req.header: dispmprt.h
 req.include-header:

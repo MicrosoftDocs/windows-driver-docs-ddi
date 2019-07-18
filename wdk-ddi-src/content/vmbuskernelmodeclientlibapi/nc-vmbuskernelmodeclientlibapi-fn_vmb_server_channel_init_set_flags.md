@@ -5,6 +5,8 @@ description: The VmbServerChannelInitSetFlags function sets flags unique to serv
 ms.assetid: 0e4db15f-ec69-4c68-8a7e-da24ec7f5718
 ms.date: 09/13/2018
 ms.topic: callback
+f1_keywords:
+ - "vmbuskernelmodeclientlibapi/FN_VMB_SERVER_CHANNEL_INIT_SET_FLAGS"
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header:
 req.target-type:

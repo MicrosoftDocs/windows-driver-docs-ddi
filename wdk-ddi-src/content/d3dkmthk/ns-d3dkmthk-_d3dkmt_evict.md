@@ -7,6 +7,8 @@ ms.assetid: 07785939-C3D1-4085-BA1A-91E8FEE52B70
 ms.date: 05/10/2018
 ms.keywords: D3DKMT_EVICT, D3DKMT_EVICT structure [Display Devices], _D3DKMT_EVICT, d3dkmthk/D3DKMT_EVICT, display.d3dkmt_evict
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/D3DKMT_EVICT"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

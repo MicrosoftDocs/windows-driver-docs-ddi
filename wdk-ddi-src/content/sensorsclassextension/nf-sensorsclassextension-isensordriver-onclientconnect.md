@@ -8,6 +8,8 @@ ms.assetid: 0f64288b-5100-4529-af2f-3e867375da39
 ms.date: 05/03/2018
 ms.keywords: ISensorDriver interface [Sensor Devices],OnClientConnect method, ISensorDriver.OnClientConnect, ISensorDriver::OnClientConnect, OnClientConnect, OnClientConnect method [Sensor Devices], OnClientConnect method [Sensor Devices],ISensorDriver interface, sensors.isensordriver_onclientconnect, sensorsclassextension/ISensorDriver::OnClientConnect
 ms.topic: method
+f1_keywords:
+ - "sensorsclassextension/OnClientConnect"
 req.header: sensorsclassextension.h
 req.include-header: 
 req.target-type: Windows

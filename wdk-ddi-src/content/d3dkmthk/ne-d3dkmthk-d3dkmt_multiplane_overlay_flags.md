@@ -5,6 +5,8 @@ description: Multiplane overlay flags.
 ms.assetid: 015949bd-aa42-462a-b9d8-8579bd32c34b
 ms.date: 10/19/2018
 ms.topic: enum
+f1_keywords:
+ - "d3dkmthk/D3DKMT_MULTIPLANE_OVERLAY_FLAGS"
 ms.keywords: D3DKMT_MULTIPLANE_OVERLAY_FLAGS, D3DKMT_MULTIPLANE_OVERLAY_FLAGS, 
 req.header: d3dkmthk.h
 req.include-header:

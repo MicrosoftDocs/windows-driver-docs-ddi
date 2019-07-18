@@ -8,6 +8,8 @@ ms.assetid: 09b131f1-4e09-47f7-89b5-970b8b3e495a
 ms.date: 04/23/2018
 ms.keywords: Get, Get method [Streaming Media Devices], Get method [Streaming Media Devices],IKsPropertySet interface, IKsPropertySet interface [Streaming Media Devices],Get method, IKsPropertySet.Get, IKsPropertySet::Get, ksproxy/IKsPropertySet::Get, ksproxy_d5ef4576-b05f-466d-8d87-094d97f83e10.xml, stream.ikspropertyset_get
 ms.topic: method
+f1_keywords:
+ - "ksproxy/IKsPropertySet.Get"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h, Dsound.h
 req.target-type: Desktop

@@ -8,6 +8,8 @@ ms.assetid: 4A5413AD-A2EB-4772-89BF-867C30E0CD10
 ms.date: 05/10/2018
 ms.keywords: DXGK_MIRACAST_CHUNK_INFO, DXGK_MIRACAST_CHUNK_INFO structure [Display Devices], d3dukmdt/DXGK_MIRACAST_CHUNK_INFO, display.dxgk_miracast_chunk_info
 ms.topic: struct
+f1_keywords:
+ - "d3dukmdt/DXGK_MIRACAST_CHUNK_INFO"
 req.header: d3dukmdt.h
 req.include-header: D3dukmdt.h, D3dkmddi.h
 req.target-type: Windows

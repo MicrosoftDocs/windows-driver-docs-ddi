@@ -8,6 +8,8 @@ ms.assetid: 1ecf4536-9669-4437-8919-3c7b0e4a9183
 ms.date: 04/16/2018
 ms.keywords: IoCreateStreamFileObjectEx, IoCreateStreamFileObjectEx routine [Installable File System Drivers], ifsk.iocreatestreamfileobjectex, ioref_0c92890a-e4ae-4a25-b1cb-8097361674ee.xml, ntifs/IoCreateStreamFileObjectEx
 ms.topic: function
+f1_keywords:
+ - "ntifs/IoCreateStreamFileObjectEx"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

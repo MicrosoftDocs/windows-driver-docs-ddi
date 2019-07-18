@@ -8,6 +8,8 @@ ms.assetid: 57214e6a-cd29-4576-894a-9523ca3c7e7d
 ms.date: 04/16/2018
 ms.keywords: FsRtlFastUnlockAllByKey, FsRtlFastUnlockAllByKey routine [Installable File System Drivers], fsrtlref_193afe01-52f3-4dbc-8a33-bd058beb10ce.xml, ifsk.fsrtlfastunlockallbykey, ntifs/FsRtlFastUnlockAllByKey
 ms.topic: function
+f1_keywords:
+ - "ntifs/FsRtlFastUnlockAllByKey"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

@@ -8,6 +8,8 @@ ms.assetid: 99e10a70-90a7-4d96-ae5f-ba82d8c4c1a8
 ms.date: 05/02/2018
 ms.keywords: PFN_WSK_GET_NAME_INFO, PFN_WSK_GET_NAME_INFO callback, WskGetNameInfo, WskGetNameInfo callback function [Network Drivers Starting with Windows Vista], netvista.wskgetnameinfo, wsk/WskGetNameInfo, wskref_cebad0ad-55bc-4fae-9c73-5a501417ea5c.xml
 ms.topic: callback
+f1_keywords:
+ - "wsk/WskGetNameInfo"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Universal

@@ -5,6 +5,8 @@ description:
 ms.assetid: 46d90afd-3ec6-41b8-aae6-f8b9daddd121
 ms.date: 10/19/2018
 ms.topic: enum
+f1_keywords:
+ - "d3d9types/_D3DMATERIALCOLORSOURCE"
 ms.keywords: _D3DMATERIALCOLORSOURCE, D3DMATERIALCOLORSOURCE, 
 req.header: d3d9types.h
 req.include-header:

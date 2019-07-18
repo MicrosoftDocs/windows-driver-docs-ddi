@@ -8,6 +8,8 @@ ms.assetid: 3a4b9bf7-74cc-409f-9b63-db61d7c977cd
 ms.date: 03/19/2018
 ms.keywords: IDrmPort, IDrmPort interface [Audio Devices], IDrmPort interface [Audio Devices], described, audio.idrmport, audmp-routines_c68e5cec-890e-48c8-8d1c-443b521e5477.xml, portcls/IDrmPort
 ms.topic: interface
+f1_keywords:
+ - "portcls/IDrmPort"
 req.header: portcls.h
 req.include-header:
 req.target-type: Windows

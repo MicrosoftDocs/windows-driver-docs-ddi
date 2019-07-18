@@ -8,6 +8,8 @@ ms.assetid: aba28a55-d7bc-4f75-ac87-4148cb1b4cfb
 ms.date: 03/29/2018
 ms.keywords: ScsiPortWritePortUchar, ScsiPortWritePortUchar routine [Storage Devices], scsiprt_4dfda130-8e22-44b3-a57a-0656cd2a70f2.xml, srb/ScsiPortWritePortUchar, storage.scsiportwriteportuchar
 ms.topic: function
+f1_keywords:
+ - "srb/ScsiPortWritePortUchar"
 req.header: srb.h
 req.include-header: Miniport.h, Scsi.h, Storport.h
 req.target-type: Desktop

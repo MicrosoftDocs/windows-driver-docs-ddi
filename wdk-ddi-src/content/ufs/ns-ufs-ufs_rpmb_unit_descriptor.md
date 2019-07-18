@@ -8,6 +8,8 @@ ms.assetid: 19A066BD-1099-475C-BF81-F1BE7C7778E5
 ms.date: 03/29/2018
 ms.keywords: "*PUFS_RPMB_UNIT_DESCRIPTOR, PUFS_RPMB_UNIT_DESCRIPTOR, PUFS_RPMB_UNIT_DESCRIPTOR structure pointer [Storage Devices], UFS_RPMB_UNIT_DESCRIPTOR, UFS_RPMB_UNIT_DESCRIPTOR structure [Storage Devices], storage.ufs_rpmb_unit_descriptor, ufs/PUFS_RPMB_UNIT_DESCRIPTOR, ufs/UFS_RPMB_UNIT_DESCRIPTOR"
 ms.topic: struct
+f1_keywords:
+ - "ufs/UFS_RPMB_UNIT_DESCRIPTOR"
 req.header: ufs.h
 req.include-header: 
 req.target-type: Windows

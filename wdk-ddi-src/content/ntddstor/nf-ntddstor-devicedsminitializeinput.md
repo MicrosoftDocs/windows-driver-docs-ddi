@@ -6,6 +6,8 @@ ms.assetid: 4a212a8e-1bd1-4ad1-9da1-f9527a304e81
 tech.root: storage
 ms.date: 04/11/2018
 ms.topic: function
+f1_keywords:
+ - "ntddstor/DeviceDsmInitializeInput"
 ms.keywords: DeviceDsmInitializeInput
 req.header: ntddstor.h
 req.include-header:

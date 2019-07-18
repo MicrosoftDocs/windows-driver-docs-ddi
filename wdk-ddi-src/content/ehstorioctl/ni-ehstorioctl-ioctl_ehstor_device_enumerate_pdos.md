@@ -8,6 +8,8 @@ ms.assetid: 900A8CAB-287D-4D92-B4CB-2959E87C8E67
 ms.date: 03/29/2018
 ms.keywords: IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS, IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS control, IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS control code [Storage Devices], ehstorioctl/IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS, storage.ioctl_ehstor_device_enumerate_pdos
 ms.topic: ioctl
+f1_keywords:
+ - "ehstorioctl/IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS"
 req.header: ehstorioctl.h
 req.include-header: EhStorIoctl.h
 req.target-type: Windows

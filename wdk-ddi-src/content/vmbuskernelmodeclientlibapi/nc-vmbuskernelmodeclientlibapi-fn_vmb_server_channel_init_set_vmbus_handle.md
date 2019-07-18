@@ -5,6 +5,8 @@ description: The VmbServerChannelInitSetVmbusHandle function associates an insta
 ms.assetid: 9f0c59b3-8b3d-4122-97c5-689c4ccb19b2
 ms.date: 09/13/2018
 ms.topic: callback
+f1_keywords:
+ - "vmbuskernelmodeclientlibapi/FN_VMB_SERVER_CHANNEL_INIT_SET_VMBUS_HANDLE"
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header:
 req.target-type:

@@ -8,6 +8,8 @@ ms.assetid: 1a0f8ea5-9b1f-4301-b96d-aa37b80b4ce2
 ms.date: 02/26/2018
 ms.keywords: DFResourceObjectRef_13d42471-baa5-4985-a5fa-70336f2be352.xml, WdfCmResourceListAppendDescriptor, WdfCmResourceListAppendDescriptor method, kmdf.wdfcmresourcelistappenddescriptor, wdf.wdfcmresourcelistappenddescriptor, wdfresource/WdfCmResourceListAppendDescriptor
 ms.topic: function
+f1_keywords:
+ - "wdfresource/WdfCmResourceListAppendDescriptor"
 req.header: wdfresource.h
 req.include-header: Wdf.h
 req.target-type: Universal

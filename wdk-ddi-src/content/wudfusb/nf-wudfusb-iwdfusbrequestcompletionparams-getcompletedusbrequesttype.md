@@ -8,6 +8,8 @@ ms.assetid: ce20ed09-2f4d-4cc0-9185-a3a72dd73165
 ms.date: 02/26/2018
 ms.keywords: GetCompletedUsbRequestType, GetCompletedUsbRequestType method, GetCompletedUsbRequestType method,IWDFUsbRequestCompletionParams interface, IWDFUsbRequestCompletionParams interface,GetCompletedUsbRequestType method, IWDFUsbRequestCompletionParams.GetCompletedUsbRequestType, IWDFUsbRequestCompletionParams::GetCompletedUsbRequestType, UMDFRequestObjectRef_9b863f1d-1684-4d87-a7a0-41747dba6aff.xml, umdf.iwdfusbrequestcompletionparams_getcompletedusbrequesttype, wdf.iwdfusbrequestcompletionparams_getcompletedusbrequesttype, wudfusb/IWDFUsbRequestCompletionParams::GetCompletedUsbRequestType
 ms.topic: method
+f1_keywords:
+ - "wudfusb/IWDFUsbRequestCompletionParams.GetCompletedUsbRequestType"
 req.header: wudfusb.h
 req.include-header: Wudfusb.h
 req.target-type: Desktop

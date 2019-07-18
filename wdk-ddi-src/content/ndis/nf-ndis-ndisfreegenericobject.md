@@ -8,6 +8,8 @@ ms.assetid: 02c0ea87-d25d-4363-85e3-e47c4c5d8a9b
 ms.date: 05/02/2018
 ms.keywords: NdisFreeGenericObject, NdisFreeGenericObject function [Network Drivers Starting with Windows Vista], ndis/NdisFreeGenericObject, ndis_object_ref_d796ffda-61f1-473d-98ea-5ad3570889e9.xml, netvista.ndisfreegenericobject
 ms.topic: function
+f1_keywords:
+ - "ndis/NdisFreeGenericObject"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

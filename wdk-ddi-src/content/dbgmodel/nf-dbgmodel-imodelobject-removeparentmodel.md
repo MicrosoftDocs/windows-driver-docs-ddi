@@ -5,6 +5,8 @@ description: The RemoveParentModel will remove a specified parent model from the
 ms.assetid: 2a3fb86c-b9f4-4275-82e6-c6ff24f2fc4c
 ms.date: 08/13/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IModelObject.RemoveParentModel"
 ms.keywords: IModelObject::RemoveParentModel, RemoveParentModel, IModelObject.RemoveParentModel, IModelObject::RemoveParentModel, IModelObject.RemoveParentModel
 req.header: dbgmodel.h
 req.include-header:

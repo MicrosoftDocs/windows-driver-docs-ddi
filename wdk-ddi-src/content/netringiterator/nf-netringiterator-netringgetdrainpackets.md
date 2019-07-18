@@ -8,6 +8,8 @@ ms.assetid: 0181ab7c-9f8e-43f3-b2c4-f8e601109c6e
 ms.author: windowsdriverdev
 ms.date: 02/01/2019
 ms.topic: function
+f1_keywords:
+ - "netringiterator/NetRingGetDrainPackets"
 ms.keywords: NetRingGetDrainPackets
 req.header: netringiterator.h
 req.include-header:

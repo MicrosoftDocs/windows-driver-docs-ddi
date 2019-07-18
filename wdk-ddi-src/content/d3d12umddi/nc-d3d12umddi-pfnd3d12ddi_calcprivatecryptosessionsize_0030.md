@@ -7,6 +7,8 @@ ms.assetid: 5C6A62D2-C4D1-4024-B777-EA4AAC7AC971
 ms.date: 05/10/2018
 ms.keywords: PFND3D12DDI_CALCPRIVATECRYPTOSESSIONSIZE_0030, PFND3D12DDI_CALCPRIVATECRYPTOSESSIONSIZE_0030  entry, PFND3D12DDI_CALCPRIVATECRYPTOSESSIONSIZE_0030 entry point [Display Devices], d3d12umddi/PFND3D12DDI_CALCPRIVATECRYPTOSESSIONSIZE_0030, display.pfnd3d12ddi_calcprivatecryptosessionsize_0030_
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_CALCPRIVATECRYPTOSESSIONSIZE_0030"
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: Windows

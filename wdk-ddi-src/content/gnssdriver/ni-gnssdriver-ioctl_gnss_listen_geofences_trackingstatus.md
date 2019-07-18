@@ -8,6 +8,8 @@ ms.assetid: 3AB8CECA-C5FD-4B0A-A85B-B6E90FA22B04
 ms.date: 02/15/2018
 ms.keywords: IOCTL_GNSS_LISTEN_GEOFENCES_TRACKINGSTATUS, IOCTL_GNSS_LISTEN_GEOFENCES_TRACKINGSTATUS control, IOCTL_GNSS_LISTEN_GEOFENCES_TRACKINGSTATUS control code [Sensor Devices], gnss.ioctl_gnss_listen_geofences_trackingstatus, gnssdriver/IOCTL_GNSS_LISTEN_GEOFENCES_TRACKINGSTATUS
 ms.topic: ioctl
+f1_keywords:
+ - "gnssdriver/IOCTL_GNSS_LISTEN_GEOFENCES_TRACKINGSTATUS"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows

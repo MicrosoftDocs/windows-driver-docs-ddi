@@ -8,6 +8,8 @@ ms.assetid: ee798917-f982-4d26-ace7-bbc8a76cdaa1
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
 ms.topic: struct
+f1_keywords:
+ - "d3dkmddi/DXGK_GAMMA_MATRIX_CAP"
 ms.keywords: DXGK_GAMMA_MATRIX_CAP, DXGK_GAMMA_MATRIX_CAP, *PDXGK_GAMMA_MATRIX_CAP, 
 req.header: d3dkmddi.h
 req.include-header:

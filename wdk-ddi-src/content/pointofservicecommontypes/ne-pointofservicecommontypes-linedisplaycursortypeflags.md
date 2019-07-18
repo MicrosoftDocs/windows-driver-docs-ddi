@@ -8,6 +8,8 @@ ms.assetid: DD09C18C-C2FA-43DD-9E5F-ACA36132DAAD
 ms.date: 02/23/2018
 ms.keywords: LineDisplayCursorTypeFlags, LineDisplayCursorTypeFlags enumeration, pointofservicecommontypes/, pointofservicecommontypes/LineDisplayCursorTypeFlags, pos.linedisplaycursortypeflags
 ms.topic: enum
+f1_keywords:
+ - "pointofservicecommontypes/LineDisplayCursorTypeFlags"
 req.header: pointofservicecommontypes.h
 req.include-header: Pointofservicecommontypes.h
 req.target-type: Windows

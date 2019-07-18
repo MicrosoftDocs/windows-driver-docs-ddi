@@ -8,6 +8,8 @@ ms.assetid: e5e83b2d-e1e4-485e-80bc-ed22567e9af1
 ms.date: 04/16/2018
 ms.keywords: ObMakeTemporaryObject, ObMakeTemporaryObject function [Installable File System Drivers], ifsk.obmaketemporaryobject, ntifs/ObMakeTemporaryObject, obref_788c8be6-d015-4a3d-b79c-725808c3677d.xml
 ms.topic: function
+f1_keywords:
+ - "ntifs/ObMakeTemporaryObject"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows

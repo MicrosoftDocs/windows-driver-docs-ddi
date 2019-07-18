@@ -7,6 +7,8 @@ ms.assetid: 1e67bb33-c2e5-4f3c-9ea6-feeb4a1fe645
 ms.date: 05/10/2018
 ms.keywords: DXGK_GDIARG_CLEARTYPEBLEND, DXGK_GDIARG_CLEARTYPEBLEND structure [Display Devices], DmStructs_b59789df-1494-45ea-b89a-4403e6c82dfd.xml, _DXGK_GDIARG_CLEARTYPEBLEND, d3dkmddi/DXGK_GDIARG_CLEARTYPEBLEND, display.dxgk_gdiarg_cleartypeblend
 ms.topic: struct
+f1_keywords:
+ - "d3dkmddi/DXGK_GDIARG_CLEARTYPEBLEND"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

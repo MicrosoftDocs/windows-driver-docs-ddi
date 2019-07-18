@@ -7,6 +7,8 @@ ms.assetid: 8651297B-BCF7-42A2-9175-D9D072E052D6
 ms.date: 05/10/2018
 ms.keywords: D3DKMT_UNLOCK2, D3DKMT_UNLOCK2 structure [Display Devices], _D3DKMT_UNLOCK2, d3dkmthk/D3DKMT_UNLOCK2, display.d3dkmt_unlock2
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/D3DKMT_UNLOCK2"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

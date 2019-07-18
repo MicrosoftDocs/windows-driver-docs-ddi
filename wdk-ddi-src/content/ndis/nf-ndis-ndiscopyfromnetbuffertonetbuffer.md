@@ -8,6 +8,8 @@ ms.assetid: b760e176-3ef7-4495-89c7-ec6b8bb3ed30
 ms.date: 05/02/2018
 ms.keywords: NdisCopyFromNetBufferToNetBuffer, NdisCopyFromNetBufferToNetBuffer function [Network Drivers Starting with Windows Vista], ndis/NdisCopyFromNetBufferToNetBuffer, ndis_netbuf_functions_ref_28d10afe-d78a-49ef-8c9c-f90b87d4eeb1.xml, netvista.ndiscopyfromnetbuffertonetbuffer
 ms.topic: function
+f1_keywords:
+ - "ndis/NdisCopyFromNetBufferToNetBuffer"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

@@ -8,6 +8,8 @@ ms.assetid: 12ceb592-97ca-41c9-89d0-26fd2dc87981
 ms.date: 04/16/2018
 ms.keywords: PsReturnPoolQuota, PsReturnPoolQuota routine [Installable File System Drivers], ifsk.psreturnpoolquota, ntifs/PsReturnPoolQuota, psref_7dc67879-8f0e-41a1-96cf-018dcf60afcd.xml
 ms.topic: function
+f1_keywords:
+ - "ntifs/PsReturnPoolQuota"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

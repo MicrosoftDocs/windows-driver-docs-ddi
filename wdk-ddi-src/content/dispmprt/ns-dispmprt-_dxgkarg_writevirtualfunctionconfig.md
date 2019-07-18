@@ -8,6 +8,8 @@ ms.assetid: bd1a1779-458c-4b44-9608-d700a5389bac
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
 ms.topic: struct
+f1_keywords:
+ - "dispmprt/_DXGKARG_WRITEVIRTUALFUNCTIONCONFIG"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.keywords: _DXGKARG_WRITEVIRTUALFUNCTIONCONFIG, DXGKARG_WRITEVIRTUALFUNCTIONCONFIG, *PDXGKARG_WRITEVIRTUALFUNCTIONCONFIG, 

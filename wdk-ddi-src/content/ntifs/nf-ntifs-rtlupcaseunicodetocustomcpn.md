@@ -8,6 +8,8 @@ ms.assetid: 906dd8c6-a7a7-4722-9ca6-78c437ab29e8
 ms.date: 04/16/2018
 ms.keywords: RtlUpcaseUnicodeToCustomCPN, RtlUpcaseUnicodeToCustomCPN function [Installable File System Drivers], ifsk.rtlupcaseunicodetocustomcpn, ntifs/RtlUpcaseUnicodeToCustomCPN, rtlref_d60b8055-e672-4cc6-be0f-f9a23a202368.xml
 ms.topic: function
+f1_keywords:
+ - "ntifs/RtlUpcaseUnicodeToCustomCPN"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows

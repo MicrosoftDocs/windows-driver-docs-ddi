@@ -8,6 +8,8 @@ ms.assetid: f528d20a-16f8-401f-a6e6-ab165a40e18a
 ms.date: 04/16/2018
 ms.keywords: RtlGetAce, RtlGetAce routine [Installable File System Drivers], ifsk.rtlgetace, ntifs/RtlGetAce, rtlref_e018acc3-f776-4d15-9e0b-9e34d286a746.xml
 ms.topic: function
+f1_keywords:
+ - "ntifs/RtlGetAce"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

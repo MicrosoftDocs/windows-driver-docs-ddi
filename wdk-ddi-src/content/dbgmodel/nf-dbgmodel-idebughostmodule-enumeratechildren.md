@@ -5,6 +5,8 @@ description: The EnumerateChildren method returns an enumerator which will enume
 ms.assetid: 48467d48-4fb3-460a-894e-eb013221acc3
 ms.date: 09/21/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDebugHostModule.EnumerateChildren"
 ms.keywords: IDebugHostModule::EnumerateChildren, EnumerateChildren, IDebugHostModule.EnumerateChildren, IDebugHostModule::EnumerateChildren, IDebugHostModule.EnumerateChildren
 req.header: dbgmodel.h
 req.include-header:

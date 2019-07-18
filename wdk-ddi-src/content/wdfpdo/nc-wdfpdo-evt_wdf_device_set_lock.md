@@ -8,6 +8,8 @@ ms.assetid: 2ac42710-9f44-4982-a0d9-c49048870aeb
 ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectFdoPdoRef_932fbb3b-df8b-49ca-9b86-3d98b6fdd39f.xml, EVT_WDF_DEVICE_SET_LOCK, EVT_WDF_DEVICE_SET_LOCK callback, EvtDeviceSetLock, EvtDeviceSetLock callback function, kmdf.evtdevicesetlock, wdf.evtdevicesetlock, wdfpdo/EvtDeviceSetLock
 ms.topic: callback
+f1_keywords:
+ - "wdfpdo/EvtDeviceSetLock"
 req.header: wdfpdo.h
 req.include-header: Wdf.h
 req.target-type: Universal

@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: a6d7477e-6107-4bef-bd0a-2759284dc72a
 ms.date: 06/29/2018
 ms.topic: function
+f1_keywords:
+ - "mbbcx/MbbRequestGetBuffer"
 ms.keywords: MbbRequestGetBuffer
 req.header: mbbcx.h
 req.include-header:

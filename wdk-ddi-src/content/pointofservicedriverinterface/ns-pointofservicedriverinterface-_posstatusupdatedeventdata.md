@@ -8,6 +8,8 @@ ms.assetid: 382e5441-dce1-428b-90af-d57b5f930abb
 ms.date: 02/23/2018
 ms.keywords: PosStatusUpdatedEventData, PosStatusUpdatedEventData structure, _PosStatusUpdatedEventData, pointofservicedriverinterface/PosStatusUpdatedEventData, pos.posstatusupdatedeventdata
 ms.topic: struct
+f1_keywords:
+ - "pointofservicedriverinterface/PosStatusUpdatedEventData"
 req.header: pointofservicedriverinterface.h
 req.include-header: PointOfServiceDriverInterface.h
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: 76509992-E5A7-4C2F-84D3-B3FD06ACEFE1
 ms.date: 04/30/2018
 ms.keywords: GPIO_PIN_CONFIG_TYPE, GPIO_PIN_CONFIG_TYPE enumeration [Kernel-Mode Driver Architecture], PullDefault, PullDown, PullNone, PullUp, _GPIO_PIN_CONFIG_TYPE, kernel.gpio_pin_config_type, pepfx/GPIO_PIN_CONFIG_TYPE, pepfx/PullDefault, pepfx/PullDown, pepfx/PullNone, pepfx/PullUp
 ms.topic: enum
+f1_keywords:
+ - "pep_x/GPIO_PIN_CONFIG_TYPE"
 req.header: pep_x.h
 req.include-header: Pep_x.h
 req.target-type: Windows

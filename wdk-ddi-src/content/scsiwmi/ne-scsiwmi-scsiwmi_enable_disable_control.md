@@ -8,6 +8,8 @@ ms.assetid: 0327bdc0-e4a4-4c2f-a9b9-5854e3330068
 ms.date: 03/29/2018
 ms.keywords: SCSIWMI_ENABLE_DISABLE_CONTROL, SCSIWMI_ENABLE_DISABLE_CONTROL enumeration [Storage Devices], ScsiWmiDataBlockControl, ScsiWmiEventControl, scsiwmi/SCSIWMI_ENABLE_DISABLE_CONTROL, scsiwmi/ScsiWmiDataBlockControl, scsiwmi/ScsiWmiEventControl, storage.scsiwmi_enable_disable_control, structs-scsibus_58a70c92-6ee7-4385-b212-45672a12ac8b.xml
 ms.topic: enum
+f1_keywords:
+ - "scsiwmi/SCSIWMI_ENABLE_DISABLE_CONTROL"
 req.header: scsiwmi.h
 req.include-header: Scsiwmi.h
 req.target-type: Windows

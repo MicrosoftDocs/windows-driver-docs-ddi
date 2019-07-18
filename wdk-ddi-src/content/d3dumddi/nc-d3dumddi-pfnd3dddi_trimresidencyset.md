@@ -8,6 +8,8 @@ ms.assetid: 192F419C-F38F-4B42-8111-86D58D6781DA
 ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_TRIMRESIDENCYSET, PFND3DDDI_TRIMRESIDENCYSET callback, d3dukmdt/pfnTrimResidencySet, display.pfntrimresidencyset, pfnTrimResidencySet, pfnTrimResidencySet callback function [Display Devices]
 ms.topic: callback
+f1_keywords:
+ - "d3dumddi/pfnTrimResidencySet"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h, D3dkmddi.h
 req.target-type: Desktop

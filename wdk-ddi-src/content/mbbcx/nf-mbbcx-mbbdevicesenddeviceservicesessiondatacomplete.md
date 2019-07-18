@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 31c3aa3b-87ac-47bc-95e3-918a569b1dff
 ms.date: 06/29/2018
 ms.topic: function
+f1_keywords:
+ - "mbbcx/MbbDeviceSendDeviceServiceSessionDataComplete"
 ms.keywords: MbbDeviceSendDeviceServiceSessionDataComplete
 req.header: mbbcx.h
 req.include-header:

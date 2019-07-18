@@ -8,6 +8,8 @@ ms.assetid: F9688E1F-D8A3-432E-8724-2D601946E707
 ms.date: 02/26/2018
 ms.keywords: WDF_READ_PORT_USHORT, WDF_READ_PORT_USHORT function, wdf.wdf_read_port_ushort, wdfhwaccess/WDF_READ_PORT_USHORT
 ms.topic: function
+f1_keywords:
+ - "wdfhwaccess/WDF_READ_PORT_USHORT"
 req.header: wdfhwaccess.h
 req.include-header: 
 req.target-type: Universal

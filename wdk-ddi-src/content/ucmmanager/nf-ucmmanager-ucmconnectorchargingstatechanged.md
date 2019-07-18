@@ -8,6 +8,8 @@ ms.assetid: A645BFE0-4B7F-416F-9096-596ADAA37951
 ms.date: 05/07/2018
 ms.keywords: UcmConnectorChargingStateChanged, UcmConnectorChargingStateChanged method [Buses], buses.ucmconnectorchargingstatechanged, ucmmanager/UcmConnectorChargingStateChanged
 ms.topic: function
+f1_keywords:
+ - "ucmmanager/UcmConnectorChargingStateChanged"
 req.header: ucmmanager.h
 req.include-header: Ucmcx.h
 req.target-type: Windows

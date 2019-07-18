@@ -8,6 +8,8 @@ ms.assetid: e79ed9a1-b271-4c0a-a82f-9fecab930569
 ms.date: 04/30/2018
 ms.keywords: PoSetSystemWake, PoSetSystemWake routine [Kernel-Mode Driver Architecture], kernel.posetsystemwake, portn_09bfa419-5a6c-4305-87ee-58a0e032d0c4.xml, wdm/PoSetSystemWake
 ms.topic: function
+f1_keywords:
+ - "wdm/PoSetSystemWake"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

@@ -8,6 +8,8 @@ ms.assetid: 2b80aa77-45b3-4157-8ab5-770c827a536a
 ms.date: 04/16/2018
 ms.keywords: RxReassociateMid, RxReassociateMid function [Installable File System Drivers], ifsk.rxreassociatemid, midatlax/RxReassociateMid, rxref_0fbfcaf6-383a-48ed-81b1-eed7521df3e7.xml
 ms.topic: function
+f1_keywords:
+ - "midatlax/RxReassociateMid"
 req.header: midatlax.h
 req.include-header: Midatlax.h
 req.target-type: Desktop

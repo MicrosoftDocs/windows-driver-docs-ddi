@@ -5,6 +5,8 @@ description: Copies a descriptor.
 ms.assetid: 25baad7c-0250-45bd-8257-6d6ffc35810f
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_COPY_DESCRIPTORS_SIMPLE_0003"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

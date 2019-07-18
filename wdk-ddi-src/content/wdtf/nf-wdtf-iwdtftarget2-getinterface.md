@@ -8,6 +8,8 @@ ms.assetid: dddd631e-7ccf-4554-9236-b567c5108fe2
 ms.date: 04/04/2018
 ms.keywords: GetInterface, GetInterface method [Windows Device Testing Framework], GetInterface method [Windows Device Testing Framework],IWDTFTarget2 interface, IWDTFTarget2 interface [Windows Device Testing Framework],GetInterface method, IWDTFTarget2.GetInterface, IWDTFTarget2::GetInterface, Microsoft.WDTF.IWDTFTarget2.GetInterface, Microsoft::WDTF::IWDTFTarget2::GetInterface, dtf.iwdtftarget2_getinterface, wdtf/IWDTFTarget2::GetInterface
 ms.topic: method
+f1_keywords:
+ - "wdtf/IWDTFTarget2.GetInterface"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Desktop

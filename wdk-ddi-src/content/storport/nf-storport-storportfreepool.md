@@ -8,6 +8,8 @@ ms.assetid: e5886fa3-dc37-4764-9304-3609a4ced0ad
 ms.date: 03/29/2018
 ms.keywords: StorPortFreePool, StorPortFreePool routine [Storage Devices], storage.storportfreepool, storport/StorPortFreePool, storprt_a4fd5e23-3c56-4bf3-9751-21f90028d704.xml
 ms.topic: function
+f1_keywords:
+ - "storport/StorPortFreePool"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

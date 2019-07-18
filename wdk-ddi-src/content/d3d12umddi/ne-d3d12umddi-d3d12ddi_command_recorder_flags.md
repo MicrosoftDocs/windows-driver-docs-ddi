@@ -5,6 +5,8 @@ description: Contains command recorder options.
 ms.assetid: 37528473-e409-4c58-add6-de1b8e20bde3
 ms.date: 10/19/2018
 ms.topic: enum
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_COMMAND_RECORDER_FLAGS"
 ms.keywords: D3D12DDI_COMMAND_RECORDER_FLAGS, D3D12DDI_COMMAND_RECORDER_FLAGS,
 req.header: d3d12umddi.h
 req.include-header:

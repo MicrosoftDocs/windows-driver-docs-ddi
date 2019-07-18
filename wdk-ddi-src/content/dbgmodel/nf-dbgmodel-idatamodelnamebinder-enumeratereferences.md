@@ -5,6 +5,8 @@ description: The EnumerateReferences method enumerates the set of names and refe
 ms.assetid: 7959dcc0-5da5-4952-bb98-d7c41950ba35
 ms.date: 09/12/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDataModelNameBinder.EnumerateReferences"
 ms.keywords: IDataModelNameBinder::EnumerateReferences, EnumerateReferences, IDataModelNameBinder.EnumerateReferences, IDataModelNameBinder::EnumerateReferences, IDataModelNameBinder.EnumerateReferences
 req.header: dbgmodel.h
 req.include-header:

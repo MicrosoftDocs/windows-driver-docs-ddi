@@ -8,6 +8,8 @@ ms.assetid: FAA97E98-FB31-462E-9776-5C27A10FD773
 ms.date: 04/23/2018
 ms.keywords: IKsPinPipe interface [Streaming Media Devices],KsSetPipe method, IKsPinPipe.KsSetPipe, IKsPinPipe::KsSetPipe, KsSetPipe, KsSetPipe method [Streaming Media Devices], KsSetPipe method [Streaming Media Devices],IKsPinPipe interface, ksproxy/IKsPinPipe::KsSetPipe, stream.ikspinpipe_kssetpipe
 ms.topic: method
+f1_keywords:
+ - "ksproxy/IKsPinPipe.KsSetPipe"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: D6C0B66A-58ED-4E1D-89E2-4A1AF77281C1
 ms.date: 05/03/2018
 ms.keywords: SensorsCxSensorInitialize, SensorsCxSensorInitialize function [Sensor Devices], sensors.sensorscxsensorinitialize, sensorscx/SensorsCxSensorInitialize
 ms.topic: function
+f1_keywords:
+ - "sensorscx/SensorsCxSensorInitialize"
 req.header: sensorscx.h
 req.include-header: 
 req.target-type: Desktop

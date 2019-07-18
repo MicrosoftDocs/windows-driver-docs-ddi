@@ -8,6 +8,8 @@ ms.assetid: F7B4E80F-AB83-4E0F-9933-D953744A1970
 ms.date: 02/15/2018
 ms.keywords: "*PACPI_GET_DEVICE_SPECIFIC_DATA, ACPI_GET_DEVICE_SPECIFIC_DATA, ACPI_GET_DEVICE_SPECIFIC_DATA structure [ACPI Devices], PACPI_GET_DEVICE_SPECIFIC_DATA, PACPI_GET_DEVICE_SPECIFIC_DATA structure pointer [ACPI Devices], _ACPI_GET_DEVICE_SPECIFIC_DATA, acpi.acpi_get_device_specific_data, acpiioct/ACPI_GET_DEVICE_SPECIFIC_DATA, acpiioct/PACPI_GET_DEVICE_SPECIFIC_DATA"
 ms.topic: struct
+f1_keywords:
+ - "acpiioct/ACPI_GET_DEVICE_SPECIFIC_DATA"
 req.header: acpiioct.h
 req.include-header: Acpiioct.h
 req.target-type: Windows

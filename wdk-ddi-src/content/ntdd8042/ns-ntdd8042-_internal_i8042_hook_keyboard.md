@@ -8,6 +8,8 @@ ms.assetid: 7a70f6e1-cf3b-4158-97f2-39f62a1d51ae
 ms.date: 04/30/2018
 ms.keywords: "*PINTERNAL_I8042_HOOK_KEYBOARD, INTERNAL_I8042_HOOK_KEYBOARD, INTERNAL_I8042_HOOK_KEYBOARD structure [Human Input Devices], PINTERNAL_I8042_HOOK_KEYBOARD, PINTERNAL_I8042_HOOK_KEYBOARD structure pointer [Human Input Devices], _INTERNAL_I8042_HOOK_KEYBOARD, hid.internal_i8042_hook_keyboard, i8042ref_c61fafd5-75ed-484b-8f5a-9e5e526059af.xml, ntdd8042/INTERNAL_I8042_HOOK_KEYBOARD, ntdd8042/PINTERNAL_I8042_HOOK_KEYBOARD"
 ms.topic: struct
+f1_keywords:
+ - "ntdd8042/INTERNAL_I8042_HOOK_KEYBOARD"
 req.header: ntdd8042.h
 req.include-header: Ntdd8042.h
 req.target-type: Windows

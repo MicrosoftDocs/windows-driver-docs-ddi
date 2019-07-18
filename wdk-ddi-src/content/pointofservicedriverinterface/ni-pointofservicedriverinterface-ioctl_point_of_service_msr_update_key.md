@@ -8,6 +8,8 @@ ms.assetid: 7ac830d3-6a75-4d82-9123-cd7ad9c2cdea
 ms.date: 02/23/2018
 ms.keywords: IOCTL_POINT_OF_SERVICE_MSR_UPDATE_KEY, IOCTL_POINT_OF_SERVICE_MSR_UPDATE_KEY control, IOCTL_POINT_OF_SERVICE_MSR_UPDATE_KEY control code, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_MSR_UPDATE_KEY, pos.ioctl_point_of_service_msr_update_key
 ms.topic: ioctl
+f1_keywords:
+ - "pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_MSR_UPDATE_KEY"
 req.header: pointofservicedriverinterface.h
 req.include-header: Pointofservicedriverinterface.h
 req.target-type: Windows

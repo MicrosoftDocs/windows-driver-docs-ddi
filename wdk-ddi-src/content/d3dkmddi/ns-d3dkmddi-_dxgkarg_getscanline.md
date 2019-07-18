@@ -7,6 +7,8 @@ ms.assetid: 92138511-46cf-4c8b-84d0-a11fe9208be5
 ms.date: 05/10/2018
 ms.keywords: "*INOUT_PDXGKARG_GETSCANLINE, DXGKARG_GETSCANLINE, DXGKARG_GETSCANLINE structure [Display Devices], DmStructs_9e2cdcde-c2ca-4474-9c96-ee66a80f0295.xml, _DXGKARG_GETSCANLINE, d3dkmddi/DXGKARG_GETSCANLINE, display.dxgkarg_getscanline"
 ms.topic: struct
+f1_keywords:
+ - "d3dkmddi/DXGKARG_GETSCANLINE"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

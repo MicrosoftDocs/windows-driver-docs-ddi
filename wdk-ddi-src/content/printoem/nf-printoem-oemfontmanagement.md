@@ -8,6 +8,8 @@ ms.assetid: fd4e712a-8bde-4c80-b288-3fa7b69a2681
 ms.date: 04/20/2018
 ms.keywords: OEMFontManagement, OEMFontManagement function [Print Devices], print.oemfontmanagement, print_unidrv-pscript_rendering_41e19fb2-9946-4911-beb2-3681bd08c08b.xml, printoem/OEMFontManagement
 ms.topic: function
+f1_keywords:
+ - "printoem/OEMFontManagement"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows

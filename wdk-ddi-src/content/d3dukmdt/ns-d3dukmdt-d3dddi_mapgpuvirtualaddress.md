@@ -8,6 +8,8 @@ ms.assetid: A23F5847-0DA9-4F3F-B1C1-DACCA35DBC53
 ms.date: 05/10/2018
 ms.keywords: D3DDDI_MAPGPUVIRTUALADDRESS, D3DDDI_MAPGPUVIRTUALADDRESS structure [Display Devices], Execute, NoAccess, Write, Zero, d3dukmdt/D3DDDI_MAPGPUVIRTUALADDRESS, display.d3dddi_mapgpuvirtualaddress
 ms.topic: struct
+f1_keywords:
+ - "d3dukmdt/D3DDDI_MAPGPUVIRTUALADDRESS"
 req.header: d3dukmdt.h
 req.include-header: D3dumddi.h, D3dkmddi.h
 req.target-type: Windows

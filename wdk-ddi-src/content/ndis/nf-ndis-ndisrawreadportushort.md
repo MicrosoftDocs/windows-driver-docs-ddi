@@ -8,6 +8,8 @@ ms.assetid: 88dbdd78-43a4-4ae2-ae49-336a0a621c5c
 ms.date: 05/02/2018
 ms.keywords: NdisRawReadPortUshort, NdisRawReadPortUshort macro [Network Drivers Starting with Windows Vista], miniport_port_raw_ref_5d9255b3-3679-4cd2-bc07-baa0dc2c684f.xml, ndis/NdisRawReadPortUshort, netvista.ndisrawreadportushort
 ms.topic: macro
+f1_keywords:
+ - "ndis/NdisRawReadPortUshort"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

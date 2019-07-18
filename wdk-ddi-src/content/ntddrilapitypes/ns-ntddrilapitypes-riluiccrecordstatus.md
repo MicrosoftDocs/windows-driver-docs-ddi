@@ -8,6 +8,8 @@ ms.assetid: 073fe700-ea6d-4d29-8751-66b27714f72d
 ms.date: 02/16/2018
 ms.keywords: "*LPRILUICCRECORDSTATUS, RILUICCRECORDSTATUS, RILUICCRECORDSTATUS structure [Network Drivers Starting with Windows Vista], netvista.riluiccrecordstatus, rilapitypes/RILUICCRECORDSTATUS"
 ms.topic: struct
+f1_keywords:
+ - "ntddrilapitypes/RILUICCRECORDSTATUS"
 req.header: ntddrilapitypes.h
 req.include-header: Ntddrilapitypes.h
 req.target-type: Windows

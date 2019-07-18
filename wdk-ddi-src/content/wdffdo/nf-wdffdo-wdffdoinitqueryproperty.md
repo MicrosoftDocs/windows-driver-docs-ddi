@@ -8,6 +8,8 @@ ms.assetid: e58def50-3e35-43d9-9f7e-31283256b204
 ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectFdoPdoRef_92306389-1cdf-4751-a0c5-552cdb5e4556.xml, WdfFdoInitQueryProperty, WdfFdoInitQueryProperty method, kmdf.wdffdoinitqueryproperty, wdf.wdffdoinitqueryproperty, wdffdo/WdfFdoInitQueryProperty
 ms.topic: function
+f1_keywords:
+ - "wdffdo/WdfFdoInitQueryProperty"
 req.header: wdffdo.h
 req.include-header: Wdf.h
 req.target-type: Universal

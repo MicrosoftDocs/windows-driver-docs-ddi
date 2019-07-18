@@ -7,6 +7,8 @@ ms.assetid: 8ed224eb-c1f6-4793-ae32-36f96d3af9ab
 ms.date: 05/10/2018
 ms.keywords: DXGK_GPUENGINETOPOLOGY, DXGK_GPUENGINETOPOLOGY structure [Display Devices], DmStructs_21e5ab51-877b-4b52-9762-cbaf3e82d2f0.xml, _DXGK_GPUENGINETOPOLOGY, d3dkmddi/DXGK_GPUENGINETOPOLOGY, display.dxgk_gpuenginetopology
 ms.topic: struct
+f1_keywords:
+ - "d3dkmddi/DXGK_GPUENGINETOPOLOGY"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

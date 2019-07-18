@@ -8,6 +8,8 @@ ms.assetid: FE76DA51-400E-4F64-B8D9-8738D2F5031A
 ms.date: 05/03/2018
 ms.keywords: GetOutputWidth, GetOutputWidth method [Windows Debugging], GetOutputWidth method [Windows Debugging],IDebugClient interface, IDebugClient interface [Windows Debugging],GetOutputWidth method, IDebugClient.GetOutputWidth, IDebugClient::GetOutputWidth, dbgeng/IDebugClient::GetOutputWidth, debugger.idebugclient_getoutputwidth
 ms.topic: method
+f1_keywords:
+ - "dbgeng/IDebugClient.GetOutputWidth"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

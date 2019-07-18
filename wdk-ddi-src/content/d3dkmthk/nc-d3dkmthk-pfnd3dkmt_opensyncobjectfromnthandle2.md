@@ -5,6 +5,8 @@ description: The PFND3DKMT_OPENSYNCOBJECTFROMNTHANDLE2 callback function maps an
 ms.assetid: 4ca41a3c-3bd5-4964-8299-72c78b0df435
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/PFND3DKMT_OPENSYNCOBJECTFROMNTHANDLE2"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

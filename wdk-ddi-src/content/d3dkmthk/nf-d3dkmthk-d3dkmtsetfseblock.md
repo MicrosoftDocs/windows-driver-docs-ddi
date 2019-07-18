@@ -5,6 +5,8 @@ description: Sets FSE block.
 ms.assetid: cd4f0f39-21f6-4c38-a396-2385b03ffb65
 ms.date: 10/19/2018
 ms.topic: function
+f1_keywords:
+ - "d3dkmthk/D3DKMTSetFSEBlock"
 ms.keywords: D3DKMTSetFSEBlock
 req.header: d3dkmthk.h
 req.include-header:

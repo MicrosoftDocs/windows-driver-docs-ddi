@@ -5,6 +5,8 @@ description: The TryCastToRuntimeType method will ask the debug host to perform 
 ms.assetid: a65187dd-e6eb-4749-afa0-18ed308b416f
 ms.date: 08/13/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IModelObject.TryCastToRuntimeType"
 ms.keywords: IModelObject::TryCastToRuntimeType, TryCastToRuntimeType, IModelObject.TryCastToRuntimeType, IModelObject::TryCastToRuntimeType, IModelObject.TryCastToRuntimeType
 req.header: dbgmodel.h
 req.include-header:

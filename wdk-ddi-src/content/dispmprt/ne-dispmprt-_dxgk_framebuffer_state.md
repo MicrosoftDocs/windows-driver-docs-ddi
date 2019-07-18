@@ -8,6 +8,8 @@ ms.assetid: 911E04E4-A9B9-4354-8EAB-CEEF87D56852
 ms.date: 05/10/2018
 ms.keywords: DXGK_FRAMEBUFFER_STATE, DXGK_FRAMEBUFFER_STATE enumeration [Display Devices], FrameBufferStateInitializedByDriver, FrameBufferStateInitializedByFirmware, FrameBufferStateUnknown, _DXGK_FRAMEBUFFER_STATE, display.dxgk_framebuffer_state, dispmprt/DXGK_FRAMEBUFFER_STATE, dispmprt/FrameBufferStateInitializedByDriver, dispmprt/FrameBufferStateInitializedByFirmware, dispmprt/FrameBufferStateUnknown
 ms.topic: enum
+f1_keywords:
+ - "dispmprt/DXGK_FRAMEBUFFER_STATE"
 req.header: dispmprt.h
 req.include-header: 
 req.target-type: Windows

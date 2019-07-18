@@ -8,6 +8,8 @@ ms.assetid: 86e48354-d4cd-4ad0-a6bd-e8ba662075d8
 ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectFdoPdoRef_bc23c37b-d595-4672-ad92-4a29aea9c2dd.xml, WdfPdoInitAllocate, WdfPdoInitAllocate method, kmdf.wdfpdoinitallocate, wdf.wdfpdoinitallocate, wdfpdo/WdfPdoInitAllocate
 ms.topic: function
+f1_keywords:
+ - "wdfpdo/WdfPdoInitAllocate"
 req.header: wdfpdo.h
 req.include-header: Wdf.h
 req.target-type: Universal

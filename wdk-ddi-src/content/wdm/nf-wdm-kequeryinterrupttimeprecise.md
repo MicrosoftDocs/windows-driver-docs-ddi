@@ -8,6 +8,8 @@ ms.assetid: CCA03E61-6FEF-42BC-9407-A02432C50542
 ms.date: 04/30/2018
 ms.keywords: KeQueryInterruptTimePrecise, KeQueryInterruptTimePrecise routine [Kernel-Mode Driver Architecture], kernel.kequeryinterrupttimeprecise, wdm/KeQueryInterruptTimePrecise
 ms.topic: function
+f1_keywords:
+ - "wdm/KeQueryInterruptTimePrecise"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

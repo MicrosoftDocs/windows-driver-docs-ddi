@@ -8,6 +8,8 @@ ms.assetid: aed86b34-4a9e-4c39-be0f-fa57829fa926
 ms.date: 04/16/2018
 ms.keywords: FltApiRef_a_to_d_5f6cccb8-671c-495a-9c18-c262d4845105.xml, FltCompareInstanceAltitudes, FltCompareInstanceAltitudes function [Installable File System Drivers], fltkernel/FltCompareInstanceAltitudes, ifsk.fltcompareinstancealtitudes
 ms.topic: function
+f1_keywords:
+ - "fltkernel/FltCompareInstanceAltitudes"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

@@ -8,6 +8,8 @@ ms.assetid: eddf63a3-ba27-4a75-b093-cc0de866eb3c
 ms.author: windowsdriverdev
 ms.date: 02/01/2019
 ms.topic: struct
+f1_keywords:
+ - "d3dkmdt/_DXGK_NODEMETADATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.keywords: _DXGK_NODEMETADATA, DXGK_NODEMETADATA, DXGKARG_GETNODEMETADATA

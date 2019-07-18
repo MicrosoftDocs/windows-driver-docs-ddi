@@ -8,6 +8,8 @@ ms.assetid: 632888bc-4a2a-4554-b6c6-8ca54f021342
 ms.date: 02/15/2018
 ms.keywords: Add, Add method, Add method,IPortableDeviceKeyCollection interface, IPortableDeviceKeyCollection interface,Add method, IPortableDeviceKeyCollection.Add, IPortableDeviceKeyCollection::Add, IPortableDeviceKeyCollectionAdd, portabledevicetypes/IPortableDeviceKeyCollection::Add, wpddk.iportabledevicekeycollection_add
 ms.topic: method
+f1_keywords:
+ - "portabledevicetypes/IPortableDeviceKeyCollection.Add"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows

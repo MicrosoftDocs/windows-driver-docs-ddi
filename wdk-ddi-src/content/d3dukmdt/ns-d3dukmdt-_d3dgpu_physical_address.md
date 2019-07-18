@@ -5,6 +5,8 @@ description: The GPU's physical address.
 ms.assetid: c0e476ef-bd49-46e6-8e16-eabb6178f9d7
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3dukmdt/_D3DGPU_PHYSICAL_ADDRESS"
 ms.keywords: _D3DGPU_PHYSICAL_ADDRESS, D3DGPU_PHYSICAL_ADDRESS, 
 req.header: d3dukmdt.h
 req.include-header:

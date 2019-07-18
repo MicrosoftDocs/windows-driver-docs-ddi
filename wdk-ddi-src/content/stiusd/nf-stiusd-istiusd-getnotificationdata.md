@@ -8,6 +8,8 @@ ms.assetid: c4293fa8-07c9-40b2-acc2-8a3128b6dad4
 ms.date: 05/03/2018
 ms.keywords: GetNotificationData, GetNotificationData method [Imaging Devices], GetNotificationData method [Imaging Devices],IStiUSD interface, IStiUSD interface [Imaging Devices],GetNotificationData method, IStiUSD.GetNotificationData, IStiUSD::GetNotificationData, image.istiusd_getnotificationdata, stifnc_1641dbac-f429-4f85-9cd0-25ef82000992.xml, stiusd/IStiUSD::GetNotificationData
 ms.topic: method
+f1_keywords:
+ - "stiusd/IStiUSD.GetNotificationData"
 req.header: stiusd.h
 req.include-header: Stiusd.h
 req.target-type: Desktop

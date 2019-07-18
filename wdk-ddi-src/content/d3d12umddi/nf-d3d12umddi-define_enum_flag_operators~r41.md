@@ -5,6 +5,8 @@ description: Defines operator overloads to enable bit operations on enum values 
 ms.assetid: b4a4a8d4-b914-4580-8011-a05fbeece172
 ms.date: 10/19/2018
 ms.topic: function
+f1_keywords:
+ - "d3d12umddi/DEFINE_ENUM_FLAG_OPERATORS"
 ms.keywords: DEFINE_ENUM_FLAG_OPERATORS
 req.header: d3d12umddi.h
 req.include-header:

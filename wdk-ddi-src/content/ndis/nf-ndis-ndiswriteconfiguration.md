@@ -8,6 +8,8 @@ ms.assetid: 63c94f4d-1c8c-43c2-ae58-993da42a80a4
 ms.date: 05/02/2018
 ms.keywords: NdisWriteConfiguration, NdisWriteConfiguration function [Network Drivers Starting with Windows Vista], ndis/NdisWriteConfiguration, ndis_configuration_ref_7d603433-49ed-46d5-8a57-000c06d83d4a.xml, netvista.ndiswriteconfiguration
 ms.topic: function
+f1_keywords:
+ - "ndis/NdisWriteConfiguration"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

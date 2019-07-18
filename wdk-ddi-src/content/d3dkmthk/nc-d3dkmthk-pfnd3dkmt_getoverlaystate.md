@@ -5,6 +5,8 @@ description: Pfnd3dkmtGetoverlaystate retrieves the status about an overlay.
 ms.assetid: 0cad9f03-12b6-4039-9a8a-db420644288b
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/PFND3DKMT_GETOVERLAYSTATE"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

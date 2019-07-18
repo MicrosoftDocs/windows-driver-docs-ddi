@@ -8,6 +8,8 @@ ms.assetid: 262c4b9b-fdca-4899-a635-fb273bbf4cc8
 ms.date: 05/10/2018
 ms.keywords: HwVidExecuteDma, HwVidExecuteDma callback function [Display Devices], PEXECUTE_DMA, PEXECUTE_DMA callback, VideoMiniport_Functions_5819a796-9dfd-41fe-9158-6ec09ac14760.xml, display.hwvidexecutedma, video/HwVidExecuteDma
 ms.topic: callback
+f1_keywords:
+ - "video/HwVidExecuteDma"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

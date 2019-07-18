@@ -8,6 +8,8 @@ ms.assetid: 0985589E-074A-45C8-9F8A-384DC42EC884
 ms.date: 04/30/2018
 ms.keywords: KeRegisterBoundCallback, KeRegisterBoundCallback routine [Kernel-Mode Driver Architecture], kernel.keregisterboundcallback, wdm/KeRegisterBoundCallback
 ms.topic: function
+f1_keywords:
+ - "wdm/KeRegisterBoundCallback"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Universal

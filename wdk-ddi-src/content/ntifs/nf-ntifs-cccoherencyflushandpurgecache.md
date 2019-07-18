@@ -8,6 +8,8 @@ ms.assetid: 61dfdd09-1e2b-4771-a2c2-62454adc7832
 ms.date: 04/16/2018
 ms.keywords: CcCoherencyFlushAndPurgeCache, CcCoherencyFlushAndPurgeCache routine [Installable File System Drivers], ccref_79641311-568b-472c-9950-2e46472affcf.xml, ifsk.cccoherencyflushandpurgecache, ntifs/CcCoherencyFlushAndPurgeCache
 ms.topic: function
+f1_keywords:
+ - "ntifs/CcCoherencyFlushAndPurgeCache"
 req.header: ntifs.h
 req.include-header: Ntifs.h, FltKernel.h
 req.target-type: Universal

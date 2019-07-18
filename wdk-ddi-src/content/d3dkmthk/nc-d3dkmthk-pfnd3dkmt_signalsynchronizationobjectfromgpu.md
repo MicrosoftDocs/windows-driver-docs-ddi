@@ -5,6 +5,8 @@ description: The PFND3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU callback function 
 ms.assetid: e9e3ae87-849b-40ff-b7f4-e9560a6ef9bd
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/PFND3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

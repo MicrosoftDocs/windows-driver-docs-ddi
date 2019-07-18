@@ -8,6 +8,8 @@ ms.assetid: 72a1c2f4-5f20-4c00-baf5-3d48fe27f48d
 ms.date: 02/23/2018
 ms.keywords: EtwWriteTransfer, EtwWriteTransfer function [Driver Development Tools], devtest.etwwritetransfer, etw_km_210cf13d-0f54-4a51-b8f2-7d37b22d8eac.xml, wdm/EtwWriteTransfer
 ms.topic: function
+f1_keywords:
+ - "wdm/EtwWriteTransfer"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Universal

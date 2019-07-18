@@ -7,6 +7,8 @@ ms.assetid: 5992c846-93de-4f95-839a-81f14db709f7
 ms.date: 05/10/2018
 ms.keywords: DXGKARG_QUERYADAPTERINFO, DXGKARG_QUERYADAPTERINFO structure [Display Devices], DmStructs_82a38a66-d65c-4b88-be6d-974590e9472a.xml, _DXGKARG_QUERYADAPTERINFO, d3dkmddi/DXGKARG_QUERYADAPTERINFO, display.dxgkarg_queryadapterinfo
 ms.topic: struct
+f1_keywords:
+ - "d3dkmddi/DXGKARG_QUERYADAPTERINFO"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

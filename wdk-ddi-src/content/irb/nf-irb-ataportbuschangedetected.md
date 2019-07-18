@@ -8,6 +8,8 @@ ms.assetid: e5a3d4dc-7446-49c1-985a-9d3a9d43dc15
 ms.date: 03/29/2018
 ms.keywords: AtaPortBusChangeDetected, AtaPortBusChangeDetected routine [Storage Devices], irb/AtaPortBusChangeDetected, storage.ataportbuschangedetected
 ms.topic: function
+f1_keywords:
+ - "irb/AtaPortBusChangeDetected"
 req.header: irb.h
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop

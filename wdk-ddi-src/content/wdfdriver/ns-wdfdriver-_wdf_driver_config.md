@@ -8,6 +8,8 @@ ms.assetid: 24197846-9664-4fc6-8578-5bcaf0e4a71c
 ms.date: 02/26/2018
 ms.keywords: "*PWDF_DRIVER_CONFIG, DFDriverObjectRef_89306ddc-557c-4142-a26b-a120acdffed6.xml, PWDF_DRIVER_CONFIG, PWDF_DRIVER_CONFIG structure pointer, WDF_DRIVER_CONFIG, WDF_DRIVER_CONFIG structure, _WDF_DRIVER_CONFIG, kmdf.wdf_driver_config, wdf.wdf_driver_config, wdfdriver/PWDF_DRIVER_CONFIG, wdfdriver/WDF_DRIVER_CONFIG"
 ms.topic: struct
+f1_keywords:
+ - "wdfdriver/WDF_DRIVER_CONFIG"
 req.header: wdfdriver.h
 req.include-header: Wdf.h
 req.target-type: Windows

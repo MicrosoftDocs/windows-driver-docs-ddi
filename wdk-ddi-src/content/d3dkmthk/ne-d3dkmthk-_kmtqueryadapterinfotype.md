@@ -5,6 +5,8 @@ description: The available types of display adapters in the registry.
 ms.assetid: bb3888be-1948-4b72-b3f4-c04ff33f2573
 ms.date: 11/21/2018
 ms.topic: enum
+f1_keywords:
+ - "d3dkmthk/_KMTQUERYADAPTERINFOTYPE"
 ms.keywords: _KMTQUERYADAPTERINFOTYPE, KMTQUERYADAPTERINFOTYPE,
 req.header: d3dkmthk.h
 req.include-header:

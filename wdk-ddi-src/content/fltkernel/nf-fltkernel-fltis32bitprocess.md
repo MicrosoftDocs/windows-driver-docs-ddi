@@ -8,6 +8,8 @@ ms.assetid: 0ba4d101-5eba-4258-9526-9e9dc3fd142a
 ms.date: 04/16/2018
 ms.keywords: FltApiRef_e_to_o_dbd737ec-e787-4f85-bd9e-833e06e862f0.xml, FltIs32bitProcess, FltIs32bitProcess routine [Installable File System Drivers], fltkernel/FltIs32bitProcess, ifsk.fltis32bitprocess
 ms.topic: function
+f1_keywords:
+ - "fltkernel/FltIs32bitProcess"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

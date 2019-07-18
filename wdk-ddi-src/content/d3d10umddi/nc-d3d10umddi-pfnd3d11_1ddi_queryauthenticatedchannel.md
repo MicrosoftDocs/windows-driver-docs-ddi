@@ -7,6 +7,8 @@ ms.assetid: bb152e3d-497f-4798-86cc-6f300e24a05c
 ms.date: 05/10/2018
 ms.keywords: PFND3D11_1DDI_QUERYAUTHENTICATEDCHANNEL, PFND3D11_1DDI_QUERYAUTHENTICATEDCHANNEL callback, QueryAuthenticatedChannel, QueryAuthenticatedChannel callback function [Display Devices], d3d10umddi/QueryAuthenticatedChannel, display.pfnqueryauthenticatedchannel1, display.queryauthenticatedchannel1
 ms.topic: callback
+f1_keywords:
+ - "d3d10umddi/QueryAuthenticatedChannel"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

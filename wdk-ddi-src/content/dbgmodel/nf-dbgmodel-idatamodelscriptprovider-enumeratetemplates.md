@@ -5,6 +5,8 @@ description: The EnumerateTemplates method returns an enumerator which is capabl
 ms.assetid: 9d814794-0a1a-4de8-8f2c-3cb2f3d48b76
 ms.date: 08/20/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDataModelScriptProvider.EnumerateTemplates"
 ms.keywords: IDataModelScriptProvider::EnumerateTemplates, EnumerateTemplates, IDataModelScriptProvider.EnumerateTemplates, IDataModelScriptProvider::EnumerateTemplates, IDataModelScriptProvider.EnumerateTemplates
 req.header: dbgmodel.h
 req.include-header:

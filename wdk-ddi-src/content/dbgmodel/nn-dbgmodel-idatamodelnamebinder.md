@@ -5,6 +5,8 @@ description: Interface to a name binder – a component which can associate name
 ms.assetid: 9dbef43d-3f97-47f2-a5a6-5d273407dd6f
 ms.date: 07/13/2018
 ms.topic: interface
+f1_keywords:
+ - "dbgmodel/IDataModelNameBinder"
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:

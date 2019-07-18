@@ -8,6 +8,8 @@ ms.assetid: c20c39f9-ceee-47f0-849a-f8686fb05e6a
 ms.date: 03/29/2018
 ms.keywords: ChangerClassFreePool, ChangerClassFreePool routine [Storage Devices], chgrclas_3f5fb8a4-3c85-4dde-80c9-f8e001b7b3bd.xml, mcd/ChangerClassFreePool, storage.changerclassfreepool
 ms.topic: function
+f1_keywords:
+ - "mcd/ChangerClassFreePool"
 req.header: mcd.h
 req.include-header: Mcd.h, Ntddchgr.h
 req.target-type: Desktop

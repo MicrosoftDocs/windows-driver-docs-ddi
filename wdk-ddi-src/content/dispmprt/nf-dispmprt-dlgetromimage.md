@@ -8,6 +8,8 @@ ms.assetid: b3f252bc-a6b2-406f-b80b-cf0615d5f421
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
 ms.topic: function
+f1_keywords:
+ - "dispmprt/DlGetRomImage"
 ms.keywords: DlGetRomImage
 req.header: dispmprt.h
 req.include-header:

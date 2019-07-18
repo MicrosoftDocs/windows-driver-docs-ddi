@@ -8,6 +8,8 @@ ms.assetid: E9282552-93AB-4380-A270-1A538CCF8C0E
 ms.date: 02/15/2018
 ms.keywords: NfcCxDeviceInitialize, NfcCxDeviceInitialize method [Near-Field Proximity Drivers], nfccx/NfcCxDeviceInitialize, nfpdrivers._nfccxdeviceinitialize
 ms.topic: function
+f1_keywords:
+ - "nfccx/NfcCxDeviceInitialize"
 req.header: nfccx.h
 req.include-header: Ncidef.h
 req.target-type: Windows

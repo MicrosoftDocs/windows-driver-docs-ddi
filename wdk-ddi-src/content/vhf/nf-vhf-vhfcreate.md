@@ -8,6 +8,8 @@ ms.assetid: 11A98BBE-2609-4E55-8988-42620EB15281
 ms.date: 04/30/2018
 ms.keywords: VhfCreate, VhfCreate method [Human Input Devices], hid.vhfcreate, vhf/VhfCreate
 ms.topic: function
+f1_keywords:
+ - "vhf/VhfCreate"
 req.header: vhf.h
 req.include-header: 
 req.target-type: Windows

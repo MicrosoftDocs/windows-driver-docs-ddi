@@ -8,6 +8,8 @@ ms.assetid: 0D2FB16D-ABBC-428F-95D4-4B17E262D115
 ms.date: 02/15/2018
 ms.keywords: NfcCxNciReadNotification, NfcCxNciReadNotification method [Near-Field Proximity Drivers], nfccx/NfcCxNciReadNotification, nfpdrivers._nfccxncireadnotification
 ms.topic: function
+f1_keywords:
+ - "nfccx/NfcCxNciReadNotification"
 req.header: nfccx.h
 req.include-header: Ncidef.h
 req.target-type: Windows

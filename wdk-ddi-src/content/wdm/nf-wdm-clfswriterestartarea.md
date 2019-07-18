@@ -8,6 +8,8 @@ ms.assetid: e97006e1-5a18-4478-9cac-30eb70142fa7
 ms.date: 04/30/2018
 ms.keywords: ClfsWriteRestartArea, ClfsWriteRestartArea routine [Kernel-Mode Driver Architecture], Clfs_b2bfac14-eb9c-4323-af79-ab8bebf06f79.xml, kernel.clfswriterestartarea, wdm/ClfsWriteRestartArea
 ms.topic: function
+f1_keywords:
+ - "wdm/ClfsWriteRestartArea"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop

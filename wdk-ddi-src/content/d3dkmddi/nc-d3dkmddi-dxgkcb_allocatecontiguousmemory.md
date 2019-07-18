@@ -5,6 +5,8 @@ description: Implemented by the client driver to allocate contiguous memory regi
 ms.assetid: 58a963a4-c65e-4ac5-bdeb-583604dbec2e
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmddi/DXGKCB_ALLOCATECONTIGUOUSMEMORY"
 req.header: d3dkmddi.h
 req.include-header:
 req.target-type:

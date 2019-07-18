@@ -8,6 +8,8 @@ ms.assetid: dde09937-14fb-423b-8905-8a398a9c5902
 ms.date: 05/07/2018
 ms.keywords: "*PUSBD_INTERFACE_INFORMATION, PUSBD_INTERFACE_INFORMATION, PUSBD_INTERFACE_INFORMATION structure pointer [Buses], USBD_INTERFACE_INFORMATION, USBD_INTERFACE_INFORMATION structure [Buses], _USBD_INTERFACE_INFORMATION, buses.usbd_interface_information, usb/PUSBD_INTERFACE_INFORMATION, usb/USBD_INTERFACE_INFORMATION, usbstrct_1d2a2627-f530-4ccb-8473-0f028ab44acc.xml"
 ms.topic: struct
+f1_keywords:
+ - "usb/USBD_INTERFACE_INFORMATION"
 req.header: usb.h
 req.include-header: Usb.h
 req.target-type: Windows

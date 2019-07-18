@@ -8,6 +8,8 @@ ms.assetid: c23d1861-59df-4bd4-a005-173ccac53049
 ms.date: 04/30/2018
 ms.keywords: IoWMIOpenBlock, IoWMIOpenBlock routine [Kernel-Mode Driver Architecture], k104_19f378c4-3729-4668-aef0-0e675d2e1ae4.xml, kernel.iowmiopenblock, wdm/IoWMIOpenBlock
 ms.topic: function
+f1_keywords:
+ - "wdm/IoWMIOpenBlock"
 req.header: wdm.h
 req.include-header: Ntddk.h, Ntifs.h. The WMIGUID_XXX values are declared in Wmistr.h. To use them, include Wmistr.h.
 req.target-type: Universal

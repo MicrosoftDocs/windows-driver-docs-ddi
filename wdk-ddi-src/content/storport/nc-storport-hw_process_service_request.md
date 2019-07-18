@@ -8,6 +8,8 @@ ms.assetid: bdcaf9a7-4c79-407b-bec4-182f3a1d1f37
 ms.date: 03/29/2018
 ms.keywords: HW_PROCESS_SERVICE_REQUEST, HwStorProcessServiceRequest, HwStorProcessServiceRequest routine [Storage Devices], storage.hwstorprocessservicerequest, storport/HwStorProcessServiceRequest, storvmini_50b0d1a2-74bf-4ee4-a9f7-3c30f1a81507.xml
 ms.topic: callback
+f1_keywords:
+ - "storport/HwStorProcessServiceRequest"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

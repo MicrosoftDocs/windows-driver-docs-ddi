@@ -7,6 +7,8 @@ ms.assetid: 464a2291-55c8-4e51-ba08-219ce426d038
 ms.date: 05/10/2018
 ms.keywords: CreateDeferredContext, CreateDeferredContext callback function [Display Devices], PFND3D11DDI_CREATEDEFERREDCONTEXT, PFND3D11DDI_CREATEDEFERREDCONTEXT callback, UserModeDisplayDriverDx11_Functions_8de581fa-3b85-4827-bf32-f0b96d011202.xml, d3d10umddi/CreateDeferredContext, display.createdeferredcontext
 ms.topic: callback
+f1_keywords:
+ - "d3d10umddi/CreateDeferredContext"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

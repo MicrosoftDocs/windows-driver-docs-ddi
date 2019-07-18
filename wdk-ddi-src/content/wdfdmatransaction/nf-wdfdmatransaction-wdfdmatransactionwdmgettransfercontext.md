@@ -8,6 +8,8 @@ ms.assetid: EB156381-FC0E-40A3-A4AF-341AE70B97FF
 ms.date: 02/26/2018
 ms.keywords: WdfDmaTransactionWdmGetTransferContext, WdfDmaTransactionWdmGetTransferContext method, kmdf.wdfdmatransactionwdmgettransfercontext, wdf.wdfdmatransactionwdmgettransfercontext, wdfdmatransaction/WdfDmaTransactionWdmGetTransferContext
 ms.topic: function
+f1_keywords:
+ - "wdfdmatransaction/WdfDmaTransactionWdmGetTransferContext"
 req.header: wdfdmatransaction.h
 req.include-header: Wdf.h
 req.target-type: Universal

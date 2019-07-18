@@ -5,6 +5,8 @@ description: The EnumerateLocals method returns a variable set for all local var
 ms.assetid: c538a07f-cd0c-44a5-897a-2e35920685d5
 ms.date: 09/10/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDataModelScriptDebugStackFrame.EnumerateLocals"
 ms.keywords: IDataModelScriptDebugStackFrame::EnumerateLocals, EnumerateLocals, IDataModelScriptDebugStackFrame.EnumerateLocals, IDataModelScriptDebugStackFrame::EnumerateLocals, IDataModelScriptDebugStackFrame.EnumerateLocals
 req.header: dbgmodel.h
 req.include-header:

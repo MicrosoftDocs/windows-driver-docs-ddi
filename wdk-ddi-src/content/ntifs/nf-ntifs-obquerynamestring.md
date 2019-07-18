@@ -8,6 +8,8 @@ ms.assetid: 3c540410-6478-4da1-8ef5-b6d21d322b32
 ms.date: 04/16/2018
 ms.keywords: ObQueryNameString, ObQueryNameString routine [Installable File System Drivers], ifsk.obquerynamestring, ntifs/ObQueryNameString, obref_3d52f727-edc5-4bea-b7c1-24a3aced1079.xml
 ms.topic: function
+f1_keywords:
+ - "ntifs/ObQueryNameString"
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal

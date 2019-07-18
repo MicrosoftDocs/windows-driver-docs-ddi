@@ -8,6 +8,8 @@ ms.assetid: d391a7ed-220e-412a-8e32-22b206c7a062
 ms.date: 04/30/2018
 ms.keywords: ClfsReadRestartArea, ClfsReadRestartArea routine [Kernel-Mode Driver Architecture], Clfs_bce9c012-cc19-472e-a1b3-c2d83435c6c0.xml, kernel.clfsreadrestartarea, wdm/ClfsReadRestartArea
 ms.topic: function
+f1_keywords:
+ - "wdm/ClfsReadRestartArea"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop

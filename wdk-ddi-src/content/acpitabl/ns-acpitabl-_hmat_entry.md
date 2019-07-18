@@ -5,6 +5,8 @@ description: The HMAT_ENTRY structure contains the Heterogeneous Memory Attribut
 ms.assetid: e37fa3c2-99c2-478f-9d00-3bba73cbc7d5
 ms.date: 09/28/2018
 ms.topic: struct
+f1_keywords:
+ - "acpitabl/_HMAT_ENTRY"
 ms.keywords: _HMAT_ENTRY, HMAT_ENTRY, *PHMAT_ENTRY, 
 req.header: acpitabl.h
 req.include-header:

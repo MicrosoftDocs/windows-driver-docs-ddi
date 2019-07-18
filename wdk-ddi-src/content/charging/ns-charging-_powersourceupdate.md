@@ -8,6 +8,8 @@ ms.assetid: A1BFCCE4-14F0-4F41-A062-71B001CE14AA
 ms.date: 02/15/2018
 ms.keywords: "*PPOWERSOURCEUPDATE, POWERSOURCEUPDATE, POWERSOURCEUPDATE structure [Battery Devices], _POWERSOURCEUPDATE, battery.powersourceupdate, charging/BATTERY_INFORMATION"
 ms.topic: struct
+f1_keywords:
+ - "charging/BATTERY_INFORMATION"
 req.header: charging.h
 req.include-header: Charging.h
 req.target-type: Windows

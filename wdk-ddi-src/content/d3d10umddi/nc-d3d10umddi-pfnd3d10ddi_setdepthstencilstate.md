@@ -7,6 +7,8 @@ ms.assetid: 379f8113-b07c-4984-ba37-a06d6c21b9e9
 ms.date: 05/10/2018
 ms.keywords: PFND3D10DDI_SETDEPTHSTENCILSTATE, PFND3D10DDI_SETDEPTHSTENCILSTATE callback, SetDepthStencilState, SetDepthStencilState callback function [Display Devices], UserModeDisplayDriverDx10_Functions_850fde8e-3bb5-4943-94ba-d98298599c19.xml, d3d10umddi/SetDepthStencilState, display.setdepthstencilstate
 ms.topic: callback
+f1_keywords:
+ - "d3d10umddi/SetDepthStencilState"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

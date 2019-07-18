@@ -8,6 +8,8 @@ ms.assetid: c3739a08-f4ea-4cc5-8f62-7d4a5cd3ed43
 ms.date: 05/02/2018
 ms.keywords: "*PWWAN_SET_SMS_CONFIGURATION, PWWAN_SET_SMS_CONFIGURATION, PWWAN_SET_SMS_CONFIGURATION structure pointer [Network Drivers Starting with Windows Vista], WWAN_SET_SMS_CONFIGURATION, WWAN_SET_SMS_CONFIGURATION structure [Network Drivers Starting with Windows Vista], WwanRef_2a344216-b18f-41d6-8a11-dac6cb24de69.xml, _WWAN_SET_SMS_CONFIGURATION, netvista.wwan_set_sms_configuration, wwan/PWWAN_SET_SMS_CONFIGURATION, wwan/WWAN_SET_SMS_CONFIGURATION"
 ms.topic: struct
+f1_keywords:
+ - "wwan/WWAN_SET_SMS_CONFIGURATION"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows

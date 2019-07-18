@@ -8,6 +8,8 @@ ms.assetid: B5640B86-D931-4A26-85F2-BBE18620668C
 ms.date: 05/03/2018
 ms.keywords: IDebugFailureAnalysis2 interface [Windows Debugging],NextEntry method, IDebugFailureAnalysis2.NextEntry, IDebugFailureAnalysis2::NextEntry, NextEntry, NextEntry method [Windows Debugging], NextEntry method [Windows Debugging],IDebugFailureAnalysis2 interface, debugger.idebugfailureanalysis2_nextentry, extsfns/IDebugFailureAnalysis2::NextEntry
 ms.topic: method
+f1_keywords:
+ - "extsfns/IDebugFailureAnalysis2.NextEntry"
 req.header: extsfns.h
 req.include-header: 
 req.target-type: Desktop

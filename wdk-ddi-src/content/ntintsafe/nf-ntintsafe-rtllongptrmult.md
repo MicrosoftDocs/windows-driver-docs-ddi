@@ -8,6 +8,8 @@ ms.assetid: AF602DBE-E106-4105-B56B-DE9EE7691A05
 ms.date: 04/30/2018
 ms.keywords: RtlLongPtrMult, RtlLongPtrMult function [Kernel-Mode Driver Architecture], kernel.rtllongptrmult, ntintsafe/RtlLongPtrMult
 ms.topic: function
+f1_keywords:
+ - "ntintsafe/RtlLongPtrMult"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop

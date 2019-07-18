@@ -7,6 +7,8 @@ ms.assetid: 649ce7fc-6852-43f3-b944-b2b64fcba874
 ms.date: 05/10/2018
 ms.keywords: DXGKCB_QUERYVIDPNINTERFACE, DXGKCB_QUERYVIDPNINTERFACE callback, DpFunctions_0bbf993b-c05b-402b-af4a-cf1a3ec4d4b8.xml, DxgkCbQueryVidPnInterface, DxgkCbQueryVidPnInterface callback function [Display Devices], d3dkmddi/DxgkCbQueryVidPnInterface, display.dxgkcbqueryvidpninterface
 ms.topic: callback
+f1_keywords:
+ - "d3dkmddi/DxgkCbQueryVidPnInterface"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Desktop

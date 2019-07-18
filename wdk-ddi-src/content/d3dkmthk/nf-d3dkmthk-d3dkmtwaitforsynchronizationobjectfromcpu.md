@@ -7,6 +7,8 @@ ms.assetid: C65880F7-DFCA-4DF9-ABF1-95A82D1D43ED
 ms.date: 05/10/2018
 ms.keywords: D3DKMTWaitForSynchronizationObjectFromCpu, D3DKMTWaitForSynchronizationObjectFromCpu function [Display Devices], d3dkmthk/D3DKMTWaitForSynchronizationObjectFromCpu, display.d3dkmtwaitforsynchronizationobjectfromcpu
 ms.topic: function
+f1_keywords:
+ - "d3dkmthk/D3DKMTWaitForSynchronizationObjectFromCpu"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal

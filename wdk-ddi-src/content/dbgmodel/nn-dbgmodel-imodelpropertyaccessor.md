@@ -5,6 +5,8 @@ description: The data model representation of a  property accessor (get/set).
 ms.assetid: 719a97dc-26eb-4b5a-9f68-50c4a9069bae
 ms.date: 07/16/2018
 ms.topic: interface
+f1_keywords:
+ - "dbgmodel/IModelPropertyAccessor"
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:

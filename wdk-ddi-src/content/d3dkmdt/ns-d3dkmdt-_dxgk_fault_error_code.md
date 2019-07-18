@@ -8,6 +8,8 @@ ms.assetid: 753FC177-D430-40E5-98CD-B3BDFD47ACEF
 ms.date: 05/10/2018
 ms.keywords: DXGK_FAULT_ERROR_CODE, DXGK_FAULT_ERROR_CODE structure [Display Devices], _DXGK_FAULT_ERROR_CODE, d3dkmdt/DXGK_FAULT_ERROR_CODE, display.dxgk_fault_error_code
 ms.topic: struct
+f1_keywords:
+ - "d3dkmdt/DXGK_FAULT_ERROR_CODE"
 req.header: d3dkmdt.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

@@ -5,6 +5,8 @@ description: The configuration structure used in the registering the client driv
 ms.assetid: 744fbd96-7286-4f48-9c00-6a3206f0ee37
 ms.date: 09/30/2018
 ms.topic: struct
+f1_keywords:
+ - "usbpmapi/_USBPM_CLIENT_CONFIG"
 tech.root: usbref
 ms.keywords: _USBPM_CLIENT_CONFIG, USBPM_CLIENT_CONFIG, *PUSBPM_CLIENT_CONFIG, 
 req.header: usbpmapi.h

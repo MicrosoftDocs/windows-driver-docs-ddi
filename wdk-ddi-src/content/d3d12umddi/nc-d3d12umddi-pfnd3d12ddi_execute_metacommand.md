@@ -5,6 +5,8 @@ description: Implemented by the client driver to execute the meta-command.
 ms.assetid: 0ba97840-c316-4905-b65b-f103da9d5fe4
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_EXECUTE_METACOMMAND"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

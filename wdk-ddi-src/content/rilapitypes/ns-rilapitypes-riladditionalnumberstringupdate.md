@@ -8,6 +8,8 @@ ms.assetid: 43fe1e25-be15-4f7a-8ecf-e4492235c6c2
 ms.date: 05/02/2018
 ms.keywords: "*LPRILADDITIONALNUMBERSTRINGUPDATE, RILADDITIONALNUMBERSTRINGUPDATE, RILADDITIONALNUMBERSTRINGUPDATE structure [Network Drivers Starting with Windows Vista], netvista.riladditionalnumberstringupdate, ntddrilapitypes/RILADDITIONALNUMBERSTRINGUPDATE"
 ms.topic: struct
+f1_keywords:
+ - "rilapitypes/RILADDITIONALNUMBERSTRINGUPDATE"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

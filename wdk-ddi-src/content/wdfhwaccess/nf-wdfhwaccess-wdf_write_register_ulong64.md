@@ -8,6 +8,8 @@ ms.assetid: 471B6165-24A0-45E1-AD7F-B7D3468DF573
 ms.date: 02/26/2018
 ms.keywords: WDF_WRITE_REGISTER_ULONG64, WDF_WRITE_REGISTER_ULONG64 function, wdf.wdf_write_register_ulong64, wdfhwaccess/WDF_WRITE_REGISTER_ULONG64
 ms.topic: function
+f1_keywords:
+ - "wdfhwaccess/WDF_WRITE_REGISTER_ULONG64"
 req.header: wdfhwaccess.h
 req.include-header: 
 req.target-type: Universal

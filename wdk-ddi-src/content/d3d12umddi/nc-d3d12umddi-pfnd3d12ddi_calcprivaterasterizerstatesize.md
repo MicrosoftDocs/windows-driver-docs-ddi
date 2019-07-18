@@ -6,6 +6,8 @@ tech.root: display
 ms.assetid: 73e36761-ac4e-45e1-8ad4-2d23fee52777
 ms.date: 11/28/2018
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_CALCPRIVATERASTERIZERSTATESIZE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 req.header: d3d12umddi.h

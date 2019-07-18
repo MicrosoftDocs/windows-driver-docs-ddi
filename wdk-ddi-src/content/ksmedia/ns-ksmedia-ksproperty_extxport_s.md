@@ -8,6 +8,8 @@ ms.assetid: 01132969-b459-4110-a067-fda6c7ee5510
 ms.date: 04/30/2019
 ms.keywords: "*PKSPROPERTY_EXTXPORT_S, KSPROPERTY_EXTXPORT_S, KSPROPERTY_EXTXPORT_S structure [Streaming Media Devices], PKSPROPERTY_EXTXPORT_S, PKSPROPERTY_EXTXPORT_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_EXTXPORT_S, ksmedia/PKSPROPERTY_EXTXPORT_S, stream.ksproperty_extxport_s, vidcapstruct_9cd12be8-0378-481b-80e3-81b3decc1823.xml"
 ms.topic: struct
+f1_keywords:
+ - "ksmedia/KSPROPERTY_EXTXPORT_S"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows

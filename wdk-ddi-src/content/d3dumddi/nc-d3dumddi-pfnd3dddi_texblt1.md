@@ -8,6 +8,8 @@ ms.assetid: 63EE8130-47E5-4976-8A72-1B11136B1192
 ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_TEXBLT1, PFND3DDDI_TEXBLT1 callback, TexBlt1, TexBlt1 callback function [Display Devices], d3dumddi/TexBlt1, display.texblt1
 ms.topic: callback
+f1_keywords:
+ - "d3dumddi/TexBlt1"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop

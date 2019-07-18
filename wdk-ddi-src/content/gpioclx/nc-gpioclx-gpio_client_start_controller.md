@@ -8,6 +8,8 @@ ms.assetid: 311C5273-1C16-4EA7-96B4-838CCE6926BA
 ms.date: 02/15/2018
 ms.keywords: CLIENT_StartController, CLIENT_StartController callback, CLIENT_StartController callback function [Parallel Ports], GPIO.client_startcontroller, GPIO_CLIENT_START_CONTROLLER, gpioclx/CLIENT_StartController
 ms.topic: callback
+f1_keywords:
+ - "gpioclx/CLIENT_StartController"
 req.header: gpioclx.h
 req.include-header: 
 req.target-type: Desktop

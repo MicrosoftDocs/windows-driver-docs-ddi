@@ -5,6 +5,8 @@ description: Returns the number of arguments to the generic/template.
 ms.assetid: 1451041e-41f1-47d2-a259-dbdfb46cf8b8
 ms.date: 09/11/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDebugHostType.GetGenericArgumentCount"
 ms.keywords: IDebugHostType::GetGenericArgumentCount, GetGenericArgumentCount, IDebugHostType.GetGenericArgumentCount, IDebugHostType::GetGenericArgumentCount, IDebugHostType.GetGenericArgumentCount
 req.header: dbgmodel.h
 req.include-header:

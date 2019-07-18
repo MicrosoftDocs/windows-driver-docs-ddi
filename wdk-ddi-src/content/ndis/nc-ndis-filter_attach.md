@@ -8,6 +8,8 @@ ms.assetid: 0a15a8c9-74af-4d93-bd12-a3c81c177684
 ms.date: 05/02/2018
 ms.keywords: FILTER_ATTACH, FILTER_ATTACH callback, FilterAttach, FilterAttach callback function [Network Drivers Starting with Windows Vista], filter_functions_ref_1e3f64d6-a779-4732-824a-87af6a7adc25.xml, ndis/FilterAttach, netvista.filterattach
 ms.topic: callback
+f1_keywords:
+ - "ndis/FilterAttach"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

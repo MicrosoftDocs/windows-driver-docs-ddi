@@ -8,6 +8,8 @@ ms.assetid: E484AB83-DEA6-4FC7-9896-26984D998661
 ms.date: 04/30/2018
 ms.keywords: RtlUIntPtrMult, RtlUIntPtrMult function [Kernel-Mode Driver Architecture], kernel.rtluintptrmult, ntintsafe/RtlUIntPtrMult
 ms.topic: function
+f1_keywords:
+ - "ntintsafe/RtlUIntPtrMult"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop

@@ -8,6 +8,8 @@ ms.assetid: a827df55-ff88-439a-8d56-fba8212105a6
 ms.date: 05/10/2018
 ms.keywords: VideoPortDoDma, VideoPortDoDma function [Display Devices], VideoPort_Functions_febc78ee-355f-4689-9da9-f67f829d8a32.xml, display.videoportdodma, video/VideoPortDoDma
 ms.topic: function
+f1_keywords:
+ - "video/VideoPortDoDma"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

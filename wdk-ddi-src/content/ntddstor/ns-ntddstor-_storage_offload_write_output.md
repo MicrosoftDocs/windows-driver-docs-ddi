@@ -8,6 +8,8 @@ ms.assetid: 95EF1722-5171-4A09-8676-7910E53E3868
 ms.date: 03/29/2018
 ms.keywords: "*PSTORAGE_OFFLOAD_WRITE_OUTPUT, PSTORAGE_OFFLOAD_WRITE_OUTPUT, PSTORAGE_OFFLOAD_WRITE_OUTPUT structure pointer [Storage Devices], STORAGE_OFFLOAD_TOKEN_INVALID, STORAGE_OFFLOAD_WRITE_OUTPUT, STORAGE_OFFLOAD_WRITE_OUTPUT structure [Storage Devices], STORAGE_OFFLOAD_WRITE_RANGE_TRUNCATED, _STORAGE_OFFLOAD_WRITE_OUTPUT, ntddstor/PSTORAGE_OFFLOAD_WRITE_OUTPUT, ntddstor/STORAGE_OFFLOAD_WRITE_OUTPUT, storage.storage_offload_write_output"
 ms.topic: struct
+f1_keywords:
+ - "ntddstor/STORAGE_OFFLOAD_WRITE_OUTPUT"
 req.header: ntddstor.h
 req.include-header: Ntddstor.h
 req.target-type: Windows

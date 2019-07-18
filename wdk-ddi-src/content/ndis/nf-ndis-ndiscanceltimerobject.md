@@ -8,6 +8,8 @@ ms.assetid: b66652b7-2e02-49f5-a7e3-60ff35363a19
 ms.date: 05/02/2018
 ms.keywords: NdisCancelTimerObject, NdisCancelTimerObject function [Network Drivers Starting with Windows Vista], ndis/NdisCancelTimerObject, ndis_timer_ref_39b68ae4-4fd7-4609-aebc-e2be21bead04.xml, netvista.ndiscanceltimerobject
 ms.topic: function
+f1_keywords:
+ - "ndis/NdisCancelTimerObject"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

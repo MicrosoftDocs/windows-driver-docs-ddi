@@ -8,6 +8,8 @@ ms.assetid: 94b72ad0-1ace-4fde-a4a9-1078103e3d9b
 ms.date: 05/10/2018
 ms.keywords: Int10ReadMemory, Int10ReadMemory callback function [Display Devices], PINT10_READ_MEMORY, PINT10_READ_MEMORY callback, VideoPort_Functions_fab5815b-1478-4d19-823f-05fd1de02b0c.xml, display.int10readmemory, video/Int10ReadMemory
 ms.topic: callback
+f1_keywords:
+ - "video/Int10ReadMemory"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

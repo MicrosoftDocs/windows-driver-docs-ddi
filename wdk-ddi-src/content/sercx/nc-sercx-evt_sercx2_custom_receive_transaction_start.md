@@ -8,6 +8,8 @@ ms.assetid: F90250CC-EDBF-4DB7-B889-4BF6325FB0CD
 ms.date: 04/23/2018
 ms.keywords: 2/EvtSerCx2CustomReceiveTransactionStart, EVT_SERCX2_CUSTOM_RECEIVE_TRANSACTION_START, EVT_SERCX2_CUSTOM_RECEIVE_TRANSACTION_START callback, EvtSerCx2CustomReceiveTransactionStart, EvtSerCx2CustomReceiveTransactionStart callback function [Serial Ports], serports.evtsercx2customreceivetransactionstart
 ms.topic: callback
+f1_keywords:
+ - "sercx/EvtSerCx2CustomReceiveTransactionStart"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Desktop

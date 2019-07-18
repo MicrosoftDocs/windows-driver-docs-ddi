@@ -8,6 +8,8 @@ ms.assetid: 01053A65-45A4-4232-A9F2-1651DC820026
 ms.date: 02/26/2018
 ms.keywords: WDF_USB_DEVICE_CREATE_CONFIG_INIT, WDF_USB_DEVICE_CREATE_CONFIG_INIT function, kmdf.wdf_usb_device_create_config_init, kmdf.wdf_usbtarget_device_config_init, wdf.wdf_usb_device_create_config_init, wdfusb/WDF_USB_DEVICE_CREATE_CONFIG_INIT
 ms.topic: function
+f1_keywords:
+ - "wdfusb/WDF_USB_DEVICE_CREATE_CONFIG_INIT"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal

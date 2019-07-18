@@ -5,6 +5,8 @@ description: The PFND3DKMT_ACQUIRESWAPCHAIN callback function acquires a swap ch
 ms.assetid: a657e5a6-68e1-484b-8724-533887a417cf
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/PFND3DKMT_ACQUIRESWAPCHAIN"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

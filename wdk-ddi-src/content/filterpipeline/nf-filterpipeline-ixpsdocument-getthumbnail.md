@@ -8,6 +8,8 @@ ms.assetid: 74466609-4408-4065-a607-cd338902335d
 ms.date: 04/20/2018
 ms.keywords: GetThumbnail, GetThumbnail method [Print Devices], GetThumbnail method [Print Devices],IXpsDocument interface, IXpsDocument interface [Print Devices],GetThumbnail method, IXpsDocument.GetThumbnail, IXpsDocument::GetThumbnail, filterpipeline/IXpsDocument::GetThumbnail, filterpipeline_dbbd8b80-198b-4cdd-af97-68093d87c4e1.xml, print.ixpsdocument_getthumbnail
 ms.topic: method
+f1_keywords:
+ - "filterpipeline/IXpsDocument.GetThumbnail"
 req.header: filterpipeline.h
 req.include-header: 
 req.target-type: Desktop

@@ -8,6 +8,8 @@ ms.assetid: 8a7ee6f8-a1cb-4a92-b6df-cb0c8679599c
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
 ms.topic: function
+f1_keywords:
+ - "dispmprt/DlSetTrappedEmulatorPorts"
 ms.keywords: DlSetTrappedEmulatorPorts
 req.header: dispmprt.h
 req.include-header:

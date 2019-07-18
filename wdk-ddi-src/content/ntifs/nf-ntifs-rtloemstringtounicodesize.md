@@ -8,6 +8,8 @@ ms.assetid: e54d0e3f-4e46-43b5-8338-b6e2f2a14c56
 ms.date: 04/16/2018
 ms.keywords: RtlOemStringToUnicodeSize, RtlOemStringToUnicodeSize routine [Installable File System Drivers], ifsk.rtloemstringtounicodesize, ntifs/RtlOemStringToUnicodeSize, rtlref_5f048569-d84e-43ee-8d51-1281f18c7ddf.xml
 ms.topic: macro
+f1_keywords:
+ - "ntifs/RtlOemStringToUnicodeSize"
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal

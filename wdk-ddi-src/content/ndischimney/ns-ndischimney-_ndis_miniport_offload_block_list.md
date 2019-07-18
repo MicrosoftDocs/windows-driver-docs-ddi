@@ -8,6 +8,8 @@ ms.assetid: ebc98e65-5d11-4c3d-aea1-dfad1434c093
 ms.date: 05/02/2018
 ms.keywords: "*PNDIS_MINIPORT_OFFLOAD_BLOCK_LIST, NDIS_MINIPORT_OFFLOAD_BLOCK_LIST, NDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure [Network Drivers Starting with Windows Vista], PNDIS_MINIPORT_OFFLOAD_BLOCK_LIST, PNDIS_MINIPORT_OFFLOAD_BLOCK_LIST structure pointer [Network Drivers Starting with Windows Vista], _NDIS_MINIPORT_OFFLOAD_BLOCK_LIST, ndischimney/NDIS_MINIPORT_OFFLOAD_BLOCK_LIST, ndischimney/PNDIS_MINIPORT_OFFLOAD_BLOCK_LIST, netvista.ndis_miniport_offload_block_list, tcp_chim_struct_34a99dea-527f-421e-a3a7-92a7c1f7d503.xml"
 ms.topic: struct
+f1_keywords:
+ - "ndischimney/NDIS_MINIPORT_OFFLOAD_BLOCK_LIST"
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
 req.target-type: Windows

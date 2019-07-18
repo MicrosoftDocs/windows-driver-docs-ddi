@@ -8,6 +8,8 @@ ms.assetid: 2F69FC2F-C336-4B51-8EFC-0A9AA22121B9
 ms.date: 04/30/2018
 ms.keywords: IoClearActivityIdThread, IoClearActivityIdThread routine [Kernel-Mode Driver Architecture], kernel.ioclearactivityidthread, ntddk/IoClearActivityIdThread
 ms.topic: function
+f1_keywords:
+ - "ntddk/IoClearActivityIdThread"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal

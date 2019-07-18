@@ -8,6 +8,8 @@ ms.assetid: 13eb4c17-2cb5-4773-b2e3-e8e624473c97
 ms.date: 05/02/2018
 ms.keywords: NdisTerminateOffload, NdisTerminateOffload function [Network Drivers Starting with Windows Vista], ndischimney/NdisTerminateOffload, netvista.ndisterminateoffload, tcp_chim_ndis_func_44201f08-cbfc-4796-b2a9-78bbc5c348c4.xml
 ms.topic: function
+f1_keywords:
+ - "ndischimney/NdisTerminateOffload"
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
 req.target-type: Universal

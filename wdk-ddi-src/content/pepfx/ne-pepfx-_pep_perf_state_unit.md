@@ -8,6 +8,8 @@ ms.assetid: 5E5F049D-4306-4382-B3F7-06C1F5FFE93E
 ms.date: 04/30/2018
 ms.keywords: "*PPEP_PERF_STATE_UNIT, PEP_PERF_STATE_UNIT, PEP_PERF_STATE_UNIT enumeration [Kernel-Mode Driver Architecture], PepPerfStateUnitBandwidth, PepPerfStateUnitFrequency, PepPerfStateUnitMax, PepPerfStateUnitOther, _PEP_PERF_STATE_UNIT, kernel.pep_perf_state_unit, pepfx/PEP_PERF_STATE_UNIT, pepfx/PepPerfStateUnitBandwidth, pepfx/PepPerfStateUnitFrequency, pepfx/PepPerfStateUnitMax, pepfx/PepPerfStateUnitOther"
 ms.topic: enum
+f1_keywords:
+ - "pepfx/PEP_PERF_STATE_UNIT"
 req.header: pepfx.h
 req.include-header: Pep_x.h
 req.target-type: Windows

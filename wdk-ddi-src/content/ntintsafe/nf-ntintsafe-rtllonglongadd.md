@@ -8,6 +8,8 @@ ms.assetid: 94FD1DD3-0799-4E90-A115-9EF065433B05
 ms.date: 04/30/2018
 ms.keywords: RtlLongLongAdd, RtlLongLongAdd function [Kernel-Mode Driver Architecture], kernel.rtllonglongadd, ntintsafe/RtlLongLongAdd
 ms.topic: function
+f1_keywords:
+ - "ntintsafe/RtlLongLongAdd"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop

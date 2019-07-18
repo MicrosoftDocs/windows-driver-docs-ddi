@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: aa089b07-e623-44c1-9f2e-ee256d7bef16
 ms.date: 04/13/2018
 ms.topic: macro
+f1_keywords:
+ - "ndis/NDIS_NBL_ADD_MEDIA_SPECIFIC_INFO_EX"
 ms.keywords: NDIS_NBL_ADD_MEDIA_SPECIFIC_INFO_EX
 req.header: ndis.h
 req.include-header:

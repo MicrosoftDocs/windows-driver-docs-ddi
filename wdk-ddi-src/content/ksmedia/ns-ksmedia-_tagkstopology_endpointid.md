@@ -8,6 +8,8 @@ ms.assetid: A84BE3D6-7D2A-4123-979B-F6E1CA8C8B23
 ms.date: 05/08/2018
 ms.keywords: "*PKSTOPOLOGY_ENDPOINTID, KSTOPOLOGY_ENDPOINTID, KSTOPOLOGY_ENDPOINTID structure [Audio Devices], PKSTOPOLOGY_ENDPOINTID, PKSTOPOLOGY_ENDPOINTID structure pointer [Audio Devices], _tagKSTOPOLOGY_ENDPOINTID, audio.kstopology_endpointid, ksmedia/KSTOPOLOGY_ENDPOINTID, ksmedia/PKSTOPOLOGY_ENDPOINTID"
 ms.topic: struct
+f1_keywords:
+ - "ksmedia/KSTOPOLOGY_ENDPOINTID"
 req.header: ksmedia.h
 req.include-header: 
 req.target-type: Windows

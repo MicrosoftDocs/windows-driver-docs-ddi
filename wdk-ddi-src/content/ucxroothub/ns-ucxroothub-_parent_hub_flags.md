@@ -8,6 +8,8 @@ ms.assetid: 9107CC24-48FF-4A2C-AA27-1E9E316B7944
 ms.date: 05/07/2018
 ms.keywords: "*PPARENT_HUB_FLAGS, PARENT_HUB_FLAGS, PARENT_HUB_FLAGS union [Buses], _PARENT_HUB_FLAGS, buses._parent_hub_flags, ucxroothub/_PARENT_HUB_FLAGS"
 ms.topic: struct
+f1_keywords:
+ - "ucxroothub/PARENT_HUB_FLAGS"
 req.header: ucxroothub.h
 req.include-header: Ucxclass.h
 req.target-type: Windows

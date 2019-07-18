@@ -5,6 +5,8 @@ description: Contains optional information used to configure the client driver's
 ms.assetid: 919040a7-21d8-4fc4-9539-fdc7fff53b40
 ms.date: 09/30/2018
 ms.topic: struct
+f1_keywords:
+ - "usbpmapi/_USBPM_CLIENT_CONFIG_EXTRA_INFO"
 tech.root: usbref
 ms.keywords: _USBPM_CLIENT_CONFIG_EXTRA_INFO, USBPM_CLIENT_CONFIG_EXTRA_INFO, *PUSBPM_CLIENT_CONFIG_EXTRA_INFO, 
 req.header: usbpmapi.h

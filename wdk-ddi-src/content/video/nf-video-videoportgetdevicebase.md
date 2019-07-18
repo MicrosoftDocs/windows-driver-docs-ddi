@@ -8,6 +8,8 @@ ms.assetid: 53665c1d-8c0b-45c7-8d23-13c0964eda39
 ms.date: 05/10/2018
 ms.keywords: VideoPortGetDeviceBase, VideoPortGetDeviceBase function [Display Devices], VideoPort_Functions_ee5844a6-6337-42b7-b960-5228ad1c1ae4.xml, display.videoportgetdevicebase, video/VideoPortGetDeviceBase
 ms.topic: function
+f1_keywords:
+ - "video/VideoPortGetDeviceBase"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

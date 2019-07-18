@@ -7,6 +7,8 @@ ms.assetid: 33140445-e312-4495-990a-033a87598fa1
 ms.date: 05/10/2018
 ms.keywords: D3DKMTOpenKeyedMutex2, D3DKMTOpenKeyedMutex2 callback function [Display Devices], PFND3DKMT_OPENKEYEDMUTEX2, PFND3DKMT_OPENKEYEDMUTEX2 callback, d3dkmthk/D3DKMTOpenKeyedMutex2, display.d3dkmtopenkeyedmutex2
 ms.topic: function
+f1_keywords:
+ - "d3dkmthk/D3DKMTOpenKeyedMutex2"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal

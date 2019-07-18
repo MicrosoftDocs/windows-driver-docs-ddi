@@ -8,6 +8,8 @@ ms.assetid: 07C39363-559A-4B55-850E-052BA78E869D
 ms.date: 04/16/2018
 ms.keywords: FltAddOpenReparseEntry, FltAddOpenReparseEntry routine [Installable File System Drivers], FltCopyOpenReparseList, fltkernel/FltAddOpenReparseEntry, ifsk.fltcopyopenreparselist
 ms.topic: function
+f1_keywords:
+ - "fltkernel/FltAddOpenReparseEntry"
 req.header: fltkernel.h
 req.include-header: 
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: 4d299057-a1cc-4b53-8ab4-031672181e74
 ms.date: 02/20/2018
 ms.keywords: PSHED_PI_RETRIEVE_ERROR_INFO, PSHED_PI_RETRIEVE_ERROR_INFO callback, RetrieveErrorInfo, RetrieveErrorInfo callback function [WHEA Drivers and Applications], ntddk/RetrieveErrorInfo, whea.retrieveerrorinfo, whearef_f231db3f-6108-4229-895f-7e0281b5b3b8.xml
 ms.topic: callback
+f1_keywords:
+ - "ntddk/RetrieveErrorInfo"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Desktop

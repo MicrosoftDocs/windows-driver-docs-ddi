@@ -8,6 +8,8 @@ ms.assetid: 26c9d499-2d53-48b8-8704-3ec7b15e15d8
 ms.date: 03/29/2018
 ms.keywords: IOCTL_STORAGE_RESET_BUS, IOCTL_STORAGE_RESET_BUS control, IOCTL_STORAGE_RESET_BUS control code [Storage Devices], k307_8a5629b9-44e4-4ed7-a481-a5b9efbeb083.xml, ntddstor/IOCTL_STORAGE_RESET_BUS, storage.ioctl_storage_reset_bus
 ms.topic: ioctl
+f1_keywords:
+ - "ntddstor/IOCTL_STORAGE_RESET_BUS"
 req.header: ntddstor.h
 req.include-header: Ntddstor.h
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: eec8ba30-0f9e-4487-ba0d-99587d97b44a
 ms.date: 05/02/2018
 ms.keywords: NetDmaGetVersion, NetDmaGetVersion function [Network Drivers Starting with Windows Vista], netdma/NetDmaGetVersion, netdma_ref_bb1adf18-d43d-4dc2-b780-1a1322014581.xml, netvista.netdmagetversion
 ms.topic: function
+f1_keywords:
+ - "netdma/NetDmaGetVersion"
 req.header: netdma.h
 req.include-header: Netdma.h
 req.target-type: Universal

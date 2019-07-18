@@ -6,6 +6,8 @@ tech.root: display
 ms.assetid: ea84faa8-df7d-41e3-8250-d11dd75531c8
 ms.date: 11/28/2018
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_CALC_PRIVATE_SHADER_SIZE_0026"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 req.header: d3d12umddi.h

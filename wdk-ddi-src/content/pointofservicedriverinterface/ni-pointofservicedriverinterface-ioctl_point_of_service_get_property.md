@@ -8,6 +8,8 @@ ms.assetid: 7d0231b3-4db7-47b3-8208-70d2cd337005
 ms.date: 02/23/2018
 ms.keywords: IOCTL_POINT_OF_SERVICE_GET_PROPERTY, IOCTL_POINT_OF_SERVICE_GET_PROPERTY control, IOCTL_POINT_OF_SERVICE_GET_PROPERTY control code, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_GET_PROPERTY, pos.ioctl_point_of_service_get_property
 ms.topic: ioctl
+f1_keywords:
+ - "pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_GET_PROPERTY"
 req.header: pointofservicedriverinterface.h
 req.include-header: Pointofservicedriverinterface.h
 req.target-type: Windows

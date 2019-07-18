@@ -8,6 +8,8 @@ ms.assetid: ea5e654a-9cb5-4d4d-9660-339410a6a20f
 ms.date: 04/30/2018
 ms.keywords: KeRestoreExtendedProcessorState, KeRestoreExtendedProcessorState routine [Kernel-Mode Driver Architecture], k105_35142457-ddfe-4773-b4ed-d2d84d5c74d0.xml, kernel.kerestoreextendedprocessorstate, wdm/KeRestoreExtendedProcessorState
 ms.topic: function
+f1_keywords:
+ - "wdm/KeRestoreExtendedProcessorState"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

@@ -8,6 +8,8 @@ ms.assetid: A5AA5E73-3DC1-4977-9B64-9E0FB3E6609E
 ms.date: 11/15/2018
 ms.keywords: DeviceReset, PDEVICE_RESET_HANDLER, ResetDevice, ResetDevice routine [Kernel-Mode Driver Architecture], kernel.devicereset, wdm/ResetDevice
 ms.topic: callback
+f1_keywords:
+ - "wdm/ResetDevice"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Desktop

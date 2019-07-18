@@ -8,6 +8,8 @@ ms.assetid: c73e3b75-e11d-44b8-9a4a-c98ccfe1c820
 ms.date: 05/02/2018
 ms.keywords: RIL_SetCallForwardingStatus, RIL_SetCallForwardingStatus method [Network Drivers Starting with Windows Vista], netvista.ril_setcallforwardingstatus, rilapi/RIL_SetCallForwardingStatus
 ms.topic: function
+f1_keywords:
+ - "rilapi/RIL_SetCallForwardingStatus"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows

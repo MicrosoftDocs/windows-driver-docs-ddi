@@ -8,6 +8,8 @@ ms.assetid: cd32b54a-57e0-496c-b18c-84a6c75d8820
 ms.date: 04/04/2018
 ms.keywords: IWDTFStrings2 interface [Windows Device Testing Framework],Remove method, IWDTFStrings2.Remove, IWDTFStrings2::Remove, Microsoft.WDTF.IWDTFStrings2.Remove, Microsoft::WDTF::IWDTFStrings2::Remove, Remove, Remove method [Windows Device Testing Framework], Remove method [Windows Device Testing Framework],IWDTFStrings2 interface, dtf.iwdtfstrings2_remove, wdtf/IWDTFStrings2::Remove
 ms.topic: method
+f1_keywords:
+ - "wdtf/IWDTFStrings2.Remove"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Desktop

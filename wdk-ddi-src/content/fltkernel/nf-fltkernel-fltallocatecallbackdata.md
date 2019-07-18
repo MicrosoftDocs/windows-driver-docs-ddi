@@ -8,6 +8,8 @@ ms.assetid: a2afb8b8-b0e2-4d22-9d93-33ba2b2f8933
 ms.date: 04/16/2018
 ms.keywords: FltAllocateCallbackData, FltAllocateCallbackData routine [Installable File System Drivers], FltApiRef_a_to_d_74309bb1-841a-41a6-bd3e-71ed710bc727.xml, fltkernel/FltAllocateCallbackData, ifsk.fltallocatecallbackdata
 ms.topic: function
+f1_keywords:
+ - "fltkernel/FltAllocateCallbackData"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

@@ -8,6 +8,8 @@ ms.assetid: cf57265a-d343-4e49-9635-6a4663c9a3a5
 ms.date: 05/03/2018
 ms.keywords: IStillImageW interface [Imaging Devices],UnregisterLaunchApplication method, IStillImageW.UnregisterLaunchApplication, IStillImageW::UnregisterLaunchApplication, UnregisterLaunchApplication, UnregisterLaunchApplication method [Imaging Devices], UnregisterLaunchApplication method [Imaging Devices],IStillImageW interface, image.istillimage_unregisterlaunchapplication, sti/IStillImageW::UnregisterLaunchApplication, stifnc_7e477efa-efa3-445d-bd68-a23f87cee5de.xml
 ms.topic: method
+f1_keywords:
+ - "sti/IStillImageW.UnregisterLaunchApplication"
 req.header: sti.h
 req.include-header: Sti.h
 req.target-type: Desktop

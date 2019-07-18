@@ -8,6 +8,8 @@ ms.assetid: 67c85eaa-bb47-4384-8e37-fdbbc879b352
 ms.date: 02/26/2018
 ms.keywords: IRequestCallbackCancel interface,OnCancel method, IRequestCallbackCancel.OnCancel, IRequestCallbackCancel::OnCancel, OnCancel, OnCancel method, OnCancel method,IRequestCallbackCancel interface, UMDFRequestObjectRef_bdb47237-28bf-4b07-9bcb-f8d029636d2d.xml, umdf.irequestcallbackcancel_oncancel, wdf.irequestcallbackcancel_oncancel, wudfddi/IRequestCallbackCancel::OnCancel
 ms.topic: method
+f1_keywords:
+ - "wudfddi/IRequestCallbackCancel.OnCancel"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Windows

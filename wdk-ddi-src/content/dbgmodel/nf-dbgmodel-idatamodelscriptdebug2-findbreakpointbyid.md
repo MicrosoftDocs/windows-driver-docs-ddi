@@ -5,6 +5,8 @@ description: The FindBreakpointById method is used to get an interface to the br
 ms.assetid: 0fb78c06-b7dd-43d5-bb14-20b13a34e076
 ms.date: 08/21/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDataModelScriptDebug2.FindBreakpointById"
 ms.keywords: IDataModelScriptDebug2::FindBreakpointById, FindBreakpointById, IDataModelScriptDebug2.FindBreakpointById, IDataModelScriptDebug2::FindBreakpointById, IDataModelScriptDebug2.FindBreakpointById
 req.header: dbgmodel.h
 req.include-header:

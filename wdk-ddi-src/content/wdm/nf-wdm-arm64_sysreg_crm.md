@@ -5,6 +5,8 @@ description: Returns the CRn field for a given ARM system register.
 ms.assetid: 10ce6710-1755-452e-919a-40862842560a
 ms.date: 10/19/2018
 ms.topic: macro
+f1_keywords:
+ - "wdm/ARM64_SYSREG_CRM"
 ms.keywords: ARM64_SYSREG_CRM
 req.header: wdm.h
 req.include-header:

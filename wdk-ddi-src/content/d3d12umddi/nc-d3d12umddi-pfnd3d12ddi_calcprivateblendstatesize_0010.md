@@ -5,6 +5,8 @@ description: Determines the size of the user-mode display driver's private regio
 ms.assetid: 1b9a4131-0167-46db-a717-cfcbd3102cf7
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_CALCPRIVATEBLENDSTATESIZE_0010"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

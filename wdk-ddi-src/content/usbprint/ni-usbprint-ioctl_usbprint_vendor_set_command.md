@@ -8,6 +8,8 @@ ms.assetid: 3fbb3e5d-e7a3-4d76-9996-50375ed9fd03
 ms.date: 04/20/2018
 ms.keywords: IOCTL_USBPRINT_VENDOR_SET_COMMAND, IOCTL_USBPRINT_VENDOR_SET_COMMAND control, IOCTL_USBPRINT_VENDOR_SET_COMMAND control code [Print Devices], print.ioctl_usbprint_vendor_set_command, usbioctl_b3ea3ada-47c2-4acc-b08c-2d16e9d3ead1.xml, usbprint/IOCTL_USBPRINT_VENDOR_SET_COMMAND
 ms.topic: ioctl
+f1_keywords:
+ - "usbprint/IOCTL_USBPRINT_VENDOR_SET_COMMAND"
 req.header: usbprint.h
 req.include-header: 
 req.target-type: Windows

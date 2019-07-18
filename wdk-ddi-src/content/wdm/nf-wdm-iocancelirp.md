@@ -8,6 +8,8 @@ ms.assetid: 8d991192-2df8-4b4d-a4c5-df5091492e67
 ms.date: 04/30/2018
 ms.keywords: IoCancelIrp, IoCancelIrp routine [Kernel-Mode Driver Architecture], k104_b43eae94-7d4e-4649-b56c-498285b5033f.xml, kernel.iocancelirp, wdm/IoCancelIrp
 ms.topic: function
+f1_keywords:
+ - "wdm/IoCancelIrp"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

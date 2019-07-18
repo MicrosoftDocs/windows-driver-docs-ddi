@@ -5,6 +5,8 @@ description: Gets present private driver data size.
 ms.assetid: 17433662-deaa-4642-9ac1-0026b439491e
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_GET_PRESENT_PRIVATE_DRIVER_DATA_SIZE"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

@@ -8,6 +8,8 @@ ms.assetid: a0e3700a-768f-4025-b5f2-715e25e1d10d
 ms.date: 04/16/2018
 ms.keywords: CcGetFlushedValidData, CcGetFlushedValidData routine [Installable File System Drivers], ccref_021f04d4-537c-49a3-bfac-8eeea908c100.xml, ifsk.ccgetflushedvaliddata, ntifs/CcGetFlushedValidData
 ms.topic: function
+f1_keywords:
+ - "ntifs/CcGetFlushedValidData"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

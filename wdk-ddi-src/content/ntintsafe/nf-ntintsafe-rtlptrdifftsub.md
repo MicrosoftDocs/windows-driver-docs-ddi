@@ -8,6 +8,8 @@ ms.assetid: C87E3BD5-8CA7-443E-8CC3-F863CD4F321A
 ms.date: 04/30/2018
 ms.keywords: RtlPtrdiffTSub, RtlPtrdiffTSub function [Kernel-Mode Driver Architecture], kernel.rtlptrdifftsub, ntintsafe/RtlPtrdiffTSub
 ms.topic: function
+f1_keywords:
+ - "ntintsafe/RtlPtrdiffTSub"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop

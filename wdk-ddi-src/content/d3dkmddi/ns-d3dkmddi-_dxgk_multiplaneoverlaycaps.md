@@ -7,6 +7,8 @@ ms.assetid: E3F590EA-2B3B-464B-9D72-708B24CA3052
 ms.date: 05/10/2018
 ms.keywords: DXGK_MULTIPLANEOVERLAYCAPS, DXGK_MULTIPLANEOVERLAYCAPS structure [Display Devices], _DXGK_MULTIPLANEOVERLAYCAPS, d3dkmddi/DXGK_MULTIPLANEOVERLAYCAPS, display.dxgk_multiplaneoverlaycaps
 ms.topic: struct
+f1_keywords:
+ - "d3dkmddi/DXGK_MULTIPLANEOVERLAYCAPS"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Windows

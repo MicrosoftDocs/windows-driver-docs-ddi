@@ -8,6 +8,8 @@ ms.assetid: 631d2059-49c5-4320-934c-787aba53cdc0
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
 ms.topic: struct
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_VIDEO_MOTION_ESTIMATOR_SIZE_DATA_0060"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.keywords: D3D12DDI_VIDEO_MOTION_ESTIMATOR_SIZE_DATA_0060, D3D12DDI_VIDEO_MOTION_ESTIMATOR_SIZE_DATA_0060, 

@@ -8,6 +8,8 @@ ms.assetid: f312e955-c8a5-4642-ac8a-a0173f034a63
 ms.date: 05/02/2018
 ms.keywords: RIL_ChangeCallBarringPassword, RIL_ChangeCallBarringPassword method [Network Drivers Starting with Windows Vista], netvista.ril_changecallbarringpassword, rilapi/RIL_ChangeCallBarringPassword
 ms.topic: function
+f1_keywords:
+ - "rilapi/RIL_ChangeCallBarringPassword"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows

@@ -5,6 +5,8 @@ description: Resumes a context. A context is created in a resumed state by defau
 ms.assetid: 57730d60-f6d7-4c86-92c5-dcd33108e99b
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmddi/DXGKDDI_RESUMECONTEXT"
 req.header: d3dkmddi.h
 req.include-header:
 req.target-type:

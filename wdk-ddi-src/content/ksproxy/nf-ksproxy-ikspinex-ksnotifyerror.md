@@ -8,6 +8,8 @@ ms.assetid: a2526734-c0bf-4f6b-b91e-2f6891c46c69
 ms.date: 04/23/2018
 ms.keywords: IKsPinEx interface [Streaming Media Devices],KsNotifyError method, IKsPinEx.KsNotifyError, IKsPinEx::KsNotifyError, KsNotifyError, KsNotifyError method [Streaming Media Devices], KsNotifyError method [Streaming Media Devices],IKsPinEx interface, ksproxy/IKsPinEx::KsNotifyError, ksproxy_41c855aa-58a3-4bf6-bb8a-1eb8dfe2a3e1.xml, stream.ikspinex_ksnotifyerror
 ms.topic: method
+f1_keywords:
+ - "ksproxy/IKsPinEx.KsNotifyError"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: Desktop

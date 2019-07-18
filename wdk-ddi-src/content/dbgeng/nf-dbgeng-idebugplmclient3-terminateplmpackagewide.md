@@ -8,6 +8,8 @@ ms.assetid: EBEEF2C7-AD2E-4BE5-B20C-D4E148F1454C
 ms.date: 05/03/2018
 ms.keywords: IDebugPlmClient3 interface [Windows Debugging],TerminatePlmPackageWide method, IDebugPlmClient3.TerminatePlmPackageWide, IDebugPlmClient3::TerminatePlmPackageWide, TerminatePlmPackageWide, TerminatePlmPackageWide method [Windows Debugging], TerminatePlmPackageWide method [Windows Debugging],IDebugPlmClient3 interface, dbgeng/IDebugPlmClient3::TerminatePlmPackageWide, debugger.idebugplmclient3_terminateplmpackagewide
 ms.topic: method
+f1_keywords:
+ - "dbgeng/IDebugPlmClient3.TerminatePlmPackageWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

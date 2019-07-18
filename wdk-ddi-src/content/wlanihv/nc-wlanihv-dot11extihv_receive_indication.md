@@ -8,6 +8,8 @@ ms.assetid: b4d5c33e-563d-459c-90da-a2912c82d1cd
 ms.date: 02/16/2018
 ms.keywords: DOT11EXTIHV_RECEIVE_INDICATION, Dot11ExtIhvReceiveIndication, Dot11ExtIhvReceiveIndication callback function [Network Drivers Starting with Windows Vista], Native_802.11_IHV_Ext_f3bf018e-2849-4abc-af5b-4edb3438339f.xml, netvista.dot11extihvreceiveindication, wlanihv/Dot11ExtIhvReceiveIndication
 ms.topic: callback
+f1_keywords:
+ - "wlanihv/Dot11ExtIhvReceiveIndication"
 req.header: wlanihv.h
 req.include-header: Wlanihv.h
 req.target-type: Desktop

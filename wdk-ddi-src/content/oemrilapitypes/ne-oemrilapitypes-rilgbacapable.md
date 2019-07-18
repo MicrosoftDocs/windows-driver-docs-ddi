@@ -8,6 +8,8 @@ ms.assetid: c1acc574-6e9e-40a1-8892-00572fcc545c
 ms.date: 05/02/2018
 ms.keywords: RILGBACAPABLE, RILGBACAPABLE enumeration [Network Drivers Starting with Windows Vista], RIL_GBA_ME_SUPPORTED, RIL_GBA_NOT_SUPPORTED, RIL_GBA_UNKNOWN, RIL_GBA_U_SUPPORTED, netvista.rilgbacapable, oemrilapitypes/RILGBACAPABLE, oemrilapitypes/RIL_GBA_ME_SUPPORTED, oemrilapitypes/RIL_GBA_NOT_SUPPORTED, oemrilapitypes/RIL_GBA_UNKNOWN, oemrilapitypes/RIL_GBA_U_SUPPORTED
 ms.topic: enum
+f1_keywords:
+ - "oemrilapitypes/RILGBACAPABLE"
 req.header: oemrilapitypes.h
 req.include-header: 
 req.target-type: Windows

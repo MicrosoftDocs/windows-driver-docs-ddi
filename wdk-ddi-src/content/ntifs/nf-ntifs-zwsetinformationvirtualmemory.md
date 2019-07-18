@@ -8,6 +8,8 @@ ms.assetid: 1D53D6C6-7546-439F-818C-85E65901B5DC
 ms.date: 04/30/2018
 ms.keywords: ZwSetInformationVirtualMemory, ZwSetInformationVirtualMemory routine [Kernel-Mode Driver Architecture], kernel.zwsetinformationvirtualmemory, ntifs/ZwSetInformationVirtualMemory
 ms.topic: function
+f1_keywords:
+ - "ntifs/ZwSetInformationVirtualMemory"
 req.header: ntifs.h
 req.include-header: Ntddk.h
 req.target-type: Universal

@@ -8,6 +8,8 @@ ms.assetid: DD3AEB66-E36B-4F18-AFEC-D344132D4B8C
 ms.date: 03/29/2018
 ms.keywords: "*PUFS_GEOMETRY_DESCRIPTOR, PUFS_GEOMETRY_DESCRIPTOR, PUFS_GEOMETRY_DESCRIPTOR structure pointer [Storage Devices], UFS_GEOMETRY_DESCRIPTOR, UFS_GEOMETRY_DESCRIPTOR structure [Storage Devices], storage.ufs_geometry_descriptor, ufs/PUFS_GEOMETRY_DESCRIPTOR, ufs/UFS_GEOMETRY_DESCRIPTOR"
 ms.topic: struct
+f1_keywords:
+ - "ufs/UFS_GEOMETRY_DESCRIPTOR"
 req.header: ufs.h
 req.include-header: 
 req.target-type: Windows

@@ -5,6 +5,8 @@ description: Descriptor range flags.
 ms.assetid: f3a6679d-10b9-4b9a-a7c1-e5d967e02a5b
 ms.date: 10/19/2018
 ms.topic: enum
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_DESCRIPTOR_RANGE_FLAGS"
 ms.keywords: D3D12DDI_DESCRIPTOR_RANGE_FLAGS, D3D12DDI_DESCRIPTOR_RANGE_FLAGS, 
 req.header: d3d12umddi.h
 req.include-header:

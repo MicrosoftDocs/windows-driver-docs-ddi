@@ -8,6 +8,8 @@ ms.assetid: F6D60B8C-488A-4A3F-85AE-40A10BF2DC9F
 ms.date: 02/23/2018
 ms.keywords: EVT_POS_CX_DEVICE_REMOTE_RELEASE, EVT_POS_CX_DEVICE_REMOTE_RELEASE callback, EvtPosCxDeviceRemoteRelease, EvtPosCxDeviceRemoteRelease callback function, pos.evt_pos_cx_device_remote_release, poscx/EvtPosCxDeviceRemoteRelease
 ms.topic: callback
+f1_keywords:
+ - "poscx/EvtPosCxDeviceRemoteRelease"
 req.header: poscx.h
 req.include-header: Poscx.h
 req.target-type: Windows

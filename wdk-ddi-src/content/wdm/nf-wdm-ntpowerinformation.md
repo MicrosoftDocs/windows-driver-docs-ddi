@@ -8,6 +8,8 @@ ms.assetid: BA1D5AD2-E3E5-42CB-8E77-627B23078F80
 ms.date: 04/30/2018
 ms.keywords: NtPowerInformation, PlatformInformation, ZwPowerInformation, ZwPowerInformation routine [Kernel-Mode Driver Architecture], kernel.zwpowerinformation, wdm/NtPowerInformation, wdm/ZwPowerInformation
 ms.topic: function
+f1_keywords:
+ - "wdm/ZwPowerInformation"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntpoapi.h
 req.target-type: Universal

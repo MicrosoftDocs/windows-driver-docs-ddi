@@ -8,6 +8,8 @@ ms.assetid: 850728bd-6758-4c21-9bfd-10a0f3d006d6
 ms.date: 03/29/2018
 ms.keywords: FsRtlNotifyCleanupAll, FsRtlNotifyCleanupAll routine [Installable File System Drivers], fsrtlref_f0eea2f1-9bc9-41e1-843c-a69b3e63f452.xml, ifsk.fsrtlnotifycleanupall, ntifs/FsRtlNotifyCleanupAll
 ms.topic: function
+f1_keywords:
+ - "ntifs/FsRtlNotifyCleanupAll"
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal

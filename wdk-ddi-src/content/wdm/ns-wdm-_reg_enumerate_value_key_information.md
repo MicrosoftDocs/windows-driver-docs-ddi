@@ -8,6 +8,8 @@ ms.assetid: 0d5566ca-b71c-429e-bb7d-db3eb09f0472
 ms.date: 04/30/2018
 ms.keywords: "*PREG_ENUMERATE_VALUE_KEY_INFORMATION, PREG_ENUMERATE_VALUE_KEY_INFORMATION, PREG_ENUMERATE_VALUE_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], REG_ENUMERATE_VALUE_KEY_INFORMATION, REG_ENUMERATE_VALUE_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], _REG_ENUMERATE_VALUE_KEY_INFORMATION, kernel.reg_enumerate_value_key_information, kstruct_d_126313cd-66b7-4239-8c2a-23c475d575cf.xml, wdm/PREG_ENUMERATE_VALUE_KEY_INFORMATION, wdm/REG_ENUMERATE_VALUE_KEY_INFORMATION"
 ms.topic: struct
+f1_keywords:
+ - "wdm/REG_ENUMERATE_VALUE_KEY_INFORMATION"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows

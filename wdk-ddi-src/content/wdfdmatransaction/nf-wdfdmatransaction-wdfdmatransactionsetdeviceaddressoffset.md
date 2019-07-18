@@ -8,6 +8,8 @@ ms.assetid: A45231E0-0807-41AA-B20F-6335067BE99A
 ms.date: 02/26/2018
 ms.keywords: WdfDmaTransactionSetDeviceAddressOffset, WdfDmaTransactionSetDeviceAddressOffset method, kmdf.wdfdmatransactionsetdeviceaddressoffset, wdf.wdfdmatransactionsetdeviceaddressoffset, wdfdmatransaction/WdfDmaTransactionSetDeviceAddressOffset
 ms.topic: function
+f1_keywords:
+ - "wdfdmatransaction/WdfDmaTransactionSetDeviceAddressOffset"
 req.header: wdfdmatransaction.h
 req.include-header: Wdf.h
 req.target-type: Universal

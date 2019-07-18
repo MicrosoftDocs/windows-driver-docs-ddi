@@ -8,6 +8,8 @@ ms.assetid: c418538a-4041-4ea8-8a4c-1f4d35e434c7
 ms.date: 04/30/2018
 ms.keywords: ExInterlockedAddUlong, ExInterlockedAddUlong routine [Kernel-Mode Driver Architecture], k102_bec4a58e-ee68-4f9e-8fac-9ef0c193ef10.xml, kernel.exinterlockedaddulong, wdm/ExInterlockedAddUlong
 ms.topic: function
+f1_keywords:
+ - "wdm/ExInterlockedAddUlong"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 1a1adb5b-3953-44d5-8d82-aeb210a20c30
 ms.date: 01/23/2019
 ms.topic: callback
+f1_keywords:
+ - "netpacketqueue/EVT_PACKET_QUEUE_SET_NOTIFICATION_ENABLED"
 req.header: netpacketqueue.h
 req.include-header:
 req.target-type: Universal

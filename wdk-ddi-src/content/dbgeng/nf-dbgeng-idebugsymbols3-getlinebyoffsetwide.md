@@ -8,6 +8,8 @@ ms.assetid: e780be4b-ac62-43c2-9767-7745ff1c7dbb
 ms.date: 05/03/2018
 ms.keywords: GetLineByOffsetWide, GetLineByOffsetWide method [Windows Debugging], GetLineByOffsetWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetLineByOffsetWide method, IDebugSymbols3.GetLineByOffsetWide, IDebugSymbols3::GetLineByOffsetWide, dbgeng/IDebugSymbols3::GetLineByOffsetWide, debugger.getlinebyoffsetwide
 ms.topic: method
+f1_keywords:
+ - "dbgeng/IDebugSymbols3.GetLineByOffsetWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

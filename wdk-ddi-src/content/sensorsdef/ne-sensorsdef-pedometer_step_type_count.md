@@ -8,6 +8,8 @@ ms.assetid: BED8C7F8-AF7A-4C82-BDE2-51C4285FF510
 ms.date: 05/03/2018
 ms.keywords: PEDOMETER_STEP_TYPE_COUNT, PEDOMETER_STEP_TYPE_COUNT enumeration [Sensor Devices], PedometerStepTypeCount, sensors.pedometer_step_type_count, sensorsdef/PEDOMETER_STEP_TYPE_COUNT, sensorsdef/PedometerStepTypeCount
 ms.topic: enum
+f1_keywords:
+ - "sensorsdef/PEDOMETER_STEP_TYPE_COUNT"
 req.header: sensorsdef.h
 req.include-header: 
 req.target-type: Windows

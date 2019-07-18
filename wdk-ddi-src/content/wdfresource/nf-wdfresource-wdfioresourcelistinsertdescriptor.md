@@ -8,6 +8,8 @@ ms.assetid: 604182ea-3712-4670-bab8-edc3cb2fcd06
 ms.date: 02/26/2018
 ms.keywords: DFResourceObjectRef_6f8fc17d-c5db-47fa-854a-5536dfc11705.xml, WdfIoResourceListInsertDescriptor, WdfIoResourceListInsertDescriptor method, kmdf.wdfioresourcelistinsertdescriptor, wdf.wdfioresourcelistinsertdescriptor, wdfresource/WdfIoResourceListInsertDescriptor
 ms.topic: function
+f1_keywords:
+ - "wdfresource/WdfIoResourceListInsertDescriptor"
 req.header: wdfresource.h
 req.include-header: Wdf.h
 req.target-type: Universal

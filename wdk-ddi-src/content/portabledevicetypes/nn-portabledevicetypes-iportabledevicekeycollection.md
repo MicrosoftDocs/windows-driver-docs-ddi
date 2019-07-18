@@ -8,6 +8,8 @@ ms.assetid: 50ce4946-18a7-4b63-ba5a-c5684dd0b79c
 ms.date: 02/15/2018
 ms.keywords: IPortableDeviceKeyCollection, IPortableDeviceKeyCollection interface, IPortableDeviceKeyCollection interface,described, IPortableDeviceKeyCollectionInterface, portabledevicetypes/IPortableDeviceKeyCollection, wpddk.iportabledevicekeycollection
 ms.topic: interface
+f1_keywords:
+ - "portabledevicetypes/IPortableDeviceKeyCollection"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows

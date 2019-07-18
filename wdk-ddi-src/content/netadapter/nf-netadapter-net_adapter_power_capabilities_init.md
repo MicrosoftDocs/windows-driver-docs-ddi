@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: e5d431f9-fd17-40fd-83df-f5cbd5969770
 ms.date: 02/06/2018
 ms.topic: function
+f1_keywords:
+ - "netadapter/NET_ADAPTER_POWER_CAPABILITIES_INIT"
 ms.keywords: NET_ADAPTER_POWER_CAPABILITIES_INIT
 req.header: netadapter.h
 req.include-header:

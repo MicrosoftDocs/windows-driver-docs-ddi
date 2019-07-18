@@ -8,6 +8,8 @@ ms.assetid: 978193AE-55CD-4255-8722-A1E008E98F08
 ms.date: 05/08/2018
 ms.keywords: GetDeviceChannelCount, GetDeviceChannelCount method [Audio Devices], GetDeviceChannelCount method [Audio Devices],IMiniportAudioEngineNode interface, IMiniportAudioEngineNode interface [Audio Devices],GetDeviceChannelCount method, IMiniportAudioEngineNode.GetDeviceChannelCount, IMiniportAudioEngineNode::GetDeviceChannelCount, audio.iminiportaudioenginenode_getdevicechannelcount, portcls/IMiniportAudioEngineNode::GetDeviceChannelCount
 ms.topic: method
+f1_keywords:
+ - "portcls/IMiniportAudioEngineNode.GetDeviceChannelCount"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Universal

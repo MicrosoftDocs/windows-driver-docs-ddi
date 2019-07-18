@@ -8,6 +8,8 @@ ms.assetid: 3ff5a328-04b0-4de9-abe1-759c36f31899
 ms.date: 03/29/2018
 ms.keywords: IOCTL_DISK_SET_PARTITION_INFO, IOCTL_DISK_SET_PARTITION_INFO control, IOCTL_DISK_SET_PARTITION_INFO control code [Storage Devices], k307_9035067b-43ed-4b4f-9516-23fd7448d5e6.xml, ntdddisk/IOCTL_DISK_SET_PARTITION_INFO, storage.ioctl_disk_set_partition_info
 ms.topic: ioctl
+f1_keywords:
+ - "ntdddisk/IOCTL_DISK_SET_PARTITION_INFO"
 req.header: ntdddisk.h
 req.include-header: Ntdddisk.h
 req.target-type: Windows

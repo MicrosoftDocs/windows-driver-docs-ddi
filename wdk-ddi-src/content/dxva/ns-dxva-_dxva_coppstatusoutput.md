@@ -8,6 +8,8 @@ ms.assetid: 71d16b59-3e5c-4a2a-9217-5e0f7a2d4478
 ms.date: 05/10/2018
 ms.keywords: "*LPDXVA_COPPStatusOutput, DXVA_COPPStatusOutput, DXVA_COPPStatusOutput structure [Display Devices], LPDXVA_COPPStatusOutput, LPDXVA_COPPStatusOutput structure pointer [Display Devices], _DXVA_COPPStatusOutput, display.dxva_coppstatusoutput, dxva/DXVA_COPPStatusOutput, dxva/LPDXVA_COPPStatusOutput, dxvaref_4b7212ce-7beb-45c6-b5dd-92922993595f.xml"
 ms.topic: struct
+f1_keywords:
+ - "dxva/DXVA_COPPStatusOutput"
 req.header: dxva.h
 req.include-header: Dxva.h
 req.target-type: Windows

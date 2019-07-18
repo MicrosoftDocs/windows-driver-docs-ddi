@@ -5,6 +5,8 @@ description: The GetHostDefinedInterface method returns the host's main private 
 ms.assetid: 55ad88f7-ef21-40b8-a496-cb2d015080e5
 ms.date: 08/14/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDebugHost.GetHostDefinedInterface"
 ms.keywords: IDebugHost::GetHostDefinedInterface, GetHostDefinedInterface, IDebugHost.GetHostDefinedInterface, IDebugHost::GetHostDefinedInterface, IDebugHost.GetHostDefinedInterface
 req.header: dbgmodel.h
 req.include-header:

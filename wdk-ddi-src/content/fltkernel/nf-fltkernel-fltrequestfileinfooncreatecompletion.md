@@ -8,6 +8,8 @@ ms.assetid:  d33f4ab5-9f50-42d6-8944-0836e090a67a
 ms.author: windowsdriverdev
 ms.date: 1/11/2019
 ms.topic: function
+f1_keywords:
+ - "fltkernel/FltRequestFileInfoOnCreateCompletion"
 ms.keywords: FltRequestFileInfoOnCreateCompletion, FltRetrieveFileInfoOnCreateCompletion, FltRetrieveFileInfoOnCreateCompletionEx
 req.header: fltkernel.h
 req.include-header: Fltkernel.h

@@ -8,6 +8,8 @@ ms.assetid: cfac9061-a685-4e67-aaa2-ca43b7e36cfa
 ms.date: 05/02/2018
 ms.keywords: NdisAllocateNetBufferMdlAndData, NdisAllocateNetBufferMdlAndData function [Network Drivers Starting with Windows Vista], ndis/NdisAllocateNetBufferMdlAndData, ndis_netbuf_functions_ref_4f5d872d-11c1-4d75-889c-0c2157ce5f2e.xml, netvista.ndisallocatenetbuffermdlanddata
 ms.topic: function
+f1_keywords:
+ - "ndis/NdisAllocateNetBufferMdlAndData"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

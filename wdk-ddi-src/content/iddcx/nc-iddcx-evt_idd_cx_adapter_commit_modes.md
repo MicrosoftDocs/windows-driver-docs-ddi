@@ -8,6 +8,8 @@ ms.assetid: 30e1d240-8a1e-4bcd-8c04-76894ac61624
 ms.date: 05/10/2018
 ms.keywords: EVT_IDD_CX_ADAPTER_COMMIT_MODES, EVT_IDD_CX_ADAPTER_COMMIT_MODES callback, EvtIddCxAdapterCommitModes, EvtIddCxAdapterCommitModes callback function [Display Devices], PFN_IDD_CX_ADAPTER_COMMIT_MODES, PFN_IDD_CX_ADAPTER_COMMIT_MODES callback function pointer [Display Devices], display.evt_idd_cx_adapter_commit_modes, iddcx/EvtIddCxAdapterCommitModes
 ms.topic: callback
+f1_keywords:
+ - "iddcx/PFN_IDD_CX_ADAPTER_COMMIT_MODES"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows

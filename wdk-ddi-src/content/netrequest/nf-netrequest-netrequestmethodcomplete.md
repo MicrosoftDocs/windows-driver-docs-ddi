@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 5f846a1d-3de6-44d8-9aa0-0111962cdc57
 ms.date: 02/08/2018
 ms.topic: function
+f1_keywords:
+ - "netrequest/NetRequestMethodComplete"
 ms.keywords: NetRequestMethodComplete
 req.header: netrequest.h
 req.include-header: netadaptercx.h

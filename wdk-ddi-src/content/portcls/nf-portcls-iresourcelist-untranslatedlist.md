@@ -8,6 +8,8 @@ ms.assetid: b5b0a540-2730-40ef-8f65-135a19b9a732
 ms.date: 05/08/2018
 ms.keywords: IResourceList interface [Audio Devices],UntranslatedList method, IResourceList.UntranslatedList, IResourceList::UntranslatedList, UntranslatedList, UntranslatedList method [Audio Devices], UntranslatedList method [Audio Devices],IResourceList interface, audio.iresourcelist_untranslatedlist, audmp-routines_b367743a-b341-49cc-a300-da84b91ec7a5.xml, portcls/IResourceList::UntranslatedList
 ms.topic: method
+f1_keywords:
+ - "portcls/IResourceList.UntranslatedList"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal

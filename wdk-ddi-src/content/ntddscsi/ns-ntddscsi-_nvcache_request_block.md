@@ -8,6 +8,8 @@ ms.assetid: 25ca2d81-72a5-47ae-bdfd-0ec63e1ca39a
 ms.date: 03/29/2018
 ms.keywords: "*PNVCACHE_REQUEST_BLOCK, NVCACHE_REQUEST_BLOCK, NVCACHE_REQUEST_BLOCK structure [Storage Devices], PNVCACHE_REQUEST_BLOCK, PNVCACHE_REQUEST_BLOCK structure pointer [Storage Devices], _NVCACHE_REQUEST_BLOCK, ntddscsi/NVCACHE_REQUEST_BLOCK, ntddscsi/PNVCACHE_REQUEST_BLOCK, storage.nvcache_request_block, structs-nvcache_1886905c-1d48-4cc9-b74c-3b52dc65b279.xml"
 ms.topic: struct
+f1_keywords:
+ - "ntddscsi/NVCACHE_REQUEST_BLOCK"
 req.header: ntddscsi.h
 req.include-header: Ntddscsi.h
 req.target-type: Windows

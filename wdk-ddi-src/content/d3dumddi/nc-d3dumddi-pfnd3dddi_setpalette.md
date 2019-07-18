@@ -8,6 +8,8 @@ ms.assetid: 5d1c8c2d-7886-4876-b48e-1e6b252ae8f7
 ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_SETPALETTE, PFND3DDDI_SETPALETTE callback, SetPalette, SetPalette callback function [Display Devices], UserModeDisplayDriver_Functions_9366fa90-a9d7-4c03-9c96-a8bc4eba6abb.xml, d3dumddi/SetPalette, display.setpalette
 ms.topic: callback
+f1_keywords:
+ - "d3dumddi/SetPalette"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop

@@ -8,6 +8,8 @@ ms.assetid: 71CEEE58-22CC-4FB4-83E1-5FCC6563D1D2
 ms.date: 03/29/2018
 ms.keywords: "*PSTORAGE_ZONE_GROUP, PSTORAGE_ZONE_GROUP, PSTORAGE_ZONE_GROUP structure pointer [Storage Devices], STORAGE_ZONE_GROUP, STORAGE_ZONE_GROUP structure [Storage Devices], _STORAGE_ZONE_GROUP, ntddstor/ STORAGE_ZONE_GROUP, ntddstor/PSTORAGE_ZONE_GROUP, storage.storage_zone_group"
 ms.topic: struct
+f1_keywords:
+ - "ntddstor/STORAGE_ZONE_GROUP"
 req.header: ntddstor.h
 req.include-header: 
 req.target-type: Windows

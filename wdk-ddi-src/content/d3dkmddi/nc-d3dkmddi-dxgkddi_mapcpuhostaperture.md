@@ -7,6 +7,8 @@ ms.assetid: 78729B9A-A9FA-4D1E-8D30-3FFD61B1A7D3
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_MAPCPUHOSTAPERTURE, DXGKDDI_MAPCPUHOSTAPERTURE callback, DxgkDdiMapCpuHostAperture, DxgkDdiMapCpuHostAperture callback function [Display Devices], d3dkmddi/DxgkDdiMapCpuHostAperture, display.dxgkddimapcpuhostaperture
 ms.topic: callback
+f1_keywords:
+ - "d3dkmddi/DxgkDdiMapCpuHostAperture"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Desktop

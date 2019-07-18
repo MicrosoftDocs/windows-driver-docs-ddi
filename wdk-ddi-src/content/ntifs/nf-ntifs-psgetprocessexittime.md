@@ -8,6 +8,8 @@ ms.assetid: 2d98e2f5-0dc4-4490-a039-eb57f0e5fa87
 ms.date: 04/16/2018
 ms.keywords: PsGetProcessExitTime, PsGetProcessExitTime routine [Installable File System Drivers], ifsk.psgetprocessexittime, ntifs/PsGetProcessExitTime, psref_a3867d14-4a6b-4560-a580-cdc00075b185.xml
 ms.topic: function
+f1_keywords:
+ - "ntifs/PsGetProcessExitTime"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

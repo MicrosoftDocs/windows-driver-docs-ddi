@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: bde251f3-a9b1-4f9f-b7ff-4a7ac71be99d
 ms.date: 04/17/2018
 ms.topic: macro
+f1_keywords:
+ - "ndis/NDIS_DECLARE_SWITCH_NET_BUFFER_LIST_CONTEXT_TYPE"
 ms.keywords: NDIS_DECLARE_SWITCH_NET_BUFFER_LIST_CONTEXT_TYPE
 req.header: ndis.h
 req.include-header:

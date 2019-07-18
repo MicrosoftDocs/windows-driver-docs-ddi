@@ -8,6 +8,8 @@ ms.assetid: 0ccae1e9-23d4-44cd-ae5a-985490db1d86
 ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_ab116304-7951-4b19-b197-3943a4a415db.xml, WdfDeviceOpenRegistryKey, WdfDeviceOpenRegistryKey method, kmdf.wdfdeviceopenregistrykey, wdf.wdfdeviceopenregistrykey, wdfdevice/WdfDeviceOpenRegistryKey
 ms.topic: function
+f1_keywords:
+ - "wdfdevice/WdfDeviceOpenRegistryKey"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

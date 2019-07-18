@@ -8,6 +8,8 @@ ms.assetid: 6fde91f1-375e-4eaa-af48-67099b3e3227
 ms.date: 05/02/2018
 ms.keywords: "*LPRILRESETMODEMPARAMS, RILRESETMODEMPARAMS, RILRESETMODEMPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilresetmodemparams, ntddrilapitypes/RILRESETMODEMPARAMS"
 ms.topic: struct
+f1_keywords:
+ - "ntddrilapitypes/RILRESETMODEMPARAMS"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

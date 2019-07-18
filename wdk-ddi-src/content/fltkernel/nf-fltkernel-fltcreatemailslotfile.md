@@ -8,6 +8,8 @@ ms.assetid: A727CDC1-A17A-4ABE-92AC-7CAEC11B78D1
 ms.date: 04/16/2018
 ms.keywords: FltCreateMailslotFile, FltCreateMailslotFile function [Installable File System Drivers], fltkernel/FltCreateMailslotFile, ifsk.fltcreatemailslotfile
 ms.topic: function
+f1_keywords:
+ - "fltkernel/FltCreateMailslotFile"
 req.header: fltkernel.h
 req.include-header: FltKernel.h
 req.target-type: Universal

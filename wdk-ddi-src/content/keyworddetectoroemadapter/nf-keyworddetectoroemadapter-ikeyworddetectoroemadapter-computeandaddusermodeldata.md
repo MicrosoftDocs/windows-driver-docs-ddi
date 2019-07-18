@@ -8,6 +8,8 @@ ms.assetid: 4E810EAD-3864-44C1-9845-60DAB288BB48
 ms.date: 05/08/2018
 ms.keywords: ComputeAndAddUserModelData, ComputeAndAddUserModelData method [Audio Devices], ComputeAndAddUserModelData method [Audio Devices],IKeywordDetectorOemAdapter interface, IKeywordDetectorOemAdapter interface [Audio Devices],ComputeAndAddUserModelData method, IKeywordDetectorOemAdapter.ComputeAndAddUserModelData, IKeywordDetectorOemAdapter::ComputeAndAddUserModelData, audio.ikeyworddetectoroemadapter_computeandaddusermodeldata, keyworddetectoroemadapter/IKeywordDetectorOemAdapter::ComputeAndAddUserModelData
 ms.topic: method
+f1_keywords:
+ - "keyworddetectoroemadapter/IKeywordDetectorOemAdapter.ComputeAndAddUserModelData"
 req.header: keyworddetectoroemadapter.h
 req.include-header: 
 req.target-type: Windows

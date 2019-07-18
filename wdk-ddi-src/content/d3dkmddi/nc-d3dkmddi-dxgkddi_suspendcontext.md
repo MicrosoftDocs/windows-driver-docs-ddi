@@ -5,6 +5,8 @@ description: Instruct the GPU to suspend a context.
 ms.assetid: 05af5f3c-0884-4d16-9320-874a3e0a1b4d
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmddi/DXGKDDI_SUSPENDCONTEXT"
 req.header: d3dkmddi.h
 req.include-header:
 req.target-type:

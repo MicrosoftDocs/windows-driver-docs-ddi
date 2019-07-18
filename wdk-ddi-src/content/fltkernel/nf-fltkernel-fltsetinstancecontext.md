@@ -8,6 +8,8 @@ ms.assetid: ddeeb49b-7c7d-4faa-b2ae-cdb09adebce0
 ms.date: 04/16/2018
 ms.keywords: FltApiRef_p_to_z_a8984c00-54a9-427c-b33d-829b1db55149.xml, FltSetInstanceContext, FltSetInstanceContext function [Installable File System Drivers], fltkernel/FltSetInstanceContext, ifsk.fltsetinstancecontext
 ms.topic: function
+f1_keywords:
+ - "fltkernel/FltSetInstanceContext"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

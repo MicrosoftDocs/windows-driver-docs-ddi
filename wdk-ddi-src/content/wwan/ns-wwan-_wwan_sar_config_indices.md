@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 67e70750-eb08-4acb-941c-b6919968b2a5
 ms.date: 08/20/2018
 ms.topic: struct
+f1_keywords:
+ - "wwan/_WWAN_SAR_CONFIG_INDICES"
 ms.keywords: _WWAN_SAR_CONFIG_INDICES, WWAN_SAR_CONFIG_INDICES, *PWWAN_SAR_CONFIG_INDICES, 
 req.header: wwan.h
 req.include-header:

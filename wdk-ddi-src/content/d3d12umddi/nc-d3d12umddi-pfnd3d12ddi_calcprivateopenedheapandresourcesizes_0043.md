@@ -5,6 +5,8 @@ description: Calculates sizes for private opened heap and resources.
 ms.assetid: af4c6fb0-a10f-4abe-8161-2df2563b76cd
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_CALCPRIVATEOPENEDHEAPANDRESOURCESIZES_0043"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

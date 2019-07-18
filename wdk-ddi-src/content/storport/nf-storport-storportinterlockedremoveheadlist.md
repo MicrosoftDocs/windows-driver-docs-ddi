@@ -8,6 +8,8 @@ ms.assetid: 6B99D78A-B582-4114-9472-D01D39FDD4C9
 ms.date: 03/29/2018
 ms.keywords: StorPortInterlockedRemoveHeadList, StorPortInterlockedRemoveHeadList routine [Storage Devices], storage.storportinterlockedremoveheadlist, storport/StorPortInterlockedRemoveHeadList
 ms.topic: function
+f1_keywords:
+ - "storport/StorPortInterlockedRemoveHeadList"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

@@ -8,6 +8,8 @@ ms.assetid: ad6220e3-9b6a-4a46-978b-31edfb2c8b9b
 ms.date: 05/10/2018
 ms.keywords: IDDCX_ENDPOINT_VERSION, IDDCX_ENDPOINT_VERSION structure [Display Devices], display.iddcx_endpoint_version, iddcx/IDDCX_ENDPOINT_VERSION
 ms.topic: struct
+f1_keywords:
+ - "iddcx/IDDCX_ENDPOINT_VERSION"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows

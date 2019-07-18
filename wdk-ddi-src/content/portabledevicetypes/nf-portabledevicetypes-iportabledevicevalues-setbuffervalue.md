@@ -8,6 +8,8 @@ ms.assetid: 991088a0-590e-4228-9445-06a7433d44f7
 ms.date: 02/15/2018
 ms.keywords: IPortableDeviceValues interface,SetBufferValue method, IPortableDeviceValues.SetBufferValue, IPortableDeviceValues::SetBufferValue, IPortableDeviceValuesSetBufferValue, SetBufferValue, SetBufferValue method, SetBufferValue method,IPortableDeviceValues interface, portabledevicetypes/IPortableDeviceValues::SetBufferValue, wpddk.iportabledevicevalues_setbuffervalue
 ms.topic: method
+f1_keywords:
+ - "portabledevicetypes/IPortableDeviceValues.SetBufferValue"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: D281BCBB-CDC6-442C-9A47-DF07D1BE1B28
 ms.date: 02/15/2018
 ms.keywords: "*PCMP_MONITOR_PLUGS, 61883/CMP_MONITOR_PLUGS, 61883/PCMP_MONITOR_PLUGS, CMP_MONITOR_PLUGS, CMP_MONITOR_PLUGS structure [Buses], IEEE.cmp_monitor_plugs, PCMP_MONITOR_PLUGS, PCMP_MONITOR_PLUGS structure pointer [Buses], _CMP_MONITOR_PLUGS"
 ms.topic: struct
+f1_keywords:
+ - "61883/CMP_MONITOR_PLUGS"
 req.header: 61883.h
 req.include-header: 
 req.target-type: Windows

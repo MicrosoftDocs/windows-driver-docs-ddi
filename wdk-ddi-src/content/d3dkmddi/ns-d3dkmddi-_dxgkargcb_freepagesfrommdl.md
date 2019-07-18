@@ -5,6 +5,8 @@ description:
 ms.assetid: 035d5d7f-7f55-4c4e-ab08-97095a67b930
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3dkmddi/_DXGKARGCB_FREEPAGESFROMMDL"
 ms.keywords: _DXGKARGCB_FREEPAGESFROMMDL, DXGKARGCB_FREEPAGESFROMMDL,
 req.header: d3dkmddi.h
 req.include-header:

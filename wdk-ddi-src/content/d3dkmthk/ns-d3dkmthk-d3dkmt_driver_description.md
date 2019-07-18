@@ -8,6 +8,8 @@ ms.assetid: a86d4140-7543-4a9a-9421-9c5b38565326
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/D3DKMT_DRIVER_DESCRIPTION"
 ms.keywords: D3DKMT_DRIVER_DESCRIPTION, D3DKMT_DRIVER_DESCRIPTION, 
 req.header: d3dkmthk.h
 req.include-header:

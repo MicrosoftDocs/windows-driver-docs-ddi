@@ -8,6 +8,8 @@ ms.assetid: 5C6D2FFC-DBFF-4C44-8757-ED87593A584F
 ms.date: 04/20/2018
 ms.keywords: "*LPBranchOfficeJobDataContainer, *PBranchOfficeJobDataContainer, BranchOfficeJobDataContainer, BranchOfficeJobDataContainer structure [Print Devices], LPBranchOfficeJobDataContainer, LPBranchOfficeJobDataContainer structure pointer [Print Devices], PBranchOfficeJobDataContainer, PBranchOfficeJobDataContainer structure pointer [Print Devices], print.branchofficejobdatacontainer, winsplp/BranchOfficeJobDataContainer, winsplp/LPBranchOfficeJobDataContainer, winsplp/PBranchOfficeJobDataContainer"
 ms.topic: struct
+f1_keywords:
+ - "winsplp/BranchOfficeJobDataContainer"
 req.header: winsplp.h
 req.include-header: 
 req.target-type: Windows

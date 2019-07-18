@@ -5,6 +5,8 @@ description: Defines the style of variable arguments that a function definition 
 ms.assetid: a3779feb-72c5-443a-ba30-dabb7fcd2e5d
 ms.date: 07/16/2018
 ms.topic: enum
+f1_keywords:
+ - "dbgmodel/VarArgsKind"
 ms.keywords: VarArgsKind, , 
 req.header: dbgmodel.h
 req.include-header:

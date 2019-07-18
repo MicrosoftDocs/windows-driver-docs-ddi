@@ -5,6 +5,8 @@ description: The GetNext method moves the enumerator to the next variable in the
 ms.assetid: 3e5b85ef-4766-42e5-a300-14f5271f1c2d
 ms.date: 09/10/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDataModelScriptDebugVariableSetEnumerator.GetNext"
 ms.keywords: IDataModelScriptDebugVariableSetEnumerator::GetNext, GetNext, IDataModelScriptDebugVariableSetEnumerator.GetNext, IDataModelScriptDebugVariableSetEnumerator::GetNext, IDataModelScriptDebugVariableSetEnumerator.GetNext
 req.header: dbgmodel.h
 req.include-header:

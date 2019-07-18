@@ -8,6 +8,8 @@ ms.assetid: 6cba6db5-b91f-46f0-939e-b02693c81438
 ms.date: 04/16/2018
 ms.keywords: SeRegisterLogonSessionTerminatedRoutine, SeRegisterLogonSessionTerminatedRoutine routine [Installable File System Drivers], ifsk.seregisterlogonsessionterminatedroutine, ntifs/SeRegisterLogonSessionTerminatedRoutine, seref_7188551f-9c46-472f-8976-67ee53b994c5.xml
 ms.topic: function
+f1_keywords:
+ - "ntifs/SeRegisterLogonSessionTerminatedRoutine"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

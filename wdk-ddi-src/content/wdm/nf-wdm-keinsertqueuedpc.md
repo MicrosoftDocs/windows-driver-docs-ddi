@@ -8,6 +8,8 @@ ms.assetid: f1fc6880-23d1-4154-9305-4a918efd4a1d
 ms.date: 04/30/2018
 ms.keywords: KeInsertQueueDpc, KeInsertQueueDpc routine [Kernel-Mode Driver Architecture], k105_7f821e29-508f-4216-92db-a2e18c21d17c.xml, kernel.keinsertqueuedpc, wdm/KeInsertQueueDpc
 ms.topic: function
+f1_keywords:
+ - "wdm/KeInsertQueueDpc"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

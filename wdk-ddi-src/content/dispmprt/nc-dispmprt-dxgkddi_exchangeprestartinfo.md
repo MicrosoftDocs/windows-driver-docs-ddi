@@ -8,6 +8,8 @@ ms.assetid: B23EDC08-18E4-4826-AC51-163C706D4F43
 ms.date: 04/16/2018
 ms.keywords: DXGKDDI_EXCHANGEPRESTARTINFO, DXGKDDI_EXCHANGEPRESTARTINFO callback, DXGKDDI_EXCHANGEPRESTARTINFO callback function [Display Devices], display.dxgkddi_exchangeprestartinfo, dispmprt/DXGKDDI_EXCHANGEPRESTARTINFO
 ms.topic: callback
+f1_keywords:
+ - "dispmprt/DXGKDDI_EXCHANGEPRESTARTINFO"
 req.header: dispmprt.h
 req.include-header:
 req.target-type: Windows

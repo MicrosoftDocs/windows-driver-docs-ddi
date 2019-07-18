@@ -6,6 +6,8 @@ tech.root: audio
 ms.assetid: 74e03ac6-5a4a-431b-b395-6410c775bec5
 ms.date: 02/20/2019
 ms.topic: method
+f1_keywords:
+ - "portcls/IDrmPort.ForwardContentToFileObject"
 ms.keywords: IDrmPort::ForwardContentToFileObject, ForwardContentToFileObject, IDrmPort.ForwardContentToFileObject, IDrmPort::ForwardContentToFileObject, IDrmPort.ForwardContentToFileObject
 req.header: portcls.h
 req.include-header:

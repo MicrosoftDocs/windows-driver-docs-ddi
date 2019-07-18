@@ -8,6 +8,8 @@ ms.assetid: 62516178-11F9-43F3-A70D-42C8FDDAE2DB
 ms.date: 05/02/2018
 ms.keywords: "*PWWAN_GET_VISIBLE_PROVIDERS, PWWAN_GET_VISIBLE_PROVIDERS, PWWAN_GET_VISIBLE_PROVIDERS structure pointer [Network Drivers Starting with Windows Vista], WWAN_GET_VISIBLE_PROVIDERS, WWAN_GET_VISIBLE_PROVIDERS structure [Network Drivers Starting with Windows Vista], _WWAN_GET_VISIBLE_PROVIDERS, netvista.wwan_get_visible_providers, wwan/PWWAN_GET_VISIBLE_PROVIDERS, wwan/WWAN_GET_VISIBLE_PROVIDERS"
 ms.topic: struct
+f1_keywords:
+ - "wwan/WWAN_GET_VISIBLE_PROVIDERS"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows

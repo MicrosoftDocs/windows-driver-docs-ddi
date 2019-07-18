@@ -8,6 +8,8 @@ ms.assetid: 169C5F41-B372-4056-AAC5-53DD0582A563
 ms.date: 04/16/2018
 ms.keywords: RtlFlushNonVolatileMemoryRanges, RtlFlushNonVolatileMemoryRanges routine [Installable File System Drivers], ifsk.rtlflushnonvolatilememoryranges, ntddk/RtlFlushNonVolatileMemoryRanges
 ms.topic: function
+f1_keywords:
+ - "ntddk/RtlFlushNonVolatileMemoryRanges"
 req.header: ntddk.h
 req.include-header: Winnt.h
 req.target-type: Windows

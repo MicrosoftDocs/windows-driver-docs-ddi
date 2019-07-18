@@ -7,6 +7,8 @@ ms.assetid: 1E95228E-7513-46D2-8402-28CA6D26F3EB
 ms.date: 05/10/2018
 ms.keywords: D3DKMTCreateContextVirtual, D3DKMTCreateContextVirtual function [Display Devices], d3dkmthk/D3DKMTCreateContextVirtual, display.d3dkmtcreatecontextvirtual
 ms.topic: function
+f1_keywords:
+ - "d3dkmthk/D3DKMTCreateContextVirtual"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal

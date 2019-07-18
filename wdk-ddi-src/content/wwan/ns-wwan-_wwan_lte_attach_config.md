@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 44f9e6c7-0dea-41d6-be9b-73f9945f32a6
 ms.date: 08/22/2018
 ms.topic: struct
+f1_keywords:
+ - "wwan/_WWAN_LTE_ATTACH_CONFIG"
 ms.keywords: _WWAN_LTE_ATTACH_CONFIG, WWAN_LTE_ATTACH_CONFIG, *PWWAN_LTE_ATTACH_CONFIG, 
 req.header: wwan.h
 req.include-header:

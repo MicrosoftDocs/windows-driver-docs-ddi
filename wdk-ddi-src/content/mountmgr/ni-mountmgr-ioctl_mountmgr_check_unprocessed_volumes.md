@@ -8,6 +8,8 @@ ms.assetid: 39f486b4-a22e-473b-9a0d-ba2c1046995a
 ms.date: 03/29/2018
 ms.keywords: IOCTL_MOUNTMGR_CHECK_UNPROCESSED_VOLUMES, IOCTL_MOUNTMGR_CHECK_UNPROCESSED_VOLUMES control, IOCTL_MOUNTMGR_CHECK_UNPROCESSED_VOLUMES control code [Storage Devices], k307_eb4defdf-c3d0-41b6-8bd4-3ef1dbd3f795.xml, mountmgr/IOCTL_MOUNTMGR_CHECK_UNPROCESSED_VOLUMES, storage.ioctl_mountmgr_check_unprocessed_volumes
 ms.topic: ioctl
+f1_keywords:
+ - "mountmgr/IOCTL_MOUNTMGR_CHECK_UNPROCESSED_VOLUMES"
 req.header: mountmgr.h
 req.include-header: Mountmgr.h
 req.target-type: Windows

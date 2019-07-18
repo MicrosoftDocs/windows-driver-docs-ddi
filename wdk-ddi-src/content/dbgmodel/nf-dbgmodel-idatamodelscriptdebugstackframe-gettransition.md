@@ -5,6 +5,8 @@ description: If a given stack frame is a transition point as determined by the I
 ms.assetid: 8fbefa8a-9675-485e-8065-062ad7ad3a50
 ms.date: 09/10/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDataModelScriptDebugStackFrame.GetTransition"
 ms.keywords: IDataModelScriptDebugStackFrame::GetTransition, GetTransition, IDataModelScriptDebugStackFrame.GetTransition, IDataModelScriptDebugStackFrame::GetTransition, IDataModelScriptDebugStackFrame.GetTransition
 req.header: dbgmodel.h
 req.include-header:

@@ -8,6 +8,8 @@ ms.assetid: 6502E3AE-5841-41C9-BEB7-B00620DBF02D
 ms.date: 03/29/2018
 ms.keywords: StorPortQueryPerformanceCounter, StorPortQueryPerformanceCounter routine [Storage Devices], storage.storportqueryperformancecounter, storport/StorPortQueryPerformanceCounter
 ms.topic: function
+f1_keywords:
+ - "storport/StorPortQueryPerformanceCounter"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

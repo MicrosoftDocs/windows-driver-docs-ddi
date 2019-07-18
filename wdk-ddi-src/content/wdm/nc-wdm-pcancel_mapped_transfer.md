@@ -8,6 +8,8 @@ ms.assetid: 12ED94F4-70A9-4716-91CD-F561F0D4D4EA
 ms.date: 04/30/2018
 ms.keywords: CancelMappedTransfer, CancelMappedTransfer callback function [Kernel-Mode Driver Architecture], PCANCEL_MAPPED_TRANSFER, PCANCEL_MAPPED_TRANSFER callback, kernel.cancelmappedtransfer, wdm/CancelMappedTransfer
 ms.topic: callback
+f1_keywords:
+ - "wdm/CancelMappedTransfer"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop

@@ -8,6 +8,8 @@ ms.assetid: d2d505e0-aeac-4871-8c60-d026b2833043
 ms.date: 02/26/2018
 ms.keywords: DFInterruptObjectRef_9d7e9cb2-6cfd-4b39-82c8-8a29033e390a.xml, EVT_WDF_INTERRUPT_DPC, EVT_WDF_INTERRUPT_DPC callback, EvtInterruptDpc, EvtInterruptDpc callback function, kmdf.evtinterruptdpc, wdf.evtinterruptdpc, wdfinterrupt/EvtInterruptDpc
 ms.topic: callback
+f1_keywords:
+ - "wdfinterrupt/EvtInterruptDpc"
 req.header: wdfinterrupt.h
 req.include-header: Wdf.h
 req.target-type: Universal

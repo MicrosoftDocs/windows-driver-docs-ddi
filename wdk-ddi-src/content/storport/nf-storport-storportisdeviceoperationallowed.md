@@ -8,6 +8,8 @@ ms.assetid: 2FA71DC1-8068-42E3-A5C0-903858E496FA
 ms.date: 03/29/2018
 ms.keywords: STORPORT_DEVICEOPERATION_SECURE_REPROVISION_GUID, StorPortIsDeviceOperationAllowed, StorPortIsDeviceOperationAllowed routine [Storage Devices], storage.storportisdeviceoperationallowed, storport/StorPortIsDeviceOperationAllowed
 ms.topic: function
+f1_keywords:
+ - "storport/StorPortIsDeviceOperationAllowed"
 req.header: storport.h
 req.include-header: 
 req.target-type: Universal

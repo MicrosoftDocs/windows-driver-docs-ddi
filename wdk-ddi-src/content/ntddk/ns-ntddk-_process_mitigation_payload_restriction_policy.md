@@ -8,6 +8,8 @@ ms.assetid: f55a47b2-c95c-4b6c-aeff-aed99dd9e43b
 ms.date: 04/30/2018
 ms.keywords: "*PPROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY, PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY, PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY structure [Kernel-Mode Driver Architecture], _PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY, kernel.process_mitigation_payload_restriction_policy, ntddk/PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY"
 ms.topic: struct
+f1_keywords:
+ - "ntddk/PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows

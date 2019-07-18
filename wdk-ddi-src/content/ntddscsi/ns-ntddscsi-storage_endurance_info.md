@@ -8,6 +8,8 @@ ms.assetid: e64f996f-b10a-4f7f-9246-2ab9e2b7e92d
 ms.author: windowsdriverdev
 ms.date: 3/15/2019
 ms.topic: struct
+f1_keywords:
+ - "ntddscsi/STORAGE_ENDURANCE_INFO"
 ms.keywords: STORAGE_ENDURANCE_INFO, STORAGE_ENDURANCE_INFO, *PSTORAGE_ENDURANCE_INFO, STORAGE_ENDURANCE_DATA_DESCRIPTOR
 req.header: ntddscsi.h
 req.include-header:

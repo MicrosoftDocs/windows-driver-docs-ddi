@@ -8,6 +8,8 @@ ms.assetid: 41788885-d8a1-4459-82a0-261b39862530
 ms.date: 05/02/2018
 ms.keywords: NdisRetrieveUlong, NdisRetrieveUlong macro [Network Drivers Starting with Windows Vista], ndis/NdisRetrieveUlong, ndis_memory_ref_929d856f-6798-499a-aa9a-0f5e7181b972.xml, netvista.ndisretrieveulong
 ms.topic: macro
+f1_keywords:
+ - "ndis/NdisRetrieveUlong"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

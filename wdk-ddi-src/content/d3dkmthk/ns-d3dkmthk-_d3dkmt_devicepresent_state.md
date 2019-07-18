@@ -7,6 +7,8 @@ ms.assetid: eed64347-fa5a-4b80-a28d-9190ae30b169
 ms.date: 05/10/2018
 ms.keywords: D3DKMT_DEVICEPRESENT_STATE, D3DKMT_DEVICEPRESENT_STATE structure [Display Devices], OpenGL_Structs_d1f2fcff-dfb8-411f-a4f8-4016924b4ebd.xml, _D3DKMT_DEVICEPRESENT_STATE, d3dkmthk/D3DKMT_DEVICEPRESENT_STATE, display.d3dkmt_devicepresent_state
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/D3DKMT_DEVICEPRESENT_STATE"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

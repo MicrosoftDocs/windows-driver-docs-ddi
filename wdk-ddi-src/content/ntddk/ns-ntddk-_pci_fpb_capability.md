@@ -6,6 +6,8 @@ tech.root: pci
 ms.assetid: c7b33bbc-1c9d-4203-b28a-13c2dcf3b4da
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "ntddk/_PCI_FPB_CAPABILITY"
 ms.keywords: _PCI_FPB_CAPABILITY, PCI_FPB_CAPABILITY, *PPCI_FPB_CAPABILITY, 
 req.header: ntddk.h
 req.include-header:

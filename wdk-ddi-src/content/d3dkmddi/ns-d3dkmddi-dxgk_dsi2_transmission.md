@@ -8,6 +8,8 @@ ms.assetid: c33c3edb-7c5b-4419-86f5-22a3a3defa24
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
 ms.topic: struct
+f1_keywords:
+ - "d3dkmddi/DXGK_DSI2_TRANSMISSION"
 ms.keywords: DXGK_DSI2_TRANSMISSION, DXGK_DSI2_TRANSMISSION, *PDXGK_DSI2_TRANSMISSION, 
 req.header: d3dkmddi.h
 req.include-header:

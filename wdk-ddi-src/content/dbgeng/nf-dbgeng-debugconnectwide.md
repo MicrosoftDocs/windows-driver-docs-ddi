@@ -8,6 +8,8 @@ ms.assetid: B25AD9E0-FBDA-4E4F-A268-92C9AA761191
 ms.date: 05/03/2018
 ms.keywords: DebugConnectWide, DebugConnectWide function [Windows Debugging], dbgeng/DebugConnectWide, debugger.debugconnectwide
 ms.topic: function
+f1_keywords:
+ - "dbgeng/DebugConnectWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

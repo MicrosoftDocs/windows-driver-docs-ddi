@@ -5,6 +5,8 @@ description: Describes the endpoint index and volume value.
 ms.assetid: f84929d3-f908-4686-83e7-f73e61912975
 ms.date: 10/05/2018
 ms.topic: struct
+f1_keywords:
+ - "sidebandaudio/_SIDEBANDAUDIO_VOLUME_PARAMS"
 ms.keywords: _SIDEBANDAUDIO_VOLUME_PARAMS, SIDEBANDAUDIO_VOLUME_PARAMS, *PSIDEBANDAUDIO_VOLUME_PARAMS, 
 req.header: sidebandaudio.h
 req.include-header:

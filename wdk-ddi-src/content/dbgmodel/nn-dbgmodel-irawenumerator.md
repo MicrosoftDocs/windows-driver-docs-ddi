@@ -5,6 +5,8 @@ description: An interface which enumerates the raw children (base classes, field
 ms.assetid: 9ffd4c68-726e-41a9-a5d7-523d039dc72f
 ms.date: 07/16/2018
 ms.topic: interface
+f1_keywords:
+ - "dbgmodel/IRawEnumerator"
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:

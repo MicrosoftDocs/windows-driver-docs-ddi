@@ -5,6 +5,8 @@ description:
 ms.assetid: c1576a19-8f1a-44f5-af68-6fb1804a1878
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "scsi/_VPD_EXTENDED_INQUIRY_DATA_PAGE"
 ms.keywords: _VPD_EXTENDED_INQUIRY_DATA_PAGE, VPD_EXTENDED_INQUIRY_DATA_PAGE, *PVPD_EXTENDED_INQUIRY_DATA_PAGE, 
 req.header: scsi.h
 req.include-header:

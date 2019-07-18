@@ -8,6 +8,8 @@ ms.assetid: 348e44f2-4386-4b45-9d68-c996d471578f
 ms.date: 02/16/2018
 ms.keywords: "*LPRILUICCFILELOCKSTATUS, RILUICCFILELOCKSTATUS, RILUICCFILELOCKSTATUS structure [Network Drivers Starting with Windows Vista], netvista.riluiccfilelockstatus, rilapitypes/RILUICCFILELOCKSTATUS"
 ms.topic: struct
+f1_keywords:
+ - "ntddrilapitypes/RILUICCFILELOCKSTATUS"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h, Ntddrilapitypes.h
 req.target-type: Windows

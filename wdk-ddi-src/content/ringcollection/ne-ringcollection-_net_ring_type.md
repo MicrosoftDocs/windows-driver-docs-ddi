@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: D14D96AB-E43E-4316-A737-E026C151FA67
 ms.date: 02/06/2019
 ms.topic: enum
+f1_keywords:
+ - "ringcollection/RILWRITEPHONEBOOKENTRYPARAMS"
 ms.keywords: _NET_RING_TYPE, NET_RING_TYPE, 
 req.header: ringcollection.h
 req.include-header:

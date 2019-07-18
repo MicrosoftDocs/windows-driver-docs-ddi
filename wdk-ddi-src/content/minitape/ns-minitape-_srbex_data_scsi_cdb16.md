@@ -8,6 +8,8 @@ ms.assetid: 168AC5F4-652B-405C-BE41-CD416A66FB74
 ms.date: 03/29/2018
 ms.keywords: "*PSRBEX_DATA_SCSI_CDB16, PSRBEX_DATA_SCSI_CDB16, PSRBEX_DATA_SCSI_CDB16 structure pointer [Storage Devices], SRBEX_DATA_SCSI_CDB16, SRBEX_DATA_SCSI_CDB16 structure [Storage Devices], _SRBEX_DATA_SCSI_CDB16, storage.srbex_data_scsi_cdb16, storport/PSRBEX_DATA_SCSI_CDB16, storport/SRBEX_DATA_SCSI_CDB16"
 ms.topic: struct
+f1_keywords:
+ - "minitape/SRBEX_DATA_SCSI_CDB16"
 req.header: minitape.h
 req.include-header: Storport.h, Srb.h, Minitape.h
 req.target-type: Windows

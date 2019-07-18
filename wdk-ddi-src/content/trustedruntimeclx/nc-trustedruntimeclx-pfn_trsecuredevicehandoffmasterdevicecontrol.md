@@ -5,6 +5,8 @@ description:
 ms.assetid: ad975985-ee86-4f2d-ad02-16d5818b12a3
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "trustedruntimeclx/PFN_TRSECUREDEVICEHANDOFFMASTERDEVICECONTROL"
 req.header: trustedruntimeclx.h
 req.include-header:
 req.target-type:

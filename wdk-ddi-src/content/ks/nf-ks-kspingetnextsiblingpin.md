@@ -8,6 +8,8 @@ ms.assetid: e6eb5998-50ad-4ad9-8368-4cd29e4f7777
 ms.date: 04/23/2018
 ms.keywords: KsPinGetNextSiblingPin, KsPinGetNextSiblingPin function [Streaming Media Devices], avfunc_a5363c0a-af05-43a6-aa4d-edd43e076eb7.xml, ks/KsPinGetNextSiblingPin, stream.kspingetnextsiblingpin
 ms.topic: function
+f1_keywords:
+ - "ks/KsPinGetNextSiblingPin"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

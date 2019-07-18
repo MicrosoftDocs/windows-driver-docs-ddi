@@ -8,6 +8,8 @@ ms.assetid: 548C850F-87AF-43E0-BD87-5531D9874D4D
 ms.date: 04/30/2018
 ms.keywords: AuxKlibGetSystemFirmwareTable, AuxKlibGetSystemFirmwareTable routine [Kernel-Mode Driver Architecture], aux_klib/AuxKlibGetSystemFirmwareTable, kernel.auxklibgetsystemfirmwaretable
 ms.topic: function
+f1_keywords:
+ - "aux_klib/AuxKlibGetSystemFirmwareTable"
 req.header: aux_klib.h
 req.include-header: Aux_klib.h
 req.target-type: Universal

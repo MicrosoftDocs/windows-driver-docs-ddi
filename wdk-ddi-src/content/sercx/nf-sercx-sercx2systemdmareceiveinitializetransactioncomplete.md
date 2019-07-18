@@ -8,6 +8,8 @@ ms.assetid: B65DC4AD-FB24-4F1D-A1E9-F9B38160908E
 ms.date: 04/23/2018
 ms.keywords: 2/SerCx2SystemDmaReceiveInitializeTransactionComplete, SerCx2SystemDmaReceiveInitializeTransactionComplete, SerCx2SystemDmaReceiveInitializeTransactionComplete method [Serial Ports], serports.sercx2systemdmareceiveinitializetransactioncomplete
 ms.topic: function
+f1_keywords:
+ - "sercx/SerCx2SystemDmaReceiveInitializeTransactionComplete"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Universal

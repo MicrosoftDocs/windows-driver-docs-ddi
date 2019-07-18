@@ -7,6 +7,8 @@ ms.assetid: D4F893E9-6B7B-4E35-A92F-B31FFD55A2C0
 ms.date: 05/10/2018
 ms.keywords: PFND3D12DDI_GETKEYBASEDATA_0030, PFND3D12DDI_GETKEYBASEDATA_0030 callback, PFND3D12DDI_GETKEYBASEDATA_0030 callback function [Display Devices], d3d12umddi/PFND3D12DDI_GETKEYBASEDATA_0030, display.pfnd3d12ddi_getkeybasedata_0030
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_GETKEYBASEDATA_0030"
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: ae8257a6-4d4c-446e-b144-1adfe0a28e50
 ms.date: 05/10/2018
 ms.keywords: IddCxSwapChainGetMoveRegions, IddCxSwapChainGetMoveRegions method [Display Devices], display.iddcxswapchaingetmoveregions, iddcx/IddCxSwapChainGetMoveRegions
 ms.topic: function
+f1_keywords:
+ - "iddcx/IddCxSwapChainGetMoveRegions"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows

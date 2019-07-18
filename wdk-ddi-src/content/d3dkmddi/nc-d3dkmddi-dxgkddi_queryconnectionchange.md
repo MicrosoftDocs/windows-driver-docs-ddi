@@ -8,6 +8,8 @@ ms.assetid: 8C09B692-3439-4ACD-942D-F7A107E2B4DA
 ms.date: 04/16/2018
 ms.keywords: DXGKDDI_QUERYCONNECTIONCHANGE, DXGKDDI_QUERYCONNECTIONCHANGE callback, DXGKDDI_QUERYCONNECTIONCHANGE callback function [Display Devices], d3dkmddi/DXGKDDI_QUERYCONNECTIONCHANGE, display.dxgkddi_queryconnectionchange
 ms.topic: callback
+f1_keywords:
+ - "d3dkmddi/DXGKDDI_QUERYCONNECTIONCHANGE"
 req.header: d3dkmddi.h
 req.include-header:
 req.target-type: Windows

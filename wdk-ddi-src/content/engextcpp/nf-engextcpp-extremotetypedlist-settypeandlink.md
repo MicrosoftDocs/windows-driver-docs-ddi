@@ -8,6 +8,8 @@ ms.assetid: f6e2d8e3-294d-45d8-8fc6-33af3a746244
 ms.date: 05/03/2018
 ms.keywords: EngExtCpp_Ref_8867c503-5983-465c-bfb6-f13b21d325cc.xml, ExtRemoteTypedList class [Windows Debugging],SetTypeAndLink method, ExtRemoteTypedList.SetTypeAndLink, ExtRemoteTypedList::SetTypeAndLink, SetTypeAndLink, SetTypeAndLink method [Windows Debugging], SetTypeAndLink method [Windows Debugging],ExtRemoteTypedList class, debugger.extremotetypedlist_settypeandlink
 ms.topic: method
+f1_keywords:
+ - "engextcpp/ExtRemoteTypedList.SetTypeAndLink"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop

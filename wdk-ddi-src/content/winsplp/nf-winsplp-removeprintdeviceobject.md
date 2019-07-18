@@ -8,6 +8,8 @@ ms.assetid: D94A669E-4293-4235-8BC4-C7883BB0C83C
 ms.date: 04/20/2018
 ms.keywords: RemovePrintDeviceObject, RemovePrintDeviceObject function [Print Devices], print.removeprintdeviceobject, winsplp/RemovePrintDeviceObject
 ms.topic: function
+f1_keywords:
+ - "winsplp/RemovePrintDeviceObject"
 req.header: winsplp.h
 req.include-header: Winspool.h
 req.target-type: Desktop

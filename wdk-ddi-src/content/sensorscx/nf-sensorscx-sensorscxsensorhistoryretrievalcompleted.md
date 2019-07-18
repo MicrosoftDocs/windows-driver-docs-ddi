@@ -5,6 +5,8 @@ description: The SensorsCxSensorHistoryRetrievalCompleted function indicates tha
 ms.assetid: 69ce718d-117d-45cb-b6fe-7c5ae7c17265
 ms.date: 10/19/2018
 ms.topic: function
+f1_keywords:
+ - "sensorscx/SensorsCxSensorHistoryRetrievalCompleted"
 ms.keywords: SensorsCxSensorHistoryRetrievalCompleted
 req.header: sensorscx.h
 req.include-header:

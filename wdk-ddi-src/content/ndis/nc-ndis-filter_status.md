@@ -8,6 +8,8 @@ ms.assetid: 051ce37c-a7a5-4367-9495-023fc51349ba
 ms.date: 05/02/2018
 ms.keywords: FILTER_STATUS, FILTER_STATUS callback, FilterStatus, FilterStatus callback function [Network Drivers Starting with Windows Vista], ndis/FilterStatus, ndis_status_ref_4bddf4b3-3869-4e47-ba86-021e9f25484b.xml, netvista.filterstatus
 ms.topic: callback
+f1_keywords:
+ - "ndis/FilterStatus"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

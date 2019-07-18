@@ -8,6 +8,8 @@ ms.assetid: 93918e09-2742-47ca-94a5-043af2a3a338
 ms.date: 03/29/2018
 ms.keywords: IOCTL_TAPE_SET_POSITION, IOCTL_TAPE_SET_POSITION control, IOCTL_TAPE_SET_POSITION control code [Storage Devices], k307_3fc298fe-1a00-4bb5-8a10-09b5fec325b3.xml, ntddtape/IOCTL_TAPE_SET_POSITION, storage.ioctl_tape_set_position
 ms.topic: ioctl
+f1_keywords:
+ - "ntddtape/IOCTL_TAPE_SET_POSITION"
 req.header: ntddtape.h
 req.include-header: Ntddtape.h
 req.target-type: Windows

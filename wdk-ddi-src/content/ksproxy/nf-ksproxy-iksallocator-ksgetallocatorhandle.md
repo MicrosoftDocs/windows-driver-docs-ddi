@@ -8,6 +8,8 @@ ms.assetid: 9F79816F-866F-4B68-898F-87D310EFBBE7
 ms.date: 04/23/2018
 ms.keywords: IKsAllocator interface [Streaming Media Devices],KsGetAllocatorHandle method, IKsAllocator.KsGetAllocatorHandle, IKsAllocator::KsGetAllocatorHandle, KsGetAllocatorHandle, KsGetAllocatorHandle method [Streaming Media Devices], KsGetAllocatorHandle method [Streaming Media Devices],IKsAllocator interface, ksproxy/IKsAllocator::KsGetAllocatorHandle, stream.iksallocator_ksgetallocatorhandle
 ms.topic: method
+f1_keywords:
+ - "ksproxy/IKsAllocator.KsGetAllocatorHandle"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: Windows

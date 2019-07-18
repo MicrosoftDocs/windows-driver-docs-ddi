@@ -8,6 +8,8 @@ ms.assetid: ad6ab15b-6789-4ee8-ba99-9eaa6eec070a
 ms.date: 03/29/2018
 ms.keywords: IOCTL_MOUNTMGR_CHANGE_NOTIFY, IOCTL_MOUNTMGR_CHANGE_NOTIFY control, IOCTL_MOUNTMGR_CHANGE_NOTIFY control code [Storage Devices], k307_009033eb-e845-4967-9ef1-30f11bfa3253.xml, mountmgr/IOCTL_MOUNTMGR_CHANGE_NOTIFY, storage.ioctl_mountmgr_change_notify
 ms.topic: ioctl
+f1_keywords:
+ - "mountmgr/IOCTL_MOUNTMGR_CHANGE_NOTIFY"
 req.header: mountmgr.h
 req.include-header: Mountmgr.h
 req.target-type: Windows

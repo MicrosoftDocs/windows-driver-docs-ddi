@@ -8,6 +8,8 @@ ms.assetid: 633c9766-f92b-436a-bac9-f77702888a3d
 ms.date: 04/16/2018
 ms.keywords: FltApiRef_a_to_d_ce848a3a-9d76-433d-a65c-e67ea0f9550b.xml, FltCompletePendedPostOperation, FltCompletePendedPostOperation routine [Installable File System Drivers], fltkernel/FltCompletePendedPostOperation, ifsk.fltcompletependedpostoperation
 ms.topic: function
+f1_keywords:
+ - "fltkernel/FltCompletePendedPostOperation"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

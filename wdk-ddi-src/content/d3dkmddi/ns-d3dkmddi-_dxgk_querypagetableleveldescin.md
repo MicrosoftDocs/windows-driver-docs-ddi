@@ -7,6 +7,8 @@ ms.assetid: 1B13BBB1-4184-4166-A61F-CC266D0391BF
 ms.date: 05/10/2018
 ms.keywords: DXGK_QUERYPAGETABLELEVELDESCIN, DXGK_QUERYPAGETABLELEVELDESCIN structure [Display Devices], _DXGK_QUERYPAGETABLELEVELDESCIN, d3dkmddi/DXGK_QUERYPAGETABLELEVELDESCIN, display.dxgk_querypagetableleveldescin
 ms.topic: struct
+f1_keywords:
+ - "d3dkmddi/DXGK_QUERYPAGETABLELEVELDESCIN"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

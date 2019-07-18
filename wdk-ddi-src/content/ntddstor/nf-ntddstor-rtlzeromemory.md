@@ -6,6 +6,8 @@ tech.root: storage
 ms.assetid: c45de332-ebef-43d7-b1ce-852c08291127
 ms.date: 09/20/2018
 ms.topic: macro
+f1_keywords:
+ - "ntddstor/RtlZeroMemory"
 ms.keywords: RtlZeroMemory
 req.header: ntddstor.h
 req.include-header:

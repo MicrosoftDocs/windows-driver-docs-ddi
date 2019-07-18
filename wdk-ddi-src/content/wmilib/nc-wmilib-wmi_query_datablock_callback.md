@@ -8,6 +8,8 @@ ms.assetid: c8996367-9ac5-4725-93ff-f13a334fbc5a
 ms.date: 04/30/2018
 ms.keywords: DpWmiQueryDataBlock, DpWmiQueryDataBlock callback function [Kernel-Mode Driver Architecture], WMI_QUERY_DATABLOCK_CALLBACK, WMI_QUERY_DATABLOCK_CALLBACK callback, k903_9a558594-4fe5-4e18-823a-8b487e1770d9.xml, kernel.dpwmiquerydatablock, wmilib/DpWmiQueryDataBlock
 ms.topic: callback
+f1_keywords:
+ - "wmilib/DpWmiQueryDataBlock"
 req.header: wmilib.h
 req.include-header: Wmilib.h
 req.target-type: Desktop

@@ -8,6 +8,8 @@ ms.assetid: D951D5A0-3A93-4B67-B25A-31EE61C0A065
 ms.date: 05/07/2018
 ms.keywords: PFN_USBFN_GET_ATTACH_ACTION, PFN_USBFN_GET_ATTACH_ACTION callback function pointer [Buses], USBFN_GET_ATTACH_ACTION, USBFN_GET_ATTACH_ACTION callback, UsbFnGetAttachAction, UsbFnGetAttachAction callback function [Buses], buses.usbfn_get_attach_action, usbfnattach/UsbFnGetAttachAction
 ms.topic: callback
+f1_keywords:
+ - "usbfnattach/PFN_USBFN_GET_ATTACH_ACTION"
 req.header: usbfnattach.h
 req.include-header: 
 req.target-type: Windows

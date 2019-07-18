@@ -8,6 +8,8 @@ ms.assetid: f8ab3914-c83e-4bfd-94b5-f4c409236b95
 ms.date: 05/08/2018
 ms.keywords: PcRegisterPhysicalConnection, PcRegisterPhysicalConnection function [Audio Devices], audio.pcregisterphysicalconnection, audpc-routines_d806f159-7b56-428c-8780-f95d3c5f3b14.xml, portcls/PcRegisterPhysicalConnection
 ms.topic: function
+f1_keywords:
+ - "portcls/PcRegisterPhysicalConnection"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal

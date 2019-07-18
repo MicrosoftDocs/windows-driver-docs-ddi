@@ -8,6 +8,8 @@ ms.assetid: e94a1a6a-8c2d-45ee-96cf-08566373e8f5
 ms.date: 02/15/2018
 ms.keywords: GetCount, GetCount method, GetCount method,IPortableDeviceValuesCollection interface, IPortableDeviceValuesCollection interface,GetCount method, IPortableDeviceValuesCollection.GetCount, IPortableDeviceValuesCollection::GetCount, IPortableDeviceValuesCollectionGetCount, portabledevicetypes/IPortableDeviceValuesCollection::GetCount, wpddk.iportabledevicevaluescollection_getcount
 ms.topic: method
+f1_keywords:
+ - "portabledevicetypes/IPortableDeviceValuesCollection.GetCount"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows

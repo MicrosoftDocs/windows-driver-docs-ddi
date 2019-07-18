@@ -5,6 +5,8 @@ description: Specifies the space requirements info for a ray tracing acceleratio
 ms.assetid: 4ab1b4b8-dcf2-4211-bf2f-b94a0f115d00
 ms.date: 10/19/2018
 ms.topic: enum
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_POSTBUILD_INFO_TYPE"
 ms.keywords: D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_POSTBUILD_INFO_TYPE, D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_POSTBUILD_INFO_TYPE, 
 req.header: d3d12umddi.h
 req.include-header:

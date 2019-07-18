@@ -5,6 +5,8 @@ description: The ClearKeys method removes all keys and their associated values a
 ms.assetid: 7922533c-4454-4300-943d-5a7c3cd68f22
 ms.date: 07/20/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IModelObject.ClearKeys"
 ms.keywords: IModelObject::ClearKeys, ClearKeys, IModelObject.ClearKeys, IModelObject::ClearKeys, IModelObject.ClearKeys
 req.header: dbgmodel.h
 req.include-header:

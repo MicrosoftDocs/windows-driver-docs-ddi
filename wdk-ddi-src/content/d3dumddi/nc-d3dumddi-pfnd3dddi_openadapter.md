@@ -8,6 +8,8 @@ ms.assetid: 41dc9ee4-e9bc-4ebd-9b90-6446ded6ea16
 ms.date: 05/10/2018
 ms.keywords: OpenAdapter, OpenAdapter callback function [Display Devices], PFND3DDDI_OPENADAPTER, PFND3DDDI_OPENADAPTER callback, UserModeDisplayDriver_Functions_1b93a0e5-3f89-47aa-9e63-3ae50f1acd1e.xml, d3dumddi/OpenAdapter, display.openadapter
 ms.topic: callback
+f1_keywords:
+ - "d3dumddi/OpenAdapter"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop

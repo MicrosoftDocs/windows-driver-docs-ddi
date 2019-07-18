@@ -8,6 +8,8 @@ ms.assetid: 8465B255-E36E-481D-B063-597B9C861DCD
 ms.date: 05/07/2018
 ms.keywords: EVT_UCX_CONTROLLER_START_TRACKING_FOR_TIME_SYNC, EVT_UCX_CONTROLLER_START_TRACKING_FOR_TIME_SYNC callback, EvUcxControllerStartTrackingForTimeSync, EvUcxControllerStartTrackingForTimeSync callback function [Buses], buses.evt_ucx_controller_start_tracking_for_time_sync, ucxcontroller/EvUcxControllerStartTrackingForTimeSync
 ms.topic: callback
+f1_keywords:
+ - "ucxcontroller/EvUcxControllerStartTrackingForTimeSync"
 req.header: ucxcontroller.h
 req.include-header: Ucxclass.h
 req.target-type: Windows

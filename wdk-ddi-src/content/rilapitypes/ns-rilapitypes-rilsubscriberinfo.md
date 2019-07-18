@@ -8,6 +8,8 @@ ms.assetid: 4afb3184-0534-43b1-9b88-4aac04d26c4a
 ms.date: 02/26/2018
 ms.keywords: "*LPRILSUBSCRIBERINFO, RILSUBSCRIBERINFO, RILSUBSCRIBERINFO structure [Network Drivers Starting with Windows Vista], netvista.rilsubscriberinfo_2, rilapitypes/RILSUBSCRIBERINFO"
 ms.topic: struct
+f1_keywords:
+ - "rilapitypes/RILSUBSCRIBERINFO"
 req.header: rilapitypes.h
 req.include-header:
 req.target-type: Windows

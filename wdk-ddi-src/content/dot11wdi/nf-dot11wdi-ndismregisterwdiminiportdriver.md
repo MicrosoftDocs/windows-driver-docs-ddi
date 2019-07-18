@@ -8,6 +8,8 @@ ms.assetid: 60FE4E6C-38D4-438F-983B-7336926F6FE2
 ms.date: 05/02/2018
 ms.keywords: NdisMRegisterWdiMiniportDriver, NdisMRegisterWdiMiniportDriver function [Network Drivers Starting with Windows Vista], dot11wdi/NdisMRegisterWdiMiniportDriver, netvista.ndismregisterwdiminiportdriver
 ms.topic: function
+f1_keywords:
+ - "dot11wdi/NdisMRegisterWdiMiniportDriver"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows

@@ -5,6 +5,8 @@ description: Adds a GPU instruction to signal the paging monitored fence object 
 ms.assetid: d69e18f4-9323-4be5-ad35-3fd009c66b34
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmddi/DXGKDDI_SIGNALMONITOREDFENCE"
 req.header: d3dkmddi.h
 req.include-header:
 req.target-type:

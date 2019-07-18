@@ -5,6 +5,8 @@ description: The pfnCalcPrivateCommandQueueSize callback function is used to cal
 ms.assetid: d0ff52b6-0e23-4cb9-8da7-4037ee3ec96a
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_CALCPRIVATECOMMANDQUEUESIZE_0001"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

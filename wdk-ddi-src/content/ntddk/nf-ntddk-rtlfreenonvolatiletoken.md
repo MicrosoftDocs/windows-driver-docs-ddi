@@ -8,6 +8,8 @@ ms.assetid: 8E083814-7408-47D2-A811-2DCBDCD13097
 ms.date: 04/16/2018
 ms.keywords: RtlFreeNonVolatileToken, RtlFreeNonVolatileToken routine [Installable File System Drivers], ifsk.rtlfreenonvolatiletoken, ntddk/RtlFreeNonVolatileToken
 ms.topic: function
+f1_keywords:
+ - "ntddk/RtlFreeNonVolatileToken"
 req.header: ntddk.h
 req.include-header: Winnt.h
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: 10be15fc-ca0e-40d4-8fe9-9682478f5c5b
 ms.date: 04/23/2018
 ms.keywords: "*PKS_DVDCOPY_CHLGKEY, KS_DVDCOPY_CHLGKEY, KS_DVDCOPY_CHLGKEY structure [Streaming Media Devices], PKS_DVDCOPY_CHLGKEY, PKS_DVDCOPY_CHLGKEY structure pointer [Streaming Media Devices], _KS_DVDCOPY_CHLGKEY, dvdref_af25bbe5-5caf-4cd7-be78-1d905a50ef82.xml, ksmedia/KS_DVDCOPY_CHLGKEY, ksmedia/PKS_DVDCOPY_CHLGKEY, stream.ks_dvdcopy_chlgkey"
 ms.topic: struct
+f1_keywords:
+ - "ksmedia/KS_DVDCOPY_CHLGKEY"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows

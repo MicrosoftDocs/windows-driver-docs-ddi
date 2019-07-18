@@ -5,6 +5,8 @@ description: The GetNamespaceObject method returns an object into which the scri
 ms.assetid: 10b093f4-f047-4710-8bbe-aa9ce3973021
 ms.date: 09/10/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDataModelScriptHostContext.GetNamespaceObject"
 ms.keywords: IDataModelScriptHostContext::GetNamespaceObject, GetNamespaceObject, IDataModelScriptHostContext.GetNamespaceObject, IDataModelScriptHostContext::GetNamespaceObject, IDataModelScriptHostContext.GetNamespaceObject
 req.header: dbgmodel.h
 req.include-header:

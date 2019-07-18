@@ -7,6 +7,8 @@ ms.assetid: BBB9D8F6-0EF8-4B34-B79E-8742BB7575D4
 ms.date: 05/10/2018
 ms.keywords: DXGK_CPUHOSTAPERTURE, DXGK_CPUHOSTAPERTURE structure [Display Devices], _DXGK_CPUHOSTAPERTURE, d3dkmddi/DXGK_CPUHOSTAPERTURE, display.dxgk_cpuhostaperture
 ms.topic: struct
+f1_keywords:
+ - "d3dkmddi/DXGK_CPUHOSTAPERTURE"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

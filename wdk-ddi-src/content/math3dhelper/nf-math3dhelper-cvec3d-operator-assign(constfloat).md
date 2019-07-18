@@ -5,6 +5,8 @@ description: Assignment operator =.
 ms.assetid: 35f51099-b6ae-49d5-b9ea-82f626ad1172
 ms.date: 08/01/2018
 ms.topic: method
+f1_keywords:
+ - "math3dhelper/CVEC3D.operator*="
 tech.root: sensors
 ms.keywords: CVEC3D::operator*=, operator*=, CVEC3D.operator*=, CVEC3D::operator=(const float), CVEC3D.operator=(const float)
 req.header: math3dhelper.h

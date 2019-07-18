@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: efff27e3-7d42-4c48-ad87-8ec2a5e1eb20
 ms.date: 02/07/2018
 ms.topic: function
+f1_keywords:
+ - "netconfiguration/NetConfigurationAssignMultiString"
 ms.keywords: NetConfigurationAssignMultiString
 req.header: netconfiguration.h
 req.include-header: netadaptercx.h

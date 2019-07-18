@@ -8,6 +8,8 @@ ms.assetid: 9fd2cc6d-c891-4566-896b-80d56d143e8d
 ms.date: 05/03/2018
 ms.keywords: FillPhysical, FillPhysical method [Windows Debugging], FillPhysical method [Windows Debugging],IDebugDataSpaces2 interface, FillPhysical method [Windows Debugging],IDebugDataSpaces3 interface, FillPhysical method [Windows Debugging],IDebugDataSpaces4 interface, IDebugDataSpaces2 interface [Windows Debugging],FillPhysical method, IDebugDataSpaces2::FillPhysical, IDebugDataSpaces3 interface [Windows Debugging],FillPhysical method, IDebugDataSpaces3.FillPhysical, IDebugDataSpaces3::FillPhysical, IDebugDataSpaces4 interface [Windows Debugging],FillPhysical method, IDebugDataSpaces4::FillPhysical, IDebugDataSpaces_a188638a-cb30-4e13-8fd0-07114f03df52.xml, dbgeng/IDebugDataSpaces2::FillPhysical, dbgeng/IDebugDataSpaces3::FillPhysical, dbgeng/IDebugDataSpaces4::FillPhysical, debugger.fillphysical
 ms.topic: method
+f1_keywords:
+ - "dbgeng/IDebugDataSpaces2.FillPhysical"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

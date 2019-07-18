@@ -8,6 +8,8 @@ ms.assetid: a4fa3093-a328-4d90-bc51-0e7a6db1ed58
 ms.date: 03/29/2018
 ms.keywords: "*PHBAFCPID, HBAFCPID, HBAFCPID structure [Storage Devices], PHBAFCPID, PHBAFCPID structure pointer [Storage Devices], _HBAFCPID, hbapiwmi/HBAFCPID, hbapiwmi/PHBAFCPID, storage.hbafcpid, structs-Fibre_d993c5b6-2b58-4fae-981a-8096cd9c9bd0.xml"
 ms.topic: struct
+f1_keywords:
+ - "hbapiwmi/HBAFCPID"
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: 8c3b7f81-ea6e-47ae-a396-58826d097f1f
 ms.date: 04/30/2018
 ms.keywords: IoGetDeviceProperty, IoGetDeviceProperty routine [Kernel-Mode Driver Architecture], k104_b6185e0d-5e39-4671-ab50-07fe5eda3606.xml, kernel.iogetdeviceproperty, wdm/IoGetDeviceProperty
 ms.topic: function
+f1_keywords:
+ - "wdm/IoGetDeviceProperty"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

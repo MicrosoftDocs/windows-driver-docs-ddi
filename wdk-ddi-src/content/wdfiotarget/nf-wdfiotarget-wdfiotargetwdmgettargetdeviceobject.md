@@ -8,6 +8,8 @@ ms.assetid: 199c2fd6-ecff-4b72-b55d-086687989485
 ms.date: 02/26/2018
 ms.keywords: DFIOTargetRef_82d5005b-ced0-4ae5-8a73-8714d2895ead.xml, WdfIoTargetWdmGetTargetDeviceObject, WdfIoTargetWdmGetTargetDeviceObject method, kmdf.wdfiotargetwdmgettargetdeviceobject, wdf.wdfiotargetwdmgettargetdeviceobject, wdfiotarget/WdfIoTargetWdmGetTargetDeviceObject
 ms.topic: function
+f1_keywords:
+ - "wdfiotarget/WdfIoTargetWdmGetTargetDeviceObject"
 req.header: wdfiotarget.h
 req.include-header: Wdf.h
 req.target-type: Universal

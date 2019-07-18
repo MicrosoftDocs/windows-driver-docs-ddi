@@ -8,6 +8,8 @@ ms.assetid: b963cf53-68ea-49b6-bbda-a93216fb10a5
 ms.date: 04/23/2018
 ms.keywords: KsGetObjectTypeFromFileObject, KsGetObjectTypeFromFileObject function [Streaming Media Devices], avfunc_51a9a4d6-1481-45f9-918e-582907e8513c.xml, ks/KsGetObjectTypeFromFileObject, stream.ksgetobjecttypefromfileobject
 ms.topic: function
+f1_keywords:
+ - "ks/KsGetObjectTypeFromFileObject"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

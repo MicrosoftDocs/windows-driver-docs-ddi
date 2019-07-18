@@ -8,6 +8,8 @@ ms.assetid: aaa6891b-f9f9-40d5-b0eb-e17f511e2611
 ms.date: 04/23/2018
 ms.keywords: KsGateAddOnInputToOr, KsGateAddOnInputToOr function [Streaming Media Devices], avfunc_f19411cd-eca5-4acb-b0ca-f470a72a4afd.xml, ks/KsGateAddOnInputToOr, stream.ksgateaddoninputtoor
 ms.topic: function
+f1_keywords:
+ - "ks/KsGateAddOnInputToOr"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop

@@ -8,6 +8,8 @@ ms.assetid: 6EB96A37-06B9-4655-AD69-375EE770F4DF
 ms.date: 02/15/2018
 ms.keywords: "*PFN_NFC_CX_SEQUENCE_HANDLER, EVT_NFC_CX_SEQUENCE_HANDLER, EVT_NFC_CX_SEQUENCE_HANDLER callback, EvtNfcCxSequenceHandler, EvtNfcCxSequenceHandler callback function [Near-Field Proximity Drivers], nfccx/ EvtNfcCxSequenceHandler, nfpdrivers.evtnfccxsequencehandler"
 ms.topic: callback
+f1_keywords:
+ - "nfccx/EvtNfcCxSequenceHandler"
 req.header: nfccx.h
 req.include-header: Ncidef.h
 req.target-type: Desktop

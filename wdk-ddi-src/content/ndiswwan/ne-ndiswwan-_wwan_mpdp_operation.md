@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: b8436268-3236-4c86-9aa6-f8b6ae65c121
 ms.date: 06/25/2018
 ms.topic: enum
+f1_keywords:
+ - "ndiswwan/_WWAN_MPDP_OPERATION"
 ms.keywords: _WWAN_MPDP_OPERATION, WWAN_MPDP_OPERATION, *PWWAN_MPDP_OPERATION, 
 req.header: ndiswwan.h
 req.include-header:

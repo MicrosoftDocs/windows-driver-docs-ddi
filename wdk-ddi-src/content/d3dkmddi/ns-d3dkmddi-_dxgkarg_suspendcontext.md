@@ -5,6 +5,8 @@ description: Arguments used in the DxgkddiSuspendContext callback function.
 ms.assetid: 3ca4dc90-55b2-4b5d-8f58-0967e817a26d
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3dkmddi/_DXGKARG_SUSPENDCONTEXT"
 ms.keywords: _DXGKARG_SUSPENDCONTEXT, DXGKARG_SUSPENDCONTEXT,
 req.header: d3dkmddi.h
 req.include-header:

@@ -8,6 +8,8 @@ ms.assetid: 44BAB9BF-76E6-42C2-B8DD-EB1A960C429C
 ms.date: 05/03/2018
 ms.keywords: GetCurrentSystemServerNameWide, GetCurrentSystemServerNameWide method [Windows Debugging], GetCurrentSystemServerNameWide method [Windows Debugging],IDebugSystemObjects4 interface, IDebugSystemObjects4 interface [Windows Debugging],GetCurrentSystemServerNameWide method, IDebugSystemObjects4.GetCurrentSystemServerNameWide, IDebugSystemObjects4::GetCurrentSystemServerNameWide, dbgeng/IDebugSystemObjects4::GetCurrentSystemServerNameWide, debugger.idebugsystemobjects4_getcurrentsystemservernamewide
 ms.topic: method
+f1_keywords:
+ - "dbgeng/IDebugSystemObjects4.GetCurrentSystemServerNameWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

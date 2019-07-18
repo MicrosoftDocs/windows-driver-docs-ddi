@@ -8,6 +8,8 @@ ms.assetid: 90526705-069d-432f-87b1-1efc247aee05
 ms.date: 04/16/2018
 ms.keywords: SeSetSecurityDescriptorInfoEx, SeSetSecurityDescriptorInfoEx routine [Installable File System Drivers], ifsk.sesetsecuritydescriptorinfoex, ntifs/SeSetSecurityDescriptorInfoEx, seref_d3965072-a36e-478c-9c57-5614920d69c8.xml
 ms.topic: function
+f1_keywords:
+ - "ntifs/SeSetSecurityDescriptorInfoEx"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

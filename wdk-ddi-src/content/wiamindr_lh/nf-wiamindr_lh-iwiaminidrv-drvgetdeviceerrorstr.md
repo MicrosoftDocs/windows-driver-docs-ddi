@@ -8,6 +8,8 @@ ms.assetid: c34a6834-8875-400c-9634-6c2b9b68164f
 ms.date: 05/03/2018
 ms.keywords: IWiaMiniDrv interface [Imaging Devices],drvGetDeviceErrorStr method, IWiaMiniDrv.drvGetDeviceErrorStr, IWiaMiniDrv::drvGetDeviceErrorStr, MiniDrv_d5a72b62-8987-4d0a-921e-8a7f4d915d12.xml, drvGetDeviceErrorStr, drvGetDeviceErrorStr method [Imaging Devices], drvGetDeviceErrorStr method [Imaging Devices],IWiaMiniDrv interface, image.iwiaminidrv_drvgetdeviceerrorstr, wiamindr_lh/IWiaMiniDrv::drvGetDeviceErrorStr
 ms.topic: method
+f1_keywords:
+ - "wiamindr_lh/IWiaMiniDrv.drvGetDeviceErrorStr"
 req.header: wiamindr_lh.h
 req.include-header: Wiamindr.h
 req.target-type: Desktop

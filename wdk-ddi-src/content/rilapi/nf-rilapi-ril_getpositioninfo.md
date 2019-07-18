@@ -8,6 +8,8 @@ ms.assetid: a34ed9ad-13b6-4f09-88c1-c5462a421ad8
 ms.date: 05/02/2018
 ms.keywords: RIL_GetPositionInfo, RIL_GetPositionInfo method [Network Drivers Starting with Windows Vista], netvista.ril_getpositioninfo, rilapi/RIL_GetPositionInfo
 ms.topic: function
+f1_keywords:
+ - "rilapi/RIL_GetPositionInfo"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows

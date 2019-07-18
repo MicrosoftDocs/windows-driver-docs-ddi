@@ -8,6 +8,8 @@ ms.assetid: 1035337F-2EDD-4538-AF39-3828B6DE424B
 ms.date: 04/20/2018
 ms.keywords: IPrintJob interface [Print Devices],TotalPages property, IPrintJob.TotalPages, IPrintJob.get_TotalPages, IPrintJob::TotalPages, IPrintJob::get_TotalPages, TotalPages property [Print Devices], TotalPages property [Print Devices],IPrintJob interface, get_TotalPages, print.iprintjob_totalpages, printerextension/IPrintJob::TotalPages, printerextension/IPrintJob::get_TotalPages
 ms.topic: method
+f1_keywords:
+ - "printerextension/IPrintJob.TotalPages"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows

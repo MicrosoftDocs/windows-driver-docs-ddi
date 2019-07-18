@@ -5,6 +5,8 @@ description: Gets any physical backings for the virtual device MMIO BARs.
 ms.assetid: b74c4429-875a-4495-bd9f-ee3d6bfd69d7
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "dispmprt/DXGKDDI_GETBACKINGRESOURCE"
 req.header: dispmprt.h
 req.include-header:
 req.target-type:

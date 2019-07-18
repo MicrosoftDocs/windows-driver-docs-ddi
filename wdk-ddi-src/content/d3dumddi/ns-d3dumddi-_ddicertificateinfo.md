@@ -8,6 +8,8 @@ ms.assetid: 205936c3-fb5a-48e7-8f13-328563c2f0d2
 ms.date: 05/10/2018
 ms.keywords: D3D_other_Structs_99ca6ef3-fba8-4f57-b0bf-16be3c4f8a77.xml, DDICERTIFICATEINFO, DDICERTIFICATEINFO structure [Display Devices], _DDICERTIFICATEINFO, d3dumddi/DDICERTIFICATEINFO, display.ddicertificateinfo
 ms.topic: struct
+f1_keywords:
+ - "d3dumddi/DDICERTIFICATEINFO"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

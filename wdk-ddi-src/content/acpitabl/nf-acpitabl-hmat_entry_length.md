@@ -5,6 +5,8 @@ description: The HMAT_ENTRY_LENGTH macro returns the size of the type in the HMA
 ms.assetid: 9b3af834-8d0d-4825-8ff6-f5ff28377fcd
 ms.date: 10/19/2018
 ms.topic: macro
+f1_keywords:
+ - "acpitabl/HMAT_ENTRY_LENGTH"
 ms.keywords: HMAT_ENTRY_LENGTH
 req.header: acpitabl.h
 req.include-header:

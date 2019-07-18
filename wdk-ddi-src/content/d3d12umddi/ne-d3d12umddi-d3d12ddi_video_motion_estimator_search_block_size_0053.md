@@ -5,6 +5,8 @@ description: The search block size to use in the video motion estimator operatio
 ms.assetid: cd42317d-9fb6-4d52-9468-15f8ab68e0e4
 ms.date: 10/19/2018
 ms.topic: enum
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_VIDEO_MOTION_ESTIMATOR_SEARCH_BLOCK_SIZE_0053"
 ms.keywords: D3D12DDI_VIDEO_MOTION_ESTIMATOR_SEARCH_BLOCK_SIZE_0053, D3D12DDI_VIDEO_MOTION_ESTIMATOR_SEARCH_BLOCK_SIZE_0053, 
 req.header: d3d12umddi.h
 req.include-header:

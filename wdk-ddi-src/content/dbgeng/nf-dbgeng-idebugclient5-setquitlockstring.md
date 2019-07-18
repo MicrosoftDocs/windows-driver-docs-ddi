@@ -8,6 +8,8 @@ ms.assetid: 0C4888C7-B7F9-4B23-8AC9-41CB7863AF22
 ms.date: 05/03/2018
 ms.keywords: IDebugClient5 interface [Windows Debugging],SetQuitLockString method, IDebugClient5.SetQuitLockString, IDebugClient5::SetQuitLockString, SetQuitLockString, SetQuitLockString method [Windows Debugging], SetQuitLockString method [Windows Debugging],IDebugClient5 interface, dbgeng/IDebugClient5::SetQuitLockString, debugger.idebugclient5_setquitlockstring
 ms.topic: method
+f1_keywords:
+ - "dbgeng/IDebugClient5.SetQuitLockString"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

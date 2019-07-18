@@ -8,6 +8,8 @@ ms.assetid: 8ce2006e-e66c-4b2d-8d26-2eba8d8e2864
 ms.date: 03/29/2018
 ms.keywords: VideoPortReleaseSpinLock, VideoPortReleaseSpinLock function [Display Devices], VideoPort_Functions_43cceda5-f5eb-4567-97f5-d53d0bf93c0b.xml, display.videoportreleasespinlock, video/VideoPortReleaseSpinLock
 ms.topic: function
+f1_keywords:
+ - "video/VideoPortReleaseSpinLock"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

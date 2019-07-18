@@ -8,6 +8,8 @@ ms.assetid: ef4fcb57-2960-4cd3-9abc-f8c5bc46e1a3
 ms.date: 04/30/2018
 ms.keywords: ExLocalTimeToSystemTime, ExLocalTimeToSystemTime routine [Kernel-Mode Driver Architecture], k102_f7743a3b-822e-433e-bdf2-d7bf4ef606f5.xml, kernel.exlocaltimetosystemtime, wdm/ExLocalTimeToSystemTime
 ms.topic: function
+f1_keywords:
+ - "wdm/ExLocalTimeToSystemTime"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

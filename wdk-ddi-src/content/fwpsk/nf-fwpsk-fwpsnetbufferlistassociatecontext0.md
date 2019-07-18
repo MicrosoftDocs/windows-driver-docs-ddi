@@ -8,6 +8,8 @@ ms.assetid: 31135396-303b-4b94-8616-a4b7be207fa1
 ms.date: 05/02/2018
 ms.keywords: FwpsNetBufferListAssociateContext0, FwpsNetBufferListAssociateContext0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsNetBufferListAssociateContext0, netvista.fwpsnetbufferlistassociatecontext0, wfp_ref_2_funct_3_fwps_J-Q_f30e27fe-3146-4393-b967-fdb7bbfd6370.xml
 ms.topic: function
+f1_keywords:
+ - "fwpsk/FwpsNetBufferListAssociateContext0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal

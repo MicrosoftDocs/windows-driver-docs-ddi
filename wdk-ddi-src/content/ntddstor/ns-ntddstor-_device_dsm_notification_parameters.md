@@ -8,6 +8,8 @@ ms.assetid: 57885E58-C7EC-493E-9AB8-B9DABC6CEA2A
 ms.date: 03/29/2018
 ms.keywords: "*PDEVICE_DSM_NOTIFICATION_PARAMETERS, DEVICE_DSM_NOTIFICATION_PARAMETERS, DEVICE_DSM_NOTIFICATION_PARAMETERS structure [Storage Devices], PDEVICE_DSM_NOTIFICATION_PARAMETERS, PDEVICE_DSM_NOTIFICATION_PARAMETERS structure pointer [Storage Devices], _DEVICE_DSM_NOTIFICATION_PARAMETERS, ntddstor/DEVICE_DSM_NOTIFICATION_PARAMETERS, ntddstor/PDEVICE_DSM_NOTIFICATION_PARAMETERS, storage.device_dsm_notification_parameters"
 ms.topic: struct
+f1_keywords:
+ - "ntddstor/DEVICE_DSM_NOTIFICATION_PARAMETERS"
 req.header: ntddstor.h
 req.include-header: Ntddstor.h
 req.target-type: Windows

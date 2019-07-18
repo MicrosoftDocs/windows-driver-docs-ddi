@@ -8,6 +8,8 @@ ms.assetid: 39042c66-3db1-41bd-b06d-12aefcb007d3
 ms.date: 04/20/2018
 ms.keywords: RouterAllocBidiMem, RouterAllocBidiMem function [Print Devices], print.routerallocbidimem, spoolfnc_ed433d21-ccfa-4061-9fbd-3bf333e12b31.xml, winsplp/RouterAllocBidiMem
 ms.topic: function
+f1_keywords:
+ - "winsplp/RouterAllocBidiMem"
 req.header: winsplp.h
 req.include-header: Winsplp.h
 req.target-type: Desktop

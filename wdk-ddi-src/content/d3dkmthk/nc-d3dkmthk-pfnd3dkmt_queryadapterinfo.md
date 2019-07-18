@@ -5,6 +5,8 @@ description: The PFND3DKMT_QUERYADAPTERINFO callback function retrieves graphics
 ms.assetid: fc4f4324-cb20-49ae-8f1c-3aa8e75d3d9a
 ms.date: 11/21/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/PFND3DKMT_QUERYADAPTERINFO"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

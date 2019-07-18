@@ -5,6 +5,8 @@ description:
 ms.assetid: 141f16f3-fa3f-4cec-9854-be81557e97af
 ms.date: 10/19/2018
 ms.topic: macro
+f1_keywords:
+ - "winddiui/DOCUMENTEVENT_EVENT"
 ms.keywords: DOCUMENTEVENT_EVENT
 req.header: winddiui.h
 req.include-header:

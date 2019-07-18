@@ -5,6 +5,8 @@ description: The PFND3DKMT_RELEASESWAPCHAIN callback function releases swap chai
 ms.assetid: aa7a2119-8f7e-49fa-ad19-efce8c928d03
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/PFND3DKMT_RELEASESWAPCHAIN"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

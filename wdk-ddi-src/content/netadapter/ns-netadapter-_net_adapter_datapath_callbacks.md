@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 831e94ef-28ba-4681-b0b6-07a8a38238fc
 ms.date: 07/27/2018
 ms.topic: struct
+f1_keywords:
+ - "netadapter/_NET_ADAPTER_DATAPATH_CALLBACKS"
 ms.keywords: _NET_ADAPTER_DATAPATH_CALLBACKS, NET_ADAPTER_DATAPATH_CALLBACKS, *PNET_ADAPTER_DATAPATH_CALLBACKS, 
 req.header: netadapter.h
 req.include-header:

@@ -7,6 +7,8 @@ ms.assetid: 4fe525b1-9c06-4e2c-9e57-041164905efe
 ms.date: 05/10/2018
 ms.keywords: D3DKMT_SETQUEUEDLIMIT, D3DKMT_SETQUEUEDLIMIT structure [Display Devices], OpenGL_Structs_3c7f7e33-f71a-4547-89ee-7dba69917a4f.xml, _D3DKMT_SETQUEUEDLIMIT, d3dkmthk/D3DKMT_SETQUEUEDLIMIT, display.d3dkmt_setqueuedlimit
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/D3DKMT_SETQUEUEDLIMIT"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

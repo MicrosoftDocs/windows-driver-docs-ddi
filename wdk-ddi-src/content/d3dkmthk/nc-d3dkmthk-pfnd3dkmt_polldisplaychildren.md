@@ -5,6 +5,8 @@ description: The PFND3DKMT_POLLDISPLAYCHILDREN callback function queries for con
 ms.assetid: 198d78c5-7e56-4b14-a60e-ffef8447e169
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/PFND3DKMT_POLLDISPLAYCHILDREN"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

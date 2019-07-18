@@ -5,6 +5,8 @@ description: Initializes a **USBPM_CONNECTOR_STATE_INIT** structure.
 ms.assetid: 2f0924ce-22d0-4bea-b368-6f5974441658
 ms.date: 09/30/2018
 ms.topic: function
+f1_keywords:
+ - "usbpmapi/USBPM_CONNECTOR_STATE_INIT"
 ms.keywords: USBPM_CONNECTOR_STATE_INIT
 tech.root: usbref
 req.header: usbpmapi.h

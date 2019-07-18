@@ -8,6 +8,8 @@ ms.assetid: D51126FD-0448-487A-BD4E-170901E90B1E
 ms.date: 02/15/2018
 ms.keywords: "*PGNSS_FIXSESSION_PARAM, GNSS_FIXSESSION_PARAM, GNSS_FIXSESSION_PARAM structure [Sensor Devices], PGNSS_FIXSESSION_PARAM, PGNSS_FIXSESSION_PARAM structure pointer [Sensor Devices], gnss.gnss_fixsession_param, gnssdriver/GNSS_FIXSESSION_PARAM, gnssdriver/PGNSS_FIXSESSION_PARAM, sensors.gnss_fixsesson_param"
 ms.topic: struct
+f1_keywords:
+ - "gnssdriver/GNSS_FIXSESSION_PARAM"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows

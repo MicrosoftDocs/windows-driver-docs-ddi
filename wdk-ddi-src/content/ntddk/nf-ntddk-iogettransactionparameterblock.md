@@ -8,6 +8,8 @@ ms.assetid: f07919f8-644f-43a4-98d7-d0f1a91d405d
 ms.date: 04/16/2018
 ms.keywords: IoGetTransactionParameterBlock, IoGetTransactionParameterBlock routine [Installable File System Drivers], ifsk.iogettransactionparameterblock, ioref_4bce32be-89e0-4b69-9e44-a4b619588c79.xml, ntddk/IoGetTransactionParameterBlock
 ms.topic: function
+f1_keywords:
+ - "ntddk/IoGetTransactionParameterBlock"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h, Fltkernel.h
 req.target-type: Universal

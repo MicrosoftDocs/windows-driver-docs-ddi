@@ -8,6 +8,8 @@ ms.assetid: dca6c4a7-66e0-4bdd-9fdd-a32d49836980
 ms.date: 04/30/2018
 ms.keywords: KeInitializeMutex, KeInitializeMutex routine [Kernel-Mode Driver Architecture], k105_0e268ff3-6e9d-41ab-acfd-0bb71e973115.xml, kernel.keinitializemutex, wdm/KeInitializeMutex
 ms.topic: function
+f1_keywords:
+ - "wdm/KeInitializeMutex"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

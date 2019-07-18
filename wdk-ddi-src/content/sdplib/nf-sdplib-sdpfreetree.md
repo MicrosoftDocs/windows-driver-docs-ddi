@@ -8,6 +8,8 @@ ms.assetid: 7d3f743e-2422-474d-aaad-4386e0dc100a
 ms.date: 04/27/2018
 ms.keywords: SdpFreeTree, SdpFreeTree function [Bluetooth Devices], bltooth.sdpfreetree, bth_funcs_526ed9cd-2c07-4c1f-a420-dec6fe930e44.xml, sdplib/SdpFreeTree
 ms.topic: function
+f1_keywords:
+ - "sdplib/SdpFreeTree"
 req.header: sdplib.h
 req.include-header: BthSdpddi.h
 req.target-type: Desktop

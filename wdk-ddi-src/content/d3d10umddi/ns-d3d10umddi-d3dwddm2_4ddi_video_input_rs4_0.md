@@ -5,6 +5,8 @@ description: D3DWDDM2_4DDI_VIDEO_INPUT_RS4_0 contains the JPEG image function ta
 ms.assetid: b070b756-c72f-4065-b16d-58a3f39e62e0
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3d10umddi/D3DWDDM2_4DDI_VIDEO_INPUT_RS4_0"
 ms.keywords: D3DWDDM2_4DDI_VIDEO_INPUT_RS4_0, D3DWDDM2_4DDI_VIDEO_INPUT_RS4_0,
 req.header: d3d10umddi.h
 req.include-header:

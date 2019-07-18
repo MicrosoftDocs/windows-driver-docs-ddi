@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: aa81d0f3-42dd-4e65-a311-ffbb7b2864a1
 ms.date: 08/20/2018
 ms.topic: enum
+f1_keywords:
+ - "wwan/_WWAN_SAR_TRANSMISSION_STATUS_NOTIFICATION_STATE"
 ms.keywords: _WWAN_SAR_TRANSMISSION_STATUS_NOTIFICATION_STATE, WWAN_SAR_TRANSMISSION_STATUS_NOTIFICATION_STATE, *PWWAN_SAR_TRANSMISSION_STATUS_NOTIFICATION_STATE, 
 req.header: wwan.h
 req.include-header:

@@ -8,6 +8,8 @@ ms.assetid: a61e6c6a-3992-429c-ad8c-5f1a61dc7b8b
 ms.date: 05/10/2018
 ms.keywords: D3Druntime_Functions_1339f95d-018f-4153-b5b8-6753c38babd7.xml, PFND3DDDI_ALLOCATECB, PFND3DDDI_ALLOCATECB callback, d3dumddi/pfnAllocateCb, display.pfnallocatecb, pfnAllocateCb, pfnAllocateCb callback function [Display Devices]
 ms.topic: callback
+f1_keywords:
+ - "d3dumddi/pfnAllocateCb"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop

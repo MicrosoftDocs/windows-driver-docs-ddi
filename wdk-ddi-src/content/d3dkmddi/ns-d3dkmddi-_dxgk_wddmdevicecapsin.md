@@ -8,6 +8,8 @@ ms.assetid: 44896806-4977-4dc8-b71b-5290b6c0f9a1
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
 ms.topic: struct
+f1_keywords:
+ - "d3dkmddi/_DXGK_WDDMDEVICECAPSIN"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.keywords: _DXGK_WDDMDEVICECAPSIN, DXGK_WDDMDEVICECAPSIN, 

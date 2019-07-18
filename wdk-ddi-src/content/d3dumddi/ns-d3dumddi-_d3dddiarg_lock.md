@@ -8,6 +8,8 @@ ms.assetid: 00f8b16c-3ec1-48ac-930b-17aca16cc04f
 ms.date: 05/10/2018
 ms.keywords: D3DDDIARG_LOCK, D3DDDIARG_LOCK structure [Display Devices], UMDisplayDriver_param_Structs_484ea489-6a0a-466a-b4d2-39d6f0eb5642.xml, _D3DDDIARG_LOCK, d3dumddi/D3DDDIARG_LOCK, display.d3dddiarg_lock
 ms.topic: struct
+f1_keywords:
+ - "d3dumddi/D3DDDIARG_LOCK"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

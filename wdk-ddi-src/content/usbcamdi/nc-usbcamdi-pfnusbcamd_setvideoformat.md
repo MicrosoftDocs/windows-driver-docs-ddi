@@ -8,6 +8,8 @@ ms.assetid: 84a63c69-0f27-42e4-ae10-e394dd8b715d
 ms.date: 04/23/2018
 ms.keywords: PFNUSBCAMD_SetVideoFormat, USBCAMD_SetVideoFormat, USBCAMD_SetVideoFormat routine [Streaming Media Devices], stream.usbcamd_setvideoformat, usbcamdi/USBCAMD_SetVideoFormat, usbcmdpr_c4209df8-d0e2-4727-b9f8-4b9b734be34c.xml
 ms.topic: callback
+f1_keywords:
+ - "usbcamdi/USBCAMD_SetVideoFormat"
 req.header: usbcamdi.h
 req.include-header: Usbcamdi.h
 req.target-type: Desktop

@@ -8,6 +8,8 @@ ms.assetid: a718cf3e-8359-4560-a88e-dd7789b61be6
 ms.date: 04/23/2018
 ms.keywords: USBCAMD_Debug_LogEntry, USBCAMD_Debug_LogEntry function [Streaming Media Devices], stream.usbcamd_debug_logentry, usbcamdi/USBCAMD_Debug_LogEntry, usbcmdpr_6f6f6419-d845-4488-bd8d-70efa67357fa.xml
 ms.topic: function
+f1_keywords:
+ - "usbcamdi/USBCAMD_Debug_LogEntry"
 req.header: usbcamdi.h
 req.include-header: Usbcamdi.h
 req.target-type: Desktop

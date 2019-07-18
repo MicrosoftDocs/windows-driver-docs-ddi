@@ -6,6 +6,8 @@ ms.assetid: 4a565915-3f6d-45ff-8912-0a4e80910a8b
 ms.date: 08/08/2018
 tech.root: sensors
 ms.topic: function
+f1_keywords:
+ - "sensorsutils/IsKeyPresentInPropertyList"
 ms.keywords: IsKeyPresentInPropertyList
 req.header: sensorsutils.h
 req.include-header:

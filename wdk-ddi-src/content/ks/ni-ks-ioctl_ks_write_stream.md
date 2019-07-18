@@ -8,6 +8,8 @@ ms.assetid: 560cfc18-5cbe-4af7-b579-3904ee68acbf
 ms.date: 04/23/2018
 ms.keywords: IOCTL_KS_WRITE_STREAM, IOCTL_KS_WRITE_STREAM control, IOCTL_KS_WRITE_STREAM control code [Streaming Media Devices], ks-ioctl_83263ce8-e0b1-4ae5-a5b8-848e0fb99471.xml, ks/IOCTL_KS_WRITE_STREAM, stream.ioctl_ks_write_stream
 ms.topic: ioctl
+f1_keywords:
+ - "ks/IOCTL_KS_WRITE_STREAM"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: 807f1432-1b2f-45fc-899c-b2920ea79f7a
 ms.date: 06/19/2019
 ms.keywords: HidD_GetSerialNumberString, HidD_GetSerialNumberString routine [Human Input Devices], hid.hidd_getserialnumberstring, hidfunc_b01ce302-052c-43f1-9b8f-6421ebb66954.xml, hidsdi/HidD_GetSerialNumberString
 ms.topic: function
+f1_keywords:
+ - "hidsdi/HidD_GetSerialNumberString"
 req.header: hidsdi.h
 req.include-header: Hidsdi.h
 req.target-type: Universal

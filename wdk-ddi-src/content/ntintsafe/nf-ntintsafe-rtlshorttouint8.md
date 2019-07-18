@@ -8,6 +8,8 @@ ms.assetid: B1B5AE37-23BC-444A-9014-529BAD50ED52
 ms.date: 04/30/2018
 ms.keywords: RtlShortToUInt8, RtlShortToUInt8 function [Kernel-Mode Driver Architecture], kernel.rtlshorttouint8, ntintsafe/RtlShortToUInt8
 ms.topic: function
+f1_keywords:
+ - "ntintsafe/RtlShortToUInt8"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop

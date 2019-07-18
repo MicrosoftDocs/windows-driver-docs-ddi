@@ -8,6 +8,8 @@ ms.assetid: abff1656-dceb-464f-a89c-30d7a24f742d
 ms.date: 02/23/2018
 ms.keywords: DbgPrint, DbgPrint routine [Driver Development Tools], DebugFns_5e11bbcc-adc2-46c0-b371-0e54c50bb2dc.xml, ULONG, devtest.dbgprint, wdm/DbgPrint
 ms.topic: function
+f1_keywords:
+ - "wdm/DbgPrint"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Universal

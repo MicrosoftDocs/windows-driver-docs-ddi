@@ -8,6 +8,8 @@ ms.assetid: 40e305b3-e91c-4227-99e7-dbb939082f54
 ms.date: 04/23/2018
 ms.keywords: "*PTRANSPORTBASICPARMS, PTRANSPORTBASICPARMS, PTRANSPORTBASICPARMS structure pointer [Streaming Media Devices], TRANSPORTBASICPARMS, TRANSPORTBASICPARMS structure [Streaming Media Devices], ksmedia/PTRANSPORTBASICPARMS, ksmedia/TRANSPORTBASICPARMS, stream.transportbasicparms, tagTRANSPORTBASICPARMS, vidcapstruct_5a5cdf6a-56f3-43ad-9bab-e5d406052707.xml"
 ms.topic: struct
+f1_keywords:
+ - "ksmedia/TRANSPORTBASICPARMS"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows

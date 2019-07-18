@@ -8,6 +8,8 @@ ms.assetid: 6438f692-75b0-4a41-a2f9-68b0fe3f23cf
 ms.date: 05/02/2018
 ms.keywords: "*LPRILUICCAPPPERSOCHECKSTATUS, RILUICCAPPPERSOCHECKSTATUS, RILUICCAPPPERSOCHECKSTATUS structure [Network Drivers Starting with Windows Vista], netvista.riluiccapppersocheckstatus, ntddrilapitypes/RILUICCAPPPERSOCHECKSTATUS"
 ms.topic: struct
+f1_keywords:
+ - "ntddrilapitypes/RILUICCAPPPERSOCHECKSTATUS"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

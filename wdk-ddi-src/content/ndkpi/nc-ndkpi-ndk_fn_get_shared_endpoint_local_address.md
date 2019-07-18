@@ -8,6 +8,8 @@ ms.assetid: C7B6B7DC-359D-44C2-8348-EC1EE5965800
 ms.date: 05/02/2018
 ms.keywords: NDK_FN_GET_SHARED_ENDPOINT_LOCAL_ADDRESS, NDK_FN_GET_SHARED_ENDPOINT_LOCAL_ADDRESS callback, NdkGetSharedEndpointLocalAddress, NdkGetSharedEndpointLocalAddress callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkGetSharedEndpointLocalAddress, netvista.ndk_fn_get_shared_endpoint_local_address
 ms.topic: callback
+f1_keywords:
+ - "ndkpi/NdkGetSharedEndpointLocalAddress"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows

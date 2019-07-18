@@ -8,6 +8,8 @@ ms.assetid: de5d59c6-2ce9-442c-866d-a64b3fa58952
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
 ms.topic: callback
+f1_keywords:
+ - "d3dkmddi/DXGKDDI_RESTOREMEMORYFORHOTUPDATE"
 req.header: d3dkmddi.h
 req.include-header:
 req.target-type:

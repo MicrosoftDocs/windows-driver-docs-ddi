@@ -8,6 +8,8 @@ ms.assetid: 0BDC6629-9C0E-4437-888D-1EF730714CA4
 ms.date: 04/16/2018
 ms.keywords: PsUpdateDiskCounters, PsUpdateDiskCounters routine [Installable File System Drivers], ifsk.psupdatediskcounters, ntifs/PsUpdateDiskCounters
 ms.topic: function
+f1_keywords:
+ - "ntifs/PsUpdateDiskCounters"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

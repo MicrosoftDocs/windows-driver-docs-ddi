@@ -5,6 +5,8 @@ description: Arguments used to resume the hardware engine.
 ms.assetid: 745bf4ce-87ca-4471-b162-5687380ae09c
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3dkmddi/_DXGKARG_RESUMEHWENGINE"
 ms.keywords: _DXGKARG_RESUMEHWENGINE, DXGKARG_RESUMEHWENGINE, *INOUT_PDXGKARG_RESUMEHWENGINE
 req.header: d3dkmddi.h
 req.include-header:

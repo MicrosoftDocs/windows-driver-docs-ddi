@@ -8,6 +8,8 @@ ms.assetid: 5a86c871-ed6e-4c96-bc12-03b3a900953d
 ms.date: 03/29/2018
 ms.keywords: IOCTL_AACS_END_SESSION, IOCTL_AACS_END_SESSION control, IOCTL_AACS_END_SESSION control code [Storage Devices], k307_608ddec6-9661-433b-8b82-22ce3b06267d.xml, ntddcdvd/IOCTL_AACS_END_SESSION, storage.ioctl_aacs_end_session
 ms.topic: ioctl
+f1_keywords:
+ - "ntddcdvd/IOCTL_AACS_END_SESSION"
 req.header: ntddcdvd.h
 req.include-header: Ntddcdvd.h
 req.target-type: Windows

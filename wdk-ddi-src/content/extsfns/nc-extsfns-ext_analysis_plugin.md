@@ -8,6 +8,8 @@ ms.assetid: 8D7FB040-871F-4F31-83E3-BAD7584C0589
 ms.date: 05/03/2018
 ms.keywords: EXT_ANALYSIS_PLUGIN, EXT_ANALYSIS_PLUGIN callback, _EFN_Analyze, _EFN_Analyze callback function [Windows Debugging], debugger._efn_analyze, extsfns/_EFN_Analyze
 ms.topic: callback
+f1_keywords:
+ - "extsfns/_EFN_Analyze"
 req.header: extsfns.h
 req.include-header: 
 req.target-type: Desktop

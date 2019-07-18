@@ -5,6 +5,8 @@ description: Supports the ability to compare this object to another (of arbitrar
 ms.assetid: 44daad07-fb11-4f91-859a-eae2230ac7f7
 ms.date: 07/13/2018
 ms.topic: interface
+f1_keywords:
+ - "dbgmodel/IEquatableConcept"
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:

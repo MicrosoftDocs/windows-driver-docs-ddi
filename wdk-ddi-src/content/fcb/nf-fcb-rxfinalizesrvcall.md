@@ -8,6 +8,8 @@ ms.assetid: 293bb629-ac31-4ae3-bba3-b06812e9e6cb
 ms.date: 04/16/2018
 ms.keywords: RxFinalizeSrvCall, RxFinalizeSrvCall function [Installable File System Drivers], fcb/RxFinalizeSrvCall, ifsk.rxfinalizesrvcall, rxref_0560ef8e-f9e2-47ba-b78b-c3298e66238e.xml
 ms.topic: function
+f1_keywords:
+ - "fcb/RxFinalizeSrvCall"
 req.header: fcb.h
 req.include-header: Mrxfcb.h, Fcb.h
 req.target-type: Desktop

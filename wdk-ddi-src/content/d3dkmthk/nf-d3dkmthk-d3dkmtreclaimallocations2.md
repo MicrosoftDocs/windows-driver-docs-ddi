@@ -7,6 +7,8 @@ ms.assetid: 0BC49546-ECDE-447D-8F7E-4235D96D293B
 ms.date: 05/10/2018
 ms.keywords: D3DKMTReclaimAllocations2, D3DKMTReclaimAllocations2 function [Display Devices], d3dkmthk/D3DKMTReclaimAllocations2, display.d3dkmtreclaimallocations2
 ms.topic: function
+f1_keywords:
+ - "d3dkmthk/D3DKMTReclaimAllocations2"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal

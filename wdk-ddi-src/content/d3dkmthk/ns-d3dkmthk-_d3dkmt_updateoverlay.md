@@ -7,6 +7,8 @@ ms.assetid: 4e7d4d09-067b-4658-ab2a-319dc9e6d8db
 ms.date: 05/10/2018
 ms.keywords: D3DKMT_UPDATEOVERLAY, D3DKMT_UPDATEOVERLAY structure [Display Devices], OpenGL_Structs_763acbbf-27ad-4d91-903f-7200b7d7e0cf.xml, _D3DKMT_UPDATEOVERLAY, d3dkmthk/D3DKMT_UPDATEOVERLAY, display.d3dkmt_updateoverlay
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/D3DKMT_UPDATEOVERLAY"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

@@ -5,6 +5,8 @@ description: The CreateNoValue method creates a "no value" object, boxes it into
 ms.assetid: efc55ed1-d0c7-4da7-86a8-9ebc88dd6d33
 ms.date: 07/20/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDataModelManager.CreateNoValue"
 ms.keywords: IDataModelManager::CreateNoValue, CreateNoValue, IDataModelManager.CreateNoValue, IDataModelManager::CreateNoValue, IDataModelManager.CreateNoValue
 req.header: dbgmodel.h
 req.include-header:

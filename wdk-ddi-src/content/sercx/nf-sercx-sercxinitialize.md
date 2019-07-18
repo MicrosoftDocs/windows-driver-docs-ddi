@@ -8,6 +8,8 @@ ms.assetid: 2837C3BE-71EB-4949-AB46-5333CF4575A8
 ms.date: 04/23/2018
 ms.keywords: 1/SerCxInitialize, SerCxInitialize, SerCxInitialize method [Serial Ports], serports.sercxinitialize
 ms.topic: function
+f1_keywords:
+ - "sercx/SerCxInitialize"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Universal

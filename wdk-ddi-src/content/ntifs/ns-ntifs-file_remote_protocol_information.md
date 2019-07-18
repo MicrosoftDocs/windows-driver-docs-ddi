@@ -8,6 +8,8 @@ ms.assetid: b97cbf60-3772-4486-96fd-6dae607e830d
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
+f1_keywords:
+ - "ntifs/FILE_REMOTE_PROTOCOL_INFORMATION"
 ms.keywords: FILE_REMOTE_PROTOCOL_INFORMATION, FILE_REMOTE_PROTOCOL_INFORMATION, *PFILE_REMOTE_PROTOCOL_INFORMATION, 
 req.header: ntifs.h
 req.include-header:

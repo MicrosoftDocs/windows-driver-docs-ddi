@@ -7,6 +7,8 @@ ms.assetid: 3F9A7BBE-BFC2-47B9-856A-0B6930717A36
 ms.date: 05/10/2018
 ms.keywords: D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2, D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2 structure [Display Devices], _D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2, d3dkmthk/D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2, display.d3dkmt_signalsynchronizationobjectfromgpu2
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/D3DKMT_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

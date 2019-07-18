@@ -8,6 +8,8 @@ ms.assetid: 95b2f2ff-b98f-4210-9a4f-898573679aa7
 ms.date: 05/08/2018
 ms.keywords: "*PKSDSOUND_BUFFERDESC, KSDSOUND_BUFFERDESC, KSDSOUND_BUFFERDESC structure [Audio Devices], PKSDSOUND_BUFFERDESC, PKSDSOUND_BUFFERDESC structure pointer [Audio Devices], aud-prop_309ec354-b919-40c7-8751-9e0a0000f7c8.xml, audio.ksdsound_bufferdesc, ksmedia/KSDSOUND_BUFFERDESC, ksmedia/PKSDSOUND_BUFFERDESC"
 ms.topic: struct
+f1_keywords:
+ - "ksmedia/KSDSOUND_BUFFERDESC"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows

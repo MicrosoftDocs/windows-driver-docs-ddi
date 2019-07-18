@@ -5,6 +5,8 @@ description: Implemented by the client driver to open a protected session from t
 ms.assetid: c226000c-38a3-4956-b51d-b0ddbc6c46ca
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/PFND3DKMT_OPENPROTECTEDSESSIONFROMNTHANDLE"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

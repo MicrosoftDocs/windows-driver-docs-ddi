@@ -5,6 +5,8 @@ description: Specifies the resource mapping flags.
 ms.assetid: 2fe66683-3710-4ac6-9e98-3927c563d463
 ms.date: 10/19/2018
 ms.topic: enum
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_RESOURCE_MAPPING_FLAGS"
 ms.keywords: D3D12DDI_RESOURCE_MAPPING_FLAGS, D3D12DDI_RESOURCE_MAPPING_FLAGS, 
 req.header: d3d12umddi.h
 req.include-header:

@@ -8,6 +8,8 @@ ms.assetid: 1C1AE0F6-2CAB-4983-B1A7-E6C8BA822754
 ms.date: 02/26/2018
 ms.keywords: WdfDeviceAllocAndQueryPropertyEx, WdfDeviceAllocAndQueryPropertyEx method, wdf.wdfdeviceallocandquerypropertyex, wdfdevice/WdfDeviceAllocAndQueryPropertyEx
 ms.topic: function
+f1_keywords:
+ - "wdfdevice/WdfDeviceAllocAndQueryPropertyEx"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

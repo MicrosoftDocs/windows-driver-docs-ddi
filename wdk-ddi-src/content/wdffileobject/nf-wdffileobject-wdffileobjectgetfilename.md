@@ -8,6 +8,8 @@ ms.assetid: 9d4e45c7-ed1f-476a-8522-4213ac42a3c3
 ms.date: 02/26/2018
 ms.keywords: DFFileObjectRef_07be4c38-fa04-41d3-8f8e-f7ec5ed6ff18.xml, WdfFileObjectGetFileName, WdfFileObjectGetFileName method, kmdf.wdffileobjectgetfilename, wdf.wdffileobjectgetfilename, wdffileobject/WdfFileObjectGetFileName
 ms.topic: function
+f1_keywords:
+ - "wdffileobject/WdfFileObjectGetFileName"
 req.header: wdffileobject.h
 req.include-header: Wdf.h
 req.target-type: Universal

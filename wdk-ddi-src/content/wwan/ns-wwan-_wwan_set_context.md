@@ -8,6 +8,8 @@ ms.assetid: 00772a37-ef1b-446b-b7bd-1a6aa27d1dad
 ms.date: 05/02/2018
 ms.keywords: "*PWWAN_SET_CONTEXT, PWWAN_SET_CONTEXT, PWWAN_SET_CONTEXT structure pointer [Network Drivers Starting with Windows Vista], WWAN_SET_CONTEXT, WWAN_SET_CONTEXT structure [Network Drivers Starting with Windows Vista], WwanRef_08361ced-712a-464d-b374-7b18a096b8e5.xml, _WWAN_SET_CONTEXT, netvista.wwan_set_context, wwan/PWWAN_SET_CONTEXT, wwan/WWAN_SET_CONTEXT"
 ms.topic: struct
+f1_keywords:
+ - "wwan/WWAN_SET_CONTEXT"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows

@@ -7,6 +7,8 @@ ms.assetid: f613e019-0b6d-43fc-a802-a6cd3803a00d
 ms.date: 05/10/2018
 ms.keywords: DXGKCB_DESTROYCONTEXTALLOCATION, DXGKCB_DESTROYCONTEXTALLOCATION callback, DxgkCbDestroyContextAllocation, DxgkCbDestroyContextAllocation callback function [Display Devices], d3dkmddi/DxgkCbDestroyContextAllocation, display.dxgkcbdestroycontextallocation
 ms.topic: callback
+f1_keywords:
+ - "d3dkmddi/DxgkCbDestroyContextAllocation"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Desktop

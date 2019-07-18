@@ -7,6 +7,8 @@ ms.assetid: 641c8f8d-e398-4ca4-9e28-bba2ef7d1bd3
 ms.date: 05/10/2018
 ms.keywords: D3D10_DDI_QUERY_DATA_SO_STATISTICS, D3D10_DDI_QUERY_DATA_SO_STATISTICS structure [Display Devices], UMDisplayDriver_Dx10param_Structs_3748a5db-9ce8-4763-baac-4110b754188d.xml, d3d10umddi/D3D10_DDI_QUERY_DATA_SO_STATISTICS, display.d3d10_ddi_query_data_so_statistics
 ms.topic: struct
+f1_keywords:
+ - "d3d10umddi/D3D10_DDI_QUERY_DATA_SO_STATISTICS"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows

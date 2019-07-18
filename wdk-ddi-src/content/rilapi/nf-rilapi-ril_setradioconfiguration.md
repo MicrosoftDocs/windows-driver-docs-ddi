@@ -8,6 +8,8 @@ ms.assetid: b48ba9fe-3b7c-4ca8-8dcb-1e2a586353b9
 ms.date: 05/02/2018
 ms.keywords: RIL_SetRadioConfiguration, RIL_SetRadioConfiguration method [Network Drivers Starting with Windows Vista], netvista.ril_setradioconfiguration, rilapi/RIL_SetRadioConfiguration
 ms.topic: function
+f1_keywords:
+ - "rilapi/RIL_SetRadioConfiguration"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows

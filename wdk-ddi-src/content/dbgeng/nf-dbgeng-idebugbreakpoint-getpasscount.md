@@ -8,6 +8,8 @@ ms.assetid: d7abe2aa-a33c-4184-a850-d0efa1e99221
 ms.date: 05/03/2018
 ms.keywords: ComOther_bf916108-efd7-436f-a89e-a26826e2e258.xml, GetPassCount, GetPassCount method [Windows Debugging], GetPassCount method [Windows Debugging],IDebugBreakpoint interface, GetPassCount method [Windows Debugging],IDebugBreakpoint2 interface, IDebugBreakpoint interface [Windows Debugging],GetPassCount method, IDebugBreakpoint.GetPassCount, IDebugBreakpoint2 interface [Windows Debugging],GetPassCount method, IDebugBreakpoint2::GetPassCount, IDebugBreakpoint::GetPassCount, dbgeng/IDebugBreakpoint2::GetPassCount, dbgeng/IDebugBreakpoint::GetPassCount, debugger.getpasscount
 ms.topic: method
+f1_keywords:
+ - "dbgeng/IDebugBreakpoint.GetPassCount"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

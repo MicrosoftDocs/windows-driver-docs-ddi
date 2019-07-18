@@ -7,6 +7,8 @@ ms.assetid: 371f494c-abd2-43c8-ab06-749144762b01
 ms.date: 05/10/2018
 ms.keywords: D3D11_1DDI_VIDEO_INPUT, D3D11_1DDI_VIDEO_INPUT structure [Display Devices], d3d10umddi/D3D11_1DDI_VIDEO_INPUT, display.d3d11_1ddi_video_input
 ms.topic: struct
+f1_keywords:
+ - "d3d10umddi/D3D11_1DDI_VIDEO_INPUT"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows

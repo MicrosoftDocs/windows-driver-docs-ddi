@@ -8,6 +8,8 @@ ms.assetid: a9eecbc4-c461-4c13-99e0-3132bd0f6b9c
 ms.date: 02/15/2018
 ms.keywords: GetCount, GetCount method, GetCount method,IPortableDevicePropVariantCollection interface, IPortableDevicePropVariantCollection interface,GetCount method, IPortableDevicePropVariantCollection.GetCount, IPortableDevicePropVariantCollection::GetCount, IPortableDevicePropVariantCollectionGetCount, portabledevicetypes/IPortableDevicePropVariantCollection::GetCount, wpddk.iportabledevicepropvariantcollection_getcount
 ms.topic: method
+f1_keywords:
+ - "portabledevicetypes/IPortableDevicePropVariantCollection.GetCount"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows

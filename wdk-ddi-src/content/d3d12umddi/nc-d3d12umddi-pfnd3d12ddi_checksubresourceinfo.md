@@ -5,6 +5,8 @@ description: Check subresource info.
 ms.assetid: d8285aa5-1eec-425b-9cc5-28fa2e14b521
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_CHECKSUBRESOURCEINFO"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

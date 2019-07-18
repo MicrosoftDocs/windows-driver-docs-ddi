@@ -8,6 +8,8 @@ ms.assetid: A439E695-D374-439A-8A69-6D4E247FF134
 ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_CHECKMULTIPLANEOVERLAYSUPPORT, PFND3DDDI_CHECKMULTIPLANEOVERLAYSUPPORT (D3D) callback, d3dumddi/pfnCheckMultiPlaneOverlaySupport, display.pfncheckmultiplaneoverlaysupport__d3d_, pfnCheckMultiPlaneOverlaySupport, pfnCheckMultiPlaneOverlaySupport callback function [Display Devices]
 ms.topic: callback
+f1_keywords:
+ - "d3dumddi/pfnCheckMultiPlaneOverlaySupport"
 req.header: d3dumddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

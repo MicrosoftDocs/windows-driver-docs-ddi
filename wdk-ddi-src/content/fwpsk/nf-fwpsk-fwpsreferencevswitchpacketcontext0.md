@@ -8,6 +8,8 @@ ms.assetid: F4F5005F-2BDA-4E58-A06A-2A4F1D34776D
 ms.date: 05/02/2018
 ms.keywords: FwpsReferencevSwitchPacketContext0, FwpsReferencevSwitchPacketContext0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsReferencevSwitchPacketContext0, netvista.fwpsreferencevswitchpacketcontext0
 ms.topic: function
+f1_keywords:
+ - "fwpsk/FwpsReferencevSwitchPacketContext0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal

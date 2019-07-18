@@ -5,6 +5,8 @@ description: The GetNext method moves the iterator forward and fetches the next 
 ms.assetid: 27a21fcb-dc5e-4551-a48d-321db2715aec
 ms.date: 08/13/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IModelIterator.GetNext"
 ms.keywords: IModelIterator::GetNext, GetNext, IModelIterator.GetNext, IModelIterator::GetNext, IModelIterator.GetNext
 req.header: dbgmodel.h
 req.include-header:

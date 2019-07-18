@@ -8,6 +8,8 @@ ms.assetid: bf8ac72b-c3d6-4965-a1e9-2408d2fa2196
 ms.date: 02/15/2018
 ms.keywords: "*PHWN_CLIENT_REGISTRATION_PACKET, HWN_CLIENT_REGISTRATION_PACKET, HWN_CLIENT_REGISTRATION_PACKET structure, _HWN_CLIENT_REGISTRATION_PACKET, gpiobtn._hwn_client_registration_packet, hwnclx/HWN_CLIENT_REGISTRATION_PACKET"
 ms.topic: struct
+f1_keywords:
+ - "hwnclx/HWN_CLIENT_REGISTRATION_PACKET"
 req.header: hwnclx.h
 req.include-header:
 req.target-type: Windows

@@ -7,6 +7,8 @@ ms.assetid: d8e571dd-b823-4cad-96b6-c7841a1234c4
 ms.date: 05/10/2018
 ms.keywords: D3DKMT_OPENGLINFO, D3DKMT_OPENGLINFO structure [Display Devices], OpenGL_Structs_93ba7fd7-969f-4edf-a6ce-38a135bcda83.xml, _D3DKMT_OPENGLINFO, d3dkmthk/D3DKMT_OPENGLINFO, display.d3dkmt_openglinfo
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/D3DKMT_OPENGLINFO"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

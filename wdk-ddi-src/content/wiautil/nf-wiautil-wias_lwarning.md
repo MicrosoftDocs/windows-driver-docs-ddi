@@ -8,6 +8,8 @@ ms.assetid: 2959c470-1da7-4396-a591-7a356379f9de
 ms.date: 05/03/2018
 ms.keywords: IWiaLog_bac21803-be4c-4ce0-a241-b9380cb627ab.xml, WIAS_LWARNING, WIAS_LWARNING macro [Imaging Devices], image.wias_lwarning, wiamdef/WIAS_LWARNING
 ms.topic: macro
+f1_keywords:
+ - "wiautil/WIAS_LWARNING"
 req.header: wiautil.h
 req.include-header: Wiautil.h
 req.target-type: Desktop

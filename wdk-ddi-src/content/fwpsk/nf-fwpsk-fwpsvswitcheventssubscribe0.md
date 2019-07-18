@@ -8,6 +8,8 @@ ms.assetid: 479ff048-f57f-42ca-8787-f87ed055fdbf
 ms.date: 05/02/2018
 ms.keywords: FwpsvSwitchEventsSubscribe0, FwpsvSwitchEventsSubscribe0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsvSwitchEventsSubscribe0, netvista.fwpsvswitcheventssubscribe0
 ms.topic: function
+f1_keywords:
+ - "fwpsk/FwpsvSwitchEventsSubscribe0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal

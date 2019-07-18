@@ -8,6 +8,8 @@ ms.assetid: 56DA61CB-D4D3-40DF-861D-2A2EE257C194
 ms.date: 05/08/2018
 ms.keywords: IOCTL_BTHHFP_DEVICE_GET_VOLUMEPROPERTYVALUES, IOCTL_BTHHFP_DEVICE_GET_VOLUMEPROPERTYVALUES control, IOCTL_BTHHFP_DEVICE_GET_VOLUMEPROPERTYVALUES control code [Audio Devices], audio.ioctl_bthhfp_device_get_volumepropertyvalues, bthhfpddi/IOCTL_BTHHFP_DEVICE_GET_VOLUMEPROPERTYVALUES
 ms.topic: ioctl
+f1_keywords:
+ - "bthhfpddi/IOCTL_BTHHFP_DEVICE_GET_VOLUMEPROPERTYVALUES"
 req.header: bthhfpddi.h
 req.include-header: 
 req.target-type: Windows

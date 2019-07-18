@@ -8,6 +8,8 @@ ms.assetid: F0ABD318-AC63-40D5-B94E-BD6FEA1A57AC
 ms.date: 02/15/2018
 ms.keywords: 1394/IRB_REQ_CONTROL, IEEE.irb_req_control, IRB_REQ_CONTROL, IRB_REQ_CONTROL structure [Buses], _IRB_REQ_CONTROL
 ms.topic: struct
+f1_keywords:
+ - "1394/IRB_REQ_CONTROL"
 req.header: 1394.h
 req.include-header: 
 req.target-type: Windows

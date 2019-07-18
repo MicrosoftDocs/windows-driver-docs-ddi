@@ -8,6 +8,8 @@ ms.assetid: d017ad63-f9d5-413f-9dc6-aba5fb873c93
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: function
+f1_keywords:
+ - "ntddk/WheaHighIrqlLogSelEventHandlerUnregister"
 ms.keywords: WheaHighIrqlLogSelEventHandlerUnregister
 req.header: ntddk.h
 req.include-header:

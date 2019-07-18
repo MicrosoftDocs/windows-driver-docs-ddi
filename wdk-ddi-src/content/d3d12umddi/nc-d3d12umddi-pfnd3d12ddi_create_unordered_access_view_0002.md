@@ -5,6 +5,8 @@ description: Create unordered access view.
 ms.assetid: 38bc078d-cd76-4dd3-aed4-b703ddddd7b9
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_CREATE_UNORDERED_ACCESS_VIEW_0002"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

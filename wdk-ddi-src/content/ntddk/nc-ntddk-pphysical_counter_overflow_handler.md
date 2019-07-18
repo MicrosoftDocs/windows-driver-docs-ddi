@@ -8,6 +8,8 @@ ms.assetid: 49f5213b-3b7e-4bdc-9f4d-16c06e602fba
 ms.author: windowsdriverdev
 ms.date:
 ms.topic: callback
+f1_keywords:
+ - "ntddk/PPHYSICAL_COUNTER_OVERFLOW_HANDLER"
 req.header: ntddk.h
 req.include-header:
 req.target-type: Windows

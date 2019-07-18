@@ -7,6 +7,8 @@ ms.assetid: F3F2DE77-9FC5-4AC1-B857-51B51557108E
 ms.date: 05/10/2018
 ms.keywords: D3DKMT_COMPOSITION_PRESENTHISTORYTOKEN, D3DKMT_COMPOSITION_PRESENTHISTORYTOKEN structure [Display Devices], _D3DKMT_COMPOSITION_PRESENTHISTORYTOKEN, d3dkmthk/D3DKMT_COMPOSITION_PRESENTHISTORYTOKEN, display.d3dkmt_composition_presenthistorytoken
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/D3DKMT_COMPOSITION_PRESENTHISTORYTOKEN"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

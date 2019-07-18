@@ -8,6 +8,8 @@ ms.assetid: 27F0C336-3C8C-49B5-A7DB-F0640526CAE8
 ms.date: 04/16/2018
 ms.keywords: RtlEnumerateGenericTableWithoutSplayingAvl, RtlEnumerateGenericTableWithoutSplayingAvl routine [Installable File System Drivers], ifsk.rtlenumerategenerictablewithoutsplayingavl, ntddk/RtlEnumerateGenericTableWithoutSplayingAvl
 ms.topic: function
+f1_keywords:
+ - "ntddk/RtlEnumerateGenericTableWithoutSplayingAvl"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal

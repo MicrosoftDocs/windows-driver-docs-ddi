@@ -7,6 +7,8 @@ ms.assetid: 56fc1ecf-fd4c-4d36-941b-8fa6cca3b6b4
 ms.date: 05/10/2018
 ms.keywords: DestroyBlendState, DestroyBlendState callback function [Display Devices], PFND3D10DDI_DESTROYBLENDSTATE, PFND3D10DDI_DESTROYBLENDSTATE callback, UserModeDisplayDriverDx10_Functions_8af7f412-da7f-4326-a681-41bdfb4a97bb.xml, d3d10umddi/DestroyBlendState, display.destroyblendstate
 ms.topic: callback
+f1_keywords:
+ - "d3d10umddi/DestroyBlendState"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

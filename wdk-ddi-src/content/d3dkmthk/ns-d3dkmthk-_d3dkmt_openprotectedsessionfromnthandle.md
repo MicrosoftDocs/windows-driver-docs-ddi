@@ -7,6 +7,8 @@ ms.assetid: 15937864-c6ef-4c86-b957-87c7afe1cd94
 ms.date: 05/10/2018
 ms.keywords: D3DKMT_OPENPROTECTEDSESSIONFROMNTHANDLE, D3DKMT_OPENPROTECTEDSESSIONFROMNTHANDLE structure [Display Devices], _D3DKMT_OPENPROTECTEDSESSIONFROMNTHANDLE, d3dkmthk/D3DKMT_OPENPROTECTEDSESSIONFROMNTHANDLE, display.d3dkmt-openprotectedsessionfromnthandle
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/D3DKMT_OPENPROTECTEDSESSIONFROMNTHANDLE"
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: Windows

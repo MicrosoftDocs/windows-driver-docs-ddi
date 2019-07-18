@@ -8,6 +8,8 @@ ms.assetid: 8cf5f2fc-e298-4f5b-bca4-3034e8a4a061
 ms.date: 02/15/2018
 ms.keywords: IOCTL_INTERNAL_PARALLEL_CONNECT_INTERRUPT, IOCTL_INTERNAL_PARALLEL_CONNECT_INTERRUPT control code [Parallel Ports], cisspd_b43103ce-7b3e-413b-914c-fbaf1d7789ee.xml, parallel/IOCTL_INTERNAL_PARALLEL_CONNECT_INTERRUPT, parports.ioctl_internal_parallel_connect_interrupt
 ms.topic: ioctl
+f1_keywords:
+ - "parallel/IOCTL_INTERNAL_PARALLEL_CONNECT_INTERRUPT"
 req.header: parallel.h
 req.include-header: Parallel.h
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: c6dc14a5-59de-42dd-9e45-99f632bf6a57
 ms.date: 05/02/2018
 ms.keywords: RILDMCONFIGINFOTYPE, RILDMCONFIGINFOTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_DMCV_TYPE_BOOLEAN, RIL_DMCV_TYPE_DWORD, RIL_DMCV_TYPE_MAX, RIL_DMCV_TYPE_STRING, netvista.rildmconfiginfotype, ntddrilapitypes/RILDMCONFIGINFOTYPE, ntddrilapitypes/RIL_DMCV_TYPE_BOOLEAN, ntddrilapitypes/RIL_DMCV_TYPE_DWORD, ntddrilapitypes/RIL_DMCV_TYPE_MAX, ntddrilapitypes/RIL_DMCV_TYPE_STRING
 ms.topic: enum
+f1_keywords:
+ - "rilapitypes/RILDMCONFIGINFOTYPE"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

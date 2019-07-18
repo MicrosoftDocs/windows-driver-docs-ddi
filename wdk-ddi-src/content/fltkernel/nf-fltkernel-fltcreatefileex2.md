@@ -8,6 +8,8 @@ ms.assetid: e662472d-4d72-449e-91d7-119bd59e0943
 ms.date: 04/26/2019
 ms.keywords: FltApiRef_a_to_d_21436e16-822a-4250-abac-10346593435f.xml, FltCreateFileEx2, FltCreateFileEx2 routine [Installable File System Drivers], fltkernel/FltCreateFileEx2, ifsk.fltcreatefileex2
 ms.topic: function
+f1_keywords:
+ - "fltkernel/FltCreateFileEx2"
 req.header: fltkernel.h
 req.include-header: FltKernel.h
 req.target-type: Universal

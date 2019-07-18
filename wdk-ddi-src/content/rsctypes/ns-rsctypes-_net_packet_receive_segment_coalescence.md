@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 6385d38a-1731-4dc3-81db-d61bca59621e
 ms.date: 01/30/2019
 ms.topic: struct
+f1_keywords:
+ - "rsctypes/RILWRITEPHONEBOOKENTRYPARAMS"
 ms.keywords: _NET_PACKET_RECEIVE_SEGMENT_COALESCENCE, NET_PACKET_RECEIVE_SEGMENT_COALESCENCE, 
 req.header: rsctypes.h
 req.include-header: netadaptercx.h

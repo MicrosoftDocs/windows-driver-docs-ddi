@@ -8,6 +8,8 @@ ms.assetid: 389f0776-1010-4f3c-b5c5-b8807ff07130
 ms.date: 04/30/2018
 ms.keywords: IoSizeofWorkItem, IoSizeofWorkItem routine [Kernel-Mode Driver Architecture], k104_9f2b3349-cd46-48ec-bcff-10e91bd522b5.xml, kernel.iosizeofworkitem, wdm/IoSizeofWorkItem
 ms.topic: function
+f1_keywords:
+ - "wdm/IoSizeofWorkItem"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

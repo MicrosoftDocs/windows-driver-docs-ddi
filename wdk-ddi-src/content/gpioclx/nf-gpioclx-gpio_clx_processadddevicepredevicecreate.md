@@ -8,6 +8,8 @@ ms.assetid: 8492CCCB-2BA9-419D-A22F-DE06D08D4CC7
 ms.date: 02/15/2018
 ms.keywords: GPIO.gpio_clx_processadddevicepredevicecreate, GPIO_CLX_ProcessAddDevicePreDeviceCreate, GPIO_CLX_ProcessAddDevicePreDeviceCreate method [Parallel Ports], gpioclx/GPIO_CLX_ProcessAddDevicePreDeviceCreate
 ms.topic: function
+f1_keywords:
+ - "gpioclx/GPIO_CLX_ProcessAddDevicePreDeviceCreate"
 req.header: gpioclx.h
 req.include-header: 
 req.target-type: Universal

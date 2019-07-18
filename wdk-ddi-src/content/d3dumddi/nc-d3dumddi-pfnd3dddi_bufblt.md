@@ -8,6 +8,8 @@ ms.assetid: d75f3fad-3bcd-44ad-9bd5-f61f5346cf8d
 ms.date: 05/10/2018
 ms.keywords: BufBlt, BufBlt callback function [Display Devices], PFND3DDDI_BUFBLT, PFND3DDDI_BUFBLT callback, UserModeDisplayDriver_Functions_87f3469d-cae9-43e7-a0ae-d19bef34314e.xml, d3dumddi/BufBlt, display.bufblt
 ms.topic: callback
+f1_keywords:
+ - "d3dumddi/BufBlt"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop

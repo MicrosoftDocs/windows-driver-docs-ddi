@@ -5,6 +5,8 @@ description: Header structure which contains the common fields used to describe 
 ms.assetid: c8f81ba7-adda-457d-bda5-8a84303df060
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "dispmprt/_DXGK_DIAGNOSTIC_HEADER"
 ms.keywords: _DXGK_DIAGNOSTIC_HEADER, DXGK_DIAGNOSTIC_HEADER, *IN_PDXGK_DIAGNOSTIC_HEADER
 req.header: dispmprt.h
 req.include-header:

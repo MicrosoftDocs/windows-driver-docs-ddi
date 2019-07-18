@@ -8,6 +8,8 @@ ms.assetid: 1a166876-88b9-484d-bceb-0446875185cc
 ms.date: 02/24/2018
 ms.keywords: "*PPCI_DEVICE_PRESENT_INTERFACE, PCI.pci_device_present_interface, PCI_DEVICE_PRESENT_INTERFACE, PCI_DEVICE_PRESENT_INTERFACE structure [Buses], _PCI_DEVICE_PRESENT_INTERFACE, wdm/"
 ms.topic: struct
+f1_keywords:
+ - "wdm/PCI_DEVICE_PRESENT_INTERFACE"
 req.header: wdm.h
 req.include-header:
 req.target-type: Windows

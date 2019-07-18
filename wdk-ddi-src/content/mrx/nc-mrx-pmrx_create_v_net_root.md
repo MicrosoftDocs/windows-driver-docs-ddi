@@ -8,6 +8,8 @@ ms.assetid: 8cd5aa01-c814-4737-9088-0361e6ee9a61
 ms.date: 04/16/2018
 ms.keywords: MRxCreateVNetRoot, MRxCreateVNetRoot routine [Installable File System Drivers], PMRX_CREATE_V_NET_ROOT, ifsk.mrxcreatevnetroot, mrx/MRxCreateVNetRoot, mrxref_8d77acec-f7a5-40c6-8543-421c5c1f79f5.xml
 ms.topic: callback
+f1_keywords:
+ - "mrx/MRxCreateVNetRoot"
 req.header: mrx.h
 req.include-header: Mrx.h
 req.target-type: Desktop

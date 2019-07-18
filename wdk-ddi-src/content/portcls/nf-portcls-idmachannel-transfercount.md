@@ -6,6 +6,8 @@ tech.root: audio
 ms.assetid: 2d008277-36b1-4c66-8b70-5500ed7dc81f
 ms.date: 10/31/2018
 ms.topic: method
+f1_keywords:
+ - "portcls/IDmaChannel.TransferCount"
 ms.keywords: IDmaChannel::TransferCount, TransferCount, IDmaChannel.TransferCount, IDmaChannel::TransferCount, IDmaChannel.TransferCount
 req.header: portcls.h
 req.include-header:

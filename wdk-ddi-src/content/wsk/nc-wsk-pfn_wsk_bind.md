@@ -8,6 +8,8 @@ ms.assetid: 520b02d0-a078-4af9-93a3-4fee5bbfee99
 ms.date: 05/02/2018
 ms.keywords: PFN_WSK_BIND, PFN_WSK_BIND callback, WskBind, WskBind callback function [Network Drivers Starting with Windows Vista], netvista.wskbind, wsk/WskBind, wskref_5d411257-ce57-4331-913a-c195e71a1138.xml
 ms.topic: callback
+f1_keywords:
+ - "wsk/WskBind"
 req.header: wsk.h
 req.include-header: Wsk.h
 req.target-type: Universal

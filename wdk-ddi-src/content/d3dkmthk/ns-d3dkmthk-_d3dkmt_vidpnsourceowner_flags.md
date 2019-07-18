@@ -7,6 +7,8 @@ ms.assetid: acc4e9d9-235f-4605-ae51-5056108843dc
 ms.date: 05/10/2018
 ms.keywords: D3DKMT_VIDPNSOURCEOWNER_FLAGS, D3DKMT_VIDPNSOURCEOWNER_FLAGS structure [Display Devices], _D3DKMT_VIDPNSOURCEOWNER_FLAGS, d3dkmthk/D3DKMT_VIDPNSOURCEOWNER_FLAGS, display.d3dkmt_vidpnsourceowner_flags
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/D3DKMT_VIDPNSOURCEOWNER_FLAGS"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

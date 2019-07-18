@@ -8,6 +8,8 @@ ms.assetid: 750018fb-6f53-4c75-803b-421c73537446
 ms.date: 02/15/2018
 ms.keywords: IPortableDeviceValues interface,SetIPortableDeviceValuesCollectionValue method, IPortableDeviceValues.SetIPortableDeviceValuesCollectionValue, IPortableDeviceValues::SetIPortableDeviceValuesCollectionValue, IPortableDeviceValuesSetIPortableDeviceValuesCollectionValue, SetIPortableDeviceValuesCollectionValue, SetIPortableDeviceValuesCollectionValue method, SetIPortableDeviceValuesCollectionValue method,IPortableDeviceValues interface, portabledevicetypes/IPortableDeviceValues::SetIPortableDeviceValuesCollectionValue, wpddk.iportabledevicevalues_setiportabledevicevaluescollectionvalue
 ms.topic: method
+f1_keywords:
+ - "portabledevicetypes/IPortableDeviceValues.SetIPortableDeviceValuesCollectionValue"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows

@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: d5761ef2-3e9b-4fb5-86df-4db9563e2e65
 ms.date: 08/01/2018
 ms.topic: function
+f1_keywords:
+ - "netadapter/NetAdapterInitSetNetPowerSettingsAttributes"
 ms.keywords: NetAdapterInitSetNetPowerSettingsAttributes
 req.header: netadapter.h
 req.include-header:

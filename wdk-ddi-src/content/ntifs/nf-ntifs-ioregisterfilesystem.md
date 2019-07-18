@@ -8,6 +8,8 @@ ms.assetid: 19d53afd-b63c-4fd3-9b08-c51e2a1247af
 ms.date: 04/16/2018
 ms.keywords: IoRegisterFileSystem, IoRegisterFileSystem routine [Installable File System Drivers], ifsk.ioregisterfilesystem, ioref_42200300-9ef6-4be9-8fee-bf42b027a809.xml, ntifs/IoRegisterFileSystem
 ms.topic: function
+f1_keywords:
+ - "ntifs/IoRegisterFileSystem"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

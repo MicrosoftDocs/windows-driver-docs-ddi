@@ -8,6 +8,8 @@ ms.assetid: 16bde6b6-6e05-4a4d-a0c3-79bb811305d1
 ms.date: 04/30/2018
 ms.keywords: NtDeleteKey, ZwDeleteKey, ZwDeleteKey routine [Kernel-Mode Driver Architecture], k111_b55bc28e-3539-424e-86b5-f7457e90cc61.xml, kernel.zwdeletekey, wdm/NtDeleteKey, wdm/ZwDeleteKey
 ms.topic: function
+f1_keywords:
+ - "wdm/ZwDeleteKey"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

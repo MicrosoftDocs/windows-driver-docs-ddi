@@ -8,6 +8,8 @@ ms.assetid: b3bfd54d-9fd2-401a-b01d-32983f0a6021
 ms.date: 05/30/2019
 ms.keywords: IoCheckQuerySetVolumeInformation, IoCheckQuerySetVolumeInformation function [Installable File System Drivers], ifsk.iocheckquerysetvolumeinformation, ioref_67d57dbb-a3b0-4f78-9454-36c8b04e515c.xml, ntifs/IoCheckQuerySetVolumeInformation
 ms.topic: function
+f1_keywords:
+ - "ntifs/IoCheckQuerySetVolumeInformation"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows

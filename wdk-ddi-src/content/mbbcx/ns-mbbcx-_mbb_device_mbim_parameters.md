@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 814daf06-b7f3-4cee-8b74-8b0a13a6292a
 ms.date: 02/06/2019
 ms.topic: struct
+f1_keywords:
+ - "mbbcx/-	_MBB_DEVICE_MBIM_PARAMETERS"
 ms.keywords: _MBB_DEVICE_MBIM_PARAMETERS, MBB_DEVICE_MBIM_PARAMETERS, *PMBB_DEVICE_MBIM_PARAMETERS, 
 req.header: mbbcx.h
 req.include-header:

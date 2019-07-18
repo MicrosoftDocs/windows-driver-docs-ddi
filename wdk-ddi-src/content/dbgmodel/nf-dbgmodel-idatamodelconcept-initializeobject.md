@@ -5,6 +5,8 @@ description: A data model can be registered as the canonical visualizer or as an
 ms.assetid: 39dd2497-1650-4bf4-9aa1-71ed154182ba
 ms.date: 09/11/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDataModelConcept.InitializeObject"
 ms.keywords: IDataModelConcept::InitializeObject, InitializeObject, IDataModelConcept.InitializeObject, IDataModelConcept::InitializeObject, IDataModelConcept.InitializeObject
 req.header: dbgmodel.h
 req.include-header:

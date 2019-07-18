@@ -8,6 +8,8 @@ ms.assetid: 85252A53-E653-4D14-B1FE-72CA9AFA1F10
 ms.date: 04/30/2018
 ms.keywords: VhfDelete, VhfDelete method [Human Input Devices], hid.vhfdelete, vhf/VhfDelete
 ms.topic: function
+f1_keywords:
+ - "vhf/VhfDelete"
 req.header: vhf.h
 req.include-header: 
 req.target-type: Windows

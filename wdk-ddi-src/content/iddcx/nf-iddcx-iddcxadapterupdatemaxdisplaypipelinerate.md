@@ -8,6 +8,8 @@ ms.assetid: 5d8e6b87-6cfd-48ec-ac38-a75cb94cf5ac
 ms.date: 05/10/2018
 ms.keywords: IddCxAdapterUpdateMaxDisplayPipelineRate, IddCxAdapterUpdateMaxDisplayPipelineRate method [Display Devices], display.iddcxadapterupdatemaxdisplaypipelinerate, iddcx/IddCxAdapterUpdateMaxDisplayPipelineRate
 ms.topic: function
+f1_keywords:
+ - "iddcx/IddCxAdapterUpdateMaxDisplayPipelineRate"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows

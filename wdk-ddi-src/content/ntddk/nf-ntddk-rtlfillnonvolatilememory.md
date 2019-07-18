@@ -8,6 +8,8 @@ ms.assetid: 4126cd43-dfd3-4d78-ba6c-192ece10aa2d
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: function
+f1_keywords:
+ - "ntddk/RtlFillNonVolatileMemory"
 ms.keywords: RtlFillNonVolatileMemory
 req.header: ntddk.h
 req.include-header:

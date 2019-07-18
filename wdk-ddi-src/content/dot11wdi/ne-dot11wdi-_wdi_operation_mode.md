@@ -8,6 +8,8 @@ ms.assetid: 9838eeb9-6bd6-46a5-9361-6af3aa2d3014
 ms.date: 05/02/2018
 ms.keywords: WDI_OPERATION_MODE, WDI_OPERATION_MODE enumeration [Network Drivers Starting with Windows Vista], WDI_OPERATION_MODE_P2P_CLIENT, WDI_OPERATION_MODE_P2P_DEVICE, WDI_OPERATION_MODE_P2P_GO, WDI_OPERATION_MODE_STA, _WDI_OPERATION_MODE, dot11wdi/WDI_OPERATION_MODE, dot11wdi/WDI_OPERATION_MODE_P2P_CLIENT, dot11wdi/WDI_OPERATION_MODE_P2P_DEVICE, dot11wdi/WDI_OPERATION_MODE_P2P_GO, dot11wdi/WDI_OPERATION_MODE_STA, netvista.wdi_operation_mode, netvista.wifi_operation_mode
 ms.topic: enum
+f1_keywords:
+ - "dot11wdi/WDI_OPERATION_MODE"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows

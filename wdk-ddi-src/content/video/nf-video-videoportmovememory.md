@@ -8,6 +8,8 @@ ms.assetid: 32b754ef-2a85-4ba7-9d4f-3c2de2501319
 ms.date: 05/10/2018
 ms.keywords: VideoPortMoveMemory, VideoPortMoveMemory function [Display Devices], VideoPort_Functions_ab574585-85be-48ea-9713-25867812699a.xml, display.videoportmovememory, video/VideoPortMoveMemory
 ms.topic: function
+f1_keywords:
+ - "video/VideoPortMoveMemory"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

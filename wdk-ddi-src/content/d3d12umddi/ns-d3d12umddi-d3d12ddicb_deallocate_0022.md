@@ -7,6 +7,8 @@ ms.assetid: 977868D1-02E1-4460-9194-2079B986045E
 ms.date: 05/10/2018
 ms.keywords: D3D12DDICB_DEALLOCATE_0022, D3D12DDICB_DEALLOCATE_0022 structure [Display Devices], d3d12umddi/D3D12DDICB_DEALLOCATE_0022, display.d3d12ddicb_deallocate_0022
 ms.topic: struct
+f1_keywords:
+ - "d3d12umddi/D3D12DDICB_DEALLOCATE_0022"
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows

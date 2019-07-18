@@ -8,6 +8,8 @@ ms.assetid: 3EC72857-2880-4F03-8CC3-9B9A80F19273
 ms.date: 04/30/2018
 ms.keywords: RtlSizeTMult, RtlSizeTMult function [Kernel-Mode Driver Architecture], kernel.rtlsizetmult, ntintsafe/RtlSizeTMult
 ms.topic: function
+f1_keywords:
+ - "ntintsafe/RtlSizeTMult"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop

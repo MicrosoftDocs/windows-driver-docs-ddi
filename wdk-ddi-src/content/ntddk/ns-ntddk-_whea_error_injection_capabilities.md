@@ -8,6 +8,8 @@ ms.assetid: 77f982e4-6f35-4d4a-9c00-9ae34eacfbd3
 ms.date: 02/20/2018
 ms.keywords: "*PWHEA_ERROR_INJECTION_CAPABILITIES, PWHEA_ERROR_INJECTION_CAPABILITIES, PWHEA_ERROR_INJECTION_CAPABILITIES union pointer [WHEA Drivers and Applications], WHEA_ERROR_INJECTION_CAPABILITIES, WHEA_ERROR_INJECTION_CAPABILITIES union [WHEA Drivers and Applications], _WHEA_ERROR_INJECTION_CAPABILITIES, ntddk/PWHEA_ERROR_INJECTION_CAPABILITIES, ntddk/WHEA_ERROR_INJECTION_CAPABILITIES, whea.whea_error_injection_capabilities, whearef_f040c2a7-cded-4903-a19c-c1163870c010.xml"
 ms.topic: struct
+f1_keywords:
+ - "ntddk/WHEA_ERROR_INJECTION_CAPABILITIES"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Windows

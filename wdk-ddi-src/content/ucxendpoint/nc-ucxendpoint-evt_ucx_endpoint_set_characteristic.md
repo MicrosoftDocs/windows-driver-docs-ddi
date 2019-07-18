@@ -8,6 +8,8 @@ ms.assetid: 4FA3F175-52E4-472D-A9B3-B3B4B37E1701
 ms.date: 05/07/2018
 ms.keywords: EVT_UCX_ENDPOINT_SET_CHARACTERISTIC, EVT_UCX_ENDPOINT_SET_CHARACTERISTIC callback, EvtUcxEndpointSetCharacteristic, EvtUcxEndpointSetCharacteristic callback function [Buses], buses.evt_ucx_endpoint_set_characteristic, ucxendpoint/EvtUcxEndpointSetCharacteristic
 ms.topic: callback
+f1_keywords:
+ - "ucxendpoint/EvtUcxEndpointSetCharacteristic"
 req.header: ucxendpoint.h
 req.include-header: Ucxclass.h
 req.target-type: Windows

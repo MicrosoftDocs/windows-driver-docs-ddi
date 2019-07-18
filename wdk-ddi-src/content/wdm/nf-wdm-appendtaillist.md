@@ -8,6 +8,8 @@ ms.assetid: A7C7FBE5-9046-48C7-AEE6-85C17CDE83AD
 ms.date: 04/30/2018
 ms.keywords: AppendTailList, AppendTailList routine [Kernel-Mode Driver Architecture], kernel.appendtaillist, wdm/AppendTailList
 ms.topic: function
+f1_keywords:
+ - "wdm/AppendTailList"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Wudfwdm.h
 req.target-type: Desktop

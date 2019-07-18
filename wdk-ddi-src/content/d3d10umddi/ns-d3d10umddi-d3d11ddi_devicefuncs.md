@@ -7,6 +7,8 @@ ms.assetid: fabd77b9-2a2e-4995-a99f-50b46806e312
 ms.date: 05/10/2018
 ms.keywords: D3D11DDI_DEVICEFUNCS, D3D11DDI_DEVICEFUNCS structure [Display Devices], UMDisplayDriver_Dx11param_Structs_f91ec9c6-5d1b-49ab-8a92-21028de8e10b.xml, d3d10umddi/D3D11DDI_DEVICEFUNCS, display.d3d11ddi_devicefuncs
 ms.topic: struct
+f1_keywords:
+ - "d3d10umddi/D3D11DDI_DEVICEFUNCS"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows

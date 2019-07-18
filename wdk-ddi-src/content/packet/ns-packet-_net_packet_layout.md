@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 71300205-2332-4127-8622-86390FE54BBD
 ms.date: 01/30/2019
 ms.topic: struct
+f1_keywords:
+ - "packet/RegisterOpRegionHandler"
 ms.keywords: _NET_PACKET_LAYOUT, NET_PACKET_LAYOUT, *PNET_PACKET_LAYOUT, _NET_PACKET_LAYER2_TYPE, NET_PACKET_LAYER2_TYPE, _NET_PACKET_LAYER3_TYPE, NET_PACKET_LAYER3_TYPE, _NET_PACKET_LAYER4_TYPE, NET_PACKET_LAYER4_TYPE
 req.header: packet.h
 req.include-header:

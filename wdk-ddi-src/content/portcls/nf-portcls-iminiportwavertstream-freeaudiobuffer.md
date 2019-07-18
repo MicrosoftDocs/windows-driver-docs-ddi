@@ -6,6 +6,8 @@ tech.root: audio
 ms.assetid: ba0f4d00-cc63-4dbd-bfb1-5d90bec6a6bd
 ms.date: 10/31/2018
 ms.topic: method
+f1_keywords:
+ - "portcls/IMiniportWaveRTStream.FreeAudioBuffer"
 ms.keywords: IMiniportWaveRTStream::FreeAudioBuffer, FreeAudioBuffer, IMiniportWaveRTStream.FreeAudioBuffer, IMiniportWaveRTStream::FreeAudioBuffer, IMiniportWaveRTStream.FreeAudioBuffer
 req.header: portcls.h
 req.include-header:

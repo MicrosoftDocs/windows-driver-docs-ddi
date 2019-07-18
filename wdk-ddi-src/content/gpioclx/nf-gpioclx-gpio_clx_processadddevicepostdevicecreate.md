@@ -8,6 +8,8 @@ ms.assetid: 4B88820F-32B9-4AA2-867A-316A3796BE86
 ms.date: 02/15/2018
 ms.keywords: GPIO.gpio_clx_processadddevicepostdevicecreate, GPIO_CLX_ProcessAddDevicePostDeviceCreate, GPIO_CLX_ProcessAddDevicePostDeviceCreate method [Parallel Ports], gpioclx/GPIO_CLX_ProcessAddDevicePostDeviceCreate
 ms.topic: function
+f1_keywords:
+ - "gpioclx/GPIO_CLX_ProcessAddDevicePostDeviceCreate"
 req.header: gpioclx.h
 req.include-header: 
 req.target-type: Universal

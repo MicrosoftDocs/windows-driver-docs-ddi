@@ -8,6 +8,8 @@ ms.assetid: 9b631fc8-da91-4d04-b84f-b9c40497db55
 ms.author: windowsdriverdev
 ms.date: 3/5/2019
 ms.topic: function
+f1_keywords:
+ - "ntddk/WheaRemoveErrorSourceDeviceDriver"
 ms.keywords: WheaRemoveErrorSourceDeviceDriver
 req.header: ntddk.h
 req.include-header:

@@ -8,6 +8,8 @@ ms.assetid: 9677C044-354B-4575-B2EC-187D1B4E8C61
 ms.date: 03/29/2018
 ms.keywords: "*PSTOR_UNIT_ATTRIBUTES, PSTOR_UNIT_ATTRIBUTES, PSTOR_UNIT_ATTRIBUTES structure pointer [Storage Devices], STOR_UNIT_ATTRIBUTES, STOR_UNIT_ATTRIBUTES structure [Storage Devices], _STOR_UNIT_ATTRIBUTES, storage.stor_unit_attributes, storport/PSTOR_UNIT_ATTRIBUTES, storport/STOR_UNIT_ATTRIBUTES"
 ms.topic: struct
+f1_keywords:
+ - "storport/STOR_UNIT_ATTRIBUTES"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: 9f37d9e7-ae8b-448e-a535-f34b01c2bf8a
 ms.date: 05/02/2018
 ms.keywords: "*PNDIS_SRIOV_PROBED_BARS_INFO, NDIS_SRIOV_PROBED_BARS_INFO, NDIS_SRIOV_PROBED_BARS_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_SRIOV_PROBED_BARS_INFO, PNDIS_SRIOV_PROBED_BARS_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SRIOV_PROBED_BARS_INFO, netvista.ndis_sriov_probed_bars_info, ntddndis/NDIS_SRIOV_PROBED_BARS_INFO, ntddndis/PNDIS_SRIOV_PROBED_BARS_INFO"
 ms.topic: struct
+f1_keywords:
+ - "ntddndis/NDIS_SRIOV_PROBED_BARS_INFO"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

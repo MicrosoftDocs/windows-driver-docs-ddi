@@ -8,6 +8,8 @@ ms.assetid: fcddc83d-5fb1-43ad-9abd-8d5e2549b580
 ms.date: 05/03/2018
 ms.keywords: image.wiasdebugerror, wiamdef/wiasDebugError, wiasDebugError, wiasDebugError function [Imaging Devices], wiasFncs_0ccba388-a6ca-42b9-acd5-720b6763a202.xml
 ms.topic: function
+f1_keywords:
+ - "wiamdef/wiasDebugError"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop

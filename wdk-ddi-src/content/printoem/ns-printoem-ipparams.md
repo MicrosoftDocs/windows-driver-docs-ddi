@@ -8,6 +8,8 @@ ms.assetid: 14ed4180-9ac1-46dd-af76-8d79a2a1fd2d
 ms.date: 04/20/2018
 ms.keywords: "*PIPPARAMS, IPPARAMS, IPPARAMS structure [Print Devices], PIPPARAMS, PIPPARAMS structure pointer [Print Devices], print.ipparams, print_unidrv-pscript_rendering_a002bc49-f3de-4147-bb33-8766672c8d0c.xml, printoem/IPPARAMS, printoem/PIPPARAMS"
 ms.topic: struct
+f1_keywords:
+ - "printoem/IPPARAMS"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows

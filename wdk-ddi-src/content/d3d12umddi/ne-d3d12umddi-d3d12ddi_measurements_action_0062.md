@@ -8,6 +8,8 @@ ms.assetid: 24a8c14d-4202-4804-a679-bb9674873dd5
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
 ms.topic: enum
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_MEASUREMENTS_ACTION_0062"
 ms.keywords: D3D12DDI_MEASUREMENTS_ACTION_0062, D3D12DDI_MEASUREMENTS_ACTION_0062, 
 req.header: d3d12umddi.h
 req.include-header:

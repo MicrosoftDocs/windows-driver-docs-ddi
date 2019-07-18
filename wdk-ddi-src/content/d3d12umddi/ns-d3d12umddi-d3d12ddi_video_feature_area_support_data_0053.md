@@ -5,6 +5,8 @@ description: The data used in the video capability check for feature area suppor
 ms.assetid: 5c1ad079-62fd-41cd-95d5-58b22985a808
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_VIDEO_FEATURE_AREA_SUPPORT_DATA_0053"
 ms.keywords: D3D12DDI_VIDEO_FEATURE_AREA_SUPPORT_DATA_0053, D3D12DDI_VIDEO_FEATURE_AREA_SUPPORT_DATA_0053, 
 req.header: d3d12umddi.h
 req.include-header:

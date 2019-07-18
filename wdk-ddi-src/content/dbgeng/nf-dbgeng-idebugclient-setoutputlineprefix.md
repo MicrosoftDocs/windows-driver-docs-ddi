@@ -8,6 +8,8 @@ ms.assetid: 59A3FD7D-153D-4580-84C1-2408A485F684
 ms.date: 05/03/2018
 ms.keywords: IDebugClient interface [Windows Debugging],SetOutputLinePrefix method, IDebugClient.SetOutputLinePrefix, IDebugClient::SetOutputLinePrefix, SetOutputLinePrefix, SetOutputLinePrefix method [Windows Debugging], SetOutputLinePrefix method [Windows Debugging],IDebugClient interface, dbgeng/IDebugClient::SetOutputLinePrefix, debugger.idebugclient_setoutputlineprefix
 ms.topic: method
+f1_keywords:
+ - "dbgeng/IDebugClient.SetOutputLinePrefix"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

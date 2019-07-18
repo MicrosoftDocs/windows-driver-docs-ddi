@@ -7,6 +7,8 @@ ms.assetid: 8DFD307F-DD4E-4321-AD97-78A5D67687B0
 ms.date: 05/10/2018
 ms.keywords: DXGK_QUERYGPUMMUCAPSIN, DXGK_QUERYGPUMMUCAPSIN structure [Display Devices], _DXGK_QUERYGPUMMUCAPSIN, d3dkmddi/DXGK_QUERYGPUMMUCAPSIN, display.dxgk_querygpummucapsin
 ms.topic: struct
+f1_keywords:
+ - "d3dkmddi/DXGK_QUERYGPUMMUCAPSIN"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

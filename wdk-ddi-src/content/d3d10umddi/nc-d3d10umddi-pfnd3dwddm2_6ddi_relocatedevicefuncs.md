@@ -8,6 +8,8 @@ ms.assetid: 8ae919bf-d9fb-43ec-8895-a83320309d46
 ms.author: windowsdriverdev
 ms.date: 04/04/19
 ms.topic: callback
+f1_keywords:
+ - "d3d10umddi/PFND3DWDDM2_6DDI_RELOCATEDEVICEFUNCS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 req.header: d3d10umddi.h

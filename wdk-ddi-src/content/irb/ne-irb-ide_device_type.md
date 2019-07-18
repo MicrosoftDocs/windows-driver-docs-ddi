@@ -8,6 +8,8 @@ ms.assetid: 6d94189f-d6ab-40ad-85e5-f4efe8c30ed8
 ms.date: 03/29/2018
 ms.keywords: DeviceIsAta, DeviceIsAtapi, DeviceNotExist, DeviceUnknown, IDE_DEVICE_TYPE, IDE_DEVICE_TYPE enumeration [Storage Devices], irb/DeviceIsAta, irb/DeviceIsAtapi, irb/DeviceNotExist, irb/DeviceUnknown, irb/IDE_DEVICE_TYPE, storage.ide_device_type, structs-ATA_ebe5b232-fdb1-4be8-ada6-54e2dc3d09a8.xml
 ms.topic: enum
+f1_keywords:
+ - "irb/IDE_DEVICE_TYPE"
 req.header: irb.h
 req.include-header: Irb.h
 req.target-type: Windows

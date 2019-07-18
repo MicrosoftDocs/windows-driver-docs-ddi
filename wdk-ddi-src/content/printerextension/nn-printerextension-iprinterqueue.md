@@ -8,6 +8,8 @@ ms.assetid: 2DB57234-E783-4C6B-A743-F1E9F7D34D97
 ms.date: 04/20/2018
 ms.keywords: IPrinterQueue, IPrinterQueue interface [Print Devices], IPrinterQueue interface [Print Devices],described, print.iprinterqueue_interface, printerextension/IPrinterQueue
 ms.topic: interface
+f1_keywords:
+ - "printerextension/IPrinterQueue"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows

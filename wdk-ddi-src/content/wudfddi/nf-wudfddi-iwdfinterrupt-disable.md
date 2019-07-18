@@ -8,6 +8,8 @@ ms.assetid: D87C868D-9538-4752-AEBD-2A15E53628CF
 ms.date: 02/26/2018
 ms.keywords: Disable, Disable method, Disable method,IWDFInterrupt interface, IWDFInterrupt interface,Disable method, IWDFInterrupt.Disable, IWDFInterrupt::Disable, umdf.iwdfinterrupt_disable, wdf.iwdfinterrupt_disable, wudfddi/IWDFInterrupt::Disable
 ms.topic: method
+f1_keywords:
+ - "wudfddi/IWDFInterrupt.Disable"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Desktop

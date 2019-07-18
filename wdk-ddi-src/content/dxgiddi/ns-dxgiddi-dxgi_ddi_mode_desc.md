@@ -8,6 +8,8 @@ ms.assetid: 9924f914-2812-4953-85d1-9c777404418b
 ms.date: 05/10/2018
 ms.keywords: DXGI_DDI_MODE_DESC, DXGI_DDI_MODE_DESC structure [Display Devices], UMDisplayDriver_Dx10param_Structs_3687fd3c-7423-47bf-a376-a13b820ee787.xml, display.dxgi_ddi_mode_desc, dxgiddi/DXGI_DDI_MODE_DESC
 ms.topic: struct
+f1_keywords:
+ - "dxgiddi/DXGI_DDI_MODE_DESC"
 req.header: dxgiddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows

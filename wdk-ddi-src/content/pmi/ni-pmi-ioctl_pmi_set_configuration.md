@@ -8,6 +8,8 @@ ms.assetid: c8eff87f-b8af-4876-9327-545eeff958c3
 ms.date: 05/08/2018
 ms.keywords: IOCTL_PMI_SET_CONFIGURATION, IOCTL_PMI_SET_CONFIGURATION control, IOCTL_PMI_SET_CONFIGURATION control code [Power Metering and Budgeting Devices], PowerMeterRef_6bfb518f-962c-48c1-b94e-711679fd8057.xml, pmi/IOCTL_PMI_SET_CONFIGURATION, powermeter.ioctl_pmi_set_configuration
 ms.topic: ioctl
+f1_keywords:
+ - "pmi/IOCTL_PMI_SET_CONFIGURATION"
 req.header: pmi.h
 req.include-header: Pmi.h
 req.target-type: Windows

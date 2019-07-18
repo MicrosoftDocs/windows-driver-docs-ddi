@@ -5,6 +5,8 @@ description: The GetContextForDataModel method is used to retrieve context infor
 ms.assetid: ee97f69a-f378-47d6-9633-3b0e5bef6451
 ms.date: 08/09/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IModelObject.GetContextForDataModel"
 ms.keywords: IModelObject::GetContextForDataModel, GetContextForDataModel, IModelObject.GetContextForDataModel, IModelObject::GetContextForDataModel, IModelObject.GetContextForDataModel
 req.header: dbgmodel.h
 req.include-header:

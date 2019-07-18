@@ -8,6 +8,8 @@ ms.assetid: b14a4816-2e72-491d-9881-ae532c287e99
 ms.date: 04/23/2018
 ms.keywords: KsReleaseDeviceSecurityLock, KsReleaseDeviceSecurityLock function [Streaming Media Devices], ks/KsReleaseDeviceSecurityLock, ksfunc_4f6e594d-1f06-4741-89f2-d153db3a63e7.xml, stream.ksreleasedevicesecuritylock
 ms.topic: function
+f1_keywords:
+ - "ks/KsReleaseDeviceSecurityLock"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

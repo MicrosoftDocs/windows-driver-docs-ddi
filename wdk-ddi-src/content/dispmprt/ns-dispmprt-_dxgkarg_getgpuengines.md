@@ -8,6 +8,8 @@ ms.assetid: 538f2d95-adcc-4b3a-be4b-3a5fbc83f04d
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
 ms.topic: struct
+f1_keywords:
+ - "dispmprt/_DXGKARG_GETGPUENGINES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.keywords: _DXGKARG_GETGPUENGINES, DXGKARG_GETGPUENGINES, *PDXGKARG_GETGPUENGINES, 

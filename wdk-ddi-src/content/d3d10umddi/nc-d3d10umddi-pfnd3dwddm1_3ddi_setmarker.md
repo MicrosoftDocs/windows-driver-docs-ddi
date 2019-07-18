@@ -7,6 +7,8 @@ ms.assetid: BE618B0C-18E7-4B2B-87EB-172DAD9BCE15
 ms.date: 05/10/2018
 ms.keywords: PFND3DWDDM1_3DDI_SETMARKER, PFND3DWDDM1_3DDI_SETMARKER callback, SetMarker, SetMarker callback function [Display Devices], d3d10umddi/SetMarker, display.setmarker
 ms.topic: callback
+f1_keywords:
+ - "d3d10umddi/SetMarker"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

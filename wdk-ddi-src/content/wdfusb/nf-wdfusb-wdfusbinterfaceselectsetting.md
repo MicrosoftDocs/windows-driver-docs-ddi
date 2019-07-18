@@ -8,6 +8,8 @@ ms.assetid: 398b7649-152e-4fed-b633-16627dadf0f8
 ms.date: 02/26/2018
 ms.keywords: DFUsbRef_256e9b5d-8e9b-4935-9dc9-38a6071258a6.xml, WdfUsbInterfaceSelectSetting, WdfUsbInterfaceSelectSetting method, kmdf.wdfusbinterfaceselectsetting, wdf.wdfusbinterfaceselectsetting, wdfusb/WdfUsbInterfaceSelectSetting
 ms.topic: function
+f1_keywords:
+ - "wdfusb/WdfUsbInterfaceSelectSetting"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal

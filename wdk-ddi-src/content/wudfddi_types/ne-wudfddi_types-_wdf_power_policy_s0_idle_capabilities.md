@@ -8,6 +8,8 @@ ms.assetid: b4a3611d-5eb6-4fb2-a66a-e563569c4790
 ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_42de97ef-91c2-44e1-9b69-fe92ca5b0edc.xml, IdleCanWakeFromS0, IdleCannotWakeFromS0, IdleCapsInvalid, IdleUsbSelectiveSuspend, WDF_POWER_POLICY_S0_IDLE_CAPABILITIES, WDF_POWER_POLICY_S0_IDLE_CAPABILITIES enumeration, _WDF_POWER_POLICY_S0_IDLE_CAPABILITIES, kmdf.wdf_power_policy_s0_idle_capabilities, wdf.wdf_power_policy_s0_idle_capabilities, wdfdevice/IdleCanWakeFromS0, wdfdevice/IdleCannotWakeFromS0, wdfdevice/IdleCapsInvalid, wdfdevice/IdleUsbSelectiveSuspend, wdfdevice/WDF_POWER_POLICY_S0_IDLE_CAPABILITIES, wudfddi_types/IdleCanWakeFromS0, wudfddi_types/IdleCannotWakeFromS0, wudfddi_types/IdleCapsInvalid, wudfddi_types/IdleUsbSelectiveSuspend, wudfddi_types/WDF_POWER_POLICY_S0_IDLE_CAPABILITIES
 ms.topic: enum
+f1_keywords:
+ - "wudfddi_types/WDF_POWER_POLICY_S0_IDLE_CAPABILITIES"
 req.header: wudfddi_types.h
 req.include-header: Wdf.h
 req.target-type: Windows

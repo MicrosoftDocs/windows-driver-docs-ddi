@@ -5,6 +5,8 @@ description: Used to query the registry type.
 ms.assetid: c01641d0-ff58-4e3a-9f2e-e8918c84b4b5
 ms.date: 11/21/2018
 ms.topic: enum
+f1_keywords:
+ - "d3dukmdt/_D3DDDI_QUERYREGISTRY_TYPE"
 ms.keywords: _D3DDDI_QUERYREGISTRY_TYPE, D3DDDI_QUERYREGISTRY_TYPE,
 req.header: d3dukmdt.h
 req.include-header:

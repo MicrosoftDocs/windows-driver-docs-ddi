@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 16ce438f-bcff-4b13-a6f1-fdaf3abc9e27
 ms.date: 05/22/2018
 ms.topic: callback
+f1_keywords:
+ - "vmbuskernelmodeclientlibapi/FN_VMB_PACKET_SEND_WITH_EXTERNAL_MDL"
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header:
 req.target-type:

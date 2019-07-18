@@ -8,6 +8,8 @@ ms.assetid: fb592350-76e2-4655-b6db-854fd48aa827
 ms.date: 04/16/2018
 ms.keywords: "*PFILTER_FULL_INFORMATION, FILTER_FULL_INFORMATION, FILTER_FULL_INFORMATION structure [Installable File System Drivers], FltSystemStructures_e72c2545-4938-4a3e-b3c8-95fd7f46239a.xml, PFILTER_FULL_INFORMATION, PFILTER_FULL_INFORMATION structure pointer [Installable File System Drivers], _FILTER_FULL_INFORMATION, fltuserstructures/FILTER_FULL_INFORMATION, fltuserstructures/PFILTER_FULL_INFORMATION, ifsk.filter_full_information"
 ms.topic: struct
+f1_keywords:
+ - "fltuserstructures/FILTER_FULL_INFORMATION"
 req.header: fltuserstructures.h
 req.include-header: FltUser.h, FltKernel.h
 req.target-type: Windows

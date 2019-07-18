@@ -6,6 +6,8 @@ tech.root: kernel
 ms.assetid: 5da678a5-2619-423d-9749-522a235b3da4
 ms.date: 09/30/2018
 ms.topic: function
+f1_keywords:
+ - "ntddk/RtlQueryRegistryValueWithFallback"
 ms.keywords: RtlQueryRegistryValueWithFallback
 req.header: ntddk.h
 req.include-header: wdm.h

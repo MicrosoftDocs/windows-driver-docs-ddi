@@ -8,6 +8,8 @@ ms.assetid: 2a651a3b-1a5b-4186-9cab-38d9055b8944
 ms.date: 04/20/2018
 ms.keywords: IPartThumbnail, IPartThumbnail interface [Print Devices], IPartThumbnail interface [Print Devices],described, filterpipeline/IPartThumbnail, filterpipeline_56710e0f-b3df-44e6-85a5-bd155284531f.xml, print.ipartthumbnail
 ms.topic: interface
+f1_keywords:
+ - "filterpipeline/IPartThumbnail"
 req.header: filterpipeline.h
 req.include-header: Filterpipeline.h
 req.target-type: Windows

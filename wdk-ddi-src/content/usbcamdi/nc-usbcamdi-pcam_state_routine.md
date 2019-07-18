@@ -8,6 +8,8 @@ ms.assetid: 9a69cace-11cc-4671-9e7c-df510cbdd16d
 ms.date: 04/23/2018
 ms.keywords: CamRestoreState, CamSaveState, MyCamState, MyCamState callback function [Streaming Media Devices], PCAM_STATE_ROUTINE, PCAM_STATE_ROUTINE callback, stream.camrestorestate, usbcamdi/MyCamState, usbcmdpr_74c8ba54-9be6-4512-a498-b49635db1760.xml
 ms.topic: callback
+f1_keywords:
+ - "usbcamdi/MyCamState"
 req.header: usbcamdi.h
 req.include-header: Usbcamdi.h
 req.target-type: Desktop

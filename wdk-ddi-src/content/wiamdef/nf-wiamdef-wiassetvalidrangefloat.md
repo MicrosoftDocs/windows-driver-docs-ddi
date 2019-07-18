@@ -8,6 +8,8 @@ ms.assetid: 66bc5e03-4cc2-4de3-b707-18ff7e0deb4b
 ms.date: 05/03/2018
 ms.keywords: image.wiassetvalidrangefloat, wiamdef/wiasSetValidRangeFloat, wiasFncs_d8eb35e4-e295-43cf-a457-5e6fac3f537d.xml, wiasSetValidRangeFloat, wiasSetValidRangeFloat function [Imaging Devices]
 ms.topic: function
+f1_keywords:
+ - "wiamdef/wiasSetValidRangeFloat"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop

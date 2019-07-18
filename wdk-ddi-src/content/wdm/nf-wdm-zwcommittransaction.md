@@ -8,6 +8,8 @@ ms.assetid: 145646f3-ff90-41d6-bf76-947cdf93b489
 ms.date: 04/30/2018
 ms.keywords: NtCommitTransaction, ZwCommitTransaction, ZwCommitTransaction routine [Kernel-Mode Driver Architecture], kernel.zwcommittransaction, ktm_ref_bb49aa00-dbb3-4533-83c1-1cfc56073d8a.xml, wdm/NtCommitTransaction, wdm/ZwCommitTransaction
 ms.topic: function
+f1_keywords:
+ - "wdm/ZwCommitTransaction"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntifs.h
 req.target-type: Universal

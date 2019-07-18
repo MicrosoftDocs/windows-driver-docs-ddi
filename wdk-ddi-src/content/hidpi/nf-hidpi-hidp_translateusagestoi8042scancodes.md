@@ -8,6 +8,8 @@ ms.assetid: d3ad851d-ba09-4052-a2d0-d6cb8315e04f
 ms.date: 04/30/2018
 ms.keywords: HidP_TranslateUsagesToI8042ScanCodes, HidP_TranslateUsagesToI8042ScanCodes routine [Human Input Devices], hid.hidp_translateusagestoi8042scancodes, hidfunc_da67ba0d-7d82-4b35-9ebb-cdd93b12450b.xml, hidpi/HidP_TranslateUsagesToI8042ScanCodes
 ms.topic: function
+f1_keywords:
+ - "hidpi/HidP_TranslateUsagesToI8042ScanCodes"
 req.header: hidpi.h
 req.include-header: Hidpi.h
 req.target-type: Universal

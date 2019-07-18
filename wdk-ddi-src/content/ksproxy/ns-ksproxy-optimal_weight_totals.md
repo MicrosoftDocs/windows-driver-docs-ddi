@@ -8,6 +8,8 @@ ms.assetid: 56D97D0F-1934-4834-99A7-8A745A3E6757
 ms.date: 04/23/2018
 ms.keywords: OPTIMAL_WEIGHT_TOTALS, OPTIMAL_WEIGHT_TOTALS structure [Streaming Media Devices], ksproxy/OPTIMAL_WEIGHT_TOTALS, stream.optimal_weight_totals
 ms.topic: struct
+f1_keywords:
+ - "ksproxy/OPTIMAL_WEIGHT_TOTALS"
 req.header: ksproxy.h
 req.include-header: 
 req.target-type: Windows

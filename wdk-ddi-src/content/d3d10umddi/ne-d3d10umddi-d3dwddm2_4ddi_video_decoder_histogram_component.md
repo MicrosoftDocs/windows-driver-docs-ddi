@@ -5,6 +5,8 @@ description: Convenience indices for arrays of per component histogram informati
 ms.assetid: 2c109732-d1ee-4b19-884c-17f75e7e3823
 ms.date: 10/19/2018
 ms.topic: enum
+f1_keywords:
+ - "d3d10umddi/D3DWDDM2_4DDI_VIDEO_DECODER_HISTOGRAM_COMPONENT"
 ms.keywords: D3DWDDM2_4DDI_VIDEO_DECODER_HISTOGRAM_COMPONENT, D3DWDDM2_4DDI_VIDEO_DECODER_HISTOGRAM_COMPONENT,
 req.header: d3d10umddi.h
 req.include-header:

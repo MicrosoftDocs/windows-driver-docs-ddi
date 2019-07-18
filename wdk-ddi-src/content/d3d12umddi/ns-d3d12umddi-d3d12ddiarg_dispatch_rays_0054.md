@@ -5,6 +5,8 @@ description:
 ms.assetid: 48489559-e7f7-4c8d-874e-f9d9b9daf78e
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3d12umddi/D3D12DDIARG_DISPATCH_RAYS_0054"
 ms.keywords: D3D12DDIARG_DISPATCH_RAYS_0054, D3D12DDIARG_DISPATCH_RAYS_0054, 
 req.header: d3d12umddi.h
 req.include-header:

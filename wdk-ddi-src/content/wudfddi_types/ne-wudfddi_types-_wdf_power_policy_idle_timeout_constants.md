@@ -8,6 +8,8 @@ ms.assetid: 118a9dcc-8dd4-454a-bab2-1558821781a7
 ms.date: 02/26/2018
 ms.keywords: None, WDF_CALLBACK_CONSTRAINT, WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS, WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS enumeration, WdfDeviceLevel, WdfLevelReserved, _WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS, wdf.wdf_callback_constraint, wudfddi_types/None, wudfddi_types/WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS, wudfddi_types/WdfDeviceLevel, wudfddi_types/WdfLevelReserved
 ms.topic: enum
+f1_keywords:
+ - "wudfddi_types/WDF_CALLBACK_CONSTRAINT"
 req.header: wudfddi_types.h
 req.include-header: Wdf.h
 req.target-type: Windows

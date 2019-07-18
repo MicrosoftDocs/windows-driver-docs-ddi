@@ -5,6 +5,8 @@ description:
 ms.assetid: b554961b-11ab-4457-8c3f-d4ab7c28b76e
 ms.date: 09/30/2018
 ms.topic: struct
+f1_keywords:
+ - "wdm/MEM_EXTENDED_PARAMETER"
 ms.keywords: MEM_EXTENDED_PARAMETER, MEM_EXTENDED_PARAMETER, *PMEM_EXTENDED_PARAMETER, 
 req.header: wdm.h
 req.include-header:

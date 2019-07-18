@@ -8,6 +8,8 @@ ms.assetid: 033069b8-98e5-4302-ae4e-71f9249533ff
 ms.date: 04/23/2018
 ms.keywords: IOCTL_AVC_CLASS, IOCTL_AVC_CLASS control, IOCTL_AVC_CLASS control code [Streaming Media Devices], avc/IOCTL_AVC_CLASS, avcref_720c03f6-d568-4ebe-8bd8-295fd8a6c222.xml, stream.ioctl_avc_class
 ms.topic: ioctl
+f1_keywords:
+ - "avc/IOCTL_AVC_CLASS"
 req.header: avc.h
 req.include-header: Avc.h
 req.target-type: Windows

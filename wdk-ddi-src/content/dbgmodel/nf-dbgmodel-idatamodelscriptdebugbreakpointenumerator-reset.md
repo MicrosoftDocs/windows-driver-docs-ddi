@@ -5,6 +5,8 @@ description: The Reset method resets the position of the enumerator to where it 
 ms.assetid: 5429efa0-1e6c-4323-aa31-f1460d3cd8de
 ms.date: 09/10/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDataModelScriptDebugBreakpointEnumerator.Reset"
 ms.keywords: IDataModelScriptDebugBreakpointEnumerator::Reset, Reset, IDataModelScriptDebugBreakpointEnumerator.Reset, IDataModelScriptDebugBreakpointEnumerator::Reset, IDataModelScriptDebugBreakpointEnumerator.Reset
 req.header: dbgmodel.h
 req.include-header:

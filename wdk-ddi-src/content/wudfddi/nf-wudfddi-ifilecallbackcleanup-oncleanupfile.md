@@ -8,6 +8,8 @@ ms.assetid: e6dd18f4-725f-4611-ad70-029654cf4375
 ms.date: 02/26/2018
 ms.keywords: IFileCallbackCleanup interface,OnCleanupFile method, IFileCallbackCleanup.OnCleanupFile, IFileCallbackCleanup::OnCleanupFile, OnCleanupFile, OnCleanupFile method, OnCleanupFile method,IFileCallbackCleanup interface, UMDFFileObjectRef_a264918b-dd98-40e8-b644-d39414c2351c.xml, umdf.ifilecallbackcleanup_oncleanupfile, wdf.ifilecallbackcleanup_oncleanupfile, wudfddi/IFileCallbackCleanup::OnCleanupFile
 ms.topic: method
+f1_keywords:
+ - "wudfddi/IFileCallbackCleanup.OnCleanupFile"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Windows

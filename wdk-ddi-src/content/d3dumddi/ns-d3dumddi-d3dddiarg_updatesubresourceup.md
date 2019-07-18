@@ -8,6 +8,8 @@ ms.assetid: 27BE493F-8F70-4FBF-AA58-D6ACB27BFC2D
 ms.date: 05/10/2018
 ms.keywords: D3DDDIARG_UPDATESUBRESOURCEUP, D3DDDIARG_UPDATESUBRESOURCEUP structure [Display Devices], d3dumddi/D3DDDIARG_UPDATESUBRESOURCEUP, display.d3dddiarg_updatesubresourceup
 ms.topic: struct
+f1_keywords:
+ - "d3dumddi/D3DDDIARG_UPDATESUBRESOURCEUP"
 req.header: d3dumddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: 18c4f26a-6463-4157-bd81-6bbb2100eff2
 ms.date: 05/02/2018
 ms.keywords: RILSUBADDRESSTYPE, RILSUBADDRESSTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_SUBADDRTYPE_MAX, RIL_SUBADDRTYPE_USER, netvista.rilsubaddresstype, ntddrilapitypes/RILSUBADDRESSTYPE, ntddrilapitypes/RIL_SUBADDRTYPE_MAX, ntddrilapitypes/RIL_SUBADDRTYPE_USER
 ms.topic: enum
+f1_keywords:
+ - "rilapitypes/RILSUBADDRESSTYPE"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

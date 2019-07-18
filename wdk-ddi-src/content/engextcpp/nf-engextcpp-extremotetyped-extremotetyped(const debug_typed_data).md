@@ -8,6 +8,8 @@ ms.assetid: 6cfe4258-be66-49fd-b154-124951ed0dd1
 ms.date: 05/03/2018
 ms.keywords: ExtRemoteTyped, ExtRemoteTyped class [Windows Debugging],ExtRemoteTyped constructor, ExtRemoteTyped constructor [Windows Debugging], ExtRemoteTyped constructor [Windows Debugging],ExtRemoteTyped class, ExtRemoteTyped.ExtRemoteTyped, ExtRemoteTyped.ExtRemoteTyped(DEBUG_TYPED_DATA*), ExtRemoteTyped.ExtRemoteTyped(const DEBUG_TYPED_DATA), ExtRemoteTyped::ExtRemoteTyped, ExtRemoteTyped::ExtRemoteTyped(const DEBUG_TYPED_DATA), debugger.extremotetyped_extremotetyped_debug_typed_data
 ms.topic: method
+f1_keywords:
+ - "engextcpp/ExtRemoteTyped.ExtRemoteTyped"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop

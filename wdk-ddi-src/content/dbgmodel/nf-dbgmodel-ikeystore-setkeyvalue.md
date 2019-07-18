@@ -5,6 +5,8 @@ description: The SetKeyValue method is analogous to the SetKeyValue method on IM
 ms.assetid: 335a6361-3c79-4eb7-96e0-ca54098ba607
 ms.date: 08/13/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IKeyStore.SetKeyValue"
 ms.keywords: IKeyStore::SetKeyValue, SetKeyValue, IKeyStore.SetKeyValue, IKeyStore::SetKeyValue, IKeyStore.SetKeyValue
 req.header: dbgmodel.h
 req.include-header:

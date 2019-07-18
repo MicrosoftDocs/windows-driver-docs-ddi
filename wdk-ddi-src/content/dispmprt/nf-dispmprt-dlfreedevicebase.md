@@ -8,6 +8,8 @@ ms.assetid: b5c33cfe-bdc7-49a5-a090-ae3472a681a7
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
 ms.topic: function
+f1_keywords:
+ - "dispmprt/DlFreeDeviceBase"
 ms.keywords: DlFreeDeviceBase
 req.header: dispmprt.h
 req.include-header:

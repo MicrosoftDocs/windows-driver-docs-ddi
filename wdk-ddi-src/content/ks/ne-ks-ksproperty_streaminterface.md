@@ -8,6 +8,8 @@ ms.assetid: E771F59E-7F85-40B9-BBA9-D1CC398B12CA
 ms.date: 04/23/2018
 ms.keywords: KSPROPERTY_STREAMINTERFACE, KSPROPERTY_STREAMINTERFACE enumeration [Streaming Media Devices], KSPROPERTY_STREAMINTERFACE_HEADERSIZE, ks/KSPROPERTY_STREAMINTERFACE, ks/KSPROPERTY_STREAMINTERFACE_HEADERSIZE, stream.ksproperty_streaminterface
 ms.topic: enum
+f1_keywords:
+ - "ks/KSPROPERTY_STREAMINTERFACE"
 req.header: ks.h
 req.include-header: 
 req.target-type: Windows

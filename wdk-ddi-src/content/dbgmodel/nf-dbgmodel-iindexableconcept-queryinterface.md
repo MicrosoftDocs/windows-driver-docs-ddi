@@ -5,6 +5,8 @@ description: Retrieves pointers to the supported interfaces on an object. This m
 ms.assetid: 34b15894-ae66-4d4e-9776-b10599c76cd8
 ms.date: 09/19/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IIndexableConcept.QueryInterface"
 ms.keywords: IIndexableConcept::QueryInterface, QueryInterface, IIndexableConcept.QueryInterface, IIndexableConcept::QueryInterface, IIndexableConcept.QueryInterface
 req.header: dbgmodel.h
 req.include-header:

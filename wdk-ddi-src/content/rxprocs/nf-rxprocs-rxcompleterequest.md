@@ -8,6 +8,8 @@ ms.assetid: f5e9219b-0697-427e-b92e-7cd647a0e0b6
 ms.date: 04/16/2018
 ms.keywords: RxCompleteRequest, RxCompleteRequest function [Installable File System Drivers], ifsk.rxcompleterequest, rxprocs/RxCompleteRequest, rxref_12eec336-4619-430c-a36c-ddbe855b8865.xml
 ms.topic: function
+f1_keywords:
+ - "rxprocs/RxCompleteRequest"
 req.header: rxprocs.h
 req.include-header: Rxprocs.h, Rxcontx.h
 req.target-type: Desktop

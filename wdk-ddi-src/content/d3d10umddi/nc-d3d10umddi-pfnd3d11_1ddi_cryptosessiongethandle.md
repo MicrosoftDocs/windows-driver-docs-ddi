@@ -7,6 +7,8 @@ ms.assetid: 30700af0-79e8-4808-bec8-94f5e5152bcc
 ms.date: 05/10/2018
 ms.keywords: CryptoSessionGetHandle, CryptoSessionGetHandle callback function [Display Devices], PFND3D11_1DDI_CRYPTOSESSIONGETHANDLE, PFND3D11_1DDI_CRYPTOSESSIONGETHANDLE callback, d3d10umddi/CryptoSessionGetHandle, display.cryptosessiongethandle
 ms.topic: callback
+f1_keywords:
+ - "d3d10umddi/CryptoSessionGetHandle"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

@@ -8,6 +8,8 @@ ms.assetid: B72EDABF-B5A5-4887-A8D6-77F4047CEDA8
 ms.date: 02/26/2018
 ms.keywords: READ_PORT_UCHAR, READ_PORT_UCHAR function, umdf.read_port_uchar, wdf.read_port_uchar, wudfddi_hwaccess/READ_PORT_UCHAR
 ms.topic: function
+f1_keywords:
+ - "wudfddi_hwaccess/READ_PORT_UCHAR"
 req.header: wudfddi_hwaccess.h
 req.include-header: 
 req.target-type: Desktop

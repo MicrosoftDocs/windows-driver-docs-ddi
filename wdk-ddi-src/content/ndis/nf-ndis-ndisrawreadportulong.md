@@ -8,6 +8,8 @@ ms.assetid: 40ecda3a-67ff-48b6-8ee9-7527c7bd9c6c
 ms.date: 05/02/2018
 ms.keywords: NdisRawReadPortUlong, NdisRawReadPortUlong macro [Network Drivers Starting with Windows Vista], miniport_port_raw_ref_a5c1ea12-2ff0-4546-9244-8137c365eb8f.xml, ndis/NdisRawReadPortUlong, netvista.ndisrawreadportulong
 ms.topic: macro
+f1_keywords:
+ - "ndis/NdisRawReadPortUlong"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

@@ -8,6 +8,8 @@ ms.assetid: F974D5E2-7230-4F85-9C1A-7CE7E240DBE1
 ms.date: 02/15/2018
 ms.keywords: "*PGNSS_SUPL_CERT_CONFIG, GNSS_SUPL_CERT_CONFIG, GNSS_SUPL_CERT_CONFIG structure [Sensor Devices], PGNSS_SUPL_CERT_CONFIG, PGNSS_SUPL_CERT_CONFIG structure pointer [Sensor Devices], gnss.gnss_supl_cert_config, gnssdriver/GNSS_SUPL_CERT_CONFIG, gnssdriver/PGNSS_SUPL_CERT_CONFIG"
 ms.topic: struct
+f1_keywords:
+ - "gnssdriver/GNSS_SUPL_CERT_CONFIG"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows

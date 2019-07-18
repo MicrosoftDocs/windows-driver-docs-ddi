@@ -8,6 +8,8 @@ ms.assetid: E44C756E-BD9B-4DC0-9F6D-07A366ED72B7
 ms.date: 04/30/2018
 ms.keywords: RtlULongToInt8, RtlULongToInt8 function [Kernel-Mode Driver Architecture], kernel.rtlulongtoint8, ntintsafe/RtlULongToInt8
 ms.topic: function
+f1_keywords:
+ - "ntintsafe/RtlULongToInt8"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop

@@ -7,6 +7,8 @@ ms.assetid: 033FF321-2617-4AAF-8445-10800411F0B5
 ms.date: 05/10/2018
 ms.keywords: D3DKMTLock2, D3DKMTLock2 function [Display Devices], d3dkmthk/D3DKMTLock2, display.d3dkmtlock2
 ms.topic: function
+f1_keywords:
+ - "d3dkmthk/D3DKMTLock2"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal

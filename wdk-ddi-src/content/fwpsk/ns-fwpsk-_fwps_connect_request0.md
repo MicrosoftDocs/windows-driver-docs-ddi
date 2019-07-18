@@ -8,6 +8,8 @@ ms.assetid: dee5586d-62fd-4e08-854c-c7d44be60a71
 ms.date: 05/02/2018
 ms.keywords: FWPS_CONNECT_REQUEST0, FWPS_CONNECT_REQUEST0 structure [Network Drivers Starting with Windows Vista], _FWPS_CONNECT_REQUEST0, fwpsk/FWPS_CONNECT_REQUEST0, netvista.fwps_connect_request0, wfp_ref_3_struct_3_fwps_A-E_af2ba16d-4454-4f69-9682-c9f759ef26e8.xml
 ms.topic: struct
+f1_keywords:
+ - "fwpsk/FWPS_CONNECT_REQUEST0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Windows

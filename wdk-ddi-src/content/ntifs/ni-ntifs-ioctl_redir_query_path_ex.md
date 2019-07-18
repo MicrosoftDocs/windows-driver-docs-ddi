@@ -8,6 +8,8 @@ ms.assetid: 290825dd-d5f6-4e9b-b1a3-3e146d3e1856
 ms.date: 04/16/2018
 ms.keywords: IOCTL_REDIR_QUERY_PATH_EX, IOCTL_REDIR_QUERY_PATH_EX control, IOCTL_REDIR_QUERY_PATH_EX control code [Installable File System Drivers], ifsk.ioctl_redir_query_path_ex, ioctl_ref_de59d691-17c8-4e21-8acc-61d2f27c2799.xml, ntifs/IOCTL_REDIR_QUERY_PATH_EX
 ms.topic: ioctl
+f1_keywords:
+ - "ntifs/IOCTL_REDIR_QUERY_PATH_EX"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows

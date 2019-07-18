@@ -8,6 +8,8 @@ ms.assetid: b7756f69-feab-4a28-88d5-0262f86db54b
 ms.date: 04/30/2018
 ms.keywords: IoReportDetectedDevice, IoReportDetectedDevice routine [Kernel-Mode Driver Architecture], k104_b906486e-318a-49b5-aa6a-683c1889c10b.xml, kernel.ioreportdetecteddevice, ntddk/IoReportDetectedDevice
 ms.topic: function
+f1_keywords:
+ - "ntddk/IoReportDetectedDevice"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal

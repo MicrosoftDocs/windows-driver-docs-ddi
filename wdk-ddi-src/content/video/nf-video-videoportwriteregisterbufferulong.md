@@ -8,6 +8,8 @@ ms.assetid: 48322143-8c95-4ffa-ac7a-597ed5fb066c
 ms.date: 05/10/2018
 ms.keywords: VideoPortWriteRegisterBufferUlong, VideoPortWriteRegisterBufferUlong function [Display Devices], VideoPort_Functions_c9709e69-cf6e-4772-8889-0c37f79c0b22.xml, display.videoportwriteregisterbufferulong, video/VideoPortWriteRegisterBufferUlong
 ms.topic: function
+f1_keywords:
+ - "video/VideoPortWriteRegisterBufferUlong"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

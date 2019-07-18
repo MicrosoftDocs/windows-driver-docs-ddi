@@ -8,6 +8,8 @@ ms.assetid: 342e23ad-d38b-4100-949a-220b8fbdcf6e
 ms.date: 05/02/2018
 ms.keywords: SET_OPTIONS, SET_OPTIONS callback, SetOptions, SetOptions callback function [Network Drivers Starting with Windows Vista], ndis/SetOptions, netvista.protocolsetoptions, protocol_functions_ref_be1126b7-c5ae-4d43-90d4-8e10d97f422d.xml
 ms.topic: callback
+f1_keywords:
+ - "ndis/SetOptions"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

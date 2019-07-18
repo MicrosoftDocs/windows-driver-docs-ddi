@@ -8,6 +8,8 @@ ms.assetid: 32ff70d7-980c-4c80-8ebc-af2121bc64df
 ms.date: 04/23/2018
 ms.keywords: BdaDeletePin, BdaDeletePin function [Streaming Media Devices], bdaref_36a08eca-6cfb-4647-8252-05b6c8e0b8e1.xml, bdasup/BdaDeletePin, stream.bdadeletepin
 ms.topic: function
+f1_keywords:
+ - "bdasup/BdaDeletePin"
 req.header: bdasup.h
 req.include-header: Bdasup.h
 req.target-type: Desktop

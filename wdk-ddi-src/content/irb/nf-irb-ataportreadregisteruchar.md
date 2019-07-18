@@ -8,6 +8,8 @@ ms.assetid: 1baa8d01-b889-4f2b-ad9e-f35078f7b3d8
 ms.date: 03/29/2018
 ms.keywords: AtaPortReadRegisterUchar, AtaPortReadRegisterUchar routine [Storage Devices], atartns_63ee26b2-b436-4dc6-a3aa-5a13691e85dd.xml, irb/AtaPortReadRegisterUchar, storage.ataportreadregisteruchar
 ms.topic: function
+f1_keywords:
+ - "irb/AtaPortReadRegisterUchar"
 req.header: irb.h
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop

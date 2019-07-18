@@ -8,6 +8,8 @@ ms.assetid: b0b42d74-38b7-4587-94c3-b98352e4210e
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
+f1_keywords:
+ - "wdm/KERNEL_SOFT_RESTART_NOTIFICATION"
 ms.keywords: KERNEL_SOFT_RESTART_NOTIFICATION, KERNEL_SOFT_RESTART_NOTIFICATION, *PKERNEL_SOFT_RESTART_NOTIFICATION, 
 req.header: wdm.h
 req.include-header:

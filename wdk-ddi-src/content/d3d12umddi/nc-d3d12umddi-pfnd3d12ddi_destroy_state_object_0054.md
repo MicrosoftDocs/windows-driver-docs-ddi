@@ -5,6 +5,8 @@ description: Destroys the state object.
 ms.assetid: 73822e25-6b9a-4593-aaa9-13c375b8e4c1
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_DESTROY_STATE_OBJECT_0054"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

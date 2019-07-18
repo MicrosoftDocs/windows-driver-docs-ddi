@@ -8,6 +8,8 @@ ms.assetid: 92deaecd-69d7-4e64-bdb0-a2736add0c2f
 ms.date: 04/23/2018
 ms.keywords: "*PKS_DATAFORMAT_VIDEOINFOHEADER2, KS_DATAFORMAT_VIDEOINFOHEADER2, KS_DATAFORMAT_VIDEOINFOHEADER2 structure [Streaming Media Devices], PKS_DATAFORMAT_VIDEOINFOHEADER2, PKS_DATAFORMAT_VIDEOINFOHEADER2 structure pointer [Streaming Media Devices], ksmedia/KS_DATAFORMAT_VIDEOINFOHEADER2, ksmedia/PKS_DATAFORMAT_VIDEOINFOHEADER2, stream.ks_dataformat_videoinfoheader2, tagKS_DATAFORMAT_VIDEOINFOHEADER2, vidcapstruct_cadaf63f-50d5-41c5-926b-81724dddb890.xml"
 ms.topic: struct
+f1_keywords:
+ - "ksmedia/KS_DATAFORMAT_VIDEOINFOHEADER2"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows

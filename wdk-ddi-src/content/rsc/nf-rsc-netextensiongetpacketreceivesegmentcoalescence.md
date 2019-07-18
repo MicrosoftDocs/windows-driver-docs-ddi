@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: fad9b214-3c5b-445a-af85-2c9464dfa5f2
 ms.date: 01/30/2019
 ms.topic: function
+f1_keywords:
+ - "rsc/RILWRITEPHONEBOOKENTRYPARAMS"
 ms.keywords: NetExtensionGetPacketReceiveSegmentCoalescence
 req.header: rsc.h
 req.include-header: netadaptercx.h

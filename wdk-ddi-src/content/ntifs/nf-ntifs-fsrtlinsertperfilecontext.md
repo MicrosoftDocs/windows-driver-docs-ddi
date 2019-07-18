@@ -8,6 +8,8 @@ ms.assetid: accc3600-9614-48e0-912d-1e8b324e659f
 ms.date: 04/16/2018
 ms.keywords: FsRtlInsertPerFileContext, FsRtlInsertPerFileContext routine [Installable File System Drivers], fsrtlref_570a2352-733f-4b83-8f63-f4bfed0e2f56.xml, ifsk.fsrtlinsertperfilecontext, ntifs/FsRtlInsertPerFileContext
 ms.topic: function
+f1_keywords:
+ - "ntifs/FsRtlInsertPerFileContext"
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal

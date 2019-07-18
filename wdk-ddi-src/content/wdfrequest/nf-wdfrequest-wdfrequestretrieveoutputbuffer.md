@@ -8,6 +8,8 @@ ms.assetid: 5f12dd97-d8e7-4fef-91bf-00243c0cdd52
 ms.date: 02/26/2018
 ms.keywords: DFRequestObjectRef_05ab728b-3b70-4095-acca-294443797557.xml, WdfRequestRetrieveOutputBuffer, WdfRequestRetrieveOutputBuffer method, kmdf.wdfrequestretrieveoutputbuffer, wdf.wdfrequestretrieveoutputbuffer, wdfrequest/WdfRequestRetrieveOutputBuffer
 ms.topic: function
+f1_keywords:
+ - "wdfrequest/WdfRequestRetrieveOutputBuffer"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal

@@ -8,6 +8,8 @@ ms.assetid: 75C7DB08-F831-43ED-8373-F3F4C7AF89E8
 ms.date: 05/07/2018
 ms.keywords: "*PUSB_DEVICE_PORT_PATH, P_USB_DEVICE_PORT_PATH, P_USB_DEVICE_PORT_PATH structure pointer [Buses], USB_DEVICE_PORT_PATH, USB_DEVICE_PORT_PATH structure [Buses], _USB_DEVICE_PORT_PATH, buses._usb_device_port_path, ucxusbdevice/P_USB_DEVICE_PORT_PATH, ucxusbdevice/_USB_DEVICE_PORT_PATH"
 ms.topic: struct
+f1_keywords:
+ - "ucxusbdevice/USB_DEVICE_PORT_PATH"
 req.header: ucxusbdevice.h
 req.include-header: Ucxclass.h
 req.target-type: Windows

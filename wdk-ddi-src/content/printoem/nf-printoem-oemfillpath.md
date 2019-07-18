@@ -8,6 +8,8 @@ ms.assetid: a61081ad-308e-49c5-a428-1142520d38e4
 ms.date: 04/20/2018
 ms.keywords: OEMEscape, OEMEscape function [Print Devices], OEMFillPath, print.oemfillpath, print_unidrv-pscript_rendering_0c8783bf-0e73-4b66-98a2-b71ee177549b.xml, printoem/OEMEscape
 ms.topic: function
+f1_keywords:
+ - "printoem/OEMEscape"
 req.header: printoem.h
 req.include-header: Printoem.h
 req.target-type: Windows

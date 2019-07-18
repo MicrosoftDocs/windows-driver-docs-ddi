@@ -8,6 +8,8 @@ ms.assetid: f65fda13-3d05-4e1b-b0c7-01e43a9bf09e
 ms.date: 05/10/2018
 ms.keywords: D3DDDI_OPENRESOURCEFLAGS, D3DDDI_OPENRESOURCEFLAGS structure [Display Devices], D3D_other_Structs_918a41c9-09de-4916-a0d6-fd69f7c431c2.xml, _D3DDDI_OPENRESOURCEFLAGS, d3dumddi/D3DDDI_OPENRESOURCEFLAGS, display.d3dddi_openresourceflags
 ms.topic: struct
+f1_keywords:
+ - "d3dumddi/D3DDDI_OPENRESOURCEFLAGS"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

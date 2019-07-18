@@ -7,6 +7,8 @@ ms.assetid: ECE54E1C-5291-43AF-8A71-BD95DE5DF0A6
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_GETNODEMETADATA, DXGKDDI_GETNODEMETADATA callback, DxgkDdiGetNodeMetadata, DxgkDdiGetNodeMetadata callback function [Display Devices], d3dkmddi/DxgkDdiGetNodeMetadata, display.dxgkddigetnodemetadata
 ms.topic: callback
+f1_keywords:
+ - "d3dkmddi/DxgkDdiGetNodeMetadata"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Desktop

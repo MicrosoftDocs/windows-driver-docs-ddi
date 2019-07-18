@@ -8,6 +8,8 @@ ms.assetid: 3e5ff621-47ec-4ab7-bf8e-26bff57588f8
 ms.date: 04/23/2018
 ms.keywords: GetTime, GetTime method [Streaming Media Devices], GetTime method [Streaming Media Devices],IKsReferenceClock interface, IKsReferenceClock interface [Streaming Media Devices],GetTime method, IKsReferenceClock.GetTime, IKsReferenceClock::GetTime, avintfc_54820682-eb28-4344-91d3-ee30ef2f7bd6.xml, ks/IKsReferenceClock::GetTime, stream.iksreferenceclock_gettime
 ms.topic: method
+f1_keywords:
+ - "ks/IKsReferenceClock.GetTime"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

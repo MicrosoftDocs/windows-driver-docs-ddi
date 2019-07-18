@@ -8,6 +8,8 @@ ms.assetid: 62340660-3419-4da6-8d58-c2f82b4231ba
 ms.date: 04/23/2018
 ms.keywords: KsFilterGenerateEvents, KsFilterGenerateEvents function [Streaming Media Devices], avfunc_bf12d7bb-6ebf-460b-a2c2-24632c89b083.xml, ks/KsFilterGenerateEvents, stream.ksfiltergenerateevents
 ms.topic: function
+f1_keywords:
+ - "ks/KsFilterGenerateEvents"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop

@@ -5,6 +5,8 @@ description: Validates private driver data, which is passed by user mode driver 
 ms.assetid: bc83b8eb-da96-49f3-8462-1cd0838ba03d
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmddi/DXGKDDI_VALIDATESUBMITCOMMAND"
 req.header: d3dkmddi.h
 req.include-header:
 req.target-type:

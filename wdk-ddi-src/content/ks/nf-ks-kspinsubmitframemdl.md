@@ -8,6 +8,8 @@ ms.assetid: 8033c0a9-86dd-4d54-b93e-66c926cae952
 ms.date: 04/23/2018
 ms.keywords: KsPinSubmitFrameMdl, KsPinSubmitFrameMdl function [Streaming Media Devices], avfunc_456aa5db-b749-4b95-8448-f024dbc2030b.xml, ks/KsPinSubmitFrameMdl, stream.kspinsubmitframemdl
 ms.topic: function
+f1_keywords:
+ - "ks/KsPinSubmitFrameMdl"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

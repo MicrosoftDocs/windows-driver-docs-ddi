@@ -5,6 +5,8 @@ description: Sets the command list table.
 ms.assetid: d1480f13-37d6-465c-b468-bf7a32bf0523
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_SETCOMMANDLISTDDITABLE_CB"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

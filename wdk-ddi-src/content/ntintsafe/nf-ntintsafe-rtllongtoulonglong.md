@@ -8,6 +8,8 @@ ms.assetid: 372B00C3-E5BD-4B2B-BB6B-F07878D661B4
 ms.date: 04/30/2018
 ms.keywords: RtlLongToULongLong, RtlLongToULongLong function [Kernel-Mode Driver Architecture], kernel.rtllongtoulonglong, ntintsafe/RtlLongToULongLong
 ms.topic: function
+f1_keywords:
+ - "ntintsafe/RtlLongToULongLong"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop

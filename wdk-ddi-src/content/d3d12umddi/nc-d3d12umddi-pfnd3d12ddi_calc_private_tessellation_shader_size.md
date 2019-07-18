@@ -5,6 +5,8 @@ description: Determines the size of the user-mode display driver's private regio
 ms.assetid: 40bbfdfa-e310-4e77-9e8c-2800a64f6bcb
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_CALC_PRIVATE_TESSELLATION_SHADER_SIZE"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

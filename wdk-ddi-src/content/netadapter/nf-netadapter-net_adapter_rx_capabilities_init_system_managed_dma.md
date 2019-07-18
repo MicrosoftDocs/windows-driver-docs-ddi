@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 784695e1-dd5f-49ab-b72d-31857b1f13aa
 ms.date: 02/14/2018
 ms.topic: function
+f1_keywords:
+ - "netadapter/NET_ADAPTER_RX_CAPABILITIES_INIT_SYSTEM_MANAGED_DMA"
 ms.keywords: NET_ADAPTER_RX_CAPABILITIES_INIT_SYSTEM_MANAGED_DMA
 req.header: netadapter.h
 req.include-header: netadaptercx.h

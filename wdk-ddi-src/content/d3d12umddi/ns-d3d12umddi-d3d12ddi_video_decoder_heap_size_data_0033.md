@@ -7,6 +7,8 @@ ms.assetid: beec0f3e-f87b-408b-8745-14b556254d77
 ms.date: 04/16/2018
 ms.keywords: D3D12DDI_VIDEO_DECODER_HEAP_SIZE_DATA_0033, D3D12DDI_VIDEO_DECODER_HEAP_SIZE_DATA_0033 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_DECODER_HEAP_SIZE_DATA_0033, display.d3d12ddi-video-decoder-heap-size-data-0033
 ms.topic: struct
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_VIDEO_DECODER_HEAP_SIZE_DATA_0033"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type: Windows

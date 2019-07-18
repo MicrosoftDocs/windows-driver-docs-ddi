@@ -5,6 +5,8 @@ description: Returns a handle to a directory on disk from which the driver can r
 ms.assetid: ff2a6c2a-e402-4e8a-920a-c9baa9aa237e
 ms.date: 10/19/2018
 ms.topic: function
+f1_keywords:
+ - "wdm/IoGetDriverDirectory"
 ms.keywords: IoGetDriverDirectory
 req.header: wdm.h
 req.include-header:

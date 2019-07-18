@@ -8,6 +8,8 @@ ms.assetid: 4c1284da-b086-46f3-aeea-0afe6a2f1031
 ms.date: 05/03/2018
 ms.keywords: GetSymbolModuleWide, GetSymbolModuleWide method [Windows Debugging], GetSymbolModuleWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetSymbolModuleWide method, IDebugSymbols3.GetSymbolModuleWide, IDebugSymbols3::GetSymbolModuleWide, dbgeng/IDebugSymbols3::GetSymbolModuleWide, debugger.getsymbolmodulewide
 ms.topic: method
+f1_keywords:
+ - "dbgeng/IDebugSymbols3.GetSymbolModuleWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

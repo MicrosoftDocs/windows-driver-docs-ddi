@@ -8,6 +8,8 @@ ms.assetid: c376297a-11a6-4e9f-b551-36a573cdb7e0
 ms.date: 05/03/2018
 ms.keywords: image.wiaupropsinpropspec, wiauFncs_2490b5b3-8051-4711-b681-1aef18580182.xml, wiauPropsInPropSpec, wiauPropsInPropSpec function [Imaging Devices], wiautil/wiauPropsInPropSpec
 ms.topic: function
+f1_keywords:
+ - "wiautil/wiauPropsInPropSpec"
 req.header: wiautil.h
 req.include-header: Wiautil.h
 req.target-type: Desktop

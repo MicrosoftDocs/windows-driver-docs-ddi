@@ -5,6 +5,8 @@ description:  Moves the iterator forward and fetches the name of the next key an
 ms.assetid: 0a6a1109-c97f-4335-ac2d-434e9bd57f40
 ms.date: 12/21/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IKeyEnumerator.GetNext"
 ms.keywords: IKeyEnumerator::GetNext, GetNext, IKeyEnumerator.GetNext, IKeyEnumerator::GetNext, IKeyEnumerator.GetNext
 req.header: dbgmodel.h
 req.include-header:

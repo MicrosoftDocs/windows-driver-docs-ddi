@@ -8,6 +8,8 @@ ms.assetid: 678bbca6-f21f-480a-897d-a30e922d01e3
 ms.date: 03/29/2018
 ms.keywords: IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES, IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES control, IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES control code [Storage Devices], k307_99edaea9-af25-4aba-ba16-0758c63252b6.xml, ntddstor/IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES, storage.ioctl_storage_manage_data_set_attributes
 ms.topic: ioctl
+f1_keywords:
+ - "ntddstor/IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES"
 req.header: ntddstor.h
 req.include-header: Ntddstor.h
 req.target-type: Windows

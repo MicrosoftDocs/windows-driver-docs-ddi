@@ -8,6 +8,8 @@ ms.assetid: 9205fc5b-211f-4f1b-b482-df072d7e17c2
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
 ms.topic: function
+f1_keywords:
+ - "dispmprt/DlDebugPrint"
 ms.keywords: DlDebugPrint
 req.header: dispmprt.h
 req.include-header:

@@ -8,6 +8,8 @@ ms.assetid: 28d23e5e-4daf-4176-8d7b-af92eee8ccef
 ms.date: 05/03/2018
 ms.keywords: IDebugControl4 interface [Windows Debugging],OpenLogFile2Wide method, IDebugControl4.OpenLogFile2Wide, IDebugControl4::OpenLogFile2Wide, OpenLogFile2Wide, OpenLogFile2Wide method [Windows Debugging], OpenLogFile2Wide method [Windows Debugging],IDebugControl4 interface, dbgeng/IDebugControl4::OpenLogFile2Wide, debugger.openlogfile2wide
 ms.topic: method
+f1_keywords:
+ - "dbgeng/IDebugControl4.OpenLogFile2Wide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

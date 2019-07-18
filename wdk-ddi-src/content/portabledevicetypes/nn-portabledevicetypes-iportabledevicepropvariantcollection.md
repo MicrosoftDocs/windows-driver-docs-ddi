@@ -8,6 +8,8 @@ ms.assetid: e097ee45-d8df-406d-80ca-93f128c19416
 ms.date: 02/15/2018
 ms.keywords: IPortableDevicePropVariantCollection, IPortableDevicePropVariantCollection interface, IPortableDevicePropVariantCollection interface,described, IPortableDevicePropVariantCollectionInterface, portabledevicetypes/IPortableDevicePropVariantCollection, wpddk.iportabledevicepropvariantcollection
 ms.topic: interface
+f1_keywords:
+ - "portabledevicetypes/IPortableDevicePropVariantCollection"
 req.header: portabledevicetypes.h
 req.include-header: 
 req.target-type: Windows

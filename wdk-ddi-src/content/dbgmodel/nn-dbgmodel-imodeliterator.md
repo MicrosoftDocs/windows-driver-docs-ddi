@@ -5,6 +5,8 @@ description: An iterator of contained objects (client implemented and returned b
 ms.assetid: 29497013-68f8-4e35-9402-e13faf9e9483
 ms.date: 07/16/2018
 ms.topic: interface
+f1_keywords:
+ - "dbgmodel/IModelIterator"
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:

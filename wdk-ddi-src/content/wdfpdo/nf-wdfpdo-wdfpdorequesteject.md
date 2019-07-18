@@ -8,6 +8,8 @@ ms.assetid: 40cd83c0-701a-436f-a3c3-b0ab14848a92
 ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectFdoPdoRef_f57ccd07-8cb3-4972-bddb-aa704d9422b0.xml, WdfPdoRequestEject, WdfPdoRequestEject method, kmdf.wdfpdorequesteject, wdf.wdfpdorequesteject, wdfpdo/WdfPdoRequestEject
 ms.topic: function
+f1_keywords:
+ - "wdfpdo/WdfPdoRequestEject"
 req.header: wdfpdo.h
 req.include-header: Wdf.h
 req.target-type: Universal

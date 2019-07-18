@@ -8,6 +8,8 @@ ms.assetid: d68d6e50-1373-43bc-a22b-dd9db47614c8
 ms.date: 05/10/2018
 ms.keywords: DXVA_COPPSetProtectionLevelCmdData, DXVA_COPPSetProtectionLevelCmdData structure [Display Devices], _DXVA_COPPSetProtectionLevelCmdData, display.dxva_coppsetprotectionlevelcmddata, dxva/DXVA_COPPSetProtectionLevelCmdData, dxvaref_ac7e802b-dd23-49da-ab02-21d80eaabe86.xml
 ms.topic: struct
+f1_keywords:
+ - "dxva/DXVA_COPPSetProtectionLevelCmdData"
 req.header: dxva.h
 req.include-header: Dxva.h
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: 5295f07d-9800-47f0-a827-515fcdad04eb
 ms.date: 05/02/2018
 ms.keywords: "*LPRILPROVISIONSTATUS, RILPROVISIONSTATUS, RILPROVISIONSTATUS structure [Network Drivers Starting with Windows Vista], netvista.rilprovisionstatus, ntddrilapitypes/RILPROVISIONSTATUS"
 ms.topic: struct
+f1_keywords:
+ - "rilapitypes/RILPROVISIONSTATUS"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

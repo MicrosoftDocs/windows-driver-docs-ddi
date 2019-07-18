@@ -8,6 +8,8 @@ ms.assetid: e5554790-a7a2-4c0d-a6ae-585ea909cd3d
 ms.date: 05/02/2018
 ms.keywords: NdisFreeNetBufferListContext, NdisFreeNetBufferListContext function [Network Drivers Starting with Windows Vista], ndis/NdisFreeNetBufferListContext, ndis_netbuf_functions_ref_ee330dac-2453-46e7-a298-7d4a59caf0ab.xml, netvista.ndisfreenetbufferlistcontext
 ms.topic: function
+f1_keywords:
+ - "ndis/NdisFreeNetBufferListContext"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

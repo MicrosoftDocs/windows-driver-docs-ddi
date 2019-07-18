@@ -8,6 +8,8 @@ ms.assetid: DDED1237-74B7-4127-8E86-D0794A1FB49B
 ms.date: 04/30/2018
 ms.keywords: TRANSLATE_BUS_ADDRESS, TranslateBusAddress, TranslateBusAddress routine [Kernel-Mode Driver Architecture], drvr_interface_68887adb-724b-47ca-80e6-b8b934ae2414.xml, kernel.bustranslatebusaddress, kernel.translatebusaddress, wdm/TranslateBusAddress
 ms.topic: callback
+f1_keywords:
+ - "wdm/TranslateBusAddress"
 req.header: wdm.h
 req.include-header: Ntddk.h
 req.target-type: Desktop

@@ -8,6 +8,8 @@ ms.assetid: 54ac7c45-63a1-4003-8250-524e6f9e8d06
 ms.date: 04/20/2018
 ms.keywords: "*PDOCEVENT_ESCAPE, DOCEVENT_ESCAPE, DOCEVENT_ESCAPE structure [Print Devices], PDOCEVENT_ESCAPE, PDOCEVENT_ESCAPE structure pointer [Print Devices], _DOCEVENT_ESCAPE, print.docevent_escape, print_interface-graphics_943033df-71a2-4689-a9fb-abd9feb4ea0d.xml, winddiui/DOCEVENT_ESCAPE, winddiui/PDOCEVENT_ESCAPE"
 ms.topic: struct
+f1_keywords:
+ - "winddiui/DOCEVENT_ESCAPE"
 req.header: winddiui.h
 req.include-header: Winddiui.h
 req.target-type: Windows

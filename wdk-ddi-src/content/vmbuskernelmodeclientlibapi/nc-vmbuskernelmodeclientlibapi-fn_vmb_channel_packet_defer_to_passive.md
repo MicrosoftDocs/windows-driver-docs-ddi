@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 7226008d-7c72-4f80-a100-3441c199ba48
 ms.date: 05/21/2018
 ms.topic: callback
+f1_keywords:
+ - "vmbuskernelmodeclientlibapi/FN_VMB_CHANNEL_PACKET_DEFER_TO_PASSIVE"
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header:
 req.target-type:

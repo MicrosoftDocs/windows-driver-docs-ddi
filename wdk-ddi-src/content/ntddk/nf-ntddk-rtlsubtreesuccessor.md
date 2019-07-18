@@ -8,6 +8,8 @@ ms.assetid: de592c2a-6f52-48ef-b2ee-253d83cafa80
 ms.date: 04/16/2018
 ms.keywords: RtlSubtreeSuccessor, RtlSubtreeSuccessor routine [Installable File System Drivers], ifsk.rtlsubtreesuccessor, ntddk/RtlSubtreeSuccessor, rtlref_65e50284-427f-47d9-92c7-719b8bc1bab5.xml
 ms.topic: function
+f1_keywords:
+ - "ntddk/RtlSubtreeSuccessor"
 req.header: ntddk.h
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal

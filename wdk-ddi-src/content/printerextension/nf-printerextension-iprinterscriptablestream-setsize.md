@@ -8,6 +8,8 @@ ms.assetid: 4A05474B-9856-48B0-9289-D87B8FF54B2F
 ms.date: 04/20/2018
 ms.keywords: IPrinterScriptableStream interface [Print Devices],SetSize method, IPrinterScriptableStream.SetSize, IPrinterScriptableStream::SetSize, SetSize, SetSize method [Print Devices], SetSize method [Print Devices],IPrinterScriptableStream interface, print.iprinterscriptablestream__setsize, printerextension/IPrinterScriptableStream::SetSize
 ms.topic: method
+f1_keywords:
+ - "printerextension/IPrinterScriptableStream.SetSize"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop

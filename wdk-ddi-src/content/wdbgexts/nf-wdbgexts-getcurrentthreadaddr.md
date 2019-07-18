@@ -8,6 +8,8 @@ ms.assetid: 0664199b-da65-4b07-958e-d7972b39cefd
 ms.date: 05/03/2018
 ms.keywords: GetCurrentThreadAddr, GetCurrentThreadAddr function [Windows Debugging], WdbgExts_Ref_03db8f68-2e64-4530-bf35-df2a6f0d7736.xml, debugger.getcurrentthreadaddr, wdbgexts/GetCurrentThreadAddr
 ms.topic: function
+f1_keywords:
+ - "wdbgexts/GetCurrentThreadAddr"
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop

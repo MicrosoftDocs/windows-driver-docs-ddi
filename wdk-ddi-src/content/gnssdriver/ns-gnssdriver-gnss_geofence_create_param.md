@@ -8,6 +8,8 @@ ms.assetid: CA517EF6-41EE-4DB0-B628-35902BA34FFB
 ms.date: 02/15/2018
 ms.keywords: "*PGNSS_GEOFENCE_CREATE_PARAM, GNSS_GEOFENCE_CREATE_PARAM, GNSS_GEOFENCE_CREATE_PARAM structure [Sensor Devices], PGNSS_GEOFENCE_CREATE_PARAM, PGNSS_GEOFENCE_CREATE_PARAM structure pointer [Sensor Devices], gnss.gnss_geofence_create_param, gnssdriver/GNSS_GEOFENCE_CREATE_PARAM, gnssdriver/PGNSS_GEOFENCE_CREATE_PARAM"
 ms.topic: struct
+f1_keywords:
+ - "gnssdriver/GNSS_GEOFENCE_CREATE_PARAM"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows

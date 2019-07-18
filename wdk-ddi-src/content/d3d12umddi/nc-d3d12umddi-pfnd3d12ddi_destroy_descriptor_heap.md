@@ -5,6 +5,8 @@ description: Destroys the descriptor heap.
 ms.assetid: 05e4e853-9d81-4945-b223-a66e076bbac2
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_DESTROY_DESCRIPTOR_HEAP"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

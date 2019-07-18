@@ -8,6 +8,8 @@ ms.assetid: 706fbd00-b95e-4b4d-9059-215a3f01648a
 ms.author: windowsdriverdev
 ms.date: 04/10/2019
 ms.topic: enum
+f1_keywords:
+ - "eventdetectoroemadapter/EVENTFEATURES"
 ms.keywords: EVENTFEATURES, EVENTFEATURES, 
 req.header: eventdetectoroemadapter.h
 req.include-header:

@@ -7,6 +7,8 @@ ms.assetid: 89d0b6fa-b990-43a9-a943-76d270b507cc
 ms.date: 05/10/2018
 ms.keywords: D3D10_1DDIARG_TEXCUBE_SHADERRESOURCEVIEW, D3D10_1DDIARG_TEXCUBE_SHADERRESOURCEVIEW structure [Display Devices], UMDisplayDriver_Dx10param_Structs_4988e1af-5552-4f7c-be15-5c54f88b9975.xml, d3d10umddi/D3D10_1DDIARG_TEXCUBE_SHADERRESOURCEVIEW, display.d3d10_1ddiarg_texcube_shaderresourceview
 ms.topic: struct
+f1_keywords:
+ - "d3d10umddi/D3D10_1DDIARG_TEXCUBE_SHADERRESOURCEVIEW"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows

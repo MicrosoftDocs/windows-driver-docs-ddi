@@ -8,6 +8,8 @@ ms.assetid: 1d53c658-9912-4912-a74f-f7b93367b9e2
 ms.date: 03/29/2018
 ms.keywords: "*PVOLUME_READ_PLEX_INPUT, PVOLUME_READ_PLEX_INPUT, PVOLUME_READ_PLEX_INPUT structure pointer [Storage Devices], VOLUME_READ_PLEX_INPUT, VOLUME_READ_PLEX_INPUT structure [Storage Devices], _VOLUME_READ_PLEX_INPUT, ntddvol/PVOLUME_READ_PLEX_INPUT, ntddvol/VOLUME_READ_PLEX_INPUT, storage.volume_read_plex_input, structs-volumemgr_26a6ef07-d18e-45bd-b4c3-532d7daadc5c.xml"
 ms.topic: struct
+f1_keywords:
+ - "ntddvol/VOLUME_READ_PLEX_INPUT"
 req.header: ntddvol.h
 req.include-header: Ntddvol.h
 req.target-type: Windows

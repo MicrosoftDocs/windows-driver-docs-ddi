@@ -6,6 +6,8 @@ tech.root: audio
 ms.assetid: e3b67baa-da4b-468b-be74-8b760002b597
 ms.date: 10/30/2018
 ms.topic: method
+f1_keywords:
+ - "portcls/IDmaChannelSlave.ReadCounter"
 ms.keywords: IDmaChannelSlave::ReadCounter, ReadCounter, IDmaChannelSlave.ReadCounter, IDmaChannelSlave::ReadCounter, IDmaChannelSlave.ReadCounter
 req.header: portcls.h
 req.include-header:

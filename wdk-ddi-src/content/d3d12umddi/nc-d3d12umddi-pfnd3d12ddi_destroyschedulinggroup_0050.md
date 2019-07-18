@@ -5,6 +5,8 @@ description: Destroys a hardware scheduling group.
 ms.assetid: 688cd4a2-6775-42e8-8dde-88a0d4d196b6
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_DESTROYSCHEDULINGGROUP_0050"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

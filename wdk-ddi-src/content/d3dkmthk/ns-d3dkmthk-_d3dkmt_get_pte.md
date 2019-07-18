@@ -5,6 +5,8 @@ description: Used to get page table entries.
 ms.assetid: bfe177b0-8922-438c-b214-e08f786b8e9c
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/_D3DKMT_GET_PTE"
 ms.keywords: _D3DKMT_GET_PTE, D3DKMT_GET_PTE, 
 req.header: d3dkmthk.h
 req.include-header:

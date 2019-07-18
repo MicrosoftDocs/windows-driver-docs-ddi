@@ -8,6 +8,8 @@ ms.assetid: b7f4370e-75db-4238-8e23-9e48028a03f5
 ms.date: 04/30/2018
 ms.keywords: IoInitializeWorkItem, IoInitializeWorkItem routine [Kernel-Mode Driver Architecture], k104_06024bfe-5558-4039-a9b1-327895ba9b74.xml, kernel.ioinitializeworkitem, wdm/IoInitializeWorkItem
 ms.topic: function
+f1_keywords:
+ - "wdm/IoInitializeWorkItem"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

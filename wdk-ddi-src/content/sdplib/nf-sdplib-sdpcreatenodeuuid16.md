@@ -8,6 +8,8 @@ ms.assetid: d36b65e9-4e9e-40be-a89c-f04030cea459
 ms.date: 04/27/2018
 ms.keywords: SdpCreateNodeUUID16, SdpCreateNodeUUID16 function [Bluetooth Devices], bltooth.sdpcreatenodeuuid16, bth_funcs_adf751aa-5dca-4356-8c15-84a4996acef9.xml, sdplib/SdpCreateNodeUUID16
 ms.topic: function
+f1_keywords:
+ - "sdplib/SdpCreateNodeUUID16"
 req.header: sdplib.h
 req.include-header: BthSdpddi.h
 req.target-type: Desktop

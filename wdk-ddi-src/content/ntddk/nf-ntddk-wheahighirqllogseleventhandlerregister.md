@@ -8,6 +8,8 @@ ms.assetid: 492e73c4-2d9a-419c-aabf-b4f53324b8bb
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: function
+f1_keywords:
+ - "ntddk/WheaHighIrqlLogSelEventHandlerRegister"
 ms.keywords: WheaHighIrqlLogSelEventHandlerRegister
 req.header: ntddk.h
 req.include-header:

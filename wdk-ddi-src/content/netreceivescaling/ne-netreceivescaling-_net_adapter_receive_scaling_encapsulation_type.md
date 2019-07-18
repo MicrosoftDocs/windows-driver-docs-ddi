@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: b5225e1b-e077-48b6-8065-40d3805589e2
 ms.date: 03/07/2018
 ms.topic: enum
+f1_keywords:
+ - "netreceivescaling/_NET_ADAPTER_RECEIVE_SCALING_ENCAPSULATION_TYPE"
 ms.keywords: _NET_ADAPTER_RECEIVE_SCALING_ENCAPSULATION_TYPE, NET_ADAPTER_RECEIVE_SCALING_ENCAPSULATION_TYPE, 
 req.header: netreceivescaling.h
 req.include-header:

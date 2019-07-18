@@ -8,6 +8,8 @@ ms.assetid: 6d25f2fb-be77-480f-b07c-294ab8a4272e
 ms.date: 03/29/2018
 ms.keywords: StorPortGetDeviceBase, StorPortGetDeviceBase routine [Storage Devices], storage.storportgetdevicebase, storport/StorPortGetDeviceBase, storprt_8be3e3d9-dae5-49cb-aa44-31d3be745045.xml
 ms.topic: function
+f1_keywords:
+ - "storport/StorPortGetDeviceBase"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

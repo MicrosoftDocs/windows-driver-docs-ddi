@@ -6,6 +6,8 @@ description: Used in the GET_CAM_SUPPORTED command. See Table 4-27.
 ms.assetid: 45493c52-9170-477d-b7da-3fb7ee31ab42
 ms.date: 09/30/2018
 ms.topic: struct
+f1_keywords:
+ - "ucmucsispec/_UCSI_GET_CAM_SUPPORTED_IN"
 ms.keywords: _UCSI_GET_CAM_SUPPORTED_IN, UCSI_GET_CAM_SUPPORTED_IN, *PUCSI_GET_CAM_SUPPORTED_IN, 
 req.header: ucmucsispec.h
 req.include-header: UcmUcsiCx.h 

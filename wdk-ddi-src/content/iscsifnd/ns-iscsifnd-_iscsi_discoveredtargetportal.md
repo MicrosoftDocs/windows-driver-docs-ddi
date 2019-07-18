@@ -8,6 +8,8 @@ ms.assetid: af5d0ad6-a035-4291-9390-889fdc3429ee
 ms.date: 03/29/2018
 ms.keywords: "*PISCSI_DiscoveredTargetPortal, ISCSI_DiscoveredTargetPortal, ISCSI_DiscoveredTargetPortal structure [Storage Devices], PISCSI_DiscoveredTargetPortal, PISCSI_DiscoveredTargetPortal structure pointer [Storage Devices], _ISCSI_DiscoveredTargetPortal, iscsifnd/ISCSI_DiscoveredTargetPortal, iscsifnd/PISCSI_DiscoveredTargetPortal, storage.iscsi_discoveredtargetportal, structs-iSCSI_956c4a5b-9f37-4b76-b2e8-d8feedaddcf0.xml"
 ms.topic: struct
+f1_keywords:
+ - "iscsifnd/ISCSI_DiscoveredTargetPortal"
 req.header: iscsifnd.h
 req.include-header: Iscsifnd.h
 req.target-type: Windows

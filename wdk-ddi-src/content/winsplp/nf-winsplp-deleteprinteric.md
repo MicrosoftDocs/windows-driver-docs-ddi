@@ -8,6 +8,8 @@ ms.assetid: 8D79AB9D-02BB-4032-AC5D-9099A672382F
 ms.date: 04/20/2018
 ms.keywords: DeletePrinterIC, DeletePrinterIC function [Print Devices], print.deleteprinteric, winsplp/DeletePrinterIC
 ms.topic: function
+f1_keywords:
+ - "winsplp/DeletePrinterIC"
 req.header: winsplp.h
 req.include-header: 
 req.target-type: Windows

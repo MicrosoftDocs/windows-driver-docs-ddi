@@ -8,6 +8,8 @@ ms.assetid: 862441ee-8a6e-4ddc-8dba-d3d990f45cfc
 ms.date: 05/10/2018
 ms.keywords: D3DDDIARG_PRESENTMULTIPLANEOVERLAY, D3DDDIARG_PRESENTMULTIPLANEOVERLAY structure [Display Devices], d3dumddi/D3DDDIARG_PRESENTMULTIPLANEOVERLAY, display.d3dddiarg_presentmultiplaneoverlay
 ms.topic: struct
+f1_keywords:
+ - "d3dumddi/D3DDDIARG_PRESENTMULTIPLANEOVERLAY"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 6dba1c38-fcf3-49f3-a1ad-925ab6f545b5
 ms.date: 02/09/2018
 ms.topic: function
+f1_keywords:
+ - "netrequestqueue/NET_REQUEST_QUEUE_CONFIG_ADD_METHOD_HANDLER"
 ms.keywords: NET_REQUEST_QUEUE_CONFIG_ADD_METHOD_HANDLER
 req.header: netrequestqueue.h
 req.include-header:

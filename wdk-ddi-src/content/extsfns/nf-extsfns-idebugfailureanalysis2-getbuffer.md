@@ -8,6 +8,8 @@ ms.assetid: 262B5237-86BF-43D6-A29A-A868663EA5D9
 ms.date: 05/03/2018
 ms.keywords: GetBuffer, GetBuffer method [Windows Debugging], GetBuffer method [Windows Debugging],IDebugFailureAnalysis2 interface, IDebugFailureAnalysis2 interface [Windows Debugging],GetBuffer method, IDebugFailureAnalysis2.GetBuffer, IDebugFailureAnalysis2::GetBuffer, debugger.idebugfailureanalysis2_getbuffer, extsfns/IDebugFailureAnalysis2::GetBuffer
 ms.topic: method
+f1_keywords:
+ - "extsfns/IDebugFailureAnalysis2.GetBuffer"
 req.header: extsfns.h
 req.include-header: 
 req.target-type: Desktop

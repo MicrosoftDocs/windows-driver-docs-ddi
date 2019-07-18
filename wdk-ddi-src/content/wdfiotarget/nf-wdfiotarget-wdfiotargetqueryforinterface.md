@@ -8,6 +8,8 @@ ms.assetid: 213d0ee8-96f1-4927-be87-1b504b3f3478
 ms.date: 02/26/2018
 ms.keywords: DFIOTargetRef_ed9f676e-903e-4a93-ad0a-80c428ed8230.xml, WdfIoTargetQueryForInterface, WdfIoTargetQueryForInterface method, kmdf.wdfiotargetqueryforinterface, wdf.wdfiotargetqueryforinterface, wdfiotarget/WdfIoTargetQueryForInterface
 ms.topic: function
+f1_keywords:
+ - "wdfiotarget/WdfIoTargetQueryForInterface"
 req.header: wdfiotarget.h
 req.include-header: Wdf.h
 req.target-type: Universal

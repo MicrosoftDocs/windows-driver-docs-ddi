@@ -8,6 +8,8 @@ ms.assetid: A46ED23A-7DB0-4792-B903-F748BCDAD55E
 ms.date: 03/29/2018
 ms.keywords: "*PWRITE_USING_TOKEN_HEADER, PWRITE_USING_TOKEN_HEADER, PWRITE_USING_TOKEN_HEADER structure pointer [Storage Devices], WRITE_USING_TOKEN_HEADER, WRITE_USING_TOKEN_HEADER structure [Storage Devices], scsi/PWRITE_USING_TOKEN_HEADER, scsi/WRITE_USING_TOKEN_HEADER, storage.write_using_token_header"
 ms.topic: struct
+f1_keywords:
+ - "minitape/WRITE_USING_TOKEN_HEADER"
 req.header: minitape.h
 req.include-header: Scsi.h, Minitape.h, Storport.h
 req.target-type: Windows

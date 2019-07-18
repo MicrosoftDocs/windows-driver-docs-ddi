@@ -8,6 +8,8 @@ ms.assetid: 7e845805-0121-49b0-9c0c-0f63bed6a50c
 ms.date: 05/10/2018
 ms.keywords: EVT_IDD_CX_MONITOR_UNASSIGN_SWAPCHAIN, EVT_IDD_CX_MONITOR_UNASSIGN_SWAPCHAIN callback, EvtIddCxMonitorUnassignSwapchain, EvtIddCxMonitorUnassignSwapchain callback function [Display Devices], PFN_IDD_CX_MONITOR_UNASSIGN_SWAPCHAIN, PFN_IDD_CX_MONITOR_UNASSIGN_SWAPCHAIN callback function pointer [Display Devices], display.evt_idd_cx_monitor_unassign_swapchain, iddcx/EvtIddCxMonitorUnassignSwapchain
 ms.topic: callback
+f1_keywords:
+ - "iddcx/PFN_IDD_CX_MONITOR_UNASSIGN_SWAPCHAIN"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows

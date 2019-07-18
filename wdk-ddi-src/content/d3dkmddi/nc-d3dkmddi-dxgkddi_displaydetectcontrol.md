@@ -7,6 +7,8 @@ ms.assetid: 6F10EA4D-BCDE-475E-9937-414CB83F6F2F
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_DISPLAYDETECTCONTROL, DXGKDDI_DISPLAYDETECTCONTROL callback, DXGKDDI_DISPLAYDETECTCONTROL callback function [Display Devices], d3dkmddi/DXGKDDI_DISPLAYDETECTCONTROL, display.dxgkddi_displaydetectcontrol
 ms.topic: callback
+f1_keywords:
+ - "d3dkmddi/DXGKDDI_DISPLAYDETECTCONTROL"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Windows

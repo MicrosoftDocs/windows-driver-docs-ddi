@@ -8,6 +8,8 @@ ms.assetid: 84312199-5055-41a1-9aa2-4ee91a15d5bf
 ms.date: 03/29/2018
 ms.keywords: "*PCDROM_TOC, CDROM_TOC, CDROM_TOC structure [Storage Devices], PCDROM_TOC, PCDROM_TOC structure pointer [Storage Devices], _CDROM_TOC, ntddcdrm/CDROM_TOC, ntddcdrm/PCDROM_TOC, storage.cdrom_toc, structs-CD-ROM_943f0104-ee61-4f40-a1a1-8392a15f3fd1.xml"
 ms.topic: struct
+f1_keywords:
+ - "ntddcdrm/CDROM_TOC"
 req.header: ntddcdrm.h
 req.include-header: Ntddcdrm.h
 req.target-type: Windows

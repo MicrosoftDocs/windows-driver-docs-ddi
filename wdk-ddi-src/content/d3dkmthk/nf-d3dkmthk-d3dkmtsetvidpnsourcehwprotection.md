@@ -5,6 +5,8 @@ description: Sets VidPn source hardware protection.
 ms.assetid: 33f3062e-347a-43ad-b261-4ef6505dbd31
 ms.date: 10/19/2018
 ms.topic: function
+f1_keywords:
+ - "d3dkmthk/D3DKMTSetVidPnSourceHwProtection"
 ms.keywords: D3DKMTSetVidPnSourceHwProtection
 req.header: d3dkmthk.h
 req.include-header:

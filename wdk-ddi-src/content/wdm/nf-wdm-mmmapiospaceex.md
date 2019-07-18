@@ -8,6 +8,8 @@ ms.assetid: 0A8216B2-822D-4157-876E-AA0A1A9D6D3F
 ms.date: 04/30/2018
 ms.keywords: MmMapIoSpace, MmMapIoSpace routine [Kernel-Mode Driver Architecture], MmMapIoSpaceEx, kernel.mmmapiospaceex, wdm/MmMapIoSpace
 ms.topic: function
+f1_keywords:
+ - "wdm/MmMapIoSpace"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

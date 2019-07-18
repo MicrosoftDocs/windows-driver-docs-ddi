@@ -5,6 +5,8 @@ description: Predefined values of the "PreferredFormat" key which may appear as 
 ms.assetid: 13729758-f5f8-4f28-80b8-ed8c89d56db5
 ms.date: 07/16/2018
 ms.topic: enum
+f1_keywords:
+ - "dbgmodel/PreferredFormat"
 ms.keywords: PreferredFormat, , 
 req.header: dbgmodel.h
 req.include-header:

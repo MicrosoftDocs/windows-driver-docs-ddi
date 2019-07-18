@@ -8,6 +8,8 @@ ms.assetid: 7b2e0c82-c204-4d57-a2d2-066b8772ce13
 ms.date: 05/02/2018
 ms.keywords: RIL_GetCallList, RIL_GetCallList method [Network Drivers Starting with Windows Vista], netvista.ril_getcalllist, rilapi/RIL_GetCallList
 ms.topic: function
+f1_keywords:
+ - "rilapi/RIL_GetCallList"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows

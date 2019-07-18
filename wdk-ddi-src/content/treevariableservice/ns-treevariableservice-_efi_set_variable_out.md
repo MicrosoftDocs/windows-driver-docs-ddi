@@ -5,6 +5,8 @@ description:
 ms.assetid: 673a99e9-4ffe-4f98-9a3c-757501dce1e1
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "treevariableservice/_EFI_SET_VARIABLE_OUT"
 ms.keywords: _EFI_SET_VARIABLE_OUT, EFI_SET_VARIABLE_OUT, *PEFI_SET_VARIABLE_OUT, 
 req.header: treevariableservice.h
 req.include-header:

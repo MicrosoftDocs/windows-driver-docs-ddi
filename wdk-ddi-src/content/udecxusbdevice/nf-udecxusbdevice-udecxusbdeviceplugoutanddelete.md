@@ -8,6 +8,8 @@ ms.assetid: 27816655-1FE9-44A0-81BB-59808FE6F064
 ms.date: 05/07/2018
 ms.keywords: UdecxUsbDevicePlugOutAndDelete, UdecxUsbDevicePlugOutAndDelete function [Buses], buses.udecxusbdeviceplugoutanddelete, udecxusbdevice/UdecxUsbDevicePlugOutAndDelete
 ms.topic: function
+f1_keywords:
+ - "udecxusbdevice/UdecxUsbDevicePlugOutAndDelete"
 req.header: udecxusbdevice.h
 req.include-header: Udecx.h
 req.target-type: Windows

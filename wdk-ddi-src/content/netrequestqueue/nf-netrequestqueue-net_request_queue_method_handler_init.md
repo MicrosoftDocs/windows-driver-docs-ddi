@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: fac0974d-1496-4b73-bd1f-40ce1dddfee9
 ms.date: 02/09/2018
 ms.topic: function
+f1_keywords:
+ - "netrequestqueue/NET_REQUEST_QUEUE_METHOD_HANDLER_INIT"
 ms.keywords: NET_REQUEST_QUEUE_METHOD_HANDLER_INIT
 req.header: netrequestqueue.h
 req.include-header:

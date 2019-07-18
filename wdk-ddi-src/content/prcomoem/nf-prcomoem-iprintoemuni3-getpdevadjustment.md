@@ -8,6 +8,8 @@ ms.assetid: bb7d7248-9520-4bc8-8483-b05b78608fc7
 ms.date: 04/20/2018
 ms.keywords: GetPDEVAdjustment, GetPDEVAdjustment method [Print Devices], GetPDEVAdjustment method [Print Devices],IPrintOemUni3 interface, IPrintOemUni3 interface [Print Devices],GetPDEVAdjustment method, IPrintOemUni3.GetPDEVAdjustment, IPrintOemUni3::GetPDEVAdjustment, prcomoem/IPrintOemUni3::GetPDEVAdjustment, print.iprintoemuni3_getpdevadjustment, print_unidrv-pscript_rendering_d30dca0e-9e1d-4d42-9f9d-e6abd364da96.xml
 ms.topic: method
+f1_keywords:
+ - "prcomoem/IPrintOemUni3.GetPDEVAdjustment"
 req.header: prcomoem.h
 req.include-header: Prcomoem.h
 req.target-type: Desktop

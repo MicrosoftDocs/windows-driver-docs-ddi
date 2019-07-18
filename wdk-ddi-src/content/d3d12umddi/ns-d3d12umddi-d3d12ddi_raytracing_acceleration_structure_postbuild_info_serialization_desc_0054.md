@@ -5,6 +5,8 @@ description: Space requirements for serializing a ray tracing acceleration struc
 ms.assetid: f98cd914-ab0f-4433-8634-2c9236eb5402
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_POSTBUILD_INFO_SERIALIZATION_DESC_0054"
 ms.keywords: D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_POSTBUILD_INFO_SERIALIZATION_DESC_0054, D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_POSTBUILD_INFO_SERIALIZATION_DESC_0054, 
 req.header: d3d12umddi.h
 req.include-header:

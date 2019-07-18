@@ -8,6 +8,8 @@ ms.assetid: a593133a-8ce9-450a-8330-6b25c250be06
 ms.author: windowsdriverdev
 ms.date: 01/23/2019
 ms.topic: struct
+f1_keywords:
+ - "ntddk/PHYSICAL_COUNTER_EVENT_BUFFER_CONFIGURATION"
 ms.keywords: PHYSICAL_COUNTER_EVENT_BUFFER_CONFIGURATION, PHYSICAL_COUNTER_EVENT_BUFFER_CONFIGURATION, *PPHYSICAL_COUNTER_EVENT_BUFFER_CONFIGURATION,
 req.header: ntddk.h
 req.include-header:

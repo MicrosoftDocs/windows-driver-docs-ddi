@@ -8,6 +8,8 @@ ms.assetid: 2714E346-6BDD-49EF-9820-6B82F8F29380
 ms.date: 03/29/2018
 ms.keywords: "*PBAND_TABLE, BAND_TABLE, BAND_TABLE structure [Storage Devices], PBAND_TABLE, PBAND_TABLE structure pointer [Storage Devices], _BAND_TABLE, ehstorbandmgmt/BAND_TABLE, ehstorbandmgmt/PBAND_TABLE, storage.band_table"
 ms.topic: struct
+f1_keywords:
+ - "ehstorbandmgmt/BAND_TABLE"
 req.header: ehstorbandmgmt.h
 req.include-header: EhStorBandMgmt.h
 req.target-type: Windows

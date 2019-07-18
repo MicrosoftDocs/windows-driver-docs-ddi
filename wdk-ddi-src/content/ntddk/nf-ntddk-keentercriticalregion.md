@@ -8,6 +8,8 @@ ms.assetid: 87826cc7-2710-4582-a324-365dd34e2d0d
 ms.date: 04/30/2018
 ms.keywords: KeEnterCriticalRegion, KeEnterCriticalRegion routine [Kernel-Mode Driver Architecture], k105_cfa63781-e7c6-455a-8e99-4b20872a0b3f.xml, kernel.keentercriticalregion, wdm/KeEnterCriticalRegion
 ms.topic: function
+f1_keywords:
+ - "ntddk/KeEnterCriticalRegion"
 req.header: ntddk.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

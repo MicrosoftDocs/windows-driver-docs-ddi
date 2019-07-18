@@ -8,6 +8,8 @@ ms.assetid: 57818ea9-f60b-4a37-9f42-613fb9cfaf36
 ms.date: 02/23/2018
 ms.keywords: "*PMSR_SUPPORTED_CARD_TYPES, MSR_SUPPORTED_CARD_TYPES, MSR_SUPPORTED_CARD_TYPES structure, PMSR_SUPPORTED_CARD_TYPES, PMSR_SUPPORTED_CARD_TYPES structure pointer, _MSR_SUPPORTED_CARD_TYPES, pointofservicedriverinterface/MSR_SUPPORTED_CARD_TYPES, pointofservicedriverinterface/PMSR_SUPPORTED_CARD_TYPES, pos.msr_supported_card_types"
 ms.topic: struct
+f1_keywords:
+ - "pointofservicedriverinterface/MSR_SUPPORTED_CARD_TYPES"
 req.header: pointofservicedriverinterface.h
 req.include-header: PointOfServiceDriverInterface.h
 req.target-type: Windows

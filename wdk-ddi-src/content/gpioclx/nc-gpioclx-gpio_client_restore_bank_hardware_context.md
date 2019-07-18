@@ -8,6 +8,8 @@ ms.assetid: 7F73BC89-1BAF-413D-A901-56B4A0F3235A
 ms.date: 02/15/2018
 ms.keywords: CLIENT_RestoreBankHardwareContext, CLIENT_RestoreBankHardwareContext callback, CLIENT_RestoreBankHardwareContext callback function [Parallel Ports], GPIO.client_restorebankhardwarecontext, GPIO_CLIENT_RESTORE_BANK_HARDWARE_CONTEXT, gpioclx/CLIENT_RestoreBankHardwareContext
 ms.topic: callback
+f1_keywords:
+ - "gpioclx/CLIENT_RestoreBankHardwareContext"
 req.header: gpioclx.h
 req.include-header: 
 req.target-type: Desktop

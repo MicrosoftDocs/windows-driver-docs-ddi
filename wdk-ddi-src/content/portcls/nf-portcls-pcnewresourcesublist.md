@@ -8,6 +8,8 @@ ms.assetid: a7e1a7cf-60ea-4489-a1c2-eac5b218af8c
 ms.date: 05/08/2018
 ms.keywords: PcNewResourceSublist, PcNewResourceSublist function [Audio Devices], audio.pcnewresourcesublist, audpc-routines_3354ba13-6737-4862-b8b4-2afa64dc8eab.xml, portcls/PcNewResourceSublist
 ms.topic: function
+f1_keywords:
+ - "portcls/PcNewResourceSublist"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal

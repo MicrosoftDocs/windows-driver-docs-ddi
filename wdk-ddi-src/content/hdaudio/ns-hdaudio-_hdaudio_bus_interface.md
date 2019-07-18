@@ -8,6 +8,8 @@ ms.assetid: 6b3bc5ce-05d2-45e0-91d8-6bb34e58777f
 ms.date: 05/08/2018
 ms.keywords: "*PHDAUDIO_BUS_INTERFACE, HDAUDIO_BUS_INTERFACE, HDAUDIO_BUS_INTERFACE structure [Audio Devices], PHDAUDIO_BUS_INTERFACE, PHDAUDIO_BUS_INTERFACE structure pointer [Audio Devices], _HDAUDIO_BUS_INTERFACE, aud-prop2_4d39bbd4-8c0b-4f2c-98a7-618d891593c1.xml, audio.hdaudio_bus_interface, hdaudio/HDAUDIO_BUS_INTERFACE, hdaudio/PHDAUDIO_BUS_INTERFACE"
 ms.topic: struct
+f1_keywords:
+ - "hdaudio/HDAUDIO_BUS_INTERFACE"
 req.header: hdaudio.h
 req.include-header: Hdaudio.h
 req.target-type: Windows

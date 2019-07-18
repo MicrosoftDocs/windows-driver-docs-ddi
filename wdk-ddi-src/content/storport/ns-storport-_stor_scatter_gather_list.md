@@ -8,6 +8,8 @@ ms.assetid: 9fbb8dea-67d3-4bb9-afc2-d623bea2ca8d
 ms.date: 03/29/2018
 ms.keywords: "*PSTOR_SCATTER_GATHER_LIST, PSTOR_SCATTER_GATHER_LIST, PSTOR_SCATTER_GATHER_LIST structure pointer [Storage Devices], STOR_SCATTER_GATHER_LIST, STOR_SCATTER_GATHER_LIST structure [Storage Devices], _STOR_SCATTER_GATHER_LIST, storage.stor_scatter_gather_list, storport/PSTOR_SCATTER_GATHER_LIST, storport/STOR_SCATTER_GATHER_LIST, structs-storport_eac06620-81b1-42e8-9517-3a2ce1b6623a.xml"
 ms.topic: struct
+f1_keywords:
+ - "storport/STOR_SCATTER_GATHER_LIST"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Windows

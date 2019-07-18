@@ -7,6 +7,8 @@ ms.assetid: d64abd43-edf2-465a-8d99-8fdce1fcd25f
 ms.date: 05/10/2018
 ms.keywords: D3DKMTLock, D3DKMTLock function [Display Devices], OpenGL_Functions_ca085861-b8a0-434a-843d-9b8052376df5.xml, d3dkmthk/D3DKMTLock, display.d3dkmtlock
 ms.topic: function
+f1_keywords:
+ - "d3dkmthk/D3DKMTLock"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal

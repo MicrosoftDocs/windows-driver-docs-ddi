@@ -8,6 +8,8 @@ ms.assetid: 21841DC6-B95F-4372-BBD1-EA195832A118
 ms.date: 05/02/2018
 ms.keywords: MINIPORT_WDI_TAL_TXRX_STOP, MINIPORT_WDI_TAL_TXRX_STOP callback, MiniportWdiTalTxRxStop, MiniportWdiTalTxRxStop callback function [Network Drivers Starting with Windows Vista], dot11wdi/MiniportWdiTalTxRxStop, netvista.miniportwditaltxrxstop
 ms.topic: callback
+f1_keywords:
+ - "dot11wdi/MiniportWdiTalTxRxStop"
 req.header: dot11wdi.h
 req.include-header: 
 req.target-type: Windows

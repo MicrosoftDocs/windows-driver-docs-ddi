@@ -7,6 +7,8 @@ ms.assetid: f96a63b5-a560-4230-b6c9-3e3e98c1b8ab
 ms.date: 05/10/2018
 ms.keywords: ContentKeySize, D3D11_1DDI_VIDEO_DECODER_CONFIG, D3D11_1DDI_VIDEO_DECODER_CONFIG structure [Display Devices], d3d10umddi/D3D11_1DDI_VIDEO_DECODER_CONFIG, display.d3d11_1ddi_video_decoder_config, pContentKey
 ms.topic: struct
+f1_keywords:
+ - "d3d10umddi/D3D11_1DDI_VIDEO_DECODER_CONFIG"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows

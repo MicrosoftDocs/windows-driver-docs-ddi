@@ -8,6 +8,8 @@ ms.assetid: 91ffdc97-a46c-4f15-8823-f07d23e6a1d0
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
+f1_keywords:
+ - "ntddk/KUSER_SHARED_DATA"
 ms.keywords: KUSER_SHARED_DATA, KUSER_SHARED_DATA, *PKUSER_SHARED_DATA, 
 req.header: ntddk.h
 req.include-header:

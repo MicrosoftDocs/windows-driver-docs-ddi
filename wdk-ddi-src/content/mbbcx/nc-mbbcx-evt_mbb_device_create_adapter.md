@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: db841566-dd24-4687-b00c-1bf2a22f4243
 ms.date: 02/06/2019
 ms.topic: callback
+f1_keywords:
+ - "mbbcx/-	EVT_MBB_DEVICE_CREATE_ADAPTER"
 req.header: mbbcx.h
 req.include-header:
 req.target-type: Universal

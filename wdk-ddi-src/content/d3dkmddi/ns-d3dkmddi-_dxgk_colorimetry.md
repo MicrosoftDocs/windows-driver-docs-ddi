@@ -7,6 +7,8 @@ ms.assetid: F3F9B6EC-B978-4C87-8AE0-8F6BC73099D2
 ms.date: 05/10/2018
 ms.keywords: "*PDXGK_COLORIMETRY, DXGK_COLORIMETRY, DXGK_COLORIMETRY structure [Display Devices], PDXGK_COLORIMETRY, PDXGK_COLORIMETRY structure pointer [Display Devices], _DXGK_COLORIMETRY, d3dkmddi/DXGK_COLORIMETRY, d3dkmddi/PDXGK_COLORIMETRY, display.dxgk_colorimetry"
 ms.topic: struct
+f1_keywords:
+ - "d3dkmddi/DXGK_COLORIMETRY"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Windows

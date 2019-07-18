@@ -8,6 +8,8 @@ ms.assetid: 47490858-3fe0-4a94-adae-6589cad6a842
 ms.date: 04/30/2018
 ms.keywords: "*PHID_COLLECTION_INFORMATION, HID_COLLECTION_INFORMATION, HID_COLLECTION_INFORMATION structure [Human Input Devices], PHID_COLLECTION_INFORMATION, PHID_COLLECTION_INFORMATION structure pointer [Human Input Devices], _HID_COLLECTION_INFORMATION, hid.hid_collection_information, hidclass/HID_COLLECTION_INFORMATION, hidclass/PHID_COLLECTION_INFORMATION, hidstrct_d61a583e-66c7-4851-ba75-3e5973a95c70.xml"
 ms.topic: struct
+f1_keywords:
+ - "hidclass/HID_COLLECTION_INFORMATION"
 req.header: hidclass.h
 req.include-header: Hidclass.h
 req.target-type: Windows

@@ -7,6 +7,8 @@ ms.assetid: e489919c-c0a7-4792-9758-ce7b587b13cc
 ms.date: 05/10/2018
 ms.keywords: DXGK_MULTIPLANE_OVERLAY_BLEND, DXGK_MULTIPLANE_OVERLAY_BLEND structure [Display Devices], _DXGK_MULTIPLANE_OVERLAY_BLEND, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_BLEND, display.dxgk_multiplane_overlay_blend
 ms.topic: struct
+f1_keywords:
+ - "d3dkmddi/DXGK_MULTIPLANE_OVERLAY_BLEND"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

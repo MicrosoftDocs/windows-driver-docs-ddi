@@ -7,6 +7,8 @@ ms.assetid: 7980F1FD-D7C2-4C74-8652-89FD38BE4D1F
 ms.date: 05/10/2018
 ms.keywords: D3DKMT_RECLAIMALLOCATIONS2, D3DKMT_RECLAIMALLOCATIONS2 structure [Display Devices], _D3DKMT_RECLAIMALLOCATIONS2, d3dkmthk/D3DKMT_RECLAIMALLOCATIONS2, display.d3dkmt_reclaimallocations2
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/D3DKMT_RECLAIMALLOCATIONS2"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

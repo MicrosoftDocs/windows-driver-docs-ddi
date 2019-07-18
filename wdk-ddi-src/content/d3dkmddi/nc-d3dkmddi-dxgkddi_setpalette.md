@@ -7,6 +7,8 @@ ms.assetid: 3a46bf84-df62-4247-b842-d5b131c96428
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_SETPALETTE, DXGKDDI_SETPALETTE callback, DmFunctions_88e6fd1a-1c14-4a4e-8616-c508b07ed94e.xml, DxgkDdiSetPalette, DxgkDdiSetPalette callback function [Display Devices], d3dkmddi/DxgkDdiSetPalette, display.dxgkddisetpalette
 ms.topic: callback
+f1_keywords:
+ - "d3dkmddi/DxgkDdiSetPalette"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Desktop

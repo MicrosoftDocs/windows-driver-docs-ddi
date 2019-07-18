@@ -8,6 +8,8 @@ ms.assetid: 4c9df63e-b0cb-4a49-9a01-9fc8f8c592f6
 ms.date: 04/30/2018
 ms.keywords: ALLOCATE_FUNCTION_EX, DrvrRtns_a8e59075-4ed4-49d3-a516-6cee5b6390c8.xml, LookasideListAllocateEx, LookasideListAllocateEx routine [Kernel-Mode Driver Architecture], kernel.lookasidelistallocateex, wdm/LookasideListAllocateEx
 ms.topic: callback
+f1_keywords:
+ - "wdm/LookasideListAllocateEx"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop

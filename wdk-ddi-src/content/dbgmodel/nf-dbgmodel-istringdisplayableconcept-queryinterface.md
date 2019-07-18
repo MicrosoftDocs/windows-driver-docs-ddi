@@ -5,6 +5,8 @@ description: Retrieves pointers to the supported interfaces on an object. This m
 ms.assetid: edb82187-ddf5-4ebb-b8d5-ea191053533b
 ms.date: 10/05/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IStringDisplayableConcept.QueryInterface"
 ms.keywords: IStringDisplayableConcept::QueryInterface, QueryInterface, IStringDisplayableConcept.QueryInterface, IStringDisplayableConcept::QueryInterface, IStringDisplayableConcept.QueryInterface
 req.header: dbgmodel.h
 req.include-header:

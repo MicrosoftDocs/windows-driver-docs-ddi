@@ -5,6 +5,8 @@ description: Creates a context associated with a scheduling group.
 ms.assetid: 4a4f8d97-211a-46bd-b1ab-00c80b835ccb
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_CREATESCHEDULINGGROUPCONTEXT_CB_0050"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

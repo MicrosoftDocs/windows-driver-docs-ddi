@@ -6,6 +6,8 @@ tech.root: storage
 ms.assetid: dab84969-6432-4730-b06e-b7bbf7a07f2d
 ms.date: 04/11/2018
 ms.topic: function
+f1_keywords:
+ - "ntddstor/DeviceDsmValidateInput"
 ms.keywords: DeviceDsmValidateInput
 req.header: ntddstor.h
 req.include-header:

@@ -5,6 +5,8 @@ description: Arguments used to set up or modify the scheduling properties for a 
 ms.assetid: 907e8775-b899-406f-b104-7b5308f7f177
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3dkmddi/_DXGKARG_SETCONTEXTSCHEDULINGPROPERTIES"
 ms.keywords: _DXGKARG_SETCONTEXTSCHEDULINGPROPERTIES, DXGKARG_SETCONTEXTSCHEDULINGPROPERTIES,
 req.header: d3dkmddi.h
 req.include-header:

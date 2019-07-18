@@ -8,6 +8,8 @@ ms.assetid: f9b50dc2-1af7-47c3-87c6-d33858569eed
 ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_aad4d605-26bb-468f-a608-426a1e570037.xml, WdfDeviceRemoveRemovalRelationsPhysicalDevice, WdfDeviceRemoveRemovalRelationsPhysicalDevice method, kmdf.wdfdeviceremoveremovalrelationsphysicaldevice, wdf.wdfdeviceremoveremovalrelationsphysicaldevice, wdfdevice/WdfDeviceRemoveRemovalRelationsPhysicalDevice
 ms.topic: function
+f1_keywords:
+ - "wdfdevice/WdfDeviceRemoveRemovalRelationsPhysicalDevice"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

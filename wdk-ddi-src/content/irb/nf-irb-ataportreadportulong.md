@@ -8,6 +8,8 @@ ms.assetid: f9e5fb0a-7add-462c-9b2a-2b543f7c7649
 ms.date: 03/29/2018
 ms.keywords: AtaPortReadPortUlong, AtaPortReadPortUlong routine [Storage Devices], atartns_e2d91111-cf48-4987-82ff-055469d67dc8.xml, irb/AtaPortReadPortUlong, storage.ataportreadportulong
 ms.topic: function
+f1_keywords:
+ - "irb/AtaPortReadPortUlong"
 req.header: irb.h
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop

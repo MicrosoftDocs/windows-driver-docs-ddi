@@ -7,6 +7,8 @@ ms.assetid: 50E3F5CC-AFB9-4527-A812-44295373D80B
 ms.date: 05/10/2018
 ms.keywords: D3DKMT_TRIMNOTIFICATION, D3DKMT_TRIMNOTIFICATION structure [Display Devices], _D3DKMT_TRIMNOTIFICATION, d3dkmthk/D3DKMT_TRIMNOTIFICATION, display.d3dkmt_trimnotification
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/D3DKMT_TRIMNOTIFICATION"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

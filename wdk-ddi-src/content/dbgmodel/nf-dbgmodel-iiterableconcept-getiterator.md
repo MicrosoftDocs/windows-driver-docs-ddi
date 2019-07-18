@@ -5,6 +5,8 @@ description: The GetIterator method on the iterable concept returns an iterator 
 ms.assetid: 1060b1b8-8a7c-4548-8e87-0449275bd071
 ms.date: 09/19/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IIterableConcept.GetIterator"
 ms.keywords: IIterableConcept::GetIterator, GetIterator, IIterableConcept.GetIterator, IIterableConcept::GetIterator, IIterableConcept.GetIterator
 req.header: dbgmodel.h
 req.include-header:

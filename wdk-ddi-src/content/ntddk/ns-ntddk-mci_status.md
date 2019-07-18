@@ -8,6 +8,8 @@ ms.assetid: 468fe430-d8d6-4736-956a-7639abd9c12b
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
+f1_keywords:
+ - "ntddk/MCI_STATUS"
 ms.keywords: MCI_STATUS, MCI_STATUS, *PMCI_STATUS, 
 req.header: ntddk.h
 req.include-header:

@@ -8,6 +8,8 @@ ms.assetid: e929f8c1-fe36-4374-976f-b0bfb3e0b4a2
 ms.date: 04/23/2018
 ms.keywords: CamStartCapture, CamStartCapture callback function [Streaming Media Devices], PCAM_START_CAPTURE_ROUTINE, PCAM_START_CAPTURE_ROUTINE callback, stream.camstartcapture, usbcamdi/CamStartCapture, usbcmdpr_c4887b29-94a3-498f-ad6a-4f6a58bb8345.xml
 ms.topic: callback
+f1_keywords:
+ - "usbcamdi/CamStartCapture"
 req.header: usbcamdi.h
 req.include-header: Usbcamdi.h
 req.target-type: Desktop

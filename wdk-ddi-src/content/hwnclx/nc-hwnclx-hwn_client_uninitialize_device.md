@@ -8,6 +8,8 @@ ms.assetid: 19ed1c21-d041-4876-8f90-4319e43a7004
 ms.date: 02/15/2018
 ms.keywords: "*PHWN_CLIENT_UNINITIALIZE_DEVICE, *PHWN_CLIENT_UNINITIALIZE_DEVICE callback function pointer, HWN_CLIENT_UNINITIALIZE_DEVICE, HwnClientUninitializeDevice, HwnClientUninitializeDevice callback function, gpiobtn.hwn_client_uninitialize_device, hwnclx/HwnClientUninitializeDevice"
 ms.topic: callback
+f1_keywords:
+ - "hwnclx/*PHWN_CLIENT_UNINITIALIZE_DEVICE"
 req.header: hwnclx.h
 req.include-header:
 req.target-type: Windows

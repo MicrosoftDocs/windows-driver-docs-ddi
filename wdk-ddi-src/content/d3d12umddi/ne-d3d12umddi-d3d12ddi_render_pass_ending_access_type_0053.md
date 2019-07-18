@@ -5,6 +5,8 @@ description:
 ms.assetid: 8816fc0d-1f78-4310-a036-e4278a4a6c71
 ms.date: 10/19/2018
 ms.topic: enum
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_RENDER_PASS_ENDING_ACCESS_TYPE_0053"
 ms.keywords: D3D12DDI_RENDER_PASS_ENDING_ACCESS_TYPE_0053, D3D12DDI_RENDER_PASS_ENDING_ACCESS_TYPE_0053, 
 req.header: d3d12umddi.h
 req.include-header:

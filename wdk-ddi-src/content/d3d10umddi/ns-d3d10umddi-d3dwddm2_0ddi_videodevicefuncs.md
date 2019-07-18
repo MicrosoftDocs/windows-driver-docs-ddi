@@ -7,6 +7,8 @@ ms.assetid: 59D06B73-413B-4595-841E-7E0A696A3AC2
 ms.date: 05/10/2018
 ms.keywords: D3DWDDM2_0DDI_VIDEODEVICEFUNCS, D3DWDDM2_0DDI_VIDEODEVICEFUNCS structure [Display Devices], d3d10umddi/D3DWDDM2_0DDI_VIDEODEVICEFUNCS, display.d3dwddm2_0ddi_videodevicefuncs
 ms.topic: struct
+f1_keywords:
+ - "d3d10umddi/D3DWDDM2_0DDI_VIDEODEVICEFUNCS"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows

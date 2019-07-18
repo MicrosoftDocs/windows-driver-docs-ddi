@@ -8,6 +8,8 @@ ms.assetid: d5870125-2c0f-4cb9-ad2a-dc4939745504
 ms.date: 02/16/2018
 ms.keywords: "*PDOT11_MSONEX_RESULT, DOT11_MSONEX_FAILURE, DOT11_MSONEX_IN_PROGRESS, DOT11_MSONEX_RESULT, DOT11_MSONEX_RESULT enumeration [Network Drivers Starting with Windows Vista], DOT11_MSONEX_SUCCESS, Native_802.11_data_types_504c48c9-585e-408b-bb8f-6668cddd7eff.xml, PDOT11_MSONEX_RESULT, PDOT11_MSONEX_RESULT enumeration pointer [Network Drivers Starting with Windows Vista], _DOT11_MSONEX_RESULT, netvista.dot11_msonex_result, wlanihv/DOT11_MSONEX_FAILURE, wlanihv/DOT11_MSONEX_IN_PROGRESS, wlanihv/DOT11_MSONEX_RESULT, wlanihv/DOT11_MSONEX_SUCCESS, wlanihv/PDOT11_MSONEX_RESULT"
 ms.topic: enum
+f1_keywords:
+ - "wlanihv/DOT11_MSONEX_RESULT"
 req.header: wlanihv.h
 req.include-header: Wlanihv.h
 req.target-type: Windows

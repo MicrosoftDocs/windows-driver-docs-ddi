@@ -8,6 +8,8 @@ ms.assetid: AD3CDF90-76ED-498B-8DE1-B191504EB415
 ms.date: 04/20/2018
 ms.keywords: IPrinterScriptableStream, IPrinterScriptableStream interface [Print Devices], IPrinterScriptableStream interface [Print Devices],described, print.iprinterscriptablestream, printerextension/IPrinterScriptableStream
 ms.topic: interface
+f1_keywords:
+ - "printerextension/IPrinterScriptableStream"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows

@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 6ca814a1-599b-498c-af32-a21fe3359cd0
 ms.date: 10/19/2018
 ms.topic: function
+f1_keywords:
+ - "netreceivescaling/NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES_INIT"
 ms.keywords: NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES_INIT
 req.header: netreceivescaling.h
 req.include-header:

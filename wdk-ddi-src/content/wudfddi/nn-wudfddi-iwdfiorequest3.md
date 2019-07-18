@@ -8,6 +8,8 @@ ms.assetid: 12F4CDB7-EEA5-49D1-AD41-6F5F0C9ED6C3
 ms.date: 02/26/2018
 ms.keywords: IWDFIoRequest3, IWDFIoRequest3 interface, IWDFIoRequest3 interface,described, umdf.iwdfiorequest3, wdf.iwdfiorequest3, wudfddi/IWDFIoRequest3
 ms.topic: interface
+f1_keywords:
+ - "wudfddi/IWDFIoRequest3"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Desktop

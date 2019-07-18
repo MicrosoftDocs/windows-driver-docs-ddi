@@ -7,6 +7,8 @@ ms.assetid: 6bde6e00-70ba-4fa5-9cc0-9884ce7381ed
 ms.date: 05/10/2018
 ms.keywords: CheckVideoDecoderFormat, CheckVideoDecoderFormat callback function [Display Devices], PFND3D11_1DDI_CHECKVIDEODECODERFORMAT, PFND3D11_1DDI_CHECKVIDEODECODERFORMAT callback, d3d10umddi/CheckVideoDecoderFormat, display.checkvideodecoderformat
 ms.topic: callback
+f1_keywords:
+ - "d3d10umddi/CheckVideoDecoderFormat"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

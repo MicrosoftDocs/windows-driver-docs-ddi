@@ -8,6 +8,8 @@ ms.assetid: e3ad8454-0e23-48fd-a6ef-c9257dc4816d
 ms.date: 05/02/2018
 ms.keywords: "*LPRILRADIOSTATEGROUP, RILRADIOSTATEGROUP, RILRADIOSTATEGROUP structure [Network Drivers Starting with Windows Vista], netvista.rilradiostategroup, ntddrilapitypes/RILRADIOSTATEGROUP"
 ms.topic: struct
+f1_keywords:
+ - "rilapitypes/RILRADIOSTATEGROUP"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

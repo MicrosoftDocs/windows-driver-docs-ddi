@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: b7ae57e6-d3ce-409f-a737-ca303d1a58b1
 ms.date: 02/05/2018
 ms.topic: enum
+f1_keywords:
+ - "netadapter/NET_ADAPTER_AUTO_NEGOTIATION_FLAGS"
 ms.keywords: _NET_ADAPTER_AUTO_NEGOTIATION_FLAGS, NET_ADAPTER_AUTO_NEGOTIATION_FLAGS, 
 req.header: netadapter.h
 req.include-header:

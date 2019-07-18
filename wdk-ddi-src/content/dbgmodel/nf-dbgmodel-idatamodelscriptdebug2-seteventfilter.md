@@ -5,6 +5,8 @@ description: The SetEventFilter method changes the "break on event" behavior for
 ms.assetid: cabb3bfa-e704-4209-82a3-7334f950fb34
 ms.date: 09/11/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDataModelScriptDebug2.SetEventFilter"
 ms.keywords: IDataModelScriptDebug2::SetEventFilter, SetEventFilter, IDataModelScriptDebug2.SetEventFilter, IDataModelScriptDebug2::SetEventFilter, IDataModelScriptDebug2.SetEventFilter
 req.header: dbgmodel.h
 req.include-header:

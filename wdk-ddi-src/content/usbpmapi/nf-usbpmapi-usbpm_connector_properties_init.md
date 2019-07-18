@@ -5,6 +5,8 @@ description: Initializes a **USBPM_CONNECTOR_PROPERTIES** structure.
 ms.assetid: 99379e0c-8bf7-4972-9883-7da58820b1a1
 ms.date: 09/30/2018
 ms.topic: function
+f1_keywords:
+ - "usbpmapi/USBPM_CONNECTOR_PROPERTIES_INIT"
 ms.keywords: USBPM_CONNECTOR_PROPERTIES_INIT
 tech.root: usbref
 req.header: usbpmapi.h

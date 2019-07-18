@@ -8,6 +8,8 @@ ms.assetid: f92a75a9-6578-4bbf-8d80-680493b4d284
 ms.date: 05/03/2018
 ms.keywords: IDebugRegisters2, IDebugRegisters2 interface [Windows Debugging], IDebugRegisters2 interface [Windows Debugging],described, dbgeng/IDebugRegisters2, debugger.idebugregisters2
 ms.topic: interface
+f1_keywords:
+ - "dbgeng/IDebugRegisters2"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

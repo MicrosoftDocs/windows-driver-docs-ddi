@@ -5,6 +5,8 @@ description: The IsInvocable method returns whether or not the script is invocab
 ms.assetid: ff8dc281-89db-4ef5-afaa-f022015a6247
 ms.date: 08/20/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDataModelScript.IsInvocable"
 ms.keywords: IDataModelScript::IsInvocable, IsInvocable, IDataModelScript.IsInvocable, IDataModelScript::IsInvocable, IDataModelScript.IsInvocable
 req.header: dbgmodel.h
 req.include-header:

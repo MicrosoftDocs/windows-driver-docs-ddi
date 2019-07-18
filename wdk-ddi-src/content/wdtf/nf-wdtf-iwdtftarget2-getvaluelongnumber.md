@@ -8,6 +8,8 @@ ms.assetid: 9336d850-1d42-47e5-9a69-f15e1147a71f
 ms.date: 04/04/2018
 ms.keywords: GetValueLongNumber, GetValueLongNumber method [Windows Device Testing Framework], GetValueLongNumber method [Windows Device Testing Framework],IWDTFTarget2 interface, IWDTFTarget2 interface [Windows Device Testing Framework],GetValueLongNumber method, IWDTFTarget2.GetValueLongNumber, IWDTFTarget2::GetValueLongNumber, Microsoft.WDTF.IWDTFTarget2.GetValueLongNumber, Microsoft::WDTF::IWDTFTarget2::GetValueLongNumber, dtf.iwdtftarget2_getvaluelongnumber, wdtf/IWDTFTarget2::GetValueLongNumber
 ms.topic: method
+f1_keywords:
+ - "wdtf/IWDTFTarget2.GetValueLongNumber"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Desktop

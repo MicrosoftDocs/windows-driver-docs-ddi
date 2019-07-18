@@ -8,6 +8,8 @@ ms.assetid: 9C35B77E-FFEC-42A0-9D2C-9E52E210C941
 ms.date: 04/30/2018
 ms.keywords: RtlLongToInt, RtlLongToInt function [Kernel-Mode Driver Architecture], kernel.rtllongtoint, ntintsafe/RtlLongToInt
 ms.topic: function
+f1_keywords:
+ - "ntintsafe/RtlLongToInt"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop

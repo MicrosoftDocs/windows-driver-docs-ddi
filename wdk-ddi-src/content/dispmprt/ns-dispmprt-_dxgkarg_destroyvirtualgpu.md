@@ -8,6 +8,8 @@ ms.assetid: a188ce90-46eb-4098-8da2-bf890f720ce1
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
 ms.topic: struct
+f1_keywords:
+ - "dispmprt/_DXGKARG_DESTROYVIRTUALGPU"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.keywords: _DXGKARG_DESTROYVIRTUALGPU, DXGKARG_DESTROYVIRTUALGPU, *PDXGKARG_DESTROYVIRTUALGPU, 

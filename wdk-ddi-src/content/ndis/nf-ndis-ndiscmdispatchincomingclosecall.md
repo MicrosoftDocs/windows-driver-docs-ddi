@@ -8,6 +8,8 @@ ms.assetid: f0f1221d-3d95-4d4c-acd0-6bcd653241c4
 ms.date: 05/02/2018
 ms.keywords: NdisCmDispatchIncomingCloseCall, NdisCmDispatchIncomingCloseCall function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_877248ee-cc60-430c-836c-d2580627363f.xml, ndis/NdisCmDispatchIncomingCloseCall, netvista.ndiscmdispatchincomingclosecall
 ms.topic: function
+f1_keywords:
+ - "ndis/NdisCmDispatchIncomingCloseCall"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

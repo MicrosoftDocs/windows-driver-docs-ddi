@@ -8,6 +8,8 @@ ms.assetid: A365381B-3456-47B6-93C7-81C8963CB183
 ms.date: 05/03/2018
 ms.keywords: SensorsCxSensorCreate, SensorsCxSensorCreate function [Sensor Devices], sensors.sensorscxsensorcreate, sensorscx/SensorsCxSensorCreate
 ms.topic: function
+f1_keywords:
+ - "sensorscx/SensorsCxSensorCreate"
 req.header: sensorscx.h
 req.include-header: 
 req.target-type: Desktop

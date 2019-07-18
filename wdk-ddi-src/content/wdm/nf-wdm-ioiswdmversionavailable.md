@@ -8,6 +8,8 @@ ms.assetid: 80b72de0-02a6-4891-b74a-c41cb14fa629
 ms.date: 04/30/2018
 ms.keywords: IoIsWdmVersionAvailable, IoIsWdmVersionAvailable routine [Kernel-Mode Driver Architecture], k104_775d6afa-6edd-4922-bdff-a8fe5d32bc3a.xml, kernel.ioiswdmversionavailable, wdm/IoIsWdmVersionAvailable
 ms.topic: function
+f1_keywords:
+ - "wdm/IoIsWdmVersionAvailable"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

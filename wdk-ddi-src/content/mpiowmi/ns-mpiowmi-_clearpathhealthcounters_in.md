@@ -8,6 +8,8 @@ ms.assetid: 12c4462a-886b-4446-ace4-128af0af5dc0
 ms.date: 03/29/2018
 ms.keywords: "*PClearPathHealthCounters_IN, ClearPathHealthCounters_IN, ClearPathHealthCounters_IN structure [Storage Devices], PClearPathHealthCounters_IN, PClearPathHealthCounters_IN structure pointer [Storage Devices], _ClearPathHealthCounters_IN, mpiowmi/ClearPathHealthCounters_IN, mpiowmi/PClearPathHealthCounters_IN, storage.clearpathhealthcounters_in, structs-scsibus_c1039fbb-d682-4fe8-a1ee-8fe7f7a0d1fc.xml"
 ms.topic: struct
+f1_keywords:
+ - "mpiowmi/ClearPathHealthCounters_IN"
 req.header: mpiowmi.h
 req.include-header: Mpiowmi.h
 req.target-type: Windows

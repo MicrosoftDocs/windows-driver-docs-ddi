@@ -6,6 +6,8 @@ tech.root: display
 ms.assetid: 81351bc7-68af-4cfe-962f-725793c052fe
 ms.date: 08/03/2018
 ms.topic: struct
+f1_keywords:
+ - "ntddvdeo/_BRIGHTNESS_LEVEL"
 ms.keywords: _BRIGHTNESS_LEVEL, *PBRIGHTNESS_LEVEL, BRIGHTNESS_LEVEL,
 req.header: ntddvdeo.h
 req.include-header:

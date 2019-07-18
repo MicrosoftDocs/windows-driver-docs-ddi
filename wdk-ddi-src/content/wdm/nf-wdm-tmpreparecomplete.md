@@ -8,6 +8,8 @@ ms.assetid: b09fac2c-a563-4caa-b2a3-6b9bcb1353ac
 ms.date: 04/30/2018
 ms.keywords: TmPrepareComplete, TmPrepareComplete routine [Kernel-Mode Driver Architecture], kernel.tmpreparecomplete, ktm_ref_e0ecfef3-989f-43c4-b4a6-6a2406e8aaa5.xml, wdm/TmPrepareComplete
 ms.topic: function
+f1_keywords:
+ - "wdm/TmPrepareComplete"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

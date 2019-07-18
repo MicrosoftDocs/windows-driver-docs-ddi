@@ -8,6 +8,8 @@ ms.assetid: 615A19E7-ED3B-4C41-9B3B-F4FB77811BC2
 ms.date: 02/26/2018
 ms.keywords: READ_REGISTER_BUFFER_ULONG, READ_REGISTER_BUFFER_ULONG function, umdf.read_register_buffer_ulong, wdf.read_register_buffer_ulong, wudfddi_hwaccess/READ_REGISTER_BUFFER_ULONG
 ms.topic: function
+f1_keywords:
+ - "wudfddi_hwaccess/READ_REGISTER_BUFFER_ULONG"
 req.header: wudfddi_hwaccess.h
 req.include-header: 
 req.target-type: Desktop

@@ -8,6 +8,8 @@ ms.assetid: abdbd8ba-f534-416e-90ca-b2876774ba16
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
 ms.topic: enum
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_FLAGS_0063"
 ms.keywords: D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_FLAGS_0063, D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_FLAGS_0063, 
 req.header: d3d12umddi.h
 req.include-header:

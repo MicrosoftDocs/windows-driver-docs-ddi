@@ -8,6 +8,8 @@ ms.assetid: 5731d68a-c733-4af6-9fe3-35ab0aec25b7
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
 ms.topic: callback
+f1_keywords:
+ - "dispmprt/DXGKDDI_WRITEVIRTUALFUNCTIONCONFIG"
 req.header: dispmprt.h
 req.include-header:
 req.target-type:

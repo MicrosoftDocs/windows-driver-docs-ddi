@@ -8,6 +8,8 @@ ms.assetid: 62a2a316-afb4-4133-b256-933ea04c0994
 ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectFdoPdoRef_19cc338e-2040-4e60-8e6f-7be6dbb33c13.xml, WdfPdoGetParent, WdfPdoGetParent method, kmdf.wdfpdogetparent, wdf.wdfpdogetparent, wdfpdo/WdfPdoGetParent
 ms.topic: function
+f1_keywords:
+ - "wdfpdo/WdfPdoGetParent"
 req.header: wdfpdo.h
 req.include-header: Wdf.h
 req.target-type: Universal

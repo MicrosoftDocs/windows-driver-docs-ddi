@@ -8,6 +8,8 @@ ms.assetid: a379a910-4712-4d77-af52-614a1b9cc511
 ms.date: 04/30/2018
 ms.keywords: RtlSetAllBits, RtlSetAllBits routine [Kernel-Mode Driver Architecture], k109_e7f7eecf-e845-455b-a94d-eccad1ce448a.xml, kernel.rtlsetallbits, wdm/RtlSetAllBits
 ms.topic: function
+f1_keywords:
+ - "wdm/RtlSetAllBits"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

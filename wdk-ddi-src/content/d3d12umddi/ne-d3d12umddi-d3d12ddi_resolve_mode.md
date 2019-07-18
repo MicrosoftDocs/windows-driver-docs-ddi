@@ -5,6 +5,8 @@ description: Specifies a Render Pass resolve operation in display driver develop
 ms.assetid: 0af9440b-065d-4324-9888-f5d2119103d9
 ms.date: 10/19/2018
 ms.topic: enum
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_RESOLVE_MODE"
 ms.keywords: D3D12DDI_RESOLVE_MODE, D3D12DDI_RESOLVE_MODE, Render Pass
 req.header: d3d12umddi.h
 req.include-header:

@@ -8,6 +8,8 @@ ms.assetid: FAE099E4-6BE9-4637-934F-9F86FFDCAA6A
 ms.date: 05/07/2018
 ms.keywords: UcxControllerNeedsReset, UcxControllerNeedsReset method [Buses], buses._ucxcontrollerneedsreset, ucxcontroller/UcxControllerNeedsReset
 ms.topic: function
+f1_keywords:
+ - "ucxcontroller/UcxControllerNeedsReset"
 req.header: ucxcontroller.h
 req.include-header: Ucxclass.h
 req.target-type: Windows

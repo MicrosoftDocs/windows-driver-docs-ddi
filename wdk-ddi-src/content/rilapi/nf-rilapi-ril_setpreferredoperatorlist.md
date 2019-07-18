@@ -8,6 +8,8 @@ ms.assetid: e61e9e3f-b70f-4b0a-8e64-4c7c4c086130
 ms.date: 05/02/2018
 ms.keywords: RIL_SetPreferredOperatorList, RIL_SetPreferredOperatorList method [Network Drivers Starting with Windows Vista], netvista.ril_setpreferredoperatorlist, rilapi/RIL_SetPreferredOperatorList
 ms.topic: function
+f1_keywords:
+ - "rilapi/RIL_SetPreferredOperatorList"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows

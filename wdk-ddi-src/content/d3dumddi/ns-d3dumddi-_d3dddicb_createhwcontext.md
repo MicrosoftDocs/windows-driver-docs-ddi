@@ -8,6 +8,8 @@ ms.assetid: DA1C3976-0261-4FF1-8E49-EDF93D7BED22
 ms.date: 05/10/2018
 ms.keywords: D3DDDICB_CREATEHWCONTEXT, D3DDDICB_CREATEHWCONTEXT structure [Display Devices], _D3DDDICB_CREATEHWCONTEXT, d3dumddi/D3DDDICB_CREATEHWCONTEXT, display.d3dddicb_createhwcontext
 ms.topic: struct
+f1_keywords:
+ - "d3dumddi/D3DDDICB_CREATEHWCONTEXT"
 req.header: d3dumddi.h
 req.include-header: 
 req.target-type: Windows

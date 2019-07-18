@@ -6,6 +6,8 @@ ms.assetid: 61811522-9d31-4246-8cdd-71be1a8ff43e
 ms.date: 08/08/2018
 tech.root: sensors
 ms.topic: function
+f1_keywords:
+ - "sensorsutils/PropKeyFindKeyGetInt64"
 ms.keywords: PropKeyFindKeyGetInt64
 req.header: sensorsutils.h
 req.include-header:

@@ -8,6 +8,8 @@ ms.assetid: d05b366c-0b09-4a82-8727-e5c39b82bf7f
 ms.date: 04/30/2018
 ms.keywords: RtlUnicodeStringToAnsiString, RtlUnicodeStringToAnsiString routine [Kernel-Mode Driver Architecture], k109_50e549a0-61fa-4a0f-b43f-de2f4c6dba31.xml, kernel.rtlunicodestringtoansistring, wdm/RtlUnicodeStringToAnsiString
 ms.topic: function
+f1_keywords:
+ - "wdm/RtlUnicodeStringToAnsiString"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

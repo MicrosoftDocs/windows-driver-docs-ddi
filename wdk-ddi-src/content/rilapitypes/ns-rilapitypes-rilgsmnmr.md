@@ -8,6 +8,8 @@ ms.assetid: 9689a069-1235-4898-9610-3023f6e80dda
 ms.date: 02/26/2018
 ms.keywords: "*LPRILGSMNMR, RILGSMNMR, RILGSMNMR structure [Network Drivers Starting with Windows Vista], netvista.rilgsmnmr_2, rilapitypes/RILGSMNMR"
 ms.topic: struct
+f1_keywords:
+ - "rilapitypes/RILGSMNMR"
 req.header: rilapitypes.h
 req.include-header:
 req.target-type: Windows

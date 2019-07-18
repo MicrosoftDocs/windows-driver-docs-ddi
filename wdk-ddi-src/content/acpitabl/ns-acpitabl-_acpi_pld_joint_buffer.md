@@ -5,6 +5,8 @@ description: Describes the ACPI PLD joint descriptor buffer, revision 1 (Microso
 ms.assetid: 58ca5533-2732-4e70-8076-3402c601349b
 ms.date: 10/02/2018
 ms.topic: struct
+f1_keywords:
+ - "acpitabl/_ACPI_PLD_JOINT_BUFFER"
 ms.keywords: _ACPI_PLD_JOINT_BUFFER, ACPI_PLD_JOINT_BUFFER, *PACPI_PLD_JOINT_BUFFER, 
 req.header: acpitabl.h
 req.include-header:

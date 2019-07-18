@@ -8,6 +8,8 @@ ms.assetid: 1F2C2B8E-6535-40F1-A5D3-46DAD43E923E
 ms.date: 02/15/2018
 ms.keywords: "*PCMP_CONNECT, *PCMP_CONNECT_VER3, 61883/CMP_CONNECT_VER3, 61883/PCMP_CONNECT_VER3, CMP_CONNECT, CMP_CONNECT_VER3, CMP_CONNECT_VER3 structure [Buses], IEEE.cmp_connect_ver3, PCMP_CONNECT_VER3, PCMP_CONNECT_VER3 structure pointer [Buses], _CMP_CONNECT_VER3"
 ms.topic: struct
+f1_keywords:
+ - "61883/CMP_CONNECT_VER3"
 req.header: 61883.h
 req.include-header: 
 req.target-type: Windows

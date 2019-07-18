@@ -8,6 +8,8 @@ ms.assetid: 2BC0E6E7-7EE1-487A-9276-AE8EBB3FFD43
 ms.date: 04/30/2018
 ms.keywords: EVT_SPB_CONTROLLER_READ, EVT_SPB_CONTROLLER_READ callback, EvtSpbControllerIoRead, EvtSpbControllerIoRead callback function [Buses], SPB.evtspbcontrollerioread, spbcx/EvtSpbControllerIoRead
 ms.topic: callback
+f1_keywords:
+ - "spbcx/EvtSpbControllerIoRead"
 req.header: spbcx.h
 req.include-header: 
 req.target-type: Desktop

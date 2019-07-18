@@ -8,6 +8,8 @@ ms.assetid: 3045f46d-d78a-4f07-9838-f3afd97d9244
 ms.date: 05/10/2018
 ms.keywords: DXGK_SURPRISE_REMOVAL_TYPE, DXGK_SURPRISE_REMOVAL_TYPE enumeration [Display Devices], DxgkRemovalHibernation, _DXGK_SURPRISE_REMOVAL_TYPE, display.dxgk_surprise_removal_type, dispmprt/DXGK_SURPRISE_REMOVAL_TYPE, dispmprt/DxgkRemovalHibernation
 ms.topic: enum
+f1_keywords:
+ - "dispmprt/DXGK_SURPRISE_REMOVAL_TYPE"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Windows

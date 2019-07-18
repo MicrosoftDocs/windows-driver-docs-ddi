@@ -7,6 +7,8 @@ ms.assetid: 4D9D8179-AA55-409B-A733-7346EC06391B
 ms.date: 05/10/2018
 ms.keywords: D3DKMT_SEGMENTGROUPSIZEINFO, D3DKMT_SEGMENTGROUPSIZEINFO structure [Display Devices], _D3DKMT_SEGMENTGROUPSIZEINFO, d3dkmthk/D3DKMT_SEGMENTGROUPSIZEINFO, display.d3dkmt_segmentgroupsizeinfo
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/D3DKMT_SEGMENTGROUPSIZEINFO"
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: Windows

@@ -5,6 +5,8 @@ description:
 ms.assetid: 90d5357e-faaf-4ece-80e0-3b93e6133367
 ms.date: 10/05/2018
 ms.topic: ioctl
+f1_keywords:
+ - "sidebandaudio/IOCTL_SBAUD_GET_SIOP_UPDATE"
 req.header: sidebandaudio.h
 req.include-header:
 req.target-type:

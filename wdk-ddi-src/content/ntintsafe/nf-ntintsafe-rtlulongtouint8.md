@@ -8,6 +8,8 @@ ms.assetid: 56A205A5-A7A8-440D-B28B-B925E2107AEE
 ms.date: 04/30/2018
 ms.keywords: RtlULongToUInt8, RtlULongToUInt8 function [Kernel-Mode Driver Architecture], kernel.rtlulongtouint8, ntintsafe/RtlULongToUInt8
 ms.topic: function
+f1_keywords:
+ - "ntintsafe/RtlULongToUInt8"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop

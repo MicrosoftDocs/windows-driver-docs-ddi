@@ -8,6 +8,8 @@ ms.assetid: 98694b19-628c-4e3e-959f-49445fa232c2
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: function
+f1_keywords:
+ - "iddcx/IddCxAdapterSetRenderAdapter"
 ms.keywords: IddCxAdapterSetRenderAdapter
 req.header: iddcx.h
 req.include-header:

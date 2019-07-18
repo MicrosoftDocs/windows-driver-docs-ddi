@@ -8,6 +8,8 @@ ms.assetid: a975e201-9015-4315-830e-4cd7cc5a3bc5
 ms.date: 03/29/2018
 ms.keywords: HwScsiWmiFunctionControl, HwScsiWmiFunctionControl callback function [Storage Devices], PSCSIWMI_FUNCTION_CONTROL, PSCSIWMI_FUNCTION_CONTROL callback, Scsimini_42361f5c-fc45-4883-997e-afa65bc376c4.xml, scsiwmi/HwScsiWmiFunctionControl, storage.hwscsiwmifunctioncontrol
 ms.topic: callback
+f1_keywords:
+ - "scsiwmi/HwScsiWmiFunctionControl"
 req.header: scsiwmi.h
 req.include-header: Scsiwmi.h
 req.target-type: Desktop

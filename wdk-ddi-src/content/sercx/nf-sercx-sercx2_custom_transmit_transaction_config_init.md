@@ -8,6 +8,8 @@ ms.assetid: 098A7BB0-B135-4E99-8BDA-1EF29A8C338F
 ms.date: 04/23/2018
 ms.keywords: 2/SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG_INIT, SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG_INIT, SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG_INIT function [Serial Ports], serports.sercx2_custom_transmit_transaction_config_init
 ms.topic: function
+f1_keywords:
+ - "sercx/SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CONFIG_INIT"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Desktop

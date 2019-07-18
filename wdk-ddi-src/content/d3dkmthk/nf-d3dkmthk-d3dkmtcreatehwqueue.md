@@ -7,6 +7,8 @@ ms.assetid: FD4E892F-DDC6-449A-B77F-6C7F8240E467
 ms.date: 05/10/2018
 ms.keywords: D3DKMTCreateHwQueue, D3DKMTCreateHwQueue method [Display Devices], d3dkmthk/D3DKMTCreateHwQueue, display.d3dkmtcreatehwqueue
 ms.topic: function
+f1_keywords:
+ - "d3dkmthk/D3DKMTCreateHwQueue"
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: Windows

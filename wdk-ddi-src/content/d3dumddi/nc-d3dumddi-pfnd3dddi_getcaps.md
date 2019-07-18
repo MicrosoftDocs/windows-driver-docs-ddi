@@ -8,6 +8,8 @@ ms.assetid: cf6c61ce-7b53-46d0-b3ff-ed5b2b964c65
 ms.date: 05/10/2018
 ms.keywords: GetCaps, GetCaps callback function [Display Devices], PFND3DDDI_GETCAPS, PFND3DDDI_GETCAPS callback, UserModeDisplayDriver_Functions_2848e873-69ef-4b77-b8bc-8ae9f4abe2c9.xml, d3dumddi/GetCaps, display.getcaps
 ms.topic: callback
+f1_keywords:
+ - "d3dumddi/GetCaps"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop

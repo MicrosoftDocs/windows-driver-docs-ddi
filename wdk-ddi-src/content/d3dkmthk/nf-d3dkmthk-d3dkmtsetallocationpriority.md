@@ -7,6 +7,8 @@ ms.assetid: d5ad6288-6123-4665-a48e-bbae856cc160
 ms.date: 05/10/2018
 ms.keywords: D3DKMTSetAllocationPriority, D3DKMTSetAllocationPriority function [Display Devices], OpenGL_Functions_dc77467a-7ec3-4be9-96cd-8bedb5beb948.xml, d3dkmthk/D3DKMTSetAllocationPriority, display.d3dkmtsetallocationpriority
 ms.topic: function
+f1_keywords:
+ - "d3dkmthk/D3DKMTSetAllocationPriority"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal

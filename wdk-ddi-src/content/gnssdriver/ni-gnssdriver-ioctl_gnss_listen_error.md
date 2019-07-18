@@ -8,6 +8,8 @@ ms.assetid: 4B08FB8D-8C4A-4C23-A809-11E7DF190236
 ms.date: 02/15/2018
 ms.keywords: IOCTL_GNSS_LISTEN_ERROR, IOCTL_GNSS_LISTEN_ERROR control, IOCTL_GNSS_LISTEN_ERROR control code [Sensor Devices], gnss.ioctl_gnss_listen_error_, gnssdriver/IOCTL_GNSS_LISTEN_ERROR
 ms.topic: ioctl
+f1_keywords:
+ - "gnssdriver/IOCTL_GNSS_LISTEN_ERROR"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows

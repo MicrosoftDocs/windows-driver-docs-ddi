@@ -8,6 +8,8 @@ ms.assetid: 491327A4-87B5-4206-9D47-007CE14E1327
 ms.date: 04/30/2018
 ms.keywords: MmAllocateNodePagesForMdlEx, MmAllocateNodePagesForMdlEx routine [Kernel-Mode Driver Architecture], kernel.mmallocatenodepagesformdlex, wdm/MmAllocateNodePagesForMdlEx
 ms.topic: function
+f1_keywords:
+ - "wdm/MmAllocateNodePagesForMdlEx"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

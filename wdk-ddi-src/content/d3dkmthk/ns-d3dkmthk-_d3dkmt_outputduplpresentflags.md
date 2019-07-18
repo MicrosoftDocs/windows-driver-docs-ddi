@@ -7,6 +7,8 @@ ms.assetid: d80bcf24-4d53-4ec9-897d-d3243c7fda25
 ms.date: 05/10/2018
 ms.keywords: D3DKMT_OUTPUTDUPLPRESENTFLAGS, D3DKMT_OUTPUTDUPLPRESENTFLAGS structure [Display Devices], _D3DKMT_OUTPUTDUPLPRESENTFLAGS, d3dkmthk/D3DKMT_OUTPUTDUPLPRESENTFLAGS, display.d3dkmt_outputduplpresentflags
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/D3DKMT_OUTPUTDUPLPRESENTFLAGS"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

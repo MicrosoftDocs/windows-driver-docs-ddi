@@ -8,6 +8,8 @@ ms.assetid: 68ae87c5-7d71-4e85-8052-4e5c422340fb
 ms.date: 04/23/2018
 ms.keywords: KoDeviceInitialize, KoDeviceInitialize function [Streaming Media Devices], kcom/KoDeviceInitialize, ksfunc_1d3ad49e-d34c-4341-ab30-45c8e96e8b3e.xml, stream.kodeviceinitialize
 ms.topic: function
+f1_keywords:
+ - "kcom/KoDeviceInitialize"
 req.header: kcom.h
 req.include-header: Kcom.h
 req.target-type: Universal

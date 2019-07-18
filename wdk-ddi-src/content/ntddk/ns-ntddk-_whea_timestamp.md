@@ -8,6 +8,8 @@ ms.assetid: 70a6555d-1da9-4013-911a-4a9d011b0205
 ms.date: 02/20/2018
 ms.keywords: "*PWHEA_TIMESTAMP, PWHEA_TIMESTAMP, PWHEA_TIMESTAMP union pointer [WHEA Drivers and Applications], WHEA_TIMESTAMP, WHEA_TIMESTAMP union [WHEA Drivers and Applications], _WHEA_TIMESTAMP, ntddk/PWHEA_TIMESTAMP, ntddk/WHEA_TIMESTAMP, whea.whea_timestamp, whearef_d0fafe3b-0cea-4adf-a68a-b565e04ae258.xml"
 ms.topic: struct
+f1_keywords:
+ - "ntddk/WHEA_TIMESTAMP"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Windows

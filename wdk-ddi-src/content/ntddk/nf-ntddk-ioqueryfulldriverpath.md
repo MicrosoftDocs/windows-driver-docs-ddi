@@ -8,6 +8,8 @@ ms.assetid: 2F73ECD7-EC58-43A9-89F8-E0268510A498
 ms.date: 04/30/2018
 ms.keywords: IoQueryFullDriverPath, IoQueryFullDriverPath routine [Kernel-Mode Driver Architecture], kernel.ioqueryfulldriverpath, wdm/IoQueryFullDriverPath
 ms.topic: function
+f1_keywords:
+ - "ntddk/IoQueryFullDriverPath"
 req.header: ntddk.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

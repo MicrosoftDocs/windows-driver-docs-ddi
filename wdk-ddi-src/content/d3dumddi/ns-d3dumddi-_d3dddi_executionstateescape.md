@@ -8,6 +8,8 @@ ms.assetid: 9BA78743-91AA-4AAC-9FB3-CF8B30FC15AE
 ms.date: 05/10/2018
 ms.keywords: D3DDDI_EXECUTIONSTATEESCAPE, D3DDDI_EXECUTIONSTATEESCAPE structure [Display Devices], _D3DDDI_EXECUTIONSTATEESCAPE, d3dumddi/D3DDDI_EXECUTIONSTATEESCAPE, display.d3dddi_executionstateescape
 ms.topic: struct
+f1_keywords:
+ - "d3dumddi/D3DDDI_EXECUTIONSTATEESCAPE"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

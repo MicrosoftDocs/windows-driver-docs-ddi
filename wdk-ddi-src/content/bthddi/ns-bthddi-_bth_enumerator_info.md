@@ -8,6 +8,8 @@ ms.assetid: e526d664-35cf-4738-9501-08298e90be1e
 ms.date: 04/27/2018
 ms.keywords: "*PBTH_ENUMERATOR_INFO, BTH_ENUMERATOR_INFO, BTH_ENUMERATOR_INFO structure [Bluetooth Devices], PBTH_ENUMERATOR_INFO, PBTH_ENUMERATOR_INFO structure pointer [Bluetooth Devices], _BTH_ENUMERATOR_INFO, bltooth.bth_enumerator_info, bth_structs_7cdc888a-ed42-4988-917f-578522399179.xml, bthddi/BTH_ENUMERATOR_INFO, bthddi/PBTH_ENUMERATOR_INFO"
 ms.topic: struct
+f1_keywords:
+ - "bthddi/BTH_ENUMERATOR_INFO"
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows

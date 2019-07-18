@@ -8,6 +8,8 @@ ms.assetid: 832da270-e1e1-41bf-a9cf-0b363c0d2d74
 ms.date: 04/30/2018
 ms.keywords: ClfsReadPreviousRestartArea, ClfsReadPreviousRestartArea routine [Kernel-Mode Driver Architecture], Clfs_884a8a2f-adbf-415b-968e-2f82c3f5d7fa.xml, kernel.clfsreadpreviousrestartarea, wdm/ClfsReadPreviousRestartArea
 ms.topic: function
+f1_keywords:
+ - "wdm/ClfsReadPreviousRestartArea"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop

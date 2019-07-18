@@ -8,6 +8,8 @@ ms.assetid: d8e5cbf7-62c7-458d-a527-2508a8a5d066
 ms.date: 02/26/2018
 ms.keywords: Flush, Flush method, Flush method,IWDFUsbTargetPipe interface, IWDFUsbTargetPipe interface,Flush method, IWDFUsbTargetPipe.Flush, IWDFUsbTargetPipe::Flush, UMDFUSBref_5a569ab8-ccbd-47cc-93a6-8e61f366e6ee.xml, umdf.iwdfusbtargetpipe_flush, wdf.iwdfusbtargetpipe_flush, wudfusb/IWDFUsbTargetPipe::Flush
 ms.topic: method
+f1_keywords:
+ - "wudfusb/IWDFUsbTargetPipe.Flush"
 req.header: wudfusb.h
 req.include-header: Wudfusb.h
 req.target-type: Desktop

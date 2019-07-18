@@ -8,6 +8,8 @@ ms.assetid: 8F64E58D-9C04-43BA-9C1B-88AD081176A9
 ms.date: 04/23/2018
 ms.keywords: IKsAllocator interface [Streaming Media Devices],KsSetAllocatorMode method, IKsAllocator.KsSetAllocatorMode, IKsAllocator::KsSetAllocatorMode, KsSetAllocatorMode, KsSetAllocatorMode method [Streaming Media Devices], KsSetAllocatorMode method [Streaming Media Devices],IKsAllocator interface, ksproxy/IKsAllocator::KsSetAllocatorMode, stream.iksallocator_kssetallocatormode
 ms.topic: method
+f1_keywords:
+ - "ksproxy/IKsAllocator.KsSetAllocatorMode"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: Windows

@@ -5,6 +5,8 @@ description: Implemented by the client driver to obtain a pointer to a subregion
 ms.assetid: 86a95724-5522-4075-a1c6-9c0ccfe1193e
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmddi/DXGKCB_MAPFRAMEBUFFERPOINTER"
 req.header: d3dkmddi.h
 req.include-header:
 req.target-type:

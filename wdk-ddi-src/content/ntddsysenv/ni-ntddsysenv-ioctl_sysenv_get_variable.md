@@ -8,6 +8,8 @@ ms.assetid: B6249E4B-DF79-4B74-AE52-137FEF299169
 ms.date: 04/30/2018
 ms.keywords: IOCTL_SYSENV_GET_VARIABLE, IOCTL_SYSENV_GET_VARIABLE control, IOCTL_SYSENV_GET_VARIABLE control code [Kernel-Mode Driver Architecture], kernel.ioctl_ioctl_sysenv_get_variable, ntddsysenv/IOCTL_SYSENV_GET_VARIABLE
 ms.topic: ioctl
+f1_keywords:
+ - "ntddsysenv/IOCTL_SYSENV_GET_VARIABLE"
 req.header: ntddsysenv.h
 req.include-header: 
 req.target-type: Windows

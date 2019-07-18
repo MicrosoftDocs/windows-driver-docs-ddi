@@ -7,6 +7,8 @@ ms.assetid: CFA0C474-129A-4A05-B426-520B96C318D8
 ms.date: 05/10/2018
 ms.keywords: D3D12DDI_TEXTURE_LAYOUT_CAPS_0001, D3D12DDI_TEXTURE_LAYOUT_CAPS_0001 structure [Display Devices], d3d12umddi/D3D12DDI_TEXTURE_LAYOUT_CAPS_0001, display.d3d12ddi_texture_layout_caps_0001
 ms.topic: struct
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_TEXTURE_LAYOUT_CAPS_0001"
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: bff2b133-bbef-4f2a-a7b1-34d7cf364205
 ms.date: 05/02/2018
 ms.keywords: "*PNDIS_NIC_SWITCH_INFO_ARRAY, NDIS_NIC_SWITCH_INFO_ARRAY, NDIS_NIC_SWITCH_INFO_ARRAY structure [Network Drivers Starting with Windows Vista], PNDIS_NIC_SWITCH_INFO_ARRAY, PNDIS_NIC_SWITCH_INFO_ARRAY structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NIC_SWITCH_INFO_ARRAY, netvista.ndis_nic_switch_info_array, ntddndis/NDIS_NIC_SWITCH_INFO_ARRAY, ntddndis/PNDIS_NIC_SWITCH_INFO_ARRAY"
 ms.topic: struct
+f1_keywords:
+ - "ntddndis/NDIS_NIC_SWITCH_INFO_ARRAY"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

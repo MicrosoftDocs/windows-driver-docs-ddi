@@ -8,6 +8,8 @@ ms.assetid: 6b1fa9fc-f033-4d93-a2ec-f31159d6a69d
 ms.date: 05/03/2018
 ms.keywords: GetFunctionEntryByOffset, GetFunctionEntryByOffset method [Windows Debugging], GetFunctionEntryByOffset method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetFunctionEntryByOffset method, IDebugSymbols3.GetFunctionEntryByOffset, IDebugSymbols3::GetFunctionEntryByOffset, IDebugSymbols_2f48c855-76e5-421c-8890-9a96a0468783.xml, dbgeng/IDebugSymbols3::GetFunctionEntryByOffset, debugger.getfunctionentrybyoffset
 ms.topic: method
+f1_keywords:
+ - "dbgeng/IDebugSymbols3.GetFunctionEntryByOffset"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h, Winnt.h
 req.target-type: Desktop

@@ -8,6 +8,8 @@ ms.assetid: 1ba8d745-96bf-4d9d-8784-e6594360c632
 ms.date: 05/02/2018
 ms.keywords: "*LPRILSETCALLWAITINGSTATUSPARAMS, RILSETCALLWAITINGSTATUSPARAMS, RILSETCALLWAITINGSTATUSPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsetcallwaitingstatusparams, ntddrilapitypes/RILSETCALLWAITINGSTATUSPARAMS"
 ms.topic: struct
+f1_keywords:
+ - "ntddrilapitypes/RILSETCALLWAITINGSTATUSPARAMS"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

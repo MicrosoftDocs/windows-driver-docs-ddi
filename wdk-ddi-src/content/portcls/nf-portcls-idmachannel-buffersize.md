@@ -6,6 +6,8 @@ tech.root: audio
 ms.assetid: e20d36d9-4f2a-43bf-b224-da5501321c7a
 ms.date: 10/31/2018
 ms.topic: method
+f1_keywords:
+ - "portcls/IDmaChannel.BufferSize"
 ms.keywords: IDmaChannel::BufferSize, BufferSize, IDmaChannel.BufferSize, IDmaChannel::BufferSize, IDmaChannel.BufferSize
 req.header: portcls.h
 req.include-header:

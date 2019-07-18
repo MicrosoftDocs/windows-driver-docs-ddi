@@ -8,6 +8,8 @@ ms.assetid: 775d08ad-40c2-44b7-af02-6c182301e46f
 ms.date: 04/23/2018
 ms.keywords: KSEVENTS_ERESOURCE, KSEVENTS_FMUTEX, KSEVENTS_FMUTEXUNSAFE, KSEVENTS_INTERRUPT, KSEVENTS_LOCKTYPE, KSEVENTS_LOCKTYPE enumeration [Streaming Media Devices], KSEVENTS_MUTEX, KSEVENTS_NONE, KSEVENTS_SPINLOCK, ks-struct_293dbf13-1dbe-478e-83fb-d38e17e4a697.xml, ks/KSEVENTS_ERESOURCE, ks/KSEVENTS_FMUTEX, ks/KSEVENTS_FMUTEXUNSAFE, ks/KSEVENTS_INTERRUPT, ks/KSEVENTS_LOCKTYPE, ks/KSEVENTS_MUTEX, ks/KSEVENTS_NONE, ks/KSEVENTS_SPINLOCK, stream.ksevents_locktype
 ms.topic: enum
+f1_keywords:
+ - "ks/KSEVENTS_LOCKTYPE"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows

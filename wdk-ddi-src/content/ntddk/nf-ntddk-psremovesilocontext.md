@@ -8,6 +8,8 @@ ms.assetid: 3323EF1B-9EB3-4D56-A9A5-0A8397F8A235
 ms.date: 04/30/2018
 ms.keywords: PsRemoveSiloContext, PsRemoveSiloContext routine [Kernel-Mode Driver Architecture], kernel.psremovesilocontext, ntddk/PsRemoveSiloContext
 ms.topic: function
+f1_keywords:
+ - "ntddk/PsRemoveSiloContext"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows

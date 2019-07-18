@@ -5,6 +5,8 @@ description: The GetRootNamespace method returns the data model's root namespace
 ms.assetid: ca84b7c7-8454-420c-b94d-ecc8ab7ce89d
 ms.date: 09/11/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDataModelManager2.GetRootNamespace"
 ms.keywords: IDataModelManager2::GetRootNamespace, GetRootNamespace, IDataModelManager2.GetRootNamespace, IDataModelManager2::GetRootNamespace, IDataModelManager2.GetRootNamespace
 req.header: dbgmodel.h
 req.include-header:

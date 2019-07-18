@@ -8,6 +8,8 @@ ms.assetid: 9BC978A9-FA5E-4A1E-9775-1DC9C270F5DC
 ms.date: 03/29/2018
 ms.keywords: UFS_PURGE_STATUS, UFS_PURGE_STATUS enumeration [Storage Devices], UFS_PurgeStatusFailure, UFS_PurgeStatusIdle, UFS_PurgeStatusInProgress, UFS_PurgeStatusInterrupted, UFS_PurgeStatusQueueNotEmpty, UFS_PurgeStatusSuccess, storage.ufs_purge_status, ufs/UFS_PURGE_STATUS, ufs/UFS_PurgeStatusFailure, ufs/UFS_PurgeStatusIdle, ufs/UFS_PurgeStatusInProgress, ufs/UFS_PurgeStatusInterrupted, ufs/UFS_PurgeStatusQueueNotEmpty, ufs/UFS_PurgeStatusSuccess
 ms.topic: enum
+f1_keywords:
+ - "ufs/UFS_PURGE_STATUS"
 req.header: ufs.h
 req.include-header: 
 req.target-type: Windows

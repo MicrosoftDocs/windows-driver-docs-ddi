@@ -7,6 +7,8 @@ ms.assetid: ba85b333-9a43-421a-8687-9630e792cadf
 ms.date: 05/10/2018
 ms.keywords: D3DKMT_DESTROYALLOCATION, D3DKMT_DESTROYALLOCATION structure [Display Devices], OpenGL_Structs_46425135-17f7-4b12-8e01-1247e3e1ab63.xml, _D3DKMT_DESTROYALLOCATION, d3dkmthk/D3DKMT_DESTROYALLOCATION, display.d3dkmt_destroyallocation
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/D3DKMT_DESTROYALLOCATION"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

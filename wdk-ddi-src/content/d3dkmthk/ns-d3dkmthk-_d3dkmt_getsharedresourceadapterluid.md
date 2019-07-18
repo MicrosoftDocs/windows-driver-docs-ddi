@@ -7,6 +7,8 @@ ms.assetid: b7f9413b-3d57-47c4-a8a4-3288cb03af21
 ms.date: 05/10/2018
 ms.keywords: D3DKMT_GETSHAREDRESOURCEADAPTERLUID, D3DKMT_GETSHAREDRESOURCEADAPTERLUID structure [Display Devices], _D3DKMT_GETSHAREDRESOURCEADAPTERLUID, d3dkmthk/D3DKMT_GETSHAREDRESOURCEADAPTERLUID, display.d3dkmt_getsharedresourceadapterluid
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/D3DKMT_GETSHAREDRESOURCEADAPTERLUID"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

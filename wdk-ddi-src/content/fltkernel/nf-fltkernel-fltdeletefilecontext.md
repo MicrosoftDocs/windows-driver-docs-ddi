@@ -8,6 +8,8 @@ ms.assetid: faffa053-0382-415c-8f61-ee9121839598
 ms.date: 04/16/2018
 ms.keywords: FltApiRef_a_to_d_53ae4cfc-b70a-405d-b947-cb0f04d4663b.xml, FltDeleteFileContext, FltDeleteFileContext routine [Installable File System Drivers], fltkernel/FltDeleteFileContext, ifsk.fltdeletefilecontext
 ms.topic: function
+f1_keywords:
+ - "fltkernel/FltDeleteFileContext"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

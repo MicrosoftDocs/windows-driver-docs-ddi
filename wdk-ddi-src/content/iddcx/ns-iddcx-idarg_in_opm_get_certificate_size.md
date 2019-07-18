@@ -8,6 +8,8 @@ ms.assetid: 42b8bd6c-c5be-45d0-9537-13d687ca5a48
 ms.date: 05/10/2018
 ms.keywords: IDARG_IN_OPM_GET_CERTIFICATE_SIZE, IDARG_IN_OPM_GET_CERTIFICATE_SIZE structure [Display Devices], display.idarg_in_opm_get_certificate_size, iddcx/IDARG_IN_OPM_GET_CERTIFICATE_SIZE
 ms.topic: struct
+f1_keywords:
+ - "iddcx/IDARG_IN_OPM_GET_CERTIFICATE_SIZE"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows

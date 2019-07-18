@@ -5,6 +5,8 @@ description: Display options data.
 ms.assetid: 79133d2b-56c0-4a44-995e-ea427efaeabe
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_D3D12_OPTIONS_DATA_0052"
 ms.keywords: D3D12DDI_D3D12_OPTIONS_DATA_0052, D3D12DDI_D3D12_OPTIONS_DATA_0052, 
 req.header: d3d12umddi.h
 req.include-header:

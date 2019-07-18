@@ -8,6 +8,8 @@ ms.assetid: 4978e4f6-23e3-4381-be4e-550292101013
 ms.date: 05/10/2018
 ms.keywords: DXVA_DeinterlaceQueryModeCaps, DXVA_DeinterlaceQueryModeCaps structure [Display Devices], _DXVA_DeinterlaceQueryModeCaps, display.dxva_deinterlacequerymodecaps, dxva/DXVA_DeinterlaceQueryModeCaps, dxvaref_a9b0a8a8-0a11-417c-a356-6b39cb1f7ddb.xml
 ms.topic: struct
+f1_keywords:
+ - "dxva/DXVA_DeinterlaceQueryModeCaps"
 req.header: dxva.h
 req.include-header: Dxva.h
 req.target-type: Windows

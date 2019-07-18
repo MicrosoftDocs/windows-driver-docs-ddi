@@ -6,6 +6,8 @@ tech.root: storage
 ms.assetid: 77d6e5c0-ff4d-4a2c-8fdf-a89b1c2779b3
 ms.date: 10/19/2018
 ms.topic: function
+f1_keywords:
+ - "storport/StorPortDelayExecution"
 ms.keywords: StorPortDelayExecution
 req.header: storport.h
 req.include-header:

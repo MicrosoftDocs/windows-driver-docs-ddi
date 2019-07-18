@@ -8,6 +8,8 @@ ms.assetid: be3972af-1c62-4d4d-95f7-00f894ae7f21
 ms.date: 04/23/2018
 ms.keywords: PHW_REQUEST_TIMEOUT_HANDLER, StrMiniRequestTimeout, StrMiniRequestTimeout routine [Streaming Media Devices], stream.strminirequesttimeout, strmini-routines_74b67060-d244-452f-a5a5-217fd4c65614.xml, strmini/StrMiniRequestTimeout
 ms.topic: callback
+f1_keywords:
+ - "strmini/StrMiniRequestTimeout"
 req.header: strmini.h
 req.include-header: Strmini.h
 req.target-type: Desktop

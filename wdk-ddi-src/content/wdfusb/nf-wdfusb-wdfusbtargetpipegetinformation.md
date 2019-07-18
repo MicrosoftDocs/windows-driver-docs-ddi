@@ -8,6 +8,8 @@ ms.assetid: d453cc6a-d81f-485c-a71e-d99c080bfa28
 ms.date: 02/26/2018
 ms.keywords: DFUsbRef_edde1f49-9228-48fc-8812-ebfe65f48b18.xml, WdfUsbTargetPipeGetInformation, WdfUsbTargetPipeGetInformation method, kmdf.wdfusbtargetpipegetinformation, wdf.wdfusbtargetpipegetinformation, wdfusb/WdfUsbTargetPipeGetInformation
 ms.topic: function
+f1_keywords:
+ - "wdfusb/WdfUsbTargetPipeGetInformation"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal

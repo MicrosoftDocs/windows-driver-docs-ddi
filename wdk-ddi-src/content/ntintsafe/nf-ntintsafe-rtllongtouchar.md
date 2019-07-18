@@ -8,6 +8,8 @@ ms.assetid: 22440E1D-8DF5-4391-90F4-6080AAAC65D1
 ms.date: 04/30/2018
 ms.keywords: RtlLongToUChar, RtlLongToUChar function [Kernel-Mode Driver Architecture], kernel.rtllongtouchar, ntintsafe/RtlLongToUChar
 ms.topic: function
+f1_keywords:
+ - "ntintsafe/RtlLongToUChar"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop

@@ -8,6 +8,8 @@ ms.assetid: 1511e26e-ac2d-45b0-9ac7-894cbbda1b81
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
+f1_keywords:
+ - "ntddk/WHEA_ERROR_SOURCE_CONFIGURATION_DD"
 ms.keywords: WHEA_ERROR_SOURCE_CONFIGURATION_DD, WHEA_ERROR_SOURCE_CONFIGURATION_DD, *PWHEA_ERROR_SOURCE_CONFIGURATION_DD, 
 req.header: ntddk.h
 req.include-header:

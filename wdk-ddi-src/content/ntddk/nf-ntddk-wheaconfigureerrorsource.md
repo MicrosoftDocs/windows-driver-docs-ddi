@@ -8,6 +8,8 @@ ms.assetid: a63ba4cc-1b27-4a93-a776-3743ba27cb95
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: function
+f1_keywords:
+ - "ntddk/WheaConfigureErrorSource"
 ms.keywords: WheaConfigureErrorSource
 req.header: ntddk.h
 req.include-header:

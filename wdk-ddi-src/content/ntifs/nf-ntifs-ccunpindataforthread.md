@@ -8,6 +8,8 @@ ms.assetid: 9c29689c-ce5e-4b29-a17b-32d96f8f87e7
 ms.date: 04/16/2018
 ms.keywords: CcUnpinDataForThread, CcUnpinDataForThread routine [Installable File System Drivers], ccref_71102887-ef3b-44b1-8b1f-e2b07dea3392.xml, ifsk.ccunpindataforthread, ntifs/CcUnpinDataForThread
 ms.topic: function
+f1_keywords:
+ - "ntifs/CcUnpinDataForThread"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

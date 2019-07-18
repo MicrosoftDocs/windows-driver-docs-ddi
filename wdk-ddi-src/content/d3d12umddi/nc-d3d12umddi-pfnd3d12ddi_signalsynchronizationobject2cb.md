@@ -8,6 +8,8 @@ ms.assetid: e6ad9b24-a543-4aef-a407-385d335443fe
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_SIGNALSYNCHRONIZATIONOBJECT2CB"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 req.header: d3d12umddi.h

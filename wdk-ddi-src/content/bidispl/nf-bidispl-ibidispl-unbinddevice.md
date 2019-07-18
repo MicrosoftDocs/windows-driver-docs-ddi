@@ -8,6 +8,8 @@ ms.assetid: 4c294d1d-5a37-4ea4-b50f-447260e885b1
 ms.date: 04/20/2018
 ms.keywords: IBidiSpl interface [Print Devices],UnbindDevice method, IBidiSpl.UnbindDevice, IBidiSpl::UnbindDevice, UnbindDevice, UnbindDevice method [Print Devices], UnbindDevice method [Print Devices],IBidiSpl interface, _win32_IBidiSpl_UnbindDevice, bidispl/IBidiSpl::UnbindDevice, gdi.ibidispl_ibidispl__unbinddevice, print.ibidispl_ibidispl__unbinddevice
 ms.topic: method
+f1_keywords:
+ - "bidispl/IBidiSpl.UnbindDevice"
 req.header: bidispl.h
 req.include-header: 
 req.target-type: Desktop

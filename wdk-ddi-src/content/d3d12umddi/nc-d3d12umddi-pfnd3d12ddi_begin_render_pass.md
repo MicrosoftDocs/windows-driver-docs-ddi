@@ -5,6 +5,8 @@ description: Implemented by the client driver to start the Render Pass.
 ms.assetid: 563ef6fb-d509-4f6b-8a2f-95cfcaea8dd7
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_BEGIN_RENDER_PASS"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

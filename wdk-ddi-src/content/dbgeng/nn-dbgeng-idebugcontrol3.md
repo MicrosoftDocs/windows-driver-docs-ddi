@@ -8,6 +8,8 @@ ms.assetid: 95e714b4-4167-41a1-ab2c-b088dbaf5fe2
 ms.date: 05/03/2018
 ms.keywords: IDebugControl3, IDebugControl3 interface [Windows Debugging], IDebugControl3 interface [Windows Debugging],described, dbgeng/IDebugControl3, debugger.idebugcontrol3
 ms.topic: interface
+f1_keywords:
+ - "dbgeng/IDebugControl3"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

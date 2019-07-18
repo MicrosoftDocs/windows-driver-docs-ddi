@@ -8,6 +8,8 @@ ms.assetid: 14D396B1-5F55-4902-8986-BD4CC5B2ACC4
 ms.date: 02/15/2018
 ms.keywords: IOCTL_GNSS_LISTEN_BREADCRUMBING_ALERT, IOCTL_GNSS_LISTEN_BREADCRUMBING_ALERT control, IOCTL_GNSS_LISTEN_BREADCRUMBING_ALERT control code [Sensor Devices], gnss.ioctl_gnss_listen_breadcrumbing_alert_, gnssdriver/IOCTL_GNSS_LISTEN_BREADCRUMBING_ALERT
 ms.topic: ioctl
+f1_keywords:
+ - "gnssdriver/IOCTL_GNSS_LISTEN_BREADCRUMBING_ALERT"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows

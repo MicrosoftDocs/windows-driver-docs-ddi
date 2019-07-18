@@ -8,6 +8,8 @@ ms.assetid: bdd08133-0641-4eea-bfa3-75f700356132
 ms.date: 05/08/2018
 ms.keywords: GetDeviceInformation, GetDeviceInformation callback function [Audio Devices], PGET_DEVICE_INFORMATION, PGET_DEVICE_INFORMATION callback, aud-prop2_9e39061d-0e06-4871-b92c-d4bd7aa98815.xml, audio.getdeviceinformation, hdaudio/GetDeviceInformation
 ms.topic: callback
+f1_keywords:
+ - "hdaudio/GetDeviceInformation"
 req.header: hdaudio.h
 req.include-header: Hdaudio.h
 req.target-type: Desktop

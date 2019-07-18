@@ -7,6 +7,8 @@ ms.assetid: abe6a82f-1613-4c74-9e81-01939db74bfd
 ms.date: 05/10/2018
 ms.keywords: CreateQuery, CreateQuery callback function [Display Devices], PFND3D10DDI_CREATEQUERY, PFND3D10DDI_CREATEQUERY callback, UserModeDisplayDriverDx10_Functions_faa26999-d692-40b4-81ef-99c730879b49.xml, d3d10umddi/CreateQuery, display.createquery_d3d10_
 ms.topic: callback
+f1_keywords:
+ - "d3d10umddi/CreateQuery"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

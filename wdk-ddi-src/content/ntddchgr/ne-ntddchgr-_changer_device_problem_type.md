@@ -8,6 +8,8 @@ ms.assetid: 2ba267ad-cfd7-4a19-9ecb-16be9187406a
 ms.date: 03/29/2018
 ms.keywords: "*PCHANGER_DEVICE_PROBLEM_TYPE, CHANGER_DEVICE_PROBLEM_TYPE, CHANGER_DEVICE_PROBLEM_TYPE enumeration [Storage Devices], DeviceProblemCHMError, DeviceProblemCHMMoveError, DeviceProblemCHMZeroError, DeviceProblemCalibrationError, DeviceProblemCartridgeEjectError, DeviceProblemCartridgeInsertError, DeviceProblemDoorOpen, DeviceProblemDriveError, DeviceProblemGripperError, DeviceProblemHardware, DeviceProblemNone, DeviceProblemPositionError, DeviceProblemSensorError, DeviceProblemTargetFailure, PCHANGER_DEVICE_PROBLEM_TYPE, PCHANGER_DEVICE_PROBLEM_TYPE enumeration pointer [Storage Devices], _CHANGER_DEVICE_PROBLEM_TYPE, ntddchgr/CHANGER_DEVICE_PROBLEM_TYPE, ntddchgr/DeviceProblemCHMError, ntddchgr/DeviceProblemCHMMoveError, ntddchgr/DeviceProblemCHMZeroError, ntddchgr/DeviceProblemCalibrationError, ntddchgr/DeviceProblemCartridgeEjectError, ntddchgr/DeviceProblemCartridgeInsertError, ntddchgr/DeviceProblemDoorOpen, ntddchgr/DeviceProblemDriveError, ntddchgr/DeviceProblemGripperError, ntddchgr/DeviceProblemHardware, ntddchgr/DeviceProblemNone, ntddchgr/DeviceProblemPositionError, ntddchgr/DeviceProblemSensorError, ntddchgr/DeviceProblemTargetFailure, ntddchgr/PCHANGER_DEVICE_PROBLEM_TYPE, storage.changer_device_problem_type, structs-changer_907f5212-0009-476e-9187-c9f2edb0f0c8.xml"
 ms.topic: enum
+f1_keywords:
+ - "ntddchgr/CHANGER_DEVICE_PROBLEM_TYPE"
 req.header: ntddchgr.h
 req.include-header: 
 req.target-type: Windows

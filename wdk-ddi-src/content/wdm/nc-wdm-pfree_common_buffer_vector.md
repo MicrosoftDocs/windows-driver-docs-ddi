@@ -8,6 +8,8 @@ ms.assetid: 73dfdcdd-d131-44ec-b32e-8c0eaeac33d8
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
+f1_keywords:
+ - "wdm/PFREE_COMMON_BUFFER_VECTOR"
 req.header: wdm.h
 req.include-header:
 req.target-type:

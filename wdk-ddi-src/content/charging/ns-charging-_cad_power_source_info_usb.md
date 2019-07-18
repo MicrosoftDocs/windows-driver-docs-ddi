@@ -8,6 +8,8 @@ ms.assetid: 578D33E5-685A-48E9-BFE2-CE4C3FD18056
 ms.date: 02/15/2018
 ms.keywords: "*PCAD_POWER_SOURCE_INFO_USB, CAD_POWER_SOURCE_INFO_USB, CAD_POWER_SOURCE_INFO_USB structure [Battery Devices], _CAD_POWER_SOURCE_INFO_USB, battery.cad_power_source_info_usb, charging/BATTERY_INFORMATION"
 ms.topic: struct
+f1_keywords:
+ - "charging/BATTERY_INFORMATION"
 req.header: charging.h
 req.include-header: Charging.h
 req.target-type: Windows

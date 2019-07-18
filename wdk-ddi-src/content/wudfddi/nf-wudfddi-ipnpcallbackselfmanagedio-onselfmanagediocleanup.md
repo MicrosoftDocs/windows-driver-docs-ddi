@@ -8,6 +8,8 @@ ms.assetid: 0890c352-8722-4108-9b76-60c81179b46b
 ms.date: 02/26/2018
 ms.keywords: IPnpCallbackSelfManagedIo interface,OnSelfManagedIoCleanup method, IPnpCallbackSelfManagedIo.OnSelfManagedIoCleanup, IPnpCallbackSelfManagedIo::OnSelfManagedIoCleanup, OnSelfManagedIoCleanup, OnSelfManagedIoCleanup method, OnSelfManagedIoCleanup method,IPnpCallbackSelfManagedIo interface, UMDFDeviceObjectRef_32b2f920-2288-4d12-8ecd-a5ea61cc8ebd.xml, umdf.ipnpcallbackselfmanagedio_onselfmanagediocleanup, wdf.ipnpcallbackselfmanagedio_onselfmanagediocleanup, wudfddi/IPnpCallbackSelfManagedIo::OnSelfManagedIoCleanup
 ms.topic: method
+f1_keywords:
+ - "wudfddi/IPnpCallbackSelfManagedIo.OnSelfManagedIoCleanup"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: de8de14a-94a8-49e2-912a-9c174f5a2c74
 ms.date: 02/26/2018
 ms.keywords: GetInterfaceNumber, GetInterfaceNumber method, GetInterfaceNumber method,IWDFUsbInterface interface, IWDFUsbInterface interface,GetInterfaceNumber method, IWDFUsbInterface.GetInterfaceNumber, IWDFUsbInterface::GetInterfaceNumber, UMDFUSBref_4f4d9bc1-a1a1-4cc4-87ba-522fa3f8a0f7.xml, umdf.iwdfusbinterface_getinterfacenumber, wdf.iwdfusbinterface_getinterfacenumber, wudfusb/IWDFUsbInterface::GetInterfaceNumber
 ms.topic: method
+f1_keywords:
+ - "wudfusb/IWDFUsbInterface.GetInterfaceNumber"
 req.header: wudfusb.h
 req.include-header: Wudfusb.h
 req.target-type: Desktop

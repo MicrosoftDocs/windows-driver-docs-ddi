@@ -5,6 +5,8 @@ description: Destroys output duplicate.
 ms.assetid: a648d054-10d2-44d3-a2e2-ea4855480453
 ms.date: 10/19/2018
 ms.topic: function
+f1_keywords:
+ - "d3dkmthk/D3DKMTDestroyOutputDupl"
 ms.keywords: D3DKMTDestroyOutputDupl
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h

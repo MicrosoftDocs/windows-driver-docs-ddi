@@ -8,6 +8,8 @@ ms.assetid: 7ae8bfd7-da94-41b0-8995-34194b2ad8a7
 ms.date: 05/10/2018
 ms.keywords: D3DDDIARG_DESTROYCRYPTOSESSION, D3DDDIARG_DESTROYCRYPTOSESSION structure [Display Devices], UMDisplayDriver_param_Structs_75cddfac-f1d8-4378-bb94-441fff43e224.xml, _D3DDDIARG_DESTROYCRYPTOSESSION, d3dumddi/D3DDDIARG_DESTROYCRYPTOSESSION, display.d3dddiarg_destroycryptosession
 ms.topic: struct
+f1_keywords:
+ - "d3dumddi/D3DDDIARG_DESTROYCRYPTOSESSION"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

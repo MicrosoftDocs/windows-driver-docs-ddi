@@ -5,6 +5,8 @@ description: Implemented by the client driver to release the mapping that was se
 ms.assetid: d70a65f4-2dd2-45d5-85a6-fe2f695960a0
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmddi/DXGKCB_UNMAPFRAMEBUFFERPOINTER"
 req.header: d3dkmddi.h
 req.include-header:
 req.target-type:

@@ -8,6 +8,8 @@ ms.assetid: 9b774f05-f2f6-4148-8fee-0efe209f7e4d
 ms.date: 03/29/2018
 ms.keywords: StorPortDeviceBusy, StorPortDeviceBusy routine [Storage Devices], storage.storportdevicebusy, storport/StorPortDeviceBusy, storprt_c1496cbe-e4b0-4b2b-8947-587b2467c57f.xml
 ms.topic: function
+f1_keywords:
+ - "storport/StorPortDeviceBusy"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

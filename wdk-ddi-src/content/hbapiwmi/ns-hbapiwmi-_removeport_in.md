@@ -8,6 +8,8 @@ ms.assetid: 2f32e44a-e4a6-4745-9749-fc611119cc0e
 ms.date: 03/29/2018
 ms.keywords: "*PRemovePort_IN, PRemovePort_IN, PRemovePort_IN structure pointer [Storage Devices], RemovePort_IN, RemovePort_IN structure [Storage Devices], _RemovePort_IN, hbapiwmi/PRemovePort_IN, hbapiwmi/RemovePort_IN, storage.removeport_in, structs-Fibre_f60e236f-5ed1-4cc2-b685-6ee40895736e.xml"
 ms.topic: struct
+f1_keywords:
+ - "hbapiwmi/RemovePort_IN"
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h
 req.target-type: Windows

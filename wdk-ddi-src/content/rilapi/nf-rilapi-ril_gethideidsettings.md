@@ -8,6 +8,8 @@ ms.assetid: 0ffc34ca-ef55-4d14-b100-2f19606a6d55
 ms.date: 05/02/2018
 ms.keywords: RIL_GetHideIdSettings, RIL_GetHideIdSettings method [Network Drivers Starting with Windows Vista], netvista.ril_gethideidsettings, rilapi/RIL_GetHideIdSettings
 ms.topic: function
+f1_keywords:
+ - "rilapi/RIL_GetHideIdSettings"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows

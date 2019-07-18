@@ -8,6 +8,8 @@ ms.assetid: 0eeb7491-5e3c-47fa-9e81-8a02111672ca
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
 ms.topic: struct
+f1_keywords:
+ - "dispmprt/_DXGKARG_QUERYVIRTUALFUNCTIONLUID"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.keywords: _DXGKARG_QUERYVIRTUALFUNCTIONLUID, DXGKARG_QUERYVIRTUALFUNCTIONLUID, *PDXGKARG_QUERYVIRTUALFUNCTIONLUID, 

@@ -8,6 +8,8 @@ ms.assetid: 19aa5905-f611-46e2-8d70-a6cc4649c911
 ms.date: 02/23/2018
 ms.keywords: EtwEventEnabled, EtwEventEnabled function [Driver Development Tools], devtest.etweventenabled, etw_km_4a6453a7-cff8-4941-83fd-8184772ef161.xml, wdm/EtwEventEnabled
 ms.topic: function
+f1_keywords:
+ - "wdm/EtwEventEnabled"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Universal

@@ -8,6 +8,8 @@ ms.assetid: 23c06f1c-0c8f-4055-a997-1ff94c4a541e
 ms.date: 04/20/2018
 ms.keywords: "*PPROPSHEETUI_GETICON_INFO, PPROPSHEETUI_GETICON_INFO, PPROPSHEETUI_GETICON_INFO structure pointer [Print Devices], PROPSHEETUI_GETICON_INFO, PROPSHEETUI_GETICON_INFO structure [Print Devices], _PROPSHEETUI_GETICON_INFO, compstui/PPROPSHEETUI_GETICON_INFO, compstui/PROPSHEETUI_GETICON_INFO, cpsuifnc_da228e66-0d1b-4d35-af1e-e1b99e56ad08.xml, print.propsheetui_geticon_info"
 ms.topic: struct
+f1_keywords:
+ - "compstui/PROPSHEETUI_GETICON_INFO"
 req.header: compstui.h
 req.include-header: Compstui.h
 req.target-type: Windows

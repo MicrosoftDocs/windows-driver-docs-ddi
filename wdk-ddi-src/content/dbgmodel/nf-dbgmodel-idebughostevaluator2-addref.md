@@ -5,6 +5,8 @@ description: Increments the reference count for an interface on an object. This 
 ms.assetid: e3645855-1628-4797-bb5d-5bb7083e37e7
 ms.date: 09/21/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDebugHostEvaluator2.AddRef"
 ms.keywords: IDebugHostEvaluator2::AddRef, AddRef, IDebugHostEvaluator2.AddRef, IDebugHostEvaluator2::AddRef, IDebugHostEvaluator2.AddRef
 req.header: dbgmodel.h
 req.include-header:

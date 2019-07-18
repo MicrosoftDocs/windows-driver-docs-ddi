@@ -8,6 +8,8 @@ ms.assetid: 3b6c84dd-b8ff-4083-9e7f-f82e4f054c3d
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
+f1_keywords:
+ - "ntddk/WHEAP_ADD_REMOVE_ERROR_SOURCE_EVENT"
 ms.keywords: WHEAP_ADD_REMOVE_ERROR_SOURCE_EVENT, WHEAP_ADD_REMOVE_ERROR_SOURCE_EVENT, *PWHEAP_ADD_REMOVE_ERROR_SOURCE_EVENT, 
 req.header: ntddk.h
 req.include-header:

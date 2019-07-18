@@ -8,6 +8,8 @@ ms.assetid: 4f357612-c07d-42fe-a49f-59acec80a8bc
 ms.date: 05/10/2018
 ms.keywords: VideoPortSetDmaContext, VideoPortSetDmaContext function [Display Devices], VideoPort_Functions_8e20017f-9d32-45c9-8f68-10cc61b6591d.xml, display.videoportsetdmacontext, video/VideoPortSetDmaContext
 ms.topic: function
+f1_keywords:
+ - "video/VideoPortSetDmaContext"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

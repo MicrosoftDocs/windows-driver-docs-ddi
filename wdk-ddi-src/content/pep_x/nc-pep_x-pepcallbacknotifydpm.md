@@ -8,6 +8,8 @@ ms.assetid: 56446DA9-EAE9-4EEF-9299-892B7384D506
 ms.date: 04/30/2018
 ms.keywords: AcceptDeviceNotification, AcceptDeviceNotification routine [Kernel-Mode Driver Architecture], PEPCALLBACKNOTIFYDPM, kernel.acceptdevicenotification, pepfx/AcceptDeviceNotification
 ms.topic: callback
+f1_keywords:
+ - "pep_x/AcceptDeviceNotification"
 req.header: pep_x.h
 req.include-header: Pep_x.h
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: f8afda8b-12de-4955-8f25-0b2dae031ff1
 ms.date: 04/27/2018
 ms.keywords: "_BRB_SCO_GET_SYSTEM_INFO, _BRB_SCO_GET_SYSTEM_INFO structure [Bluetooth Devices], bltooth._brb_sco_get_system_info, bth_structs_970b0c43-701b-4219-b05c-aa49f8e6a09e.xml, bthddi/_BRB_SCO_GET_SYSTEM_INFO"
 ms.topic: struct
+f1_keywords:
+ - "bthddi/_BRB_SCO_GET_SYSTEM_INFO"
 req.header: bthddi.h
 req.include-header: Bthddi.h
 req.target-type: Windows

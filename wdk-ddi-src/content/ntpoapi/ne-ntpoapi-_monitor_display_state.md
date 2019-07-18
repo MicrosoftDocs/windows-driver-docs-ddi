@@ -8,6 +8,8 @@ ms.assetid: 50F5C1AD-BA51-4376-8093-E8596265FDAF
 ms.date: 04/30/2018
 ms.keywords: "*PMONITOR_DISPLAY_STATE, MONITOR_DISPLAY_STATE, MONITOR_DISPLAY_STATE enumeration [Kernel-Mode Driver Architecture], PowerMonitorDim, PowerMonitorOff, PowerMonitorOn, _MONITOR_DISPLAY_STATE, kernel.monitor_display_state, wdm/MONITOR_DISPLAY_STATE, wdm/PowerMonitorDim, wdm/PowerMonitorOff, wdm/PowerMonitorOn"
 ms.topic: enum
+f1_keywords:
+ - "ntpoapi/MONITOR_DISPLAY_STATE"
 req.header: ntpoapi.h
 req.include-header: Ntpoapi.h
 req.target-type: Windows

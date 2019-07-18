@@ -8,6 +8,8 @@ ms.assetid: 21339CB5-8529-4649-9F1A-9D8C80709407
 ms.date: 05/07/2018
 ms.keywords: UdecxUsbDeviceSetFunctionSuspendAndWakeComplete, UdecxUsbDeviceSetFunctionSuspendAndWakeComplete function [Buses], buses.udecxusbdevicesetfunctionsuspendandwakecomplete, udecxusbdevice/UdecxUsbDeviceSetFunctionSuspendAndWakeComplete
 ms.topic: function
+f1_keywords:
+ - "udecxusbdevice/UdecxUsbDeviceSetFunctionSuspendAndWakeComplete"
 req.header: udecxusbdevice.h
 req.include-header: Udecx.h
 req.target-type: Windows

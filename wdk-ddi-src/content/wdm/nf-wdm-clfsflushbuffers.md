@@ -8,6 +8,8 @@ ms.assetid: 70e93c8f-a23c-4399-9299-c2743d097ded
 ms.date: 04/30/2018
 ms.keywords: ClfsFlushBuffers, ClfsFlushBuffers routine [Kernel-Mode Driver Architecture], Clfs_3c04240c-0914-472f-9b4b-97a00221e092.xml, kernel.clfsflushbuffers, wdm/ClfsFlushBuffers
 ms.topic: function
+f1_keywords:
+ - "wdm/ClfsFlushBuffers"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop

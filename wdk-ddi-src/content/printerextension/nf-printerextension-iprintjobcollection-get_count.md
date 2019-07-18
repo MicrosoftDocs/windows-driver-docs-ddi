@@ -8,6 +8,8 @@ ms.assetid: B44C8023-CB5F-4381-8A75-CA086E989BAC
 ms.date: 04/20/2018
 ms.keywords: Count property [Print Devices], Count property [Print Devices],IPrintJobCollection interface, IPrintJobCollection interface [Print Devices],Count property, IPrintJobCollection.Count, IPrintJobCollection.get_Count, IPrintJobCollection::Count, IPrintJobCollection::get_Count, get_Count, print.iprintjobcollection_count, printerextension/IPrintJobCollection::Count, printerextension/IPrintJobCollection::get_Count
 ms.topic: method
+f1_keywords:
+ - "printerextension/IPrintJobCollection.Count"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows

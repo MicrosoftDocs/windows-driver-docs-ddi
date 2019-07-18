@@ -8,6 +8,8 @@ ms.assetid: E5EA2E40-2CC3-4C7B-8BCC-4793F76ECBAD
 ms.date: 04/16/2018
 ms.keywords: FsRtlSetKernelEaFile, FsRtlSetKernelEaFile routine [Installable File System Drivers], ifsk.fsrtlsetkerneleafile, ntifs/FsRtlSetKernelEaFile
 ms.topic: function
+f1_keywords:
+ - "ntifs/FsRtlSetKernelEaFile"
 req.header: ntifs.h
 req.include-header: 
 req.target-type: Windows

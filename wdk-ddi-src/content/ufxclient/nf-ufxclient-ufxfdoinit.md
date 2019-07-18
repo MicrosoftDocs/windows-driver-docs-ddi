@@ -8,6 +8,8 @@ ms.assetid: 11CDA6DA-6B26-41BC-8F0B-2F18FC03B3C2
 ms.date: 05/07/2018
 ms.keywords: UfxFdoInit, UfxFdoInit method [Buses], buses.ufxfdoinit, ufxclient/UfxFdoInit
 ms.topic: function
+f1_keywords:
+ - "ufxclient/UfxFdoInit"
 req.header: ufxclient.h
 req.include-header: 
 req.target-type: Windows

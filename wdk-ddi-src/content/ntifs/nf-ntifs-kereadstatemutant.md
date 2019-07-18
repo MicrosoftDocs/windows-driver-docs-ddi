@@ -8,6 +8,8 @@ ms.assetid: caf5d3fc-f9bb-412c-af5f-e0c5e4d45efc
 ms.date: 04/16/2018
 ms.keywords: KeReadStateMutant, KeReadStateMutant function [Installable File System Drivers], ifsk.kereadstatemutant, keref_71f98f36-f8ae-4ea9-9a54-8fb34694b18c.xml, ntifs/KeReadStateMutant
 ms.topic: function
+f1_keywords:
+ - "ntifs/KeReadStateMutant"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows

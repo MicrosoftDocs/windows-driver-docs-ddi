@@ -8,6 +8,8 @@ ms.assetid: 3c35e2e0-8f8a-456f-b0ce-494a050d11dc
 ms.date: 05/02/2018
 ms.keywords: "*LPRILSETMSGINUICCSTATUSPARAMS, RILSETMSGINUICCSTATUSPARAMS, RILSETMSGINUICCSTATUSPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsetmsginuiccstatusparams, ntddrilapitypes/RILSETMSGINUICCSTATUSPARAMS"
 ms.topic: struct
+f1_keywords:
+ - "ntddrilapitypes/RILSETMSGINUICCSTATUSPARAMS"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

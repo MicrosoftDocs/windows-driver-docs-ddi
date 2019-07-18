@@ -8,6 +8,8 @@ ms.assetid: 9bec95c9-785f-4578-a28a-6cffc986a3b9
 ms.date: 02/26/2018
 ms.keywords: "*PWDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER, DFDeviceObjectChildListRef_543d7f3d-e182-4147-a1cb-62d39fdde4e3.xml, PWDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER, PWDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER structure pointer, WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER, WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER structure, _WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER, kmdf.wdf_child_identification_description_header, wdf.wdf_child_identification_description_header, wdfchildlist/PWDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER, wdfchildlist/WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER"
 ms.topic: struct
+f1_keywords:
+ - "wdfchildlist/WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER"
 req.header: wdfchildlist.h
 req.include-header: Wdf.h
 req.target-type: Windows

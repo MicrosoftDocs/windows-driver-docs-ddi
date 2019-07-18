@@ -8,6 +8,8 @@ ms.assetid: 68c2005e-c54b-413e-955a-864a05b23f4e
 ms.date: 04/04/2018
 ms.keywords: IWDTFDriverPackageAction2 interface [Windows Device Testing Framework],SetPackageInfFileName method, IWDTFDriverPackageAction2.SetPackageInfFileName, IWDTFDriverPackageAction2::SetPackageInfFileName, Microsoft.WDTF.IWDTFDriverPackageAction2.SetPackageInfFileName, Microsoft::WDTF::IWDTFDriverPackageAction2::SetPackageInfFileName, SetPackageInfFileName, SetPackageInfFileName method [Windows Device Testing Framework], SetPackageInfFileName method [Windows Device Testing Framework],IWDTFDriverPackageAction2 interface, dtf.iwdtfdriverpackageaction2_setpackageinffilename, wdtfdriverpackageaction/IWDTFDriverPackageAction2::SetPackageInfFileName
 ms.topic: method
+f1_keywords:
+ - "wdtfdriverpackageaction/IWDTFDriverPackageAction2.SetPackageInfFileName"
 req.header: wdtfdriverpackageaction.h
 req.include-header: 
 req.target-type: Desktop

@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: E999C47A-CAE1-42AB-9900-4118EFFAEE0D
 ms.date: 02/15/2018
 ms.topic: callback
+f1_keywords:
+ - "netadapter/EVT_NET_ADAPTER_RETURN_RX_BUFFER"
 req.header: netadapter.h
 req.include-header:
 req.target-type: Universal

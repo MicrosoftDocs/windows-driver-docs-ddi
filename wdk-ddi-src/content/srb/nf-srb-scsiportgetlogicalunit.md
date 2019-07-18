@@ -8,6 +8,8 @@ ms.assetid: 10088043-fc0b-4df9-a5bf-fdee9740b88a
 ms.date: 03/29/2018
 ms.keywords: ScsiPortGetLogicalUnit, ScsiPortGetLogicalUnit routine [Storage Devices], scsiprt_2b4c797a-4fbb-4c0c-913a-628bfb6dab3d.xml, srb/ScsiPortGetLogicalUnit, storage.scsiportgetlogicalunit
 ms.topic: function
+f1_keywords:
+ - "srb/ScsiPortGetLogicalUnit"
 req.header: srb.h
 req.include-header: Miniport.h, Scsi.h
 req.target-type: Desktop

@@ -5,6 +5,8 @@ description: Contains arguments for the call to DxgkDdiControlDiagnosticReportin
 ms.assetid: ac6a8e7d-85b8-4835-b8f6-827a6cbbee95
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "dispmprt/_DXGKARG_CONTROLDIAGNOSTICREPORTING"
 ms.keywords: _DXGKARG_CONTROLDIAGNOSTICREPORTING, *PDXGKARG_CONTROLDIAGNOSTICREPORTING, DXGKARG_CONTROLDIAGNOSTICREPORTING,
 req.header: dispmprt.h
 req.include-header:

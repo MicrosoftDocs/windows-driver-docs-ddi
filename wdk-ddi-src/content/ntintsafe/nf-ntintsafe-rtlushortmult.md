@@ -8,6 +8,8 @@ ms.assetid: 1727AD96-FC0B-4B52-92C5-5E7502433021
 ms.date: 04/30/2018
 ms.keywords: RtlUShortMult, RtlUShortMult function [Kernel-Mode Driver Architecture], kernel.rtlushortmult, ntintsafe/RtlUShortMult
 ms.topic: function
+f1_keywords:
+ - "ntintsafe/RtlUShortMult"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop

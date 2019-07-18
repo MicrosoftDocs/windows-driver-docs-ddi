@@ -8,6 +8,8 @@ ms.assetid: 7af6ee73-814b-49f8-8641-d3e8dc672ee5
 ms.date: 05/02/2018
 ms.keywords: NdisMQueryAdapterInstanceName, NdisMQueryAdapterInstanceName function [Network Drivers Starting with Windows Vista], miniport_ndis_functions_ref_5e04ebd4-3db8-4cb2-a75c-ce67d938804c.xml, ndis/NdisMQueryAdapterInstanceName, netvista.ndismqueryadapterinstancename
 ms.topic: function
+f1_keywords:
+ - "ndis/NdisMQueryAdapterInstanceName"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

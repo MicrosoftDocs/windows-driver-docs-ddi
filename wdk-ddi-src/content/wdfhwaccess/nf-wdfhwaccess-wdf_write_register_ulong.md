@@ -8,6 +8,8 @@ ms.assetid: C2EBA90C-3F36-45AC-9344-DFB1824A66B9
 ms.date: 02/26/2018
 ms.keywords: WDF_WRITE_REGISTER_ULONG, WDF_WRITE_REGISTER_ULONG function, wdf.wdf_write_register_ulong, wdfhwaccess/WDF_WRITE_REGISTER_ULONG
 ms.topic: function
+f1_keywords:
+ - "wdfhwaccess/WDF_WRITE_REGISTER_ULONG"
 req.header: wdfhwaccess.h
 req.include-header: 
 req.target-type: Universal

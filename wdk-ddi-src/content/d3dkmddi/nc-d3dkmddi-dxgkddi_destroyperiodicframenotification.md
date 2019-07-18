@@ -7,6 +7,8 @@ ms.assetid: 4C6B6FB2-A699-40F5-ACA3-62E8620E99AB
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_DESTROYPERIODICFRAMENOTIFICATION, DXGKDDI_DESTROYPERIODICFRAMENOTIFICATION callback, DXGKDDI_DESTROYPERIODICFRAMENOTIFICATION callback function [Display Devices], d3dkmddi/DXGKDDI_DESTROYPERIODICFRAMENOTIFICATION, display.dxgkddi_destroyperiodicframenotification
 ms.topic: callback
+f1_keywords:
+ - "d3dkmddi/DXGKDDI_DESTROYPERIODICFRAMENOTIFICATION"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: f8226351-4a40-4c71-9ab4-4609ae7e0470
 ms.date: 04/16/2018
 ms.keywords: IoQueryVolumeInformation, IoQueryVolumeInformation function [Installable File System Drivers], ifsk.ioqueryvolumeinformation, ioref_c048e59e-2f1e-4327-9f7f-b18e9a8e5724.xml, ntifs/IoQueryVolumeInformation
 ms.topic: function
+f1_keywords:
+ - "ntifs/IoQueryVolumeInformation"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows

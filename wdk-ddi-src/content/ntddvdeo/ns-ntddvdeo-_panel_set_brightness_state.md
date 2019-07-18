@@ -6,6 +6,8 @@ tech.root: display
 ms.assetid: 2ca95445-a6a1-428e-a6a4-94bbd8f5c3d4
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "ntddvdeo/_PANEL_SET_BRIGHTNESS_STATE"
 ms.keywords: _PANEL_SET_BRIGHTNESS_STATE, *PPANEL_SET_BRIGHTNESS_STATE, PANEL_SET_BRIGHTNESS_STATE,
 req.header: ntddvdeo.h
 req.include-header:

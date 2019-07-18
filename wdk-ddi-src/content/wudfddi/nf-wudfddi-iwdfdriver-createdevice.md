@@ -8,6 +8,8 @@ ms.assetid: df921271-b708-43bf-a250-048b7f638cac
 ms.date: 02/26/2018
 ms.keywords: CreateDevice, CreateDevice method, CreateDevice method,IWDFDriver interface, IWDFDriver interface,CreateDevice method, IWDFDriver.CreateDevice, IWDFDriver::CreateDevice, UMDFDriverObjectRef_9afa4fd4-210b-4055-855a-1f922eb0fc9c.xml, umdf.iwdfdriver_createdevice, wdf.iwdfdriver_createdevice, wudfddi/IWDFDriver::CreateDevice
 ms.topic: method
+f1_keywords:
+ - "wudfddi/IWDFDriver.CreateDevice"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

@@ -8,6 +8,8 @@ ms.assetid: f0226d35-f7a9-4220-be91-afb6d0debd36
 ms.date: 05/03/2018
 ms.keywords: IDebugAdvanced3, IDebugAdvanced3 interface [Windows Debugging], IDebugAdvanced3 interface [Windows Debugging],described, dbgeng/IDebugAdvanced3, debugger.idebugadvanced3
 ms.topic: interface
+f1_keywords:
+ - "dbgeng/IDebugAdvanced3"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

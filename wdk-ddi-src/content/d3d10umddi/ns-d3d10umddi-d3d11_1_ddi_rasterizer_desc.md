@@ -7,6 +7,8 @@ ms.assetid: a78655b3-3ca3-4632-9ac4-3efae6b10a0c
 ms.date: 05/10/2018
 ms.keywords: D3D11_1_DDI_RASTERIZER_DESC, D3D11_1_DDI_RASTERIZER_DESC structure [Display Devices], d3d10umddi/D3D11_1_DDI_RASTERIZER_DESC, display.d3d11_1_ddi_rasterizer_desc
 ms.topic: struct
+f1_keywords:
+ - "d3d10umddi/D3D11_1_DDI_RASTERIZER_DESC"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows

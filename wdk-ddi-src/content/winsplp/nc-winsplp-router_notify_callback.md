@@ -8,6 +8,8 @@ ms.assetid: 97D8FEEA-B6D7-4AD7-A067-B503AF8F23FF
 ms.date: 04/20/2018
 ms.keywords: ROUTER_NOTIFY_CALLBACK, ROUTER_NOTIFY_CALLBACK callback, ROUTER_NOTIFY_CALLBACK callback function [Print Devices], print.router_notify_callback, winsplp/ROUTER_NOTIFY_CALLBACK
 ms.topic: callback
+f1_keywords:
+ - "winsplp/ROUTER_NOTIFY_CALLBACK"
 req.header: winsplp.h
 req.include-header: 
 req.target-type: Windows

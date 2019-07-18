@@ -8,6 +8,8 @@ ms.assetid: B46AE68A-36E1-4367-95F5-0FFBAA42171C
 ms.date: 04/20/2018
 ms.keywords: IPrintSchemaTicket, IPrintSchemaTicket interface [Print Devices],ValidateAsync method, IPrintSchemaTicket.ValidateAsync, IPrintSchemaTicket::ValidateAsync, ValidateAsync, ValidateAsync method [Print Devices], ValidateAsync method [Print Devices],IPrintSchemaTicket interface, print.iprintschematicket_validateasync, printerextension/IPrintSchemaTicket::ValidateAsync
 ms.topic: method
+f1_keywords:
+ - "printerextension/IPrintSchemaTicket.ValidateAsync"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop

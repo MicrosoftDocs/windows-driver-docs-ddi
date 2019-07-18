@@ -5,6 +5,8 @@ description: The CreateModuleSignature method creates a signature which can be u
 ms.assetid: e3cac74c-4c56-457f-bfec-522405553d68
 ms.date: 08/22/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDebugHostSymbols.CreateModuleSignature"
 ms.keywords: IDebugHostSymbols::CreateModuleSignature, CreateModuleSignature, IDebugHostSymbols.CreateModuleSignature, IDebugHostSymbols::CreateModuleSignature, IDebugHostSymbols.CreateModuleSignature
 req.header: dbgmodel.h
 req.include-header:

@@ -8,6 +8,8 @@ ms.assetid: A9256A7B-B851-498C-94C3-95268D079828
 ms.date: 04/20/2018
 ms.keywords: GetJobNamedPropertyValue, GetJobNamedPropertyValue function [Print Devices], print.getjobnamedpropertyvalue, winspool/GetJobNamedPropertyValue
 ms.topic: function
+f1_keywords:
+ - "winspool/GetJobNamedPropertyValue"
 req.header: winspool.h
 req.include-header: Winspool.h
 req.target-type: Desktop

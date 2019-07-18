@@ -8,6 +8,8 @@ ms.assetid: 66ec7c51-3d2c-4a25-a356-4df06ee1b1f5
 ms.date: 05/03/2018
 ms.keywords: GetModuleByModuleNameWide, GetModuleByModuleNameWide method [Windows Debugging], GetModuleByModuleNameWide method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetModuleByModuleNameWide method, IDebugSymbols3.GetModuleByModuleNameWide, IDebugSymbols3::GetModuleByModuleNameWide, dbgeng/IDebugSymbols3::GetModuleByModuleNameWide, debugger.getmodulebymodulenamewide
 ms.topic: method
+f1_keywords:
+ - "dbgeng/IDebugSymbols3.GetModuleByModuleNameWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

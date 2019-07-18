@@ -8,6 +8,8 @@ ms.assetid: C8963667-D2FB-4360-A523-33429D6FBF1B
 ms.date: 02/26/2018
 ms.keywords: WdfDeviceUnmapIoSpace, WdfDeviceUnmapIoSpace function, wdf.wdfdeviceunmapiospace, wdfdevice/WdfDeviceUnmapIoSpace
 ms.topic: function
+f1_keywords:
+ - "wdfdevice/WdfDeviceUnmapIoSpace"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

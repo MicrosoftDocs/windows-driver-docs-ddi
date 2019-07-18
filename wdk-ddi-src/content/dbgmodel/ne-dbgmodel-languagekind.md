@@ -5,6 +5,8 @@ description: Identifies the language of the compiland containing a given symbol.
 ms.assetid: f4f112e3-1a06-441f-92ef-dff2576274ff
 ms.date: 07/16/2018
 ms.topic: enum
+f1_keywords:
+ - "dbgmodel/LanguageKind"
 ms.keywords: LanguageKind, , 
 req.header: dbgmodel.h
 req.include-header:

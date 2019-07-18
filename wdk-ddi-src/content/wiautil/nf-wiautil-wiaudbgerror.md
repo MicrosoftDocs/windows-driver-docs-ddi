@@ -8,6 +8,8 @@ ms.assetid: 112d6f90-33b3-446b-943c-8995e6ec3378
 ms.date: 05/03/2018
 ms.keywords: image.wiaudbgerror, wiauDbgError, wiauDbgError function [Imaging Devices], wiauFncs_73184286-df53-4272-9fa8-aae1d1fb3dbc.xml, wiautil/wiauDbgError
 ms.topic: function
+f1_keywords:
+ - "wiautil/wiauDbgError"
 req.header: wiautil.h
 req.include-header: Wiautil.h
 req.target-type: Desktop

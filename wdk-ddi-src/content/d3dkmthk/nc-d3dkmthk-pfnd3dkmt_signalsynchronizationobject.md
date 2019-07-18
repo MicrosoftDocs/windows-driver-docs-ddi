@@ -5,6 +5,8 @@ description: The PFND3DKMT_SIGNALSYNCHRONIZATIONOBJECT callback function inserts
 ms.assetid: 2e5592f8-96bc-4ec8-961a-38fc2dbc9dfe
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/PFND3DKMT_SIGNALSYNCHRONIZATIONOBJECT"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

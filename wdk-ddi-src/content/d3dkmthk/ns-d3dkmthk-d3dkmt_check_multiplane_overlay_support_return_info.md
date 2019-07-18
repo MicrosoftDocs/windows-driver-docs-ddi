@@ -5,6 +5,8 @@ description: Structure to check multiplane overlay support return info.
 ms.assetid: 83093ae5-fa42-4cb8-8e34-f0545e0f8a2d
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/D3DKMT_CHECK_MULTIPLANE_OVERLAY_SUPPORT_RETURN_INFO"
 ms.keywords: D3DKMT_CHECK_MULTIPLANE_OVERLAY_SUPPORT_RETURN_INFO, D3DKMT_CHECK_MULTIPLANE_OVERLAY_SUPPORT_RETURN_INFO, 
 req.header: d3dkmthk.h
 req.include-header:

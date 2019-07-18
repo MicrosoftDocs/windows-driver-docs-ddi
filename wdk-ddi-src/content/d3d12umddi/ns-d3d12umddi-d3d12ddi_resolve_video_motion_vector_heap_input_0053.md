@@ -5,6 +5,8 @@ description:
 ms.assetid: 3ca50bea-cc8b-4dfb-99ab-88e37147733a
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_RESOLVE_VIDEO_MOTION_VECTOR_HEAP_INPUT_0053"
 ms.keywords: D3D12DDI_RESOLVE_VIDEO_MOTION_VECTOR_HEAP_INPUT_0053, D3D12DDI_RESOLVE_VIDEO_MOTION_VECTOR_HEAP_INPUT_0053, 
 req.header: d3d12umddi.h
 req.include-header:

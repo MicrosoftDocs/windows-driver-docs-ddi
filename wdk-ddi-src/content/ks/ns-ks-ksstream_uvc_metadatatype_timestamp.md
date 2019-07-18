@@ -8,6 +8,8 @@ ms.assetid: FDA0CD47-36D9-4E64-9377-F419A7D788A3
 ms.date: 04/23/2018
 ms.keywords: "*PKSSTREAM_UVC_METADATATYPE_TIMESTAMP, KSSTREAM_UVC_METADATATYPE_TIMESTAMP, KSSTREAM_UVC_METADATATYPE_TIMESTAMP structure [Streaming Media Devices], PKSSTREAM_UVC_METADATATYPE_TIMESTAMP, PKSSTREAM_UVC_METADATATYPE_TIMESTAMP structure pointer [Streaming Media Devices], ks/KSSTREAM_UVC_METADATATYPE_TIMESTAMP, ks/PKSSTREAM_UVC_METADATATYPE_TIMESTAMP, stream.ksstream_uvc_metadatatype_timestamp"
 ms.topic: struct
+f1_keywords:
+ - "ks/KSSTREAM_UVC_METADATATYPE_TIMESTAMP"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows

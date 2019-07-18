@@ -8,6 +8,8 @@ ms.assetid: c9681207-6cdd-40b6-8878-7ea37f383e4f
 ms.date: 05/02/2018
 ms.keywords: "*LPRILUNSOLICITEDSSINFO_V1, RILUNSOLICITEDSSINFO_V1, RILUNSOLICITEDSSINFO_V1 structure [Network Drivers Starting with Windows Vista], netvista.rilunsolicitedssinfo_v1, ntddrilapitypes/RILUNSOLICITEDSSINFO_V1"
 ms.topic: struct
+f1_keywords:
+ - "rilapitypes/RILUNSOLICITEDSSINFO_V1"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

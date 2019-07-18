@@ -5,6 +5,8 @@ description: The GetBaseLocation method returns the base load address of the mod
 ms.assetid: b0e14eb7-c8bc-4a20-bbea-692d837cdcd7
 ms.date: 09/18/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDebugHostModule.GetBaseLocation"
 ms.keywords: IDebugHostModule::GetBaseLocation, GetBaseLocation, IDebugHostModule.GetBaseLocation, IDebugHostModule::GetBaseLocation, IDebugHostModule.GetBaseLocation
 req.header: dbgmodel.h
 req.include-header:

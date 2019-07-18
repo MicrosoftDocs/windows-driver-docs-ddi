@@ -8,6 +8,8 @@ ms.assetid: ABC856E4-557D-45FD-B3A9-3FAA60542343
 ms.date: 04/30/2018
 ms.keywords: "*PPEP_PROCESSOR_IDLE_TYPE, PEP_PROCESSOR_IDLE_TYPE, PEP_PROCESSOR_IDLE_TYPE enumeration [Kernel-Mode Driver Architecture], PepIdleTypeMax, PepIdleTypePlatform, PepIdleTypeProcessor, kernel.pep_processor_idle_type, pep_x/PEP_PROCESSOR_IDLE_TYPE, pep_x/PepIdleTypeMax, pep_x/PepIdleTypePlatform, pep_x/PepIdleTypeProcessor"
 ms.topic: enum
+f1_keywords:
+ - "pep_x/PEP_PROCESSOR_IDLE_TYPE"
 req.header: pep_x.h
 req.include-header: Pepfx.h
 req.target-type: Windows

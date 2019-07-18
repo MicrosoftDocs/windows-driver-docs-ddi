@@ -8,6 +8,8 @@ ms.assetid: 818A9F03-F56E-47D6-A9D1-DD0F63B05054
 ms.date: 03/29/2018
 ms.keywords: StorPortSetAdapterBusType, StorPortSetAdapterBusType routine [Storage Devices], storage.storportsetadapterbustype, storport/StorPortSetAdapterBusType
 ms.topic: function
+f1_keywords:
+ - "storport/StorPortSetAdapterBusType"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

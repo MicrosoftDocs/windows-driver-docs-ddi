@@ -8,6 +8,8 @@ ms.assetid: 3B4C0CF0-8153-446E-A834-C1FE28651718
 ms.date: 04/30/2018
 ms.keywords: RtlPtrdiffTAdd, RtlPtrdiffTAdd function [Kernel-Mode Driver Architecture], kernel.rtlptrdifftadd, ntintsafe/RtlPtrdiffTAdd
 ms.topic: function
+f1_keywords:
+ - "ntintsafe/RtlPtrdiffTAdd"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop

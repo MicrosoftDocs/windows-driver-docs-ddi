@@ -5,6 +5,8 @@ description: Creates a tracked workload instance.
 ms.assetid: be3bdd91-d69e-4265-acc4-049d6927c432
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/PFND3DKMT_CREATETRACKEDWORKLOAD"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

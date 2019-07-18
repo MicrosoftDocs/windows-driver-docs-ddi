@@ -8,6 +8,8 @@ ms.assetid: B64849A6-DDB1-4BD1-B4B6-1E38DE9237E5
 ms.date: 05/07/2018
 ms.keywords: UCM_TYPEC_OPERATING_MODE, UCM_TYPEC_OPERATING_MODE enumeration [Buses], UcmTypeCOperatingModeDfp, UcmTypeCOperatingModeDrp, UcmTypeCOperatingModeInvalid, UcmTypeCOperatingModeUfp, _UCM_TYPEC_OPERATING_MODE, buses.ucm_type_c_operating_mode, ucmtypes/UCM_TYPEC_OPERATING_MODE, ucmtypes/UcmTypeCOperatingModeDfp, ucmtypes/UcmTypeCOperatingModeDrp, ucmtypes/UcmTypeCOperatingModeInvalid, ucmtypes/UcmTypeCOperatingModeUfp
 ms.topic: enum
+f1_keywords:
+ - "ucmtypes/UCM_TYPEC_OPERATING_MODE"
 req.header: ucmtypes.h
 req.include-header: Ucmcx.h
 req.target-type: Windows

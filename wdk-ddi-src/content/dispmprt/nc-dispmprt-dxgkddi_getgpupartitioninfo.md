@@ -8,6 +8,8 @@ ms.assetid: 1355e857-f565-4705-8dde-077bb042bcb3
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
 ms.topic: callback
+f1_keywords:
+ - "dispmprt/DXGKDDI_GETGPUPARTITIONINFO"
 req.header: dispmprt.h
 req.include-header:
 req.target-type:

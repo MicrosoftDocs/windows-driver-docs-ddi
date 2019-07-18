@@ -8,6 +8,8 @@ ms.assetid: b2f996b1-0c1a-4ad5-a4c4-5d84ca94c5a1
 ms.date: 04/16/2018
 ms.keywords: RtlRemoveUnicodePrefix, RtlRemoveUnicodePrefix routine [Installable File System Drivers], ifsk.rtlremoveunicodeprefix, ntifs/RtlRemoveUnicodePrefix, rtlref_a6eb361a-f00b-4377-913c-8494c49d4064.xml
 ms.topic: function
+f1_keywords:
+ - "ntifs/RtlRemoveUnicodePrefix"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

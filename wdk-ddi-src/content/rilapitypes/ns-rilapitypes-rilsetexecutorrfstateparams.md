@@ -8,6 +8,8 @@ ms.assetid: d7f36cbd-56bb-470e-b965-369b9e49f5e2
 ms.date: 05/02/2018
 ms.keywords: "*LPRILSETEXECUTORRFSTATEPARAMS, RILSETEXECUTORRFSTATEPARAMS, RILSETEXECUTORRFSTATEPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsetexecutorrfstateparams, ntddrilapitypes/RILSETEXECUTORRFSTATEPARAMS"
 ms.topic: struct
+f1_keywords:
+ - "rilapitypes/RILSETEXECUTORRFSTATEPARAMS"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

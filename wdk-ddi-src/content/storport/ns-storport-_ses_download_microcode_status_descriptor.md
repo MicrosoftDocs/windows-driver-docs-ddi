@@ -8,6 +8,8 @@ ms.assetid: af686e7a-9426-4151-8ac4-d95ae1689b4c
 ms.date: 03/29/2018
 ms.keywords: "*PSES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR, PSES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR, PSES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR structure pointer [Storage Devices], SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR, SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR structure [Storage Devices], _SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR, scsi/PSES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR, scsi/SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR, storage.ses_download_microcode_status_descriptor"
 ms.topic: struct
+f1_keywords:
+ - "storport/SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR"
 req.header: storport.h
 req.include-header: Minitape.h, Storport.h
 req.target-type: Windows

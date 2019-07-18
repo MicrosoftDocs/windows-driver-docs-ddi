@@ -5,6 +5,8 @@ description: Arguments used to submit a Blt Present operation to a hardware queu
 ms.assetid: 9e873f50-ca38-414d-98e4-8f99ccacd673
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/_D3DKMT_SUBMITPRESENTTOHWQUEUE"
 ms.keywords: _D3DKMT_SUBMITPRESENTTOHWQUEUE, D3DKMT_SUBMITPRESENTTOHWQUEUE, 
 req.header: d3dkmthk.h
 req.include-header:

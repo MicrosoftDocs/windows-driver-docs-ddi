@@ -8,6 +8,8 @@ ms.assetid: a8548f9c-5cb6-4a13-b37c-da28d316b8e1
 ms.date: 05/03/2018
 ms.keywords: IDebugDataSpaces2, IDebugDataSpaces2 interface [Windows Debugging], IDebugDataSpaces2 interface [Windows Debugging],described, dbgeng/IDebugDataSpaces2, debugger.idebugdataspaces2
 ms.topic: interface
+f1_keywords:
+ - "dbgeng/IDebugDataSpaces2"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

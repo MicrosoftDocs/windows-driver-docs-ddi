@@ -8,6 +8,8 @@ ms.assetid: 9bff0ac6-149e-4a40-a6e0-a3156c3d6af5
 ms.date: 04/04/2018
 ms.keywords: DeviceDepot property [Windows Device Testing Framework], DeviceDepot property [Windows Device Testing Framework],IWDTF2 interface, IWDTF2 interface [Windows Device Testing Framework],DeviceDepot property, IWDTF2.DeviceDepot, IWDTF2.get_DeviceDepot, IWDTF2::DeviceDepot, IWDTF2::get_DeviceDepot, Microsoft.WDTF.IWDTF2.DeviceDepot, Microsoft::WDTF::IWDTF2::DeviceDepot, dtf.iwdtf2_devicedepot, get_DeviceDepot, wdtf/IWDTF2::DeviceDepot, wdtf/IWDTF2::get_DeviceDepot
 ms.topic: method
+f1_keywords:
+ - "wdtf/IWDTF2.DeviceDepot"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Windows

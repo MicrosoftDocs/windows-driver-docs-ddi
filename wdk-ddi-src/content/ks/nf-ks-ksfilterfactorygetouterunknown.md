@@ -8,6 +8,8 @@ ms.assetid: 65244091-6089-4d0c-abf4-1178cf0bf1b5
 ms.date: 04/23/2018
 ms.keywords: KsFilterFactoryGetOuterUnknown, KsFilterFactoryGetOuterUnknown function [Streaming Media Devices], avfunc_4a154d39-a344-4f58-8abe-cbf2a0926271.xml, ks/KsFilterFactoryGetOuterUnknown, stream.ksfilterfactorygetouterunknown
 ms.topic: function
+f1_keywords:
+ - "ks/KsFilterFactoryGetOuterUnknown"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop

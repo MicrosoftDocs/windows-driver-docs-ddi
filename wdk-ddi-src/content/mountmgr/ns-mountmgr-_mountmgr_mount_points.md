@@ -8,6 +8,8 @@ ms.assetid: e85c0d92-d989-4afc-8516-c63535d2c728
 ms.date: 03/29/2018
 ms.keywords: "*PMOUNTMGR_MOUNT_POINTS, MOUNTMGR_MOUNT_POINTS, MOUNTMGR_MOUNT_POINTS structure [Storage Devices], PMOUNTMGR_MOUNT_POINTS, PMOUNTMGR_MOUNT_POINTS structure pointer [Storage Devices], _MOUNTMGR_MOUNT_POINTS, mountmgr/MOUNTMGR_MOUNT_POINTS, mountmgr/PMOUNTMGR_MOUNT_POINTS, storage.mountmgr_mount_points, structs-mntmgr_844fdf51-1324-4b1d-b68f-abba5f471652.xml"
 ms.topic: struct
+f1_keywords:
+ - "mountmgr/MOUNTMGR_MOUNT_POINTS"
 req.header: mountmgr.h
 req.include-header: Mountmgr.h
 req.target-type: Windows

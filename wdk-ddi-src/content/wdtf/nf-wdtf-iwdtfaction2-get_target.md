@@ -8,6 +8,8 @@ ms.assetid: 9713c1c8-2bfc-4ac4-82f1-b223d3fe2511
 ms.date: 04/04/2018
 ms.keywords: IWDTFAction2 interface [Windows Device Testing Framework],Target property, IWDTFAction2.Target, IWDTFAction2.get_Target, IWDTFAction2::Target, IWDTFAction2::get_Target, Microsoft.WDTF.IWDTFAction2.Target, Microsoft::WDTF::IWDTFAction2::Target, Target property [Windows Device Testing Framework], Target property [Windows Device Testing Framework],IWDTFAction2 interface, dtf.iwdtfaction2_target, get_Target, wdtf/IWDTFAction2::Target, wdtf/IWDTFAction2::get_Target
 ms.topic: method
+f1_keywords:
+ - "wdtf/IWDTFAction2.Target"
 req.header: wdtf.h
 req.include-header: 
 req.target-type: Windows

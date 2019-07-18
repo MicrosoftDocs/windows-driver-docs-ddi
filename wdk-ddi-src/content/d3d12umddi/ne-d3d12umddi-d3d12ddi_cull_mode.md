@@ -5,6 +5,8 @@ description: Specifies the type of cull mode, or what graphical object, is visib
 ms.assetid: 3c5a468b-3b0c-46a7-af58-31000942e688
 ms.date: 10/19/2018
 ms.topic: enum
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_CULL_MODE"
 ms.keywords: D3D12DDI_CULL_MODE, D3D12DDI_CULL_MODE, 
 req.header: d3d12umddi.h
 req.include-header:

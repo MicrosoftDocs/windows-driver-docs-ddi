@@ -8,6 +8,8 @@ ms.assetid: e821f738-3712-49c2-9026-ff6ddc0381a6
 ms.date: 02/26/2018
 ms.keywords: IWDFDevice2 interface,ResumeIdle method, IWDFDevice2.ResumeIdle, IWDFDevice2::ResumeIdle, ResumeIdle, ResumeIdle method, ResumeIdle method,IWDFDevice2 interface, UMDFDeviceObjectRef_2c3c90d0-ac7d-44ac-b643-7dd6abd8ac67.xml, umdf.iwdfdevice2_resumeidle, wdf.iwdfdevice2_resumeidle, wudfddi/IWDFDevice2::ResumeIdle
 ms.topic: method
+f1_keywords:
+ - "wudfddi/IWDFDevice2.ResumeIdle"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

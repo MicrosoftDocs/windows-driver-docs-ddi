@@ -7,6 +7,8 @@ ms.assetid: 94797515-3440-46A9-ACBD-09D005A33CE3
 ms.date: 05/10/2018
 ms.keywords: DXGKARG_DESTROYPERIODICFRAMENOTIFICATION, DXGKARG_DESTROYPERIODICFRAMENOTIFICATION structure [Display Devices], _DXGKARG_DESTROYPERIODICFRAMENOTIFICATION, d3dkmddi/DXGKARG_DESTROYPERIODICFRAMENOTIFICATION, display.dxgkarg_destroyperiodicframenotification
 ms.topic: struct
+f1_keywords:
+ - "d3dkmddi/DXGKARG_DESTROYPERIODICFRAMENOTIFICATION"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Windows

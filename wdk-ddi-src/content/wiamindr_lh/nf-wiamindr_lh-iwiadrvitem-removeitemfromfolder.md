@@ -8,6 +8,8 @@ ms.assetid: f800427e-d6b6-4f4c-aee7-4b2b0d0aa0c4
 ms.date: 05/03/2018
 ms.keywords: DrvItem_240e14a4-36bd-4a72-b143-6f8f5c220682.xml, IWiaDrvItem interface [Imaging Devices],RemoveItemFromFolder method, IWiaDrvItem.RemoveItemFromFolder, IWiaDrvItem::RemoveItemFromFolder, RemoveItemFromFolder, RemoveItemFromFolder method [Imaging Devices], RemoveItemFromFolder method [Imaging Devices],IWiaDrvItem interface, image.iwiadrvitem_removeitemfromfolder, wiamindr_lh/IWiaDrvItem::RemoveItemFromFolder
 ms.topic: method
+f1_keywords:
+ - "wiamindr_lh/IWiaDrvItem.RemoveItemFromFolder"
 req.header: wiamindr_lh.h
 req.include-header: Wiamindr.h
 req.target-type: Desktop

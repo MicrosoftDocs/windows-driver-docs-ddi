@@ -8,6 +8,8 @@ ms.assetid: F640D54B-277F-4382-9478-8A7AFAD242E2
 ms.date: 05/07/2018
 ms.keywords: UcxEndpointPurgeComplete, UcxEndpointPurgeComplete method [Buses], buses._ucxendpointpurgecomplete, ucxendpoint/UcxEndpointPurgeComplete
 ms.topic: function
+f1_keywords:
+ - "ucxendpoint/UcxEndpointPurgeComplete"
 req.header: ucxendpoint.h
 req.include-header: Ucxclass.h, Ucxendpoint.h
 req.target-type: Windows

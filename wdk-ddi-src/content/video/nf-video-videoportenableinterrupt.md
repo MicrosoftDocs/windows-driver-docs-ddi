@@ -8,6 +8,8 @@ ms.assetid: d40b0bc6-fad0-4c83-b1ca-c5105112ae2d
 ms.date: 05/10/2018
 ms.keywords: VideoPortEnableInterrupt, VideoPortEnableInterrupt function [Display Devices], VideoPort_Functions_63966cab-5451-4fa0-ae8f-635fae20aabd.xml, display.videoportenableinterrupt, video/VideoPortEnableInterrupt
 ms.topic: function
+f1_keywords:
+ - "video/VideoPortEnableInterrupt"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

@@ -8,6 +8,8 @@ ms.assetid: e35ae7c6-2cf4-4f20-bb00-7f33ae133118
 ms.date: 04/30/2018
 ms.keywords: HidP_GetUsages, HidP_GetUsages routine [Human Input Devices], hid.hidp_getusages, hidfunc_ed08f7c0-5435-417a-958f-34a6cbb1f541.xml, hidpi/HidP_GetUsages
 ms.topic: function
+f1_keywords:
+ - "hidpi/HidP_GetUsages"
 req.header: hidpi.h
 req.include-header: Hidpi.h
 req.target-type: Universal

@@ -5,6 +5,8 @@ description: Increments the reference count for an interface on an object. This 
 ms.assetid: 2977582b-6724-4e46-9364-7aefbe8e4771
 ms.date: 09/21/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IModelIterator.AddRef"
 ms.keywords: IModelIterator::AddRef, AddRef, IModelIterator.AddRef, IModelIterator::AddRef, IModelIterator.AddRef
 req.header: dbgmodel.h
 req.include-header:

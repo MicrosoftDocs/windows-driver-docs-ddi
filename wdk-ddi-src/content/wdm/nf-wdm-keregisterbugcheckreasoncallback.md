@@ -8,6 +8,8 @@ ms.assetid: 01528aa0-c580-4527-a64d-83f4ed39a471
 ms.date: 05/03/2018
 ms.keywords: KeRegisterBugCheckReasonCallback, KeRegisterBugCheckReasonCallback routine [Kernel-Mode Driver Architecture], k105_6b2fbc25-072d-470f-9860-e820e60cdf90.xml, kernel.keregisterbugcheckreasoncallback, wdm/KeRegisterBugCheckReasonCallback
 ms.topic: function
+f1_keywords:
+ - "wdm/KeRegisterBugCheckReasonCallback"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

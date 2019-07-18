@@ -5,6 +5,8 @@ description: Multiplane overlay stereo format.
 ms.assetid: bca4da2d-3870-4026-b515-1cb523306360
 ms.date: 10/19/2018
 ms.topic: enum
+f1_keywords:
+ - "d3dkmthk/D3DKMT_MULTIPLANE_OVERLAY_STEREO_FORMAT"
 ms.keywords: D3DKMT_MULTIPLANE_OVERLAY_STEREO_FORMAT, D3DKMT_MULTIPLANE_OVERLAY_STEREO_FORMAT, 
 req.header: d3dkmthk.h
 req.include-header:

@@ -8,6 +8,8 @@ ms.assetid: 5c812c6f-6adf-41f4-bb88-19375373e1f7
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
 ms.topic: callback
+f1_keywords:
+ - "dispmprt/DXGKDDI_READVIRTUALFUNCTIONCONFIG"
 req.header: dispmprt.h
 req.include-header:
 req.target-type:

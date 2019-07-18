@@ -8,6 +8,8 @@ ms.assetid: 5AF55FED-6FD6-41BE-A743-1E9D0EA51C9C
 ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_UPDATESUBRESOURCEUP, PFND3DDDI_UPDATESUBRESOURCEUP callback, d3dumddi/pfnUpdateSubresourceUP, display.pfnupdatesubresourceup, pfnUpdateSubresourceUP, pfnUpdateSubresourceUP callback function [Display Devices]
 ms.topic: callback
+f1_keywords:
+ - "d3dumddi/pfnUpdateSubresourceUP"
 req.header: d3dumddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

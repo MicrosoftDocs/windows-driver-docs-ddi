@@ -8,6 +8,8 @@ ms.assetid: 8BB8E85F-B081-422E-ACE1-C2312BA28B9F
 ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_PRESENT1, PFND3DDDI_PRESENT1 callback, d3dumddi/pfnPresent1, display.pfnpresent1_d3d_, pfnPresent1, pfnPresent1 callback function [Display Devices]
 ms.topic: callback
+f1_keywords:
+ - "d3dumddi/pfnPresent1"
 req.header: d3dumddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

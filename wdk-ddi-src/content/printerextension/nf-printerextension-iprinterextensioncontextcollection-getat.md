@@ -8,6 +8,8 @@ ms.assetid: 5E3DC6C7-E370-4120-81B7-2093812AD009
 ms.date: 04/20/2018
 ms.keywords: GetAt, GetAt method [Print Devices], GetAt method [Print Devices],IPrinterExtensionContextCollection interface, IPrinterExtensionContextCollection interface [Print Devices],GetAt method, IPrinterExtensionContextCollection.GetAt, IPrinterExtensionContextCollection::GetAt, get_GetAt, print.iprinterextensioncontextcollection_getat, printerextension/IPrinterExtensionContextCollection::GetAt
 ms.topic: method
+f1_keywords:
+ - "printerextension/IPrinterExtensionContextCollection.GetAt"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop

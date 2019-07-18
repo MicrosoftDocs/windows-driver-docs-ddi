@@ -8,6 +8,8 @@ ms.assetid: afd52391-5b18-4b86-9d35-2d9ed3e20256
 ms.date: 05/10/2018
 ms.keywords: IDARG_IN_SWAPCHAINSETDEVICE, IDARG_IN_SWAPCHAINSETDEVICE structure [Display Devices], display.idarg_in_swapchainsetdevice, iddcx/IDARG_IN_SWAPCHAINSETDEVICE
 ms.topic: struct
+f1_keywords:
+ - "iddcx/IDARG_IN_SWAPCHAINSETDEVICE"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows

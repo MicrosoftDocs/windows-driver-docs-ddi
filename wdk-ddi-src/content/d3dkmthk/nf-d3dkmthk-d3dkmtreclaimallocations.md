@@ -7,6 +7,8 @@ ms.assetid: 3bfb2a82-9451-4365-b113-6311c3f13fe6
 ms.date: 05/10/2018
 ms.keywords: D3DKMTReclaimAllocations, D3DKMTReclaimAllocations callback function [Display Devices], PFND3DKMT_RECLAIMALLOCATIONS, PFND3DKMT_RECLAIMALLOCATIONS callback, d3dkmthk/D3DKMTReclaimAllocations, display.d3dkmtreclaimallocations
 ms.topic: function
+f1_keywords:
+ - "d3dkmthk/D3DKMTReclaimAllocations"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal

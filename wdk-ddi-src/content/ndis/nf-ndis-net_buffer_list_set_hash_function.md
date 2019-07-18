@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: e586100e-39f4-4ecf-8f50-65470bc6d9d3
 ms.date: 04/13/2018
 ms.topic: function
+f1_keywords:
+ - "ndis/NET_BUFFER_LIST_SET_HASH_FUNCTION"
 ms.keywords: NET_BUFFER_LIST_SET_HASH_FUNCTION
 req.header: ndis.h
 req.include-header:

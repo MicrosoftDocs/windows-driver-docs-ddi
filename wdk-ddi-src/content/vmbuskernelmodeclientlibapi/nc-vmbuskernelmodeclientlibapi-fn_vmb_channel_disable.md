@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 514f0cad-c1c8-4bf5-beab-b2d834a395c9
 ms.date: 05/21/2018
 ms.topic: callback
+f1_keywords:
+ - "vmbuskernelmodeclientlibapi/FN_VMB_CHANNEL_DISABLE"
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header:
 req.target-type:

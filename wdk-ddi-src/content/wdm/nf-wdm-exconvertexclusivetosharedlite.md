@@ -8,6 +8,8 @@ ms.assetid: 140de330-7e6d-4f23-96cb-ea1228c8036c
 ms.date: 03/28/2018
 ms.keywords: ExConvertExclusiveToSharedLite, ExConvertExclusiveToSharedLite routine [Kernel-Mode Driver Architecture], k102_3c58f8e7-3da6-413d-9662-89a29928a6c1.xml, kernel.exconvertexclusivetosharedlite, wdm/ExConvertExclusiveToSharedLite
 ms.topic: function
+f1_keywords:
+ - "wdm/ExConvertExclusiveToSharedLite"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

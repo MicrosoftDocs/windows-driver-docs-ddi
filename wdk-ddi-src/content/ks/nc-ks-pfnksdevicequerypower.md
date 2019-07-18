@@ -8,6 +8,8 @@ ms.assetid: db839cde-cb3e-47f2-9a06-54e37ac7ac67
 ms.date: 04/23/2018
 ms.keywords: AVStrMiniDeviceQueryPower, AVStrMiniDeviceQueryPower routine [Streaming Media Devices], PFNKSDEVICEQUERYPOWER, avstclbk_47f0fecd-9906-4582-9f1d-bb80a469ffa6.xml, ks/AVStrMiniDeviceQueryPower, stream.avstrminidevicequerypower
 ms.topic: callback
+f1_keywords:
+ - "ks/AVStrMiniDeviceQueryPower"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop

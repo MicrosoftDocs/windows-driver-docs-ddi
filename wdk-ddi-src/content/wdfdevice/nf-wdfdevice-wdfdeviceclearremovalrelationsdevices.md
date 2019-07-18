@@ -8,6 +8,8 @@ ms.assetid: c3ff7c9d-380e-4d66-88a4-aef7abe20c9d
 ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_e2dc5cb6-4f45-441c-b242-5b67ea8fa381.xml, WdfDeviceClearRemovalRelationsDevices, WdfDeviceClearRemovalRelationsDevices method, kmdf.wdfdeviceclearremovalrelationsdevices, wdf.wdfdeviceclearremovalrelationsdevices, wdfdevice/WdfDeviceClearRemovalRelationsDevices
 ms.topic: function
+f1_keywords:
+ - "wdfdevice/WdfDeviceClearRemovalRelationsDevices"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

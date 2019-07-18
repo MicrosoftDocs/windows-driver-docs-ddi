@@ -8,6 +8,8 @@ ms.assetid: b388a5d9-3549-472d-8ebe-b618751626ed
 ms.date: 05/02/2018
 ms.keywords: RILEXECUTORFLAG, RILEXECUTORFLAG enumeration [Network Drivers Starting with Windows Vista], RIL_EXECUTORFLAG_ALL, RIL_EXECUTORFLAG_HIGHPRIORITY, netvista.rilexecutorflag, ntddrilapitypes/RILEXECUTORFLAG, ntddrilapitypes/RIL_EXECUTORFLAG_ALL, ntddrilapitypes/RIL_EXECUTORFLAG_HIGHPRIORITY
 ms.topic: enum
+f1_keywords:
+ - "rilapitypes/RILEXECUTORFLAG"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

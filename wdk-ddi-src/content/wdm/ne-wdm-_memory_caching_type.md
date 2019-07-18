@@ -8,6 +8,8 @@ ms.assetid: 14cde545-e9bb-4b96-ba10-a63595e8a107
 ms.date: 04/30/2018
 ms.keywords: MEMORY_CACHING_TYPE, MEMORY_CACHING_TYPE enumeration [Kernel-Mode Driver Architecture], MmCached, MmHardwareCoherentCached, MmMaximumCacheType, MmNonCached, MmNonCachedUnordered, MmUSWCCached, MmWriteCombined, _MEMORY_CACHING_TYPE, kernel.memory_caching_type, sysenum_8e18fde8-a812-4d6a-a203-1c87d4d825cf.xml, wdm/MEMORY_CACHING_TYPE, wdm/MmCached, wdm/MmHardwareCoherentCached, wdm/MmMaximumCacheType, wdm/MmNonCached, wdm/MmNonCachedUnordered, wdm/MmUSWCCached, wdm/MmWriteCombined
 ms.topic: enum
+f1_keywords:
+ - "wdm/MEMORY_CACHING_TYPE"
 req.header: wdm.h
 req.include-header: Ntddk.h, Wdm.h, Miniport.h, Wudfwdm.h
 req.target-type: Windows

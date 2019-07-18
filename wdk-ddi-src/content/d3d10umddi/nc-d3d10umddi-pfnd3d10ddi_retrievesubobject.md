@@ -7,6 +7,8 @@ ms.assetid: 9029ec8d-102f-4d83-8ab5-fc208d8b5249
 ms.date: 05/10/2018
 ms.keywords: PFND3D10DDI_RETRIEVESUBOBJECT, PFND3D10DDI_RETRIEVESUBOBJECT callback, RetrieveSubObject(D3D11_1), RetrieveSubObject(D3D11_1) callback function [Display Devices], d3d10umddi/RetrieveSubObject(D3D11_1), display.retrievesubobject, display.retrievesubobject_d3d11_1_
 ms.topic: callback
+f1_keywords:
+ - "d3d10umddi/RetrieveSubObject(D3D11_1)"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

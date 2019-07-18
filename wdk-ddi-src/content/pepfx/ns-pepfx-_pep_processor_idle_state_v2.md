@@ -8,6 +8,8 @@ ms.assetid: DEA8B166-5236-4BE3-B16D-9EE1B34796F8
 ms.date: 04/30/2018
 ms.keywords: "*PPEP_PROCESSOR_IDLE_STATE_V2, PEP_PROCESSOR_IDLE_STATE_V2, PEP_PROCESSOR_IDLE_STATE_V2 structure [Kernel-Mode Driver Architecture], PPEP_PROCESSOR_IDLE_STATE_V2, PPEP_PROCESSOR_IDLE_STATE_V2 structure pointer [Kernel-Mode Driver Architecture], _PEP_PROCESSOR_IDLE_STATE_V2, kernel.pep_processor_idle_state_v2, pepfx/PEP_PROCESSOR_IDLE_STATE_V2, pepfx/PPEP_PROCESSOR_IDLE_STATE_V2"
 ms.topic: struct
+f1_keywords:
+ - "pepfx/PEP_PROCESSOR_IDLE_STATE_V2"
 req.header: pepfx.h
 req.include-header: Pep_x.h
 req.target-type: Windows

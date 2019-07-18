@@ -6,6 +6,8 @@ tech.root: audio
 ms.assetid: 65b18277-7b28-455c-ae39-81d97a09e21b
 ms.date: 10/31/2018
 ms.topic: method
+f1_keywords:
+ - "dmusicks/IMXF.DisconnectOutput"
 ms.keywords: IMXF::DisconnectOutput, DisconnectOutput, IMXF.DisconnectOutput, IMXF::DisconnectOutput, IMXF.DisconnectOutput
 req.header: dmusicks.h
 req.include-header:

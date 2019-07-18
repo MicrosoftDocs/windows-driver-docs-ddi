@@ -5,6 +5,8 @@ description: Trap and convert all exceptions coming out of a functor to an appro
 ms.assetid: cd951fc0-c5a0-4e62-ad33-cfc6a834d849
 ms.date: 09/28/2018
 ms.topic: function
+f1_keywords:
+ - "dbgmodel/ConvertException"
 ms.keywords: ConvertException
 req.header: dbgmodel.h
 req.include-header:

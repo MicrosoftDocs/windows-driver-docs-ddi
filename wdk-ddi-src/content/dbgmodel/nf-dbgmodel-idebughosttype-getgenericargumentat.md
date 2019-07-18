@@ -5,6 +5,8 @@ description: For the "i"-th generic argument to the generic/template, this retur
 ms.assetid: 0ba1d2d4-a32e-4411-9810-85442c5d5c08
 ms.date: 09/11/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDebugHostType.GetGenericArgumentAt"
 ms.keywords: IDebugHostType::GetGenericArgumentAt, GetGenericArgumentAt, IDebugHostType.GetGenericArgumentAt, IDebugHostType::GetGenericArgumentAt, IDebugHostType.GetGenericArgumentAt
 req.header: dbgmodel.h
 req.include-header:

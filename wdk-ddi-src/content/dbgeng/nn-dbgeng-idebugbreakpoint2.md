@@ -8,6 +8,8 @@ ms.assetid: 097c10e1-fd83-4a3d-8193-873644370e35
 ms.date: 05/03/2018
 ms.keywords: IDebugBreakpoint2, IDebugBreakpoint2 interface [Windows Debugging], IDebugBreakpoint2 interface [Windows Debugging],described, dbgeng/IDebugBreakpoint2, debugger.idebugbreakpoint2
 ms.topic: interface
+f1_keywords:
+ - "dbgeng/IDebugBreakpoint2"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

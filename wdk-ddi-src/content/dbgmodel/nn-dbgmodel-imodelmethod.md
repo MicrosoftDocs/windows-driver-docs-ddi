@@ -5,6 +5,8 @@ description: Represents a method which can be called.
 ms.assetid: 3483b979-a5a3-49ce-9036-3c021fa14b5b
 ms.date: 07/16/2018
 ms.topic: interface
+f1_keywords:
+ - "dbgmodel/IModelMethod"
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:

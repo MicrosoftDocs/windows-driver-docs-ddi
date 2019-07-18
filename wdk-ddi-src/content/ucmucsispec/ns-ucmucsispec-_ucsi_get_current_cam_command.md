@@ -6,6 +6,8 @@ ms.assetid: a3ea2dac-94ef-444f-8003-f3be5cb865b3
 tech.root: usbref
 ms.date: 09/30/2018
 ms.topic: struct
+f1_keywords:
+ - "ucmucsispec/_UCSI_GET_CURRENT_CAM_COMMAND"
 ms.keywords: _UCSI_GET_CURRENT_CAM_COMMAND, UCSI_GET_CURRENT_CAM_COMMAND, *PUCSI_GET_CURRENT_CAM_COMMAND, 
 req.header: ucmucsispec.h
 req.include-header: UcmUcsiCx.h 

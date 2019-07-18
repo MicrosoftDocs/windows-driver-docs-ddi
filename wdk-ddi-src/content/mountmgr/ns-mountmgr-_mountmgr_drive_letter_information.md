@@ -8,6 +8,8 @@ ms.assetid: ad8dc740-c297-43e7-beb9-d93019955fd3
 ms.date: 03/29/2018
 ms.keywords: "*PMOUNTMGR_DRIVE_LETTER_INFORMATION, MOUNTMGR_DRIVE_LETTER_INFORMATION, MOUNTMGR_DRIVE_LETTER_INFORMATION structure [Storage Devices], PMOUNTMGR_DRIVE_LETTER_INFORMATION, PMOUNTMGR_DRIVE_LETTER_INFORMATION structure pointer [Storage Devices], _MOUNTMGR_DRIVE_LETTER_INFORMATION, mountmgr/MOUNTMGR_DRIVE_LETTER_INFORMATION, mountmgr/PMOUNTMGR_DRIVE_LETTER_INFORMATION, storage.mountmgr_drive_letter_information, structs-mntmgr_19ece61a-9dda-466c-a414-047d71beeb2c.xml"
 ms.topic: struct
+f1_keywords:
+ - "mountmgr/MOUNTMGR_DRIVE_LETTER_INFORMATION"
 req.header: mountmgr.h
 req.include-header: Mountmgr.h
 req.target-type: Windows

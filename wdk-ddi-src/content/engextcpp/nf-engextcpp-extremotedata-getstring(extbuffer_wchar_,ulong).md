@@ -8,6 +8,8 @@ ms.assetid: ff0aa7a7-1efd-4d55-8865-f36c039b27a1
 ms.date: 05/03/2018
 ms.keywords: EngExtCpp_Ref_0e8b8a7f-d6d4-4262-a1ed-5829a83ec80d.xml, ExtRemoteData class [Windows Debugging],GetString method, ExtRemoteData.GetString, ExtRemoteData.GetString(ExtBuffer<WCHAR>,ULONG), ExtRemoteData::GetString, ExtRemoteData::GetString(ExtBuffer<WCHAR>,ULONG), GetString, GetString method [Windows Debugging], GetString method [Windows Debugging],ExtRemoteData class, debugger.extremotedata_getstring
 ms.topic: method
+f1_keywords:
+ - "engextcpp/ExtRemoteData.GetString"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop

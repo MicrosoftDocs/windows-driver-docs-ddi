@@ -8,6 +8,8 @@ ms.assetid: 6B890F85-0E77-41D2-B3B9-004F1882B6B5
 ms.date: 02/15/2018
 ms.keywords: "*PGNSS_NMEA_DATA, GNSS_NMEA_DATA, GNSS_NMEA_DATA structure [Sensor Devices], PGNSS_NMEA_DATA, PGNSS_NMEA_DATA structure pointer [Sensor Devices], gnss.gnss_nmea_data, gnssdriver/GNSS_NMEA_DATA, gnssdriver/PGNSS_NMEA_DATA"
 ms.topic: struct
+f1_keywords:
+ - "gnssdriver/GNSS_NMEA_DATA"
 req.header: gnssdriver.h
 req.include-header: 
 req.target-type: Windows

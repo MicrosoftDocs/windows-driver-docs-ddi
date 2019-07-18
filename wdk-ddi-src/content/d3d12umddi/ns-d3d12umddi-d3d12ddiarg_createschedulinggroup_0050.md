@@ -5,6 +5,8 @@ description: Arguments used in the call to PFND3D12DDI_CREATESCHEDULINGGROUP_005
 ms.assetid: d6916789-d42a-4089-a305-1a28248047e3
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3d12umddi/D3D12DDIARG_CREATESCHEDULINGGROUP_0050"
 ms.keywords: D3D12DDIARG_CREATESCHEDULINGGROUP_0050, D3D12DDIARG_CREATESCHEDULINGGROUP_0050, 
 req.header: d3d12umddi.h
 req.include-header:

@@ -5,6 +5,8 @@ description: The PFND3DKMT_SETHYBRIDLISTVVALUE callback function sets the hybrid
 ms.assetid: 3ab317c8-1ff3-4eaf-80fd-4674f4f52393
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/PFND3DKMT_SETHYBRIDLISTVVALUE"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

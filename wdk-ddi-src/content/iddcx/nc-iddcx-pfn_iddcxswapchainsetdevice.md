@@ -5,6 +5,8 @@ description: An OS callback function that the driver calls within its SetSwapCha
 ms.assetid: b1f26c55-3171-4421-9948-ebdeaea12454
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "iddcx/PFN_IDDCXSWAPCHAINSETDEVICE"
 req.header: iddcx.h
 req.include-header:
 req.target-type:

@@ -8,6 +8,8 @@ ms.assetid: 8ebc3b7f-5b4b-4e92-95fe-1918b51d27ad
 ms.date: 04/16/2018
 ms.keywords: ObIsKernelHandle, ObIsKernelHandle routine [Installable File System Drivers], ifsk.obiskernelhandle, ntifs/ObIsKernelHandle, obref_e80e117f-6001-4c6d-980c-413e538f3bb2.xml
 ms.topic: function
+f1_keywords:
+ - "ntifs/ObIsKernelHandle"
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h, FltKernel.h
 req.target-type: Universal

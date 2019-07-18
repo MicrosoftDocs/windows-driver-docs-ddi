@@ -8,6 +8,8 @@ ms.assetid: B8AE8866-AC13-4E7B-8815-70846DEECA12
 ms.date: 05/07/2018
 ms.keywords: "*PSTREAM_INFO, P_STREAM_INFO, P_STREAM_INFO structure pointer [Buses], STREAM_INFO, STREAM_INFO structure [Buses], _STREAM_INFO, buses._stream_info, ucxsstreams/P_STREAM_INFO, ucxsstreams/_STREAM_INFO"
 ms.topic: struct
+f1_keywords:
+ - "ucxsstreams/STREAM_INFO"
 req.header: ucxsstreams.h
 req.include-header: Ucxclass.h, Ucxstreams.h
 req.target-type: Windows

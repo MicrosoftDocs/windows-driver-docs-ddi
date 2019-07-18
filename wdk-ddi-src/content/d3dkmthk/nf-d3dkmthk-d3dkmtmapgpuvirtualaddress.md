@@ -7,6 +7,8 @@ ms.assetid: 6CE8112F-1DDA-4A8B-8D3D-40DC3737976A
 ms.date: 05/10/2018
 ms.keywords: D3DKMTMapGpuVirtualAddress, D3DKMTMapGpuVirtualAddress function [Display Devices], d3dkmthk/D3DKMTMapGpuVirtualAddress, display.d3dkmtmapgpuvirtualaddress
 ms.topic: function
+f1_keywords:
+ - "d3dkmthk/D3DKMTMapGpuVirtualAddress"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal

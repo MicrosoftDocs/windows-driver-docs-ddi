@@ -8,6 +8,8 @@ ms.assetid: 0f0f7248-de85-4757-8006-48444af8edac
 ms.date: 05/03/2018
 ms.keywords: ComOther_6a9afca5-8445-48d9-8e28-8d38e6cf2658.xml, GetMatchThreadId, GetMatchThreadId method [Windows Debugging], GetMatchThreadId method [Windows Debugging],IDebugBreakpoint interface, GetMatchThreadId method [Windows Debugging],IDebugBreakpoint2 interface, IDebugBreakpoint interface [Windows Debugging],GetMatchThreadId method, IDebugBreakpoint.GetMatchThreadId, IDebugBreakpoint2 interface [Windows Debugging],GetMatchThreadId method, IDebugBreakpoint2::GetMatchThreadId, IDebugBreakpoint::GetMatchThreadId, dbgeng/IDebugBreakpoint2::GetMatchThreadId, dbgeng/IDebugBreakpoint::GetMatchThreadId, debugger.getmatchthreadid
 ms.topic: method
+f1_keywords:
+ - "dbgeng/IDebugBreakpoint.GetMatchThreadId"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

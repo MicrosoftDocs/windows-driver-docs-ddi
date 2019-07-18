@@ -8,6 +8,8 @@ ms.assetid: 1401F3B5-4F3F-47C1-88F9-96AFCCF2AA7E
 ms.date: 02/15/2018
 ms.keywords: 1394/IRB_REQ_ISOCH_FREE_BANDWIDTH, IEEE.irb_req_isoch_free_bandwidth, IRB_REQ_ISOCH_FREE_BANDWIDTH, IRB_REQ_ISOCH_FREE_BANDWIDTH structure [Buses], _IRB_REQ_ISOCH_FREE_BANDWIDTH
 ms.topic: struct
+f1_keywords:
+ - "1394/IRB_REQ_ISOCH_FREE_BANDWIDTH"
 req.header: 1394.h
 req.include-header: 
 req.target-type: Windows

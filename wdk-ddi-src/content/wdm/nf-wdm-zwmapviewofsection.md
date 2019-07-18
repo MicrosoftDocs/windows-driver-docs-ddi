@@ -8,6 +8,8 @@ ms.assetid: 2abe7751-ef8c-4511-aaf6-755428c451fe
 ms.date: 04/30/2018
 ms.keywords: NtMapViewOfSection, ZwMapViewOfSection, ZwMapViewOfSection routine [Kernel-Mode Driver Architecture], k111_cdad5afa-13b3-415e-96e8-688e7984a9fd.xml, kernel.zwmapviewofsection, wdm/NtMapViewOfSection, wdm/ZwMapViewOfSection
 ms.topic: function
+f1_keywords:
+ - "wdm/ZwMapViewOfSection"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

@@ -8,6 +8,8 @@ ms.assetid: 71e4be0a-a5a6-469a-948b-bc5277bc8cbe
 ms.date: 04/23/2018
 ms.keywords: IKsInterfaceHandler interface [Streaming Media Devices],KsSetPin method, IKsInterfaceHandler.KsSetPin, IKsInterfaceHandler::KsSetPin, KsSetPin, KsSetPin method [Streaming Media Devices], KsSetPin method [Streaming Media Devices],IKsInterfaceHandler interface, ksproxy/IKsInterfaceHandler::KsSetPin, ksproxy_3746aba4-11e3-45a5-8495-eda1cad5bf9b.xml, stream.iksinterfacehandler_kssetpin
 ms.topic: method
+f1_keywords:
+ - "ksproxy/IKsInterfaceHandler.KsSetPin"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: Desktop

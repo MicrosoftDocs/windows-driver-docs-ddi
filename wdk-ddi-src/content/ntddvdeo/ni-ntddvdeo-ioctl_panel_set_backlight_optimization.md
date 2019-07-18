@@ -5,6 +5,8 @@ description: Sets the backlight optimization for the display panel.
 ms.assetid: 706088f5-0157-4dbd-a475-dafe9811b5b1
 ms.date: 10/19/2018
 ms.topic: ioctl
+f1_keywords:
+ - "ntddvdeo/IOCTL_PANEL_SET_BACKLIGHT_OPTIMIZATION"
 req.header: ntddvdeo.h
 req.include-header:
 req.target-type:

@@ -8,6 +8,8 @@ ms.assetid: d9935605-dc5f-4987-8a5b-b2c2b358dbbf
 ms.date: 02/20/2018
 ms.keywords: PshedIsSystemWheaEnabled, PshedIsSystemWheaEnabled function [WHEA Drivers and Applications], ntddk/PshedIsSystemWheaEnabled, whea.pshedissystemwheaenabled, whearef_492a4370-81bf-411b-bd87-2408f4551b18.xml
 ms.topic: function
+f1_keywords:
+ - "ntddk/PshedIsSystemWheaEnabled"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal

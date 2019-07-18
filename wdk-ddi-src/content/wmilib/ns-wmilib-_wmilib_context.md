@@ -8,6 +8,8 @@ ms.assetid: c9319f35-9745-47c4-a98d-4321e0d39f86
 ms.date: 04/30/2018
 ms.keywords: "*PWMILIB_CONTEXT, PWMILIB_CONTEXT, PWMILIB_CONTEXT structure pointer [Kernel-Mode Driver Architecture], WMILIB_CONTEXT, WMILIB_CONTEXT structure [Kernel-Mode Driver Architecture], _WMILIB_CONTEXT, kernel.wmilib_context, kstruct_d_b6452306-8092-4c47-aacf-c3ccd558d1f5.xml, wmilib/PWMILIB_CONTEXT, wmilib/WMILIB_CONTEXT"
 ms.topic: struct
+f1_keywords:
+ - "wmilib/WMILIB_CONTEXT"
 req.header: wmilib.h
 req.include-header: Wmilib.h
 req.target-type: Windows

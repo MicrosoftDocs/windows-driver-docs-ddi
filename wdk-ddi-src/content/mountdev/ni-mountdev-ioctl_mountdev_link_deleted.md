@@ -8,6 +8,8 @@ ms.assetid: 6fd0696d-5b8d-4502-bbdb-a013bee2e9d4
 ms.date: 03/29/2018
 ms.keywords: IOCTL_MOUNTDEV_LINK_DELETED, IOCTL_MOUNTDEV_LINK_DELETED control, IOCTL_MOUNTDEV_LINK_DELETED control code [Storage Devices], k307_b0ab5504-dac9-410f-bb73-bbb5876e4a59.xml, mountdev/IOCTL_MOUNTDEV_LINK_DELETED, storage.ioctl_mountdev_link_deleted
 ms.topic: ioctl
+f1_keywords:
+ - "mountdev/IOCTL_MOUNTDEV_LINK_DELETED"
 req.header: mountdev.h
 req.include-header: Mountmgr.h
 req.target-type: Windows

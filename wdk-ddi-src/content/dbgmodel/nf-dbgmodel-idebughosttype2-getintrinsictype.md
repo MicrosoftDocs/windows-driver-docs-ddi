@@ -5,6 +5,8 @@ description: The GetIntrinsicType method returns information about what kind of 
 ms.assetid: 12c2fa41-3079-4559-9d77-febde3320962
 ms.date: 09/20/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDebugHostType2.GetIntrinsicType"
 ms.keywords: IDebugHostType2::GetIntrinsicType, GetIntrinsicType, IDebugHostType2.GetIntrinsicType, IDebugHostType2::GetIntrinsicType, IDebugHostType2.GetIntrinsicType
 req.header: dbgmodel.h
 req.include-header:

@@ -8,6 +8,8 @@ ms.assetid: f83b7171-e250-4c2c-b3cc-2924f58e406e
 ms.date: 04/30/2018
 ms.keywords: NtQueryVolumeInformationFile, ZwQueryVolumeInformationFile, ZwQueryVolumeInformationFile routine [Kernel-Mode Driver Architecture], k111_1ca2c72d-6eb1-4bfa-a1f9-06cc26643662.xml, kernel.zwqueryvolumeinformationfile, ntifs/NtQueryVolumeInformationFile, ntifs/ZwQueryVolumeInformationFile
 ms.topic: function
+f1_keywords:
+ - "ntddk/ZwQueryVolumeInformationFile"
 req.header: ntddk.h
 req.include-header: Ntifs.h, Ntddk.h
 req.target-type: Universal

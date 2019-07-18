@@ -8,6 +8,8 @@ ms.assetid: 8D0F61E2-A891-4D51-9E33-BFA491B95505
 ms.date: 05/02/2018
 ms.keywords: FWPS_VSWITCH_POLICY_EVENT_CALLBACK0, FWPS_VSWITCH_POLICY_EVENT_CALLBACK0 callback, fwpsk/vSwitchPolicyEventNotifyFn, netvista.fwps_vswitch_policy_event_callback0, vSwitchPolicyEventNotifyFn, vSwitchPolicyEventNotifyFn callback function [Network Drivers Starting with Windows Vista]
 ms.topic: callback
+f1_keywords:
+ - "fwpsk/vSwitchPolicyEventNotifyFn"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Windows

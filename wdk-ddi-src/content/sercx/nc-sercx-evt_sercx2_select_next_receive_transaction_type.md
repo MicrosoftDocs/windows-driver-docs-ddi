@@ -8,6 +8,8 @@ ms.assetid: CB4551F4-8B22-4595-8091-CB84671DC60C
 ms.date: 04/23/2018
 ms.keywords: 2/EvtSerCx2SelectNextReceiveTransactionType, EVT_SERCX2_SELECT_NEXT_RECEIVE_TRANSACTION_TYPE, EVT_SERCX2_SELECT_NEXT_RECEIVE_TRANSACTION_TYPE callback, EvtSerCx2SelectNextReceiveTransactionType, EvtSerCx2SelectNextReceiveTransactionType callback function [Serial Ports], serports.evtsercx2selectnextreceivetransactiontype
 ms.topic: callback
+f1_keywords:
+ - "sercx/EvtSerCx2SelectNextReceiveTransactionType"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Desktop

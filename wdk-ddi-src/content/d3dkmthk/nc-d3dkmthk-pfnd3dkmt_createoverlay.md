@@ -5,6 +5,8 @@ description: The PFND3DKMT_CREATEOVERLAY callback function enables the overlay h
 ms.assetid: 2908f347-a341-4603-95db-3f92b77afc88
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/PFND3DKMT_CREATEOVERLAY"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

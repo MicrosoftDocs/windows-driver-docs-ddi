@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 545e3463-4ae8-488f-b209-44f8ad12e694
 ms.date: 04/17/2018
 ms.topic: macro
+f1_keywords:
+ - "ntddndis/NDIS_SWITCH_PROPERTY_ENUM_PARAMETERS_GET_FIRST_INFO"
 ms.keywords: NDIS_SWITCH_PROPERTY_ENUM_PARAMETERS_GET_FIRST_INFO
 req.header: ntddndis.h
 req.include-header: ndis.h

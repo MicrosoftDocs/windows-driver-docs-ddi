@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 584b901d-9e3c-4bdc-a5b6-5f0670de6c1e
 ms.date: 04/13/2018
 ms.topic: macro
+f1_keywords:
+ - "ndis/NET_BUFFER_MINIPORT_RESERVED"
 ms.keywords: NET_BUFFER_MINIPORT_RESERVED
 req.header: ndis.h
 req.include-header:

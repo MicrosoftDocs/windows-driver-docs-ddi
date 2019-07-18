@@ -5,6 +5,8 @@ description: The search record passed to EnumerateChildrenEx specifically for Sy
 ms.assetid: 72b69d71-6871-408f-851e-36dd2612425c
 ms.date: 10/04/2018
 ms.topic: function
+f1_keywords:
+ - "dbgmodel/TypeSearchInfo"
 ms.keywords: TypeSearchInfo
 req.header: dbgmodel.h
 req.include-header:

@@ -8,6 +8,8 @@ ms.assetid: aa66280d-c32e-4d1c-bcc8-aa2719b61010
 ms.date: 04/04/2018
 ms.keywords: IWDTFDriverPackageAction2, IWDTFDriverPackageAction2 interface [Windows Device Testing Framework], IWDTFDriverPackageAction2 interface [Windows Device Testing Framework],described, Microsoft.WDTF.IWDTFDriverPackageAction2, dtf.iwdtfdriverpackageaction2, wdtfdriverpackageaction/IWDTFDriverPackageAction2
 ms.topic: interface
+f1_keywords:
+ - "wdtfdriverpackageaction/IWDTFDriverPackageAction2"
 req.header: wdtfdriverpackageaction.h
 req.include-header: 
 req.target-type: Windows

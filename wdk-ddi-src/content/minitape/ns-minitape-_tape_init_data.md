@@ -8,6 +8,8 @@ ms.assetid: 11f5201b-ddd3-43ad-9746-a1a9885c99b1
 ms.date: 03/29/2018
 ms.keywords: "*PTAPE_INIT_DATA, TAPE_INIT_DATA, TAPE_INIT_DATA structure [Storage Devices], _TAPE_INIT_DATA, minitape/TAPE_INIT_DATA, storage.tape_init_data, structs-tape_53b2f7ff-8718-4ac7-9a02-9c2f066b6884.xml"
 ms.topic: struct
+f1_keywords:
+ - "minitape/TAPE_INIT_DATA"
 req.header: minitape.h
 req.include-header: Minitape.h
 req.target-type: Windows

@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: c7ded93c-b025-4b23-b999-fe5d2ed0d75b
 ms.date: 02/07/2018
 ms.topic: function
+f1_keywords:
+ - "netconfiguration/NetConfigurationQueryUlong"
 ms.keywords: NetConfigurationQueryUlong
 req.header: netconfiguration.h
 req.include-header: netadaptercx.h

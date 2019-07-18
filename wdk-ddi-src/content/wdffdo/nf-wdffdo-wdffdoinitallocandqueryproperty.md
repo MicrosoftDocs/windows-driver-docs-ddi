@@ -8,6 +8,8 @@ ms.assetid: 9c275d89-e01d-445b-8c60-ae5268cd28c3
 ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectFdoPdoRef_2de90bea-c2df-4aa7-b64f-b17df042268c.xml, WdfFdoInitAllocAndQueryProperty, WdfFdoInitAllocAndQueryProperty method, kmdf.wdffdoinitallocandqueryproperty, wdf.wdffdoinitallocandqueryproperty, wdffdo/WdfFdoInitAllocAndQueryProperty
 ms.topic: function
+f1_keywords:
+ - "wdffdo/WdfFdoInitAllocAndQueryProperty"
 req.header: wdffdo.h
 req.include-header: Wdf.h
 req.target-type: Universal

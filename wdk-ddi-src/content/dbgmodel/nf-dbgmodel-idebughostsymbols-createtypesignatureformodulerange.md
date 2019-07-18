@@ -5,6 +5,8 @@ description: The CreateTypeSignatureForModuleRange method creates a signature wh
 ms.assetid: fee485a1-0e7b-4af3-9a2c-b241c59fec5e
 ms.date: 08/22/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDebugHostSymbols.CreateTypeSignatureForModuleRange"
 ms.keywords: IDebugHostSymbols::CreateTypeSignatureForModuleRange, CreateTypeSignatureForModuleRange, IDebugHostSymbols.CreateTypeSignatureForModuleRange, IDebugHostSymbols::CreateTypeSignatureForModuleRange, IDebugHostSymbols.CreateTypeSignatureForModuleRange
 req.header: dbgmodel.h
 req.include-header:

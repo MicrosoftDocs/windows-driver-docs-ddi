@@ -8,6 +8,8 @@ ms.assetid: ae27aa51-f45e-409a-aee8-e64228e4ad07
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
+f1_keywords:
+ - "ntddk/WHEAP_SEL_LOG_EVENT_FAILED"
 ms.keywords: WHEAP_SEL_LOG_EVENT_FAILED, WHEAP_SEL_LOG_EVENT_FAILED, *PWHEAP_SEL_LOG_EVENT_FAILED, 
 req.header: ntddk.h
 req.include-header:

@@ -8,6 +8,8 @@ ms.assetid: ce35bdac-af90-471f-af93-0e665be6c7f6
 ms.date: 05/10/2018
 ms.keywords: CreateDevice, CreateDevice callback function [Display Devices], PFND3DDDI_CREATEDEVICE, PFND3DDDI_CREATEDEVICE callback, UserModeDisplayDriver_Functions_4603a980-54aa-4d90-859a-d84c2afe5f03.xml, d3dumddi/CreateDevice, display.createdevice
 ms.topic: callback
+f1_keywords:
+ - "d3dumddi/CreateDevice"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop

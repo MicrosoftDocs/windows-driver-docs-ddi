@@ -8,6 +8,8 @@ ms.assetid: c9d019da-a05b-4c60-99e9-06b8537fa78e
 ms.date: 05/08/2018
 ms.keywords: PcInitializeAdapterDriver, PcInitializeAdapterDriver function [Audio Devices], audio.pcinitializeadapterdriver, audpc-routines_57c7e54d-ab27-4752-b13b-9d7de107322c.xml, portcls/PcInitializeAdapterDriver
 ms.topic: function
+f1_keywords:
+ - "portcls/PcInitializeAdapterDriver"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal

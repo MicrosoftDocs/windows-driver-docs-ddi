@@ -5,6 +5,8 @@ description: The PFND3DKMT_QUERYHYBRIDLISTVALUE callback function queries for th
 ms.assetid: ccfe5778-0d18-4196-b840-2f53d9ed36a8
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/PFND3DKMT_QUERYHYBRIDLISTVALUE"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

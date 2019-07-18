@@ -5,6 +5,8 @@ description: The ObReferenceObjectSafe function increments the reference count f
 ms.assetid: a87d4714-9ecf-453c-a689-7eec6ac9ac10
 ms.date: 10/19/2018
 ms.topic: function
+f1_keywords:
+ - "wdm/ObReferenceObjectSafe"
 ms.keywords: ObReferenceObjectSafe
 req.header: wdm.h
 req.include-header:

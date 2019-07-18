@@ -8,6 +8,8 @@ ms.assetid: a9b0ca27-dc46-4f9b-a3f9-51bbd759afc1
 ms.date: 04/30/2018
 ms.keywords: IoFreeController, IoFreeController routine [Kernel-Mode Driver Architecture], k104_42ed98f0-34b1-45d9-981e-e3e62411ad70.xml, kernel.iofreecontroller, ntddk/IoFreeController
 ms.topic: function
+f1_keywords:
+ - "ntddk/IoFreeController"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal

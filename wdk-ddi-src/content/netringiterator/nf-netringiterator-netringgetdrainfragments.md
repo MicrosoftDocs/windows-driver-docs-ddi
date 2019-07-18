@@ -8,6 +8,8 @@ ms.assetid: 881ad7f6-1d87-4c4d-bc80-acae45446c56
 ms.author: windowsdriverdev
 ms.date: 02/04/2019
 ms.topic: function
+f1_keywords:
+ - "netringiterator/NetRingGetDrainFragments"
 ms.keywords: NetRingGetDrainFragments
 req.header: netringiterator.h
 req.include-header:

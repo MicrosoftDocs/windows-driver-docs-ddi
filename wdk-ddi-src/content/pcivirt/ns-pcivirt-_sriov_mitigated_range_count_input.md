@@ -8,6 +8,8 @@ ms.assetid: 7de35a35-2b90-421d-bbde-4c5cb760070a
 ms.date: 02/24/2018
 ms.keywords: "*PSRIOV_MITIGATED_RANGE_COUNT_INPUT, PCI.sriov_mitigated_range_count_input, SRIOV_MITIGATED_RANGE_COUNT_INPUT, SRIOV_MITIGATED_RANGE_COUNT_INPUT structure [Buses], _SRIOV_MITIGATED_RANGE_COUNT_INPUT, pcivirt/SRIOV_MITIGATED_RANGE_COUNT_INPUT"
 ms.topic: struct
+f1_keywords:
+ - "pcivirt/SRIOV_MITIGATED_RANGE_COUNT_INPUT"
 req.header: pcivirt.h
 req.include-header:
 req.target-type: Windows

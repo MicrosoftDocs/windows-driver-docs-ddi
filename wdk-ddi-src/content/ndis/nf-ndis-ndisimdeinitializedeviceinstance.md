@@ -8,6 +8,8 @@ ms.assetid: badfab43-ba58-4711-a181-af87dcfeba4d
 ms.date: 05/02/2018
 ms.keywords: NdisIMDeInitializeDeviceInstance, NdisIMDeInitializeDeviceInstance function [Network Drivers Starting with Windows Vista], intermediate_ref_6e10d8e6-4dd7-4d92-9c22-949dabac84f9.xml, ndis/NdisIMDeInitializeDeviceInstance, netvista.ndisimdeinitializedeviceinstance
 ms.topic: function
+f1_keywords:
+ - "ndis/NdisIMDeInitializeDeviceInstance"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

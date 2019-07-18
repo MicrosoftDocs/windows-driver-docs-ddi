@@ -8,6 +8,8 @@ ms.assetid: d1cde8a4-f27b-440c-bfb1-c9a564c59c04
 ms.date: 04/20/2018
 ms.keywords: "*PUFF_FONTDIRECTORY, PUFF_FONTDIRECTORY, PUFF_FONTDIRECTORY structure pointer [Print Devices], UFF_FONTDIRECTORY, UFF_FONTDIRECTORY structure [Print Devices], _UFF_FONTDIRECTORY, print.uff_fontdirectory, print_unidrv-pscript_fonts_979a2793-a3e4-4939-aab1-29510951b621.xml, prntfont/PUFF_FONTDIRECTORY, prntfont/UFF_FONTDIRECTORY"
 ms.topic: struct
+f1_keywords:
+ - "prntfont/UFF_FONTDIRECTORY"
 req.header: prntfont.h
 req.include-header: Prntfont.h
 req.target-type: Windows

@@ -5,6 +5,8 @@ description: The SetContextForDataModel method is used by the implementation of 
 ms.assetid: 717eb159-c61b-4061-9ccf-3a7b21f353e1
 ms.date: 08/13/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IModelObject.SetContextForDataModel"
 ms.keywords: IModelObject::SetContextForDataModel, SetContextForDataModel, IModelObject.SetContextForDataModel, IModelObject::SetContextForDataModel, IModelObject.SetContextForDataModel
 req.header: dbgmodel.h
 req.include-header:

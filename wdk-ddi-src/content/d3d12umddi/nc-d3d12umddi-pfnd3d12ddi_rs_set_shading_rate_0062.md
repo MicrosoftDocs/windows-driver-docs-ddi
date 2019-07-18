@@ -8,6 +8,8 @@ ms.assetid: 4bae80db-d024-4820-a82b-3b06730e5426
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_RS_SET_SHADING_RATE_0062"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

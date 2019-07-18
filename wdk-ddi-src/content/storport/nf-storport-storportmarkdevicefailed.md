@@ -8,6 +8,8 @@ ms.assetid: 91951a88-18ba-4ddc-b8e0-d789f179fa1f
 ms.author: windowsdriverdev
 ms.date: 3/19/19
 ms.topic: function
+f1_keywords:
+ - "storport/StorPortMarkDeviceFailed"
 ms.keywords: StorPortMarkDeviceFailed
 req.header: storport.h
 req.include-header:

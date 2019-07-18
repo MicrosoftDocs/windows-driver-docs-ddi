@@ -8,6 +8,8 @@ ms.assetid: 140be989-e578-4bfe-8b9e-56abb274933a
 ms.date: 05/02/2018
 ms.keywords: NdisFreeScatterGatherList, NdisFreeScatterGatherList function [Network Drivers Starting with Windows Vista], ndis/NdisFreeScatterGatherList, ndis_shared_memory_ref_2376e740-d44c-4572-8731-7518d4765208.xml, netvista.ndisfreescattergatherlist
 ms.topic: function
+f1_keywords:
+ - "ndis/NdisFreeScatterGatherList"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

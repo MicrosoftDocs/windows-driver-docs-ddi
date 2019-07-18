@@ -8,6 +8,8 @@ ms.assetid: d4087825-cdfd-4de5-a5b7-f95f6f0563e6
 ms.date: 04/16/2018
 ms.keywords: FltApiRef_e_to_o_35d2b6e8-d233-4c6e-a27a-6a5770f5f5d0.xml, FltGetIrpName, FltGetIrpName routine [Installable File System Drivers], fltkernel/FltGetIrpName, ifsk.fltgetirpname
 ms.topic: function
+f1_keywords:
+ - "fltkernel/FltGetIrpName"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

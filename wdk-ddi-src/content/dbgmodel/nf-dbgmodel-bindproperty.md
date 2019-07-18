@@ -5,6 +5,8 @@ description:  A binder which converts two instance methods on a class to a read/
 ms.assetid: 9d2e671b-af82-49fb-ba13-8f780e931929
 ms.date: 06/11/2019
 ms.topic: function
+f1_keywords:
+ - "dbgmodel/BindProperty"
 ms.keywords: BindProperty
 req.header: dbgmodel.h
 req.include-header:

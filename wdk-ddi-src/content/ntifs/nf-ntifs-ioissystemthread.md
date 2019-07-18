@@ -8,6 +8,8 @@ ms.assetid: 1f3dc15f-14b5-4797-83be-ba3a01a1551b
 ms.date: 04/16/2018
 ms.keywords: IoIsSystemThread, IoIsSystemThread routine [Installable File System Drivers], ifsk.ioissystemthread, ioref_3e14f3af-c985-43a4-bc57-927483597c79.xml, ntifs/IoIsSystemThread
 ms.topic: function
+f1_keywords:
+ - "ntifs/IoIsSystemThread"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

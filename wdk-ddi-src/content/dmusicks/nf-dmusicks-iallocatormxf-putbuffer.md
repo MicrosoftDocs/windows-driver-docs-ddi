@@ -8,6 +8,8 @@ ms.assetid: 20daf292-9476-4435-915d-f97fba3a6ec2
 ms.date: 05/08/2018
 ms.keywords: IAllocatorMXF interface [Audio Devices],PutBuffer method, IAllocatorMXF.PutBuffer, IAllocatorMXF::PutBuffer, PutBuffer, PutBuffer method [Audio Devices], PutBuffer method [Audio Devices],IAllocatorMXF interface, audio.iallocatormxf_putbuffer, audmp-routines_8afbc000-69b1-45a5-8fe3-3f6ff8d5518d.xml, dmusicks/IAllocatorMXF::PutBuffer
 ms.topic: method
+f1_keywords:
+ - "dmusicks/IAllocatorMXF.PutBuffer"
 req.header: dmusicks.h
 req.include-header: Dmusicks.h
 req.target-type: Desktop

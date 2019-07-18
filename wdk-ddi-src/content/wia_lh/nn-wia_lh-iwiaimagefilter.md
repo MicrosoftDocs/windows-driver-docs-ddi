@@ -8,6 +8,8 @@ ms.assetid: de74898b-ac04-468d-874d-7ca281e22a86
 ms.date: 05/03/2018
 ms.keywords: IWiaErrorHandler_3922a578-25ee-448c-a0db-c339711ad2cb.xml, IWiaImageFilter, IWiaImageFilter interface [Imaging Devices], IWiaImageFilter interface [Imaging Devices],described, image.iwiaimagefilter_interface, wia_lh/IWiaImageFilter
 ms.topic: interface
+f1_keywords:
+ - "wia_lh/IWiaImageFilter"
 req.header: wia_lh.h
 req.include-header: 
 req.target-type: Windows

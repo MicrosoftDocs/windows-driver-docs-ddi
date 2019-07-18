@@ -8,6 +8,8 @@ ms.assetid: ca4e26c5-5fea-42ab-aee6-3ecf4cce3798
 ms.date: 05/02/2018
 ms.keywords: NdisOffloadTcpForward, NdisOffloadTcpForward function [Network Drivers Starting with Windows Vista], ndischimney/NdisOffloadTcpForward, netvista.ndisoffloadtcpforward, tcp_chim_ndis_func_9def62ce-e860-4f98-a609-8e96e6381c66.xml
 ms.topic: function
+f1_keywords:
+ - "ndischimney/NdisOffloadTcpForward"
 req.header: ndischimney.h
 req.include-header: Ndischimney.h
 req.target-type: Universal

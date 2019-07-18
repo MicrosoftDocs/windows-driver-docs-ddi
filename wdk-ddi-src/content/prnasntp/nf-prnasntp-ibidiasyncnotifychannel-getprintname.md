@@ -8,6 +8,8 @@ ms.assetid: DE84073F-8D87-4C72-B820-4CBCF1B9DF2F
 ms.date: 04/20/2018
 ms.keywords: GetPrintName, GetPrintName method [Print Devices], GetPrintName method [Print Devices],IBidiAsyncNotifyChannel interface, IBidiAsyncNotifyChannel interface [Print Devices],GetPrintName method, IBidiAsyncNotifyChannel.GetPrintName, IBidiAsyncNotifyChannel::GetPrintName, print.ibidiasyncnotifychannel_getprintname, prnasntp/IBidiAsyncNotifyChannel::GetPrintName
 ms.topic: method
+f1_keywords:
+ - "prnasntp/IBidiAsyncNotifyChannel.GetPrintName"
 req.header: prnasntp.h
 req.include-header: 
 req.target-type: Windows

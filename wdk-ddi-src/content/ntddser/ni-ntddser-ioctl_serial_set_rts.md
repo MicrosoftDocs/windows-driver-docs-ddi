@@ -8,6 +8,8 @@ ms.assetid: a3ce8e93-12b1-4f84-82e5-0a384ac44f66
 ms.date: 04/23/2018
 ms.keywords: IOCTL_SERIAL_SET_RTS, IOCTL_SERIAL_SET_RTS control, IOCTL_SERIAL_SET_RTS control code [Serial Ports], ntddser/IOCTL_SERIAL_SET_RTS, serports.ioctl_serial_set_rts, serref_bda4eddb-8ddc-4fd6-83ac-c4b6516fe949.xml
 ms.topic: ioctl
+f1_keywords:
+ - "ntddser/IOCTL_SERIAL_SET_RTS"
 req.header: ntddser.h
 req.include-header: Ntddser.h
 req.target-type: Windows

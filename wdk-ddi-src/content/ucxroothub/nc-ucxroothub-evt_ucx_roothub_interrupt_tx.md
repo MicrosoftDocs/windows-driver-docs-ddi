@@ -8,6 +8,8 @@ ms.assetid: e2371b90-2274-459b-9e4a-5c9936d21b9c
 ms.date: 05/07/2018
 ms.keywords: EVT_UCX_ROOTHUB_INTERRUPT_TX, EVT_UCX_ROOTHUB_INTERRUPT_TX callback, EvtUcxInterruptTransferTx, EvtUcxInterruptTransferTx callback function [Buses], PEVT_UCX_ROOTHUB_INTERRUPT_TX, PEVT_UCX_ROOTHUB_INTERRUPT_TX callback function pointer [Buses], buses.evt_ucx_roothub_interrupt_tx, ucxroothub/EvtUcxInterruptTransferTx
 ms.topic: callback
+f1_keywords:
+ - "ucxroothub/PEVT_UCX_ROOTHUB_INTERRUPT_TX"
 req.header: ucxroothub.h
 req.include-header: Ucxclass.h
 req.target-type: Windows

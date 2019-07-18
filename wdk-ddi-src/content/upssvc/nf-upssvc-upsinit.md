@@ -8,6 +8,8 @@ ms.assetid: abcb1f9c-3de3-430c-87e0-6648d60ca420
 ms.date: 02/15/2018
 ms.keywords: UPSInit, UPSInit function [Battery Devices], UPS_fns_855934b9-5f74-4308-9bed-5fd85d039247.xml, battery.upsinit, upssvc/UPSInit
 ms.topic: function
+f1_keywords:
+ - "upssvc/UPSInit"
 req.header: upssvc.h
 req.include-header: Upssvc.h
 req.target-type: Desktop

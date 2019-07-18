@@ -8,6 +8,8 @@ ms.assetid: b04ef64a-cf1f-4de5-acb3-e57687f64719
 ms.date: 03/29/2018
 ms.keywords: StorPortReadPortUlong, StorPortReadPortUlong routine [Storage Devices], storage.storportreadportulong, storport/StorPortReadPortUlong, storprt_3ef5c577-3d75-4797-b5ce-8f36e4080c47.xml
 ms.topic: macro
+f1_keywords:
+ - "storport/StorPortReadPortUlong"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

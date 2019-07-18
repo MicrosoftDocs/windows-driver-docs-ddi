@@ -6,6 +6,8 @@ description: The HidNotifyPresence function is reserved for the HID driver inter
 tech.root:
 ms.date: 02/05/2019
 ms.topic: function
+f1_keywords:
+ - "hidport/HidNotifyPresence"
 ms.keywords: HidNotifyPresence
 req.header: hidport.h
 req.include-header: hidport.h

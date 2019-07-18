@@ -5,6 +5,8 @@ description:
 ms.assetid: 40f670d4-3fa2-4944-81dd-e4cedf6cda33
 ms.date: 10/19/2018
 ms.topic: macro
+f1_keywords:
+ - "d4drvif/CTL_CODE"
 ms.keywords: CTL_CODE
 req.header: d4drvif.h
 req.include-header:

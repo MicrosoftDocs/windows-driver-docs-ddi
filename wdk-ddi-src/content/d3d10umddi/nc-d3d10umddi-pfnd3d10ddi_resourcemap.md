@@ -7,6 +7,8 @@ ms.assetid: 1310a3f8-02dd-4d35-98ad-4016e57d1eb2
 ms.date: 05/10/2018
 ms.keywords: PFND3D10DDI_RESOURCEMAP, PFND3D10DDI_RESOURCEMAP callback, ResourceMap, ResourceMap callback function [Display Devices], UserModeDisplayDriverDx10_Functions_2c1f2d21-4d2c-4e3f-993d-c6af5177e793.xml, d3d10umddi/ResourceMap, display.resourcemap
 ms.topic: callback
+f1_keywords:
+ - "d3d10umddi/ResourceMap"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

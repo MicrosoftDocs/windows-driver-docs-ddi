@@ -8,6 +8,8 @@ ms.assetid: 525e2dd9-68e1-468d-895e-d9f57372d619
 ms.date: 04/08/2019
 ms.keywords: PUNREGISTER_NOTIFICATION_EVENT, PUNREGISTER_NOTIFICATION_EVENT callback, UnregisterNotificationEvent, UnregisterNotificationEvent callback function [Audio Devices], aud-prop2_3f7488ae-5744-422e-871f-54dc2fd63bc2.xml, audio.unregisternotificationevent, hdaudio/UnregisterNotificationEvent
 ms.topic: callback
+f1_keywords:
+ - "hdaudio/UnregisterNotificationEvent"
 req.header: hdaudio.h
 req.include-header: Hdaudio.h
 req.target-type: Desktop

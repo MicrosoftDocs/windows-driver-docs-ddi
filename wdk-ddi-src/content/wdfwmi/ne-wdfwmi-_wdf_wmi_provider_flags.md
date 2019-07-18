@@ -8,6 +8,8 @@ ms.assetid: 85b1a4b4-53e0-4663-b813-18801f8b639b
 ms.date: 02/26/2018
 ms.keywords: DFWMIRef_e093a379-bdc9-4b69-90e8-294b9d55eeea.xml, WDF_WMI_PROVIDER_FLAGS, WDF_WMI_PROVIDER_FLAGS enumeration, WdfWmiProviderEventOnly, WdfWmiProviderExpensive, WdfWmiProviderTracing, WdfWmiProviderValidFlags, _WDF_WMI_PROVIDER_FLAGS, kmdf.wdf_wmi_provider_flags, wdf.wdf_wmi_provider_flags, wdfwmi/WDF_WMI_PROVIDER_FLAGS, wdfwmi/WdfWmiProviderEventOnly, wdfwmi/WdfWmiProviderExpensive, wdfwmi/WdfWmiProviderTracing, wdfwmi/WdfWmiProviderValidFlags
 ms.topic: enum
+f1_keywords:
+ - "wdfwmi/WDF_WMI_PROVIDER_FLAGS"
 req.header: wdfwmi.h
 req.include-header: Wdf.h
 req.target-type: Windows

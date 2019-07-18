@@ -8,6 +8,8 @@ ms.assetid: B9A0C9EC-6C37-4C42-A10A-8CEE028C5998
 ms.date: 04/20/2018
 ms.keywords: IPrintSchemaTicket, IPrintSchemaTicket interface [Print Devices],NotifyXmlChanged method, IPrintSchemaTicket.NotifyXmlChanged, IPrintSchemaTicket::NotifyXmlChanged, NotifyXmlChanged, NotifyXmlChanged method [Print Devices], NotifyXmlChanged method [Print Devices],IPrintSchemaTicket interface, print.iprintschematicket_notifyxmlchanged, printerextension/IPrintSchemaTicket::NotifyXmlChanged
 ms.topic: method
+f1_keywords:
+ - "printerextension/IPrintSchemaTicket.NotifyXmlChanged"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop

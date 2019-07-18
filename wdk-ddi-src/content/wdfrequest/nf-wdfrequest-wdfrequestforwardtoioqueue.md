@@ -8,6 +8,8 @@ ms.assetid: a98d7e74-8311-46bf-a0b9-a160f5675c3d
 ms.date: 02/26/2018
 ms.keywords: DFRequestObjectRef_91c731d6-de15-4ae6-a0d0-ae449a5a47b6.xml, WdfRequestForwardToIoQueue, WdfRequestForwardToIoQueue method, kmdf.wdfrequestforwardtoioqueue, wdf.wdfrequestforwardtoioqueue, wdfrequest/WdfRequestForwardToIoQueue
 ms.topic: function
+f1_keywords:
+ - "wdfrequest/WdfRequestForwardToIoQueue"
 req.header: wdfrequest.h
 req.include-header: Wdf.h
 req.target-type: Universal

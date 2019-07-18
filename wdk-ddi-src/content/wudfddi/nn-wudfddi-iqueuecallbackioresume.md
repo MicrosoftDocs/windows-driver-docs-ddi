@@ -8,6 +8,8 @@ ms.assetid: 3f27f104-7a06-4f81-9605-2a47c7de7e01
 ms.date: 02/26/2018
 ms.keywords: IQueueCallbackIoResume, IQueueCallbackIoResume interface, IQueueCallbackIoResume interface,described, UMDFQueueObjectRef_3ee832e4-15ba-4c39-bb77-38ebbc91983d.xml, umdf.iqueuecallbackioresume, wdf.iqueuecallbackioresume, wudfddi/IQueueCallbackIoResume
 ms.topic: interface
+f1_keywords:
+ - "wudfddi/IQueueCallbackIoResume"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Windows

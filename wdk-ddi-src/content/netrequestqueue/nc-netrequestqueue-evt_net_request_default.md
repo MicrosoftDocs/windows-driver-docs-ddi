@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 8ccfb961-9677-40a3-8ab5-4d450dfb3e46
 ms.date: 02/01/2019
 ms.topic: callback
+f1_keywords:
+ - "netrequestqueue/NetRequestWdmGetNdisOidRequest"
 req.header: netrequestqueue.h
 req.include-header:
 req.target-type: Universal

@@ -8,6 +8,8 @@ ms.assetid: 7eda10df-56f8-4bb5-8f36-6246e51c1638
 ms.date: 05/10/2018
 ms.keywords: VideoPortReadPortBufferUchar, VideoPortReadPortBufferUchar function [Display Devices], VideoPort_Functions_b3c67bc0-e12c-4625-bba6-d7fb64e0c824.xml, display.videoportreadportbufferuchar, video/VideoPortReadPortBufferUchar
 ms.topic: function
+f1_keywords:
+ - "video/VideoPortReadPortBufferUchar"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

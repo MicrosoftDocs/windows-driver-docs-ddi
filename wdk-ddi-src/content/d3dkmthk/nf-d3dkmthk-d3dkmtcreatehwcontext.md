@@ -7,6 +7,8 @@ ms.assetid: 147F46A9-1182-4480-8886-7C39F940EA7D
 ms.date: 05/10/2018
 ms.keywords: D3DKMTCreateHwContext, D3DKMTCreateHwContext method [Display Devices], d3dkmthk/D3DKMTCreateHwContext, display.d3dkmtcreatehwcontext
 ms.topic: function
+f1_keywords:
+ - "d3dkmthk/D3DKMTCreateHwContext"
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: Windows

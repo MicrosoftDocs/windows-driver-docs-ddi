@@ -5,6 +5,8 @@ description: Used to indicate whether multiplane overlay stretch is supported.
 ms.assetid: e9822c31-3307-4913-b2ab-3eac835d6f1c
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/_D3DKMT_MULTIPLANEOVERLAY_STRETCH_SUPPORT"
 ms.keywords: _D3DKMT_MULTIPLANEOVERLAY_STRETCH_SUPPORT, D3DKMT_MULTIPLANEOVERLAY_STRETCH_SUPPORT, 
 req.header: d3dkmthk.h
 req.include-header:

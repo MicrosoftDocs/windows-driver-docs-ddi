@@ -8,6 +8,8 @@ ms.assetid: 8C03A1A3-1757-4622-9652-0D84DC0AFE59
 ms.date: 02/26/2018
 ms.keywords: IWDFCmResourceList, IWDFCmResourceList interface, IWDFCmResourceList interface,described, umdf.iwdfcmresourcelist, wdf.iwdfcmresourcelist, wudfddi/IWDFCmResourceList
 ms.topic: interface
+f1_keywords:
+ - "wudfddi/IWDFCmResourceList"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Desktop

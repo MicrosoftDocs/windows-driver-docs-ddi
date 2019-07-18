@@ -5,6 +5,8 @@ description: Takes a location which may represent something other than a virtual
 ms.assetid: 2c835fe9-e18e-4847-a377-70cf5058f98c
 ms.date: 09/28/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDebugHostMemory2.LinearizeLocation"
 ms.keywords: IDebugHostMemory2::LinearizeLocation, LinearizeLocation, IDebugHostMemory2.LinearizeLocation, IDebugHostMemory2::LinearizeLocation, IDebugHostMemory2.LinearizeLocation
 req.header: dbgmodel.h
 req.include-header:

@@ -8,6 +8,8 @@ ms.assetid: f585f1ad-7ed0-49b1-ab35-a6b879118b38
 ms.date: 04/23/2018
 ms.keywords: KsReleaseControl, KsReleaseControl function [Streaming Media Devices], avfunc_b568770e-1fe0-47d5-8fd4-ac210cd4be30.xml, ks/KsReleaseControl, stream.ksreleasecontrol
 ms.topic: function
+f1_keywords:
+ - "ks/KsReleaseControl"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

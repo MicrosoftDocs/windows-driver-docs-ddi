@@ -8,6 +8,8 @@ ms.assetid: b9d4f6da-694d-4737-9cbe-3666e693c0a2
 ms.date: 02/23/2018
 ms.keywords: EtwWrite, EtwWrite function [Driver Development Tools], devtest.etwwrite, etw_km_af581b5c-6124-4bb0-8756-c4a0009e7a00.xml, wdm/EtwWrite
 ms.topic: function
+f1_keywords:
+ - "wdm/EtwWrite"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Universal

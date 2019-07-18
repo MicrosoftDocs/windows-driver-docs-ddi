@@ -8,6 +8,8 @@ ms.assetid: 8490ebdd-f993-4c77-b6da-d57ef5e5d05f
 ms.date: 05/10/2018
 ms.keywords: FlipOverlay, FlipOverlay callback function [Display Devices], PFND3DDDI_FLIPOVERLAY, PFND3DDDI_FLIPOVERLAY callback, UserModeDisplayDriver_Functions_4a2c5f7b-8d52-465f-84ea-a1fc4f53381b.xml, d3dumddi/FlipOverlay, display.flipoverlay
 ms.topic: callback
+f1_keywords:
+ - "d3dumddi/FlipOverlay"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop

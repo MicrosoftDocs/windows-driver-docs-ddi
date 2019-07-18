@@ -8,6 +8,8 @@ ms.assetid: e1b5af5d-9bb8-4bf0-898a-5972f1f09a35
 ms.date: 05/03/2018
 ms.keywords: MicroDrv_45542a77-e61e-49ba-a9f3-df7d8dd57402.xml, SetPixelWindow, SetPixelWindow function [Imaging Devices], image.setpixelwindow, wiamicro/SetPixelWindow
 ms.topic: function
+f1_keywords:
+ - "wiamicro/SetPixelWindow"
 req.header: wiamicro.h
 req.include-header: Wiamicro.h
 req.target-type: Desktop

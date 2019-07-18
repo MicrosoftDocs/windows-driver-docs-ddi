@@ -8,6 +8,8 @@ ms.assetid: ca3a2a12-ea80-4f77-9742-b0440fb441f7
 ms.date: 05/02/2018
 ms.keywords: NdisMAllocatePort, NdisMAllocatePort function [Network Drivers Starting with Windows Vista], ndis/NdisMAllocatePort, ndis_ports_ref_c74ffd82-73c0-4e48-98da-d17ddf7976ae.xml, netvista.ndismallocateport
 ms.topic: function
+f1_keywords:
+ - "ndis/NdisMAllocatePort"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

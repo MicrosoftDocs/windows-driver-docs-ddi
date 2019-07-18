@@ -6,6 +6,8 @@ tech.root: audio
 ms.assetid: ddc729dd-71fe-4341-ba7e-ee05e9f91291
 ms.date: 10/31/2018 
 ms.topic: method
+f1_keywords:
+ - "portcls/IAdapterPnpManagement.PnpQueryStop"
 ms.keywords: IAdapterPnpManagement::PnpQueryStop, PnpQueryStop, IAdapterPnpManagement.PnpQueryStop, IAdapterPnpManagement::PnpQueryStop, IAdapterPnpManagement.PnpQueryStop
 req.header: portcls.h
 req.include-header:

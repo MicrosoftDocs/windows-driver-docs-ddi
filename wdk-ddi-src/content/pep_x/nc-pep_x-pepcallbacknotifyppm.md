@@ -8,6 +8,8 @@ ms.assetid: 06A8ED06-107E-495F-8664-01477C9CF843
 ms.date: 04/30/2018
 ms.keywords: AcceptProcessorNotification, AcceptProcessorNotification routine [Kernel-Mode Driver Architecture], PEPCALLBACKNOTIFYPPM, kernel.acceptprocessornotification, pepfx/AcceptProcessorNotification
 ms.topic: callback
+f1_keywords:
+ - "pep_x/AcceptProcessorNotification"
 req.header: pep_x.h
 req.include-header: Pep_x.h
 req.target-type: Windows

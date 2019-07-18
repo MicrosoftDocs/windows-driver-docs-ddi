@@ -5,6 +5,8 @@ description: Defines the kind of a type.
 ms.assetid: 82d1212c-5997-4c81-aa2f-3b390c0b2aaa
 ms.date: 06/10/2019
 ms.topic: enum
+f1_keywords:
+ - "dbgmodel/TypeKind"
 ms.keywords: TypeKind, , 
 req.header: dbgmodel.h
 req.include-header:

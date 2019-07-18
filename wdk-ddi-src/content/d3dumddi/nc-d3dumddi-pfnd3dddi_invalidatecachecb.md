@@ -5,6 +5,8 @@ description: The PFND3DDDI_INVALIDATECACHECB callback function invalidates cache
 ms.assetid: 40e15cff-6522-47af-9dd3-232a7cf106ae
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dumddi/PFND3DDDI_INVALIDATECACHECB"
 req.header: d3dumddi.h
 req.include-header:
 req.target-type:

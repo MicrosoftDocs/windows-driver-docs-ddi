@@ -8,6 +8,8 @@ ms.assetid: 67056CD0-EBFB-4E34-9613-98ECBB858810
 ms.date: 04/16/2018
 ms.keywords: FsRtlCheckLockForOplockRequest, FsRtlCheckLockForOplockRequest routine [Installable File System Drivers], ifsk.fsrtlchecklockforoplockrequest, ntifs/FsRtlCheckLockForOplockRequest
 ms.topic: function
+f1_keywords:
+ - "ntifs/FsRtlCheckLockForOplockRequest"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

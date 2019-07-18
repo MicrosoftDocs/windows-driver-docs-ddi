@@ -8,6 +8,8 @@ ms.assetid: d1fa5f7e-0cd4-4b83-ab2c-42b6174c6e6a
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
 ms.topic: struct
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_GPUCLOCKDATA_0054"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.keywords: D3D12DDI_GPUCLOCKDATA_0054, D3D12DDI_GPUCLOCKDATA_0054, 

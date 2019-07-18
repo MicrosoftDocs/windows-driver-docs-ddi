@@ -8,6 +8,8 @@ ms.assetid: F9076ED0-A9D2-441A-A084-941C05EF9CCA
 ms.date: 05/07/2018
 ms.keywords: UCM_CONNECTOR_CONFIG_INIT, UCM_CONNECTOR_CONFIG_INIT function [Buses], buses.ucm_connector_config_init, ucmmanager/UCM_CONNECTOR_CONFIG_INIT
 ms.topic: function
+f1_keywords:
+ - "ucmmanager/UCM_CONNECTOR_CONFIG_INIT"
 req.header: ucmmanager.h
 req.include-header: Ucmcx.h
 req.target-type: Windows

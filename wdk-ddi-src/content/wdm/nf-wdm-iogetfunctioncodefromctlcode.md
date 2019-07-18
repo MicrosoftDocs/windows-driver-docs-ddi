@@ -8,6 +8,8 @@ ms.assetid: 8bbde78d-49f4-4181-9d92-312010322a7a
 ms.date: 04/30/2018
 ms.keywords: IoGetFunctionCodeFromCtlCode, IoGetFunctionCodeFromCtlCode function [Kernel-Mode Driver Architecture], k104_211d730a-0df4-45f4-af58-25d2609c7696.xml, kernel.iogetfunctioncodefromctlcode, wdm/IoGetFunctionCodeFromCtlCode
 ms.topic: macro
+f1_keywords:
+ - "wdm/IoGetFunctionCodeFromCtlCode"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop

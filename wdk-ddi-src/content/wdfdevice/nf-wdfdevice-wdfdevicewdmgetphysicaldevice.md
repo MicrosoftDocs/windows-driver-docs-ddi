@@ -8,6 +8,8 @@ ms.assetid: 88bd9cc7-6769-4fdf-b149-2193d765fc6c
 ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_07f321bf-b857-4b36-81c0-452dc8acfc9a.xml, WdfDeviceWdmGetPhysicalDevice, WdfDeviceWdmGetPhysicalDevice method, kmdf.wdfdevicewdmgetphysicaldevice, wdf.wdfdevicewdmgetphysicaldevice, wdfdevice/WdfDeviceWdmGetPhysicalDevice
 ms.topic: function
+f1_keywords:
+ - "wdfdevice/WdfDeviceWdmGetPhysicalDevice"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

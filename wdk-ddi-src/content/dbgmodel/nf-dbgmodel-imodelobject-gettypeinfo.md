@@ -5,6 +5,8 @@ description: The GetTypeInfo method will return the native type of the given obj
 ms.assetid: 15543aee-79aa-45e7-ad7a-017eab0e7d74
 ms.date: 06/10/2019
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IModelObject.GetTypeInfo"
 ms.keywords: IModelObject::GetTypeInfo, GetTypeInfo, IModelObject.GetTypeInfo, IModelObject::GetTypeInfo, IModelObject.GetTypeInfo
 req.header: dbgmodel.h
 req.include-header:

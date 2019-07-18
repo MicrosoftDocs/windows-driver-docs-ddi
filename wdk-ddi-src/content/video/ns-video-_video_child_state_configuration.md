@@ -8,6 +8,8 @@ ms.assetid: e298ef49-d285-426a-9028-78f7f54340b2
 ms.date: 05/10/2018
 ms.keywords: "*PVIDEO_CHILD_STATE_CONFIGURATION, PVIDEO_CHILD_STATE_CONFIGURATION, PVIDEO_CHILD_STATE_CONFIGURATION structure pointer [Display Devices], VIDEO_CHILD_STATE_CONFIGURATION, VIDEO_CHILD_STATE_CONFIGURATION structure [Display Devices], Video_Structs_22fa1242-c537-4cae-ab47-b7e972e24d09.xml, _VIDEO_CHILD_STATE_CONFIGURATION, display.video_child_state_configuration, video/PVIDEO_CHILD_STATE_CONFIGURATION, video/VIDEO_CHILD_STATE_CONFIGURATION"
 ms.topic: struct
+f1_keywords:
+ - "video/VIDEO_CHILD_STATE_CONFIGURATION"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: 507d41ae-31b9-4807-99af-9ec48eb2b5aa
 ms.date: 04/23/2018
 ms.keywords: IKsClockPropertySet interface [Streaming Media Devices],KsGetResolution method, IKsClockPropertySet.KsGetResolution, IKsClockPropertySet::KsGetResolution, KsGetResolution, KsGetResolution method [Streaming Media Devices], KsGetResolution method [Streaming Media Devices],IKsClockPropertySet interface, ksproxy/IKsClockPropertySet::KsGetResolution, ksproxy_0c0583b1-5ab3-4e30-bf99-6822d8966171.xml, stream.iksclockpropertyset_ksgetresolution
 ms.topic: method
+f1_keywords:
+ - "ksproxy/IKsClockPropertySet.KsGetResolution"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h
 req.target-type: Desktop

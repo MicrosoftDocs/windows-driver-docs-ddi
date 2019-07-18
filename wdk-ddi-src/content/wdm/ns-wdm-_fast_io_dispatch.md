@@ -8,6 +8,8 @@ ms.assetid: 9F422CE9-8ADC-4709-8FE5-5A3501B47AC2
 ms.date: 04/16/2018
 ms.keywords: "*PFAST_IO_DISPATCH, FAST_IO_DISPATCH, FAST_IO_DISPATCH structure [Installable File System Drivers], PFAST_IO_DISPATCH, PFAST_IO_DISPATCH structure pointer [Installable File System Drivers], _FAST_IO_DISPATCH, ifsk.fast_io_dispatch, wdm/FAST_IO_DISPATCH, wdm/PFAST_IO_DISPATCH"
 ms.topic: struct
+f1_keywords:
+ - "wdm/FAST_IO_DISPATCH"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Windows

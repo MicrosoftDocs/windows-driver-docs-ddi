@@ -8,6 +8,8 @@ ms.assetid: FA14B81D-0B51-4C07-96BC-38CAABED735A
 ms.date: 04/20/2018
 ms.keywords: GetString, GetString method [Print Devices], GetString method [Print Devices],IPrinterScriptablePropertyBag interface, IPrinterScriptablePropertyBag interface [Print Devices],GetString method, IPrinterScriptablePropertyBag.GetString, IPrinterScriptablePropertyBag::GetString, print.iprinterscriptablepropertybag_getstring, printerextension/IPrinterScriptablePropertyBag::GetString
 ms.topic: method
+f1_keywords:
+ - "printerextension/IPrinterScriptablePropertyBag.GetString"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop

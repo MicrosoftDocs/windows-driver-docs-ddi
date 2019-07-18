@@ -5,6 +5,8 @@ description:
 ms.assetid: 11e26b8c-2c82-46b5-907f-7e2b81f0e16a
 ms.date: 10/05/2018
 ms.topic: ioctl
+f1_keywords:
+ - "sidebandaudio/IOCTL_SBAUD_GET_VOLUMEPROPERTYVALUES"
 req.header: sidebandaudio.h
 req.include-header:
 req.target-type:

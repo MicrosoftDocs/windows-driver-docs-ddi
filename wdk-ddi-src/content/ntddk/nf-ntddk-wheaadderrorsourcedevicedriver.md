@@ -8,6 +8,8 @@ ms.assetid: 7a3a1b3d-dc79-4bcf-ba1f-ccce6c685cbe
 ms.author: windowsdriverdev
 ms.date: 3/5/2019
 ms.topic: function
+f1_keywords:
+ - "ntddk/WheaAddErrorSourceDeviceDriver"
 ms.keywords: WheaAddErrorSourceDeviceDriver
 req.header: ntddk.h
 req.include-header:

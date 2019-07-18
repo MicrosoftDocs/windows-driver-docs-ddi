@@ -8,6 +8,8 @@ ms.assetid: 282E12E2-F16F-4399-BC8C-78BD64F05F13
 ms.date: 05/07/2018
 ms.keywords: UcmConnectorPdPartnerSourceCaps, UcmConnectorPdPartnerSourceCaps method [Buses], buses.ucmconnectorpdportpartnersourcecaps, ucmmanager/UcmConnectorPdPartnerSourceCaps
 ms.topic: function
+f1_keywords:
+ - "ucmmanager/UcmConnectorPdPartnerSourceCaps"
 req.header: ucmmanager.h
 req.include-header: Ucmcx.h
 req.target-type: Windows

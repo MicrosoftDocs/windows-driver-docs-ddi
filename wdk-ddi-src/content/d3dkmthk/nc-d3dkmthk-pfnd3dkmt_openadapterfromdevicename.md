@@ -5,6 +5,8 @@ description: Pfnd3dkmtOpenadapterfromdevicename maps a device name to a graphics
 ms.assetid: 30832e65-d6bd-4d48-bd57-1b29620b47fe
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/PFND3DKMT_OPENADAPTERFROMDEVICENAME"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

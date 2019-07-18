@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 32EA323E-E02A-4194-88F3-A18BDA4816AB
 ms.date: 04/08/2019
 ms.topic: enum
+f1_keywords:
+ - "wwan/_WWAN_UICC_APP_TYPE"
 ms.keywords: _WWAN_UICC_APP_TYPE, WWAN_UICC_APP_TYPE, *PWWAN_UICC_APP_TYPE, 
 req.header: wwan.h
 req.include-header:

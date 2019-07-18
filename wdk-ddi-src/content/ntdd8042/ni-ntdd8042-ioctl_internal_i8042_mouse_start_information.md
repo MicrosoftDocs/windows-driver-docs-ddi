@@ -8,6 +8,8 @@ ms.assetid: aa7d5802-d1d0-4c7c-bf55-0f0b5b664113
 ms.date: 04/30/2018
 ms.keywords: IOCTL_INTERNAL_I8042_MOUSE_START_INFORMATION, IOCTL_INTERNAL_I8042_MOUSE_START_INFORMATION control, IOCTL_INTERNAL_I8042_MOUSE_START_INFORMATION control code [Human Input Devices], hid.ioctl_internal_i8042_mouse_start_information, i8042ref_c4c81870-f104-4979-86e3-03bd376e34ce.xml, ntdd8042/IOCTL_INTERNAL_I8042_MOUSE_START_INFORMATION
 ms.topic: ioctl
+f1_keywords:
+ - "ntdd8042/IOCTL_INTERNAL_I8042_MOUSE_START_INFORMATION"
 req.header: ntdd8042.h
 req.include-header: Ntdd8042.h
 req.target-type: Windows

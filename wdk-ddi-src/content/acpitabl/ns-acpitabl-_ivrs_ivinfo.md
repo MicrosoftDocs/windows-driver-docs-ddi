@@ -5,6 +5,8 @@ description: Defines the I/O Virtualization Reporting Structure (IVRS) I/O virtu
 ms.assetid: 5d3b9617-d979-4a7c-80e7-7eaec3a6d713
 ms.date: 10/01/2018
 ms.topic: struct
+f1_keywords:
+ - "acpitabl/_IVRS_IVINFO"
 ms.keywords: _IVRS_IVINFO, IVRS_IVINFO, *PIVRS_IVINFO, 
 req.header: acpitabl.h
 req.include-header:

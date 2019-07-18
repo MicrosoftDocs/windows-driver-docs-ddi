@@ -8,6 +8,8 @@ ms.assetid: e6ffb893-a79f-4cc0-9052-667b835f4ad3
 ms.date: 04/30/2018
 ms.keywords: KeMemoryBarrier, KeMemoryBarrier routine [Kernel-Mode Driver Architecture], k105_972df62d-6449-40d7-9bfa-0c420cf8f106.xml, kernel.kememorybarrier, wdm/KeMemoryBarrier
 ms.topic: function
+f1_keywords:
+ - "wdm/KeMemoryBarrier"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop

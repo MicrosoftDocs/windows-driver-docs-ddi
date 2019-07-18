@@ -8,6 +8,8 @@ ms.assetid: 53F895F8-596D-464C-866E-67028CF644E4
 ms.date: 05/07/2018
 ms.keywords: IOCTL_INTERNAL_USBFN_TRANSFER_IN, IOCTL_INTERNAL_USBFN_TRANSFER_IN control, IOCTL_INTERNAL_USBFN_TRANSFER_IN control code [Buses], buses._ioctl_internal_usbfn_transfer_in, usbfnioctl/IOCTL_INTERNAL_USBFN_TRANSFER_IN
 ms.topic: ioctl
+f1_keywords:
+ - "usbfnioctl/IOCTL_INTERNAL_USBFN_TRANSFER_IN"
 req.header: usbfnioctl.h
 req.include-header: 
 req.target-type: Windows

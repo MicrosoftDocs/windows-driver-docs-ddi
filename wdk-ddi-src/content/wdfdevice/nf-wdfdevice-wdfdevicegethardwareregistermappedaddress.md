@@ -8,6 +8,8 @@ ms.assetid: 4D172D39-0D28-4950-B428-330D5B4D0654
 ms.date: 02/26/2018
 ms.keywords: WdfDeviceGetHardwareRegisterMappedAddress, WdfDeviceGetHardwareRegisterMappedAddress function, wdf.wdfdevicegethardwareregistermappedaddress, wdfdevice/WdfDeviceGetHardwareRegisterMappedAddress
 ms.topic: function
+f1_keywords:
+ - "wdfdevice/WdfDeviceGetHardwareRegisterMappedAddress"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

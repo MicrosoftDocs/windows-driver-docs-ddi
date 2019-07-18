@@ -8,6 +8,8 @@ ms.assetid: 6b29e15c-3a9d-4d96-8b72-22064526ca75
 ms.date: 05/03/2018
 ms.keywords: ComCallbacks_ed6ca0bd-5599-426d-b089-18a12311eba0.xml, IDebugOutputCallbacks, IDebugOutputCallbacks interface [Windows Debugging], IDebugOutputCallbacks interface [Windows Debugging],described, dbgeng/IDebugOutputCallbacks, debugger.idebugoutputcallbacks
 ms.topic: interface
+f1_keywords:
+ - "dbgeng/IDebugOutputCallbacks"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: aaa10cb2-16cb-40a8-ad72-9715da311957
 ms.date: 04/30/2018
 ms.keywords: IoGetStackLimits, IoGetStackLimits routine [Kernel-Mode Driver Architecture], k104_2688546a-d427-4d20-bc67-278b0fc20f45.xml, kernel.iogetstacklimits, wdm/IoGetStackLimits
 ms.topic: function
+f1_keywords:
+ - "wdm/IoGetStackLimits"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

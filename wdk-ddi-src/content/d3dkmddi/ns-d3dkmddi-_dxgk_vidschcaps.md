@@ -7,6 +7,8 @@ ms.assetid: 714741b5-aec1-4d79-8199-00e8d97e6637
 ms.date: 05/10/2018
 ms.keywords: DXGK_VIDSCHCAPS, DXGK_VIDSCHCAPS structure [Display Devices], DmStructs_01f721e4-8585-46b1-a911-9fa904a29f7e.xml, _DXGK_VIDSCHCAPS, d3dkmddi/DXGK_VIDSCHCAPS, display.dxgk_vidschcaps
 ms.topic: struct
+f1_keywords:
+ - "d3dkmddi/DXGK_VIDSCHCAPS"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

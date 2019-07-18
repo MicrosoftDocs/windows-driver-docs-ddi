@@ -7,6 +7,8 @@ ms.assetid: c21f62ab-c52e-43a2-a3a1-6fd6e5fbde01
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_DESTROYCONTEXT, DXGKDDI_DESTROYCONTEXT callback, DmFunctions_b8cd0b48-a87b-4e6f-8811-49a1e0f46f2f.xml, DxgkDdiDestroyContext, DxgkDdiDestroyContext callback function [Display Devices], d3dkmddi/DxgkDdiDestroyContext, display.dxgkddidestroycontext
 ms.topic: callback
+f1_keywords:
+ - "d3dkmddi/DxgkDdiDestroyContext"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Desktop

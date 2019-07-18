@@ -8,6 +8,8 @@ ms.assetid: 4C07239D-89AE-4A9F-B7EB-CFFE6D47F10B
 ms.date: 05/07/2018
 ms.keywords: "*PUSBDEVICE_RESET, P_USBDEVICE_RESET, P_USBDEVICE_RESET structure pointer [Buses], USBDEVICE_RESET, USBDEVICE_RESET structure [Buses], _USBDEVICE_RESET, buses._usbdevice_reset, ucxusbdevice/P_USBDEVICE_RESET, ucxusbdevice/_USBDEVICE_RESET"
 ms.topic: struct
+f1_keywords:
+ - "ucxusbdevice/USBDEVICE_RESET"
 req.header: ucxusbdevice.h
 req.include-header: Ucxclass.h
 req.target-type: Windows

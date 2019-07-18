@@ -5,6 +5,8 @@ description: Used to register the power state of a new input.
 ms.assetid: e312c3ba-7a23-41e4-bebb-b19daa7a43ae
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/_DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_2"
 ms.keywords: _DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_2, DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_2, *PDXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_2, *PDXGK_GRAPHICSPOWER_REGISTER_INPUT, DXGK_GRAPHICSPOWER_REGISTER_INPUT
 req.header: d3dkmthk.h
 req.include-header:

@@ -8,6 +8,8 @@ ms.assetid: 5e0bcf87-5776-4465-849c-6d4c06832797
 ms.date: 04/30/2018
 ms.keywords: NtSetValueKey, ZwSetValueKey, ZwSetValueKey routine [Kernel-Mode Driver Architecture], k111_08954f01-0f74-4054-a52a-b00fff0dc166.xml, kernel.zwsetvaluekey, wdm/NtSetValueKey, wdm/ZwSetValueKey
 ms.topic: function
+f1_keywords:
+ - "wdm/ZwSetValueKey"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

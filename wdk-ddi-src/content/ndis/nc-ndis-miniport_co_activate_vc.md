@@ -8,6 +8,8 @@ ms.assetid: 243a1236-4b8a-4f00-9f14-3142fa81c362
 ms.date: 05/02/2018
 ms.keywords: MINIPORT_CO_ACTIVATE_VC, MINIPORT_CO_ACTIVATE_VC callback, MiniportCoActivateVc, MiniportCoActivateVc callback function [Network Drivers Starting with Windows Vista], condis_miniport_ref_b93127ea-bac1-48d1-b7fd-3c7f40cbcbdb.xml, ndis/MiniportCoActivateVc, netvista.miniportcoactivatevc
 ms.topic: callback
+f1_keywords:
+ - "ndis/MiniportCoActivateVc"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

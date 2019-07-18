@@ -8,6 +8,8 @@ ms.assetid: a195c09c-3bcb-4db2-9ce1-fdca2730ee09
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: callback
+f1_keywords:
+ - "ntddk/_WHEA_ERROR_SOURCE_CORRECT"
 req.header: ntddk.h
 req.include-header:
 req.target-type:

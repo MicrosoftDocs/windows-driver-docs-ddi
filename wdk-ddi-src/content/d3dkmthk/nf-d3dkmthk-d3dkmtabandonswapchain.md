@@ -5,6 +5,8 @@ description: Abandons the swap chain.
 ms.assetid: 1746dbcd-a799-41d2-a4bc-ae485ea1362c
 ms.date: 10/19/2018
 ms.topic: function
+f1_keywords:
+ - "d3dkmthk/D3DKMTAbandonSwapChain"
 ms.keywords: D3DKMTAbandonSwapChain
 req.header: d3dkmthk.h
 req.include-header:

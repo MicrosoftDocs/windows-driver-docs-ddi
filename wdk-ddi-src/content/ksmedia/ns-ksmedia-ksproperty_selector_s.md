@@ -8,6 +8,8 @@ ms.assetid: cc9928b7-fab2-44c1-8613-3a94b5e8dcab
 ms.date: 04/30/2019
 ms.keywords: "*PKSPROPERTY_SELECTOR_S, KSPROPERTY_SELECTOR_S, KSPROPERTY_SELECTOR_S structure [Streaming Media Devices], PKSPROPERTY_SELECTOR_S, PKSPROPERTY_SELECTOR_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_SELECTOR_S, ksmedia/PKSPROPERTY_SELECTOR_S, stream.ksproperty_selector_s, vidcapstruct_7e180fae-5237-4b71-8719-7d3c5ee66592.xml"
 ms.topic: struct
+f1_keywords:
+ - "ksmedia/KSPROPERTY_SELECTOR_S"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows

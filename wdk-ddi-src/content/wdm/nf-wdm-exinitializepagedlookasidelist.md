@@ -8,6 +8,8 @@ ms.assetid: 7a6b21f1-37e3-4f73-a826-4629624ac5a9
 ms.date: 04/30/2018
 ms.keywords: ExInitializePagedLookasideList, ExInitializePagedLookasideList routine [Kernel-Mode Driver Architecture], k102_7044b56d-db76-4021-8d76-b4f157e2d783.xml, kernel.exinitializepagedlookasidelist, wdm/ExInitializePagedLookasideList
 ms.topic: function
+f1_keywords:
+ - "wdm/ExInitializePagedLookasideList"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

@@ -8,6 +8,8 @@ ms.assetid: 19C3A3C5-446B-48FD-8E77-2E0F787B16B1
 ms.date: 04/20/2018
 ms.keywords: GetParameterDefinition, GetParameterDefinition method [Print Devices], GetParameterDefinition method [Print Devices],IPrintSchemaCapabilities2 interface, IPrintSchemaCapabilities2 interface [Print Devices],GetParameterDefinition method, IPrintSchemaCapabilities2.GetParameterDefinition, IPrintSchemaCapabilities2::GetParameterDefinition, print.iprintschemacapabilities2_getparameterdefinition, printerextension/IPrintSchemaCapabilities2::GetParameterDefinition
 ms.topic: method
+f1_keywords:
+ - "printerextension/IPrintSchemaCapabilities2.GetParameterDefinition"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop

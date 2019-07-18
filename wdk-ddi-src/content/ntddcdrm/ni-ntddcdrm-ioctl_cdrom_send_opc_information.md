@@ -8,6 +8,8 @@ ms.assetid: 77289AB6-7733-4DA1-B4E9-585AA73D137C
 ms.date: 03/29/2018
 ms.keywords: IOCTL_CDROM_SEND_OPC_INFORMATION, IOCTL_CDROM_SEND_OPC_INFORMATION control, IOCTL_CDROM_SEND_OPC_INFORMATION control code [Storage Devices], ntddcdrm/IOCTL_CDROM_SEND_OPC_INFORMATION, storage.ioctl_cdrom_send_opc_information
 ms.topic: ioctl
+f1_keywords:
+ - "ntddcdrm/IOCTL_CDROM_SEND_OPC_INFORMATION"
 req.header: ntddcdrm.h
 req.include-header: Winioctl.h
 req.target-type: Windows

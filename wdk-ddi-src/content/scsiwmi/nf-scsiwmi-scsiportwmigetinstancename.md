@@ -8,6 +8,8 @@ ms.assetid: ff2ebd1c-d0ac-47a7-90d4-0b49259784c1
 ms.date: 03/29/2018
 ms.keywords: ScsiPortWmiGetInstanceName, ScsiPortWmiGetInstanceName routine [Storage Devices], scsiprt_184c6508-4189-4ab2-a445-7e52e5c688ab.xml, scsiwmi/ScsiPortWmiGetInstanceName, storage.scsiportwmigetinstancename
 ms.topic: function
+f1_keywords:
+ - "scsiwmi/ScsiPortWmiGetInstanceName"
 req.header: scsiwmi.h
 req.include-header: Miniport.h, Scsi.h
 req.target-type: Desktop

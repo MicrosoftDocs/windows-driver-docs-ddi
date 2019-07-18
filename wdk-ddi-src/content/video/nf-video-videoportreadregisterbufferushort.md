@@ -8,6 +8,8 @@ ms.assetid: 5a8e0be5-8eed-47f1-88df-43f3776def7f
 ms.date: 05/10/2018
 ms.keywords: VideoPortReadRegisterBufferUshort, VideoPortReadRegisterBufferUshort function [Display Devices], VideoPort_Functions_f10955b1-ab90-46dc-8e53-1c395af6f0bc.xml, display.videoportreadregisterbufferushort, video/VideoPortReadRegisterBufferUshort
 ms.topic: function
+f1_keywords:
+ - "video/VideoPortReadRegisterBufferUshort"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

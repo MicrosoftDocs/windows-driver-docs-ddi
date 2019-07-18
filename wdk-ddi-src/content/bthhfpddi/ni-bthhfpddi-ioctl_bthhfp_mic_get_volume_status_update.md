@@ -8,6 +8,8 @@ ms.assetid: 8BF4AEA4-B8EC-4C09-AEC8-5E47A0D715FB
 ms.date: 05/08/2018
 ms.keywords: IOCTL_BTHHFP_MIC_GET_VOLUME_STATUS_UPDATE, IOCTL_BTHHFP_MIC_GET_VOLUME_STATUS_UPDATE control, IOCTL_BTHHFP_MIC_GET_VOLUME_STATUS_UPDATE control code [Audio Devices], audio.ioctl_bthhfp_mic_get_volume_status_update, bthhfpddi/IOCTL_BTHHFP_MIC_GET_VOLUME_STATUS_UPDATE
 ms.topic: ioctl
+f1_keywords:
+ - "bthhfpddi/IOCTL_BTHHFP_MIC_GET_VOLUME_STATUS_UPDATE"
 req.header: bthhfpddi.h
 req.include-header: 
 req.target-type: Windows

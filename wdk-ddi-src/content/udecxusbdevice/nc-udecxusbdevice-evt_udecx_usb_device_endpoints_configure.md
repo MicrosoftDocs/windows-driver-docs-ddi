@@ -8,6 +8,8 @@ ms.assetid: 5E425011-BFC7-434C-9D0A-DB4481EC315F
 ms.date: 05/07/2018
 ms.keywords: EVT_UDECX_USB_DEVICE_ENDPOINTS_CONFIGURE, EVT_UDECX_USB_DEVICE_ENDPOINTS_CONFIGURE callback, EvtUsbDeviceEndpointsConfigure, EvtUsbDeviceEndpointsConfigure callback function [Buses], buses.evt_udecx_usb_device_endpoints_configure, udecxusbdevice/EvtUsbDeviceEndpointsConfigure
 ms.topic: callback
+f1_keywords:
+ - "udecxusbdevice/EvtUsbDeviceEndpointsConfigure"
 req.header: udecxusbdevice.h
 req.include-header: Udecx.h
 req.target-type: Windows

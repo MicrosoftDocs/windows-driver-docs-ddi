@@ -8,6 +8,8 @@ ms.assetid: 76984F28-7AC9-44FD-9D8B-CC184484C73E
 ms.date: 05/03/2018
 ms.keywords: EndThreadStackReconstruction, EndThreadStackReconstruction callback function [Windows Debugging], PDEBUG_STACK_PROVIDER_ENDTHREADSTACKRECONSTRUCTION, PDEBUG_STACK_PROVIDER_ENDTHREADSTACKRECONSTRUCTION callback, dbgeng/EndThreadStackReconstruction, debugger.endthreadstackreconstruction
 ms.topic: callback
+f1_keywords:
+ - "dbgeng/EndThreadStackReconstruction"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: f7e9b686-a38a-47dd-9872-9ebeca533a3a
 ms.date: 01/31/2019
 ms.topic: function
+f1_keywords:
+ - "nettxqueue/NetTxQueueCreate"
 ms.keywords: NetTxQueueGetExtension
 req.header: nettxqueue.h
 req.include-header: netadaptercx.h

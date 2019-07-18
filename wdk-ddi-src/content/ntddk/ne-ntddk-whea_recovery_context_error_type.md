@@ -8,6 +8,8 @@ ms.assetid: cae5ce3d-64b2-4422-a681-1b7652387df7
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: enum
+f1_keywords:
+ - "ntddk/WHEA_RECOVERY_CONTEXT_ERROR_TYPE"
 ms.keywords: WHEA_RECOVERY_CONTEXT_ERROR_TYPE, WHEA_RECOVERY_CONTEXT_ERROR_TYPE, *PWHEA_RECOVERY_CONTEXT_ERROR_TYPE, 
 req.header: ntddk.h
 req.include-header:

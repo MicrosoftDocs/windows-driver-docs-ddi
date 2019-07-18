@@ -8,6 +8,8 @@ ms.assetid: de7f651b-9847-41e9-9f52-71c2365bac44
 ms.date: 05/02/2018
 ms.keywords: NdisMWriteConfigBlock, NdisMWriteConfigBlock function [Network Drivers Starting with Windows Vista], ndis/NdisMWriteConfigBlock, netvista.ndismwriteconfigblock
 ms.topic: function
+f1_keywords:
+ - "ndis/NdisMWriteConfigBlock"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

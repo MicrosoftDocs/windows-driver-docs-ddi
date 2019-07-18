@@ -8,6 +8,8 @@ ms.assetid: AE9110D8-FB13-43DA-8BAA-8DD88CA3492A
 ms.date: 05/02/2018
 ms.keywords: NDIS_PD_QUEUE_PARAMETERS, NDIS_PD_QUEUE_PARAMETERS structure [Network Drivers Starting with Windows Vista], _NDIS_PD_QUEUE_PARAMETERS, ndis/NDIS_PD_QUEUE_PARAMETERS, netvista.ndis_pd_queue_parameters
 ms.topic: struct
+f1_keywords:
+ - "ndis/NDIS_PD_QUEUE_PARAMETERS"
 req.header: ndis.h
 req.include-header: 
 req.target-type: Windows

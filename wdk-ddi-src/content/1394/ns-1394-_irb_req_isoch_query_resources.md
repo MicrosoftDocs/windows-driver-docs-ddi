@@ -8,6 +8,8 @@ ms.assetid: B9CDFB62-32CF-497A-BF0F-1E4FBCA36E82
 ms.date: 02/15/2018
 ms.keywords: 1394/IRB_REQ_ISOCH_QUERY_RESOURCES, IEEE.irb_req_isoch_query_resources, IRB_REQ_ISOCH_QUERY_RESOURCES, IRB_REQ_ISOCH_QUERY_RESOURCES structure [Buses], _IRB_REQ_ISOCH_QUERY_RESOURCES
 ms.topic: struct
+f1_keywords:
+ - "1394/IRB_REQ_ISOCH_QUERY_RESOURCES"
 req.header: 1394.h
 req.include-header: 
 req.target-type: Windows

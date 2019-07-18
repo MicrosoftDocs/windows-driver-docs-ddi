@@ -8,6 +8,8 @@ ms.assetid: e2897dbe-c9f3-4d35-b704-4c230681c879
 ms.author: windowsdriverdev
 ms.date: 02/04/2019
 ms.topic: function
+f1_keywords:
+ - "netringiterator/NetRingGetPostFragments"
 ms.keywords: NetRingGetPostFragments
 req.header: netringiterator.h
 req.include-header:

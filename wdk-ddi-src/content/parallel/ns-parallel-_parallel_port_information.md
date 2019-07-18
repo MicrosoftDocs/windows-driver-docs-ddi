@@ -8,6 +8,8 @@ ms.assetid: 9f170425-2c65-469e-adae-e845b11b9c8e
 ms.date: 02/15/2018
 ms.keywords: "*PPARALLEL_PORT_INFORMATION, PARALLEL_PORT_INFORMATION, PARALLEL_PORT_INFORMATION structure [Parallel Ports], PPARALLEL_PORT_INFORMATION, PPARALLEL_PORT_INFORMATION structure pointer [Parallel Ports], _PARALLEL_PORT_INFORMATION, cisspd_ca857237-0c57-46e9-aedf-f6d40a25dbf8.xml, parallel/PARALLEL_PORT_INFORMATION, parallel/PPARALLEL_PORT_INFORMATION, parports.parallel_port_information"
 ms.topic: struct
+f1_keywords:
+ - "parallel/PARALLEL_PORT_INFORMATION"
 req.header: parallel.h
 req.include-header: Parallel.h
 req.target-type: Windows

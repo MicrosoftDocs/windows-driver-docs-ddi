@@ -8,6 +8,8 @@ ms.assetid: 8aaadfd6-3aca-451b-a5e9-081b083ae51d
 ms.date: 03/19/2018
 ms.keywords: IPort, IPort interface [Audio Devices], IPort interface [Audio Devices], described, audio.iport, audmp-routines_45897b1f-29f6-411d-9963-60f31e1655e7.xml, portcls/IPort
 ms.topic: interface
+f1_keywords:
+ - "portcls/IPort"
 req.header: portcls.h
 req.include-header:
 req.target-type: Windows

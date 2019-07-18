@@ -5,6 +5,8 @@ description:
 ms.assetid: ebdd9f97-f005-4eb7-bb36-34fe7965829e
 ms.date: 10/19/2018
 ms.topic: enum
+f1_keywords:
+ - "winsplp/EBranchOfficeJobEventType"
 ms.keywords: EBranchOfficeJobEventType, EBranchOfficeJobEventType, 
 req.header: winsplp.h
 req.include-header:

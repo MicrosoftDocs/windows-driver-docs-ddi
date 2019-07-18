@@ -8,6 +8,8 @@ ms.assetid: 658F4C4E-D8E4-4624-BDF1-314A5B15CF67
 ms.date: 04/30/2018
 ms.keywords: RtlIntPtrToShort, RtlIntPtrToShort function [Kernel-Mode Driver Architecture], kernel.rtlintptrtoshort, ntintsafe/RtlIntPtrToShort
 ms.topic: function
+f1_keywords:
+ - "ntintsafe/RtlIntPtrToShort"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop

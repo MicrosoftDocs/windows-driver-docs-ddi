@@ -8,6 +8,8 @@ ms.assetid: 5369566b-fa64-4aec-ad3e-1a129bcefdd6
 ms.date: 04/16/2018
 ms.keywords: FltApiRef_p_to_z_cedf94f0-1f4a-46cf-aa81-914ab30d2a98.xml, FltUnregisterFilter, FltUnregisterFilter function [Installable File System Drivers], fltkernel/FltUnregisterFilter, ifsk.fltunregisterfilter
 ms.topic: function
+f1_keywords:
+ - "fltkernel/FltUnregisterFilter"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

@@ -8,6 +8,8 @@ ms.assetid: 9BE790DB-DB7A-44A3-8A89-673CBFCF4D65
 ms.date: 04/30/2018
 ms.keywords: SPB.spbcontrollersetrequestattributes, SpbControllerSetRequestAttributes, SpbControllerSetRequestAttributes method [Buses], spbcx/SpbControllerSetRequestAttributes
 ms.topic: function
+f1_keywords:
+ - "spbcx/SpbControllerSetRequestAttributes"
 req.header: spbcx.h
 req.include-header: 
 req.target-type: Universal

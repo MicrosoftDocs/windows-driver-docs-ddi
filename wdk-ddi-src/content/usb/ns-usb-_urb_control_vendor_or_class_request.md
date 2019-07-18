@@ -8,6 +8,8 @@ ms.assetid: 3d355489-cc70-4fa1-b08f-08ccf84f5490
 ms.date: 05/07/2018
 ms.keywords: USBD_SHORT_TRANSFER_OK, USBD_TRANSFER_DIRECTION_IN, _URB_CONTROL_VENDOR_OR_CLASS_REQUEST, _URB_CONTROL_VENDOR_OR_CLASS_REQUEST structure [Buses], buses._urb_control_vendor_or_class_request, usb/_URB_CONTROL_VENDOR_OR_CLASS_REQUEST, usbstrct_d0af3922-2ab9-480d-b508-d7b3ce850f53.xml
 ms.topic: struct
+f1_keywords:
+ - "usb/_URB_CONTROL_VENDOR_OR_CLASS_REQUEST"
 req.header: usb.h
 req.include-header: Usb.h
 req.target-type: Windows

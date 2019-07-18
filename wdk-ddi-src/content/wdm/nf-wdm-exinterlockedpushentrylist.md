@@ -8,6 +8,8 @@ ms.assetid: 7a932f69-c5dd-4844-b461-b986c00a08c7
 ms.date: 04/30/2018
 ms.keywords: ExInterlockedPushEntryList, ExInterlockedPushEntryList routine [Kernel-Mode Driver Architecture], k102_dbf9c23d-8c9a-47e6-a923-cdb4d247148c.xml, kernel.exinterlockedpushentrylist, wdm/ExInterlockedPushEntryList
 ms.topic: function
+f1_keywords:
+ - "wdm/ExInterlockedPushEntryList"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

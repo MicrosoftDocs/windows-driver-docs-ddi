@@ -8,6 +8,8 @@ ms.assetid: 272165BE-3DF2-410C-B60A-31B48A3F3231
 ms.date: 02/26/2018
 ms.keywords: WdfInterruptTryToAcquireLock, WdfInterruptTryToAcquireLock method, kmdf.wdfinterrupttrytoacquirelock, wdf.wdfinterrupttrytoacquirelock, wdfinterrupt/WdfInterruptTryToAcquireLock
 ms.topic: function
+f1_keywords:
+ - "wdfinterrupt/WdfInterruptTryToAcquireLock"
 req.header: wdfinterrupt.h
 req.include-header: Wdf.h
 req.target-type: Universal

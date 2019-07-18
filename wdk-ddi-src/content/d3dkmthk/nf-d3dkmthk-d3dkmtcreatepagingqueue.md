@@ -7,6 +7,8 @@ ms.assetid: B95ADBC5-35CC-486D-A5C7-0950ABF4B70A
 ms.date: 05/10/2018
 ms.keywords: D3DKMTCreatePagingQueue, D3DKMTCreatePagingQueue function [Display Devices], d3dkmthk/D3DKMTCreatePagingQueue, display.d3dkmtcreatepagingqueue
 ms.topic: function
+f1_keywords:
+ - "d3dkmthk/D3DKMTCreatePagingQueue"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal

@@ -8,6 +8,8 @@ ms.assetid: 29f69d26-6788-4c52-b6a4-ef96991ea238
 ms.date: 05/08/2018
 ms.keywords: PcForwardIrpSynchronous, PcForwardIrpSynchronous function [Audio Devices], audio.pcforwardirpsynchronous, audpc-routines_9ecb1bfa-c318-424c-8f65-3777136c5f65.xml, portcls/PcForwardIrpSynchronous
 ms.topic: function
+f1_keywords:
+ - "portcls/PcForwardIrpSynchronous"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal

@@ -5,6 +5,8 @@ description: Callback functions used to begin and end a Render Pass.
 ms.assetid: a0a7aa9d-633c-45e7-921e-2805ce8fb7d9
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_RENDER_PASS_FUNCS_0043"
 ms.keywords: D3D12DDI_RENDER_PASS_FUNCS_0043, D3D12DDI_RENDER_PASS_FUNCS_0043, 
 req.header: d3d12umddi.h
 req.include-header:

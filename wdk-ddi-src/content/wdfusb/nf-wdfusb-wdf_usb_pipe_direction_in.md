@@ -8,6 +8,8 @@ ms.assetid: 3fca6d50-ac38-4edf-b24a-ea4fe5d8a4fd
 ms.date: 02/26/2018
 ms.keywords: DFUsbRef_e0e1b604-8973-4901-91ea-76fce4e69b7c.xml, WDF_USB_PIPE_DIRECTION_IN, WDF_USB_PIPE_DIRECTION_IN function, kmdf.wdf_usb_pipe_direction_in, wdf.wdf_usb_pipe_direction_in, wdfusb/WDF_USB_PIPE_DIRECTION_IN
 ms.topic: function
+f1_keywords:
+ - "wdfusb/WDF_USB_PIPE_DIRECTION_IN"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal

@@ -8,6 +8,8 @@ ms.assetid: b656882a-1cc7-45e8-bda4-c1450b599b4b
 ms.date: 03/29/2018
 ms.keywords: StorPortPauseDevice, StorPortPauseDevice routine [Storage Devices], storage.storportpausedevice, storport/StorPortPauseDevice, storprt_5506e943-789f-49d7-a9bc-c837fcd1bba2.xml
 ms.topic: function
+f1_keywords:
+ - "storport/StorPortPauseDevice"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

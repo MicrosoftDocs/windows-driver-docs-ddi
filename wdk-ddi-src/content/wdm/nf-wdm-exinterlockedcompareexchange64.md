@@ -8,6 +8,8 @@ ms.assetid: 7d13ca70-e05a-49e0-8dd8-5ab47b4d8169
 ms.date: 04/30/2018
 ms.keywords: ExInterlockedCompareExchange64, ExInterlockedCompareExchange64 routine [Kernel-Mode Driver Architecture], k102_424c24f9-3965-40fd-b02b-f9bf1f7df4ec.xml, kernel.exinterlockedcompareexchange64, wdm/ExInterlockedCompareExchange64
 ms.topic: macro
+f1_keywords:
+ - "wdm/ExInterlockedCompareExchange64"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

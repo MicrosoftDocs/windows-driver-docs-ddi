@@ -5,6 +5,8 @@ description: Used to create a swap chain.
 ms.assetid: 998e0e16-2680-4073-88a0-81d326d482a8
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/_D3DKMT_CREATESWAPCHAIN"
 ms.keywords: _D3DKMT_CREATESWAPCHAIN, D3DKMT_CREATESWAPCHAIN,
 req.header: d3dkmthk.h
 req.include-header:

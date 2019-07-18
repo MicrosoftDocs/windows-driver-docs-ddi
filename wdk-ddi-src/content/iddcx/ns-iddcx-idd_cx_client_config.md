@@ -8,6 +8,8 @@ ms.assetid: 8e286cb2-87f4-483b-bc55-f174e7de5989
 ms.date: 05/10/2018
 ms.keywords: IDD_CX_CLIENT_CONFIG, IDD_CX_CLIENT_CONFIG structure [Display Devices], display.idd_cx_client_config, iddcx/IDD_CX_CLIENT_CONFIG
 ms.topic: struct
+f1_keywords:
+ - "iddcx/IDD_CX_CLIENT_CONFIG"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows

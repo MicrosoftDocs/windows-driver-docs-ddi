@@ -5,6 +5,8 @@ description: Instructs the GPU scheduler to re-submit contexts that were not inv
 ms.assetid: 9dfb8a10-6ee2-4263-ba0c-b246736973bb
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmddi/DXGKDDI_RESUMEHWENGINE"
 req.header: d3dkmddi.h
 req.include-header:
 req.target-type:

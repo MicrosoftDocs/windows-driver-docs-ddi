@@ -8,6 +8,8 @@ ms.assetid: c5309ddf-acfa-4b8b-bd93-3b90c4ec5e6f
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
+f1_keywords:
+ - "ntddk/WHEAP_GENERIC_ERR_MEM_MAP_EVENT"
 ms.keywords: WHEAP_GENERIC_ERR_MEM_MAP_EVENT, WHEAP_GENERIC_ERR_MEM_MAP_EVENT, *PWHEAP_GENERIC_ERR_MEM_MAP_EVENT, 
 req.header: ntddk.h
 req.include-header:

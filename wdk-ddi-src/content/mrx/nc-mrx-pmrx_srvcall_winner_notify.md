@@ -8,6 +8,8 @@ ms.assetid: 6853b73e-5516-485e-ade4-54b7faf6bb1d
 ms.date: 04/16/2018
 ms.keywords: MRxSrvCallWinnerNotify, MRxSrvCallWinnerNotify routine [Installable File System Drivers], PMRX_SRVCALL_WINNER_NOTIFY, ifsk.mrxsrvcallwinnernotify, mrx/MRxSrvCallWinnerNotify, mrxref_32054fb8-84ca-407a-ab65-90feee16041d.xml
 ms.topic: callback
+f1_keywords:
+ - "mrx/MRxSrvCallWinnerNotify"
 req.header: mrx.h
 req.include-header: Mrx.h
 req.target-type: Desktop

@@ -5,6 +5,8 @@ description: Returns the op1 field for a given ARM system register encoding valu
 ms.assetid: 327521a0-8b25-4b01-a946-30b7f76d5dce
 ms.date: 09/20/2018
 ms.topic: macro
+f1_keywords:
+ - "miniport/ARM64_SYSREG_OP1"
 ms.keywords: ARM64_SYSREG_OP1
 req.header: miniport.h
 req.include-header:

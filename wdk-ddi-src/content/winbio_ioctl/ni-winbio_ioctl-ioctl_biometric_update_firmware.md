@@ -8,6 +8,8 @@ ms.assetid: 0337956a-09d0-4c9c-8f2d-ac63210431ba
 ms.date: 02/20/2018
 ms.keywords: IOCTL_BIOMETRIC_UPDATE_FIRMWARE, IOCTL_BIOMETRIC_UPDATE_FIRMWARE control, IOCTL_BIOMETRIC_UPDATE_FIRMWARE control code [Biometric Devices], biometric.ioctl_biometric_update_firmware, biometric_ref_b94fa4b7-e1db-4cac-8c06-ff490ca39fd5.xml, winbio_ioctl/IOCTL_BIOMETRIC_UPDATE_FIRMWARE
 ms.topic: ioctl
+f1_keywords:
+ - "winbio_ioctl/IOCTL_BIOMETRIC_UPDATE_FIRMWARE"
 req.header: winbio_ioctl.h
 req.include-header: 
 req.target-type: Windows

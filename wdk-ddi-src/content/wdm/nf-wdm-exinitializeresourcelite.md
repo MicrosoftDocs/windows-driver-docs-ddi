@@ -8,6 +8,8 @@ ms.assetid: be18a6e6-863d-4a0c-9bcd-a36ace0b54fe
 ms.date: 04/30/2018
 ms.keywords: ExInitializeResourceLite, ExInitializeResourceLite routine [Kernel-Mode Driver Architecture], k102_3264d595-09fb-4165-8147-4f805fb55557.xml, kernel.exinitializeresourcelite, wdm/ExInitializeResourceLite
 ms.topic: function
+f1_keywords:
+ - "wdm/ExInitializeResourceLite"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

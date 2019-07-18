@@ -5,6 +5,8 @@ description: Represents a module signature -- a definition which will match a se
 ms.assetid: 77ea2e07-153d-4477-bb8f-626d9fac797b
 ms.date: 07/13/2018
 ms.topic: interface
+f1_keywords:
+ - "dbgmodel/IDebugHostModuleSignature"
 req.header: dbgmodel.h
 req.include-header:
 req.target-type:

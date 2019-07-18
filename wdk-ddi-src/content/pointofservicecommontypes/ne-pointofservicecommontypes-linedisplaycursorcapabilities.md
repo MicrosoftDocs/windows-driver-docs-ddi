@@ -8,6 +8,8 @@ ms.assetid: 3F7AE8FE-F975-43AF-9FA0-C494E506D4B1
 ms.date: 02/23/2018
 ms.keywords: LineDisplayCursorCapabilities, LineDisplayCursorCapabilities enumeration, pointofservicecommontypes/, pointofservicecommontypes/LineDisplayCursorCapabilities, pos.linedisplaycursorcapabilities
 ms.topic: enum
+f1_keywords:
+ - "pointofservicecommontypes/LineDisplayCursorCapabilities"
 req.header: pointofservicecommontypes.h
 req.include-header: Pointofservicecommontypes.h
 req.target-type: Windows

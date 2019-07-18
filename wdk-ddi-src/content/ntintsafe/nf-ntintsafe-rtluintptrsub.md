@@ -8,6 +8,8 @@ ms.assetid: D0E23A94-515B-4225-A8AC-390CDD3BEA60
 ms.date: 04/30/2018
 ms.keywords: RtlUIntPtrSub, RtlUIntPtrSub function [Kernel-Mode Driver Architecture], kernel.rtluintptrsub, ntintsafe/RtlUIntPtrSub
 ms.topic: function
+f1_keywords:
+ - "ntintsafe/RtlUIntPtrSub"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop

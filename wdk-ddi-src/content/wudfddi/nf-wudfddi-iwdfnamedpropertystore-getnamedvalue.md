@@ -8,6 +8,8 @@ ms.assetid: 9581e3af-f7f8-4365-8bb2-daedcb7a3280
 ms.date: 02/26/2018
 ms.keywords: GetNamedValue, GetNamedValue method, GetNamedValue method,IWDFNamedPropertyStore interface, IWDFNamedPropertyStore interface,GetNamedValue method, IWDFNamedPropertyStore.GetNamedValue, IWDFNamedPropertyStore::GetNamedValue, UMDFPropertyStoreObjectRef_ba3dd45a-7045-4798-81c6-35cb1a743cc4.xml, umdf.iwdfnamedpropertystore_getnamedvalue, wdf.iwdfnamedpropertystore_getnamedvalue, wudfddi/IWDFNamedPropertyStore::GetNamedValue
 ms.topic: method
+f1_keywords:
+ - "wudfddi/IWDFNamedPropertyStore.GetNamedValue"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

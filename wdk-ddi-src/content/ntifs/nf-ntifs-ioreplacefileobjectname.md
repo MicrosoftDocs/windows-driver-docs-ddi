@@ -8,6 +8,8 @@ ms.assetid: 1550a35f-2733-4ee8-9715-d82f96eb5da7
 ms.date: 04/16/2018
 ms.keywords: IoReplaceFileObjectName, IoReplaceFileObjectName routine [Installable File System Drivers], ifsk.ioreplacefileobjectname, ioref_3e18058f-46a0-4345-9d67-2e211bbb84a8.xml, ntifs/IoReplaceFileObjectName
 ms.topic: function
+f1_keywords:
+ - "ntifs/IoReplaceFileObjectName"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

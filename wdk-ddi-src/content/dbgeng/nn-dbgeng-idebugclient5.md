@@ -8,6 +8,8 @@ ms.assetid: 4230fbc2-524a-44b1-a090-011e334629a7
 ms.date: 05/03/2018
 ms.keywords: IDebugClient5, IDebugClient5 interface [Windows Debugging], IDebugClient5 interface [Windows Debugging],described, dbgeng/IDebugClient5, debugger.idebugclient5
 ms.topic: interface
+f1_keywords:
+ - "dbgeng/IDebugClient5"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

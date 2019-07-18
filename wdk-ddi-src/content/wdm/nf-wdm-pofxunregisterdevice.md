@@ -8,6 +8,8 @@ ms.assetid: FC4B1B4D-31D8-4E63-A3A5-07A1099997A8
 ms.date: 04/30/2018
 ms.keywords: PoFxUnregisterDevice, PoFxUnregisterDevice routine [Kernel-Mode Driver Architecture], kernel.pofxunregisterdevice, wdm/PoFxUnregisterDevice
 ms.topic: function
+f1_keywords:
+ - "wdm/PoFxUnregisterDevice"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Universal

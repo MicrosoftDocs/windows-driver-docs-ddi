@@ -5,6 +5,8 @@ description: The D3D12DDI_STENCIL_OP enumeration type contains values that ident
 ms.assetid: 984415f8-a577-4344-aedb-161155f113af
 ms.date: 10/19/2018
 ms.topic: enum
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_STENCIL_OP"
 ms.keywords: D3D12DDI_STENCIL_OP, D3D12DDI_STENCIL_OP, 
 req.header: d3d12umddi.h
 req.include-header:

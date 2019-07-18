@@ -8,6 +8,8 @@ ms.assetid: D14CB726-2576-490E-B3FD-E970F8B3C87F
 ms.date: 04/30/2018
 ms.keywords: "*PPEP_QUERY_COMPONENT_PERF_STATES, PEP_QUERY_COMPONENT_PERF_STATES, PEP_QUERY_COMPONENT_PERF_STATES structure [Kernel-Mode Driver Architecture], PPEP_QUERY_COMPONENT_PERF_STATES, PPEP_QUERY_COMPONENT_PERF_STATES structure pointer [Kernel-Mode Driver Architecture], _PEP_QUERY_COMPONENT_PERF_STATES, kernel.pep_query_component_perf_states, pepfx/PEP_QUERY_COMPONENT_PERF_STATES, pepfx/PPEP_QUERY_COMPONENT_PERF_STATES"
 ms.topic: struct
+f1_keywords:
+ - "pep_x/PEP_QUERY_COMPONENT_PERF_STATES"
 req.header: pep_x.h
 req.include-header: Pep_x.h
 req.target-type: Windows

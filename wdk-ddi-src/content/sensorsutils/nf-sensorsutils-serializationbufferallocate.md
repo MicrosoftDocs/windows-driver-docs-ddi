@@ -6,6 +6,8 @@ ms.assetid: de91ea34-86fb-42fc-896f-45b2e164b81b
 ms.date: 08/08/2018
 tech.root: sensors
 ms.topic: function
+f1_keywords:
+ - "sensorsutils/SerializationBufferAllocate"
 ms.keywords: SerializationBufferAllocate
 req.header: sensorsutils.h
 req.include-header:

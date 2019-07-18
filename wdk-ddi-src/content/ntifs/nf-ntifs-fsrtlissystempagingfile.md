@@ -8,6 +8,8 @@ ms.assetid: BF92ADEA-4A9F-41E0-BE52-0794D1D827A1
 ms.date: 04/16/2018
 ms.keywords: FsRtlIsPagingFile, FsRtlIsPagingFile routine [Installable File System Drivers], FsRtlIsSystemPagingFile, ifsk.fsrtlissystempagingfile, ntifs/FsRtlIsPagingFile
 ms.topic: function
+f1_keywords:
+ - "ntifs/FsRtlIsPagingFile"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

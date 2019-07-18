@@ -8,6 +8,8 @@ ms.assetid: C04F29FF-972C-44CC-8557-28C23827ADF0
 ms.date: 04/30/2018
 ms.keywords: PsRegisterSiloMonitor, PsRegisterSiloMonitor routine [Kernel-Mode Driver Architecture], kernel.psregistersilomonitor, ntddk/PsRegisterSiloMonitor
 ms.topic: function
+f1_keywords:
+ - "ntddk/PsRegisterSiloMonitor"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows

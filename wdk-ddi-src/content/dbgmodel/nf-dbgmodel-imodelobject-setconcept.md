@@ -5,6 +5,8 @@ description: The SetConcept method will place a specified concept on the object 
 ms.assetid: 498fef63-ad2a-4021-9f48-b5441ae0d81f
 ms.date: 06/10/2019
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IModelObject.SetConcept"
 ms.keywords: IModelObject::SetConcept, SetConcept, IModelObject.SetConcept, IModelObject::SetConcept, IModelObject.SetConcept
 req.header: dbgmodel.h
 req.include-header:

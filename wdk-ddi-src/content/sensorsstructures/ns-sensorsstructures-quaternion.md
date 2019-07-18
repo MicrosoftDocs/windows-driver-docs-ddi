@@ -5,6 +5,8 @@ description: A structure that represents a 4-dimensional vector used for simple 
 ms.assetid: e4035fcd-d43e-4ee9-b9b9-9f55aebc56a5
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "sensorsstructures/QUATERNION"
 tech.root: sensors
 ms.keywords: QUATERNION, QUATERNION, *PQUATERNION, 
 req.header: sensorsstructures.h

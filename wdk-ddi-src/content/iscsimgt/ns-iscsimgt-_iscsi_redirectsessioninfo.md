@@ -8,6 +8,8 @@ ms.assetid: e3980ac7-b539-4a8f-9869-14d418ebe1e7
 ms.date: 03/29/2018
 ms.keywords: "*PISCSI_RedirectSessionInfo, ISCSI_RedirectSessionInfo, ISCSI_RedirectSessionInfo structure [Storage Devices], PISCSI_RedirectSessionInfo, PISCSI_RedirectSessionInfo structure pointer [Storage Devices], _ISCSI_RedirectSessionInfo, iscsimgt/ISCSI_RedirectSessionInfo, iscsimgt/PISCSI_RedirectSessionInfo, storage.iscsi_redirectsessioninfo, structs-iSCSI_41ab8376-0e0e-40af-8cab-1be2f63edeed.xml"
 ms.topic: struct
+f1_keywords:
+ - "iscsimgt/ISCSI_RedirectSessionInfo"
 req.header: iscsimgt.h
 req.include-header: Iscsimgt.h
 req.target-type: Windows

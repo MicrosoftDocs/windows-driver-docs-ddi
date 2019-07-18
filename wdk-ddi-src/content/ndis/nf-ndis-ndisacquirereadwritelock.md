@@ -8,6 +8,8 @@ ms.assetid: 563b4bff-36ee-4597-ae6e-7d3811592549
 ms.date: 05/02/2018
 ms.keywords: NdisAcquireReadWriteLock, NdisAcquireReadWriteLock function [Network Drivers Starting with Windows Vista], ndis/NdisAcquireReadWriteLock, ndis_read_write_lock_ref_6a27c811-da37-410d-8ca6-d982832b1d09.xml, netvista.ndisacquirereadwritelock
 ms.topic: function
+f1_keywords:
+ - "ndis/NdisAcquireReadWriteLock"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

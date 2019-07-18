@@ -5,6 +5,8 @@ description:
 ms.assetid: 4194e064-6ec9-402f-be13-7e6996cb917a
 ms.date: 10/05/2018
 ms.topic: ioctl
+f1_keywords:
+ - "sidebandaudio/IOCTL_SBAUD_GET_STREAM_STATUS_UPDATE"
 req.header: sidebandaudio.h
 req.include-header:
 req.target-type:

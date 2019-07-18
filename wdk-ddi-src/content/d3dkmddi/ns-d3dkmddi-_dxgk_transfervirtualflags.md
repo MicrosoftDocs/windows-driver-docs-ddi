@@ -7,6 +7,8 @@ ms.assetid: E5323A30-5BBE-4084-9F99-91FBDD680C12
 ms.date: 05/10/2018
 ms.keywords: DXGK_TRANSFERVIRTUALFLAGS, DXGK_TRANSFERVIRTUALFLAGS structure [Display Devices], _DXGK_TRANSFERVIRTUALFLAGS, d3dkmddi/DXGK_TRANSFERVIRTUALFLAGS, display.dxgk_transfervirtualflags
 ms.topic: struct
+f1_keywords:
+ - "d3dkmddi/DXGK_TRANSFERVIRTUALFLAGS"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: 14dcff4a-3295-435b-a1b2-f3aa15117673
 ms.date: 05/10/2018
 ms.keywords: D3DDDIARG_CREATELIGHT, D3DDDIARG_CREATELIGHT structure [Display Devices], UMDisplayDriver_param_Structs_683ae423-2e77-49e2-8028-3980a2f1a32d.xml, _D3DDDIARG_CREATELIGHT, d3dumddi/D3DDDIARG_CREATELIGHT, display.d3dddiarg_createlight
 ms.topic: struct
+f1_keywords:
+ - "d3dumddi/D3DDDIARG_CREATELIGHT"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

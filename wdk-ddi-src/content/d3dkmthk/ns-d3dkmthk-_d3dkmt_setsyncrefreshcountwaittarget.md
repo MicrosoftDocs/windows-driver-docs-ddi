@@ -5,6 +5,8 @@ description: Used to set sync refresh count for wait target.
 ms.assetid: 834d26e5-2c55-4716-8603-e0f7327f7937
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/_D3DKMT_SETSYNCREFRESHCOUNTWAITTARGET"
 ms.keywords: _D3DKMT_SETSYNCREFRESHCOUNTWAITTARGET, D3DKMT_SETSYNCREFRESHCOUNTWAITTARGET, 
 req.header: d3dkmthk.h
 req.include-header:

@@ -8,6 +8,8 @@ ms.assetid: 17c2c46c-ff79-4c80-82c9-c49b18426789
 ms.date: 04/23/2018
 ms.keywords: "*PBUS_INTERFACE_REFERENCE, BUS_INTERFACE_REFERENCE, BUS_INTERFACE_REFERENCE structure [Streaming Media Devices], PBUS_INTERFACE_REFERENCE, PBUS_INTERFACE_REFERENCE structure pointer [Streaming Media Devices], ks-struct_815b7147-1ae1-48d2-bae3-3efce2613b53.xml, ks/BUS_INTERFACE_REFERENCE, ks/PBUS_INTERFACE_REFERENCE, stream.bus_interface_reference"
 ms.topic: struct
+f1_keywords:
+ - "ks/BUS_INTERFACE_REFERENCE"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows

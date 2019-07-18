@@ -8,6 +8,8 @@ ms.assetid: F4B9A413-7FB5-4CA3-9731-A143CB0D7346
 ms.date: 04/23/2018
 ms.keywords: "*PBDA_ETHERNET_ADDRESS, BDA_ETHERNET_ADDRESS, BDA_ETHERNET_ADDRESS structure [Streaming Media Devices], PBDA_ETHERNET_ADDRESS, PBDA_ETHERNET_ADDRESS structure pointer [Streaming Media Devices], _BDA_ETHERNET_ADDRESS, bdatypes/BDA_ETHERNET_ADDRESS, bdatypes/PBDA_ETHERNET_ADDRESS, stream.bda_ethernet_address"
 ms.topic: struct
+f1_keywords:
+ - "bdatypes/BDA_ETHERNET_ADDRESS"
 req.header: bdatypes.h
 req.include-header: 
 req.target-type: Windows

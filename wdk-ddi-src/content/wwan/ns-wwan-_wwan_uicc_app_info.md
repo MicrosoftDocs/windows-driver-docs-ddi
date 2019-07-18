@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 1F3B41B3-0781-42A1-9ADD-1F1F6BBDC4E6
 ms.date: 04/08/2019
 ms.topic: struct
+f1_keywords:
+ - "wwan/_WWAN_UICC_APP_INFO"
 ms.keywords: _WWAN_UICC_APP_INFO, WWAN_UICC_APP_INFO, *PWWAN_UICC_APP_INFO, 
 req.header: wwan.h
 req.include-header:

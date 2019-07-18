@@ -8,6 +8,8 @@ ms.assetid: 71524333-dd5d-4f0b-8dd3-034ea926bc93
 ms.date: 04/30/2018
 ms.keywords: "*PMDLX, MDL, MDL structure [Kernel-Mode Driver Architecture], PMDL, _MDL, kernel.mdl, kstruct_c_2c589a9a-d775-4fa6-8a37-37212798a215.xml, wdm/MDL"
 ms.topic: struct
+f1_keywords:
+ - "wdm/MDL"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows

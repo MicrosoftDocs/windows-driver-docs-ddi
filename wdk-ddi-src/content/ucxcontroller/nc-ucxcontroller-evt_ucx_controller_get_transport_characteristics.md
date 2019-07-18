@@ -8,6 +8,8 @@ ms.assetid: 4394199C-6644-4E11-BDAF-625C2F94DEE8
 ms.date: 05/07/2018
 ms.keywords: "*PFN_UCX_CONTROLLER_GET_TRANSPORT_CHARACTERISTICS, *PFN_UCX_CONTROLLER_GET_TRANSPORT_CHARACTERISTICS callback function pointer [Buses], EVT_UCX_CONTROLLER_GET_TRANSPORT_CHARACTERISTICS, EVT_UCX_CONTROLLER_GET_TRANSPORT_CHARACTERISTICS callback, EvUcxControllerGetTransportCharacteristics, EvUcxControllerGetTransportCharacteristics callback function [Buses], buses.evt_ucx_controller_get_transport_characteristics, ucxcontroller/EvUcxControllerGetTransportCharacteristics"
 ms.topic: callback
+f1_keywords:
+ - "ucxcontroller/*PFN_UCX_CONTROLLER_GET_TRANSPORT_CHARACTERISTICS"
 req.header: ucxcontroller.h
 req.include-header: Ucxclass.h
 req.target-type: Windows

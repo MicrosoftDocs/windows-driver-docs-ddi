@@ -8,6 +8,8 @@ ms.assetid: 3e1c4469-7ae2-4ac8-8dfe-ff8c4cae3d20
 ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectFdoPdoRef_8374594a-a113-43da-a442-bd51e65ca53a.xml, WdfFdoAddStaticChild, WdfFdoAddStaticChild method, kmdf.wdffdoaddstaticchild, wdf.wdffdoaddstaticchild, wdffdo/WdfFdoAddStaticChild
 ms.topic: function
+f1_keywords:
+ - "wdffdo/WdfFdoAddStaticChild"
 req.header: wdffdo.h
 req.include-header: Wdf.h
 req.target-type: Universal

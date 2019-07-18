@@ -5,6 +5,8 @@ description: Contains decode histogram output buffer information such as decode 
 ms.assetid: 12eac5ab-18cb-4274-aa0a-1ee5fef2218f
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3d10umddi/D3DWDDM2_4DDI_VIDEO_DECODER_HISTOGRAM_RS4_0"
 ms.keywords: D3DWDDM2_4DDI_VIDEO_DECODER_HISTOGRAM_RS4_0, D3DWDDM2_4DDI_VIDEO_DECODER_HISTOGRAM_RS4_0,
 req.header: d3d10umddi.h
 req.include-header:

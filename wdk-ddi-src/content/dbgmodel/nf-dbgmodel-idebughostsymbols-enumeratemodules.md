@@ -5,6 +5,8 @@ description: The EnumerateModules method creates an enumerator which will enumer
 ms.assetid: 1eb51e30-762b-4c52-9297-52a620fd8104
 ms.date: 08/22/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDebugHostSymbols.EnumerateModules"
 ms.keywords: IDebugHostSymbols::EnumerateModules, EnumerateModules, IDebugHostSymbols.EnumerateModules, IDebugHostSymbols::EnumerateModules, IDebugHostSymbols.EnumerateModules
 req.header: dbgmodel.h
 req.include-header:

@@ -8,6 +8,8 @@ ms.assetid: 5F0729DB-C991-4745-9550-9D25D6836A1F
 ms.date: 05/08/2018
 ms.keywords: IAdapterPowerManagement3, IAdapterPowerManagement3 interface [Audio Devices], IAdapterPowerManagement3 interface [Audio Devices],described, audio.iadapterpowermanagement3, portcls/IAdapterPowerManagement3
 ms.topic: interface
+f1_keywords:
+ - "portcls/IAdapterPowerManagement3"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: 12ea119e-9d56-4a1d-a8c6-3999147dfaac
 ms.date: 05/03/2018
 ms.keywords: WdbgExts_Ref_ee59dfdc-d138-4f1b-8f5c-fb9e1d47bef2.xml, WriteControlSpace, WriteControlSpace function [Windows Debugging], debugger.writecontrolspace, wdbgexts/WriteControlSpace
 ms.topic: function
+f1_keywords:
+ - "wdbgexts/WriteControlSpace"
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop

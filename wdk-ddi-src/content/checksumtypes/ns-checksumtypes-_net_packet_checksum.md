@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 75363870-C58D-4677-A523-9728CB4A1BAC
 ms.date: 01/30/2019
 ms.topic: struct
+f1_keywords:
+ - "checksumtypes/BATTERY_INFORMATION"
 ms.keywords: _NET_PACKET_CHECKSUM, NET_PACKET_CHECKSUM, *PNET_PACKET_CHECKSUM
 req.header: checksumtypes.h
 req.include-header:

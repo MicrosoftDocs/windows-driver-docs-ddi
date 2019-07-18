@@ -8,6 +8,8 @@ ms.assetid: 8fc225af-09d4-42a0-a862-4af89addd5f8
 ms.date: 04/04/2018
 ms.keywords: Enable, Enable method [Windows Device Testing Framework], Enable method [Windows Device Testing Framework],IWDTFEnhancedDeviceTestSupportAction2 interface, IWDTFEnhancedDeviceTestSupportAction2 interface [Windows Device Testing Framework],Enable method, IWDTFEnhancedDeviceTestSupportAction2.Enable, IWDTFEnhancedDeviceTestSupportAction2::Enable, Microsoft.WDTF.IWDTFEnhancedDeviceTestSupportAction2.Enable, Microsoft::WDTF::IWDTFEnhancedDeviceTestSupportAction2::Enable, dtf.iwdtfenhanceddevicetestsupportaction2_enable, wdtfedtaction/IWDTFEnhancedDeviceTestSupportAction2::Enable
 ms.topic: method
+f1_keywords:
+ - "wdtfedtaction/IWDTFEnhancedDeviceTestSupportAction2.Enable"
 req.header: wdtfedtaction.h
 req.include-header: 
 req.target-type: Desktop

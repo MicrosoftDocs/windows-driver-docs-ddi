@@ -8,6 +8,8 @@ ms.assetid: 03352d5d-122f-4818-965d-f5cc8231d6ed
 ms.date: 05/10/2018
 ms.keywords: UMDEtwRegister, UMDEtwRegister function [Display Devices], display.umdetwregister, umdprovider/UMDEtwRegister
 ms.topic: function
+f1_keywords:
+ - "umdprovider/UMDEtwRegister"
 req.header: umdprovider.h
 req.include-header: Umdprovider.h
 req.target-type: Desktop

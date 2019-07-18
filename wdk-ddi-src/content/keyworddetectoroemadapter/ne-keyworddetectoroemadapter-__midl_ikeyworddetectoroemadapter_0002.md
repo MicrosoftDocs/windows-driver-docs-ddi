@@ -8,6 +8,8 @@ ms.assetid: 88D85EB1-11BC-42B9-B22E-5FB58F409C75
 ms.date: 05/08/2018
 ms.keywords: KEYWORDID, KEYWORDID enumeration [Audio Devices], KwInvalid, KwSelection, KwVoiceAssistant, __MIDL_IKeywordDetectorOemAdapter_0002, audio.keywordid, keyworddetectoroemadapter/ KwSelection, keyworddetectoroemadapter/ KwVoiceAssistant, keyworddetectoroemadapter/KEYWORDID, keyworddetectoroemadapter/KwInvalid
 ms.topic: enum
+f1_keywords:
+ - "keyworddetectoroemadapter/KEYWORDID"
 req.header: keyworddetectoroemadapter.h
 req.include-header: 
 req.target-type: Windows

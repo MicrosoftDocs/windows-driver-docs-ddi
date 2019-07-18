@@ -8,6 +8,8 @@ ms.assetid: c4b82596-824f-488e-96cd-17bd850494e5
 ms.date: 04/16/2018
 ms.keywords: FltApiRef_e_to_o_85856df2-46c0-457b-bc10-2e6a8d32f5bb.xml, FltEnlistInTransaction, FltEnlistInTransaction routine [Installable File System Drivers], fltkernel/FltEnlistInTransaction, ifsk.fltenlistintransaction
 ms.topic: function
+f1_keywords:
+ - "fltkernel/FltEnlistInTransaction"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

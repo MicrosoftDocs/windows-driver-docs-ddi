@@ -5,6 +5,8 @@ description: The Reset method resets the enumerator to the position it was at wh
 ms.assetid: 465eb32a-bb01-4bf6-ad62-5187ec877972
 ms.date: 08/21/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDataModelScriptTemplateEnumerator.Reset"
 ms.keywords: IDataModelScriptTemplateEnumerator::Reset, Reset, IDataModelScriptTemplateEnumerator.Reset, IDataModelScriptTemplateEnumerator::Reset, IDataModelScriptTemplateEnumerator.Reset
 req.header: dbgmodel.h
 req.include-header:

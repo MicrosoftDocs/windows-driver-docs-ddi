@@ -5,6 +5,8 @@ description: Plane-specific input flags.
 ms.assetid: 65a2952f-8cd2-4f6b-b129-7330b852e446
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/_D3DKMT_PLANE_SPECIFIC_INPUT_FLAGS"
 ms.keywords: _D3DKMT_PLANE_SPECIFIC_INPUT_FLAGS, D3DKMT_PLANE_SPECIFIC_INPUT_FLAGS, 
 req.header: d3dkmthk.h
 req.include-header:

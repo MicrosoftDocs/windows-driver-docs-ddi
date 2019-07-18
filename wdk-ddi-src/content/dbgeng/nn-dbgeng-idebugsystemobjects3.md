@@ -8,6 +8,8 @@ ms.assetid: 8924c46b-e2b5-473f-aa0c-e755cd9cbbc6
 ms.date: 05/03/2018
 ms.keywords: IDebugSystemObjects3, IDebugSystemObjects3 interface [Windows Debugging], IDebugSystemObjects3 interface [Windows Debugging],described, dbgeng/IDebugSystemObjects3, debugger.idebugsystemobjects3
 ms.topic: interface
+f1_keywords:
+ - "dbgeng/IDebugSystemObjects3"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 4a22dc5e-257b-411e-aae8-9abd92143bc5
 ms.date: 03/07/2018
 ms.topic: enum
+f1_keywords:
+ - "netreceivescaling/_NET_ADAPTER_RECEIVE_SCALING_PROTOCOL_TYPE"
 ms.keywords: _NET_ADAPTER_RECEIVE_SCALING_PROTOCOL_TYPE, NET_ADAPTER_RECEIVE_SCALING_PROTOCOL_TYPE, 
 req.header: netreceivescaling.h
 req.include-header:

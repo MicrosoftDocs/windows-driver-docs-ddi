@@ -7,6 +7,8 @@ ms.assetid: d4d42334-ae09-4900-828b-86da81b446c1
 ms.date: 04/16/2018
 ms.keywords: D3D12DDIARG_CREATE_VIDEO_DECODER_0032, D3D12DDIARG_CREATE_VIDEO_DECODER_0032 structure [Display Devices], d3d12umddi/D3D12DDIARG_CREATE_VIDEO_DECODER_0032, display.d3d12ddiarg-create-video-decoder-0032
 ms.topic: struct
+f1_keywords:
+ - "d3d12umddi/D3D12DDIARG_CREATE_VIDEO_DECODER_0032"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type: Windows

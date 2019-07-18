@@ -5,6 +5,8 @@ description: Implemented by the client driver to end a Render Pass.
 ms.assetid: ed21b9b2-3100-4d66-be48-f25567677427
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_END_RENDER_PASS"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

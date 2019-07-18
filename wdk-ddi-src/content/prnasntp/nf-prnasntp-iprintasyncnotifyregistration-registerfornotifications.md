@@ -8,6 +8,8 @@ ms.assetid: 8D34983F-7547-48FF-B61A-F78BDA9D2248
 ms.date: 04/20/2018
 ms.keywords: IPrintAsyncNotifyRegistration interface [Print Devices],RegisterForNotifications method, IPrintAsyncNotifyRegistration.RegisterForNotifications, IPrintAsyncNotifyRegistration::RegisterForNotifications, RegisterForNotifications, RegisterForNotifications method [Print Devices], RegisterForNotifications method [Print Devices],IPrintAsyncNotifyRegistration interface, print.iprintasyncnotifyregistration_registerfornotifications, prnasntp/IPrintAsyncNotifyRegistration::RegisterForNotifications
 ms.topic: method
+f1_keywords:
+ - "prnasntp/IPrintAsyncNotifyRegistration.RegisterForNotifications"
 req.header: prnasntp.h
 req.include-header: 
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: 4b7b2415-7ecb-4711-87cc-e309fac479c0
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
 ms.topic: struct
+f1_keywords:
+ - "d3d12umddi/D3D12DDIARG_OFFERRESOURCES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.keywords: D3D12DDIARG_OFFERRESOURCES, D3D12DDIARG_OFFERRESOURCES, 

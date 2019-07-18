@@ -8,6 +8,8 @@ ms.assetid: b2161b51-5758-4d83-bd9b-0d80cedfa562
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
+f1_keywords:
+ - "ntddk/MCI_STATUS_BITS_COMMON"
 ms.keywords: MCI_STATUS_BITS_COMMON, MCI_STATUS_BITS_COMMON, *PMCI_STATUS_BITS_COMMON, 
 req.header: ntddk.h
 req.include-header:

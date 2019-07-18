@@ -5,6 +5,8 @@ description: Equivalence operator for the location function.
 ms.assetid: a384b22c-b14c-4609-b981-e6162dac005f
 ms.date: 09/28/2018
 ms.topic: function
+f1_keywords:
+ - "dbgmodel/operator=="
 ms.keywords: operator==
 req.header: dbgmodel.h
 req.include-header:

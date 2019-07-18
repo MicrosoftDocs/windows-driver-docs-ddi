@@ -8,6 +8,8 @@ ms.assetid: 81687237-7b24-439f-b706-e0bf95b4de68
 ms.date: 05/02/2018
 ms.keywords: "*PWWAN_CONTEXT, PWWAN_CONTEXT, PWWAN_CONTEXT structure pointer [Network Drivers Starting with Windows Vista], WWAN_CONTEXT, WWAN_CONTEXT structure [Network Drivers Starting with Windows Vista], WwanRef_6700da85-2a7a-4712-86e8-fb40e11e42a1.xml, _WWAN_CONTEXT, netvista.wwan_context, wwan/PWWAN_CONTEXT, wwan/WWAN_CONTEXT"
 ms.topic: struct
+f1_keywords:
+ - "wwan/WWAN_CONTEXT"
 req.header: wwan.h
 req.include-header: Wwan.h
 req.target-type: Windows

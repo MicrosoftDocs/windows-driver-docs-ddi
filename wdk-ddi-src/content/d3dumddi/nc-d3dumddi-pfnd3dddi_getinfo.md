@@ -8,6 +8,8 @@ ms.assetid: dcc0519e-f919-48bc-829f-416648de0b40
 ms.date: 05/10/2018
 ms.keywords: GetInfo, GetInfo callback function [Display Devices], PFND3DDDI_GETINFO, PFND3DDDI_GETINFO callback, UserModeDisplayDriver_Functions_21bbab23-9804-468e-80fb-6618f8356ac7.xml, d3dumddi/GetInfo, display.getinfo
 ms.topic: callback
+f1_keywords:
+ - "d3dumddi/GetInfo"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop

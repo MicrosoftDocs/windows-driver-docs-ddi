@@ -8,6 +8,8 @@ ms.assetid: 540a4e5c-8d7b-4ba8-a9a6-6e13d9b85f23
 ms.date: 04/30/2018
 ms.keywords: IoGetAttachedDeviceReference, IoGetAttachedDeviceReference routine [Kernel-Mode Driver Architecture], k104_f7fa8878-306a-4de2-b418-8102754306f7.xml, kernel.iogetattacheddevicereference, wdm/IoGetAttachedDeviceReference
 ms.topic: function
+f1_keywords:
+ - "wdm/IoGetAttachedDeviceReference"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

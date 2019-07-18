@@ -5,6 +5,8 @@ description:
 ms.assetid: 3214a9b8-332a-4991-a080-01ef69ebc46b
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "trustedruntimeclx/_TR_SECURE_DEVICE_CALLBACKS_V1"
 ms.keywords: _TR_SECURE_DEVICE_CALLBACKS_V1, TR_SECURE_DEVICE_CALLBACKS_V1, *PTR_SECURE_DEVICE_CALLBACKS_V1, TR_SECURE_DEVICE_CALLBACKS, *PTR_SECURE_DEVICE_CALLBACKS
 req.header: trustedruntimeclx.h
 req.include-header:

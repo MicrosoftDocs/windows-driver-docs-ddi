@@ -8,6 +8,8 @@ ms.assetid: 2272790e-324a-4bd4-86ed-b76305a2940b
 ms.date: 04/30/2018
 ms.keywords: PowerCompletion, PowerCompletion routine [Kernel-Mode Driver Architecture], REQUEST_POWER_COMPLETE, kernel.powercompletion, wdm/PowerCompletion
 ms.topic: callback
+f1_keywords:
+ - "wdm/PowerCompletion"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop

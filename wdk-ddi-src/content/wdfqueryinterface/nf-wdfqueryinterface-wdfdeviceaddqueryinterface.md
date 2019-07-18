@@ -8,6 +8,8 @@ ms.assetid: 6e811b5e-bd2a-473b-8e5c-52bfbd9b8f7c
 ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectDriverDefIntRef_6d1dbdca-5adf-4641-91c9-7c59e2af6869.xml, WdfDeviceAddQueryInterface, WdfDeviceAddQueryInterface method, kmdf.wdfdeviceaddqueryinterface, wdf.wdfdeviceaddqueryinterface, wdfqueryinterface/WdfDeviceAddQueryInterface
 ms.topic: function
+f1_keywords:
+ - "wdfqueryinterface/WdfDeviceAddQueryInterface"
 req.header: wdfqueryinterface.h
 req.include-header: Wdf.h
 req.target-type: Universal

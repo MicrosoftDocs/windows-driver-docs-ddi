@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 44e290cf-13ea-4da5-898a-4a882eb881bf
 ms.date: 02/08/2018
 ms.topic: function
+f1_keywords:
+ - "netrequest/NetRequestGetSwitchId"
 ms.keywords: NetRequestGetSwitchId
 req.header: netrequest.h
 req.include-header: netadaptercx.h

@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: a6483202-e3e4-48d9-86fa-42f21d57206f
 ms.date: 01/30/2019
 ms.topic: struct
+f1_keywords:
+ - "lsotypes/RxLowIoGetBufferAddress"
 ms.keywords: _NET_PACKET_LARGE_SEND_SEGMENTATION, NET_PACKET_LARGE_SEND_SEGMENTATION, 
 req.header: lsotypes.h
 req.include-header: netadaptercx.h

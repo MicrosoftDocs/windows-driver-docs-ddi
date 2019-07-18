@@ -5,6 +5,8 @@ description:
 ms.assetid: c77fb1c5-d713-4d66-ae3c-27609731314c
 ms.date: 10/19/2018
 ms.topic: macro
+f1_keywords:
+ - "printoem/GET_UNIDRV_PRIVATE_DEVMODE_SIZE"
 ms.keywords: GET_UNIDRV_PRIVATE_DEVMODE_SIZE
 req.header: printoem.h
 req.include-header:

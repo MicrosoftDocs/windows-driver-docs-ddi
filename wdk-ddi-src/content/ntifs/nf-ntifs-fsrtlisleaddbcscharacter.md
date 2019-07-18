@@ -8,6 +8,8 @@ ms.assetid: 3cbae037-6205-4315-8ff7-0c67a91c4c69
 ms.date: 04/16/2018
 ms.keywords: FsRtlIsLeadDbcsCharacter, FsRtlIsLeadDbcsCharacter function [Installable File System Drivers], fsrtlref_758a5e18-3446-43c4-8cce-baecdf727f98.xml, ifsk.fsrtlisleaddbcscharacter, ntifs/FsRtlIsLeadDbcsCharacter
 ms.topic: macro
+f1_keywords:
+ - "ntifs/FsRtlIsLeadDbcsCharacter"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Desktop

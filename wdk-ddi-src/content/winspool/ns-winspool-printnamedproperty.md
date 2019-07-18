@@ -8,6 +8,8 @@ ms.assetid: F7692594-DE13-4242-926C-F2706FF95E77
 ms.date: 04/20/2018
 ms.keywords: PrintNamedProperty, PrintNamedProperty structure [Print Devices], print.printnamedproperty, winspool/PrintNamedProperty
 ms.topic: struct
+f1_keywords:
+ - "winspool/PrintNamedProperty"
 req.header: winspool.h
 req.include-header: 
 req.target-type: Windows

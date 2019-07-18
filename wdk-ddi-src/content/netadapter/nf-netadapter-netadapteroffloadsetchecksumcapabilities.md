@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 103b7d8e-b6bd-497a-9ee8-18b66e13a9ab
 ms.date: 01/18/2019
 ms.topic: function
+f1_keywords:
+ - "netadapter/NetAdapterOffloadSetChecksumCapabilities"
 ms.keywords: NetAdapterOffloadSetChecksumCapabilities
 req.header: netadapter.h
 req.include-header:

@@ -8,6 +8,8 @@ ms.assetid: 428800d4-49b5-4b33-a6d0-2167ff511fbb
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
 ms.topic: struct
+f1_keywords:
+ - "dispmprt/_DXGKARG_READVIRTUALFUNCTIONCONFIG"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.keywords: _DXGKARG_READVIRTUALFUNCTIONCONFIG, DXGKARG_READVIRTUALFUNCTIONCONFIG, *PDXGKARG_READVIRTUALFUNCTIONCONFIG, 

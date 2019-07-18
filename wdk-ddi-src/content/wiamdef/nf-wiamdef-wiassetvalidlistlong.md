@@ -8,6 +8,8 @@ ms.assetid: a8c3d2fa-7c21-4c6a-b395-af28029c9c15
 ms.date: 05/03/2018
 ms.keywords: image.wiassetvalidlistlong, wiamdef/wiasSetValidListLong, wiasFncs_0ccc4e24-3b86-426e-94c6-7c8bb19811f8.xml, wiasSetValidListLong, wiasSetValidListLong function [Imaging Devices]
 ms.topic: function
+f1_keywords:
+ - "wiamdef/wiasSetValidListLong"
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop

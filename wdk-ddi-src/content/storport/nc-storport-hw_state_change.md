@@ -8,6 +8,8 @@ ms.assetid: E7E5E26A-B477-453C-AAFC-9B3572F4FC72
 ms.date: 03/29/2018
 ms.keywords: HW_STATE_CHANGE, HwStorStateChange, HwStorStateChange routine [Storage Devices], storage.hwstorstatechange, storport/HwStorStateChange
 ms.topic: callback
+f1_keywords:
+ - "storport/HwStorStateChange"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

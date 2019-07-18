@@ -5,6 +5,8 @@ description: The GetIntrinsicValueAs method behaves much as the GetIntrinsicValu
 ms.assetid: 5fa25457-b1fc-4f9c-b576-48c087aacff7
 ms.date: 08/09/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IModelObject.GetIntrinsicValueAs"
 ms.keywords: IModelObject::GetIntrinsicValueAs, GetIntrinsicValueAs, IModelObject.GetIntrinsicValueAs, IModelObject::GetIntrinsicValueAs, IModelObject.GetIntrinsicValueAs
 req.header: dbgmodel.h
 req.include-header:

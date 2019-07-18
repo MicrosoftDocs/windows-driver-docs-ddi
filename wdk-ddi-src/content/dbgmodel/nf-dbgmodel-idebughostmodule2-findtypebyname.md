@@ -5,6 +5,8 @@ description: The FindTypeByName method finds a type defined within the module by
 ms.assetid: 4916e8cc-aeb9-4bb0-a849-a099004bfe5d
 ms.date: 09/18/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDebugHostModule2.FindTypeByName"
 ms.keywords: IDebugHostModule2::FindTypeByName, FindTypeByName, IDebugHostModule2.FindTypeByName, IDebugHostModule2::FindTypeByName, IDebugHostModule2.FindTypeByName
 req.header: dbgmodel.h
 req.include-header:

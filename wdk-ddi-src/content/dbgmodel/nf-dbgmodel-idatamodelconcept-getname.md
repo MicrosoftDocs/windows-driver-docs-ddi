@@ -5,6 +5,8 @@ description: If a given data model is registered under a default name via the Re
 ms.assetid: 963ade84-243f-419e-979e-6f8aed2ff596
 ms.date: 09/21/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDataModelConcept.GetName"
 ms.keywords: IDataModelConcept::GetName, GetName, IDataModelConcept.GetName, IDataModelConcept::GetName, IDataModelConcept.GetName
 req.header: dbgmodel.h
 req.include-header:

@@ -8,6 +8,8 @@ ms.assetid: 29b26400-9b27-4bff-9c7e-d612d250da30
 ms.date: 05/10/2018
 ms.keywords: "*LPDXVA_PicResample, DXVA_PicResample, DXVA_PicResample structure [Display Devices], LPDXVA_PicResample, LPDXVA_PicResample structure pointer [Display Devices], _DXVA_PicResample, display.dxva_picresample, dxva/DXVA_PicResample, dxva/LPDXVA_PicResample, dxvaref_523256d7-10ef-4750-a065-bd4bb02c1fbe.xml"
 ms.topic: struct
+f1_keywords:
+ - "dxva/DXVA_PicResample"
 req.header: dxva.h
 req.include-header: Dxva.h
 req.target-type: Windows

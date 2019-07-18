@@ -8,6 +8,8 @@ ms.assetid: 713cd675-56a8-42d8-ac75-4af227c55dec
 ms.date: 05/10/2018
 ms.keywords: IDARG_OUT_MONITORCREATE, IDARG_OUT_MONITORCREATE structure [Display Devices], display.idarg_out_monitorcreate, iddcx/IDARG_OUT_MONITORCREATE
 ms.topic: struct
+f1_keywords:
+ - "iddcx/IDARG_OUT_MONITORCREATE"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows

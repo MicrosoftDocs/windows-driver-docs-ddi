@@ -7,6 +7,8 @@ ms.assetid: 83cd5f34-5f12-4ead-ad33-366fc3c6e804
 ms.date: 05/10/2018
 ms.keywords: GetCaps, GetCaps callback function [Display Devices], PFND3D10_2DDI_GETCAPS, PFND3D10_2DDI_GETCAPS callback, UserModeDisplayDriverDx11_Functions_b0f0ebe4-205d-4eb5-ad35-e91dbcb21a1c.xml, d3d10umddi/GetCaps, display.getcaps_d3d10_2_
 ms.topic: callback
+f1_keywords:
+ - "d3d10umddi/GetCaps"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

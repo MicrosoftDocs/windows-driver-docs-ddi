@@ -8,6 +8,8 @@ ms.assetid: df62bc19-81c7-4d80-88ed-5e8a8438d269
 ms.date: 05/02/2018
 ms.keywords: "*LPRILGETDMPROFILECONFIGINFOPARAMS, RILGETDMPROFILECONFIGINFOPARAMS, RILGETDMPROFILECONFIGINFOPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilgetdmprofileconfiginfoparams, ntddrilapitypes/RILGETDMPROFILECONFIGINFOPARAMS"
 ms.topic: struct
+f1_keywords:
+ - "rilapitypes/RILGETDMPROFILECONFIGINFOPARAMS"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

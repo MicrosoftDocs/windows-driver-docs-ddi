@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 4c72d349-dc74-42b5-ae97-2e68f18285fa
 ms.date: 04/13/2018
 ms.topic: macro
+f1_keywords:
+ - "ndis/NET_BUFFER_LIST_SET_HASH_VALUE"
 ms.keywords: NET_BUFFER_LIST_SET_HASH_VALUE
 req.header: ndis.h
 req.include-header:

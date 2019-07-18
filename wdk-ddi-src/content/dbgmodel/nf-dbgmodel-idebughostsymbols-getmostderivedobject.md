@@ -5,6 +5,8 @@ description: The GetMostDerivedObject will use the type system of the debugger t
 ms.assetid: 8fb7a3ae-b941-4332-9699-87b907f33c4a
 ms.date: 08/22/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDebugHostSymbols.GetMostDerivedObject"
 ms.keywords: IDebugHostSymbols::GetMostDerivedObject, GetMostDerivedObject, IDebugHostSymbols.GetMostDerivedObject, IDebugHostSymbols::GetMostDerivedObject, IDebugHostSymbols.GetMostDerivedObject
 req.header: dbgmodel.h
 req.include-header:

@@ -8,6 +8,8 @@ ms.assetid: 775ab6aa-eda7-4774-8fe8-8b1838b3972f
 ms.date: 04/23/2018
 ms.keywords: PHW_PRIORITY_ROUTINE, StrMiniPriorityRoutine, StrMiniPriorityRoutine routine [Streaming Media Devices], stream.strminipriorityroutine, strmini-routines_718339c9-e072-4d3e-a9ec-a0ce2cce4f90.xml, strmini/StrMiniPriorityRoutine
 ms.topic: callback
+f1_keywords:
+ - "strmini/StrMiniPriorityRoutine"
 req.header: strmini.h
 req.include-header: Strmini.h
 req.target-type: Desktop

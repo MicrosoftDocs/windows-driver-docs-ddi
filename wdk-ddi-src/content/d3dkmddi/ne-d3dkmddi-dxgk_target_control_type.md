@@ -8,6 +8,8 @@ ms.assetid: f7d630aa-7a49-4a0d-9fe9-94a0659c287e
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
 ms.topic: enum
+f1_keywords:
+ - "d3dkmddi/DXGK_TARGET_CONTROL_TYPE"
 ms.keywords: DXGK_TARGET_CONTROL_TYPE, DXGK_TARGET_CONTROL_TYPE, 
 req.header: d3dkmddi.h
 req.include-header:

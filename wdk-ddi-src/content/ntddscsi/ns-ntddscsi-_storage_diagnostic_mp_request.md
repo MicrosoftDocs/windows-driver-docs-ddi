@@ -8,6 +8,8 @@ ms.assetid: 1F2B15A6-7C05-4FBA-B54F-EEF013FF5739
 ms.date: 03/29/2018
 ms.keywords: "*PSTORAGE_DIAGNOSTIC_MP_REQUEST, PSTORAGE_DIAGNOSTIC_MP_REQUEST, PSTORAGE_DIAGNOSTIC_MP_REQUEST structure pointer [Storage Devices], STORAGE_DIAGNOSTIC_MP_REQUEST, STORAGE_DIAGNOSTIC_MP_REQUEST structure [Storage Devices], _STORAGE_DIAGNOSTIC_MP_REQUEST, ntddscsi/PSTORAGE_DIAGNOSTIC_MP_REQUEST, ntddscsi/STORAGE_DIAGNOSTIC_MP_REQUEST, storage.storage_diagnostic_mp_request"
 ms.topic: struct
+f1_keywords:
+ - "ntddscsi/STORAGE_DIAGNOSTIC_MP_REQUEST"
 req.header: ntddscsi.h
 req.include-header: 
 req.target-type: Windows

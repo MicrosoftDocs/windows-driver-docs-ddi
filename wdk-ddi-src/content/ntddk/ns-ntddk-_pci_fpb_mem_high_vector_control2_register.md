@@ -6,6 +6,8 @@ tech.root: pci
 ms.assetid: 435ee278-e851-4f1c-a041-a66a975eb3ac
 ms.date: 09/30/2018
 ms.topic: struct
+f1_keywords:
+ - "ntddk/_PCI_FPB_MEM_HIGH_VECTOR_CONTROL2_REGISTER"
 ms.keywords: _PCI_FPB_MEM_HIGH_VECTOR_CONTROL2_REGISTER, PCI_FPB_MEM_HIGH_VECTOR_CONTROL2_REGISTER, *PPCI_FPB_MEM_HIGH_VECTOR_CONTROL2_REGISTER, 
 req.header: ntddk.h
 req.include-header:

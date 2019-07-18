@@ -7,6 +7,8 @@ ms.assetid: 69a6d9bc-44a9-4204-988e-e11c80f67f28
 ms.date: 05/10/2018
 ms.keywords: DXGKCB_COMPLETEFSTATETRANSITION, DXGKCB_COMPLETEFSTATETRANSITION callback, DxgkCbCompleteFStateTransition, DxgkCbCompleteFStateTransition callback function [Display Devices], PDXGKCB_COMPLETEFSTATETRANSITION, d3dkmddi/DxgkCbCompleteFStateTransition, display.dxgkcbcompletefstatetransition
 ms.topic: callback
+f1_keywords:
+ - "d3dkmddi/DxgkCbCompleteFStateTransition"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Desktop

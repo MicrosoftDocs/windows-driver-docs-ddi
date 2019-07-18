@@ -8,6 +8,8 @@ ms.assetid: 27B43684-6564-41A0-9F0D-D49F88D1F14D
 ms.date: 04/30/2018
 ms.keywords: "*PPEP_PPM_QUERY_IDLE_STATES, PEP_PPM_QUERY_IDLE_STATES, PEP_PPM_QUERY_IDLE_STATES structure [Kernel-Mode Driver Architecture], PPEP_PPM_QUERY_IDLE_STATES, PPEP_PPM_QUERY_IDLE_STATES structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_QUERY_IDLE_STATES, kernel.pep_ppm_query_idle_states, pep_x/PEP_PPM_QUERY_IDLE_STATES, pep_x/PPEP_PPM_QUERY_IDLE_STATES"
 ms.topic: struct
+f1_keywords:
+ - "pep_x/PEP_PPM_QUERY_IDLE_STATES"
 req.header: pep_x.h
 req.include-header: Pepfx.h
 req.target-type: Windows

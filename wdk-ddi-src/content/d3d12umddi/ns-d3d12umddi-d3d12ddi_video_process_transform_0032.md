@@ -7,6 +7,8 @@ ms.assetid: 7c2393e6-3e1b-4b4a-b6ea-5848c38440b0
 ms.date: 04/16/2018
 ms.keywords: D3D12DDI_VIDEO_PROCESS_TRANSFORM_0032, D3D12DDI_VIDEO_PROCESS_TRANSFORM_0032 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_PROCESS_TRANSFORM_0032, display.d3d12ddi-video-process-transform-0032
 ms.topic: struct
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_VIDEO_PROCESS_TRANSFORM_0032"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: 9e5e0e37-5f01-4bc3-b660-c65c540af04e
 ms.date: 03/29/2018
 ms.keywords: FsRtlAreThereCurrentOrInProgressFileLocks, FsRtlAreThereCurrentOrInProgressFileLocks routine [Installable File System Drivers], fsrtlref_66517730-628e-4aa4-b3c0-b5c0e0fd4d7d.xml, ifsk.fsrtlaretherecurrentorinprogressfilelocks, ntifs/FsRtlAreThereCurrentOrInProgressFileLocks
 ms.topic: function
+f1_keywords:
+ - "ntifs/FsRtlAreThereCurrentOrInProgressFileLocks"
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal

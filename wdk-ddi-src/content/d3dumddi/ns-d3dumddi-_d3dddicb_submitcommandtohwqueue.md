@@ -8,6 +8,8 @@ ms.assetid: 5B650831-7AD7-4FEA-AC31-82F2B351BAD6
 ms.date: 05/10/2018
 ms.keywords: D3DDDICB_SUBMITCOMMANDTOHWQUEUE, D3DDDICB_SUBMITCOMMANDTOHWQUEUE structure [Display Devices], _D3DDDICB_SUBMITCOMMANDTOHWQUEUE, d3dumddi/D3DDDICB_SUBMITCOMMANDTOHWQUEUE, display.d3dddicb_submitcommandtohwqueue
 ms.topic: struct
+f1_keywords:
+ - "d3dumddi/D3DDDICB_SUBMITCOMMANDTOHWQUEUE"
 req.header: d3dumddi.h
 req.include-header:
 req.target-type: Windows

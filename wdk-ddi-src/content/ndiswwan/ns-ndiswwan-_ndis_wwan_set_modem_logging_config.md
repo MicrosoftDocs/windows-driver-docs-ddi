@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 60555A58-2C1A-41FB-AE2C-E279C9BEC3CC
 ms.date: 04/11/2019
 ms.topic: struct
+f1_keywords:
+ - "ndiswwan/_NDIS_WWAN_SET_MODEM_LOGGING_CONFIG"
 ms.keywords: _NDIS_WWAN_SET_MODEM_LOGGING_CONFIG, NDIS_WWAN_SET_MODEM_LOGGING_CONFIG, *PNDIS_WWAN_SET_MODEM_LOGGING_CONFIG, 
 req.header: ndiswwan.h
 req.include-header:

@@ -7,6 +7,8 @@ ms.assetid: F3E8FB7A-A25B-47CE-8B14-9AE8737930D4
 ms.date: 05/10/2018
 ms.keywords: PFND3D12DDI_CREATEVIDEODECODER_0032, PFND3D12DDI_CREATEVIDEODECODER_0032 callback, PFND3D12DDI_CREATEVIDEODECODER_0032 callback function [Display Devices], d3d12umddi/PFND3D12DDI_CREATEVIDEODECODER_0032, display.pfnd3d12ddi_createvideodecoder_0032
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_CREATEVIDEODECODER_0032"
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: Windows

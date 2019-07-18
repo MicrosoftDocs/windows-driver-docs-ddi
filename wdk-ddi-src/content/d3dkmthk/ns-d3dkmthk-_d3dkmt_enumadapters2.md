@@ -5,6 +5,8 @@ description: Supplies information for enumerating all graphics adapters on the s
 ms.assetid: a8b97771-732a-4ce3-bf08-31dd1c3a4d91
 ms.date: 11/21/2018
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/_D3DKMT_ENUMADAPTERS2"
 ms.keywords: _D3DKMT_ENUMADAPTERS2, D3DKMT_ENUMADAPTERS2, 
 req.header: d3dkmthk.h
 req.include-header:

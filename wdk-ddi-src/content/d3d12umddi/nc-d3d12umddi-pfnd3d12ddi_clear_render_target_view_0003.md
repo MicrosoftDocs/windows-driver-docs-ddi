@@ -6,6 +6,8 @@ tech.root: display
 ms.assetid: 8d82a8a1-13c6-4526-816d-b95c598429b3
 ms.date: 11/28/2018
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_CLEAR_RENDER_TARGET_VIEW_0003"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 req.header: d3d12umddi.h

@@ -8,6 +8,8 @@ ms.assetid: dbea07e1-f987-45d8-91cb-bde45df0672b
 ms.date: 04/30/2018
 ms.keywords: ExInterlockedPopEntrySList, ExInterlockedPopEntrySList routine [Kernel-Mode Driver Architecture], k102_fc9dbcb7-5cb0-405c-9a65-f7d6b60d2fee.xml, kernel.exinterlockedpopentryslist, wdm/ExInterlockedPopEntrySList
 ms.topic: function
+f1_keywords:
+ - "wdm/ExInterlockedPopEntrySList"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

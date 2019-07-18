@@ -8,6 +8,8 @@ ms.assetid: a73ab33b-3e8c-43d8-8547-1483bcd2af52
 ms.date: 04/30/2018
 ms.keywords: RtlValidateCorrelationVector, RtlValidateCorrelationVector function [Kernel-Mode Driver Architecture], kernel.rtlvalidatecorrelationvector, ntddk/RtlValidateCorrelationVector
 ms.topic: function
+f1_keywords:
+ - "ntddk/RtlValidateCorrelationVector"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: 7655b6a1-2ed4-4e57-b8b5-e7b8ff2dd1e5
 ms.date: 03/29/2018
 ms.keywords: StorPortWritePortUshort, StorPortWritePortUshort routine [Storage Devices], storage.storportwriteportushort, storport/StorPortWritePortUshort, storprt_7e675f67-f027-48e7-a41b-b672b0f81d20.xml
 ms.topic: macro
+f1_keywords:
+ - "storport/StorPortWritePortUshort"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

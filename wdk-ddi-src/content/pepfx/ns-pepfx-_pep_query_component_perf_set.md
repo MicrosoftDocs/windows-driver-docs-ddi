@@ -8,6 +8,8 @@ ms.assetid: F870E56B-5D80-4E9C-A06E-D21A9BFA1ED8
 ms.date: 04/30/2018
 ms.keywords: "*PPEP_QUERY_COMPONENT_PERF_SET, PEP_QUERY_COMPONENT_PERF_SET, PEP_QUERY_COMPONENT_PERF_SET structure [Kernel-Mode Driver Architecture], PPEP_QUERY_COMPONENT_PERF_SET, PPEP_QUERY_COMPONENT_PERF_SET structure pointer [Kernel-Mode Driver Architecture], _PEP_QUERY_COMPONENT_PERF_SET, kernel.pep_query_component_perf_set, pepfx/PEP_QUERY_COMPONENT_PERF_SET, pepfx/PPEP_QUERY_COMPONENT_PERF_SET"
 ms.topic: struct
+f1_keywords:
+ - "pepfx/PEP_QUERY_COMPONENT_PERF_SET"
 req.header: pepfx.h
 req.include-header: Pep_x.h
 req.target-type: Windows

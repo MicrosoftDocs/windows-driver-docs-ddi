@@ -8,6 +8,8 @@ ms.assetid: 1946245d-d661-41c9-8f5a-37534bf71890
 ms.date: 03/29/2018
 ms.keywords: "*PAddPort_OUT, AddPort_OUT, AddPort_OUT structure [Storage Devices], PAddPort_OUT, PAddPort_OUT structure pointer [Storage Devices], _AddPort_OUT, hbapiwmi/AddPort_OUT, hbapiwmi/PAddPort_OUT, storage.addport_out, structs-Fibre_2a5eecfb-36b6-4358-98d0-0c119b7697f0.xml"
 ms.topic: struct
+f1_keywords:
+ - "hbapiwmi/AddPort_OUT"
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h
 req.target-type: Windows

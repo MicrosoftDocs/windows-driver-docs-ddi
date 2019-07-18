@@ -5,6 +5,8 @@ description: The GetDefaultNameBinder method returns the data model's default sc
 ms.assetid: 737177da-1933-41fb-8b74-0a60a4306d2f
 ms.date: 08/20/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDataModelScriptManager.GetDefaultNameBinder"
 ms.keywords: IDataModelScriptManager::GetDefaultNameBinder, GetDefaultNameBinder, IDataModelScriptManager.GetDefaultNameBinder, IDataModelScriptManager::GetDefaultNameBinder, IDataModelScriptManager.GetDefaultNameBinder
 req.header: dbgmodel.h
 req.include-header:

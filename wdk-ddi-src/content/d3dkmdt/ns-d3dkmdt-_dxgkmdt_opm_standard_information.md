@@ -8,6 +8,8 @@ ms.assetid: 5862e6eb-acf8-4034-ad8f-d59f87c49596
 ms.date: 05/10/2018
 ms.keywords: DXGKMDT_OPM_STANDARD_INFORMATION, DXGKMDT_OPM_STANDARD_INFORMATION structure [Display Devices], DmStructs_95069fc9-f530-4764-900b-0fa6dee51656.xml, _DXGKMDT_OPM_STANDARD_INFORMATION, d3dkmdt/DXGKMDT_OPM_STANDARD_INFORMATION, display.dxgkmdt_opm_standard_information
 ms.topic: struct
+f1_keywords:
+ - "d3dkmdt/DXGKMDT_OPM_STANDARD_INFORMATION"
 req.header: d3dkmdt.h
 req.include-header: D3dkmdt.h
 req.target-type: Windows

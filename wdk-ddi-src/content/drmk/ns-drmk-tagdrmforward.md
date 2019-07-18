@@ -8,6 +8,8 @@ ms.assetid: 30e2e62a-3ae4-4efe-a6e9-6aece6bfbb46
 ms.date: 05/08/2018
 ms.keywords: "*PDRMFORWARD, DRMFORWARD, DRMFORWARD structure [Audio Devices], PDRMFORWARD, PDRMFORWARD structure pointer [Audio Devices], aud-prop_491c772b-2e17-42c1-b0cd-68d2b0384163.xml, audio.drmforward, drmk/DRMFORWARD, drmk/PDRMFORWARD, tagDRMFORWARD"
 ms.topic: struct
+f1_keywords:
+ - "drmk/DRMFORWARD"
 req.header: drmk.h
 req.include-header: Drmk.h
 req.target-type: Windows

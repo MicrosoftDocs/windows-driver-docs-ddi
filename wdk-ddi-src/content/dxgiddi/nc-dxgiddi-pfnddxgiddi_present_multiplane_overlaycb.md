@@ -8,6 +8,8 @@ ms.assetid: C6EB96AC-0D5B-4D75-9B44-B1744F6A4360
 ms.date: 05/10/2018
 ms.keywords: PFNDDXGIDDI_PRESENT_MULTIPLANE_OVERLAYCB, PFNDDXGIDDI_PRESENT_MULTIPLANE_OVERLAYCB callback, display.pfnpresentmultiplaneoverlay__dxgi_, dxgiddi/pfnPresentMultiPlaneOverlayCb, pfnPresentMultiPlaneOverlayCb, pfnPresentMultiPlaneOverlayCb callback function [Display Devices]
 ms.topic: callback
+f1_keywords:
+ - "dxgiddi/pfnPresentMultiPlaneOverlayCb"
 req.header: dxgiddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

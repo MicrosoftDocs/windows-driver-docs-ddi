@@ -8,6 +8,8 @@ ms.assetid: CE591873-FFDC-49A2-BB75-FE445338D633
 ms.date: 05/08/2018
 ms.keywords: IOCTL_BTHHFP_DEVICE_REQUEST_CONNECT, IOCTL_BTHHFP_DEVICE_REQUEST_CONNECT control, IOCTL_BTHHFP_DEVICE_REQUEST_CONNECT control code [Audio Devices], audio.ioctl_bthhfp_device_request_connect, bthhfpddi/IOCTL_BTHHFP_DEVICE_REQUEST_CONNECT
 ms.topic: ioctl
+f1_keywords:
+ - "bthhfpddi/IOCTL_BTHHFP_DEVICE_REQUEST_CONNECT"
 req.header: bthhfpddi.h
 req.include-header: 
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: a8089653-a14b-4542-bf20-b1b596b1b4ea
 ms.date: 04/23/2018
 ms.keywords: "*PKS_VIDEO_STREAM_CONFIG_CAPS, KS_VIDEO_STREAM_CONFIG_CAPS, KS_VIDEO_STREAM_CONFIG_CAPS structure [Streaming Media Devices], PKS_VIDEO_STREAM_CONFIG_CAPS, PKS_VIDEO_STREAM_CONFIG_CAPS structure pointer [Streaming Media Devices], _KS_VIDEO_STREAM_CONFIG_CAPS, ksmedia/KS_VIDEO_STREAM_CONFIG_CAPS, ksmedia/PKS_VIDEO_STREAM_CONFIG_CAPS, stream.ks_video_stream_config_caps, vidcapstruct_43cae18b-0430-4a1e-9bac-7de2e32388a6.xml"
 ms.topic: struct
+f1_keywords:
+ - "ksmedia/KS_VIDEO_STREAM_CONFIG_CAPS"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows

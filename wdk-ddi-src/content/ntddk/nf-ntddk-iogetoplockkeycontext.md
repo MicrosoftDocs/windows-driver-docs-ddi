@@ -8,6 +8,8 @@ ms.assetid: E93091A2-203B-418D-93E7-1219DED25C52
 ms.date: 04/16/2018
 ms.keywords: IoGetOplockKeyContext, IoGetOplockKeyContextEx, IoGetOplockKeyContextEx routine [Installable File System Drivers], ifsk.iogetoplockkeycontext, ntddk/IoGetOplockKeyContextEx
 ms.topic: function
+f1_keywords:
+ - "ntddk/IoGetOplockKeyContextEx"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Universal

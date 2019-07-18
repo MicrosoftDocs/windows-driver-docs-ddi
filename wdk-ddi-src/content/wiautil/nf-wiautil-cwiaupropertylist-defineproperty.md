@@ -8,6 +8,8 @@ ms.assetid: 599c97af-1285-4fb9-af0b-edcd48249692
 ms.date: 09/07/2018
 ms.keywords: CWiauPropertyList interface [Imaging Devices],DefineProperty method, CWiauPropertyList.DefineProperty, CWiauPropertyList::DefineProperty, DefineProperty, DefineProperty method [Imaging Devices], DefineProperty method [Imaging Devices],CWiauPropertyList interface, image.cwiaupropertylist_defineproperty, wiauFncs_8be9dc72-0d8c-4894-aab0-47a312d9fae7.xml, wiautil/CWiauPropertyList::DefineProperty
 ms.topic: method
+f1_keywords:
+ - "wiautil/CWiauPropertyList.DefineProperty"
 req.header: wiautil.h
 req.include-header: Wiautil.h, Wiamindr.h
 req.target-type: Desktop

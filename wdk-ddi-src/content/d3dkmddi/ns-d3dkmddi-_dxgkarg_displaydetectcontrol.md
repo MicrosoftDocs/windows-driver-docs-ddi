@@ -8,6 +8,8 @@ ms.assetid: A0B5798E-FF4D-4133-BFA9-39B37CC387F6
 ms.date: 04/16/2018
 ms.keywords: DXGKARG_DISPLAYDETECTCONTROL, DXGKARG_DISPLAYDETECTCONTROL structure [Display Devices], PDXGKARG_DISPLAYDETECTCONTROL, PDXGKARG_DISPLAYDETECTCONTROL structure pointer [Display Devices], _DXGKARG_DISPLAYDETECTCONTROL, d3dkmddi/DXGKARG_DISPLAYDETECTCONTROL, d3dkmddi/PDXGKARG_DISPLAYDETECTCONTROL, display.dxgkarg_displaydetectcontrol
 ms.topic: struct
+f1_keywords:
+ - "d3dkmddi/DXGKARG_DISPLAYDETECTCONTROL"
 req.header: d3dkmddi.h
 req.include-header:
 req.target-type: Windows

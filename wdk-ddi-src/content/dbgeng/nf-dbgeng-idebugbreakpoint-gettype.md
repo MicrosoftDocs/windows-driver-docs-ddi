@@ -8,6 +8,8 @@ ms.assetid: c6aa6560-3183-4e3a-a625-80d1c5072af5
 ms.date: 05/03/2018
 ms.keywords: ComOther_3305c400-f816-463b-a643-4495bf546460.xml, GetType, GetType method [Windows Debugging], GetType method [Windows Debugging],IDebugBreakpoint interface, GetType method [Windows Debugging],IDebugBreakpoint2 interface, IDebugBreakpoint interface [Windows Debugging],GetType method, IDebugBreakpoint.GetType, IDebugBreakpoint2 interface [Windows Debugging],GetType method, IDebugBreakpoint2::GetType, IDebugBreakpoint::GetType, dbgeng/IDebugBreakpoint2::GetType, dbgeng/IDebugBreakpoint::GetType, debugger.gettype
 ms.topic: method
+f1_keywords:
+ - "dbgeng/IDebugBreakpoint.GetType"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

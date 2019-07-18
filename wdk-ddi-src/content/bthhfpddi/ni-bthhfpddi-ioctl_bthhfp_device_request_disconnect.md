@@ -8,6 +8,8 @@ ms.assetid: BC28F8FC-5C0A-4999-89C1-FE25FD68B9FF
 ms.date: 05/08/2018
 ms.keywords: IOCTL_BTHHFP_DEVICE_REQUEST_DISCONNECT, IOCTL_BTHHFP_DEVICE_REQUEST_DISCONNECT control, IOCTL_BTHHFP_DEVICE_REQUEST_DISCONNECT control code [Audio Devices], audio.ioctl_bthhfp_device_request_disconnect, bthhfpddi/IOCTL_BTHHFP_DEVICE_REQUEST_DISCONNECT
 ms.topic: ioctl
+f1_keywords:
+ - "bthhfpddi/IOCTL_BTHHFP_DEVICE_REQUEST_DISCONNECT"
 req.header: bthhfpddi.h
 req.include-header: 
 req.target-type: Windows

@@ -5,6 +5,8 @@ description: Used to get swap chain metadata.
 ms.assetid: 172bdd24-db38-43e1-b703-0c8d01b06520
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/_D3DKMT_GETSETSWAPCHAINMETADATA"
 ms.keywords: _D3DKMT_GETSETSWAPCHAINMETADATA, D3DKMT_GETSETSWAPCHAINMETADATA, 
 req.header: d3dkmthk.h
 req.include-header:

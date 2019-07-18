@@ -8,6 +8,8 @@ ms.assetid: a3ddeec4-0414-48ed-ab3b-5df252682655
 ms.date: 05/02/2018
 ms.keywords: NdisOidRequest, NdisOidRequest function [Network Drivers Starting with Windows Vista], ndis/NdisOidRequest, ndis_request_ref_d60ed5b8-bcb7-4195-8767-618ab55f090b.xml, netvista.ndisoidrequest
 ms.topic: function
+f1_keywords:
+ - "ndis/NdisOidRequest"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Desktop

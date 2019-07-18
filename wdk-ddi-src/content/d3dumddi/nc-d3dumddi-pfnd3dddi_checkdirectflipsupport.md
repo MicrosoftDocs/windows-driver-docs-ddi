@@ -8,6 +8,8 @@ ms.assetid: BB909041-0194-4828-ACA2-E3F6B1974DBB
 ms.date: 05/10/2018
 ms.keywords: CheckDirectFlipSupport, CheckDirectFlipSupport callback function [Display Devices], PFND3DDDI_CHECKDIRECTFLIPSUPPORT, PFND3DDDI_CHECKDIRECTFLIPSUPPORT callback, d3dumddi/CheckDirectFlipSupport, display.checkdirectflipsupport
 ms.topic: callback
+f1_keywords:
+ - "d3dumddi/CheckDirectFlipSupport"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop

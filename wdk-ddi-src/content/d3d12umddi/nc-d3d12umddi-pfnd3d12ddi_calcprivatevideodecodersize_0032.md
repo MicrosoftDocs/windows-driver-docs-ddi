@@ -7,6 +7,8 @@ ms.assetid: 90F05A41-692B-4301-81F3-56035072C8A3
 ms.date: 04/16/2018
 ms.keywords: PFND3D12DDI_CALCPRIVATEVIDEODECODERSIZE_0032, PFND3D12DDI_CALCPRIVATEVIDEODECODERSIZE_0032 entry, PFND3D12DDI_CALCPRIVATEVIDEODECODERSIZE_0032 entry point [Display Devices], d3d12umddi/PFND3D12DDI_CALCPRIVATEVIDEODECODERSIZE_0032, display.pfnd3d12ddi_calcprivatevideodecodersize_0032
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_CALCPRIVATEVIDEODECODERSIZE_0032"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type: Windows

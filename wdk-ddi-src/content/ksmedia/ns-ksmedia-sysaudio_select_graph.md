@@ -8,6 +8,8 @@ ms.assetid: f114e8ef-4fb7-4fdd-9c83-d8e74c91190e
 ms.date: 04/30/2019
 ms.keywords: "*PSYSAUDIO_SELECT_GRAPH, PSYSAUDIO_SELECT_GRAPH, PSYSAUDIO_SELECT_GRAPH structure pointer [Audio Devices], SYSAUDIO_SELECT_GRAPH, SYSAUDIO_SELECT_GRAPH structure [Audio Devices], aud-prop_9dd94d88-2ed4-4908-ac6e-eb1a82ea152d.xml, audio.sysaudio_select_graph, ksmedia/PSYSAUDIO_SELECT_GRAPH, ksmedia/SYSAUDIO_SELECT_GRAPH"
 ms.topic: struct
+f1_keywords:
+ - "ksmedia/SYSAUDIO_SELECT_GRAPH"
 req.header: ksmedia.h
 req.include-header: Ksmedia.h
 req.target-type: Windows

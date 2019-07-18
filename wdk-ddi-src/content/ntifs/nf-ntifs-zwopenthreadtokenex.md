@@ -8,6 +8,8 @@ ms.assetid: def462ee-30c6-44c0-8639-f8f7d3d0b69e
 ms.date: 04/30/2018
 ms.keywords: NtOpenThreadTokenEx, ZwOpenThreadTokenEx, ZwOpenThreadTokenEx routine [Kernel-Mode Driver Architecture], k111_657ad702-595c-4422-99be-ca8ecc428bbe.xml, kernel.zwopenthreadtokenex, ntifs/NtOpenThreadTokenEx, ntifs/ZwOpenThreadTokenEx
 ms.topic: function
+f1_keywords:
+ - "ntifs/ZwOpenThreadTokenEx"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

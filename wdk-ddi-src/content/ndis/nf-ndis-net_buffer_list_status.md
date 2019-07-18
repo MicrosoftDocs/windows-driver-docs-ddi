@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: ae7575c9-785c-4766-80b9-43c31f34fdaa
 ms.date: 04/13/2018
 ms.topic: macro
+f1_keywords:
+ - "ndis/NET_BUFFER_LIST_STATUS"
 ms.keywords: NET_BUFFER_LIST_STATUS
 req.header: ndis.h
 req.include-header:

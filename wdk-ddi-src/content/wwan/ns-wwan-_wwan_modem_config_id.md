@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: e5653619-58fe-4fc7-a1d3-550a8cd6a735
 ms.date: 03/23/2018
 ms.topic: struct
+f1_keywords:
+ - "wwan/_WWAN_MODEM_CONFIG_ID"
 ms.keywords: _WWAN_MODEM_CONFIG_ID, *PWWAN_MODEM_CONFIG_ID, WWAN_MODEM_CONFIG_ID, 
 req.header: wwan.h
 req.include-header: wwan.h

@@ -8,6 +8,8 @@ ms.assetid: bde75364-387b-4f57-8942-1cf32652c02d
 ms.date: 04/27/2018
 ms.keywords: "*PSDP_TREE_ROOT_NODE, PSDP_TREE_ROOT_NODE, PSDP_TREE_ROOT_NODE structure pointer [Bluetooth Devices], SDP_TREE_ROOT_NODE, SDP_TREE_ROOT_NODE structure [Bluetooth Devices], _SDP_TREE_ROOT_NODE, bltooth.sdp_tree_root_node, bth_structs_b2bdb873-03b0-4c3a-910c-06277f6be663.xml, sdpnode/PSDP_TREE_ROOT_NODE, sdpnode/SDP_TREE_ROOT_NODE"
 ms.topic: struct
+f1_keywords:
+ - "sdpnode/SDP_TREE_ROOT_NODE"
 req.header: sdpnode.h
 req.include-header: Sdpnode.h
 req.target-type: Windows

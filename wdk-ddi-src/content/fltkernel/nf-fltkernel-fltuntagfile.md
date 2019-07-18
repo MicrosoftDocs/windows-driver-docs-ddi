@@ -8,6 +8,8 @@ ms.assetid: 728a9879-681b-4244-b931-7945a05e3d40
 ms.date: 04/16/2018
 ms.keywords: FltApiRef_p_to_z_c1e51b69-c780-46bd-b3f0-b78cdc9c3b3f.xml, FltUntagFile, FltUntagFile function [Installable File System Drivers], fltkernel/FltUntagFile, ifsk.fltuntagfile
 ms.topic: function
+f1_keywords:
+ - "fltkernel/FltUntagFile"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

@@ -5,6 +5,8 @@ description:
 ms.assetid: e841e346-7a6d-49a6-8a75-6425cc04513c
 ms.date: 10/19/2018
 ms.topic: function
+f1_keywords:
+ - "trustedruntimeclx/TrSecureDeviceHandoffServiceDeviceControl"
 ms.keywords: TrSecureDeviceHandoffServiceDeviceControl
 req.header: trustedruntimeclx.h
 req.include-header:

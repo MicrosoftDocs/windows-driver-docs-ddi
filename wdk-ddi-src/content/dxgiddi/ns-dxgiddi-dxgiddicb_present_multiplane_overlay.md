@@ -8,6 +8,8 @@ ms.assetid: 4f240d75-e7c5-4ba2-a0f0-22280aaaefd6
 ms.date: 05/10/2018
 ms.keywords: DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY, DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY structure [Display Devices], display.dxgiddicb_present_multiplane_overlay, dxgiddi/DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY
 ms.topic: struct
+f1_keywords:
+ - "dxgiddi/DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY"
 req.header: dxgiddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows

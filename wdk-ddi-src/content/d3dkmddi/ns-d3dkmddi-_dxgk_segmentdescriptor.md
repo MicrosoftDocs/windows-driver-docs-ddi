@@ -7,6 +7,8 @@ ms.assetid: d9d79c58-6ef6-4917-b499-fd5a70dc8829
 ms.date: 05/10/2018
 ms.keywords: DXGK_SEGMENTDESCRIPTOR, DXGK_SEGMENTDESCRIPTOR structure [Display Devices], DmStructs_129432bb-660c-4779-9860-dcc97f3a6ee4.xml, _DXGK_SEGMENTDESCRIPTOR, d3dkmddi/DXGK_SEGMENTDESCRIPTOR, display.dxgk_segmentdescriptor
 ms.topic: struct
+f1_keywords:
+ - "d3dkmddi/DXGK_SEGMENTDESCRIPTOR"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

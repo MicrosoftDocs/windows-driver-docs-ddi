@@ -8,6 +8,8 @@ ms.assetid: 0EA209B7-20B9-418F-AD29-83520ED27DAB
 ms.date: 04/16/2018
 ms.keywords: RtlSetThreadPlaceholderCompatibilityMode, RtlSetThreadPlaceholderCompatibilityMode routine [Installable File System Drivers], ifsk.rtlsetthreadplaceholdercompatibilitymode, ntifs/RtlSetThreadPlaceholderCompatibilityMode
 ms.topic: function
+f1_keywords:
+ - "ntifs/RtlSetThreadPlaceholderCompatibilityMode"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows

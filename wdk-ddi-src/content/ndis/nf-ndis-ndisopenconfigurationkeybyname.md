@@ -8,6 +8,8 @@ ms.assetid: 9ce7f40f-28f1-4303-9f7a-24ff1213bab1
 ms.date: 05/02/2018
 ms.keywords: NdisOpenConfigurationKeyByName, NdisOpenConfigurationKeyByName function [Network Drivers Starting with Windows Vista], ndis/NdisOpenConfigurationKeyByName, ndis_configuration_ref_b952e09a-cef5-46f7-b566-6995e8581862.xml, netvista.ndisopenconfigurationkeybyname
 ms.topic: function
+f1_keywords:
+ - "ndis/NdisOpenConfigurationKeyByName"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

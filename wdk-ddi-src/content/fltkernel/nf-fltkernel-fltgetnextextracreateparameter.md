@@ -8,6 +8,8 @@ ms.assetid: 8eae5ac8-9da5-475f-8fbb-5e118bad4e67
 ms.date: 04/16/2018
 ms.keywords: FltApiRef_e_to_o_c458316b-2dd7-4ff2-a59f-a6dfbd659f47.xml, FltGetNextExtraCreateParameter, FltGetNextExtraCreateParameter routine [Installable File System Drivers], fltkernel/FltGetNextExtraCreateParameter, ifsk.fltgetnextextracreateparameter
 ms.topic: function
+f1_keywords:
+ - "fltkernel/FltGetNextExtraCreateParameter"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

@@ -8,6 +8,8 @@ ms.assetid: 74568b4c-5693-475b-9e72-69a499c1faf7
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
 ms.topic: struct
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_INFO_0063"
 ms.keywords: D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_INFO_0063, D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_INFO_0063, 
 req.header: d3d12umddi.h
 req.include-header:

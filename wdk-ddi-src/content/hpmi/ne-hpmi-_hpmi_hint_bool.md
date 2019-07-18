@@ -8,6 +8,8 @@ ms.assetid: E056400C-A0FE-4740-945D-C529C8804DF3
 ms.date: 05/08/2018
 ms.keywords: "*PHPMI_HINT_BOOL, HPMI_HINT_BOOL, HPMI_HINT_BOOL enumeration [Power Metering and Budgeting Devices], HpmiBoolFalse, HpmiBoolMax, HpmiBoolTrue, HpmiBoolUnavailable, _HPMI_HINT_BOOL, hpmi/HPMI_HINT_BOOL, hpmi/HpmiBoolFalse, hpmi/HpmiBoolMax, hpmi/HpmiBoolTrue, hpmi/HpmiBoolUnavailable, powermeter.hpmi_hint_bool"
 ms.topic: enum
+f1_keywords:
+ - "hpmi/HPMI_HINT_BOOL"
 req.header: hpmi.h
 req.include-header: Hpmi.h
 req.target-type: Windows

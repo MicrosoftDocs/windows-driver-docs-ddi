@@ -7,6 +7,8 @@ ms.assetid: C66CD2FB-AD45-4666-ACD4-6555ED681935
 ms.date: 05/10/2018
 ms.keywords: D3DKMTDestroyAllocation2, D3DKMTDestroyAllocation2 function [Display Devices], d3dkmthk/D3DKMTDestroyAllocation2, display.d3dkmtdestroyallocation2
 ms.topic: function
+f1_keywords:
+ - "d3dkmthk/D3DKMTDestroyAllocation2"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal

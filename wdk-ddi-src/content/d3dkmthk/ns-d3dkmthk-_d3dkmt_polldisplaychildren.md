@@ -7,6 +7,8 @@ ms.assetid: 39d62c39-a892-4ccd-aea6-32d102d1891c
 ms.date: 05/10/2018
 ms.keywords: D3DKMT_POLLDISPLAYCHILDREN, D3DKMT_POLLDISPLAYCHILDREN structure [Display Devices], OpenGL_Structs_08c4958e-cea3-4912-8944-98acb726d798.xml, _D3DKMT_POLLDISPLAYCHILDREN, d3dkmthk/D3DKMT_POLLDISPLAYCHILDREN, display.d3dkmt_polldisplaychildren
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/D3DKMT_POLLDISPLAYCHILDREN"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

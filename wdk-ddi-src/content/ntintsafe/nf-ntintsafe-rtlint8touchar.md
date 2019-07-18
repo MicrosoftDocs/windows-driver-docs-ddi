@@ -8,6 +8,8 @@ ms.assetid: 3E8BF45A-D968-4C9F-8C38-65B39665496B
 ms.date: 04/30/2018
 ms.keywords: RtlInt8ToUChar, RtlInt8ToUChar function [Kernel-Mode Driver Architecture], kernel.rtlint8touchar, ntintsafe/RtlInt8ToUChar
 ms.topic: function
+f1_keywords:
+ - "ntintsafe/RtlInt8ToUChar"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop

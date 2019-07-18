@@ -8,6 +8,8 @@ ms.assetid: 128fe592-8dc1-46cf-8aa6-0f3de0896cc5
 ms.date: 04/30/2018
 ms.keywords: RtlTimeToTimeFields, RtlTimeToTimeFields routine [Kernel-Mode Driver Architecture], k109_574f7b2f-cbb5-447c-84d5-88179cbe4cb7.xml, kernel.rtltimetotimefields, wdm/RtlTimeToTimeFields
 ms.topic: function
+f1_keywords:
+ - "wdm/RtlTimeToTimeFields"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

@@ -5,6 +5,8 @@ description: Flushes the TLB for all entries which match this domain.
 ms.assetid: 00bc433e-f306-485e-bc78-cab66cab879e
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "wdm/IOMMU_FLUSH_DOMAIN"
 req.header: wdm.h
 req.include-header:
 req.target-type:

@@ -5,6 +5,8 @@ description: Arguments used by the DxgkcbPinFrameBufferForSave callback function
 ms.assetid: 7c151074-7ac1-42b2-84ae-78ae67087b44
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3dkmddi/_DXGKARGCB_PINFRAMEBUFFERFORSAVE"
 ms.keywords: _DXGKARGCB_PINFRAMEBUFFERFORSAVE, DXGKARGCB_PINFRAMEBUFFERFORSAVE, *INOUT_PDXGKARGCB_PINFRAMEBUFFERFORSAVE
 req.header: d3dkmddi.h
 req.include-header:

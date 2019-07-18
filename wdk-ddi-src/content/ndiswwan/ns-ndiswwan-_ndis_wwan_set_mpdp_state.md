@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 2bacc2a8-0117-4f3c-8865-af8d1c5529ba
 ms.date: 06/25/2018
 ms.topic: struct
+f1_keywords:
+ - "ndiswwan/_NDIS_WWAN_SET_MPDP_STATE"
 ms.keywords: _NDIS_WWAN_SET_MPDP_STATE, NDIS_WWAN_SET_MPDP_STATE, *PNDIS_WWAN_SET_MPDP_STATE, 
 req.header: ndiswwan.h
 req.include-header:

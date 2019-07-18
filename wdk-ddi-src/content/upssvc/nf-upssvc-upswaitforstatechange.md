@@ -8,6 +8,8 @@ ms.assetid: ac78dda4-6d14-441b-8e79-3245f7253875
 ms.date: 02/15/2018
 ms.keywords: UPSWaitForStateChange, UPSWaitForStateChange function [Battery Devices], UPS_fns_8921d5d9-c4d0-496f-b531-a697ac06da93.xml, battery.upswaitforstatechange, upssvc/UPSWaitForStateChange
 ms.topic: function
+f1_keywords:
+ - "upssvc/UPSWaitForStateChange"
 req.header: upssvc.h
 req.include-header: Upssvc.h
 req.target-type: Desktop

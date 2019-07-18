@@ -8,6 +8,8 @@ ms.assetid: 72B31C26-89D3-49B2-A404-E6F096D0A334
 ms.date: 02/15/2018
 ms.keywords: "*PSECURE_ELEMENT_EVENT_INFO, PSECURE_ELEMENT_EVENT_INFO, PSECURE_ELEMENT_EVENT_INFO structure pointer [Near-Field Proximity Drivers], SECURE_ELEMENT_EVENT_INFO, SECURE_ELEMENT_EVENT_INFO structure [Near-Field Proximity Drivers], _SECURE_ELEMENT_EVENT_INFO, nfcsedev/PSECURE_ELEMENT_EVENT_INFO, nfcsedev/SECURE_ELEMENT_EVENT_INFO, nfpdrivers.secure_element_event_info"
 ms.topic: struct
+f1_keywords:
+ - "nfcsedev/SECURE_ELEMENT_EVENT_INFO"
 req.header: nfcsedev.h
 req.include-header: 
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: 6AE59150-8A10-43B6-B910-AEBEDC2FD272
 ms.date: 04/23/2018
 ms.keywords: "*PKSCAMERA_EXTENDEDPROP_METADATAINFO, KSCAMERA_EXTENDEDPROP_METADATAINFO, KSCAMERA_EXTENDEDPROP_METADATAINFO structure [Streaming Media Devices], PKSCAMERA_EXTENDEDPROP_METADATAINFO, PKSCAMERA_EXTENDEDPROP_METADATAINFO structure pointer [Streaming Media Devices], ksmedia/KSCAMERA_EXTENDEDPROP_METADATAINFO, ksmedia/PKSCAMERA_EXTENDEDPROP_METADATAINFO, stream.kscamera_extendedprop_metadatainfo, tagKSCAMERA_EXTENDEDPROP_METADATAINFO"
 ms.topic: struct
+f1_keywords:
+ - "ksmedia/KSCAMERA_EXTENDEDPROP_METADATAINFO"
 req.header: ksmedia.h
 req.include-header: 
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: ce5f2833-7df6-449b-be68-ed58620fbb43
 ms.date: 02/16/2018
 ms.keywords: "*PDOT11_ERP_PHY_ATTRIBUTES, DOT11_ERP_PHY_ATTRIBUTES, DOT11_ERP_PHY_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_ca561d35-8793-4e0f-8c56-81bd58365f08.xml, PDOT11_ERP_PHY_ATTRIBUTES, PDOT11_ERP_PHY_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_erp_phy_attributes, windot11/DOT11_ERP_PHY_ATTRIBUTES, windot11/PDOT11_ERP_PHY_ATTRIBUTES"
 ms.topic: struct
+f1_keywords:
+ - "windot11/DOT11_ERP_PHY_ATTRIBUTES"
 req.header: windot11.h
 req.include-header: Ndis.h
 req.target-type: Windows

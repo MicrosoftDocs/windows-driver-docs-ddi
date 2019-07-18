@@ -7,6 +7,8 @@ ms.assetid: b83e1d1c-e940-4e7b-8a74-82aee2c54391
 ms.date: 05/10/2018
 ms.keywords: D3DKMT_WAITFORVERTICALBLANKEVENT2, D3DKMT_WAITFORVERTICALBLANKEVENT2 structure [Display Devices], _D3DKMT_WAITFORVERTICALBLANKEVENT2, d3dkmthk/D3DKMT_WAITFORVERTICALBLANKEVENT2, display.d3dkmt_waitforverticalblankevent2
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/D3DKMT_WAITFORVERTICALBLANKEVENT2"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

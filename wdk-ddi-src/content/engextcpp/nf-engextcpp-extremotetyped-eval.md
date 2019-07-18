@@ -8,6 +8,8 @@ ms.assetid: f54c7dfd-1997-4056-b20a-94438552aeca
 ms.date: 05/03/2018
 ms.keywords: EngExtCpp_Ref_84c338f5-8b46-4c8b-80f0-f1f02f3b691e.xml, Eval, Eval method [Windows Debugging], Eval method [Windows Debugging],ExtRemoteTyped interface, ExtRemoteTyped interface [Windows Debugging],Eval method, ExtRemoteTyped.Eval, ExtRemoteTyped::Eval, debugger.extremotetyped_eval
 ms.topic: method
+f1_keywords:
+ - "engextcpp/ExtRemoteTyped.Eval"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Desktop

@@ -8,6 +8,8 @@ ms.assetid: 756a01f0-7acb-4ffc-88f1-a2546b194c50
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
 ms.topic: enum
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_STAGE_0063"
 ms.keywords: D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_STAGE_0063, D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_STAGE_0063, 
 req.header: d3d12umddi.h
 req.include-header:

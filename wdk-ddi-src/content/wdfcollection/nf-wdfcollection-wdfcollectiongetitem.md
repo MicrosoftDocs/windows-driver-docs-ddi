@@ -8,6 +8,8 @@ ms.assetid: 3bb6232c-b87e-4358-ba0c-8854d641bfd8
 ms.date: 02/26/2018
 ms.keywords: DFCollectionObjectRef_8476d0ef-d5e3-4dbc-95de-bbabd04c22bc.xml, WdfCollectionGetItem, WdfCollectionGetItem method, kmdf.wdfcollectiongetitem, wdf.wdfcollectiongetitem, wdfcollection/WdfCollectionGetItem
 ms.topic: function
+f1_keywords:
+ - "wdfcollection/WdfCollectionGetItem"
 req.header: wdfcollection.h
 req.include-header: Wdf.h
 req.target-type: Universal

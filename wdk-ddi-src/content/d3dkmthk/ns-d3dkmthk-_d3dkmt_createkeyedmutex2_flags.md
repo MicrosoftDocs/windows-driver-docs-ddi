@@ -7,6 +7,8 @@ ms.assetid: 21c2d262-bf8c-48a3-9801-5c2bd73f0282
 ms.date: 05/10/2018
 ms.keywords: D3DKMT_CREATEKEYEDMUTEX2_FLAGS, D3DKMT_CREATEKEYEDMUTEX2_FLAGS structure [Display Devices], _D3DKMT_CREATEKEYEDMUTEX2_FLAGS, d3dkmthk/D3DKMT_CREATEKEYEDMUTEX2_FLAGS, display.d3dkmt_createkeyedmutex2_flags
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/D3DKMT_CREATEKEYEDMUTEX2_FLAGS"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

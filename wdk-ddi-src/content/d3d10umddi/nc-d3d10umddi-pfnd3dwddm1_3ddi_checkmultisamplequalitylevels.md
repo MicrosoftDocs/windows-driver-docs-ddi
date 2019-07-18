@@ -7,6 +7,8 @@ ms.assetid: A3AD5F2F-4FB9-407C-A436-A0B5F96002D7
 ms.date: 05/10/2018
 ms.keywords: CheckMultisampleQualityLevels, CheckMultisampleQualityLevels callback function [Display Devices], PFND3DWDDM1_3DDI_CHECKMULTISAMPLEQUALITYLEVELS, PFND3DWDDM1_3DDI_CHECKMULTISAMPLEQUALITYLEVELS callback, d3d10umddi/CheckMultisampleQualityLevels, display.checkmultisamplequalitylevels_d3d11_2_
 ms.topic: callback
+f1_keywords:
+ - "d3d10umddi/CheckMultisampleQualityLevels"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

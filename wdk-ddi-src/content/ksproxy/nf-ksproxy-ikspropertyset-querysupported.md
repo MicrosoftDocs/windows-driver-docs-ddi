@@ -8,6 +8,8 @@ ms.assetid: 8b59da4f-0beb-46e8-913d-b992fa9f694d
 ms.date: 04/23/2018
 ms.keywords: IKsPropertySet interface [Streaming Media Devices],QuerySupported method, IKsPropertySet.QuerySupported, IKsPropertySet::QuerySupported, QuerySupported, QuerySupported method [Streaming Media Devices], QuerySupported method [Streaming Media Devices],IKsPropertySet interface, ksproxy/IKsPropertySet::QuerySupported, ksproxy_d89c460f-dbd5-452e-ab26-44a88dc1fc59.xml, stream.ikspropertyset_querysupported
 ms.topic: method
+f1_keywords:
+ - "ksproxy/IKsPropertySet.QuerySupported"
 req.header: ksproxy.h
 req.include-header: Ksproxy.h, Ksproxy.h, Dsound.h, Ksproxy.h, Ksproxy.h, Dsound.h
 req.target-type: Desktop

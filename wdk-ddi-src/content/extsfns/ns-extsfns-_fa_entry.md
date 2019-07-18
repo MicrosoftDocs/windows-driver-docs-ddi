@@ -8,6 +8,8 @@ ms.assetid: 912DCC1E-2C81-4702-8E12-6331DFB298F0
 ms.date: 05/03/2018
 ms.keywords: "*PFA_ENTRY, FA_ENTRY, FA_ENTRY structure [Windows Debugging], _FA_ENTRY, debugger.fa_entry, extsfns/FA_ENTRY"
 ms.topic: struct
+f1_keywords:
+ - "extsfns/FA_ENTRY"
 req.header: extsfns.h
 req.include-header: 
 req.target-type: Windows

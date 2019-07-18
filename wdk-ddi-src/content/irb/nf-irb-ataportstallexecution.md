@@ -8,6 +8,8 @@ ms.assetid: 5dae484f-fb79-4291-bae5-dba0be7f9b97
 ms.date: 03/29/2018
 ms.keywords: AtaPortStallExecution, AtaPortStallExecution function [Storage Devices], atartns_3a78519d-4ee5-4a4a-9564-1d2bbd256300.xml, irb/AtaPortStallExecution, storage.ataportstallexecution
 ms.topic: function
+f1_keywords:
+ - "irb/AtaPortStallExecution"
 req.header: irb.h
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop

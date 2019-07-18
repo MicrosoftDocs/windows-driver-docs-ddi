@@ -8,6 +8,8 @@ ms.assetid: f61bef13-d9b5-4e6a-8657-995a1fcbf7b1
 ms.date: 02/26/2018
 ms.keywords: DFInterruptObjectRef_86b7a562-3aee-4c0b-9a68-f98a2b76588f.xml, WdfInterruptSetPolicy, WdfInterruptSetPolicy method, kmdf.wdfinterruptsetpolicy, wdf.wdfinterruptsetpolicy, wdfinterrupt/WdfInterruptSetPolicy
 ms.topic: function
+f1_keywords:
+ - "wdfinterrupt/WdfInterruptSetPolicy"
 req.header: wdfinterrupt.h
 req.include-header: Wdf.h
 req.target-type: Universal

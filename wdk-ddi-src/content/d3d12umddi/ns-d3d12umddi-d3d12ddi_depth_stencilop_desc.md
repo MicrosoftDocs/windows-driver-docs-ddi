@@ -5,6 +5,8 @@ description: Describes stencil operations that can be performed based on the res
 ms.assetid: e906c6d4-e4eb-42ad-b983-0fe3e4b8c498
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_DEPTH_STENCILOP_DESC"
 ms.keywords: D3D12DDI_DEPTH_STENCILOP_DESC, D3D12DDI_DEPTH_STENCILOP_DESC, 
 req.header: d3d12umddi.h
 req.include-header:

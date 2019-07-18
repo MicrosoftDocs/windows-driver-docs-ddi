@@ -8,6 +8,8 @@ ms.assetid: a3155544-cfb6-41a6-9d75-82618f7c7a48
 ms.date: 05/07/2018
 ms.keywords: PUSB_BUSIFFN_QUERY_CONTROLLER_TYPE, QueryControllerType, QueryControllerType callback function [Buses], USB_BUSIFFN_QUERY_CONTROLLER_TYPE, USB_BUSIFFN_QUERY_CONTROLLER_TYPE callback, buses.querycontrollertype, usbbusif/QueryControllerType
 ms.topic: callback
+f1_keywords:
+ - "usbbusif/QueryControllerType"
 req.header: usbbusif.h
 req.include-header: Usbbusif.h
 req.target-type: Desktop

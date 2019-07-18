@@ -8,6 +8,8 @@ ms.assetid: e5c31c4d-8c46-4af1-90de-0311cc90c6c0
 ms.date: 02/16/2018
 ms.keywords: "*PDOT11_BSS_LIST, DOT11_BSS_LIST, DOT11_BSS_LIST structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_9b32efe4-bc69-4e6b-9475-449a77c110da.xml, PDOT11_BSS_LIST, PDOT11_BSS_LIST structure pointer [Network Drivers Starting with Windows Vista], _DOT11_BSS_LIST, netvista.dot11_bss_list, wlclient/DOT11_BSS_LIST, wlclient/PDOT11_BSS_LIST"
 ms.topic: struct
+f1_keywords:
+ - "wlclient/DOT11_BSS_LIST"
 req.header: wlclient.h
 req.include-header: Wlclient.h
 req.target-type: Windows

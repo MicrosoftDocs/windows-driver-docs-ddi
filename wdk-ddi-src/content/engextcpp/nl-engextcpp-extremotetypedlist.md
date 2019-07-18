@@ -8,6 +8,8 @@ ms.assetid: a7b87f06-491a-4b41-a355-0f2806c0dd8a
 ms.date: 05/03/2018
 ms.keywords: EngExtCpp_Ref_5e1242e6-5704-4b87-85e1-b02a41fc4243.xml, ExtRemoteTypedList, ExtRemoteTypedList class [Windows Debugging], ExtRemoteTypedList class [Windows Debugging],described, debugger.extremotetypedlist, engextcpp/ExtRemoteTypedList
 ms.topic: class
+f1_keywords:
+ - "engextcpp/ExtRemoteTypedList"
 req.header: engextcpp.hpp
 req.include-header: Engextcpp.hpp
 req.target-type: Windows

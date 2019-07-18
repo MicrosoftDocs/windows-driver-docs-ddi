@@ -8,6 +8,8 @@ ms.assetid: 19121888-ad5c-4596-a7ec-a95fbffda685
 ms.date: 05/10/2018
 ms.keywords: DXVA2_Structs_7e8c3d70-50a3-48f7-bc5e-4280a599e43d.xml, DXVADDI_VIDEODESC, DXVADDI_VIDEODESC structure [Display Devices], _DXVADDI_VIDEODESC, d3dumddi/DXVADDI_VIDEODESC, display.dxvaddi_videodesc
 ms.topic: struct
+f1_keywords:
+ - "d3dumddi/DXVADDI_VIDEODESC"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

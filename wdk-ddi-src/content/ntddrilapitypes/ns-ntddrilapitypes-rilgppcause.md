@@ -8,6 +8,8 @@ ms.assetid: 4072183a-36b5-4a77-a1a5-95b97950b01a
 ms.date: 05/02/2018
 ms.keywords: "*LPRILGPPCAUSE, RILGPPCAUSE, RILGPPCAUSE structure [Network Drivers Starting with Windows Vista], netvista.rilgppcause, ntddrilapitypes/RILGPPCAUSE"
 ms.topic: struct
+f1_keywords:
+ - "ntddrilapitypes/RILGPPCAUSE"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

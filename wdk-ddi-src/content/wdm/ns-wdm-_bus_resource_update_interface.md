@@ -5,6 +5,8 @@ description: Enables device drivers to make direct calls to parent bus driver ro
 ms.assetid: 8089cc50-7d68-49c0-bc2a-93f55f64b2ce
 ms.date: 09/30/2018
 ms.topic: struct
+f1_keywords:
+ - "wdm/_BUS_RESOURCE_UPDATE_INTERFACE"
 ms.keywords: _BUS_RESOURCE_UPDATE_INTERFACE, BUS_RESOURCE_UPDATE_INTERFACE, *PBUS_RESOURCE_UPDATE_INTERFACE, 
 req.header: wdm.h
 req.include-header:

@@ -8,6 +8,8 @@ ms.assetid: 441cfb5c-8365-4260-b12f-285df29d54f5
 ms.author: windowsdriverdev
 ms.date: 02/25/2019 
 ms.topic: method
+f1_keywords:
+ - "eventdetectoroemadapter/IEventDetectorOemAdapter.BuildArmingPatternData"
 ms.keywords: IEventDetectorOemAdapter::BuildArmingPatternData, BuildArmingPatternData, IEventDetectorOemAdapter.BuildArmingPatternData, IEventDetectorOemAdapter::BuildArmingPatternData, IEventDetectorOemAdapter.BuildArmingPatternData
 req.header: eventdetectoroemadapter.h
 req.include-header:

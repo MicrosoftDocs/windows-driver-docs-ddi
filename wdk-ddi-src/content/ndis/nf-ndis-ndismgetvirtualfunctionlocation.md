@@ -8,6 +8,8 @@ ms.assetid: 772A7763-67C0-4218-8C5F-23972475D2C9
 ms.date: 05/02/2018
 ms.keywords: NdisMGetVirtualFunctionLocation, NdisMGetVirtualFunctionLocation function [Network Drivers Starting with Windows Vista], ndis/NdisMGetVirtualFunctionLocation, netvista.ndismgetvirtualfunctionlocation
 ms.topic: function
+f1_keywords:
+ - "ndis/NdisMGetVirtualFunctionLocation"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

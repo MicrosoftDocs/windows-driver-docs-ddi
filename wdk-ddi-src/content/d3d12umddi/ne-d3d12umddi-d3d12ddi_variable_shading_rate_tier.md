@@ -8,6 +8,8 @@ ms.assetid: 52c5d637-560d-4bf7-99f9-484adbbadfd3
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
 ms.topic: enum
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_VARIABLE_SHADING_RATE_TIER"
 ms.keywords: D3D12DDI_VARIABLE_SHADING_RATE_TIER, D3D12DDI_VARIABLE_SHADING_RATE_TIER, 
 req.header: d3d12umddi.h
 req.include-header:

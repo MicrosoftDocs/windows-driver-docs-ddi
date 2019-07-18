@@ -6,6 +6,8 @@ tech.root: audio
 ms.assetid: 012f6963-9091-4b76-88c6-040e4f5217c1
 ms.date: 10/31/2018
 ms.topic: method
+f1_keywords:
+ - "portcls/IPort.NewRegistryKey"
 ms.keywords: IPort::NewRegistryKey, NewRegistryKey, IPort.NewRegistryKey, IPort::NewRegistryKey, IPort.NewRegistryKey
 req.header: portcls.h
 req.include-header:

@@ -8,6 +8,8 @@ ms.assetid: d0e409fe-1c64-4468-b52e-b0ede39f6601
 ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_SETDISPLAYMODE, PFND3DDDI_SETDISPLAYMODE callback, SetDisplayMode, SetDisplayMode callback function [Display Devices], UserModeDisplayDriver_Functions_939f1113-54d3-4e0e-b065-24226d9948c0.xml, d3dumddi/SetDisplayMode, display.setdisplaymode
 ms.topic: callback
+f1_keywords:
+ - "d3dumddi/SetDisplayMode"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop

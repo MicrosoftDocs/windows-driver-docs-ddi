@@ -8,6 +8,8 @@ ms.assetid: 3b5a4fc3-35bd-4a8b-aaa9-c414510144f4
 ms.author: windowsdriverdev
 ms.date: 04/04/2019 
 ms.topic: function
+f1_keywords:
+ - "dispmprt/DlEnableInterrupt"
 ms.keywords: DlEnableInterrupt
 req.header: dispmprt.h
 req.include-header:

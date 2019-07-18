@@ -8,6 +8,8 @@ ms.assetid: 6F71C67C-ACA6-405A-9371-9DC72CC6DDCE
 ms.date: 02/15/2018
 ms.keywords: "*PGPIO_DISABLE_INTERRUPT_PARAMETERS, GPIO.gpio_disable_interrupt_parameters, GPIO_DISABLE_INTERRUPT_PARAMETERS, GPIO_DISABLE_INTERRUPT_PARAMETERS structure [Parallel Ports], PGPIO_DISABLE_INTERRUPT_PARAMETERS, PGPIO_DISABLE_INTERRUPT_PARAMETERS structure pointer [Parallel Ports], _GPIO_DISABLE_INTERRUPT_PARAMETERS, gpioclx/GPIO_DISABLE_INTERRUPT_PARAMETERS, gpioclx/PGPIO_DISABLE_INTERRUPT_PARAMETERS"
 ms.topic: struct
+f1_keywords:
+ - "gpioclx/GPIO_DISABLE_INTERRUPT_PARAMETERS"
 req.header: gpioclx.h
 req.include-header: 
 req.target-type: Windows

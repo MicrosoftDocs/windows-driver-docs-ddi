@@ -8,6 +8,8 @@ ms.assetid: 69a18c4a-9e28-47fb-9d2e-206d660eea6c
 ms.date: 04/30/2018
 ms.keywords: RtlHashUnicodeString, RtlHashUnicodeString routine [Kernel-Mode Driver Architecture], k109_090277b1-32f6-4c3d-b1fc-bacec35efc1d.xml, kernel.rtlhashunicodestring, wdm/RtlHashUnicodeString
 ms.topic: function
+f1_keywords:
+ - "wdm/RtlHashUnicodeString"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

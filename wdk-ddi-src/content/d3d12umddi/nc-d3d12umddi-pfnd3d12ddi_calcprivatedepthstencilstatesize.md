@@ -5,6 +5,8 @@ description: The CalcPrivateDepthStencilStateSize function determines the size o
 ms.assetid: 8c9d49d0-78bf-4b27-bcf5-5473eb641755
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_CALCPRIVATEDEPTHSTENCILSTATESIZE"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

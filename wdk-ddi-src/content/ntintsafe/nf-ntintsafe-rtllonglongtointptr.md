@@ -8,6 +8,8 @@ ms.assetid: 7BFAB50B-7C0A-40D8-AB6D-ECBBDA0387AA
 ms.date: 04/30/2018
 ms.keywords: RtlLongLongToIntPtr, RtlLongLongToIntPtr function [Kernel-Mode Driver Architecture], kernel.rtllonglongtointptr, ntintsafe/RtlLongLongToIntPtr
 ms.topic: function
+f1_keywords:
+ - "ntintsafe/RtlLongLongToIntPtr"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop

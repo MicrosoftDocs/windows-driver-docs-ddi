@@ -5,6 +5,8 @@ description: The FsRtlLookupBaseMcbEntry routine retrieves the mapping of a Vbn 
 ms.assetid: b997ada6-cfa2-4e3a-ae39-7f9a8c2b3234
 ms.date: 10/19/2018
 ms.topic: function
+f1_keywords:
+ - "ntifs/FsRtlLookupBaseMcbEntry"
 ms.keywords: FsRtlLookupBaseMcbEntry
 req.header: ntifs.h
 req.include-header:

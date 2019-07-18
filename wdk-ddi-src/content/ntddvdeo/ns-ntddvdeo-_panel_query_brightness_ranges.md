@@ -6,6 +6,8 @@ tech.root: display
 ms.assetid: fad94d26-2e52-4e4a-abfd-cf6596c2fecd
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "ntddvdeo/_PANEL_QUERY_BRIGHTNESS_RANGES"
 ms.keywords: _PANEL_QUERY_BRIGHTNESS_RANGES, PANEL_QUERY_BRIGHTNESS_RANGES, *PPANEL_QUERY_BRIGHTNESS_RANGES,
 req.header: ntddvdeo.h
 req.include-header:

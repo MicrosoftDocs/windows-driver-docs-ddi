@@ -8,6 +8,8 @@ ms.assetid: d8e90489-c847-48e7-89c4-f7a397a8de14
 ms.date: 03/29/2018
 ms.keywords: HW_MESSAGE_SIGNALED_INTERRUPT_ROUTINE, HwMSInterruptRoutine, HwMSInterruptRoutine routine [Storage Devices], storage.hwmsinterruptroutine, stormini_153bf378-505e-413b-90b2-24af3fd9d502.xml, storport/HwMSInterruptRoutine
 ms.topic: callback
+f1_keywords:
+ - "storport/HwMSInterruptRoutine"
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal

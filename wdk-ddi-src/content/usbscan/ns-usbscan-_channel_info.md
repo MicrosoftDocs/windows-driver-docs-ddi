@@ -8,6 +8,8 @@ ms.assetid: 1f1cb952-9a63-461f-b70f-4cc41b8d88f8
 ms.date: 05/03/2018
 ms.keywords: "*PCHANNEL_INFO, CHANNEL_INFO, CHANNEL_INFO structure [Imaging Devices], PCHANNEL_INFO, PCHANNEL_INFO structure pointer [Imaging Devices], _CHANNEL_INFO, image.channel_info, stifnc_f0aea91c-5d41-43e5-bb8b-139bfb7c3198.xml, usbscan/CHANNEL_INFO, usbscan/PCHANNEL_INFO"
 ms.topic: struct
+f1_keywords:
+ - "usbscan/CHANNEL_INFO"
 req.header: usbscan.h
 req.include-header: Usbscan.h
 req.target-type: Windows

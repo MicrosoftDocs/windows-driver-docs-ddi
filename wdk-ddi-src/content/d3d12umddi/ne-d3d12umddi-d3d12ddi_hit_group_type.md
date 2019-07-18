@@ -5,6 +5,8 @@ description: Specifies the type of hit group.
 ms.assetid: 034e47d9-920b-4f80-88c9-ec1b305e9e72
 ms.date: 10/19/2018
 ms.topic: enum
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_HIT_GROUP_TYPE"
 ms.keywords: D3D12DDI_HIT_GROUP_TYPE, D3D12DDI_HIT_GROUP_TYPE, 
 req.header: d3d12umddi.h
 req.include-header:

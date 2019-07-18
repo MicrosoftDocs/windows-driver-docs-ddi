@@ -8,6 +8,8 @@ ms.assetid: b0e1bbef-8116-4455-aa5c-7f47386a3700
 ms.date: 05/02/2018
 ms.keywords: MINIPORT_ENABLE_MESSAGE_INTERRUPT, MINIPORT_ENABLE_MESSAGE_INTERRUPT callback, MiniportEnableMessageInterrupt, MiniportEnableMessageInterrupt callback function [Network Drivers Starting with Windows Vista], ndis/MiniportEnableMessageInterrupt, ndis_interrupts_miniport_functions_ref_cc88ce4b-e75b-4da8-89aa-3d449451a0d3.xml, netvista.miniportenablemessageinterrupt
 ms.topic: callback
+f1_keywords:
+ - "ndis/MiniportEnableMessageInterrupt"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

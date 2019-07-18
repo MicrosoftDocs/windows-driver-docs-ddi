@@ -8,6 +8,8 @@ ms.assetid: 7db22027-49ac-4ee5-8da7-bbd16c97a35b
 ms.date: 03/29/2018
 ms.keywords: AtaPortRegistryControllerKeyRead, AtaPortRegistryControllerKeyRead routine [Storage Devices], atartns_eea8e60c-8cbd-4632-b5a4-17639f02f4d8.xml, irb/AtaPortRegistryControllerKeyRead, storage.ataportregistrycontrollerkeyread
 ms.topic: function
+f1_keywords:
+ - "irb/AtaPortRegistryControllerKeyRead"
 req.header: irb.h
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop

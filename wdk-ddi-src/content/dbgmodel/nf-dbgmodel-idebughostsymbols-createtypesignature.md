@@ -5,6 +5,8 @@ description: The CreateTypeSignature method creates a signature which can be use
 ms.assetid: ead25214-26a0-4819-81ca-e47f5644b1f2
 ms.date: 08/22/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDebugHostSymbols.CreateTypeSignature"
 ms.keywords: IDebugHostSymbols::CreateTypeSignature, CreateTypeSignature, IDebugHostSymbols.CreateTypeSignature, IDebugHostSymbols::CreateTypeSignature, IDebugHostSymbols.CreateTypeSignature
 req.header: dbgmodel.h
 req.include-header:

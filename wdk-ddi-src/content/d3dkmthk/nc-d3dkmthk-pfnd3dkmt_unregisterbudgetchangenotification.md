@@ -5,6 +5,8 @@ description: The PFND3DKMT_UNREGISTERBUDGETCHANGENOTIFICATION callback function 
 ms.assetid: 265eba32-7c02-4323-8e21-b22120960940
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/PFND3DKMT_UNREGISTERBUDGETCHANGENOTIFICATION"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

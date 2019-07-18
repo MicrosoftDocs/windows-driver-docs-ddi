@@ -8,6 +8,8 @@ ms.assetid: 2c298de6-a3d9-45c7-ab60-dc9124eed1bb
 ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_STATESET, PFND3DDDI_STATESET callback, StateSet, StateSet callback function [Display Devices], UserModeDisplayDriver_Functions_ca9843ce-a32d-4d81-844a-213b7fe6c6e0.xml, d3dumddi/StateSet, display.stateset
 ms.topic: callback
+f1_keywords:
+ - "d3dumddi/StateSet"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop

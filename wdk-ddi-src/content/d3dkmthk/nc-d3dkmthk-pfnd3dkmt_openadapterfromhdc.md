@@ -5,6 +5,8 @@ description: Pfnd3dkmtOpenadapterfromhdc maps a device context handle (HDC) to a
 ms.assetid: 656f43e8-ed2d-4f09-99c0-25d054b0c6ff
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/PFND3DKMT_OPENADAPTERFROMHDC"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

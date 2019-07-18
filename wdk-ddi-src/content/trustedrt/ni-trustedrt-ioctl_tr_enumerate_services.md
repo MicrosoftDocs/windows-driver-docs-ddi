@@ -5,6 +5,8 @@ description:
 ms.assetid: de6f27ed-7fb3-4cf1-953c-e683ffdbf475
 ms.date: 10/19/2018
 ms.topic: ioctl
+f1_keywords:
+ - "trustedrt/IOCTL_TR_ENUMERATE_SERVICES"
 req.header: trustedrt.h
 req.include-header:
 req.target-type:

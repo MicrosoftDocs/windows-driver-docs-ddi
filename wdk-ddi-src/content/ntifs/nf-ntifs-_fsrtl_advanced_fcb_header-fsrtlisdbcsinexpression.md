@@ -8,6 +8,8 @@ ms.assetid: 87292b33-4b82-4ac5-b71b-523391e5fea2
 ms.date: 04/16/2018
 ms.keywords: FsRtlIsDbcsInExpression, FsRtlIsDbcsInExpression routine [Installable File System Drivers], fsrtlref_f38a4fe0-8553-4e19-a6c9-fb83a81c6cb5.xml, ifsk.fsrtlisdbcsinexpression, ntifs/FsRtlIsDbcsInExpression
 ms.topic: function
+f1_keywords:
+ - "ntifs/FsRtlIsDbcsInExpression"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

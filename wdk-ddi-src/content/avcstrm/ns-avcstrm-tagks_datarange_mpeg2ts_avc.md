@@ -8,6 +8,8 @@ ms.assetid: 3e19439d-397c-4c22-823c-aa53c456d7b9
 ms.date: 04/23/2018
 ms.keywords: "*PKS_DATARANGE_MPEG2TS_AVC, KS_DATARANGE_MPEG2TS_AVC, KS_DATARANGE_MPEG2TS_AVC structure [Streaming Media Devices], PKS_DATARANGE_MPEG2TS_AVC, PKS_DATARANGE_MPEG2TS_AVC structure pointer [Streaming Media Devices], avcsref_604304aa-f90b-4897-a134-c05eff1240aa.xml, avcstrm/KS_DATARANGE_MPEG2TS_AVC, avcstrm/PKS_DATARANGE_MPEG2TS_AVC, stream.ks_datarange_mpeg2ts_avc, tagKS_DATARANGE_MPEG2TS_AVC"
 ms.topic: struct
+f1_keywords:
+ - "avcstrm/KS_DATARANGE_MPEG2TS_AVC"
 req.header: avcstrm.h
 req.include-header: Avcstrm.h
 req.target-type: Windows

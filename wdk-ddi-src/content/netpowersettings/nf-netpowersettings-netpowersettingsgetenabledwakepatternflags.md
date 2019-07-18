@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: a82e0bdf-45a0-4f69-bd1d-0e863a49f080
 ms.date: 02/08/2018
 ms.topic: function
+f1_keywords:
+ - "netpowersettings/NetPowerSettingsGetEnabledWakePatternFlags"
 ms.keywords: NetPowerSettingsGetEnabledWakePatternFlags
 req.header: netpowersettings.h
 req.include-header: netadaptercx.h

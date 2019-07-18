@@ -5,6 +5,8 @@ description: The user mode emulation DLL calls this IOCTL to exchange informatio
 ms.assetid: 02ba7385-fda9-45a9-820d-311fc35258dc
 ms.date: 10/19/2018
 ms.topic: ioctl
+f1_keywords:
+ - "d3dukmdt/IOCTL_GPUP_DRIVER_ESCAPE"
 req.header: d3dukmdt.h
 req.include-header:
 req.target-type:

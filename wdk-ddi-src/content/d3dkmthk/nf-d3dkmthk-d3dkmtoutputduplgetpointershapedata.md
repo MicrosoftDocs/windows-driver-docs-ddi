@@ -5,6 +5,8 @@ description: Gets output duplicate pointer shape data.
 ms.assetid: f08b5da5-329d-462b-a0bd-d3fbfff31472
 ms.date: 10/19/2018
 ms.topic: function
+f1_keywords:
+ - "d3dkmthk/D3DKMTOutputDuplGetPointerShapeData"
 ms.keywords: D3DKMTOutputDuplGetPointerShapeData
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h

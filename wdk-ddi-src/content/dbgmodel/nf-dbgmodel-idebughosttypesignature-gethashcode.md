@@ -5,6 +5,8 @@ description: The GetHashCode method returns a 32-bit hash code for the type sign
 ms.assetid: ba7abda8-02c8-4487-b192-3e674679a278
 ms.date: 09/10/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDebugHostTypeSignature.GetHashCode"
 ms.keywords: IDebugHostTypeSignature::GetHashCode, GetHashCode, IDebugHostTypeSignature.GetHashCode, IDebugHostTypeSignature::GetHashCode, IDebugHostTypeSignature.GetHashCode
 req.header: dbgmodel.h
 req.include-header:

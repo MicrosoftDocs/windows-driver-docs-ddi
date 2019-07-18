@@ -5,6 +5,8 @@ description: The GetKeyValue method is the first method a client will turn to in
 ms.assetid: 83daa8ab-3d90-4003-8ce9-7fe10acf2859
 ms.date: 08/09/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IModelObject.GetKeyValue"
 ms.keywords: IModelObject::GetKeyValue, GetKeyValue, IModelObject.GetKeyValue, IModelObject::GetKeyValue, IModelObject.GetKeyValue
 req.header: dbgmodel.h
 req.include-header:

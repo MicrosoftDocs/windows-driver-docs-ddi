@@ -5,6 +5,8 @@ description: The GetName method returns the display name (that is the function n
 ms.assetid: 2c19c90f-fdd4-4653-a9be-42b77e004fc7
 ms.date: 09/10/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDataModelScriptDebugStackFrame.GetName"
 ms.keywords: IDataModelScriptDebugStackFrame::GetName, GetName, IDataModelScriptDebugStackFrame.GetName, IDataModelScriptDebugStackFrame::GetName, IDataModelScriptDebugStackFrame.GetName
 req.header: dbgmodel.h
 req.include-header:

@@ -8,6 +8,8 @@ ms.assetid: 2B010641-4CFA-40B6-AB77-BE9F85347134
 ms.date: 05/02/2018
 ms.keywords: NDIS_PD_CONFIG, NDIS_PD_CONFIG structure [Network Drivers Starting with Windows Vista], _NDIS_PD_CONFIG, netvista.ndis_pd_config, ntddndis/NDIS_PD_CONFIG
 ms.topic: struct
+f1_keywords:
+ - "ntddndis/NDIS_PD_CONFIG"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: 8ca0d683-318b-465c-95a7-dc2b5e29c9e7
 ms.date: 04/16/2018
 ms.keywords: CcGetDirtyPages, CcGetDirtyPages routine [Installable File System Drivers], ccref_cbefaf71-3c21-445f-ac63-d96bbb47ec16.xml, ifsk.ccgetdirtypages, ntifs/CcGetDirtyPages
 ms.topic: function
+f1_keywords:
+ - "ntifs/CcGetDirtyPages"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

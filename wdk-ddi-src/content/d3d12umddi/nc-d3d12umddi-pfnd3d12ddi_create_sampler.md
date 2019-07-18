@@ -5,6 +5,8 @@ description: Create sampler.
 ms.assetid: b15f237f-2ef3-4b88-88cb-4a2f3c9e6fc9
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_CREATE_SAMPLER"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

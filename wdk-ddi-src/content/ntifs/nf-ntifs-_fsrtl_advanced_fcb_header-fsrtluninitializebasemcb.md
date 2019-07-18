@@ -5,6 +5,8 @@ description: The FsRtlUninitializeBaseMcb function uninitializes a map control b
 ms.assetid: 3c20cc02-add4-4ebb-92bf-1a50e6646439
 ms.date: 10/19/2018
 ms.topic: function
+f1_keywords:
+ - "ntifs/FsRtlUninitializeBaseMcb"
 ms.keywords: FsRtlUninitializeBaseMcb
 req.header: ntifs.h
 req.include-header:

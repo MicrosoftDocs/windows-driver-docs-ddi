@@ -5,6 +5,8 @@ description: The PFND3DKMT_RELEASEPROCESSVIDPNSOURCEOWNERS callback function rel
 ms.assetid: e4a406fc-dd63-4fb9-a783-96fa483c92af
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/PFND3DKMT_RELEASEPROCESSVIDPNSOURCEOWNERS"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

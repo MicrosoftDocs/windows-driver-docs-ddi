@@ -8,6 +8,8 @@ ms.assetid: 4d1a65af-a475-4360-9db3-d5b9e302697d
 ms.date: 04/30/2018
 ms.keywords: RtlRunOnceInitialize, RtlRunOnceInitialize routine [Kernel-Mode Driver Architecture], k109_7d98d21e-b6f2-4ccd-b447-0c1d612eed5b.xml, kernel.rtlrunonceinitialize, ntddk/RtlRunOnceInitialize
 ms.topic: function
+f1_keywords:
+ - "ntddk/RtlRunOnceInitialize"
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal

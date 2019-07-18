@@ -8,6 +8,8 @@ ms.assetid: f870334a-cf39-47a2-868a-f6fd7c3aee1c
 ms.date: 04/16/2018
 ms.keywords: MRxFinalizeSrvCall, MRxFinalizeSrvCall routine [Installable File System Drivers], PMRX_FINALIZE_SRVCALL_CALLDOWN, ifsk.mrxfinalizesrvcall, mrx/MRxFinalizeSrvCall, mrxref_7f2d4c59-1668-4c73-adc4-bdb6fac34d38.xml
 ms.topic: callback
+f1_keywords:
+ - "mrx/MRxFinalizeSrvCall"
 req.header: mrx.h
 req.include-header: Mrx.h
 req.target-type: Desktop

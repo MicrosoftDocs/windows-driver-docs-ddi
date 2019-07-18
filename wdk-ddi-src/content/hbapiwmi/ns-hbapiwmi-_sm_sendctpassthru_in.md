@@ -8,6 +8,8 @@ ms.assetid: a6dfb1a2-bfc2-4117-8a4e-f52979818289
 ms.date: 03/29/2018
 ms.keywords: "*PSM_SendCTPassThru_IN, PSM_SendCTPassThru_IN, PSM_SendCTPassThru_IN structure pointer [Storage Devices], SM_SendCTPassThru_IN, SM_SendCTPassThru_IN structure [Storage Devices], _SM_SendCTPassThru_IN, hbapiwmi/PSM_SendCTPassThru_IN, hbapiwmi/SM_SendCTPassThru_IN, storage.sm_sendctpassthru_in, structs-Fibre_87514826-5f0e-4b59-a514-a4e14f60c4bb.xml"
 ms.topic: struct
+f1_keywords:
+ - "hbapiwmi/SM_SendCTPassThru_IN"
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h
 req.target-type: Windows

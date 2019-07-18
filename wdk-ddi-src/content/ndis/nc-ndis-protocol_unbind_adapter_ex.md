@@ -8,6 +8,8 @@ ms.assetid: 19fa7be2-acb9-42f6-bd9f-5be3e3c8b5fa
 ms.date: 05/02/2018
 ms.keywords: PROTOCOL_UNBIND_ADAPTER_EX, PROTOCOL_UNBIND_ADAPTER_EX callback, ProtocolUnbindAdapterEx, ProtocolUnbindAdapterEx callback function [Network Drivers Starting with Windows Vista], ndis/ProtocolUnbindAdapterEx, netvista.protocolunbindadapterex, protocol_functions_ref_e8d6b640-35e1-4824-9d7b-a7ebd6273764.xml
 ms.topic: callback
+f1_keywords:
+ - "ndis/ProtocolUnbindAdapterEx"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

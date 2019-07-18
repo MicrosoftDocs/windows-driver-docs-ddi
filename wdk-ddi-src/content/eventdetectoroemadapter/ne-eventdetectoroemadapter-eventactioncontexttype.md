@@ -8,6 +8,8 @@ ms.assetid: 5d763702-145b-40e9-9f34-8c7137d7e6cc
 ms.author: windowsdriverdev
 ms.date: 02/25/2019
 ms.topic: enum
+f1_keywords:
+ - "eventdetectoroemadapter/EVENTACTIONCONTEXTTYPE"
 ms.keywords: EVENTACTIONCONTEXTTYPE, EVENTACTIONCONTEXTTYPE, 
 req.header: eventdetectoroemadapter.h
 req.include-header:

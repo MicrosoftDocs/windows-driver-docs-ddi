@@ -8,6 +8,8 @@ ms.assetid: BBABE50B-98FF-440E-B5B0-11C8F901D8FE
 ms.date: 04/16/2018
 ms.keywords: FltEnumerateInstanceInformationByVolumeName, FltEnumerateInstanceInformationByVolumeName routine [Installable File System Drivers], fltkernel/FltEnumerateInstanceInformationByVolumeName, ifsk.fltenumerateinstanceinformationbyvolumename
 ms.topic: function
+f1_keywords:
+ - "fltkernel/FltEnumerateInstanceInformationByVolumeName"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

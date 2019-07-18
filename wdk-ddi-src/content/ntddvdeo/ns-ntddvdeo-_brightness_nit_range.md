@@ -6,6 +6,8 @@ tech.root: display
 ms.assetid: fb6130d9-161a-4a9d-af61-9474e5583299
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "ntddvdeo/_BRIGHTNESS_NIT_RANGE"
 ms.keywords: _BRIGHTNESS_NIT_RANGE, BRIGHTNESS_NIT_RANGE, *PBRIGHTNESS_NIT_RANGE,
 req.header: ntddvdeo.h
 req.include-header:

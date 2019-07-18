@@ -8,6 +8,8 @@ ms.assetid: 3f846ba4-7f55-4825-8f2b-e80971c8f099
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
+f1_keywords:
+ - "ntddk/WHEA_PMEM_ERROR_SECTION"
 ms.keywords: WHEA_PMEM_ERROR_SECTION, WHEA_PMEM_ERROR_SECTION, *PWHEA_PMEM_ERROR_SECTION, 
 req.header: ntddk.h
 req.include-header:

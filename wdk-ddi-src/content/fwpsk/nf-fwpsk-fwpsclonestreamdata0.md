@@ -8,6 +8,8 @@ ms.assetid: 66041ccb-e63a-4843-85ec-d93b924bb335
 ms.date: 05/02/2018
 ms.keywords: FwpsCloneStreamData0, FwpsCloneStreamData0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsCloneStreamData0, netvista.fwpsclonestreamdata0, wfp_ref_2_funct_3_fwps_C_e155a116-043a-43e5-af71-db0552806978.xml
 ms.topic: function
+f1_keywords:
+ - "fwpsk/FwpsCloneStreamData0"
 req.header: fwpsk.h
 req.include-header: Fwpsk.h
 req.target-type: Universal

@@ -8,6 +8,8 @@ ms.assetid: ad4bcabb-304e-4427-9b0d-2e22429e8cdd
 ms.date: 05/03/2018
 ms.keywords: ComOther_93345db9-13c0-4b46-be4a-d3fbb6039cc7.xml, IDebugBreakpoint, IDebugBreakpoint interface [Windows Debugging], IDebugBreakpoint interface [Windows Debugging],described, dbgeng/IDebugBreakpoint, debugger.idebugbreakpoint
 ms.topic: interface
+f1_keywords:
+ - "dbgeng/IDebugBreakpoint"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Windows

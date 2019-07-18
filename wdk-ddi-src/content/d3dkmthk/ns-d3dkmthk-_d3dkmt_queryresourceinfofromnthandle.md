@@ -7,6 +7,8 @@ ms.assetid: 098fe3b9-1169-4ff6-8822-0eb277cb73f9
 ms.date: 05/10/2018
 ms.keywords: D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE, D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE structure [Display Devices], _D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE, d3dkmthk/D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE, display.d3dkmt_queryresourceinfofromnthandle
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

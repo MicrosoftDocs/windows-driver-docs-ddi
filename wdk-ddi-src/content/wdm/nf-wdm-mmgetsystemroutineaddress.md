@@ -8,6 +8,8 @@ ms.assetid: 87e20abc-eb65-40c0-943e-eb194022a2de
 ms.date: 04/30/2018
 ms.keywords: MmGetSystemRoutineAddress, MmGetSystemRoutineAddress routine [Kernel-Mode Driver Architecture], k106_4cd56243-e8f4-428a-95f2-4e7a1d2a7396.xml, kernel.mmgetsystemroutineaddress, wdm/MmGetSystemRoutineAddress
 ms.topic: function
+f1_keywords:
+ - "wdm/MmGetSystemRoutineAddress"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Universal

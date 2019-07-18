@@ -5,6 +5,8 @@ description: Destroys the video motion estimator.
 ms.assetid: 6d142a01-4ba6-4d72-b5ae-19a5117f4448
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_DESTROYVIDEOMOTIONESTIMATOR_0053"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

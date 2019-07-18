@@ -5,6 +5,8 @@ description: Reads a number of bytes from the address space of the target as def
 ms.assetid: 04a34999-91f0-4d6e-be0d-1babc8bd6459
 ms.date: 09/28/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDebugHostMemory.ReadBytes"
 ms.keywords: IDebugHostMemory::ReadBytes, ReadBytes, IDebugHostMemory.ReadBytes, IDebugHostMemory::ReadBytes, IDebugHostMemory.ReadBytes
 req.header: dbgmodel.h
 req.include-header:

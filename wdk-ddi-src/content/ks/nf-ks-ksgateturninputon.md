@@ -8,6 +8,8 @@ ms.assetid: 68c914bf-a293-42b0-85aa-c9e8f2ba18ac
 ms.date: 04/23/2018
 ms.keywords: KsGateTurnInputOn, KsGateTurnInputOn function [Streaming Media Devices], avfunc_9aaa9c85-b3a1-49ae-8135-6402f7bc1755.xml, ks/KsGateTurnInputOn, stream.ksgateturninputon
 ms.topic: function
+f1_keywords:
+ - "ks/KsGateTurnInputOn"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Desktop

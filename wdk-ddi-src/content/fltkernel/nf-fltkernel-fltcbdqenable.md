@@ -8,6 +8,8 @@ ms.assetid: cc9167cc-366e-4824-9968-1e2895a61a0c
 ms.date: 04/16/2018
 ms.keywords: FltApiRef_a_to_d_518b7b11-d2cd-4d69-9191-da63831da3bd.xml, FltCbdqEnable, FltCbdqEnable function [Installable File System Drivers], fltkernel/FltCbdqEnable, ifsk.fltcbdqenable
 ms.topic: function
+f1_keywords:
+ - "fltkernel/FltCbdqEnable"
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal

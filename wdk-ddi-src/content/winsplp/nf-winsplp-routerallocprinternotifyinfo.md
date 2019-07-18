@@ -8,6 +8,8 @@ ms.assetid: 319bee1b-c319-4c95-8343-edb9b08e6d6c
 ms.date: 04/20/2018
 ms.keywords: RouterAllocPrinterNotifyInfo, RouterAllocPrinterNotifyInfo function [Print Devices], print.routerallocprinternotifyinfo, spoolfnc_036587a9-424d-4169-8c90-7de6165a003d.xml, winsplp/RouterAllocPrinterNotifyInfo
 ms.topic: function
+f1_keywords:
+ - "winsplp/RouterAllocPrinterNotifyInfo"
 req.header: winsplp.h
 req.include-header: Winsplp.h
 req.target-type: Desktop

@@ -8,6 +8,8 @@ ms.assetid: B8C422C0-7E42-4BE7-8919-A4ABF33E8D5E
 ms.date: 04/04/2018
 ms.keywords: IWDTFSystemAction2 interface [Windows Device Testing Framework],PowerAnalyzeTraceByFile method, IWDTFSystemAction2.PowerAnalyzeTraceByFile, IWDTFSystemAction2::PowerAnalyzeTraceByFile, Microsoft.WDTF.IWDTFSystemAction2.PowerAnalyzeTraceByFile, Microsoft::WDTF::IWDTFSystemAction2::PowerAnalyzeTraceByFile, PowerAnalyzeTraceByFile, PowerAnalyzeTraceByFile method [Windows Device Testing Framework], PowerAnalyzeTraceByFile method [Windows Device Testing Framework],IWDTFSystemAction2 interface, dtf.iwdtfsystemaction2_poweranalyzetracebyfile, wdtfsystemaction/IWDTFSystemAction2::PowerAnalyzeTraceByFile
 ms.topic: method
+f1_keywords:
+ - "wdtfsystemaction/IWDTFSystemAction2.PowerAnalyzeTraceByFile"
 req.header: wdtfsystemaction.h
 req.include-header: 
 req.target-type: Desktop

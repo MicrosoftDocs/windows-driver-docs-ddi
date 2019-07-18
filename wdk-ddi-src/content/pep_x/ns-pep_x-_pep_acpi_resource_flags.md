@@ -8,6 +8,8 @@ ms.assetid: 1BB4933B-2707-4350-8D9C-E0E25A85F5CB
 ms.date: 04/30/2018
 ms.keywords: "*PPEP_ACPI_RESOURCE_FLAGS, PEP_ACPI_RESOURCE_FLAGS, PEP_ACPI_RESOURCE_FLAGS union [Kernel-Mode Driver Architecture], PPEP_ACPI_RESOURCE_FLAGS, PPEP_ACPI_RESOURCE_FLAGS union pointer [Kernel-Mode Driver Architecture], _PEP_ACPI_RESOURCE_FLAGS, kernel.pep_acpi_resource_flags, pepfx/PEP_ACPI_RESOURCE_FLAGS, pepfx/PPEP_ACPI_RESOURCE_FLAGS"
 ms.topic: struct
+f1_keywords:
+ - "pep_x/PEP_ACPI_RESOURCE_FLAGS"
 req.header: pep_x.h
 req.include-header: Pep_x.h
 req.target-type: Windows

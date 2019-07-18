@@ -5,6 +5,8 @@ description: The RegisterNamedModel method registers a given data model under a 
 ms.assetid: 995a673e-8fee-49e6-896d-efff52b10e4a
 ms.date: 09/11/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDataModelManager2.RegisterNamedModel"
 ms.keywords: IDataModelManager2::RegisterNamedModel, RegisterNamedModel, IDataModelManager2.RegisterNamedModel, IDataModelManager2::RegisterNamedModel, IDataModelManager2.RegisterNamedModel
 req.header: dbgmodel.h
 req.include-header:

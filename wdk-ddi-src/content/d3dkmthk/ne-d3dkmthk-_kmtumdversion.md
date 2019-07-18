@@ -5,6 +5,8 @@ description: Kernel mode transfer UMD (user mode driver) version.
 ms.assetid: 4077ea93-cbb5-45be-ad36-ded07dced647
 ms.date: 10/19/2018
 ms.topic: enum
+f1_keywords:
+ - "d3dkmthk/_KMTUMDVERSION"
 ms.keywords: _KMTUMDVERSION, KMTUMDVERSION, 
 req.header: d3dkmthk.h
 req.include-header:

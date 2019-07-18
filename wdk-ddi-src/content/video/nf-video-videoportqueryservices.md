@@ -8,6 +8,8 @@ ms.assetid: 88d54fbc-e865-4a59-bb1c-75adfb49c355
 ms.date: 05/10/2018
 ms.keywords: VideoPortQueryServices, VideoPortQueryServices function [Display Devices], VideoPort_Functions_4f9cc677-4c65-4577-a289-92b8fb01c787.xml, display.videoportqueryservices, video/VideoPortQueryServices
 ms.topic: function
+f1_keywords:
+ - "video/VideoPortQueryServices"
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Desktop

@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 57b9057a-7cbe-4a0b-96d5-4b5177c4b5a5
 ms.date: 05/21/2018
 ms.topic: callback
+f1_keywords:
+ - "vmbuskernelmodeclientlibapi/FN_VMB_CHANNEL_GET_INTERFACE_INSTANCE"
 req.header: vmbuskernelmodeclientlibapi.h
 req.include-header:
 req.target-type:

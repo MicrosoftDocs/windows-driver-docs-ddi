@@ -8,6 +8,8 @@ ms.assetid: 83E817C3-A30D-4597-A490-C4FB93A78FCE
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_MIRACAST_HANDLE_IO_CONTROL, DXGKDDI_MIRACAST_HANDLE_IO_CONTROL callback, DxgkDdiMiracastIoControl, DxgkDdiMiracastIoControl callback function [Display Devices], display.dxgkddimiracastiocontrol, dispmprt/DxgkDdiMiracastIoControl
 ms.topic: callback
+f1_keywords:
+ - "dispmprt/DxgkDdiMiracastIoControl"
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Desktop

@@ -8,6 +8,8 @@ ms.assetid: 4375FF5C-8772-43AB-844B-4AD5E044AF55
 ms.date: 05/02/2018
 ms.keywords: WDI_DS_CHANGED, WDI_DS_INFO, WDI_DS_INFO enumeration [Device and Driver Installation], WDI_DS_UNCHANGED, WDI_DS_UNKNOWN, _WDI_DS_INFO, netvista.wdi_ds_info, netvista.wifi_ds_info, wditypes/WDI_DS_CHANGED, wditypes/WDI_DS_INFO, wditypes/WDI_DS_UNCHANGED, wditypes/WDI_DS_UNKNOWN
 ms.topic: enum
+f1_keywords:
+ - "wditypes/WDI_DS_INFO"
 req.header: wditypes.hpp
 req.include-header: 
 req.target-type: Windows

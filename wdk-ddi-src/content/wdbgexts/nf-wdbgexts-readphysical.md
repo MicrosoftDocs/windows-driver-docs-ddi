@@ -8,6 +8,8 @@ ms.assetid: 02ca3358-7740-4eda-ab7c-f4b8a88389c2
 ms.date: 05/03/2018
 ms.keywords: ReadPhysical, ReadPhysical function [Windows Debugging], WdbgExts_Ref_4eaa6edb-2297-4454-b4aa-ea69aa5a073c.xml, debugger.readphysical, wdbgexts/ReadPhysical
 ms.topic: function
+f1_keywords:
+ - "wdbgexts/ReadPhysical"
 req.header: wdbgexts.h
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop

@@ -5,6 +5,8 @@ description: The Pfnd3dkmtGetcontextinprocessschedulingpriority callback functio
 ms.assetid: e3ddd8ee-6c70-44d6-9312-24b368b22e85
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/PFND3DKMT_GETCONTEXTINPROCESSSCHEDULINGPRIORITY"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

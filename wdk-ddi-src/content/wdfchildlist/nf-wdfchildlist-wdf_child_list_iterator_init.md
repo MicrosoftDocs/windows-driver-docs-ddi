@@ -8,6 +8,8 @@ ms.assetid: e06a377a-e68a-4773-9f7f-b1c47010029c
 ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectChildListRef_5040aac1-503f-4559-ad77-0304bfb67e3d.xml, WDF_CHILD_LIST_ITERATOR_INIT, WDF_CHILD_LIST_ITERATOR_INIT function, kmdf.wdf_child_list_iterator_init, wdf.wdf_child_list_iterator_init, wdfchildlist/WDF_CHILD_LIST_ITERATOR_INIT
 ms.topic: function
+f1_keywords:
+ - "wdfchildlist/WDF_CHILD_LIST_ITERATOR_INIT"
 req.header: wdfchildlist.h
 req.include-header: Wdf.h
 req.target-type: Universal

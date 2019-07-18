@@ -8,6 +8,8 @@ ms.assetid: 84b01acb-e1cb-4ed4-b82c-5dfc427ac05d
 ms.author: windowsdriverdev
 ms.date: 04/04/19
 ms.topic: callback
+f1_keywords:
+ - "d3d10umddi/PFND3DWDDM2_6DDI_PREPARE_SCANOUT_TRANSFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 req.header: d3d10umddi.h

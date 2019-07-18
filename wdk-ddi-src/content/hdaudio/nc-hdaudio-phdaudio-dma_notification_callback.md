@@ -8,6 +8,8 @@ ms.assetid: 5f618d11-1d66-4bf8-8176-91101c5355f3
 ms.author: windowsdriverdev
 ms.date: 04/08/2019
 ms.topic: callback
+f1_keywords:
+ - "hdaudio/PHDAUDIO_DMA_NOTIFICATION_CALLBACK"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 req.header: hdaudio.h

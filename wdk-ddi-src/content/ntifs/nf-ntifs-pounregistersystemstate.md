@@ -8,6 +8,8 @@ ms.assetid: 5d82342e-c800-44ac-8618-468355d14dd0
 ms.date: 04/30/2018
 ms.keywords: PoUnregisterSystemState, PoUnregisterSystemState routine [Kernel-Mode Driver Architecture], kernel.pounregistersystemstate, portn_b6118bd0-5fe1-4e75-8c17-e81d1f26814c.xml, wdm/PoUnregisterSystemState
 ms.topic: function
+f1_keywords:
+ - "ntifs/PoUnregisterSystemState"
 req.header: ntifs.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

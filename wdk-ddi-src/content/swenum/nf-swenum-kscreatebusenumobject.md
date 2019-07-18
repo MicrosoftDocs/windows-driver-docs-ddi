@@ -8,6 +8,8 @@ ms.assetid: bb117f9d-a288-4db6-8f28-96ab5152289c
 ms.date: 04/23/2018
 ms.keywords: KsCreateBusEnumObject, KsCreateBusEnumObject function [Streaming Media Devices], ksfunc_c2f2d2fb-fea1-40af-8a0b-358b96bae705.xml, stream.kscreatebusenumobject, swenum/KsCreateBusEnumObject
 ms.topic: function
+f1_keywords:
+ - "swenum/KsCreateBusEnumObject"
 req.header: swenum.h
 req.include-header: Swenum.h
 req.target-type: Universal

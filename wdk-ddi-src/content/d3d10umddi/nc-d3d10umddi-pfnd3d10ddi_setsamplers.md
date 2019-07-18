@@ -7,6 +7,8 @@ ms.assetid: 7bf05fb6-e959-464a-9e6b-74c568d1d88c
 ms.date: 05/10/2018
 ms.keywords: CsSetSamplers, CsSetSamplers callback function [Display Devices], PFND3D10DDI_SETSAMPLERS, PFND3D10DDI_SETSAMPLERS callback, UserModeDisplayDriverDx11_Functions_a2d1c287-1dab-4852-a643-8d568d04f64d.xml, d3d10umddi/CsSetSamplers, display.cssetsamplers
 ms.topic: callback
+f1_keywords:
+ - "d3d10umddi/CsSetSamplers"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

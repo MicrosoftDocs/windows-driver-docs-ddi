@@ -8,6 +8,8 @@ ms.assetid: 7ac67110-bc92-457a-88f4-a21f2fa38174
 ms.date: 04/16/2018
 ms.keywords: IoEnumerateRegisteredFiltersList, IoEnumerateRegisteredFiltersList routine [Installable File System Drivers], ifsk.ioenumerateregisteredfilterslist, ioref_b1530889-7d8a-4fd7-a7d3-954b1c7012ca.xml, ntifs/IoEnumerateRegisteredFiltersList
 ms.topic: function
+f1_keywords:
+ - "ntifs/IoEnumerateRegisteredFiltersList"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

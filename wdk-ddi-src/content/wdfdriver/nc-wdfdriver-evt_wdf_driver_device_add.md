@@ -8,6 +8,8 @@ ms.assetid: b20db029-ee2c-4fb1-bd69-ccd2e37fdc9a
 ms.date: 02/26/2018
 ms.keywords: DFDriverObjectRef_9b5ff898-9b1b-4eb6-87f7-42bee5deab18.xml, EVT_WDF_DRIVER_DEVICE_ADD, EVT_WDF_DRIVER_DEVICE_ADD callback, EvtDriverDeviceAdd, EvtDriverDeviceAdd callback function, kmdf.evtdriverdeviceadd, wdf.evtdriverdeviceadd, wdfdriver/EvtDriverDeviceAdd
 ms.topic: callback
+f1_keywords:
+ - "wdfdriver/EvtDriverDeviceAdd"
 req.header: wdfdriver.h
 req.include-header: Wdf.h
 req.target-type: Universal

@@ -5,6 +5,8 @@ description: The EnumerateRawValues method enumerates all native children (field
 ms.assetid: 950019c9-1e39-46bd-be75-fa7fbf52d7da
 ms.date: 07/20/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IModelObject.EnumerateRawValues"
 ms.keywords: IModelObject::EnumerateRawValues, EnumerateRawValues, IModelObject.EnumerateRawValues, IModelObject::EnumerateRawValues, IModelObject.EnumerateRawValues
 req.header: dbgmodel.h
 req.include-header:

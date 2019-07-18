@@ -8,6 +8,8 @@ ms.assetid: 45e8279f-b7a5-4b45-92b7-5f740f6c1117
 ms.date: 04/30/2018
 ms.keywords: IoValidateDeviceIoControlAccess, IoValidateDeviceIoControlAccess routine [Kernel-Mode Driver Architecture], k104_724cb845-fabf-4b5a-8712-901829f1f79d.xml, kernel.iovalidatedeviceiocontrolaccess, wdm/IoValidateDeviceIoControlAccess
 ms.topic: function
+f1_keywords:
+ - "wdm/IoValidateDeviceIoControlAccess"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

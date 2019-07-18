@@ -8,6 +8,8 @@ ms.assetid: 9C9A0D46-587C-43F3-808E-38E81CE3EE50
 ms.date: 04/30/2018
 ms.keywords: "*PMMCOPY_ADDRESS, MM_COPY_ADDRESS, MM_COPY_ADDRESS structure [Kernel-Mode Driver Architecture], PMM_COPY_ADDRESS, PMM_COPY_ADDRESS structure pointer [Kernel-Mode Driver Architecture], _MM_COPY_ADDRESS, kernel.mm_copy_address, ntddk/MM_COPY_ADDRESS, ntddk/PMM_COPY_ADDRESS"
 ms.topic: struct
+f1_keywords:
+ - "ntddk/MM_COPY_ADDRESS"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: 77ebca0f-3056-4f11-9d59-fbd166967ed3
 ms.date: 02/26/2018
 ms.keywords: DFDpcObjectRef_28be5a7f-4f65-4b9e-b9f4-80b754cc8ca3.xml, WdfDpcGetParentObject, WdfDpcGetParentObject method, kmdf.wdfdpcgetparentobject, wdf.wdfdpcgetparentobject, wdfdpc/WdfDpcGetParentObject
 ms.topic: function
+f1_keywords:
+ - "wdfdpc/WdfDpcGetParentObject"
 req.header: wdfdpc.h
 req.include-header: Wdf.h
 req.target-type: Universal

@@ -5,6 +5,8 @@ description: The EnumerateRawReferences method enumerates references to all nati
 ms.assetid: fe0e5bc3-e852-4755-81b5-e169365b3064
 ms.date: 08/08/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IModelObject.EnumerateRawReferences"
 ms.keywords: IModelObject::EnumerateRawReferences, EnumerateRawReferences, IModelObject.EnumerateRawReferences, IModelObject::EnumerateRawReferences, IModelObject.EnumerateRawReferences
 req.header: dbgmodel.h
 req.include-header:

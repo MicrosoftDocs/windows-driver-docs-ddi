@@ -8,6 +8,8 @@ ms.assetid: 0cfabb0f-2d5e-4445-8683-d2916de5b549
 ms.date: 02/26/2018
 ms.keywords: DFDeviceObjectGeneralRef_2be6c269-2579-4358-ba3a-855672e6d2bc.xml, EVT_WDF_DEVICE_D0_ENTRY, EVT_WDF_DEVICE_D0_ENTRY callback, EvtDeviceD0Entry, EvtDeviceD0Entry callback function, kmdf.evtdeviced0entry, wdf.evtdeviced0entry, wdfdevice/EvtDeviceD0Entry
 ms.topic: callback
+f1_keywords:
+ - "wdfdevice/EvtDeviceD0Entry"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

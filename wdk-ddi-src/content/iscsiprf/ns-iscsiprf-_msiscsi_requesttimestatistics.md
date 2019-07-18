@@ -8,6 +8,8 @@ ms.assetid: fb884cff-dedb-44cf-b9ea-306bfa66b06f
 ms.date: 03/29/2018
 ms.keywords: "*PMSiSCSI_RequestTimeStatistics, MSiSCSI_RequestTimeStatistics, MSiSCSI_RequestTimeStatistics structure [Storage Devices], PMSiSCSI_RequestTimeStatistics, PMSiSCSI_RequestTimeStatistics structure pointer [Storage Devices], _MSiSCSI_RequestTimeStatistics, iscsiprf/MSiSCSI_RequestTimeStatistics, iscsiprf/PMSiSCSI_RequestTimeStatistics, storage.msiscsi_requesttimestatistics, structs-iSCSI_32f6d3e4-d3d4-431d-aff0-f956aa2c1594.xml"
 ms.topic: struct
+f1_keywords:
+ - "iscsiprf/MSiSCSI_RequestTimeStatistics"
 req.header: iscsiprf.h
 req.include-header: Iscsiprf.h
 req.target-type: Windows

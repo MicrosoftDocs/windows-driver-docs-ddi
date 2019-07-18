@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 0ec50e00-4cb4-4844-9951-441fe7c13f0c
 ms.date: 04/12/2018
 ms.topic: macro
+f1_keywords:
+ - "ndis/NET_BUFFER_CURRENT_MDL_OFFSET"
 ms.keywords: NET_BUFFER_CURRENT_MDL_OFFSET
 req.header: ndis.h
 req.include-header:

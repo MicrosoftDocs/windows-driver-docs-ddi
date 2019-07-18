@@ -8,6 +8,8 @@ ms.assetid: cf508b5c-4af8-4371-b833-eaa71535afc5
 ms.date: 04/23/2018
 ms.keywords: KsAddObjectCreateItemToDeviceHeader, KsAddObjectCreateItemToDeviceHeader function [Streaming Media Devices], ks/KsAddObjectCreateItemToDeviceHeader, ksfunc_89d7ee34-62de-4702-9cfa-5e3b6c9a9819.xml, stream.ksaddobjectcreateitemtodeviceheader
 ms.topic: function
+f1_keywords:
+ - "ks/KsAddObjectCreateItemToDeviceHeader"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

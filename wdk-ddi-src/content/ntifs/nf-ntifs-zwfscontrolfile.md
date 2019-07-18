@@ -8,6 +8,8 @@ ms.assetid: 2e98d111-5af5-4854-9b58-f5237ba913e7
 ms.date: 04/30/2018
 ms.keywords: NtFsControlFile, ZwFsControlFile, ZwFsControlFile routine [Kernel-Mode Driver Architecture], k111_5da20655-11b0-4366-bca2-8cee3aadbeab.xml, kernel.zwfscontrolfile, ntifs/NtFsControlFile, ntifs/ZwFsControlFile
 ms.topic: function
+f1_keywords:
+ - "ntifs/ZwFsControlFile"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

@@ -8,6 +8,8 @@ ms.assetid: 475b7774-51ce-410d-aba8-a2317f44ce03
 ms.date: 05/08/2018
 ms.keywords: "*PHDAUDIO_STREAM_FORMAT, HDAUDIO_STREAM_FORMAT, HDAUDIO_STREAM_FORMAT structure [Audio Devices], PHDAUDIO_STREAM_FORMAT, PHDAUDIO_STREAM_FORMAT structure pointer [Audio Devices], _HDAUDIO_STREAM_FORMAT, aud-prop2_80d1ef47-903a-4f6e-95c7-e30f07b105fe.xml, audio.hdaudio_stream_format, hdaudio/HDAUDIO_STREAM_FORMAT, hdaudio/PHDAUDIO_STREAM_FORMAT"
 ms.topic: struct
+f1_keywords:
+ - "hdaudio/HDAUDIO_STREAM_FORMAT"
 req.header: hdaudio.h
 req.include-header: Hdaudio.h
 req.target-type: Windows

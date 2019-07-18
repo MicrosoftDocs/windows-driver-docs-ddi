@@ -7,6 +7,8 @@ ms.assetid: 41254f99-1806-428c-8bf3-7e736dbeec84
 ms.date: 05/10/2018
 ms.keywords: CreateVideoDecoder, CreateVideoDecoder callback function [Display Devices], PFND3D11_1DDI_CREATEVIDEODECODER, PFND3D11_1DDI_CREATEVIDEODECODER callback, d3d10umddi/CreateVideoDecoder, display.createvideodecoder
 ms.topic: callback
+f1_keywords:
+ - "d3d10umddi/CreateVideoDecoder"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

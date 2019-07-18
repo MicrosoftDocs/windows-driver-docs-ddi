@@ -8,6 +8,8 @@ ms.assetid: 8CEBDCCE-5B71-443D-9DE5-F789E16843D7
 ms.date: 05/02/2018
 ms.keywords: NDK_FN_RELEASE_LAM, NDK_FN_RELEASE_LAM callback, NdkReleaseLam, NdkReleaseLam callback function [Network Drivers Starting with Windows Vista], ndkpi/NdkReleaseLam, netvista.ndk_fn_release_lam
 ms.topic: callback
+f1_keywords:
+ - "ndkpi/NdkReleaseLam"
 req.header: ndkpi.h
 req.include-header: Ndkpi.h
 req.target-type: Windows

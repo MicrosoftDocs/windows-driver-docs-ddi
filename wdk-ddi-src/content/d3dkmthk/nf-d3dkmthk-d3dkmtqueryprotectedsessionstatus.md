@@ -7,6 +7,8 @@ ms.assetid: 787f20a4-51b6-44e3-aefb-2dc529359545
 ms.date: 05/10/2018
 ms.keywords: D3DKMTQueryProtectedSessionStatus, D3DKMTQueryProtectedSessionStatus method [Display Devices], d3dkmthk/D3DKMTQueryProtectedSessionStatus, display.d3dkmtqueryprotectedsessionstatus
 ms.topic: function
+f1_keywords:
+ - "d3dkmthk/D3DKMTQueryProtectedSessionStatus"
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: Windows

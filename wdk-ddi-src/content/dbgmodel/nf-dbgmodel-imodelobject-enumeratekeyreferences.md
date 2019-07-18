@@ -5,6 +5,8 @@ description: The EnumerateKeyReferences method behaves similar to the EnumerateK
 ms.assetid: 85aace53-f325-4f74-acea-9661aef591c1
 ms.date: 07/20/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IModelObject.EnumerateKeyReferences"
 ms.keywords: IModelObject::EnumerateKeyReferences, EnumerateKeyReferences, IModelObject.EnumerateKeyReferences, IModelObject::EnumerateKeyReferences, IModelObject.EnumerateKeyReferences
 req.header: dbgmodel.h
 req.include-header:

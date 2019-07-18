@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 2523f6df-64d5-491d-ad0e-557896268697
 ms.date: 02/07/2018
 ms.topic: function
+f1_keywords:
+ - "netconfiguration/NetConfigurationQueryString"
 ms.keywords: NetConfigurationQueryString
 req.header: netconfiguration.h
 req.include-header: netadaptercx.h

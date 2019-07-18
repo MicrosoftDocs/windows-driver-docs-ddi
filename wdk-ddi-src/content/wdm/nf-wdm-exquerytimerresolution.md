@@ -8,6 +8,8 @@ ms.assetid: 2648AD10-B2D7-4F24-A508-239DA6AF551D
 ms.date: 04/30/2018
 ms.keywords: ExQueryTimerResolution, ExQueryTimerResolution routine [Kernel-Mode Driver Architecture], kernel.exquerytimerresolution, wdm/ExQueryTimerResolution
 ms.topic: function
+f1_keywords:
+ - "wdm/ExQueryTimerResolution"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

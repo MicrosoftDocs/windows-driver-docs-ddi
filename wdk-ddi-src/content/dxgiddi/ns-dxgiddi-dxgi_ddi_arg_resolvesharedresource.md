@@ -8,6 +8,8 @@ ms.assetid: adc4bd3a-fbff-4a63-b818-b778762956ac
 ms.date: 05/10/2018
 ms.keywords: DXGI_DDI_ARG_RESOLVESHAREDRESOURCE, DXGI_DDI_ARG_RESOLVESHAREDRESOURCE structure [Display Devices], UMDisplayDriver_Dx10param_Structs_16bbb236-75b5-4d2c-a6ca-b61010d5e08d.xml, display.dxgi_ddi_arg_resolvesharedresource, dxgiddi/DXGI_DDI_ARG_RESOLVESHAREDRESOURCE
 ms.topic: struct
+f1_keywords:
+ - "dxgiddi/DXGI_DDI_ARG_RESOLVESHAREDRESOURCE"
 req.header: dxgiddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: 5405A9A6-243B-4E80-85D7-46C6FCC8339F
 ms.date: 05/02/2018
 ms.keywords: NDIS_PD_QUEUE, NDIS_PD_QUEUE structure [Network Drivers Starting with Windows Vista], PNDIS_PD_QUEUE, PNDIS_PD_QUEUE structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PD_QUEUE, ndis/NDIS_PD_QUEUE, ndis/PNDIS_PD_QUEUE, netvista.ndis_pd_queue
 ms.topic: struct
+f1_keywords:
+ - "ndis/NDIS_PD_QUEUE"
 req.header: ndis.h
 req.include-header: 
 req.target-type: Windows

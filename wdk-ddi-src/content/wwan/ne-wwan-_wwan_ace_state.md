@@ -8,6 +8,8 @@ ms.assetid: 6BF63894-58D6-4C7C-B3D9-D4D9D19A686B
 ms.date: 05/02/2018
 ms.keywords: "*PWWAN_ACE_STATE, WWAN_ACE_STATE, WWAN_ACE_STATE enumeration [Network Drivers Starting with Windows Vista], WwanAutoOff, WwanAutoOn, WwanManualOff, WwanManualOn, _WWAN_ACE_STATE, netvista.wwan_ace_state, wwan/WWAN_ACE_STATE, wwan/WwanAutoOff, wwan/WwanAutoOn, wwan/WwanManualOff, wwan/WwanManualOn"
 ms.topic: enum
+f1_keywords:
+ - "wwan/WWAN_ACE_STATE"
 req.header: wwan.h
 req.include-header: 
 req.target-type: Windows

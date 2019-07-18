@@ -8,6 +8,8 @@ ms.assetid: 80AE8211-EA8F-4967-A496-39053CD578D1
 ms.date: 05/07/2018
 ms.keywords: UrsIoResourceListAppendDescriptor, UrsIoResourceListAppendDescriptor function [Buses], buses.ursioresourcelistappenddescriptor, ursdevice/UrsIoResourceListAppendDescriptor
 ms.topic: function
+f1_keywords:
+ - "ursdevice/UrsIoResourceListAppendDescriptor"
 req.header: ursdevice.h
 req.include-header: Urscx.h
 req.target-type: Windows

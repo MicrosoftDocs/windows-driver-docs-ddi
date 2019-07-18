@@ -8,6 +8,8 @@ ms.assetid: a9951e7b-60a2-4bf2-913c-b7291d7c3173
 ms.date: 04/30/2018
 ms.keywords: ExAllocatePoolWithTag, ExAllocatePoolWithTag routine [Kernel-Mode Driver Architecture], k102_13ab2d7e-dd96-4474-bf27-59ee9b7d84d6.xml, kernel.exallocatepoolwithtag, wdm/ExAllocatePoolWithTag
 ms.topic: function
+f1_keywords:
+ - "wdm/ExAllocatePoolWithTag"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

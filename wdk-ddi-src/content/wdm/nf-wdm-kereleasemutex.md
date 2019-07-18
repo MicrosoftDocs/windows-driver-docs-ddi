@@ -8,6 +8,8 @@ ms.assetid: d220f913-6111-435d-b617-257edf2a9c68
 ms.date: 04/30/2018
 ms.keywords: KeReleaseMutex, KeReleaseMutex routine [Kernel-Mode Driver Architecture], k105_4237a9e6-715b-4e40-aab8-9b1458a220ae.xml, kernel.kereleasemutex, wdm/KeReleaseMutex
 ms.topic: function
+f1_keywords:
+ - "wdm/KeReleaseMutex"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

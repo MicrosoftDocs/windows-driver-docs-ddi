@@ -7,6 +7,8 @@ ms.assetid: 2dff9d2e-c497-422f-824b-a7101904fd67
 ms.date: 05/10/2018
 ms.keywords: CreateResource, CreateResource callback function [Display Devices], PFND3D11DDI_CREATERESOURCE, PFND3D11DDI_CREATERESOURCE callback, UserModeDisplayDriverDx11_Functions_3ac053d0-82dc-4bdf-af15-258af82c568b.xml, d3d10umddi/CreateResource, display.createresource_d3d11_
 ms.topic: callback
+f1_keywords:
+ - "d3d10umddi/CreateResource"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

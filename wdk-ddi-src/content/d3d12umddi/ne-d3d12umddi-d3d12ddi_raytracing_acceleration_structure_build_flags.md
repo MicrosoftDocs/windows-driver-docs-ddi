@@ -5,6 +5,8 @@ description: Specifies the ray tracing acceleration structure build flags.
 ms.assetid: fd4d8fe1-c960-45b3-81d5-f05be42d5221
 ms.date: 10/19/2018
 ms.topic: enum
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAGS"
 ms.keywords: D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAGS, D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_BUILD_FLAGS, 
 req.header: d3d12umddi.h
 req.include-header:

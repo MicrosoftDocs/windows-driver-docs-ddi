@@ -8,6 +8,8 @@ ms.assetid: 3837fcee-7b94-464f-904c-c6eaa1002620
 ms.date: 05/02/2018
 ms.keywords: "*LPRILSTARTDTMFPARAMS, RILSTARTDTMFPARAMS, RILSTARTDTMFPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilstartdtmfparams, ntddrilapitypes/RILSTARTDTMFPARAMS"
 ms.topic: struct
+f1_keywords:
+ - "ntddrilapitypes/RILSTARTDTMFPARAMS"
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

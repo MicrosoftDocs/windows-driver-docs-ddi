@@ -8,6 +8,8 @@ ms.assetid: 3e3bd3f1-08a2-4b20-b427-85b1236325b9
 ms.date: 05/02/2018
 ms.keywords: "*LPRILSETSLOTPOWERPARAMS, RILSETSLOTPOWERPARAMS, RILSETSLOTPOWERPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsetslotpowerparams, ntddrilapitypes/RILSETSLOTPOWERPARAMS"
 ms.topic: struct
+f1_keywords:
+ - "rilapitypes/RILSETSLOTPOWERPARAMS"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: 5C0F9878-522C-4DDE-A790-54C94880F119
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_SYSTEM_DISPLAY_WRITE, DXGKDDI_SYSTEM_DISPLAY_WRITE callback, DxgkDdiSystemDisplayWrite, DxgkDdiSystemDisplayWrite callback function [Display Devices], display.dxgkddisystemdisplaywrite, dispmprt/DxgkDdiSystemDisplayWrite
 ms.topic: callback
+f1_keywords:
+ - "dispmprt/DxgkDdiSystemDisplayWrite"
 req.header: dispmprt.h
 req.include-header: 
 req.target-type: Desktop

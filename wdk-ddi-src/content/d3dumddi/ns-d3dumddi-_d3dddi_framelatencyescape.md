@@ -8,6 +8,8 @@ ms.assetid: 19395349-375E-46AF-BCCF-FF5C92B374C4
 ms.date: 05/10/2018
 ms.keywords: D3DDDI_FRAMELATENCYESCAPE, D3DDDI_FRAMELATENCYESCAPE structure [Display Devices], _D3DDDI_FRAMELATENCYESCAPE, d3dumddi/D3DDDI_FRAMELATENCYESCAPE, display.d3dddi_framelatencyescape
 ms.topic: struct
+f1_keywords:
+ - "d3dumddi/D3DDDI_FRAMELATENCYESCAPE"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows

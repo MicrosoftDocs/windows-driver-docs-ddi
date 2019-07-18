@@ -5,6 +5,8 @@ description:
 ms.assetid: dd8715ec-a4ef-4269-9ce8-bad347270df7
 ms.date: 10/05/2018
 ms.topic: ioctl
+f1_keywords:
+ - "sidebandaudio/IOCTL_SBAUD_SET_DEVICE_CLAIMED"
 req.header: sidebandaudio.h
 req.include-header:
 req.target-type:

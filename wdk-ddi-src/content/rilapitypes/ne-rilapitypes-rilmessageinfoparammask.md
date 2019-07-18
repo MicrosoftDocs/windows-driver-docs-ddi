@@ -8,6 +8,8 @@ ms.assetid: 70e0f22c-14d4-43e6-bfb6-66523706ba52
 ms.date: 05/02/2018
 ms.keywords: RILMESSAGEINFOPARAMMASK, RILMESSAGEINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_MI_ALL, RIL_PARAM_MI_MESSAGE, RIL_PARAM_MI_STATUS, netvista.rilmessageinfoparammask, ntddrilapitypes/RILMESSAGEINFOPARAMMASK, ntddrilapitypes/RIL_PARAM_MI_ALL, ntddrilapitypes/RIL_PARAM_MI_MESSAGE, ntddrilapitypes/RIL_PARAM_MI_STATUS
 ms.topic: enum
+f1_keywords:
+ - "rilapitypes/RILMESSAGEINFOPARAMMASK"
 req.header: rilapitypes.h
 req.include-header: Rilapitypes.h
 req.target-type: Windows

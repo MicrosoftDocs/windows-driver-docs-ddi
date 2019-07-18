@@ -8,6 +8,8 @@ ms.assetid: 6bc23364-07c9-4a01-b475-e4620f62a674
 ms.date: 04/23/2018
 ms.keywords: KsRemoveIrpFromCancelableQueue, KsRemoveIrpFromCancelableQueue function [Streaming Media Devices], ks/KsRemoveIrpFromCancelableQueue, ksfunc_35dd895b-1a0b-40a2-bc84-cdc2844bd30f.xml, stream.ksremoveirpfromcancelablequeue
 ms.topic: function
+f1_keywords:
+ - "ks/KsRemoveIrpFromCancelableQueue"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

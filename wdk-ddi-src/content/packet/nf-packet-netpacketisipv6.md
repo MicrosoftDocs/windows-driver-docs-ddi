@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: dfb23a00-13fb-4c66-a950-8ec080dee7a5
 ms.date: 01/30/2019
 ms.topic: function
+f1_keywords:
+ - "packet/RegisterOpRegionHandler"
 ms.keywords: NetPacketIsIpv6
 req.header: packet.h
 req.include-header: netadaptercx.h

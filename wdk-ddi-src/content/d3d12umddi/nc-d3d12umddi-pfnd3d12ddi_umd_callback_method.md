@@ -8,6 +8,8 @@ ms.assetid: ae1f4e0e-f801-41b1-a283-dd9ec9559e45
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
 ms.topic: callback
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_UMD_CALLBACK_METHOD"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type:

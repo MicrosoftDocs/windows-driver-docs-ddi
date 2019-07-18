@@ -8,6 +8,8 @@ ms.assetid: 63c50af0-365b-4074-a703-9e43b1514a55
 ms.date: 04/23/2018
 ms.keywords: IOCTL_KS_HANDSHAKE, IOCTL_KS_HANDSHAKE control, IOCTL_KS_HANDSHAKE control code [Streaming Media Devices], ks-ioctl_f848d65c-b795-439e-a8a1-d4c2e0764ef1.xml, ks/IOCTL_KS_HANDSHAKE, stream.ioctl_ks_handshake
 ms.topic: ioctl
+f1_keywords:
+ - "ks/IOCTL_KS_HANDSHAKE"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Windows

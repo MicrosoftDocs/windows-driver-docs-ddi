@@ -8,6 +8,8 @@ ms.assetid: fc556738-9097-4304-ab9d-7044e24abb65
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
+f1_keywords:
+ - "ntddk/WHEAP_PFA_MEMORY_POLICY"
 ms.keywords: WHEAP_PFA_MEMORY_POLICY, WHEAP_PFA_MEMORY_POLICY, *PWHEAP_PFA_MEMORY_POLICY, 
 req.header: ntddk.h
 req.include-header:

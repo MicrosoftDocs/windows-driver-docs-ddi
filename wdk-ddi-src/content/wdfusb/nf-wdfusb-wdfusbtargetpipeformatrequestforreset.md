@@ -8,6 +8,8 @@ ms.assetid: 10f5296c-6be2-4f88-952b-b23e518b844a
 ms.date: 02/26/2018
 ms.keywords: DFUsbRef_5a1aa46c-9d8a-4e6b-9003-723a65c314f3.xml, WdfUsbTargetPipeFormatRequestForReset, WdfUsbTargetPipeFormatRequestForReset method, kmdf.wdfusbtargetpipeformatrequestforreset, wdf.wdfusbtargetpipeformatrequestforreset, wdfusb/WdfUsbTargetPipeFormatRequestForReset
 ms.topic: function
+f1_keywords:
+ - "wdfusb/WdfUsbTargetPipeFormatRequestForReset"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal

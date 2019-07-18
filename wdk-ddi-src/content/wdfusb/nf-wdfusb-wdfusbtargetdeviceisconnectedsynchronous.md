@@ -8,6 +8,8 @@ ms.assetid: 1e598f83-01ad-4c3e-8044-a66041f6ad96
 ms.date: 02/26/2018
 ms.keywords: DFUsbRef_52c60eb0-7e47-4064-9bb5-f2c7ba2e182a.xml, WdfUsbTargetDeviceIsConnectedSynchronous, WdfUsbTargetDeviceIsConnectedSynchronous method, kmdf.wdfusbtargetdeviceisconnectedsynchronous, wdf.wdfusbtargetdeviceisconnectedsynchronous, wdfusb/WdfUsbTargetDeviceIsConnectedSynchronous
 ms.topic: function
+f1_keywords:
+ - "wdfusb/WdfUsbTargetDeviceIsConnectedSynchronous"
 req.header: wdfusb.h
 req.include-header: Wdfusb.h
 req.target-type: Universal

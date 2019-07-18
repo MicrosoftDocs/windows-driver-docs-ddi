@@ -7,6 +7,8 @@ ms.assetid: 0141badb-0d2d-433f-950f-bf169087c574
 ms.date: 05/10/2018
 ms.keywords: PFND3D10_1DDI_RELOCATEDEVICEFUNCS, PFND3D10_1DDI_RELOCATEDEVICEFUNCS callback, RelocateDeviceFuncs_D3D10_1, RelocateDeviceFuncs_D3D10_1 callback function [Display Devices], UserModeDisplayDriverDx10_Functions_5798bcfe-7d15-407d-b7c2-cfe907e94991.xml, d3d10umddi/RelocateDeviceFuncs_D3D10_1, display.relocatedevicefuncs_d3d10_1_
 ms.topic: callback
+f1_keywords:
+ - "d3d10umddi/RelocateDeviceFuncs_D3D10_1"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

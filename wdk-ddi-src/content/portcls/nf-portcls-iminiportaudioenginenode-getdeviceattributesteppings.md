@@ -8,6 +8,8 @@ ms.assetid: 7AF6C9AF-8955-4F09-A42C-097B4AD1CD3A
 ms.date: 05/08/2018
 ms.keywords: GetDeviceAttributeSteppings, GetDeviceAttributeSteppings method [Audio Devices], GetDeviceAttributeSteppings method [Audio Devices],IMiniportAudioEngineNode interface, IMiniportAudioEngineNode interface [Audio Devices],GetDeviceAttributeSteppings method, IMiniportAudioEngineNode.GetDeviceAttributeSteppings, IMiniportAudioEngineNode::GetDeviceAttributeSteppings, audio.iminiportaudioenginenode_getdeviceattributesteppings, portcls/IMiniportAudioEngineNode::GetDeviceAttributeSteppings
 ms.topic: method
+f1_keywords:
+ - "portcls/IMiniportAudioEngineNode.GetDeviceAttributeSteppings"
 req.header: portcls.h
 req.include-header: 
 req.target-type: Universal

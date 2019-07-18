@@ -8,6 +8,8 @@ ms.assetid: 8c7f3832-3faa-4ece-8434-338f1b150ec1
 ms.date: 03/29/2018
 ms.keywords: "*PMPIO_PASS_THROUGH_PATH, MPIO_PASS_THROUGH_PATH, MPIO_PASS_THROUGH_PATH structure [Storage Devices], PMPIO_PASS_THROUGH_PATH, PMPIO_PASS_THROUGH_PATH structure pointer [Storage Devices], _MPIO_PASS_THROUGH_PATH, ntddscsi/MPIO_PASS_THROUGH_PATH, ntddscsi/PMPIO_PASS_THROUGH_PATH, storage.mpio_pass_through_path, structs-scsibus_0a643059-71aa-4dca-92a8-525924a999df.xml"
 ms.topic: struct
+f1_keywords:
+ - "ntddscsi/MPIO_PASS_THROUGH_PATH"
 req.header: ntddscsi.h
 req.include-header: Ntddscsi.h
 req.target-type: Windows

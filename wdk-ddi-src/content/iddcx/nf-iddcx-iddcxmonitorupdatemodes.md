@@ -8,6 +8,8 @@ ms.assetid: 0f05931a-2327-454a-9ba7-da02cb2f13d9
 ms.date: 05/10/2018
 ms.keywords: IddCxMonitorUpdateModes, IddCxMonitorUpdateModes method [Display Devices], display.iddcxmonitorupdatemodes, iddcx/IddCxMonitorUpdateModes
 ms.topic: function
+f1_keywords:
+ - "iddcx/IddCxMonitorUpdateModes"
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows

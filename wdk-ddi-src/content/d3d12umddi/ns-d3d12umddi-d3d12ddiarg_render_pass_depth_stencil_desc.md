@@ -5,6 +5,8 @@ description:
 ms.assetid: 87983276-c1f7-4ffe-8cd3-c1bb8ffee250
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3d12umddi/D3D12DDIARG_RENDER_PASS_DEPTH_STENCIL_DESC"
 ms.keywords: D3D12DDIARG_RENDER_PASS_DEPTH_STENCIL_DESC, D3D12DDIARG_RENDER_PASS_DEPTH_STENCIL_DESC, 
 req.header: d3d12umddi.h
 req.include-header:

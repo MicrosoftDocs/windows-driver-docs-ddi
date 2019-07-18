@@ -8,6 +8,8 @@ ms.assetid: 70635820-9912-4d27-87e2-e713ea33e819
 ms.date: 05/02/2018
 ms.keywords: RIL_DisableNotifications, RIL_DisableNotifications method [Network Drivers Starting with Windows Vista], netvista.ril_disablenotifications, rilapi/RIL_DisableNotifications
 ms.topic: function
+f1_keywords:
+ - "rilapi/RIL_DisableNotifications"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows

@@ -8,6 +8,8 @@ ms.assetid: 81cbde46-e538-47dd-8b4a-e80dfb5e5b65
 ms.date: 04/16/2018
 ms.keywords: MRxForceClosed, MRxForceClosed routine [Installable File System Drivers], PMRX_FORCECLOSED_CALLDOWN, ifsk.mrxforceclosed, mrx/MRxForceClosed, mrxref_4ebb7c98-0f0f-402e-b6f7-53e75c5cac54.xml
 ms.topic: callback
+f1_keywords:
+ - "mrx/MRxForceClosed"
 req.header: mrx.h
 req.include-header: Mrx.h
 req.target-type: Desktop

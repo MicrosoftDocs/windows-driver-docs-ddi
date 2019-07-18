@@ -8,6 +8,8 @@ ms.assetid: c0627fbf-4b64-4530-8c0f-45326a83f765
 ms.date: 06/19/2019
 ms.keywords: HidD_GetProductString, HidD_GetProductString routine [Human Input Devices], hid.hidd_getproductstring, hidfunc_4909c6a7-11b7-489c-915c-889ad3124231.xml, hidsdi/HidD_GetProductString
 ms.topic: function
+f1_keywords:
+ - "hidsdi/HidD_GetProductString"
 req.header: hidsdi.h
 req.include-header: Hidsdi.h
 req.target-type: Universal

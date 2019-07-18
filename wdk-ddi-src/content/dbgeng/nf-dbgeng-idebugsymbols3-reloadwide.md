@@ -8,6 +8,8 @@ ms.assetid: 3975bc55-15e3-45ca-82df-76c5ed3b0086
 ms.date: 05/03/2018
 ms.keywords: IDebugSymbols3 interface [Windows Debugging],ReloadWide method, IDebugSymbols3.ReloadWide, IDebugSymbols3::ReloadWide, ReloadWide, ReloadWide method [Windows Debugging], ReloadWide method [Windows Debugging],IDebugSymbols3 interface, dbgeng/IDebugSymbols3::ReloadWide, debugger.reloadwide
 ms.topic: method
+f1_keywords:
+ - "dbgeng/IDebugSymbols3.ReloadWide"
 req.header: dbgeng.h
 req.include-header: Dbgeng.h
 req.target-type: Desktop

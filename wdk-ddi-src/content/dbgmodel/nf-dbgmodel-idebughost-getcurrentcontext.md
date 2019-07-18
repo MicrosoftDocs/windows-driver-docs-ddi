@@ -5,6 +5,8 @@ description: The GetCurrentContext method returns an interface which represents 
 ms.assetid: 44829ee3-ae2f-4fed-9b80-6de77044a731
 ms.date: 08/14/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDebugHost.GetCurrentContext"
 ms.keywords: IDebugHost::GetCurrentContext, GetCurrentContext, IDebugHost.GetCurrentContext, IDebugHost::GetCurrentContext, IDebugHost.GetCurrentContext
 req.header: dbgmodel.h
 req.include-header:

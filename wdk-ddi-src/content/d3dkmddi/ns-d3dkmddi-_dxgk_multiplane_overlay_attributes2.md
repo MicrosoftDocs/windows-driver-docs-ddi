@@ -7,6 +7,8 @@ ms.assetid: 48C481EF-F3A1-48BF-B251-86D06AC125CC
 ms.date: 05/10/2018
 ms.keywords: DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES2, DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES2 structure [Display Devices], _DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES2, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES2, display.dxgk_multiplane_overlay_attributes2
 ms.topic: struct
+f1_keywords:
+ - "d3dkmddi/DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES2"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

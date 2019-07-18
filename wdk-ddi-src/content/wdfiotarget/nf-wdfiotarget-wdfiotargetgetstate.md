@@ -8,6 +8,8 @@ ms.assetid: 38e22922-d9de-4dfd-9da9-c131b789f5d6
 ms.date: 02/26/2018
 ms.keywords: DFIOTargetRef_a11b8879-0766-4071-b1bd-c4cd43a0973b.xml, WdfIoTargetGetState, WdfIoTargetGetState method, kmdf.wdfiotargetgetstate, wdf.wdfiotargetgetstate, wdfiotarget/WdfIoTargetGetState
 ms.topic: function
+f1_keywords:
+ - "wdfiotarget/WdfIoTargetGetState"
 req.header: wdfiotarget.h
 req.include-header: Wdf.h
 req.target-type: Universal

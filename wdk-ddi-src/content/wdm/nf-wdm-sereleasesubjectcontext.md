@@ -8,6 +8,8 @@ ms.assetid: efae077e-2698-4392-ac2a-8f41acdb12a2
 ms.date: 04/16/2018
 ms.keywords: SeReleaseSubjectContext, SeReleaseSubjectContext routine [Installable File System Drivers], ifsk.sereleasesubjectcontext, ntifs/SeReleaseSubjectContext, seref_f46fe5d3-13d1-4907-85b4-47eb78116fe0.xml
 ms.topic: function
+f1_keywords:
+ - "wdm/SeReleaseSubjectContext"
 req.header: wdm.h
 req.include-header: Ntifs.h, Wdm.h
 req.target-type: Universal

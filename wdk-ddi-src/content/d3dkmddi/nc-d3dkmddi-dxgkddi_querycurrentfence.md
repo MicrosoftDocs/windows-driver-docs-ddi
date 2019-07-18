@@ -7,6 +7,8 @@ ms.assetid: 0ca4d42f-3036-4b81-91a4-fbce7ac891fe
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_QUERYCURRENTFENCE, DXGKDDI_QUERYCURRENTFENCE callback, DmFunctions_d8fe2a82-bd21-4071-9dcf-5b3a12fe25ef.xml, DxgkDdiQueryCurrentFence, DxgkDdiQueryCurrentFence callback function [Display Devices], d3dkmddi/DxgkDdiQueryCurrentFence, display.dxgkddiquerycurrentfence
 ms.topic: callback
+f1_keywords:
+ - "d3dkmddi/DxgkDdiQueryCurrentFence"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Desktop

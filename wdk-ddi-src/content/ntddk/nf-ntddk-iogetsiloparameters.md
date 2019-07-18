@@ -8,6 +8,8 @@ ms.assetid: C8F42E83-2122-4871-972B-9FD06379C271
 ms.date: 04/16/2018
 ms.keywords: IoGetSiloParameters, IoGetSiloParameters function [Installable File System Drivers], PIO_FOEXT_SILO_PARAMETERS, ifsk.iogetsiloparameters, ntddk/IoGetSiloParameters
 ms.topic: function
+f1_keywords:
+ - "ntddk/IoGetSiloParameters"
 req.header: ntddk.h
 req.include-header: 
 req.target-type: Windows

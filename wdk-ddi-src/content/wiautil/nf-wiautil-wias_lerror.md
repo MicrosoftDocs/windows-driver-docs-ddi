@@ -8,6 +8,8 @@ ms.assetid: 71949653-08c7-4f22-951d-6e1595b10700
 ms.date: 05/03/2018
 ms.keywords: IWiaLog_b765e146-4e57-447c-9e9d-0f3cdc784291.xml, WIAS_LERROR, WIAS_LERROR macro [Imaging Devices], image.wias_lerror, wiamdef/WIAS_LERROR
 ms.topic: macro
+f1_keywords:
+ - "wiautil/WIAS_LERROR"
 req.header: wiautil.h
 req.include-header: Wiautil.h
 req.target-type: Desktop

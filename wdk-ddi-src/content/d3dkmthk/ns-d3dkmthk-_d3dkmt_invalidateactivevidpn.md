@@ -7,6 +7,8 @@ ms.assetid: 51fb1993-b9f3-436a-9a6d-7d4f9bf26083
 ms.date: 05/10/2018
 ms.keywords: D3DKMT_INVALIDATEACTIVEVIDPN, D3DKMT_INVALIDATEACTIVEVIDPN structure [Display Devices], OpenGL_Structs_6610529b-39db-4fc4-981a-96a6b3bf7543.xml, _D3DKMT_INVALIDATEACTIVEVIDPN, d3dkmthk/D3DKMT_INVALIDATEACTIVEVIDPN, display.d3dkmt_invalidateactivevidpn
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/D3DKMT_INVALIDATEACTIVEVIDPN"
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

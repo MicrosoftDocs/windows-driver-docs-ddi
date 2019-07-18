@@ -8,6 +8,8 @@ ms.assetid: 03E5C0DB-E245-43E2-80C0-0C1D67673038
 ms.date: 04/30/2018
 ms.keywords: RtlULongAdd, RtlULongAdd function [Kernel-Mode Driver Architecture], kernel.rtlulongadd, ntintsafe/RtlULongAdd
 ms.topic: function
+f1_keywords:
+ - "ntintsafe/RtlULongAdd"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop

@@ -6,6 +6,8 @@ tech.root: audio
 ms.assetid: 9d6ed9a9-9d5e-4af6-b9f8-49431ad7d854
 ms.date: 02/20/2019
 ms.topic: method
+f1_keywords:
+ - "portcls/IDrmPort.GetContentRights"
 ms.keywords: IDrmPort::GetContentRights, GetContentRights, IDrmPort.GetContentRights, IDrmPort::GetContentRights, IDrmPort.GetContentRights
 req.header: portcls.h
 req.include-header:

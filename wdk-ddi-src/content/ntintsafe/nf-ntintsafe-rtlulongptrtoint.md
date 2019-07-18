@@ -8,6 +8,8 @@ ms.assetid: 722A6A13-CAF0-46F3-936A-6E09480D4AC3
 ms.date: 04/30/2018
 ms.keywords: RtlULongPtrToInt, RtlULongPtrToInt function [Kernel-Mode Driver Architecture], kernel.rtlulongptrtoint, ntintsafe/RtlULongPtrToInt
 ms.topic: function
+f1_keywords:
+ - "ntintsafe/RtlULongPtrToInt"
 req.header: ntintsafe.h
 req.include-header: 
 req.target-type: Desktop

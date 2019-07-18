@@ -8,6 +8,8 @@ ms.assetid: 74c6789e-22a6-42e9-bc14-8b9f93da668b
 ms.date: 05/02/2018
 ms.keywords: NdisMSetVirtualFunctionBusData, NdisMSetVirtualFunctionBusData function [Network Drivers Starting with Windows Vista], ndis/NdisMSetVirtualFunctionBusData, netvista.ndismsetvirtualfunctionbusdata
 ms.topic: function
+f1_keywords:
+ - "ndis/NdisMSetVirtualFunctionBusData"
 req.header: ndis.h
 req.include-header: Ndis.h
 req.target-type: Universal

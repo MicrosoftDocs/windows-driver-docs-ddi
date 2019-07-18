@@ -7,6 +7,8 @@ ms.assetid: D55A8B5A-4133-4CE8-AD08-F551A3AEA42C
 ms.date: 05/10/2018
 ms.keywords: DXGKARG_HISTORYBUFFERPRECISION, DXGKARG_HISTORYBUFFERPRECISION structure [Display Devices], _DXGKARG_HISTORYBUFFERPRECISION, d3dkmddi/DXGKARG_HISTORYBUFFERPRECISION, display.dxgkarg_historybufferprecision
 ms.topic: struct
+f1_keywords:
+ - "d3dkmddi/DXGKARG_HISTORYBUFFERPRECISION"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows

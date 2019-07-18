@@ -7,6 +7,8 @@ ms.assetid: 8AF361B5-279D-4525-AD98-843A4A746201
 ms.date: 05/10/2018
 ms.keywords: GetMipPacking, GetMipPacking callback function [Display Devices], PFND3DWDDM1_3DDI_GETMIPPACKING, PFND3DWDDM1_3DDI_GETMIPPACKING callback, d3d10umddi/GetMipPacking, display.getmippacking
 ms.topic: callback
+f1_keywords:
+ - "d3d10umddi/GetMipPacking"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop

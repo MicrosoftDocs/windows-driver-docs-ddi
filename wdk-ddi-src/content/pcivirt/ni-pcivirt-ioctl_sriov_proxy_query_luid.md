@@ -8,6 +8,8 @@ ms.assetid: 9f10ed34-f718-4c35-9b6f-29554bf30a0f
 ms.date: 02/24/2018
 ms.keywords: IOCTL_SRIOV_PROXY_QUERY_LUID, IOCTL_SRIOV_PROXY_QUERY_LUID control code [Buses], PCI.ioctl-sriov-proxy-query-luid, pcivirt/IOCTL_SRIOV_PROXY_QUERY_LUID
 ms.topic: ioctl
+f1_keywords:
+ - "pcivirt/IOCTL_SRIOV_PROXY_QUERY_LUID"
 req.header: pcivirt.h
 req.include-header:
 req.target-type: Windows

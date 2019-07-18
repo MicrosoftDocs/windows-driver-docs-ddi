@@ -8,6 +8,8 @@ ms.assetid: 10EB0C86-915F-4C24-ADBE-1D8E8DD8ECB6
 ms.date: 05/07/2018
 ms.keywords: UFX_ENDPOINT_CALLBACKS_INIT, UFX_ENDPOINT_CALLBACKS_INIT function [Buses], buses.ufx_endpoint_callbacks_init, ufxclient/UFX_ENDPOINT_CALLBACKS_INIT
 ms.topic: function
+f1_keywords:
+ - "ufxclient/UFX_ENDPOINT_CALLBACKS_INIT"
 req.header: ufxclient.h
 req.include-header: 
 req.target-type: Windows

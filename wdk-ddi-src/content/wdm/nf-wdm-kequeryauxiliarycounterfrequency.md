@@ -8,6 +8,8 @@ ms.assetid: E7F9549D-F222-42BF-B82B-B0DA0F6BC60F
 ms.date: 04/30/2018
 ms.keywords: KeQueryAuxiliaryCounterFrequency, KeQueryAuxiliaryCounterFrequency routine [Kernel-Mode Driver Architecture], kernel.kequeryauxiliarycounterfrequency, wdm/KeQueryAuxiliaryCounterFrequency
 ms.topic: function
+f1_keywords:
+ - "wdm/KeQueryAuxiliaryCounterFrequency"
 req.header: wdm.h
 req.include-header: 
 req.target-type: Universal

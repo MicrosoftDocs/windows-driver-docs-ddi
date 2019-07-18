@@ -5,6 +5,8 @@ description: Specifies the video function table for the  Microsoft Direct3D driv
 ms.assetid: 25d4904c-ade7-4028-bdad-54af640b64fd
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3d10umddi/D3DWDDM2_1DDI_VIDEODEVICEFUNCS"
 ms.keywords: D3DWDDM2_1DDI_VIDEODEVICEFUNCS, D3DWDDM2_1DDI_VIDEODEVICEFUNCS,
 req.header: d3d10umddi.h
 req.include-header:

@@ -8,6 +8,8 @@ ms.assetid: 3f4a47bb-460e-4ca0-9aee-4bcfdb88dd30
 ms.date: 04/23/2018
 ms.keywords: GetCorrelatedTime, GetCorrelatedTime method [Streaming Media Devices], GetCorrelatedTime method [Streaming Media Devices],IKsReferenceClock interface, IKsReferenceClock interface [Streaming Media Devices],GetCorrelatedTime method, IKsReferenceClock.GetCorrelatedTime, IKsReferenceClock::GetCorrelatedTime, avintfc_9bb8180e-a8e6-4b89-a615-0516470a7dd8.xml, ks/IKsReferenceClock::GetCorrelatedTime, stream.iksreferenceclock_getcorrelatedtime
 ms.topic: method
+f1_keywords:
+ - "ks/IKsReferenceClock.GetCorrelatedTime"
 req.header: ks.h
 req.include-header: Ks.h
 req.target-type: Universal

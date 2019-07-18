@@ -6,6 +6,8 @@ tech.root: audio
 ms.assetid: f37f5dda-6223-41e5-bdfd-5ac8a66d0525
 ms.date: 02/20/2019
 ms.topic: method
+f1_keywords:
+ - "portcls/IDrmPort.DestroyContent"
 ms.keywords: IDrmPort::DestroyContent, DestroyContent, IDrmPort.DestroyContent, IDrmPort::DestroyContent, IDrmPort.DestroyContent
 req.header: portcls.h
 req.include-header:

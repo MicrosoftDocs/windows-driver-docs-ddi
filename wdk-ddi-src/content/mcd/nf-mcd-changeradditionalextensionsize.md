@@ -8,6 +8,8 @@ ms.assetid: d9bcbad5-ce2c-4968-9544-4fb024b1e933
 ms.date: 03/29/2018
 ms.keywords: ChangerAdditionalExtensionSize, ChangerAdditionalExtensionSize function [Storage Devices], chgrmini_22c1f2f6-d441-4208-b104-46711c4204cd.xml, mcd/ChangerAdditionalExtensionSize, storage.changeradditionalextensionsize
 ms.topic: function
+f1_keywords:
+ - "mcd/ChangerAdditionalExtensionSize"
 req.header: mcd.h
 req.include-header: Mcd.h, Ntddchgr.h
 req.target-type: Desktop

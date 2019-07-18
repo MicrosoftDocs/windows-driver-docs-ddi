@@ -8,6 +8,8 @@ ms.assetid: c3a5af59-c97c-42be-bc43-afa30ad710ec
 ms.date: 02/15/2018
 ms.keywords: ACPI_OP_REGION_HANDLER, ACPI_OP_REGION_HANDLER callback, AcpiOpRegionHandler, AcpiOpRegionHandler callback function [ACPI Devices], acpi.pacpi_op_region_handler, opregref_be7bf2cd-0369-4efd-bbdb-5ad7dc28c33d.xml, oprghdlr/AcpiOpRegionHandler
 ms.topic: callback
+f1_keywords:
+ - "oprghdlr/AcpiOpRegionHandler"
 req.header: oprghdlr.h
 req.include-header: Oprghdlr.h
 req.target-type: Desktop

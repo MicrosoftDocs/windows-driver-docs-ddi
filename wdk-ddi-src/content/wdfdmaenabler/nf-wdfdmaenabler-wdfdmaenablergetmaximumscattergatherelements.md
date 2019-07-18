@@ -8,6 +8,8 @@ ms.assetid: de02d40d-3438-4a34-9e2b-07a7d9c4c8ac
 ms.date: 02/26/2018
 ms.keywords: DFDmaObjectRef_34ec0aef-b846-4b23-b9b3-01e8834821f7.xml, WdfDmaEnablerGetMaximumScatterGatherElements, WdfDmaEnablerGetMaximumScatterGatherElements method, kmdf.wdfdmaenablergetmaximumscattergatherelements, wdf.wdfdmaenablergetmaximumscattergatherelements, wdfdmaenabler/WdfDmaEnablerGetMaximumScatterGatherElements
 ms.topic: function
+f1_keywords:
+ - "wdfdmaenabler/WdfDmaEnablerGetMaximumScatterGatherElements"
 req.header: wdfdmaenabler.h
 req.include-header: Wdf.h
 req.target-type: Universal

@@ -5,6 +5,8 @@ description:
 ms.assetid: 29fca9d8-ddc6-40b5-92c0-079441f965b3
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "wdm/PALLOCATE_DOMAIN_COMMON_BUFFER"
 req.header: wdm.h
 req.include-header:
 req.target-type:

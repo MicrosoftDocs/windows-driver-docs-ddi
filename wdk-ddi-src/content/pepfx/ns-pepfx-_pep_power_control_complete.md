@@ -8,6 +8,8 @@ ms.assetid: E270B609-2D47-4D55-94A6-BE82B2E5B77A
 ms.date: 04/30/2018
 ms.keywords: "*PPEP_POWER_CONTROL_COMPLETE, PEP_POWER_CONTROL_COMPLETE, PEP_POWER_CONTROL_COMPLETE structure [Kernel-Mode Driver Architecture], PPEP_POWER_CONTROL_COMPLETE, PPEP_POWER_CONTROL_COMPLETE structure pointer [Kernel-Mode Driver Architecture], _PEP_POWER_CONTROL_COMPLETE, kernel.pep_power_control_complete, pepfx/PEP_POWER_CONTROL_COMPLETE, pepfx/PPEP_POWER_CONTROL_COMPLETE"
 ms.topic: struct
+f1_keywords:
+ - "pepfx/PEP_POWER_CONTROL_COMPLETE"
 req.header: pepfx.h
 req.include-header: Pep_x.h
 req.target-type: Windows

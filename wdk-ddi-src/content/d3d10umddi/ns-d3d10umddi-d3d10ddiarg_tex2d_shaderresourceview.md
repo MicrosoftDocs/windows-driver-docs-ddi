@@ -7,6 +7,8 @@ ms.assetid: 2282d08e-e192-4a0f-972b-1441cea1fe7d
 ms.date: 05/10/2018
 ms.keywords: D3D10DDIARG_TEX2D_SHADERRESOURCEVIEW, D3D10DDIARG_TEX2D_SHADERRESOURCEVIEW structure [Display Devices], UMDisplayDriver_Dx10param_Structs_ebe6122b-f1bb-4f9d-b677-c721643fe227.xml, d3d10umddi/D3D10DDIARG_TEX2D_SHADERRESOURCEVIEW, display.d3d10ddiarg_tex2d_shaderresourceview
 ms.topic: struct
+f1_keywords:
+ - "d3d10umddi/D3D10DDIARG_TEX2D_SHADERRESOURCEVIEW"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Windows

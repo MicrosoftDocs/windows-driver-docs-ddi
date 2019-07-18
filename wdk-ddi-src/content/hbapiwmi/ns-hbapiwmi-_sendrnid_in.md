@@ -8,6 +8,8 @@ ms.assetid: 668c4d1a-52e8-49ea-bd19-e789dfa8dfa5
 ms.date: 03/29/2018
 ms.keywords: "*PSendRNID_IN, PSendRNID_IN, PSendRNID_IN structure pointer [Storage Devices], SendRNID_IN, SendRNID_IN structure [Storage Devices], _SendRNID_IN, hbapiwmi/PSendRNID_IN, hbapiwmi/SendRNID_IN, storage.sendrnid_in, structs-Fibre_506226e9-45f1-40d3-bd41-7b30fe16673e.xml"
 ms.topic: struct
+f1_keywords:
+ - "hbapiwmi/SendRNID_IN"
 req.header: hbapiwmi.h
 req.include-header: Hbapiwmi.h
 req.target-type: Windows

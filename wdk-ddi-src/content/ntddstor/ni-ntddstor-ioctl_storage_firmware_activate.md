@@ -8,6 +8,8 @@ ms.assetid: 5604A708-D321-423B-826D-94F4295B4307
 ms.date: 03/29/2018
 ms.keywords: IOCTL_STORAGE_FIRMWARE_ACTIVATE, IOCTL_STORAGE_FIRMWARE_ACTIVATE control, IOCTL_STORAGE_FIRMWARE_ACTIVATE control code [Storage Devices], ntddstor/IOCTL_STORAGE_FIRMWARE_ACTIVATE, storage.ioctl_storage_firmware_activate
 ms.topic: ioctl
+f1_keywords:
+ - "ntddstor/IOCTL_STORAGE_FIRMWARE_ACTIVATE"
 req.header: ntddstor.h
 req.include-header: Ntddstor.h
 req.target-type: Windows

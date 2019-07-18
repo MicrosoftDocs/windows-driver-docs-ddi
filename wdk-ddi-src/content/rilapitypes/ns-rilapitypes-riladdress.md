@@ -8,6 +8,8 @@ ms.assetid: 45888814-28c4-4cbc-ace8-7b4aa682b91b
 ms.date: 02/26/2018
 ms.keywords: "*LPRILADDRESS, RILADDRESS, RILADDRESS structure [Network Drivers Starting with Windows Vista], netvista.riladdress_2, rilapitypes/RILADDRESS"
 ms.topic: struct
+f1_keywords:
+ - "rilapitypes/RILADDRESS"
 req.header: rilapitypes.h
 req.include-header:
 req.target-type: Windows

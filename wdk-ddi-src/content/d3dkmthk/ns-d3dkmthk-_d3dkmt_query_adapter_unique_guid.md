@@ -5,6 +5,8 @@ description: Used to query for a unique guid.
 ms.assetid: 35ebebc5-e10d-4360-9f1b-9b2580072237
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "d3dkmthk/_D3DKMT_QUERY_ADAPTER_UNIQUE_GUID"
 ms.keywords: _D3DKMT_QUERY_ADAPTER_UNIQUE_GUID, D3DKMT_QUERY_ADAPTER_UNIQUE_GUID,
 req.header: d3dkmthk.h
 req.include-header:

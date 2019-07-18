@@ -8,6 +8,8 @@ ms.assetid: ebcbec0c-c5ee-4af1-be3c-36c730f82f4e
 ms.date: 03/01/2018
 ms.keywords: WRITE_REGISTER_USHORT, WRITE_REGISTER_USHORT routine [Kernel-Mode Driver Architecture], k103_bc20d667-b3c7-4e46-a21d-06123e73d348.xml, kernel.write_register_ushort, wdm/WRITE_REGISTER_USHORT
 ms.topic: function
+f1_keywords:
+ - "ioaccess/WRITE_REGISTER_USHORT"
 req.header: ioaccess.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Ioaccess.h, Miniport.h, Wudfwdm.h
 req.target-type: Universal

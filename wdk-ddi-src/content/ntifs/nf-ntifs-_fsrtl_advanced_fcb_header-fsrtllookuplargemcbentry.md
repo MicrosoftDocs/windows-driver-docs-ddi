@@ -8,6 +8,8 @@ ms.assetid: 35c6fefb-6045-4b0e-abe8-f78176ca144a
 ms.date: 04/16/2018
 ms.keywords: FsRtlLookupLargeMcbEntry, FsRtlLookupLargeMcbEntry routine [Installable File System Drivers], fsrtlref_600ea10a-a948-4169-9877-5a8a603b0426.xml, ifsk.fsrtllookuplargemcbentry, ntifs/FsRtlLookupLargeMcbEntry
 ms.topic: function
+f1_keywords:
+ - "ntifs/FsRtlLookupLargeMcbEntry"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal

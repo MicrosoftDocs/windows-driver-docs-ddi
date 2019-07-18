@@ -8,6 +8,8 @@ ms.assetid: 5D1B228D-81D9-47FE-8CF2-41AAD9148667
 ms.date: 02/26/2018
 ms.keywords: WdfDeviceWdmDispatchIrpToIoQueue, WdfDeviceWdmDispatchIrpToIoQueue method, kmdf.wdfdevicewdmdispatchirptoioqueue, kmdf.wdfdevicewdmforwardirptoioqueue, wdf.wdfdevicewdmdispatchirptoioqueue, wdfdevice/WdfDeviceWdmDispatchIrpToIoQueue
 ms.topic: function
+f1_keywords:
+ - "wdfdevice/WdfDeviceWdmDispatchIrpToIoQueue"
 req.header: wdfdevice.h
 req.include-header: Wdf.h
 req.target-type: Universal

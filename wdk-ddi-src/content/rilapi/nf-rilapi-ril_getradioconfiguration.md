@@ -8,6 +8,8 @@ ms.assetid: 8e450e58-41e0-4df2-83d9-8975d437cdcb
 ms.date: 05/02/2018
 ms.keywords: RIL_GetRadioConfiguration, RIL_GetRadioConfiguration method [Network Drivers Starting with Windows Vista], netvista.ril_getradioconfiguration, rilapi/RIL_GetRadioConfiguration
 ms.topic: function
+f1_keywords:
+ - "rilapi/RIL_GetRadioConfiguration"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows

@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 8371490f-2c1b-41fe-8a90-6c12e92e793d
 ms.date: 08/23/2018
 ms.topic: struct
+f1_keywords:
+ - "ndiswwan/_NDIS_WWAN_LTE_ATTACH_STATUS"
 ms.keywords: _NDIS_WWAN_LTE_ATTACH_STATUS, NDIS_WWAN_LTE_ATTACH_STATUS, *PNDIS_WWAN_LTE_ATTACH_STATUS, 
 req.header: ndiswwan.h
 req.include-header:

@@ -8,6 +8,8 @@ ms.assetid: dc7058ef-5242-4959-aa33-cf04ffcbfe48
 ms.author: windowsdriverdev
 ms.date: 02/04/2019
 ms.topic: function
+f1_keywords:
+ - "netringiterator/NetPacketIteratorAdvance"
 ms.keywords: NetPacketIteratorAdvance
 req.header: netringiterator.h
 req.include-header:

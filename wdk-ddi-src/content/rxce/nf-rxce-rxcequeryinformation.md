@@ -8,6 +8,8 @@ ms.assetid: 58dd579c-3fb8-45c7-a7bc-ca0919166153
 ms.date: 04/16/2018
 ms.keywords: RxCeQueryInformation, RxCeQueryInformation function [Installable File System Drivers], ifsk.rxcequeryinformation, rxce/RxCeQueryInformation, rxref_b7508a13-8eb0-42d0-917c-300a5eb4c0e9.xml
 ms.topic: function
+f1_keywords:
+ - "rxce/RxCeQueryInformation"
 req.header: rxce.h
 req.include-header: Rxce.h, Rxcehdlr.h, Tdi.h
 req.target-type: Desktop

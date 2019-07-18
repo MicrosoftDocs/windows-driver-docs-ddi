@@ -8,6 +8,8 @@ ms.assetid: ad24f1b4-ac7f-46df-8f8d-14c956c73a34
 ms.date: 02/26/2018
 ms.keywords: DFIOTargetRef_43beb595-b555-4253-8a54-495e9e14f071.xml, WdfIoTargetWdmGetTargetPhysicalDevice, WdfIoTargetWdmGetTargetPhysicalDevice method, kmdf.wdfiotargetwdmgettargetphysicaldevice, wdf.wdfiotargetwdmgettargetphysicaldevice, wdfiotarget/WdfIoTargetWdmGetTargetPhysicalDevice
 ms.topic: function
+f1_keywords:
+ - "wdfiotarget/WdfIoTargetWdmGetTargetPhysicalDevice"
 req.header: wdfiotarget.h
 req.include-header: Wdf.h
 req.target-type: Universal

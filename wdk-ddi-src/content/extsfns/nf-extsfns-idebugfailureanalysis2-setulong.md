@@ -8,6 +8,8 @@ ms.assetid: 90C0AAE1-EE79-4347-B6F1-276DBF84F7BC
 ms.date: 05/03/2018
 ms.keywords: IDebugFailureAnalysis2 interface [Windows Debugging],SetUlong method, IDebugFailureAnalysis2.SetUlong, IDebugFailureAnalysis2::SetUlong, SetUlong, SetUlong method [Windows Debugging], SetUlong method [Windows Debugging],IDebugFailureAnalysis2 interface, debugger.idebugfailureanalysis2_setextensionulong, debugger.idebugfailureanalysis2_setulong, extsfns/IDebugFailureAnalysis2::SetUlong
 ms.topic: method
+f1_keywords:
+ - "extsfns/IDebugFailureAnalysis2.SetUlong"
 req.header: extsfns.h
 req.include-header: 
 req.target-type: Desktop

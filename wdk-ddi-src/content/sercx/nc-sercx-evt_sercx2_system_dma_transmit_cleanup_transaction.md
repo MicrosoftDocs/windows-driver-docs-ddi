@@ -8,6 +8,8 @@ ms.assetid: DAC33D61-F85C-43A7-9F4D-AA31F8CA4430
 ms.date: 04/23/2018
 ms.keywords: 2/EvtSerCx2SystemDmaTransmitCleanupTransaction, EVT_SERCX2_SYSTEM_DMA_TRANSMIT_CLEANUP_TRANSACTION, EVT_SERCX2_SYSTEM_DMA_TRANSMIT_CLEANUP_TRANSACTION callback, EvtSerCx2SystemDmaTransmitCleanupTransaction, EvtSerCx2SystemDmaTransmitCleanupTransaction callback function [Serial Ports], serports.evtsercx2systemdmatransmitcleanuptransaction
 ms.topic: callback
+f1_keywords:
+ - "sercx/EvtSerCx2SystemDmaTransmitCleanupTransaction"
 req.header: sercx.h
 req.include-header: 
 req.target-type: Desktop

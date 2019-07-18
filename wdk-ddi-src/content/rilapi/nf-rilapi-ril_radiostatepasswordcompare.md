@@ -8,6 +8,8 @@ ms.assetid: f984bb4f-ecc8-4e6c-bb2c-a721395f1958
 ms.date: 05/02/2018
 ms.keywords: RIL_RadioStatePasswordCompare, RIL_RadioStatePasswordCompare method [Network Drivers Starting with Windows Vista], netvista.ril_radiostatepasswordcompare, rilapi/RIL_RadioStatePasswordCompare
 ms.topic: function
+f1_keywords:
+ - "rilapi/RIL_RadioStatePasswordCompare"
 req.header: rilapi.h
 req.include-header: 
 req.target-type: Windows

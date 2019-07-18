@@ -8,6 +8,8 @@ ms.assetid: DF6A3FD2-22B4-452D-8D43-1EB25E2CEEA5
 ms.date: 04/20/2018
 ms.keywords: IPrintAsyncNotifyRegistration, IPrintAsyncNotifyRegistration interface [Print Devices], IPrintAsyncNotifyRegistration interface [Print Devices],described, print.iprintasyncnotifyregistration, prnasntp/IPrintAsyncNotifyRegistration
 ms.topic: interface
+f1_keywords:
+ - "prnasntp/IPrintAsyncNotifyRegistration"
 req.header: prnasntp.h
 req.include-header: 
 req.target-type: Windows

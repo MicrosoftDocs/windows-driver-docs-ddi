@@ -8,6 +8,8 @@ ms.assetid: a653a980-8ad6-46e7-ad9d-f060ab333731
 ms.date: 04/30/2018
 ms.keywords: NtSinglePhaseReject, ZwSinglePhaseReject, ZwSinglePhaseReject routine [Kernel-Mode Driver Architecture], kernel.zwsinglephasereject, ktm_ref_9bc69cd9-19ee-4f3e-b5c8-fea8ddb05e17.xml, wdm/NtSinglePhaseReject, wdm/ZwSinglePhaseReject
 ms.topic: function
+f1_keywords:
+ - "wdm/ZwSinglePhaseReject"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal

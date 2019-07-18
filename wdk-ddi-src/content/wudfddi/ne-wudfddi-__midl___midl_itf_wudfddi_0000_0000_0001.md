@@ -8,6 +8,8 @@ ms.assetid: 0c4a5eb8-d364-4e5d-9d2f-2605c8c34f63
 ms.date: 02/26/2018
 ms.keywords: "*PPOWER_ACTION, POWER_ACTION, POWER_ACTION enumeration, PPOWER_ACTION, PPOWER_ACTION enumeration pointer, PowerActionHibernate, PowerActionNone, PowerActionReserved, PowerActionShutdown, PowerActionShutdownOff, PowerActionShutdownReset, PowerActionSleep, PowerActionWarmEject, __MIDL___MIDL_itf_wudfddi_0000_0000_0001, umdf.power_action, umdfstructs_02db2a83-1907-4aa2-9cdd-af3477e78ddd.xml, wdf.power_action, wudfddi/POWER_ACTION, wudfddi/PPOWER_ACTION, wudfddi/PowerActionHibernate, wudfddi/PowerActionNone, wudfddi/PowerActionReserved, wudfddi/PowerActionShutdown, wudfddi/PowerActionShutdownOff, wudfddi/PowerActionShutdownReset, wudfddi/PowerActionSleep, wudfddi/PowerActionWarmEject"
 ms.topic: enum
+f1_keywords:
+ - "wudfddi/POWER_ACTION"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h, Ntpoapi.h, Wdm.h
 req.target-type: Windows

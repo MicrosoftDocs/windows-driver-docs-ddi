@@ -5,6 +5,8 @@ description:
 ms.assetid: e9255cb1-ba40-4432-bbe7-72a9d57d4b6d
 ms.date: 10/05/2018
 ms.topic: ioctl
+f1_keywords:
+ - "sidebandaudio/IOCTL_SBAUD_GET_VOLUME_STATUS_UPDATE"
 req.header: sidebandaudio.h
 req.include-header:
 req.target-type:

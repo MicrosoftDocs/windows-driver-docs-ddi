@@ -5,6 +5,8 @@ description: The Close method is called on the data model manager by an applicat
 ms.assetid: 8c20af38-5915-4078-90ef-f6c1156cac1d
 ms.date: 07/16/2018
 ms.topic: method
+f1_keywords:
+ - "dbgmodel/IDataModelManager.Close"
 ms.keywords: IDataModelManager::Close, Close, IDataModelManager.Close, IDataModelManager::Close, IDataModelManager.Close
 req.header: dbgmodel.h
 req.include-header:

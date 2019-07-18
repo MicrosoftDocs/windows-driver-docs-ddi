@@ -8,6 +8,8 @@ ms.assetid: 5e9afbbd-8f2c-41b1-b769-87146bcd14b5
 ms.author: windowsdriverdev
 ms.date: 
 ms.topic: struct
+f1_keywords:
+ - "ntddk/WHEAP_DROPPED_CORRECTED_ERROR_EVENT"
 ms.keywords: WHEAP_DROPPED_CORRECTED_ERROR_EVENT, WHEAP_DROPPED_CORRECTED_ERROR_EVENT, *PWHEAP_DROPPED_CORRECTED_ERROR_EVENT, 
 req.header: ntddk.h
 req.include-header:

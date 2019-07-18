@@ -8,6 +8,8 @@ ms.assetid: 847987d4-f67b-4e88-9a8d-9be4ad9be80d
 ms.date: 05/02/2018
 ms.keywords: "*PNDIS_HYPERVISOR_INFO, NDIS_HYPERVISOR_INFO, NDIS_HYPERVISOR_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_HYPERVISOR_INFO, PNDIS_HYPERVISOR_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_HYPERVISOR_INFO, netvista.ndis_hypervisor_info, ntddndis/NDIS_HYPERVISOR_INFO, ntddndis/PNDIS_HYPERVISOR_INFO, virtual_machine_queue_ref_c0f9611a-2d20-4757-ba59-16bf6a83549c.xml"
 ms.topic: struct
+f1_keywords:
+ - "ntddndis/NDIS_HYPERVISOR_INFO"
 req.header: ntddndis.h
 req.include-header: Ndis.h
 req.target-type: Windows

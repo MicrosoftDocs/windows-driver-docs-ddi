@@ -6,6 +6,8 @@ tech.root: netvista
 ms.assetid: 89f3058a-785e-4a01-8082-21851b77e8fd
 ms.date: 03/01/2018
 ms.topic: function
+f1_keywords:
+ - "netadapterpacket/NET_PACKET_EXTENSION_INIT"
 ms.keywords: NET_PACKET_EXTENSION_INIT
 req.header: netadapterpacket.h
 req.include-header: netadaptercx.h

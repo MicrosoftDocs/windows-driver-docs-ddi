@@ -8,6 +8,8 @@ ms.assetid: aea2aff2-5983-4583-9cc8-a45401ecdfb6
 ms.date: 04/27/2018
 ms.keywords: IOCTL_BTH_SDP_SERVICE_SEARCH, IOCTL_BTH_SDP_SERVICE_SEARCH control, IOCTL_BTH_SDP_SERVICE_SEARCH control code [Bluetooth Devices], bltooth.ioctl_bth_sdp_service_search, bth_ioctls_63b14ae9-91a6-42c7-bdd2-6ab9326f106c.xml, bthioctl/IOCTL_BTH_SDP_SERVICE_SEARCH
 ms.topic: ioctl
+f1_keywords:
+ - "bthioctl/IOCTL_BTH_SDP_SERVICE_SEARCH"
 req.header: bthioctl.h
 req.include-header: Bthioctl.h
 req.target-type: Windows

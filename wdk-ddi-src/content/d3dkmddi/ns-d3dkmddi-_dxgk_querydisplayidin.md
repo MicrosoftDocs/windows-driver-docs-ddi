@@ -7,6 +7,8 @@ ms.assetid: C7A2CECA-AAE5-4804-92FF-C47984BA38AF
 ms.date: 05/10/2018
 ms.keywords: DXGK_QUERYDISPLAYIDIN, DXGK_QUERYDISPLAYIDIN structure [Display Devices], _DXGK_QUERYDISPLAYIDIN, d3dkmddi/DXGK_QUERYDISPLAYIDIN, display.dxgk_querydisplayidin
 ms.topic: struct
+f1_keywords:
+ - "d3dkmddi/DXGK_QUERYDISPLAYIDIN"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Windows

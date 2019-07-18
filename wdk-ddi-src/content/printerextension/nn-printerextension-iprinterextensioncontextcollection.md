@@ -8,6 +8,8 @@ ms.assetid: 693DAA13-70B3-48A7-9BC2-6369691539FD
 ms.date: 04/20/2018
 ms.keywords: IPrinterExtensionContextCollection, IPrinterExtensionContextCollection interface [Print Devices], IPrinterExtensionContextCollection interface [Print Devices],described, print.iprinterextensioncontextcollection, printerextension/IPrinterExtensionContextCollection
 ms.topic: interface
+f1_keywords:
+ - "printerextension/IPrinterExtensionContextCollection"
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Windows

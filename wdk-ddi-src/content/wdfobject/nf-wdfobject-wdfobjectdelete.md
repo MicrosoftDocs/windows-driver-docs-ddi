@@ -8,6 +8,8 @@ ms.assetid: 09eceeb4-8501-48c4-84f5-aa747914f9dd
 ms.date: 02/26/2018
 ms.keywords: DFGenObjectRef_d054ae6b-e88d-46e8-ad62-2bfb23a76cd7.xml, WdfObjectDelete, WdfObjectDelete method, kmdf.wdfobjectdelete, wdf.wdfobjectdelete, wdfobject/WdfObjectDelete
 ms.topic: function
+f1_keywords:
+ - "wdfobject/WdfObjectDelete"
 req.header: wdfobject.h
 req.include-header: Wdf.h
 req.target-type: Universal

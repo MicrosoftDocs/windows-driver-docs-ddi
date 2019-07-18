@@ -8,6 +8,8 @@ ms.assetid: 4F29E9BD-F534-45EC-99C3-F006A0E03B31
 ms.date: 02/24/2018
 ms.keywords: GET_VIRTUAL_DEVICE_RESOURCES, GetResources, GetResources routine, PCI.getresources, wdm/GetResources
 ms.topic: callback
+f1_keywords:
+ - "wdm/GetResources"
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: Desktop

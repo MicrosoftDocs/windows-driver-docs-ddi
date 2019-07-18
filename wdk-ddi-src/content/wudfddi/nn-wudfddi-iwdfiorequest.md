@@ -8,6 +8,8 @@ ms.assetid: 3104284a-4277-4f05-ae3f-3b2bb3c3437d
 ms.date: 02/26/2018
 ms.keywords: IWDFIoRequest, IWDFIoRequest interface, IWDFIoRequest interface,described, UMDFRequestObjectRef_65cbf2de-e966-4eb3-8f3f-2012dba23d99.xml, umdf.iwdfiorequest, wdf.iwdfiorequest, wudfddi/IWDFIoRequest
 ms.topic: interface
+f1_keywords:
+ - "wudfddi/IWDFIoRequest"
 req.header: wudfddi.h
 req.include-header: 
 req.target-type: Desktop

@@ -7,6 +7,8 @@ ms.assetid: 0aba733b-a69a-4a8a-a8bc-e934fbbbacbf
 ms.date: 04/16/2018
 ms.keywords: D3D12DDI_VIDEO_DECODE_BITSTREAM_ENCRYPTION_SCHEME_COUNT_DATA_0032, D3D12DDI_VIDEO_DECODE_BITSTREAM_ENCRYPTION_SCHEME_COUNT_DATA_0032 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_DECODE_BITSTREAM_ENCRYPTION_SCHEME_COUNT_DATA_0032, display.d3d12ddi-video-decode-bitstream-encryption-scheme-count-data-0032
 ms.topic: struct
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_VIDEO_DECODE_BITSTREAM_ENCRYPTION_SCHEME_COUNT_DATA_0032"
 req.header: d3d12umddi.h
 req.include-header:
 req.target-type: Windows

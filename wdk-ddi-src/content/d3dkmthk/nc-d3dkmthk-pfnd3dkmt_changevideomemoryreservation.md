@@ -5,6 +5,8 @@ description: The PFND3DKMT_CHANGEVIDEOMEMORYRESERVATION callback function change
 ms.assetid: 2c2dd799-7d1f-4837-8e77-13c3107908ba
 ms.date: 10/19/2018
 ms.topic: callback
+f1_keywords:
+ - "d3dkmthk/PFND3DKMT_CHANGEVIDEOMEMORYRESERVATION"
 req.header: d3dkmthk.h
 req.include-header:
 req.target-type:

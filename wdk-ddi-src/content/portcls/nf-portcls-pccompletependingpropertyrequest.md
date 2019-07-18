@@ -8,6 +8,8 @@ ms.assetid: a4b59403-9a2f-4857-947b-dff8e3ea079c
 ms.date: 05/08/2018
 ms.keywords: PcCompletePendingPropertyRequest, PcCompletePendingPropertyRequest function [Audio Devices], audio.pccompletependingpropertyrequest, audpc-routines_934503ea-325f-4e57-ba45-e8834a64cefa.xml, portcls/PcCompletePendingPropertyRequest
 ms.topic: function
+f1_keywords:
+ - "portcls/PcCompletePendingPropertyRequest"
 req.header: portcls.h
 req.include-header: Portcls.h
 req.target-type: Universal

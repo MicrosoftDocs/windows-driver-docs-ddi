@@ -8,6 +8,8 @@ ms.assetid: 9e23ae80-7c39-4cee-b1ab-80085f24d41f
 ms.date: 02/26/2018
 ms.keywords: CloseForQueryRemove, CloseForQueryRemove method, CloseForQueryRemove method,IWDFRemoteTarget interface, IWDFRemoteTarget interface,CloseForQueryRemove method, IWDFRemoteTarget.CloseForQueryRemove, IWDFRemoteTarget::CloseForQueryRemove, UMDFIoTargetObjectRef_b816e346-75b1-4da2-a9cf-f6db32abb3ed.xml, umdf.iwdfremotetarget_closeforqueryremove, wdf.iwdfremotetarget_closeforqueryremove, wudfddi/IWDFRemoteTarget::CloseForQueryRemove
 ms.topic: method
+f1_keywords:
+ - "wudfddi/IWDFRemoteTarget.CloseForQueryRemove"
 req.header: wudfddi.h
 req.include-header: Wudfddi.h
 req.target-type: Desktop

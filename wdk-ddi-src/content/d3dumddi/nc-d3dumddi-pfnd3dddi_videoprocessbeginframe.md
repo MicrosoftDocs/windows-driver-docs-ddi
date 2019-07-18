@@ -8,6 +8,8 @@ ms.assetid: 1b7b1774-3144-4929-83d8-c52a7de6936d
 ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_VIDEOPROCESSBEGINFRAME, PFND3DDDI_VIDEOPROCESSBEGINFRAME callback, UserModeDisplayDriver_Functions_c3ad6569-b0a0-4688-bd1a-f02a7176a2f2.xml, VideoProcessBeginFrame, VideoProcessBeginFrame callback function [Display Devices], d3dumddi/VideoProcessBeginFrame, display.videoprocessbeginframe
 ms.topic: callback
+f1_keywords:
+ - "d3dumddi/VideoProcessBeginFrame"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop

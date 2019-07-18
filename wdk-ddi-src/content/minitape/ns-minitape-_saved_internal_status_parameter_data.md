@@ -5,6 +5,8 @@ description:
 ms.assetid: a3d9f2ab-79b5-46b2-ba6a-1dfe04bc9b49
 ms.date: 10/19/2018
 ms.topic: struct
+f1_keywords:
+ - "minitape/_SAVED_INTERNAL_STATUS_PARAMETER_DATA"
 ms.keywords: _SAVED_INTERNAL_STATUS_PARAMETER_DATA, SAVED_INTERNAL_STATUS_PARAMETER_DATA, *PSAVED_INTERNAL_STATUS_PARAMETER_DATA, 
 req.header: minitape.h
 req.include-header:
