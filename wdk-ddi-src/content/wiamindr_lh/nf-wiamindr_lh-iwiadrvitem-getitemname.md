@@ -66,7 +66,7 @@ If the method succeeds, it stores a pointer to the item's name (path information
 
 ## -remarks
 
-If there is enough memory available, the method allocates a string containing the current item's name, excluding path information. The method returns a pointer to the string in *pbstrItemName*. The minidriver must deallocate the memory used by the string by calling the [**SysFreeString**](https://docs.microsoft.com/en-us/windows/win32/api/oleauto/nf-oleauto-sysfreestring) function.
+If there is enough memory available, the method allocates a string containing the current item's name, excluding path information. The method returns a pointer to the string in *pbstrItemName*. The minidriver must deallocate the memory used by the string by calling the [**SysFreeString**](https://docs.microsoft.com/windows/win32/api/oleauto/nf-oleauto-sysfreestring) function.
 
 ## -see-also
 
