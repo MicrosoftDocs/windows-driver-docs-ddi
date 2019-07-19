@@ -52,7 +52,7 @@ The WIA_DEV_CAP_DRV structure is used to enumerate device capabilities. A device
 
 ### -field guid
 
-Points to a GUID that identifies the device capability. This member can be set to any of the values specified for WIA device commands (WIA_CMD_*XXX* commands) or WIA event identifiers (WIA_EVENT_*XXX* event identifiers). See the Microsoft Windows SDK documentation for more information.
+Points to a GUID that identifies the device capability. This member can be set to any of the values specified for WIA device commands (WIA_CMD_*XXX* commands) or WIA event identifiers (WIA_EVENT_*XXX* event identifiers). For more information, see [WIA Device Commands](https://docs.microsoft.com/windows/win32/wia/-wia-wia-device-commands).
 
 The driver can define its own capability GUID that it can send down to the device. An application would need to have specific knowledge about that capability in order for it to be able to respond to the new capability, however. An application normally recognizes only the standard WIA command and event GUIDs (WIA_CMD_XXX and WIA_EVENT_XXX).
 
