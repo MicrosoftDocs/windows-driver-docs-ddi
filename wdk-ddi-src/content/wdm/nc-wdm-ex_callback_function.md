@@ -125,11 +125,11 @@ A pointer to a structure that contains information that is specific to the type 
 | **RegNtPostSetKeySecurity** | [REG_POST_OPERATION_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_post_operation_information)  | 
 | **RegNtCallbackObjectContextCleanup** | [REG_CALLBACK_CONTEXT_CLEANUP_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_callback_context_cleanup_information)  | 
 | **RegNtPreRestoreKey** | [REG_RESTORE_KEY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_restore_key_information)  | 
-| **RegNtPostRestoreKey** | [REG_RESTORE_KEY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_restore_key_information)  | 
+| **RegNtPostRestoreKey** | [REG_POST_OPERATION_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_post_operation_information)  | 
 | **RegNtPreSaveKey** | [REG_SAVE_KEY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_save_key_information)  | 
-| **RegNtPostSaveKey** | [REG_SAVE_KEY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_save_key_information)  | 
+| **RegNtPostSaveKey** | [REG_POST_OPERATION_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_post_operation_information)  | 
 | **RegNtPreReplaceKey** | [REG_REPLACE_KEY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_replace_key_information)  | 
-| **RegNtPostReplaceKey** | [REG_REPLACE_KEY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_replace_key_information)  | 
+| **RegNtPostReplaceKey** | [REG_POST_OPERATION_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_post_operation_information)  | 
 | **RegNtPreQueryKeyName** | [REG_QUERY_KEY_NAME](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_query_key_name)  | 
 | **RegNtPostQueryKeyName** | [REG_POST_OPERATION_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_reg_post_operation_information)  | 
  
