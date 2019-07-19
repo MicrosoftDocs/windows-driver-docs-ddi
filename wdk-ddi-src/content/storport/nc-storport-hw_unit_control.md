@@ -5,7 +5,7 @@ description: A miniport driver's HwStorUnitControl routine is called to perform 
 old-location: storage\hwstorunitcontrol.htm
 tech.root: storage
 ms.assetid: 33534C7A-C88D-4980-98A7-2B94488D3550
-ms.date: 03/29/2018
+ms.date: 07/19/2019
 ms.keywords: HW_UNIT_CONTROL, HwStorUnitControl, HwStorUnitControl routine [Storage Devices], storage.hwstorunitcontrol, storport/HwStorUnitControl
 ms.topic: callback
 f1_keywords:
@@ -44,22 +44,15 @@ req.typenames:
 
 # HW_UNIT_CONTROL callback function
 
-
 ## -description
-
 
 A miniport driver's <b>HwStorUnitControl</b> routine is called to perform synchronous operations to control the state of storage unit device. The miniport driver is notified to  start a unit or handle a power state transition for a unit device.
 
-
 ## -parameters
-
-
-
 
 ### -param DeviceExtension [in]
 
 A pointer to the miniport driver's per-unit storage area. 
-
 
 ### -param ControlType [in]
 
@@ -290,8 +283,6 @@ None
 </td>
 </tr>
 </table>
- 
-
 
 ### -param Parameters [in]
 
@@ -316,7 +307,7 @@ Caller-allocated SCSI_SUPPORTED_CONTROL_TYPE_LIST structure.
 </tr>
 <tr>
 <td>
-<pre>typedef struct _SCSI_SUPPORTED_CONTROL_TYPE_LIST { 
+<pre>typedef struct _SCSI_SUPPORTED_CONTROL_TYPE_LIST {
     IN ULONG MaxControlType;
     OUT BOOLEAN SupportedTypeList[0];
 } SCSI_SUPPORTED_CONTROL_TYPE_LIST, *PSCSI_SUPPORTED_CONTROL_TYPE_LIST;</pre>
@@ -324,19 +315,17 @@ Caller-allocated SCSI_SUPPORTED_CONTROL_TYPE_LIST structure.
 </tr>
 </table></span></div>
 
-
 <dl>
 <dt><a id="MaxControlType"></a><a id="maxcontroltype"></a><a id="MAXCONTROLTYPE"></a><b>MaxControlType</b></dt>
 <dd>
-Specifies the number of entries in the <b>SupportedTypeList</b> array.
+Specifies the number of entries in the <b>SupportedTypeList</b> array. Your implementation needs to handle the case where the value of <b>MaxControlType</b> might be larger than the <b>ScsiUnitControlMax</b> value that the driver is compiled with.
 
 </dd>
 <dt><a id="SupportedTypeList"></a><a id="supportedtypelist"></a><a id="SUPPORTEDTYPELIST"></a><b>SupportedTypeList</b></dt>
 <dd>
-Points to a caller-allocated array of <b>BOOLEAN</b> values that indicate the control types implemented by the miniport driver. The port driver initializes each element to <b>FALSE</b>. 
+Points to a caller-allocated array of <b>BOOLEAN</b> values that indicate the control types implemented by the miniport driver. The port driver initializes each element to <b>FALSE</b>.
 
 The miniport driver sets the corresponding array element to <b>TRUE</b> for each operation it supports:
-
 
 <dl>
 <dt>SupportedTypeList[ScsiQuerySupportedControlTypes]</dt>
@@ -352,7 +341,6 @@ The miniport driver sets the corresponding array element to <b>TRUE</b> for each
 <dt>SupportedTypeList[ScsiUnitSurpriseRemoval]</dt>
 <dt>SupportedTypeList[ScsiUnitRichDescription]</dt>
 </dl>
-
 
 The miniport driver must not set any element beyond <b>SupportedTypeList</b>[<b>MaxControlType</b> - 1].
 
@@ -383,7 +371,6 @@ Caller-allocated STOR_UC_DEVICE_USAGE structure.
 </td>
 </tr>
 </table></span></div>
-
 
 <dl>
 <dt><a id="Address"></a><a id="address"></a><a id="ADDRESS"></a><b>Address</b></dt>
@@ -438,7 +425,6 @@ Caller-allocated STOR_UNIT_CONTROL_POWER structure.
 </tr>
 </table></span></div>
 
-
 <dl>
 <dt><a id="Address"></a><a id="address"></a><a id="ADDRESS"></a><b>Address</b></dt>
 <dd>
@@ -481,7 +467,6 @@ Caller-allocated STOR_POFX_UNIT_POWER_INFO structure.
 </tr>
 </table></span></div>
 
-
 <dl>
 <dt><a id="Header"></a><a id="header"></a><a id="HEADER"></a><b>Header</b></dt>
 <dd>
@@ -518,7 +503,6 @@ Caller-allocated STOR_POFX_POWER_REQUIRED_CONTEXT structure.
 </td>
 </tr>
 </table></span></div>
-
 
 <dl>
 <dt><a id="Header"></a><a id="header"></a><a id="HEADER"></a><b>Header</b></dt>
@@ -557,7 +541,6 @@ Caller-allocated STOR_POFX_ACTIVE_CONTEXT structure.
 </td>
 </tr>
 </table></span></div>
-
 
 <dl>
 <dt><a id="Header"></a><a id="header"></a><a id="HEADER"></a><b>Header</b></dt>
@@ -601,7 +584,6 @@ Caller-allocated STOR_POFX_FSTATE_CONTEXT structure.
 </td>
 </tr>
 </table></span></div>
-
 
 <dl>
 <dt><a id="Header"></a><a id="header"></a><a id="HEADER"></a><b>Header</b></dt>
@@ -649,7 +631,6 @@ Caller-allocated STOR_POFX_POWER_CONTROL structure.
 </td>
 </tr>
 </table></span></div>
-
 
 <dl>
 <dt><a id="Header"></a><a id="header"></a><a id="HEADER"></a><b>Header</b></dt>
@@ -743,7 +724,6 @@ typedef struct _STOR_RICH_DEVICE_DESCRIPTION_V2 {
 </tr>
 </table></span></div>
 
-
 <dl>
 <dt><a id="Version"></a><a id="version"></a><a id="VERSION"></a><b>Version</b></dt>
 <dd>
@@ -779,7 +759,6 @@ The address of the device for which the rich device description is desired.  Thi
 </td>
 </tr>
 </table>
- 
 
 For the structures that contain the STOR_POWER_CONTROL_HEADER header, it has the following definition in <i>storport.h</i>.
 
@@ -799,29 +778,19 @@ For the structures that contain the STOR_POWER_CONTROL_HEADER header, it has the
 </tr>
 </table></span></div>
 
-
-
-
 #### Version
 
 The version of the parent structure.
-
-
 
 #### Size
 
 The size, in bytes, of the parent structure.
 
-
-
 #### Address
 
 The address of the unit the control operation is specified for.
 
-
 ## -returns
-
-
 
 Depending on the control type, <b>HwStorUnitControl</b> returns one of the following SCSI_UNIT_CONTROL_STATUS values:
 
@@ -855,14 +824,8 @@ The unit control operation was not successful.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
-
-
 
 The name <b>HwStorUnitControl</b>  is just a placeholder. The actual prototype of this routine is defined in <i>storport.h</i> as follows:
 
@@ -883,15 +846,6 @@ HW_UNIT_CONTROL (
 </tr>
 </table></span></div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_adapter_control">HwStorAdapterControl</a>
- 
-
- 
-
