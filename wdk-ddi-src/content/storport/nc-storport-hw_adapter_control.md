@@ -5,7 +5,7 @@ description: A miniport driver's HwStorAdapterControl routine is called to perfo
 old-location: storage\hwstoradaptercontrol.htm
 tech.root: storage
 ms.assetid: e1944f1b-97db-4ac2-848e-e69359c09589
-ms.date: 03/29/2018
+ms.date: 07/19/2019
 ms.keywords: HW_ADAPTER_CONTROL, HwStorAdapterControl, HwStorAdapterControl routine [Storage Devices], storage.hwstoradaptercontrol, stormini_19cbc8b1-9908-4b4d-a62b-712fb97e6bbd.xml, storport/HwStorAdapterControl
 ms.topic: callback
 f1_keywords:
@@ -377,7 +377,7 @@ Caller-allocated SCSI_SUPPORTED_CONTROL_TYPE_LIST structure.
 <dl>
 <dt><a id="MaxControlType"></a><a id="maxcontroltype"></a><a id="MAXCONTROLTYPE"></a><b>MaxControlType</b></dt>
 <dd>
-Specifies the number of entries in the <b>SupportedTypeList</b> array.
+Specifies the number of entries in the <b>SupportedTypeList</b> array. Your implementation needs to handle the case where the value of <b>MaxControlType</b> might be larger than the <b>ScsiAdapterControlMax</b> value that the driver is compiled with.
 
 </dd>
 <dt><a id="SupportedTypeList"></a><a id="supportedtypelist"></a><a id="SUPPORTEDTYPELIST"></a><b>SupportedTypeList</b></dt>
