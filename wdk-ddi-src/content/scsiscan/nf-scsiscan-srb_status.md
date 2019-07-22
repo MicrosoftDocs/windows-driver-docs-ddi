@@ -36,23 +36,16 @@ api_name:
 product: 
 -   Windows
 targetos: Windows
-
-
 ms.custom: RS5
 ---
 
 # SRB_STATUS macro
 
-
 ## -description
-
-
 
 ## -parameters
 
 ### -param Status
-
-
 
 ## -remarks
 
