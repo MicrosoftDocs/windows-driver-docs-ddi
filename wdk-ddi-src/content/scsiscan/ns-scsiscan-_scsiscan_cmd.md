@@ -44,69 +44,52 @@ req.typenames: SCSISCAN_CMD, *PSCSISCAN_CMD
 
 # _SCSISCAN_CMD structure
 
-
 ## -description
 
-
-The SCSISCAN_CMD structure is used as a parameter to <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a>, when the specified I/O control code is <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/scsiscan/ni-scsiscan-ioctl_scsiscan_cmd">IOCTL_SCSISCAN_CMD</a>.
-
+The SCSISCAN_CMD structure is used as a parameter to [DeviceIoControl](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol), when the specified I/O control code is [IOCTL_SCSISCAN_CMD](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/scsiscan/ni-scsiscan-ioctl_scsiscan_cmd).
 
 ## -struct-fields
-
-
-
 
 ### -field Reserved1
 
 Reserved. Do not use.
 
-
 ### -field Size
 
 Caller-supplied size, in bytes, of the SCSISCAN_CMD structure.
 
-
 ### -field SrbFlags
 
-Caller-supplied SRB_FLAGS-prefixed bit flag specifying the requested operation. Flags are defined in <i>srb.h</i>.
-
+Caller-supplied SRB_FLAGS-prefixed bit flag specifying the requested operation. Flags are defined in *srb.h*.
 
 ### -field CdbLength
 
-Length, in bytes, of the <a href="https://docs.microsoft.com/windows-hardware/drivers/">CDB</a> contained in the <b>Cdb</b> member.
-
+Length, in bytes, of the [CDB](https://docs.microsoft.com/windows-hardware/drivers/) contained in the **Cdb** member.
 
 ### -field SenseLength
 
-Length, in bytes, of the sense buffer the <b>pSenseBuffer</b> member points to.
-
+Length, in bytes, of the sense buffer the **pSenseBuffer** member points to.
 
 ### -field Reserved2
 
 Reserved. Do not use.
 
-
 ### -field Reserved3
 
 Reserved. Do not use.
 
-
 ### -field TransferLength
 
-Length, in bytes, of the buffer to be transferred. This should match the value specified for the <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> function's <i>nOutBufferSize</i> parameter.
-
+Length, in bytes, of the buffer to be transferred. This should match the value specified for the [DeviceIoControl](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol) function's *nOutBufferSize* parameter.
 
 ### -field Cdb
 
-Caller-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/">CDB</a> data. (The CDB structure is declared in <i>scsi.h</i>.)
-
+Caller-supplied [CDB](https://docs.microsoft.com/windows-hardware/drivers/) data. (The CDB structure is declared in *scsi.h*.)
 
 ### -field pSrbStatus
 
-Caller-supplied pointer that will receive one of the SRB_STATUS-prefixed status values defined in <i>srb.h</i>.
-
+Caller-supplied pointer that will receive one of the SRB_STATUS-prefixed status values defined in *srb.h*.
 
 ### -field pSenseBuffer
 
 Caller-supplied pointer to a request-sense buffer, to be filled in by the kernel-mode driver.
-
