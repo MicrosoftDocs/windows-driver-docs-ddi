@@ -52,7 +52,7 @@ The WIA_PROPERTY_INFO structure is used to store default access and valid value 
 
 ### -field lAccessFlags
 
-Specifies the access and property attribute flags for a property. See the Microsoft Windows SDK documentation for a list of WIA property attribute flags.
+Specifies the access and property attribute flags for a property. For more information, see [Property Attributes](https://docs.microsoft.com/windows/win32/wia/-wia-property-attributes).
 
 ### -field vt
 
@@ -76,7 +76,7 @@ Specifies the variant data type for the property. This member, which can be one 
 
 - VT_BSTR
 
-See PROPVARIANT in the Windows SDK documentation for more information.
+For more information, see [PROPVARIANT](https://docs.microsoft.com/windows/win32/api/propidl/ns-propidl-tagpropvariant).
 
 ### -field ValidVal
 
@@ -244,7 +244,7 @@ hr                  = wiasWriteMultiple(pWiasContext, 1, &propSpec, &propVar);
 ```
 
 > [!NOTE]
-> WIA uses the COM PROPVARIANT type, VARIANT (defined in the Microsoft Windows SDK documentation), so the default is VT_VECTOR, and not VT_ARRAY (which is also supported).
+> WIA uses the COM [PROPVARIANT](https://docs.microsoft.com/windows/win32/api/propidl/ns-propidl-tagpropvariant) type, [VARIANT](https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-variant), so the default is VT_VECTOR, and not VT_ARRAY (which is also supported).
 
 ## -see-also
 
