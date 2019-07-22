@@ -44,49 +44,22 @@ req.typenames:
 
 # IOCTL_SCSISCAN_UNLOCKDEVICE IOCTL
 
-
 ## -description
-
 
 Reserved for use by Microsoft.
 
-
 ## -ioctlparameters
-
-
-
 
 ### -input-buffer
 
-
-
-
 ### -input-buffer-length
-
-
-
 
 ### -output-buffer
 
-
-
-
 ### -output-buffer-length
-
-
-
 
 ### -in-out-buffer
 
-
-
-
 ### -inout-buffer-length
 
-
-
-
 ### -status-block
-
-
-
