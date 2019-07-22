@@ -44,54 +44,40 @@ req.typenames: SCSISCAN_INFO, *PSCSISCAN_INFO
 
 # _SCSISCAN_INFO structure
 
-
 ## -description
 
-
-The SCSISCAN_INFO structure is used as a parameter to <a href="https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> (described in the Microsoft Windows SDK documentation), when the specified I/O control code is <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/scsiscan/ni-scsiscan-ioctl_scsiscan_get_info">IOCTL_SCSISCAN_GET_INFO</a>.
-
+The SCSISCAN_INFO structure is used as a parameter to [DeviceIoControl](https://docs.microsoft.com/windows/desktop/api/ioapiset/nf-ioapiset-deviceiocontrol), when the specified I/O control code is [IOCTL_SCSISCAN_GET_INFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/scsiscan/ni-scsiscan-ioctl_scsiscan_get_info).
 
 ## -struct-fields
-
-
-
 
 ### -field Size
 
 Size, in bytes, of the SCSISCAN_INFO structure.
 
-
 ### -field Flags
 
 Not used, must be zero.
-
 
 ### -field PortNumber
 
 SCSI adapter number.
 
-
 ### -field PathId
 
 Host SCSI ID.
-
 
 ### -field TargetId
 
 Target SCSI ID.
 
-
 ### -field Lun
 
 Target logical unit number (LUN).
 
-
 ### -field AdapterName
 
-<i>For internal use only.</i>
-
+*For internal use only.*
 
 ### -field Reserved
 
-<i>For internal use only.</i>
-
+*For internal use only.*
