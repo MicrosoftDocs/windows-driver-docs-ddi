@@ -44,64 +44,44 @@ req.typenames: STISUBSCRIBE, *LPSTISUBSCRIBE
 
 # _STISUBSCRIBE structure
 
-
 ## -description
 
-
-The STISUBSCRIBE structure is used as a parameter for the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sti/nf-sti-istidevice-subscribe">IStiDevice::Subscribe</a> method.
-
+The STISUBSCRIBE structure is used as a parameter for the [IStiDevice::Subscribe](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sti/nf-sti-istidevice-subscribe) method.
 
 ## -struct-fields
-
-
-
 
 ### -field dwSize
 
 Caller-supplied size, in bytes, of the STISUBSCRIBE structure.
 
-
 ### -field dwFlags
 
-One of the following bit flags, defined in <i>Sti.h</i>.
-
-
-
-
+One of the following bit flags, defined in *sti.h*.
 
 #### STI_SUBSCRIBE_FLAG_EVENT
 
-Event notifications should be delivered to the application by calls to <b>SetEvent</b>. The <b>hEvent</b> member contains a Win32 event handle. 
+Event notifications should be delivered to the application by calls to **SetEvent**. The **hEvent** member contains a Win32 event handle.
 
-This bit flag is preferred for security reasons. It is available on Windows Me, Windows XP and later operating system versions.
-
-
-
-
+This bit flag is preferred for security reasons.
 
 #### STI_SUBSCRIBE_FLAG_WINDOW
 
-Event notifications should be delivered to the application using window messages. The <b>dwWndNotify</b> member contains a window handle and <b>uiNotificationMessage</b> contains a window message.
+Event notifications should be delivered to the application using window messages. The **dwWndNotify** member contains a window handle and **uiNotificationMessage** contains a window message.
 
-This bit flag is obsolete. It is not available on Windows XP or later operating system versions.
-
+This bit flag is obsolete. Do not use.
 
 ### -field dwFilter
 
 Reserved for system use.
 
-
 ### -field hWndNotify
 
-Handle to an application window that should receive the message specified by <b>uiNotificationMessage</b> when an event occurs. Used only if STI_SUBSCRIBE_FLAG_WINDOW is set in <b>dwFlags</b>.
-
+Handle to an application window that should receive the message specified by **uiNotificationMessage** when an event occurs. Used only if STI_SUBSCRIBE_FLAG_WINDOW is set in **dwFlags**.
 
 ### -field hEvent
 
-Handle to a Win32 event created with <b>CreateEvent</b>, which the event monitor will use with <b>SetEvent</b> when an event occurs and for which the application can wait. Used only if STI_SUBSCRIBE_FLAG_WINDOW is set in <b>dwFlags</b>.
-
+Handle to a Win32 event created with **CreateEvent**, which the event monitor will use with **SetEvent** when an event occurs and for which the application can wait. Used only if STI_SUBSCRIBE_FLAG_WINDOW is set in **dwFlags**.
 
 ### -field uiNotificationMessage
 
-Window message that should be passed to the <b>dwWndNotify</b> window when an event occurs.
-
+Window message that should be passed to the **dwWndNotify** window when an event occurs.
