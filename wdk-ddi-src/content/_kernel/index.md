@@ -6,6 +6,7 @@ ms.keywords:
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: portal
+author: tedhudek
 product:
 - Windows
 ms.custom: 19H1
