@@ -44,38 +44,16 @@ req.typenames:
 
 # CWiaLogProcEx::~CWiaLogProcEx
 
-
 ## -description
 
-
-The<b>~CWiaLogProcEx</b> destructor is called when the function or method being logged is exited.
-
+The **~CWiaLogProcEx** destructor is called when the function or method being logged is exited.
 
 ## -parameters
 
-
-
-
-
-
-
-
 ## -returns
-
-
 
 This method does not return a value.
 
-
-
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-cwialogprocex-cwialogprocex">CWiaLogProcEx</a>
- 
-
- 
-
+[CWiaLogProcEx](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-cwialogprocex-cwialogprocex)
