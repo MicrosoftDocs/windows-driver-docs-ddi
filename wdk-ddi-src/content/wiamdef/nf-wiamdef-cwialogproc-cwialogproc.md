@@ -44,66 +44,36 @@ req.typenames:
 
 # CWiaLogProc::CWiaLogProc
 
-
 ## -description
 
-
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-cwialogproc-~cwialogproc">CWiaLogProc</a> constructor is called when the function or method being logged is entered.
-
+The [CWiaLogProc](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-cwialogproc-~cwialogproc) constructor is called when the function or method being logged is entered.
 
 ## -parameters
 
-
-
-
 ### -param pIWiaLog
-
-
-
 
 ### -param ResourceID
 
-Defines the <b>INT</b> parameter <i>ResourceID</i>.
-
+Defines the **INT** parameter _ResourceID_.
 
 ### -param DetailLevel
 
-Defines the <b>INT</b> parameter <i>DetailLevel</i>.
-
+Defines the **INT** parameter _DetailLevel_.
 
 ### -param pszMsg
 
-
-
-
-
-
 #### - *pIWiaLog
 
-Defines the <b>IWiaLog</b> parameter <i>*pIWiaLog</i>.
-
+Defines the **IWiaLog** parameter _*pIWiaLog_.
 
 #### - *pszMsg
 
-Defines the <b>CHAR</b> parameter <i>*pszMsg</i>.
-
+Defines the **CHAR** parameter _*pszMsg_.
 
 ## -returns
 
-
-
 This method does not return a value.
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-cwialogproc-cwialogproc">CWiaLogProc</a>
- 
-
- 
-
+[CWiaLogProc](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-cwialogproc-cwialogproc)
