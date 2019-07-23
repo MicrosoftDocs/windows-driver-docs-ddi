@@ -13,7 +13,7 @@ f1_keywords:
 req.header: wiamdef.h
 req.include-header: Wiautil.h
 req.target-type: Desktop
-req.target-min-winverclnt: Available in Windows Vista and later versions of the operating system.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -58,7 +58,7 @@ The WIAS_ERROR macro writes a diagnostic message to the *Wiatrace.log* file.
 
 ## -remarks
 
-This macro is the recommended way to implement error logging on Windows Vista, because unlike [WIAS_LERROR](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wias_lerror), WIA_ERROR allows error messages to be written to the log file (*Wiatrace.log*). The *Wiatrace.log* file is only available in Windows Vista and later versions of the operating system. The utility used to view the contents of this log file is WiaTrcVw.exe.
+This macro is the recommended way to implement error logging, because unlike [WIAS_LERROR](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wias_lerror), WIA_ERROR allows error messages to be written to the log file (*Wiatrace.log*). The utility used to view the contents of this log file is WiaTrcVw.exe.
 
 To enable tracing in free builds, drivers must define the WIA_DEBUG macro by adding `#define WIA_DEBUG` before including any of the WIA headers. Tracing is enabled by default in checked and debug builds of the operating system.
 
