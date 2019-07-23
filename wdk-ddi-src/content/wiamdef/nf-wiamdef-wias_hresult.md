@@ -13,7 +13,7 @@ f1_keywords:
 req.header: wiamdef.h
 req.include-header: Wiautil.h
 req.target-type: Desktop
-req.target-min-winverclnt: Available in Windows Vista and later versions of the operating system.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -58,7 +58,7 @@ The WIAS_HRESULT macro writes a diagnostic message to the *Wiatrace.log* file.
 
 ## -remarks
 
-This macro is the recommended way to output HRESULTS on Windows Vista.
+This macro is the recommended way to output HRESULTS.
 
 ## -see-also
 
