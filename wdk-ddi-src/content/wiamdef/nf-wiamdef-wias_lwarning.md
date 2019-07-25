@@ -1,7 +1,7 @@
 ---
 UID: NF:wiamdef.WIAS_LWARNING
 title: WIAS_LWARNING macro (wiamdef.h)
-description: The WIAS_LWARNING macro is obsolete for Windows Vista and later.The WIAS_LWARNING macro writes a diagnostic WIA_WARNING message to the log file.
+description: The WIAS_LWARNING macro is obsolete for Windows Vista. The WIAS_LWARNING macro writes a diagnostic WIA_WARNING message to the log file.
 old-location: image\wias_lwarning.htm
 tech.root: image
 ms.assetid: 2959c470-1da7-4396-a591-7a356379f9de
@@ -13,7 +13,7 @@ f1_keywords:
 req.header: wiamdef.h
 req.include-header: Wiautil.h
 req.target-type: Desktop
-req.target-min-winverclnt: Available in Windows Me, Windows XP, and later. Obsolete for Windows Vista and later.
+req.target-min-winverclnt: Obsolete, do not use.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -46,7 +46,7 @@ req.typenames:
 
 ## -description
 
-The WIAS_LWARNING macro is obsolete for Windows Vista and later.
+The WIAS_LWARNING macro is obsolete. Do not use.
 
 The WIAS_LWARNING macro writes a diagnostic WIA_WARNING message to the log file.
 
@@ -71,7 +71,7 @@ The following is an example of how the macro can be used:
 ```cppWIAS_LWARNING(g_pIWiaLog, WIALOG_NO_RESOURCE_ID, ("MyClass::MyMethod, This is my text and my lValue = %d", lValue));
 ```
 
-Please note that it does not write to the new log file used in Windows Vista and later.
+Please note that it does not write to the new log file used in modern Windows operating systems.
 
 ## -see-also
 
