@@ -175,13 +175,8 @@ For more information about the <b>WdfUsbTargetPipeFormatRequestForUrb</b> method
 
 The following code example creates a memory object that represents a URB. Then, the example initializes the URB, formats a USB request that contains the URB, registers a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfrequest/nc-wdfrequest-evt_wdf_request_completion_routine">CompletionRoutine</a> callback function, and sends the request.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>URB  urb;
+```cpp
+URB  urb;
 PURB  pUrb = NULL;
 WDFMEMORY  urbMemory
 NTSTATUS status;
@@ -237,12 +232,8 @@ if (!NT_SUCCESS(status)) {
                                       0
                                       );
 }
-return;</pre>
-</td>
-</tr>
-</table></span></div>
-
-
+return;
+```
 
 ## -see-also
 
