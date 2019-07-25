@@ -13,7 +13,7 @@ f1_keywords:
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop
-req.target-min-winverclnt: Available in Microsoft Windows Me and in Windows XP and later versions of the Windows operating systems.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -44,59 +44,38 @@ req.typenames:
 
 # wiasCreateChildAppItem function
 
-
 ## -description
 
-
-The <b>wiasCreateChildAppItem</b> function creates a new application item and inserts it as a child of the specified (parent) item. Note that this item will not have any properties in its property sets until the driver or application actually fills them in.
-
+The **wiasCreateChildAppItem** function creates a new application item and inserts it as a child of the specified parent item. Note that this item will not have any properties in its property sets until the driver or application actually fills them in.
 
 ## -parameters
-
-
-
 
 ### -param pParentWiasContext [in]
 
 Pointer to the item context to which the child will be added.
 
-
 ### -param lFlags
 
 Is reserved for system use.  
-
 
 ### -param bstrItemName [in]
 
 Specifies a string that contains the item name without path information.
 
-
 ### -param bstrFullItemName [in]
 
 Specifies a string that contains the item name including path information.
-
 
 ### -param ppWiasChildContext [out]
 
 Pointer to a memory location that receives the address of the newly created child item's context.
 
-
 ## -returns
 
+On success, the function returns S_OK.
 
-
-On success, the function returns S_OK. If the function fails, it returns a standard COM error or one of the WIA_ERROR_XXX errors (described in the Microsoft Windows SDK documentation).
-
-
-
+If the function fails, it returns a standard COM error or one of the [WIA error codes](https://docs.microsoft.com/windows/win32/wia/-wia-error-codes).
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiascreatedrvitem">wiasCreateDrvItem</a>
- 
-
- 
-
+[wiasCreateDrvItem](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiascreatedrvitem)
