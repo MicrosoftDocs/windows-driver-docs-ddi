@@ -13,7 +13,7 @@ f1_keywords:
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop
-req.target-min-winverclnt: Available in Microsoft Windows Me and in Windows XP and later versions of the Windows operating systems.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -44,136 +44,68 @@ req.typenames:
 
 # wiasCreatePropContext function
 
-
 ## -description
 
-
-The <b>wiasCreatePropContext </b>function allocates a property context to indicate which of an item's properties are being changed by the application.
-
+The **wiasCreatePropContext** function allocates a property context to indicate which of an item's properties are being changed by the application.
 
 ## -parameters
 
-
-
-
 ### -param cPropSpec
 
-Specifies the total number of PROPSPEC structures in the <i>pPropSpec</i> array.
-
+Specifies the total number of PROPSPEC structures in the *pPropSpec* array.
 
 ### -param pPropSpec [in]
 
 Pointer to the first element of an array of PROPSPEC structures identifying which properties are changing.
 
-
 ### -param cProps
 
 Specifies the number of property identifiers stored in this context.
-
 
 ### -param pProps [in, optional]
 
 Pointer to the first element of an array of property identifiers that indicate the properties to put into this property context.
 
-
 ### -param pContext [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/ns-wiamindr_lh-_wia_property_context">WIA_PROPERTY_CONTEXT</a> structure that contains a property context.
-
+Pointer to a [WIA_PROPERTY_CONTEXT](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/ns-wiamindr_lh-_wia_property_context) structure that contains a property context.
 
 ## -returns
 
-
-
-On success, the function returns S_OK. If the function fails, it returns a standard COM error or one of the WIA_ERROR_XXX errors (described in the Microsoft Windows SDK documentation).
-
-
-
+On success, the function returns S_OK. If the function fails, it returns a standard COM error or one of the the [WIA error codes](https://docs.microsoft.com/windows/win32/wia/-wia-error-codes).
 
 ## -remarks
 
+This function allocates a property context and fills in its values. This function is generally used in [wiasValidateItemProperties](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiasvalidateitemproperties) where the properties written by the application are validated.
 
+Entries in the property context are identifiers for properties that either have dependents, or are themselves dependent on other properties. A context is used to mark which properties are being changed. When the property context is no longer needed, it should be freed by a call to [wiasFreePropContext](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiasfreepropcontext).
 
-This function allocates a property context and fills in its values. This function is generally used in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiasvalidateitemproperties">wiasValidateItemProperties</a> where the properties written by the application are validated.
+The properties to which an application writes are specified by the *pPropSpec* array. The properties that were changed by the application, as well as any properties dependent on the changed properties, are specified by the *pProps* array. Only properties that have been changed by the application (and any dependent properties) can be specified in *pProps*.
 
-Entries in the property context are identifiers for properties that either have dependents, or are themselves dependent on other properties. A context is used to mark which properties are being changed. When the property context is no longer needed, it should be freed by a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiasfreepropcontext">wiasFreePropContext</a>.
+For more information. see the [PROPSPEC](https://docs.microsoft.com/windows/win32/api/propidl/ns-propidl-tagpropspec)structure.
 
-The properties to which an application writes are specified by the <i>pPropSpec </i>array. The properties that were changed by the application, as well as any properties dependent on the changed properties, are specified by the <i>pProps</i> array. Only properties that have been changed by the application (and any dependent properties) can be specified in <i>pProps</i>. The PROPSPEC structure is defined in the Windows SDK documentation.
+Drivers can specify additional properties when creating a property context with wiasCreatePropContext.
 
-<div class="alert"><b>Note</b>  : The following properties are always present in WIA_PROPERTY_CONTEXT. Drivers can specify additional properties when creating a property context with wiasCreatePropContext.<dl>
-<dd>
-WIA_IPA_DATATYPE
+The following properties are always present in WIA_PROPERTY_CONTEXT:
 
-</dd>
-<dd>
-WIA_IPA_DEPTH
-
-</dd>
-<dd>
-WIA_IPS_XRES
-
-</dd>
-<dd>
-WIA_IPS_XPOS
-
-</dd>
-<dd>
-WIA_IPS_XEXTENT
-
-</dd>
-<dd>
-WIA_IPA_PIXELS_PER_LINE
-
-</dd>
-<dd>
-WIA_IPS_YRES
-
-</dd>
-<dd>
-WIA_IPS_YPOS
-
-</dd>
-<dd>
-WIA_IPS_YEXTENT
-
-</dd>
-<dd>
-WIA_IPA_NUMBER_OF_LINES
-
-</dd>
-<dd>
-WIA_IPS_CUR_INTENT
-
-</dd>
-<dd>
-WIA_IPA_TYMED
-
-</dd>
-<dd>
-WIA_IPA_FORMAT
-
-</dd>
-</dl>
-</div>
-<div> </div>
-
-
+- WIA_IPA_DATATYPE
+- WIA_IPA_DEPTH
+- WIA_IPS_XRES
+- WIA_IPS_XPOS
+- WIA_IPS_XEXTENT
+- WIA_IPA_PIXELS_PER_LINE
+- WIA_IPS_YRES
+- WIA_IPS_YPOS
+- WIA_IPS_YEXTENT
+- WIA_IPA_NUMBER_OF_LINES
+- WIA_IPS_CUR_INTENT
+- WIA_IPA_TYMED
+- WIA_IPA_FORMAT
 
 ## -see-also
 
+[WIA_PROPERTY_CONTEXT](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/ns-wiamindr_lh-_wia_property_context)
 
+[wiasFreePropContext](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiasfreepropcontext)
 
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/ns-wiamindr_lh-_wia_property_context">WIA_PROPERTY_CONTEXT</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiasfreepropcontext">wiasFreePropContext</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiasvalidateitemproperties">wiasValidateItemProperties</a>
- 
-
- 
-
+[wiasValidateItemProperties](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiasvalidateitemproperties)
