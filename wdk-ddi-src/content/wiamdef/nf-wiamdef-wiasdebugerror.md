@@ -13,7 +13,7 @@ f1_keywords:
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop
-req.target-min-winverclnt: Available in Microsoft Windows Me and in Windows XP and later versions of the Windows operating systems.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -44,69 +44,40 @@ req.typenames:
 
 # wiasDebugError function
 
-
 ## -description
 
+The **wiasDebugError** function is obsolete.
 
-This function prints a debug error string in the Device Manager debug console. The output color is always red.
+Use the [WIAS_ERROR](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wias_error) macro instead.
 
+**wiasDebugError** prints a debug error string in the Device Manager debug console. The output color is always red.
 
 ## -parameters
-
-
-
 
 ### -param hInstance
 
 Is the module handle of calling module.
 
-
 ### -param pszFormat
 
-
-
-
 ### -param param
-
-
-
-
-
 
 ####### - pszFormat, ...
 
 Specifies a variable argument list, which starts with an ANSI format string containing the message and any format specifiers. The ellipsis (...) specifies a variable number of arguments that are to be output.
 
-
 ## -returns
 
-
-
-On success, the function returns S_OK. If the function fails, it returns a standard COM error or one of the WIA_ERROR_XXX errors (described in the Microsoft Windows SDK documentation).
-
-
-
+On success, the function returns S_OK. If the function fails, it returns a standard COM error or one of the [WIA error codes](https://docs.microsoft.com/windows/win32/wia/-wia-error-codes).
 
 ## -remarks
 
+The **wiasDebugError** function is obsolete.
 
-
-The wiasDebugError function is not recommended for Windows XP and later. For Windows XP use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wias_lerror">WIAS_LERROR</a> macro instead. For Windows Vista use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wias_error">WIAS_ERROR</a> macro instead.
-
-
-
+Use the [WIAS_ERROR](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wias_error) macro instead.
 
 ## -see-also
 
+[WIAS_ERROR](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wias_error)
 
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wias_error">WIAS_ERROR</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wias_lerror">WIAS_LERROR</a>
- 
-
- 
-
+[WIAS_LERROR](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wias_lerror)
