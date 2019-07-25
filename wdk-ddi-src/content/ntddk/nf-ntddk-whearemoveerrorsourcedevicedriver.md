@@ -6,7 +6,7 @@ description: To remove a previously added error source, a device driver calls Wh
 tech.root:
 ms.assetid: 9b631fc8-da91-4d04-b84f-b9c40497db55
 ms.author: windowsdriverdev
-ms.date: 3/5/2019
+ms.date: 03/05/2019
 ms.topic: function
 f1_keywords:
  - "ntddk/WheaRemoveErrorSourceDeviceDriver"
