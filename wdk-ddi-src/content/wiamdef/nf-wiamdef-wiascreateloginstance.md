@@ -13,7 +13,7 @@ f1_keywords:
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop
-req.target-min-winverclnt: Available in Microsoft Windows Me and in Windows XP and later versions of the Windows operating systems.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -44,33 +44,20 @@ req.typenames:
 
 # wiasCreateLogInstance function
 
-
 ## -description
 
-
-The <b>wiasCreateLogInstance</b> function creates an instance of a logging object.
-
+The **wiasCreateLogInstance** function creates an instance of a logging object.
 
 ## -parameters
-
-
-
 
 ### -param pModuleHandle [in]
 
 Pointer to the module handle, which is used to filter output.
 
-
 ### -param ppIWiaLogEx [out]
 
 Pointer to a memory location that receives the address of the logging interface.
 
-
 ## -returns
 
-
-
-On success, the function returns S_OK. If the function fails, it returns a standard COM error or one of the WIA_ERROR_XXX errors (described in the Microsoft Windows SDK documentation).
-
-
-
+On success, the function returns S_OK. If the function fails, it returns a standard COM error or one of the [WIA error codes](https://docs.microsoft.com/windows/win32/wia/-wia-error-codes).
