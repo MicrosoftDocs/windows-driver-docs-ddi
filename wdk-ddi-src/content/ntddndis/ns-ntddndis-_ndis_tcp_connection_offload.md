@@ -5,7 +5,7 @@ description: The NDIS_TCP_CONNECTION_OFFLOAD structure provides connection offlo
 old-location: netvista\ndis_tcp_connection_offload.htm
 tech.root: netvista
 ms.assetid: d37a773d-0a83-4592-9c21-3ceaa6454549
-ms.date: 05/02/2018
+ms.date: 07/26/2019
 ms.keywords: "*PNDIS_TCP_CONNECTION_OFFLOAD, NDIS_TCP_CONNECTION_OFFLOAD, NDIS_TCP_CONNECTION_OFFLOAD structure [Network Drivers Starting with Windows Vista], PNDIS_TCP_CONNECTION_OFFLOAD, PNDIS_TCP_CONNECTION_OFFLOAD structure pointer [Network Drivers Starting with Windows Vista], _NDIS_TCP_CONNECTION_OFFLOAD, netvista.ndis_tcp_connection_offload, ntddndis/NDIS_TCP_CONNECTION_OFFLOAD, ntddndis/PNDIS_TCP_CONNECTION_OFFLOAD, tcpip_offload_ref_d53e40a7-cf71-4281-ba14-80d913f810d7.xml"
 ms.topic: struct
 f1_keywords:
@@ -66,7 +66,7 @@ The
      <b>Header</b> specifies to 
      <b>NDIS_OBJECT_TYPE_DEFAULT</b>, the 
      <b>Revision</b> member to 
-     <b>NDIS_TCP_CONNECTION_OFFLOAD_VERSION_1</b>, and the 
+     <b>NDIS_TCP_CONNECTION_OFFLOAD_REVISION_1</b>, and the 
      <b>Size</b> member to 
      <b>NDIS_SIZEOF_TCP_CONNECTION_OFFLOAD_REVISION_1</b>.
 
