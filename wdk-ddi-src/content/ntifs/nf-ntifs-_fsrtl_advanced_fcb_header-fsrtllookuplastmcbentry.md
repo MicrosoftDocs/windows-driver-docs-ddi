@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlLookupLastMcbEntry
+UID: NF:ntifs.FsRtlLookupLastMcbEntry
 title: FsRtlLookupLastMcbEntry function (ntifs.h)
 description: Obsolete.
 old-location: ifsk\fsrtllookuplastmcbentry.htm

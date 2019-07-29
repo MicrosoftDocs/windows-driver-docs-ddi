@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.ZwNotifyChangeKey
+UID: NF:ntifs.ZwNotifyChangeKey
 title: ZwNotifyChangeKey function (ntifs.h)
 description: The ZwNotifyChangeKey routine allows a driver to request notification when a registry key changes.
 old-location: kernel\zwnotifychangekey.htm

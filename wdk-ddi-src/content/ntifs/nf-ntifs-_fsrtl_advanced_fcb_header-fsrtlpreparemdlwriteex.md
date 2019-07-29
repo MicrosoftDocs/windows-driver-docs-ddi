@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlPrepareMdlWriteEx
+UID: NF:ntifs.FsRtlPrepareMdlWriteEx
 title: FsRtlPrepareMdlWriteEx function (ntifs.h)
 description: The FsRtlPrepareMdlWriteEx routine returns a linked list of memory descriptor lists (MDLs) that point to the specified range of cached file data to write data directly to the cache.
 old-location: ifsk\fsrtlpreparemdlwriteex.htm

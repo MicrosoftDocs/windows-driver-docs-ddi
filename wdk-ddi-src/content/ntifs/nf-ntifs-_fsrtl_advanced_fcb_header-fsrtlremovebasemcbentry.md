@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlRemoveBaseMcbEntry
+UID: NF:ntifs.FsRtlRemoveBaseMcbEntry
 title: FsRtlRemoveBaseMcbEntry function (ntifs.h)
 description: The FsRtlRemoveBaseMcbEntry function is the work routine for removing a large mcb entry.  It does so without taking out the mcb GuardedMutex.
 ms.assetid: 36eaff6e-2bb7-4264-bef1-58ec28ef2ace

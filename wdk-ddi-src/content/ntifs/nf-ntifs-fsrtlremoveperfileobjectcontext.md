@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlRemovePerFileObjectContext
+UID: NF:ntifs.FsRtlRemovePerFileObjectContext
 title: FsRtlRemovePerFileObjectContext function (ntifs.h)
 description: For a &#0034;legacy&#0034; file system filter driver, the FsRtlRemovePerFileObjectContext function unlinks a per-file-object context information structure from the list of per-file-object contexts previously associated with a file object.
 old-location: ifsk\fsrtlremoveperfileobjectcontext.htm

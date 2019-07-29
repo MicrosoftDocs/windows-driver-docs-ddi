@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlPostPagingFileStackOverflow
+UID: NF:ntifs.FsRtlPostPagingFileStackOverflow
 title: FsRtlPostPagingFileStackOverflow function (ntifs.h)
 description: The FsRtlPostPagingFileStackOverflow routine posts a paging file stack overflow item to the stack overflow thread.
 old-location: ifsk\fsrtlpostpagingfilestackoverflow.htm

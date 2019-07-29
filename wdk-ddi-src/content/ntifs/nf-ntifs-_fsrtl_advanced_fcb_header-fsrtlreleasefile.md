@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlReleaseFile
+UID: NF:ntifs.FsRtlReleaseFile
 title: FsRtlReleaseFile function (ntifs.h)
 description: Reserved for system use.
 old-location: ifsk\fsrtlreleasefile.htm

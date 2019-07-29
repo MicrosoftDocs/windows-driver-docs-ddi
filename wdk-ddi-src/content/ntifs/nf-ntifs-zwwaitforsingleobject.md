@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.ZwWaitForSingleObject
+UID: NF:ntifs.ZwWaitForSingleObject
 title: ZwWaitForSingleObject function (ntifs.h)
 description: The ZwWaitForSingleObject routine waits until the specified object attains a state of Signaled. An optional time-out can also be specified.
 old-location: kernel\zwwaitforsingleobject.htm

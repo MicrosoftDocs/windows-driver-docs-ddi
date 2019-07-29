@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.ZwFlushBuffersFile
+UID: NF:ntifs.ZwFlushBuffersFile
 title: ZwFlushBuffersFile function (ntifs.h)
 description: The ZwFlushBuffersFile routine is called by a file system filter driver to send a flush request for the specified file to the file system.
 old-location: kernel\zwflushbuffersfile.htm

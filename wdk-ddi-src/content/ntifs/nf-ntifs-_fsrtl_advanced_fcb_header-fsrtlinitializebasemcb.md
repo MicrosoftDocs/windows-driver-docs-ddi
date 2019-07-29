@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlInitializeBaseMcb
+UID: NF:ntifs.FsRtlInitializeBaseMcb
 title: FsRtlInitializeBaseMcb function (ntifs.h)
 description: This routine initializes a new Mcb structure.  The caller must supply the memory for the Mcb structure.  This call must precede all other calls that set/query the Mcb structure.
 ms.assetid: 78f5f4e1-0756-4071-931c-3d8503ff1dab

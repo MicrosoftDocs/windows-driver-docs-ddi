@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlAllocateFileLock(PCOMPLETE_LOCK_IRP_ROUTINE,PUNLOCK_ROUTINE)
+UID: NF:ntifs.FsRtlAllocateFileLock(PCOMPLETE_LOCK_IRP_ROUTINE,PUNLOCK_ROUTINE)
 title: FsRtlAllocateFileLock function (ntifs.h)
 description: The FsRtlAllocateFileLock routine allocates and initializes a new FILE_LOCK structure.
 old-location: ifsk\fsrtlallocatefilelock.htm

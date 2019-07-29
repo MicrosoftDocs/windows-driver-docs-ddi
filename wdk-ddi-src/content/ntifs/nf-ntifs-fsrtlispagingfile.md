@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlIsPagingFile
+UID: NF:ntifs.FsRtlIsPagingFile
 title: FsRtlIsPagingFile function (ntifs.h)
 description: The FsRtlIsPagingFile routine determines whether a given file is a paging file.
 old-location: ifsk\fsrtlispagingfile.htm

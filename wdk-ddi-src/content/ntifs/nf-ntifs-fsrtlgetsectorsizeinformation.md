@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlGetSectorSizeInformation
+UID: NF:ntifs.FsRtlGetSectorSizeInformation
 title: FsRtlGetSectorSizeInformation function (ntifs.h)
 description: The FsRtlGetSectorSizeInformation routine retrieves the physical and logical sector size information for a storage volume.
 old-location: ifsk\fsrtlgetsectorsizeinformation.htm

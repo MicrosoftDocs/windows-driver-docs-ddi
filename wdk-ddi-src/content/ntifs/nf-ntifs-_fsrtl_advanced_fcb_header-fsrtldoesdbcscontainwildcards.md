@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlDoesDbcsContainWildCards
+UID: NF:ntifs.FsRtlDoesDbcsContainWildCards
 title: FsRtlDoesDbcsContainWildCards function (ntifs.h)
 description: The FsRtlDoesDbcsContainWildCards routine determines whether an ANSI or double-byte character set (DBCS) string contains wildcard characters.
 old-location: ifsk\fsrtldoesdbcscontainwildcards.htm

@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlOplockBreakH~r5
+UID: NF:ntifs.FsRtlOplockBreakH~r5
 title: FsRtlOplockBreakH function (ntifs.h)
 description: The FsRtlOplockBreakH routine breaks CACHE_HANDLE_LEVEL opportunistic locks (oplocks).
 old-location: ifsk\fsrtloplockbreakh.htm

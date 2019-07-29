@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.CcSetFileSizes
+UID: NF:ntifs.CcSetFileSizes
 title: CcSetFileSizes function (ntifs.h)
 description: The CcSetFileSizes routine updates the cache maps and section object for a cached file whose size has changed.
 old-location: ifsk\ccsetfilesizes.htm

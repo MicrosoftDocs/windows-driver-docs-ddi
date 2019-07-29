@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlRemoveExtraCreateParameter
+UID: NF:ntifs.FsRtlRemoveExtraCreateParameter
 title: FsRtlRemoveExtraCreateParameter function (ntifs.h)
 description: The FsRtlRemoveExtraCreateParameter routine searches an ECP list for an ECP context structure and, if found, detaches it from the ECP list.
 old-location: ifsk\fsrtlremoveextracreateparameter.htm

@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlAreThereWaitingFileLocks(PFILE_LOCK)
+UID: NF:ntifs.FsRtlAreThereWaitingFileLocks(PFILE_LOCK)
 title: FsRtlAreThereWaitingFileLocks function (ntifs.h)
 description: The FsRtlAreThereWaitingFileLocks routine checks a file lock queue for any waiting file locks.
 old-location: ifsk\fsrtlaretherewaitingfilelocks.htm

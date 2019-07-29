@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlLookupLargeMcbEntry
+UID: NF:ntifs.FsRtlLookupLargeMcbEntry
 title: FsRtlLookupLargeMcbEntry function (ntifs.h)
 description: Given a virtual block number (VBN) and a map control block (MCB), the FsRtlLookupLargeMcbEntry routine searches the MCB for mapping information corresponding to the specified VBN.
 old-location: ifsk\fsrtllookuplargemcbentry.htm

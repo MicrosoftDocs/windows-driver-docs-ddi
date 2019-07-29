@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlDoesNameContainWildCards
+UID: NF:ntifs.FsRtlDoesNameContainWildCards
 title: FsRtlDoesNameContainWildCards function (ntifs.h)
 description: The FsRtlDoesNameContainWildCards routine determines whether a Unicode string contains wildcard characters.
 old-location: ifsk\fsrtldoesnamecontainwildcards.htm

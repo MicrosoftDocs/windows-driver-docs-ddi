@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlAddLargeMcbEntry~r3
+UID: NF:ntifs.FsRtlAddLargeMcbEntry~r3
 title: FsRtlAddLargeMcbEntry function (ntifs.h)
 description: The FsRtlAddLargeMcbEntry routine adds a new mapping to an existing map control block (MCB).
 old-location: ifsk\fsrtladdlargemcbentry.htm

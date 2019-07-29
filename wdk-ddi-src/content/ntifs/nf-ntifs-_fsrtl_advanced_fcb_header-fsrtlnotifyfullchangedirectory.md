@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlNotifyFullChangeDirectory
+UID: NF:ntifs.FsRtlNotifyFullChangeDirectory
 title: FsRtlNotifyFullChangeDirectory function (ntifs.h)
 description: The FsRtlNotifyFullChangeDirectory routine creates a notify structure for a notification request and adds it to the specified notify list.
 old-location: ifsk\fsrtlnotifyfullchangedirectory.htm

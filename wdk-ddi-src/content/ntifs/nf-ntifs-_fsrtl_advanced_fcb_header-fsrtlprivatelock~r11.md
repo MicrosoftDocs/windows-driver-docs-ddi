@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlPrivateLock~r11
+UID: NF:ntifs.FsRtlPrivateLock~r11
 title: FsRtlPrivateLock function (ntifs.h)
 description: Obsolete.
 old-location: ifsk\fsrtlprivatelock.htm

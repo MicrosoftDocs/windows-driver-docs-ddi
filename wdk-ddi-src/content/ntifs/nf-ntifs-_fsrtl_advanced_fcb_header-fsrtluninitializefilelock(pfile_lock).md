@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlUninitializeFileLock(PFILE_LOCK)
+UID: NF:ntifs.FsRtlUninitializeFileLock(PFILE_LOCK)
 title: FsRtlUninitializeFileLock function (ntifs.h)
 description: The FsRtlUninitializeFileLock routine uninitializes a FILE_LOCK structure.
 old-location: ifsk\fsrtluninitializefilelock.htm

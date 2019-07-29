@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlOplockIsSharedRequest
+UID: NF:ntifs.FsRtlOplockIsSharedRequest
 title: FsRtlOplockIsSharedRequest function (ntifs.h)
 description: The FsRtlOplockIsSharedRequest routine determines if a request for an opportunistic lock (oplock) wants a shared oplock.
 old-location: ifsk\fsrtloplockissharedrequest.htm

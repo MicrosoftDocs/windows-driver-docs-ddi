@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlNormalizeNtstatus~r1
+UID: NF:ntifs.FsRtlNormalizeNtstatus~r1
 title: FsRtlNormalizeNtstatus function (ntifs.h)
 description: The FsRtlNormalizeNtstatus routine translates an arbitrary exception into a status value that is handled by the exception filter.
 old-location: ifsk\fsrtlnormalizentstatus.htm

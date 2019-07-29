@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlOplockFsctrlEx~r3
+UID: NF:ntifs.FsRtlOplockFsctrlEx~r3
 title: FsRtlOplockFsctrlEx function (ntifs.h)
 description: The FsRtlOplockFsctrlEx routine performs various opportunistic lock (oplock) operations on behalf of a file system or filter driver.
 old-location: ifsk\fsrtloplockfsctrlex.htm
