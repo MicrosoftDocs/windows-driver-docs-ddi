@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlInitializeExtraCreateParameter
+UID: NF:ntifs.FsRtlInitializeExtraCreateParameter
 title: FsRtlInitializeExtraCreateParameter function (ntifs.h)
 description: The FsRtlInitializeExtraCreateParameter routine initializes an extra create parameter (ECP) context structure.
 old-location: ifsk\fsrtlinitializeextracreateparameter.htm

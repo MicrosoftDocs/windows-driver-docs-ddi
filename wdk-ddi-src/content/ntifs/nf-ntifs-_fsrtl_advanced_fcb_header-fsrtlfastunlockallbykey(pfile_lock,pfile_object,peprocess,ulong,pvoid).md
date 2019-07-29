@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlFastUnlockAllByKey(PFILE_LOCK,PFILE_OBJECT,PEPROCESS,ULONG,PVOID)
+UID: NF:ntifs.FsRtlFastUnlockAllByKey(PFILE_LOCK,PFILE_OBJECT,PEPROCESS,ULONG,PVOID)
 title: FsRtlFastUnlockAllByKey function (ntifs.h)
 description: The FsRtlFastUnlockAllByKey routine releases all byte-range locks that were acquired by the specified process, with the specified key value, for a file.
 old-location: ifsk\fsrtlfastunlockallbykey.htm

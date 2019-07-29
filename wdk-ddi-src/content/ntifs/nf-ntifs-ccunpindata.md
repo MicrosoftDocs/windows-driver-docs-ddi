@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.CcUnpinData
+UID: NF:ntifs.CcUnpinData
 title: CcUnpinData function (ntifs.h)
 description: The CcUnpinData routine releases cached file data that was mapped or pinned by an earlier call to CcMapData, CcPinRead, or CcPreparePinWrite.
 old-location: ifsk\ccunpindata.htm

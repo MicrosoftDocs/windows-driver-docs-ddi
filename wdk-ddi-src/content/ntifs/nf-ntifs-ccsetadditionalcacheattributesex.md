@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.CcSetAdditionalCacheAttributesEx
+UID: NF:ntifs.CcSetAdditionalCacheAttributesEx
 title: CcSetAdditionalCacheAttributesEx function (ntifs.h)
 description: Call the CcSetAdditionalCacheAttributesEx routine to enable extended cache behavior on a cached file.
 old-location: ifsk\ccsetadditionalcacheattributesex.htm

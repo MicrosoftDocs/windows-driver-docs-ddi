@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlOplockBreakToNoneEx~r5
+UID: NF:ntifs.FsRtlOplockBreakToNoneEx~r5
 title: FsRtlOplockBreakToNoneEx function (ntifs.h)
 description: The FsRtlOplockBreakToNoneEx routine breaks all opportunistic locks (oplocks) immediately without regard for any oplock key.
 old-location: ifsk\fsrtloplockbreaktononeex.htm

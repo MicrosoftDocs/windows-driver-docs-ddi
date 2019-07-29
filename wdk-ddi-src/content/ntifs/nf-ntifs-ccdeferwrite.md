@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.CcDeferWrite
+UID: NF:ntifs.CcDeferWrite
 title: CcDeferWrite function (ntifs.h)
 description: The CcDeferWrite routine defers writing to a cached file.
 old-location: ifsk\ccdeferwrite.htm

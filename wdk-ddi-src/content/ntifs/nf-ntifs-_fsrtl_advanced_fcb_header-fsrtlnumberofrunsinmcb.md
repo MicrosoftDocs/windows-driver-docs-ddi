@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlNumberOfRunsInMcb
+UID: NF:ntifs.FsRtlNumberOfRunsInMcb
 title: FsRtlNumberOfRunsInMcb function (ntifs.h)
 description: Obsolete.
 old-location: ifsk\fsrtlnumberofrunsinmcb.htm

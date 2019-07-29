@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlUninitializeMcb
+UID: NF:ntifs.FsRtlUninitializeMcb
 title: FsRtlUninitializeMcb function (ntifs.h)
 description: Obsolete.
 old-location: ifsk\fsrtluninitializemcb.htm

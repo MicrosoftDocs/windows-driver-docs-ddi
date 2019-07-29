@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlIsNtstatusExpected
+UID: NF:ntifs.FsRtlIsNtstatusExpected
 title: FsRtlIsNtstatusExpected function (ntifs.h)
 description: The FsRtlIsNtstatusExpected routine determines whether the specified exception is handled by the exception filter.
 old-location: ifsk\fsrtlisntstatusexpected.htm

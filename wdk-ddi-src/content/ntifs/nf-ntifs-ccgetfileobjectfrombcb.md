@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.CcGetFileObjectFromBcb
+UID: NF:ntifs.CcGetFileObjectFromBcb
 title: CcGetFileObjectFromBcb function (ntifs.h)
 description: Given a pointer to a pinned buffer control block (BCB) for a file, the CcGetFileObjectFromBcb routine returns a pointer to the file object that the cache manager is using for that file.
 old-location: ifsk\ccgetfileobjectfrombcb.htm

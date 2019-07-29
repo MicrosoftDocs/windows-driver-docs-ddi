@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlBalanceReads
+UID: NF:ntifs.FsRtlBalanceReads
 title: FsRtlBalanceReads function (ntifs.h)
 description: The FsRtlBalanceReads routine signals to a fault-tolerant disk driver that it is now safe to start balancing reads from a mirrored drive.
 old-location: ifsk\fsrtlbalancereads.htm

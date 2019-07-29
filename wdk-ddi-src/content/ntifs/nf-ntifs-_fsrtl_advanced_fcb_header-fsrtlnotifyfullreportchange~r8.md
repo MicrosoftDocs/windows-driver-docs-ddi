@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlNotifyFullReportChange~r8
+UID: NF:ntifs.FsRtlNotifyFullReportChange~r8
 title: FsRtlNotifyFullReportChange function (ntifs.h)
 description: The FsRtlNotifyFullReportChange routine completes pending notify change IRPs.
 old-location: ifsk\fsrtlnotifyfullreportchange.htm

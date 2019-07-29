@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.CcSetDirtyPageThreshold
+UID: NF:ntifs.CcSetDirtyPageThreshold
 title: CcSetDirtyPageThreshold function (ntifs.h)
 description: The CcSetDirtyPageThreshold routine sets a per-file dirty page threshold on a cached file.
 old-location: ifsk\ccsetdirtypagethreshold.htm

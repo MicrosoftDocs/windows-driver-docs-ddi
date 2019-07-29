@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.CcMdlReadComplete
+UID: NF:ntifs.CcMdlReadComplete
 title: CcMdlReadComplete function (ntifs.h)
 description: The CcMdlReadComplete routine frees the memory descriptor lists (MDL) created by CcMdlRead for a cached file.
 old-location: ifsk\ccmdlreadcomplete.htm

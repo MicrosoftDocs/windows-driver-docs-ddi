@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlRemoveMcbEntry~r2
+UID: NF:ntifs.FsRtlRemoveMcbEntry~r2
 title: FsRtlRemoveMcbEntry function (ntifs.h)
 description: Obsolete.
 old-location: ifsk\fsrtlremovemcbentry.htm

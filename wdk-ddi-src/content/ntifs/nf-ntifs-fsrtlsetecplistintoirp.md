@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlSetEcpListIntoIrp
+UID: NF:ntifs.FsRtlSetEcpListIntoIrp
 title: FsRtlSetEcpListIntoIrp function (ntifs.h)
 description: The FsRtlSetEcpListIntoIrp routine attaches an extra create parameter (ECP) context structure list to an IRP_MJ_CREATE operation.
 old-location: ifsk\fsrtlsetecplistintoirp.htm

@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlPostStackOverflow
+UID: NF:ntifs.FsRtlPostStackOverflow
 title: FsRtlPostStackOverflow function (ntifs.h)
 description: The FsRtlPostStackOverflow routine posts a stack overflow item to the stack overflow thread.
 old-location: ifsk\fsrtlpoststackoverflow.htm

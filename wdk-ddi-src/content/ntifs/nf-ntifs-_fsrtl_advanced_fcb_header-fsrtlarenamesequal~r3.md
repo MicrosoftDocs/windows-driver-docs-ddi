@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlAreNamesEqual~r3
+UID: NF:ntifs.FsRtlAreNamesEqual~r3
 title: FsRtlAreNamesEqual function (ntifs.h)
 description: The FsRtlAreNamesEqual routine determines whether two Unicode strings are equal.
 old-location: ifsk\fsrtlarenamesequal.htm

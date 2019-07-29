@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlNotifyInitializeSync
+UID: NF:ntifs.FsRtlNotifyInitializeSync
 title: FsRtlNotifyInitializeSync function (ntifs.h)
 description: The FsRtlNotifyInitializeSync routine allocates and initializes a synchronization object for a notify list.
 old-location: ifsk\fsrtlnotifyinitializesync.htm

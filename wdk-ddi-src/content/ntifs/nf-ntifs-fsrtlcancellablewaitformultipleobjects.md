@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlCancellableWaitForMultipleObjects
+UID: NF:ntifs.FsRtlCancellableWaitForMultipleObjects
 title: FsRtlCancellableWaitForMultipleObjects function (ntifs.h)
 description: The FsRtlCancellableWaitForMultipleObjects routine executes a cancelable wait operation (a wait that can be terminated) on one or more dispatcher objects.
 old-location: ifsk\fsrtlcancellablewaitformultipleobjects.htm

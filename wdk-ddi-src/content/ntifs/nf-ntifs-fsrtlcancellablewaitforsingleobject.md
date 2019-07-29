@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlCancellableWaitForSingleObject
+UID: NF:ntifs.FsRtlCancellableWaitForSingleObject
 title: FsRtlCancellableWaitForSingleObject function (ntifs.h)
 description: The FsRtlCancellableWaitForSingleObject routine executes a cancelable wait operation (a wait that can be terminated) on a dispatcher object.
 old-location: ifsk\fsrtlcancellablewaitforsingleobject.htm

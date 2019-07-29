@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.ZwQueryVolumeInformationFile
+UID: NF:ntifs.ZwQueryVolumeInformationFile
 title: ZwQueryVolumeInformationFile function (ntifs.h)
 description: The ZwQueryVolumeInformationFile routine retrieves information about the volume associated with a given file, directory, storage device, or volume.
 old-location: kernel\zwqueryvolumeinformationfile.htm

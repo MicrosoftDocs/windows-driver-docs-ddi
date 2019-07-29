@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlRegisterUncProviderEx~r3
+UID: NF:ntifs.FsRtlRegisterUncProviderEx~r3
 title: FsRtlRegisterUncProviderEx function (ntifs.h)
 description: The FsRtlRegisterUncProviderEx routine registers a network redirector as a universal naming convention (UNC) provider with the system multiple UNC provider (MUP).
 old-location: ifsk\fsrtlregisteruncproviderex.htm

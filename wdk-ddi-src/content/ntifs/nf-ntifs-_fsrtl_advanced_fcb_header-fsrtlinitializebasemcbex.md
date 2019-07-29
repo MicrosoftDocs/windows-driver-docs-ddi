@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlInitializeBaseMcbEx
+UID: NF:ntifs.FsRtlInitializeBaseMcbEx
 title: FsRtlInitializeBaseMcbEx function (ntifs.h)
 description:
 ms.assetid: ee7e2beb-fc03-4e76-8f68-b6fb9c6d26f8

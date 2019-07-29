@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlMupGetProviderIdFromName
+UID: NF:ntifs.FsRtlMupGetProviderIdFromName
 title: FsRtlMupGetProviderIdFromName function (ntifs.h)
 description: The FsRtlMupGetProviderIdFromName routine gets the provider identifier of a network redirector that is registered with the multiple UNC provider (MUP) from the device name of the network redirector.
 old-location: ifsk\fsrtlmupgetprovideridfromname.htm

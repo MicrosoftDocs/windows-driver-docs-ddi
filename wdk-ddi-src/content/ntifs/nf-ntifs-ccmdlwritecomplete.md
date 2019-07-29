@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.CcMdlWriteComplete
+UID: NF:ntifs.CcMdlWriteComplete
 title: CcMdlWriteComplete function (ntifs.h)
 description: The CcMdlWriteComplete routine frees the memory descriptor lists (MDL) created by CcPrepareMdlWrite for a cached file.
 old-location: ifsk\ccmdlwritecomplete.htm

@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlOplockBreakToNone
+UID: NF:ntifs.FsRtlOplockBreakToNone
 title: FsRtlOplockBreakToNone function (ntifs.h)
 description: Obsolete.
 old-location: ifsk\fsrtloplockbreaktonone.htm

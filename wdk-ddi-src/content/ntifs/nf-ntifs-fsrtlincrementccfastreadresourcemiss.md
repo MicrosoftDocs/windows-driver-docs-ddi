@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlIncrementCcFastReadResourceMiss
+UID: NF:ntifs.FsRtlIncrementCcFastReadResourceMiss
 title: FsRtlIncrementCcFastReadResourceMiss function (ntifs.h)
 description: The FsRtlIncrementCcFastReadResourceMiss routine increments the CcFastReadNotPossible performance counter in a per processor control block of cache manager system counters.
 old-location: ifsk\fsrtlincrementccfastreadresourcemiss.htm

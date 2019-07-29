@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.CcPreparePinWrite
+UID: NF:ntifs.CcPreparePinWrite
 title: CcPreparePinWrite function (ntifs.h)
 description: The CcPreparePinWrite routine pins the specified byte range of a cached file for write access.
 old-location: ifsk\ccpreparepinwrite.htm

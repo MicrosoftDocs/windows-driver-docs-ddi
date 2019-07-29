@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlCopyRead(PFILE_OBJECT,PLARGE_INTEGER,ULONG,BOOLEAN,ULONG,PVOID,PIO_STATUS_BLOCK,PDEVICE_OBJECT)
+UID: NF:ntifs.FsRtlCopyRead(PFILE_OBJECT,PLARGE_INTEGER,ULONG,BOOLEAN,ULONG,PVOID,PIO_STATUS_BLOCK,PDEVICE_OBJECT)
 title: FsRtlCopyRead function (ntifs.h)
 description: The FsRtlCopyRead routine copies data from a cached file to a user buffer.
 old-location: ifsk\fsrtlcopyread.htm

@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlOplockKeysEqual~r1
+UID: NF:ntifs.FsRtlOplockKeysEqual~r1
 title: FsRtlOplockKeysEqual function (ntifs.h)
 description: The FsRtlOplockKeysEqual routine compares the opportunistic lock (oplock) keys that are stored in the file object extensions of two file objects.
 old-location: ifsk\fsrtloplockkeysequal.htm

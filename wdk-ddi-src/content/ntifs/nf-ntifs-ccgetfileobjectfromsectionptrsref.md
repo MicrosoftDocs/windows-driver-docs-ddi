@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.CcGetFileObjectFromSectionPtrsRef
+UID: NF:ntifs.CcGetFileObjectFromSectionPtrsRef
 title: CcGetFileObjectFromSectionPtrsRef function (ntifs.h)
 description: When passed a pointer to a SECTION_OBJECT_POINTERS structure for a cached file, the CcGetFileObjectFromSectionPtrsRef routine returns a pointer to the file object that the cache manager is using for the cached file.
 old-location: ifsk\ccgetfileobjectfromsectionptrsref.htm

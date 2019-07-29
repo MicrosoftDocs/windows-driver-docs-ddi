@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlUpperOplockFsctrl
+UID: NF:ntifs.FsRtlUpperOplockFsctrl
 title: FsRtlUpperOplockFsctrl function (ntifs.h)
 description: The FsRtlUpperOplockFsctrl routine processes opportunistic lock (oplock) requests and acknowledgments for secondary, or layered, file systems.
 old-location: ifsk\fsrtlupperoplockfsctrl.htm

@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlAllocateExtraCreateParameter
+UID: NF:ntifs.FsRtlAllocateExtraCreateParameter
 title: FsRtlAllocateExtraCreateParameter function (ntifs.h)
 description: The FsRtlAllocateExtraCreateParameter routine allocates memory for a user-defined extra create parameter (ECP) context structure and generates a pointer to that structure.
 old-location: ifsk\fsrtlallocateextracreateparameter.htm

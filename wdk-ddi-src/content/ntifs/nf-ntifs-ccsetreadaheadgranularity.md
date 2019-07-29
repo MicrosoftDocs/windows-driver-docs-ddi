@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.CcSetReadAheadGranularity
+UID: NF:ntifs.CcSetReadAheadGranularity
 title: CcSetReadAheadGranularity function (ntifs.h)
 description: The CcSetReadAheadGranularity routine sets the read-ahead granularity for a cached file.
 old-location: ifsk\ccsetreadaheadgranularity.htm

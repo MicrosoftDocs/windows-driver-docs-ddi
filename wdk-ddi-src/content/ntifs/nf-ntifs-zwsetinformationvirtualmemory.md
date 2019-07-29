@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.ZwSetInformationVirtualMemory
+UID: NF:ntifs.ZwSetInformationVirtualMemory
 title: ZwSetInformationVirtualMemory function (ntifs.h)
 description: The ZwSetInformationVirtualMemory routine performs an operation on a specified list of address ranges in the user address space of a process.
 old-location: kernel\zwsetinformationvirtualmemory.htm

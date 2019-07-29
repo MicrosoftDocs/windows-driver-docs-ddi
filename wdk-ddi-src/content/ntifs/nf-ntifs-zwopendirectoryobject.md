@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.ZwOpenDirectoryObject
+UID: NF:ntifs.ZwOpenDirectoryObject
 title: ZwOpenDirectoryObject function (ntifs.h)
 description: The ZwOpenDirectoryObject routine opens an existing directory object.
 old-location: kernel\zwopendirectoryobject.htm

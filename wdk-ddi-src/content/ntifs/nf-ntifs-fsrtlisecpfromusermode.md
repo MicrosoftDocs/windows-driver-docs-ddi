@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlIsEcpFromUserMode
+UID: NF:ntifs.FsRtlIsEcpFromUserMode
 title: FsRtlIsEcpFromUserMode function (ntifs.h)
 description: The FsRtlIsEcpFromUserMode routine determines whether an extra create parameter (ECP) context structure originated from user mode.
 old-location: ifsk\fsrtlisecpfromusermode.htm

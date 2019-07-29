@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlIsTotalDeviceFailure
+UID: NF:ntifs.FsRtlIsTotalDeviceFailure
 title: FsRtlIsTotalDeviceFailure function (ntifs.h)
 description: The FsRtlIsTotalDeviceFailure routine determines whether a media or other hardware failure has occurred.
 old-location: ifsk\fsrtlistotaldevicefailure.htm

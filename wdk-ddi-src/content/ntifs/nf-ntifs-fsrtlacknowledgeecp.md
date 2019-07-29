@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlAcknowledgeEcp
+UID: NF:ntifs.FsRtlAcknowledgeEcp
 title: FsRtlAcknowledgeEcp function (ntifs.h)
 description: The FsRtlAcknowledgeEcp routine marks an extra create parameter (ECP) context structure as acknowledged.
 old-location: ifsk\fsrtlacknowledgeecp.htm
