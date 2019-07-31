@@ -13,7 +13,7 @@ f1_keywords:
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop
-req.target-min-winverclnt: Available in Microsoft Windows Me and in Windows XP and later versions of the Windows operating systems.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -44,65 +44,40 @@ req.typenames:
 
 # wiasGetContextFromName function
 
-
 ## -description
 
-
-The <b>wiasGetContextFromName</b> function retrieves the item context for an item name.
-
+The **wiasGetContextFromName** function retrieves the item context for an item name.
 
 ## -parameters
-
-
-
 
 ### -param pWiasContext [in]
 
 Pointer to a WIA item context.
 
-
 ### -param lFlags
 
 Reserved for system use and should be set to 0.
-
 
 ### -param bstrName [in]
 
 Specifies the name of the context that is being searched for.
 
-
 ### -param ppWiasContext [out]
 
 Pointer to a memory location that receives the address of the WIA item context.
 
-
 ## -returns
 
+On success, the function returns S_OK.
 
-
-On success, the function returns S_OK. If the function fails, it returns a standard COM error or one of the WIA_ERROR_XXX errors (described in the Microsoft Windows SDK documentation).
-
-
-
+If the function fails, it returns a standard COM error or one of the [WIA error codes](https://docs.microsoft.com/windows/win32/wia/-wia-error-codes).
 
 ## -remarks
 
+This function searches for item contexts whose WIA_IPA_FULL_ITEM_NAME property matches *bstrName*. Note that this property is different from WIA_IPA_ITEM_NAME, which does not contain path information.
 
-
-This function searches for item contexts whose WIA_IPA_FULL_ITEM_NAME property matches <i>bstrName</i>. Note that this property is different from WIA_IPA_ITEM_NAME, which does not contain path information.
-
-This function should be used by minidrivers when they need to move from one application item context to another, given the item's name. The names of the application items come from their corresponding driver items, which the minidriver creates and names. 
-
-
-
+This function should be used by minidrivers when they need to move from one application item context to another, given the item's name. The names of the application items come from their corresponding driver items, which the minidriver creates and names.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiasgetrootitem">wiasGetRootItem</a>
- 
-
- 
-
+[wiasGetRootItem](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiasgetrootitem)

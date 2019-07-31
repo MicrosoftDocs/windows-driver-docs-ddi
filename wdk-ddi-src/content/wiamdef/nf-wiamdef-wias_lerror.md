@@ -54,15 +54,15 @@ The WIAS_LERROR macro writes a diagnostic WIA_ERROR message to the log file.
 
 ### -param pILog
 
+Pointer to an [IWiaLog Interface](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wia_lh/nn-wia_lh-iwialog).
+
 ### -param ResID
+
+Specifies the resource ID. This value should be set to WIALOG_NO_RESOURCE_ID.
 
 ### -param Args
 
-- **format_string, ...** - Specifies a variable argument list, which starts with an ANSI format string that describes the message and any format identifiers. The ellipsis (...) specifies a variable number of arguments that need to be output. The error text should be prefixed with the full name of the method or function and generate the message in the format of "class::method, error-text".
-
-- **lResId** - Specifies the resource ID. This value should be set to WIALOG_NO_RESOURCE_ID.
-
-- **pIWiaLog** - Pointer to an [IWiaLog Interface](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wia_lh/nn-wia_lh-iwialog).
+**format_string, ...** - Specifies a variable argument list, which starts with an ANSI format string that describes the message and any format identifiers. The ellipsis (...) specifies a variable number of arguments that need to be output. The error text should be prefixed with the full name of the method or function and generate the message in the format of "class::method, error-text".
 
 ## -remarks
 

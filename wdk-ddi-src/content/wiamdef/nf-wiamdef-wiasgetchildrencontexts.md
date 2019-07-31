@@ -13,7 +13,7 @@ f1_keywords:
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop
-req.target-min-winverclnt: Available in Microsoft Windows Me and in Windows XP and later versions of the Windows operating systems.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -44,38 +44,26 @@ req.typenames:
 
 # wiasGetChildrenContexts function
 
-
 ## -description
 
-
-The <b>wiasGetChildrenContexts</b> function retrieves an array of item contexts belonging to the current item's children.
-
+The **wiasGetChildrenContexts** function retrieves an array of item contexts belonging to the current item's children.
 
 ## -parameters
-
-
-
 
 ### -param pParentContext [in]
 
 Pointer to the parent item.
 
-
 ### -param pulNumChildren [out]
 
 Pointer to a memory location that receives the number of children contexts.
 
-
 ### -param pppChildren [out]
 
-Pointer to a memory location that points to an array whose elements are addresses of <b>IWiaItem</b> objects (described in the Microsoft Windows SDK documentation). Each <b>IWiaItem</b> object represents one child context.
-
+Pointer to a memory location that points to an array whose elements are addresses of [IWiaItem](https://docs.microsoft.com/windows/win32/api/wia_xp/nn-wia_xp-iwiaitem) objects. Each **IWiaItem** object represents one child context.
 
 ## -returns
 
+On success, the function returns S_OK.
 
-
-On success, the function returns S_OK. If the function fails, it returns a standard COM error or one of the WIA_ERROR_XXX errors (described in the Windows SDK documentation).
-
-
-
+If the function fails, it returns a standard COM error or one of the [WIA error codes](https://docs.microsoft.com/windows/win32/wia/-wia-error-codes).
