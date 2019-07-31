@@ -38,7 +38,8 @@ api_name:
 - FltFlushBuffers2
 product: Windows
 targetos: Windows
-
+dev_langs:
+- c++
 ms.custom: 19H1
 ---
 
