@@ -5,7 +5,7 @@ description: Minifilter drivers call FltCreateFile to create a new file or open 
 old-location: ifsk\fltcreatefile.htm
 tech.root: ifsk
 ms.assetid: fd7e1f27-e492-4402-ae9e-4ce52c3420d0
-ms.date: 07/16/2019
+ms.date: 08/01/2019
 ms.keywords: FltApiRef_a_to_d_2059a625-6d9e-4083-9c2e-d92e76c7539a.xml, FltCreateFile, FltCreateFile function [Installable File System Drivers], fltkernel/FltCreateFile, ifsk.fltcreatefile
 ms.topic: function
 f1_keywords:
@@ -191,7 +191,7 @@ Specifies the options to be applied when creating or opening the file, as a comp
 | FILE_RESERVE_OPFILTER (0x00100000) | This flag allows an application to request a filter opportunistic lock (oplock) to prevent other applications from getting share violations. If there are already open handles, the create request will fail with STATUS_OPLOCK_NOT_GRANTED. For more information, see the following Remarks section. |
 | FILE_OPEN_REPARSE_POINT (0x00200000) | Open a file with a reparse point and bypass normal reparse point processing for the file. For more information, see the following Remarks section. |
 | FILE_OPEN_NO_RECALL (0x00400000) | Instructs any filters that perform offline storage or virtualization to not recall the contents of the file as a result of this open. |
-| FILE_OPEN_FOR_FREE_SPACE_QUERY (0x00800000) | |
+| FILE_OPEN_FOR_FREE_SPACE_QUERY (0x00800000) | This flag instructs the file system to capture the user associated with the calling thread. Any subsequent calls to [**FltQueryVolumeInformation**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltqueryvolumeinformation) or [**ZwQueryVolumeInformationFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-zwqueryvolumeinformationfile) using the returned handle will assume the captured user, rather than the calling user at the time, for purposes of computing the free space available to the caller. This applies to the following *FsInformationClass* values: **FileFsSizeInformation**, **FileFsFullSizeInformation**, and **FileFsFullSizeInformationEx**. |
 
 ### -param EaBuffer [in, optional]
 
