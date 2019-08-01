@@ -44,195 +44,85 @@ req.typenames: MONITORREG, *PMONITORREG
 
 # _MONITORREG structure
 
-
 ## -description
-
 
 The MONITORREG structure supplies print monitors with the address of registry functions to use instead of Win32 registry API functions.
 
-
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
 Size, in bytes, of the MONITORREG structure.
 
-
 ### -field fpCreateKey
 
+Pointer to a **CreateKey** spooler registry function.
 
 ### -field fpOpenKey
 
+Pointer to an **OpenKey** spooler registry function.
 
 ### -field fpCloseKey
 
+Pointer to a **CloseKey** spooler registry function.
 
 ### -field fpDeleteKey
 
+Pointer to a **DeleteKey** spooler registry function.
 
 ### -field fpEnumKey
 
+Pointer to an **EnumKey** spooler registry function.
 
 ### -field fpQueryInfoKey
 
+Pointer to a **QueryInfoKey** spooler registry function.
 
 ### -field fpSetValue
 
+Pointer to a **SetValue** spooler registry function.
 
 ### -field fpDeleteValue
 
+Pointer to a **DeleteValue** spooler registry function.
 
 ### -field fpEnumValue
 
+Pointer to an **EnumValue** spooler registry function.
 
 ### -field fpQueryValue
 
+Pointer to a **QueryValue** spooler registry function.
 
 ## -remarks
 
+The MONITORREG structure's address is supplied in a [MONITORINIT](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/ns-winsplp-_monitorinit) structure, which is passed to a print monitor's [InitializePrintMonitor2](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-initializeprintmonitor2) function.
 
+When [storing port configuration information](https://docs.microsoft.com/windows-hardware/drivers/print/storing-port-configuration-information), print monitors must not explicitly call either the Win32 registry API or the cluster registry API.
 
-The MONITORREG structure's address is supplied in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/ns-winsplp-_monitorinit">MONITORINIT</a> structure, which is passed to a print monitor's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-initializeprintmonitor2">InitializePrintMonitor2</a> function.
+Instead, they must call equivalent spooler registry functions. The MONITORREG structure supplies the addresses of these functions. The following table lists each spooler registry function and its equivalent cluster registry function.
 
-When <a href="https://docs.microsoft.com/windows-hardware/drivers/print/storing-port-configuration-information">storing port configuration information</a>, print monitors must not explicitly call either the Win32 registry API or the cluster registry API. Instead, they must call equivalent spooler registry functions. The MONITORREG structure supplies the addresses of these functions. The following table lists each spooler registry function and its equivalent cluster registry function.
+| Spooler Registry Function | Equivalent Cluster Registry Function |
+| --- | --- |
+| CreateKey | ClusterRegCreateKey |
+| OpenKey | ClusterRegOpenKey |
+| CloseKey | ClusterRegCloseKey |
+| DeleteKey | ClusterRegDeleteKey |
+| EnumKey | ClusterRegEnumKey |
+| QueryInfoKey | ClusterRegQueryInfoKey |
+| SetValue | ClusterRegSetValue |
+| DeleteValue | ClusterRegDeleteValue |
+| EnumValue | ClusterRegEnumValue |
+| QueryValue | ClusterRegQueryValue |
 
-<table>
-<tr>
-<th>Spooler Registry Function</th>
-<th>Equivalent Cluster Registry Function</th>
-</tr>
-<tr>
-<td>
-<b>CreateKey</b>
+Input and output parameters for these spooler functions match the parameters of the equivalent cluster registry functions in the [clusapi.h](https://docs.microsoft.com/windows/win32/api/clusapi/index) header, with the following exceptions:
 
-</td>
-<td>
-<b>ClusterRegCreateKey</b>
+- Each spooler registry function requires an *hSpooler* input parameter. This is the spooler handle received in the [MONITORINIT](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/ns-winsplp-_monitorinit) structure.
 
-</td>
-</tr>
-<tr>
-<td>
-<b>OpenKey</b>
-
-</td>
-<td>
-<b>ClusterRegOpenKey</b>
-
-</td>
-</tr>
-<tr>
-<td>
-<b>CloseKey</b>
-
-</td>
-<td>
-<b>ClusterRegCloseKey</b>
-
-</td>
-</tr>
-<tr>
-<td>
-<b>DeleteKey</b>
-
-</td>
-<td>
-<b>ClusterRegDeleteKey</b>
-
-</td>
-</tr>
-<tr>
-<td>
-<b>EnumKey</b>
-
-</td>
-<td>
-<b>ClusterRegEnumKey</b>
-
-</td>
-</tr>
-<tr>
-<td>
-<b>QueryInfoKey</b>
-
-</td>
-<td>
-<b>ClusterRegQueryInfoKey</b>
-
-</td>
-</tr>
-<tr>
-<td>
-<b>SetValue</b>
-
-</td>
-<td>
-<b>ClusterRegSetValue</b>
-
-</td>
-</tr>
-<tr>
-<td>
-<b>DeleteValue</b>
-
-</td>
-<td>
-<b>ClusterRegDeleteValue</b>
-
-</td>
-</tr>
-<tr>
-<td>
-<b>EnumValue</b>
-
-</td>
-<td>
-<b>ClusterRegEnumValue</b>
-
-</td>
-</tr>
-<tr>
-<td>
-<b>QueryValue</b>
-
-</td>
-<td>
-<b>ClusterRegQueryValue</b>
-
-</td>
-</tr>
-</table>
- 
-
-Input and output parameters for these spooler functions match the parameters of the equivalent cluster registry functions (described in the Microsoft Windows SDK documentation), with the following exceptions:
-
-<ul>
-<li>
-Each spooler registry function requires an <i>hSpooler</i> input parameter. This is the spooler handle received in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/ns-winsplp-_monitorinit">MONITORINIT</a> structure.
-
-</li>
-<li>
-The spooler registry functions use HANDLE and PHANDLE parameter types instead of the HKEY and PHKEY types used by the cluster registry functions. Monitors receive the handle of the root registry location in the <b>hckRegistryRoot</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/ns-winsplp-_monitorinit">MONITORINIT</a> structure.
-
-</li>
-</ul>
-
-
+- The spooler registry functions use HANDLE and PHANDLE parameter types instead of the HKEY and PHKEY types used by the cluster registry functions. Monitors receive the handle of the root registry location in the **hckRegistryRoot** member of the [MONITORINIT](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/ns-winsplp-_monitorinit) structure.
 
 ## -see-also
 
+[InitializePrintMonitor2](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-initializeprintmonitor2)
 
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-initializeprintmonitor2">InitializePrintMonitor2</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/ns-winsplp-_monitorinit">MONITORINIT</a>
- 
-
- 
-
+[MONITORINIT](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/ns-winsplp-_monitorinit)
