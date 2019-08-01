@@ -4,7 +4,7 @@ title: DeviceDsmAddDataSetRange function (ntddstor.h)
 description: The DeviceDsmAddDataSetRange function adds a data set range to a DEVICE_MANAGE_DATA_SET_ATTRIBUTES structure.
 tech.root: storage
 ms.assetid: 22dca47e-9542-486a-bbf3-053cbd3fccd9
-ms.date: 04/06/2018
+ms.date: 07/31/2019
 ms.topic: function
 f1_keywords:
  - "ntddstor/DeviceDsmAddDataSetRange"
@@ -44,13 +44,13 @@ targetos: Windows
 
 ## -description
 
-The **DeviceDsmAddDataSetRange** function adds a data set range to a [**DEVICE_MANAGE_DATA_SET_ATTRIBUTES**](ns-ntddstor-_device_manage_data_set_attributes.md) structure.
+The **DeviceDsmAddDataSetRange** function adds a data set range to a [DEVICE_DSM_INPUT](ns-ntddstor-_device_manage_data_set_attributes.md) structure.
 
 ## -parameters
 
 ### -param Input
 
-A pointer to the [**DEVICE_MANAGE_DATA_SET_ATTRIBUTES**](ns-ntddstor-_device_manage_data_set_attributes.md) structure to which to add a data set range.
+Pointer to the [DEVICE_DSM_INPUT](ns-ntddstor-_device_manage_data_set_attributes.md) structure to which to add a data set range.
 
 ### -param InputLength
 
@@ -71,3 +71,5 @@ Returns TRUE if the data set range was successfully added, or FALSE otherwise.
 ## -remarks
 
 ## -see-also
+
+[DEVICE_DSM_INPUT](ns-ntddstor-_device_manage_data_set_attributes.md)

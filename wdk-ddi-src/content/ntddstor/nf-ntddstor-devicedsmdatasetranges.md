@@ -4,7 +4,7 @@ title: DeviceDsmDataSetRanges function (ntddstor.h)
 description: The DeviceDsmDataSetRanges function sets the data set range in a DEVICE_DSM_RANGE structure.
 tech.root: storage
 ms.assetid: 0a7044a8-4cf1-4e40-92e1-c0dacea99ea9
-ms.date: 04/09/2018
+ms.date: 07/31/2019
 ms.topic: function
 f1_keywords:
  - "ntddstor/DeviceDsmDataSetRanges"
@@ -42,20 +42,19 @@ targetos: Windows
 
 # DeviceDsmDataSetRanges function
 
-
 ## -description
 
-The DeviceDsmDataSetRanges function gets a pointer to the data set ranges for a [**DEVICE_MANAGE_DATA_SET_ATTRIBUTES**](ns-ntddstor-_device_manage_data_set_attributes.md) structure.
+The DeviceDsmDataSetRanges function gets a pointer to the data set ranges for a [DEVICE_DSM_INPUT](ns-ntddstor-_device_manage_data_set_attributes.md) structure.
 
 ## -parameters
 
 ### -param Input
 
-A pointer to the [**DEVICE_MANAGE_DATA_SET_ATTRIBUTES**](ns-ntddstor-_device_manage_data_set_attributes.md) structure.
+Pointer to the [DEVICE_DSM_INPUT](ns-ntddstor-_device_manage_data_set_attributes.md) structure.
 
 ## -returns
 
-Returns a pointer to a PDEVICE_DSM_RANGE structure that represents a device data set range.
+Returns a pointer to a DEVICE_DSM_RANGE structure that represents a device data set range.
 
 ## -remarks
 

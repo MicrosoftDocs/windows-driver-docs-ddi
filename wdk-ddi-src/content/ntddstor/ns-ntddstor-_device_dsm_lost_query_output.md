@@ -1,10 +1,10 @@
 ---
 UID: NS:ntddstor._DEVICE_DSM_LOST_QUERY_OUTPUT
 title: _DEVICE_DSM_LOST_QUERY_OUTPUT (ntddstor.h)
-description: 
+description: This structure is reserved for system use only.
 tech.root: storage
 ms.assetid: 566bbd9e-4f8e-49d9-915d-901c4495bbe8
-ms.date: 10/19/2018
+ms.date: 07/31/2019
 ms.topic: struct
 f1_keywords:
  - "ntddstor/_DEVICE_DSM_LOST_QUERY_OUTPUT"
@@ -39,19 +39,29 @@ targetos: Windows
 
 ## -description
 
+This structure is reserved for system use only.
 
 ## -struct-fields
 
 ### -field Version
- 
+
+Not applicable.
+
 ### -field Size
- 
+
+Not applicable.
+
 ### -field Alignment
- 
+
+Not applicable.
+
 ### -field NumberOfBits
- 
+
+Not applicable.
+
 ### -field BitMap
- 
+
+Not applicable.
 
 ## -remarks
 

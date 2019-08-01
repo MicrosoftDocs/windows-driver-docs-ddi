@@ -1,10 +1,10 @@
 ---
 UID: NS:ntddstor._DEVICE_DSM_LOST_QUERY_PARAMETERS
 title: _DEVICE_DSM_LOST_QUERY_PARAMETERS (ntddstor.h)
-description: 
+description: This structure is reserved for system use only.
 tech.root: storage
 ms.assetid: 202e9749-20af-409f-93d6-52ad52fa9b49
-ms.date: 10/19/2018
+ms.date: 07/31/2019
 ms.topic: struct
 f1_keywords:
  - "ntddstor/_DEVICE_DSM_LOST_QUERY_PARAMETERS"
@@ -39,13 +39,17 @@ targetos: Windows
 
 ## -description
 
+This structure is reserved for system use only.
 
 ## -struct-fields
 
 ### -field Version
- 
+
+Not applicable.
+
 ### -field Granularity
- 
+
+Not applicable.
 
 ## -remarks
 

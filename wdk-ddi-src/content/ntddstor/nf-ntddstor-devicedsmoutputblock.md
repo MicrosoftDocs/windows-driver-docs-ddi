@@ -1,10 +1,10 @@
 ---
 UID: NF:ntddstor.DeviceDsmOutputBlock
 title: DeviceDsmOutputBlock function (ntddstor.h)
-description: The DeviceDsmOutputBlock function gets the output block of a DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT structure.
+description: The DeviceDsmOutputBlock function gets the output block of a DEVICE_DSM_OUTPUT structure.
 tech.root: storage
 ms.assetid: a33581ae-15ac-4957-99a0-58ed8c8dbd24
-ms.date: 04/11/2018
+ms.date: 07/31/2019
 ms.topic: function
 f1_keywords:
  - "ntddstor/DeviceDsmOutputBlock"
@@ -42,21 +42,22 @@ targetos: Windows
 
 # DeviceDsmOutputBlock function
 
-
 ## -description
 
-The **DeviceDsmOutputBlock** function gets the output block of a [**DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT**](ns-ntddstor-_device_manage_data_set_attributes_output.md) structure.
+The **DeviceDsmOutputBlock** function gets the output block from the output buffer.
 
 ## -parameters
 
 ### -param Output
 
-A pointer to the [**DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT**](ns-ntddstor-_device_manage_data_set_attributes_output.md) structure.
+Pointer to the [DEVICE_DSM_OUTPUT](ns-ntddstor-_device_manage_data_set_attributes_output.md) structure.
 
 ## -returns
 
-Returns a pointer to the output block of the [**DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT**](ns-ntddstor-_device_manage_data_set_attributes_output.md) structure.
+Returns a pointer to the output block that immediately follows the DEVICE_DSM_OUTPUT structure.
 
 ## -remarks
 
 ## -see-also
+
+[DEVICE_DSM_OUTPUT](ns-ntddstor-_device_manage_data_set_attributes_output.md)

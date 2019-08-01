@@ -4,7 +4,7 @@ title: DeviceDsmNumberOfDataSetRanges function (ntddstor.h)
 description: The DeviceDsmNumberOfDataSetRanges function gets the number of data set ranges for a DEVICE_MANAGE_DATA_SET_ATTRIBUTES structure.
 tech.root: storage
 ms.assetid: 04c83255-8f92-4db7-848b-928fcc16bb60
-ms.date: 04/11/2018
+ms.date: 07/31/2019
 ms.topic: function
 f1_keywords:
  - "ntddstor/DeviceDsmNumberOfDataSetRanges"
@@ -42,21 +42,22 @@ targetos: Windows
 
 # DeviceDsmNumberOfDataSetRanges function
 
-
 ## -description
 
-The DeviceDsmNumberOfDataSetRanges function gets the number of data set ranges for a [**DEVICE_MANAGE_DATA_SET_ATTRIBUTES**](ns-ntddstor-_device_manage_data_set_attributes.md) structure.
+The **DeviceDsmNumberOfDataSetRanges** function gets the number of data set ranges in the input operation identified by a [DEVICE_DSM_INPUT](ns-ntddstor-_device_manage_data_set_attributes.md) structure.
 
 ## -parameters
 
 ### -param Input
 
-A pointer to the [**DEVICE_MANAGE_DATA_SET_ATTRIBUTES**](ns-ntddstor-_device_manage_data_set_attributes.md) structure.
+Pointer to the [DEVICE_DSM_INPUT](ns-ntddstor-_device_manage_data_set_attributes.md) structure.
 
 ## -returns
 
-Returns the number of data set ranges in the [**DEVICE_MANAGE_DATA_SET_ATTRIBUTES**](ns-ntddstor-_device_manage_data_set_attributes.md) structure.
+Returns the number of data set ranges in the input operation identified by the DEVICE_DSM_ATTRIBUTES structure.
 
 ## -remarks
 
 ## -see-also
+
+[DEVICE_DSM_INPUT](ns-ntddstor-_device_manage_data_set_attributes.md)

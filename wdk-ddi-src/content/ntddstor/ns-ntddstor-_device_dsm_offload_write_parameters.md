@@ -5,7 +5,7 @@ description: The DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS structure specifies the par
 old-location: storage\device_dsm_offload_write_parameters.htm
 tech.root: storage
 ms.assetid: B0E9DABD-0D5B-4F5D-8CB0-470AC126F9C0
-ms.date: 03/29/2018
+ms.date: 07/31/2019
 ms.keywords: "*PDEVICE_DSM_OFFLOAD_WRITE_PARAMETERS, DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS, DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS structure [Storage Devices], PDEVICE_DSM_OFFLOAD_WRITE_PARAMETERS, PDEVICE_DSM_OFFLOAD_WRITE_PARAMETERS structure pointer [Storage Devices], _DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS, ntddstor/DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS, ntddstor/PDEVICE_DSM_OFFLOAD_WRITE_PARAMETERS, storage.device_dsm_offload_write_parameters"
 ms.topic: struct
 f1_keywords:
@@ -44,62 +44,38 @@ req.typenames: DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS, *PDEVICE_DSM_OFFLOAD_WRITE_P
 
 # _DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS structure
 
-
 ## -description
 
+The DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS structure specifies the parameters for an offload write action related to the data-set attributes for a device.
 
-The <b>DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS</b> structure specifies the parameters for an offload write action related to the data-set attributes for a device. 
-
-This parameter structure is used in an offload write  action for an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ni-ntddstor-ioctl_storage_manage_data_set_attributes">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> request.  The <b>Action</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor-_device_manage_data_set_attributes">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a> structure is set to <b>DeviceDsmAction_OffloadWrite</b>, and <b>ParameterBlockOffset</b> indicates the location of <b>DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS</b>.
-
+This parameter structure is used in an offload write action for an [IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ni-ntddstor-ioctl_storage_manage_data_set_attributes) request.  The **Action** member of the [DEVICE_DSM_INPUT](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor-_device_manage_data_set_attributes) structure is set to **DeviceDsmAction_OffloadWrite**, and **ParameterBlockOffset** indicates the location of **DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS**.
 
 ## -struct-fields
-
-
-
 
 ### -field Flags
 
 Not used.
 
-
 ### -field Reserved
 
 Reserved.
 
-
 ### -field TokenOffset
 
-The offset, in bytes, within the data block specified by <b>Token</b> to begin writing from.
-
+The offset, in bytes, within the data block specified by **Token** to begin writing from.
 
 ### -field Token
 
 The unique identifier of the data block to write from.
 
-
 ## -remarks
 
+The **ParameterBlockOffset** and **ParameterBlockLength** members  of [DEVICE_DSM_INPUT](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor-_device_manage_data_set_attributes) are set to the location and length of the  **DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS** structure in the system buffer of the [IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ni-ntddstor-ioctl_storage_manage_data_set_attributes) request.
 
-
-The <b>ParameterBlockOffset</b> and <b>ParameterBlockLength</b> members  of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor-_device_manage_data_set_attributes">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a> are set to the location and length of the  <b>DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS</b> structure in the system buffer of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ni-ntddstor-ioctl_storage_manage_data_set_attributes">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> request.
-
-The <b>DataSetRangesOffset</b> and <b>DataSetRangesLength</b> members of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor-_device_manage_data_set_attributes">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a> specify the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor-_device_data_set_range">DEVICE_DATA_SET_RANGE</a> structures for the extents of the offload write.
-
-
-
+The **DataSetRangesOffset** and **DataSetRangesLength** members of DEVICE_DSM_INPUT specify the [DEVICE_DATA_SET_RANGE](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor-_device_data_set_range) structures for the extents of the offload write.
 
 ## -see-also
 
+[DEVICE_DSM_INPUT](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor-_device_manage_data_set_attributes)
 
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor-_device_manage_data_set_attributes">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ni-ntddstor-ioctl_storage_manage_data_set_attributes">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a>
- 
-
- 
-
+[IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ni-ntddstor-ioctl_storage_manage_data_set_attributes)

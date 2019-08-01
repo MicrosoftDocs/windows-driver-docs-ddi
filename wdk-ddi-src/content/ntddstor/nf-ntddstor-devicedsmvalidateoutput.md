@@ -4,7 +4,7 @@ title: DeviceDsmValidateOutput function (ntddstor.h)
 description: The DeviceDsmValidateOutput function validates a DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT structure.
 tech.root: storage
 ms.assetid: 322aad6f-62d2-4530-be13-c3f8f64a1a26
-ms.date: 04/11/2018
+ms.date: 07/31/2019
 ms.topic: function
 f1_keywords:
  - "ntddstor/DeviceDsmValidateOutput"
@@ -42,24 +42,23 @@ targetos: Windows
 
 # DeviceDsmValidateOutput function
 
-
 ## -description
 
-The **DeviceDsmValidateOutput** function validates a [**DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT**](ns-ntddstor-_device_manage_data_set_attributes_output.md) structure.
+The **DeviceDsmValidateOutput** function validates a [DEVICE_DSM_OUTPUT](ns-ntddstor-_device_manage_data_set_attributes_output.md) structure.
 
 ## -parameters
 
 ### -param Definition
 
-A pointer to a DEVICE_DSM_DEFINITION structure that contains output block length and alignment information.
+Pointer to an opaque [DEVICE_DSM_DEFINITION](ns-ntddstor-_device_dsm_definition.md) structure that contains output block alignment and length information.
 
 ### -param Output
 
-A pointer to the [**DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT**](ns-ntddstor-_device_manage_data_set_attributes_output.md) structure to be validated.
+Pointer to the DEVICE_DSM_OUTPUT structure to be validated.
 
 ### -param OutputLength
 
-The length, in bytes, of the output.
+The length, in bytes, of the structure to which *Output* points.
 
 ## -returns
 

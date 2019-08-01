@@ -4,7 +4,7 @@ title: DEVICE_DSM_ROUND_UP macro (ntddstor.h)
 description: The DEVICE_DSM_ROUND_UP macro is a DSM helper routine that rounds a byte quantity up to a given number of whole bytes.
 tech.root: storage
 ms.assetid: 72c878ff-ba84-4805-8850-f96af298e249
-ms.date: 09/20/2018
+ms.date: 07/31/2019
 ms.topic: macro
 f1_keywords:
  - "ntddstor/DEVICE_DSM_ROUND_UP"
@@ -42,7 +42,6 @@ targetos: Windows
 
 # DEVICE_DSM_ROUND_UP macro
 
-
 ## -description
 
 The **DEVICE_DSM_ROUND_UP** macro is a DSM helper routine that rounds a byte quantity up to a given number of whole bytes.
@@ -55,7 +54,7 @@ The original number of bytes to round up.
 
 ### -param _b
 
-The target whole number of bytes up to which to round _\_a_.
+The target whole number of bytes up to round *_a* to.
 
 ## -remarks
 

@@ -4,7 +4,7 @@ title: DeviceDsmInitializeInput function (ntddstor.h)
 description: The DeviceDsmInitializeInput function initializes a DEVICE_MANAGE_DATA_SET_ATTRIBUTES structure.
 ms.assetid: 4a212a8e-1bd1-4ad1-9da1-f9527a304e81
 tech.root: storage
-ms.date: 04/11/2018
+ms.date: 07/31/2019
 ms.topic: function
 f1_keywords:
  - "ntddstor/DeviceDsmInitializeInput"
@@ -42,20 +42,19 @@ targetos: Windows
 
 # DeviceDsmInitializeInput function
 
-
 ## -description
 
-The DeviceDsmInitializeInput function initializes a [**DEVICE_MANAGE_DATA_SET_ATTRIBUTES**](ns-ntddstor-_device_manage_data_set_attributes.md) structure.
+The **DeviceDsmInitializeInput** function initializes the [DEVICE_DSM_INPUT](ns-ntddstor-_device_manage_data_set_attributes.md) structure and parameters block of an input operation.
 
 ## -parameters
 
 ### -param Definition
 
-A pointer to a DEVICE_DSM_DEFINITION structure that contains parameter block alignment information.
+Pointer to an opaque [DEVICE_DSM_DEFINITION](ns-ntddstor-_device_dsm_definition.md) structure that contains parameter block alignment and length information.
 
 ### -param Input
 
-A pointer to the input [**DEVICE_MANAGE_DATA_SET_ATTRIBUTES**](ns-ntddstor-_device_manage_data_set_attributes.md) structure.
+Pointer to the caller-allocated [DEVICE_DSM_INPUT](ns-ntddstor-_device_manage_data_set_attributes.md) input structure.
 
 ### -param InputLength
 
@@ -79,4 +78,11 @@ This function does not return a value.
 
 ## -remarks
 
+The parameter block is formatted as a [DEVICE_DSM_NOTIFICATION_PARAMETERS](ns-ntddstor-_device_dsm_notification_parameters.md) structure.
+To add a data set range to the input operation, call [**DeviceDsmAddDataSetRange**](nf-ntddstor-devicedsmadddatasetrange).
+
 ## -see-also
+
+[DEVICE_DSM_INPUT](ns-ntddstor-_device_manage_data_set_attributes.md)
+
+[**DeviceDsmAddDataSetRange**](nf-ntddstor-devicedsmadddatasetrange)

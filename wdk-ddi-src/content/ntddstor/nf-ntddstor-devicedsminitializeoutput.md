@@ -4,7 +4,7 @@ title: DeviceDsmInitializeOutput function (ntddstor.h)
 description: The DeviceDsmInitializeOutput function initializes a DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT structure.
 tech.root: storage
 ms.assetid: e68acc49-63c9-4ea2-9450-fa45dd2b5e06
-ms.date: 04/11/2018
+ms.date: 07/31/2019
 ms.topic: function
 f1_keywords:
  - "ntddstor/DeviceDsmInitializeOutput"
@@ -42,20 +42,19 @@ targetos: Windows
 
 # DeviceDsmInitializeOutput function
 
-
 ## -description
 
-The **DeviceDsmInitializeOutput** function initializes a [**DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT**](ns-ntddstor-_device_manage_data_set_attributes_output.md) structure.
+The **DeviceDsmInitializeOutput** function initializes a [DEVICE_DSM_OUTPUT](ns-ntddstor-_device_manage_data_set_attributes_output.md) structure.
 
 ## -parameters
 
 ### -param Definition
 
-A pointer to a DEVICE_DSM_DEFINITION structure that contains output block alignment and length information.
+Pointer to an opaque [DEVICE_DSM_DEFINITION](ns-ntddstor-_device_dsm_definition.md) structure that contains parameter block alignment and length information.
 
 ### -param Output
 
-A pointer to the [**DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT**](ns-ntddstor-_device_manage_data_set_attributes_output.md) structure to be initialized.
+Pointer to the [DEVICE_DSM_OUTPUT](ns-ntddstor-_device_manage_data_set_attributes_output.md) structure to be initialized.
 
 ### -param OutputLength
 
@@ -63,7 +62,7 @@ The length, in bytes, of the output.
 
 ### -param Flags
 
-Flags for the data set management action in the [**DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT**](ns-ntddstor-_device_manage_data_set_attributes_output.md) structure.
+Flags for the data set management action in the DEVICE_DSM_OUTPUT structure.
 
 ## -returns
 
@@ -72,3 +71,5 @@ This function does not return a value.
 ## -remarks
 
 ## -see-also
+
+[**DEVICE_DSM_OUTPUT**](ns-ntddstor-_device_manage_data_set_attributes_output.md)
