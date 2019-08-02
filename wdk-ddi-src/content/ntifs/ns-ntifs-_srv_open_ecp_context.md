@@ -58,12 +58,12 @@ The SRV_OPEN_ECP_CONTEXT structure is used by a server to conditionally open fil
 
 ### -field ShareName
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that supplies the share name for the server that contains the files to be open. 
+A pointer to an optional <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that supplies the share name for the server that contains the files to be open. This field can be a NULL in some cases.
 
 
 ### -field SocketAddress
 
-A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-sockaddr_storage">SOCKADDR_STORAGE</a> structure that specifies the transport address of a client computer. This client originates the open file request. 
+A pointer to an optional <a href="https://docs.microsoft.com/windows/desktop/api/ws2def/ns-ws2def-sockaddr_storage">SOCKADDR_STORAGE</a> structure that specifies the transport address of a client computer. This client originates the open file request. This field can be a NULL in some cases.
 
 
 ### -field OplockBlockState

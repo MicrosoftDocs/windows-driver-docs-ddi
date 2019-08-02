@@ -5,7 +5,7 @@ description: Minifilter drivers call FltCreateFileEx2 to create a new file or op
 old-location: ifsk\fltcreatefileex2.htm
 tech.root: ifsk
 ms.assetid: e662472d-4d72-449e-91d7-119bd59e0943
-ms.date: 04/26/2019
+ms.date: 08/01/2019
 ms.keywords: FltApiRef_a_to_d_21436e16-822a-4250-abac-10346593435f.xml, FltCreateFileEx2, FltCreateFileEx2 routine [Installable File System Drivers], fltkernel/FltCreateFileEx2, ifsk.fltcreatefileex2
 ms.topic: function
 f1_keywords:
@@ -569,188 +569,33 @@ If the file already exists, open it and overwrite it. If it does not, create the
 
 ### -param CreateOptions [in]
 
-Specifies the options to be applied when creating or opening the file, as a compatible combination of the following flags. 
+Specifies the options to be applied when creating or opening the file, as a compatible combination of the following flags.
 
-<table>
-<tr>
-<th><i>CreateOptions</i> flags</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-FILE_DIRECTORY_FILE
-
-</td>
-<td>
-The file that is being created or opened is a directory file. With this flag, the <i>CreateDisposition</i> parameter must be set to one of FILE_CREATE, FILE_OPEN, or FILE_OPEN_IF. With this flag, other compatible <i>CreateOptions</i> flags include only the following: FILE_SYNCHRONOUS_IO_ALERT, FILE_SYNCHRONOUS_IO_NONALERT, FILE_WRITE_THROUGH, FILE_OPEN_FOR_BACKUP_INTENT, and FILE_OPEN_BY_FILE_ID. 
-
-</td>
-</tr>
-<tr>
-<td>
-FILE_NON_DIRECTORY_FILE
-
-</td>
-<td>
-The file that is being opened must not be a directory file or this call fails. The file object that is being opened can represent a data file; a logical, virtual, or physical device; or a volume. 
-
-</td>
-</tr>
-<tr>
-<td>
-FILE_WRITE_THROUGH
-
-</td>
-<td>
-System services, file systems, and drivers that write data to the file must actually transfer the data into the file before any requested write operation is considered complete. 
-
-</td>
-</tr>
-<tr>
-<td>
-FILE_SEQUENTIAL_ONLY
-
-</td>
-<td>
-All accesses to the file will be sequential.
-
-</td>
-</tr>
-<tr>
-<td>
-FILE_RANDOM_ACCESS
-
-</td>
-<td>
-Accesses to the file can be random, so no sequential read-ahead operations should be performed on the file by file systems or the operating system.
-
-</td>
-</tr>
-<tr>
-<td>
-FILE_NO_INTERMEDIATE_BUFFERING
-
-</td>
-<td>
-The file cannot be cached or buffered in a driver's internal buffers. This flag is incompatible with the <i>DesiredAccess</i>FILE_APPEND_DATA flag. 
-
-</td>
-</tr>
-<tr>
-<td>
-FILE_SYNCHRONOUS_IO_ALERT
-
-</td>
-<td>
-All operations on the file are performed synchronously. Any wait on behalf of the caller is subject to premature termination from alerts. This flag also causes the I/O system to maintain the file position context. If this flag is set, the <i>DesiredAccess</i> SYNCHRONIZE flag also must be set so that the I/O Manager uses the file object as a synchronization object. 
-
-</td>
-</tr>
-<tr>
-<td>
-FILE_SYNCHRONOUS_IO_NONALERT
-
-</td>
-<td>
-All operations on the file are performed synchronously. Waits in the system to synchronize I/O queuing and completion are not subject to alerts. This flag also causes the I/O system to maintain the file position context. If this flag is set, the <i>DesiredAccess</i> SYNCHRONIZE flag also must be set so that the I/O Manager uses the file object as a synchronization object.
-
-</td>
-</tr>
-<tr>
-<td>
-FILE_CREATE_TREE_CONNECTION
-
-</td>
-<td>
-Create a tree connection for this file in order to open it over the network. 
-
-</td>
-</tr>
-<tr>
-<td>
-FILE_COMPLETE_IF_OPLOCKED
-
-</td>
-<td>
-Complete this operation immediately with an alternate success code if the target file is oplocked, rather than blocking the caller's thread. If the file is oplocked, another caller already has access to the file over the network. 
-
-</td>
-</tr>
-<tr>
-<td>
-FILE_NO_EA_KNOWLEDGE
-
-</td>
-<td>
-If the extended attributes on an existing file that is being opened indicate that the caller must understand extended attributes to properly interpret the file, fail this request because the caller does not understand how to deal with extended attributes. 
-
-</td>
-</tr>
-<tr>
-<td>
-FILE_OPEN_REPARSE_POINT
-
-</td>
-<td>
-Open a file with a reparse point and bypass normal reparse point processing for the file.  For more information, see the following Remarks section.
-
-</td>
-</tr>
-<tr>
-<td>
-FILE_DELETE_ON_CLOSE 
-
-</td>
-<td>
-Delete the file when the last handle to it is passed to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltclose">FltClose</a>. 
-
-</td>
-</tr>
-<tr>
-<td>
-FILE_OPEN_BY_FILE_ID
-
-</td>
-<td>
-The file is being opened by ID. The file name contains the name of a device and a 64-bit ID to be used to open the file. 
-
-</td>
-</tr>
-<tr>
-<td>
-FILE_OPEN_FOR_BACKUP_INTENT
-
-</td>
-<td>
-The file is being opened for backup intent. Therefore, the system should check for certain access rights and grant the caller the appropriate accesses to the file before checking the input <i>DesiredAccess</i> against the file's security descriptor. 
-
-</td>
-</tr>
-<tr>
-<td>
-FILE_OPEN_REQUIRING_OPLOCK 
-
-</td>
-<td>
-The file is being opened and an opportunistic lock (oplock) on the file is being requested as a single atomic operation. The file system checks for oplocks before it performs the create operation, and the create will fail with a return code of STATUS_CANNOT_BREAK_OPLOCK if the create would break an existing oplock. 
-
-<div class="alert"><b>Note</b>    The FILE_OPEN_REQUIRING_OPLOCK flag is available in Windows 7, Windows Server 2008 R2 and later Windows operating systems.</div>
-<div> </div>
-</td>
-</tr>
-<tr>
-<td>
-FILE_RESERVE_OPFILTER 
-
-</td>
-<td>
-This flag allows an application to request a Filter opportunistic lock (oplock) to prevent other applications from getting share violations.  If there are already open handles, the create request will fail with STATUS_OPLOCK_NOT_GRANTED.  For more information, see the following Remarks section.
-
-</td>
-</tr>
-</table>
- 
-
+| CreateOptions Flags | Meaning |
+| ------------------- | ------- |
+| FILE_DIRECTORY_FILE (0x00000001)  | The file being created or opened is a directory file. With this flag, the *CreateDisposition* parameter must be set to one of FILE_CREATE, FILE_OPEN, or FILE_OPEN_IF. With this flag, other compatible *CreateOptions* flags include only the following: FILE_SYNCHRONOUS_IO_ALERT, FILE_SYNCHRONOUS_IO_NONALERT, FILE_WRITE_THROUGH, FILE_OPEN_FOR_BACKUP_INTENT, and FILE_OPEN_BY_FILE_ID. |
+| FILE_WRITE_THROUGH (0x00000002) | System services, file systems, and drivers that write data to the file must actually transfer the data into the file before any requested write operation is considered complete. |
+| FILE_SEQUENTIAL_ONLY (0x00000004) | All accesses to the file will be sequential. |
+| FILE_NO_INTERMEDIATE_BUFFERING (0x00000008) | The file cannot be cached or buffered in a driver's internal buffers. This flag is incompatible with the *DesiredAccess *FILE_APPEND_DATA flag. |
+| FILE_SYNCHRONOUS_IO_ALERT (0x00000010) | All operations on the file are performed synchronously. Any wait on behalf of the caller is subject to premature termination from alerts. This flag also causes the I/O system to maintain the file position context. If this flag is set, the *DesiredAccess* SYNCHRONIZE flag also must be set so that the I/O Manager uses the file object as a synchronization object. |
+| FILE_SYNCHRONOUS_IO_NONALERT (0x00000020) | All operations on the file are performed synchronously. Waits in the system to synchronize I/O queuing and completion are not subject to alerts. This flag also causes the I/O system to maintain the file position context. If this flag is set, the *DesiredAccess* SYNCHRONIZE flag also must be set so that the I/O Manager uses the file object as a synchronization object. |
+| FILE_NON_DIRECTORY_FILE (0x00000040) | The file being opened must not be a directory file or this call fails. The file object being opened can represent a data file; a logical, virtual, or physical device; or a volume. |
+| FILE_CREATE_TREE_CONNECTION (0x00000080) | Create a tree connection for this file in order to open it over the network. |
+| FILE_COMPLETE_IF_OPLOCKED (0x00000100) | Complete this operation immediately with an alternate success code if the target file is oplocked, rather than blocking the caller's thread. If the file is oplocked, another caller already has access to the file over the network. |
+| FILE_NO_EA_KNOWLEDGE (0x00000200) | If the extended attributes on an existing file being opened indicate that the caller must understand extended attributes to properly interpret the file, fail this request because the caller does not understand how to deal with extended attributes. |
+| FILE_OPEN_REMOTE_INSTANCE (0x00000400) | Reserved for system use; do not use. |
+| FILE_RANDOM_ACCESS (0x00000800) | Accesses to the file can be random, so no sequential read-ahead operations should be performed on the file by file systems or the operating system. |
+| FILE_DELETE_ON_CLOSE (0x00001000) | Delete the file when the last handle to it is passed to [**FltClose**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltclose). |
+| FILE_OPEN_BY_FILE_ID (0x00002000) | The file is being opened by ID. The file name contains the name of a device and a 64-bit ID to be used to open the file. |
+| FILE_OPEN_FOR_BACKUP_INTENT (0x000004000) | The file is being opened for backup intent; therefore, the system should check for certain access rights and grant the caller the appropriate accesses to the file before checking the input *DesiredAccess* against the file's security descriptor. |
+| FILE_NO_COMPRESSION (0x00008000) | Suppress inheritance of FILE_ATTRIBUTE_COMPRESSED from the parent directory. This allows creation of a non-compressed file in a directory that is marked compressed. |
+| FILE_OPEN_REQUIRING_OPLOCK (0x00010000) | The file is being opened and an opportunistic lock (oplock) on the file is being requested as a single atomic operation. The file system checks for oplocks before it performs the create operation, and the create operation will fail with a return code of STATUS_CANNOT_BREAK_OPLOCK if the create operation would break an existing oplock. This flag is available in Windows 7, Windows Server 2008 R2 and later Windows operating systems. |
+| FILE_DISALLOW_EXCLUSIVE (0x00020000) | When opening an existing file, if FILE_SHARE_READ is not specified and file system access checks would not grant the caller write access to the file, fail this open with STATUS_ACCESS_DENIED. This was default behavior prior to Windows 7. |
+| FILE_SESSION_AWARE (0x00040000) | The file or device is being opened with session awareness. If this flag is not specified, then per-session devices (such as a device using RemoteFX USB Redirection) cannot be opened by processes running in session 0. This flag has no effect for callers not in session 0. This flag is supported only on server editions of Windows. This flag is not supported before Windows Server 2012. |
+| FILE_RESERVE_OPFILTER (0x00100000) | This flag allows an application to request a filter opportunistic lock (oplock) to prevent other applications from getting share violations. If there are already open handles, the create request will fail with STATUS_OPLOCK_NOT_GRANTED. For more information, see the following Remarks section. |
+| FILE_OPEN_REPARSE_POINT (0x00200000) | Open a file with a reparse point and bypass normal reparse point processing for the file. For more information, see the following Remarks section. |
+| FILE_OPEN_NO_RECALL (0x00400000) | Instructs any filters that perform offline storage or virtualization to not recall the contents of the file as a result of this open. |
+| FILE_OPEN_FOR_FREE_SPACE_QUERY (0x00800000) | This flag instructs the file system to capture the user associated with the calling thread. Any subsequent calls to [**FltQueryVolumeInformation**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltqueryvolumeinformation) or [**ZwQueryVolumeInformationFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-zwqueryvolumeinformationfile) using the returned handle will assume the captured user, rather than the calling user at the time, for purposes of computing the free space available to the caller. This applies to the following *FsInformationClass* values: **FileFsSizeInformation**, **FileFsFullSizeInformation**, and **FileFsFullSizeInformationEx**. |
 
 ### -param EaBuffer [in, optional]
 

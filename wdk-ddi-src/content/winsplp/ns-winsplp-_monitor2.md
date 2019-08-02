@@ -88,7 +88,8 @@ Pointer to the print monitor's [ClosePort](https://docs.microsoft.com/windows-ha
 
 ### -field pfnAddPort
 
-The [AddPort](https://docs.microsoft.com/previous-versions/ff545022(v=vs.85)) function is obsolete and is for use only with Windows NT 4.0 and previous versions.
+> [!IMPORTANT]
+> The [AddPort](https://docs.microsoft.com/previous-versions/ff545022(v=vs.85)) function is obsolete and shoiuld not be used.
 
 **AddPort** creates a port and adds it to the list of ports currently supported by the specified monitor in the spooler environment.
 
@@ -98,13 +99,15 @@ The [AddPort](https://docs.microsoft.com/previous-versions/ff545022(v=vs.85)) fu
 
 ### -field pfnConfigurePort
 
-The [ConfigurePort](https://docs.microsoft.com/previous-versions/ff546286(v=vs.85)) function is obsolete and is for use only with Windows NT 4.0 and previous versions. For later versions of Windows, use [ConfigurePortUI](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-configureportui).
+> [!IMPORTANT]
+> The [ConfigurePort](https://docs.microsoft.com/previous-versions/ff546286(v=vs.85)) function is obsolete and should not be used. Use [ConfigurePortUI](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-configureportui) instead.
 
 **ConfigurePort** is a port management function that configures the specified port.
 
 ### -field pfnDeletePort
 
-The [DeletePort](https://docs.microsoft.com/windows/desktop/printdocs/deleteport) function is obsolete and is for use only with Windows NT 4.0 and previous versions.
+> [!IMPORTANT]
+> The [DeletePort](https://docs.microsoft.com/windows/desktop/printdocs/deleteport) function is obsolete and should not be used.
 
 **DeletePort** deletes a port from the monitor's environment.
 
