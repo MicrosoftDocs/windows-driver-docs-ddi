@@ -1,5 +1,6 @@
 ---
 UID: TP:battery
+title: Battery
 ms.assetid: 7433fa8b-bcff-3cc7-a61e-27c29a2f632b
 ms.date: 07/10/2018
 ms.keywords: 

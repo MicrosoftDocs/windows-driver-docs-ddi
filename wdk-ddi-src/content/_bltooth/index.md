@@ -1,5 +1,6 @@
 ---
 UID: TP:bltooth
+title: Bluetooth
 ms.assetid: a24d2124-fb4a-3c14-aeb8-83c46e9ed71c
 ms.date: 05/09/2018
 ms.keywords: 
