@@ -26,7 +26,7 @@ req.assembly:
 req.type-library: 
 req.lib: Ndis.lib
 req.dll: 
-req.irql: "= PASSIVE_LEVEL"
+req.irql: = PASSIVE_LEVEL
 topic_type:
 - APIRef
 - kbSyntax

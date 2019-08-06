@@ -26,7 +26,7 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe (kernel mode); Ntdll.dll (user mode)
-req.irql: "<= APC_LEVEL (See Remarks section)"
+req.irql: <= APC_LEVEL (See Remarks section)
 topic_type:
 - APIRef
 - kbSyntax

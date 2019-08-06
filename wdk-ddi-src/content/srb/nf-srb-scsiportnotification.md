@@ -26,7 +26,7 @@ req.assembly:
 req.type-library: 
 req.lib: Scsiport.lib; Storport.lib
 req.dll: 
-req.irql: "(See Remarks section)"
+req.irql: (See Remarks section)
 topic_type:
 - APIRef
 - kbSyntax

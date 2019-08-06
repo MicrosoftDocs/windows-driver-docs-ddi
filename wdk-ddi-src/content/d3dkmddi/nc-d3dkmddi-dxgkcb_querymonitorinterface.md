@@ -25,7 +25,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<= APC_LEVEL"
+req.irql: <= APC_LEVEL
 topic_type:
 - APIRef
 - kbSyntax
