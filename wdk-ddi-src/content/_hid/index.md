@@ -54,7 +54,7 @@ The header defines IOCTLs that a HID minidriver must support. Only the HID class
 
 ## HID Minidriver IOCTLs
 
-A HID minidriver must handle a set of IOCTLs. Only the HID class driver sends these IOCTLs to a HID minidriver. User-mode applications and other kernel-mode drivers can only communicate with HID collections by using the [HIDClass support routines](#hidclasssupportroutines) and HID class driver ioctls.
+A HID minidriver must handle a set of IOCTLs. Only the HID class driver sends these IOCTLs to a HID minidriver. User-mode applications and other kernel-mode drivers can only communicate with HID collections by using the HIDClass support routines and HID class driver ioctls.
 
 |Topic | Description |
 |---|---|
