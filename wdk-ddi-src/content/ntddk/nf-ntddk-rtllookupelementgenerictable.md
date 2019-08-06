@@ -26,7 +26,7 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: "See Remarks section."
+req.irql: See Remarks section.
 topic_type:
 - APIRef
 - kbSyntax

@@ -17,7 +17,7 @@ req.kmdf-ver:
 req.umdf-ver:
 req.lib:
 req.dll:
-req.irql: "<=APC_LEVEL"
+req.irql: <=APC_LEVEL
 req.ddi-compliance:
 req.unicode-ansi:
 req.idl:

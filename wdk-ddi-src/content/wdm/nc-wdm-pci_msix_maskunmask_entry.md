@@ -26,7 +26,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<= DIRQL"
+req.irql: <= DIRQL
 topic_type:
 - APIRef
 - kbSyntax

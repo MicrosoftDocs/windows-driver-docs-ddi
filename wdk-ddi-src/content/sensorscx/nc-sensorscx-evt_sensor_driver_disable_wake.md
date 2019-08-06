@@ -26,7 +26,7 @@ req.assembly:
 req.type-library:
 req.lib:
 req.dll:
-req.irql: "_requires_same_"
+req.irql: _requires_same_
 topic_type:
 - APIRef
 - kbSyntax

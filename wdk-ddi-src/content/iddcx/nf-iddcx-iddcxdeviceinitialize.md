@@ -26,7 +26,7 @@ req.assembly:
 req.type-library: 
 req.lib: IddCxStub.lib 
 req.dll: IddCx.dll 
-req.irql: "_Must_inspect_result_"
+req.irql: _Must_inspect_result_
 topic_type:
 - APIRef
 - kbSyntax
