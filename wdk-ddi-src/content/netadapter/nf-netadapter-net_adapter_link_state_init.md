@@ -18,7 +18,7 @@ req.kmdf-ver: 1.21
 req.umdf-ver:
 req.lib:
 req.dll:
-req.irql: "<= DISPATCH_LEVEL"
+req.irql: <= DISPATCH_LEVEL
 req.ddi-compliance:
 req.unicode-ansi:
 req.idl:
