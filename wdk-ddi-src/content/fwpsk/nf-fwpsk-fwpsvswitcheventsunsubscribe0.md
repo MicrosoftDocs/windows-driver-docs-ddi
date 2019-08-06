@@ -26,7 +26,7 @@ req.assembly:
 req.type-library: 
 req.lib: Fwpkclnt.lib
 req.dll: 
-req.irql: "<= PASSIVE_LEVEL"
+req.irql: <= PASSIVE_LEVEL
 topic_type:
 - APIRef
 - kbSyntax

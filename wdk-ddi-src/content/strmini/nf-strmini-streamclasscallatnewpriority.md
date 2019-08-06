@@ -26,7 +26,7 @@ req.assembly:
 req.type-library: 
 req.lib: Stream.lib
 req.dll: 
-req.irql: "(See Parameters section)"
+req.irql: (See Parameters section)
 topic_type:
 - APIRef
 - kbSyntax

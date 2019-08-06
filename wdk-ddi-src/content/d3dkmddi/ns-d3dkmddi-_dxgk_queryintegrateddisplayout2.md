@@ -50,12 +50,12 @@ Used during a query for the integrated display output.
 
 ### -field NativeTiming
 
-[out] Pointer to a [D3DKMDT_VIDEO_SIGNAL_INFO](..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_video_signal_info.md) structure that contains information about a native timing of the integrated display. Should be zeroed to indicate no override. This value overrides the native timing in the descriptor. Since the driver is responsible for providing the descriptor, the only expected usage of this override is to describe a timing which cannot be described by an EDID, most obviously, a display which has more than 4095 addressable pixels in either direction.
+[out] Pointer to a [D3DKMDT_VIDEO_SIGNAL_INFO]/d3dkmdt/ns-d3dkmdt-_d3dkmdt_video_signal_info.md) structure that contains information about a native timing of the integrated display. Should be zeroed to indicate no override. This value overrides the native timing in the descriptor. Since the driver is responsible for providing the descriptor, the only expected usage of this override is to describe a timing which cannot be described by an EDID, most obviously, a display which has more than 4095 addressable pixels in either direction.
 If a NativeTiming override is provided, the OS will not call [DxgkDdiRecommendMonitorModes](nc-d3dkmddi-dxgkddi_recommendmonitormodes.md) for this target. Generally, integrated panels do not support a large set of timings and the driver should be well matched to the EDID provided. If the driver needs to describe multiple overrides for monitor modes, it should leave the NativeTiming structure zeroed and report all the overrides using DxgkDdiRecommendMonitorModes.
 
 ### -field LinkCapabilities
 
-[out] Pointer to a [DXGK_MONITORLINKINFO_CAPABILITIES](..\d3dkmdt\ns-d3dkmdt-_dxgk_monitorlinkinfo_capabilities.md) structure that describes the link capabilities for driving the monitor. This is the same link capabilities as the OS would query from an external display after hot-plug. Since an integrated display is exposed during adapter driver initialization, the capabilities are described directly rather make an additional DDI call.
+[out] Pointer to a [DXGK_MONITORLINKINFO_CAPABILITIES](../d3dkmdt/ns-d3dkmdt-_dxgk_monitorlinkinfo_capabilities.md) structure that describes the link capabilities for driving the monitor. This is the same link capabilities as the OS would query from an external display after hot-plug. Since an integrated display is exposed during adapter driver initialization, the capabilities are described directly rather make an additional DDI call.
 
 Starting in WDDM 2.6, this member is used to report synchronization support.
 
@@ -81,7 +81,7 @@ Starting in WDDM 2.6, this member is used to report synchronization support.
 
 ### -field DitheringSupport
 
-[out] A [D3DKMDT_WIRE_FORMAT_AND_PREFERENCE](..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_wire_format_and_preference.md) field that contains the flags for each wire-format. The driver should set the wire-format bit for each format where the driver and hardware supports dithering beneficial to image quality when the source pixel format contains higher precision than the wire-format.
+[out] A [D3DKMDT_WIRE_FORMAT_AND_PREFERENCE](../d3dkmdt/ns-d3dkmdt-_d3dkmdt_wire_format_and_preference.md) field that contains the flags for each wire-format. The driver should set the wire-format bit for each format where the driver and hardware supports dithering beneficial to image quality when the source pixel format contains higher precision than the wire-format.
 
 ## -remarks
 

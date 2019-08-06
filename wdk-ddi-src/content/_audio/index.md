@@ -18,17 +18,17 @@ These headers are used to create Microsoft Windows Driver Model (WDM) audio driv
 
 To develop Audio drivers, you can use these headers:
 
- * [bthhfpddi.h](..\bthhfpddi\index.md)
- * [dmusicks.h](..\dmusicks\index.md)
- * [dmusprop.h](..\dmusprop\index.md)
- * [drmk.h](..\drmk\index.md)
- * [eventdetectoroemadapter.h](..\eventdetectoroemadapter\index.md)
- * [hdaudio.h](..\hdaudio\index.md)
- * [keyworddetectoroemadapter.h](..\keyworddetectoroemadapter\index.md)
- * [ksmedia.h](..\ksmedia\index.md)
- * [portcls.h](..\portcls\index.md)
- * [punknown.h](..\punknown\index.md)
- * [unknown.h](..\unknown\index.md)
+ * [bthhfpddi.h](../bthhfpddi/index.md)
+ * [dmusicks.h](../dmusicks/index.md)
+ * [dmusprop.h](../dmusprop/index.md)
+ * [drmk.h](../drmk/index.md)
+ * [eventdetectoroemadapter.h](../eventdetectoroemadapter/index.md)
+ * [hdaudio.h](../hdaudio/index.md)
+ * [keyworddetectoroemadapter.h](../keyworddetectoroemadapter/index.md)
+ * [ksmedia.h](../ksmedia/index.md)
+ * [portcls.h](../portcls/index.md)
+ * [punknown.h](../punknown/index.md)
+ * [unknown.h](../unknown/index.md)
 
 For programming information, see [Audio Devices Design Guide](https://docs.microsoft.com/windows-hardware/drivers/audio).
  

@@ -18,7 +18,7 @@ req.kmdf-ver:
 req.umdf-ver:
 req.lib: Hid.lib
 req.dll:
-req.irql: "<= DISPATCH_LEVEL"
+req.irql: <= DISPATCH_LEVEL
 topic_type:
 - APIRef
 - kbSyntax

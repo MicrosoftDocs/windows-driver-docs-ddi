@@ -26,7 +26,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "_IRQL_requires_max_(DISPATCH_LEVEL)"
+req.irql: _IRQL_requires_max_(DISPATCH_LEVEL)
 topic_type:
 - APIRef
 - kbSyntax

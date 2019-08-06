@@ -26,7 +26,7 @@ req.assembly:
 req.type-library: 
 req.lib: Ntdll.lib
 req.dll: Ntdll.dll
-req.irql: "<= APC_LEVEL"
+req.irql: <= APC_LEVEL
 topic_type:
 - APIRef
 - kbSyntax

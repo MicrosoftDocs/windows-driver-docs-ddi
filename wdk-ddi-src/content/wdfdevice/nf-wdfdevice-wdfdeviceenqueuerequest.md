@@ -26,7 +26,7 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (see Framework Library Versioning.)
 req.dll: 
-req.irql: "<= DISPATCH_LEVEL (See remarks section)"
+req.irql: <= DISPATCH_LEVEL (See remarks section)
 topic_type:
 - APIRef
 - kbSyntax

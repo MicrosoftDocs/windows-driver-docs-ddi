@@ -99,8 +99,8 @@ The *InstanceTeardownCompleteCallback* routine must close any files that were op
 
 The filter manager calls the minifilter driver's *InstanceTeardownCompleteCallback* routine only after all outstanding I/O operations have been completed or drained.
 
-> [!WARNING] The *InstanceTeardownCompleteCallback* routine will not be called if any of the following conditions are true:
->
+> [!WARNING] 
+> The *InstanceTeardownCompleteCallback* routine will not be called if any of the following conditions are true:
 > * There are outstanding pended I/O operations.
 > * There are any outstanding I/O operations that were initiated by the minifilter driver.
 
