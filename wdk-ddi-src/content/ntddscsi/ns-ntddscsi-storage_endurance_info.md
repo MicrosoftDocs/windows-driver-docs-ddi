@@ -113,4 +113,4 @@ This structure is a member of [STORAGE_ENDURANCE_DATA_DESCRIPTOR](ns-ntddscsi-st
 
 [STORAGE_ENDURANCE_DATA_DESCRIPTOR](ns-ntddscsi-storage_endurance_data_descriptor.md)
 
-[STORAGE_HW_ENDURANCE_INFO](..\ntddstor\ns-ntddstor-storage_hw_endurance_info.md)
+[STORAGE_HW_ENDURANCE_INFO]/ntddstor/ns-ntddstor-storage_hw_endurance_info.md)
