@@ -26,7 +26,7 @@ req.assembly:
 req.type-library: 
 req.lib: Hidparse.lib
 req.dll: 
-req.irql: "<= DISPATCH_ LEVEL"
+req.irql: <= DISPATCH_ LEVEL
 topic_type:
 - APIRef
 - kbSyntax

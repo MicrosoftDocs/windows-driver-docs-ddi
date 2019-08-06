@@ -26,7 +26,7 @@ req.assembly:
 req.type-library: 
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)
 req.dll: 
-req.irql: "<= DIRQL"
+req.irql: <= DIRQL
 topic_type:
 - APIRef
 - kbSyntax

@@ -26,7 +26,7 @@ req.assembly:
 req.type-library: 
 req.lib: Fltmgr.lib
 req.dll: Fltmgr.sys
-req.irql: "<= APC_LEVEL"
+req.irql: <= APC_LEVEL
 topic_type:
 - APIRef
 - kbSyntax

@@ -18,7 +18,7 @@ req.kmdf-ver: 1.21
 req.umdf-ver:
 req.lib: NetAdapterCxStub.lib
 req.dll:
-req.irql: "<= DISPATCH LEVEL"
+req.irql: <= DISPATCH LEVEL
 req.ddi-compliance:
 req.unicode-ansi:
 req.idl:

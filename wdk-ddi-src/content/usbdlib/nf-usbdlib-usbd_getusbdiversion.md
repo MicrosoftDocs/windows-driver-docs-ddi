@@ -26,7 +26,7 @@ req.assembly:
 req.type-library: 
 req.lib: Usbd.lib
 req.dll: 
-req.irql: "<=DISPATCH_LEVEL (See Remarks)"
+req.irql: <=DISPATCH_LEVEL (See Remarks)
 topic_type:
 - APIRef
 - kbSyntax
