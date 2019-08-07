@@ -33,7 +33,7 @@ topic_type:
 api_type: 
 - 
 api_location: 
-- 
+- storport.h
 api_name: 
 - StorPortQueryConfiguration
 product: Windows

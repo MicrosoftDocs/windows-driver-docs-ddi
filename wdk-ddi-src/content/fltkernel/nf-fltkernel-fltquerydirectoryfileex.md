@@ -33,7 +33,7 @@ topic_type:
 api_type: 
 - 
 api_location: 
-- 
+- fltkernel.h
 api_name: 
 - FltQueryDirectoryFileEx
 product: Windows

@@ -33,7 +33,7 @@ topic_type:
 api_type: 
  - 
 api_location: 
- - 
+- iddcx.h
 api_name: 
  - IddCxAdapterSetRenderAdapter
 product: 
