@@ -104,7 +104,7 @@ kd> !wdfdevice <handle> f
 
 [**WdfDeviceStopIdle**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nf-wdfdevice-wdfdevicestopidle)
 
-[**WdfDeviceStopIdleWithTag**](wdfdevicestopidlewithtag.md)
+[**WdfDeviceStopIdleWithTag**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nf-wdfdevice-wdfdevicestopidlewithtag)
 
  
 

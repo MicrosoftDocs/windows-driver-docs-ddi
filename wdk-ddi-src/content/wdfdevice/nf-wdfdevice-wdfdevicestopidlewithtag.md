@@ -126,7 +126,7 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 
 
-If your driver calls **WdfDeviceStopIdleWithTag** to increment a reference count, the driver must call [**WdfDeviceResumeIdleWithTag**](wdfdeviceresumeidlewithtag.md) to decrement the count.
+If your driver calls **WdfDeviceStopIdleWithTag** to increment a reference count, the driver must call [**WdfDeviceResumeIdleWithTag**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nf-wdfdevice-wdfdeviceresumeidlewithtag) to decrement the count.
 
 Calling **WdfDeviceStopIdleWithTag** instead of [**WdfDeviceStopIdle**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nf-wdfdevice-wdfdevicestopidle) provides additional information (tag value, line number, and file name) that you can view in Microsoft debuggers. **WdfDeviceStopIdleWithTag** uses the driver's current line number and file name.
 
@@ -148,7 +148,7 @@ kd> !wdfdevice <handle> f
 
 [**WdfDeviceResumeIdle**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nf-wdfdevice-wdfdeviceresumeidle)
 
-[**WdfDeviceResumeIdleWithTag**](wdfdeviceresumeidlewithtag.md)
+[**WdfDeviceResumeIdleWithTag**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nf-wdfdevice-wdfdeviceresumeidlewithtag)
 
 [**WdfDeviceStopIdle**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nf-wdfdevice-wdfdevicestopidle)
 
