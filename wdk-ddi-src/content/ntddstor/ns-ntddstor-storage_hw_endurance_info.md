@@ -103,14 +103,14 @@ Total bytes written to the device, specified in billions. For example, a value o
 
 ## -remarks
 
-This structure is a member of [STORAGE_HW_ENDURANCE_DATA_DESCRIPTOR](ns-ntddstor-storage_hw_endurance_data_descriptor.md), which is the structure returned within the output buffer of an [IOCTL_SCSI_MINIPORT](..\ntddscsi\ni-ntddscsi-ioctl_scsi_miniport.md) request.
+This structure is a member of [STORAGE_HW_ENDURANCE_DATA_DESCRIPTOR](ns-ntddstor-storage_hw_endurance_data_descriptor.md), which is the structure returned within the output buffer of an [IOCTL_SCSI_MINIPORT](../ntddscsi/ni-ntddscsi-ioctl_scsi_miniport.md) request.
 
 ## -see-also
 
-[IOCTL_MINIPORT_SIGNATURE_ENDURANCE_INFO](..\ntddscsi\ni-ntddscsi-ioctl_miniport_signature_endurance_info.md)
+[IOCTL_MINIPORT_SIGNATURE_ENDURANCE_INFO](../ntddscsi/ni-ntddscsi-ioctl_miniport_signature_endurance_info.md)
 
-[IOCTL_SCSI_MINIPORT](..\ntddscsi\ni-ntddscsi-ioctl_scsi_miniport.md)
+[IOCTL_SCSI_MINIPORT](../ntddscsi/ni-ntddscsi-ioctl_scsi_miniport.md)
 
 [STORAGE_HW_ENDURANCE_DATA_DESCRIPTOR](ns-ntddstor-storage_hw_endurance_data_descriptor)
 
-[STORAGE_ENDURANCE_INFO](..\ntddscsi\ns-ntddscsi-storage_hw_endurance_info.md)
+[STORAGE_ENDURANCE_INFO](../ntddscsi/ns-ntddscsi-storage_hw_endurance_info.md)

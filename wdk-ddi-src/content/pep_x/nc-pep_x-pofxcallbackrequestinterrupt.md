@@ -26,7 +26,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<= HIGH_LEVEL"
+req.irql: <= HIGH_LEVEL
 topic_type:
 - APIRef
 - kbSyntax

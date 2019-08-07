@@ -86,4 +86,4 @@ This function is always called at PASSIVE level.
 
 This function is registered by DriverEntry of the display miniport driver.
 
-Starting in WDDM 2.6, when display synchronization is available and more than one display is to be enabled, the OS will indicate that the displays should be synchronized in the DXGKDDI_SETTIMINGSFROMVIDPN call. Each path to be synchronized will have a non-zero value in the **SyncLockGroup** bit-field and the selected synchronization style in the **SyncLockStyle** field, both of which are in the [DXGK_SET_TIMING_PATH_INFO](..\d3dkmddi\ns-d3dkmddi-_dxgk_set_timing_path_info.md) structure.
+Starting in WDDM 2.6, when display synchronization is available and more than one display is to be enabled, the OS will indicate that the displays should be synchronized in the DXGKDDI_SETTIMINGSFROMVIDPN call. Each path to be synchronized will have a non-zero value in the **SyncLockGroup** bit-field and the selected synchronization style in the **SyncLockStyle** field, both of which are in the [DXGK_SET_TIMING_PATH_INFO](../d3dkmddi/ns-d3dkmddi-_dxgk_set_timing_path_info.md) structure.

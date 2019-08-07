@@ -26,7 +26,7 @@ req.assembly:
 req.type-library: 
 req.lib: Ks.lib
 req.dll: 
-req.irql: "<=DISPATCH_LEVEL (See Remarks section.)"
+req.irql: <=DISPATCH_LEVEL (See Remarks section.)
 topic_type:
 - APIRef
 - kbSyntax

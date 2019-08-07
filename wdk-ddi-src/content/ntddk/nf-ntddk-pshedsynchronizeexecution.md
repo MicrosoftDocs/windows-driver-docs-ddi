@@ -26,7 +26,7 @@ req.assembly:
 req.type-library: 
 req.lib: Pshed.lib
 req.dll: Pshed.dll
-req.irql: "<= DIRQL"
+req.irql: <= DIRQL
 topic_type:
 - APIRef
 - kbSyntax
