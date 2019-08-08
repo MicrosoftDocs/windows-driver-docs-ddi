@@ -13,7 +13,7 @@ f1_keywords:
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop
-req.target-min-winverclnt: Available in Microsoft Windows Me and in Windows XP and later versions of the Windows operating systems.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -44,183 +44,66 @@ req.typenames:
 
 # wiasGetPropertyAttributes function
 
-
 ## -description
 
-
-The <b>wiasGetPropertyAttributes </b>function retrieves the access flags and valid values for a set of properties.
-
+The **wiasGetPropertyAttributes** function retrieves the access flags and valid values for a set of properties.
 
 ## -parameters
-
-
-
 
 ### -param pWiasContext [in]
 
 Pointer to a WIA item context.
 
-
 ### -param cPropSpec
 
 Specifies the number of properties.
 
-
 ### -param pPropSpec [in]
 
-Pointer to a PROPSPEC structure (defined in the Microsoft Windows SDK documentation) indicating the properties for which to get valid values and access flags.
-
+Pointer to a [PROPSPEC](https://docs.microsoft.com/windows/win32/api/propidlbase/ns-propidlbase-propspec) structure indicating the properties for which to get valid values and access flags.
 
 ### -param pulAccessFlags
 
 Pointer to an array that contains the access flags for the properties.
 
-
 ### -param pPropVar [out]
 
-Pointer to an array of PROPVARIANT structures (defined in the Microsoft Windows SDK documentation) that contains the valid values for the properties.
-
+Pointer to an array of [PROPVARIANT](https://docs.microsoft.com/windows/win32/api/propidlbase/ns-propidlbase-propvariant) structures that contains the valid values for the properties.
 
 ## -returns
 
+On success, the function returns S_OK.
 
-
-On success, the function returns S_OK. If the function fails, it returns a standard COM error or one of the WIA_ERROR_XXX errors (described in the Windows SDK documentation).
-
-
-
+If the function fails, it returns a standard COM error or one of the [WIA error codes](https://docs.microsoft.com/windows/win32/wia/-wia-error-codes).
 
 ## -remarks
 
+This function fills each element of the *pPropVar* array with a PROPVARIANT structure that specifies the valid values for the corresponding property. Properties with the access rights flag WIA_PROP_NONE have no valid values for that property. The data type for the valid values of these properties is VT_EMPTY.
 
+One or more of the [WIA_PROP_Xxx property attributes](https://docs.microsoft.com/windows/win32/wia/-wia-property-attributes) and access flags can be returned in each element of the *pulAccessFlags* array.
 
-This function fills each element of the <i>pPropVar </i>array with a PROPVARIANT structure that specifies the valid values for the corresponding property. Properties with the access rights flag WIA_PROP_NONE have no valid values for that property. The data type for the valid values of these properties is VT_EMPTY.
-
-One or more of the WIA_PROP_Xxx property attributes and access flags can be returned in each element of the <i>pulAccessFlags</i> array. The property attribute constants are described in the Windows SDK documentation.
-
-If the property has a range of valid values, the values can be determined through the <i>pPropVar </i>parameter upon completion of this function. The <i>pPropVar </i>parameter specifies an array of PROPVARIANT structures.
+If the property has a range of valid values, the values can be determined through the *pPropVar* parameter upon completion of this function. The *pPropVar* parameter specifies an array of PROPVARIANT structures.
 
 Valid integer and floating-point values in a range are accessed using the following index constants.
 
-<table>
-<tr>
-<th>Valid Value Index</th>
-<th>Description</th>
-</tr>
-<tr>
-<td>
-WIA_RANGE_MIN  
-
-</td>
-<td>
-Minimum value
-
-</td>
-</tr>
-<tr>
-<td>
-WIA_RANGE_NOM  
-
-</td>
-<td>
-Nominal value
-
-</td>
-</tr>
-<tr>
-<td>
-WIA_RANGE_MAX  
-
-</td>
-<td>
-Maximum value
-
-</td>
-</tr>
-<tr>
-<td>
-WIA_RANGE_STEP
-
-</td>
-<td>
-Increment value
-
-</td>
-</tr>
-</table>
- 
+| Valid value index | Description |
+| --- | --- |
+| WIA_RANGE_MIN | Minimum value |
+| WIA_RANGE_NOM | Nominal value |
+| WIA_RANGE_MAX | Maximum value |
+| WIA_RANGE_STEP | Increment value |
 
 Valid list values are accessed using the following index constants.
 
-<table>
-<tr>
-<th>Valid Value Index</th>
-<th>Description</th>
-</tr>
-<tr>
-<td>
-WIA_LIST_COUNT
-
-</td>
-<td>
-Count of valid list values, not counting the nominal value
-
-</td>
-</tr>
-<tr>
-<td>
-WIA_LIST_NOM
-
-</td>
-<td>
-Nominal value
-
-</td>
-</tr>
-<tr>
-<td>
-WIA_LIST_VALUES
-
-</td>
-<td>
-Index to first valid value
-
-</td>
-</tr>
-</table>
- 
+| Valid value index | Description |
+| --- | --- |
+| WIA_LIST_COUNT | Count of valid list values, not counting the nominal value |
+| WIA_LIST_NOM | Nominal value |
+| WIA_LIST_VALUES | Index to first valid value |
 
 Valid bitwise flag values are accessed using the following index constants.
 
-<table>
-<tr>
-<th>Valid Value Index</th>
-<th>Description</th>
-</tr>
-<tr>
-<td>
-WIA_FLAG_NOM   
-
-</td>
-<td>
-Nominal value
-
-</td>
-</tr>
-<tr>
-<td>
-WIA_FLAG_VALUES
-
-</td>
-<td>
-All valid flags are joined together by an OR operator
-
-</td>
-</tr>
-</table>
- 
-
-The PROPSPEC and PROPVARIANT structures are defined in the Microsoft Windows SDK documentation.
-
-
-
+| Valid value index | Description |
+| --- | --- |
+| WIA_FLAG_NOM | Nominal value |
+| WIA_FLAG_VALUES | All valid flags are joined together by an OR operator |
