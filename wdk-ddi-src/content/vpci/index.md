@@ -18,5 +18,3 @@ tech.root: pci
 
 
 This header contains common types and prototypes for a virtual PCI driver.
-
-- 
