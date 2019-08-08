@@ -29,13 +29,13 @@ req.type-library:
 req.alt-api:
 req.alt-loc:
 topictype: 
--	apiref
+- apiref
 apitype: 
--	HeaderDef
+- HeaderDef
 apilocation: 
--	netrequestqueue.h
+- netrequestqueue.h
 apiname: 
--	NetRequestQueueGetAdapter
+- NetRequestQueueGetAdapter
 product:
 - Windows
 targetos: Windows

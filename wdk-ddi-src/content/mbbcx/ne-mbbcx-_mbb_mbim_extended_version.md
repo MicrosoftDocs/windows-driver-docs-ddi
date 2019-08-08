@@ -20,13 +20,13 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: MBB_MBIM_EXTENDED_VERSION
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	mbbcx.h
+- mbbcx.h
 api_name: 
--	_MBB_MBIM_EXTENDED_VERSION
+- _MBB_MBIM_EXTENDED_VERSION
 product:
 - Windows
 targetos: Windows

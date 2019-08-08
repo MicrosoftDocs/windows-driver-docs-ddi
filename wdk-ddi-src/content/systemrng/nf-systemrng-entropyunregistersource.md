@@ -28,9 +28,9 @@ req.type-library:
 topic_type: 
 - apiref
 api_type:
--   HeaderDef
+- HeaderDef
 api_location:
--   systemrng.h
+- systemrng.h
 api_name: 
 - EntropyUnregisterSource
 product:

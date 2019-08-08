@@ -85,9 +85,9 @@ Number of bytes in each sector.
 ## -remarks
 This information can be queried in either of the following ways: 
 
--    Call [**FltQueryVolumeInformation**](../fltkernel/nf-fltkernel-fltqueryvolumeinformation.md) or [**ZwQueryVolumeInformationFile**](../ntifs/nf-ntifs-ntqueryvolumeinformationfile.md), passing FileFsFullSizeInformationEx as the value of _FileInformationClass_ and passing a caller-allocated, **FILE_FS_FULL_SIZE_INFORMATION_EX**-structured buffer as the value of FileInformation.
+- Call [**FltQueryVolumeInformation**](../fltkernel/nf-fltkernel-fltqueryvolumeinformation.md) or [**ZwQueryVolumeInformationFile**](../ntifs/nf-ntifs-ntqueryvolumeinformationfile.md), passing FileFsFullSizeInformationEx as the value of _FileInformationClass_ and passing a caller-allocated, **FILE_FS_FULL_SIZE_INFORMATION_EX**-structured buffer as the value of FileInformation.
 
--    Create an IRP with major function code IRP_MJ_QUERY_VOLUME_INFORMATION.
+- Create an IRP with major function code IRP_MJ_QUERY_VOLUME_INFORMATION.
 
 No specific access rights are required to query this information. Thus this information is available as long as the volume is accessed through an open handle to the volume itself, or to a file or directory on the volume.
 

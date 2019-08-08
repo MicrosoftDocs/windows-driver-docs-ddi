@@ -34,7 +34,7 @@ api_location:
 api_name: 
 - OUR_GUID_ENTRY
 product:
--   Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

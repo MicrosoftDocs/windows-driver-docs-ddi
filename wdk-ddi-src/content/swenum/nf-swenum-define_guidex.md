@@ -34,7 +34,7 @@ api_location:
 api_name: 
 - DEFINE_GUIDEX
 product: 
--   Windows
+- Windows
 targetos: Windows
 
 

@@ -34,7 +34,7 @@ api_location:
 api_name: 
 - GET_PSCRIPT5_PRIVATE_DEVMODE_SIZE
 product: 
--   Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

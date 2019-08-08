@@ -30,7 +30,7 @@ api_location:
 api_name: 
 - _PRINTPROCESSOR_CAPS_1
 product:
--   Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

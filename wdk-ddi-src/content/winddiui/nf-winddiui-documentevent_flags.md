@@ -34,7 +34,7 @@ api_location:
 api_name: 
 - DOCUMENTEVENT_FLAGS
 product:
--   Windows
+- Windows
 targetos: Windows
 
 

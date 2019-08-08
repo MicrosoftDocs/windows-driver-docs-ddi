@@ -34,7 +34,7 @@ api_location:
 api_name: 
 - GET_UNIDRV_PRIVATE_DEVMODE_SIZE
 product: 
--   Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

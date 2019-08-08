@@ -34,7 +34,7 @@ api_location:
 api_name: 
 - ILOGENTRY
 product:
--   Windows
+- Windows
 targetos: Windows
 
 
