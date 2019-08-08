@@ -28,9 +28,9 @@ req.type-library:
 topic_type: 
 - apiref
 api_type:
--   HeaderDef
+- HeaderDef
 api_location:
--   trustedruntimeclx.h
+- trustedruntimeclx.h
 api_name: 
 - TrSecureDeviceQueryOSService
 product:

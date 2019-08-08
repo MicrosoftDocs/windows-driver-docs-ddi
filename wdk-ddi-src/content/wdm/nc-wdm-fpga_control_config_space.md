@@ -82,13 +82,13 @@ Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriat
 
 A device driver that successfully queries for the GUID_PCI_FPGA_CONTROL_INTERFACE interface receives a pointer to a [**FPGA_CONTROL_INTERFACE**](ns-wdm-_fpga_control_interface.md) structure in which the driver sets the **ControlConfigSpace** member to a pointer to its implementation of the _FPGA_CONTROL_CONFIG_SPACE_ callback function.
 
--    This callback function toggles the configuration space access to all the functions of the FPGA device.
+- This callback function toggles the configuration space access to all the functions of the FPGA device.
 
--    When the configuration space is locked down, all read accesses return FF and all write accesses are discarded.
+- When the configuration space is locked down, all read accesses return FF and all write accesses are discarded.
 
--    Until the configuration space is unlocked, the FPGA device is not reported to PNP as missing even when reading its configuration space returns FF.
+- Until the configuration space is unlocked, the FPGA device is not reported to PNP as missing even when reading its configuration space returns FF.
 
--    If there exists any active bus scan, it is not safe to lock down configuration space as it might confuse the scan bus.
+- If there exists any active bus scan, it is not safe to lock down configuration space as it might confuse the scan bus.
 
 
 ## -see-also

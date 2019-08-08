@@ -27,7 +27,7 @@ topic_type:
 api_type: 
 - HeaderDef
 api_location: 
--	netadapteroffload.h
+- netadapteroffload.h
 api_name: 
 - _NET_ADAPTER_OFFLOAD_LSO_CAPABILITIES
 product:

@@ -29,13 +29,13 @@ req.type-library:
 req.alt-api:
 req.alt-loc:
 topictype: 
--	apiref
+- apiref
 apitype: 
--	HeaderDef
+- HeaderDef
 apilocation: 
--	nettxqueue.h
+- nettxqueue.h
 apiname: 
--	NetTxQueueNotifyMoreCompletedPacketsAvailable
+- NetTxQueueNotifyMoreCompletedPacketsAvailable
 product:
 - Windows
 targetos: Windows

@@ -30,7 +30,7 @@ api_location:
 api_name: 
 - _PORT_DATA_2
 product: 
--   Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

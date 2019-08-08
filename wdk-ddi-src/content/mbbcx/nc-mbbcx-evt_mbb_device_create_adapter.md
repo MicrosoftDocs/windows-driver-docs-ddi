@@ -26,13 +26,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	UserDefined
+- UserDefined
 api_location: 
--	mbbcx.h
+- mbbcx.h
 api_name: 
--	EVT_MBB_DEVICE_CREATE_ADAPTER
+- EVT_MBB_DEVICE_CREATE_ADAPTER
 product:
 - Windows
 targetos: Windows

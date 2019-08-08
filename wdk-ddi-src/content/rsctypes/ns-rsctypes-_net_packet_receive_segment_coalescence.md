@@ -23,13 +23,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: NET_PACKET_RECEIVE_SEGMENT_COALESCENCE
 topictype: 
--	apiref
+- apiref
 apitype: 
--	HeaderDef
+- HeaderDef
 apilocation: 
--	rsctypes.h
+- rsctypes.h
 apiname: 
--	_NET_PACKET_RECEIVE_SEGMENT_COALESCENCE
+- _NET_PACKET_RECEIVE_SEGMENT_COALESCENCE
 product:
 - Windows
 targetos: Windows

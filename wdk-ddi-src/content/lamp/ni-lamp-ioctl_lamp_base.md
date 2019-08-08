@@ -28,7 +28,7 @@ api_location:
 api_name: 
 - IOCTL_LAMP_BASE
 product: 
--   Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

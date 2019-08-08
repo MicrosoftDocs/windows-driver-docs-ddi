@@ -30,7 +30,7 @@ api_location:
 api_name: 
 - _BDA_ISDBCAS_EMG_REQ
 product:
--   Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

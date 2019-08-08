@@ -31,11 +31,11 @@ topic_type:
 - APIRef
 - kbSyntax
 api_type:
--  HeaderDef
+- HeaderDef
 api_location:
--  d3dkmddi.h
+- d3dkmddi.h
 api_name:
--  DXGK_QUERYADAPTERINFOTYPE
+- DXGK_QUERYADAPTERINFOTYPE
 product:
 - Windows
 targetos: Windows

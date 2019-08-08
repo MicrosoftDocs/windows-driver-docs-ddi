@@ -28,7 +28,7 @@ api_location:
 api_name: 
 - IOCTL_INDEX
 product: 
--   Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

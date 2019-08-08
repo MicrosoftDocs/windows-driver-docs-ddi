@@ -32,7 +32,7 @@ api_location:
 - wdm.h
 api_name: 
 - PALLOCATE_DOMAIN_COMMON_BUFFER
--   AllocateDomainCommonBuffer
+- AllocateDomainCommonBuffer
 product:
 - Windows
 targetos: Windows

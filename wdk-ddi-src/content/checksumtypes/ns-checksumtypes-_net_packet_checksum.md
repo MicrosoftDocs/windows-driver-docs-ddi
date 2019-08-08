@@ -25,13 +25,13 @@ req.alt-api:
 req.alt-loc:
 req.typenames: NET_PACKET_CHECKSUM
 topictype:
--	APIRef
+- APIRef
 apitype: 
--	HeaderDef
+- HeaderDef
 apilocation: 
--	checksumtypes.h
+- checksumtypes.h
 apiname: 
--	NET_PACKET_CHECKSUM
+- NET_PACKET_CHECKSUM
 product:
 - Windows
 targetos: Windows

@@ -90,7 +90,7 @@ This routine is defined in ntddk.h and ndis.h; component filter IDs are defined 
 Here are the arguments:
 
 
--    ComponentId [in]
+- ComponentId [in]
 
         Specifies the component calling this routine. This must be one of the component name filter IDs defined in the dpfilter.h header file. To avoid mixing your driver's output with the output of Windows components, you should use only the following values for <i>ComponentId</i>:
 

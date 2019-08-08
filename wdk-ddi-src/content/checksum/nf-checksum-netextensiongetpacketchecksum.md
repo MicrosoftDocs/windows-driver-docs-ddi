@@ -27,13 +27,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topictype:
--   APIRef
+- APIRef
 apitype: 
--	DllExport
+- DllExport
 apilocation: 
--	NtosKrnl.exe
+- NtosKrnl.exe
 apiname: 
--	NetExtensionGetPacketChecksum
+- NetExtensionGetPacketChecksum
 product:
 - Windows
 targetos: Windows

@@ -34,7 +34,7 @@ api_location:
 api_name: 
 - WIA_PROP_LIST_VALUE
 product:
--   Windows
+- Windows
 targetos: Windows
 
 
