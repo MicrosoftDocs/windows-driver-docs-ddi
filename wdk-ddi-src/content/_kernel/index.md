@@ -610,17 +610,17 @@ Your driver can use System-Supplied Driver Interfaces to send IRPs to other driv
 
 In addition to the Standard IRP Codes, there are three additional types of IRPs for specific technologies:
 
--   Plug and Play IRPs, see [Plug and Play Minor IRPs](https://docs.microsoft.com/windows-hardware/drivers/kernel/plug-and-play-minor-irps)
--   Power Management IRPs, see [Power Management Minor IRPs](https://docs.microsoft.com/windows-hardware/drivers/kernel/power-management-minor-irps)
--   Windows Management Instrumentation (WMI) IRPs, see [WMI Minor IRPs](https://docs.microsoft.com/windows-hardware/drivers/kernel/wmi-minor-irps)
+- Plug and Play IRPs, see [Plug and Play Minor IRPs](https://docs.microsoft.com/windows-hardware/drivers/kernel/plug-and-play-minor-irps)
+- Power Management IRPs, see [Power Management Minor IRPs](https://docs.microsoft.com/windows-hardware/drivers/kernel/power-management-minor-irps)
+- Windows Management Instrumentation (WMI) IRPs, see [WMI Minor IRPs](https://docs.microsoft.com/windows-hardware/drivers/kernel/wmi-minor-irps)
 
 This section describes kernel-mode support routines that drivers can call:
 
--   While processing IRPs. 
+- While processing IRPs. 
 
--   To allocate and set up IRPs for requests from higher-level drivers to lower drivers.
+- To allocate and set up IRPs for requests from higher-level drivers to lower drivers.
 
--   To use file objects.
+- To use file objects.
 
 ### Processing IRPs
 
@@ -757,11 +757,11 @@ These DDIs are helpful for working with silo objects.
 ## Synchronization
 This section describes the kernel-mode support routines that drivers can call to:
 
--   Synchronize the execution of their own standard driver routines (Driver Routines and I/O Objects). 
--   Temporarily change the current IRQL for a call to a support routine or that return the current IRQL (IRQL). 
--   Synchronize access to resources with spin locks or to perform interlocked operations without spin locks (Spin Locks and Interlocks). 
--   Manage time-outs or determine system time (Timers). 
--   Use system threads or to manage synchronization within a nonarbitrary thread context (Driver Threads, Dispatcher Objects, and Resources). 
+- Synchronize the execution of their own standard driver routines (Driver Routines and I/O Objects). 
+- Temporarily change the current IRQL for a call to a support routine or that return the current IRQL (IRQL). 
+- Synchronize access to resources with spin locks or to perform interlocked operations without spin locks (Spin Locks and Interlocks). 
+- Manage time-outs or determine system time (Timers). 
+- Use system threads or to manage synchronization within a nonarbitrary thread context (Driver Threads, Dispatcher Objects, and Resources). 
 
 ### Driver Routines and I/O Objects
 |Function|Description|
@@ -1175,7 +1175,7 @@ This section summarizes kernel-mode support routines that drivers can use to int
 
 The categories of support routines include those that drivers can call to:
 
--   Process IRPs that a driver receives (WMI IRP Processing Routines).
+- Process IRPs that a driver receives (WMI IRP Processing Routines).
 |Function|Description|
 |---|---|
 |WmiCompleteRequest |If a driver uses WmiSystemControl to dispatch the WMI IRP to a callback routine, then the callback routine can use WmiCompleteRequest to complete the IRP.
@@ -1186,7 +1186,7 @@ The categories of support routines include those that drivers can call to:
 |WmiTraceMessage| The WmiTraceMessage routine adds a message to the output log of a WPP software tracing session.
 |WmiTraceMessageVa| The WmiTraceMessageVa routine adds a message to the output log of a WPP software tracing session.
 
--   Drivers can use these routines in processing WMI IRPs.
+- Drivers can use these routines in processing WMI IRPs.
 Drivers use these routines to send WMI IRPs.
 |Function|Description|
 |---|---|
@@ -1482,22 +1482,22 @@ Drivers performing DMA operations use IoGetDmaAdapter to get a pointer to the DM
 ### Best practices for implementing process and thread-related callback functions
 This set of guidelines applies to these callback routines:
 
--   PCREATE_PROCESS_NOTIFY_ROUTINE 
--   PCREATE_PROCESS_NOTIFY_ROUTINE_EX 
--   PCREATE_THREAD_NOTIFY_ROUTINE 
--   PLOAD_IMAGE_NOTIFY_ROUTINE 
+- PCREATE_PROCESS_NOTIFY_ROUTINE 
+- PCREATE_PROCESS_NOTIFY_ROUTINE_EX 
+- PCREATE_THREAD_NOTIFY_ROUTINE 
+- PLOAD_IMAGE_NOTIFY_ROUTINE 
 
 Keep notify routines short and simple. 
--   Do not make calls into a user mode service to validate the process, thread, or image. 
--   Do not make registry calls. 
--   Do not make blocking and/or Interprocess Communication (IPC) function calls. 
--   Do not synchronize with other threads because it can lead to reentrancy deadlocks. 
--   Use System Worker Threads to queue work especially work involving: 
+- Do not make calls into a user mode service to validate the process, thread, or image. 
+- Do not make registry calls. 
+- Do not make blocking and/or Interprocess Communication (IPC) function calls. 
+- Do not synchronize with other threads because it can lead to reentrancy deadlocks. 
+- Use System Worker Threads to queue work especially work involving: 
 
     -   Slow API’s or API’s that call into other process. 
     -   Any blocking behavior which could interrupt threads in core services. 
 
--   Be considerate of best practices for kernel mode stack usage. For examples, see How do I keep my driver from running out of kernel-mode stack? and Key Driver Concepts and Tips. 
+- Be considerate of best practices for kernel mode stack usage. For examples, see How do I keep my driver from running out of kernel-mode stack? and Key Driver Concepts and Tips. 
       
 
 

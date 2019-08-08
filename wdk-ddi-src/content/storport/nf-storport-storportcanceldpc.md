@@ -31,8 +31,7 @@ req.type-library:
 topic_type: 
 - apiref
 api_type: 
-- 
-api_location: 
+- api_location: 
 - storport.h
 api_name: 
 - StorPortCancelDpc

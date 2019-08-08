@@ -85,11 +85,11 @@ typedef struct _MCA_DRIVER_INFO {
 ```
 
 This structure contains the following members:
--   ExceptionCallback
+- ExceptionCallback
     The driver-supplied routine to be called when Machine Check Exception (MCE) occurs for uncorrected errors. A driver explicitly cannot use any kernel services or spin lock routines. The handler is restricted to the same constraints as a driver that operates at the highest IRQL.
--   DpcCallback
+- DpcCallback
     A driver-supplied routine that is called for corrected errors that caused Machine Check Exception (MCE). This routine must be called at DISPATCH_LEVEL.
--   DeviceContext
+- DeviceContext
     The device-specific context for this MCA driver.
 
 

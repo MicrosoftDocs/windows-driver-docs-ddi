@@ -34,7 +34,7 @@ api_location:
 api_name: 
 - TAG
 product:
--   Windows
+- Windows
 targetos: Windows
 
 

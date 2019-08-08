@@ -91,9 +91,9 @@ Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriat
 
 A device driver that successfully queries for the GUID_PCI_FPGA_CONTROL_INTERFACE interface receives a pointer to a [**FPGA_CONTROL_INTERFACE**](ns-wdm-_fpga_control_interface.md) structure in which the driver sets the **ControlErrorReporting** member to a pointer to its implementation of the _FPGA_CONTROL_CONFIG_SPACE_ callback function.
 
--    This callback function expects that the FPGA device is in D0 state and its configuration space has not been locked.
+- This callback function expects that the FPGA device is in D0 state and its configuration space has not been locked.
 
--    When _DisableErrorReporting_ is set to TRUE, each set bit in the given masks is set in the AER capability of the FPGA device. When _DisableErrorReporting_ is set to FALSE, the original AER masks will be restored.
+- When _DisableErrorReporting_ is set to TRUE, each set bit in the given masks is set in the AER capability of the FPGA device. When _DisableErrorReporting_ is set to FALSE, the original AER masks will be restored.
 
 
 ## -see-also

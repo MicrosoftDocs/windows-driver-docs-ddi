@@ -20,13 +20,13 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: NET_RX_FRAGMENT_BUFFER_ATTACHMENT_MODE
 topictype: 
--	apiref
+- apiref
 apitype: 
--	HeaderDef
+- HeaderDef
 apilocation: 
--	netadapter.h
+- netadapter.h
 apiname: 
--	_NET_RX_FRAGMENT_BUFFER_ATTACHMENT_MODE
+- _NET_RX_FRAGMENT_BUFFER_ATTACHMENT_MODE
 product:
 - Windows
 targetos: Windows

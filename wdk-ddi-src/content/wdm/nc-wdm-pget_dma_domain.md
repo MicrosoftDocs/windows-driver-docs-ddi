@@ -32,7 +32,7 @@ api_location:
 - wdm.h
 api_name: 
 - PGET_DMA_DOMAIN
--   GetDmaDomain
+- GetDmaDomain
 product:
 - Windows
 targetos: Windows

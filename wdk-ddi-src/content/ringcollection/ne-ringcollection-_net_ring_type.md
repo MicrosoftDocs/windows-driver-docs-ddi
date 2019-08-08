@@ -20,13 +20,13 @@ req.ddi-compliance:
 req.max-support:
 req.typenames: NET_RING_TYPE
 topictype: 
--	apiref
+- apiref
 apitype: 
--	HeaderDef
+- HeaderDef
 apilocation: 
--	ringcollection.h
+- ringcollection.h
 apiname: 
--	_NET_RING_TYPE
+- _NET_RING_TYPE
 product:
 - Windows
 targetos: Windows

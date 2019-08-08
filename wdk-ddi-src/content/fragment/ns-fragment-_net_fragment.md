@@ -25,13 +25,13 @@ req.alt-api:
 req.alt-loc:
 req.typenames: NET_FRAGMENT, *PNET_FRAGMENT
 topictype: 
--	apiref
+- apiref
 apitype: 
--	HeaderDef
+- HeaderDef
 apilocation: 
--	fragment.h
+- fragment.h
 apiname: 
--	NET_FRAGMENT
+- NET_FRAGMENT
 product:
 - Windows
 targetos: Windows

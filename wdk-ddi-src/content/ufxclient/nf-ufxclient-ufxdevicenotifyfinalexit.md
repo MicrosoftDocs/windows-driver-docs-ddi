@@ -31,7 +31,7 @@ api_type:
 - DllExport
 api_location:
 - NtosKrnl.exe
--   ufxstub.lib
+- ufxstub.lib
 api_name: 
 - UfxDeviceNotifyFinalExit
 product:

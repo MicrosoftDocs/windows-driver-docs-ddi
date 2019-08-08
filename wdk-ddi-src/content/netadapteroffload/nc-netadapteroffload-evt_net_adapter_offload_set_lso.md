@@ -30,7 +30,7 @@ topic_type:
 api_type: 
 - UserDefined
 api_location: 
--	netadapteroffload.h
+- netadapteroffload.h
 api_name: 
 - EVT_NET_ADAPTER_OFFLOAD_SET_LSO
 product:

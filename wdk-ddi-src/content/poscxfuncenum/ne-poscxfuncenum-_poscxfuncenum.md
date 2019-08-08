@@ -27,7 +27,7 @@ api_location:
 api_name: 
 - _POSCXFUNCENUM
 product:
--   Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

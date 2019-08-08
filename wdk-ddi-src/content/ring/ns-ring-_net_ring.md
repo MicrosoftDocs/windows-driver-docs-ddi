@@ -25,13 +25,13 @@ req.alt-api:
 req.alt-loc:
 req.typenames: NET_RING
 topictype: 
--	apiref
+- apiref
 apitype: 
--	HeaderDef
+- HeaderDef
 apilocation: 
--	ring.h
+- ring.h
 apiname: 
--	NET_RING
+- NET_RING
 product:
 - Windows
 targetos: Windows

@@ -32,7 +32,7 @@ api_location:
 - wdm.h
 api_name: 
 - PLEAVE_DMA_DOMAIN
--   LeaveDmaDomain
+- LeaveDmaDomain
 product:
 - Windows
 targetos: Windows

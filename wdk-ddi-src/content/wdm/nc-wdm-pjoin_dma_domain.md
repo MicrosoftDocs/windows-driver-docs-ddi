@@ -32,7 +32,7 @@ api_location:
 - wdm.h
 api_name: 
 - PJOIN_DMA_DOMAIN
--   JoinDmaDomain
+- JoinDmaDomain
 product:
 - Windows
 targetos: Windows

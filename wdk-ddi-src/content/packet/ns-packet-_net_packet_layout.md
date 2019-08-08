@@ -25,13 +25,13 @@ req.alt-api:
 req.alt-loc:
 req.typenames: NET_PACKET_LAYOUT
 topictype: 
--	apiref
+- apiref
 apitype: 
--	HeaderDef
+- HeaderDef
 apilocation: 
--	packet.h
+- packet.h
 apiname: 
--	NET_PACKET_LAYOUT
+- NET_PACKET_LAYOUT
 product:
 - Windows
 targetos: Windows

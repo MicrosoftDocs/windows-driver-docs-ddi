@@ -32,7 +32,7 @@ api_location:
 - wdm.h
 api_name: 
 - PFLUSH_DMA_BUFFER
--   FlushDmaBuffer
+- FlushDmaBuffer
 product:
 - Windows
 targetos: Windows

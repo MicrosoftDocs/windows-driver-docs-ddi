@@ -30,7 +30,7 @@ api_location:
 api_name: 
 - _WIA_RAW_HEADER
 product:
--   Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---
