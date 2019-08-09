@@ -13,7 +13,7 @@ f1_keywords:
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop
-req.target-min-winverclnt: Available in Microsoft Windows Me and in Windows XP and later versions of the Windows operating systems.
+req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -64,11 +64,13 @@ Pointer to a [WIAS_ENDORSER_INFO](https://docs.microsoft.com/windows-hardware/dr
 
 ### -param pOutputString [out]
 
-Pointer to a memory location that receives the address of the parsed endorser string. If **pOutputString* is non-**NULL** on entry, then the function assumes that the caller allocated the buffer; otherwise the WIA service will allocate it. Note that the WIA service assumes the *maximum* resultant endorser string is MAX_PATH (defined in *stdlib.h*) characters long. If the driver expects the string to be longer, it should allocate the buffer itself. If the caller allocates the buffer, it *must* initialize the contents of the buffer to zero before using this function.
+Pointer to a memory location that receives the address of the parsed endorser string. If **pOutputString* is non-NULL on entry, then the function assumes that the caller allocated the buffer; otherwise the WIA service will allocate it. Note that the WIA service assumes the *maximum* resultant endorser string is MAX_PATH (defined in *stdlib.h*) characters long. If the driver expects the string to be longer, it should allocate the buffer itself. If the caller allocates the buffer, it *must* initialize the contents of the buffer to zero before using this function.
 
 ## -returns
 
-On success, the function returns S_OK. If the function fails, it returns a standard COM error or one of the WIA_ERROR_XXX errors (described in the Windows SDK documentation).
+On success, the function returns S_OK.
+
+If the function fails, it returns a standard COM error or one of the [WIA error codes](https://docs.microsoft.com/windows/win32/wia/-wia-error-codes).
 
 ## -remarks
 
