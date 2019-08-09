@@ -1,5 +1,6 @@
 ---
 UID: NA:ehstorioctl
+title: Ehstorioctl.h header
 ms.assetid: a7992c39-d4a1-309f-bf0a-231350d779cf
 ms.date: 05/09/2018
 ms.keywords: 

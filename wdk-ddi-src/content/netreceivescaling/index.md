@@ -1,5 +1,6 @@
 ---
 UID: NA:netreceivescaling
+title: Netreceivescaling.h header
 ms.assetid: b76ca427-86f2-3158-8375-477be3d9484f
 ms.date: 05/09/2018
 ms.keywords: 

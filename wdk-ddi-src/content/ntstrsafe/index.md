@@ -1,5 +1,6 @@
 ---
 UID: NA:ntstrsafe
+title: Ntstrsafe.h header
 ms.assetid: 65f21332-b24f-3667-9a7a-dd2844d95ae9
 ms.date: 05/09/2018
 ms.keywords: 

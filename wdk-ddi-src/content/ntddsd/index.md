@@ -1,5 +1,6 @@
 ---
 UID: NA:ntddsd
+title: Ntddsd.h header
 ms.assetid: 580360eb-94b6-3837-bcf3-d877646901ac
 ms.date: 05/09/2018
 ms.keywords: 

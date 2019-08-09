@@ -1,5 +1,6 @@
 ---
 UID: NA:ntifs
+title: Ntifs.h header
 ms.assetid: e3d525ec-4b50-3580-9b86-a44d770e9b1d
 ms.date: 05/09/2018
 ms.keywords: 

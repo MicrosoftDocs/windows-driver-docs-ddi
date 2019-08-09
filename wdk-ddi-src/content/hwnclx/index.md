@@ -1,5 +1,6 @@
 ---
 UID: NA:hwnclx
+title: Hwnclx.h header
 ms.assetid: b41140bd-3a1f-3742-9971-e78555cd7456
 ms.date: 05/09/2018
 ms.keywords: 

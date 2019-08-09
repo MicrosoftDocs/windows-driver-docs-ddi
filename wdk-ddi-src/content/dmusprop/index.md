@@ -1,5 +1,6 @@
 ---
 UID: NA:dmusprop
+title: Dmusprop.h header
 ms.assetid: 8c375ed6-386a-38cc-8d32-9ad589db65cc
 ms.date: 05/09/2018
 ms.keywords: 

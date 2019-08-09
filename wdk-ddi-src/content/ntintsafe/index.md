@@ -1,5 +1,6 @@
 ---
 UID: NA:ntintsafe
+title: Ntintsafe.h header
 ms.assetid: 77e746ec-1ef8-3369-a531-97bfb54b042a
 ms.date: 05/09/2018
 ms.keywords: 

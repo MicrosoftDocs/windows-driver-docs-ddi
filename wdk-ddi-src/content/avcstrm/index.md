@@ -1,5 +1,6 @@
 ---
 UID: NA:avcstrm
+title: Avcstrm.h header
 ms.assetid: 95ad8480-00a5-327d-bbf8-cb0d47180196
 ms.date: 05/09/2018
 ms.keywords: 

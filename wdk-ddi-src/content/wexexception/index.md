@@ -1,5 +1,6 @@
 ---
 UID: NA:wexexception
+title: Wexexception.h header
 ms.assetid: a204976e-1c46-3c96-9ea5-c565ac753a04
 ms.date: 05/09/2018
 ms.keywords: 

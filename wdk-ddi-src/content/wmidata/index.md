@@ -1,5 +1,6 @@
 ---
 UID: NA:wmidata
+title: Wmidata.h header
 ms.assetid: 3c9d30b6-1230-3c65-a5e6-41697649a0bc
 ms.date: 05/09/2018
 ms.keywords: 

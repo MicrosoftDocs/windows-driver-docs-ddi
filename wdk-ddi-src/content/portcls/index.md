@@ -1,5 +1,6 @@
 ---
 UID: NA:portcls
+title: Portcls.h header
 ms.assetid: 6e1a2bb6-6b07-3266-83bb-aa08030d97d6
 ms.date: 05/09/2018
 ms.keywords: 

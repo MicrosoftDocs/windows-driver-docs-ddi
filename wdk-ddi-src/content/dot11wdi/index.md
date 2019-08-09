@@ -1,5 +1,6 @@
 ---
 UID: NA:dot11wdi
+title: Dot11Wdi.h header
 ms.assetid: b9b9a3d0-411a-3f22-b90a-dd065eaf4aa0
 ms.date: 05/09/2018
 ms.keywords: 

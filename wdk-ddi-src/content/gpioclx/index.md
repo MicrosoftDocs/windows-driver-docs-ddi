@@ -1,5 +1,6 @@
 ---
 UID: NA:gpioclx
+title: Gpioclx.h header
 ms.assetid: 3adddb79-a9ea-349e-8ec7-150a8cd8b0e0
 ms.date: 05/09/2018
 ms.keywords: 

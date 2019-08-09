@@ -1,5 +1,6 @@
 ---
 UID: NA:bdasup
+title: Bdasup.h header
 ms.assetid: 501c4a0b-90dc-39ca-905e-a662bbbfe6be
 ms.date: 05/09/2018
 ms.keywords: 

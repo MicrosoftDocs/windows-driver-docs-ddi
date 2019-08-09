@@ -1,5 +1,6 @@
 ---
 UID: NA:wia_lh
+title: Wia_Lh.h header
 ms.assetid: 99eafa9d-3584-3ffa-9589-0fb46987965a
 ms.date: 05/09/2018
 ms.keywords: 

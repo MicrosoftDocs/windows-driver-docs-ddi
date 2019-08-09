@@ -1,5 +1,6 @@
 ---
 UID: NA:storduid
+title: Storduid.h header
 ms.assetid: 0bced197-dfad-33bf-a099-834128f75116
 ms.date: 05/09/2018
 ms.keywords: 

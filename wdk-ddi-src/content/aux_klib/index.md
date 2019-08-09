@@ -1,5 +1,6 @@
 ---
 UID: NA:aux_klib
+title: Aux_Klib.h header
 ms.assetid: c8496ac9-e318-30df-baca-c0ea009e04d1
 ms.date: 05/09/2018
 ms.keywords: 

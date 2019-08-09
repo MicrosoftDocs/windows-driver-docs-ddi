@@ -1,5 +1,6 @@
 ---
 UID: NA:bdamedia
+title: Bdamedia.h header
 ms.assetid: e5093c55-273b-3721-852a-4f94c45d88bf
 ms.date: 05/09/2018
 ms.keywords: 

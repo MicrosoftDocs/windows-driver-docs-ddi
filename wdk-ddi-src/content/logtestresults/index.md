@@ -1,5 +1,6 @@
 ---
 UID: NA:logtestresults
+title: Logtestresults.h header
 ms.assetid: 7e772f4b-ce8e-3c79-b28a-9dd7f657bb79
 ms.date: 05/09/2018
 ms.keywords: 

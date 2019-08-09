@@ -1,5 +1,6 @@
 ---
 UID: NA:wdfiotarget
+title: Wdfiotarget.h header
 ms.assetid: 65c859a2-b54e-397f-a79a-3c718b10f60c
 ms.date: 05/09/2018
 ms.keywords: 

@@ -1,5 +1,6 @@
 ---
 UID: NA:ucmtcpcidevice
+title: Ucmtcpcidevice.h header
 ms.assetid: db4cb714-9dce-3a4e-a734-0c221c5a5dbe
 ms.date: 05/09/2018
 ms.keywords: 

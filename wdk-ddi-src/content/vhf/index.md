@@ -1,5 +1,6 @@
 ---
 UID: NA:vhf
+title: Vhf.h header
 ms.assetid: 6241ba6a-2367-3ead-8146-3f3598ed3ab0
 ms.date: 05/09/2018
 ms.keywords: 

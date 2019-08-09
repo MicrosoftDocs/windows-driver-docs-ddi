@@ -1,5 +1,6 @@
 ---
 UID: NA:d3dkmdt
+title: D3Dkmdt.h header
 ms.assetid: 019f4ae8-bb25-3ccb-9dae-26b111c96303
 ms.date: 05/09/2018
 ms.keywords: 

@@ -1,5 +1,6 @@
 ---
 UID: NA:fcbtable
+title: Fcbtable.h header
 ms.assetid: 35167acb-0fef-3b2d-b9f7-acdaa8181a9a
 ms.date: 05/09/2018
 ms.keywords: 

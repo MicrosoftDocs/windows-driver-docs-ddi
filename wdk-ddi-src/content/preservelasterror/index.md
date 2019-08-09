@@ -1,5 +1,6 @@
 ---
 UID: NA:preservelasterror
+title: Preservelasterror.h header
 ms.assetid: 65e53dfe-6226-308e-aece-130b73e1f599
 ms.date: 05/09/2018
 ms.keywords: 

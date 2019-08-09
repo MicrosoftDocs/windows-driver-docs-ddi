@@ -1,5 +1,6 @@
 ---
 UID: TP:smartcard
+title: Smartcard
 ms.assetid: ab0dbe83-27f1-338c-9202-5d6bc3470e56
 ms.date: 05/09/2018
 ms.keywords: 
