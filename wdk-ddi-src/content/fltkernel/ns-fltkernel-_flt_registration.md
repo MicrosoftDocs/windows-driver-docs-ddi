@@ -121,12 +121,12 @@ A variable-length array of <a href="https://docs.microsoft.com/windows-hardware/
 
 ### -field FilterUnloadCallback
 
-A pointer to a routine of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nc-fltkernel-pflt_filter_unload_callback">PFLT_FILTER_UNLOAD_CALLBACK</a> to be registered as the minifilter's <i>FilterUnloadCallback</i> routine. This member is optional and can be <b>NULL</b>. Note that if **NULL** is specified for this routine, then the filter can never be unloaded.
+A pointer to a routine of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nc-fltkernel-pflt_filter_unload_callback">PFLT_FILTER_UNLOAD_CALLBACK</a> to be registered as the minifilter's <i>FilterUnloadCallback</i> routine. This member is optional and can be **NULL**. Note that if **NULL** is specified for this routine, then the filter can never be unloaded.
 
 
 ### -field InstanceSetupCallback
 
-A pointer to a routine of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nc-fltkernel-pflt_instance_setup_callback">PFLT_INSTANCE_SETUP_CALLBACK</a> to be registered as the minifilter's <i>InstanceSetupCallback</i> routine. This member is optional and can be <b>NULL</b>. Note that if **NULL** is specified for this routine, the attachment is always made.
+A pointer to a routine of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nc-fltkernel-pflt_instance_setup_callback">PFLT_INSTANCE_SETUP_CALLBACK</a> to be registered as the minifilter's <i>InstanceSetupCallback</i> routine. This member is optional and can be **NULL**. Note that if **NULL** is specified for this routine, the attachment is always made.
 
 
 ### -field InstanceQueryTeardownCallback
