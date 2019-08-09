@@ -1,5 +1,6 @@
 ---
 UID: NA:rxpooltg
+title: Rxpooltg.h header
 ms.assetid: f0f2a447-1769-3b3d-8a09-7de361d3906d
 ms.date: 05/09/2018
 ms.keywords: 

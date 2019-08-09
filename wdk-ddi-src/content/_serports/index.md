@@ -1,5 +1,6 @@
 ---
 UID: TP:serports
+title: Serial port
 ms.assetid: a99541fb-a2d1-3e81-9efd-97d9eecc1ed4
 ms.date: 05/09/2018
 ms.keywords: 

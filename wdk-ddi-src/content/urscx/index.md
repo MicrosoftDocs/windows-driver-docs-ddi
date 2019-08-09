@@ -1,5 +1,6 @@
 ---
 UID: NA:urscx
+title: Urscx.h header
 ms.assetid: 1dd9556e-eff3-3b9c-90ac-d22adf5b1865
 ms.date: 05/09/2018
 ms.keywords: 

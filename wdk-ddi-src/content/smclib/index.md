@@ -1,5 +1,6 @@
 ---
 UID: NA:smclib
+title: Smclib.h header
 ms.assetid: 48cd2b63-634e-3de2-8512-b526fb95a434
 ms.date: 05/09/2018
 ms.keywords: 

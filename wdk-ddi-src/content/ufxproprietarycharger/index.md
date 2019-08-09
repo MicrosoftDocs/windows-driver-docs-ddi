@@ -1,5 +1,6 @@
 ---
 UID: NA:ufxproprietarycharger
+title: Ufxproprietarycharger.h header
 ms.assetid: d02b3696-a339-37ca-89b4-4a16b2ccf5c4
 ms.date: 05/09/2018
 ms.keywords: 

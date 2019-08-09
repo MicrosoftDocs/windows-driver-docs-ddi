@@ -1,5 +1,6 @@
 ---
 UID: NA:mbbcx
+title: Math3dhelper.h header
 ms.assetid: F42B8B53-33D1-4437-9414-98EA4E7307A7
 ms.date: 06/26/2018
 ms.keywords: 

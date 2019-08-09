@@ -1,5 +1,6 @@
 ---
 UID: NA:prnasntp
+title: Prnasntp.h header
 ms.assetid: 06a2babb-67c2-3b95-be24-a44b7eec0bcf
 ms.date: 05/09/2018
 ms.keywords: 

@@ -1,5 +1,6 @@
 ---
 UID: NA:lso
+title: Lso.h header
 ms.assetid: 7B7F072F-E4D8-40C0-BB82-5A5CFDE0CDEA
 ms.date: 01/30/19
 ms.keywords: 

@@ -1,5 +1,6 @@
 ---
 UID: NA:wdfinstaller
+title: Wdfinstaller.h header
 ms.assetid: 7d20668c-a0dd-32f7-aeef-8188b28028fb
 ms.date: 05/09/2018
 ms.keywords: 

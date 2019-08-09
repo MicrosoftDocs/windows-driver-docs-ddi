@@ -1,5 +1,6 @@
 ---
 UID: NA:ksproxy
+title: Ksproxy.h header
 ms.assetid: d1260539-6401-3b8d-b402-dbda616a5e84
 ms.date: 05/09/2018
 ms.keywords: 

@@ -1,5 +1,6 @@
 ---
 UID: NA:knetpwrdepbroker
+title: Knetpwrdepbroker.h header
 ms.assetid: 8d07a09f-6987-304d-8dc3-db826ed174ca
 ms.date: 05/09/2018
 ms.keywords: 

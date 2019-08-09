@@ -1,5 +1,6 @@
 ---
 UID: NA:d3dcaps
+title: D3Dcaps.h header
 ms.assetid: 11dc5d8a-0b66-3f59-a907-73d9f33071a8
 ms.date: 05/09/2018
 ms.keywords: 

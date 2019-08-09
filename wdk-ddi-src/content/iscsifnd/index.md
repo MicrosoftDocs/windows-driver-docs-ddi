@@ -1,5 +1,6 @@
 ---
 UID: NA:iscsifnd
+title: Iscsifnd.h header
 ms.assetid: 62424815-b11c-3693-9aa3-e63ce262de2b
 ms.date: 05/09/2018
 ms.keywords: 

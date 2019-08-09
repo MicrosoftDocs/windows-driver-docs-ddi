@@ -1,5 +1,6 @@
 ---
 UID: NA:verify
+title: Verify.h header
 ms.assetid: d78fab56-c6b0-30a8-a418-935fac6bafaf
 ms.date: 05/09/2018
 ms.keywords: 

@@ -1,5 +1,6 @@
 ---
 UID: NA:wex.common
+title: Wex.Common.h header
 ms.assetid: f4091cff-294b-3538-bb18-c478d422fee1
 ms.date: 05/09/2018
 ms.keywords: 

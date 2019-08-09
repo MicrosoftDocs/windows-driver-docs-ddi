@@ -1,5 +1,6 @@
 ---
 UID: NA:prdrvcom
+title: Prdrvcom.h header
 ms.assetid: 6d969209-8a48-364c-a65e-9376eb7fc29c
 ms.date: 05/09/2018
 ms.keywords: 

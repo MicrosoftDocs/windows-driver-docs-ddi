@@ -1,5 +1,6 @@
 ---
 UID: NA:ntdd8042
+title: Ntdd8042.h header
 ms.assetid: 20253ca3-2ef9-33f0-991d-bd37be11cc04
 ms.date: 05/09/2018
 ms.keywords: 

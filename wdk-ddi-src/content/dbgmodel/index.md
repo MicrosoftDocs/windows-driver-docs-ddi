@@ -1,5 +1,6 @@
 ---
 UID: NA:dbgmodel
+title: Dbgmodel.h header
 ms.assetid: 1ed8e19a-ceff-3fbf-906f-a4cb735628aa
 ms.date: 07/12/2018
 ms.keywords: 

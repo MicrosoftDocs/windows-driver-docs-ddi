@@ -1,5 +1,6 @@
 ---
 UID: NA:ucxusbdevice
+title: Ucxusbdevice.h header
 ms.assetid: 2cf71389-08f1-3c73-b478-7efa6045e05e
 ms.date: 05/09/2018
 ms.keywords: USB host controller driver

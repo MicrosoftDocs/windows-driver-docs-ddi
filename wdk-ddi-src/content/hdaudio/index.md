@@ -1,5 +1,6 @@
 ---
 UID: NA:hdaudio
+title: Hdaudio.h header
 ms.assetid: 63f66258-129c-388f-83e8-f8b12d118b98
 ms.date: 05/09/2018
 ms.keywords: 

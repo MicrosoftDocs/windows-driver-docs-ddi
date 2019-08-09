@@ -1,5 +1,6 @@
 ---
 UID: NA:iscsidef
+title: Iscsidef.h header
 ms.assetid: 39aa6161-feb2-3ec8-a07b-b4e1594d4617
 ms.date: 05/09/2018
 ms.keywords: 

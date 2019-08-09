@@ -1,5 +1,6 @@
 ---
 UID: NA:wdfdmaenabler
+title: Wdfdmaenabler.h header
 ms.assetid: f289b573-9c47-3cb2-8c3c-5761a2743379
 ms.date: 05/09/2018
 ms.keywords: 

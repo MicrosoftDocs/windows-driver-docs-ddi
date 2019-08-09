@@ -1,5 +1,6 @@
 ---
 UID: NA:treevariableservice
+title: Treevariableservice.h header
 ms.assetid: bef41398-1512-3aee-a716-664a76c733e6
 ms.date: 08/09/2018
 ms.keywords: 

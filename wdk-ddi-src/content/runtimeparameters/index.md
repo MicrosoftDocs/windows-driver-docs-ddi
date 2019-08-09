@@ -1,5 +1,6 @@
 ---
 UID: NA:runtimeparameters
+title: Runtimeparameters.h header
 ms.assetid: 70be789a-c2d3-3911-930a-d9818f8684ab
 ms.date: 05/09/2018
 ms.keywords: 
