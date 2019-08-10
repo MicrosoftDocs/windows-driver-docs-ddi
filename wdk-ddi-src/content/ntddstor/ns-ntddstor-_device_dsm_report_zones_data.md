@@ -6,7 +6,7 @@ description: This structure is reserved for system use only.
 tech.root: storage
 ms.assetid: 988906ae-fa8c-4370-aedb-c5073766282c
 ms.author: windowsdriverdev
-ms.date: 07/31/2019
+ms.date: 08/15/2019
 ms.topic: struct
 f1_keywords:
  - "ntddstor/DEVICE_DSM_REPORT_ZONES_DATA"

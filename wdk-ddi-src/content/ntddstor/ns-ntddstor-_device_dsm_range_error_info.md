@@ -6,7 +6,7 @@ description: This structure is reserved for system use only.
 tech.root: storage
 ms.assetid: 7e404825-4ffa-4458-97ac-edceeaa987e1
 ms.author: windowsdriverdev
-ms.date: 07/31/2019
+ms.date: 08/15/2019
 ms.topic: struct
 f1_keywords:
  - "ntddstor/DEVICE_DSM_RANGE_ERROR_INFO"

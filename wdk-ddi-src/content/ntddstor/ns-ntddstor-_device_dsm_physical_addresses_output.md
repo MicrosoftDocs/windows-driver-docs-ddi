@@ -6,7 +6,7 @@ description: This structure is reserved for system use only.
 tech.root: storage
 ms.assetid: 0eb514dd-588f-41ee-bd30-5dad00c19141
 ms.author: windowsdriverdev
-ms.date: 07/31/2019
+ms.date: 08/15/2019
 ms.topic: struct
 f1_keywords:
  - "ntddstor/DEVICE_DSM_PHYSICAL_ADDRESSES_OUTPUT"

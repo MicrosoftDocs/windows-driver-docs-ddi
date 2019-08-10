@@ -4,7 +4,7 @@ title: DeviceDsmGetNumberOfDataSetRanges function (ntddstor.h)
 description: The DeviceDsmGetNumberOfDataSetRanges function gets the number of data set ranges in a given input length.
 tech.root: storage
 ms.assetid: a53b0fcc-7286-4d65-b4a0-d46b505073e7
-ms.date: 07/31/2019
+ms.date: 08/15/2019
 ms.topic: function
 f1_keywords:
  - "ntddstor/DeviceDsmGetNumberOfDataSetRanges"
@@ -69,3 +69,5 @@ Returns the number of data set ranges in the given input length.
 A DSM operation handler calls **DeviceDsmGetNumberOfDataSetRanges** to determine the number of data set ranges in the operation's input length.
 
 ## -see-also
+
+[DEVICE_DSM_RANGE](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor-_device_data_set_range)

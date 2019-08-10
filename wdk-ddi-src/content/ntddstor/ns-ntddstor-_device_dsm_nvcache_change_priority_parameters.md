@@ -8,7 +8,7 @@ f1_keywords:
  - "ntddstor/DEVICE_DSM_NVACHE_CHANGE_PRIORITY_PARAMETERS"
 ms.assetid: 97a840df-0648-416e-a4b3-e3e4e57018ab
 ms.author: windowsdriverdev
-ms.date: 07/31/2019
+ms.date: 08/15/2019
 ms.topic: struct
 ms.keywords: DEVICE_DSM_NVCACHE_CHANGE_PRIORITY_PARAMETERS, DEVICE_DSM_NVCACHE_CHANGE_PRIORITY_PARAMETERS, *PDEVICE_DSM_NVCACHE_CHANGE_PRIORITY_PARAMETERS, 
 req.header: ntddstor.h

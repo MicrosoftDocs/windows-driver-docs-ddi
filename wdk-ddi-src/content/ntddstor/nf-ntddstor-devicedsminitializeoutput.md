@@ -1,10 +1,10 @@
 ---
 UID: NF:ntddstor.DeviceDsmInitializeOutput
 title: DeviceDsmInitializeOutput function (ntddstor.h)
-description: The DeviceDsmInitializeOutput function initializes a DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT structure.
+description: The DeviceDsmInitializeOutput function initializes a DEVICE_DSM_OUTPUT structure.
 tech.root: storage
 ms.assetid: e68acc49-63c9-4ea2-9450-fa45dd2b5e06
-ms.date: 07/31/2019
+ms.date: 08/15/2019
 ms.topic: function
 f1_keywords:
  - "ntddstor/DeviceDsmInitializeOutput"
@@ -72,4 +72,4 @@ This function does not return a value.
 
 ## -see-also
 
-[**DEVICE_DSM_OUTPUT**](ns-ntddstor-_device_manage_data_set_attributes_output.md)
+[DEVICE_DSM_OUTPUT](ns-ntddstor-_device_manage_data_set_attributes_output.md)

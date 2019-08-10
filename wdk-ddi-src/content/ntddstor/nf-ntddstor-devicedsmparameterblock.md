@@ -1,10 +1,10 @@
 ---
 UID: NF:ntddstor.DeviceDsmParameterBlock
 title: DeviceDsmParameterBlock function (ntddstor.h)
-description: The DeviceDsmParameterBlock function gets the parameter block for a DEVICE_MANAGE_DATA_SET_ATTRIBUTES structure.
+description: The DeviceDsmParameterBlock function gets the parameter block for a DEVICE_DSM_INPUT structure.
 tech.root: storage
 ms.assetid: 60c25727-7218-4b5e-935f-fb34fe926da5
-ms.date: 07/31/2019
+ms.date: 08/15/2019
 ms.topic: function
 f1_keywords:
  - "ntddstor/DeviceDsmParameterBlock"

@@ -2,11 +2,11 @@
 UID: NF:ntddstor.IsDsmActionNonDestructive
 title: IsDsmActionNonDestructive macro
 author: windows-driver-content
-description: TBD
-tech.root: ntddstor
+description: The IsDsmActionNonDestructive macro determines whether a data set management (DSM) action is nondestructive.
+tech.root: storage
 ms.assetid: a52c39a3-c6a2-4885-9679-5f56531be851
 ms.author: windowsdriverdev
-ms.date: 07/31/19
+ms.date: 08/15/2019
 ms.topic: macro
 f1_keywords:
  - "ntddstor/IsDsmActionNonDestructive"
@@ -52,7 +52,7 @@ The **IsDsmActionNonDestructive** macro determines whether a data set management
 
 ### -param _Action
 
-The *DeviceDsmAction_Xxx* action to be performed. DSM action values are defined in *ntddstor.h*.
+The **DeviceDsmAction_*Xxx*** action to be performed. DSM action values are defined in *ntddstor.h*.
 
 ## -remarks
 

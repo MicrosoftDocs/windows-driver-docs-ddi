@@ -6,7 +6,7 @@ description: The **STORAGE_PROTOCOL_SPECIFIC_DATA_EXT** structure describes the 
 tech.root: storage
 ms.assetid: d033364c-19ba-4091-a9d2-e9afee5ab7dc
 ms.author: windowsdriverdev
-ms.date: 3/21/19
+ms.date: 03/21/2019
 ms.topic: struct
 f1_keywords:
  - "ntddstor/STORAGE_PROTOCOL_SPECIFIC_DATA_EXT"
@@ -48,11 +48,11 @@ The STORAGE_PROTOCOL_SPECIFIC_DATA_EXT structure describes the protocol-specific
 
 ### -field ProtocolType
 
-The protocol type. Values for this member are defined in the [STORAGE_PROTOCOL_TYPE](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/ntddstor/ne-ntddstor-_storage_protocol_type) enumeration.
+The protocol type. Values for this member are defined in the [STORAGE_PROTOCOL_TYPE](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ne-ntddstor-_storage_protocol_type) enumeration.
 
 ### -field DataType
 
-The protocol data type. Data types are defined in the [STORAGE_PROTOCOL_NVME_DATA_TYPE](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/ntddstor/ne-ntddstor-_storage_protocol_nvme_data_type) and [STORAGE_PROTOCOL_ATA_DATA_TYPE](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/ntddstor/ne-ntddstor-_storage_protocol_ata_data_type) enumerations.
+The protocol data type. Data types are defined in the [STORAGE_PROTOCOL_NVME_DATA_TYPE](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ne-ntddstor-_storage_protocol_nvme_data_type) and [STORAGE_PROTOCOL_ATA_DATA_TYPE](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ne-ntddstor-_storage_protocol_ata_data_type) enumerations.
 
 ### -field ProtocolDataValue
 

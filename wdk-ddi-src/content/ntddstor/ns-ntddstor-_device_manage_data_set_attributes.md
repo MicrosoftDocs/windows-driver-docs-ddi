@@ -1,12 +1,12 @@
 ---
 UID: NS:ntddstor._DEVICE_MANAGE_DATA_SET_ATTRIBUTES
 title: _DEVICE_MANAGE_DATA_SET_ATTRIBUTES (ntddstor.h)
-description: The DEVICE_MANAGE_DATA_SET_ATTRIBUTES structure specifies a management action for the data-set attributes for a device.
+description: The DEVICE DSM_INPUT (or DEVICE_MANAGE_DATA_SET_ATTRIBUTES) structure specifies a management action for the data-set attributes for a device.
 old-location: storage\device_manage_data_set_attributes.htm
 tech.root: storage
 ms.assetid: be0bfcef-09df-4259-a034-0d51db9819ce
-ms.date: 03/29/2018
-ms.keywords: "*PDEVICE_MANAGE_DATA_SET_ATTRIBUTES, DEVICE_DSM_FLAG_ENTIRE_DATA_SET_RANGE, DEVICE_MANAGE_DATA_SET_ATTRIBUTES, DEVICE_MANAGE_DATA_SET_ATTRIBUTES structure [Storage Devices], DeviceDsmActionFlag_NonDestructive, PDEVICE_MANAGE_DATA_SET_ATTRIBUTES, PDEVICE_MANAGE_DATA_SET_ATTRIBUTES structure pointer [Storage Devices], _DEVICE_MANAGE_DATA_SET_ATTRIBUTES, ntddstor/DEVICE_MANAGE_DATA_SET_ATTRIBUTES, ntddstor/PDEVICE_MANAGE_DATA_SET_ATTRIBUTES, storage.device_manage_data_set_attributes, structs-general_f8d2d431-7187-4532-ac05-69868909fc66.xml"
+ms.date: 08/15/2019
+ms.keywords: "DEVICE_DSM_INPUT, PDEVICE_DSM_INPUT, *PDEVICE_MANAGE_DATA_SET_ATTRIBUTES, DEVICE_DSM_FLAG_ENTIRE_DATA_SET_RANGE, DEVICE_MANAGE_DATA_SET_ATTRIBUTES, DEVICE_MANAGE_DATA_SET_ATTRIBUTES structure [Storage Devices], DeviceDsmActionFlag_NonDestructive, PDEVICE_MANAGE_DATA_SET_ATTRIBUTES, PDEVICE_MANAGE_DATA_SET_ATTRIBUTES structure pointer [Storage Devices], _DEVICE_MANAGE_DATA_SET_ATTRIBUTES, ntddstor/DEVICE_MANAGE_DATA_SET_ATTRIBUTES, ntddstor/PDEVICE_MANAGE_DATA_SET_ATTRIBUTES, storage.device_manage_data_set_attributes, structs-general_f8d2d431-7187-4532-ac05-69868909fc66.xml"
 ms.topic: struct
 f1_keywords:
  - "ntddstor/DEVICE_MANAGE_DATA_SET_ATTRIBUTES"
@@ -44,164 +44,68 @@ req.typenames: DEVICE_MANAGE_DATA_SET_ATTRIBUTES, *PDEVICE_MANAGE_DATA_SET_ATTRI
 
 # _DEVICE_MANAGE_DATA_SET_ATTRIBUTES structure
 
-
 ## -description
 
-
-The 
-    <b>DEVICE_MANAGE_DATA_SET_ATTRIBUTES</b> 
-    structure specifies a management action for the data-set attributes for a device.
-
-The management action is specified in the 
-    <b>DEVICE_MANAGE_DATA_SET_ATTRIBUTES</b> 
-    structure that is contained in the system buffer of an 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ni-ntddstor-ioctl_storage_manage_data_set_attributes">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> 
-    request.
-
+The DEVICE_DSM_INPUT (or DEVICE_MANAGE_DATA_SET_ATTRIBUTES) structure specifies a management action for the data-set attributes for a device.
 
 ## -struct-fields
 
-
-
-
 ### -field Size
 
-Contains the size of the structure 
-      <b>DEVICE_MANAGE_DATA_SET_ATTRIBUTES</b>. 
-      The value of this member will change as members are added to the structure.
-
+Size of the DEVICE_DSM_INPUT structure, in bytes. The value of this member will change as members are added to the structure.
 
 ### -field Action
 
-The action to be performed as specified by a 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/device-data-management-set-action">DEVICE_DATA_MANAGEMENT_SET_ACTION</a> 
-       enumeration value.
+DEVICE_DSM_ACTION value that specifies the action to be performed. See [DEVICE_DSM_ACTION Descriptions](https://docs.microsoft.com/windows-hardware/drivers/storage/device-dsm-action-descriptions) for a list of values and action descriptions.
 
-Starting with Windows 7, this value can be a bitwise OR of one or more of the following flags:
+Starting with Windows 7, **Action** can be a bitwise OR of a **DeviceDsmAction_*Xxx*** action value with action-specific flags. Action-specific flags can be a bitwise OR of one or more of the following flags:
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="DeviceDsmActionFlag_NonDestructive"></a><a id="devicedsmactionflag_nondestructive"></a><a id="DEVICEDSMACTIONFLAG_NONDESTRUCTIVE"></a><dl>
-<dt><b><b>DeviceDsmActionFlag_NonDestructive</b></b></dt>
-</dl>
-</td>
-<td width="60%">
-The specified action is non-destructive. If this flag is set, the driver can safely forward the 
-         <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ni-ntddstor-ioctl_storage_manage_data_set_attributes">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> 
-         request to the next lower driver in the stack even if the driver does not handle the specified action.
-
-<div class="alert"><b>Note</b>  Before it forwards the 
-         <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ni-ntddstor-ioctl_storage_manage_data_set_attributes">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> 
-         request, the driver should still perform the normal processing of the data set ranges block that is specified 
-         by the <b>DataSetRangesOffset</b> and <b>DataSetRangesLength</b> 
-         members.</div>
-<div> </div>
-</td>
-</tr>
-</table>
- 
-
+| Action-specific Flag Value | Meaning |
+| -------------------------- | ------- |
+| **DeviceDsmActionFlag_NonDestructive** | The specified action is non-destructive. If this flag is set, the driver can safely forward the [IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ni-ntddstor-ioctl_storage_manage_data_set_attributes) request to the next lower driver in the stack even if the driver does not handle the specified action. Before it forwards the IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES request, the driver should perform the normal processing of the data set ranges block that is specified by the **DataSetRangesOffset** and **DataSetRangesLength** members. |
 
 ### -field Flags
 
-These flags are global to all control actions. The following flags can be set in the 
-       <b>Flags</b> member:
+These flags are global to all control actions. This member can be set to one of the following flags:
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="DEVICE_DSM_FLAG_ENTIRE_DATA_SET_RANGE"></a><a id="device_dsm_flag_entire_data_set_range"></a><dl>
-<dt><b><b>DEVICE_DSM_FLAG_ENTIRE_DATA_SET_RANGE</b></b></dt>
-</dl>
-</td>
-<td width="60%">
-Specifies that the control action is specified for the entire block of data set ranges. If this flag is 
-         set, the <b>DataSetRangesOffset</b> and <b>DataSetRangesLength</b> 
-         members must be set to zero.
-
-</td>
-</tr>
-</table>
- 
-
+| Flag Value | Meaning |
+| ---------- | ------- |
+| DEVICE_DSM_FLAG_ENTIRE_DATA_SET_RANGE | The control action is specified for the entire block of data set ranges. If this flag is set, the **DataSetRangesOffset** and **DataSetRangesLength** members must be set to zero. |
 
 ### -field ParameterBlockOffset
 
-Specifies the start of the parameter block within the system buffer of the 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ni-ntddstor-ioctl_storage_manage_data_set_attributes">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> 
-       request. The format of the parameter block depends on the value of the <b>Action</b> 
-       member. For more information, see 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/device-data-management-set-action">DEVICE_DATA_MANAGEMENT_SET_ACTION</a>.
+Specifies the start of the parameter block within the system buffer of the [IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ni-ntddstor-ioctl_storage_manage_data_set_attributes) request. The format of the parameter block depends on the value of the **Action** member. For more information, see [Data Set Management Overview](https://docs.microsoft.com/windows-hardware/drivers/storage/data-set-management-overview). **Note**: The offset of the parameter block must be aligned on the address boundary of the corresponding parameter.
 
-<div class="alert"><b>Note</b>  The offset of the parameter block must be aligned on the address boundary of the corresponding parameter 
-      structure.</div>
-<div> </div>
-If set to zero, then the parameter block does not exist.
-
+If **ParameterBlockOffset** is set to zero, then the parameter block does not exist.
 
 ### -field ParameterBlockLength
 
-Specifies the length, in bytes, of the parameter block within the payload of the 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ni-ntddstor-ioctl_storage_manage_data_set_attributes">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> 
-       request.
+Specifies the length, in bytes, of the parameter block within the payload of the IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES request.
 
-If set to zero, then the parameter block does not exist.
-
+If **ParameterBlockLength** is set to zero, then the parameter block does not exist.
 
 ### -field DataSetRangesOffset
 
-Specifies the start of the block of data set ranges within the system buffer of the 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ni-ntddstor-ioctl_storage_manage_data_set_attributes">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> 
-       request. This block consists of one or more contiguous entries that are formatted as 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor-_device_data_set_range">DEVICE_DATA_SET_RANGE</a> structures.
-
-<div class="alert"><b>Note</b>  The offset of the data set range block must be aligned on the address boundary of the 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor-_device_data_set_range">DEVICE_DATA_SET_RANGE</a> structure.</div>
-<div> </div>
-If set to zero, then the block of data set ranges does not exist. 
-
-
-### -field DataSetRangesLength
-
-Specifies the length, in bytes, of the block of data set ranges within the payload of the 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ni-ntddstor-ioctl_storage_manage_data_set_attributes">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> 
-       request.
+Specifies the start of the block of data set ranges within the system buffer of the IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES request. This block consists of one or more contiguous entries that are formatted as [DEVICE_DSM_RANGE](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor-_device_data_set_range) structures. **Note**:  The offset of the data set range block must be aligned on the address boundary of the DEVICE_DSM_RANGE structure.
 
 If set to zero, then the block of data set ranges does not exist.
 
+### -field DataSetRangesLength
+
+Specifies the length, in bytes, of the block of data set ranges within the payload of the IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES request. If **DataSetRangesLength** is set to zero, the block of data set ranges does not exist.
 
 ## -remarks
 
+The management action is specified in the DEVICE_DSM_INPUT structure that is contained in the system buffer of an [IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ni-ntddstor-ioctl_storage_manage_data_set_attributes) request.
 
+The block of data set ranges is specified by the **DataSetRangesOffset** and **DataSetRangesLength** members. If this block exists, it contains contiguous [DEVICE_DSM_RANGE](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor-_device_data_set_range) structures. The total size of the buffer should be at least:
 
-The block of data set ranges is specified by the <b>DataSetRangesOffset</b> and 
-     <b>DataSetRangesLength</b> members. If this block exists, it contains contiguous 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor-_device_data_set_range">DEVICE_DATA_SET_RANGE</a> structures. The total 
-     size of the buffer should be at least:
-
-<code>sizeof(DEVICE_MANAGE_DATA_SET_ATTRIBUTES) + ParameterBlockLength + DataSetRangesLength</code>
-
-
-
+```sizeof(DEVICE_DSM_INPUT) + ParameterBlockLength + DataSetRangesLength```
 
 ## -see-also
 
+[DEVICE_DSM_ACTION Descriptions](https://docs.microsoft.com/windows-hardware/drivers/storage/device-dsm-action-descriptions)
 
+[DEVICE_DSM_RANGE](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor-_device_data_set_range)
 
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/device-data-management-set-action">DEVICE_DATA_MANAGEMENT_SET_ACTION</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ni-ntddstor-ioctl_storage_manage_data_set_attributes">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a>
- 
-
- 
-
+[IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ni-ntddstor-ioctl_storage_manage_data_set_attributes)

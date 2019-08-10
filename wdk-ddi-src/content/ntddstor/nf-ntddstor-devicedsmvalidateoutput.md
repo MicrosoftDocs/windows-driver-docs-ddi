@@ -1,10 +1,10 @@
 ---
 UID: NF:ntddstor.DeviceDsmValidateOutput
 title: DeviceDsmValidateOutput function (ntddstor.h)
-description: The DeviceDsmValidateOutput function validates a DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT structure.
+description: The DeviceDsmValidateOutput function validates a DEVICE_DSM_OUTPUT structure.
 tech.root: storage
 ms.assetid: 322aad6f-62d2-4530-be13-c3f8f64a1a26
-ms.date: 07/31/2019
+ms.date: 08/15/2019
 ms.topic: function
 f1_keywords:
  - "ntddstor/DeviceDsmValidateOutput"
@@ -62,8 +62,10 @@ The length, in bytes, of the structure to which *Output* points.
 
 ## -returns
 
-Returns TRUE if the [**DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT**](ns-ntddstor-_device_manage_data_set_attributes_output.md) structure is valid, or FALSE otherwise.
+Returns TRUE if the [DEVICE_DSM_OUTPUT](ns-ntddstor-_device_manage_data_set_attributes_output.md) structure is valid, or FALSE otherwise.
 
 ## -remarks
 
 ## -see-also
+
+[**DeviceDsmValidateOutputLength**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/nf-ntddstor-devicedsmvalidateoutputlength)

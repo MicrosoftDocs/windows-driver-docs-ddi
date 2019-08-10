@@ -1,10 +1,10 @@
 ---
 UID: NF:ntddstor.DeviceDsmInitializeInput
 title: DeviceDsmInitializeInput function (ntddstor.h)
-description: The DeviceDsmInitializeInput function initializes a DEVICE_MANAGE_DATA_SET_ATTRIBUTES structure.
+description: The DeviceDsmInitializeInput function initializes a DEVICE_DSM_INPUT structure.
 ms.assetid: 4a212a8e-1bd1-4ad1-9da1-f9527a304e81
 tech.root: storage
-ms.date: 07/31/2019
+ms.date: 08/15/2019
 ms.topic: function
 f1_keywords:
  - "ntddstor/DeviceDsmInitializeInput"
@@ -66,7 +66,7 @@ Flags for global control actions for the input.
 
 ### -param Parameters
 
-Parameters for initializing the parameter block of the input structure.
+Parameters for initializing the parameter block of the input structure. See Remarks.
 
 ### -param ParameterBlockLength
 
@@ -79,6 +79,7 @@ This function does not return a value.
 ## -remarks
 
 The parameter block is formatted as a [DEVICE_DSM_NOTIFICATION_PARAMETERS](ns-ntddstor-_device_dsm_notification_parameters.md) structure.
+
 To add a data set range to the input operation, call [**DeviceDsmAddDataSetRange**](nf-ntddstor-devicedsmadddatasetrange).
 
 ## -see-also

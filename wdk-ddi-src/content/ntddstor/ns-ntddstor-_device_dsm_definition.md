@@ -4,7 +4,7 @@ title: _DEVICE_DSM_DEFINITION (ntddstor.h)
 description: This structure is reserved for system use only. 
 tech.root: storage
 ms.assetid: a43aff7d-1731-469d-8681-8c8aaaeff1a1
-ms.date: 07/31/2019
+ms.date: 08/15/2019
 ms.topic: struct
 f1_keywords:
  - "ntddstor/_DEVICE_DSM_DEFINITION"

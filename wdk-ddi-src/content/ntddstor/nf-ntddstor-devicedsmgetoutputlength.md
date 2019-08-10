@@ -4,7 +4,7 @@ title: DeviceDsmGetOutputLength function (ntddstor.h)
 description: The DeviceDsmGetOutputLength function gets the length, in bytes, of a data set management output operation.
 tech.root: storage
 ms.assetid: deb9e6b6-d744-4c3a-a6f4-d1b452401a08
-ms.date: 07/31/2019
+ms.date: 08/15/2019
 ms.topic: function
 f1_keywords:
  - "ntddstor/DeviceDsmGetOutputLength"
@@ -58,7 +58,7 @@ The length, in bytes, of the output block.
 
 ## -returns
 
-Returns the total number of bytes in the output: the length of a [**DEVICE_DSM_OUTPUT**](ns-ntddstor-_device_manage_data_set_attributes_output.md) structure plus the length of the output block.
+Returns the total number of bytes in the output: the length of a [DEVICE_DSM_OUTPUT](ns-ntddstor-_device_manage_data_set_attributes_output.md) structure plus the length of the output block.
 
 ## -remarks
 

@@ -4,7 +4,7 @@ title: DEVICE_DSM_ROUND_DN macro (ntddstor.h)
 description: The DEVICE_DSM_ROUND_DN macro is a DSM helper routine that rounds a byte quantity down to a given number of whole bytes.
 tech.root: storage
 ms.assetid: 6253058e-3315-4ae9-a2b7-1409cd56b6a5
-ms.date: 07/31/2019
+ms.date: 08/15/2019
 ms.topic: macro
 f1_keywords:
  - "ntddstor/DEVICE_DSM_ROUND_DN"

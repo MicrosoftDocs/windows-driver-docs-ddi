@@ -6,7 +6,7 @@ description: A storage port driver uses the **STORAGE_HW_ENDURANCE_DATA_DESCRIPT
 tech.root: storage
 ms.assetid: 412c3c15-7884-4da0-8951-183b37a2022d
 ms.author: windowsdriverdev
-ms.date: 3/18/2019
+ms.date: 03/18/2019
 ms.topic: struct
 f1_keywords:
  - "ntddstor/STORAGE_HW_ENDURANCE_DATA_DESCRIPTOR"

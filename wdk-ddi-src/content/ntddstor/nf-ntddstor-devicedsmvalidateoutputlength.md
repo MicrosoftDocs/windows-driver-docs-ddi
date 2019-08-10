@@ -3,10 +3,10 @@ UID: NF:ntddstor.DeviceDsmValidateOutputLength
 title: DeviceDsmValidateOutputLength function
 author: windows-driver-content
 description: The DeviceDsmValidateOutputLength function validates the length of an output buffer.
-tech.root: ntddstor
+tech.root: storage
 ms.assetid: 953960c8-dfe1-48d9-9265-08e37a18d0d4
 ms.author: windowsdriverdev
-ms.date: 07/31/19
+ms.date: 08/15/2019
 ms.topic: function
 ms.keywords: DeviceDsmValidateOutputLength
 f1_keywords:
@@ -68,4 +68,4 @@ The output buffer includes the DEVICE_DSM_OUTPUT structure plus its associated o
 
 ## -see-also
 
-[DeviceDsmValidateOutput](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/nf-ntddstor-devicedsmvalidateoutput)
+[**DeviceDsmValidateOutput**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/nf-ntddstor-devicedsmvalidateoutput)
