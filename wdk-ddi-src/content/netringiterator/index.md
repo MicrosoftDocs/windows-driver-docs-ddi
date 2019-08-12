@@ -1,5 +1,6 @@
 ---
 UID: NA:netringiterator
+title: Netringiterator.h header
 ms.assetid: F85F7BC8-43AF-4830-B4E1-4B5236CB4990
 ms.date: 02/01/19
 ms.keywords: 

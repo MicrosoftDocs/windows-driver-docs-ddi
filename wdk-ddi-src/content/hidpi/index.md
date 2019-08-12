@@ -1,5 +1,6 @@
 ---
 UID: NA:hidpi
+title: Hidpi.h header
 ms.assetid: 755e703a-2165-39e7-a3dc-27fc70f42714
 ms.date: 05/09/2018
 ms.keywords: 

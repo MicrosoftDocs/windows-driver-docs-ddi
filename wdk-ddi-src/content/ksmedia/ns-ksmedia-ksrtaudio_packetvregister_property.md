@@ -30,7 +30,7 @@ api_location:
 api_name: 
 - KSRTAUDIO_PACKETVREGISTER_PROPERTY
 product:
--   Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

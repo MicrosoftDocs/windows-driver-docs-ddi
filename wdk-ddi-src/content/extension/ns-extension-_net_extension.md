@@ -25,13 +25,13 @@ req.alt-api:
 req.alt-loc:
 req.typenames: NET_EXTENSION
 topictype: 
--	apiref
+- apiref
 apitype: 
--	HeaderDef
+- HeaderDef
 apilocation: 
--	extension.h
+- extension.h
 apiname: 
--	NET_EXTENSION
+- NET_EXTENSION
 product:
 - Windows
 targetos: Windows

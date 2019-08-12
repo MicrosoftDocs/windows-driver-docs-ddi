@@ -1,5 +1,6 @@
 ---
 UID: TP:spb
+title: Simple Peripheral Bus (SPB)
 ms.assetid: 3a7cfcc1-ab14-3368-8c74-824602179f41
 ms.date: 05/09/2018
 ms.keywords: 

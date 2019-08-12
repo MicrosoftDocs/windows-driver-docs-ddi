@@ -31,9 +31,9 @@ req.type-library:
 topic_type: 
 - apiref
 api_type: 
-- 
+- LibDef
 api_location: 
-- 
+- fltkernel.h
 api_name: 
 - FltTagFileEx
 product: Windows

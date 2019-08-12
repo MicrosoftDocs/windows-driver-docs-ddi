@@ -1,5 +1,6 @@
 ---
 UID: NA:compstui
+title: Compstui.h header
 ms.assetid: b7caed49-be56-3b9d-90b7-dce65c62402e
 ms.date: 05/09/2018
 ms.keywords: 

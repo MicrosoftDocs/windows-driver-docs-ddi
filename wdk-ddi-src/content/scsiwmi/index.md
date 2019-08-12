@@ -1,5 +1,6 @@
 ---
 UID: NA:scsiwmi
+title: Scsiwmi.h header
 ms.assetid: 8125c9c7-4a80-3e65-a139-2e373be8fab5
 ms.date: 05/09/2018
 ms.keywords: 

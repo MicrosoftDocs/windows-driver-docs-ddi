@@ -1,5 +1,6 @@
 ---
 UID: NA:video
+title: Video.h header
 ms.assetid: 674c88a6-47af-3f20-8f7a-e79f72def812
 ms.date: 05/09/2018
 ms.keywords: 

@@ -31,9 +31,9 @@ req.type-library:
 topic_type: 
 - apiref
 api_type: 
-- 
-api_location: 
-- 
+- LibDef
+api_location:
+- storport.h
 api_name: 
 - StorPortMarkDeviceFailed
 product: Windows

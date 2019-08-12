@@ -13,7 +13,7 @@ f1_keywords:
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop
-req.target-min-winverclnt: Available in Microsoft Windows Me and in Windows XP and later versions of the Windows operating systems.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -44,44 +44,26 @@ req.typenames:
 
 # wiasGetRootItem function
 
-
 ## -description
 
-
-The <b>wiasGetRootItem</b> function retrieves the root item context of a specified WIA item.
-
+The **wiasGetRootItem** function retrieves the root item context of a specified WIA item.
 
 ## -parameters
-
-
-
 
 ### -param pWiasContext [in]
 
 Pointer to a WIA item context.
 
-
 ### -param ppWiasContext [out]
 
 Pointer to a memory location that receives the address of the WIA item's root item context.
 
-
 ## -returns
 
+On success, the function returns S_OK.
 
-
-On success, the function returns S_OK. If the function fails, it returns a standard COM error or one of the WIA_ERROR_XXX errors (described in the Microsoft Windows SDK documentation).
-
-
-
+If the function fails, it returns a standard COM error or one of the [WIA error codes](https://docs.microsoft.com/windows/win32/wia/-wia-error-codes).
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiasgetdrvitem">wiasGetDrvItem</a>
- 
-
- 
-
+[wiasGetDrvItem](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiasgetdrvitem)

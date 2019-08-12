@@ -30,13 +30,13 @@ req.alt-api:
 req.alt-loc:
 req.typenames: NetAdapterSetLinkState
 topictype: 
--	apiref
+- apiref
 apitype: 
--	HeaderDef
+- HeaderDef
 apilocation: 
--	netadapter.h
+- netadapter.h
 apiname: 
--	NetAdapterSetLinkState
+- NetAdapterSetLinkState
 product:
 - Windows
 targetos: Windows

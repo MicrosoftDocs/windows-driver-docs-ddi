@@ -1,5 +1,6 @@
 ---
 UID: NA:wdbgexts
+title: Wdbgexts.h header
 ms.assetid: 47d4ebbf-84ee-3898-8135-fa80fd566021
 ms.date: 05/09/2018
 ms.keywords: 

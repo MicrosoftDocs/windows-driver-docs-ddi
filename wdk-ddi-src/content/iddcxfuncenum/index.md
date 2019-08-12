@@ -1,5 +1,6 @@
 ---
 UID: NA:iddcxfuncenum
+title: Iddcxfuncenum.h header
 ms.assetid: 79f9bdc8-59d6-33ee-96c9-a91bb7c935f3
 ms.date: 05/09/2018
 ms.keywords: 

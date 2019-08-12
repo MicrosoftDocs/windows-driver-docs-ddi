@@ -1,5 +1,6 @@
 ---
 UID: NA:udecxtypes
+title: Udecxtypes.h header
 ms.assetid: 1c44abee-6c55-39c9-b9ee-080618a63f48
 ms.date: 05/09/2018
 ms.keywords: 

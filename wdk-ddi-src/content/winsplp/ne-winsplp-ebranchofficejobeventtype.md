@@ -27,7 +27,7 @@ api_location:
 api_name: 
 - EBranchOfficeJobEventType
 product: 
--   Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

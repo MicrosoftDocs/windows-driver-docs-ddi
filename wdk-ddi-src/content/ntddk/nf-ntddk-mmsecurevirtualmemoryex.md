@@ -31,9 +31,9 @@ req.type-library:
 topic_type: 
 - apiref
 api_type: 
-- 
+- DllExport
 api_location: 
-- 
+- ntddk.h
 api_name: 
 - MmSecureVirtualMemoryEx
 product: 

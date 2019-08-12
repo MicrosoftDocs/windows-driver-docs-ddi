@@ -1,5 +1,6 @@
 ---
 UID: NA:wdfobject
+title: Wdfobject.h header
 ms.assetid: 80bf670f-cd65-30cb-b7e7-be5741edc81e
 ms.date: 05/09/2018
 ms.keywords: 

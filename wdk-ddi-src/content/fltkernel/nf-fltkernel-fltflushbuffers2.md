@@ -31,9 +31,9 @@ req.type-library:
 topic_type: 
 - apiref
 api_type: 
-- 
-api_location: 
-- 
+- LibDef
+api_location:
+- fltkernel.h
 api_name: 
 - FltFlushBuffers2
 product: Windows

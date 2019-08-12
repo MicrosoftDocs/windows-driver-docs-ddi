@@ -1,5 +1,6 @@
 ---
 UID: NA:ucxendpoint
+title: Ucxendpoint.h header
 ms.assetid: f85771e9-a9a2-3525-a86f-44c04d24a9a4
 ms.date: 05/09/2018
 ms.keywords: 

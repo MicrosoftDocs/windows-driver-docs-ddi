@@ -1,5 +1,6 @@
 ---
 UID: NA:sercx
+title: Sercx.h header
 ms.assetid: 742ea1bd-45ef-3fce-abc3-5de9640cf02d
 ms.date: 05/09/2018
 ms.keywords: 

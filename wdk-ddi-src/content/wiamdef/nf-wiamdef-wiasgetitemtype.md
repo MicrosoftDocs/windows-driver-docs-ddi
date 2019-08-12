@@ -13,7 +13,7 @@ f1_keywords:
 req.header: wiamdef.h
 req.include-header: Wiamdef.h
 req.target-type: Desktop
-req.target-min-winverclnt: Available in Microsoft Windows Me and in Windows XP and later versions of the Windows operating systems.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -44,40 +44,24 @@ req.typenames:
 
 # wiasGetItemType function
 
-
 ## -description
 
-
-The <b>wiasGetItemType </b>function indicates the item type.
-
+The **wiasGetItemType** function indicates the item type.
 
 ## -parameters
-
-
-
 
 ### -param pWiasContext [in]
 
 Pointer to a WIA item context.
 
-
 ### -param plType
 
+Pointer to a memory location that receives a value indicating the type of the item.
 
-
-
-
-
-#### - plItemType [out]
-
-Pointer to a memory location that receives a value indicating the type of the item. See the Microsoft Windows SDK documentation for a list of the WIA item type flags.
-
+For more information, see [WIA Item Type Flags](https://docs.microsoft.com/windows/win32/wia/-wia-wia-item-type-flags).
 
 ## -returns
 
+On success, the function returns S_OK.
 
-
-On success, the function returns S_OK. If the function fails, it returns a standard COM error or one of the WIA_ERROR_XXX errors (described in the Windows SDK documentation).
-
-
-
+If the function fails, it returns a standard COM error or one of the [WIA error codes](https://docs.microsoft.com/windows/win32/wia/-wia-error-codes).

@@ -1,5 +1,6 @@
 ---
 UID: NA:devpropdef
+title: Devpropdef.h header
 ms.assetid: 903b120a-2f06-30ea-9a39-f6a975c051b3
 ms.date: 05/09/2018
 ms.keywords: 

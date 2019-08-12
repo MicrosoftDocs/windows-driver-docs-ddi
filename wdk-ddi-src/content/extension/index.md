@@ -1,5 +1,6 @@
 ---
 UID: NA:extension
+title: Extension.h header
 ms.assetid: 76464043-DB76-477A-BC91-D0C7EA5FB1D1
 ms.date: 02/06/2019
 ms.keywords: 

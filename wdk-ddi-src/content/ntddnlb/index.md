@@ -1,5 +1,6 @@
 ---
 UID: NA:ntddnlb
+title: Ntddnlb.h header
 ms.assetid: efaa0495-bf58-3eb4-90b5-4223341904ca
 ms.date: 05/09/2018
 ms.keywords: 

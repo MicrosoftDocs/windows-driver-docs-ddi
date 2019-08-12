@@ -31,9 +31,9 @@ req.type-library:
 topic_type: 
 - apiref
 api_type: 
-- 
-api_location: 
-- 
+- DllExport
+api_location:
+- wdm.h
 api_name: 
 - RtlFillMemoryNonTemporal
 product: 

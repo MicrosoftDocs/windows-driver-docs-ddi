@@ -1,5 +1,6 @@
 ---
 UID: NA:treepaymentservice
+title: Treepaymentservice.h header
 ms.assetid: 80d8fc9e-4f8b-394e-95cf-e754b58e720a
 ms.date: 05/09/2018
 ms.keywords: 

@@ -1,5 +1,6 @@
 ---
 UID: NA:ucxusbdevice
+title: Ucxusbdevice.h header
 ms.assetid: 2cf71389-08f1-3c73-b478-7efa6045e05e
 ms.date: 05/09/2018
 ms.keywords: USB host controller driver
@@ -24,5 +25,4 @@ This header is used to write a USB host controller driver. The USB host controll
 For more information, see:
 
 - [Developing Windows drivers for USB host controllers](https://docs.microsoft.com/windows-hardware/drivers/usbcon/developing-windows-drivers-for-usb-host-controllers)
-- 
 - [Universal Serial Bus (USB)](../_usbref/index.md)

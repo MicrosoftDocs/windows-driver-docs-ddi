@@ -1,5 +1,6 @@
 ---
 UID: NA:udecxfuncenum
+title: Udecxfuncenum.h header
 ms.assetid: ecc4e479-bc66-374a-8758-2aec82dc4a7b
 ms.date: 05/09/2018
 ms.keywords: 

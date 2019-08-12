@@ -1,5 +1,6 @@
 ---
 UID: TP:gpio
+title: General-Purpose I/O (GPIO)
 ms.assetid: 808f4f69-8260-3b04-a82f-08c14310daa7
 ms.date: 05/09/2018
 ms.keywords: 

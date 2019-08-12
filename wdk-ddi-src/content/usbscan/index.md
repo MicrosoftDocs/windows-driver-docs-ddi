@@ -1,5 +1,6 @@
 ---
 UID: NA:usbscan
+title: Usbscan.h header
 ms.assetid: 31ca997d-12f9-393e-bfce-cdcf84179963
 ms.date: 05/09/2018
 ms.keywords: 

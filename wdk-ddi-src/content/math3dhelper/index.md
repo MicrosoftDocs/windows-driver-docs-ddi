@@ -1,5 +1,6 @@
 ---
 UID: NA:math3dhelper
+title: Math3dhelper.h header
 ms.assetid: 7becfbc9-ce8a-436a-95fa-b67bf84583d3
 ms.date: 07/30/2018
 ms.keywords:

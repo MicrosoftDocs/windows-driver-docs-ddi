@@ -30,8 +30,8 @@ topic_type:
 api_type: 
 - DllExport
 api_location: 
--   FltMgr.lib
--   FltMgr.sys
+- FltMgr.lib
+- FltMgr.sys
 api_name: 
 - FltAcquirePushLockSharedEx
 product:

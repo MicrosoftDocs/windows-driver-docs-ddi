@@ -1,5 +1,6 @@
 ---
 UID: NA:udecxusbdevice
+title: Udecxusbdevice.h header
 ms.assetid: bdf4ca1b-17bf-3c92-8ed6-296d65ebf2cc
 ms.date: 05/09/2018
 ms.keywords: 

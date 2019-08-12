@@ -34,7 +34,7 @@ api_location:
 api_name: 
 - CTL_CODE
 product:
--   Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---

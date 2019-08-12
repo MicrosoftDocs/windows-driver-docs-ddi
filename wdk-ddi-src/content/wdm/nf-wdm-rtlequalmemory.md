@@ -36,7 +36,7 @@ api_location:
 - Wdm.h
 api_name:
 - RtlEqualMemory
--   memcmp
+- memcmp
 product:
 - Windows
 targetos: Windows

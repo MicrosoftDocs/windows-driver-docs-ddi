@@ -1,5 +1,6 @@
 ---
 UID: NA:wdfcompaniontarget
+title: Wdfcompaniontarget.h header
 ms.assetid: 1b9244b9-b343-3a04-bd61-91ac23ea3ef8
 ms.date: 05/09/2018
 ms.keywords: 

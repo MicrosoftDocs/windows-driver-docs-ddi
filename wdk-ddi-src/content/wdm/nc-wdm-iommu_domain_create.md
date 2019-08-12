@@ -69,7 +69,7 @@ IOMMU_DOMAIN_CREATE *PIOMMU_DOMAIN_CREATE
 ### -param OsManagedPageTable
 [_In_] A boolean value that indicates whether the page table is managed by the caller or by the HAL. 
 
--    TRUE, indicates the HAL owns the page table. 
+- TRUE, indicates the HAL owns the page table. 
         - Map/Unmap are available.      
         - Configure/Flush are unavailable.
 

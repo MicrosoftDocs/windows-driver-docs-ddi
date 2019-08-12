@@ -1,5 +1,6 @@
 ---
 UID: NA:nodetype
+title: Nodetype.h header
 ms.assetid: 705fa667-d2fd-30e5-8d41-81c11cb442fb
 ms.date: 05/09/2018
 ms.keywords: 

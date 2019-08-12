@@ -27,13 +27,13 @@ req.namespace:
 req.assembly:
 req.type-library: 
 topictype: 
--	apiref
+- apiref
 apitype: 
--	DllExport
+- DllExport
 apilocation: 
--	NtosKrnl.exe
+- NtosKrnl.exe
 apiname: 
--	NetRxQueueGetRingCollection
+- NetRxQueueGetRingCollection
 product:
 - Windows
 targetos: Windows

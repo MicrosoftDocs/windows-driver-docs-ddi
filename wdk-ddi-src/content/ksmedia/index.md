@@ -1,5 +1,6 @@
 ---
 UID: NA:ksmedia
+title: Ksmedia.h header
 ms.assetid: 8877c4ae-aa0c-3131-b21b-33fa24797743
 ms.date: 08/09/2018
 ms.keywords: 

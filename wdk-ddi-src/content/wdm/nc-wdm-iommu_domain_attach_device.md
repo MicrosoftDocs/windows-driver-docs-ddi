@@ -90,8 +90,8 @@ Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriat
 It is driver's responsibility to ensure that this function is not called concurrently with IOMMU_DOMAIN_DETACH_DEVICE or IOMMU_SET_DEVICE_FAULT_REPORTING calls on the same device.
 
 _InputMappingIdBase_ and _MappingCount_ are intended only to accommodate ACPI-enumerated devices that support multiple stream IDs on ARM64. For any other device or architecture, these values must be:
--    InputMappingIdBase = 0
--    MappingCount = 1
+- InputMappingIdBase = 0
+- MappingCount = 1
 
 
 ## -see-also

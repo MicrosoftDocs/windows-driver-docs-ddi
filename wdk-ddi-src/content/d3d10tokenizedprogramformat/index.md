@@ -1,5 +1,6 @@
 ---
 UID: NA:d3d10tokenizedprogramformat
+title: D3D10Tokenizedprogramformat.h header
 ms.assetid: 1fcec4a7-e202-3a55-9ec6-d5bb95f68bad
 ms.date: 05/09/2018
 ms.keywords: 

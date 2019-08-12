@@ -29,13 +29,13 @@ req.type-library:
 req.alt-api:
 req.alt-loc:
 topictype: 
--	apiref
+- apiref
 apitype: 
--	HeaderDef
+- HeaderDef
 apilocation: 
--	ring.h
+- ring.h
 apiname: 
--	NetRingGetElementAtIndex
+- NetRingGetElementAtIndex
 product:
 - Windows
 targetos: Windows

@@ -1,5 +1,6 @@
 ---
 UID: NA:ptpusd
+title: Ptpusd.h header
 ms.assetid: cc9e1f1e-798a-329b-b235-9673f8a25153
 ms.date: 05/09/2018
 ms.keywords: 

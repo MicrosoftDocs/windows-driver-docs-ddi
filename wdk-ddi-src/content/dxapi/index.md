@@ -1,5 +1,6 @@
 ---
 UID: NA:dxapi
+title: Dxapi.h header
 ms.assetid: e45b4941-1567-3e35-b90e-c4b63e233061
 ms.date: 05/09/2018
 ms.keywords: 

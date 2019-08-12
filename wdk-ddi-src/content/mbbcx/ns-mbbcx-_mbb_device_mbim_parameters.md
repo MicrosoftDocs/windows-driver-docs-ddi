@@ -23,13 +23,13 @@ req.unicode-ansi:
 req.max-support:
 req.typenames: MBB_DEVICE_MBIM_PARAMETERS, *PMBB_DEVICE_MBIM_PARAMETERS
 topic_type: 
--	apiref
+- apiref
 api_type: 
--	HeaderDef
+- HeaderDef
 api_location: 
--	mbbcx.h
+- mbbcx.h
 api_name: 
--	_MBB_DEVICE_MBIM_PARAMETERS
+- _MBB_DEVICE_MBIM_PARAMETERS
 product:
 - Windows
 targetos: Windows

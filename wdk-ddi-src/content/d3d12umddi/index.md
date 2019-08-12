@@ -1,5 +1,6 @@
 ---
 UID: NA:d3d12umddi
+title: D3D12Umddi.h header
 ms.assetid: f0332247-492e-3990-bccc-5ec7fc2fd910
 ms.date: 05/09/2018
 ms.keywords:

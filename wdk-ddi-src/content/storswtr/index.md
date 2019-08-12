@@ -1,5 +1,6 @@
 ---
 UID: NA:storswtr
+title: Storswtr.h header
 ms.assetid: 48008552-eb82-3789-8919-79889255f48c
 ms.date: 05/09/2018
 ms.keywords: 

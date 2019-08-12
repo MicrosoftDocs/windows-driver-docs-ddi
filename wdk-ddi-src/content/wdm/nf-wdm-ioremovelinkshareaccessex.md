@@ -31,8 +31,8 @@ req.type-library:
 topic_type: 
 - apiref
 api_type: 
-- 
-api_location: 
+- DllExport
+api_location:
 - NtosKrnl.exe
 api_name: 
 - IoRemoveLinkShareAccessEx

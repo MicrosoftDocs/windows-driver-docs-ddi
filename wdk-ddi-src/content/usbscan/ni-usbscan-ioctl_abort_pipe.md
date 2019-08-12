@@ -28,7 +28,7 @@ api_location:
 api_name: 
 - IOCTL_ABORT_PIPE
 product: 
--   Windows
+- Windows
 targetos: Windows
 ms.custom: RS5
 ---
