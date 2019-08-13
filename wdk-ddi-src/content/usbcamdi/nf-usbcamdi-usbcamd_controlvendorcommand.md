@@ -26,7 +26,7 @@ req.assembly:
 req.type-library: 
 req.lib: Usbcamd2.lib
 req.dll: 
-req.irql: >= PASSIVE_LEVEL (See Remarks section)
+req.irql: Greater than or equal to PASSIVE_LEVEL (See Remarks section)
 topic_type:
 - APIRef
 - kbSyntax
