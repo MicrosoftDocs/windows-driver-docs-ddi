@@ -225,4 +225,4 @@ The following paired operations can cause the file name *name* to be tunneled:
 
 [PFLT_POST_OPERATION_CALLBACK](nc-fltkernel-pflt_post_operation_callback.md)
 
-[PFLT_PRE_OPERATION_CALLBACK](nc-fltkernel-pflt_pre_operation_callback)
+[PFLT_PRE_OPERATION_CALLBACK](nc-fltkernel-pflt_pre_operation_callback.md)

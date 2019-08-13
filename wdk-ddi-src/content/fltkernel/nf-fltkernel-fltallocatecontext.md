@@ -127,7 +127,7 @@ The minifilter driver that is specified in the <i>Filter</i> parameter is being 
 </dl>
 </td>
 <td width="60%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltallocatecontext">FltAllocateContext</a> encountered a pool allocation failure. This is an error code.
+<b>FltAllocateContext</b> encountered a pool allocation failure. This is an error code.
 </td>
 </tr>
 
@@ -197,7 +197,7 @@ To get the context for an object, call [FltGetContexts](nf-fltkernel-fltgetconte
 | FLT_TRANSACTION_CONTEXT | [FltGetTransactionContext](nf-fltkernel-fltgettransactioncontext.md) (starting with Windows Vista ) |
 | FLT_VOLUME_CONTEXT | [FltGetVolumeContext](nf-fltkernel-fltgetvolumecontext.md) |
 
-Contexts are reference-counted, and on a successful return from **FltAllocateContext**, the context pointed to by *ReturnedContext* has a reference count of 1. A context is freed automatically when its reference count reaches zero. To increment the reference count on a context, call [FltReferenceContext](nf-fltkernel-fltreferencecontext).
+Contexts are reference-counted, and on a successful return from **FltAllocateContext**, the context pointed to by *ReturnedContext* has a reference count of 1. A context is freed automatically when its reference count reaches zero. To increment the reference count on a context, call [FltReferenceContext](nf-fltkernel-fltreferencecontext.md).
 
 To decrement the reference count on a context, call [FltReleaseContext](nf-fltkernel-fltreleasecontext.md).
 
