@@ -31,7 +31,7 @@ req.type-library:
 topic_type: 
  - apiref
 api_type: 
- - 
+ - HeaderDef
 api_location: 
 - iddcx.h
 api_name: 
@@ -45,24 +45,28 @@ ms.custom: 19H1
 
 # IddCxAdapterSetRenderAdapter function
 
-
 ## -description
 
-TBD
+An OS callback function that a driver can call to set the preferred render adapter used to render the swapchains for the specified adapter.
 
 ## -parameters
 
 ### -param AdapterObject
 
-TBD
+Adapter object of the adapter for which the rendering adapter preference is being set.
 
 ### -param pInArgs
 
-TBD
-
+Input arguments for the function.
 
 ## -returns
+
 This function returns VOID.
+
 ## -remarks
 
+The driver can call **IddCxAdapterSetRenderAdapter** at anytime to change the preferred render adapter. The driver can use Dxgi enumeration to find the required render adapter LUID.  When this callback is called, the OS will attempt to re-create any existing swapchains onto the specified render adapter, and hence the user may see some visual glitches/artifacts. It is recommended that, if possible, the driver makes this call before adding any monitors.
+
 ## -see-also
+
+[IDARG_IN_ADAPTERSETRENDERADAPTER](ns-iddcx-idarg_in_adaptersetrenderadapter.md)
