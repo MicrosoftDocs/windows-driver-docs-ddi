@@ -186,7 +186,7 @@ The address of the event object that was initialized in the call to the <a href=
 <tr>
 <td><b>UserIosb</b></td>
 <td>
-The address of a caller-allocated <a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure. This structure is updated by the lower driver to indicate the final status of the I/O request.
+The address of a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure. This structure is updated by the lower driver to indicate the final status of the I/O request.
 
 </td>
 </tr>
@@ -274,7 +274,7 @@ The address of the <a href="..\wdm\ns-wdm-_irp.md">IRP</a> that was previously a
  
 
 <h3><a id="ioctl_request_completion_results"></a><a id="IOCTL_REQUEST_COMPLETION_RESULTS"></a>IOCTL Request Completion Results</h3>
-      When the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vpci/ni-vpci-ioctl_vpci_read_block">IOCTL_VPCI_READ_BLOCK</a> IOCTL request is completed, the <b>Status</b> member of the caller-allocated <a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure is set to one of the values in the following table.
+      When the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vpci/ni-vpci-ioctl_vpci_read_block">IOCTL_VPCI_READ_BLOCK</a> IOCTL request is completed, the <b>Status</b> member of the caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure is set to one of the values in the following table.
 
 <table>
 <tr>
@@ -317,7 +317,7 @@ Either the <b>Parameters.DeviceIoControl.InputBufferLength</b> member or the <b>
  
 
 If the request completed successfully, the
-      <b>Information</b> member of the <a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure is set to the number of bytes that were read. Otherwise, the
+      <b>Information</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a> structure is set to the number of bytes that were read. Otherwise, the
       <b>Information</b> member is set to zero.
 
 When the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vpci/ni-vpci-ioctl_vpci_read_block">IOCTL_VPCI_READ_BLOCK</a> IOCTL is issued, the driver of the PCIe physical function (PF) is notified to return the data from the specified VF configuration block.
@@ -349,7 +349,7 @@ The  usage of the VF configuration block and the format of its configuration dat
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_io_status_block">IO_STATUS_BLOCK</a>
 
 
 

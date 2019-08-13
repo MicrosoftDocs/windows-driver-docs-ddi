@@ -106,7 +106,7 @@ Zero based number to indicate the number of times the same frame has been encode
 ### -field FrameProcessingStepsCount
 
 
-                     The size of the frame step array pointed to by pFrameParts
+                     The size of the frame step array pointed to by pFrameProcessingStep
                  
 
 
