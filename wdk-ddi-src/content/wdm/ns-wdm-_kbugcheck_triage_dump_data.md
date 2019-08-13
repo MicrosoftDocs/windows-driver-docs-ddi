@@ -27,12 +27,12 @@ req.max-support:
 req.typenames: KBUGCHECK_TRIAGE_DUMP_DATA, *PKBUGCHECK_TRIAGE_DUMP_DATA
 topictype: 
 - apiref
-apitype: 
+api_type: 
 - HeaderDef
-apilocation: 
+api_location: 
 - wdm.h
 apiname: 
--_KBUGCHECK_TRIAGE_DUMP_DATA
+- _KBUGCHECK_TRIAGE_DUMP_DATA
 product: 
 - Windows
 targetos: Windows
