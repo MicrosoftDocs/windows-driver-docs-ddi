@@ -26,7 +26,7 @@ req.assembly:
 req.type-library: 
 req.lib: Stream.lib
 req.dll: 
-req.irql: > DISPATCH_LEVEL
+req.irql: Greater than DISPATCH_LEVEL
 topic_type:
 - APIRef
 - kbSyntax
