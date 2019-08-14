@@ -29,7 +29,8 @@ api_location:
  - storport.h
 api_name: 
  - STORPORT_QUERY_CONFIGURATION_TYPE
-product: Windows
+product:
+ - Windows
 targetos: Windows
 ms.custom: 19H1
 ---
