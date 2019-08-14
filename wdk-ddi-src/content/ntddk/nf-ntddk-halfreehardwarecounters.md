@@ -32,7 +32,7 @@ topic_type:
 - kbSyntax
 api_type:
 - DllExport
-api_location
+api_location:
 - Hal.dll
 api_name:
 - HalFreeHardwareCounters
