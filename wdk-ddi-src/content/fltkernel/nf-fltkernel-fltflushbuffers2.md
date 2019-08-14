@@ -36,7 +36,8 @@ api_location:
 - fltkernel.h
 api_name: 
 - FltFlushBuffers2
-product: Windows
+product:
+ - Windows
 targetos: Windows
 dev_langs:
 - c++

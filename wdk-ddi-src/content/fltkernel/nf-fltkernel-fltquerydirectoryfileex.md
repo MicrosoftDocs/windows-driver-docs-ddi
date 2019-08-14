@@ -36,7 +36,8 @@ api_location:
 - fltkernel.h
 api_name: 
 - FltQueryDirectoryFileEx
-product: Windows
+product:
+ - Windows
 targetos: Windows
 
 ---
