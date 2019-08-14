@@ -52,6 +52,9 @@ req.typenames:
 
 The <b>WdfDeviceAssignInterfaceProperty</b> method modifies the current value of a <a href="https://docs.microsoft.com/previous-versions/ff541409(v=vs.85)">device interface property</a>.
 
+> [!NOTE]
+> To retrieve or modify a device interface property, a KMDF driver must call [**IoGetDeviceInterfacePropertyData**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iogetdeviceinterfacepropertydata) or [**IoSetDeviceInterfacePropertyData**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iosetdeviceinterfacepropertydata) directly.
+> 
 
 ## -parameters
 
