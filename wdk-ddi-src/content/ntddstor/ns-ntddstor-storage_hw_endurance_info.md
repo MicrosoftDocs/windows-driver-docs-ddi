@@ -32,7 +32,8 @@ api_location:
  - ntddstor.h
 api_name: 
  - STORAGE_HW_ENDURANCE_INFO
-product: Windows
+product:
+ - Windows
 targetos: Windows
 ms.custom: 19H1
 ---
@@ -49,31 +50,12 @@ A storage port driver uses the STORAGE_HW_ENDURANCE_INFO structure to report a d
 
 Bitmask that indicates which of the remaining members contain valid data. Can be any of the combination of the following bits:
 
-<table>
-<tr>
-<th>Bit</th><th>Meaning</th>
-</tr>
-
-<tr>
-<td>0</td>
-<td>The <i>GroupId</i> member contains valid data.</td>
-
-<tr>
-<td>1</td>
-<td>The <i>Flags</i> member contains valid data.</td>
-
-<tr>
-<td>2</td>
-<td>The <i>LifePercentage</i> member contains valid data.</td>
-
-<tr>
-<td>3</td>
-<td>The <i>BytesReadCount</i> member contains valid data.</td>
-
-<tr>
-<td>4</td>
-<td>The <i>ByteWriteCount</i> member contains valid data.</td>
-</table>
+| Bit | Meaning |
+| 0 | The *GroupId* member contains valid data. |
+| 1 | The *Flags* member contains valid data. |
+| 2 | The *LifePercentage* member contains valid data. |
+| 3 | The *BytesReadCount* member contains valid data. |
+| 4 | Th  *ByteWriteCount* member contains valid data. |
 
 ### -field GroupId
 
@@ -111,6 +93,4 @@ This structure is a member of [STORAGE_HW_ENDURANCE_DATA_DESCRIPTOR](ns-ntddstor
 
 [IOCTL_SCSI_MINIPORT](../ntddscsi/ni-ntddscsi-ioctl_scsi_miniport.md)
 
-[STORAGE_HW_ENDURANCE_DATA_DESCRIPTOR](ns-ntddstor-storage_hw_endurance_data_descriptor)
-
-[STORAGE_ENDURANCE_INFO](../ntddscsi/ns-ntddscsi-storage_hw_endurance_info.md)
+[STORAGE_HW_ENDURANCE_DATA_DESCRIPTOR](ns-ntddstor-storage_hw_endurance_data_descriptor.md)
