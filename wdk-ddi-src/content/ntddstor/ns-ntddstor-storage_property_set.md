@@ -32,7 +32,8 @@ api_location:
  - ntddstor.h
 api_name: 
  - STORAGE_PROPERTY_SET
-product: Windows
+product:
+ - Windows
 targetos: Windows
 ms.custom: 19H1
 ---

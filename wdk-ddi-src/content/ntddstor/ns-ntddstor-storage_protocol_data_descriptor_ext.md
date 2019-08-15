@@ -66,6 +66,4 @@ Size, in bytes, of the buffer containing the descriptor, including the space for
 
 [IOCTL_STORAGE_SET_PROPERTY](ni-ntddstor-ioctl_storage_set_property.md)
 
-[STORAGE_PROTOCOL_DATA_DESCRIPTOR](ns-ntddstor-_storage_data_descriptor.md)
-
 [STORAGE_PROTOCOL_SPECIFIC_DATA_EXT](ns-ntddstor-storage_protocol_specific_data_ext.md)

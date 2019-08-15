@@ -36,7 +36,8 @@ api_location:
 - storport.h
 api_name: 
 - StorPortLogTelemetryEx
-product: Windows
+product:
+ - Windows
 targetos: Windows
 
 ms.custom: 19H1
@@ -70,57 +71,12 @@ Pointer to the [STORPORT_TELEMETRY_EVENT](ns-storport-_storport_telemetry_event.
 
 **StorPortLogTelemetryEx** returns one of the following status codes:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STOR_STATUS_INVALID_BUFFER_SIZE</b></dt>
-</dl>
-</td>
-<td width="60%">
-<b>Event->EventBufferLength</b> is larger than <b>EVENT_BUFFER_MAX_LENGTH</b>.
-</td>
-</tr>
-
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STOR_STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-A pointer to one of the parameters is NULL or the EventBufferLength is set to zero for a non-NULL <b>Event->EventBuffer</b>.
-</td>
-</tr>
-
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STOR_STATUS_NOT_IMPLEMENTED</b></dt>
-</dl>
-</td>
-<td width="60%">
-This function is not implemented on the active operating system.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STOR_STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The telemetry event was successfully logged.
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+| ----------- | ----------- |
+| STOR_STATUS_INVALID_BUFFER_SIZE | **Event->EventBufferLength** is larger than EVENT_BUFFER_MAX_LENGTH. |
+| STOR_STATUS_INVALID_PARAMETER | A pointer to one of the parameters is NULL or the EventBufferLength is set to zero for a non-NULL **Event->EventBuffer**. |
+| STOR_STATUS_NOT_IMPLEMENTED | This function is not implemented on the active operating system. |
+| STOR_STATUS_SUCCESS | The telemetry event was successfully logged. |
 
 ## -remarks
 
@@ -134,4 +90,4 @@ The event data is encapsulated in the [STORPORT_TELEMETRY_EVENT](ns-storport-_st
 
 [STORPORT_TELEMETRY_EVENT](ns-storport-_storport_telemetry_event.md)
 
-[StorPortLogTelemetry](nf-storport-storportlogtelemetry.md)
+[**StorPortLogTelemetry**](nf-storport-storportlogtelemetry.md)
