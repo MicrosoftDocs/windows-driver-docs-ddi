@@ -31,7 +31,7 @@ req.type-library:
 topic_type: 
  - apiref
 api_type: 
- - 
+ - HeaderDef
 api_location: 
 - fltkernel.h
 api_name: 
@@ -45,7 +45,6 @@ ms.custom: 19H1
 ---
 
 # FltRetrieveFileInfoOnCreateCompletionEx function
-
 
 ## -description
 
@@ -63,7 +62,13 @@ Pointer to the [FLT_CALLBACK_DATA](ns-fltkernel-_flt_callback_data.md) callback 
 
 ### -param InfoClass
 
-Flag that indicates the type of information to return. Note that flags cannot be combined. ???ARE THERE ANY PUBLIC FLAGS TO DOCUMENT????
+Flag that indicates the type of information to return. Note that flags cannot be combined. Can be one of the following values:
+
+| Flag | Meaning |
+| ---- | ------- |
+| **QoCFileStatInformation** (0x00000001) | The file system will return file stat information in a QUERY_ON_CREATE_FILE_STAT_INFORMATION structure. |
+| **QoCFileLxInformation** (0x00000002) | The file system will return extended Linux-like information in a QUERY_ON_CREATE_FILE_LX_INFORMATION structure. |
+| **QoCFileEaInformation** (0x00000004) | The file system will return extended attributes (EA) in a QUERY_ON_CREATE_EA_INFORMATION structure. |
 
 ### -param Size
 
@@ -74,60 +79,17 @@ Pointer to a ULONG that receives the size of the file information buffer.
 Receives a pointer to a buffer with the requested file information. If the file system is able to process the request but can't find the requested file information, this parameter is set to NULL.
 
 ## -returns
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
 
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The file system successfully returned the requested file information.
-</td>
-</tr>
-
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NOT_FOUND</b></dt>
-</dl>
-</td>
-<td width="60%">
-The file system processed the request, but the requested information was not present on the file, or the file system does not recognize the information request in <i>InfoClass</i> ???SHOULD CODE BE AMENDED TO RETURN STATUS_NOT_SUPPORTED FOR THIS LATTER CASE???. The caller should not use traditional file system APIs????????? to request the information. 
-</td>
-</tr>
-
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NOT_SUPPORTED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The file system was unable to retrieve the requested information. This error occurs when the file system doesn't support the information request or  associated ECP, or because [FltRequestFileInfoOnCreateCompletion](nf-fltkernel-_fltrequestfileinfooncreatecompletion.md) wasn't called during file pre-creation. The caller should instead use traditional file system APIs to retry requesting the information. 
-</td>
-</tr>
-
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_UNSUCCESSFUL</b></dt>
-</dl>
-</td>
-<td width="60%">
-The file system received an error while trying to retrieve the requested information. The caller can try requesting the information by way of normal file system APIs ???WHICH ONES???, but that will likely fail. 
-</td>
-</tr>
-
-</table>
+| Return code | Description |
+| ----------- | ----------- |
+| **STATUS_SUCCESS** | The file system successfully returned the requested file information. |
+| **STATUS_NOT_FOUND** | The file system processed the request, but the requested information was not present on the file, or the file system does not recognize the information request in *InfoClass*. The caller should not use traditional file system APIs to request the information. |
+| **STATUS_NOT_SUPPORTED** | The file system was unable to retrieve the requested information. This error occurs when the file system doesn't support the information request or associated ECP, or because [FltRequestFileInfoOnCreateCompletion](nf-fltkernel-_fltrequestfileinfooncreatecompletion.md) wasn't called during file pre-creation. The caller should instead use traditional file system APIs to retry requesting the information. |
+| **STATUS_UNSUCCESSFUL** | The file system received an error while trying to retrieve the requested information. The caller can try requesting the information by way of normal file system APIs ???WHICH ONES???, but that will likely fail. |
 
 ## -remarks
-A minifilter must call <b>FltRequestFileInfoOnCreateCompletionEx</b> during file pre-creation to specify which file information the file system should track.
+
+A minifilter must call **FltRequestFileInfoOnCreateCompletionEx** during file pre-creation to specify which file information the file system should track.
 
 ## -see-also
 
@@ -135,4 +97,4 @@ A minifilter must call <b>FltRequestFileInfoOnCreateCompletionEx</b> during file
 
 [FLT_CALLBACK_DATA](ns-fltkernel-_flt_callback_data.md)
 
-[FltRequestFileInfoOnCreateCompletion](nf-fltkernel-_fltrequestfileinfooncreatecompletion.md)
+[**FltRequestFileInfoOnCreateCompletion**](nf-fltkernel-fltrequestfileinfooncreatecompletion.md)

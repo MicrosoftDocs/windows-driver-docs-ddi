@@ -30,7 +30,8 @@ api_location:
  - ntddscsi.h
 api_name: 
  - IOCTL_MINIPORT_SIGNATURE_ENDURANCE_INFO
-product: Windows
+product:
+ - Windows
 targetos: Windows
 ms.custom: 19H1
 ---

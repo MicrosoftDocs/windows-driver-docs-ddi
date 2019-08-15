@@ -31,7 +31,7 @@ req.type-library:
 topic_type: 
  - apiref
 api_type: 
- - 
+ - HeaderDef
 api_location: 
 - fltkernel.h
 api_name: 
@@ -62,104 +62,30 @@ Pointer to the [FLT_CALLBACK_DATA](ns-fltkernel-_flt_callback_data.md) callback 
 
 Flag bitmask indicating the type of file information that the file system should store for retrieval during post create. Can be any combination of the following flags:
 
-<table>
-<tr>
-<th>Flag</th>
-<th>Meaning</th>
-</tr>
-
-<tr>
-<td width="40%">
-<dl>
-<dt><b>QoCFileStatInformation</b></dt>
-0x00000001
-</dl>
-</td>
-
-<td width="60%">
-If set, the file system will store file stat information in a QUERY_ON_CREATE_FILE_STAT_INFORMATION structure for retrieval.
-</td>
-</tr>
-
-<tr>
-<td width="40%">
-<dl>
-<dt><b>QoCFileLxInformation</b></dt>
-0x00000002
-</dl>
-</td>
-<td width="60%">
-If set, the file system will store extended Linux-like information in a QUERY_ON_CREATE_FILE_LX_INFORMATION structure for retrieval.
-</td>
-</tr>
-
-<tr>
-<td width="40%">
-<dl>
-<dt><b>QoCFileEaInformation</b></dt>
-0x00000004
-</dl>
-</td>
-<td width="60%">
-If set, the file system will store extended attributes (EA) in a QUERY_ON_CREATE_EA_INFORMATION structure for retrieval.
-</td>
-</tr>
-
-</table>
+| Flag | Meaning |
+| ---- | ------- |
+| **QoCFileStatInformation** (0x00000001) | If set, the file system will store file stat information in a QUERY_ON_CREATE_FILE_STAT_INFORMATION structure for retrieval. |
+| **QoCFileLxInformation** (0x00000002) | If set, the file system will store extended Linux-like information in a QUERY_ON_CREATE_FILE_LX_INFORMATION structure for retrieval. |
+| **QoCFileEaInformation** (0x00000004) | If set, the file system will store extended attributes (EA) in a QUERY_ON_CREATE_EA_INFORMATION structure for retrieval. |
 
 ## -returns
 
-<b>FltRequestFileInfoOnCreateCompletion</b> can return one of the following values:
+**FltRequestFileInfoOnCreateCompletion** can return one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The file system successfully stored the requested file information.
-</td>
-</tr>
-
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>
-</td>
-<td width="60%">
-<b>FltRequestFileInfoOnCreateCompletion</b> was unable to allocate sufficient memory in which to store the requested file information.
-</td>
-</tr>
-
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER_2</b></dt>
-</dl>
-</td>
-<td width="60%">
-The provided callback data object was not an IRP-based create operation.
-</td>
-</tr>
-
-</table>
+| Return code | Description |
+| ----------- | ----------- |
+| **STATUS_SUCCESS** | The file system successfully stored the requested file information. |
+| **STATUS_INSUFFICIENT_RESOURCES** | **FltRequestFileInfoOnCreateCompletion** was unable to allocate sufficient memory in which to store the requested file information. |
+| **STATUS_INVALID_PARAMETER_2** | The provided callback data object was not an IRP-based create operation. |
 
 ## -remarks
 
-The minifilter can retrieve the file information by calling [FltRetrieveFileInfoOnCreateCompletionEx](nf-fltkernel-fltretrieveFileInfoOnCreateCompletionEx) or [FltRetrieveFileInfoOnCreateCompletion](nf-fltkernel-fltretrieveFileInfoOnCreateCompletion) during post create. A minifilter's performance is typically better when it requests and retrieves file information in this manner, rather than querying file information at a later time.
+The minifilter can retrieve the file information by calling [**FltRetrieveFileInfoOnCreateCompletionEx**](nf-fltkernel-fltretrievefileinfooncreatecompletionex.md) or [**FltRetrieveFileInfoOnCreateCompletion**](nf-fltkernel-fltretrievefileinfooncreateconpletion.md) during post create. A minifilter's performance is typically better when it requests and retrieves file information in this manner, rather than querying file information at a later time.
 
 ## -see-also
 
 [FLT_CALLBACK_DATA](ns-fltkernel-_flt_callback_data.md)
 
-[FltRetrieveFileInfoOnCreateCompletion](nf-fltkernel-_fltretrievefileinfooncreatecompletion.md)
+[**FltRetrieveFileInfoOnCreateCompletion**](nf-fltkernel-fltretrievefileinfooncreatecompletion.md)
 
-[FltRetrieveFileInfoOnCreateCompletionEx](nf-fltkernel-fltretrieveFileInfoOnCreateCompletionEx)
+[**FltRetrieveFileInfoOnCreateCompletionEx**](nf-fltkernel-fltretrievefileinfooncreateconpletionex.md)
