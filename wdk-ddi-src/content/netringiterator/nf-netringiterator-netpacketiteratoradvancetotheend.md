@@ -36,7 +36,8 @@ api_location:
 - netringiterator.h
 api_name: 
 - NetPacketIteratorAdvanceToTheEnd
-product: Windows
+product:
+- Windows
 targetos: Windows
 
 ---

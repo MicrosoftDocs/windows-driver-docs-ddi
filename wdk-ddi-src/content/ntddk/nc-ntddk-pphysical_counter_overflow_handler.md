@@ -35,7 +35,8 @@ api_location:
  - ntddk.h
 api_name:
  - PPHYSICAL_COUNTER_OVERFLOW_HANDLER
-product: Windows
+product:
+- Windows
 targetos: Windows
 ms.custom: 19H1
 ---
