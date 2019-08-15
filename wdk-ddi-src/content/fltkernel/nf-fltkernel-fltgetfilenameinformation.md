@@ -256,7 +256,7 @@ The following paired operations can cause the file name *name* to be tunneled:
 
 [FLT_FILE_NAME_OPTIONS](https://docs.microsoft.com/windows-hardware/drivers/ifs/flt-file-name-options)
 
-[FltGetDestinationFileNameInformation](f-fltkernel-fltgetdestinationfilenameinformation.md)
+[FltGetDestinationFileNameInformation](nf-fltkernel-fltgetdestinationfilenameinformation.md)
 
 [FltGetFileNameInformationUnsafe](nf-fltkernel-fltgetfilenameinformationunsafe.md)
 

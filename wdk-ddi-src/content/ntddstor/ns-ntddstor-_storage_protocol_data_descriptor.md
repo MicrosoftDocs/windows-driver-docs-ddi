@@ -45,114 +45,58 @@ ms.custom: 19H1
 
 # _STORAGE_PROTOCOL_DATA_DESCRIPTOR structure
 
-
 ## -description
-
 
 This structure is used in conjunction with [IOCTL_STORAGE_SET_PROPERTY](ni-ntddstor-ioctl_storage_set_property.md) and [IOCTL_STORAGE_QUERY_PROPERTY](ni-ntddstor-ioctl_storage_query_property.md) to respectively set or query protocol-specific data from a storage device or adapter.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Version
 
-Version of this structure. Set to **sizeof**(**STORAGE_PROTOCOL_DATA_DESCRIPTOR**).
-
+Version of this structure. Set to **sizeof**(STORAGE_PROTOCOL_DATA_DESCRIPTOR).
 
 ### -field Size
 
-Total size in bytes of the descriptor, including the space for all protocol data. Must be => **sizeof**(**STORAGE_PROTOCOL_DATA_DESCRIPTOR**).
-
+Total size in bytes of the descriptor, including the space for all protocol data. Must be => **sizeof**(STORAGE_PROTOCOL_DATA_DESCRIPTOR).
 
 ### -field ProtocolSpecificData
 
-The protocol-specific data, of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor-_storage_protocol_specific_data">STORAGE_PROTOCOL_SPECIFIC_DATA</a>.
-
+The protocol-specific data, of type [STORAGE_PROTOCOL_SPECIFIC_DATA](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor-_storage_protocol_specific_data).
 
 ## -remarks
 
+When using [IOCTL_STORAGE_QUERY_PROPERTY](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ni-ntddstor-ioctl_storage_query_property) to retrieve protocol-specific information in the STORAGE_PROTOCOL_DATA_DESCRIPTOR, configure the [STORAGE_PROPERTY_QUERY](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor-_storage_property_query) structure as follows:
 
+* Allocate a buffer that can contains both a [STORAGE_PROPERTY_QUERY](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor-_storage_property_query) and a [STORAGE_PROTOCOL_SPECIFIC_DATA](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor-_storage_protocol_specific_data) structure.
+* Set the **PropertyID**  field to **StorageAdapterProtocolSpecificProperty** or **StorageDeviceProtocolSpecificProperty** for a controller or device/namespace request, respectively.
+* Set the **QueryType**  field to **PropertyStandardQuery**.
+* Fill the [STORAGE_PROTOCOL_SPECIFIC_DATA](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor-_storage_protocol_specific_data) structure with the desired values. The start of the STORAGE_PROTOCOL_SPECIFIC_DATA is the **AdditionalParameters** field of [STORAGE_PROPERTY_QUERY](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor-_storage_property_query).
 
-When using <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ni-ntddstor-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a> to retrieve protocol-specific information in the <b>STORAGE_PROTOCOL_DATA_DESCRIPTOR</b>, configure the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor-_storage_property_query">STORAGE_PROPERTY_QUERY</a> structure as follows:
+To specify a type of NVMe protocol-specific information,  configure the [STORAGE_PROTOCOL_SPECIFIC_DATA](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor-_storage_protocol_specific_data) structure as follows:
 
-<ul>
-<li>
-Allocate a buffer that can contains both a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor-_storage_property_query">STORAGE_PROPERTY_QUERY</a> and a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor-_storage_protocol_specific_data">STORAGE_PROTOCOL_SPECIFIC_DATA</a> structure.
+* Set the **ProtocolType**  field to **ProtocolTypeNVMe**.
+* Set the **DataType**  field to an enumeration value defined by [STORAGE_PROTOCOL_NVME_DATA_TYPE](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ne-ntddstor-_storage_protocol_nvme_data_type):
+  * Use **NVMeDataTypeIdentify** to get Identify Controller data or Identify Namespace data.
+  * Use **NVMeDataTypeLogPage** to get log pages (including SMART/health data).
+  * Use **NVMeDataTypeFeature** to get features of the NVMe drive.
 
-</li>
-<li>
-Set the <b>PropertyID</b>  field to <b>StorageAdapterProtocolSpecificProperty</b> or <b>StorageDeviceProtocolSpecificProperty</b> for a controller or device/namespace request, respectively.
+To specify a type of ATA protocol-specific information,  configure the [STORAGE_PROTOCOL_SPECIFIC_DATA](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor-_storage_protocol_specific_data) structure as follows:
 
-</li>
-<li>
-Set the <b>QueryType</b>  field to <b>PropertyStandardQuery</b>.
-
-</li>
-<li>
-Fill the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor-_storage_protocol_specific_data">STORAGE_PROTOCOL_SPECIFIC_DATA</a> structure with the desired values. The start of the <b>STORAGE_PROTOCOL_SPECIFIC_DATA</b> is the <b>AdditionalParameters</b> field of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor-_storage_property_query">STORAGE_PROPERTY_QUERY</a>.
-
-</li>
-</ul>
-To specify a type of NVMe protocol-specific information,  configure the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor-_storage_protocol_specific_data">STORAGE_PROTOCOL_SPECIFIC_DATA</a> structure as follows:
-
-<ul>
-<li>
-Set the <b>ProtocolType</b>  field to <b>ProtocolTypeNVMe</b>.
-
-</li>
-<li>
-Set the <b>DataType</b>  field to an enumeration value defined by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ne-ntddstor-_storage_protocol_nvme_data_type">STORAGE_PROTOCOL_NVME_DATA_TYPE</a>:<ul>
-<li>Use <b>NVMeDataTypeIdentify</b> to get Identify Controller data or Identify Namespace data.</li>
-<li>Use <b>NVMeDataTypeLogPage</b> to get log pages (including SMART/health data).</li>
-<li>Use <b>NVMeDataTypeFeature</b> to get features of the NVMe drive.</li>
-</ul>
-
-
-</li>
-</ul>
-To specify a type of ATA protocol-specific information,  configure the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor-_storage_protocol_specific_data">STORAGE_PROTOCOL_SPECIFIC_DATA</a> structure as follows:
-
-<ul>
-<li>
-Set the <b>ProtocolType</b>  field to <b>ProtocolTypeAta</b>.
-
-</li>
-<li>
-Set the <b>DataType</b>  field to an enumeration value defined by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ne-ntddstor-_storage_protocol_ata_data_type">STORAGE_PROTOCOL_ATA_DATA_TYPE</a>:<ul>
-<li>Use <b>AtaDataTypeIdentify</b> to identify the ATA drive.</li>
-<li>Use <b>AtaDataTypeLogPage</b> to get log pages from the ATA drive.</li>
-</ul>
-
-
-</li>
-</ul>
-
-
+* Set the **ProtocolType**  field to **ProtocolTypeAta**.
+* Set the **DataType**  field to an enumeration value defined by [STORAGE_PROTOCOL_ATA_DATA_TYPE](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ne-ntddstor-_storage_protocol_ata_data_type):
+  * Use **AtaDataTypeIdentify** to identify the ATA drive.
+  * Use **AtaDataTypeLogPage** to get log pages from the ATA drive.
 
 ## -see-also
 
+[IOCTL_STORAGE_QUERY_PROPERTY](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ni-ntddstor-ioctl_storage_query_property)
 
+[IOCTL_STORAGE_SET_PROPERTY](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ni-ntddstor-ioctl_storage_set_property)
 
+[STORAGE_PROPERTY_ID](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ne-ntddstor-storage_property_id)
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ni-ntddstor-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a>
+[STORAGE_PROPERTY_QUERY](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor-_storage_property_query)
 
-[IOCTL_STORAGE_SET_PROPERTY](ns-ntddstor-storage_set_property.md)
+[STORAGE_PROTOCOL_SPECIFIC_DATA](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor-_storage_protocol_specific_data)
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ne-ntddstor-storage_property_id">STORAGE_PROPERTY_ID</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor-_storage_property_query">STORAGE_PROPERTY_QUERY</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor-_storage_protocol_specific_data">STORAGE_PROTOCOL_SPECIFIC_DATA</a>
-
-[STORAGE_PROTOCOL_SPECIFIC_DATA_EXT](ns-ntddstor-storage_specific_protocol_data_ext)
- 
-
- 
-
+[STORAGE_PROTOCOL_SPECIFIC_DATA_EXT](ns-ntddstor-storage_protocol_specific_data_ext.md)

@@ -32,7 +32,8 @@ api_location:
  - ntddscsi.h
 api_name: 
  - NTSCSI_UNICODE_STRING
-product: Windows
+product:
+ - Windows
 targetos: Windows
 ms.custom: 19H1
 ---

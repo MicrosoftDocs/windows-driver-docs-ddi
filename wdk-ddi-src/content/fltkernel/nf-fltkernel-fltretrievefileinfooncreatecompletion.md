@@ -31,7 +31,7 @@ req.type-library:
 topic_type: 
  - apiref
 api_type: 
- - 
+ - HeaderDef
 api_location: 
 - fltkernel.h
 api_name: 
@@ -62,50 +62,11 @@ Pointer to the [FLT_CALLBACK_DATA](ns-fltkernel-_flt_callback_data.md) callback 
 
 Flag that indicates the type of information to return. Note that flags cannot be combined. Can be one of the following values:
 
-<table>
-<tr>
-<th>Flag</th>
-<th>Meaning</th>
-</tr>
-
-<tr>
-<td width="40%">
-<dl>
-<dt><b>QoCFileStatInformation</b></dt>
-0x00000001
-</dl>
-</td>
-
-<td width="60%">
-The file system will return file stat information in a QUERY_ON_CREATE_FILE_STAT_INFORMATION structure.
-</td>
-</tr>
-
-<tr>
-<td width="40%">
-<dl>
-<dt><b>QoCFileLxInformation</b></dt>
-0x00000002
-</dl>
-</td>
-<td width="60%">
-The file system will return extended Linux-like information in a QUERY_ON_CREATE_FILE_LX_INFORMATION structure.
-</td>
-</tr>
-
-<tr>
-<td width="40%">
-<dl>
-<dt><b>QoCFileEaInformation</b></dt>
-0x00000004
-</dl>
-</td>
-<td width="60%">
-The file system will return extended attributes (EA) in a QUERY_ON_CREATE_EA_INFORMATION structure.
-</td>
-</tr>
-
-</table>
+| Flag | Meaning |
+| ---- | ------- |
+| **QoCFileStatInformation** (0x00000001) | The file system will return file stat information in a QUERY_ON_CREATE_FILE_STAT_INFORMATION structure. |
+| **QoCFileLxInformation** (0x00000002) | The file system will return extended Linux-like information in a QUERY_ON_CREATE_FILE_LX_INFORMATION structure. |
+| **QoCFileEaInformation** (0x00000004) | The file system will return extended attributes (EA) in a QUERY_ON_CREATE_EA_INFORMATION structure. |
 
 ### Size
 
@@ -123,6 +84,6 @@ A minifilter must call **FltRequestFileInfoOnCreateCompletion** during file pre-
 
 [FLT_CALLBACK_DATA](ns-fltkernel-_flt_callback_data.md)
 
-[FltRequestFileInfoOnCreateCompletion](nf-fltkernel-_fltrequestfileinfooncreatecompletion.md)
+[FltRequestFileInfoOnCreateCompletion](nf-fltkernel-fltrequestfileinfooncreatecompletion.md)
 
 [FltRetrieveFileInfoOnCreateCompletionEx](nf-fltkernel-fltretrievefileinfooncreatecompletionex.md)

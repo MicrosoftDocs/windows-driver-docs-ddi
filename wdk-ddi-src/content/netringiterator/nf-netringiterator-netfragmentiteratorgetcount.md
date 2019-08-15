@@ -36,7 +36,8 @@ api_location:
 - netringiterator.h
 api_name: 
 - NetFragmentIteratorGetCount
-product: Windows
+product:
+- Windows
 targetos: Windows
 ---
 

@@ -36,7 +36,8 @@ api_location:
 - storport.h
 api_name: 
 - StorPortQueryConfiguration
-product: Windows
+product:
+ - Windows
 targetos: Windows
 
 ms.custom: 19H1
@@ -56,88 +57,29 @@ Pointer to the hardware device extension for the host bus adapter (HBA).
 
 ### -param Type
 
-A [STORPORT_QUERY_CONFIGURATION_TYPE](ne-storport-_storport_query_configuration_type.md) enum value that indicates the type of configuration to query.
+A [STORPORT_QUERY_CONFIGURATION_TYPE](ne-storport-storport_query_configuration_type.md) enum value that indicates the type of configuration to query.
 
 ### -param Enabled
 
 Pointer to a **BOOLEAN** value in which the Storport driver will return one of the following values.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Description</th>
-</tr>
-
-<tr>
-<td width="40%">
-<dl>
-<dt><b>TRUE</b></dt>
-</dl>
-</td>
-<td width="60%">
-The configuration specified by <i>Type</i> is enabled.
-</td>
-</tr>
-
-<tr>
-<td width="40%">
-<dl>
-<dt><b>FALSE</b></dt>
-</dl>
-</td>
-<td width="60%">
-The configuration specified by <i>Type</i> is not enabled.
-</td>
-</tr>
-</table>
+| Value | Description |
+| ----- | ----------- |
+| **TRUE** | The configuration specified by *Type* is enabled. |
+| **FALSE** | The configuration specified by *Type* is not enabled. |
 
 ## -returns
 
 **StorPortQueryConfiguration** returns one of the following status codes:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STOR_STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-*Enabled* is NULL or the value specified in *Type* is invalid.
-</td>
-</tr>
-
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STOR_STATUS_NOT_IMPLEMENTED</b></dt>
-</dl>
-</td>
-<td width="60%">
-This function is not implemented on the active operating system.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STOR_STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The query completed successfully.
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+| ----------- | ----------- |
+| STOR_STATUS_INVALID_PARAMETER | *Enabled* is **NULL** or the value specified in *Type* is invalid. |
+| STOR_STATUS_NOT_IMPLEMENTED | This function is not implemented on the active operating system. |
+| STOR_STATUS_SUCCESS | The query completed successfully. |
 
 ## -remarks
 
 ## -see-also
 
-[STORPORT_QUERY_CONFIGURATION_TYPE](ne-storport-_storport_query_configuration_type.md)
+[STORPORT_QUERY_CONFIGURATION_TYPE](ne-storport-storport_query_configuration_type.md)

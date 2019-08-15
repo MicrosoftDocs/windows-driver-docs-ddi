@@ -31,12 +31,13 @@ req.type-library:
 topic_type: 
 - apiref
 api_type: 
-- LibDef
+- HeaderDef
 api_location: 
 - fltkernel.h
 api_name: 
 - FltQueryDirectoryFileEx
-product: Windows
+product:
+ - Windows
 targetos: Windows
 
 ---
@@ -69,188 +70,32 @@ Size, in bytes, of the buffer pointed to by *FileInformation*. The caller should
 
 Type of information to be returned about files in the directory. One of the values in the following table can be specified.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-
-<tr>
-<td>
-<b>FileBothDirectoryInformation</b>
-</td>
-<td>
-Return a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_both_dir_information#requirements">FILE_BOTH_DIR_INFORMATION</a> structure for each file.
-</td>
-</tr>
-
-<tr>
-<td>
-<b>FileDirectoryInformation</b>
-</td>
-<td>
-Return a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_directory_information#requirements">FILE_DIRECTORY_INFORMATION</a> structure for each file.
-</td>
-</tr>
-
-<tr>
-<td>
-<b>FileFullDirectoryInformation</b>
-</td>
-<td>
-Return a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_full_dir_information#requirements">FILE_FULL_DIR_INFORMATION</a> structure for each file.
-</td>
-</tr>
-
-<tr>
-<td>
-<b>FileIdBothDirectoryInformation</b>
-</td>
-<td>
-Return a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_id_both_dir_information#requirements">FILE_ID_BOTH_DIR_INFORMATION</a> structure for each file.
-</td>
-</tr>
-
-<tr>
-<td>
-<b>FileIdExtdBothDirectoryInformation</b>
-</td>
-<td>
-Return a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_id_extd_both_dir_information#requirements">FILE_ID_EXTD_BOTH_DIR_INFORMATION</a> structure for each file.
-</td>
-</tr>
-
-<tr>
-<td>
-<b>FileIdExtdDirectoryInformation</b>
-</td>
-<td>
-Return a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_id_extd_dir_information#requirements">FILE_ID_EXTD_DIR_INFORMATION</a> structure for each file.
-</td>
-</tr>
-
-<tr>
-<td>
-<b>FileIdFullDirectoryInformation</b>
-</td>
-<td>
-Return a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_id_full_dir_information#requirements">FILE_ID_FULL_DIR_INFORMATION</a> structure for each file.
-</td>
-</tr>
-
-<tr>
-<td>
-<b>FileIdGlobalTxDirectoryInformation</b>
-</td>
-<td>
-Return a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_id_global_tx_dir_information#requirements">FILE_ID_GLOBAL_TX_DIR_INFORMATION</a> structure for each file.
-</td>
-</tr>
-
-<tr>
-<td>
-<b>FileNamesInformation</b>
-</td>
-<td>
-Return a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_names_information#requirements">FILE_NAMES_INFORMATION</a> structure for each file.
-</td>
-</tr>
-
-<tr>
-<td>
-<b>FileObjectIdInformation</b>
-</td>
-<td>
-Return a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_objectid_information#requirements">FILE_OBJECTID_INFORMATION</a> structure for each file that has an object ID on the volume. This information class is valid only for the special directory "\$Extend\$ObjId:$O:$INDEX_ALLOCATION" on NTFS volumes.
-</td>
-</tr>
-
-<tr>
-<td>
-<b>FileQuotaInformation</b>
-</td>
-<td>
-Return a single <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_quota_information#requirements">FILE_QUOTA_INFORMATION</a> structure for each user on the volume that has quotas applied. This information class is valid only for the special directory "\$Extend\$Quota:$Q:$INDEX_ALLOCATION" on NTFS volumes.
-</td>
-</tr>
-
-<tr>
-<td>
-<b>FileReparsePointInformation</b>
-</td>
-<td>
-Return a single <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_reparse_point_information#requirements">FILE_REPARSE_POINT_INFORMATION</a> structure for each file that has a reparse point on the volume. This information class is valid only for the special directory "\$Extend\$Reparse:$R:$INDEX_ALLOCATION" on NTFS and ReFS volumes.
-</td>
-</tr>
-
-</table>
+| Value | Meaning |
+| ----- | ------- |
+| **FileBothDirectoryInformation** | Return a [FILE_BOTH_DIR_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_both_dir_information#requirements) structure for each file. |
+| **FileDirectoryInformation** | Return a [FILE_DIRECTORY_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_directory_information#requirements) structure for each file. |
+| **FileFullDirectoryInformation** | Return a [FILE_FULL_DIR_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_full_dir_information#requirements) structure for each file. |
+| **FileIdBothDirectoryInformation** | Return a [FILE_ID_BOTH_DIR_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_id_both_dir_information#requirements) structure for each file. |
+| **FileIdExtdBothDirectoryInformation** | Return a [FILE_ID_EXTD_BOTH_DIR_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_id_extd_both_dir_information#requirements) structure for each file. |
+| **FileIdExtdDirectoryInformation** | Return a [FILE_ID_EXTD_DIR_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_id_extd_dir_information#requirements) structure for each file. |
+| **FileIdFullDirectoryInformation** | Return a [FILE_ID_FULL_DIR_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_id_full_dir_information#requirements) structure for each file. |
+| **FileIdGlobalTxDirectoryInformation** | Return a [FILE_ID_GLOBAL_TX_DIR_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_id_global_tx_dir_information#requirements) structure for each file. |
+| **FileNamesInformation** | Return a [FILE_NAMES_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_names_information#requirements) structure for each file. |
+| **FileObjectIdInformation** | Return a [FILE_OBJECTID_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_objectid_information#requirements) structure for each file that has an object ID on the volume. This information class is valid only for the special directory "\$Extend\$ObjId:$O:$INDEX_ALLOCATION" on NTFS volumes. |
+| **FileQuotaInformation** | Return a single [FILE_QUOTA_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_quota_information#requirements) structure for each user on the volume that has quotas applied. This information class is valid only for the special directory "\$Extend\$Quota:$Q:$INDEX_ALLOCATION" on NTFS volumes. |
+| **FileReparsePointInformation** | Return a single [FILE_REPARSE_POINT_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_reparse_point_information#requirements) structure for each file that has a reparse point on the volume. This information class is valid only for the special directory "\$Extend\$Reparse:$R:$INDEX_ALLOCATION" on NTFS and ReFS volumes. |
 
 ### -param QueryFlags
 
 One or more of the flags contained in SL_QUERY_DIRECTORY_MASK. Possible values are specified in the following table.
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-
-<tr>
-<td>
-<b>SL_RESTART_SCAN</b>
-
-0x00000001
-</td>
-<td>
-If this flag is set, the scan will start at the first entry in the directory. If this flag is not set, the scan will resume from where the last query ended.
-</td>
-</tr>
-
-<tr>
-<td>
-<b>SL_RETURN_SINGLE_ENTRY</b>
-
-0x00000002
-</td>
-<td>
-Normally the return buffer is packed with as many matching directory entries that fit. If this flag is set, the file system will return only one directory entry at a time. This does make the operation less efficient.
-</td>
-</tr>
-
-<tr>
-<td>
-<b>SL_INDEX_SPECIFIED</b>
-
-0x00000004
-</td>
-<td>
- If this flag is set, the scan should start at a specified indexed position in the directory. This flag can only be set if you generate your own <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/irp-mj-directory-control">IRP_MJ_DIRECTORY_CONTROL IRP</a>; the index is specified in the IRP. How the position is specified varies from file system to file system.
-</td>
-</tr>
-
-<tr>
-<td>
-<b>SL_RETURN_ON_DISK_ENTRIES_ONLY</b>
-
-0x00000008
-</td>
-<td>
-If this flag is set, any file system filters that perform directory virtualization or just-in-time expansion should simply pass the request through to the file system and return entries that are currently on disk. Not all file systems support this flag.
-</td>
-</tr>
-
-<tr>
-<td>
-<b>SL_NO_CURSOR_UPDATE_QUERY</b>
-
-0x00000010
-</td>
-<td>
-File systems maintain per-<i>FileObject</i> directory cursor information. When multiple threads do queries using the same <i>FileObject</i>, access to the per-<i>FileObject</i> structure is single threaded to prevent corruption of the cursor state. This flag tells the file system to not update per-<i>FileObject</i> cursor state information thus allowing multiple threads to query in parallel using the same handle. It behaves as if SL_RESTART_SCAN is specified on each call. If a wild card pattern is given on the next call, the operation will not pick up where the last query ended. This allows for true asynchronous directory query support. If this flag is used inside a TxF transaction the operation will be failed. Not all file systems support this flag.
-</td>
-</tr>
-
-</table>
+| Value | Meaning |
+| ----- | ------- |
+| **SL_RESTART_SCAN** (0x00000001) | If this flag is set, the scan will start at the first entry in the directory. If this flag is not set, the scan will resume from where the last query ended. |
+| **SL_RETURN_SINGLE_ENTRY** (0x00000002) | Normally the return buffer is packed with as many matching directory entries that fit. If this flag is set, the file system will return only one directory entry at a time. This does make the operation less efficient. |
+| **SL_INDEX_SPECIFIED** (0x00000004) | If this flag is set, the scan should start at a specified indexed position in the directory. This flag can only be set if you generate your own [IRP_MJ_DIRECTORY_CONTROL IRP](https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/irp-mj-directory-control); the index is specified in the IRP. How the position is specified varies from file system to file system. |
+| **SL_RETURN_ON_DISK_ENTRIES_ONLY** (0x00000008) | If this flag is set, any file system filters that perform directory virtualization or just-in-time expansion should simply pass the request through to the file system and return entries that are currently on disk. Not all file systems support this flag. |
+| **SL_NO_CURSOR_UPDATE_QUERY** (0x00000010) | File systems maintain per-*FileObject* directory cursor information. When multiple threads do queries using the same *FileObject*, access to the per-*FileObject* structure is single threaded to prevent corruption of the cursor state. This flag tells the file system to not update per-*FileObject* cursor state information thus allowing multiple threads to query in parallel using the same handle. It behaves as if SL_RESTART_SCAN is specified on each call. If a wild card pattern is given on the next call, the operation will not pick up where the last query ended. This allows for true asynchronous directory query support. If this flag is used inside a TxF transaction the operation will be failed. Not all file systems support this flag. |
 
 ### -param FileName
 

@@ -32,7 +32,8 @@ api_location:
  - netringiterator.h
 api_name: 
  - NET_RING_PACKET_ITERATOR
-product: Windows
+product:
+- Windows
 targetos: Windows
 ---
 
