@@ -61,7 +61,7 @@ The **NetConfigurationAssignUlong** method writes a caller-supplied unsigned lon
 A handle to a NETCONFIGURATION object that represents an opened registry key.
 
 ### -param ValueName
-A pointer to a [**UNICODE_STRING**](../wudfwdm/ns-wudfwdm-_unicode_string.md) structure that contains a value name. 
+A pointer to a [**UNICODE_STRING**](https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string) structure that contains a value name. 
 
 ### -param Value
 A ULONG value that will be assigned to the value name that *ValueName* specifies.
