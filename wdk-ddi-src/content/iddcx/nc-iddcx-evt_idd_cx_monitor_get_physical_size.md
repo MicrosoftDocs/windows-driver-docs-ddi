@@ -54,11 +54,11 @@ The OS calls EVT_IDD_CX_MONITOR_GET_PHYSICAL_SIZE to query the physical size of 
 ```
 //Declaration
 
-EVT_IDD_CX_MONITOR_GET_PHYSICAL_SIZE EvtIddCxMonitorGetPhysicalSize; 
+EVT_IDD_CX_MONITOR_GET_PHYSICAL_SIZE EvtIddCxMonitorGetPhysicalSize;
 
 // Definition
 
-NTSTATUS EvtIddCxMonitorGetPhysicalSize 
+NTSTATUS EvtIddCxMonitorGetPhysicalSize
 (
 	IDDCX_MONITOR MonitorObject
 	IDARG_OUT_MONITORGETPHYSICALSIZE * pOutArgs
@@ -87,7 +87,7 @@ This callback is only called for remote drivers that do not provide a monitor de
 
 **To declare a remote ID driver:**
 
-An ID driver declares that it wants to create a remote ID adapter by setting the [**IDDCX_ADAPTER_FLAGS_REMOTE_SESSION_DRIVER**](ne-iddcx-iddcx_adapter_flags.md) bit in the [IDDCX_ADAPTER_CAPS](ns-iddcx-iddcx_adapter_caps.md).**Flags** field when calling the [IddCxAdapterInitAsync](iddcx\nf-iddcx-iddcxadapterinitasync.md) function. The OS tracks if the ID driver is being loaded due to the remote desktop stack connecting a remote session and will fail the IddCxAdapterInitAsync() call in the following two cases:
+An ID driver declares that it wants to create a remote ID adapter by setting the [**IDDCX_ADAPTER_FLAGS_REMOTE_SESSION_DRIVER**](ne-iddcx-iddcx_adapter_flags.md) bit in the [IDDCX_ADAPTER_CAPS](ns-iddcx-iddcx_adapter_caps.md).**Flags** field when calling the [IddCxAdapterInitAsync](nf-iddcx-iddcxadapterinitasync.md) function. The OS tracks if the ID driver is being loaded due to the remote desktop stack connecting a remote session and will fail the IddCxAdapterInitAsync() call in the following two cases:
 
 * If an ID driver does not set the IDDCX_ADAPTER_FLAGS_REMOTE_SESSION_DRIVER flags for a device that was created by the OS remote desktop stack for a remote session
 * If an ID driver sets the IDDCX_ADAPTER_FLAGS_REMOTE_SESSION_DRIVER flags for a device that was not created by the OS remote desktop stack
