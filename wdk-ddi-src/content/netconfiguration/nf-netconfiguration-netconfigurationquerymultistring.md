@@ -61,7 +61,7 @@ Retrieves the MultiString-valued registry entry associated with a value name in 
 Handle to a NETCONFIGURATION object that represents an opened registry key.
 
 ### -param ValueName
-A pointer to a [**UNICODE_STRING**](../wudfwdm/ns-wudfwdm-_unicode_string.md) structure that contains a value name in the device's software key.
+A pointer to a [**UNICODE_STRING**](https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string) structure that contains a value name in the device's software key.
 
 ### -param StringsAttributes
 A pointer to a [WDF_OBJECT_ATTRIBUTES](../wdfobject/ns-wdfobject-_wdf_object_attributes.md) structure that contains driver-supplied attributes for the new WDFSTRING objects. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.
