@@ -88,7 +88,7 @@ A variable length buffer that contains zero or more [WHEA_XPF_PROCINFO](https://
 The WHEA_XPF_PROCESSOR_ERROR_SECTION structure describes the error data that is contained in an x86/x64 processor error section of an [error record](https://docs.microsoft.com/windows-hardware/drivers/whea/error-records). An error record contains an x86/x64 processor error section only if the <b>SectionType </b>member of one of the [WHEA_ERROR_RECORD_SECTION_DESCRIPTOR](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_whea_error_record_section_descriptor) structures that describes the error record sections for that error record contains XPF_PROCESSOR_ERROR_SECTION_GUID.
 
 The following diagram shows how the data structures that contain the processor error data are stored in the <b>VariableInfo</b> member.
-<img alt="Diagram illustrating how the data structures that contain the processor error data are stored in the VariableInfo member" src="images/wheaxpfsection.gif"/>
+<img alt="Diagram illustrating how the data structures that contain the processor error data are stored in the VariableInfo member" src="images/wheaxpfsection.png"/>
 
 
 ## -see-also

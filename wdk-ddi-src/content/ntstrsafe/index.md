@@ -24,7 +24,7 @@ To manipulate Unicode and ANSI strings, each function is available in two versio
 - A W-suffixed version that supports two-byte Unicode characters.
 - An A-suffixed version that supports one-byte ANSI characters.
 
-Unicode strings are specified within [**UNICODE_STRING**](../wudfwdm/ns-wudfwdm-_unicode_string.md) structures in kernel-mode drivers.
+Unicode strings are specified within [**UNICODE_STRING**](https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string) structures in kernel-mode drivers.
 
 
 For more information, see:

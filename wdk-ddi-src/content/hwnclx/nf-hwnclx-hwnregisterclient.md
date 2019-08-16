@@ -49,7 +49,7 @@ req.typenames: HWN_CLX_EXPORT_INDEX, *PHWN_CLX_EXPORT_INDEX
 ## -description
 
 
-Registers the hardware notification client driver and its callback functions with the class extension. This function should be invoked when the client driver is loaded and the <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine is called for initialization. F
+Registers the hardware notification client driver and its callback functions with the class extension. This function should be invoked when the client driver is loaded and the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-driver_initialize">DriverEntry</a> routine is called for initialization.
 
 
 ## -syntax
@@ -81,7 +81,7 @@ Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/gpio
 
 ### -param RegistryPath [in]
 
-Pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure that contains the path to the client driver’s registry key.
+Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the path to the client driver’s registry key.
 
 
 ## -returns

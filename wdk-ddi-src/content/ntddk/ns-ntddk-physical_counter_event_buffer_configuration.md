@@ -32,7 +32,8 @@ api_location:
  - ntddk.h
 api_name:
  - PHYSICAL_COUNTER_EVENT_BUFFER_CONFIGURATION
-product: Windows
+product:
+- Windows
 targetos: Windows
 ms.custom: 19H1
 ---

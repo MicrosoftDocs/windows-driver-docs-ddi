@@ -36,7 +36,8 @@ api_location:
 - netringiterator.h
 api_name: 
 - NetRingGetDrainFragments
-product: Windows
+product:
+- Windows
 targetos: Windows
 
 ---
