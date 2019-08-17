@@ -52,7 +52,7 @@ A **NET_RING_ITERATOR** is a small structure that contains references to the pos
 
 ### -field Rings
 
-A [**NET_RING_COLLECTION**](../ringcollection/ns-netringcollection-_net_ring_collection.md) structure that describes the [**NET_RING**](../ring/ns-ring-_net_ring.md) structure to which this net ring iterator belongs.
+A [**NET_RING_COLLECTION**](../ringcollection/ns-ringcollection-_net_ring_collection.md) structure that describes the [**NET_RING**](../ring/ns-ring-_net_ring.md) structure to which this net ring iterator belongs.
  
 ### -field IndexToSet
 
