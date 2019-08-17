@@ -71,4 +71,4 @@ This enumeration is used in the [**WWAN_UICC_FILE_STATUS*](../wwan/ns-wwan-_wwan
 
 [OID_WWAN_UICC_FILE_STATUS](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-uicc-file-status)
 
-[**WWAN_UICC_FILE_STATUS*](../ndiswwan/ns-ndiswwan-_wwan_uicc_file_status.md)
+[**WWAN_UICC_FILE_STATUS*](../wwan/ns-wwan-_wwan_uicc_file_status.md)

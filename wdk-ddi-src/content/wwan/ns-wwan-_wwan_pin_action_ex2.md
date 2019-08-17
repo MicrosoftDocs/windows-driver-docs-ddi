@@ -46,7 +46,7 @@ The **WWAN_PIN_ACTION_EX2** structure specifies the PIN action to take for a UIC
 
 ### -field PinType
 
-A [**WWAN_PIN_TYPE_EX**](../wwan/ne-wwan-_wwan_pin_type_ex.md) value that specifies the PIN type for the application.
+A [**WWAN_PIN_TYPE**](../wwan/ne-wwan-_wwan_pin_type.md) value that specifies the PIN type for the application.
 
 ### -field PinOperation
 
