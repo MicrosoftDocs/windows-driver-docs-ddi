@@ -84,8 +84,8 @@ Receives a pointer to a buffer with the requested file information. If the file 
 | ----------- | ----------- |
 | **STATUS_SUCCESS** | The file system successfully returned the requested file information. |
 | **STATUS_NOT_FOUND** | The file system processed the request, but the requested information was not present on the file, or the file system does not recognize the information request in *InfoClass*. The caller should not use traditional file system APIs to request the information. |
-| **STATUS_NOT_SUPPORTED** | The file system was unable to retrieve the requested information. This error occurs when the file system doesn't support the information request or associated ECP, or because [FltRequestFileInfoOnCreateCompletion](nf-fltkernel-_fltrequestfileinfooncreatecompletion.md) wasn't called during file pre-creation. The caller should instead use traditional file system APIs to retry requesting the information. |
-| **STATUS_UNSUCCESSFUL** | The file system received an error while trying to retrieve the requested information. The caller can try requesting the information by way of normal file system APIs ???WHICH ONES???, but that will likely fail. |
+| **STATUS_NOT_SUPPORTED** | The file system was unable to retrieve the requested information. This error occurs when the file system doesn't support the information request or associated ECP, or because [**FltRequestFileInfoOnCreateCompletion**](nf-fltkernel-fltrequestfileinfooncreatecompletion.md) wasn't called during file pre-creation. The caller should instead use traditional file system APIs to retry requesting the information. |
+| **STATUS_UNSUCCESSFUL** | The file system received an error while trying to retrieve the requested information. The caller can try requesting the information by way of normal file system APIs, but that will likely fail. |
 
 ## -remarks
 

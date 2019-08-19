@@ -80,7 +80,7 @@ Flag bitmask indicating the type of file information that the file system should
 
 ## -remarks
 
-The minifilter can retrieve the file information by calling [**FltRetrieveFileInfoOnCreateCompletionEx**](nf-fltkernel-fltretrievefileinfooncreatecompletionex.md) or [**FltRetrieveFileInfoOnCreateCompletion**](nf-fltkernel-fltretrievefileinfooncreateconpletion.md) during post create. A minifilter's performance is typically better when it requests and retrieves file information in this manner, rather than querying file information at a later time.
+The minifilter can retrieve the file information by calling [**FltRetrieveFileInfoOnCreateCompletionEx**](nf-fltkernel-fltretrievefileinfooncreatecompletionex.md) or [**FltRetrieveFileInfoOnCreateCompletion**](nf-fltkernel-fltretrievefileinfooncreatecompletion.md) during post create. A minifilter's performance is typically better when it requests and retrieves file information in this manner, rather than querying file information at a later time.
 
 ## -see-also
 
@@ -88,4 +88,4 @@ The minifilter can retrieve the file information by calling [**FltRetrieveFileIn
 
 [**FltRetrieveFileInfoOnCreateCompletion**](nf-fltkernel-fltretrievefileinfooncreatecompletion.md)
 
-[**FltRetrieveFileInfoOnCreateCompletionEx**](nf-fltkernel-fltretrievefileinfooncreateconpletionex.md)
+[**FltRetrieveFileInfoOnCreateCompletionEx**](nf-fltkernel-fltretrievefileinfooncreatecompletionex.md)

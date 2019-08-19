@@ -66,7 +66,7 @@ Specifies the type of flush that the file system should do on the file. *FlushTy
 
 | FlushType Operation Value | Description |
 | ------------------------- | ----------- |
-| **0** | If *FileObject* is for a file, both the file data and metadata in the file cache will be written, and the underlying storage will be synchronized to flush its cache. If *FileObject* is for a volume, the file system will cause both the file data and metadata for all modified files on the volume will be written, and the underlying storage to be synchronized to flush its cache. This operation is equivalent to [**FltFlushBuffers**](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltflushbuffers). |
+| **0** | If *FileObject* is for a file, both the file data and metadata in the file cache will be written, and the underlying storage will be synchronized to flush its cache. If *FileObject* is for a volume, the file system will cause both the file data and metadata for all modified files on the volume will be written, and the underlying storage to be synchronized to flush its cache. This operation is equivalent to [**FltFlushBuffers**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltflushbuffers). |
 | **FLUSH_FLAGS_FILE_DATA_ONLY** | If the file is on an NTFS file system, only file data in the file cache will be written. No metadata is written and the underlying storage is not synchronized to flush its cache. This flag is not valid if *FileObject* is for a volume. |
 | **FLUSH_FLAGS_NO_SYNC** | If the file is on an NTFS file system, file data and metadata in the file cache will be written. The underlying storage will not be synchronized to flush its cache. This flag is not valid if *FileObject* is for a volume. |
 | **FLUSH_FLAGS_FILE_DATA_SYNC_ONLY** | If the file is on an NTFS file system, file data in the file cache will be written. No metadata is written. The underlying storage is synchronized to flush its cache. This flag is not valid if *FileObject* is for a volume or directory. |
@@ -88,6 +88,6 @@ If the file is on an NTFS file system, the minifilter can control the type of fl
 
 ## -see-also
 
-[**FltFlushBuffers**](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltflushbuffers)
+[**FltFlushBuffers**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltflushbuffers)
 
 [IRP_MJ_FLUSH_BUFFERS](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-flush-buffers)
