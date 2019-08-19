@@ -61,7 +61,7 @@ Retrieves the specified string value from the adapter configuration object and a
 Handle to a NETCONFIGURATION object that represents an opened registry key.
 
 ### -param ValueName
-A pointer to a [**UNICODE_STRING**](../wudfwdm/ns-wudfwdm-_unicode_string.md) structure that contains a name for string value.
+A pointer to a [**UNICODE_STRING**](https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string) structure that contains a name for string value.
 
 ### -param StringAttributes
 A pointer to a [WDF_OBJECT_ATTRIBUTES](../wdfobject/ns-wdfobject-_wdf_object_attributes.md) structure that contains driver-supplied attributes for the new WDFSTRING object. This parameter is optional and can be WDF_NO_OBJECT_ATTRIBUTES.

@@ -1,175 +1,146 @@
 ---
 UID: NE:wwan._WWAN_PIN_TYPE
 title: _WWAN_PIN_TYPE (wwan.h)
-description: The WWAN_PIN_TYPE enumeration lists the different types of Personal Identification Numbers (PINs) that are supported by the MB device.
-old-location: netvista\wwan_pin_type.htm
+description: The WWAN_PIN_TYPE enumeration specifies the PIN type for a UICC application.
 tech.root: netvista
-ms.assetid: f6b8146e-dbe2-4c73-beb2-02868db9fb27
-ms.date: 05/02/2018
-ms.keywords: "*PWWAN_PIN_TYPE, PWWAN_PIN_TYPE, PWWAN_PIN_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_PIN_TYPE, WWAN_PIN_TYPE enumeration [Network Drivers Starting with Windows Vista], WwanPinTypeCorporatePin, WwanPinTypeCorporatePuk, WwanPinTypeCustom, WwanPinTypeDeviceFirstSimPin, WwanPinTypeDeviceFirstSimPuk, WwanPinTypeDeviceSimPin, WwanPinTypeMax, WwanPinTypeNetworkPin, WwanPinTypeNetworkPuk, WwanPinTypeNetworkSubsetPin, WwanPinTypeNetworkSubsetPuk, WwanPinTypeNone, WwanPinTypePin1, WwanPinTypePin2, WwanPinTypePuk1, WwanPinTypePuk2, WwanPinTypeSubsidyLock, WwanPinTypeSvcProviderPin, WwanPinTypeSvcProviderPuk, WwanRef_f94cf79e-63f3-47e9-bd40-beb9cd32f0b8.xml, _WWAN_PIN_TYPE, netvista.wwan_pin_type, wwan/PWWAN_PIN_TYPE, wwan/WWAN_PIN_TYPE, wwan/WwanPinTypeCorporatePin, wwan/WwanPinTypeCorporatePuk, wwan/WwanPinTypeCustom, wwan/WwanPinTypeDeviceFirstSimPin, wwan/WwanPinTypeDeviceFirstSimPuk, wwan/WwanPinTypeDeviceSimPin, wwan/WwanPinTypeMax, wwan/WwanPinTypeNetworkPin, wwan/WwanPinTypeNetworkPuk, wwan/WwanPinTypeNetworkSubsetPin, wwan/WwanPinTypeNetworkSubsetPuk, wwan/WwanPinTypeNone, wwan/WwanPinTypePin1, wwan/WwanPinTypePin2, wwan/WwanPinTypePuk1, wwan/WwanPinTypePuk2, wwan/WwanPinTypeSubsidyLock, wwan/WwanPinTypeSvcProviderPin, wwan/WwanPinTypeSvcProviderPuk"
+ms.assetid: D4852EC3-AF5B-46BE-99A4-A006F71F5A24
+ms.date: 04/10/2019
 ms.topic: enum
 f1_keywords:
- - "wwan/WWAN_PIN_TYPE"
+ - "wwan/_WWAN_PIN_TYPE"
+ms.keywords: _WWAN_PIN_TYPE WWAN_PIN_TYPE *PWWAN_PIN_TYPE 
 req.header: wwan.h
-req.include-header: Wwan.h
-req.target-type: Windows
-req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
-req.ddi-compliance: 
-req.unicode-ansi: 
-req.idl: 
-req.max-support: 
-req.namespace: 
-req.assembly: 
-req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
+req.include-header:
+req.target-type:
+req.target-min-winverclnt: Windows 10 version 1903
+req.target-min-winversvr:
+req.kmdf-ver:
+req.umdf-ver:
+req.ddi-compliance:
+req.max-support:
+req.typenames: WWAN_PIN_TYPE *PWWAN_PIN_TYPE
+topic_type: 
+- apiref
+api_type: 
 - HeaderDef
-api_location:
+api_location: 
 - wwan.h
-api_name:
-- WWAN_PIN_TYPE
+api_name: 
+- _WWAN_PIN_TYPE
 product:
 - Windows
 targetos: Windows
-req.typenames: WWAN_PIN_TYPE, *PWWAN_PIN_TYPE
+ms.custom: 19H1
 ---
 
 # _WWAN_PIN_TYPE enumeration
 
-
 ## -description
 
-
-The WWAN_PIN_TYPE enumeration lists the different types of Personal Identification Numbers (PINs)
-  that are supported by the MB device.
-
+The **WWAN_PIN_TYPE** enumeration specifies the PIN type for a UICC application.
 
 ## -enum-fields
-
-
-
 
 ### -field WwanPinTypeNone
 
 No PIN is pending to be entered.
 
-
 ### -field WwanPinTypeCustom
 
-The PIN type is a custom type and is none of the other PIN types listed in this
-     enumeration.
-
+The PIN type is a custom type and is none of the other PIN types listed in this enumeration.
 
 ### -field WwanPinTypePin1
 
 The PIN1 key.
 
-
 ### -field WwanPinTypePin2
 
 The PIN2 key.
-
 
 ### -field WwanPinTypeDeviceSimPin
 
 The device to SIM key.
 
-
 ### -field WwanPinTypeDeviceFirstSimPin
 
 The device to very first SIM key.
-
 
 ### -field WwanPinTypeNetworkPin
 
 The network personalization key.
 
-
 ### -field WwanPinTypeNetworkSubsetPin
 
 The network subset personalization key.
-
 
 ### -field WwanPinTypeSvcProviderPin
 
 The service provider (SP) personalization key.
 
-
 ### -field WwanPinTypeCorporatePin
 
 The corporate personalization key.
-
 
 ### -field WwanPinTypeSubsidyLock
 
 The subsidy unlock key.
 
-
 ### -field WwanPinTypePuk1
 
-The Personal Identification Number1 Unlock Key (PUK1).
-
+The Personal Identification Number 1 Unlock Key (PUK1).
 
 ### -field WwanPinTypePuk2
 
-The Personal Identification Number2 Unlock Key (PUK2).
-
+The Personal Identification Number 2 Unlock Key (PUK2).
 
 ### -field WwanPinTypeDeviceFirstSimPuk
 
 The device to very first SIM PIN unlock key.
 
-
 ### -field WwanPinTypeNetworkPuk
 
 The network personalization unlock key.
-
 
 ### -field WwanPinTypeNetworkSubsetPuk
 
 The network subset personalization unlock key.
 
-
 ### -field WwanPinTypeSvcProviderPuk
 
 The service provider (SP) personalization unlock key.
-
 
 ### -field WwanPinTypeCorporatePuk
 
 The corporate personalization unlock key.
 
-
 ### -field WwanPinTypeNev
 
+The NEV key.
 
 ### -field WwanPinTypeAdm
 
+The administrative key.
 
 ### -field WwanPinTypeMax
 
-The total number of supported PIN types.
+The maximum value for this enumeration.
 
+## -remarks
+
+This enumeration is used in the following structures:
+
+- [**WWAN_PIN_INFO**](../wwan/ns-wwan-_wwan_pin_info.md)
+- [**WWAN_PIN_ACTION**](../wwan/ns-wwan-_wwan_pin_action.md)
+- [**WWAN_PIN_ACTION_EX2**](../wwan/ns-wwan-_wwan_pin_action_ex2.md)
 
 ## -see-also
 
+[MB UICC application and file system access](https://docs.microsoft.com/windows-hardware/drivers/network/mb-uicc-application-and-file-system-access)
 
+[OID_WWAN_PIN_EX2](https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-pin-ex2)
 
+[**WWAN_PIN_INFO**](../wwan/ns-wwan-_wwan_pin_info.md)
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_pin_action">WWAN_PIN_ACTION</a>
+[**WWAN_PIN_ACTION**](../wwan/ns-wwan-_wwan_pin_action.md)
 
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_pin_info">WWAN_PIN_INFO</a>
- 
-
- 
-
+[**WWAN_PIN_ACTION_EX2**](../wwan/ns-wwan-_wwan_pin_action_ex2.md)

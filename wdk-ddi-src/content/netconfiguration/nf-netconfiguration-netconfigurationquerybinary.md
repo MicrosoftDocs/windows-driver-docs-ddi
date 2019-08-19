@@ -63,7 +63,7 @@ A handle to a NETCONFIGURATION object that represents an opened registry key.
 
 ### -param ValueName
 
-A pointer to a [**UNICODE_STRING**](../wudfwdm/ns-wudfwdm-_unicode_string.md) structure that contains a value name. 
+A pointer to a [**UNICODE_STRING**](https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-_unicode_string) structure that contains a value name. 
 
 ### -param PoolType
 

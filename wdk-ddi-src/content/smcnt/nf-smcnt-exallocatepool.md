@@ -47,7 +47,7 @@ req.product: Windows 10 or later.
 
 ## -description
 
-The **ExAllocatePool** routine is **obsolete**, and is exported only for existing binaries. Use [**ExAllocatePoolWithTag**](..\wdm\nf-wdm-exallocatepoolwithtag.md) instead.
+The **ExAllocatePool** routine is **obsolete**, and is exported only for existing binaries. Use [**ExAllocatePoolWithTag**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-exallocatepoolwithtag) instead.
 
 **ExAllocatePool** allocates pool memory of the specified type and returns a pointer to the allocated block.
 
@@ -94,8 +94,8 @@ The system automatically sets certain standard event objects when the amount of 
 
 ## -see-also
 
-[**ExAllocatePoolWithTag**](..\wdm\nf-wdm-exallocatepoolwithtag.md)
+[**ExAllocatePoolWithTag**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-exallocatepoolwithtag)
 
-[**ExFreePool**](..\wdm\nf-wdm-exfreepool.md)
+[**ExFreePool**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-exfreepool)
 
 [POOL_TYPE](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_pool_type)
