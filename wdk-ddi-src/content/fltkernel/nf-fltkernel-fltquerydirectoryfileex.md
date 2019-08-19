@@ -93,7 +93,7 @@ One or more of the flags contained in SL_QUERY_DIRECTORY_MASK. Possible values a
 | ----- | ------- |
 | **SL_RESTART_SCAN** (0x00000001) | If this flag is set, the scan will start at the first entry in the directory. If this flag is not set, the scan will resume from where the last query ended. |
 | **SL_RETURN_SINGLE_ENTRY** (0x00000002) | Normally the return buffer is packed with as many matching directory entries that fit. If this flag is set, the file system will return only one directory entry at a time. This does make the operation less efficient. |
-| **SL_INDEX_SPECIFIED** (0x00000004) | If this flag is set, the scan should start at a specified indexed position in the directory. This flag can only be set if you generate your own [IRP_MJ_DIRECTORY_CONTROL IRP](https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/irp-mj-directory-control); the index is specified in the IRP. How the position is specified varies from file system to file system. |
+| **SL_INDEX_SPECIFIED** (0x00000004) | If this flag is set, the scan should start at a specified indexed position in the directory. This flag can only be set if you generate your own [IRP_MJ_DIRECTORY_CONTROL IRP](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-directory-control); the index is specified in the IRP. How the position is specified varies from file system to file system. |
 | **SL_RETURN_ON_DISK_ENTRIES_ONLY** (0x00000008) | If this flag is set, any file system filters that perform directory virtualization or just-in-time expansion should simply pass the request through to the file system and return entries that are currently on disk. Not all file systems support this flag. |
 | **SL_NO_CURSOR_UPDATE_QUERY** (0x00000010) | File systems maintain per-*FileObject* directory cursor information. When multiple threads do queries using the same *FileObject*, access to the per-*FileObject* structure is single threaded to prevent corruption of the cursor state. This flag tells the file system to not update per-*FileObject* cursor state information thus allowing multiple threads to query in parallel using the same handle. It behaves as if SL_RESTART_SCAN is specified on each call. If a wild card pattern is given on the next call, the operation will not pick up where the last query ended. This allows for true asynchronous directory query support. If this flag is used inside a TxF transaction the operation will be failed. Not all file systems support this flag. |
 
@@ -137,7 +137,7 @@ The final call to **FltQueryDirectoryFileEx** returns an empty output buffer and
 
 **FltQueryDirectoryFileEx** returns zero in any member of a FILE_*XXX*_INFORMATION structure that is not supported by the file system.
 
-Callers of **FltQueryDirectoryFileEx** must be running at IRQL = PASSIVE_LEVEL and with APCs enabled. For more information, see [Disabling APCs](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/disabling-apcs).
+Callers of **FltQueryDirectoryFileEx** must be running at IRQL = PASSIVE_LEVEL and with APCs enabled. For more information, see [Disabling APCs](https://docs.microsoft.com/windows-hardware/drivers/kernel/disabling-apcs).
 
 ## -see-also
 
@@ -173,7 +173,7 @@ Callers of **FltQueryDirectoryFileEx** must be running at IRQL = PASSIVE_LEVEL a
 
 [FltQueryDirectoryFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltquerydirectoryfile)
 
-[IRP_MJ_DIRECTORY_CONTROL IRP](https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/irp-mj-directory-control)
+[IRP_MJ_DIRECTORY_CONTROL IRP](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-directory-control)
 
 [UNICODE_STRING](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfwdm/ns-wudfwdm-_unicode_string)
 

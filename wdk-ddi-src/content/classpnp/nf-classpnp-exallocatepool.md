@@ -46,7 +46,7 @@ req.typenames: POWERSOURCEUPDATEEX, *PPOWERSOURCEUPDATEEX
 
 ## -description
 
-The **ExAllocatePool** routine is **obsolete**, and is exported only for existing binaries. Use [**ExAllocatePoolWithTag**](..\wdm\nf-wdm-exallocatepoolwithtag.md) instead.
+The **ExAllocatePool** routine is **obsolete**, and is exported only for existing binaries. Use [**ExAllocatePoolWithTag**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-exallocatepoolwithtag) instead.
 
 **ExAllocatePool** allocates pool memory of the specified type and returns a pointer to the allocated block.
 
@@ -54,20 +54,20 @@ The **ExAllocatePool** routine is **obsolete**, and is exported only for existin
 
 ```cpp
 PVOID ExAllocatePool(
-  _In_ POOL_TYPE PoolType,
-  _In_ SIZE_T    NumberOfBytes
+  _In_ POOL_TYPE a,
+  _In_ SIZE_T b
 );
 ```
 
 ## -parameters
 
-### -param PoolType
+### -param a
 
 Type of pool memory to allocate. For a description of the available pool memory types, see [POOL_TYPE](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_pool_type).
 
-You can modify *PoolType* by using a bitwise OR with the POOL_COLD_ALLOCATION flag as a hint to the kernel to allocate the memory from pages that are likely to be paged out quickly. To reduce the amount of resident pool memory as much as possible, you should not reference these allocations frequently. The POOL_COLD_ALLOCATION flag is only advisory and is available for Windows XP and later versions of the Windows operating system.
+You can modify *a* (*PoolType*) by using a bitwise OR with the POOL_COLD_ALLOCATION flag as a hint to the kernel to allocate the memory from pages that are likely to be paged out quickly. To reduce the amount of resident pool memory as much as possible, you should not reference these allocations frequently. The POOL_COLD_ALLOCATION flag is only advisory and is available for Windows XP and later versions of the Windows operating system.
 
-### -param NumberOfBytes
+### -param b
 
 Number of bytes to allocate.
 
@@ -75,7 +75,7 @@ Number of bytes to allocate.
 
 This routine is used for the general pool allocation of memory.
 
-If *NumberOfBytes* is PAGE_SIZE or greater, a page-aligned buffer is allocated. Memory allocations of PAGE_SIZE or less do not cross page boundaries. Memory allocations of less than PAGE_SIZE are not necessarily page-aligned but are aligned to 8-byte boundaries in 32-bit systems and to 16-byte boundaries in 64-bit systems.
+If *b* (*NumberOfBytes*) is PAGE_SIZE or greater, a page-aligned buffer is allocated. Memory allocations of PAGE_SIZE or less do not cross page boundaries. Memory allocations of less than PAGE_SIZE are not necessarily page-aligned but are aligned to 8-byte boundaries in 32-bit systems and to 16-byte boundaries in 64-bit systems.
 
 A successful allocation requesting *NumberOfBytes* < PAGE_SIZE of nonpaged pool gives the caller exactly the number of requested bytes of memory. If an allocation request for *NumberOfBytes* > PAGE_SIZE succeeds and *NumberOfBytes* is not an exact multiple of PAGE_SIZE, the last page in the allocation contains bytes that are not part of the caller's allocation. If possible, the pool allocator uses these bytes. To avoid corrupting data that belongs to other kernel-mode components, drivers must access only storage addresses that they have explicitly allocated.
 
@@ -93,8 +93,8 @@ The system automatically sets certain standard event objects when the amount of 
 
 ## -see-also
 
-[**ExAllocatePoolWithTag**](..\wdm\nf-wdm-exallocatepoolwithtag.md)
+[**ExAllocatePoolWithTag**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-exallocatepoolwithtag)
 
-[**ExFreePool**](..\wdm\nf-wdm-exfreepool.md)
+[**ExFreePool**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-exfreepool)
 
 [POOL_TYPE](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_pool_type)
