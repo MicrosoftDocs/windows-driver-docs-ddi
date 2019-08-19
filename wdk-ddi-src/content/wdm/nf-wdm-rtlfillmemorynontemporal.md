@@ -6,7 +6,7 @@ description: This function fills a block of memory with the specified fill value
 tech.root:
 ms.assetid: dd55904e-f4ba-4501-9cb8-d653376ebb2f
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/19/2019
 ms.topic: function
 f1_keywords:
  - "wdm/RtlFillMemoryNonTemporal"

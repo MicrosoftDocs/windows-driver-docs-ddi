@@ -6,7 +6,7 @@ description:
 tech.root:
 ms.assetid: 14d2f01f-9df8-4545-bbdb-075c1f5e2259
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/19/2019
 ms.topic: struct
 f1_keywords:
  - "ntddk/WHEAP_ATTEMPT_RECOVERY_EVENT"

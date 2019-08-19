@@ -6,7 +6,7 @@ description: Reserved for system use.
 tech.root:
 ms.assetid: e989f10f-a6db-41f3-ab44-d3c748e2103e
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/19/2019
 ms.topic: function
 f1_keywords:
  - "ntddk/WheaUnconfigureErrorSource"

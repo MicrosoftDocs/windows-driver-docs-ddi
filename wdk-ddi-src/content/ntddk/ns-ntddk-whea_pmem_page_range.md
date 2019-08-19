@@ -6,7 +6,7 @@ description:
 tech.root:
 ms.assetid: 40e9ec87-2e15-4cef-96c8-4b2df3dc9d8b
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/19/2019
 ms.topic: struct
 f1_keywords:
  - "ntddk/WHEA_PMEM_PAGE_RANGE"

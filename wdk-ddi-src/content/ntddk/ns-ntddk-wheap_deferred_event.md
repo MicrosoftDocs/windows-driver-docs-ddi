@@ -6,7 +6,7 @@ description:
 tech.root:
 ms.assetid: 2412af5a-0dd6-4fe6-86f4-dcd298fbfd63
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/19/2019
 ms.topic: struct
 f1_keywords:
  - "ntddk/WHEAP_DEFERRED_EVENT"

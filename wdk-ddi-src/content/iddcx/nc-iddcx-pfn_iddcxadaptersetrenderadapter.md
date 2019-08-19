@@ -6,7 +6,7 @@ description:
 tech.root: display
 ms.assetid: 0a4cd4b6-a6a2-4f23-9775-bddab232fded
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/19/2019
 ms.topic: callback
 f1_keywords:
  - "iddcx/*PFN_IDDCXADAPTERSETRENDERADAPTER"

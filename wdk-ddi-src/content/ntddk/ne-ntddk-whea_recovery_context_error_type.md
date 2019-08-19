@@ -6,7 +6,7 @@ description:
 tech.root:
 ms.assetid: cae5ce3d-64b2-4422-a681-1b7652387df7
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/19/2019
 ms.topic: enum
 f1_keywords:
  - "ntddk/WHEA_RECOVERY_CONTEXT_ERROR_TYPE"

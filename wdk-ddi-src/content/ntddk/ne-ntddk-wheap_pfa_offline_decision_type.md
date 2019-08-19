@@ -6,7 +6,7 @@ description:
 tech.root:
 ms.assetid: 15f0c7d0-4e85-42cc-bc77-f0e154e86bc4
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/19/2019
 ms.topic: enum
 f1_keywords:
  - "ntddk/WHEAP_PFA_OFFLINE_DECISION_TYPE"

@@ -6,7 +6,7 @@ description: The StorPortLogTelemetry routine logs a miniport telemetry event to
 tech.root: storage
 ms.assetid: a4b538e9-f121-4081-9b01-2a9b38c1e266
 ms.author: windowsdriverdev
-ms.date: 03-05-2019
+ms.date: 03/05/2019
 ms.topic: function
 f1_keywords:
  - "storport/StorPortLogTelemetryEx"

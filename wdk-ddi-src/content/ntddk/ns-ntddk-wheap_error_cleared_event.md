@@ -6,7 +6,7 @@ description:
 tech.root:
 ms.assetid: 34e719a1-3e41-4a1a-949a-d35201b26252
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/19/2019
 ms.topic: struct
 f1_keywords:
  - "ntddk/WHEAP_ERROR_CLEARED_EVENT"

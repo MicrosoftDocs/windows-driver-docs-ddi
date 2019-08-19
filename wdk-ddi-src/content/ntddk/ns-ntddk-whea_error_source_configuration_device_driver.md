@@ -6,7 +6,7 @@ description:
 tech.root:
 ms.assetid: c7a125f7-fc0b-4c16-b6a1-ea7f946d778b
 ms.author: windowsdriverdev
-ms.date: 3/5/2019
+ms.date: 03/05/2019
 ms.topic: struct
 f1_keywords:
  - "ntddk/WHEA_ERROR_SOURCE_CONFIGURATION_DEVICE_DRIVER"

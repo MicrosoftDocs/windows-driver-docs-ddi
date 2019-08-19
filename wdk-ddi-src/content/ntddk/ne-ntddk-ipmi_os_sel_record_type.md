@@ -6,7 +6,7 @@ description:
 tech.root:
 ms.assetid: 4de0fd97-77ec-4e9a-bc0d-ae214718f472
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/19/2019
 ms.topic: enum
 f1_keywords:
  - "ntddk/IPMI_OS_SEL_RECORD_TYPE"

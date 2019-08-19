@@ -6,7 +6,7 @@ description: The **STORAGE_PROTOCOL_SPECIFIC_DATA_EXT** structure describes the 
 tech.root: storage
 ms.assetid: d033364c-19ba-4091-a9d2-e9afee5ab7dc
 ms.author: windowsdriverdev
-ms.date: 3/21/19
+ms.date: 03/21/2019
 ms.topic: struct
 f1_keywords:
  - "ntddstor/STORAGE_PROTOCOL_SPECIFIC_DATA_EXT"

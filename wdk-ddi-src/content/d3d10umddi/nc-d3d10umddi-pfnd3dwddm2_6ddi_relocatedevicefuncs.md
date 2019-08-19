@@ -6,7 +6,7 @@ description: The RelocateDeviceFuncs function notifies the user-mode display dri
 tech.root: display
 ms.assetid: 8ae919bf-d9fb-43ec-8895-a83320309d46
 ms.author: windowsdriverdev
-ms.date: 04/04/19
+ms.date: 04/04/2019
 ms.topic: callback
 f1_keywords:
  - "d3d10umddi/PFND3DWDDM2_6DDI_RELOCATEDEVICEFUNCS"

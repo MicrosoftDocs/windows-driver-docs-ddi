@@ -6,7 +6,7 @@ description:
 tech.root:
 ms.assetid: 86af2b66-bf49-4ec4-8258-0093583b14f0
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/19/2019
 ms.topic: struct
 f1_keywords:
  - "wdm/KMUTANT"

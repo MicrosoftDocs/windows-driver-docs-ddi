@@ -6,7 +6,7 @@ description: A storage port driver uses the **STORAGE_HW_ENDURANCE_INFO** struct
 tech.root: storage
 ms.assetid: a2572a43-05b5-45c1-9c4e-c40281affb63
 ms.author: windowsdriverdev
-ms.date: 3/13/2019
+ms.date: 03/13/2019
 ms.topic: struct
 f1_keywords:
  - "ntddstor/STORAGE_HW_ENDURANCE_INFO"

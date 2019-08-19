@@ -6,7 +6,7 @@ description: Queries whether or not a transformation should occur in preparation
 tech.root: display
 ms.assetid: 04ec8f9b-6171-4d59-a8b5-32c2e196adf4
 ms.author: windowsdriverdev
-ms.date: 04/04/19
+ms.date: 04/04/2019
 ms.topic: callback
 f1_keywords:
  - "d3d10umddi/PFND3DWDDM2_6DDI_QUERY_SCANOUT_CAPS"

@@ -6,7 +6,7 @@ description:
 tech.root:
 ms.assetid: 91ffdc97-a46c-4f15-8823-f07d23e6a1d0
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/19/2019
 ms.topic: struct
 f1_keywords:
  - "ntddk/KUSER_SHARED_DATA"
