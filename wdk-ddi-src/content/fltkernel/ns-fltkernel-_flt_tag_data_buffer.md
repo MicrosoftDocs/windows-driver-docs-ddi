@@ -60,7 +60,7 @@ Size, in bytes, of the reparse data pointed to by the **DataBuffer** member.
 
 ### -field UnparsedNameLength
 
-Length, in bytes, of the unparsed portion of the file name pointed to by the **FileName** member of the associated file object.  For more information about the **FileName** member, see [FILE_OBJECT](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_file_object).
+Length, in bytes, of the unparsed portion of the file name pointed to by the **FileName** member of the associated file object.  For more information about the **FileName** member, see [FILE_OBJECT](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_file_object).
 
 ### -field SymbolicLinkReparseBuffer
 
@@ -152,7 +152,7 @@ The FLT_TAG_DATA_BUFFER_HEADER_SIZE macro returns the size of the fixed portion 
 
 ## -see-also
 
-[FILE_OBJECT](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_file_object)
+[FILE_OBJECT](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_file_object)
 
 [FLT_CALLBACK_DATA](ns-fltkernel-_flt_callback_data.md)
 

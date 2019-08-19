@@ -273,7 +273,7 @@ Callers of **FltQueryDirectoryFile** must be running at IRQL = PASSIVE_LEVEL and
 
 [FltQueryDirectoryFileEx](nf-fltkernel-fltquerydirectoryfileex.md)
 
-[IRP_MJ_DIRECTORY_CONTROL IRP](https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/irp-mj-directory-control)
+[IRP_MJ_DIRECTORY_CONTROL IRP](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-directory-control)
 
 [UNICODE_STRING](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfwdm/ns-wudfwdm-_unicode_string)
 
