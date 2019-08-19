@@ -64,8 +64,8 @@ Returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method can ret
 
 The client driver must call **UcmUcsiPpmStart** after it had called UcmUcsiPpmStop for error recovery.  
 
-Although this DDI starts the operations that the class extension needs to perform to initialize the OPM and Command Handler state machines, the client driver is not required to call this function during initialization during normal driver start. The class extension latches on the PnP callbacks to start the required initialization.
-  
+This DDI starts the operations that the class extension needs to perform to initialize the OPM and Command Handler state machines. The client driver must call **UcmUcsiPpmStart** to notify UcmUcsiCx that the driver is ready to receive the IOCTL requests. We recommend that you make this call on or after [**EVT_WDF_DEVICE_PREPARE_HARDWARE**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nc-wdfdevice-evt_wdf_device_prepare_hardware).
+
 Attempting to start the PPM after it has already started leads to an error condition.  
 
 
