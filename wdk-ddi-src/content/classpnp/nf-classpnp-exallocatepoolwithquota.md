@@ -46,7 +46,7 @@ req.typenames: POWERSOURCEUPDATEEX, *PPOWERSOURCEUPDATEEX
 
 ## -description
 
-The **ExAllocatePoolWithQuota** routine is **obsolete**, and is exported only for existing driver binaries. Use [**ExAllocatePoolWithQuotaTag**](..\wdm\nf-wdm-exallocatepoolwithquotatag.md) instead.
+The **ExAllocatePoolWithQuota** routine is **obsolete**, and is exported only for existing driver binaries. Use [**ExAllocatePoolWithQuotaTag**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-exallocatepoolwithquotatag) instead.
 
 **ExAllocatePoolWithQuota** allocates pool memory, charging quota against the current process.
 
@@ -54,28 +54,28 @@ The **ExAllocatePoolWithQuota** routine is **obsolete**, and is exported only fo
 
 ```cpp
 PVOID ExAllocatePoolWithQuota(
-  _In_ POOL_TYPE PoolType,
-  _In_ SIZE_T    NumberOfBytes
+  _In_ POOL_TYPE a,
+  _In_ SIZE_T b
 );
 ```
 
 ## -parameters
 
-### -param PoolType
+### -param a
 
 Specifies the type of pool memory to allocate. For a description of the available pool memory types, see [POOL_TYPE](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_pool_type).
 
-You can modify *PoolType* by using a bitwise OR with the POOL_COLD_ALLOCATION flag as a hint to the kernel to allocate the memory from pages that are likely to be paged out quickly. To reduce the amount of resident pool memory as much as possible, you should not reference these allocations frequently. The POOL_COLD_ALLOCATION flag is only advisory and is available for Windows XP and later versions of the Windows operating system.
+You can modify *a* (*PoolType*) by using a bitwise OR with the POOL_COLD_ALLOCATION flag as a hint to the kernel to allocate the memory from pages that are likely to be paged out quickly. To reduce the amount of resident pool memory as much as possible, you should not reference these allocations frequently. The POOL_COLD_ALLOCATION flag is only advisory and is available for Windows XP and later versions of the Windows operating system.
 
-### -param NumberOfBytes
+### -param b
 
 Specifies the number of bytes to allocate.
 
 ## -remarks
 
-This routine is called by highest-level drivers that allocate memory to satisfy a request in the context of the process that originally made the I/O request. Lower-level drivers call [**ExAllocatePoolWithTag**](..\wdm\nf-wdm-exallocatepoolwithtag.md) instead.
+This routine is called by highest-level drivers that allocate memory to satisfy a request in the context of the process that originally made the I/O request. Lower-level drivers call [**ExAllocatePoolWithTag**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-exallocatepoolwithtag) instead.
 
-If *NumberOfBytes* is PAGE_SIZE or greater, a page-aligned buffer is allocated. Quota is *not* charged to the process for allocations of PAGE_SIZE or greater.
+If *b* (*NumberOfBytes*) is PAGE_SIZE or greater, a page-aligned buffer is allocated. Quota is *not* charged to the process for allocations of PAGE_SIZE or greater.
 
 Memory allocations of less than PAGE_SIZE are allocated within a page and do not cross page boundaries. Memory allocations of PAGE_SIZE or less are not necessarily page-aligned but are aligned to 8-byte boundaries in 32-bit systems and to 16-byte boundaries in 64-bit systems.
 
@@ -91,10 +91,10 @@ Callers of **ExAllocatePoolWithQuota** must be executing at IRQL <= DISPATCH_LEV
 
 ## -see-also
 
-[**ExAllocatePoolWithTag**](..\wdm\nf-wdm-exallocatepoolwithtag.md)
+[**ExAllocatePoolWithTag**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-exallocatepoolwithtag)
 
-[**ExAllocatePoolWithQuotaTag**](..\wdm\nf-wdm-exallocatepoolwithquotatag.md)
+[**ExAllocatePoolWithQuotaTag**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-exallocatepoolwithquotatag)
 
-[**ExFreePool**](..\wdm\nf-wdm-exfreepool.md)
+[**ExFreePool**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-exfreepool)
 
 [POOL_TYPE](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_pool_type)
