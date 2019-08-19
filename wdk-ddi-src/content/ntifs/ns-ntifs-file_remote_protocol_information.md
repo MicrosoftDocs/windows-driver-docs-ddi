@@ -6,7 +6,7 @@ description: The FILE_REMOTE_PROTOCOL_INFORMATION structure contains file remote
 tech.root:
 ms.assetid: b97cbf60-3772-4486-96fd-6dae607e830d
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/19/2019
 ms.topic: struct
 f1_keywords:
  - "ntifs/FILE_REMOTE_PROTOCOL_INFORMATION"

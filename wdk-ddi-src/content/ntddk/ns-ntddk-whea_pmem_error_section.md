@@ -6,7 +6,7 @@ description:
 tech.root:
 ms.assetid: 3f846ba4-7f55-4825-8f2b-e80971c8f099
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/19/2019
 ms.topic: struct
 f1_keywords:
  - "ntddk/WHEA_PMEM_ERROR_SECTION"

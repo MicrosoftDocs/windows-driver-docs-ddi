@@ -6,7 +6,7 @@ description:
 tech.root:
 ms.assetid: 10337aa9-051e-4efe-8423-8b3287ec68d5
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/19/2019
 ms.topic: struct
 f1_keywords:
  - "ntddk/WHEA_PSHED_PLUGIN_REGISTRATION_PACKET_V1"

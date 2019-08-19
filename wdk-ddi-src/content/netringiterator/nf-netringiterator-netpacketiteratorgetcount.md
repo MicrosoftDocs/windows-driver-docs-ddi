@@ -6,7 +6,7 @@ description: The NetPacketIteratorGetCount method gets the count of packets that
 tech.root: netvista
 ms.assetid: 95c6bc74-0188-4b7f-99ee-4c6c7e9eeb66
 ms.author: windowsdriverdev
-ms.date: 02/04/19
+ms.date: 02/04/2019
 ms.topic: function
 f1_keywords:
  - "netringiterator/NetPacketIteratorGetCount"

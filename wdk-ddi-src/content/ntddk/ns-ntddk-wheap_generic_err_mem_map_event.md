@@ -6,7 +6,7 @@ description:
 tech.root:
 ms.assetid: c5309ddf-acfa-4b8b-bd93-3b90c4ec5e6f
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/19/2019
 ms.topic: struct
 f1_keywords:
  - "ntddk/WHEAP_GENERIC_ERR_MEM_MAP_EVENT"

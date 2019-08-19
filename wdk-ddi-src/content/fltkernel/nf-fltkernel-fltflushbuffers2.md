@@ -6,7 +6,7 @@ description: A minifilter driver calls FltFlushBuffers2 to send a flush request 
 tech.root: ifsk
 ms.assetid: 183306c4-79fc-4356-81b3-658b307c7200
 ms.author: windowsdriverdev
-ms.date: 1/11/19
+ms.date: 01/11/2019
 ms.topic: function
 f1_keywords:
  - "fltkernel/FltFlushBuffers2"

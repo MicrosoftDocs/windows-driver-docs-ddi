@@ -6,7 +6,7 @@ description:
 tech.root:
 ms.assetid: b0b42d74-38b7-4587-94c3-b98352e4210e
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/19/2019
 ms.topic: struct
 f1_keywords:
  - "wdm/KERNEL_SOFT_RESTART_NOTIFICATION"

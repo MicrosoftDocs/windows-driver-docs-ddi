@@ -6,7 +6,7 @@ description:
 tech.root:
 ms.assetid: 06ec284c-a570-4690-837d-baf7eca613d7
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/19/2019
 ms.topic: struct
 f1_keywords:
  - "ntddk/WHEAP_FOUND_ERROR_IN_BANK_EVENT"

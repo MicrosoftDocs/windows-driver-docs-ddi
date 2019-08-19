@@ -6,7 +6,7 @@ description: The StorPortMarkDeviceFailed routine marks a device with failed sta
 tech.root: storage
 ms.assetid: 91951a88-18ba-4ddc-b8e0-d789f179fa1f
 ms.author: windowsdriverdev
-ms.date: 3/19/19
+ms.date: 03/19/2019
 ms.topic: function
 f1_keywords:
  - "storport/StorPortMarkDeviceFailed"

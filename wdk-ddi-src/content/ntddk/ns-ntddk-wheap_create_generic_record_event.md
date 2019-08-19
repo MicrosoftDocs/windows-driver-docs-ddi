@@ -6,7 +6,7 @@ description:
 tech.root:
 ms.assetid: 3b14357e-7797-4dce-b579-eff9d9c3382a
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/19/2019
 ms.topic: struct
 f1_keywords:
  - "ntddk/WHEAP_CREATE_GENERIC_RECORD_EVENT"

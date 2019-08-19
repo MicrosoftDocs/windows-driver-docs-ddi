@@ -6,7 +6,7 @@ description: Reserved for system use.
 tech.root:
 ms.assetid: 4113cadd-ec58-4bca-8c37-c8102ae6d1e0
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/19/2019
 ms.topic: function
 f1_keywords:
  - "ntddk/WheaAddErrorSource"

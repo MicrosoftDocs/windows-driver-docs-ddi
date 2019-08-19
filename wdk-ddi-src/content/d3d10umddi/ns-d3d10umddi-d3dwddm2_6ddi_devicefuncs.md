@@ -6,7 +6,7 @@ description: This structure contains the user mode device function table for Win
 tech.root: display
 ms.assetid: 80a077b6-7190-4416-a86d-992375fe8de0
 ms.author: windowsdriverdev
-ms.date: 04/04/19
+ms.date: 04/04/2019
 ms.topic: struct
 f1_keywords:
  - "d3d10umddi/D3DWDDM2_6DDI_DEVICEFUNCS"

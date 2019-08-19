@@ -6,7 +6,7 @@ description:
 tech.root:
 ms.assetid: f180d9d6-ebfd-46de-8e39-5f6f45886169
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/19/2019
 ms.topic: struct
 f1_keywords:
  - "ntddk/WHEAP_PSHED_INJECT_ERROR"

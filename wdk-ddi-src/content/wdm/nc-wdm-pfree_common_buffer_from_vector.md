@@ -6,7 +6,7 @@ description:
 tech.root:
 ms.assetid: 739dda10-91e5-4844-9468-0e9196b7e25d
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/19/2019
 ms.topic: callback
 f1_keywords:
  - "wdm/PFREE_COMMON_BUFFER_FROM_VECTOR"

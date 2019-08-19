@@ -6,7 +6,7 @@ description: Invokes the driver to schedule work to perform the necessary transf
 tech.root: display
 ms.assetid: 84b01acb-e1cb-4ed4-b82c-5dfc427ac05d
 ms.author: windowsdriverdev
-ms.date: 04/04/19
+ms.date: 04/04/2019
 ms.topic: callback
 f1_keywords:
  - "d3d10umddi/PFND3DWDDM2_6DDI_PREPARE_SCANOUT_TRANSFORMATION"
