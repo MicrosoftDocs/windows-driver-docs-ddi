@@ -6,7 +6,7 @@ description: IOCTL_MINIPORT_SIGNATURE_SET_PROTOCOL is the signature used in conj
 tech.root: storage
 ms.assetid: 271794f2-20f8-410d-b6fb-b624f3cb38b2
 ms.author: windowsdriverdev
-ms.date: 03-07-2019
+ms.date: 03/07/2019
 ms.topic: ioctl
 f1_keywords:
  - "ntddscsi/IOCTL_MINIPORT_SIGNATURE_SET_PROTOCOL"

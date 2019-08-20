@@ -6,7 +6,7 @@ description: A miniport uses STORAGE_ENDURANCE_DATA_DESCRIPTOR to report a devic
 tech.root: storage
 ms.assetid: b28ee9f0-f089-4b13-a9b7-5c2521dc8105
 ms.author: windowsdriverdev
-ms.date: 03-18-2019
+ms.date: 03/18/2019
 ms.topic: struct
 f1_keywords:
  - "ntddscsi/STORAGE_ENDURANCE_DATA_DESCRIPTOR"

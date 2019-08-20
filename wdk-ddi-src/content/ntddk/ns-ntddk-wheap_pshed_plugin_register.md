@@ -6,7 +6,7 @@ description:
 tech.root:
 ms.assetid: 033e896d-6d4e-411e-98a4-5f94d37de0bd
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/19/2019
 ms.topic: struct
 f1_keywords:
  - "ntddk/WHEAP_PSHED_PLUGIN_REGISTER"

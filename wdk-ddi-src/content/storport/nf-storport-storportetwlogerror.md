@@ -6,7 +6,7 @@ description: A miniport can call StorPortEtwLogError to log an Event Tracing for
 tech.root: storage
 ms.assetid: 02e3820a-c2f3-45bf-87a9-09d00ab8193e
 ms.author: windowsdriverdev
-ms.date: 03-05-2019
+ms.date: 03/05/2019
 ms.topic: function
 f1_keywords:
  - "storport/StorPortEtwLogError"

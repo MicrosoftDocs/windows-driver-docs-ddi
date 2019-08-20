@@ -6,7 +6,7 @@ description: TBD
 tech.root: display
 ms.assetid: 98694b19-628c-4e3e-959f-49445fa232c2
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/19/2019
 ms.topic: function
 f1_keywords:
  - "iddcx/IddCxAdapterSetRenderAdapter"

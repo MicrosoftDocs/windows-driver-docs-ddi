@@ -6,7 +6,7 @@ description: The STOR_TELEMETRY_CATEGORY enumerator indicates the category of th
 tech.root: storage
 ms.assetid: ad3a4a08-b060-4979-86ca-35d8b868b7f2
 ms.author: windowsdriverdev
-ms.date: 03-06-2019
+ms.date: 03/06/2019
 ms.topic: enum
 f1_keywords:
  - "storport/STOR_TELEMETRY_CATEGORY"

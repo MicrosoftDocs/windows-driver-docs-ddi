@@ -6,7 +6,7 @@ description:
 tech.root:
 ms.assetid: 933266fe-8aa7-4315-b79c-eda96e2f4539
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/19/2019
 ms.topic: struct
 f1_keywords:
  - "ntddk/IPMI_OS_SEL_RECORD"

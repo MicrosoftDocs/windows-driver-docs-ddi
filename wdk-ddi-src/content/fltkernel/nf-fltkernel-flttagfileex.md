@@ -6,7 +6,7 @@ description: FltTagFileEx sets a reparse flag on a file or directory.
 tech.root: ifsk
 ms.assetid: ca975b09-cf73-4768-a314-3ff0e5ba211c
 ms.author: windowsdriverdev
-ms.date: 3/12/2019
+ms.date: 03/12/2019
 ms.topic: function
 f1_keywords:
  - "fltkernel/FltTagFileEx"
@@ -107,28 +107,28 @@ For more information about reparse points, see the Microsoft Windows SDK documen
 
 ## -see-also
 
-[FILE_FS_ATTRIBUTE_INFORMATION](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_fs_attribute_information)
+[FILE_FS_ATTRIBUTE_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_fs_attribute_information)
 
-[FLT_TAG_DATA_BUFFER](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/fltkernel/ns-fltkernel-_flt_tag_data_buffer)
+[FLT_TAG_DATA_BUFFER](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/ns-fltkernel-_flt_tag_data_buffer)
 
-[FSCTL_DELETE_REPARSE_POINT](https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/fsctl-delete-reparse-point)
+[FSCTL_DELETE_REPARSE_POINT](https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-delete-reparse-point)
 
-[FSCTL_GET_REPARSE_POINT](https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/fsctl-get-reparse-point)
+[FSCTL_GET_REPARSE_POINT](https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-get-reparse-point)
 
-[FSCTL_SET_REPARSE_POINT](https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/fsctl-set-reparse-point)
+[FSCTL_SET_REPARSE_POINT](https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-set-reparse-point)
 
-[**FltFsControlFile**](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltfscontrolfile)
+[**FltFsControlFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltfscontrolfile)
 
-[**FltQueryVolumeInformation**](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltqueryvolumeinformation)
+[**FltQueryVolumeInformation**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltqueryvolumeinformation)
 
-[**FltTagFile**](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-flttagfile)
+[**FltTagFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-flttagfile)
 
-[**FltUntagFile**](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltuntagfile)
+[**FltUntagFile**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltuntagfile)
 
-[**IsReparseTagMicrosoft**](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-isreparsetagmicrosoft)
+[**IsReparseTagMicrosoft**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-isreparsetagmicrosoft)
 
-[**IsReparseTagNameSurrogate**](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-isreparsetagnamesurrogate)
+[**IsReparseTagNameSurrogate**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-isreparsetagnamesurrogate)
 
-[REPARSE_DATA_BUFFER](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_reparse_data_buffer)
+[REPARSE_DATA_BUFFER](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_reparse_data_buffer)
 
-[REPARSE_GUID_DATA_BUFFER](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_reparse_guid_data_buffer)
+[REPARSE_GUID_DATA_BUFFER](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_reparse_guid_data_buffer)

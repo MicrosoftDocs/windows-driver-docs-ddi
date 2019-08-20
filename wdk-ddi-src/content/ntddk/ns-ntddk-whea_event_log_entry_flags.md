@@ -6,7 +6,7 @@ description:
 tech.root:
 ms.assetid: 417a74d6-611c-4da9-be6c-42ed204dfe0f
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/19/2019
 ms.topic: struct
 f1_keywords:
  - "ntddk/WHEA_EVENT_LOG_ENTRY_FLAGS"

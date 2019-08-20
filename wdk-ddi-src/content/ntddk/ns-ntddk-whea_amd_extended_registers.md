@@ -6,7 +6,7 @@ description:
 tech.root:
 ms.assetid: 8ffb790e-6f18-4064-bec6-930d2f891f03
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/19/2019
 ms.topic: struct
 f1_keywords:
  - "ntddk/WHEA_AMD_EXTENDED_REGISTERS"

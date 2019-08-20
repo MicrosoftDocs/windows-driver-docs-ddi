@@ -6,7 +6,7 @@ description:
 tech.root:
 ms.assetid: 9fc3e643-2374-4bb2-addc-8824ba4ce064
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/19/2019
 ms.topic: enum
 f1_keywords:
  - "ntddk/WHEA_EVENT_LOG_ENTRY_ID"

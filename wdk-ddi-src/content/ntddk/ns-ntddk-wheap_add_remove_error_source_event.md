@@ -6,7 +6,7 @@ description:
 tech.root:
 ms.assetid: 3b6c84dd-b8ff-4083-9e7f-f82e4f054c3d
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/19/2019
 ms.topic: struct
 f1_keywords:
  - "ntddk/WHEAP_ADD_REMOVE_ERROR_SOURCE_EVENT"

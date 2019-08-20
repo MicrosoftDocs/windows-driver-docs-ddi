@@ -6,7 +6,7 @@ description:
 tech.root:
 ms.assetid: 677c44c7-b158-4164-9b0b-bccdbbff8da5
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/19/2019
 ms.topic: struct
 f1_keywords:
  - "ntddk/MCI_STATUS_INTEL_BITS"

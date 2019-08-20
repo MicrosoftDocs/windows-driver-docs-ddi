@@ -6,7 +6,7 @@ description: The NetPacketIteratorGetPacket method gets the NET_PACKET structure
 tech.root: netvista
 ms.assetid: 56c940bd-c792-4570-8d97-c14fa273c4dc
 ms.author: windowsdriverdev
-ms.date: 02/04/19
+ms.date: 02/04/2019
 ms.topic: function
 f1_keywords:
  - "netringiterator/NetPacketIteratorGetPacket"

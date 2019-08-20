@@ -6,7 +6,7 @@ description:
 tech.root:
 ms.assetid: a3201666-9107-4939-90c8-954bd4f50533
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/19/2019
 ms.topic: struct
 f1_keywords:
  - "ntddk/WHEAP_ERR_SRC_INVALID_EVENT"

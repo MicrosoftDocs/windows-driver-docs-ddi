@@ -6,7 +6,7 @@ description:
 tech.root:
 ms.assetid: 96520e0c-8a60-419a-97f2-f1fe71019570
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/19/2019
 ms.topic: struct
 f1_keywords:
  - "ntddk/WHEA_ERROR_RECORD_HEADER_FLAGS"

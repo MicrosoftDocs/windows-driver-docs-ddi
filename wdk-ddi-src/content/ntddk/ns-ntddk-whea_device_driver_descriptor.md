@@ -6,7 +6,7 @@ description:
 tech.root:
 ms.assetid: 491e4279-f7d5-4461-bbd6-96ad62476c24
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/19/2019
 ms.topic: struct
 f1_keywords:
  - "ntddk/WHEA_DEVICE_DRIVER_DESCRIPTOR"

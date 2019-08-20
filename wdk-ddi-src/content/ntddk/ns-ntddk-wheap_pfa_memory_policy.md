@@ -6,7 +6,7 @@ description:
 tech.root:
 ms.assetid: fc556738-9097-4304-ab9d-7044e24abb65
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 08/19/2019
 ms.topic: struct
 f1_keywords:
  - "ntddk/WHEAP_PFA_MEMORY_POLICY"

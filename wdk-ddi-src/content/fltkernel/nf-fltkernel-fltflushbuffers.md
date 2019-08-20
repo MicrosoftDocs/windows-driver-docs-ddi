@@ -111,7 +111,7 @@ The file resides on a volume that is not currently mounted. This is an error cod
 
 ## -remarks
 
-A minifilter driver can call **FltFlushBuffers** to issue an [IRP_MJ_FLUSH_BUFFERS](https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/irp-mj-flush-buffers) request to the file system for a given file. The flush operation is synchronous and is issued to the instance(s) below the specified *Instance*. 
+A minifilter driver can call **FltFlushBuffers** to issue an [IRP_MJ_FLUSH_BUFFERS](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-flush-buffers) request to the file system for a given file. The flush operation is synchronous and is issued to the instance(s) below the specified *Instance*. 
 
 If *FileObject* is for a file, both the file data and metadata in the file cache will be written, and the underlying storage will be synchronized to flush its cache. If *FileObject* is for a volume, the file system will cause both the file data and metadata for all modified files on the volume will be written, and the underlying storage to be synchronized to flush its cache. Use [FltFlushBuffers2](nf-fltkernel-fltflushbuffers2.md) to more granularly control the flush type that the file system should do.
 
@@ -122,7 +122,7 @@ If *FileObject* is for a file, both the file data and metadata in the file cache
 
 [FltFlushBuffers2](nf-fltkernel-fltflushbuffers2.md)
 
-[IRP_MJ_FLUSH_BUFFERS](https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/irp-mj-flush-buffers)
+[IRP_MJ_FLUSH_BUFFERS](https://docs.microsoft.com/windows-hardware/drivers/ifs/irp-mj-flush-buffers)
 
 
  
