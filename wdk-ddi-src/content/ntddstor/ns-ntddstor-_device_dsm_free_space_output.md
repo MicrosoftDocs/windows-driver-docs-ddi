@@ -4,7 +4,7 @@ title: _DEVICE_DSM_FREE_SPACE_OUTPUT (ntddstor.h)
 description: This structure is reserved for system use only.
 tech.root: storage
 ms.assetid: dda3243e-6416-442d-b7f6-81a2bc093f82
-ms.date: 08/15/2019
+ms.date: 08/23/2019
 ms.topic: struct
 f1_keywords:
  - "ntddstor/_DEVICE_DSM_FREE_SPACE_OUTPUT"

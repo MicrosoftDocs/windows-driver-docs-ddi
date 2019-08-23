@@ -1,11 +1,11 @@
 ---
 UID: NI:ntddstor.IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES
 title: IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES (ntddstor.h)
-description: This IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES request is used to send a manage data set attributes request to a storage device.
+description: This IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES request is used to send a data set management request to a storage device.
 old-location: storage\ioctl_storage_manage_data_set_attributes.htm
 tech.root: storage
 ms.assetid: 678bbca6-f21f-480a-897d-a30e922d01e3
-ms.date: 08/15/2019
+ms.date: 08/23/2019
 ms.keywords: IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES, IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES control, IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES control code [Storage Devices], k307_99edaea9-af25-4aba-ba16-0758c63252b6.xml, ntddstor/IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES, storage.ioctl_storage_manage_data_set_attributes
 ms.topic: ioctl
 f1_keywords:
@@ -46,25 +46,25 @@ req.typenames:
 
 ## -description
 
-This IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES request is used to send a data set attributes management request to a storage device.
+This **IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES** request is used to send a data set management request to a storage device.
 
 ## -ioctlparameters
 
 ### -input-buffer
 
-The buffer at *Irp->AssociatedIrp.SystemBuffer* contains a [DEVICE_DSM_INPUT](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor-_device_manage_data_set_attributes) structure. Note that the buffer may include parameter and data set range blocks. Also, the **Action** member of this structure defines the action to be performed as a DEVICE_DSM_ACTION value.
+The buffer at *Irp->AssociatedIrp.SystemBuffer* contains a [DEVICE_DSM_INPUT](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor-_device_manage_data_set_attributes) structure. Depending on the **Action** member of this structure, the input buffer might additionally include a parameter block and block of data set ranges. See [DEVICE_DSM_ACTION Descriptions](https://docs.microsoft.com/windows-hardware/drivers/storage/device-dsm-action-descriptions) for descriptions of all possible actions.
 
 ### -input-buffer-length
 
-*Parameters.DeviceIoControl.InputBufferLength* in the I/O stack location of the IRP indicates the size, in bytes, of the buffer, which must be at least **sizeof**(DEVICE_DSM_INPUT).
+*Parameters.DeviceIoControl.InputBufferLength* in the I/O stack location of the IRP indicates the size, in bytes, of the buffer, which must be at least **sizeof**([DEVICE_DSM_INPUT](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor-_device_manage_data_set_attributes)).
 
 ### -output-buffer
 
-Depending on the value set in the **Action** member of DEVICE_DSM_INPUT, the request may return data in a [DEVICE_DSM_OUTPUT](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor-_device_manage_data_set_attributes_output) structure in the buffer at *Irp->AssociatedIrp.UserBuffer*. This buffer will contain valid data if the manage data set action operation returns output and *Parameters.DeviceIoControl.OutputBufferLength* > 0.
+Depending on the value set in the **Action** member of DEVICE_DSM_INPUT, the request may return data in the buffer at *Irp->AssociatedIrp.SystemBuffer*. The system buffer will contain valid [DEVICE_DSM_OUTPUT](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor-_device_manage_data_set_attributes_output) data if the DSM operation returns output and *Parameters.DeviceIoControl.OutputBufferLength* > 0. Depending on **Action**, the output buffer might additionally include an output block.
 
 ### -output-buffer-length
 
-The length of DEVICE_DSM_OUTPUT, in bytes.
+The length in bytes of the output buffer, if any. If output is returned, the output buffer must be at least **sizeof**([DEVICE_DSM_OUTPUT](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor-_device_manage_data_set_attributes_output)).
 
 ### -in-out-buffer
 
@@ -76,13 +76,15 @@ The **Status** field can be set to STATUS_SUCCESS, or possibly to STATUS_INVALID
 
 ## -remarks
 
-See [DEVICE_DSM_ACTION Descriptions](https://docs.microsoft.com/windows-hardware/drivers/storage/device-dsm-action-descriptions) for descriptions of the DEVICE_DSM_ACTION constants.
-
 Due to memory pool requirements by the storage driver stack, completion of the IRP containing this IOCTL must be at IRQL < DISPATCH_LEVEL.
+
+See [Data Set Management Overview](https://docs.microsoft.com/windows-hardware/drivers/storage/data-set-management-overview) for more information.
 
 ## -see-also
 
-[DEVICE_DSM_ACTION Descriptions](https://docs.microsoft.com/windows-hardware/drivers/storage/device-dsm-action-descriptions)
+[Data Set Management Overview](https://docs.microsoft.com/windows-hardware/drivers/storage/data-set-management-overview)
+
+[DEVICE_DSM_ACTION Descriptions](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdd)
 
 [DEVICE_DSM_INPUT](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor-_device_manage_data_set_attributes)
 

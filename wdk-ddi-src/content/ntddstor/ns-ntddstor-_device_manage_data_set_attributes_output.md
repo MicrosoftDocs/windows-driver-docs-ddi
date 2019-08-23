@@ -5,7 +5,7 @@ description: The DEVICE_DSM_OUTPUT (or DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT)
 old-location: storage\device_manage_data_set_attributes_output.htm
 tech.root: storage
 ms.assetid: FFC52136-8A1C-48F6-A846-C1C5BFB4570C
-ms.date: 08/15/2019
+ms.date: 08/23/2019
 ms.keywords: "DEVICE_DSM_OUTPUT, PDEVICE_DSM_OUTPUT, *PDEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT structure [Storage Devices], PDEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, PDEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT structure pointer [Storage Devices], _DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, ntddstor/DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, ntddstor/PDEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, storage.device_manage_data_set_attributes_output"
 ms.topic: struct
 f1_keywords:
@@ -89,8 +89,6 @@ The length of the action-specific data, in bytes.
 ## -remarks
 
 Depending on the value of **Action**, an output block is written at an offset of **OutputBlockOffset** after the beginning of this structure. The size of the output block is specified in **OutputBlockLength**.
-
-Currently, only the **DeviceDsmAction_Allocation** action uses this structure.
 
 ## -see-also
 

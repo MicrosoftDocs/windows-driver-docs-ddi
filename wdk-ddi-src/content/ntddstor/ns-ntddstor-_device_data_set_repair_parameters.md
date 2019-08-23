@@ -5,7 +5,7 @@ description: The DEVICE_DATA_SET_REPAIR_PARAMETERS structure specifies the param
 old-location: storage\device_data_set_repair_parameters.htm
 tech.root: storage
 ms.assetid: BBA834D0-4D21-42EF-98B0-9AF3FF28E6E2
-ms.date: 08/15/2019
+ms.date: 08/23/2019
 ms.keywords: "*PDEVICE_DATA_SET_REPAIR_PARAMETERS, DEVICE_DATA_SET_REPAIR_PARAMETERS, DEVICE_DATA_SET_REPAIR_PARAMETERS structure [Storage Devices], PDEVICE_DATA_SET_REPAIR_PARAMETERS, PDEVICE_DATA_SET_REPAIR_PARAMETERS structure pointer [Storage Devices], _DEVICE_DATA_SET_REPAIR_PARAMETERS, ntddstor/DEVICE_DATA_SET_REPAIR_PARAMETERS, ntddstor/PDEVICE_DATA_SET_REPAIR_PARAMETERS, storage.device_data_set_repair_parameters"
 ms.topic: struct
 f1_keywords:

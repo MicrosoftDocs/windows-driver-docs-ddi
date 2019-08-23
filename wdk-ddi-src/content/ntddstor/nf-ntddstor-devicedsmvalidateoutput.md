@@ -4,7 +4,7 @@ title: DeviceDsmValidateOutput function (ntddstor.h)
 description: The DeviceDsmValidateOutput function validates a DEVICE_DSM_OUTPUT structure.
 tech.root: storage
 ms.assetid: 322aad6f-62d2-4530-be13-c3f8f64a1a26
-ms.date: 08/15/2019
+ms.date: 08/23/2019
 ms.topic: function
 f1_keywords:
  - "ntddstor/DeviceDsmValidateOutput"
@@ -44,28 +44,34 @@ targetos: Windows
 
 ## -description
 
-The **DeviceDsmValidateOutput** function validates a [DEVICE_DSM_OUTPUT](ns-ntddstor-_device_manage_data_set_attributes_output.md) structure.
+The **DeviceDsmValidateOutput** function validates the output for a data set management (DSM) operation.
 
 ## -parameters
 
 ### -param Definition
 
-Pointer to an opaque [DEVICE_DSM_DEFINITION](ns-ntddstor-_device_dsm_definition.md) structure that contains output block alignment and length information.
+Pointer to a [DEVICE_DSM_DEFINITION](ns-ntddstor-_device_dsm_definition.md) structure that defines the operation.
 
 ### -param Output
 
-Pointer to the DEVICE_DSM_OUTPUT structure to be validated.
+Pointer to the [DEVICE_DSM_OUTPUT](ns-ntddstor-_device_manage_data_set_attributes_output.md) structure of the operation.
 
 ### -param OutputLength
 
-The length, in bytes, of the structure to which *Output* points.
+The length, in bytes, of the entire output buffer.
 
 ## -returns
 
-Returns TRUE if the [DEVICE_DSM_OUTPUT](ns-ntddstor-_device_manage_data_set_attributes_output.md) structure is valid, or FALSE otherwise.
+Returns TRUE if the output is valid, or FALSE otherwise.
 
 ## -remarks
 
+The output is returned in the payload of an [IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ni-ntddstor-ioctl_storage_manage_data_set_attributes) request. Before extracting the output, the caller should first call **DeviceDsmValidateOutput** to ensure that the output is valid based on the operation's *Definition* and *Output* (whose **Action** members must match), including the DEVICE_DSM_OUTPUT structure that *Output* points to, and the output block, if any, that follows the DEVICE_DSM_OUTPUT structure.
+
+See [Data Set Management Overview](https://docs.microsoft.com/windows-hardware/drivers/storage/data-set-management-overview) for more details on handling a DSM.
+
 ## -see-also
 
-[**DeviceDsmValidateOutputLength**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/nf-ntddstor-devicedsmvalidateoutputlength)
+[Data Set Management Overview](https://docs.microsoft.com/windows-hardware/drivers/storage/data-set-management-overview)
+
+[DEVICE_DSM_OUTPUT](ns-ntddstor-_device_manage_data_set_attributes_output.md)

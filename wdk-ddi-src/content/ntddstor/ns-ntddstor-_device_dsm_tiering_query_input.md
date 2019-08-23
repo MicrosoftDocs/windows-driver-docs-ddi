@@ -6,7 +6,7 @@ description: This structure is reserved for system use only.
 tech.root: storage
 ms.assetid: 9d78696a-6b87-42e6-9587-59cf2124ee0f
 ms.author: windowsdriverdev
-ms.date: 08/15/2019
+ms.date: 08/23/2019
 ms.topic: struct
 f1_keywords:
  - "ntddstor/DEVICE_DSM_TIERING_QUERY_INPUT"

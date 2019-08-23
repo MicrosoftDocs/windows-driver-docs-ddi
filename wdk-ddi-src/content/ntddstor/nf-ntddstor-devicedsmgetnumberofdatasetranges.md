@@ -1,10 +1,10 @@
 ---
 UID: NF:ntddstor.DeviceDsmGetNumberOfDataSetRanges
 title: DeviceDsmGetNumberOfDataSetRanges function (ntddstor.h)
-description: The DeviceDsmGetNumberOfDataSetRanges function gets the number of data set ranges in a given input length.
+description: The DeviceDsmGetNumberOfDataSetRanges function gets the number of data set ranges in the payload of an IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES request.
 tech.root: storage
 ms.assetid: a53b0fcc-7286-4d65-b4a0-d46b505073e7
-ms.date: 08/15/2019
+ms.date: 08/23/2019
 ms.topic: function
 f1_keywords:
  - "ntddstor/DeviceDsmGetNumberOfDataSetRanges"
@@ -44,17 +44,17 @@ targetos: Windows
 
 ## -description
 
-The **DeviceDsmGetNumberOfDataSetRanges** function gets the number of data set ranges in a given input operation.
+The **DeviceDsmGetNumberOfDataSetRanges** function gets the number of data set ranges required for the specified data set management (DSM) operation.
 
 ## -parameters
 
 ### -param Definition
 
-Pointer to an opaque [DEVICE_DSM_DEFINITION](ns-ntddstor-_device_dsm_definition.md) structure that contains parameter block alignment and length information.
+Pointer to a [DEVICE_DSM_DEFINITION](ns-ntddstor-_device_dsm_definition.md) structure that defines the operation.
 
 ### -param InputLength
 
-The length, in bytes, of the input buffer.
+The length, in bytes, of the entire input buffer.
 
 ### -param ParameterBlockLength
 
@@ -62,12 +62,18 @@ The length, in bytes, of a parameter block.
 
 ## -returns
 
-Returns the number of data set ranges in the given input length.
+**DeviceDsmGetNumberOfDataSetRanges** returns the number of data set ranges required for the specified operation. Each range is **sizeof**([DEVICE_DSM_RANGE]((ns-ntddstor-_device_data_set_range.md))).
 
 ## -remarks
 
-A DSM operation handler calls **DeviceDsmGetNumberOfDataSetRanges** to determine the number of data set ranges in the operation's input length.
+See [Data Set Management](https://docs.microsoft.com/windows-hardware/drivers/storage/data-set-management-overview) for details on how to process a DSM.
 
 ## -see-also
 
-[DEVICE_DSM_RANGE](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor-_device_data_set_range)
+[Data Set Management](https://docs.microsoft.com/windows-hardware/drivers/storage/data-set-management-overview)
+
+[DEVICE_DSM_DEFINITION](ns-ntddstor-_device_dsm_definition.md)
+
+[DEVICE_DSM_RANGE](ns-ntddstor-_device_data_set_range.md)
+
+[IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ni-ntddstor-ioctl_storage_manage_data_set_attributes)

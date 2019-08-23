@@ -6,7 +6,7 @@ description: The DeviceDsmValidateOutputLength function validates the length of 
 tech.root: storage
 ms.assetid: 953960c8-dfe1-48d9-9265-08e37a18d0d4
 ms.author: windowsdriverdev
-ms.date: 08/15/2019
+ms.date: 08/23/2019
 ms.topic: function
 ms.keywords: DeviceDsmValidateOutputLength
 f1_keywords:
@@ -52,20 +52,26 @@ The **DeviceDsmValidateOutputLength** function validates the length of an output
 
 ### -param Definition
 
-Pointer to an opaque [DEVICE_DSM_DEFINITION](ns-ntddstor-_device_dsm_definition.md) structure that contains output block alignment and length information.
+Pointer to a [DEVICE_DSM_DEFINITION](ns-ntddstor-_device_dsm_definition.md) structure that defines the operation.
 
 ### -param OutputLength
 
-Sender-provided value that specifies the length, in bytes, of the sender-provided output buffer.
+Length, in bytes, of the output buffer.
 
 ## -returns
 
-This function returns **TRUE** when the length of the output buffer is valid; otherwise, it returns **FALSE**.
+**DeviceDsmValidateOutputLength** returns **TRUE** when the length of the output buffer is valid; otherwise, it returns **FALSE**.
 
 ## -remarks
 
-The output buffer includes the DEVICE_DSM_OUTPUT structure plus its associated output block.
+The output buffer includes the [DEVICE_DSM_OUTPUT](ns-ntddstor-_device_manage_data_set_attributes_output.md) structure plus the output block that immediately follows it, if any.
+
+See [Data Set Management Overview](https://docs.microsoft.com/windows-hardware/drivers/storage/data-set-management-overview) for more details on handling a DSM.
 
 ## -see-also
 
-[**DeviceDsmValidateOutput**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/nf-ntddstor-devicedsmvalidateoutput)
+[Data Set Management Overview](https://docs.microsoft.com/windows-hardware/drivers/storage/data-set-management-overview)
+
+[DEVICE_DSM_DEFINITION](ns-ntddstor-_device_dsm_definition.md)
+
+[DEVICE_DSM_OUTPUT](ns-ntddstor-_device_manage_data_set_attributes_output.md)

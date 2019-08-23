@@ -4,7 +4,7 @@ title: DeviceDsmOutputBlock function (ntddstor.h)
 description: The DeviceDsmOutputBlock function gets the output block of a DEVICE_DSM_OUTPUT structure.
 tech.root: storage
 ms.assetid: a33581ae-15ac-4957-99a0-58ed8c8dbd24
-ms.date: 08/15/2019
+ms.date: 08/23/2019
 ms.topic: function
 f1_keywords:
  - "ntddstor/DeviceDsmOutputBlock"
@@ -57,6 +57,8 @@ Pointer to the [DEVICE_DSM_OUTPUT](ns-ntddstor-_device_manage_data_set_attribute
 Returns a pointer to the output block that immediately follows the DEVICE_DSM_OUTPUT structure that *Output* points to.
 
 ## -remarks
+
+See [Data Set Management Overview](https://docs.microsoft.com/windows-hardware/drivers/storage/data-set-management-overview) for information on how to set up and process a DSM action.
 
 ## -see-also
 

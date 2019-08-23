@@ -6,7 +6,7 @@ description: The IsDsmActionNonDestructive macro determines whether a data set m
 tech.root: storage
 ms.assetid: a52c39a3-c6a2-4885-9679-5f56531be851
 ms.author: windowsdriverdev
-ms.date: 08/15/2019
+ms.date: 08/23/2019
 ms.topic: macro
 f1_keywords:
  - "ntddstor/IsDsmActionNonDestructive"

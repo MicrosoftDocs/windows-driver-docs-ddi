@@ -1,11 +1,11 @@
 ---
 UID: NS:ntddstor._DEVICE_DSM_NOTIFICATION_PARAMETERS
 title: _DEVICE_DSM_NOTIFICATION_PARAMETERS (ntddstor.h)
-description: The DEVICE_DSM_NOTIFICATION_PARAMETERS structure specifies the parameters for a notification action related to the data-set attributes for a device.
+description: The DEVICE_DSM_NOTIFICATION_PARAMETERS structure specifies the parameters for a notification operation related to the data-set attributes for a device.
 old-location: storage\device_dsm_notification_parameters.htm
 tech.root: storage
 ms.assetid: 57885E58-C7EC-493E-9AB8-B9DABC6CEA2A
-ms.date: 08/15/2019
+ms.date: 08/23/2019
 ms.keywords: "*PDEVICE_DSM_NOTIFICATION_PARAMETERS, DEVICE_DSM_NOTIFICATION_PARAMETERS, DEVICE_DSM_NOTIFICATION_PARAMETERS structure [Storage Devices], PDEVICE_DSM_NOTIFICATION_PARAMETERS, PDEVICE_DSM_NOTIFICATION_PARAMETERS structure pointer [Storage Devices], _DEVICE_DSM_NOTIFICATION_PARAMETERS, ntddstor/DEVICE_DSM_NOTIFICATION_PARAMETERS, ntddstor/PDEVICE_DSM_NOTIFICATION_PARAMETERS, storage.device_dsm_notification_parameters"
 ms.topic: struct
 f1_keywords:
@@ -46,9 +46,7 @@ req.typenames: DEVICE_DSM_NOTIFICATION_PARAMETERS, *PDEVICE_DSM_NOTIFICATION_PAR
 
 ## -description
 
-The DEVICE_DSM_NOTIFICATION_PARAMETERS structure specifies the parameters for a notification action related to the data-set attributes for a device.
-
-The notification action is specified in the [DEVICE_DSM_INPUT](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor-_device_manage_data_set_attributes) structure that is contained in the system buffer of an [IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ni-ntddstor-ioctl_storage_manage_data_set_attributes) request.
+The DEVICE_DSM_NOTIFICATION_PARAMETERS structure specifies the parameters for a notification operation related to the data-set attributes for a device.
 
 ## -struct-fields
 
@@ -62,7 +60,7 @@ A flag that specifies the characteristics of the notification operation. The **F
 
 | Flag | Meaning |
 | ---- | ------- |
-| DEVICE_DSM_NOTIFY_FLAG_BEGIN | The Logical Block Address (LBA) range is currently being used by the file types that are specified in the **FileTypeID** member. The LBA range is specified by the data set range of the DEVICE_DSM_INPUT structure. |
+| DEVICE_DSM_NOTIFY_FLAG_BEGIN | The Logical Block Address (LBA) range is currently being used by the file types that are specified in the **FileTypeID** member. The LBA range is specified by the data set range within the payload of an [IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ni-ntddstor-ioctl_storage_manage_data_set_attributes) request. |
 | DEVICE_DSM_NOTIFY_FLAG_END | The LBA range is no longer being used by the file types that are specified in the **FileTypeID** member. |
 
 ### -field NumFileTypeIDs
@@ -81,6 +79,8 @@ One or more [GUID](https://docs.microsoft.com/windows-hardware/customize/desktop
 
 ## -remarks
 
+The notification is specified in the parameter block within the payload of an [IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ni-ntddstor-ioctl_storage_manage_data_set_attributes) request. See [Data Set Management Overview](https://docs.microsoft.com/windows-hardware/drivers/storage/data-set-management-overview) for a general description of the payload layout.
+
 Starting with Windows 7, the NTFS file system notifies the storage stack when the logical block addressing (LBA) data set range changes for a specified set of files. The file system issues this notification by sending the storage stack an [IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ni-ntddstor-ioctl_storage_manage_data_set_attributes) request with a system buffer that contains a [DEVICE_DSM_INPUT](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor-_device_manage_data_set_attributes) structure. For the notification operation, the file system sets the members of the DEVICE_DSM_INPUT structure as follows:
 
 * The **Action** member is set to **DeviceDsmAction_Notification**.
@@ -89,6 +89,8 @@ Starting with Windows 7, the NTFS file system notifies the storage stack when th
 * If the **Flags** member is set to DEVICE_DSM_FLAG_ENTIRE_DATA_SET_RANGE, the **DataSetRangesOffset** and **DataSetRangesLength** members are set to zero and the notification action includes the entire data set range for the specified files.
 
 ## -see-also
+
+[Data Set Management Overview](https://docs.microsoft.com/windows-hardware/drivers/storage/data-set-management-overview)
 
 [DEVICE_DSM_ACTION Descriptions](https://docs.microsoft.com/windows-hardware/drivers/storage/device-dsm-action-descriptions)
 

@@ -4,7 +4,7 @@ title: DeviceDsmGetOutputLength function (ntddstor.h)
 description: The DeviceDsmGetOutputLength function gets the length, in bytes, of a data set management output operation.
 tech.root: storage
 ms.assetid: deb9e6b6-d744-4c3a-a6f4-d1b452401a08
-ms.date: 08/15/2019
+ms.date: 08/23/2019
 ms.topic: function
 f1_keywords:
  - "ntddstor/DeviceDsmGetOutputLength"
@@ -44,13 +44,13 @@ targetos: Windows
 
 ## -description
 
-The **DeviceDsmGetOutputLength** function gets the length, in bytes, of a data set management (DSM) output operation.
+The **DeviceDsmGetOutputLength** function gets the length, in bytes, of the output buffer for a data set management (DSM) operation.
 
 ## -parameters
 
 ### -param Definition
 
-Pointer to an opaque [DEVICE_DSM_DEFINITION](ns-ntddstor-_device_dsm_definition.md) structure that contains parameter block alignment and length information.
+Pointer to a [DEVICE_DSM_DEFINITION](ns-ntddstor-_device_dsm_definition.md) structure that defines the DSM operation.
 
 ### -param OutputBlockLength
 
@@ -58,8 +58,16 @@ The length, in bytes, of the output block.
 
 ## -returns
 
-Returns the total number of bytes in the output: the length of a [DEVICE_DSM_OUTPUT](ns-ntddstor-_device_manage_data_set_attributes_output.md) structure plus the length of the output block.
+**DeviceDsmGetOutputLength** returns the total number of bytes in the output: the length of a [DEVICE_DSM_OUTPUT](ns-ntddstor-_device_manage_data_set_attributes_output.md) structure plus the length of the output block, if any. It returns zero if the operation does not have output.
 
 ## -remarks
 
+See [Data Set Management Overview](https://docs.microsoft.com/windows-hardware/drivers/storage/data-set-management-overview) for information on how to set up and process a DSM action.
+
 ## -see-also
+
+[Data Set Management Overview](https://docs.microsoft.com/windows-hardware/drivers/storage/data-set-management-overview)
+
+[DEVICE_DSM_DEFINITION](ns-ntddstor-_device_dsm_definition.md)
+
+[DEVICE_DSM_OUTPUT](ns-ntddstor-_device_manage_data_set_attributes_output.md)

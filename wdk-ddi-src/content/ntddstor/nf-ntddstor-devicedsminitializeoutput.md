@@ -4,7 +4,7 @@ title: DeviceDsmInitializeOutput function (ntddstor.h)
 description: The DeviceDsmInitializeOutput function initializes a DEVICE_DSM_OUTPUT structure.
 tech.root: storage
 ms.assetid: e68acc49-63c9-4ea2-9450-fa45dd2b5e06
-ms.date: 08/15/2019
+ms.date: 08/23/2019
 ms.topic: function
 f1_keywords:
  - "ntddstor/DeviceDsmInitializeOutput"
@@ -50,7 +50,7 @@ The **DeviceDsmInitializeOutput** function initializes a [DEVICE_DSM_OUTPUT](ns-
 
 ### -param Definition
 
-Pointer to an opaque [DEVICE_DSM_DEFINITION](ns-ntddstor-_device_dsm_definition.md) structure that contains parameter block alignment and length information.
+Pointer to a [DEVICE_DSM_DEFINITION](ns-ntddstor-_device_dsm_definition.md) structure that defines the data set management (DSM) operation.
 
 ### -param Output
 
@@ -58,11 +58,11 @@ Pointer to the [DEVICE_DSM_OUTPUT](ns-ntddstor-_device_manage_data_set_attribute
 
 ### -param OutputLength
 
-The length, in bytes, of the output.
+The length, in bytes, of the entire output buffer.
 
 ### -param Flags
 
-Flags for the data set management action in the DEVICE_DSM_OUTPUT structure.
+Flags for the DSM action in the DEVICE_DSM_OUTPUT structure.
 
 ## -returns
 
@@ -70,6 +70,12 @@ This function does not return a value.
 
 ## -remarks
 
+See [Data Set Management Overview](https://docs.microsoft.com/windows-hardware/drivers/storage/data-set-management-overview) for information on how to process a DSM.
+
 ## -see-also
+
+[Data Set Management Overview](https://docs.microsoft.com/windows-hardware/drivers/storage/data-set-management-overview)
+
+[DEVICE_DSM_DEFINITION](ns-ntddstor-_device_dsm_definition.md)
 
 [DEVICE_DSM_OUTPUT](ns-ntddstor-_device_manage_data_set_attributes_output.md)

@@ -1,10 +1,10 @@
 ---
 UID: NF:ntddstor.DeviceDsmParameterBlock
 title: DeviceDsmParameterBlock function (ntddstor.h)
-description: The DeviceDsmParameterBlock function gets the parameter block for a DEVICE_DSM_INPUT structure.
+description: The DeviceDsmParameterBlock function gets the parameter block for a data set management (DSM) operation.
 tech.root: storage
 ms.assetid: 60c25727-7218-4b5e-935f-fb34fe926da5
-ms.date: 08/15/2019
+ms.date: 08/23/2019
 ms.topic: function
 f1_keywords:
  - "ntddstor/DeviceDsmParameterBlock"
@@ -44,20 +44,24 @@ targetos: Windows
 
 ## -description
 
-The **DeviceDsmParameterBlock** function gets the parameter block associated with a [DEVICE_DSM_INPUT](ns-ntddstor-_device_manage_data_set_attributes.md) structure.
+The **DeviceDsmParameterBlock** function gets the parameter block for a data set management (DSM) operation.
 
 ## -parameters
 
 ### -param Input
 
-Pointer to a DEVICE_DSM_INPUT structure.
+Pointer to a [DEVICE_DSM_INPUT](ns-ntddstor-_device_manage_data_set_attributes.md) structure.
 
 ## -returns
 
-Returns a pointer to the parameter block that immediately follows the DEVICE_DSM_INPUT structure.
+**DeviceDsmParameterBlock** returns a pointer to the parameter block that immediately follows the DEVICE_DSM_INPUT structure.
 
 ## -remarks
 
+The DSM handler calls this function only if the members of *Input* indicate that the operation has a parameter block. See [Data Set Management](https://docs.microsoft.com/windows-hardware/drivers/storage/data-set-management-overview) for details on how to process a DSM.
+
 ## -see-also
+
+[Data Set Management](https://docs.microsoft.com/windows-hardware/drivers/storage/data-set-management-overview)
 
 [DEVICE_DSM_INPUT](ns-ntddstor-_device_manage_data_set_attributes.md)

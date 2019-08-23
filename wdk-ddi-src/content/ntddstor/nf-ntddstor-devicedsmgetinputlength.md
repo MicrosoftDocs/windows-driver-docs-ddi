@@ -4,7 +4,7 @@ title: DeviceDsmGetInputLength function (ntddstor.h)
 description: The DeviceDsmGetInputLength function gets the number of bytes in a DEVICE_DSM_INPUT structure.
 tech.root: storage
 ms.assetid: 689bb265-239d-442c-b2ae-be648cf8d641
-ms.date: 08/15/2019
+ms.date: 08/23/2019
 ms.topic: function
 f1_keywords:
  - "ntddstor/DeviceDsmGetInputLength"
@@ -44,28 +44,34 @@ targetos: Windows
 
 ## -description
 
-The **DeviceDsmGetInputLength** function gets the total number of bytes in a data set management (DSM) input operation.
+The **DeviceDsmGetInputLength** function calculates the total number of bytes in a data set management (DSM) input operation.
 
 ## -parameters
 
 ### -param Definition
 
-A pointer to an opaque [DEVICE_DSM_DEFINITION](ns-ntddstor-_device_dsm_definition.md) structure that contains parameter block alignment and length information.
+Pointer to a [DEVICE_DSM_DEFINITION](ns-ntddstor-_device_dsm_definition.md) structure that defines the action.
 
 ### -param ParameterBlockLength
 
-The length, in bytes, of the input operation's parameter block. If the input operation has no parameters, set *ParameterBlockLength* to zero.
+The length, in bytes, of the input operation's parameter block. If the input operation has no parameters, *ParameterBlockLength* is set to zero.
 
 ### -param NumberOfDataSetRanges
 
-The number of data set ranges in the [DEVICE_DSM_INPUT](ns-ntddstor-_device_manage_data_set_attributes.md) structure. If the input operation has no data set ranges, set *NumberOfDataSetRanges* to zero.
+The number of data set ranges associated with the input operation. If the input operation has no data set ranges, *NumberOfDataSetRanges* is set to zero.
 
 ## -returns
 
-Returns the total number of bytes in the input operation: the length of the DEVICE_DSM_INPUT structure plus the length of the parameter block, plus the length of all data set ranges.
+**DeviceDsmGetInputLength** returns the total number of bytes required for the input operation: the length of the [DEVICE_DSM_INPUT](ns-ntddstor-_device_manage_data_set_attributes.md) structure, plus the length of the parameter block (if any), plus the length of all data set ranges (if any).
 
 ## -remarks
 
+See [Data Set Management Overview](https://docs.microsoft.com/windows-hardware/drivers/storage/data-set-management-overview) for information on how to set up and process a DSM action.
+
 ## -see-also
+
+[Data Set Management Overview](https://docs.microsoft.com/windows-hardware/drivers/storage/data-set-management-overview)
+
+[DEVICE_DSM_DEFINITION](ns-ntddstor-_device_dsm_definition.md)
 
 [DEVICE_DSM_INPUT](ns-ntddstor-_device_manage_data_set_attributes.md)

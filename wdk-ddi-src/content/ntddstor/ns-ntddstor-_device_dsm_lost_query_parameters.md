@@ -4,7 +4,7 @@ title: _DEVICE_DSM_LOST_QUERY_PARAMETERS (ntddstor.h)
 description: This structure is reserved for system use only.
 tech.root: storage
 ms.assetid: 202e9749-20af-409f-93d6-52ad52fa9b49
-ms.date: 08/15/2019
+ms.date: 08/23/2019
 ms.topic: struct
 f1_keywords:
  - "ntddstor/_DEVICE_DSM_LOST_QUERY_PARAMETERS"
