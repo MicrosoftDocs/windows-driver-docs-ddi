@@ -5,7 +5,7 @@ description: The STORAGE_OFFLOAD_WRITE_OUTPUT structure is the output of an IOCT
 old-location: storage\storage_offload_write_output.htm
 tech.root: storage
 ms.assetid: 95EF1722-5171-4A09-8676-7910E53E3868
-ms.date: 08/15/2019
+ms.date: 08/23/2019
 ms.keywords: "*PSTORAGE_OFFLOAD_WRITE_OUTPUT, PSTORAGE_OFFLOAD_WRITE_OUTPUT, PSTORAGE_OFFLOAD_WRITE_OUTPUT structure pointer [Storage Devices], STORAGE_OFFLOAD_TOKEN_INVALID, STORAGE_OFFLOAD_WRITE_OUTPUT, STORAGE_OFFLOAD_WRITE_OUTPUT structure [Storage Devices], STORAGE_OFFLOAD_WRITE_RANGE_TRUNCATED, _STORAGE_OFFLOAD_WRITE_OUTPUT, ntddstor/PSTORAGE_OFFLOAD_WRITE_OUTPUT, ntddstor/STORAGE_OFFLOAD_WRITE_OUTPUT, storage.storage_offload_write_output"
 ms.topic: struct
 f1_keywords:
@@ -48,8 +48,6 @@ req.typenames: STORAGE_OFFLOAD_WRITE_OUTPUT, *PSTORAGE_OFFLOAD_WRITE_OUTPUT
 
 The STORAGE_OFFLOAD_WRITE_OUTPUT structure is the output of an [IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ni-ntddstor-ioctl_storage_manage_data_set_attributes) control code request when the **Action** member of [DEVICE_DSM_INPUT](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor-_device_manage_data_set_attributes) is set to **DeviceDsmAction_OffloadWrite**.
 
-On input, a token value in [DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor-_device_dsm_offload_write_parameters) uniquely identifies the data set ranges requested for writing in the DEVICE_DSM_INPUT structure. The STORAGE_OFFLOAD_WRITE_OUTPUT structure contains the results of the write operation.
-
 ## -struct-fields
 
 ### -field OffloadWriteFlags
@@ -70,6 +68,8 @@ Reserved.
 Bytes copied for the write request in DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS.
 
 ## -remarks
+
+On input, a token value in [DEVICE_DSM_OFFLOAD_WRITE_PARAMETERS](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor-_device_dsm_offload_write_parameters) uniquely identifies the data set ranges requested for writing in the DEVICE_DSM_INPUT structure. The STORAGE_OFFLOAD_WRITE_OUTPUT structure contains the results of the write operation.
 
 The STORAGE_OFFLOAD_WRITE_OUTPUT structure is returned at the beginning of the system buffer.
 
