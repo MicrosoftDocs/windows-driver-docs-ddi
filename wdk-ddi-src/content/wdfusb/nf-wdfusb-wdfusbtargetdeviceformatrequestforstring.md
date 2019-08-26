@@ -160,73 +160,64 @@ For more information about the <b>WdfUsbTargetDeviceFormatRequestForString</b> m
 
 The following code example creates a request object and a memory object, and it passes the object handles to <b>WdfUsbTargetDeviceFormatRequestForString</b>. Then, the example sets a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfrequest/nc-wdfrequest-evt_wdf_request_completion_routine">CompletionRoutine</a> callback function for the request and sends the request to an I/O target.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS status;
-PDEVICE_CONTEXT  deviceContext = GetDeviceContext(device);
-WDFREQUEST  request;
-WDFMEMORY  memHandle;
-WDF_OBJECT_ATTRIBUTES  attributes;
+```cpp
+NTSTATUS status;
+PDEVICE_CONTEXT deviceContext = GetDeviceContext(device);
+WDFREQUEST request;
+WDFMEMORY memHandle;
+WDF_OBJECT_ATTRIBUTES attributes;
 
 WDF_OBJECT_ATTRIBUTES_INIT(&attributes);
 
 status = WdfRequestCreate(
-                          &attributes,
-                          WdfUsbTargetDeviceGetIoTarget(deviceContext->UsbTargetDevice),
-                          &request
-                          );
+    &attributes,
+    WdfUsbTargetDeviceGetIoTarget(deviceContext->UsbTargetDevice),
+    &request);
 
-if (!NT_SUCCESS(status)){
+if (!NT_SUCCESS(status)) {
     return status;
 }
+
 status = WdfMemoryCreate(
-                         WDF_NO_OBJECT_ATTRIBUTES,
-                         NonPagedPool,
-                         0,
-                         STR_DESC_STRING_SIZE,
-                         &memHandle,
-                         NULL
-                         );
-if (!NT_SUCCESS(status)){
+    WDF_NO_OBJECT_ATTRIBUTES,
+    NonPagedPool,
+    0,
+    STR_DESC_STRING_SIZE,
+    &memHandle,
+    NULL);
+if (!NT_SUCCESS(status)) {
     WdfObjectDelete(request);
     return status;
 }
+
 status = WdfUsbTargetDeviceFormatRequestForString(
-                         deviceContext->UsbTargetDevice,
-                         request,
-                         memHandle,
-                         NULL,
-                         deviceContext->UsbDeviceDescr.iManufacturer,
-                         0x0409
-                         );
+    deviceContext->UsbTargetDevice,
+    request,
+    memHandle,
+    NULL,
+    deviceContext->UsbDeviceDescr.iManufacturer,
+    0x0409);
+
 if (NT_SUCCESS(status)) {
     WdfRequestSetCompletionRoutine(
-                                   request,
-                                   MyCompletionRoutine,
-                                   NULL
-                                   );
+        request,
+        MyCompletionRoutine,
+        NULL);
 
     if (WdfRequestSend(
-                       request,
-                       WdfUsbTargetDeviceGetIoTarget(deviceContext->UsbTargetDevice),
-                       NULL
-                       )) {
+            request,
+            WdfUsbTargetDeviceGetIoTarget(deviceContext->UsbTargetDevice),
+            NULL)) {
         status = STATUS_PENDING;
     }
+    
 }
 else {
     WdfObjectDelete(memHandle);
     WdfObjectDelete(request);
     return status;
-}</pre>
-</td>
-</tr>
-</table></span></div>
-
+}
+```
 
 
 ## -see-also
