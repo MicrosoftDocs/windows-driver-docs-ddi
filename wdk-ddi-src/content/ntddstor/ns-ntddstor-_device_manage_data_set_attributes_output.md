@@ -1,12 +1,12 @@
 ---
 UID: NS:ntddstor._DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT
 title: _DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT (ntddstor.h)
-description: The DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT structure describes output for IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES control code requests for some data set management actions.
+description: The DEVICE_DSM_OUTPUT (or DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT) structure describes output for IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES control code requests for some data set management actions.
 old-location: storage\device_manage_data_set_attributes_output.htm
 tech.root: storage
 ms.assetid: FFC52136-8A1C-48F6-A846-C1C5BFB4570C
-ms.date: 03/29/2018
-ms.keywords: "*PDEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT structure [Storage Devices], PDEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, PDEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT structure pointer [Storage Devices], _DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, ntddstor/DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, ntddstor/PDEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, storage.device_manage_data_set_attributes_output"
+ms.date: 08/23/2019
+ms.keywords: "DEVICE_DSM_OUTPUT, PDEVICE_DSM_OUTPUT, *PDEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT structure [Storage Devices], PDEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, PDEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT structure pointer [Storage Devices], _DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, ntddstor/DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, ntddstor/PDEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, storage.device_manage_data_set_attributes_output"
 ms.topic: struct
 f1_keywords:
  - "ntddstor/DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT"
@@ -44,89 +44,56 @@ req.typenames: DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, *PDEVICE_MANAGE_DATA_SE
 
 # _DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT structure
 
-
 ## -description
 
-
-The <b>DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT</b> structure describes output for  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ni-ntddstor-ioctl_storage_manage_data_set_attributes">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a> control code requests for some data set management actions. 
-
+The **DEVICE_DSM_OUTPUT** (or DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT) structure describes output for [IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ni-ntddstor-ioctl_storage_manage_data_set_attributes) requests for some data set management actions.
 
 ## -struct-fields
 
-
-
-
 ### -field Size
 
-The size of this structure. This is set to <b>sizeof</b>(DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT).
-
+Size of this structure, in bytes. Set this member to **sizeof**(DEVICE_DSM_OUTPUT).
 
 ### -field Action
 
-The action related to the instance of this structure. This is a value from the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/device-data-management-set-action">DEVICE_DATA_MANAGEMENT_SET_ACTION</a> enumeration.
-
+DEVICE_DSM_ACTION value that specifies the action related to the instance of this structure. See [DEVICE_DSM_ACTION Descriptions](https://docs.microsoft.com/windows-hardware/drivers/storage/device-dsm-action-descriptions) for a list of values and action descriptions.
 
 ### -field Flags
 
-Flags for the data set management action. See the <b>Flags</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ni-ntddstor-ioctl_storage_manage_data_set_attributes">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a>.
-
+Flags for the data set management action. See the **Flags** member of [IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ni-ntddstor-ioctl_storage_manage_data_set_attributes).
 
 ### -field OperationStatus
 
-An status resulting from the operation a performed for <b>Action</b>.
-
+Status resulting from the operation performed for **Action**.
 
 ### -field ExtendedError
 
 An extended error value originating from Windows or a driver.
 
-
 ### -field TargetDetailedError
 
-An error value resulting from a failure execute the operation for <b>Action</b> at the target.
-
+An error value resulting from a failure execute the operation for **Action** at the target.
 
 ### -field ReservedStatus
 
 Reserved.
 
-
 ### -field OutputBlockOffset
 
 The position, after the beginning of this structure, where action-specific data is located.
 
-
 ### -field OutputBlockLength
 
-The length of the action-specific data.
-
+The length of the action-specific data, in bytes.
 
 ## -remarks
 
-
-
-Depending on the value of <b>Action</b>, an output block is written at an offset of <b>OutputBlockOffset</b> after the beginning of this structure. The size of the output block is specified in <b>OutputBlockLength</b>. 
-
-Currently, only the <b>DeviceDsmAction_Allocation</b> action uses this structure.
-
-
-
+Depending on the value of **Action**, an output block is written at an offset of **OutputBlockOffset** after the beginning of this structure. The size of the output block is specified in **OutputBlockLength**.
 
 ## -see-also
 
+[DEVICE_DSM_ACTION Descriptions](https://docs.microsoft.com/windows-hardware/drivers/storage/device-dsm-action-descriptions)
 
+[DEVICE_DATA_SET_LB_PROVISIONING_STATE](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor-_device_data_set_lb_provisioning_state)
 
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/storage/device-data-management-set-action">DEVICE_DATA_MANAGEMENT_SET_ACTION</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor-_device_data_set_lb_provisioning_state">DEVICE_DATA_SET_LB_PROVISIONING_STATE</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ni-ntddstor-ioctl_storage_manage_data_set_attributes">IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES</a>
- 
-
- 
-
+[IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ni-ntddstor-ioctl_storage_manage_data_set_attributes)
