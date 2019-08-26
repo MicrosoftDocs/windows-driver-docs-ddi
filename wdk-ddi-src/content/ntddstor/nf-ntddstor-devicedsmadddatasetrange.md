@@ -1,10 +1,10 @@
 ---
 UID: NF:ntddstor.DeviceDsmAddDataSetRange
 title: DeviceDsmAddDataSetRange function (ntddstor.h)
-description: The DeviceDsmAddDataSetRange function adds a data set range to a DEVICE_MANAGE_DATA_SET_ATTRIBUTES structure.
+description: The DeviceDsmAddDataSetRange function adds a data set range to a DEVICE_DSM_INPUT structure.
 tech.root: storage
 ms.assetid: 22dca47e-9542-486a-bbf3-053cbd3fccd9
-ms.date: 04/06/2018
+ms.date: 08/23/2019
 ms.topic: function
 f1_keywords:
  - "ntddstor/DeviceDsmAddDataSetRange"
@@ -44,21 +44,21 @@ targetos: Windows
 
 ## -description
 
-The **DeviceDsmAddDataSetRange** function adds a data set range to a [**DEVICE_MANAGE_DATA_SET_ATTRIBUTES**](ns-ntddstor-_device_manage_data_set_attributes.md) structure.
+The **DeviceDsmAddDataSetRange** function adds a data set range to the system buffer for an [IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ni-ntddstor-ioctl_storage_manage_data_set_attributes) request.
 
 ## -parameters
 
 ### -param Input
 
-A pointer to the [**DEVICE_MANAGE_DATA_SET_ATTRIBUTES**](ns-ntddstor-_device_manage_data_set_attributes.md) structure to which to add a data set range.
+Pointer to the [DEVICE_DSM_INPUT](ns-ntddstor-_device_manage_data_set_attributes.md) structure to which to add the data set range.
 
 ### -param InputLength
 
-The length, in bytes, of the input buffer.
+The length, in bytes, of the entire payload of the IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES request.
 
 ### -param Offset
 
-The offset, in bytes, for the starting offset for the data set range.
+The offset from the start of the DEVICE_DSM_INPUT structure at which the data set range starts, in bytes.
 
 ### -param Length
 
@@ -70,4 +70,14 @@ Returns TRUE if the data set range was successfully added, or FALSE otherwise.
 
 ## -remarks
 
+If the DSM has range data, call **DeviceDsmAddDataSetRange** for each range to add it to the system buffer. See [Data Set Management Overview](https://docs.microsoft.com/windows-hardware/drivers/storage/data-set-management-overview) for the layout of the system buffer for an [IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ni-ntddstor-ioctl_storage_manage_data_set_attributes) request.
+
 ## -see-also
+
+[Data Set Management Overview](https://docs.microsoft.com/windows-hardware/drivers/storage/data-set-management-overview)
+
+[DEVICE_DSM_INPUT](ns-ntddstor-_device_manage_data_set_attributes.md)
+
+[DEVICE_DSM_RANGE](ns-ntddstor-_device_data_set_range.md)
+
+[IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ni-ntddstor-ioctl_storage_manage_data_set_attributes)

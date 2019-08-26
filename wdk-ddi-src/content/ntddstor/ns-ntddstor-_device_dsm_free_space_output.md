@@ -1,10 +1,10 @@
 ---
 UID: NS:ntddstor._DEVICE_DSM_FREE_SPACE_OUTPUT
 title: _DEVICE_DSM_FREE_SPACE_OUTPUT (ntddstor.h)
-description: 
+description: This structure is reserved for system use only.
 tech.root: storage
 ms.assetid: dda3243e-6416-442d-b7f6-81a2bc093f82
-ms.date: 10/19/2018
+ms.date: 08/23/2019
 ms.topic: struct
 f1_keywords:
  - "ntddstor/_DEVICE_DSM_FREE_SPACE_OUTPUT"
@@ -39,13 +39,17 @@ targetos: Windows
 
 ## -description
 
+This structure is reserved for system use only.
 
 ## -struct-fields
 
 ### -field Version
- 
+
+Not applicable.
+
 ### -field FreeSpace
- 
+
+Not applicable.
 
 ## -remarks
 
