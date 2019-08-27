@@ -40,6 +40,8 @@ product:
 targetos: Windows
 tech.root: display
 req.typenames: D3D12DDI_CORELAYER_DEVICECALLBACKS_0022
+dev_langs:
+ - c++
 ms.custom: 19H1
 ---
 
