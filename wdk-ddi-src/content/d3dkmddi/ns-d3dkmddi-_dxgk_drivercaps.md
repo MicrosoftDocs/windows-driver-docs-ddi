@@ -40,6 +40,8 @@ product:
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_DRIVERCAPS
+dev_langs:
+ - c++
 ms.custom: 19H1
 ---
 
