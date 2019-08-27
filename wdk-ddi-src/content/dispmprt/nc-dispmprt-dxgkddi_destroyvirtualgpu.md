@@ -38,6 +38,8 @@ api_name:
 product: 
  - Windows
 targetos: Windows
+dev_langs:
+ - c++
 ms.custom: rs6, 19H1
 ---
 
