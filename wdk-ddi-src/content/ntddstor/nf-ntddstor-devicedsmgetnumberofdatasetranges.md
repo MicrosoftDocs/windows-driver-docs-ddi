@@ -62,7 +62,7 @@ The length, in bytes, of a parameter block.
 
 ## -returns
 
-**DeviceDsmGetNumberOfDataSetRanges** returns the number of data set ranges required for the specified operation. Each range is **sizeof**([DEVICE_DSM_RANGE]((ns-ntddstor-_device_data_set_range.md))).
+**DeviceDsmGetNumberOfDataSetRanges** returns the number of data set ranges required for the specified operation. Each range is **sizeof**([DEVICE_DSM_RANGE](ns-ntddstor-_device_data_set_range.md)).
 
 ## -remarks
 

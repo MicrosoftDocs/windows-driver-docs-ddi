@@ -55,7 +55,7 @@ Reserved for future use; do not use.
 
 ### -field TotalNumberOfRanges
 
-Number of [DEVICE_STORAGE_ADDRESS_RANGE](ns-ntddstor-_device_storage_address_range.md) structure(s) needed to satisfy a **DeviceDsmAction_GetPhysicalAddresses** request.
+Number of [DEVICE_STORAGE_ADDRESS_RANGE](ns-ntddstor_device_storage_address_range.md) structure(s) needed to satisfy a **DeviceDsmAction_GetPhysicalAddresses** request.
 
 ### -field NumberOfRangesReturned
 
@@ -73,6 +73,6 @@ The output block in the payload of an [IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES]
 
 [DEVICE_DSM_ACTION Descriptions](https://docs.microsoft.com/windows-hardware/drivers/storage/device-dsm-action-descriptions)
 
-[DEVICE_STORAGE_ADDRESS_RANGE](ns-ntddstor-_device_storage_address_range.md)
+[DEVICE_STORAGE_ADDRESS_RANGE](ns-ntddstor_device_storage_address_range.md)
 
 [IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ni-ntddstor-ioctl_storage_manage_data_set_attributes)

@@ -57,7 +57,7 @@ Flags associated with the range error information. Possible values are:
 
 ### -field TotalNumberOfRanges
 
-Number of [DEVICE_STORAGE_RANGE_ATTRIBUTES](ns-ntddstor-_device_storage_range_attributes.md) structure(s) needed to satisfy a **DeviceDsmAction_GetRangeErrorInfo** request.
+Number of [DEVICE_STORAGE_RANGE_ATTRIBUTES](ns-ntddstor_device_storage_range_attributes.md) structure(s) needed to satisfy a **DeviceDsmAction_GetRangeErrorInfo** request.
 
 ### -field NumberOfRangesReturned
 
