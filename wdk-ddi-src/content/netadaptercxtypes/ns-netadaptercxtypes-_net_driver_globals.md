@@ -32,8 +32,6 @@ api_location:
 - netadaptercxtypes.h
 api_name: 
 - NET_DRIVER_GLOBALS
-product:
-- Windows
 targetos: Windows
 product:
 - Windows

@@ -36,8 +36,6 @@ api_location:
 - windot11.h
 api_name:
 - DOT11_BSS_ENTRY
-product:
-- Windows
 targetos: Windows
 req.typenames: DOT11_BSS_ENTRY, *PDOT11_BSS_ENTRY
 product:

@@ -37,8 +37,6 @@ api_location:
 - netadapter.h
 api_name: 
 - NetAdapterSetLinkLayerCapabilities
-product:
-- Windows
 targetos: Windows
 product:
 - Windows

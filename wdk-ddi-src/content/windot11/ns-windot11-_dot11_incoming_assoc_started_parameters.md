@@ -36,8 +36,6 @@ api_location:
 - windot11.h
 api_name:
 - DOT11_INCOMING_ASSOC_STARTED_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: DOT11_INCOMING_ASSOC_STARTED_PARAMETERS, *PDOT11_INCOMING_ASSOC_STARTED_PARAMETERS
 product:

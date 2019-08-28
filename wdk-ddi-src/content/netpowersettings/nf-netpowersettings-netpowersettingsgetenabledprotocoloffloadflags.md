@@ -36,8 +36,6 @@ api_location:
 - netpowersettings.h
 api_name: 
 - NetPowerSettingsGetEnabledProtocolOffloadFlags
-product:
-- Windows
 targetos: Windows
 product:
 - Windows

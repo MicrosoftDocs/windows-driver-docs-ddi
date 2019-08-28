@@ -36,8 +36,6 @@ api_location:
 - windot11.h
 api_name:
 - DOT11_SUPPORTED_OFDM_FREQUENCY
-product:
-- Windows
 targetos: Windows
 req.typenames: DOT11_SUPPORTED_OFDM_FREQUENCY, *PDOT11_SUPPORTED_OFDM_FREQUENCY
 product:

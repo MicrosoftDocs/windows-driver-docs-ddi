@@ -36,8 +36,6 @@ api_location:
 - windot11.h
 api_name:
 - DOT11_CIPHER_ALGORITHM_LIST
-product:
-- Windows
 targetos: Windows
 req.typenames: DOT11_CIPHER_ALGORITHM_LIST, *PDOT11_CIPHER_ALGORITHM_LIST
 product:

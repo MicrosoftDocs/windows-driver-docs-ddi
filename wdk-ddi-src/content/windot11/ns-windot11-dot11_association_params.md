@@ -36,8 +36,6 @@ api_location:
 - windot11.h
 api_name:
 - DOT11_ASSOCIATION_PARAMS
-product:
-- Windows
 targetos: Windows
 req.typenames: DOT11_ASSOCIATION_PARAMS, *PDOT11_ASSOCIATION_PARAMS
 product:
