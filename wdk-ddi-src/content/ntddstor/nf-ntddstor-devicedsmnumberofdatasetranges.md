@@ -54,7 +54,7 @@ Pointer to a [DEVICE_DSM_INPUT](ns-ntddstor-_device_manage_data_set_attributes.m
 
 ## -returns
 
-**DeviceDsmNumberOfDataSetRanges** returns the number of data set ranges in the payload. Each range is **sizeof**([DEVICE_DSM_RANGE]((ns-ntddstor-_device_data_set_range.md))).
+**DeviceDsmNumberOfDataSetRanges** returns the number of data set ranges in the payload. Each range is **sizeof**([DEVICE_DSM_RANGE](ns-ntddstor-_device_data_set_range.md)).
 
 ## -remarks
 
