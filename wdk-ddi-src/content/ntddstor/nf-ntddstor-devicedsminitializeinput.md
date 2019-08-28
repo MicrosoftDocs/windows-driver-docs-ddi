@@ -78,7 +78,7 @@ This function does not return a value.
 
 ## -remarks
 
-To add a data set range to the input operation, call [**DeviceDsmAddDataSetRange**](nf-ntddstor-devicedsmadddatasetrange).
+To add a data set range to the input operation, call [**DeviceDsmAddDataSetRange**](nf-ntddstor-devicedsmadddatasetrange.md).
 
 See [Data Set Management Overview](https://docs.microsoft.com/windows-hardware/drivers/storage/data-set-management-overview) for information on how to set up and process a DSM action.
 
@@ -90,6 +90,6 @@ See [Data Set Management Overview](https://docs.microsoft.com/windows-hardware/d
 
 [DEVICE_DSM_INPUT](ns-ntddstor-_device_manage_data_set_attributes.md)
 
-[**DeviceDsmAddDataSetRange**](nf-ntddstor-devicedsmadddatasetrange)
+[**DeviceDsmAddDataSetRange**](nf-ntddstor-devicedsmadddatasetrange.md)
 
 [IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ni-ntddstor-ioctl_storage_manage_data_set_attributes)
