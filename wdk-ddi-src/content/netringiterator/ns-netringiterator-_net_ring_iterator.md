@@ -41,10 +41,7 @@ targetos: Windows
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
->
-> NetAdapterCx is preview only in Windows 10, version 1903.
+
 
 A **NET_RING_ITERATOR** is a small structure that contains references to the post and drain indices of a [**NET_RING**](../ring/ns-ring-_net_ring.md) to which it belongs.
 

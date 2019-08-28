@@ -42,10 +42,7 @@ targetos: Windows
 
 ## -description
 
-> [!WARNING]
-> Some information in this topic relates to prereleased product, which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.
->
-> NetAdapterCx is preview only in Windows 10, version 1903.
+
 
 Implement this optional callback function to perform cleanup on a [**NET_FRAGMENT**](../fragment/ns-fragment-_net_fragment.md) receive buffer for which you previously specified manual fragment allocation and attachment.
 
