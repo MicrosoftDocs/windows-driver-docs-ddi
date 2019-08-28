@@ -36,8 +36,6 @@ api_location:
 - windot11.h
 api_name:
 - DOT11_DATA_RATE_MAPPING_ENTRY
-product:
-- Windows
 targetos: Windows
 req.typenames: DOT11_DATA_RATE_MAPPING_ENTRY, *PDOT11_DATA_RATE_MAPPING_ENTRY
 product:

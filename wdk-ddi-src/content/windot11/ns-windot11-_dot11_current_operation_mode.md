@@ -36,8 +36,6 @@ api_location:
 - windot11.h
 api_name:
 - DOT11_CURRENT_OPERATION_MODE
-product:
-- Windows
 targetos: Windows
 req.typenames: DOT11_CURRENT_OPERATION_MODE, *PDOT11_CURRENT_OPERATION_MODE
 product:

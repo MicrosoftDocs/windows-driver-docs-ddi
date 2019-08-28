@@ -36,8 +36,6 @@ api_location:
 - Windot11.h
 api_name:
 - DOT11_MAC_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: DOT11_MAC_PARAMETERS, *PDOT11_MAC_PARAMETERS
 product:

@@ -29,8 +29,6 @@ api_location:
 - netadapter.h
 api_name: 
 - NET_ADAPTER_WAKE_PATTERN_FLAGS
-product:
-- Windows
 targetos: Windows
 product:
 - Windows

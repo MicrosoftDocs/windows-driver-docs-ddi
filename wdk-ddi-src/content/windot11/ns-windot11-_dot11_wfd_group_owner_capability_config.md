@@ -36,8 +36,6 @@ api_location:
 - Windot11.h
 api_name:
 - DOT11_WFD_GROUP_OWNER_CAPABILITY_CONFIG
-product:
-- Windows
 targetos: Windows
 req.typenames: DOT11_WFD_GROUP_OWNER_CAPABILITY_CONFIG, *PDOT11_WFD_GROUP_OWNER_CAPABILITY_CONFIG
 product:

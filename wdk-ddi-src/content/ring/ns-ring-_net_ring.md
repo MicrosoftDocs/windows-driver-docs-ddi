@@ -32,8 +32,6 @@ apilocation:
 - ring.h
 apiname: 
 - NET_RING
-product:
-- Windows
 targetos: Windows
 product:
 - Windows
