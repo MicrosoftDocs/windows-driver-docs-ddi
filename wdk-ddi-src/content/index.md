@@ -56,7 +56,7 @@ Windows Driver Kit (WDK) 10 is integrated with Microsoft Visual Studio 2017 and 
         </a>
     </li>
     <li>
-        <a href="https://developer.microsoft.com/windows/hardware/drivers-code-samples">
+        <a href="https://docs.microsoft.com/samples/browse/?products=windows-wdk">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
