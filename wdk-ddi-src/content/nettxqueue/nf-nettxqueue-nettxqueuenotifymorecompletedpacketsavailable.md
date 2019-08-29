@@ -36,8 +36,6 @@ apilocation:
 - nettxqueue.h
 apiname: 
 - NetTxQueueNotifyMoreCompletedPacketsAvailable
-product:
-- Windows
 targetos: Windows
 product:
 - Windows

@@ -36,8 +36,6 @@ api_location:
 - windot11.h
 api_name:
 - DOT11_PRIVACY_EXEMPTION
-product:
-- Windows
 targetos: Windows
 req.typenames: DOT11_PRIVACY_EXEMPTION, *PDOT11_PRIVACY_EXEMPTION
 product:

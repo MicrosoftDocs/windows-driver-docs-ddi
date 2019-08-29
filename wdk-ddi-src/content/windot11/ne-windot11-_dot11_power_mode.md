@@ -36,8 +36,6 @@ api_location:
 - windot11.h
 api_name:
 - DOT11_POWER_MODE
-product:
-- Windows
 targetos: Windows
 req.typenames: DOT11_POWER_MODE, *PDOT11_POWER_MODE
 product:

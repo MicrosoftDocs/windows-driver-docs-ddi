@@ -36,8 +36,6 @@ apilocation:
 - netrequestqueue.h
 apiname: 
 - NetRequestQueueCreate
-product:
-- Windows
 targetos: Windows
 product:
 - Windows

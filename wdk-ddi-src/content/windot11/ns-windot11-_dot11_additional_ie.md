@@ -36,8 +36,6 @@ api_location:
 - windot11.h
 api_name:
 - DOT11_ADDITIONAL_IE
-product:
-- Windows
 targetos: Windows
 req.typenames: DOT11_ADDITIONAL_IE, *PDOT11_ADDITIONAL_IE
 product:

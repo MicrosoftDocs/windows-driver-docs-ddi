@@ -36,8 +36,6 @@ api_location:
 - windot11.h
 api_name:
 - DOT11_SUPPORTED_ANTENNA
-product:
-- Windows
 targetos: Windows
 req.typenames: DOT11_SUPPORTED_ANTENNA, *PDOT11_SUPPORTED_ANTENNA
 product:

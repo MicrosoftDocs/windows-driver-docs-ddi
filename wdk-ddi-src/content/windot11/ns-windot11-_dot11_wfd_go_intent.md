@@ -36,8 +36,6 @@ api_location:
 - Windot11.h
 api_name:
 - DOT11_WFD_GO_INTENT
-product:
-- Windows
 targetos: Windows
 req.typenames: DOT11_WFD_GO_INTENT, *PDOT11_WFD_GO_INTENT
 product:

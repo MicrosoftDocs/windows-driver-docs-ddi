@@ -36,8 +36,6 @@ api_location:
 - windot11.h
 api_name:
 - DOT11_CAN_SUSTAIN_AP_PARAMETERS
-product:
-- Windows
 targetos: Windows
 req.typenames: DOT11_CAN_SUSTAIN_AP_PARAMETERS, *PDOT11_CAN_SUSTAIN_AP_PARAMETERS
 product:

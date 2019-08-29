@@ -32,8 +32,6 @@ api_location:
 - netrxqueue.h
 api_name: 
 - NET_RXQUEUE_BUFFER_LAYOUT_HINT
-product:
-- Windows
 targetos: Windows
 product:
 - Windows
