@@ -36,8 +36,6 @@ api_location:
 - netconfiguration.h
 api_name: 
 - NetConfigurationQueryUlong
-product:
-- Windows
 targetos: Windows
 product:
 - Windows

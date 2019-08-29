@@ -36,8 +36,6 @@ api_location:
 - windot11.h
 api_name:
 - DOT11_AUTH_CIPHER_PAIR_LIST
-product:
-- Windows
 targetos: Windows
 req.typenames: DOT11_AUTH_CIPHER_PAIR_LIST, *PDOT11_AUTH_CIPHER_PAIR_LIST
 product:

@@ -36,8 +36,6 @@ apilocation:
 - ring.h
 apiname: 
 - NetRingIncrementIndex
-product:
-- Windows
 targetos: Windows
 product:
 - Windows

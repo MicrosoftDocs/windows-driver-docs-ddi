@@ -103,24 +103,4 @@ For more information about **IDistributorNotify**, **IUnknown**, and **CoCreateI
 
 [KsAddAggregate](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nf-ksproxy-iksaggregatecontrol-ksaddaggregate)
 
-<<<<<<< HEAD
 [KsRemoveAggregate](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nf-ksproxy-iksaggregatecontrol-ksremoveaggregate)
-=======
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nn-ksproxy-ikscontrol">IKsControl</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nf-ksproxy-iksobject-ksgetobjecthandle">IKsObject::KsGetObjectHandle</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nf-ksproxy-iksaggregatecontrol-ksaddaggregate">KsAddAggregate</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nf-ksproxy-iksaggregatecontrol-ksremoveaggregate">KsRemoveAggregate</a>
- 
-
- 
-
->>>>>>> origin/remove-redirects2

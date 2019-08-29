@@ -36,8 +36,6 @@ api_location:
 - windot11.h
 api_name:
 - DOT11_SUPPORTED_DSSS_CHANNEL
-product:
-- Windows
 targetos: Windows
 req.typenames: DOT11_SUPPORTED_DSSS_CHANNEL, *PDOT11_SUPPORTED_DSSS_CHANNEL
 product:

@@ -37,8 +37,6 @@ apilocation:
 - netadapter.h
 apiname: 
 - NetAdapterSetLinkState
-product:
-- Windows
 targetos: Windows
 product:
 - Windows

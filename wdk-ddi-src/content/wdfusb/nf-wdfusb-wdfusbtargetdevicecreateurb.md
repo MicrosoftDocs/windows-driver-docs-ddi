@@ -153,49 +153,38 @@ The memory object and its buffer are deleted when the parent object is deleted. 
 The following code example declares a framework memory object. The example calls <b>WdfUsbTargetDeviceCreateUrb</b> to allocate a USB request block, and then calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfusb/nf-wdfusb-wdfusbtargetdeviceformatrequestforurb">WdfUsbTargetDeviceFormatRequestForUrb</a> to format a request that uses the URB structure's contents. Finally, the example registers a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfrequest/nc-wdfrequest-evt_wdf_request_completion_routine">CompletionRoutine</a> callback function and sends the request to an I/O target.
 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDFMEMORY memory;
+```cpp
+WDFMEMORY memory;
 PURB urb = NULL;
 
-WDF_OBJECT_ATTRIBUTES_INIT(&objectAttribs);  
+WDF_OBJECT_ATTRIBUTES_INIT(&objectAttribs);
 objectAttribs.ParentObject = UsbDevice;
 
 status = WdfUsbTargetDeviceCreateUrb(
-                                     pDevContext->WdfUsbTargetDevice,  
-                                     &objectAttribs,  
-                                     &memory,  
-                                     &urb  
-                                     ); 
- 
-status = WdfUsbTargetDeviceFormatRequestForUrb(
-                                               deviceContext->WdfUsbTargetDevice,
-                                               request,
-                                               memory,
-                                               NULL
-                                               );
-WdfRequestSetCompletionRoutine(
-                               request,
-                               MyCompletionRoutine,
-                               NULL
-                               );
+    pDevContext->WdfUsbTargetDevice,
+    &objectAttribs,
+    &memory,
+    &urb);
 
-if (WdfRequestSend(
-                   request,
-                   WdfUsbTargetDeviceGetIoTarget(UsbDevice),
-                   NULL
-                   ) == FALSE) {
+status = WdfUsbTargetDeviceFormatRequestForUrb(
+    deviceContext->WdfUsbTargetDevice,
+    request,
+    memory,
+    NULL);
+
+WdfRequestSetCompletionRoutine(
+    request,
+    MyCompletionRoutine,
+    NULL);
+
+if (!WdfRequestSend(
+        request,
+        WdfUsbTargetDeviceGetIoTarget(UsbDevice),
+        NULL)) {
     status = WdfRequestGetStatus(request);
 }
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+```
 
 
 

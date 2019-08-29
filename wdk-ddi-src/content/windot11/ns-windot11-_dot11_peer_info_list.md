@@ -36,8 +36,6 @@ api_location:
 - windot11.h
 api_name:
 - DOT11_PEER_INFO_LIST
-product:
-- Windows
 targetos: Windows
 req.typenames: DOT11_PEER_INFO_LIST, *PDOT11_PEER_INFO_LIST
 product:

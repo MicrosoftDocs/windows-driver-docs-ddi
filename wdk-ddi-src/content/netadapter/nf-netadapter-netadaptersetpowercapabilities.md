@@ -37,8 +37,6 @@ api_location:
 - netadapter.h
 api_name: 
 - NetAdapterSetPowerCapabilities
-product:
-- Windows
 targetos: Windows
 product:
 - Windows
