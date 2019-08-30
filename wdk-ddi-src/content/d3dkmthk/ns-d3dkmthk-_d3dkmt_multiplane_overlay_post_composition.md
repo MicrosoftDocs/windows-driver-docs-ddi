@@ -33,6 +33,8 @@ product:
 - Windows
 targetos: Windows
 ms.custom: RS5
+dev_langs:
+ - c++
 tech.root: display
 ---
 

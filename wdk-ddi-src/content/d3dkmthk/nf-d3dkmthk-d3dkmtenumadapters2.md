@@ -38,6 +38,8 @@ product:
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMTEnumAdapters2
+dev_langs:
+ - c++
 ms.custom: RS5
 ---
 
