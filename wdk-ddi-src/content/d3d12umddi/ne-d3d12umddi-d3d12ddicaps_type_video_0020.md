@@ -39,6 +39,8 @@ product:
 - Windows
 targetos: Windows
 tech.root: display
+dev_langs:
+ - c++
 req.typenames: D3D12DDICAPS_TYPE_VIDEO_0020
 ms.custom: 19H1
 ---

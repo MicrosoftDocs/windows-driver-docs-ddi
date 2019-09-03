@@ -35,6 +35,8 @@ api_name:
 product:
 - Windows
 targetos: Windows
+dev_langs:
+ - c++
 ms.custom: WDDM 2.6, 19H1
 ---
 

@@ -37,6 +37,8 @@ api_name:
 product: 
  - Windows
 targetos: Windows
+dev_langs:
+ - c++
 ms.custom: 19H1
 ---
 

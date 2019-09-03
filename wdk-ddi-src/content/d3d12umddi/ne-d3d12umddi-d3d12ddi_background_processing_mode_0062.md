@@ -32,6 +32,8 @@ api_name:
 product:
 - Windows
 targetos: Windows
+dev_langs:
+ - c++
 ms.custom: D3D12 Release 6, Build rev 2., 19H1
 ---
 

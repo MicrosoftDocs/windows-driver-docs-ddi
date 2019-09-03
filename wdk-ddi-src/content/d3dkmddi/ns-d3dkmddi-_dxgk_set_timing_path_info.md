@@ -40,6 +40,8 @@ product:
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_SET_TIMING_PATH_INFO
+dev_langs:
+ - c++
 ms.custom: 19H1
 ---
 

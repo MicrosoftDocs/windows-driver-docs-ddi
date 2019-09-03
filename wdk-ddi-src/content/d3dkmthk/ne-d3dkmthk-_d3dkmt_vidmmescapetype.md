@@ -40,6 +40,8 @@ product:
 targetos: Windows
 tech.root: display
 req.typenames: D3DKMT_VIDMMESCAPETYPE
+dev_langs:
+ - c++
 ms.custom: 19H1
 ---
 

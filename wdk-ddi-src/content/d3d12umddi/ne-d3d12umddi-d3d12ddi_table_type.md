@@ -40,6 +40,8 @@ product:
 targetos: Windows
 tech.root: display
 req.typenames: D3D12DDI_TABLE_TYPE
+dev_langs:
+ - c++
 ms.custom: 19H1
 ---
 

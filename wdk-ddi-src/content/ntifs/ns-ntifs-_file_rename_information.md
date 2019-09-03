@@ -40,6 +40,8 @@ product:
 - Windows
 targetos: Windows
 req.typenames: FILE_RENAME_INFORMATION, *PFILE_RENAME_INFORMATION
+dev_langs:
+ - c++
 ms.custom: 19H1
 ---
 
