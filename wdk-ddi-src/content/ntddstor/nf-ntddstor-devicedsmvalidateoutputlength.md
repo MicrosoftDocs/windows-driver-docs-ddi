@@ -31,9 +31,9 @@ req.type-library:
 topic_type: 
 - apiref
 api_type: 
-- 
+- HeaderDef
 api_location: 
-- 
+- ntddstor.h
 api_name: 
 - DeviceDsmValidateOutputLength
 product: 
