@@ -35,7 +35,7 @@ targetos: Windows
 ms.custom: RS5
 dev_langs:
  - c++
- - tech.root: display
+tech.root: display
 ---
 
 # _D3DKMT_DOD_SET_DIRTYRECT_MODE structure

@@ -32,7 +32,8 @@ api_name:
 product:
 - Windows
 targetos: Windows
-ms.custom: RS5dev_langs:
+ms.custom: RS5
+dev_langs:
  - c++
 tech.root: display
 ---
