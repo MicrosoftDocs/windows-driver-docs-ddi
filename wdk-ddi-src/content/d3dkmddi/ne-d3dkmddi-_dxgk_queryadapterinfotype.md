@@ -41,6 +41,8 @@ product:
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_QUERYADAPTERINFOTYPE
+dev_langs:
+ - c++
 ms.custom: 19H1
 ---
 

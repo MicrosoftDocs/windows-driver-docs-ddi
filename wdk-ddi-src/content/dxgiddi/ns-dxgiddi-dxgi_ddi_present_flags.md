@@ -40,6 +40,8 @@ product:
 - Windows
 targetos: Windows
 req.typenames: DXGI_DDI_PRESENT_FLAGS
+dev_langs:
+ - c++
 ms.custom: 19H1
 ---
 

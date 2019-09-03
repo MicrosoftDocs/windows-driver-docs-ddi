@@ -37,6 +37,8 @@ api_name:
 product: 
  - Windows
 targetos: Windows
+dev_langs:
+ - c++
 ms.custom: UMD DDI Min Version D3D12DDI_SUPPORTED_0043, 19H1
 ---
 

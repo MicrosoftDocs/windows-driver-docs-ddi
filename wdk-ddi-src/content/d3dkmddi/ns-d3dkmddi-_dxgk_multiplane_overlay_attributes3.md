@@ -40,6 +40,8 @@ product:
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES3
+dev_langs:
+ - c++
 ms.custom: 19H1
 ---
 

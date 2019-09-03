@@ -40,6 +40,8 @@ product:
 - Windows
 targetos: Windows
 req.typenames: FILE_LINK_INFORMATION, *PFILE_LINK_INFORMATION
+dev_langs:
+ - c++
 ms.custom: 19H1
 ---
 
