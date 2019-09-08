@@ -211,7 +211,7 @@ The Filter Manager sets this flag to indicate that it is currently calling regis
 
 ### -field Thread
 
-Pointer to the thread that initiated the I/O operation. 
+Pointer to the thread that initiated the I/O operation. This field may be NULL.
 
 
 ### -field Iopb
