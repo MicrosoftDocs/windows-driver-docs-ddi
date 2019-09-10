@@ -4,7 +4,7 @@ title: _SRV_INSTANCE_TYPE (ntifs.h)
 description: The SRV_INSTANCE_TYPE enumeration type describes the SRV instance type for an SRV_OPEN_ECP_CONTEXT.
 tech.root: ifsk
 ms.assetid: c7ae9f16-5a28-478a-8099-a5a9524a36d8
-ms.date: 09/06/2019
+ms.date: 09/09/2019
 ms.keywords: "SRV_INSTANCE_TYPE, SRV_INSTANCE_TYPE enumeration [Installable File System Drivers], *PSRV_INSTANCE_TYPE"
 ms.topic: enum
 f1_keywords:
