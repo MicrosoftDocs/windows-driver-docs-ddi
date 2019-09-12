@@ -8,3 +8,5 @@ _themes*/
 /.vs
 .vscode
 *.orig
+
+mwgendiff.config
