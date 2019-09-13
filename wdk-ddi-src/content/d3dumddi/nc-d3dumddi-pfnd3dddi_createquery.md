@@ -8,8 +8,6 @@ ms.assetid: ac63b77b-2704-4d5b-bf1d-9d85e8a1e336
 ms.date: 05/10/2018
 ms.keywords: CreateQuery, CreateQuery callback function [Display Devices], PFND3DDDI_CREATEQUERY, PFND3DDDI_CREATEQUERY callback, UserModeDisplayDriver_Functions_b398e152-6530-4dcb-9665-ef45ad3d985b.xml, d3dumddi/CreateQuery, display.createquery
 ms.topic: callback
-f1_keywords:
- - "d3dumddi/CreateQuery"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop
@@ -27,68 +25,51 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dumddi.h
-api_name:
-- CreateQuery
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - "d3dumddi/CreateQuery"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dumddi.h
+api_name:
+ - CreateQuery
+product:
+ - Windows
 ---
 
 # PFND3DDDI_CREATEQUERY callback function
 
-
 ## -description
-
 
 The <b>CreateQuery</b> function creates driver-side resources for a query that the Microsoft Direct3D runtime subsequently issues for processing.
 
-
 ## -parameters
 
-
-
-
-### -param hDevice [in]
+### -param hDevice
 
 A handle to the display device (graphics context).
 
-
-### -param *
-
-
-
-
-
-
-
+### -param Arg2
 
 *pData* [in, out]
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_createquery">D3DDDIARG_CREATEQUERY</a> structure that identifies the query.
 
-
 ## -returns
-
-
 
 <b>CreateQuery</b> returns one of the following values:
 
 | **Return code** | **Description** | 
 |:--|:--|
 | **S_OK** | The query is successfully created. | 
-| **E_OUTOFMEMORY** | [CreateQuery](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_createquery)  could not allocate the required memory for it to complete. | 
+| **E_OUTOFMEMORY** | [CreateQuery](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_createquery)  could not allocate the required memory for it to complete. |
 
 ## -remarks
-
-
 
 The Direct3D runtime calls the user-mode display driver's <b>CreateQuery</b> function with a query type to create resources for a query. The user-mode display driver creates the following resources for query types:
 
@@ -108,13 +89,7 @@ A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dum
 </ul>
 For more information about issue query states, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddi_issuequeryflags">D3DDDI_ISSUEQUERYFLAGS</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_createquery">D3DDDIARG_CREATEQUERY</a>
 
@@ -129,7 +104,4 @@ For more information about issue query states, see <a href="https://docs.microso
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddi_issuequeryflags">D3DDDI_ISSUEQUERYFLAGS</a>
- 
-
- 
 

@@ -8,8 +8,6 @@ ms.assetid: 719465dd-4547-491c-ab30-ae63bba1b72c
 ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_VIDEOPROCESSBLT, PFND3DDDI_VIDEOPROCESSBLT callback, UserModeDisplayDriver_Functions_23e47fd3-a838-4b56-82c3-7894d2b173a1.xml, VideoProcessBlt, VideoProcessBlt callback function [Display Devices], d3dumddi/VideoProcessBlt, display.videoprocessblt
 ms.topic: callback
-f1_keywords:
- - "d3dumddi/VideoProcessBlt"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop
@@ -27,54 +25,49 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dumddi.h
-api_name:
-- VideoProcessBlt
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - "d3dumddi/VideoProcessBlt"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dumddi.h
+api_name:
+ - VideoProcessBlt
+product:
+ - Windows
 ---
 
 # PFND3DDDI_VIDEOPROCESSBLT callback function
 
-
 ## -description
-
 
 The <i>VideoProcessBlt</i> function processes a video frame by using the specified Microsoft DirectX Video Accelerator (VA) video processing device.
 
-
 ## -parameters
 
-### -param hDevice [in]
+### -param hDevice
 
 A handle to the display device (graphics context).
 
-### -param *
+### -param Arg2
 
 *pData* [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_videoprocessblt">D3DDDIARG_VIDEOPROCESSBLT</a> structure that describes the DirectX VA video processing operation to perform.
 
-
 ## -returns
-
-
 
 <i>VideoProcessBlt</i> returns one of the following values:
 
 | **Return code** | **Description** | 
 |:--|:--|
 | **S_OK** | The DirectX VA video processing operation is successfully performed. | 
-| **E_OUTOFMEMORY** | VideoProcessBlt could not allocate the required memory for it to complete. | 
-
+| **E_OUTOFMEMORY** | VideoProcessBlt could not allocate the required memory for it to complete. |
 
 ## -see-also
 
@@ -83,7 +76,4 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>
- 
-
- 
 

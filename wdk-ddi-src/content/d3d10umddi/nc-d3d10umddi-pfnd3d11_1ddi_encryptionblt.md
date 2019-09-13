@@ -7,8 +7,6 @@ ms.assetid: ea6f1b8c-d65a-4d6d-a7ae-998374bf5bfb
 ms.date: 05/10/2018
 ms.keywords: EncryptionBlt, EncryptionBlt callback function [Display Devices], PFND3D11_1DDI_ENCRYPTIONBLT, PFND3D11_1DDI_ENCRYPTIONBLT callback, d3d10umddi/EncryptionBlt, display.encryptionblt1, display.pfnencryptionblt1
 ms.topic: callback
-f1_keywords:
- - "d3d10umddi/EncryptionBlt"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -26,66 +24,53 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- D3d10umddi.h
-api_name:
-- EncryptionBlt
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - "d3d10umddi/EncryptionBlt"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - D3d10umddi.h
+api_name:
+ - EncryptionBlt
+product:
+ - Windows
 ---
 
 # PFND3D11_1DDI_ENCRYPTIONBLT callback function
 
-
 ## -description
-
 
 Reads encrypted data from a protected surface.
 
-
 ## -parameters
 
-
-
-
-### -param hDevice [in]
+### -param hDevice
 
 A handle to the display device (graphics context).
 
-
-
-
-### -param hCryptoSession [in]
+### -param hCryptoSession
 
 A handle to the driver's private data for the cryptographic session. This handle was created by the Direct3D runtime and passed to the driver in the call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession">CreateCryptoSession</a> function.
 
-
-### -param hSrcResource [in]
+### -param hSrcResource
 
 A handle to the resource that contains the source data.
 
-
-### -param hDstResource [in]
+### -param hDstResource
 
 A pointer to the resource where the encrypted data is to be written.
 
-
-
-
-### -param IVSize [in]
+### -param IVSize
 
 The size, in bytes, of the initialization vector (IV).
 
-
-### -param *pIV [in]
+### -param pIV
 
 A pointer to a block of memory that contains the initialization vector that is required to encrypt the bitblt data. For more information, see the Remarks section.
 
@@ -97,16 +82,9 @@ A pointer to a block of memory that contains the initialization vector that is r
 
 ## -returns
 
-
-
 This callback function does not return a value.
 
-
-
-
 ## -remarks
-
-
 
 This function has the following limitations:
 
@@ -154,19 +132,11 @@ For other encryption types, a different structure might be used, or the encrypti
 <div class="alert"><b>Note</b>  This function does not honor a Direct3D version 11 predicate that may have been set.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession">CreateCryptoSession</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_aes_ctr_iv">D3D11_1DDI_AES_CTR_IV</a>
- 
-
- 
 

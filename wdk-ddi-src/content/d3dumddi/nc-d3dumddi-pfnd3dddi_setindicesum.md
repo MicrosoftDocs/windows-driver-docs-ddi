@@ -8,8 +8,6 @@ ms.assetid: 9ca38004-8953-4416-8552-c76813192561
 ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_SETINDICESUM, PFND3DDDI_SETINDICESUM callback, SetIndicesUM, SetIndicesUM callback function [Display Devices], UserModeDisplayDriver_Functions_f692c944-6130-46e3-8e63-f3dbeb051782.xml, d3dumddi/SetIndicesUM, display.setindicesum
 ms.topic: callback
-f1_keywords:
- - "d3dumddi/SetIndicesUM"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop
@@ -27,71 +25,52 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dumddi.h
-api_name:
-- SetIndicesUM
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - "d3dumddi/SetIndicesUM"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dumddi.h
+api_name:
+ - SetIndicesUM
+product:
+ - Windows
 ---
 
 # PFND3DDDI_SETINDICESUM callback function
 
-
 ## -description
 
-
-The <i>SetIndicesUM</i> function sets the current index buffer to the given user memory buffer. 
-
+The <i>SetIndicesUM</i> function sets the current index buffer to the given user memory buffer.
 
 ## -parameters
 
-
-
-
-### -param hDevice [in]
+### -param hDevice
 
 A handle to the display device (graphics context).
 
-
-### -param Arg1
+### -param Arg2
 
 *IndexSize* [in]
 
 The size, in bytes, of the indices that are contained in the index buffer. The value of this parameter is 2 if the indices are 16-bit quantities or 4 if the indices are 32-bit quantities.
 
-### -param *
+### -param Arg3
 
 *pUMBuffer* [in]
 
 A pointer to the user-memory buffer that supplies the indices for the index buffer.
 
-
-
-
 ## -returns
-
-
 
 <i>SetIndicesUM</i> returns S_OK or an appropriate error result if the index buffer is not successfully set to the given user memory buffer.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>
- 
-
- 
 

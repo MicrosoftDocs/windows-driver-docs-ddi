@@ -7,8 +7,6 @@ ms.assetid: 8AF361B5-279D-4525-AD98-843A4A746201
 ms.date: 05/10/2018
 ms.keywords: GetMipPacking, GetMipPacking callback function [Display Devices], PFND3DWDDM1_3DDI_GETMIPPACKING, PFND3DWDDM1_3DDI_GETMIPPACKING callback, d3d10umddi/GetMipPacking, display.getmippacking
 ms.topic: callback
-f1_keywords:
- - "d3d10umddi/GetMipPacking"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -26,74 +24,59 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- D3d10umddi.h
-api_name:
-- GetMipPacking
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - "d3d10umddi/GetMipPacking"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - D3d10umddi.h
+api_name:
+ - GetMipPacking
+product:
+ - Windows
 ---
 
 # PFND3DWDDM1_3DDI_GETMIPPACKING callback function
 
-
 ## -description
-
 
 For a given tiled resource, returns how many mips are packed, and how many tiles are needed to store all the packed mips.
 
-
 ## -parameters
-
-
-
 
 ### -param hDevice
 
 A handle to the display device (graphics context).
 
-
 ### -param hTiledResource
 
 A handle to the tiled resource.
 
-
-### -param *pNumPackedMips [out]
+### -param pNumPackedMips
 
 A pointer to a variable that receives the number of mips that are packed, for a given array slice, including any mips that don't use the standard tile shapes.
 
 If there is no packing, a value of zero should be returned.
 
-
-### -param *pNumTilesForPackedMips [out]
+### -param pNumTilesForPackedMips
 
 A pointer to a variable that receives the number of tiles that the packed mips fit into, for a given array slice.
 
 This parameter is ignored if *<i>pNumPackedMips</i> returns zero.
 
-
 ## -returns
-
-
 
 None
 
 The driver can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> callback function to set an error code. The driver can set <b>E_INVALIDARG</b> if an input parameter does not exist or is <b>NULL</b>.
 
-
-
-
 ## -remarks
-
-
 
 Packed mips include cases where multiple small mips share tile(s) and also mips for which a given device cannot use standard tile shapes.  It's possible for an entire resource to be considered packed.
 
@@ -112,16 +95,7 @@ manage the tiles in a standard way).  If a device does need to use a custom tili
 the application is not told what the tile breakdown is (only how many tiles are involved
 in the packing overall), and thus loses some freedom.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a>
- 
-
- 
 

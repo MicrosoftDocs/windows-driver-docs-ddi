@@ -7,8 +7,6 @@ ms.assetid: C68CC6F1-83D6-43D9-93F3-99E3A990C7D7
 ms.date: 05/10/2018
 ms.keywords: DXGKDDISETPOWERCOMPONENTFSTATE, DXGKDDISETPOWERCOMPONENTFSTATE callback, DxgkDdiSetPowerComponentFState, DxgkDdiSetPowerComponentFState callback function [Display Devices], d3dkmddi/DxgkDdiSetPowerComponentFState, display.dxgkddisetpowercomponentfstate
 ms.topic: callback
-f1_keywords:
- - "d3dkmddi/DxgkDdiSetPowerComponentFState"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Desktop
@@ -26,64 +24,49 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- D3dkmddi.h
-api_name:
-- DxgkDdiSetPowerComponentFState
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - "d3dkmddi/DxgkDdiSetPowerComponentFState"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - D3dkmddi.h
+api_name:
+ - DxgkDdiSetPowerComponentFState
+product:
+ - Windows
 ---
 
 # DXGKDDISETPOWERCOMPONENTFSTATE callback function
 
-
 ## -description
-
 
 Called by the Microsoft DirectX graphics kernel subsystem to transition a power component to an idle state (an F-state).
 
-
 ## -parameters
 
-
-
-
-### -param DriverContext [in]
+### -param DriverContext
 
 A handle to a context block associated with a display adapter. The display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function previously provided this handle to the DirectX graphics kernel subsystem.
-
 
 ### -param ComponentIndex
 
 The power component index specified by  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_queryadapterinfo">DXGKARG_QUERYADAPTERINFO</a>.<b>pInputData</b> in a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_queryadapterinfo">DxgkDdiQueryAdapterInfo</a> function.
 
-
 ### -param FState
 
 An F-state value that the display miniport driver has reported to the DirectX graphics kernel subsystem.
 
-
 ## -returns
-
-
-
 
       Returns STATUS_SUCCESS if it succeeds; otherwise, it returns STATUS_INVALID_PARAMETER.
 
-
-
-
 ## -remarks
-
-
 
 The operating system calls <i>DxgkDdiSetPowerComponentFState</i> only if the display miniport driver indicates support by setting <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgk_drivercaps">DXGK_DRIVERCAPS</a>.<b>SupportRuntimePowerManagement</b> to <b>TRUE</b>.
 
@@ -97,13 +80,7 @@ This function can be called simultaneously from multiple execution threads. Howe
 
 The operating system guarantees that this function follows the zero level synchronization mode as defined in <a href="https://docs.microsoft.com/windows-hardware/drivers/display/threading-and-synchronization-zero-level">Threading and Synchronization Zero Level</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_queryadapterinfo">DXGKARG_QUERYADAPTERINFO</a>
 
@@ -126,7 +103,4 @@ The operating system guarantees that this function follows the zero level synchr
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_queryadapterinfo">DxgkDdiQueryAdapterInfo</a>
- 
-
- 
 

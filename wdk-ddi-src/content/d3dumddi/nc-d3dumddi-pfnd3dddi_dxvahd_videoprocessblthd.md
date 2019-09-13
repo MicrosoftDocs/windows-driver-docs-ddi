@@ -8,8 +8,6 @@ ms.assetid: 62451fc4-92cc-4553-80cc-0843cf734a62
 ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_DXVAHD_VIDEOPROCESSBLTHD, PFND3DDDI_DXVAHD_VIDEOPROCESSBLTHD callback, UserModeDisplayDriver_Functions_72b2babe-fc93-4960-93d3-6bc2022227c8.xml, VideoProcessBltHD, VideoProcessBltHD callback function [Display Devices], d3dumddi/VideoProcessBltHD, display.videoprocessblthd
 ms.topic: callback
-f1_keywords:
- - "d3dumddi/VideoProcessBltHD"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop
@@ -27,46 +25,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dumddi.h
-api_name:
-- VideoProcessBltHD
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - "d3dumddi/VideoProcessBltHD"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dumddi.h
+api_name:
+ - VideoProcessBltHD
+product:
+ - Windows
 ---
 
 # PFND3DDDI_DXVAHD_VIDEOPROCESSBLTHD callback function
 
-
 ## -description
-
 
 The <i>VideoProcessBltHD</i> function processes video input streams and composes to an output surface.
 
-
 ## -parameters
-
-
-
 
 ### -param Arg1
 
-
-### -param *
-
-
-
-
-
-
-
+### -param Arg2
 
 *hDevice* [in]
 
@@ -75,12 +61,9 @@ A handle to the display device (graphics context).
 
 *pData* [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_dxvahd_videoprocessblthd">D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD</a> structure that describes the DirectX VA video processing operation to perform. 
-
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_dxvahd_videoprocessblthd">D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD</a> structure that describes the DirectX VA video processing operation to perform.
 
 ## -returns
-
-
 
 <i>VideoProcessBltHD</i> returns one of the following values:
 
@@ -91,11 +74,5 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_dxvahd_videoprocessblthd">D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD</a>
- 
-
- 
 

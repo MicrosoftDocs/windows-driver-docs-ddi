@@ -7,8 +7,6 @@ ms.assetid: b68839e3-ad82-4fcc-8e5a-02dea5db08d9
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_PRESENTDISPLAYONLY, DXGKDDI_PRESENTDISPLAYONLY callback, DxgkDdiPresentDisplayOnly, DxgkDdiPresentDisplayOnly callback function [Display Devices], d3dkmddi/DxgkDdiPresentDisplayOnly, display.dxgkddipresentdisplayonly
 ms.topic: callback
-f1_keywords:
- - "d3dkmddi/DxgkDdiPresentDisplayOnly"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Desktop
@@ -26,45 +24,39 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- D3dkmddi.h
-api_name:
-- DxgkDdiPresentDisplayOnly
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - "d3dkmddi/DxgkDdiPresentDisplayOnly"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - D3dkmddi.h
+api_name:
+ - DxgkDdiPresentDisplayOnly
+product:
+ - Windows
 ---
 
 # DXGKDDI_PRESENTDISPLAYONLY callback function
 
-
 ## -description
-
 
 Presents the screen image to the display device of a kernel mode display-only driver (KMDOD).
 
-
 ## -parameters
 
-
-
-
-### -param hAdapter [in]
+### -param hAdapter
 
 A handle to the device context for the display adapter. The KMDOD's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function previously returned this handle in the <i>MiniportDeviceContext</i> parameter.
 
-
-### -param pPresentDisplayOnly [in]
+### -param pPresentDisplayOnly
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_present_displayonly">DXGKARG_PRESENT_DISPLAYONLY</a> structure that contains information about the present operation.
-
 
 ## -returns
 
@@ -79,12 +71,7 @@ Returns one of the following values:
 
 The driver can also return any other error status code defined in Ntstatus.h to indicate issues that have occurred with the present operation.
 
-
-
-
 ## -remarks
-
-
 
 The KMDOD must complete all screen-to-screen moves before copying dirty rectangles. In addition, the KMDOD must complete each move/copy operation before beginning another move/copy operation.
 
@@ -94,13 +81,7 @@ The operating system supports two modes of KMDOD present operations: synchronous
 
 The operating system guarantees that this function follows the  zero level  synchronization mode as defined in <a href="https://docs.microsoft.com/windows-hardware/drivers/display/threading-and-synchronization-zero-level">Threading and Synchronization Zero Level</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkargcb_notify_interrupt_data">DXGKARGCB_NOTIFY_INTERRUPT_DATA</a>
 
@@ -127,7 +108,4 @@ The operating system guarantees that this function follows the  zero level  sync
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a>
- 
-
- 
 

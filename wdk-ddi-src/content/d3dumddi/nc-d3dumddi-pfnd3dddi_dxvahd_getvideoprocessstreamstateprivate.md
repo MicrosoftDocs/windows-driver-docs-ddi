@@ -8,8 +8,6 @@ ms.assetid: 0503b382-8ed3-461e-906f-27953ac5f757
 ms.date: 05/10/2018
 ms.keywords: GetVideoProcessStreamStatePrivate, GetVideoProcessStreamStatePrivate callback function [Display Devices], PFND3DDDI_DXVAHD_GETVIDEOPROCESSSTREAMSTATEPRIVATE, PFND3DDDI_DXVAHD_GETVIDEOPROCESSSTREAMSTATEPRIVATE callback, UserModeDisplayDriver_Functions_1016a4a3-3988-40ef-9ef9-f62a20651aaa.xml, d3dumddi/GetVideoProcessStreamStatePrivate, display.getvideoprocessstreamstateprivate
 ms.topic: callback
-f1_keywords:
- - "d3dumddi/GetVideoProcessStreamStatePrivate"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop
@@ -27,46 +25,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dumddi.h
-api_name:
-- GetVideoProcessStreamStatePrivate
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - "d3dumddi/GetVideoProcessStreamStatePrivate"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dumddi.h
+api_name:
+ - GetVideoProcessStreamStatePrivate
+product:
+ - Windows
 ---
 
 # PFND3DDDI_DXVAHD_GETVIDEOPROCESSSTREAMSTATEPRIVATE callback function
 
-
 ## -description
 
-
-The <i>GetVideoProcessStreamStatePrivate</i> function retrieves the private stream-state data for a video processor. 
-
+The <i>GetVideoProcessStreamStatePrivate</i> function retrieves the private stream-state data for a video processor.
 
 ## -parameters
 
-
-
-
 ### -param Arg1
 
-
-### -param *
-
-
-
-
-
-
-
+### -param Arg2
 
 *hDevice* [in]
 
@@ -75,12 +61,9 @@ A handle to the display device (graphics context).
 
 *pData* [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_dxvahd_getvideoprocessstreamstateprivate">D3DDDIARG_DXVAHD_GETVIDEOPROCESSSTREAMSTATEPRIVATE</a> structure that describes the private stream-state data to retrieve. 
-
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_dxvahd_getvideoprocessstreamstateprivate">D3DDDIARG_DXVAHD_GETVIDEOPROCESSSTREAMSTATEPRIVATE</a> structure that describes the private stream-state data to retrieve.
 
 ## -returns
-
-
 
 The <i>GetVideoProcessStreamStatePrivate</i> function returns one of the following values:
 
@@ -91,11 +74,5 @@ The <i>GetVideoProcessStreamStatePrivate</i> function returns one of the followi
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_dxvahd_getvideoprocessstreamstateprivate">D3DDDIARG_DXVAHD_GETVIDEOPROCESSSTREAMSTATEPRIVATE</a>
- 
-
- 
 

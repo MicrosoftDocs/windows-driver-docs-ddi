@@ -7,8 +7,6 @@ ms.assetid: 28d32813-15f5-4b9c-9bdb-5ad9b47bbe3b
 ms.date: 05/10/2018
 ms.keywords: ConfigureAuthenticatedChannel, ConfigureAuthenticatedChannel callback function [Display Devices], PFND3D11_1DDI_CONFIGUREAUTHENTICATEDCHANNEL, PFND3D11_1DDI_CONFIGUREAUTHENTICATEDCHANNEL callback, d3d10umddi/ConfigureAuthenticatedChannel, display.configureauthenticatedchannel1
 ms.topic: callback
-f1_keywords:
- - "d3d10umddi/ConfigureAuthenticatedChannel"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -26,66 +24,53 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- D3d10umddi.h
-api_name:
-- ConfigureAuthenticatedChannel
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - "d3d10umddi/ConfigureAuthenticatedChannel"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - D3d10umddi.h
+api_name:
+ - ConfigureAuthenticatedChannel
+product:
+ - Windows
 ---
 
 # PFND3D11_1DDI_CONFIGUREAUTHENTICATEDCHANNEL callback function
 
-
 ## -description
-
 
 Processes  a request from an application to configure an authenticated channel for content protection. Implemented by a Windows Display Driver Model (WDDM) 1.2 or later user-mode display driver.
 
-
 ## -parameters
 
-
-
-
-### -param hDevice [in]
+### -param hDevice
 
 A handle to the display device (graphics context).
 
+### -param hCAuthChannel
 
+A handle to the authenticated channel object that was created through a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createauthenticatedchannel">CreateAuthenticatedChannel(D3D11_1)</a> function.
 
-
-### -param hCAuthChannel [in]
-
-A handle to the authenticated channel object that was created through a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createauthenticatedchannel">CreateAuthenticatedChannel(D3D11_1)</a> function. 
-
-
-### -param InputDataSize [in]
+### -param InputDataSize
 
 The size, in bytes, of the array that is specified by the <i>pInputData</i> parameter.
 
-
-### -param *pInputData [in]
+### -param pInputData
 
 A pointer to a byte array that contains input data for the command. For more information, see the Remarks section.
 
-
-### -param *pOutputData [out]
+### -param pOutputData
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_authenticated_configure_output">D3D11_1DDI_AUTHENTICATED_CONFIGURE_OUTPUT</a> structure. For more information, see the Remarks section.
 
-
 ## -returns
-
-
 
 Returns one of the following values:
 
@@ -94,12 +79,9 @@ Returns one of the following values:
 | **S_OK** | The authenticated channel was configured successfully. | 
 | **E_FAIL** | The display miniport driver does not support the specified command | 
 | **E_INVALIDARG** | Parameters were validated and determined to be incorrect. | 
-| **E_OUTOFMEMORY** |     Memory was not available to complete the operation. | 
-
+| **E_OUTOFMEMORY** |     Memory was not available to complete the operation. |
 
 ## -remarks
-
-
 
 The byte array that is referenced by the <i>pInputData</i> parameter is formatted in the following way:
 
@@ -148,12 +130,7 @@ The display miniport driver must return  <b>E_INVALIDARG</b> for the <b>Configur
 
 * The InputDataSize parameter is less than the size of the [D3D11_1DDI_AUTHENTICATED_CONFIGURE_INPUT](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_authenticated_configure_input)  structure plus the size of the structure specified by the D3D11_1DDI_AUTHENTICATED_CONFIGURE_INPUT.ConfigureTypemember.
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createauthenticatedchannel">CreateAuthenticatedChannel(D3D11_1)</a>
 
@@ -164,7 +141,4 @@ The display miniport driver must return  <b>E_INVALIDARG</b> for the <b>Configur
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_authenticated_configure_output">D3D11_1DDI_AUTHENTICATED_CONFIGURE_OUTPUT</a>
- 
-
- 
 

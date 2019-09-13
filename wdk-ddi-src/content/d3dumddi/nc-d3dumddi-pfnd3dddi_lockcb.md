@@ -8,8 +8,6 @@ ms.assetid: 69022797-432a-410b-8cbf-e1ef7111e7ea
 ms.date: 05/10/2018
 ms.keywords: D3Druntime_Functions_25ad9d8e-34e0-4b1e-9a3a-4d170322fbca.xml, PFND3DDDI_LOCKCB, PFND3DDDI_LOCKCB callback, d3dumddi/pfnLockCb, display.pfnlockcb, pfnLockCb, pfnLockCb callback function [Display Devices]
 ms.topic: callback
-f1_keywords:
- - "d3dumddi/pfnLockCb"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop
@@ -27,43 +25,40 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dumddi.h
-api_name:
-- pfnLockCb
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - "d3dumddi/pfnLockCb"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dumddi.h
+api_name:
+ - pfnLockCb
+product:
+ - Windows
 ---
 
 # PFND3DDDI_LOCKCB callback function
 
-
 ## -description
 
-
-The <i>pfnLockCb</i> function locks an allocation and obtains a pointer to the allocation from the display miniport driver or video memory manager. 
-
+The <i>pfnLockCb</i> function locks an allocation and obtains a pointer to the allocation from the display miniport driver or video memory manager.
 
 ## -parameters
 
-### -param hDevice [in]
+### -param hDevice
 
 A handle to the display device (graphics context).
 
-
-### -param *
+### -param Arg2
 
 *pData* [in, out]
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddicb_lock">D3DDDICB_LOCK</a> structure that describes the allocation to lock.
-
 
 ## -returns
 
@@ -83,12 +78,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 
 This function might also return other HRESULT values.
 
-
-
-
 ## -remarks
-
-
 
 The user-mode display driver can call the Microsoft Direct3D runtime's <i>pfnLockCb</i> function to lock an allocation and obtain a pointer to the allocation from the display miniport driver or video memory manager. The user-mode display driver typically calls <i>pfnLockCb</i> in response to a call to its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_lock">Lock</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_resourcemap">ResourceMap</a> function (or other variations of <b>ResourceMap</b> such as <i>DynamicIABufferMapDiscard</i>) to lock a resource or a surface within the resource. Before returning from the <b>Lock</b> or <b>ResourceMap</b> call, the user-mode display driver must first map the resource or surface to the appropriate allocation and then call <i>pfnLockCb</i> to lock the allocation. The allocation must be locked before it can be read from or written to because locking: 
 
@@ -175,11 +165,7 @@ UpdateAllocationHandleInUMDDataStructure(LockData.hAllocation);
 ProgramSurfaceBaseAddressInCurrentCommandBuffer(LockData.hAllocation);
 ```
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ns-d3d10umddi-d3d10ddiarg_createresource">D3D10DDIARG_CREATERESOURCE</a>
 
@@ -210,7 +196,4 @@ ProgramSurfaceBaseAddressInCurrentCommandBuffer(LockData.hAllocation);
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_resourceunmap">ResourceUnmap</a>
- 
-
- 
 

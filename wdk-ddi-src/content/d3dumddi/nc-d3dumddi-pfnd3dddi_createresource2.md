@@ -8,8 +8,6 @@ ms.assetid: a8326707-cffc-4a20-ad3d-c7862661f513
 ms.date: 05/10/2018
 ms.keywords: CreateResource2, CreateResource2 callback function [Display Devices], PFND3DDDI_CREATERESOURCE2, PFND3DDDI_CREATERESOURCE2 callback, d3dumddi/CreateResource2, display.createresource2
 ms.topic: callback
-f1_keywords:
- - "d3dumddi/CreateResource2"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop
@@ -27,61 +25,50 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- D3dumddi.h
-api_name:
-- CreateResource2
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - "d3dumddi/CreateResource2"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - D3dumddi.h
+api_name:
+ - CreateResource2
+product:
+ - Windows
 ---
 
 # PFND3DDDI_CREATERESOURCE2 callback function
 
-
 ## -description
-
 
 Creates a resource. Implemented by Windows Display Driver Model (WDDM) 1.2 and later user-mode display drivers.
 
-
 ## -parameters
 
-
-
-
-### -param hDevice 
+### -param hDevice
 
 [in] A handle to the display device (graphics context) that is used to create the resource.
 
-
-### -param *
+### -param Arg2
 
 *pResource2* [in, out]
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dukmdt/ns-d3dukmdt-_d3dddiarg_createresource2">D3DDDIARG_CREATERESOURCE2</a> structure that describes the resource that is created.
 
-
 ## -returns
-
-
 
 Returns <b>S_OK</b> or an appropriate error result. WDDM 1.3 and later Direct3D Level 9 drivers must return this error code:
 
 | **Return code** | **Description** | 
 |:--|:--|
-| **E_INVALIDARG** | The [D3DDDIARG_CREATERESOURCE2](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dukmdt/ns-d3dukmdt-_d3dddiarg_createresource2) .Flagsmember has the CaptureBuffer flag value set and the resource exceeds what the driver can support. | 
-
+| **E_INVALIDARG** | The [D3DDDIARG_CREATERESOURCE2](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dukmdt/ns-d3dukmdt-_d3dddiarg_createresource2) .Flagsmember has the CaptureBuffer flag value set and the resource exceeds what the driver can support. |
 
 ## -remarks
-
-
 
 The call to <i>CreateResource2</i> can contain a list of surfaces. The <b>SurfCount</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dukmdt/ns-d3dukmdt-_d3dddiarg_createresource2">D3DDDIARG_CREATERESOURCE2</a> structure that is specified by the <i>pResource2</i> parameter specifies the number of surfaces—including MIP-map levels—to create. For example, a 256x256x9 texture MIP-map resource contains a list of nine surfaces where the <b>SurfCount</b> member and number of MIP-map levels are both set to 9. A cube map that contains nine MIP-map levels should have the number of MIP-map levels set to 9 and <b>SurfCount</b> set to 54. A three-surface swap chain should have <b>SurfCount</b> set to 3 and the number of MIP-map levels set to 0. Note that the number of MIP-map levels is always less than or equal to the value in <b>SurfCount</b>.
 
@@ -149,13 +136,7 @@ For a system memory resource, the display miniport driver can chose to wrap an a
 
 If the runtime requests to create a vertex or index buffer and if the user-mode display driver cannot create the buffer for reasons other than out of memory (for example, a lack of hardware support), the driver must fail with <b>D3DERR_NOTAVAILABLE</b>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_blt">Blt</a>
 
@@ -190,7 +171,4 @@ If the runtime requests to create a vertex or index buffer and if the user-mode 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_deallocatecb">pfnDeallocateCb</a>
- 
-
- 
 

@@ -8,8 +8,6 @@ ms.assetid: 63EE8130-47E5-4976-8A72-1B11136B1192
 ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_TEXBLT1, PFND3DDDI_TEXBLT1 callback, TexBlt1, TexBlt1 callback function [Display Devices], d3dumddi/TexBlt1, display.texblt1
 ms.topic: callback
-f1_keywords:
- - "d3dumddi/TexBlt1"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop
@@ -27,66 +25,46 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dumddi.h
-api_name:
-- TexBlt1
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - "d3dumddi/TexBlt1"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dumddi.h
+api_name:
+ - TexBlt1
+product:
+ - Windows
 ---
 
 # PFND3DDDI_TEXBLT1 callback function
 
-
 ## -description
-
 
 Performs a bit-block transfer (bitblt) operation from a source texture to a destination texture, including all of the sublevels of the source texture. Implemented by Windows Display Driver Model (WDDM) 1.2 or later user-mode display drivers.
 
-
 ## -parameters
 
-
-
-
-### -param hDevice [in]
+### -param hDevice
 
 A handle to the display device (graphics context).
 
-
-### -param *
-
-
-
-
-
-
-
+### -param Arg2
 
 *pData* [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_texblt1">D3DDDIARG_TEXBLT1</a> structure that defines the parameters for the texture bitblt operation.
 
-
 ## -returns
-
-
 
 Returns S_OK or an appropriate error result if the texture bitblt operation is not successfully performed.
 
-
-
-
 ## -remarks
-
-
 
 The Microsoft Direct3D runtime calls the user-mode display driver's <i>TexBlt</i> function to inform the driver to perform a bitblt operation from a source texture to a destination texture. A texture can also be a cubic environment map. The driver should copy the rectangle that is specified by the <b>SrcRect</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_texblt">D3DDDIARG_TEXBLT</a> structure in the source texture to the location that is specified by the <b>DstPoint</b> member of D3DDDIARG_TEXBLT in the destination texture. The destination and source textures are identified by the <b>hDstResource</b> and <b>hSrcResource</b> handles of D3DDDIARG_TEXBLT, respectively. 
 
@@ -96,15 +74,9 @@ The source and destination handles always refer to the top-level surfaces and ne
 
 To copy an arbitrary level of a MIP-map texture, the runtime calls the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_blt">Blt</a> function instead.
 
-The pixel formats of the source and destination textures are identical and, in general, the specified bitblt operation is safe to perform. 
-
-
-
+The pixel formats of the source and destination textures are identical and, in general, the specified bitblt operation is safe to perform.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_blt">Blt</a>
 
@@ -115,7 +87,4 @@ The pixel formats of the source and destination textures are identical and, in g
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>
- 
-
- 
 

@@ -5,34 +5,34 @@ description: Describes the log operations.
 ms.assetid: d1e9190a-1454-4faa-801b-a449a2864d1f
 ms.date: 10/19/2018
 ms.topic: enum
-f1_keywords:
- - "d3dkmddi/_DXGK_SCHEDULING_LOG_OPERATION"
 ms.keywords: _DXGK_SCHEDULING_LOG_OPERATION, DXGK_SCHEDULING_LOG_OPERATION,
 req.header: d3dkmddi.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
 req.typenames: DXGK_SCHEDULING_LOG_OPERATION
-topic_type:
-- apiref
-api_type:
-- HeaderDef
-api_location:
-- d3dkmddi.h
-api_name:
-- _DXGK_SCHEDULING_LOG_OPERATION
-product:
-- Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
+f1_keywords:
+ - "d3dkmddi/_DXGK_SCHEDULING_LOG_OPERATION"
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3dkmddi.h
+api_name:
+ - _DXGK_SCHEDULING_LOG_OPERATION
+product:
+ - Windows
 dev_langs:
  - c++
-ms.custom: RS5
 ---
 
 # _DXGK_SCHEDULING_LOG_OPERATION enumeration
@@ -43,10 +43,11 @@ Describes the log operations. Each operation type has a corresponding data struc
 
 ## -enum-fields
 
-### -field DXGK_SCHEDULING_LOG_OPERATION_CONTEXT_STATE_CHANGE :
+### -field DXGK_SCHEDULING_LOG_OPERATION_CONTEXT_STATE_CHANGE
 
 The log operation is context state change.
 
 ## -remarks
 
 ## -see-also
+

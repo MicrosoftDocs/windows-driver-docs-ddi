@@ -8,8 +8,6 @@ ms.assetid: 2ffa0367-0451-45d2-be05-e450c45be116
 ms.date: 05/10/2018
 ms.keywords: D3Druntime_Functions_0162df86-f479-45d9-887b-75f05de150f9.xml, PFND3DDDI_DEALLOCATECB, PFND3DDDI_DEALLOCATECB callback, d3dumddi/pfnDeallocateCb, display.pfndeallocatecb, pfnDeallocateCb, pfnDeallocateCb callback function [Display Devices]
 ms.topic: callback
-f1_keywords:
- - "d3dumddi/pfnDeallocateCb"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop
@@ -27,57 +25,42 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dumddi.h
-api_name:
-- pfnDeallocateCb
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - "d3dumddi/pfnDeallocateCb"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dumddi.h
+api_name:
+ - pfnDeallocateCb
+product:
+ - Windows
 ---
 
 # PFND3DDDI_DEALLOCATECB callback function
 
-
 ## -description
-
 
 The <b>pfnDeallocateCb</b> callback function releases allocations or a kernel-mode resource object if the resource object was created.
 
-
 ## -parameters
 
-
-
-
-### -param hDevice [in]
+### -param hDevice
 
 A handle to the display device (graphics context).
 
-
-### -param *
-
-
-
-
-
-
-
+### -param Arg2
 
 *pData* [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddicb_deallocate">D3DDDICB_DEALLOCATE</a> structure that describes the resource to release.
 
-
 ## -returns
-
-
 
 <b>pfnDeallocateCb</b> returns one of the following values:
 
@@ -89,12 +72,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 
 This function might also return other HRESULT values.
 
-
-
-
 ## -remarks
-
-
 
 The user-mode display driver can release allocations in the following ways: 
 
@@ -133,11 +111,7 @@ The following code example shows how to release a resource.
     }
 ```
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddicb_deallocate">D3DDDICB_DEALLOCATE</a>
 
@@ -156,7 +130,4 @@ The following code example shows how to release a resource.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_allocatecb">pfnAllocateCb</a>
- 
-
- 
 

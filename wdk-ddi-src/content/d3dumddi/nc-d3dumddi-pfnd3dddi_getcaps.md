@@ -8,8 +8,6 @@ ms.assetid: cf6c61ce-7b53-46d0-b3ff-ed5b2b964c65
 ms.date: 05/10/2018
 ms.keywords: GetCaps, GetCaps callback function [Display Devices], PFND3DDDI_GETCAPS, PFND3DDDI_GETCAPS callback, UserModeDisplayDriver_Functions_2848e873-69ef-4b77-b8bc-8ae9f4abe2c9.xml, d3dumddi/GetCaps, display.getcaps
 ms.topic: callback
-f1_keywords:
- - "d3dumddi/GetCaps"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop
@@ -27,57 +25,42 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dumddi.h
-api_name:
-- GetCaps
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - "d3dumddi/GetCaps"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dumddi.h
+api_name:
+ - GetCaps
+product:
+ - Windows
 ---
 
 # PFND3DDDI_GETCAPS callback function
 
-
 ## -description
-
 
 The <i>GetCaps</i> function queries for capabilities of the graphics adapter.
 
-
 ## -parameters
 
+### -param hAdapter
 
+A handle that identifies the graphics adapter.
 
-
-### -param hAdapter [in]
-
-A handle that identifies the graphics adapter. 
-
-
-### -param *
-
-
-
-
-
-
-
+### -param Arg2
 
 *pData* [in, out]
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_getcaps">D3DDDIARG_GETCAPS</a> structure that describes the capabilities to retrieve.
 
-
 ## -returns
-
-
 
 <i>GetCaps</i> returns one of the following values:
 
@@ -85,14 +68,8 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 |--- |--- |
 |S_OK|The capabilities were successfully retrieved.|
 |E_OUTOFMEMORY|GetCaps could not allocate the required memory for it to complete.|
- 
-
-
-
 
 ## -remarks
-
-
 
 The data that is returned by the <i>GetCaps</i> function in the <b>pData</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_getcaps">D3DDDIARG_GETCAPS</a> structure depends on the type of data that is requested (that is, the data depends on the <b>Type</b> member of <b>D3DDDIARG_GETCAPS</b> and sometimes on the <b>pInfo</b> member).
 
@@ -113,13 +90,7 @@ See the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content
 <h3><a id="Simple_instancing"></a><a id="simple_instancing"></a><a id="SIMPLE_INSTANCING"></a>Simple instancing</h3>
 If a Microsoft Direct3D Level 9 driver that supports Windows Display Driver Model (WDDM) 1.3 and later completes a call to <i>GetCaps</i> and returns <b>S_OK</b> but doesn't change the data in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_getcaps">D3DDDIARG_GETCAPS</a> structure, it indicates to the Direct3D runtime that the hardware and driver don't support simple instancing. For more info, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-d3dddicaps_simple_instancing_support">D3DDDICAPS_SIMPLE_INSTANCING_SUPPORT</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_getcaps">D3DDDIARG_GETCAPS</a>
 
@@ -138,7 +109,4 @@ If a Microsoft Direct3D Level 9 driver that supports Windows Display Driver Mode
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_ddraw_caps">DDRAW_CAPS</a>
- 
-
- 
 

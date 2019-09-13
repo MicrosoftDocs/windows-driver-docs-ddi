@@ -7,8 +7,6 @@ ms.assetid: 0973cef3-41a8-495e-aa8a-ce64df53b892
 ms.date: 05/10/2018
 ms.keywords: PFND3D11_1DDI_STARTSESSIONKEYREFRESH, PFND3D11_1DDI_STARTSESSIONKEYREFRESH callback, d3d10umddi/pfnStartSessionKeyRefresh, display.startsessionkeyrefresh1, pfnStartSessionKeyRefresh, pfnStartSessionKeyRefresh callback function [Display Devices]
 ms.topic: callback
-f1_keywords:
- - "d3d10umddi/pfnStartSessionKeyRefresh"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -26,76 +24,53 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- D3d10umddi.h
-api_name:
-- pfnStartSessionKeyRefresh
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - "d3d10umddi/pfnStartSessionKeyRefresh"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - D3d10umddi.h
+api_name:
+ - pfnStartSessionKeyRefresh
+product:
+ - Windows
 ---
 
 # PFND3D11_1DDI_STARTSESSIONKEYREFRESH callback function
 
-
 ## -description
-
 
 Gets a random number that can be used to refresh the session key.
 
-
-
-
 ## -parameters
 
-
-
-
-### -param hDevice [in]
+### -param hDevice
 
 A handle to the display device (graphics context).
 
-
-
-
-### -param hCryptoSession [in]
+### -param hCryptoSession
 
 A handle to the cryptographic session object that was created through a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession">CreateCryptoSession</a> function.
 
-
-
-
-### -param RandomNumberSize [in, out]
+### -param RandomNumberSize
 
 The size, in bytes, of the number in the buffer that is referenced by the <i>pRandomNumber</i> parameter.
 
-
-
-### -param *pRandomNumber [in]
+### -param pRandomNumber
 
 A pointer to a buffer that contains the status sequence number for the random start.
 
-
-
 ## -returns
-
-
 
 This callback function does not return a value.
 
-
-
-
 ## -remarks
-
-
 
 The hardware and driver can optionally support <b>StartSessionKeyRefresh</b> for all cryptographic types.
 
@@ -105,22 +80,11 @@ When the Microsoft Direct3D runtime calls the driver's <b>StartSessionKeyRefresh
 
 When the runtime subsequently calls the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_finishsessionkeyrefresh">FinishSessionKeyRefresh</a> function, the driver refreshes the session key by performing an XOR operation of the random number with the key.
 
-
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession">CreateCryptoSession</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_finishsessionkeyrefresh">FinishSessionKeyRefresh</a>
- 
-
- 
 

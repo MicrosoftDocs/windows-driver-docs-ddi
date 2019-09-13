@@ -8,8 +8,6 @@ ms.assetid: 92cb270c-1548-4239-81cd-5b3483769fc8
 ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_SETSTREAMSOURCEFREQ, PFND3DDDI_SETSTREAMSOURCEFREQ callback, SetStreamSourceFreq, SetStreamSourceFreq callback function [Display Devices], UserModeDisplayDriver_Functions_4cb72b36-4cea-424f-b7a3-149435170f24.xml, d3dumddi/SetStreamSourceFreq, display.setstreamsourcefreq
 ms.topic: callback
-f1_keywords:
- - "d3dumddi/SetStreamSourceFreq"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop
@@ -27,66 +25,46 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dumddi.h
-api_name:
-- SetStreamSourceFreq
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - "d3dumddi/SetStreamSourceFreq"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dumddi.h
+api_name:
+ - SetStreamSourceFreq
+product:
+ - Windows
 ---
 
 # PFND3DDDI_SETSTREAMSOURCEFREQ callback function
 
-
 ## -description
-
 
 The <i>SetStreamSourceFreq</i> function sets the frequency divisor of a stream source that is bound to a vertex buffer.
 
-
 ## -parameters
 
-
-
-
-### -param hDevice [in]
+### -param hDevice
 
 A handle to the display device (graphics context).
 
-
-### -param *
-
-
-
-
-
-
-
+### -param Arg2
 
 *pData* [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_setstreamsourcefreq">D3DDDIARG_SETSTREAMSOURCEFREQ</a> structure that specifies how the frequency divisor for the stream source is set.
 
-
 ## -returns
-
-
 
 <i>SetStreamSourceFreq</i> returns S_OK or an appropriate error result if the frequency divisor for the portion of the vertex stream source is not successfully set.
 
-
-
-
 ## -remarks
-
-
 
 A user-mode display driver for a device that supports vertex shader version 3.0 and later must implement vertex stream frequency division. For version 2.0 and earlier models of vertex shader (including fixed function), the vertex shader is called once for each vertex. For each call, the input vertex registers are initialized with unique vertex elements from the vertex streams. However, if the driver uses vertex stream frequency division, the vertex shader (3.0 and later) can be called to initialize applicable input registers at a less frequent rate. 
 
@@ -107,15 +85,9 @@ VertexOffset = (StartVertex / Divider) +
 
 Note that the preceding formulas use integer division. 
 
-The driver ignores the setting of a stream's frequency divisor either for indexed primitives or if the driver supports only a vertex shader model that is earlier than version 3.0 (including fixed function). 
-
-
-
+The driver ignores the setting of a stream's frequency divisor either for indexed primitives or if the driver supports only a vertex shader model that is earlier than version 3.0 (including fixed function).
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_drawprimitive">D3DDDIARG_DRAWPRIMITIVE</a>
 
@@ -130,7 +102,4 @@ The driver ignores the setting of a stream's frequency divisor either for indexe
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_drawprimitive">DrawPrimitive</a>
- 
-
- 
 

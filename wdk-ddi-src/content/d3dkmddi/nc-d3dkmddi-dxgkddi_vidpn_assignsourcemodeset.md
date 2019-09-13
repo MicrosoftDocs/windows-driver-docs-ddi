@@ -7,8 +7,6 @@ ms.assetid: e1a2ca9e-9035-4656-bcb8-4ad956a8501d
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_VIDPN_ASSIGNSOURCEMODESET, DXGKDDI_VIDPN_ASSIGNSOURCEMODESET callback, VidPnFunctions_558924ab-3dd4-43e9-84ed-4e28feae91c5.xml, d3dkmddi/pfnAssignSourceModeSet, display.dxgk_vidpn_interface_pfnassignsourcemodeset, pfnAssignSourceModeSet, pfnAssignSourceModeSet callback function [Display Devices]
 ms.topic: callback
-f1_keywords:
- - "d3dkmddi/pfnAssignSourceModeSet"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Desktop
@@ -26,54 +24,45 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dkmddi.h
-api_name:
-- pfnAssignSourceModeSet
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - "d3dkmddi/pfnAssignSourceModeSet"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dkmddi.h
+api_name:
+ - pfnAssignSourceModeSet
+product:
+ - Windows
 ---
 
 # DXGKDDI_VIDPN_ASSIGNSOURCEMODESET callback function
 
-
 ## -description
-
 
 The <b>pfnAssignSourceModeSet</b> function assigns a source mode set to a particular source in a specified VidPN.
 
-
 ## -parameters
 
-
-
-
-### -param hVidPn [in]
+### -param hVidPn
 
 [in] A handle to a VidPN object. The VidPN manager previously provided this handle to the display miniport driver by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_enumvidpncofuncmodality">DxgkDdiEnumVidPnCofuncModality</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_recommendfunctionalvidpn">DxgkDdiRecommendFunctionalVidPn</a>.
 
-
-### -param VidPnSourceId [in]
+### -param VidPnSourceId
 
 [in] An integer that identifies one of the video present sources associated with the VidPN object.
 
-
-### -param hVidPnSourceModeSet [in]
+### -param hVidPnSourceModeSet
 
 [in] A handle to the source mode set object that is to be assigned to the source identified by <i>VidPnSourceId</i>. The display miniport driver previously obtained this handle by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_vidpn_createnewsourcemodeset">pfnCreateNewSourceModeSet</a>.
 
-
 ## -returns
-
-
 
 The <b>pfnAssignSourceModeSet</b> function returns one of the following values:
 
@@ -85,11 +74,7 @@ The <b>pfnAssignSourceModeSet</b> function returns one of the following values:
 |STATUS_GRAPHICS_INVALID_VIDPN_SOURCEMODESET|The handle supplied in hVidPnSourceModeSet was invalid.|
 |STATUS_GRAPHICS_PINNED_MODE_MUST_REMAIN_IN_SET|The source mode set you are attempting to assign does not contain the mode that was already pinned on the source.|
 
-
-
 ## -remarks
-
-
 
 VidPN source identifiers are assigned by the operating system. <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a>, implemented by the display miniport driver, returns the number N of video present sources supported by the display adapter. Then the operating system assigns identifiers 0, 1, 2, ... N - 1.
 
@@ -119,22 +104,13 @@ The source mode set was not created for the source that is identified by <i>VidP
 <div> </div>
 The D3DDDI_VIDEO_PRESENT_SOURCE_ID data type is defined in <i>D3dukmdt.h</i>.
 
-The D3DKMDT_HVIDPN and D3DKMDT_HVIDPNSOURCEMODESET data types are defined in <i>D3dkmdt.h</i>. 
-
-
-
+The D3DKMDT_HVIDPN and D3DKMDT_HVIDPNSOURCEMODESET data types are defined in <i>D3dkmdt.h</i>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">VidPN Source Mode Set Interface</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_vidpn_createnewsourcemodeset">pfnCreateNewSourceModeSet</a>
- 
-
- 
 

@@ -7,8 +7,6 @@ ms.assetid: 79a524cd-dec1-4ea8-a660-d9d9c644e162
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_ESCAPE, DXGKDDI_ESCAPE callback, DmFunctions_41056daa-dfeb-4ba3-b453-b8d5dd94e8a3.xml, DxgkDdiEscape, DxgkDdiEscape callback function [Display Devices], d3dkmddi/DxgkDdiEscape, display.dxgkddiescape
 ms.topic: callback
-f1_keywords:
- - "d3dkmddi/DxgkDdiEscape"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Desktop
@@ -26,42 +24,37 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dkmddi.h
-api_name:
-- DxgkDdiEscape
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - "d3dkmddi/DxgkDdiEscape"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dkmddi.h
+api_name:
+ - DxgkDdiEscape
+product:
+ - Windows
 ---
 
 # DXGKDDI_ESCAPE callback function
 
-
 ## -description
-
 
 The <i>DxgkDdiEscape</i> function shares information with the user-mode display driver.
 
-
 ## -parameters
 
-
-
-
-### -param hAdapter [in]
+### -param hAdapter
 
 [in] A handle to a context block that is associated with a display adapter. The display miniport driver previously provided this handle to the Microsoft DirectX graphics kernel subsystem in the <i>MiniportDeviceContext</i> output parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function.
 
-
-### -param pEscape [in]
+### -param pEscape
 
 [in] A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_escape">DXGKARG_ESCAPE</a> structure that contains information about the shared information.
 
@@ -69,8 +62,6 @@ The <i>DxgkDdiEscape</i> function shares information with the user-mode display 
 <div> </div>
 
 ## -returns
-
-
 
 <i>DxgkDdiEscape</i> returns one of the following values:
 
@@ -85,19 +76,11 @@ The <i>DxgkDdiEscape</i> function shares information with the user-mode display 
 
 ## -remarks
 
-
-
 The DirectX graphics kernel subsystem calls the display miniport driver's <i>DxgkDdiEscape</i> function whenever the user-mode display driver must share information with the display miniport driver in a way that is not supported through other driver communications. 
 
 <i>DxgkDdiEscape</i> should be made pageable.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_escape">DXGKARG_ESCAPE</a>
 
@@ -108,7 +91,4 @@ The DirectX graphics kernel subsystem calls the display miniport driver's <i>Dxg
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_escapecb">pfnEscapeCb</a>
- 
-
- 
 

@@ -7,8 +7,6 @@ ms.assetid: d94234ab-712b-4449-96de-16b9e310d250
 ms.date: 05/10/2018
 ms.keywords: Discard(D3D11_1), Discard(D3D11_1) callback function [Display Devices], PFND3D11_1DDI_DISCARD, PFND3D11_1DDI_DISCARD callback, d3d10umddi/Discard(D3D11_1), display.discard_d3d11_1_, display.pfndiscard
 ms.topic: callback
-f1_keywords:
- - "d3d10umddi/Discard(D3D11_1)"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -26,35 +24,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- D3d10umddi.h
-api_name:
-- Discard(D3D11_1)
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - "d3d10umddi/Discard(D3D11_1)"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - D3d10umddi.h
+api_name:
+ - Discard(D3D11_1)
+product:
+ - Windows
 ---
 
 # PFND3D11_1DDI_DISCARD callback function
 
-
 ## -description
-
 
 Discards (evicts) an allocation from video display memory. Implemented by Windows Display Driver Model (WDDM) 1.2 and later user-mode display drivers.
 
-
 ## -parameters
-
-
-
 
 ### -param Arg1
 
@@ -66,13 +60,11 @@ A handle to the display device (graphics context).
 
 A value, of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ne-d3d10umddi-d3d11ddi_handletype">D3D11DDI_HANDLETYPE</a>, that identifies the context handle type.
 
-
-### -param *hResourceOrView
+### -param hResourceOrView
 
 A pointer to a handle to the resource or to the view that is to be discarded.
 
-
-### -param *
+### -param Arg4
 
 *pRects* [in, optional]
 
@@ -82,20 +74,11 @@ An optional array of <a href="https://docs.microsoft.com/windows/desktop/api/win
 
 The number of rectangles in the array that the  <i>pRects</i> parameter specifies.
 
-
-
 ## -returns
-
-
 
 This callback function does not return a value.
 
-
-
-
 ## -remarks
-
-
 
 The D3D10_DDI_RECT structure is defined as a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a> structure.
 
@@ -103,18 +86,11 @@ The D3D10_DDI_RECT structure is defined as a <a href="https://docs.microsoft.com
 typedef RECT D3D10_DDI_RECT;
 ```
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ne-d3d10umddi-d3d11ddi_handletype">D3D11DDI_HANDLETYPE</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_devicefuncs">D3D11_1DDI_DEVICEFUNCS</a>
- 
-
- 
 

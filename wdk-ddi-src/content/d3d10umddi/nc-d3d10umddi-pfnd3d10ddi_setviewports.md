@@ -7,8 +7,6 @@ ms.assetid: f5a55dd3-a8c4-4741-b99e-105021d79603
 ms.date: 05/10/2018
 ms.keywords: PFND3D10DDI_SETVIEWPORTS, PFND3D10DDI_SETVIEWPORTS callback, SetViewports, SetViewports callback function [Display Devices], UserModeDisplayDriverDx10_Functions_fbab11b0-f3cc-41f1-afc8-e372a778255a.xml, d3d10umddi/SetViewports, display.setviewports
 ms.topic: callback
-f1_keywords:
- - "d3d10umddi/SetViewports"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -26,35 +24,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3d10umddi.h
-api_name:
-- SetViewports
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - "d3d10umddi/SetViewports"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3d10umddi.h
+api_name:
+ - SetViewports
+product:
+ - Windows
 ---
 
 # PFND3D10DDI_SETVIEWPORTS callback function
 
-
 ## -description
-
 
 The <i>SetViewports</i> function sets viewports.
 
-
 ## -parameters
-
-
-
 
 ### -param Arg1
 
@@ -62,39 +56,29 @@ The <i>SetViewports</i> function sets viewports.
 
 A handle to the display device (graphics context).
 
-### -param NumViewports 
+### -param NumViewports
 
-[in] The total number of viewports that the <i>pViewports</i> parameter specifies. 
+[in] The total number of viewports that the <i>pViewports</i> parameter specifies.
 
-
-### -param ClearViewports 
+### -param ClearViewports
 
 [in] The number of viewports after the number of viewports that <i>NumViewports </i>specifies to be set to <b>NULL</b>. This number represents the difference between the previous number of viewports (that is, when the Microsoft Direct3D runtime previously called <i>SetViewports</i>) and the new number of viewports. 
 
-Note that the number that <i>ClearViewports</i> specifies is only an optimization aid because the user-mode display driver could calculate this number. 
+Note that the number that <i>ClearViewports</i> specifies is only an optimization aid because the user-mode display driver could calculate this number.
 
-
-### -param *
+### -param Arg4
 
 *pViewports* [in]
 
-An array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ns-d3d10umddi-d3d10_ddi_viewport">D3D10_DDI_VIEWPORT</a> structures for the viewports to set. 
-
+An array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ns-d3d10umddi-d3d10_ddi_viewport">D3D10_DDI_VIEWPORT</a> structures for the viewports to set.
 
 ## -returns
-
-
 
 None
 
 The driver can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> callback function to set an error code. For more information about setting error codes, see the following Remarks section.
 
-
-
-
 ## -remarks
-
-
 
 Viewports specify the transformation post clip to the output render target and depth stencil resources. Any viewports that are not defined in a call to <i>SetViewports</i> are set to <b>NULL</b>. A <b>NULL</b> viewport is defined as follows. 
 
@@ -125,13 +109,7 @@ When the value of clear viewports is requested during user-mode query operations
 
 The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. Therefore, if the driver passes any error, except for D3DDDIERR_DEVICEREMOVED, in a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> function, the Microsoft Direct3D runtime will determine that the error is critical. Even if the device was removed, the driver is not required to return D3DDDIERR_DEVICEREMOVED; however, if device removal interfered with the operation of <i>SetViewports</i> (which typically should not happen), the driver can return D3DDDIERR_DEVICEREMOVED.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ns-d3d10umddi-d3d10ddi_devicefuncs">D3D10DDI_DEVICEFUNCS</a>
 
@@ -142,7 +120,4 @@ The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. T
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a>
- 
-
- 
 

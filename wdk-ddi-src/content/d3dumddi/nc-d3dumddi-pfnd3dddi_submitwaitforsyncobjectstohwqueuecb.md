@@ -8,8 +8,6 @@ ms.assetid: 4FD92529-0F47-46FC-9567-D8C0A5D76728
 ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_SUBMITWAITFORSYNCOBJECTSTOHWQUEUECB, PFND3DDDI_SUBMITWAITFORSYNCOBJECTSTOHWQUEUECB callback, PFND3DDDI_SUBMITWAITFORSYNCOBJECTSTOHWQUEUECB callback function [Display Devices], d3dumddi/PFND3DDDI_SUBMITWAITFORSYNCOBJECTSTOHWQUEUECB, display.pfnd3dddi_submitwaitforsyncobjectstohwqueuecb
 ms.topic: callback
-f1_keywords:
- - "d3dumddi/PFND3DDDI_SUBMITWAITFORSYNCOBJECTSTOHWQUEUECB"
 req.header: d3dumddi.h
 req.include-header: 
 req.target-type: Windows
@@ -27,46 +25,40 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dumddi.h
-api_name:
-- PFND3DDDI_SUBMITWAITFORSYNCOBJECTSTOHWQUEUECB
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - "d3dumddi/PFND3DDDI_SUBMITWAITFORSYNCOBJECTSTOHWQUEUECB"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dumddi.h
+api_name:
+ - PFND3DDDI_SUBMITWAITFORSYNCOBJECTSTOHWQUEUECB
+product:
+ - Windows
 ---
 
 # PFND3DDDI_SUBMITWAITFORSYNCOBJECTSTOHWQUEUECB callback function
 
-
 ## -description
-
 
 A callback to submit a wait command to the hardware queue.
 
-
 ## -parameters
 
-
-
-
-### -param hDevice [in]
+### -param hDevice
 
 A handle to the device.
 
-
-### -param *
+### -param Arg2
 
 *submitWaitForSyncObjectsToHwQueue* [in]
 
 A pointer to the structure holding information on submitting a wait command to the hardware queue.
-
 
 ## -returns
 
@@ -75,6 +67,4 @@ A pointer to the structure holding information on submitting a wait command to t
 |S_OK|The call was successfully completed.|
 
 This function might also return other HRESULT values.
-
-
 

@@ -7,8 +7,6 @@ ms.assetid: a48dcbae-3236-4523-bc14-4be694da9a7b
 ms.date: 05/10/2018
 ms.keywords: NegotiateCryptoSessionKeyExchange, NegotiateCryptoSessionKeyExchange callback function [Display Devices], PFND3D11_1DDI_NEGOTIATECRYPTOSESSIONKEYESCHANGE, PFND3D11_1DDI_NEGOTIATECRYPTOSESSIONKEYESCHANGE callback, d3d10umddi/NegotiateCryptoSessionKeyExchange, display.negotiatecryptosessionkeyexchange
 ms.topic: callback
-f1_keywords:
- - "d3d10umddi/NegotiateCryptoSessionKeyExchange"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -26,65 +24,49 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- D3d10umddi.h
-api_name:
-- NegotiateCryptoSessionKeyExchange
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - "d3d10umddi/NegotiateCryptoSessionKeyExchange"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - D3d10umddi.h
+api_name:
+ - NegotiateCryptoSessionKeyExchange
+product:
+ - Windows
 ---
 
 # PFND3D11_1DDI_NEGOTIATECRYPTOSESSIONKEYESCHANGE callback function
 
-
 ## -description
-
 
 Establishes a session key for a cryptographic session object.
 
-
 ## -parameters
 
-
-
-
-### -param hDevice [in]
+### -param hDevice
 
 A handle to the display device (graphics context).
 
+### -param hCryptoSession
 
+A handle to the cryptographic session object that was created through a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession">CreateCryptoSession</a> function.
 
-
-### -param hCryptoSession [in]
-
-A handle to the cryptographic session object that was created through a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession">CreateCryptoSession</a> function. 
-
-
-
-
-### -param DataSize [in]
+### -param DataSize
 
 The size, in bytes, of the data in the <i>pData</i> array.
 
-
-
-
-### -param *pData [in]
+### -param pData
 
 A pointer to a byte array that contains the encrypted session key.
 
-
 ## -returns
-
-
 
 <i>NegotiateCryptoSessionKeyExchange</i> returns one of the following values:
 
@@ -93,14 +75,8 @@ A pointer to a byte array that contains the encrypted session key.
 |S_OK|The session key for the cryptographic session was negotiated successfully.|
 |E_INVALIDARG|Parameters were validated and determined to be incorrect.|
 |E_OUTOFMEMORY|Memory was not available to complete the operation.|
- 
-
-
-
 
 ## -remarks
-
-
 
 The <i>pData</i> parameter references a buffer that contains a session key for the cryptographic session. The key exchange mechanism depends on the type of the encryption algorithm that is used by the cryptographic session.
 
@@ -111,15 +87,7 @@ The key exchange for a cryptographic session is identical to the key exchange fo
 <div class="alert"><b>Note</b>  The same certificate can be used for the cryptographic session and OPM session key.</div>
 <div> </div>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession">CreateCryptoSession</a>
- 
-
- 
 

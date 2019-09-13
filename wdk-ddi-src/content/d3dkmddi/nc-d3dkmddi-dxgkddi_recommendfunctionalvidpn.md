@@ -7,8 +7,6 @@ ms.assetid: 320a77a7-d7d4-47b9-8a40-2b6e12819e4b
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_RECOMMENDFUNCTIONALVIDPN, DXGKDDI_RECOMMENDFUNCTIONALVIDPN callback, DmFunctions_9b5062a8-31fa-4351-bf10-a90f57bbaed8.xml, DxgkDdiRecommendFunctionalVidPn, DxgkDdiRecommendFunctionalVidPn callback function [Display Devices], d3dkmddi/DxgkDdiRecommendFunctionalVidPn, display.dxgkddirecommendfunctionalvidpn
 ms.topic: callback
-f1_keywords:
- - "d3dkmddi/DxgkDdiRecommendFunctionalVidPn"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Desktop
@@ -26,49 +24,41 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dkmddi.h
-api_name:
-- DxgkDdiRecommendFunctionalVidPn
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - "d3dkmddi/DxgkDdiRecommendFunctionalVidPn"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dkmddi.h
+api_name:
+ - DxgkDdiRecommendFunctionalVidPn
+product:
+ - Windows
 ---
 
 # DXGKDDI_RECOMMENDFUNCTIONALVIDPN callback function
 
-
 ## -description
-
 
 The <i>DxgkDdiRecommendFunctionalVidPn</i> function creates a functional VidPN that can be implemented on a specified display adapter.
 
-
 ## -parameters
 
-
-
-
-### -param hAdapter 
+### -param hAdapter
 
 [in] A handle to a context block associated with a display adapter. The display miniport driver previously provided this handle to the DirectX graphics kernel subsystem in the <i>MiniportDeviceContext</i> output parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function.
-
 
 ### -param pRecommendFunctionalVidPn
 
 [in] A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_recommendfunctionalvidpn">DXGKARG_RECOMMENDFUNCTIONALVIDPN</a> structure that contains function arguments. The caller supplies the <b>hRecommendedFunctionalVidPn</b> member, which is a handle to an empty VidPN object. <i>DxgkDdiRecommendFunctionalVidPn</i> populates the VidPN object with the elements of a functional VidPN: topology, mode sets, pinned modes.
 
-
 ## -returns
-
-
 
 <i>DxgkDdiRecommendFunctionalVidPn </i>returns one of the following values:
 
@@ -78,10 +68,7 @@ The <i>DxgkDdiRecommendFunctionalVidPn</i> function creates a functional VidPN t
 |STATUS_GRAPHICS_NO_RECOMMENDED_FUNCTIONAL_VIDPN|The function was not able to create a functional VidPN.|
 |STATUS_NO_MEMORY|The function failed because it was unable to allocate memory.|
 
-
 ## -remarks
-
-
 
 A VidPN is functional if it satisfies the following conditions:
 
@@ -118,6 +105,4 @@ Create a new target mode set and add one target mode to the set. Assign the targ
 For information about how to add paths, add mode sets, assign modes, and pin modes, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/vidpn-objects-and-interfaces">VidPN Objects and Interfaces</a>.
 
 <i>DxgkDdiRecommendFunctionalVidPn</i> should be made pageable.
-
-
 

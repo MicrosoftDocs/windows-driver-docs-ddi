@@ -7,8 +7,6 @@ ms.assetid: cade544a-f9c6-4635-ab57-d09d694ca315
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_DESTROYALLOCATION, DXGKDDI_DESTROYALLOCATION callback, DmFunctions_4139c309-b149-436b-9ed1-89c0c26f5425.xml, DxgkDdiDestroyAllocation, DxgkDdiDestroyAllocation callback function [Display Devices], d3dkmddi/DxgkDdiDestroyAllocation, display.dxgkddidestroyallocation
 ms.topic: callback
-f1_keywords:
- - "d3dkmddi/DxgkDdiDestroyAllocation"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Desktop
@@ -26,58 +24,45 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dkmddi.h
-api_name:
-- DxgkDdiDestroyAllocation
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - "d3dkmddi/DxgkDdiDestroyAllocation"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dkmddi.h
+api_name:
+ - DxgkDdiDestroyAllocation
+product:
+ - Windows
 ---
 
 # DXGKDDI_DESTROYALLOCATION callback function
 
-
 ## -description
-
 
 The <i>DxgkDdiDestroyAllocation</i> function releases allocations.
 
-
 ## -parameters
 
-
-
-
-### -param hAdapter [in]
+### -param hAdapter
 
 [in] A handle to a context block that is associated with a display adapter. The display miniport driver previously provided this handle to the Microsoft DirectX graphics kernel subsystem in the <i>MiniportDeviceContext</i> output parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function.
 
-
-### -param pDestroyAllocation [in]
+### -param pDestroyAllocation
 
 [in] A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_destroyallocation">DXGKARG_DESTROYALLOCATION</a> structure that contains information for releasing allocations.
 
-
 ## -returns
-
-
 
 <i>DxgkDdiDestroyAllocation</i> returns STATUS_SUCCESS, or an appropriate error result if the allocations are not successfully released.
 
-
-
-
 ## -remarks
-
-
 
 When the user-mode display driver calls the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_deallocatecb">pfnDeallocateCb</a> function, the DirectX graphics kernel subsystem (which is part of <i>Dxgkrnl.sys</i>) calls the display miniport driver's <i>DxgkDdiDestroyAllocation</i> function to release the allocations. The display miniport driver should clean up its internal data structures and references to the allocations. The Microsoft Direct3D runtime initiates calls to the video memory manager (which is also part of <i>Dxgkrnl.sys</i>), which then calls the GPU scheduler (which is also part of <i>Dxgkrnl.sys</i>) to synchronize before video memory is actually released. 
 
@@ -85,13 +70,7 @@ The display miniport driver can release the entire resource as well as allocatio
 
 <i>DxgkDdiDestroyAllocation</i> should be made pageable.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_destroyallocation">DXGKARG_DESTROYALLOCATION</a>
 
@@ -102,7 +81,4 @@ The display miniport driver can release the entire resource as well as allocatio
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_deallocatecb">pfnDeallocateCb</a>
- 
-
- 
 

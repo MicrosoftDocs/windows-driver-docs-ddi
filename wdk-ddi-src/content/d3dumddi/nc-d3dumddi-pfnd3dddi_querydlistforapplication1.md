@@ -8,8 +8,6 @@ ms.assetid: 4F27E884-D21C-483D-9E53-02D405D02F10
 ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_QUERYDLISTFORAPPLICATION1, PFND3DDDI_QUERYDLISTFORAPPLICATION1 callback, QueryDListForApplication, QueryDListForApplication callback function [Display Devices], d3dumddi/QueryDListForApplication, display.querydlistforapplication1
 ms.topic: callback
-f1_keywords:
- - "d3dumddi/QueryDListForApplication"
 req.header: d3dumddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -27,46 +25,36 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- D3dumddi.h
-api_name:
-- QueryDListForApplication
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - "d3dumddi/QueryDListForApplication"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - D3dumddi.h
+api_name:
+ - QueryDListForApplication
+product:
+ - Windows
 ---
 
 # PFND3DDDI_QUERYDLISTFORAPPLICATION1 callback function
 
-
 ## -description
-
 
 Called during Microsoft Direct3D initialization on a <a href="https://docs.microsoft.com/windows-hardware/drivers/display/using-cross-adapter-resources-in-a-hybrid-system">hybrid system</a> to determine which GPU an application should run on. A <i>dList</i> is a list of applications that need cross-adapter shared surfaces for high-performance rendering on the discrete GPU.
 
-
 ## -parameters
 
-
-
-
-### -param *
+### -param Arg1
 
 *pDefaultToDiscrete* [out]
 
 If <b>TRUE</b>, the application should be run on the discrete GPU. Otherwise, the application should run on the integrated GPU.
-
-### -param Arg1
-
-*hAdapter* [in]
-
-A handle to the graphics adapter object.
 
 ### -param Arg2
 
@@ -74,34 +62,19 @@ A handle to the graphics adapter object.
 
 A function pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_escapecb">pfnEscapeCb</a> callback function that shares info with the display miniport driver.
 
+### -param Arg3
 
 ## -returns
 
-
-
 Returns <b>S_OK</b>, or an appropriate error result if the operation is not successful.
 
-
-
-
 ## -remarks
-
-
 
 For more information on how to call this function and set up the DLL that exports it, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/hybrid-system-ddi">Hybrid system DDI</a>.
 
 For more general information on hybrid systems, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/using-cross-adapter-resources-in-a-hybrid-system">Using cross-adapter resources in a hybrid system</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_escapecb">pfnEscapeCb</a>
- 
-
- 
 

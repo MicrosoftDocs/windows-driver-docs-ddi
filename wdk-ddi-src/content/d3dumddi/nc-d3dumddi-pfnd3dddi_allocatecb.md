@@ -8,8 +8,6 @@ ms.assetid: a61e6c6a-3992-429c-ad8c-5f1a61dc7b8b
 ms.date: 05/10/2018
 ms.keywords: D3Druntime_Functions_1339f95d-018f-4153-b5b8-6753c38babd7.xml, PFND3DDDI_ALLOCATECB, PFND3DDDI_ALLOCATECB callback, d3dumddi/pfnAllocateCb, display.pfnallocatecb, pfnAllocateCb, pfnAllocateCb callback function [Display Devices]
 ms.topic: callback
-f1_keywords:
- - "d3dumddi/pfnAllocateCb"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop
@@ -27,50 +25,42 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dumddi.h
-api_name:
-- pfnAllocateCb
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - "d3dumddi/pfnAllocateCb"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dumddi.h
+api_name:
+ - pfnAllocateCb
+product:
+ - Windows
 ---
 
 # PFND3DDDI_ALLOCATECB callback function
 
-
 ## -description
-
 
 The <b>pfnAllocateCb</b> function allocates system or video memory.
 
-
 ## -parameters
 
-
-
-
-### -param hDevice 
+### -param hDevice
 
 [in] A handle to the display device (graphics context).
 
-
-### -param *
+### -param Arg2
 
 *pData* [in, out]
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddicb_allocate">D3DDDICB_ALLOCATE</a> structure that describes the allocation.
 
-
 ## -returns
-
-
 
 <b>pfnAllocateCb</b> returns one of the following values:
 
@@ -85,12 +75,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 
 This function might also return other HRESULT values.
 
-
-
-
 ## -remarks
-
-
 
 A user-mode display driver calls <b>pfnAllocateCb</b> to allocate system or video memory (also known as an <i>allocation</i>). The Microsoft DirectX graphics kernel subsystem (<i>Dxgkrnl.sys</i>) then calls the display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_createallocation">DxgkDdiCreateAllocation</a> function to interpret and store the private data that was passed in the <b>pfnAllocateCb</b> request. The display miniport driver returns information from the <i>DxgkDdiCreateAllocation</i> call that the video memory manager (which is part of <i>Dxgkrnl.sys</i>) uses to actually allocate the memory. 
 
@@ -154,11 +139,7 @@ The following code example shows how to allocate memory for a resource.
     return (hr);
 ```
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_createdevice">CreateDevice</a>
 

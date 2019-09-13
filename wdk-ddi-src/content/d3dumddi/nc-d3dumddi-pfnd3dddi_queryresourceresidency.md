@@ -8,8 +8,6 @@ ms.assetid: 5b9a2a59-b2d1-468e-998b-902bc2a75cb3
 ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_QUERYRESOURCERESIDENCY, PFND3DDDI_QUERYRESOURCERESIDENCY callback, QueryResourceResidency, QueryResourceResidency callback function [Display Devices], UserModeDisplayDriver_Functions_2d646d44-dbbb-471d-9337-2cdf8c9a4245.xml, d3dumddi/QueryResourceResidency, display.queryresourceresidency
 ms.topic: callback
-f1_keywords:
- - "d3dumddi/QueryResourceResidency"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop
@@ -27,57 +25,42 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dumddi.h
-api_name:
-- QueryResourceResidency
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - "d3dumddi/QueryResourceResidency"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dumddi.h
+api_name:
+ - QueryResourceResidency
+product:
+ - Windows
 ---
 
 # PFND3DDDI_QUERYRESOURCERESIDENCY callback function
 
-
 ## -description
-
 
 The <i>QueryResourceResidency</i> function determines the residency of the given list of resources.
 
-
 ## -parameters
 
-
-
-
-### -param hDevice [in]
+### -param hDevice
 
 A handle to the display device (graphics context).
 
-
-### -param *
-
-
-
-
-
-
-
+### -param Arg2
 
 *pData* [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_queryresourceresidency">D3DDDIARG_QUERYRESOURCERESIDENCY</a> structure that describes a list of resources on which residency is verified.
 
-
 ## -returns
-
-
 
 <i>QueryResourceResidency</i> returns one of the following values:
 
@@ -91,8 +74,6 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 
 ## -remarks
 
-
-
 The Microsoft Direct3D runtime calls the user-mode display driver's <i>QueryResourceResidency</i> function for applications to determine if the operating system will incur a significant stall at draw time if the system must make resources GPU-accessible. The information that is returned from <i>QueryResourceResidency</i> is an approximation of the residency of resources because the resources might become demoted before applications use the resources.
 
 The user-mode display driver's <i>QueryResourceResidency</i> function must make calls to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_queryresidencycb">pfnQueryResidencyCb</a> function. The <b>pfnQueryResidencyCb</b> function returns the residency status of a resource in the elements of the array that is specified by the <b>pResidencyStatus</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddicb_queryresidency">D3DDDICB_QUERYRESIDENCY</a> structure. If <b>pfnQueryResidencyCb</b> returns D3DDDI_RESIDENCYSTATUS_NOTRESIDENT for any query, <i>QueryResourceResidency</i> must return S_NOT_RESIDENT. If <b>pfnQueryResidencyCb</b> returns D3DDDI_RESIDENCYSTATUS_RESIDENTINSHAREDMEMORY for any query and does not return D3DDDI_RESIDENCYSTATUS_NOTRESIDENT for any query, <i>QueryResourceResidency</i> must return S_RESIDENT_IN_SHARED_MEMORY. <i>QueryResourceResidency</i> must return S_OK only if all calls to <b>pfnQueryResidencyCb</b> for all queries return D3DDDI_RESIDENCYSTATUS_RESIDENTINGPUMEMORY.
@@ -102,12 +83,7 @@ For each resource that the runtime queries through a call to <i>QueryResourceRes
 <div class="alert"><b>Note</b>    Because the runtime does not support residency-querying of system memory resources, the runtime will always fail requests from applications for the residency status of system memory resources and will never call the user-mode display driver's <i>QueryResourceResidency</i> function for these system memory resources.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_queryresourceresidency">D3DDDIARG_QUERYRESOURCERESIDENCY</a>
 
@@ -122,7 +98,4 @@ For each resource that the runtime queries through a call to <i>QueryResourceRes
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_queryresidencycb">pfnQueryResidencyCb</a>
- 
-
- 
 

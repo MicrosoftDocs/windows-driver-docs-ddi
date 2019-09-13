@@ -8,8 +8,6 @@ ms.assetid: c8f76ebe-947a-45e4-abbc-f6020da929e8
 ms.date: 05/10/2018
 ms.keywords: LockAsync, LockAsync callback function [Display Devices], PFND3DDDI_LOCKASYNC, PFND3DDDI_LOCKASYNC callback, UserModeDisplayDriver_Functions_da747d8a-9e58-47e7-b2eb-bd84179bde2d.xml, d3dumddi/LockAsync, display.lockasync
 ms.topic: callback
-f1_keywords:
- - "d3dumddi/LockAsync"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop
@@ -27,57 +25,42 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dumddi.h
-api_name:
-- LockAsync
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - "d3dumddi/LockAsync"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dumddi.h
+api_name:
+ - LockAsync
+product:
+ - Windows
 ---
 
 # PFND3DDDI_LOCKASYNC callback function
 
-
 ## -description
 
-
-The <i>LockAsync</i> function locks the specified resource or a surface within the resource. 
-
+The <i>LockAsync</i> function locks the specified resource or a surface within the resource.
 
 ## -parameters
 
-
-
-
-### -param hDevice [in]
+### -param hDevice
 
 A handle to the display device (graphics context).
 
-
-### -param *
-
-
-
-
-
-
-
+### -param Arg2
 
 *pData* [in, out]
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_lockasync">D3DDDIARG_LOCKASYNC</a> structure that describes the resource or surface within the resource to lock.
 
-
 ## -returns
-
-
 
 <i>LockAsync</i> returns one of the following values:
 
@@ -86,12 +69,9 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 | **S_OK** | The resource is successfully locked. | 
 | **E_OUTOFMEMORY** | LockAsync could not allocate the required memory for it to complete. | 
 | **D3DDDIERR_WASSTILLDRAWING** | Renaming the allocation that corresponds to the resource that the [D3DDDIARG_LOCKASYNC](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_lockasync)  structure specifies failed.<br/>The driver returns this value only if the Discard bit-field flag was set in the Flags member of D3DDDIARG_LOCKASYNC. | 
-| **E_NOTIMPL** | The user-mode display driver does not support LockAsync for the specified resource. | 
-
+| **E_NOTIMPL** | The user-mode display driver does not support LockAsync for the specified resource. |
 
 ## -remarks
-
-
 
 On multiple-processor computers, the Microsoft Direct3D runtime might call most functions of the user-mode display driver from a worker thread instead of from the main application thread. This multiple-processor optimization is transparent to the user-mode display driver. When the runtime uses multiple-processor optimization, it might call <i>LockAsync</i> rather than the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_lock">Lock</a> function to lock a resource. 
 
@@ -109,13 +89,7 @@ If the <b>NoOverwrite</b> bit-field flag is set in the <b>Flags</b> member of D3
 
 In summary, the driver should fail calls to its <i>LockAsync</i> function if renaming fails or if no-overwrite semantics are not supported for the resource. However, the Direct3D runtime will recover from these failures. For all other situations, drivers should return success from <i>LockAsync</i> to improve performance on multiple-processor computers.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_createresource">CreateResource</a>
 
@@ -154,7 +128,4 @@ In summary, the driver should fail calls to its <i>LockAsync</i> function if ren
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_rendercb">pfnRenderCb</a>
- 
-
- 
 
