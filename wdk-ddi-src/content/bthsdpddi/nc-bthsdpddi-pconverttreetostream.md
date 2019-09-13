@@ -8,8 +8,6 @@ ms.assetid: 6e3cc0ae-e214-4096-834b-b435ee0fcb46
 ms.date: 04/27/2018
 ms.keywords: PCONVERTTREETOSTREAM, PCONVERTTREETOSTREAM callback, SdpConvertTreeToStream, SdpConvertTreeToStream callback function [Bluetooth Devices], bltooth.sdpconverttreetostream, bth_funcs_0f0b531b-9391-475c-a3a2-ac2b2a94e1dd.xml, bthsdpddi/SdpConvertTreeToStream
 ms.topic: callback
-f1_keywords:
- - "bthsdpddi/SdpConvertTreeToStream"
 req.header: bthsdpddi.h
 req.include-header: BthSdpddi.h
 req.target-type: Desktop
@@ -27,53 +25,46 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- BthSdpddi.h
-api_name:
-- SdpConvertTreeToStream
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - "bthsdpddi/SdpConvertTreeToStream"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - BthSdpddi.h
+api_name:
+ - SdpConvertTreeToStream
+product:
+ - Windows
 ---
 
 # PCONVERTTREETOSTREAM callback function
 
-
 ## -description
-
 
 The Bluetooth 
   <b>SdpConvertTreeToStream</b> function is used to produce a raw bytestream representation of an SDP record
   from a tree representation. The raw bytestream version is suitable for publication on a local SDP
   server.
 
-
 ## -parameters
-
-
-
 
 ### -param Root
 
 The root node of the tree-based representation of the SDP record to convert into a stream-based
      representation.
 
-
-### -param *Stream
+### -param Stream
 
 A pointer to the buffer that receives the converted SDP stream.
-
 
 ### -param Size
 
 The address of an unsigned long integer to receive the length of the converted SDP stream.
-
 
 ### -param tag
 
@@ -82,10 +73,7 @@ Specifies a 4-byte
      allocation. For more information about pool tags, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-exallocatepoolwithtag">ExAllocatePoolWithTag</a>.
 
-
 ## -returns
-
-
 
 Possible return values include:
 
@@ -98,13 +86,7 @@ Possible return values include:
 <dt>STATUS_INVALID_PARAMETER</dt>
 </dl>
 
-
-
-
-
 ## -remarks
-
-
 
 The 
     <b>SdpConvertTreeToStream</b> function performs the opposite operation as the 
@@ -120,13 +102,7 @@ The
 Bluetooth profile drivers can obtain a pointer to this function through the 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthsdpddi/ns-bthsdpddi-_bthddi_sdp_parse_interface">BTHDDI_SDP_PARSE_INTERFACE</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthsdpddi/ns-bthsdpddi-_bthddi_sdp_parse_interface">BTHDDI_SDP_PARSE_INTERFACE</a>
 
@@ -137,7 +113,4 @@ Bluetooth profile drivers can obtain a pointer to this function through the
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthsdpddi/nc-bthsdpddi-pconvertstreamtotree">SdpConvertStreamToTree</a>
- 
-
- 
 

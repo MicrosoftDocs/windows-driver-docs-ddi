@@ -8,8 +8,6 @@ ms.assetid: 68a7c394-4b0f-4446-a54b-5aee6cf8a913
 ms.date: 05/10/2018
 ms.keywords: CreateVideoProcessor, CreateVideoProcessor callback function [Display Devices], PFND3DDDI_DXVAHD_CREATEVIDEOPROCESSOR, PFND3DDDI_DXVAHD_CREATEVIDEOPROCESSOR callback, UserModeDisplayDriver_Functions_ce6a0d51-9da3-43d9-ac23-c2e250ca4cfa.xml, d3dumddi/CreateVideoProcessor, display.createvideoprocessor
 ms.topic: callback
-f1_keywords:
- - "d3dumddi/CreateVideoProcessor"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop
@@ -27,46 +25,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dumddi.h
-api_name:
-- CreateVideoProcessor
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - "d3dumddi/CreateVideoProcessor"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dumddi.h
+api_name:
+ - CreateVideoProcessor
+product:
+ - Windows
 ---
 
 # PFND3DDDI_DXVAHD_CREATEVIDEOPROCESSOR callback function
 
-
 ## -description
 
-
-The <b>CreateVideoProcessor</b> function creates a Microsoft DirectX Video Acceleration (DirectX VA) video processor that is used to process high-definition video. 
-
+The <b>CreateVideoProcessor</b> function creates a Microsoft DirectX Video Acceleration (DirectX VA) video processor that is used to process high-definition video.
 
 ## -parameters
 
-
-
-
 ### -param Arg1
 
-
-### -param *
-
-
-
-
-
-
-
+### -param Arg2
 
 *hDevice* [in]
 
@@ -77,10 +63,7 @@ A handle to the display device (graphics context).
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_dxvahd_createvideoprocessor">D3DDDIARG_DXVAHD_CREATEVIDEOPROCESSOR</a> structure. On input, contains information that the driver can use. On output, the driver specifies information that the Microsoft Direct3D runtime can use.
 
-
 ## -returns
-
-
 
 <b>CreateVideoProcessor</b> returns one of the following values:
 
@@ -91,15 +74,9 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_dxvahd_createvideoprocessor">D3DDDIARG_DXVAHD_CREATEVIDEOPROCESSOR</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_destroyvideoprocessor">DestroyVideoProcessor</a>
- 
-
- 
 

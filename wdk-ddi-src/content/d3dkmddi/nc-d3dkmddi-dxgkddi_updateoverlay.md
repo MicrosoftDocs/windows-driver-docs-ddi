@@ -7,8 +7,6 @@ ms.assetid: b131dbb9-1e11-4d04-97cb-e15ec2b025c7
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_UPDATEOVERLAY, DXGKDDI_UPDATEOVERLAY callback, DmFunctions_cc73fb5c-c4b9-476a-9227-fe2d15e288ea.xml, DxgkDdiUpdateOverlay, DxgkDdiUpdateOverlay callback function [Display Devices], d3dkmddi/DxgkDdiUpdateOverlay, display.dxgkddiupdateoverlay
 ms.topic: callback
-f1_keywords:
- - "d3dkmddi/DxgkDdiUpdateOverlay"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Desktop
@@ -26,49 +24,41 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dkmddi.h
-api_name:
-- DxgkDdiUpdateOverlay
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - "d3dkmddi/DxgkDdiUpdateOverlay"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dkmddi.h
+api_name:
+ - DxgkDdiUpdateOverlay
+product:
+ - Windows
 ---
 
 # DXGKDDI_UPDATEOVERLAY callback function
 
-
 ## -description
-
 
 The <i>DxgkDdiUpdateOverlay</i> function modifies the overlay hardware.
 
-
 ## -parameters
 
+### -param hOverlay
 
+[in] A handle to the overlay to modify. The display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_createoverlay">DxgkDdiCreateOverlay</a> function previously provided this handle to the Microsoft DirectX graphics kernel subsystem in the <b>hOverlay</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_createoverlay">DXGKARG_CREATEOVERLAY</a> structure that <i>pCreateOverlay</i> points to.
 
-
-### -param hOverlay [in]
-
-[in] A handle to the overlay to modify. The display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_createoverlay">DxgkDdiCreateOverlay</a> function previously provided this handle to the Microsoft DirectX graphics kernel subsystem in the <b>hOverlay</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_createoverlay">DXGKARG_CREATEOVERLAY</a> structure that <i>pCreateOverlay</i> points to. 
-
-
-### -param pUpdateOverlay [in]
+### -param pUpdateOverlay
 
 [in] A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_updateoverlay">DXGKARG_UPDATEOVERLAY</a> structure that describes how to modify the overlay hardware.
 
-
 ## -returns
-
-
 
 <i>DxgkDdiUpdateOverlay</i> returns one of the following values:
 
@@ -80,22 +70,11 @@ The <i>DxgkDdiUpdateOverlay</i> function modifies the overlay hardware.
 |STATUS_INSUFFICIENT_RESOURCES|DxgkDdiUpdateOverlay could not complete because insufficient bandwidth was available or the requested overlay hardware could not complete the task.|
 |STATUS_GRAPHICS_DRIVER_MISMATCH|The display miniport driver is not compatible with the user-mode display driver that initiated the call to DxgkDdiUpdateOverlay.|
 
-
-
-
 ## -remarks
-
-
 
 <i>DxgkDdiUpdateOverlay</i> should be made pageable.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_createoverlay">DXGKARG_CREATEOVERLAY</a>
 
@@ -106,7 +85,4 @@ The <i>DxgkDdiUpdateOverlay</i> function modifies the overlay hardware.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_createoverlay">DxgkDdiCreateOverlay</a>
- 
-
- 
 

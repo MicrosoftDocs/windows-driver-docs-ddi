@@ -8,8 +8,6 @@ ms.assetid: 058696e0-be4a-45f3-b3e8-55abccdce3ce
 ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_VALIDATEDEVICE, PFND3DDDI_VALIDATEDEVICE callback, UserModeDisplayDriver_Functions_37e253ca-1d0f-4896-aaad-4c36053877c5.xml, ValidateDevice, ValidateDevice callback function [Display Devices], d3dumddi/ValidateDevice, display.validatedevice
 ms.topic: callback
-f1_keywords:
- - "d3dumddi/ValidateDevice"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop
@@ -27,74 +25,50 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dumddi.h
-api_name:
-- ValidateDevice
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - "d3dumddi/ValidateDevice"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dumddi.h
+api_name:
+ - ValidateDevice
+product:
+ - Windows
 ---
 
 # PFND3DDDI_VALIDATEDEVICE callback function
 
-
 ## -description
-
 
 The <i>ValidateDevice</i> function returns the number of passes in which the hardware can perform the blending operations that are specified in the current state.
 
-
 ## -parameters
 
-
-
-
-### -param hDevice [in]
+### -param hDevice
 
 A handle to the display device (graphics context).
 
-
-### -param *
-
-
-
-
-
-
-
+### -param Arg2
 
 *pData* [in, out]
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_validatetexturestagestate">D3DDDIARG_VALIDATETEXTURESTAGESTATE</a> structure that receives the number of passes in which the hardware can perform the blending operations.
 
-
 ## -returns
-
-
 
 <i>ValidateDevice</i> returns S_OK or an appropriate error result if the number of necessary hardware passes is not successfully received.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_validatetexturestagestate">D3DDDIARG_VALIDATETEXTURESTAGESTATE</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>
- 
-
- 
 

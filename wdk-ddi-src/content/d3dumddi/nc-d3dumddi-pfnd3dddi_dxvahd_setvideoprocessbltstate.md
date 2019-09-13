@@ -8,8 +8,6 @@ ms.assetid: 6796372c-279d-427c-a2a4-9b7c99494f53
 ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_DXVAHD_SETVIDEOPROCESSBLTSTATE, PFND3DDDI_DXVAHD_SETVIDEOPROCESSBLTSTATE callback, SetVideoProcessBltState, SetVideoProcessBltState callback function [Display Devices], UserModeDisplayDriver_Functions_58620a09-f079-4bd2-8eb9-ac619d83f20d.xml, d3dumddi/SetVideoProcessBltState, display.setvideoprocessbltstate
 ms.topic: callback
-f1_keywords:
- - "d3dumddi/SetVideoProcessBltState"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop
@@ -27,46 +25,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dumddi.h
-api_name:
-- SetVideoProcessBltState
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - "d3dumddi/SetVideoProcessBltState"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dumddi.h
+api_name:
+ - SetVideoProcessBltState
+product:
+ - Windows
 ---
 
 # PFND3DDDI_DXVAHD_SETVIDEOPROCESSBLTSTATE callback function
 
-
 ## -description
 
-
-The <i>SetVideoProcessBltState</i> function sets the state of a bit-block transfer (bitblt) for a video processor. 
-
+The <i>SetVideoProcessBltState</i> function sets the state of a bit-block transfer (bitblt) for a video processor.
 
 ## -parameters
 
-
-
-
 ### -param Arg1
 
-
-### -param *
-
-
-
-
-
-
-
+### -param Arg2
 
 *hDevice* [in]
 
@@ -75,12 +61,9 @@ A handle to the display device (graphics context).
 
 *pData* [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_dxvahd_setvideoprocessbltstate">D3DDDIARG_DXVAHD_SETVIDEOPROCESSBLTSTATE</a> structure that describes how to change the bitblt state. 
-
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_dxvahd_setvideoprocessbltstate">D3DDDIARG_DXVAHD_SETVIDEOPROCESSBLTSTATE</a> structure that describes how to change the bitblt state.
 
 ## -returns
-
-
 
 <i>SetVideoProcessBltState</i> returns one of the following values:
 
@@ -91,11 +74,5 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_dxvahd_setvideoprocessbltstate">D3DDDIARG_DXVAHD_SETVIDEOPROCESSBLTSTATE</a>
- 
-
- 
 

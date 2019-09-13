@@ -8,8 +8,6 @@ ms.assetid: bb4c04cf-0125-47bf-8fc8-88d807e7b6ad
 ms.date: 05/10/2018
 ms.keywords: GetVideoProcessBltStatePrivate, GetVideoProcessBltStatePrivate callback function [Display Devices], PFND3DDDI_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE, PFND3DDDI_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE callback, UserModeDisplayDriver_Functions_e39248ae-aa92-4c0a-aebc-a48f7d1e24a7.xml, d3dumddi/GetVideoProcessBltStatePrivate, display.getvideoprocessbltstateprivate
 ms.topic: callback
-f1_keywords:
- - "d3dumddi/GetVideoProcessBltStatePrivate"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop
@@ -27,40 +25,34 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dumddi.h
-api_name:
-- GetVideoProcessBltStatePrivate
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - "d3dumddi/GetVideoProcessBltStatePrivate"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dumddi.h
+api_name:
+ - GetVideoProcessBltStatePrivate
+product:
+ - Windows
 ---
 
 # PFND3DDDI_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE callback function
 
-
 ## -description
 
-
-The <i>GetVideoProcessBltStatePrivate</i> function retrieves the state data of a private bit-block transfer (bitblt) for a video processor. 
-
+The <i>GetVideoProcessBltStatePrivate</i> function retrieves the state data of a private bit-block transfer (bitblt) for a video processor.
 
 ## -parameters
 
-
-
-
 ### -param Arg1
 
-
-### -param *
-
+### -param Arg2
 
 *hDevice* [in]
 
@@ -69,12 +61,9 @@ A handle to the display device (graphics context).
 
 *pData* [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_dxvahd_getvideoprocessbltstateprivate">D3DDDIARG_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE</a> structure that describes the private bitblt state data to retrieve. 
-
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_dxvahd_getvideoprocessbltstateprivate">D3DDDIARG_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE</a> structure that describes the private bitblt state data to retrieve.
 
 ## -returns
-
-
 
 The <i>GetVideoProcessBltStatePrivate</i> function returns one of the following values:
 
@@ -83,14 +72,7 @@ The <i>GetVideoProcessBltStatePrivate</i> function returns one of the following 
 |S_OK|The bitblt state data is successfully retrieved.|
 |E_OUTOFMEMORY|GetVideoProcessBltStatePrivate could not allocate the required memory for it to complete.|
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_dxvahd_getvideoprocessbltstateprivate">D3DDDIARG_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE</a>
- 
-
- 
 

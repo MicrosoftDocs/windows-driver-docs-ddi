@@ -8,8 +8,6 @@ ms.assetid: 0e989ea4-3693-4c0b-86a5-96b865a0193f
 ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_SETTRANSFORM, PFND3DDDI_SETTRANSFORM callback, SetTransform, SetTransform callback function [Display Devices], UserModeDisplayDriver_Functions_721be745-bcea-4eeb-9bd4-ddda1f1912a5.xml, d3dumddi/SetTransform, display.settransform
 ms.topic: callback
-f1_keywords:
- - "d3dumddi/SetTransform"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop
@@ -27,74 +25,50 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dumddi.h
-api_name:
-- SetTransform
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - "d3dumddi/SetTransform"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dumddi.h
+api_name:
+ - SetTransform
+product:
+ - Windows
 ---
 
 # PFND3DDDI_SETTRANSFORM callback function
 
-
 ## -description
-
 
 The <i>SetTransform</i> function sets up a transform.
 
-
 ## -parameters
 
-
-
-
-### -param hDevice [in]
+### -param hDevice
 
 A handle to the display device (graphics context).
 
-
-### -param *
-
-
-
-
-
-
-
+### -param Arg2
 
 *pData* [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_settransform">D3DDDIARG_SETTRANSFORM</a> structure that describes how to set up the transform.
 
-
 ## -returns
-
-
 
 <i>SetTransform</i> returns S_OK or an appropriate error result if the transform is not successfully set up.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_settransform">D3DDDIARG_SETTRANSFORM</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>
- 
-
- 
 

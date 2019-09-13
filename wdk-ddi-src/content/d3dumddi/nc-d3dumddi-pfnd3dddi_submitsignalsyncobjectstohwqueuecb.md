@@ -8,8 +8,6 @@ ms.assetid: D952A432-7B2C-43AC-9BC4-4335D2F37301
 ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_SUBMITSIGNALSYNCOBJECTSTOHWQUEUECB, PFND3DDDI_SUBMITSIGNALSYNCOBJECTSTOHWQUEUECB callback, PFND3DDDI_SUBMITSIGNALSYNCOBJECTSTOHWQUEUECB callback function [Display Devices], d3dumddi/PFND3DDDI_SUBMITSIGNALSYNCOBJECTSTOHWQUEUECB, display.pfnd3dddi_submitsignalsyncobjectstohwqueuecb
 ms.topic: callback
-f1_keywords:
- - "d3dumddi/PFND3DDDI_SUBMITSIGNALSYNCOBJECTSTOHWQUEUECB"
 req.header: d3dumddi.h
 req.include-header: 
 req.target-type: Windows
@@ -27,46 +25,40 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dumddi.h
-api_name:
-- PFND3DDDI_SUBMITSIGNALSYNCOBJECTSTOHWQUEUECB
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - "d3dumddi/PFND3DDDI_SUBMITSIGNALSYNCOBJECTSTOHWQUEUECB"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dumddi.h
+api_name:
+ - PFND3DDDI_SUBMITSIGNALSYNCOBJECTSTOHWQUEUECB
+product:
+ - Windows
 ---
 
 # PFND3DDDI_SUBMITSIGNALSYNCOBJECTSTOHWQUEUECB callback function
 
-
 ## -description
-
 
 A callback to submit a signal command to the hardware queue.
 
-
 ## -parameters
 
-
-
-
-### -param hDevice [in]
+### -param hDevice
 
 A handle to the device.
 
-
-### -param *
+### -param Arg2
 
 *submitSignalSyncoObjectsToHwQueue* [in]
 
 A pointer to the structure holding information on submitting a signal command to the hardware queue.
-
 
 ## -returns
 
@@ -75,6 +67,4 @@ A pointer to the structure holding information on submitting a signal command to
 |S_OK|The call was successfully completed.|
 
 This function might also return other HRESULT values.
-
-
 

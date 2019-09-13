@@ -7,8 +7,6 @@ ms.assetid: 9fc80cea-8e4a-467a-b232-74333d2ceb5f
 ms.date: 05/10/2018
 ms.keywords: CalcPrivateElementLayoutSize, CalcPrivateElementLayoutSize callback function [Display Devices], PFND3D10DDI_CALCPRIVATEELEMENTLAYOUTSIZE, PFND3D10DDI_CALCPRIVATEELEMENTLAYOUTSIZE callback, UserModeDisplayDriverDx10_Functions_7c153781-eabd-4f5e-b949-0ac5c9e0d94b.xml, d3d10umddi/CalcPrivateElementLayoutSize, display.calcprivateelementlayoutsize
 ms.topic: callback
-f1_keywords:
- - "d3d10umddi/CalcPrivateElementLayoutSize"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -26,35 +24,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3d10umddi.h
-api_name:
-- CalcPrivateElementLayoutSize
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - "d3d10umddi/CalcPrivateElementLayoutSize"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3d10umddi.h
+api_name:
+ - CalcPrivateElementLayoutSize
+product:
+ - Windows
 ---
 
 # PFND3D10DDI_CALCPRIVATEELEMENTLAYOUTSIZE callback function
 
-
 ## -description
-
 
 The <i>CalcPrivateElementLayoutSize</i> function determines the size of the user-mode display driver's private region of memory (that is, the size of internal driver structures, not the size of the resource video memory) for an element layout.
 
-
 ## -parameters
-
-
-
 
 ### -param Arg1
 
@@ -62,34 +56,21 @@ The <i>CalcPrivateElementLayoutSize</i> function determines the size of the user
 
 A handle to the display device (graphics context).
 
-### -param *
-
+### -param Arg2
 
 *pCreateElementLayout* [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ns-d3d10umddi-d3d10ddiarg_createelementlayout">D3D10DDIARG_CREATEELEMENTLAYOUT</a> structure that describes the parameters that the user-mode display driver uses to calculate the size of the memory region. 
-
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ns-d3d10umddi-d3d10ddiarg_createelementlayout">D3D10DDIARG_CREATEELEMENTLAYOUT</a> structure that describes the parameters that the user-mode display driver uses to calculate the size of the memory region.
 
 ## -returns
 
-
-
 <i>CalcPrivateElementLayoutSize</i> returns the size of the memory region that the driver requires for creating an element layout.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ns-d3d10umddi-d3d10ddiarg_createelementlayout">D3D10DDIARG_CREATEELEMENTLAYOUT</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ns-d3d10umddi-d3d10ddi_devicefuncs">D3D10DDI_DEVICEFUNCS</a>
- 
-
- 
 

@@ -7,8 +7,6 @@ ms.assetid: d315ff53-4a9f-46a3-ad74-d65a5eb72de1
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_BUILDPAGINGBUFFER, DXGKDDI_BUILDPAGINGBUFFER callback, DmFunctions_0d7a4d5b-3cd4-4c3c-9ffc-7b6e88342f81.xml, DxgkDdiBuildPagingBuffer, DxgkDdiBuildPagingBuffer callback function [Display Devices], d3dkmddi/DxgkDdiBuildPagingBuffer, display.dxgkddibuildpagingbuffer
 ms.topic: callback
-f1_keywords:
- - "d3dkmddi/DxgkDdiBuildPagingBuffer"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Desktop
@@ -26,49 +24,41 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- D3dkmddi.h
-api_name:
-- DxgkDdiBuildPagingBuffer
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - "d3dkmddi/DxgkDdiBuildPagingBuffer"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - D3dkmddi.h
+api_name:
+ - DxgkDdiBuildPagingBuffer
+product:
+ - Windows
 ---
 
 # DXGKDDI_BUILDPAGINGBUFFER callback function
 
-
 ## -description
-
 
 The <i>DxgkDdiBuildPagingBuffer</i> function builds paging buffers for memory operations.
 
-
 ## -parameters
 
-
-
-
-### -param hAdapter [in]
+### -param hAdapter
 
 [in] A handle to a context block that is associated with a display adapter. The display miniport driver previously provided this handle to the Microsoft DirectX graphics kernel subsystem in the <i>MiniportDeviceContext</i> output parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function.
 
-
-### -param pBuildPagingBuffer [in]
+### -param pBuildPagingBuffer
 
 [in/out] A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_buildpagingbuffer">DXGKARG_BUILDPAGINGBUFFER</a> structure that contains information for building a paging buffer.
 
-
 ## -returns
-
-
 
 <i>DxgkDdiBuildPagingBuffer</i> returns one of the following values:
 
@@ -76,12 +66,9 @@ The <i>DxgkDdiBuildPagingBuffer</i> function builds paging buffers for memory op
 |:--|:--|
 | **STATUS_SUCCESS** | DxgkDdiBuildPagingBuffersuccessfully built a paging buffer. | 
 | **STATUS_GRAPHICS_ALLOCATION_BUSY** | The GPU is currently using the allocation for the paging buffer. |
-| **STATUS_GRAPHICS_INSUFFICIENT_DMA_BUFFER** | More space is required in the paging buffer (that is, in the pDmaBuffer member of the [DXGKARG_BUILDPAGINGBUFFER](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_buildpagingbuffer) structure that the pBuildPagingBuffer parameter points to). | 
-
+| **STATUS_GRAPHICS_INSUFFICIENT_DMA_BUFFER** | More space is required in the paging buffer (that is, in the pDmaBuffer member of the [DXGKARG_BUILDPAGINGBUFFER](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_buildpagingbuffer) structure that the pBuildPagingBuffer parameter points to). |
 
 ## -remarks
-
-
 
 The <i>DxgkDdiBuildPagingBuffer</i> function is called to build special purpose direct memory access (DMA) buffers that are known as <i>paging buffers</i>. A paging buffer contains an operation that moves the content of portions of allocations:
 
@@ -257,13 +244,7 @@ do {
 } while(!NT_SUCCESS(ntStatus))
 ```
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_buildpagingbuffer">DXGKARG_BUILDPAGINGBUFFER</a>
 
@@ -282,7 +263,4 @@ do {
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_lockcb">pfnLockCb</a>
- 
-
- 
 

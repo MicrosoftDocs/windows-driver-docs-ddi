@@ -7,8 +7,6 @@ ms.assetid: 0cfcc05a-77d7-4157-bd27-ba127afe3e92
 ms.date: 05/10/2018
 ms.keywords: PFND3D11_1DDI_VIDEODECODEREXTENSION, PFND3D11_1DDI_VIDEODECODEREXTENSION callback, d3d10umddi/pfnVideoDecoderExtension, display.videodecoderextension, pfnVideoDecoderExtension, pfnVideoDecoderExtension callback function [Display Devices]
 ms.topic: callback
-f1_keywords:
- - "d3d10umddi/pfnVideoDecoderExtension"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -26,37 +24,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- D3d10umddi.h
-api_name:
-- pfnVideoDecoderExtension
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - "d3d10umddi/pfnVideoDecoderExtension"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - D3d10umddi.h
+api_name:
+ - pfnVideoDecoderExtension
+product:
+ - Windows
 ---
 
 # PFND3D11_1DDI_VIDEODECODEREXTENSION callback function
 
-
 ## -description
-
 
 Performs an extended function for DirectX Video Acceleration (DXVA) decoding. This method enables extensions to the basic DXVA decoder functionality.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param Arg1
 
@@ -70,18 +62,13 @@ A handle to the display device (graphics context).
 
 A handle to the video decoder object that was created through a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createvideodecoder">CreateVideoDecoder</a> function.
 
-### -param *
+### -param Arg3
 
 *pExtension* [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ns-d3d10umddi-d3d11_1ddiarg_videodecoderextension">D3D11_1DDIARG_VIDEODECODEREXTENSION</a> structure that contains data for the extended function.
 
-
-
-
 ## -returns
-
-
 
 <b>VideoDecoderExtension</b> returns one of the following values:
 
@@ -91,18 +78,12 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 |D3DDDIERR_DEVICEREMOVED|The graphics adapter was removed.|
 |E_INVALIDARG|Parameters were validated and determined to be incorrect.|
 |E_OUTOFMEMORY|Memory was not available to complete the operation.|
- 
+
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createvideodecoder">CreateVideoDecoder</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ns-d3d10umddi-d3d11_1ddiarg_videodecoderextension">D3D11_1DDIARG_VIDEODECODEREXTENSION</a>
- 
-
- 
 

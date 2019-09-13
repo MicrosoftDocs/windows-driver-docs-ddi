@@ -8,8 +8,6 @@ ms.assetid: CD3B8EE1-8B54-4F0A-B3C7-3B6F7D968497
 ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_DESTROYHWCONTEXTCB, PFND3DDDI_DESTROYHWCONTEXTCB callback, PFND3DDDI_DESTROYHWCONTEXTCB callback function [Display Devices], d3dumddi/PFND3DDDI_DESTROYHWCONTEXTCB, display.pfnd3dddi_destroyhwcontextcb
 ms.topic: callback
-f1_keywords:
- - "d3dumddi/PFND3DDDI_DESTROYHWCONTEXTCB"
 req.header: d3dumddi.h
 req.include-header: 
 req.target-type: Windows
@@ -27,46 +25,40 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dumddi.h
-api_name:
-- PFND3DDDI_DESTROYHWCONTEXTCB
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - "d3dumddi/PFND3DDDI_DESTROYHWCONTEXTCB"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dumddi.h
+api_name:
+ - PFND3DDDI_DESTROYHWCONTEXTCB
+product:
+ - Windows
 ---
 
 # PFND3DDDI_DESTROYHWCONTEXTCB callback function
 
-
 ## -description
-
 
 A callback to destroy a hardware context.
 
-
 ## -parameters
 
-
-
-
-### -param hDevice [in]
+### -param hDevice
 
 A handle to the device.
 
-
-### -param *
+### -param Arg2
 
 *destroyHwContext* [in]
 
 A pointer to the structure holding information to destroy the hardware context.
-
 
 ## -returns
 
@@ -76,6 +68,4 @@ A pointer to the structure holding information to destroy the hardware context.
  
 
 This function might also return other HRESULT values.
-
-
 

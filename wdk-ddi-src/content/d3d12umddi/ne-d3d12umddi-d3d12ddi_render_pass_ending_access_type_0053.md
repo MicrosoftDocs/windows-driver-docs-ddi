@@ -5,41 +5,39 @@ description:
 ms.assetid: 8816fc0d-1f78-4310-a036-e4278a4a6c71
 ms.date: 10/19/2018
 ms.topic: enum
-f1_keywords:
- - "d3d12umddi/D3D12DDI_RENDER_PASS_ENDING_ACCESS_TYPE_0053"
-ms.keywords: D3D12DDI_RENDER_PASS_ENDING_ACCESS_TYPE_0053, D3D12DDI_RENDER_PASS_ENDING_ACCESS_TYPE_0053, 
+ms.keywords: D3D12DDI_RENDER_PASS_ENDING_ACCESS_TYPE_0053, D3D12DDI_RENDER_PASS_ENDING_ACCESS_TYPE_0053,
 req.header: d3d12umddi.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
 req.typenames: D3D12DDI_RENDER_PASS_ENDING_ACCESS_TYPE_0053
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- d3d12umddi.h
-api_name: 
-- D3D12DDI_RENDER_PASS_ENDING_ACCESS_TYPE_0053
-product:
-- Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_RENDER_PASS_ENDING_ACCESS_TYPE_0053"
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12umddi.h
+api_name:
+ - D3D12DDI_RENDER_PASS_ENDING_ACCESS_TYPE_0053
+product:
+ - Windows
 dev_langs:
  - c++
-ms.custom: RS5
 ---
 
 # D3D12DDI_RENDER_PASS_ENDING_ACCESS_TYPE_0053 enumeration
 
 ## -description
-
-
 
 ## -enum-fields
 
@@ -57,7 +55,7 @@ Allows the application to directly resolve a MSAA (Multisampling anti-aliasing) 
 The resolve destination is expected to be in the *hDstResource* resource state field of the [D3D12DDI_RENDER_PASS_ENDING_ACCESS_RESOLVE_PARAMETERS_0053](ns-d3d12umddi-d3d12ddi_render_pass_ending_access_resolve_parameters_0053.md) structure, at the time the Render Pass ends.
 The resolve source will be transitioned to the *hSrcResource* resource state of the [D3D12DDI_RENDER_PASS_ENDING_ACCESS_RESOLVE_PARAMETERS_0053](ns-d3d12umddi-d3d12ddi_render_pass_ending_access_resolve_parameters_0053.md) structure, at the time the Render Pass ends.
 
-### -field D3D12DDI_RENDER_PASS_ENDING_ACCESS_TYPE_0053_NO_ACCESS 
+### -field D3D12DDI_RENDER_PASS_ENDING_ACCESS_TYPE_0053_NO_ACCESS
 
 signifies the resource will not be read from or written to during the Render Pass. It is most expected to used to denote whether the depth/stencil plane for a DSV is not accessed.
 
@@ -67,3 +65,4 @@ signifies the resource will not be read from or written to during the Render Pas
 ## -remarks
 
 ## -see-also
+

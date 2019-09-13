@@ -8,8 +8,6 @@ ms.assetid: fc889cc0-d71d-4a81-8fa5-894c676ac110
 ms.date: 05/10/2018
 ms.keywords: DepthFill, DepthFill callback function [Display Devices], PFND3DDDI_DEPTHFILL, PFND3DDDI_DEPTHFILL callback, UserModeDisplayDriver_Functions_4f8a5911-1ed4-439f-b629-d267161c4ea9.xml, d3dumddi/DepthFill, display.depthfill
 ms.topic: callback
-f1_keywords:
- - "d3dumddi/DepthFill"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop
@@ -27,57 +25,42 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dumddi.h
-api_name:
-- DepthFill
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - "d3dumddi/DepthFill"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dumddi.h
+api_name:
+ - DepthFill
+product:
+ - Windows
 ---
 
 # PFND3DDDI_DEPTHFILL callback function
 
-
 ## -description
-
 
 The <b>DepthFill</b> function fills a depth buffer with a pixel value that is specified in native format.
 
-
 ## -parameters
 
-
-
-
-### -param hDevice [in]
+### -param hDevice
 
 A handle to the display device (graphics context).
 
-
-### -param *
-
-
-
-
-
-
-
+### -param Arg2
 
 *pData* [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_depthfill">D3DDDIARG_DEPTHFILL</a> structure that describes the parameters of the depth-fill operation.
 
-
 ## -returns
-
-
 
 <b>DepthFill</b> returns one of the following values:
 
@@ -86,27 +69,15 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 |S_OK|The depth-fill operation was successful.|
 |E_OUTOFMEMORY|DepthFill could not allocate the required memory for it to complete.|
 
-
 ## -remarks
-
-
 
 DirectX version 7.0 and earlier runtimes call the <b>DepthFill</b> function to fill a depth buffer (z-buffer and stencil buffer) with a pixel value that is specified in native format.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_depthfill">D3DDDIARG_DEPTHFILL</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>
- 
-
- 
 

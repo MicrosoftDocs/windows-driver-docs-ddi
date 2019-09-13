@@ -8,8 +8,6 @@ ms.assetid: 6D4DB988-D339-4B2F-A9B8-41B4FD21FE66
 ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_SETMARKER, PFND3DDDI_SETMARKER callback, d3dumddi/pfnSetMarker, display.pfnsetmarker, pfnSetMarker, pfnSetMarker callback function [Display Devices]
 ms.topic: callback
-f1_keywords:
- - "d3dumddi/pfnSetMarker"
 req.header: d3dumddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -27,53 +25,40 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- D3dumddi.h
-api_name:
-- pfnSetMarker
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - "d3dumddi/pfnSetMarker"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - D3dumddi.h
+api_name:
+ - pfnSetMarker
+product:
+ - Windows
 ---
 
 # PFND3DDDI_SETMARKER callback function
 
-
 ## -description
-
 
 Notifies the user-mode display driver that it must generate a new time stamp if any GPU work has completed since the last call to <i>pfnSetMarker</i>. Optionally implemented by Windows Display Driver Model (WDDM) 1.3 and later drivers running on Microsoft Direct3D Level 9 hardware. (See requirements in [Direct3D rendering performance improvements](https://docs.microsoft.com/windows-hardware/drivers/display/direct3d-rendering-performance-improvements).)  For more advanced hardware, drivers should implement the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3dwddm1_3ddi_setmarker">SetMarker</a> function.
 
-
 ## -parameters
 
-
-
-
-### -param hDevice [in]
+### -param hDevice
 
 A handle to the display device (graphics context).
 
-
 ## -returns
-
-
-
 
       Returns <b>S_OK</b> or an appropriate error result if the function does not complete successfully.
 
-
-
-
 ## -remarks
-
-
 
 If the marker event type from the  <i>Type</i> parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_setmarkermode">pfnSetMarkerMode</a> function is not <b>D3DDDIMT_NONE</b>, the user-mode display driver must perform this procedure with each call to <i>pfnSetMarker</i>:
 
@@ -92,19 +77,11 @@ If the marker event type from the  <i>Type</i> parameter of the <a href="https:/
 </li>
 </ol>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3dwddm1_3ddi_setmarker">SetMarker</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_setmarkermode">pfnSetMarkerMode</a>
- 
-
- 
 

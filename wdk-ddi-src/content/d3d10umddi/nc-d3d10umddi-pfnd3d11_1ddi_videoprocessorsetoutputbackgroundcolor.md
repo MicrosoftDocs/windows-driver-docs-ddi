@@ -7,8 +7,6 @@ ms.assetid: F258F21F-0177-4DBB-87FA-F0374689DC7B
 ms.date: 05/10/2018
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTBACKGROUNDCOLOR, PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTBACKGROUNDCOLOR callback, d3d10umddi/pfnVideoProcessorSetOutputBackgroundColor, display.videoprocessorsetoutputbackgroundcolor, pfnVideoProcessorSetOutputBackgroundColor, pfnVideoProcessorSetOutputBackgroundColor callback function [Display Devices]
 ms.topic: callback
-f1_keywords:
- - "d3d10umddi/pfnVideoProcessorSetOutputBackgroundColor"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -26,35 +24,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- D3d10umddi.h
-api_name:
-- pfnVideoProcessorSetOutputBackgroundColor
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - "d3d10umddi/pfnVideoProcessorSetOutputBackgroundColor"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - D3d10umddi.h
+api_name:
+ - pfnVideoProcessorSetOutputBackgroundColor
+product:
+ - Windows
 ---
 
 # PFND3D11_1DDI_VIDEOPROCESSORSETOUTPUTBACKGROUNDCOLOR callback function
 
-
 ## -description
-
 
 Sets the background color for the video processor.
 
-
 ## -parameters
-
-
-
 
 ### -param Arg1
 
@@ -74,35 +68,21 @@ A handle to the video processor object that was created through a call to the <a
 
 If <b>TRUE</b>, the background color that is specified by the <i>pColor</i> parameter is a YCbCr value. Otherwise, the background color is specified as an RGBA value.
 
-### -param *
+### -param Arg4
 
 *pColor* [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_video_color">D3D11_1DDI_VIDEO_COLOR</a> structure that specifies the background color.
 
-
-
-
 ## -returns
-
-
 
 This callback function does not return a value.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor">CreateVideoProcessor</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_video_color">D3D11_1DDI_VIDEO_COLOR</a>
- 
-
- 
 

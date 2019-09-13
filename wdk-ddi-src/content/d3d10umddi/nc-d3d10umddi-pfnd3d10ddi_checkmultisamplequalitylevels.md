@@ -7,8 +7,6 @@ ms.assetid: 2b6a0ab8-f197-48c3-baf2-305b77b7e8b5
 ms.date: 05/10/2018
 ms.keywords: CheckMultisampleQualityLevels, CheckMultisampleQualityLevels callback function [Display Devices], PFND3D10DDI_CHECKMULTISAMPLEQUALITYLEVELS, PFND3D10DDI_CHECKMULTISAMPLEQUALITYLEVELS callback, UserModeDisplayDriverDx10_Functions_d19bc4c0-49ba-4e1c-b19e-667905ceb391.xml, d3d10umddi/CheckMultisampleQualityLevels, display.checkmultisamplequalitylevels
 ms.topic: callback
-f1_keywords:
- - "d3d10umddi/CheckMultisampleQualityLevels"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -26,30 +24,29 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3d10umddi.h
-api_name:
-- CheckMultisampleQualityLevels
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - "d3d10umddi/CheckMultisampleQualityLevels"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3d10umddi.h
+api_name:
+ - CheckMultisampleQualityLevels
+product:
+ - Windows
 ---
 
 # PFND3D10DDI_CHECKMULTISAMPLEQUALITYLEVELS callback function
 
-
 ## -description
 
-
-The <b>CheckMultisampleQualityLevels</b> function retrieves the number of quality levels that the device supports for the specified number of samples. 
-
+The <b>CheckMultisampleQualityLevels</b> function retrieves the number of quality levels that the device supports for the specified number of samples.
 
 ## -parameters
 
@@ -71,27 +68,19 @@ A DXGI_FORMAT-typed value that indicates the render-target format that the check
 
 The number of samples to retrieve the quality levels for.
 
-### -param *
+### -param Arg4
 
 *pNumQualityLevels* [out]
 
-A pointer to a variable that receives the number of quality levels that the device supports for the specified number of samples. 
-
+A pointer to a variable that receives the number of quality levels that the device supports for the specified number of samples.
 
 ## -returns
-
-
 
 None
 
 The driver can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> callback function to set an error code. The driver can set E_INVALIDARG if the format in the <i>Format</i> parameter does not exist or the <i>pNumQualityLevels</i> parameter is <b>NULL</b>.
 
-
-
-
 ## -remarks
-
-
 
 If the device does not support multiple sampling with the number of samples that is specified in the <i>SampleCount</i> parameter, the user-mode display driver should return 0 in the variable that the <i>pNumQualityLevels</i> parameter points to.
 
@@ -99,22 +88,13 @@ When the driver returns 1 or more in the variable that <i>pNumQualityLevels</i> 
 
 If the driver receives 1 in <i>SampleCount</i>, the driver always returns 1 in the variable that <i>pNumQualityLevels</i> points to.
 
-If the driver receives 0 or greater than 32 in <i>SampleCount</i>, the driver always returns 0 in the variable that <i>pNumQualityLevels</i> points to. 
-
-
-
+If the driver receives 0 or greater than 32 in <i>SampleCount</i>, the driver always returns 0 in the variable that <i>pNumQualityLevels</i> points to.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ns-d3d10umddi-d3d10ddi_devicefuncs">D3D10DDI_DEVICEFUNCS</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a>
- 
-
- 
 

@@ -7,8 +7,6 @@ ms.assetid: 1a46b129-1e78-44e6-a609-59eab206692b
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_PRESENT, DXGKDDI_PRESENT callback, DmFunctions_9dfdaa11-723f-48de-a0d1-5559b5841e7e.xml, DxgkDdiPresent, DxgkDdiPresent callback function [Display Devices], d3dkmddi/DxgkDdiPresent, display.dxgkddipresent
 ms.topic: callback
-f1_keywords:
- - "d3dkmddi/DxgkDdiPresent"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Desktop
@@ -26,51 +24,43 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dkmddi.h
-api_name:
-- DxgkDdiPresent
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - "d3dkmddi/DxgkDdiPresent"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dkmddi.h
+api_name:
+ - DxgkDdiPresent
+product:
+ - Windows
 ---
 
 # DXGKDDI_PRESENT callback function
 
-
 ## -description
-
 
 The <i>DxgkDdiPresent</i> function copies content from source allocations to a primary surface (and sometimes to off-screen system memory allocations).
 
-
 ## -parameters
 
-
-
-
-### -param hContext [in]
+### -param hContext
 
 [in] A handle to the device context for the copy information. The display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_createcontext">DxgkDdiCreateContext</a> function previously returned this handle in the <b>hContext</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_createcontext">DXGKARG_CREATECONTEXT</a> structure that the <i>pCreateContext</i> parameter of <i>DxgkDdiCreateContext </i>points to. 
 
-If the driver does not support context creation, the Microsoft DirectX graphics kernel subsystem replaces the handle to the context with a handle to the device. The display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_createdevice">DxgkDdiCreateDevice</a> function previously returned the device handle in the <b>hDevice</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_createdevice">DXGKARG_CREATEDEVICE</a> structure that the <i>pCreateDevice</i> parameter of <i>DxgkDdiCreateDevice </i>points to. 
+If the driver does not support context creation, the Microsoft DirectX graphics kernel subsystem replaces the handle to the context with a handle to the device. The display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_createdevice">DxgkDdiCreateDevice</a> function previously returned the device handle in the <b>hDevice</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_createdevice">DXGKARG_CREATEDEVICE</a> structure that the <i>pCreateDevice</i> parameter of <i>DxgkDdiCreateDevice </i>points to.
 
-
-### -param pPresent [in, out]
+### -param pPresent
 
 [in/out] A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_present">DXGKARG_PRESENT</a> structure that contains information about the copy operation.
 
-
 ## -returns
-
-
 
 <i>DxgkDdiPresent</i> returns one of the following values:
 
@@ -85,11 +75,7 @@ If the driver does not support context creation, the Microsoft DirectX graphics 
 |STATUS_INVALID_HANDLE|DxgkDdiPresent detected an invalid handle in the command buffer.|
 |STATUS_GRAPHICS_GPU_EXCEPTION_ON_DEVICE|The display miniport driver detected an error in the DMA stream. The graphics context device is placed in a lost state if the driver returns this error code.|
 
-
-
 ## -remarks
-
-
 
 The DirectX graphics kernel subsystem calls the display miniport driver's <i>DxgkDdiPresent</i> function to copy content from source allocations typically to the primary surface. (This function can also copy content to an off-screen system memory allocation.) Because a primary surface is loosely defined, <i>DxgkDdiPresent</i> can be implemented for the following scenarios: 
 
@@ -150,13 +136,7 @@ If the display miniport driver previously indicated, in a call to its <a href="h
 
 <i>DxgkDdiPresent</i> should be made pageable.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dukmdt/ne-d3dukmdt-_d3dddiformat">D3DDDIFORMAT</a>
 
@@ -203,7 +183,4 @@ If the display miniport driver previously indicated, in a call to its <a href="h
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_queryadapterinfo">DxgkDdiQueryAdapterInfo</a>
- 
-
- 
 

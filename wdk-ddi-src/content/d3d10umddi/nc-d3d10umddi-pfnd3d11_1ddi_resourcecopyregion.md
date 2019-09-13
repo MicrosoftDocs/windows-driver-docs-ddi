@@ -7,8 +7,6 @@ ms.assetid: CA26FB37-1A4C-4057-90A5-64FFBE289E39
 ms.date: 05/10/2018
 ms.keywords: PFND3D11_1DDI_RESOURCECOPYREGION, PFND3D11_1DDI_RESOURCECOPYREGION callback, ResourceConvertRegion(D3D11_1), ResourceCopyRegion(D3D11_1), ResourceCopyRegion(D3D11_1) callback function [Display Devices], d3d10umddi/ResourceCopyRegion(D3D11_1), display.resourcecopyregion_d3d11_1_, pfnResourceConvertRegion
 ms.topic: callback
-f1_keywords:
- - "d3d10umddi/ResourceCopyRegion(D3D11_1)"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -26,35 +24,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- D3d10umddi.h
-api_name:
-- ResourceCopyRegion(D3D11_1)
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - "d3d10umddi/ResourceCopyRegion(D3D11_1)"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - D3d10umddi.h
+api_name:
+ - ResourceCopyRegion(D3D11_1)
+product:
+ - Windows
 ---
 
 # PFND3D11_1DDI_RESOURCECOPYREGION callback function
 
-
 ## -description
-
 
 Copies a source subresource region to a location on a destination subresource.
 
-
 ## -parameters
-
-
-
 
 ### -param Arg1
 
@@ -78,7 +72,7 @@ An index that indicates the destination subresource to copy to.
 
 *DstX* [in]
 
-The x-coordinate of the destination subresource. 
+The x-coordinate of the destination subresource.
 
 ### -param Arg5
 
@@ -102,9 +96,9 @@ A handle to the source resource to copy from.
 
 *SrcSubresource* [in]
 
-An index that indicates the source subresource to copy from. 
+An index that indicates the source subresource to copy from.
 
-### -param *
+### -param Arg9
 
 *pSrcBox* [in, optional]
 
@@ -116,21 +110,13 @@ If the members of the <a href="https://docs.microsoft.com/windows-hardware/drive
 
 [in] A value that specifies characteristics of copy operation as a bitwise <b>OR</b> of the values in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ne-d3d10umddi-d3d11_1_ddi_copy_flags">D3D11_1_DDI_COPY_FLAGS</a> enumeration type.
 
-
 ## -returns
-
-
 
 None
 
-The driver can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> callback function to set an error code. For more information about setting error codes, see the Remarks section. 
-
-
-
+The driver can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> callback function to set an error code. For more information about setting error codes, see the Remarks section.
 
 ## -remarks
-
-
 
 The Microsoft Direct3D runtime calls the user-mode display driver's <i>ResourceCopyRegion(D3D11_1)</i> function to inform the driver to copy from the specified source subresource region to a location on the specified destination subresource. The source and destination subresources can be the same subresource of the same resource. Both source and destination resources must be the same type of resource and must have format types (DXGI_FORMAT-typed values) that are convertible to each other. 
 
@@ -219,13 +205,7 @@ The source and destination resources must have the same number of samples and qu
 <i>ResourceCopyRegion(D3D11_1)</i>
       does not ensure that no subresources are currently mapped. <i>ResourceCopyRegion(D3D11_1)</i> also does not ensure that the source box that is offset by the destination offsets fits entirely on the resource.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d11ddi_createresource">CreateResource(D3D11)</a>
 
@@ -248,7 +228,4 @@ The source and destination resources must have the same number of samples and qu
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a>
- 
-
- 
 

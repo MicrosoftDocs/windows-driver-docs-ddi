@@ -8,10 +8,8 @@ ms.assetid: 49E4189A-2183-4033-BF17-ADFAC1CF1EF2
 ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_UPDATEALLOCATIONPROPERTYCB, PFND3DDDI_UPDATEALLOCATIONPROPERTYCB callback, d3dumddi/pfnUpdateAllocationPropertyCb, display.pfnupdateallocationpropertycb, pfnUpdateAllocationPropertyCb, pfnUpdateAllocationPropertyCb callback function [Display Devices]
 ms.topic: callback
-f1_keywords:
- - "d3dumddi/pfnUpdateAllocationPropertyCb"
 req.header: d3dumddi.h
-req.include-header:
+req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -27,50 +25,42 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dumddi.h
-api_name:
-- pfnUpdateAllocationPropertyCb
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - "d3dumddi/pfnUpdateAllocationPropertyCb"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dumddi.h
+api_name:
+ - pfnUpdateAllocationPropertyCb
+product:
+ - Windows
 ---
 
 # PFND3DDDI_UPDATEALLOCATIONPROPERTYCB callback function
 
-
 ## -description
-
 
 The <b>pfnUpdateAllocationPropertyCb</b> functions updates the property of an allocation without creating a new allocation.
 
-
 ## -parameters
 
-
-
-
-### -param hDevice [in]
+### -param hDevice
 
 A handle to the display device associated with the allocation
 
-
-### -param *
+### -param Arg2
 
 *pUpdateAllocationProperty* [in, out]
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dukmdt/ns-d3dukmdt-d3dddi_updateallocproperty">D3DDDI_UPDATEALLOCPROPERTY</a> structure that describes how to update the allocation with the desired properties.
 
-
 ## -returns
-
-
 
 <b>pfnUpdateAllocationPropertyCb</b> returns one of the following values:
 
@@ -81,3 +71,4 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 |E_INVALIDARG|Invalid call with bad arguments provided.|
 |E_OUTOFMEMORY|Desired supported memory segment is full.|
 |E_FAIL|An unknown error has occurred.|
+

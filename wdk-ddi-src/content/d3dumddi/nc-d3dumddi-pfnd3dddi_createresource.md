@@ -8,8 +8,6 @@ ms.assetid: 5b74c989-1a62-4415-a19a-dd0ba2fcff83
 ms.date: 05/10/2018
 ms.keywords: CreateResource, CreateResource callback function [Display Devices], PFND3DDDI_CREATERESOURCE, PFND3DDDI_CREATERESOURCE callback, UserModeDisplayDriver_Functions_c925b8ed-3e7f-4a56-a4b0-a3c8e2ba8ebf.xml, d3dumddi/CreateResource, display.createresource
 ms.topic: callback
-f1_keywords:
- - "d3dumddi/CreateResource"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop
@@ -27,50 +25,42 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dumddi.h
-api_name:
-- CreateResource
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - "d3dumddi/CreateResource"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dumddi.h
+api_name:
+ - CreateResource
+product:
+ - Windows
 ---
 
 # PFND3DDDI_CREATERESOURCE callback function
 
-
 ## -description
-
 
 The <b>CreateResource</b> function creates a resource.
 
-
 ## -parameters
 
-
-
-
-### -param hDevice [in]
+### -param hDevice
 
 A handle to the display device (graphics context) that is used to create the resource.
 
-
-### -param *
+### -param Arg2
 
 *pResource* [in, out]
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dukmdt/ns-d3dukmdt-_d3dddiarg_createresource">D3DDDIARG_CREATERESOURCE</a> structure that describes the resource that is created.
 
-
 ## -returns
-
-
 
 <b>CreateResource</b> returns one of the following values:
 
@@ -78,13 +68,9 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 |:--|:--|
 | **S_OK** | The resource is successfully created. | 
 | **E_OUTOFMEMORY** | [CreateResource](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_createresource)  could not allocate the required memory for it to complete. | 
-| **D3DERR_NOTAVAILABLE** | [CreateResource](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_createresource)  could not create the resource for reasons other than not being able to allocate memory. CreateResourcecan return this error only when creating vertex or index buffers. | 
-
-
+| **D3DERR_NOTAVAILABLE** | [CreateResource](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_createresource)  could not create the resource for reasons other than not being able to allocate memory. CreateResourcecan return this error only when creating vertex or index buffers. |
 
 ## -remarks
-
-
 
 The call to <b>CreateResource</b> can contain a list of surfaces. The <b>SurfCount</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dukmdt/ns-d3dukmdt-_d3dddiarg_createresource">D3DDDIARG_CREATERESOURCE</a> structure that is specified by the <i>pResource</i> parameter specifies the number of surfaces--including MIP-map levels--to create. For example, a 256x256x9 texture MIP-map resource contains a list of nine surfaces where the <b>SurfCount</b> member and number of MIP-map levels are both set to 9. A cube map that contains nine MIP-map levels should have the number of MIP-map levels set to 9 and <b>SurfCount</b> set to 54. A three-surface swap chain should have <b>SurfCount</b> set to 3 and the number of MIP-map levels set to 0. Note that the number of MIP-map levels is always less than or equal to the value in <b>SurfCount</b>.
 
@@ -164,13 +150,7 @@ For a system memory resource, the display miniport driver can chose to wrap an a
 
 If the runtime requests to create a vertex or index buffer and if the user-mode display driver cannot create the buffer for reasons other than out of memory (for example, a lack of hardware support), the driver must fail with D3DERR_NOTAVAILABLE.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_blt">Blt</a>
 
@@ -201,7 +181,4 @@ If the runtime requests to create a vertex or index buffer and if the user-mode 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_deallocatecb">pfnDeallocateCb</a>
- 
-
- 
 

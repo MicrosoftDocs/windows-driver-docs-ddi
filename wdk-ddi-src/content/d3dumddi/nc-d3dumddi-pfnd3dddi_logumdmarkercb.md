@@ -8,8 +8,6 @@ ms.assetid: BD544686-20D3-4577-9950-9C3B6853C4BD
 ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_LOGUMDMARKERCB, PFND3DDDI_LOGUMDMARKERCB callback, d3dumddi/pfnLogUMDMarkerCb, display.pfnlogumdmarkercb, pfnLogUMDMarkerCb, pfnLogUMDMarkerCb callback function [Display Devices]
 ms.topic: callback
-f1_keywords:
- - "d3dumddi/pfnLogUMDMarkerCb"
 req.header: d3dumddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -27,53 +25,42 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- D3dumddi.h
-api_name:
-- pfnLogUMDMarkerCb
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - "d3dumddi/pfnLogUMDMarkerCb"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - D3dumddi.h
+api_name:
+ - pfnLogUMDMarkerCb
+product:
+ - Windows
 ---
 
 # PFND3DDDI_LOGUMDMARKERCB callback function
 
-
 ## -description
-
 
 Called by the user-mode display driver to log a custom Event Tracing for Windows (ETW) marker event.
 
-
 ## -parameters
 
-
-
-
-### -param hDevice [in]
+### -param hDevice
 
 A handle to the display device (graphics context).
 
-
-### -param *
+### -param Arg2
 
 *pLogUMDMarker* [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-d3dddicb_logumdmarker">D3DDDICB_LOGUMDMARKER</a> structure that indicates the location of an ETW marker event that is defined by the user-mode display driver.
 
-
 ## -returns
 
-
-
-
 Returns <b>S_OK</b> or an appropriate error result if the function does not complete successfully.
-
-
 

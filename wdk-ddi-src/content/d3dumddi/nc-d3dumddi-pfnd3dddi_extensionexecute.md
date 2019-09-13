@@ -8,8 +8,6 @@ ms.assetid: a3f73651-bfff-48fa-aa61-477b8af7fa07
 ms.date: 05/10/2018
 ms.keywords: ExtensionExecute, ExtensionExecute callback function [Display Devices], PFND3DDDI_EXTENSIONEXECUTE, PFND3DDDI_EXTENSIONEXECUTE callback, UserModeDisplayDriver_Functions_2972e743-bdb5-41ab-92ff-986b8335883b.xml, d3dumddi/ExtensionExecute, display.extensionexecute
 ms.topic: callback
-f1_keywords:
- - "d3dumddi/ExtensionExecute"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop
@@ -27,57 +25,42 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dumddi.h
-api_name:
-- ExtensionExecute
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - "d3dumddi/ExtensionExecute"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dumddi.h
+api_name:
+ - ExtensionExecute
+product:
+ - Windows
 ---
 
 # PFND3DDDI_EXTENSIONEXECUTE callback function
 
-
 ## -description
-
 
 The <i>ExtensionExecute</i> function performs an operation by using the given Microsoft DirectX Video Accelerator (VA) extension device.
 
-
 ## -parameters
 
-
-
-
-### -param hDevice [in]
+### -param hDevice
 
 A handle to the display device (graphics context).
 
-
-### -param *
-
-
-
-
-
-
-
+### -param Arg2
 
 *pData* [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_extensionexecute">D3DDDIARG_EXTENSIONEXECUTE</a> structure that describes the DirectX VA operation to perform.
 
-
 ## -returns
-
-
 
 <i>ExtensionExecute</i> returns one of the following values:
 
@@ -88,15 +71,9 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_extensionexecute">D3DDDIARG_EXTENSIONEXECUTE</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>
- 
-
- 
 

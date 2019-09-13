@@ -8,8 +8,6 @@ ms.assetid: 9B0F058C-B71F-4A4F-A053-F9381A5FD3A8
 ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_CREATESYNCHRONIZATIONOBJECT2CB, PFND3DDDI_CREATESYNCHRONIZATIONOBJECT2CB callback, d3dumddi/pfnCreateSynchronizationObject2Cb, display.pfncreatesynchronizationobject2cb, pfnCreateSynchronizationObject2Cb, pfnCreateSynchronizationObject2Cb callback function [Display Devices]
 ms.topic: callback
-f1_keywords:
- - "d3dumddi/pfnCreateSynchronizationObject2Cb"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop
@@ -27,53 +25,40 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dumddi.h
-api_name:
-- pfnCreateSynchronizationObject2Cb
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - "d3dumddi/pfnCreateSynchronizationObject2Cb"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dumddi.h
+api_name:
+ - pfnCreateSynchronizationObject2Cb
+product:
+ - Windows
 ---
 
 # PFND3DDDI_CREATESYNCHRONIZATIONOBJECT2CB callback function
 
-
 ## -description
-
 
 Creates a GPU synchronization object that a device context can signal and wait for. Used by WDDM 1.2 and later user-mode display drivers.
 
-
 ## -parameters
 
-
-
-
-### -param hDevice [in]
+### -param hDevice
 
 A handle to the display device (that is, the graphics context) that will own the synchronization object that <i>pfnCreateSynchronizationObject2Cb</i> creates.
 
-
-### -param *
-
-
-
-
-
-
-
+### -param Arg2
 
 *pData* [in, out]
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddicb_createsynchronizationobject2">D3DDDICB_CREATESYNCHRONIZATIONOBJECT2</a> structure that describes the synchronization object to create.
-
 
 ## -returns
 
@@ -88,12 +73,7 @@ Returns one of the following values:
 
 This function might also return other HRESULT values.
 
-
-
-
 ## -remarks
-
-
 
 The <i>pfnCreateSynchronizationObject2Cb</i> function returns a kernel-mode handle to the newly created synchronization object in the <b>hSyncObject</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddicb_createsynchronizationobject2">D3DDDICB_CREATESYNCHRONIZATIONOBJECT2</a> structure that the <i>pData</i> parameter points to. The user-mode display driver passes this handle in calls to the following functions:
 
@@ -130,12 +110,7 @@ The <i>pfnCreateSynchronizationObject2Cb</i> function returns a kernel-mode hand
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddicb_createsynchronizationobject2">D3DDDICB_CREATESYNCHRONIZATIONOBJECT2</a>
 
@@ -154,7 +129,4 @@ The <i>pfnCreateSynchronizationObject2Cb</i> function returns a kernel-mode hand
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_waitforsynchronizationobject2cb">pfnWaitForSynchronizationObject2Cb</a>
- 
-
- 
 

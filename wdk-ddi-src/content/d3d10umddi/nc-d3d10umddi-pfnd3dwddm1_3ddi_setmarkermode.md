@@ -7,8 +7,6 @@ ms.assetid: 18B13509-7692-4336-937C-264B31A6FB78
 ms.date: 05/10/2018
 ms.keywords: PFND3DWDDM1_3DDI_SETMARKERMODE, PFND3DWDDM1_3DDI_SETMARKERMODE callback, SetMarkerMode, SetMarkerMode callback function [Display Devices], d3d10umddi/SetMarkerMode, display.setmarkermode
 ms.topic: callback
-f1_keywords:
- - "d3d10umddi/SetMarkerMode"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -26,45 +24,39 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- D3d10umddi.h
-api_name:
-- SetMarkerMode
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - "d3d10umddi/SetMarkerMode"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - D3d10umddi.h
+api_name:
+ - SetMarkerMode
+product:
+ - Windows
 ---
 
 # PFND3DWDDM1_3DDI_SETMARKERMODE callback function
 
-
 ## -description
-
 
 Notifies the user-mode display driver that it should support a type of Event Tracing for Windows (ETW) marker event. Must be implemented by Windows Display Driver Model (WDDM) 1.3 and later drivers.
 
-
 ## -parameters
 
-
-
-
-### -param hDevice [in]
+### -param hDevice
 
 A handle to the display device (graphics context).
 
-
-### -param Type [in]
+### -param Type
 
 A value from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ne-d3d10umddi-d3dwddm1_3ddi_marker_type">D3DWDDM1_3DDI_MARKER_TYPE</a> enumeration that indicates the type of marker event  that the driver should support.
-
 
 ### -param Flags
 
@@ -72,20 +64,11 @@ A <b>UINT</b> value that indicates whether the driver should provide custom info
 
 The annotation can be in the form of a text string in the English-US locale, or in the form of an index value to a location in a string table. For the latter option, the driver must also implement a function that describes the strings that the index values indicate.
 
-
 ## -returns
-
-
-
 
       Returns <b>S_OK</b> or an appropriate error result if the function does not complete successfully.
 
-
-
-
 ## -remarks
-
-
 
 Follow these guidelines when you set up profile-type marker events in your user-mode driver, indicated by the <b>D3DWDDM1_3DDI_MARKER_TYPE_PROFILE</b> type:
 
@@ -95,15 +78,7 @@ Follow these guidelines when you set up profile-type marker events in your user-
 <li>Don't use sampling commands that place a high performance burden on the graphics pipeline, such as wait-for-idle commands. To be able to instrument profile-type marker events, your driver shouldn't have to flush the pipeline or caches.</li>
 </ol>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ne-d3d10umddi-d3dwddm1_3ddi_marker_type">D3DWDDM1_3DDI_MARKER_TYPE</a>
- 
-
- 
 

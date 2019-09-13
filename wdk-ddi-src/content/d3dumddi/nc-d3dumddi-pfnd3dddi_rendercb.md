@@ -8,8 +8,6 @@ ms.assetid: f242162e-6237-469c-b178-5a51dcf69e32
 ms.date: 05/10/2018
 ms.keywords: D3Druntime_Functions_487738b4-19e4-464f-80cc-d3b83eef1c6f.xml, PFND3DDDI_RENDERCB, PFND3DDDI_RENDERCB callback, d3dumddi/pfnRenderCb, display.pfnrendercb, pfnRenderCb, pfnRenderCb callback function [Display Devices]
 ms.topic: callback
-f1_keywords:
- - "d3dumddi/pfnRenderCb"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop
@@ -27,57 +25,42 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dumddi.h
-api_name:
-- pfnRenderCb
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - "d3dumddi/pfnRenderCb"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dumddi.h
+api_name:
+ - pfnRenderCb
+product:
+ - Windows
 ---
 
 # PFND3DDDI_RENDERCB callback function
 
-
 ## -description
-
 
 The <b>pfnRenderCb</b> function submits the current command buffer for rendering to the display miniport driver.
 
-
 ## -parameters
 
-
-
-
-### -param hDevice [in]
+### -param hDevice
 
 A handle to the display device (graphics context).
 
-
-### -param *
-
-
-
-
-
-
-
+### -param Arg2
 
 *pData* [in, out]
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddicb_render">D3DDDICB_RENDER</a> structure that describes the current command buffer to render.
 
-
 ## -returns
-
-
 
 <b>pfnRenderCb</b> returns one of the following values:
 
@@ -95,12 +78,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 
 This function might also return other HRESULT values.
 
-
-
-
 ## -remarks
-
-
 
 When the user-mode display driver must submit the current command buffer for rendering to the display miniport driver (for example, during a call to the user-mode display driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfworkitem-flush">Flush</a> or Flush(D3D10) function), the user-mode display driver must call the <b>pfnRenderCb</b> function. The user-mode display driver should set the <i>hDevice</i> parameter to the value the Microsoft Direct3D runtime supplied during the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_createdevice">CreateDevice</a> or CreateDevice(D3D10) call. In the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddicb_render">D3DDDICB_RENDER</a> structure that is pointed to by the <i>pData </i>parameter, the user-mode display driver should also set:
 
@@ -167,11 +145,7 @@ VOID CD3DContext::SubmitDXVABuffer(DWORD Size) {
     }
 ```
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_createdevice">CreateDevice</a>
 
@@ -190,7 +164,4 @@ VOID CD3DContext::SubmitDXVABuffer(DWORD Size) {
 
 
 <a href="https://docs.microsoft.com/previous-versions/ff568895(v=vs.85)">pfnCreateContextCb</a>
- 
-
- 
 

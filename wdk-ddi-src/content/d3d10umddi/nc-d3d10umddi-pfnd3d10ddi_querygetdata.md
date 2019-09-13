@@ -7,8 +7,6 @@ ms.assetid: 78ee9813-e23e-4d46-acc4-f2fa88559b03
 ms.date: 05/10/2018
 ms.keywords: PFND3D10DDI_QUERYGETDATA, PFND3D10DDI_QUERYGETDATA callback, QueryGetData, QueryGetData callback function [Display Devices], UserModeDisplayDriverDx10_Functions_c1a88bca-7df5-4640-9134-fc893e5c8a0d.xml, d3d10umddi/QueryGetData, display.querygetdata
 ms.topic: callback
-f1_keywords:
- - "d3d10umddi/QueryGetData"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -26,30 +24,29 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3d10umddi.h
-api_name:
-- QueryGetData
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - "d3d10umddi/QueryGetData"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3d10umddi.h
+api_name:
+ - QueryGetData
+product:
+ - Windows
 ---
 
 # PFND3D10DDI_QUERYGETDATA callback function
 
-
 ## -description
 
-
-The <i>QueryGetData</i> function polls for the state of a query operation. 
-
+The <i>QueryGetData</i> function polls for the state of a query operation.
 
 ## -parameters
 
@@ -65,40 +62,25 @@ A handle to the display device (graphics context).
 
 A handle to the query object to poll.
 
-### -param *
+### -param Arg3
 
 *pData* [out]
 
 A pointer to a region of memory that receives the data from a query operation. The user-mode display driver can set <i>pData</i> to <b>NULL</b> and set the <i>DataSize</i> parameter to zero. If <i>pData</i> is <b>NULL</b>, <i>QueryGetData</i> can indicate the state of the query operation (for example, whether the query operation is finished).
 
-### -param DataSize 
+### -param DataSize
 
-[out] The size, in bytes, of the query data that the <i>pData</i> parameter points to. The user-mode display driver can set <i>DataSize</i> to zero and set <i>pData</i> to <b>NULL</b>. If <i>DataSize</i> is zero, <i>QueryGetData</i> can indicate the state of the query operation (for example, through return codes). 
-     
+[out] The size, in bytes, of the query data that the <i>pData</i> parameter points to. The user-mode display driver can set <i>DataSize</i> to zero and set <i>pData</i> to <b>NULL</b>. If <i>DataSize</i> is zero, <i>QueryGetData</i> can indicate the state of the query operation (for example, through return codes).
 
-
-### -param Arg3
-
-*Flags* [in]
-
-A bitwise OR of values. Currently, the D3D10_DDI_GET_DATA_DO_NOT_FLUSH (0x01L) value from the D3D10_DDI_GET_DATA_FLAG enumeration type is the only supported value. 
-
-
+### -param Arg5
 
 ## -returns
-
-
 
 None
 
 The driver can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> callback function to set an error code. For more information about setting error codes, see the Remarks section.
 
-
-
-
 ## -remarks
-
-
 
 After the Microsoft Direct3D runtime calls the user-mode display driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_queryend">QueryEnd</a> function to transition a query operation to the "issued" state, the runtime can call <i>QueryGetData</i> to determine if the query operation is still in the "issued" state (DXGI_DDI_ERR_WASSTILLDRAWING) or has transitioned to the "signaled" state (S_OK). If the query operation is in the "signaled" state, <i>QueryGetData</i> can return the query data in the <i>pData</i> parameter; otherwise, <i>pData</i> is unchanged. The driver can call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> to indicate the state of the query operation. 
 
@@ -106,15 +88,9 @@ The runtime cannot call <i>QueryGetData</i> with a predicate that was created wi
 
 If a query operation handles work that still resides in partial command buffers, by default, the driver should terminate and submit the partial command buffers. However, the driver should not terminate and submit the buffers if the runtime specified the D3D10_DDI_GET_DATA_DO_NOT_FLUSH flag in the <i>Flags</i> parameter. If the runtime passed the D3D10_DDI_GET_DATA_DO_NOT_FLUSH flag in the <i>Flags</i> parameter and if the query operation handles work that still resides in partial command buffers, the driver can call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> to set only the DXGI_DDI_ERR_WASSTILLDRAWING error code.
 
-When the runtime calls <i>QueryGetData</i> to check for query completion, the driver can pass DXGI_DDI_ERR_WASSTILLDRAWING in a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> to indicate that the query is not finished yet. The driver can also pass D3DDDIERR_DEVICEREMOVED in a call to <i>pfnSetErrorCb</i>. The Direct3D runtime will determine that any other errors are critical. 
-
-
-
+When the runtime calls <i>QueryGetData</i> to check for query completion, the driver can pass DXGI_DDI_ERR_WASSTILLDRAWING in a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> to indicate that the query is not finished yet. The driver can also pass D3DDDIERR_DEVICEREMOVED in a call to <i>pfnSetErrorCb</i>. The Direct3D runtime will determine that any other errors are critical.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_checkcounter">CheckCounter</a>
 
@@ -133,7 +109,4 @@ When the runtime calls <i>QueryGetData</i> to check for query completion, the dr
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a>
- 
-
- 
 

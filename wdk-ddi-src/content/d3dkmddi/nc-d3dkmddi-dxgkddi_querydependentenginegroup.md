@@ -7,8 +7,6 @@ ms.assetid: 42040ffc-40a3-4794-805c-7a165c47c8c9
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_QUERYDEPENDENTENGINEGROUP, DXGKDDI_QUERYDEPENDENTENGINEGROUP callback, DxgkDdiQueryDependentEngineGroup, DxgkDdiQueryDependentEngineGroup callback function [Display Devices], d3dkmddi/DxgkDdiQueryDependentEngineGroup, display.dxgkddiquerydependentenginegroup
 ms.topic: callback
-f1_keywords:
- - "d3dkmddi/DxgkDdiQueryDependentEngineGroup"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Desktop
@@ -26,58 +24,45 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- D3dkmddi.h
-api_name:
-- DxgkDdiQueryDependentEngineGroup
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - "d3dkmddi/DxgkDdiQueryDependentEngineGroup"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - D3dkmddi.h
+api_name:
+ - DxgkDdiQueryDependentEngineGroup
+product:
+ - Windows
 ---
 
 # DXGKDDI_QUERYDEPENDENTENGINEGROUP callback function
 
-
 ## -description
-
 
 Called by the display port driver's GPU scheduler to query dependencies of nodes in a physical display adapter.
 
-
 ## -parameters
 
-
-
-
-### -param hAdapter [in]
+### -param hAdapter
 
 A handle to a context block that is associated with a display adapter. The display miniport driver previously provided this handle to the DirectX graphics kernel subsystem in the <i>MiniportDeviceContext</i> output parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function.
 
-
-### -param pQueryDependentEngineGroup [in, out]
+### -param pQueryDependentEngineGroup
 
 A value of type  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_querydependentenginegroup">DXGKARG_QUERYDEPENDENTENGINEGROUP</a> that specifies all nodes that are affected by the reset operation.
 
-
 ## -returns
-
-
 
 Returns <b>STATUS_SUCCESS</b> if it succeeds. Otherwise, it returns one of the error codes defined in Ntstatus.h.
 
-
-
-
 ## -remarks
-
-
 
 This function is used to describe all physical adapters (engines) that are affected by an engine reset request. It helps improve user experience on hardware architectures that have dependencies among multiple engines that can affect the reset process. Note that all affected nodes must have the same engine affinity value. (See engine affinity discussion in <a href="https://docs.microsoft.com/windows-hardware/drivers/display/tdr-changes-in-windows-8">TDR changes in Windows 8</a>.)
 
@@ -91,13 +76,7 @@ The operating system guarantees that this function follows the first level synch
 
 For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/tdr-changes-in-windows-8">TDR changes in Windows 8</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_createcontext">DXGKARG_CREATECONTEXT</a>
 
@@ -116,7 +95,4 @@ For more information, see <a href="https://docs.microsoft.com/windows-hardware/d
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_resetengine">DxgkDdiResetEngine</a>
- 
-
- 
 

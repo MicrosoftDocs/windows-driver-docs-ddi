@@ -8,8 +8,6 @@ ms.assetid: 60300845-9050-4D0A-83D1-76A45EA823C1
 ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_SUBMITCOMMANDCB, PFND3DDDI_SUBMITCOMMANDCB callback, d3dumddi/pfnSubmitCommandCb, display.pfnsubmitcommandcb, pfnSubmitCommandCb, pfnSubmitCommandCb callback function [Display Devices]
 ms.topic: callback
-f1_keywords:
- - "d3dumddi/pfnSubmitCommandCb"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop
@@ -27,26 +25,26 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dumddi.h
-api_name:
-- pfnSubmitCommandCb
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - "d3dumddi/pfnSubmitCommandCb"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dumddi.h
+api_name:
+ - pfnSubmitCommandCb
+product:
+ - Windows
 ---
 
 # PFND3DDDI_SUBMITCOMMANDCB callback function
 
-
 ## -description
-
 
 <b>pfnSubmitCommandCb</b> is used to submit command buffers on contexts that support graphics processing unit (GPU) virtual addressing. These contexts generate commands directly from user mode, manage their own command buffer pool and don’t make use of allocation or patch location list.
 
@@ -56,51 +54,27 @@ Although the user mode driver doesn’t generate patch locations it must still g
 
 Some kernel mode drivers need information from their user mode driver on how to submit a particular direct memory access (DMA) buffer to their GPU. In Windows Display Driver Model (WDDM) 1.0, this information was sent by the user mode driver to the kernel mode driver through the command buffer. Since DMA buffer are built directly by the user mode driver and submitted to the GPU without modification they can’t be used to send information to the kernel driver anymore. As a result, we are adding an explicit private driver data buffer to be sent along with a submission. Note that this private driver data is unidirectional and the kernel mode driver can’t return information to the user mode driver through this buffer.
 
-
 ## -parameters
 
-
-
-
-### -param hDevice [in]
+### -param hDevice
 
 A handle to the display device.
 
-
-### -param *
-
-
-
-
-
-
-
+### -param Arg2
 
 *pData* [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddicb_submitcommand">D3DDDICB_SUBMITCOMMAND</a> structure that describes the operation to perform.
 
-
 ## -returns
-
-
 
 If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddicb_submitcommand">D3DDDICB_SUBMITCOMMAND</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_rendercb">pfnRenderCb</a>
- 
-
- 
 

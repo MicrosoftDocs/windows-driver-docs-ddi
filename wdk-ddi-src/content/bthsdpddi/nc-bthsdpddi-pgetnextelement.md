@@ -8,8 +8,6 @@ ms.assetid: 60216196-f8c7-4555-a461-4862ce6bc376
 ms.date: 04/27/2018
 ms.keywords: PGETNEXTELEMENT, PGETNEXTELEMENT callback, SdpGetNextElement, SdpGetNextElement callback function [Bluetooth Devices], bltooth.sdpgetnextelement, bth_funcs_344a59cb-6151-4634-bc5f-cb23c58eb329.xml, sdplib/SdpGetNextElement
 ms.topic: callback
-f1_keywords:
- - "bthsdpddi/SdpGetNextElement"
 req.header: bthsdpddi.h
 req.include-header: BthSdpddi.h
 req.target-type: Desktop
@@ -27,77 +25,61 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- sdplib.h
-api_name:
-- SdpGetNextElement
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - "bthsdpddi/SdpGetNextElement"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - sdplib.h
+api_name:
+ - SdpGetNextElement
+product:
+ - Windows
 ---
 
 # PGETNEXTELEMENT callback function
 
-
 ## -description
-
 
 The Bluetooth 
   <b>SdpGetNextElement</b> function is used to iterate through the entries found in an SDP record
   stream.
 
-
 ## -parameters
-
-
-
 
 ### -param Stream
 
 Pointer to the SDP record stream to iterate through.
 
-
 ### -param StreamSize
 
 An unsigned long integer that indicates the size of the SDP stream.
-
 
 ### -param CurrentElement
 
 A pointer to the currently selected entry in the SDP stream. This parameter can take a <b>NULL</b>
      value.
 
-
-### -param *NextElement
+### -param NextElement
 
 A pointer to an unsigned character variable that receives the address of the next entry in the SDP
      container stream.
-
 
 ### -param NextElementSize
 
 A pointer to an unsigned long integer variable that receives the size of the next entry in the SDP
      container stream.
 
-
 ## -returns
-
-
 
 None
 
-
-
-
 ## -remarks
-
-
 
 The 
     <b>SdpGetNextElement</b> function operates directly on unparsed streams and does not require the caller to
@@ -116,16 +98,7 @@ Bluetooth profile drivers can obtain a pointer to this function through the
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthsdpddi/ns-bthsdpddi-_bthddi_sdp_parse_interface">
     BTHDDI_SDP_PARSE_INTERFACE</a> structure.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthsdpddi/ns-bthsdpddi-_bthddi_sdp_parse_interface">BTHDDI_SDP_PARSE_INTERFACE</a>
- 
-
- 
 

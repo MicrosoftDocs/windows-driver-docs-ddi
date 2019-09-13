@@ -7,8 +7,6 @@ ms.assetid: 463973e0-c443-417a-86ff-0b78773d40cc
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_VIDPNTOPOLOGY_REMOVEPATH, DXGKDDI_VIDPNTOPOLOGY_REMOVEPATH callback, VidPnFunctions_0a43b9cf-d4c2-4d6f-acc7-7988038c56e5.xml, d3dkmddi/pfnRemovePath, display.dxgk_vidpntopology_interface_pfnremovepath, pfnRemovePath, pfnRemovePath callback function [Display Devices]
 ms.topic: callback
-f1_keywords:
- - "d3dkmddi/pfnRemovePath"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Desktop
@@ -26,54 +24,45 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dkmddi.h
-api_name:
-- pfnRemovePath
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - "d3dkmddi/pfnRemovePath"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dkmddi.h
+api_name:
+ - pfnRemovePath
+product:
+ - Windows
 ---
 
 # DXGKDDI_VIDPNTOPOLOGY_REMOVEPATH callback function
 
-
 ## -description
-
 
 The <b>pfnRemovePath</b> function removes a video present path to a specified VidPN topology object.
 
-
 ## -parameters
 
-
-
-
-### -param hVidPnTopology [in]
+### -param hVidPnTopology
 
 [in] A handle to a VidPN topology object. The display miniport driver previously obtained this handle by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_vidpn_gettopology">pfnGetTopology</a> function of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgk_vidpn_interface">DXGK_VIDPN_INTERFACE</a> interface.
 
-
-### -param VidPnSourceId [in]
+### -param VidPnSourceId
 
 [in] An integer that identifies a VidPN source path.
 
-
-### -param VidPnTargetId [in]
+### -param VidPnTargetId
 
 [in] An integer that identifies a VidPN target path.
 
-
 ## -returns
-
-
 
 The <b>pfnRemovePath</b> function returns one of the following values.
 
@@ -87,9 +76,5 @@ The <b>pfnRemovePath</b> function returns one of the following values.
 
 ## -remarks
 
-
-
 The D3DKMDT_HVIDPNTOPOLOGY data type is defined in<i> D3dkmdt.h</i>.
-
-
 

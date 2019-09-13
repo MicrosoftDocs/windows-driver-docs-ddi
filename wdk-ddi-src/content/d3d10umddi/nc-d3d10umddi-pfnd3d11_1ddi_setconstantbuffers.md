@@ -7,8 +7,6 @@ ms.assetid: 6A2B50BF-415D-47BB-9514-B15F717A76EA
 ms.date: 10/12/2018
 ms.keywords: CsSetConstantBuffers(D3D11_1), CsSetConstantBuffers(D3D11_1) callback function [Display Devices], PFND3D11_1DDI_SETCONSTANTBUFFERS, PFND3D11_1DDI_SETCONSTANTBUFFERS callback, d3d10umddi/CsSetConstantBuffers(D3D11_1), display.cssetconstantbuffers_d3d11_1_
 ms.topic: callback
-f1_keywords:
- - "d3d10umddi/CsSetConstantBuffers(D3D11_1)"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -26,35 +24,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- D3d10umddi.h
-api_name:
-- CsSetConstantBuffers(D3D11_1)
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - "d3d10umddi/CsSetConstantBuffers(D3D11_1)"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - D3d10umddi.h
+api_name:
+ - CsSetConstantBuffers(D3D11_1)
+product:
+ - Windows
 ---
 
 # PFND3D11_1DDI_SETCONSTANTBUFFERS callback function
 
-
 ## -description
-
 
 Sets constant buffers for a compute shader.
 
-
 ## -parameters
-
-
-
 
 ### -param Arg1
 
@@ -64,45 +58,33 @@ A handle to the display device (graphics context).
 
 ### -param StartSlot
 
-[in] The starting constant buffer to set. 
+[in] The starting constant buffer to set.
 
-### -param NumBuffers [in]
+### -param NumBuffers
 
-The total number of buffers to set. 
+The total number of buffers to set.
 
-
-### -param *
+### -param Arg4
 
 *phBuffers* [in]
 
 An array of handles to the constant buffers, beginning with the buffer that <i>StartBuffer</i> specifies.
 
-### -param *pFirstConstant [in, optional]
+### -param pFirstConstant
 
 A pointer to the first constant in the buffer pointed to by <i>StartBuffer</i>.
 
-
-### -param *pNumConstants [in, optional]
+### -param pNumConstants
 
 The number of constants in the  buffer pointed to by  <i>StartBuffer</i>.
 
-
-
-
 ## -returns
-
-
 
 None
 
 The driver can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> callback function to set an error code. For more information about setting error codes, see the following Remarks section.
 
-
-
-
 ## -remarks
-
-
 
 Buffers that this function specifies are created with the D3D10_BIND_CONSTANT_BUFFER flag. 
 
@@ -118,18 +100,11 @@ The <b>PsSetConstantBuffers</b> function sets constant buffers for a pixel shade
 
 The <b>DsSetConstantBuffers</b> function sets constant buffers for a domain shader.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_devicefuncs">D3D11_1DDI_DEVICEFUNCS</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a>
- 
-
- 
 
