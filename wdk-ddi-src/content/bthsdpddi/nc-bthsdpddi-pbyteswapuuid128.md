@@ -8,8 +8,6 @@ ms.assetid: 2598ebb3-1c9c-4ec1-b172-8c6d53415c9d
 ms.date: 04/27/2018
 ms.keywords: PBYTESWAPUUID128, PBYTESWAPUUID128 callback, SdpByteSwapUuid128, SdpByteSwapUuid128 callback function [Bluetooth Devices], bltooth.sdpbyteswapuuid128, bth_funcs_b14ffa6d-3cad-4683-94fe-367272b9afb1.xml, sdplib/SdpByteSwapUuid128
 ms.topic: callback
-f1_keywords:
- - "bthsdpddi/SdpByteSwapUuid128"
 req.header: bthsdpddi.h
 req.include-header: BthSdpddi.h
 req.target-type: Desktop
@@ -27,68 +25,48 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- sdplib.h
-api_name:
-- SdpByteSwapUuid128
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - "bthsdpddi/SdpByteSwapUuid128"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - sdplib.h
+api_name:
+ - SdpByteSwapUuid128
+product:
+ - Windows
 ---
 
 # PBYTESWAPUUID128 callback function
 
-
 ## -description
-
 
 The Bluetooth 
   <b>SdpByteSwapUuid128</b> function is used to reverse the byte order of a 128-bit universally unique
   identifier (UUID).
 
-
 ## -parameters
 
-
-
-
-### -param *pUuidFrom
+### -param pUuidFrom
 
 A pointer to the 128-bit GUID for which to reverse the byte order.
 
-
-### -param *pUuiidTo
-
-
-
-
-
-
-
+### -param pUuiidTo
 
 #### - pUuidTo
 
 A pointer to the converted 128-bit GUID.
 
-
 ## -returns
-
-
 
 None
 
-
-
-
 ## -remarks
-
-
 
 The 
     <b>SdpByteSwapUuid128</b> function always reverses the byte order of the value pointed to by the *
@@ -99,16 +77,7 @@ The
 Bluetooth profile drivers can obtain a pointer to this function through the 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthsdpddi/ns-bthsdpddi-_bthddi_sdp_parse_interface">BTHDDI_SDP_PARSE_INTERFACE</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthsdpddi/ns-bthsdpddi-_bthddi_sdp_parse_interface">BTHDDI_SDP_PARSE_INTERFACE</a>
- 
-
- 
 
