@@ -8,8 +8,6 @@ ms.assetid: 5d1c8c2d-7886-4876-b48e-1e6b252ae8f7
 ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_SETPALETTE, PFND3DDDI_SETPALETTE callback, SetPalette, SetPalette callback function [Display Devices], UserModeDisplayDriver_Functions_9366fa90-a9d7-4c03-9c96-a8bc4eba6abb.xml, d3dumddi/SetPalette, display.setpalette
 ms.topic: callback
-f1_keywords:
- - "d3dumddi/SetPalette"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop
@@ -27,83 +25,54 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dumddi.h
-api_name:
-- SetPalette
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - "d3dumddi/SetPalette"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dumddi.h
+api_name:
+ - SetPalette
+product:
+ - Windows
 ---
 
 # PFND3DDDI_SETPALETTE callback function
 
-
 ## -description
-
 
 The <i>SetPalette</i> function associates a palette with a texture.
 
-
 ## -parameters
 
-
-
-
-### -param hDevice [in]
+### -param hDevice
 
 A handle to the display device (graphics context).
 
-
-### -param *
-
-
-
-
-
-
-
+### -param Arg2
 
 *pData* [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_setpalette">D3DDDIARG_SETPALETTE</a> structure that describes the parameters for the set-palette operation.
 
-
 ## -returns
-
-
 
 <i>SetPalette</i> returns S_OK or an appropriate error result if the palette is not successfully associated with the texture.
 
-
-
-
 ## -remarks
-
-
 
 The user-mode display driver uses the members in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_setpalette">D3DDDIARG_SETPALETTE</a> structure that is pointed to by <i>pData</i> to map an association between a palette handle and a surface handle and to specify the characteristics of the palette.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_setpalette">D3DDDIARG_SETPALETTE</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>
- 
-
- 
 

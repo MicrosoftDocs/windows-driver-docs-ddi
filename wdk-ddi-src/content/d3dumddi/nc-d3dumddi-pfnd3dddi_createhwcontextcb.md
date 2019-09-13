@@ -8,8 +8,6 @@ ms.assetid: 989682F3-340E-4F64-BF2D-771D58066EB2
 ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_CREATEHWCONTEXTCB, PFND3DDDI_CREATEHWCONTEXTCB callback, PFND3DDDI_CREATEHWCONTEXTCB callback function [Display Devices], d3dumddi/PFND3DDDI_CREATEHWCONTEXTCB, display.pfnd3dddi_createhwcontextcb
 ms.topic: callback
-f1_keywords:
- - "d3dumddi/PFND3DDDI_CREATEHWCONTEXTCB"
 req.header: d3dumddi.h
 req.include-header: 
 req.target-type: Windows
@@ -27,46 +25,40 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dumddi.h
-api_name:
-- PFND3DDDI_CREATEHWCONTEXTCB
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - "d3dumddi/PFND3DDDI_CREATEHWCONTEXTCB"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dumddi.h
+api_name:
+ - PFND3DDDI_CREATEHWCONTEXTCB
+product:
+ - Windows
 ---
 
 # PFND3DDDI_CREATEHWCONTEXTCB callback function
 
-
 ## -description
-
 
 A callback to create a new hardware context.
 
-
 ## -parameters
 
-
-
-
-### -param hDevice [in]
+### -param hDevice
 
 A handle to the device.
 
-
-### -param *
+### -param Arg2
 
 *createHwContext* [in, out]
 
 A pointer to the structure holding information on creating the hardware context.
-
 
 ## -returns
 
@@ -76,6 +68,4 @@ A pointer to the structure holding information on creating the hardware context.
  
 
 This function might also return other HRESULT values.
-
-
 

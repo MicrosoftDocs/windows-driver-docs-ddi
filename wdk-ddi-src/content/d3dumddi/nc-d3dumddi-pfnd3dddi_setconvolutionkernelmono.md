@@ -8,8 +8,6 @@ ms.assetid: b560352f-ca4e-4f03-88ac-13ec080834aa
 ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_SETCONVOLUTIONKERNELMONO, PFND3DDDI_SETCONVOLUTIONKERNELMONO callback, SetConvolutionKernelMono, SetConvolutionKernelMono callback function [Display Devices], UserModeDisplayDriver_Functions_488a5fdd-562a-475b-a86d-23d05f35c6dc.xml, d3dumddi/SetConvolutionKernelMono, display.setconvolutionkernelmono
 ms.topic: callback
-f1_keywords:
- - "d3dumddi/SetConvolutionKernelMono"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop
@@ -27,57 +25,42 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dumddi.h
-api_name:
-- SetConvolutionKernelMono
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - "d3dumddi/SetConvolutionKernelMono"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dumddi.h
+api_name:
+ - SetConvolutionKernelMono
+product:
+ - Windows
 ---
 
 # PFND3DDDI_SETCONVOLUTIONKERNELMONO callback function
 
-
 ## -description
-
 
 The <i>SetConvolutionKernelMono</i> function defines the resolution and weights of the kernel filter, which is used when the D3DTEXF_CONVOLUTIONMONO texture filtering mode is set.
 
-
 ## -parameters
 
-
-
-
-### -param hDevice [in]
+### -param hDevice
 
 A handle to the display device (graphics context).
 
-
-### -param *
-
-
-
-
-
-
-
+### -param Arg2
 
 *pData* [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_setconvolutionkernelmono">D3DDDIARG_SETCONVOLUTIONKERNELMONO</a> structure that describes parameters for setting the monochrome convolution kernel.
 
-
 ## -returns
-
-
 
 <i>SetConvolutionKernelMono</i> returns one of the following values:
 
@@ -86,10 +69,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 |S_OK|The monochrome convolution kernel is successfully set.|
 |E_OUTOFMEMORY|SetConvolutionKernelMono could not allocate the required memory for it to complete.|
 
-
 ## -remarks
-
-
 
 D3DTEXF_CONVOLUTIONMONO is a texture filter mode that is used for sampling monochrome textures (that is, textures that are formatted as one bit per pixel (D3DDDIFMT_A1)). In the Direct3D 9.L runtime, the convolution filter is a two-dimensional box filter (that is, all weights = 1.0). However, the <i>SetConvolutionKernelMono</i> function is defined to support a more general filter. When D3DTEXF_CONVOLUTIONMONO is set to a texture sampler, the texture sampler states D3DTSS_MIPFILTER, D3DTSS_MINFILTER and D3DTSS_MAGFILTER are ignored. The texture address D3DTADDRESS_BORDER with border color 0 should be applied in this filtering mode. The user-mode display driver should return an error or ignore the rendered primitive if this filtering mode is used with a non-monochrome texture.
 
@@ -121,20 +101,11 @@ beta = U<sub>f</sub> - truncate(U<sub>f</sub>)
 
 alpha = V<sub>f</sub> - truncate(V<sub>f</sub>)
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_setconvolutionkernelmono">D3DDDIARG_SETCONVOLUTIONKERNELMONO</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>
- 
-
- 
 

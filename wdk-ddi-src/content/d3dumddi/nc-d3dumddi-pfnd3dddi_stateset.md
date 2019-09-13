@@ -8,8 +8,6 @@ ms.assetid: 2c298de6-a3d9-45c7-ab60-dc9124eed1bb
 ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_STATESET, PFND3DDDI_STATESET callback, StateSet, StateSet callback function [Display Devices], UserModeDisplayDriver_Functions_ca9843ce-a32d-4d81-844a-213b7fe6c6e0.xml, d3dumddi/StateSet, display.stateset
 ms.topic: callback
-f1_keywords:
- - "d3dumddi/StateSet"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop
@@ -27,74 +25,50 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dumddi.h
-api_name:
-- StateSet
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - "d3dumddi/StateSet"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dumddi.h
+api_name:
+ - StateSet
+product:
+ - Windows
 ---
 
 # PFND3DDDI_STATESET callback function
 
-
 ## -description
-
 
 The <i>StateSet</i> function sets a state block.
 
-
 ## -parameters
 
-
-
-
-### -param hDevice [in]
+### -param hDevice
 
 A handle to the display device (graphics context).
 
-
-### -param *
-
-
-
-
-
-
-
+### -param Arg2
 
 *pData* [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_stateset">D3DDDIARG_STATESET</a> structure that describes how to set the state block.
 
-
 ## -returns
-
-
 
 <i>StateSet</i> returns S_OK or an appropriate error result if the state block is not successfully set.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_stateset">D3DDDIARG_STATESET</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>
- 
-
- 
 

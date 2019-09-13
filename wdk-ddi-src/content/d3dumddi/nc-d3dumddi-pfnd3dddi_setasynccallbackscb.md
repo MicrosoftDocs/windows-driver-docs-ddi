@@ -8,8 +8,6 @@ ms.assetid: 7f046e5a-e8a2-4e39-ae31-d37afc03f21f
 ms.date: 05/10/2018
 ms.keywords: D3Druntime_Functions_9bd5f5b7-2108-4cf6-a2d3-fbf6d2437956.xml, PFND3DDDI_SETASYNCCALLBACKSCB, PFND3DDDI_SETASYNCCALLBACKSCB callback, d3dumddi/pfnSetAsyncCallbacksCb, display.pfnsetasynccallbackscb, pfnSetAsyncCallbacksCb, pfnSetAsyncCallbacksCb callback function [Display Devices]
 ms.topic: callback
-f1_keywords:
- - "d3dumddi/pfnSetAsyncCallbacksCb"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop
@@ -27,48 +25,40 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dumddi.h
-api_name:
-- pfnSetAsyncCallbacksCb
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - "d3dumddi/pfnSetAsyncCallbacksCb"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dumddi.h
+api_name:
+ - pfnSetAsyncCallbacksCb
+product:
+ - Windows
 ---
 
 # PFND3DDDI_SETASYNCCALLBACKSCB callback function
 
-
 ## -description
-
 
 The <b>pfnSetAsyncCallbacksCb</b> function notifies the Microsoft Direct3D runtime whether the runtime will start or stop receiving calls to the runtime's callback functions from a worker thread.
 
-
 ## -parameters
 
-
-
-
-### -param hDevice [in]
+### -param hDevice
 
 A handle to the display device (graphics context).
 
-
-### -param Enable [in]
+### -param Enable
 
 A Boolean value that specifies whether the runtime will start or stop receiving calls to the runtime's callback functions from a worker thread. <b>TRUE</b> indicates that the runtime will start receiving calls to its callback functions from a worker thread; <b>FALSE</b> indicates that the runtime will stop receiving calls to its callback functions from a worker thread.
 
-
 ## -returns
-
-
 
 <b>pfnSetAsyncCallbacksCb</b> returns one of the following values:
 
@@ -79,14 +69,7 @@ A Boolean value that specifies whether the runtime will start or stop receiving 
 
 This function might also return other HRESULT values.
 
-
-
-
-
-
 ## -remarks
-
-
 
 If a user-mode display driver implements its own multiple-processor optimizations (that is, the driver creates a worker thread and processes commands in that thread), the driver must call <b>pfnSetAsyncCallbacksCb</b> to notify the Direct3D runtime whether the runtime will start or stop receiving calls to the runtime's callback functions from the worker thread. Additionally, such drivers must not implement the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_lockasync">LockAsync</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_unlockasync">UnlockAsync</a>, and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_rename">Rename</a> functions. This ensures that the runtime does not attempt to use its own multiple-processor optimizations. 
 
@@ -102,15 +85,9 @@ Only DirectX 9 and DirectX 9L versions of the runtime support <b>pfnSetAsyncCall
 
 <div class="alert"><b>Note</b>    DirectX versions earlier than 9 do not support multiple-processor optimizations. </div>
 <div> </div>
-Drivers can call the runtime's callback functions only from a worker thread if the runtime previously set the <b>pfnSetAsyncCallbacksCb</b> member of D3DDDI_DEVICECALLBACKS to non-<b>NULL</b> in a call to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_createdevice">CreateDevice</a> function. 
-
-
-
+Drivers can call the runtime's callback functions only from a worker thread if the runtime previously set the <b>pfnSetAsyncCallbacksCb</b> member of D3DDDI_DEVICECALLBACKS to non-<b>NULL</b> in a call to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_createdevice">CreateDevice</a> function.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_createdevice">CreateDevice</a>
 
@@ -137,7 +114,4 @@ Drivers can call the runtime's callback functions only from a worker thread if t
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_unlockasync">UnlockAsync</a>
- 
-
- 
 

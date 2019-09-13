@@ -8,8 +8,6 @@ ms.assetid: 61ac2d28-7aed-4796-8d09-591db936013b
 ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_SETPRIORITY, PFND3DDDI_SETPRIORITY callback, SetPriority, SetPriority callback function [Display Devices], UserModeDisplayDriver_Functions_6e8f2a2a-f88b-45b6-9c59-b942cb44664b.xml, d3dumddi/SetPriority, display.setpriority
 ms.topic: callback
-f1_keywords:
- - "d3dumddi/SetPriority"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop
@@ -27,51 +25,42 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dumddi.h
-api_name:
-- SetPriority
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - "d3dumddi/SetPriority"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dumddi.h
+api_name:
+ - SetPriority
+product:
+ - Windows
 ---
 
 # PFND3DDDI_SETPRIORITY callback function
 
-
 ## -description
-
 
 The <i>SetPriority</i> function sets the eviction-from-memory priority for a managed texture.
 
-
 ## -parameters
 
-
-
-
-### -param hDevice [in]
+### -param hDevice
 
 A handle to the display device (graphics context).
 
-
-### -param *
-
+### -param Arg2
 
 *pData* [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_setpriority">D3DDDIARG_SETPRIORITY</a> structure that specifies the priority level to set for the managed texture.
 
-
 ## -returns
-
-
 
 <i>SetPriority</i> returns one of the following values:
 
@@ -82,17 +71,9 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 
 ## -remarks
 
-
-
 The Microsoft Direct3D runtime calls <i>SetPriority</i> to set the priority level for a resource. The user-mode display driver should translate the resource handle that is supplied in the <b>hResource</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_setpriority">D3DDDIARG_SETPRIORITY</a> structure that is pointed to by <i>pData</i> to an allocation handle. After the driver makes this translation, the driver should pass the resulting handle in a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_setprioritycb">pfnSetPriorityCb</a> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_setpriority">D3DDDIARG_SETPRIORITY</a>
 
@@ -103,7 +84,4 @@ The Microsoft Direct3D runtime calls <i>SetPriority</i> to set the priority leve
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_setprioritycb">pfnSetPriorityCb</a>
- 
-
- 
 

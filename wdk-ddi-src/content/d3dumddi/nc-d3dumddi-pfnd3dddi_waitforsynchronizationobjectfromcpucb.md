@@ -8,8 +8,6 @@ ms.assetid: 304A5BCE-19E6-4F92-B840-FD3BE1CFB856
 ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMCPUCB, PFND3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMCPUCB callback, d3dumddi/pfnWaitForSynchronizationObjectFromCpuCb, display.pfnwaitforsynchronizationobjectfromcpucb, pfnWaitForSynchronizationObjectFromCpuCb, pfnWaitForSynchronizationObjectFromCpuCb callback function [Display Devices]
 ms.topic: callback
-f1_keywords:
- - "d3dumddi/pfnWaitForSynchronizationObjectFromCpuCb"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop
@@ -27,59 +25,42 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dumddi.h
-api_name:
-- pfnWaitForSynchronizationObjectFromCpuCb
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - "d3dumddi/pfnWaitForSynchronizationObjectFromCpuCb"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dumddi.h
+api_name:
+ - pfnWaitForSynchronizationObjectFromCpuCb
+product:
+ - Windows
 ---
 
 # PFND3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMCPUCB callback function
 
-
 ## -description
-
 
 <b>pfnWaitForSynchronizationObjectFromCpuCb</b> waits for a monitored fence to reach a certain value before processing subsequent context commands.
 
-
 ## -parameters
-
-
-
 
 ### -param hDevice
 
 A handle to the display device.
 
-
-### -param *
-
-
-
-
-
-
-
+### -param Arg2
 
 *pData*
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-d3dddicb_signalsynchronizationobjectfromcpu">D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMCPU</a> structure that provides the details of the requested operation.
 
-
 ## -returns
 
-
-
 If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
-
 

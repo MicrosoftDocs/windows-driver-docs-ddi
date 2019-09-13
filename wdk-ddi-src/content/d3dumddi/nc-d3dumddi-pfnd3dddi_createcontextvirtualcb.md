@@ -8,8 +8,6 @@ ms.assetid: 7787FEDF-E18C-4120-A073-A13933856F57
 ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_CREATECONTEXTVIRTUALCB, PFND3DDDI_CREATECONTEXTVIRTUALCB callback, d3dumddi/pfnCreateContextVirtualCb, display.pfncreatecontextvirtualcb, pfnCreateContextVirtualCb, pfnCreateContextVirtualCb callback function [Display Devices]
 ms.topic: callback
-f1_keywords:
- - "d3dumddi/pfnCreateContextVirtualCb"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop
@@ -27,46 +25,40 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dumddi.h
-api_name:
-- pfnCreateContextVirtualCb
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - "d3dumddi/pfnCreateContextVirtualCb"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dumddi.h
+api_name:
+ - pfnCreateContextVirtualCb
+product:
+ - Windows
 ---
 
 # PFND3DDDI_CREATECONTEXTVIRTUALCB callback function
 
-
 ## -description
-
 
 <b>pfnCreateContextVirtualCb</b> should be used with contexts that support virtual addressing.
 
-
 ## -parameters
 
-
-
-
-### -param hDevice [in]
+### -param hDevice
 
 A handle to the display device.
 
-
-### -param *
+### -param Arg2
 
 pData [in, out]
 
 A pointer to a [D3DDDICB_CREATECONTEXTVIRTUAL](../d3dumddi/ns-d3dumddi-_d3dddicb_createcontextvirtual.md) structure that describes the context to create.
-
 
 ## -returns
 
@@ -79,6 +71,4 @@ A pointer to a [D3DDDICB_CREATECONTEXTVIRTUAL](../d3dumddi/ns-d3dumddi-_d3dddicb
  
 
 This function might also return other <b>HRESULT</b> values.
-
-
 

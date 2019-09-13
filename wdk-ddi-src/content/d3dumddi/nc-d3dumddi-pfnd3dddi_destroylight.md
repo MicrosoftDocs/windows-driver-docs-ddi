@@ -8,8 +8,6 @@ ms.assetid: dbc86e4d-a002-4270-a3c4-02d16972c921
 ms.date: 05/10/2018
 ms.keywords: DestroyLight, DestroyLight callback function [Display Devices], PFND3DDDI_DESTROYLIGHT, PFND3DDDI_DESTROYLIGHT callback, UserModeDisplayDriver_Functions_fce83d93-bfe6-44f9-a1c4-ea92921bfb69.xml, d3dumddi/DestroyLight, display.destroylight
 ms.topic: callback
-f1_keywords:
- - "d3dumddi/DestroyLight"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop
@@ -27,74 +25,50 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dumddi.h
-api_name:
-- DestroyLight
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - "d3dumddi/DestroyLight"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dumddi.h
+api_name:
+ - DestroyLight
+product:
+ - Windows
 ---
 
 # PFND3DDDI_DESTROYLIGHT callback function
 
-
 ## -description
-
 
 The <b>DestroyLight</b> function deactivates a light source.
 
-
 ## -parameters
 
-
-
-
-### -param hDevice [in]
+### -param hDevice
 
 A handle to the display device (graphics context).
 
-
-### -param *
-
-
-
-
-
-
-
+### -param Arg2
 
 *pData* [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_destroylight">D3DDDIARG_DESTROYLIGHT</a> structure that describes how to set the light source.
 
-
 ## -returns
-
-
 
 <b>DestroyLight</b> returns S_OK or an appropriate error result if the light source is not successfully deactivated.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_destroylight">D3DDDIARG_DESTROYLIGHT</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>
- 
-
- 
 

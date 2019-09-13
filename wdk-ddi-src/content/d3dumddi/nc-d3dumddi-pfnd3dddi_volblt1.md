@@ -8,8 +8,6 @@ ms.assetid: 81B9AB74-9CD1-4181-BE13-32D519069FD4
 ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_VOLBLT1, PFND3DDDI_VOLBLT1 callback, VolBlt1, VolBlt1 callback function [Display Devices], d3dumddi/VolBlt1, display.volblt1
 ms.topic: callback
-f1_keywords:
- - "d3dumddi/VolBlt1"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop
@@ -27,75 +25,50 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dumddi.h
-api_name:
-- VolBlt1
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - "d3dumddi/VolBlt1"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dumddi.h
+api_name:
+ - VolBlt1
+product:
+ - Windows
 ---
 
 # PFND3DDDI_VOLBLT1 callback function
 
-
 ## -description
-
 
 Performs a bit-block transfer (bitblt) operation from a source volume texture to a destination volume texture. Implemented by Windows Display Driver Model (WDDM) 1.2 or later user-mode display drivers.
 
-
 ## -parameters
 
-
-
-
-### -param hDevice [in]
+### -param hDevice
 
 A handle to the display device (graphics context).
 
-
-### -param *
-
-
-
-
-
-
-
+### -param Arg2
 
 *pData* [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_volumeblt1">D3DDDIARG_VOLUMEBLT1</a> structure that defines the parameters for the volume bitblt operation.
 
-
 ## -returns
-
-
-
 
       Returns S_OK or an appropriate error result if the volume bitblt operation is not successfully performed.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_volumeblt1">D3DDDIARG_VOLUMEBLT1</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>
- 
-
- 
 

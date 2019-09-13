@@ -8,8 +8,6 @@ ms.assetid: 0c1a9a60-de17-41d1-b31d-c1d3c95d8121
 ms.date: 05/10/2018
 ms.keywords: Flush, Flush callback function [Display Devices], PFND3DDDI_FLUSH, PFND3DDDI_FLUSH callback, UserModeDisplayDriver_Functions_a39b804f-2f41-473f-8160-4c23655c24ec.xml, d3dumddi/Flush, display.flush
 ms.topic: callback
-f1_keywords:
- - "d3dumddi/Flush"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop
@@ -27,43 +25,36 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dumddi.h
-api_name:
-- Flush
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - "d3dumddi/Flush"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dumddi.h
+api_name:
+ - Flush
+product:
+ - Windows
 ---
 
 # PFND3DDDI_FLUSH callback function
 
-
 ## -description
-
 
 The <i>Flush</i> function submits outstanding hardware commands that are in the hardware command buffer to the display miniport driver.
 
-
 ## -parameters
 
-
-
-
-### -param hDevice [in]
+### -param hDevice
 
 A handle to the display device (graphics context).
 
-
 ## -returns
-
-
 
 <i>Flush</i> returns one of the following values:
 
@@ -74,26 +65,15 @@ A handle to the display device (graphics context).
 
 ## -remarks
 
-
-
 The Microsoft Direct3D runtime can call the user-mode display driver's <i>Flush</i> function at any time to notify the user-mode display driver to submit any outstanding hardware commands that are in the hardware command buffer to the display miniport driver. However, a call to <i>Flush</i> should never cause the user-mode display driver to submit invalid commands to the display miniport driver. 
 
 To submit commands to the display miniport driver, the user-mode display driver's <i>Flush</i> function should typically call the runtime's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_rendercb">pfnRenderCb</a> function.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_rendercb">pfnRenderCb</a>
- 
-
- 
 

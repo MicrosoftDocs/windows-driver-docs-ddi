@@ -8,8 +8,6 @@ ms.assetid: 99edfc35-23a5-41e0-8705-7dffba564c10
 ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_SETCLIPPLANE, PFND3DDDI_SETCLIPPLANE callback, SetClipPlane, SetClipPlane callback function [Display Devices], UserModeDisplayDriver_Functions_695212ed-888d-40c9-8234-305373703b98.xml, d3dumddi/SetClipPlane, display.setclipplane
 ms.topic: callback
-f1_keywords:
- - "d3dumddi/SetClipPlane"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop
@@ -27,83 +25,54 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dumddi.h
-api_name:
-- SetClipPlane
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - "d3dumddi/SetClipPlane"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dumddi.h
+api_name:
+ - SetClipPlane
+product:
+ - Windows
 ---
 
 # PFND3DDDI_SETCLIPPLANE callback function
 
-
 ## -description
 
-
-The <i>SetClipPlane</i> function sets a clip plane. 
-
+The <i>SetClipPlane</i> function sets a clip plane.
 
 ## -parameters
 
-
-
-
-### -param hDevice [in]
+### -param hDevice
 
 A handle to the display device (graphics context).
 
-
-### -param *
-
-
-
-
-
-
-
+### -param Arg2
 
 *pData* [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_setclipplane">D3DDDIARG_SETCLIPPLANE</a> structure that describes the clip plane to set.
 
-
 ## -returns
-
-
 
 <i>SetClipPlane</i> returns S_OK or an appropriate error result if the clip plane is not successfully set.
 
-
-
-
 ## -remarks
 
-
-
-The coefficients that are passed to <i>SetClipPlane</i> in the <b>Plane</b> array of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_setclipplane">D3DDDIARG_SETCLIPPLANE</a> structure that is pointed to by <i>pData </i>are used in the general plane equation. For more information about the general plane equation, see the Remarks section of <b>D3DDDIARG_SETCLIPPLANE</b>. 
-
-
-
+The coefficients that are passed to <i>SetClipPlane</i> in the <b>Plane</b> array of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_setclipplane">D3DDDIARG_SETCLIPPLANE</a> structure that is pointed to by <i>pData </i>are used in the general plane equation. For more information about the general plane equation, see the Remarks section of <b>D3DDDIARG_SETCLIPPLANE</b>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_setclipplane">D3DDDIARG_SETCLIPPLANE</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>
- 
-
- 
 

@@ -8,8 +8,6 @@ ms.assetid: a3c158c2-6c0d-4da0-80f4-569971b10673
 ms.date: 05/10/2018
 ms.keywords: DestroyDevice, DestroyDevice callback function [Display Devices], PFND3DDDI_DESTROYDEVICE, PFND3DDDI_DESTROYDEVICE callback, UserModeDisplayDriver_Functions_4d34f924-8742-4957-b3f0-d4a63d338ada.xml, d3dumddi/DestroyDevice, display.destroydevice
 ms.topic: callback
-f1_keywords:
- - "d3dumddi/DestroyDevice"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop
@@ -27,64 +25,46 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dumddi.h
-api_name:
-- DestroyDevice
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - "d3dumddi/DestroyDevice"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dumddi.h
+api_name:
+ - DestroyDevice
+product:
+ - Windows
 ---
 
 # PFND3DDDI_DESTROYDEVICE callback function
 
-
 ## -description
-
 
 The <i>DestroyDevice</i> function destroys a graphics context.
 
-
 ## -parameters
 
-
-
-
-### -param hDevice [in]
+### -param hDevice
 
 A handle to the display device (graphics context) being destroyed.
 
-
 ## -returns
 
-
-
-<i>DestroyDevice</i> returns S_OK or an appropriate error result. 
-
-
-
+<i>DestroyDevice</i> returns S_OK or an appropriate error result.
 
 ## -remarks
-
-
 
 The driver should free all of the resources that it allocated for the device and clean up any internal tracking data structures. 
 
 Before the driver calls the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_deallocatecb">pfnDeallocateCb</a> function to release allocations, the driver must ensure that the allocations are unlocked. In other words, in the lifetime of a device, every call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_lockcb">pfnLockCb</a> function to lock an allocation must be paired with a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_unlockcb">pfnUnlockCb</a> function to unlock the allocation. However, in one call to <i>pfnUnlockCb</i>, the driver can unlock multiple allocations that were each allocated in separate <i>pfnLockCb</i> calls.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_createdevice">CreateDevice</a>
 
@@ -99,7 +79,4 @@ Before the driver calls the <a href="https://docs.microsoft.com/windows-hardware
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_unlockcb">pfnUnlockCb</a>
- 
-
- 
 

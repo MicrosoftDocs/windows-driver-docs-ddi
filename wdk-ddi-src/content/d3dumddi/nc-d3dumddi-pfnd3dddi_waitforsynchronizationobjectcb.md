@@ -8,8 +8,6 @@ ms.assetid: d33ca665-897d-4e99-b9a6-b794127fecfd
 ms.date: 05/10/2018
 ms.keywords: D3Druntime_Functions_14f8a273-a662-41d3-b79b-1c779c5853a1.xml, PFND3DDDI_WAITFORSYNCHRONIZATIONOBJECTCB, PFND3DDDI_WAITFORSYNCHRONIZATIONOBJECTCB callback, d3dumddi/pfnWaitForSynchronizationObjectCb, display.pfnwaitforsynchronizationobjectcb, pfnWaitForSynchronizationObjectCb, pfnWaitForSynchronizationObjectCb callback function [Display Devices]
 ms.topic: callback
-f1_keywords:
- - "d3dumddi/pfnWaitForSynchronizationObjectCb"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop
@@ -27,57 +25,42 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dumddi.h
-api_name:
-- pfnWaitForSynchronizationObjectCb
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - "d3dumddi/pfnWaitForSynchronizationObjectCb"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dumddi.h
+api_name:
+ - pfnWaitForSynchronizationObjectCb
+product:
+ - Windows
 ---
 
 # PFND3DDDI_WAITFORSYNCHRONIZATIONOBJECTCB callback function
 
-
 ## -description
 
-
-The <b>pfnWaitForSynchronizationObjectCb</b> function inserts a wait for the specified synchronization objects in the specified context DMA stream. 
-
+The <b>pfnWaitForSynchronizationObjectCb</b> function inserts a wait for the specified synchronization objects in the specified context DMA stream.
 
 ## -parameters
 
-
-
-
-### -param hDevice [in]
+### -param hDevice
 
 A handle to a display device (that is, the graphics context).
 
-
-### -param *
-
-
-
-
-
-
-
+### -param Arg2
 
 *pData* [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddicb_waitforsynchronizationobject">D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT</a> structure that describes the synchronization objects and context DMA stream that are required to set up the wait. 
-
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddicb_waitforsynchronizationobject">D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT</a> structure that describes the synchronization objects and context DMA stream that are required to set up the wait.
 
 ## -returns
-
-
 
 <b>pfnWaitForSynchronizationObjectCb</b> returns one of the following values:
 
@@ -90,13 +73,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 
 This function might also return other HRESULT values.
 
-
-
-
 ## -remarks
-
-
-
 
 <b>Direct3D Version 11 Note:  </b>For more information about how the driver calls <b>pfnWaitForSynchronizationObjectCb</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/changes-from-direct3d-10">Changes from Direct3D 10</a>.
 
@@ -104,16 +81,7 @@ This function might also return other HRESULT values.
 
 For a code example of how to use the <b>pfnWaitForSynchronizationObjectCb</b> function, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_signalsynchronizationobjectcb">pfnSignalSynchronizationObjectCb</a>.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddicb_waitforsynchronizationobject">D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT</a>
- 
-
- 
 

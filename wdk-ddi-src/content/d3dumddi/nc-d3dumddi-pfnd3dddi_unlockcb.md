@@ -8,8 +8,6 @@ ms.assetid: 6684f350-da27-478d-ab7b-36e395f7df8d
 ms.date: 05/10/2018
 ms.keywords: D3Druntime_Functions_8911e13b-cbfc-4620-bdb2-0dd6a558e88c.xml, PFND3DDDI_UNLOCKCB, PFND3DDDI_UNLOCKCB callback, d3dumddi/pfnUnlockCb, display.pfnunlockcb, pfnUnlockCb, pfnUnlockCb callback function [Display Devices]
 ms.topic: callback
-f1_keywords:
- - "d3dumddi/pfnUnlockCb"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop
@@ -27,46 +25,40 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dumddi.h
-api_name:
-- pfnUnlockCb
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - "d3dumddi/pfnUnlockCb"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dumddi.h
+api_name:
+ - pfnUnlockCb
+product:
+ - Windows
 ---
 
 # PFND3DDDI_UNLOCKCB callback function
 
-
 ## -description
 
-
-The <b>pfnUnlockCb</b> function unlocks an allocation that was locked by a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_lockcb">pfnLockCb</a> function. 
-
+The <b>pfnUnlockCb</b> function unlocks an allocation that was locked by a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_lockcb">pfnLockCb</a> function.
 
 ## -parameters
 
-
-
-
-### -param hDevice [in]
+### -param hDevice
 
 A handle to the display device (graphics context).
 
-
-### -param *
+### -param Arg2
 
 *pData* [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddicb_unlock">D3DDDICB_UNLOCK</a> structure that describes the allocation to unlock.
-
 
 ## -returns
 
@@ -81,12 +73,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 
 This function might also return other HRESULT values.
 
-
-
-
 ## -remarks
-
-
 
 The user-mode display driver must call the <b>pfnUnlockCb</b> function to unlock an allocation that was previously locked in a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_lockcb">pfnLockCb</a> function. If the driver does not call <b>pfnUnlockCb</b>, coordination between the Microsoft Direct3D runtime, the user-mode display driver, and the display miniport driver is lost. 
 
@@ -126,11 +113,7 @@ HRESULT CD3DContext::SyncEnginesUsingLock(VOID) {
 }
 ```
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddicb_unlock">D3DDDICB_UNLOCK</a>
 
@@ -161,7 +144,4 @@ HRESULT CD3DContext::SyncEnginesUsingLock(VOID) {
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_rendercb">pfnRenderCb</a>
- 
-
- 
 
