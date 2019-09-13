@@ -7,8 +7,6 @@ ms.assetid: 9c2097b2-5742-422c-a650-7efff2484970
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_RESETENGINE, DXGKDDI_RESETENGINE callback, DxgkDdiResetEngine, DxgkDdiResetEngine callback function [Display Devices], d3dkmddi/DxgkDdiResetEngine, display.dxgkddiresetengine
 ms.topic: callback
-f1_keywords:
- - "d3dkmddi/DxgkDdiResetEngine"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Desktop
@@ -26,58 +24,45 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- D3dkmddi.h
-api_name:
-- DxgkDdiResetEngine
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - "d3dkmddi/DxgkDdiResetEngine"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - D3dkmddi.h
+api_name:
+ - DxgkDdiResetEngine
+product:
+ - Windows
 ---
 
 # DXGKDDI_RESETENGINE callback function
 
-
 ## -description
-
 
 The display port driver's GPU scheduler calls this function to reset an active node on a physical display adapter when the scheduler detects a timeout condition on the adapter.
 
-
 ## -parameters
 
-
-
-
-### -param hAdapter [in]
+### -param hAdapter
 
 A handle to a context block that is associated with a display adapter. The display miniport driver previously provided this handle to the DirectX graphics kernel subsystem in the <i>MiniportDeviceContext</i> output parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function.
 
-
-### -param pResetEngine [in, out]
+### -param pResetEngine
 
 A value of type  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_resetengine">DXGKARG_RESETENGINE</a> that specifies nodes that are to be reset and supplies a fence identifier for the last aborted packet.
 
-
 ## -returns
-
-
 
 Returns <b>STATUS_SUCCESS</b> if the function succeeds. Otherwise, this function returns one of the error codes defined in Ntstatus.h.
 
-
-
-
 ## -remarks
-
-
 
 The display miniport driver should return from a call to this function only when the reset operation is completed, nothing remains in the physical adapter's hardware queue, and the specified nodes are ready to accept new packets.
 
@@ -87,20 +72,11 @@ The operating system guarantees that this function follows the first level synch
 
 For more information, see  <a href="https://docs.microsoft.com/windows-hardware/drivers/display/tdr-changes-in-windows-8">TDR changes in Windows 8</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_resetengine">DXGKARG_RESETENGINE</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a>
- 
-
- 
 

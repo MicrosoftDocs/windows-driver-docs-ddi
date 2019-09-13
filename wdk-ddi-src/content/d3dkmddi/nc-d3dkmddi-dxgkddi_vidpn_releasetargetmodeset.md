@@ -7,8 +7,6 @@ ms.assetid: bd369651-57d4-406f-ba51-9632362de15d
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_VIDPN_RELEASETARGETMODESET, DXGKDDI_VIDPN_RELEASETARGETMODESET callback, VidPnFunctions_c1609a38-53ff-49e0-a11a-26ceb5d64cdb.xml, d3dkmddi/pfnReleaseTargetModeSet, display.dxgk_vidpn_interface_pfnreleasetargetmodeset, pfnReleaseTargetModeSet, pfnReleaseTargetModeSet callback function [Display Devices]
 ms.topic: callback
-f1_keywords:
- - "d3dkmddi/pfnReleaseTargetModeSet"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Desktop
@@ -26,49 +24,41 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dkmddi.h
-api_name:
-- pfnReleaseTargetModeSet
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - "d3dkmddi/pfnReleaseTargetModeSet"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dkmddi.h
+api_name:
+ - pfnReleaseTargetModeSet
+product:
+ - Windows
 ---
 
 # DXGKDDI_VIDPN_RELEASETARGETMODESET callback function
 
-
 ## -description
-
 
 The <b>pfnReleaseTargetModeSet</b> function releases a handle to a target mode set object.
 
-
 ## -parameters
 
-
-
-
-### -param hVidPn [in]
+### -param hVidPn
 
 [in] A handle to a VidPN object that contains the target mode set object. The VidPN manager previously provided this handle to the display miniport driver by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_enumvidpncofuncmodality">DxgkDdiEnumVidPnCofuncModality</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_issupportedvidpn">DxgkDdiIsSupportedVidPn</a>, or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_recommendfunctionalvidpn">DxgkDdiRecommendFunctionalVidPn</a>.
 
-
-### -param hVidPnTargetModeSet [in]
+### -param hVidPnTargetModeSet
 
 [in] The handle to be released.
 
-
 ## -returns
-
-
 
 The <b>pfnReleaseTargetModeSet</b> function returns one of the following values:
 
@@ -79,10 +69,7 @@ The <b>pfnReleaseTargetModeSet</b> function returns one of the following values:
 |STATUS_GRAPHICS_INVALID_VIDPN_TARGETMODESET|The handle supplied in hVidPnTargetModeSet was invalid.|
 |STATUS_GRAPHICS_RESOURCES_NOT_RELATED|The VidPN identified by hVidPn does not contain the target mode set identified by hVidPnTargetModeSet.|
 
-
 ## -remarks
-
-
 
 When you have finished using a handle that you obtained by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_vidpn_acquiretargetmodeset">pfnAcquireTargetModeSet</a>, you must release the handle by calling <b>pfnReleaseTargetModeSet</b>.
 
@@ -90,22 +77,13 @@ If you obtain a handle by calling <a href="https://docs.microsoft.com/windows-ha
 
 If you obtain a handle by calling <b>pfnCreateNewTargetModeSet</b> and then you decide not to assign the new source mode set to a source, you must release the newly obtained handle by calling <b>pfnReleaseTargetModeSet</b>.
 
-The D3DKMDT_HVIDPN and D3DKMDT_HVIDPNTARGETMODESET data types are defined in <i>D3dkmdt.h</i>. 
-
-
-
+The D3DKMDT_HVIDPN and D3DKMDT_HVIDPNTARGETMODESET data types are defined in <i>D3dkmdt.h</i>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_vidpn_acquiretargetmodeset">pfnAcquireTargetModeSet</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_vidpn_createnewtargetmodeset">pfnCreateNewTargetModeSet</a>
- 
-
- 
 

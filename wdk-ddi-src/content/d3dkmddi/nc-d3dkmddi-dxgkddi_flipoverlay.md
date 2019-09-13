@@ -7,8 +7,6 @@ ms.assetid: 9e35a48b-1741-4ee2-8e15-6ce51ad4c0ad
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_FLIPOVERLAY, DXGKDDI_FLIPOVERLAY callback, DmFunctions_fac1657b-03ec-4d63-93d6-3458423a1fe9.xml, DxgkDdiFlipOverlay, DxgkDdiFlipOverlay callback function [Display Devices], d3dkmddi/DxgkDdiFlipOverlay, display.dxgkddiflipoverlay
 ms.topic: callback
-f1_keywords:
- - "d3dkmddi/DxgkDdiFlipOverlay"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Desktop
@@ -26,49 +24,41 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dkmddi.h
-api_name:
-- DxgkDdiFlipOverlay
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - "d3dkmddi/DxgkDdiFlipOverlay"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dkmddi.h
+api_name:
+ - DxgkDdiFlipOverlay
+product:
+ - Windows
 ---
 
 # DXGKDDI_FLIPOVERLAY callback function
 
-
 ## -description
-
 
 The <i>DxgkDdiFlipOverlay</i> function displays a new allocation by using the specified overlay.
 
-
 ## -parameters
 
+### -param hOverlay
 
+[in] A handle to the overlay to be flipped. The display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_createoverlay">DxgkDdiCreateOverlay</a> function previously provided this handle to the Microsoft DirectX graphics kernel subsystem in the <b>hOverlay</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_createoverlay">DXGKARG_CREATEOVERLAY</a> structure.
 
-
-### -param hOverlay [in]
-
-[in] A handle to the overlay to be flipped. The display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_createoverlay">DxgkDdiCreateOverlay</a> function previously provided this handle to the Microsoft DirectX graphics kernel subsystem in the <b>hOverlay</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_createoverlay">DXGKARG_CREATEOVERLAY</a> structure. 
-
-
-### -param pFlipOverlay [in]
+### -param pFlipOverlay
 
 [in] A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_flipoverlay">DXGKARG_FLIPOVERLAY</a> structure that describes the new allocation to display by using the overlay.
 
-
 ## -returns
-
-
 
 <i>DxgkDdiFlipOverlay</i> returns one of the following values:
 
@@ -79,20 +69,11 @@ The <i>DxgkDdiFlipOverlay</i> function displays a new allocation by using the sp
 |STATUS_NO_MEMORY|DxgkDdiFlipOverlay could not allocate memory that was required for it to complete.|
 |STATUS_GRAPHICS_DRIVER_MISMATCH|The display miniport driver is not compatible with the user-mode display driver that initiated the call to DxgkDdiFlipOverlay.|
 
-
 ## -remarks
-
-
 
 <i>DxgkDdiFlipOverlay</i> should be made pageable.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_createoverlay">DXGKARG_CREATEOVERLAY</a>
 
@@ -103,7 +84,4 @@ The <i>DxgkDdiFlipOverlay</i> function displays a new allocation by using the sp
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_createoverlay">DxgkDdiCreateOverlay</a>
- 
-
- 
 

@@ -7,8 +7,6 @@ ms.assetid: 7A55FB51-BDC2-4215-895E-3250579BEAF0
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_SUBMITCOMMANDVIRTUAL, DXGKDDI_SUBMITCOMMANDVIRTUAL callback, DxgkDdiSubmitCommandVirtual, DxgkDdiSubmitCommandVirtual callback function [Display Devices], d3dkmddi/DxgkDdiSubmitCommandVirtual, display.dxgkddisubmitcommandvirtual
 ms.topic: callback
-f1_keywords:
- - "d3dkmddi/DxgkDdiSubmitCommandVirtual"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Desktop
@@ -26,50 +24,43 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dkmddi.h
-api_name:
-- DxgkDdiSubmitCommandVirtual
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - "d3dkmddi/DxgkDdiSubmitCommandVirtual"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dkmddi.h
+api_name:
+ - DxgkDdiSubmitCommandVirtual
+product:
+ - Windows
 ---
 
 # DXGKDDI_SUBMITCOMMANDVIRTUAL callback function
 
-
 ## -description
-
 
 <b>DxgkDdiSubmitCommandVirtual</b> is used to submit a direct memory access (DMA) buffer to a context that supports virtual addressing.
 
 
 
 The driver is responsible for making sure the correct address space is restored ahead of submitting a particular DMA buffer.
-  
-
 
 ## -parameters
 
+### -param hAdapter
 
+A handle to a context block that is associated with a display adapter.
 
-
-### -param hAdapter [in]
-
-A handle to a context block that is associated with a display adapter. 
-
-
-### -param pSubmitCommand [in]
+### -param pSubmitCommand
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_submitcommandvirtual">DXGKARG_SUBMITCOMMANDVIRTUAL</a> structure that describes operation.
-
 
 ## -returns
 
@@ -83,9 +74,6 @@ All other return values will lead to the OS <i>bugcheck</i>.
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_submitcommandvirtual">DXGKARG_SUBMITCOMMANDVIRTUAL</a>
 
 
@@ -95,7 +83,4 @@ All other return values will lead to the OS <i>bugcheck</i>.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_submitcommand">DxgkDdiSubmitCommand</a>
- 
-
- 
 

@@ -7,8 +7,6 @@ ms.assetid: f861e055-70db-4e0a-9c62-87e2d41f92ae
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_ACQUIRESWIZZLINGRANGE, DXGKDDI_ACQUIRESWIZZLINGRANGE callback, DmFunctions_6dd5b0ee-666c-45bf-ae39-05e37d74c137.xml, DxgkDdiAcquireSwizzlingRange, DxgkDdiAcquireSwizzlingRange callback function [Display Devices], d3dkmddi/DxgkDdiAcquireSwizzlingRange, display.dxgkddiacquireswizzlingrange
 ms.topic: callback
-f1_keywords:
- - "d3dkmddi/DxgkDdiAcquireSwizzlingRange"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Desktop
@@ -26,49 +24,41 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dkmddi.h
-api_name:
-- DxgkDdiAcquireSwizzlingRange
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - "d3dkmddi/DxgkDdiAcquireSwizzlingRange"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dkmddi.h
+api_name:
+ - DxgkDdiAcquireSwizzlingRange
+product:
+ - Windows
 ---
 
 # DXGKDDI_ACQUIRESWIZZLINGRANGE callback function
 
-
 ## -description
-
 
 The <i>DxgkDdiAcquireSwizzlingRange</i> function makes an allocation accessible through the central processing unit (CPU) aperture for the given segment.
 
-
 ## -parameters
 
-
-
-
-### -param hAdapter [in]
+### -param hAdapter
 
 [in] A handle to a context block that is associated with a display adapter. The display miniport driver previously provided this handle to the Microsoft DirectX graphics kernel subsystem in the <i>MiniportDeviceContext</i> output parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function.
 
-
-### -param pAcquireSwizzlingRange [in, out]
+### -param pAcquireSwizzlingRange
 
 [in/out] A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_acquireswizzlingrange">DXGKARG_ACQUIRESWIZZLINGRANGE</a> structure that contains information for making an allocation accessible through the CPU aperture.
 
-
 ## -returns
-
-
 
 <i>DxgkDdiAcquireSwizzlingRange</i> returns one of the following values:
 
@@ -77,14 +67,8 @@ The <i>DxgkDdiAcquireSwizzlingRange</i> function makes an allocation accessible 
 |STATUS_SUCCESS|*DxgkDdiAcquireSwizzlingRange* successfully made the allocation accessible.|
 |STATUS_GRAPHICS_UNSWIZZLING_APERTURE_UNSUPPORTED|*DxgkDdiAcquireSwizzlingRange* could not program the swizzling range for the allocation. The video memory manager fails to acquire the swizzling range without making further attempts.|
 |STATUS_GRAPHICS_UNSWIZZLING_APERTURE_UNAVAILABLE|*DxgkDdiAcquireSwizzlingRange* could not program the swizzling range for the allocation because another swizzling range is currently using the graphics processing unit (GPU) resources that are required. The video memory manager attempts to release a range that is currently in use and then attempts to set up the swizzling range again.|
- 
-
-
-
 
 ## -remarks
-
-
 
 The <i>DxgkDdiAcquireSwizzlingRange</i> function is called after the user-mode display driver requests a virtual address that references the bits of an allocation (that is, after the user-mode display driver calls the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_lockcb">pfnLockCb</a> function with the <b>AcquireAperture</b> bit-field flag set in the <b>Flags</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddicb_lock">D3DDDICB_LOCK</a> structure and while the allocation is currently located in a CPU-accessible memory segment). If the <b>AcquireAperture</b> bit-field flag is not set in the call to <b>pfnLockCb</b>, <i>DxgkDdiAcquireSwizzlingRange</i> is not called, and the allocation must be in a format that the user-mode display driver or an application can process. 
 
@@ -106,13 +90,7 @@ A call to <i>DxgkDdiAcquireSwizzlingRange</i> to acquire a swizzling range might
 
 <i>DxgkDdiAcquireSwizzlingRange</i> should be made pageable.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddicb_lock">D3DDDICB_LOCK</a>
 
@@ -143,7 +121,4 @@ A call to <i>DxgkDdiAcquireSwizzlingRange</i> to acquire a swizzling range might
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_lockcb">pfnLockCb</a>
- 
-
- 
 

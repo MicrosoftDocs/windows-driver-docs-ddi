@@ -7,8 +7,6 @@ ms.assetid: a7027735-0ec4-4fad-81fb-1c3aca4ebf2d
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_CREATEDEVICE, DXGKDDI_CREATEDEVICE callback, DmFunctions_15d9141a-ec58-41f7-a925-768079604525.xml, DxgkDdiCreateDevice, DxgkDdiCreateDevice callback function [Display Devices], d3dkmddi/DxgkDdiCreateDevice, display.dxgkddicreatedevice
 ms.topic: callback
-f1_keywords:
- - "d3dkmddi/DxgkDdiCreateDevice"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Desktop
@@ -26,49 +24,41 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dkmddi.h
-api_name:
-- DxgkDdiCreateDevice
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - "d3dkmddi/DxgkDdiCreateDevice"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dkmddi.h
+api_name:
+ - DxgkDdiCreateDevice
+product:
+ - Windows
 ---
 
 # DXGKDDI_CREATEDEVICE callback function
 
-
 ## -description
-
 
 The <i>DxgkDdiCreateDevice</i> function creates a graphics context device that is subsequently used in calls to the display miniport driver's device-specific functions.
 
-
 ## -parameters
 
-
-
-
-### -param hAdapter [in]
+### -param hAdapter
 
 [in] A handle to a context block that is associated with a display adapter. The display miniport driver previously provided this handle to the Microsoft DirectX graphics kernel subsystem in the <i>MiniportDeviceContext</i> output parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function.
 
-
-### -param pCreateDevice [in, out]
+### -param pCreateDevice
 
 [in/out] A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_createdevice">DXGKARG_CREATEDEVICE</a> structure that describes the graphics context device.
 
-
 ## -returns
-
-
 
 <i>DxgkDdiCreateDevice</i> returns one of the following values:
 
@@ -76,14 +66,8 @@ The <i>DxgkDdiCreateDevice</i> function creates a graphics context device that i
 |--- |--- |
 |STATUS_SUCCESS|DxgkDdiCreateDevice successfully created the graphics context device.|
 |STATUS_NO_MEMORY|DxgkDdiCreateDevice could not allocate memory that was required for it to complete.|
- 
-
-
-
 
 ## -remarks
-
-
 
 The DirectX graphics kernel subsystem calls the display miniport driver's <i>DxgkDdiCreateDevice</i> function to create a graphics context device that the graphics subsystem subsequently passes in calls to the display miniport driver. The driver uses a device to hold a collection of rendering state. The graphics subsystem can create multiple devices in the same process on a given graphics processing unit (GPU) adapter. 
 
@@ -93,20 +77,11 @@ Generally, devices are independent of each other; in other words, resources that
 
 <i>DxgkDdiCreateDevice</i> should be made pageable.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_createdevice">DXGKARG_CREATEDEVICE</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a>
- 
-
- 
 

@@ -7,8 +7,6 @@ ms.assetid: BC9E7A2D-690D-4EC2-8D16-22C5FEBA574A
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_SETROOTPAGETABLE, DXGKDDI_SETROOTPAGETABLE callback, DxgkDdiSetRootPageTable, DxgkDdiSetRootPageTable callback function [Display Devices], d3dkmddi/DxgkDdiSetRootPageTable, display.dxgkddisetrootpagetable, dispmprt/DxgkDdiSetRootPageTable
 ms.topic: callback
-f1_keywords:
- - "d3dkmddi/DxgkDdiSetRootPageTable"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Desktop
@@ -26,68 +24,49 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- dispmprt.h
-- d3dkmddi.h
-api_name:
-- DxgkDdiSetRootPageTable
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - "d3dkmddi/DxgkDdiSetRootPageTable"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - dispmprt.h
+ - d3dkmddi.h
+api_name:
+ - DxgkDdiSetRootPageTable
+product:
+ - Windows
 ---
 
 # DXGKDDI_SETROOTPAGETABLE callback function
 
-
 ## -description
-
 
 <b>DxgkDdiSetRootPageTable</b> sets the root page table for the given context. This function is used to notify a context when its associated root page table is resized or moved in memory.
 
 
 This is level 1 synchronization function. The targeted context is guaranteed to be idled (i.e. not scheduled) while its root page table is being updated.
 
-  
-
-
 ## -parameters
 
-
-
-
-### -param hAdapter [in]
+### -param hAdapter
 
 A handle to the display adapter.
 
-
-### -param pSetPageTable [in]
+### -param pSetPageTable
 
 The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_setrootpagetable">DXGKARG_SETROOTPAGETABLE</a> structure that describes the operation.
 
-
 ## -returns
-
-
 
 This callback function does not return a value.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_setrootpagetable">DXGKARG_SETROOTPAGETABLE</a>
- 
-
- 
 

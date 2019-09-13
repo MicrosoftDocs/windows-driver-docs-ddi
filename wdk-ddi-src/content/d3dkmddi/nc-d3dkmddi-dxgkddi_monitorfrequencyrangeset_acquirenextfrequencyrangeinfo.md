@@ -7,8 +7,6 @@ ms.assetid: b5490af8-ef25-4d5c-9154-08660e3d8780
 ms.date: 05/10/2018
 ms.keywords: "(*pfnAcquireNextFrequencyRangeInfo), (*pfnAcquireNextFrequencyRangeInfo) callback function [Display Devices], DXGKDDI_MONITORFREQUENCYRANGESET_ACQUIRENEXTFREQUENCYRANGEINFO, DXGKDDI_MONITORFREQUENCYRANGESET_ACQUIRENEXTFREQUENCYRANGEINFO callback, VidPnFunctions_13c43302-1e13-4844-8c04-3755f89af477.xml, d3dkmddi/(*pfnAcquireNextFrequencyRangeInfo), display.dxgk_monitorfrequencyrangeset_interface_pfnacquirenextfrequencyrangein"
 ms.topic: callback
-f1_keywords:
- - "d3dkmddi/(*pfnAcquireNextFrequencyRangeInfo)"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Desktop
@@ -26,54 +24,45 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- D3dkmddi.h
-api_name:
-- (*pfnAcquireNextFrequencyRangeInfo)
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - "d3dkmddi/(*pfnAcquireNextFrequencyRangeInfo)"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - D3dkmddi.h
+api_name:
+ - (*pfnAcquireNextFrequencyRangeInfo)
+product:
+ - Windows
 ---
 
 # DXGKDDI_MONITORFREQUENCYRANGESET_ACQUIRENEXTFREQUENCYRANGEINFO callback function
 
-
 ## -description
-
 
 The <b>pfnAcquireNextFrequencyRangeInfo</b> function returns the next frequency range descriptor in a monitor frequency range set, given the current frequency range descriptor.
 
-
 ## -parameters
 
-
-
-
-### -param hMonitorFrequencyRangeSet [in]
+### -param hMonitorFrequencyRangeSet
 
 [in] A handle to a monitor frequency range set object. The display miniport driver previously obtained this handle by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_monitor_getmonitorfrequencyrangeset">pfnGetMonitorFrequencyRangeSet</a> function of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">Monitor Interface</a>.
 
-
-### -param pMonitorFrequencyRangeInfo [in]
+### -param pMonitorFrequencyRangeInfo
 
 [in] A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmdt/ns-d3dkmdt-_d3dkmdt_monitor_frequency_range">D3DKMDT_MONITOR_FREQUENCY_RANGE</a> structure that is the current frequency range descriptor. The display miniport driver previously obtained this pointer by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_monitorfrequencyrangeset_acquirefirstfrequencyrangeinfo">pfnAcquireFirstFrequencyRangeInfo</a> or <b>pfnAcquireNextFrequencyRangeInfo</b>.
 
-
-### -param ppNextMonitorFrequencyRangeInfo [out]
+### -param ppNextMonitorFrequencyRangeInfo
 
 [out] A pointer to a variable that receives a pointer to a D3DKMDT_MONITOR_FREQUENCY_RANGE structure that is the next frequency range descriptor.
 
-
 ## -returns
-
-
 
 The <b>pfnAcquireNextFrequencyRangeInfo</b> function returns one of the following values.
 
@@ -88,16 +77,9 @@ The <b>pfnAcquireNextFrequencyRangeInfo</b> function returns one of the followin
 
 This function might also return other error codes defined in <i>Ntstatus.h</i>.
 
-
-
-
 ## -remarks
-
-
 
 When you have finished using the D3DKMDT_MONITOR_FREQUENCY_RANGE structure, you must release the structure by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_monitorfrequencyrangeset_releasefrequencyrangeinfo">pfnReleaseFrequencyRangeInfo</a>.
 
 You can obtain all the descriptors in a monitor frequency range set by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_monitorfrequencyrangeset_acquirefirstfrequencyrangeinfo">pfnAcquireFirstFrequencyRangeInfo</a> and then making a sequence of calls to <b>pfnAcquireNextFrequencyRangeInfo</b>.
-
-
 

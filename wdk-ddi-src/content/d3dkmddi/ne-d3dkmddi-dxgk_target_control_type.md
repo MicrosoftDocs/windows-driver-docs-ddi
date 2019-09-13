@@ -8,33 +8,33 @@ ms.assetid: f7d630aa-7a49-4a0d-9fe9-94a0659c287e
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
 ms.topic: enum
+ms.keywords: DXGK_TARGET_CONTROL_TYPE, DXGK_TARGET_CONTROL_TYPE,
+req.header: d3dkmddi.h
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: Windows 10, version 1903
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
+req.typenames: DXGK_TARGET_CONTROL_TYPE
+targetos: Windows
+ms.custom: 19H1
 f1_keywords:
  - "d3dkmddi/DXGK_TARGET_CONTROL_TYPE"
-ms.keywords: DXGK_TARGET_CONTROL_TYPE, DXGK_TARGET_CONTROL_TYPE, 
-req.header: d3dkmddi.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt: Windows 10, version 1903
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
-req.typenames: DXGK_TARGET_CONTROL_TYPE
-topic_type: 
+topic_type:
  - apiref
-api_type: 
+api_type:
  - HeaderDef
-api_location: 
+api_location:
  - d3dkmddi.h
-api_name: 
+api_name:
  - DXGK_TARGET_CONTROL_TYPE
 product:
-- Windows
-targetos: Windows
+ - Windows
 dev_langs:
  - c++
-ms.custom: 19H1
 ---
 
 # DXGK_TARGET_CONTROL_TYPE enumeration
@@ -49,10 +49,11 @@ The kernel mode display driver target control type.
 
 Invalid.
 
-### -field DXGKTCTYPE_DSI2_TRANSMISSION 
+### -field DXGKTCTYPE_DSI2_TRANSMISSION
 
 Dsi2 transmission.
 
 ## -remarks
 
 ## -see-also
+
