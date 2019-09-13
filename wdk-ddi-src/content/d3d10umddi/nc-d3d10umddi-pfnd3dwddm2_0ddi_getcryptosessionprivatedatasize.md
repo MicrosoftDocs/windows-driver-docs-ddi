@@ -7,8 +7,6 @@ ms.assetid: 1D135203-AA20-4D5D-A0F2-A53BDF5104C0
 ms.date: 05/10/2018
 ms.keywords: PFND3DWDDM2_0DDI_GETCRYPTOSESSIONPRIVATEDATASIZE, PFND3DWDDM2_0DDI_GETCRYPTOSESSIONPRIVATEDATASIZE callback, d3d10umddi/pfnGetCryptoSessionPrivateDataSize, display.getcryptosessionprivatedatasize, pfnGetCryptoSessionPrivateDataSize, pfnGetCryptoSessionPrivateDataSize callback function [Display Devices]
 ms.topic: callback
-f1_keywords:
- - "d3d10umddi/pfnGetCryptoSessionPrivateDataSize"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -26,78 +24,61 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- D3d10umddi.h
-api_name:
-- pfnGetCryptoSessionPrivateDataSize
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - "d3d10umddi/pfnGetCryptoSessionPrivateDataSize"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - D3d10umddi.h
+api_name:
+ - pfnGetCryptoSessionPrivateDataSize
+product:
+ - Windows
 ---
 
 # PFND3DWDDM2_0DDI_GETCRYPTOSESSIONPRIVATEDATASIZE callback function
 
-
 ## -description
-
 
 <b>GetCryptoSessionPrivateDataSize</b> retrieves sizes for optional private driver data.
 
-
 ## -parameters
 
-
-
-
-### -param hDevice [in]
+### -param hDevice
 
 A handle to the display device (graphics context). The Direct3D runtime passed the user-mode driver this handle as the <b>hDevice</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_createdevice">D3DDDIARG_CREATEDEVICE</a> structure at device creation.
 
-
-### -param *pCryptoType [in]
+### -param pCryptoType
 
 Indicates the crypto type for which the private input and output size is queried.
 
-
-### -param *pDecoderProfile [in, optional]
+### -param pDecoderProfile
 
 Indicates the decoder profile for which the private input and output size is queried.
 
-
-### -param *pKeyExchangeType [in]
+### -param pKeyExchangeType
 
 Indicates the key exchange type for which the private input and output size is queried.
 
-
-### -param *pPrivateInputSize [out]
+### -param pPrivateInputSize
 
 Returns the size of private data that the driver needs for input commands.
 
-
-### -param *pPrivateOutputSize [out]
+### -param pPrivateOutputSize
 
 Returns the size of private data that the driver needs for output commands.
 
-
 ## -returns
-
-
 
 This callback function does not return a value.
 
-
-
-
 ## -remarks
-
-
 
 When <b>pKeyExchangeType</b> is <b>D3D11_KEY_EXCHANGE_HW_PROTECTION</b>, the following behavior is expected in the <b>NegotiateCryptessionKeyExchange</b>device driver interface (DDI):
 
@@ -124,15 +105,7 @@ When <b>pKeyExchangeType</b> is <b>D3D11_KEY_EXCHANGE_HW_PROTECTION</b>, the fol
 </li>
 </ul>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_createdevice">D3DDDIARG_CREATEDEVICE</a>
- 
-
- 
 

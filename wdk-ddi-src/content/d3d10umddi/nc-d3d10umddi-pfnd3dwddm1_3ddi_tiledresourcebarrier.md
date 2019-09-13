@@ -7,8 +7,6 @@ ms.assetid: 9A2E9B3F-13E4-48D7-A3F3-E7CDCDD1E0CC
 ms.date: 05/10/2018
 ms.keywords: PFND3DWDDM1_3DDI_TILEDRESOURCEBARRIER, PFND3DWDDM1_3DDI_TILEDRESOURCEBARRIER callback, TiledResourceBarrier, TiledResourceBarrier callback function [Display Devices], d3d10umddi/TiledResourceBarrier, display.tiledresourcebarrier
 ms.topic: callback
-f1_keywords:
- - "d3d10umddi/TiledResourceBarrier"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -26,66 +24,53 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- D3d10umddi.h
-api_name:
-- TiledResourceBarrier
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - "d3d10umddi/TiledResourceBarrier"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - D3d10umddi.h
+api_name:
+ - TiledResourceBarrier
+product:
+ - Windows
 ---
 
 # PFND3DWDDM1_3DDI_TILEDRESOURCEBARRIER callback function
 
-
 ## -description
-
 
 Specifies a data access ordering constraint between multiple tiled resources. For more info about this constraint, see Remarks.
 
-
 ## -parameters
-
-
-
 
 ### -param hDevice
 
 A handle to the display device (graphics context).
 
-
 ### -param TiledResourceAccessBeforeBarrierHandleType
 
 A handle to the tiled resource.
 
-
-### -param *hTiledResourceAccessBeforeBarrier [in, optional]
+### -param hTiledResourceAccessBeforeBarrier
 
 A handle to a resource that was created with the <b>D3DWDDM1_3DDI_RESOURCE_MISC_TILED</b> flag. Access operations on this object must complete before the access operations on the object that <i>hTiledResourceAccessAfterBarrier</i> specifies.
-
-
-
 
 ### -param TiledResourceAccessAfterBarrierHandleType
 
 The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ne-d3d10umddi-d3d11ddi_handletype">D3D11DDI_HANDLETYPE</a> handle type of the resources pointed to by the <i>hTiledResourceAccessBeforeBarrier</i> and <i>hTiledResourceAccessAfterBarrier</i> parameters.
 
-
-### -param *hTiledResourceAccessAfterBarrier [in, optional]
+### -param hTiledResourceAccessAfterBarrier
 
 A handle to a resource that was created with the <b>D3DWDDM1_3DDI_RESOURCE_MISC_TILED</b> flag. Access operations on this object must begin after the access operations on the object that <i>hTiledResourceAccessBeforeBarrier</i> specifies.
 
-
 ## -returns
-
-
 
 None
 
@@ -93,12 +78,7 @@ The driver can use the <a href="https://docs.microsoft.com/windows-hardware/driv
 
 The Direct3D runtime performs minimal validation of parameters.
 
-
-
-
 ## -remarks
-
-
 
 Apps can use tiled resources to reuse tiles in different resources. But a device and driver might not be able to determine whether some memory in a tile pool that was just rendered to is now being used for reading.
 
@@ -110,20 +90,11 @@ If no calls are made to <i>TiledResourceBarrier</i>,
                      the driver can assume that accesses to different tiled resources
                      do not conflict with each other.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ne-d3d10umddi-d3d11ddi_handletype">D3D11DDI_HANDLETYPE</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a>
- 
-
- 
 

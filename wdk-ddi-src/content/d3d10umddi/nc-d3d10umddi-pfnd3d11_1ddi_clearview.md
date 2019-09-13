@@ -7,8 +7,6 @@ ms.assetid: c3cc08ea-22db-4fae-a180-76f3babd1c5c
 ms.date: 05/10/2018
 ms.keywords: ClearView, ClearView callback function [Display Devices], PFND3D11_1DDI_CLEARVIEW, PFND3D11_1DDI_CLEARVIEW callback, d3d10umddi/ClearView, display.clearview, display.clearview_d3d11_1_, display.pfnclearview
 ms.topic: callback
-f1_keywords:
- - "d3d10umddi/ClearView"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -26,40 +24,35 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- D3d10umddi.h
-api_name:
-- ClearView
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - "d3d10umddi/ClearView"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - D3d10umddi.h
+api_name:
+ - ClearView
+product:
+ - Windows
 ---
 
 # PFND3D11_1DDI_CLEARVIEW callback function
 
-
 ## -description
-
 
 Sets all the elements in a resource view to one value. A resource view is  a surface descriptor  that indicates a format and possibly a subset of the resource.
 
-
 ## -parameters
-
-
-
 
 ### -param hDevice
 
 A handle to the display device (graphics context).
-
 
 ### -param viewType
 
@@ -71,19 +64,17 @@ A value, of type <a href="https://docs.microsoft.com/windows-hardware/drivers/dd
 <li>Any <b>D3D11_1DDI_HT_VIDEOXXX</b> type</li>
 </ul>
 
-### -param *hView
+### -param hView
 
 A pointer to the resource view to clear.
-
 
 ### -param Color[4]
 
 A 4-component array that represents the color to use to clear the resource view. For more details, see the Remarks section.
 
-### -param *pRect [in]
+### -param pRect
 
 An array of <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a> structures for the rectangles in the resource view to clear. If <b>NULL</b>, <i>ClearView</i> clears the entire surface.
-
 
 ### -param NumRects
 
@@ -91,16 +82,9 @@ The number of rectangles in the array that the  <i>pRect</i> parameter specifies
 
 ## -returns
 
-
-
 This callback function does not return a value.
 
-
-
-
 ## -remarks
-
-
 
 <i>ClearView</i> works only on render-target views (RTVs), unordered-access views (UAVs), or any video view of a <a href="https://docs.microsoft.com/windows-hardware/drivers/display/details-of-the-extended-format">Texture2D</a> surface. Empty rectangles in the <i>pRect</i> array are a no-op. A rectangle is empty if the top value equals the bottom value or the left value equals the right value.
 
@@ -136,9 +120,6 @@ typedef RECT D3D10_DDI_RECT;
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createvideodecoderoutputview">CreateVideoDecoderOutputView</a>
 
 
@@ -148,7 +129,4 @@ typedef RECT D3D10_DDI_RECT;
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a>
- 
-
- 
 

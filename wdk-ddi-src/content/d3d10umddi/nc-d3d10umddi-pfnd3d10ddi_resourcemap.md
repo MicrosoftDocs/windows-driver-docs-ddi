@@ -7,8 +7,6 @@ ms.assetid: 1310a3f8-02dd-4d35-98ad-4016e57d1eb2
 ms.date: 05/10/2018
 ms.keywords: PFND3D10DDI_RESOURCEMAP, PFND3D10DDI_RESOURCEMAP callback, ResourceMap, ResourceMap callback function [Display Devices], UserModeDisplayDriverDx10_Functions_2c1f2d21-4d2c-4e3f-993d-c6af5177e793.xml, d3d10umddi/ResourceMap, display.resourcemap
 ms.topic: callback
-f1_keywords:
- - "d3d10umddi/ResourceMap"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -26,35 +24,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3d10umddi.h
-api_name:
-- ResourceMap
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - "d3d10umddi/ResourceMap"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3d10umddi.h
+api_name:
+ - ResourceMap
+product:
+ - Windows
 ---
 
 # PFND3D10DDI_RESOURCEMAP callback function
 
-
 ## -description
-
 
 The <i>ResourceMap</i> function maps a subresource of a resource.
 
-
 ## -parameters
-
-
-
 
 ### -param Arg1
 
@@ -72,41 +66,33 @@ A handle to the resource to map.
 
 *Subresource* [in]
 
-An index that indicates the subresource to map. 
+An index that indicates the subresource to map.
 
 ### -param Arg4
 
 *DDIMap* [in]
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ne-d3d10umddi-d3d10_ddi_map">D3D10_DDI_MAP</a>-typed value that indicates the access level to map the subresource to. 
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ne-d3d10umddi-d3d10_ddi_map">D3D10_DDI_MAP</a>-typed value that indicates the access level to map the subresource to.
 
 ### -param Arg5
 
 *Flags* [in]
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ne-d3d10umddi-d3d10_ddi_map_flag">D3D10_DDI_MAP_FLAG</a>-typed value that indicates how to map the subresource. 
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ne-d3d10umddi-d3d10_ddi_map_flag">D3D10_DDI_MAP_FLAG</a>-typed value that indicates how to map the subresource.
 
-### -param *
+### -param Arg6
 
 *pMappedSubResource* [out]
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ns-d3d10umddi-d3d10ddi_mapped_subresource">D3D10DDI_MAPPED_SUBRESOURCE</a> structure that receives the information about the mapped subresource.
 
-
 ## -returns
-
-
 
 None
 
-The driver can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> callback function to set an error code. For more information about setting error codes, see the following Remarks section. 
-
-
-
+The driver can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> callback function to set an error code. For more information about setting error codes, see the following Remarks section.
 
 ## -remarks
-
-
 
 The driver can call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> to set the D3DDDIERR_DEVICEREMOVED error code.
 
@@ -355,11 +341,7 @@ _USAGE_DYNAMIC &&
 
 For Windows Display Driver Model (WDDM) 1.3 and later drivers, the Microsoft Direct3D runtime supplies a restricted set of input values used by this function. For a list of all restricted values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/direct3d-rendering-performance-improvements">Direct3D rendering performance improvements</a>.
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ns-d3d10umddi-d3d10ddi_devicefuncs">D3D10DDI_DEVICEFUNCS</a>
 
@@ -390,7 +372,4 @@ For Windows Display Driver Model (WDDM) 1.3 and later drivers, the Microsoft Dir
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a>
- 
-
- 
 

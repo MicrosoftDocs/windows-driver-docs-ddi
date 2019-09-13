@@ -7,8 +7,6 @@ ms.assetid: a54a26d2-d38c-4e82-a3e9-7a17c0afff27
 ms.date: 05/10/2018
 ms.keywords: PFND3D11_1DDI_NEGOTIATEAUTHENTICATEDCHANNELKEYEXCHANGE, PFND3D11_1DDI_NEGOTIATEAUTHENTICATEDCHANNELKEYEXCHANGE callback, d3d10umddi/pfnNegotiateAuthenticatedChannelKeyExchange, display.negotiateauthenticatedchannelkeyexchange, pfnNegotiateAuthenticatedChannelKeyExchange, pfnNegotiateAuthenticatedChannelKeyExchange callback function [Display Devices]
 ms.topic: callback
-f1_keywords:
- - "d3d10umddi/pfnNegotiateAuthenticatedChannelKeyExchange"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -26,67 +24,49 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- D3d10umddi.h
-api_name:
-- pfnNegotiateAuthenticatedChannelKeyExchange
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - "d3d10umddi/pfnNegotiateAuthenticatedChannelKeyExchange"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - D3d10umddi.h
+api_name:
+ - pfnNegotiateAuthenticatedChannelKeyExchange
+product:
+ - Windows
 ---
 
 # PFND3D11_1DDI_NEGOTIATEAUTHENTICATEDCHANNELKEYEXCHANGE callback function
 
-
 ## -description
-
 
 Establishes a session key for an authenticated channel.
 
-
-
-
 ## -parameters
 
-
-
-
-### -param hDevice [in]
+### -param hDevice
 
 A handle to the display device (graphics context).
 
-
-
-
-### -param hCAuthChannel [in]
+### -param hCAuthChannel
 
 A handle to an authenticated channel object that was created through a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createauthenticatedchannel">CreateAuthenticatedChannel(D3D11_1)</a> function.
 
-
-
-
-### -param DataSize [in]
+### -param DataSize
 
 The size, in bytes, of the data in the <i>pData</i> array.
 
-
-
-
-### -param *pData [in]
+### -param pData
 
 A pointer to a byte array that contains the encrypted session key.
 
-
 ## -returns
-
-
 
 <b>NegotiateAuthenticatedChannelKeyExchange</b> returns one of the following values:
 
@@ -95,14 +75,8 @@ A pointer to a byte array that contains the encrypted session key.
 |S_OK|The session key for the authenticated channel was negotiated successfully.|
 |E_INVALIDARG|Parameters were validated and determined to be incorrect.|
 |E_OUTOFMEMORY|Memory was not available to complete the operation.|
- 
-
-
-
 
 ## -remarks
-
-
 
 The <i>pData</i> parameter references a buffer that contains a session key for the authenticated channel. This key buffer must contain 256 bytes of data and must be encrypted by using the RSA Encryption Scheme - Optimal Asymmetric Encryption Padding (RSAES-OAEP) algorithm with the public key from the authenticated channel certificate.
 
@@ -111,15 +85,7 @@ The key exchange for an authenticated channel is identical to the key exchange f
 > [!NOTE]
 > The same certificate can be used for the authenticated channel and OPM session key.
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createauthenticatedchannel">CreateAuthenticatedChannel(D3D11_1)</a>
- 
-
- 
 
