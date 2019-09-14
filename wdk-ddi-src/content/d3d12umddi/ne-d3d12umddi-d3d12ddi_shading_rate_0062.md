@@ -8,33 +8,33 @@ ms.assetid: 65780036-2a4b-4fa4-bafb-b6966689120c
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
 ms.topic: enum
+ms.keywords: D3D12DDI_SHADING_RATE_0062, D3D12DDI_SHADING_RATE_0062,
+req.header: d3d12umddi.h
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: Windows 10, version 1903
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
+req.typenames: D3D12DDI_SHADING_RATE_0062
+targetos: Windows
+ms.custom: D3D12 Release 6, Build rev 2., 19H1
 f1_keywords:
  - "d3d12umddi/D3D12DDI_SHADING_RATE_0062"
-ms.keywords: D3D12DDI_SHADING_RATE_0062, D3D12DDI_SHADING_RATE_0062, 
-req.header: d3d12umddi.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt: Windows 10, version 1903
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
-req.typenames: D3D12DDI_SHADING_RATE_0062
-topic_type: 
+topic_type:
  - apiref
-api_type: 
+api_type:
  - HeaderDef
-api_location: 
+api_location:
  - d3d12umddi.h
-api_name: 
+api_name:
  - D3D12DDI_SHADING_RATE_0062
 product:
-- Windows
-targetos: Windows
+ - Windows
 dev_langs:
  - c++
-ms.custom: D3D12 Release 6, Build rev 2., 19H1
 ---
 
 # D3D12DDI_SHADING_RATE_0062 enumeration
@@ -69,7 +69,7 @@ Reduce horizontal res 2x, vertical by 4x.
 
 Reduce horizontal res 4x, vertical by 2x.
 
-### -field D3D12DDI_SHADING_RATE_0062_4X4 
+### -field D3D12DDI_SHADING_RATE_0062_4X4
 
 Reduces both axes by 4x.
 
@@ -78,3 +78,4 @@ Reduces both axes by 4x.
 The values are organized so that shading rates are easily decomposable into two axes, where each axis’s values are compactly represented in logarithmic space.
 
 ## -see-also
+

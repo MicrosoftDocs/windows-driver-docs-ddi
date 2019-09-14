@@ -8,35 +8,35 @@ ms.assetid: 39150f42-529e-4d79-bd70-10984a6783b0
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
 ms.topic: enum
-f1_keywords:
- - "d3d12umddi/D3D12DDI_3DPIPELINELEVEL"
-ms.keywords: D3D12DDI_3DPIPELINELEVEL, D3D12DDI_3DPIPELINELEVEL, 
+ms.keywords: D3D12DDI_3DPIPELINELEVEL, D3D12DDI_3DPIPELINELEVEL,
 ms.prod: windows-hardware
 ms.technology: windows-devices
 req.header: d3d12umddi.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
 req.typenames: D3D12DDI_3DPIPELINELEVEL
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
- - d3d12umddi.h
-api_name: 
- - D3D12DDI_3DPIPELINELEVEL
-product: 
- - Windows
 targetos: Windows
+ms.custom: 19H1
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_3DPIPELINELEVEL"
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12umddi.h
+api_name:
+ - D3D12DDI_3DPIPELINELEVEL
+product:
+ - Windows
 dev_langs:
  - c++
-ms.custom: 19H1
 ---
 
 # D3D12DDI_3DPIPELINELEVEL enumeration
@@ -47,13 +47,13 @@ Contains values that identify the pipeline level that the driver supports. Drive
 
 ## -enum-fields
 
-### -field D3D12DDI_3DPIPELINELEVEL_1_0_CORE
-
-Internal.
-
 ### -field D3D12DDI_3DPIPELINELEVEL_11_0
 
 The driver supports Direct3D version 11 pipeline.
+
+### -field D3D12DDI_3DPIPELINELEVEL_1_0_CORE
+
+Internal.
 
 ### -field D3D12DDI_3DPIPELINELEVEL_11_1
 
@@ -63,10 +63,11 @@ The driver supports Direct3D version 11.1 pipeline.
 
 The driver supports Direct3D version 12.0 pipeline.
 
-### -field D3D12DDI_3DPIPELINELEVEL_12_1 
+### -field D3D12DDI_3DPIPELINELEVEL_12_1
 
 The driver supports Direct3D version 12.1 pipeline.
 
 ## -remarks
 
 ## -see-also
+

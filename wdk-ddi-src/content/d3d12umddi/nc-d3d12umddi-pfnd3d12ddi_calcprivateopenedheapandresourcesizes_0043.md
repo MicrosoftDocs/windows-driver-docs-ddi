@@ -5,37 +5,37 @@ description: Calculates sizes for private opened heap and resources.
 ms.assetid: af4c6fb0-a10f-4abe-8161-2df2563b76cd
 ms.date: 10/19/2018
 ms.topic: callback
-f1_keywords:
- - "d3d12umddi/PFND3D12DDI_CALCPRIVATEOPENEDHEAPANDRESOURCESIZES_0043"
 req.header: d3d12umddi.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.irql:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-topic_type:
-- apiref
-api_type:
-- UserDefined
-api_location:
-- d3d12umddi.h
-api_name:
-- PFND3D12DDI_CALCPRIVATEOPENEDHEAPANDRESOURCESIZES_0043
-product: 
-- Windows
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.irql: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
 targetos: Windows
 tech.root: display
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_CALCPRIVATEOPENEDHEAPANDRESOURCESIZES_0043"
+topic_type:
+ - apiref
+api_type:
+ - UserDefined
+api_location:
+ - d3d12umddi.h
+api_name:
+ - PFND3D12DDI_CALCPRIVATEOPENEDHEAPANDRESOURCESIZES_0043
+product:
+ - Windows
 ---
 
 # PFND3D12DDI_CALCPRIVATEOPENEDHEAPANDRESOURCESIZES_0043 callback function
@@ -43,6 +43,24 @@ tech.root: display
 ## -description
 
 Pointer to a CalcPrivateOpenedHeapAndResourceSizes function that calculates sizes for private opened heap and resources.
+
+## -parameters
+
+### -param Arg1
+
+A handle to the display device (graphics context).
+
+### -param Arg2
+
+Open heap and resource.
+
+### -param Arg3
+
+The protected resource session.
+
+## -returns
+
+Returns D3D12DDI_HEAP_AND_RESOURCE_SIZES that contains the sizes for private opened heap and resources.
 
 ## -prototype
 
@@ -66,26 +84,7 @@ PFND3D12DDI_CALCPRIVATEOPENEDHEAPANDRESOURCESIZES_0043
 
 ```
 
-## -parameters
-
-### -param D3D12DDI_HDEVICE
-
-A handle to the display device (graphics context).
-
-### -param D3D12DDIARG_OPENHEAP_0003
-
-Open heap and resource.
-
-### -param D3D12DDI_HPROTECTEDRESOURCESESSION_0030
-
-The protected resource session.
-
-## -returns
-
-Returns D3D12DDI_HEAP_AND_RESOURCE_SIZES that contains the sizes for private opened heap and resources.
-
 ## -remarks
 
-
-
 ## -see-also
+
