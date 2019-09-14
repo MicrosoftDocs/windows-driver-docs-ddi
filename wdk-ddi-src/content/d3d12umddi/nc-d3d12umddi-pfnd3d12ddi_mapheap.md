@@ -57,7 +57,7 @@ A handle to the display device (graphics context).
 
 A heap handle.
 
-### -param *
+### -param Arg3
 
 Pointer.
 

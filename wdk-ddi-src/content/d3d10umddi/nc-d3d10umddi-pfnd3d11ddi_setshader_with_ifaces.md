@@ -73,13 +73,13 @@ A handle to the compute shader code object.
 The number of class instances for implementations of the interfaces. 
 
 
-### -param *
+### -param Arg4
 
 *pPointerData* [in]
 
 An array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ns-d3d10umddi-d3d11ddiarg_pointerdata">D3D11DDIARG_POINTERDATA</a> structures. Each structure describes the location of the data that is referenced by a class instance that is assigned to an interface implementation. The number of elements in the array is specified by the <i>NumClassInstances</i> parameter. 
 
-### -param *
+### -param Arg5
 
 *pIfaces* [in]
 

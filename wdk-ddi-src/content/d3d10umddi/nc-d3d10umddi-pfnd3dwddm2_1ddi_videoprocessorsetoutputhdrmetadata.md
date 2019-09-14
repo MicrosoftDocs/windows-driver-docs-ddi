@@ -89,7 +89,7 @@ Indicates the type of the HDR metadata provided.
 * For D3DDDI_HDR_METADATA_TYPE_NONE, the size should be 0.
 * For D3DDDI_HDR_METADATA_TYPE_HDR10, the size is sizeof(D3DDDI_HDR_METADATA_HDR10).
 
-### -param *pMetaData
+### -param pMetaData
 
 Points to a structure containing the HDR metadata.
 

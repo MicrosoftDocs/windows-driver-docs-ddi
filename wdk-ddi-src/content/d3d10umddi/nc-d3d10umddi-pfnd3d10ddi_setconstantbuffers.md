@@ -69,7 +69,7 @@ A handle to the display device (graphics context).
 [in] The total number of buffers to set. 
 
 
-### -param *
+### -param Arg4
 
 *phBuffers* [in]
 

@@ -74,25 +74,20 @@ A handle to the video processor object that was created through a call to the <a
 
 The zero-based index of the input stream.
 
-### -param *
+### -param Arg4
 
 *pGuid* [in]
 
 A pointer to a GUID that identifies the private state data. The meaning of this GUID is defined by the graphics driver.
 
 
-
-
-
-
-
-### -param Arg4
+### -param Arg5
 
 *DataSize* [in]
 
 The size, in bytes, of the private state data in the buffer referenced by the <i>pData</i> parameter.
 
-### -param *
+### -param Arg6
 
 *pData* [in, out]
 

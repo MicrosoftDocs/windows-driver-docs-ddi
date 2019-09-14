@@ -78,7 +78,7 @@ PFND3D12DDI_CHECKRESOURCEALLOCATIONINFO_0003
 
 A handle to the display device (graphics context).
  
-### -param * 
+### -param Arg2
 
 Pointer to a D3D12DDIARG_CREATERESOURCE_0003 structure.
 
@@ -94,7 +94,7 @@ Indicates alignment restriction.
 
 Indicates the visible node mask.
 
-### -param * 
+### -param Arg6
 
 Pointer to a D3D12DDI_RESOURCE_ALLOCATION_INFO structure.
 

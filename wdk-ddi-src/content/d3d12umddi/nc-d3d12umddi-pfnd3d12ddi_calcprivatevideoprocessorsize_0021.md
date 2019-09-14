@@ -61,7 +61,7 @@ The <i>pfnCalcPrivateVideoProcessorSize</i> callback function calculates the siz
 The handler of a device.
 
 
-### -param *pArgs [in]
+### -param pArgs [in]
 
 The arguments used to create a video processor.
 

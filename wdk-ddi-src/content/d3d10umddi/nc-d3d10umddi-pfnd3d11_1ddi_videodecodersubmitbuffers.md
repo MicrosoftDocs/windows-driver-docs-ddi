@@ -76,7 +76,7 @@ A handle to the video decoder object that was created through a call to the <a h
 
 The number of buffers in the array that is referenced by the <i>pBufferDesc</i> parameter.
 
-### -param *
+### -param Arg4
 
 *pBufferDesc* [in]
 

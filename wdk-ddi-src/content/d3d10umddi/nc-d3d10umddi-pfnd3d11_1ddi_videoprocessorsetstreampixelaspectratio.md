@@ -82,7 +82,7 @@ The zero-based index of the input stream.
 
 If <b>TRUE</b>, the <i>pSourceRatio</i> and <i>pDestinationRatio</i> parameters contain valid values. Otherwise, the pixel aspect ratios are unspecified.
 
-### -param *
+### -param Arg5
 
 *pSourceRatio* [in]
 
@@ -93,7 +93,7 @@ A pointer to a <b>DXGI_RATIONAL</b> structure that contains the pixel aspect rat
 </div>
 <div> </div>
 
-### -param *
+### -param Arg6
 
 *pDestRatio* [in]
 

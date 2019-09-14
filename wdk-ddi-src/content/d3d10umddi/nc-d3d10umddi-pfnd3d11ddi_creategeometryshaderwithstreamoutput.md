@@ -62,7 +62,7 @@ The <b>CreateGeometryShaderWithStreamOutput(D3D11)</b> function creates a geomet
 
 A handle to the display device (graphics context).
 
-### -param *
+### -param Arg2
 
 *pCreateGeometryWithShaderOutput* [in]
 
@@ -70,20 +70,20 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 
 
 
-### -param Arg2
+### -param Arg3
 
 *hShader* [in]
 
 A handle to the driver's private data for the geometry shader with stream output. The driver returns the size, in bytes, of the memory region that the Microsoft Direct3D runtime must allocate for the private data from a call to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d11ddi_calcprivategeometryshaderwithstreamoutput">CalcPrivateGeometryShaderWithStreamOutput(D3D11)</a>  function. The handle is  just a pointer to a region of memory, the size of which the driver requested. The driver uses this region of memory to store internal data structures that are related to its shader object. 
 
-### -param Arg3
+### -param Arg4
 
 *hRTShader* [in]
 
 A handle to the geometry shader with stream output that the driver should use when it calls back into the Direct3D runtime. 
 
 
-### -param *
+### -param Arg5
 
 *pSignatures* [in]
 

@@ -58,7 +58,7 @@ The <i>pfnCalcPrivateCommandQueueSize</i> callback function is used to calculate
 
 A handle to the display device (graphics context).
 
-### -param *
+### -param Arg2
 
 
 

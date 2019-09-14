@@ -70,19 +70,19 @@ The starting vertex buffer to set.
 
 The total number of buffers to set. 
 
-### -param *
+### -param Arg4
 
 *phBuffers* [in]
 
 An array of handles to the vertex buffers, beginning with the buffer that <i>StartBuffer</i> specifies.
  
-### -param *
+### -param Arg5
 
 *pStrides* [in]
 
 An array of values that indicate the sizes, in bytes, from one vertex to the next vertex for each buffer
 
-### -param *
+### -param Arg6
 
 *pOffsets* [in]
 

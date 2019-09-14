@@ -62,7 +62,7 @@ The <b>CalcPrivateShaderResourceViewSize</b> function determines the size of the
 
 A handle to the display device (graphics context).
 
-### -param *
+### -param Arg2
 
 *pCreateShaderResourceView* [in]
 

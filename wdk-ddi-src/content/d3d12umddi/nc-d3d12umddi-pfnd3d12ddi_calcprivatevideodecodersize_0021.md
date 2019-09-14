@@ -58,7 +58,7 @@ The <i>pfnCalcPrivateVideoDecoderSize</i> callback function calculates the size 
 
 The hardware device being processed
 
-### -param *pArgs
+### -param pArgs
 
 *CreateVideoDecoder* [in]
 

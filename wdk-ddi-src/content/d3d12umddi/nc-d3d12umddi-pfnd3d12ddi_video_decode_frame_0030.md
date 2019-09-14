@@ -71,12 +71,12 @@ The video decoder.
 The submission ID.
 
 
-### -param *pOutputStreamParameters
+### -param pOutputStreamParameters
 
 The output arguments for the video decode.
 
 
-### -param *pInputStreamParameters
+### -param pInputStreamParameters
 
 The input arguments for the video decode.
 
