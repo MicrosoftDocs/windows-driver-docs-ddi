@@ -62,7 +62,7 @@ The <i>SetRenderTargets(D3D11)</i> function sets render target surfaces.
 
 A handle to the display device (graphics context).
 
-### -param *
+### -param Arg2
 
 phRenderTargetView [in]
 
@@ -79,19 +79,19 @@ RTVNumbertoUnbind [in]
 
 The number of render target view (RTV) objects to unbind (that is, those render target view objects that are previously set but should be no longer set).
 
-### -param Arg2
+### -param Arg5
 
 hDepthStencilView [in]
 
 A handle to the depth-stencil buffer to set. 
 
-### -param *
+### -param Arg6
 
 phUnorderedAccessView [in]
 
 An array of handles to the unordered access view (UAV) objects. 
 
-### -param *
+### -param Arg7
 
 pUAVInitialCounts [in]
 

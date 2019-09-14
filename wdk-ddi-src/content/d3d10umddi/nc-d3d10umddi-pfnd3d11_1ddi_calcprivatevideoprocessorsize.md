@@ -62,7 +62,7 @@ Returns the number of bytes that the driver requires to store private data for t
 
 A handle to the display device (graphics context).
 
-### -param *
+### -param Arg2
 
 *pVideoProcessor* [in]
 

@@ -65,7 +65,7 @@ A handle to the display device (graphics context).
 The physical adapter of the device to which this operation applies.
 
 
-### -param *
+### -param Arg3
 
 *pConfiguration*
 

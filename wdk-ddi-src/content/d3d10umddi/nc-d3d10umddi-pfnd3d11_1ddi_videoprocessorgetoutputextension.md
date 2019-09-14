@@ -68,7 +68,7 @@ A handle to the display device (graphics context).
 
 A handle to the video processor object that was created through a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor">CreateVideoProcessor</a> function.
 
-### -param *
+### -param Arg3
 
 *pGuid* [in]
 
@@ -79,13 +79,13 @@ A pointer to a GUID that identifies the private state data. The meaning of this 
 
 
 
-### -param Arg3
+### -param Arg4
 
 *DataSize* [in]
 
 The size, in bytes, of the private state data in the buffer referenced by the <i>pData</i> parameter.
 
-### -param *
+### -param Arg5
 
 *pData* [in, out]
 

@@ -73,23 +73,23 @@ A resource handle.
 The subresource count.
 
 
-### -param *
+### -param Arg4
 
 *Handle* [out]
 
 A kernel handle.
 
-### -param *
+### -param Arg5
 
 *TextureLayout* [out]
 
 A pointer to a texture layout.
 
-### -param *pMipLevelSwizzleTransition [out]
+### -param pMipLevelSwizzleTransition [out]
 
 A pointer to a MIP level swizzle transition. 
 
-### -param *
+### -param Arg7
 
 *SubresourceLayout* [out, optional]
 

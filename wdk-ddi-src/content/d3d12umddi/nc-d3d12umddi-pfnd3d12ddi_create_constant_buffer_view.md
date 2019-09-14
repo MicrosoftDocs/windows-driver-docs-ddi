@@ -5,40 +5,40 @@ description: Create constant buffer view.
 ms.assetid: 20f24353-affc-4862-ba13-e3bfc2c0a74d
 ms.date: 10/19/2018
 ms.topic: callback
-f1_keywords:
- - "d3d12umddi/PFND3D12DDI_CREATE_CONSTANT_BUFFER_VIEW"
 req.header: d3d12umddi.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- UserDefined
-api_location: 
-- d3d12umddi.h
-api_name: 
-- PFND3D12DDI_CREATE_CONSTANT_BUFFER_VIEW
-product: 
-- Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_CREATE_CONSTANT_BUFFER_VIEW"
+topic_type:
+ - apiref
+api_type:
+ - UserDefined
+api_location:
+ - d3d12umddi.h
+api_name:
+ - PFND3D12DDI_CREATE_CONSTANT_BUFFER_VIEW
+product:
+ - Windows
 dev_langs:
  - c++
-ms.custom: RS5
 ---
 
 # PFND3D12DDI_CREATE_CONSTANT_BUFFER_VIEW callback function
@@ -46,6 +46,24 @@ ms.custom: RS5
 ## -description
 
 Create constant buffer view.
+
+## -parameters
+
+### -param Arg1
+
+A handle to the display device (graphics context).
+
+### -param Arg2
+
+Pointer to a D3D12DDI_CONSTANT_BUFFER_VIEW_DESC structure.
+
+### -param DestDescriptor
+
+CPU descriptor handle.
+
+## -returns
+
+Returns VOID.
 
 ## -prototype
 
@@ -69,20 +87,3 @@ PFND3D12DDI_CREATE_CONSTANT_BUFFER_VIEW
 
 ```
 
-## -parameters
-
-### -param D3D12DDI_HDEVICE  
-
-A handle to the display device (graphics context).
- 
-### -param *
-
-Pointer to a D3D12DDI_CONSTANT_BUFFER_VIEW_DESC structure.
-
-### -param DestDescriptor: 
-
-CPU descriptor handle.
-
-## -returns
-
-Returns VOID.

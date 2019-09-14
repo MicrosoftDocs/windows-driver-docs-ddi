@@ -62,7 +62,7 @@ Queries the video decoder configuration for a specified video operation.
 
 A handle to the display device (graphics context).
 
-### -param *
+### -param Arg2
 
 
 *pDecodeDesc* [in]
@@ -73,13 +73,13 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 
 
 
-### -param Arg2
+### -param Arg3
 
 *Index* [in]
 
 The zero-based index of the video decoder configuration that is used for the specified operation. The display miniport driver specifies the maximum number of video decoder configurations that are required for the operation through a call to its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_getvideodecoderconfigcount">GetVideoDecoderConfigCount</a> function.
 
-### -param *
+### -param Arg4
 
 *pConfig* [out]
 

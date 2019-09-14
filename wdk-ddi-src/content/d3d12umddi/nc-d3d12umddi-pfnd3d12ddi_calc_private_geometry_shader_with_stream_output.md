@@ -71,11 +71,11 @@ SIZE_T Pfnd3d12ddiCalcPrivateGeometryShaderWithStreamOutput
 
 A handle to the display device (graphics context).
 
-### -param *
+### -param Arg2
 
 Pointer to a D3D12DDIARG_CREATE_GEOMETRY_SHADER_WITH_STREAM_OUTPUT structure.
 
-### -param *
+### -param Arg3
 
 Pointer to a D3D12DDIARG_STAGE_IO_SIGNATURES structure.
 

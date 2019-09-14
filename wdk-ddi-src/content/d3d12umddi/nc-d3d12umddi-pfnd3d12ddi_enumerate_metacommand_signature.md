@@ -82,11 +82,11 @@ The command identifier.
 
 The command signature id.
 
-### -param *pParameterCount
+### -param pParameterCount
 
 The count of meta-commands.
 
-### -param *pParameterDescs:
+### -param pParameterDescs:
 
 The description of meta-commands.
 

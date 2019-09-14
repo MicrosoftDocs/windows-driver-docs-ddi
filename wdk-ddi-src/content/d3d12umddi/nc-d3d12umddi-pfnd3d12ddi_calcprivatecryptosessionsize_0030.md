@@ -7,8 +7,6 @@ ms.assetid: 5C6A62D2-C4D1-4024-B777-EA4AAC7AC971
 ms.date: 05/10/2018
 ms.keywords: PFND3D12DDI_CALCPRIVATECRYPTOSESSIONSIZE_0030, PFND3D12DDI_CALCPRIVATECRYPTOSESSIONSIZE_0030  entry, PFND3D12DDI_CALCPRIVATECRYPTOSESSIONSIZE_0030 entry point [Display Devices], d3d12umddi/PFND3D12DDI_CALCPRIVATECRYPTOSESSIONSIZE_0030, display.pfnd3d12ddi_calcprivatecryptosessionsize_0030_
 ms.topic: callback
-f1_keywords:
- - "d3d12umddi/PFND3D12DDI_CALCPRIVATECRYPTOSESSIONSIZE_0030"
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: Windows
@@ -26,51 +24,41 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3d12umddi.h
-api_name:
-- PFND3D12DDI_CALCPRIVATECRYPTOSESSIONSIZE_0030
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_CALCPRIVATECRYPTOSESSIONSIZE_0030"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3d12umddi.h
+api_name:
+ - PFND3D12DDI_CALCPRIVATECRYPTOSESSIONSIZE_0030
+product:
+ - Windows
 ---
 
 # PFND3D12DDI_CALCPRIVATECRYPTOSESSIONSIZE_0030 callback function
 
-
 ## -description
-
 
 Used to calculate a private session size.
 
-
 ## -parameters
-
-
-
 
 ### -param hDrvDevice
 
 The hardware device being processed.
 
-
-### -param *pArgs [in]
+### -param pArgs
 
 The arguments used to create a session.
 
-
 ## -returns
 
-
-
 Returns the size of the session in bytes.
-
-
 
