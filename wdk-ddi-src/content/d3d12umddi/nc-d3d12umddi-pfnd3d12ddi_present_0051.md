@@ -79,19 +79,19 @@ A handle to the driver's data for the command list.
 
 A handle the driver's data for the command queue.
 
-### -param *
+### -param Arg3
 
 Pointer to a [D3D12DDIARG_PRESENT_0001](ns-d3d12umddi-d3d12ddiarg_present_0001.md) structure that contains arguments.
 
-### -param *
+### -param Arg4
 
 Pointer to a [D3D12DDI_PRESENT_0051](ns-d3d12umddi-d3d12ddi_present_0051.md) structure that contains arguments for this callback.
 
-### -param *
+### -param Arg5
 
 Pointer to a [D3D12DDI_PRESENT_CONTEXTS_0051](ns-d3d12umddi-d3d12ddi_present_contexts_0051.md) structure.
 
-### -param *
+### -param Arg6
 
 Pointer to a [D3D12DDI_PRESENT_HWQUEUES_0051](ns-d3d12umddi-d3d12ddi_present_hwqueues_0051.md) structure.
 

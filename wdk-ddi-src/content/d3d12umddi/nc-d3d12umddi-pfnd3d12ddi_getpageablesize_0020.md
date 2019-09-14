@@ -60,7 +60,7 @@ The <i>pfnGetPageableSize</i> callback function gets the pageable size.
 
 A handle to the display device (graphics context).
 
-### -param *pArgs
+### -param pArgs
 
 
 Information used to get pageable size.

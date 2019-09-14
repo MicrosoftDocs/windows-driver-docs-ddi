@@ -61,7 +61,7 @@ Used to calculate the size of a video decoder heap.
 The hardware device being processed.
 
 
-### -param *pArgs [in]
+### -param pArgs [in]
 
 The arguments used to create a video decoder heap.
 

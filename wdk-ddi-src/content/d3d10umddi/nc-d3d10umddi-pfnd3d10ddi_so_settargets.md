@@ -73,14 +73,14 @@ The number of handles to stream output target resources that represents the diff
 Note that the number that i<i>ClearTargets</i> specifies is only an optimization aid because the user-mode display driver could calculate this number. 
 
 
-### -param *
+### -param Arg4
 
 *phResource* [in]
 
 An array of handles to the stream output target resources to set. Note that some handle values can be <b>NULL</b>.
 
 
-### -param *
+### -param Arg5
 
 *pOffsets* [in]
 

@@ -79,7 +79,7 @@ PFND3D12DDI_CREATEHEAPANDRESOURCE_0003
 
 A handle to the display device (graphics context).
  
-### -param * 
+### -param Arg2 
 
 Arguments used to create a heap.
 
@@ -91,11 +91,11 @@ A handle to a heap.
 
 The handle of the resource for the driver to use when it calls back into the runtime.
 
-### -param * 
+### -param Arg5 
 
 Arguments used to create a resource.
 
-### -param * 
+### -param Arg6
 
 Used to clear the values of the resource.
 

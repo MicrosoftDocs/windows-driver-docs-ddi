@@ -8,39 +8,39 @@ ms.assetid: ae1f4e0e-f801-41b1-a283-dd9ec9559e45
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
 ms.topic: callback
+req.header: d3d12umddi.h
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: Windows 10, version 1903
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.irql: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+targetos: Windows
+ms.custom: D3D12 Release 6, Build rev 3., 19H1
 f1_keywords:
  - "d3d12umddi/PFND3D12DDI_UMD_CALLBACK_METHOD"
-req.header: d3d12umddi.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt: Windows 10, version 1903
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library: 
-topic_type: 
+topic_type:
  - apiref
-api_type: 
+api_type:
  - UserDefined
-api_location: 
+api_location:
  - d3d12umddi.h
-api_name: 
+api_name:
  - PFND3D12DDI_UMD_CALLBACK_METHOD
 product:
-- Windows
-targetos: Windows
+ - Windows
 dev_langs:
  - c++
-ms.custom: D3D12 Release 6, Build rev 3., 19H1
 ---
 
 # PFND3D12DDI_UMD_CALLBACK_METHOD callback function
@@ -48,6 +48,16 @@ ms.custom: D3D12 Release 6, Build rev 3., 19H1
 ## -description
 
 Used by the user mode driver to complete a context.
+
+## -parameters
+
+### -param pContext
+
+A pointer to the context.
+
+## -returns
+
+Returns void.
 
 ## -prototype
 
@@ -66,16 +76,7 @@ void Pfnd3d12ddiUmdCallbackMethod
 
 ```
 
-## -parameters
-
-### -param *pContext
-
-A pointer to the context.
-
-## -returns
-
-Returns void.
-
 ## -remarks
 
 ## -see-also
+

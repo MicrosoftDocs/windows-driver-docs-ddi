@@ -61,7 +61,7 @@ The <b>DrawTriPatch</b> function draws a new or cached triangular patch or updat
 A handle to the display device (graphics context).
 
 
-### -param *
+### -param Arg2
 
 
 *pData* [in]
@@ -69,14 +69,14 @@ A handle to the display device (graphics context).
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_drawtripatch">D3DDDIARG_DRAWTRIPATCH</a> structure that describes the triangular patch to draw.
 
 
-### -param *
+### -param Arg3
 
 *pInfo* [in]
 
 Optional. A pointer to a D3DDDITRIPATCH_INFO structure that describes information about the triangular patch.
 
 
-### -param *
+### -param Arg4
 
 *pPatch* [in]
 

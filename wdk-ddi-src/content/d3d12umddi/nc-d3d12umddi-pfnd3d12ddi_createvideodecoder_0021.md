@@ -60,7 +60,7 @@ The <i>pfnCreateVideoDecoder</i> callback function creates a video decoder.
 
 The hardware device being processed.
 
-### -param *pArgs
+### -param pArgs
 
 *CreateVideoDecoder* [in]
 

@@ -71,11 +71,11 @@ The video decoder that contains internal state for this decode session.  Example
 The submission ID is a monotonically increasing integer value.  The value passed to this function must be larger than any passed decode frame submission for the decoder specified by the <i>hDrvVideoDecoder</i> parameter.  Callers should use fences to track submission completion and then provide completed submission IDs to drivers by using <a href="https://msdn.microsoft.com/2E90B365-8C5D-4586-AAA8-D49CC9BBCF70">pfnDecoderTrimAllocations</a> to allow driver to manage resources associated with that decoder.
 
 
-### -param *pOutputStreamParameters
+### -param pOutputStreamParameters
 
 The output surface and output parameters.  For more information, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d12umddi/ns-d3d12umddi-d3d12ddi_video_decode_output_stream_arguments_0021">D3D12DDI_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS</a> structure. 
 
-### -param *pInputStreamParameters
+### -param pInputStreamParameters
 
 The input bitstream, parameters, reference frames, and other input parameters for the decode operation.  For more information, see the <a href="https://msdn.microsoft.com/B956626C-B5D7-4217-A90A-EC7E436DF6C0">D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS</a> structure.
 

@@ -61,13 +61,13 @@ The <b>CreatePixelShader</b> function converts pixel shader code into a hardware
 A handle to the display device (graphics context).
 
 
-### -param *
+### -param Arg2
 
 *pCode* [in]
 
 An array of CONST UINT tokens that make up the pixel shader code.
 
-### -param *
+### -param Arg3
 
 *pData* [in, out]
 

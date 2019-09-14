@@ -67,7 +67,7 @@ Called by the Microsoft Direct3D runtime to retrieve info that describes a count
 
 A value of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_createquery">D3DDDIQUERYTYPE</a> that identifies the counter identifier that info is retrieved for.
 
-### -param *
+### -param Arg2
 
 *pType* [out]
 
@@ -80,13 +80,13 @@ A pointer to a variable that receives one of the following values from the <b>D3
 |D3DDDI_COUNTER_TYPE_UINT32|32-bit value|
 |D3DDDI_COUNTER_TYPE_UINT64|64-bit value|
 
-### -param *
+### -param Arg3
 
 *pActiveCounters* [out]
 
 A pointer to a variable that receives the number of simultaneously active counters that are allocated for the creation of the counter identifier that the <i>Counter</i> parameter identifies.
 
-### -param Arg2
+### -param Arg4
 
 *pszName* [out, optional]
 
@@ -94,7 +94,7 @@ An optional pointer that the driver returns a <b>NULL</b>-terminated string to t
 
 Can be <b>NULL</b>, in which case the app doesn't need the name.
 
-### -param *pNameLength [in, out, optional]
+### -param pNameLength [in, out, optional]
 
 An optional pointer to a variable that receives the size, in bytes, of the <b>NULL</b>-terminated string that the <i>pszName</i> parameter specifies.
 
@@ -106,7 +106,7 @@ Here are limitations on the values of the <i>pNameLength</i> and  <i>pszName</i>
 <li>If both <i>pszName</i> and <i>pNameLength</i> are not <b>NULL</b>, the driver must check the input value of <i>pNameLength</i> to ensure that there's enough room in the allocated buffer, and then the length of the <i>pszName</i> string (including terminating <b>NULL</b> character) is passed out through the <i>pNameLength</i> parameter.</li>
 </ul>
 
-### -param Arg3
+### -param Arg6
 
 *pszUnits* [out, optional]
 
@@ -114,7 +114,7 @@ An optional pointer that the driver returns a <b>NULL</b>-terminated string to t
 
 Can be <b>NULL</b>, in which case the app doesn't need the units info. See more info in the explanation of the <i>pUnitsLength</i> parameter.
 
-### -param *pUnitsLength [in, out, optional]
+### -param pUnitsLength [in, out, optional]
 
  An optional pointer to a variable that receives the size, in bytes, of the <b>NULL</b>-terminated string that the <i>pszUnits</i> parameter specifies.
 
@@ -126,7 +126,7 @@ Here are limitations on the values of the <i>pUnitsLength</i> and  <i>pszUnits</
 <li>If both <i>pszUnits</i> and <i>pUnitsLength</i> are not <b>NULL</b>, the driver must check the input value of <i>pUnitsLength</i> to ensure that there's enough room in the allocated buffer, and then the length of the <i>pszUnits</i> string (including terminating <b>NULL</b> character) is passed out through the <i>pUnitsLength</i> parameter.</li>
 </ul>
 
-### -param Arg4
+### -param Arg8
 
 *pszDescription* [out, optional]
 
@@ -134,7 +134,7 @@ An optional pointer that the driver returns a <b>NULL</b>-terminated string to t
 
 Can be <b>NULL</b>, in which case the app doesn't need the description info. See more info in the explanation of the <i>pDescriptionLength</i> parameter.
 
-### -param *pDescriptionLength [in, out, optional]
+### -param pDescriptionLength [in, out, optional]
 
  An optional pointer to a variable that receives the size, in bytes, of the <b>NULL</b>-terminated string that the <i>pszDescription</i> parameter specifies.
 

@@ -8,33 +8,33 @@ ms.assetid: 4df549ee-92a9-4b7b-9145-8b532047771c
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
 ms.topic: enum
+ms.keywords: D3D12DDI_BACKGROUND_PROCESSING_MODE_0062, D3D12DDI_BACKGROUND_PROCESSING_MODE_0062,
+req.header: d3d12umddi.h
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: Windows 10, version 1903
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
+req.typenames: D3D12DDI_BACKGROUND_PROCESSING_MODE_0062
+targetos: Windows
+ms.custom: D3D12 Release 6, Build rev 2., 19H1
 f1_keywords:
  - "d3d12umddi/D3D12DDI_BACKGROUND_PROCESSING_MODE_0062"
-ms.keywords: D3D12DDI_BACKGROUND_PROCESSING_MODE_0062, D3D12DDI_BACKGROUND_PROCESSING_MODE_0062, 
-req.header: d3d12umddi.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt: Windows 10, version 1903
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
-req.typenames: D3D12DDI_BACKGROUND_PROCESSING_MODE_0062
-topic_type: 
+topic_type:
  - apiref
-api_type: 
+api_type:
  - HeaderDef
-api_location: 
+api_location:
  - d3d12umddi.h
-api_name: 
+api_name:
  - D3D12DDI_BACKGROUND_PROCESSING_MODE_0062
 product:
-- Windows
-targetos: Windows
+ - Windows
 dev_langs:
  - c++
-ms.custom: D3D12 Release 6, Build rev 2., 19H1
 ---
 
 # D3D12DDI_BACKGROUND_PROCESSING_MODE_0062 enumeration
@@ -69,7 +69,7 @@ If the disable flag is turned on at the same time as specifying [D3D12DDI_MEASUR
 
 The disable flag is only valid when developer mode is enabled.
 
-### -field D3D12DDI_BACKGROUND_PROCESSING_MODE_0062_DISABLE_ALL_PROFILING 
+### -field D3D12DDI_BACKGROUND_PROCESSING_MODE_0062_DISABLE_ALL_PROFILING
 
 In addition to suspending dynamic shader recompilation, this indicates that the driver should avoid making any behavioral changes that would perturb performance, such as dynamically tuning cache policies or compute dispatch patterns. This is for use during profiling sessions, where an A/B comparison must provide stable timing results.
 
@@ -78,3 +78,4 @@ This flag is only valid when developer mode is enabled.
 ## -remarks
 
 ## -see-also
+

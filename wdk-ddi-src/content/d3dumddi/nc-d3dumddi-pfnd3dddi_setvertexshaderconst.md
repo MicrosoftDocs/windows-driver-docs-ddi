@@ -61,14 +61,14 @@ The <i>SetVertexShaderConst</i> function sets one or more vertex shader constant
 A handle to the display device (graphics context).
 
 
-### -param *
+### -param Arg2
 
 
 *pData* [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_setvertexshaderconst">D3DDDIARG_SETVERTEXSHADERCONST</a> structure that specifies how to set the vertex shader constant registers.
 
-### -param *
+### -param Arg3
 
 *pRegisters* [in]
 

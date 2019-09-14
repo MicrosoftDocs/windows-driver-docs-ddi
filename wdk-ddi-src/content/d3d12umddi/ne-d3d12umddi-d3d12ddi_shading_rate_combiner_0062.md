@@ -8,33 +8,33 @@ ms.assetid: d1613af5-477e-42cf-a804-f830b82ce2bf
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
 ms.topic: enum
+ms.keywords: D3D12DDI_SHADING_RATE_COMBINER_0062, D3D12DDI_SHADING_RATE_COMBINER_0062,
+req.header: d3d12umddi.h
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: Windows 10, version 1903
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
+req.typenames: D3D12DDI_SHADING_RATE_COMBINER_0062
+targetos: Windows
+ms.custom: D3D12 Release 6, Build rev 2., 19H1
 f1_keywords:
  - "d3d12umddi/D3D12DDI_SHADING_RATE_COMBINER_0062"
-ms.keywords: D3D12DDI_SHADING_RATE_COMBINER_0062, D3D12DDI_SHADING_RATE_COMBINER_0062, 
-req.header: d3d12umddi.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt: Windows 10, version 1903
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
-req.typenames: D3D12DDI_SHADING_RATE_COMBINER_0062
-topic_type: 
+topic_type:
  - apiref
-api_type: 
+api_type:
  - HeaderDef
-api_location: 
+api_location:
  - d3d12umddi.h
-api_name: 
+api_name:
  - D3D12DDI_SHADING_RATE_COMBINER_0062
 product:
-- Windows
-targetos: Windows
+ - Windows
 dev_langs:
  - c++
-ms.custom: D3D12 Release 6, Build rev 2., 19H1
 ---
 
 # D3D12DDI_SHADING_RATE_COMBINER_0062 enumeration
@@ -65,7 +65,7 @@ The combined shading rate is the minimum of A and B. This shading rate is the hi
 
 The combined shading rate is the maximum of A and B. This shading rate is the lower quality.
 
-### -field D3D12DDI_SHADING_RATE_COMBINER_0062_SUM 
+### -field D3D12DDI_SHADING_RATE_COMBINER_0062_SUM
 
 Apply the cost of B relative to A. The combined rate is equal to min(*maxRate*, A.xy + B.xy), where *maxRate* is the largest permitted dimension of coarse pixel on the device.
 
@@ -77,5 +77,5 @@ When specifying a shader rate by vertex attribute:
 
 * If a geometry shader is not used, the shading rate is specified by the provoking vertex.
 
-
 ## -see-also
+

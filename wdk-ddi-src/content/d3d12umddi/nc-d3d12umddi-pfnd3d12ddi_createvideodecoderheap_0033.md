@@ -7,8 +7,6 @@ ms.assetid: BCCDBC42-FE6B-49C6-9E95-F0CF7F5CCB2E
 ms.date: 05/10/2018
 ms.keywords: PFND3D12DDI_CREATEVIDEODECODERHEAP_0033, PFND3D12DDI_CREATEVIDEODECODERHEAP_0033  callback, PFND3D12DDI_CREATEVIDEODECODERHEAP_0033 callback function [Display Devices], d3d12umddi/PFND3D12DDI_CREATEVIDEODECODERHEAP_0033, display.pfnd3d12ddi_createvideodecoderheap_0033_
 ms.topic: callback
-f1_keywords:
- - "d3d12umddi/PFND3D12DDI_CREATEVIDEODECODERHEAP_0033"
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: Windows
@@ -26,42 +24,37 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3d12umddi.h
-api_name:
-- PFND3D12DDI_CREATEVIDEODECODERHEAP_0033
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_CREATEVIDEODECODERHEAP_0033"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3d12umddi.h
+api_name:
+ - PFND3D12DDI_CREATEVIDEODECODERHEAP_0033
+product:
+ - Windows
 ---
 
 # PFND3D12DDI_CREATEVIDEODECODERHEAP_0033 callback function
 
-
 ## -description
-
 
 Used to create a video decoder heap.
 
-
 ## -parameters
-
-
-
 
 ### -param hDrvDevice
 
 The hardware device being processed.
 
-
-### -param *
+### -param Arg2
 
 pArgs [in]
 
@@ -71,14 +64,7 @@ The arguments used to create a video decoder heap.
 
 The video decoder heap.
 
-
-
-
 ## -returns
 
-
-
 Returns STATUS_SUCCESS if completed successfully.
-
-
 

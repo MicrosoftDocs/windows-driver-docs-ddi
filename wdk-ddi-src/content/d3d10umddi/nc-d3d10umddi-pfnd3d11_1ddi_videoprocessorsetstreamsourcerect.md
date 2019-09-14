@@ -87,7 +87,7 @@ If <b>TRUE</b>, the specified source rectangle must be applied to the input stre
 If <b>FALSE</b>, no source rectangle is applied to the input stream.
 
 
-### -param *
+### -param Arg5
 
 *pSourceRect* [in]
 

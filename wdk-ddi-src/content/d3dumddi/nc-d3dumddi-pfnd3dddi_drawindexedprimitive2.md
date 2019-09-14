@@ -61,25 +61,25 @@ The <b>DrawIndexedPrimitive2</b> function draws indexed primitives that the Micr
 A handle to the display device (graphics context).
 
 
-### -param *
+### -param Arg2
 
 *pData* [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_drawindexedprimitive2">D3DDDIARG_DRAWINDEXEDPRIMITIVE2</a> structure that describes the primitive to draw.
 
-### -param Arg1
+### -param Arg3
 
 *dwIndicesSize* [in]
 
 The size, in bytes, of indexes in the buffer that <i>pIndexBuffer</i> points to. This size is 2 or 4 bytes. 
 
-### -param *
+### -param Arg4
 
 *pIndexBuffer* [in]
 
 A pointer to a buffer of index data to be drawn.
 
-### -param *
+### -param Arg5
 
 *pFlagBuffer* [in, optional]
 

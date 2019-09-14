@@ -72,11 +72,11 @@ PFND3D12DDI_ENUMERATE_METACOMMANDS
 
 A handle to the display device (graphics context).
 
-### -param *pNumMetaCommands
+### -param pNumMetaCommands
 
 The number of meta-commands.
 
-### -param *pDescs:
+### -param pDescs:
 
 Pointer to an array of meta-command descriptions.
 

@@ -5,34 +5,34 @@ description: Type of copy operation to perform.
 ms.assetid: 382dddf5-3cbe-4c32-b1c2-778e0b1d855e
 ms.date: 10/19/2018
 ms.topic: enum
-f1_keywords:
- - "d3d12umddi/D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_COPY_MODE"
-ms.keywords: D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_COPY_MODE, D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_COPY_MODE, 
+ms.keywords: D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_COPY_MODE, D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_COPY_MODE,
 req.header: d3d12umddi.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
 req.typenames: D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_COPY_MODE
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- d3d12umddi.h
-api_name: 
-- D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_COPY_MODE
-product:
-- Windows
 targetos: Windows
 tech.root: display
+ms.custom: RS5
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_COPY_MODE"
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12umddi.h
+api_name:
+ - D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_COPY_MODE
+product:
+ - Windows
 dev_langs:
  - c++
-ms.custom: RS5
 ---
 
 # D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_COPY_MODE enumeration
@@ -87,7 +87,7 @@ The source memory must be in [resource state](ne-d3d12umddi-d3d12ddi_resource_st
 
 When serializing a top-level acceleration structure the bottom-level acceleration structures it refers to do not have to still be present or intact in memory.  Likewise, bottom-level acceleration structures can be serialized independent of whether any top-level acceleration structures are pointing to them. Said another way, the order of serialization of acceleration structures doesn’t matter.
 
-### -field D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_COPY_MODE_DESERIALIZE 
+### -field D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_COPY_MODE_DESERIALIZE
 
 Source must be a serialized acceleration structure, with any pointers, directly after the header, fixed to point to their new locations, as discussed in the [D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_POSTBUILD_INFO_SERIALIZATION_DESC_0054](ns-d3d12umddi-d3d12ddi_raytracing_acceleration_structure_postbuild_info_serialization_desc_0054.md) structure.  
 
@@ -102,3 +102,4 @@ The destination memory must be in state D3D12DDI_RESOURCE_STATE_RAYTRACING_ACCEL
 ## -remarks
 
 ## -see-also
+

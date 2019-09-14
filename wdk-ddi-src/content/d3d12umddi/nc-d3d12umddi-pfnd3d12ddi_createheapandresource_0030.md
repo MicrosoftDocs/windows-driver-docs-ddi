@@ -74,23 +74,23 @@ Used to create a heap.
 
 Used to create a resource.
 
-### -param *
+### -param Arg4
 
 *d3d12ddiarg_createresource_0003* [in, optional]
 
 Arguments used to create a resource.
 
-### -param *
+### -param Arg5
 
 *d3d12ddi_clear_values* [in, optional]
 
 Used to clear the values of the resource.
 
-### -param Arg4
+### -param Arg6
 
 The protected resource session.
 
-### -param Arg5
+### -param Arg7
 
 The hardware resource.
 

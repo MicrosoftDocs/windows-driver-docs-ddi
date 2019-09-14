@@ -5,40 +5,40 @@ description: pfnMakeResident is used to instruct the OS to add a resource to the
 ms.assetid: d31a9aac-08c6-44a9-918e-81db909a6f44
 ms.date: 10/19/2018
 ms.topic: callback
-f1_keywords:
- - "d3d12umddi/PFND3D12DDI_MAKERESIDENT_0001"
 req.header: d3d12umddi.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- UserDefined
-api_location: 
-- d3d12umddi.h
-api_name: 
-- PFND3D12DDI_MAKERESIDENT_0001
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
+tech.root: display
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_MAKERESIDENT_0001"
+topic_type:
+ - apiref
+api_type:
+ - UserDefined
+api_location:
+ - d3d12umddi.h
+api_name:
+ - PFND3D12DDI_MAKERESIDENT_0001
+product:
+ - Windows
 dev_langs:
  - c++
-tech.root: display
 ---
 
 # PFND3D12DDI_MAKERESIDENT_0001 callback function
@@ -46,6 +46,20 @@ tech.root: display
 ## -description
 
 pfnMakeResident is used to instruct the OS to add a resource to the device residency list and increment the residency reference count on this allocation.
+
+## -parameters
+
+### -param Arg1
+
+A handle to the display device.
+
+### -param Arg2
+
+A pointer to a [D3D12DDIARG_MAKERESIDENT_0001](ns-d3d12umddi-d3d12ddiarg_makeresident_0001.md) structure that describes the memory pages to make resident.
+
+## -returns
+
+Returns HRESULT.
 
 ## -prototype
 
@@ -65,17 +79,3 @@ HRESULT Pfnd3d12ddiMakeresident0001
 
 ```
 
-## -parameters
-
-### -param Arg1
-
-A handle to the display device.
-
-### -param *: 
-
-A pointer to a [D3D12DDIARG_MAKERESIDENT_0001](ns-d3d12umddi-d3d12ddiarg_makeresident_0001.md) structure that describes the memory pages to make resident. 
-
-
-## -returns
-
-Returns HRESULT.
