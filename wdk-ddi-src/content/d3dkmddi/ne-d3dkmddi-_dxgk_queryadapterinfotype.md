@@ -96,11 +96,11 @@ Indicates private data for the user-mode display driver.
 
 ### -field DXGKQAITYPE_DRIVERCAPS
 
-Indicates the driver capabilities in a [DXGK_DRIVERCAPS](..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md) structure.
+Indicates the driver capabilities in a [DXGK_DRIVERCAPS](ns-d3dkmddi-_dxgk_drivercaps.md) structure.
 
 ### -field DXGKQAITYPE_QUERYSEGMENT
 
-Indicates memory-segment information in a [DXGK_QUERYSEGMENTOUT](..\d3dkmddi\ns-d3dkmddi-_dxgk_querysegmentout.md) structure.
+Indicates memory-segment information in a [DXGK_QUERYSEGMENTOUT](ns-d3dkmddi-_dxgk_querysegmentout.md) structure.
 
 ### -field DXGKQAITYPE_RESERVED
 
@@ -114,7 +114,7 @@ Note that this constant occurs starting with Windows 7.
 
 ### -field DXGKQAITYPE_QUERYSEGMENT3
 
-Indicates memory-segment information in a [DXGK_QUERYSEGMENTOUT3](..\d3dkmddi\ns-d3dkmddi-_dxgk_querysegmentout3.md) structure.
+Indicates memory-segment information in a [DXGK_QUERYSEGMENTOUT3](ns-d3dkmddi-_dxgk_querysegmentout3.md) structure.
 
 Supported starting with Windows 8.
 
@@ -150,13 +150,13 @@ Supported starting with Windows 8.1.
 
 ### -field DXGKQAITYPE_QUERYSEGMENT4
 
-Indicates memory-segment information in a [DXGK_QUERYSEGMENTOUT4](..\d3dkmddi\ns-d3dkmddi-_dxgk_querysegmentout4.md) structure.
+Indicates memory-segment information in a [DXGK_QUERYSEGMENTOUT4](ns-d3dkmddi-_dxgk_querysegmentout4.md) structure.
 
 Supported starting with Windows 10.
 
 ### -field DXGKQAITYPE_SEGMENTMEMORYSTATE
 
-Indicates bad memory ranges in a [DXGK_MEMORYRANGE](..\d3dkmddi\ns-d3dkmddi-_dxgk_memoryrange.md) structure.
+Indicates bad memory ranges in a [DXGK_MEMORYRANGE](ns-d3dkmddi-_dxgk_memoryrange.md) structure.
 
 Supported starting with Windows 10.
 
@@ -248,30 +248,30 @@ The GPU capabilities for a kernel mode display driver.
 
 ## -remarks
 
-The display miniport driver must fill the buffer pointed to by the **pOutputData** member of the [DXGKARG_QUERYADAPTERINFO](..\d3dkmddi\ns-d3dkmddi-_dxgkarg_queryadapterinfo.md) structure as follows:
+The display miniport driver must fill the buffer pointed to by the **pOutputData** member of the [DXGKARG_QUERYADAPTERINFO](ns-d3dkmddi-_dxgkarg_queryadapterinfo.md) structure as follows:
 
 | DXGKARG_QUERYADAPTERINFO.Type Value| Contents of output buffer pointed to by DXGKARG_QUERYADAPTERINFO].pOutputData |
 |--|--|
 | DXGKQAITYPE_UMDRIVERPRIVATE | Proprietary buffer |
-| DXGKQAITYPE_DRIVERCAPS | Populated [DXGK_DRIVERCAPS](..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md)  structure |
-| DXGKQAITYPE_QUERYSEGMENT | Populated [DXGK_QUERYSEGMENTOUT](..\d3dkmddi\ns-d3dkmddi-_dxgk_querysegmentout.md)  structure |
-| DXGKQAITYPE_QUERYSEGMENT3 | Populated [DXGK_QUERYSEGMENTOUT3](..\d3dkmddi\ns-d3dkmddi-_dxgk_querysegmentout3.md) structure |
+| DXGKQAITYPE_DRIVERCAPS | Populated [DXGK_DRIVERCAPS](ns-d3dkmddi-_dxgk_drivercaps.md)  structure |
+| DXGKQAITYPE_QUERYSEGMENT | Populated [DXGK_QUERYSEGMENTOUT](ns-d3dkmddi-_dxgk_querysegmentout.md)  structure |
+| DXGKQAITYPE_QUERYSEGMENT3 | Populated [DXGK_QUERYSEGMENTOUT3](ns-d3dkmddi-_dxgk_querysegmentout3.md) structure |
 | DXGKQAITYPE_NUMPOWERCOMPONENTS | A UINT value that specifies the number of power components used by the display miniport driver |
-| DXGKQAITYPE_POWERCOMPONENTINFO | Populated [DXGK_POWER_RUNTIME_COMPONENT](..\d3dkmddi\ns-d3dkmddi-_dxgk_power_runtime_component.md)  structure that provides information about the nth power component, where n is the component index specified by [DXGKARG_QUERYADAPTERINFO](vscode-resource://c:/drivers/wdk-ddi/wdk-ddi-src/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_queryadapterinfo.md) .pInputData in a call to the [DxgkDdiQueryAdapterInfo](..\d3dkmddi\ns-d3dkmddi-_dxgkarg_queryadapterinfo.md)  function |
-| DXGKQAITYPE_HISTORYBUFFERPRECISION | Populated [DXGKARG_HISTORYBUFFERPRECISION](..\d3dkmddi\ns-d3dkmddi-_dxgkarg_historybufferprecision.md) structure |
+| DXGKQAITYPE_POWERCOMPONENTINFO | Populated [DXGK_POWER_RUNTIME_COMPONENT](ns-d3dkmddi-_dxgk_power_runtime_component.md)  structure that provides information about the nth power component, where n is the component index specified by [DXGKARG_QUERYADAPTERINFO](ns-d3dkmddi-_dxgkarg_queryadapterinfo.md).pInputData in a call to the [DxgkDdiQueryAdapterInfo](ns-d3dkmddi-_dxgkarg_queryadapterinfo.md)  function |
+| DXGKQAITYPE_HISTORYBUFFERPRECISION | Populated [DXGKARG_HISTORYBUFFERPRECISION](ns-d3dkmddi-_dxgkarg_historybufferprecision.md) structure |
 
 ## -see-also
 
-[DXGK_DRIVERCAPS](..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md)
+[DXGK_DRIVERCAPS](ns-d3dkmddi-_dxgk_drivercaps.md)
 
-[DXGK_POWER_RUNTIME_COMPONENT](..\d3dkmddi\ns-d3dkmddi-_dxgk_power_runtime_component.md)
+[DXGK_POWER_RUNTIME_COMPONENT](ns-d3dkmddi-_dxgk_power_runtime_component.md)
 
-[DXGK_QUERYSEGMENTOUT](..\d3dkmddi\ns-d3dkmddi-_dxgk_querysegmentout.md)
+[DXGK_QUERYSEGMENTOUT](ns-d3dkmddi-_dxgk_querysegmentout.md)
 
-[DXGK_QUERYSEGMENTOUT3](..\d3dkmddi\ns-d3dkmddi-_dxgk_querysegmentout3.md)
+[DXGK_QUERYSEGMENTOUT3](ns-d3dkmddi-_dxgk_querysegmentout3.md)
 
-[DXGKARG_HISTORYBUFFERPRECISION](..\d3dkmddi\ns-d3dkmddi-_dxgkarg_historybufferprecision.md)
+[DXGKARG_HISTORYBUFFERPRECISION](ns-d3dkmddi-_dxgkarg_historybufferprecision.md)
 
-[DXGKARG_QUERYADAPTERINFO](..\d3dkmddi\ns-d3dkmddi-_dxgkarg_queryadapterinfo.md)
+[DXGKARG_QUERYADAPTERINFO](ns-d3dkmddi-_dxgkarg_queryadapterinfo.md)
 
-[DxgkDdiQueryAdapterInfo](..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md)
+[DxgkDdiQueryAdapterInfo](nc-d3dkmddi-dxgkddi_queryadapterinfo.md)
