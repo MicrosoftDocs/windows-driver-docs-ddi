@@ -250,7 +250,7 @@ The GPU capabilities for a kernel mode display driver.
 
 The display miniport driver must fill the buffer pointed to by the **pOutputData** member of the [DXGKARG_QUERYADAPTERINFO](ns-d3dkmddi-_dxgkarg_queryadapterinfo.md) structure as follows:
 
-| DXGKARG_QUERYADAPTERINFO.Type Value| Contents of output buffer pointed to by DXGKARG_QUERYADAPTERINFO].pOutputData |
+| DXGKARG_QUERYADAPTERINFO.Type Value| Contents of output buffer pointed to by DXGKARG_QUERYADAPTERINFO.pOutputData |
 |--|--|
 | DXGKQAITYPE_UMDRIVERPRIVATE | Proprietary buffer |
 | DXGKQAITYPE_DRIVERCAPS | Populated [DXGK_DRIVERCAPS](ns-d3dkmddi-_dxgk_drivercaps.md)  structure |
