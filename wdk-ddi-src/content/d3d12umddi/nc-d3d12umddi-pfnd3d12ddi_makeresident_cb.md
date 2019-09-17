@@ -5,38 +5,40 @@ description: pfnMakeResidentCb is used to instruct the OS to add a resource to t
 ms.assetid: 77df8a7f-140c-44f3-ba77-c80c102dbc7e
 ms.date: 10/19/2018
 ms.topic: callback
-f1_keywords:
- - "d3d12umddi/PFND3D12DDI_MAKERESIDENT_CB"
 req.header: d3d12umddi.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- UserDefined
-api_location: 
-- d3d12umddi.h
-api_name: 
-- PFND3D12DDI_MAKERESIDENT_CB
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_MAKERESIDENT_CB"
+topic_type:
+ - apiref
+api_type:
+ - UserDefined
+api_location:
+ - d3d12umddi.h
+api_name:
+ - PFND3D12DDI_MAKERESIDENT_CB
+product:
+ - Windows
+dev_langs:
+ - c++
 ---
 
 # PFND3D12DDI_MAKERESIDENT_CB callback function
@@ -44,6 +46,24 @@ tech.root: display
 ## -description
 
 pfnMakeResidentCb is used to instruct the OS to add a resource to the device residency list and increment the residency reference count on this allocation.
+
+## -parameters
+
+### -param hRTDevice
+
+A handle to the display device to be handled in the runtime.
+
+### -param hRTPagingQueue
+
+A handle to the paging queue to be handled in the runtime.
+
+### -param Arg3
+
+Pointer to a [D3DDDI_MAKERESIDENT](../d3dukmdt/ns-d3dukmdt-d3dddi_makeresident.md) structure.
+
+## -returns
+
+Returns HRESULT.
 
 ## -prototype
 
@@ -64,21 +84,3 @@ HRESULT Pfnd3d12ddiMakeresidentCb
 
 ```
 
-## -parameters
-
-### -param hRTDevice
-
-A handle to the display device to be handled in the runtime.
-
-### -param hRTPagingQueue
-
-A handle to the paging queue to be handled in the runtime.
-
-### -param *
-
-Pointer to a [D3DDDI_MAKERESIDENT](../d3dukmdt/ns-d3dukmdt-d3dddi_makeresident.md) structure.
-
-
-## -returns
-
-Returns HRESULT.

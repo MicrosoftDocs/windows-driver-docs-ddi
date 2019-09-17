@@ -7,8 +7,6 @@ ms.assetid: c69eedb1-c975-412c-aa9f-cf64a702f937
 ms.date: 05/10/2018
 ms.keywords: CreateDevice, CreateDevice callback function [Display Devices], PFND3D10DDI_CREATEDEVICE, PFND3D10DDI_CREATEDEVICE callback, UserModeDisplayDriverDx10_Functions_4d3d9d4c-e03b-46a9-a62a-cb49f071c0a2.xml, d3d10umddi/CreateDevice, display.createdevice_d3d10_
 ms.topic: callback
-f1_keywords:
- - "d3d10umddi/CreateDevice"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -26,35 +24,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3d10umddi.h
-api_name:
-- CreateDevice
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - "d3d10umddi/CreateDevice"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3d10umddi.h
+api_name:
+ - CreateDevice
+product:
+ - Windows
 ---
 
 # PFND3D10DDI_CREATEDEVICE callback function
 
-
 ## -description
 
-
-The <b>CreateDevice(D3D10)</b> function creates a graphics context that is referenced in subsequent calls. 
-
+The <b>CreateDevice(D3D10)</b> function creates a graphics context that is referenced in subsequent calls.
 
 ## -parameters
-
-
-
 
 ### -param Arg1
 
@@ -62,12 +56,11 @@ The <b>CreateDevice(D3D10)</b> function creates a graphics context that is refer
 
 A handle to the graphics adapter object that was created with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_openadapter">OpenAdapter10</a> function.
 
-### -param *
+### -param Arg2
 
 *pCreateData* [in, out]
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ns-d3d10umddi-d3d10ddiarg_createdevice">D3D10DDIARG_CREATEDEVICE</a> structure. On input, this structure contains information that the driver can use. On output, the driver specifies information in the structure that the Microsoft Direct3D runtime can use.
-
 
 ## -returns
 
@@ -100,7 +93,4 @@ Generally, devices are independent of each other, so that resources that are cre
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_openadapter">OpenAdapter10</a>
- 
-
- 
 

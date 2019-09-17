@@ -36,8 +36,6 @@ apilocation:
 - ring.h
 apiname: 
 - NetRingGetRangeCount
-product:
-- Windows
 targetos: Windows
 product:
 - Windows

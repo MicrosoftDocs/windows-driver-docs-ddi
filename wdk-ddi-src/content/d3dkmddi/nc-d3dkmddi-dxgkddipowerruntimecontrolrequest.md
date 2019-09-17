@@ -7,8 +7,6 @@ ms.assetid: 56535128-3107-4fb5-b0e1-2e913c386cc2
 ms.date: 05/10/2018
 ms.keywords: DxgkDdiPowerRuntimeControlRequest, DxgkDdiPowerRuntimeControlRequest callback function [Display Devices], PDXGKDDIPOWERRUNTIMECONTROLREQUEST, PDXGKDDIPOWERRUNTIMECONTROLREQUEST callback, d3dkmddi/DxgkDdiPowerRuntimeControlRequest, display.dxgkddipowerruntimecontrolrequest
 ms.topic: callback
-f1_keywords:
- - "d3dkmddi/DxgkDdiPowerRuntimeControlRequest"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Desktop
@@ -26,83 +24,65 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <=DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- D3dkmddi.h
-api_name:
-- DxgkDdiPowerRuntimeControlRequest
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - "d3dkmddi/DxgkDdiPowerRuntimeControlRequest"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - D3dkmddi.h
+api_name:
+ - DxgkDdiPowerRuntimeControlRequest
+product:
+ - Windows
 ---
 
 # DXGKDDIPOWERRUNTIMECONTROLREQUEST callback function
 
-
 ## -description
-
 
 Called by the Power Engine Plug-in (PEP) to exchange information with the display miniport driver. Also called by the Microsoft DirectX graphics kernel subsystem to notify the display miniport driver about certain events.
 
-
 ## -parameters
 
-
-
-
-### -param DriverContext [in]
+### -param DriverContext
 
 A handle to a context block associated with a display adapter. The display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function previously provided this handle to the DirectX graphics kernel subsystem.
 
-
-### -param PowerControlCode [in]
+### -param PowerControlCode
 
 A pointer to a GUID that defines the meaning of the PEP's control request. For more information, see Remarks.
 
-
-### -param InBuffer [in, optional]
+### -param InBuffer
 
 An optional pointer to an input buffer.
 
-
-### -param InBufferSize [in]
+### -param InBufferSize
 
 The size, in bytes, of the buffer that <i>InBuffer</i> points to.
 
-
-### -param OutBuffer [out, optional]
+### -param OutBuffer
 
 An optional pointer to an output buffer.
 
-
-### -param OutBufferSize [in]
+### -param OutBufferSize
 
 The size, in bytes, of the buffer that <i>OutBuffer</i> points to.
 
-
-### -param BytesReturned [out, optional]
+### -param BytesReturned
 
 An optional pointer to a buffer that contains the number of bytes that are written by the display miniport driver to the output buffer.
 
-
 ## -returns
-
-
 
 Returns STATUS_SUCCESS if it succeeds. Otherwise, it returns one of the error codes defined in Ntstatus.h.
 
-
-
-
 ## -remarks
-
-
 
 The operating system calls <i>DxgkDdiPowerRuntimeControlRequest</i> only if the display miniport driver indicates support by setting <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgk_drivercaps">DXGK_DRIVERCAPS</a>.<b>SupportRuntimePowerManagement</b> to <b>TRUE</b>.
 
@@ -196,13 +176,7 @@ This function can be called simultaneously from multiple execution threads.
 
 The operating system guarantees that this function follows the zero level synchronization mode as defined in <a href="https://docs.microsoft.com/windows-hardware/drivers/display/threading-and-synchronization-zero-level">Threading and Synchronization Zero Level</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_queryadapterinfo">DXGKARG_QUERYADAPTERINFO</a>
 
@@ -225,7 +199,4 @@ The operating system guarantees that this function follows the zero level synchr
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a>
- 
-
- 
 

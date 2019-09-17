@@ -40,6 +40,8 @@ product:
 - Windows
 targetos: Windows
 req.typenames: DXGK_MONITORLINKINFO_CAPABILITIES, *PDXGK_MONITORLINKINFO_CAPABILITIES
+dev_langs:
+ - c++
 ms.custom: 19H1
 ---
 

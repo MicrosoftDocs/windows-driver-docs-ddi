@@ -7,8 +7,6 @@ ms.assetid: 893e0be1-aa29-429a-a3ca-a9f19053fd92
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_VIDPNTOPOLOGY_ADDPATH, DXGKDDI_VIDPNTOPOLOGY_ADDPATH callback, VidPnFunctions_9c594989-a5f6-4977-8a1b-0302d30e8df7.xml, d3dkmddi/pfnAddPath, display.dxgk_vidpntopology_interface_pfnaddpath, pfnAddPath, pfnAddPath callback function [Display Devices]
 ms.topic: callback
-f1_keywords:
- - "d3dkmddi/pfnAddPath"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Desktop
@@ -26,49 +24,41 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dkmddi.h
-api_name:
-- pfnAddPath
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - "d3dkmddi/pfnAddPath"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dkmddi.h
+api_name:
+ - pfnAddPath
+product:
+ - Windows
 ---
 
 # DXGKDDI_VIDPNTOPOLOGY_ADDPATH callback function
 
-
 ## -description
-
 
 The <b>pfnAddPath</b> function adds a video present path to a specified VidPN topology object.
 
-
 ## -parameters
 
-
-
-
-### -param hVidPnTopology [in]
+### -param hVidPnTopology
 
 [in] A handle to a VidPN topology object. The display miniport driver previously obtained this handle by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_vidpn_gettopology">pfnGetTopology</a> function of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgk_vidpn_interface">DXGK_VIDPN_INTERFACE</a> interface.
 
-
-### -param pVidPnPresentPath [in]
+### -param pVidPnPresentPath
 
 [in] A pointer to a D3DKMDT_VIDPN_PRESENT_PATH structure that describes the path. The display miniport driver previously obtained this pointer by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_vidpntopology_createnewpathinfo">pfnCreateNewPathInfo</a>.
 
-
 ## -returns
-
-
 
 The <b>pfnAddPath</b> function returns one of the following values:
 
@@ -78,11 +68,7 @@ The <b>pfnAddPath</b> function returns one of the following values:
 |STATUS_GRAPHICS_INVALID_VIDPN_TOPOLOGY|The handle supplied in hVidPnTopology was invalid.|
 |STATUS_ACCESS_DENIED|The path cannot be removed in the context of the current DDI call.|
 
-
-
 ## -remarks
-
-
 
 To add a path to a topology, the display miniport driver performs the following steps.
 
@@ -98,13 +84,7 @@ If you obtain a D3DKMDT_VIDPN_PRESENT_PATH structure by calling <b>pfnCreateNewP
 
 The D3DKMDT_HVIDPNTOPOLOGY data type is defined in<i> D3dkmdt.h</i>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmdt/ns-d3dkmdt-_d3dkmdt_vidpn_present_path">D3DKMDT_VIDPN_PRESENT_PATH</a>
 
@@ -115,7 +95,4 @@ The D3DKMDT_HVIDPNTOPOLOGY data type is defined in<i> D3dkmdt.h</i>.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_vidpntopology_releasepathinfo">pfnReleasePathInfo</a>
- 
-
- 
 

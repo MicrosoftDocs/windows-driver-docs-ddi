@@ -36,8 +36,6 @@ apilocation:
 - netrequestqueue.h
 apiname: 
 - NetRequestQueueGetAdapter
-product:
-- Windows
 targetos: Windows
 product:
 - Windows

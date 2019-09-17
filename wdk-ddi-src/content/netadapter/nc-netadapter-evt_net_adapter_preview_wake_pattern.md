@@ -33,8 +33,6 @@ api_location:
 - netadapter.h
 api_name: 
 - EvtNetAdapterPreviewWakePattern
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 product:

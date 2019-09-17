@@ -8,8 +8,6 @@ ms.assetid: 1af85315-4367-49de-9453-eef62c838c97
 ms.date: 05/10/2018
 ms.keywords: DestroyResource, DestroyResource callback function [Display Devices], PFND3DDDI_DESTROYRESOURCE, PFND3DDDI_DESTROYRESOURCE callback, UserModeDisplayDriver_Functions_7d6c0444-aa22-4348-9da4-9708414284e9.xml, d3dumddi/DestroyResource, display.destroyresource
 ms.topic: callback
-f1_keywords:
- - "d3dumddi/DestroyResource"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop
@@ -27,59 +25,46 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dumddi.h
-api_name:
-- DestroyResource
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - "d3dumddi/DestroyResource"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dumddi.h
+api_name:
+ - DestroyResource
+product:
+ - Windows
 ---
 
 # PFND3DDDI_DESTROYRESOURCE callback function
 
-
 ## -description
-
 
 The <b>DestroyResource</b> function releases a specified resource.
 
-
 ## -parameters
 
-
-
-
-### -param hDevice [in]
+### -param hDevice
 
 A handle to the display device (graphics context) that is used to destroy the resource.
 
-
-### -param Arg1
+### -param Arg2
 
 *hResource* [in]
 
 A handle to the resource that the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_createresource">CreateResource</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_openresource">OpenResource</a> function created.
 
-
 ## -returns
 
-
-
-<b>DestroyResource</b> returns S_OK or an appropriate error result is the resource is not released. 
-
-
-
+<b>DestroyResource</b> returns S_OK or an appropriate error result is the resource is not released.
 
 ## -remarks
-
-
 
 After the Microsoft Direct3D runtime calls the user-mode display driver's <b>DestroyResource</b> function, the user-mode display driver must first flush any batched commands that depend on the resource that is being destroyed by calling the runtime's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_rendercb">pfnRenderCb</a> function. The driver must then call the runtime's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_deallocatecb">pfnDeallocateCb</a> function to destroy allocations that are associated with the resource. 
 
@@ -89,13 +74,7 @@ After the Microsoft Direct3D runtime calls the user-mode display driver's <b>Des
 <div> </div>
 For more information about creating and destroying resources, see <a href="https://docs.microsoft.com/windows-hardware/drivers/display/handling-resource-creation-and-destruction">Handling Resource Creation and Destruction</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_createresource">CreateResource</a>
 
@@ -114,7 +93,4 @@ For more information about creating and destroying resources, see <a href="https
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_rendercb">pfnRenderCb</a>
- 
-
- 
 

@@ -5,32 +5,34 @@ description: Specifies the geometry type to use in a ray tracing acceleration st
 ms.assetid: 316cdada-1554-4016-b7bf-7fc1a3618950
 ms.date: 10/19/2018
 ms.topic: enum
-f1_keywords:
- - "d3d12umddi/D3D12DDI_RAYTRACING_GEOMETRY_TYPE"
-ms.keywords: D3D12DDI_RAYTRACING_GEOMETRY_TYPE, D3D12DDI_RAYTRACING_GEOMETRY_TYPE, 
+ms.keywords: D3D12DDI_RAYTRACING_GEOMETRY_TYPE, D3D12DDI_RAYTRACING_GEOMETRY_TYPE,
 req.header: d3d12umddi.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
 req.typenames: D3D12DDI_RAYTRACING_GEOMETRY_TYPE
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- d3d12umddi.h
-api_name: 
-- D3D12DDI_RAYTRACING_GEOMETRY_TYPE
-product:
-- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_RAYTRACING_GEOMETRY_TYPE"
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12umddi.h
+api_name:
+ - D3D12DDI_RAYTRACING_GEOMETRY_TYPE
+product:
+ - Windows
+dev_langs:
+ - c++
 ---
 
 # D3D12DDI_RAYTRACING_GEOMETRY_TYPE enumeration
@@ -45,10 +47,11 @@ Specifies the geometry type to use in a ray tracing acceleration structure.
 
 The triangle index within the geometry object.
 
-### -field D3D12DDI_RAYTRACING_GEOMETRY_TYPE_PROCEDURAL_PRIMITIVE_AABBS 
+### -field D3D12DDI_RAYTRACING_GEOMETRY_TYPE_PROCEDURAL_PRIMITIVE_AABBS
 
 The index into the AABB (axis-aligned bounding box) array defining the geometry object.
 
 ## -remarks
 
 ## -see-also
+

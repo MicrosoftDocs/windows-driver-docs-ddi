@@ -7,8 +7,6 @@ ms.assetid: ae24bc29-177e-48a1-adf9-ed8c79b7f39c
 ms.date: 05/10/2018
 ms.keywords: PFND3D11_1DDI_GETVIDEODECODERPROFILECOUNT, PFND3D11_1DDI_GETVIDEODECODERPROFILECOUNT callback, d3d10umddi/pfnGetVideoDecoderProfileCount, display.getvideodecoderprofilecount, pfnGetVideoDecoderProfileCount, pfnGetVideoDecoderProfileCount callback function [Display Devices]
 ms.topic: callback
-f1_keywords:
- - "d3d10umddi/pfnGetVideoDecoderProfileCount"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -26,35 +24,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- D3d10umddi.h
-api_name:
-- pfnGetVideoDecoderProfileCount
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - "d3d10umddi/pfnGetVideoDecoderProfileCount"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - D3d10umddi.h
+api_name:
+ - pfnGetVideoDecoderProfileCount
+product:
+ - Windows
 ---
 
 # PFND3D11_1DDI_GETVIDEODECODERPROFILECOUNT callback function
 
-
 ## -description
-
 
 Queries the number of video decoder profiles that are supported by the display miniport driver.
 
-
 ## -parameters
-
-
-
 
 ### -param Arg1
 
@@ -62,18 +56,13 @@ Queries the number of video decoder profiles that are supported by the display m
 
 A handle to the display device (graphics context).
 
-### -param *
+### -param Arg2
 
 *pDecodeProfileCount* [out]
 
 A pointer to a UINT value that specifies the maximum number of decoder profiles that are supported.
 
-
 ## -returns
 
-
-
 This callback function does not return a value.
-
-
 

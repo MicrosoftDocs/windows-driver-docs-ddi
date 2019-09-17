@@ -33,6 +33,8 @@ product:
 - Windows
 targetos: Windows
 tech.root: display
+dev_langs:
+ - c++
 ms.custom: 19H1
 ---
 

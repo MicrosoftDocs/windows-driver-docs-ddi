@@ -7,8 +7,6 @@ ms.assetid: 852893e6-1f1c-470a-ab72-f52c1e06e0c0
 ms.date: 05/10/2018
 ms.keywords: PFND3D10DDI_SETRENDERTARGETS, PFND3D10DDI_SETRENDERTARGETS callback, SetRenderTargets, SetRenderTargets callback function [Display Devices], UserModeDisplayDriverDx10_Functions_6d202eaa-50bb-4ffd-9217-a0c172974e49.xml, d3d10umddi/SetRenderTargets, display.setrendertargets
 ms.topic: callback
-f1_keywords:
- - "d3d10umddi/SetRenderTargets"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -26,35 +24,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3d10umddi.h
-api_name:
-- SetRenderTargets
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - "d3d10umddi/SetRenderTargets"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3d10umddi.h
+api_name:
+ - SetRenderTargets
+product:
+ - Windows
 ---
 
 # PFND3D10DDI_SETRENDERTARGETS callback function
 
-
 ## -description
-
 
 The <i>SetRenderTargets</i> function sets render target surfaces.
 
-
 ## -parameters
-
-
-
 
 ### -param Arg1
 
@@ -62,11 +56,11 @@ The <i>SetRenderTargets</i> function sets render target surfaces.
 
 A handle to the display device (graphics context).
 
-### -param *
+### -param Arg2
 
 *phRenderTargetView* [in]
 
-An array of handles to the render target view objects to set. Note that some handle values can be <b>NULL</b>. 
+An array of handles to the render target view objects to set. Note that some handle values can be <b>NULL</b>.
 
 ### -param NumViews
 
@@ -76,30 +70,17 @@ An array of handles to the render target view objects to set. Note that some han
 
 [in] The number of render target slots after the number of slots that <i>RTargets </i>specifies to be set to <b>NULL</b>. This number represents the difference between the previous number of render target view objects (that is, when the Microsoft Direct3D runtime previously called <i>SetRenderTargets</i>) and the new number of render target view objects. 
 
-Note that the number that <i>ClearTargets</i> specifies is only an optimization aid because the user-mode display driver could calculate this number. 
+Note that the number that <i>ClearTargets</i> specifies is only an optimization aid because the user-mode display driver could calculate this number.
 
-### -param Arg2
-
-*hDepthStencilView* [in]
-
-A handle to the depth stencil buffer to set. 
-
-
+### -param Arg5
 
 ## -returns
-
-
 
 None
 
 The driver can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> callback function to set an error code. For more information about setting error codes, see the following Remarks section.
 
-
-
-
 ## -remarks
-
-
 
 The user-mode display driver must set all render target surfaces and the depth stencil buffer atomically as one operation. 
 
@@ -113,20 +94,11 @@ When the value of clear targets is requested during user-mode query operations, 
 
 The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. Therefore, if the driver passes any error, except for D3DDDIERR_DEVICEREMOVED, in a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a> function, the Microsoft Direct3D runtime will determine that the error is critical. Even if the device was removed, the driver is not required to return D3DDDIERR_DEVICEREMOVED; however, if device removal interfered with the operation of <i>SetRenderTargets</i> (which typically should not happen), the driver can return D3DDDIERR_DEVICEREMOVED.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ns-d3d10umddi-d3d10ddi_devicefuncs">D3D10DDI_DEVICEFUNCS</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_seterror_cb">pfnSetErrorCb</a>
- 
-
- 
 

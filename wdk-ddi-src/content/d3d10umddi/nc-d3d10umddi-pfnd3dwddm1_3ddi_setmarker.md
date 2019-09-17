@@ -7,8 +7,6 @@ ms.assetid: BE618B0C-18E7-4B2B-87EB-172DAD9BCE15
 ms.date: 05/10/2018
 ms.keywords: PFND3DWDDM1_3DDI_SETMARKER, PFND3DWDDM1_3DDI_SETMARKER callback, SetMarker, SetMarker callback function [Display Devices], d3d10umddi/SetMarker, display.setmarker
 ms.topic: callback
-f1_keywords:
- - "d3d10umddi/SetMarker"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -26,54 +24,41 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- D3d10umddi.h
-api_name:
-- SetMarker
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - "d3d10umddi/SetMarker"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - D3d10umddi.h
+api_name:
+ - SetMarker
+product:
+ - Windows
 ---
 
 # PFND3DWDDM1_3DDI_SETMARKER callback function
 
-
 ## -description
-
 
 Notifies the user-mode display driver that it must generate a new time stamp if any GPU work has completed since the last call to <i>SetMarker</i>.
 
-
 ## -parameters
 
-
-
-
-### -param hDevice [in]
+### -param hDevice
 
 A handle to the display device (graphics context).
 
-
 ## -returns
-
-
-
 
       Returns <b>S_OK</b> or an appropriate error result if the function does not complete successfully.
 
-
-
-
 ## -remarks
-
-
 
 If the marker event type from the  <i>Type</i> parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3dwddm1_3ddi_setmarkermode">SetMarkerMode</a> function is not <b>D3DWDDM1_3DDI_MARKER_TYPE_NONE</b>, the user-mode display driver must perform this procedure with each call to <i>SetMarker</i>:
 
@@ -92,15 +77,7 @@ If the marker event type from the  <i>Type</i> parameter of the <a href="https:/
 </li>
 </ol>
 
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3dwddm1_3ddi_setmarkermode">SetMarkerMode</a>
- 
-
- 
 

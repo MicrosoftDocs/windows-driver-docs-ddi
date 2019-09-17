@@ -8,8 +8,6 @@ ms.assetid: 761377ff-95a6-426b-8372-3f347870f9c4
 ms.date: 05/10/2018
 ms.keywords: CreateOverlay, CreateOverlay callback function [Display Devices], PFND3DDDI_CREATEOVERLAY, PFND3DDDI_CREATEOVERLAY callback, UserModeDisplayDriver_Functions_8418bf74-3398-4913-9002-2f0b2a0941fb.xml, d3dumddi/CreateOverlay, display.createoverlay
 ms.topic: callback
-f1_keywords:
- - "d3dumddi/CreateOverlay"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop
@@ -27,57 +25,42 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dumddi.h
-api_name:
-- CreateOverlay
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - "d3dumddi/CreateOverlay"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dumddi.h
+api_name:
+ - CreateOverlay
+product:
+ - Windows
 ---
 
 # PFND3DDDI_CREATEOVERLAY callback function
 
-
 ## -description
-
 
 The <b>CreateOverlay</b> function allocates overlay hardware and makes the overlay visible.
 
-
 ## -parameters
 
-
-
-
-### -param hDevice [in]
+### -param hDevice
 
 A handle to the display device (graphics context).
 
-
-### -param *
-
-
-
-
-
-
-
+### -param Arg2
 
 *pData* [in, out]
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_createoverlay">D3DDDIARG_CREATEOVERLAY</a> structure that describes the overlay.
 
-
 ## -returns
-
-
 
 <b>CreateOverlay</b> returns one of the following values:
 
@@ -87,29 +70,17 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 | **E_OUTOFMEMORY** | [CreateOverlay](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_createoverlay)  could not complete because of insufficient memory. | 
 | **D3DDDIERR_NOTAVAILABLE** | [CreateOverlay](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_createoverlay)  could not complete because insufficient bandwidth was available or the requested overlay hardware was unavailable. | 
 | **D3DDDIERR_UNSUPPORTEDOVERLAYFORMAT** | The specified overlay format is not supported by the overlay hardware. | 
-| **D3DDDIERR_UNSUPPORTEDOVERLAY** | The overlay hardware is not supported for the specified size and display mode. | 
-
+| **D3DDDIERR_UNSUPPORTEDOVERLAY** | The overlay hardware is not supported for the specified size and display mode. |
 
 ## -remarks
 
-
-
 Overlays are independent from the resources that are displayed by using the overlays.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_createoverlay">D3DDDIARG_CREATEOVERLAY</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>
- 
-
- 
 

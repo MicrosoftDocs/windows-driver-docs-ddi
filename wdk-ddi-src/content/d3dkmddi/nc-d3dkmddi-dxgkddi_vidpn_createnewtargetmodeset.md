@@ -7,8 +7,6 @@ ms.assetid: c52935b4-306f-4200-80d9-0cfab6998450
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_VIDPN_CREATENEWTARGETMODESET, DXGKDDI_VIDPN_CREATENEWTARGETMODESET callback, VidPnFunctions_5bdc542e-e774-434b-a634-84ca5ed07d8d.xml, d3dkmddi/pfnCreateNewTargetModeSet, display.dxgk_vidpn_interface_pfncreatenewtargetmodeset, pfnCreateNewTargetModeSet, pfnCreateNewTargetModeSet callback function [Display Devices]
 ms.topic: callback
-f1_keywords:
- - "d3dkmddi/pfnCreateNewTargetModeSet"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Desktop
@@ -26,59 +24,49 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dkmddi.h
-api_name:
-- pfnCreateNewTargetModeSet
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - "d3dkmddi/pfnCreateNewTargetModeSet"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dkmddi.h
+api_name:
+ - pfnCreateNewTargetModeSet
+product:
+ - Windows
 ---
 
 # DXGKDDI_VIDPN_CREATENEWTARGETMODESET callback function
 
-
 ## -description
-
 
 The <b>pfnCreateNewTargetModeSet</b> function creates a new target mode set object within a specified VidPN object.
 
-
 ## -parameters
 
-
-
-
-### -param hVidPn [in]
+### -param hVidPn
 
 [in] A handle to a VidPN object. The VidPN manager previously provided this handle to the display miniport driver by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_enumvidpncofuncmodality">DxgkDdiEnumVidPnCofuncModality</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_issupportedvidpn">DxgkDdiIsSupportedVidPn</a>, or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_recommendfunctionalvidpn">DxgkDdiRecommendFunctionalVidPn</a>.
 
-
-### -param VidPnTargetId [in]
+### -param VidPnTargetId
 
 [in] An integer that identifies one of the video present targets associated with the VidPN object.
 
-
-### -param phNewVidPnTargetModeSet [out]
+### -param phNewVidPnTargetModeSet
 
 [out] A pointer to a variable that receives a handle to the newly created target mode set object.
 
-
-### -param ppVidPnTargetModeSetInterace [out]
+### -param ppVidPnTargetModeSetInterace
 
 [out] A pointer to a variable that receives a pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgk_vidpntargetmodeset_interface">DXGK_VIDPNTARGETMODESET_INTERFACE</a> structure. The structure contains pointers to functions that the display miniport driver can call to inspect and alter the target mode set object.
 
-
 ## -returns
-
-
 
 The <b>pfnCreateNewTargetModeSet</b> function returns one of the following values:
 
@@ -88,10 +76,7 @@ The <b>pfnCreateNewTargetModeSet</b> function returns one of the following value
 |STATUS_GRAPHICS_INVALID_VIDPN|The handle supplied in hVidPn was invalid.|
 |STATUS_NO_MEMORY|The VidPN manager was unable to allocate the memory required to create the new target mode set object.|
 
-
 ## -remarks
-
-
 
 To assign a new target mode set to a particular target in a VidPN implementation, perform the following steps:
 
@@ -115,15 +100,9 @@ If you obtain a handle by calling <b>pfnCreateNewTargetModeSet</b> and then you 
 
 The lifetime of the DXGK_VIDPNTARGETEMODESET_INTERFACE structure returned in <i>ppVidPnTargetModeSetInterface</i> is owned by the operating system. Using this ownership scheme, the operating system can switch to newer implementations at run time without breaking clients of the interface.
 
-The D3DKMDT_HVIDPN and D3DKMDT_HVIDPNTARGETMODESET data types are defined in <i>D3dkmdt.h</i>. 
-
-
-
+The D3DKMDT_HVIDPN and D3DKMDT_HVIDPNTARGETMODESET data types are defined in <i>D3dkmdt.h</i>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">VidPN Target Mode Set Interface</a>
 
@@ -134,7 +113,4 @@ The D3DKMDT_HVIDPN and D3DKMDT_HVIDPNTARGETMODESET data types are defined in <i>
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_vidpn_releasetargetmodeset">pfnReleaseTargetModeSet</a>
- 
-
- 
 

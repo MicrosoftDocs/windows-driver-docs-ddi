@@ -36,8 +36,6 @@ api_location:
 - netrequest.h
 api_name: 
 - NetRequestSetDataComplete
-product:
-- Windows
 targetos: Windows
 product:
 - Windows

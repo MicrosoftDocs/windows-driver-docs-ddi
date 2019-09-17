@@ -61,19 +61,19 @@ The <b>DrawRectPatch</b> function draws a new or cached rectangular patch or upd
 A handle to the display device (graphics context).
 
 
-### -param *
+### -param Arg2
 
 *pData* [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_drawrectpatch">D3DDDIARG_DRAWRECTPATCH</a> structure that describes the rectangular patch to draw.
 
-### -param *
+### -param Arg3
 
 *pInfo* [in]
 
 Optional. A pointer to a D3DDDIRECTPATCH_INFO structure that describes information about the rectangular patch.
 
-### -param *
+### -param Arg4
 
 *pPatch* [in]
 

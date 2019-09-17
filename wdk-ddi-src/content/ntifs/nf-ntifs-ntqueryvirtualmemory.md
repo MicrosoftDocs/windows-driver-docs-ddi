@@ -13,7 +13,7 @@ f1_keywords:
 req.header: ntifs.h
 req.include-header: 
 req.target-type: Universal
-req.target-min-winverclnt: Available starting with Windows 10.
+req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 

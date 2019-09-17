@@ -36,8 +36,6 @@ api_location:
 - netrequest.h
 api_name: 
 - NetRequestRetrieveInputOutputBuffer
-product:
-- Windows
 targetos: Windows
 product:
 - Windows

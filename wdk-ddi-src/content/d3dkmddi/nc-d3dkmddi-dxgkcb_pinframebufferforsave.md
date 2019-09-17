@@ -5,37 +5,37 @@ description: Implemented by the client driver to pin down the entire frame buffe
 ms.assetid: ed0ba03e-321c-4d52-827f-578a5a0e83f3
 ms.date: 10/19/2018
 ms.topic: callback
-f1_keywords:
- - "d3dkmddi/DXGKCB_PINFRAMEBUFFERFORSAVE"
 req.header: d3dkmddi.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.irql:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-topic_type:
-- apiref
-api_type:
-- UserDefined
-api_location:
-- d3dkmddi.h
-api_name:
-- DXGKCB_PINFRAMEBUFFERFORSAVE
-product: 
-- Windows
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.irql: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
 targetos: Windows
 tech.root: display
+f1_keywords:
+ - "d3dkmddi/DXGKCB_PINFRAMEBUFFERFORSAVE"
+topic_type:
+ - apiref
+api_type:
+ - UserDefined
+api_location:
+ - d3dkmddi.h
+api_name:
+ - DXGKCB_PINFRAMEBUFFERFORSAVE
+product:
+ - Windows
 ---
 
 # DXGKCB_PINFRAMEBUFFERFORSAVE callback function
@@ -43,6 +43,20 @@ tech.root: display
 ## -description
 
 Implemented by the client driver to pin down the entire frame buffer at once.
+
+## -parameters
+
+### -param hAdapter
+
+A handle to a display adapter. The driver provides this handle for the master/lead device in the LDA chain.
+
+### -param pPinFrameBufferForSave
+
+Pointer to a DXGKARGCB_PINFRAMEBUFFERFORSAVE structure that contains information about the frame buffer to save.
+
+## -returns
+
+Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS Values error code.
 
 ## -prototype
 
@@ -65,20 +79,6 @@ DXGKCB_PINFRAMEBUFFERFORSAVE
 
 ```
 
-## -parameters
-
-### -param hAdapter
-
-A handle to a display adapter. The driver provides this handle for the master/lead device in the LDA chain.
-
-### -param pPinFrameBufferForSave:
-
-Pointer to a DXGKARGCB_PINFRAMEBUFFERFORSAVE structure that contains information about the frame buffer to save.
-
-## -returns
-
-Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS Values error code.
-
 ## -remarks
 
 Register your implementation of this callback function by setting the appropriate member of DXGKARGCB_PINFRAMEBUFFERFORSAVE and then calling DxgkCbPinFrameBufferForSave.
@@ -98,3 +98,4 @@ The driver has two options to implement the frame buffer reservation:
 If pinning the entire frame buffer’s section object fails, the driver must try to ensure forward progress by performing the transfer in smaller pieces. This is accomplished by allocating a small MDL or chunk of memory during initialization time which can be used to transfer the contents from the hardware. Then call DxgkCbMapFrameBufferPointer to obtain a pointer to a subregion of the section object. The driver is responsible for copying the data from the pre-allocated buffer to the mapped subregion. The reverse is also true when restoring the frame buffer contents.
 
 ## -see-also
+

@@ -36,8 +36,6 @@ api_location:
 - windot11.h
 api_name:
 - DOT11_VWIFI_COMBINATION
-product:
-- Windows
 targetos: Windows
 req.typenames: DOT11_VWIFI_COMBINATION, *PDOT11_VWIFI_COMBINATION
 product:

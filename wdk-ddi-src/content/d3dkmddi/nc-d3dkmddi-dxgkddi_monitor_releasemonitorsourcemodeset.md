@@ -7,8 +7,6 @@ ms.assetid: af5f4a1b-232c-4192-96b4-8fa31dfe3019
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_MONITOR_RELEASEMONITORSOURCEMODESET, DXGKDDI_MONITOR_RELEASEMONITORSOURCEMODESET callback, VidPnFunctions_5f8e1fd8-b807-4da2-901e-0284e21d858e.xml, d3dkmddi/pfnReleaseMonitorSourceModeSet, display.dxgk_monitor_interface_pfnreleasemonitorsourcemodeset, pfnReleaseMonitorSourceModeSet, pfnReleaseMonitorSourceModeSet callback function [Display Devices]
 ms.topic: callback
-f1_keywords:
- - "d3dkmddi/pfnReleaseMonitorSourceModeSet"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Desktop
@@ -26,49 +24,41 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dkmddi.h
-api_name:
-- pfnReleaseMonitorSourceModeSet
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - "d3dkmddi/pfnReleaseMonitorSourceModeSet"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dkmddi.h
+api_name:
+ - pfnReleaseMonitorSourceModeSet
+product:
+ - Windows
 ---
 
 # DXGKDDI_MONITOR_RELEASEMONITORSOURCEMODESET callback function
 
-
 ## -description
-
 
 The <b>pfnReleaseMonitorSourceModeSet</b> function releases a handle to a monitor source mode set object.
 
-
 ## -parameters
 
-
-
-
-### -param hAdapter [in]
+### -param hAdapter
 
 [in] A handle that identifies a display adapter. The Microsoft DirectX graphics kernel subsystem previously provided this handle to the display miniport driver in the <i>DxgkInterface</i> parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_start_device">DxgkDdiStartDevice</a> function.
 
-
-### -param hMonitorSourceModeSet [in]
+### -param hMonitorSourceModeSet
 
 [in] The handle to be released.
 
-
 ## -returns
-
-
 
 The <b>pfnReleaseMonitorSourceModeSet</b> function returns one of the following values.
 
@@ -81,27 +71,13 @@ The <b>pfnReleaseMonitorSourceModeSet</b> function returns one of the following 
 
 This function might also return other error codes that are defined in <i>Ntstatus.h</i>.
 
-
-
-
 ## -remarks
-
-
 
 When you have finished using a handle that you obtained by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_monitor_acquiremonitorsourcemodeset">pfnAcquireMonitorSourceModeSet</a>, you must release the handle by calling <b>pfnReleaseMonitorSourceModeSet</b>.
 
 This function is also available in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgk_monitor_interface_v2">DXGK_MONITOR_INTERFACE_V2</a> interface beginning with Windows 7.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgk_monitor_interface_v2">DXGK_MONITOR_INTERFACE_V2</a>
- 
-
- 
 

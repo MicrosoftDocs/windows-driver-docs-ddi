@@ -29,8 +29,6 @@ api_location:
 - netadapter.h
 api_name: 
 - NET_PACKET_FILTER_TYPES_FLAGS
-product:
-- Windows
 targetos: Windows
 product:
 - Windows

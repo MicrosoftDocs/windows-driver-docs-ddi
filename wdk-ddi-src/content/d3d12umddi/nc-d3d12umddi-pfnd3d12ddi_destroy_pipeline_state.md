@@ -5,38 +5,40 @@ description: Destroys the pipeline state.
 ms.assetid: 0cb38426-c17a-4d72-b47b-b8b1afcd5588
 ms.date: 10/19/2018
 ms.topic: callback
-f1_keywords:
- - "d3d12umddi/PFND3D12DDI_DESTROY_PIPELINE_STATE"
 req.header: d3d12umddi.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- UserDefined
-api_location: 
-- d3d12umddi.h
-api_name: 
-- PFND3D12DDI_DESTROY_PIPELINE_STATE
-product: 
-- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_DESTROY_PIPELINE_STATE"
+topic_type:
+ - apiref
+api_type:
+ - UserDefined
+api_location:
+ - d3d12umddi.h
+api_name:
+ - PFND3D12DDI_DESTROY_PIPELINE_STATE
+product:
+ - Windows
+dev_langs:
+ - c++
 ---
 
 # PFND3D12DDI_DESTROY_PIPELINE_STATE callback function
@@ -44,6 +46,20 @@ ms.custom: RS5
 ## -description
 
 Destroys the pipeline state.
+
+## -parameters
+
+### -param Arg1
+
+A handle to the display device (graphics context).
+
+### -param Arg2
+
+A pipeline state handle.
+
+## -returns
+
+Returns VOID.
 
 ## -prototype
 
@@ -66,23 +82,7 @@ PFND3D12DDI_DESTROY_PIPELINE_STATE
 
 ```
 
-## -parameters
-
-### -param D3D12DDI_HDEVICE  
-
-A handle to the display device (graphics context).
- 
-### -param D3D12DDI_HPIPELINESTATE: 
-
-A pipeline state handle.
-
-## -returns
-
-Returns VOID.
-
 ## -remarks
 
-
-
-
 ## -see-also
+

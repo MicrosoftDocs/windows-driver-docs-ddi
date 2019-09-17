@@ -37,8 +37,6 @@ api_location:
 - netadapter.h
 api_name: 
 - NET_ADAPTER_LINK_STATE_INIT_DISCONNECTED
-product:
-- Windows
 targetos: Windows
 product:
 - Windows

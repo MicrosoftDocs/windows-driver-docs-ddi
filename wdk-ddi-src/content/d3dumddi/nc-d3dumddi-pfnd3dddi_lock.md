@@ -8,8 +8,6 @@ ms.assetid: e2289073-d46a-4a12-8de7-30400e04cc22
 ms.date: 05/10/2018
 ms.keywords: Lock, Lock callback function [Display Devices], PFND3DDDI_LOCK, PFND3DDDI_LOCK callback, UserModeDisplayDriver_Functions_c4db91e8-a67e-4647-97d3-abde07926169.xml, d3dumddi/Lock, display.lock
 ms.topic: callback
-f1_keywords:
- - "d3dumddi/Lock"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Universal
@@ -27,57 +25,42 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dumddi.h
-api_name:
-- Lock
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - "d3dumddi/Lock"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dumddi.h
+api_name:
+ - Lock
+product:
+ - Windows
 ---
 
 # PFND3DDDI_LOCK callback function
 
-
 ## -description
 
-
-The <i>Lock</i> function locks the given resource or a surface within the resource. 
-
+The <i>Lock</i> function locks the given resource or a surface within the resource.
 
 ## -parameters
 
-
-
-
-### -param hDevice [in]
+### -param hDevice
 
 A handle to the display device (graphics context).
 
-
-### -param *
-
-
-
-
-
-
-
+### -param Arg2
 
 *pData* [in, out]
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_lock">D3DDDIARG_LOCK</a> structure that describes the resource or surface within the resource to lock.
 
-
 ## -returns
-
-
 
 <i>Lock</i> returns one of the following values:
 
@@ -85,12 +68,9 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 |:--|:--|
 | **S_OK** | The resource is successfully locked. | 
 | **E_OUTOFMEMORY** | Lock could not allocate the required memory for it to complete. | 
-| **D3DDDIERR_WASSTILLDRAWING** | The resource was not idle when the Microsoft Direct3D runtime called the Lock function with the DoNotWait bit-field flag set in the Flags member of [D3DDDIARG_LOCK](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_lock) . | 
-
+| **D3DDDIERR_WASSTILLDRAWING** | The resource was not idle when the Microsoft Direct3D runtime called the Lock function with the DoNotWait bit-field flag set in the Flags member of [D3DDDIARG_LOCK](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_lock) . |
 
 ## -remarks
-
-
 
 The Microsoft Direct3D runtime calls the user-mode display driver's <i>Lock</i> function to lock a resource or a surface within the resource. This locked resource or surface can be read from or written to by using read and write operations from the CPU. When the runtime calls <i>Lock</i>, the user-mode display driver must call the runtime's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_lockcb">pfnLockCb</a> callback function to lock an allocation corresponding to the resource or surface. Note that because the user-mode display driver can allocate multiple allocations for each resource or surface, the user-mode display driver might be required to appropriately convert or process the allocation pointer that is returned from <b>pfnLockCb</b> before returning the <i>Lock</i> call to the runtime. 
 
@@ -108,15 +88,9 @@ Calling <b>pfnLockCb</b> with the appropriate allocation handle for commands tha
 
 </li>
 </ul>
-The user-mode display driver returns a pointer to the memory for the locked surface and the pitch of the surface in the <b>pSurfData</b> and <b>Pitch</b> members of the D3DDDIARG_LOCK structure. However, for preallocated system memory surfaces, the runtime ignores the driver-set memory and pitch, although the driver can still fail the <i>Lock</i> call (and thus fail back to the application). The runtime sets the <b>NotifyOnly</b> bit-field flag in the <b>Flags</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_lock">D3DDDIARG_LOCK</a> structure to differentiate <i>Lock</i> calls that lock preallocated system memory surfaces from other <i>Lock</i> calls. 
-
-
-
+The user-mode display driver returns a pointer to the memory for the locked surface and the pitch of the surface in the <b>pSurfData</b> and <b>Pitch</b> members of the D3DDDIARG_LOCK structure. However, for preallocated system memory surfaces, the runtime ignores the driver-set memory and pitch, although the driver can still fail the <i>Lock</i> call (and thus fail back to the application). The runtime sets the <b>NotifyOnly</b> bit-field flag in the <b>Flags</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_lock">D3DDDIARG_LOCK</a> structure to differentiate <i>Lock</i> calls that lock preallocated system memory surfaces from other <i>Lock</i> calls.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_lock">D3DDDIARG_LOCK</a>
 
@@ -135,7 +109,4 @@ The user-mode display driver returns a pointer to the memory for the locked surf
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_rendercb">pfnRenderCb</a>
- 
-
- 
 

@@ -36,8 +36,6 @@ api_location:
 - nettxqueue.h
 api_name: 
 - NetTxQueueInitGetQueueId
-product:
-- Windows
 targetos: Windows
 product:
 - Windows

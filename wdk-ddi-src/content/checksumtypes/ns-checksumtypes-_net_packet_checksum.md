@@ -32,8 +32,6 @@ apilocation:
 - checksumtypes.h
 apiname: 
 - NET_PACKET_CHECKSUM
-product:
-- Windows
 targetos: Windows
 product:
 - Windows

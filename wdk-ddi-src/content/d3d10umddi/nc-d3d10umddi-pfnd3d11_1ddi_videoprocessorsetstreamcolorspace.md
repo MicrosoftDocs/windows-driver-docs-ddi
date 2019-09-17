@@ -7,8 +7,6 @@ ms.assetid: bb187968-ae2a-4872-a745-fb42c0cff528
 ms.date: 05/10/2018
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMCOLORSPACE, PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMCOLORSPACE callback, d3d10umddi/pfnVideoProcessorSetStreamColorSpace, display.videoprocessorsetstreamcolorspace, pfnVideoProcessorSetStreamColorSpace, pfnVideoProcessorSetStreamColorSpace callback function [Display Devices]
 ms.topic: callback
-f1_keywords:
- - "d3d10umddi/pfnVideoProcessorSetStreamColorSpace"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -26,39 +24,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- D3d10umddi.h
-api_name:
-- pfnVideoProcessorSetStreamColorSpace
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - "d3d10umddi/pfnVideoProcessorSetStreamColorSpace"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - D3d10umddi.h
+api_name:
+ - pfnVideoProcessorSetStreamColorSpace
+product:
+ - Windows
 ---
 
 # PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMCOLORSPACE callback function
 
-
 ## -description
-
 
 Sets the color space for an input stream on the video processor.
 
-
-
-
-
-
 ## -parameters
-
-
-
 
 ### -param Arg1
 
@@ -78,33 +68,21 @@ A handle to the video processor object that was created through a call to the <a
 
 The zero-based index of the input stream.
 
-### -param *
+### -param Arg4
 
 *pColorSpace* [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_video_processor_color_space">D3D11_1DDI_VIDEO_PROCESSOR_COLOR_SPACE</a> structure that specifies the color space for the specified input stream.
 
-
 ## -returns
-
-
 
 This callback function does not return a value.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor">CreateVideoProcessor</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_video_processor_color_space">D3D11_1DDI_VIDEO_PROCESSOR_COLOR_SPACE</a>
- 
-
- 
 

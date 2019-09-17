@@ -5,38 +5,40 @@ description: PFND3D12DDI_EVICT_CB instructs the OS to decrement the residency re
 ms.assetid: 49898202-2cc1-49dc-8bce-bf045064d2a3
 ms.date: 10/19/2018
 ms.topic: callback
-f1_keywords:
- - "d3d12umddi/PFND3D12DDI_EVICT_CB"
 req.header: d3d12umddi.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- UserDefined
-api_location: 
-- d3d12umddi.h
-api_name: 
-- PFND3D12DDI_EVICT_CB
-product:
-- Windows
 targetos: Windows
 ms.custom: RS5
 tech.root: display
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_EVICT_CB"
+topic_type:
+ - apiref
+api_type:
+ - UserDefined
+api_location:
+ - d3d12umddi.h
+api_name:
+ - PFND3D12DDI_EVICT_CB
+product:
+ - Windows
+dev_langs:
+ - c++
 ---
 
 # PFND3D12DDI_EVICT_CB callback function
@@ -45,6 +47,19 @@ tech.root: display
 
 PFND3D12DDI_EVICT_CB instructs the OS to decrement the residency reference count. Once this count reaches zero, it will remove the allocation from the device residency list.
 
+## -parameters
+
+### -param hRTDevice
+
+A handle to the display device.
+
+### -param Arg2
+
+A pointer to a [D3DDDICB_EVICT](../d3dumddi/ns-d3dumddi-d3dddicb_evict.md) structure that describes the memory pages to evict.
+
+## -returns
+
+If this callback function succeeds, it returns S_OK. Otherwise, it returns an HRESULT error code.
 
 ## -prototype
 
@@ -64,22 +79,9 @@ HRESULT Pfnd3d12ddiEvictCb
 
 ```
 
-## -parameters
-
-### -param hRTDevice
-
-A handle to the display device.
-
-### -param *: 
-
-A pointer to a [D3DDDICB_EVICT](../d3dumddi/ns-d3dumddi-d3dddicb_evict.md) structure that describes the memory pages to evict.
-
-## -returns
-
-If this callback function succeeds, it returns S_OK. Otherwise, it returns an HRESULT error code.
-
 ## -remarks
 
 Once the eviction request is queued, it is illegal to access the underlying allocation as the allocation may be evicted at anytime from there on at the operating system discretion.
 
 ## -see-also
+

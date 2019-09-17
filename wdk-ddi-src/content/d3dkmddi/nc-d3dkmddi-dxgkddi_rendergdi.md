@@ -7,8 +7,6 @@ ms.assetid: 90C34125-FC32-46E3-81F7-6B2AACED9BAC
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_RENDERGDI, DXGKDDI_RENDERGDI callback, DxgkDdiRenderGdi, DxgkDdiRenderGdi callback function [Display Devices], d3dkmddi/DxgkDdiRenderGdi, display.dxgkddirendergdi
 ms.topic: callback
-f1_keywords:
- - "d3dkmddi/DxgkDdiRenderGdi"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Desktop
@@ -26,63 +24,48 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dkmddi.h
-api_name:
-- DxgkDdiRenderGdi
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - "d3dkmddi/DxgkDdiRenderGdi"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dkmddi.h
+api_name:
+ - DxgkDdiRenderGdi
+product:
+ - Windows
 ---
 
 # DXGKDDI_RENDERGDI callback function
 
-
 ## -description
-
 
 <b>DxgkDdiRenderGdi</b> is used when submitting Windows Graphics Device Interface (GDI) commands for contexts that support virtual addressing.
 
-
 ## -parameters
 
+### -param hContext
 
+A handle to a context block that is associated with a display adapter.
 
-
-### -param hContext [in]
-
-A handle to a context block that is associated with a display adapter. 
-
-
-### -param pRenderGdi [in, out]
+### -param pRenderGdi
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_rendergdi">DXGKARG_RENDERGDI</a> structure that describes operation.
 
-
 ## -returns
-
-
 
 |Value|Description|
 |--- |--- |
 |STATUS_SUCCESS|The submitted command is well-formed.|
 |(other)|All other return values will lead to the OS bugcheck.|
 
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_rendergdi">DXGKARG_RENDERGDI</a>
- 
-
- 
 

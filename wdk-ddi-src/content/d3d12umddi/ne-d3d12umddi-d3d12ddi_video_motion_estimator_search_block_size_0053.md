@@ -5,39 +5,41 @@ description: The search block size to use in the video motion estimator operatio
 ms.assetid: cd42317d-9fb6-4d52-9468-15f8ab68e0e4
 ms.date: 10/19/2018
 ms.topic: enum
-f1_keywords:
- - "d3d12umddi/D3D12DDI_VIDEO_MOTION_ESTIMATOR_SEARCH_BLOCK_SIZE_0053"
-ms.keywords: D3D12DDI_VIDEO_MOTION_ESTIMATOR_SEARCH_BLOCK_SIZE_0053, D3D12DDI_VIDEO_MOTION_ESTIMATOR_SEARCH_BLOCK_SIZE_0053, 
+ms.keywords: D3D12DDI_VIDEO_MOTION_ESTIMATOR_SEARCH_BLOCK_SIZE_0053, D3D12DDI_VIDEO_MOTION_ESTIMATOR_SEARCH_BLOCK_SIZE_0053,
 req.header: d3d12umddi.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
 req.typenames: D3D12DDI_VIDEO_MOTION_ESTIMATOR_SEARCH_BLOCK_SIZE_0053
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- d3d12umddi.h
-api_name: 
-- D3D12DDI_VIDEO_MOTION_ESTIMATOR_SEARCH_BLOCK_SIZE_0053
-product:
-- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_VIDEO_MOTION_ESTIMATOR_SEARCH_BLOCK_SIZE_0053"
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12umddi.h
+api_name:
+ - D3D12DDI_VIDEO_MOTION_ESTIMATOR_SEARCH_BLOCK_SIZE_0053
+product:
+ - Windows
+dev_langs:
+ - c++
 ---
 
 # D3D12DDI_VIDEO_MOTION_ESTIMATOR_SEARCH_BLOCK_SIZE_0053 enumeration
 
 ## -description
 
-The search block size to use in the video motion estimator operation. 
+The search block size to use in the video motion estimator operation.
 
 ## -enum-fields
 
@@ -45,10 +47,11 @@ The search block size to use in the video motion estimator operation.
 
 Indicates a block size of 8x8.
 
-### -field D3D12DDI_VIDEO_MOTION_ESTIMATOR_SEARCH_BLOCK_SIZE_0053_16X16 
+### -field D3D12DDI_VIDEO_MOTION_ESTIMATOR_SEARCH_BLOCK_SIZE_0053_16X16
 
 Indicates a block size of 16x16.
 
 ## -remarks
 
 ## -see-also
+

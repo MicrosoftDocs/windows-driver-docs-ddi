@@ -33,8 +33,6 @@ api_location:
 - netadapter.h
 api_name: 
 - EVT_NET_ADAPTER_CREATE_RXQUEUE
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 product:

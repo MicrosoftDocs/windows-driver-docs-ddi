@@ -36,8 +36,6 @@ api_location:
 - netrequestqueue.h
 api_name: 
 - NET_REQUEST_QUEUE_CONFIG_ADD_METHOD_HANDLER
-product:
-- Windows
 targetos: Windows
 product:
 - Windows

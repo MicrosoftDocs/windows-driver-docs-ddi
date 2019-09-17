@@ -36,8 +36,6 @@ api_location:
 - Windot11.h
 api_name:
 - DOT11_WFD_DISCOVER_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: DOT11_WFD_DISCOVER_TYPE, *PDOT11_WFD_DISCOVER_TYPE
 product:

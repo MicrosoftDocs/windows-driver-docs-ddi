@@ -40,6 +40,8 @@ api_name:
 product: 
  - Windows
 targetos: Windows
+dev_langs:
+ - c++
 ms.custom: DXGKDDI_INTERFACE_VERSION_WDDM2_6, 19H1
 ---
 

@@ -32,8 +32,6 @@ apilocation:
 - fragment.h
 apiname: 
 - NET_FRAGMENT
-product:
-- Windows
 targetos: Windows
 product:
 - Windows

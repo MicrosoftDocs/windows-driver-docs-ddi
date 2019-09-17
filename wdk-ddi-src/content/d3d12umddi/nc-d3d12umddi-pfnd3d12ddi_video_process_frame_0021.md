@@ -71,12 +71,12 @@ The video processor instance to use for this video process call.
 The submission ID is a monotonically increasing integer value.  The value passed to this function must be larger than any passed video process submission for the <i>hDrvVideoProcessor</i> parameter.  Callers should use fences to track submission completion and then provide completed submission ID to drivers by using the <a href="https://msdn.microsoft.com/505B3502-FC2D-47FB-B8CD-3D7DE9ED4770">pfnProcessorTrimAllocations</a> function to allow driver to manage resources associated with that stream.
 
 
-### -param *pOutputParameters
+### -param pOutputParameters
 
 The output parameters.  For more information, see the <a href="https://msdn.microsoft.com/F8D7A87D-FFE6-4846-A902-2A686D78F0C1">D3D12DDIARG_VIDEO_PROCESS_OUTPUT_STREAM_PARAMETERS</a> structure.
 
 
-### -param *pInputStreamParameters
+### -param  pInputStreamParameters
 
 Specifies an array of input parameters.  For more information, see the <a href="https://msdn.microsoft.com/2488E73E-CF47-4852-8090-BC063DCC4EA4">D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_PARAMETERS</a> structure.
 

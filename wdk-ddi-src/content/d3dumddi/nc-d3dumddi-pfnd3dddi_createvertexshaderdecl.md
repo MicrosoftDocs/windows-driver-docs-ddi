@@ -61,20 +61,14 @@ The <b>CreateVertexShaderDecl</b> function converts the vertex shader declaratio
 A handle to the display device (graphics context).
 
 
-### -param *
-
-
-
-
-
-
+### -param Arg2
 
 
 *pData* [in, out]
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_createvertexshaderdecl">D3DDDIARG_CREATEVERTEXSHADERDECL</a> structure that retrieves the shader handle that is associated with the vertex shader declaration that is specified by <i>pVertexElements</i>.
 
-### -param *
+### -param Arg3
 
 *pVertexElements* [in]
 

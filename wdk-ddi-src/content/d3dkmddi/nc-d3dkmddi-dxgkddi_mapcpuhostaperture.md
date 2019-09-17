@@ -7,8 +7,6 @@ ms.assetid: 78729B9A-A9FA-4D1E-8D30-3FFD61B1A7D3
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_MAPCPUHOSTAPERTURE, DXGKDDI_MAPCPUHOSTAPERTURE callback, DxgkDdiMapCpuHostAperture, DxgkDdiMapCpuHostAperture callback function [Display Devices], d3dkmddi/DxgkDdiMapCpuHostAperture, display.dxgkddimapcpuhostaperture
 ms.topic: callback
-f1_keywords:
- - "d3dkmddi/DxgkDdiMapCpuHostAperture"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Desktop
@@ -26,40 +24,35 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dkmddi.h
-api_name:
-- DxgkDdiMapCpuHostAperture
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - "d3dkmddi/DxgkDdiMapCpuHostAperture"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dkmddi.h
+api_name:
+ - DxgkDdiMapCpuHostAperture
+product:
+ - Windows
 ---
 
 # DXGKDDI_MAPCPUHOSTAPERTURE callback function
 
-
 ## -description
-
 
 <b>DxgkDdiMapCpuHostAperture</b> is called to map an allocation that is resident in a local memory segment into the CPU host aperture in order to make it visible to the CPU.
 
-
 ## -parameters
 
-
-
-
-### -param hAdapter [in]
+### -param hAdapter
 
 A handle to the display adapter.
-
 
 ### -param pArgs
 
@@ -67,13 +60,7 @@ A handle to the display adapter.
 
 The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_mapcpuhostaperture">DXGKARG_MAPCPUHOSTAPERTURE</a> structure that describes the operation.
 
-
 ## -returns
 
-
-
-
       Returns <b>STATUS_SUCCESS</b> if it succeeds. Otherwise, it returns one of the error codes defined in <b>Ntstatus.h</b>.
-
-
 

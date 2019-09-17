@@ -7,8 +7,6 @@ ms.assetid: 607e3294-7399-446c-b07c-f0d5416b997e
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_VIDPN_ASSIGNMULTISAMPLINGMETHODSET, DXGKDDI_VIDPN_ASSIGNMULTISAMPLINGMETHODSET callback, VidPnFunctions_836f1c8f-1690-4be1-9b77-43a7379278bd.xml, d3dkmddi/pfnAssignMultisamplingMethodSet, display.dxgk_vidpn_interface_pfnassignmultisamplingmethodset, pfnAssignMultisamplingMethodSet, pfnAssignMultisamplingMethodSet callback function [Display Devices]
 ms.topic: callback
-f1_keywords:
- - "d3dkmddi/pfnAssignMultisamplingMethodSet"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Desktop
@@ -26,59 +24,49 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dkmddi.h
-api_name:
-- pfnAssignMultisamplingMethodSet
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - "d3dkmddi/pfnAssignMultisamplingMethodSet"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dkmddi.h
+api_name:
+ - pfnAssignMultisamplingMethodSet
+product:
+ - Windows
 ---
 
 # DXGKDDI_VIDPN_ASSIGNMULTISAMPLINGMETHODSET callback function
 
-
 ## -description
-
 
 The <b>pfnAssignMultisamplingMethodSet</b> function assigns a set of multisampling methods to a particular video present source in a specified VidPN.
 
-
 ## -parameters
 
-
-
-
-### -param hVidPn [in]
+### -param hVidPn
 
 [in] A handle to a VidPN object. The VidPN manager previously provided this handle to the display miniport driver by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_enumvidpncofuncmodality">DxgkDdiEnumVidPnCofuncModality</a>.
 
-
-### -param VidPnSourceId [in]
+### -param VidPnSourceId
 
 [in] An integer that identifies one of the video present sources associated with the VidPN object.
 
-
-### -param NumMethods [in]
+### -param NumMethods
 
 [in] The number of elements in the <i>pSupportedMethodSet</i> array.
 
-
-### -param D3DDDI_MULTISAMPLINGMETHOD
+### -param Arg4
 
 [in] A pointer to an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dukmdt/ns-d3dukmdt-_d3dddi_multisamplingmethod">D3DDDI_MULTISAMPLINGMETHOD</a> structures, each of which describes a multisampling method.
 
-
 ## -returns
-
-
 
 The <b>pfnAssignMultisamplingMethodSet</b> function returns one of the following values.
 
@@ -91,16 +79,7 @@ The <b>pfnAssignMultisamplingMethodSet</b> function returns one of the following
 
 This function might also return other error codes that are defined in Ntstatus.h.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_enumvidpncofuncmodality">DxgkDdiEnumVidPnCofuncModality</a>
- 
-
- 
 

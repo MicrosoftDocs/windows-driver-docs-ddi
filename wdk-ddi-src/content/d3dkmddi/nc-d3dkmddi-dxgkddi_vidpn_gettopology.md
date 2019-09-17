@@ -7,8 +7,6 @@ ms.assetid: 2bc43cd0-97a2-4120-8e6f-425664d3d28c
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_VIDPN_GETTOPOLOGY, DXGKDDI_VIDPN_GETTOPOLOGY callback, VidPnFunctions_2818281e-102f-4c76-a57d-3b133b0692e6.xml, d3dkmddi/pfnGetTopology, display.dxgk_vidpn_interface_pfngettopology, pfnGetTopology, pfnGetTopology callback function [Display Devices]
 ms.topic: callback
-f1_keywords:
- - "d3dkmddi/pfnGetTopology"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Desktop
@@ -26,54 +24,45 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dkmddi.h
-api_name:
-- pfnGetTopology
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - "d3dkmddi/pfnGetTopology"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dkmddi.h
+api_name:
+ - pfnGetTopology
+product:
+ - Windows
 ---
 
 # DXGKDDI_VIDPN_GETTOPOLOGY callback function
 
-
 ## -description
-
 
 The <b>pfnGetTopology</b> function returns a handle to the VidPN topology object contained by a specified VidPN object.
 
-
 ## -parameters
 
-
-
-
-### -param hVidPn [in]
+### -param hVidPn
 
 [in] A handle to a VidPN object. The VidPN manager previously provided this handle to the display miniport driver by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_enumvidpncofuncmodality">DxgkDdiEnumVidPnCofuncModality</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_issupportedvidpn">DxgkDdiIsSupportedVidPn</a>, or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_recommendfunctionalvidpn">DxgkDdiRecommendFunctionalVidPn</a>.
 
-
-### -param phVidPnTopology [out]
+### -param phVidPnTopology
 
 [out] A pointer to a variable that receives a handle to the VidPN topology object.
 
-
-### -param ppVidPnTopologyInterface [out]
+### -param ppVidPnTopologyInterface
 
 [out] A pointer to a variable that receives a pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgk_vidpntopology_interface">DXGK_VIDPNTOPOLOGY_INTERFACE</a> structure. The structure contains pointers to functions that the display miniport driver can call to inspect and alter the VidPN topology object.
 
-
 ## -returns
-
-
 
 The <b>pfnGetTopology</b> function returns one of the following values:
 
@@ -82,29 +71,17 @@ The <b>pfnGetTopology</b> function returns one of the following values:
 |STATUS_SUCCESS|The function succeeded.|
 |STATUS_GRAPHICS_INVALID_VIDPN|The handle supplied in hVidPn was invalid.|
 
-
 ## -remarks
-
-
 
 The display miniport driver does not need to release the handle that it receives in <i>phVidPnTopology</i>.
 
-The lifetime of the DXGK_VIDPNTOPOLOGY_INTERFACE structure returned in <i>ppVidPnTopologyInterface</i> is owned by the operating system. Using this ownership scheme, the operating system can migrate to newer implementations at run time without breaking clients of the interface. 
-
-
-
+The lifetime of the DXGK_VIDPNTOPOLOGY_INTERFACE structure returned in <i>ppVidPnTopologyInterface</i> is owned by the operating system. Using this ownership scheme, the operating system can migrate to newer implementations at run time without breaking clients of the interface.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgk_vidpntopology_interface">DXGK_VIDPNTOPOLOGY_INTERFACE</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">VidPN Topology Interface</a>
- 
-
- 
 

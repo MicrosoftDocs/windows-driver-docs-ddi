@@ -74,26 +74,26 @@ A handle to the destination resource to copy to.
 
 An index that indicates the destination subresource to copy to. 
 
-### -param *
+### -param Arg4
 
 *pDstBox* [in, optional]
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ns-d3d10umddi-d3d10_ddi_box">D3D10_DDI_BOX</a> structure that specifies the region of the destination subresource to copy data to. If <b>pDstBox</b> is <b>NULL</b>, the driver should copy to the entire destination subresouce. 
 
 
-### -param *
+### -param Arg5
 
 *pSysMemUP* [in]
 
 A pointer to the beginning address of the source data that <i>DefaultConstantBufferUpdateSubresourceUP</i> uses to update the destination subresouce. 
 
-### -param Arg4
+### -param Arg6
 
 *RowPitch* [in]
 
 The offset, in bytes, to move to the next row of source data.
 
-### -param Arg5
+### -param Arg7
 
 *DepthPitch* [in]
 

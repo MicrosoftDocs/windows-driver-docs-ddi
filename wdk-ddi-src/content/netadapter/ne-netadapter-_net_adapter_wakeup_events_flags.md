@@ -29,8 +29,6 @@ api_location:
 - netadapter.h
 api_name: 
 - NET_ADAPTER_WAKEUP_EVENTS_FLAGS
-product:
-- Windows
 targetos: Windows
 product:
 - Windows

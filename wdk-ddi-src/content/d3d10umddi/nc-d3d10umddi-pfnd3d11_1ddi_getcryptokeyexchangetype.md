@@ -7,8 +7,6 @@ ms.assetid: 64870c9f-facf-4344-93d0-12cbcec86e11
 ms.date: 05/10/2018
 ms.keywords: GetCryptoKeyExchangeType, GetCryptoKeyExchangeType callback function [Display Devices], PFND3D11_1DDI_GETCRYPTOKEYEXCHANGETYPE, PFND3D11_1DDI_GETCRYPTOKEYEXCHANGETYPE callback, d3d10umddi/GetCryptoKeyExchangeType, display.getcryptokeyexchangetype
 ms.topic: callback
-f1_keywords:
- - "d3d10umddi/GetCryptoKeyExchangeType"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -26,66 +24,53 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- D3d10umddi.h
-api_name:
-- GetCryptoKeyExchangeType
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - "d3d10umddi/GetCryptoKeyExchangeType"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - D3d10umddi.h
+api_name:
+ - GetCryptoKeyExchangeType
+product:
+ - Windows
 ---
 
 # PFND3D11_1DDI_GETCRYPTOKEYEXCHANGETYPE callback function
 
-
 ## -description
 
-
-Queries the type of key exchange that is supported by the cryptographic engine of the display adapter for a specified encryption algorithm and video decoder profile.  
-
+Queries the type of key exchange that is supported by the cryptographic engine of the display adapter for a specified encryption algorithm and video decoder profile.
 
 ## -parameters
 
-
-
-
-### -param hDevice [in]
+### -param hDevice
 
 A handle to the display device (graphics context).
 
-
-
-
-### -param *pCryptoType [in]
+### -param pCryptoType
 
 A pointer to a GUID that specifies the type of encryption algorithm to query.
 
-
-### -param *pDecodeProfile [in]
+### -param pDecodeProfile
 
 A pointer to a GUID that specifies the decoder profile to query.
 
-
-### -param Index [in]
+### -param Index
 
 The zero-based index of the key exchange type.
 
-
-### -param *pKeyExchangeType [out]
+### -param pKeyExchangeType
 
 A pointer to a GUID that specifies the supported key exchange type for the specified index.
 
-
 ## -returns
-
-
 
 <b>GetCryptoKeyExchangeType</b> returns one of the following values:
 
@@ -93,11 +78,8 @@ A pointer to a GUID that specifies the supported key exchange type for the speci
 |--- |--- |
 |S_OK|The content protection capabilities were queried successfully.|
 |D3DERR_INVALID_CRYPTO|The encryption algorithm specified by the pCryptoType parameter is not supported.|
- 
 
 ## -remarks
-
-
 
 The <b>GetCryptoKeyExchangeType</b> function can be called to query the key exchange types for any index from 0 to (<b>D3D11_1DDI_VIDEO_CONTENT_PROTECTION_CAPS.KeyExchangeTypeCount</b>– 1). 
 
@@ -112,19 +94,11 @@ The <i>pCryptoType</i> parameter can contain one of the following values:
 > [!NOTE]
 > The Microsoft Direct3D runtime verifies that the  *pDecodeProfile*, *pCryptoType*, and *Index* parameter data is valid before it calls the *GetCryptoKeyExchangeType* function.
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_video_content_protection_caps">D3D11_1DDI_VIDEO_CONTENT_PROTECTION_CAPS</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_getcontentprotectioncaps">GetContentProtectionCaps</a>
- 
-
- 
 

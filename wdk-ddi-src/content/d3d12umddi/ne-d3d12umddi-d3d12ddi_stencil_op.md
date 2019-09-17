@@ -5,32 +5,34 @@ description: The D3D12DDI_STENCIL_OP enumeration type contains values that ident
 ms.assetid: 984415f8-a577-4344-aedb-161155f113af
 ms.date: 10/19/2018
 ms.topic: enum
-f1_keywords:
- - "d3d12umddi/D3D12DDI_STENCIL_OP"
-ms.keywords: D3D12DDI_STENCIL_OP, D3D12DDI_STENCIL_OP, 
+ms.keywords: D3D12DDI_STENCIL_OP, D3D12DDI_STENCIL_OP,
 req.header: d3d12umddi.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
 req.typenames: D3D12DDI_STENCIL_OP
-topic_type: 
-- apiref
-api_type: 
-- HeaderDef
-api_location: 
-- d3d12umddi.h
-api_name: 
-- D3D12DDI_STENCIL_OP
-product:
-- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_STENCIL_OP"
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12umddi.h
+api_name:
+ - D3D12DDI_STENCIL_OP
+product:
+ - Windows
+dev_langs:
+ - c++
 ---
 
 # D3D12DDI_STENCIL_OP enumeration
@@ -69,10 +71,11 @@ Invert the bits in the stencil-buffer entry.
 
 Increment the stencil-buffer entry, wrapping to zero if the new value exceeds the maximum value.
 
-### -field D3D12DDI_STENCIL_OP_DECR 
+### -field D3D12DDI_STENCIL_OP_DECR
 
 Decrement the stencil-buffer entry, wrapping to the maximum value if the new value is less than zero.
 
 ## -remarks
 
 ## -see-also
+

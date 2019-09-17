@@ -36,8 +36,6 @@ api_location:
 - windot11.h
 api_name:
 - DOT11_DIRECTION
-product:
-- Windows
 targetos: Windows
 req.typenames: DOT11_DIRECTION, *PDOT11_DIRECTION
 product:

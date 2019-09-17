@@ -36,8 +36,6 @@ api_location:
 - netpowersettings.h
 api_name: 
 - NetPowerSettingsGetWakePatternCount
-product:
-- Windows
 targetos: Windows
 product:
 - Windows

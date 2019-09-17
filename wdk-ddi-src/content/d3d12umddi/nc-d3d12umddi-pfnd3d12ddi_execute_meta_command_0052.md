@@ -5,38 +5,40 @@ description: Executes the meta-command.
 ms.assetid: b86e2ba8-45be-4535-a3ac-00da77660f1d
 ms.date: 10/19/2018
 ms.topic: callback
-f1_keywords:
- - "d3d12umddi/PFND3D12DDI_EXECUTE_META_COMMAND_0052"
 req.header: d3d12umddi.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- UserDefined
-api_location: 
-- d3d12umddi.h
-api_name: 
-- PFND3D12DDI_EXECUTE_META_COMMAND_0052
-product:
-- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_EXECUTE_META_COMMAND_0052"
+topic_type:
+ - apiref
+api_type:
+ - UserDefined
+api_location:
+ - d3d12umddi.h
+api_name:
+ - PFND3D12DDI_EXECUTE_META_COMMAND_0052
+product:
+ - Windows
+dev_langs:
+ - c++
 ---
 
 # PFND3D12DDI_EXECUTE_META_COMMAND_0052 callback function
@@ -44,6 +46,26 @@ ms.custom: RS5
 ## -description
 
 Executes the meta-command.
+
+## -parameters
+
+### -param Arg1
+
+A handle to the driver's data for the command list. The driver uses this region of memory to store internal data structures that are related to its command list.
+
+### -param Arg2
+
+A handle to the meta-command.
+
+### -param Arg3
+
+A pointer to void.
+
+### -param Arg4
+
+## -returns
+
+This callback function does not return a value.
 
 ## -prototype
 
@@ -64,26 +86,4 @@ VOID Pfnd3d12ddiExecuteMetaCommand0052
 {...}
 
 ```
-
-## -parameters
-
-### -param Arg1
-
-A handle to the driver's data for the command list. The driver uses this region of memory to store internal data structures that are related to its command list.
-
-### -param Arg2
-
-A handle to the meta-command.
-
-### -param *
-
-A pointer to void.
-
-### -param Arg3
-
-The size of the meta-command array.
-
-## -returns
-
-This callback function does not return a value.
 

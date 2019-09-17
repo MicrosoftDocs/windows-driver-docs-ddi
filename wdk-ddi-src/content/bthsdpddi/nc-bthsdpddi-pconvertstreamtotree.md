@@ -8,8 +8,6 @@ ms.assetid: 3b285a32-c1bc-4103-aa2e-0f6c8f5cc7ec
 ms.date: 04/27/2018
 ms.keywords: PCONVERTSTREAMTOTREE, PCONVERTSTREAMTOTREE callback, SdpConvertStreamToTree, SdpConvertStreamToTree callback function [Bluetooth Devices], bltooth.sdpconvertstreamtotree, bth_funcs_7155961d-c993-428b-a16e-4fdcf85e28c2.xml, bthsdpddi/SdpConvertStreamToTree
 ms.topic: callback
-f1_keywords:
- - "bthsdpddi/SdpConvertStreamToTree"
 req.header: bthsdpddi.h
 req.include-header: BthSdpddi.h
 req.target-type: Desktop
@@ -27,53 +25,46 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- BthSdpddi.h
-api_name:
-- SdpConvertStreamToTree
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - "bthsdpddi/SdpConvertStreamToTree"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - BthSdpddi.h
+api_name:
+ - SdpConvertStreamToTree
+product:
+ - Windows
 ---
 
 # PCONVERTSTREAMTOTREE callback function
 
-
 ## -description
-
 
 The Bluetooth 
   <b>SdpConvertStreamToTree</b> function is used to create a Microsoft proprietary tree-based representation
   of an SDP record, while leaving the original stream-based representation unmodified.
 
-
 ## -parameters
-
-
-
 
 ### -param Stream
 
 The SDP record stream to convert into a tree-based representation.
 
-
 ### -param Size
 
 The size of the source SDP record stream.
 
-
-### -param *Node
+### -param Node
 
 A pointer to the 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sdpnode/ns-sdpnode-_sdp_tree_root_node">SDP_TREE_ROOT_NODE</a> structure that serves
      as the root of the SDP tree-based representation of the SDP record.
-
 
 ### -param tag
 
@@ -82,10 +73,7 @@ Specifies a 4-byte
      allocation. For more information about pool tags, see 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-exallocatepoolwithtag">ExAllocatePoolWithTag</a>.
 
-
 ## -returns
-
-
 
 Possible return values include:
 
@@ -98,13 +86,7 @@ Possible return values include:
 <dt>STATUS_INVALID_PARAMETER</dt>
 </dl>
 
-
-
-
-
 ## -remarks
-
-
 
 Because a tree can be traversed by evaluating pointers, the 
     <b>SdpConvertStreamToTree</b> function can make it easier for profile drivers to extract information from
@@ -153,13 +135,7 @@ The remaining members of the data union contain actual data extracted from the S
 Bluetooth profile drivers can obtain a pointer to this function through the 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthsdpddi/ns-bthsdpddi-_bthddi_sdp_parse_interface">BTHDDI_SDP_PARSE_INTERFACE</a>.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthsdpddi/ns-bthsdpddi-_bthddi_sdp_parse_interface">BTHDDI_SDP_PARSE_INTERFACE</a>
 
@@ -190,7 +166,4 @@ Bluetooth profile drivers can obtain a pointer to this function through the
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sdplib/nf-sdplib-sdpfreetree">SdpFreeTree</a>
- 
-
- 
 

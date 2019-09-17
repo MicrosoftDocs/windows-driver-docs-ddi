@@ -36,8 +36,6 @@ api_location:
 - windot11.h
 api_name:
 - DOT11_MAC_FRAME_STATISTICS
-product:
-- Windows
 targetos: Windows
 req.typenames: DOT11_MAC_FRAME_STATISTICS, *PDOT11_MAC_FRAME_STATISTICS
 product:

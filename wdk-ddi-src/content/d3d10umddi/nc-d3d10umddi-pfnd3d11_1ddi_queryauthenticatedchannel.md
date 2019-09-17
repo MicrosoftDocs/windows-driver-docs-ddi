@@ -7,8 +7,6 @@ ms.assetid: bb152e3d-497f-4798-86cc-6f300e24a05c
 ms.date: 05/10/2018
 ms.keywords: PFND3D11_1DDI_QUERYAUTHENTICATEDCHANNEL, PFND3D11_1DDI_QUERYAUTHENTICATEDCHANNEL callback, QueryAuthenticatedChannel, QueryAuthenticatedChannel callback function [Display Devices], d3d10umddi/QueryAuthenticatedChannel, display.pfnqueryauthenticatedchannel1, display.queryauthenticatedchannel1
 ms.topic: callback
-f1_keywords:
- - "d3d10umddi/QueryAuthenticatedChannel"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -26,75 +24,57 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- D3d10umddi.h
-api_name:
-- QueryAuthenticatedChannel
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - "d3d10umddi/QueryAuthenticatedChannel"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - D3d10umddi.h
+api_name:
+ - QueryAuthenticatedChannel
+product:
+ - Windows
 ---
 
 # PFND3D11_1DDI_QUERYAUTHENTICATEDCHANNEL callback function
 
-
 ## -description
-
 
 Queries an authenticated channel for capability and state information. Implemented by a Windows Display Driver Model (WDDM) 1.2 or later user-mode display driver.
 
-
 ## -parameters
 
-
-
-
-### -param hDevice [in]
+### -param hDevice
 
 A handle to the display device (graphics context).
 
-
-
-
-### -param hCAuthChannel [in]
+### -param hCAuthChannel
 
 A handle to an authenticated channel object that was created through a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createauthenticatedchannel">CreateAuthenticatedChannel(D3D11_1)</a> function.
 
-
-### -param InputDataSize [in]
+### -param InputDataSize
 
 The size, in bytes, of the data in the <i>pInputData</i> array.
 
-
-
-
-### -param *pInputData [out]
+### -param pInputData
 
 A pointer to a buffer that describes the information to query. The data in this buffer is formatted as a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_authenticated_query_input">D3D11_1DDI_AUTHENTICATED_QUERY_INPUT</a> structure.
 
-
-### -param OutputDataSize [in]
+### -param OutputDataSize
 
 The size, in bytes, of the data in the <i>pOutputData</i> array.
 
-
-
-
-### -param *pOutputData [out]
+### -param pOutputData
 
 A pointer to a buffer that contains the queried information. For more information, see the Remarks section.
 
-
 ## -returns
-
-
 
 Returns one of the following values:
 
@@ -105,10 +85,7 @@ Returns one of the following values:
 |E_INVALIDARG|Parameters were validated and determined to be incorrect.|
 |E_OUTOFMEMORY|Memory was not available to complete the operation.|
 
-
 ## -remarks
-
-
 
 The <i>pInputData</i> parameter references a buffer that contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_authenticated_query_input">D3D11_1DDI_AUTHENTICATED_QUERY_INPUT</a> structure. This structure contains the driver's handle to the authenticated channel, a sequence number, and a GUID that indicates the type of query to perform.  The driver must return  <b>E_INVALIDARG</b> if the sequence number was not previously initialized by using the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_configureauthenticatedchannel">ConfigureAuthenticatedChannel(D3D11_1)</a> function.  The driver must  also return  <b>E_INVALIDARG</b> if the sequence number is not greater than the sequence number of the previous query call.
 
@@ -161,12 +138,7 @@ The <i>OutputDataSize</i> parameter is less than size of the structure specified
 </li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_configureauthenticatedchannel">ConfigureAuthenticatedChannel(D3D11_1)</a>
 
@@ -181,7 +153,4 @@ The <i>OutputDataSize</i> parameter is less than size of the structure specified
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_authenticated_query_output">D3D11_1DDI_AUTHENTICATED_QUERY_OUTPUT</a>
- 
-
- 
 

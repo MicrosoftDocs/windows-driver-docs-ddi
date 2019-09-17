@@ -7,8 +7,6 @@ ms.assetid: ab3f8abb-4735-42c1-9664-8f2f5f7d5da7
 ms.date: 05/10/2018
 ms.keywords: PFND3D11_1DDI_GETVIDEOPROCESSORFILTERRANGE, PFND3D11_1DDI_GETVIDEOPROCESSORFILTERRANGE callback, d3d10umddi/pfnGetVideoProcessorFilterRange, display.getvideoprocessorfilterrange, pfnGetVideoProcessorFilterRange, pfnGetVideoProcessorFilterRange callback function [Display Devices]
 ms.topic: callback
-f1_keywords:
- - "d3d10umddi/pfnGetVideoProcessorFilterRange"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -26,35 +24,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- D3d10umddi.h
-api_name:
-- pfnGetVideoProcessorFilterRange
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - "d3d10umddi/pfnGetVideoProcessorFilterRange"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - D3d10umddi.h
+api_name:
+ - pfnGetVideoProcessorFilterRange
+product:
+ - Windows
 ---
 
 # PFND3D11_1DDI_GETVIDEOPROCESSORFILTERRANGE callback function
 
-
 ## -description
-
 
 Queries the range of values that the display miniport driver supports for a specified video processor filter.
 
-
 ## -parameters
-
-
-
 
 ### -param Arg1
 
@@ -74,29 +68,17 @@ A handle to a video processor enumeration object that was created through a call
 
 The type of the video processor filter, specified as a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ne-d3d10umddi-d3d11_1ddi_video_processor_filter">D3D11_1DDI_VIDEO_PROCESSOR_FILTER</a> value.
 
-### -param *
+### -param Arg4
 
 *pFilterRange* [out]
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_video_processor_filter_range">D3D11_1DDI_VIDEO_PROCESSOR_FILTER_RANGE</a> structure that specifies the range of values for the specified filter.
 
-
-
-
-
 ## -returns
-
-
 
 This callback function does not return a value.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessorenum">CreateVideoProcessorEnum</a>
 
@@ -107,7 +89,4 @@ This callback function does not return a value.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_video_processor_filter_range">D3D11_1DDI_VIDEO_PROCESSOR_FILTER_RANGE</a>
- 
-
- 
 

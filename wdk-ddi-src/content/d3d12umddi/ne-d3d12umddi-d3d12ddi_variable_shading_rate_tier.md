@@ -8,31 +8,33 @@ ms.assetid: 52c5d637-560d-4bf7-99f9-484adbbadfd3
 ms.author: windowsdriverdev
 ms.date: 04/04/2019
 ms.topic: enum
-f1_keywords:
- - "d3d12umddi/D3D12DDI_VARIABLE_SHADING_RATE_TIER"
-ms.keywords: D3D12DDI_VARIABLE_SHADING_RATE_TIER, D3D12DDI_VARIABLE_SHADING_RATE_TIER, 
+ms.keywords: D3D12DDI_VARIABLE_SHADING_RATE_TIER, D3D12DDI_VARIABLE_SHADING_RATE_TIER,
 req.header: d3d12umddi.h
-req.include-header:
-req.target-type:
+req.include-header: 
+req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.max-support:
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.max-support: 
 req.typenames: D3D12DDI_VARIABLE_SHADING_RATE_TIER
-topic_type: 
- - apiref
-api_type: 
- - HeaderDef
-api_location: 
- - d3d12umddi.h
-api_name: 
- - D3D12DDI_VARIABLE_SHADING_RATE_TIER
-product:
-- Windows
 targetos: Windows
 ms.custom: D3D12 Release 6, Build rev 2., 19H1
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_VARIABLE_SHADING_RATE_TIER"
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - d3d12umddi.h
+api_name:
+ - D3D12DDI_VARIABLE_SHADING_RATE_TIER
+product:
+ - Windows
+dev_langs:
+ - c++
 ---
 
 # D3D12DDI_VARIABLE_SHADING_RATE_TIER enumeration
@@ -45,15 +47,15 @@ Indicates the tier at which variable rate shading occurs.
 
 ## -enum-fields
 
-### -field D3D12DDI_VARIABLE_SHADING_RATE_TIER_NOT_SUPPORTED 
+### -field D3D12DDI_VARIABLE_SHADING_RATE_TIER_NOT_SUPPORTED
 
 Variable rate shading is not supported.
 
-### -field D3D12DDI_VARIABLE_SHADING_RATE_TIER_1 
+### -field D3D12DDI_VARIABLE_SHADING_RATE_TIER_1
 
 Variable rate shading is supported at tier 1.
 
-### -field D3D12DDI_VARIABLE_SHADING_RATE_TIER_2 
+### -field D3D12DDI_VARIABLE_SHADING_RATE_TIER_2
 
 Variable rate shading is supported at tier 2.
 
@@ -79,5 +81,5 @@ The following capabilities are defined for each tier.
 * SV_ShadingRate PS input is supported, where SV_ShadingRate provides more info about the shading rate.
 * The per-provoking vertex rate, also referred to as per-primitive rate, is only valid when one viewport is used and SV_ViewportIndex is not written to.
 
-
 ## -see-also
+

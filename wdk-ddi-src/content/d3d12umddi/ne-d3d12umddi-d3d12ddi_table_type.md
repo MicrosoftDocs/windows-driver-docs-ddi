@@ -7,130 +7,111 @@ ms.assetid: 93562C36-7ADE-4CC6-B33D-D6E955E3D42C
 ms.date: 05/10/2018
 ms.keywords: D3D12DDI_TABLE_TYPE, D3D12DDI_TABLE_TYPE enumeration [Display Devices], D3D12DDI_TABLE_TYPE_0020_DEVICE_CORE_VIDEO, D3D12DDI_TABLE_TYPE_0020_DEVICE_VIDEO, D3D12DDI_TABLE_TYPE_0020_EXTENDED_FEATURES, D3D12DDI_TABLE_TYPE_0020_PASS_EXPERIMENT, D3D12DDI_TABLE_TYPE_0021_SHADERCACHE_CALLBACKS, D3D12DDI_TABLE_TYPE_0022_COMMAND_LIST_VIDEO_DECODE, D3D12DDI_TABLE_TYPE_0022_COMMAND_LIST_VIDEO_PROCESS, D3D12DDI_TABLE_TYPE_0022_COMMAND_QUEUE_VIDEO_DECODE, D3D12DDI_TABLE_TYPE_0022_COMMAND_QUEUE_VIDEO_PROCESS, D3D12DDI_TABLE_TYPE_0030_CONTENT_PROTECTION_CALLBACKS, D3D12DDI_TABLE_TYPE_0030_DEVICE_CONTENT_PROTECTION_RESOURCES, D3D12DDI_TABLE_TYPE_0030_DEVICE_CONTENT_PROTECTION_STREAMING, D3D12DDI_TABLE_TYPE_COMMAND_LIST_3D, D3D12DDI_TABLE_TYPE_COMMAND_QUEUE_3D, D3D12DDI_TABLE_TYPE_DEVICE_CORE, D3D12DDI_TABLE_TYPE_DXGI, d3d12umddi/D3D12DDI_TABLE_TYPE, d3d12umddi/D3D12DDI_TABLE_TYPE_0020_DEVICE_CORE_VIDEO, d3d12umddi/D3D12DDI_TABLE_TYPE_0020_DEVICE_VIDEO, d3d12umddi/D3D12DDI_TABLE_TYPE_0020_EXTENDED_FEATURES, d3d12umddi/D3D12DDI_TABLE_TYPE_0020_PASS_EXPERIMENT, d3d12umddi/D3D12DDI_TABLE_TYPE_0021_SHADERCACHE_CALLBACKS, d3d12umddi/D3D12DDI_TABLE_TYPE_0022_COMMAND_LIST_VIDEO_DECODE, d3d12umddi/D3D12DDI_TABLE_TYPE_0022_COMMAND_LIST_VIDEO_PROCESS, d3d12umddi/D3D12DDI_TABLE_TYPE_0022_COMMAND_QUEUE_VIDEO_DECODE, d3d12umddi/D3D12DDI_TABLE_TYPE_0022_COMMAND_QUEUE_VIDEO_PROCESS, d3d12umddi/D3D12DDI_TABLE_TYPE_0030_CONTENT_PROTECTION_CALLBACKS, d3d12umddi/D3D12DDI_TABLE_TYPE_0030_DEVICE_CONTENT_PROTECTION_RESOURCES, d3d12umddi/D3D12DDI_TABLE_TYPE_0030_DEVICE_CONTENT_PROTECTION_STREAMING, d3d12umddi/D3D12DDI_TABLE_TYPE_COMMAND_LIST_3D, d3d12umddi/D3D12DDI_TABLE_TYPE_COMMAND_QUEUE_3D, d3d12umddi/D3D12DDI_TABLE_TYPE_DEVICE_CORE, d3d12umddi/D3D12DDI_TABLE_TYPE_DXGI, display.d3d12ddi_table_type
 ms.topic: enum
-f1_keywords:
- - "d3d12umddi/D3D12DDI_TABLE_TYPE"
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3d12umddi.h
-api_name:
-- D3D12DDI_TABLE_TYPE
-product:
-- Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 targetos: Windows
 tech.root: display
 req.typenames: D3D12DDI_TABLE_TYPE
 ms.custom: 19H1
+f1_keywords:
+ - "d3d12umddi/D3D12DDI_TABLE_TYPE"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3d12umddi.h
+api_name:
+ - D3D12DDI_TABLE_TYPE
+product:
+ - Windows
+dev_langs:
+ - c++
 ---
 
 # D3D12DDI_TABLE_TYPE enumeration
 
-
 ## -description
-
 
 Command list and queue types to allow drivers to point to different implementations for video.
 
-
 ## -enum-fields
-
-
-
 
 ### -field D3D12DDI_TABLE_TYPE_DEVICE_CORE
 
 Device core.
 
-
 ### -field D3D12DDI_TABLE_TYPE_COMMAND_LIST_3D
 
 List 3D.
-
 
 ### -field D3D12DDI_TABLE_TYPE_COMMAND_QUEUE_3D
 
 Queue 3D.
 
-
 ### -field D3D12DDI_TABLE_TYPE_DXGI
 
 DXGI.
-
 
 ### -field D3D12DDI_TABLE_TYPE_0020_DEVICE_VIDEO
 
 Device video.
 
-
 ### -field D3D12DDI_TABLE_TYPE_0020_DEVICE_CORE_VIDEO
 
 Queue video.
-
 
 ### -field D3D12DDI_TABLE_TYPE_0020_EXTENDED_FEATURES
 
 Extended features.
 
-
 ### -field D3D12DDI_TABLE_TYPE_0020_PASS_EXPERIMENT
 
 Pass experiment.
-
 
 ### -field D3D12DDI_TABLE_TYPE_0021_SHADERCACHE_CALLBACKS
 
 Shader cache callbacks.
 
-
 ### -field D3D12DDI_TABLE_TYPE_0022_COMMAND_QUEUE_VIDEO_DECODE
 
 Queue video decode.
-
 
 ### -field D3D12DDI_TABLE_TYPE_0022_COMMAND_LIST_VIDEO_DECODE
 
 List video decode.
 
-
 ### -field D3D12DDI_TABLE_TYPE_0022_COMMAND_QUEUE_VIDEO_PROCESS
 
 Queue video process.
-
 
 ### -field D3D12DDI_TABLE_TYPE_0022_COMMAND_LIST_VIDEO_PROCESS
 
 List video process.
 
-
 ### -field D3D12DDI_TABLE_TYPE_0030_DEVICE_CONTENT_PROTECTION_RESOURCES
 
 Device content protection resources.
 
-
 ### -field D3D12DDI_TABLE_TYPE_0030_CONTENT_PROTECTION_CALLBACKS
 
 Content protection callbacks.
-
 
 ### -field D3D12DDI_TABLE_TYPE_0030_DEVICE_CONTENT_PROTECTION_STREAMING
 
@@ -140,20 +121,21 @@ Device content protection streaming.
 
 Meta-command.
 
-### -field D3D12DDI_TABLE_TYPE_0043_RENDER_PASS 
+### -field D3D12DDI_TABLE_TYPE_0043_RENDER_PASS
 
 Render pass.
 
-### -field D3D12DDI_TABLE_TYPE_0053_COMMAND_LIST_VIDEO_ENCODE 
+### -field D3D12DDI_TABLE_TYPE_0053_COMMAND_LIST_VIDEO_ENCODE
 
 Command list video encode.
 
-### -field D3D12DDI_TABLE_TYPE_0053_COMMAND_QUEUE_VIDEO_ENCODE 
+### -field D3D12DDI_TABLE_TYPE_0053_COMMAND_QUEUE_VIDEO_ENCODE
 
 Command queue video encode.
 
-### -field D3D12DDI_TABLE_TYPE_0054_DOWNLEVEL_SUPPORT_CALLBACKS 
+### -field D3D12DDI_TABLE_TYPE_0054_DOWNLEVEL_SUPPORT_CALLBACKS
 
 Down level support callbacks.
 
 ### -field D3D12DDI_TABLE_TYPE_0054_DEVICE_DOWNLEVEL_SUPPORT
+

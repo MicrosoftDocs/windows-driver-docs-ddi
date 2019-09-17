@@ -29,8 +29,6 @@ apilocation:
 - netadapter.h
 apiname: 
 - NET_ADAPTER_POWER_FLAGS
-product:
-- Windows
 targetos: Windows
 product:
 - Windows

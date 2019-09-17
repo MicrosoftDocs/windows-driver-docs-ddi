@@ -40,6 +40,8 @@ product:
 - Windows
 targetos: Windows
 req.typenames: DXGKRNL_INTERFACE, *PDXGKRNL_INTERFACE
+dev_langs:
+ - c++
 ms.custom: 19H1
 ---
 

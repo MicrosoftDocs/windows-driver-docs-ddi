@@ -8,8 +8,6 @@ ms.assetid: b6a6b549-7590-4b27-b759-631fa62a76d2
 ms.date: 05/10/2018
 ms.keywords: ComposeRects, ComposeRects callback function [Display Devices], PFND3DDDI_COMPOSERECTS, PFND3DDDI_COMPOSERECTS callback, UserModeDisplayDriver_Functions_fca43b4e-1c5d-46b9-a68f-928378ed22a1.xml, d3dumddi/ComposeRects, display.composerects
 ms.topic: callback
-f1_keywords:
- - "d3dumddi/ComposeRects"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop
@@ -27,63 +25,51 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dumddi.h
-api_name:
-- ComposeRects
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - "d3dumddi/ComposeRects"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dumddi.h
+api_name:
+ - ComposeRects
+product:
+ - Windows
 ---
 
 # PFND3DDDI_COMPOSERECTS callback function
 
-
 ## -description
 
-
-The <b>ComposeRects</b> function composes two-dimensional areas from a source surface to a destination surface. 
-
+The <b>ComposeRects</b> function composes two-dimensional areas from a source surface to a destination surface.
 
 ## -parameters
 
-
-
-
-### -param hDevice [in]
+### -param hDevice
 
 A handle to the display device (graphics context).
 
-
-### -param *
+### -param Arg2
 
 *pData* [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_composerects">D3DDDIARG_COMPOSERECTS</a> structure that specifies the parameters that are used to compose rectangular areas.
 
-
 ## -returns
-
-
 
 <b>ComposeRects</b> returns one of the following values:
 
 | **Return code** | **Description** | 
 |:--|:--|
 | **S_OK** | The rectangular areas were successfully composed. | 
-| **E_OUTOFMEMORY** | [ComposeRects](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_composerects)  could not allocate the required memory for it to complete. | 
-
-
+| **E_OUTOFMEMORY** | [ComposeRects](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_composerects)  could not allocate the required memory for it to complete. |
 
 ## -remarks
-
-
 
 The following constraints and validations apply to the <b>ComposeRects</b> function:
 
@@ -144,15 +130,9 @@ for (UINT i=0; i < COMPOSERECTS.NumDstRects; i++) {
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_composerects">D3DDDIARG_COMPOSERECTS</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>
- 
-
- 
 

@@ -34,6 +34,8 @@ product:
 targetos: Windows
 tech.root: display
 ms.custom: RS5
+dev_langs:
+ - c++
 ---
 
 # D3D12DDI_RESOLVE_VIDEO_MOTION_VECTOR_HEAP_INPUT_0053 structure

@@ -5,37 +5,37 @@ description: Starts a DirectX Video Acceleration (DXVA) decoding operation to de
 ms.assetid: 803a326d-735e-44c3-b27b-a6330094f9af
 ms.date: 10/19/2018
 ms.topic: callback
-f1_keywords:
- - "d3d10umddi/PFND3DWDDM2_4DDI_VIDEODECODERBEGINFRAME_RS4_0"
 req.header: d3d10umddi.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
-req.irql:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-topic_type:
-- apiref
-api_type:
-- UserDefined
-api_location:
-- d3d10umddi.h
-api_name:
-- PFND3DWDDM2_4DDI_VIDEODECODERBEGINFRAME_RS4_0
-product: 
-- Windows
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
+req.irql: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
 targetos: Windows
 tech.root: display
+f1_keywords:
+ - "d3d10umddi/PFND3DWDDM2_4DDI_VIDEODECODERBEGINFRAME_RS4_0"
+topic_type:
+ - apiref
+api_type:
+ - UserDefined
+api_location:
+ - d3d10umddi.h
+api_name:
+ - PFND3DWDDM2_4DDI_VIDEODECODERBEGINFRAME_RS4_0
+product:
+ - Windows
 ---
 
 # PFND3DWDDM2_4DDI_VIDEODECODERBEGINFRAME_RS4_0 callback function
@@ -43,6 +43,29 @@ tech.root: display
 ## -description
 
 Starts a DirectX Video Acceleration (DXVA) decoding operation to decode a video frame.
+
+## -parameters
+
+### -param hDevice
+
+A handle to the display device (graphics context).
+
+### -param hDecode
+
+A handle to the video decoder object that was created through a call to the CreateVideoDecoder function.
+
+### -param pBeginFrame
+
+A pointer to a D3DWDDM2_4DDIARG_VIDEODECODERBEGINFRAME_RS4_0 structure. For more information, see the Remarks section.
+
+## -returns
+
+Returns one of the following HRESULT values:
+
+| Return code | Description |
+|---|---|
+|S_OK|The session key for the cryptographic session was negotiated successfully.|
+|E_OUTOFMEMORY|Memory was not available to complete the operation.|
 
 ## -prototype
 
@@ -66,30 +89,6 @@ PFND3DWDDM2_4DDI_VIDEODECODERBEGINFRAME_RS4_0
 
 ```
 
-## -parameters
-
-### -param hDevice
-
-A handle to the display device (graphics context).
-
-### -param hDecode
-
-A handle to the video decoder object that was created through a call to the CreateVideoDecoder function.
-
-### -param *pBeginFrame
-
-A pointer to a D3DWDDM2_4DDIARG_VIDEODECODERBEGINFRAME_RS4_0 structure. For more information, see the Remarks section.
-
-
-## -returns
-
-Returns one of the following HRESULT values:
-
-| Return code | Description |
-|---|---|
-|S_OK|The session key for the cryptographic session was negotiated successfully.|
-|E_OUTOFMEMORY|Memory was not available to complete the operation.|
-
 ## -remarks
 
 If this function returns S_OK, the Microsoft Direct3D runtime calls the VideoDecoderSubmitBuffers function to perform the decoding operations. When all decoding operations have been executed, the runtime calls the VideoDecoderEndFrame function to stop the decoding operation on a video frame.
@@ -109,10 +108,8 @@ If the *pContentKey* member of this structure is not set to NULL, the buffer tha
 
 If the pContentKey member is set to NULL, the video frame data should be decrypted by using the session key.
 
-
-
-
 ## -see-also
 
 [CreateVideoDecoder](nc-d3d10umddi-pfnd3d11_1ddi_createvideodecoder.md)
 [NegotiateCryptoSessionKeyeExchange](nc-d3d10umddi-pfnd3dwddm2_4ddi_negotiatecryptosessionkeyexchange.md)
+

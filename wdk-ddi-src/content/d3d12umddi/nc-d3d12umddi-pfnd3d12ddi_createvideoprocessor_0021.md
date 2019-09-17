@@ -61,7 +61,7 @@ The <i>pfnCreateVideoProcessor</i> callback function creates a video processor.
 The handle of a device driver.
 
 
-### -param *pArgs
+### -param pArgs
 
 
 ### -param hDrvVideoProcessor

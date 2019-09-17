@@ -32,8 +32,6 @@ apilocation:
 - extension.h
 apiname: 
 - NET_EXTENSION
-product:
-- Windows
 targetos: Windows
 product:
 - Windows

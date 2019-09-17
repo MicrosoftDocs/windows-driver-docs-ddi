@@ -33,8 +33,6 @@ api_location:
 - netadapter.h
 api_name: 
 - EVT_NET_ADAPTER_PREVIEW_PROTOCOL_OFFLOAD
-product:
-- Windows
 targetos: Windows
 req.typenames: 
 product:

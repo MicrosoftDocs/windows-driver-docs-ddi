@@ -1,10 +1,10 @@
 ---
 UID: NF:ntddstor.DeviceDsmDataSetRanges
 title: DeviceDsmDataSetRanges function (ntddstor.h)
-description: The DeviceDsmDataSetRanges function sets the data set range in a DEVICE_DSM_RANGE structure.
+description: The DeviceDsmDataSetRanges function function gets a pointer to the data set ranges associated with a DEVICE_DSM_INPUT structure.
 tech.root: storage
 ms.assetid: 0a7044a8-4cf1-4e40-92e1-c0dacea99ea9
-ms.date: 04/09/2018
+ms.date: 08/23/2019
 ms.topic: function
 f1_keywords:
  - "ntddstor/DeviceDsmDataSetRanges"
@@ -42,21 +42,28 @@ targetos: Windows
 
 # DeviceDsmDataSetRanges function
 
-
 ## -description
 
-The DeviceDsmDataSetRanges function gets a pointer to the data set ranges for a [**DEVICE_MANAGE_DATA_SET_ATTRIBUTES**](ns-ntddstor-_device_manage_data_set_attributes.md) structure.
+The **DeviceDsmDataSetRanges** function gets a pointer to the data set ranges for a data set management (DSM) operation.
 
 ## -parameters
 
 ### -param Input
 
-A pointer to the [**DEVICE_MANAGE_DATA_SET_ATTRIBUTES**](ns-ntddstor-_device_manage_data_set_attributes.md) structure.
+Pointer to the [DEVICE_DSM_INPUT](ns-ntddstor-_device_manage_data_set_attributes.md) structure.
 
 ## -returns
 
-Returns a pointer to a PDEVICE_DSM_RANGE structure that represents a device data set range.
+**DeviceDsmDataSetRanges** returns a pointer to the first [DEVICE_DSM_RANGE](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor-_device_data_set_range) structure in the data set range.
 
 ## -remarks
 
+The DSM handler calls this function only if the members of *Input* indicate that the operation has range data. See [Data Set Management](https://docs.microsoft.com/windows-hardware/drivers/storage/data-set-management-overview) for details on how to process a DSM.
+
 ## -see-also
+
+[Data Set Management](https://docs.microsoft.com/windows-hardware/drivers/storage/data-set-management-overview)
+
+[DEVICE_DSM_INPUT](ns-ntddstor-_device_manage_data_set_attributes.md)
+
+[DEVICE_DSM_RANGE](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor-_device_data_set_range)

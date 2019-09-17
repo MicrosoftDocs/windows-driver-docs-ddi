@@ -36,8 +36,6 @@ api_location:
 - netpowersettings.h
 api_name: 
 - NetPowerSettingsGetEnabledWakePatternFlags
-product:
-- Windows
 targetos: Windows
 product:
 - Windows

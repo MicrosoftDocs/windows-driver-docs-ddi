@@ -32,8 +32,6 @@ apilocation:
 - ringcollection.h
 apiname: 
 - NET_RING_COLLECTION
-product:
-- Windows
 targetos: Windows
 product:
 - Windows

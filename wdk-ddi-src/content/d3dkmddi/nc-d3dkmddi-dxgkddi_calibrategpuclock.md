@@ -7,8 +7,6 @@ ms.assetid: AF912508-D6EF-450D-AEC3-47D1C44D0DA0
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_CALIBRATEGPUCLOCK, DXGKDDI_CALIBRATEGPUCLOCK callback, DxgkDdiCalibrateGpuClock, DxgkDdiCalibrateGpuClock callback function [Display Devices], d3dkmddi/DxgkDdiCalibrateGpuClock, display.dxgkddicalibrategpuclock
 ms.topic: callback
-f1_keywords:
- - "d3dkmddi/DxgkDdiCalibrateGpuClock"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Desktop
@@ -26,70 +24,55 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: DISPATCH_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- D3dkmddi.h
-api_name:
-- DxgkDdiCalibrateGpuClock
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - "d3dkmddi/DxgkDdiCalibrateGpuClock"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - D3dkmddi.h
+api_name:
+ - DxgkDdiCalibrateGpuClock
+product:
+ - Windows
 ---
 
 # DXGKDDI_CALIBRATEGPUCLOCK callback function
 
-
 ## -description
-
 
 Called by the  Microsoft DirectX graphics kernel subsystem to calibrate the GPU time stamps in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgk_history_buffer">DXGK_HISTORY_BUFFER</a> history buffer with the CPU clock time.
 
-
 ## -parameters
 
-
-
-
-### -param hAdapter [in]
+### -param hAdapter
 
 A handle to the adapter object for the GPU for which timing calibration info is to be obtained. 
 
 The display miniport driver previously provided this handle to the DirectX graphics kernel subsystem in the <i>MiniportDeviceContext</i> output parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function.
 
-
-### -param NodeOrdinal [in]
+### -param NodeOrdinal
 
 An index of a node for which timing calibration info will be obtained. This node is within the physical adapter defined by the <i>hAdapter</i> parameter.
 
-
-### -param EngineOrdinal [in]
+### -param EngineOrdinal
 
 The zero-based index of the engine, within the node that <i>NodeOrdinal</i> specifies, for which timing calibration info will be obtained. For graphics adapters that are not part of a link in a linked display adapter (LDA) configuration, you should always set <i>EngineOrdinal</i> to 0.
 
-
-### -param pClockCalibration [out]
+### -param pClockCalibration
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/display/">DXGKARG_CALIBRATEGPUCLOCK</a> structure that provides clock counter info from the GPU and CPU.
 
-
 ## -returns
-
-
 
 Returns <b>STATUS_SUCCESS</b> if it succeeds; otherwise, it returns one of the error codes defined in Ntstatus.h.
 
-
-
-
 ## -remarks
-
-
 
 The DirectX graphics kernel subsystem uses the returned info in the <i>pClockCalibration</i> parameter to estimate the drift between the GPU and CPU clocks.
 
@@ -98,13 +81,7 @@ To minimize calibration inaccuracies, the driver should compute the values for t
 
 The DirectX graphics kernel subsystem calls this function often enough, typically at least once every 30ms, to minimize the accumulated drift between the GPU and CPU clocks.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/display/">DXGKARG_CALIBRATEGPUCLOCK</a>
 
@@ -115,7 +92,4 @@ The DirectX graphics kernel subsystem calls this function often enough, typicall
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a>
- 
-
- 
 

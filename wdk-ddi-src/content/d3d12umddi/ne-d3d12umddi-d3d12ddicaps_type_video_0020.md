@@ -7,95 +7,83 @@ ms.assetid: 3B95996D-EB7C-4DCF-B00C-BA5AFEFD4110
 ms.date: 04/16/2018
 ms.keywords: D3D12DDICAPS_TYPE_VIDEO_0020, D3D12DDICAPS_TYPE_VIDEO_0020 enumeration [Display Devices], D3D12DDICAPS_TYPE_VIDEO_0020_DECODE_BITSTREAM_ENCRYPTION_SCHEMES, D3D12DDICAPS_TYPE_VIDEO_0020_DECODE_CONVERSION_SUPPORT, D3D12DDICAPS_TYPE_VIDEO_0020_DECODE_FORMATS, D3D12DDICAPS_TYPE_VIDEO_0020_DECODE_PROFILES, D3D12DDICAPS_TYPE_VIDEO_0020_DECODE_SUPPORT, D3D12DDICAPS_TYPE_VIDEO_0020_PROCESS_MAX_INPUT_STREAMS, D3D12DDICAPS_TYPE_VIDEO_0020_PROCESS_REFERENCE_INFO, D3D12DDICAPS_TYPE_VIDEO_0020_PROCESS_SUPPORT, d3d12umddi/D3D12DDICAPS_TYPE_VIDEO_0020, d3d12umddi/D3D12DDICAPS_TYPE_VIDEO_0020_DECODE_BITSTREAM_ENCRYPTION_SCHEMES, d3d12umddi/D3D12DDICAPS_TYPE_VIDEO_0020_DECODE_CONVERSION_SUPPORT, d3d12umddi/D3D12DDICAPS_TYPE_VIDEO_0020_DECODE_FORMATS, d3d12umddi/D3D12DDICAPS_TYPE_VIDEO_0020_DECODE_PROFILES, d3d12umddi/D3D12DDICAPS_TYPE_VIDEO_0020_DECODE_SUPPORT, d3d12umddi/D3D12DDICAPS_TYPE_VIDEO_0020_PROCESS_MAX_INPUT_STREAMS, d3d12umddi/D3D12DDICAPS_TYPE_VIDEO_0020_PROCESS_REFERENCE_INFO, d3d12umddi/D3D12DDICAPS_TYPE_VIDEO_0020_PROCESS_SUPPORT, display.d3d12ddicaps_type_video_0020
 ms.topic: enum
-f1_keywords:
- - "d3d12umddi/D3D12DDICAPS_TYPE_VIDEO_0020"
 req.header: d3d12umddi.h
 req.include-header: D3d12umddi.h
 req.target-type: Windows
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
-req.type-library:
-req.lib:
-req.dll:
-req.irql:
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- HeaderDef
-api_location:
-- D3d12umddi.h
-api_name:
-- D3D12DDICAPS_TYPE_VIDEO_0020
-product:
-- Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
 targetos: Windows
 tech.root: display
 req.typenames: D3D12DDICAPS_TYPE_VIDEO_0020
 ms.custom: 19H1
+f1_keywords:
+ - "d3d12umddi/D3D12DDICAPS_TYPE_VIDEO_0020"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - HeaderDef
+api_location:
+ - D3d12umddi.h
+api_name:
+ - D3D12DDICAPS_TYPE_VIDEO_0020
+product:
+ - Windows
+dev_langs:
+ - c++
 ---
 
 # D3D12DDICAPS_TYPE_VIDEO_0020 enumeration
 
-
 ## -description
-
 
 Contains capability types for video.
 
-
 ## -enum-fields
-
-
-
 
 ### -field D3D12DDICAPS_TYPE_VIDEO_0020_DECODE_SUPPORT
 
 Check if a decode profile, bitstream encryption, resolution, and format are supported. The result is a [D3D12DDI_VIDEO_DECODE_TIER_0020](ne-d3d12umddi-d3d12ddi_video_decode_tier_0020.md) that indicates the level of support. The associated data structure is [D3D12DDI_VIDEO_DECODE_SUPPORT_DATA_0020](../d3d12umddi/ns-d3d12umddi-d3d12ddi_video_decode_support_data_0020.md).
 
-
 ### -field D3D12DDICAPS_TYPE_VIDEO_0020_DECODE_PROFILES
 
 Retrieve the list of decode profiles supported by the adapter. Use [ID3D12Device1::GetVideoDecoderProfileCount](https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videodevice-getvideodecoderprofilecount) to get the number of profiles before calling check feature support. The associated data structure is [D3D12DDI_VIDEO_DECODE_PROFILES_DATA_0020](ns-d3d12umddi-d3d12ddi_video_decode_profiles_data_0020.md).
-
 
 ### -field D3D12DDICAPS_TYPE_VIDEO_0020_DECODE_FORMATS
 
 Retrieve the list of supported decode formats for a [D3D12DDI_VIDEO_DECODE_CONFIGURATION_0020](ns-d3d12umddi-d3d12ddi_video_decode_configuration_0020.md) structure. Use [ID3D12Device1::GetVideoDecoderProfileCount](https://docs.microsoft.com/windows/desktop/api/d3d11/nf-d3d11-id3d11videodevice-getvideodecoderprofilecount) to get the number of profiles before calling check feature support.
 
-
 ### -field D3D12DDICAPS_TYPE_VIDEO_0020_DECODE_CONVERSION_SUPPORT
 
 Check whether a color space conversion, format conversion, and scale are supported. The associated data structure is [D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_DATA_0032](ns-d3d12umddi-d3d12ddi_video_decode_conversion_support_data_0032.md).
-
 
 ### -field D3D12DDICAPS_TYPE_VIDEO_0020_DECODE_BITSTREAM_ENCRYPTION_SCHEMES
 
 Retrieve the list of bitstream encryption schemes that are supported by the adapter. The associated data structure is [D3D12DDI_VIDEO_DECODE_BITSTREAM_ENCRYPTION_SCHEMES_DATA_0020](ns-d3d12umddi-d3d12ddi_video_decode_bitstream_encryption_schemes_data_0020.md).
 
-
 ### -field D3D12DDICAPS_TYPE_VIDEO_0020_PROCESS_SUPPORT
 
 Retrieve the video processor capabilities. The associated data structure is [D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA](ns-d3d12umddi-d3d12ddi_video_process_support_data_0032.md).
-
 
 ### -field D3D12DDICAPS_TYPE_VIDEO_0020_PROCESS_MAX_INPUT_STREAMS
 
 The maximum number of streams that can be enabled at the same time. The associated data structure is [D3D12DDI_VIDEO_PROCESS_MAX_INPUT_STREAMS_DATA](ns-d3d12umddi-d3d12ddi_video_process_max_input_streams_data_0020.md).
 
-
 ### -field D3D12DDICAPS_TYPE_VIDEO_0020_PROCESS_REFERENCE_INFO
 
 Retrieves the number of past and future frames required for a given deinterlace mode, filters, frame rate conversion, and features. The associated data structure is [D3D12DDI_VIDEO_PROCESS_REFERENCE_INFO_DATA](ns-d3d12umddi-d3d12ddi_video_process_reference_info_data_0020.md).
-
 
 ### -field D3D12DDICAPS_TYPE_VIDEO_0032_DECODER_HEAP_SIZE
 
@@ -137,15 +125,15 @@ The video crypto session transform support. Maps to the [D3D12DDI_VIDEO_CRYPTO_S
 
 The video decode histogram data. Maps to the [D3D12DDI_VIDEO_DECODE_HISTOGRAM_DATA_0041](ns-d3d12umddi-d3d12ddi_video_decode_histogram_data_0041.md) structure.
 
-### -field D3D12DDICAPS_TYPE_VIDEO_0053_FEATURE_AREA_SUPPORT 
+### -field D3D12DDICAPS_TYPE_VIDEO_0053_FEATURE_AREA_SUPPORT
 
 The video feature area support.
 
-### -field D3D12DDICAPS_TYPE_VIDEO_0053_MOTION_ESTIMATOR 
+### -field D3D12DDICAPS_TYPE_VIDEO_0053_MOTION_ESTIMATOR
 
 The video motion estimator caps check.
 
-### -field D3D12DDICAPS_TYPE_VIDEO_0053_MOTION_ESTIMATOR_SIZE 
+### -field D3D12DDICAPS_TYPE_VIDEO_0053_MOTION_ESTIMATOR_SIZE
 
 The video motion estimator size caps check.
 
@@ -184,3 +172,4 @@ Available starting in Windows 10, version 1903.
 Returns the driver for the video extension object size. See [D3D12DDI_VIDEO_EXTENSION_COMMAND_SIZE_DATA_0063](ns-d3d12umddi-d3d12ddi_video_extension_command_size_data_0063.md).
 
 Available starting in Windows 10, version 1903.
+

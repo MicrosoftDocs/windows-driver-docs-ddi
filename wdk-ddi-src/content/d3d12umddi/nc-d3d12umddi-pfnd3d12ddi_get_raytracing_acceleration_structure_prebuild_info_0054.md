@@ -36,6 +36,8 @@ product:
 - Windows
 targetos: Windows
 tech.root: display
+dev_langs:
+ - c++
 ms.custom: RS5
 ---
 
@@ -70,13 +72,13 @@ void Pfnd3d12ddiGetRaytracingAccelerationStructurePrebuildInfo0054
 
 A handle to the device.
 
-### -param *
+### -param Arg2
 
 *_In_*
 
 Pointer to a [D3D12DDI_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_INPUTS_0054](ns-d3d12umddi-d3d12ddi_build_raytracing_acceleration_structure_inputs_0054.md) structure that contains the inputs. 
 
-### -param *
+### -param Arg3
 
 *_Out_*
 

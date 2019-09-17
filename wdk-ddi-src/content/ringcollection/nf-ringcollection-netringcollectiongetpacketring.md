@@ -36,8 +36,6 @@ apilocation:
 - ringcollection.h
 apiname: 
 - NetRingCollectionGetPacketRing
-product:
-- Windows
 targetos: Windows
 product:
 - Windows

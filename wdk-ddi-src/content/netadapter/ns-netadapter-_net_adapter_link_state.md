@@ -32,8 +32,6 @@ api_location:
 - netadapter.h
 api_name: 
 - NET_ADAPTER_LINK_STATE
-product:
-- Windows
 targetos: Windows
 product:
 - Windows

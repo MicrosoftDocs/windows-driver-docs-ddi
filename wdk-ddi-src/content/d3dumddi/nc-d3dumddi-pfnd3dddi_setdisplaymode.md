@@ -8,8 +8,6 @@ ms.assetid: d0e409fe-1c64-4468-b52e-b0ede39f6601
 ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_SETDISPLAYMODE, PFND3DDDI_SETDISPLAYMODE callback, SetDisplayMode, SetDisplayMode callback function [Display Devices], UserModeDisplayDriver_Functions_939f1113-54d3-4e0e-b065-24226d9948c0.xml, d3dumddi/SetDisplayMode, display.setdisplaymode
 ms.topic: callback
-f1_keywords:
- - "d3dumddi/SetDisplayMode"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop
@@ -27,66 +25,46 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dumddi.h
-api_name:
-- SetDisplayMode
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - "d3dumddi/SetDisplayMode"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dumddi.h
+api_name:
+ - SetDisplayMode
+product:
+ - Windows
 ---
 
 # PFND3DDDI_SETDISPLAYMODE callback function
 
-
 ## -description
-
 
 The <i>SetDisplayMode</i> function switches to a display mode or primary that is not supported by the GDI desktop.
 
-
 ## -parameters
 
-
-
-
-### -param hDevice [in]
+### -param hDevice
 
 A handle to the display device (graphics context).
 
-
-### -param *
-
-
-
-
-
-
-
+### -param Arg2
 
 *pData* [in]
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_setdisplaymode">D3DDDIARG_SETDISPLAYMODE</a> structure that specifies parameters for setting the display mode.
 
-
 ## -returns
-
-
 
 <i>SetDisplayMode</i> returns S_OK or an appropriate error result if the display mode is not successfully set.
 
-
-
-
 ## -remarks
-
-
 
 The Microsoft Direct3D runtime calls <i>SetDisplayMode</i> to switch to a display mode or primary that is not supported by the GDI desktop. The following list describes examples of such primaries: 
 
@@ -108,13 +86,7 @@ The Direct3D runtime calls the user-mode display driver's <a href="https://docs.
 
 The user-mode display driver can set the <b>hPrimaryAllocation</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddicb_setdisplaymode">D3DDDICB_SETDISPLAYMODE</a> structure in the call to <b>pfnSetDisplayModeCb</b> to scan out any allocation. However, the allocation must be marked as a primary (that is, the user-mode display driver must have set the <b>Primary</b> bit-field flag in the <b>Flags</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dukmdt/ns-d3dukmdt-_d3dddi_allocationinfo">D3DDDI_ALLOCATIONINFO</a> structure in a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_allocatecb">pfnAllocateCb</a> function to create the allocation).
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_setdisplaymode">D3DDDIARG_SETDISPLAYMODE</a>
 
@@ -125,7 +97,4 @@ The user-mode display driver can set the <b>hPrimaryAllocation</b> member of the
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_setdisplaymodecb">pfnSetDisplayModeCb</a>
- 
-
- 
 

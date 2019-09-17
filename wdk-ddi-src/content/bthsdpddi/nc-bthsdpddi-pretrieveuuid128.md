@@ -8,8 +8,6 @@ ms.assetid: 0e317aea-3625-4511-94e1-355c476c0da6
 ms.date: 04/27/2018
 ms.keywords: PRETRIEVEUUID128, PRETRIEVEUUID128 callback, SdpRetrieveUuid128, SdpRetrieveUuid128 callback function [Bluetooth Devices], bltooth.sdpretrieveuuid128, bth_funcs_a4149063-722b-45c0-a86b-ffce73b94b0d.xml, sdplib/SdpRetrieveUuid128
 ms.topic: callback
-f1_keywords:
- - "bthsdpddi/SdpRetrieveUuid128"
 req.header: bthsdpddi.h
 req.include-header: BthSdpddi.h
 req.target-type: Desktop
@@ -27,59 +25,46 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: <= PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- sdplib.h
-api_name:
-- SdpRetrieveUuid128
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - "bthsdpddi/SdpRetrieveUuid128"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - sdplib.h
+api_name:
+ - SdpRetrieveUuid128
+product:
+ - Windows
 ---
 
 # PRETRIEVEUUID128 callback function
 
-
 ## -description
-
 
 The Bluetooth 
   <b>SdpRetrieveUuid128</b> function is used to copy an unaligned 128-bit universally unique identifier (UUID)
   from an SDP stream.
 
-
 ## -parameters
-
-
-
 
 ### -param Stream
 
 A pointer to an unaligned 128-bit UUID.
 
-
-### -param *uuid128
+### -param uuid128
 
 A pointer to an aligned variable to receive the 128-bit UUID.
 
-
 ## -returns
-
-
 
 None
 
-
-
-
 ## -remarks
-
-
 
 The 
     <b>SdpRetrieveUuid128</b> function does not search for the UUID to copy. The 
@@ -101,16 +86,7 @@ Bluetooth profile drivers can obtain a pointer to this function through the
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthsdpddi/ns-bthsdpddi-_bthddi_sdp_parse_interface">
     BTHDDI_SDP_PARSE_INTERFACE</a> structure.
 
-
-
-
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthsdpddi/ns-bthsdpddi-_bthddi_sdp_parse_interface">BTHDDI_SDP_PARSE_INTERFACE</a>
- 
-
- 
 

@@ -5,38 +5,40 @@ description: Create a pipeline library.
 ms.assetid: 7c53cb2f-55a5-4777-b11d-c0bfc0e703f8
 ms.date: 10/19/2018
 ms.topic: callback
-f1_keywords:
- - "d3d12umddi/PFND3D12DDI_CREATE_PIPELINE_LIBRARY_0010"
 req.header: d3d12umddi.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- UserDefined
-api_location: 
-- d3d12umddi.h
-api_name: 
-- PFND3D12DDI_CREATE_PIPELINE_LIBRARY_0010
-product: 
-- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_CREATE_PIPELINE_LIBRARY_0010"
+topic_type:
+ - apiref
+api_type:
+ - UserDefined
+api_location:
+ - d3d12umddi.h
+api_name:
+ - PFND3D12DDI_CREATE_PIPELINE_LIBRARY_0010
+product:
+ - Windows
+dev_langs:
+ - c++
 ---
 
 # PFND3D12DDI_CREATE_PIPELINE_LIBRARY_0010 callback function
@@ -44,6 +46,24 @@ ms.custom: RS5
 ## -description
 
 Create a pipeline library.
+
+## -parameters
+
+### -param Arg1
+
+A handle to the display device (graphics context).
+
+### -param Arg2
+
+Pointer to a D3D12DDIARG_CREATE_PIPELINE_LIBRARY_0010 structure.
+
+### -param Arg3
+
+A handle to a pipeline library.
+
+## -returns
+
+Returns HRESULT.
 
 ## -prototype
 
@@ -67,20 +87,3 @@ PFND3D12DDI_CREATE_PIPELINE_LIBRARY_0010
 
 ```
 
-## -parameters
-
-### -param D3D12DDI_HDEVICE  
-
-A handle to the display device (graphics context).
- 
-### -param *
-
-Pointer to a D3D12DDIARG_CREATE_PIPELINE_LIBRARY_0010 structure.
-
-### -param D3D12DDI_HPIPELINELIBRARY: 
-
-A handle to a pipeline library.
-
-## -returns
-
-Returns HRESULT.

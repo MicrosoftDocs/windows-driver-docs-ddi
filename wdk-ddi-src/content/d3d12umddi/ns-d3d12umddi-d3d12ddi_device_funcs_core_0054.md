@@ -34,6 +34,8 @@ product:
 targetos: Windows
 tech.root: display
 ms.custom: RS5
+dev_langs:
+ - c++
 ---
 
 # D3D12DDI_DEVICE_FUNCS_CORE_0054 structure

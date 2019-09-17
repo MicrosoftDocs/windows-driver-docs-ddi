@@ -7,8 +7,6 @@ ms.assetid: 7a3e17cb-0397-4051-8443-fb2edf3b4cff
 ms.date: 05/10/2018
 ms.keywords: PFND3D11_1DDI_VIDEOPROCESSORBLT, PFND3D11_1DDI_VIDEOPROCESSORBLT callback, d3d10umddi/pfnVideoProcessorBlt, display.videoprocessorblt, pfnVideoProcessorBlt, pfnVideoProcessorBlt callback function [Display Devices]
 ms.topic: callback
-f1_keywords:
- - "d3d10umddi/pfnVideoProcessorBlt"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -26,37 +24,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- D3d10umddi.h
-api_name:
-- pfnVideoProcessorBlt
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - "d3d10umddi/pfnVideoProcessorBlt"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - D3d10umddi.h
+api_name:
+ - pfnVideoProcessorBlt
+product:
+ - Windows
 ---
 
 # PFND3D11_1DDI_VIDEOPROCESSORBLT callback function
 
-
 ## -description
-
 
 Performs a video processing operation on one or more input samples and writes the result to a Direct3D surface.
 
-
-
-
 ## -parameters
-
-
-
 
 ### -param Arg1
 
@@ -95,16 +87,13 @@ The number of input streams to process in the array referenced by the <i>pStream
 </div>
 <div> </div>
 
-### -param *
+### -param Arg6
 
 *pStream* [in]
 
 A pointer to an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ns-d3d10umddi-d3d11_1ddi_video_processor_stream">D3D11_1DDI_VIDEO_PROCESSOR_STREAM</a> structures that contain information about the input streams.
 
-
 ## -returns
-
-
 
 <b>VideoProcessorBlt</b> returns one of the following values:
 
@@ -112,14 +101,8 @@ A pointer to an array of <a href="https://docs.microsoft.com/windows-hardware/dr
 |--- |--- |
 |S_OK|The video processing operation completed successfully.|
 |E_OUTOFMEMORY|Memory was not available to complete the operation.|
- 
-
-
-
 
 ## -remarks
-
-
 
 The <b>VideoProcessorBlt</b> performs all of the video processing based on the stream states and bit-block transfer (bitblt) states that have been previously set.
 
@@ -158,12 +141,7 @@ If multiple input streams are enabled and the video processor is enabled to prod
 <div class="alert"><b>Note</b>  This function does not honor a D3D11 predicate that may have been set.</div>
 <div> </div>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor">CreateVideoProcessor</a>
 
@@ -190,7 +168,4 @@ If multiple input streams are enabled and the video processor is enabled to prod
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorsetstreamstereoformat">VideoProcessorSetStreamStereoFormat</a>
- 
-
- 
 

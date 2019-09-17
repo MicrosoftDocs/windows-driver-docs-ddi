@@ -7,8 +7,6 @@ ms.assetid: 5841934d-7e0a-4bb8-a7f8-17d8c0af351f
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_RENDERKM, DXGKDDI_RENDERKM callback, DmFunctions_f8138753-f755-410c-b0a0-4422dee9bfb6.xml, DxgkDdiRenderKm, DxgkDdiRenderKm callback function [Display Devices], d3dkmddi/DxgkDdiRenderKm, display.dxgkddirenderkm
 ms.topic: callback
-f1_keywords:
- - "d3dkmddi/DxgkDdiRenderKm"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Desktop
@@ -26,44 +24,39 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dkmddi.h
-api_name:
-- DxgkDdiRenderKm
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - "d3dkmddi/DxgkDdiRenderKm"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dkmddi.h
+api_name:
+ - DxgkDdiRenderKm
+product:
+ - Windows
 ---
 
 # DXGKDDI_RENDERKM callback function
 
-
 ## -description
-
 
 For display adapters that support GDI hardware acceleration, the <i>DxgkDdiRenderKm</i> function generates a direct memory access (DMA) buffer from the command buffer that the kernel-mode Canonical Display Driver (CDD) passed.
 
-
 ## -parameters
 
-
-
-
-### -param hContext [in]
+### -param hContext
 
 [in] A handle to the device context for the DMA and command buffers. The display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_createcontext">DxgkDdiCreateContext</a> function previously returned this handle in the <b>hContext</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_createcontext">DXGKARG_CREATECONTEXT</a> structure that the <i>pCreateContext</i> parameter of <i>DxgkDdiCreateContext</i> points to.
 
 If the driver does not support context creation, the Microsoft DirectX graphics kernel subsystem replaces the handle to the context with a handle to the device. The display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_createdevice">DxgkDdiCreateDevice</a> function previously returned the device handle in the <b>hDevice</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_createdevice">DXGKARG_CREATEDEVICE</a> structure that the <i>pCreateDevice</i> parameter of <i>DxgkDdiCreateDevice</i> points to.
 
-
-### -param pRenderKmArgs [in, out]
+### -param pRenderKmArgs
 
 [in/out] A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_render">DXGKARG_RENDER</a> structure that contains information about the DMA buffer and a formatted command buffer.
 
@@ -71,10 +64,7 @@ If the display miniport driver supports GDI hardware acceleration, <i>pRenderKmA
 
 The driver must translate the input command buffer into DMA buffer commands and build the patch location list.
 
-
 ## -returns
-
-
 
 <i>DxgkDdiRenderKm</i> returns one of the following values:
 
@@ -86,16 +76,9 @@ The driver must translate the input command buffer into DMA buffer commands and 
 | **STATUS_INVALID_PARAMETER** | [DxgkDdiRenderKm](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_renderkm)  detected instruction parameters that graphics hardware could not support; however, the graphics hardware can support the instructions themselves. The driver is not required to return this error code. Instead, it can return STATUS_ILLEGAL_INSTRUCTION when it detects unsupported instruction parameters. | 
 | **STATUS_INVALID_USER_BUFFER** | [DxgkDdiRenderKm](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_renderkm)  detected data or instruction underrun or overrun. That is, the driver received less or more instructions or data than expected. The driver is not required to return this error code. Instead, it can return STATUS_ILLEGAL_INSTRUCTION when it detects data or instruction underrun or overrun. | 
 | **STATUS_INVALID_HANDLE** | [DxgkDdiRenderKm](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_renderkm)  detected an invalid handle in the command buffer. | 
-| **STATUS_GRAPHICS_GPU_EXCEPTION_ON_DEVICE** | The display miniport driver detected an error in the DMA stream. The graphics context device is placed in a lost state if the driver returns this error code. | 
-
- 
-
-
-
+| **STATUS_GRAPHICS_GPU_EXCEPTION_ON_DEVICE** | The display miniport driver detected an error in the DMA stream. The graphics context device is placed in a lost state if the driver returns this error code. |
 
 ## -remarks
-
-
 
 The DirectX graphics kernel subsystem calls the display miniport driver's <i>DxgkDdiRenderKm</i> function to generate a DMA buffer from the command buffer that is passed by the kernel-mode Canonical Display Driver (CDD) provided by the operating system. In addition to the output DMA buffer, the display miniport driver should also generate a list of output patch locations. The video memory manager uses this list to split and patch DMA buffers appropriately.
 
@@ -113,13 +96,7 @@ In guaranteed contract DMA mode, when the display miniport driver translates a c
 
 <i>DxgkDdiRenderKm</i> should be made pageable.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dukmdt/ns-d3dukmdt-_d3dddi_allocationlist">D3DDDI_ALLOCATIONLIST</a>
 
@@ -158,7 +135,4 @@ In guaranteed contract DMA mode, when the display miniport driver translates a c
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_render">DxgkDdiRender</a>
- 
-
- 
 

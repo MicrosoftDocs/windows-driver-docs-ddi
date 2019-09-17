@@ -7,8 +7,6 @@ ms.assetid: 000688fb-6475-4dab-bb65-91c899a592a7
 ms.date: 05/10/2018
 ms.keywords: CalcPrivateOpenedResourceSize, CalcPrivateOpenedResourceSize callback function [Display Devices], PFND3D10DDI_CALCPRIVATEOPENEDRESOURCESIZE, PFND3D10DDI_CALCPRIVATEOPENEDRESOURCESIZE callback, UserModeDisplayDriverDx10_Functions_1be7ba80-5ffc-4871-b687-f12b4a81fad0.xml, d3d10umddi/CalcPrivateOpenedResourceSize, display.calcprivateopenedresourcesize
 ms.topic: callback
-f1_keywords:
- - "d3d10umddi/CalcPrivateOpenedResourceSize"
 req.header: d3d10umddi.h
 req.include-header: D3d10umddi.h
 req.target-type: Desktop
@@ -26,35 +24,31 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3d10umddi.h
-api_name:
-- CalcPrivateOpenedResourceSize
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - "d3d10umddi/CalcPrivateOpenedResourceSize"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3d10umddi.h
+api_name:
+ - CalcPrivateOpenedResourceSize
+product:
+ - Windows
 ---
 
 # PFND3D10DDI_CALCPRIVATEOPENEDRESOURCESIZE callback function
 
-
 ## -description
-
 
 The <b>CalcPrivateOpenedResourceSize</b> function determines the size of the user-mode display driver's private shared region of memory (that is, the size of internal driver structures, not the size of the resource video memory) for an opened resource.
 
-
 ## -parameters
-
-
-
 
 ### -param Arg1
 
@@ -62,33 +56,21 @@ The <b>CalcPrivateOpenedResourceSize</b> function determines the size of the use
 
 A handle to the display device (graphics context).
 
-### -param *
+### -param Arg2
 
 *pOpenResource* [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ns-d3d10umddi-d3d10ddiarg_openresource">D3D10DDIARG_OPENRESOURCE</a> structure that describes the parameters that the user-mode display driver uses to calculate the size of the shared memory region. 
-
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ns-d3d10umddi-d3d10ddiarg_openresource">D3D10DDIARG_OPENRESOURCE</a> structure that describes the parameters that the user-mode display driver uses to calculate the size of the shared memory region.
 
 ## -returns
 
-
-
 <b>CalcPrivateOpenedResourceSize</b> returns the size of the shared memory region that the driver requires for opening resources.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ns-d3d10umddi-d3d10ddiarg_openresource">D3D10DDIARG_OPENRESOURCE</a>
 
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ns-d3d10umddi-d3d10ddi_devicefuncs">D3D10DDI_DEVICEFUNCS</a>
- 
-
- 
 

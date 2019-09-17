@@ -5,38 +5,40 @@ description: Gets present private driver data size.
 ms.assetid: 17433662-deaa-4642-9ac1-0026b439491e
 ms.date: 10/19/2018
 ms.topic: callback
-f1_keywords:
- - "d3d12umddi/PFND3D12DDI_GET_PRESENT_PRIVATE_DRIVER_DATA_SIZE"
 req.header: d3d12umddi.h
-req.include-header:
-req.target-type:
-req.target-min-winverclnt:
-req.target-min-winversvr:
-req.kmdf-ver:
-req.umdf-ver:
-req.lib:
-req.dll:
+req.include-header: 
+req.target-type: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.lib: 
+req.dll: 
 req.irql: 
-req.ddi-compliance:
-req.unicode-ansi:
-req.idl:
-req.max-support:
-req.namespace:
-req.assembly:
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
 req.type-library: 
-topic_type: 
-- apiref
-api_type: 
-- UserDefined
-api_location: 
-- d3d12umddi.h
-api_name: 
-- PFND3D12DDI_GET_PRESENT_PRIVATE_DRIVER_DATA_SIZE
-product: 
-- Windows
 targetos: Windows
 tech.root: display
 ms.custom: RS5
+f1_keywords:
+ - "d3d12umddi/PFND3D12DDI_GET_PRESENT_PRIVATE_DRIVER_DATA_SIZE"
+topic_type:
+ - apiref
+api_type:
+ - UserDefined
+api_location:
+ - d3d12umddi.h
+api_name:
+ - PFND3D12DDI_GET_PRESENT_PRIVATE_DRIVER_DATA_SIZE
+product:
+ - Windows
+dev_langs:
+ - c++
 ---
 
 # PFND3D12DDI_GET_PRESENT_PRIVATE_DRIVER_DATA_SIZE callback function
@@ -44,6 +46,20 @@ ms.custom: RS5
 ## -description
 
 Gets present private driver data size.
+
+## -parameters
+
+### -param Arg1
+
+A handle to the display device (graphics context).
+
+### -param Arg2
+
+Pointer to a D3D12DDIARG_PRESENT_0001 structure.
+
+## -returns
+
+Returns UINT.
 
 ## -prototype
 
@@ -66,23 +82,7 @@ PFND3D12DDI_GET_PRESENT_PRIVATE_DRIVER_DATA_SIZE
 
 ```
 
-## -parameters
-
-### -param D3D12DDI_HDEVICE  
-
-A handle to the display device (graphics context).
- 
-### -param * 
-
-Pointer to a D3D12DDIARG_PRESENT_0001 structure.
-
-## -returns
-
-Returns UINT.
-
 ## -remarks
 
-
-
-
 ## -see-also
+

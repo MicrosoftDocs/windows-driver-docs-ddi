@@ -8,8 +8,6 @@ ms.assetid: a5be6834-bb27-4da0-8802-25a9ca58c101
 ms.date: 05/10/2018
 ms.keywords: PFND3DDDI_VIDEOPROCESSENDFRAME, PFND3DDDI_VIDEOPROCESSENDFRAME callback, UserModeDisplayDriver_Functions_b7ef391b-90b5-49a6-880e-d0c4f287d0ad.xml, VideoProcessEndFrame, VideoProcessEndFrame callback function [Display Devices], d3dumddi/VideoProcessEndFrame, display.videoprocessendframe
 ms.topic: callback
-f1_keywords:
- - "d3dumddi/VideoProcessEndFrame"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop
@@ -27,79 +25,55 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dumddi.h
-api_name:
-- VideoProcessEndFrame
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - "d3dumddi/VideoProcessEndFrame"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dumddi.h
+api_name:
+ - VideoProcessEndFrame
+product:
+ - Windows
 ---
 
 # PFND3DDDI_VIDEOPROCESSENDFRAME callback function
 
-
 ## -description
-
 
 The <i>VideoProcessEndFrame</i> function notifies the user-mode display driver that all of the data that is required to process the current frame was submitted.
 
-
 ## -parameters
 
-
-
-
-### -param hDevice [in]
+### -param hDevice
 
 A handle to the display device (graphics context).
 
-
-### -param *
-
-
-
-
-
-
-
+### -param Arg2
 
 *pData* [in, out]
 
 A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddiarg_videoprocessendframe">D3DDDIARG_VIDEOPROCESSENDFRAME</a> structure that describes the DirectX VA video processor that should stop processing a frame.
 
-
 ## -returns
-
-
 
 <i>VideoProcessEndFrame</i> returns one of the following values:
 
 | **Return code** | **Description** | 
 |:--|:--|
 | **S_OK** | Processing of the current frame is successfully completed. | 
-| **E_OUTOFMEMORY** | VideoProcessEndFrame cannot allocate memory required for it to complete. | 
-
+| **E_OUTOFMEMORY** | VideoProcessEndFrame cannot allocate memory required for it to complete. |
 
 ## -remarks
 
-
-
 The <i>VideoProcessEndFrame</i> function notifies the user-mode display driver that its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_videoprocessblt">VideoProcessBlt</a> function can no longer be called on the specified video processing device.
 
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_createvideoprocessdevice">CreateVideoProcessDevice</a>
 
@@ -114,7 +88,4 @@ The <i>VideoProcessEndFrame</i> function notifies the user-mode display driver t
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_videoprocessblt">VideoProcessBlt</a>
- 
-
- 
 

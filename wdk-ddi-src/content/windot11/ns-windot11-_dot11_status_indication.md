@@ -36,8 +36,6 @@ api_location:
 - windot11.h
 api_name:
 - DOT11_STATUS_INDICATION
-product:
-- Windows
 targetos: Windows
 req.typenames: DOT11_STATUS_INDICATION, *PDOT11_STATUS_INDICATION
 product:

@@ -40,6 +40,8 @@ product:
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_PLANE_SPECIFIC_INPUT_FLAGS
+dev_langs:
+ - c++
 ms.custom: 19H1
 ---
 

@@ -7,8 +7,6 @@ ms.assetid: d46ffa49-6e75-4cd4-9d14-aa2c9fa671be
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_VIDPN_CREATENEWSOURCEMODESET, DXGKDDI_VIDPN_CREATENEWSOURCEMODESET callback, VidPnFunctions_13c4227c-f1d3-4191-a085-5ed298fe11e7.xml, d3dkmddi/pfnCreateNewSourceModeSet, display.dxgk_vidpn_interface_pfncreatenewsourcemodeset, pfnCreateNewSourceModeSet, pfnCreateNewSourceModeSet callback function [Display Devices]
 ms.topic: callback
-f1_keywords:
- - "d3dkmddi/pfnCreateNewSourceModeSet"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Desktop
@@ -26,59 +24,49 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: PASSIVE_LEVEL
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dkmddi.h
-api_name:
-- pfnCreateNewSourceModeSet
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - "d3dkmddi/pfnCreateNewSourceModeSet"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dkmddi.h
+api_name:
+ - pfnCreateNewSourceModeSet
+product:
+ - Windows
 ---
 
 # DXGKDDI_VIDPN_CREATENEWSOURCEMODESET callback function
 
-
 ## -description
-
 
 The <b>pfnCreateNewSourceModeSet</b> function creates a new source mode set object within a specified VidPN object.
 
-
 ## -parameters
 
-
-
-
-### -param hVidPn [in]
+### -param hVidPn
 
 [in] A handle to a VidPN object. The VidPN manager previously provided this handle to the display miniport driver by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_enumvidpncofuncmodality">DxgkDdiEnumVidPnCofuncModality</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_issupportedvidpn">DxgkDdiIsSupportedVidPn</a>, or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_recommendfunctionalvidpn">DxgkDdiRecommendFunctionalVidPn</a>.
 
-
-### -param VidPnSourceId [in]
+### -param VidPnSourceId
 
 [in] An integer that identifies one of the video present sources associated with the VidPN object.
 
-
-### -param phNewVidPnSourceModeSet [out]
+### -param phNewVidPnSourceModeSet
 
 [out] A pointer to a variable that receives a handle to the newly created source mode set object.
 
-
-### -param ppVidPnSourceModeSetInterface [out]
+### -param ppVidPnSourceModeSetInterface
 
 [out] A pointer to a variable that receives a pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgk_vidpnsourcemodeset_interface">DXGK_VIDPNSOURCEMODESET_INTERFACE</a> structure. The structure contains pointers to functions that the display miniport driver can call to inspect and alter the source mode set object.
 
-
 ## -returns
-
-
 
 The <b>pfnCreateNewSourceModeSet</b> function returns one of the following values:
 
@@ -88,10 +76,7 @@ The <b>pfnCreateNewSourceModeSet</b> function returns one of the following value
 |STATUS_GRAPHICS_INVALID_VIDPN|The handle supplied in hVidPn was invalid.|
 |STATUS_NO_MEMORY|The VidPN manager was unable to allocate the memory required to create the new source mode set object.|
 
-
 ## -remarks
-
-
 
 To assign a new source mode set to a particular source in a VidPN, perform the following steps:
 
@@ -115,15 +100,9 @@ If you obtain a handle by calling <b>pfnCreateNewSourceModeSet</b> and then you 
 
 The lifetime of the DXGK_VIDPNSOURCEMODESET_INTERFACE structure returned in <i>ppVidPnSourceModeSetInterface</i> is owned by the operating system. Using this ownership scheme, the operating system can switch to newer implementations at run time without breaking clients of the interface.
 
-The D3DKMDT_HVIDPN and D3DKMDT_HVIDPNSOURCEMODESET data types are defined in <i>D3dkmdt.h</i>. 
-
-
-
+The D3DKMDT_HVIDPN and D3DKMDT_HVIDPNSOURCEMODESET data types are defined in <i>D3dkmdt.h</i>.
 
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">VidPN Source Mode Set Interface</a>
 
@@ -134,7 +113,4 @@ The D3DKMDT_HVIDPN and D3DKMDT_HVIDPNSOURCEMODESET data types are defined in <i>
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddi_vidpn_releasesourcemodeset">pfnReleaseSourceModeSet</a>
- 
-
- 
 

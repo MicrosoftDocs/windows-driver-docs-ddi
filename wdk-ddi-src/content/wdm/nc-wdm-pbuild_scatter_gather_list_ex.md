@@ -44,12 +44,10 @@ req.typenames:
 
 # PBUILD_SCATTER_GATHER_LIST_EX callback function
 
-
 ## -description
 
-
-The <b>BuildScatterGatherListEx</b> routine allocates the resources that are required for a DMA transfer, builds a scatter/gather list, and calls  the driver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-driver_list_control">AdapterListControl</a> routine to initiate the DMA transfer.
-<div class="alert"><b>Note</b>  Do not call this routine for a system DMA device.</div><div> </div>
+The **BuildScatterGatherListEx** routine allocates the resources that are required for a DMA transfer, builds a scatter/gather list, and calls  the driver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-driver_list_control">AdapterListControl</a> routine to initiate the DMA transfer.
+<div class="alert">**Note**  Do not call this routine for a system DMA device.</div><div> </div>
 
 ## -parameters
 
@@ -73,17 +71,17 @@ A pointer to an initialized DMA transfer context. This context was initialized b
 
 ### -param Mdl [in]
 
-A pointer to an MDL chain that describes the physical page layout for a collection of locked-down buffers in virtual memory. The scatter/gather list for the DMA transfer will use the region of this memory that is specified by the <i>Offset</i> and <i>Length</i> parameters. For more information about MDL chains, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-mdls">Using MDLs</a>.
+A pointer to an MDL chain that describes the physical page layout for a collection of locked-down buffers in virtual memory. The scatter/gather list for the DMA transfer will use the region of this memory that is specified by the *Offset* and *Length* parameters. For more information about MDL chains, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-mdls">Using MDLs</a>.
 
 
 ### -param Offset [in]
 
-The starting offset for the scatter/gather DMA transfer. This parameter is a byte offset from the start of the buffer in the first MDL in the MDL chain. If the MDLs in the MDL chain specify a total of N bytes of buffer space, valid values of <i>Offset</i> are in the range 0 to N–1.
+The starting offset for the scatter/gather DMA transfer. This parameter is a byte offset from the start of the buffer in the first MDL in the MDL chain. If the MDLs in the MDL chain specify a total of N bytes of buffer space, valid values of *Offset* are in the range 0 to N–1.
 
 
 ### -param Length [in]
 
-The size, in bytes, of the DMA transfer. If the MDL chain specifies a total of N bytes of buffer space, valid values of <i>Length</i> are in the range 1 to N–<i>Offset</i>.
+The size, in bytes, of the DMA transfer. If the MDL chain specifies a total of N bytes of buffer space, valid values of *Length* are in the range 1 to N–*Offset*.
 
 
 ### -param Flags [in]
@@ -97,7 +95,7 @@ The adapter channel allocation flags. The following flag is supported.
 </tr>
 <tr>
 <td width="40%"><a id="DMA_SYNCHRONOUS_CALLBACK"></a><a id="dma_synchronous_callback"></a><dl>
-<dt><b>DMA_SYNCHRONOUS_CALLBACK</b></dt>
+<dt><b>DMA_SYNCHRONOUS_CALLBACK**</dt>
 </dl>
 </td>
 <td width="60%">
@@ -106,31 +104,30 @@ The <b>BuildScatterGatherListEx</b> routine is called synchronously. If this fla
 </td>
 </tr>
 </table>
- 
 
-If the <b>DMA_SYNCHRONOUS_CALLBACK</b> flag is set, the <i>ExecutionRoutine</i> parameter is optional and can be <b>NULL</b>. If this flag is not set, <i>ExecutionRoutine</i> must be a valid, non-<b>NULL</b> pointer. For more information about this flag, see the Remarks section.
+If the **DMA_SYNCHRONOUS_CALLBACK** flag is set, the *ExecutionRoutine* parameter is optional and can be **NULL**. If this flag is not set, *ExecutionRoutine* must be a valid, non-**NULL** pointer. For more information about this flag, see the Remarks section.
 
 
 ### -param ExecutionRoutine [in, optional]
 
-A pointer to the driver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-driver_list_control">AdapterListControl</a> routine that initiates the DMA transfer for the driver. The I/O manager calls the <i>AdapterListControl</i> routine after the required resources are allocated for the adapter object. After the <i>AdapterListControl</i> routine returns, the I/O manager automatically frees the adapter object and the resources that were allocated for this object.
+A pointer to the driver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-driver_list_control">AdapterListControl</a> routine that initiates the DMA transfer for the driver. The I/O manager calls the *AdapterListControl* routine after the required resources are allocated for the adapter object. After the *AdapterListControl* routine returns, the I/O manager automatically frees the adapter object and the resources that were allocated for this object.
 
-If the <b>DMA_SYNCHRONOUS_CALLBACK</b> flag is set, <i>ExecutionRoutine</i> is optional and can be <b>NULL</b>.  If <i>ExecutionRoutine</i> is <b>NULL</b>, the caller can use the resources allocated by <b>BuildScatterGatherListEx</b>. For more information, see the Remarks section.
+If the **DMA_SYNCHRONOUS_CALLBACK** flag is set, *ExecutionRoutine* is optional and can be **NULL**.  If *ExecutionRoutine* is **NULL**, the caller can use the resources allocated by **BuildScatterGatherListEx**. For more information, see the Remarks section.
 
 
 ### -param Context [in, optional]
 
-The driver-determined, adapter-control context. This context is passed to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-driver_list_control">AdapterListControl</a> routine as the <i>Context</i> parameter.
+The driver-determined, adapter-control context. This context is passed to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-driver_list_control">AdapterListControl</a> routine as the *Context* parameter.
 
 
 ### -param WriteToDevice [in]
 
-The direction of the DMA transfer. Set this parameter to <b>TRUE</b> for a write operation, which transfers data from memory to the device. Set this parameter to <b>FALSE</b> for a read operation, which transfers data from the device to memory.
+The direction of the DMA transfer. Set this parameter to **TRUE** for a write operation, which transfers data from memory to the device. Set this parameter to **FALSE** for a read operation, which transfers data from the device to memory.
 
 
 ### -param ScatterGatherBuffer [in]
 
-A pointer to a caller-allocated buffer into which the routine writes the scatter/gather list for the DMA transfer. This list begins with a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_scatter_gather_list">SCATTER_GATHER_LIST</a> structure, which is followed by a <b>SCATTER_GATHER_ELEMENT</b> array.
+A pointer to a caller-allocated buffer into which the routine writes the scatter/gather list for the DMA transfer. This list begins with a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_scatter_gather_list">SCATTER_GATHER_LIST</a> structure, which is followed by a **SCATTER_GATHER_ELEMENT** array.
 
 
 ### -param ScatterGatherLength
@@ -138,31 +135,28 @@ A pointer to a caller-allocated buffer into which the routine writes the scatter
 
 ### -param DmaCompletionRoutine [in, optional]
 
-Not used. Set to <b>NULL</b>.
+Not used. Set to **NULL**.
 
 
 ### -param CompletionContext [in, optional]
 
-Not used. Set to <b>NULL</b>.
+Not used. Set to **NULL**.
 
 
 ### -param ScatterGatherList [out, optional]
 
-A pointer to a variable into which the routine writes a pointer to the scatter/gather list for the DMA transfer. This list begins with a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_scatter_gather_list">SCATTER_GATHER_LIST</a> structure, which contains a pointer to a <b>SCATTER_GATHER_ELEMENT</b> array. This output pointer always matches the <i>ScatterGatherBuffer</i> parameter value.
+A pointer to a variable into which the routine writes a pointer to the scatter/gather list for the DMA transfer. This list begins with a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_scatter_gather_list">SCATTER_GATHER_LIST</a> structure, which contains a pointer to a **SCATTER_GATHER_ELEMENT** array. This output pointer always matches the *ScatterGatherBuffer* parameter value.
 
-If the <b>DMA_SYNCHRONOUS_CALLBACK</b> flag is set and the <i>ExecutionRoutine</i> parameter is <b>NULL</b>, <i>ScatterGatherList</i> must be a valid, non-<b>NULL</b> pointer. If <i>ExecutionRoutine</i> is non-<b>NULL</b>, <i>ScatterGatherList</i> is optional and can be <b>NULL</b> if the calling driver does not require the scatter/gather list. The <b>BuildScatterGatherListEx</b> call fails if the <b>DMA_SYNCHRONOUS_CALLBACK</b> flag is set and <i>ScatterGatherList</i> and <i>ExecutionRoutine</i> are both <b>NULL</b>, or if the <b>DMA_SYNCHRONOUS_CALLBACK</b> flag is not set and <i>ExecutionRoutine</i> is <b>NULL</b>.
+If the **DMA_SYNCHRONOUS_CALLBACK** flag is set and the *ExecutionRoutine* parameter is **NULL**, *ScatterGatherList* must be a valid, non-**NULL** pointer. If *ExecutionRoutine* is non-**NULL**, *ScatterGatherList* is optional and can be **NULL** if the calling driver does not require the scatter/gather list. The **BuildScatterGatherListEx** call fails if the **DMA_SYNCHRONOUS_CALLBACK** flag is set and *ScatterGatherList* and *ExecutionRoutine* are both **NULL**, or if the **DMA_SYNCHRONOUS_CALLBACK** flag is not set and *ExecutionRoutine* is **NULL**.
 
 
 #### - ScatterGatherBufferLength [in]
 
-The size, in bytes, of the buffer passed in the <i>ScatterGatherBuffer</i> parameter. The allocated buffer size must be large enough to contain the scatter/gather list, plus internal data that the operating system stores in this buffer. To calculate the required buffer size, call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pget_dma_transfer_info">GetDmaTransferInfo</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pcalculate_scatter_gather_list_size">CalculateScatterGatherList</a> routine.
-
+The size, in bytes, of the buffer passed in the *ScatterGatherBuffer* parameter. The allocated buffer size must be large enough to contain the scatter/gather list, plus internal data that the operating system stores in this buffer. To calculate the required buffer size, call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pget_dma_transfer_info">GetDmaTransferInfo</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pcalculate_scatter_gather_list_size">CalculateScatterGatherList</a> routine.
 
 ## -returns
 
-
-
-<b>BuildScatterGatherListEx</b> returns STATUS_SUCCESS if the call is successful. Possible error return values include the following status codes.
+**BuildScatterGatherListEx** returns STATUS_SUCCESS if the call is successful. Possible error return values include the following status codes.
 
 <table>
 <tr>
@@ -203,26 +197,20 @@ The routine failed to allocate resources required for the DMA transfer.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
+**BuildScatterGatherListEx*** is not a system routine that can be called directly by name. This routine can be called only by pointer from the address returned in a *<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_dma_operations">DMA_OPERATIONS</a>* structure. Drivers obtain the address of this routine by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a> with the **Version** member of the *DeviceDescription* parameter set to DEVICE_DESCRIPTION_VERSION3. If **IoGetDmaAdapter** returns **NULL**, the routine is not available on your platform.
 
+Use **BuildScatterGatherListEx** only for bus-master adapters. Do not use this routine for a system DMA adapter.
 
-<b>BuildScatterGatherListEx</b><i> is not a system routine that can be called directly by name. This routine can be called only by pointer from the address returned in a </i><a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_dma_operations">DMA_OPERATIONS</a><i> structure. </i>Drivers obtain the address of this routine by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iogetdmaadapter">IoGetDmaAdapter</a> with the <b>Version</b> member of the <i>DeviceDescription</i> parameter set to DEVICE_DESCRIPTION_VERSION3. If <b>IoGetDmaAdapter</b> returns <b>NULL</b>, the routine is not available on your platform.
+**BuildScatterGatherListEx** is similar to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pget_scatter_gather_list_ex">GetScatterGatherListEx</a> routine, except that it requires the caller to allocate the buffer for the scatter/gather list.
 
-Use <b>BuildScatterGatherListEx</b> only for bus-master adapters. Do not use this routine for a system DMA adapter.
+For example, a driver might preallocate one or more scatter/gather buffers during device initialization. Later, a **BuildScatterGatherListEx** call that uses such a buffer can succeed in conditions of low memory availability that might cause a **GetScatterGatherListEx** call to fail.
 
-<b>BuildScatterGatherListEx</b> is similar to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pget_scatter_gather_list_ex">GetScatterGatherListEx</a> routine, except that it requires the caller to allocate the buffer for the scatter/gather list.
+By default, **BuildScatterGatherListEx** returns asynchronously, without waiting for the requested resource allocation to complete. After this return, the caller can, if necessary, cancel the pending allocation request by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pcancel_adapter_channel">CancelAdapterChannel</a> routine.
 
-For example, a driver might preallocate one or more scatter/gather buffers during device initialization. Later, a <b>BuildScatterGatherListEx</b> call that uses such a buffer can succeed in conditions of low memory availability that might cause a <b>GetScatterGatherListEx</b> call to fail.
-
-By default, <b>BuildScatterGatherListEx</b> returns asynchronously, without waiting for the requested resource allocation to complete. After this return, the caller can, if necessary, cancel the pending allocation request by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pcancel_adapter_channel">CancelAdapterChannel</a> routine.
-
-If the calling driver sets the <b>DMA_SYNCHRONOUS_CALLBACK</b> flag, the <b>BuildScatterGatherListEx</b> routine behaves as follows:
+If the calling driver sets the **DMA_SYNCHRONOUS_CALLBACK** flag, the **BuildScatterGatherListEx** routine behaves as follows:
 
 <ul>
 <li>
@@ -244,50 +232,28 @@ If the driver does not supply an <i>AdapterListControl</i> routine, the driver c
 </ul>
 <b>BuildScatterGatherListEx</b> is an extended version of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pbuild_scatter_gather_list">BuildScatterGatherList</a> routine. The following list summarizes the features that are available only in the extended version:
 
-
-
-
-
+|Feature|Description|
+|----|----|
+|Starting offset|The calling driver can specify a starting offset for a scatter/gather DMA transfer instead of starting the transfer at the first buffer address at the start of the MDL chain.|
+|Allocation request cancellation|The driver can call [CancelAdapterChannel](nc-wdm-pcancel_adapter_channel.md) to cancel a pending allocation request when the DMA adapter is queued to wait for DMA resources.|
+|Synchronous callback|The driver can set the **DMA_SYNCHRONOUS_CALLBACK** flag to request that the driver-supplied *AdapterListControl* routine be called in the calling thread, before **BuildScatterGatherListEx** returns.|
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-driver_list_control">AdapterListControl</a>
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pallocate_adapter_channel_ex">AllocateAdapterChannelEx</a>
 
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pcalculate_scatter_gather_list_size">CalculateScatterGatherList</a>
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_dma_operations">DMA_OPERATIONS</a>
 
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-dma_completion_routine">DmaCompletionRoutine</a>
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pfree_adapter_object">FreeAdapterObject</a>
 
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pget_scatter_gather_list">GetScatterGatherList</a>
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pget_scatter_gather_list_ex">GetScatterGatherListEx</a>
 
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pmap_transfer_ex">MapTransferEx</a>
- 
-
- 
-

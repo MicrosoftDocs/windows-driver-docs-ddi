@@ -36,8 +36,6 @@ apilocation:
 - netrxqueue.h
 apiname: 
 - NetRxQueueNotifyMoreReceivedPacketsAvailable
-product:
-- Windows
 targetos: Windows
 product:
 - Windows

@@ -34,6 +34,8 @@ product:
 targetos: Windows
 tech.root: display
 ms.custom: RS5
+dev_langs:
+ - c++
 ---
 
 # D3D12DDI_VIDEO_MOTION_ESTIMATOR_OUTPUT_0053 structure

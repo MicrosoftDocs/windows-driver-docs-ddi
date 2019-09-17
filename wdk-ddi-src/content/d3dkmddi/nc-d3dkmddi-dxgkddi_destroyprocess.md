@@ -7,8 +7,6 @@ ms.assetid: C5117F9B-876D-4F74-B528-47698666B44B
 ms.date: 05/10/2018
 ms.keywords: DXGKDDI_DESTROYPROCESS, DXGKDDI_DESTROYPROCESS callback, DxgkDdiDestroyProcess, DxgkDdiDestroyProcess callback function [Display Devices], d3dkmddi/DxgkDdiDestroyProcess, display.dxgkddidestroyprocess, dispmprt/DxgkDdiDestroyProcess
 ms.topic: callback
-f1_keywords:
- - "d3dkmddi/DxgkDdiDestroyProcess"
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Desktop
@@ -26,53 +24,42 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- dispmprt.h
-- d3dkmddi.h
-api_name:
-- DxgkDdiDestroyProcess
-product:
-- Windows
 targetos: Windows
 tech.root: display
 req.typenames: 
+f1_keywords:
+ - "d3dkmddi/DxgkDdiDestroyProcess"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - dispmprt.h
+ - d3dkmddi.h
+api_name:
+ - DxgkDdiDestroyProcess
+product:
+ - Windows
 ---
 
 # DXGKDDI_DESTROYPROCESS callback function
 
-
 ## -description
-
 
 <b>DxgkDdiDestroyProcess</b> destroys a kernel mode driver process object.
 
-
 ## -parameters
 
-
-
-
-### -param hAdapter [in]
+### -param hAdapter
 
 A handle to the display adapter.
 
-
-### -param hKmdProcess [in]
+### -param hKmdProcess
 
 A handle to the kernel mode driver process.
 
-
 ## -returns
 
-
-
-
       Returns <b>STATUS_SUCCESS</b> if it succeeds. Otherwise, it returns one of the error codes defined in <b>Ntstatus.h</b>.
-
-
 

@@ -36,8 +36,6 @@ api_location:
 - netrxqueue.h
 api_name: 
 - NetRxQueueCreate
-product:
-- Windows
 targetos: Windows
 product:
 - Windows

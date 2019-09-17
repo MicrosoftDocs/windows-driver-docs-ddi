@@ -29,8 +29,6 @@ api_location:
 - netadapter.h
 api_name: 
 - NET_ADAPTER_AUTO_NEGOTIATION_FLAGS
-product:
-- Windows
 targetos: Windows
 product:
 - Windows

@@ -8,8 +8,6 @@ ms.assetid: 8008574f-a89e-4fed-b745-7cf5baa68e64
 ms.date: 05/10/2018
 ms.keywords: D3Druntime_Functions_ca5c02c9-ad59-4a10-8cb7-92d815cd6856.xml, PFND3DDDI_QUERYADAPTERINFOCB, PFND3DDDI_QUERYADAPTERINFOCB callback, d3dumddi/pfnQueryAdapterInfoCb, display.pfnqueryadapterinfocb, pfnQueryAdapterInfoCb, pfnQueryAdapterInfoCb callback function [Display Devices]
 ms.topic: callback
-f1_keywords:
- - "d3dumddi/pfnQueryAdapterInfoCb"
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop
@@ -27,57 +25,42 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-topic_type:
-- APIRef
-- kbSyntax
-api_type:
-- UserDefined
-api_location:
-- d3dumddi.h
-api_name:
-- pfnQueryAdapterInfoCb
-product:
-- Windows
 targetos: Windows
 req.typenames: 
+f1_keywords:
+ - "d3dumddi/pfnQueryAdapterInfoCb"
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - UserDefined
+api_location:
+ - d3dumddi.h
+api_name:
+ - pfnQueryAdapterInfoCb
+product:
+ - Windows
 ---
 
 # PFND3DDDI_QUERYADAPTERINFOCB callback function
 
-
 ## -description
-
 
 The <b>pfnQueryAdapterInfoCb</b> function retrieves graphics adapter information.
 
-
 ## -parameters
 
+### -param hAdapter
 
+A handle to the graphics adapter object.
 
-
-### -param hAdapter [in]
-
-A handle to the graphics adapter object. 
-
-
-### -param *
-
-
-
-
-
-
-
+### -param Arg2
 
 *pData* [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddicb_queryadapterinfo">D3DDDICB_QUERYADAPTERINFO</a> structure that receives information about the graphics hardware. 
-
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-_d3dddicb_queryadapterinfo">D3DDDICB_QUERYADAPTERINFO</a> structure that receives information about the graphics hardware.
 
 ## -returns
-
-
 
 <b>pfnQueryAdapterInfoCb</b> returns one of the following values:
 
@@ -89,12 +72,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 
 This function might also return other HRESULT values.
 
-
-
-
 ## -remarks
-
-
 
 Before the Microsoft Direct3D runtime calls the user-mode display driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_createdevice">CreateDevice</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_createdevice">CreateDevice(D3D10)</a> function to create the graphics context, the user-mode display driver should call <b>pfnQueryAdapterInfoCb</b> to retrieve information about the graphics hardware. This order is especially important for a multiple-monitor system. 
 
@@ -123,11 +101,7 @@ The following code example shows how to retrieve graphics adapter information.
     m_ulGartSupported = R200AdapterInfo.ulGartSupported;
 ```
 
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_createdevice">CreateDevice</a>
 
@@ -158,7 +132,4 @@ The following code example shows how to retrieve graphics adapter information.
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_getcaps">GetCaps</a>
- 
-
- 
 

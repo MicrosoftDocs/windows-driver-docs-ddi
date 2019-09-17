@@ -36,8 +36,6 @@ api_location:
 - netrequestqueue.h
 api_name: 
 - NET_REQUEST_QUEUE_QUERY_DATA_HANDLER_INIT
-product:
-- Windows
 targetos: Windows
 product:
 - Windows
