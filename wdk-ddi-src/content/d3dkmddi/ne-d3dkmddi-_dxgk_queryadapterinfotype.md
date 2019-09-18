@@ -48,15 +48,11 @@ ms.custom: 19H1
 
 # _DXGK_QUERYADAPTERINFOTYPE enumeration
 
-
 ## -description
-
 
 The DXGK_QUERYADAPTERINFOTYPE enumeration indicates the type of information to retrieve.
 
-
 ## -syntax
-
 
 ```cpp
 typedef enum _DXGK_QUERYADAPTERINFOTYPE {
@@ -92,26 +88,19 @@ typedef enum _DXGK_QUERYADAPTERINFOTYPE {
 } DXGK_QUERYADAPTERINFOTYPE;
 ```
 
-
 ## -enum-fields
-
-
-
 
 ### -field DXGKQAITYPE_UMDRIVERPRIVATE
 
 Indicates private data for the user-mode display driver.
 
-
 ### -field DXGKQAITYPE_DRIVERCAPS
 
-Indicates the driver capabilities in a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a> structure.
-
+Indicates the driver capabilities in a [DXGK_DRIVERCAPS](ns-d3dkmddi-_dxgk_drivercaps.md) structure.
 
 ### -field DXGKQAITYPE_QUERYSEGMENT
 
-
-Indicates memory-segment information in a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_querysegmentout.md">DXGK_QUERYSEGMENTOUT</a> structure.
+Indicates memory-segment information in a [DXGK_QUERYSEGMENTOUT](ns-d3dkmddi-_dxgk_querysegmentout.md) structure.
 
 ### -field DXGKQAITYPE_RESERVED
 
@@ -123,13 +112,11 @@ Reserved for system use. Do not use in your driver.
 
 Note that this constant occurs starting with Windows 7.
 
-
 ### -field DXGKQAITYPE_QUERYSEGMENT3
 
-Indicates memory-segment information in a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_querysegmentout3.md">DXGK_QUERYSEGMENTOUT3</a> structure.
+Indicates memory-segment information in a [DXGK_QUERYSEGMENTOUT3](ns-d3dkmddi-_dxgk_querysegmentout3.md) structure.
 
 Supported starting with Windows 8.
-
 
 ### -field DXGKQAITYPE_NUMPOWERCOMPONENTS
 
@@ -137,13 +124,11 @@ Indicates the number of power components used by the display miniport driver.  F
 
 Supported starting with Windows 8.
 
-
 ### -field DXGKQAITYPE_POWERCOMPONENTINFO
 
 Indicates information about power components used by the display miniport driver. For more information, see Remarks.
 
 Supported starting with Windows 8.
-
 
 ### -field DXGKQAITYPE_PREFERREDGPUNODE
 
@@ -151,13 +136,11 @@ Reserved for system use. Do not use in your driver.
 
 Supported starting with Windows 8.
 
-
 ### -field DXGKQAITYPE_POWERCOMPONENTPSTATEINFO
 
 Reserved for system use. Do not use in your driver.
 
 Supported starting with Windows 8.1.
-
 
 ### -field DXGKQAITYPE_HISTORYBUFFERPRECISION
 
@@ -165,20 +148,17 @@ Indicates info about the precision of history buffer data used by the display mi
 
 Supported starting with Windows 8.1.
 
-
 ### -field DXGKQAITYPE_QUERYSEGMENT4
 
-Indicates memory-segment information in a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_querysegmentout4.md">DXGK_QUERYSEGMENTOUT4</a> structure.
+Indicates memory-segment information in a [DXGK_QUERYSEGMENTOUT4](ns-d3dkmddi-_dxgk_querysegmentout4.md) structure.
 
 Supported starting with Windows 10.
-
 
 ### -field DXGKQAITYPE_SEGMENTMEMORYSTATE
 
-Indicates bad memory ranges in a <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_memoryrange.md">DXGK_MEMORYRANGE</a> structure.
+Indicates bad memory ranges in a [DXGK_MEMORYRANGE](ns-d3dkmddi-_dxgk_memoryrange.md) structure.
 
 Supported starting with Windows 10.
-
 
 ### -field DXGKQAITYPE_GPUMMUCAPS
 
@@ -186,21 +166,17 @@ Indicates physical adapter GPU capabilities.
 
 Supported starting with Windows 10.
 
-
 ### -field DXGKQAITYPE_PAGETABLELEVELDESC
 
 Reserved for system use. Do not use in your driver.
-
 
 ### -field DXGKQAITYPE_PHYSICALADAPTERCAPS
 
 Reserved for system use. Do not use in your driver.
 
-
 ### -field DXGKQAITYPE_DISPLAY_DRIVERCAPS_EXTENSION
 
 Reserved for system use. Do not use in your driver.
-
 
 ### -field DXGKQAITYPE_INTEGRATED_DISPLAY_DESCRIPTOR
 
@@ -208,15 +184,13 @@ Indicates a request for an integrated panel descriptor where the input buffer to
 
 Although this function addresses a target, only DxgKrnl adapter locks are taken over this call, not child device locks.  In practice, since this call will be made before the child device is exposed, there should be no concurrent DDI calls which address the same target.
 
-<div class="alert"><b>Note</b>  Unlike most QueryAdapterInfo calls, the output buffer size is variable although it is still known in advance from the DescriptorLength field of the DXGK_INTEGRATED_DISPLAY_CHILD structure for the target id.  The size of the output buffer is:
+> [!NOTE]
+> Unlike most QueryAdapterInfo calls, the output buffer size is variable although it is still known in advance from the DescriptorLength field of the DXGK_INTEGRATED_DISPLAY_CHILD structure for the target id.  The size of the output buffer is:
 DescriptorLength + FIELD_OFFSET( DXGK_QUERYINTEGRATEDDISPLAYOUT, Descriptor )
-</div>
-<div> </div>
 
 ### -field DXGKQAITYPE_UEFIFRAMEBUFFERRANGES
 
 Indicates request for the UEFI frame buffer ranges.
-
 
 ### -field DXGKQAITYPE_QUERYCOLORIMETRYOVERRIDES
 
@@ -225,7 +199,6 @@ Indicates a request for colorimetry overrides for an external display where the 
 Although this function addresses a target, only DxgKrnl adapter locks are taken over this call, not child device locks.  Since this call will be made before the child device is exposed, there should be no concurrent DDI calls which address the same target.
 
 The output buffer is zeroed when passed to the driver.  If the driver has no overrides for the monitor, it should return STATUS_SUCCESS and leave the output buffer zeroed.  If the driver has overrides, it fill in all fields of the DXGK_COLORIMETRY to describe the monitor capabilities as the OS will not accept partial overrides.
-
 
 ### -field DXGKQAITYPE_DISPLAYID_DESCRIPTOR
 
@@ -261,7 +234,6 @@ Represents data caps that are static and queried once per GPU during initializat
 
 Used to collect the bios version and GPU architecture name once during GPU initialization.
 
-
 ### -field DXGKQAITYPE_DEVICE_TYPE_CAPS
 
 The device type capabilities.
@@ -276,52 +248,30 @@ The GPU capabilities for a kernel mode display driver.
 
 ## -remarks
 
+The display miniport driver must fill the buffer pointed to by the **pOutputData** member of the [DXGKARG_QUERYADAPTERINFO](ns-d3dkmddi-_dxgkarg_queryadapterinfo.md) structure as follows:
 
-
-The display miniport driver must fill the buffer pointed to by the <b>pOutputData</b> member of the <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_queryadapterinfo.md">DXGKARG_QUERYADAPTERINFO</a> structure as follows:
-
-| **Value of [DXGKARG_QUERYADAPTERINFO](vscode-resource://c:/drivers/wdk-ddi/wdk-ddi-src/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_queryadapterinfo.md) .Type** | **Contents of output buffer pointed to by [DXGKARG_QUERYADAPTERINFO](vscode-resource://c:/drivers/wdk-ddi/wdk-ddi-src/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_queryadapterinfo.md) .pOutputData** | 
-|:--|:--|
-| **DXGKQAITYPE_UMDRIVERPRIVATE** | Proprietary buffer | 
-| **DXGKQAITYPE_DRIVERCAPS** | Populated [DXGK_DRIVERCAPS](vscode-resource://c:/drivers/wdk-ddi/wdk-ddi-src/content/d3dkmddi/ns-d3dkmddi-_dxgk_drivercaps.md)  structure | 
-| **DXGKQAITYPE_QUERYSEGMENT** | Populated [DXGK_QUERYSEGMENTOUT](vscode-resource://c:/drivers/wdk-ddi/wdk-ddi-src/content/d3dkmddi/ns-d3dkmddi-_dxgk_querysegmentout.md)  structure | 
-| **DXGKQAITYPE_QUERYSEGMENT3** | Populated [DXGK_QUERYSEGMENTOUT3](vscode-resource://c:/drivers/wdk-ddi/wdk-ddi-src/content/d3dkmddi/ns-d3dkmddi-_dxgk_querysegmentout3.md) structure | 
-| **DXGKQAITYPE_NUMPOWERCOMPONENTS** | A UINT value that specifies the number of power components used by the display miniport driver | 
-| **DXGKQAITYPE_POWERCOMPONENTINFO** | Populated [DXGK_POWER_RUNTIME_COMPONENT](vscode-resource://c:/drivers/wdk-ddi/wdk-ddi-src/content/d3dkmddi/ns-d3dkmddi-_dxgk_power_runtime_component.md)  structure that provides information about the nth power component, where n is the component index specified by [DXGKARG_QUERYADAPTERINFO](vscode-resource://c:/drivers/wdk-ddi/wdk-ddi-src/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_queryadapterinfo.md) .pInputData in a call to the [DxgkDdiQueryAdapterInfo](vscode-resource://c:/drivers/wdk-ddi/wdk-ddi-src/content/d3dkmddi/nc-d3dkmddi-dxgkddi_queryadapterinfo.md)  function | 
-| **DXGKQAITYPE_HISTORYBUFFERPRECISION** | Populated [DXGKARG_HISTORYBUFFERPRECISION](vscode-resource://c:/drivers/wdk-ddi/wdk-ddi-src/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_historybufferprecision.md) structure |
+| DXGKARG_QUERYADAPTERINFO.Type Value| Contents of output buffer pointed to by DXGKARG_QUERYADAPTERINFO.pOutputData |
+|--|--|
+| DXGKQAITYPE_UMDRIVERPRIVATE | Proprietary buffer |
+| DXGKQAITYPE_DRIVERCAPS | Populated [DXGK_DRIVERCAPS](ns-d3dkmddi-_dxgk_drivercaps.md)  structure |
+| DXGKQAITYPE_QUERYSEGMENT | Populated [DXGK_QUERYSEGMENTOUT](ns-d3dkmddi-_dxgk_querysegmentout.md)  structure |
+| DXGKQAITYPE_QUERYSEGMENT3 | Populated [DXGK_QUERYSEGMENTOUT3](ns-d3dkmddi-_dxgk_querysegmentout3.md) structure |
+| DXGKQAITYPE_NUMPOWERCOMPONENTS | A UINT value that specifies the number of power components used by the display miniport driver |
+| DXGKQAITYPE_POWERCOMPONENTINFO | Populated [DXGK_POWER_RUNTIME_COMPONENT](ns-d3dkmddi-_dxgk_power_runtime_component.md)  structure that provides information about the nth power component, where n is the component index specified by [DXGKARG_QUERYADAPTERINFO](ns-d3dkmddi-_dxgkarg_queryadapterinfo.md).pInputData in a call to the [DxgkDdiQueryAdapterInfo](ns-d3dkmddi-_dxgkarg_queryadapterinfo.md)  function |
+| DXGKQAITYPE_HISTORYBUFFERPRECISION | Populated [DXGKARG_HISTORYBUFFERPRECISION](ns-d3dkmddi-_dxgkarg_historybufferprecision.md) structure |
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_querysegmentout3.md">DXGK_QUERYSEGMENTOUT3</a>
+[DXGK_DRIVERCAPS](ns-d3dkmddi-_dxgk_drivercaps.md)
 
+[DXGK_POWER_RUNTIME_COMPONENT](ns-d3dkmddi-_dxgk_power_runtime_component.md)
 
+[DXGK_QUERYSEGMENTOUT](ns-d3dkmddi-_dxgk_querysegmentout.md)
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a>
+[DXGK_QUERYSEGMENTOUT3](ns-d3dkmddi-_dxgk_querysegmentout3.md)
 
+[DXGKARG_HISTORYBUFFERPRECISION](ns-d3dkmddi-_dxgkarg_historybufferprecision.md)
 
+[DXGKARG_QUERYADAPTERINFO](ns-d3dkmddi-_dxgkarg_queryadapterinfo.md)
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_querysegmentout.md">DXGK_QUERYSEGMENTOUT</a>
-
-
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>
-
-
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_historybufferprecision.md">DXGKARG_HISTORYBUFFERPRECISION</a>
-
-
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_power_runtime_component.md">DXGK_POWER_RUNTIME_COMPONENT</a>
-
-
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_queryadapterinfo.md">DXGKARG_QUERYADAPTERINFO</a>
-
-
-
- 
-
- 
-
-
+[DxgkDdiQueryAdapterInfo](nc-d3dkmddi-dxgkddi_queryadapterinfo.md)
