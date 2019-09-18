@@ -115,7 +115,7 @@ A handle that **IopOpenLinkOrRenameTarget** uses to open the target directory.
 If the file is not being moved to a different directory, or if the <b>FileName</b> member contains the full pathname, this member is <b>NULL</b>. 
 Otherwise, it is a handle for the root directory under which the file will reside after it is renamed. 
 
-To perform two open operations that won't cause a sharing conflict, you can open **RootDirectory** by requesting traverse | read-attribute. **IopOpenLinkOrRenameTarget** can then perform a relative open by requesting FILE_WRITE_DATA | SYNCHRONISE. 
+To perform two open operations that won't cause a sharing conflict, you can open **RootDirectory** by requesting traverse | read-attribute. **IopOpenLinkOrRenameTarget** can then perform a relative open by requesting FILE_WRITE_DATA | SYNCHRONIZE. 
 These two opens would not cause sharing conflict. 
 
 
