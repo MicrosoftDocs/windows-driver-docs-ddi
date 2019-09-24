@@ -96,23 +96,16 @@ For more information about the cleanup rules for a framework object hierarchy, s
 
 The following code example initializes an WDF_OBJECT_ATTRIBUTES structure and creates a general framework object.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDF_OBJECT_ATTRIBUTES  Attributes;
+```cpp
+WDF_OBJECT_ATTRIBUTES  Attributes;
 WDFOBJECT  Object;
 
 WDF_OBJECT_ATTRIBUTES_INIT(&Attributes);
 status = WdfObjectCreate(
                          &Attributes,
                          &Object
-                         );</pre>
-</td>
-</tr>
-</table></span></div>
+                         );
+```
 
 
 

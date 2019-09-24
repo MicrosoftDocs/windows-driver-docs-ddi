@@ -129,19 +129,12 @@ For more information about special files, see <a href="https://docs.microsoft.co
 
 The following code example adds a device (<b>pDeviceObject</b>) to the list of devices that another device (<b>Device</b>) depends on.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>status = WdfDeviceAddDependentUsageDeviceObject(
+```cpp
+status = WdfDeviceAddDependentUsageDeviceObject(
                                                 device,
                                                 pDeviceObject
-                                                );</pre>
-</td>
-</tr>
-</table></span></div>
+                                                );
+```
 
 
 

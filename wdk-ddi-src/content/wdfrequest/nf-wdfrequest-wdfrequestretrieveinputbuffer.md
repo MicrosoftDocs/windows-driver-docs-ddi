@@ -181,13 +181,8 @@ For more information about <b>WdfRequestRetrieveInputBuffer</b>, see <a href="ht
 
 The following code example is part of the <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/sample-kmdf-drivers">Serial</a> sample driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfio/nc-wdfio-evt_wdf_io_queue_io_device_control">EvtIoDeviceControl</a> callback function. If the I/O control code is IOCTL_SERIAL_SET_TIMEOUT, the driver obtains new time-out values from the I/O request's input buffer.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VOID
+```cpp
+VOID
 SerialEvtIoDeviceControl(
     IN WDFQUEUE     Queue,
     IN WDFREQUEST   Request,
@@ -219,10 +214,8 @@ SerialEvtIoDeviceControl(
             NewTimeouts =(PSERIAL_TIMEOUTS)buffer;
     }
 ...
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

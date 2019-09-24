@@ -116,13 +116,8 @@ For more information about object collections, see <a href="https://docs.microso
 
 The following code example creates a collection object and then adds a set of driver-created request objects to the collection.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDF_OBJECT_ATTRIBUTES  attributes;
+```cpp
+WDF_OBJECT_ATTRIBUTES  attributes;
 NTSTATUS  status;
 WDFCOLLECTION  hCollection = NULL;
 WDFREQUEST  subRequest = NULL;
@@ -159,10 +154,8 @@ for (i = 0; i < numSubRequests; i++) {
         WdfObjectDelete(subRequest);
         goto Exit;
     }
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

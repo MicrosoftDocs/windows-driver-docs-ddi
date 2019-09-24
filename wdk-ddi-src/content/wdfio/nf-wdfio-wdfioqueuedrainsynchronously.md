@@ -103,16 +103,9 @@ Do not call <b>WdfIoQueueDrainSynchronously</b> from the following queue object 
 
 The following code example drains an I/O queue.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WdfIoQueueDrainSynchronously(queue);</pre>
-</td>
-</tr>
-</table></span></div>
+```cpp
+WdfIoQueueDrainSynchronously(queue);
+```
 
 
 

@@ -187,13 +187,8 @@ For more information about <b>WdfRequestForwardToParentDeviceIoQueue</b>, see <a
 
 The following code example first determines the parent device of a device that received an I/O request, and then it requeues the I/O request to the parent device's default I/O queue.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDFDEVICE device, parentDevice;
+```cpp
+WDFDEVICE device, parentDevice;
 WDF_REQUEST_FORWARD_OPTIONS forwardOptions;
 NTSTATUS status;
 
@@ -211,10 +206,8 @@ if (!NT_SUCCESS(status)) {
                        Request,
                        status
                        );
-  }</pre>
-</td>
-</tr>
-</table></span></div>
+  }
+```
 
 
 

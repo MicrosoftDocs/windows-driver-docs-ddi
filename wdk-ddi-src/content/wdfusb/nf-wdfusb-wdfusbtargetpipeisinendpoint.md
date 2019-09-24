@@ -90,18 +90,11 @@ For more information about the <b>WdfUsbTargetPipeIsInEndpoint</b> method and US
 
 The following code example determines whether a specified USB pipe is connected to an input endpoint.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>BOOLEAN isInEndPoint;
+```cpp
+BOOLEAN isInEndPoint;
 
-isInEndPoint = WdfUsbTargetPipeIsInEndpoint(usbPipe);</pre>
-</td>
-</tr>
-</table></span></div>
+isInEndPoint = WdfUsbTargetPipeIsInEndpoint(usbPipe);
+```
 
 
 

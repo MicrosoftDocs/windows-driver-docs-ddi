@@ -106,23 +106,16 @@ For more information about completing DMA transfers, see <a href="https://docs.m
 
 The following code example notifies the framework that a device's DMA transfer operation has completed with an underrun condition.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>BOOLEAN  success;
+```cpp
+BOOLEAN  success;
 NTSTATUS  status;
 
 success = WdfDmaTransactionDmaCompletedFinal(
                                              DmaTransaction,
                                              transferLength,
                                              &status
-                                             );</pre>
-</td>
-</tr>
-</table></span></div>
+                                             );
+```
 
 
 

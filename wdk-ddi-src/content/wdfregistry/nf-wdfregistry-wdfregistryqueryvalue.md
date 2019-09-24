@@ -192,13 +192,8 @@ For more information about registry-key objects, see <a href="https://docs.micro
 
 The following code example opens a device's hardware key and retrieves the data that is assigned to the <b>NumberOfToasters</b> value, which is stored under the device's hardware key.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WCHAR  comPort[FM_COM_PORT_STRING_LENGTH];
+```cpp
+WCHAR  comPort[FM_COM_PORT_STRING_LENGTH];
 ULONG  length;
 NTSTATUS  status;
 ULONG  length, valueType, value;
@@ -222,10 +217,8 @@ status = WdfRegistryQueryValue(
                                &value,
                                &length,
                                &valueType
-                               );</pre>
-</td>
-</tr>
-</table></span></div>
+                               );
+```
 
 
 

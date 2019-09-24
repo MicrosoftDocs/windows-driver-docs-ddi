@@ -95,22 +95,15 @@ For more information about the <b>WdfUsbTargetPipeGetInformation</b> method and 
 
 The following code example initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfusb/ns-wdfusb-_wdf_usb_pipe_information">WDF_USB_PIPE_INFORMATION</a> structure and calls <b>WdfUsbTargetPipeGetInformation</b>.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDF_USB_PIPE_INFORMATION pipeInfo;
+```cpp
+WDF_USB_PIPE_INFORMATION pipeInfo;
 
 WDF_USB_PIPE_INFORMATION_INIT(&pipeInfo);
 WdfUsbTargetPipeGetInformation(
                                Pipe,
                                &pipeInfo
-                               );</pre>
-</td>
-</tr>
-</table></span></div>
+                               );
+```
 
 
 

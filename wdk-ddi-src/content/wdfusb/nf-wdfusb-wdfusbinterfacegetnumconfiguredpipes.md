@@ -92,18 +92,11 @@ For more information about the <b>WdfUsbInterfaceGetNumConfiguredPipes</b> metho
 
 The following code example obtains the number of pipes that are configured for a specified USB interface.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>BYTE pipeCount;
+```cpp
+BYTE pipeCount;
 
-pipeCount = WdfUsbInterfaceGetNumConfiguredPipes(UsbInterface);</pre>
-</td>
-</tr>
-</table></span></div>
+pipeCount = WdfUsbInterfaceGetNumConfiguredPipes(UsbInterface);
+```
 
 
 

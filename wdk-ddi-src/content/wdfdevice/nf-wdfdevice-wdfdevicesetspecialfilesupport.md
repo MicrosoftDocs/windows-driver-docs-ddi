@@ -100,13 +100,8 @@ For more information, see <a href="https://docs.microsoft.com/windows-hardware/d
 
 The following code example enables support for paging, hibernation, and dump files on a device.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WdfDeviceSetSpecialFileSupport(
+```cpp
+WdfDeviceSetSpecialFileSupport(
                                device,
                                WdfSpecialFilePaging,
                                TRUE
@@ -120,10 +115,8 @@ WdfDeviceSetSpecialFileSupport(
                                device,
                                WdfSpecialFileDump,
                                TRUE
-                               );</pre>
-</td>
-</tr>
-</table></span></div>
+                               );
+```
 
 
 

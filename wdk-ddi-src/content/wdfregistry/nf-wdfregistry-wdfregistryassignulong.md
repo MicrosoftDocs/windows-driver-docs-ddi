@@ -148,13 +148,8 @@ For more information about registry-key objects, see <a href="https://docs.micro
 
 The following code example assigns the constant MY_VALUE to the <b>ValueName</b> value, under a specified registry key.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>UNICODE_STRING valueName;
+```cpp
+UNICODE_STRING valueName;
 NTSTATUS status;
 
 RtlInitUnicodeString(
@@ -165,10 +160,8 @@ status = WdfRegistryAssignULong(
                                 Key,
                                 &valueName,
                                 MY_VALUE
-                                );</pre>
-</td>
-</tr>
-</table></span></div>
+                                );
+```
 
 
 

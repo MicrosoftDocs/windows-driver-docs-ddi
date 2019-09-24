@@ -91,18 +91,11 @@ The <b>WdfDeviceGetDevicePowerPolicyState</b> method returns a meaningful value 
 
 The following code example obtains the current state of the framework's power policy state machine for a specified device.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDF_DEVICE_POWER_POLICY_STATE devicePowerPolicyState;
+```cpp
+WDF_DEVICE_POWER_POLICY_STATE devicePowerPolicyState;
 
-devicePowerPolicyState = WdfDeviceGetDevicePowerPolicyState(Device);</pre>
-</td>
-</tr>
-</table></span></div>
+devicePowerPolicyState = WdfDeviceGetDevicePowerPolicyState(Device);
+```
 
 
 

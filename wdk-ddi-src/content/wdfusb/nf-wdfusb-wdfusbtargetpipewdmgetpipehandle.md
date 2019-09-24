@@ -92,18 +92,11 @@ For more information about the <b>WdfUsbTargetPipeWdmGetPipeHandle</b> method an
 
 The following code example obtains the USBD_PIPE_HANDLE-typed handle for a specified pipe.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>USBD_PIPE_HANDLE  usbdPipeHandle;
+```cpp
+USBD_PIPE_HANDLE  usbdPipeHandle;
 
-usbdPipeHandle = WdfUsbTargetPipeWdmGetPipeHandle(UsbPipe);</pre>
-</td>
-</tr>
-</table></span></div>
+usbdPipeHandle = WdfUsbTargetPipeWdmGetPipeHandle(UsbPipe);
+```
 
 
 

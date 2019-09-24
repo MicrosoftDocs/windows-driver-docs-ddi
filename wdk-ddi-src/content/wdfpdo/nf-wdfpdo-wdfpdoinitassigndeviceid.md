@@ -123,22 +123,15 @@ The driver must call <b>WdfPdoInitAssignDeviceID</b> before calling <a href="htt
 
 The following code example reports a device ID that the <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/sample-kmdf-drivers">KbFiltr</a> sample driver uses.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>#define  KBFILTR_DEVICE_ID L"{A65C87F9-BE02-4ed9-92EC-012D416169FA}\\KeyboardFilter\0"
+```cpp
+#define  KBFILTR_DEVICE_ID L"{A65C87F9-BE02-4ed9-92EC-012D416169FA}\\KeyboardFilter\0"
 DECLARE_CONST_UNICODE_STRING(deviceId,KBFILTR_DEVICE_ID);
 
 status = WdfPdoInitAssignDeviceID(
                                   pDeviceInit,
                                   &deviceId
-                                  );</pre>
-</td>
-</tr>
-</table></span></div>
+                                  );
+```
 
 
 

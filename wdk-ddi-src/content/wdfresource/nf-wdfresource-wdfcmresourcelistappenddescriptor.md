@@ -136,13 +136,8 @@ For more information about resource lists, see <a href="https://docs.microsoft.c
 
 The following code example adds a resource descriptor to the end of the resource list that an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfpdo/nc-wdfpdo-evt_wdf_device_resources_query">EvtDeviceResourcesQuery</a> callback function receives. 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS
+```cpp
+NTSTATUS
 PdoEvtDeviceResourcesQuery(
     IN WDFDEVICE  Device,
     IN WDFCMRESLIST  Resources
@@ -162,10 +157,8 @@ PdoEvtDeviceResourcesQuery(
                                                );
 ...
 
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

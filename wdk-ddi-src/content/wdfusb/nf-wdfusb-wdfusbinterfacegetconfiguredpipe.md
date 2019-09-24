@@ -102,13 +102,8 @@ For more information about the <b>WdfUsbInterfaceGetConfiguredPipe</b> method an
 
 The following code example sends a USB abort request to each configured pipe of a specified USB interface.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>BYTE  count, i;
+```cpp
+BYTE  count, i;
 NTSTATUS  status;
 
 count = WdfUsbInterfaceGetNumConfiguredPipes(UsbInterface);
@@ -129,10 +124,8 @@ for (i = 0; i < count; i++) {
     if (!NT_SUCCESS(status)) {
         break;
     }
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

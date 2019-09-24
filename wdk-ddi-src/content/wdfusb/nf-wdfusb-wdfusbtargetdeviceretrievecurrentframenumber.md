@@ -125,13 +125,8 @@ For more information about the <b>WdfUsbTargetDeviceRetrieveCurrentFrameNumber</
 
 The following code example calls <b>WdfUsbTargetDeviceRetrieveCurrentFrameNumber</b>. The example obtains a USB device object handle from driver-defined context space.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>ULONG  frameNumber;
+```cpp
+ULONG  frameNumber;
 PMY_DEVICE_CONTEXT  pMyDeviceContext;
 
 pMyDeviceContext = GetDeviceContext(Device);
@@ -139,10 +134,8 @@ pMyDeviceContext = GetDeviceContext(Device);
 status = WdfUsbTargetDeviceRetrieveCurrentFrameNumber(
                                               pMyDeviceContext->UsbTargetDevice,
                                               &frameNumber
-                                              );</pre>
-</td>
-</tr>
-</table></span></div>
+                                              );
+```
 
 
 

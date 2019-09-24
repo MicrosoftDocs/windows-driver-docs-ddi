@@ -155,13 +155,8 @@ Alternatively, you can use <a href="https://docs.microsoft.com/windows-hardware/
 
 The following code example obtains a device's <b>DevicePropertyBusTypeGuid</b> property. The example calls <b>WdfDeviceQueryProperty</b> instead of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nf-wdfdevice-wdfdeviceallocandqueryproperty">WdfDeviceAllocAndQueryProperty</a> because the length of a GUID is known.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>GUID  busTypeGuid;
+```cpp
+GUID  busTypeGuid;
 ULONG  resultLength = 0;
 NTSTATUS  status;
 
@@ -171,10 +166,8 @@ status = WdfDeviceQueryProperty(
                                 sizeof(GUID),
                                 (PVOID)&busTypeGuid,
                                 &resultLength
-                                );</pre>
-</td>
-</tr>
-</table></span></div>
+                                );
+```
 
 
 

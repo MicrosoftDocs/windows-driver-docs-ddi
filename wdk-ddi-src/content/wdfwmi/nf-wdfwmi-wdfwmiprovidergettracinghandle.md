@@ -90,18 +90,11 @@ For more information about the <b>WdfWmiProviderGetTracingHandle</b> method, see
 
 The following code example obtains a handle to a WPP tracing session's event logger.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>ULONGLONG tracingHandle;
+```cpp
+ULONGLONG tracingHandle;
 
-tracingHandle = WdfWmiProviderGetTracingHandle(wmiProvider);</pre>
-</td>
-</tr>
-</table></span></div>
+tracingHandle = WdfWmiProviderGetTracingHandle(wmiProvider);
+```
 
 
 

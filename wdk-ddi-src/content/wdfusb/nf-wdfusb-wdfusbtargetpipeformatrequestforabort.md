@@ -154,13 +154,8 @@ For more information about the <b>WdfUsbTargetPipeFormatRequestForAbort</b> meth
 
 The following code example formats an abort request for a USB pipe, registers a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfrequest/nc-wdfrequest-evt_wdf_request_completion_routine">CompletionRoutine</a> callback function, and sends the request.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>status = WdfUsbTargetPipeFormatRequestForAbort(
+```cpp
+status = WdfUsbTargetPipeFormatRequestForAbort(
                                                pipe,
                                                Request
                                                );
@@ -190,10 +185,8 @@ if (!NT_SUCCESS(status)) {
                                       0
                                       );
 }
-return;</pre>
-</td>
-</tr>
-</table></span></div>
+return;
+```
 
 
 

@@ -92,16 +92,9 @@ For more information about registry-key objects, see <a href="https://docs.micro
 
 The following code example closes a registry key and deletes the registry-key object.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WdfRegistryClose(Key);</pre>
-</td>
-</tr>
-</table></span></div>
+```cpp
+WdfRegistryClose(Key);
+```
 
 
 

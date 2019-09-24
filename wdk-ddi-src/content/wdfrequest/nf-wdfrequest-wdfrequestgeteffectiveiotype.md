@@ -83,13 +83,8 @@ For more information, see <a href="https://docs.microsoft.com/windows-hardware/d
 
 The following code example shows how an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfio/nc-wdfio-evt_wdf_io_queue_io_write">EvtIoWrite</a> callback function can determine the buffer access method for the specified write request.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VOID
+```cpp
+VOID
 MyDrvEvtIoWrite(
   _In_  WDFQUEUE Queue,
   _In_  WDFREQUEST Request,
@@ -106,10 +101,8 @@ MyDrvEvtIoWrite(
 ...
 
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 
 
 

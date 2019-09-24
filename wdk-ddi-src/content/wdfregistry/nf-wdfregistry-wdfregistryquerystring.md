@@ -194,13 +194,8 @@ For more information about registry-key objects, see <a href="https://docs.micro
 
 The following code example creates a string object, retrieves string data from a registry key, and obtains the string data from the string object.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>UNICODE_STRING str;
+```cpp
+UNICODE_STRING str;
 WDFSTRING string;
 NTSTATUS status;
 DECLARE_CONST_UNICODE_STRING(valueName, STRING_VALUE_NAME);
@@ -222,10 +217,8 @@ if (NT_SUCCESS(status)) {
                                   &str
                                   );
     }
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

@@ -131,20 +131,13 @@ For more information about <b>WdfDeviceInitRegisterPowerPolicyStateChangeCallbac
 
 The following code example registers an event callback function that the framework will call when the device's power policy state machine changes state.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>status = WdfDeviceInitRegisterPowerPolicyStateChangeCallback(
+```cpp
+status = WdfDeviceInitRegisterPowerPolicyStateChangeCallback(
                                  DeviceInit,
                                  WdfDevStatePwrPolCheckPowerPageable,
                                  PciDrvPowerPolicyStateChangeCallback,
                                  StateNotificationAllStates
-                                 );</pre>
-</td>
-</tr>
-</table></span></div>
+                                 );
+```
 
 

@@ -88,18 +88,11 @@ For more information about the registry, see <a href="https://docs.microsoft.com
 
 The following code example obtains the path to a driver's registry key in the registry's <b>Services</b> tree.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>PWSTR  registryPath;
+```cpp
+PWSTR  registryPath;
 
-registryPath = WdfDriverGetRegistryPath(driver);</pre>
-</td>
-</tr>
-</table></span></div>
+registryPath = WdfDriverGetRegistryPath(driver);
+```
 
 
 

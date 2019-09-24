@@ -98,13 +98,8 @@ If your driver calls this method on an operating system earlier than Windows 8,
 
 The following code example shows how a driver might call <b>WdfDmaTransactionStopSystemTransfer</b> from an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdftimer/nc-wdftimer-evt_wdf_timer">EvtTimerFunc</a> event callback function that it registers to be called if an I/O request times out.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VOID
+```cpp
+VOID
 MyTimerFunc(
     __in WDFTIMER Timer
     )
@@ -221,19 +216,12 @@ AttemptRequestCompletion(
                            RequestContext->CompletionStatus);
     }
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 The following code example shows how a driver might call <b>WdfDmaTransactionStopSystemTransfer</b> from an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfrequest/nc-wdfrequest-evt_wdf_request_cancel">EvtRequestCancel</a> callback function. The driver previously called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfrequest/nf-wdfrequest-wdfrequestmarkcancelableex">WdfRequestMarkCancelableEx</a> from its I/O request handler to register the callback.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VOID
+```cpp
+VOID
 MyRequestCancel(
     __in WDFREQUEST Request
     )
@@ -273,10 +261,8 @@ MyRequestCancel(
 
     AttemptRequestCompletion(requestContext, false);
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 
 
 

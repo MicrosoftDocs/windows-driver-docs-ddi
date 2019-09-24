@@ -152,13 +152,8 @@ For more information about resource requirements lists, see <a href="https://doc
 
 The following code example shows how an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfpdo/nc-wdfpdo-evt_wdf_device_resource_requirements_query">EvtDeviceResourceRequirementsQuery</a> callback function can create two empty logical configurations and add them to a resource requirements list.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS
+```cpp
+NTSTATUS
 Example_EvtDeviceResourceRequirementsQuery(
     IN WDFDEVICE Device,
     IN WDFIORESREQLIST RequirementsList
@@ -202,10 +197,8 @@ Example_EvtDeviceResourceRequirementsQuery(
         return status;
     }
 ...
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

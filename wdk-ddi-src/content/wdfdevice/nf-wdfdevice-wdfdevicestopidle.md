@@ -124,18 +124,11 @@ Calling <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdfdevi
 
 In the following code example, <b>WdfDeviceStopIdle</b> returns after the specified device has entered the D0 device power state.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS  status;
+```cpp
+NTSTATUS  status;
 
-status = WdfDeviceStopIdle(Device, TRUE);</pre>
-</td>
-</tr>
-</table></span></div>
+status = WdfDeviceStopIdle(Device, TRUE);
+```
 
 
 

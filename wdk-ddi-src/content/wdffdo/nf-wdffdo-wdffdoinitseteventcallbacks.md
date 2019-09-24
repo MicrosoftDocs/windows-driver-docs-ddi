@@ -93,13 +93,8 @@ For more information about the <b>WdfFdoInitSetEventCallbacks</b> method, see <a
 
 The following code example initializes a WDF_FDO_EVENT_CALLBACKS structure and then calls <b>WdfFdoInitSetEventCallbacks</b>.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDF_FDO_EVENT_CALLBACKS fdoCallbacks;
+```cpp
+WDF_FDO_EVENT_CALLBACKS fdoCallbacks;
 
 WDF_FDO_EVENT_CALLBACKS_INIT(&fdoCallbacks);
 fdoCallbacks.EvtDeviceFilterAddResourceRequirements = MyEvtDeviceFilterAddResourceRequirements;
@@ -109,10 +104,8 @@ fdoCallbacks.EvtDeviceRemoveAddedResources = MyEvtDeviceRemoveAddedResources;
 WdfFdoInitSetEventCallbacks(
                             DeviceInit,
                             &fdoCallbacks
-                            );</pre>
-</td>
-</tr>
-</table></span></div>
+                            );
+```
 
 
 

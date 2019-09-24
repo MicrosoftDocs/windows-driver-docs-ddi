@@ -97,13 +97,8 @@ For more information about library versions, see <a href="https://docs.microsoft
 
 The following code example reports an error if it detects an unexpected library version number.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDF_DRIVER_VERSION_AVAILABLE_PARAMS ver;
+```cpp
+WDF_DRIVER_VERSION_AVAILABLE_PARAMS ver;
 
 WDF_DRIVER_VERSION_AVAILABLE_PARAMS_INIT(&ver, 1, 0);
 if (!WdfDriverIsVersionAvailable(
@@ -111,10 +106,8 @@ if (!WdfDriverIsVersionAvailable(
                                  &ver
                                  )) {
     DbgPrint("Unexpected library version.\n");
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

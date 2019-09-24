@@ -86,16 +86,9 @@ Calling <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/wdfdevi
 
 The following code example informs the framework that the specified device is not in use and can be placed in a device low-power state if it remains idle.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WdfDeviceResumeIdle(device);</pre>
-</td>
-</tr>
-</table></span></div>
+```cpp
+WdfDeviceResumeIdle(device);
+```
 
 
 

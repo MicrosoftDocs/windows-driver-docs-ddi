@@ -157,13 +157,8 @@ For more information about driver-defined interfaces, see <a href="https://docs.
 
 The following code example is from the <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/sample-kmdf-drivers">Toaster</a> sample bus driver. This example creates a driver-defined interface that uses the toaster sample's TOASTER_INTERFACE_STANDARD structure.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct _TOASTER_INTERFACE_STANDARD {
+```cpp
+typedef struct _TOASTER_INTERFACE_STANDARD {
  INTERFACE  InterfaceHeader;
   PTOASTER_GET_CRISPINESS_LEVEL  GetCrispinessLevel;
   PTOASTER_SET_CRISPINESS_LEVEL  SetCrispinessLevel;
@@ -213,10 +208,8 @@ status = WdfDeviceAddQueryInterface(
                                     );
 if (!NT_SUCCESS(status)) {
     return status;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

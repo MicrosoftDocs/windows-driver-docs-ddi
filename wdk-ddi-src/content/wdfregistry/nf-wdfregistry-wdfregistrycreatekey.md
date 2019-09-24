@@ -192,13 +192,8 @@ For more information about registry-key objects, see <a href="https://docs.micro
 
 The following code example opens a driver's software key, and then it creates and opens the <b>MySubKey</b> registry key, which is located under the driver's software key.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDFKEY  hKey, subkey;
+```cpp
+WDFKEY  hKey, subkey;
 NTSTATUS  status;
 UNICODE_STRING  myKeyStr;
 
@@ -223,10 +218,8 @@ if (NT_SUCCESS(status)){
                                   WDF_NO_OBJECT_ATTRIBUTES,
                                   &subkey
                                   );
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

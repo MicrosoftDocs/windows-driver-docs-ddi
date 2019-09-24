@@ -236,33 +236,21 @@ Supply a local buffer.
 
 Because <b>WdfIoTargetSendWriteSynchronously</b> handles I/O requests synchronously, the driver can create request buffers that are local to the calling routine, as the following code example shows.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDF_MEMORY_DESCRIPTOR  MemoryDescriptor;
+```cpp
+WDF_MEMORY_DESCRIPTOR  MemoryDescriptor;
 MY_BUFFER_TYPE  MyBuffer;
 WDF_MEMORY_DESCRIPTOR_INIT_BUFFER(&MemoryDescriptor,
                                   (PVOID) &MyBuffer,
-                                  sizeof(MyBuffer));</pre>
-</td>
-</tr>
-</table></span></div>
+                                  sizeof(MyBuffer));
+```
 </li>
 <li>
 Supply a WDFMEMORY handle.
 
 Call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfmemory/nf-wdfmemory-wdfmemorycreate">WdfMemoryCreate</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfmemory/nf-wdfmemory-wdfmemorycreatepreallocated">WdfMemoryCreatePreallocated</a> to obtain a handle to framework-managed memory, as the following code example shows. 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDF_MEMORY_DESCRIPTOR  MemoryDescriptor;
+```cpp
+WDF_MEMORY_DESCRIPTOR  MemoryDescriptor;
 WDFMEMORY  MemoryHandle = NULL;
 status = WdfMemoryCreate(NULL,
                          NonPagedPool,
@@ -272,10 +260,8 @@ status = WdfMemoryCreate(NULL,
                          NULL);
 WDF_MEMORY_DESCRIPTOR_INIT_HANDLE(&MemoryDescriptor,
                                   MemoryHandle,
-                                  NULL);</pre>
-</td>
-</tr>
-</table></span></div>
+                                  NULL);
+```
 Alternatively, the driver can call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfrequest/nf-wdfrequest-wdfrequestretrieveinputmemory">WdfRequestRetrieveInputMemory</a> to obtain a handle to a framework memory object that represents a received I/O request's input buffer, if you want the driver to pass that buffer's contents to the I/O target. The driver must not complete the received I/O request until the new request that <b>WdfIoTargetSendWriteSynchronously</b> sends to the I/O target has been deleted, reused, or reformatted. (<b>WdfIoTargetSendWriteSynchronously</b> increments the memory object's reference count. Deleting, reusing, or reformatting a request object decrements the memory object's reference count.)
 
 </li>
@@ -301,13 +287,8 @@ For more information about I/O targets, see <a href="https://docs.microsoft.com/
 
 The following code example creates a framework memory object, initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfmemory/ns-wdfmemory-_wdf_memory_descriptor">WDF_MEMORY_DESCRIPTOR</a> structure, and passes the structure to <b>WdfIoTargetSendWriteSynchronously</b>. This example specifies <b>NULL</b> for the request object handle, so the framework will create a new request object for the I/O target.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDF_MEMORY_DESCRIPTOR  MemoryDescriptor;
+```cpp
+WDF_MEMORY_DESCRIPTOR  MemoryDescriptor;
 WDFMEMORY  MemoryHandle = NULL;
 ULONG_PTR  bytesWritten = NULL;
 
@@ -332,10 +313,8 @@ status = WdfIoTargetSendWriteSynchronously(
                                           NULL,
                                           &bytesWritten
                                           );
- </pre>
-</td>
-</tr>
-</table></span></div>
+ 
+```
 
 
 

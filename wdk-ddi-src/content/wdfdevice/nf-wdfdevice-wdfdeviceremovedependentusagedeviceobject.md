@@ -91,19 +91,12 @@ For more information about <b>WdfDeviceRemoveDependentUsageDeviceObject</b> and 
 
 The following code example removes a device (<b>pDeviceObject</b>) from the list of devices that another device (<b>device</b>) depends on.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>status = WdfDeviceRemoveDependentUsageDeviceObject(
+```cpp
+status = WdfDeviceRemoveDependentUsageDeviceObject(
                                                 device,
                                                 pDeviceObject
-                                                );</pre>
-</td>
-</tr>
-</table></span></div>
+                                                );
+```
 
 
 

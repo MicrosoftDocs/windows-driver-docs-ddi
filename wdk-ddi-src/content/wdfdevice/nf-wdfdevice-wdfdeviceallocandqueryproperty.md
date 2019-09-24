@@ -143,13 +143,8 @@ Alternatively, you can use <a href="https://docs.microsoft.com/windows-hardware/
 
 The following code example initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure with attributes for the framework memory object that the framework will create for the requested property. Then, the example calls <b>WdfDeviceAllocAndQueryProperty</b> to obtain the <b>DevicePropertyPhysicalDeviceObjectName</b> property. After <b>WdfDeviceAllocAndQueryProperty</b> returns, the driver can call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfmemory/nf-wdfmemory-wdfmemorygetbuffer">WdfMemoryGetBuffer</a> to obtain a pointer to the buffer that contains the name string.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDF_OBJECT_ATTRIBUTES  attributes;
+```cpp
+WDF_OBJECT_ATTRIBUTES  attributes;
 NTSTATUS  status;
 WDFDEVICE  device;
 WDFMEMORY  memory;
@@ -165,10 +160,8 @@ status = WdfDeviceAllocAndQueryProperty(device,
                                         );
 if (!NT_SUCCESS(status)) {
     return STATUS_UNSUCCESSFUL;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

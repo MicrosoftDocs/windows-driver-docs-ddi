@@ -205,13 +205,8 @@ For more information about registry-key objects, see <a href="https://docs.micro
 
 The following code example creates a collection object, initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure so that the collection object will be the parent of all of the string objects that the framework creates for the collection, and retrieves the strings from a multi-string registry value. Finally, the example obtains the number of string objects that the framework added to the collection.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDF_OBJECT_ATTRIBUTES stringAttributes;
+```cpp
+WDF_OBJECT_ATTRIBUTES stringAttributes;
 WDFCOLLECTION col;
 NTSTATUS status;
 ULONG count;
@@ -233,10 +228,8 @@ status = WdfRegistryQueryMultiString(
                                      col
                                      );
 
-count = WdfCollectionGetCount(col);</pre>
-</td>
-</tr>
-</table></span></div>
+count = WdfCollectionGetCount(col);
+```
 
 
 

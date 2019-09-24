@@ -171,13 +171,8 @@ For more information about DMA enabler objects and <b>WdfDmaEnablerCreate</b>, s
 
 The following code example is from the <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/sample-kmdf-drivers">PLX9x5x</a> sample driver. This example sets a device's requirement for buffer alignment, initializes a WDF_DMA_ENABLER_CONFIG structure, and calls <b>WdfDmaEnablerCreate</b>.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>//
+```cpp
+//
 // PLx PCI9656 DMA_TRANSFER_ELEMENTS must be 16-byte aligned.
 //
 WdfDeviceSetAlignmentRequirement(
@@ -206,10 +201,8 @@ WdfDeviceSetAlignmentRequirement(
         // Cannot continue, so release device resources.
         return status;
     }
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

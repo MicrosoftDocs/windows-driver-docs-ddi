@@ -187,13 +187,8 @@ For more information about child lists, see <a href="https://docs.microsoft.com/
 
 The following code example informs the framework that all of a parent device's children are being ejected. The example obtains a device's default child list and walks through the list. It obtains each child's identification descriptor, and it passes each identification descriptor to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfchildlist/nf-wdfchildlist-wdfchildlistrequestchildeject">WdfChildListRequestChildEject</a>.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDF_CHILD_LIST_ITERATOR  iterator;
+```cpp
+WDF_CHILD_LIST_ITERATOR  iterator;
 WDFDEVICE  hChild;
 NTSTATUS  status = STATUS_INVALID_PARAMETER;
 WDFCHILDLIST  list;
@@ -246,10 +241,8 @@ WdfChildListEndIteration(
 if (status == STATUS_NO_MORE_ENTRIES) {
    status = STATUS_SUCCESS;
 }
-return status;</pre>
-</td>
-</tr>
-</table></span></div>
+return status;
+```
 
 
 

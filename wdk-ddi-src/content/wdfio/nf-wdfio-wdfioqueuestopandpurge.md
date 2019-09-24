@@ -113,13 +113,8 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 The following code example stops and purges a specified I/O queue. After all requests that were delivered to the driver have been completed or canceled, the framework calls a driver's EvtIoQueueStateStopAndPurge function.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDFCONTEXT stopandpurgeContext;
+```cpp
+WDFCONTEXT stopandpurgeContext;
 
 stopandpurgeContext = &myContext;
 
@@ -127,10 +122,8 @@ WdfIoQueueStopAndPurge(
                queue,
                EvtIoQueueStateStopAndPurge,
                stopandpurgeContext
-               );</pre>
-</td>
-</tr>
-</table></span></div>
+               );
+```
 
 
 

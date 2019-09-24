@@ -114,13 +114,8 @@ For more information about static child lists, see <a href="https://docs.microso
 
 The following code example searches a static child list until it finds a child device with a serial number that matches a specific value. For other example uses of <b>WdfFdoRetrieveNextStaticChild</b>, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/sample-kmdf-drivers">Toaster</a> sample bus driver.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>PPDO_DEVICE_DATA  pdoData;
+```cpp
+PPDO_DEVICE_DATA  pdoData;
 WDFDEVICE  hChild;
 NTSTATUS  status = STATUS_INVALID_PARAMETER;
 
@@ -142,10 +137,8 @@ while ((hChild = WdfFdoRetrieveNextStaticChild(
         break;
     }
 }
-WdfFdoUnlockStaticChildListFromIteration(Device);</pre>
-</td>
-</tr>
-</table></span></div>
+WdfFdoUnlockStaticChildListFromIteration(Device);
+```
 
 
 

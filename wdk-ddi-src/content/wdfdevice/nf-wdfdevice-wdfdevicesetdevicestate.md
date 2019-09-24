@@ -93,23 +93,16 @@ When a driver calls <b>WdfDeviceSetDeviceState</b>, the framework notifies the P
 
 The following code example informs the PnP manager that a specified device is disabled.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDF_DEVICE_STATE    deviceState;
+```cpp
+WDF_DEVICE_STATE    deviceState;
 
 WDF_DEVICE_STATE_INIT (&deviceState);
 deviceState.Disabled = WdfTrue;
 WdfDeviceSetDeviceState (
                          Device,
                          &deviceState
-                         );</pre>
-</td>
-</tr>
-</table></span></div>
+                         );
+```
 
 
 

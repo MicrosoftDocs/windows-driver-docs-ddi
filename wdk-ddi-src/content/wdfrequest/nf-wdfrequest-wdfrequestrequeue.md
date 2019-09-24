@@ -146,17 +146,10 @@ For more information about <b>WdfRequestRequeue</b>, see <a href="https://docs.m
 
 The following code example returns a specified I/O request to the queue from which the driver received the request.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS status;
+```cpp
+NTSTATUS status;
 
-status = WdfRequestRequeue(request);</pre>
-</td>
-</tr>
-</table></span></div>
+status = WdfRequestRequeue(request);
+```
 
 

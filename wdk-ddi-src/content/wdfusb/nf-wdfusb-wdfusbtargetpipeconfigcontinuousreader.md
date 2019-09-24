@@ -187,13 +187,8 @@ For more information about the <b>WdfUsbTargetPipeConfigContinuousReader</b> met
 
 The following code example initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfusb/ns-wdfusb-_wdf_usb_continuous_reader_config">WDF_USB_CONTINUOUS_READER_CONFIG</a> structure and calls <b>WdfUsbTargetPipeConfigContinuousReader</b>.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDF_USB_CONTINUOUS_READER_CONFIG  contReaderConfig;
+```cpp
+WDF_USB_CONTINUOUS_READER_CONFIG  contReaderConfig;
 NTSTATUS  status;
 
 WDF_USB_CONTINUOUS_READER_CONFIG_INIT(
@@ -205,10 +200,8 @@ WDF_USB_CONTINUOUS_READER_CONFIG_INIT(
 status = WdfUsbTargetPipeConfigContinuousReader(
                                       Pipe,
                                       &contReaderConfig
-                                      );</pre>
-</td>
-</tr>
-</table></span></div>
+                                      );
+```
 
 
 

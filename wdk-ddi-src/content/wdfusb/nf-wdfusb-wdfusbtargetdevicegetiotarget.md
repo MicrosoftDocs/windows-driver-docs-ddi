@@ -88,20 +88,13 @@ For more information about the <b>WdfUsbTargetDeviceGetIoTarget</b> method and U
 
 The following code example creates a request object and verifies that the framework can send a request to the I/O target object that is associated with a specified USB device. 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>status = WdfRequestCreate(
+```cpp
+status = WdfRequestCreate(
                           &attributes,
                           WdfUsbTargetDeviceGetIoTarget(deviceContext->UsbTargetDevice),
                           &request
-                          );</pre>
-</td>
-</tr>
-</table></span></div>
+                          );
+```
 
 
 

@@ -90,13 +90,8 @@ For more information about the <b>WdfUsbTargetPipeGetIoTarget</b> method and USB
 
 The following code example shows how an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nc-wdfdevice-evt_wdf_device_d0_entry">EvtDeviceD0Entry</a> callback function can start a continuous reader for a USB pipe. 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS
+```cpp
+NTSTATUS
 MyEvtDeviceD0Entry(
     IN  WDFDEVICE Device,
     IN  WDF_POWER_DEVICE_STATE PreviousState
@@ -110,10 +105,8 @@ MyEvtDeviceD0Entry(
     status = WdfIoTargetStart(WdfUsbTargetPipeGetIoTarget(pDeviceContext->InterruptPipe));
 
     return status;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

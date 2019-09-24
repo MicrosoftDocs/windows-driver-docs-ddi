@@ -134,13 +134,8 @@ For more information about resource requirements lists and logical configuration
 
 The following code example creates an empty logical configuration and adds it to a resource requirements list. Then, the example initializes a resource descriptor and adds the descriptor to the logical configuration.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>IO_RESOURCE_DESCRIPTOR  descriptor;
+```cpp
+IO_RESOURCE_DESCRIPTOR  descriptor;
 NTSTATUS  status;
 WDFIORESLIST  logConfig;
 
@@ -178,10 +173,8 @@ descriptor.u.Port.MaximumAddress.QuadPart = 0xFFFF;
 status = WdfIoResourceListAppendDescriptor(
                                            logConfig,
                                            &descriptor
-                                           );</pre>
-</td>
-</tr>
-</table></span></div>
+                                           );
+```
 
 
 

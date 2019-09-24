@@ -206,22 +206,15 @@ For more information about the <b>WdfUsbTargetPipeResetSynchronously</b> method 
 
 The following code example sends a reset request to a USB device's pipe.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS  status;
+```cpp
+NTSTATUS  status;
 
 status = WdfUsbTargetPipeResetSynchronously(
                                             Pipe, 
                                             WDF_NO_HANDLE,
                                             NULL
-                                            );</pre>
-</td>
-</tr>
-</table></span></div>
+                                            );
+```
 
 
 

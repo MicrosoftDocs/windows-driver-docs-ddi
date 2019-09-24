@@ -123,13 +123,8 @@ The driver must call <b>WdfPdoInitAssignInstanceID</b> before calling <a href="h
 
 The following code example converts a device's serial number to a Unicode string and then registers the Unicode string as the device's instance ID.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>DECLARE_UNICODE_STRING_SIZE(instanceID, INSTANCEID_LENGTH);
+```cpp
+DECLARE_UNICODE_STRING_SIZE(instanceID, INSTANCEID_LENGTH);
 
 status =  RtlIntegerToUnicodeString(
                                     SerialNo,
@@ -139,10 +134,8 @@ status =  RtlIntegerToUnicodeString(
 status = WdfPdoInitAssignInstanceID(
                                     pDeviceInit,
                                     &instanceID
-                                    );</pre>
-</td>
-</tr>
-</table></span></div>
+                                    );
+```
 
 
 

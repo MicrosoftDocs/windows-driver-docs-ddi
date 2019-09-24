@@ -99,13 +99,8 @@ For more information about spin locks, see <a href="https://docs.microsoft.com/w
 
 The following code example initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a>, specifies that the spin lock's parent object will be a device object, and calls <b>WdfSpinLockCreate</b>.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDF_OBJECT_ATTRIBUTES attributes;
+```cpp
+WDF_OBJECT_ATTRIBUTES attributes;
 WDFSPINLOCK lockHandle;
 
 WDF_OBJECT_ATTRIBUTES_INIT(&attributes);
@@ -113,10 +108,8 @@ attributes.ParentObject = Device;
 status = WdfSpinLockCreate(
                            &attributes,
                            &lockHandle
-                           );</pre>
-</td>
-</tr>
-</table></span></div>
+                           );
+```
 
 
 

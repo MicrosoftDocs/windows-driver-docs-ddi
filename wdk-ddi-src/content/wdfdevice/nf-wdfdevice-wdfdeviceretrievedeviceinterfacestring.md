@@ -169,13 +169,8 @@ For more information about device interfaces, see <a href="https://docs.microsof
 
 The following code example creates a string object and then retrieves a specified device interface's symbolic link name. 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS status;
+```cpp
+NTSTATUS status;
 WDFSTRING string;
 
 status = WdfStringCreate(
@@ -193,10 +188,8 @@ if (NT_SUCCESS(status)) {
     if (!NT_SUCCESS(status)) {
         return status;
     }
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

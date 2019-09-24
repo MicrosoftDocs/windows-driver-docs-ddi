@@ -91,13 +91,8 @@ Child devices can obtain the information that <b>WdfDeviceSetBusInformationForCh
 
 The following code example initializes a PNP_BUS_INFORMATION structure and then calls <b>WdfDeviceSetBusInformationForChildren</b>.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>PNP_BUS_INFORMATION  busInfo;
+```cpp
+PNP_BUS_INFORMATION  busInfo;
 
 busInfo.BusTypeGuid = GUID_DEVCLASS_TOASTER;
 busInfo.LegacyBusType = PNPBus;
@@ -106,10 +101,8 @@ busInfo.BusNumber = 0;
 WdfDeviceSetBusInformationForChildren(
                                       device,
                                       &busInfo
-                                      );</pre>
-</td>
-</tr>
-</table></span></div>
+                                      );
+```
 
 
 

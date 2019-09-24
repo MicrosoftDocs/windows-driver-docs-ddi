@@ -198,13 +198,8 @@ For more information about the <b>WdfUsbTargetDeviceQueryString</b> method and U
 
 The following code example calls <b>WdfUsbTargetDeviceQueryString</b> to obtain the required buffer size, calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfmemory/nf-wdfmemory-wdfmemorycreate">WdfMemoryCreate</a> to create a memory object and buffer, and then calls <b>WdfUsbTargetDeviceQueryString</b> again to obtain the manufacturer's name string, in USA English (0x0409), from a USB device descriptor. (The driver previously stored the descriptor in driver-defined context space.)
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>PMY_DEVICE_CONTEXT  myDeviceContext;
+```cpp
+PMY_DEVICE_CONTEXT  myDeviceContext;
 USHORT  numCharacters;
 PUSHORT  stringBuf;
 WDFMEMORY  memoryHandle;
@@ -240,10 +235,8 @@ status = WdfUsbTargetDeviceQueryString(
                                        &numCharacters,
                                        myDeviceContext->UsbDeviceDescr.iManufacturer,
                                        0x0409
-                                       );</pre>
-</td>
-</tr>
-</table></span></div>
+                                       );
+```
 
 
 

@@ -99,22 +99,15 @@ For more information about calling <a href="https://docs.microsoft.com/windows-h
 
 The following code example sets a device's setup class to the system device class.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>DEFINE_GUID(GUID_DEVCLASS_MYUNIQUEID,
+```cpp
+DEFINE_GUID(GUID_DEVCLASS_MYUNIQUEID,
 0xf149fe88, 0x f6cc, 0x47e3, 0x85, 0x94, 0xe2, 0xaa, 0xb6, 0xe0, 0x3b, 0xdf);
 
 WdfDeviceInitSetDeviceClass(
                             DeviceInit,
                             &GUID_DEVCLASS_MYUNIQUEID
                             );
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 
 

@@ -97,19 +97,12 @@ For more information about this method, see <a href="https://docs.microsoft.com/
 
 The following code example sets the maximum number of scatter/gather elements for a specified DMA enabler object.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WdfDmaEnablerSetMaximumScatterGatherElements(
+```cpp
+WdfDmaEnablerSetMaximumScatterGatherElements(
                                              DmaEnabler, 
                                              NIC_MAX_PHYS_BUF_COUNT
-                                             );</pre>
-</td>
-</tr>
-</table></span></div>
+                                             );
+```
 
 
 

@@ -185,13 +185,8 @@ For more information about creating device objects, see <a href="https://docs.mi
 
 The following code example shows how an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add">EvtDriverDeviceAdd</a> callback function might initialize and create a device object.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS
+```cpp
+NTSTATUS
 MyEvtDeviceAdd(
     IN WDFDRIVER  Driver,
     IN PWDFDEVICE_INIT  DeviceInit
@@ -241,10 +236,8 @@ MyEvtDeviceAdd(
         return status;
     }
     return STATUS_SUCCESS;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

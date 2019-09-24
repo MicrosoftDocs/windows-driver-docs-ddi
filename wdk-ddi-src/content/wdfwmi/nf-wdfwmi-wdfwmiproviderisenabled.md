@@ -93,21 +93,14 @@ A driver that does not provide an <a href="https://docs.microsoft.com/windows-ha
 
 The following code example determines if event notification is enabled for a specified WMI data provider.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>BOOLEAN eventNotifEnabled;
+```cpp
+BOOLEAN eventNotifEnabled;
 
 eventNotifEnabled = WdfWmiProviderIsEnabled(
                                             wmiProvider,
                                             WdfWmiEventControl
-                                            );</pre>
-</td>
-</tr>
-</table></span></div>
+                                            );
+```
 
 
 

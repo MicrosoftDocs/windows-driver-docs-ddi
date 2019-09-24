@@ -110,21 +110,14 @@ For more information about the cleanup rules for a framework object hierarchy, s
 
 The following code example increments an object's reference count and assigns a tag value, line number, and file name to the reference.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WdfObjectReferenceActual(
+```cpp
+WdfObjectReferenceActual(
                          object,
                          pTag,
                          line,
                          FILE_NAME
-                         );</pre>
-</td>
-</tr>
-</table></span></div>
+                         );
+```
 
 
 

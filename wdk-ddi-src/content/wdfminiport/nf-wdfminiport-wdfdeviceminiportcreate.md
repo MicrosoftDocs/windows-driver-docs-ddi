@@ -184,13 +184,8 @@ For more information about miniport drivers, see <a href="https://docs.microsoft
 
 The following code example calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismgetdeviceproperty">NdisMGetDeviceProperty</a> to obtain <i>DeviceObject</i>, <i>AttachedDeviceObject</i>, and <i>PDO</i> pointers; initializes the device object's context space, and creates a miniport device object. 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDF_OBJECT_ATTRIBUTES  ObjectAttributes;
+```cpp
+WDF_OBJECT_ATTRIBUTES  ObjectAttributes;
 
 NdisMGetDeviceProperty(
                        MiniportAdapterHandle,
@@ -215,10 +210,8 @@ ntStatus = WdfDeviceMiniportCreate(
 if (!NT_SUCCESS (ntStatus)) {
     Status = NDIS_STATUS_FAILURE;
     break;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

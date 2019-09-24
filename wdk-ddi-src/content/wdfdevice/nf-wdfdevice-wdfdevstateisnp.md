@@ -86,18 +86,11 @@ To obtain the current state of the framework's power state machine, a driver can
 
 The following code example sets the <b>nonpageable</b> value to <b>TRUE</b> if the framework's power state machine is currently in a nonpageable state.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>BOOLEAN nonpageable;
+```cpp
+BOOLEAN nonpageable;
 
-nonpageable = WdfDevStateIsNP(WdfDeviceGetDevicePowerState(device));</pre>
-</td>
-</tr>
-</table></span></div>
+nonpageable = WdfDevStateIsNP(WdfDeviceGetDevicePowerState(device));
+```
 
 
 

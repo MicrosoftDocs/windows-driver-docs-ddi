@@ -114,13 +114,8 @@ If <b>WdfFdoAddStaticChild</b> returns an NTSTATUS value that <a href="https://d
 
 The following code example creates a framework device object that represents a new child device and adds the child device to the parent device's list of children. For the complete code example, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/sample-kmdf-drivers">KbFiltr</a> sample driver.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS  status;
+```cpp
+NTSTATUS  status;
 PWDFDEVICE_INIT  pDeviceInit = NULL;
 WDFDEVICE  hChild = NULL;
 WDF_OBJECT_ATTRIBUTES  pdoAttributes;
@@ -148,10 +143,8 @@ status = WdfFdoAddStaticChild(
                               );
 if (!NT_SUCCESS(status)) {
     goto Cleanup;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

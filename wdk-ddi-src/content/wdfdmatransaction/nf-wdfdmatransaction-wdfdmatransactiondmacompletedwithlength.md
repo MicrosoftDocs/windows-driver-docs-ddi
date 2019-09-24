@@ -102,13 +102,8 @@ For more information about completing DMA transfers, see <a href="https://docs.m
 
 The following code example is from the <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/sample-kmdf-drivers">PLX9x5x</a> sample driver. This example calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdmatransaction/nf-wdfdmatransaction-wdfdmatransactiongetcurrentdmatransferlength">WdfDmaTransactionGetCurrentDmaTransferLength</a> to determine the current transfer's original length, and then it calculates the actual transfer length. Next, the example calls <b>WdfDmaTransactionDmaCompletedWithLength</b> to report the actual transfer length to the framework. If the current transfer is the last one for the transaction, the example calls a private routine that completes the I/O request.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>BOOLEAN  hasTransitioned;
+```cpp
+BOOLEAN  hasTransitioned;
 PDMA_TRANSFER_ELEMENT  dteVA;
 ULONG  length;
 //
@@ -140,10 +135,8 @@ if (hasTransitioned) {
                            dmaTransaction,
                            status
                            );
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

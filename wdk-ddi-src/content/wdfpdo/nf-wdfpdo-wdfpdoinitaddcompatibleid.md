@@ -123,21 +123,14 @@ The driver must call <b>WdfPdoInitAddCompatibleID</b> before calling <a href="ht
 
 The following code example reports a compatible ID value that the <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/sample-kmdf-drivers">Toaster</a> sample driver uses.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>DECLARE_CONST_UNICODE_STRING(compatId, L"{B85B7C50-6A01-11d2-B841-00C04FAD5171}\\MsCompatibleToaster\0");
+```cpp
+DECLARE_CONST_UNICODE_STRING(compatId, L"{B85B7C50-6A01-11d2-B841-00C04FAD5171}\\MsCompatibleToaster\0");
 
 status = WdfPdoInitAddCompatibleID(
                                    DeviceInit,
                                    &compatId
-                                   );</pre>
-</td>
-</tr>
-</table></span></div>
+                                   );
+```
 
 
 

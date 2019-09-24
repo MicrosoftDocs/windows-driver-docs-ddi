@@ -133,13 +133,8 @@ If lookaside-list buffers are being allocated from the pageable memory pool, the
 
 The following code example creates a lookaside list and stores the list's handle in driver-defined device object context space. Then, the driver obtains a buffer from the lookaside list.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>PDRIVER_CONTEXT  driverContext;
+```cpp
+PDRIVER_CONTEXT  driverContext;
 WDFMEMORY  memHandle;
 
 driverContext = GetDriverContext(driver);
@@ -156,10 +151,8 @@ status = WdfLookasideListCreate(
 status = WdfMemoryCreateFromLookaside(
                                       driverContext->LookasideListHandle,
                                       &memHandle
-                                      );</pre>
-</td>
-</tr>
-</table></span></div>
+                                      );
+```
 
 
 

@@ -141,13 +141,8 @@ If the source or destination buffer was allocated from the pageable memory pool,
 
 The following code example allocates a new buffer and copies the contents of a memory object's buffer into the new buffer.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>PVOID  pOutputBuffer = NULL;
+```cpp
+PVOID  pOutputBuffer = NULL;
 NTSTATUS  status = STATUS_SUCCESS;
 
 pOutputBuffer = ExAllocatePoolWithTag(
@@ -165,10 +160,8 @@ if (pOutputBuffer != NULL){
 }
 else{
     status = STATUS_INSUFFICIENT_RESOURCES;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

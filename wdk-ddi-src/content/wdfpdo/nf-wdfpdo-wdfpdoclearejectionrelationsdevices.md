@@ -86,16 +86,9 @@ For more information, see <a href="https://docs.microsoft.com/windows-hardware/d
 
 The following code example clears the specified device's list of ejection relations.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WdfPdoClearEjectionRelationsDevices(device); </pre>
-</td>
-</tr>
-</table></span></div>
+```cpp
+WdfPdoClearEjectionRelationsDevices(device); 
+```
 
 
 

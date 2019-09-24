@@ -167,13 +167,8 @@ For more information about registry-key objects, see <a href="https://docs.micro
 
 The following code example creates a framework memory object, loads the object's buffer with fake data, and assigns the buffer's contents to a registry value.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>PUCHAR pBuffer;
+```cpp
+PUCHAR pBuffer;
 WDFMEMORY memory;
 NTSTATUS status;
 UCHAR i;
@@ -201,10 +196,8 @@ if (NT_SUCCESS(status)) {
                                      memory,
                                      NULL
                                      );
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

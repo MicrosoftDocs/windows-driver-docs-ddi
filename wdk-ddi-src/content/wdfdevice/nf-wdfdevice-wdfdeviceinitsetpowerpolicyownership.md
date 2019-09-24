@@ -111,13 +111,8 @@ For more information about calling <b>WdfDeviceInitSetPowerPolicyOwnership</b>, 
 
 The following code example is from the <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/sample-kmdf-drivers">Serial</a> sample driver. This example checks a registry value to determine if a driver should be the power policy owner. If the driver should not be the power policy owner, the example calls <b>WdfDeviceInitSetPowerPolicyOwnership</b>.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>//
+```cpp
+//
 // Call subroutine that checks a registry value.
 //
 SerialGetFdoRegistryKeyValue(
@@ -133,10 +128,8 @@ if(relinquishPowerPolicy) {
                                          DeviceInit,
                                          FALSE
                                          );
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

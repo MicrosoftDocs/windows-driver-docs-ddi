@@ -92,18 +92,11 @@ For more information about I/O targets, see <a href="https://docs.microsoft.com/
 
 The following code example obtains state information for a USB I/O target.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDF_IO_TARGET_STATE  ioTargetState;
+```cpp
+WDF_IO_TARGET_STATE  ioTargetState;
 
-ioTargetState = WdfIoTargetGetState(WdfUsbTargetPipeGetIoTarget(pipeHandle));</pre>
-</td>
-</tr>
-</table></span></div>
+ioTargetState = WdfIoTargetGetState(WdfUsbTargetPipeGetIoTarget(pipeHandle));
+```
 
 
 

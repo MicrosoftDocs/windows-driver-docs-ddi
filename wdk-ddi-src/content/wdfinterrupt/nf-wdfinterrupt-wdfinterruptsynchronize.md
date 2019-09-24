@@ -114,22 +114,15 @@ Do not call <b>WdfInterruptSynchronize</b> from an arbitrary thread context,  su
 
 The following code example shows how to call <b>WdfInterruptSynchronize</b> to schedule execution of an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_synchronize">EvtInterruptSynchronize</a>  callback function.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>BOOLEAN synchronizeReturnValue;
+```cpp
+BOOLEAN synchronizeReturnValue;
 
 synchronizeReturnValue = WdfInterruptSynchronize(
                                          WdfInterrupt,
                                          MyEvtInterruptSynchronize,
                                          CallbackContext
-                                         );</pre>
-</td>
-</tr>
-</table></span></div>
+                                         );
+```
 
 
 

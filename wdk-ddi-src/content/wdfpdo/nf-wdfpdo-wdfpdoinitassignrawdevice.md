@@ -97,13 +97,8 @@ For more information about using the registry, see <a href="https://docs.microso
 
 The following snippet from the kmdf_enumswitches driver sample indicates that a driver can support the specified device in raw mode.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS  status;
+```cpp
+NTSTATUS  status;
 DEFINE_GUID(GUID_DEVCLASS_MYUNIQUEID,
 0xf149fe88, 0x f6cc, 0x47e3, 0x85, 0x94, 0xe2, 0xaa, 0xb6, 0xe0, 0x3b, 0xdf);
 
@@ -111,10 +106,8 @@ status = WdfPdoInitAssignRawDevice(
                                    pDeviceInit,
                                    &GUID_DEVCLASS_MYUNIQUEID
                                    );
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 
 
 

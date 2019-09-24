@@ -86,16 +86,9 @@ For more information about <b>WdfPdoInitAllowForwardingRequestToParent</b> and <
 
 The following code example enables a driver's ability to call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfrequest/nf-wdfrequest-wdfrequestforwardtoparentdeviceioqueue">WdfRequestForwardToParentDeviceIoQueue</a>.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WdfPdoInitAllowForwardingRequestToParent(pDeviceInit);</pre>
-</td>
-</tr>
-</table></span></div>
+```cpp
+WdfPdoInitAllowForwardingRequestToParent(pDeviceInit);
+```
 
 
 

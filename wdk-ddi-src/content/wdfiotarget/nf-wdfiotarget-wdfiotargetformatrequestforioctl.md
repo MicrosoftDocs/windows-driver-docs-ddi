@@ -234,13 +234,8 @@ For more information about I/O targets, see <a href="https://docs.microsoft.com/
 
 The following code reuses a preallocated request object and preallocated memory objects. The example assigns input and output buffers to the memory objects, formats the request object, registers a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfrequest/nc-wdfrequest-evt_wdf_request_completion_routine">CompletionRoutine</a> callback function, and sends the request to an I/O target.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS
+```cpp
+NTSTATUS
 NICSendOidRequestToTargetAsync(
     IN WDFIOTARGET  IoTarget,
     IN WDFREQUEST  Request,
@@ -323,10 +318,8 @@ NICSendOidRequestToTargetAsync(
         status = WdfRequestGetStatus(Request);
     }
     return status;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 
