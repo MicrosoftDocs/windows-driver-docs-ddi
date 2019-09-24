@@ -2,11 +2,11 @@
 UID: NE:extension._NET_EXTENSION_TYPE
 title: NET_EXTENSION_TYPE (extension.h)
 author: windows-driver-content
-description: 
+description: The NET_EXTENSION_TYPE enumeration specifies the type of extension that a client driver is querying.
 tech.root: netvista
 ms.assetid: 92541d1b-82e8-4717-9733-3e0e562a9d09
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/23/2019
 ms.topic: enum
 f1_keywords:
  - "extension/-_NET_EXTENSION_GET_TYPE"
@@ -39,13 +39,28 @@ ms.custom: Vib
 
 ## -description
 
-
+The **NET_EXTENSION_TYPE** enumeration specifies the type of extension that a client driver is querying.
 
 ## -enum-fields
 
 ### -field NetExtensionTypePacket 
+
+The extension is a [**NET_PACKET**](../packet/ns-packet-_net_packet.md) extension.
+
 ### -field NetExtensionTypeFragment 
+
+The extension is a [**NET_FRAGMENT**](../fragment/ns-fragment-_net_fragment.md) extension.
 
 ## -remarks
 
+Client drivers pass this enumeration as a value to [**NET_EXTENSION_QUERY_INIT**](../netadapterpacket/nf-netadapterpacket-net_extension_query_init.md) to differentiate between packet extensions and fragment extension queries during packet queue creation.
+
 ## -see-also
+
+[Packet descriptors and extensions](https://docs.microsoft.com/windows-hardware/drivers/netcx/packet-descriptors-and-extensions)
+
+[**NET_PACKET**](../packet/ns-packet-_net_packet.md)
+
+[**NET_FRAGMENT**](../fragment/ns-fragment-_net_fragment.md)
+
+[**NET_EXTENSION_QUERY_INIT**](../netadapterpacket/nf-netadapterpacket-net_extension_query_init.md)

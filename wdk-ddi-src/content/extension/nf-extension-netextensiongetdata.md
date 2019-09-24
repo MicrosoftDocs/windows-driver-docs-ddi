@@ -67,8 +67,8 @@ Returns a pointer to the structure that holds the extension information for this
 Client drivers should not call this method directly. Instead, they should call the appropriate wrapper method for the type of extension they are getting:
 
 - For checksum offload information, the client driver calls [**NetExtensionGetPacketChecksum**](../checksum/nf-checksum-netextensiongetpacketchecksum.md).
-- For Large Send Offload (LSO) information, the client driver calls [**NetExtensionGetPacketLargeSendSegmentation**](../lso/nf-lso-netextensiongetpacketlargesendsegmentation.md).
-- For Receive Segment Coalescence (RSC) offload information, the client driver calls [**NetExtensionGetPacketReceiveSegmentCoalescence**](../rsc/nf-rsc-netextensiongetpacketreceivesegmentcoalescence.md).
+- For Large Send Offload (LSO) information, the client driver calls [**NetExtensionGetPacketLso**](../lso/nf-lso-netextensiongetpacketlso.md).
+- For Receive Segment Coalescence (RSC) offload information, the client driver calls [**NetExtensionGetPacketRsc**](../rsc/nf-rsc-netextensiongetpacketrsc.md).
 
 
 ## -see-aextension
@@ -79,6 +79,6 @@ Client drivers should not call this method directly. Instead, they should call t
 
 [**NetExtensionGetPacketChecksum**](../checksum/nf-checksum-netextensiongetpacketchecksum.md)
 
-[**NetExtensionGetPacketLargeSendSegmentation**](../lso/nf-lso-netextensiongetpacketlargesendsegmentation.md)
+[**NetExtensionGetPacketLso**](../lso/nf-lso-netextensiongetpacketlso.md)
 
-[**NetExtensionGetPacketReceiveSegmentCoalescence**](../rsc/nf-rsc-netextensiongetpacketreceivesegmentcoalescence.md)
+[**NetExtensionGetPacketRsc**](../rsc/nf-rsc-netextensiongetpacketrsc.md)
