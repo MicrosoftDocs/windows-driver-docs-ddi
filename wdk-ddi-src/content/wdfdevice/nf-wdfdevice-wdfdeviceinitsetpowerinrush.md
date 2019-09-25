@@ -90,16 +90,9 @@ Calling <b>WdfDeviceInitSetPowerInrush</b> from a filter driver has no effect. F
 
 The following code example informs the power manager that a device requires an inrush of current when it starts.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WdfDeviceInitSetPowerInrush(DeviceInit);</pre>
-</td>
-</tr>
-</table></span></div>
+```cpp
+WdfDeviceInitSetPowerInrush(DeviceInit);
+```
 
 
 

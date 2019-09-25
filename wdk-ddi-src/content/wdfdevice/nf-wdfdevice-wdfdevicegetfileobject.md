@@ -91,13 +91,8 @@ For more information about framework file objects, see <a href="https://docs.mic
 
 The following code example obtains a pointer to a named WDM device object and its corresponding WDM file object, if the requested access to the objects can be granted. Then, the example obtains a handle to the framework file object that is associated with the WDM file object.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>PFILE_OBJECT  pWdmFileObject = NULL;
+```cpp
+PFILE_OBJECT  pWdmFileObject = NULL;
 PDEVICE_OBJECT  pWdmDeviceObject = NULL;
 WDFFILEOBJECT  fileObject = NULL;
 NTSTATUS  status = STATUS_SUCCESS;
@@ -121,10 +116,8 @@ fileObject = WdfDeviceGetFileObject(
                                     );
 if(fileObject == NULL){
     success = FALSE;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

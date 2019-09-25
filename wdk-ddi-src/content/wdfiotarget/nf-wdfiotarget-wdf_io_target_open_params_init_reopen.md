@@ -87,13 +87,8 @@ For more information about I/O targets, see <a href="https://docs.microsoft.com/
 
 The following code example is a segment of an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfiotarget/nc-wdfiotarget-evt_wdf_io_target_remove_canceled">EvtIoTargetRemoveCanceled</a> callback function that reopens a remote I/O target.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VOID
+```cpp
+VOID
 MyEvtIoTargetRemoveCanceled(
     WDFIOTARGET IoTarget
     )
@@ -108,10 +103,8 @@ MyEvtIoTargetRemoveCanceled(
                              &openParams
                              );
 ...
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

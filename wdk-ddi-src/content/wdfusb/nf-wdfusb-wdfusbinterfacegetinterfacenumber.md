@@ -92,18 +92,11 @@ For more information about the <b>WdfUsbInterfaceGetInterfaceNumber</b> method a
 
 The following code example obtains the interface number of a specified USB interface object.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>BYTE interfaceNumber; 
+```cpp
+BYTE interfaceNumber; 
 
-interfaceNumber = WdfUsbInterfaceGetInterfaceNumber(UsbInterface);</pre>
-</td>
-</tr>
-</table></span></div>
+interfaceNumber = WdfUsbInterfaceGetInterfaceNumber(UsbInterface);
+```
 
 
 

@@ -115,13 +115,8 @@ To initialize a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi
 
 The following code example initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfusb/ns-wdfusb-_wdf_usb_device_select_config_params">WDF_USB_DEVICE_SELECT_CONFIG_PARAMS</a> structure and then calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfusb/nf-wdfusb-wdfusbtargetdeviceselectconfig">WdfUsbTargetDeviceSelectConfig</a> to deconfigure a device.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDF_USB_DEVICE_SELECT_CONFIG_PARAMS configParams;
+```cpp
+WDF_USB_DEVICE_SELECT_CONFIG_PARAMS configParams;
 NTSTATUS status;
 
 WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_DECONFIG(&configParams);
@@ -129,10 +124,8 @@ Status = WdfUsbTargetDeviceSelectConfig(
                                         UsbDevice,
                                         WDF_NO_OBJECT_ATTRIBUTES,
                                         &configParams
-                                        );</pre>
-</td>
-</tr>
-</table></span></div>
+                                        );
+```
 
 
 

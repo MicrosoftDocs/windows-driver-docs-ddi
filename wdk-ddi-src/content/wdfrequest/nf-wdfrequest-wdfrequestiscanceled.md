@@ -109,21 +109,14 @@ For more information about <b>WdfRequestIsCanceled</b>, see <a href="https://doc
 
 The following code example calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfrequest/nf-wdfrequest-wdfrequestcomplete">WdfRequestComplete</a> if <b>WdfRequestIsCanceled</b> returns <b>TRUE</b>.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>if (WdfRequestIsCanceled(request)) {
+```cpp
+if (WdfRequestIsCanceled(request)) {
     WdfRequestComplete(
                        request,
                        STATUS_CANCELLED
                        );
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

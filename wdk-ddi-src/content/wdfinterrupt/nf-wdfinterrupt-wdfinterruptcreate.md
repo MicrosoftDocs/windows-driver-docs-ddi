@@ -223,13 +223,8 @@ For more information about handling interrupts in framework-based drivers, see <
 
 The following code example initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfinterrupt/ns-wdfinterrupt-_wdf_interrupt_config">WDF_INTERRUPT_CONFIG</a> structure and a WDF_OBJECT_ATTRIBUTES structure and then calls <b>WdfInterruptCreate</b>.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS  status;
+```cpp
+NTSTATUS  status;
 WDF_INTERRUPT_CONFIG  interruptConfig;
 WDF_OBJECT_ATTRIBUTES  interruptAttributes;
 
@@ -247,10 +242,8 @@ status = WdfInterruptCreate(
                             &interruptConfig,
                             &interruptAttributes,
                             &devExt->WdfInterrupt
-                            );</pre>
-</td>
-</tr>
-</table></span></div>
+                            );
+```
 
 
 

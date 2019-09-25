@@ -116,13 +116,8 @@ If the device is removed unexpectedly (surprise-removed), the framework removes 
 
 The following code example from a KMDF driver creates an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/ms-dos-device-names">MS-DOS device name</a> that an application can use to access a device.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>#define DOS_DEVICE_NAME  L"\\DosDevices\\MyDevice"
+```cpp
+#define DOS_DEVICE_NAME  L"\\DosDevices\\MyDevice"
 DECLARE_CONST_UNICODE_STRING(dosDeviceName, DOS_DEVICE_NAME);
 NTSTATUS  status;
 
@@ -132,19 +127,12 @@ status = WdfDeviceCreateSymbolicLink(
                                      );
 if (!NT_SUCCESS(status)) {
     goto Error;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 A UMDF driver must provide a symbolic link name in the global <b>DosDevices</b> namespace, as the following code example illustrates.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>#define DOS_DEVICE_NAME  L"\\DosDevices\\Global\\MyDevice"
+```cpp
+#define DOS_DEVICE_NAME  L"\\DosDevices\\Global\\MyDevice"
 DECLARE_CONST_UNICODE_STRING(dosDeviceName, DOS_DEVICE_NAME);
 NTSTATUS  status;
 
@@ -154,10 +142,8 @@ status = WdfDeviceCreateSymbolicLink(
                                      );
 if (!NT_SUCCESS(status)) {
     goto Error;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 For information about global and local <b>\DosDevices</b> namespaces, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/local-and-global-ms-dos-device-names">Local and Global MS-DOS Device Names</a>.
 
 

@@ -97,13 +97,8 @@ For more information about resource lists, see <a href="https://docs.microsoft.c
 
 The following code example searches for port resource descriptors in a device's resource lists. For each port resource that the example finds, it checks to see if the port address is within a certain range. If the port address is outside of the range, the example removes the descriptor from both the <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/raw-and-translated-resources">raw and translated resource lists</a>.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS
+```cpp
+NTSTATUS
 MyEvtDeviceRemoveAddedResources(
     WDFDEVICE Device,
     WDFCMRESLIST ResourcesRaw,
@@ -144,10 +139,8 @@ MyEvtDeviceRemoveAddedResources(
             break;
         }
     }
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

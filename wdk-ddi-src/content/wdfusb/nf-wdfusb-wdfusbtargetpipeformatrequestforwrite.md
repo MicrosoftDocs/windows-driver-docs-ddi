@@ -222,13 +222,8 @@ For more information about the <b>WdfUsbTargetPipeFormatRequestForWrite</b> meth
 
 The following code example is from the <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/sample-kmdf-drivers">kmdf_fx2</a> sample driver. This example is an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfio/nc-wdfio-evt_wdf_io_queue_io_write">EvtIoWrite</a> callback function that forwards a write request to a USB pipe. The example calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfrequest/nf-wdfrequest-wdfrequestretrieveinputmemory">WdfRequestRetrieveInputMemory</a> to obtain the request's input buffer, and then it formats the write request so that the request can be sent to a USB pipe. Next, the example registers a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfrequest/nc-wdfrequest-evt_wdf_request_completion_routine">CompletionRoutine</a> callback function. Finally, it sends the request to the USB pipe.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VOID 
+```cpp
+VOID 
 OsrFxEvtIoWrite(
     IN WDFQUEUE  Queue,
     IN WDFREQUEST  Request,
@@ -291,10 +286,8 @@ Exit:
                                           );
     }
     return;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

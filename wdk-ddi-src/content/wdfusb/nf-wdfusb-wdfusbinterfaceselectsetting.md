@@ -144,13 +144,8 @@ For more information about the <b>WdfUsbInterfaceSelectSetting</b> method and US
 
 The following code example initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure with attributes for the pipe objects that the framework will create. Then, the example initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfusb/ns-wdfusb-_wdf_usb_interface_select_setting_params">WDF_USB_INTERFACE_SELECT_SETTING_PARAMS</a> structure to specify alternate setting 1. Finally, the example calls <b>WdfUsbInterfaceSelectSetting</b> to select the alternate setting and create pipe objects for the interface's pipes.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDF_OBJECT_ATTRIBUTES  pipesAttributes;
+```cpp
+WDF_OBJECT_ATTRIBUTES  pipesAttributes;
 WDF_USB_INTERFACE_SELECT_SETTING_PARAMS  selectSettingParams;
 NTSTATUS  Status;
 
@@ -169,10 +164,8 @@ Status = WdfUsbInterfaceSelectSetting(
                                       UsbInterface,
                                       &pipesAttributes,
                                       &selectSettingParams
-                                      );</pre>
-</td>
-</tr>
-</table></span></div>
+                                      );
+```
 
 
 

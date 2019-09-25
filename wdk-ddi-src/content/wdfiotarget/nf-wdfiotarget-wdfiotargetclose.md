@@ -100,13 +100,8 @@ For more information about I/O targets, see <a href="https://docs.microsoft.com/
 
 The following code example is an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfiotarget/nc-wdfiotarget-evt_wdf_io_target_remove_complete">EvtIoTargetRemoveComplete</a> callback function that removes a specified I/O target from a driver's collection of I/O targets and then closes the I/O target.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VOID
+```cpp
+VOID
 MyEvtIoTargetRemoveComplete(
     WDFIOTARGET IoTarget
 )
@@ -137,10 +132,8 @@ MyEvtIoTargetRemoveComplete(
     // Close the target.
     //
     WdfIoTargetClose(IoTarget);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

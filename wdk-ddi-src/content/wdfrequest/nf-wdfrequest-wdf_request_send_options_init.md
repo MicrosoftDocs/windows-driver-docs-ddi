@@ -88,13 +88,8 @@ The <b>WDF_REQUEST_SEND_OPTIONS_INIT</b> function zeros the specified <a href="h
 
 The following code example initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfrequest/ns-wdfrequest-_wdf_request_send_options">WDF_REQUEST_SEND_OPTIONS</a> structure and then calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfrequest/nf-wdfrequest-wdfrequestsend">WdfRequestSend</a>.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDF_REQUEST_SEND_OPTIONS options;
+```cpp
+WDF_REQUEST_SEND_OPTIONS options;
 BOOLEAN ret;
 
 WDF_REQUEST_SEND_OPTIONS_INIT(
@@ -106,10 +101,8 @@ ret = WdfRequestSend(
                      Request,
                      Target,
                      &options
-                     );</pre>
-</td>
-</tr>
-</table></span></div>
+                     );
+```
 
 
 

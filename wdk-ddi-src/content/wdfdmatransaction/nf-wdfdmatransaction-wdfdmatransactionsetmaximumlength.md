@@ -107,19 +107,12 @@ For information about initializing a DMA transaction, see <a href="https://docs.
 
 The following code example sets the maximum transfer length to a driver-defined value, for a specified DMA transaction.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WdfDmaTransactionSetMaximumLength(
+```cpp
+WdfDmaTransactionSetMaximumLength(
                                  dmaTransaction,
                                  MAX_TRANSFER_LENGTH/2,
-                                 );</pre>
-</td>
-</tr>
-</table></span></div>
+                                 );
+```
 
 
 

@@ -101,29 +101,17 @@ For more information about I/O targets, see <a href="https://docs.microsoft.com/
 
 The following code example obtains a handle to the file that is associated with a specified remote I/O target.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>HANDLE h;
+```cpp
+HANDLE h;
 
-h = WdfIoTargetWdmGetTargetFileHandle(IoTarget);</pre>
-</td>
-</tr>
-</table></span></div>
+h = WdfIoTargetWdmGetTargetFileHandle(IoTarget);
+```
 A legacy UMDF driver (version 1.<i>x</i>)  calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfdevice-retrievedevicename">IWDFDevice::RetrieveDeviceName</a> to get the name of the underlying kernel-mode device and then open a handle to it with <b>CreateFile</b>. The driver then sends I/O directly to the device using <b>DeviceIoControl</b>.
 
 Starting in UMDF 2.15, the driver opens the local I/O target by file and retrieves its handle. The framework opens and closes the file handle. The file handle remains valid within the contract of <b>WdfIoTargetWdmGetTargetFileHandle</b>.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS status;
+```cpp
+NTSTATUS status;
 
 WDF_IO_TARGET_OPEN_PARAMS params;
 
@@ -162,10 +150,8 @@ if (ioTarget != NULL) {
 }
 // You can now call DeviceIoControl(handle, ...) etc.
 // NOTE: See Warning above on submitting overlapped or asynchronous I/O
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 
 
 

@@ -98,13 +98,8 @@ In KMDF 1.11 and later, a driver can call <b>WdfInterruptQueueDpcForIsr</b> from
 
 The following code example shows how an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_isr">EvtInterruptIsr</a> callback function should queue an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_dpc">EvtInterruptDpc</a> callback function.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>BOOLEAN
+```cpp
+BOOLEAN
 MyEvtInterruptIsr(
     IN WDFINTERRUPT Interrupt,
     IN ULONG  MessageID
@@ -122,10 +117,8 @@ MyEvtInterruptIsr(
     //
     queueDpcSuccess = WdfInterruptQueueDpcForIsr(Interrupt);
 ...
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

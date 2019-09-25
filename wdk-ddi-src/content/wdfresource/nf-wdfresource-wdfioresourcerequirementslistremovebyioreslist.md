@@ -95,13 +95,8 @@ For more information about resource requirements lists, see <a href="https://doc
 
 The following code example searches the logical configurations in a device's resource requirements list to find a configuration that contains a specific port address. If the example finds that configuration, it removes the configuration.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS
+```cpp
+NTSTATUS
 Example_EvtDeviceFilterRemoveResourceRequirements(
     IN WDFDEVICE Device,
     IN WDFIORESREQLIST RequirementsList
@@ -159,10 +154,8 @@ Example_EvtDeviceFilterRemoveResourceRequirements(
         }
     }
 ...
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

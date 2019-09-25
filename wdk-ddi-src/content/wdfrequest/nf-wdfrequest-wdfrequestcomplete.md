@@ -127,13 +127,8 @@ For more information about calling <b>WdfRequestComplete</b>, see <a href="https
 
 The following code example is a section of a request handler. The request handler accepts only read and write requests, and it completes a each request with an error status if the request type is not read or write.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VOID
+```cpp
+VOID
 MyEvtIoDefault(
     IN WDFQUEUE  Queue,
     IN WDFREQUEST  Request
@@ -170,10 +165,8 @@ MyEvtIoDefault(
             return;
     }
 ...
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

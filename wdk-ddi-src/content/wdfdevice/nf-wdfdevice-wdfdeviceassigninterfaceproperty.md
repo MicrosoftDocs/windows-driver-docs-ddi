@@ -127,13 +127,8 @@ For information about related methods, see <a href="https://docs.microsoft.com/w
 
 The following code example initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/ns-wdfdevice-_wdf_device_interface_property_data">WDF_DEVICE_INTERFACE_PROPERTY_DATA</a> structure and then calls <b>WdfDeviceAssignInterfaceProperty</b>.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>DEFINE_DEVPROPKEY(DEVPKEY_ToasterCrispLevelDword, 0x5d0ba64a, 0x2396, 0x4bc9, 0xbf, 0x49, 0x52, 0x1d, 0xa6, 0x2b, 0x1b, 0xed, 3);  // DEVPROP_TYPE_UINT32
+```cpp
+DEFINE_DEVPROPKEY(DEVPKEY_ToasterCrispLevelDword, 0x5d0ba64a, 0x2396, 0x4bc9, 0xbf, 0x49, 0x52, 0x1d, 0xa6, 0x2b, 0x1b, 0xed, 3);  // DEVPROP_TYPE_UINT32
 
 ULONG crispLevel = 0;
 WDF_DEVICE_INTERFACE_PROPERTY_DATA propertyData;
@@ -152,10 +147,8 @@ status = WdfDeviceAssignInterfaceProperty(device,
 if (!NT_SUCCESS(status)) {
     return status;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 
 
 

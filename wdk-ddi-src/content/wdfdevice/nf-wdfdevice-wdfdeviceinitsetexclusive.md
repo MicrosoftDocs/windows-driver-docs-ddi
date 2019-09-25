@@ -96,19 +96,12 @@ For more information about calling <a href="https://docs.microsoft.com/windows-h
 
 The following code example indicates that a device is an exclusive device.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WdfDeviceInitSetExclusive(
+```cpp
+WdfDeviceInitSetExclusive(
                           DeviceInit,
                           TRUE
-                          );</pre>
-</td>
-</tr>
-</table></span></div>
+                          );
+```
 
 
 

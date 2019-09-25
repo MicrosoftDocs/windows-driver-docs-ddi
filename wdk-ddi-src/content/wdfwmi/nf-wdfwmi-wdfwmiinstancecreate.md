@@ -173,13 +173,8 @@ If the <b>Register</b> member of the <a href="https://docs.microsoft.com/windows
 
 The following code example is from the <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/sample-kmdf-drivers">PCIDRV</a> sample driver. This example registers a MOF resource name for a device, initializes a WDF_WMI_PROVIDER_CONFIG structure and a WDF_WMI_INSTANCE_CONFIG structure, and calls <b>WdfWmiInstanceCreate</b>.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS
+```cpp
+NTSTATUS
 PciDrvWmiRegistration(
     WDFDEVICE  Device
     )
@@ -220,10 +215,8 @@ PciDrvWmiRegistration(
         return status;
     }
     return status;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

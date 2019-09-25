@@ -99,18 +99,11 @@ For more information about <b>WdfDeviceSetFailed</b>, see <a href="https://docs.
 
 The following code example informs the framework that a failure has occurred. If the specified device's drivers are not supporting other devices, the framework will unload the drivers and then attempt to reload them.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WdfDeviceSetFailed(
+```cpp
+WdfDeviceSetFailed(
                    device,
                    WdfDeviceFailedAttemptRestart
-                   );</pre>
-</td>
-</tr>
-</table></span></div>
+                   );
+```
 
 

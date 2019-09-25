@@ -177,13 +177,8 @@ For more information about registry-key objects, see <a href="https://docs.micro
 
 The following code example retrieves the data that is currently assigned to the <b>NumberOfThings</b> value.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS  status;
+```cpp
+NTSTATUS  status;
 ULONG  value;
 DECLARE_CONST_UNICODE_STRING(valueName, L"NumberOfThings");
 
@@ -191,10 +186,8 @@ status = WdfRegistryQueryULong(
                                hKey,
                                &valueName,
                                &value
-                               );</pre>
-</td>
-</tr>
-</table></span></div>
+                               );
+```
 
 
 

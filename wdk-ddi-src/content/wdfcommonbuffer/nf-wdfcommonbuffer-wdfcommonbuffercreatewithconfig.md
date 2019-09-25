@@ -163,13 +163,8 @@ For more information about common buffers, see <a href="https://docs.microsoft.c
 
 The following code example initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfcommonbuffer/ns-wdfcommonbuffer-_wdf_common_buffer_config">WDF_COMMON_BUFFER_CONFIG</a> structure and then creates a 10-byte buffer that is aligned on a 32-byte boundary.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDF_COMMON_BUFFER_CONFIG  commonBufConfig;
+```cpp
+WDF_COMMON_BUFFER_CONFIG  commonBufConfig;
 WDFCOMMONBUFFER  commonBuffer;
 
 WDF_COMMON_BUFFER_CONFIG_INIT(
@@ -186,10 +181,8 @@ status = WdfCommonBufferCreateWithConfig(
                                          );
 if (!NT_SUCCESS (status)) {
     return status;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

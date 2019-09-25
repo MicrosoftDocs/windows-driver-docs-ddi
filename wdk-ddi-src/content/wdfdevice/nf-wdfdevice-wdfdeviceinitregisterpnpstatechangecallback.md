@@ -131,21 +131,14 @@ For more information about <b>WdfDeviceInitRegisterPnpStateChangeCallback</b>, s
 
 The following code example registers an event callback function that the framework will call when the device's Plug and Play state machine changes state.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>status = WdfDeviceInitRegisterPnpStateChangeCallback(
+```cpp
+status = WdfDeviceInitRegisterPnpStateChangeCallback(
                                                      DeviceInit,
                                                      WdfDevStatePnpEjectFailed,
                                                      MyDrvPnPStateChangeCallback,
                                                      StateNotificationAllStates
-                                                     );</pre>
-</td>
-</tr>
-</table></span></div>
+                                                     );
+```
 
 
 

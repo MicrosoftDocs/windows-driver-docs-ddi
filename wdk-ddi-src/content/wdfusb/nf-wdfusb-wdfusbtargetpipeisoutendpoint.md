@@ -90,18 +90,11 @@ For more information about the <b>WdfUsbTargetPipeIsOutEndpoint</b> method and U
 
 The following code example determines whether a specified USB pipe is connected to an output endpoint.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>BOOLEAN isOutEndPoint;
+```cpp
+BOOLEAN isOutEndPoint;
 
-isOutEndPoint = WdfUsbTargetPipeIsOutEndpoint(usbPipe);</pre>
-</td>
-</tr>
-</table></span></div>
+isOutEndPoint = WdfUsbTargetPipeIsOutEndpoint(usbPipe);
+```
 
 
 

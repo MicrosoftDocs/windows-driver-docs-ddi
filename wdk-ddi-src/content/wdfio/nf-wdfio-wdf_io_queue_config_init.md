@@ -90,13 +90,8 @@ Starting in KMDF version 1.9, if <i>DispatchType</i> is set to <b>WdfIoQueueDisp
 
 The following code example initializes <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfio/ns-wdfio-_wdf_io_queue_config">WDF_IO_QUEUE_CONFIG</a> structure and then calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfio/nf-wdfio-wdfioqueuecreate">WdfIoQueueCreate</a>.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDF_IO_QUEUE_CONFIG  queueConfig;
+```cpp
+WDF_IO_QUEUE_CONFIG  queueConfig;
 NTSTATUS  status = STATUS_SUCCESS;
 WDFQUEUE  readQueue;
 
@@ -109,10 +104,8 @@ status = WdfIoQueueCreate(
                           &queueConfig,
                           WDF_NO_OBJECT_ATTRIBUTES,
                           &readQueue
-                          );</pre>
-</td>
-</tr>
-</table></span></div>
+                          );
+```
 
 
 

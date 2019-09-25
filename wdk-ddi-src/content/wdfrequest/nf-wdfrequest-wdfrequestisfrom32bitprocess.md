@@ -90,13 +90,8 @@ The specified request handle must have been obtained from one of the driver's I/
 
 The following code example determines if an I/O request came from a 32-bit application.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VOID
+```cpp
+VOID
 MyEvtIoRead(
     IN WDFQUEUE  Queue,
     IN WDFREQUEST  Request,
@@ -112,10 +107,8 @@ MyEvtIoRead(
 ...
     }
 ...
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

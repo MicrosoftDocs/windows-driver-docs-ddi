@@ -189,13 +189,8 @@ Calls <b>WdfRequestProbeAndLockUserBufferForRead</b> and <a href="https://docs.m
 
 </li>
 </ol>
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VOID
+```cpp
+VOID
 NonPnpEvtIoInCallerContext(
     IN WDFDEVICE  Device,
     IN WDFREQUEST Request
@@ -312,10 +307,8 @@ End:
                        status
                        );
     return;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

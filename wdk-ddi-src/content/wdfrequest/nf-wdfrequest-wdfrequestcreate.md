@@ -154,13 +154,8 @@ For more information about calling <b>WdfRequestCreate</b>, see <a href="https:/
 
 The following code example creates an I/O target object, initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure, and calls <b>WdfRequestCreate</b>. The new request object's parent is the I/O target object.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDF_OBJECT_ATTRIBUTES  attributes;
+```cpp
+WDF_OBJECT_ATTRIBUTES  attributes;
 WDFREQUEST newRequest;
 WDFIOTARGET ioTarget;
 ...
@@ -181,10 +176,8 @@ status = WdfRequestCreate(
 
 if (!NT_SUCCESS(status)) {
     return status;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

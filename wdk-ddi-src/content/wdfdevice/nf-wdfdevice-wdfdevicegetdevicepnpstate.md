@@ -89,18 +89,11 @@ For more information about the framework's state machines, see <a href="https://
 
 The following code example obtains the current state of the framework's Plug and Play state machine for a specified device.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDF_DEVICE_PNP_STATE state;
+```cpp
+WDF_DEVICE_PNP_STATE state;
 
-state = WdfDeviceGetDevicePnpState(Device);</pre>
-</td>
-</tr>
-</table></span></div>
+state = WdfDeviceGetDevicePnpState(Device);
+```
 
 
 

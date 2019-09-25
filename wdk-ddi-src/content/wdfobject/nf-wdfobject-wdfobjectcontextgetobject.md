@@ -87,18 +87,11 @@ For more information about the cleanup rules for a framework object hierarchy, s
 
 The following code example obtains a handle to the framework object that a specified context space belongs to.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDFDEVICE  device;
+```cpp
+WDFDEVICE  device;
 
-device = WdfObjectContextGetObject(DeviceContext);</pre>
-</td>
-</tr>
-</table></span></div>
+device = WdfObjectContextGetObject(DeviceContext);
+```
 
 
 

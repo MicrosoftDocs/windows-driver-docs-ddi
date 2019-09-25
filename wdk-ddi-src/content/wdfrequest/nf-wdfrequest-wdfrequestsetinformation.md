@@ -97,13 +97,8 @@ For more information about <b>WdfRequestSetInformation</b>, see <a href="https:/
 
 The following code example sets request completion information that is based on the value of the I/O control code that an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfio/nc-wdfio-evt_wdf_io_queue_io_device_control">EvtIoDeviceControl</a> callback function receives.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VOID
+```cpp
+VOID
 MyEvtIoDeviceControl(
     IN WDFQUEUE  Queue,
     IN WDFREQUEST  Request,
@@ -142,10 +137,8 @@ MyEvtIoDeviceControl(
                        Request,
                        status
                        );
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

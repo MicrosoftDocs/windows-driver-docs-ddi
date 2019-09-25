@@ -93,22 +93,15 @@ For more information, see <a href="https://docs.microsoft.com/windows-hardware/d
 
 The following code example removes the device that the <b>pPhysicalDeviceObject</b> structure represents from the list of devices that are ejected when the device that <b>device</b> specifies is ejected.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>PDEVICE_OBJECT  pPhysicalDeviceObject;
+```cpp
+PDEVICE_OBJECT  pPhysicalDeviceObject;
 NTSTATUS  status;
 ...
 status = WdfPdoRemoveEjectionRelationsPhysicalDevice(
                                                      device,
                                                      pPhysicalDeviceObject
-                                                     );</pre>
-</td>
-</tr>
-</table></span></div>
+                                                     );
+```
 
 
 

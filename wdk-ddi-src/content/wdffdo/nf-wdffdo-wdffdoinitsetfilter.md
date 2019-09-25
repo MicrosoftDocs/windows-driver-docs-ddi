@@ -102,16 +102,9 @@ For more information about <b>WdfFdoInitSetFilter</b>, see <a href="https://docs
 
 The following code example identifies the calling driver as a filter driver for the specified device.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WdfFdoInitSetFilter(DeviceInit);</pre>
-</td>
-</tr>
-</table></span></div>
+```cpp
+WdfFdoInitSetFilter(DeviceInit);
+```
 
 
 

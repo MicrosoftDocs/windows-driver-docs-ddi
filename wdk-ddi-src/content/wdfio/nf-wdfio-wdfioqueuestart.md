@@ -92,21 +92,14 @@ For more information about the <b>WdfIoQueueStart</b> method, see <a href="https
 
 The following code example purges a specified I/O queue and then restarts the queue.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WdfIoQueuePurge(
+```cpp
+WdfIoQueuePurge(
                 ReadQueue, 
                 WDF_NO_EVENT_CALLBACK, 
                 WDF_NO_CONTEXT
                 );
-WdfIoQueueStart(ReadQueue);</pre>
-</td>
-</tr>
-</table></span></div>
+WdfIoQueueStart(ReadQueue);
+```
 
 
 

@@ -184,13 +184,8 @@ For more information about I/O targets, see <a href="https://docs.microsoft.com/
 
 The following example creates an I/O target object, initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfiotarget/ns-wdfiotarget-_wdf_io_target_open_params">WDF_IO_TARGET_OPEN_PARAMS</a> structure, and opens a remote I/O target by specifying a device's symbolic link name.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDF_OBJECT_ATTRIBUTES  ioTargetAttrib;
+```cpp
+WDF_OBJECT_ATTRIBUTES  ioTargetAttrib;
 WDFIOTARGET  ioTarget;
 WDF_IO_TARGET_OPEN_PARAMS  openParams;
 
@@ -218,10 +213,8 @@ status = WdfIoTargetOpen(
 if (!NT_SUCCESS(status)) {
     WdfObjectDelete(ioTarget);
     return status;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

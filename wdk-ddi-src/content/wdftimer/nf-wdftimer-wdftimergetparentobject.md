@@ -88,13 +88,8 @@ For more information about framework timer objects, see <a href="https://docs.mi
 
 The following code example shows now an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdftimer/nc-wdftimer-evt_wdf_timer">EvtTimerFunc</a> callback function can obtain a timer object's parent. In this example, the driver previously specified that the timer object's parent is a queue object.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VOID
+```cpp
+VOID
 MyEvtTimerFunc(
     IN WDFTIMER  Timer
     )
@@ -103,10 +98,8 @@ MyEvtTimerFunc(
 
     queue = WdfTimerGetParentObject(Timer);
 ...
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

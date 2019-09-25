@@ -147,13 +147,8 @@ Framework-based drivers define interfaces by calling <a href="https://docs.micro
 
 The following code example attempts to gain access to a specified remote I/O target's interface. GUID_RAWPDO_INTERFACE_STANDARD is the GUID that identifies the interface.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS status;
+```cpp
+NTSTATUS status;
 RAWPDO_INTERFACE_STANDARD busInterface;
 
 status = WdfIoTargetQueryForInterface(
@@ -166,10 +161,8 @@ status = WdfIoTargetQueryForInterface(
                                       );
 if (!NT_SUCCESS (status)){
     return status;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

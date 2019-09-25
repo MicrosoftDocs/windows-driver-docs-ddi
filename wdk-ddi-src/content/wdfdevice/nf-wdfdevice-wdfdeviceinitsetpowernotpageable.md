@@ -94,16 +94,9 @@ For more information about calling <a href="https://docs.microsoft.com/windows-h
 
 The following code example informs the power manager that a driver will not access pageable data while the system is transitioning between a sleeping state and the working (S0) state.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WdfDeviceInitSetPowerNotPageable(DeviceInit);</pre>
-</td>
-</tr>
-</table></span></div>
+```cpp
+WdfDeviceInitSetPowerNotPageable(DeviceInit);
+```
 
 
 

@@ -135,13 +135,8 @@ If a driver calls <b>WdfRequestStopAcknowledge</b> with <i>Requeue</i> set to <b
 
 The following code example is an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfio/nc-wdfio-evt_wdf_io_queue_io_stop">EvtIoStop</a> callback function that checks to see if a received request is cancelable and, if it is, calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfrequest/nf-wdfrequest-wdfrequestunmarkcancelable">WdfRequestUnmarkCancelable</a>. If <b>WdfRequestUnmarkCancelable</b> returns STATUS_CANCELLED, the example just returns because the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfrequest/nc-wdfrequest-evt_wdf_request_cancel">EvtRequestCancel</a> callback function will handle the request. Otherwise, the example calls <b>WdfRequestStopAcknowledge</b> and specifies <b>TRUE</b> so that the framework requeues the request when the underlying device returns to its working (D0) state.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VOID
+```cpp
+VOID
 MyEvtIoStop(
     IN WDFQUEUE  Queue,
     IN WDFREQUEST  Request,
@@ -162,23 +157,16 @@ MyEvtIoStop(
     // Inform framework that driver is postponing processing, cause framework to redeliver request when device returns to D0
 
     WdfRequestStopAcknowledge(Request, TRUE);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 Typically, if a driver calls <b>WdfRequestStopAcknowledge</b> with <i>Requeue</i> set to <b>FALSE</b>, it leaves the request cancelable.
 
 The following code example is an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfio/nc-wdfio-evt_wdf_io_queue_io_stop">EvtIoStop</a> callback function that calls <b>WdfRequestStopAcknowledge</b> and specifies <b>FALSE</b> so that the framework eventually calls the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfio/nc-wdfio-evt_wdf_io_queue_io_resume">EvtIoResume</a> callback function, where the driver resumes processing of the request.
 
 You might use code like this if it is acceptable to halt processing of a specific request and continue it later, rather than having the request redelivered and restarting processing from the beginning.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VOID
+```cpp
+VOID
 MyEvtIoStop(
     IN WDFQUEUE  Queue,
     IN WDFREQUEST  Request,
@@ -192,10 +180,8 @@ MyEvtIoStop(
     // Provide a corresponding EvtIoResume handler to resume processing when power returns
 
     WdfRequestStopAcknowledge(Request, FALSE);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

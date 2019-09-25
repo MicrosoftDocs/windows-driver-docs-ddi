@@ -156,13 +156,8 @@ For more information about registry-key objects, see <a href="https://docs.micro
 
 The following code example assigns hexadecimal 123456 to a registry value as binary data.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>ULONG val;
+```cpp
+ULONG val;
 NTSTATUS status;
 
 val = 0x123456;
@@ -172,10 +167,8 @@ status = WdfRegistryAssignValue(
                                 REG_BINARY,
                                 sizeof(val),
                                 &val
-                                );</pre>
-</td>
-</tr>
-</table></span></div>
+                                );
+```
 
 
 

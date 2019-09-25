@@ -147,18 +147,11 @@ The <b>WdfDeviceGetDevicePowerState</b> method returns a meaningful value only i
 
 The following code example obtains the current state of the framework's power state machine for a specified device.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDF_DEVICE_POWER_STATE state;
+```cpp
+WDF_DEVICE_POWER_STATE state;
 
-state = WdfDeviceGetDevicePowerState(Device);</pre>
-</td>
-</tr>
-</table></span></div>
+state = WdfDeviceGetDevicePowerState(Device);
+```
 
 
 

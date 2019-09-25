@@ -210,33 +210,21 @@ Supply a local buffer
 
 Because <b>WdfUsbTargetDeviceSendControlTransferSynchronously</b> handles I/O requests synchronously, the driver can create request buffers that are local to the calling routine, as shown in the following code example.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDF_MEMORY_DESCRIPTOR  memoryDescriptor;
+```cpp
+WDF_MEMORY_DESCRIPTOR  memoryDescriptor;
 MY_BUFFER_TYPE  myBuffer;
 WDF_MEMORY_DESCRIPTOR_INIT_BUFFER(&memoryDescriptor,
                                   (PVOID) &myBuffer,
-                                  sizeof(myBuffer));</pre>
-</td>
-</tr>
-</table></span></div>
+                                  sizeof(myBuffer));
+```
 </li>
 <li>
 Supply a WDFMEMORY handle
 
 Call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfmemory/nf-wdfmemory-wdfmemorycreate">WdfMemoryCreate</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfmemory/nf-wdfmemory-wdfmemorycreatepreallocated">WdfMemoryCreatePreallocated</a> to obtain a handle to framework-managed memory, as shown in the following code example. 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDF_MEMORY_DESCRIPTOR  memoryDescriptor;
+```cpp
+WDF_MEMORY_DESCRIPTOR  memoryDescriptor;
 WDFMEMORY  memoryHandle = NULL;
 status = WdfMemoryCreate(NULL,
                          NonPagedPool,
@@ -246,10 +234,8 @@ status = WdfMemoryCreate(NULL,
                          NULL);
 WDF_MEMORY_DESCRIPTOR_INIT_HANDLE(&memoryDescriptor,
                                   memoryHandle,
-                                  NULL);</pre>
-</td>
-</tr>
-</table></span></div>
+                                  NULL);
+```
 Alternatively, the driver can call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfrequest/nf-wdfrequest-wdfrequestretrieveinputmemory">WdfRequestRetrieveInputMemory</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfrequest/nf-wdfrequest-wdfrequestretrieveoutputmemory">WdfRequestRetrieveOutputMemory</a> to obtain a handle to a framework memory object that represents a received I/O request's buffer, if you want the driver to pass that buffer's contents to the I/O target. The driver must not complete the received I/O request until the new request that <b>WdfUsbTargetDeviceSendControlTransferSynchronously</b> sends to the I/O target has been deleted, reused, or reformatted. (<b>WdfUsbTargetDeviceSendControlTransferSynchronously</b> increments the memory object's reference count. Deleting, reusing, or reformatting a request object decrements the memory object's reference count.)
 
 </li>
@@ -273,13 +259,8 @@ For more information about the <b>WdfUsbTargetDeviceSendControlTransferSynchrono
 
 The following code example initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfusb/ns-wdfusb-_wdf_usb_control_setup_packet">WDF_USB_CONTROL_SETUP_PACKET</a> structure and then calls <b>WdfUsbTargetDeviceSendControlTransferSynchronously</b> to send a vendor-specific control transfer.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDF_USB_CONTROL_SETUP_PACKET  controlSetupPacket;
+```cpp
+WDF_USB_CONTROL_SETUP_PACKET  controlSetupPacket;
 
 WDF_USB_CONTROL_SETUP_PACKET_INIT_VENDOR(
                                          &controlSetupPacket,
@@ -298,10 +279,8 @@ status = WdfUsbTargetDeviceSendControlTransferSynchronously(
                                          NULL,
                                          NULL
                                          );
-return status;</pre>
-</td>
-</tr>
-</table></span></div>
+return status;
+```
 
 
 

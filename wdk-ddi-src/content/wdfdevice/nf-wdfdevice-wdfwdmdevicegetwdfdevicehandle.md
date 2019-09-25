@@ -84,18 +84,11 @@ The WDM DEVICE_OBJECT structure that the driver specifies for the <i>DeviceObjec
 
 The following code example obtains a handle to the framework device object that is associated with a WDM device object that the calling driver created.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDFDEVICE  device;
+```cpp
+WDFDEVICE  device;
 
-device = WdfWdmDeviceGetWdfDeviceHandle(pWdmDeviceObject);</pre>
-</td>
-</tr>
-</table></span></div>
+device = WdfWdmDeviceGetWdfDeviceHandle(pWdmDeviceObject);
+```
 
 
 

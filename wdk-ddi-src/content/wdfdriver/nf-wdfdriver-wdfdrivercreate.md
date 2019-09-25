@@ -148,13 +148,8 @@ If your driver provides <a href="https://docs.microsoft.com/windows-hardware/dri
 
 The following code example is a <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine that initializes a WDF_DRIVER_CONFIG structure and then creates a framework driver object.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS
+```cpp
+NTSTATUS
 DriverEntry(
     IN PDRIVER_OBJECT  DriverObject,
     IN PUNICODE_STRING  RegistryPath
@@ -184,10 +179,8 @@ DriverEntry(
                     );
     }
     return status;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

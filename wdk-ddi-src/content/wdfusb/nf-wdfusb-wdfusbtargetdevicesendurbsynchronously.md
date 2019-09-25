@@ -183,13 +183,8 @@ For more information about the <b>WdfUsbTargetDeviceSendUrbSynchronously</b> met
 
 The following code example initializes a URB structure and calls <b>WdfUsbTargetDeviceSendUrbSynchronously</b>.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>URB Urb;
+```cpp
+URB Urb;
 NTSTATUS status;
 
 Urb.UrbHeader.Function =  URB_FUNCTION_GET_CONFIGURATION;
@@ -204,10 +199,8 @@ status = WdfUsbTargetDeviceSendUrbSynchronously(
                                                 NULL,
                                                 NULL,
                                                 &Urb
-                                                );</pre>
-</td>
-</tr>
-</table></span></div>
+                                                );
+```
 
 
 

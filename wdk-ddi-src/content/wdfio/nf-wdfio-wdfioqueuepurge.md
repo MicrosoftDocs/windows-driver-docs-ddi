@@ -111,20 +111,13 @@ For more information about the <b>WdfIoQueuePurge</b> method, see <a href="https
 
 The following code example purges an I/O queue and does not call a callback function when all requests that were delivered to the driver have been completed or canceled.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WdfIoQueuePurge(
+```cpp
+WdfIoQueuePurge(
                 ReadQueue, 
                 WDF_NO_EVENT_CALLBACK, 
                 WDF_NO_CONTEXT 
-                );</pre>
-</td>
-</tr>
-</table></span></div>
+                );
+```
 
 
 

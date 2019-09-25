@@ -100,13 +100,8 @@ For more information about resource requirements lists and logical configuration
 
 The following code example initializes a new resource descriptor and then calls <b>WdfIoResourceListUpdateDescriptor</b> to replace the second descriptor in a logical configuration with the new descriptor.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>IO_RESOURCE_DESCRIPTOR newDescriptor;
+```cpp
+IO_RESOURCE_DESCRIPTOR newDescriptor;
 
 RtlZeroMemory(
               &newDescriptor,
@@ -126,10 +121,8 @@ WdfIoResourceListUpdateDescriptor(
                                   Reslist,
                                   &newDescriptor,
                                   1
-                                  );</pre>
-</td>
-</tr>
-</table></span></div>
+                                  );
+```
 
 
 

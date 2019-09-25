@@ -151,13 +151,8 @@ For more information about the <b>WdfUsbTargetDeviceCreate</b> method and USB I/
 
 The following code example is part of an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nc-wdfdevice-evt_wdf_device_prepare_hardware">EvtDevicePrepareHardware</a> callback function that calls <b>WdfUsbTargetDeviceCreate</b>. The example stores the USB device object's handle in driver-defined context space. 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS
+```cpp
+NTSTATUS
 MyEvtDevicePrepareHardware(
     IN WDFDEVICE  Device,
     IN WDFCMRESLIST  ResourceList,
@@ -183,10 +178,8 @@ MyEvtDevicePrepareHardware(
         return status;
     }
 ...
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

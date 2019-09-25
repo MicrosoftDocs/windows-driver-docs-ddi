@@ -131,13 +131,8 @@ For more information about <b>WdfRequestSend</b>, see <a href="https://docs.micr
 
 The following code example is a shortened version of an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfio/nc-wdfio-evt_wdf_io_queue_io_write">EvtIoWrite</a> callback function from the <a href="https://go.microsoft.com/fwlink/p/?linkid=256131">kmdf_fx2</a> sample driver. The function validates the request's buffer length, obtains a handle to the buffer, formats the request for a USB target, and sends the request.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VOID 
+```cpp
+VOID 
 OsrFxEvtIoWrite(
     IN WDFQUEUE  Queue,
     IN WDFREQUEST  Request,
@@ -213,10 +208,8 @@ Exit:
                                           );
     }
     return;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

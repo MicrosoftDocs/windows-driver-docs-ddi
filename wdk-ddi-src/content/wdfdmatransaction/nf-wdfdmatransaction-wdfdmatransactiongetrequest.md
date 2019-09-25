@@ -90,18 +90,11 @@ For more information about completing DMA transfers, see <a href="https://docs.m
 
 The following code example obtains a handle to the framework request object that is associated with a specified DMA transaction.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDFREQUEST  request;
+```cpp
+WDFREQUEST  request;
 
-request = WdfDmaTransactionGetRequest(dmaTransaction);</pre>
-</td>
-</tr>
-</table></span></div>
+request = WdfDmaTransactionGetRequest(dmaTransaction);
+```
 
 
 

@@ -91,16 +91,9 @@ For more information about the <b>WdfWmiInstanceDeregister</b> method, see <a hr
 
 The following code example deregisters a specified instance of a WMI data provider from the system's WMI service.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WdfWmiInstanceDeregister(wmiInstance);</pre>
-</td>
-</tr>
-</table></span></div>
+```cpp
+WdfWmiInstanceDeregister(wmiInstance);
+```
 
 
 

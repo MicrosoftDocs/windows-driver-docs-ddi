@@ -125,19 +125,12 @@ Your driver can call <b>WdfDeviceAddRemovalRelationsPhysicalDevice</b> multiple 
 
 The following code example adds the device that <b>pPdo</b> identifies to the list of devices that must be removed when the device that <b>device</b> specifies is removed.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>status = WdfDeviceAddRemovalRelationsPhysicalDevice(
+```cpp
+status = WdfDeviceAddRemovalRelationsPhysicalDevice(
                                                     device,
                                                     pPdo
-                                                    );</pre>
-</td>
-</tr>
-</table></span></div>
+                                                    );
+```
 
 
 

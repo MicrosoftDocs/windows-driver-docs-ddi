@@ -94,18 +94,11 @@ For more information about I/O targets, see <a href="https://docs.microsoft.com/
 
 The following code example obtains a pointer to the WDM file object that is associated with a remote I/O target.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>PFILE_OBJECT pfileObject;
+```cpp
+PFILE_OBJECT pfileObject;
 
-pfileObject = WdfIoTargetWdmGetTargetFileObject(IoTarget);</pre>
-</td>
-</tr>
-</table></span></div>
+pfileObject = WdfIoTargetWdmGetTargetFileObject(IoTarget);
+```
 
 
 

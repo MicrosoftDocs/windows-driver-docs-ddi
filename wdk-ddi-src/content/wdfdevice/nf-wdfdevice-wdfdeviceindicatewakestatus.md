@@ -138,20 +138,13 @@ For more information about calling the <b>WdfDeviceIndicateWakeStatus</b> method
 
 The following code example informs the framework that the specified device has triggered a wake signal.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS  status;
+```cpp
+NTSTATUS  status;
 
 status = WdfDeviceIndicateWakeStatus(
                                      hChild,
                                      STATUS_SUCCESS
-                                     );</pre>
-</td>
-</tr>
-</table></span></div>
+                                     );
+```
 
 

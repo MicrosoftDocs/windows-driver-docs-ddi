@@ -171,13 +171,8 @@ For more information about the <b>WdfUsbTargetDeviceSelectConfig</b> method and 
 
 The following code example selects a configuration with a single, specified  interface. 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDF_USB_DEVICE_SELECT_CONFIG_PARAMS  configParams;
+```cpp
+WDF_USB_DEVICE_SELECT_CONFIG_PARAMS  configParams;
 NTSTATUS  status;
 
 WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_SINGLE_INTERFACE(&configParams);
@@ -186,19 +181,12 @@ status = WdfUsbTargetDeviceSelectConfig(
                                         UsbDevice,
                                         WDF_NO_OBJECT_ATTRIBUTES,
                                         &configParams
-                                        );</pre>
-</td>
-</tr>
-</table></span></div>
+                                        );
+```
 The following code example selects a configuration with multiple interfaces, using alternate setting zero on all interfaces. This example applies only to KMDF drivers.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDF_USB_DEVICE_SELECT_CONFIG_PARAMS  configParams;
+```cpp
+WDF_USB_DEVICE_SELECT_CONFIG_PARAMS  configParams;
 PWDF_USB_INTERFACE_SETTING_PAIR settingPairs;
 UCHAR numInterfaces;
 NTSTATUS  status;
@@ -245,10 +233,8 @@ if (!NT_SUCCESS(status)) {
         MY_DRIVER_TAG
     );
     return status;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

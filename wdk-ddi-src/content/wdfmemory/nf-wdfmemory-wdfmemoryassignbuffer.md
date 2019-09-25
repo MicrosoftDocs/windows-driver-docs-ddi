@@ -125,13 +125,8 @@ For more information about framework memory objects, see <a href="https://docs.m
 
 The following code example allocates a buffer and then assigns the buffer to a framework memory object.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>PVOID  pNewBuffer = NULL;
+```cpp
+PVOID  pNewBuffer = NULL;
 
 pNewBuffer = ExAllocatePoolWithTag(
                                    NonPagedPool,
@@ -146,10 +141,8 @@ status = WdfMemoryAssignBuffer(
                                memHandle,
                                pNewBuffer,
                                NEW_BUFFER_SIZE
-                               );</pre>
-</td>
-</tr>
-</table></span></div>
+                               );
+```
 
 
 

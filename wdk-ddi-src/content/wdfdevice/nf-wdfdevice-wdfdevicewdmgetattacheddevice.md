@@ -86,23 +86,16 @@ The pointer that the <b>WdfDeviceWdmGetAttachedDevice</b> method returns is vali
 
 The following code example creates a tracing message that contains pointers to the WDM device objects that represent a device's PDO, FDO, and next-lower device.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>TraceEvents(
+```cpp
+TraceEvents(
             TRACE_LEVEL_INFORMATION,
             DBG_PNP,
             "PDO(0x%p) FDO(0x%p), Lower(0x%p)\n",
             WdfDeviceWdmGetPhysicalDevice(device),
             WdfDeviceWdmGetDeviceObject(device),
             WdfDeviceWdmGetAttachedDevice(device)
-            );</pre>
-</td>
-</tr>
-</table></span></div>
+            );
+```
 
 
 

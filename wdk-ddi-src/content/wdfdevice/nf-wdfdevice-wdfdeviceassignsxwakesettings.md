@@ -149,13 +149,8 @@ For more information, see <a href="https://docs.microsoft.com/windows-hardware/d
 
 The following code example initializes a WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS structure and then calls <b>WdfDeviceAssignSxWakeSettings</b>. The example uses the default settings that <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nf-wdfdevice-wdf_device_power_policy_wake_settings_init">WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS_INIT</a> sets.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS  wakeSettings;
+```cpp
+WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS  wakeSettings;
 NTSTATUS  status = STATUS_SUCCESS;
 
 WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS_INIT(&wakeSettings);
@@ -166,10 +161,8 @@ status = WdfDeviceAssignSxWakeSettings(
                                        );
 if (!NT_SUCCESS(status)) {
     return status;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

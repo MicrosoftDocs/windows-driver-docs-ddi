@@ -90,13 +90,8 @@ For more information about resource lists, see <a href="https://docs.microsoft.c
 
 The following code example shows how an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nc-wdfdevice-evt_wdf_device_prepare_hardware">EvtDevicePrepareHardware</a> callback function might locate the memory, port, and interrupt resources in the list of <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/raw-and-translated-resources">translated hardware resources</a> that the Plug and Play (PnP) manager has assigned to a device.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS
+```cpp
+NTSTATUS
 MyEvtDevicePrepareHardware (
     WDFDEVICE  Device,
     WDFCMRESLIST  Resources,
@@ -139,9 +134,7 @@ MyEvtDevicePrepareHardware (
                 break;
         }
     }
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 

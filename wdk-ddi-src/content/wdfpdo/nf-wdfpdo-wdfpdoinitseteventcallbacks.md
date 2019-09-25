@@ -91,13 +91,8 @@ The driver must call <b>WdfPdoInitSetEventCallbacks</b> before calling <a href="
 
 The following code example initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfpdo/ns-wdfpdo-_wdf_pdo_event_callbacks">WDF_PDO_EVENT_CALLBACKS</a> structure and then calls <b>WdfPdoInitSetEventCallbacks</b>.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>PWDFDEVICE_INIT  pDeviceInit = NULL;
+```cpp
+PWDFDEVICE_INIT  pDeviceInit = NULL;
 WDF_PDO_EVENT_CALLBACKS  pdoCallbacks;
 
 pDeviceInit = WdfPdoInitAllocate(Device);
@@ -106,10 +101,8 @@ pdoCallbacks.EvtDeviceResourceRequirementsQuery = Bus_Pdo_EvtDeviceResourceRequi
 WdfPdoInitSetEventCallbacks(
                             pDeviceInit,
                             &pdoCallbacks
-                            );</pre>
-</td>
-</tr>
-</table></span></div>
+                            );
+```
 
 
 

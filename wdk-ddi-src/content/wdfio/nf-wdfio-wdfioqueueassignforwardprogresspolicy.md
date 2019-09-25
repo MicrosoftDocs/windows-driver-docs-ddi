@@ -162,13 +162,8 @@ For more information about the <b>WdfIoQueueAssignForwardProgressPolicy</b> meth
 
 This code example configures a previously created I/O queue to receive write requests, and then it enables guaranteed forward progress for the queue.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>#define MAX_RESERVED_REQUESTS 10
+```cpp
+#define MAX_RESERVED_REQUESTS 10
 
 WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY queueForwardProgressPolicy;
 WDFQUEUE writeQueue;
@@ -192,10 +187,8 @@ status = WdfIoQueueAssignForwardProgressPolicy(
              );
 if(!NT_SUCCESS(status)) {
     return status;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

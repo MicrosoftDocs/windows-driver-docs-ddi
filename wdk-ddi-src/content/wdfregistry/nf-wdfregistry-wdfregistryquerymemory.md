@@ -198,13 +198,8 @@ For more information about registry-key objects, see <a href="https://docs.micro
 
 The following code example retrieves the data that is assigned to the <b>MyValueName</b> value and then obtains the data's address and size.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDFMEMORY memory;
+```cpp
+WDFMEMORY memory;
 size_t size;
 PUCHAR pBuf;
 NTSTATUS status;
@@ -222,10 +217,8 @@ status = WdfRegistryQueryMemory(
 pBuf = (PUCHAR)WdfMemoryGetBuffer(
                                    memory,
                                    &size
-                                   );</pre>
-</td>
-</tr>
-</table></span></div>
+                                   );
+```
 
 
 

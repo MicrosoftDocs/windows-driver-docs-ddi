@@ -171,13 +171,8 @@ For more information about work items, see <a href="https://docs.microsoft.com/w
 
 The following code example initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure, initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfworkitem/ns-wdfworkitem-_wdf_workitem_config">WDF_WORKITEM_CONFIG</a> structure, and calls <b>WdfWorkItemCreate</b>.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS  status = STATUS_SUCCESS;
+```cpp
+NTSTATUS  status = STATUS_SUCCESS;
 PWORKER_ITEM_CONTEXT  context;
 WDF_OBJECT_ATTRIBUTES  attributes;
 WDF_WORKITEM_CONFIG  workitemConfig;
@@ -202,10 +197,8 @@ status = WdfWorkItemCreate(
                             );
 if (!NT_SUCCESS(status)) {
     return status;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

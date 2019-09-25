@@ -170,13 +170,8 @@ For more information about DMA transactions, see <a href="https://docs.microsoft
 
 The following code example is from the <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/sample-kmdf-drivers">PCIDRV</a> sample driver. This example creates and initializes a DMA transfer and begins its execution.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS
+```cpp
+NTSTATUS
 NICInitiateDmaTransfer(
     IN PFDO_DATA  FdoData,
     IN WDFREQUEST  Request
@@ -239,10 +234,8 @@ NICInitiateDmaTransfer(
         }
     }
     return status;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

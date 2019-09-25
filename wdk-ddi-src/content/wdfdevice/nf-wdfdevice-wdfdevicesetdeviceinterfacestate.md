@@ -103,21 +103,14 @@ For more information about device interfaces and the <b>WdfDeviceSetDeviceInterf
 
 The following code example disables a driver's COM port interface.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WdfDeviceSetDeviceInterfaceState (
+```cpp
+WdfDeviceSetDeviceInterfaceState (
                                   Device,
                                   (LPGUID) &GUID_DEVINTERFACE_COMPORT,
                                   NULL,
                                   FALSE
-                                  );</pre>
-</td>
-</tr>
-</table></span></div>
+                                  );
+```
 
 
 

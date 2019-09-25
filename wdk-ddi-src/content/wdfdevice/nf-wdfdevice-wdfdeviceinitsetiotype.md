@@ -99,19 +99,12 @@ For more information about buffer-access methods, see <a href="https://docs.micr
 
 The following code example indicates that a driver will use the direct I/O method when it accesses the device.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WdfDeviceInitSetIoType(
+```cpp
+WdfDeviceInitSetIoType(
                        DeviceInit,
                        WdfDeviceIoDirect
-                       );</pre>
-</td>
-</tr>
-</table></span></div>
+                       );
+```
 
 
 

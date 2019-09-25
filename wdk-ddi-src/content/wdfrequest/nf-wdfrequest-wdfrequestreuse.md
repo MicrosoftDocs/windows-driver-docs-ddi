@@ -129,13 +129,8 @@ For more information about <b>WdfRequestReuse</b>, see <a href="https://docs.mic
 
 The following code example is part of a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfrequest/nc-wdfrequest-evt_wdf_request_completion_routine">CompletionRoutine</a> callback function that calls <b>WdfRequestReuse</b> so that the driver can reuse a driver-allocated request.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VOID
+```cpp
+VOID
 MyRequestCompletionRoutine(
     IN WDFREQUEST  Request,
     IN WDFIOTARGET  Target,
@@ -158,10 +153,8 @@ MyRequestCompletionRoutine(
                              );
     ASSERT(NT_SUCCESS(status));
 ...
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

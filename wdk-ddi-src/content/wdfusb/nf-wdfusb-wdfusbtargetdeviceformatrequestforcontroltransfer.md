@@ -201,13 +201,8 @@ For more information about the <b>WdfUsbTargetDeviceFormatRequestForControlTrans
 
 The following code example creates a request object and a memory object, and then it initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfusb/ns-wdfusb-_wdf_usb_control_setup_packet">WDF_USB_CONTROL_SETUP_PACKET</a> structure for a "get status" control transfer. Next, the example calls <b>WdfUsbTargetDeviceFormatRequestForControlTransfer</b> to format the request. Then, the example sets a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfrequest/nc-wdfrequest-evt_wdf_request_completion_routine">CompletionRoutine</a> callback function and sends the request to an I/O target.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDF_USB_CONTROL_SETUP_PACKET packet;
+```cpp
+WDF_USB_CONTROL_SETUP_PACKET packet;
 NTSTATUS status;
 WDF_OBJECT_ATTRIBUTES attributes;
 WDFMEMORY memHandle;
@@ -265,10 +260,8 @@ if (WdfRequestSend(
                    NULL
                    ) == FALSE) {
     status = WdfRequestGetStatus(request);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

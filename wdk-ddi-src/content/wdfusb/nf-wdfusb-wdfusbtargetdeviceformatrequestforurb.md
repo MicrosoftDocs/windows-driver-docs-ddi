@@ -162,13 +162,8 @@ For more information about the <b>WdfUsbTargetDeviceFormatRequestForUrb</b> meth
 
 The following code example creates a memory object to hold a URB structure, initializes the URB structure, and calls <b>WdfUsbTargetDeviceFormatRequestForUrb</b> to format a request that uses the URB structure's contents. Then, the example registers a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfrequest/nc-wdfrequest-evt_wdf_request_completion_routine">CompletionRoutine</a> callback function and sends the request to an I/O target.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDFMEMORY urbMemory;
+```cpp
+WDFMEMORY urbMemory;
 URB *urbBuffer;
 
 status = WdfMemoryCreate(
@@ -211,10 +206,8 @@ if (WdfRequestSend(
                    NULL
                    ) == FALSE) {
     status = WdfRequestGetStatus(request);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

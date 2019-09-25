@@ -95,19 +95,12 @@ If the <i>Wait</i> parameter is <b>TRUE</b>, <b>WdfDpcCancel</b> must be called 
 
 The following code example cancels the execution of the callback function that is associated with the DPC object that the code example in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdpc/nf-wdfdpc-wdfdpccreate">WdfDpcCreate</a> topic created.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WdfDpcCancel(
+```cpp
+WdfDpcCancel(
              PDevExt->CompleteWriteDpc,
              TRUE
-             );</pre>
-</td>
-</tr>
-</table></span></div>
+             );
+```
 
 
 

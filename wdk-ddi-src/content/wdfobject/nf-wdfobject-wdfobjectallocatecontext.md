@@ -174,13 +174,8 @@ For more information about the cleanup rules for a framework object hierarchy, s
 
 The following code example creates context space for a request object. The context space is based on the example's REQUEST_CONTEXT structure.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct _REQUEST_CONTEXT {
+```cpp
+typedef struct _REQUEST_CONTEXT {
   WDFMEMORY InputMemoryBuffer;
   WDFMEMORY OutputMemoryBuffer;
 } REQUEST_CONTEXT, *PREQUEST_CONTEXT;
@@ -196,10 +191,8 @@ status = WdfObjectAllocateContext(
                                   Request,
                                   &attributes,
                                   &reqContext
-                                  );</pre>
-</td>
-</tr>
-</table></span></div>
+                                  );
+```
 
 
 

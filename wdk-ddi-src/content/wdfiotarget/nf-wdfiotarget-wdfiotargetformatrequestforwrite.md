@@ -218,13 +218,8 @@ For more information about I/O targets, see <a href="https://docs.microsoft.com/
 
 The following code example creates a framework memory object for a write request's input buffer, formats the write request, registers a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfrequest/nc-wdfrequest-evt_wdf_request_completion_routine">CompletionRoutine</a> callback function, and sends the write request to an I/O target.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDFREQUEST  request;
+```cpp
+WDFREQUEST  request;
 NTSTATUS  status;
 WDFMEMORY  memory;
 WDF_OBJECT_ATTRIBUTES  attributes;
@@ -264,10 +259,8 @@ if (WdfRequestSend(
                    WDF_NO_SEND_OPTIONS
                    ) == FALSE) {
         status = WdfRequestGetStatus(request);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

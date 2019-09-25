@@ -191,13 +191,8 @@ For more information about the <b>WdfUsbTargetPipeAbortSynchronously</b> method 
 
 The following code example sends abort requests to all of the pipes that are configured for a USB device's interface.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>UCHAR  i;
+```cpp
+UCHAR  i;
 ULONG  count;
 NTSTATUS  status;
 PDEVICE_CONTEXT  pDevContext;
@@ -224,10 +219,8 @@ for (i = 0; i < count; i++) {
     if (!NT_SUCCESS(status)) {
         break;
     }
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

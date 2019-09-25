@@ -89,17 +89,10 @@ Drivers can use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi
 
 The following code example receives a buffer size and returns the size (either the current size or the next-lower size) that aligns to a DWORD address boundary.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>bufferSizeAligned = WDF_ALIGN_SIZE_DOWN(bufferSize,
-                                        sizeof(DWORD));</pre>
-</td>
-</tr>
-</table></span></div>
+```cpp
+bufferSizeAligned = WDF_ALIGN_SIZE_DOWN(bufferSize,
+                                        sizeof(DWORD));
+```
 
 
 

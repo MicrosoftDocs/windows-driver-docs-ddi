@@ -139,13 +139,8 @@ For more information about the <b>WdfUsbTargetDeviceFormatRequestForCyclePort</b
 
 The following code example formats a power-cycle request, registers a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfrequest/nc-wdfrequest-evt_wdf_request_completion_routine">CompletionRoutine</a> callback function, and sends the request to an I/O target.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>status = WdfUsbTargetDeviceFormatRequestForCyclePort(
+```cpp
+status = WdfUsbTargetDeviceFormatRequestForCyclePort(
                                             UsbDevice,
                                             request
                                             );
@@ -164,10 +159,8 @@ if (WdfRequestSend(
                    NULL
                    ) == FALSE) {
     status = WdfRequestGetStatus(request);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

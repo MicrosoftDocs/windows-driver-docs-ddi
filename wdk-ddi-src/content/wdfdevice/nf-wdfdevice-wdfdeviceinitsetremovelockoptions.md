@@ -110,13 +110,8 @@ For more information about remove locks, see <a href="https://docs.microsoft.com
 
 This code example initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/ns-wdfdevice-_wdf_remove_lock_options">WDF_REMOVE_LOCK_OPTIONS</a> structure and calls <b>WdfDeviceInitSetRemoveLockOptions</b>.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+```cpp
+
 WDF_REMOVE_LOCK_OPTIONS RemoveLockOptions;
 
 WDF_REMOVE_LOCK_OPTIONS_INIT(
@@ -126,10 +121,8 @@ WDF_REMOVE_LOCK_OPTIONS_INIT(
 WdfDeviceInitSetRemoveLockOptions(
                                   DeviceInit,
                                   &RemoveLockOptions
-                                  );</pre>
-</td>
-</tr>
-</table></span></div>
+                                  );
+```
 
 
 

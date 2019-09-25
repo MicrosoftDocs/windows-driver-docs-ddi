@@ -98,13 +98,8 @@ For more information about request cancellation, see <a href="https://docs.micro
 
 The following code example is from the <a href="https://go.microsoft.com/fwlink/p/?linkid=256131">kmdf_fx2</a> sample driver. This example is an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfio/nc-wdfio-evt_wdf_io_queue_io_stop">EvtIoStop</a> callback function. Because this driver sends each request to its I/O target, the <i>EvtIoStop</i> callback function calls <b>WdfRequestCancelSentRequest</b> if the device has been removed.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VOID
+```cpp
+VOID
 OsrFxEvtIoStop(
     IN WDFQUEUE  Queue,
     IN WDFREQUEST  Request,
@@ -119,10 +114,8 @@ OsrFxEvtIoStop(
         WdfRequestCancelSentRequest(Request);
     }
     return;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

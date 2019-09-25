@@ -248,33 +248,21 @@ Supply local buffers.
 
 Because <b>WdfIoTargetSendInternalIoctlOthersSynchronously</b> handles I/O requests synchronously, the driver can create request buffers that are local to the calling routine, as the following code example shows.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDF_MEMORY_DESCRIPTOR  MemoryDescriptor;
+```cpp
+WDF_MEMORY_DESCRIPTOR  MemoryDescriptor;
 MY_BUFFER_TYPE  MyBuffer;
 WDF_MEMORY_DESCRIPTOR_INIT_BUFFER(&MemoryDescriptor,
                                   (PVOID) &MyBuffer,
-                                  sizeof(MyBuffer));</pre>
-</td>
-</tr>
-</table></span></div>
+                                  sizeof(MyBuffer));
+```
 </li>
 <li>
 Supply WDFMEMORY handles.
 
 Call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfmemory/nf-wdfmemory-wdfmemorycreate">WdfMemoryCreate</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfmemory/nf-wdfmemory-wdfmemorycreatepreallocated">WdfMemoryCreatePreallocated</a> to obtain a handle to framework-managed memory, as the following code example shows. 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDF_MEMORY_DESCRIPTOR  MemoryDescriptor;
+```cpp
+WDF_MEMORY_DESCRIPTOR  MemoryDescriptor;
 WDFMEMORY  MemoryHandle = NULL;
 status = WdfMemoryCreate(NULL,
                          NonPagedPool,
@@ -284,10 +272,8 @@ status = WdfMemoryCreate(NULL,
                          NULL);
 WDF_MEMORY_DESCRIPTOR_INIT_HANDLE(&MemoryDescriptor,
                                   MemoryHandle,
-                                  NULL);</pre>
-</td>
-</tr>
-</table></span></div>
+                                  NULL);
+```
 </li>
 <li>
 Supply MDLs.
@@ -309,13 +295,8 @@ For more information about I/O targets, see <a href="https://docs.microsoft.com/
 
 The following code example initializes an IEEE 1394 IRB structure, uses the structure's address to initialize a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfmemory/ns-wdfmemory-_wdf_memory_descriptor">WDF_MEMORY_DESCRIPTOR</a> structure, and then calls <b>WdfIoTargetSendInternalIoctlOthersSynchronously</b>. 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDF_MEMORY_DESCRIPTOR descriptor;
+```cpp
+WDF_MEMORY_DESCRIPTOR descriptor;
 IRB Irb;
 
 Irb.FunctionNumber = REQUEST_ALLOCATE_ADDRESS_RANGE;
@@ -350,10 +331,8 @@ ntStatus = WdfIoTargetSendInternalIoctlOthersSynchronously(
                                                            NULL,
                                                            NULL,
                                                            NULL
-                                                           );</pre>
-</td>
-</tr>
-</table></span></div>
+                                                           );
+```
 
 
 

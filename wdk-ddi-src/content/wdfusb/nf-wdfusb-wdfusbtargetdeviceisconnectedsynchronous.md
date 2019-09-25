@@ -131,18 +131,11 @@ For more information about the <b>WdfUsbTargetDeviceIsConnectedSynchronous</b> m
 
 The following code example determines if a specified USB device is connected.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS status;
+```cpp
+NTSTATUS status;
 
-status = WdfUsbTargetDeviceIsConnectedSynchronous(UsbDevice);</pre>
-</td>
-</tr>
-</table></span></div>
+status = WdfUsbTargetDeviceIsConnectedSynchronous(UsbDevice);
+```
 
 
 
