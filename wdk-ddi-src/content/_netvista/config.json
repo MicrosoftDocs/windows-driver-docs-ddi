@@ -65,7 +65,6 @@
     "tlvgenerated_.hpp",
     "tlvgeneratorparser.hpp",
     "vmbuskernelmodeclientlibapi.h",
-    "vmbuskernelmodeclientlibapi.w",
     "wditypes.hpp",
     "winclient.h",
     "windot11.h",
