@@ -2,11 +2,11 @@
 UID: NS:rsctypes._NET_PACKET_RSC
 title: NET_PACKET_RSC (rsctypes.h)
 author: windows-driver-content
-description: 
-tech.root:
+description: The NET_PACKET_RSC structure contains receive segment coalescence (RSC) information for a packet.
+tech.root: netvista
 ms.assetid: fda0e3e5-cb78-480c-a885-14d412755af9
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/24/2019
 ms.topic: struct
 f1_keywords:
  - "rsctypes/NET_PACKET_RSC"
@@ -42,18 +42,30 @@ ms.custom: Vib
 
 ## -description
 
+The **NET_PACKET_RSC** structure contains receive segment coalescence (RSC) information for a packet.
 
 ## -struct-fields
 
 ### -field DUMMYUNIONNAME
+
+A union that contains the **TCP** member.
  
 ### -field DUMMYUNIONNAME.TCP
+
+A structure that holds the TCP RSC information.
  
 ### -field DUMMYUNIONNAME.TCP.CoalescedSegmentCount
+
+The number of data segments that were coalesced.
  
-### -field DUMMYUNIONNAME.TCP.DuplicateAckCount
- 
+### -field DUMMYUNIONNAME.TCP.DuplicateAckCount 
+
+The number of duplicate ACK messages.
 
 ## -remarks
 
+Client drivers can obtain this structure for a packet by calling [**NetExtensionGetPacketRsc**](../rsc/nf-rsc-netextensiongetpacketrsc.md).
+
 ## -see-also
+
+[Packet descriptors and extensions](https://docs.microsoft.com/windows-hardware/drivers/netcx/packet-descriptors-and-extensions)

@@ -59,7 +59,7 @@ A union that contains the **Enabled** and **Reserved1** members.
 
 A boolean value that indicates if this extension is currently enabled for the packets in this queue.
 
-### field DUMMYUNIONNAME.Reserved1
+### -field DUMMYUNIONNAME.Reserved1
 
 Reserved. Client drivers must not read or write to this value.
 
