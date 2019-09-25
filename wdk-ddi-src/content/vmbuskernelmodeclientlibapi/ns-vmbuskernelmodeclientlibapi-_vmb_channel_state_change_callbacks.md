@@ -80,7 +80,7 @@ The channel closed callback function.
 
 ### -field EvtChannelSuspend
 
-The channel suspended callback funciton. 
+The channel suspended callback function. 
 
 
 ### -field EvtChannelStarted

@@ -66,7 +66,7 @@ Specifies the handle representing the NIC that is the cause of the I/O error to 
 
 ### -param ErrorCode [in]
 
-Specifies the NDIS_ERRROR_CODE_<i>XXX</i> code that best describes the I/O error as one of the following values:
+Specifies the NDIS_ERROR_CODE_<i>XXX</i> code that best describes the I/O error as one of the following values:
      
 
 
