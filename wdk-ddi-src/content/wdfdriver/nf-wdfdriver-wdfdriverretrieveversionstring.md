@@ -116,13 +116,8 @@ For more information about library versions, see <a href="https://docs.microsoft
 
 The following code example creates a string object, assigns the version string to the object, and displays the string if a debugger is running.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDFSTRING string;
+```cpp
+WDFSTRING string;
 UNICODE_STRING us;
 
 status = WdfStringCreate(
@@ -146,10 +141,8 @@ if (NT_SUCCESS(status)) {
                  );
     }
     WdfObjectDelete(string);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

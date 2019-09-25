@@ -150,16 +150,9 @@ The <b>WdfObjectDelete</b> method must be called at IRQL <= DISPATCH_LEVEL. If y
 
 The following code example deletes a framework object and its child objects.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WdfObjectDelete(Object);</pre>
-</td>
-</tr>
-</table></span></div>
+```cpp
+WdfObjectDelete(Object);
+```
 
 
 

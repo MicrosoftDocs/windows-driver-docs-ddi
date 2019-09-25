@@ -126,13 +126,8 @@ If more than one driver in the device's driver stack call <b>WdfDeviceSetPowerCa
 
 The following code example initializes a WDF_DEVICE_POWER_CAPABILITIES structure and then calls <b>WdfDeviceSetPowerCapabilities</b>.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDF_DEVICE_POWER_CAPABILITIES powerCaps;
+```cpp
+WDF_DEVICE_POWER_CAPABILITIES powerCaps;
 
 WDF_DEVICE_POWER_CAPABILITIES_INIT(&powerCaps);
 powerCaps.DeviceD1 = WdfTrue;
@@ -148,10 +143,8 @@ powerCaps.DeviceState[PowerSystemShutdown] = PowerDeviceD3;
 WdfDeviceSetPowerCapabilities(
                               device,
                               &powerCaps
-                              );</pre>
-</td>
-</tr>
-</table></span></div>
+                              );
+```
 
 
 

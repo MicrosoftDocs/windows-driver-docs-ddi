@@ -96,17 +96,10 @@ For more information about registry-key objects, see <a href="https://docs.micro
 
 The following code example obtains a WDM handle to the registry key that a specified framework registry-key object represents.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>HANDLE hKey;
+```cpp
+HANDLE hKey;
 
-hKey = WdfRegistryWdmGetHandle(Key);</pre>
-</td>
-</tr>
-</table></span></div>
+hKey = WdfRegistryWdmGetHandle(Key);
+```
 
 

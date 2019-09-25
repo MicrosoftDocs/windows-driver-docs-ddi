@@ -109,13 +109,8 @@ This method is the UMDF 2.0 equivalent of <a href="https://docs.microsoft.com/wi
 
 The following code example initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/ns-wdfdevice-_wdf_io_type_config">WDF_IO_TYPE_CONFIG</a> structure, sets the driver's buffer-access preferences to direct I/O, specifies that transfers smaller than 32 KB should use buffered I/O, and calls <b>WdfDeviceInitSetIoTypeEx</b>.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDF_IO_TYPE_CONFIG ioConfig;
+```cpp
+WDF_IO_TYPE_CONFIG ioConfig;
 WDF_IO_TYPE_CONFIG_INIT(&ioConfig);
 ioConfig.ReadWriteIoType = WdfDeviceIoDirect;
 ioConfig.DeviceControlIoType = WdfDeviceIoDirect;
@@ -123,10 +118,8 @@ ioConfig.DirectTransferThreshold = 32;
 
 WdfDeviceInitSetIoTypeEx(DeviceInit, &ioConfig);
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 
 
 

@@ -95,19 +95,12 @@ For more information about object collections, see <a href="https://docs.microso
 
 The following code example removes a specified object from a specified object collection.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WdfCollectionRemove(
+```cpp
+WdfCollectionRemove(
                     hCollection,
                     hObject
-                    );</pre>
-</td>
-</tr>
-</table></span></div>
+                    );
+```
 
 
 

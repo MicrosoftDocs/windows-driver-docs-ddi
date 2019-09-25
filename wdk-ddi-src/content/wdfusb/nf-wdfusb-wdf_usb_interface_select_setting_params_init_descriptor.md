@@ -108,13 +108,8 @@ To initialize a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi
 
 The following code example initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbspec/ns-usbspec-_usb_interface_descriptor">USB_INTERFACE_DESCRIPTOR</a> structure and then uses the structure as input to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfusb/nf-wdfusb-wdfusbinterfaceselectsetting">WdfUsbInterfaceSelectSetting</a>.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDF_USB_INTERFACE_SELECT_SETTING_PARAMS  selectSettingParams;
+```cpp
+WDF_USB_INTERFACE_SELECT_SETTING_PARAMS  selectSettingParams;
 USB_INTERFACE_DESCRIPTOR  interfaceDescriptor;
 NTSTATUS  Status;
 
@@ -136,10 +131,8 @@ Status = WdfUsbInterfaceSelectSetting(
                                       UsbInterface,
                                       WDF_NO_OBJECT_ATTRIBUTES,
                                       &selectSettingParams
-                                      );</pre>
-</td>
-</tr>
-</table></span></div>
+                                      );
+```
 
 
 

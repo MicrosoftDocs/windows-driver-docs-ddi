@@ -93,13 +93,8 @@ The <b>WDF_MEMORY_DESCRIPTOR_INIT_HANDLE</b> function zeros the specified <a hre
 
 The following code example obtains a handle to a framework memory object that represents an I/O request's input buffer. The example uses the memory object handle to initialize a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfmemory/ns-wdfmemory-_wdf_memory_descriptor">WDF_MEMORY_DESCRIPTOR</a> structure. Then, the example initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfusb/ns-wdfusb-_wdf_usb_control_setup_packet">WDF_USB_CONTROL_SETUP_PACKET</a> structure and sends a USB control transfer request to an I/O target.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDFMEMORY  memory;
+```cpp
+WDFMEMORY  memory;
 WDF_MEMORY_DESCRIPTOR  memDesc;
 WDF_USB_CONTROL_SETUP_PACKET  controlSetupPacket;
 NTSTATUS  status;
@@ -133,10 +128,8 @@ status = WdfUsbTargetDeviceSendControlTransferSynchronously(
                                   &controlSetupPacket,
                                   &memDesc,
                                   (PULONG)&bytesTransferred
-                                  );</pre>
-</td>
-</tr>
-</table></span></div>
+                                  );
+```
 
 
 

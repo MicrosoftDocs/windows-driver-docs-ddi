@@ -285,13 +285,8 @@ or more information about the registry, hardware and software keys, and registry
 
 The following code example opens a device's hardware key, with read access.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDFKEY key;
+```cpp
+WDFKEY key;
 NTSTATUS status;
 
 status = WdfFdoInitOpenRegistryKey(
@@ -303,10 +298,8 @@ status = WdfFdoInitOpenRegistryKey(
                                    );
 if (!NT_SUCCESS(status)) {
     return status;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

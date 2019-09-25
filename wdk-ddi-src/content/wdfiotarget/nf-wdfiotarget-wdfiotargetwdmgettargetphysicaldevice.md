@@ -94,18 +94,11 @@ For more information about I/O targets, see <a href="https://docs.microsoft.com/
 
 The following code example obtains a pointer to a DEVICE_OBJECT structure that represents the PDO of a remote I/O target's device. 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>PDEVICE_OBJECT  pTargetDO;
+```cpp
+PDEVICE_OBJECT  pTargetDO;
 
-pTargetDO = WdfIoTargetWdmGetTargetPhysicalDevice(IoTarget);</pre>
-</td>
-</tr>
-</table></span></div>
+pTargetDO = WdfIoTargetWdmGetTargetPhysicalDevice(IoTarget);
+```
 
 
 

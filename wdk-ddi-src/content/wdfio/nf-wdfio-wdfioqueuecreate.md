@@ -189,13 +189,8 @@ For more information about <b>WdfIoQueueCreate</b>, see <a href="https://docs.mi
 
 The following code example is the section of an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add">EvtDriverDeviceAdd</a> callback function that creates a device's default I/O queue. The example initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfio/ns-wdfio-_wdf_io_queue_config">WDF_IO_QUEUE_CONFIG</a> structure and then calls <b>WdfIoQueueCreate</b>.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS
+```cpp
+NTSTATUS
 MyEvtDriverDeviceAdd(
     IN WDFDRIVER  Driver,
     IN PWDFDEVICE_INIT  DeviceInit
@@ -221,10 +216,8 @@ MyEvtDriverDeviceAdd(
         return status;
     }
 ...
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

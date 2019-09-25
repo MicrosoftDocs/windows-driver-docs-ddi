@@ -96,13 +96,8 @@ For more information about child lists, see <a href="https://docs.microsoft.com/
 
 The following code example searches a child list to find a child device whose identification description contains a specified serial number, and it obtains a handle to the device object that represents the child device.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>PDO_IDENTIFICATION_DESCRIPTION  description;
+```cpp
+PDO_IDENTIFICATION_DESCRIPTION  description;
 WDF_CHILD_RETRIEVE_INFO  info;
 WDFDEVICE  hChild;
 
@@ -121,10 +116,8 @@ WDF_CHILD_RETRIEVE_INFO_INIT(
 hChild = WdfChildListRetrievePdo(
                                  list,
                                  &info
-                                 );</pre>
-</td>
-</tr>
-</table></span></div>
+                                 );
+```
 
 
 

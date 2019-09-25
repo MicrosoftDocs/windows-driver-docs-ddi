@@ -150,13 +150,8 @@ The following code example provides simplified versions of the <a href="https://
 
 If your driver does not use the framework's automatic synchronization, see the two examples on <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfiorequest-unmarkcancelable">IWDFIoRequest::UnmarkCancelable</a>. While written for a UMDF driver, these examples demonstrate techniques you can use to manage synchronization between the cancel callback and another thread that calls the <i>Unmark</i> routine.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VOID
+```cpp
+VOID
   EchoEvtIoRead(
     IN WDFQUEUE  Queue,
     IN WDFREQUEST  Request,
@@ -233,10 +228,8 @@ VOID
     }
 
     return;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

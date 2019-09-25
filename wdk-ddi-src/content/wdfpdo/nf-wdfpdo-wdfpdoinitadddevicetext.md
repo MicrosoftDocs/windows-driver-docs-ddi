@@ -135,13 +135,8 @@ The driver must call <b>WdfPdoInitAddDeviceText</b> before calling <a href="http
 
 The following code example provides Unicode strings for a device's location and description. The description includes an instance number. For a complete example that uses <b>WdfPdoInitAddDeviceText</b>, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/sample-kmdf-drivers">KbFiltr</a> sample driver.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>DECLARE_CONST_UNICODE_STRING(deviceLocation,L"Keyboard Filter\0" );
+```cpp
+DECLARE_CONST_UNICODE_STRING(deviceLocation,L"Keyboard Filter\0" );
 DECLARE_UNICODE_STRING_SIZE(buffer, MAX_ID_LEN);
 
 status = RtlUnicodeStringPrintf(
@@ -160,10 +155,8 @@ status = WdfPdoInitAddDeviceText(
                                  );
 if (!NT_SUCCESS(status)) {
     goto Cleanup;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

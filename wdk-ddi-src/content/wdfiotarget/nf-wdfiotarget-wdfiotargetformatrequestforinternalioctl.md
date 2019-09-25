@@ -232,13 +232,8 @@ For more information about I/O targets, see <a href="https://docs.microsoft.com/
 
 The following code example creates a framework memory object that is a child of a request object. Next, the example obtains the buffer that the memory object contains and initializes the buffer. Then, the example formats the request, sets a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfrequest/nc-wdfrequest-evt_wdf_request_completion_routine">CompletionRoutine</a> callback function, and sends the request to an I/O target.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDF_OBJECT_ATTRIBUTES memoryObjAttr;
+```cpp
+WDF_OBJECT_ATTRIBUTES memoryObjAttr;
 WDFMEMORY memory;
 NTSTATUS status;
 IOCTL_DATA *pIoctlData;
@@ -296,10 +291,8 @@ if (WdfRequestSend(
 }
 else {
     status = STATUS_SUCCESS;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

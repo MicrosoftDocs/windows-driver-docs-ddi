@@ -105,13 +105,8 @@ For more information about the <b>WdfUsbInterfaceGetEndpointInformation</b> meth
 
 The following code example obtains the number of endpoints that a USB interface supports and then calls <b>WdfUsbInterfaceGetEndpointInformation</b> for each endpoint.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDF_USB_PIPE_INFORMATION endPointInfo;
+```cpp
+WDF_USB_PIPE_INFORMATION endPointInfo;
 BYTE settingIndex, i;
 
 settingIndex = 0;
@@ -133,10 +128,8 @@ for (i = 0; i < numEndpoints; i++){
     // Examine endpoint information here.
     //
 ...
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

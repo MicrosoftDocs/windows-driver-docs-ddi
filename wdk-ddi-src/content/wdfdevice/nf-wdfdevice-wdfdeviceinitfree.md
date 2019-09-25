@@ -90,13 +90,8 @@ For more information about calling <a href="https://docs.microsoft.com/windows-h
 
 The following code example calls <b>WdfDeviceInitFree</b> if a call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfpdo/nf-wdfpdo-wdfpdoinitassignrawdevice">WdfPdoInitAssignRawDevice</a> fails.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS  status;
+```cpp
+NTSTATUS  status;
 
 status = WdfPdoInitAssignRawDevice(
                                    pDeviceInit,
@@ -106,10 +101,8 @@ if (!NT_SUCCESS(status)) {
     WdfDeviceInitFree(pDeviceInit);
     pDeviceInit = NULL;
     return STATUS;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

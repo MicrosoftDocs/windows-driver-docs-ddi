@@ -149,13 +149,8 @@ An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfr
 </ul>
 The driver must use the framework's <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-automatic-synchronization">automatic synchronization</a>.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VOID
+```cpp
+VOID
 MyEvtIoRead(
     IN WDFQUEUE  Queue,
     IN WDFREQUEST  Request,
@@ -187,10 +182,8 @@ MyEvtRequestCancel(
                        Request,
                        STATUS_CANCELLED
                        );
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

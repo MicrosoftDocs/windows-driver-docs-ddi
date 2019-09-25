@@ -93,13 +93,8 @@ For more information about the <b>WdfUsbTargetDeviceGetInterface</b> method and 
 
 The following code example obtains a handle to the first USB interface object that the framework has created for a USB device. The example then obtains the number of endpoints that are associated with the interface object.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDFUSBINTERFACE  UsbInterface;
+```cpp
+WDFUSBINTERFACE  UsbInterface;
 BYTE  numEndpoints;
 
 UsbInterface = WdfUsbTargetDeviceGetInterface(
@@ -109,10 +104,8 @@ UsbInterface = WdfUsbTargetDeviceGetInterface(
 numEndpoints = WdfUsbInterfaceGetNumEndpoints(
                                               UsbInterface,
                                               0
-                                              );</pre>
-</td>
-</tr>
-</table></span></div>
+                                              );
+```
 
 
 

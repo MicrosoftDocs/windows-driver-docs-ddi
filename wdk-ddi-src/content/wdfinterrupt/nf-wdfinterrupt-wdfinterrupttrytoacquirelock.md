@@ -96,13 +96,8 @@ The following code example shows how an <a href="https://docs.microsoft.com/wind
 
  In this example, the driver has specified <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/dispatching-methods-for-i-o-requests">sequential</a> dispatching for the queue.   If the driver specified <i>any other dispatching method</i> for the queue, the driver should use an additional manual queue to retain requests for processing in the work item.  Code comments describe where to add such support.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+```cpp
+
 VOID EvtIoRead(
   __in  WDFQUEUE Queue,
   __in  WDFREQUEST Request,
@@ -169,10 +164,8 @@ EvtReadWorkItemCallback(
     // For example: complete the request, and so on.
     //
     ReadFunctionFinish(wiCtx->Request); 
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

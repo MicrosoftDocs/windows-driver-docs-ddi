@@ -102,13 +102,8 @@ For more information about <b>WdfRequestGetFileObject</b> and framework file obj
 
 The following code example obtains an I/O request's file object and then calls a driver-defined routine that obtains a pointer to the file object's context space.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VOID
+```cpp
+VOID
 MyEvtIoWrite(
     IN WDFQUEUE  Queue,
     IN WDFREQUEST  Request,
@@ -120,10 +115,8 @@ MyEvtIoWrite(
 
     fileObject = WdfRequestGetFileObject(Request);
     pOpenContext = GetFileObjectContext(fileObject)->OpenContext;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

@@ -88,22 +88,15 @@ The pointer that the <b>WdfDeviceWdmGetDeviceObject</b> method returns is valid 
 
 The following code example creates a tracing message that contains pointers to the WDM device objects that represent a device's PDO and FDO.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>TraceEvents(
+```cpp
+TraceEvents(
             TRACE_LEVEL_INFORMATION,
             AMCC_TRACE_INIT,
             "PDO 0x%p, FDO 0x%p",
             WdfDeviceWdmGetPhysicalDevice(device),
             WdfDeviceWdmGetDeviceObject(device)
-            );</pre>
-</td>
-</tr>
-</table></span></div>
+            );
+```
 
 
 

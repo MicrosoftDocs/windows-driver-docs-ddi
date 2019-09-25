@@ -189,13 +189,8 @@ For more information about the <b>WdfIoQueueFindRequest</b> method, see <a href=
 
 The following code example is from the <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/sample-kmdf-drivers">PCIDRV</a> sample driver. This example searches an I/O queue for a request that contains a specified I/O function code. If a matching request is found, the example calls <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/kmdf-wdfioqueueretrievefoundrequest">WdfIoQueueRetrieveFoundRequest</a>.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS
+```cpp
+NTSTATUS
 NICGetIoctlRequest(
     IN WDFQUEUE Queue,
     IN ULONG FunctionCode,
@@ -281,21 +276,14 @@ NICGetIoctlRequest(
     } while (TRUE);
     return status;
 
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 <b>Example 2</b>
 
 The following code example shows how you can create a general-purpose search routine that calls a search-specific subroutine. If your driver must search one or more queues for multiple types of information, you can provide multiple search-specific subroutines. Each time that your driver calls the general-purpose search routine, it specifies the address of one of your search-specific subroutines.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>//
+```cpp
+//
 // Type declaration for the driver's search-specific subroutines. 
 //
 typedef BOOLEAN (*PFN_CALLBACK_COMPARE)(WDFREQUEST, ULONG);
@@ -445,10 +433,8 @@ if (matchedRequest != NULL) {
     //
 ...
 }
-... </pre>
-</td>
-</tr>
-</table></span></div>
+... 
+```
 
 
 

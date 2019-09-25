@@ -150,13 +150,8 @@ For more information about registry-key objects, see <a href="https://docs.micro
 
 The following code example creates a collection object and two string objects, adds the string objects to the collection, and then assigns the two strings to one registry value.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDF_OBJECT_ATTRIBUTES attributes;
+```cpp
+WDF_OBJECT_ATTRIBUTES attributes;
 WDFCOLLECTION col = NULL;
 WDFSTRING string1 = NULL, string2 = NULL;
 UNICODE_STRING ustring1, ustring2, valueName;
@@ -233,10 +228,8 @@ if (col != NULL) {
     WdfObjectDelete(col);    // This will empty the collection
                              // because the string objects are
                              // child objects of the collection object.
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

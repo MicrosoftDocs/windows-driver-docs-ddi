@@ -95,13 +95,8 @@ Your driver must call <b>WdfDeviceInitSetRequestAttributes</b> from within its <
 
 The following code example initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure and calls <b>WdfDeviceInitSetRequestAttributes</b>.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct _REQUEST_CONTEXT {
+```cpp
+typedef struct _REQUEST_CONTEXT {
   ULONG_PTR  Information;
 } REQUEST_CONTEXT, *PREQUEST_CONTEXT;
 WDF_OBJECT_ATTRIBUTES  attributes;
@@ -113,10 +108,8 @@ WDF_OBJECT_ATTRIBUTES_INIT_CONTEXT_TYPE(
 WdfDeviceInitSetRequestAttributes(
                                   DeviceInit,
                                   &attributes
-                                  );</pre>
-</td>
-</tr>
-</table></span></div>
+                                  );
+```
 
 
 

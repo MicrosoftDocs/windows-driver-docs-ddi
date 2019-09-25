@@ -161,13 +161,8 @@ For more information about registry-key objects, see <a href="https://docs.micro
 
 The following code example assigns a Unicode string "String1" to the <b>ValueName</b> value, under a specified registry key.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>UNICODE_STRING ustring1, valueName;
+```cpp
+UNICODE_STRING ustring1, valueName;
 NTSTATUS status;
 
 RtlInitUnicodeString(
@@ -183,10 +178,8 @@ status = WdfRegistryAssignUnicodeString(
                                         Key,
                                         &valueName,
                                         &string1
-                                        );</pre>
-</td>
-</tr>
-</table></span></div>
+                                        );
+```
 
 
 

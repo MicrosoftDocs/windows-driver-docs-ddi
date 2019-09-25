@@ -88,13 +88,8 @@ For more information about I/O queue states, see <a href="https://docs.microsoft
 
 The following code example is a routine that returns <b>TRUE</b> if a specified I/O queue is ready.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>BOOLEAN
+```cpp
+BOOLEAN
 IsQueueReady(
     IN WDFQUEUE Queue
     )
@@ -106,10 +101,8 @@ IsQueueReady(
                                      NULL
                                      );
     return (WDF_IO_QUEUE_READY(queueStatus)) ? TRUE : FALSE;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

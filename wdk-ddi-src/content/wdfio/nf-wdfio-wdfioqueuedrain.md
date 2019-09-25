@@ -110,20 +110,13 @@ After a driver has drained an I/O queue, it can restart the queue by calling <a 
 
 The following code example drains an I/O queue and calls a driver's <b>EvtIoQueueDrainComplete</b> function when all requests that were delivered to the driver have been completed or canceled.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WdfIoQueueDrain(
+```cpp
+WdfIoQueueDrain(
                 Queue,
                 EvtIoQueueDrainComplete,
                 (WDFCONTEXT) myQueueContext
-                );</pre>
-</td>
-</tr>
-</table></span></div>
+                );
+```
 
 
 

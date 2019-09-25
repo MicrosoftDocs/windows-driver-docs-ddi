@@ -157,13 +157,8 @@ If the DMA enabler is a duplex enabler, the driver must initialize a particular 
 
 The following code example is from a driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nc-wdfdevice-evt_wdf_device_prepare_hardware">EvtDevicePrepareHardware</a> callback function. This example initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdmaenabler/ns-wdfdmaenabler-_wdf_dma_system_profile_config">WDF_DMA_SYSTEM_PROFILE_CONFIG</a> structure and calls <b>WdfDmaEnablerConfigureSystemProfile</b>.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+```cpp
+
 WDF_DMA_SYSTEM_PROFILE_CONFIG systemDmaConfig;  
 PHYSICAL_ADDRESS pa;  
  
@@ -179,10 +174,8 @@ systemDmaConfig.DemandMode = true;
 ntStatus = WdfDmaEnablerConfigureSystemProfile(fdoExtension->DmaEnabler,   
                                                &systemDmaConfig,   
                                                WdfDmaDirectionReadFromDevice);  
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 
 
 

@@ -148,13 +148,8 @@ For more information about framework string objects, see <a href="https://docs.m
 
 The following code example initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure and then creates a framework string object.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS  status;
+```cpp
+NTSTATUS  status;
 WDFSTRING  stringHandle = NULL;
 WDF_OBJECT_ATTRIBUTES  attributes;
 
@@ -167,10 +162,8 @@ status = WdfStringCreate(
                          );
 if (!NT_SUCCESS(status)){
     return status;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

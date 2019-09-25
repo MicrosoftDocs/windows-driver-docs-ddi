@@ -146,21 +146,14 @@ For more information about <b>WdfRequestChangeTarget</b>, see <a href="https://d
 
 The following code example verifies that an I/O request can be sent to a specified device's local I/O target.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS  status;
+```cpp
+NTSTATUS  status;
 
 status = WdfRequestChangeTarget(
                                 request,
                                 WdfDeviceGetIoTarget(Device)
-                                );</pre>
-</td>
-</tr>
-</table></span></div>
+                                );
+```
 
 
 

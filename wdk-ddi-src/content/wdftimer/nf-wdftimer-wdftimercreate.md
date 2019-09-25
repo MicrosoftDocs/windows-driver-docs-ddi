@@ -169,13 +169,8 @@ For more information about framework timer objects, see <a href="https://docs.mi
 
 The following code example initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdftimer/ns-wdftimer-_wdf_timer_config">WDF_TIMER_CONFIG</a> structure and a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure and then calls <b>WdfTimerCreate</b>.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDF_TIMER_CONFIG  timerConfig;
+```cpp
+WDF_TIMER_CONFIG  timerConfig;
 WDF_OBJECT_ATTRIBUTES  timerAttributes;
 WDFTIMER  timerHandle;
 NTSTATUS  status;
@@ -198,10 +193,8 @@ status = WdfTimerCreate(
 
 if (!NT_SUCCESS(status)) {
     return status;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

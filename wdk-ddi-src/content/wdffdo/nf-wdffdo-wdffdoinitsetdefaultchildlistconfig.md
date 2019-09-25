@@ -96,13 +96,8 @@ For more information about the <b>WdfFdoInitSetDefaultChildListConfig</b> method
 
 The following code example initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfchildlist/ns-wdfchildlist-_wdf_child_list_config">WDF_CHILD_LIST_CONFIG</a> structure and then calls <b>WdfFdoInitSetDefaultChildListConfig</b>. 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDF_CHILD_LIST_CONFIG  config;
+```cpp
+WDF_CHILD_LIST_CONFIG  config;
 
 WDF_CHILD_LIST_CONFIG_INIT(
                            &config,
@@ -117,10 +112,8 @@ WdfFdoInitSetDefaultChildListConfig(
                                     DeviceInit,
                                     &config,
                                     WDF_NO_OBJECT_ATTRIBUTES
-                                    );</pre>
-</td>
-</tr>
-</table></span></div>
+                                    );
+```
 
 
 

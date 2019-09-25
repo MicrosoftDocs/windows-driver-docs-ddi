@@ -165,13 +165,8 @@ If your driver specifies <b>PagedPool</b> for <i>PoolType</i>, the <b>WdfMemoryC
 
 The following code example creates a framework memory object and allocates a buffer whose size is WRITE_BUFFER_SIZE. The memory object's parent is a request object. 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS  status;
+```cpp
+NTSTATUS  status;
 WDF_OBJECT_ATTRIBUTES  attributes;
 WDFMEMORY  writeBufferMemHandle;
 PVOID  writeBufferPointer;
@@ -185,10 +180,8 @@ status = WdfMemoryCreate(
                          WRITE_BUFFER_SIZE,
                          &writeBufferMemHandle,
                          &writeBufferPointer
-                         );</pre>
-</td>
-</tr>
-</table></span></div>
+                         );
+```
 
 
 

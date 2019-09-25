@@ -149,13 +149,8 @@ For more information about framework memory objects, see <a href="https://docs.m
 
 The following code example allocates a buffer and then creates a framework memory object for the buffer.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>PVOID  pBuffer = NULL;
+```cpp
+PVOID  pBuffer = NULL;
 WDF_OBJECT_ATTRIBUTES  attributes;
 WDFMEMORY  memHandle;
 
@@ -175,10 +170,8 @@ status = WdfMemoryCreatePreallocated(
                                      pBuffer,
                                      MY_BUFFER_SIZE,
                                      &memHandle
-                                     );</pre>
-</td>
-</tr>
-</table></span></div>
+                                     );
+```
 
 
 

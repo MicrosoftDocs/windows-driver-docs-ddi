@@ -102,13 +102,8 @@ For more information about <b>WdfRequestFormatRequestUsingCurrentType</b>, see <
 
 The following code example is an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfio/nc-wdfio-evt_wdf_io_queue_io_default">EvtIoDefault</a> callback function that forwards every I/O request that it receives, without modification, to the device's local I/O target.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VOID
+```cpp
+VOID
 MyEvtIoDefault(
     WDFQUEUE Queue,
     WDFREQUEST Request
@@ -146,10 +141,8 @@ MyEvtIoDefault(
                            );
     }
     return;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

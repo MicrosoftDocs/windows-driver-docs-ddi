@@ -148,13 +148,8 @@ For more information about registry-key objects, see <a href="https://docs.micro
 
 The following code example creates a string object that contains the string "String1" and assigns the string to the <b>ValueName</b> value, under a specified registry key.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDFSTRING string1;
+```cpp
+WDFSTRING string1;
 UNICODE_STRING ustring1, valueName;
 NTSTATUS status;
 
@@ -178,10 +173,8 @@ if (NT_SUCCESS(status)) {
                                      &valueName,
                                      string1
                                      );
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

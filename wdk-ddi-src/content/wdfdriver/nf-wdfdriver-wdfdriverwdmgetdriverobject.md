@@ -84,18 +84,11 @@ The pointer that the <b>WdfDriverWdmGetDriverObject</b> method returns is valid 
 
 The following code example obtains a pointer to the WDM driver object that is associated with a specified framework driver object.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>PDRIVER_OBJECT  pDrvObj;
+```cpp
+PDRIVER_OBJECT  pDrvObj;
 
-pDrvObj = WdfDriverWdmGetDriverObject(Driver);</pre>
-</td>
-</tr>
-</table></span></div>
+pDrvObj = WdfDriverWdmGetDriverObject(Driver);
+```
 
 
 

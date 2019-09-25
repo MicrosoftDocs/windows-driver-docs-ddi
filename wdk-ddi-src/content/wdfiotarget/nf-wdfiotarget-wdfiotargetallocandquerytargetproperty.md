@@ -144,13 +144,8 @@ For more information about I/O targets, see <a href="https://docs.microsoft.com/
 
 The following code example calls <b>WdfIoTargetAllocAndQueryTargetProperty</b> to obtain the <b>DevicePropertyFriendlyName</b> property. After <b>WdfIoTargetAllocAndQueryTargetProperty</b> returns, the driver can call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfmemory/nf-wdfmemory-wdfmemorygetbuffer">WdfMemoryGetBuffer</a> to obtain a pointer to the buffer that contains the name string.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDFMEMORY  targetName;
+```cpp
+WDFMEMORY  targetName;
 NTSTATUS  status;
 
 status = WdfIoTargetAllocAndQueryTargetProperty(
@@ -159,10 +154,8 @@ status = WdfIoTargetAllocAndQueryTargetProperty(
                                                 NonPagedPool,
                                                 WDF_NO_OBJECT_ATTRIBUTES,
                                                 &targetName
-                                                );</pre>
-</td>
-</tr>
-</table></span></div>
+                                                );
+```
 
 
 

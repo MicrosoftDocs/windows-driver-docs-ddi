@@ -94,13 +94,8 @@ For more information about <b>WdfRequestGetInformation</b>, see <a href="https:/
 
 The following code example sends an I/O request to an I/O target and then obtains status information that the I/O target provided.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>ULONG_PTR  informationRetrieved = NULL;
+```cpp
+ULONG_PTR  informationRetrieved = NULL;
 
 status = WdfIoTargetSendWriteSynchronously(
                                            ioTarget,
@@ -112,10 +107,8 @@ status = WdfIoTargetSendWriteSynchronously(
                                            );
 if (NT_SUCCESS(status)) {
     informationRetrieved = WdfRequestGetInformation(request);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

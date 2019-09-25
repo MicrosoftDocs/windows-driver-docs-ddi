@@ -97,13 +97,8 @@ The pointer that <b>WdfDmaEnablerWdmGetDmaAdapter</b> returns is valid until the
 
 The following code example creates a DMA enabler object and then obtains pointers to the WDM <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_dma_adapter">DMA_ADAPTER</a> structures that the framework creates for read and write operations.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS  status = STATUS_SUCCESS;
+```cpp
+NTSTATUS  status = STATUS_SUCCESS;
 WDF_DMA_ENABLER_CONFIG  dmaConfig;
 WDFDMAENABLER  dmaEnabler;
 PDMA_ADAPTER  readAdapter, writeAdapter;
@@ -130,10 +125,8 @@ readAdapter = WdfDmaEnablerWdmGetDmaAdapter(
 writeAdapter = WdfDmaEnablerWdmGetDmaAdapter(
                                              dmaEnabler,
                                              WdfDmaDirectionWriteToDevice
-                                             );</pre>
-</td>
-</tr>
-</table></span></div>
+                                             );
+```
 
 
 

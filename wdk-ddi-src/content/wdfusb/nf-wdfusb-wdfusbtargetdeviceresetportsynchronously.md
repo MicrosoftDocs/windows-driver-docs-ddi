@@ -119,18 +119,11 @@ For more information about the <b>WdfUsbTargetDeviceResetPortSynchronously</b> m
 
 The following code example resets a specified device's USB port.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS status;
+```cpp
+NTSTATUS status;
 
-status = WdfUsbTargetDeviceResetPortSynchronously(UsbDevice);</pre>
-</td>
-</tr>
-</table></span></div>
+status = WdfUsbTargetDeviceResetPortSynchronously(UsbDevice);
+```
 
 
 

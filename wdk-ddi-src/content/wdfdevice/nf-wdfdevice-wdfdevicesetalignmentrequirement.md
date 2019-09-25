@@ -118,13 +118,8 @@ For more information about calling <b>WdfDeviceSetAlignmentRequirement</b>, see 
 
 The following code example is from the <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/sample-kmdf-drivers">AMCC5933</a> sample driver. This example checks a device's current alignment requirement and sets the alignment requirement to a new value, if necessary.  Note that the exact alignment value is dependent on the hardware.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>ULONG alignReq;
+```cpp
+ULONG alignReq;
 
 alignReq = WdfDeviceGetAlignmentRequirement(device);
 if (alignReq < AMCC5933_ALIGNMENT__32BITS) {
@@ -135,10 +130,8 @@ WdfDeviceSetAlignmentRequirement(
                                  device,
                                  AMCC5933_ALIGNMENT__32BITS
                                  );
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

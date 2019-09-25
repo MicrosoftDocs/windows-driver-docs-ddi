@@ -126,13 +126,8 @@ If more than one driver in the device's driver stack call <b>WdfDeviceSetPnpCapa
 
 The following code examples initializes a WDF_DEVICE_PNP_CAPABILITIES structure and then calls <b>WdfDeviceSetPnpCapabilities</b>.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDF_DEVICE_PNP_CAPABILITIES  pnpCaps;
+```cpp
+WDF_DEVICE_PNP_CAPABILITIES  pnpCaps;
 
 WDF_DEVICE_PNP_CAPABILITIES_INIT(&pnpCaps);
 pnpCaps.SurpriseRemovalOK = WdfTrue;
@@ -140,10 +135,8 @@ pnpCaps.SurpriseRemovalOK = WdfTrue;
 WdfDeviceSetPnpCapabilities(
                             device,
                             &pnpCaps
-                            );</pre>
-</td>
-</tr>
-</table></span></div>
+                            );
+```
 
 
 

@@ -171,13 +171,8 @@ For more information about <b>WdfRequestRetrieveInputMemory</b>, see <a href="ht
 
 The following code example shows how an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfio/nc-wdfio-evt_wdf_io_queue_io_write">EvtIoWrite</a> callback function can obtain a handle to the framework memory object that represents a write request's input buffer. The example then formats and sends the write request to a USB I/O target. 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VOID 
+```cpp
+VOID 
 MyEvtIoWrite(
     IN WDFQUEUE  Queue,
     IN WDFREQUEST  Request,
@@ -248,10 +243,8 @@ Exit:
                                           );
     }
     return;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

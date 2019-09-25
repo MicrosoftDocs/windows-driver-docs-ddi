@@ -119,20 +119,13 @@ For more information about security issues, see <a href="https://docs.microsoft.
 
 The following code example assigns a security setting for a device.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS status;
+```cpp
+NTSTATUS status;
 
 status = WdfDeviceInitAssignSDDLString(
                                        pDeviceInit,
                                        &SDDL_DEVOBJ_SYS_ALL_ADM_ALL
-                                       );</pre>
-</td>
-</tr>
-</table></span></div>
+                                       );
+```
 
 

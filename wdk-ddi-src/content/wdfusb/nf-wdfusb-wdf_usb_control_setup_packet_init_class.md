@@ -154,13 +154,8 @@ To initialize a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi
 
 The following code example initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfusb/ns-wdfusb-_wdf_usb_control_setup_packet">WDF_USB_CONTROL_SETUP_PACKET</a> structure.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDF_USB_CONTROL_SETUP_PACKET  packet;
+```cpp
+WDF_USB_CONTROL_SETUP_PACKET  packet;
 WDF_USB_CONTROL_SETUP_PACKET_INIT_CLASS(
                                         &packet,
                                         BMREQUEST_HOST_TO_DEVICE,
@@ -168,10 +163,8 @@ WDF_USB_CONTROL_SETUP_PACKET_INIT_CLASS(
                                         0,
                                         0,
                                         0
-                                        );</pre>
-</td>
-</tr>
-</table></span></div>
+                                        );
+```
 
 
 

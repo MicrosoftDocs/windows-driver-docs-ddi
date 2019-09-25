@@ -103,16 +103,9 @@ For more information about the <b>WdfIoQueuePurgeSynchronously</b> method, see <
 
 The following code example purges a specified I/O queue.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WdfIoQueuePurgeSynchronously(ReadQueue);</pre>
-</td>
-</tr>
-</table></span></div>
+```cpp
+WdfIoQueuePurgeSynchronously(ReadQueue);
+```
 
 
 

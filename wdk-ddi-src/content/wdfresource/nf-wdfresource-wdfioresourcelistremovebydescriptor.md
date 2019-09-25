@@ -97,13 +97,8 @@ For more information about resource requirements lists and logical configuration
 
 The following code example searches a logical configuration for a resource descriptor that contains a specified port address, and it removes that resource descriptor.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>IO_RESOURCE_DESCRIPTOR descriptor;
+```cpp
+IO_RESOURCE_DESCRIPTOR descriptor;
 ULONG resCount, j;
 
 //
@@ -136,10 +131,8 @@ for (j = 0; j < resCount; j++) {
                break;
         }
     }
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

@@ -90,16 +90,9 @@ The maximum DMA transfer length that the operating system can support depends on
 
 Your driver can determine the number of map registers that are available by using the BYTE_TO_PAGES macro, as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>BYTE_TO_PAGES(WdfDmaEnablerGetFragmentLength()) + 1</pre>
-</td>
-</tr>
-</table></span></div>
+```cpp
+BYTE_TO_PAGES(WdfDmaEnablerGetFragmentLength()) + 1
+```
 If your driver specified a duplex profile when it called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdmaenabler/nf-wdfdmaenabler-wdfdmaenablercreate">WdfDmaEnablerCreate</a>, the <i>DmaDirection</i> parameter's value must be <b>WdfDmaDirectionReadFromDevice</b> to obtain the maximum transfer length for read operations and <b>WdfDmaDirectionWriteToDevice</b> to obtain the maximum transfer length for write operations. If your driver did not specify a duplex profile, the driver can specify either <b>WdfDmaDirectionReadFromDevice</b> or <b>WdfDmaDirectionWriteToDevice</b> for <i>DmaDirection</i>.
 
 Note that if your driver's device supports duplex operation, <b>WdfDmaEnablerGetFragmentLength</b> can return different values for the read and write directions that the <i>DmaDirection</i> parameter specifies. This difference is because the framework creates a separate <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/adapter-objects-and-dma">adapter object</a> for each direction, and the operating system might provide a different number of map registers to each adapter object.
@@ -109,13 +102,8 @@ Note that if your driver's device supports duplex operation, <b>WdfDmaEnablerGet
 
 The following code example determines the minimum number of map registers that are necessary to handle a NIC device's read operations, calculates the number of map registers that are available, and reports an error if the number of allocated map registers is insufficient.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>ULONG  minimumMapRegisters;
+```cpp
+ULONG  minimumMapRegisters;
 ULONG  maxLengthSupported;
 ULONG  mapRegistersAllocated;
 
@@ -132,10 +120,8 @@ mapRegistersAllocated = BYTES_TO_PAGES(maxLengthSupported) + 1;
 if (mapRegistersAllocated < minimumMapRegisters) {
     status = STATUS_INSUFFICIENT_RESOURCES;
     return status;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

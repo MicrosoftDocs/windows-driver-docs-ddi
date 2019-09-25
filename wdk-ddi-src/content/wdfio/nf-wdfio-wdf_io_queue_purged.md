@@ -88,13 +88,8 @@ For more information about I/O queue states, see <a href="https://docs.microsoft
 
 The following code example is a routine that returns <b>TRUE</b> if a specified I/O queue is purged.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>BOOLEAN
+```cpp
+BOOLEAN
 IsQueuePurged(
     IN WDFQUEUE Queue
     )
@@ -106,10 +101,8 @@ IsQueuePurged(
                                      NULL
                                      );
     return (WDF_IO_QUEUE_PURGED(queueStatus)) ? TRUE : FALSE;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

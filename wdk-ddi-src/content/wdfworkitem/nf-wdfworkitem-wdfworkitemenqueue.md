@@ -104,32 +104,20 @@ This section contains two examples. The first example shows how to add work item
 
 The following code example calls a local routine that returns a pointer to a work-item object's context memory. The example sets information in the object's context memory and then calls <b>WdfWorkItemEnqueue</b>. The driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfworkitem/nc-wdfworkitem-evt_wdf_workitem">EvtWorkItem</a> callback function will later retrieve the information from the work-item object.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>PMY_CONTEXT_TYPE context;
+```cpp
+PMY_CONTEXT_TYPE context;
 
 context = GetWorkItemContext(hWorkItem);
 context->FdoData = FdoData;
 context->Argument1 = Context1;
 context->Argument2 = Context2;
 
-WdfWorkItemEnqueue(hWorkItem);</pre>
-</td>
-</tr>
-</table></span></div>
+WdfWorkItemEnqueue(hWorkItem);
+```
 The driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfworkitem/nc-wdfworkitem-evt_wdf_workitem">EvtWorkItem</a> callback function contains the following code. 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>MyWorkItemCallback (
+```cpp
+MyWorkItemCallback (
     IN WDFWORKITEM hWorkItem
     )
 {
@@ -143,21 +131,14 @@ The driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/co
     ...
     //
     return;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 <b>Example 2: KMDF versions prior to 1.7</b>
 
 The following code example calls a local routine that returns a pointer to a work-item object's context memory. The example sets information in the object's context memory, sets a state variable to "busy", and then calls <b>WdfWorkItemEnqueue</b>. The driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfworkitem/nc-wdfworkitem-evt_wdf_workitem">EvtWorkItem</a> callback function will later retrieve the information from the work-item object.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef enum _WORKITEM_STATE {
+```cpp
+typedef enum _WORKITEM_STATE {
     WORKITEM_STATE_FREE =0,
     WORKITEM_STATE_BUSY = 1
 } WORKITEM_STATE;
@@ -175,19 +156,12 @@ if (InterlockedCompareExchange(
                                WORKITEM_STATE_FREE
                                ) == WORKITEM_STATE_FREE) {
  WdfWorkItemEnqueue(hWorkItem);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 The driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfworkitem/nc-wdfworkitem-evt_wdf_workitem">EvtWorkItem</a> callback function contains the following code. Just before the <b>return</b> statement, the code sets the work-item object's state variable to "free" so that the driver can queue the object again.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>MyWorkItemCallback (
+```cpp
+MyWorkItemCallback (
     IN WDFWORKITEM hWorkItem
     )
 {
@@ -209,10 +183,8 @@ The driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/co
                                  );
     ASSERT(result == WORKITEM_STATE_BUSY);
     return;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 <div class="code"></div>
 
 

@@ -159,13 +159,8 @@ For versions 1.0 and 1.5 of KMDF, <b>WdfDeviceEnqueueRequest</b> must be called 
 
 The following code example is an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nc-wdfdevice-evt_wdf_io_in_caller_context">EvtIoInCallerContext</a> callback function that looks for requests that contain the custom I/O control code, IOCTL_NONPNP_METHOD_NEITHER. If the I/O control code is not found, the callback function just returns the request to the framework. If the callback function finds the I/O control code, it preprocesses the request and then returns it to the framework. If an error is encountered, the callback function completes the request.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VOID
+```cpp
+VOID
 MyEvtDeviceIoInCallerContext(
     IN WDFDEVICE  Device,
     IN WDFREQUEST Request
@@ -211,10 +206,8 @@ End:
                        status
                        );
     return;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

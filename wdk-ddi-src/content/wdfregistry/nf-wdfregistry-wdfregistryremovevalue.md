@@ -139,21 +139,14 @@ For more information about registry-key objects, see <a href="https://docs.micro
 
 The following code example removes the <b>MyValue</b> value and its data from a specified registry key.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>DECLARE_CONST_UNICODE_STRING(valueName, L"MyValue");
+```cpp
+DECLARE_CONST_UNICODE_STRING(valueName, L"MyValue");
 
 status = WdfRegistryRemoveValue(
                                 Key,
                                 &valueName
-                                );</pre>
-</td>
-</tr>
-</table></span></div>
+                                );
+```
 
 
 

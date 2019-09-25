@@ -142,13 +142,8 @@ For more information about child lists, see <a href="https://docs.microsoft.com/
 
 The following code example initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfchildlist/ns-wdfchildlist-_wdf_child_list_config">WDF_CHILD_LIST_CONFIG</a> structure and then calls <b>WdfChildListCreate</b>.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDF_CHILD_LIST_CONFIG listConfig;
+```cpp
+WDF_CHILD_LIST_CONFIG listConfig;
 
 WDF_CHILD_LIST_CONFIG_INIT(
                            &listConfig,
@@ -172,10 +167,8 @@ status = WdfChildListCreate(
                             );
 if (!NT_SUCCESS(status)) {
     return status;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

@@ -134,13 +134,8 @@ To initialize a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi
 
 The following code example calls either <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfusb/nf-wdfusb-wdf_usb_device_select_config_params_init_single_interface">WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_SINGLE_INTERFACE</a> or <b>WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_MULTIPLE_INTERFACES</b>, based on the number of interfaces that the device configuration supports. Then, the example calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfusb/nf-wdfusb-wdfusbtargetdeviceselectconfig">WdfUsbTargetDeviceSelectConfig</a> to select a configuration.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDF_USB_DEVICE_SELECT_CONFIG_PARAMS params;
+```cpp
+WDF_USB_DEVICE_SELECT_CONFIG_PARAMS params;
 PWDF_USB_INTERFACE_SETTING_PAIR settingPairs;
 UCHAR numInterfaces;
 
@@ -183,10 +178,8 @@ status = WdfUsbTargetDeviceSelectConfig(
                                         );
 if (!NT_SUCCESS(status)) {
     return status;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

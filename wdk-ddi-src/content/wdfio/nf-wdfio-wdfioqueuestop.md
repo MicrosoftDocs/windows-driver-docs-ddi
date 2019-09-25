@@ -106,13 +106,8 @@ For more information about the <b>WdfIoQueueStop</b> method, see <a href="https:
 
 The following code example stops a specified I/O queue. When all requests that were delivered to the driver have been completed or canceled, it calls a driver's <b>EvtIoQueueStateStop</b> function.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDFCONTEXT stopContext;
+```cpp
+WDFCONTEXT stopContext;
 
 stopContext = &myContext;
 
@@ -120,10 +115,8 @@ WdfIoQueueStop(
                queue,
                EvtIoQueueStateStop,
                stopContext
-               );</pre>
-</td>
-</tr>
-</table></span></div>
+               );
+```
 
 
 

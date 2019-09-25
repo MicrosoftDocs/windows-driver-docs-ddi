@@ -115,23 +115,16 @@ For more information about handling interrupts in framework-based drivers, see <
 
 The following code example assigns a device interrupt to processor 0, with normal priority.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>#define AFFINITY_MASK(n) ((ULONG_PTR)1 << (n))
+```cpp
+#define AFFINITY_MASK(n) ((ULONG_PTR)1 << (n))
 
 WdfInterruptSetPolicy(
                       Interrupt,
                       WdfIrqPolicySpecifiedProcessors,
                       WdfIrqPriorityNormal,
                       AFFINITY_MASK(0)
-                      );</pre>
-</td>
-</tr>
-</table></span></div>
+                      );
+```
 
 
 

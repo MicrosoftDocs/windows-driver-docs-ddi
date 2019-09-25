@@ -92,17 +92,10 @@ For more information about I/O targets, see <a href="https://docs.microsoft.com/
 
 The following code example obtains a handle to a specified device's local I/O target.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDFIOTARGET  ioTargetHandle;
+```cpp
+WDFIOTARGET  ioTargetHandle;
 
-ioTargetHandle = WdfDeviceGetIoTarget(device);</pre>
-</td>
-</tr>
-</table></span></div>
+ioTargetHandle = WdfDeviceGetIoTarget(device);
+```
 
 

@@ -90,13 +90,8 @@ For more information about <b>WdfRequestGetRequestorMode</b>, see <a href="https
 
 The following code example is from the <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/sample-kmdf-drivers">NDISProt</a> sample driver. This example checks for a valid MAC address if the I/O request came from a user-mode application.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>//
+```cpp
+//
 // To prevent applications from sending packets with spoofed MAC address,
 // perform the following check to make sure the source address 
 // in the packet is the same as the current MAC address of the NIC.
@@ -107,9 +102,7 @@ if ((WdfRequestGetRequestorMode(Request) == UserMode) &&
     DEBUGP(DL_WARN, ("Write: Failing with invalid Source address"));
     NtStatus = STATUS_INVALID_PARAMETER;
     break;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 

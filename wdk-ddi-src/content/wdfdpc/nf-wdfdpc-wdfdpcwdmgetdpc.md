@@ -92,18 +92,11 @@ The pointer that <b>WdfDpcWdmGetDpc</b> returns is valid until the framework DPC
 
 The following code example returns a pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">KDPC</a> structure that is associated with a specified DPC object. The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdpc/nf-wdfdpc-wdfdpccreate">WdfDpcCreate</a> code example shows how the specified DPC object was created.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>PKDPC pWdmDpc;
+```cpp
+PKDPC pWdmDpc;
 
-pWdmDpc = WdfDpcWdmGetDpc(PDevExt->CompleteWriteDpc);</pre>
-</td>
-</tr>
-</table></span></div>
+pWdmDpc = WdfDpcWdmGetDpc(PDevExt->CompleteWriteDpc);
+```
 
 
 

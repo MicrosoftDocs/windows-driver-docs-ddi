@@ -88,13 +88,8 @@ For more information about object collections, see <a href="https://docs.microso
 
 The following code example obtains the number of objects in a specified collection and uses the number to examine all objects in the collection.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>ULONG count;
+```cpp
+ULONG count;
 
 count = WdfCollectionGetCount(CollectionHandle);
 for (i = 0; i < count; i++) {
@@ -105,10 +100,8 @@ for (i = 0; i < count; i++) {
     // 
     // Perform object-specific operations.
     // 
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

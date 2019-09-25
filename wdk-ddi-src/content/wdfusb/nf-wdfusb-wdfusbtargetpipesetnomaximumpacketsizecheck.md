@@ -92,17 +92,10 @@ For more information about the <b>WdfUsbTargetPipeSetNoMaximumPacketSizeCheck</b
 
 The following code example disables the framework's test of whether the size of a buffer is a multiple of a USB pipe's maximum packet size.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WdfUsbTargetPipeSetNoMaximumPacketSizeCheck(pipe);
- </pre>
-</td>
-</tr>
-</table></span></div>
+```cpp
+WdfUsbTargetPipeSetNoMaximumPacketSizeCheck(pipe);
+ 
+```
 
 
 

@@ -102,13 +102,8 @@ For more information about reference strings, see <a href="https://docs.microsof
 
 The following code example shows how an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nc-wdfdevice-evt_wdf_device_file_create">EvtDeviceFileCreate</a> callback function can obtain the name of the file that an application has opened.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VOID
+```cpp
+VOID
 MyEvtDeviceFileCreate (
     IN WDFDEVICE  Device,
     IN WDFREQUEST  Request,
@@ -120,10 +115,8 @@ MyEvtDeviceFileCreate (
     fileName = WdfFileObjectGetFileName(FileObject);
 ...
 
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

@@ -88,18 +88,11 @@ For more information about child lists, see <a href="https://docs.microsoft.com/
 
 The following code example obtains a handle to a device's default child list.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDFCHILDLIST  list;
+```cpp
+WDFCHILDLIST  list;
 
-list = WdfFdoGetDefaultChildList(Device);</pre>
-</td>
-</tr>
-</table></span></div>
+list = WdfFdoGetDefaultChildList(Device);
+```
 
 
 

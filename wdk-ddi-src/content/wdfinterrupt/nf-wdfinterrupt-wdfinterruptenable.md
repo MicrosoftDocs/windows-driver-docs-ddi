@@ -96,16 +96,9 @@ For more information about handling interrupts in framework-based drivers, see <
 
 The following code example enables the device interrupt that is associated with a specified interrupt object.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WdfInterruptEnable(Interrupt);</pre>
-</td>
-</tr>
-</table></span></div>
+```cpp
+WdfInterruptEnable(Interrupt);
+```
 
 
 

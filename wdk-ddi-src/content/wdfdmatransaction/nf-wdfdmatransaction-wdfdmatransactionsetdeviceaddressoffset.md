@@ -101,13 +101,8 @@ If your driver calls this method on an operating system earlier than Windows 8,
 
 The following code example initializes a DMA transaction.  It then sets the offset of the register that the system DMA controller will access, provides a transfer completion callback routine, and executes the DMA transaction.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>status = WdfDmaTransactionInitialize(
+```cpp
+status = WdfDmaTransactionInitialize(
                                      RequestContext->DmaTransaction,
                                      EvtProgramDma,
                                      direction,
@@ -145,10 +140,8 @@ Complete:
 
 WdfDmaTransactionRelease(
                          RequestContext->DmaTransaction
-                         );</pre>
-</td>
-</tr>
-</table></span></div>
+                         );
+```
 
 
 

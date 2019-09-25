@@ -88,17 +88,10 @@ For more information about default I/O queues, see <a href="https://docs.microso
 
 The following code example obtains a handle to a device's default I/O queue.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDFQUEUE DefaultQueue;
+```cpp
+WDFQUEUE DefaultQueue;
 
-DefaultQueue = WdfDeviceGetDefaultQueue(Device);</pre>
-</td>
-</tr>
-</table></span></div>
+DefaultQueue = WdfDeviceGetDefaultQueue(Device);
+```
 
 

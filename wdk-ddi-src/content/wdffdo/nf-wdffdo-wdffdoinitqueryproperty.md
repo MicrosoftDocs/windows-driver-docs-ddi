@@ -160,13 +160,8 @@ Alternatively, you can use <a href="https://docs.microsoft.com/windows-hardware/
 
 The following code example obtains a Unicode string that represents the name of a device's enumerator and returns <b>TRUE</b> if the string is "PCI".
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS  status = STATUS_SUCCESS;
+```cpp
+NTSTATUS  status = STATUS_SUCCESS;
 WCHAR  enumeratorName[64] = {0};
 ULONG  returnSize;
 UNICODE_STRING  unicodeEnumName, temp;
@@ -199,10 +194,8 @@ if(RtlCompareUnicodeString(
     // This device is a PCI device.
     //
     return TRUE;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

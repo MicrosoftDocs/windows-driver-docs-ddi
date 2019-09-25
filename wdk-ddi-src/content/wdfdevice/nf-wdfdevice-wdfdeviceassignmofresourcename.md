@@ -127,13 +127,8 @@ For more information about WMI, see <a href="https://docs.microsoft.com/windows-
 
 The following code example declares a Unicode string that represents a MOF resource name and then registers the name.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS  status;
+```cpp
+NTSTATUS  status;
 DECLARE_CONST_UNICODE_STRING(mofRsrcName, MOFRESOURCENAME);
 
 status = WdfDeviceAssignMofResourceName(
@@ -142,9 +137,7 @@ status = WdfDeviceAssignMofResourceName(
                                         );
 if (!NT_SUCCESS(status)) {
     return status;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 

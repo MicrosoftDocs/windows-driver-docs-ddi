@@ -88,22 +88,15 @@ For more information about object collections, see <a href="https://docs.microso
 
 The following code example removes each item from a collection and deletes each item's object.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>while ((subRequest = WdfCollectionGetFirstItem(hCollection)) != NULL) {
+```cpp
+while ((subRequest = WdfCollectionGetFirstItem(hCollection)) != NULL) {
     WdfCollectionRemoveItem(
                             hCollection,
                             0
                             );
     WdfObjectDelete(subRequest);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

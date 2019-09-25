@@ -131,20 +131,13 @@ For more information about calling <a href="https://docs.microsoft.com/windows-h
 
 The following code example registers an event callback function that the framework will call when the device's power state machine changes state.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>status = WdfDeviceInitRegisterPowerStateChangeCallback(
+```cpp
+status = WdfDeviceInitRegisterPowerStateChangeCallback(
                                      DeviceInit,
                                      WdfDevStatePowerD0StartingConnectInterrupt,
                                      PciDrvPowerStateChangeCallback,
                                      StateNotificationAllStates
-                                     );</pre>
-</td>
-</tr>
-</table></span></div>
+                                     );
+```
 
 

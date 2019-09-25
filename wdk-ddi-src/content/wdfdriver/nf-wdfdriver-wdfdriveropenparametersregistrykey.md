@@ -143,23 +143,16 @@ For more information about the registry, see <a href="https://docs.microsoft.com
 
 The following code example opens a driver's <b>Parameters</b> registry key and obtains a handle to a framework registry-key object that represents the key.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDFKEY hKey;
+```cpp
+WDFKEY hKey;
 
 status = WdfDriverOpenParametersRegistryKey(
                                             Driver,
                                             STANDARD_RIGHTS_ALL,
                                             WDF_NO_OBJECT_ATTRIBUTES,
                                             &hKey
-                                            );</pre>
-</td>
-</tr>
-</table></span></div>
+                                            );
+```
 
 
 

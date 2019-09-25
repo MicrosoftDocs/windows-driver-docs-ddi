@@ -93,13 +93,8 @@ For more information about <b>WdfDeviceInitSetPowerPolicyEventCallbacks</b>, see
 
 The following code example initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/ns-wdfdevice-_wdf_power_policy_event_callbacks">WDF_POWER_POLICY_EVENT_CALLBACKS</a> structure and then calls <b>WdfDeviceInitSetPowerPolicyEventCallbacks</b>.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDF_POWER_POLICY_EVENT_CALLBACKS powerPolicyCallbacks;
+```cpp
+WDF_POWER_POLICY_EVENT_CALLBACKS powerPolicyCallbacks;
 
 WDF_POWER_POLICY_EVENT_CALLBACKS_INIT(&powerPolicyCallbacks);
 powerPolicyCallbacks.EvtDeviceArmWakeFromS0 = PciDrvEvtDeviceWakeArmS0;
@@ -111,10 +106,8 @@ powerPolicyCallbacks.EvtDeviceWakeFromSxTriggered = PciDrvEvtDeviceWakeTriggered
 WdfDeviceInitSetPowerPolicyEventCallbacks(
                                           DeviceInit,
                                           &powerPolicyCallbacks
-                                          );</pre>
-</td>
-</tr>
-</table></span></div>
+                                          );
+```
 
 
 

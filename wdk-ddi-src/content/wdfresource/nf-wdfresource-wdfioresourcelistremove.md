@@ -97,19 +97,12 @@ For more information about resource requirements lists and logical configuration
 
 The following code example removes the first resource descriptor from a logical configuration.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WdfIoResourceListRemove(
+```cpp
+WdfIoResourceListRemove(
                         Reslist,
                         0
-                        );</pre>
-</td>
-</tr>
-</table></span></div>
+                        );
+```
 
 
 

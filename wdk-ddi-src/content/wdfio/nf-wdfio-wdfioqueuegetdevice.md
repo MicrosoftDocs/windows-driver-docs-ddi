@@ -90,18 +90,11 @@ For more information about the <b>WdfIoQueueGetDevice</b> method, see <a href="h
 
 The following code example obtains a handle to the framework device object that is associated with the I/O queue that contains a specified request.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDFDEVICE  device;
+```cpp
+WDFDEVICE  device;
 
-device = WdfIoQueueGetDevice(WdfRequestGetIoQueue(Request));</pre>
-</td>
-</tr>
-</table></span></div>
+device = WdfIoQueueGetDevice(WdfRequestGetIoQueue(Request));
+```
 
 
 

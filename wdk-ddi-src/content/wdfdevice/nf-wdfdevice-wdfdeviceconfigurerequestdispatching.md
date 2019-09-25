@@ -154,13 +154,8 @@ For more information about <b>WdfDeviceConfigureRequestDispatching</b>, see <a h
 
 The following code example initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfio/ns-wdfio-_wdf_io_queue_config">WDF_IO_QUEUE_CONFIG</a> structure, creates an I/O queue, and then configures the queue so that it receives write requests.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDF_IO_QUEUE_CONFIG queueConfig;
+```cpp
+WDF_IO_QUEUE_CONFIG queueConfig;
 WDFQUEUE WriteQueue;
 
 WDF_IO_QUEUE_CONFIG_INIT(
@@ -184,10 +179,8 @@ status = WdfDeviceConfigureRequestDispatching(
                                               );
 if(!NT_SUCCESS(status)) {
     return status;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

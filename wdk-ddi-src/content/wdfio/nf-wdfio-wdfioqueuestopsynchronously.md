@@ -99,16 +99,9 @@ For more information about the <b>WdfIoQueueStopSynchronously</b> method, see <a
 
 The following code example stops a specified queue.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WdfIoQueueStopSynchronously(WriteQueue);</pre>
-</td>
-</tr>
-</table></span></div>
+```cpp
+WdfIoQueueStopSynchronously(WriteQueue);
+```
 
 
 

@@ -90,13 +90,8 @@ For more information about framework file objects, see <a href="https://docs.mic
 
 The following code example shows how an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nc-wdfdevice-evt_wdf_file_close">EvtFileClose</a> callback function can obtain the framework device object that is associated with a specified framework file object.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VOID
+```cpp
+VOID
 MyEvtFileClose(
     IN WDFFILEOBJECT  FileObject
     )
@@ -105,9 +100,7 @@ MyEvtFileClose(
 
     device = WdfFileObjectGetDevice(FileObject);
 ...
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 

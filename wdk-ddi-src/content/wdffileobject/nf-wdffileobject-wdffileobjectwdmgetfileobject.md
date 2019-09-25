@@ -90,18 +90,11 @@ For more information about framework file objects, see <a href="https://docs.mic
 
 The following code example obtains a handle to the WDM file object that is associated with a specified framework file object.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>PFILE_OBJECT  pReturnedFileObject;
+```cpp
+PFILE_OBJECT  pReturnedFileObject;
 
-pReturnedFileObject = WdfFileObjectWdmGetFileObject(fileObject);</pre>
-</td>
-</tr>
-</table></span></div>
+pReturnedFileObject = WdfFileObjectWdmGetFileObject(fileObject);
+```
 
 
 

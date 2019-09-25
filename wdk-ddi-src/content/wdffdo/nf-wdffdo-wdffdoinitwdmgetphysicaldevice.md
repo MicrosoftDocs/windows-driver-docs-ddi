@@ -86,17 +86,10 @@ For more information about the <b>WdfFdoInitWdmGetPhysicalDevice</b> method, see
 
 The following code example obtains a pointer to a DEVICE_OBJECT structure that represents a device's WDM PDO.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>PDEVICE_OBJECT device;
+```cpp
+PDEVICE_OBJECT device;
 
-device = WdfFdoInitWdmGetPhysicalDevice(DeviceInit);</pre>
-</td>
-</tr>
-</table></span></div>
+device = WdfFdoInitWdmGetPhysicalDevice(DeviceInit);
+```
 
 

@@ -114,23 +114,16 @@ For more information about calling <a href="https://docs.microsoft.com/windows-h
 
 The following code example assigns an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/nt-device-names">NT device name</a> to a device.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>DECLARE_CONST_UNICODE_STRING(MyDeviceName, L"\\Device\\Ramdisk") ;
+```cpp
+DECLARE_CONST_UNICODE_STRING(MyDeviceName, L"\\Device\\Ramdisk") ;
 status = WdfDeviceInitAssignName(
                                  DeviceInit,
                                  &MyDeviceName
                                  );
 if (!NT_SUCCESS(status)) {
     return status;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

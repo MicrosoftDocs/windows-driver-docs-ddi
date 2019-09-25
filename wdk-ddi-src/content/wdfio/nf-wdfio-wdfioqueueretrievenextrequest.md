@@ -153,22 +153,15 @@ For more information about the <b>WdfIoQueueRetrieveNextRequest</b> method, see 
 
 The following code example obtains a handle to the next request object that is contained in a device's I/O queue.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS  status;
+```cpp
+NTSTATUS  status;
 WDFREQUEST  request;
 
 status = WdfIoQueueRetrieveNextRequest(
                                        pDeviceContext->ReadQueue,
                                        &request
-                                       );</pre>
-</td>
-</tr>
-</table></span></div>
+                                       );
+```
 
 
 

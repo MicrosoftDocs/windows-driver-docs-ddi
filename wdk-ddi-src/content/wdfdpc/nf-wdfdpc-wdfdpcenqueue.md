@@ -92,16 +92,9 @@ For more information about using DPC objects, see <a href="https://docs.microsof
 
 The following code example schedules the execution of the callback function that is associated with a DPC object. The example uses the <b>WdfDpcEnqueue</b> method's return value as the containing function's return value. The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdpc/nf-wdfdpc-wdfdpccreate">WdfDpcCreate</a> code example shows how the DPC object was created.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>return WdfDpcEnqueue(PDevExt->CompleteWriteDpc);</pre>
-</td>
-</tr>
-</table></span></div>
+```cpp
+return WdfDpcEnqueue(PDevExt->CompleteWriteDpc);
+```
 
 
 

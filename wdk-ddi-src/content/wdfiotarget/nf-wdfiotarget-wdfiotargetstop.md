@@ -131,13 +131,8 @@ If the driver has not called <a href="https://docs.microsoft.com/windows-hardwar
 
 The following code example shows how an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nc-wdfdevice-evt_wdf_device_d0_exit">EvtDeviceD0Exit</a> callback function can call <b>WdfIoTargetStop</b>, if the driver uses a continuous reader for a USB pipe. 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS
+```cpp
+NTSTATUS
 MyEvtDeviceD0Exit(
     IN  WDFDEVICE Device,
     IN  WDF_POWER_DEVICE_STATE TargetState
@@ -152,10 +147,8 @@ MyEvtDeviceD0Exit(
                     );
 
     return STATUS_SUCCESS;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

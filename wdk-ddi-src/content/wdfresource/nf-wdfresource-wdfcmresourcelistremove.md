@@ -97,13 +97,8 @@ For more information about resource lists, see <a href="https://docs.microsoft.c
 
 The following code example removes the third resource descriptor from the raw and translated lists of hardware resources that an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdffdo/nc-wdffdo-evt_wdf_device_remove_added_resources">EvtDeviceRemoveAddedResources</a> callback function receives.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS
+```cpp
+NTSTATUS
 MyEvtDeviceRemoveAddedResources(
     WDFDEVICE Device,
     WDFCMRESLIST ResourcesRaw,
@@ -121,10 +116,8 @@ MyEvtDeviceRemoveAddedResources(
                             );
 ...
 
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

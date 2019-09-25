@@ -145,23 +145,16 @@ For more information about the <b>WdfWmiInstanceFireEvent</b> method, see <a hre
 
 The following code example sends a WMI event to WMI clients. 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>MY_WMI_EVENT_DATA eventData;
+```cpp
+MY_WMI_EVENT_DATA eventData;
 NTSTATUS  status;
 
 status = WdfWmiInstanceFireEvent(
                                  WmiInstance,
                                  sizeof(eventData),
                                  (PVOID)&eventData
-                                 );</pre>
-</td>
-</tr>
-</table></span></div>
+                                 );
+```
 
 
 

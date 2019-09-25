@@ -107,13 +107,8 @@ For more information about I/O targets, see <a href="https://docs.microsoft.com/
 
 The following code example creates an I/O target object and opens a target by specifying a file name.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>UNICODE_STRING  fileName;
+```cpp
+UNICODE_STRING  fileName;
 
 RtlInitUnicodeString(
                      &fileName, 
@@ -143,10 +138,8 @@ status = WdfIoTargetOpen(
 if (!NT_SUCCESS(status)) {
     DEBUGP(MP_ERROR, ("WdfIoTargetOpen failed 0x%x\n", status));
     return status;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 
