@@ -39,7 +39,7 @@ api_name:
 product: 
 - Windows
 targetos: Windows
-ms.custom: Vib
+ms.custom: Vb
 ---
 
 # MBB_DEVICE_WAKE_CAPABILITIES_INIT function

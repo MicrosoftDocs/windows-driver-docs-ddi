@@ -39,7 +39,7 @@ api_name:
 product: 
 - Windows
 targetos: Windows
-ms.custom: Vib
+ms.custom: Vb
 ---
 
 # NET_ADAPTER_WAKE_MEDIA_CHANGE_CAPABILITIES_INIT function

@@ -10,7 +10,7 @@ ms.topic: portal
 tech.root: netvista
 product: 
 - Windows
-ms.custom: Vib
+ms.custom: Vb
 ---
 
 # Mdl.h header

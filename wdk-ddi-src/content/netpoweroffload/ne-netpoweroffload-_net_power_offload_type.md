@@ -32,7 +32,7 @@ api_name:
 product: 
  - Windows
 targetos: Windows
-ms.custom: Vib
+ms.custom: Vb
 ---
 
 # NET_POWER_OFFLOAD_TYPE enumeration

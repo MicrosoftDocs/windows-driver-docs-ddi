@@ -32,7 +32,7 @@ api_name:
 product: 
  - Windows
 targetos: Windows
-ms.custom: Vib
+ms.custom: Vb
 ---
 
 # MBB_WAKE_REASON_TYPE enumeration

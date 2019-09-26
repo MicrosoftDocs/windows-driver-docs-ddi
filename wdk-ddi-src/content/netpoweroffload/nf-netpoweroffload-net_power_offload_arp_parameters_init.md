@@ -39,7 +39,7 @@ api_name:
 product: 
 - Windows
 targetos: Windows
-ms.custom: Vib
+ms.custom: Vb
 ---
 
 # NET_POWER_OFFLOAD_ARP_PARAMETERS_INIT function

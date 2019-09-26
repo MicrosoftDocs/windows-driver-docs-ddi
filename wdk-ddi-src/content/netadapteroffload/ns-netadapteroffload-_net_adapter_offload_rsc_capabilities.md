@@ -35,7 +35,7 @@ api_name:
 product: 
  - Windows
 targetos: Windows
-ms.custom: Vib
+ms.custom: Vb
 ---
 
 # NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES structure

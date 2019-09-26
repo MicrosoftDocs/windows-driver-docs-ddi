@@ -38,7 +38,7 @@ api_name:
 product: 
  - Windows
 targetos: Windows
-ms.custom: Vib
+ms.custom: Vb
 ---
 
 # EVT_NET_ADAPTER_OFFLOAD_SET_RSC callback function

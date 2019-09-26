@@ -39,7 +39,7 @@ api_name:
 product: 
 - Windows
 targetos: Windows
-ms.custom: Vib
+ms.custom: Vb
 ---
 
 # NET_DEVICE_POWER_POLICY_EVENT_CALLBACKS_INIT function

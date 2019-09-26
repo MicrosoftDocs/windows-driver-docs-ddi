@@ -38,7 +38,7 @@ api_name:
 product: 
  - Windows
 targetos: Windows
-ms.custom: Vib
+ms.custom: Vb
 ---
 
 # EVT_NET_DEVICE_PREVIEW_POWER_OFFLOAD callback function
