@@ -2,11 +2,11 @@
 UID: NF:ring.NetRingGetFragmentAtIndex
 title: NetRingGetFragmentAtIndex function (ring.h)
 author: windows-driver-content
-description: TBD
-tech.root:
+description: The NetRingGetFragmentAtIndex method retrieves a fragment from a net ring.
+tech.root: netvista
 ms.assetid: 4cd64469-7623-437b-b85d-3fd5535495be
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/25/2019
 ms.topic: function
 f1_keywords:
  - "ring/NetRingGetFragmentAtIndex"
@@ -20,7 +20,7 @@ req.kmdf-ver:
 req.umdf-ver:
 req.lib:
 req.dll:
-req.irql: 
+req.irql: Any level as long as target memory is resident
 req.ddi-compliance:
 req.unicode-ansi:
 req.idl:
@@ -31,9 +31,9 @@ req.type-library:
 topic_type: 
 - apiref
 api_type: 
-- 
+- HeaderDef
 api_location: 
-- 
+- ring.h
 api_name: 
 - NetRingGetFragmentAtIndex
 product: 
@@ -44,24 +44,30 @@ ms.custom: Vib
 
 # NetRingGetFragmentAtIndex function
 
-
 ## -description
 
-TBD
+The **NetRingGetFragmentAtIndex** method retrieves a fragment from a net ring.
 
 ## -parameters
 
 ### -param Ring
 
-TBD
+A pointer to a [**NET_RING**](../ring/ns-netring-_net_ring.md).
 
 ### -param Index
 
-TBD
-
+The fragment index, within the range **[0, Ring->NumberOfElements)**.
 
 ## -returns
-This function returns NET_FRAGMENT *.
+
+Returns a pointer to the [**NET_FRAGMENT**](../fragment/ns-fragment-_net_fragment.md) at the specified index in the fragment ring.
+
 ## -remarks
 
+This method is a convenient wrapper around [**NetRingGetElementAtIndex**](../ring/nf-ring-netringgetelementatindex.md). Client drivers should call this method when working with a fragment ring instead of calling **NetRingGetElementAtIndex** directly.
+
 ## -see-also
+
+[**NET_FRAGMENT**](../fragment/ns-fragment-_net_fragment.md)
+
+[**NetRingGetElementAtIndex**](../ring/nf-ring-netringgetelementatindex.md)
