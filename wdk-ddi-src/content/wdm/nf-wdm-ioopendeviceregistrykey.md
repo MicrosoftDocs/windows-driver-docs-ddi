@@ -87,6 +87,8 @@ A driver's software key is also called its *driver key* because the registry con
 
 #### PLUGPLAY_REGKEY_CURRENT_HWPROFILE
 
+**Note**: Hardware profiles are deprecated and state should not be stored relative to a hardware profile.
+
 Open a key relative to the current hardware profile for device or driver information. This allows the driver to access configuration information that is hardware-profile-specific. The caller must specify either PLUGPLAY_REGKEY_DEVICE or PLUGPLAY_REGKEY_DRIVER with this flag. For more information, see [HKLM\SYSTEM\CurrentControlSet\HardwareProfiles Registry Tree](https://docs.microsoft.com/windows-hardware/drivers/install/hklm-system-currentcontrolset-hardwareprofiles-registry-tree).
 
 
