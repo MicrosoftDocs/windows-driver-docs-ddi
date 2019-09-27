@@ -51,7 +51,7 @@ The **NetRingGetElementAtIndex** method retrieves an element from a net ring.
 
 ### -param Ring
 
-A pointer to a [**NET_RING**](../ring/ns-netring-_net_ring.md).
+A pointer to a [**NET_RING**](../ring/ns-ring-_net_ring.md).
 
 ### -param Index
 

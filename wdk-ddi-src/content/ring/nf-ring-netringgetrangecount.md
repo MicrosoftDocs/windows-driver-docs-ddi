@@ -53,7 +53,7 @@ Calculates the number of elements contained in a range of the specified net ring
 ## -parameters
 
 ### -param RingBuffer
-A pointer to a [**NET_RING**](../ring/ns-netring-_net_ring.md).
+A pointer to a [**NET_RING**](../ring/ns-ring-_net_ring.md).
 
 ### -param StartIndex
 The inclusive start of the range to measure.

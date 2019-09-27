@@ -52,7 +52,7 @@ Returns the next index value after the specified index value, wrapping around to
 
 ### -param RingBuffer
 
-A pointer to a [**NET_RING**](../ring/ns-netring-_net_ring.md).
+A pointer to a [**NET_RING**](../ring/ns-ring-_net_ring.md).
 
 ### -param Index
 
