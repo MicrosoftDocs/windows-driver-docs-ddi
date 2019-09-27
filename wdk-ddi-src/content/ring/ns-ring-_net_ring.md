@@ -69,7 +69,7 @@ Specifies the read-only index of the last element that is owned by the client dr
 
 A union that contains the **OSReserved0** and **OSReserved2** members.
 
-### field DUMMYUNIONNAME.OSReserved0
+### -field DUMMYUNIONNAME.OSReserved0
 
 Reserved. Client drivers must not read or write to this value.
 
