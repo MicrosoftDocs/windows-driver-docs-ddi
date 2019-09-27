@@ -2,11 +2,11 @@
 UID: NS:returncontexttypes._NET_FRAGMENT_RETURN_CONTEXT
 title: NET_FRAGMENT_RETURN_CONTEXT (returncontexttypes.h)
 author: windows-driver-content
-description: 
-tech.root:
+description: The NET_FRAGMENT_RETURN_CONTEXT structure contains return context information for a [**NET_FRAGMENT**](../fragment/ns-fragment-_net_fragment.md).
+tech.root: netvista
 ms.assetid: 5795F982-866D-4731-BE0E-A085B0254CDF
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/26/2019
 ms.topic: struct
 f1_keywords:
  - "returncontexttypes/NET_FRAGMENT_RETURN_CONTEXT"
@@ -42,12 +42,24 @@ ms.custom: Vb
 
 ## -description
 
+The **NET_FRAGMENT_RETURN_CONTEXT** structure contains return context information for a [**NET_FRAGMENT**](../fragment/ns-fragment-_net_fragment.md).
 
 ## -struct-fields
 
 ### -field Handle
- 
+
+A handle to a driver-allocated context space structure. This member is optional and is only used in the receive data path.
+
+For more information about receive path capabilities, see [**NET_ADAPTER_RX_CAPABILITIES**](../netadapter/ns-netadapter-_net_adapter_rx_capabilities.md). 
 
 ## -remarks
 
+To obtain this structure, call [**NetExtensionGetFragmentReturnContext**](../returncontext/nf-returncontext-netextensiongetfragmentreturncontext.md).
+
 ## -see-also
+
+[Packet descriptors and extensions](https://docs.microsoft.com/windows-hardware/drivers/netcx/packet-descriptors-and-extensions)
+
+[**NET_FRAGMENT**](../fragment/ns-fragment-_net_fragment.md)
+
+[**NetExtensionGetFragmentReturnContext**](../returncontext/nf-returncontext-netextensiongetfragmentreturncontext.md)

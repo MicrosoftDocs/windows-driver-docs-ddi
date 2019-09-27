@@ -2,11 +2,11 @@
 UID: NS:logicaladdresstypes._NET_FRAGMENT_LOGICAL_ADDRESS
 title: NET_FRAGMENT_LOGICAL_ADDRESS (logicaladdresstypes.h)
 author: windows-driver-content
-description: 
-tech.root:
+description: The NET_FRAGMENT_LOGICAL_ADDRESS structure contains DMA logical address information for a NET_FRAGMENT.
+tech.root: netvista
 ms.assetid: 9E757066-6A96-41DF-8185-3264E5076651
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/26/2019
 ms.topic: struct
 f1_keywords:
  - "logicaladdresstypes/NET_FRAGMENT_LOGICAL_ADDRESS"
@@ -42,12 +42,26 @@ ms.custom: Vb
 
 ## -description
 
+The **NET_FRAGMENT_LOGICAL_ADDRESS** structure contains DMA logical address information for a [**NET_FRAGMENT**](../fragment/ns-fragment-_net_fragment.md).
 
 ## -struct-fields
 
 ### -field LogicalAddress
- 
+
+For receive queues, contains a mapped DMA address that can be used to program NIC hardware.
+
+For transmit queues, cast this value to an MDL pointer.
+
+Do not modify this value.
 
 ## -remarks
 
+To obtain this structure, call [**NetExtensionGetFragmentLogicalAddress**](../logicaladdress/nf-logicaladdress-netextensiongetfragmentlogicaladdress.md).
+
 ## -see-also
+
+[Packet descriptors and extensions](https://docs.microsoft.com/windows-hardware/drivers/netcx/packet-descriptors-and-extensions)
+
+[**NET_FRAGMENT**](../fragment/ns-fragment-_net_fragment.md)
+
+[**NetExtensionGetFragmentLogicalAddress**](../logicaladdress/nf-logicaladdress-netextensiongetfragmentlogicaladdress.md)

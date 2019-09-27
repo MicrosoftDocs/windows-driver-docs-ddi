@@ -2,11 +2,11 @@
 UID: NS:mdltypes._NET_FRAGMENT_MDL
 title: NET_FRAGMENT_MDL (mdltypes.h)
 author: windows-driver-content
-description: 
-tech.root:
+description: The NET_FRAGMENT_MDL structure contains DMA MDL information for a NET_FRAGMENT.
+tech.root: netvista
 ms.assetid: DA25E9D1-BCAC-4B48-9F13-A5C673CF40D3
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 09/26/2019
 ms.topic: struct
 f1_keywords:
  - "mdltypes/NET_FRAGMENT_MDL"
@@ -42,12 +42,26 @@ ms.custom: Vb
 
 ## -description
 
+The **NET_FRAGMENT_MDL** structure contains DMA MDL information for a [**NET_FRAGMENT**](../fragment/ns-fragment-_net_fragment.md).
 
 ## -struct-fields
 
 ### -field Mdl
- 
+
+For transmit queues, a pointer to an MDL to be used for scatter/gather DMA.
+
+For receive queues, this member is not used.
+
+Do not modify this value. 
 
 ## -remarks
 
+To obtain this structure, call [**NetExtensionGetFragmentMdl**](../mdl/nf-mdl-netextensiongetfragmentmdl.md).
+
 ## -see-also
+
+[Packet descriptors and extensions](https://docs.microsoft.com/windows-hardware/drivers/netcx/packet-descriptors-and-extensions)
+
+[**NET_FRAGMENT**](../fragment/ns-fragment-_net_fragment.md)
+
+[**NetExtensionGetFragmentMdl**](../mdl/nf-mdl-netextensiongetfragmentmdl.md)
