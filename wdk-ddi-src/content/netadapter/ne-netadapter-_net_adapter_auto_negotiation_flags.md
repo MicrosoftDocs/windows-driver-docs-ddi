@@ -4,7 +4,7 @@ title: _NET_ADAPTER_AUTO_NEGOTIATION_FLAGS (netadapter.h)
 description: Specifies the auto-negotiation settings for the NIC driver.
 tech.root: netvista
 ms.assetid: b7ae57e6-d3ce-409f-a737-ca303d1a58b1
-ms.date: 02/05/2018
+ms.date: 09/27/2019
 ms.topic: enum
 f1_keywords:
  - "netadapter/NET_ADAPTER_AUTO_NEGOTIATION_FLAGS"
@@ -44,23 +44,23 @@ Specifies the auto-negotiation settings for the NIC driver.
 
 ## -enum-fields
 
-### -field NET_ADAPTER_AUTO_NEGOTIATION_NO_FLAGS : 
+### -field NetAdapterAutoNegotiationFlagNone : 
 
 No flags are set.
 
-### -field NET_ADAPTER_LINK_STATE_XMIT_LINK_SPEED_AUTO_NEGOTIATED : 
+### -field NetAdapterAutoNegotiationFlagXmitLinkSpeedAutoNegotiated : 
 
 The adapter has auto-negotiated the transmit link speed with the link partner.
 
-### -field NET_ADAPTER_LINK_STATE_RCV_LINK_SPEED_AUTO_NEGOTIATED : 
+### -field NetAdapterAutoNegotiationFlagRcvLinkSpeedautoNegotiated : 
 
 The adapter has auto-negotiated the receive link speed with the link partner.
 
-### -field NET_ADAPTER_LINK_STATE_DUPLEX_AUTO_NEGOTIATED : 
+### -field NetAdapterAutoNegotiationFlagDuplexAutoNegotiated : 
 
 The adapter has auto-negotiated the duplex state with the link partner.
 
-### -field NET_ADAPTER_LINK_STATE_PAUSE_FUNCTIONS_AUTO_NEGOTIATED : 
+### -field NetAdapterAutoNegotiationFlagPauseFunctionsAutoNegotiated : 
 
 The adapter has auto-negotiated the pause functions with the link partner.
 

@@ -4,7 +4,7 @@ title: _NET_RING_TYPE (ringcollection.h)
 description: The NET_RING_TYPE enumeration defines types of net rings for a packet queue.
 tech.root: netvista
 ms.assetid: D14D96AB-E43E-4316-A737-E026C151FA67
-ms.date: 02/06/2019
+ms.date: 09/27/2019
 ms.topic: enum
 f1_keywords:
  - "ringcollection/RILWRITEPHONEBOOKENTRYPARAMS"
@@ -42,11 +42,11 @@ The **NET_RING_TYPE** enumeration defines types of net rings for a packet queue.
 
 ## -enum-fields
 
-### -field NET_RING_TYPE_PACKET : 
+### -field NetRingTypePacket : 
 
 The [**NET_RING**](../ring/ns-ring-_net_ring.md) is a packet ring.
 
-### -field NET_RING_TYPE_FRAGMENT : 
+### -field NetRingTypeFragment : 
 
 The [**NET_RING**](../ring/ns-ring-_net_ring.md) is a fragment ring.
 

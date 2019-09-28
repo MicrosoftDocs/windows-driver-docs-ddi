@@ -48,7 +48,7 @@ The **NET_FRAGMENT_RETURN_CONTEXT** structure contains return context informatio
 
 ### -field Handle
 
-A handle to a driver-allocated context space structure. This member is optional and is only used in the receive data path.
+A handle to a driver-allocated context space structure.
 
 For more information about receive path capabilities, see [**NET_ADAPTER_RX_CAPABILITIES**](../netadapter/ns-netadapter-_net_adapter_rx_capabilities.md). 
 
