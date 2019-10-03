@@ -1,0 +1,100 @@
+### YamlMime:Landing
+
+title: Programming reference for Windows Driver Kit (WDK)
+summary: The Windows driver API reference documentation is presented in two different views. When you click on an API, you see a technology-specific table of contents that shows only the APIs pertaining to that technology. When you click on a header, you see a header-specific table of contents that lists all APIs in the selected header.
+
+metadata: 
+  description: Windows Driver Kit (WDK) 10 is integrated with Microsoft Visual Studio and Debugging Tools for Windows. This integrated environment gives you the tools you need to develop, build, package, deploy, test, and debug Windows drivers. WDK includes templates for several technologies and driver models, including Windows Driver Frameworks (WDF), Universal Serial Bus (USB), print, networking, and file system filters.
+  author: tedhudek
+  ms.author: tedhudek
+  ms.date: 09/24/2019
+  ms.topic: landing-page
+  ms.prod: windows-hardware
+  ms.technology: windows-devices
+  services: wdk
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | whats-new
+# TODO: move text blocks into other topics, use action phrases as titles (About x; Order, set up, copy, return; Manage device; View requirements; Troubleshoot)
+# we want 24ish links max
+
+landingContent: 
+  # Card
+  - title: Driver Model
+    linkLists:
+      - linkListType: reference
+        links:
+          - text: KMDF and UMDF
+            url: /windows-hardware/drivers/ddi/content/_wdf/
+          - text: Core kernel
+            url: /windows-hardware/drivers/ddi/content/_kernel/
+  
+  - title: System
+    linkLists:
+      - linkListType: reference
+        links:
+          - text: Display
+            url: /windows-hardware/drivers/ddi/content/_display/
+          - text: Battery
+            url: /windows-hardware/drivers/ddi/content/_battery/
+          - text: ACPI
+            url: /windows-hardware/drivers/ddi/content/_acpi/
+          - text: Storage
+            url: /windows-hardware/drivers/ddi/content/_storage/
+          - text: File system
+            url: /windows-hardware/drivers/ddi/content/_ifsk/
+          - text: Hardware notifications
+            url: /windows-hardware/drivers/ddi/content/_gpiobtn/
+          - text: Power metering
+            url: /windows-hardware/drivers/ddi/content/_powermeter/
+          - text: Biometric
+            url: /windows-hardware/drivers/ddi/content/_biometric/
+
+
+  - title:  Devices
+    linkLists:
+      - linkListType: reference
+        links:
+          - text: Print
+            url: /windows-hardware/drivers/ddi/content/_print/
+          - text: HID
+            url: /windows-hardware/drivers/ddi/content/_hid/
+          - text: Sensors
+            url: /windows-hardware/drivers/ddi/content/_sensors/
+          - text: Point of service
+            url: /windows-hardware/drivers/ddi/content/_pos/
+          - text: Image and Scan
+            url: /windows-hardware/drivers/ddi/content/_image/
+
+
+  - title: Connectivity
+    linkLists:
+      - linkListType: reference
+        links:
+          - text: Network
+            url: /windows-hardware/drivers/ddi/content/_netvista/
+          - text: Bluetooth
+            url: /windows-hardware/drivers/ddi/content/_bltooth/
+          - text: Smart Card Readers
+            url: /windows-hardware/drivers/ddi/content/_nfpdrivers/
+
+  - title: Streaming
+    linkLists:
+      - linkListType: reference
+        links:
+          - text: Audio
+            url: /windows-hardware/drivers/ddi/content/_audio/
+          - text: Camera
+            url: /windows-hardware/drivers/ddi/content/_stream/
+
+  - title: Buses and ports
+    linkLists:
+      - linkListType: reference
+        links:
+          - text: USB
+            url: /windows-hardware/drivers/ddi/content/_usbref/
+          - text: I2C, SPI
+            url: /windows-hardware/drivers/ddi/content/_spb/
+          - text: PCI
+            url: /windows-hardware/drivers/ddi/content/_pci/
+          - text: GPIO
+            url: /windows-hardware/drivers/ddi/content/_gpio/
