@@ -2,7 +2,7 @@
 UID: NE:netpoweroffload._NET_POWER_OFFLOAD_TYPE
 title: NET_POWER_OFFLOAD_TYPE (netpoweroffload.h)
 author: windows-driver-content
-description: The NET_POWER_OFFLOAD_TYPE enumeration specifies the low-power offload protocol type for a net adapter.
+description: The NET_POWER_OFFLOAD_TYPE enumeration specifies the type for a low power offload protocol offload to a net adapter.
 tech.root: netvista
 ms.assetid: d321223f-7e48-43c6-bb35-85f0c646651e
 ms.author: windowsdriverdev
