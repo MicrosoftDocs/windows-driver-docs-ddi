@@ -202,13 +202,8 @@ For more information about DMA transactions, see <a href="https://docs.microsoft
 
 The following code example is from the <a href="https://go.microsoft.com/fwlink/p/?linkid=256157">PLX9x5x</a> sample driver. First, the example initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure and creates a DMA transaction object. Next, it obtains an MDL that represents a received I/O request's input buffer, and it obtains the virtual address and length of the buffer. Finally, the example calls <b>WdfDmaTransactionInitialize</b> to initialize the transaction.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDF_OBJECT_ATTRIBUTES  attributes;
+```cpp
+WDF_OBJECT_ATTRIBUTES  attributes;
 PMDL  mdl;
 PVOID  virtualAddress;
 ULONG  length;
@@ -249,10 +244,8 @@ status = WdfDmaTransactionInitialize(
                                      );
 if(!NT_SUCCESS(status)) {
     goto CleanUp;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

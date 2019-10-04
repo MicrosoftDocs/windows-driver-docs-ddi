@@ -93,13 +93,8 @@ For more information about debugging your driver, see <a href="https://docs.micr
 
 The following code example shows how a driver might handle a failure to obtain an I/O request's output buffer.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>Status = WdfRequestRetrieveOutputMemory(
+```cpp
+Status = WdfRequestRetrieveOutputMemory(
                                         Request,
                                         &memory
                                         );
@@ -112,10 +107,8 @@ if( !NT_SUCCESS(Status) ) {
                                       0L
                                       );
     return;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

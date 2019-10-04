@@ -88,19 +88,12 @@ For more information about this method, see <a href="https://docs.microsoft.com/
 
 The following code example obtains the maximum number of scatter/gather elements for a specified DMA enabler object.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>size_t maxElements;
+```cpp
+size_t maxElements;
 
 maxElements = WdfDmaEnablerGetMaximumScatterGatherElements(DmaEnabler);
- </pre>
-</td>
-</tr>
-</table></span></div>
+ 
+```
 
 
 

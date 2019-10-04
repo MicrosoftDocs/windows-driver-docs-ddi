@@ -88,17 +88,10 @@ For more information about framework file objects, see <a href="https://docs.mic
 
 The following code example obtains the flags that a specified framework file object contains.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>ULONG flags;
+```cpp
+ULONG flags;
 
-flags = WdfFileObjectGetFlags(fileObject);</pre>
-</td>
-</tr>
-</table></span></div>
+flags = WdfFileObjectGetFlags(fileObject);
+```
 
 

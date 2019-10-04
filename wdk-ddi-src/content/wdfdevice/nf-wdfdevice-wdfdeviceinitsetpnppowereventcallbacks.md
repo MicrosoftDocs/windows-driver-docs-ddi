@@ -93,13 +93,8 @@ For more information about calling <a href="https://docs.microsoft.com/windows-h
 
 The following code example initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/ns-wdfdevice-_wdf_pnppower_event_callbacks">WDF_PNPPOWER_EVENT_CALLBACKS</a> structure and then calls <b>WdfDeviceInitSetPnpPowerEventCallbacks</b>.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDF_PNPPOWER_EVENT_CALLBACKS  pnpPowerCallbacks;
+```cpp
+WDF_PNPPOWER_EVENT_CALLBACKS  pnpPowerCallbacks;
 
 WDF_PNPPOWER_EVENT_CALLBACKS_INIT(&pnpPowerCallbacks);
 pnpPowerCallbacks.EvtDevicePrepareHardware = SerialEvtPrepareHardware;
@@ -109,10 +104,8 @@ pnpPowerCallbacks.EvtDeviceD0Exit = SerialEvtDeviceD0Exit;
 WdfDeviceInitSetPnpPowerEventCallbacks(
                                        DeviceInit,
                                        &pnpPowerCallbacks
-                                       );</pre>
-</td>
-</tr>
-</table></span></div>
+                                       );
+```
 
 
 

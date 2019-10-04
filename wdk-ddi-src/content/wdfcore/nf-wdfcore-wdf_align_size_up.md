@@ -91,22 +91,15 @@ If the value of either input parameter is too large, arithmetic overflow causes 
 
 The following code example receives a buffer size and returns the size (either the current size or the next-higher size) that aligns to a DWORD address boundary.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>bufferSizeAligned = WDF_ALIGN_SIZE_UP(bufferSize,
+```cpp
+bufferSizeAligned = WDF_ALIGN_SIZE_UP(bufferSize,
                                       sizeof(DWORD));
 if (bufferSizeAligned < bufferSize)
 {
     // Buffer too large.
     ...
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

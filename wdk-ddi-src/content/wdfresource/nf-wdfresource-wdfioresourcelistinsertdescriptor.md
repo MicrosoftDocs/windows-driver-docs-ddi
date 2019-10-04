@@ -156,13 +156,8 @@ For more information about resource requirements lists and logical configuration
 
 The following code example initializes a resource descriptor and adds the descriptor to the end of a logical configuration.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>IO_RESOURCE_DESCRIPTOR descriptor;
+```cpp
+IO_RESOURCE_DESCRIPTOR descriptor;
 
 RtlZeroMemory(&descriptor, sizeof(descriptor));
 
@@ -182,10 +177,8 @@ status = WdfIoResourceListInsertDescriptor(
                                            );
 if (!NT_SUCCESS(status)) {
     return status;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

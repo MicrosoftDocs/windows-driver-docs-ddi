@@ -99,21 +99,14 @@ For more information about framework string objects, see <a href="https://docs.m
 
 The following code example obtains the Unicode string that is assigned to a specified framework string object.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>UNICODE_STRING StringName;
+```cpp
+UNICODE_STRING StringName;
 
 WdfStringGetUnicodeString(
                           stringHandle,
                           &StringName
-                          );</pre>
-</td>
-</tr>
-</table></span></div>
+                          );
+```
 
 
 

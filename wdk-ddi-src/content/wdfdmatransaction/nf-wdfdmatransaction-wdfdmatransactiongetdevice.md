@@ -88,18 +88,11 @@ For more information about completing DMA transfers, see <a href="https://docs.m
 
 The following code example obtains a handle to the framework device object that is associated with a specified DMA transaction.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDFDEVICE device;
+```cpp
+WDFDEVICE device;
 
-device = WdfDmaTransactionGetDevice(DmaTransaction);</pre>
-</td>
-</tr>
-</table></span></div>
+device = WdfDmaTransactionGetDevice(DmaTransaction);
+```
 
 
 

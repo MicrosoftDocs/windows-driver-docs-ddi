@@ -104,13 +104,8 @@ For more information about request completion, see <a href="https://docs.microso
 
 The following code example is from the <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/sample-kmdf-drivers">KbFiltr</a> sample driver. This example sends an I/O request to an I/O target. If <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfrequest/nf-wdfrequest-wdfrequestsend">WdfRequestSend</a> fails, the example uses the <b>WdfRequestGetStatus</b> return value as input to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfrequest/nf-wdfrequest-wdfrequestcomplete">WdfRequestComplete</a>. 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VOID
+```cpp
+VOID
 KbFilter_ForwardRequest(
     IN WDFREQUEST Request,
     IN WDFIOTARGET Target
@@ -140,10 +135,8 @@ KbFilter_ForwardRequest(
                            );
     }
     return;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

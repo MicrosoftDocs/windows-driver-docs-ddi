@@ -71,12 +71,12 @@ A handle to a framework device object.
 
 ### -param OldAddressDescription [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfchildlist/ns-wdfchildlist-_wdf_child_address_description_header">WDF_CHILD_ADDRESS_DESCRIPTION_HEADER</a> structure that identifies a child address description. This structure contains address information that was relevant before the device was reenumerated.
+Optional pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfchildlist/ns-wdfchildlist-_wdf_child_address_description_header">WDF_CHILD_ADDRESS_DESCRIPTION_HEADER</a> structure that identifies a child address description, or NULL. If provided, this structure contains address information that was relevant before the device was reenumerated.
 
 
 ### -param NewAddressDescription [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfchildlist/ns-wdfchildlist-_wdf_child_address_description_header">WDF_CHILD_ADDRESS_DESCRIPTION_HEADER</a> structure that identifies a child address description. The callback function fills in this structure with new address information about the device.
+Optional pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfchildlist/ns-wdfchildlist-_wdf_child_address_description_header">WDF_CHILD_ADDRESS_DESCRIPTION_HEADER</a> structure that identifies a child address description, or NULL. If provided, the callback function fills in this structure with new address information about the device.
 
 
 ## -returns
@@ -108,7 +108,7 @@ Calls the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/
 
 </li>
 </ol>
-The <i>EvtChildListDeviceReenumerated</i> callback function receives pointers to two address descriptions. One points to the address description that is associated with the old device object. The other points to an address description that the callback function must fill in with information that describes the device's current location.
+If the bus driver uses address descriptions, the <i>EvtChildListDeviceReenumerated</i> callback function receives pointers to two address descriptions. One points to the address description that is associated with the old device object. The other points to an address description that the callback function must fill in with information that describes the device's current location.
 
 For more information about dynamic enumeration, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/enumerating-the-devices-on-a-bus">Enumerating the Devices on a Bus</a>.
 

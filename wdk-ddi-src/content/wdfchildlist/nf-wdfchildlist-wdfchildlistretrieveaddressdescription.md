@@ -142,13 +142,8 @@ For more information about child lists, see <a href="https://docs.microsoft.com/
 
 The following code example searches a child list for a child device whose identification description contains the value that is specified by <b>SomeValue</b>. If <b>WdfChildListRetrieveAddressDescription</b> locates the device, it retrieves the device's address description.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>MY_IDENTIFICATION_DESCRIPTION  id;
+```cpp
+MY_IDENTIFICATION_DESCRIPTION  id;
 MY_ADDRESS_DESCRIPTION  addrDescrip;
 
 WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER_INIT(
@@ -168,10 +163,8 @@ status = WdfChildListRetrieveAddressDescription(
                                                 );
 if (!NT_SUCCESS(status) {
     return status;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

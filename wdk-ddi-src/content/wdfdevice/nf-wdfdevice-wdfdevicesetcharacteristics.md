@@ -93,19 +93,12 @@ Each call to <b>WdfDeviceSetCharacteristics</b> overwrites the settings of any p
 
 The following code example sets the FILE_REMOVABLE_MEDIA characteristic for a specified device.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WdfDeviceSetCharacteristics(
+```cpp
+WdfDeviceSetCharacteristics(
                             Device,
                             FILE_REMOVABLE_MEDIA
-                            );</pre>
-</td>
-</tr>
-</table></span></div>
+                            );
+```
 
 
 

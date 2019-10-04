@@ -114,13 +114,8 @@ To obtain the device name string from the string object, the driver can call <a 
 
 The following code example creates a string object and then retrieves a specified device's name. 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS status;
+```cpp
+NTSTATUS status;
 WDFSTRING string;
 
 status = WdfStringCreate(
@@ -136,10 +131,8 @@ if (NT_SUCCESS(status)) {
     if (!NT_SUCCESS(status)) {
         return status;
     }
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

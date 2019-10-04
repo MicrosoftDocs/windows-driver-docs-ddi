@@ -158,20 +158,13 @@ For more information about the <b>WdfIoQueueReadyNotify</b> method, see <a href=
 
 The following code example registers a driver's <b>EvtIoQueueReady</b> function, so that this function will be called when the specified I/O queue receives an I/O request.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>Status = WdfIoQueueReadyNotify(
+```cpp
+Status = WdfIoQueueReadyNotify(
                                ReadQueue,
                                EvtIoQueueReady,
                                myQueueContext
-                               );</pre>
-</td>
-</tr>
-</table></span></div>
+                               );
+```
 
 
 

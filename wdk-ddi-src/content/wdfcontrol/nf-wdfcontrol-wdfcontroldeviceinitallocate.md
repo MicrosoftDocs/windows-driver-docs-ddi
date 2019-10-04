@@ -95,13 +95,8 @@ For more information about calling <b>WdfControlDeviceInitAllocate</b>, see <a h
 
 The following code example allocates a DEVICE_INIT structure, assigns a device object name, registers a shutdown notification callback function, and creates a control device object. For a more complex example that uses <b>WdfControlDeviceInitAllocate</b>, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/sample-kmdf-drivers">NONPNP</a> sample driver or the <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/sample-kmdf-drivers">NDISProt</a> sample driver.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>PWDFDEVICE_INIT  deviceInit = NULL;
+```cpp
+PWDFDEVICE_INIT  deviceInit = NULL;
 NTSTATUS  status;
 WDF_OBJECT_ATTRIBUTES  objectAttribs;
 
@@ -139,10 +134,8 @@ if (!NT_SUCCESS(status)) {
     deviceInit = NULL;
     goto Error;
 }
-WdfControlFinishInitializing(controlDevice);</pre>
-</td>
-</tr>
-</table></span></div>
+WdfControlFinishInitializing(controlDevice);
+```
 
 
 

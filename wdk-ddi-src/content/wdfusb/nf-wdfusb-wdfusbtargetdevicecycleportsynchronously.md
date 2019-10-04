@@ -115,18 +115,11 @@ For more information about the <b>WdfUsbTargetDeviceCyclePortSynchronously</b> m
 
 The following code example power-cycles a specified device's USB port.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS status;
+```cpp
+NTSTATUS status;
 
-status = WdfUsbTargetDeviceCyclePortSynchronously(UsbDevice);</pre>
-</td>
-</tr>
-</table></span></div>
+status = WdfUsbTargetDeviceCyclePortSynchronously(UsbDevice);
+```
 
 
 

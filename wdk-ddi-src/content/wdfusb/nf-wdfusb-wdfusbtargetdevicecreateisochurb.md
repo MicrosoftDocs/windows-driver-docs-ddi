@@ -157,13 +157,8 @@ For related information, see the Remarks section of <a href="https://docs.micros
 
 The following code example is based on the PerformIsochTransfer routine in the Isorwr sample driver. The example calls <b>WdfUsbTargetDeviceCreateIsochUrb</b> to allocate an isochronous USB request block. The example determines the number  of bytes required to hold the isochronous transfer request, and then manually configures the URB header and the isochronous packets in the URB.  At this point, the driver can call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfusb/nf-wdfusb-wdfusbtargetpipeformatrequestforurb">WdfUsbTargetPipeFormatRequestForUrb</a>, as shown in the example in  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfusb/nf-wdfusb-wdfusbtargetdevicecreateurb">WdfUsbTargetDeviceCreateUrb</a>.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+```cpp
+
 USBD_PIPE_HANDLE usbdPipeHandle;
 ULONG numPackets = UserBufferLength/TransferSizePerFrame;
 ULONG urbSize;
@@ -196,10 +191,8 @@ for (packetId = 0; packetId < numberOfPackets; packetId++) {
      Urb-> UrbIsochronousTransfer.IsoPacket[packetId].YYY = yyy;
 }
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 
 
 

@@ -94,13 +94,8 @@ For more information about I/O targets, see <a href="https://docs.microsoft.com/
 
 The following code example is the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfiotarget/nc-wdfiotarget-evt_wdf_io_target_query_remove">EvtIoTargetQueryRemove</a> callback function from the <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/sample-kmdf-drivers">Toaster</a> sample driver. The function stops a timer, ensures that a previously submitted work item has been serviced, and then calls <b>WdfIoTargetCloseForQueryRemove</b>.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS
+```cpp
+NTSTATUS
 ToastMon_EvtIoTargetQueryRemove(
     WDFIOTARGET IoTarget
 )
@@ -122,10 +117,8 @@ ToastMon_EvtIoTargetQueryRemove(
     WdfIoTargetCloseForQueryRemove(IoTarget);
 
     return STATUS_SUCCESS;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

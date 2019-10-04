@@ -85,13 +85,8 @@ The <b>WDF_REQUEST_PARAMETERS_INIT</b> function zeros the specified <a href="htt
 
 The following code example initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfrequest/ns-wdfrequest-_wdf_request_parameters">WDF_REQUEST_PARAMETERS</a> structure and then calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfrequest/nf-wdfrequest-wdfrequestgetparameters">WdfRequestGetParameters</a>.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VOID
+```cpp
+VOID
 MyEvtIoDefault(
     IN WDFQUEUE  Queue,
     IN WDFREQUEST  Request
@@ -106,10 +101,8 @@ MyEvtIoDefault(
                             &params
                             );
 ...
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

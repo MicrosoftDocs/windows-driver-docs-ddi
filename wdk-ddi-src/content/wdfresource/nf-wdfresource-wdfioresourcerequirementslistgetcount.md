@@ -86,13 +86,8 @@ For more information about resource requirements lists, see <a href="https://doc
 
 The following code example shows how an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdffdo/nc-wdffdo-evt_wdf_device_filter_resource_requirements">EvtDeviceFilterRemoveResourceRequirements</a> callback function can obtain the number of logical configurations that are contained in a resource requirements list.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS
+```cpp
+NTSTATUS
 Example_EvtDeviceFilterRemoveResourceRequirements(
     IN WDFDEVICE Device,
     IN WDFIORESREQLIST RequirementsList
@@ -101,9 +96,7 @@ Example_EvtDeviceFilterRemoveResourceRequirements(
     ULONG count;
 
     count = WdfIoResourceRequirementsListGetCount(RequirementsList);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 

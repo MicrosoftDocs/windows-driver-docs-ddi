@@ -92,13 +92,8 @@ If your driver calls this method on an operating system earlier than Windows 8,
 
 The following example shows how a driver might call <b>WdfInterruptReportInactive</b> from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-po_fx_component_idle_state_callback">ComponentIdleStateCallback</a> routine of a KMDF driver. The driver registers a single component by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nf-wdfdevice-wdfdevicewdmassignpowerframeworksettings">WdfDeviceWdmAssignPowerFrameworkSettings</a>.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VOID
+```cpp
+VOID
 MyComponentIdleStateCallback(
     _In_ PVOID Context,
     _In_ ULONG Component,
@@ -141,10 +136,8 @@ MyComponentIdleStateCallback(
     …
 
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 
 
 

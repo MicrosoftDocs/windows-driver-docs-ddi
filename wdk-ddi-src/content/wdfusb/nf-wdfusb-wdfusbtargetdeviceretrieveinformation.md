@@ -118,13 +118,8 @@ In framework versions 1.11 and later, the driver  can call <a href="https://docs
 
 The following code example is part of an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nc-wdfdevice-evt_wdf_device_prepare_hardware">EvtDevicePrepareHardware</a> callback function that creates a USB device object, initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfusb/ns-wdfusb-_wdf_usb_device_information">WDF_USB_DEVICE_INFORMATION</a> structure, and calls <b>WdfUsbTargetDeviceRetrieveInformation</b>. 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS
+```cpp
+NTSTATUS
 MyEvtDevicePrepareHardware(
     IN WDFDEVICE  Device,
     IN WDFCMRESLIST  ResourceList,
@@ -165,10 +160,8 @@ MyEvtDevicePrepareHardware(
                                       &deviceInfo
                                       );
 ...
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

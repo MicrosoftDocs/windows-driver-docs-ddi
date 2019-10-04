@@ -103,19 +103,12 @@ Do not call <b>WdfTimerStop</b> from inside <a href="https://docs.microsoft.com/
 
 The following code example stops a specified timer and waits for all of the driver's queued DPCs to execute.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WdfTimerStop(
+```cpp
+WdfTimerStop(
              timerHandle,
              TRUE
-             );</pre>
-</td>
-</tr>
-</table></span></div>
+             );
+```
 
 
 

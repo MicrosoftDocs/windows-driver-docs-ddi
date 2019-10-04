@@ -171,13 +171,8 @@ For more information about the <b>WdfWmiProviderCreate</b> method, see <a href="
 
 The following code example initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfwmi/ns-wdfwmi-_wdf_wmi_provider_config">WDF_WMI_PROVIDER_CONFIG</a> structure and calls <b>WdfWmiProviderCreate</b>.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDF_WMI_PROVIDER_CONFIG config;
+```cpp
+WDF_WMI_PROVIDER_CONFIG config;
 WDFWMIPROVIDER provider;
 GUID providerGuid = MY_WMI_DATA_BLOCK_GUID;
 NTSTATUS status;
@@ -194,10 +189,8 @@ status = WdfWmiProviderCreate(
                               &config,
                               WDF_NO_OBJECT_ATTRIBUTES,
                               &provider
-                              );</pre>
-</td>
-</tr>
-</table></span></div>
+                              );
+```
 
 
 

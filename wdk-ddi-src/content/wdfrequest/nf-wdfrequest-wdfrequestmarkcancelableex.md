@@ -192,13 +192,8 @@ In the first example, the driver is using the framework's <a href="https://docs.
 
 <b>Example 1: A driver that uses automatic synchronization.</b>
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VOID
+```cpp
+VOID
 MyEvtIoRead(
     IN WDFQUEUE  Queue,
     IN WDFREQUEST  Request,
@@ -240,19 +235,12 @@ MyEvtRequestCancel(
                        Request,
                        STATUS_CANCELLED
                        );
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 <b>Example 2: A driver that uses its own synchronization.</b>
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VOID
+```cpp
+VOID
 MyEvtIoRead(
     IN WDFQUEUE  Queue,
     IN WDFREQUEST  Request,
@@ -297,10 +285,8 @@ MyEvtRequestCancel(
     // request was canceled.
     WdfSpinlockRelease(MyCancelSpinLock);
     WdfRequestComplete (Request, STATUS_CANCELLED);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

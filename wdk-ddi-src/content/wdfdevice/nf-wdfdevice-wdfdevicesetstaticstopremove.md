@@ -101,18 +101,11 @@ For more information about how to prevent the operating system from stopping a d
 
 The following code example informs the framework that the specified device cannot be stopped and removed.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WdfDeviceSetStaticStopRemove(
+```cpp
+WdfDeviceSetStaticStopRemove(
                              device,
                              FALSE
-                             );</pre>
-</td>
-</tr>
-</table></span></div>
+                             );
+```
 
 

@@ -93,23 +93,16 @@ For more information about the <b>WdfUsbTargetDeviceGetDeviceDescriptor</b> meth
 
 The following code example obtains the USB device descriptor for a device. The example stores the descriptor in driver-defined context space.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>PMY_DEVICE_CONTEXT  myDeviceContext;
+```cpp
+PMY_DEVICE_CONTEXT  myDeviceContext;
 
 myDeviceContext = GetDeviceContext(device);
 
 WdfUsbTargetDeviceGetDeviceDescriptor(
                                       myDeviceContext->UsbTargetDevice,
                                       &myDeviceContext->UsbDeviceDescr
-                                      );</pre>
-</td>
-</tr>
-</table></span></div>
+                                      );
+```
 
 
 

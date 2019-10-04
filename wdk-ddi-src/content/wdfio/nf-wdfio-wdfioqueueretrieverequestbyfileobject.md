@@ -158,22 +158,15 @@ For more information about the <b>WdfIoQueueRetrieveRequestByFileObject</b> meth
 
 The following code example obtains, from a specified I/O queue, a handle to the next framework request object that is associated with a specified framework file object.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDFREQUEST  request;
+```cpp
+WDFREQUEST  request;
 
 status = WdfIoQueueRetrieveRequestByFileObject(
                                                queue,
                                                fileObject,
                                                &request
-                                               );</pre>
-</td>
-</tr>
-</table></span></div>
+                                               );
+```
 
 
 

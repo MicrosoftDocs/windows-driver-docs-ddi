@@ -113,18 +113,11 @@ For more information about the <b>WdfWmiInstanceRegister</b> method, see <a href
 
 The following code example registers a specified instance of a WMI data provider with the system's WMI service.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS  status;
+```cpp
+NTSTATUS  status;
 
-status = WdfWmiInstanceRegister(wmiInstance);</pre>
-</td>
-</tr>
-</table></span></div>
+status = WdfWmiInstanceRegister(wmiInstance);
+```
 
 
 

@@ -116,17 +116,10 @@ For more information about low-power states, see <a href="https://docs.microsoft
 
 The following code example obtains the power transition activity that is currently occurring for the computer.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>POWER_ACTION SysPowerAction;
+```cpp
+POWER_ACTION SysPowerAction;
 
-SysPowerAction = WdfDeviceGetSystemPowerAction(device);</pre>
-</td>
-</tr>
-</table></span></div>
+SysPowerAction = WdfDeviceGetSystemPowerAction(device);
+```
 
 

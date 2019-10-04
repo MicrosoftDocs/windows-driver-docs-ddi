@@ -165,13 +165,8 @@ For more information about the <b>WdfUsbTargetDeviceRetrieveConfigDescriptor</b>
 
 The following code example calls <b>WdfUsbTargetDeviceRetrieveConfigDescriptor</b> to obtain the required buffer size, calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfmemory/nf-wdfmemory-wdfmemorycreate">WdfMemoryCreate</a> to create a memory object and buffer, and then calls <b>WdfUsbTargetDeviceRetrieveConfigDescriptor</b> again to obtain a device's configuration information.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>USHORT  size;
+```cpp
+USHORT  size;
 NTSTATUS  ntStatus;
 PMY_DEVICE_CONTEXT  myDeviceContext;
 PUSB_CONFIGURATION_DESCRIPTOR  configurationDescriptor = NULL;
@@ -212,10 +207,8 @@ ntStatus = WdfUsbTargetDeviceRetrieveConfigDescriptor(
                                             );
 if (!NT_SUCCESS(ntStatus)) {
     return ntStatus;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

@@ -92,18 +92,11 @@ For more information about the <b>WdfUsbInterfaceGetNumSettings</b> method and U
 
 The following code example obtains the number of alternate settings that are available for a specified USB interface.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>BYTE altSettings;
+```cpp
+BYTE altSettings;
 
-altSettings = WdfUsbInterfaceGetNumSettings(UsbInterface);</pre>
-</td>
-</tr>
-</table></span></div>
+altSettings = WdfUsbInterfaceGetNumSettings(UsbInterface);
+```
 
 
 

@@ -96,18 +96,11 @@ The device type that a driver specifies determines the default priority boost va
 
 The following code example indicates that a device is a serial device.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WdfDeviceInitSetDeviceType(
+```cpp
+WdfDeviceInitSetDeviceType(
                            DeviceInit,
                            FILE_DEVICE_SERIAL_PORT
-                           );</pre>
-</td>
-</tr>
-</table></span></div>
+                           );
+```
 
 

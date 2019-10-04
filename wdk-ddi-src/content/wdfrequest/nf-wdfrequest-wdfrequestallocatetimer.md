@@ -124,13 +124,8 @@ If a timer is already allocated for the specified request, <b>WdfRequestAllocate
 
 The following code example initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfrequest/ns-wdfrequest-_wdf_request_send_options">WDF_REQUEST_SEND_OPTIONS</a> structure, allocates a timer object for the I/O request, and then calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfrequest/nf-wdfrequest-wdfrequestsend">WdfRequestSend</a>.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS  status;
+```cpp
+NTSTATUS  status;
 WDF_REQUEST_SEND_OPTIONS  options;
 BOOLEAN  requestSend;
 
@@ -154,10 +149,8 @@ if (!NT_SUCCESS(status)){
                                  ioTarget,
                                  &options
                                  );
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

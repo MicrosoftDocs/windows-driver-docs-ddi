@@ -235,13 +235,8 @@ For more information about the <b>WdfUsbTargetPipeFormatRequestForRead</b> metho
 
 The following code example is from the <a href="https://go.microsoft.com/fwlink/p/?linkid=256131">kmdf_fx2</a> sample driver. This example is an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfio/nc-wdfio-evt_wdf_io_queue_io_read">EvtIoRead</a> callback function that forwards a read request to a USB pipe. The example calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfrequest/nf-wdfrequest-wdfrequestretrieveoutputmemory">WdfRequestRetrieveOutputMemory</a> to obtain the request's output buffer, and then it formats the read request so that the request can be sent to a USB pipe. Next, the example registers a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfrequest/nc-wdfrequest-evt_wdf_request_completion_routine">CompletionRoutine</a> callback function. Finally, it sends the request to the USB pipe.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VOID 
+```cpp
+VOID 
 OsrFxEvtIoRead(
     IN WDFQUEUE  Queue,
     IN WDFREQUEST  Request,
@@ -307,10 +302,8 @@ Exit:
                                           );
     }
     return;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

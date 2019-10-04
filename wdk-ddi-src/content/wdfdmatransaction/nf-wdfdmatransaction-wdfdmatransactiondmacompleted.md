@@ -141,13 +141,8 @@ For more information about completing DMA transfers, see <a href="https://docs.m
 
 The following code example is from the <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/sample-kmdf-drivers">AMCC5933</a> sample driver. This example shows an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_dpc">EvtInterruptDpc</a> callback function. The example notifies the framework that a DMA transfer has completed. If the framework indicates that this transfer is the last one for the DMA transaction, the code deletes the DMA transaction object and completes the associated I/O request.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VOID
+```cpp
+VOID
 AmccPciEvtInterruptDpc(
     IN WDFINTERRUPT  WdfInterrupt,
     IN WDFOBJECT  WdfDevice
@@ -241,10 +236,8 @@ AmccPciEvtInterruptDpc(
                                           (NT_SUCCESS(status)) ? transferred : 0
                                           );
     }
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

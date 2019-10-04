@@ -144,13 +144,8 @@ Alternatively, you can use <a href="https://docs.microsoft.com/windows-hardware/
 
 The following code example calls <b>WdfFdoInitAllocAndQueryProperty</b> to obtain a handle to a framework memory object that contains the name of a device's setup class. Then, the example calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfmemory/nf-wdfmemory-wdfmemorygetbuffer">WdfMemoryGetBuffer</a> to obtain a pointer to the buffer that contains the setup class name's Unicode string.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS  status = STATUS_SUCCESS;
+```cpp
+NTSTATUS  status = STATUS_SUCCESS;
 PVOID  pMemoryBuffer = NULL;
 WDFMEMORY  memory = NULL;
 
@@ -166,10 +161,8 @@ if(NT_SUCCESS(status)){
                                     memory,
                                     NULL
                                     );
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

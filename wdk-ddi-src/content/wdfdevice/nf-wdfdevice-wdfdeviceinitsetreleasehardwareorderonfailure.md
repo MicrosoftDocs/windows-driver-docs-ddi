@@ -100,19 +100,12 @@ If a driver calls <b>WdfDeviceInitSetReleaseHardwareOrderOnFailure</b>, it must 
 
 The following code example shows how a bus driver can request that the framework wait to call its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nc-wdfdevice-evt_wdf_device_release_hardware">EvtDeviceReleaseHardware</a> callback function until all of its child devices have been removed.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WdfDeviceInitSetReleaseHardwareOrderOnFailure(
+```cpp
+WdfDeviceInitSetReleaseHardwareOrderOnFailure(
                        DeviceInit,
                        WdfReleaseHardwareOrderOnFailureAfterDescendants
-                       );</pre>
-</td>
-</tr>
-</table></span></div>
+                       );
+```
 
 
 

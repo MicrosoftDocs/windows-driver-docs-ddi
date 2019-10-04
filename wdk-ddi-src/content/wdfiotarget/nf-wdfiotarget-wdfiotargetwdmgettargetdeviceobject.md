@@ -96,20 +96,13 @@ For more information about I/O targets, see <a href="https://docs.microsoft.com/
 
 The following code example checks an I/O target's WDM DEVICE_OBJECT structure to verify that the target supports direct I/O operations.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>if (!((WdfIoTargetWdmGetTargetDeviceObject(Adapter->IoTarget))->Flags
+```cpp
+if (!((WdfIoTargetWdmGetTargetDeviceObject(Adapter->IoTarget))->Flags
  & DO_DIRECT_IO)) {
     ASSERTMSG("Target device doesn't support direct I/O\n", FALSE);
     return STATUS_INVALID_DEVICE_REQUEST;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

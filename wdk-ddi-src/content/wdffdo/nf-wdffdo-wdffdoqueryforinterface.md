@@ -148,23 +148,16 @@ For more information about <b>WdfFdoQueryForInterface</b>, see <a href="https://
 
 The following code example is from the <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/sample-kmdf-drivers">Toaster</a> sample function driver. This example obtains access to an interface that the toaster sample bus driver defines.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>status = WdfFdoQueryForInterface(
+```cpp
+status = WdfFdoQueryForInterface(
                                  Device,
                                  &GUID_TOASTER_INTERFACE_STANDARD,
                                  (PINTERFACE) &fdoData->BusInterface, // Object context space
                                  sizeof(TOASTER_INTERFACE_STANDARD),
                                  1,
                                  NULL
-                                 );</pre>
-</td>
-</tr>
-</table></span></div>
+                                 );
+```
 
 
 

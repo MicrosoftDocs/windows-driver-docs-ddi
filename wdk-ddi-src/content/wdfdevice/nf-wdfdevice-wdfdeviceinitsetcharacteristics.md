@@ -100,20 +100,13 @@ Each call to <b>WdfDeviceInitSetCharacteristics</b> overwrites the settings of a
 
 The following code example indicates that a device is a floppy disk.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WdfDeviceInitSetCharacteristics(
+```cpp
+WdfDeviceInitSetCharacteristics(
                                 DeviceInit,
                                 FILE_FLOPPY_DISKETTE,
                                 FALSE
-                                );</pre>
-</td>
-</tr>
-</table></span></div>
+                                );
+```
 
 
 

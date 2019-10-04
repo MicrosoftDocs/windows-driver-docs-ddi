@@ -88,16 +88,9 @@ For more information about miniport drivers, see <a href="https://docs.microsoft
 
 The following code example deletes a specified miniport driver's framework driver object.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WdfDriverMiniportUnload(WdfGetDriver());</pre>
-</td>
-</tr>
-</table></span></div>
+```cpp
+WdfDriverMiniportUnload(WdfGetDriver());
+```
 
 
 

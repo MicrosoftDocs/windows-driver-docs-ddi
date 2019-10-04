@@ -88,13 +88,8 @@ For more information about <b>WdfRequestWdmGetIrp</b>, see <a href="https://docs
 
 The following code example is part of an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfio/nc-wdfio-evt_wdf_io_queue_io_device_control">EvtIoDeviceControl</a> callback function that obtains the WDM IRP that is associated with an I/O request and then calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iogetnextirpstacklocation">IoGetNextIrpStackLocation</a> to obtain the next-lower driver's I/O stack location.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VOID
+```cpp
+VOID
 MyEvtIoDeviceControl(
     IN WDFQUEUE  Queue,
     IN WDFREQUEST  Request,
@@ -109,10 +104,8 @@ MyEvtIoDeviceControl(
     irp = WdfRequestWdmGetIrp(Request);
     nextStack = IoGetNextIrpStackLocation(irp);
 ...
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

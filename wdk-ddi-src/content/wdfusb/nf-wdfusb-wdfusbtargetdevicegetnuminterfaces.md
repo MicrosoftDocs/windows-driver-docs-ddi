@@ -88,18 +88,11 @@ For more information about the <b>WdfUsbTargetDeviceGetNumInterfaces</b> method 
 
 The following code example obtains the number of USB device interfaces that a specified USB device supports.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>UCHAR numInterfaces;
+```cpp
+UCHAR numInterfaces;
 
-numInterfaces = WdfUsbTargetDeviceGetNumInterfaces(UsbDevice);</pre>
-</td>
-</tr>
-</table></span></div>
+numInterfaces = WdfUsbTargetDeviceGetNumInterfaces(UsbDevice);
+```
 
 
 

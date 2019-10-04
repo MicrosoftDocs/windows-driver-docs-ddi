@@ -90,13 +90,8 @@ The <b>WDF_REQUEST_REUSE_PARAMS_SET_NEW_IRP</b> function sets the structure's <b
 
 The following code example initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfrequest/ns-wdfrequest-_wdf_request_reuse_params">WDF_REQUEST_REUSE_PARAMS</a> structure, provides a new IRP structure for the I/O request, and then calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfrequest/nf-wdfrequest-wdfrequestreuse">WdfRequestReuse</a>.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDF_REQUEST_REUSE_PARAMS  params;
+```cpp
+WDF_REQUEST_REUSE_PARAMS  params;
 NTSTATUS  status;
 PIRP  myIrp;
 ...
@@ -113,10 +108,8 @@ status = WdfRequestReuse(
                          Request,
                          &params
                          );
-...</pre>
-</td>
-</tr>
-</table></span></div>
+...
+```
 
 
 

@@ -207,13 +207,8 @@ For more information about the <b>WdfUsbTargetPipeSendUrbSynchronously</b> metho
 
 The following code example initializes a URB and sends the URB to a USB pipe.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>URB  urb;
+```cpp
+URB  urb;
 PURB  pUrb = NULL;
 NTSTATUS status;
 
@@ -227,10 +222,8 @@ status = WdfUsbTargetPipeSendUrbSynchronously(
                                               Request,
                                               NULL,
                                               pUrb
-                                              );</pre>
-</td>
-</tr>
-</table></span></div>
+                                              );
+```
 
 
 

@@ -97,13 +97,8 @@ For more information about framework memory objects, see <a href="https://docs.m
 
 The following code example is based on the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfusb/nc-wdfusb-evt_wdf_usb_reader_completion_routine">EvtUsbTargetPipeReadComplete</a> callback function in the <a href="https://go.microsoft.com/fwlink/p/?linkid=256131">kmdf_fx2</a> sample driver. The example obtains the buffer that is associated with the memory object that the callback function receives. The example copies data from the buffer into device object context space that the driver has defined.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VOID
+```cpp
+VOID
 OsrFxEvtUsbInterruptPipeReadComplete(
     WDFUSBPIPE  Pipe,
     WDFMEMORY  Buffer,
@@ -118,10 +113,8 @@ OsrFxEvtUsbInterruptPipeReadComplete(
     device = WdfObjectContextGetObject(pDeviceContext);
     switchState = WdfMemoryGetBuffer(Buffer, NULL);
     pDeviceContext->CurrentSwitchState = *switchState;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

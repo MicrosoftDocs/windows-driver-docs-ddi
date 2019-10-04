@@ -92,18 +92,11 @@ For more information about the <b>WdfUsbTargetDeviceWdmGetConfigurationHandle</b
 
 The following code example obtains a handle to the current configuration of a specified USB device.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>USBD_CONFIGURATION_HANDLE deviceConfigHdl;
+```cpp
+USBD_CONFIGURATION_HANDLE deviceConfigHdl;
 
-deviceConfigHdl = WdfUsbTargetDeviceWdmGetConfigurationHandle(UsbDevice);</pre>
-</td>
-</tr>
-</table></span></div>
+deviceConfigHdl = WdfUsbTargetDeviceWdmGetConfigurationHandle(UsbDevice);
+```
 
 
 

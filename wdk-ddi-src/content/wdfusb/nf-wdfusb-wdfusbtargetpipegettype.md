@@ -90,19 +90,12 @@ For more information about the <b>WdfUsbTargetPipeGetType</b> method and USB I/O
 
 The following code example determines the type of a USB pipe.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDF_USB_PIPE_TYPEusbPipeType;
+```cpp
+WDF_USB_PIPE_TYPEusbPipeType;
 
 usbPipeType = WdfUsbTargetPipeGetType(usbPipe);
- </pre>
-</td>
-</tr>
-</table></span></div>
+ 
+```
 
 
 

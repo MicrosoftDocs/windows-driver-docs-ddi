@@ -127,13 +127,8 @@ For a code example that shows how to use <b>WdfRequestCompleteWithInformation</b
 
 The following code example shows how a driver for a USB device might call <b>WdfRequestCompleteWithInformation</b> in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfrequest/nc-wdfrequest-evt_wdf_request_completion_routine">CompletionRoutine</a> callback function .
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VOID
+```cpp
+VOID
 EvtRequestReadCompletionRoutine(
     IN WDFREQUEST  Request,
     IN WDFIOTARGET  Target,
@@ -174,10 +169,8 @@ EvtRequestReadCompletionRoutine(
                                       bytesRead
                                       );
     return;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

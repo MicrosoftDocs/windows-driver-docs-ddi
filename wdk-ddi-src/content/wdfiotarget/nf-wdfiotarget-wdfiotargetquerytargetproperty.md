@@ -157,13 +157,8 @@ For more information about I/O targets, see <a href="https://docs.microsoft.com/
 
 The following code example obtains a device's <b>DevicePropertyUINumber</b> property. The example calls <b>WdfIoTargetQueryTargetProperty</b> instead of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfiotarget/nf-wdfiotarget-wdfiotargetallocandquerytargetproperty">WdfIoTargetAllocAndQueryTargetProperty</a> because the length of a UI number is known.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>ULONG targetUINumber, resultLength;
+```cpp
+ULONG targetUINumber, resultLength;
 NTSTATUS status;
 
 status = WdfIoTargetQueryTargetProperty(
@@ -172,10 +167,8 @@ status = WdfIoTargetQueryTargetProperty(
                                         sizeof(targetNumber),
                                         &targetUINumber,
                                         &resultLength
-                                        );</pre>
-</td>
-</tr>
-</table></span></div>
+                                        );
+```
 
 
 

@@ -176,13 +176,8 @@ If you call this method from a UMDF driver, you must specify the <b>UmdfDispatch
 
 The following code example is part of an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nc-wdfdevice-evt_wdf_device_prepare_hardware">EvtDevicePrepareHardware</a> callback function that calls <b>WdfUsbTargetDeviceCreateWithParameters</b>. The example stores the handle to the framework USB device object in driver-defined context space. 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS
+```cpp
+NTSTATUS
 MyEvtDevicePrepareHardware(
     IN WDFDEVICE  Device,
     IN WDFCMRESLIST  ResourceList,
@@ -216,10 +211,8 @@ MyEvtDevicePrepareHardware(
         return status;
     }
 ...
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

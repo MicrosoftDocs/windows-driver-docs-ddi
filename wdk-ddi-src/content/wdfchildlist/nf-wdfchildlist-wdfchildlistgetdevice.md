@@ -87,17 +87,10 @@ For more information about child lists, see <a href="https://docs.microsoft.com/
 
 The following code example obtains a handle to the device object that represents the parent device of a child list.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDFDEVICE parentDevice;
+```cpp
+WDFDEVICE parentDevice;
 
-parentDevice = WdfChildListGetDevice(ChildList);</pre>
-</td>
-</tr>
-</table></span></div>
+parentDevice = WdfChildListGetDevice(ChildList);
+```
 
 

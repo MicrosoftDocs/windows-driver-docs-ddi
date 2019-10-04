@@ -181,13 +181,8 @@ For more information about <b>WdfRequestRetrieveOutputBuffer</b>, see <a href="h
 
 The following code example is part of an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfio/nc-wdfio-evt_wdf_io_queue_io_device_control">EvtIoDeviceControl</a> callback function. This example obtains a USB device's configuration descriptor and places the descriptor in the I/O request's output buffer.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VOID
+```cpp
+VOID
 MyEvtIoDeviceControl(
     IN WDFQUEUE  Queue,
     IN WDFREQUEST  Request,
@@ -271,10 +266,8 @@ MyEvtIoDeviceControl(
                                       bytesReturned
                                       );
     return;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

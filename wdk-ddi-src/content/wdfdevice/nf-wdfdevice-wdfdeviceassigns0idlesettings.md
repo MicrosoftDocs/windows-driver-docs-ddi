@@ -164,13 +164,8 @@ For more information, see <a href="https://docs.microsoft.com/windows-hardware/d
 
 The following code example initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/ns-wdfdevice-_wdf_device_power_policy_idle_settings">WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS</a> structure, sets an idle time-out value of 10 seconds, and calls <b>WdfDeviceAssignS0IdleSettings</b>.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS  idleSettings;
+```cpp
+WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS  idleSettings;
 NTSTATUS  status = STATUS_SUCCESS;
 
 WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT(
@@ -185,10 +180,8 @@ status = WdfDeviceAssignS0IdleSettings(
                                        );
 if (!NT_SUCCESS(status)) {
     return status;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

@@ -90,18 +90,11 @@ For more information about the <b>WdfUsbInterfaceGetConfiguredSettingIndex</b> m
 
 The following code example obtains the index for the currently selected alternate setting of a specified USB interface.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>BYTE settingIndex;
+```cpp
+BYTE settingIndex;
 
-settingIndex = WdfUsbInterfaceGetConfiguredSettingIndex(UsbInterface);</pre>
-</td>
-</tr>
-</table></span></div>
+settingIndex = WdfUsbInterfaceGetConfiguredSettingIndex(UsbInterface);
+```
 
 
 

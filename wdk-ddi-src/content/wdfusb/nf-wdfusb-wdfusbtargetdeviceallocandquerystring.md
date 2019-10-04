@@ -177,13 +177,8 @@ For more information about the <b>WdfUsbTargetDeviceAllocAndQueryString</b> meth
 
 The following code example calls <b>WdfUsbTargetDeviceAllocAndQueryString</b> to obtain a manufacturer's name string, in USA English (0x0409), from a USB device descriptor. (The driver previously stored the descriptor in driver-defined context space.)
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>PMY_DEVICE_CONTEXT  myDeviceContext;
+```cpp
+PMY_DEVICE_CONTEXT  myDeviceContext;
 WDFMEMORY  memoryHandle;
 USHORT  numCharacters;
 
@@ -196,10 +191,8 @@ status = WdfUsbTargetDeviceAllocAndQueryString(
                                         &numCharacters,
                                         myDeviceContext->UsbDeviceDescr.iManufacturer,
                                         0x0409
-                                        );</pre>
-</td>
-</tr>
-</table></span></div>
+                                        );
+```
 
 
 

@@ -94,13 +94,8 @@ For more information about I/O targets, see <a href="https://docs.microsoft.com/
 
 The following code example creates an I/O target object and opens the target by specifying a DEVICE_OBJECT structure. The sample driver obtains the DEVICE_OBJECT structure by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismgetdeviceproperty">NdisMGetDeviceProperty</a> (not shown).
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDF_IO_TARGET_OPEN_PARAMS  openParams;
+```cpp
+WDF_IO_TARGET_OPEN_PARAMS  openParams;
 NTSTATUS  ntStatus;
 
 ntStatus = WdfIoTargetCreate(
@@ -123,10 +118,8 @@ ntStatus = WdfIoTargetOpen(Adapter->IoTarget,
 if (!NT_SUCCESS(ntStatus)) {
     DEBUGP(MP_ERROR, ("WdfIoTargetOpen failed 0x%x\n", ntStatus));
     break;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

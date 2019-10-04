@@ -84,19 +84,12 @@ A relative time is a time value that is relative to the current system time. For
 
 The following code example specifies a relative timeout value of 5 seconds for an I/O request.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDF_REQUEST_SEND_OPTIONS  requestSendOptions;
+```cpp
+WDF_REQUEST_SEND_OPTIONS  requestSendOptions;
 ...
 requestSendOptions.Timeout = WDF_REL_TIMEOUT_IN_SEC(5);
-...</pre>
-</td>
-</tr>
-</table></span></div>
+...
+```
 
 
 

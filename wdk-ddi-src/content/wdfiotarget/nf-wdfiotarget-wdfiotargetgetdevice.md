@@ -92,13 +92,8 @@ For more information about I/O targets, see <a href="https://docs.microsoft.com/
 
 The following code example is shows how an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfiotarget/nc-wdfiotarget-evt_wdf_io_target_query_remove">EvtIoTargetQueryRemove</a> callback function can call <b>WdfIoTargetGetDevice</b>.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS
+```cpp
+NTSTATUS
 MyEvtIoTargetQueryRemove(
     WDFIOTARGET IoTarget
 )
@@ -107,10 +102,8 @@ WDFDEVICE device;
 ...
 device = WdfIoTargetGetDevice(IoTarget);
 ...
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

@@ -112,18 +112,11 @@ The <b>WdfDmaTransactionRelease</b> method flushes transfer buffers and releases
 
 The following code example terminates the DMA transaction that the specified DMA transaction object represents, but it does not delete the DMA transaction object.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS  status;
+```cpp
+NTSTATUS  status;
 
-status = WdfDmaTransactionRelease(dmaTransaction);</pre>
-</td>
-</tr>
-</table></span></div>
+status = WdfDmaTransactionRelease(dmaTransaction);
+```
 
 
 

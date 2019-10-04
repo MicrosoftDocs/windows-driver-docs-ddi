@@ -122,13 +122,8 @@ For more information about calling <b>WdfRequestCompleteWithPriorityBoost</b>, s
 
 The following code example shows how the example at <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfrequest/nf-wdfrequest-wdfrequestcomplete">WdfRequestComplete</a> can use <b>WdfRequestCompleteWithPriorityBoost</b> instead of <b>WdfRequestComplete</b>.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>switch (params.Type) {
+```cpp
+switch (params.Type) {
     case WdfRequestTypeRead:
         length = params.Parameters.Read.Length;
         direction = WdfDmaDirectionReadFromDevice;
@@ -144,10 +139,8 @@ The following code example shows how the example at <a href="https://docs.micros
                                             IO_NO_INCREMENT
                                             );
         return;
-    }</pre>
-</td>
-</tr>
-</table></span></div>
+    }
+```
 
 
 

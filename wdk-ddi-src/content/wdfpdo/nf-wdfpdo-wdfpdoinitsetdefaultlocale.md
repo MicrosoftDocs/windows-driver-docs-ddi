@@ -91,19 +91,12 @@ The driver must call <b>WdfPdoInitSetDefaultLocale</b> before calling <a href="h
 
 The following code example sets a device's default locale to United States English (0x409).
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WdfPdoInitSetDefaultLocale(
+```cpp
+WdfPdoInitSetDefaultLocale(
                            pDeviceInit,
                            0x409
-                           );</pre>
-</td>
-</tr>
-</table></span></div>
+                           );
+```
 
 
 

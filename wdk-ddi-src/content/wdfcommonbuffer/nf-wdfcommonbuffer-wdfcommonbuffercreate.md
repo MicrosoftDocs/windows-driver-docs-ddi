@@ -159,13 +159,8 @@ For more information about common buffers, see <a href="https://docs.microsoft.c
 
 The following code example shows how to obtain a common buffer. The example stores information about the common buffer in driver-defined context space that is identified by the <b>DevExt</b> pointer.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>DevExt->CommonBufferSize = sizeof(COMMON_BUFFER_STRUCT);  // Your structure size
+```cpp
+DevExt->CommonBufferSize = sizeof(COMMON_BUFFER_STRUCT);  // Your structure size
 status = WdfCommonBufferCreate(
                                DevExt->DmaEnabler,
                                DevExt->CommonBufferSize,
@@ -177,10 +172,8 @@ if (status == STATUS_SUCCESS) {
         WdfCommonBufferGetAlignedVirtualAddress(DevExt->CommonBuffer);
     DevExt->CommonBufferBaseLA =
         WdfCommonBufferGetAlignedLogicalAddress(DevExt->CommonBuffer); 
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

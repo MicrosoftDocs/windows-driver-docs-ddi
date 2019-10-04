@@ -89,18 +89,11 @@ For more information about common buffers, see <a href="https://docs.microsoft.c
 
 The following code example obtains the length of a specified common buffer.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>size_t bufferLength;
+```cpp
+size_t bufferLength;
 
-bufferLength = WdfCommonBufferGetLength(DevExt->CommonBuffer); </pre>
-</td>
-</tr>
-</table></span></div>
+bufferLength = WdfCommonBufferGetLength(DevExt->CommonBuffer); 
+```
 
 
 

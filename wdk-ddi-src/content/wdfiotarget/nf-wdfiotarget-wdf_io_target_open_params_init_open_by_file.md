@@ -90,13 +90,8 @@ A driver can explicitly close the I/O target by calling <a href="https://docs.mi
 
 The following code example shows how a UMDF driver can open a local target with a file object as described in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfiotarget/ne-wdfiotarget-_wdf_io_target_open_type">WDF_IO_TARGET_OPEN_TYPE</a>:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDF_OBJECT_ATTRIBUTES  ioTargetAttrib;
+```cpp
+WDF_OBJECT_ATTRIBUTES  ioTargetAttrib;
 WDFIOTARGET  ioTarget;
 WDF_IO_TARGET_OPEN_PARAMS  openParams;
 
@@ -132,10 +127,8 @@ if (!NT_SUCCESS(status)) {
 //
 // Send request to above target
 //
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 
 
 

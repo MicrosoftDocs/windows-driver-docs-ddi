@@ -84,13 +84,8 @@ For more information about the <b>WdfRequestIsReserved</b> method, see <a href="
 
 The following code example determines whether a request object that a driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfio/nc-wdfio-evt_wdf_io_queue_io_read">EvtIoRead</a> callback function has received is one that the driver created for low-memory situations.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>VOID
+```cpp
+VOID
   MyIoRead (
     IN WDFQUEUE  Queue,
     IN WDFREQUEST  Request,
@@ -106,10 +101,8 @@ The following code example determines whether a request object that a driver's <
   ...
   }
 
-  ...}</pre>
-</td>
-</tr>
-</table></span></div>
+  ...}
+```
 
 
 

@@ -141,13 +141,8 @@ For more information about child devices and child lists, see <a href="https://d
 
 The following code example informs the framework that a child device with a specified serial number is unavailable.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>PDO_IDENTIFICATION_DESCRIPTION  description;
+```cpp
+PDO_IDENTIFICATION_DESCRIPTION  description;
 NTSTATUS  status;
 
 WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER_INIT(
@@ -159,10 +154,8 @@ description.SerialNo = SerialNo;
 status = WdfChildListUpdateChildDescriptionAsMissing(
                                                      list,
                                                      &description.Header
-                                                     );</pre>
-</td>
-</tr>
-</table></span></div>
+                                                     );
+```
 
 
 

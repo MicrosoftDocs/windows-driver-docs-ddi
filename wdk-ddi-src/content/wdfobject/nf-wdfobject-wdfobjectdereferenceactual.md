@@ -108,21 +108,14 @@ For more information about object reference counts and the cleanup rules for a f
 
 The following code example decrements an object's reference count and assigns a tag value, line number, and file name to the reference.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WdfObjectDereferenceActual(
+```cpp
+WdfObjectDereferenceActual(
                            object,
                            pTag,
                            line,
                            FILE_NAME
-                           );</pre>
-</td>
-</tr>
-</table></span></div>
+                           );
+```
 
 
 

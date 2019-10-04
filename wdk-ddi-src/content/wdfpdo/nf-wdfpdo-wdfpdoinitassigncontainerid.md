@@ -123,13 +123,8 @@ The driver must call <b>WdfPdoInitAssignContainerID</b> before calling <a href="
 
 The following code example initializes a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure, stores a Unicode string in the structure, and then registers the Unicode string as the device's container ID.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>UNICODE_STRING containerId = {0}; 
+```cpp
+UNICODE_STRING containerId = {0}; 
 
 RtlInitUnicodeString(
                      &containerId,
@@ -138,10 +133,8 @@ RtlInitUnicodeString(
 status = WdfPdoInitAssignContainerID(
                                      pDeviceInit,
                                      &containerId
-                                     );</pre>
-</td>
-</tr>
-</table></span></div>
+                                     );
+```
 
 
 

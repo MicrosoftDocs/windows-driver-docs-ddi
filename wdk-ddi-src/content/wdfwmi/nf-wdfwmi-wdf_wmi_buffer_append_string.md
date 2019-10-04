@@ -101,13 +101,8 @@ When <b>WDF_WMI_BUFFER_APPEND_STRING</b> returns, the location that the <i>Requi
 
 The following code example is from the <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/sample-kmdf-drivers">Serial</a> sample driver. This example is an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfwmi/nc-wdfwmi-evt_wdf_wmi_instance_query_instance">EvtWmiInstanceQueryInstance</a> callback function that obtains a device's symbolic name and copies the name into the callback function's output buffer.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>NTSTATUS
+```cpp
+NTSTATUS
 EvtWmiQueryPortName(
     IN  WDFWMIINSTANCE WmiInstance,
     IN  ULONG OutBufferSize,
@@ -145,10 +140,8 @@ EvtWmiQueryPortName(
                                         &string,
                                         BufferUsed
                                         );
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

@@ -180,21 +180,14 @@ The string format specified in the <i>KeyName</i> parameter  depends on whether 
 
 Your driver might use this conditional logic:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>#ifdef _KERNEL_MODE
+```cpp
+#ifdef _KERNEL_MODE
 #define CONTROL_KEY_FULL_PATH L"\\Registry\\Machine\\System\\CurrentControlSet\\Control "
 #else
 #define CONTROL_KEY_FULL_PATH L"System\\CurrentControlSet\\Control\\" 
 #endif
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
 When the driver has finished using a registry key that it opens with <b>WdfRegistryOpenKey</b>, the driver must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfregistry/nf-wdfregistry-wdfregistryclose">WdfRegistryClose</a>.
 
 For more information about registry-key objects, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-the-registry-in-wdf-drivers">Using the Registry in Framework-Based Drivers</a>.
@@ -204,13 +197,8 @@ For more information about registry-key objects, see <a href="https://docs.micro
 
 The following code example opens a driver's software key, and then it opens the <b>MySubKey</b> registry key, which is located under the driver's software key.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDFKEY  hKey, subkey;
+```cpp
+WDFKEY  hKey, subkey;
 NTSTATUS  status;
 UNICODE_STRING myKeyStr;
 
@@ -233,10 +221,8 @@ if (NT_SUCCESS(status)){
                                 WDF_NO_OBJECT_ATTRIBUTES,
                                 &subkey
                                 );
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

@@ -90,13 +90,8 @@ The <b>WDF_REQUEST_SEND_OPTIONS_SET_TIMEOUT</b> function stores the specified ti
 
 The following code example initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfrequest/ns-wdfrequest-_wdf_request_send_options">WDF_REQUEST_SEND_OPTIONS</a> structure and sets a time-out value for the structure. (The example calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfcore/nf-wdfcore-wdf_rel_timeout_in_sec">WDF_REL_TIMEOUT_IN_SEC</a> to specify a relative time-out value of 10 seconds.) The example then uses the <b>WDF_REQUEST_SEND_OPTIONS</b> structure as input to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfusb/nf-wdfusb-wdfusbtargetpipewritesynchronously">WdfUsbTargetPipeWriteSynchronously</a>.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDF_REQUEST_SEND_OPTIONS  syncReqOptions;
+```cpp
+WDF_REQUEST_SEND_OPTIONS  syncReqOptions;
 
 WDF_REQUEST_SEND_OPTIONS_INIT(
                               &syncReqOptions,
@@ -112,10 +107,8 @@ status = WdfUsbTargetPipeWriteSynchronously(
                                             &syncReqOptions,
                                             &writeBufDesc,
                                             NULL
-                                            );</pre>
-</td>
-</tr>
-</table></span></div>
+                                            );
+```
 
 
 

@@ -93,13 +93,8 @@ The <b>WDF_MEMORY_DESCRIPTOR_INIT_MDL</b> function zeros the specified <a href="
 
 The following code example allocates a buffer, creates an MDL for the buffer, and uses the MDL to initialize a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfmemory/ns-wdfmemory-_wdf_memory_descriptor">WDF_MEMORY_DESCRIPTOR</a> structure.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>PVOID  pBuffer = NULL;
+```cpp
+PVOID  pBuffer = NULL;
 PMDL  pMdl = NULL;
 
 pBuffer = ExAllocatePoolWithTag(
@@ -127,10 +122,8 @@ WDF_MEMORY_DESCRIPTOR_INIT_MDL(
                                pInputBuffer,
                                pMdl,
                                BUFFER_LENGTH
-                               );</pre>
-</td>
-</tr>
-</table></span></div>
+                               );
+```
 
 
 

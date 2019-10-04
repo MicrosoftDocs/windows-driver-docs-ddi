@@ -169,13 +169,8 @@ For more information about using DPC objects, see <a href="https://docs.microsof
 
 The following code example initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdpc/nf-wdfdpc-wdf_dpc_config_init">WDF_DPC_CONFIG_INIT</a> structure and then creates a DPC object. 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDF_DPC_CONFIG dpcConfig;
+```cpp
+WDF_DPC_CONFIG dpcConfig;
 WDF_OBJECT_ATTRIBUTES dpcAttributes;
 NTSTATUS status;
 
@@ -193,10 +188,8 @@ status = WdfDpcCreate(
                       );
 if (!NT_SUCCESS(status)) {
     return status;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 

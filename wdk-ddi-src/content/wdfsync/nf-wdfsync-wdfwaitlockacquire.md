@@ -163,13 +163,8 @@ For more information about wait locks, see <a href="https://docs.microsoft.com/w
 
 The following code example acquires a wait lock, adds a device object to an object collection, and releases the wait lock.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WdfWaitLockAcquire(
+```cpp
+WdfWaitLockAcquire(
                    FilterDeviceCollectionLock,
                    NULL
                    );
@@ -180,10 +175,8 @@ status = WdfCollectionAdd(
 if (!NT_SUCCESS(status)) {
     addFailed = TRUE;
 }
-WdfWaitLockRelease(FilterDeviceCollectionLock);</pre>
-</td>
-</tr>
-</table></span></div>
+WdfWaitLockRelease(FilterDeviceCollectionLock);
+```
 
 
 

@@ -90,18 +90,11 @@ For more information about handling interrupts in framework-based drivers, see <
 
 The following code example obtains a pointer to the KINTERRUPT structure that is associated with a specified framework interrupt object.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>PKINTERRUPT  wdmInterrupt;
+```cpp
+PKINTERRUPT  wdmInterrupt;
 
-wdmInterrupt = WdfInterruptWdmGetInterrupt(Interrupt);</pre>
-</td>
-</tr>
-</table></span></div>
+wdmInterrupt = WdfInterruptWdmGetInterrupt(Interrupt);
+```
 
 
 

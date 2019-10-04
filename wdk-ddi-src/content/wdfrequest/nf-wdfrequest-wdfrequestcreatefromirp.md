@@ -116,13 +116,8 @@ Framework-based drivers must not use the <b>Tail.Overlay.DriverContext</b> membe
 
 The following code example creates a framework request object from a specified WDM IRP and then deletes it. This example sets the <i>RequestFreesIrp</i> parameter to <b>TRUE</b>, so the framework removes the IRP when the request handle is destroyed.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDFREQUEST request;
+```cpp
+WDFREQUEST request;
 PIRP irp;
 
 //Creation
@@ -134,21 +129,14 @@ status = WdfRequestCreateFromIrp(
                                  );
 ...
 //Deletion
-WdfObjectDelete(request);</pre>
-</td>
-</tr>
-</table></span></div>
+WdfObjectDelete(request);
+```
 <b>Example 2</b>
 
 The following code example also creates a framework request object from a specified WDM IRP and then deletes it. This example sets the <i>RequestFreesIrp</i> parameter to <b>FALSE</b>, so the driver must call <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/storport-iofreeirp">IoFreeIrp</a> to remove the IRP. All of the function calls in the example  are required.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDF_REQUEST_REUSE_PARAMS params;
+```cpp
+WDF_REQUEST_REUSE_PARAMS params;
 WDFREQUEST request;
 PIRP irp;
 
@@ -176,10 +164,8 @@ status = WdfRequestReuse(
                          );
 ASSERT(NT_SUCCESS(status));
 IoFreeIrp(irp);
-WdfObjectDelete(request);</pre>
-</td>
-</tr>
-</table></span></div>
+WdfObjectDelete(request);
+```
 
 
 

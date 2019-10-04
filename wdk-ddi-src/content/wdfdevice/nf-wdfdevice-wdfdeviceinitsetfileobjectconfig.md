@@ -103,13 +103,8 @@ For more information about framework file objects, see <a href="https://docs.mic
 
 The following code example initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure and a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/ns-wdfdevice-_wdf_fileobject_config">WDF_FILEOBJECT_CONFIG</a> structure and then calls <b>WdfDeviceInitSetFileObjectConfig</b>.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>WDF_OBJECT_ATTRIBUTES  attributes;
+```cpp
+WDF_OBJECT_ATTRIBUTES  attributes;
 
 WDF_OBJECT_ATTRIBUTES_INIT(&attributes);
 attributes.SynchronizationScope = WdfSynchronizationScopeNone;
@@ -123,10 +118,8 @@ WdfDeviceInitSetFileObjectConfig(
                                  DeviceInit,
                                  &deviceConfig,
                                  &attributes
-                                 );</pre>
-</td>
-</tr>
-</table></span></div>
+                                 );
+```
 
 
 

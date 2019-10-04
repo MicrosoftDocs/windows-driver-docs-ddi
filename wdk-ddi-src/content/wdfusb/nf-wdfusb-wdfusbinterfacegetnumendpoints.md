@@ -95,20 +95,13 @@ For more information about the <b>WdfUsbInterfaceGetNumEndpoints</b> method and 
 
 The following code example obtains the number of endpoints for alternate setting 0 of a specified USB interface.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>BYTE  numEndpoints;
+```cpp
+BYTE  numEndpoints;
 numEndpoints = WdfUsbInterfaceGetNumEndpoints(
                                               UsbInterface,
                                               0
-                                              );</pre>
-</td>
-</tr>
-</table></span></div>
+                                              );
+```
 
 
 

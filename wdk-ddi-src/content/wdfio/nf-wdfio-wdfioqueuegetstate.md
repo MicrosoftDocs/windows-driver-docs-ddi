@@ -131,13 +131,8 @@ For more information about the <b>WdfIoQueueGetState</b> method, see <a href="ht
 
 The following code example is a routine that returns <b>TRUE</b> if a specified I/O queue is idle.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>BOOLEAN
+```cpp
+BOOLEAN
 IsQueueIdle(
     IN WDFQUEUE Queue
     )
@@ -149,10 +144,8 @@ IsQueueIdle(
                                      NULL
                                      );
     return (WDF_IO_QUEUE_IDLE(queueStatus)) ? TRUE : FALSE;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
 
 
 
