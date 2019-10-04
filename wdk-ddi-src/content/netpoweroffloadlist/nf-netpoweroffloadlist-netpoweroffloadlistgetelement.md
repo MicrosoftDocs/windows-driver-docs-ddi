@@ -57,7 +57,7 @@ A handle to a driver-allocated and initialized [**NET_POWER_OFFLOAD_LIST**](../n
 
 ### -param Index
 
-The zero-based index in the list for the target NETPOWEROFFLOAD object. **Index** must be between **0** inclusive and the number of NETPOWEROFFLOAD objects in the list exclusive. For example, if there are three NETPOWEROFFLOAD objects, then **Index** must be in the range of **[0, 3)**.
+The zero-based index in the list for the target NETPOWEROFFLOAD object. This method must be less than the value returned by [**NetPowerOffloadListGetCount**](../netpoweroffloadlist/nf-netpoweroffloadlist-netpoweroffloadlistgetcount.md).
 
 ## -returns
 
@@ -66,6 +66,8 @@ Returns the NETPOWEROFFLOAD object at the specified index in the list.
 ## -remarks
 
 Call [**NetPowerOffloadListGetCount**](../netpoweroffloadlist/nf-netpoweroffloadlist-netpoweroffloadlistgetcount.md) to get the number of low power protocol offloads before calling this method.
+
+The client driver must only call **NetPowerOffloadListGetElement** during a power transition, typically from its *[EVT_WDF_DEVICE_ARM_WAKE_FROM_SX](../wdfdevice/nc-wdfdevice-evt_wdf_device_arm_wake_from_sx.md)*, *[EVT_WDF_DEVICE_ARM_WAKE_FROM_S0](../wdfdevice/nc-wdfdevice-evt_wdf_device_arm_wake_from_s0.md)*, or *[EVT_NET_ADAPTER_PREVIEW_PROTOCOL_OFFLOAD](../netadapter/nc-netadapter-evt_net_adapter_preview_protocol_offload.md)* callback function. Otherwise, the call results in a system bugcheck.
 
 For a code sample of working with NETPOWEROFFLOAD objects, see [Configuring power management](https://docs.microsoft.com/windows-hardware/drivers/netcx/configuring-power-management).
 
