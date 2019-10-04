@@ -2,25 +2,25 @@
 UID: NF:netpoweroffloadlist.NetPowerOffloadListGetCount
 title: NetPowerOffloadListGetCount function (netpoweroffloadlist.h)
 author: windows-driver-content
-description: TBD
-tech.root:
+description: The NetPowerOffloadListGetCount method gets the number of low power protocol offloads to a net adapter.
+tech.root: netvista
 ms.assetid: 30c4d484-07c2-42ab-bce7-42d2f73968e4
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/03/2019
 ms.topic: function
 f1_keywords:
  - "netpoweroffloadlist/NetPowerOffloadListGetCount"
 ms.keywords: NetPowerOffloadListGetCount
 req.header: netpoweroffloadlist.h
 req.include-header:
-req.target-type:
-req.target-min-winverclnt:
+req.target-type: Universal
+req.target-min-winverclnt: The next version of Windows 10
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
 req.lib:
 req.dll:
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.ddi-compliance:
 req.unicode-ansi:
 req.idl:
@@ -31,9 +31,9 @@ req.type-library:
 topic_type: 
 - apiref
 api_type: 
-- 
+- HeaderDef
 api_location: 
-- 
+- netpoweroffloadlist.h
 api_name: 
 - NetPowerOffloadListGetCount
 product: 
@@ -47,17 +47,30 @@ ms.custom: Vb
 
 ## -description
 
-TBD
+The **NetPowerOffloadListGetCount** method gets the number of low power protocol offloads to a net adapter.
 
 ## -parameters
 
 ### -param List
 
-TBD
-
+A pointer to a driver-allocated and initialized [**NET_POWER_OFFLOAD_LIST**](../netpoweroffloadlist/ns-netpoweroffloadlist-_net_power_offload_list.md) structure.
 
 ## -returns
-This function returns SIZE_T.
+
+Returns the number of low power offloads to this net adapter.
+
 ## -remarks
 
+Call [**NET_POWER_OFFLOAD_LIST_INIT**](../netpoweroffloadlist/nf-netpoweroffloadlist-net_power_offload_list_init.md) to initialize the [**NET_POWER_OFFLOAD_LIST**](../netpoweroffloadlist/ns-netpoweroffloadlist-_net_power_offload_list.md) structure, then call [**NetDeviceGetPowerOffloadList**](../netpoweroffloadlist/nf-netpoweroffloadlist-netdevicegetpoweroffloadlist.md) to retrieve the low power protocol offload list. After getting the list, call this method to determine how many low power protocol offloads there are to this net adapter.
+
+For a code sample of working with NETPOWEROFFLOAD objects, see [Configuring power management](https://docs.microsoft.com/windows-hardware/drivers/netcx/configuring-power-management).
+
 ## -see-also
+
+[Configuring power management](https://docs.microsoft.com/windows-hardware/drivers/netcx/configuring-power-management)
+
+[**NET_POWER_OFFLOAD_LIST_INIT**](../netpoweroffloadlist/nf-netpoweroffloadlist-net_power_offload_list_init.md)
+
+[**NET_POWER_OFFLOAD_LIST**](../netpoweroffloadlist/ns-netpoweroffloadlist-_net_power_offload_list.md)
+
+[**NetDeviceGetPowerOffloadList**](../netpoweroffloadlist/nf-netpoweroffloadlist-netdevicegetpoweroffloadlist.md)

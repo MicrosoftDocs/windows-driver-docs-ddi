@@ -2,11 +2,11 @@
 UID: NS:netpoweroffloadlist._NET_POWER_OFFLOAD_LIST
 title: NET_POWER_OFFLOAD_LIST (netpoweroffloadlist.h)
 author: windows-driver-content
-description: 
-tech.root:
+description: The NET_POWER_OFFLOAD_LIST structure represents a list of lower power protocol offloads to a net adapter.
+tech.root: netvista
 ms.assetid: a8cc5703-68a3-4adf-97b5-ec3271c1fdc3
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/03/2019
 ms.topic: struct
 f1_keywords:
  - "netpoweroffloadlist/NET_POWER_OFFLOAD_LIST"
@@ -14,7 +14,7 @@ ms.keywords: NET_POWER_OFFLOAD_LIST, NET_POWER_OFFLOAD_LIST,
 req.header: netpoweroffloadlist.h
 req.include-header:
 req.target-type:
-req.target-min-winverclnt:
+req.target-min-winverclnt: The next version of Windows 10
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
@@ -42,14 +42,32 @@ ms.custom: Vb
 
 ## -description
 
+The **NET_POWER_OFFLOAD_LIST** structure represents a list of lower power protocol offloads to a net adapter.
 
 ## -struct-fields
 
 ### -field Size
+
+The size of this structure, in bytes.
  
 ### -field Reserved
- 
+
+Reserved. Client drivers must not read or write to this value directly.
 
 ## -remarks
 
+Call [**NET_POWER_OFFLOAD_LIST_INIT**](../netpoweroffloadlist/nf-netpoweroffloadlist-net_power_offload_list_init.md) to initialize this structure, then call [**NetDeviceGetPowerOffloadList**](../netpoweroffloadlist/nf-netpoweroffloadlist-netdevicegetpoweroffloadlist.md) to get the list of low power offloads to this net adapter. After you obtain the list, call [**NetPowerOffloadListGetCount**](../netpoweroffloadlist/nf-netpoweroffloadlist-netpoweroffloadlistgetcount.md) with this structure to get the number of NETPOWEROFFLOAD objects that represents the offloads, then loop over the objects and call [**NetPowerOffloadListGetElement**](../netpoweroffloadlist/nf-netpoweroffloadlist-netpoweroffloadlistgetelement.md) to retrieve each one.
+
+For a code sample of working with NETPOWEROFFLOAD objects, see [Configuring power management](https://docs.microsoft.com/windows-hardware/drivers/netcx/configuring-power-management).
+
 ## -see-also
+
+[Configuring power management](https://docs.microsoft.com/windows-hardware/drivers/netcx/configuring-power-management)
+
+[**NET_POWER_OFFLOAD_LIST_INIT**](../netpoweroffloadlist/nf-netpoweroffloadlist-net_power_offload_list_init.md)
+
+[**NetDeviceGetPowerOffloadList**](../netpoweroffloadlist/nf-netpoweroffloadlist-netdevicegetpoweroffloadlist.md)
+
+[**NetPowerOffloadListGetCount**](../netpoweroffloadlist/nf-netpoweroffloadlist-netpoweroffloadlistgetcount.md)
+
+[**NetPowerOffloadListGetElement**](../netpoweroffloadlist/nf-netpoweroffloadlist-netpoweroffloadlistgetelement.md)
