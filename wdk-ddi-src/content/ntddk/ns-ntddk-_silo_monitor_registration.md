@@ -58,7 +58,7 @@ This structure specifies a server silo monitor that can receive notifications ab
 
 ### -field Version
 
-Set to <b>SERVER_SILO_MONITOR_REGISTRATION_VERSION</b>.
+Set to <b>SILO_MONITOR_REGISTRATION_VERSION</b>.
 
 
 ### -field MonitorHost
