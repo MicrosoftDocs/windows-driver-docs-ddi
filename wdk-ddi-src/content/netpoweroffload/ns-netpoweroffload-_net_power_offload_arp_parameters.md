@@ -73,7 +73,7 @@ The media access control (MAC) address. The net adapter uses this MAC address fo
 
 ## -remarks
 
-Call [**NET_POWER_OFFLOAD_ARP_PARAMETERS_INIT**](../netpoweroffload/nf-netpoweroffload-net_power_offload_arp_parameters_init.md) to initialize this structure and fill in its **Size** field. After calling **NET_POWER_OFFLOAD_ARP_PARAMETERS_INIT**, fill in the remaining fields of this structure as required.
+Call [**NET_POWER_OFFLOAD_ARP_PARAMETERS_INIT**](../netpoweroffload/nf-netpoweroffload-net_power_offload_arp_parameters_init.md) to initialize this structure and fill in its **Size** field. After calling **NET_POWER_OFFLOAD_ARP_PARAMETERS_INIT**, call [**NetPowerOffloadGetArpParameters**](../netpoweroffload/nf-netpoweroffload-netpoweroffloadgetarpparameters.md) to fill in the remaining members of the structure.
 
 For more information about the ARP protocol, see [RFC 826](https://tools.ietf.org/html/rfc826).
 
@@ -82,3 +82,5 @@ For more information about the ARP protocol, see [RFC 826](https://tools.ietf.or
 [Configuring power management](https://docs.microsoft.com/windows-hardware/drivers/netcx/configuring-power-management)
 
 [**NET_POWER_OFFLOAD_ARP_PARAMETERS_INIT**](../netpoweroffload/nf-netpoweroffload-net_power_offload_arp_parameters_init.md)
+
+[**NetPowerOffloadGetArpParameters**](../netpoweroffload/nf-netpoweroffload-netpoweroffloadgetarpparameters.md)

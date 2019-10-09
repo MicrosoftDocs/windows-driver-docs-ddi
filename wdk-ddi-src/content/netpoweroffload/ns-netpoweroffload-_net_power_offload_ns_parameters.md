@@ -81,7 +81,7 @@ The media access control (MAC) address. When it sends the NA message, the net ad
 
 ## -remarks
 
-Call [**NET_POWER_OFFLOAD_NS_PARAMETERS_INIT**](../netpoweroffload/nf-netpoweroffload-net_power_offload_ns_parameters_init.md) to initialize this structure and fill in its **Size** field. After calling **NET_POWER_OFFLOAD_NS_PARAMETERS_INIT**, fill in the remaining fields of this structure as required.
+Call [**NET_POWER_OFFLOAD_NS_PARAMETERS_INIT**](../netpoweroffload/nf-netpoweroffload-net_power_offload_ns_parameters_init.md) to initialize this structure and fill in its **Size** field. After calling **NET_POWER_OFFLOAD_NS_PARAMETERS_INIT**, call [**NetPowerOffloadGetNsParameters**](../netpoweroffload/nf-netpoweroffload-netpoweroffloadgetnsparameters.md) to fill in the remaining members of the structure.
 
 For more information about IPv6 NS and NA messages, see [RFC 4861](https://www.ietf.org/rfc/rfc4861.txt).
 
@@ -90,3 +90,5 @@ For more information about IPv6 NS and NA messages, see [RFC 4861](https://www.i
 [Configuring power management](https://docs.microsoft.com/windows-hardware/drivers/netcx/configuring-power-management)
 
 [**NET_POWER_OFFLOAD_NS_PARAMETERS_INIT**](../netpoweroffload/nf-netpoweroffload-net_power_offload_ns_parameters_init.md)
+
+[**NetPowerOffloadGetNsParameters**](../netpoweroffload/nf-netpoweroffload-netpoweroffloadgetnsparameters.md)

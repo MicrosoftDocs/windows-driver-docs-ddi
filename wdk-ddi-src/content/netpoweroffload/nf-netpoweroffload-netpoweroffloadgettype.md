@@ -18,7 +18,7 @@ req.target-min-winverclnt: The next version of Windows 10
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
-req.lib:
+req.lib: netadaptercxstub.lib
 req.dll:
 req.irql: PASSIVE_LEVEL
 req.ddi-compliance:
@@ -31,9 +31,9 @@ req.type-library:
 topic_type: 
 - apiref
 api_type: 
-- HeaderDef
+- LibDef
 api_location: 
-- netpoweroffload.h
+- netadaptercxstub.lib
 api_name: 
 - NetPowerOffloadGetType
 product: 
@@ -61,8 +61,12 @@ Returns a [**NET_POWER_OFFLOAD_TYPE**](../netpoweroffload/ne-netpoweroffload-_ne
 
 ## -remarks
 
+The client driver must only call **NetPowerOffloadGetType** during a power transition, typically from its *[EVT_WDF_DEVICE_ARM_WAKE_FROM_SX](../wdfdevice/nc-wdfdevice-evt_wdf_device_arm_wake_from_sx.md)*, *[EVT_WDF_DEVICE_ARM_WAKE_FROM_S0](../wdfdevice/nc-wdfdevice-evt_wdf_device_arm_wake_from_s0.md)*, or *[EVT_NET_DEVICE_PREVIEW_POWER_OFFLOAD](../netdevice/nc-netdevice-evt_net_device_preview_power_offload.md)* callback function. Otherwise, the call results in a system bugcheck.
+
 ## -see-also
 
 [Configuring power management](https://docs.microsoft.com/windows-hardware/drivers/netcx/configuring-power-management)
 
 [**NET_POWER_OFFLOAD_TYPE**](../netpoweroffload/ne-netpoweroffload-_net_power_offload_type.md)
+
+[**NET_POWER_OFFLOAD_LIST**](../netpoweroffloadlist/ns-netpoweroffloadlist-_net_power_offload_list.md)

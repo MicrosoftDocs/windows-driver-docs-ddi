@@ -2,11 +2,11 @@
 UID: NE:netwakesource._NET_WAKE_SOURCE_TYPE
 title: NET_WAKE_SOURCE_TYPE (netwakesource.h)
 author: windows-driver-content
-description: 
-tech.root:
+description: The NET_WAKE_SOURCE_TYPE enumeration specifies the type of a wake-on-LAN (WoL) wake-up event for a net adapter.
+tech.root: netvista
 ms.assetid: 70ebee95-c44c-4db8-b5ea-71b5e1236a7c
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/04/2019
 ms.topic: enum
 f1_keywords:
  - "netwakesource/NET_WAKE_SOURCE_TYPE"
@@ -14,7 +14,7 @@ ms.keywords: NET_WAKE_SOURCE_TYPE, NET_WAKE_SOURCE_TYPE,
 req.header: netwakesource.h
 req.include-header:
 req.target-type:
-req.target-min-winverclnt:
+req.target-min-winverclnt: The next version of Windows 10
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
@@ -39,15 +39,32 @@ ms.custom: Vb
 
 ## -description
 
-
+The **NET_WAKE_SOURCE_TYPE** enumeration specifies the type for the source of a wake-on-LAN (WoL) wake-up event from a net adapter.
 
 ## -enum-fields
 
 ### -field NetWakeSourceTypeBitmapPattern 
+
+The wake source is a bitmap pattern.
+
 ### -field NetWakeSourceTypeMagicPacket 
+
+The wake source is a magic packet, which is a special packet that contains 16 contiguous copies of the receiving net adapter's Ethernet address.
+
 ### -field NetWakeSourceTypeMediaChange 
+
+The wake source is a media connect or disconnect event.
+
 ### -field NetWakeSourceTypePacketFilterMatch 
+
+The wake source is a packet that matches a filter the driver supports, such as an Ethernet unicast frame.
 
 ## -remarks
 
+Call [**NetWakeSourceGetType**](../netwakesource/nf-netwakesource-netwakesourcegettype.md) to get the type for a WoL source.
+
 ## -see-also
+
+[Configuring power management](https://docs.microsoft.com/windows-hardware/drivers/netcx/configuring-power-management)
+
+[**NetWakeSourceGetType**](../netwakesource/nf-netwakesource-netwakesourcegettype.md)
