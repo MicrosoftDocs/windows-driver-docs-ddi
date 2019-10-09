@@ -61,7 +61,7 @@ This method does not return a value.
 
 ## -remarks
 
-This method zeroes out the memory of the **NET_WAKE_SOURCE_BITMAP_PARAMETERS** structure, then fills in the **Size** member. Client drivers must then fill in the other members of the structure.
+This method zeroes out the memory of the **NET_WAKE_SOURCE_BITMAP_PARAMETERS** structure, then fills in the **Size** member. Client drivers must then call [**NetWakeSourceGetBitmapParameters**](../netwakesource/nf-netwakesource-netwakesourcegetbitmapparameters.md) to fill n the other members of the structure.
 
 The client driver must only call **NET_WAKE_SOURCE_BITMAP_PARAMETERS_INIT** during a power transition, typically from its *[EVT_WDF_DEVICE_ARM_WAKE_FROM_SX](../wdfdevice/nc-wdfdevice-evt_wdf_device_arm_wake_from_sx.md)*, *[EVT_WDF_DEVICE_ARM_WAKE_FROM_S0](../wdfdevice/nc-wdfdevice-evt_wdf_device_arm_wake_from_s0.md)*, or *[EVT_NET_DEVICE_PREVIEW_WAKE_SOURCE](../netdevice/nc-netdevice-evt_net_device_preview_wake_source.md)* callback function. Otherwise, the call results in a system bugcheck.
 
