@@ -2,25 +2,25 @@
 UID: NF:netwakesource.NetWakeSourceGetType
 title: NetWakeSourceGetType function (netwakesource.h)
 author: windows-driver-content
-description: TBD
-tech.root:
+description: The NetWakeSourceGetType method gets the type for wake-on-LAN (WoL) source.
+tech.root: netvista
 ms.assetid: 05e0ca0e-5cf2-43b6-b5e1-325a11fde2da
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/10/2019
 ms.topic: function
 f1_keywords:
  - "netwakesource/NetWakeSourceGetType"
 ms.keywords: NetWakeSourceGetType
 req.header: netwakesource.h
 req.include-header:
-req.target-type:
-req.target-min-winverclnt:
+req.target-type: Universal
+req.target-min-winverclnt: The next version of Windows 10
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
-req.lib:
+req.lib: netadaptercxstub.lib
 req.dll:
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.ddi-compliance:
 req.unicode-ansi:
 req.idl:
@@ -47,7 +47,7 @@ ms.custom: Vb
 
 ## -description
 
-The NetWakeSourceGetType gets the type for the source of a wake-on-LAN (WoL) wake-up event from a net adapter.
+The **NetWakeSourceGetType** method gets the type for wake-on-LAN (WoL) source.
 
 ## -parameters
 

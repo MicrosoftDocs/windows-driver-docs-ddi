@@ -2,25 +2,25 @@
 UID: NF:netwakesourcelist.NetWakeSourceListGetElement
 title: NetWakeSourceListGetElement function (netwakesourcelist.h)
 author: windows-driver-content
-description: TBD
-tech.root:
+description: The NetWakeSourceListGetElement method gets a wake source from the list of wake sources for a net adapter.
+tech.root: netvista
 ms.assetid: 6505fee3-68c7-4b65-a725-1d9072eeaa98
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/10/2019
 ms.topic: function
 f1_keywords:
  - "netwakesourcelist/NetWakeSourceListGetElement"
 ms.keywords: NetWakeSourceListGetElement
 req.header: netwakesourcelist.h
 req.include-header:
-req.target-type:
-req.target-min-winverclnt:
+req.target-type: Universal
+req.target-min-winverclnt: The next version of Windows 10
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
-req.lib:
+req.lib: netadaptercxstub.lib
 req.dll:
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.ddi-compliance:
 req.unicode-ansi:
 req.idl:
@@ -31,9 +31,9 @@ req.type-library:
 topic_type: 
 - apiref
 api_type: 
-- 
+- LibDef
 api_location: 
-- 
+- netadaptercxstub.lib
 api_name: 
 - NetWakeSourceListGetElement
 product: 
@@ -47,7 +47,7 @@ ms.custom: Vb
 
 ## -description
 
-The **NetWakeSourceListGetElement** method gets a NETWAKESOURCE object from a list of wake sources for a net adapter.
+The **NetWakeSourceListGetElement** method gets a wake source from the list of wake sources for a net adapter.
 
 ## -parameters
 
@@ -61,7 +61,7 @@ The zero-based index in the list for the target NETWAKESOURCE object. This metho
 
 ## -returns
 
-Returns the NETWAKESOURCE object at the specified index in the list.
+Returns the NETWAKESOURCE object, which represents the wake source, at the specified index in the list.
 
 ## -remarks
 

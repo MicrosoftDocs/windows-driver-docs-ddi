@@ -2,7 +2,7 @@
 UID: NS:netwakesourcelist._NET_WAKE_SOURCE_LIST
 title: NET_WAKE_SOURCE_LIST (netwakesourcelist.h)
 author: windows-driver-content
-description: The NET_WAKE_SOURCE_LIST structure represents a list of sources of wake-on-LAN wake-up events from a net adapter.
+description: The NET_WAKE_SOURCE_LIST structure represents a list of wake-on-LAN (WoL) sources for a net adapter.
 tech.root: netvista
 ms.assetid: f43e14e4-9aa0-4401-9e9c-7a2a36fd3899
 ms.author: windowsdriverdev
@@ -42,7 +42,7 @@ ms.custom: Vb
 
 ## -description
 
-The **NET_WAKE_SOURCE_LIST** structure represents a list of sources of wake-on-LAN wake-up events from a net adapter.
+The **NET_WAKE_SOURCE_LIST** structure represents a list of wake-on-LAN (WoL) sources for a net adapter.
 
 ## -struct-fields
 

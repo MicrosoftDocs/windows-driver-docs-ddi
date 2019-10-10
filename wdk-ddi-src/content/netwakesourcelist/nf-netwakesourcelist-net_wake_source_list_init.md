@@ -61,7 +61,7 @@ This method does not return a value.
 
 ## -remarks
 
-This method zeros out the memory for the **NET_WAKE_SOURCE_LIST** structure, then fills in the **Size** member. After calling this method, call [**NetDeviceGetWakeSourceList**](../netwakesourcelist/nf-netwakesourcelist-netdevicegetwakesourcelist.md) with the initialized structure to get the list of wake sources for this net adapter.
+This method zeroes out the memory for the **NET_WAKE_SOURCE_LIST** structure, then fills in the **Size** member. After calling this method, call [**NetDeviceGetWakeSourceList**](../netwakesourcelist/nf-netwakesourcelist-netdevicegetwakesourcelist.md) with the initialized structure to get the list of wake sources for this net adapter.
 
 The client driver must only call **NET_WAKE_SOURCE_LIST_INIT** during a power transition, typically from its *[EVT_WDF_DEVICE_ARM_WAKE_FROM_SX](../wdfdevice/nc-wdfdevice-evt_wdf_device_arm_wake_from_sx.md)*, *[EVT_WDF_DEVICE_ARM_WAKE_FROM_S0](../wdfdevice/nc-wdfdevice-evt_wdf_device_arm_wake_from_s0.md)*, or *[EVT_NET_DEVICE_PREVIEW_WAKE_SOURCE](../netdevice/nc-netdevice-evt_net_device_preview_wake_source.md)* callback function. Otherwise, the call results in a system bugcheck.
 

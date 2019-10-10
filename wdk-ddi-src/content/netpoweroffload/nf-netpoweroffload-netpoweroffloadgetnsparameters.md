@@ -53,11 +53,11 @@ The **NetPowerOffloadGetNSParameters** method gets parameters for an IPv6 Neighb
 
 ### -param PowerOffload
 
-A handle to a NETPOWEROFFLOAD object that represents this NS protocol offload.
+The NETPOWEROFFLOAD object that represents this NS protocol offload.
 
 ### -param Parameters
 
-A handle to a driver-allocated [**NET_POWER_OFFLOAD_NS_PARAMETERS**](../netpoweroffload/ns-netpoweroffload-_net_power_offload_ns_parameters.md) structure that receives the NS parameter information.
+A pointer to a driver-allocated [**NET_POWER_OFFLOAD_NS_PARAMETERS**](../netpoweroffload/ns-netpoweroffload-_net_power_offload_ns_parameters.md) structure that receives the NS parameter information.
 
 ## -returns
 

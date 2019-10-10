@@ -2,7 +2,7 @@
 UID: NF:netwakesource.NetWakeSourceGetAdapter
 title: NetWakeSourceGetAdapter function (netwakesource.h)
 author: windows-driver-content
-description: The NetWakeSourceGetAdapter method gets the net adapter that generated a wake-on-LAN (WoL) wake-up event.
+description: The NetWakeSourceGetAdapter method gets the net adapter for a wake-on-LAN (WoL) source.
 tech.root: netvista
 ms.assetid: 75706f44-2e82-420d-a435-73ee32e5090a
 ms.author: windowsdriverdev
@@ -47,7 +47,7 @@ ms.custom: Vb
 
 ## -description
 
-The **NetWakeSourceGetAdapter** method gets the net adapter that generated a wake-on-LAN (WoL) wake-up event.
+The **NetWakeSourceGetAdapter** method gets the net adapter for a wake-on-LAN (WoL) source.
 
 ## -parameters
 
@@ -57,7 +57,7 @@ The NETWAKESOURCE object that represents the source of the wake-up event.
 
 ## -returns
 
-Returns a handle to the NETADAPTER object that represents the net adapter that generated the WoL wake-up event.
+Returns the NETADAPTER object that represents the net adapter for this wake source.
 
 ## -remarks
 

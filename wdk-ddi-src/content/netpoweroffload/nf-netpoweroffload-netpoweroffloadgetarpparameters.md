@@ -53,11 +53,11 @@ The **NetPowerOffloadGetArpParameters** method gets parameters for an IPv4 ARP l
 
 ### -param PowerOffload
 
-A handle to a NETPOWEROFFLOAD object that represents this ARP protocol offload.
+The NETPOWEROFFLOAD object that represents this ARP protocol offload.
 
 ### -param Parameters
 
-A handle to a driver-allocated and initialized [**NET_POWER_OFFLOAD_ARP_PARAMETERS**](../netpoweroffload/ns-netpoweroffload-_net_power_offload_arp_parameters.md) structure that receives the ARP parameter information.
+A pointer to a driver-allocated and initialized [**NET_POWER_OFFLOAD_ARP_PARAMETERS**](../netpoweroffload/ns-netpoweroffload-_net_power_offload_arp_parameters.md) structure that receives the ARP parameter information.
 
 ## -returns
 

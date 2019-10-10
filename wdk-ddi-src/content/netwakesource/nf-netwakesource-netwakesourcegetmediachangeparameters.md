@@ -2,7 +2,7 @@
 UID: NF:netwakesource.NetWakeSourceGetMediaChangeParameters
 title: NetWakeSourceGetMediaChangeParameters function (netwakesource.h)
 author: windows-driver-content
-description: The NetWakeSourceGetMediaChangeParameters method gets parameters for a media change wake source from a net adapter.
+description: The NetWakeSourceGetMediaChangeParameters method gets parameters for a media change wake source.
 tech.root: netvista
 ms.assetid: 197b0268-eace-4c01-bacd-62102bae7225
 ms.author: windowsdriverdev
@@ -47,7 +47,7 @@ ms.custom: Vb
 
 ## -description
 
-The **NetWakeSourceGetMediaChangeParameters** method gets parameters for a media change wake source from a net adapter.
+The **NetWakeSourceGetMediaChangeParameters** method gets parameters for a media change wake source.
 
 ## -parameters
 

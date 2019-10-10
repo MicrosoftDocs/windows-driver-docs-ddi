@@ -2,7 +2,7 @@
 UID: NF:netpoweroffloadlist.NetPowerOffloadListGetElement
 title: NetPowerOffloadListGetElement function (netpoweroffloadlist.h)
 author: windows-driver-content
-description: The NetPowerOffloadListGetElement method gets a NETPOWEROFFLOAD object from a list of low power protocol offloads to a net adapter.
+description: The NetPowerOffloadListGetElement method gets a low power protocol offload from a list of offloads to a net adapter.
 tech.root: netvista
 ms.assetid: a93ff9b6-6415-4d3f-8443-9a2479d88453
 ms.author: windowsdriverdev
@@ -47,13 +47,13 @@ ms.custom: Vb
 
 ## -description
 
-The **NetPowerOffloadListGetElement** method gets a NETPOWEROFFLOAD object from a list of low power protocol offloads to a net adapter.
+The **NetPowerOffloadListGetElement** method gets a low power protocol offload from a list of offloads to a net adapter.
 
 ## -parameters
 
 ### -param List
 
-A handle to a driver-allocated and initialized [**NET_POWER_OFFLOAD_LIST**](../netpoweroffloadlist/ns-netpoweroffloadlist-_net_power_offload_list.md) structure.
+A pointer to a driver-allocated and initialized [**NET_POWER_OFFLOAD_LIST**](../netpoweroffloadlist/ns-netpoweroffloadlist-_net_power_offload_list.md) structure.
 
 ### -param Index
 
@@ -61,7 +61,7 @@ The zero-based index in the list for the target NETPOWEROFFLOAD object. This met
 
 ## -returns
 
-Returns the NETPOWEROFFLOAD object at the specified index in the list.
+Returns the NETPOWEROFFLOAD object, which represents the low power protocol offload, at the specified index in the list.
 
 ## -remarks
 

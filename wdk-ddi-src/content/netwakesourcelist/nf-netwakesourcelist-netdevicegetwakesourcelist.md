@@ -53,11 +53,11 @@ The **NetDeviceGetWakeSourceList** method gets the list of wake sources for a ne
 
 ### -param Device
 
-A handle to the WDFDEVICE object that is associated with the net adapter (or adapters if the client driver has more than one for this device).
+The WDFDEVICE object that is associated with the net adapter (or multiple adapters if the client driver has more than one for this device).
 
 ### -param List
 
-A handle to a driver-allocated and initialized [**NET_WAKE_SOURCE_LIST**](../netwakesourcelist/ns-netwakesourcelist-_net_wake_source_list.md) structure.
+A pointer to a driver-allocated and initialized [**NET_WAKE_SOURCE_LIST**](../netwakesourcelist/ns-netwakesourcelist-_net_wake_source_list.md) structure.
 
 ## -returns
 

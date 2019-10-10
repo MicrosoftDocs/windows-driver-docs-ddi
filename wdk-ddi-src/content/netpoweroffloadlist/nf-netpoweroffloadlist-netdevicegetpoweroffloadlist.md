@@ -53,11 +53,11 @@ The **NetDeviceGetPowerOffloadList** method gets the list of low power protocol 
 
 ### -param Device
 
-A handle to the WDFDEVICE object associated with the net adapter.
+The WDFDEVICE object associated with the net adapter.
 
 ### -param List
 
-A handle to a driver-allocated and initialized [**NET_POWER_OFFLOAD_LIST**](../netpoweroffloadlist/ns-netpoweroffloadlist-_net_power_offload_list.md) structure.
+A pointer to a driver-allocated and initialized [**NET_POWER_OFFLOAD_LIST**](../netpoweroffloadlist/ns-netpoweroffloadlist-_net_power_offload_list.md) structure.
 
 ## -returns
 

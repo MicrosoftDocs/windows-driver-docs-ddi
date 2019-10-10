@@ -57,7 +57,7 @@ A pointer to a driver-allocated and initialized [**NET_WAKE_SOURCE_LIST**](../ne
 
 ## -returns
 
-Returns the number of low power offloads to this net adapter.
+Returns the number of wake sources for this net adapter.
 
 ## -remarks
 
