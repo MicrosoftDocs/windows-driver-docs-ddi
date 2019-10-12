@@ -2,24 +2,24 @@
 UID: NC:netdevice.EVT_NET_DEVICE_PREVIEW_POWER_OFFLOAD
 title: EVT_NET_DEVICE_PREVIEW_POWER_OFFLOAD (netdevice.h)
 author: windows-driver-content
-description: 
-tech.root:
+description: Implement this optional callback to reject protocol offloads that are not compatible with your hardware.
+tech.root: netvista
 ms.assetid: 7429f331-19e5-4a1c-8153-b814c57871d6
 ms.author: windowsdriverdev
-ms.date: 
+ms.date: 10/10/2019
 ms.topic: callback
 f1_keywords:
  - "netdevice/EVT_NET_DEVICE_PREVIEW_POWER_OFFLOAD"
 req.header: netdevice.h
 req.include-header:
 req.target-type:
-req.target-min-winverclnt:
+req.target-min-winverclnt: The next version of Windows 10
 req.target-min-winversvr:
 req.kmdf-ver:
 req.umdf-ver:
 req.lib:
 req.dll:
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.ddi-compliance:
 req.unicode-ansi:
 req.idl:
@@ -45,7 +45,7 @@ ms.custom: Vb
 
 ## -description
 
-Implemented by the client driver to ... 
+Implement this optional callback to reject protocol offloads that are not compatible with your hardware.
 
 ## -prototype
 
@@ -68,18 +68,29 @@ NTSTATUS EvtNetDevicePreviewPowerOffload
 ## -parameters
 
 ### -param Device: 
+
+The WDFDEVICE object that the client driver previously obtained with a call to [**WdfDeviceCreate**](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md).
+
 ### -param PowerOffload: 
 
-
+A NETPOWEROFFLOAD object that represents the low power protocol offload to examine.
 
 ## -returns
 
-Returns NTSTATUS that ...
-Return STATUS_SUCCESS if the operation succeeds. Otherwise, return an appropriate NTSTATUS Values error code. For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/ntstatus-values).
+To accept the protocol offload, the callback function must return STATUS_SUCCESS.
+
+To reject the protocol offload, return STATUS_NDIS_PM_PROTOCOL_OFFLOAD_LIST_FULL.
 
 ## -remarks
 
-Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
+Drivers are not required to implement *EvtNetDevicePreviewPowerOffload*, as NetAdapterCx already blocks protocol offloads that are not compatible with the driver's power offload capabilities: [**NET_ADAPTER_POWER_OFFLOAD_ARP_CAPABILITIES**](../netadapter/ns-netadapter-_net_adapter_power_offload_arp_capabilities.md) and [**NET_ADAPTER_POWER_OFFLOAD_NS_CAPABILITIES**](../netadapter/ns-netadapter-_net_adapter_power_offload_ns_capabilities.md). However, if your hardware has additional limitations that cannot be expressed in these capabilities structures, you can provide *EvtNetDevicePreviewPowerOffload* to enforce those additional limitations.
 
+Register your implementation of this callback function by setting the appropriate member of the [**NET_DEVICE_POWER_POLICY_EVENT_CALLBACKS**](../netdevice/ns-netdevice-_net_device_power_policy_event_callbacks.md), then calling [**NetDeviceInitSetPowerPolicyEventCallbacks**](../netdevice/nf-netdevice-netdeviceinitsetpowerpolicyeventcallbacks.md).
+
+Client drivers typically call **NetDeviceInitSetPowerPolicyEventCallbacks** when starting a net adapter, before calling [**NetAdapterStart**](nf-netadapter-netadapterstart.md).
+
+In this callback, client drivers typically perform similar actions as they might in their *[EVT_WDF_DEVICE_ARM_WAKE_FROM_SX](../wdfdevice/nc-wdfdevice-evt_wdf_device_arm_wake_from_sx.md)* or *[EVT_WDF_DEVICE_ARM_WAKE_FROM_S0](../wdfdevice/nc-wdfdevice-evt_wdf_device_arm_wake_from_s0.md)* callbacks, except that *EvtNetDevicePreviewPowerOffload* gives the driver a chance to reject the offload.
+
+For more info, see [Configuring Power Management](https://docs.microsoft.com/windows-hardware/drivers/netcx/configuring-power-management).
 
 ## -see-also
