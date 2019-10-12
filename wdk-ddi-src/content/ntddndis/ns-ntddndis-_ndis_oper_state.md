@@ -71,7 +71,7 @@ The
 ### -field OperationalStatus
 
 The 
-     <a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ne-ifdef-_net_if_oper_status">NET_IF_OPER_STATUS</a> operational status
+     <a href="https://docs.microsoft.com/windows/win32/api/ifdef/ne-ifdef-net_if_oper_status">NET_IF_OPER_STATUS</a> operational status
      type.
 
 
@@ -146,7 +146,7 @@ NDIS_STATUS_OPER_STATUS indicates the current operational state of an NDIS netwo
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ifdef/ne-ifdef-_net_if_oper_status">NET_IF_OPER_STATUS</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ifdef/ne-ifdef-net_if_oper_status">NET_IF_OPER_STATUS</a>
  
 
  
