@@ -87,9 +87,9 @@ Drivers are not required to implement *EvtNetDevicePreviewPowerOffload*, as NetA
 
 Register your implementation of this callback function by setting the appropriate member of the [**NET_DEVICE_POWER_POLICY_EVENT_CALLBACKS**](../netdevice/ns-netdevice-_net_device_power_policy_event_callbacks.md), then calling [**NetDeviceInitSetPowerPolicyEventCallbacks**](../netdevice/nf-netdevice-netdeviceinitsetpowerpolicyeventcallbacks.md).
 
-Client drivers typically call **NetDeviceInitSetPowerPolicyEventCallbacks** when starting a net adapter, before calling [**NetAdapterStart**](nf-netadapter-netadapterstart.md).
+Client drivers typically call **NetDeviceInitSetPowerPolicyEventCallbacks** when creating the device object, before calling [**WdfDeviceCreate**](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md).
 
-In this callback, client drivers typically perform similar actions as they might in their *[EVT_WDF_DEVICE_ARM_WAKE_FROM_SX](../wdfdevice/nc-wdfdevice-evt_wdf_device_arm_wake_from_sx.md)* or *[EVT_WDF_DEVICE_ARM_WAKE_FROM_S0](../wdfdevice/nc-wdfdevice-evt_wdf_device_arm_wake_from_s0.md)* callbacks, except that *EvtNetDevicePreviewPowerOffload* gives the driver a chance to reject the offload.
+In this callback, client drivers get the chance to reject the protocol offload. For example, if the number of protocol offloads in the current protocol offload list for **Device** have already reached or exceeded the number of protocol offloads that the hardware supports, the driver can reject this protocol offload.
 
 For more info, see [Configuring Power Management](https://docs.microsoft.com/windows-hardware/drivers/netcx/configuring-power-management).
 
