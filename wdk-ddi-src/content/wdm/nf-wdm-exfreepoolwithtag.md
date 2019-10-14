@@ -65,9 +65,7 @@ Specifies the beginning address of a block of pool memory allocated by either <a
 
 Specifies the tag value passed to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-exallocatepoolwithtag">ExAllocatePoolWithTag</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-exallocatepoolwithquotatag">ExAllocatePoolWithQuotaTag</a> when the block of memory was originally allocated.
 
-**NOTE**
-
-Tag must be a value from 0x20 (space) to 0x7E (tilde).
+The tag is a non-zero character literal of one to to four characters delimited by single quotation marks (for example, 'Tag1'). The string is usually specified in reverse order (for example, '1gaT'). Each ASCII character in the tag must be a value in the range 0x20 (space) to 0x7E (tilde). Each allocation code path should use a unique pool tag to help debuggers and verifiers identify the code path.
 
 ## -returns
 
