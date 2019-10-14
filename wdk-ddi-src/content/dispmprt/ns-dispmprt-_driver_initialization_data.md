@@ -5,7 +5,7 @@ description: The DRIVER_INITIALIZATION_DATA structure contains pointers to funct
 old-location: display\driver_initialization_data.htm
 tech.root: display
 ms.assetid: 3ab00f9c-7ce9-41bf-85c5-96be31d19719
-ms.date: 09/16/2019
+ms.date: 10/14/2019
 ms.keywords: "*PDRIVER_INITIALIZATION_DATA, DRIVER_INITIALIZATION_DATA, DRIVER_INITIALIZATION_DATA structure [Display Devices], DmStructs_7b91bf58-dfda-4c7c-ae26-21e577bdc152.xml, PDRIVER_INITIALIZATION_DATA, PDRIVER_INITIALIZATION_DATA structure pointer [Display Devices], _DRIVER_INITIALIZATION_DATA, display.driver_initialization_data, dispmprt/DRIVER_INITIALIZATION_DATA, dispmprt/PDRIVER_INITIALIZATION_DATA"
 ms.topic: struct
 f1_keywords:
@@ -46,7 +46,7 @@ req.typenames: DRIVER_INITIALIZATION_DATA, *PDRIVER_INITIALIZATION_DATA
 
 ## -description
 
-The **DRIVER_INITIALIZATION_DATA** structure contains pointers to functions implemented by the display miniport driver. The display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> function provides the Microsoft DirectX graphics kernel subsystem with entry points by filling in the members of this structure.
+The DRIVER_INITIALIZATION_DATA structure contains pointers to functions implemented by the display miniport driver. The display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> function provides the Microsoft DirectX graphics kernel subsystem with entry points by filling in the members of this structure.
 
 ## -struct-fields
 
@@ -525,34 +525,27 @@ A pointer to the [DXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY2](../d3dkmd
 
 Reserved.
 
-
 ### -field Reserved2
 
 Reserved.
 
-
 ### -field DxgkDdiPowerRuntimeSetDeviceHandle
-
 
 A pointer to the DXGKDDI_POWERRUNTIMESETDEVICEHANDLE callback function.
 
 ### -field DxgkDdiSetStablePowerState
 
-
 A pointer to the DXGKDDI_SETSTABLEPOWERSTATE callback function.
 
 ### -field DxgkDdiSetVideoProtectedRegion
-
 
 A pointer to the DXGKDDI_SETVIDEOPROTECTEDREGION callback function.
 
 ### -field DxgkDdiCheckMultiPlaneOverlaySupport3
 
-
 A pointer to the [DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT3](../d3dkmddi/nc-d3dkmddi-dxgkddi_checkmultiplaneoverlaysupport3.md) callback function.
 
 ### -field DxgkDdiSetVidPnSourceAddressWithMultiPlaneOverlay3
-
 
 A pointer to the [DXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY3](../d3dkmddi/nc-d3dkmddi-dxgkddi_setvidpnsourceaddresswithmultiplaneoverlay3.md) callback function.
 
@@ -566,7 +559,7 @@ A pointer to the DXGKDDI_VALIDATEUPDATEALLOCATIONPROPERTY callback function.
 
 ### -field DxgkDdiControlModeBehavior
 
-A pointer to the DXGKDDI_CONTROLMODEBEHAVIOR callback function.
+A pointer to the [DXGKDDI_CONTROLMODEBEHAVIOR](../d3dkmddi/nc-d3dkmddi-dxgkddi_controlmodebehavior.md) callback function.
 
 ### -field DxgkDdiUpdateMonitorLinkInfo
 
