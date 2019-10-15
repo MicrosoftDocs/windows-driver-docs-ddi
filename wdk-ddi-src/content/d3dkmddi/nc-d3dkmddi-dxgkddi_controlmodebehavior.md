@@ -70,7 +70,7 @@ NTSTATUS DxgkddiControlmodebehavior
 
 ### -param pControlModeBehaviorArg
 
-[in/out] Pointer to a [DXGKARG_CONTROLMODEBEHAVIOR](ns-d3dkmddi-_dxgarg_controlmodebehavior.md) structure that contains the display mode behaviors that the OS is requesting from the driver as input, and the results of the request as output.
+[in/out] Pointer to a [DXGKARG_CONTROLMODEBEHAVIOR](ns-d3dkmddi-_dxgkarg_controlmodebehavior.md) structure that contains the display mode behaviors that the OS is requesting from the driver as input, and the results of the request as output.
 
 ## -returns
 
@@ -86,4 +86,4 @@ NTSTATUS DxgkddiControlmodebehavior
 
 ## -see-also
 
-[DXGKARG_CONTROLMODEBEHAVIOR](ns-d3dkmddi-_dxgarg_controlmodebehavior.md)
+[DXGKARG_CONTROLMODEBEHAVIOR](ns-d3dkmddi-_dxgkarg_controlmodebehavior.md)
