@@ -69,7 +69,7 @@ A pointer to the thread environment block of the current thread. The TEB should 
 <b>PsGetCurrentThreadTeb</b> returns NULL in the following cases:
 
 * The current thread does not have a TEB (for example a system thread).
-* The current thread cannot safely access its own TEB (for example the thread is attached to the address space of another process).
+* The current thread cannot safely access its own TEB. This might happen if the driver attached the thread to the address space of another process, for example by calling [**KeStackAttachProcess**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-kestackattachprocess).
 
 ## -remarks
 
