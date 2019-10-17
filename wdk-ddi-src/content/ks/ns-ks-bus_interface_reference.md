@@ -58,7 +58,7 @@ A software device enumerator exports this interface to allow drivers to referenc
 
 ### -field Interface
 
-Specifies the exported <a href="https://docs.microsoft.com/windows-hardware/customize/desktop/unattend/microsoft-windows-netbt-interfaces-interface">INTERFACE</a>.
+Specifies the exported <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_interface">INTERFACE</a>.
 
 
 ### -field ReferenceDeviceObject

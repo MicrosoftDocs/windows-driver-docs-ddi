@@ -65,7 +65,7 @@ The parent generates this GUID with <i>uuidgen.exe</i>. See <a href="https://doc
 
 ### -field Size
 
-Specifies the size in bytes of the <a href="https://docs.microsoft.com/windows-hardware/customize/desktop/unattend/microsoft-windows-netbt-interfaces-interface">INTERFACE</a> structure to which <b>Interface</b> points. The miniport driver must not return an INTERFACE structure larger than <b>Size</b> bytes.
+Specifies the size in bytes of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_interface">INTERFACE</a> structure to which <b>Interface</b> points. The miniport driver must not return an INTERFACE structure larger than <b>Size</b> bytes.
 
 
 ### -field Version
@@ -77,7 +77,7 @@ If a parent supports more than one version of an interface, its driver should re
 
 ### -field Interface
 
-Pointer to an <a href="https://docs.microsoft.com/windows-hardware/customize/desktop/unattend/microsoft-windows-netbt-interfaces-interface">INTERFACE</a> structure in which the miniport driver returns the requested interface information. The querying driver is responsible for allocating this structure before calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nc-video-pvideo_hw_query_interface">HwVidQueryInterface</a>.
+Pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_interface">INTERFACE</a> structure in which the miniport driver returns the requested interface information. The querying driver is responsible for allocating this structure before calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nc-video-pvideo_hw_query_interface">HwVidQueryInterface</a>.
 
 
 ### -field InterfaceSpecificData

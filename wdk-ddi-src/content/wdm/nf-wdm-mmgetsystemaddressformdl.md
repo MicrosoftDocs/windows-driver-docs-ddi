@@ -52,6 +52,13 @@ The <b>MmGetSystemAddressForMdl</b> routine is <u>obsolete</u> for Windows 2000 
 
 <b>MmGetSystemAddressForMdl</b> is a macro that returns a nonpaged system-space virtual address for the buffer described by the MDL. It maps the physical pages described by a given MDL into system space, if they are not already mapped to system space. 
 
+## -syntax
+
+```cpp
+PVOID MmGetSystemAddressForMdl(
+   MDL
+);
+```
 
 ## -parameters
 

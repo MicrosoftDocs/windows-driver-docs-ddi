@@ -43,7 +43,7 @@ Specifies an array of memory locations and lengths (ranges) to be preserved in c
 ## -struct-fields
 
 ### -field List
-A pointer to a [**LIST_ENTRY**](https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_list_entry) structure that represents the entry to be added in the array.
+A pointer to a [**LIST_ENTRY**](https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-list_entry) structure that represents the entry to be added in the array.
  
 ### -field NumBlocksUsed
  
