@@ -48,7 +48,7 @@ req.typenames:
 ## -description
 
 
-The <b>RemoveTailList</b> routine removes an entry from the end of a doubly linked list of <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_list_entry">LIST_ENTRY</a> structures.
+The <b>RemoveTailList</b> routine removes an entry from the end of a doubly linked list of <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-list_entry">LIST_ENTRY</a> structures.
 
 
 ## -parameters
@@ -58,7 +58,7 @@ The <b>RemoveTailList</b> routine removes an entry from the end of a doubly link
 
 ### -param ListHead [in, out]
 
-Pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_list_entry">LIST_ENTRY</a> structure that serves as the list header.
+Pointer to the <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-list_entry">LIST_ENTRY</a> structure that serves as the list header.
 
 
 ## -returns

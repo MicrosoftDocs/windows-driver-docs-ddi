@@ -101,7 +101,7 @@ Each SDP_NODE structure contains an
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sdpnode/ns-sdpnode-_sdp_node_header">SDP_NODE_HEADER</a> structure and an 
     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sdpnode/ns-sdpnode-_sdp_node_data">SDP_NODE_DATA</a> union. The header specifies the
     type of data, and Bluetooth profile drivers can access links to peer SDP_NODE structures through the 
-    <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_list_entry">LIST_ENTRY</a> system structure. By evaluating this
+    <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-list_entry">LIST_ENTRY</a> system structure. By evaluating this
     structure's 
     <code>Node.hdr.Link.Flink</code>and 
     <code>Node.hdr.Link.Blink</code>, drivers can obtain the addresses of peer
@@ -145,7 +145,7 @@ Bluetooth profile drivers can obtain a pointer to this function through the
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_list_entry">LIST_ENTRY</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-list_entry">LIST_ENTRY</a>
 
 
 

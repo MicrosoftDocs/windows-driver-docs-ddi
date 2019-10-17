@@ -294,7 +294,7 @@ Used internally by the I/O manager to queue the device object when it is require
 
 ### -field Queue.ListEntry
 
-A <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_list_entry">LIST_ENTRY</a> structure that contains forward and backward pointers for a doubly linked list.
+A <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-list_entry">LIST_ENTRY</a> structure that contains forward and backward pointers for a doubly linked list.
 
 
 ### -field Queue.Wcb
