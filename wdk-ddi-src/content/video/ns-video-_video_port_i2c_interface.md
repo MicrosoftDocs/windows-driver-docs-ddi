@@ -115,7 +115,7 @@ PnP video miniport drivers that can use I²C should fill in the <b>Size</b> and 
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/customize/desktop/unattend/microsoft-windows-netbt-interfaces-interface">INTERFACE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_interface">INTERFACE</a>
 
 
 
