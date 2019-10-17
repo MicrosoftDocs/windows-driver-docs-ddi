@@ -65,7 +65,7 @@ The size, in bytes, of this structure.
 
 ### -field Interface
 
-A pointer to an <a href="https://docs.microsoft.com/windows-hardware/customize/desktop/unattend/microsoft-windows-netbt-interfaces-interface">INTERFACE</a> structure that describes the driver-defined interface. 
+A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_interface">INTERFACE</a> structure that describes the driver-defined interface. 
 
 
 ### -field InterfaceType
@@ -106,7 +106,7 @@ The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdf
 
 </li>
 <li>
-Because the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfqueryinterface/nc-wdfqueryinterface-evt_wdf_device_process_query_interface_request">EvtDeviceProcessQueryInterfaceRequest</a> callback function provides the interface to the requesting driver, the <b>Interface</b> member of <b>WDF_QUERY_INTERFACE_CONFIG</b> can be <b>NULL</b>. If you provide a non-<b>NULL</b> pointer, the framework verifies that the size and version values that the requesting driver supplies are equal to or less than the values in your <a href="https://docs.microsoft.com/windows-hardware/customize/desktop/unattend/microsoft-windows-netbt-interfaces-interface">INTERFACE</a> structure. If either of these values are greater, the framework rejects the request. If you do not provide a value for <b>Interface</b>, your <i>EvtDeviceProcessQueryInterfaceRequest</i> callback function must verify those values.
+Because the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfqueryinterface/nc-wdfqueryinterface-evt_wdf_device_process_query_interface_request">EvtDeviceProcessQueryInterfaceRequest</a> callback function provides the interface to the requesting driver, the <b>Interface</b> member of <b>WDF_QUERY_INTERFACE_CONFIG</b> can be <b>NULL</b>. If you provide a non-<b>NULL</b> pointer, the framework verifies that the size and version values that the requesting driver supplies are equal to or less than the values in your <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_interface">INTERFACE</a> structure. If either of these values are greater, the framework rejects the request. If you do not provide a value for <b>Interface</b>, your <i>EvtDeviceProcessQueryInterfaceRequest</i> callback function must verify those values.
 
 </li>
 </ul>
@@ -128,7 +128,7 @@ If the <b>Interface</b> member is non-<b>NULL</b>, the framework copies the valu
 
 When your driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfqueryinterface/nf-wdfqueryinterface-wdfdeviceaddqueryinterface">WdfDeviceAddQueryInterface</a>, it can associate the interface with a framework device object that represents either a functional device object (FDO) or a physical device object (PDO). If the driver associates the interface with a PDO, it can set the <b>SendQueryToParentStack</b> member of the <b>WDF_QUERY_INTERFACE_CONFIG</b> structure to <b>TRUE</b>. When the framework intercepts a request for the interface, it checks the <b>SendQueryToParentStack</b> member and, if it is set to <b>TRUE</b>, the framework sends the request to the top of the driver stack of the PDO's parent. As a result, the request travels down two driver stacks: first, the stack that contains the driver that is requesting the interface and, second, the stack of the parent of the interface's device.
 
-The framework provides two reference/dereference methods that you can use with your interfaces by specifying their addresses for the <b>InterfaceReference</b> and <b>InterfaceDereference</b> members of the <a href="https://docs.microsoft.com/windows-hardware/customize/desktop/unattend/microsoft-windows-netbt-interfaces-interface">INTERFACE</a> structure. For more information about these methods, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfqueryinterface/nf-wdfqueryinterface-wdfdeviceinterfacereferencenoop">WdfDeviceInterfaceReferenceNoOp</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfqueryinterface/nf-wdfqueryinterface-wdfdeviceinterfacedereferencenoop">WdfDeviceInterfaceDereferenceNoOp</a>.
+The framework provides two reference/dereference methods that you can use with your interfaces by specifying their addresses for the <b>InterfaceReference</b> and <b>InterfaceDereference</b> members of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_interface">INTERFACE</a> structure. For more information about these methods, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfqueryinterface/nf-wdfqueryinterface-wdfdeviceinterfacereferencenoop">WdfDeviceInterfaceReferenceNoOp</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfqueryinterface/nf-wdfqueryinterface-wdfdeviceinterfacedereferencenoop">WdfDeviceInterfaceDereferenceNoOp</a>.
 
 Drivers should initialize this structure by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfqueryinterface/nf-wdfqueryinterface-wdf_query_interface_config_init">WDF_QUERY_INTERFACE_CONFIG_INIT</a>.
 
@@ -146,7 +146,7 @@ For more information about driver-defined interfaces, see <a href="https://docs.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/customize/desktop/unattend/microsoft-windows-netbt-interfaces-interface">INTERFACE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_interface">INTERFACE</a>
 
 
 

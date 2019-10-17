@@ -3,7 +3,7 @@ UID: NS:d3dkmddi._DXGKARG_CONTROLMODEBEHAVIOR
 title: _DXGKARG_CONTROLMODEBEHAVIOR (d3dkmddi.h)
 description: Arguments used to describe display mode behaviors that the OS requests of the driver and the results of the request.
 ms.assetid: 708d7d44-6261-438f-93e7-f12e338e870e
-ms.date: 10/19/2018
+ms.date: 10/14/2019
 ms.topic: struct
 f1_keywords:
  - "d3dkmddi/_DXGKARG_CONTROLMODEBEHAVIOR"
@@ -39,26 +39,28 @@ tech.root: display
 
 ## -description
 
-Arguments used to describe display mode behaviors that the OS requests of the driver and the results of the request.
+The DXGKARG_CONTROLMODEBEHAVIOR structure contains the display mode behaviors that the OS requests of the driver and the results of the request.
 
 ## -struct-fields
 
 ### -field Request
 
-Indicates the behaviors that the OS is requesting
+A [DXGK_MODE_BEHAVIOR_FLAGS](ns-d3dkmddi-_dxgk_mode_behavior_flags.md) union containing the behaviors that the OS is requesting.
 
 ### -field Satisfied
 
-Flags that report which requests were satisfied.  Only flags which were set in the Request field and which the driver has been able to apply the requested behavior should be set.
+Flags that report which requests were satisfied. Only flags that were set in the **Request** field and which the driver has been able to apply the requested behavior should be set.
 
 ### -field NotSatisfied
 
-Flags that report which requests were not satisfied.  Only flags which were set in the Request field which the driver supports on this adapter but could not be applied should be set.
+Flags that report which requests were not satisfied. Only flags which were set in the **Request** field which the driver supports on this adapter but could not be applied should be set.
 
 ## -remarks
 
-If a behavior is not supported, then even if the driver comprehends the behavior, it should leave the flag bit clear in both the Satisfied and the NotSatisfied field.
+If a behavior is not supported, then even if the driver comprehends the behavior, it should leave the flag bit clear in both the **Satisfied** and the **NotSatisfied** fields.
 
 ## -see-also
 
-[DXGK_MODE_BEHAVIOR_FLAGS](../d3dkmddi/ns-d3dkmddi-_dxgk_mode_behavior_flags.md)
+[DXGK_MODE_BEHAVIOR_FLAGS](ns-d3dkmddi-_dxgk_mode_behavior_flags.md)
+
+[DXGKDDI_CONTROLMODEBEHAVIOR](nc-d3dkmddi-dxgkddi_controlmodebehavior.md)

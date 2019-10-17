@@ -100,7 +100,7 @@ RX metadata.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_list_entry">LIST_ENTRY</a>
+<a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-list_entry">LIST_ENTRY</a>
 
 
 

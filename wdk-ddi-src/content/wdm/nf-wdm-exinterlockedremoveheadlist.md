@@ -48,7 +48,7 @@ req.typenames:
 ## -description
 
 
-The <b>ExInterlockedRemoveHeadList</b> routine removes an entry from the beginning of a doubly linked list of <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_list_entry">LIST_ENTRY</a> structures. 
+The <b>ExInterlockedRemoveHeadList</b> routine removes an entry from the beginning of a doubly linked list of <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-list_entry">LIST_ENTRY</a> structures. 
 
 
 ## -parameters
@@ -58,7 +58,7 @@ The <b>ExInterlockedRemoveHeadList</b> routine removes an entry from the beginni
 
 ### -param ListHead [in, out]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_list_entry">LIST_ENTRY</a> structure that serves as the list header.
+A pointer to the <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-list_entry">LIST_ENTRY</a> structure that serves as the list header.
 
 
 ### -param Lock [in, out]
@@ -70,7 +70,7 @@ A pointer to a <b>KSPIN_LOCK</b> structure that serves as the spin lock used to 
 
 
 
-<b>ExInterlockedRemoveHeadList</b> returns a pointer to the <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_list_entry">LIST_ENTRY</a> structure removed from the list. If the list was empty, the routine returns <b>NULL</b>.
+<b>ExInterlockedRemoveHeadList</b> returns a pointer to the <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-list_entry">LIST_ENTRY</a> structure removed from the list. If the list was empty, the routine returns <b>NULL</b>.
 
 
 

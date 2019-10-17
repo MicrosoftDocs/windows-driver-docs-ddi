@@ -68,7 +68,7 @@ A constant from the <a href="https://docs.microsoft.com/windows-hardware/drivers
 
 ### -param Interface [in, out]
 
-A pointer to an <a href="https://docs.microsoft.com/windows-hardware/customize/desktop/unattend/microsoft-windows-netbt-interfaces-interface">INTERFACE</a> structure that receives the requested interface.
+A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_interface">INTERFACE</a> structure that receives the requested interface.
 
 
 ## -returns
@@ -174,7 +174,7 @@ On return from <b>DxgkCbQueryServices</b>, your DXGK_TIMED_OPERATION_INTERFACE s
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/customize/desktop/unattend/microsoft-windows-netbt-interfaces-interface">INTERFACE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_interface">INTERFACE</a>
 
 
 

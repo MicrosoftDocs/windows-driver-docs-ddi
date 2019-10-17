@@ -62,7 +62,7 @@ The BTH_PROFILE_DRIVER_INTERFACE structure provides functions to allocate, free,
 A structure that describes the 
      <b>BTH_PROFILE_DRIVER_INTERFACE</b> interface for use by profile drivers. For more information about this
      structure, see 
-     <a href="https://docs.microsoft.com/windows-hardware/customize/desktop/unattend/microsoft-windows-netbt-interfaces-interface">INTERFACE</a>.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_interface">INTERFACE</a>.
 
 
 ### -field BthAllocateBrb
@@ -131,7 +131,7 @@ All the members of this structure, other than the
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/customize/desktop/unattend/microsoft-windows-netbt-interfaces-interface">INTERFACE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_interface">INTERFACE</a>
 
 
 
