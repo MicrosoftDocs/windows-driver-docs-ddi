@@ -26,7 +26,7 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
+req.irql: <= DISPATCH_LEVEL (see Remarks)
 topic_type:
 - APIRef
 - kbSyntax
@@ -74,7 +74,9 @@ A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ker
 
 
 
-To safely access a shared object, a driver calls <b>ExAcquireRundownProtection</b> to acquire run-down protection on the object. The routine returns <b>TRUE</b> to indicate that run-down  protection is in effect. When run-down protection is in effect, the driver can safely access the object without risk that the object will be deleted before the access completes.
+To safely access a shared object, a driver calls <b>ExAcquireRundownProtection</b> to acquire run-down protection on the object. The routine returns <b>TRUE</b> to indicate that run-down protection is in effect. When run-down protection is in effect, the driver can safely access the object without risk that the object will be deleted before the access completes.
+
+As long as the run-down block itself is nonpaged, this function can be called at DISPATCH_LEVEL.
 
 After completing the access, the driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-exreleaserundownprotection">ExReleaseRundownProtection</a> to release the previously acquired run-down protection.
 
