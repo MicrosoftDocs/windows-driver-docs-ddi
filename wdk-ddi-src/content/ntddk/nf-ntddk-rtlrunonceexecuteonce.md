@@ -51,7 +51,16 @@ req.typenames:
 The <b>RtlRunOnceExecuteOnce</b> performs a one-time initialization.
 
 
+## -syntax
 
+```cpp
+NTSYSAPI NTSTATUS RtlRunOnceExecuteOnce(
+  PRTL_RUN_ONCE         RunOnce,
+  PRTL_RUN_ONCE_INIT_FN InitFn,
+  PVOID                 *Parameter,
+  PVOID                 Context
+);
+```
 
 ## -parameters
 
