@@ -48,7 +48,7 @@ req.typenames:
 ## -description
 
 
-The <b>IsListEmpty</b> routine indicates whether a doubly linked list of <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_list_entry">LIST_ENTRY</a> structures is empty.
+The <b>IsListEmpty</b> routine indicates whether a doubly linked list of <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-list_entry">LIST_ENTRY</a> structures is empty.
 
 
 ## -parameters
@@ -58,7 +58,7 @@ The <b>IsListEmpty</b> routine indicates whether a doubly linked list of <a href
 
 ### -param ListHead [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/ntdef/ns-ntdef-_list_entry">LIST_ENTRY</a> structure that represents the head of the list. 
+Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/ntdef/ns-ntdef-list_entry">LIST_ENTRY</a> structure that represents the head of the list. 
 
 
 ## -returns
