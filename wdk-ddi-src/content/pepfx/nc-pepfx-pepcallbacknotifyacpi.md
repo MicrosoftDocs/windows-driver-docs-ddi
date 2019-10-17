@@ -58,7 +58,7 @@ An <i>AcceptAcpiNotification</i> event callback routine handles ACPI notificatio
 
 ### -param Notification [in]
 
-The ACPI notification ID. This parameter specifies the type of ACPI notification that PoFx is sending. For a list of ACPI notification IDs, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">ACPI notifications</a>.
+The ACPI notification ID. This parameter specifies the type of ACPI notification that PoFx is sending. For a list of ACPI notification IDs, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/acpi-notifications">ACPI notifications</a>.
 
 
 ### -param Data [in, out, optional]
