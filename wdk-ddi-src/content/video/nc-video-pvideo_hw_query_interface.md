@@ -83,7 +83,7 @@ Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/co
 
 The video port calls <i>HwVidQueryInterface</i> when it receives an IRP_MN_QUERY_INTERFACE request. If the miniport driver fails the call, the video port driver passes the request to the parent of the miniport driver's device.
 
-<i>HwVidQueryInterface</i> should fill in the members of the <a href="https://docs.microsoft.com/windows-hardware/customize/desktop/unattend/microsoft-windows-netbt-interfaces-interface">INTERFACE</a> structure to which <i>QueryInterface</i>-><b>Interface</b> points as follows:
+<i>HwVidQueryInterface</i> should fill in the members of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_interface">INTERFACE</a> structure to which <i>QueryInterface</i>-><b>Interface</b> points as follows:
 
 <ul>
 <li>

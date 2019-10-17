@@ -81,7 +81,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 
 <i>DxgkDdiQueryInterface</i> exposes a communication mechanism between the display miniport driver and the driver of a child device (for example, a video capture device). A display miniport driver that exposes such a mechanism should implement this function.
 
-<i>DxgkDdiQueryInterface</i> should fill in the members of the <a href="https://docs.microsoft.com/windows-hardware/customize/desktop/unattend/microsoft-windows-netbt-interfaces-interface">INTERFACE</a> structure that <i>QueryInterface</i>-><b>Interface</b> points to as follows:
+<i>DxgkDdiQueryInterface</i> should fill in the members of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_interface">INTERFACE</a> structure that <i>QueryInterface</i>-><b>Interface</b> points to as follows:
 
 <ul>
 <li>

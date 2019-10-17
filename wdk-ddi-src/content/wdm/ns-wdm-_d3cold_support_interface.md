@@ -112,7 +112,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/
 
 A device driver that successfully queries for the GUID_D3COLD_SUPPORT_INTERFACE interface receives a pointer to a <b>D3COLD_SUPPORT_INTERFACE</b> structure in which the pointers to the routines in the interface are all non-NULL and valid.
 
-The <b>D3COLD_SUPPORT_INTERFACE</b> structure is an extended version of the <a href="https://docs.microsoft.com/windows-hardware/customize/desktop/unattend/microsoft-windows-netbt-interfaces-interface">INTERFACE</a> structure.
+The <b>D3COLD_SUPPORT_INTERFACE</b> structure is an extended version of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_interface">INTERFACE</a> structure.
 
 
 
@@ -138,7 +138,7 @@ The <b>D3COLD_SUPPORT_INTERFACE</b> structure is an extended version of the <a h
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/customize/desktop/unattend/microsoft-windows-netbt-interfaces-interface">INTERFACE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_interface">INTERFACE</a>
 
 
 
