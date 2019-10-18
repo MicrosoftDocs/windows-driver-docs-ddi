@@ -80,7 +80,7 @@ Pointer to a caller-allocated buffer to receive the generated short file name. T
 
 
 
-None
+This routine returns STATUS_SUCCESS if a short name is successfully generated. It returns STATUS_FILE_SYSTEM_LIMITATION if the system can not generate a unique short name for a given file. It returns this error after 1 million retry attempts for a single given long name.
 
 
 
