@@ -50,6 +50,18 @@ req.typenames:
 
 The <i>RunOnceInitialization</i> routine performs a one-time initialization operation.
 
+## -syntax
+
+```cpp
+RTL_RUN_ONCE_INIT_FN RtlRunOnceInitFn;
+
+ULONG RtlRunOnceInitFn(
+  PRTL_RUN_ONCE RunOnce,
+  PVOID *Parameter,
+  PVOID Context
+)
+{...}
+```
 
 ## -parameters
 
