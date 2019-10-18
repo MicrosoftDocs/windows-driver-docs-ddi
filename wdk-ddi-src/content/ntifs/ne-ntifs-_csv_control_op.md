@@ -1,7 +1,7 @@
 ---
 UID: NE:ntifs._CSV_CONTROL_OP
 title: _CSV_CONTROL_OP (ntifs.h)
-description: Specifies the type of CSV control operation to use with the FSCTL_CSV_CONTROL control code.
+description: Specifies the type of cluster shared volume (CSV) control operation to use with the FSCTL_CSV_CONTROL control code.
 tech.root: ifsk
 ms.assetid: a08a089b-44a0-45b7-98e3-8d82b3edef4b
 ms.date: 09/14/2018
@@ -36,7 +36,7 @@ targetos: Windows
 
 ## -description
 
-Specifies the type of CSV control operation to use with the [FSCTL_CSV_CONTROL](https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_csv_control) control code.
+Specifies the type of cluster shared volume (CSV) control operation to use with the [FSCTL_CSV_CONTROL](https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_csv_control) control code.
 
 ## -enum-fields
 
@@ -44,47 +44,47 @@ Specifies the type of CSV control operation to use with the [FSCTL_CSV_CONTROL](
 
 Starts CSV file redirection.
 
-### -field CsvControlStopRedirectFile 
+### -field CsvControlStopRedirectFile
 
 Stops CSV file redirection.
 
-### -field CsvControlQueryRedirectState 
+### -field CsvControlQueryRedirectState
 
-Search for state redirection. When this value is specified, the [**CSV_QUERY_REDIRECT_STATE**](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_csv_query_redirect_state) structure must also be used.
+Search for state redirection. When this value is specified, the [CSV_QUERY_REDIRECT_STATE](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_csv_query_redirect_state) structure must also be used.
 
 ### -field CsvControlQueryFileRevision  
 
-Search for file revision. When this value is specified, the [**CSV_QUERY_FILE_REVISION**](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_csv_query_file_revision) structure must also be used.
+Search for file revision. When this value is specified, the [CSV_QUERY_FILE_REVISION](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_csv_query_file_revision) structure must also be used.
 
-### -field CsvControlQueryMdsPath 
+### -field CsvControlQueryMdsPath
 
-Search for MDS path. When this value is specified, the [**CSV_QUERY_MDS_PATH**](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_csv_query_mds_path) structure must also be used.
+Search for MDS path. When this value is specified, the [CSV_QUERY_MDS_PATH](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_csv_query_mds_path) structure must also be used.
 
-### -field CsvControlQueryFileRevisionFileId128 
+### -field CsvControlQueryFileRevisionFileId128
 
-Search for 128-bit file revision. When this value is specified, the **CSV_QUERY_FILE_REVISION_FILE_ID_128** structure must also be used.
+Search for 128-bit file revision. When this value is specified, the CSV_QUERY_FILE_REVISION_FILE_ID_128 structure must also be used.
 
-### -field CsvControlQueryVolumeRedirectState 
+### -field CsvControlQueryVolumeRedirectState
 
-Search for volume state redirection. When this value is specified, the **CSV_QUERY_VOLUME_REDIRECT_STATE** structure must also be used.
+Search for volume state redirection. When this value is specified, the CSV_QUERY_VOLUME_REDIRECT_STATE structure must also be used.
 
-### -field CsvControlEnableUSNRangeModificationTracking 
+### -field CsvControlEnableUSNRangeModificationTracking
 
 Enable USN range tracking.
 
-### -field CsvControlMarkHandleLocalVolumeMount 
+### -field CsvControlMarkHandleLocalVolumeMount
 
 When a VHD file is about to be loopback mounted, marks a handle and requests that CVSFS to fail I/Os and invalidate handles after a short timeout (currently 20 seconds) if no I/Os make progress.
 
-### -field CsvControlUnmarkHandleLocalVolumeMount 
+### -field CsvControlUnmarkHandleLocalVolumeMount
 
 When a VHD file is about to be loopback unmounted, unmarks a handle that had been previously marked by **CsvControlMarkHandleLocalVolumeMount**.
 
-### -field CsvControlGetCsvFsMdsPathV2 
+### -field CsvControlGetCsvFsMdsPathV2
 
-Search for version 2 of the MDS path. When this value is specified, the **CSV_QUERY_MDS_PATH_V2** structure must also be used.
+Search for version 2 of the MDS path. When this value is specified, the CSV_QUERY_MDS_PATH_V2 structure must also be used.
 
-### -field CsvControlDisableCaching 
+### -field CsvControlDisableCaching
 
 Disables caching of the CSV file.
 
@@ -94,7 +94,7 @@ Enables caching of the CSV file.
 
 ## -remarks
 
-An alternative to calling the [FSCTL_CSV_CONTROL](https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_csv_control) control code with this enumeration is to use the [**CSV_CONTROL_PARAM**](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_csv_control_param) structure, which encapsulates a member of this enumeration type.
+An alternative to calling the [FSCTL_CSV_CONTROL](https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_csv_control) control code with this enumeration is to use the [CSV_CONTROL_PARAM](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_csv_control_param) structure, which encapsulates a member of this enumeration type.
 
 ## -see-also
 
@@ -109,3 +109,4 @@ An alternative to calling the [FSCTL_CSV_CONTROL](https://docs.microsoft.com/win
 [CSV_QUERY_REDIRECT_STATE](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_csv_query_redirect_state)
 
 [FSCTL_CSV_CONTROL](https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_csv_control)
+
