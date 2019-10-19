@@ -55,7 +55,6 @@ The <b>IoAcquireRemoveLock</b> routine increments the count for a remove lock,
 
 ```cpp
 NTSTATUS
-NTAPI
 IoAcquireRemoveLock (
     _Inout_ PIO_REMOVE_LOCK RemoveLock,
     _In_opt_ PVOID          Tag
