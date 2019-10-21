@@ -50,6 +50,14 @@ req.typenames:
 
 The <b>KeQueryTickCount</b> routine maintains a count of the interval timer interrupts that have occurred since the system was booted. 
 
+## -syntax
+
+```cpp
+VOID
+KeQueryTickCount (
+    _Out_ PLARGE_INTEGER CurrentCount
+    );
+```
 
 ## -parameters
 
