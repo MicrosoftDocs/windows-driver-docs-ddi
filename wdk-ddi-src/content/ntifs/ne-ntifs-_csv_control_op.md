@@ -4,7 +4,7 @@ title: _CSV_CONTROL_OP (ntifs.h)
 description: Specifies the type of cluster shared volume (CSV) control operation to use with the FSCTL_CSV_CONTROL control code.
 tech.root: ifsk
 ms.assetid: a08a089b-44a0-45b7-98e3-8d82b3edef4b
-ms.date: 09/14/2018
+ms.date: 10/21/2019
 ms.topic: enum
 f1_keywords:
  - "ntifs/_CSV_CONTROL_OP"
@@ -104,9 +104,8 @@ An alternative to calling the [FSCTL_CSV_CONTROL](https://docs.microsoft.com/win
 
 [CSV_QUERY_FILE_REVISION](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_csv_query_file_revision)
 
-[CSV_QUERY_MDS_PATH](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_csv_query_mds_path) 
+[CSV_QUERY_MDS_PATH](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_csv_query_mds_path)
 
 [CSV_QUERY_REDIRECT_STATE](https://docs.microsoft.com/windows/desktop/api/winioctl/ns-winioctl-_csv_query_redirect_state)
 
 [FSCTL_CSV_CONTROL](https://docs.microsoft.com/windows/desktop/api/winioctl/ni-winioctl-fsctl_csv_control)
-
