@@ -54,7 +54,6 @@ The <b>KeQueryTickCount</b> routine maintains a count of the interval timer inte
 
 ```cpp
 VOID
-NTAPI
 KeQueryTickCount (
     _Out_ PLARGE_INTEGER CurrentCount
     );

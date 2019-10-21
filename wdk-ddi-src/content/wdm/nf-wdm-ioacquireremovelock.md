@@ -51,6 +51,15 @@ req.typenames:
 The <b>IoAcquireRemoveLock</b> routine increments the count for a remove lock, 
    indicating that the associated device object should not be detached from the device stack or deleted.
 
+## -syntax
+
+```cpp
+NTSTATUS
+IoAcquireRemoveLock (
+    _Inout_ PIO_REMOVE_LOCK RemoveLock,
+    _In_opt_ PVOID          Tag
+    );
+```
 
 ## -parameters
 

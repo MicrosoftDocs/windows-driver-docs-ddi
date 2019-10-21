@@ -26,7 +26,7 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
+req.irql: <= DISPATCH_LEVEL (see Remarks)
 topic_type:
 - APIRef
 - kbSyntax
@@ -82,6 +82,8 @@ The amount by which to increment to the run-down instance count of the object. T
 To safely access a shared object, a driver calls <b>ExAcquireRundownProtectionEx</b> to acquire run-down protection on the object.
 
 The <i>RunRef</i> parameter points to an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">EX_RUNDOWN_REF</a> structure that tracks the run-down status of the associated object. This status information includes a count of instances of run-down protection that are currently in effect on the object. The <b>ExAcquireRundownProtectionEx</b> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-exreleaserundownprotectionex">ExReleaseRundownProtectionEx</a> routines increment and decrement this count by arbitrary amounts. Two related routines,  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-exacquirerundownprotection">ExAcquireRundownProtection</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-exreleaserundownprotection">ExReleaseRundownProtection</a>, increment and decrement this count by one.
+
+As long as the run-down block itself is nonpaged, this function can be called at DISPATCH_LEVEL.
 
 For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/run-down-protection">Run-Down Protection</a>.
 
