@@ -40,7 +40,7 @@ ms.custom: RS5
 
 ## -description
 
-The audio driver issues the IOCTL_BTHHFP_DEVICE_GET_DESCRIPTOR control code to get information about an enabled Sideband Audio device interface.
+The audio driver issues the IOCTL_SBAUD_GET_DEVICE_DESCRIPTOR control code to get information about an enabled Sideband Audio device interface.
 Specifically this returns the number of Audio endpoints available on a device that supports Sideband.
 
 
@@ -54,7 +54,7 @@ None.
 
 ### -input-buffer-length 
 
-None.
+0.
 
 ### -output-buffer
 
@@ -63,14 +63,6 @@ A buffer containing a <a href="https://docs.microsoft.com/windows-hardware/drive
 ### -output-buffer-length 
 
 The size of a <b>SIDEBANDAUDIO_DEVICE_DESCRIPTOR</b> structure.
-
-### -in-out-buffer
-
-<text></text>
-
-### -inout-buffer-length 
-
-<text></text>
 
 ### -status-block
 
