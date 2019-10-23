@@ -68,6 +68,8 @@ Contains information that identifies the reader driver, such as the vendor name,
 
 ### -field ReaderFunction
 
+The line in the syntax block should read `NTSTATUS (*ReaderFunction[16])(PSMARTCARD_EXTENSION);`
+
 A pointer to an array of callback functions for readers. The callback functions that a vendor-supplied reader driver can implement. A reader driver makes these callback functions available for the smart card library routine, <a href="https://docs.microsoft.com/previous-versions/ff548939(v=vs.85)">SmartcardDeviceControl</a>, to call by storing pointers to them in the smart card device extension. <dl>
 <dd><i>RDF_ATR_PARSE</i></dd>
 <dd><i>RDF_CARD_EJECT</i></dd>
