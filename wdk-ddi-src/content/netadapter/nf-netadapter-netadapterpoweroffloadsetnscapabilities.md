@@ -47,21 +47,36 @@ ms.custom: Vb
 
 ## -description
 
-TBD
+The **NetAdapterPowerOffloadSetNsCapabilities** method sets a net adapter's capabilities for IPv6 Neighbor Solicitation (NS) low power protocol offload.
 
 ## -parameters
 
 ### -param Adapter
 
-TBD
+A handle to a NETADAPTER object that the client driver obtained from a previous call to [**NetAdapterCreate**](../netadapter/nf-netadapter-netadaptercreate.md).
 
 ### -param Capabilities
 
-TBD
-
+A pointer to a client driver-allocated and initialized [**NET_ADAPTER_POWER_OFFLOAD_NS_CAPABILITIES**](../netadapter/ns-netadapter-_net_adapter_power_offload_ns_capabilities.md).
 
 ## -returns
-This function returns void.
+
+This method does not return a value.
+
 ## -remarks
 
+Client drivers typically call this method from within their [*EvtDevicePrepareHardware*](../wdfdevice/nc-wdfdevice-evt_wdf_device_prepare_hardware.md) callback, but **must** call this method before calling [**NetAdapterStart**](nf-netadapter-netadapterstart.md).
+
 ## -see-also
+
+[Configuring power management](https://docs.microsoft.com/windows-hardware/drivers/netcx/configuring-power-management)
+
+[**NET_ADAPTER_POWER_OFFLOAD_NS_CAPABILITIES**](../netadapter/ns-netadapter-_net_adapter_power_offload_ns_capabilities.md)
+
+[**NET_ADAPTER_POWER_OFFLOAD_NS_CAPABILITIES_INIT**](../netadapter/nf-netadapter-net_adapter_power_offload_ns_capabilities_init.md)
+
+[**NetAdapterCreate**](../netadapter/nf-netadapter-netadaptercreate.md)
+
+[*EvtDevicePrepareHardware*](../wdfdevice/nc-wdfdevice-evt_wdf_device_prepare_hardware.md)
+
+[**NetAdapterStart**](nf-netadapter-netadapterstart.md)
