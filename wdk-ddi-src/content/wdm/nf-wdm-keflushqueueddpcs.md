@@ -48,7 +48,7 @@ req.typenames:
 ## -description
 
 
-The <b>KeFlushQueuedDpcs</b> routine returns after all queued DPCs on all processors have executed.
+The <b>KeFlushQueuedDpcs</b> routine returns after all currently queued DPCs on all processors have executed their DPC routines to completion.
 
 
 ## -parameters
@@ -73,7 +73,7 @@ None
 
 Drivers can use this routine to wait until all currently-queued DPCs are run. Note that <b>KeFlushQueuedDpcs</b> can take a long time to return, so drivers should not use it along any critical code paths.
 
-
+Only DPCs queued prior to the call to **KeFlushQueuedDpcs** are guaranteed to have been executed to completion upon return. No guarantee is made for DPCs that are queued during the call to **KeFlushQueuedDpcs**.
 
 
 ## -see-also
