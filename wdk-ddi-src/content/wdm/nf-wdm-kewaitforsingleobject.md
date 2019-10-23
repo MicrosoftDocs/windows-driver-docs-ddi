@@ -50,6 +50,18 @@ req.typenames:
 
 The **KeWaitForSingleObject** routine puts the current thread into a wait state until the given dispatcher object is set to a signaled state or (optionally) until the wait times out.
 
+## -syntax
+
+```cpp
+NTSTATUS
+KeWaitForSingleObject (
+    _In_ PVOID Object,
+    _In_ KWAIT_REASON WaitReason,
+    _In_ KPROCESSOR_MODE WaitMode,
+    _In_ BOOLEAN Alertable,
+    _In_opt_ PLARGE_INTEGER Timeout
+    );
+```
 
 ## -parameters
 

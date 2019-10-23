@@ -26,7 +26,7 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: <= APC_LEVEL
+req.irql: <= DISPATCH_LEVEL (see Remarks)
 topic_type:
 - APIRef
 - kbSyntax
@@ -75,6 +75,8 @@ None.
 
 
 A driver that calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-exacquirerundownprotection">ExAcquireRundownProtection</a> to acquire run-time protection for an object access is responsible for calling <b>ExReleaseRundownProtection</b> to release the run-time protection when the access is finished.
+
+As long as the run-down block itself is nonpaged, this function can be called at DISPATCH_LEVEL.
 
 For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/run-down-protection">Run-Down Protection</a>.
 

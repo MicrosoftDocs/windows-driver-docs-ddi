@@ -58,7 +58,7 @@ The BUS_INTERFACE_SWENUM structure describes the demand-load bus enumerator obje
 
 ### -field Interface
 
-Specifies the exported <a href="https://docs.microsoft.com/windows-hardware/customize/desktop/unattend/microsoft-windows-netbt-interfaces-interface">INTERFACE</a>.
+Specifies the exported <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_interface">INTERFACE</a>.
 
 
 ### -field ReferenceDeviceObject

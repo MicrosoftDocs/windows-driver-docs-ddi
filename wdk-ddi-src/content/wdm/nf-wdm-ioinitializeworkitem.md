@@ -81,7 +81,7 @@ None
 
 The driver allocates its own storage for an <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">IO_WORKITEM</a> structure, and then calls <b>IoInitializeWorkItem</b> to initialize it. Memory must be allocated from nonpaged pool. To determine the number of bytes that is necessary to hold an <b>IO_WORKITEM</b> structure, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iosizeofworkitem">IoSizeofWorkItem</a>.
 
-An <b>IO_WORKITEM</b> structure that is initialized by <b>IoInitializeWorkItem</b><u>must</u> be uninitialized by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iouninitializeworkitem">IoUninitializeWorkItem</a> before it is freed.
+An <b>IO_WORKITEM</b> structure that is initialized by <b>IoInitializeWorkItem</b> <u>must</u> be uninitialized by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iouninitializeworkitem">IoUninitializeWorkItem</a> before it is freed.
 
 A related routine, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ioallocateworkitem">IoAllocateWorkItem</a>, both allocates and initializes a work item. By combining allocation and initialization into a single call, <b>IoAllocateWorkItem</b> might be more convenient for some drivers to use than <b>IoInitializeWorkItem</b>, which does initialization only. However, <b>IoInitializeWorkItem</b> is required by drivers that must initialize work items in previously allocated storage.
 
