@@ -50,6 +50,21 @@ req.typenames:
 
 The <b>KeWaitForMultipleObjects</b> routine puts the current thread into an alertable or nonalertable wait state until any or all of a number of dispatcher objects are set to a signaled state or (optionally) until the wait times out.
 
+## -syntax
+
+```cpp
+NTSTATUS
+KeWaitForMultipleObjects (
+    ULONG Count,
+    PVOID Object[],
+    WaitType,
+    KWAIT_REASON WaitReason,
+    KPROCESSOR_MODE WaitMode,
+    BOOLEAN Alertable,
+    PLARGE_INTEGER Timeout,
+    PKWAIT_BLOCK WaitBlockArray
+    );
+```
 
 ## -parameters
 

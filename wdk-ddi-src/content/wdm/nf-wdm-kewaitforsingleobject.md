@@ -55,11 +55,11 @@ The **KeWaitForSingleObject** routine puts the current thread into a wait state 
 ```cpp
 NTSTATUS
 KeWaitForSingleObject (
-    _In_ PVOID Object,
-    _In_ KWAIT_REASON WaitReason,
-    _In_ KPROCESSOR_MODE WaitMode,
-    _In_ BOOLEAN Alertable,
-    _In_opt_ PLARGE_INTEGER Timeout
+    PVOID Object,
+    KWAIT_REASON WaitReason,
+    KPROCESSOR_MODE WaitMode,
+    BOOLEAN Alertable,
+    PLARGE_INTEGER Timeout
     );
 ```
 
