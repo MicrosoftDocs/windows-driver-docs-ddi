@@ -52,7 +52,7 @@ req.typenames:
 
 A driver's <i>EvtDeviceFilterAddResourceRequirements</i> event callback function can add resources to a set of hardware resource requirements before the system assigns resources to a device.
 
-A driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdffdo/nc-wdffdo-evt_wdf_device_filter_resource_requirements">EvtDeviceFilterRemoveResourceRequirements</a> event callback function can remove resources from a set of hardware resource requirements before the system assigns resources to a device.
+A driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdffdo/nc-wdffdo-evt_wdf_device_filter_resource_requirements">EvtDeviceFilterRemoveResourceRequirements</a> event callback function can remove resources from a set of hardware resource requirements before the system assigns resources to a device.
 
 
 ## -parameters
@@ -85,13 +85,13 @@ For more information about return values, see <a href="https://docs.microsoft.co
 
 
 
-Framework-based function drivers can provide an <i>EvtDeviceFilterAddResourceRequirements</i> and an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdffdo/nc-wdffdo-evt_wdf_device_filter_resource_requirements">EvtDeviceFilterRemoveResourceRequirements</a>callback function. To register these callback functions, drivers call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdffdo/nf-wdffdo-wdffdoinitseteventcallbacks">WdfFdoInitSetEventCallbacks</a>.
+Framework-based function drivers can provide an <i>EvtDeviceFilterAddResourceRequirements</i> and an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdffdo/nc-wdffdo-evt_wdf_device_filter_resource_requirements">EvtDeviceFilterRemoveResourceRequirements</a>callback function. To register these callback functions, drivers call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdffdo/nf-wdffdo-wdffdoinitseteventcallbacks">WdfFdoInitSetEventCallbacks</a>.
 
 When the framework calls a driver's <i>EvtDeviceFilterAddResourceRequirements</i> callback function, the driver can add resource descriptors to a logical configuration, and it can provide additional logical configurations. These added items represent resources that the function driver requires to make the device operational.
 
-If a driver's <i>EvtDeviceFilterAddResourceRequirements</i> callback function adds items to a device's resource requirements list, and if the PnP manager assigns the resources to the device's requirements list, the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdffdo/nc-wdffdo-evt_wdf_device_remove_added_resources">EvtDeviceRemoveAddedResources</a> callback function must remove the added resources from the device's resource list.
+If a driver's <i>EvtDeviceFilterAddResourceRequirements</i> callback function adds items to a device's resource requirements list, and if the PnP manager assigns the resources to the device's requirements list, the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdffdo/nc-wdffdo-evt_wdf_device_remove_added_resources">EvtDeviceRemoveAddedResources</a> callback function must remove the added resources from the device's resource list.
 
-To add items to or remove items from a resource requirements list, the driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfresource/">framework resource-requirements-list object methods</a> and framework resource-range-list object methods, which manipulates the resource-requirements-list object that is represented by the <i>IoResourceRequirementsList</i> parameter. 
+To add items to or remove items from a resource requirements list, the driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfresource/">framework resource-requirements-list object methods</a> and framework resource-range-list object methods, which manipulates the resource-requirements-list object that is represented by the <i>IoResourceRequirementsList</i> parameter. 
 
 For more information about these callback functions, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/modifying-a-resource-requirements-list">Modifying a Resource Requirements List</a>.
 
@@ -100,7 +100,7 @@ For more information about hardware resources and resource requirements lists, s
 
 #### Examples
 
-To define an <i>EvtDeviceFilterAddResourceRequirements</i> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdffdo/nc-wdffdo-evt_wdf_device_filter_resource_requirements">EvtDeviceFilterRemoveResourceRequirements</a> callback function, you must first provide a function declaration that identifies the type of callback function you’re defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/code-analysis-for-drivers">Code Analysis for Drivers</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it’s a requirement for writing drivers for the Windows operating system.
+To define an <i>EvtDeviceFilterAddResourceRequirements</i> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdffdo/nc-wdffdo-evt_wdf_device_filter_resource_requirements">EvtDeviceFilterRemoveResourceRequirements</a> callback function, you must first provide a function declaration that identifies the type of callback function you’re defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/code-analysis-for-drivers">Code Analysis for Drivers</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it’s a requirement for writing drivers for the Windows operating system.
 
 For example, to define an <i>EvtDeviceFilterAddResourceRequirements</i> callback function that is named <i>MyDeviceFilterAddResourceRequirements</i>, use the <b>EVT_WDF_DEVICE_FILTER_RESOURCE_REQUIREMENTS</b> type as shown in this code example:
 
@@ -142,7 +142,7 @@ The <b>EVT_WDF_DEVICE_FILTER_RESOURCE_REQUIREMENTS</b> function type is defined 
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdffdo/nc-wdffdo-evt_wdf_device_remove_added_resources">EvtDeviceRemoveAddedResources</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdffdo/nc-wdffdo-evt_wdf_device_remove_added_resources">EvtDeviceRemoveAddedResources</a>
  
 
  

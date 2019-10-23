@@ -58,7 +58,7 @@ The KSPROPERTY_VIDEOPROCAMP_NODE_S2 structure describes node-based property sett
 
 ### -field NodeProperty
 
-Specifies an initialized <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksp_node">KSP_NODE</a> structure that describes the node, property set, property ID, and request type.
+Specifies an initialized <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksp_node">KSP_NODE</a> structure that describes the node, property set, property ID, and request type.
 
 
 ### -field Value1

@@ -63,7 +63,7 @@ A handle to a UCX object that represents the root hub.
 
 ### -param Request [in]
 
-Contains the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usb/ns-usb-_urb">URB</a> for the root hub interrupt transfer request.
+Contains the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usb/ns-usb-_urb">URB</a> for the root hub interrupt transfer request.
 
 
 ## -returns

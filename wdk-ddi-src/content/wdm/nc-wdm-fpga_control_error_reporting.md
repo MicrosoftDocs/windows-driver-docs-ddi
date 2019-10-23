@@ -74,10 +74,10 @@ FPGA_CONTROL_ERROR_REPORTING *PFPGA_CONTROL_ERROR_REPORTING
 [_In_reads_opt_(_Inexpressible_("varies"))] The handle to the bus extension.
  
 ### -param UncorrectableMask
-[_In_] A bitwise mask of flags defined in [**PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_pci_express_uncorrectable_error_mask) that indicates the uncorrectable masks to be toggled.
+[_In_] A bitwise mask of flags defined in [**PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_uncorrectable_error_mask) that indicates the uncorrectable masks to be toggled.
  
 ### -param CorrectableMask
-[_In_]  A bitwise mask of flags defined in [**PCI_EXPRESS_CORRECTABLE_ERROR_MASK**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_pci_express_correctable_error_mask) that indicates the correctable masks to be toggled.
+[_In_]  A bitwise mask of flags defined in [**PCI_EXPRESS_CORRECTABLE_ERROR_MASK**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_pci_express_correctable_error_mask) that indicates the correctable masks to be toggled.
 
 ### -param DisableErrorReporting
 [_In_] A flag indicates whether the error reporting is being disabled or enabled.

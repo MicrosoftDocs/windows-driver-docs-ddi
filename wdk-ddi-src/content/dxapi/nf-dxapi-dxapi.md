@@ -49,7 +49,7 @@ req.typenames:
 ## -description
 
 
-The <b>DxApi</b> function accepts commands from the hardware decoder's video capture driver to access the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">DxApi interface functions</a> that are implemented in a <a href="https://docs.microsoft.com/windows-hardware/drivers/display/video-miniport-drivers-in-the-windows-2000-display-driver-model">video miniport driver</a>.
+The <b>DxApi</b> function accepts commands from the hardware decoder's video capture driver to access the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">DxApi interface functions</a> that are implemented in a <a href="https://docs.microsoft.com/windows-hardware/drivers/display/video-miniport-drivers-in-the-windows-2000-display-driver-model">video miniport driver</a>.
 
 
 ## -parameters

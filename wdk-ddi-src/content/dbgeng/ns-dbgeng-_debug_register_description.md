@@ -48,7 +48,7 @@ req.typenames: DEBUG_REGISTER_DESCRIPTION, *PDEBUG_REGISTER_DESCRIPTION
 ## -description
 
 
-The <b>DEBUG_REGISTER_DESCRIPTION</b> structure is returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugregisters2-getdescription">GetDescription</a> to describe a processor's register.
+The <b>DEBUG_REGISTER_DESCRIPTION</b> structure is returned by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugregisters2-getdescription">GetDescription</a> to describe a processor's register.
 
 
 ## -struct-fields
@@ -58,7 +58,7 @@ The <b>DEBUG_REGISTER_DESCRIPTION</b> structure is returned by <a href="https://
 
 ### -field Type
 
-The type of value that this register holds.  The possible values are the same as for the <b>Type</b> field in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/ns-dbgeng-_debug_value">DEBUG_VALUE</a> structure.
+The type of value that this register holds.  The possible values are the same as for the <b>Type</b> field in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_value">DEBUG_VALUE</a> structure.
 
 
 ### -field Flags

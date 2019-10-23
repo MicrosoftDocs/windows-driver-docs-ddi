@@ -80,7 +80,7 @@ The <b>StorPortWritePortUlong</b> routine writes a value to a specified register
 
 
 
-For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/srb/nf-srb-scsiportwriteportulong">ScsiPortWritePortUlong</a>. For a buffered equivalent of this routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportwriteportbufferulong">StorPortWritePortBufferUlong</a>. 
+For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportwriteportulong">ScsiPortWritePortUlong</a>. For a buffered equivalent of this routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportwriteportbufferulong">StorPortWritePortBufferUlong</a>. 
 
 
 
@@ -90,11 +90,11 @@ For more information, see <a href="https://docs.microsoft.com/windows-hardware/d
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/srb/nf-srb-scsiportwriteportulong">ScsiPortWritePortUlong</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportwriteportulong">ScsiPortWritePortUlong</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nf-storport-storportwriteportbufferulong">StorPortWritePortBufferUlong</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nf-storport-storportwriteportbufferulong">StorPortWritePortBufferUlong</a>
  
 
  

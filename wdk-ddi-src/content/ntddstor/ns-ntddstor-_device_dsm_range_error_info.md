@@ -57,7 +57,7 @@ Flags associated with the range error information. Possible values are:
 
 ### -field TotalNumberOfRanges
 
-Number of [DEVICE_STORAGE_RANGE_ATTRIBUTES](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor_device_storage_range_attributes) structure(s) needed to satisfy a **DeviceDsmAction_GetRangeErrorInfo** request.
+Number of [DEVICE_STORAGE_RANGE_ATTRIBUTES](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor_device_storage_range_attributes) structure(s) needed to satisfy a **DeviceDsmAction_GetRangeErrorInfo** request.
 
 ### -field NumberOfRangesReturned
 
@@ -69,12 +69,12 @@ Array of DEVICE_STORAGE_RANGE_ATTRIBUTES structure(s) in which to return media e
 
 ## -remarks
 
-The output block in the payload of an [IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ni-ntddstor-ioctl_storage_manage_data_set_attributes) request is formatted as a DEVICE_DSM_RANGE_ERROR_OUTPUT structure when the action is **DeviceDsmAction_GetRangeErrorInfo**. See [DEVICE_DSM_ACTION Descriptions](https://docs.microsoft.com/windows-hardware/drivers/storage/device-dsm-action-descriptions) for more details about this action.
+The output block in the payload of an [IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_manage_data_set_attributes) request is formatted as a DEVICE_DSM_RANGE_ERROR_OUTPUT structure when the action is **DeviceDsmAction_GetRangeErrorInfo**. See [DEVICE_DSM_ACTION Descriptions](https://docs.microsoft.com/windows-hardware/drivers/storage/device-dsm-action-descriptions) for more details about this action.
 
 ## -see-also
 
 [DEVICE_DSM_ACTION Descriptions](https://docs.microsoft.com/windows-hardware/drivers/storage/device-dsm-action-descriptions)
 
-[DEVICE_STORAGE_RANGE_ATTRIBUTES](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor_device_storage_range_attributes)
+[DEVICE_STORAGE_RANGE_ATTRIBUTES](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor_device_storage_range_attributes)
 
-[IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ni-ntddstor-ioctl_storage_manage_data_set_attributes)
+[IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_manage_data_set_attributes)

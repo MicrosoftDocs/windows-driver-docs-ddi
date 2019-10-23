@@ -49,7 +49,7 @@ req.typenames:
 ## -description
 
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sensorsclassextension/nf-sensorsclassextension-isensordriver-ongetsupportedproperties">ISensorDriver::OnGetSupportedProperties</a> method retrieves the list of properties that the specified sensor provides.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorsclassextension/nf-sensorsclassextension-isensordriver-ongetsupportedproperties">ISensorDriver::OnGetSupportedProperties</a> method retrieves the list of properties that the specified sensor provides.
 
 
 ## -parameters
@@ -94,7 +94,7 @@ Each <a href="https://go.microsoft.com/fwlink/p/?linkid=131484">IPortableDeviceK
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sensorsclassextension/nn-sensorsclassextension-isensordriver">ISensorDriver</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorsclassextension/nn-sensorsclassextension-isensordriver">ISensorDriver</a>
  
 
  

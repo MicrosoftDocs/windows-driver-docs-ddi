@@ -61,7 +61,7 @@ The
 ### -param MiniportDmaHandle [in]
 
 The handle returned when the miniport driver called the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismregisterdmachannel">NdisMRegisterDmaChannel</a> function
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterdmachannel">NdisMRegisterDmaChannel</a> function
      during initialization.
 
 
@@ -90,7 +90,7 @@ Miniport drivers of devices that use the system DMA controller's auto-initialize
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismregisterdmachannel">NdisMRegisterDmaChannel</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismregisterdmachannel">NdisMRegisterDmaChannel</a>
  
 
  

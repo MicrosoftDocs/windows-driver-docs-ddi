@@ -63,7 +63,7 @@ The
 
 A handle that identifies the address family (AF), and implicitly the client, that the OID request
      is directed to. The MCM driver originally obtained this handle as an input parameter to its 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cm_open_af">ProtocolCmOpenAf</a> function.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_open_af">ProtocolCmOpenAf</a> function.
 
 
 ### -param NdisVcHandle [in, optional]
@@ -72,9 +72,9 @@ A handle that identifies the virtual connection (VC) that the caller is requesti
      information for, if the request is VC-specific. Otherwise, if this request is not VC-specific, this
      parameter is <b>NULL</b>. For any VC-specific request, the caller originally obtained this handle either when
      it created the VC with the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismcmcreatevc">NdisMCmCreateVc</a> function, or as an input
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmcreatevc">NdisMCmCreateVc</a> function, or as an input
      parameter to its 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_co_create_vc">ProtocolCoCreateVc</a> function.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_create_vc">ProtocolCoCreateVc</a> function.
 
 
 ### -param NdisPartyHandle [in, optional]
@@ -83,13 +83,13 @@ A handle that identifies the party on a multipoint VC that the caller is request
      information for, if the request is party-specific. Otherwise, if this request is not party-specific,
      this parameter is <b>NULL</b>. For any party-specific request, the MCM driver originally obtained this handle
      as an input parameter to its 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cm_add_party">ProtocolCmAddParty</a> function.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_add_party">ProtocolCmAddParty</a> function.
 
 
 ### -param NdisOidRequest
 
 A pointer to a caller-allocated buffer that contains an 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structure.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structure.
 
 ## -returns
 
@@ -121,7 +121,7 @@ The request operation completed successfully.
 </td>
 <td width="60%">
 The request is being handled asynchronously, and NDIS will call the caller's 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_co_oid_request_complete">
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_oid_request_complete">
        ProtocolCoOidRequestComplete</a> function when the request is completed.
 
 </td>
@@ -135,7 +135,7 @@ The request is being handled asynchronously, and NDIS will call the caller's
 <td width="60%">
 The OID_<i>XXX</i> code that was specified in the 
        <b>Oid</b> member of the 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structure at the 
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structure at the 
        <i>OidRequest</i> parameter is invalid or unsupported by the underlying driver.
 
 </td>
@@ -165,7 +165,7 @@ The value that was specified in the
 <td width="60%">
 The data that was supplied at 
        <b>InformationBuffer</b> in the given 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structure was invalid
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structure was invalid
        for the given OID_<i>XXX</i> code.
 
 </td>
@@ -230,7 +230,7 @@ The target driver stopped processing the request.
 To initiate OID requests to CoNDIS clients, MCM drivers call the 
     <b>NdisMCmOidRequest</b> function. Before an MCM driver calls 
     <b>NdisMCmOidRequest</b>, the driver allocates memory for its request and initializes an 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structure. The MCM sets
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structure. The MCM sets
     the 
     <b>Oid</b> member of the NDIS_OID_REQUEST structure with a CoNDIS OID code.
 
@@ -241,7 +241,7 @@ An MCM driver can call
 
 After the MCM calls 
     <b>NdisMCmOidRequest</b>, NDIS calls the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_co_oid_request">ProtocolCoOidRequest</a> function of
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_oid_request">ProtocolCoOidRequest</a> function of
     the client.
 
 If the MCM driver's request is VC-specific or party-specific, the MCM driver also passes a non-<b>NULL</b>
@@ -252,7 +252,7 @@ If the MCM driver's request is VC-specific or party-specific, the MCM driver als
 If 
     <b>NdisMCmOidRequest</b> returns NDIS_STATUS_PENDING, the request is being handled asynchronously and NDIS
     will call the MCM's 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_co_oid_request_complete">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_oid_request_complete">
     ProtocolCoOidRequestComplete</a> function when the request is completed. If 
     <b>NdisMCmOidRequest</b> returns any other status, the request is complete when 
     <b>NdisMCmOidRequest</b> returns and NDIS does not call 
@@ -260,7 +260,7 @@ If
 
 For more information about the OIDs that are defined to use with 
     <b>NdisMCmOidRequest</b>, see 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_netvista/">NDIS OIDs</a>.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">NDIS OIDs</a>.
 
 
 
@@ -270,31 +270,31 @@ For more information about the OIDs that are defined to use with
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismcmcreatevc">NdisMCmCreateVc</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmcreatevc">NdisMCmCreateVc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cm_add_party">ProtocolCmAddParty</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_add_party">ProtocolCmAddParty</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_cm_open_af">ProtocolCmOpenAf</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_cm_open_af">ProtocolCmOpenAf</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_co_create_vc">ProtocolCoCreateVc</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_create_vc">ProtocolCoCreateVc</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_co_oid_request">ProtocolCoOidRequest</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_oid_request">ProtocolCoOidRequest</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_co_oid_request_complete">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_co_oid_request_complete">
    ProtocolCoOidRequestComplete</a>
  
 

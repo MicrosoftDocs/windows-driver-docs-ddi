@@ -110,7 +110,7 @@ Before calling <b>IStillImage::SetDeviceValue</b>, clients of the <b>IStillImage
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_image/index">IStillImageW</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_image/index">IStillImageW</a>
  
 
  

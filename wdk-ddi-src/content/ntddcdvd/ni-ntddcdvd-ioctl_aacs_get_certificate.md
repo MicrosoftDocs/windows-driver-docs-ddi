@@ -68,12 +68,12 @@ Length of a <a href="https://docs.microsoft.com/previous-versions/windows/hardwa
 
 ### -output-buffer
 
-The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains the drive certificate with a format of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdvd/ns-ntddcdvd-_aacs_certificate">AACS_CERTIFICATE</a>.
+The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains the drive certificate with a format of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdvd/ns-ntddcdvd-_aacs_certificate">AACS_CERTIFICATE</a>.
 
 
 ### -output-buffer-length
 
-Length of an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdvd/ns-ntddcdvd-_aacs_certificate">AACS_CERTIFICATE</a>.
+Length of an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdvd/ns-ntddcdvd-_aacs_certificate">AACS_CERTIFICATE</a>.
 
 
 ### -in-out-buffer

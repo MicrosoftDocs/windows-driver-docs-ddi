@@ -48,7 +48,7 @@ req.typenames:
 ## -description
 
 
-Initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucxcontroller/ns-ucxcontroller-_ucx_controller_config">UCX_CONTROLLER_CONFIG</a> structure with the specified values for the controller with PCI as the parent bus type.
+Initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxcontroller/ns-ucxcontroller-_ucx_controller_config">UCX_CONTROLLER_CONFIG</a> structure with the specified values for the controller with PCI as the parent bus type.
 
 
 ## -parameters
@@ -58,7 +58,7 @@ Initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/c
 
 ### -param Config [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucxcontroller/ns-ucxcontroller-_ucx_controller_config">UCX_CONTROLLER_CONFIG</a> structure to initialize.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxcontroller/ns-ucxcontroller-_ucx_controller_config">UCX_CONTROLLER_CONFIG</a> structure to initialize.
 
 
 ### -param VendorId [in]
@@ -105,7 +105,7 @@ This function does not return a value.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucxcontroller/ns-ucxcontroller-_ucx_controller_config">UCX_CONTROLLER_CONFIG</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxcontroller/ns-ucxcontroller-_ucx_controller_config">UCX_CONTROLLER_CONFIG</a>
 
 
 

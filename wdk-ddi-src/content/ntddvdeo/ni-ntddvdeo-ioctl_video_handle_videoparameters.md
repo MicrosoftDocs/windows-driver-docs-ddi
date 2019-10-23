@@ -107,7 +107,7 @@ The miniport driver returns the VIDEOPARAMETERS structure in the VRP <b>OutputBu
 
 ### -status-block
 
-If the miniport driver successfully gets or sets the requested information, it sets the <b>Information</b> member of the VRP's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/ns-video-_status_block">STATUS_BLOCK</a> to <b>sizeof</b>(VIDEOPARAMETERS); otherwise, the miniport driver sets this member to zero.
+If the miniport driver successfully gets or sets the requested information, it sets the <b>Information</b> member of the VRP's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_status_block">STATUS_BLOCK</a> to <b>sizeof</b>(VIDEOPARAMETERS); otherwise, the miniport driver sets this member to zero.
 
 
 ## -see-also
@@ -115,7 +115,7 @@ If the miniport driver successfully gets or sets the requested information, it s
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/ns-video-_status_block">STATUS_BLOCK</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_status_block">STATUS_BLOCK</a>
 
 
 

@@ -95,7 +95,7 @@ The port driver does not initialize IRB extensions, but sets a pointer to an ext
 
 HBA hardware can safely access an IRB extension.
 
-The miniport driver must not call <b>AtaPortGetUncachedExtension</b> from any routine other than its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/nc-irb-ide_hw_control">IdeHwControl</a> routine, and only when it is processing a control action of <b>StartChannel</b>. Calls of <b>AtaPortGetUncachedExtension</b> from other miniport driver routines result in incorrect operation or even system failure. The port driver automatically frees the uncached extension after it invokes <b>IdeHwControl</b> with the <b>StopChannel</b> control action.
+The miniport driver must not call <b>AtaPortGetUncachedExtension</b> from any routine other than its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/nc-irb-ide_hw_control">IdeHwControl</a> routine, and only when it is processing a control action of <b>StartChannel</b>. Calls of <b>AtaPortGetUncachedExtension</b> from other miniport driver routines result in incorrect operation or even system failure. The port driver automatically frees the uncached extension after it invokes <b>IdeHwControl</b> with the <b>StopChannel</b> control action.
 
 
 
@@ -105,7 +105,7 @@ The miniport driver must not call <b>AtaPortGetUncachedExtension</b> from any ro
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/nc-irb-ide_hw_control">IdeHwControl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/nc-irb-ide_hw_control">IdeHwControl</a>
  
 
  

@@ -79,7 +79,7 @@ Optional pointer to a minifilter-defined cleanup callback routine of type <a hre
 
 ### -param PoolTag [in]
 
-Specifies the pool tag for the allocated memory. For more information, see the *Tag* parameter of [ExAllocatePoolWithTag](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-exallocatepoolwithtag).
+Specifies the pool tag for the allocated memory. For more information, see the *Tag* parameter of [ExAllocatePoolWithTag](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolwithtag).
 
 ### -param EcpContext [out]
 
@@ -96,7 +96,7 @@ Receives a pointer to the allocated ECP context structure.  If the routine faile
 
 ## -remarks
 
-By default, the **FltAllocateExtraCreateParameter** routine allocates paged memory pool for a user-defined ECP context structure.  If the FSRTL_ALLOCATE_ECP_FLAG_NONPAGED_POOL bitmask is used as described above, a non-paged memory pool is allocated.  Once this pool has been allocated and the ECP context structure has been initialized, the [FltInsertExtraCreateParameter](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltinsertextracreateparameter) routine is used to insert the ECP context structure (ECP list element) into an ECP list structure (ECP list).
+By default, the **FltAllocateExtraCreateParameter** routine allocates paged memory pool for a user-defined ECP context structure.  If the FSRTL_ALLOCATE_ECP_FLAG_NONPAGED_POOL bitmask is used as described above, a non-paged memory pool is allocated.  Once this pool has been allocated and the ECP context structure has been initialized, the [FltInsertExtraCreateParameter](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltinsertextracreateparameter) routine is used to insert the ECP context structure (ECP list element) into an ECP list structure (ECP list).
 
 Memory pool that is allocated by the **FltAllocateExtraCreateParameter** routine is not automatically freed by the operating system.  This memory pool must eventually be released by using one of the following methods:
 
@@ -128,6 +128,6 @@ Memory pool that is allocated by the **FltAllocateExtraCreateParameter** routine
 
 [FltSetEcpListIntoCallbackData](nf-fltkernel-fltremoveextracreateparameter.md)
 
-[IoCreateFileEx](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-iocreatefileex)
+[IoCreateFileEx](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatefileex)
 
 [PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK](https://msdn.microsoft.com/library/windows/hardware/ff551124)

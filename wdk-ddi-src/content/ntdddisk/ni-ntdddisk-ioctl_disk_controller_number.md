@@ -71,7 +71,7 @@ None.
 
 ### -output-buffer
 
-The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdddisk/ns-ntdddisk-_disk_controller_number">DISK_CONTROLLER_NUMBER</a> data.
+The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_disk_controller_number">DISK_CONTROLLER_NUMBER</a> data.
 
 
 ### -output-buffer-length
@@ -109,7 +109,7 @@ The <b>Status</b> field is set to STATUS_SUCCESS if the operation is successful.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdddisk/ns-ntdddisk-_disk_controller_number">DISK_CONTROLLER_NUMBER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_disk_controller_number">DISK_CONTROLLER_NUMBER</a>
  
 
  

@@ -52,7 +52,7 @@ The WIAS_CHANGED_VALUE_INFO structure is used to store the current and previous 
 
 ### -field bChanged
 
-Is a Boolean that indicates whether a property has changed. That is, if the property's current value is different from its value before [IWiaMiniDrv::drvValidateItemProperties](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvvalidateitemproperties) was called. Upon return from one of the **wiasGetChangedValue**_Xxx_ functions, this member is **TRUE** if the property changed, and **FALSE** if the property did not change.
+Is a Boolean that indicates whether a property has changed. That is, if the property's current value is different from its value before [IWiaMiniDrv::drvValidateItemProperties](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvvalidateitemproperties) was called. Upon return from one of the **wiasGetChangedValue**_Xxx_ functions, this member is **TRUE** if the property changed, and **FALSE** if the property did not change.
 
 ### -field vt
 
@@ -100,16 +100,16 @@ See the [PROPVARIANT](https://docs.microsoft.com/windows/win32/api/propidl/ns-pr
 
 ## -remarks
 
-The **wiasGetChangedValue**_Xxx_ functions, use this structure to determine whether a property of a certain type has been changed by an application. These functions are used when the minidriver performs property validation, which occurs within the body of [IWiaMiniDrv::drvValidateItemProperties](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvvalidateitemproperties).
+The **wiasGetChangedValue**_Xxx_ functions, use this structure to determine whether a property of a certain type has been changed by an application. These functions are used when the minidriver performs property validation, which occurs within the body of [IWiaMiniDrv::drvValidateItemProperties](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvvalidateitemproperties).
 
 ## -see-also
 
-[IWiaMiniDrv::drvValidateItemProperties](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvvalidateitemproperties)
+[IWiaMiniDrv::drvValidateItemProperties](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvvalidateitemproperties)
 
-[wiasGetChangedValueFloat](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiasgetchangedvaluefloat)
+[wiasGetChangedValueFloat](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiasgetchangedvaluefloat)
 
-[wiasGetChangedValueGuid](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiasgetchangedvalueguid)
+[wiasGetChangedValueGuid](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiasgetchangedvalueguid)
 
-[wiasGetChangedValueLong](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiasgetchangedvaluelong)
+[wiasGetChangedValueLong](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiasgetchangedvaluelong)
 
-[wiasGetChangedValueStr](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiasgetchangedvaluestr)
+[wiasGetChangedValueStr](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiasgetchangedvaluestr)

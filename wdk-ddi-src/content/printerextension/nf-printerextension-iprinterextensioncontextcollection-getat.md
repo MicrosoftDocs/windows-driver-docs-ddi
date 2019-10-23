@@ -48,7 +48,7 @@ req.typenames:
 ## -description
 
 
-Gets a pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprinterextensioncontext">IPrinterExtensionContext</a> object.
+Gets a pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioncontext">IPrinterExtensionContext</a> object.
 
 
 ## -parameters
@@ -58,12 +58,12 @@ Gets a pointer to an <a href="https://docs.microsoft.com/windows-hardware/driver
 
 ### -param ulIndex [in]
 
-The index of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprinterextensioncontext">IPrinterExtensionContext</a> object within the collection.
+The index of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioncontext">IPrinterExtensionContext</a> object within the collection.
 
 
 ### -param ppContext [out, retval]
 
-Pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprinterextensioncontext">IPrinterExtensionContext</a> interface.
+Pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioncontext">IPrinterExtensionContext</a> interface.
 
 
 ## -returns
@@ -80,11 +80,11 @@ This method returns an <b>HRESULT</b> value.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprinterextensioncontext">IPrinterExtensionContext</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioncontext">IPrinterExtensionContext</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprinterextensioncontextcollection">IPrinterExtensionContextCollection</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioncontextcollection">IPrinterExtensionContextCollection</a>
  
 
  

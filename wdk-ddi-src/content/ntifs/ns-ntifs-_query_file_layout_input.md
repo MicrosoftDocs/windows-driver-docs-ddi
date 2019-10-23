@@ -239,7 +239,7 @@ The <b>QUERY_FILE_LAYOUT_RESTART</b> flag is set on the first <a href="https://d
 
 If <b>QUERY_FILE_LAYOUT_RESTART</b> is set again for the same volume, the file layout position is reset to the beginning of the volume. Additionally, the filter ranges are re-cached and their  evaluation order is reset to the first range. 
 
-The file layout entries are returned in the output buffer following a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_query_file_layout_output">QUERY_FILE_LAYOUT_OUTPUT</a> structure.
+The file layout entries are returned in the output buffer following a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_query_file_layout_output">QUERY_FILE_LAYOUT_OUTPUT</a> structure.
 
 When <b>FilterType</b> is <b>QUERY_FILE_LAYOUT_FILTER_TYPE_CLUSTERS</b>, the <b>ClusterRanges</b> member of the <b>Filter</b> union is used for range filtering. Otherwise, if <b>FilterType</b> is <b>QUERY_FILE_LAYOUT_FILTER_TYPE_FILEID</b>, the <b>FileReferenceRanges</b> member is used for range filtering.
 
@@ -255,7 +255,7 @@ When <b>FilterType</b> is <b>QUERY_FILE_LAYOUT_FILTER_TYPE_CLUSTERS</b>, the <b>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_query_file_layout_output">QUERY_FILE_LAYOUT_OUTPUT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_query_file_layout_output">QUERY_FILE_LAYOUT_OUTPUT</a>
  
 
  

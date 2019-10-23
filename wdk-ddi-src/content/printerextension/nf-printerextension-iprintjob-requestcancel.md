@@ -86,7 +86,7 @@ The <b>RequestCancel</b> method does not wait for the cancellation of a print jo
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprintjob">IPrintJob</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintjob">IPrintJob</a>
  
 
  

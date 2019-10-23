@@ -71,7 +71,7 @@ MEDIA_SAMPLE_CONTENT enumerated type value that specifies the type of media cont
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bdatypes/ns-bdatypes-_bda_pid_map">BDA_PID_MAP</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bdatypes/ns-bdatypes-_bda_pid_map">BDA_PID_MAP</a>
 
 
 

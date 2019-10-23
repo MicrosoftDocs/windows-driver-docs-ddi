@@ -58,17 +58,17 @@ An <i>InterruptMessageService</i> routine services a message-signaled interrupt.
 
 ### -param Interrupt [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">KINTERRUPT</a> structure for the interrupt. The driver received this pointer in the call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ioconnectinterruptex">IoConnectInterruptEx</a> routine that registered the driver's <i>InterruptMessageService</i> routine.
+A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">KINTERRUPT</a> structure for the interrupt. The driver received this pointer in the call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioconnectinterruptex">IoConnectInterruptEx</a> routine that registered the driver's <i>InterruptMessageService</i> routine.
 
 
 ### -param ServiceContext [in]
 
-The <i>ServiceContext</i> value that the driver passed to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ioconnectinterruptex">IoConnectInterruptEx</a> when the <i>InterruptMessageService</i> routine was registered.
+The <i>ServiceContext</i> value that the driver passed to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioconnectinterruptex">IoConnectInterruptEx</a> when the <i>InterruptMessageService</i> routine was registered.
 
 
 ### -param MessageID
 
-The message ID for the interrupt. This value is the index for the interrupt's entry in the **MessageInfo** member array in the [**IO_INTERRUPT_MESSAGE_INFO**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_io_interrupt_message_info) structure that describes the driver's message-signaled interrupts.
+The message ID for the interrupt. This value is the index for the interrupt's entry in the **MessageInfo** member array in the [**IO_INTERRUPT_MESSAGE_INFO**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_interrupt_message_info) structure that describes the driver's message-signaled interrupts.
 
 
 ## -returns
@@ -84,7 +84,7 @@ The <i>InterruptMessageService</i> routine returns <b>TRUE</b> if the interrupt 
 
 
 
-Drivers use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ioconnectinterruptex">IoConnectInterruptEx</a> to register an <i>InterruptMessageService</i> routine to handle their message-signaled interrupts. A driver can subsequently unregister the routine by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iodisconnectinterruptex">IoDisconnectInterruptEx</a>. Message-signaled interrupts are supported starting with Windows Vista.
+Drivers use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioconnectinterruptex">IoConnectInterruptEx</a> to register an <i>InterruptMessageService</i> routine to handle their message-signaled interrupts. A driver can subsequently unregister the routine by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iodisconnectinterruptex">IoDisconnectInterruptEx</a>. Message-signaled interrupts are supported starting with Windows Vista.
 
 The system can call an <i>InterruptMessageService</i> routine even when the routine's interrupt has not occurred. For example, if a message-signaled interrupt is shared, <i>InterruptMessageService</i> can be called for interrupts belonging to other devices. The routine must check whether the value for the <i>ServiceContext</i> parameter matches the value passed to <b>IoConnectInterruptEx</b>. If the value does match, <i>InterruptMessageService</i> handles the interrupt and returns <b>TRUE</b>. Otherwise, <i>InterruptMessageService</i> does not handle the interrupt and returns <b>FALSE</b>.
 
@@ -146,15 +146,15 @@ The KMESSAGE_SERVICE_ROUTINE function type is defined in the Wdm.h header file. 
 [Using Interrupt Resource Descriptors](https://docs.microsoft.com/windows-hardware/drivers/kernel/using-interrupt-resource-descriptors)
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_io_interrupt_message_info">IO_INTERRUPT_MESSAGE_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_interrupt_message_info">IO_INTERRUPT_MESSAGE_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ioconnectinterruptex">IoConnectInterruptEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioconnectinterruptex">IoConnectInterruptEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iodisconnectinterruptex">IoDisconnectInterruptEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iodisconnectinterruptex">IoDisconnectInterruptEx</a>
  
 
  

@@ -105,7 +105,7 @@ The option information was not created for <i>FileObject</i>. The status of shar
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-ioisfileobjectignoringsharing">IoIsFileObjectIgnoringSharing</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-ioisfileobjectignoringsharing">IoIsFileObjectIgnoringSharing</a>
  
 
  

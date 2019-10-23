@@ -91,7 +91,7 @@ Framework child-list objects (WDFCHILDLIST)
 
 </li>
 <li>
-Framework device objects  (WDFDEVICE), unless the driver has called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfcontrol/nf-wdfcontrol-wdfcontroldeviceinitallocate">WdfControlDeviceInitAllocate</a> and created a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-control-device-objects">control device object</a>, which the driver must sometimes delete
+Framework device objects  (WDFDEVICE), unless the driver has called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfcontrol/nf-wdfcontrol-wdfcontroldeviceinitallocate">WdfControlDeviceInitAllocate</a> and created a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/using-control-device-objects">control device object</a>, which the driver must sometimes delete
 
 </li>
 <li>
@@ -107,7 +107,7 @@ Framework interrupt objects (WDFINTERRUPT)
 
 </li>
 <li>
-Framework queue objects (WDFQUEUE), if an object represents a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/creating-i-o-queues">default I/O queue</a> or if the driver has called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nf-wdfdevice-wdfdeviceconfigurerequestdispatching">WdfDeviceConfigureRequestDispatching</a> to set up the queue to receive all I/O requests of a particular type
+Framework queue objects (WDFQUEUE), if an object represents a <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/creating-i-o-queues">default I/O queue</a> or if the driver has called <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdeviceconfigurerequestdispatching">WdfDeviceConfigureRequestDispatching</a> to set up the queue to receive all I/O requests of a particular type
 
 </li>
 <li>
@@ -161,11 +161,11 @@ WdfObjectDelete(Object);
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfcontrol/nf-wdfcontrol-wdfcontroldeviceinitallocate">WdfControlDeviceInitAllocate</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfcontrol/nf-wdfcontrol-wdfcontroldeviceinitallocate">WdfControlDeviceInitAllocate</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfobject/nf-wdfobject-wdfobjectcreate">WdfObjectCreate</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/nf-wdfobject-wdfobjectcreate">WdfObjectCreate</a>
  
 
  

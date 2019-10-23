@@ -68,17 +68,17 @@ The size, in bytes, of this structure.
 
 ### -field Flags
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/ns-pepfx-_pep_unmasked_interrupt_flags">PEP_UNMASKED_INTERRUPT_FLAGS</a> union that indicates whether the interrupt is a primary or secondary interrupt. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/gpio/primary-and-secondary-interrupts">Primary and Secondary Interrupts</a>.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_unmasked_interrupt_flags">PEP_UNMASKED_INTERRUPT_FLAGS</a> union that indicates whether the interrupt is a primary or secondary interrupt. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/gpio/primary-and-secondary-interrupts">Primary and Secondary Interrupts</a>.
 
 
 ### -field Mode
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_kinterrupt_mode">KINTERRUPT_MODE</a> enumeration value. This member indicates whether the interrupt is edge-triggered or level-triggered.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_kinterrupt_mode">KINTERRUPT_MODE</a> enumeration value. This member indicates whether the interrupt is edge-triggered or level-triggered.
 
 
 ### -field Polarity
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_kinterrupt_polarity">KINTERRUPT_POLARITY</a> enumeration value. This member indicates which edge or level of the interrupt signal triggers the interrupt.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_kinterrupt_polarity">KINTERRUPT_POLARITY</a> enumeration value. This member indicates which edge or level of the interrupt signal triggers the interrupt.
 
 
 ### -field Gsiv
@@ -102,7 +102,7 @@ For secondary interrupt sources, this member contains the PEP device handle for 
 
 
 
-This structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/nc-pepfx-ppo_enumerate_interrupt_source_callback">EnumerateInterruptSource</a> callback routine.
+This structure is used by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/nc-pepfx-ppo_enumerate_interrupt_source_callback">EnumerateInterruptSource</a> callback routine.
 
 
 
@@ -112,19 +112,19 @@ This structure is used by the <a href="https://docs.microsoft.com/windows-hardwa
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/nc-pepfx-ppo_enumerate_interrupt_source_callback">EnumerateInterruptSource</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/nc-pepfx-ppo_enumerate_interrupt_source_callback">EnumerateInterruptSource</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_kinterrupt_mode">KINTERRUPT_MODE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_kinterrupt_mode">KINTERRUPT_MODE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_kinterrupt_polarity">KINTERRUPT_POLARITY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_kinterrupt_polarity">KINTERRUPT_POLARITY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/ns-pepfx-_pep_unmasked_interrupt_flags">PEP_UNMASKED_INTERRUPT_FLAGS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_unmasked_interrupt_flags">PEP_UNMASKED_INTERRUPT_FLAGS</a>
  
 
  

@@ -58,7 +58,7 @@ The <code>RegisterServiceRoutine</code> method registers an interrupt service ro
 
 ### -param Routine [in]
 
-Pointer to the routine that is to be called. This parameter is a function pointer of type PINTERRUPTSYNCROUTINE (see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iinterruptsync">IInterruptSync</a>).
+Pointer to the routine that is to be called. This parameter is a function pointer of type PINTERRUPTSYNCROUTINE (see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iinterruptsync">IInterruptSync</a>).
 
 
 ### -param DynamicContext [in]

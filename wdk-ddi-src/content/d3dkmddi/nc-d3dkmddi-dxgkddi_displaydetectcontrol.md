@@ -56,7 +56,7 @@ A handle that identifies the adapter.
 
 ### -param pDisplayDetectControl
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkarg_displaydetectcontrol">DXGKARG_DISPLAYDETECTCONTROL</a> structure that describes the detection action which is requested.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_displaydetectcontrol">DXGKARG_DISPLAYDETECTCONTROL</a> structure that describes the detection action which is requested.
 
 ## -returns
 

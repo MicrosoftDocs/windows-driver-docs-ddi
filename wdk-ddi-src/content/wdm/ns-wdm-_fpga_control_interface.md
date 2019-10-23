@@ -51,10 +51,10 @@ The driver-defined interface version. The current version of this interface is F
 A pointer to interface-specific context information.
  
 ### -field InterfaceReference
-A pointer to an [InterfaceReference](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfwdm/nc-wudfwdm-pinterface_reference) routine that increments the interface's reference count.
+A pointer to an [InterfaceReference](https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfwdm/nc-wudfwdm-pinterface_reference) routine that increments the interface's reference count.
  
 ### -field InterfaceDereference
-A pointer to an [InterfaceDereference](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfwdm/nc-wudfwdm-pinterface_dereference) routine that decrements the interface's reference count.
+A pointer to an [InterfaceDereference](https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfwdm/nc-wudfwdm-pinterface_dereference) routine that decrements the interface's reference count.
  
 ### -field BusScan
 A pointer to a [_FPGA_BUS_SCAN_](nc-wdm-fpga_bus_scan.md) callback function that triggers a bus scan at the parent of the FPGA device.

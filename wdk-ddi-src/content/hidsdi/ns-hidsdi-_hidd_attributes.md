@@ -80,9 +80,9 @@ Specifies the manufacturer's revision number for a HIDClass device.
 
 
 
-A caller of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hidsdi/nf-hidsdi-hidd_getattributes">HidD_GetAttributes</a>, uses this structure to obtain a device's vendor information.
+A caller of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getattributes">HidD_GetAttributes</a>, uses this structure to obtain a device's vendor information.
 
-Before using a HIDD_ATTRIBUTES structure with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">HIDClass support routines</a>, the caller must set the <b>Size</b> member.
+Before using a HIDD_ATTRIBUTES structure with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">HIDClass support routines</a>, the caller must set the <b>Size</b> member.
 
 
 
@@ -92,7 +92,7 @@ Before using a HIDD_ATTRIBUTES structure with <a href="https://docs.microsoft.co
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hidsdi/nf-hidsdi-hidd_getattributes">HidD_GetAttributes</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getattributes">HidD_GetAttributes</a>
  
 
  

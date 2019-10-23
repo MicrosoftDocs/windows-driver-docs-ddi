@@ -72,7 +72,7 @@ A pointer to the controller extension.
 
 #### - TransferModeParams [in, out]
 
-A pointer to a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/ns-irb-_ide_transfer_mode_parameters">IDE_TRANSFER_MODE_PARAMETERS</a> that indicates to the miniport driver the channel on which to set the transfer modes and which transfer modes are available. 
+A pointer to a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/ns-irb-_ide_transfer_mode_parameters">IDE_TRANSFER_MODE_PARAMETERS</a> that indicates to the miniport driver the channel on which to set the transfer modes and which transfer modes are available. 
 
 
 ## -returns
@@ -100,7 +100,7 @@ The <b><i>AtaControllerTransferModeSelect</i></b> miniport driver routine must s
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/ns-irb-_ide_transfer_mode_parameters">IDE_TRANSFER_MODE_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/ns-irb-_ide_transfer_mode_parameters">IDE_TRANSFER_MODE_PARAMETERS</a>
  
 
  

@@ -48,7 +48,7 @@ req.typenames: D3DWDDM2_0DDI_CHECK_VIDEO_PROCESSOR_FORMAT_CONVERSION
 ## -description
 
 
-<b>D3DWDDM2_0DDI_CHECK_VIDEO_PROCESSOR_FORMAT_CONVERSION</b> is used with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3dwddm2_0ddi_checkvideoprocessorformatconversion">CheckVideoProcessorFormatConversion</a> to indicate whether the driver supports a specific format/color space conversion combination.
+<b>D3DWDDM2_0DDI_CHECK_VIDEO_PROCESSOR_FORMAT_CONVERSION</b> is used with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3dwddm2_0ddi_checkvideoprocessorformatconversion">CheckVideoProcessorFormatConversion</a> to indicate whether the driver supports a specific format/color space conversion combination.
 
 
 ## -struct-fields
@@ -86,7 +86,7 @@ The driver sets this to <b>TRUE</b> if the conversion between the input format/c
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3dwddm2_0ddi_checkvideoprocessorformatconversion">CheckVideoProcessorFormatConversion</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3dwddm2_0ddi_checkvideoprocessorformatconversion">CheckVideoProcessorFormatConversion</a>
  
 
  

@@ -58,7 +58,7 @@ The KSCLOCK_FUNCTIONTABLE structure describes a function table for the master cl
 
 ### -field GetTime
 
-Pointer to a driver-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nc-ks-pfnksclock_gettime">KStrClockGetTime</a> routine.
+Pointer to a driver-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nc-ks-pfnksclock_gettime">KStrClockGetTime</a> routine.
 
 
 ### -field GetPhysicalTime
@@ -68,7 +68,7 @@ Pointer to a driver-allocated <a href="https://docs.microsoft.com/previous-versi
 
 ### -field GetCorrelatedTime
 
-Pointer to a driver-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nc-ks-pfnksclock_correlatedtime">KStrClockGetCorrelatedTime</a> routine.
+Pointer to a driver-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nc-ks-pfnksclock_correlatedtime">KStrClockGetCorrelatedTime</a> routine.
 
 
 ### -field GetCorrelatedPhysicalTime

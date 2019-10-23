@@ -71,9 +71,9 @@ If the operation succeeds, the method returns S_OK. Otherwise, it returns one of
 
 
 
-The <b>IStiDeviceControl::AddRef</b> method should be called from within a user-mode still image minidriver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/stiusd/nf-stiusd-istiusd-initialize">IStiUSD::Initialize</a> method.
+The <b>IStiDeviceControl::AddRef</b> method should be called from within a user-mode still image minidriver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istiusd-initialize">IStiUSD::Initialize</a> method.
 
-A still image minidriver receives an <b>IStiDeviceControl</b> interface pointer as an input argument to its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/stiusd/nf-stiusd-istiusd-initialize">IStiUSD::Initialize</a> method.
+A still image minidriver receives an <b>IStiDeviceControl</b> interface pointer as an input argument to its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istiusd-initialize">IStiUSD::Initialize</a> method.
 
 
 
@@ -83,11 +83,11 @@ A still image minidriver receives an <b>IStiDeviceControl</b> interface pointer 
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_image/index">IStiDeviceControl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_image/index">IStiDeviceControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/stiusd/nf-stiusd-istidevicecontrol-release">IStiDeviceControl::Release</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/stiusd/nf-stiusd-istidevicecontrol-release">IStiDeviceControl::Release</a>
  
 
  

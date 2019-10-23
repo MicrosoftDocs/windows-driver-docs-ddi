@@ -125,7 +125,7 @@ Before calling <b>CcPurgeCacheSection</b>, the caller must acquire the file excl
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-mmflushimagesection">MmFlushImageSection</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-mmflushimagesection">MmFlushImageSection</a>
  
 
  

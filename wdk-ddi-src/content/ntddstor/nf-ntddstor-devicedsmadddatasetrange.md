@@ -44,7 +44,7 @@ targetos: Windows
 
 ## -description
 
-The **DeviceDsmAddDataSetRange** function adds a data set range to the system buffer for an [IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ni-ntddstor-ioctl_storage_manage_data_set_attributes) request.
+The **DeviceDsmAddDataSetRange** function adds a data set range to the system buffer for an [IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_manage_data_set_attributes) request.
 
 ## -parameters
 
@@ -70,7 +70,7 @@ Returns TRUE if the data set range was successfully added, or FALSE otherwise.
 
 ## -remarks
 
-If the DSM has range data, call **DeviceDsmAddDataSetRange** for each range to add it to the system buffer. See [Data Set Management Overview](https://docs.microsoft.com/windows-hardware/drivers/storage/data-set-management-overview) for the layout of the system buffer for an [IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ni-ntddstor-ioctl_storage_manage_data_set_attributes) request.
+If the DSM has range data, call **DeviceDsmAddDataSetRange** for each range to add it to the system buffer. See [Data Set Management Overview](https://docs.microsoft.com/windows-hardware/drivers/storage/data-set-management-overview) for the layout of the system buffer for an [IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_manage_data_set_attributes) request.
 
 ## -see-also
 
@@ -80,4 +80,4 @@ If the DSM has range data, call **DeviceDsmAddDataSetRange** for each range to a
 
 [DEVICE_DSM_RANGE](ns-ntddstor-_device_data_set_range.md)
 
-[IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ni-ntddstor-ioctl_storage_manage_data_set_attributes)
+[IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_manage_data_set_attributes)

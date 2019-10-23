@@ -76,14 +76,14 @@ The base address of the region of pages to be
 ### -param MemoryInformationClass [in]
 
 The memory information class about which
-                             to retrieve information. Currently, the only supported <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ne-ntifs-_memory_information_class">MEMORY_INFORMATION_CLASS</a> value is <b>MemoryBasicInformation</b>.
+                             to retrieve information. Currently, the only supported <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ne-ntifs-_memory_information_class">MEMORY_INFORMATION_CLASS</a> value is <b>MemoryBasicInformation</b>.
 
 
 ### -param MemoryInformation [out]
 
 A pointer to a buffer that receives the specified
                         information.  The format and content of the buffer
-                        depend on the specified information class specified in the <i>MemoryInformationClass</i> parameter. When the value <b>MemoryBasicInformation</b> is passed to <i>MemoryInformationClass</i>, the <i>MemoryInformationClass</i> parameter value is a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_memory_basic_information">MEMORY_BASIC_INFORMATION</a>. 
+                        depend on the specified information class specified in the <i>MemoryInformationClass</i> parameter. When the value <b>MemoryBasicInformation</b> is passed to <i>MemoryInformationClass</i>, the <i>MemoryInformationClass</i> parameter value is a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_memory_basic_information">MEMORY_BASIC_INFORMATION</a>. 
 
 
 ### -param MemoryInformationLength [in]
@@ -189,7 +189,7 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_power_platform_information">POWER_PLATFORM_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_power_platform_information">POWER_PLATFORM_INFORMATION</a>
 
 
 

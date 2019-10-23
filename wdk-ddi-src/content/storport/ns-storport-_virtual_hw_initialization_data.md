@@ -80,12 +80,12 @@ Additionally, unlike the SCSI port case, a virtual miniport driver that works wi
 
 ### -field HwInitialize
 
-A pointer to the virtual miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_initialize">HwStorInitialize</a> routine, which is a required entry point for all virtual miniport drivers.
+A pointer to the virtual miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_initialize">HwStorInitialize</a> routine, which is a required entry point for all virtual miniport drivers.
 
 
 ### -field HwStartIo
 
-A pointer to the virtual miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_startio">HwStorStartIo</a> routine, which is a required entry point for all virtual miniport drivers.
+A pointer to the virtual miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_startio">HwStorStartIo</a> routine, which is a required entry point for all virtual miniport drivers.
 
 
 ### -field HwInterrupt
@@ -95,12 +95,12 @@ Not used. Virtual miniport drivers do not process interrupts.
 
 ### -field HwFindAdapter
 
-A pointer to the virtual miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-virtual_hw_find_adapter">VirtualHwStorFindAdapter</a> routine, which is a required entry point for all virtual miniport drivers.
+A pointer to the virtual miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-virtual_hw_find_adapter">VirtualHwStorFindAdapter</a> routine, which is a required entry point for all virtual miniport drivers.
 
 
 ### -field HwResetBus
 
-A pointer to the virtual miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_reset_bus">HwStorResetBus</a> routine, which is a required entry point for all virtual miniport drivers.
+A pointer to the virtual miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_reset_bus">HwStorResetBus</a> routine, which is a required entry point for all virtual miniport drivers.
 
 
 ### -field HwDmaStarted
@@ -204,7 +204,7 @@ The device identifier.
 
 ### -field HwAdapterControl
 
-A pointer to the virtual miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_adapter_control">HwStorAdapterControl</a> routine. 
+A pointer to the virtual miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_adapter_control">HwStorAdapterControl</a> routine. 
 
 
 ### -field HwBuildIo
@@ -215,34 +215,34 @@ A pointer to the virtual miniport driver's <a href="https://docs.microsoft.com/w
 
 ### -field HwFreeAdapterResources
 
-A pointer to the virtual miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_free_adapter_resources">HwStorFreeAdapterResources</a> routine, which is a required entry point for all virtual miniport drivers.
+A pointer to the virtual miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_free_adapter_resources">HwStorFreeAdapterResources</a> routine, which is a required entry point for all virtual miniport drivers.
 
 
 ### -field HwProcessServiceRequest
 
-A pointer to the virtual miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_process_service_request">HwStorProcessServiceRequest</a> routine.
+A pointer to the virtual miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_process_service_request">HwStorProcessServiceRequest</a> routine.
 
 
 ### -field HwCompleteServiceIrp
 
-A pointer to the virtual miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_complete_service_irp">HwStorCompleteServiceIrp</a> routine.
+A pointer to the virtual miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_complete_service_irp">HwStorCompleteServiceIrp</a> routine.
 
 
 ### -field HwInitializeTracing
 
-A pointer to the virtual miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_initialize_tracing">HwStorInitializeTracing</a> routine.
+A pointer to the virtual miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_initialize_tracing">HwStorInitializeTracing</a> routine.
 
 
 ### -field HwCleanupTracing
 
-A pointer to the virtual miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_cleanup_tracing">HwStorCleanupTracing</a> routine.
+A pointer to the virtual miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_cleanup_tracing">HwStorCleanupTracing</a> routine.
 
 
 ## -remarks
 
 
 
-If a virtual miniport driver will execute only on Windows 8 or later, the driver should use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/strmini/ns-strmini-_hw_initialization_data">HW_INITIALIZATION_DATA</a> structure instead of <b>VIRTUAL_HW_INITIALIZATION_DATA</b>.
+If a virtual miniport driver will execute only on Windows 8 or later, the driver should use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/strmini/ns-strmini-_hw_initialization_data">HW_INITIALIZATION_DATA</a> structure instead of <b>VIRTUAL_HW_INITIALIZATION_DATA</b>.
 
 
 
@@ -252,43 +252,43 @@ If a virtual miniport driver will execute only on Windows 8 or later, the drive
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_adapter_control">HwStorAdapterControl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_adapter_control">HwStorAdapterControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_cleanup_tracing">HwStorCleanupTracing</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_cleanup_tracing">HwStorCleanupTracing</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_complete_service_irp">HwStorCompleteServiceIrp</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_complete_service_irp">HwStorCompleteServiceIrp</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_free_adapter_resources">HwStorFreeAdapterResources</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_free_adapter_resources">HwStorFreeAdapterResources</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_initialize">HwStorInitialize</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_initialize">HwStorInitialize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_initialize_tracing">HwStorInitializeTracing</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_initialize_tracing">HwStorInitializeTracing</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_process_service_request">HwStorProcessServiceRequest</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_process_service_request">HwStorProcessServiceRequest</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_reset_bus">HwStorResetBus</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_reset_bus">HwStorResetBus</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_startio">HwStorStartIo</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_startio">HwStorStartIo</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-virtual_hw_find_adapter">VirtualHwStorFindAdapter</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-virtual_hw_find_adapter">VirtualHwStorFindAdapter</a>
  
 
  

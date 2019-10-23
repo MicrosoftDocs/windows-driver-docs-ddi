@@ -48,7 +48,7 @@ req.typenames:
 ## -description
 
 
-The <i>VideoPortRestoreWCMemory</i> callback routine restores Write Combined video memory from a protected state after the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nc-video-protect_wc_memory">VideoPortProtectWCMemory</a> callback routine was called.
+The <i>VideoPortRestoreWCMemory</i> callback routine restores Write Combined video memory from a protected state after the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-protect_wc_memory">VideoPortProtectWCMemory</a> callback routine was called.
 
 
 ## -parameters
@@ -58,7 +58,7 @@ The <i>VideoPortRestoreWCMemory</i> callback routine restores Write Combined vid
 
 ### -param Context [in]
 
-Pointer to a caller-determined context parameter to be passed to the <i>CallbackRoutine</i>. It typically points to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/ns-video-_video_port_config_info">VIDEO_PORT_CONFIG_INFO</a> buffer.
+Pointer to a caller-determined context parameter to be passed to the <i>CallbackRoutine</i>. It typically points to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_video_port_config_info">VIDEO_PORT_CONFIG_INFO</a> buffer.
 
 
 ### -param HwDeviceExtension [in]
@@ -79,7 +79,7 @@ Pointer to the miniport driver's hardware device extension.
 
 
 
-After the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nc-video-protect_wc_memory">VideoPortProtectWCMemory</a> callback routine is called, the CPU cannot write to Write Combined memory until <i>VideoPortRestoreWCMemory</i> is called.
+After the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-protect_wc_memory">VideoPortProtectWCMemory</a> callback routine is called, the CPU cannot write to Write Combined memory until <i>VideoPortRestoreWCMemory</i> is called.
 
 
 
@@ -89,11 +89,11 @@ After the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/conte
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/ns-video-_video_port_config_info">VIDEO_PORT_CONFIG_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_video_port_config_info">VIDEO_PORT_CONFIG_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nc-video-protect_wc_memory">VideoPortProtectWCMemory</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-protect_wc_memory">VideoPortProtectWCMemory</a>
  
 
  

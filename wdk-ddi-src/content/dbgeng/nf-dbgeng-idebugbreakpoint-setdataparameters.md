@@ -94,7 +94,7 @@ The method was successful.
 </dl>
 </td>
 <td width="60%">
-The breakpoint is not a processor breakpoint.  For more information about the breakpoint type, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/extsfns/nf-extsfns-idebugfaentrytags-gettype">GetType</a>.
+The breakpoint is not a processor breakpoint.  For more information about the breakpoint type, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/extsfns/nf-extsfns-idebugfaentrytags-gettype">GetType</a>.
 
 </td>
 </tr>

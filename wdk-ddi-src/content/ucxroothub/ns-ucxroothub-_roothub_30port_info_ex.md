@@ -58,7 +58,7 @@ Provides extended USB 3.0 port information about  speed.
 
 ### -field Info
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucxroothub/ns-ucxroothub-_roothub_30port_info">ROOTHUB_30PORT_INFO</a> structure.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxroothub/ns-ucxroothub-_roothub_30port_info">ROOTHUB_30PORT_INFO</a> structure.
 
 
 ### -field MaxSpeedsCount

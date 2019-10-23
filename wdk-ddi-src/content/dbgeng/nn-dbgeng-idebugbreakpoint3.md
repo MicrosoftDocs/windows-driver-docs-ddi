@@ -67,7 +67,7 @@ The <b>IDebugBreakpoint3</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugbreakpoint3-getguid">GetGuid</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugbreakpoint3-getguid">GetGuid</a>
 </td>
 <td align="left" width="63%">
 Returns a GUID for the breakpoint.

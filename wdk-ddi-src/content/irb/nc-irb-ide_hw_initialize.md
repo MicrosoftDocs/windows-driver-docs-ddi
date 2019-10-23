@@ -63,12 +63,12 @@ A pointer to the miniport driver per channel device extension.
 
 ### -param DeviceParameters [in, out]
 
-A pointer to a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/ns-irb-_ide_device_parameters">IDE_DEVICE_PARAMETERS</a> that identifies the device to configure and the device parameters with which to configure the device.
+A pointer to a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/ns-irb-_ide_device_parameters">IDE_DEVICE_PARAMETERS</a> that identifies the device to configure and the device parameters with which to configure the device.
 
 
 ### -param IdentifyData [in]
 
-A pointer to a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ata/ns-ata-_identify_device_data">IDENTIFY_DEVICE_DATA</a> that contains the identify data that is returned by the device.
+A pointer to a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ata/ns-ata-_identify_device_data">IDENTIFY_DEVICE_DATA</a> that contains the identify data that is returned by the device.
 
 
 ## -returns
@@ -84,7 +84,7 @@ A pointer to a structure of type <a href="https://docs.microsoft.com/windows-har
 
 
 
-After the miniport driver enumerates the devices on a channel, it calls the <b><i>IdeHwInitialize</i></b> routine one time for each device it enumerates. The <b><i>IdeHwInitialize</i></b> routine must configure each device based on the information that is specified in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/ns-irb-_ide_device_parameters">IDE_DEVICE_PARAMETERS</a> structure, pointed to by the <i>DeviceParameters</i> parameter. In exceptional cases, the miniport driver can configure the device by using a set of parameters that differ from those contained in <b>IDE_DEVICE_PARAMETERS</b>. In such cases, the miniport driver must update the information in <b>IDE_DEVICE_PARAMETERS</b> to contain the parameter value that it actually used to configure the device. After the <b><i>IdeHwInitialize</i></b> routine returns, the port driver updates its cached information with the parameter values that are provided by the miniport driver.
+After the miniport driver enumerates the devices on a channel, it calls the <b><i>IdeHwInitialize</i></b> routine one time for each device it enumerates. The <b><i>IdeHwInitialize</i></b> routine must configure each device based on the information that is specified in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/ns-irb-_ide_device_parameters">IDE_DEVICE_PARAMETERS</a> structure, pointed to by the <i>DeviceParameters</i> parameter. In exceptional cases, the miniport driver can configure the device by using a set of parameters that differ from those contained in <b>IDE_DEVICE_PARAMETERS</b>. In such cases, the miniport driver must update the information in <b>IDE_DEVICE_PARAMETERS</b> to contain the parameter value that it actually used to configure the device. After the <b><i>IdeHwInitialize</i></b> routine returns, the port driver updates its cached information with the parameter values that are provided by the miniport driver.
 
 
 
@@ -94,11 +94,11 @@ After the miniport driver enumerates the devices on a channel, it calls the <b><
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ata/ns-ata-_identify_device_data">IDENTIFY_DEVICE_DATA</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ata/ns-ata-_identify_device_data">IDENTIFY_DEVICE_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/ns-irb-_ide_device_parameters">IDE_DEVICE_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/ns-irb-_ide_device_parameters">IDE_DEVICE_PARAMETERS</a>
  
 
  

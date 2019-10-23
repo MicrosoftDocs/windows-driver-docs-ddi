@@ -95,7 +95,7 @@ For more information about the sensor data fields that use this enumeration, see
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sensorsdef/ne-sensorsdef-pedometer_step_type_count">PEDOMETER_STEP_TYPE_COUNT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorsdef/ne-sensorsdef-pedometer_step_type_count">PEDOMETER_STEP_TYPE_COUNT</a>
 
 
 

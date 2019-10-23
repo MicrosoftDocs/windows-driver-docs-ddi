@@ -75,7 +75,7 @@ A zero-based value that is used as an index into the logical configuration that 
 
 
 
-<b>WdfCmResourceListGetDescriptor</b> returns a pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_cm_partial_resource_descriptor">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure that describes the hardware resource that the <i>Index</i> parameter identifies, if the index value is valid. Otherwise, the method returns <b>NULL</b>.
+<b>WdfCmResourceListGetDescriptor</b> returns a pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_partial_resource_descriptor">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure that describes the hardware resource that the <i>Index</i> parameter identifies, if the index value is valid. Otherwise, the method returns <b>NULL</b>.
 
 A system bug check occurs if the driver supplies an invalid object handle.
 
@@ -95,7 +95,7 @@ For more information about resource lists, see <a href="https://docs.microsoft.c
 
 #### Examples
 
-For a code example that uses <b>WdfCmResourceListGetDescriptor</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfresource/nf-wdfresource-wdfcmresourcelistgetcount">WdfCmResourceListGetCount</a>.
+For a code example that uses <b>WdfCmResourceListGetDescriptor</b>, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfresource/nf-wdfresource-wdfcmresourcelistgetcount">WdfCmResourceListGetCount</a>.
 
 <div class="code"></div>
 
@@ -106,7 +106,7 @@ For a code example that uses <b>WdfCmResourceListGetDescriptor</b>, see <a href=
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_cm_partial_resource_descriptor">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_partial_resource_descriptor">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
  
 
  

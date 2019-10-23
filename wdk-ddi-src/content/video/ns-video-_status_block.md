@@ -48,7 +48,7 @@ req.typenames: STATUS_BLOCK, *PSTATUS_BLOCK
 ## -description
 
 
-The STATUS_BLOCK structure is a substructure within the VIDEO_REQUEST_PACKET structure. A miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nc-video-pvideo_hw_start_io">HwVidStartIO</a> function must set the status block of each <a href="https://docs.microsoft.com/windows-hardware/drivers/">VRP</a> that it gets.
+The STATUS_BLOCK structure is a substructure within the VIDEO_REQUEST_PACKET structure. A miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pvideo_hw_start_io">HwVidStartIO</a> function must set the status block of each <a href="https://docs.microsoft.com/windows-hardware/drivers/">VRP</a> that it gets.
 
 
 ## -struct-fields
@@ -132,11 +132,11 @@ Supplies additional information about the completed operation. The meaning of th
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nc-video-pvideo_hw_start_io">HwVidStartIO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nc-video-pvideo_hw_start_io">HwVidStartIO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/ns-video-_video_request_packet">VIDEO_REQUEST_PACKET</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_video_request_packet">VIDEO_REQUEST_PACKET</a>
  
 
  

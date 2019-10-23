@@ -65,6 +65,6 @@ Returns STATUS_SUCCESS if the data block was successfully added. Otherwise retur
 
 ## -see-also
 
-[*KeInitializeTriageDumpDataArray***](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-keinitializetriagedumpdataarray)
+[*KeInitializeTriageDumpDataArray***](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keinitializetriagedumpdataarray)
 
-[*KBUGCHECK_REASON_CALLBACK_ROUTINE*](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-kbugcheck_reason_callback_routine)
+[*KBUGCHECK_REASON_CALLBACK_ROUTINE*](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-kbugcheck_reason_callback_routine)

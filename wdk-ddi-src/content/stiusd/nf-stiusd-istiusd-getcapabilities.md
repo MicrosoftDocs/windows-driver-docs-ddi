@@ -65,7 +65,7 @@ A still image minidriver's <b>IStiUSD::GetCapabilities</b> method returns a stil
 
 #### - pUsdCaps
 
-Caller-supplied pointer to an empty <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/stiusd/ns-stiusd-_sti_usd_caps">STI_USD_CAPS</a> structure.
+Caller-supplied pointer to an empty <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/stiusd/ns-stiusd-_sti_usd_caps">STI_USD_CAPS</a> structure.
 
 
 ## -returns
@@ -81,7 +81,7 @@ If the operation succeeds, the method should return S_OK. Otherwise, it should r
 
 
 
-The <b>IStiUSD::GetCapabilities</b> method should set appropriate device capability flags in the caller-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/stiusd/ns-stiusd-_sti_usd_caps">STI_USD_CAPS</a> structure. It should also set the version number to STI_VERSION.
+The <b>IStiUSD::GetCapabilities</b> method should set appropriate device capability flags in the caller-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/stiusd/ns-stiusd-_sti_usd_caps">STI_USD_CAPS</a> structure. It should also set the version number to STI_VERSION.
 
 
 
@@ -91,11 +91,11 @@ The <b>IStiUSD::GetCapabilities</b> method should set appropriate device capabil
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sti/nf-sti-istidevice-getcapabilities">IStiDevice::GetCapabilities</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sti/nf-sti-istidevice-getcapabilities">IStiDevice::GetCapabilities</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_image/index">IStiUSD</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_image/index">IStiUSD</a>
  
 
  

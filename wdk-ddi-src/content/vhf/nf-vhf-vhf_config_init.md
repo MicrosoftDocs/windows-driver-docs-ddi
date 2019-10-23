@@ -49,7 +49,7 @@ req.typenames:
 ## -description
 
 
-Use the <b>VHF_CONFIG_INIT</b> function to initialize the required members of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vhf/ns-vhf-_vhf_config">VHF_CONFIG</a> structure allocated by the HID source driver.
+Use the <b>VHF_CONFIG_INIT</b> function to initialize the required members of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vhf/ns-vhf-_vhf_config">VHF_CONFIG</a> structure allocated by the HID source driver.
 
 
 ## -parameters
@@ -59,12 +59,12 @@ Use the <b>VHF_CONFIG_INIT</b> function to initialize the required members of th
 
 ### -param Config [out]
 
-A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vhf/ns-vhf-_vhf_config">VHF_CONFIG</a> structure to initialize.
+A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vhf/ns-vhf-_vhf_config">VHF_CONFIG</a> structure to initialize.
 
 
 ### -param DeviceObject [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure for the HID source driver. Get that pointer by calling  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nf-wdfdevice-wdfdevicewdmgetdeviceobject">WdfDeviceWdmGetDeviceObject</a> and passing the WDFDEVICE handle that the driver received in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfdevice/nf-wdfdevice-wdfdevicecreate">WdfDeviceCreate</a> call. 
+A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure for the HID source driver. Get that pointer by calling  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicewdmgetdeviceobject">WdfDeviceWdmGetDeviceObject</a> and passing the WDFDEVICE handle that the driver received in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicecreate">WdfDeviceCreate</a> call. 
 
 
 ### -param ReportDescriptorLength [in]

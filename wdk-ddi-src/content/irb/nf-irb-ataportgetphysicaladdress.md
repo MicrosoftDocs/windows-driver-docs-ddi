@@ -66,7 +66,7 @@ A pointer to the channel extension.
 
 ### -param Irb [in, optional]
 
-A pointer to a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/ns-irb-_ide_request_block">IDE_REQUEST_BLOCK</a> that defines the IDE request block (IRB) for which the address range is converted. 
+A pointer to a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/ns-irb-_ide_request_block">IDE_REQUEST_BLOCK</a> that defines the IDE request block (IRB) for which the address range is converted. 
 
 
 ### -param VirtualAddress [in, optional]
@@ -93,7 +93,7 @@ Returns the number of mapped bytes starting at the returned physical address.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/ns-irb-_ide_request_block">IDE_REQUEST_BLOCK</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/ns-irb-_ide_request_block">IDE_REQUEST_BLOCK</a>
  
 
  

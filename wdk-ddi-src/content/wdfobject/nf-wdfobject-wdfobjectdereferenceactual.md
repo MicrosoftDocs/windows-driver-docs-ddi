@@ -68,7 +68,7 @@ A handle to a framework object.
 
 ### -param Tag [in, optional]
 
-A driver-defined value that identifies an object reference. The tag value must match a tag value that the driver previously supplied to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfobject/nf-wdfobject-wdfobjectreferenceactual">WdfObjectReferenceActual</a>.
+A driver-defined value that identifies an object reference. The tag value must match a tag value that the driver previously supplied to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/nf-wdfobject-wdfobjectreferenceactual">WdfObjectReferenceActual</a>.
 
 
 ### -param Line [in]
@@ -128,7 +128,7 @@ WdfObjectDereferenceActual(
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfobject/nf-wdfobject-wdfobjectreferenceactual">WdfObjectReferenceActual</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfobject/nf-wdfobject-wdfobjectreferenceactual">WdfObjectReferenceActual</a>
  
 
  

@@ -75,7 +75,7 @@ It is optional that you implement this method.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/iscsiop/ns-iscsiop-_addisnsserver_out">AddiSNSServer_OUT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsiop/ns-iscsiop-_addisnsserver_out">AddiSNSServer_OUT</a>
 
 
 

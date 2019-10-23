@@ -71,7 +71,7 @@ The D3DDDIARG_SETSTREAMSOURCEFREQ structure describes how the frequency divisor 
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_setstreamsourcefreq">SetStreamSourceFreq</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_setstreamsourcefreq">SetStreamSourceFreq</a>
  
 
  

@@ -63,12 +63,12 @@ Specifies an initialized <a href="https://docs.microsoft.com/previous-versions/f
 
 ### -field StandardsSupported
 
-Specifies the video standards supported by the device. This member may be set to one or more (logically ORed) values from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ne-ksmedia-ks_analogvideostandard">KS_AnalogVideoStandard</a> enumeration.
+Specifies the video standards supported by the device. This member may be set to one or more (logically ORed) values from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ne-ksmedia-ks_analogvideostandard">KS_AnalogVideoStandard</a> enumeration.
 
 
 ### -field Capabilities
 
-Specifies video decoder capabilities. This member must be set to zero or one of the values from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ne-ksmedia-ks_videodecoder_flags">KS_VIDEODECODER_FLAGS</a> enumeration.
+Specifies video decoder capabilities. This member must be set to zero or one of the values from the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ne-ksmedia-ks_videodecoder_flags">KS_VIDEODECODER_FLAGS</a> enumeration.
 
 
 ### -field SettlingTime
@@ -94,11 +94,11 @@ Specifies the number of horizontal sync pulses the video decoder produces during
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ne-ksmedia-ks_analogvideostandard">KS_AnalogVideoStandard</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ne-ksmedia-ks_analogvideostandard">KS_AnalogVideoStandard</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ne-ksmedia-ks_videodecoder_flags">KS_VIDEODECODER_FLAGS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ne-ksmedia-ks_videodecoder_flags">KS_VIDEODECODER_FLAGS</a>
 
 
 

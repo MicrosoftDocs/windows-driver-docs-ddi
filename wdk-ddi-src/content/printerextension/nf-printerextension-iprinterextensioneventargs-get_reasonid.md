@@ -91,11 +91,11 @@ Guid = {23BB1328-63DE-4293-915B-A6A23D929ACB}
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nf-printerextension-iprinterextensioneventargs-get_detailedreasonid">DetailedReasonId</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterextensioneventargs-get_detailedreasonid">DetailedReasonId</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprinterextensioneventargs">IPrinterExtensionEventArgs</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterextensioneventargs">IPrinterExtensionEventArgs</a>
  
 
  

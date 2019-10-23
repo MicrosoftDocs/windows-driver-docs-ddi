@@ -86,7 +86,7 @@ None
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/srb/nf-srb-scsiportmovememory">ScsiPortMoveMemory</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportmovememory">ScsiPortMoveMemory</a>
  
 
  

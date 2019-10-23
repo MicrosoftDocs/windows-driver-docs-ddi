@@ -75,7 +75,7 @@ Specifies the details of the analog video stream.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-tagks_analogvideoinfo">KS_ANALOGVIDEOINFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_analogvideoinfo">KS_ANALOGVIDEOINFO</a>
  
 
  

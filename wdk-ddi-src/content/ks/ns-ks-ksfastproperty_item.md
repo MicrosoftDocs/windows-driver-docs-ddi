@@ -63,7 +63,7 @@ Specifies the identifier of the specific property within the set.
 
 ### -field GetPropertyHandler
 
-Points to a driver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nc-ks-pfnksfasthandler">KStrFastHandler</a> routine that specifies the fast handler for retrieving the property. If this is <b>NULL</b>, the property cannot be read with a fast handler.
+Points to a driver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nc-ks-pfnksfasthandler">KStrFastHandler</a> routine that specifies the fast handler for retrieving the property. If this is <b>NULL</b>, the property cannot be read with a fast handler.
 
 
 ### -field GetSupported
@@ -73,7 +73,7 @@ A boolean value that indicates if the driver has supplied a get property handler
 
 ### -field SetPropertyHandler
 
-Points to a driver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nc-ks-pfnksfasthandler">KStrFastHandler</a> routine that specifies the fast handler for setting the property. If this is <b>NULL</b>, the property cannot be set with a fast handler.
+Points to a driver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nc-ks-pfnksfasthandler">KStrFastHandler</a> routine that specifies the fast handler for setting the property. If this is <b>NULL</b>, the property cannot be set with a fast handler.
 
 
 ### -field SetSupported
@@ -91,7 +91,7 @@ Reserved and set to zero.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nc-ks-pfnksfasthandler">KStrFastHandler</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nc-ks-pfnksfasthandler">KStrFastHandler</a>
  
 
  

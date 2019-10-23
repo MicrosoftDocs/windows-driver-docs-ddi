@@ -106,11 +106,11 @@ The value of <i>Api</i>-><b>nSize</b> does not equal the size of the structure W
 
 
 
-If you are including Wdbgexts.h in your extension code, you should call this method during the initialization of the extension DLL (see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nc-dbgeng-pdebug_extension_initialize">DebugExtensionInitialize</a>).
+If you are including Wdbgexts.h in your extension code, you should call this method during the initialization of the extension DLL (see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nc-dbgeng-pdebug_extension_initialize">DebugExtensionInitialize</a>).
 
 Many WdbgExts functions are really macros.  To ensure that these macros work correctly, the structure received by the <i>Api</i> parameter should be stored in a global variable named <b>ExtensionApis</b>.  
 
-The WINDBG_EXTENSION_APIS64 structure returned by this method serves the same purpose as the one provided to the callback function <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdbgexts/nc-wdbgexts-pwindbg_extension_dll_init">WinDbgExtensionDllInit</a> (used by WdbgExts extensions).
+The WINDBG_EXTENSION_APIS64 structure returned by this method serves the same purpose as the one provided to the callback function <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdbgexts/nc-wdbgexts-pwindbg_extension_dll_init">WinDbgExtensionDllInit</a> (used by WdbgExts extensions).
 
 For a list of the functions provided by the WdbgExts API, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/wdbgexts-functions">WdbgExts Functions</a>.
 

@@ -49,11 +49,11 @@ req.typenames:
 
 
 
-Returns the capabilities and limitations of the underlying SCSI HBA. The most important information is returned in the <b>MaximumTransferLength</b> and <b>AlignmentMask </b>members. Class drivers and users of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddscsi/ni-ntddscsi-ioctl_scsi_pass_through">IOCTL_SCSI_PASS_THROUGH</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddscsi/ni-ntddscsi-ioctl_scsi_pass_through_direct">IOCTL_SCSI_PASS_THROUGH_DIRECT</a> are required to honor these limitations.
+Returns the capabilities and limitations of the underlying SCSI HBA. The most important information is returned in the <b>MaximumTransferLength</b> and <b>AlignmentMask </b>members. Class drivers and users of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ni-ntddscsi-ioctl_scsi_pass_through">IOCTL_SCSI_PASS_THROUGH</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ni-ntddscsi-ioctl_scsi_pass_through_direct">IOCTL_SCSI_PASS_THROUGH_DIRECT</a> are required to honor these limitations.
 
 Only legacy drivers can issue this request. The request fails if it is sent to a PDO created by the port driver. 
 
-To get SCSI capabilities data, a Plug and Play driver must issue an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ni-ntddstor-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a> request for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor-_storage_adapter_descriptor">STORAGE_ADAPTER_DESCRIPTOR</a> data to the PDO for each device to which the driver has been added (that is, each device for which the driver has received an <i>AddDevice </i>call). A legacy driver should forward this request to the port driver. This request fails if it is sent to the FDO for an adapter.
+To get SCSI capabilities data, a Plug and Play driver must issue an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_query_property">IOCTL_STORAGE_QUERY_PROPERTY</a> request for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_adapter_descriptor">STORAGE_ADAPTER_DESCRIPTOR</a> data to the PDO for each device to which the driver has been added (that is, each device for which the driver has received an <i>AddDevice </i>call). A legacy driver should forward this request to the port driver. This request fails if it is sent to the FDO for an adapter.
 
 
 <div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
@@ -75,7 +75,7 @@ None.
 
 ### -output-buffer
 
-Updated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddscsi/ns-ntddscsi-_io_scsi_capabilities">IO_SCSI_CAPABILITIES</a> information is returned to the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>.
+Updated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_io_scsi_capabilities">IO_SCSI_CAPABILITIES</a> information is returned to the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>.
 
 
 ### -output-buffer-length
@@ -111,7 +111,7 @@ The <b>Information</b> field contains the number of bytes returned in the output
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddscsi/ns-ntddscsi-_io_scsi_capabilities">IO_SCSI_CAPABILITIES</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_io_scsi_capabilities">IO_SCSI_CAPABILITIES</a>
  
 
  

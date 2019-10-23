@@ -48,7 +48,7 @@ req.typenames:
 ## -description
 
 
-The <b>SERCX_ACTIVITY_INIT</b> function initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sercx/ns-sercx-_sercx_activity">SERCX_ACTIVITY</a> structure.
+The <b>SERCX_ACTIVITY_INIT</b> function initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/ns-sercx-_sercx_activity">SERCX_ACTIVITY</a> structure.
 
 
 ## -parameters
@@ -75,7 +75,7 @@ None.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sercx/ns-sercx-_sercx_activity">SERCX_ACTIVITY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/ns-sercx-_sercx_activity">SERCX_ACTIVITY</a>
  
 
  

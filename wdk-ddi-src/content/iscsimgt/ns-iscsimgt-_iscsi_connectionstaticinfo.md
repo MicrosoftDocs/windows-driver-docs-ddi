@@ -192,12 +192,12 @@ The maximum data payload size, in bytes, that is supported for command or data P
 
 ### -field AuthType
 
-The type of authentication that is used to establish a connection. The <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/iscsi-connectionstaticinfo-wmi-class">ISCSI_ConnectionStaticInfo WMI Class</a>, which is defined in <i>Mgmt.mof</i>, does specify values for this member; but if your software includes <i>Iscsidsc.h</i>, it can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/iscsidef/ne-iscsidef-iscsi_auth_types">ISCSI_AUTH_TYPES</a> enumeration to assign values to this member.
+The type of authentication that is used to establish a connection. The <a href="https://docs.microsoft.com/windows-hardware/drivers/storage/iscsi-connectionstaticinfo-wmi-class">ISCSI_ConnectionStaticInfo WMI Class</a>, which is defined in <i>Mgmt.mof</i>, does specify values for this member; but if your software includes <i>Iscsidsc.h</i>, it can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsidef/ne-iscsidef-iscsi_auth_types">ISCSI_AUTH_TYPES</a> enumeration to assign values to this member.
 
 
 ### -field LocalAddr
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/iscsidef/ns-iscsidef-_iscsi_ip_address">ISCSI_IP_Address</a> structure that holds the IP address of the local network card that the initiator uses to connect to the network.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsidef/ns-iscsidef-_iscsi_ip_address">ISCSI_IP_Address</a> structure that holds the IP address of the local network card that the initiator uses to connect to the network.
 
 
 ### -field LocalPort
@@ -207,7 +207,7 @@ The local port number that this connection instance uses.
 
 ### -field RemoteAddr
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/iscsidef/ns-iscsidef-_iscsi_ip_address">ISCSI_IP_Address</a> structure that holds the IP address of the remote network card that this connection instance uses.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsidef/ns-iscsidef-_iscsi_ip_address">ISCSI_IP_Address</a> structure that holds the IP address of the remote network card that this connection instance uses.
 
 
 ### -field RemotePort
@@ -234,7 +234,7 @@ The maximum size, in bytes, of the datagram that the transport supports.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/iscsidef/ne-iscsidef-iscsi_auth_types">ISCSI_AUTH_TYPES</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsidef/ne-iscsidef-iscsi_auth_types">ISCSI_AUTH_TYPES</a>
 
 
 
@@ -246,7 +246,7 @@ The maximum size, in bytes, of the datagram that the transport supports.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/iscsidef/ns-iscsidef-_iscsi_ip_address">ISCSI_IP_Address</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsidef/ns-iscsidef-_iscsi_ip_address">ISCSI_IP_Address</a>
 
 
 

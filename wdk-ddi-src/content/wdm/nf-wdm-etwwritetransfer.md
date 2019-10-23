@@ -109,11 +109,11 @@ You can call <b>EtwWriteTransfer</b> at any IRQL. However, when IRQL is greater 
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-etwwrite">EtwWrite</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-etwwrite">EtwWrite</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-etwwritestring">EtwWriteString</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-etwwritestring">EtwWriteString</a>
  
 
  

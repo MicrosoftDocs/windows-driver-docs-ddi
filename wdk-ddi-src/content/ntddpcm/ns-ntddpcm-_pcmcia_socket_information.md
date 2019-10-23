@@ -48,7 +48,7 @@ req.typenames: PCMCIA_SOCKET_INFORMATION, *PPCMCIA_SOCKET_INFORMATION
 ## -description
 
 
-The PCMCIA_SOCKET_INFORMATION structure is used in conjunction with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddpcm/ni-ntddpcm-ioctl_socket_information">IOCTL_SOCKET_INFORMATION</a> request to retrieve socket configuration and state data. 
+The PCMCIA_SOCKET_INFORMATION structure is used in conjunction with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddpcm/ni-ntddpcm-ioctl_socket_information">IOCTL_SOCKET_INFORMATION</a> request to retrieve socket configuration and state data. 
 
 
 ## -struct-fields
@@ -241,7 +241,7 @@ Indicates that the card is enabled.
 
 ### -field ControllerType
 
-Indicates the controller type. Some common controller types are defined in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddpcm/ne-ntddpcm-_pcmcia_controller_class">PCMCIA_CONTROLLER_CLASS</a> enumeration. 
+Indicates the controller type. Some common controller types are defined in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddpcm/ne-ntddpcm-_pcmcia_controller_class">PCMCIA_CONTROLLER_CLASS</a> enumeration. 
 
 
 ## -see-also
@@ -249,7 +249,7 @@ Indicates the controller type. Some common controller types are defined in the <
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddpcm/ni-ntddpcm-ioctl_socket_information">IOCTL_SOCKET_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddpcm/ni-ntddpcm-ioctl_socket_information">IOCTL_SOCKET_INFORMATION</a>
  
 
  

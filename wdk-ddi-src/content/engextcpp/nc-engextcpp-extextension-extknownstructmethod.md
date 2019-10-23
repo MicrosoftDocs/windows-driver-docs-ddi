@@ -59,7 +59,7 @@ The <b>ExtKnownStructMethod</b> callback method is called by the engine to forma
 
 ### -param TypeName [in]
 
-Specifies the name of the type of the structure pointed to by <i>Offset</i>.  This is the same as the <b>TypeName</b> field of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/ns-engextcpp-extknownstruct">ExtKnownStruct</a> structure used to register this callback method.
+Specifies the name of the type of the structure pointed to by <i>Offset</i>.  This is the same as the <b>TypeName</b> field of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/ns-engextcpp-extknownstruct">ExtKnownStruct</a> structure used to register this callback method.
 
 
 ### -param Flags [in]
@@ -80,7 +80,7 @@ The debugger engine expects the output to be formatted for printing on a single 
 
 The formatted output from this method should be placed in the buffer <b>m_AppendBuffer</b> -- a member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff543981">ExtExtension</a>.
 
-Instances of this callback method are registered with the engine by using an instance of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/ns-engextcpp-extknownstruct">ExtKnownStruct</a> structure that is placed into the array <b>m_KnownStructs</b> (a member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff543981">ExtExtension</a>) by the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/previsioning-framework/ff550945(v=vs.85)">Initialize</a> method.  The <b>ExtKnownStruct</b> structure also specifies the name of the type of structure this method formats.
+Instances of this callback method are registered with the engine by using an instance of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/ns-engextcpp-extknownstruct">ExtKnownStruct</a> structure that is placed into the array <b>m_KnownStructs</b> (a member of <a href="https://msdn.microsoft.com/library/windows/hardware/ff543981">ExtExtension</a>) by the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/previsioning-framework/ff550945(v=vs.85)">Initialize</a> method.  The <b>ExtKnownStruct</b> structure also specifies the name of the type of structure this method formats.
 
 When the debugger engine calls a known structure method, it wraps the call in a <b>try / except</b> block.  This protects the engine from some types of bugs in the extension code; but, because the extension calls are executed in the same thread as the engine, they can still cause it to crash.
 
@@ -96,7 +96,7 @@ When the debugger engine calls a known structure method, it wraps the call in a 
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/ns-engextcpp-extknownstruct">ExtKnownStruct</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/ns-engextcpp-extknownstruct">ExtKnownStruct</a>
 
 
 

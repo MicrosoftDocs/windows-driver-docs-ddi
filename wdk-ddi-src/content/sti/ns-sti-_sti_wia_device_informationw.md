@@ -63,7 +63,7 @@ Caller-supplied size, in bytes, of the STI_WIA_DEVICE_INFORMATION structure.
 
 ### -field DeviceType
 
-A value of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sti/ne-sti-_sti_device_mj_type">STI_DEVICE_TYPE</a> that identifies the type of the hardware imaging device.
+A value of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sti/ne-sti-_sti_device_mj_type">STI_DEVICE_TYPE</a> that identifies the type of the hardware imaging device.
 
 
 ### -field szDeviceInternalName
@@ -73,7 +73,7 @@ Character array containing the device's internal name string, used for reference
 
 ### -field DeviceCapabilities
 
-A structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sti/ns-sti-_sti_dev_caps">STI_DEV_CAPS</a>.
+A structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sti/ns-sti-_sti_dev_caps">STI_DEV_CAPS</a>.
 
 
 ### -field dwHardwareConfiguration

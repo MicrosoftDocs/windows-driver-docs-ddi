@@ -49,7 +49,7 @@ req.typenames:
 ## -description
 
 
-The <b>PcAddContentHandlers</b> function provides the system with a list of functions that handle protected content. Note that this function call is identical in operation to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/drmk/nf-drmk-drmaddcontenthandlers">DrmAddContentHandlers</a> function, and its parameter definitions and return value are also identical.
+The <b>PcAddContentHandlers</b> function provides the system with a list of functions that handle protected content. Note that this function call is identical in operation to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/drmk/nf-drmk-drmaddcontenthandlers">DrmAddContentHandlers</a> function, and its parameter definitions and return value are also identical.
 
 
 ## -parameters
@@ -76,7 +76,7 @@ Specifies the number of function pointers in the <i>paHandlers</i> array.
 
 
 
-See return value definition in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/drmk/nf-drmk-drmaddcontenthandlers">DrmAddContentHandlers</a>.
+See return value definition in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/drmk/nf-drmk-drmaddcontenthandlers">DrmAddContentHandlers</a>.
 
 
 
@@ -85,7 +85,7 @@ See return value definition in <a href="https://docs.microsoft.com/windows-hardw
 
 
 
-For more information, see the comments in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/drmk/nf-drmk-drmaddcontenthandlers">DrmAddContentHandlers</a>.
+For more information, see the comments in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/drmk/nf-drmk-drmaddcontenthandlers">DrmAddContentHandlers</a>.
 
 
 
@@ -95,7 +95,7 @@ For more information, see the comments in <a href="https://docs.microsoft.com/wi
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/drmk/nf-drmk-drmaddcontenthandlers">DrmAddContentHandlers</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/drmk/nf-drmk-drmaddcontenthandlers">DrmAddContentHandlers</a>
  
 
  

@@ -71,7 +71,7 @@ An error occurred during the present operation.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkargcb_present_displayonly_progress">DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkargcb_present_displayonly_progress">DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS</a>
  
 
  

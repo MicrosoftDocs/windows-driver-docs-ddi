@@ -88,11 +88,11 @@ Starting in Windows 8, a system component may issue a create on behalf of an ap
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdffile3-getinitiatorprocessid">IWDFDevice3::GetInitiatorProcessId</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdffile3-getinitiatorprocessid">IWDFDevice3::GetInitiatorProcessId</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfrequest/nf-wdfrequest-wdfrequestgetrequestorprocessid">WdfRequestGetRequestorProcessId</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestgetrequestorprocessid">WdfRequestGetRequestorProcessId</a>
  
 
  

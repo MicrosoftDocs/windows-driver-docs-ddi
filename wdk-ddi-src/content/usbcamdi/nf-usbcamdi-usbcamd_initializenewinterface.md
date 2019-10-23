@@ -64,7 +64,7 @@ Pointer to device-specific context.
 
 ### -param DeviceData [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbcamdi/ns-usbcamdi-_usbcamd_device_data2">USBCAMD_DEVICE_DATA2</a> structure.
+Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbcamdi/ns-usbcamdi-_usbcamd_device_data2">USBCAMD_DEVICE_DATA2</a> structure.
 
 
 ### -param Version [in]
@@ -154,7 +154,7 @@ The <b>USBCAMD_InitializeNewInterface</b> function must be called by the camera 
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbcamdi/ns-usbcamdi-_usbcamd_device_data2">USBCAMD_DEVICE_DATA2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbcamdi/ns-usbcamdi-_usbcamd_device_data2">USBCAMD_DEVICE_DATA2</a>
  
 
  

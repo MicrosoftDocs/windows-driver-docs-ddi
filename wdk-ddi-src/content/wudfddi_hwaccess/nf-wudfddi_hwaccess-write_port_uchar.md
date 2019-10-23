@@ -61,7 +61,7 @@ The <b>WRITE_PORT_UCHAR</b> function writes a byte to the specified port address
 
 ### -param pDevice [in]
 
-Specifies a pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nn-wudfddi-iwdfdevice3">IWDFDevice3</a> interface for the device object of the device to access.
+Specifies a pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfdevice3">IWDFDevice3</a> interface for the device object of the device to access.
 
 
 ### -param Port [in]

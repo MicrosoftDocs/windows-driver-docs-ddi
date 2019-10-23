@@ -48,7 +48,7 @@ req.typenames:
 ## -description
 
 
-The <b>KeDeregisterBugCheckReasonCallback</b> routine removes a callback routine that was registered by <b><a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-keregisterbugcheckreasoncallback">KeRegisterBugCheckReasonCallback</a></b>.
+The <b>KeDeregisterBugCheckReasonCallback</b> routine removes a callback routine that was registered by <b><a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keregisterbugcheckreasoncallback">KeRegisterBugCheckReasonCallback</a></b>.
 
 
 ## -parameters
@@ -58,7 +58,7 @@ The <b>KeDeregisterBugCheckReasonCallback</b> routine removes a callback routine
 
 ### -param CallbackRecord [in, out]
 
-Pointer to a <b><a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">KBUGCHECK_REASON_CALLBACK_RECORD</a></b> structure. <i>CallbackRecord</i> must be the same value that was passed to <b><a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-keregisterbugcheckreasoncallback">KeRegisterBugCheckReasonCallback</a></b> when the callback was registered.
+Pointer to a <b><a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/eprocess">KBUGCHECK_REASON_CALLBACK_RECORD</a></b> structure. <i>CallbackRecord</i> must be the same value that was passed to <b><a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keregisterbugcheckreasoncallback">KeRegisterBugCheckReasonCallback</a></b> when the callback was registered.
 
 
 ## -returns
@@ -75,7 +75,7 @@ Pointer to a <b><a href="https://docs.microsoft.com/windows-hardware/drivers/ker
 
 
 
-<b><a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-keregisterbugcheckreasoncallback">KeRegisterBugCheckReasonCallback</a></b>
+<b><a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-keregisterbugcheckreasoncallback">KeRegisterBugCheckReasonCallback</a></b>
  
 
  

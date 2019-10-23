@@ -87,11 +87,11 @@ If the range could not be locked because of protection problems, noncommitted me
 
 ## -remarks
 
-Use **MmSecureVirtualMemoryEx** instead of [**MmSecureVirtualMemory **](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-mmsecurevirtualmemory) if you need to specify **MM_SECURE_NO_CHANGE** so that no protection change will be allowed on the supplied view.
+Use **MmSecureVirtualMemoryEx** instead of [**MmSecureVirtualMemory **](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-mmsecurevirtualmemory) if you need to specify **MM_SECURE_NO_CHANGE** so that no protection change will be allowed on the supplied view.
 
-The return value from this function can only be used with [**MmUnsecureVirtualMemory**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-mmunsecurevirtualmemory). The driver calls that routine to return the range to a normal state.
+The return value from this function can only be used with [**MmUnsecureVirtualMemory**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-mmunsecurevirtualmemory). The driver calls that routine to return the range to a normal state.
 
 ## -see-also
 
-- [**MmSecureVirtualMemory **](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-mmsecurevirtualmemory)
-- [**MmUnsecureVirtualMemory**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-mmunsecurevirtualmemory)
+- [**MmSecureVirtualMemory **](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-mmsecurevirtualmemory)
+- [**MmUnsecureVirtualMemory**](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-mmunsecurevirtualmemory)

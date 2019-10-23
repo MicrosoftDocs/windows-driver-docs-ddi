@@ -96,7 +96,7 @@ The method was successful.
 
 
 
-In user-mode debugging, this method provides the same information as <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsystemobjects4-getcurrentthreaddataoffset">GetCurrentThreadDataOffset</a>.
+In user-mode debugging, this method provides the same information as <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsystemobjects4-getcurrentthreaddataoffset">GetCurrentThreadDataOffset</a>.
 
 In kernel-mode debugging, the location returned is of the TEB structure of the system thread that was executing on the processor represented by the current thread when the last event occurred.
 

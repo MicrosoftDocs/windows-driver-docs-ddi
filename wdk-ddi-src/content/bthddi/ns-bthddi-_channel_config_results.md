@@ -60,7 +60,7 @@ The CHANNEL_CONFIG_RESULTS structure contains configuration parameters and the b
 ### -field Params
 
 A 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/ns-bthddi-_channel_config_parameters">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_channel_config_parameters">
      CHANNEL_CONFIG_PARAMETERS</a> structure that contains the parameters for the specified direction of
      the channel.
 
@@ -78,7 +78,7 @@ The size, in bytes, required in the buffer to retrieve the current extra options
 The CHANNEL_CONFIG_RESULTS structure is passed in the 
     <b>InResults</b> and 
     <b>OutResults</b> members of the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/ns-bthddi-_brb_l2ca_open_channel">_BRB_L2CA_OPEN_CHANNEL</a> structure.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_l2ca_open_channel">_BRB_L2CA_OPEN_CHANNEL</a> structure.
 
 
 
@@ -88,11 +88,11 @@ The CHANNEL_CONFIG_RESULTS structure is passed in the
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/ns-bthddi-_channel_config_parameters">CHANNEL_CONFIG_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_channel_config_parameters">CHANNEL_CONFIG_PARAMETERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthddi/ns-bthddi-_brb_l2ca_open_channel">_BRB_L2CA_OPEN_CHANNEL</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthddi/ns-bthddi-_brb_l2ca_open_channel">_BRB_L2CA_OPEN_CHANNEL</a>
  
 
  

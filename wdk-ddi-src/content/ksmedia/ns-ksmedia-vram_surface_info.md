@@ -93,7 +93,7 @@ This member specifies the pitch of the surface; that is, the distance, in bytes,
 
 ### -field ullReserved
 
-The minidriver can use this member to store information about the surface as it handles a <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-map-capture-handle-to-vram-address">KSPROPERTY_MAP_CAPTURE_HANDLE_TO_VRAM_ADDRESS</a> request. Use caution, however; this structure does not persist across <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nc-ks-pfnkspin">AVStrMiniPinProcess</a> calls.
+The minidriver can use this member to store information about the surface as it handles a <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-map-capture-handle-to-vram-address">KSPROPERTY_MAP_CAPTURE_HANDLE_TO_VRAM_ADDRESS</a> request. Use caution, however; this structure does not persist across <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nc-ks-pfnkspin">AVStrMiniPinProcess</a> calls.
 
 
 ## -remarks
@@ -102,7 +102,7 @@ The minidriver can use this member to store information about the surface as it 
 
 When the minidriver receives VRAM_SURFACE_INFO through a <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/ksproperty-map-capture-handle-to-vram-address">KSPROPERTY_MAP_CAPTURE_HANDLE_TO_VRAM_ADDRESS</a> property call, the members following <b>VramPhysicalAddress</b> in the member list (except for <b>ullReserved</b>) are zeroed out. The capture driver can store capture-related private data in these members.
 
-AVStream then stores this information in the stream header and returns it to the minidriver in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nc-ks-pfnkspin">AVStrMiniPinProcess</a> callback function.
+AVStream then stores this information in the stream header and returns it to the minidriver in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nc-ks-pfnkspin">AVStrMiniPinProcess</a> callback function.
 
 The data in these members persists for the lifetime of the stream header. When all clones are deleted or the leading edge is advanced, this data is no longer accessible.
 
@@ -114,7 +114,7 @@ The data in these members persists for the lifetime of the stream header. When a
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nc-ks-pfnkspin">AVStrMiniPinProcess</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nc-ks-pfnkspin">AVStrMiniPinProcess</a>
 
 
 

@@ -56,7 +56,7 @@ Pointer to the physical device object (PDO) for the device being queried.
 
 ### -param DeviceProperty [in]
 
-Specifies the device property being requested. Must be one of the following [DEVICE_REGISTRY_PROPERTY](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfwdm/ne-wudfwdm-device_registry_property) enumeration values:
+Specifies the device property being requested. Must be one of the following [DEVICE_REGISTRY_PROPERTY](https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfwdm/ne-wudfwdm-device_registry_property) enumeration values:
 
 #### DevicePropertyAddress
 
@@ -66,7 +66,7 @@ The interpretation of this address is bus-specific. The caller of this routine s
 
 #### DevicePropertyBootConfiguration
 
-Requests the hardware resources assigned to the device by the firmware, in raw form. *PropertyBuffer* points to a [CM_RESOURCE_LIST](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_cm_resource_list) structure.
+Requests the hardware resources assigned to the device by the firmware, in raw form. *PropertyBuffer* points to a [CM_RESOURCE_LIST](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_cm_resource_list) structure.
 
 #### DevicePropertyBootConfigurationTranslated
 

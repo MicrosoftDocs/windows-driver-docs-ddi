@@ -48,7 +48,7 @@ req.typenames: OB_PRE_CREATE_HANDLE_INFORMATION, *POB_PRE_CREATE_HANDLE_INFORMAT
 ## -description
 
 
-The <b>OB_PRE_CREATE_HANDLE_INFORMATION</b> structure provides information to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pob_pre_operation_callback">ObjectPreCallback</a> routine about a thread or process handle that is being opened.
+The <b>OB_PRE_CREATE_HANDLE_INFORMATION</b> structure provides information to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pob_pre_operation_callback">ObjectPreCallback</a> routine about a thread or process handle that is being opened.
 
 
 ## -struct-fields
@@ -274,7 +274,7 @@ You can never add access rights beyond what is specified in the <b>DesiredAccess
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pob_pre_operation_callback">ObjectPreCallback</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pob_pre_operation_callback">ObjectPreCallback</a>
  
 
  

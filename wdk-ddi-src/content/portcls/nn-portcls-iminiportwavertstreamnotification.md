@@ -48,9 +48,9 @@ req.typenames:
 ## -description
 
 
-The <code>IMiniportWaveRTStreamNotification</code> interface is supported in Windows Vista and later Windows operating systems, and it augments the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iminiportwavertstream">IMiniportWaveRTStream</a> interface, providing additional methods to facilitate DMA driver event notifications. 
+The <code>IMiniportWaveRTStreamNotification</code> interface is supported in Windows Vista and later Windows operating systems, and it augments the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiportwavertstream">IMiniportWaveRTStream</a> interface, providing additional methods to facilitate DMA driver event notifications. 
 
-To access the <code>IMiniportWaveRTStreamNotification</code> interface, the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/wavert-port-driver">WaveRT port driver</a> calls the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iminiportwavert-newstream">IMiniportWaveRT::NewStream</a> method and receives an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iminiportwavertstream">IMiniportWaveRTStream</a> interface. The WaveRT port driver then queries the <b>IMiniportWaveRTStream</b> interface, uisng QueryInterface, and receives the <code>IMiniportWaveRTStreamNotification</code> interface. 
+To access the <code>IMiniportWaveRTStreamNotification</code> interface, the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/wavert-port-driver">WaveRT port driver</a> calls the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiportwavert-newstream">IMiniportWaveRT::NewStream</a> method and receives an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiportwavertstream">IMiniportWaveRTStream</a> interface. The WaveRT port driver then queries the <b>IMiniportWaveRTStream</b> interface, uisng QueryInterface, and receives the <code>IMiniportWaveRTStreamNotification</code> interface. 
 
 <code>IMiniportWaveRTStreamNotification</code> inherits from the <b>IUnknown</b> interface.
 

@@ -93,7 +93,7 @@ An image processing filter's implementation of <b>IWiaTransferCallback::GetNextS
 
 An image processing filter's implementation of <b>IWiaTransferCallback::GetNextStream</b> must delegate to the application's <b>IWiaTransferCallback::GetNextStream</b> method. The image processing filter then uses the stream returned by the application callback's <b>IWiaTransferCallback::GetNextStream</b> implementation to create its own stream (the "filtering stream") that it passes back to the WIA service. 
 
-In its <b>IWiaTransferCallback::GetNextStream</b> implementation, the image processing filter should read which properties are needed for its image processing from the item for which the image is being acquired. The filter must not read the properties directly from the <i>pWiaItem2</i> passed into <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wia_lh/nf-wia_lh-iwiaimagefilter-initializefilter">IWiaImageFilter::InitializeFilter</a>; rather it must call <b>IWiaItem2::FindItemByName </b>(described in the Windows SDK documentation) on this WIA item to obtain the actual WIA item. The reason is that during a folder transfer the images acquired correspond to the child items of <i>pWiaItem2</i> rather than to <i>pWiaItem2</i> itself. 
+In its <b>IWiaTransferCallback::GetNextStream</b> implementation, the image processing filter should read which properties are needed for its image processing from the item for which the image is being acquired. The filter must not read the properties directly from the <i>pWiaItem2</i> passed into <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wia_lh/nf-wia_lh-iwiaimagefilter-initializefilter">IWiaImageFilter::InitializeFilter</a>; rather it must call <b>IWiaItem2::FindItemByName </b>(described in the Windows SDK documentation) on this WIA item to obtain the actual WIA item. The reason is that during a folder transfer the images acquired correspond to the child items of <i>pWiaItem2</i> rather than to <i>pWiaItem2</i> itself. 
 
 
 <div class="alert"><b>Note</b>    This method is not called by the preview component during <b>IWiaPreview::UpdatePreview</b>.</div>
@@ -108,11 +108,11 @@ In its <b>IWiaTransferCallback::GetNextStream</b> implementation, the image proc
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wia_lh/nf-wia_lh-iwiaimagefilter-initializefilter">IWiaImageFilter::InitializeFilter</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wia_lh/nf-wia_lh-iwiaimagefilter-initializefilter">IWiaImageFilter::InitializeFilter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wia_lh/nn-wia_lh-iwiatransfercallback">IWiaTransferCallback</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wia_lh/nn-wia_lh-iwiatransfercallback">IWiaTransferCallback</a>
  
 
  

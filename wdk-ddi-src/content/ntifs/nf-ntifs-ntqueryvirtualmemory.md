@@ -61,11 +61,11 @@ The base address of the region of pages to be queried. This value is rounded dow
 
 ### -param MemoryInformationClass [in]
 
-The memory information class about which to retrieve information. Currently, the only supported [MEMORY_INFORMATION_CLASS](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ne-ntifs-_memory_information_class) value is **MemoryBasicInformation**.
+The memory information class about which to retrieve information. Currently, the only supported [MEMORY_INFORMATION_CLASS](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ne-ntifs-_memory_information_class) value is **MemoryBasicInformation**.
 
 ### -param MemoryInformation [out]
 
-Pointer to a buffer that receives the specified information.  The format and content of the buffer depend on the information class specified in the *MemoryInformationClass* parameter. When the value **MemoryBasicInformation** is passed to *MemoryInformationClass*, the *MemoryInformationClass* parameter value is a [MEMORY_BASIC_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_memory_basic_information) structure.
+Pointer to a buffer that receives the specified information.  The format and content of the buffer depend on the information class specified in the *MemoryInformationClass* parameter. When the value **MemoryBasicInformation** is passed to *MemoryInformationClass*, the *MemoryInformationClass* parameter value is a [MEMORY_BASIC_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_memory_basic_information) structure.
 
 ### -param MemoryInformationLength [in]
 
@@ -99,10 +99,10 @@ For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of 
 
 ## -see-also
 
-[MEMORY_BASIC_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_memory_basic_information)
+[MEMORY_BASIC_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_memory_basic_information)
 
-[MEMORY_INFORMATION_CLASS](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ne-ntifs-_memory_information_class)
+[MEMORY_INFORMATION_CLASS](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ne-ntifs-_memory_information_class)
 
-[POWER_PLATFORM_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_power_platform_information)
+[POWER_PLATFORM_INFORMATION](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_power_platform_information)
 
 [ZwQueryVirtualMemory](https://msdn.microsoft.com/library/windows/hardware/dn957455(v=vs.85).aspx(d=robot))

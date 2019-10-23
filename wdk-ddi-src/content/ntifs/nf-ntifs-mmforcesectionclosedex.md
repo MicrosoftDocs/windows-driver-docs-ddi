@@ -52,7 +52,7 @@ If the section object pointer is not NULL, the section reference count and the m
 
 ### -param SectionObjectPointer
 
-Specifies a pointer to the [SECTION_OBJECT_POINTERS](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_section_object_pointers) object.
+Specifies a pointer to the [SECTION_OBJECT_POINTERS](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_section_object_pointers) object.
 
 ### -param ForceCloseFlags
 Contains flags that indicate if the section should  be marked for closing later (as soon as possible) in the event this section cannot be closed now due to outstanding references.

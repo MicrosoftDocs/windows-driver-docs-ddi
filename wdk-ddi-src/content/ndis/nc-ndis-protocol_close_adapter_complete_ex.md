@@ -50,7 +50,7 @@ req.typenames:
 
 NDIS calls a protocol driver's 
   <i>ProtocolCloseAdapterCompleteEx</i> function to complete a close adapter operation for which the 
-  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndiscloseadapterex">NdisCloseAdapterEx</a> function returned
+  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscloseadapterex">NdisCloseAdapterEx</a> function returned
   NDIS_STATUS_PENDING.
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>PROTOCOL_CLOSE_ADAPTER_COMPLETE_EX</b> type. For more
    information, see the following Examples section.</div><div> </div>
@@ -65,7 +65,7 @@ NDIS calls a protocol driver's
 A handle to a context area allocated by the protocol driver. The protocol driver maintains the
      per-binding context information in this context area. The driver supplied this handle to NDIS when the
      driver called the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a> function.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a> function.
 
 
 ## -returns
@@ -91,15 +91,15 @@ If
     <i>ProtocolCloseAdapterCompleteEx</i> function to complete the unbind operation.
 
 After the protocol driver calls the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndiscloseadapterex">NdisCloseAdapterEx</a> function, the 
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscloseadapterex">NdisCloseAdapterEx</a> function, the 
     <i>NdisBindingHandle</i> handle that the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a> function returned is
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a> function returned is
     no longer valid. Therefore, 
     <i>ProtocolCloseAdapterCompleteEx</i> cannot call any 
     <b>Ndis<i>Xxx</i></b> functions that require this handle as a parameter.
 
 If the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_unbind_adapter_ex">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_unbind_adapter_ex">
     ProtocolUnbindAdapterEx</a> function has not already done so,
     <i>ProtocolCloseAdapterCompleteEx</i> can release the resources that the protocol driver allocated for
     per-binding network I/O operations.
@@ -109,7 +109,7 @@ If
     <i>UnbindContext</i> handle in the context area at 
     <i>ProtocolBindingContext</i>, 
     <i>ProtocolCloseAdapterCompleteEx</i> can call the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndiscompleteunbindadapterex">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscompleteunbindadapterex">
     NdisCompleteUnbindAdapterEx</a> function to complete the unbinding operation. Consequently, 
     <i>ProtocolCloseAdapterCompleteEx</i> should not release the context area until after it calls 
     <b>NdisCompleteUnbindAdapterEx</b>.
@@ -161,19 +161,19 @@ For information about  _Use_decl_annotations_, see <a href="https://go.microsoft
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndiscloseadapterex">NdisCloseAdapterEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscloseadapterex">NdisCloseAdapterEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndiscompleteunbindadapterex">NdisCompleteUnbindAdapterEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscompleteunbindadapterex">NdisCompleteUnbindAdapterEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-protocol_unbind_adapter_ex">ProtocolUnbindAdapterEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-protocol_unbind_adapter_ex">ProtocolUnbindAdapterEx</a>
  
 
  

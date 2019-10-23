@@ -74,7 +74,7 @@ None.
 
        Otherwise, the driver returns with an error status of STATUS_BUFFER_TOO_SMALL.
 
-The device driver returns the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdddisk/ns-ntdddisk-_disk_geometry">DISK_GEOMETRY</a> structure in the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>. 
+The device driver returns the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_disk_geometry">DISK_GEOMETRY</a> structure in the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>. 
 
 
 ### -output-buffer-length
@@ -110,7 +110,7 @@ The device driver returns the <a href="https://docs.microsoft.com/windows-hardwa
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdddisk/ns-ntdddisk-_disk_geometry">DISK_GEOMETRY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_disk_geometry">DISK_GEOMETRY</a>
  
 
  

@@ -48,7 +48,7 @@ req.typenames: DEFAULT_ENDPOINT_UPDATE, *PDEFAULT_ENDPOINT_UPDATE
 ## -description
 
 
-Contains the handle to the default endpoint to update in a framework request that is passed by UCX when it invokes <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucxendpoint/nc-ucxendpoint-evt_ucx_default_endpoint_update">EVT_UCX_DEFAULT_ENDPOINT_UPDATE</a> callback function.
+Contains the handle to the default endpoint to update in a framework request that is passed by UCX when it invokes <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxendpoint/nc-ucxendpoint-evt_ucx_default_endpoint_update">EVT_UCX_DEFAULT_ENDPOINT_UPDATE</a> callback function.
 
 
 ## -struct-fields
@@ -58,7 +58,7 @@ Contains the handle to the default endpoint to update in a framework request tha
 
 ### -field Header
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucxusbdevice/ns-ucxusbdevice-_usbdevice_mgmt_header">USBDEVICE_MGMT_HEADER</a> structure that contains header information related to the USB device or hub endpoint.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxusbdevice/ns-ucxusbdevice-_usbdevice_mgmt_header">USBDEVICE_MGMT_HEADER</a> structure that contains header information related to the USB device or hub endpoint.
 
 
 ### -field DefaultEndpoint
@@ -76,7 +76,7 @@ The maximum packet size of the default endpoint.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucxendpoint/nc-ucxendpoint-evt_ucx_default_endpoint_update">EVT_UCX_DEFAULT_ENDPOINT_UPDATE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxendpoint/nc-ucxendpoint-evt_ucx_default_endpoint_update">EVT_UCX_DEFAULT_ENDPOINT_UPDATE</a>
  
 
  

@@ -48,7 +48,7 @@ req.typenames:
 ## -description
 
 
-The <b>UsbBuildOpenStaticStreamsRequest</b> inline function formats an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usb/ns-usb-_urb">URB</a> structure for an open-streams request. The request opens streams associated with the specified bulk endpoint.
+The <b>UsbBuildOpenStaticStreamsRequest</b> inline function formats an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usb/ns-usb-_urb">URB</a> structure for an open-streams request. The request opens streams associated with the specified bulk endpoint.
 
 
 ## -parameters
@@ -58,7 +58,7 @@ The <b>UsbBuildOpenStaticStreamsRequest</b> inline function formats an <a href="
 
 ### -param Urb [in, out]
 
-Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usb/ns-usb-_urb">URB</a> structure to be formatted for the open-stream request (URB_FUNCTION_OPEN_STATIC_STREAMS). The caller must allocate nonpaged pool for this <b>URB</b>.
+Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usb/ns-usb-_urb">URB</a> structure to be formatted for the open-stream request (URB_FUNCTION_OPEN_STATIC_STREAMS). The caller must allocate nonpaged pool for this <b>URB</b>.
 
 
 
@@ -81,7 +81,7 @@ In the <b>NumberOfStreams</b> value, specify lesser of two values supported by t
 
 ### -param StreamInfoArray [in]
 
-Pointer to a caller-allocated, initialized array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usb/ns-usb-_usbd_stream_information">USBD_STREAM_INFORMATION</a> structures. The length of the array depends on the number of streams to open and must be the same as the <b>NumberOfStreams</b> value.
+Pointer to a caller-allocated, initialized array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usb/ns-usb-_usbd_stream_information">USBD_STREAM_INFORMATION</a> structures. The length of the array depends on the number of streams to open and must be the same as the <b>NumberOfStreams</b> value.
 
 
 ## -returns
@@ -97,7 +97,7 @@ This function does not return a value.
 
 
 
-For a code example that shows the URB format required for an open-streams request, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">How to Open and Close Static Streams in a USB Bulk Endpoint</a>.
+For a code example that shows the URB format required for an open-streams request, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">How to Open and Close Static Streams in a USB Bulk Endpoint</a>.
 
 
 
@@ -107,11 +107,11 @@ For a code example that shows the URB format required for an open-streams reques
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">How to Open and Close Static Streams in a USB Bulk Endpoint</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">How to Open and Close Static Streams in a USB Bulk Endpoint</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usb/ns-usb-_urb_open_static_streams">_URB_OPEN_STATIC_STREAMS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usb/ns-usb-_urb_open_static_streams">_URB_OPEN_STATIC_STREAMS</a>
  
 
  

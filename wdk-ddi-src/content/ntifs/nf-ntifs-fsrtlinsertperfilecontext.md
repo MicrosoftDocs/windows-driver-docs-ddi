@@ -84,7 +84,7 @@ The <b>FsRtlInsertPerFileContext</b> routine returns STATUS_SUCCESS, or an appro
 </dl>
 </td>
 <td width="60%">
-The underlying file system does not support filter file contexts. You can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-fsrtlsupportsperfilecontexts">FsRtlSupportsPerFileContexts</a> macro to check whether a file system supports per file context objects.
+The underlying file system does not support filter file contexts. You can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtlsupportsperfilecontexts">FsRtlSupportsPerFileContexts</a> macro to check whether a file system supports per file context objects.
 
 </td>
 </tr>

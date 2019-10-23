@@ -68,7 +68,7 @@ The <b>IPrintReadStream</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/filterpipeline/nf-filterpipeline-iprintreadstream-readbytes">IPrintReadStream::ReadBytes</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nf-filterpipeline-iprintreadstream-readbytes">IPrintReadStream::ReadBytes</a>
 </td>
 <td align="left" width="63%">
 The <code>ReadBytes</code> method reads a number of bytes into a buffer.
@@ -77,7 +77,7 @@ The <code>ReadBytes</code> method reads a number of bytes into a buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/filterpipeline/nf-filterpipeline-iprintreadstream-seek">IPrintReadStream::Seek</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nf-filterpipeline-iprintreadstream-seek">IPrintReadStream::Seek</a>
 </td>
 <td align="left" width="63%">
 The <code>Seek</code> method changes the seek pointer to a new location in the stream.

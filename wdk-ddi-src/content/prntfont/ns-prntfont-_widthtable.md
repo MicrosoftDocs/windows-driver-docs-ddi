@@ -68,14 +68,14 @@ Specifies the number of elements in the <b>WidthRun</b> array.
 
 ### -field WidthRun
 
-Is an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prntfont/ns-prntfont-_widthrun">WIDTHRUN</a> structures.
+Is an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_widthrun">WIDTHRUN</a> structures.
 
 
 ## -remarks
 
 
 
-A .ufm file's WIDTHTABLE structure, which describes character widths, is accessed by a pointer in the file's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prntfont/ns-prntfont-_unifm_hdr">UNIFM_HDR</a> structure.
+A .ufm file's WIDTHTABLE structure, which describes character widths, is accessed by a pointer in the file's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_unifm_hdr">UNIFM_HDR</a> structure.
 
 
 
@@ -85,11 +85,11 @@ A .ufm file's WIDTHTABLE structure, which describes character widths, is accesse
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prntfont/ns-prntfont-_unifm_hdr">UNIFM_HDR</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_unifm_hdr">UNIFM_HDR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prntfont/ns-prntfont-_widthrun">WIDTHRUN</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prntfont/ns-prntfont-_widthrun">WIDTHRUN</a>
  
 
  

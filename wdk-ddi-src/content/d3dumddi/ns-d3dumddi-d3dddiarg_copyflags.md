@@ -101,7 +101,7 @@ A member in the union that <b>D3DDDIARG_COPYFLAGS</b> contains that can hold a 3
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-d3dddiarg_updatesubresourceup">D3DDDIARG_UPDATESUBRESOURCEUP</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-d3dddiarg_updatesubresourceup">D3DDDIARG_UPDATESUBRESOURCEUP</a>
  
 
  

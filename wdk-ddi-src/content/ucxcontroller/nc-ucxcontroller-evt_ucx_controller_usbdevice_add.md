@@ -63,7 +63,7 @@ The client driver's implementation that UCX calls when a new USB device is detec
 
 ### -param UcxUsbDeviceInfo [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucxusbdevice/ns-ucxusbdevice-_ucxusbdevice_info">UCXUSBDEVICE_INFO</a> structure.
+Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxusbdevice/ns-ucxusbdevice-_ucxusbdevice_info">UCXUSBDEVICE_INFO</a> structure.
 
 
 ### -param UsbDeviceInit [in]
@@ -90,7 +90,7 @@ The UCX client driver registers its <i>EVT_UCX_CONTROLLER_USBDEVICE_ADD</i> impl
 
 This callback function creates a new USB device object and registers the
     USB device object callback functions by calling
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucxusbdevice/nf-ucxusbdevice-ucxusbdevicecreate">UcxUsbDeviceCreate</a>.  The function may need to allocate the common buffer that will be
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucxusbdevice/nf-ucxusbdevice-ucxusbdevicecreate">UcxUsbDeviceCreate</a>.  The function may need to allocate the common buffer that will be
     used as the device context.
 
 

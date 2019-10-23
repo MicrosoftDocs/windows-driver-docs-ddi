@@ -145,7 +145,7 @@ The maximum value in this enumeration type.
 
 
 
-<b>TRACE_INFORMATION_CLASS</b> is provided primarily for use with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-wmiquerytraceinformation">WmiQueryTraceInformation</a> routine, which returns information about a WMI event tracing session.
+<b>TRACE_INFORMATION_CLASS</b> is provided primarily for use with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-wmiquerytraceinformation">WmiQueryTraceInformation</a> routine, which returns information about a WMI event tracing session.
 
 
 
@@ -155,19 +155,19 @@ The maximum value in this enumeration type.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wmilib/nf-wmilib-wmifireevent">WmiFireEvent</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wmilib/nf-wmilib-wmifireevent">WmiFireEvent</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-wmiquerytraceinformation">WmiQueryTraceInformation</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-wmiquerytraceinformation">WmiQueryTraceInformation</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-wmitracemessage">WmiTraceMessage</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-wmitracemessage">WmiTraceMessage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-wmitracemessageva">WmiTraceMessageVa</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-wmitracemessageva">WmiTraceMessageVa</a>
  
 
  

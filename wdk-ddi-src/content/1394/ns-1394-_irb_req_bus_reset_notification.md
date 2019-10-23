@@ -87,5 +87,5 @@ Points to the notification routine for bus resets. The notification routine para
 
 Specifies the argument to be passed to the notification routine.
 
-When the EXTENDED_NOTIFICATION_ROUTINE flag is specified, <b>ResetContext</b> points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/1394/ns-1394-_bus_reset_data">BUS_RESET_DATA</a> structure. 
+When the EXTENDED_NOTIFICATION_ROUTINE flag is specified, <b>ResetContext</b> points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/1394/ns-1394-_bus_reset_data">BUS_RESET_DATA</a> structure. 
 

@@ -63,7 +63,7 @@ The output surfaces for the video process command.  If stereo output is enabled,
 
 ### -field AlphaFillMode
 
-The alpha fill mode for data that the video processor writes to the render target.  For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d12umddi/ne-d3d12umddi-d3d12ddi_video_process_alpha_fill_mode_0020">D3D12DDI_VIDEO_PROCESS_ALPHA_FILL_MODE</a> enumeration. 
+The alpha fill mode for data that the video processor writes to the render target.  For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d12umddi/ne-d3d12umddi-d3d12ddi_video_process_alpha_fill_mode_0020">D3D12DDI_VIDEO_PROCESS_ALPHA_FILL_MODE</a> enumeration. 
 
 
 ### -field AlphaFillModeSourceStreamIndex
@@ -108,7 +108,7 @@ The target rectangle, which is the area within the destination surface where the
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d12umddi/ne-d3d12umddi-d3d12ddi_video_process_alpha_fill_mode_0020">D3D12DDI_VIDEO_PROCESS_ALPHA_FILL_MODE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d12umddi/ne-d3d12umddi-d3d12ddi_video_process_alpha_fill_mode_0020">D3D12DDI_VIDEO_PROCESS_ALPHA_FILL_MODE</a>
 
 
 

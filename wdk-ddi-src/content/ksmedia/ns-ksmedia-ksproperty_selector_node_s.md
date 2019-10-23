@@ -58,7 +58,7 @@ The KSPROPERTY_SELECTOR_NODE_S structure describes node-based property settings 
 
 ### -field NodeProperty
 
-Specifies an initialized <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksp_node">KSP_NODE</a> structure that describes the node, property set, property ID, and request type.
+Specifies an initialized <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksp_node">KSP_NODE</a> structure that describes the node, property set, property ID, and request type.
 
 
 ### -field Value
@@ -81,7 +81,7 @@ Specifies the capabilities of a property. This member has meaning only for Get r
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-ksproperty_selector_s">KSPROPERTY_SELECTOR_S</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksproperty_selector_s">KSPROPERTY_SELECTOR_S</a>
  
 
  

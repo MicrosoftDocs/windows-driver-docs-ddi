@@ -49,7 +49,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-enable_virtualization">EnableVirtualization</a> routine enables or disables virtualization for a PCI Express (PCIe) device that supports the single root I/O virtualization (SR-IOV) interface.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-enable_virtualization">EnableVirtualization</a> routine enables or disables virtualization for a PCI Express (PCIe) device that supports the single root I/O virtualization (SR-IOV) interface.
 
 
 ## -prototype
@@ -81,7 +81,7 @@ A pointer to interface-specific context information. The caller passes the value
 
 ### -param NumVFs [in]
 
-The number of PCIe virtual functions (VFs) that are to be enabled for the device. The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-enable_virtualization">EnableVirtualization</a> routine sets the <b>NumVFs</b> member of the PCIe SR-IOV Extended Capability structure to the value of the <i>NumVFs</i> parameter.
+The number of PCIe virtual functions (VFs) that are to be enabled for the device. The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-enable_virtualization">EnableVirtualization</a> routine sets the <b>NumVFs</b> member of the PCIe SR-IOV Extended Capability structure to the value of the <i>NumVFs</i> parameter.
 
 
 
@@ -106,7 +106,7 @@ A BOOLEAN value that indicates whether the interrupt associated with the PF shou
 
 ### -param EnableVirtualization [in]
 
-A BOOLEAN value that indicates whether virtualization is enabled on the PCIe configuration space of the device. If the <i>EnableVirtualization</i> parameter is <b>TRUE</b>, the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-enable_virtualization">EnableVirtualization</a> routine sets the VF Enable bit of the PCIe SR-IOV Control field. The <i>EnableVirtualization</i> routine clears this bit if the <i>EnableVirtualization</i> parameter is <b>FALSE</b>.
+A BOOLEAN value that indicates whether virtualization is enabled on the PCIe configuration space of the device. If the <i>EnableVirtualization</i> parameter is <b>TRUE</b>, the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-enable_virtualization">EnableVirtualization</a> routine sets the VF Enable bit of the PCIe SR-IOV Control field. The <i>EnableVirtualization</i> routine clears this bit if the <i>EnableVirtualization</i> parameter is <b>FALSE</b>.
 
 
 
@@ -115,7 +115,7 @@ A BOOLEAN value that indicates whether virtualization is enabled on the PCIe con
 
 
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-enable_virtualization">EnableVirtualization</a> routine returns one of the following NTSTATUS values:
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-enable_virtualization">EnableVirtualization</a> routine returns one of the following NTSTATUS values:
 
 <table>
 <tr>
@@ -165,11 +165,11 @@ Virtualization is already enabled on the device and the <i>EnableVirtualization<
 
 
 
-Drivers call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-enable_virtualization">EnableVirtualization</a> routine to configure the SR-IOV Extended Capability fields in the PCIe configuration space. This call enables or disables virtualization in the configuration space, and specifies the number of VFs that should be exposed to the PCIe fabric by the device.
+Drivers call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-enable_virtualization">EnableVirtualization</a> routine to configure the SR-IOV Extended Capability fields in the PCIe configuration space. This call enables or disables virtualization in the configuration space, and specifies the number of VFs that should be exposed to the PCIe fabric by the device.
 
 
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-enable_virtualization">EnableVirtualization</a> routine is provided by the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451143">GUID_PCI_VIRTUALIZATION_INTERFACE</a> interface.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-enable_virtualization">EnableVirtualization</a> routine is provided by the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451143">GUID_PCI_VIRTUALIZATION_INTERFACE</a> interface.
 
 
 

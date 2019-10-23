@@ -59,7 +59,7 @@ The <b>ScsiPortGetLogicalUnit</b> routine returns a pointer to the miniport driv
 
 ### -param HwDeviceExtension [in]
 
-Pointer to the hardware device extension. This is a per-HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the HBA's mapped access ranges. This area is available to the miniport driver in the <b>DeviceExtension->HwDeviceExtension</b> member of the HBA's device object immediately after the miniport driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/srb/nf-srb-scsiportinitialize">ScsiPortInitialize</a>. The port driver frees this memory when it removes the device. 
+Pointer to the hardware device extension. This is a per-HBA storage area that the port driver allocates and initializes on behalf of the miniport driver. Miniport drivers usually store HBA-specific information in this extension, such as the state of the HBA and the HBA's mapped access ranges. This area is available to the miniport driver in the <b>DeviceExtension->HwDeviceExtension</b> member of the HBA's device object immediately after the miniport driver calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportinitialize">ScsiPortInitialize</a>. The port driver frees this memory when it removes the device. 
 
 
 ### -param PathId [in]
@@ -104,19 +104,19 @@ The operating system-specific port driver can consider a logical unit to be none
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">DriverEntry of SCSI Miniport Driver</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">DriverEntry of SCSI Miniport Driver</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/srb/ns-srb-_hw_initialization_data">HW_INITIALIZATION_DATA (SCSI)</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/ns-srb-_hw_initialization_data">HW_INITIALIZATION_DATA (SCSI)</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/srb/nf-srb-scsiportinitialize">ScsiPortInitialize</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportinitialize">ScsiPortInitialize</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/srb/nf-srb-scsiportmovememory">ScsiPortMoveMemory</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportmovememory">ScsiPortMoveMemory</a>
  
 
  

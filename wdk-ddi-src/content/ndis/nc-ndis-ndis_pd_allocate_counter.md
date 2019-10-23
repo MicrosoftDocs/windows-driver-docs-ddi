@@ -81,7 +81,7 @@ A provider handle that identifies the PD-capable miniport driver's provider obje
 
 ### -param CounterParameters [in]
 
-An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_pd_counter_parameters">NDIS_PD_COUNTER_PARAMETERS</a> structure that specifies information such as the counter type.
+An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_pd_counter_parameters">NDIS_PD_COUNTER_PARAMETERS</a> structure that specifies information such as the counter type.
 
 
 ### -param CounterHandle [out]
@@ -180,11 +180,11 @@ For information about  _Use_decl_annotations_, see <a href="https://go.microsoft
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_pd_counter_parameters">NDIS_PD_COUNTER_PARAMETERS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_pd_counter_parameters">NDIS_PD_COUNTER_PARAMETERS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nc-ndis-ndis_pd_free_counter">NdisPDFreeCounter</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nc-ndis-ndis_pd_free_counter">NdisPDFreeCounter</a>
  
 
  

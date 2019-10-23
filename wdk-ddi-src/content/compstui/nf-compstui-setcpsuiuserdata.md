@@ -79,9 +79,9 @@ The  function returns <b>TRUE</b> if it is successful in associating the nondisp
 
 
 
-The <code>SetCPSUIUserData</code> function should be called only from within a dialog box procedure that has been associated with a dialog box by using a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/compstui/ns-compstui-_dlgpage">DLGPAGE</a> or an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/compstui/ns-compstui-_extpush">EXTPUSH</a> structure.
+The <code>SetCPSUIUserData</code> function should be called only from within a dialog box procedure that has been associated with a dialog box by using a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/ns-compstui-_dlgpage">DLGPAGE</a> or an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/ns-compstui-_extpush">EXTPUSH</a> structure.
 
-A value that is stored by calling <code>SetCPSUIUserData</code> can be later retrieved by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/compstui/nf-compstui-getcpsuiuserdata">GetCPSUIUserData</a>.
+A value that is stored by calling <code>SetCPSUIUserData</code> can be later retrieved by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/nf-compstui-getcpsuiuserdata">GetCPSUIUserData</a>.
 
 The handle specified for <i>hDlg</i> must be the handle received as input to the dialog box procedure. (Dialog box procedures are described in the Microsoft Windows SDK documentation.)
 

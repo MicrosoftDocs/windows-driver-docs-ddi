@@ -25,9 +25,9 @@ Here are the required and optional routines that you must implement in your driv
     The following routines are required for all drivers:
 
     -    [DriverEntry](../wdm/nc-wdm-driver_initialize.md)
-    -    [AddDevice](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-driver_add_device)
-    -    [DispatchXxx (routines beginning with "Dispatch" such as DispatchCreate)](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-driver_dispatch) 
-    -    [DriverUnload](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-driver_unload)
+    -    [AddDevice](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_add_device)
+    -    [DispatchXxx (routines beginning with "Dispatch" such as DispatchCreate)](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_dispatch) 
+    -    [DriverUnload](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_unload)
 
     The other routines are optional, but you may need to implement them depending on your driver type and the location of your driver in the device stack.
 
@@ -128,10 +128,10 @@ The following obsolete routines are exported only to support existing drivers:
 
 |Obsolete routine|Replacement |
 |---|---|
-|HalAllocateCommonBuffer |See [AllocateCommonBuffer](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pallocate_common_buffer) instead.|
+|HalAllocateCommonBuffer |See [AllocateCommonBuffer](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pallocate_common_buffer) instead.|
 |HalAssignSlotResources| Drivers of PnP devices are assigned resources by the PnP manager, which passes resource lists with each IRP_MN_START_DEVICE request. Drivers that must support a legacy device that cannot be enumerated by the PnP manager should use IoReportDetectedDevice and IoReportResourceForDetection.|
-|HalFreeCommonBuffer |See [FreeCommonBuffer](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-pfree_common_buffer) instead.|
-|HalGetAdapter |See [IoGetDmaAdapter](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iogetdmaadapter) instead.|
+|HalFreeCommonBuffer |See [FreeCommonBuffer](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-pfree_common_buffer) instead.|
+|HalGetAdapter |See [IoGetDmaAdapter](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdmaadapter) instead.|
 |HalGetBusData| Instead, use [IRP_MN_QUERY_INTERFACE](https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-interface) to query the GUID_BUS_INTERFACE_STANDARD interface. This query request returns a function pointer to GetBusData, which can be used to read from the configuration space of a given device. |
 |HalGetBusDataByOffset |Instead, use IRP_MN_QUERY_INTERFACE to query the GUID_BUS_INTERFACE_STANDARD interface. This query request returns a function pointer to GetBusData, which can be used to read from the configuration space of a given device.|
 |HalGetDmaAlignmentRequirement| See GetDmaAlignment instead.|
@@ -1502,7 +1502,7 @@ Keep notify routines short and simple.
 
 
 ## Run-Time Library (RTL) Routines
-For information about functions that copy, concatenate, and format strings in a manner that prevents buffer overrun errors, see [Safe String Functions](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_kernel/#safe-string-functions-for-unicode-and-ansi-characters), below. Other string manipulation functions include the following:
+For information about functions that copy, concatenate, and format strings in a manner that prevents buffer overrun errors, see [Safe String Functions](https://docs.microsoft.com/windows-hardware/drivers/ddi/_kernel/#safe-string-functions-for-unicode-and-ansi-characters), below. Other string manipulation functions include the following:
 
 |Function|Description|
 |---|---|

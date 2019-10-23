@@ -71,11 +71,11 @@ Specifies the Unicode string containing the root hub's symbolic device name.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbioctl/ni-usbioctl-ioctl_internal_usb_get_hub_name">IOCTL_INTERNAL_USB_GET_HUB_NAME</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbioctl/ni-usbioctl-ioctl_internal_usb_get_hub_name">IOCTL_INTERNAL_USB_GET_HUB_NAME</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">USB Structures</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">USB Structures</a>
  
 
  

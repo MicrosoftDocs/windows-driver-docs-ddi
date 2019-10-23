@@ -48,7 +48,7 @@ req.typenames: DVD_REGION, *PDVD_REGION
 ## -description
 
 
-The DVD_REGION structure is used in conjunction with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdvd/ni-ntddcdvd-ioctl_dvd_get_region">IOCTL_DVD_GET_REGION</a> request to retrieve region playback control (RPC) information for a DVD device.
+The DVD_REGION structure is used in conjunction with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdvd/ni-ntddcdvd-ioctl_dvd_get_region">IOCTL_DVD_GET_REGION</a> request to retrieve region playback control (RPC) information for a DVD device.
 
 
 ## -struct-fields
@@ -81,7 +81,7 @@ Indicates the remaining number of times the DVD device's region code can be chan
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddcdvd/ni-ntddcdvd-ioctl_dvd_get_region">IOCTL_DVD_GET_REGION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddcdvd/ni-ntddcdvd-ioctl_dvd_get_region">IOCTL_DVD_GET_REGION</a>
  
 
  

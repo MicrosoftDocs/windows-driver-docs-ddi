@@ -80,7 +80,7 @@ The remote transport protocol port number.
 
 ### -field FWPS_FIELD_STREAM_PACKET_V6_IP_LOCAL_INTERFACE
 
-The locally unique identifier (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/igpupvdev/ns-igpupvdev-_luid">LUID</a>) for the network interface associated with the
+The locally unique identifier (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/igpupvdev/ns-igpupvdev-_luid">LUID</a>) for the network interface associated with the
      local IP address.
 
 
@@ -142,7 +142,7 @@ The maximum value for this enumeration. This value might change in future versio
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/igpupvdev/ns-igpupvdev-_luid">LUID</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/igpupvdev/ns-igpupvdev-_luid">LUID</a>
  
 
  

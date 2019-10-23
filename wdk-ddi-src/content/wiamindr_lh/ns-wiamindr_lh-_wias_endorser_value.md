@@ -60,10 +60,10 @@ Specifies the value with which to replace the token.
 
 ## -remarks
 
-This structure is used indirectly by the [wiasParseEndorserString](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiasparseendorserstring) function. One of the parameters of this function is a [WIAS_ENDORSER_INFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/ns-wiamindr_lh-_wias_endorser_info) structure, which has a WIAS_ENDORSER_VALUE structure as one of its members.
+This structure is used indirectly by the [wiasParseEndorserString](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiasparseendorserstring) function. One of the parameters of this function is a [WIAS_ENDORSER_INFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/ns-wiamindr_lh-_wias_endorser_info) structure, which has a WIAS_ENDORSER_VALUE structure as one of its members.
 
 ## -see-also
 
-[WIAS_ENDORSER_INFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/ns-wiamindr_lh-_wias_endorser_info)
+[WIAS_ENDORSER_INFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/ns-wiamindr_lh-_wias_endorser_info)
 
-[wiasParseEndorserString](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiasparseendorserstring)
+[wiasParseEndorserString](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiasparseendorserstring)

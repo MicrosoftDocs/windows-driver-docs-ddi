@@ -90,7 +90,7 @@ Returns <b>STATUS_SUCCESS</b>, or an error if unable to create a node.
 
 
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksnode_create">KSNODE_CREATE</a> structure describes the set of information used to create the node handle.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksnode_create">KSNODE_CREATE</a> structure describes the set of information used to create the node handle.
 
 
 
@@ -104,7 +104,7 @@ The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksnode_create">KSNODE_CREATE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksnode_create">KSNODE_CREATE</a>
  
 
  

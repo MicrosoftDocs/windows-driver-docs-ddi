@@ -167,7 +167,7 @@ The following table contains examples of output values that result from various 
 </table>
  
 
-A related routine, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlintegertounicodestring">RtlIntegerToUnicodeString</a>, converts an integer value to the equivalent Unicode string representation.
+A related routine, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlintegertounicodestring">RtlIntegerToUnicodeString</a>, converts an integer value to the equivalent Unicode string representation.
 
 
 
@@ -177,7 +177,7 @@ A related routine, <a href="https://docs.microsoft.com/windows-hardware/drivers/
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlintegertounicodestring">RtlIntegerToUnicodeString</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlintegertounicodestring">RtlIntegerToUnicodeString</a>
 
 
 

@@ -58,7 +58,7 @@ The <code>SetState</code> method sets the stream's transport state to a new stat
 
 ### -param State [in]
 
-Specifies the new state that the stream is to be set to. This parameter is a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ne-ks-ksstate">KSSTATE</a> enumeration value. For more information, see the following Remarks section.
+Specifies the new state that the stream is to be set to. This parameter is a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ne-ks-ksstate">KSSTATE</a> enumeration value. For more information, see the following Remarks section.
 
 
 ## -returns
@@ -74,7 +74,7 @@ Specifies the new state that the stream is to be set to. This parameter is a <a 
 
 
 
-For an audio filter graph, the four <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ne-ks-ksstate">KSSTATE</a> enumeration values are interpreted as follows:
+For an audio filter graph, the four <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ne-ks-ksstate">KSSTATE</a> enumeration values are interpreted as follows:
 
 <ul>
 <li>
@@ -102,7 +102,7 @@ Data transport is stopped in the current audio filter graph.
 
 </li>
 </ul>
-For most miniport drivers, KSSTATE_ACQUIRE and KSSTATE_PAUSE are indistinguishable. The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iminiportmidi-newstream">IMiniportMidi::NewStream</a> method sets the initial state of the stream to KSSTATE_STOP.
+For most miniport drivers, KSSTATE_ACQUIRE and KSSTATE_PAUSE are indistinguishable. The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiportmidi-newstream">IMiniportMidi::NewStream</a> method sets the initial state of the stream to KSSTATE_STOP.
 
 Transitions always occur in one of the following two sequences:
 
@@ -124,11 +124,11 @@ RUN -> PAUSE -> ACQUIRE -> STOP
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iminiportmidi-newstream">IMiniportMidi::NewStream</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiportmidi-newstream">IMiniportMidi::NewStream</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iminiportmidistream">IMiniportMidiStream</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiportmidistream">IMiniportMidiStream</a>
 
 
 
@@ -136,7 +136,7 @@ RUN -> PAUSE -> ACQUIRE -> STOP
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ne-ks-ksstate">KSSTATE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ne-ks-ksstate">KSSTATE</a>
  
 
  

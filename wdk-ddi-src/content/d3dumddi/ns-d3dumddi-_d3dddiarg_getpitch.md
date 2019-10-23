@@ -48,7 +48,7 @@ req.typenames: D3DDDIARG_GETPITCH
 ## -description
 
 
-The D3DDDIARG_GETPITCH structure describes an encrypted surface for which the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_getpitch">GetPitch</a> function retrieves the pitch. 
+The D3DDDIARG_GETPITCH structure describes an encrypted surface for which the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_getpitch">GetPitch</a> function retrieves the pitch. 
 
 
 ## -struct-fields
@@ -73,7 +73,7 @@ The D3DDDIARG_GETPITCH structure describes an encrypted surface for which the <a
 
 ### -field Pitch
 
-[out] The pitch, in bytes, of the encrypted surface. The user-mode display driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_getpitch">GetPitch</a> function returns this pitch value to the Direct3D runtime. 
+[out] The pitch, in bytes, of the encrypted surface. The user-mode display driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_getpitch">GetPitch</a> function returns this pitch value to the Direct3D runtime. 
 
 
 ## -see-also
@@ -81,7 +81,7 @@ The D3DDDIARG_GETPITCH structure describes an encrypted surface for which the <a
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/nc-d3dumddi-pfnd3dddi_getpitch">GetPitch</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_getpitch">GetPitch</a>
  
 
  

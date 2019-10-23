@@ -150,7 +150,7 @@ After the extension DLL is initialized, the engine will use this function to not
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nc-dbgeng-pdebug_extension_initialize">DebugExtensionInitialize</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nc-dbgeng-pdebug_extension_initialize">DebugExtensionInitialize</a>
  
 
  

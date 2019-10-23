@@ -45,7 +45,7 @@ ms.custom: RS5
 
 ## -description
 
-Reports the colorimetry values selected by the OS for a target. The OS will call this routine whenever any of the values in the [DXGK_COLORIMETRY](../d3dkmddi/ns-d3dkmddi-_dxgk_colorimetry.md) changes or the **SdrWhiteLevel** in [DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES3 structure](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgk_multiplane_overlay_attributes3) changes for a target.
+Reports the colorimetry values selected by the OS for a target. The OS will call this routine whenever any of the values in the [DXGK_COLORIMETRY](../d3dkmddi/ns-d3dkmddi-_dxgk_colorimetry.md) changes or the **SdrWhiteLevel** in [DXGK_MULTIPLANE_OVERLAY_ATTRIBUTES3 structure](https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_multiplane_overlay_attributes3) changes for a target.
 
 
 ## -prototype

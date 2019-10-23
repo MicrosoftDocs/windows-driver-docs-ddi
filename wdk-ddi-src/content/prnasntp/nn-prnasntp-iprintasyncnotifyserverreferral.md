@@ -68,19 +68,19 @@ The <b>IPrintAsyncNotifyServerReferral</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prnasntp/nf-prnasntp-iprintasyncnotifyserverreferral-asyncgetserverreferral">AsyncGetServerReferral</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prnasntp/nf-prnasntp-iprintasyncnotifyserverreferral-asyncgetserverreferral">AsyncGetServerReferral</a>
 </td>
 <td align="left" width="63%"></td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prnasntp/nf-prnasntp-iprintasyncnotifyserverreferral-getserverreferral">GetServerReferral</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prnasntp/nf-prnasntp-iprintasyncnotifyserverreferral-getserverreferral">GetServerReferral</a>
 </td>
 <td align="left" width="63%"></td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prnasntp/nf-prnasntp-iprintasyncnotifyserverreferral-setserverreferral">SetServerReferral</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prnasntp/nf-prnasntp-iprintasyncnotifyserverreferral-setserverreferral">SetServerReferral</a>
 </td>
 <td align="left" width="63%"></td>
 </tr>

@@ -63,17 +63,17 @@ The <code>InitializeFilter</code> method initializes a filter.
 
 ### -param pIPropertyBag [in]
 
-A pointer to the<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/filterpipeline/nn-filterpipeline-iprintpipelinepropertybag">IPrintPipelinePropertyBag</a> interface.
+A pointer to the<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-iprintpipelinepropertybag">IPrintPipelinePropertyBag</a> interface.
 
 
 ### -param pIPipelineControl [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/filterpipeline/nn-filterpipeline-iprintpipelinemanagercontrol">IPrintPipelineManagerControl</a> interface.
+A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-iprintpipelinemanagercontrol">IPrintPipelineManagerControl</a> interface.
 
 
 #### - pICommunicator [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/filterpipeline/nn-filterpipeline-iinterfiltercommunicator">IInterFilterCommunicator</a> interface.
+A pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-iinterfiltercommunicator">IInterFilterCommunicator</a> interface.
 
 
 ## -returns
@@ -109,19 +109,19 @@ Get the read and write interfaces.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/filterpipeline/nn-filterpipeline-iinterfiltercommunicator">IInterFilterCommunicator</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-iinterfiltercommunicator">IInterFilterCommunicator</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/filterpipeline/nn-filterpipeline-iprintpipelinefilter">IPrintPipelineFilter</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-iprintpipelinefilter">IPrintPipelineFilter</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/filterpipeline/nn-filterpipeline-iprintpipelinemanagercontrol">IPrintPipelineManagerControl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-iprintpipelinemanagercontrol">IPrintPipelineManagerControl</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/filterpipeline/nn-filterpipeline-iprintpipelinepropertybag">IPrintPipelinePropertyBag</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-iprintpipelinepropertybag">IPrintPipelinePropertyBag</a>
  
 
  

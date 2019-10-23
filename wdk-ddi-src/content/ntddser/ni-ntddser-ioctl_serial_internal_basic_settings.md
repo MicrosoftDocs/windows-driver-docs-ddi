@@ -51,7 +51,7 @@ req.typenames:
 
 The IOCTL_SERIAL_INTERNAL_BASIC_SETTINGS request sets a serial device to a basic operating mode. Serial's basic operating mode reads and writes one byte at a time, and does not use handshake flow control or time-outs. The basic operation mode is suitable for use by a driver that uses a subset of the 16550 UART interface. Examples of such drivers include a mouse driver or a graphics pad driver for older hardware that use a 16450 UART.
 
-The IOCTL_SERIAL_INTERNAL_BASIC_SETTINGS request returns the operating mode settings that are in use just before Serial sets the basic operation mode. A client uses an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddser/ni-ntddser-ioctl_serial_internal_restore_settings">IOCTL_SERIAL_INTERNAL_RESTORE_SETTINGS</a> request to restore a previous operating mode. A client should treat the operating mode settings as opaque. Serial does not verify the settings when the settings are restored. Note also that a replacement driver for Serial might implement a different set of basic settings.
+The IOCTL_SERIAL_INTERNAL_BASIC_SETTINGS request returns the operating mode settings that are in use just before Serial sets the basic operation mode. A client uses an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_internal_restore_settings">IOCTL_SERIAL_INTERNAL_RESTORE_SETTINGS</a> request to restore a previous operating mode. A client should treat the operating mode settings as opaque. Serial does not verify the settings when the settings are restored. Note also that a replacement driver for Serial might implement a different set of basic settings.
 
 
 
@@ -111,7 +111,7 @@ The <b>Status</b> member is set to one of the <a href="https://docs.microsoft.co
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddser/ni-ntddser-ioctl_serial_internal_restore_settings">IOCTL_SERIAL_INTERNAL_RESTORE_SETTINGS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddser/ni-ntddser-ioctl_serial_internal_restore_settings">IOCTL_SERIAL_INTERNAL_RESTORE_SETTINGS</a>
  
 
  

@@ -60,14 +60,14 @@ Specifies the number of token/value pairs. This member will be 0 if there are no
 
 ### -field pEndorserValues
 
-Points to an array of [WIAS_ENDORSER_VALUE](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/ns-wiamindr_lh-_wias_endorser_value) structures, holding custom token/value pairs. If the value of the **ulNumEndorserValues** member is 0, this member should be **NULL**.
+Points to an array of [WIAS_ENDORSER_VALUE](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/ns-wiamindr_lh-_wias_endorser_value) structures, holding custom token/value pairs. If the value of the **ulNumEndorserValues** member is 0, this member should be **NULL**.
 
 ## -remarks
 
-Currently, [wiasParseEndorserString](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiasparseendorserstring) recognizes three endorser tokens: $DATE$, $TIME$, $PAGE_COUNT$, $DAY$, $MONTH$, and $YEAR$. (See *wiamdef.h*.) Any other tokens and their values must be specified in the **pEndorserValues** member of this structure.
+Currently, [wiasParseEndorserString](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiasparseendorserstring) recognizes three endorser tokens: $DATE$, $TIME$, $PAGE_COUNT$, $DAY$, $MONTH$, and $YEAR$. (See *wiamdef.h*.) Any other tokens and their values must be specified in the **pEndorserValues** member of this structure.
 
 ## -see-also
 
-[WIAS_ENDORSER_VALUE](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/ns-wiamindr_lh-_wias_endorser_value)
+[WIAS_ENDORSER_VALUE](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/ns-wiamindr_lh-_wias_endorser_value)
 
-[wiasParseEndorserString](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiasparseendorserstring)
+[wiasParseEndorserString](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiasparseendorserstring)

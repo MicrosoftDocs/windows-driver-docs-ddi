@@ -184,7 +184,7 @@ next power on.
 </td>
 <td width="60%">
 Download microcode operation complete with no error. The enclosure services process
-(e.g., an attached enclosure services process) begins using the new microcode after either processing a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/minitape/ns-minitape-_ses_download_microcode_control_diagnostic_page">SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE</a> specifying the activate deferred microcode mode, hard reset, or power on.
+(e.g., an attached enclosure services process) begins using the new microcode after either processing a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/minitape/ns-minitape-_ses_download_microcode_control_diagnostic_page">SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE</a> specifying the activate deferred microcode mode, hard reset, or power on.
 
 </td>
 </tr>
@@ -275,7 +275,7 @@ Internal error in the download microcode operation. Hard reset and power on safe
 </dl>
 </td>
 <td width="60%">
-Processed a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/minitape/ns-minitape-_ses_download_microcode_control_diagnostic_page">SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE</a> with the <i>Mode</i> field set to 0x0F (i.e., activate deferred microcode), if there is no deferred microcode.
+Processed a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/minitape/ns-minitape-_ses_download_microcode_control_diagnostic_page">SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE</a> with the <i>Mode</i> field set to 0x0F (i.e., activate deferred microcode), if there is no deferred microcode.
 
 </td>
 </tr>
@@ -315,7 +315,7 @@ values of <i>Status</i> .
 
 Indicates the maximum size in bytes of the
 microcode image that the enclosure services process accepts. The image may be delivered using one or
-more <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/minitape/ns-minitape-_ses_download_microcode_control_diagnostic_page">SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE</a>.
+more <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/minitape/ns-minitape-_ses_download_microcode_control_diagnostic_page">SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE</a>.
 
 
 ### -field Reserved2
@@ -326,13 +326,13 @@ Reserved for future use.
 ### -field ExpectedBufferId
 
 Indicates the next value that the
-enclosure services process expects in the <i>BufferId</i> field in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/minitape/ns-minitape-_ses_download_microcode_control_diagnostic_page">SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE</a>.
+enclosure services process expects in the <i>BufferId</i> field in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/minitape/ns-minitape-_ses_download_microcode_control_diagnostic_page">SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE</a>.
 
 
 ### -field ExpectedBufferOffset
 
 Indicates the next value that the
-enclosure services process expects in the <i>BufferOffset</i> field in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/minitape/ns-minitape-_ses_download_microcode_control_diagnostic_page">SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE</a>. If the enclosure services process accepts arbitrary <i>BufferOffset</i> values, then it shall set <i>ExpectedBufferOffset</i> to 0xFFFFFFFF.
+enclosure services process expects in the <i>BufferOffset</i> field in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/minitape/ns-minitape-_ses_download_microcode_control_diagnostic_page">SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE</a>. If the enclosure services process accepts arbitrary <i>BufferOffset</i> values, then it shall set <i>ExpectedBufferOffset</i> to 0xFFFFFFFF.
 
 
 ## -see-also
@@ -340,7 +340,7 @@ enclosure services process expects in the <i>BufferOffset</i> field in <a href="
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/minitape/ns-minitape-_ses_download_microcode_control_diagnostic_page">SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/minitape/ns-minitape-_ses_download_microcode_control_diagnostic_page">SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE</a>
  
 
  

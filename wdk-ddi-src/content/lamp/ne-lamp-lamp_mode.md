@@ -70,7 +70,7 @@ Optional. Color light.
 
 
 
-This is the I/O parameter type of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/lamp/ni-lamp-ioctl_lamp_get_mode">IOCTL_LAMP_GET_MODE</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/lamp/ni-lamp-ioctl_lamp_set_mode">IOCTL_LAMP_SET_MODE</a>.
+This is the I/O parameter type of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/lamp/ni-lamp-ioctl_lamp_get_mode">IOCTL_LAMP_GET_MODE</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/lamp/ni-lamp-ioctl_lamp_set_mode">IOCTL_LAMP_SET_MODE</a>.
 
 
 

@@ -55,7 +55,7 @@ This interface represents a list of hardware resources for a device.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFCmResourceList</b> interface inherits from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nn-wudfddi-iwdfobject">IWDFObject</a>. <b>IWDFCmResourceList</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFCmResourceList</b> interface inherits from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfobject">IWDFObject</a>. <b>IWDFCmResourceList</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -70,7 +70,7 @@ The <b>IWDFCmResourceList</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portabledevicetypes/nf-portabledevicetypes-iportabledevicevalues-getcount">GetCount</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portabledevicetypes/nf-portabledevicetypes-iportabledevicevalues-getcount">GetCount</a>
 </td>
 <td align="left" width="63%">
 Returns the number of resource descriptors that are contained in a specified resource list.
@@ -79,7 +79,7 @@ Returns the number of resource descriptors that are contained in a specified res
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-iwdfcmresourcelist-getdescriptor">GetDescriptor</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfcmresourcelist-getdescriptor">GetDescriptor</a>
 </td>
 <td align="left" width="63%">
 Returns a pointer to a resource descriptor that is contained in a specified resource list.
@@ -93,7 +93,7 @@ Returns a pointer to a resource descriptor that is contained in a specified reso
 
 
 
-After a UMDF driver receives a translated resource list in its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nf-wudfddi-ipnpcallbackhardware2-onpreparehardware">OnPrepareHardware</a> callback, it can use <b>IWDFCmResourceList</b> to scan through the list and identify its port and register resources. 
+After a UMDF driver receives a translated resource list in its <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-ipnpcallbackhardware2-onpreparehardware">OnPrepareHardware</a> callback, it can use <b>IWDFCmResourceList</b> to scan through the list and identify its port and register resources. 
 
 
 
@@ -103,11 +103,11 @@ After a UMDF driver receives a translated resource list in its <a href="https://
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfresource/">Framework Resource-List Object Methods</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfresource/">Framework Resource-List Object Methods</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfddi/nn-wudfddi-iwdfobject">IWDFObject</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfddi/nn-wudfddi-iwdfobject">IWDFObject</a>
  
 
  

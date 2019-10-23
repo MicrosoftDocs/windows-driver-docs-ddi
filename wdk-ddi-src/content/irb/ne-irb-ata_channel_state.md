@@ -75,7 +75,7 @@ Indicates that the state of the channel is unknown.
 
 
 
-The ATA_CHANNEL_STATE enumeration type is used in conjunction with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/nc-irb-ide_channel_enabled">AtaControllerChannelEnabled</a> routine to determine whether the channel is enabled.
+The ATA_CHANNEL_STATE enumeration type is used in conjunction with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/nc-irb-ide_channel_enabled">AtaControllerChannelEnabled</a> routine to determine whether the channel is enabled.
 
 
 
@@ -85,7 +85,7 @@ The ATA_CHANNEL_STATE enumeration type is used in conjunction with the <a href="
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/nc-irb-ide_channel_enabled">AtaControllerChannelEnabled</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/nc-irb-ide_channel_enabled">AtaControllerChannelEnabled</a>
  
 
  

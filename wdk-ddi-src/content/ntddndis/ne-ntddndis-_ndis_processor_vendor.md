@@ -79,7 +79,7 @@ The processor vendor is AMD.
 
 
 The NDIS_PROCESSOR_VENDOR enumeration is used in the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_system_processor_info">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_system_processor_info">
     NDIS_SYSTEM_PROCESSOR_INFO</a> structure.
 
 
@@ -90,7 +90,7 @@ The NDIS_PROCESSOR_VENDOR enumeration is used in the
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_system_processor_info">NDIS_SYSTEM_PROCESSOR_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_system_processor_info">NDIS_SYSTEM_PROCESSOR_INFO</a>
  
 
  

@@ -69,7 +69,7 @@ void
 
 #### KsDevice
 
-[in] A [KSDEVICE](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksdevice) object representing the device managed by KS.
+[in] A [KSDEVICE](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksdevice) object representing the device managed by KS.
 
 #### Engaged
 
@@ -98,7 +98,7 @@ void
 
 #### KsDevice
 
-[in] A [KSDEVICE](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksdevice) object representing the device managed by KS.
+[in] A [KSDEVICE](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksdevice) object representing the device managed by KS.
 
 #### Percentage
 

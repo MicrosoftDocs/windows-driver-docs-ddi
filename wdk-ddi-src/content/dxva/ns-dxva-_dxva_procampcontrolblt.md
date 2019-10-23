@@ -63,7 +63,7 @@ Specifies the size of this structure in bytes.
 
 ### -field DstRect
 
-Specifies the destination rectangle as a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a> structure. The destination rectangle is required for subrectangle stretching. Support for stretching is optional and is reported by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ns-dxva-_dxva_procampcontrolcaps">DXVA_ProcAmpControlCaps</a> structure. Support for subrectangles is optional.
+Specifies the destination rectangle as a <a href="https://docs.microsoft.com/windows/desktop/api/windef/ns-windef-tagrect">RECT</a> structure. The destination rectangle is required for subrectangle stretching. Support for stretching is optional and is reported by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_procampcontrolcaps">DXVA_ProcAmpControlCaps</a> structure. Support for subrectangles is optional.
 
 
 ### -field SrcRect
@@ -101,11 +101,11 @@ Specifies the saturation of the output image as it is written to the destination
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ns-dxva-_dxva_procampcontrolcaps">DXVA_ProcAmpControlCaps</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_procampcontrolcaps">DXVA_ProcAmpControlCaps</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dxva/ns-dxva-_dxva_procampcontrolqueryrange">DXVA_ProcAmpControlQueryRange</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_procampcontrolqueryrange">DXVA_ProcAmpControlQueryRange</a>
  
 
  

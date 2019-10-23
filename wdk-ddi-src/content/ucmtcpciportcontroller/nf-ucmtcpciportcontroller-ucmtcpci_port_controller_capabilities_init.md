@@ -49,7 +49,7 @@ req.typenames:
 
 
 
-                        Initializes the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucmtcpciportcontroller/ns-ucmtcpciportcontroller-_ucmtcpci_port_controller_capabilities">UCMTCPCI_PORT_CONTROLLER_CAPABILITIES</a> structure.
+                        Initializes the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucmtcpciportcontroller/ns-ucmtcpciportcontroller-_ucmtcpci_port_controller_capabilities">UCMTCPCI_PORT_CONTROLLER_CAPABILITIES</a> structure.
                 
 
 
@@ -60,7 +60,7 @@ req.typenames:
 
 ### -param Capabilities [out]
 
-A pointer to the driver-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucmtcpciportcontroller/nf-ucmtcpciportcontroller-ucmtcpci_port_controller_capabilities_init">UCMTCPCI_PORT_CONTROLLER_CAPABILITIE</a>S structure.
+A pointer to the driver-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucmtcpciportcontroller/nf-ucmtcpciportcontroller-ucmtcpci_port_controller_capabilities_init">UCMTCPCI_PORT_CONTROLLER_CAPABILITIE</a>S structure.
 
 
 ## -returns
@@ -77,7 +77,7 @@ This method does not return a value.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ucmtcpciportcontroller/nf-ucmtcpciportcontroller-ucmtcpciportcontrollercreate">UcmTcpciPortControllerCreate</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ucmtcpciportcontroller/nf-ucmtcpciportcontroller-ucmtcpciportcontrollercreate">UcmTcpciPortControllerCreate</a>
  
 
  

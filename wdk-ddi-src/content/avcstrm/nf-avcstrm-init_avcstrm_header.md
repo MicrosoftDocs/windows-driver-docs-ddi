@@ -46,7 +46,7 @@ req.typenames:
 
 ## -description
 
-The **INIT_AVCSTRM_HEADER** macro initializes the **SizeOfThisBlock**, **Version** and **Function** members of the [AVC_STREAM_REQUEST_BLOCK](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/avcstrm/ns-avcstrm-_avc_stream_request_block) structure.
+The **INIT_AVCSTRM_HEADER** macro initializes the **SizeOfThisBlock**, **Version** and **Function** members of the [AVC_STREAM_REQUEST_BLOCK](https://docs.microsoft.com/windows-hardware/drivers/ddi/avcstrm/ns-avcstrm-_avc_stream_request_block) structure.
 
 ## -parameters
 
@@ -56,7 +56,7 @@ Points to a caller-allocated AVC_STREAM_REQUEST_BLOCK structure.
 
 ### -param Request [in]
 
-Indicates the type of the request (function code) from the [AVCSTRM_FUNCTION](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/avcstrm/ne-avcstrm-_avcstrm_function) enumeration. Each function code is documented under the [IOCTL_AVCSTRM_CLASS](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/avcstrm/ni-avcstrm-ioctl_avcstrm_class) topic.
+Indicates the type of the request (function code) from the [AVCSTRM_FUNCTION](https://docs.microsoft.com/windows-hardware/drivers/ddi/avcstrm/ne-avcstrm-_avcstrm_function) enumeration. Each function code is documented under the [IOCTL_AVCSTRM_CLASS](https://docs.microsoft.com/windows-hardware/drivers/ddi/avcstrm/ni-avcstrm-ioctl_avcstrm_class) topic.
 
 ## -remarks
 
@@ -89,6 +89,6 @@ The macro is defined as follows:
 
 [AVCSTRM_WRITE](https://docs.microsoft.com/windows-hardware/drivers/stream/avcstrm-write)
 
-[AVC_STREAM_REQUEST_BLOCK](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/avcstrm/ns-avcstrm-_avc_stream_request_block)
+[AVC_STREAM_REQUEST_BLOCK](https://docs.microsoft.com/windows-hardware/drivers/ddi/avcstrm/ns-avcstrm-_avc_stream_request_block)
 
-[IOCTL_AVCSTRM_CLASS](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/avcstrm/ni-avcstrm-ioctl_avcstrm_class)
+[IOCTL_AVCSTRM_CLASS](https://docs.microsoft.com/windows-hardware/drivers/ddi/avcstrm/ni-avcstrm-ioctl_avcstrm_class)

@@ -53,7 +53,7 @@ req.typenames:
 
 The  <b>USBD_CreateHandle</b> routine is called by a WDM USB client driver to obtain a USBD handle. The routine registers the client driver with the underlying USB driver stack.
 
-<b>Note for Windows Driver Framework (WDF) Drivers:  </b>If your client driver is a WDF-based driver, then you do not need the USBD handle. The client driver is registered in its call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfusb/nf-wdfusb-wdfusbtargetdevicecreatewithparameters">WdfUsbTargetDeviceCreateWithParameters</a> method.
+<b>Note for Windows Driver Framework (WDF) Drivers:  </b>If your client driver is a WDF-based driver, then you do not need the USBD handle. The client driver is registered in its call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdevicecreatewithparameters">WdfUsbTargetDeviceCreateWithParameters</a> method.
 
 
 ## -parameters
@@ -68,7 +68,7 @@ Pointer to the device object for the client driver.
 
 ### -param TargetDeviceObject [in]
 
-Pointer to the next lower device object in the device stack. The client driver receives a pointer to that device object in a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ioattachdevicetodevicestack">IoAttachDeviceToDeviceStack</a>.
+Pointer to the next lower device object in the device stack. The client driver receives a pointer to that device object in a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ioattachdevicetodevicestack">IoAttachDeviceToDeviceStack</a>.
 
 
 ### -param USBDClientContractVersion [in]
@@ -156,14 +156,14 @@ The client driver must specify  USBD_CLIENT_CONTRACT_VERSION_602 in the <i>USBDC
 <h3><a id="Calling_USBD_CreateHandle"></a><a id="calling_usbd_createhandle"></a><a id="CALLING_USBD_CREATEHANDLE"></a>Calling USBD_CreateHandle</h3>
 The <b>USBD_CreateHandle</b> routine must be called by a Windows Driver Model (WDM) client driver before the driver  send any other requests, through URBs or IOCTLs, to the USB driver stack. Typically, the client driver obtains the USBD handle in its  AddDevice routine.   
 
-A Windows Driver Frameworks (WDF) client driver is not required to call <b>USBD_CreateHandle</b> because the framework calls this routine on behalf of the client driver during the device initialization phase. Instead, the client driver can specify its client contract version in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfusb/ns-wdfusb-_wdf_usb_device_create_config">WDF_USB_DEVICE_CREATE_CONFIG</a> structure and pass it in the call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfusb/nf-wdfusb-wdfusbtargetdevicecreatewithparameters">WdfUsbTargetDeviceCreateWithParameters</a>.
+A Windows Driver Frameworks (WDF) client driver is not required to call <b>USBD_CreateHandle</b> because the framework calls this routine on behalf of the client driver during the device initialization phase. Instead, the client driver can specify its client contract version in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/ns-wdfusb-_wdf_usb_device_create_config">WDF_USB_DEVICE_CREATE_CONFIG</a> structure and pass it in the call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/nf-wdfusb-wdfusbtargetdevicecreatewithparameters">WdfUsbTargetDeviceCreateWithParameters</a>.
 
 <h3><a id="USBD_CreateHandle_Call_Completion"></a><a id="usbd_createhandle_call_completion"></a><a id="USBD_CREATEHANDLE_CALL_COMPLETION"></a>USBD_CreateHandle Call Completion</h3>
 If the  <b>USBD_CreateHandle</b> call succeeds,  a valid <i>USBD handle</i> is obtained in the <i>USBDHandle</i> parameter. The client driver must use the USBD handle in the client driver's future requests to the USB driver stack. 
 
 If the <b>USBD_CreateHandle</b> call fails,  the client driver can fail the AddDevice routine.
 
-After the client driver is finished using the USBD handle, the driver must close the handle  by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbdlib/nf-usbdlib-usbd_closehandle">USBD_CloseHandle</a> routine.
+After the client driver is finished using the USBD handle, the driver must close the handle  by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbdlib/nf-usbdlib-usbd_closehandle">USBD_CloseHandle</a> routine.
 
 
 #### Examples
@@ -265,7 +265,7 @@ NTSTATUS MyAddDevice( __in PDRIVER_OBJECT  DriverObject,
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbdlib/nf-usbdlib-usbd_closehandle">USBD_CloseHandle</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbdlib/nf-usbdlib-usbd_closehandle">USBD_CloseHandle</a>
  
 
  

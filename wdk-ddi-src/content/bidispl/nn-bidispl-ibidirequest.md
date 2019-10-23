@@ -68,7 +68,7 @@ The <b>IBidiRequest</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bidispl/nf-bidispl-ibidirequest-getenumcount">GetEnumCount</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bidispl/nf-bidispl-ibidirequest-getenumcount">GetEnumCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of output items.
@@ -77,7 +77,7 @@ Gets the number of output items.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bidispl/nf-bidispl-ibidirequest-getoutputdata">GetOutputData</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bidispl/nf-bidispl-ibidirequest-getoutputdata">GetOutputData</a>
 </td>
 <td align="left" width="63%">
 Gets the output data coming back from the device.
@@ -86,7 +86,7 @@ Gets the output data coming back from the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bidispl/nf-bidispl-ibidirequest-getresult">GetResult</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bidispl/nf-bidispl-ibidirequest-getresult">GetResult</a>
 </td>
 <td align="left" width="63%">
 Gets the result code.
@@ -95,7 +95,7 @@ Gets the result code.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bidispl/nf-bidispl-ibidirequest-setinputdata">SetInputData</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bidispl/nf-bidispl-ibidirequest-setinputdata">SetInputData</a>
 </td>
 <td align="left" width="63%">
 Sets the data to send to the device.
@@ -104,7 +104,7 @@ Sets the data to send to the device.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bidispl/nf-bidispl-ibidirequest-setschema">SetSchema</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bidispl/nf-bidispl-ibidirequest-setschema">SetSchema</a>
 </td>
 <td align="left" width="63%">
 Sets the bidi schema string.
@@ -119,7 +119,7 @@ Sets the bidi schema string.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_print/index">Bidirectional Communication Interfaces</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_print/index">Bidirectional Communication Interfaces</a>
 
 
 

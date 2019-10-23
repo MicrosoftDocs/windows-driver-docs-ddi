@@ -77,7 +77,7 @@ A returned pointer to a newly allocated <b>OBJECT_NAME_INFORMATION</b> structure
 </td>
 </tr>
 </table></span></div>
-<div class="alert"><b>Note</b>    This structure must eventually be freed by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-exfreepool">ExFreePool</a>.</div>
+<div class="alert"><b>Note</b>    This structure must eventually be freed by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-exfreepool">ExFreePool</a>.</div>
 <div> </div>
 
 ## -returns

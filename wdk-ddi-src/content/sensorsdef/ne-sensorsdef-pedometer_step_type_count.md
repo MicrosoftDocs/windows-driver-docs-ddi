@@ -66,7 +66,7 @@ The number of step types that can be detected.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sensorsdef/ne-sensorsdef-pedometer_step_type">PEDOMETER_STEP_TYPE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorsdef/ne-sensorsdef-pedometer_step_type">PEDOMETER_STEP_TYPE</a>
  
 
  

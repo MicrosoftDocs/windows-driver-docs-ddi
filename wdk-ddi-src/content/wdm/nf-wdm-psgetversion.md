@@ -48,7 +48,7 @@ req.typenames:
 ## -description
 
 
-This function is <u>obsolete</u> in Windows XP and later versions of the Windows operating system. Use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlgetversion">RtlGetVersion</a> instead.
+This function is <u>obsolete</u> in Windows XP and later versions of the Windows operating system. Use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlgetversion">RtlGetVersion</a> instead.
 
 <b>PsGetVersion</b> returns caller-selected information about the current version of the NT-based operating system. 
 

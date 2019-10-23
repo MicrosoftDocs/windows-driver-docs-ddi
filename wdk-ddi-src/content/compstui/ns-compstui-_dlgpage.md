@@ -48,7 +48,7 @@ req.typenames: DLGPAGE, *PDLGPAGE
 ## -description
 
 
-The DLGPAGE structure is used for specifying a property sheet page to CPSUI's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/compstui/nc-compstui-pfncompropsheet">ComPropSheet</a> function. The structure's address is included in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/compstui/ns-compstui-_compropsheetui">COMPROPSHEETUI</a> structure, and all member values are supplied by the <b>ComPropSheet</b> caller.
+The DLGPAGE structure is used for specifying a property sheet page to CPSUI's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/nc-compstui-pfncompropsheet">ComPropSheet</a> function. The structure's address is included in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/ns-compstui-_compropsheetui">COMPROPSHEETUI</a> structure, and all member values are supplied by the <b>ComPropSheet</b> caller.
 
 
 ## -struct-fields
@@ -190,7 +190,7 @@ Used only if DPF_USE_HDLGTEMPLATE is set in <b>Flags</b>.
 
 CPSUI creates a property sheet page by allocating a PROPSHEETPAGE structure and passing it to CreatePropertySheetPage (described in the Windows SDK documentation). If the caller has specified a DLGPROC-typed pointer to a dialog box procedure in <b>DlgProc</b>, that procedure is used for handling the page's window messages. If <b>DlgProc</b> is <b>NULL</b>, CPSUI's own dialog box procedures are used.
 
-When the dialog box procedure pointed to by <b>DlgProc</b> is called with a message value of WM_INITDIALOG, it receives the PROPSHEETPAGE structure as input, and it also receives a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/compstui/ns-compstui-_pspinfo">PSPINFO</a> structure.
+When the dialog box procedure pointed to by <b>DlgProc</b> is called with a message value of WM_INITDIALOG, it receives the PROPSHEETPAGE structure as input, and it also receives a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/compstui/ns-compstui-_pspinfo">PSPINFO</a> structure.
 
 If a caller-supplied dialog box procedure handles a message, it should return a nonzero value. If the function does not handle the message it should return zero, which causes CPSUI to handle the message.
 

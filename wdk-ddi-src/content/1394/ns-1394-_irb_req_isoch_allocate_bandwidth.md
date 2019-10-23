@@ -108,7 +108,7 @@ SPEED_FLAGS_400
 
 ### -field hBandwidth
 
-Specifies the handle to use to refer to the bandwidth resource. The caller can set the IRB_FLAG_ALLOW_REMOTE_FREE flag in <b>Flags</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/1394/ns-1394-_irb">IRB</a> structure to indicate that the system should free the memory allocated for this handle. If caller does not set this flag, then caller will have to free the bandwidth handle. 
+Specifies the handle to use to refer to the bandwidth resource. The caller can set the IRB_FLAG_ALLOW_REMOTE_FREE flag in <b>Flags</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/1394/ns-1394-_irb">IRB</a> structure to indicate that the system should free the memory allocated for this handle. If caller does not set this flag, then caller will have to free the bandwidth handle. 
 
 
 ### -field BytesPerFrameAvailable

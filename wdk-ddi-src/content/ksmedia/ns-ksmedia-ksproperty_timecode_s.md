@@ -75,11 +75,11 @@ Specifies the timecode sample. Timecode, absolute track number (ATN) and relativ
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-ksproperty_timecode_node_s">KSPROPERTY_TIMECODE_NODE_S</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksproperty_timecode_node_s">KSPROPERTY_TIMECODE_NODE_S</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-tagtimecode_sample">TIMECODE_SAMPLE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagtimecode_sample">TIMECODE_SAMPLE</a>
  
 
  

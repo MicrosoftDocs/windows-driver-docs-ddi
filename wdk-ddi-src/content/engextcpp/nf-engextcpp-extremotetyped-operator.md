@@ -73,7 +73,7 @@ The <b>operator*</b> operator returns a new <b>ExtRemoteData</b> object that rep
 
 If the typed data represented by this object is an array, the first element in the array is returned.
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-extremotetyped-dereference">ExtRemoteTyped::Dereference</a> method performs the same function.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetyped-dereference">ExtRemoteTyped::Dereference</a> method performs the same function.
 
 
 
@@ -83,11 +83,11 @@ The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/eng
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nl-engextcpp-extremotetyped">ExtRemoteTyped</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nl-engextcpp-extremotetyped">ExtRemoteTyped</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-extremotetyped-dereference">ExtRemoteTyped::Dereference</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetyped-dereference">ExtRemoteTyped::Dereference</a>
  
 
  

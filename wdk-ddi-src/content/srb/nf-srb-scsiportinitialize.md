@@ -104,11 +104,11 @@ A miniport driver that calls <b>ScsiPortInitialize</b> more than once should che
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">DriverEntry of SCSI Miniport Driver</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">DriverEntry of SCSI Miniport Driver</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/srb/ns-srb-_hw_initialization_data">HW_INITIALIZATION_DATA (SCSI)</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/ns-srb-_hw_initialization_data">HW_INITIALIZATION_DATA (SCSI)</a>
 
 
 

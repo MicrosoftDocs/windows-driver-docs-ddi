@@ -61,7 +61,7 @@ The
 ### -param engineHandle [in]
 
 A handle for an open session to the filter engine. A callout driver calls the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpmk/nf-fwpmk-fwpmengineopen0">FwpmEngineOpen0</a> function to open a
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmengineopen0">FwpmEngineOpen0</a> function to open a
      session to the filter engine.
 
 
@@ -69,7 +69,7 @@ A handle for an open session to the filter engine. A callout driver calls the
 
 The run-time identifier for the callout that is being deleted from the filter engine. This must be
      the run-time identifier that was returned when the callout driver called the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpmk/nf-fwpmk-fwpmcalloutadd0">FwpmCalloutAdd0</a> function to add the
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmcalloutadd0">FwpmCalloutAdd0</a> function to add the
      callout to the filter engine.
 
 
@@ -159,15 +159,15 @@ A callout can be deleted from the filter engine only if there are no filters in 
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpmk/nf-fwpmk-fwpmcalloutadd0">FwpmCalloutAdd0</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmcalloutadd0">FwpmCalloutAdd0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpmk/nf-fwpmk-fwpmcalloutdeletebykey0">FwpmCalloutDeleteByKey0</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmcalloutdeletebykey0">FwpmCalloutDeleteByKey0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpmk/nf-fwpmk-fwpmengineopen0">FwpmEngineOpen0</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmengineopen0">FwpmEngineOpen0</a>
  
 
  

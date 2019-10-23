@@ -63,12 +63,12 @@ A pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ker
 
 ### -param RMContext [in]
 
-The value that the resource manager previously specified for the <i>RMKey</i> parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-tmenablecallbacks">TmEnableCallbacks</a> routine.
+The value that the resource manager previously specified for the <i>RMKey</i> parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-tmenablecallbacks">TmEnableCallbacks</a> routine.
 
 
 ### -param TransactionContext [in]
 
-The value that the resource manager previously specified for the <i>EnlistmentKey</i> parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ntcreateenlistment">ZwCreateEnlistment</a> routine.
+The value that the resource manager previously specified for the <i>EnlistmentKey</i> parameter of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ntcreateenlistment">ZwCreateEnlistment</a> routine.
 
 
 ### -param TransactionNotification [in]
@@ -112,7 +112,7 @@ If an error occurs, the callback routine must return a status value for which NT
 
 
 
-To register a <i>ResourceManagerNotification</i> callback routine, your resource manager must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-tmenablecallbacks">TmEnableCallbacks</a>.
+To register a <i>ResourceManagerNotification</i> callback routine, your resource manager must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-tmenablecallbacks">TmEnableCallbacks</a>.
 
 Note that <i>ResourceManagerNotification</i> callback routines receive a pointer, instead of a handle, to an enlistment object. You can pass the enlistment object pointer to the enlistment object's <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-tmxxx-routines">TmXxx routines</a>.
 
@@ -132,15 +132,15 @@ The <i>ResourceManagerNotification</i> callback routine is called at IRQL = PASS
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-tmenablecallbacks">TmEnableCallbacks</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-tmenablecallbacks">TmEnableCallbacks</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ntcreateenlistment">ZwCreateEnlistment</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ntcreateenlistment">ZwCreateEnlistment</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ntgetnotificationresourcemanager">ZwGetNotificationResourceManager</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-ntgetnotificationresourcemanager">ZwGetNotificationResourceManager</a>
  
 
  

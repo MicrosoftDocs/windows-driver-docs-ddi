@@ -48,7 +48,7 @@ req.typenames: D3DHAL_DP2SETTRANSFORM
 ## -description
 
 
-D3DHAL_DP2SETTRANSFORM structure is used to specify the transform state and matrix for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a>.
+D3DHAL_DP2SETTRANSFORM structure is used to specify the transform state and matrix for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a>.
 
 
 ## -struct-fields
@@ -87,11 +87,11 @@ This structure is used with hardware transform and lighting and is used by the D
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dhal/ns-d3dhal-_d3dhal_dp2multiplytransform">D3DHAL_DP2MULTIPLYTRANSFORM</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3dhal_dp2multiplytransform">D3DHAL_DP2MULTIPLYTRANSFORM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a>
  
 
  

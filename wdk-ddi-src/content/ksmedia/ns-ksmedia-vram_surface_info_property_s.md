@@ -63,7 +63,7 @@ This member specifies an initialized <a href="https://docs.microsoft.com/previou
 
 ### -field pVramSurfaceInfo
 
-This member specifies a pointer to a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-vram_surface_info">VRAM_SURFACE_INFO</a>.
+This member specifies a pointer to a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-vram_surface_info">VRAM_SURFACE_INFO</a>.
 
 
 ## -see-also
@@ -75,7 +75,7 @@ This member specifies a pointer to a structure of type <a href="https://docs.mic
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-vram_surface_info">VRAM_SURFACE_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-vram_surface_info">VRAM_SURFACE_INFO</a>
  
 
  

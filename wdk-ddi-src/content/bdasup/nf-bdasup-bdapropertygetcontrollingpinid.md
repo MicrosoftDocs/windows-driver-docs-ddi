@@ -74,7 +74,7 @@ Points to a variable that receives the identifier of the controlling pin for a n
 
 #### - pProperty [in]
 
-Points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bdamedia/ns-bdamedia-_ksp_bda_node_pin">KSP_BDA_NODE_PIN</a> structure that describes the property and request type of the property request to retrieve the controlling pin for a node. 
+Points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bdamedia/ns-bdamedia-_ksp_bda_node_pin">KSP_BDA_NODE_PIN</a> structure that describes the property and request type of the property request to retrieve the controlling pin for a node. 
 
 
 ## -returns
@@ -108,7 +108,7 @@ A BDA minidriver calls the <b>BdaPropertyGetControllingPinId</b> function to ret
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bdamedia/ns-bdamedia-_ksp_bda_node_pin">KSP_BDA_NODE_PIN</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bdamedia/ns-bdamedia-_ksp_bda_node_pin">KSP_BDA_NODE_PIN</a>
  
 
  

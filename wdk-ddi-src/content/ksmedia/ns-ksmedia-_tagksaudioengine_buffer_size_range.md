@@ -70,7 +70,7 @@ Specifies the maximun available DMA buffer size in bytes that the hardware Audio
 
 
 
-The audio stack uses the information about the buffer size limits to determine the optimum buffer size to allocate, to achieve low power playback. The audio stack also takes into account the data format that the caller specified in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-ksdataformat_waveformatex">KSDATAFORMAT_WAVEFORMATEX</a> structure when it called the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-audioengine-buffer-size-limits">KSPROPERTY_AUDIOENGINE_BUFFER_SIZE_RANGE</a> property.
+The audio stack uses the information about the buffer size limits to determine the optimum buffer size to allocate, to achieve low power playback. The audio stack also takes into account the data format that the caller specified in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksdataformat_waveformatex">KSDATAFORMAT_WAVEFORMATEX</a> structure when it called the <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/ksproperty-audioengine-buffer-size-limits">KSPROPERTY_AUDIOENGINE_BUFFER_SIZE_RANGE</a> property.
 
 
 
@@ -80,7 +80,7 @@ The audio stack uses the information about the buffer size limits to determine t
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-ksdataformat_waveformatex">KSDATAFORMAT_WAVEFORMATEX</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-ksdataformat_waveformatex">KSDATAFORMAT_WAVEFORMATEX</a>
 
 
 

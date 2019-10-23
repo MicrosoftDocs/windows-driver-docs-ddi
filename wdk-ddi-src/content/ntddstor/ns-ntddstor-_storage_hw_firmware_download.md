@@ -99,12 +99,12 @@ Reserved for future use.
 
 ### -field Offset
 
-The offset in this buffer of where the Image file begins. This should be aligned to ImagePayloadAlignment from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor-_storage_hw_firmware_info">STORAGE_HW_FIRMWARE_INFO</a>.
+The offset in this buffer of where the Image file begins. This should be aligned to ImagePayloadAlignment from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_hw_firmware_info">STORAGE_HW_FIRMWARE_INFO</a>.
 
 
 ### -field BufferSize
 
-The buffer size of the ImageBuffer. This should be a multiple of ImagePayloadAlignment from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor-_storage_hw_firmware_info">STORAGE_HW_FIRMWARE_INFO</a>.
+The buffer size of the ImageBuffer. This should be a multiple of ImagePayloadAlignment from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_hw_firmware_info">STORAGE_HW_FIRMWARE_INFO</a>.
 
 
 ### -field ImageBuffer

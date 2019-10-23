@@ -108,7 +108,7 @@ For more information about memory management, see <a href="https://docs.microsof
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-psreturnpoolquota">PsReturnPoolQuota</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-psreturnpoolquota">PsReturnPoolQuota</a>
  
 
  

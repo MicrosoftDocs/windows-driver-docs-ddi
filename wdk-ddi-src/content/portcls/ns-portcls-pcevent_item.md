@@ -108,14 +108,14 @@ Pointer to the miniport driver's event-handler routine. This member is a functio
 </td>
 </tr>
 </table></span></div>
-When calling the <b>Handler</b> routine, the caller passes in a single call parameter, which is a pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/ns-portcls-_pcevent_request">PCEVENT_REQUEST</a> structure.
+When calling the <b>Handler</b> routine, the caller passes in a single call parameter, which is a pointer to a caller-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/ns-portcls-_pcevent_request">PCEVENT_REQUEST</a> structure.
 
 
 ## -remarks
 
 
 
-The <b>PCEVENT_ITEM</b> structure specifies a particular event item in an automation table. The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/ns-portcls-pcautomation_table">PCAUTOMATION_TABLE</a> structure points to an array of <b>PCEVENT_ITEM</b> structures.
+The <b>PCEVENT_ITEM</b> structure specifies a particular event item in an automation table. The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/ns-portcls-pcautomation_table">PCAUTOMATION_TABLE</a> structure points to an array of <b>PCEVENT_ITEM</b> structures.
 
 In WDM audio, the target for an event request is either a pin instance or a node on a pin. A filter instance cannot be the target of an event request.
 
@@ -127,11 +127,11 @@ In WDM audio, the target for an event request is either a pin instance or a node
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/ns-portcls-pcautomation_table">PCAUTOMATION_TABLE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/ns-portcls-pcautomation_table">PCAUTOMATION_TABLE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/ns-portcls-_pcevent_request">PCEVENT_REQUEST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/ns-portcls-_pcevent_request">PCEVENT_REQUEST</a>
  
 
  

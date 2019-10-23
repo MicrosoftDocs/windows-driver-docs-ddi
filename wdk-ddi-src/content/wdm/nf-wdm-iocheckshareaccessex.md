@@ -107,7 +107,7 @@ The <b>IoCheckShareAccessEx</b> routine returns STATUS_SUCCESS if the requester'
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">I/O Manager Routines</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">I/O Manager Routines</a>
  
 
  

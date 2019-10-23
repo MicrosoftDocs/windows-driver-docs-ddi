@@ -48,7 +48,7 @@ req.typenames:
 ## -description
 
 
-The <b>VideoPortLockPages</b> function is <b>obsolete</b> in Windows 2000 and later. Use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportlockbuffer">VideoPortLockBuffer</a> in place of this function.
+The <b>VideoPortLockPages</b> function is <b>obsolete</b> in Windows 2000 and later. Use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportlockbuffer">VideoPortLockBuffer</a> in place of this function.
 
 <b>VideoPortLockPages</b> locks the specified virtual memory and possibly performs part or all of a DMA transfer.
 
@@ -65,7 +65,7 @@ Pointer to the miniport driver's device extension.
 
 ### -param pVrp [in, out]
 
-Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/ns-video-_video_request_packet">VIDEO_REQUEST_PACKET</a> structure. The miniport driver must have set <b>InputBuffer</b> and <b>InputBufferLength</b> to contain the virtual address and the size in bytes, respectively, of the memory to be locked for the transfer. This memory was allocated by the display driver and passed to the miniport driver through an IOCTL. The video port returns a pointer to and the size in bytes of the scatter/gather list in <b>OutputBuffer</b> and <b>OutputBufferLength</b>, respectively.
+Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/ns-video-_video_request_packet">VIDEO_REQUEST_PACKET</a> structure. The miniport driver must have set <b>InputBuffer</b> and <b>InputBufferLength</b> to contain the virtual address and the size in bytes, respectively, of the memory to be locked for the transfer. This memory was allocated by the display driver and passed to the miniport driver through an IOCTL. The video port returns a pointer to and the size in bytes of the scatter/gather list in <b>OutputBuffer</b> and <b>OutputBufferLength</b>, respectively.
 
 
 ### -param pUEvent [in]
@@ -113,7 +113,7 @@ See <a href="https://docs.microsoft.com/windows-hardware/drivers/display/bus-mas
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportlockbuffer">VideoPortLockBuffer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportlockbuffer">VideoPortLockBuffer</a>
  
 
  

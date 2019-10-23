@@ -48,7 +48,7 @@ req.typenames:
 
 The **wiasDebugError** function is obsolete.
 
-Use the [WIAS_ERROR](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wias_error) macro instead.
+Use the [WIAS_ERROR](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wias_error) macro instead.
 
 **wiasDebugError** prints a debug error string in the Device Manager debug console. The output color is always red.
 
@@ -74,10 +74,10 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 The **wiasDebugError** function is obsolete.
 
-Use the [WIAS_ERROR](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wias_error) macro instead.
+Use the [WIAS_ERROR](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wias_error) macro instead.
 
 ## -see-also
 
-[WIAS_ERROR](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wias_error)
+[WIAS_ERROR](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wias_error)
 
-[WIAS_LERROR](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wias_lerror)
+[WIAS_LERROR](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wias_lerror)

@@ -72,21 +72,21 @@ Supported in Windows 7 and later versions.
 
 Supported in Windows 7 and later versions.
 
-[out] The size, in bytes, that the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/nf-d3dkmthk-d3dkmtgetpresenthistory">D3DKMTGetPresentHistory</a> function copies to the buffer that the <b>pTokens</b> member points to or the required size for first token. 
+[out] The size, in bytes, that the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtgetpresenthistory">D3DKMTGetPresentHistory</a> function copies to the buffer that the <b>pTokens</b> member points to or the required size for first token. 
 
 
 ### -field pTokens
 
 Supported in Windows 7 and later versions.
 
-[in/out] A pointer to the buffer that receives the tokens. Each token is described by a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_presenthistorytoken">D3DKMT_PRESENTHISTORYTOKEN</a> structure. 
+[in/out] A pointer to the buffer that receives the tokens. Each token is described by a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_presenthistorytoken">D3DKMT_PRESENTHISTORYTOKEN</a> structure. 
 
 
 ### -field NumTokens
 
 Supported in Windows 7 and later versions.
 
-[out] The number of tokens that the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/nf-d3dkmthk-d3dkmtgetpresenthistory">D3DKMTGetPresentHistory</a> function copies to the buffer that the <b>pTokens</b> member points to. 
+[out] The number of tokens that the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtgetpresenthistory">D3DKMTGetPresentHistory</a> function copies to the buffer that the <b>pTokens</b> member points to. 
 
 
 ## -see-also
@@ -94,11 +94,11 @@ Supported in Windows 7 and later versions.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/nf-d3dkmthk-d3dkmtgetpresenthistory">D3DKMTGetPresentHistory</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtgetpresenthistory">D3DKMTGetPresentHistory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_presenthistorytoken">D3DKMT_PRESENTHISTORYTOKEN</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_presenthistorytoken">D3DKMT_PRESENTHISTORYTOKEN</a>
  
 
  

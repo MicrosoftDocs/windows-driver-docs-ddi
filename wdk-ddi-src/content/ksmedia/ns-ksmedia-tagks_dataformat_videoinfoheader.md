@@ -72,7 +72,7 @@ Specifies the details of the video stream.
 
 This format is used for most capture output streams.
 
-Minidrivers that must specify a data format that contains settings for bob or weave must use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-tagks_dataformat_videoinfoheader2">KS_DATAFORMAT_VIDEOINFOHEADER2</a> structure.
+Minidrivers that must specify a data format that contains settings for bob or weave must use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_dataformat_videoinfoheader2">KS_DATAFORMAT_VIDEOINFOHEADER2</a> structure.
 
 
 
@@ -82,15 +82,15 @@ Minidrivers that must specify a data format that contains settings for bob or we
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksdataformat">KSDATAFORMAT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksdataformat">KSDATAFORMAT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-tagks_dataformat_videoinfoheader2">KS_DATAFORMAT_VIDEOINFOHEADER2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_dataformat_videoinfoheader2">KS_DATAFORMAT_VIDEOINFOHEADER2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-tagks_videoinfoheader">KS_VIDEOINFOHEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-tagks_videoinfoheader">KS_VIDEOINFOHEADER</a>
  
 
  

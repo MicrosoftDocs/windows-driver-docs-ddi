@@ -48,7 +48,7 @@ req.typenames:
 ## -description
 
 
-The <b>PoUnregisterSystemState</b> routine cancels a system state registration created by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-poregistersystemstate">PoRegisterSystemState</a>.
+The <b>PoUnregisterSystemState</b> routine cancels a system state registration created by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-poregistersystemstate">PoRegisterSystemState</a>.
 
 
 ## -parameters
@@ -84,7 +84,7 @@ This routine cancels a system busy state registration established by <b>PoRegist
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-poregistersystemstate">PoRegisterSystemState</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-poregistersystemstate">PoRegisterSystemState</a>
  
 
  

@@ -48,7 +48,7 @@ req.typenames:
 ## -description
 
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wpprecorder/nf-wpprecorder-wpprecorderlogsetidentifier">WppRecorderLogSetIdentifier</a> method sets a string identifier for the recorder log.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wpprecorder/nf-wpprecorder-wpprecorderlogsetidentifier">WppRecorderLogSetIdentifier</a> method sets a string identifier for the recorder log.
 
 
 ## -parameters
@@ -70,7 +70,7 @@ A string identifier to set.
 
 
 
-Do not call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wpprecorder/nf-wpprecorder-wpprecorderlogsetidentifier">WppRecorderLogSetIdentifier</a> on the default log handle returned by <a href="https://docs.microsoft.com/previous-versions/windows/hardware/previsioning-framework/dn895240(v=vs.85)">WppRecorderLogGetDefault</a>.
+Do not call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wpprecorder/nf-wpprecorder-wpprecorderlogsetidentifier">WppRecorderLogSetIdentifier</a> on the default log handle returned by <a href="https://docs.microsoft.com/previous-versions/windows/hardware/previsioning-framework/dn895240(v=vs.85)">WppRecorderLogGetDefault</a>.
 
 
 

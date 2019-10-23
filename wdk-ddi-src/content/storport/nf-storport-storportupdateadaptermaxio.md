@@ -106,7 +106,7 @@ This function returns of the following values.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/ns-storport-_hw_initialization_data">HwInitialize</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_hw_initialization_data">HwInitialize</a>
  
 
  

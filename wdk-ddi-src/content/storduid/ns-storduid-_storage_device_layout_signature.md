@@ -88,7 +88,7 @@ The GUID that uniquely identifies the disk.
 
 
 
-The device layout signature contributes to the definition of a device unique identifier (DUID). For more information about DUIDs, see the description of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storduid/ns-storduid-_storage_device_unique_identifier">STORAGE_DEVICE_UNIQUE_IDENTIFIER</a> structure.
+The device layout signature contributes to the definition of a device unique identifier (DUID). For more information about DUIDs, see the description of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storduid/ns-storduid-_storage_device_unique_identifier">STORAGE_DEVICE_UNIQUE_IDENTIFIER</a> structure.
 
 
 
@@ -98,7 +98,7 @@ The device layout signature contributes to the definition of a device unique ide
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storduid/ns-storduid-_storage_device_unique_identifier">STORAGE_DEVICE_UNIQUE_IDENTIFIER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storduid/ns-storduid-_storage_device_unique_identifier">STORAGE_DEVICE_UNIQUE_IDENTIFIER</a>
  
 
  

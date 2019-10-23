@@ -56,8 +56,8 @@ The **IWiaMiniDrvTransferCallback** interface has these methods.
 
 | Method | Description |
 | --- | --- |
-| [GetNextStream](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiaminidrvtransfercallback-getnextstream) | Called by the WIA mini-driver to obtain a stream for the current data transfer (download or upload). |
-| [SendMessage](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiaminidrvtransfercallback-sendmessage) | Periodically called by the WIA mini-driver during a data transfer, to update the WIA application client about the progress and status of the transfer. |
+| [GetNextStream](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nf-wiamindr_lh-iwiaminidrvtransfercallback-getnextstream) | Called by the WIA mini-driver to obtain a stream for the current data transfer (download or upload). |
+| [SendMessage](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nf-wiamindr_lh-iwiaminidrvtransfercallback-sendmessage) | Periodically called by the WIA mini-driver during a data transfer, to update the WIA application client about the progress and status of the transfer. |
 
 ## -see-also
 

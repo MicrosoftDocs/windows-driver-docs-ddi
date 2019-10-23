@@ -68,7 +68,7 @@ The <b>IDebugSymbols5</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols5-getcurrentscopeframeindexex">GetCurrentScopeFrameIndexEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols5-getcurrentscopeframeindexex">GetCurrentScopeFrameIndexEx</a>
 </td>
 <td align="left" width="63%">
 Gets the index of the current frame.
@@ -77,7 +77,7 @@ Gets the index of the current frame.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugsymbols5-setscopeframebyindexex">SetScopeFrameByIndexEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugsymbols5-setscopeframebyindexex">SetScopeFrameByIndexEx</a>
 </td>
 <td align="left" width="63%">
 Sets the current frame by using an index.

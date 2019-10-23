@@ -62,7 +62,7 @@ The PacketDirect (PD) platform calls a PD-capable miniport driver's
 
 ### -param Queue [in, out]
 
-The queue to flush. For more information, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_pd_queue">NDIS_PD_QUEUE</a> structure.
+The queue to flush. For more information, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_pd_queue">NDIS_PD_QUEUE</a> structure.
 
 
 ## -returns
@@ -78,7 +78,7 @@ This callback function does not return a value.
 
 
 
-The caller is responsible for waiting for and draining all previously posted requests before closing the queue. The caller must not post any further <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_pd_buffer">PD_BUFFER</a> structures to the queue after this call. The primary use case for this routine is flushing the receive queues--if there's no incoming traffic, posted buffers will sit in the receive queue indefinitely, and these need to be drained by being flushed before the queue can be closed. The same issue does not exist for transmit queues in practice because transmit requests will not pend indefinitely. However, providers must honor the flush call for transmit queues (this may be a no-operation if the provider knows that the pending transmit request will complete very soon, which is the typical case except for L2 flow control).
+The caller is responsible for waiting for and draining all previously posted requests before closing the queue. The caller must not post any further <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_pd_buffer">PD_BUFFER</a> structures to the queue after this call. The primary use case for this routine is flushing the receive queues--if there's no incoming traffic, posted buffers will sit in the receive queue indefinitely, and these need to be drained by being flushed before the queue can be closed. The same issue does not exist for transmit queues in practice because transmit requests will not pend indefinitely. However, providers must honor the flush call for transmit queues (this may be a no-operation if the provider knows that the pending transmit request will complete very soon, which is the typical case except for L2 flow control).
 
 <h3><a id="Examples"></a><a id="examples"></a><a id="EXAMPLES"></a>Examples</h3>
 To define a <i>PDFlushQueue</i> function, you must first provide a function declaration that identifies the type of function you're defining. Windows provides a set of function types for drivers. Declaring a function using the function types helps <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/code-analysis-for-drivers">Code Analysis for Drivers</a>, <a href="https://docs.microsoft.com/windows-hardware/drivers/devtest/static-driver-verifier">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.

@@ -67,12 +67,12 @@ A provider handle that identifies the PD-capable miniport driver's provider obje
 
 ### -param QueueParameters [in]
 
-All the parameters that are associated with the Queue. For more information see the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_pd_queue_parameters">NDIS_PD_QUEUE_PARAMETERS</a> structure.
+All the parameters that are associated with the Queue. For more information see the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_pd_queue_parameters">NDIS_PD_QUEUE_PARAMETERS</a> structure.
 
 
 ### -param NdisPDQueue
 
-A pointer to the Queue that is to be allocated. For more information, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_pd_queue">NDIS_PD_QUEUE</a> structure.
+A pointer to the Queue that is to be allocated. For more information, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_pd_queue">NDIS_PD_QUEUE</a> structure.
 
 
 ## -returns

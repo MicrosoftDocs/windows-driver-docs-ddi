@@ -53,7 +53,7 @@ The **KsFilterGenerateEvents** function generates events of an indicated type th
 
 ### -param Filter [in]
 
-A pointer to a [KSFILTER](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksfilter) structure on which to generate events.
+A pointer to a [KSFILTER](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksfilter) structure on which to generate events.
 
 ### -param EventSet [in, optional]
 
@@ -87,7 +87,7 @@ None
 
 When calling this function, a minidriver must place *Data* and *CallBackContext* in a locked, nonpageable data segment. In addition, note that the *CallBack* is made at DISPATCH_LEVEL. The callback function must be in a locked segment and must be prepared to run at IRQL = DISPATCH_LEVEL. Note that there is an additional issue in DX8 *only*: *EventSet* must be in a locked data segment.
 
-This is an inline function call to [KsGenerateEvents](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksgenerateevents) that performs the necessary typecasting. Minidrivers should usually call this version instead of directly calling **KsGenerateEvents**.
+This is an inline function call to [KsGenerateEvents](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksgenerateevents) that performs the necessary typecasting. Minidrivers should usually call this version instead of directly calling **KsGenerateEvents**.
 
 An event is generated if the following conditions hold:
 
@@ -103,16 +103,16 @@ An event is generated if the following conditions hold:
 BOOLEAN CallBack (IN PVOID Context, IN PKSEVENT_ENTRY EventEntry);
 ```
 
-AVStream passes the contents of the **KsFilterGenerateEvents** routine's parameter *CallBackContext* in this callback's *Context* parameter. *EventEntry* is a pointer to a [KSEVENT_ENTRY](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksevent_entry) structure that specifies the event that would be generated. The callback function should return **TRUE** if this event should be generated.
+AVStream passes the contents of the **KsFilterGenerateEvents** routine's parameter *CallBackContext* in this callback's *Context* parameter. *EventEntry* is a pointer to a [KSEVENT_ENTRY](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksevent_entry) structure that specifies the event that would be generated. The callback function should return **TRUE** if this event should be generated.
 
 For more information, see [Event Handling in AVStream](https://docs.microsoft.com/windows-hardware/drivers/stream/event-handling-in-avstream) and [KS Events](https://docs.microsoft.com/windows-hardware/drivers/stream/ks-events).
 
 ## -see-also
 
-[KSEVENT_ENTRY](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-_ksevent_entry)
+[KSEVENT_ENTRY](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-_ksevent_entry)
 
-[KsAddEvent](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksaddevent)
+[KsAddEvent](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksaddevent)
 
-[KsGenerateEvents](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksgenerateevents)
+[KsGenerateEvents](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksgenerateevents)
 
-[KsPinGenerateEvents](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-kspingenerateevents)
+[KsPinGenerateEvents](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspingenerateevents)

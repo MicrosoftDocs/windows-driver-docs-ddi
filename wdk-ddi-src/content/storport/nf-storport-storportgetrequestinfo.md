@@ -49,7 +49,7 @@ req.typenames:
 
 
 
-   The <b>StorPortGetRequestInfo</b> routine retrieves the IO request information associated with a SCSI request block (SRB) and  returns it in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/ns-storport-_stor_request_info_v1">STOR_REQUEST_INFO</a> structure. 
+   The <b>StorPortGetRequestInfo</b> routine retrieves the IO request information associated with a SCSI request block (SRB) and  returns it in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_stor_request_info_v1">STOR_REQUEST_INFO</a> structure. 
   
 
 
@@ -70,7 +70,7 @@ A pointer to the SRB to be queried.
 
 ### -param RequestInfo [out]
 
-A pointer to a caller-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/ns-storport-_stor_request_info_v1">STOR_REQUEST_INFO</a> structure.
+A pointer to a caller-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_stor_request_info_v1">STOR_REQUEST_INFO</a> structure.
 
 
 ## -returns
@@ -91,7 +91,7 @@ The <b>StorPortGetRequestInfo</b> routine returns one of these status codes:
 </dl>
 </td>
 <td width="60%">
-The version specified for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/ns-storport-_stor_request_info_v1">STOR_REQUEST_INFO</a> is invalid.
+The version specified for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_stor_request_info_v1">STOR_REQUEST_INFO</a> is invalid.
 
 </td>
 </tr>
@@ -137,7 +137,7 @@ The caller of <b>StorPortGetRequestInfo</b> must set the <b>Version</b> member o
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/ns-storport-_stor_request_info_v1">STOR_REQUEST_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/ns-storport-_stor_request_info_v1">STOR_REQUEST_INFO</a>
  
 
  

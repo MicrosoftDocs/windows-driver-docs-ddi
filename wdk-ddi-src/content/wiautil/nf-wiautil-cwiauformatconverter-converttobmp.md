@@ -78,7 +78,7 @@ Pointer to a memory location that receives the size, in bytes, of the resulting 
 
 ### -param pBmpImageInfo
 
-Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/ns-wiautil-_bmp_image_info">BMP_IMAGE_INFO</a> structure that receives information about the resulting image.
+Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wiautil/ns-wiautil-_bmp_image_info">BMP_IMAGE_INFO</a> structure that receives information about the resulting image.
 
 
 ### -param iSkipAmt
@@ -116,7 +116,7 @@ The caller of this method can pass a result buffer in <i>ppDest</i> and the size
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/ns-wiautil-_bmp_image_info">BMP_IMAGE_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wiautil/ns-wiautil-_bmp_image_info">BMP_IMAGE_INFO</a>
 
 
 
@@ -124,11 +124,11 @@ The caller of this method can pass a result buffer in <i>ppDest</i> and the size
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/nf-wiautil-cwiauformatconverter-isformatsupported">CWiauFormatConverter::IsFormatSupported</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wiautil/nf-wiautil-cwiauformatconverter-isformatsupported">CWiauFormatConverter::IsFormatSupported</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiautil/ne-wiautil-skip_amount">SKIP_AMOUNT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wiautil/ne-wiautil-skip_amount">SKIP_AMOUNT</a>
  
 
  

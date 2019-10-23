@@ -52,7 +52,7 @@ req.typenames:
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugDataSpaces2</b> interface inherits from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugdataspaces">IDebugDataSpaces</a>. <b>IDebugDataSpaces2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugDataSpaces2</b> interface inherits from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugdataspaces">IDebugDataSpaces</a>. <b>IDebugDataSpaces2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -67,7 +67,7 @@ The <b>IDebugDataSpaces2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugdataspaces4-fillphysical">FillPhysical</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugdataspaces4-fillphysical">FillPhysical</a>
 </td>
 <td align="left" width="63%">
 Writes a pattern of bytes to the target's physical memory. The pattern is written repeatedly until the specified memory range is filled.
@@ -76,7 +76,7 @@ Writes a pattern of bytes to the target's physical memory. The pattern is writte
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugdataspaces4-fillvirtual">FillVirtual</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugdataspaces4-fillvirtual">FillVirtual</a>
 </td>
 <td align="left" width="63%">
 Writes a pattern of bytes to the target's virtual memory. The pattern is written repeatedly until the specified memory range is filled.
@@ -85,7 +85,7 @@ Writes a pattern of bytes to the target's virtual memory. The pattern is written
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugdataspaces4-getvirtualtranslationphysicaloffsets">GetVirtualTranslationPhysicalOffsets</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugdataspaces4-getvirtualtranslationphysicaloffsets">GetVirtualTranslationPhysicalOffsets</a>
 </td>
 <td align="left" width="63%">
  Returns the physical addresses of the system paging structures at different levels of the paging hierarchy.
@@ -94,7 +94,7 @@ Writes a pattern of bytes to the target's virtual memory. The pattern is written
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugdataspaces2-queryvirtual">QueryVirtual</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugdataspaces2-queryvirtual">QueryVirtual</a>
 </td>
 <td align="left" width="63%">
 Provides information about the specified pages in the target's virtual address space.
@@ -103,7 +103,7 @@ Provides information about the specified pages in the target's virtual address s
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugdataspaces4-readhandledata">ReadHandleData</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugdataspaces4-readhandledata">ReadHandleData</a>
 </td>
 <td align="left" width="63%">
 Retrieves information about a system object specified by a system handle.
@@ -113,7 +113,7 @@ Retrieves information about a system object specified by a system handle.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugdataspaces4-virtualtophysical">VirtualToPhysical</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugdataspaces4-virtualtophysical">VirtualToPhysical</a>
 </td>
 <td align="left" width="63%">
 Translates a location in the target's virtual address space into a physical memory address.
@@ -128,15 +128,15 @@ Translates a location in the target's virtual address space into a physical memo
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugdataspaces">IDebugDataSpaces</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugdataspaces">IDebugDataSpaces</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugdataspaces3">IDebugDataSpaces3</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugdataspaces3">IDebugDataSpaces3</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugdataspaces4">IDebugDataSpaces4</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugdataspaces4">IDebugDataSpaces4</a>
  
 
  

@@ -161,7 +161,7 @@ Parameters
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddscsi/ns-ntddscsi-_storage_diagnostic_mp_request">STORAGE_DIAGNOSTIC_MP_REQUEST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_storage_diagnostic_mp_request">STORAGE_DIAGNOSTIC_MP_REQUEST</a>
  
 
  

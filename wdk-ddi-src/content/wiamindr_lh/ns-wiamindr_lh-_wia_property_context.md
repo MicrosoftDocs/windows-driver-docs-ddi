@@ -66,26 +66,26 @@ Is an array of Boolean values indicating which properties are changing. A member
 
 The Boolean values indicate whether the corresponding property is being written (changed) by an application calling [**IPropertyStorage::WriteMultiple**](https://docs.microsoft.com/windows/win32/api/propidl/nf-propidl-ipropertystorage-writemultiple).
 
-Several WIA service library functions use the WIA_PROPERTY_CONTEXT structure. The [wiasCreatePropContext](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiascreatepropcontext) and [wiasFreePropContext](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiasfreepropcontext) functions use it when a property context is created or freed. The [wiasIsPropChanged](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiasispropchanged) and [wiasSetPropChanged](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiassetpropchanged) use this structure to determine whether a property changed, and to modify a property context when the property does change. The **wiasGetChangedValue***Xxx* functions use this structure to determine whether a property of a certain type has changed. The [wiasUpdateValidFormat](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiasupdatevalidformat) and [wiasUpdateScanRect](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiasupdatescanrect) use it to, respectively, update a property context and to update the scanning area sizes for a scanning device.
+Several WIA service library functions use the WIA_PROPERTY_CONTEXT structure. The [wiasCreatePropContext](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiascreatepropcontext) and [wiasFreePropContext](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiasfreepropcontext) functions use it when a property context is created or freed. The [wiasIsPropChanged](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiasispropchanged) and [wiasSetPropChanged](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiassetpropchanged) use this structure to determine whether a property changed, and to modify a property context when the property does change. The **wiasGetChangedValue***Xxx* functions use this structure to determine whether a property of a certain type has changed. The [wiasUpdateValidFormat](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiasupdatevalidformat) and [wiasUpdateScanRect](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiasupdatescanrect) use it to, respectively, update a property context and to update the scanning area sizes for a scanning device.
 
 ## -see-also
 
-[wiasCreatePropContext](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiascreatepropcontext)
+[wiasCreatePropContext](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiascreatepropcontext)
 
-[wiasFreePropContext](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiasfreepropcontext)
+[wiasFreePropContext](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiasfreepropcontext)
 
-[wiasGetChangedValueFloat](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiasgetchangedvaluefloat)
+[wiasGetChangedValueFloat](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiasgetchangedvaluefloat)
 
-[wiasGetChangedValueGuid](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiasgetchangedvalueguid)
+[wiasGetChangedValueGuid](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiasgetchangedvalueguid)
 
-[wiasGetChangedValueLong](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiasgetchangedvaluelong)
+[wiasGetChangedValueLong](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiasgetchangedvaluelong)
 
-[wiasGetChangedValueStr](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiasgetchangedvaluestr)
+[wiasGetChangedValueStr](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiasgetchangedvaluestr)
 
-[wiasIsPropChanged](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiasispropchanged)
+[wiasIsPropChanged](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiasispropchanged)
 
-[wiasSetPropChanged](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiassetpropchanged)
+[wiasSetPropChanged](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiassetpropchanged)
 
-[wiasUpdateScanRect](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiasupdatescanrect)
+[wiasUpdateScanRect](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiasupdatescanrect)
 
-[wiasUpdateValidFormat](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiasupdatevalidformat)
+[wiasUpdateValidFormat](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiasupdatevalidformat)

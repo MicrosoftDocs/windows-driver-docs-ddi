@@ -48,7 +48,7 @@ req.typenames:
 ## -description
 
 
-The <b>AgpFreePhysical</b> function frees system memory that was committed by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/videoagp/nc-videoagp-pagp_commit_physical">AgpCommitPhysical</a>.
+The <b>AgpFreePhysical</b> function frees system memory that was committed by a previous call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/videoagp/nc-videoagp-pagp_commit_physical">AgpCommitPhysical</a>.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ Pointer to the device extension of the miniport driver.
 
 ### -param PhysicalReserveContext [in]
 
-Identifies a reserved physical address range. This context handle was obtained from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/videoagp/nc-videoagp-pagp_reserve_physical">AgpReservePhysical</a>.
+Identifies a reserved physical address range. This context handle was obtained from <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/videoagp/nc-videoagp-pagp_reserve_physical">AgpReservePhysical</a>.
 
 
 ### -param Pages [in]
@@ -89,7 +89,7 @@ None
 
 
 
-When a miniport driver calls <b>AgpFreePhysical</b>, <b>Pages</b> pages of physical memory are unlocked and unmapped from the AGP-decodable physical address range. This range begins <b>Offset</b> pages into the range identified by <b>PhysicalReserveContext</b>. The miniport driver must specify that the exact offset and number of pages be freed as were committed in a prior call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/videoagp/nc-videoagp-pagp_commit_physical">AgpCommitPhysical</a>.
+When a miniport driver calls <b>AgpFreePhysical</b>, <b>Pages</b> pages of physical memory are unlocked and unmapped from the AGP-decodable physical address range. This range begins <b>Offset</b> pages into the range identified by <b>PhysicalReserveContext</b>. The miniport driver must specify that the exact offset and number of pages be freed as were committed in a prior call to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/videoagp/nc-videoagp-pagp_commit_physical">AgpCommitPhysical</a>.
 
 
 
@@ -99,11 +99,11 @@ When a miniport driver calls <b>AgpFreePhysical</b>, <b>Pages</b> pages of physi
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/videoagp/nc-videoagp-pagp_commit_physical">AgpCommitPhysical</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/videoagp/nc-videoagp-pagp_commit_physical">AgpCommitPhysical</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/videoagp/nc-videoagp-pagp_release_physical">AgpReleasePhysical</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/videoagp/nc-videoagp-pagp_release_physical">AgpReleasePhysical</a>
  
 
  

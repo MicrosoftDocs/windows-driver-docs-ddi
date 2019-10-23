@@ -75,7 +75,7 @@ The <code>UnregisterPowerControlCallback</code> method returns STATUS_SUCCESS, i
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iportclsruntimepower">IPortClsRuntimePower</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iportclsruntimepower">IPortClsRuntimePower</a>
  
 
  

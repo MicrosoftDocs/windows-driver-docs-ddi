@@ -58,27 +58,27 @@ The <b>WWAN_BASE_STATIONS_INFO_REQ</b> structure represents the aspects of cellu
 
 ### -field MaxGSMCount
 
-The maximum number of entries of GSM neighboring cells returned in the GSM network measurement reports of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_gsm_nmr">WWAN_GSM_NMR</a>.
+The maximum number of entries of GSM neighboring cells returned in the GSM network measurement reports of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_gsm_nmr">WWAN_GSM_NMR</a>.
 
 
 ### -field MaxUMTSCount
 
-The maximum number of entries of UMTS neighboring cells returned in the UMTS measured results list in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_umts_mrl">WWAN_UMTS_MRL</a>.
+The maximum number of entries of UMTS neighboring cells returned in the UMTS measured results list in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_umts_mrl">WWAN_UMTS_MRL</a>.
 
 
 ### -field MaxTDSCDMACount
 
-The maximum number of entries of TDSCDMA neighboring cells returned in the TDSCDMA measured results list in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_tdscdma_mrl">WWAN_TDSCDMA_MRL</a>.
+The maximum number of entries of TDSCDMA neighboring cells returned in the TDSCDMA measured results list in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_tdscdma_mrl">WWAN_TDSCDMA_MRL</a>.
 
 
 ### -field MaxLTECount
 
-The maximum number of entries of LTE neighboring cells returned in the LTE measured results list in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_lte_mrl">WWAN_LTE_MRL</a>.
+The maximum number of entries of LTE neighboring cells returned in the LTE measured results list in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_lte_mrl">WWAN_LTE_MRL</a>.
 
 
 ### -field MaxCDMACount
 
-The maximum number of entries of CDMA cells returned in the CDMA measured results list in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_cdma_mrl">WWAN_CDMA_MRL</a>. This list includes both serving and neighboring cells.
+The maximum number of entries of CDMA cells returned in the CDMA measured results list in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_cdma_mrl">WWAN_CDMA_MRL</a>. This list includes both serving and neighboring cells.
 
 
 ## -see-also
@@ -90,27 +90,27 @@ The maximum number of entries of CDMA cells returned in the CDMA measured result
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndiswwan/ns-ndiswwan-_ndis_wwan_base_stations_info_req">NDIS_WWAN_BASE_STATIONS_INFO_REQ</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndiswwan/ns-ndiswwan-_ndis_wwan_base_stations_info_req">NDIS_WWAN_BASE_STATIONS_INFO_REQ</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_cdma_mrl">WWAN_CDMA_MRL</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_cdma_mrl">WWAN_CDMA_MRL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_gsm_nmr">WWAN_GSM_NMR</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_gsm_nmr">WWAN_GSM_NMR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_lte_mrl">WWAN_LTE_MRL</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_lte_mrl">WWAN_LTE_MRL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_tdscdma_mrl">WWAN_TDSCDMA_MRL</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_tdscdma_mrl">WWAN_TDSCDMA_MRL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wwan/ns-wwan-_wwan_umts_mrl">WWAN_UMTS_MRL</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_umts_mrl">WWAN_UMTS_MRL</a>
  
 
  

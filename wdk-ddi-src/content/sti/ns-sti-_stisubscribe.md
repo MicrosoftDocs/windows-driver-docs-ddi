@@ -46,7 +46,7 @@ req.typenames: STISUBSCRIBE, *LPSTISUBSCRIBE
 
 ## -description
 
-The STISUBSCRIBE structure is used as a parameter for the [IStiDevice::Subscribe](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sti/nf-sti-istidevice-subscribe) method.
+The STISUBSCRIBE structure is used as a parameter for the [IStiDevice::Subscribe](https://docs.microsoft.com/windows-hardware/drivers/ddi/sti/nf-sti-istidevice-subscribe) method.
 
 ## -struct-fields
 

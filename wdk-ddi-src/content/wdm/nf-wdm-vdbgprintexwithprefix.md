@@ -145,11 +145,11 @@ This routine is defined in Wdm.h. Component filter IDs are defined in Dpfilter.h
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-dbgprintex">DbgPrintEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-dbgprintex">DbgPrintEx</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-vdbgprintex">vDbgPrintEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-vdbgprintex">vDbgPrintEx</a>
  
 
  

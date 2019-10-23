@@ -69,7 +69,7 @@ None
 ### -output-buffer
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/nfcradiodev/ns-nfcradiodev-_nfcrm_set_radio_state"> NFCRM_RADIO_STATE structure</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/nfcradiodev/ns-nfcradiodev-_nfcrm_set_radio_state"> NFCRM_RADIO_STATE structure</a>
 
 
 

@@ -68,7 +68,7 @@ The <b>D3DKMTOpenAdapterFromHdc</b> function maps a device context handle (HDC) 
 
 *pData* [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_openadapterfromhdc">D3DKMT_OPENADAPTERFROMHDC</a> structure that describes the parameters that are required to perform the mapping.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_openadapterfromhdc">D3DKMT_OPENADAPTERFROMHDC</a> structure that describes the parameters that are required to perform the mapping.
 
 
 ## -returns
@@ -133,5 +133,5 @@ HRESULT GetPrimaryAdapterHandle(HANDLE* phAdapter, UINT* pOutput)
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_openadapterfromhdc">D3DKMT_OPENADAPTERFROMHDC</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_openadapterfromhdc">D3DKMT_OPENADAPTERFROMHDC</a>
  

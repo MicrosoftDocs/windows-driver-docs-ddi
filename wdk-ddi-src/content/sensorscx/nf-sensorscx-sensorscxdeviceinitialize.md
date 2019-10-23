@@ -63,7 +63,7 @@ A WDFDEVICE handle to the framework device object that represents the sensor.
 
 ### -param pSensorConfig [in]
 
-A list of functions that the driver implements. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sensorscx/ns-sensorscx-_sensor_controller_config">SENSOR_CONTROLLER_CONFIG</a>.
+A list of functions that the driver implements. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorscx/ns-sensorscx-_sensor_controller_config">SENSOR_CONTROLLER_CONFIG</a>.
 
 
 ## -returns
@@ -80,7 +80,7 @@ This function returns STATUS_SUCCESS when completed successfully. When an invali
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sensorscx/ns-sensorscx-_sensor_controller_config">SENSOR_CONTROLLER_CONFIG</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sensorscx/ns-sensorscx-_sensor_controller_config">SENSOR_CONTROLLER_CONFIG</a>
  
 
  

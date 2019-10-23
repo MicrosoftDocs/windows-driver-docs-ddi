@@ -73,12 +73,12 @@ Reserved for future use.
 
 ### -field TargetType
 
-Specifies the request target type. See definitions for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ne-ntddstor-_storage_diagnostic_target_type">STORAGE_DIAGNOSTIC_TARGET_TYPE</a>.
+Specifies the request target type. See definitions for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ne-ntddstor-_storage_diagnostic_target_type">STORAGE_DIAGNOSTIC_TARGET_TYPE</a>.
 
 
 ### -field Level
 
-Specifies the Diagnostic level. See definitions for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ne-ntddstor-_storage_diagnostic_level">STORAGE_DIAGNOSTIC_LEVEL</a>.
+Specifies the Diagnostic level. See definitions for <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ne-ntddstor-_storage_diagnostic_level">STORAGE_DIAGNOSTIC_LEVEL</a>.
 
 
 ## -see-also
@@ -90,15 +90,15 @@ Specifies the Diagnostic level. See definitions for <a href="https://docs.micros
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ns-ntddstor-_storage_diagnostic_data">STORAGE_DIAGNOSTIC_DATA</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_diagnostic_data">STORAGE_DIAGNOSTIC_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ne-ntddstor-_storage_diagnostic_level">STORAGE_DIAGNOSTIC_LEVEL</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ne-ntddstor-_storage_diagnostic_level">STORAGE_DIAGNOSTIC_LEVEL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ne-ntddstor-_storage_diagnostic_target_type">STORAGE_DIAGNOSTIC_TARGET_TYPE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ne-ntddstor-_storage_diagnostic_target_type">STORAGE_DIAGNOSTIC_TARGET_TYPE</a>
  
 
  

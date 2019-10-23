@@ -63,7 +63,7 @@ req.typenames: D3DDDICB_LOCK2
 
 ### -field Flags
 
-A set of flags to pass to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/nf-d3dkmthk-d3dkmtlock2">Lock2</a> kernel function which will determine how the allocation is locked. See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dukmdt/ns-d3dukmdt-_d3dddicb_lock2flags">D3DDDICB_LOCK2FLAGS</a> for details.
+A set of flags to pass to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtlock2">Lock2</a> kernel function which will determine how the allocation is locked. See <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddicb_lock2flags">D3DDDICB_LOCK2FLAGS</a> for details.
 
 
 ### -field pData
@@ -76,11 +76,11 @@ A set of flags to pass to the <a href="https://docs.microsoft.com/windows-hardwa
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dukmdt/ns-d3dukmdt-_d3dddicb_lock2flags">D3DDDICB_LOCK2FLAGS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddicb_lock2flags">D3DDDICB_LOCK2FLAGS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/nf-d3dkmthk-d3dkmtlock2">Lock2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtlock2">Lock2</a>
  
 
  

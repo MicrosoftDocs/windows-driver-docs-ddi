@@ -67,7 +67,7 @@ The <b>IDebugBreakpoint</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugbreakpoint2-addflags">AddFlags</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugbreakpoint2-addflags">AddFlags</a>
 </td>
 <td align="left" width="63%">
 Adds flags to a breakpoint.
@@ -76,7 +76,7 @@ Adds flags to a breakpoint.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugbreakpoint2-getadder">GetAdder</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugbreakpoint2-getadder">GetAdder</a>
 </td>
 <td align="left" width="63%">
 Returns the client that owns the breakpoint.
@@ -85,7 +85,7 @@ Returns the client that owns the breakpoint.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugbreakpoint2-getcommand">GetCommand</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugbreakpoint2-getcommand">GetCommand</a>
 </td>
 <td align="left" width="63%">
 Returns the command string that is executed when a breakpoint is triggered.
@@ -95,7 +95,7 @@ Returns the command string that is executed when a breakpoint is triggered.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugbreakpoint2-getcurrentpasscount">GetCurrentPassCount</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugbreakpoint2-getcurrentpasscount">GetCurrentPassCount</a>
 </td>
 <td align="left" width="63%">
 Returns the remaining number of times that the target must reach the breakpoint location before the breakpoint is triggered.
@@ -104,7 +104,7 @@ Returns the remaining number of times that the target must reach the breakpoint 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugbreakpoint2-getdataparameters">GetDataParameters</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugbreakpoint2-getdataparameters">GetDataParameters</a>
 </td>
 <td align="left" width="63%">
 Returns the parameters for a processor breakpoint.
@@ -113,7 +113,7 @@ Returns the parameters for a processor breakpoint.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugbreakpoint2-getflags">GetFlags</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugbreakpoint2-getflags">GetFlags</a>
 </td>
 <td align="left" width="63%">
 Returns the flags for a breakpoint.
@@ -122,7 +122,7 @@ Returns the flags for a breakpoint.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugbreakpoint2-getid">GetId</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugbreakpoint2-getid">GetId</a>
 </td>
 <td align="left" width="63%">
 Returns a breakpoint ID, which is the engine's unique identifier for a breakpoint.
@@ -131,7 +131,7 @@ Returns a breakpoint ID, which is the engine's unique identifier for a breakpoin
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugbreakpoint2-getmatchthreadid">GetMatchThreadId</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugbreakpoint2-getmatchthreadid">GetMatchThreadId</a>
 </td>
 <td align="left" width="63%">
 Returns the engine thread ID of the thread that can trigger a breakpoint.
@@ -141,7 +141,7 @@ Returns the engine thread ID of the thread that can trigger a breakpoint.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugbreakpoint2-getoffset">GetOffset</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugbreakpoint2-getoffset">GetOffset</a>
 </td>
 <td align="left" width="63%">
 Returns the location that triggers a breakpoint.
@@ -150,7 +150,7 @@ Returns the location that triggers a breakpoint.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugbreakpoint2-getoffsetexpression">GetOffsetExpression</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugbreakpoint2-getoffsetexpression">GetOffsetExpression</a>
 </td>
 <td align="left" width="63%">
 Returns the expression string that evaluates to the location that triggers a breakpoint.
@@ -160,7 +160,7 @@ Returns the expression string that evaluates to the location that triggers a bre
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugbreakpoint2-getparameters">GetParameters</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugbreakpoint2-getparameters">GetParameters</a>
 </td>
 <td align="left" width="63%">
 Returns the parameters for a breakpoint.
@@ -169,7 +169,7 @@ Returns the parameters for a breakpoint.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugbreakpoint2-getpasscount">GetPassCount</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugbreakpoint2-getpasscount">GetPassCount</a>
 </td>
 <td align="left" width="63%">
 Returns the number of times that the target was originally required to reach the breakpoint location before the breakpoint is triggered.
@@ -178,7 +178,7 @@ Returns the number of times that the target was originally required to reach the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/extsfns/nf-extsfns-idebugfaentrytags-gettype">GetType</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/extsfns/nf-extsfns-idebugfaentrytags-gettype">GetType</a>
 </td>
 <td align="left" width="63%">
 Returns the type of the breakpoint and the type of the processor that a breakpoint is set for.
@@ -188,7 +188,7 @@ Returns the type of the breakpoint and the type of the processor that a breakpoi
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugbreakpoint2-removeflags">RemoveFlags</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugbreakpoint2-removeflags">RemoveFlags</a>
 </td>
 <td align="left" width="63%">
 Removes flags from a breakpoint.
@@ -198,7 +198,7 @@ Removes flags from a breakpoint.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugbreakpoint2-setcommand">SetCommand</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugbreakpoint2-setcommand">SetCommand</a>
 </td>
 <td align="left" width="63%">
 Sets the command that is executed when a breakpoint is triggered.
@@ -208,7 +208,7 @@ Sets the command that is executed when a breakpoint is triggered.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugbreakpoint2-setdataparameters">SetDataParameters</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugbreakpoint2-setdataparameters">SetDataParameters</a>
 </td>
 <td align="left" width="63%">
 Sets the parameters for a processor breakpoint.
@@ -217,7 +217,7 @@ Sets the parameters for a processor breakpoint.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugbreakpoint2-setflags">SetFlags</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugbreakpoint2-setflags">SetFlags</a>
 </td>
 <td align="left" width="63%">
 Sets the flags for a breakpoint.
@@ -227,7 +227,7 @@ Sets the flags for a breakpoint.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugbreakpoint2-setmatchthreadid">SetMatchThreadId</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugbreakpoint2-setmatchthreadid">SetMatchThreadId</a>
 </td>
 <td align="left" width="63%">
 Sets the engine thread ID of the thread that can trigger a breakpoint.
@@ -237,7 +237,7 @@ Sets the engine thread ID of the thread that can trigger a breakpoint.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugbreakpoint2-setoffset">SetOffset</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugbreakpoint2-setoffset">SetOffset</a>
 </td>
 <td align="left" width="63%">
 Sets the location that triggers a breakpoint.
@@ -246,7 +246,7 @@ Sets the location that triggers a breakpoint.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugbreakpoint2-setoffsetexpression">SetOffsetExpression</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugbreakpoint2-setoffsetexpression">SetOffsetExpression</a>
 </td>
 <td align="left" width="63%">
 Sets an expression string that evaluates to the location that triggers a breakpoint.
@@ -256,7 +256,7 @@ Sets an expression string that evaluates to the location that triggers a breakpo
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugbreakpoint2-setpasscount">SetPassCount</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugbreakpoint2-setpasscount">SetPassCount</a>
 </td>
 <td align="left" width="63%">
 Sets the number of times that the target must reach the breakpoint location before the breakpoint is triggered.
@@ -271,7 +271,7 @@ Sets the number of times that the target must reach the breakpoint location befo
 
 
 
-Although <b>IDebugBreakpoint</b> implements the <b>IUnknown</b> interface, the <b>IUnknown::AddRef</b> and <b>IUnknown::Release</b> methods are not used to control the lifetime of the breakpoint. Instead, an <b>IDebugBreakpoint</b> object is deleted after the method <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-removebreakpoint">RemoveBreakpoint</a> is called.
+Although <b>IDebugBreakpoint</b> implements the <b>IUnknown</b> interface, the <b>IUnknown::AddRef</b> and <b>IUnknown::Release</b> methods are not used to control the lifetime of the breakpoint. Instead, an <b>IDebugBreakpoint</b> object is deleted after the method <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-removebreakpoint">RemoveBreakpoint</a> is called.
 
 
 
@@ -281,7 +281,7 @@ Although <b>IDebugBreakpoint</b> implements the <b>IUnknown</b> interface, the <
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugbreakpoint2">IDebugBreakpoint2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugbreakpoint2">IDebugBreakpoint2</a>
  
 
  

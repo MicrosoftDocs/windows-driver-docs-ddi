@@ -61,7 +61,7 @@ The
 ### -field ValidBits
 
 A 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_whea_processor_generic_error_section_validbits">WHEA_PROCESSOR_GENERIC_ERROR_SECTION_VALIDBITS</a> 
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_processor_generic_error_section_validbits">WHEA_PROCESSOR_GENERIC_ERROR_SECTION_VALIDBITS</a> 
       union that specifies which members of this structure contain valid data.
 
 
@@ -346,7 +346,7 @@ The CPU version, which includes the family, model, and stepping information.
 
 <ul>
 <li>For x86 and x64 processors, this member contains a 
-        <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_whea_processor_family_info">WHEA_PROCESSOR_FAMILY_INFO</a> union.</li>
+        <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_processor_family_info">WHEA_PROCESSOR_FAMILY_INFO</a> union.</li>
 <li>For Itanium processors, this member contains the data provided in CPUID Register 3.</li>
 </ul>
 This member contains valid data only if the <b>CPUVersion</b> bit of the 
@@ -423,7 +423,7 @@ The
      structure describes the error data that is contained in a generic processor error section of an 
      <a href="https://docs.microsoft.com/windows-hardware/drivers/whea/error-records">error record</a>. An error record contains a generic processor 
      error section only if the <b>SectionType</b> member of one of the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_whea_error_record_section_descriptor">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a> 
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_section_descriptor">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a> 
      structures that describe the error record sections for that error record contains 
      <b>PROCESSOR_GENERIC_ERROR_SECTION_GUID</b>.
 
@@ -439,15 +439,15 @@ The
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_whea_error_record_section_descriptor">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_error_record_section_descriptor">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_whea_processor_family_info">WHEA_PROCESSOR_FAMILY_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_processor_family_info">WHEA_PROCESSOR_FAMILY_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/ns-ntddk-_whea_processor_generic_error_section_validbits">WHEA_PROCESSOR_GENERIC_ERROR_SECTION_VALIDBITS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_whea_processor_generic_error_section_validbits">WHEA_PROCESSOR_GENERIC_ERROR_SECTION_VALIDBITS</a>
  
 
  

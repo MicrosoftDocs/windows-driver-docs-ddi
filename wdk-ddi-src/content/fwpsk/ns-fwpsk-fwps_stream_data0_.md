@@ -111,7 +111,7 @@ Specifies that the stream is to be disconnected after the data in the outbound d
 Specifies that the stream is to be reset after the data in the outbound data stream has been
        sent. The network stack will set the RST flag in the TCP header of the last packet that is sent out.
        Callout drivers must not call the 
-       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsstreaminjectasync0">FwpsStreamInjectAsync0</a> function
+       <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsstreaminjectasync0">FwpsStreamInjectAsync0</a> function
        to inject data into the stream if this flag is set.       
 
 <div class="alert"><b>Note</b>  This flag is not implemented in Windows Vista.</div>
@@ -119,7 +119,7 @@ Specifies that the stream is to be reset after the data in the outbound data str
 ### -field dataOffset
 
 An 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/ns-fwpsk-fwps_stream_data_offset0_">FWPS_STREAM_DATA_OFFSET0</a> structure
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_stream_data_offset0_">FWPS_STREAM_DATA_OFFSET0</a> structure
      that specifies the offset into the data stream where the portion of the data stream begins.
 
 
@@ -131,7 +131,7 @@ The number of bytes in the portion of the data stream.
 ### -field netBufferListChain
 
 A pointer to a 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure that describes
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a> structure that describes
      the portion of the data stream.
 
 
@@ -141,9 +141,9 @@ A pointer to a
 
 The filter engine uses the FWPS_STREAM_DATA0 structure to describe the portion of a data stream that a
     callout's 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_netvista/">classifyFn</a> callout function can process. The 
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">classifyFn</a> callout function can process. The 
     <b>dataStream</b> member of the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/ns-fwpsk-fwps_stream_callout_io_packet0_">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_stream_callout_io_packet0_">
     FWPS_STREAM_CALLOUT_IO_PACKET0</a> structure points to an FWPS_STREAM_DATA0 structure.
 
 
@@ -154,24 +154,24 @@ The filter engine uses the FWPS_STREAM_DATA0 structure to describe the portion o
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/ns-fwpsk-fwps_stream_callout_io_packet0_">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_stream_callout_io_packet0_">
    FWPS_STREAM_CALLOUT_IO_PACKET0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/ns-fwpsk-fwps_stream_data_offset0_">FWPS_STREAM_DATA_OFFSET0</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_stream_data_offset0_">FWPS_STREAM_DATA_OFFSET0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/nf-fwpsk-fwpsstreaminjectasync0">FwpsStreamInjectAsync0</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsstreaminjectasync0">FwpsStreamInjectAsync0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_net_buffer_list">NET_BUFFER_LIST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_netvista/">classifyFn</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">classifyFn</a>
  
 
  

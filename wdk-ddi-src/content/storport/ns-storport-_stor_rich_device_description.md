@@ -106,7 +106,7 @@ This is invoked during the Unit enumeration process or the device description up
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_unit_control">HwStorUnitControl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_unit_control">HwStorUnitControl</a>
  
 
  

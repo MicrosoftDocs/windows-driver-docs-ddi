@@ -76,11 +76,11 @@ This member is reserved and should be set to zero.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">PEP_NOTIFY_PPM_PARK_MASK notification</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">PEP_NOTIFY_PPM_PARK_MASK notification</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/pepfx/ns-pepfx-_pep_ppm_park_mask">PEP_PPM_PARK_MASK</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/pepfx/ns-pepfx-_pep_ppm_park_mask">PEP_PPM_PARK_MASK</a>
  
 
  

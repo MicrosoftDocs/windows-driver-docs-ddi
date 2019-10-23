@@ -78,7 +78,7 @@ Size, in bytes, of the *FileInformation* buffer.
 
 ### -param FileInformationClass [in]
 
-A [FILE_INFORMATION_CLASS](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_file_information_class) value that specifies the type of file information to be returned in the *FileInformation* buffer.
+A [FILE_INFORMATION_CLASS](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_file_information_class) value that specifies the type of file information to be returned in the *FileInformation* buffer.
 
 
 ### -param LengthReturned [out, optional]
@@ -127,18 +127,18 @@ Do not call this routine with a non-NULL top level IRP value, as this can cause 
 
 ## -see-also
 
-[FILE_INFORMATION_CLASS](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ne-wdm-_file_information_class)
+[FILE_INFORMATION_CLASS](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ne-wdm-_file_information_class)
 
 
-[FltQueryVolumeInformationFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltqueryvolumeinformationfile)
-
-
-
-[FltSetInformationFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltsetinformationfile)
+[FltQueryVolumeInformationFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltqueryvolumeinformationfile)
 
 
 
-[ZwQueryInformationFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-ntqueryinformationfile)
+[FltSetInformationFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetinformationfile)
+
+
+
+[ZwQueryInformationFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryinformationfile)
  
 
  

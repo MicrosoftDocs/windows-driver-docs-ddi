@@ -426,7 +426,7 @@ Supported starting with Windows 8.
 
 ### -field DxgkDdiPowerRuntimeControlRequest
 
-A pointer to the display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkddipowerruntimecontrolrequest">DxgkDdiPowerRuntimeControlRequest</a> function.
+A pointer to the display miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddipowerruntimecontrolrequest">DxgkDdiPowerRuntimeControlRequest</a> function.
 
 Supported starting with Windows 8.
 

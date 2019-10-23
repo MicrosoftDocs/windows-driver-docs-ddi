@@ -63,14 +63,14 @@ Contains the number of access ranges pointed to by <b>IdeAccessRange</b>. Each i
 
 ### -field IdeAccessRange
 
-Pointer to the first address range in a series of contiguous address ranges defined by a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/ns-irb-_ide_access_range">IDE_ACCESS_RANGE</a>. The value in the <b>NumberOfAccessRanges</b> member indicates how many address ranges are provided. The port driver populates each <b>IDE_ACCESS_RANGE</b> structure with the address ranges allocated for the controller.
+Pointer to the first address range in a series of contiguous address ranges defined by a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/ns-irb-_ide_access_range">IDE_ACCESS_RANGE</a>. The value in the <b>NumberOfAccessRanges</b> member indicates how many address ranges are provided. The port driver populates each <b>IDE_ACCESS_RANGE</b> structure with the address ranges allocated for the controller.
 
 
 ## -remarks
 
 
 
-The port driver passes this structure to the miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/nc-irb-ide_hw_control">IdeHwControl</a> routine.
+The port driver passes this structure to the miniport driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/nc-irb-ide_hw_control">IdeHwControl</a> routine.
 
 
 
@@ -80,11 +80,11 @@ The port driver passes this structure to the miniport driver's <a href="https://
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/ns-irb-_ide_access_range">IDE_ACCESS_RANGE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/ns-irb-_ide_access_range">IDE_ACCESS_RANGE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/irb/nc-irb-ide_hw_control">IdeHwControl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/irb/nc-irb-ide_hw_control">IdeHwControl</a>
  
 
  

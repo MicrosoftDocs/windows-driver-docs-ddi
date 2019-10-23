@@ -68,7 +68,7 @@ The <b>IDebugClient6</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugclient6-seteventcontextcallbacks">SetEventContextCallbacks</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugclient6-seteventcontextcallbacks">SetEventContextCallbacks</a>
 </td>
 <td align="left" width="63%">
 Registers an event callbacks object with this client. 

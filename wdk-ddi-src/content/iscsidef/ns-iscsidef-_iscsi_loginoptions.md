@@ -151,12 +151,12 @@ The password to be used during logon.
 
 ### -field HeaderDigest
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/iscsidef/ne-iscsidef-iscsi_digest_types">ISCSI_DIGEST_TYPES</a> value that indicates the method that the initiator uses to verify the integrity of the header digest in a logon PDU.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsidef/ne-iscsidef-iscsi_digest_types">ISCSI_DIGEST_TYPES</a> value that indicates the method that the initiator uses to verify the integrity of the header digest in a logon PDU.
 
 
 ### -field DataDigest
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/iscsidef/ne-iscsidef-iscsi_digest_types">ISCSI_DIGEST_TYPES</a> value that indicates the method that the initiator uses to verify the integrity of the data digest in a logon PDU.
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsidef/ne-iscsidef-iscsi_digest_types">ISCSI_DIGEST_TYPES</a> value that indicates the method that the initiator uses to verify the integrity of the data digest in a logon PDU.
 
 
 ### -field MaximumConnections
@@ -249,7 +249,7 @@ Use RADIUS to verify CHAP response.
 
 ### -field AuthType
 
-A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/iscsidef/ne-iscsidef-iscsi_auth_types">ISCSI_AUTH_TYPES</a> value that indicates the authentication method that is used to establish a logon connection. 
+A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsidef/ne-iscsidef-iscsi_auth_types">ISCSI_AUTH_TYPES</a> value that indicates the authentication method that is used to establish a logon connection. 
 
 
 ## -see-also
@@ -257,11 +257,11 @@ A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/iscsi
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/iscsidef/ne-iscsidef-iscsi_auth_types">ISCSI_AUTH_TYPES</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsidef/ne-iscsidef-iscsi_auth_types">ISCSI_AUTH_TYPES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/iscsidef/ne-iscsidef-iscsi_digest_types">ISCSI_DIGEST_TYPES</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsidef/ne-iscsidef-iscsi_digest_types">ISCSI_DIGEST_TYPES</a>
 
 
 

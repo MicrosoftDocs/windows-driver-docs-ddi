@@ -98,9 +98,9 @@ Reserved.
 
 
 
-The file layout entries that follow the <b>QUERY_FILE_LAYOUT_OUTPUT</b> structure are determined by the flags set in the <b>Flags</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_query_file_layout_input">QUERY_FILE_LAYOUT_INPUT</a> provided as input to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-query-file-layout">FSCTL_QUERY_FILE_LAYOUT</a> request. A number of <b>FILE_LAYOUT_ENTRY</b> structures follow <b>QUERY_FILE_LAYOUT_OUTPUT</b>. Depending on the entries selected to return from a query, offsets in <b>FILE_LAYOUT_ENTRY</b> indicate where the additional informational entries are located in the user buffer. 
+The file layout entries that follow the <b>QUERY_FILE_LAYOUT_OUTPUT</b> structure are determined by the flags set in the <b>Flags</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_query_file_layout_input">QUERY_FILE_LAYOUT_INPUT</a> provided as input to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/fsctl-query-file-layout">FSCTL_QUERY_FILE_LAYOUT</a> request. A number of <b>FILE_LAYOUT_ENTRY</b> structures follow <b>QUERY_FILE_LAYOUT_OUTPUT</b>. Depending on the entries selected to return from a query, offsets in <b>FILE_LAYOUT_ENTRY</b> indicate where the additional informational entries are located in the user buffer. 
 
-The following entry structures are returned when their corresponding inclusion flag is set in the <b>Flags</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_query_file_layout_input">QUERY_FILE_LAYOUT_INPUT</a>.<table>
+The following entry structures are returned when their corresponding inclusion flag is set in the <b>Flags</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_query_file_layout_input">QUERY_FILE_LAYOUT_INPUT</a>.<table>
 <tr>
 <th>Entry</th>
 <th>Inclusion flag</th>
@@ -140,7 +140,7 @@ When multiple entries of the same type exist for a single <b>FILE_LAYOUT_ENTRY</
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_query_file_layout_input">QUERY_FILE_LAYOUT_INPUT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_query_file_layout_input">QUERY_FILE_LAYOUT_INPUT</a>
  
 
  

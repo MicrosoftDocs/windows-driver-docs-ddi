@@ -48,7 +48,7 @@ req.typenames: WINBIO_BIR_DATA
 ## -description
 
 
-The WINBIO_BIR_DATA structure contains the location and size of a block in a BIR. The offset is measured from the beginning of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winbio_types/ns-winbio_types-_winbio_bir">WINBIO_BIR</a> structure.
+The WINBIO_BIR_DATA structure contains the location and size of a block in a BIR. The offset is measured from the beginning of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winbio_types/ns-winbio_types-_winbio_bir">WINBIO_BIR</a> structure.
 
 
 ## -struct-fields
@@ -71,15 +71,15 @@ Specifies the offset, in bytes, of the block within the BIR.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winbio_types/ns-winbio_types-_winbio_bir_header">WINBIO_BIR_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winbio_types/ns-winbio_types-_winbio_bir_header">WINBIO_BIR_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winbio_ioctl/ns-winbio_ioctl-_winbio_capture_data">WINBIO_CAPTURE_DATA</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winbio_ioctl/ns-winbio_ioctl-_winbio_capture_data">WINBIO_CAPTURE_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winbio_ioctl/ns-winbio_ioctl-_winbio_data">WINBIO_DATA</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winbio_ioctl/ns-winbio_ioctl-_winbio_data">WINBIO_DATA</a>
  
 
  

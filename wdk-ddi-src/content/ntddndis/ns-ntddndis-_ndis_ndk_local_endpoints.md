@@ -58,7 +58,7 @@ The <b>NDIS_NDK_LOCAL_ENDPOINTS</b> structure describes the NDK local endpoints 
 
 ### -field Header
 
-An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure that describes this <b>NDIS_NDK_LOCAL_ENDPOINTS</b> structure. Set the members of the <b>NDIS_OBJECT_HEADER</b> structure as follows:
+An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure that describes this <b>NDIS_NDK_LOCAL_ENDPOINTS</b> structure. Set the members of the <b>NDIS_OBJECT_HEADER</b> structure as follows:
 
 <ul>
 <li>Set the <b>Type</b> member to <b>NDIS_OBJECT_TYPE_DEFAULT</b>.</li>
@@ -73,7 +73,7 @@ An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdd
 
 ### -field Count
 
-The number of elements in the endpoints array that is passed in the <b>LocalEndpoints</b> member. Each element in the array is an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_ndk_local_endpoint_entry">NDIS_NDK_LOCAL_ENDPOINT_ENTRY</a> structure.
+The number of elements in the endpoints array that is passed in the <b>LocalEndpoints</b> member. Each element in the array is an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_ndk_local_endpoint_entry">NDIS_NDK_LOCAL_ENDPOINT_ENTRY</a> structure.
 
 
 ### -field NDLocalEndpointsMappedtoTCPLocalEndpoints
@@ -83,14 +83,14 @@ A <b>BOOLEAN</b> value that specifies how the endpoints are mapped. If the RDMA 
 
 ### -field LocalEndpoints
 
-A variable-sized array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_ndk_local_endpoint_entry">NDIS_NDK_LOCAL_ENDPOINT_ENTRY</a> structures where the size of the array is determined by the number of local endpoints being returned. The <b>Count</b> member  specifies the number of elements in the local endpoint array.
+A variable-sized array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_ndk_local_endpoint_entry">NDIS_NDK_LOCAL_ENDPOINT_ENTRY</a> structures where the size of the array is determined by the number of local endpoints being returned. The <b>Count</b> member  specifies the number of elements in the local endpoint array.
 
 
 ## -remarks
 
 
 
-The <b>NDIS_NDK_LOCAL_ENDPOINTS</b> structure is returned with the <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-ndk-local-endpoints">OID_NDK_LOCAL_ENDPOINTS</a> OID. The <b>InformationBuffer</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structure contains a pointer to this structure.
+The <b>NDIS_NDK_LOCAL_ENDPOINTS</b> structure is returned with the <a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-ndk-local-endpoints">OID_NDK_LOCAL_ENDPOINTS</a> OID. The <b>InformationBuffer</b> member of the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structure contains a pointer to this structure.
 
 
 
@@ -115,15 +115,15 @@ If the RDMA technology for the NDK provider requires the provider to map ND loca
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_ndk_local_endpoint_entry">NDIS_NDK_LOCAL_ENDPOINT_ENTRY</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_ndk_local_endpoint_entry">NDIS_NDK_LOCAL_ENDPOINT_ENTRY</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a>
 
 
 

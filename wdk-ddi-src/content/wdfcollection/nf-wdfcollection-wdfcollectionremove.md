@@ -109,7 +109,7 @@ WdfCollectionRemove(
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfcollection/nf-wdfcollection-wdfcollectionremoveitem">WdfCollectionRemoveItem</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfcollection/nf-wdfcollection-wdfcollectionremoveitem">WdfCollectionRemoveItem</a>
  
 
  

@@ -85,7 +85,7 @@ Caution is required here because IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS is defined w
 
 ### -input-buffer
 
-The input buffer at Irp->AssociatedIrp.SystemBuffer must contain a ULONG value as defined in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ehstorioctl/ne-ehstorioctl-_pdo_type">PDO_TYPE</a>,
+The input buffer at Irp->AssociatedIrp.SystemBuffer must contain a ULONG value as defined in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorioctl/ne-ehstorioctl-_pdo_type">PDO_TYPE</a>,
 
 where either all of the PDOs, just the disk PDO, just the control PDO or all silo PDOs are enumerated respectively according to the provided PDO_TYPE input value.
 
@@ -99,7 +99,7 @@ The length of a ULONG.
 
 Irp->AssociatedIrp.SystemBuffer points to the buffer that will receive the PDO enumeration results. If the client supplied a non-<b>NULL</b> buffer with the issued IOCTL, then the driver fills it with the result set only if the Parameters.DeviceIoControl.The return value is STATUS_SUCCESS if the buffer size is sufficient and the results have been copied to the buffer. Otherwise STATUS_INVALID_BUFFER_SIZE is returned and the output buffer is unmodified.
 
-The returned enumeration buffer contains a result set structured according to the following rules. The leading structure in the buffer, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ehstorioctl/ns-ehstorioctl-_enum_pdo_results">ENUM_PDO_RESULTS</a>, consists of a structure count and an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ehstorioctl/ns-ehstorioctl-_enum_pdo_entry">ENUM_PDO_ENTRY</a> structures.
+The returned enumeration buffer contains a result set structured according to the following rules. The leading structure in the buffer, <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorioctl/ns-ehstorioctl-_enum_pdo_results">ENUM_PDO_RESULTS</a>, consists of a structure count and an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ehstorioctl/ns-ehstorioctl-_enum_pdo_entry">ENUM_PDO_ENTRY</a> structures.
 
 
 ### -output-buffer-length

@@ -58,7 +58,7 @@ The <b>SERCX_BUFFER_DESCRIPTOR</b> structure describes a data buffer for a recei
 
 ### -field Size
 
-The size, in bytes, of this structure.  The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sercx/nf-sercx-sercxretrievereceivebuffer">SerCxRetrieveReceiveBuffer</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sercx/nf-sercx-sercxretrievetransmitbuffer">SerCxRetrieveTransmitBuffer</a> methods use this member to determine which version of the structure the caller is using. The size of this structure might change in future versions of the Sercx.h header file.
+The size, in bytes, of this structure.  The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercxretrievereceivebuffer">SerCxRetrieveReceiveBuffer</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercxretrievetransmitbuffer">SerCxRetrieveTransmitBuffer</a> methods use this member to determine which version of the structure the caller is using. The size of this structure might change in future versions of the Sercx.h header file.
 
 
 ### -field Buffer
@@ -77,11 +77,11 @@ The number of bytes available in the buffer. This size determines the maximize n
 
 The serial  controller driver uses the information in this structure to determine where in memory to read data from during a receive operation, and where in memory to write data during a transmit operation.
 
-At any time, there can be no more than one valid receive buffer and one valid transmit buffer.  The controller driver calls the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sercx/nf-sercx-sercxretrievereceivebuffer">SerCxRetrieveReceiveBuffer</a> method to obtain the receive buffer, and calls the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sercx/nf-sercx-sercxretrievetransmitbuffer">SerCxRetrieveTransmitBuffer</a> method to obtain the transmit buffer.  Both methods copy buffer descriptions into caller-allocated <b>SERCX_BUFFER_DESCRIPTOR</b> structures. A subsequent call to one of these methods invalidates the previously issued descriptor for the receive buffer or transmit buffer, respectively.  The caller must not access a buffer that is described by a buffer descriptor that is no longer valid.
+At any time, there can be no more than one valid receive buffer and one valid transmit buffer.  The controller driver calls the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercxretrievereceivebuffer">SerCxRetrieveReceiveBuffer</a> method to obtain the receive buffer, and calls the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercxretrievetransmitbuffer">SerCxRetrieveTransmitBuffer</a> method to obtain the transmit buffer.  Both methods copy buffer descriptions into caller-allocated <b>SERCX_BUFFER_DESCRIPTOR</b> structures. A subsequent call to one of these methods invalidates the previously issued descriptor for the receive buffer or transmit buffer, respectively.  The caller must not access a buffer that is described by a buffer descriptor that is no longer valid.
 
 The buffers that are obtained by successive calls to <b>SerCxRetrieveReceiveBuffer</b> or <b>SerCxRetrieveTransmitBuffer</b> are not guaranteed to be contiguous.
 
-The controller driver must call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sercx/nf-sercx-sercx_buffer_descriptor_init">SERCX_BUFFER_DESCRIPTOR_INIT</a> function to initialize an <b>SERCX_BUFFER_DESCRIPTOR</b> structure before the structure is passed to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sercx/nf-sercx-sercxretrievereceivebuffer">SerCxRetrieveReceiveBuffer</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sercx/nf-sercx-sercxretrievetransmitbuffer">SerCxRetrieveTransmitBuffer</a> method. After a buffer descriptor is initialized, it can be reused without being initialized again.
+The controller driver must call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx_buffer_descriptor_init">SERCX_BUFFER_DESCRIPTOR_INIT</a> function to initialize an <b>SERCX_BUFFER_DESCRIPTOR</b> structure before the structure is passed to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercxretrievereceivebuffer">SerCxRetrieveReceiveBuffer</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercxretrievetransmitbuffer">SerCxRetrieveTransmitBuffer</a> method. After a buffer descriptor is initialized, it can be reused without being initialized again.
 
 
 
@@ -91,15 +91,15 @@ The controller driver must call the <a href="https://docs.microsoft.com/windows-
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sercx/nf-sercx-sercx_buffer_descriptor_init">SERCX_BUFFER_DESCRIPTOR_INIT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx_buffer_descriptor_init">SERCX_BUFFER_DESCRIPTOR_INIT</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sercx/nf-sercx-sercxretrievereceivebuffer">SerCxRetrieveReceiveBuffer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercxretrievereceivebuffer">SerCxRetrieveReceiveBuffer</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sercx/nf-sercx-sercxretrievetransmitbuffer">SerCxRetrieveTransmitBuffer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercxretrievetransmitbuffer">SerCxRetrieveTransmitBuffer</a>
  
 
  

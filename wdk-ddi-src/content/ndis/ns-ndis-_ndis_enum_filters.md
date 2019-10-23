@@ -49,7 +49,7 @@ req.typenames: NDIS_ENUM_FILTERS, *PNDIS_ENUM_FILTERS
 
 
 The NDIS_ENUM_FILTERS structure is returned from the call to the 
-  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisenumeratefiltermodules">
+  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisenumeratefiltermodules">
   NdisEnumerateFilterModules</a> function to provide filter information for a filter stack.
 
 
@@ -61,7 +61,7 @@ The NDIS_ENUM_FILTERS structure is returned from the call to the
 ### -field Header
 
 The 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a> structure for the
      filter enumeration structure. The driver sets the 
      <b>Type</b> member of the structure that 
      <b>Header</b> specifies to NDIS_OBJECT_TYPE_DEFAULT, the 
@@ -89,7 +89,7 @@ The offset, in bytes, to the first member of array at the
 ### -field Filter
 
 An array that contains zero or more 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_filter_interface">NDIS_FILTER_INTERFACE</a> structures that
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_filter_interface">NDIS_FILTER_INTERFACE</a> structures that
      the call returns.
 
 
@@ -98,10 +98,10 @@ An array that contains zero or more
 
 
 The 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisenumeratefiltermodules">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisenumeratefiltermodules">
     NdisEnumerateFilterModules</a> function returns an NDIS_ENUM_FILTERS structure and the 
     <b>Filter</b> member of that structure contains an array of 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_filter_interface">NDIS_FILTER_INTERFACE</a> structures. The
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_filter_interface">NDIS_FILTER_INTERFACE</a> structures. The
     array contains one NDIS_FILTER_INTERFACE structure for each NDIS 5.1 or earlier filter intermediate
     driver or NDIS 6.0 or later NDIS filter module that is in the driver stack.
 
@@ -113,15 +113,15 @@ The
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_filter_interface">NDIS_FILTER_INTERFACE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_filter_interface">NDIS_FILTER_INTERFACE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_object_header">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisenumeratefiltermodules">NdisEnumerateFilterModules</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisenumeratefiltermodules">NdisEnumerateFilterModules</a>
  
 
  

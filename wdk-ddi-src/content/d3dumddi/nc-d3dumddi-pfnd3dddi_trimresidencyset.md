@@ -58,7 +58,7 @@ A handle to the display device.
 
 *pData* [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-d3dddiarg_trimresidencyset">D3DDDIARG_TRIMRESIDENCYSET</a> structure that provides the details of the requested operation.
+A pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-d3dddiarg_trimresidencyset">D3DDDIARG_TRIMRESIDENCYSET</a> structure that provides the details of the requested operation.
 
 ## -returns
 
@@ -66,5 +66,5 @@ If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.co
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dumddi/ns-d3dumddi-d3dddiarg_trimresidencyset">D3DDDIARG_TRIMRESIDENCYSET</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-d3dddiarg_trimresidencyset">D3DDDIARG_TRIMRESIDENCYSET</a>
 

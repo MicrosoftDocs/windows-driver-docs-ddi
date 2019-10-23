@@ -85,7 +85,7 @@ Specifies whether the HD Audio controller supports <a href="https://docs.microso
 
 
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hdaudio/nc-hdaudio-pget_device_information">GetDeviceInformation</a> routine uses this structure to provide information about the HD Audio controller's device-specific capabilities to clients.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hdaudio/nc-hdaudio-pget_device_information">GetDeviceInformation</a> routine uses this structure to provide information about the HD Audio controller's device-specific capabilities to clients.
 
 
 
@@ -95,7 +95,7 @@ The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hda
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/hdaudio/nc-hdaudio-pget_device_information">GetDeviceInformation</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hdaudio/nc-hdaudio-pget_device_information">GetDeviceInformation</a>
  
 
  

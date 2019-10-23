@@ -58,7 +58,7 @@ The <code>IPrintOemUni::ResetPDEV</code> method allows a rendering plug-in for U
 
 ### -param pdevobjOld
 
-Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/ns-printoem-_devobj">DEVOBJ</a> structure containing current PDEV information.
+Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_devobj">DEVOBJ</a> structure containing current PDEV information.
 
 
 ### -param pdevobjNew
@@ -129,7 +129,7 @@ The rendering plug-in's private PDEV structure's address is contained in the <b>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nn-prcomoem-iprintoemuni">IPrintOemUni</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintoemuni">IPrintOemUni</a>
  
 
  

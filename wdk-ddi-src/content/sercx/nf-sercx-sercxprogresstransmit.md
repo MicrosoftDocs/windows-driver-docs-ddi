@@ -63,7 +63,7 @@ A WDFDEVICE handle to the framework device object that represents the serial con
 
 ### -param BytesTransmitted [in]
 
-The number of bytes of data that the caller copied from the transmit buffer that was obtained by the latest call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sercx/nf-sercx-sercxretrievetransmitbuffer">SerCxRetrieveTransmitBuffer</a> method.
+The number of bytes of data that the caller copied from the transmit buffer that was obtained by the latest call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercxretrievetransmitbuffer">SerCxRetrieveTransmitBuffer</a> method.
 
 
 ### -param TransmitStatus [in]
@@ -74,9 +74,9 @@ The current status of the transmit operation. Set this parameter to one of the f
 <li><b>SerCxStatusSuccess</b></li>
 <li><b>SerCxStatusCancelled</b></li>
 </ul>
-For more information about these values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sercx/ne-sercx-_sercx_status">SERCX_STATUS</a>.
+For more information about these values, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/ne-sercx-_sercx_status">SERCX_STATUS</a>.
 
-<div class="alert"><b>Note</b>  The <b>SerCxStatusTimeout</b> value is valid only for receive operations. No interval time-out can be specified for a transmit operation. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddser/ns-ntddser-_serial_timeouts">SERIAL_TIMEOUTS</a>.</div>
+<div class="alert"><b>Note</b>  The <b>SerCxStatusTimeout</b> value is valid only for receive operations. No interval time-out can be specified for a transmit operation. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddser/ns-ntddser-_serial_timeouts">SERIAL_TIMEOUTS</a>.</div>
 <div> </div>
 
 ## -returns
@@ -135,7 +135,7 @@ The transmit operation has already been canceled.
 
 The serial controller driver calls this method to report progress on an outstanding write operation. Typically, the serial controller driver calls this method from its DMA completion callback (if the driver uses DMA to read the data) or from its transmit/receive DPC function (if PIO is used).
 
-If the <b>SerCxProgressTransmit</b> call does not complete all outstanding work for the write operation, the caller must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sercx/nf-sercx-sercxretrievetransmitbuffer">SerCxRetrieveTransmitBuffer</a> again to get a new buffer descriptor and continue to transmit data.
+If the <b>SerCxProgressTransmit</b> call does not complete all outstanding work for the write operation, the caller must call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercxretrievetransmitbuffer">SerCxRetrieveTransmitBuffer</a> again to get a new buffer descriptor and continue to transmit data.
 
 
 
@@ -145,15 +145,15 @@ If the <b>SerCxProgressTransmit</b> call does not complete all outstanding work 
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sercx/ne-sercx-_sercx_status">SERCX_STATUS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/ne-sercx-_sercx_status">SERCX_STATUS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddser/ns-ntddser-_serial_timeouts">SERIAL_TIMEOUTS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddser/ns-ntddser-_serial_timeouts">SERIAL_TIMEOUTS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sercx/nf-sercx-sercxretrievetransmitbuffer">SerCxRetrieveTransmitBuffer</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercxretrievetransmitbuffer">SerCxRetrieveTransmitBuffer</a>
  
 
  

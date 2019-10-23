@@ -51,7 +51,7 @@ req.typenames:
 The 
   <i>ProtocolOidRequestComplete</i> function completes the processing of a protocol
   driver-initiated OID request for which the 
-  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisoidrequest">NdisOidRequest</a> function returned
+  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisoidrequest">NdisOidRequest</a> function returned
   NDIS_STATUS_PENDING.
 <div class="alert"><b>Note</b>  You must declare the function by using the <b>PROTOCOL_OID_REQUEST_COMPLETE</b> type. For more
    information, see the following Examples section.</div><div> </div>
@@ -65,13 +65,13 @@ The
 
 A handle to a protocol driver-allocated context area in which the protocol driver maintains
      per-binding run-time state. The driver supplied this handle when it called the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a> function.
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a> function.
 
 
 ### -param OidRequest [in]
 
 A pointer to the protocol driver-supplied 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structure that was
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structure that was
      previously passed to the 
      <b>NdisOidRequest</b> function.
 
@@ -106,7 +106,7 @@ If
       <i>Status</i> is NDIS_STATUS_SUCCESS, the 
       <b>BytesRead</b> or 
       <b>BytesWritten</b> member of the 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structure has been set
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a> structure has been set
       by NDIS or the underlying driver to specify how much protocol driver-supplied information was
       transferred from the buffer at 
       <b>InformationBuffer</b> to the NIC in a set operation or how much information
@@ -140,11 +140,11 @@ In these circumstances,
       request, set up another NDIS_OID_REQUEST structure with the required 
       <b>InformationBufferLength</b> and same 
       <b>Oid</b>, and retry the call to the 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisoidrequest">NdisOidRequest</a> function.
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisoidrequest">NdisOidRequest</a> function.
 
 <i>ProtocolOidRequestComplete</i> can retry requests for certain other NDIS_STATUS_
       <i>XXX</i> arguments, as well, as described in the reference for the 
-      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisoidrequest">NdisOidRequest</a> function.
+      <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisoidrequest">NdisOidRequest</a> function.
 
 </li>
 <li>
@@ -158,7 +158,7 @@ If
 </li>
 </ul>
 For global queries and sets, the underlying connectionless miniport driver's call to the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismoidrequestcomplete">NdisMOidRequestComplete</a> function
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismoidrequestcomplete">NdisMOidRequestComplete</a> function
     causes NDIS to call the 
     <i>ProtocolOidRequestComplete</i> function. NDIS forwards the miniport
     driver-determined 
@@ -175,7 +175,7 @@ For binding-specific queries, NDIS calls the
     drivers.
 
 For more information about system-defined OIDs, see 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/_netvista/">NDIS OIDs</a>.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/_netvista/">NDIS OIDs</a>.
 
 <i>ProtocolOidRequestComplete</i> can be called before the protocol driver has had
     time to inspect the status code that 
@@ -231,19 +231,19 @@ For information about  _Use_decl_annotations_, see <a href="https://go.microsoft
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_oid_request">NDIS_OID_REQUEST</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndismoidrequestcomplete">NdisMOidRequestComplete</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismoidrequestcomplete">NdisMOidRequestComplete</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisoidrequest">NdisOidRequest</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisoidrequest">NdisOidRequest</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisopenadapterex">NdisOpenAdapterEx</a>
 
 
 

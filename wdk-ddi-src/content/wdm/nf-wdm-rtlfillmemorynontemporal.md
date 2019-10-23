@@ -69,8 +69,8 @@ The value to fill the destination memory block with. This value is copied to eve
 This function returns NTSYSAPI VOID.
 ## -remarks
 
-**RtlFillMemoryNonTemporal** only performs a non-temporal fill for x64-based systems, and only when the *Length* parameter is 8 bytes or greater. Otherwise, this function is equivalent to [**RtlFillMemory**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlfillmemory).
+**RtlFillMemoryNonTemporal** only performs a non-temporal fill for x64-based systems, and only when the *Length* parameter is 8 bytes or greater. Otherwise, this function is equivalent to [**RtlFillMemory**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlfillmemory).
 
 ## -see-also
 
-[**RtlFillMemory**](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlfillmemory)
+[**RtlFillMemory**](https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlfillmemory)

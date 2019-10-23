@@ -85,11 +85,11 @@ The IOCTL_BTHX_HCI_READ and IOCTL_BTHX_HCI_WRITE IOCTLs are used to read/write d
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthxddi/ni-bthxddi-ioctl_bthx_read_hci">IOCTL_BTHX_HCI_READ</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthxddi/ni-bthxddi-ioctl_bthx_read_hci">IOCTL_BTHX_HCI_READ</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/bthxddi/ni-bthxddi-ioctl_bthx_write_hci">IOCTL_BTHX_HCI_WRITE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/bthxddi/ni-bthxddi-ioctl_bthx_write_hci">IOCTL_BTHX_HCI_WRITE</a>
  
 
  

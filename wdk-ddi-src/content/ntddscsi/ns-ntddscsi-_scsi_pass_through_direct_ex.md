@@ -98,7 +98,7 @@ Indicates the interval in seconds that the request can execute before the port d
 
 ### -field StorAddressOffset
 
-The location of the target device's [STOR_ADDR_BTL8](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/scsi/ns-scsi-_stor_addr_btl8) address structure, in bytes, from the beginning of this structure.
+The location of the target device's [STOR_ADDR_BTL8](https://docs.microsoft.com/windows-hardware/drivers/ddi/scsi/ns-scsi-_stor_addr_btl8) address structure, in bytes, from the beginning of this structure.
 
 ### -field SenseInfoOffset
 
@@ -139,4 +139,4 @@ The **SCSI_PASS_THROUGH_DIRECT_EX** structure is used with [IOCTL_SCSI_PASS_THRO
 
 [SCSI_PASS_THROUGH_DIRECT](ns-ntddscsi-_scsi_pass_through_direct.md)
 
-[STOR_ADDR_BTL8](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/scsi/ns-scsi-_stor_addr_btl8)
+[STOR_ADDR_BTL8](https://docs.microsoft.com/windows-hardware/drivers/ddi/scsi/ns-scsi-_stor_addr_btl8)

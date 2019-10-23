@@ -48,7 +48,7 @@ req.typenames: D3DHAL_DP2TRIANGLEFAN_IMM
 ## -description
 
 
-One D3DHAL_DP2TRIANGLEFAN_IMM structure is parsed from the command buffer by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a> callback when the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dhal/ns-d3dhal-_d3dhal_dp2command">D3DHAL_DP2COMMAND</a> structure's <b>bCommand</b> member is set to D3DDP2OP_TRIANGLEFAN_IMM, and is used to render a triangle fan.
+One D3DHAL_DP2TRIANGLEFAN_IMM structure is parsed from the command buffer by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a> callback when the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3dhal_dp2command">D3DHAL_DP2COMMAND</a> structure's <b>bCommand</b> member is set to D3DDP2OP_TRIANGLEFAN_IMM, and is used to render a triangle fan.
 
 
 ## -struct-fields
@@ -68,7 +68,7 @@ Specifies a bitmask that identifies which of the fan's outside edges should be r
 One D3DHAL_DP2TRIANGLEFAN_IMM structure immediately follows the D3DHAL_DP2COMMAND structure in the command buffer. The triangle fan's vertex data is DWORD-aligned immediately following the D3DHAL_DP2TRIANGLEFAN_IMM structure in the command buffer.
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a> should process a total of <b>wPrimitiveCount</b>+2 vertices from the command buffer, three vertices per triangle, rendering <b>wPrimitiveCount</b> triangles. The sequence of triangles rendered is (<b>V[</b>1<b>]</b>, <b>V[</b>2<b>]</b>, <b>V[</b>0<b>]</b>), (<b>V[</b>2<b>]</b>, <b>V[</b>3<b>]</b>, <b>V[</b>0<b>]</b>), (<b>V[</b>3<b>]</b>, <b>V[</b>4<b>]</b>, <b>V[</b>0<b>]</b>), ..., (<b>V[wPrimitiveCount]</b>, <b>V[wPrimitiveCount]</b> + 1<b>]</b>, <b>V[</b>0<b>]</b>). The value of <b>wPrimitiveCount</b> is specified in the D3DHAL_DP2COMMAND structure.
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a> should process a total of <b>wPrimitiveCount</b>+2 vertices from the command buffer, three vertices per triangle, rendering <b>wPrimitiveCount</b> triangles. The sequence of triangles rendered is (<b>V[</b>1<b>]</b>, <b>V[</b>2<b>]</b>, <b>V[</b>0<b>]</b>), (<b>V[</b>2<b>]</b>, <b>V[</b>3<b>]</b>, <b>V[</b>0<b>]</b>), (<b>V[</b>3<b>]</b>, <b>V[</b>4<b>]</b>, <b>V[</b>0<b>]</b>), ..., (<b>V[wPrimitiveCount]</b>, <b>V[wPrimitiveCount]</b> + 1<b>]</b>, <b>V[</b>0<b>]</b>). The value of <b>wPrimitiveCount</b> is specified in the D3DHAL_DP2COMMAND structure.
 
 The driver must check the edge flag for each of the fan's outside edges when the fill mode is D3DFILL_WIREFRAME. Starting from the least significant bit of <b>dwEdgeFlags</b>, bit 0 applies to the <b>V[</b>0<b>]</b>-<b>V[</b>1<b>]</b> edge, bit 1 applies to the <b>V[</b>1<b>]</b>-<b>V[</b>2<b>]</b> edge, ..., bit <b>wPrimitiveCount</b> applies to the <b>V[wPrimitiveCount]</b>-<b>V[[wPrimitiveCount]</b>+1<b>]</b> edge, and bit (<b>wPrimitiveCount</b> + 1) applies to the <b>V[[wPrimitiveCount]</b>+1<b>]</b>-<b>V[</b>0<b>]</b> edge.
 
@@ -87,11 +87,11 @@ D3DDP2OP_TRIANGLEFAN_IMM
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dhal/ns-d3dhal-_d3dhal_dp2command">D3DHAL_DP2COMMAND</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/ns-d3dhal-_d3dhal_dp2command">D3DHAL_DP2COMMAND</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dhal/nc-d3dhal-lpd3dhal_drawprimitives2cb">D3dDrawPrimitives2</a>
  
 
  

@@ -48,7 +48,7 @@ req.typenames:
 ## -description
 
 
-The <b>VideoPortGetAgpServices</b> function is <b>obsolete</b> and is supported only for backward compatibility with existing drivers. In its place, driver writers should use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportqueryservices">VideoPortQueryServices</a>.
+The <b>VideoPortGetAgpServices</b> function is <b>obsolete</b> and is supported only for backward compatibility with existing drivers. In its place, driver writers should use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportqueryservices">VideoPortQueryServices</a>.
 
 <b>VideoPortGetAgpServices</b> returns a list of video port driver-implemented AGP service functions.
 
@@ -65,7 +65,7 @@ Pointer to the miniport driver's device extension.
 
 ### -param AgpServices [in]
 
-Pointer to an uninitialized, miniport driver-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/videoagp/ns-videoagp-_video_port_agp_services">VIDEO_PORT_AGP_SERVICES</a> structure.
+Pointer to an uninitialized, miniport driver-allocated <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/videoagp/ns-videoagp-_video_port_agp_services">VIDEO_PORT_AGP_SERVICES</a> structure.
 
 
 ## -returns
@@ -83,7 +83,7 @@ Pointer to an uninitialized, miniport driver-allocated <a href="https://docs.mic
 
 PnP video miniport drivers that can use AGP should call <b>VideoPortGetAgpServices</b>.
 
-The video port driver initializes the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/videoagp/ns-videoagp-_video_port_agp_services">VIDEO_PORT_AGP_SERVICES</a> structure as follows:
+The video port driver initializes the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/videoagp/ns-videoagp-_video_port_agp_services">VIDEO_PORT_AGP_SERVICES</a> structure as follows:
 
 <ul>
 <li>
@@ -103,19 +103,19 @@ The <b>AllocationLimit</b> field is initialized to the maximum amount of AGP mem
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/videoagp/nc-videoagp-pagp_commit_physical">AgpCommitPhysical</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/videoagp/nc-videoagp-pagp_commit_physical">AgpCommitPhysical</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/videoagp/nc-videoagp-pagp_commit_virtual">AgpCommitVirtual</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/videoagp/nc-videoagp-pagp_commit_virtual">AgpCommitVirtual</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/videoagp/nc-videoagp-pagp_free_physical">AgpFreePhysical</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/videoagp/nc-videoagp-pagp_free_physical">AgpFreePhysical</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/videoagp/nc-videoagp-pagp_free_virtual">AgpFreeVirtual</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/videoagp/nc-videoagp-pagp_free_virtual">AgpFreeVirtual</a>
 
 
 
@@ -123,19 +123,19 @@ The <b>AllocationLimit</b> field is initialized to the maximum amount of AGP mem
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/videoagp/nc-videoagp-pagp_release_virtual">AgpReleaseVirtual</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/videoagp/nc-videoagp-pagp_release_virtual">AgpReleaseVirtual</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/videoagp/nc-videoagp-pagp_reserve_physical">AgpReservePhysical</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/videoagp/nc-videoagp-pagp_reserve_physical">AgpReservePhysical</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/videoagp/ns-videoagp-_video_port_agp_services">VIDEO_PORT_AGP_SERVICES</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/videoagp/ns-videoagp-_video_port_agp_services">VIDEO_PORT_AGP_SERVICES</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/video/nf-video-videoportqueryservices">VideoPortQueryServices</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/video/nf-video-videoportqueryservices">VideoPortQueryServices</a>
  
 
  

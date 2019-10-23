@@ -46,19 +46,19 @@ The audio driver issues the <b>IOCTL_SBAUD_GET_SUPPORTED_FORMATS</b> control cod
 
 ### -input-buffer
 
-[SIDEBANDAUDIO_SUPPORTED_FORMATS](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sidebandaudio/ns-sidebandaudio-_sidebandaudio_supported_formats) containing endpoint index, and array of formats supported by the Audio driver.
+[SIDEBANDAUDIO_SUPPORTED_FORMATS](https://docs.microsoft.com/windows-hardware/drivers/ddi/sidebandaudio/ns-sidebandaudio-_sidebandaudio_supported_formats) containing endpoint index, and array of formats supported by the Audio driver.
 
 ### -input-buffer-length 
 
-Size of [SIDEBANDAUDIO_SUPPORTED_FORMATS](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sidebandaudio/ns-sidebandaudio-_sidebandaudio_supported_formats) including storage for array of formats.
+Size of [SIDEBANDAUDIO_SUPPORTED_FORMATS](https://docs.microsoft.com/windows-hardware/drivers/ddi/sidebandaudio/ns-sidebandaudio-_sidebandaudio_supported_formats) including storage for array of formats.
 
 ### -output-buffer
 
-[SIDEBANDAUDIO_SUPPORTED_FORMATS](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sidebandaudio/ns-sidebandaudio-_sidebandaudio_supported_formats). The sideband driver will return intersection of the Sideband audio formats with the formats supplied dy Audio driver as input parameter.
+[SIDEBANDAUDIO_SUPPORTED_FORMATS](https://docs.microsoft.com/windows-hardware/drivers/ddi/sidebandaudio/ns-sidebandaudio-_sidebandaudio_supported_formats). The sideband driver will return intersection of the Sideband audio formats with the formats supplied dy Audio driver as input parameter.
 
 ### -output-buffer-length 
 
-Size of [SIDEBANDAUDIO_SUPPORTED_FORMATS](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sidebandaudio/ns-sidebandaudio-_sidebandaudio_supported_formats) including storage for array of formats.
+Size of [SIDEBANDAUDIO_SUPPORTED_FORMATS](https://docs.microsoft.com/windows-hardware/drivers/ddi/sidebandaudio/ns-sidebandaudio-_sidebandaudio_supported_formats) including storage for array of formats.
 
 ### -in-out-buffer
 
@@ -77,4 +77,4 @@ If Status is set to STATUS_BUFFER_TOO_SMALL, then the audio driver should read t
 ## -remarks
 
 ## -see-also
-[SIDEBANDAUDIO_SUPPORTED_FORMATS](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sidebandaudio/ns-sidebandaudio-_sidebandaudio_supported_formats)
+[SIDEBANDAUDIO_SUPPORTED_FORMATS](https://docs.microsoft.com/windows-hardware/drivers/ddi/sidebandaudio/ns-sidebandaudio-_sidebandaudio_supported_formats)

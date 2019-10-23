@@ -71,7 +71,7 @@ None.
 
 ### -output-buffer
 
-The driver returns the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdddisk/ns-ntdddisk-_get_length_information">GET_LENGTH_INFORMATION</a> data in the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>.
+The driver returns the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_get_length_information">GET_LENGTH_INFORMATION</a> data in the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>.
 
 
 ### -output-buffer-length
@@ -107,7 +107,7 @@ The <b>Information</b> field is set to the size, in bytes, of the returned data.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdddisk/ns-ntdddisk-_get_length_information">GET_LENGTH_INFORMATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_get_length_information">GET_LENGTH_INFORMATION</a>
  
 
  

@@ -142,7 +142,7 @@ You must implement this method if the initiator supports IKE.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/iscsiop/ns-iscsiop-_getpresharedkeyforid_out">GetPresharedKeyForId_OUT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/iscsiop/ns-iscsiop-_getpresharedkeyforid_out">GetPresharedKeyForId_OUT</a>
 
 
 

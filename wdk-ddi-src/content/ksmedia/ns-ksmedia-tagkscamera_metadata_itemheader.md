@@ -58,7 +58,7 @@ This structure contains the metadata header information that is filled by the ca
 
 ### -field MetadataId
 
-The identifier for the metadata item. This can be a standard identifier as defined in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ne-ksmedia-kscamera_metadataid">KSCAMERA_MetadataId</a> enumeration or any custom metadata identifier that starts from MetadataId_Custom_Start (0x80000000).
+The identifier for the metadata item. This can be a standard identifier as defined in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ne-ksmedia-kscamera_metadataid">KSCAMERA_MetadataId</a> enumeration or any custom metadata identifier that starts from MetadataId_Custom_Start (0x80000000).
 
 
 ### -field Size

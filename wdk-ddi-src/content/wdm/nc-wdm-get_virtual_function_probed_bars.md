@@ -49,10 +49,10 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-get_virtual_function_probed_bars">GetVirtualFunctionProbedBars</a> routine returns the values of the PCI Express (PCIe) Base Address Registers (BARs) of a device that supports the single root I/O virtualization (SR-IOV) interface.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-get_virtual_function_probed_bars">GetVirtualFunctionProbedBars</a> routine returns the values of the PCI Express (PCIe) Base Address Registers (BARs) of a device that supports the single root I/O virtualization (SR-IOV) interface.
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-get_virtual_function_probed_bars">GetVirtualFunctionProbedBars</a> returns the BAR values that were reported by the device after a query that was performed by the PCI bus driver. This query determines the memory or I/O address space that is required by the device.
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-get_virtual_function_probed_bars">GetVirtualFunctionProbedBars</a> returns the BAR values that were reported by the device after a query that was performed by the PCI bus driver. This query determines the memory or I/O address space that is required by the device.
 
 
 ## -prototype
@@ -81,9 +81,9 @@ A pointer to interface-specific context information. The caller passes the value
 
 ### -param BaseRegisterValues [out]
 
-A pointer to an array of ULONG values. The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-get_virtual_function_probed_bars">GetVirtualFunctionProbedBars</a> routine returns a value for each BAR of the device.
+A pointer to an array of ULONG values. The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-get_virtual_function_probed_bars">GetVirtualFunctionProbedBars</a> routine returns a value for each BAR of the device.
 
-<div class="alert"><b>Note</b>  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-get_virtual_function_probed_bars">GetVirtualFunctionProbedBars</a> returns a maximum of <b>PCI_TYPE0_ADDRESSES</b> values within this array.
+<div class="alert"><b>Note</b>  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-get_virtual_function_probed_bars">GetVirtualFunctionProbedBars</a> returns a maximum of <b>PCI_TYPE0_ADDRESSES</b> values within this array.
 </div>
 <div> </div>
 
@@ -91,7 +91,7 @@ A pointer to an array of ULONG values. The <a href="https://docs.microsoft.com/w
 
 
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-get_virtual_function_probed_bars">GetVirtualFunctionProbedBars</a> routine returns one of the following NTSTATUS values:
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-get_virtual_function_probed_bars">GetVirtualFunctionProbedBars</a> routine returns one of the following NTSTATUS values:
 
 <table>
 <tr>
@@ -157,19 +157,19 @@ The PCI bus driver reads the BAR to determine the memory or address space that t
 
 </li>
 </ol>
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-get_virtual_function_probed_bars">GetVirtualFunctionProbedBars</a> routine is provided by the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451143">GUID_PCI_VIRTUALIZATION_INTERFACE</a> interface.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-get_virtual_function_probed_bars">GetVirtualFunctionProbedBars</a> routine is provided by the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451143">GUID_PCI_VIRTUALIZATION_INTERFACE</a> interface.
 
-The following notes apply to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-get_virtual_function_probed_bars">GetVirtualFunctionProbedBars</a> routine:
+The following notes apply to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-get_virtual_function_probed_bars">GetVirtualFunctionProbedBars</a> routine:
 
 <ul>
 <li>
-The SR-IOV interface does not require that the BARs of a PCIe VF comply with the protocol for determining the size of the memory block or I/O address space of a BAR. Therefore, the virtual PCI (VPCI) driver, which runs in the guest operating system, determines the size by using the equivalent size from the BARs on the physical device. The VPCI driver obtains this information by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-get_virtual_function_probed_bars">GetVirtualFunctionProbedBars</a> routine.
+The SR-IOV interface does not require that the BARs of a PCIe VF comply with the protocol for determining the size of the memory block or I/O address space of a BAR. Therefore, the virtual PCI (VPCI) driver, which runs in the guest operating system, determines the size by using the equivalent size from the BARs on the physical device. The VPCI driver obtains this information by calling the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-get_virtual_function_probed_bars">GetVirtualFunctionProbedBars</a> routine.
 
 
 </li>
 <li>
 	The VPCI driver requires the size of the memory or I/O
-address space for each BAR after the physical device has started. At that point, the PCI driver cannot perform a BAR query  on the device without altering the current value of the BAR. Therefore, when the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-get_virtual_function_probed_bars">GetVirtualFunctionProbedBars</a> routine is called by the VPCI driver, the PCI driver returns the BAR information that it obtained during the BAR query. The PCI driver performed this query when the device was first detected on the bus.
+address space for each BAR after the physical device has started. At that point, the PCI driver cannot perform a BAR query  on the device without altering the current value of the BAR. Therefore, when the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-get_virtual_function_probed_bars">GetVirtualFunctionProbedBars</a> routine is called by the VPCI driver, the PCI driver returns the BAR information that it obtained during the BAR query. The PCI driver performed this query when the device was first detected on the bus.
 
 </li>
 </ul>

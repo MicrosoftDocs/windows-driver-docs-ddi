@@ -86,6 +86,6 @@ Drivers must not free the memory allocated for the subobject KSOBJECT_CREATE_ITE
 
 ## -see-also
 
-[KSOBJECT_CREATE_ITEM](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksobject_create_item)
+[KSOBJECT_CREATE_ITEM](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksobject_create_item)
 
-[KsFreeDeviceHeader](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-ksfreedeviceheader)
+[KsFreeDeviceHeader](https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-ksfreedeviceheader)

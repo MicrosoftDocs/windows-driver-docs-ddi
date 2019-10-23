@@ -84,7 +84,7 @@ If the operation succeeds, the function should return <b>TRUE</b>. Otherwise it 
 
 
 
-Port monitor UI DLLs are required to define a <b>DeletePortUI</b> function and include the function's address in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/ns-winsplp-_monitorui">MONITORUI</a> structure.
+Port monitor UI DLLs are required to define a <b>DeletePortUI</b> function and include the function's address in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/ns-winsplp-_monitorui">MONITORUI</a> structure.
 
 The spooler calls <b>DeletePortUI</b> from within its <b>DeletePort</b> function. The arguments received by <b>DeletePortUI</b> are the arguments received by <b>DeletePort</b>. (The <b>DeletePort</b> function is described in the Microsoft Windows SDK documentation.)
 
@@ -101,7 +101,7 @@ where <i>ServerName</i> and <i>PortName</i> are the server and port names receiv
 
 The call to <b>OpenPrinter</b> requires a PRINTER_DEFAULTS structure, which is described in the Windows SDK documentation. The structure's <b>DesiredAccess</b> member must be set to SERVER_ACCESS_ADMINISTER. Its <b>pDatatype</b> and <b>pDevMode</b> members can be <b>NULL</b>.
 
-This call causes the print monitor server DLL's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-xcvopenport">XcvOpenPort</a> function to be called.
+This call causes the print monitor server DLL's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-xcvopenport">XcvOpenPort</a> function to be called.
 
 </li>
 <li>
@@ -112,15 +112,15 @@ Call <a href="https://docs.microsoft.com/previous-versions/ff564255(v=vs.85)">Xc
 </ul>
 
 
-This call causes the server DLL's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-xcvcloseport">XcvClosePort</a> function to be called.
+This call causes the server DLL's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-xcvcloseport">XcvClosePort</a> function to be called.
 
 </li>
 <li>
-If user interaction is required, obtain information from the user by displaying a dialog box and then call <a href="https://docs.microsoft.com/previous-versions/ff564255(v=vs.85)">XcvData</a>, specifying customized data name strings, to send the information to the server DLL. The <b>XcvData</b> call causes the server's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-xcvdataport">XcvDataPort</a> function to be called.
+If user interaction is required, obtain information from the user by displaying a dialog box and then call <a href="https://docs.microsoft.com/previous-versions/ff564255(v=vs.85)">XcvData</a>, specifying customized data name strings, to send the information to the server DLL. The <b>XcvData</b> call causes the server's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-xcvdataport">XcvDataPort</a> function to be called.
 
 </li>
 <li>
-Call <b>ClosePrinter</b>, specifying the handle received from <b>OpenPrinter</b>. This causes the server DLL's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-xcvcloseport">XcvClosePort</a> function to be called.
+Call <b>ClosePrinter</b>, specifying the handle received from <b>OpenPrinter</b>. This causes the server DLL's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-xcvcloseport">XcvClosePort</a> function to be called.
 
 </li>
 </ol>
@@ -132,7 +132,7 @@ Call <b>ClosePrinter</b>, specifying the handle received from <b>OpenPrinter</b>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-xcvcloseport">XcvClosePort</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-xcvcloseport">XcvClosePort</a>
 
 
 
@@ -140,11 +140,11 @@ Call <b>ClosePrinter</b>, specifying the handle received from <b>OpenPrinter</b>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-xcvdataport">XcvDataPort</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-xcvdataport">XcvDataPort</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-xcvopenport">XcvOpenPort</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-xcvopenport">XcvOpenPort</a>
  
 
  

@@ -53,12 +53,12 @@ The <code>IDrmAudioStream</code> interface assigns DRM protection to the digital
 The port driver uses the <code>IDrmAudioStream</code> interface if it is supported by either of the following stream objects:
 <ul>
 <li>
-A stream object created by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iminiportwavecyclic-newstream">IMiniportWaveCyclic::NewStream</a>
+A stream object created by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiportwavecyclic-newstream">IMiniportWaveCyclic::NewStream</a>
 
 
 </li>
 <li>
-A stream object created by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nf-portcls-iminiportwavepci-newstream">IMiniportWavePci::NewStream</a>
+A stream object created by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiportwavepci-newstream">IMiniportWavePci::NewStream</a>
 
 
 </li>

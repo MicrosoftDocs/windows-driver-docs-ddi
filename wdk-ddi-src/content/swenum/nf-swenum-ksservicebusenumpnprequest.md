@@ -192,15 +192,15 @@ IRP_MN_QUERY_CAPABILITIES
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/swenum/nf-swenum-kscreatebusenumobject">KsCreateBusEnumObject</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/swenum/nf-swenum-kscreatebusenumobject">KsCreateBusEnumObject</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/swenum/nf-swenum-ksisbusenumchilddevice">KsIsBusEnumChildDevice</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/swenum/nf-swenum-ksisbusenumchilddevice">KsIsBusEnumChildDevice</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/swenum/nf-swenum-ksservicebusenumcreaterequest">KsServiceBusEnumCreateRequest</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/swenum/nf-swenum-ksservicebusenumcreaterequest">KsServiceBusEnumCreateRequest</a>
  
 
  

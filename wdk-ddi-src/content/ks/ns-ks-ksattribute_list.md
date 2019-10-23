@@ -48,9 +48,9 @@ req.typenames: KSATTRIBUTE_LIST, *PKSATTRIBUTE_LIST
 ## -description
 
 
-The KSATTRIBUTE_LIST structure contains an attribute defined in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksattribute">KSATTRIBUTE</a> structure.
+The KSATTRIBUTE_LIST structure contains an attribute defined in a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksattribute">KSATTRIBUTE</a> structure.
 
-This structure is used to by mode aware drivers with  <a href="https://docs.microsoft.com/previous-versions/ff561658(v=vs.85)">KSDATARANGE</a>. The KSATTRIBUTE_LIST has a single element, which is a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksattribute">KSATTRIBUTE</a>. The Attribute member of the <b>KSATTRIBUTE</b> structure is set to KSATTRIBUTEID_AUDIOSIGNALPROCESSING_MODE.
+This structure is used to by mode aware drivers with  <a href="https://docs.microsoft.com/previous-versions/ff561658(v=vs.85)">KSDATARANGE</a>. The KSATTRIBUTE_LIST has a single element, which is a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksattribute">KSATTRIBUTE</a>. The Attribute member of the <b>KSATTRIBUTE</b> structure is set to KSATTRIBUTEID_AUDIOSIGNALPROCESSING_MODE.
 
 
 ## -struct-fields
@@ -65,5 +65,5 @@ Specifies the number of attributes in the list.
 
 ### -field Attributes
 
-  A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksattribute">KSATTRIBUTE</a> structure who's Attribute member is set to <i>KSATTRIBUTEID_AUDIOSIGNALPROCESSING_MODE</i>. For more information,  see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/audio-signal-processing-modes">Audio Signal Processing Modes</a>.
+  A <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksattribute">KSATTRIBUTE</a> structure who's Attribute member is set to <i>KSATTRIBUTEID_AUDIOSIGNALPROCESSING_MODE</i>. For more information,  see <a href="https://docs.microsoft.com/windows-hardware/drivers/audio/audio-signal-processing-modes">Audio Signal Processing Modes</a>.
 

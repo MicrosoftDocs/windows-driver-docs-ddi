@@ -79,7 +79,7 @@ The interrupt handler routine for both SCSI and StorPort miniport drivers are de
 
 For more information about the SCSI miniport driver's interrupt handler routine see <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff557312(v=vs.85)">HwScsiInterrupt</a>.
 
-For more information about the miniport driver's interrupt handler routine that is used with the StorPort driver see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_interrupt">HwStorInterrupt</a>.
+For more information about the miniport driver's interrupt handler routine that is used with the StorPort driver see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_interrupt">HwStorInterrupt</a>.
 
 
 
@@ -93,7 +93,7 @@ For more information about the miniport driver's interrupt handler routine that 
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_interrupt">HwStorInterrupt</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_interrupt">HwStorInterrupt</a>
  
 
  

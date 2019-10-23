@@ -57,7 +57,7 @@ The **IOCTL_LAMP_GET_CAPABILITIES_WHITE** control code queries the capabilities 
 
 ### -input-buffer
 
-`Irp->AssociatedIrp.SystemBuffer` points to a buffer of type [LAMP_CAPABILITIES_WHITE](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/lamp/ns-lamp-lamp_capabilities_white).
+`Irp->AssociatedIrp.SystemBuffer` points to a buffer of type [LAMP_CAPABILITIES_WHITE](https://docs.microsoft.com/windows-hardware/drivers/ddi/lamp/ns-lamp-lamp_capabilities_white).
 
 ### -input-buffer-length
 
@@ -83,6 +83,6 @@ The driver sets `Irp->IoStatus.Status` to **STATUS_SUCCESS** or the appropriate 
 
 By requirement, a lamp whose driver supports the **GUID_DEVINTERFACE_LAMP** interface is required to support emitting white light.
 
-The payload of this IOCTL is a [LAMP_CAPABILITIES_WHITE](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/lamp/ns-lamp-lamp_capabilities_white) structure.
+The payload of this IOCTL is a [LAMP_CAPABILITIES_WHITE](https://docs.microsoft.com/windows-hardware/drivers/ddi/lamp/ns-lamp-lamp_capabilities_white) structure.
 
 The **IsLightIntensityAdjustable** field indicates whether the luminance level can be programmed. If this field evaluates to **FALSE**, it means that the underlying device only supports the on/off switch and the light intensity cannot be adjusted.

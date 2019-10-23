@@ -155,7 +155,7 @@ Pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/winddi/ns-
 
 ### -field pfnGetInfo
 
-Pointer to Unidrv's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/nc-printoem-pfngetinfo">UNIFONTOBJ_GetInfo</a> callback function. Supplied by Unidrv.
+Pointer to Unidrv's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo">UNIFONTOBJ_GetInfo</a> callback function. Supplied by Unidrv.
 
 
 ## -see-also
@@ -167,7 +167,7 @@ Pointer to Unidrv's <a href="https://docs.microsoft.com/windows-hardware/drivers
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/nc-printoem-pfngetinfo">UNIFONTOBJ_GetInfo</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/nc-printoem-pfngetinfo">UNIFONTOBJ_GetInfo</a>
  
 
  

@@ -63,7 +63,7 @@ Specifies a caller-supplied constant. See the Remarks section for more informati
 
 ### -param pOemDMParam
 
-Caller-supplied pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printoem/ns-printoem-_oemdmparam">OEMDMPARAM</a> structure.
+Caller-supplied pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printoem/ns-printoem-_oemdmparam">OEMDMPARAM</a> structure.
 
 
 ## -returns
@@ -125,11 +125,11 @@ The <code>IPrintOemUni::DevMode</code> method must perform the operation indicat
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nf-prcomoem-iprintoemui-devmode">IPrintOemUI::DevMode</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nf-prcomoem-iprintoemui-devmode">IPrintOemUI::DevMode</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/prcomoem/nn-prcomoem-iprintoemuni">IPrintOemUni</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/prcomoem/nn-prcomoem-iprintoemuni">IPrintOemUni</a>
  
 
  

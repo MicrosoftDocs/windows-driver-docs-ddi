@@ -48,7 +48,7 @@ req.typenames: SET_PARTITION_INFORMATION_EX, *PSET_PARTITION_INFORMATION_EX
 ## -description
 
 
-<b>SET_PARTITION_INFORMATION_EX</b> is used with the IOCTL <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdddisk/ni-ntdddisk-ioctl_disk_set_partition_info_ex">IOCTL_DISK_SET_PARTITION_INFO_EX</a> to set information for a specific partition.
+<b>SET_PARTITION_INFORMATION_EX</b> is used with the IOCTL <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddisk/ni-ntdddisk-ioctl_disk_set_partition_info_ex">IOCTL_DISK_SET_PARTITION_INFO_EX</a> to set information for a specific partition.
 
 
 ## -struct-fields
@@ -90,7 +90,7 @@ In the case of GPT partitions, any value that can be retrieved from the partitio
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntdddisk/ni-ntdddisk-ioctl_disk_set_partition_info_ex">IOCTL_DISK_SET_PARTITION_INFO_EX</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntdddisk/ni-ntdddisk-ioctl_disk_set_partition_info_ex">IOCTL_DISK_SET_PARTITION_INFO_EX</a>
 
 
 

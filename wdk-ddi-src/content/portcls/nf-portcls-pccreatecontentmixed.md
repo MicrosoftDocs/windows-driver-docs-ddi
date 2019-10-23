@@ -49,7 +49,7 @@ req.typenames:
 ## -description
 
 
-The <b>PcCreateContentMixed</b> function computes the DRM content rights for a composite stream containing mixed content from some number of KS audio streams. Note that this function call is identical in operation to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/drmk/nf-drmk-drmcreatecontentmixed">DrmCreateContentMixed</a> function, and its parameter definitions and return value are also identical.
+The <b>PcCreateContentMixed</b> function computes the DRM content rights for a composite stream containing mixed content from some number of KS audio streams. Note that this function call is identical in operation to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/drmk/nf-drmk-drmcreatecontentmixed">DrmCreateContentMixed</a> function, and its parameter definitions and return value are also identical.
 
 
 ## -parameters
@@ -76,7 +76,7 @@ Output pointer for the composite content ID. This parameter points to a caller-a
 
 
 
-See return value definition in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/drmk/nf-drmk-drmcreatecontentmixed">DrmCreateContentMixed</a>.
+See return value definition in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/drmk/nf-drmk-drmcreatecontentmixed">DrmCreateContentMixed</a>.
 
 
 
@@ -85,7 +85,7 @@ See return value definition in <a href="https://docs.microsoft.com/windows-hardw
 
 
 
-For more information, see the comments in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/drmk/nf-drmk-drmcreatecontentmixed">DrmCreateContentMixed</a>.
+For more information, see the comments in <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/drmk/nf-drmk-drmcreatecontentmixed">DrmCreateContentMixed</a>.
 
 
 
@@ -95,7 +95,7 @@ For more information, see the comments in <a href="https://docs.microsoft.com/wi
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/drmk/nf-drmk-drmcreatecontentmixed">DrmCreateContentMixed</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/drmk/nf-drmk-drmcreatecontentmixed">DrmCreateContentMixed</a>
  
 
  

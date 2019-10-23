@@ -58,12 +58,12 @@ The <i>Cancel</i> routine cancels an I/O operation.
 
 ### -param *DeviceObject [in, out]
 
-Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure. This is the device object for the target device, previously created by the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-driver_add_device">AddDevice</a> routine.
+Caller-supplied pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a> structure. This is the device object for the target device, previously created by the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_add_device">AddDevice</a> routine.
 
 
 ### -param *Irp [in, out]
 
-Caller-supplied pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_irp">IRP</a> structure that describes the I/O operation to be canceled.
+Caller-supplied pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a> structure that describes the I/O operation to be canceled.
 
 
 ## -returns
@@ -79,17 +79,17 @@ None
 
 
 
-When a driver or other system component calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iocancelirp">IoCancelIrp</a>, the I/O manager calls the IRP's <i>Cancel</i> routine, if one has been registered for the IRP.
+When a driver or other system component calls <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocancelirp">IoCancelIrp</a>, the I/O manager calls the IRP's <i>Cancel</i> routine, if one has been registered for the IRP.
 
 To register a <i>Cancel</i> routine for an IRP, a driver can use either of the following two methods:
 
 <ol>
 <li>
-A driver that provides a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nc-wdm-driver_startio">StartIo</a> routine and uses the I/O manager-supplied device queue can specify a <i>Cancel</i> routine when calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-iostartpacket">IoStartPacket</a>.
+A driver that provides a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_startio">StartIo</a> routine and uses the I/O manager-supplied device queue can specify a <i>Cancel</i> routine when calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iostartpacket">IoStartPacket</a>.
 
 </li>
 <li>
-A driver that creates and manages supplemental device queues can register a <i>Cancel</i> routine by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iosetcancelroutine">IoSetCancelRoutine</a>.
+A driver that creates and manages supplemental device queues can register a <i>Cancel</i> routine by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iosetcancelroutine">IoSetCancelRoutine</a>.
 
 </li>
 </ol>
@@ -99,7 +99,7 @@ The I/O manager calls <a href="https://docs.microsoft.com/previous-versions/wind
 
 The <i>Cancel</i> routine executes in an arbitrary thread context at IRQL = DISPATCH_LEVEL until it calls <b>IoReleaseCancelSpinLock</b>, which changes the IRQL to a caller-supplied value. The driver should specify <b>Irp->CancelIrql</b> for this value.
 
-The <i>Cancel</i> routine must set the I/O status block's <b>Status</b> member to STATUS_CANCELLED, and set its <b>Information</b> member to zero. The routine must then complete the specified IRP by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iocompleterequest">IoCompleteRequest</a>.
+The <i>Cancel</i> routine must set the I/O status block's <b>Status</b> member to STATUS_CANCELLED, and set its <b>Information</b> member to zero. The routine must then complete the specified IRP by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iocompleterequest">IoCompleteRequest</a>.
 
 For detailed information about implementing a driver's <i>Cancel</i> routine, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/canceling-irps">Canceling IRPs</a>.
 

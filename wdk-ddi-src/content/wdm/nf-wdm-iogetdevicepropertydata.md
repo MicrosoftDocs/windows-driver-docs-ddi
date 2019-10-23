@@ -154,7 +154,7 @@ Kernel-mode drivers use the <b>IoGetDevicePropertyData</b> routine to retrieve d
 
 To see property types available for use by this routine, see [DEVPROP_TYPE_BYTE](https://docs.microsoft.com/windows-hardware/drivers/install/devprop-type-byte) and adjacent pages for `DEVPROP_TYPE_*`.
 
-Drivers can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iosetdevicepropertydata">IoSetDevicePropertyData</a> routine to modify a device property.
+Drivers can use the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iosetdevicepropertydata">IoSetDevicePropertyData</a> routine to modify a device property.
 
 Callers of <b>IoGetDevicePropertyData</b> must be running at IRQL <= APC_LEVEL in the context of a system thread.
 
@@ -174,7 +174,7 @@ Callers of <b>IoGetDevicePropertyData</b> must be running at IRQL <= APC_LEVEL i
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-iosetdevicepropertydata">IoSetDevicePropertyData</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-iosetdevicepropertydata">IoSetDevicePropertyData</a>
  
 
  

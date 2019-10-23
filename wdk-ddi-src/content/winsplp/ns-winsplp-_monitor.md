@@ -47,7 +47,7 @@ req.typenames: MONITOR, *LPMONITOR
 ## -description
 
 > [!IMPORTANT]
-> The MONITOR structure is obsolete and is supported only for compatibility reasons. New print monitors should implement [MONITOR2](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/ns-winsplp-_monitor2) so that they can be used with print server clusters.
+> The MONITOR structure is obsolete and is supported only for compatibility reasons. New print monitors should implement [MONITOR2](https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/ns-winsplp-_monitor2) so that they can be used with print server clusters.
 
 The MONITOR structure contains pointers to the functions defined by print monitors.
 
@@ -59,7 +59,7 @@ A port monitor server DLL's **EnumPorts** function enumerates the ports that the
 
 ### -field pfnOpenPort
 
-Pointer to the print monitor's [OpenPort](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-openport) function.
+Pointer to the print monitor's [OpenPort](https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-openport) function.
 
 ### -field pfnOpenPortEx
 
@@ -71,11 +71,11 @@ A print monitor's `StartDocPort` function performs the tasks required to start a
 
 ### -field pfnWritePort
 
-Pointer to the print monitor's [WritePort](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-writeport) function.
+Pointer to the print monitor's [WritePort](https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-writeport) function.
 
 ### -field pfnReadPort
 
-Pointer to the print monitor's [ReadPort](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-readport) function.
+Pointer to the print monitor's [ReadPort](https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-readport) function.
 
 ### -field pfnEndDocPort
 
@@ -83,7 +83,7 @@ A print monitor's **EndDocPort** function performs the tasks required to end a p
 
 ### -field pfnClosePort
 
-Pointer to the print monitor's [ClosePort](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-closeport) function.
+Pointer to the print monitor's [ClosePort](https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-closeport) function.
 
 ### -field pfnAddPort
 
@@ -99,7 +99,7 @@ Pointer to the print monitor's [ClosePort](https://docs.microsoft.com/windows-ha
 ### -field pfnConfigurePort
 
 > [!IMPORTANT]
-> The [ConfigurePort](https://docs.microsoft.com/previous-versions/ff546286(v=vs.85)) function is obsolete and should not be used. Use [ConfigurePortUI](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-configureportui) instead.
+> The [ConfigurePort](https://docs.microsoft.com/previous-versions/ff546286(v=vs.85)) function is obsolete and should not be used. Use [ConfigurePortUI](https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-configureportui) instead.
 
 [ConfigurePort](https://docs.microsoft.com/previous-versions/ff546286(v=vs.85)) is a port management function that configures the specified port.
 
@@ -120,15 +120,15 @@ A port monitor server DLL's `SetPortTimeOuts` function sets port time-out values
 
 ### -field pfnXcvOpenPort
 
-Pointer to the print monitor's [XcvOpenPort](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-xcvopenport) function. (Port monitors only.)
+Pointer to the print monitor's [XcvOpenPort](https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-xcvopenport) function. (Port monitors only.)
 
 ### -field pfnXcvDataPort
 
-Pointer to the print monitor's [XcvDataPort](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-xcvdataport) function. (Port monitors only.)
+Pointer to the print monitor's [XcvDataPort](https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-xcvdataport) function. (Port monitors only.)
 
 ### -field pfnXcvClosePort
 
-Pointer to the print monitor's [XcvClosePort](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-xcvcloseport) function. (Port monitors only.)
+Pointer to the print monitor's [XcvClosePort](https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-xcvcloseport) function. (Port monitors only.)
 
 ## -remarks
 
@@ -488,9 +488,9 @@ The spooler calls **DeletePort** so a port monitor can delete a port from the mo
 
 Applications can delete local and remote ports. The printer UI displays a confirmation message box before the spooler calls **DeletePort**, so a monitor should ignore the *hWnd* parameter and not display another dialog box.
 
-[Language monitors](https://docs.microsoft.com/windows-hardware/drivers/print/language-monitors) and port monitor server DLLs are required to define an **EndDocPort** function and include the function's address in a [MONITOR2](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/ns-winsplp-_monitor2) structure.
+[Language monitors](https://docs.microsoft.com/windows-hardware/drivers/print/language-monitors) and port monitor server DLLs are required to define an **EndDocPort** function and include the function's address in a [MONITOR2](https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/ns-winsplp-_monitor2) structure.
 
-The handle received as the function's hPort argument is the port handle that the monitor's [OpenPort](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-openport) or [OpenPortEx](https://docs.microsoft.com/previous-versions/ff559596(v=vs.85)) function supplied.
+The handle received as the function's hPort argument is the port handle that the monitor's [OpenPort](https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-openport) or [OpenPortEx](https://docs.microsoft.com/previous-versions/ff559596(v=vs.85)) function supplied.
 
 A language monitor's **EndDocPort** function typically calls the associated port monitor's **EndDocPort** function. It should also notify the spooler when the printing device has finished the job by calling [**SetJob**](https://docs.microsoft.com/windows/win32/printdocs/setjob), specifying a command of JOB_CONTROL_LAST_PAGE_EJECTED. Language monitors for bidirectional printers should not call **SetJob** until the printer has sent notification that the job is really finished.
 
@@ -500,9 +500,9 @@ The **EndDocPort** function should free all resources that were allocated by the
 
 You might want to modify the **EndDocPort** function's behavior if the user has deleted or restarted the print job. The function can call [**GetJob**](https://docs.microsoft.com/windows/win32/printdocs/getjob), and check for a status of JOB_STATUS_DELETING or JOB_STATUS_RESTART, to see if either of these events has occurred.
 
-Port monitor server DLLs are required to define an **EnumPorts** function and include the function's address in a [MONITOR2](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/ns-winsplp-_monitor2) structure. Language monitors do not export this function.
+Port monitor server DLLs are required to define an **EnumPorts** function and include the function's address in a [MONITOR2](https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/ns-winsplp-_monitor2) structure. Language monitors do not export this function.
 
-The purpose of the **EnumPorts** function is to enumerate the ports currently supported by a print monitor. These ports are ones that were previously specified to the monitor's [AddPortUI](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-addportui) or [AddPortEx](https://docs.microsoft.com/previous-versions/ff545025(v=vs.85)) function.
+The purpose of the **EnumPorts** function is to enumerate the ports currently supported by a print monitor. These ports are ones that were previously specified to the monitor's [AddPortUI](https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-addportui) or [AddPortEx](https://docs.microsoft.com/previous-versions/ff545025(v=vs.85)) function.
 
 The **EnumPorts** function should fill the buffer pointed to by *pPort* with an array of PORT_INFO_1 or PORT_INFO_2 structures. Then starting in a memory location following the last array element, the function must load all the strings pointed to by the array's structure members. Refer to localmon.dll, a [sample port monitor](https://docs.microsoft.com/windows-hardware/drivers/print/sample-port-monitor), for an example of how to do this. The function must also return the number of structures supplied (that is, the number of supported ports) by placing the number in the location pointed to by *pcReturned*.
 
@@ -514,7 +514,7 @@ The port monitor must support localization of strings pointed to by the **pMonit
 
 The **fPortType** member of the PORT_INFO_2 structure is not used with NT-based operating systems.
 
-[Language monitors](https://docs.microsoft.com/windows-hardware/drivers/print/language-monitors) and port monitor server DLLs can optionally define a **GetPrinterDataFromPort** function and include the function's address in a [MONITOR2](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/ns-winsplp-_monitor2) structure.
+[Language monitors](https://docs.microsoft.com/windows-hardware/drivers/print/language-monitors) and port monitor server DLLs can optionally define a **GetPrinterDataFromPort** function and include the function's address in a [MONITOR2](https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/ns-winsplp-_monitor2) structure.
 
 The function is meant for use with bidirectional printers, and can be used in the following two ways:
 
@@ -524,7 +524,7 @@ The function is meant for use with bidirectional printers, and can be used in th
 
 If a language monitor's **GetPrinterDataFromPort** function receives a string pointer in *pValueName*, it should return a value in the supplied output buffer. Typically, the string represents a registry value name, and the spooler calls **GetPrinterDataFromPort** when an application calls the [**GetPrinterData**](https://docs.microsoft.com/windows/win32/printdocs/getprinterdata) function.
 
-The language monitor's responsibility is to send a command to the printer hardware by calling the port monitor's [WritePort](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-writeport) function, and reading the response by calling [ReadPort](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-readport), to obtain the needed value. For example, pjlmon.dll, the [sample language monitor](https://docs.microsoft.com/windows-hardware/drivers/print/sample-language-monitor), can return values for a port's "Installed Memory" and "Available Memory" registry value names.
+The language monitor's responsibility is to send a command to the printer hardware by calling the port monitor's [WritePort](https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-writeport) function, and reading the response by calling [ReadPort](https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-readport), to obtain the needed value. For example, pjlmon.dll, the [sample language monitor](https://docs.microsoft.com/windows-hardware/drivers/print/sample-language-monitor), can return values for a port's "Installed Memory" and "Available Memory" registry value names.
 
 After the spooler calls **GetPrinterDataFromPort** to obtain a registry value, it updates the registry with the new value.
 
@@ -534,23 +534,23 @@ If a language monitor's **GetPrinterDataFromPort** function receives a nonzero I
 
 When a port monitor's **GetPrinterDataFromPort** function receives a nonzero I/O control code in *ControlID*, it should call [**DeviceIOControl**](https://docs.microsoft.com/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol) to pass the control code to the kernel-mode port driver. The *lpInBuffer*, *cbInBuffer*, *lpOutBuffer*, *cbOutBuffer*, and *lpcbReturned* parameter values should also be passed to **DeviceIOControl**.
 
-Language monitors are required to define an `OpenPortEx` function and include its address in a [MONITOR2](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/ns-winsplp-_monitor2) structure. The `OpenPortEx` function is called by the print spooler when a print queue is being connected to a port.
+Language monitors are required to define an `OpenPortEx` function and include its address in a [MONITOR2](https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/ns-winsplp-_monitor2) structure. The `OpenPortEx` function is called by the print spooler when a print queue is being connected to a port.
 
-The `OpenPortEx` function's primary purpose is to return a port handle that the caller can use as an input argument for subsequent calls to the language monitor's [StartDocPort](https://docs.microsoft.com/previous-versions/ff562710(v=vs.85)), [WritePort](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-writeport), [ReadPort](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-readport), [EndDocPort](https://docs.microsoft.com/previous-versions/ff548742(v=vs.85)), and [GetPrinterDataFromPort](https://docs.microsoft.com/previous-versions/ff550506(v=vs.85)) functions. Because a language monitor typically implements these functions by calling the equivalent functions in its associated port monitor, a language monitor typically obtains a port handle by calling the port monitor's [OpenPort](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-openport) function. For more information see [Language and Port Monitor Interaction](https://docs.microsoft.com/windows-hardware/drivers/print/language-and-port-monitor-interaction).
+The `OpenPortEx` function's primary purpose is to return a port handle that the caller can use as an input argument for subsequent calls to the language monitor's [StartDocPort](https://docs.microsoft.com/previous-versions/ff562710(v=vs.85)), [WritePort](https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-writeport), [ReadPort](https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-readport), [EndDocPort](https://docs.microsoft.com/previous-versions/ff548742(v=vs.85)), and [GetPrinterDataFromPort](https://docs.microsoft.com/previous-versions/ff550506(v=vs.85)) functions. Because a language monitor typically implements these functions by calling the equivalent functions in its associated port monitor, a language monitor typically obtains a port handle by calling the port monitor's [OpenPort](https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-openport) function. For more information see [Language and Port Monitor Interaction](https://docs.microsoft.com/windows-hardware/drivers/print/language-and-port-monitor-interaction).
 
-The `OpenPortEx` function's *pMonitor* parameter is a pointer to the port monitor's [MONITOR2](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/ns-winsplp-_monitor2) structure. This structure contains pointers to the port monitor's callable functions. The `OpenPortEx` function should check the structure to verify that all required function pointers are non-**NULL**. If the structure is valid, the function should copy it into local storage. Otherwise `OpenPortEx` should call **SetLastError**, specifying ERROR_INVALID_PRINT_MONITOR, and return **FALSE**.
+The `OpenPortEx` function's *pMonitor* parameter is a pointer to the port monitor's [MONITOR2](https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/ns-winsplp-_monitor2) structure. This structure contains pointers to the port monitor's callable functions. The `OpenPortEx` function should check the structure to verify that all required function pointers are non-**NULL**. If the structure is valid, the function should copy it into local storage. Otherwise `OpenPortEx` should call **SetLastError**, specifying ERROR_INVALID_PRINT_MONITOR, and return **FALSE**.
 
 Print monitor functions that accept a port handle as input do not also accept a monitor handle. Therefore, the `OpenPortEx` function must store the received monitor handle in a location that can be referenced by the port handle. This allows the functions that accept a port handle to reference the monitor handle.
 
-A port monitor server DLL's `SetPortTimeOuts` function allows a language monitor to specify port time-out values for an open port. The function is optional, and must be provided only if the port monitor controls a port that allows the modification of port time-out values. If the function is defined, its address must be included in a [MONITOR2](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/ns-winsplp-_monitor2) structure.
+A port monitor server DLL's `SetPortTimeOuts` function allows a language monitor to specify port time-out values for an open port. The function is optional, and must be provided only if the port monitor controls a port that allows the modification of port time-out values. If the function is defined, its address must be included in a [MONITOR2](https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/ns-winsplp-_monitor2) structure.
 
 The function is called by pjlmon.dll, the [sample language monitor](https://docs.microsoft.com/windows-hardware/drivers/print/sample-language-monitor), and you can write a customized language monitor that calls it. The print spooler does not call `SetPortTimeOuts`.
 
-The port monitor should initialize the port's time-out values from within its [OpenPort](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-openport) function.
+The port monitor should initialize the port's time-out values from within its [OpenPort](https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-openport) function.
 
-[Language monitors](https://docs.microsoft.com/windows-hardware/drivers/print/language-monitors) and port monitor server DLLs are required to define a `StartDocPort` function and include the function's address in a [MONITOR2](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/ns-winsplp-_monitor2) structure.
+[Language monitors](https://docs.microsoft.com/windows-hardware/drivers/print/language-monitors) and port monitor server DLLs are required to define a `StartDocPort` function and include the function's address in a [MONITOR2](https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/ns-winsplp-_monitor2) structure.
 
-The handle received as the function's *hPort* argument is the port handle that the monitor's [OpenPort](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/nf-winsplp-openport) or [OpenPortEx](https://docs.microsoft.com/previous-versions/ff559596(v=vs.85)) function supplied.
+The handle received as the function's *hPort* argument is the port handle that the monitor's [OpenPort](https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/nf-winsplp-openport) or [OpenPortEx](https://docs.microsoft.com/previous-versions/ff559596(v=vs.85)) function supplied.
 
 A language monitor's `StartDocPort` function typically calls the associated port monitor's `StartDocPort` function.
 
@@ -560,6 +560,6 @@ If necessary, the port monitor should prevent other processes from using the spe
 
 ## -see-also
 
-[MONITOR2](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/ns-winsplp-_monitor2)
+[MONITOR2](https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/ns-winsplp-_monitor2)
 
-[MONITORUI](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/winsplp/ns-winsplp-_monitorui)
+[MONITORUI](https://docs.microsoft.com/windows-hardware/drivers/ddi/winsplp/ns-winsplp-_monitorui)

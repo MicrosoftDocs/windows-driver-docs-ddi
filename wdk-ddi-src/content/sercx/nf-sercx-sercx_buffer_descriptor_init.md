@@ -48,7 +48,7 @@ req.typenames:
 ## -description
 
 
-The <b>SERCX_BUFFER_DESCRIPTOR_INIT</b> function initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sercx/ns-sercx-sercx_buffer_descriptor">SERCX_BUFFER_DESCRIPTOR</a> structure.
+The <b>SERCX_BUFFER_DESCRIPTOR_INIT</b> function initializes a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/ns-sercx-sercx_buffer_descriptor">SERCX_BUFFER_DESCRIPTOR</a> structure.
 
 
 ## -parameters
@@ -75,7 +75,7 @@ None.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sercx/ns-sercx-sercx_buffer_descriptor">SERCX_BUFFER_DESCRIPTOR</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/ns-sercx-sercx_buffer_descriptor">SERCX_BUFFER_DESCRIPTOR</a>
  
 
  

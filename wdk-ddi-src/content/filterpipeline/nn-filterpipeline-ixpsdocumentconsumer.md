@@ -68,7 +68,7 @@ The <b>IXpsDocumentConsumer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/filterpipeline/nf-filterpipeline-ixpsdocumentconsumer-closesender">IXpsDocumentConsumer::CloseSender</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nf-filterpipeline-ixpsdocumentconsumer-closesender">IXpsDocumentConsumer::CloseSender</a>
 </td>
 <td align="left" width="63%">
 The <code>CloseSender</code> method tells the Pipeline Manager that the filter is done sending XPS parts.
@@ -77,7 +77,7 @@ The <code>CloseSender</code> method tells the Pipeline Manager that the filter i
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/filterpipeline/nf-filterpipeline-ixpsdocumentconsumer-getnewemptypart">IXpsDocumentConsumer::GetNewEmptyPart</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nf-filterpipeline-ixpsdocumentconsumer-getnewemptypart">IXpsDocumentConsumer::GetNewEmptyPart</a>
 </td>
 <td align="left" width="63%">
 The <code>GetNewEmptyPart</code> method creates a new XPS part.
@@ -86,7 +86,7 @@ The <code>GetNewEmptyPart</code> method creates a new XPS part.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/filterpipeline/nf-filterpipeline-ixpsdocumentconsumer-sendfixeddocument">IXpsDocumentConsumer::SendFixedDocument</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nf-filterpipeline-ixpsdocumentconsumer-sendfixeddocument">IXpsDocumentConsumer::SendFixedDocument</a>
 </td>
 <td align="left" width="63%">
 The <code>SendFixedDocument</code> method sends a fixed document object to the pipeline.
@@ -95,7 +95,7 @@ The <code>SendFixedDocument</code> method sends a fixed document object to the p
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/filterpipeline/nf-filterpipeline-ixpsdocumentconsumer-sendfixeddocumentsequence">IXpsDocumentConsumer::SendFixedDocumentSequence</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nf-filterpipeline-ixpsdocumentconsumer-sendfixeddocumentsequence">IXpsDocumentConsumer::SendFixedDocumentSequence</a>
 </td>
 <td align="left" width="63%">
 The <b>SendFixedDocumentSequence</b> method sends a fixed document sequence to the pipeline.
@@ -104,7 +104,7 @@ The <b>SendFixedDocumentSequence</b> method sends a fixed document sequence to t
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/filterpipeline/nf-filterpipeline-ixpsdocumentconsumer-sendfixedpage">IXpsDocumentConsumer::SendFixedPage</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nf-filterpipeline-ixpsdocumentconsumer-sendfixedpage">IXpsDocumentConsumer::SendFixedPage</a>
 </td>
 <td align="left" width="63%">
 The <code>SendFixedPage</code> method sends a fixed page of an XPS document to the pipeline.
@@ -113,7 +113,7 @@ The <code>SendFixedPage</code> method sends a fixed page of an XPS document to t
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/filterpipeline/nf-filterpipeline-ixpsdocumentconsumer-sendxpsdocument">IXpsDocumentConsumer::SendXpsDocument</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nf-filterpipeline-ixpsdocumentconsumer-sendxpsdocument">IXpsDocumentConsumer::SendXpsDocument</a>
 </td>
 <td align="left" width="63%">
 The <code>SendXpsDocument</code> method sends an XPS document to the pipeline. 
@@ -122,7 +122,7 @@ The <code>SendXpsDocument</code> method sends an XPS document to the pipeline.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/filterpipeline/nf-filterpipeline-ixpsdocumentconsumer-sendxpsunknown">IXpsDocumentConsumer::SendXpsUnknown</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nf-filterpipeline-ixpsdocumentconsumer-sendxpsunknown">IXpsDocumentConsumer::SendXpsUnknown</a>
 </td>
 <td align="left" width="63%">
 The <code>SendXpsUnknown</code> method sends an XPS document part that cannot be identified to the filter pipeline.

@@ -65,7 +65,7 @@ in Windows 8 and later.</div><div> </div>The
 A pointer that identifies a DMA channel's context area. The DMA provider returned this handle to
      NetDMA at the location that is specified in the 
      <i>pProviderChannelContext</i> parameter of the 
-     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdma/nc-netdma-dma_channel_allocate_handler">
+     <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_channel_allocate_handler">
      ProviderAllocateDmaChannel</a> function.
 
 
@@ -116,7 +116,7 @@ The
     <i>ProviderSuspendDma</i> function is an optional function for NetDMA providers. The NetDMA interface
     calls the 
     <i>ProviderResumeDma</i> function, if any, to resume DMA operations that were suspended by calling the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdma/nc-netdma-dma_suspend_handler">ProviderSuspendDma</a> function. If the DMA
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_suspend_handler">ProviderSuspendDma</a> function. If the DMA
     provider driver specifies an entry point for a 
     <i>ProviderSuspendDma</i> function, it must also specify an entry point for a 
     <i>ProviderResumeDma</i> function.
@@ -135,11 +135,11 @@ NetDMA calls
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdma/nc-netdma-dma_channel_allocate_handler">ProviderAllocateDmaChannel</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_channel_allocate_handler">ProviderAllocateDmaChannel</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdma/nc-netdma-dma_suspend_handler">ProviderSuspendDma</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nc-netdma-dma_suspend_handler">ProviderSuspendDma</a>
  
 
  

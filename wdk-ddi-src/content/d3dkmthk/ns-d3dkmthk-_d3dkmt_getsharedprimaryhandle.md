@@ -68,7 +68,7 @@ The D3DKMT_GETSHAREDPRIMARYHANDLE structure describes the parameters that are re
 
 ### -field hSharedPrimary
 
-[out] A handle to the global shared primary surface if a shared handle currently exists. The shared handle is returned from the call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/nf-d3dkmthk-d3dkmtgetsharedprimaryhandle">D3DKMTGetSharedPrimaryHandle</a> function.
+[out] A handle to the global shared primary surface if a shared handle currently exists. The shared handle is returned from the call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtgetsharedprimaryhandle">D3DKMTGetSharedPrimaryHandle</a> function.
 
 
 ## -see-also
@@ -76,7 +76,7 @@ The D3DKMT_GETSHAREDPRIMARYHANDLE structure describes the parameters that are re
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/nf-d3dkmthk-d3dkmtgetsharedprimaryhandle">D3DKMTGetSharedPrimaryHandle</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtgetsharedprimaryhandle">D3DKMTGetSharedPrimaryHandle</a>
  
 
  

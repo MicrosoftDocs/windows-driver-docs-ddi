@@ -50,8 +50,8 @@ req.typenames:
 
 
 Gets a value that indicates whether the test script restarted as a result of a call to 
-	<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtfsystemaction/nf-wdtfsystemaction-iwdtfsystemaction2-rebootrestart">RebootRestart</a> or 
-	<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtfsystemaction/nf-wdtfsystemaction-iwdtfsystemaction2-rebootrestartwithcontext">RebootRestartWithContext</a>.
+	<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfsystemaction/nf-wdtfsystemaction-iwdtfsystemaction2-rebootrestart">RebootRestart</a> or 
+	<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfsystemaction/nf-wdtfsystemaction-iwdtfsystemaction2-rebootrestartwithcontext">RebootRestartWithContext</a>.
 
 This property is read-only.
 
@@ -64,7 +64,7 @@ This property is read-only.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtfsystemaction/nn-wdtfsystemaction-iwdtfsystemaction2">IWDTFSystemAction2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtfsystemaction/nn-wdtfsystemaction-iwdtfsystemaction2">IWDTFSystemAction2</a>
  
 
  

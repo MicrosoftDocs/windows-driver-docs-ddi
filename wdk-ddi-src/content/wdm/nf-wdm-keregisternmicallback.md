@@ -84,7 +84,7 @@ Specifies the value to be passed as the <i>Context</i> parameter of <i>XxxNmiCal
 
 
 
-On success, <b>KeRegisterNmiCallback</b> returns an opaque pointer that the caller passes to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kederegisternmicallback">KeDeregisterNmiCallback</a> to deregister the callback. The routine returns <b>NULL</b> if it is unable to register the callback.
+On success, <b>KeRegisterNmiCallback</b> returns an opaque pointer that the caller passes to <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kederegisternmicallback">KeDeregisterNmiCallback</a> to deregister the callback. The routine returns <b>NULL</b> if it is unable to register the callback.
 
 
 
@@ -105,7 +105,7 @@ The callback routine must be able to be run at IRQL = HIGH_LEVEL.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kederegisternmicallback">KeDeregisterNmiCallback</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-kederegisternmicallback">KeDeregisterNmiCallback</a>
  
 
  

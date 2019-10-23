@@ -72,7 +72,7 @@ The byte offset of the first byte beyond the last zeroed byte.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/ns-ntifs-_file_zero_data_information_ex">FILE_ZERO_DATA_INFORMATION_EX</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_zero_data_information_ex">FILE_ZERO_DATA_INFORMATION_EX</a>
 
 
 
@@ -80,7 +80,7 @@ The byte offset of the first byte beyond the last zeroed byte.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltfscontrolfile">FltFsControlFile</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfscontrolfile">FltFsControlFile</a>
  
 
  

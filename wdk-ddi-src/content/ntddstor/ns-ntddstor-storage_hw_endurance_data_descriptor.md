@@ -60,19 +60,19 @@ A [STORAGE_HW_ENDURANCE_INFO](ns-ntddstor-storage_hw_endurance_info.md) structur
 
 ## -remarks
 
-A storage port driver uses this structure when communicating with its miniport for an [IOCTL_SCSI_MINIPORT](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddscsi/ni-ntddscsi-ioctl_scsi_miniport) request that has an [SRB_IO_CONTROL](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddscsi/ns-ntddscsi-_srb_io_control) structure with a **Signature** of [IOCTL_MINIPORT_SIGNATURE_ENDURANCE_INFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddscsi/ni-ntddscsi-ioctl_miniport_signature_endurance_info), and a **ControlCode** of[IOCTL_STORAGE_QUERY_PROPERTY](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ni-ntddstor-ioctl_storage_query_property) with a **PropertyId** of StorageDeviceEnduranceProperty and a **QueryType** of PropertyStandardQuery.
+A storage port driver uses this structure when communicating with its miniport for an [IOCTL_SCSI_MINIPORT](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ni-ntddscsi-ioctl_scsi_miniport) request that has an [SRB_IO_CONTROL](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_srb_io_control) structure with a **Signature** of [IOCTL_MINIPORT_SIGNATURE_ENDURANCE_INFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ni-ntddscsi-ioctl_miniport_signature_endurance_info), and a **ControlCode** of[IOCTL_STORAGE_QUERY_PROPERTY](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_query_property) with a **PropertyId** of StorageDeviceEnduranceProperty and a **QueryType** of PropertyStandardQuery.
 
 The miniport uses [STORAGE_ENDURANCE_DATA_DESCRIPTOR](../ntddscsi/ns-ntddscsi-storage_endurance_data_descriptor.md), which is defined in *ntddscsi.h*. STORAGE_HW_ENDURANCE_DATA_DESCRIPTOR and STORAGE_ENDURANCE_DATA_DESCRIPTOR are identical in size, so the storage port driver and miniport should cast the structure they receive accordingly when communicating with each other.
 
 ## -see-also
 
-[IOCTL_MINIPORT_SIGNATURE_ENDURANCE_INFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddscsi/ni-ntddscsi-ioctl_miniport_signature_endurance_info)
+[IOCTL_MINIPORT_SIGNATURE_ENDURANCE_INFO](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ni-ntddscsi-ioctl_miniport_signature_endurance_info)
 
 [IOCTL_SCSI_MINIPORT](../ntddscsi/ni-ntddscsi-ioctl_scsi_miniport.md)
 
-[IOCTL_STORAGE_QUERY_PROPERTY](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddstor/ni-ntddstor-ioctl_storage_query_property)
+[IOCTL_STORAGE_QUERY_PROPERTY](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_query_property)
 
-[SRB_IO_CONTROL](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddscsi/ns-ntddscsi-_srb_io_control)
+[SRB_IO_CONTROL](https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_srb_io_control)
 
 [STORAGE_ENDURANCE_DATA_DESCRIPTOR](../ntddscsi/ns-ntddscsi-storage_endurance_data_descriptor.md)
 

@@ -74,7 +74,7 @@ The constructor is called by the ExtRemoteData::Set(Typed), ExtRemoteData::Set(O
 
 [ExtRemoteData::GetData](nf-engextcpp-extremotedata-getdata.md) 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/engextcpp/nf-engextcpp-extremotedata-extremotedata(pcstr_ulong64_ulong)">ExtRemoteData::ExtRemoteData (Name, Offset, Bytes)</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-extremotedata(pcstr_ulong64_ulong)">ExtRemoteData::ExtRemoteData (Name, Offset, Bytes)</a>
 
  
 

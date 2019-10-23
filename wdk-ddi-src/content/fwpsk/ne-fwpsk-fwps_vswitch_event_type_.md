@@ -146,7 +146,7 @@ Indicates a virtual switch run-time state restore event.
 
 
 The 
-    FWPS_VSWITCH_EVENT_TYPE  enumeration defines the values for the <i>eventType</i> parameter of the  virtual switch notification functions that are included in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/ns-fwpsk-fwps_vswitch_event_dispatch_table0_">FWPS_VSWITCH_EVENT_DISPATCH_TABLE0</a> structure.
+    FWPS_VSWITCH_EVENT_TYPE  enumeration defines the values for the <i>eventType</i> parameter of the  virtual switch notification functions that are included in the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_vswitch_event_dispatch_table0_">FWPS_VSWITCH_EVENT_DISPATCH_TABLE0</a> structure.
 
 
 
@@ -156,7 +156,7 @@ The
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fwpsk/ns-fwpsk-fwps_vswitch_event_dispatch_table0_">FWPS_VSWITCH_EVENT_DISPATCH_TABLE0</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fwpsk/ns-fwpsk-fwps_vswitch_event_dispatch_table0_">FWPS_VSWITCH_EVENT_DISPATCH_TABLE0</a>
  
 
  

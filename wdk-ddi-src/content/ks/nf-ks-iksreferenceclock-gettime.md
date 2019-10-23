@@ -71,7 +71,7 @@ The <b>IKsReferenceClock::GetTime</b> method returns the current stream time for
 
 
 
-Do not call this method when obtaining a time stamp for the <b>PresentationTime</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksstream_header">KSSTREAM_HEADER</a>. Instead, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-iksreferenceclock-getcorrelatedtime">IKsReferenceClock::GetCorrelatedTime</a> in this situation.
+Do not call this method when obtaining a time stamp for the <b>PresentationTime</b> member of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksstream_header">KSSTREAM_HEADER</a>. Instead, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-iksreferenceclock-getcorrelatedtime">IKsReferenceClock::GetCorrelatedTime</a> in this situation.
 
 For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/stream/avstream-clocks">AVStream Clocks</a>.
 
@@ -85,7 +85,7 @@ AVStream uses the <a href="https://docs.microsoft.com/windows-hardware/drivers/s
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nf-ks-kspingetreferenceclockinterface">KsPinGetReferenceClockInterface</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nf-ks-kspingetreferenceclockinterface">KsPinGetReferenceClockInterface</a>
  
 
  

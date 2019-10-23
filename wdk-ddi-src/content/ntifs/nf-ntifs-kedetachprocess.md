@@ -48,7 +48,7 @@ req.typenames:
 ## -description
 
 
-The <b>KeDetachProcess</b> routine is exported to support existing driver binaries and is obsolete. Use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-keunstackdetachprocess">KeUnstackDetachProcess</a> instead.
+The <b>KeDetachProcess</b> routine is exported to support existing driver binaries and is obsolete. Use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntifs/nf-ntifs-keunstackdetachprocess">KeUnstackDetachProcess</a> instead.
 
 
 ## -parameters

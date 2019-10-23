@@ -48,7 +48,7 @@ req.typenames: D3D10_DDI_FILTER
 ## -description
 
 
-The D3D10_DDI_FILTER enumeration type contains values that identify filter properties of a sampler in a call to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_createsampler">CreateSampler</a> function.
+The D3D10_DDI_FILTER enumeration type contains values that identify filter properties of a sampler in a call to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_createsampler">CreateSampler</a> function.
 
 
 ## -enum-fields
@@ -298,7 +298,7 @@ Supported starting with Windows 8.1, and used by WDDM 1.3 and later drivers.
 
 ### -field D3D10_DDI_FILTER_TEXT_1BIT
 
-A special case of filtering mode that is intended only for text filtering and the DXGI_FORMAT_R1_UNORM texture format. For more information about text filtering, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_settextfiltersize">SetTextFilterSize</a> function.
+A special case of filtering mode that is intended only for text filtering and the DXGI_FORMAT_R1_UNORM texture format. For more information about text filtering, see the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_settextfiltersize">SetTextFilterSize</a> function.
 
 
 ## -remarks
@@ -325,11 +325,11 @@ Filtering can also be described by a comparison component. By default (no compar
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_createsampler">CreateSampler</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d10ddi_createsampler">CreateSampler</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ns-d3d10umddi-d3d10_ddi_sampler_desc">D3D10_DDI_SAMPLER_DESC</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d10_ddi_sampler_desc">D3D10_DDI_SAMPLER_DESC</a>
  
 
  

@@ -95,7 +95,7 @@ For more information about resource lists, see <a href="https://docs.microsoft.c
 
 #### Examples
 
-The following code example removes the third resource descriptor from the raw and translated lists of hardware resources that an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdffdo/nc-wdffdo-evt_wdf_device_remove_added_resources">EvtDeviceRemoveAddedResources</a> callback function receives.
+The following code example removes the third resource descriptor from the raw and translated lists of hardware resources that an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdffdo/nc-wdffdo-evt_wdf_device_remove_added_resources">EvtDeviceRemoveAddedResources</a> callback function receives.
 
 ```cpp
 NTSTATUS
@@ -126,7 +126,7 @@ MyEvtDeviceRemoveAddedResources(
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfresource/nf-wdfresource-wdfcmresourcelistremovebydescriptor">WdfCmResourceListRemoveByDescriptor</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfresource/nf-wdfresource-wdfcmresourcelistremovebydescriptor">WdfCmResourceListRemoveByDescriptor</a>
  
 
  

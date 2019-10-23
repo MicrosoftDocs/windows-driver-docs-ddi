@@ -72,7 +72,7 @@ plDevErrVal [out]
 
 pmdtc [in, out]
 
-- Points to a [MINIDRV_TRANSFER_CONTEXT](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/ns-wiamindr_lh-_minidrv_transfer_context) structure containing the device transfer context. The MINIDRV_TRANSFER_CONTEXT structure contains parameters that pertain to the data to be transferred.
+- Points to a [MINIDRV_TRANSFER_CONTEXT](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/ns-wiamindr_lh-_minidrv_transfer_context) structure containing the device transfer context. The MINIDRV_TRANSFER_CONTEXT structure contains parameters that pertain to the data to be transferred.
 
 #### - lFlags [in]
 
@@ -88,7 +88,7 @@ Points to a memory location that will receive a status code for this method. If 
 
 #### - pmdtc [in, out]
 
-Points to a [MINIDRV_TRANSFER_CONTEXT](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/ns-wiamindr_lh-_minidrv_transfer_context) structure containing the device transfer context. The MINIDRV_TRANSFER_CONTEXT structure contains parameters that pertain to the data to be transferred.
+Points to a [MINIDRV_TRANSFER_CONTEXT](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/ns-wiamindr_lh-_minidrv_transfer_context) structure containing the device transfer context. The MINIDRV_TRANSFER_CONTEXT structure contains parameters that pertain to the data to be transferred.
 
 ## -returns
 
@@ -100,9 +100,9 @@ There are two main types of transfer: memory-based, and file-based. The WIA serv
 
 - For memory-based transfers, a buffer may or may not have already been allocated, as indicated by the value in *pmdtc*-->**bClassDrvAllocBuf**. The WIA service can pass up to two buffers to the minidriver, but typically passes only one. The number of buffers is specified by the value in *pmdtc*-->**lNumBuffers**. If memory for the buffer is not already allocated, the minidriver should allocate it using any of the usual means, such as [**CoTaskMemAlloc**](https://docs.microsoft.com/windows/win32/api/combaseapi/nf-combaseapi-cotaskmemalloc), or **new**. If the minidriver allocates a buffer, it also has the responsibility of freeing the buffer.
 
-- For file transfers, the minidriver should first write the data to the buffer passed in the WIA service's call to this method, and then call [wiasWritePageBufToFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiaswritepagebuftofile) to write the buffer data to the file involved. The minidriver should not attempt to use the file handle specified in **pmdtc**-->**hFile** to write the data to the file.
+- For file transfers, the minidriver should first write the data to the buffer passed in the WIA service's call to this method, and then call [wiasWritePageBufToFile](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiaswritepagebuftofile) to write the buffer data to the file involved. The minidriver should not attempt to use the file handle specified in **pmdtc**-->**hFile** to write the data to the file.
 
-Periodically, the minidriver should call the [IWiaMiniDrvCallBack::MiniDrvCallback](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiaminidrvcallback-minidrvcallback) method in the COM interface point to by *pdmtc*-->**pIWiaMiniDrvCallBack** to update the status of the transfer. For memory-based transfers, this function is used to pass the data back to the application. How often this function should be called is left to the minidriver, but it should be called about ten times, or roughly once per second during the transfer, whichever is more often.
+Periodically, the minidriver should call the [IWiaMiniDrvCallBack::MiniDrvCallback](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nf-wiamindr_lh-iwiaminidrvcallback-minidrvcallback) method in the COM interface point to by *pdmtc*-->**pIWiaMiniDrvCallBack** to update the status of the transfer. For memory-based transfers, this function is used to pass the data back to the application. How often this function should be called is left to the minidriver, but it should be called about ten times, or roughly once per second during the transfer, whichever is more often.
 
 Other transfer parameters that the WIA service provides include the following:
 
@@ -121,10 +121,10 @@ A potential problem for ADF-equipped scanners is running out of paper during a s
 
 ## -see-also
 
-[IWiaMiniDrv](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nn-wiamindr_lh-iwiaminidrv)
+[IWiaMiniDrv](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nn-wiamindr_lh-iwiaminidrv)
 
-[IWiaMiniDrv::drvGetDeviceErrorStr](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvgetdeviceerrorstr)
+[IWiaMiniDrv::drvGetDeviceErrorStr](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nf-wiamindr_lh-iwiaminidrv-drvgetdeviceerrorstr)
 
-[MINIDRV_TRANSFER_CONTEXT](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/ns-wiamindr_lh-_minidrv_transfer_context)
+[MINIDRV_TRANSFER_CONTEXT](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/ns-wiamindr_lh-_minidrv_transfer_context)
 
-[wiasGetImageInformation](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiasgetimageinformation)
+[wiasGetImageInformation](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiasgetimageinformation)

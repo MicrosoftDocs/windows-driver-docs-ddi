@@ -64,7 +64,7 @@ If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.co
 
 ## -remarks
 
-Access this function though the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d12umddi/ns-d3d12umddi-d3d12ddi_video_decode_support_data_0020">D3D12DDI_VIDEO_DECODE_SUPPORT_DATA</a> structure.
+Access this function though the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d12umddi/ns-d3d12umddi-d3d12ddi_video_decode_support_data_0020">D3D12DDI_VIDEO_DECODE_SUPPORT_DATA</a> structure.
 
 The following list describes the mapping of D3D12DDICAPS_TYPE_VIDEO_0010 type to the meaning of the pInfo, pData, and DataSize parameters.
 
@@ -177,5 +177,5 @@ D3D12DDICAPS_TYPE_VIDEO_DECODE_BITSTREAM_ENCRYPTION_SCHEME_COUNT
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d12umddi/ns-d3d12umddi-d3d12ddi_video_decode_support_data_0020">D3D12DDI_VIDEO_DECODE_SUPPORT_DATA</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d12umddi/ns-d3d12umddi-d3d12ddi_video_decode_support_data_0020">D3D12DDI_VIDEO_DECODE_SUPPORT_DATA</a>
 

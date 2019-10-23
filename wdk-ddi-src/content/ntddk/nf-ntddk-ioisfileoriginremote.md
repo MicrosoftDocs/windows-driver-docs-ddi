@@ -78,7 +78,7 @@ File system filter drivers call <b>IoIsFileOriginRemote</b> for a file object to
 
 <b>IoIsFileOriginRemote</b> must be called after the create request has entirely completed. In other words, it cannot be called in the create dispatch ("pre-create") path or the create completion ("post-create") path. 
 
-<b>IoIsFileOriginRemote</b> checks the FO_REMOTE_ORIGIN flag on the file object pointed to by <i>FileObject</i>. Network file systems set or clear this flag by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-iosetfileorigin">IoSetFileOrigin</a>. 
+<b>IoIsFileOriginRemote</b> checks the FO_REMOTE_ORIGIN flag on the file object pointed to by <i>FileObject</i>. Network file systems set or clear this flag by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iosetfileorigin">IoSetFileOrigin</a>. 
 
 
 
@@ -88,7 +88,7 @@ File system filter drivers call <b>IoIsFileOriginRemote</b> for a file object to
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddk/nf-ntddk-iosetfileorigin">IoSetFileOrigin</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iosetfileorigin">IoSetFileOrigin</a>
  
 
  

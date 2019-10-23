@@ -63,7 +63,7 @@ Specifies the identifier of this method within its method set.
 
 ### -field MethodHandler
 
-Pointer to a minidriver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/nc-ks-pfnkshandler">KStrMethodHandler</a> callback routine.
+Pointer to a minidriver-supplied <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/nc-ks-pfnkshandler">KStrMethodHandler</a> callback routine.
 
 
 ### -field MethodSupported
@@ -163,7 +163,7 @@ A minidriver uses the KSMETHOD_ITEM structure to define methods in a method set.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksfastmethod_item">KSFASTMETHOD_ITEM</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksfastmethod_item">KSFASTMETHOD_ITEM</a>
 
 
 

@@ -117,7 +117,7 @@ Returns NOERROR if successful; otherwise, returns an error code. If the stream's
 
 
 
-The client only calls <b>KsCompleteIoOperation</b> if the data type handler indicated to the client the existence of extended header information in a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nf-ksproxy-iksdatatypehandler-ksqueryextendedsize">IKsDataTypeHandler::KsQueryExtendedSize</a> method.
+The client only calls <b>KsCompleteIoOperation</b> if the data type handler indicated to the client the existence of extended header information in a call to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksdatatypehandler-ksqueryextendedsize">IKsDataTypeHandler::KsQueryExtendedSize</a> method.
 
 For more information about <b>IMediaSample</b>, see the Microsoft Windows SDK documentation.
 
@@ -129,7 +129,7 @@ For more information about <b>IMediaSample</b>, see the Microsoft Windows SDK do
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nf-ksproxy-iksdatatypehandler-ksqueryextendedsize">IKsDataTypeHandler::KsQueryExtendedSize</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nf-ksproxy-iksdatatypehandler-ksqueryextendedsize">IKsDataTypeHandler::KsQueryExtendedSize</a>
  
 
  

@@ -69,7 +69,7 @@ Pointer to the registry path for changer miniclass driver. This is also passed a
 
 ### -param ChangerInitData
 
-<p>Pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/mcd/ns-mcd-_mcd_init_data"><b>MCD_INIT_DATA</b></a> structure containing miniclass driver-specific information such as the entry points for the changer miniclass driver's command processing routines. </p>
+<p>Pointer to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mcd/ns-mcd-_mcd_init_data"><b>MCD_INIT_DATA</b></a> structure containing miniclass driver-specific information such as the entry points for the changer miniclass driver's command processing routines. </p>
 
 
 
@@ -91,7 +91,7 @@ Pointer to the registry path for changer miniclass driver. This is also passed a
 
 Changer miniclass drivers call <b>ChangerClassInitialize</b> from within their <b>DriverEntry</b> routines to initialize the driver. <b>ChangerClassInitialize</b> performs many tasks formerly performed by the changer class driver's <b>DriverEntry</b> routine such as registering the miniclass driver's dispatch routines. It allocates a driver object extension and copies the data contained in <i>MCDInitData</i> into the driver object extension along with other initialization data such as the driver's registry path and pointers to certain changer class driver routines that are operating system-specific. 
 
-Changer miniclass drivers must allocate an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/mcd/ns-mcd-_mcd_init_data">MCD_INIT_DATA</a> structure, zero the structure by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlzeromemory">RtlZeroMemory</a>, and then assign values to the appropriate members, before passing the structure's address to <b>ChangerClassInitialize</b> by means of the <i>MCDInitData</i> parameter. 
+Changer miniclass drivers must allocate an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mcd/ns-mcd-_mcd_init_data">MCD_INIT_DATA</a> structure, zero the structure by calling <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlzeromemory">RtlZeroMemory</a>, and then assign values to the appropriate members, before passing the structure's address to <b>ChangerClassInitialize</b> by means of the <i>MCDInitData</i> parameter. 
 
 
 
@@ -101,11 +101,11 @@ Changer miniclass drivers must allocate an <a href="https://docs.microsoft.com/w
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/mcd/ns-mcd-_mcd_init_data">MCD_INIT_DATA</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/mcd/ns-mcd-_mcd_init_data">MCD_INIT_DATA</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-rtlzeromemory">RtlZeroMemory</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlzeromemory">RtlZeroMemory</a>
  
 
  

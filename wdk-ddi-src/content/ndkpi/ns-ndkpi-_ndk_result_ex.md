@@ -48,7 +48,7 @@ req.typenames: NDK_RESULT_EX
 ## -description
 
 
-The <b>NDK_RESULT_EX</b> structure returns the results for an NDK request operation. It is identical to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/ns-ndkpi-_ndk_result">NDK_RESULT</a> structure, except that it has additional <b>Type</b> and <b>TypeSpecificCompletionOutput</b> members.
+The <b>NDK_RESULT_EX</b> structure returns the results for an NDK request operation. It is identical to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_result">NDK_RESULT</a> structure, except that it has additional <b>Type</b> and <b>TypeSpecificCompletionOutput</b> members.
 
 
 ## -struct-fields
@@ -63,12 +63,12 @@ The NDK request completion status.
 
 ### -field BytesTransferred
 
-The number of bytes transferred. The value of this member  is valid only for <i>NdkReceive</i> (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/nc-ndkpi-ndk_fn_receive">NDK_FN_RECEIVE</a>) request completions. The member is undefined for all other NDK request completions.
+The number of bytes transferred. The value of this member  is valid only for <i>NdkReceive</i> (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_receive">NDK_FN_RECEIVE</a>) request completions. The member is undefined for all other NDK request completions.
 
 
 ### -field QPContext
 
-A context value for all requests that are posted over a queue pair (QP). The NDK consumer specified this  pointer when it called the <i>NdkCreateQp</i> (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/nc-ndkpi-ndk_fn_create_qp">NDK_FN_CREATE_QP</a>) function to create the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/ns-ndkpi-_ndk_qp">NDK_QP</a> object.
+A context value for all requests that are posted over a queue pair (QP). The NDK consumer specified this  pointer when it called the <i>NdkCreateQp</i> (<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_create_qp">NDK_FN_CREATE_QP</a>) function to create the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_qp">NDK_QP</a> object.
 
 
 ### -field RequestContext
@@ -78,7 +78,7 @@ A request context value specified by the NDK consumer when  a request is posted.
 
 ### -field Type
 
-An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/ne-ndkpi-_ndk_operation_type">NDK_OPERATION_TYPE</a> enumeration value that specifies the type of operation that is being completed.
+An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ne-ndkpi-_ndk_operation_type">NDK_OPERATION_TYPE</a> enumeration value that specifies the type of operation that is being completed.
 
 
 ### -field TypeSpecificCompletionOutput
@@ -91,19 +91,19 @@ The type-specific completion output, if any. If the  <b>Type</b> member is <b>Nd
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/nc-ndkpi-ndk_fn_create_qp">NDK_FN_CREATE_QP</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/nc-ndkpi-ndk_fn_create_qp">NDK_FN_CREATE_QP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/ne-ndkpi-_ndk_operation_type">NDK_OPERATION_TYPE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ne-ndkpi-_ndk_operation_type">NDK_OPERATION_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/ns-ndkpi-_ndk_qp">NDK_QP</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_qp">NDK_QP</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndkpi/ns-ndkpi-_ndk_result">NDK_RESULT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndkpi/ns-ndkpi-_ndk_result">NDK_RESULT</a>
  
 
  

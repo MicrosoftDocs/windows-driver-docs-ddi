@@ -45,7 +45,7 @@ ms.custom: RS5
 
 <p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
-The <b>VmbChannelSaveContinue</b> function saves the channel state to a buffer.  Run the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelsavebegin">VmbChannelSaveBegin</a> before you run this function. The driver must check the return value of the function.
+The <b>VmbChannelSaveContinue</b> function saves the channel state to a buffer.  Run the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelsavebegin">VmbChannelSaveBegin</a> before you run this function. The driver must check the return value of the function.
 
 ## -prototype
 
@@ -154,4 +154,4 @@ If the caller did not allocate enough space in advance, multiple calls may be ne
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelsavebegin">VmbChannelSaveBegin</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/vmbuskernelmodeclientlibapi/nf-vmbuskernelmodeclientlibapi-vmbchannelsavebegin">VmbChannelSaveBegin</a>

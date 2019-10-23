@@ -87,7 +87,7 @@ It is possible for <b>FltGetSwappedBufferMdlAddress</b> to return a non-<b>NULL<
 
 It is also possible for <b>FltGetSwappedBufferMdlAddress</b> to return a non-<b>NULL</b> MDL value even if the caller did not swap in a new buffer in its preoperation callback routine. This happens in operations, such as paging I/O, where the buffer is <b>NULL</b>, and the caller swaps in a new MDL address. 
 
-The MDL for the buffer that was swapped in by the caller is automatically freed by the Filter Manager when the postoperation callback routine returns. To prevent this MDL from being freed, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltretainswappedbuffermdladdress">FltRetainSwappedBufferMdlAddress</a>. 
+The MDL for the buffer that was swapped in by the caller is automatically freed by the Filter Manager when the postoperation callback routine returns. To prevent this MDL from being freed, call <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltretainswappedbuffermdladdress">FltRetainSwappedBufferMdlAddress</a>. 
 
 <b>FltGetSwappedBufferMdlAddress</b> can only be called from a postoperation callback routine. 
 
@@ -99,11 +99,11 @@ The MDL for the buffer that was swapped in by the caller is automatically freed 
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltdecodeparameters">FltDecodeParameters</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdecodeparameters">FltDecodeParameters</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/fltkernel/nf-fltkernel-fltretainswappedbuffermdladdress">FltRetainSwappedBufferMdlAddress</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltretainswappedbuffermdladdress">FltRetainSwappedBufferMdlAddress</a>
  
 
  

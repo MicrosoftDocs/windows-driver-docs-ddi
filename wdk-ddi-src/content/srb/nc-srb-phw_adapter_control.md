@@ -89,7 +89,7 @@ The adapter control routine for both SCSI and StorPort miniport drivers are decl
 
 For more information about the SCSI miniport driver's adapter control routine, see <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff557274(v=vs.85)">HwScsiAdapterControl</a>.
 
-For more information about the adapter control routine that is used with the StorPort driver's miniport driver, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_adapter_control">HwStorAdapterControl</a>.
+For more information about the adapter control routine that is used with the StorPort driver's miniport driver, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_adapter_control">HwStorAdapterControl</a>.
 
 
 
@@ -103,7 +103,7 @@ For more information about the adapter control routine that is used with the Sto
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_adapter_control">HwStorAdapterControl</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_adapter_control">HwStorAdapterControl</a>
  
 
  

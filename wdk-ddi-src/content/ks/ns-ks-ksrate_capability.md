@@ -63,5 +63,5 @@ A structure of type <a href="https://docs.microsoft.com/previous-versions/ff5642
 
 ### -field Rate
 
-A structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksrate">KSRATE</a> that specifies the requested rate.
+A structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksrate">KSRATE</a> that specifies the requested rate.
 

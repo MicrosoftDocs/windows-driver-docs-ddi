@@ -48,7 +48,7 @@ req.typenames:
 ## -description
 
 
-The PSDBUS_INITIALIZE_INTERFACE_ROUTINE prototype declares the routine that a Secure Digital (SD) device driver uses to initialize an interface instance that it creates with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddsd/nf-ntddsd-sdbusopeninterface">SdBusOpenInterface</a> routine.
+The PSDBUS_INITIALIZE_INTERFACE_ROUTINE prototype declares the routine that a Secure Digital (SD) device driver uses to initialize an interface instance that it creates with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddsd/nf-ntddsd-sdbusopeninterface">SdBusOpenInterface</a> routine.
 
 
 ## -parameters
@@ -58,7 +58,7 @@ The PSDBUS_INITIALIZE_INTERFACE_ROUTINE prototype declares the routine that a Se
 
 ### -param Context [in]
 
-Contains the interface context that the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddsd/nf-ntddsd-sdbusopeninterface">SdBusOpenInterface</a> routine returns in the <b>Context</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff537923(v=vs.85)">SDBUS_INTERFACE_STANDARD</a> structure.
+Contains the interface context that the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddsd/nf-ntddsd-sdbusopeninterface">SdBusOpenInterface</a> routine returns in the <b>Context</b> member of the <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff537923(v=vs.85)">SDBUS_INTERFACE_STANDARD</a> structure.
 
 
 ### -param InterfaceParameters [in]
@@ -79,7 +79,7 @@ Returns STATUS_SUCCESS if the operation succeeds, or the appropriate error statu
 
 
 
-An SD card driver typically calls its initialization routine immediately after the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddsd/nf-ntddsd-sdbusopeninterface">SdBusOpenInterface</a> routine returns with a value of STATUS_SUCCESS. 
+An SD card driver typically calls its initialization routine immediately after the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddsd/nf-ntddsd-sdbusopeninterface">SdBusOpenInterface</a> routine returns with a value of STATUS_SUCCESS. 
 
 An SD card driver must call its initialization routine before attempting to send requests to the bus driver.
 
@@ -95,7 +95,7 @@ An SD card driver must call its initialization routine before attempting to send
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddsd/nf-ntddsd-sdbusopeninterface">SdBusOpenInterface</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddsd/nf-ntddsd-sdbusopeninterface">SdBusOpenInterface</a>
  
 
  

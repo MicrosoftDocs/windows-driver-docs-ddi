@@ -48,7 +48,7 @@ req.typenames: CIP_DATA_FORMAT_VER2, *PCIP_DATA_FORMAT_VER2
 ## -description
 
 
-This structure is a CIP data format which is used by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/61883/ns-61883-_cmp_connect_ver2">CMP_CONNECT_VER2</a>.
+This structure is a CIP data format which is used by <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/61883/ns-61883-_cmp_connect_ver2">CMP_CONNECT_VER2</a>.
 
 
 ## -struct-fields
@@ -105,7 +105,7 @@ This structure is a CIP data format which is used by <a href="https://docs.micro
 
 #### - Frame
 
-Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/61883/ns-61883-_cip_frame">CIP_FRAME</a> structure that contains information about a frame and a data buffer to be sent or filled.
+Pointer to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/61883/ns-61883-_cip_frame">CIP_FRAME</a> structure that contains information about a frame and a data buffer to be sent or filled.
 
 
 #### - hConnect
@@ -118,7 +118,7 @@ A handle to a connection.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/61883/ns-61883-_av_61883_request">AV_61883_REQUEST</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/61883/ns-61883-_av_61883_request">AV_61883_REQUEST</a>
  
 
  

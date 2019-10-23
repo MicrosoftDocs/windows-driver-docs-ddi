@@ -71,7 +71,7 @@ The pin ID of the topology endpoint.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksmedia/ns-ksmedia-_tagkstopology_endpointidpair">KSTOPOLOGY_ENDPOINTIDPAIR</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksmedia/ns-ksmedia-_tagkstopology_endpointidpair">KSTOPOLOGY_ENDPOINTIDPAIR</a>
  
 
  

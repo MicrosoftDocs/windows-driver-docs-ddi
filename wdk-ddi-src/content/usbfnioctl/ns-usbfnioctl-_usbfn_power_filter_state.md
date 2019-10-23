@@ -76,11 +76,11 @@ Do not use.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbfnioctl/ni-usbfnioctl-ioctl_internal_usbfn_set_power_filter_exit_lpm">IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_EXIT_LPM</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbfnioctl/ni-usbfnioctl-ioctl_internal_usbfn_set_power_filter_exit_lpm">IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_EXIT_LPM</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/usbfnioctl/ni-usbfnioctl-ioctl_internal_usbfn_set_power_filter_state">IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_STATE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/usbfnioctl/ni-usbfnioctl-ioctl_internal_usbfn_set_power_filter_state">IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_STATE</a>
  
 
  

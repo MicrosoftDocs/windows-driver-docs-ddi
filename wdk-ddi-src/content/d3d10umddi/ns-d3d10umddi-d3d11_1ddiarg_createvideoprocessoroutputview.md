@@ -86,7 +86,7 @@ The number of array slices for the texture.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/ns-d3d10umddi-d3d11_1ddiarg_createvideoprocessorinputview">D3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/ns-d3d10umddi-d3d11_1ddiarg_createvideoprocessorinputview">D3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW</a>
  
 
  

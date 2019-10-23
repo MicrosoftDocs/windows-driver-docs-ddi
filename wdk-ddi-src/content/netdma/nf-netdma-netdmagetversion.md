@@ -115,9 +115,9 @@ NetDMA provider drivers can call the
     NetDMA provider in the 
     <b>MajorVersion</b> and 
     <b>MinorVersion</b> members of the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdma/ns-netdma-_net_dma_provider_characteristics">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/ns-netdma-_net_dma_provider_characteristics">
     NET_DMA_PROVIDER_CHARACTERISTICS</a> structure that it passes to the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdma/nf-netdma-netdmaregisterprovider">
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nf-netdma-netdmaregisterprovider">
     NetDmaRegisterProvider</a> function.
 
 <div class="alert"><b>Note</b>  <b>NetDmaGetVersion</b> is not available in NetDMA version 1.0. To avoid using a function import that
@@ -125,7 +125,7 @@ NetDMA provider drivers can call the
     <b>NetDmaGetVersion</b> before it calls 
     <b>NetDmaGetVersion</b>. To call 
     <b>NetDmaGetVersion</b>, first call the 
-    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisgetroutineaddress">NdisGetRoutineAddress</a> function to
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisgetroutineaddress">NdisGetRoutineAddress</a> function to
     get the entry point and then, if 
     <b>NetDmaGetVersion</b> is available, call 
     <b>NetDmaGetVersion</b> at the entry point that 
@@ -143,16 +143,16 @@ NetDMA provider drivers call
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdma/ns-netdma-_net_dma_provider_characteristics">
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/ns-netdma-_net_dma_provider_characteristics">
    NET_DMA_PROVIDER_CHARACTERISTICS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisgetroutineaddress">NdisGetRoutineAddress</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisgetroutineaddress">NdisGetRoutineAddress</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/netdma/nf-netdma-netdmaregisterprovider">NetDmaRegisterProvider</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/netdma/nf-netdma-netdmaregisterprovider">NetDmaRegisterProvider</a>
  
 
  

@@ -64,7 +64,7 @@ The <b>GetCompletedUsbRequestType</b> method retrieves the type of operation tha
 
 
 
-<b>GetCompletedUsbRequestType</b> returns a value of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfusb/ne-wdfusb-_wdf_usb_request_type">WDF_USB_REQUEST_TYPE</a> that identifies the USB request type.
+<b>GetCompletedUsbRequestType</b> returns a value of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/ne-wdfusb-_wdf_usb_request_type">WDF_USB_REQUEST_TYPE</a> that identifies the USB request type.
 
 
 
@@ -74,11 +74,11 @@ The <b>GetCompletedUsbRequestType</b> method retrieves the type of operation tha
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wudfusb/nn-wudfusb-iwdfusbrequestcompletionparams">IWDFUsbRequestCompletionParams</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wudfusb/nn-wudfusb-iwdfusbrequestcompletionparams">IWDFUsbRequestCompletionParams</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfusb/ne-wdfusb-_wdf_usb_request_type">WDF_USB_REQUEST_TYPE</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfusb/ne-wdfusb-_wdf_usb_request_type">WDF_USB_REQUEST_TYPE</a>
  
 
  

@@ -58,12 +58,12 @@ Indicates the type of engine on a GPU node. Note the selection rules discussed i
 
 ### -field DXGK_ENGINE_TYPE_OTHER
 
-The engine does not match any of the other <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmdt/ne-d3dkmdt-dxgk_engine_type">DXGK_ENGINE_TYPE</a> enumeration values. This value is used for proprietary or unique functionality that is not exposed by typical adapters, as well as for an engine that performs work that doesn't fall under another category.
+The engine does not match any of the other <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmdt/ne-d3dkmdt-dxgk_engine_type">DXGK_ENGINE_TYPE</a> enumeration values. This value is used for proprietary or unique functionality that is not exposed by typical adapters, as well as for an engine that performs work that doesn't fall under another category.
 
 
 ### -field DXGK_ENGINE_TYPE_3D
 
-The adapter's 3-D processing engine. All adapters that are not a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/index">display-only device</a> have one 3-D engine.
+The adapter's 3-D processing engine. All adapters that are not a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/index">display-only device</a> have one 3-D engine.
 
 
 ### -field DXGK_ENGINE_TYPE_VIDEO_DECODE

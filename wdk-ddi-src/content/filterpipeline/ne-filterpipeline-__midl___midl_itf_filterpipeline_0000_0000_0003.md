@@ -75,7 +75,7 @@ A fixed page is added to the job.
 
 
 
-A rendering filter uses the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/filterpipeline/nn-filterpipeline-iprintpipelineprogressreport">IPrintPipelineProgressReport</a> interface to send updates to the pipeline. 
+A rendering filter uses the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/filterpipeline/nn-filterpipeline-iprintpipelineprogressreport">IPrintPipelineProgressReport</a> interface to send updates to the pipeline. 
 
 Rendering filters convert XPS to the page description language (PDL). 
 

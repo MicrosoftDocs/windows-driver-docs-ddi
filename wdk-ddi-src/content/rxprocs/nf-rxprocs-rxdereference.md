@@ -125,7 +125,7 @@ If the <b>NodeReferenceCount</b> member decrements to 1 and the <i>LockHoldingSt
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/rxprocs/nf-rxprocs-rxreference">RxReference</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/rxprocs/nf-rxprocs-rxreference">RxReference</a>
 
 
 

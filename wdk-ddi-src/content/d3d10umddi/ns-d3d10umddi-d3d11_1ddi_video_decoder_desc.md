@@ -58,7 +58,7 @@ Describes a video stream for a Microsoft Direct3D video decoder or video process
 
 ### -field Guid
 
-The DXVA decoding profile. To get the list of profiles supported by the device, call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_getvideodecoderprofile">GetVideoDecoderProfile</a> function.
+The DXVA decoding profile. To get the list of profiles supported by the device, call the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_getvideodecoderprofile">GetVideoDecoderProfile</a> function.
 
 
 
@@ -83,7 +83,7 @@ The output surface format, specified as a <b>DXGI_FORMAT</b> value. The <b>DXGI_
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_getvideodecoderprofile">GetVideoDecoderProfile</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_getvideodecoderprofile">GetVideoDecoderProfile</a>
  
 
  

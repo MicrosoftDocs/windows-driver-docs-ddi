@@ -58,7 +58,7 @@ A handle to the display adapter.
 
 ### -param pArgs
 
-The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkargcb_updatecontextallocation">DXGKARGCB_UPDATECONTEXTALLOCATION</a> structure that describes the operation.
+The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkargcb_updatecontextallocation">DXGKARGCB_UPDATECONTEXTALLOCATION</a> structure that describes the operation.
 
 ## -returns
 
@@ -66,9 +66,9 @@ The <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/ns-d3dkmddi-_dxgkargcb_updatecontextallocation">DXGKARGCB_UPDATECONTEXTALLOCATION</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkargcb_updatecontextallocation">DXGKARGCB_UPDATECONTEXTALLOCATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkcb_updatecontextallocation">DxgkCbUpdateContextAllocation</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkcb_updatecontextallocation">DxgkCbUpdateContextAllocation</a>
 

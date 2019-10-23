@@ -46,34 +46,34 @@ Exceptions do exist, as detailed below.
 The buffer that <b>pPrivateDriverData</b> points to is populated with private driver data in a vendor-specific format. To read and process the private data, a tight coupling between user mode driver and the display miniport driver must exist.
 
 ### -field KMTQAITYPE_UMDRIVERNAME
-The <b>pPrivateDriverData</b> member points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_umdfilenameinfo">D3DKMT_UMDFILENAMEINFO</a> structure that is filled with the name of the OpenGL ICD that depends on the particular version of DirectX. Non-DirectX applications can use this name to call the OpenGL ICD directly, although such usage is not recommended.
+The <b>pPrivateDriverData</b> member points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_umdfilenameinfo">D3DKMT_UMDFILENAMEINFO</a> structure that is filled with the name of the OpenGL ICD that depends on the particular version of DirectX. Non-DirectX applications can use this name to call the OpenGL ICD directly, although such usage is not recommended.
 
 ### -field KMTQAITYPE_UMOPENGLINFO
-<b>pPrivateDriverData</b> points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_openglinfo">D3DKMT_OPENGLINFO</a> structure that contains information about the OpenGL ICD.
+<b>pPrivateDriverData</b> points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_openglinfo">D3DKMT_OPENGLINFO</a> structure that contains information about the OpenGL ICD.
 
 ### -field KMTQAITYPE_GETSEGMENTSIZE
-<b>pPrivateDriverData</b> points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_segmentsizeinfo">D3DKMT_SEGMENTSIZEINFO</a> structure that contains information about the size of memory and aperture segments.
+<b>pPrivateDriverData</b> points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_segmentsizeinfo">D3DKMT_SEGMENTSIZEINFO</a> structure that contains information about the size of memory and aperture segments.
 
 ### -field KMTQAITYPE_ADAPTERGUID
 <b>pPrivateDriverData</b> points to a variable that contains the GUID for the adapter.
 
 ### -field KMTQAITYPE_FLIPQUEUEINFO
-<b>pPrivateDriverData</b> points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_flipqueueinfo">D3DKMT_FLIPQUEUEINFO</a> structure that contains information about the queue of flip operations.
+<b>pPrivateDriverData</b> points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_flipqueueinfo">D3DKMT_FLIPQUEUEINFO</a> structure that contains information about the queue of flip operations.
 
 ### -field KMTQAITYPE_ADAPTERADDRESS
-<b>pPrivateDriverData</b> points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_adapteraddress">D3DKMT_ADAPTERADDRESS</a> structure that contains information about the physical location on the PCI bus of the adapter.
+<b>pPrivateDriverData</b> points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_adapteraddress">D3DKMT_ADAPTERADDRESS</a> structure that contains information about the physical location on the PCI bus of the adapter.
 
 ### -field KMTQAITYPE_SETWORKINGSETINFO
-<b>pPrivateDriverData</b> points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_workingsetinfo">D3DKMT_WORKINGSETINFO</a> structure that contains information about the working set.
+<b>pPrivateDriverData</b> points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_workingsetinfo">D3DKMT_WORKINGSETINFO</a> structure that contains information about the working set.
 
 ### -field KMTQAITYPE_ADAPTERREGISTRYINFO
-<b>pPrivateDriverData</b> points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_adapterregistryinfo">D3DKMT_ADAPTERREGISTRYINFO</a> structure that contains registry information about the graphics adapter.
+<b>pPrivateDriverData</b> points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_adapterregistryinfo">D3DKMT_ADAPTERREGISTRYINFO</a> structure that contains registry information about the graphics adapter.
 
 ### -field KMTQAITYPE_CURRENTDISPLAYMODE
-<b>pPrivateDriverData</b> points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_currentdisplaymode">D3DKMT_CURRENTDISPLAYMODE</a> structure that contains the current display mode.
+<b>pPrivateDriverData</b> points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_currentdisplaymode">D3DKMT_CURRENTDISPLAYMODE</a> structure that contains the current display mode.
 
 ### -field KMTQAITYPE_MODELIST
-<b>pPrivateDriverData</b> points to an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_displaymode">D3DKMT_DISPLAYMODE</a> structures for the list of display modes.
+<b>pPrivateDriverData</b> points to an array of <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_displaymode">D3DKMT_DISPLAYMODE</a> structures for the list of display modes.
 
 ### -field KMTQAITYPE_CHECKDRIVERUPDATESTATUS
 <b>pPrivateDriverData</b> points to the driver update status.
@@ -86,17 +86,17 @@ Returns information about virtual addressing support.
 Supported starting with  Windows 7.
 
 ### -field KMTQAITYPE_DRIVERVERSION
-<b>pPrivateDriverData</b> points to a variable that contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ne-d3dkmthk-_qai_driverversion">D3DKMT_DRIVERVERSION</a>-typed value that indicates the version of the display driver model that the display miniport driver supports.
+<b>pPrivateDriverData</b> points to a variable that contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ne-d3dkmthk-_qai_driverversion">D3DKMT_DRIVERVERSION</a>-typed value that indicates the version of the display driver model that the display miniport driver supports.
 
 Supported starting with  Windows 7.
 
 ### -field KMTQAITYPE_ADAPTERTYPE
-<b>pPrivateDriverData</b> points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_adaptertype">D3DKMT_ADAPTERTYPE</a> structure that specifies the  graphics adapter type.
+<b>pPrivateDriverData</b> points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_adaptertype">D3DKMT_ADAPTERTYPE</a> structure that specifies the  graphics adapter type.
 
 Supported starting with  Windows 8.
 
 ### -field KMTQAITYPE_OUTPUTDUPLCONTEXTSCOUNT
-<b>pPrivateDriverData</b> points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_outputduplcontextscount">D3DKMT_OUTPUTDUPLCONTEXTSCOUNT</a> structure that specifies the  number of current <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/desktop-dup-api">Desktop Duplication API</a> (DDA) clients that are attached to a given video present network (VidPN).
+<b>pPrivateDriverData</b> points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_outputduplcontextscount">D3DKMT_OUTPUTDUPLCONTEXTSCOUNT</a> structure that specifies the  number of current <a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/desktop-dup-api">Desktop Duplication API</a> (DDA) clients that are attached to a given video present network (VidPN).
 
 Supported starting with  Windows 8.
 
@@ -106,12 +106,12 @@ Supported starting with  Windows 8.
 Supported starting with  Windows 8.
 
 ### -field KMTQAITYPE_UMD_DRIVER_VERSION
-<b>pPrivateDriverData</b> points to a  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_umd_driver_version">D3DKMT_UMD_DRIVER_VERSION</a> structure that specifies the  user-mode driver version.
+<b>pPrivateDriverData</b> points to a  <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_umd_driver_version">D3DKMT_UMD_DRIVER_VERSION</a> structure that specifies the  user-mode driver version.
 
 Supported starting with  Windows 8.
 
 ### -field KMTQAITYPE_DIRECTFLIP_SUPPORT
-<b>pPrivateDriverData</b> points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3dkmthk/ns-d3dkmthk-_d3dkmt_directflip_support">D3DKMT_DIRECTFLIP_SUPPORT</a> structure that specifies whether the user-mode driver supports Direct Flip operations.
+<b>pPrivateDriverData</b> points to a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_directflip_support">D3DKMT_DIRECTFLIP_SUPPORT</a> structure that specifies whether the user-mode driver supports Direct Flip operations.
 
 Supported starting with  Windows 8.
 

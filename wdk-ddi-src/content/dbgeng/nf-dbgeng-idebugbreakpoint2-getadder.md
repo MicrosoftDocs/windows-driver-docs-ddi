@@ -59,7 +59,7 @@ The <b>GetAdder</b> method returns the client that owns the breakpoint.
 
 ### -param Adder [out]
 
-An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nn-dbgeng-idebugclient">IDebugClient</a> interface pointer to the client object that added the breakpoint.
+An <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nn-dbgeng-idebugclient">IDebugClient</a> interface pointer to the client object that added the breakpoint.
 
 
 ## -returns
@@ -94,7 +94,7 @@ This method can also return error values.  For more information, see <a href="ht
 
 
 
-The client that owns the breakpoint is the client that created the breakpoint by using the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/dbgeng/nf-dbgeng-idebugcontrol3-addbreakpoint">AddBreakpoint</a> method.  A breakpoint might not have an owner. If a breakpoint does not have an owner, <i>Adder</i> is set to <b>NULL</b>.
+The client that owns the breakpoint is the client that created the breakpoint by using the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/dbgeng/nf-dbgeng-idebugcontrol3-addbreakpoint">AddBreakpoint</a> method.  A breakpoint might not have an owner. If a breakpoint does not have an owner, <i>Adder</i> is set to <b>NULL</b>.
 
 For more information about how to use breakpoints, see <a href="https://docs.microsoft.com/windows-hardware/drivers/debugger/using-breakpoints2">Using Breakpoints</a>.
 

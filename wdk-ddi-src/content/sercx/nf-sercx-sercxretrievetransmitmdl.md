@@ -88,7 +88,7 @@ This value is returned if one of the following occurs:
 
 <ul>
 <li>There is no outstanding transmit request to get an MDL from.</li>
-<li>The current number of bytes transmitted (as reported by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sercx/nf-sercx-sercxprogresstransmit">SerCxProgressTransmit</a> method) does not equal zero.</li>
+<li>The current number of bytes transmitted (as reported by the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercxprogresstransmit">SerCxProgressTransmit</a> method) does not equal zero.</li>
 <li>The buffer has already been retrieved (and the corresponding call to the <b>SerCxProgressTransmit</b> method has not yet occurred).</li>
 <li>The MDL has already been retrieved (and the corresponding call to the <b>SerCxProgressTransmit</b> method has not yet occurred).</li>
 </ul>
@@ -104,7 +104,7 @@ This value is returned if one of the following occurs:
 
 
 
-The serial controller driver calls this function to obtain an MDL to use for the current transmit (write) operation. The MDL describes the buffer memory from which the driver is to obtain the data to be transmitted. The driver is the exclusive owner of this MDL until it calls the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sercx/nf-sercx-sercxprogresstransmit">SerCxProgressTransmit</a> method, after which the MDL pointer is invalid and the driver must no longer try to access either the MDL or the buffer memory that the MDL describes.
+The serial controller driver calls this function to obtain an MDL to use for the current transmit (write) operation. The MDL describes the buffer memory from which the driver is to obtain the data to be transmitted. The driver is the exclusive owner of this MDL until it calls the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercxprogresstransmit">SerCxProgressTransmit</a> method, after which the MDL pointer is invalid and the driver must no longer try to access either the MDL or the buffer memory that the MDL describes.
 
 For more information about MDLs, see <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/using-mdls">Using MDLs</a>.
 
@@ -116,7 +116,7 @@ For more information about MDLs, see <a href="https://docs.microsoft.com/windows
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sercx/nf-sercx-sercxprogresstransmit">SerCxProgressTransmit</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sercx/nf-sercx-sercxprogresstransmit">SerCxProgressTransmit</a>
  
 
  

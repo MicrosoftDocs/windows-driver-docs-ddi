@@ -79,7 +79,7 @@ None
 
 The <b>NdisGetCurrentProcessorCpuUsage</b> function returns the average amount of activity on the current processor since the last boot, not the current usage level. This information is not particularly useful. Therefore, we recommend that you don't use <b>NdisGetCurrentProcessorCpuUsage</b> in your driver.
 
-As an alternative, you can use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisgetcurrentprocessorcounts">NdisGetCurrentProcessorCounts</a> to see whether the processor is currently loaded.
+As an alternative, you can use <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisgetcurrentprocessorcounts">NdisGetCurrentProcessorCounts</a> to see whether the processor is currently loaded.
 
 
 
@@ -89,7 +89,7 @@ As an alternative, you can use <a href="https://docs.microsoft.com/windows-hardw
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ndis/nf-ndis-ndisgetcurrentprocessorcounts">NdisGetCurrentProcessorCounts</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisgetcurrentprocessorcounts">NdisGetCurrentProcessorCounts</a>
  
 
  

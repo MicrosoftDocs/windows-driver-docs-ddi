@@ -58,7 +58,7 @@ The <b>IoSetMasterIrpStatus</b> routine conditionally replaces the <b>Status</b>
 
 ### -param MasterIrp [in, out]
 
-A pointer to the master <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_irp">IRP</a>. For more information, see Remarks.
+A pointer to the master <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a>. For more information, see Remarks.
 
 
 ### -param Status [in]
@@ -101,7 +101,7 @@ There are two exceptions to the general rule. A <i>Status</i> value of STATUS_VE
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/ns-wdm-_irp">IRP</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a>
  
 
  

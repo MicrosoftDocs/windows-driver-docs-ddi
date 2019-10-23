@@ -66,7 +66,7 @@ A handle to a framework device object that represents a device's physical device
 
 ### -param AddressDescription [in, out]
 
-A pointer to a caller-allocated buffer that contains an address description. The address description must contain a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfchildlist/ns-wdfchildlist-_wdf_child_address_description_header">WDF_CHILD_ADDRESS_DESCRIPTION_HEADER</a> structure.
+A pointer to a caller-allocated buffer that contains an address description. The address description must contain a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfchildlist/ns-wdfchildlist-_wdf_child_address_description_header">WDF_CHILD_ADDRESS_DESCRIPTION_HEADER</a> structure.
 
 
 ## -returns
@@ -99,7 +99,7 @@ The <i>Device</i> handle does not represent a PDO.
 </dl>
 </td>
 <td width="60%">
-The <i>Device</i> handle does not represent a device that was <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/dynamic-enumeration">dynamically enumerated</a>,or if the <b>Size</b> member of the specified <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfchildlist/ns-wdfchildlist-_wdf_child_address_description_header">WDF_CHILD_ADDRESS_DESCRIPTION_HEADER</a> structure does not match the size of the device's existing address description.
+The <i>Device</i> handle does not represent a device that was <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/dynamic-enumeration">dynamically enumerated</a>,or if the <b>Size</b> member of the specified <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfchildlist/ns-wdfchildlist-_wdf_child_address_description_header">WDF_CHILD_ADDRESS_DESCRIPTION_HEADER</a> structure does not match the size of the device's existing address description.
 
 </td>
 </tr>
@@ -118,7 +118,7 @@ A system bug check occurs if the driver supplies an invalid object handle.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdfpdo/nf-wdfpdo-wdfpdoretrieveaddressdescription">WdfPdoRetrieveAddressDescription</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdfpdo/nf-wdfpdo-wdfpdoretrieveaddressdescription">WdfPdoRetrieveAddressDescription</a>
  
 
  

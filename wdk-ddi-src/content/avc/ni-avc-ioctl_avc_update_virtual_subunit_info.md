@@ -186,19 +186,19 @@ Must be called at IRQL = PASSIVE_LEVEL.
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/avc/ns-avc-_avc_subunit_addr_spec">AVC_SUBUNIT_ADDR_SPEC</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/avc/ns-avc-_avc_subunit_addr_spec">AVC_SUBUNIT_ADDR_SPEC</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/avc/ni-avc-ioctl_avc_bus_reset">IOCTL_AVC_BUS_RESET</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/avc/ni-avc-ioctl_avc_bus_reset">IOCTL_AVC_BUS_RESET</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/avc/ni-avc-ioctl_avc_class">IOCTL_AVC_CLASS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/avc/ni-avc-ioctl_avc_class">IOCTL_AVC_CLASS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/avc/ni-avc-ioctl_avc_remove_virtual_subunit_info">IOCTL_AVC_REMOVE_VIRTUAL_SUBUNIT_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/avc/ni-avc-ioctl_avc_remove_virtual_subunit_info">IOCTL_AVC_REMOVE_VIRTUAL_SUBUNIT_INFO</a>
  
 
  

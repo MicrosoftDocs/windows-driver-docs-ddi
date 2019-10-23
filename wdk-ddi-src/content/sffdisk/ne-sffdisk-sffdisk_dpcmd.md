@@ -48,7 +48,7 @@ req.typenames: SFFDISK_DPCMD
 ## -description
 
 
-The SFFDISK_DPCMD enumeration lists the operations performed by an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/sffdisk/ni-sffdisk-ioctl_sffdisk_device_password">IOCTL_SFFDISK_DEVICE_PASSWORD</a> request.
+The SFFDISK_DPCMD enumeration lists the operations performed by an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/sffdisk/ni-sffdisk-ioctl_sffdisk_device_password">IOCTL_SFFDISK_DEVICE_PASSWORD</a> request.
 
 
 ## -enum-fields

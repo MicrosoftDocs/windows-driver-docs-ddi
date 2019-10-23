@@ -253,10 +253,10 @@ Points to the microdriver's context. The microdriver allocates the buffer pointe
 
 ## -remarks
 
-This structure is used as a parameter in the microdriver's [SetPixelWindow](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamicro/nf-wiamicro-setpixelwindow), and [Scan](https://docs.microsoft.com/windows-hardware/customize/desktop/unattend/security-malware-windows-defender-scan) functions.
+This structure is used as a parameter in the microdriver's [SetPixelWindow](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamicro/nf-wiamicro-setpixelwindow), and [Scan](https://docs.microsoft.com/windows-hardware/customize/desktop/unattend/security-malware-windows-defender-scan) functions.
 
 ## -see-also
 
 [Scan](https://docs.microsoft.com/windows-hardware/customize/desktop/unattend/security-malware-windows-defender-scan)
 
-[SetPixelWindow](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamicro/nf-wiamicro-setpixelwindow)
+[SetPixelWindow](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamicro/nf-wiamicro-setpixelwindow)

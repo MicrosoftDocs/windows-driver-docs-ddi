@@ -58,7 +58,7 @@ The <b>KsFlushClient</b> method flushes information from a pin.
 
 ### -param Pin [in]
 
-Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nn-ksproxy-ikspin">IKsPin</a> interface for the pin from which to flush information.
+Pointer to the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-ikspin">IKsPin</a> interface for the pin from which to flush information.
 
 
 ## -returns
@@ -75,7 +75,7 @@ None
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ksproxy/nn-ksproxy-ikspin">IKsPin</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ksproxy/nn-ksproxy-ikspin">IKsPin</a>
  
 
  

@@ -71,7 +71,7 @@ Note that the <b>DisplayUI</b> property  corresponds to the psk:DisplayUI elemen
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprintschemafeature">IPrintSchemaFeature</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprintschemafeature">IPrintSchemaFeature</a>
  
 
  

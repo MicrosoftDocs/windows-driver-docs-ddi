@@ -49,7 +49,7 @@ req.typenames:
 
 
 Defines operations and properties that can control an instance of the 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nn-wdtf-iwdtftarget2">IWDTFTarget2</a> interface.
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtftarget2">IWDTFTarget2</a> interface.
 
 
 ## -inheritance
@@ -70,7 +70,7 @@ The <b>IWDTFAction2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nf-wdtf-iwdtfconfig2-disableobjecterrorlogging">DisableObjectErrorLogging</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nf-wdtf-iwdtfconfig2-disableobjecterrorlogging">DisableObjectErrorLogging</a>
 </td>
 <td align="left" width="63%">
 Disables object error logging for the action.
@@ -79,7 +79,7 @@ Disables object error logging for the action.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nf-wdtf-iwdtfaction2-disableobjectlogging">DisableObjectLogging</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nf-wdtf-iwdtfaction2-disableobjectlogging">DisableObjectLogging</a>
 </td>
 <td align="left" width="63%">
 Disables object logging for the action.
@@ -88,7 +88,7 @@ Disables object logging for the action.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nf-wdtf-iwdtfaction2-enableobjecterrorlogging">EnableObjectErrorLogging</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nf-wdtf-iwdtfaction2-enableobjecterrorlogging">EnableObjectErrorLogging</a>
 </td>
 <td align="left" width="63%">
 Enables object error logging for the action.
@@ -97,7 +97,7 @@ Enables object error logging for the action.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nf-wdtf-iwdtfaction2-enableobjectlogging">EnableObjectLogging</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nf-wdtf-iwdtfaction2-enableobjectlogging">EnableObjectLogging</a>
 </td>
 <td align="left" width="63%">
 Enables object logging for the action.
@@ -106,7 +106,7 @@ Enables object logging for the action.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nf-wdtf-iwdtfaction2-getstatus">GetStatus</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nf-wdtf-iwdtfaction2-getstatus">GetStatus</a>
 </td>
 <td align="left" width="63%">
 Returns the status code for the last operation.
@@ -115,7 +115,7 @@ Returns the status code for the last operation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nf-wdtf-iwdtfaction2-getstatusstring">GetStatusString</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nf-wdtf-iwdtfaction2-getstatusstring">GetStatusString</a>
 </td>
 <td align="left" width="63%">
 Returns the status for the last operation as a string.
@@ -124,7 +124,7 @@ Returns the status for the last operation as a string.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nf-wdtf-iwdtfaction2-isstatussuccess">IsStatusSuccess</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nf-wdtf-iwdtfaction2-isstatussuccess">IsStatusSuccess</a>
 </td>
 <td align="left" width="63%">
 Gets a value that indicates whether the last operation was successful.
@@ -142,7 +142,7 @@ Gets a value that indicates whether the last operation was successful.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdtf/nf-wdtf-iwdtfaction2-get_target">Target</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/wdtf/nf-wdtf-iwdtfaction2-get_target">Target</a>
 
 
 </td>

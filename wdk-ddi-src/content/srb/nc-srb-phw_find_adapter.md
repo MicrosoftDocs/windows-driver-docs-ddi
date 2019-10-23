@@ -126,7 +126,7 @@ Indicates a supported HBA was found and that the HBA-relevant configuration info
 </dl>
 </td>
 <td width="60%">
-Indicates an HBA was found but there was error obtaining the configuration information. If possible, such an error should be logged with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/srb/nf-srb-scsiportlogerror">ScsiPortLogError</a>.
+Indicates an HBA was found but there was error obtaining the configuration information. If possible, such an error should be logged with <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/srb/nf-srb-scsiportlogerror">ScsiPortLogError</a>.
 
 </td>
 </tr>
@@ -166,7 +166,7 @@ This declaration is used by both SCSI and StorPort miniport drivers.
 
 For more information about the SCSI miniport driver's version of the routine associated with this declaration, see <a href="https://docs.microsoft.com/previous-versions/windows/hardware/drivers/ff557300(v=vs.85)">HwScsiFindAdapter</a>.
 
-For more information about the Storport driver's version of the routine associated with this declaration, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_find_adapter">HwStorFindAdapter</a>.
+For more information about the Storport driver's version of the routine associated with this declaration, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_find_adapter">HwStorFindAdapter</a>.
 
 
 
@@ -180,7 +180,7 @@ For more information about the Storport driver's version of the routine associat
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/storport/nc-storport-hw_find_adapter">HwStorFindAdapter</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/storport/nc-storport-hw_find_adapter">HwStorFindAdapter</a>
  
 
  

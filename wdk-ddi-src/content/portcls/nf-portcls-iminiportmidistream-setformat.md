@@ -58,7 +58,7 @@ The <code>SetFormat</code> method sets the KS data format of the MIDI stream.
 
 ### -param DataFormat [in]
 
-Specifies the new format for the stream. This parameter is a pointer to a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksdataformat">KSDATAFORMAT</a>.
+Specifies the new format for the stream. This parameter is a pointer to a structure of type <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksdataformat">KSDATAFORMAT</a>.
 
 
 ## -returns
@@ -84,11 +84,11 @@ The <code>SetFormat</code> method essentially does nothing because the data form
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/portcls/nn-portcls-iminiportmidistream">IMiniportMidiStream</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/portcls/nn-portcls-iminiportmidistream">IMiniportMidiStream</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ks/ns-ks-ksdataformat">KSDATAFORMAT</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ks/ns-ks-ksdataformat">KSDATAFORMAT</a>
  
 
  

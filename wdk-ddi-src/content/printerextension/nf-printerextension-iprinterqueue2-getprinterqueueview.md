@@ -48,7 +48,7 @@ req.typenames:
 ## -description
 
 
-Retrieves an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprinterqueueview">IPrinterQueueView</a> object, and initializes the object with the range of jobs to be monitored.
+Retrieves an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterqueueview">IPrinterQueueView</a> object, and initializes the object with the range of jobs to be monitored.
 
 This method allows the user to perform job management tasks from within a UWP  device app for printers.
 
@@ -105,8 +105,8 @@ Otherwise, if a call to <b>GetPrinterQueueView</b> results in an error condition
 
 
 
-Only one <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprinterqueueview">IPrinterQueueView</a> object can be retrieved per <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprinterqueue2">IPrinterQueue2</a> object.
-However it is possible to move around the single view that you retrieve. In other words, it is possible to  change the positions of the monitored jobs by invoking <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nf-printerextension-iprinterqueueview-setviewrange">IPrinterQueueView::SetViewRange</a>.
+Only one <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterqueueview">IPrinterQueueView</a> object can be retrieved per <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterqueue2">IPrinterQueue2</a> object.
+However it is possible to move around the single view that you retrieve. In other words, it is possible to  change the positions of the monitored jobs by invoking <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterqueueview-setviewrange">IPrinterQueueView::SetViewRange</a>.
 
 <div class="alert"><b>Note</b>  There is work underway to implement a cap on the maximum size of the printer queue view.</div>
 <div> </div>
@@ -118,11 +118,11 @@ However it is possible to move around the single view that you retrieve. In othe
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprinterqueue2">IPrinterQueue2</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterqueue2">IPrinterQueue2</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/printerextension/nn-printerextension-iprinterqueueview">IPrinterQueueView</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/printerextension/nn-printerextension-iprinterqueueview">IPrinterQueueView</a>
  
 
  

@@ -48,7 +48,7 @@ req.typenames: TAPE_SET_DRIVE_PARAMETERS, *PTAPE_SET_DRIVE_PARAMETERS
 ## -description
 
 
-The TAPE_SET_DRIVE_PARAMETERS structure is used in conjunction with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddtape/ni-ntddtape-ioctl_tape_set_drive_params">IOCTL_TAPE_SET_DRIVE_PARAMS</a> request to adjust the configurable parameters of a tape drive.
+The TAPE_SET_DRIVE_PARAMETERS structure is used in conjunction with the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddtape/ni-ntddtape-ioctl_tape_set_drive_params">IOCTL_TAPE_SET_DRIVE_PARAMS</a> request to adjust the configurable parameters of a tape drive.
 
 
 ## -struct-fields
@@ -95,11 +95,11 @@ The miniclass driver can ignore parameters its device does not support. The call
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntddtape/ni-ntddtape-ioctl_tape_set_drive_params">IOCTL_TAPE_SET_DRIVE_PARAMS</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/ntddtape/ni-ntddtape-ioctl_tape_set_drive_params">IOCTL_TAPE_SET_DRIVE_PARAMS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/minitape/nc-minitape-tape_process_command_routine">TapeMiniSetDriveParameters</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/minitape/nc-minitape-tape_process_command_routine">TapeMiniSetDriveParameters</a>
  
 
  

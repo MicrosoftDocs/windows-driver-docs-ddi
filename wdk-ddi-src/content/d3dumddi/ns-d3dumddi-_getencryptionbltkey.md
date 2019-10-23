@@ -48,7 +48,7 @@ req.typenames: D3DDDIARG_GETENCRYPTIONBLTKEY
 ## -description
 
 
-The _GETENCRYPTIONBLTKEY structure describes an encrypted bit-block transfer (bitblt) session for which the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_getencryptionbltkey">GetEncryptionBltKey</a> function retrieves the encryption key. 
+The _GETENCRYPTIONBLTKEY structure describes an encrypted bit-block transfer (bitblt) session for which the <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_getencryptionbltkey">GetEncryptionBltKey</a> function retrieves the encryption key. 
 
 
 ## -struct-fields
@@ -58,7 +58,7 @@ The _GETENCRYPTIONBLTKEY structure describes an encrypted bit-block transfer (bi
 
 ### -field hCryptoSession
 
-[in] A handle to the encryption session that is created in a call to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession">CreateCryptoSession</a> function. 
+[in] A handle to the encryption session that is created in a call to the driver's <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession">CreateCryptoSession</a> function. 
 
 
 ### -field pReadBackKey
@@ -76,11 +76,11 @@ The _GETENCRYPTIONBLTKEY structure describes an encrypted bit-block transfer (bi
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession">CreateCryptoSession</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession">CreateCryptoSession</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_getencryptionbltkey">GetEncryptionBltKey</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/d3d10umddi/nc-d3d10umddi-pfnd3d11_1ddi_getencryptionbltkey">GetEncryptionBltKey</a>
  
 
  

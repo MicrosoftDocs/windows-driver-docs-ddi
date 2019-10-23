@@ -46,7 +46,7 @@ req.typenames:
 
 ## -description
 
-The **wiasCreateDrvItem** function creates an [IWiaDrvItem Interface](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nn-wiamindr_lh-iwiadrvitem) object.
+The **wiasCreateDrvItem** function creates an [IWiaDrvItem Interface](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nn-wiamindr_lh-iwiadrvitem) object.
 
 ## -parameters
 
@@ -64,7 +64,7 @@ Specifies a string that contains the item name with path information.
 
 ### -param pIMiniDrv [in, out]
 
-Pointer to the [IWiaMiniDrv Interface](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nn-wiamindr_lh-iwiaminidrv) of the current minidriver.
+Pointer to the [IWiaMiniDrv Interface](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nn-wiamindr_lh-iwiaminidrv) of the current minidriver.
 
 ### -param cbDevSpecContext
 
@@ -76,7 +76,7 @@ Pointer to a memory location that receives the address of the device specific co
 
 ### -param ppIWiaDrvItem [out]
 
-Pointer to a memory location that receives the address of an [IWiaDrvItem Interface](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamindr_lh/nn-wiamindr_lh-iwiadrvitem) for the newly created **IWiaDrvItem** object.
+Pointer to a memory location that receives the address of an [IWiaDrvItem Interface](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamindr_lh/nn-wiamindr_lh-iwiadrvitem) for the newly created **IWiaDrvItem** object.
 
 ## -returns
 
@@ -90,4 +90,4 @@ This function creates and initializes an [IWiaDrvItem COM Interface](https://doc
 
 ## -see-also
 
-[wiasCreateChildAppItem](https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wiamdef/nf-wiamdef-wiascreatechildappitem)
+[wiasCreateChildAppItem](https://docs.microsoft.com/windows-hardware/drivers/ddi/wiamdef/nf-wiamdef-wiascreatechildappitem)
